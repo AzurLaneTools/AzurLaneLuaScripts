@@ -1,0 +1,260 @@
+pg = pg or {}
+pg.equip_data_statistics_195 = {
+	[27146] = {
+		id = 27146,
+		base = 27140,
+		ammo_info = {
+			{
+				6,
+				50646
+			},
+			{
+				5,
+				52346
+			}
+		},
+		weapon_id = {
+			27146,
+			82146
+		}
+	},
+	[27147] = {
+		id = 27147,
+		base = 27140,
+		ammo_info = {
+			{
+				6,
+				50647
+			},
+			{
+				5,
+				52347
+			}
+		},
+		weapon_id = {
+			27147,
+			82147
+		}
+	},
+	[27148] = {
+		id = 27148,
+		base = 27140,
+		ammo_info = {
+			{
+				6,
+				50648
+			},
+			{
+				5,
+				52348
+			}
+		},
+		weapon_id = {
+			27148,
+			82148
+		}
+	},
+	[27149] = {
+		id = 27149,
+		base = 27140,
+		ammo_info = {
+			{
+				6,
+				50649
+			},
+			{
+				5,
+				52349
+			}
+		},
+		weapon_id = {
+			27149,
+			82149
+		}
+	},
+	[27150] = {
+		id = 27150,
+		base = 27140,
+		ammo_info = {
+			{
+				6,
+				50650
+			},
+			{
+				5,
+				52350
+			}
+		},
+		weapon_id = {
+			27150,
+			82150
+		}
+	},
+	[27200] = {
+		type = 7,
+		name = "海鬥士",
+		speciality = "空戰",
+		tech = 1,
+		rarity = 1,
+		ammo = 5,
+		nationality = 2,
+		value_2 = 0,
+		id = 27200,
+		value_3 = 0,
+		descrip = "說明未填寫",
+		icon = "27200",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50100
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			27200,
+			82200
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27201] = {
+		id = 27201,
+		base = 27200,
+		ammo_info = {
+			{
+				6,
+				50101
+			}
+		},
+		weapon_id = {
+			27201,
+			82201
+		}
+	},
+	[27202] = {
+		id = 27202,
+		base = 27200,
+		ammo_info = {
+			{
+				6,
+				50102
+			}
+		},
+		weapon_id = {
+			27202,
+			82202
+		}
+	},
+	[27203] = {
+		id = 27203,
+		base = 27200,
+		ammo_info = {
+			{
+				6,
+				50103
+			}
+		},
+		weapon_id = {
+			27203,
+			82203
+		}
+	},
+	[27220] = {
+		rarity = 2,
+		name = "海鬥士",
+		speciality = "空戰",
+		type = 7,
+		tech = 2,
+		ammo = 5,
+		nationality = 2,
+		value_2 = 5,
+		id = 27220,
+		torpedo_ammo = 0,
+		value_3 = 0,
+		descrip = "說明未填寫",
+		icon = "27200",
+		attribute_2 = "air",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50120
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			27220,
+			82220
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27221] = {
+		id = 27221,
+		base = 27220,
+		ammo_info = {
+			{
+				6,
+				50121
+			}
+		},
+		weapon_id = {
+			27221,
+			82221
+		}
+	},
+	[27222] = {
+		id = 27222,
+		base = 27220,
+		ammo_info = {
+			{
+				6,
+				50122
+			}
+		},
+		weapon_id = {
+			27222,
+			82222
+		}
+	}
+}
