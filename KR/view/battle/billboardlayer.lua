@@ -379,7 +379,7 @@ function slot0.willExit(slot0)
 end
 
 function slot0.addRefreshTimer(slot0, slot1, slot2)
-	function ()
+	(function ()
 		if not uv0.refreshTimer then
 			uv0.refreshTimer = {}
 		end
@@ -389,7 +389,7 @@ function slot0.addRefreshTimer(slot0, slot1, slot2)
 
 			uv0.refreshTimer[uv1] = nil
 		end
-	end()
+	end)()
 
 	slot4 = slot0:getRankMsgInfo(slot2)
 	slot0.refreshTimer[slot2] = Timer.New(function ()

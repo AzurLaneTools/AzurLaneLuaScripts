@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_262 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_262[532310] = {
 		recover_time = 0.5,
 		name = "追跡者I型精英輕巡聯裝炮x6散射II",
@@ -2867,4 +2867,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

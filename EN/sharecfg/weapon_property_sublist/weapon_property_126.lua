@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_126 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_126[65561] = {
 		recover_time = 0.5,
 		name = "威悉技能轰炸机Lv1",
@@ -733,4 +733,4 @@ function ()
 		damage = 24,
 		base = 65621
 	}
-end()
+end)()

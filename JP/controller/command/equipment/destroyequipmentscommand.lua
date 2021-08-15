@@ -56,7 +56,7 @@ function slot0.execute(slot0, slot1)
 					slot4 = 0
 
 					for slot9, slot10 in ipairs(uv1) do
-						function (slot0, slot1)
+						(function (slot0, slot1)
 							print("remove: " .. slot0 .. " " .. slot1)
 							uv0:removeEquipmentById(slot0, slot1)
 
@@ -82,7 +82,7 @@ function slot0.execute(slot0, slot1)
 									}))
 								end
 							end
-						end(slot10.id, slot10.count)
+						end)(slot10.id, slot10.count)
 					end
 
 					slot9 = {

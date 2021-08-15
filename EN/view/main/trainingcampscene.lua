@@ -487,11 +487,11 @@ function slot0.setPhrase(slot0)
 	for slot8 = #slot2:getConfig("config_data")[3], 1, -1 do
 		if _.all(slot2[slot8][1], function (slot0)
 			return uv0.taskProxy:getTaskVO(slot0) ~= nil
-		end) or function (slot0)
+		end) or (function (slot0)
 			if slot0 > 1 then
 				return uv1.taskProxy:getFinishTaskById(uv0[slot0 - 1][2]) ~= nil
 			end
-		end(slot8) then
+		end)(slot8) then
 			slot1 = slot8
 
 			break

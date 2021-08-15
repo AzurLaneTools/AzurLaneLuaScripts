@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_349 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_349[950244] = {
 		recover_time = 0,
 		name = "【挑战关卡15】皇家方舟_战斗机弹幕武器",
@@ -2318,4 +2318,4 @@ function ()
 		base = 138,
 		id = 960030
 	}
-end()
+end)()

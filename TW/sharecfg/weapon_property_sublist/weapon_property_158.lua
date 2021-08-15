@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_158 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_158[68673] = {
 		id = 68673,
 		name = "利托里奥弹幕强化PVE-Lv3",
@@ -660,4 +660,4 @@ function ()
 		damage = 98,
 		base = 68731
 	}
-end()
+end)()

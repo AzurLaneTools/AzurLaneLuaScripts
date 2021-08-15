@@ -266,12 +266,12 @@ function slot0.calFoodLeftTime(slot0, slot1)
 	slot2 = table.getCount(slot0.addExpShipVOs)
 
 	if slot1.food <= 0 then
-		function (slot0)
+		(function (slot0)
 			SetActive(uv0.leftTimeTF, true)
 			SetActive(uv0.chatContain, false)
 			SetActive(uv0.bottomText, false)
 			setText(uv0.leftTimeTF, slot0)
-		end(i18n("backyard_backyardGranaryLayer_word"))
+		end)(i18n("backyard_backyardGranaryLayer_word"))
 
 		return
 	end

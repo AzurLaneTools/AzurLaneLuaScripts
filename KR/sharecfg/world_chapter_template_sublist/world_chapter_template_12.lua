@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_chapter_template_12 = {}
 
-function ()
+(function ()
 	uv0.world_chapter_template_12[8690] = {
 		is_auto = 0,
 		name = "虫洞空间4_4(暂不使用)",
@@ -5096,4 +5096,4 @@ function ()
 		terrain = {},
 		world_chapter_buff = {}
 	}
-end()
+end)()

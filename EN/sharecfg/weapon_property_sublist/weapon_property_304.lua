@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_304 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_304[615043] = {
 		recover_time = 0.5,
 		name = "【偶像活动SP5】BOSS-偶像加斯科涅 近程自卫火炮",
@@ -2971,4 +2971,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

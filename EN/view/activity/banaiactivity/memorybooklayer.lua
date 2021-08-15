@@ -138,10 +138,10 @@ function slot6(slot0)
 		end
 	}
 
-	function (slot0)
+	(function (slot0)
 		slot0.root = uv0
 		slot0.list = {}
-	end(slot1)
+	end)(slot1)
 
 	return slot1
 end

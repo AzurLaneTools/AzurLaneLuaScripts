@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_239 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_239[471931] = {
 		recover_time = 0,
 		name = "【异色格B】【飞机】BOSS齐柏林BF109T战斗机弹幕",
@@ -2850,4 +2850,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

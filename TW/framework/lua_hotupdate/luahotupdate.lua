@@ -272,7 +272,7 @@ return {
 			[uv0] = true
 		}
 
-		function (slot0)
+		(function (slot0)
 			if type(slot0) ~= "function" and type(slot0) ~= "table" or uv0[slot0] or uv1.Protection[slot0] then
 				return
 			end
@@ -329,7 +329,7 @@ return {
 					slot0[slot7[1]] = nil
 				end
 			end
-		end(_G)
+		end)(_G)
 
 		slot2 = debug.getregistry()
 
@@ -394,7 +394,7 @@ return {
 	ResetENV = function (slot0, slot1, slot2, slot3)
 		slot4 = {}
 
-		function (slot0, slot1)
+		(function (slot0, slot1)
 			if not slot0 or uv0[slot0] then
 				return
 			end
@@ -417,7 +417,7 @@ return {
 					uv4(slot6, tostring(slot5), " HU.ResetENV ", uv2 .. "    ")
 				end
 			end
-		end(slot0, slot1)
+		end)(slot0, slot1)
 	end,
 	UpdateUpvalue = function (slot0, slot1, slot2, slot3, slot4)
 		uv0.DebugNofity(slot4 .. "HU.UpdateUpvalue", slot2, "  from:" .. slot3)

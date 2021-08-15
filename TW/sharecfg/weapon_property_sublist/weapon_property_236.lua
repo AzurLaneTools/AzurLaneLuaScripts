@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_236 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_236[472121] = {
 		recover_time = 0,
 		name = "【異色格C】【人型】柯尼斯堡-驅逐彈幕",
@@ -2822,4 +2822,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

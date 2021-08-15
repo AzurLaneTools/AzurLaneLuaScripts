@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_239 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_239[473506] = {
 		recover_time = 0,
 		name = "【異色格D】【BOSS】測試者β型-戰列跨射攻擊後排武器3x2輪-簡單",
@@ -2834,4 +2834,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

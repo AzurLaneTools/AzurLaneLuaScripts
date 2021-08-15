@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_305 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_305[616031] = {
 		recover_time = 0.5,
 		name = "【hololive联动TS2】BOSS –领洋者 近程自卫火炮 ",
@@ -2943,4 +2943,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

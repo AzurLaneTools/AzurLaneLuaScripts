@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_328 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_328[729015] = {
 		name = "【2020偶像活动二期】巴尔的摩音符子弹武器5",
 		range = 100,
@@ -1371,4 +1371,4 @@ function ()
 			time = 1
 		}
 	}
-end()
+end)()

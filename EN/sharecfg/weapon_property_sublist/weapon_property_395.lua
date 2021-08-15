@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_395 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_395[2040920] = {
 		recover_time = 0.5,
 		name = "【大世界】深渊BOSS游弋者_剧情s3-5_三角环",
@@ -5784,4 +5784,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

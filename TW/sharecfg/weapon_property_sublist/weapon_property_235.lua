@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_235 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_235[471402] = {
 		recover_time = 0,
 		name = "【異色格B】【BOSS】鐵必制-Q版重巡聯裝主炮x6-輪射II",
@@ -2807,4 +2807,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

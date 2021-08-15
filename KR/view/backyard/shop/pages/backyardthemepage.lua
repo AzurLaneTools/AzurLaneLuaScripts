@@ -293,9 +293,9 @@ function slot0.OnSwitchToNextTheme(slot0)
 		return false
 	end
 
-	if not uv0(slot0.cards, slot0.disPlays[slot1 + 1]) or slot3 and function (slot0)
+	if not uv0(slot0.cards, slot0.disPlays[slot1 + 1]) or slot3 and (function (slot0)
 		return go(uv0.scrollRect).transform.localPosition.x + uv0.scrollRectWidth / 2 < go(uv0.scrollRect).transform.parent:InverseTransformPoint(slot0._tf.position).x
-	end(slot3) then
+	end)(slot3) then
 		slot0.scrollRect:ScrollTo(slot0.scrollRect.value + uv1(slot0.scrollRect, 1, 2), true)
 
 		slot3 = uv0(slot0.cards, slot2)
@@ -313,9 +313,9 @@ function slot0.OnSwitchToPrevTheme(slot0)
 		return false
 	end
 
-	if not uv0(slot0.cards, slot0.disPlays[slot1 - 1]) or slot3 and function (slot0)
+	if not uv0(slot0.cards, slot0.disPlays[slot1 - 1]) or slot3 and (function (slot0)
 		return go(uv0.scrollRect).transform.parent:InverseTransformPoint(slot0._tf.position).x < go(uv0.scrollRect).transform.localPosition.x - uv0.scrollRectWidth / 2
-	end(slot3) then
+	end)(slot3) then
 		slot0.scrollRect:ScrollTo(slot0.scrollRect.value - uv1(slot0.scrollRect, 1, 2), true)
 
 		slot3 = uv0(slot0.cards, slot2)

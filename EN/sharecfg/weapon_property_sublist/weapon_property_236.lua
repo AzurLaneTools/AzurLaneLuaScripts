@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_236 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_236[470162] = {
 		recover_time = 0,
 		name = "【异色格A】【人型】提尔比茨-战列跨射攻击后排武器2x3轮-困难",
@@ -2910,4 +2910,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

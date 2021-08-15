@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_306 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_306[616145] = {
 		recover_time = 0.5,
 		name = "【hololive联动TS5】BOSS-白上吹雪_蓝色箭头",
@@ -3020,4 +3020,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

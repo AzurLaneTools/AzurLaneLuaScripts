@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_343 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_343[793220] = {
 		name = "【2021美系活动D3】BOSS 苍龙·META 一阶段 第四波 轰炸机武器",
 		range = 10,
@@ -1300,4 +1300,4 @@ function ()
 			852107
 		}
 	}
-end()
+end)()

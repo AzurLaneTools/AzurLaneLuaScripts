@@ -107,11 +107,11 @@ function slot0.getTargetLevel(slot0)
 end
 
 function slot0.CanGetAward(slot0)
-	return slot0:CanGetNextAward() and function ()
+	return slot0:CanGetNextAward() and (function ()
 		slot0, slot1, slot2 = uv0:GetResProgress()
 
 		return slot2 >= 1
-	end()
+	end)()
 end
 
 function slot0.CanGetNextAward(slot0)
@@ -126,7 +126,7 @@ function slot0.CanTrain(slot0)
 	slot5 = "target_buff"
 
 	for slot5, slot6 in ipairs(slot0.activity:getDataConfig(slot5)) do
-		if function (slot0)
+		if (function (slot0)
 			for slot4, slot5 in ipairs(uv0.curHasBuffs) do
 				if slot0 == slot5 then
 					return false
@@ -134,7 +134,7 @@ function slot0.CanTrain(slot0)
 			end
 
 			return true
-		end(slot6) and slot6 <= slot0.level + 1 then
+		end)(slot6) and slot6 <= slot0.level + 1 then
 			return slot6
 		end
 	end
@@ -188,7 +188,7 @@ function slot0.GetBuffAwardInfo(slot0, slot1)
 end
 
 function slot0.GetBuffLevelProgress(slot0)
-	slot3, slot4 = function ()
+	slot3, slot4 = (function ()
 		slot3 = "target_buff"
 
 		for slot3, slot4 in ipairs(uv0.activity:getDataConfig(slot3)) do
@@ -200,7 +200,7 @@ function slot0.GetBuffLevelProgress(slot0)
 		uv1 = true
 
 		return #uv0.activity:getDataConfig("target_buff") + 1, 1
-	end()
+	end)()
 	slot6 = (slot3 == 1 and true or false) and 0 or slot0.activity:getDataConfig("target_buff")[slot3 - 1]
 
 	return slot3, false and 1 or (slot0.level - slot6) / (slot4 - slot6)

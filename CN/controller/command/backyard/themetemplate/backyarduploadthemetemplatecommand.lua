@@ -21,7 +21,7 @@ function slot0.execute(slot0, slot1)
 		end)
 	end
 
-	function (slot0)
+	(function (slot0)
 		pg.UIMgr.GetInstance():LoadingOn()
 		seriesAsync({
 			function (slot0)
@@ -42,7 +42,7 @@ function slot0.execute(slot0, slot1)
 			pg.UIMgr.GetInstance():LoadingOff()
 			uv0()
 		end)
-	end(function ()
+	end)(function ()
 		uv0()
 	end)
 end

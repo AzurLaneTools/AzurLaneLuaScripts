@@ -363,7 +363,7 @@ function slot0.PlayAttackAnim(slot0)
 end
 
 function slot0.PlayItemAnim(slot0)
-	function ()
+	(function ()
 		if not uv0.animTimer then
 			return
 		end
@@ -371,7 +371,7 @@ function slot0.PlayItemAnim(slot0)
 		uv0.animTimer:Stop()
 
 		uv0.animTimer = nil
-	end()
+	end)()
 	seriesAsync({
 		function (slot0)
 			uv0.seaItemBoxAnimator:SetAction("move", 0, true)
@@ -539,7 +539,7 @@ function slot0.SeaFire(slot0)
 	slot1 = 1
 	slot2 = nil
 
-	function ()
+	(function ()
 		if uv0.weaponList[uv1] then
 			function slot1()
 				slot0 = 1
@@ -585,7 +585,7 @@ function slot0.SeaFire(slot0)
 
 			uv1 = 1
 		end
-	end()
+	end)()
 end
 
 function slot0.MakeBuff(slot0, slot1)

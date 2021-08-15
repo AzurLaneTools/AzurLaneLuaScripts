@@ -213,13 +213,13 @@ function slot19(slot0, slot1, slot2)
 
 	slot3 = nil
 
-	function ()
+	(function ()
 		if #uv0.loader == 0 then
 			return
 		end
 
 		if not uv0.loader[1].md5 or slot2 == "" then
-			function (slot0)
+			(function (slot0)
 				uv0.callback(slot0)
 				table.remove(uv1.loader, 1)
 
@@ -232,13 +232,13 @@ function slot19(slot0, slot1, slot2)
 				end
 
 				onNextTick(uv3)
-			end(nil)
+			end)(nil)
 		elseif uv0.FileExists(slot0.name) and slot2 == uv3(uv4(uv1)) then
 			uv5(slot0.name, slot2, slot1)
 		else
 			uv6(slot0.name, slot2, slot1)
 		end
-	end()
+	end)()
 end
 
 function slot0.GetTexture(slot0, slot1, slot2)

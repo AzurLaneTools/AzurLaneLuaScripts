@@ -414,7 +414,7 @@ function slot0.deleteStudentVO(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	if slot3.level < slot4.level then
-		function (slot0, slot1, slot2)
+		(function (slot0, slot1, slot2)
 			uv0:updateSkillDesc(uv1, {
 				id = uv2,
 				name = getSkillName(uv2),
@@ -422,7 +422,7 @@ function slot0.deleteStudentVO(slot0, slot1, slot2, slot3, slot4)
 				icon = uv3.icon,
 				exp = slot1 and slot1 or getConfigFromLevel1(pg.skill_need_exp, slot0).exp
 			}, true, slot2)
-		end(slot3.level, nil, true)
+		end)(slot3.level, nil, true)
 		slot0:leanTweenValue(slot12, slot12:GetComponent(typeof(Slider)).value, 1, uv0, 0, function (slot0)
 			uv0.value = slot0
 		end, function ()
@@ -771,7 +771,7 @@ function slot0.showLessonSel(slot0, slot1, slot2, slot3)
 
 	slot10 = getSkillConfig(slot7)
 
-	function (slot0)
+	(function (slot0)
 		if uv0.skills[uv1] then
 			slot1 = Clone(uv0)
 			slot3 = uv0.skills[uv1]
@@ -805,7 +805,7 @@ function slot0.showLessonSel(slot0, slot1, slot2, slot3)
 				desc = getSkillDesc(uv1, uv0.skills[uv1].level)
 			}, true)
 		end
-	end(nil)
+	end)(nil)
 
 	for slot15 = 1, #slot0.itemVOs do
 		slot16 = slot0.lessonContent:GetChild(slot15 - 1)

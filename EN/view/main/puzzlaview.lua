@@ -330,13 +330,13 @@ function slot0.disorganizeStep(slot0)
 	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot0:getBlockItem():getSurroundPosition()) do
-		if slot0:isValidPosition(slot9) and not function (slot0)
+		if slot0:isValidPosition(slot9) and not (function (slot0)
 			if uv0.prevDir then
 				return uv0.prevDir == slot0
 			end
 
 			return false
-		end(slot8) then
+		end)(slot8) then
 			table.insert(slot4, {
 				pos = slot9,
 				dir = uv0[slot8]

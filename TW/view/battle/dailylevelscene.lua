@@ -499,13 +499,13 @@ function slot0.enableDescMode(slot0, slot1, slot2)
 	setActive(slot0:findTF("help_btn"), not slot1)
 
 	if slot1 then
-		function ()
+		(function ()
 			setActive(uv0.listPanel, true)
 			setActive(uv0.content, true)
 			setActive(uv0.descPanel, uv1)
 			setActive(uv0.arrows, not uv1)
-		end()
-		function ()
+		end)()
+		(function ()
 			for slot3, slot4 in pairs(uv0.dailyLevelTFs) do
 				setButtonEnabled(slot4, not uv1)
 
@@ -527,8 +527,8 @@ function slot0.enableDescMode(slot0, slot1, slot2)
 					end
 				end
 			end
-		end()
-		function (slot0, slot1, slot2)
+		end)()
+		(function (slot0, slot1, slot2)
 			if LeanTween.isTweening(go(slot0)) then
 				LeanTween.cancel(go(slot0))
 			end
@@ -538,7 +538,7 @@ function slot0.enableDescMode(slot0, slot1, slot2)
 					uv0()
 				end
 			end))
-		end(slot0.listPanel, -622, function ()
+		end)(slot0.listPanel, -622, function ()
 			uv0(uv1.descMain, 0, uv2)
 		end)
 	else

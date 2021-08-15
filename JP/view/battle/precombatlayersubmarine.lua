@@ -229,7 +229,7 @@ function slot0.switchToEditMode(slot0)
 	setActive(slot0._checkBtn:Find("save"), true)
 	setActive(slot0._checkBtn:Find("edit"), false)
 	slot0:EnableAddGrid(TeamType.Submarine)
-	function (slot0)
+	(function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if tf(slot5):Find("mouseChild") then
 				if slot6:GetComponent("EventTriggerListener") then
@@ -243,7 +243,7 @@ function slot0.switchToEditMode(slot0)
 				end
 			end
 		end
-	end(slot0._characterList[TeamType.Submarine])
+	end)(slot0._characterList[TeamType.Submarine])
 
 	slot0._shiftIndex = nil
 
@@ -384,7 +384,7 @@ function slot0.loadAllCharacter(slot0)
 		end
 	end
 
-	function (slot0, slot1)
+	(function (slot0, slot1)
 		for slot5, slot6 in ipairs(slot0) do
 			slot7 = uv0._shipVOs[slot6]:getPrefab()
 
@@ -395,7 +395,7 @@ function slot0.loadAllCharacter(slot0)
 				end)
 			end)
 		end
-	end(slot0._currentFleetVO.subShips, TeamType.Submarine)
+	end)(slot0._currentFleetVO.subShips, TeamType.Submarine)
 	pg.UIMgr.GetInstance():LoadingOn()
 	parallelAsync({}, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()

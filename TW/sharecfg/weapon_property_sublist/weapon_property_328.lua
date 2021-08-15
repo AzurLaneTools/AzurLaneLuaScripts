@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_328 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_328[741001] = {
 		name = "【DOA联动SP2】精英人形玛丽萝丝 前方扫射弹幕",
 		range = 120,
@@ -1582,4 +1582,4 @@ function ()
 			810111
 		}
 	}
-end()
+end)()

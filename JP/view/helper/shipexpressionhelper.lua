@@ -31,7 +31,7 @@ function slot5(slot0, slot1, slot2, slot3)
 	slot8 = nil
 
 	if uv0[slot0] then
-		slot8 = (not slot3 or not string.find(slot1, "main") or function ()
+		slot8 = (not slot3 or not string.find(slot1, "main") or (function ()
 			if not string.split(uv0, "_")[2] then
 				return nil
 			end
@@ -41,7 +41,7 @@ function slot5(slot0, slot1, slot2, slot3)
 			else
 				return uv3()
 			end
-		end()) and function ()
+		end)()) and (function ()
 			slot1 = nil
 
 			if uv0[uv1] and slot0 ~= "" then
@@ -53,7 +53,7 @@ function slot5(slot0, slot1, slot2, slot3)
 			end
 
 			return slot1
-		end()
+		end)()
 	end
 
 	return slot8

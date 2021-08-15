@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_323 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_323[692701] = {
 		name = "【2020信浓活动困难T2】BOSS 黑高雄 近程自卫火炮III",
 		range = 38,
@@ -1426,4 +1426,4 @@ function ()
 			21050
 		}
 	}
-end()
+end)()

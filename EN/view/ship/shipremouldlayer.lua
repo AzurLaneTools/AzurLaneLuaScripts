@@ -238,7 +238,7 @@ function slot0.updateGridTF(slot0, slot1)
 			uv0.sprite = slot0
 		end
 	end)
-	setActive(slot2:Find("bgs/finished"), function ()
+	setActive(slot2:Find("bgs/finished"), (function ()
 		if uv0 == uv1.max_level then
 			return uv2.STATE_FINISHED
 		elseif uv3 then
@@ -246,7 +246,7 @@ function slot0.updateGridTF(slot0, slot1)
 		else
 			return uv2.STATE_LOCK
 		end
-	end() == uv0.STATE_FINISHED)
+	end)() == uv0.STATE_FINISHED)
 	setActive(slot2:Find("bgs/ongoing"), slot10 == uv0.STATE_ACTIVE)
 	setActive(slot2:Find("bgs/lock"), slot10 == uv0.STATE_LOCK)
 	setActive(slot2:Find("tags/finished"), slot10 == uv0.STATE_FINISHED)

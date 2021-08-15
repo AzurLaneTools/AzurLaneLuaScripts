@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_303 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_303[613056] = {
 		recover_time = 0,
 		name = "【世界BOSSEX】BOSS-骏河 旋转后回笼再飞出去（作废）",
@@ -2878,4 +2878,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

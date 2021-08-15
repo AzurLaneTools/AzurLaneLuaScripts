@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_177 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_177[69638] = {
 		id = 69638,
 		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV8",
@@ -787,4 +787,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

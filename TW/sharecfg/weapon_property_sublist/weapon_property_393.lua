@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_393 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_393[2029915] = {
 		recover_time = 0,
 		name = "【大世界】塞壬航母精英随机_结界系_三角力量（执棋者）",
@@ -3930,4 +3930,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_340 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_340[785003] = {
 		name = "【2021意大利活动EX】BOSS 测试者 第二波 古代罗马史 固定弹",
 		range = 120,
@@ -1681,4 +1681,4 @@ function ()
 			850030
 		}
 	}
-end()
+end)()

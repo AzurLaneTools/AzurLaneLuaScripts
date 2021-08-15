@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_214 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_214[200806] = {
 		recover_time = 0,
 		name = "【大舰队半岛攻略BOSS】净化者 箭头弹幕2",
@@ -2952,4 +2952,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

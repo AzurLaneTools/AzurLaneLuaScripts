@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_340 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_340[784012] = {
 		recover_time = 4,
 		name = "【2021意大利活动SP】BOSS 测试者 后排跨射2",
@@ -1593,4 +1593,4 @@ function ()
 			850121
 		}
 	}
-end()
+end)()

@@ -10,7 +10,7 @@ function slot0.register(slot0)
 		slot7 = false
 		slot8 = false
 
-		function (slot0)
+		(function (slot0)
 			for slot4, slot5 in ipairs(uv0) do
 				if slot0[slot5] then
 					slot7, slot8 = ShipStatus.ShipStatusConflict("inEvent", slot6)
@@ -39,7 +39,7 @@ function slot0.register(slot0)
 			uv6:updateEventList(true)
 
 			uv4.selectedEvent = nil
-		end(slot4:getRawData())
+		end)(slot4:getRawData())
 	end)
 	slot0:bind(EventConst.EVENT_LIST_UPDATE, function (slot0)
 		uv0:updateEventList(true)

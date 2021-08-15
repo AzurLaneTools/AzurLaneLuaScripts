@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_396 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_396[2042501] = {
 		recover_time = 0,
 		name = "【大世界】深渊BOSS重巡_防御形态sp1_雷电扩散弹lv2",
@@ -4269,4 +4269,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

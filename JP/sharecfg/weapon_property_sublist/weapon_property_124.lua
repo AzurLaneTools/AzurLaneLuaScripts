@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_124 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_124[65438] = {
 		id = 65438,
 		name = "穗香-类莫妮卡扑克牌Lv8",
@@ -707,4 +707,4 @@ function ()
 			12009
 		}
 	}
-end()
+end)()

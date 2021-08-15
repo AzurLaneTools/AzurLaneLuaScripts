@@ -268,7 +268,7 @@ end
 
 function slot0.CheckGiftPackage(slot0, slot1)
 	if slot1.genre == ShopArgs.GiftPackage then
-		slot5, slot6, slot7, slot8 = function (slot0)
+		slot5, slot6, slot7, slot8 = (function (slot0)
 			slot1 = 0
 			slot3 = 0
 			slot4 = 0
@@ -288,7 +288,7 @@ function slot0.CheckGiftPackage(slot0, slot1)
 			end
 
 			return slot1, slot2, slot3, slot4
-		end(pg.item_data_statistics[slot1.effect_args[1]].display_icon)
+		end)(pg.item_data_statistics[slot1.effect_args[1]].display_icon)
 		slot9 = getProxy(PlayerProxy):getRawData()
 
 		if slot5 > 0 and slot9:OilMax(slot5) then

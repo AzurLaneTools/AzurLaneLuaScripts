@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_188 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_188[79542] = {
 		id = 79542,
 		name = "专属弹幕-圣女贞德II",
@@ -1863,4 +1863,4 @@ function ()
 			17002
 		}
 	}
-end()
+end)()

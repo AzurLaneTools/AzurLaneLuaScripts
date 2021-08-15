@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_chapter_template_25 = {}
 
-function ()
+(function ()
 	uv0.world_chapter_template_25[1034002] = {
 		is_auto = 1,
 		name = "西南洋脊D",
@@ -8882,4 +8882,4 @@ function ()
 		terrain = {},
 		world_chapter_buff = {}
 	}
-end()
+end)()

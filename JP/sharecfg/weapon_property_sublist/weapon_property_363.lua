@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_363 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_363[1002227] = {
 		recover_time = 0,
 		name = "【精英】执棋者III型 鱼雷机武器T1",
@@ -1645,4 +1645,4 @@ function ()
 			833
 		}
 	}
-end()
+end)()

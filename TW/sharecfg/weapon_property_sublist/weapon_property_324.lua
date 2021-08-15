@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_324 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_324[696604] = {
 		name = "【2020信浓活动普通TS1】BOSS 塞壬探索者II型 双联装炮瞄准",
 		range = 70,
@@ -1282,4 +1282,4 @@ function ()
 			79484
 		}
 	}
-end()
+end)()

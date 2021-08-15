@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_384 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_384[1101072] = {
 		range = 90,
 		name = "【精英】Q版轻巡单发瞄准x3随机I型弹幕3",
@@ -862,4 +862,4 @@ function ()
 		angle = 360,
 		aim_type = 1
 	}
-end()
+end)()

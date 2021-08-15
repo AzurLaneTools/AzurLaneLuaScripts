@@ -103,7 +103,7 @@ function slot0.updatePainting(slot0, slot1, slot2, slot3, slot4)
 			slot7.material = slot0.material1
 
 			slot7.material:SetFloat("_LineDensity", 7)
-			function (slot0)
+			(function (slot0)
 				slot0.material:SetFloat("_LineGray", 0.3)
 				slot0.material:SetFloat("_TearDistance", 0)
 				LeanTween.cancel(slot0.gameObject)
@@ -127,7 +127,7 @@ function slot0.updatePainting(slot0, slot1, slot2, slot3, slot4)
 						uv0.material:SetFloat("_LineGray", 0.4)
 					end
 				end))
-			end(slot7)
+			end)(slot7)
 		end
 	end
 
@@ -167,11 +167,11 @@ function slot0.updateSlider(slot0, slot1)
 		if slot0 == UIItemList.EventUpdate then
 			if slot1 + 1 < uv1 then
 				setActive(uv0:findTF("Arrow", slot2), false)
-				function ()
+				(function ()
 					setActive(uv0, true)
 					setActive(uv1, false)
 					setActive(uv2, false)
-				end()
+				end)()
 			elseif slot1 + 1 == uv1 then
 				setActive(slot6, true)
 				slot9()

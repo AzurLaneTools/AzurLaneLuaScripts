@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_133 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_133[66021] = {
 		reload_max = 3298,
 		name = "厌战技能LV1",
@@ -921,4 +921,4 @@ function ()
 			199803
 		}
 	}
-end()
+end)()

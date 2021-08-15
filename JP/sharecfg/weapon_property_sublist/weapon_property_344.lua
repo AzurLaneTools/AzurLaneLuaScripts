@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_344 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_344[819202] = {
 		reload_max = 2000,
 		name = "【偶像大师联动SP2】精英人形 天海春香 慢速随机飘弹",
@@ -1214,4 +1214,4 @@ function ()
 			5
 		}
 	}
-end()
+end)()

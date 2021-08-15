@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_346 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_346[940071] = {
 		recover_time = 0,
 		name = "【挑战关卡5】绫波_爆炸圆_快",
@@ -3065,4 +3065,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

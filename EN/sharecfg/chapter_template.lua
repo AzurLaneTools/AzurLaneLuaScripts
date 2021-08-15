@@ -2,7 +2,7 @@ pg = pg or {}
 slot0 = pg
 slot0.chapter_template = {}
 
-function ()
+(function ()
 	uv0.chapter_template[101] = {
 		special_operation_list = "",
 		name = "Offshore Exercises",
@@ -59017,8 +59017,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[11002] = {
 		special_operation_list = "",
 		name = "Preemptive Strike",
@@ -122755,8 +122755,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1140001] = {
 		special_operation_list = "",
 		name = "Eve of the Storm",
@@ -188520,8 +188520,8 @@ function ()
 		},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1330021] = {
 		special_operation_list = "",
 		name = "Rescue Fleet",
@@ -261484,8 +261484,8 @@ function ()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1440001] = {
 		special_operation_list = "",
 		name = "March of the Iron Blood",
@@ -332988,8 +332988,8 @@ function ()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1520023] = {
 		special_operation_list = "",
 		name = "Visitor From a Distant Dream",
@@ -401404,8 +401404,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[2100115] = {
 		special_operation_list = "",
 		name = "New Sprout",
@@ -419879,7 +419879,7 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
+end)()
 
 slot0.chapter_template.all = {
 	101,

@@ -149,12 +149,12 @@ function slot0.GetMissFurnitures(slot0, slot1)
 	end
 
 	return {
-		[slot11] = function (slot0)
+		[slot11] = (function (slot0)
 			return {
 				count = 1,
 				name = pg.furniture_data_template[slot0].name
 			}
-		end(slot11)
+		end)(slot11)
 	}
 end
 

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_217 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_217[311078] = {
 		recover_time = 0,
 		name = "第一章第三关boss雾岛武器2",
@@ -2867,4 +2867,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

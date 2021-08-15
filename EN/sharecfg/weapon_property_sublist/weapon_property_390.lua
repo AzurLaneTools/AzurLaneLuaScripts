@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_390 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_390[2013932] = {
 		recover_time = 0.5,
 		name = "【大世界】仲裁者司特莲库斯_储备_双引力场",
@@ -3815,4 +3815,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

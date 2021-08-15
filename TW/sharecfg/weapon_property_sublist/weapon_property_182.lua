@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_182 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_182[76022] = {
 		id = 76022,
 		name = "全弹发射-明斯克级II",
@@ -1725,4 +1725,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

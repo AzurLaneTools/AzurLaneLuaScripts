@@ -29,7 +29,7 @@ function slot0.execute(slot0, slot1)
 
 				for slot9, slot10 in pairs(uv0:GetFleets()) do
 					if slot3 > 0 then
-						table.insert({}, function (slot0, slot1, slot2)
+						table.insert({}, (function (slot0, slot1, slot2)
 							slot3 = getProxy(BayProxy)
 							slot4 = {}
 							slot5 = {}
@@ -49,7 +49,7 @@ function slot0.execute(slot0, slot1)
 								oldships = slot4,
 								newships = slot5
 							}
-						end(slot10, slot3, slot0.intimacy))
+						end)(slot10, slot3, slot0.intimacy))
 					end
 				end
 

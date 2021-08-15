@@ -307,7 +307,7 @@ function slot0.updateChannelSendPop(slot0)
 		end
 	end)
 	slot2:align(#ChatConst.SendChannels)
-	function ()
+	(function ()
 		uv0:each(function (slot0, slot1)
 			if uv0[slot0 + 1] == ChatConst.ChannelGuild and not uv1.inGuild then
 				setButtonEnabled(slot1, false)
@@ -319,7 +319,7 @@ function slot0.updateChannelSendPop(slot0)
 				setImageSprite(slot1:Find("bottom"), uv1.bottomChannelNormalSprite, true)
 			end
 		end)
-	end()
+	end)()
 end
 
 function slot0.updateRoom(slot0)
@@ -347,7 +347,7 @@ function slot0.showChangeRoomPanel(slot0)
 		end
 	end)
 	slot2:align(#ChatConst.SendChannels)
-	function ()
+	(function ()
 		uv0:each(function (slot0, slot1)
 			if uv0[slot0 + 1] == ChatConst.ChannelGuild and not uv1.inGuild then
 				setButtonEnabled(slot1, false)
@@ -359,7 +359,7 @@ function slot0.showChangeRoomPanel(slot0)
 				setImageSprite(slot1, uv1.switchNormalSprite)
 			end
 		end)
-	end()
+	end)()
 
 	slot0.tempRoomRecvBits = uv0.ChannelBits.recv
 	slot5 = UIItemList.New(slot0.roomRecvBtns, slot0.switchTpl)
@@ -377,7 +377,7 @@ function slot0.showChangeRoomPanel(slot0)
 		end
 	end)
 	slot5:align(#ChatConst.RecvChannels)
-	function ()
+	(function ()
 		uv0:each(function (slot0, slot1)
 			if uv0[slot0 + 1] == ChatConst.ChannelGuild and not uv1.inGuild then
 				setButtonEnabled(slot1, false)
@@ -389,7 +389,7 @@ function slot0.showChangeRoomPanel(slot0)
 				setImageSprite(slot1, uv1.switchNormalSprite)
 			end
 		end)
-	end()
+	end)()
 	setActive(slot0.changeRoomPanel, true)
 end
 

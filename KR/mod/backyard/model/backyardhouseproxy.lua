@@ -523,13 +523,13 @@ function slot0.addMoveOnFurnitrue(slot0, slot1, slot2, slot3)
 
 			slot1 = uv2:getSurroundGrid()
 
-			function ()
+			(function ()
 				for slot3, slot4 in ipairs(uv0) do
 					if uv1.data:canMoveBoatOnFurniture(uv2, uv3, slot4) then
 						table.insert(uv4, slot4)
 					end
 				end
-			end()
+			end)()
 
 			if #{} == 0 then
 				uv0:sendNotification(uv4.CANCEL_SHIP_MOVE, {

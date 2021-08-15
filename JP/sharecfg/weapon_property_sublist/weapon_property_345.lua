@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_345 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_345[819508] = {
 		name = "【偶像大师联动VSP】精英人形 如月千早 鱼雷机武器",
 		range = 45,
@@ -1881,4 +1881,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

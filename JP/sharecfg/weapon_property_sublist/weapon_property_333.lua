@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_333 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_333[761003] = {
 		name = "【2020德系活动B1】BOSS 通用旋转子弹弹幕",
 		range = 100,
@@ -1741,4 +1741,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

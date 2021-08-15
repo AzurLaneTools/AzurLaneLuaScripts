@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_384 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_384[1101115] = {
 		range = 100,
 		name = "【精英】Q版战列特殊穿透弹幕1",
@@ -2200,4 +2200,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

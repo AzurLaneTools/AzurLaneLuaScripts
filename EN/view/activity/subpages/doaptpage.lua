@@ -253,7 +253,7 @@ function slot0.showTrianPanel(slot0)
 	onButton(slot0, slot0.trainBtn, function ()
 		uv0:showMsgBox()
 	end, SFX_PANEL)
-	function ()
+	(function ()
 		for slot3, slot4 in ipairs(uv0) do
 			if slot4.next then
 				uv1.selectIndex = slot4.group
@@ -264,7 +264,7 @@ function slot0.showTrianPanel(slot0)
 				return
 			end
 		end
-	end()
+	end)()
 	slot0:flushTrainPanel()
 end
 

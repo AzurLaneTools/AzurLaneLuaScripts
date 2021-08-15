@@ -95,7 +95,7 @@ end
 
 function slot0.Blur(slot0)
 	if slot0.isOnAddition or slot0.isOnSkill then
-		function (slot0)
+		(function (slot0)
 			uv0.blurFlag = slot0
 
 			if slot0 then
@@ -103,7 +103,7 @@ function slot0.Blur(slot0)
 			else
 				pg.UIMgr.GetInstance():UnblurPanel(uv0.blurPanel, uv0.blurPanelParent)
 			end
-		end(true)
+		end)(true)
 	else
 		slot1(false)
 	end

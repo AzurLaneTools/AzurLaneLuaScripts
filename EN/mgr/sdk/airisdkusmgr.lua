@@ -34,7 +34,7 @@ function AiriLogin(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
-		function ()
+		(function ()
 			pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
 				user = User.New({
 					type = 1,
@@ -43,7 +43,7 @@ function AiriLogin(slot0)
 					arg3 = uv0.ACCESS_TOKEN
 				})
 			})
-		end()
+		end)()
 	else
 		print("AiriLogin failed")
 		print(debug.traceback())

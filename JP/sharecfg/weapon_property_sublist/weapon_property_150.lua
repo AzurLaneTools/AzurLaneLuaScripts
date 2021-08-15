@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_150 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_150[67867] = {
 		id = 67867,
 		name = "足柄饿狼技能弹幕弹幕Lv7",
@@ -671,4 +671,4 @@ function ()
 			67929
 		}
 	}
-end()
+end)()

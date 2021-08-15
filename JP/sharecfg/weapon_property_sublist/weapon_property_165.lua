@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_165 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_165[68829] = {
 		id = 68829,
 		name = "时乃空DreamStoryLv9",
@@ -782,4 +782,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

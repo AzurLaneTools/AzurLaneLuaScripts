@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_281 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_281[583003] = {
 		recover_time = 0,
 		name = "【新奧爾良SP3】松風初雪-旋轉子彈散射8連——驅逐",
@@ -2828,4 +2828,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

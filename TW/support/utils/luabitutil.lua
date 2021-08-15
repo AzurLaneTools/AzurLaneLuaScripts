@@ -31,14 +31,14 @@ end
 function slot2(slot0, slot1)
 	slot3 = {}
 
-	function (slot0, slot1)
+	(function (slot0, slot1)
 		if slot0 < uv0 then
 			table.insert(slot1, slot0)
 		else
 			uv1(math.floor(slot0 / uv0), slot1)
 			table.insert(slot1, slot0 % uv0)
 		end
-	end(slot0, slot3, slot1)
+	end)(slot0, slot3, slot1)
 
 	return slot3
 end

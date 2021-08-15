@@ -167,7 +167,7 @@ function slot0.startUpBackyard(slot0, slot1)
 	slot8 = nil
 
 	if not IsNil(slot0.viewComponent._tf:Find(BackYardConst.MAIN_UI_NAME)) then
-		function (slot0)
+		(function (slot0)
 			if pg.backyard and not IsNil(uv0.viewComponent._tf) then
 				uv0.viewComponent.isLoadedMainUI = true
 				slot0.name = BackYardConst.MAIN_UI_NAME
@@ -183,7 +183,7 @@ function slot0.startUpBackyard(slot0, slot1)
 				pg.backyard:registerMediator(BackyardMainMediator.New(uv1))
 				uv1:init(uv0.contextData)
 			end
-		end(slot10)
+		end)(slot10)
 	else
 		PoolMgr.GetInstance():GetUI(BackYardConst.MAIN_UI_NAME, true, slot9)
 	end

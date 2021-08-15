@@ -130,11 +130,11 @@ function slot0.AddLike(slot0)
 end
 
 function slot0.ExistLocalImage(slot0)
-	return BackYardThemeTempalteUtil.FileExists(slot0.id) and function ()
+	return BackYardThemeTempalteUtil.FileExists(slot0.id) and (function ()
 		slot0 = BackYardBaseThemeTemplate.BuildId(uv0.pos)
 
 		return BackYardThemeTempalteUtil.GetMd5(slot0) == uv0.imageMd5 and BackYardThemeTempalteUtil.GetIconMd5(slot0) == uv0.iconImageMd5
-	end()
+	end)()
 end
 
 function slot0.GetRawPutList(slot0)
@@ -258,11 +258,11 @@ function slot0.GetUsableFurnituresForFloor(slot0, slot1, slot2)
 end
 
 function slot0.MatchSearchKey(slot0, slot1)
-	return not string.lower(slot1 or "") or slot1 == "" or function (slot0)
+	return not string.lower(slot1 or "") or slot1 == "" or (function (slot0)
 		return string.find(string.lower(uv0:GetName()), slot0)
-	end(slot1) or function (slot0)
+	end)(slot1) or (function (slot0)
 		return string.find(string.lower(uv0:GetDesc()), slot0)
-	end(slot1)
+	end)(slot1)
 end
 
 return slot0

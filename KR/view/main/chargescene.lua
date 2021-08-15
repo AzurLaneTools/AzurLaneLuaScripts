@@ -1021,7 +1021,7 @@ function slot0.displayShipWord(slot0, slot1, slot2, slot3)
 			slot7.alignment = TextAnchor.MiddleCenter
 		end
 
-		function ()
+		(function ()
 			slot0 = 3
 
 			LeanTween.scale(rtf(uv0.chat.gameObject), Vector3.New(1, 1, 1), 0.3):setFrom(Vector3.New(0, 0, 0)):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
@@ -1039,7 +1039,7 @@ function slot0.displayShipWord(slot0, slot1, slot2, slot3)
 					uv1.chatFlag = nil
 				end
 			end))
-		end()
+		end)()
 	end
 end
 
@@ -1058,13 +1058,13 @@ function slot0.playHeartEffect(slot0)
 end
 
 function slot0.addRefreshTimer(slot0, slot1)
-	function ()
+	(function ()
 		if uv0.refreshTimer then
 			uv0.refreshTimer:Stop()
 
 			uv0.refreshTimer = nil
 		end
-	end()
+	end)()
 
 	slot0.refreshTimer = Timer.New(function ()
 		if uv0 + 1 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then

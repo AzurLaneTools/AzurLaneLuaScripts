@@ -77,11 +77,11 @@ function slot0.Entrance(slot0, slot1)
 	end, function (slot0)
 		if slot0.result == 1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_none"))
-			function ()
+			(function ()
 				uv0:UnlockCacheBoss()
 				uv0:RemoveCacheBoss(uv1.id)
 				pg.m02:sendNotification(GAME.WORLD_BOSS_START_BATTLE_FIALED)
-			end()
+			end)()
 		elseif slot0.result == 3 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_none"))
 			slot1()

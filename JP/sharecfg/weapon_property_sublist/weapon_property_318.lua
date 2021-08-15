@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_318 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_318[670220] = {
 		recover_time = 0,
 		name = "【2020埃塞克斯世界BOSS H难度】 联装主炮",
@@ -3058,4 +3058,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

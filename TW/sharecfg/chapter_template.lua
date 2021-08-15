@@ -2,7 +2,7 @@ pg = pg or {}
 slot0 = pg
 slot0.chapter_template = {}
 
-function ()
+(function ()
 	uv0.chapter_template[101] = {
 		special_operation_list = "",
 		name = "近海演習",
@@ -59001,8 +59001,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[11002] = {
 		special_operation_list = "",
 		name = "先發制人",
@@ -126390,8 +126390,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1190011] = {
 		special_operation_list = "",
 		name = "歸途|~Voyage~",
@@ -190629,8 +190629,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1300023] = {
 		special_operation_list = "",
 		name = "鐵血之謀",
@@ -260005,8 +260005,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[2100063] = {
 		special_operation_list = "",
 		name = "迷惑|～Confuse～",
@@ -296998,7 +296998,7 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
+end)()
 
 slot0.chapter_template.all = {
 	101,

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_119 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_119[65083] = {
 		id = 65083,
 		name = "罗恩μ暗影爪AOE爆炸Lv3",
@@ -686,4 +686,4 @@ function ()
 		damage = 15,
 		base = 65161
 	}
-end()
+end)()

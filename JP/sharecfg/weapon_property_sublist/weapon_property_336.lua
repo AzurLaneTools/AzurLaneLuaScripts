@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_336 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_336[771004] = {
 		recover_time = 0,
 		name = "【2021毛系活动B1】BOSS 梦境塞壬领洋者 主炮集中",
@@ -2031,4 +2031,4 @@ function ()
 			830053
 		}
 	}
-end()
+end)()

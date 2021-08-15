@@ -394,11 +394,11 @@ function slot0.showRewardInfo(slot0)
 		uv0:displayBG()
 	end)
 
-	function ()
+	(function ()
 		if uv0 and coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
 		end
-	end()
+	end)()
 end
 
 function slot0.displayBG(slot0)
@@ -646,7 +646,7 @@ function slot0.displayShips(slot0)
 
 					slot4 = uv2.level
 
-					function (slot0, slot1, slot2, slot3)
+					(function (slot0, slot1, slot2, slot3)
 						LeanTween.value(go(uv0), slot0, slot1, slot2):setOnUpdate(System.Action_float(function (slot0)
 							uv0.fillAmount = slot0
 						end)):setOnComplete(System.Action(function ()
@@ -666,7 +666,7 @@ function slot0.displayShips(slot0)
 								uv5(0, 1, 0.7, true)
 							end
 						end))
-					end(uv2:getExp() / slot0, 1, 0.7, true)
+					end)(uv2:getExp() / slot0, 1, 0.7, true)
 
 					return
 				end

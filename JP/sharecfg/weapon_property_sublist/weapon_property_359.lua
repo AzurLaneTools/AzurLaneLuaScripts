@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_359 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_359[1001230] = {
 		recover_time = 0,
 		name = "【精英】执棋者II型 鱼雷机武器T1",
@@ -1898,4 +1898,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

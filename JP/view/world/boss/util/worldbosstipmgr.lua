@@ -110,13 +110,13 @@ function slot0.IsEnableNotify(slot0, slot1)
 end
 
 function slot0.IsEnable(slot0, slot1)
-	return slot0:IsEnableNotify(slot1) and function ()
+	return slot0:IsEnableNotify(slot1) and (function ()
 		slot1 = getProxy(ContextProxy):getCurrentContext()
 
 		return _.any(uv0, function (slot0)
 			return uv0.mediator.__cname == slot0
 		end)
-	end()
+	end)()
 end
 
 function slot0.Start(slot0)

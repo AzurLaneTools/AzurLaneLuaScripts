@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_309 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_309[619118] = {
 		recover_time = 0,
 		name = "【2020毛系活动B3】塞壬清除者 第三波环形扩散弹幕",
@@ -3016,4 +3016,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

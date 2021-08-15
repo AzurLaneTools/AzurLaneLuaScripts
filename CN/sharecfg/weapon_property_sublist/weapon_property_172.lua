@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_172 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_172[69318] = {
 		id = 69318,
 		name = "土佐Upper二段跨射子母弹PVP-LV8",
@@ -662,4 +662,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

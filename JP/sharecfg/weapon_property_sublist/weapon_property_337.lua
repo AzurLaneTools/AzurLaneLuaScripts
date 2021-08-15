@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_337 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_337[773208] = {
 		name = "【2021毛系活动D3】BOSS 代行者 第四波 棱形弹幕",
 		range = 120,
@@ -1991,4 +1991,4 @@ function ()
 			13
 		}
 	}
-end()
+end)()

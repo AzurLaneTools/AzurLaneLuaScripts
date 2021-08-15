@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_301 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_301[612242] = {
 		recover_time = 0,
 		name = "【意大利活动D3】BOSS-扎拉Q版重巡单发主炮x4-瞄准III",
@@ -2871,4 +2871,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

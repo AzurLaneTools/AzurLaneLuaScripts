@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_chapter_template_10 = {}
 
-function ()
+(function ()
 	uv0.world_chapter_template_10[7700] = {
 		is_auto = 0,
 		name = "第四章大副本_1",
@@ -11919,4 +11919,4 @@ function ()
 		},
 		world_chapter_buff = {}
 	}
-end()
+end)()

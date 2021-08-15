@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_287 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_287[593411] = {
 		recover_time = 0,
 		name = "【法系活动D4】【BOSS】让巴尔 近战大魄力火炮(伤害高）",
@@ -2881,4 +2881,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

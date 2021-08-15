@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_232 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_232[330703] = {
 		recover_time = 0.5,
 		name = "第12章BOSS摩耶 -四联装鱼雷III",
@@ -2878,4 +2878,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

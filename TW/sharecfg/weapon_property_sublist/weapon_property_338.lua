@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_338 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_338[781207] = {
 		recover_time = 0.5,
 		name = "【2021意大利活动B3】测试者·雷 聚焦激光（雷电）",
@@ -1426,4 +1426,4 @@ function ()
 			690138
 		}
 	}
-end()
+end)()

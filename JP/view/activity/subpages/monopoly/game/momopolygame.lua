@@ -614,7 +614,7 @@ function slot0.triggerEvent(slot0, slot1, slot2, slot3)
 		function (slot0)
 			slot1 = nil
 
-			function ()
+			(function ()
 				if not uv0 or uv0:isEmpty() then
 					uv1()
 
@@ -634,7 +634,7 @@ function slot0.triggerEvent(slot0, slot1, slot2, slot3)
 						uv4(uv2, uv5)
 					end, true)
 				end)
-			end()
+			end)()
 		end
 	}, slot3)
 end

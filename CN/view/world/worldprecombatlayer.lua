@@ -267,7 +267,7 @@ function slot0.UpdateInformationtab(slot0)
 
 		uv1()
 	end)
-	function ()
+	(function ()
 		for slot3 = 1, #uv0.dropitems do
 			setActive(uv0.dropitems[slot3]:Find("item_tpl"), uv1[slot3 + uv2] ~= nil)
 
@@ -284,7 +284,7 @@ function slot0.UpdateInformationtab(slot0)
 
 		setActive(uv0.dropleft, uv2 > 0)
 		setActive(uv0.dropright, #uv1 - uv2 > #uv0.dropitems)
-	end()
+	end)()
 
 	slot9 = ys.Battle.BattleFormulas
 	slot10 = nowWorld:GetWorldMapDifficultyBuffLevel()

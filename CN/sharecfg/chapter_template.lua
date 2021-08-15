@@ -2,7 +2,7 @@ pg = pg or {}
 slot0 = pg
 slot0.chapter_template = {}
 
-function ()
+(function ()
 	uv0.chapter_template[101] = {
 		special_operation_list = "",
 		name = "近海演习",
@@ -58950,8 +58950,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[11002] = {
 		special_operation_list = "",
 		name = "先发制人",
@@ -121982,8 +121982,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1110002] = {
 		special_operation_list = "",
 		name = "异变",
@@ -186797,8 +186797,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1320001] = {
 		special_operation_list = "",
 		name = "黎明前的号炮",
@@ -259360,8 +259360,8 @@ function ()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1420002] = {
 		special_operation_list = "",
 		name = "迎敌",
@@ -330096,8 +330096,8 @@ function ()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1500051] = {
 		special_operation_list = "",
 		name = "「复兴的赞美诗」",
@@ -398875,8 +398875,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[2100095] = {
 		special_operation_list = "",
 		name = "正义的怒吼",
@@ -431906,7 +431906,7 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
+end)()
 
 slot0.chapter_template.all = {
 	101,

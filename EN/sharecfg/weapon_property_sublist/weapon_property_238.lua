@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_238 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_238[471201] = {
 		recover_time = 0.5,
 		name = "【异色格B】【BOSS】Z46-Q版驱逐单发瞄准x4随机II",
@@ -2903,4 +2903,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

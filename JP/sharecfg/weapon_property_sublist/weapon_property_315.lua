@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_315 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_315[650133] = {
 		recover_time = 0,
 		name = "【2020法系活动B3】阿尔及利亚 第一/三波 强化三方向包围弹幕(暴走)",
@@ -3158,4 +3158,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

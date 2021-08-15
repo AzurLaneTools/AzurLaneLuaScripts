@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_341 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_341[790207] = {
 		aim_type = 1,
 		name = "【2021美系活动A3】BOSS 加贺 环绕弹",
@@ -1487,4 +1487,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

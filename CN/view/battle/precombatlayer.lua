@@ -165,14 +165,14 @@ function slot0.SetStageID(slot0, slot1)
 		slot2.objective_3
 	}) do
 		if type(slot13) ~= "string" then
-			function (slot0, slot1)
+			(function (slot0, slot1)
 				if type(slot0) == "table" then
 					setActive(slot1, true)
 					setWidgetText(slot1, i18n(uv0.ObjectiveList[slot0[1]], slot0[2]))
 				else
 					setActive(slot1, false)
 				end
-			end(slot13, slot6[slot8])
+			end)(slot13, slot6[slot8])
 
 			slot8 = slot8 + 1
 		end
@@ -772,12 +772,12 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 						slot3, slot4 = uv1._currentFleetVO:getShipPos(uv2)
 
 						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", uv2:getConfigTable().name, uv1._currentFleetVO.name, Fleet.C_TEAM_NAME[slot4]))
-						function ()
+						(function ()
 							tf(uv0):SetParent(uv1._heroContainer, false)
 							uv1:emit(PreCombatMediator.CHANGE_FLEET_SHIPS_ORDER, uv1._currentFleetVO)
 							uv1:switchToEditMode()
 							uv1:sortSiblingIndex()
-						end()
+						end)()
 					else
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							zIndex = -100,

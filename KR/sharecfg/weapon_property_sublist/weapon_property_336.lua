@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_336 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_336[773101] = {
 		range = 75,
 		name = "【2021毛系活动D2】BOSS 梦境塞壬破局者 前排跨射",
@@ -2137,4 +2137,4 @@ function ()
 			690108
 		}
 	}
-end()
+end)()

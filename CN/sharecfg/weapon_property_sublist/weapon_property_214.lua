@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_214 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_214[201106] = {
 		recover_time = 0,
 		name = "【大舰队达古康纳尔BOSS】构建者 第二波自机狙子弹",
@@ -2818,4 +2818,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

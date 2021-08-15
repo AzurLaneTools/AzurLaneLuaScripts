@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_305 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_305[616080] = {
 		recover_time = 0.5,
 		name = "【hololive联动T3】BOSS-大神澪 近程自卫火炮",
@@ -2954,4 +2954,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

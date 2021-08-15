@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_328 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_328[743003] = {
 		name = "【DOA联动SP4】精英人形霞 大范围主炮",
 		range = 120,
@@ -2036,4 +2036,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

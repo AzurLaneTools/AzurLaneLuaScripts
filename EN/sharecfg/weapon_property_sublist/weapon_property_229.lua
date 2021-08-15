@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_229 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_229[318109] = {
 		recover_time = 0,
 		name = "【第八章】舰船常规鱼雷3连——鱼雷艇",
@@ -2872,4 +2872,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_277 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_277[569062] = {
 		recover_time = 0.5,
 		name = "【長門陸奧活動C】【人型】雪風四聯裝魚雷III",
@@ -2830,4 +2830,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

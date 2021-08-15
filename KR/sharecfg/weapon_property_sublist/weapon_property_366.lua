@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_366 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_366[1003169] = {
 		id = 1003169,
 		name = "【精英】梦境破局者 2颗炮弹3轮攻击后排 IV",
@@ -645,4 +645,4 @@ function ()
 			130992
 		}
 	}
-end()
+end)()

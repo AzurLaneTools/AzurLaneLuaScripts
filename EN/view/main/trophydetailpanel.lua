@@ -63,7 +63,7 @@ function slot0.UpdateTrophy(slot0, slot1)
 	LoadImageSpriteAsync("medal/" .. slot1:getConfig("label"), slot0._nameLabel, true)
 
 	if not slot1:isComplexTrophy() then
-		function (slot0, slot1)
+		(function (slot0, slot1)
 			setText(findTF(slot0, "desc"), slot1:getConfig("condition"))
 
 			slot2, slot3 = slot1:getProgress()
@@ -73,7 +73,7 @@ function slot0.UpdateTrophy(slot0, slot1)
 			else
 				setText(findTF(slot0, "progress"), slot1:isDummy() and "" or "[" .. slot2 .. "/" .. slot3 .. "]")
 			end
-		end(cloneTplTo(slot0._conditionTpl, slot0._conditionList), slot1)
+		end)(cloneTplTo(slot0._conditionTpl, slot0._conditionList), slot1)
 	else
 		for slot6, slot7 in pairs(slot1:getSubTrophy()) do
 			slot2(cloneTplTo(slot0._conditionTpl, slot0._conditionList), slot7)

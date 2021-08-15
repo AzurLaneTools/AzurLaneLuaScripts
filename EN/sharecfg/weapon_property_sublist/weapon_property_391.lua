@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_391 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_391[2022611] = {
 		recover_time = 0,
 		name = "【大世界】皇家轻巡精英专属_火焰羽衣（贝尔法斯特）",
@@ -3782,4 +3782,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

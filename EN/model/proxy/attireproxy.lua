@@ -220,7 +220,7 @@ function slot0.needTip(slot0)
 		slot2.trophys
 	}) do
 		if slot8 == 1 or slot8 == 2 then
-			table.insert(slot1, function (slot0)
+			table.insert(slot1, (function (slot0)
 				slot1 = false
 
 				for slot5, slot6 in pairs(slot0) do
@@ -232,7 +232,7 @@ function slot0.needTip(slot0)
 				end
 
 				return slot1
-			end(slot9))
+			end)(slot9))
 		else
 			table.insert(slot1, false)
 		end

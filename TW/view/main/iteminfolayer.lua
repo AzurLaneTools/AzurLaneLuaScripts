@@ -348,10 +348,10 @@ function slot0.didEnter(slot0)
 
 		uv1()
 	end)
-	function ()
+	(function ()
 		uv0:UpdateBlueprintResolveNum()
 		uv0:SetOperateCount(1)
-	end()
+	end)()
 end
 
 function slot0.UpdateCount(slot0, slot1)

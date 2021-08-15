@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_238 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_238[471142] = {
 		recover_time = 0,
 		name = "【异色格B】【人型】希佩尔-Q版重巡单发主炮x4-瞄准II",
@@ -2865,4 +2865,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

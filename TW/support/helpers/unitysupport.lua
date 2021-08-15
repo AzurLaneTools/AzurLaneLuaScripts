@@ -345,7 +345,7 @@ function SetCompomentEnabled(slot0, slot1, slot2)
 end
 
 function GetInChildren(slot0, slot1)
-	return function (slot0, slot1)
+	return (function (slot0, slot1)
 		if not slot0 then
 			return nil
 		end
@@ -365,7 +365,7 @@ function GetInChildren(slot0, slot1)
 		end
 
 		return nil
-	end(slot0, slot1)
+	end)(slot0, slot1)
 end
 
 function onNextTick(slot0)
@@ -381,7 +381,7 @@ function seriesAsync(slot0, slot1)
 	slot3 = #slot0
 	slot4 = nil
 
-	function (...)
+	(function (...)
 		uv0 = uv0 + 1
 
 		if uv0 <= uv1 then
@@ -389,19 +389,19 @@ function seriesAsync(slot0, slot1)
 		elseif uv4 then
 			uv4(...)
 		end
-	end()
+	end)()
 end
 
 function seriesAsyncExtend(slot0, slot1)
 	slot2 = nil
 
-	function (...)
+	(function (...)
 		if #uv0 > 0 then
 			table.remove(uv0, 1)(uv1, ...)
 		elseif uv2 then
 			uv2(...)
 		end
-	end()
+	end)()
 end
 
 function parallelAsync(slot0, slot1)

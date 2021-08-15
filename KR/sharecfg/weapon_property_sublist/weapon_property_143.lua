@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_143 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_143[67226] = {
 		id = 67226,
 		name = "日向改技能LV6",
@@ -708,4 +708,4 @@ function ()
 			67343
 		}
 	}
-end()
+end)()

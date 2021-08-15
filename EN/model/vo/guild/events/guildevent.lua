@@ -46,7 +46,7 @@ function slot0.Active(slot0, slot1)
 	slot4 = 0
 
 	for slot9, slot10 in ipairs(slot1.base_events) do
-		function (slot0)
+		(function (slot0)
 			if uv0 < GuildMission.New(slot0):GetPosition() then
 				uv0 = slot2
 			end
@@ -64,7 +64,7 @@ function slot0.Active(slot0, slot1)
 			end
 
 			table.insert(uv1.missions[slot2], slot1)
-		end(slot10)
+		end)(slot10)
 	end
 
 	for slot9, slot10 in ipairs(slot1.completed_events) do

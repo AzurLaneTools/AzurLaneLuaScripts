@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_329 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_329[744105] = {
 		reload_max = 6000,
 		name = "【DOA联动VSP】BOSS 莫妮卡 fever 扫射纸牌弹幕 第一波",
@@ -2474,4 +2474,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

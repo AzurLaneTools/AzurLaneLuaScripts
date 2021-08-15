@@ -153,13 +153,13 @@ function slot0.updateTecItem(slot0, slot1)
 
 	if not slot0.tecList[slot1] then
 		if slot24 <= slot23 then
-			function (slot0, slot1, slot2)
+			(function (slot0, slot1, slot2)
 				setActive(uv0, slot0)
 				setActive(uv1, slot1)
 				setActive(uv2, slot1)
 				setActive(uv3, slot1)
 				setActive(uv4, slot2)
-			end(false, true, false)
+			end)(false, true, false)
 		else
 			slot25(true, false, false)
 		end

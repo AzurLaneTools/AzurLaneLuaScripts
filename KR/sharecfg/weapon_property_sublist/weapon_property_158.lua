@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_158 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_158[68395] = {
 		reload_max = 505,
 		name = "科隆改直升机Lv5",
@@ -700,4 +700,4 @@ function ()
 			80713
 		}
 	}
-end()
+end)()

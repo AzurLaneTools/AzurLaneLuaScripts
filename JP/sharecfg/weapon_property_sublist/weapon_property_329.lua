@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_329 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_329[742111] = {
 		reload_max = 300,
 		name = "【DOA联动SP3】BOSS 穗香 fever 后排跨射1",
@@ -1897,4 +1897,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

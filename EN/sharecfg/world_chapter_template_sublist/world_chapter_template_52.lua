@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_chapter_template_52 = {}
 
-function ()
+(function ()
 	uv0.world_chapter_template_52[141580] = {
 		is_auto = 0,
 		name = "深渊碎片海域极难-5-破坏者",
@@ -7571,4 +7571,4 @@ function ()
 		},
 		world_chapter_buff = {}
 	}
-end()
+end)()

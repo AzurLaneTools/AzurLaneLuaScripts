@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_389 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_389[2008420] = {
 		recover_time = 0,
 		name = "【大世界】据点BOSS破局者III型_p2_高爆跨射后排",
@@ -5438,4 +5438,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

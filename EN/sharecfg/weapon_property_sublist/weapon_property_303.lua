@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_303 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_303[613034] = {
 		recover_time = 0.5,
 		name = "【世界BOSS困难】BOSS-骏河 特殊弹幕（鱼雷",
@@ -2938,4 +2938,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

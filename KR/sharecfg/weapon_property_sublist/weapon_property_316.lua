@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_316 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_316[650420] = {
 		recover_time = 0,
 		name = "【2020法系活动SP】加斯科涅 第三波 前排跨射",
@@ -2994,4 +2994,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

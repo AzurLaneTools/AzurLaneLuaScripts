@@ -150,7 +150,7 @@ end
 function slot0.PositionIsChanged(slot0, slot1, slot2)
 	slot5 = slot0:GetShipByPos(slot2)
 
-	if (slot1:GetShipByPos(slot2) and slot4.id or 0) ~= (slot5 and slot5.id or 0) or function (slot0, slot1)
+	if (slot1:GetShipByPos(slot2) and slot4.id or 0) ~= (slot5 and slot5.id or 0) or (function (slot0, slot1)
 		if slot0 and slot1 and slot0.id == slot1.id then
 			for slot5, slot6 in ipairs(slot0.equipments) do
 				if (slot6 and 1 or 0) ~= (slot1.equipments[slot5] and 1 or 0) or slot8 == slot9 and slot8 == 1 and slot6.id ~= slot7.id then
@@ -160,7 +160,7 @@ function slot0.PositionIsChanged(slot0, slot1, slot2)
 		end
 
 		return false
-	end(slot4, slot5) then
+	end)(slot4, slot5) then
 		return true
 	end
 

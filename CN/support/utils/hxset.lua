@@ -61,15 +61,15 @@ end
 
 function slot0.calcLocalizationUse()
 	if PLATFORM_CODE == PLATFORM_CH then
-		if uv0.codeMode and not function ()
+		if uv0.codeMode and not (function ()
 			return PlayerPrefs.GetInt("localization_use", 0) > 0
-		end() then
+		end)() then
 			pg.m02:sendNotification(GAME.CHEATER_MARK, {
 				reason = CC_TYPE_99
 			})
-			function (slot0)
+			(function (slot0)
 				PlayerPrefs.SetInt("localization_use", slot0 and 1 or 0)
-			end(true)
+			end)(true)
 		end
 	end
 end

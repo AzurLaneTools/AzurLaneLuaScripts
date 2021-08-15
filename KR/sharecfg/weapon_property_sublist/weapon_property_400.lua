@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_400 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_400[2140001] = {
 		recover_time = 0.5,
 		name = "【大世界】新手BOSS大黄蜂_特殊弹幕",
@@ -4678,8 +4678,8 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.weapon_property_400[2950005] = {
 		recover_time = 0.5,
 		name = "【大世界】黑方舟_浮游炮3用_炸弹投放",
@@ -13410,8 +13410,8 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.weapon_property_400[2965023] = {
 		recover_time = 0.5,
 		name = "【大世界】黑方舟 第一波 飞机 LV4",
@@ -16737,8 +16737,8 @@ function ()
 			29644017
 		}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.weapon_property_400[2966043] = {
 		name = "【大世界】黑海伦娜 第二波 小激光束 LV4",
 		range = 120,
@@ -20013,4 +20013,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

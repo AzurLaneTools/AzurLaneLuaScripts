@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_342 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_342[793213] = {
 		name = "【2021美系活动D3】BOSS 苍龙·META 二阶段 第二波 大范围强化剑气",
 		range = 120,
@@ -1297,4 +1297,4 @@ function ()
 			13
 		}
 	}
-end()
+end)()

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_323 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_323[691803] = {
 		name = "【2020信浓活动普通T6】BOSS 测试者 浮游炮紫色扩散弹幕",
 		range = 120,
@@ -1488,4 +1488,4 @@ function ()
 			770008
 		}
 	}
-end()
+end)()

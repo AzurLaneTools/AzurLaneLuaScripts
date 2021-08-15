@@ -191,7 +191,7 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 
 	slot10 = uv0.Packer.GetInstance():GetProtocolWithName("cs_" .. slot1)
 
-	function (slot0, slot1)
+	(function (slot0, slot1)
 		for slot5, slot6 in pairs(slot1) do
 			if type(slot6) == "table" then
 				for slot10, slot11 in ipairs(slot6) do
@@ -205,7 +205,7 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 				slot0[slot5] = slot6
 			end
 		end
-	end(slot10:GetMessage(), slot2)
+	end)(slot10:GetMessage(), slot2)
 
 	if slot5 then
 		slot8:Send(uv0.Packer.GetInstance():Pack(slot9, slot10:GetId(), slot12))

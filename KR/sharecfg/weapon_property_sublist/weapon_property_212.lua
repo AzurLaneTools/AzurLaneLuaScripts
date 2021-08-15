@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_212 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_212[100729] = {
 		recover_time = 5,
 		name = "美系舰载鱼雷机V",
@@ -2846,4 +2846,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

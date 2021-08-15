@@ -40,9 +40,9 @@ end
 
 function slot0.openTreePanel(slot0, slot1)
 	if slot0.treePanel:GetLoaded() then
-		function ()
+		(function ()
 			uv0.treePanel:ActionInvoke("openTreePanel", uv1)
-		end()
+		end)()
 	else
 		slot0.treePanel:Load()
 		slot0.treePanel:CallbackInvoke(slot2)
@@ -91,9 +91,9 @@ function slot0.openMsgBox(slot0, slot1)
 	slot0.isShowMsgBox = true
 
 	if slot0.msgbox:GetLoaded() then
-		function ()
+		(function ()
 			uv0.msgbox:ActionInvoke("OnUpdate", uv1)
-		end()
+		end)()
 	else
 		slot0.msgbox:Load()
 		slot0.msgbox:CallbackInvoke(slot2)

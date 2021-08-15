@@ -75,7 +75,7 @@ function slot0.addExpireTimer(slot0, slot1)
 	end
 
 	if slot1:getExpireTime() - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-		function ()
+		(function ()
 			table.insert(uv0.cacheSkins, uv1)
 			uv0:removeSkinById(uv1.id)
 			_.each(getProxy(BayProxy):getShips(), function (slot0)
@@ -86,7 +86,7 @@ function slot0.addExpireTimer(slot0, slot1)
 				end
 			end)
 			uv0:sendNotification(GAME.SHIP_SKIN_EXPIRED)
-		end()
+		end)()
 	else
 		slot0.timers[slot1.id] = Timer.New(slot2, slot3, 1)
 
@@ -154,9 +154,9 @@ end
 function slot0.GetAllSkins(slot0)
 	for slot6, slot7 in ipairs(pg.shop_template.all) do
 		if pg.shop_template[slot7].genre == ShopArgs.SkinShop or slot8 == ShopArgs.SkinShopTimeLimit then
-			function (slot0)
+			(function (slot0)
 				slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
-			end(Goods.Create({
+			end)(Goods.Create({
 				shop_id = slot7
 			}, Goods.TYPE_SKIN))
 

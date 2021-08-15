@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_366 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_366[1003265] = {
 		id = 1003265,
 		name = "【精英】梦境潜伏者 红黑色上下排子母弹 V",
@@ -2004,4 +2004,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

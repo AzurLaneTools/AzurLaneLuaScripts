@@ -106,12 +106,12 @@ function slot19(slot0, slot1)
 		end
 	}
 
-	function (slot0)
+	(function (slot0)
 		slot0._go = uv0
 		slot0._root = uv1
 		slot0.maxCnt = 20
 		slot0.stack = {}
-	end(slot2)
+	end)(slot2)
 
 	return slot2
 end
@@ -139,12 +139,12 @@ function slot20(slot0)
 		end
 	}
 
-	function (slot0)
+	(function (slot0)
 		slot0.root = uv0
 		slot0.white = uv0:Find("white")
 		slot0.black = uv0:Find("black")
 		slot0.pools = {}
-	end(slot1)
+	end)(slot1)
 
 	return slot1
 end
@@ -172,10 +172,10 @@ function slot21(slot0)
 		end
 	}
 
-	function (slot0)
+	(function (slot0)
 		slot0.events = {}
 		slot0.sender = uv0
-	end(slot1)
+	end)(slot1)
 
 	return slot1
 end
@@ -254,7 +254,7 @@ function slot22(slot0)
 		end
 	}
 
-	function (slot0)
+	(function (slot0)
 		slot0.x = uv0.x
 		slot0.y = uv0.y
 		slot0.color = uv0.color
@@ -265,7 +265,7 @@ function slot22(slot0)
 			y = slot0.y,
 			color = slot0.color
 		}
-	end(slot1)
+	end)(slot1)
 
 	return setmetatable(slot1, {
 		__index = uv4(slot1)
@@ -601,7 +601,7 @@ function slot24(slot0, slot1)
 		end
 	end
 
-	function (slot0)
+	(function (slot0)
 		slot0.maxSpriteIndexX = #uv0
 		slot0.maxSpriteIndexY = #uv0[#uv0]
 		slot0.cell = uv1
@@ -628,7 +628,7 @@ function slot24(slot0, slot1)
 		setAnchoredPosition(slot0.cellImage, Vector2(slot0.cellImage.sizeDelta.x / 2, -slot0.cellImage.sizeDelta.y / 2))
 		slot0:SetScale()
 		slot0:SetPosition()
-	end(slot2)
+	end)(slot2)
 
 	return slot2
 end
@@ -833,7 +833,7 @@ function slot25(slot0, slot1, slot2)
 		end
 	end
 
-	function (slot0)
+	(function (slot0)
 		slot0._tf = uv0
 		slot0.cellWhite = slot0._tf:Find("cell")
 		slot0.cellContainer = slot0._tf:Find("container")
@@ -856,7 +856,7 @@ function slot25(slot0, slot1, slot2)
 		onButton(nil, slot0.restartBtn, function ()
 			uv0:ResetMap()
 		end, SFX_PANEL)
-	end(slot3)
+	end)(slot3)
 
 	return slot3
 end
@@ -885,7 +885,7 @@ function slot26(slot0)
 		end
 	}
 
-	function (slot0)
+	(function (slot0)
 		setActive(slot0._tf, false)
 
 		slot0.scoreTxt = slot0._tf:Find("score/Text"):GetComponent(typeof(Text))
@@ -893,7 +893,7 @@ function slot26(slot0)
 		onButton(nil, slot0._tf, function ()
 			uv0:Hide()
 		end, SFX_PANEL)
-	end(slot1)
+	end)(slot1)
 
 	return slot1
 end

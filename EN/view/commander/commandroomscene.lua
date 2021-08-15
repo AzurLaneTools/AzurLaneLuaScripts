@@ -190,7 +190,7 @@ function slot0.initBoxes(slot0)
 	slot0:UpdateBoxesBtn()
 	onButton(slot0, slot0:findTF("reserve_btn", slot0.boxTF), function ()
 		if uv0.reservePanel:GetLoaded() then
-			function ()
+			(function ()
 				uv0.reservePanel:ActionInvoke("Update", uv0.reserveBoxCnt, uv0.playerVO)
 
 				function uv0.reservePanel.confirm(slot0, slot1)
@@ -213,7 +213,7 @@ function slot0.initBoxes(slot0)
 						end
 					})
 				end
-			end()
+			end)()
 		else
 			uv0.reservePanel:Load()
 			uv0.reservePanel:CallbackInvoke(slot0)
@@ -230,9 +230,9 @@ function slot0.initBoxes(slot0)
 
 	onButton(slot0, slot0:findTF("boxes_btn", slot0.boxTF), function ()
 		if uv0.boxesPanel:GetLoaded() then
-			function ()
+			(function ()
 				uv0.boxesPanel:ActionInvoke("Update", uv0.boxes, uv0.pools)
-			end()
+			end)()
 		else
 			uv0.boxesPanel:Load()
 			uv0.boxesPanel:CallbackInvoke(slot0)
@@ -346,7 +346,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sortBtn, function ()
 		if uv0.indexPanel:GetLoaded() then
-			function ()
+			(function ()
 				uv0.indexPanel:ActionInvoke("Show", uv0.sortData)
 
 				function uv0.indexPanel.confirm()
@@ -359,7 +359,7 @@ function slot0.didEnter(slot0)
 						setActive(slot0, go(slot0).name == uv0.sortData.sortData)
 					end)
 				end
-			end()
+			end)()
 		else
 			uv0.indexPanel:Load()
 			uv0.indexPanel:CallbackInvoke(slot0)
@@ -512,9 +512,9 @@ function slot0.opeRenamePanel(slot0, slot1)
 	end
 
 	if slot0.renamePanel:GetLoaded() then
-		function ()
+		(function ()
 			uv0.renamePanel:ActionInvoke("Show", uv1, uv2)
-		end()
+		end)()
 	else
 		slot0.renamePanel:Load()
 		slot0.renamePanel:CallbackInvoke(slot3)
@@ -764,19 +764,19 @@ function slot0.updateCommanders(slot0)
 	slot1 = slot0.sortData
 
 	for slot7, slot8 in pairs(slot0.commanderVOs) do
-		if not table.contains(slot0.contextData.ignoredIds or {}, slot8.id) and function (slot0)
+		if not table.contains(slot0.contextData.ignoredIds or {}, slot8.id) and (function (slot0)
 			if #uv0.nationData > 0 then
 				return table.contains(uv0.nationData, slot0:getConfig("nationality"))
 			end
 
 			return true
-		end(slot8) and function (slot0)
+		end)(slot8) and (function (slot0)
 			if #uv0.rarityData > 0 then
 				return table.contains(uv0.rarityData, slot0:getRarity())
 			end
 
 			return true
-		end(slot8) then
+		end)(slot8) then
 			table.insert(slot0.disPlayCommanderVOs, slot8)
 		end
 	end
@@ -878,9 +878,9 @@ function slot0.openMsgBox(slot0, slot1)
 	slot0.isShowMsgBox = true
 
 	if slot0.msgboxPage:GetLoaded() then
-		function ()
+		(function ()
 			uv0.msgboxPage:ActionInvoke("OnUpdate", uv1)
-		end()
+		end)()
 	else
 		slot0.msgboxPage:Load()
 		slot0.msgboxPage:CallbackInvoke(slot2)
@@ -895,9 +895,9 @@ end
 
 function slot0.openTreePanel(slot0, slot1)
 	if slot0.treePage:GetLoaded() then
-		function ()
+		(function ()
 			uv0.treePage:ActionInvoke("openTreePanel", uv1)
-		end()
+		end)()
 	else
 		slot0.treePage:Load()
 		slot0.treePage:CallbackInvoke(slot2)

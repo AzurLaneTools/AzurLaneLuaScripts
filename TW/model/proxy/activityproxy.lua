@@ -417,14 +417,14 @@ function slot0.recommendActivityFleet(slot0, slot1, slot2)
 
 	if Fleet.SUBMARINE_FLEET_ID <= slot2 then
 		if not slot6:isFull() then
-			function (slot0, slot1)
+			(function (slot0, slot1)
 				slot7 = slot1
 				slot8 = uv2
 
 				for slot7, slot8 in ipairs(uv0:getActivityRecommendShips(TeamType.TeamToTypeList(slot0), uv1.ships, slot7, slot8)) do
 					uv1:insertShip(slot8, nil, slot0)
 				end
-			end(TeamType.Submarine, TeamType.SubmarineMax - #slot6.subShips)
+			end)(TeamType.Submarine, TeamType.SubmarineMax - #slot6.subShips)
 		end
 	else
 		slot9 = TeamType.MainMax - #slot6.mainShips
@@ -475,14 +475,14 @@ function slot0.AddInstagramTimer(slot0, slot1)
 
 	if slot3 then
 		if slot3 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-			function ()
+			(function ()
 				uv0:sendNotification(GAME.ACT_INSTAGRAM_OP, {
 					arg2 = 0,
 					activity_id = uv1,
 					cmd = ActivityConst.INSTAGRAM_OP_ACTIVE,
 					arg1 = uv2
 				})
-			end()
+			end)()
 		else
 			slot0.instagramTimer = Timer.New(function ()
 				uv0()

@@ -16,7 +16,7 @@ function slot0.setWeapon(slot0, slot1)
 			slot11 = slot0._proficiencyList[slot9]
 			slot12 = slot0._tmpData.preload_count[slot9]
 
-			function (slot0, slot1, slot2)
+			(function (slot0, slot1, slot2)
 				for slot7 = 1, uv0[uv1] do
 					slot9 = uv2:AddWeapon(slot0, slot1, slot2, uv3, uv1):GetTemplateData().type
 
@@ -24,7 +24,7 @@ function slot0.setWeapon(slot0, slot1)
 						slot8:SetModifyInitialCD()
 					end
 				end
-			end(slot1[slot9] or slot2[slot9])
+			end)(slot1[slot9] or slot2[slot9])
 		end
 	end
 

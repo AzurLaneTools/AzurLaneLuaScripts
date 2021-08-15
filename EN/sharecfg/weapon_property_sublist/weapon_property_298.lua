@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_298 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_298[611105] = {
 		recover_time = 0,
 		name = "【新美系活动B3】BOSS –黑高雄 特殊弹幕",
@@ -3002,4 +3002,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_229 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_229[318091] = {
 		recover_time = 0,
 		name = "金刚跨射攻击后排武器2x2轮-简单",
@@ -2856,4 +2856,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

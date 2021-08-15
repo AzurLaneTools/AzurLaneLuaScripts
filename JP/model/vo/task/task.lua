@@ -116,7 +116,7 @@ function slot0.getTaskStatus(slot0)
 end
 
 function slot0.onAdded(slot0)
-	if slot0:getConfig("story_id") and slot3 ~= "" and function ()
+	if slot0:getConfig("story_id") and slot3 ~= "" and (function ()
 		if not table.contains({
 			"LevelScene",
 			"BattleScene",
@@ -128,7 +128,7 @@ function slot0.onAdded(slot0)
 		end
 
 		return false
-	end() then
+	end)() then
 		pg.NewStoryMgr.GetInstance():Play(slot3, function ()
 			if uv0:getConfig("sub_type") == 29 then
 				if _.any(getProxy(SkirmishProxy):getRawData(), function (slot0)

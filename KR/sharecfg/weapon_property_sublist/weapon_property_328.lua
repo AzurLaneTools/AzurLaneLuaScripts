@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_328 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_328[741106] = {
 		name = "【DOA联动SP2】BOSS 凪咲 主炮弹幕",
 		range = 120,
@@ -1647,4 +1647,4 @@ function ()
 			700143
 		}
 	}
-end()
+end)()

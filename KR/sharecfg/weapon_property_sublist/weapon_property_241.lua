@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_241 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_241[473157] = {
 		recover_time = 0.5,
 		name = "【异色格D】【人型】格奈森瑙-平射",
@@ -2935,4 +2935,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

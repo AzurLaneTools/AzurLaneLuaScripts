@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_339 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_339[783009] = {
 		reload_max = 6000,
 		name = "【2021意大利活动D1】BOSS 光辉 扩散弹幕",
@@ -1532,4 +1532,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

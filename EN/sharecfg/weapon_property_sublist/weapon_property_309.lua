@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_309 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_309[618302] = {
 		recover_time = 0,
 		name = "【2020年春节世界BOSS】黛朵H难度3way鱼雷外壳弹幕",
@@ -3097,4 +3097,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

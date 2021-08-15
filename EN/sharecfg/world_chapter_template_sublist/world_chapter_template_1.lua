@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_chapter_template_1 = {}
 
-function ()
+(function ()
 	uv0.world_chapter_template_1[2000] = {
 		is_auto = 0,
 		name = "港区外海_新手地图1",
@@ -7103,4 +7103,4 @@ function ()
 		},
 		world_chapter_buff = {}
 	}
-end()
+end)()

@@ -125,10 +125,10 @@ function slot0.RefreshSortBtn(slot0)
 			uv0.OnSortChange(uv0.sortFlag)
 		end
 	end, SFX_PANEL)
-	function (slot0)
+	(function (slot0)
 		uv0.sortArr.localScale = Vector3(1, slot0 and 1 or -1, 1)
 		uv0.sortTxt.text = slot0 and i18n("word_asc") or i18n("word_desc")
-	end(slot0.sortFlag)
+	end)(slot0.sortFlag)
 end
 
 function slot0.Flush(slot0)
@@ -270,7 +270,7 @@ function slot0.UpdateWindow(slot0)
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then
 		slot5 = slot0.template:IsPushed() and uv1 or uv2
 
-		function (slot0)
+		(function (slot0)
 			slot1 = -224
 			slot2 = -314
 			slot3 = 0
@@ -309,7 +309,7 @@ function slot0.UpdateWindow(slot0)
 			setAnchoredPosition(uv3.collection, {
 				y = slot2
 			})
-		end(slot5)
+		end)(slot5)
 
 		slot2 = slot4[1]
 		slot3 = slot5 == uv1 and slot4[3] or slot4[2]

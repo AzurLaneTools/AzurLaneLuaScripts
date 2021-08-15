@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_283 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_283[590033] = {
 		recover_time = 0,
 		name = "【法系活动A】【杂兵】塞壬战列跨射攻击后排武器3x2轮-简单",
@@ -2917,4 +2917,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

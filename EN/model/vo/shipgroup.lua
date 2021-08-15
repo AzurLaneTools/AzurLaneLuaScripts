@@ -40,7 +40,7 @@ slot0.ENABLE_SKIP_TO_CHAPTER = true
 slot1 = pg.ship_data_group
 
 function slot0.getState(slot0, slot1, slot2)
-	if HXSet.isHx() and function ()
+	if HXSet.isHx() and (function ()
 		if uv0.ENABLE_SKIP_TO_CHAPTER then
 			if uv1 and not uv2 then
 				return uv0.STATE_NOTGET
@@ -80,7 +80,7 @@ function slot0.getState(slot0, slot1, slot2)
 		else
 			return uv2 and uv0.STATE_UNLOCK or uv0.STATE_LOCK
 		end
-	end() == uv0.STATE_NOTGET then
+	end)() == uv0.STATE_NOTGET then
 		return uv0.STATE_LOCK
 	else
 		return slot4
@@ -177,11 +177,11 @@ function slot0.getDisplayableSkinList(slot0)
 	slot1 = {}
 
 	for slot7, slot8 in ipairs(pg.ship_skin_template.all) do
-		if pg.ship_skin_template[slot8].ship_group == slot0.id and slot9.no_showing ~= "1" and not function (slot0)
+		if pg.ship_skin_template[slot8].ship_group == slot0.id and slot9.no_showing ~= "1" and not (function (slot0)
 			return slot0.skin_type == ShipSkin.SKIN_TYPE_OLD or slot0.skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not getProxy(ShipSkinProxy):hasSkin(slot0.id)
-		end(slot9) and function (slot0)
+		end)(slot9) and (function (slot0)
 			return getProxy(ShipSkinProxy):InShowTime(slot0)
-		end(slot9.id) then
+		end)(slot9.id) then
 			table.insert(slot1, slot9)
 		end
 	end

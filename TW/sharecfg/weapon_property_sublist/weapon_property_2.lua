@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_2 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_2[202] = {
 		reload_max = 180,
 		name = "白鷹雷擊輕巡副炮T2",
@@ -1301,4 +1301,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

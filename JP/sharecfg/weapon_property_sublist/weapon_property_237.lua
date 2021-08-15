@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_237 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_237[470516] = {
 		recover_time = 0,
 		name = "【异色格A】【BOSS】格奈森瑙-战列跨射攻击后排武器3x2轮-简单",
@@ -2863,4 +2863,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

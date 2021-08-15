@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_335 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_335[771205] = {
 		recover_time = 0.5,
 		name = "【2021毛系活动B3】BOSS 代行者 第三波 浮游炮激光",
@@ -2113,4 +2113,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

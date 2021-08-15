@@ -69,11 +69,11 @@ end
 
 function slot0.TryShowMonthCardTipPanel(slot0)
 	if uv0.GetMonthCardEndDate() == 0 then
-		function ()
+		(function ()
 			if uv0 then
 				uv0()
 			end
-		end()
+		end)()
 
 		return
 	end

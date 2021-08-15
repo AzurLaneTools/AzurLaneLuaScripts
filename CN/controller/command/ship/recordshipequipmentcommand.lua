@@ -49,13 +49,13 @@ function slot0.execute(slot0, slot1)
 		slot13 = {}
 
 		for slot17, slot18 in ipairs(slot11) do
-			if slot18 ~= -1 and (not slot10:getEquipmentById(slot18) or slot19.count <= 0) and not function (slot0, slot1)
+			if slot18 ~= -1 and (not slot10:getEquipmentById(slot18) or slot19.count <= 0) and not (function (slot0, slot1)
 				if uv0[slot0] and uv0[slot0].id == slot1 then
 					return true
 				end
 
 				return false
-			end(slot17, slot18) and pg.equip_data_statistics[slot18] then
+			end)(slot17, slot18) and pg.equip_data_statistics[slot18] then
 				slot11[slot17] = slot10:getSameTypeEquipmentId(Equipment.New({
 					id = slot18
 				})) or 0

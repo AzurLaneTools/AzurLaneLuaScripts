@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_297 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_297[610193] = {
 		recover_time = 0,
 		name = "【俾斯麦活动EX】BOSS-俾斯麦塞壬-黑洞武器",
@@ -2968,4 +2968,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

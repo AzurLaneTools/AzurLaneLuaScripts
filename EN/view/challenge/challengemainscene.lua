@@ -492,11 +492,11 @@ function slot0.updateSlider(slot0, slot1)
 
 		if slot0 == UIItemList.EventUpdate then
 			if slot1 + 1 < uv1 then
-				function ()
+				(function ()
 					setActive(uv0, true)
 					setActive(uv1, false)
 					setActive(uv2, false)
-				end()
+				end)()
 			elseif slot1 + 1 == uv1 then
 				slot9()
 			elseif uv1 < slot1 + 1 then

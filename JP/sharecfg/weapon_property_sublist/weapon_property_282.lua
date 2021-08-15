@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_282 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_282[582016] = {
 		recover_time = 0.5,
 		name = "【新奥尔良SP2】加古Q版双联装鱼雷II",
@@ -2895,4 +2895,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

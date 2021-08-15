@@ -63,7 +63,7 @@ function slot0.AddCommanderExpByFeed(slot0)
 
 	for slot9, slot10 in pairs(slot3:GetCatteries()) do
 		if slot10:ExistCommander() and slot10:ExiseFeedOP() then
-			function (slot0, slot1)
+			(function (slot0, slot1)
 				if getProxy(CommanderProxy):getCommanderById(slot0:GetCommanderId()):isMaxLevel() then
 					slot1 = 0
 				end
@@ -79,7 +79,7 @@ function slot0.AddCommanderExpByFeed(slot0)
 					value = slot1
 				})
 				slot3:updateCommander(slot4)
-			end(slot10, slot3:getConfig("feed_level")[2])
+			end)(slot10, slot3:getConfig("feed_level")[2])
 		end
 	end
 

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_317 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_317[660208] = {
 		recover_time = 0,
 		name = "【2020纳尔维克下篇SP3】第二波 Z2 条状扩散子母弹",
@@ -2873,4 +2873,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_389 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_389[2012940] = {
 		recover_time = 0.5,
 		name = "【大世界】仲裁者天帕岚斯_新p2水母武器_扫射激光",
@@ -4310,4 +4310,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

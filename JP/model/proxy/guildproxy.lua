@@ -460,13 +460,13 @@ function slot0.ShouldRequestReport(slot0)
 
 	slot2 = pg.TimeMgr.GetInstance():GetServerTime()
 
-	if not slot0.reports and function ()
+	if not slot0.reports and (function ()
 		if uv0:getRawData():GetActiveEvent() and slot1:GetMissionFinishCnt() > 0 then
 			return true
 		end
 
 		return false
-	end() or slot0.requestReportTime < slot2 then
+	end)() or slot0.requestReportTime < slot2 then
 		slot0.requestReportTime = slot2 + GuildConst.REQUEST_REPORT_CD
 
 		return true
@@ -636,7 +636,7 @@ function slot0.ShouldShowBattleTip(slot0)
 		slot5 = slot1:GetActiveEvent()
 
 		if slot5 then
-			slot2 = slot0:ShouldShowMainTip() or not slot5 and GuildMember.IsAdministrator(slot1:getSelfDuty()) and function ()
+			slot2 = slot0:ShouldShowMainTip() or not slot5 and GuildMember.IsAdministrator(slot1:getSelfDuty()) and (function ()
 				for slot3, slot4 in ipairs(pg.guild_operation_template.all) do
 					if pg.guild_operation_template[slot4].unlock_guild_level <= uv0.level and slot5.consume <= uv0:getCapital() then
 						return true
@@ -644,13 +644,13 @@ function slot0.ShouldShowBattleTip(slot0)
 				end
 
 				return false
-			end() or slot5 and not slot0:GetBattleBtnRecord() or slot5:IsParticipant() and slot5:AnyMissionCanFormation() or function (slot0)
+			end)() or slot5 and not slot0:GetBattleBtnRecord() or slot5:IsParticipant() and slot5:AnyMissionCanFormation() or (function (slot0)
 				if slot0 and slot0:IsParticipant() then
 					return slot0:GetBossMission() and slot1:IsActive() and slot1:CanEnterBattle()
 				end
 
 				return false
-			end(slot5) or not slot7 and not slot5:IsLimitedJoin()
+			end)(slot5) or not slot7 and not slot5:IsLimitedJoin()
 		end
 	end
 
@@ -672,9 +672,9 @@ end
 function slot0.ShouldShowMainTip(slot0)
 	return _.any(slot0.reports or {}, function (slot0)
 		return slot0:CanSubmit()
-	end) and not function ()
+	end) and not (function ()
 		return uv0.data:getMemberById(getProxy(PlayerProxy):getRawData().id):IsRecruit()
-	end()
+	end)()
 end
 
 function slot0.ShouldShowTip(slot0)

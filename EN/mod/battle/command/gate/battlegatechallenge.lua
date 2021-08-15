@@ -101,11 +101,11 @@ function slot0.Exit(slot0, slot1)
 		})
 
 		for slot10, slot11 in pairs(uv6:getShipUIDList()) do
-			function (slot0)
+			(function (slot0)
 				if uv0.statistics[slot0] then
 					uv1:updateShipHP(slot0, slot1.bp)
 				end
-			end(slot11)
+			end)(slot11)
 		end
 	end)
 end

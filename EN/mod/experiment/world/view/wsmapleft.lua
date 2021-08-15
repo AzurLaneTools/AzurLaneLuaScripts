@@ -319,7 +319,7 @@ function slot0.ShipDamageDisplay(slot0, slot1, slot2, slot3)
 		end
 
 		if calcFloor((slot1.hpRant - slot2:Find("blood"):GetComponent(typeof(Slider)).value) / 10000 * WorldConst.FetchShipVO(slot1.id):getShipProperties()[AttributeType.Durability]) > 0 then
-			function (slot0, slot1)
+			(function (slot0, slot1)
 				setActive(slot0, true)
 				setText(findTF(slot0, "text"), slot1)
 				setTextAlpha(findTF(slot0, "text"), 0)
@@ -348,7 +348,7 @@ function slot0.ShipDamageDisplay(slot0, slot1, slot2, slot3)
 						table.remove(uv1.delayCallFuncs[uv2.id], 1)()
 					end
 				end)
-			end(findTF(slot4, "heal"), slot8)
+			end)(findTF(slot4, "heal"), slot8)
 		elseif slot8 < 0 then
 			slot10(slot2)
 			slot9(findTF(slot4, "normal"), slot8)

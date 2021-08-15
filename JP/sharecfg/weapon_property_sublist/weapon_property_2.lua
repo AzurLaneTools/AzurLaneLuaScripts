@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_2 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_2[212] = {
 		reload_max = 170,
 		name = "皇家雷击轻巡副炮T2",
@@ -1342,4 +1342,4 @@ function ()
 			914
 		}
 	}
-end()
+end)()

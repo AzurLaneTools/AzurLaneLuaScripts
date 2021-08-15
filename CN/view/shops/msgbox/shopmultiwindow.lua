@@ -54,12 +54,12 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		slot6 = math.min(math.max(math.floor(slot5 / slot1:getConfig("resource_num")), 1), math.max(0, slot1:GetPurchasableCnt()))
 	end
 
-	function (slot0)
+	(function (slot0)
 		slot0 = math.min(math.max(slot0, 1), uv0)
 		uv1.countTF.text = slot0
 		uv1.curCount = slot0
 		uv1.itemCountTF.text = slot0 * uv2:getConfig("num")
-	end(1)
+	end)(1)
 	updateDrop(slot0.topItem, slot3)
 	updateDrop(slot0.bottomItem, slot3)
 

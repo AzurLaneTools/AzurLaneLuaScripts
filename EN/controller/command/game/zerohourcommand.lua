@@ -64,7 +64,7 @@ function slot0.mainHandler(slot0, slot1)
 	end
 
 	for slot17, slot18 in ipairs(getProxy(ActivityProxy):getPanelActivities()) do
-		if function ()
+		if (function ()
 			slot0 = {
 				ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN,
 				ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN,
@@ -83,7 +83,7 @@ function slot0.mainHandler(slot0, slot1)
 			end
 
 			return table.contains(slot0, uv0:getConfig("type"))
-		end() then
+		end)() then
 			slot13:updateActivity(slot18)
 		end
 	end

@@ -356,13 +356,13 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.NeedTip(slot0)
-	return function ()
+	return (function ()
 		if uv0.boss and uv0.boss:isDeath() and not uv0.boss:IsExpired() and not uv0.boss:ShouldWaitForResult() then
 			return true
 		end
 
 		return false
-	end()
+	end)()
 end
 
 function slot0.UpdatedUnlockProgress(slot0)

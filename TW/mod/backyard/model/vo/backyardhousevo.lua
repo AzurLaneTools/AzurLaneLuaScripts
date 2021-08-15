@@ -1094,7 +1094,7 @@ end
 
 function slot0.getTransportPoint(slot0, slot1, slot2)
 	if slot0.furnitures[slot2]:isTransPort() and slot0:hasEmptyGrid() then
-		return function (slot0)
+		return (function (slot0)
 			slot1 = {
 				slot0
 			}
@@ -1118,7 +1118,7 @@ function slot0.getTransportPoint(slot0, slot1, slot2)
 
 				table.insert(slot2, slot4)
 			end
-		end(slot3:getTransportPoint())
+		end)(slot3:getTransportPoint())
 	else
 		return slot0:getSingleByRamdom()
 	end
@@ -1233,7 +1233,7 @@ end
 
 function slot0.GetInteractionableSpineFurnitureId(slot0, slot1)
 	for slot9, slot10 in pairs(slot0.ships[slot1]:getSurroundGrid()) do
-		if function (slot0, slot1)
+		if (function (slot0, slot1)
 			for slot5, slot6 in pairs(slot0) do
 				if _.any(slot6, function (slot0)
 					return slot0.x == uv0.x and slot0.y == uv0.y
@@ -1243,7 +1243,7 @@ function slot0.GetInteractionableSpineFurnitureId(slot0, slot1)
 			end
 
 			return nil
-		end(slot0:GetFurnitruesOccupyPoints(), slot10) and slot11:IsSpineRandomType() then
+		end)(slot0:GetFurnitruesOccupyPoints(), slot10) and slot11:IsSpineRandomType() then
 			return slot11
 		end
 	end

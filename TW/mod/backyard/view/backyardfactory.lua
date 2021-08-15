@@ -130,7 +130,7 @@ function slot0.loadSpineFurnitureModel(slot0, slot1, slot2, slot3)
 		slot1 = rtf(slot0)
 		uv2.pivot = slot1.pivot
 
-		function (slot0, slot1, slot2, slot3)
+		(function (slot0, slot1, slot2, slot3)
 			slot0.gameObject.name = slot1
 			slot0.anchorMax = Vector2(uv0.x, uv0.y)
 			slot0.anchorMin = Vector2(uv0.x, uv0.y)
@@ -144,7 +144,7 @@ function slot0.loadSpineFurnitureModel(slot0, slot1, slot2, slot3)
 			if slot3 then
 				GetOrAddComponent(slot0:GetChild(0), "SpineAnimUI"):SetAction(slot3, 0)
 			end
-		end(slot1, "icon", 1, uv3)
+		end)(slot1, "icon", 1, uv3)
 
 		if uv4:hasSpineMask() then
 			slot4, slot5 = uv4:getSpineMaskName()

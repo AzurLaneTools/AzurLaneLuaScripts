@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_322 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_322[691802] = {
 		fire_fx_loop_type = 1,
 		name = "【2020信浓活动普通T6】BOSS 测试者 一形态第一波 浮游炮",
@@ -1494,4 +1494,4 @@ function ()
 			770004
 		}
 	}
-end()
+end)()

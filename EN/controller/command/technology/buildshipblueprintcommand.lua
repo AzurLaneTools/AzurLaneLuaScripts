@@ -42,7 +42,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot4 then
-		function ()
+		(function ()
 			pg.ConnectionMgr.GetInstance():Send(63200, {
 				blueprint_id = uv0
 			}, 63201, function (slot0)
@@ -55,7 +55,7 @@ function slot0.execute(slot0, slot1)
 					pg.TipsMgr.GetInstance():ShowTips(i18n("printblue_build_erro") .. slot0.result)
 				end
 			end)
-		end()
+		end)()
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("blueprint_build_time_tip"),

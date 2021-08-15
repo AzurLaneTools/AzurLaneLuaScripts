@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_280 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_280[571052] = {
 		recover_time = 0,
 		name = "【長門陸奧EX】【傷害-2】風扇",
@@ -2856,4 +2856,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

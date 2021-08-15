@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_299 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_299[612017] = {
 		recover_time = 0,
 		name = "【意大利活动AS1】BOSS-波拉特殊弹幕（作废）",
@@ -2879,4 +2879,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

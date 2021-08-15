@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_307 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_307[617146] = {
 		recover_time = 0,
 		name = "【年底日系活动D2】BOSS-响 全屏散射",
@@ -2931,4 +2931,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

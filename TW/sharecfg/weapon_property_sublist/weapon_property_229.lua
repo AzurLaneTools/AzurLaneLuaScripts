@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_229 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_229[330504] = {
 		recover_time = 0,
 		name = "第12章BOSS飛鷹-旋轉上下散射子彈-重巡副炮",
@@ -2868,4 +2868,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

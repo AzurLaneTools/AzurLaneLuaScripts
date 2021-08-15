@@ -32,7 +32,7 @@ function slot4(slot0)
 		end
 	}
 
-	function (slot0)
+	(function (slot0)
 		slot0._go = uv0
 		slot0._tf = tf(uv0)
 		slot0.mask = slot0._tf:Find("mask")
@@ -40,7 +40,7 @@ function slot4(slot0)
 		slot0.name = slot0._tf:Find("name_bg/Text"):GetComponent(typeof(Text))
 		slot0.addTF = slot0._tf:Find("add_btn")
 		slot0.icon = slot0._tf:Find("icon_bg/icon")
-	end(slot1)
+	end)(slot1)
 
 	return slot1
 end
@@ -121,7 +121,7 @@ function slot5(slot0, slot1)
 		end
 	}
 
-	function (slot0)
+	(function (slot0)
 		slot0._go = uv0
 		slot0._tf = tf(uv0)
 		slot0.parent = slot0._tf.parent
@@ -146,7 +146,7 @@ function slot5(slot0, slot1)
 		onButton(nil, slot0.cancelBtn, function ()
 			uv0:Hide()
 		end, SFX_PANEL)
-	end(slot2)
+	end)(slot2)
 
 	return slot2
 end
@@ -180,7 +180,7 @@ function slot6(slot0, slot1)
 		end
 	}
 
-	function (slot0)
+	(function (slot0)
 		slot0._go = uv0
 		slot0._tf = tf(uv0)
 		slot0.parent = slot0._tf.parent
@@ -197,7 +197,7 @@ function slot6(slot0, slot1)
 		onButton(nil, slot0._tf, function ()
 			uv0:Hide()
 		end, SFX_PANEL)
-	end(slot2)
+	end)(slot2)
 
 	return slot2
 end
@@ -459,12 +459,12 @@ function slot0.calFoodLeftTime(slot0, slot1)
 	slot2 = table.getCount(slot0.addExpShipVOs)
 
 	if slot1.food <= 0 then
-		function (slot0)
+		(function (slot0)
 			SetActive(uv0.leftTimeTF, true)
 			SetActive(uv0.chatContain, false)
 			SetActive(uv0.bottomText, false)
 			setText(uv0.leftTimeTF, slot0)
-		end(i18n("backyard_backyardGranaryLayer_word"))
+		end)(i18n("backyard_backyardGranaryLayer_word"))
 
 		return
 	end

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_342 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_342[792205] = {
 		recover_time = 0,
 		name = "【2021美系活动C3】BOSS 赤城&加贺 鱼雷机弹幕",
@@ -1435,4 +1435,4 @@ function ()
 			850175
 		}
 	}
-end()
+end)()

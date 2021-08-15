@@ -85,9 +85,9 @@ function slot0.displayDefeat(slot0)
 	if slot0:isFail() then
 		slot0._stateFlag = uv0.STATE_QUIT
 
-		function ()
+		(function ()
 			uv0:skip()
-		end()
+		end)()
 	else
 		slot0:emit(BattleResultMediator.ON_CHALLENGE_DEFEAT_SCENE, {
 			callback = slot1

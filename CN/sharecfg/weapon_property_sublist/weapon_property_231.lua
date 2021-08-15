@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_231 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_231[330011] = {
 		recover_time = 0,
 		name = "战斗机空中（从这开始以上飞机的武器）",
@@ -2972,4 +2972,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

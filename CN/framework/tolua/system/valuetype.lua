@@ -17,7 +17,7 @@ function AddValueType(slot0, slot1)
 	uv0[slot0] = slot1
 end
 
-GetLuaValueType = function ()
+GetLuaValueType = (function ()
 	slot0 = getmetatable
 	slot1 = uv0
 
@@ -28,4 +28,4 @@ GetLuaValueType = function ()
 
 		return uv1[slot1] or 0
 	end
-end()
+end)()

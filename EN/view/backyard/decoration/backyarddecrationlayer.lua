@@ -76,7 +76,7 @@ function slot0.didEnter(slot0)
 
 		uv1(uv0.orderMode)
 	end, SFX_PANEL)
-	function (slot0)
+	(function (slot0)
 		slot1 = ""
 
 		if slot0 == BackYardDecorationFilterPanel.ORDER_MODE_ASC then
@@ -86,7 +86,7 @@ function slot0.didEnter(slot0)
 		end
 
 		uv0.orderBtnTxt.text = slot1
-	end(slot0.orderMode)
+	end)(slot0.orderMode)
 	onButton(slot0, slot0.shopBtn, function ()
 		uv0:emit(BackYardDecorationMediator.OPEN_SHOP)
 	end, SFX_PANEL)

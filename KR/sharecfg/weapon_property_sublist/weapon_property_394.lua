@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_394 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_394[2040051] = {
 		recover_time = 0.5,
 		name = "【大世界】深渊BOSS驱逐_p1_三角牢笼lv2",
@@ -3492,4 +3492,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

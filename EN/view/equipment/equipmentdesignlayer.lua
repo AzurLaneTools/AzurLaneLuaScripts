@@ -343,7 +343,7 @@ function slot0.createDesign(slot0, slot1)
 
 		updateEquipment(findTF(uv0, "equipment/bg"), slot6)
 		uv3(uv0, slot6)
-		function ()
+		(function ()
 			slot0 = uv0.itemVOs[uv1.material_id] or Item.New({
 				count = 0,
 				id = uv1.material_id
@@ -352,7 +352,7 @@ function slot0.createDesign(slot0, slot1)
 
 			setText(uv2, uv1.material_num <= slot0.count and setColorStr(slot1, COLOR_WHITE) or setColorStr(slot1, COLOR_RED))
 			setActive(uv3, slot0.count < uv1.material_num)
-		end()
+		end)()
 	end
 
 	function slot5.clear(slot0)
@@ -562,10 +562,10 @@ function slot0.showDesignDesc(slot0, slot1)
 	slot15 = slot3.gold_num
 	slot16 = slot0:findTF("bg/calc/gold/Text", slot2)
 
-	function (slot0)
+	(function (slot0)
 		setText(uv0, slot0)
 		setText(uv1, slot0 * uv2)
-	end(1)
+	end)(1)
 	onButton(slot0, findTF(slot2, "bg/calc/minus"), function ()
 		if uv0 <= 1 then
 			return

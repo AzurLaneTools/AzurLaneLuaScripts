@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_383 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_383[1101053] = {
 		recover_time = 0,
 		name = "关卡通用-道中人形-对全航母后排跨射4",
@@ -795,4 +795,4 @@ function ()
 		angle = 360,
 		aim_type = 0
 	}
-end()
+end)()

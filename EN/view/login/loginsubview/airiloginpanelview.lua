@@ -128,7 +128,7 @@ function slot0.InitEvent(slot0)
 	onButton(slot0, slot0.amazonLoginBtn_en, function ()
 		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_AMAZON)
 	end)
-	function ()
+	(function ()
 		if not pg.SdkMgr.GetInstance():CheckHadAccountCache() then
 			setActive(uv0.firstAlertWin, true)
 			pg.UIMgr.GetInstance():BlurPanel(uv0.firstAlertWin)
@@ -137,7 +137,7 @@ function slot0.InitEvent(slot0)
 		end
 
 		return false
-	end()
+	end)()
 	onButton(slot0, slot0.alertCloseBtn, function ()
 		uv0()
 	end)

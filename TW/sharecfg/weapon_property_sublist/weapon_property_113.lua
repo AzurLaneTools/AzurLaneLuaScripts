@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_113 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_113[65054] = {
 		reload_max = 1218,
 		name = "信浓弹幕&支援弹幕子母弹LV4",
@@ -759,4 +759,4 @@ function ()
 		damage = 10,
 		base = 65111
 	}
-end()
+end)()

@@ -687,9 +687,9 @@ function slot0.ShouldShowTechTip(slot0)
 end
 
 function slot0.ShouldShowSupplyTip(slot0)
-	return slot0:isOpenedSupply() and slot0:getSupplyCnt() > 0 and function ()
+	return slot0:isOpenedSupply() and slot0:getSupplyCnt() > 0 and (function ()
 		return not uv0:getMemberById(getProxy(PlayerProxy):getRawData().id):IsRecruit() and not slot1:isNewMember()
-	end()
+	end)()
 end
 
 function slot0.GetMembers(slot0)
@@ -732,9 +732,9 @@ function slot0.GetMemberShips(slot0, slot1)
 		slot12 = slot10:IsCommander()
 		slot10:GetShip().isCommander = slot12
 
-		if slot12 or function (slot0)
+		if slot12 or (function (slot0)
 			return uv0 == slot0.id
-		end(slot10) then
+		end)(slot10) then
 			table.insert({}, slot11)
 		else
 			table.insert(slot2, slot11)

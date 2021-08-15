@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_383 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_383[1101059] = {
 		id = 1101059,
 		range = 75,
@@ -771,4 +771,4 @@ function ()
 		angle = 360,
 		aim_type = 1
 	}
-end()
+end)()

@@ -64,7 +64,7 @@ function slot0.OnInit(slot0)
 		uv1()
 	end, SFX_PANEL)
 	slot0:InitTags()
-	function ()
+	(function ()
 		if uv0.pageId then
 			uv0:SwitchPage(uv0.pageId)
 		end
@@ -72,7 +72,7 @@ function slot0.OnInit(slot0)
 		uv0.ranTypeTF:Find("month"):GetComponent(typeof(Image)).enabled = uv0.ranType == 0
 		uv0.ranTypeTF:Find("total"):GetComponent(typeof(Image)).enabled = uv0.ranType == 2
 		uv0.ranTypeTF:GetComponent(typeof(Image)).enabled = uv0.ranType == 1
-	end()
+	end)()
 end
 
 function slot0.InitTags(slot0)

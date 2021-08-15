@@ -20,7 +20,7 @@ function slot0.execute(slot0, slot1)
 		uv0.LoginSafeLock = 0
 
 		if pg.ConnectionMgr.GetInstance():getConnection() and pg.ConnectionMgr.GetInstance():isConnected() then
-			function (slot0)
+			(function (slot0)
 				pg.ConnectionMgr.GetInstance():Send(10022, {
 					platform = uv0,
 					account_id = uv1.uid,
@@ -65,7 +65,7 @@ function slot0.execute(slot0, slot1)
 						uv3:sendNotification(GAME.SERVER_LOGIN_FAILED, slot0.result)
 					end
 				end, false)
-			end()
+			end)()
 		else
 			pg.ConnectionMgr.GetInstance():SetProxyHost(slot2.proxyHost, slot2.proxyPort)
 			pg.ConnectionMgr.GetInstance():Connect(slot3, slot4, function ()

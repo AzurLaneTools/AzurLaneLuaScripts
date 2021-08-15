@@ -387,13 +387,13 @@ function slot0.OnDecodeMap(slot0, slot1, slot2)
 			sizeDelta = slot11,
 			starPosition = Vector2(slot12.x + slot11.x / 2, slot12.y - slot11.y / 2),
 			endPosition = Vector2(slot12.x - slot11.x / 2, slot12.y + slot11.y / 2),
-			item = function (slot0)
+			item = (function (slot0)
 				for slot4, slot5 in ipairs(uv0.items) do
 					if slot5.index == slot0 then
 						return slot5
 					end
 				end
-			end(slot9)
+			end)(slot9)
 		})
 	end
 

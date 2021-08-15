@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_342 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_342[795003] = {
 		name = "【2021美系活动EX】BOSS 苍龙·META 第二波 火焰弹幕",
 		range = 120,
@@ -1244,4 +1244,4 @@ function ()
 			13
 		}
 	}
-end()
+end)()

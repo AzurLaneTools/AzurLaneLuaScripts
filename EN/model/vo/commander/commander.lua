@@ -251,11 +251,11 @@ function slot0.updateAbilitys(slot0)
 		"support"
 	}) do
 		slot0.abilitys[slot10] = {
-			value = function (slot0)
+			value = (function (slot0)
 				slot1 = uv0:getConfig(slot0 .. "_value")
 
 				return math.floor(slot1 + slot1 * (uv0.level - 1) * uv1 / uv2)
-			end(slot10),
+			end)(slot10),
 			id = ({
 				101,
 				102,
@@ -276,7 +276,7 @@ function slot0.getAbilitysAddition(slot0)
 	end
 
 	return {
-		[slot11] = function (slot0)
+		[slot11] = (function (slot0)
 			for slot5, slot6 in pairs(uv0.abilitys) do
 				if uv1[slot6.id]["rate_" .. slot0] and slot7["rate_" .. slot0] / 10000 > 0 then
 					slot1 = 0 + slot6.value * slot8
@@ -284,7 +284,7 @@ function slot0.getAbilitysAddition(slot0)
 			end
 
 			return tonumber(string.format("%0.3f", (uv2 - uv3 / (slot1 + uv4)) * uv5))
-		end(slot11)
+		end)(slot11)
 	}
 end
 
@@ -426,14 +426,14 @@ function slot0.getDestoryedExp(slot0, slot1)
 		slot2 = 0 + slot0:getConfigExp(slot6)
 	end
 
-	slot7, slot8 = function ()
+	slot7, slot8 = (function ()
 		for slot6, slot7 in ipairs(uv0:getTalents()) do
 			slot0 = 0 + slot7:getDestoryExpValue()
 			slot1 = 0 + slot7:getDestoryExpRetio()
 		end
 
 		return slot0, slot1 / 10000
-	end()
+	end)()
 
 	return (slot0:getConfig("exp") + (slot2 + slot0.exp) * pg.gameset.commander_exp_a.key_value / 10000) * (slot1 == slot0.groupId and pg.gameset.commander_exp_same_rate.key_value / 10000 or 1) * (1 + slot8) + slot7
 end

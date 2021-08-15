@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_335 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_335[765002] = {
 		reload_max = 100,
 		name = "【2020德系活动EX】塞壬构建者 第一波 浮游炮",
@@ -1981,4 +1981,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

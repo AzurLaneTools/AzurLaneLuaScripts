@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_123 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_123[65704] = {
 		id = 65704,
 		name = "贝拉罗斯冰锥4-105-LV4",
@@ -723,4 +723,4 @@ function ()
 			81026
 		}
 	}
-end()
+end)()

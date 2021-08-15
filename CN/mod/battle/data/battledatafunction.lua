@@ -279,7 +279,7 @@ function slot3.GetBulletResFromSkill(slot0, slot1, slot2)
 end
 
 function slot3.GetShipSkillTriggerCount(slot0, slot1)
-	slot3 = 0 + function (slot0)
+	slot3 = 0 + (function (slot0)
 		slot1 = 0
 
 		for slot5, slot6 in pairs(slot0) do
@@ -293,7 +293,7 @@ function slot3.GetShipSkillTriggerCount(slot0, slot1)
 		end
 
 		return slot1
-	end(slot0.skills or {})
+	end)(slot0.skills or {})
 	slot6 = {}
 
 	for slot10, slot11 in ipairs(uv0.GetEquipSkill(slot0.equipment)) do

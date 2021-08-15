@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_390 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_390[2021511] = {
 		recover_time = 0.5,
 		name = "【大世界】白鹰驱逐精英专属_速射鱼雷（格里德利）",
@@ -3493,4 +3493,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

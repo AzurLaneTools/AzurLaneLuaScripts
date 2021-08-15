@@ -256,7 +256,7 @@ end
 function slot0.showSign(slot0, slot1, slot2)
 	slot3 = slot1.showSign
 
-	function ()
+	(function ()
 		slot0 = uv0.type
 		slot1 = uv0.duration
 		slot2 = uv0.simultaneously
@@ -373,7 +373,7 @@ function slot0.showSign(slot0, slot1, slot2)
 				uv1.curSignList[slot8].signTimer:Start()
 			end
 		end
-	end()
+	end)()
 end
 
 function slot0.getSign(slot0, slot1, slot2)

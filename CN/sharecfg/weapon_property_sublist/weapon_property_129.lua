@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_129 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_129[65748] = {
 		id = 65748,
 		name = "贝拉罗斯PVP冰锥3-115-LV8",
@@ -868,4 +868,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

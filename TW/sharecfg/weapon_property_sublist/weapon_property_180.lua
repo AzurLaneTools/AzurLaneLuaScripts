@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_180 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_180[71171] = {
 		recover_time = 0.5,
 		name = "全彈發射-穀物女神級I",
@@ -1651,4 +1651,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

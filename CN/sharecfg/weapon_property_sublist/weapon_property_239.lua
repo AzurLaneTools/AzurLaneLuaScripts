@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_239 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_239[472304] = {
 		recover_time = 0.5,
 		name = "【异色格C】【BOSS】希佩尔-三联装533mm磁性鱼雷",
@@ -2902,4 +2902,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

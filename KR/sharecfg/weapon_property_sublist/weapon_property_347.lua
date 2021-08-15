@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_347 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_347[950141] = {
 		recover_time = 0,
 		name = "【挑战关卡7】提尔比茨_跨射范围",
@@ -3006,4 +3006,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

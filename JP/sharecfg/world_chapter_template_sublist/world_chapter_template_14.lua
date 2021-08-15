@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_chapter_template_14 = {}
 
-function ()
+(function ()
 	uv0.world_chapter_template_14[9108] = {
 		is_auto = 0,
 		name = "破碎的空间Sco-II",
@@ -4876,4 +4876,4 @@ function ()
 		terrain = {},
 		world_chapter_buff = {}
 	}
-end()
+end)()

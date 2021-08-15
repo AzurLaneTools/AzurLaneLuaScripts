@@ -37,7 +37,7 @@ end
 
 function slot0.EnterAnim(slot0)
 	if not slot0.contextData.showAni then
-		function ()
+		(function ()
 			uv0.super.EnterAnim(uv1)
 			uv1.loader:GetPrefab("ui/ASKS_Loop", "", function (slot0)
 				setParent(slot0, uv0.mainTF)
@@ -51,7 +51,7 @@ function slot0.EnterAnim(slot0)
 
 				setActive(slot0, true)
 			end)
-		end()
+		end)()
 
 		return
 	end

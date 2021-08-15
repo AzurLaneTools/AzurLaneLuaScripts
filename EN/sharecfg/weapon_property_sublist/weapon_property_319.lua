@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_319 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_319[680105] = {
 		recover_time = 0.5,
 		name = "【2020英系活动B1】精英人形U73 快速自机狙鱼雷",
@@ -3161,4 +3161,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

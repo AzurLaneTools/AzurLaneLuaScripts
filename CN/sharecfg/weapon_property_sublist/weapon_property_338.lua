@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_338 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_338[782211] = {
 		aim_type = 0,
 		name = "【2021意大利活动C3】塞壬执棋者II型 扫射弹幕",
@@ -1430,4 +1430,4 @@ function ()
 			840086
 		}
 	}
-end()
+end)()

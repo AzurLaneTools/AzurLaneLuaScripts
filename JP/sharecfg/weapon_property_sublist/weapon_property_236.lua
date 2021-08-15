@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_236 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_236[470133] = {
 		recover_time = 0,
 		name = "【异色格A】【人型】莱比锡-Q版穿透弹三横追踪弹",
@@ -2861,4 +2861,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

@@ -371,9 +371,9 @@ function slot0.OwnThemeTemplateFurniture(slot0, slot1)
 	slot2 = slot0:GetAllFurniture()
 
 	for slot8, slot9 in pairs(slot1:GetFurnitureCnt()) do
-		if not function (slot0, slot1)
+		if not (function (slot0, slot1)
 			return uv0[slot0] and slot1 <= slot2.count
-		end(slot8, slot9) then
+		end)(slot8, slot9) then
 			return false
 		end
 	end

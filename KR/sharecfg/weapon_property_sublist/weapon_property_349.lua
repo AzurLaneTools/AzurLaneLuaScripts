@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_349 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_349[950324] = {
 		recover_time = 0,
 		name = "【挑战关卡20】谢菲尔德_Q版燃烧波形子弹3循环",
@@ -2278,4 +2278,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

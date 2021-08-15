@@ -23,12 +23,12 @@ function slot0.update(slot0, slot1, slot2, slot3)
 		slot9 = "blueprint_shop_goods"
 
 		for slot9, slot10 in ipairs(slot0:getConfig(slot9)) do
-			function (slot0, slot1)
+			(function (slot0, slot1)
 				uv1.goods[slot0] = Goods.Create({
 					shop_id = slot0,
 					buy_count = uv0[slot0] or 0
 				}, slot1)
-			end(slot10, Goods.TYPE_FRAGMENT)
+			end)(slot10, Goods.TYPE_FRAGMENT)
 		end
 
 		slot9 = "blueprint_shop_limit_goods"

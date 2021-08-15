@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_112 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_112[64238] = {
 		id = 64238,
 		name = "霞光之绊·改弹幕LV8",
@@ -621,4 +621,4 @@ function ()
 		damage = 186,
 		base = 64291
 	}
-end()
+end)()

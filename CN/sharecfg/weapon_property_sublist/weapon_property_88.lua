@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_88 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_88[52040] = {
 		recover_time = 0,
 		name = "1 x 100lb 炸弹",
@@ -517,4 +517,4 @@ function ()
 		damage = 151,
 		base = 52160
 	}
-end()
+end)()

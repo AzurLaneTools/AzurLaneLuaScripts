@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_342 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_342[792001] = {
 		initial_over_heat = 0,
 		name = "【2021美系活动C1】塞壬破局者I型 前排跨射",
@@ -1532,4 +1532,4 @@ function ()
 			12010
 		}
 	}
-end()
+end)()

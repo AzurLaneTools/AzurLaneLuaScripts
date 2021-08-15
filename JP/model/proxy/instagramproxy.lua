@@ -8,7 +8,7 @@ function slot0.register(slot0)
 	slot0.allReply = {}
 
 	for slot5, slot6 in ipairs(uv1.all) do
-		slot0.allReply[slot6] = function (slot0)
+		slot0.allReply[slot6] = (function (slot0)
 			slot1 = slot0.npc_reply_persist
 
 			if type(slot0.npc_reply_persist) == "string" then
@@ -29,7 +29,7 @@ function slot0.register(slot0)
 				text = slot2,
 				npc_reply = slot1
 			}
-		end(uv1[slot6])
+		end)(uv1[slot6])
 	end
 
 	slot0:on(11700, function (slot0)

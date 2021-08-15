@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_325 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_325[712029] = {
 		name = "【2020普林斯顿SP3】BOSS 瑞鹤第二波弹幕",
 		range = 120,
@@ -1289,4 +1289,4 @@ function ()
 			13
 		}
 	}
-end()
+end)()

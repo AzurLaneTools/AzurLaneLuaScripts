@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_122 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_122[65312] = {
 		id = 65312,
 		name = "穗香弹幕LV2-类黎塞留高爆4+2枚-PVP",
@@ -621,4 +621,4 @@ function ()
 		damage = 16,
 		base = 65371
 	}
-end()
+end)()

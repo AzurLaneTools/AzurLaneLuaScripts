@@ -483,7 +483,7 @@ function slot0.SearchValidDiagonalColoringCells(slot0, slot1, slot2, slot3)
 		slot7 = slot6.x - slot5.x
 		slot8 = slot6.y - slot5.y
 
-		function ()
+		(function ()
 			for slot4 = 0, uv0 + uv1 do
 				for slot8 = 0, slot4 do
 					slot10 = slot8
@@ -501,7 +501,7 @@ function slot0.SearchValidDiagonalColoringCells(slot0, slot1, slot2, slot3)
 					end
 				end
 			end
-		end()
+		end)()
 
 		return slot4
 	end

@@ -202,13 +202,13 @@ function slot0.UpdateNonProcessList(slot0)
 	slot0.displays = {}
 
 	for slot7, slot8 in ipairs(slot0.proxy:GetCacheBossList()) do
-		if not slot8:isDeath() and not slot8:IsExpired() and function (slot0)
+		if not slot8:isDeath() and not slot8:IsExpired() and (function (slot0)
 			return _.any(_.select(uv0.filterFlags, function (slot0)
 				return slot0 >= 0
 			end), function (slot0)
 				return uv0:GetType() == slot0
 			end)
-		end(slot8) and not slot8:IsFullPeople() then
+		end)(slot8) and not slot8:IsFullPeople() then
 			table.insert(slot0.displays, slot8)
 		end
 	end

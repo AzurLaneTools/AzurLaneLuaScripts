@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_343 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_343[795004] = {
 		aim_type = 1,
 		name = "【2021美系活动EX】BOSS 苍龙·META 第三波 飞机",
@@ -2673,4 +2673,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

@@ -2,7 +2,7 @@ pg = pg or {}
 slot0 = pg
 slot0.chapter_template = {}
 
-function ()
+(function ()
 	uv0.chapter_template[101] = {
 		special_operation_list = "",
 		name = "근해 연습 ",
@@ -59400,8 +59400,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[10904] = {
 		special_operation_list = "",
 		name = "헬레나 ",
@@ -123703,8 +123703,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1120003] = {
 		special_operation_list = "",
 		name = "주도권|~Initiative~",
@@ -188480,8 +188480,8 @@ function ()
 		},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1330026] = {
 		special_operation_list = "",
 		name = "옅은 안개와 구름",
@@ -261695,8 +261695,8 @@ function ()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1450002] = {
 		special_operation_list = "",
 		name = "함께 싸우는 자매",
@@ -333419,8 +333419,8 @@ function ()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1520025] = {
 		special_operation_list = "",
 		name = "직선 작전",
@@ -401696,8 +401696,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[2100121] = {
 		special_operation_list = "",
 		name = "독졸단명",
@@ -436280,7 +436280,7 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
+end)()
 
 slot0.chapter_template.all = {
 	101,

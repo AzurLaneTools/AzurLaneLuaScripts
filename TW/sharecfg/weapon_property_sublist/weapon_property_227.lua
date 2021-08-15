@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_227 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_227[319084] = {
 		recover_time = 0.5,
 		name = "【第九章boss】9-4驱逐点射子弹追踪",
@@ -2814,4 +2814,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

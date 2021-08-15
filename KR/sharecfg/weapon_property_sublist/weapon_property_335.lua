@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_335 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_335[770201] = {
 		aim_type = 1,
 		name = "【2021毛系活动A3】塞壬执棋者II型 轰炸机",
@@ -2014,4 +2014,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

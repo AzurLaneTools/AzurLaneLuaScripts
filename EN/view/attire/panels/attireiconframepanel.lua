@@ -23,8 +23,8 @@ function slot2(slot0)
 	function slot4(slot0, slot1, slot2)
 	end
 
-	function (slot0)
-	end(slot1)
+	(function (slot0)
+	end)(slot1)
 
 	return uv0(slot1, {
 		__index = AttireFramePanel.Card(slot0)

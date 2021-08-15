@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_307 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_307[617045] = {
 		recover_time = 0.5,
 		name = "【年底日系活动B1】神秘结界",
@@ -2925,4 +2925,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

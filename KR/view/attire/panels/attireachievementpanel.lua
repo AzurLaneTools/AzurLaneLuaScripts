@@ -23,7 +23,7 @@ function slot1(slot0)
 		end
 	}
 
-	function (slot0)
+	(function (slot0)
 		slot0._go = uv0
 		slot0.info = findTF(slot0._go, "info")
 		slot0.empty = findTF(slot0._go, "empty")
@@ -36,7 +36,7 @@ function slot1(slot0)
 		}
 		slot0.print5 = findTF(slot0._go, "prints/line5")
 		slot0.print6 = findTF(slot0._go, "prints/line6")
-	end(slot1)
+	end)(slot1)
 
 	return slot1
 end
@@ -57,10 +57,10 @@ function slot2(slot0)
 		end
 	}
 
-	function (slot0)
+	(function (slot0)
 		slot0._tf = uv0
 		slot0.uiList = UIItemList.New(slot0._tf:Find("list"), slot0._tf:Find("list/tpl"))
-	end(slot1)
+	end)(slot1)
 
 	return slot1
 end
@@ -186,9 +186,9 @@ function slot0.Filter(slot0)
 	slot0.displayVOs = {}
 
 	for slot5, slot6 in pairs(slot0.trophys) do
-		if slot6:isClaimed() and not slot6:isHide() and (not slot0.selectMaxLevel or slot0.selectMaxLevel and not function (slot0)
+		if slot6:isClaimed() and not slot6:isHide() and (not slot0.selectMaxLevel or slot0.selectMaxLevel and not (function (slot0)
 			return uv0.trophys[slot0:getConfig("next")] and slot1:isClaimed() and not slot1:isHide()
-		end(slot6)) then
+		end)(slot6)) then
 			table.insert(slot0.displayVOs, slot6)
 		end
 	end

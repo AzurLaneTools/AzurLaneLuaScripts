@@ -48,7 +48,7 @@ function slot1.Init(slot0, slot1)
 	}
 
 	for slot7, slot8 in ipairs(slot0.cameraBlurs) do
-		function (slot0)
+		(function (slot0)
 			if slot0 == nil then
 				return
 			end
@@ -56,8 +56,8 @@ function slot1.Init(slot0, slot1)
 			slot0.downsample = 2
 			slot0.blurSize = 4
 			slot0.blurIterations = 2
-		end(slot8[uv0.OptimizedBlur])
-		function (slot0)
+		end)(slot8[uv0.OptimizedBlur])
+		(function (slot0)
 			if slot0 == nil then
 				return
 			end
@@ -65,7 +65,7 @@ function slot1.Init(slot0, slot1)
 			slot0.downsample = 2
 			slot0.blurSize = 1.5
 			slot0.blurIteration = 4
-		end(slot8[uv0.PartialBlur])
+		end)(slot8[uv0.PartialBlur])
 	end
 
 	slot0._debugPanel = DebugPanel.New()

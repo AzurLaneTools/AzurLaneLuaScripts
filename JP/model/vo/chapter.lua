@@ -2288,11 +2288,11 @@ end
 
 function slot0.writeBack(slot0, slot1, slot2)
 	for slot8, slot9 in pairs(slot0.fleet.ships) do
-		function (slot0)
+		(function (slot0)
 			if uv0.statistics[slot0.id] then
 				slot0.hpRant = slot1.bp
 			end
-		end(slot9)
+		end)(slot9)
 	end
 
 	slot3.restAmmo = math.max(slot3.restAmmo - 1, 0)
@@ -2879,9 +2879,9 @@ function slot0.GetAntiAirGunArea(slot0)
 			end
 
 			while next({
-				[function (slot0, slot1)
+				[(function (slot0, slot1)
 					return ChapterConst.MaxColumn * slot0 + slot1
-				end(slot7.row, slot7.column)] = slot7
+				end)(slot7.row, slot7.column)] = slot7
 			}) do
 				slot14 = next(slot12)
 				slot12[slot14] = nil
@@ -2921,13 +2921,13 @@ function slot0.getNpcShipByType(slot0, slot1)
 	for slot8, slot9 in ipairs(slot0:getConfig(slot8)) do
 		slot10 = pg.npc_squad_template[slot9]
 
-		if not slot1 or slot1 == slot10.type and function (slot0)
+		if not slot1 or slot1 == slot10.type and (function (slot0)
 			if slot0 == 0 then
 				return true
 			end
 
 			return uv0:getTaskVO(slot0) and not slot1:isFinish()
-		end(slot10.task_id) then
+		end)(slot10.task_id) then
 			for slot14, slot15 in ipairs({
 				"vanguard_list",
 				"main_list"

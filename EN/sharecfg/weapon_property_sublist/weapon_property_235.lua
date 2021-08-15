@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_235 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_235[470012] = {
 		recover_time = 0.5,
 		name = "【异色格A】【杂兵】量产型塞壬轻巡联装炮x6散射III",
@@ -2903,4 +2903,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

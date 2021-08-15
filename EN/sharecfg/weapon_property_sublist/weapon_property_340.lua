@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_340 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_340[784305] = {
 		id = 784305,
 		name = "【2021意大利活动SP】塞壬轻巡R型联装炮x6散射",
@@ -1661,4 +1661,4 @@ function ()
 			850139
 		}
 	}
-end()
+end)()

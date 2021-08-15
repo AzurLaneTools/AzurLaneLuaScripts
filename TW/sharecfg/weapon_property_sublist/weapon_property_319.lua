@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_319 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_319[680141] = {
 		recover_time = 0,
 		name = "【2020英系活动B2】BOSS 领洋者III型 主炮扫射",
@@ -3093,4 +3093,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

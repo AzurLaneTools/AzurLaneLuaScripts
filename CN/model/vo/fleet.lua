@@ -689,9 +689,9 @@ function slot0.getFleetAirDominanceValue(slot0)
 	slot2 = slot0:getCommanders()
 
 	for slot7, slot8 in ipairs(slot0.ships) do
-		slot3 = function (slot0, slot1)
+		slot3 = (function (slot0, slot1)
 			return slot0 + calcAirDominanceValue(uv0:getShipById(slot1), uv1)
-		end(0, slot8)
+		end)(0, slot8)
 	end
 
 	return slot3

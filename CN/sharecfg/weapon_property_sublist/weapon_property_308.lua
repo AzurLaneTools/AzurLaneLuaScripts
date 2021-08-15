@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_308 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_308[618301] = {
 		recover_time = 0.5,
 		name = "【2020年春节世界BOSS】黛朵H难度3way鱼雷x2",
@@ -3093,4 +3093,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

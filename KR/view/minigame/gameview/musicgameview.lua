@@ -2390,7 +2390,7 @@ function slot0.gameStep(slot0)
 
 			if slot0 == "left" and uv0.piece_nowl.ob and uv0.piece_nowl.begin_time == uv0.piece_nowl.end_time and uv0.downingleft_flag and not uv0.downingleft_lastflag then
 				if uv0.piece_nowl.key_flag ~= "K_BOTH" and not uv0.piece_nowl_downflag and not uv0.piece_nowl_aloneflag then
-					function ()
+					(function ()
 						if uv0.musicgame_nowtime - uv0.piece_nowl.begin_time < uv0.time_laterperfect then
 							uv0:score_update(2)
 						elseif uv0.musicgame_nowtime - uv0.piece_nowl.begin_time < uv0.time_latergood then
@@ -2404,7 +2404,7 @@ function slot0.gameStep(slot0)
 
 						uv0.piece_nowl.ob = false
 						uv0.piece_nowl_aloneflag = true
-					end()
+					end)()
 				elseif uv0.piece_nowr.key_flag == "K_BOTH" and uv0.piece_nowr.ob and uv0.downingright_flag and not uv0.piece_nowl_downflag and not uv0.piece_nowl_aloneflag and not uv0.piece_nowr_downflag and not uv0.piece_nowr_aloneflag then
 					slot4()
 					slot5()

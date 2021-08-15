@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_306 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_306[616154] = {
 		recover_time = 0.5,
 		name = "【hololive联动T6】BOSS-白上吹雪_蓄力激光武器",
@@ -2975,4 +2975,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

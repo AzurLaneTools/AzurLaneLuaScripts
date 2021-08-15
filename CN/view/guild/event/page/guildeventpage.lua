@@ -388,12 +388,12 @@ end
 
 function slot0.CreateLinkLine(slot0, slot1)
 	if slot1:HasChild() then
-		slot1:AddLine(function (slot0, slot1)
+		slot1:AddLine((function (slot0, slot1)
 			slot2 = Instantiate(slot0)
 			slot2.name = slot1
 
 			return slot2
-		end(slot0.adapter, "adapter"), GuildViewMissionNode.LINE_RIGHT, slot1)
+		end)(slot0.adapter, "adapter"), GuildViewMissionNode.LINE_RIGHT, slot1)
 	end
 
 	if slot1:HasParent() then

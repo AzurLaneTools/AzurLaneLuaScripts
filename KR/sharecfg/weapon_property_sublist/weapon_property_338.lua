@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_338 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_338[781313] = {
 		id = 781313,
 		name = "【2021意大利活动B】塞壬航母R型单发x6随机",
@@ -1511,4 +1511,4 @@ function ()
 			840092
 		}
 	}
-end()
+end)()

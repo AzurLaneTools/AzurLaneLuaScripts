@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_360 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_360[1002040] = {
 		recover_time = 0.5,
 		name = "量产型塞壬重巡III型双联装鱼雷x2 V",
@@ -2555,4 +2555,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

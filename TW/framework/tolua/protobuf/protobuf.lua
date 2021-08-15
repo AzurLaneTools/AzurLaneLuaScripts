@@ -295,9 +295,9 @@ function slot33(slot0, slot1)
 	uv1(slot1, "_encoder", uv2[slot1.type](slot1.number, slot2, slot3))
 	uv1(slot1, "_sizer", uv3[slot1.type](slot1.number, slot2, slot3))
 	uv1(slot1, "_default_constructor", uv4(slot1))
-	function (slot0, slot1)
+	(function (slot0, slot1)
 		uv2._decoders_by_tag[uv0.TagBytes(uv1.number, slot0)] = uv3[uv1.type](uv1.number, uv4, slot1, uv1, uv1._default_constructor)
-	end(uv7[slot1.type], False)
+	end)(uv7[slot1.type], False)
 
 	if slot2 and uv8(slot1.type) then
 		slot4(uv9.WIRETYPE_LENGTH_DELIMITED, True)
@@ -528,7 +528,7 @@ end
 
 function slot46(slot0, slot1)
 	function slot1._member.ListFields(slot0)
-		return function (slot0)
+		return (function (slot0)
 			slot1, slot2, slot3 = pairsByKeys(uv0._fields, sortFunc)
 
 			return function (slot0, slot1)
@@ -542,7 +542,7 @@ function slot46(slot0, slot1)
 					end
 				end
 			end, slot2, slot3
-		end(slot0._fields)
+		end)(slot0._fields)
 	end
 end
 

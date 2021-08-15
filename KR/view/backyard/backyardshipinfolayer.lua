@@ -106,7 +106,7 @@ function slot4(slot0)
 		setActive(slot3.propsTr1, slot2 == uv0.SHIP_REST_TYPE or slot2 == uv0.SHIP_CLASS_TYPE)
 	end
 
-	function (slot0)
+	(function (slot0)
 		slot0._go = uv0
 		slot0._tf = tf(uv0)
 		slot0.shipPanel = slot0._tf:Find("shiptpl")
@@ -115,7 +115,7 @@ function slot4(slot0)
 		slot0.extendPanel = slot0._tf:Find("extendtpl")
 		slot0.formationCard = FormationCard.New(slot0.shipTF)
 		slot0.speed = 0
-	end(slot1)
+	end)(slot1)
 
 	return slot1
 end
@@ -349,7 +349,7 @@ function slot0.getExpAdditionSpeed(slot0)
 	slot1 = 0
 
 	if slot0.contextData.type == uv0.SHIP_TRAIN_TYPE then
-		slot1 = math.floor(function ()
+		slot1 = math.floor((function ()
 			if table.getCount(uv0.trainShipVOs) <= 0 then
 				return 0
 			end
@@ -365,7 +365,7 @@ function slot0.getExpAdditionSpeed(slot0)
 			slot7 = uv0.dormVO:getComfortable()
 
 			return pg.gameset["dorm_exp_ratio_by_" .. slot0].key_value / 100 * (pg.gameset.dorm_exp_base.key_value + slot1.exp * slot7 / (slot7 + pg.gameset.dorm_exp_ratio_comfort_degree.key_value)) * slot3 * (1 + 0.05 * uv0.playerVO.level)
-		end() * 3600 / pg.dorm_data_template[slot0.dormVO.id].time)
+		end)() * 3600 / pg.dorm_data_template[slot0.dormVO.id].time)
 	elseif slot0.contextData.type == uv0.SHIP_CLASS_TYPE then
 		slot2 = 0
 

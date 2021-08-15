@@ -61,7 +61,7 @@ function slot0.addTranDrop(slot0)
 	slot4 = pg.item_data_frame
 
 	for slot9, slot10 in ipairs(slot0) do
-		slot11, slot12 = function (slot0)
+		slot11, slot12 = (function (slot0)
 			if slot0.type == DROP_TYPE_SKIN then
 				slot1 = slot0.number or slot0.count
 
@@ -140,7 +140,7 @@ function slot0.addTranDrop(slot0)
 				id = slot0.id,
 				count = slot0.number or slot0.count
 			})
-		end(slot10)
+		end)(slot10)
 
 		if slot11 then
 			table.insert(slot1, slot11)

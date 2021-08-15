@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_328 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_328[729032] = {
 		name = "【2020偶像活动二期】光辉 音符鱼雷机武器2",
 		range = 60,
@@ -1585,4 +1585,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

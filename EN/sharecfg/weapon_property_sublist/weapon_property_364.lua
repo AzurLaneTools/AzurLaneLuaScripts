@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_364 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_364[1003058] = {
 		id = 1003058,
 		name = "【量产型】梦境航母近程自卫火炮 III",
@@ -500,4 +500,4 @@ function ()
 			8073
 		}
 	}
-end()
+end)()

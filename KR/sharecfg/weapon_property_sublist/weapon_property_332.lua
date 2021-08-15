@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_332 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_332[760103] = {
 		name = "【2020德系活动A2】BOSS 英王乔治五世 4连主炮3轮跨射",
 		range = 100,
@@ -1704,4 +1704,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

@@ -26,7 +26,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot13 = true
-	slot14, slot15 = function (slot0)
+	slot14, slot15 = (function (slot0)
 		for slot5, slot6 in ipairs(getProxy(FleetProxy):getCommanders()) do
 			if slot6.fleetId ~= uv0 and slot6.commanderId == slot0 then
 				return true, slot6
@@ -34,7 +34,7 @@ function slot0.execute(slot0, slot1)
 		end
 
 		return false
-	end(slot5)
+	end)(slot5)
 
 	if slot14 then
 		table.insert({}, function (slot0)

@@ -11,7 +11,7 @@ function slot1.prepare(slot0, slot1, slot2, slot3)
 	slot5 = nil
 
 	if slot4:isLoaded() then
-		function ()
+		(function ()
 			uv0.event:disconnect(BaseUI.LOADED, uv1)
 
 			slot0 = uv2.mediator.New(uv0)
@@ -19,7 +19,7 @@ function slot1.prepare(slot0, slot1, slot2, slot3)
 			slot0:setContextData(uv2.data)
 			uv3:registerMediator(slot0)
 			uv4(slot0)
-		end()
+		end)()
 	else
 		slot4.event:connect(BaseUI.LOADED, slot5)
 		slot4:load()
@@ -47,7 +47,7 @@ function slot1.prepareLayer(slot0, slot1, slot2, slot3, slot4)
 
 	slot7 = nil
 
-	function ()
+	(function ()
 		if #uv0 > 0 then
 			for slot4, slot5 in ipairs(table.remove(uv0, 1).children) do
 				table.insert(uv0, slot5)
@@ -65,7 +65,7 @@ function slot1.prepareLayer(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		uv5(uv3)
-	end()
+	end)()
 end
 
 function slot1.enter(slot0, slot1, slot2)

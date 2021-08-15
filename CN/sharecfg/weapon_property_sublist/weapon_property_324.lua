@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_324 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_324[710005] = {
 		name = "【2020普林斯顿SP1】浦风 穿透弹交叉三横射",
 		range = 100,
@@ -1281,4 +1281,4 @@ function ()
 			780017
 		}
 	}
-end()
+end)()

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_339 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_339[783218] = {
 		name = "【2021意大利活动D3】BOSS 测试者 3way风旋 预警（无判定无伤害）",
 		range = 120,
@@ -1471,4 +1471,4 @@ function ()
 			840166
 		}
 	}
-end()
+end)()

@@ -743,7 +743,7 @@ function slot5.GetEnemyResource(slot0)
 	end
 
 	for slot11, slot12 in ipairs(slot4) do
-		function (slot0)
+		(function (slot0)
 			for slot5, slot6 in pairs(uv0.Battle.BattleDataFunction.GetBuffTemplate(slot0, 1).effect_list) do
 				if slot6.arg_list.skill_id then
 					if uv0.Battle.BattleDataFunction.GetSkillTemplate(slot7).painting == 1 then
@@ -757,7 +757,7 @@ function slot5.GetEnemyResource(slot0)
 					uv4(slot8)
 				end
 			end
-		end(slot12)
+		end)(slot12)
 	end
 
 	for slot11, slot12 in ipairs(slot5) do

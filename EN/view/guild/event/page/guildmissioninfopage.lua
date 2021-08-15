@@ -246,7 +246,7 @@ function slot0.AddOtherShipMoveTimer(slot0)
 
 	slot2 = nil
 
-	function ()
+	(function ()
 		if uv0.timer then
 			uv0.timer:Stop()
 
@@ -258,18 +258,18 @@ function slot0.AddOtherShipMoveTimer(slot0)
 		end, math.random(30, 150), 1)
 
 		uv0.timer:Start()
-	end()
+	end)()
 end
 
 function slot0.CheckNodesState(slot0)
 	if slot0.mission:GetNewestSuccessNode() and slot2:GetNodeAnimPosistion() < slot3:GetPosition() then
-		function (slot0)
+		(function (slot0)
 			if slot0:IsItemType() then
 				uv0.battleView:PlayItemAnim()
 			elseif slot0:IsBattleType() then
 				uv0.battleView:PlayAttackAnim()
 			end
-		end(slot3)
+		end)(slot3)
 		slot0:emit(GuildEventMediator.ON_UPDATE_NODE_ANIM_FLAG, slot2.id, slot5)
 	end
 end

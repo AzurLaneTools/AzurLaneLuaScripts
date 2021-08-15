@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_324 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_324[693702] = {
 		type = 2,
 		name = "【2020信浓活动困难T5】BOSS 拉菲3way黄色长时间自机狙",
@@ -1492,4 +1492,4 @@ function ()
 			770081
 		}
 	}
-end()
+end)()

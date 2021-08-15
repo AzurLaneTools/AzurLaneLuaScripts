@@ -320,7 +320,7 @@ function slot0.openReplacePanel(slot0, slot1)
 			GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. uv0[slot1 + 1]:getConfig("icon"), "", slot2)
 		end
 	end)
-	function (slot0, slot1)
+	(function (slot0, slot1)
 		uv0:updateTalentCard(uv0.replaceTargetTF, slot0)
 		uv0:updateTalentCard(uv0.replaceTalent, slot1)
 		onButton(uv0, uv0.replaceconfirmBtn, function ()
@@ -339,7 +339,7 @@ function slot0.openReplacePanel(slot0, slot1)
 				end
 			end
 		end, SFX_PANEL)
-	end(slot1, nil)
+	end)(slot1, nil)
 	slot0.replaceList:align(#slot0.commanderVO:getTalents())
 end
 

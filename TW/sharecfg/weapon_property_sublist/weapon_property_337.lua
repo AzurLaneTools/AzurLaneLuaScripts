@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_337 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_337[779005] = {
 		recover_time = 0.5,
 		name = "【2021毛系活动】璀璨支援武器LV5",
@@ -1557,4 +1557,4 @@ function ()
 			840041
 		}
 	}
-end()
+end)()

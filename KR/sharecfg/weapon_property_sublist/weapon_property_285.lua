@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_285 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_285[591192] = {
 		recover_time = 0.5,
 		name = "【法系活动B】【BOSS】探索者II型 麻花弹幕武器(伤害极低）",
@@ -2913,4 +2913,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

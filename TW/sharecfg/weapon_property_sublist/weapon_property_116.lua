@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_116 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_116[65260] = {
 		reload_max = 1755,
 		name = "光辉μ坠星Lv10",
@@ -701,4 +701,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

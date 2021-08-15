@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_235 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_235[470129] = {
 		recover_time = 0,
 		name = "【异色格A】【人型】卡尔斯鲁厄-Q版穿透弹延迟散射4连",
@@ -2912,4 +2912,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

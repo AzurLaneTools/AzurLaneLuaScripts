@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_311 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_311[619408] = {
 		recover_time = 0,
 		name = "【2020毛系活动SP】塞壬干扰者II型 蓝色串状自机狙",
@@ -3015,4 +3015,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

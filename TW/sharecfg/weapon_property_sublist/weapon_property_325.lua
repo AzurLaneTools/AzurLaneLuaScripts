@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_325 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_325[711010] = {
 		name = "【2020普林斯顿SP2】能代 竖排四联装鱼雷",
 		range = 100,
@@ -1240,4 +1240,4 @@ function ()
 			12017
 		}
 	}
-end()
+end)()

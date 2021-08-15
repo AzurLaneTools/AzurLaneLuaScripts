@@ -141,9 +141,9 @@ function slot18(slot0, slot1)
 		return -1
 	end
 
-	if function (slot0)
+	if (function (slot0)
 		return uv0 == 2 and slot0.voice_key_2 >= 0 and slot0.voice_key_2 or slot0.voice_key
-	end(slot2) == 0 or slot4 == -2 then
+	end)(slot2) == 0 or slot4 == -2 then
 		slot4 = slot3(uv0[uv1(slot1)])
 	end
 

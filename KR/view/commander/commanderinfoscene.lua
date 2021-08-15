@@ -93,9 +93,9 @@ function slot0.opeRenamePanel(slot0, slot1)
 	end
 
 	if slot0.renamePanel:GetLoaded() then
-		function ()
+		(function ()
 			uv0.renamePanel:ActionInvoke("Show", uv1, uv2)
-		end()
+		end)()
 	else
 		slot0.renamePanel:Load()
 		slot0.renamePanel:CallbackInvoke(slot3)
@@ -110,9 +110,9 @@ function slot0.openMsgBox(slot0, slot1)
 	slot0.isShowMsgBox = true
 
 	if slot0.msgboxPage:GetLoaded() then
-		function ()
+		(function ()
 			uv0.msgboxPage:ActionInvoke("OnUpdate", uv1)
-		end()
+		end)()
 	else
 		slot0.msgboxPage:Load()
 		slot0.msgboxPage:CallbackInvoke(slot2)
@@ -279,9 +279,9 @@ end
 
 function slot0.openTreePanel(slot0, slot1)
 	if slot0.treePanel:GetLoaded() then
-		function ()
+		(function ()
 			uv0.treePanel:ActionInvoke("openTreePanel", uv1)
-		end()
+		end)()
 	else
 		slot0.treePanel:Load()
 		slot0.treePanel:CallbackInvoke(slot2)

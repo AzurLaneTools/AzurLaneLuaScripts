@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_298 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_298[611212] = {
 		recover_time = 0,
 		name = "【新美系活动DS2】BOSS –布鲁克林穿透弹三横追踪弹",
@@ -2958,4 +2958,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

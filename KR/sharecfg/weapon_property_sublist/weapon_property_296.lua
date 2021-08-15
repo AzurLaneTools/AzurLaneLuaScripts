@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_296 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_296[610144] = {
 		recover_time = 0,
 		name = "【俾斯麦活动D3】BOSS-俾斯麦交叉射线",
@@ -2954,4 +2954,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

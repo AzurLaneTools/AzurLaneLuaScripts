@@ -511,7 +511,7 @@ function slot0.OpLongMoveFleet(slot0, slot1, slot2, slot3)
 			slot11 = 0
 			slot12 = nil
 
-			function (slot0, slot1)
+			(function (slot0, slot1)
 				if slot0.last[slot1] then
 					uv0(slot0.last[slot1][1], slot0.last[slot1][2])
 
@@ -524,7 +524,7 @@ function slot0.OpLongMoveFleet(slot0, slot1, slot2, slot3)
 						stay = slot1 == 0
 					})
 				end
-			end(slot8[slot6.row][slot6.column], 0)
+			end)(slot8[slot6.row][slot6.column], 0)
 			master:SetMoveQueue({})
 			master:DoQueueMove(slot1)
 		end
@@ -671,11 +671,11 @@ function slot0.OpMoveFleet(slot0, slot1, slot2)
 		end)
 	end
 
-	function (slot0)
+	(function (slot0)
 		slot1 = uv0.path[slot0 + 1]
 
 		master.wsDragProxy:Focus(uv1:GetCell(slot1.row, slot1.column).transform.position, slot1.duration, LeanTweenType.linear)
-	end(0)
+	end)(0)
 
 	slot13 = nil
 

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_270 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_270[551550] = {
 		recover_time = 0,
 		name = "【海王星联动】【EXTRA】翡绿之心战斗机弹幕武器",
@@ -2922,4 +2922,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

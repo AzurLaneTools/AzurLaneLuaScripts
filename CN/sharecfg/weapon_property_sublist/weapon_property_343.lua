@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_343 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_343[819319] = {
 		name = "【偶像大师联动SP3】BOSS 如月千早 普通攻击-机枪",
 		range = 90,
@@ -1273,4 +1273,4 @@ function ()
 			5
 		}
 	}
-end()
+end)()

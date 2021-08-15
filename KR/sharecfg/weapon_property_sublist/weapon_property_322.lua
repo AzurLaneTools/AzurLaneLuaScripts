@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_322 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_322[690608] = {
 		name = "【2020信浓活动普通T1】BOSS 测试者 第二波 红色扩散弹幕",
 		range = 120,
@@ -1490,4 +1490,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

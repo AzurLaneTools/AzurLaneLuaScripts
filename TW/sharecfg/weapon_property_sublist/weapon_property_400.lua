@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_400 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_400[2200771] = {
 		recover_time = 5,
 		name = "【大世界】美系舰载-鱼雷机II",
@@ -6943,8 +6943,8 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.weapon_property_400[2961001] = {
 		recover_time = 0,
 		name = "【大世界】黑飞龙p1_花牌燃烧lv2",
@@ -13040,8 +13040,8 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.weapon_property_400[2965081] = {
 		recover_time = 0,
 		name = "【大世界】黑方舟 第二波 剑气3 LV2",
@@ -15038,4 +15038,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

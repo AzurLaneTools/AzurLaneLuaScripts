@@ -53,7 +53,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	slot0.resRepairGroup.Loading = slot3:Find("loading")
 
 	setText(slot3:Find("title"), i18n("repair_setting_label"))
-	function ()
+	(function ()
 		setSlider(uv0.resRepairGroup.Progress, 0, 1, 0)
 		setActive(uv0.resRepairGroup.Dot, false)
 		setActive(uv0.resRepairGroup.Loading, false)
@@ -67,7 +67,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 		setActive(uv0.resRepairGroup.Dot, false)
 		setActive(uv0.resRepairGroup.Loading, false)
 		setActive(uv0.resRepairGroup.LabelNew, false)
-	end()
+	end)()
 	onButton(slot0, slot0.resRepairGroup.Button, function ()
 		showRepairMsgbox()
 	end, SFX_PANEL)
@@ -196,7 +196,7 @@ function slot0.initSoundPanel(slot0, slot1)
 	slot3 = PlayerPrefs.GetInt("mute_audio", 0) == 1
 	slot0.bgmSlider = slot2:Find("settings/bgm/slider")
 
-	function ()
+	(function ()
 		slot0 = pg.CriMgr.GetInstance():getBGMVolume()
 
 		if uv0 then
@@ -204,7 +204,7 @@ function slot0.initSoundPanel(slot0, slot1)
 		end
 
 		setSlider(uv1.bgmSlider, 0, 1, slot0)
-	end()
+	end)()
 	slot0:initSoundSlider(slot0.bgmSlider, function (slot0)
 		if uv0 then
 			return
@@ -215,7 +215,7 @@ function slot0.initSoundPanel(slot0, slot1)
 
 	slot0.effectSlider = slot2:Find("settings/sfx/slider")
 
-	function ()
+	(function ()
 		slot0 = pg.CriMgr.GetInstance():getSEVolume()
 
 		if uv0 then
@@ -223,7 +223,7 @@ function slot0.initSoundPanel(slot0, slot1)
 		end
 
 		setSlider(uv1.effectSlider, 0, 1, slot0)
-	end()
+	end)()
 	slot0:initSoundSlider(slot0.effectSlider, function (slot0)
 		if uv0 then
 			return
@@ -234,7 +234,7 @@ function slot0.initSoundPanel(slot0, slot1)
 
 	slot0.mainSlider = slot2:Find("settings/cv/slider")
 
-	function ()
+	(function ()
 		slot0 = pg.CriMgr.GetInstance():getCVVolume()
 
 		if uv0 then
@@ -242,7 +242,7 @@ function slot0.initSoundPanel(slot0, slot1)
 		end
 
 		setSlider(uv1.mainSlider, 0, 1, slot0)
-	end()
+	end)()
 	slot0:initSoundSlider(slot0.mainSlider, function (slot0)
 		if uv0 then
 			return

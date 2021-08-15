@@ -293,14 +293,14 @@ function slot0.updateStageView(slot0, slot1)
 		slot2.objective_3
 	}) do
 		if type(slot19) ~= "string" then
-			function (slot0, slot1)
+			(function (slot0, slot1)
 				if type(slot0) == "table" then
 					setActive(slot1, true)
 					setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
 				else
 					setActive(slot1, false)
 				end
-			end(slot19, slot12[slot14])
+			end)(slot19, slot12[slot14])
 
 			slot14 = slot14 + 1
 		end

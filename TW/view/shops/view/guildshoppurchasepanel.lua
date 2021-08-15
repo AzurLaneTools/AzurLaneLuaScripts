@@ -120,7 +120,7 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 		uv2()
 		uv0:UpdateValue()
 	end, SFX_PANEL)
-	function ()
+	(function ()
 		for slot4, slot5 in ipairs(uv0.selectedList) do
 			if slot5 == uv1 then
 				slot0 = 0 + 1
@@ -128,7 +128,7 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 		end
 
 		uv2.text = slot0
-	end()
+	end)()
 end
 
 function slot0.Hide(slot0)

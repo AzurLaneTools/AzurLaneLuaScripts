@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_302 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_302[613054] = {
 		recover_time = 0,
 		name = "【世界BOSSEX】BOSS-骏河 跨射攻击后排武器2x3轮",
@@ -2835,4 +2835,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

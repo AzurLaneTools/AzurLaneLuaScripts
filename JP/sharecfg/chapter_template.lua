@@ -2,7 +2,7 @@ pg = pg or {}
 slot0 = pg
 slot0.chapter_template = {}
 
-function ()
+(function ()
 	uv0.chapter_template[101] = {
 		special_operation_list = "",
 		name = "近海演習",
@@ -59028,8 +59028,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[11002] = {
 		special_operation_list = "",
 		name = "先制攻撃！",
@@ -122491,8 +122491,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1120012] = {
 		special_operation_list = "",
 		name = "支配|~Occupation~",
@@ -186687,8 +186687,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1340005] = {
 		special_operation_list = "",
 		name = "待ち望むもの",
@@ -260168,8 +260168,8 @@ function ()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1460003] = {
 		special_operation_list = "",
 		name = "暴走",
@@ -332115,8 +332115,8 @@ function ()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[1530004] = {
 		special_operation_list = "",
 		name = "セイレーン襲来",
@@ -400146,8 +400146,8 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.chapter_template[2100132] = {
 		special_operation_list = "",
 		name = "桂頭の銀、定跡なり",
@@ -418856,7 +418856,7 @@ function ()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end()
+end)()
 
 slot0.chapter_template.all = {
 	101,

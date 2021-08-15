@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_287 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_287[592203] = {
 		recover_time = 0.5,
 		name = "【法系活动C】【BOSS】探索者II型 旋转穿透循环(伤害中）",
@@ -2930,4 +2930,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

@@ -1443,7 +1443,7 @@ end
 
 function GetPerceptualSize(slot0)
 	if type(slot0) == "number" then
-		return function (slot0)
+		return (function (slot0)
 			if not slot0 then
 				return 0, 1
 			elseif slot0 > 240 then
@@ -1457,7 +1457,7 @@ function GetPerceptualSize(slot0)
 			else
 				return 1, 1
 			end
-		end(slot0)
+		end)(slot0)
 	end
 
 	slot2 = 1
@@ -2623,7 +2623,7 @@ function resourceVerify(slot0, slot1)
 
 	slot8 = nil
 
-	function (slot0)
+	(function (slot0)
 		if slot0 < 0 then
 			uv0()
 
@@ -2647,7 +2647,7 @@ function resourceVerify(slot0, slot1)
 		uv5 = slot2
 
 		uv0()
-	end(slot4.Length - 1)
+	end)(slot4.Length - 1)
 end
 
 function splitByWordEN(slot0, slot1)

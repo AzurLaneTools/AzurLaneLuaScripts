@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_chapter_template_54 = {}
 
-function ()
+(function ()
 	uv0.world_chapter_template_54[300005] = {
 		is_auto = 0,
 		name = "塞壬据点-测试模板4",
@@ -39225,4 +39225,4 @@ function ()
 		},
 		world_chapter_buff = {}
 	}
-end()
+end)()

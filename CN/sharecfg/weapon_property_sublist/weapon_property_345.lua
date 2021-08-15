@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_345 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_345[920041] = {
 		recover_time = 0,
 		name = "【挑战关卡1】3联_短",
@@ -3026,4 +3026,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

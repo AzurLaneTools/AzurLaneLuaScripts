@@ -297,7 +297,7 @@ function slot0.calcMaxPursuingCount(slot0, slot1)
 	slot6 = nil
 
 	for slot10 = slot0.pursuingTimes + 1, slot2[#slot2][1] - 1 do
-		if slot3 < slot1:getPursuingPrice(function (slot0)
+		if slot3 < slot1:getPursuingPrice((function (slot0)
 			slot1 = #uv0
 
 			while slot0 < uv0[slot1][1] do
@@ -305,7 +305,7 @@ function slot0.calcMaxPursuingCount(slot0, slot1)
 			end
 
 			return uv0[slot1][2]
-		end(slot10)) then
+		end)(slot10)) then
 			return slot4
 		else
 			slot3 = slot3 - slot6
@@ -322,7 +322,7 @@ function slot0.calcPursuingCost(slot0, slot1, slot2)
 	slot6 = nil
 
 	for slot10 = slot0.pursuingTimes + 1, slot3[#slot3][1] - 1 do
-		slot6 = slot1:getPursuingPrice(function (slot0)
+		slot6 = slot1:getPursuingPrice((function (slot0)
 			slot1 = #uv0
 
 			while slot0 < uv0[slot1][1] do
@@ -330,7 +330,7 @@ function slot0.calcPursuingCost(slot0, slot1, slot2)
 			end
 
 			return uv0[slot1][2]
-		end(slot10))
+		end)(slot10))
 
 		if slot2 == 0 then
 			return slot4

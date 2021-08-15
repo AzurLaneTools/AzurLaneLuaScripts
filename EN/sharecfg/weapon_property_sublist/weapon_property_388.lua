@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_388 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_388[2007120] = {
 		recover_time = 0,
 		name = "【大世界】据点BOSS领洋者III型_特殊_蓝色狙击弹幕",
@@ -4705,4 +4705,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

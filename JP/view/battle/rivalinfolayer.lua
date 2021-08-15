@@ -61,7 +61,7 @@ function slot0.initRivalInfo(slot0)
 	end
 
 	for slot8 = 1, 3 do
-		function (slot0, slot1, slot2, slot3)
+		(function (slot0, slot1, slot2, slot3)
 			slot4 = cloneTplTo(uv0.shipCardTpl, slot2)
 			slot4.localScale = Vector3(1.1, 1.1, 1)
 
@@ -71,7 +71,7 @@ function slot0.initRivalInfo(slot0)
 			if slot3 then
 				uv1(slot4, slot3)
 			end
-		end(#slot0.rivalVO.mainShips, slot8, slot0:findTF("ships_container/ships/main", slot0._tf), slot0.rivalVO.mainShips[slot8])
+		end)(#slot0.rivalVO.mainShips, slot8, slot0:findTF("ships_container/ships/main", slot0._tf), slot0.rivalVO.mainShips[slot8])
 	end
 
 	for slot10 = 1, 3 do

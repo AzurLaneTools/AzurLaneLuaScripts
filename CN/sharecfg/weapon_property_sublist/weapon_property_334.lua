@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_334 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_334[765013] = {
 		reload_max = 100,
 		name = "【2020德系活动EX】塞壬构建者 第三波 浮游炮",
@@ -2091,4 +2091,4 @@ function ()
 			830028
 		}
 	}
-end()
+end)()

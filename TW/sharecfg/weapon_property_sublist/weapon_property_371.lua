@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_371 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_371[1100289] = {
 		recover_time = 0.5,
 		name = "Q版輕巡聯裝炮x4散射III型彈幕5",
@@ -2730,4 +2730,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

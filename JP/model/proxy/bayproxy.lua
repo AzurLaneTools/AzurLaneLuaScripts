@@ -772,9 +772,9 @@ function slot0.getModRecommendShip(slot0, slot1, slot2)
 	slot5 = {}
 
 	for slot9, slot10 in pairs(slot0.data) do
-		if function (slot0)
+		if (function (slot0)
 			return slot0.level == 1 and slot0:getRarity() <= ShipRarity.Gray and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
-		end(slot10) then
+		end)(slot10) then
 			table.insert(slot5, slot10)
 		end
 	end
@@ -836,9 +836,9 @@ function slot0.getUpgradeRecommendShip(slot0, slot1, slot2, slot3)
 	slot7 = {}
 
 	for slot11, slot12 in ipairs(slot0:getUpgradeShips(slot1)) do
-		if function (slot0)
+		if (function (slot0)
 			return slot0.level == 1 and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
-		end(slot12) then
+		end)(slot12) then
 			table.insert(slot7, slot12)
 		end
 	end

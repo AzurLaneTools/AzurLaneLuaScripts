@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_240 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_240[473111] = {
 		recover_time = 0,
 		name = "【异色格D】【人型】Z46-专用武器",
@@ -2922,4 +2922,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_324 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_324[696603] = {
 		type = 2,
 		range = 70,
@@ -1323,4 +1323,4 @@ function ()
 			79485
 		}
 	}
-end()
+end)()

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_267 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_267[551013] = {
 		recover_time = 0,
 		name = "【海王星聯動】【EXTRA】布蘭4連魚雷",
@@ -2807,4 +2807,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

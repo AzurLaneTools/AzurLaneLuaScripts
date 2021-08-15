@@ -181,7 +181,7 @@ function slot0.IsUsing(slot0, slot1)
 	slot4 = nil
 	slot6 = nil
 
-	return function (slot0)
+	return (function (slot0)
 		if uv0:IsSystem() then
 			for slot4, slot5 in pairs(slot0) do
 				if slot5:getConfig("themeId") ~= uv0.id then
@@ -191,7 +191,7 @@ function slot0.IsUsing(slot0, slot1)
 		end
 
 		return true
-	end(slot0.otherHouse) and slot1:IsUsing(slot0.otherHouse) or slot2(slot0.currHouse) and slot1:IsUsing(slot0.currHouse)
+	end)(slot0.otherHouse) and slot1:IsUsing(slot0.otherHouse) or slot2(slot0.currHouse) and slot1:IsUsing(slot0.currHouse)
 end
 
 function slot0.OnDestroy(slot0)

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_116 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_116[64457] = {
 		id = 64457,
 		name = "马可波罗技能·小子弹-跨队伤害增幅LV7",
@@ -714,4 +714,4 @@ function ()
 		damage = 60,
 		base = 64511
 	}
-end()
+end)()

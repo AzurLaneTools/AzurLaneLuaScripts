@@ -229,7 +229,7 @@ function slot0.SetCurrentLevel(slot0, slot1)
 end
 
 function slot0.OverHigestScore(slot0)
-	if slot0.player:IsOverHigestScore() and function (slot0)
+	if slot0.player:IsOverHigestScore() and (function (slot0)
 		for slot4, slot5 in ipairs(uv0.awards) do
 			if slot0 == slot5 then
 				return true
@@ -237,7 +237,7 @@ function slot0.OverHigestScore(slot0)
 		end
 
 		return false
-	end(slot0.player.score) then
+	end)(slot0.player.score) then
 		slot0:SendMapEvent("OnReachAwardScore")
 	end
 end

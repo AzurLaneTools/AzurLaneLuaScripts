@@ -201,11 +201,11 @@ function slot0.execute(slot0, slot1)
 				})
 			end)
 
-			function ()
+			(function ()
 				if uv0 and coroutine.status(uv0) == "suspended" then
 					slot0, slot1 = coroutine.resume(uv0)
 				end
-			end()
+			end)()
 
 			return
 		end

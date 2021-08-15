@@ -2335,7 +2335,7 @@ function slot0.flushFleetEditButton(slot0, slot1)
 		if slot24 then
 			slot25 = slot1:getConfig("limitation")[slot17]
 
-			function (slot0, slot1, slot2)
+			(function (slot0, slot1, slot2)
 				for slot8 = 1, 2 do
 					slot10 = nil
 
@@ -2362,7 +2362,7 @@ function slot0.flushFleetEditButton(slot0, slot1)
 						uv0:openCommanderPanel(uv1, uv2.id, uv3)
 					end, SFX_PANEL)
 				end
-			end(slot17, slot23, slot1)
+			end)(slot17, slot23, slot1)
 
 			if slot11(slot18, TeamType.Main, slot25[1], slot17) and slot11(slot18, TeamType.Vanguard, slot25[2], slot17) then
 				setActive(slot0:findTF("selected", slot18), true)
@@ -3306,7 +3306,7 @@ function slot0.updateStageFleet(slot0)
 				setActive(findTF(slot7, "normal"), false)
 
 				if math.floor(slot7 / 10000 * slot3:getShipProperties()[AttributeType.Durability]) > 0 then
-					function (slot0, slot1)
+					(function (slot0, slot1)
 						setActive(slot0, true)
 						setText(findTF(slot0, "text"), slot1)
 						setTextAlpha(findTF(slot0, "text"), 0)
@@ -3315,7 +3315,7 @@ function slot0.updateStageFleet(slot0)
 						LeanTween.textAlpha(findTF(slot0, "text"), 0, 0.5):setDelay(0.7):setOnComplete(System.Action(function ()
 							uv0.localPosition = Vector3(0, 0, 0)
 						end))
-					end(findTF(slot7, "heal"), slot6)
+					end)(findTF(slot7, "heal"), slot6)
 				elseif slot6 < 0 then
 					LeanTween.delayedCall(0.6, System.Action(function ()
 						LeanTween.moveX(uv0, uv0.transform.localPosition.x, 0.05):setEase(LeanTweenType.easeInOutSine):setLoopPingPong(4)

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_343 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_343[819112] = {
 		reload_max = 800,
 		name = "【偶像大师联动SP1】BOSS 水濑伊织 双联装炮",
@@ -1254,4 +1254,4 @@ function ()
 			852103
 		}
 	}
-end()
+end)()

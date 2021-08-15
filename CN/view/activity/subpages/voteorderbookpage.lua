@@ -23,12 +23,12 @@ function slot0.OnInit(slot0)
 		slot3 = pg.activity_vote[slot1].is_on_web == 1
 		slot0.voteTime = slot5.time_vote
 		slot0.title.text = slot5.name
-		slot4 = function (slot0)
+		slot4 = (function (slot0)
 			return VoteGroup.New({
 				id = slot0,
 				list = {}
 			}):getTimeDesc()
-		end(slot1)
+		end)(slot1)
 	elseif _.detect(pg.activity_vote.all, function (slot0)
 		return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_show)
 	end) then

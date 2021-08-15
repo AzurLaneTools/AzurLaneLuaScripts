@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_321 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_321[680423] = {
 		recover_time = 0,
 		name = "【2020英系活动SP】BOSS 欧根亲王 第三波 慢速直射后分叉",
@@ -1900,4 +1900,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

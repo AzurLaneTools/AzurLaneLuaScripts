@@ -809,9 +809,9 @@ function slot0.GetBeziersPoints(slot0, slot1, slot2, slot3, slot4)
 
 	slot10 = 0
 
-	table.insert(slot6, function (slot0)
+	table.insert(slot6, (function (slot0)
 		return uv0:Clone():Mul((1 - slot0) * (1 - slot0)):Clone():Add(uv1:Clone():Mul(2 * slot0 * (1 - slot0))):Add(uv2:Clone():Mul(slot0 * slot0))
-	end(slot10))
+	end)(slot10))
 
 	for slot10 = 1, slot4 do
 		table.insert(slot6, slot5(slot10 / slot4))

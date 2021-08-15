@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_388 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_388[2004043] = {
 		recover_time = 0,
 		name = "【大世界】深渊BOSS执棋者III型1_巨浪",
@@ -4840,4 +4840,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

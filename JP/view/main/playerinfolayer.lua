@@ -402,11 +402,11 @@ function slot0.updateFashion(slot0)
 end
 
 function slot0.updateBGMState(slot0)
-	function (slot0)
+	(function (slot0)
 		setActive(uv0.bgmBtn:Find("toggle/on"), slot0)
 		setActive(uv0.bgmBtn:Find("toggle/off"), not slot0)
 		playBGM(uv0:GetBGM())
-	end(getProxy(SettingsProxy):IsBGMEnable())
+	end)(getProxy(SettingsProxy):IsBGMEnable())
 
 	if slot0.flagShip:IsBgmSkin() then
 		setActive(slot0.bgmBtn, true)

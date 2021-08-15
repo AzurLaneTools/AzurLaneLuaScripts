@@ -229,7 +229,7 @@ function slot0.Flush(slot0, slot1)
 
 		if slot0.eventProxy.selectedEvent then
 			if slot0.scrollRect.isStart then
-				function ()
+				(function ()
 					slot1 = 1
 
 					for slot5, slot6 in ipairs(uv0.eventList) do
@@ -255,7 +255,7 @@ function slot0.Flush(slot0, slot1)
 					uv0.eventProxy.selectedEvent = nil
 
 					pg.UIMgr.GetInstance():LoadingOff()
-				end()
+				end)()
 			else
 				slot0.scrollRect.onStart = slot2
 

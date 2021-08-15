@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_332 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_332[761101] = {
 		name = "【2020德系活动B2】BOSS 欧根亲王 常驻 近程自卫火炮",
 		range = 38,
@@ -1750,4 +1750,4 @@ function ()
 			820023
 		}
 	}
-end()
+end)()

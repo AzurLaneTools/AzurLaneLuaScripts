@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_394 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_394[2029714] = {
 		recover_time = 0,
 		name = "【大世界】塞壬重巡精英随机_塞壬主炮系_三联收束弹幕（领洋者）",
@@ -3852,4 +3852,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

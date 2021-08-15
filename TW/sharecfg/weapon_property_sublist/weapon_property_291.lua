@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_291 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_291[606111] = {
 		recover_time = 0.5,
 		name = "【天城活動D3】【Boss】天城Q版近程自衛火炮III",
@@ -2879,4 +2879,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

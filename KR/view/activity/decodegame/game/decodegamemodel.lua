@@ -34,7 +34,7 @@ function slot0.BuildMapIndexs(slot0)
 	for slot6 = 1, #DecodeGameConst.PASSWORD do
 		slot7 = slot1[slot6]
 
-		table.insert(slot0.mapIndexs, DecodeGameConst.Vect2Index(slot7[1], slot7[2]) + (function (slot0)
+		table.insert(slot0.mapIndexs, DecodeGameConst.Vect2Index(slot7[1], slot7[2]) + ((function (slot0)
 			for slot4, slot5 in ipairs(DecodeGameConst.MAPS_PASSWORD) do
 				if _.any(slot5, function (slot0)
 					return slot0[1] == uv0[1] and slot0[2] == uv0[2]
@@ -42,7 +42,7 @@ function slot0.BuildMapIndexs(slot0)
 					return slot4
 				end
 			end
-		end(slot7) - 1) * DecodeGameConst.MAP_ROW * DecodeGameConst.MAP_COLUMN)
+		end)(slot7) - 1) * DecodeGameConst.MAP_ROW * DecodeGameConst.MAP_COLUMN)
 	end
 end
 

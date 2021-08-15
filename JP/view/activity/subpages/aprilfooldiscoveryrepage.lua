@@ -26,7 +26,7 @@ function slot0.PlayFuncsLink(slot0)
 	slot1 = false
 	slot2 = nil
 
-	function (...)
+	(function (...)
 		if uv0 then
 			table.remove(uv1._funcsLink, 1)
 		end
@@ -36,11 +36,11 @@ function slot0.PlayFuncsLink(slot0)
 		if uv1._funcsLink[1] then
 			slot0(uv2, ...)
 		end
-	end()
+	end)()
 end
 
 function slot0.OnDataSetting(slot0)
-	return uv0.super.OnDataSetting(slot0) or function ()
+	return uv0.super.OnDataSetting(slot0) or (function ()
 		if uv0.activity.data1 == 1 and uv0.activity.data3 == 1 then
 			uv0.activity.data3 = 0
 
@@ -51,7 +51,7 @@ function slot0.OnDataSetting(slot0)
 
 			return true
 		end
-	end()
+	end)()
 end
 
 function slot0.OnFirstFlush(slot0)

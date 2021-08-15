@@ -650,12 +650,12 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 						slot3, slot4 = uv1._currentFleetVO:getShipPos(uv2)
 
 						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", uv2:getConfigTable().name, uv1._currentFleetVO.name, Fleet.C_TEAM_NAME[slot4]))
-						function ()
+						(function ()
 							tf(uv0):SetParent(uv1._heroContainer, false)
 							uv1:emit(WorldBossFormationMediator.CHANGE_FLEET_SHIPS_ORDER)
 							uv1:switchToEditMode()
 							uv1:sortSiblingIndex()
-						end()
+						end)()
 					else
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							zIndex = -100,

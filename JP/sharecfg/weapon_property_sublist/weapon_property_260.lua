@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_260 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_260[520024] = {
 		recover_time = 0,
 		name = "卡尔斯鲁厄旋转子弹散射8连循环3次",
@@ -2848,4 +2848,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

@@ -15,13 +15,13 @@ function slot0.Ctor(slot0, slot1)
 		slot8 = Ship.New(slot7)
 		slot8.isRival = true
 
-		function (slot0)
+		(function (slot0)
 			if slot0:getTeamType() == TeamType.Vanguard then
 				table.insert(uv0.vanguardShips, slot0)
 			elseif slot0:getTeamType() == TeamType.Main then
 				table.insert(uv0.mainShips, slot0)
 			end
-		end(slot8)
+		end)(slot8)
 	end
 
 	for slot6, slot7 in ipairs(slot1.main_ship_list) do

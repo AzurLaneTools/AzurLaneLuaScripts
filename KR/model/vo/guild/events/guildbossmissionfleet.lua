@@ -53,7 +53,7 @@ function slot0.ExistMember(slot0, slot1)
 end
 
 function slot0.IsVaildShip(slot0, slot1)
-	return slot0:ExistMember(slot1.uid) and function (slot0)
+	return slot0:ExistMember(slot1.uid) and (function (slot0)
 		slot1 = getProxy(GuildProxy):getRawData()
 
 		if getProxy(PlayerProxy):getRawData().id == slot0.uid then
@@ -61,9 +61,9 @@ function slot0.IsVaildShip(slot0, slot1)
 		end
 
 		return slot1:getMemberById(slot0.uid):GetAssaultFleet():ExistShip(GuildAssaultFleet.GetVirtualId(slot0.uid, slot0.id))
-	end(slot1) and not function (slot0)
+	end)(slot1) and not (function (slot0)
 		return pg.ShipFlagMgr.GetInstance():GetShipFlag(slot0.id, "inEvent")
-	end(slot1)
+	end)(slot1)
 end
 
 function slot0.ExistInvailShips(slot0)

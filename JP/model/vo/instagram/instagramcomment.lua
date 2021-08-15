@@ -20,11 +20,11 @@ end
 function slot0.GetLasterUpdateTime(slot0)
 	slot1 = {}
 
-	function (slot0)
+	(function (slot0)
 		if slot0 <= pg.TimeMgr.GetInstance():GetServerTime() then
 			table.insert(uv0, slot0)
 		end
-	end(slot0.time)
+	end)(slot0.time)
 
 	for slot7, slot8 in pairs(slot0:GetAllReplys()) do
 		slot2(slot8.time)
@@ -91,12 +91,12 @@ end
 function slot0.GetAllReplys(slot0)
 	slot2 = nil
 
-	function (slot0)
+	(function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			uv0(slot5.replyList)
 			table.insert(uv1, slot5)
 		end
-	end(slot0.replyList)
+	end)(slot0.replyList)
 
 	return {}
 end

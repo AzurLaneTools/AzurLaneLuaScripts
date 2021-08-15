@@ -120,7 +120,7 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 
 		if uv1 == TeamType.Main then
-			function (slot0)
+			(function (slot0)
 				if not uv0 then
 					for slot4, slot5 in ipairs(_.reverse(slot0)) do
 						if not table.contains(uv1, slot5) then
@@ -142,7 +142,7 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 
 					uv1 = slot0
 				end
-			end(uv2)
+			end)(uv2)
 		elseif uv1 == TeamType.Vanguard then
 			slot3(uv3)
 		end
@@ -164,7 +164,7 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot3 = pg.ship_data_template[slot0.configId].group_type
 
 		if uv2 == TeamType.Main then
-			if not function (slot0)
+			if not (function (slot0)
 				for slot4, slot5 in ipairs(slot0) do
 					slot6 = pg.ship_data_template[uv0[slot5].configId].group_type
 
@@ -174,7 +174,7 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 				end
 
 				return true
-			end(uv3) then
+			end)(uv3) then
 				return false, i18n("ship_vo_mainFleet_exist_same_ship")
 			end
 		elseif uv2 == TeamType.Vanguard and not slot4(uv4) then

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_397 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_397[2042412] = {
 		recover_time = 0.5,
 		name = "【大世界】深渊BOSS重巡_防御形态sp1_子母弹lv3",
@@ -4258,4 +4258,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

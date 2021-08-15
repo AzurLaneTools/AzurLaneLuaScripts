@@ -14,9 +14,9 @@ function slot1(slot0, slot1, slot2)
 
 		uv1.btn = uv3
 	end, SFX_PANEL)
-	function (slot0, slot1)
+	(function (slot0, slot1)
 		setActive(slot0:Find("btn_di"), slot1)
-	end(slot1, false)
+	end)(slot1, false)
 end
 
 function slot0.getUIName(slot0)

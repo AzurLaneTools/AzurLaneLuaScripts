@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_350 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_350[960031] = {
 		reload_max = 1500,
 		name = "【翻格子活动】默认机载炸弹",
@@ -2772,4 +2772,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_308 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_308[618213] = {
 		recover_time = 0,
 		name = "【2020年春节世界BOSS】N难度爱丁堡主炮攻击2",
@@ -2997,4 +2997,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

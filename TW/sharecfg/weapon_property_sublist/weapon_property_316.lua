@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_316 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_316[660003] = {
 		recover_time = 0.5,
 		name = "【2020纳尔维克下篇SP1】Z艇精英 533mm四联装鱼雷",
@@ -2847,4 +2847,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

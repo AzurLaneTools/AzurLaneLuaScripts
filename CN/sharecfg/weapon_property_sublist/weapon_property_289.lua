@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_289 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_289[603231] = {
 		recover_time = 0,
 		name = "【皇家女仆】纽卡斯尔韩风弹幕（伤害中）",
@@ -2873,4 +2873,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

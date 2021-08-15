@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_274 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_274[567081] = {
 		recover_time = 0.5,
 		name = "【長門陸奧活動A】【人型】比叡Q版近程自衛火炮II",
@@ -2834,4 +2834,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

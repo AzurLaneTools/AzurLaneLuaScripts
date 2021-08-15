@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_188 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_188[79624] = {
 		id = 79624,
 		name = "专属弹幕-恶毒鱼雷II",
@@ -1474,4 +1474,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

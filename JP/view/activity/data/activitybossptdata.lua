@@ -22,11 +22,11 @@ end
 function slot0.CanGetAward(slot0)
 	slot2, slot3 = slot0:GetBossProgress()
 
-	return slot0:CanGetNextAward() and function ()
+	return slot0:CanGetNextAward() and (function ()
 		slot0, slot1, slot2 = uv0:GetResProgress()
 
 		return slot2 >= 1
-	end() and slot2 <= slot3
+	end)() and slot2 <= slot3
 end
 
 return slot0

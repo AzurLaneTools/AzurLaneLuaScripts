@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_177 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_177[69631] = {
 		recover_time = 0.5,
 		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV1",
@@ -787,4 +787,4 @@ function ()
 			69694
 		}
 	}
-end()
+end)()

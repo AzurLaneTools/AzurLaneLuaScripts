@@ -323,7 +323,7 @@ function slot0.RecommShipsForBossBattle(slot0, slot1)
 		if not pg.ShipFlagMgr.GetInstance():GetShipFlag(slot16.id, "inEvent") and not slot16:isActivityNpc() then
 			slot16.id = GuildAssaultFleet.GetVirtualId(slot6.id, slot16.id)
 
-			function (slot0, slot1)
+			(function (slot0, slot1)
 				if slot0 == TeamType.Main then
 					table.insert(uv0, slot1)
 				elseif slot0 == TeamType.Vanguard then
@@ -331,7 +331,7 @@ function slot0.RecommShipsForBossBattle(slot0, slot1)
 				elseif slot0 == TeamType.Submarine then
 					table.insert(uv2, slot1)
 				end
-			end(slot16:getTeamType(), {
+			end)(slot16:getTeamType(), {
 				power = slot16:getShipCombatPower(),
 				id = slot16.id
 			})

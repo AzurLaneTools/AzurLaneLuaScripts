@@ -116,12 +116,12 @@ function slot0.AddEdgePool(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 	}, function ()
 		if uv5.edgePools[uv6].prefab then
-			function (slot0)
+			(function (slot0)
 				go(slot0):GetComponent(typeof(Image)).enabled = true
 				slot1.color = type(uv0) == "table" and Color.New(unpack(uv0)) or Color.white
 				slot1.sprite = uv1 and uv2 or nil
 				slot1.material = uv3 and uv4 or nil
-			end(slot1.prefab)
+			end)(slot1.prefab)
 		end
 
 		if slot1.items then
@@ -504,13 +504,13 @@ function slot0.getPoisonTex(slot0)
 	end
 
 	for slot13, slot14 in pairs(slot7) do
-		function (slot0)
+		(function (slot0)
 			for slot4 = slot0.x, slot0.w + slot0.x do
 				for slot8 = slot0.y, slot0.h + slot0.y do
 					uv0:SetPixel(slot4, slot8, Color.New(1, 1, 1, 0))
 				end
 			end
-		end(slot14)
+		end)(slot14)
 	end
 
 	slot6:Apply()
@@ -755,7 +755,7 @@ function slot0.updateFleet(slot0, slot1)
 					end
 
 					if uv1 then
-						function ()
+						(function ()
 							for slot4, slot5 in ipairs({
 								{
 									1,
@@ -790,7 +790,7 @@ function slot0.updateFleet(slot0, slot1)
 							pg.TipsMgr.GetInstance():ShowTips(i18n("no_way_to_escape"))
 
 							return true
-						end()
+						end)()
 					else
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							content = i18n("levelScene_who_to_retreat", uv4.name),
@@ -905,7 +905,7 @@ function slot0.updateTargetArrow(slot0, slot1)
 
 	slot0.arrowTarget:SetParent(slot0.cellRoot:Find(ChapterCell.Line2Name(slot1.row, slot1.column)))
 
-	slot6, slot7 = function ()
+	slot6, slot7 = (function ()
 		slot0, slot1 = uv0:existEnemy(ChapterConst.SubjectPlayer, uv1.row, uv1.column)
 
 		if not slot0 then
@@ -925,7 +925,7 @@ function slot0.updateTargetArrow(slot0, slot1)
 
 			return pg.expedition_data_template[slot2.attachmentId].icon_type == 2, slot3.scale / 100
 		end
-	end()
+	end)()
 
 	if slot6 then
 		slot0.arrowTarget.localPosition = Vector3(0, 20 + 80 * slot7, -80 * slot7)
@@ -1715,7 +1715,7 @@ function slot0.updateQuadBase(slot0)
 	slot0:killPresentTws()
 
 	for slot7, slot8 in pairs(slot1.cells) do
-		function (slot0)
+		(function (slot0)
 			if slot0 and slot0:IsWalkable() then
 				slot3 = uv0:GetObjectsInCell(slot0.row, slot0.column)
 				slot4, slot5, slot6 = slot3:__pairs()
@@ -1760,7 +1760,7 @@ function slot0.updateQuadBase(slot0)
 					slot10.material = nil
 				end
 			end
-		end(slot8)
+		end)(slot8)
 	end
 
 	for slot8, slot9 in ipairs({

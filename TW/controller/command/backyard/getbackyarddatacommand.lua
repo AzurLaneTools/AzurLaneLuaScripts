@@ -134,7 +134,7 @@ function slot0.allocFurnitureIdByChild(slot0, slot1, slot2)
 		for slot10, slot11 in ipairs(_.select(slot1, function (slot0)
 			return tonumber(slot0.id) == uv0.configId
 		end)) do
-			if function (slot0)
+			if (function (slot0)
 				if not uv0[tonumber(slot0.parent)] then
 					return false
 				end
@@ -154,7 +154,7 @@ function slot0.allocFurnitureIdByChild(slot0, slot1, slot2)
 				end
 
 				return false
-			end(slot11) then
+			end)(slot11) then
 				return tonumber(slot11.parent)
 			end
 		end

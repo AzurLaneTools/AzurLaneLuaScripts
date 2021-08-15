@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_348 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_348[950235] = {
 		recover_time = 0.5,
 		name = "【挑战关卡14】欧根亲王_7联装磁性鱼雷散射",
@@ -3083,4 +3083,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

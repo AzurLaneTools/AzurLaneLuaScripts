@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_338 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_338[781209] = {
 		name = "【2021意大利活动B3】测试者·水 螺旋自机狙",
 		range = 120,
@@ -1415,4 +1415,4 @@ function ()
 			12017
 		}
 	}
-end()
+end)()

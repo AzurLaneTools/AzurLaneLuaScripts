@@ -412,7 +412,7 @@ slot0.funcs.head = slot0.funcs.first
 slot0.funcs.tail = slot0.funcs.rest
 slot0.funcs.contains = slot0.funcs.include
 
-function ()
+(function ()
 	function slot0(slot0)
 		slot1 = false
 
@@ -439,6 +439,6 @@ function ()
 			return uv1(uv2(slot1, ...), slot2)
 		end
 	end
-end()
+end)()
 
 return slot0:new()

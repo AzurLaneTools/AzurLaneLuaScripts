@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_339 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_339[784005] = {
 		name = "【2021意大利活动SP】BOSS 测试者 两侧水波纹弹幕",
 		range = 120,
@@ -1728,4 +1728,4 @@ function ()
 			12
 		}
 	}
-end()
+end)()

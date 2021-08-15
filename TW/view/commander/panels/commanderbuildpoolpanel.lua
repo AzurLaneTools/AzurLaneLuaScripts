@@ -52,7 +52,7 @@ function slot0.AutoSelect(slot0)
 	slot1 = slot0.pools
 
 	for slot7 = 1, uv0 - #slot0.selected do
-		if function ()
+		if (function ()
 			slot0 = nil
 
 			for slot4, slot5 in pairs(uv0.counts) do
@@ -62,7 +62,7 @@ function slot0.AutoSelect(slot0)
 			end
 
 			return slot0
-		end() then
+		end)() then
 			slot0:ReduceCount(slot8, -1)
 		end
 	end

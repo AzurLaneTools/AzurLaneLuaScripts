@@ -390,7 +390,7 @@ function slot0.GenBattleData(slot0)
 		slot0.mainShips = {}
 
 		for slot20, slot21 in ipairs(slot9) do
-			function (slot0, slot1, slot2)
+			(function (slot0, slot1, slot2)
 				slot4 = slot0.hpRant * 0.0001
 
 				if table.contains(uv0, slot0.id) then
@@ -403,7 +403,7 @@ function slot0.GenBattleData(slot0)
 
 				table.insert(uv3.mainShips, slot0)
 				table.insert(slot2, slot5)
-			end(slot21, slot12, slot1.MainUnitList)
+			end)(slot21, slot12, slot1.MainUnitList)
 		end
 
 		for slot20, slot21 in ipairs(slot10) do
@@ -445,7 +445,7 @@ function slot0.GenBattleData(slot0)
 		slot0.mainShips = {}
 
 		for slot19, slot20 in ipairs(slot11) do
-			function (slot0, slot1, slot2)
+			(function (slot0, slot1, slot2)
 				slot4 = slot0.hpRant * 0.0001
 
 				if table.contains(uv0, slot0.id) then
@@ -458,7 +458,7 @@ function slot0.GenBattleData(slot0)
 
 				table.insert(uv3.mainShips, slot0)
 				table.insert(slot2, slot5)
-			end(slot20, slot9, slot1.MainUnitList)
+			end)(slot20, slot9, slot1.MainUnitList)
 		end
 
 		for slot19, slot20 in ipairs(slot12) do
@@ -485,7 +485,7 @@ function slot0.GenBattleData(slot0)
 		slot1.DefeatCount = slot7:getDefeatCount()
 		slot1.ChapterBuffIDs, slot1.CommanderList = slot6:getFleetBattleBuffs(slot7, true)
 		slot1.MapAuraSkills = slot6:GetChapterAuraBuffs()
-		slot1.MapAuraSkills = function (slot0)
+		slot1.MapAuraSkills = (function (slot0)
 			slot1 = {}
 
 			for slot5, slot6 in ipairs(slot0) do
@@ -496,7 +496,7 @@ function slot0.GenBattleData(slot0)
 			end
 
 			return slot1
-		end(slot1.MapAuraSkills)
+		end)(slot1.MapAuraSkills)
 		slot1.MapAidSkills = {}
 
 		for slot16, slot17 in pairs(slot6:GetChapterAidBuffs()) do
@@ -650,7 +650,7 @@ function slot0.GenBattleData(slot0)
 			slot14 = slot7:getTeamByName(TeamType.Vanguard)
 
 			for slot18, slot19 in ipairs(slot7:getTeamByName(TeamType.Main)) do
-				function (slot0, slot1, slot2, slot3)
+				(function (slot0, slot1, slot2, slot3)
 					if table.contains(uv0, slot0) then
 						BattleVertify.cloneShipVertiry = true
 					end
@@ -661,7 +661,7 @@ function slot0.GenBattleData(slot0)
 					table.insert(uv4.mainShips, slot4)
 					table.insert(slot3, slot4)
 					table.insert(slot2, uv2(uv3, slot4, slot1))
-				end(slot19, _.values(slot7:getCommanders()), slot1.MainUnitList, {})
+				end)(slot19, _.values(slot7:getCommanders()), slot1.MainUnitList, {})
 			end
 
 			for slot18, slot19 in ipairs(slot14) do

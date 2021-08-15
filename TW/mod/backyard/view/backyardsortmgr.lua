@@ -80,7 +80,7 @@ function slot0.CheckCreateSortGroup(slot0)
 	for slot6, slot7 in ipairs(slot0.map.sortedItems) do
 		if slot7.ob.isBoat then
 			if #slot0.sortDataList == 0 then
-				function (slot0)
+				(function (slot0)
 					slot3 = nil
 					slot3 = (#uv0.sortDataPool <= 0 or table.remove(uv0.sortDataPool)) and {}
 					slot3.startIndex = slot0
@@ -103,7 +103,7 @@ function slot0.CheckCreateSortGroup(slot0)
 					end
 
 					GetComponent(uv0.sortGroupList[slot2], typeof(Canvas)).sortingOrder = slot4
-				end(slot6 - 1)
+				end)(slot6 - 1)
 			end
 		elseif slot0.furModelDic[slot7.ob.id].furnitureVO:is3DObject() then
 			slot1(slot6 - 1)

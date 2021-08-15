@@ -36,11 +36,11 @@ return {
 
 			if slot3 then
 				slot6 = getProxy(MiniGameProxy):GetHubByHubId(slot2:getConfig("config_id"))
-				slot11 = slot6.count > 0 or slot6:getConfig("reward_need") <= slot6.usedtime and slot6.ultimate == 0 or (function ()
+				slot11 = slot6.count > 0 or slot6:getConfig("reward_need") <= slot6.usedtime and slot6.ultimate == 0 or ((function ()
 					if uv0:GetMiniGameData(3) then
 						return (slot0:GetRuntimeData("count") or 0) > 0 and NewYearShrinePage.IsTip()
 					end
-				end() or CygnetBathrobePage.IsTip())
+				end)() or CygnetBathrobePage.IsTip())
 
 				setActive(slot1:Find("Tip"), slot11)
 
@@ -190,17 +190,17 @@ return {
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.MUSIC_FESTIVAL)
 				end, SFX_PANEL)
-				setActive(slot1:Find("Tip"), IdolPTPage.NeedTip() or IdolMedalCollectionMediator.isHaveActivableMedal() or function ()
+				setActive(slot1:Find("Tip"), IdolPTPage.NeedTip() or IdolMedalCollectionMediator.isHaveActivableMedal() or (function ()
 					return getProxy(InstagramProxy):ShouldShowTip()
-				end() or function ()
+				end)() or (function ()
 					if uv0:getActivityById(ActivityConst.MUSIC_FESTIVAL_ID) and not slot0:isEnd() then
 						return slot0:readyToAchieve()
 					end
-				end() or function ()
+				end)() or (function ()
 					return uv0:getActivityById(ActivityConst.MUSIC_CHUIXUE7DAY_ID) and not slot0:isEnd() and slot0:readyToAchieve()
-				end() or function ()
+				end)() or (function ()
 					return getProxy(MiniGameProxy):GetHubByHubId(2).count > 0
-				end())
+				end)())
 
 				return
 			end
@@ -323,15 +323,15 @@ return {
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.MUSIC_FESTIVAL2)
 				end, SFX_PANEL)
-				setActive(slot1:Find("Tip"), function ()
+				setActive(slot1:Find("Tip"), (function ()
 					return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()
-				end() or IdolMedalCollectionMediator.isHaveActivableMedal() or function ()
+				end)() or IdolMedalCollectionMediator.isHaveActivableMedal() or (function ()
 					slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
 
 					return slot0:getConfig("reward_need") <= slot0.usedtime and slot0.ultimate == 0
-				end() or function ()
+				end)() or (function ()
 					return getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id")).count > 0
-				end())
+				end)())
 
 				return
 			end
@@ -364,15 +364,15 @@ return {
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.DOALINK_ISLAND)
 				end, SFX_PANEL)
-				setActive(slot1:Find("Tip"), function ()
+				setActive(slot1:Find("Tip"), (function ()
 					return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()
-				end() or DoaMedalCollectionView.isHaveActivableMedal() or function ()
+				end)() or DoaMedalCollectionView.isHaveActivableMedal() or (function ()
 					slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
 
 					return slot0:getConfig("reward_need") <= slot0.usedtime and slot0.ultimate == 0
-				end() or function ()
+				end)() or (function ()
 					return getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id")).count > 0
-				end())
+				end)())
 
 				return
 			end
@@ -424,15 +424,15 @@ return {
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_MINI_GAME, 28)
 				end, SFX_PANEL)
-				setActive(slot1:Find("Tip"), function ()
+				setActive(slot1:Find("Tip"), (function ()
 					return uv0:getActivityById(ActivityConst.IDOL_MASTER_PT_ID) and not slot0:isEnd() and slot0:readyToAchieve()
-				end() or IdolMasterMedalCollectionMediator.isHaveActivableMedal() or function ()
+				end)() or IdolMasterMedalCollectionMediator.isHaveActivableMedal() or (function ()
 					slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
 
 					return slot0:getConfig("reward_need") <= slot0.usedtime and slot0.ultimate == 0
-				end() or function ()
+				end)() or (function ()
 					return getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id")).count > 0
-				end())
+				end)())
 			else
 				slot4 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot5:isEnd()
 

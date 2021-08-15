@@ -12,7 +12,7 @@ function slot4.escape(slot0)
 	end)
 end
 
-slot6 = function (slot0)
+slot6 = (function (slot0)
 	for slot5, slot6 in uv0.ipairs(slot0) do
 		-- Nothing
 	end
@@ -20,7 +20,7 @@ slot6 = function (slot0)
 	return {
 		[slot0[slot5]] = 1
 	}
-end({
+end)({
 	"-",
 	"_",
 	".",

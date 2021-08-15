@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_227 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_227[317004] = {
 		recover_time = 0,
 		name = "Q版旋转子弹散射8连循环3次————7章第1关不知火400103",
@@ -2909,4 +2909,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

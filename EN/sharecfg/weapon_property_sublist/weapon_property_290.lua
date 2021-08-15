@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_290 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_290[603901] = {
 		recover_time = 0,
 		name = "【皇家女仆】利安得级量产型-单发-锁定（伤害低）",
@@ -2869,4 +2869,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

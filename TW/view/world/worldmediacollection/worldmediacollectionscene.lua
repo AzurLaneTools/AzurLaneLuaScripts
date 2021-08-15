@@ -103,9 +103,9 @@ function slot0.Add2TopContainer(slot0, slot1)
 end
 
 function slot0.WorldRecordLock()
-	return LOCK_WORLD_COLLECTION or not function ()
+	return LOCK_WORLD_COLLECTION or not (function ()
 		return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "WorldMediaCollectionRecordMediator")
-	end()
+	end)()
 end
 
 function slot0.UpdateView(slot0)

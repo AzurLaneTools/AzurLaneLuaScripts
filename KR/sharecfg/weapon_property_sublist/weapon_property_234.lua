@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_234 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_234[340144] = {
 		recover_time = 0,
 		name = "第13章-4BOSS大凤特殊弹幕2",
@@ -2890,4 +2890,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

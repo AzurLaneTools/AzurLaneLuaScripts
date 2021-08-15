@@ -589,11 +589,11 @@ function slot0.loadAllCharacter(slot0)
 			SetActive(uv2, true)
 
 			if uv0._forceDropCharacter then
-				function ()
+				(function ()
 					uv0:switchToDisplayMode()
 					uv0:sortSiblingIndex()
 					uv0:emit(FormationMediator.CHANGE_FLEET_SHIPS_ORDER, uv0._currentFleetVO)
-				end()
+				end)()
 
 				return
 			end

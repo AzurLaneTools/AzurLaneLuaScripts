@@ -331,7 +331,7 @@ function slot1.inTime(slot0, slot1)
 	slot3 = nil
 
 	if #slot1 > 0 then
-		slot3 = function (slot0)
+		slot3 = (function (slot0)
 			return {
 				year = slot0[1][1],
 				month = slot0[1][2],
@@ -340,7 +340,7 @@ function slot1.inTime(slot0, slot1)
 				min = slot0[2][2],
 				sec = slot0[2][3]
 			}
-		end(slot1[1] or {
+		end)(slot1[1] or {
 			{
 				2000,
 				1,

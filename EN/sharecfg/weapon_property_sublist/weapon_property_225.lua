@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_225 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_225[315095] = {
 		recover_time = 0,
 		name = "【第五章】Q版重樱条形上下追踪子弹——驱逐",
@@ -2888,4 +2888,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

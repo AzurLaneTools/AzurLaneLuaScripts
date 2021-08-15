@@ -13,7 +13,7 @@ function slot0.__call(slot0, ...)
 	slot3 = #slot0.funcs
 	slot4 = nil
 
-	function (...)
+	(function (...)
 		if uv0.stopped then
 			return
 		end
@@ -23,7 +23,7 @@ function slot0.__call(slot0, ...)
 		if uv1 <= uv2 then
 			uv3[uv1](uv4, ...)
 		end
-	end(...)
+	end)(...)
 end
 
 function slot0.Ctor(slot0, slot1)

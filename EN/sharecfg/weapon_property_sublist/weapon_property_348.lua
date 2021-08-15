@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_348 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_348[950200] = {
 		recover_time = 0,
 		name = "【挑战关卡12】赤城_扇形弹幕",
@@ -3050,4 +3050,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

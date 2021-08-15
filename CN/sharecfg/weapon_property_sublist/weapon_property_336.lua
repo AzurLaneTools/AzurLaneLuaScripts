@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_336 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_336[774007] = {
 		name = "【2021毛系活动SP】BOSS 代行者 第三波 紫色链弹",
 		range = 120,
@@ -1804,4 +1804,4 @@ function ()
 			790025
 		}
 	}
-end()
+end)()

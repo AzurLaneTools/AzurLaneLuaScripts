@@ -369,7 +369,7 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		if uv3 then
-			function ()
+			(function ()
 				if uv0.inTypeWritter then
 					uv0.typeWriter:setSpeed(uv0.typeWritterSpeedUp * Time.timeScale)
 				end
@@ -381,7 +381,7 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 				uv1 = true
 
 				uv2()
-			end()
+			end)()
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				parent = rtf(uv0._go),
@@ -907,7 +907,7 @@ function slot0.initDialog(slot0, slot1)
 
 			setPaintingPrefab(slot4, slot7 .. (slot1.hidePaintObj and "_n" or ""), "duihua")
 			slot0:setSubActors(slot4, slot1.subActors)
-			function (slot0)
+			(function (slot0)
 				slot1 = findTF(slot0, "face")
 
 				if uv1.expression then
@@ -949,7 +949,7 @@ function slot0.initDialog(slot0, slot1)
 
 					uv5.targetActorTF = uv4
 				end
-			end(findTF(slot4, "fitter"):GetChild(0))
+			end)(findTF(slot4, "fitter"):GetChild(0))
 
 			if slot1.shake then
 				slot12 = tf(slot4).localPosition
@@ -1168,7 +1168,7 @@ function slot0.setFade(slot0, slot1, slot2, slot3, slot4)
 	slot6 = {}
 
 	if findTF(slot1, "fitter").childCount > 0 then
-		function (slot0)
+		(function (slot0)
 			if IsNil(slot0:GetComponent(typeof(Image))) then
 				return
 			end
@@ -1210,7 +1210,7 @@ function slot0.setFade(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			table.insert(uv1, slot1.material)
-		end(slot8:GetChild(0))
+		end)(slot8:GetChild(0))
 	end
 
 	if findTF(slot1, "actor_sub") and slot9.childCount > 0 then
@@ -1276,7 +1276,7 @@ function slot0.initBg(slot0, slot1)
 		if slot0.preBg and slot0.preBg ~= slot1.bgName then
 			slot0.interactive = false
 
-			function (slot0, slot1, slot2, slot3, slot4)
+			(function (slot0, slot1, slot2, slot3, slot4)
 				LeanTween.value(go(uv0._bg), slot0, slot1, slot2):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
 					uv0._bgCG.alpha = slot0
 				end)):setDelay(slot3 or 0):setOnComplete(System.Action(function ()
@@ -1284,7 +1284,7 @@ function slot0.initBg(slot0, slot1)
 						uv0()
 					end
 				end))
-			end(1, 0, slot1.bgSpeed or 0.5, 0, function ()
+			end)(1, 0, slot1.bgSpeed or 0.5, 0, function ()
 				setImageSprite(uv0, uv1)
 				uv2(0, 1, uv3, 0, function ()
 					uv0.interactive = true

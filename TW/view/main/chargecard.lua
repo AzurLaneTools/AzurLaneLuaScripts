@@ -355,13 +355,13 @@ function slot0.updateCountdown(slot0, slot1)
 	end
 
 	setActive(slot0.countDown, slot2)
-	function ()
+	(function ()
 		if uv0.updateTimer then
 			uv0.updateTimer:Stop()
 
 			uv0.updateTimer = nil
 		end
-	end()
+	end)()
 
 	slot5 = pg.TimeMgr.GetInstance():Table2ServerTime(slot1)
 	slot0.updateTimer = Timer.New(function ()

@@ -138,7 +138,7 @@ function table.eachAsync(slot0, slot1, slot2)
 	slot3, slot0, slot4 = ipairs(slot0)
 	slot5 = nil
 
-	function ()
+	(function ()
 		uv0 = uv1(uv2, uv0)
 
 		if uv2[uv0] == nil then
@@ -148,7 +148,7 @@ function table.eachAsync(slot0, slot1, slot2)
 		else
 			uv4(uv0, slot0, uv5)
 		end
-	end()
+	end)()
 end
 
 function table.eachParallel(slot0, slot1, slot2)

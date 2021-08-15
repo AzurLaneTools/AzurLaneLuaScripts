@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_345 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_345[800016] = {
 		recover_time = 0,
 		name = "【三笠剧情】魔鬼鱼跨射攻击后排武器3x2轮",
@@ -3148,4 +3148,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

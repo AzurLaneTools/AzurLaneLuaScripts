@@ -273,11 +273,11 @@ function slot0.loadAllCharacter(slot0)
 			if slot1.position.x < UnityEngine.Screen.width * 0.15 or slot1.position.x > UnityEngine.Screen.width * 0.87 or slot1.position.y < UnityEngine.Screen.height * 0.18 or slot1.position.y > UnityEngine.Screen.height * 0.7 then
 				if not uv0._currentFleetVO:canRemove(uv5) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", uv5:getName(), "", Fleet.C_TEAM_NAME[slot5]))
-					function ()
+					(function ()
 						uv0:switchToDisplayMode()
 						uv0:sortSiblingIndex()
 						uv0:emit(DefenseFormationMedator.CHANGE_FLEET_SHIPS_ORDER, uv0._currentFleetVO)
-					end()
+					end)()
 				elseif table.getCount(uv0._currentFleetVO.mainShips) == 1 and slot5 == TeamType.Main or table.getCount(uv0._currentFleetVO.vanguardShips) == 1 and slot5 == TeamType.Vanguard then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("exercise_clear_fleet_tip"),

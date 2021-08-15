@@ -181,7 +181,7 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 	if #slot0.playQueue == 1 then
 		slot5 = nil
 
-		function ()
+		(function ()
 			if #uv0.playQueue == 0 then
 				return
 			end
@@ -196,7 +196,7 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 				table.remove(uv1.playQueue, 1)
 				uv2()
 			end, uv2, uv3)
-		end()
+		end)()
 	end
 end
 
@@ -265,13 +265,13 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 	uv0("Play Story:", slot1)
 
 	if not LoadStory(slot1) then
-		function (slot0, slot1)
+		(function (slot0, slot1)
 			if uv0 then
 				onNextTick(function ()
 					uv0(uv1, uv2)
 				end)
 			end
-		end(false)
+		end)(false)
 		uv0("not exist story file")
 
 		return nil

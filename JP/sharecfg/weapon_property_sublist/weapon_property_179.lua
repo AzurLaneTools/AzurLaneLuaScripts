@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_179 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_179[69731] = {
 		recover_time = 0,
 		name = "英仙座随机TBF 3 x 机载鱼雷-通用",
@@ -728,4 +728,4 @@ function ()
 		damage = 12,
 		base = 69801
 	}
-end()
+end)()

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_334 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_334[763215] = {
 		name = "【2020德系活动D3】塞壬构建者 第四波 浮游炮弹幕",
 		range = 120,
@@ -1872,4 +1872,4 @@ function ()
 			690108
 		}
 	}
-end()
+end)()

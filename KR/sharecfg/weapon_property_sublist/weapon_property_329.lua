@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_329 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_329[745006] = {
 		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机武器",
 		range = 85,
@@ -2753,4 +2753,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

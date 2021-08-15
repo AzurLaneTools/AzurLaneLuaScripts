@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_232 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_232[470106] = {
 		recover_time = 0.5,
 		name = "【異色格A】【人型】Z19-Q版四聯裝魚雷II",
@@ -2815,4 +2815,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

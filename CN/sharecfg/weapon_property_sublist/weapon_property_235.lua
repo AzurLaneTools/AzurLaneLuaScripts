@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_235 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_235[470161] = {
 		recover_time = 0.5,
 		name = "【异色格A】【人型】提尔比茨-平射",
@@ -2910,4 +2910,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

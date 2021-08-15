@@ -247,7 +247,7 @@ function slot0.updateStageView(slot0)
 
 		uv1()
 	end)
-	function ()
+	(function ()
 		for slot3 = 1, #uv0.dropitems do
 			setActive(uv0.dropitems[slot3]:Find("item_tpl"), uv1[slot3 + uv2] ~= nil)
 
@@ -264,7 +264,7 @@ function slot0.updateStageView(slot0)
 
 		setActive(uv0.dropleft, uv2 > 0)
 		setActive(uv0.dropright, #uv1 - uv2 > #uv0.dropitems)
-	end()
+	end)()
 	setActive(slot0.weaknesstext, pg.world_SLGbuff_data[slot1:GetWeaknessBuffId()] ~= nil)
 	setActive(slot0.weaknessbg, slot10 ~= nil)
 

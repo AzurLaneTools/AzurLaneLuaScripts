@@ -266,7 +266,7 @@ function slot0.exit(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	if not false then
-		function ()
+		(function ()
 			uv0:willExit()
 			uv0:detach()
 			pg.GuideMgr.GetInstance():onSceneExit({
@@ -276,7 +276,7 @@ function slot0.exit(slot0)
 				view = uv0.__cname
 			})
 			uv0:emit(uv1.DID_EXIT)
-		end()
+		end)()
 	end
 end
 

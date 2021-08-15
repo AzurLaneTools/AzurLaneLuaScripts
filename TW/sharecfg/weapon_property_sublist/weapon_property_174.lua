@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_174 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_174[69685] = {
 		id = 69685,
 		name = "北风技能额外弹幕-天运追加LV5",
@@ -667,4 +667,4 @@ function ()
 		damage = 15,
 		base = 69741
 	}
-end()
+end)()

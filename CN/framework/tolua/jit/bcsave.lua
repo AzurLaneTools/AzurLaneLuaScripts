@@ -560,9 +560,9 @@ typedef struct {
 	end
 
 	slot10 = uv2.bswap
-	slot12 = function (slot0, slot1)
+	slot12 = (function (slot0, slot1)
 		return uv0.band(slot0 + slot1 - 1, -slot1)
-	end(slot3.offsetof(slot3.new(slot8), "space") + #slot4 + 2, slot7)
+	end)(slot3.offsetof(slot3.new(slot8), "space") + #slot4 + 2, slot7)
 	slot13 = ({
 		x86 = {
 			7

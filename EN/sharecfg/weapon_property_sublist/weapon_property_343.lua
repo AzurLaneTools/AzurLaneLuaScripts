@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_343 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_343[799007] = {
 		name = "【2021美系活动】海伦娜META支援弹幕 黄色扩散 B3",
 		range = 120,
@@ -1165,4 +1165,4 @@ function ()
 			12015
 		}
 	}
-end()
+end)()

@@ -44,7 +44,7 @@ function slot0.execute(slot0, slot1)
 		uv2:sendNotification(GAME.BACKYARD_UNLOAD_THEME_TEMPLATE_DONE)
 	end
 
-	function ()
+	(function ()
 		pg.ConnectionMgr.GetInstance():Send(19125, {
 			pos = uv0.pos
 		}, 19126, function (slot0)
@@ -55,7 +55,7 @@ function slot0.execute(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 			end
 		end)
-	end()
+	end)()
 end
 
 return slot0

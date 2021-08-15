@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_344 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_344[920064] = {
 		recover_time = 0.5,
 		name = "【限界挑战】舰船鱼雷延迟散射2连——驱逐",
@@ -2958,4 +2958,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

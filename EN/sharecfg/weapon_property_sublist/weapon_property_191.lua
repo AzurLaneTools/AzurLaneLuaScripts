@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_191 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_191[81365] = {
 		id = 81365,
 		reload_max = 1776,
@@ -676,4 +676,4 @@ function ()
 		reload_max = 1665,
 		base = 82060
 	}
-end()
+end)()

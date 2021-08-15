@@ -25,8 +25,8 @@ function slot2(slot0)
 		setText(slot1.transform:Find("Text"), "")
 	end
 
-	function (slot0)
-	end(slot1)
+	(function (slot0)
+	end)(slot1)
 
 	return uv0(slot1, {
 		__index = AttireFramePanel.Card(slot0)

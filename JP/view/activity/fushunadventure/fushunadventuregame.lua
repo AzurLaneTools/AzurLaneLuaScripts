@@ -159,11 +159,11 @@ function slot0.EnterAnimation(slot0, slot1)
 		end
 	end, 1, 3)
 
-	function (slot0)
+	(function (slot0)
 		for slot4, slot5 in ipairs(uv0.numbers) do
 			setActive(slot5, slot4 == slot0)
 		end
-	end(1)
+	end)(1)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(FushunAdventureGameConst.COUNT_DOWN_VOICE)
 	slot0.countdownTimer:Start()
 end
@@ -179,7 +179,7 @@ end
 
 function slot0.DisplayKey(slot0)
 	for slot5, slot6 in ipairs(slot0.keys) do
-		function (slot0, slot1)
+		(function (slot0, slot1)
 			slot2 = nil
 
 			if not slot1 or slot1 == "" then
@@ -193,7 +193,7 @@ function slot0.DisplayKey(slot0)
 			if slot0.sprite ~= slot2 then
 				slot0.sprite = slot2
 			end
-		end(slot6, string.sub(slot0.key, slot5, slot5) or "")
+		end)(slot6, string.sub(slot0.key, slot5, slot5) or "")
 	end
 end
 

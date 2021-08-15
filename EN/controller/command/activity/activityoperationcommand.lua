@@ -105,7 +105,7 @@ function slot0.getAwards(slot0, slot1, slot2)
 		slot6 = nil
 
 		for slot10, slot11 in ipairs(slot4) do
-			if function ()
+			if (function ()
 				for slot3, slot4 in ipairs(uv0) do
 					if uv1.id == slot4.id then
 						uv0[slot3].count = uv0[slot3].count + uv1.count
@@ -115,7 +115,7 @@ function slot0.getAwards(slot0, slot1, slot2)
 				end
 
 				return true
-			end() then
+			end)() then
 				table.insert(slot5, slot11)
 			end
 		end
@@ -555,11 +555,11 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 		uv3:sendNotification(ActivityProxy.ACTIVITY_OPERATION_DONE, uv6.activity_id)
 	end)
 
-	function ()
+	(function ()
 		if uv0 and coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
 		end
-	end()
+	end)()
 end
 
 return slot0

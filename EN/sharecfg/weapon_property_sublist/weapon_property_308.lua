@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_308 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_308[617152] = {
 		recover_time = 0,
 		name = "【年底日系活动D3】BOSS-黑高雄 联装主炮x4-散射III型弹幕2",
@@ -3015,4 +3015,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

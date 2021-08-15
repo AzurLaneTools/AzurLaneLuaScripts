@@ -226,14 +226,14 @@ return {
 	run_test_group = function (slot0)
 		for slot5, slot6 in ipairs(slot0) do
 			if slot6[4] == nil then
-				function (slot0, slot1, slot2)
+				(function (slot0, slot1, slot2)
 					if type(slot0) == "string" and #slot0 > 0 then
 						print("==> " .. slot0)
 					end
 
 					slot1(unpack(slot2 or {}))
 					print()
-				end(unpack(slot6))
+				end)(unpack(slot6))
 			else
 				uv0(unpack(slot6))
 			end

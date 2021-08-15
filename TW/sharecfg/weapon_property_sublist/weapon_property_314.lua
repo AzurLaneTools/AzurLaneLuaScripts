@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_314 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_314[650119] = {
 		recover_time = 0,
 		name = "【2020法系活动B1】沃克兰 第二波 长枪形状弹幕",
@@ -3090,4 +3090,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

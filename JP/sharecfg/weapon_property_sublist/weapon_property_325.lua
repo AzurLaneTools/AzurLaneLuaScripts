@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_325 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_325[695004] = {
 		name = "【2020信浓活动EX】BOSS 信浓 第二波 埋骨于弘川 固定弹",
 		range = 120,
@@ -1255,4 +1255,4 @@ function ()
 			79485
 		}
 	}
-end()
+end)()

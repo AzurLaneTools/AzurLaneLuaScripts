@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_306 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_306[616178] = {
 		recover_time = 0,
 		name = "【hololive联动SP】BOSS-百鬼绫目 联装主炮x4-散射型弹幕2",
@@ -3009,4 +3009,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

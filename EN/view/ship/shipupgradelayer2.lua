@@ -380,7 +380,7 @@ function slot0.updateBreakOutView(slot0, slot1)
 	slot12 = 0
 
 	if slot8 and slot8 ~= slot0.shipTempCfg[slot1.configId].max_level then
-		function (slot0, slot1)
+		(function (slot0, slot1)
 			setText(slot0:Find("name"), slot1.name)
 			setText(slot0:Find("value"), slot1.preAttr)
 
@@ -390,7 +390,7 @@ function slot0.updateBreakOutView(slot0, slot1)
 			setText(slot0:Find("value1"), (slot1.afterAttr ~= 0 or setColorStr(slot1.afterAttr, "#FFFFFFFF")) and setColorStr(slot1.afterAttr, COLOR_GREEN))
 			setActive(slot3, slot1.afterAttr - slot1.preAttr ~= 0)
 			setText(slot3, "(+" .. slot1.afterAttr - slot1.preAttr .. ")")
-		end(slot0:findTF("attr_1", slot0.attrs), {
+		end)(slot0:findTF("attr_1", slot0.attrs), {
 			preAttr = slot0.shipTempCfg[slot1.configId].max_level,
 			afterAttr = slot8,
 			name = i18n("word_level_upperLimit")

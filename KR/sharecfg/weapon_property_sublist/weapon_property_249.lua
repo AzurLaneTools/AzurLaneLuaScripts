@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_249 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_249[511124] = {
 		recover_time = 0,
 		name = "野分boss透弹交叉三横射",
@@ -2872,4 +2872,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

@@ -669,7 +669,7 @@ function slot0.furnitureBeginDrag(slot0, slot1)
 
 	slot0.decoratePanelCG.blocksRaycasts = false
 
-	function (slot0)
+	(function (slot0)
 		slot1 = uv0.furnitureModals[slot0.id]
 
 		uv0:setPreSelectedParent(slot1.dragContainer)
@@ -681,7 +681,7 @@ function slot0.furnitureBeginDrag(slot0, slot1)
 
 		pg.BackYardSortMgr.GetInstance():AddToTopSortGroup(slot1)
 		pg.BackYardSortMgr.GetInstance():ClearFurModel(slot1)
-	end(slot1)
+	end)(slot1)
 end
 
 function slot0.furnitureDrag(slot0, slot1, slot2)
@@ -752,13 +752,13 @@ function slot0.furnitureEndDrag(slot0, slot1, slot2)
 		end, slot3)
 	end
 
-	if function (slot0, slot1)
+	if (function (slot0, slot1)
 		return uv0.houseVO:isLegalPos(slot0, slot1)
-	end(slot2, slot4) then
-		function ()
+	end)(slot2, slot4) then
+		(function ()
 			uv0:emit(BackyardMainMediator.FURNITURE_POS_CHNAGE, uv1.id, uv2, uv0.houseVO:isLocaledAndPutOn() and slot0.id or slot0)
 			uv3()
-		end()
+		end)()
 	else
 		slot7(slot2)
 	end

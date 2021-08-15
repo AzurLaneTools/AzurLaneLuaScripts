@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_347 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_347[950276] = {
 		recover_time = 0,
 		name = "【挑战关卡16】蓄力武器赤城（弃用）",
@@ -2206,4 +2206,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

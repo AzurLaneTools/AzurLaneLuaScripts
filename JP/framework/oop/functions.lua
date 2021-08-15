@@ -48,7 +48,7 @@ function print_r(slot0)
 		[slot0] = "."
 	}
 
-	uv7(function (slot0, slot1, slot2)
+	uv7((function (slot0, slot1, slot2)
 		slot3 = {}
 
 		for slot7, slot8 in uv0(slot0) do
@@ -64,5 +64,5 @@ function print_r(slot0)
 		end
 
 		return uv8(slot3, "\n" .. slot1)
-	end(slot0, "", ""))
+	end)(slot0, "", ""))
 end

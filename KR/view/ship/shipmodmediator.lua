@@ -71,9 +71,9 @@ function slot0.autoSelectShip(slot0)
 	slot6 = {}
 
 	for slot10, slot11 in pairs(getProxy(BayProxy):getRawData()) do
-		if function (slot0)
+		if (function (slot0)
 			return slot0.level == 1 and slot0:getRarity() <= ShipRarity.Gray and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
-		end(slot11) then
+		end)(slot11) then
 			table.insert(slot6, slot11)
 		end
 	end

@@ -136,13 +136,13 @@ return {
 			end
 		end
 
-		uv0:QueryWithProduct(function ()
+		uv0:QueryWithProduct((function ()
 			for slot4, slot5 in ipairs(pg.pay_data_display.all) do
 				slot0 = "" .. pg.pay_data_display[slot5].id_str .. ";"
 			end
 
 			return slot0
-		end(), function (slot0)
+		end)(), function (slot0)
 			for slot5, slot6 in ipairs(string.split(slot0, ";")) do
 				slot7 = string.split(slot6, "|")
 

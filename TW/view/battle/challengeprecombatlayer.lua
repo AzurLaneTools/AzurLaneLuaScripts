@@ -213,14 +213,14 @@ function slot0.updateStageView(slot0)
 		false
 	}) do
 		if type(slot9) ~= "string" then
-			function (slot0, slot1)
+			(function (slot0, slot1)
 				if type(slot0) == "table" then
 					setActive(slot1, true)
 					setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
 				else
 					setActive(slot1, false)
 				end
-			end(slot9, ({
+			end)(slot9, ({
 				findTF(slot0._goals, "goal_tpl"),
 				findTF(slot0._goals, "goal_sink"),
 				findTF(slot0._goals, "goal_time")

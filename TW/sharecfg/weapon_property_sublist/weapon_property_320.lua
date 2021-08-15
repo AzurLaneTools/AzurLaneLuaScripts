@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_320 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_320[680243] = {
 		recover_time = 0.5,
 		name = "【2020英系活动C2】BOSS 希佩尔 第二波 主炮射击",
@@ -3002,4 +3002,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

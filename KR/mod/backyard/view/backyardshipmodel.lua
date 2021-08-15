@@ -323,7 +323,7 @@ function slot0.triggerInterAction(slot0, slot1, slot2)
 
 	if slot2 and slot0.viewComponent.furnitureVOs[slot2]:IsFollower() then
 		if slot0.boatVO:hasInterActionFurnitrue() then
-			function ()
+			(function ()
 				if uv0:hasInterActionFurnitrue() then
 					uv1:clearStage()
 
@@ -361,7 +361,7 @@ function slot0.triggerInterAction(slot0, slot1, slot2)
 						uv4()
 					end
 				end
-			end()
+			end)()
 		else
 			slot6()
 		end
@@ -749,7 +749,7 @@ function slot0.PlayActionAccordingFurniture(slot0, slot1, slot2)
 		end
 	end
 
-	function ()
+	(function ()
 		if uv0:HasFollower() and not uv1 then
 			uv2:endSpineAnimator(uv0)
 			uv2:startSpineAnimator(uv0)
@@ -767,7 +767,7 @@ function slot0.PlayActionAccordingFurniture(slot0, slot1, slot2)
 			end
 		end)
 		uv4(1)
-	end()
+	end)()
 end
 
 function slot0.pauseAnim(slot0, slot1)
@@ -925,7 +925,7 @@ function slot0.PlayActionTogether(slot0, slot1, slot2)
 
 	slot0.timer = {}
 
-	function ()
+	(function ()
 		if uv0:HasFollower() and not uv1 then
 			uv2:endSpineAnimator(uv0)
 			uv2:startSpineAnimator(uv0)
@@ -940,7 +940,7 @@ function slot0.PlayActionTogether(slot0, slot1, slot2)
 				uv1(uv2, uv0)
 			end)
 		end
-	end()
+	end)()
 end
 
 function slot0.playTailActions(slot0, slot1)
@@ -1305,7 +1305,7 @@ function slot0.startMove(slot0, slot1, slot2, slot3, slot4)
 
 	slot0.shadowTF.localScale = Vector2(slot7, 1)
 
-	function (slot0)
+	(function (slot0)
 		uv0.shadowTF.localScale = Vector2(uv1, 1)
 
 		LeanTween.moveLocal(uv0.go, Vector3(slot0.x, slot0.y + uv2, 0), uv3):setOnUpdate(System.Action_float(function (slot0)
@@ -1321,7 +1321,7 @@ function slot0.startMove(slot0, slot1, slot2, slot3, slot4)
 				uv2()
 			end
 		end))
-	end(slot1)
+	end)(slot1)
 end
 
 function slot0.cancelMove(slot0)
@@ -1368,7 +1368,7 @@ function slot0.acquireEffect(slot0, slot1, slot2)
 	end
 
 	slot9 = 2
-	slot0.expTF.localScale = Vector3(Mathf.Sign(function ()
+	slot0.expTF.localScale = Vector3(Mathf.Sign((function ()
 		slot1 = uv0.tf.localScale.x
 
 		while go(slot0).name ~= "floor" do
@@ -1376,7 +1376,7 @@ function slot0.acquireEffect(slot0, slot1, slot2)
 		end
 
 		return slot1
-	end()) * 2, slot9, 2)
+	end)()) * 2, slot9, 2)
 
 	for slot9 = 0, slot0.expTF.childCount - 1 do
 		SetActive(slot0.expTF:GetChild(slot9), false)

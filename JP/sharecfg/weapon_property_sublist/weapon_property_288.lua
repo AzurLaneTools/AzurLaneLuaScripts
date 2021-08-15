@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_288 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_288[593202] = {
 		recover_time = 0,
 		name = "【法系活动D】【BOSS】勒马尔 身后回归弹幕(伤害中）",
@@ -2942,4 +2942,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

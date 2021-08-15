@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_288 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_288[593405] = {
 		recover_time = 0,
 		name = "【法系活动D】【BOSS】让巴尔 四联装跨射主炮2轮（伤害高）",
@@ -2974,4 +2974,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

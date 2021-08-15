@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_259 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_259[520513] = {
 		recover_time = 0.5,
 		name = "第3關的格耐森瑙BOSS武器1",
@@ -2816,4 +2816,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

@@ -618,7 +618,7 @@ function slot0.updateModInfo(slot0, slot1)
 		if table.contains(ShipModAttr.BLUEPRINT_ATTRS, slot13) then
 			slot9 = 0 + 1
 
-			function (slot0, slot1, slot2, slot3)
+			(function (slot0, slot1, slot2, slot3)
 				slot4 = uv0:findTF("attr_bg/name", slot0)
 				slot5 = uv0:findTF("attr_bg/value", slot0)
 				slot6 = uv0:findTF("attr_bg/max", slot0)
@@ -643,7 +643,7 @@ function slot0.updateModInfo(slot0, slot1)
 				setText(slot9, math.floor(slot15) .. "/" .. slot13)
 
 				slot8.value = math.floor(slot10) < math.floor(slot14) and 1 or slot15 / uv1:getExpRetio(slot12)
-			end(slot0.attrContainer:Find(slot13), slot13, slot14, intProperties(slot6:getShipProperties(slot2))[slot13] or 0)
+			end)(slot0.attrContainer:Find(slot13), slot13, slot14, intProperties(slot6:getShipProperties(slot2))[slot13] or 0)
 		end
 	end
 
@@ -977,11 +977,11 @@ function slot0.updateModPanel(slot0)
 
 		uv5(uv2)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	function (slot0)
+	(function (slot0)
 		setActive(uv0.calcPanel, not slot0)
 		setActive(uv0.fittingBtn, slot0)
 		setActive(uv0.fittingBtnEffect, false)
-	end(false)
+	end)(false)
 
 	if slot1:canFateSimulation() then
 		onButton(slot0, slot0.fittingBtn, function ()
@@ -1316,7 +1316,7 @@ function slot0.updateAdvanceTF(slot0, slot1, slot2, slot3)
 		if slot5[slot13] then
 			if slot5[slot13][1] == ShipBluePrint.STRENGTHEN_TYPE_BREAKOUT then
 				setActive(slot16, true)
-				function (slot0, slot1)
+				(function (slot0, slot1)
 					slot2 = slot1[2]
 					slot7 = Ship.New({
 						configId = slot2
@@ -1334,7 +1334,7 @@ function slot0.updateAdvanceTF(slot0, slot1, slot2, slot3)
 					for slot14 = 1, slot7 do
 						cloneTplTo(slot8, slot10)
 					end
-				end(slot16, slot5[slot13])
+				end)(slot16, slot5[slot13])
 			else
 				setActive(slot15, true)
 				setText(slot15:Find("Text"), slot5[slot13][3])
@@ -2064,7 +2064,7 @@ function slot0.showFittingMsgPanel(slot0, slot1)
 		uv1()
 	end)
 	setText(slot0:findTF("desc", slot0:findTF("attrl_panel", slot4)), i18n("fate_attr_word"))
-	function ()
+	(function ()
 		setActive(uv0, uv1 > 1)
 		setActive(uv2, uv1 < uv3)
 		setText(uv4, "PHASE." .. uv5[uv1])
@@ -2102,7 +2102,7 @@ function slot0.showFittingMsgPanel(slot0, slot1)
 				setActive(uv7:GetChild(slot7), false)
 			end
 		end
-	end()
+	end)()
 end
 
 function slot0.checkStory(slot0)

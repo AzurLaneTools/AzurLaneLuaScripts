@@ -64,13 +64,13 @@ end
 function slot0.setCurIndex(slot0)
 	slot0.curIndex = 1
 	slot0.clearTaskNum = 0
-	slot0.clearTaskNum = function ()
+	slot0.clearTaskNum = (function ()
 		for slot3, slot4 in ipairs(uv0.contextData.taskList) do
 			if uv0.taskProxy:getTaskById(slot4) or uv0.taskProxy:getFinishTaskById(slot4) then
 				return slot3 - 1
 			end
 		end
-	end()
+	end)()
 
 	for slot5, slot6 in ipairs(slot0.contextData.taskList) do
 		if (slot0.taskProxy:getTaskById(slot6) or slot0.taskProxy:getFinishTaskById(slot6)) and slot7:getTaskStatus() == 2 then
@@ -122,11 +122,11 @@ function slot0.nodeInfoTween(slot0, slot1)
 
 	if not isActive(slot0.nodeInfo) then
 		setActive(slot0.nodeInfo, true)
-		function ()
+		(function ()
 			setLocalPosition(uv0.nodeInfo, Vector3(uv1.x, uv1.y + 120, 0))
 			setLocalScale(uv0.nodeInfo, Vector3(0, 0, 0))
 			LeanTween.scale(tf(uv0.nodeInfo), Vector3.one, 0.1)
-		end()
+		end)()
 	else
 		slot4(slot3)
 	end

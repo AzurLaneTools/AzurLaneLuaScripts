@@ -143,7 +143,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_START, function (slot0, slot1)
 		if uv1 == SYSTEM_DUEL then
-			function ()
+			(function ()
 				if uv0.contextData.customFleet then
 					uv0.contextData.func()
 				else
@@ -169,7 +169,7 @@ function slot0.register(slot0)
 						end
 					})
 				end
-			end()
+			end)()
 		else
 			slot3, slot4 = nil
 

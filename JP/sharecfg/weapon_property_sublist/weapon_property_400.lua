@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_400 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_400[2044304] = {
 		recover_time = 5,
 		name = "【大世界】深渊BOSS航母_p3_前置浮游炮形态5",
@@ -4675,8 +4675,8 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.weapon_property_400[2200802] = {
 		recover_time = 5,
 		name = "【大世界】日系舰载鱼雷机III",
@@ -13248,8 +13248,8 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.weapon_property_400[2963102] = {
 		recover_time = 0,
 		name = "【大世界】黑飞龙p3_幻影分身斩(樱花)lv3",
@@ -17445,8 +17445,8 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.weapon_property_400[2965132] = {
 		recover_time = 0,
 		name = "【大世界】黑方舟 第四波 剑气4 LV3",
@@ -21044,8 +21044,8 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
-function ()
+end)()
+(function ()
 	uv0.weapon_property_400[2966150] = {
 		recover_time = 0,
 		name = "【大世界】黑海伦娜 第四波 封锁弹幕1 LV1",
@@ -21936,4 +21936,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

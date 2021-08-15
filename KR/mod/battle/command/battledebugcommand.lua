@@ -21,7 +21,7 @@ function slot3.Initialize(slot0)
 end
 
 function slot3.DoPrologue(slot0)
-	function ()
+	(function ()
 		uv0._uiMediator:OpeningEffect(function ()
 			uv0._uiMediator:ShowAutoBtn()
 			uv0._uiMediator:ShowTimer()
@@ -29,7 +29,7 @@ function slot3.DoPrologue(slot0)
 		end, SYSTEM_DEBUG)
 		uv0._dataProxy:InitAllFleetUnitsWeaponCD()
 		uv0._dataProxy:TirggerBattleStartBuffs()
-	end()
+	end)()
 end
 
 function slot3.Init(slot0)

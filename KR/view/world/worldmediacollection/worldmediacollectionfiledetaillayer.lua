@@ -52,13 +52,13 @@ function slot0.Enter(slot0)
 	slot0.contextData.SelectedFile = nil
 
 	slot0:UpdateView()
-	slot0:SwitchFileIndex(slot0.contextData.SelectedFile or function ()
+	slot0:SwitchFileIndex(slot0.contextData.SelectedFile or (function ()
 		for slot5, slot6 in ipairs(WorldCollectionProxy.GetCollectionFileGroupTemplate(uv0.contextData.FileGroupIndex).child) do
 			if nowWorld:GetCollectionProxy():IsUnlock(slot6) then
 				return slot5
 			end
 		end
-	end())
+	end)())
 end
 
 function slot0.Hide(slot0)
@@ -190,7 +190,7 @@ function slot0.SetDocumentText(slot0, slot1, slot2, slot3)
 	if not slot5 then
 		slot10.text = slot1
 
-		function ()
+		(function ()
 			if isActive(uv0.documentHead) then
 				slot0 = 0 + uv0.documentHead:GetComponent(typeof(LayoutElement)).preferredHeight
 			end
@@ -228,7 +228,7 @@ function slot0.SetDocumentText(slot0, slot1, slot2, slot3)
 					setActive(uv0, slot0.y > 0.01)
 				end)
 			end
-		end()
+		end)()
 
 		return
 	end

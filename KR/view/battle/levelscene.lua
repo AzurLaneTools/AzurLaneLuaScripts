@@ -67,7 +67,7 @@ function slot0.preload(slot0, slot1)
 end
 
 function slot0.GetInitializeMap(slot0)
-	return function ()
+	return (function ()
 		if uv0.contextData.chapterVO and slot0.active then
 			return slot0:getConfig("map")
 		end
@@ -89,7 +89,7 @@ function slot0.GetInitializeMap(slot0)
 		end
 
 		return slot1
-	end() or slot0:selectMap(), tobool(slot2)
+	end)() or slot0:selectMap(), tobool(slot2)
 end
 
 function slot0.init(slot0)
@@ -349,7 +349,7 @@ function slot0.addbubbleMsgBox(slot0, slot1, slot2)
 		slot3 = nil
 
 		table.insert(slot0.bubbleMsgBoxes, slot1)
-		function ()
+		(function ()
 			if uv0.bubbleMsgBoxes[1] then
 				slot0(function ()
 					table.remove(uv0.bubbleMsgBoxes, 1)
@@ -358,7 +358,7 @@ function slot0.addbubbleMsgBox(slot0, slot1, slot2)
 			elseif uv2 then
 				uv2()
 			end
-		end()
+		end)()
 	end
 end
 
@@ -2211,7 +2211,7 @@ function slot0.GetMapBG(slot0, slot1, slot2)
 
 		return slot7, uv1[bit.rshift(slot5 - 1, 1) + 1], bit.band(slot4, 1) == 1
 	else
-		function ()
+		(function ()
 			for slot4, slot5 in ipairs(uv0[1]:getChapters(true)) do
 				if not slot5:isClear() then
 					return
@@ -2233,7 +2233,7 @@ function slot0.GetMapBG(slot0, slot1, slot2)
 
 				uv1 = uv1 + 1
 			end
-		end()
+		end)()
 
 		slot9 = nil
 
@@ -3333,7 +3333,7 @@ end
 function slot0.updatePoisonAreaTip(slot0)
 	slot1 = slot0.contextData.chapterVO
 
-	if function (slot0)
+	if (function (slot0)
 		slot1 = {}
 		slot2 = pg.map_event_list[uv0.id] or {}
 		slot3 = nil
@@ -3345,7 +3345,7 @@ function slot0.updatePoisonAreaTip(slot0)
 		end
 
 		return slot1
-	end(ChapterConst.EvtType_Poison) then
+	end)(ChapterConst.EvtType_Poison) then
 		for slot7, slot8 in ipairs(slot3) do
 			if slot8.round_gametip ~= nil and slot9 ~= "" and slot1:getRoundNum() == slot9[1] then
 				pg.TipsMgr.GetInstance():ShowTips(i18n(slot9[2]))

@@ -75,7 +75,7 @@ function slot0.Card(slot0)
 		setActive(slot0.tags[2], slot0.state == AttireFrame.STATE_UNLOCK and slot1:isNew())
 	end
 
-	function (slot0)
+	(function (slot0)
 		slot0._go = uv0
 		slot0._tf = tf(uv0)
 		slot0.mark = slot0._tf:Find("info/mark")
@@ -89,7 +89,7 @@ function slot0.Card(slot0)
 		}
 		slot0.icon = slot0._tf:Find("info/icon")
 		slot0.mask = slot0._tf:Find("info/mask")
-	end(slot1)
+	end)(slot1)
 
 	return slot1
 end

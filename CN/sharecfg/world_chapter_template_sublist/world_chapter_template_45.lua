@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_chapter_template_45 = {}
 
-function ()
+(function ()
 	uv0.world_chapter_template_45[131090] = {
 		is_auto = 2,
 		name = "碎片海域-3-2-国庆风格",
@@ -33567,4 +33567,4 @@ function ()
 		},
 		world_chapter_buff = {}
 	}
-end()
+end)()

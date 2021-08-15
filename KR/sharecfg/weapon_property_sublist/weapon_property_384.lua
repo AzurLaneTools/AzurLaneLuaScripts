@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_384 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_384[1101055] = {
 		name = "Q版战列三联跨射武器x2轮I",
 		range = 75,
@@ -753,4 +753,4 @@ function ()
 		angle = 360,
 		aim_type = 0
 	}
-end()
+end)()

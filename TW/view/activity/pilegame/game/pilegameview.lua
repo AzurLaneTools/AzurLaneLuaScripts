@@ -278,7 +278,7 @@ function slot0.OnGameExited(slot0)
 end
 
 function slot0.OnGameEnd(slot0, slot1, slot2)
-	function ()
+	(function ()
 		pg.UIMgr.GetInstance():BlurPanel(uv0.resultPanel)
 		setActive(uv0.resultPanel, true)
 		onButton(uv0, uv0.endGameBtn, function ()
@@ -289,7 +289,7 @@ function slot0.OnGameEnd(slot0, slot1, slot2)
 
 		uv0.finalScoreTxt.text = uv1
 		uv0.highestScoreText.text = uv2
-	end()
+	end)()
 end
 
 function slot0.OnShake(slot0, slot1)

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_337 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_337[780201] = {
 		aim_type = 1,
 		name = "【2021意大利活动A3】塞壬执棋者II型 轰炸机",
@@ -1520,4 +1520,4 @@ function ()
 			13
 		}
 	}
-end()
+end)()

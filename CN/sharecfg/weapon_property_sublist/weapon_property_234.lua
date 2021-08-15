@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_234 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_234[470011] = {
 		recover_time = 0,
 		name = "【异色格A】【杂兵】Q版旋转子弹延迟3连弹——驱逐（抛物线）",
@@ -2902,4 +2902,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

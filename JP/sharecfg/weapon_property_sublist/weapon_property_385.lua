@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_385 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_385[1101092] = {
 		range = 38,
 		name = "【精英】Q版近程自卫火炮III型弹幕3",
@@ -1329,4 +1329,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

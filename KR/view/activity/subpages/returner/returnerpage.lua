@@ -109,9 +109,9 @@ function slot0.ShouldAcceptTasks(slot0)
 		return uv0:getTaskById(slot0) == nil and uv0:getFinishTaskById(slot0) == nil
 	end) or _.all(slot1[slot0.taskIndex], function (slot0)
 		return uv0:getFinishTaskById(slot0) ~= nil
-	end) and not (slot0.taskIndex == #slot1) and function ()
+	end) and not (slot0.taskIndex == #slot1) and (function ()
 		return uv0.taskIndex < uv0.day
-	end()
+	end)()
 end
 
 function slot0.AcceptTasks(slot0)

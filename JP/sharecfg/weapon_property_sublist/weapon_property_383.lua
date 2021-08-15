@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_383 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_383[1100966] = {
 		recover_time = 5,
 		name = "德系轰炸机II",
@@ -2541,4 +2541,4 @@ function ()
 		queue = 2,
 		id = 1101028
 	}
-end()
+end)()

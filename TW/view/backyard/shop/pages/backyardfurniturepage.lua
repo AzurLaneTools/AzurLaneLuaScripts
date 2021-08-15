@@ -46,7 +46,7 @@ function slot0.OnInit(slot0)
 		uv0.contextData.filterPanel:Sort()
 		uv0:OnFilterDone()
 	end, SFX_PANEL)
-	function (slot0)
+	(function (slot0)
 		slot1 = ""
 
 		if slot0 == BackYardDecorationFilterPanel.ORDER_MODE_ASC then
@@ -56,7 +56,7 @@ function slot0.OnInit(slot0)
 		end
 
 		uv0.orderBtnTxt.text = slot1
-	end(slot0.orderMode)
+	end)(slot0.orderMode)
 
 	function slot0.contextData.filterPanel.confirmFunc()
 		uv0.filterBtnTxt.text = uv0.contextData.filterPanel.sortTxt
@@ -123,15 +123,15 @@ function slot0.GetData(slot0)
 	slot1 = {}
 
 	for slot10, slot11 in ipairs(pg.furniture_shop_template.all) do
-		if function (slot0)
+		if (function (slot0)
 			return not slot0:isNotForSale() and (not slot0:isForActivity() or uv0[slot0.id]) and not not slot0:inTime()
-		end(slot0.dorm:GetAllFurniture()[slot11] or Furniture.New({
+		end)(slot0.dorm:GetAllFurniture()[slot11] or Furniture.New({
 			id = slot11
-		})) and function (slot0, slot1)
+		})) and (function (slot0, slot1)
 			return table.contains(slot1, slot0:getConfig("type"))
-		end(slot12, uv0(slot0.pageType)) and function (slot0)
+		end)(slot12, uv0(slot0.pageType)) and (function (slot0)
 			return slot0:isMatchSearchKey(getInputText(uv0.searchInput))
-		end(slot12) then
+		end)(slot12) then
 			table.insert(slot1, slot12)
 		end
 	end

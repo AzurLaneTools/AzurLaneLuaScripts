@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_302 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_302[613033] = {
 		recover_time = 0,
 		name = "【世界BOSS困难】BOSS-骏河 跨射攻击后排武器2x2轮",
@@ -2938,4 +2938,4 @@ function ()
 			isBound = true
 		}
 	}
-end()
+end)()

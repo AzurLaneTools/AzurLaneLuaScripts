@@ -45,7 +45,7 @@ function slot1.ShowTips(slot0, slot1, slot2, slot3)
 	if slot0._count <= 3 then
 		slot0._tipTable[slot0._count] = slot4
 
-		function (slot0, slot1)
+		(function (slot0, slot1)
 			slot2 = GetOrAddComponent(slot0, "CanvasGroup")
 
 			Timer.New(function ()
@@ -71,7 +71,7 @@ function slot1.ShowTips(slot0, slot1, slot2, slot3)
 					end))
 				end))
 			end, 3):Start()
-		end(slot4, slot0._count)
+		end)(slot4, slot0._count)
 	else
 		Destroy(slot0._tipTable[1])
 		table.remove(slot0._tipTable, 1)
@@ -95,7 +95,7 @@ function slot1.ShowPicTips(slot0, slot1, slot2, slot3, slot4)
 	if slot0._count <= 3 then
 		slot0._tipTable[slot0._count] = slot5
 
-		function (slot0)
+		(function (slot0)
 			slot1 = GetOrAddComponent(slot0, "CanvasGroup")
 			slot1.alpha = 1
 			slot2 = LeanTween.alphaCanvas(slot1, 0, 5):setUseEstimatedTime(true):setOnComplete(System.Action(function ()
@@ -113,7 +113,7 @@ function slot1.ShowPicTips(slot0, slot1, slot2, slot3, slot4)
 					SetActive(uv1._go, false)
 				end
 			end))
-		end(slot5)
+		end)(slot5)
 	else
 		Destroy(slot0._tipTable[1])
 		table.remove(slot0._tipTable, 1)

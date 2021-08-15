@@ -84,7 +84,7 @@ function slot0.getAwards(slot0, slot1, slot2)
 		slot6 = nil
 
 		for slot10, slot11 in ipairs(slot4) do
-			if function ()
+			if (function ()
 				for slot3, slot4 in ipairs(uv0) do
 					if uv1.id == slot4.id then
 						uv0[slot3].count = uv0[slot3].count + uv1.count
@@ -94,7 +94,7 @@ function slot0.getAwards(slot0, slot1, slot2)
 				end
 
 				return true
-			end() then
+			end)() then
 				table.insert(slot5, slot11)
 			end
 		end

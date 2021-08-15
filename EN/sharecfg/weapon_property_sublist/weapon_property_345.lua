@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_345 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_345[819702] = {
 		type = 24,
 		name = "【偶像大师联动EX】BOSS 灯光师 散射光",
@@ -2905,4 +2905,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

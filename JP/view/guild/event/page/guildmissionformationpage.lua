@@ -529,7 +529,7 @@ function slot0.HasScoreAddition(slot0, slot1)
 	slot4 = slot2:GetAttrCntAcc()
 	slot5 = slot2:GetAttrAcc()
 
-	return table.contains(slot2:GetRecommendShipNation(), slot1:getNation()) or function ()
+	return table.contains(slot2:GetRecommendShipNation(), slot1:getNation()) or (function ()
 		for slot5, slot6 in pairs(uv1) do
 			if slot6.total <= (uv0:getProperties()[pg.attribute_info_by_type[slot5].name] or 0) then
 				return true
@@ -545,7 +545,7 @@ function slot0.HasScoreAddition(slot0, slot1)
 		end
 
 		return false
-	end()
+	end)()
 end
 
 function slot0.HasEffectAddition(slot0, slot1)

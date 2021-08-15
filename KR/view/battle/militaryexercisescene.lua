@@ -227,7 +227,7 @@ function slot0.initPlayerFleet(slot0)
 	for slot5 = 1, 3 do
 		if slot0.fleet.mainShips[slot5] then
 			if slot0.ships[slot6] then
-				function (slot0, slot1, slot2)
+				(function (slot0, slot1, slot2)
 					slot3 = cloneTplTo(uv0.shipTpl, slot1)
 					slot4 = slot0.configId
 					slot5 = slot0.skinId
@@ -239,7 +239,7 @@ function slot0.initPlayerFleet(slot0)
 					onButton(uv0, slot3, function ()
 						uv0:emit(MilitaryExerciseMediator.OPEN_DOCKYARD, uv1, uv2.id)
 					end, SFX_PANEL)
-				end(slot7, slot0.mainContainer, TeamType.Main)
+				end)(slot7, slot0.mainContainer, TeamType.Main)
 			end
 		else
 			onButton(slot0, findTF(cloneTplTo(slot0.emptyTpl, slot0.mainContainer), "icon_bg"), function ()
@@ -343,7 +343,7 @@ function slot0.initAwards(slot0)
 
 	for slot12 = #slot0.rankCfg.all, 1, -1 do
 		if #slot0.rankCfg[slot0.rankCfg.all[slot12]].award_list > 0 then
-			function (slot0, slot1)
+			(function (slot0, slot1)
 				slot3 = uv0.rankCfg[slot1]
 				slot7 = ":"
 
@@ -364,7 +364,7 @@ function slot0.initAwards(slot0)
 
 				setText(findTF(slot0, "upgrade_score_tip/level"), slot3.point)
 				setText(findTF(slot0, "upgrade_rank_tip/level"), slot3.order > 0 and slot3.order or "-")
-			end(cloneTplTo(slot4, slot3), slot13)
+			end)(cloneTplTo(slot4, slot3), slot13)
 			cloneTplTo(slot0:findTF("linetpl", slot3), slot3)
 		end
 	end

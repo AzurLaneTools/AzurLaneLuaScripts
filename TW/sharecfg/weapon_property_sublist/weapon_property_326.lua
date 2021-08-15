@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_326 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_326[721103] = {
 		reload_max = 150,
 		name = "【2020偶像活动二期SP2】BOSS 光辉 音符轰炸机",
@@ -1295,4 +1295,4 @@ function ()
 			790109
 		}
 	}
-end()
+end)()

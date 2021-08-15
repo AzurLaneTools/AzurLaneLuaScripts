@@ -394,11 +394,11 @@ function slot0.showRewardInfo(slot0)
 		uv0:displayBG()
 	end)
 
-	function ()
+	(function ()
 		if uv0 and coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
 		end
-	end()
+	end)()
 end
 
 function slot0.displayBG(slot0)

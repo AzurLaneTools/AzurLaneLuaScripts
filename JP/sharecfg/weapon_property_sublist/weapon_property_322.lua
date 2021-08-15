@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_322 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_322[680413] = {
 		recover_time = 0,
 		name = "【2020英系活动SP】精英人形Z36 大规模穿透自机狙",
@@ -2200,4 +2200,4 @@ function ()
 			700142
 		}
 	}
-end()
+end)()

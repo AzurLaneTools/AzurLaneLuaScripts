@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_337 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_337[781106] = {
 		name = "【2021意大利活动B2】BOSS 光辉 轰炸机武器",
 		range = 10,
@@ -1543,4 +1543,4 @@ function ()
 			990242
 		}
 	}
-end()
+end)()

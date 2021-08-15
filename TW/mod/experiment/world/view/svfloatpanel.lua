@@ -138,7 +138,7 @@ function slot0.Setup(slot0, slot1, slot2, slot3, slot4)
 	slot0.mapList = nowWorld:EntranceToReplacementMapList(slot1)
 
 	slot0.toggleItemList:align(#slot0.mapList)
-	triggerToggle(slot0.rtToggles:GetChild(function ()
+	triggerToggle(slot0.rtToggles:GetChild((function ()
 		if uv0 then
 			for slot3, slot4 in ipairs(uv1.mapList) do
 				if slot4.id == uv0 then
@@ -166,7 +166,7 @@ function slot0.Setup(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		return 1
-	end() - 1), true)
+	end)() - 1), true)
 end
 
 function slot0.setColorfulImage(slot0, slot1, slot2, slot3)

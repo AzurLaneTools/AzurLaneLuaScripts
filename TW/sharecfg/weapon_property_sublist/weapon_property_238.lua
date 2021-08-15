@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_238 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_238[473124] = {
 		recover_time = 0,
 		name = "【異色格D】【人型】柯尼斯堡-Q版延遲散型4連魚雷",
@@ -2837,4 +2837,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

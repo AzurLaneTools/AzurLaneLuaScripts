@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_130 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_130[65812] = {
 		id = 65812,
 		name = "基洛夫技能-无易伤点燃效果Lv2",
@@ -684,4 +684,4 @@ function ()
 		damage = 18,
 		base = 65871
 	}
-end()
+end)()

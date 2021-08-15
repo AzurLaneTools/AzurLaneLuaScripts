@@ -782,7 +782,7 @@ function slot0.GetLongMoveRange(slot0, slot1)
 	slot11.dp[0] = 0
 	slot11.isMark = true
 
-	function (slot0)
+	(function (slot0)
 		if not slot0 then
 			return
 		end
@@ -801,7 +801,7 @@ function slot0.GetLongMoveRange(slot0, slot1)
 				end
 			end
 		end
-	end(slot11)
+	end)(slot11)
 
 	while slot11 do
 		_.each(slot8, function (slot0)

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_284 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_284[591073] = {
 		recover_time = 0,
 		name = "【法系活动B】【人形】破局者I型人形 6颗炮弹一轮攻击前排",
@@ -2951,4 +2951,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

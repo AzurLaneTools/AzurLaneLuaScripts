@@ -41,7 +41,7 @@ function slot1.ShowTips(slot0, slot1)
 
 	slot2.transform:Find("content").localPosition = Vector3(-850, 0, 0)
 
-	function (slot0)
+	(function (slot0)
 		LeanTween.moveX(rtf(uv0), -275, 0.5)
 		LeanTween.moveX(rtf(uv0), -850, 0.5):setDelay(5):setOnComplete(System.Action(function ()
 			Destroy(uv0)
@@ -52,5 +52,5 @@ function slot1.ShowTips(slot0, slot1)
 				SetActive(uv1._go, false)
 			end
 		end))
-	end(slot2, slot0._count)
+	end)(slot2, slot0._count)
 end

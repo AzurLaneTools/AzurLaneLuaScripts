@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_243 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_243[474381] = {
 		recover_time = 0,
 		name = "【异色格复刻】ExBoss_提尔比茨_爆炸圈旋转",
@@ -2865,4 +2865,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

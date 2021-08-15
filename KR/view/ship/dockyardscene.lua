@@ -1033,7 +1033,7 @@ function slot0.filterForRemouldAndUpgrade(slot0)
 	slot2 = slot0.isFilterLevelForMod
 
 	for slot7, slot8 in pairs(slot0.shipVOsById) do
-		if function (slot0)
+		if (function (slot0)
 			slot1 = true
 
 			if not uv0 and slot0.lockState == Ship.LOCK_STATE_LOCK then
@@ -1045,7 +1045,7 @@ function slot0.filterForRemouldAndUpgrade(slot0)
 			end
 
 			return slot1
-		end(slot8) then
+		end)(slot8) then
 			table.insert(slot0.shipVOs, slot8)
 		end
 	end
@@ -1522,7 +1522,7 @@ function slot0.TriggerCard(slot0, slot1)
 	slot4 = slot3
 	slot5 = nil
 
-	if not function ()
+	if not (function ()
 		uv0 = uv0 + uv1
 
 		if not uv2.shipVOs[uv0] or uv2.checkShip(slot0) then
@@ -1530,11 +1530,11 @@ function slot0.TriggerCard(slot0, slot1)
 		else
 			return uv3()
 		end
-	end() then
+	end)() then
 		return
 	end
 
-	if function ()
+	if (function ()
 		slot0 = nil
 
 		for slot4, slot5 in pairs(uv0.scrollItems) do
@@ -1546,7 +1546,7 @@ function slot0.TriggerCard(slot0, slot1)
 		end
 
 		return slot0
-	end() and not getBounds(slot0:findTF("main/ship_container")):Intersects(getBounds(slot8.tr)) then
+	end)() and not getBounds(slot0:findTF("main/ship_container")):Intersects(getBounds(slot8.tr)) then
 		slot0.shipContainer:SetNormalizedPosition(slot0.shipContainer.value + slot1 * (slot0.shipContainer:HeadIndexToValue(7) - slot0.shipContainer:HeadIndexToValue(1)), 1)
 	end
 
@@ -1575,10 +1575,10 @@ function slot0.OnSwitch(slot0, slot1, slot2, slot3)
 
 		uv2()
 	end, SFX_PANEL)
-	function ()
+	(function ()
 		setActive(uv0:Find("off"), not uv1)
 		setActive(uv0:Find("on"), uv1)
-	end()
+	end)()
 end
 
 function slot0.onBackPressed(slot0)

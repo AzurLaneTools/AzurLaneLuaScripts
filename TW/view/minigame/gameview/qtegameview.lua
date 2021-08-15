@@ -270,7 +270,7 @@ function slot0.setGameState(slot0, slot1)
 
 	if slot0.gameState == slot0.STATE_BEGIN then
 		setButtonEnabled(slot0.startBtn, true)
-		function (slot0)
+		(function (slot0)
 			for slot5, slot6 in pairs({
 				uv0.startUI,
 				uv0.content,
@@ -287,7 +287,7 @@ function slot0.setGameState(slot0, slot1)
 			else
 				pg.UIMgr.GetInstance():UnblurPanel(uv0.endUI, uv0._tf)
 			end
-		end({
+		end)({
 			slot0.startUI
 		})
 		slot0:resetGame()

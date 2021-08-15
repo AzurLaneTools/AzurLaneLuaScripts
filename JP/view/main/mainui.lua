@@ -884,10 +884,10 @@ function slot0.didEnter(slot0)
 
 		uv1(uv0.showWord)
 	end, SFX_PANEL)
-	function (slot0)
+	(function (slot0)
 		setActive(uv0._wordBtnOpen, not slot0)
 		setActive(uv0._wordBtnClose, slot0)
-	end(slot0.showWord)
+	end)(slot0.showWord)
 
 	slot5 = GetOrAddComponent(slot0._paintingTF, "UILongPressTrigger").onLongPressed
 
@@ -1392,12 +1392,12 @@ function slot0.displayShipWord(slot0, slot1)
 
 	function slot13()
 		if not uv0.showWord then
-			function ()
+			(function ()
 				uv0._lastChatTween = nil
 				uv0.chatFlag = nil
 
 				uv0:startChatTimer()
-			end()
+			end)()
 
 			return
 		end

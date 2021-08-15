@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_217 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_217[311035] = {
 		recover_time = 0,
 		name = "利根-分裂弹-这次分出来有6发了-非锁定",
@@ -2847,4 +2847,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

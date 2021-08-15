@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_390 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_390[2021913] = {
 		recover_time = 0,
 		name = "【大世界】白鹰航母精英专属_间歇航空弹幕（大黄蜂）",
@@ -4026,4 +4026,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

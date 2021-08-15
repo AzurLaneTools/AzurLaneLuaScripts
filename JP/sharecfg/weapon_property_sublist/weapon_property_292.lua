@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_292 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_292[606101] = {
 		recover_time = 5,
 		name = "【天城活动D2】【BOSS】执棋者II 轰炸机(伤害中）",
@@ -2919,4 +2919,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()

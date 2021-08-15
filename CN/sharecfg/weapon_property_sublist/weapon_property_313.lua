@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.weapon_property_313 = {}
 
-function ()
+(function ()
 	uv0.weapon_property_313[640302] = {
 		recover_time = 0,
 		name = "【2020法系SP】后排跨射（点燃概率降低）II",
@@ -3205,4 +3205,4 @@ function ()
 		},
 		precast_param = {}
 	}
-end()
+end)()
