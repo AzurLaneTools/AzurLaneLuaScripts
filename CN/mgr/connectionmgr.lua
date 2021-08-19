@@ -27,19 +27,18 @@ function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 
 		uv8.onData:AddListener(uv6.onData)
 
-		uv9 = uv0.IPAddress.New()
-		uv10 = -1
-		uv11 = true
-		uv12 = false
+		uv9 = -1
+		uv10 = true
+		uv11 = false
 
-		uv13()
+		uv12()
 		uv7:resetHBTimer()
 	end)
 	uv2.onData:AddListener(slot0.onData)
 	uv2.onError:AddListener(slot0.onError)
 	uv2.onDisconnected:AddListener(slot0.onDisconnected)
 
-	uv11 = true
+	uv10 = true
 
 	uv2:Connect()
 	print("connect to - " .. slot1 .. ":" .. slot2)

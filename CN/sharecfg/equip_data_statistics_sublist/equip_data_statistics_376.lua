@@ -1,5 +1,59 @@
 pg = pg or {}
 pg.equip_data_statistics_376 = {
+	[89071] = {
+		value_2 = 26,
+		anti_siren = 100,
+		base = 89060,
+		id = 89071,
+		value_1 = "16"
+	},
+	[89072] = {
+		value_2 = 27,
+		anti_siren = 200,
+		base = 89060,
+		id = 89072,
+		value_1 = "17"
+	},
+	[89073] = {
+		value_2 = 28,
+		anti_siren = 300,
+		base = 89060,
+		id = 89073,
+		value_1 = "18"
+	},
+	[89080] = {
+		type = 10,
+		name = "Gamers的证明",
+		speciality = "无",
+		tech = 0,
+		value_2 = 0,
+		ammo = 10,
+		rarity = 5,
+		nationality = 105,
+		descrip = "hololivegamers成员的证明徽章！ ",
+		id = 89080,
+		value_3 = 0,
+		attribute_1 = "durability",
+		icon = "89080",
+		value_1 = "245",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6500
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
 	[89081] = {
 		id = 89081,
 		value_1 = "280",
@@ -67,57 +121,5 @@ pg.equip_data_statistics_376 = {
 		anti_siren = 300,
 		value_1 = "640",
 		base = 89080
-	},
-	[89100] = {
-		type = 10,
-		name = "玉米灯笼",
-		speciality = "无",
-		tech = 0,
-		value_2 = 50,
-		ammo = 10,
-		descrip = "印着玉米图案的灯笼.......夏色吹雪？！ ",
-		nationality = 105,
-		rarity = 5,
-		attribute_1 = "antisub",
-		value_3 = 0,
-		torpedo_ammo = 0,
-		id = 89100,
-		icon = "89100",
-		value_1 = "9",
-		attribute_2 = "durability",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6510
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89101] = {
-		id = 89101,
-		value_2 = 55,
-		value_1 = "10",
-		base = 89100
-	},
-	[89102] = {
-		id = 89102,
-		value_2 = 60,
-		value_1 = "11",
-		base = 89100
-	},
-	[89103] = {
-		id = 89103,
-		value_2 = 65,
-		value_1 = "12",
-		base = 89100
 	}
 }

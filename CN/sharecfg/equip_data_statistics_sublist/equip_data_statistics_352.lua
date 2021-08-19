@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_352 = {
+	[73512] = {
+		id = 73512,
+		name = "全弹发射-Type IXC型II",
+		base = 73511,
+		weapon_id = {
+			73512
+		}
+	},
+	[74011] = {
+		type = 1,
+		name = "全弹发射-鞍山级I",
+		speciality = "无",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 74011,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			74011
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[74012] = {
 		id = 74012,
 		name = "全弹发射-鞍山级II",
@@ -335,53 +382,6 @@ pg.equip_data_statistics_352 = {
 		base = 75041,
 		weapon_id = {
 			75042
-		}
-	},
-	[75211] = {
-		type = 1,
-		name = "全弹发射-特伦托级I",
-		speciality = "无",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能弹幕",
-		id = 75211,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			75211
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[75212] = {
-		id = 75212,
-		name = "全弹发射-特伦托级II",
-		base = 75211,
-		weapon_id = {
-			75212
 		}
 	}
 }

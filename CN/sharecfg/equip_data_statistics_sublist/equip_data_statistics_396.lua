@@ -1,5 +1,105 @@
 pg = pg or {}
 pg.equip_data_statistics_396 = {
+	[90827] = {
+		id = 90827,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50027
+			}
+		},
+		weapon_id = {
+			90827,
+			88007
+		}
+	},
+	[90840] = {
+		rarity = 3,
+		name = "PL.7舰载鱼雷机",
+		speciality = "雷击",
+		type = 8,
+		tech = 0,
+		ammo = 5,
+		nationality = 8,
+		value_2 = 12,
+		id = 90840,
+		torpedo_ammo = 0,
+		value_3 = 0,
+		descrip = "说明未填写",
+		icon = "50840",
+		attribute_2 = "air",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				4,
+				51560
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			90840
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"TB"
+		}
+	},
+	[90841] = {
+		id = 90841,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				4,
+				51561
+			}
+		},
+		weapon_id = {
+			90841
+		}
+	},
+	[90842] = {
+		id = 90842,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				4,
+				51562
+			}
+		},
+		weapon_id = {
+			90842
+		}
+	},
 	[90843] = {
 		id = 90843,
 		base = 90840,
@@ -249,38 +349,6 @@ pg.equip_data_statistics_396 = {
 			"CA",
 			"MG",
 			"HE"
-		}
-	},
-	[90881] = {
-		id = 90881,
-		damage = "30 x 4",
-		base = 90880,
-		weapon_id = {
-			90881
-		}
-	},
-	[90882] = {
-		id = 90882,
-		damage = "32 x 4",
-		base = 90880,
-		weapon_id = {
-			90882
-		}
-	},
-	[90883] = {
-		id = 90883,
-		damage = "34 x 4",
-		base = 90880,
-		weapon_id = {
-			90883
-		}
-	},
-	[90884] = {
-		id = 90884,
-		damage = "36 x 4",
-		base = 90880,
-		weapon_id = {
-			90884
 		}
 	}
 }

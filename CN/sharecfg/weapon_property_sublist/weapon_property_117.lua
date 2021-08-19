@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_117 = {}
 
 (function ()
+	uv0.weapon_property_117[64522] = {
+		id = 64522,
+		name = "双海真美口红鱼雷弹幕LV3",
+		damage = 30,
+		base = 64521
+	}
+	uv0.weapon_property_117[64523] = {
+		id = 64523,
+		name = "双海真美口红鱼雷弹幕LV4",
+		damage = 33,
+		base = 64521
+	}
+	uv0.weapon_property_117[64524] = {
+		id = 64524,
+		name = "双海真美口红鱼雷弹幕LV5",
+		damage = 36,
+		base = 64521
+	}
+	uv0.weapon_property_117[64525] = {
+		id = 64525,
+		name = "双海真美口红鱼雷弹幕LV6",
+		damage = 40,
+		base = 64521
+	}
 	uv0.weapon_property_117[64526] = {
 		id = 64526,
 		name = "双海真美口红鱼雷弹幕LV7",
@@ -668,26 +692,6 @@ pg.weapon_property_117 = {}
 	uv0.weapon_property_117[64585] = {
 		id = 64585,
 		damage = 140,
-		base = 64581
-	}
-	uv0.weapon_property_117[64586] = {
-		id = 64586,
-		damage = 160,
-		base = 64581
-	}
-	uv0.weapon_property_117[64587] = {
-		id = 64587,
-		damage = 180,
-		base = 64581
-	}
-	uv0.weapon_property_117[64588] = {
-		id = 64588,
-		damage = 200,
-		base = 64581
-	}
-	uv0.weapon_property_117[64589] = {
-		id = 64589,
-		damage = 220,
 		base = 64581
 	}
 end)()

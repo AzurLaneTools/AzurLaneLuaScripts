@@ -2,6 +2,69 @@ pg = pg or {}
 pg.weapon_property_111 = {}
 
 (function ()
+	uv0.weapon_property_111[64078] = {
+		id = 64078,
+		name = "小天城一技能鱼雷LV8",
+		damage = 105,
+		base = 64071
+	}
+	uv0.weapon_property_111[64079] = {
+		id = 64079,
+		name = "小天城一技能鱼雷LV9",
+		damage = 114,
+		base = 64071
+	}
+	uv0.weapon_property_111[64080] = {
+		id = 64080,
+		name = "小天城一技能鱼雷LV10",
+		damage = 124,
+		base = 64071
+	}
+	uv0.weapon_property_111[64081] = {
+		recover_time = 0.5,
+		name = "小天城二技能鱼雷LV1",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 80,
+		reload_max = 5100,
+		queue = 1,
+		range = 50,
+		damage = 70,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 110,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 64081,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1807
+		},
+		barrage_ID = {
+			81065
+		},
+		oxy_type = {
+			1,
+			2
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_111[64082] = {
 		id = 64082,
 		name = "小天城二技能鱼雷LV2",
@@ -793,29 +856,5 @@ pg.weapon_property_111 = {}
 			time = 0.5,
 			isBound = true
 		}
-	}
-	uv0.weapon_property_111[64202] = {
-		id = 64202,
-		name = "新泽西超重黑蓝弹幕LV2",
-		damage = 93,
-		base = 64201
-	}
-	uv0.weapon_property_111[64203] = {
-		id = 64203,
-		name = "新泽西超重黑蓝弹幕LV3",
-		damage = 104,
-		base = 64201
-	}
-	uv0.weapon_property_111[64204] = {
-		id = 64204,
-		name = "新泽西超重黑蓝弹幕LV4",
-		damage = 115,
-		base = 64201
-	}
-	uv0.weapon_property_111[64205] = {
-		id = 64205,
-		name = "新泽西超重黑蓝弹幕LV5",
-		damage = 126,
-		base = 64201
 	}
 end)()

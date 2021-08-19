@@ -45,10 +45,6 @@ function slot2.getTargetList(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot2.IsHappen(slot0, slot1)
-	return math.random(100) < slot1
-end
-
 function slot2.IsActive(slot0)
 	return slot0._isActive
 end

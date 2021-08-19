@@ -92,11 +92,13 @@ function slot0.OnSelected(slot0)
 		end
 	end
 
-	if slot0.contextData.memoryGroup and pg.memory_group[slot3] then
+	if (slot0.contextData.memoryGroup or slot0.contextData.selectedGroupID) and pg.memory_group[slot3] then
 		slot0:ShowSubMemories(pg.memory_group[slot3])
 	else
 		slot0:MemoryFilter()
 	end
+
+	slot0.contextData.selectedGroupID = nil
 end
 
 function slot0.OnReselected(slot0)

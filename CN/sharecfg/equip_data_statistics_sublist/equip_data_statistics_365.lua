@@ -1,5 +1,89 @@
 pg = pg or {}
 pg.equip_data_statistics_365 = {
+	[85124] = {
+		id = 85124,
+		damage = "8 x 6",
+		base = 85120,
+		weapon_id = {
+			85124
+		}
+	},
+	[85125] = {
+		id = 85125,
+		damage = "9 x 6",
+		base = 85120,
+		weapon_id = {
+			85125
+		}
+	},
+	[85126] = {
+		id = 85126,
+		damage = "10 x 6",
+		base = 85120,
+		weapon_id = {
+			85126
+		}
+	},
+	[85140] = {
+		tech = 2,
+		name = "B-38 三联装152mm主炮Mk5",
+		speciality = "锁定",
+		type = 2,
+		value_2 = 25,
+		ammo = 2,
+		damage = "6 x 6",
+		nationality = 7,
+		rarity = 4,
+		id = 85140,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "85120",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1207
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1207
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85140
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
 	[85141] = {
 		id = 85141,
 		base = 85140,
@@ -152,38 +236,6 @@ pg.equip_data_statistics_365 = {
 		base = 85160,
 		weapon_id = {
 			85162
-		}
-	},
-	[85163] = {
-		id = 85163,
-		damage = "9 x 6",
-		base = 85160,
-		weapon_id = {
-			85163
-		}
-	},
-	[85164] = {
-		id = 85164,
-		damage = "10 x 6",
-		base = 85160,
-		weapon_id = {
-			85164
-		}
-	},
-	[85165] = {
-		id = 85165,
-		damage = "11 x 6",
-		base = 85160,
-		weapon_id = {
-			85165
-		}
-	},
-	[85166] = {
-		id = 85166,
-		damage = "12 x 6",
-		base = 85160,
-		weapon_id = {
-			85166
 		}
 	}
 }

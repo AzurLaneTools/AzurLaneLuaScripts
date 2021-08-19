@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_112 = {}
 
 (function ()
+	uv0.weapon_property_112[64202] = {
+		id = 64202,
+		name = "新泽西超重黑蓝弹幕LV2",
+		damage = 93,
+		base = 64201
+	}
+	uv0.weapon_property_112[64203] = {
+		id = 64203,
+		name = "新泽西超重黑蓝弹幕LV3",
+		damage = 104,
+		base = 64201
+	}
+	uv0.weapon_property_112[64204] = {
+		id = 64204,
+		name = "新泽西超重黑蓝弹幕LV4",
+		damage = 115,
+		base = 64201
+	}
+	uv0.weapon_property_112[64205] = {
+		id = 64205,
+		name = "新泽西超重黑蓝弹幕LV5",
+		damage = 126,
+		base = 64201
+	}
 	uv0.weapon_property_112[64206] = {
 		id = 64206,
 		name = "新泽西超重黑蓝弹幕LV6",
@@ -603,30 +627,6 @@ pg.weapon_property_112 = {}
 		id = 64265,
 		name = "奥丁平射小子弹天运强化LV5",
 		damage = 68,
-		base = 64261
-	}
-	uv0.weapon_property_112[64266] = {
-		id = 64266,
-		name = "奥丁平射小子弹天运强化LV6",
-		damage = 74,
-		base = 64261
-	}
-	uv0.weapon_property_112[64267] = {
-		id = 64267,
-		name = "奥丁平射小子弹天运强化LV7",
-		damage = 80,
-		base = 64261
-	}
-	uv0.weapon_property_112[64268] = {
-		id = 64268,
-		name = "奥丁平射小子弹天运强化LV8",
-		damage = 86,
-		base = 64261
-	}
-	uv0.weapon_property_112[64269] = {
-		id = 64269,
-		name = "奥丁平射小子弹天运强化LV9",
-		damage = 92,
 		base = 64261
 	}
 end)()

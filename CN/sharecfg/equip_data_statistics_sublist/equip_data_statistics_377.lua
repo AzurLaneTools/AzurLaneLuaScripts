@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.equip_data_statistics_377 = {
+	[89100] = {
+		type = 10,
+		name = "玉米灯笼",
+		speciality = "无",
+		tech = 0,
+		value_2 = 50,
+		ammo = 10,
+		descrip = "印着玉米图案的灯笼.......夏色吹雪？！ ",
+		nationality = 105,
+		rarity = 5,
+		attribute_1 = "antisub",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 89100,
+		icon = "89100",
+		value_1 = "9",
+		attribute_2 = "durability",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6510
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89101] = {
+		id = 89101,
+		value_2 = 55,
+		value_1 = "10",
+		base = 89100
+	},
+	[89102] = {
+		id = 89102,
+		value_2 = 60,
+		value_1 = "11",
+		base = 89100
+	},
+	[89103] = {
+		id = 89103,
+		value_2 = 65,
+		value_1 = "12",
+		base = 89100
+	},
 	[89104] = {
 		id = 89104,
 		value_2 = 70,
@@ -106,30 +158,6 @@ pg.equip_data_statistics_377 = {
 		id = 89122,
 		value_2 = 4,
 		value_1 = "127",
-		base = 89120
-	},
-	[89123] = {
-		id = 89123,
-		value_2 = 4,
-		value_1 = "142",
-		base = 89120
-	},
-	[89124] = {
-		id = 89124,
-		value_2 = 5,
-		value_1 = "156",
-		base = 89120
-	},
-	[89125] = {
-		id = 89125,
-		value_2 = 5,
-		value_1 = "171",
-		base = 89120
-	},
-	[89126] = {
-		id = 89126,
-		value_2 = 6,
-		value_1 = "186",
 		base = 89120
 	}
 }

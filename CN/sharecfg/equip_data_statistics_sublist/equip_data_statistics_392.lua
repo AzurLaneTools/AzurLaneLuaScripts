@@ -1,5 +1,40 @@
 pg = pg or {}
 pg.equip_data_statistics_392 = {
+	[90450] = {
+		id = 90450,
+		damage = "120 x 4",
+		base = 90440,
+		weapon_id = {
+			90450
+		}
+	},
+	[90451] = {
+		id = 90451,
+		anti_siren = 100,
+		damage = "120 x 4",
+		base = 90440,
+		weapon_id = {
+			90451
+		}
+	},
+	[90452] = {
+		id = 90452,
+		anti_siren = 200,
+		damage = "120 x 4",
+		base = 90440,
+		weapon_id = {
+			90452
+		}
+	},
+	[90453] = {
+		id = 90453,
+		anti_siren = 300,
+		damage = "120 x 4",
+		base = 90440,
+		weapon_id = {
+			90453
+		}
+	},
 	[90500] = {
 		tech = 1,
 		name = "双联装130mm主炮Mle1935",
@@ -213,40 +248,6 @@ pg.equip_data_statistics_392 = {
 		base = 90600,
 		weapon_id = {
 			90608
-		}
-	},
-	[90609] = {
-		id = 90609,
-		damage = "74/轮",
-		base = 90600,
-		weapon_id = {
-			90609
-		}
-	},
-	[90610] = {
-		id = 90610,
-		damage = "78/轮",
-		base = 90600,
-		weapon_id = {
-			90610
-		}
-	},
-	[90611] = {
-		id = 90611,
-		anti_siren = 100,
-		damage = "78/轮",
-		base = 90600,
-		weapon_id = {
-			90611
-		}
-	},
-	[90612] = {
-		id = 90612,
-		anti_siren = 200,
-		damage = "78/轮",
-		base = 90600,
-		weapon_id = {
-			90612
 		}
 	}
 }

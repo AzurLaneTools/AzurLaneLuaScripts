@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_346 = {
+	[71017] = {
+		id = 71017,
+		name = "全弹发射-部族级II",
+		base = 71016,
+		weapon_id = {
+			71017
+		}
+	},
+	[71111] = {
+		type = 1,
+		name = "全弹发射-利安得级I",
+		speciality = "无",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 71111,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			71111
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[71112] = {
 		id = 71112,
 		name = "全弹发射-利安得级II",
@@ -335,53 +382,6 @@ pg.equip_data_statistics_346 = {
 		base = 71181,
 		weapon_id = {
 			71182
-		}
-	},
-	[71211] = {
-		type = 1,
-		name = "全弹发射-伦敦级I",
-		speciality = "无",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能弹幕",
-		id = 71211,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			71211
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[71212] = {
-		id = 71212,
-		name = "全弹发射-伦敦级II",
-		base = 71211,
-		weapon_id = {
-			71212
 		}
 	}
 }

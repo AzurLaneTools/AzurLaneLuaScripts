@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_348 = {
+	[72052] = {
+		id = 72052,
+		name = "全弹发射-阳炎级II",
+		base = 72051,
+		weapon_id = {
+			72052
+		}
+	},
+	[72056] = {
+		type = 1,
+		name = "全弹发射-夕云级I",
+		speciality = "无",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 72056,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			72056
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[72057] = {
 		id = 72057,
 		name = "全弹发射-夕云级II",
@@ -335,53 +382,6 @@ pg.equip_data_statistics_348 = {
 		base = 72131,
 		weapon_id = {
 			72132
-		}
-	},
-	[72141] = {
-		type = 1,
-		name = "全弹发射-长良级I",
-		speciality = "无",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能弹幕",
-		id = 72141,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			72141
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[72142] = {
-		id = 72142,
-		name = "全弹发射-长良级II",
-		base = 72141,
-		weapon_id = {
-			72142
 		}
 	}
 }

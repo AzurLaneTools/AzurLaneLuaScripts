@@ -82,17 +82,19 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>天海春香</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>英格拉罕</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>如月千早</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>无畏</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>水濑伊织</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>里诺</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>三浦 梓</color>：0.5%",
+			"<color=#ffde38>布莱默顿</color>：0.5%",
 			" ",
-			"<color=#d797ff>双海真美</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>鹦鹉螺</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>双海亚美</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>库珀</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#3dc6ff>马布尔黑德</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

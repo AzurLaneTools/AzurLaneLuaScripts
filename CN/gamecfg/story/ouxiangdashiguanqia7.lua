@@ -393,9 +393,8 @@ return {
 		},
 		{
 			actor = 10700030,
-			nameColor = "#a9f548",
 			side = 2,
-			hidePaintEquip = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "当然！如果不打赢的话别说前进了，就连港区都回不去，不是吗？",
 			typewriter = {

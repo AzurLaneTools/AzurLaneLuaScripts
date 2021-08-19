@@ -61,10 +61,10 @@ end
 
 function slot3.onTrigger(slot0, slot1, slot2, slot3)
 	uv0.super.onTrigger(slot0, slot1, slot2, slot3)
-	slot0:AddBuff(slot1)
+	slot0:AddBuff(slot1, slot3)
 end
 
-function slot3.AddBuff(slot0, slot1)
+function slot3.AddBuff(slot0, slot1, slot2)
 	if not slot0:commanderRequire(slot1, slot0._tempData.arg_list) then
 		return
 	end
@@ -74,22 +74,24 @@ function slot3.AddBuff(slot0, slot1)
 	end
 
 	if slot0._check_target then
-		if slot0._minTargetNumber <= #slot0:getTargetList(slot1, slot0._check_target, slot0._tempData.arg_list) and slot3 <= slot0._maxTargetNumber then
-			slot8 = slot0._tempData.arg_list
+		if slot0._minTargetNumber <= #slot0:getTargetList(slot1, slot0._check_target, slot0._tempData.arg_list, slot2) and slot4 <= slot0._maxTargetNumber then
+			slot9 = slot0._tempData.arg_list
+			slot10 = slot2
 
-			for slot8, slot9 in ipairs(slot0:getTargetList(slot1, slot0._target, slot8)) do
+			for slot9, slot10 in ipairs(slot0:getTargetList(slot1, slot0._target, slot9, slot10)) do
 				if slot0._isBuffStackByCheckTarget then
-					slot9:SetBuffStack(slot0._buff_id, slot0._level, slot3)
+					slot10:SetBuffStack(slot0._buff_id, slot0._level, slot4)
 				else
-					slot0:attachBuff(slot0._buff_id, slot0._level, slot9)
+					slot0:attachBuff(slot0._buff_id, slot0._level, slot10)
 				end
 			end
 		end
 	else
-		slot6 = slot0._tempData.arg_list
+		slot7 = slot0._tempData.arg_list
+		slot8 = slot2
 
-		for slot6, slot7 in ipairs(slot0:getTargetList(slot1, slot0._target, slot6)) do
-			slot0:attachBuff(slot0._buff_id, slot0._level, slot7)
+		for slot7, slot8 in ipairs(slot0:getTargetList(slot1, slot0._target, slot7, slot8)) do
+			slot0:attachBuff(slot0._buff_id, slot0._level, slot8)
 		end
 	end
 end

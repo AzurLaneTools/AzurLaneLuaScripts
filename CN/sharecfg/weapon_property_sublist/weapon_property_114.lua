@@ -2,6 +2,65 @@ pg = pg or {}
 pg.weapon_property_114 = {}
 
 (function ()
+	uv0.weapon_property_114[64330] = {
+		id = 64330,
+		damage = 432,
+		base = 64321
+	}
+	uv0.weapon_property_114[64331] = {
+		recover_time = 0,
+		name = "2 x 机载鱼雷-重樱（彩云）",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = -10,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 25,
+		reload_max = 9500,
+		queue = 1,
+		range = 80,
+		damage = 52,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 64331,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			2112
+		},
+		barrage_ID = {
+			2141
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_114[64332] = {
+		id = 64332,
+		damage = 72,
+		base = 64331
+	}
+	uv0.weapon_property_114[64333] = {
+		id = 64333,
+		damage = 92,
+		base = 64331
+	}
 	uv0.weapon_property_114[64334] = {
 		id = 64334,
 		damage = 113,
@@ -629,32 +688,5 @@ pg.weapon_property_114 = {}
 		name = "埃吉尔技能跨射子弹Lv3",
 		damage = 40,
 		base = 64391
-	}
-	uv0.weapon_property_114[64394] = {
-		id = 64394,
-		name = "埃吉尔技能跨射子弹Lv4",
-		damage = 42,
-		base = 64391
-	}
-	uv0.weapon_property_114[64395] = {
-		id = 64395,
-		name = "埃吉尔技能跨射子弹Lv5",
-		damage = 46,
-		base = 64391
-	}
-	uv0.weapon_property_114[64396] = {
-		id = 64396,
-		name = "埃吉尔技能跨射子弹Lv6",
-		damage = 48,
-		base = 64391
-	}
-	uv0.weapon_property_114[64397] = {
-		id = 64397,
-		name = "埃吉尔技能跨射子弹Lv7",
-		damage = 50,
-		base = 64391,
-		barrage_ID = {
-			81127
-		}
 	}
 end)()

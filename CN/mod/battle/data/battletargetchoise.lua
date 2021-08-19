@@ -637,3 +637,17 @@ function slot2.TargetPlayerAidUnit(slot0, slot1)
 
 	return slot3
 end
+
+function slot2.TargetDamageSource(slot0, slot1, slot2)
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot2 or uv0.TargetAllFoe(slot0)) do
+		if slot9:GetUniqueID() == slot1.damageSourceID then
+			table.insert(slot4, slot9)
+
+			break
+		end
+	end
+
+	return slot4
+end

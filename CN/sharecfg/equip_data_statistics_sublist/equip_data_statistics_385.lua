@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_385 = {
+	[89290] = {
+		id = 89290,
+		value_2 = 25,
+		value_1 = "15",
+		base = 89280
+	},
+	[89291] = {
+		value_2 = 26,
+		anti_siren = 100,
+		base = 89280,
+		id = 89291,
+		value_1 = "16"
+	},
+	[89292] = {
+		value_2 = 27,
+		anti_siren = 200,
+		base = 89280,
+		id = 89292,
+		value_1 = "17"
+	},
+	[89293] = {
+		value_2 = 28,
+		anti_siren = 300,
+		base = 89280,
+		id = 89293,
+		value_1 = "18"
+	},
 	[90000] = {
 		tech = 1,
 		name = "130mm单装炮Mle1924",
@@ -274,96 +301,6 @@ pg.equip_data_statistics_385 = {
 		base = 90040,
 		weapon_id = {
 			90044
-		}
-	},
-	[90045] = {
-		id = 90045,
-		damage = "7 x 5",
-		base = 90040,
-		weapon_id = {
-			90045
-		}
-	},
-	[90046] = {
-		id = 90046,
-		damage = "8 x 5",
-		base = 90040,
-		weapon_id = {
-			90046
-		}
-	},
-	[90047] = {
-		id = 90047,
-		damage = "8 x 5",
-		base = 90040,
-		weapon_id = {
-			90047
-		}
-	},
-	[90100] = {
-		tech = 1,
-		name = "138.6mm单装炮Mle1929",
-		speciality = "锁定",
-		type = 1,
-		value_2 = 12,
-		ammo = 3,
-		damage = "4 x 5",
-		nationality = 8,
-		rarity = 3,
-		id = 90100,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "50100",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90100
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
 		}
 	}
 }

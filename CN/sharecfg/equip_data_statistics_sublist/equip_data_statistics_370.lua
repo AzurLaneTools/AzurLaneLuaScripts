@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_370 = {
+	[85328] = {
+		id = 85328,
+		damage = "129 x 3",
+		base = 85320,
+		weapon_id = {
+			85328
+		}
+	},
+	[85329] = {
+		id = 85329,
+		damage = "139 x 3",
+		base = 85320,
+		weapon_id = {
+			85329
+		}
+	},
+	[85330] = {
+		id = 85330,
+		damage = "149 x 3",
+		base = 85320,
+		weapon_id = {
+			85330
+		}
+	},
+	[85360] = {
+		tech = 1,
+		name = "B-34 100mm双联装防空炮MZ-14",
+		speciality = "防空",
+		type = 6,
+		value_2 = 5,
+		ammo = 5,
+		damage = "14/轮",
+		nationality = 7,
+		rarity = 2,
+		id = 85360,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85360
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
 	[85361] = {
 		id = 85361,
 		damage = "16/轮",
@@ -210,38 +296,6 @@ pg.equip_data_statistics_370 = {
 		base = 85400,
 		weapon_id = {
 			85402
-		}
-	},
-	[85403] = {
-		id = 85403,
-		damage = "53/轮",
-		base = 85400,
-		weapon_id = {
-			85403
-		}
-	},
-	[85404] = {
-		id = 85404,
-		damage = "59/轮",
-		base = 85400,
-		weapon_id = {
-			85404
-		}
-	},
-	[85405] = {
-		id = 85405,
-		damage = "65/轮",
-		base = 85400,
-		weapon_id = {
-			85405
-		}
-	},
-	[85406] = {
-		id = 85406,
-		damage = "71/轮",
-		base = 85400,
-		weapon_id = {
-			85406
 		}
 	}
 }

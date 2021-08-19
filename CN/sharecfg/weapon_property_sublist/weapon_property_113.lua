@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_113 = {}
 
 (function ()
+	uv0.weapon_property_113[64266] = {
+		id = 64266,
+		name = "奥丁平射小子弹天运强化LV6",
+		damage = 74,
+		base = 64261
+	}
+	uv0.weapon_property_113[64267] = {
+		id = 64267,
+		name = "奥丁平射小子弹天运强化LV7",
+		damage = 80,
+		base = 64261
+	}
+	uv0.weapon_property_113[64268] = {
+		id = 64268,
+		name = "奥丁平射小子弹天运强化LV8",
+		damage = 86,
+		base = 64261
+	}
+	uv0.weapon_property_113[64269] = {
+		id = 64269,
+		name = "奥丁平射小子弹天运强化LV9",
+		damage = 92,
+		base = 64261
+	}
 	uv0.weapon_property_113[64270] = {
 		id = 64270,
 		name = "奥丁平射小子弹天运强化LV10",
@@ -654,64 +678,5 @@ pg.weapon_property_113 = {}
 		id = 64329,
 		damage = 412,
 		base = 64321
-	}
-	uv0.weapon_property_113[64330] = {
-		id = 64330,
-		damage = 432,
-		base = 64321
-	}
-	uv0.weapon_property_113[64331] = {
-		recover_time = 0,
-		name = "2 x 机载鱼雷-重樱（彩云）",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = -10,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 25,
-		reload_max = 9500,
-		queue = 1,
-		range = 80,
-		damage = 52,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 64331,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			2112
-		},
-		barrage_ID = {
-			2141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_113[64332] = {
-		id = 64332,
-		damage = 72,
-		base = 64331
-	}
-	uv0.weapon_property_113[64333] = {
-		id = 64333,
-		damage = 92,
-		base = 64331
 	}
 end)()

@@ -286,7 +286,8 @@ function slot8(slot0, slot1)
 		slot0._window.sizeDelta = Vector2(slot1.windowSize.x or slot0._defaultSize.x, slot1.windowSize.y or slot0._defaultSize.y)
 	end
 
-	slot3 = 1
+	slot3 = slot0._sigleItemPanel:Find("intro_view/Text")
+	slot4 = 1
 
 	SetActive(slot0._sigleItemPanel:Find("intro_view/Viewport/Content/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN)
 	setActive(slot0._countDescTxt, slot0.settings.numUpdate ~= nil)
@@ -295,12 +296,12 @@ function slot8(slot0, slot1)
 	slot0._singleItemshipTypeTF:SetSiblingIndex(1)
 	setActive(slot0._singleItemshipTypeBgTF, isActive(slot0._singleItemshipTypeTF))
 
-	slot7 = slot1.drop.type == DROP_TYPE_ITEM and slot1.drop.cfg.type == 11
+	slot8 = slot1.drop.type == DROP_TYPE_ITEM and slot1.drop.cfg.type == 11
 
-	setActive(slot0._sigleItemPanel:Find("detail"), slot7)
+	setActive(slot0._sigleItemPanel:Find("detail"), slot8)
 
-	if slot7 then
-		slot6:GetComponent("RichText"):AddListener(function (slot0, slot1)
+	if slot8 then
+		slot7:GetComponent("RichText"):AddListener(function (slot0, slot1)
 			slot2 = {
 				items = _.map(uv0.drop.cfg.display_icon, function (slot0)
 					return {
@@ -341,22 +342,22 @@ function slot8(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
 		setText(slot2, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
-		slot9, slot10, slot11 = ShipWordHelper.GetWordAndCV(uv2.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
+		slot10, slot11, slot12 = ShipWordHelper.GetWordAndCV(uv2.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
-		setText(slot2, slot11 or i18n("ship_drop_desc_default"))
+		setText(slot2, slot12 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_NPC_SHIP then
-		slot9, slot10, slot11 = ShipWordHelper.GetWordAndCV(slot1.drop.cfg.skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
+		slot10, slot11, slot12 = ShipWordHelper.GetWordAndCV(slot1.drop.cfg.skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
-		setText(slot2, slot11 or i18n("ship_drop_desc_default"))
+		setText(slot2, slot12 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
 		-- Nothing
 	elseif slot1.drop.type == DROP_TYPE_STRATEGY then
 		setText(slot2, HXSet.hxLan(slot1.drop.cfg.desc))
 
 		if slot1.extendDesc then
-			slot0.singleItemIntros[slot3] = slot0.singleItemIntros[slot3 + 1] or cloneTplTo(slot0.singleItemIntro, slot0.singleItemIntro.parent)
+			slot0.singleItemIntros[slot4] = slot0.singleItemIntros[slot4 + 1] or cloneTplTo(slot0.singleItemIntro, slot0.singleItemIntro.parent)
 
-			setText(slot0.singleItemIntros[slot3], slot1.extendDesc)
+			setText(slot0.singleItemIntros[slot4], slot1.extendDesc)
 		end
 	elseif slot1.drop.type == DROP_TYPE_SKIN then
 		setText(slot2, HXSet.hxLan(slot1.drop.cfg.desc))
@@ -369,10 +370,10 @@ function slot8(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_WORLD_ITEM then
 		setText(slot2, HXSet.hxLan(slot1.drop.cfg.display))
 	elseif slot1.drop.type == DROP_TYPE_WORLD_COLLECTION then
-		slot9 = WorldCollectionProxy.GetCollectionType(slot1.drop.id) == WorldCollectionProxy.WorldCollectionType.FILE and "file" or "record"
+		slot10 = WorldCollectionProxy.GetCollectionType(slot1.drop.id) == WorldCollectionProxy.WorldCollectionType.FILE and "file" or "record"
 
-		setText(slot2, i18n("world_" .. slot9 .. "_desc", slot1.drop.cfg.name))
-		setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), i18n("world_" .. slot9 .. "_name", slot1.drop.cfg.name))
+		setText(slot2, i18n("world_" .. slot10 .. "_desc", slot1.drop.cfg.name))
+		setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), i18n("world_" .. slot10 .. "_name", slot1.drop.cfg.name))
 	elseif slot1.drop.type == DROP_TYPE_ICON_FRAME then
 		setText(slot2, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_CHAT_FRAME then
@@ -385,17 +386,19 @@ function slot8(slot0, slot1)
 		setText(slot2, slot1.intro)
 	end
 
-	if slot1.enabelYesBtn ~= nil then
-		slot8 = slot0._btnContainer:GetChild(1)
+	setText(slot3, slot1.subIntro or "")
 
-		setButtonEnabled(slot8, slot1.enabelYesBtn)
-		eachChild(slot8, function (slot0)
+	if slot1.enabelYesBtn ~= nil then
+		slot9 = slot0._btnContainer:GetChild(1)
+
+		setButtonEnabled(slot9, slot1.enabelYesBtn)
+		eachChild(slot9, function (slot0)
 			GetOrAddComponent(slot0, typeof(CanvasGroup)).alpha = uv0.enabelYesBtn and 1 or 0.3
 		end)
 	end
 
-	for slot11, slot12 in ipairs(slot0.singleItemIntros) do
-		setActive(slot12, slot11 <= slot3 and slot4 == nil)
+	for slot12, slot13 in ipairs(slot0.singleItemIntros) do
+		setActive(slot13, slot12 <= slot4 and slot5 == nil)
 	end
 
 	if slot1.show_medal then

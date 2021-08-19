@@ -2,6 +2,94 @@ pg = pg or {}
 pg.weapon_property_116 = {}
 
 (function ()
+	uv0.weapon_property_116[64458] = {
+		id = 64458,
+		name = "马可波罗技能·小子弹-跨队伤害增幅LV8",
+		damage = 22,
+		base = 64451,
+		bullet_ID = {
+			19325,
+			19325
+		},
+		barrage_ID = {
+			81134,
+			81135
+		}
+	}
+	uv0.weapon_property_116[64459] = {
+		id = 64459,
+		name = "马可波罗技能·小子弹-跨队伤害增幅LV9",
+		damage = 23,
+		base = 64451,
+		bullet_ID = {
+			19325,
+			19325
+		},
+		barrage_ID = {
+			81134,
+			81135
+		}
+	}
+	uv0.weapon_property_116[64460] = {
+		id = 64460,
+		name = "马可波罗技能·小子弹-跨队伤害增幅LV10",
+		damage = 25,
+		base = 64451,
+		bullet_ID = {
+			19325,
+			19325
+		},
+		barrage_ID = {
+			81134,
+			81135
+		}
+	}
+	uv0.weapon_property_116[64461] = {
+		recover_time = 0.5,
+		name = "春香弹幕粉色imas徽章LV1",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1750,
+		queue = 1,
+		range = 200,
+		damage = 11,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 64461,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19328,
+			19328
+		},
+		barrage_ID = {
+			81141,
+			81142
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_116[64462] = {
 		id = 64462,
 		name = "春香弹幕粉色imas徽章LV2",
@@ -659,29 +747,5 @@ pg.weapon_property_116 = {}
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_116[64522] = {
-		id = 64522,
-		name = "双海真美口红鱼雷弹幕LV3",
-		damage = 30,
-		base = 64521
-	}
-	uv0.weapon_property_116[64523] = {
-		id = 64523,
-		name = "双海真美口红鱼雷弹幕LV4",
-		damage = 33,
-		base = 64521
-	}
-	uv0.weapon_property_116[64524] = {
-		id = 64524,
-		name = "双海真美口红鱼雷弹幕LV5",
-		damage = 36,
-		base = 64521
-	}
-	uv0.weapon_property_116[64525] = {
-		id = 64525,
-		name = "双海真美口红鱼雷弹幕LV6",
-		damage = 40,
-		base = 64521
 	}
 end)()

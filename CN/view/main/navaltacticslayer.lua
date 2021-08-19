@@ -139,7 +139,7 @@ function slot0.updateLockStudentPos(slot0, slot1, slot2)
 			slot4 = slot2.resource_num
 			slot5, slot6 = nil
 
-			if slot2.discount ~= 0 and (table.getCount(slot2.discount_time) == 0 or pg.TimeMgr.GetInstance():inTime(slot2.discount_time)) then
+			if slot2.discount ~= 0 and type(slot2.discount_time) == "table" and (table.getCount(slot2.discount_time) == 0 or pg.TimeMgr.GetInstance():inTime(slot2.discount_time)) then
 				slot7, slot8 = unpack(slot2.discount_time)
 				slot11, slot12, slot13 = unpack(slot7[1])
 				slot14, slot15, slot16 = unpack(slot8[1])

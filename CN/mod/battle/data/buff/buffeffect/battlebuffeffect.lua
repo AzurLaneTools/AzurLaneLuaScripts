@@ -573,20 +573,24 @@ function slot2.Clear(slot0)
 	slot0._commander = nil
 end
 
-function slot2.getTargetList(slot0, slot1, slot2, slot3)
+function slot2.getTargetList(slot0, slot1, slot2, slot3, slot4)
 	if type(slot2) == "string" then
-		if uv0.Battle.BattleTargetChoise[slot2] == nil then
-			return slot0:GetListByAttr(slot1, slot2)
-		else
-			return uv0.Battle.BattleTargetChoise[slot2](slot1, slot3)
-		end
-	elseif type(slot2) == "table" then
-		for slot8, slot9 in ipairs(slot2) do
-			slot4 = uv0.Battle.BattleTargetChoise[slot9](slot1, slot3, nil)
-		end
-
-		return slot4
+		slot2 = {
+			slot2
+		}
 	end
+
+	slot5 = slot3
+
+	if table.contains(slot2, "TargetDamageSource") then
+		Clone(slot3).damageSourceID = slot4.damageSrc
+	end
+
+	for slot10, slot11 in ipairs(slot2) do
+		slot6 = uv0.Battle.BattleTargetChoise[slot11](slot1, slot5, nil)
+	end
+
+	return slot6
 end
 
 function slot2.commanderRequire(slot0, slot1)
@@ -605,39 +609,6 @@ function slot2.commanderRequire(slot0, slot1)
 	else
 		return true
 	end
-end
-
-function slot2.GetListByAttr(slot0, slot1, slot2)
-	slot3 = slot2:split("_")
-	slot4 = slot3[1]
-	slot5 = slot3[2]
-	slot6 = slot3[3]
-	slot8 = {}
-
-	if slot3[4] == "Help" then
-		slot8 = uv0.Battle.BattleTargetChoise.TargetAllHelp(slot1)
-	elseif slot7 == "Harm" then
-		slot8 = uv0.Battle.BattleTargetChoise.TargetAllHarm(slot1)
-	end
-
-	table.sort(slot8, function (slot0, slot1)
-		if uv0 == "H" and #uv1 > 1 then
-			return slot1._attr[uv2] < slot0._attr[uv2]
-		elseif uv0 == "L" and #uv1 > 1 then
-			return slot0._attr[uv2] < slot1._attr[uv2]
-		end
-	end)
-
-	for slot13 = 1, slot6 do
-	end
-
-	return {
-		[slot13] = slot8[slot13]
-	}
-end
-
-function slot2.IsHappen(slot0, slot1)
-	return math.random(100) < slot1
 end
 
 function slot2.IsActive(slot0)

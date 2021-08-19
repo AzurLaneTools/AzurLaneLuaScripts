@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_371 = {
+	[85403] = {
+		id = 85403,
+		damage = "53/轮",
+		base = 85400,
+		weapon_id = {
+			85403
+		}
+	},
+	[85404] = {
+		id = 85404,
+		damage = "59/轮",
+		base = 85400,
+		weapon_id = {
+			85404
+		}
+	},
+	[85405] = {
+		id = 85405,
+		damage = "65/轮",
+		base = 85400,
+		weapon_id = {
+			85405
+		}
+	},
+	[85406] = {
+		id = 85406,
+		damage = "71/轮",
+		base = 85400,
+		weapon_id = {
+			85406
+		}
+	},
 	[85407] = {
 		id = 85407,
 		damage = "77/轮",
@@ -148,89 +180,6 @@ pg.equip_data_statistics_371 = {
 		base = 85420,
 		weapon_id = {
 			85427
-		}
-	},
-	[85440] = {
-		tech = 3,
-		name = "双联装152mm主炮Model1892",
-		speciality = "锁定",
-		type = 2,
-		value_2 = 12,
-		ammo = 3,
-		damage = "8 x 4",
-		nationality = 7,
-		rarity = 3,
-		id = 85440,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "85440",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1001
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1001
-			},
-			{
-				4,
-				1101
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85440
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG"
-		}
-	},
-	[85441] = {
-		id = 85441,
-		damage = "9 x 4",
-		base = 85440,
-		weapon_id = {
-			85441
-		}
-	},
-	[85442] = {
-		id = 85442,
-		damage = "10 x 4",
-		base = 85440,
-		weapon_id = {
-			85442
-		}
-	},
-	[85443] = {
-		id = 85443,
-		damage = "11 x 4",
-		base = 85440,
-		weapon_id = {
-			85443
 		}
 	}
 }

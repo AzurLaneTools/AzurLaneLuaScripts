@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_367 = {
+	[85202] = {
+		id = 85202,
+		damage = "16/轮",
+		base = 85200,
+		weapon_id = {
+			85202
+		}
+	},
+	[85203] = {
+		id = 85203,
+		damage = "19/轮",
+		base = 85200,
+		weapon_id = {
+			85203
+		}
+	},
+	[85204] = {
+		id = 85204,
+		damage = "22/轮",
+		base = 85200,
+		weapon_id = {
+			85204
+		}
+	},
+	[85205] = {
+		id = 85205,
+		damage = "25/轮",
+		base = 85200,
+		weapon_id = {
+			85205
+		}
+	},
 	[85206] = {
 		id = 85206,
 		damage = "28/轮",
@@ -157,92 +189,6 @@ pg.equip_data_statistics_367 = {
 		base = 85220,
 		weapon_id = {
 			85231
-		}
-	},
-	[85260] = {
-		tech = 2,
-		name = "B-54 100mm双联装防空炮",
-		speciality = "防空",
-		type = 6,
-		value_2 = 12,
-		ammo = 5,
-		damage = "36/轮",
-		nationality = 7,
-		rarity = 3,
-		id = 85260,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "85240",
-		attribute_2 = "antiaircraft",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85260
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85261] = {
-		id = 85261,
-		damage = "41/轮",
-		base = 85260,
-		weapon_id = {
-			85261
-		}
-	},
-	[85262] = {
-		id = 85262,
-		damage = "47/轮",
-		base = 85260,
-		weapon_id = {
-			85262
-		}
-	},
-	[85263] = {
-		id = 85263,
-		damage = "52/轮",
-		base = 85260,
-		weapon_id = {
-			85263
 		}
 	}
 }

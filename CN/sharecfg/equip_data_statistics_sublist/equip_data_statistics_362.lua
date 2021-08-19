@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_362 = {
+	[79672] = {
+		id = 79672,
+		name = "专属弹幕-U37II",
+		base = 79671,
+		weapon_id = {
+			79672
+		}
+	},
+	[79681] = {
+		type = 1,
+		name = "专属弹幕-基洛夫I",
+		speciality = "无",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 79681,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60611
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[79682] = {
 		id = 79682,
 		name = "专属弹幕-基洛夫II",
@@ -335,79 +382,6 @@ pg.equip_data_statistics_362 = {
 		base = 79751,
 		weapon_id = {
 			60662
-		}
-	},
-	[85000] = {
-		tech = 1,
-		name = "B-13 双联装130mm主炮B-2LM",
-		speciality = "锁定",
-		type = 1,
-		value_2 = 12,
-		ammo = 3,
-		damage = "3 x 6",
-		nationality = 7,
-		rarity = 3,
-		id = 85000,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "北方联合开发的双联装130mm舰炮，拥有出色的对海性能",
-		icon = "85000",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1700
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1700
-			},
-			{
-				4,
-				1024
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85000
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"DD",
-			"MG"
-		}
-	},
-	[85001] = {
-		id = 85001,
-		base = 85000,
-		weapon_id = {
-			85001
 		}
 	}
 }

@@ -1,5 +1,95 @@
 pg = pg or {}
 pg.equip_data_statistics_386 = {
+	[90045] = {
+		id = 90045,
+		damage = "7 x 5",
+		base = 90040,
+		weapon_id = {
+			90045
+		}
+	},
+	[90046] = {
+		id = 90046,
+		damage = "8 x 5",
+		base = 90040,
+		weapon_id = {
+			90046
+		}
+	},
+	[90047] = {
+		id = 90047,
+		damage = "8 x 5",
+		base = 90040,
+		weapon_id = {
+			90047
+		}
+	},
+	[90100] = {
+		tech = 1,
+		name = "138.6mm单装炮Mle1929",
+		speciality = "锁定",
+		type = 1,
+		value_2 = 12,
+		ammo = 3,
+		damage = "4 x 5",
+		nationality = 8,
+		rarity = 3,
+		id = 90100,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "50100",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1021
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90100
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
 	[90101] = {
 		id = 90101,
 		base = 90100,
@@ -160,38 +250,6 @@ pg.equip_data_statistics_386 = {
 		base = 90120,
 		weapon_id = {
 			90126
-		}
-	},
-	[90127] = {
-		id = 90127,
-		damage = "11 x 5",
-		base = 90120,
-		weapon_id = {
-			90127
-		}
-	},
-	[90128] = {
-		id = 90128,
-		damage = "12 x 5",
-		base = 90120,
-		weapon_id = {
-			90128
-		}
-	},
-	[90129] = {
-		id = 90129,
-		damage = "13 x 5",
-		base = 90120,
-		weapon_id = {
-			90129
-		}
-	},
-	[90130] = {
-		id = 90130,
-		damage = "14 x 5",
-		base = 90120,
-		weapon_id = {
-			90130
 		}
 	}
 }

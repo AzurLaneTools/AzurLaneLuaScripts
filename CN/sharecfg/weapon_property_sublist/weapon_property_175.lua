@@ -2,6 +2,387 @@ pg = pg or {}
 pg.weapon_property_175 = {}
 
 (function ()
+	uv0.weapon_property_175[69476] = {
+		id = 69476,
+		name = "贝亚恩鱼雷LV6",
+		damage = 66,
+		base = 69471
+	}
+	uv0.weapon_property_175[69477] = {
+		id = 69477,
+		name = "贝亚恩鱼雷LV7",
+		damage = 72,
+		base = 69471
+	}
+	uv0.weapon_property_175[69478] = {
+		id = 69478,
+		name = "贝亚恩鱼雷LV8",
+		damage = 79,
+		base = 69471
+	}
+	uv0.weapon_property_175[69479] = {
+		id = 69479,
+		name = "贝亚恩鱼雷LV9",
+		damage = 87,
+		base = 69471
+	}
+	uv0.weapon_property_175[69480] = {
+		id = 69480,
+		name = "贝亚恩鱼雷LV10",
+		damage = 96,
+		base = 69471
+	}
+	uv0.weapon_property_175[69481] = {
+		recover_time = 0.5,
+		name = "小光辉技能鱼雷机Lv1",
+		shakescreen = 0,
+		type = 10,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 10,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 2490,
+		queue = 1,
+		range = 90,
+		damage = 68,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 69481,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			69481
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_175[69482] = {
+		id = 69482,
+		name = "小光辉技能鱼雷机Lv2",
+		damage = 86,
+		base = 69481,
+		bullet_ID = {
+			69482
+		}
+	}
+	uv0.weapon_property_175[69483] = {
+		id = 69483,
+		name = "小光辉技能鱼雷机Lv3",
+		damage = 106,
+		base = 69481,
+		bullet_ID = {
+			69483
+		}
+	}
+	uv0.weapon_property_175[69484] = {
+		id = 69484,
+		name = "小光辉技能鱼雷机Lv4",
+		damage = 124,
+		base = 69481,
+		bullet_ID = {
+			69484
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_175[69485] = {
+		id = 69485,
+		name = "小光辉技能鱼雷机Lv5",
+		damage = 144,
+		base = 69481,
+		bullet_ID = {
+			69485
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_175[69486] = {
+		id = 69486,
+		name = "小光辉技能鱼雷机Lv6",
+		damage = 164,
+		base = 69481,
+		bullet_ID = {
+			69486
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_175[69487] = {
+		id = 69487,
+		name = "小光辉技能鱼雷机Lv7",
+		damage = 182,
+		base = 69481,
+		bullet_ID = {
+			69487
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_175[69488] = {
+		id = 69488,
+		name = "小光辉技能鱼雷机Lv8",
+		damage = 202,
+		base = 69481,
+		bullet_ID = {
+			69488
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_175[69489] = {
+		id = 69489,
+		name = "小光辉技能鱼雷机Lv9",
+		damage = 220,
+		base = 69481,
+		bullet_ID = {
+			69489
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_175[69490] = {
+		id = 69490,
+		name = "小光辉技能鱼雷机Lv10",
+		damage = 240,
+		base = 69481,
+		bullet_ID = {
+			69490
+		},
+		barrage_ID = {
+			12010
+		}
+	}
+	uv0.weapon_property_175[69491] = {
+		recover_time = 0,
+		name = "2 x  机载鱼雷-小光辉",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 24,
+		reload_max = 9500,
+		queue = 1,
+		range = 75,
+		damage = 68,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 69491,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19144
+		},
+		barrage_ID = {
+			2111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_175[69492] = {
+		id = 69492,
+		damage = 86,
+		base = 69491
+	}
+	uv0.weapon_property_175[69493] = {
+		id = 69493,
+		damage = 106,
+		base = 69491
+	}
+	uv0.weapon_property_175[69494] = {
+		id = 69494,
+		damage = 124,
+		base = 69491
+	}
+	uv0.weapon_property_175[69495] = {
+		id = 69495,
+		damage = 144,
+		base = 69491
+	}
+	uv0.weapon_property_175[69496] = {
+		id = 69496,
+		damage = 164,
+		base = 69491
+	}
+	uv0.weapon_property_175[69497] = {
+		id = 69497,
+		damage = 182,
+		base = 69491
+	}
+	uv0.weapon_property_175[69498] = {
+		id = 69498,
+		damage = 202,
+		base = 69491
+	}
+	uv0.weapon_property_175[69499] = {
+		id = 69499,
+		damage = 220,
+		base = 69491
+	}
+	uv0.weapon_property_175[69500] = {
+		id = 69500,
+		damage = 240,
+		base = 69491
+	}
+	uv0.weapon_property_175[69501] = {
+		recover_time = 0.5,
+		name = "小光辉技能圣光飞机Lv1",
+		shakescreen = 0,
+		type = 10,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 10,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 2490,
+		queue = 1,
+		range = 90,
+		damage = 51,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 69501,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			69501
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_175[69502] = {
+		id = 69502,
+		name = "小光辉技能圣光飞机Lv2",
+		damage = 52,
+		base = 69501,
+		bullet_ID = {
+			69502
+		}
+	}
+	uv0.weapon_property_175[69503] = {
+		id = 69503,
+		name = "小光辉技能圣光飞机Lv3",
+		damage = 54,
+		base = 69501,
+		bullet_ID = {
+			69503
+		}
+	}
+	uv0.weapon_property_175[69504] = {
+		id = 69504,
+		name = "小光辉技能圣光飞机Lv4",
+		damage = 57,
+		base = 69501,
+		bullet_ID = {
+			69504
+		}
+	}
+	uv0.weapon_property_175[69505] = {
+		id = 69505,
+		name = "小光辉技能圣光飞机Lv5",
+		damage = 61,
+		base = 69501,
+		bullet_ID = {
+			69505
+		}
+	}
+	uv0.weapon_property_175[69506] = {
+		id = 69506,
+		name = "小光辉技能圣光飞机Lv6",
+		damage = 66,
+		base = 69501,
+		bullet_ID = {
+			69506
+		}
+	}
+	uv0.weapon_property_175[69507] = {
+		id = 69507,
+		name = "小光辉技能圣光飞机Lv7",
+		damage = 72,
+		base = 69501,
+		bullet_ID = {
+			69507
+		}
+	}
+	uv0.weapon_property_175[69508] = {
+		id = 69508,
+		name = "小光辉技能圣光飞机Lv8",
+		damage = 79,
+		base = 69501,
+		bullet_ID = {
+			69508
+		}
+	}
+	uv0.weapon_property_175[69509] = {
+		id = 69509,
+		name = "小光辉技能圣光飞机Lv9",
+		damage = 87,
+		base = 69501,
+		bullet_ID = {
+			69509
+		}
+	}
 	uv0.weapon_property_175[69510] = {
 		id = 69510,
 		name = "小光辉技能圣光飞机Lv10",
@@ -354,371 +735,5 @@ pg.weapon_property_175 = {}
 		barrage_ID = {
 			80915
 		}
-	}
-	uv0.weapon_property_175[69540] = {
-		id = 69540,
-		name = "柴郡猫爪技能Lv10",
-		damage = 56,
-		base = 69531,
-		barrage_ID = {
-			80915
-		}
-	}
-	uv0.weapon_property_175[69541] = {
-		recover_time = 0.5,
-		name = "香槟独立射击大子弹LV1",
-		shakescreen = 302,
-		type = 23,
-		torpedo_ammo = 0,
-		fire_fx = "zhupao",
-		action_index = "attack_main",
-		fire_fx_loop_type = 1,
-		axis_angle = 0,
-		attack_attribute = 1,
-		reload_max = 3000,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 50,
-		queue = 1,
-		suppress = 1,
-		range = 200,
-		damage = 58,
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		corrected = 110,
-		min_range = 35,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		id = 69541,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19150
-		},
-		barrage_ID = {
-			1301
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			maxLock = 2,
-			lockTime = 0.3
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_175[69542] = {
-		id = 69542,
-		name = "香槟独立射击大子弹LV2",
-		damage = 70,
-		base = 69541
-	}
-	uv0.weapon_property_175[69543] = {
-		id = 69543,
-		name = "香槟独立射击大子弹LV3",
-		damage = 82,
-		base = 69541
-	}
-	uv0.weapon_property_175[69544] = {
-		id = 69544,
-		name = "香槟独立射击大子弹LV4",
-		damage = 94,
-		base = 69541
-	}
-	uv0.weapon_property_175[69545] = {
-		id = 69545,
-		name = "香槟独立射击大子弹LV5",
-		damage = 106,
-		base = 69541
-	}
-	uv0.weapon_property_175[69546] = {
-		id = 69546,
-		name = "香槟独立射击大子弹LV6",
-		damage = 118,
-		base = 69541
-	}
-	uv0.weapon_property_175[69547] = {
-		id = 69547,
-		name = "香槟独立射击大子弹LV7",
-		damage = 130,
-		base = 69541
-	}
-	uv0.weapon_property_175[69548] = {
-		id = 69548,
-		name = "香槟独立射击大子弹LV8",
-		damage = 142,
-		base = 69541
-	}
-	uv0.weapon_property_175[69549] = {
-		id = 69549,
-		name = "香槟独立射击大子弹LV9",
-		damage = 154,
-		base = 69541
-	}
-	uv0.weapon_property_175[69550] = {
-		id = 69550,
-		name = "香槟独立射击大子弹LV10",
-		damage = 170,
-		base = 69541
-	}
-	uv0.weapon_property_175[69551] = {
-		recover_time = 0.5,
-		name = "香槟伴随射击平射小子弹LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 150,
-		damage = 20,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 69551,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19156,
-			19156
-		},
-		barrage_ID = {
-			80902,
-			80903
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_175[69552] = {
-		id = 69552,
-		name = "香槟伴随射击平射小子弹LV2",
-		damage = 22,
-		base = 69551
-	}
-	uv0.weapon_property_175[69553] = {
-		id = 69553,
-		name = "香槟伴随射击平射小子弹LV3",
-		damage = 24,
-		base = 69551
-	}
-	uv0.weapon_property_175[69554] = {
-		id = 69554,
-		name = "香槟伴随射击平射小子弹LV4",
-		damage = 28,
-		base = 69551
-	}
-	uv0.weapon_property_175[69555] = {
-		id = 69555,
-		name = "香槟伴随射击平射小子弹LV5",
-		damage = 26,
-		base = 69551
-	}
-	uv0.weapon_property_175[69556] = {
-		id = 69556,
-		name = "香槟伴随射击平射小子弹LV6",
-		damage = 28,
-		base = 69551
-	}
-	uv0.weapon_property_175[69557] = {
-		id = 69557,
-		name = "香槟伴随射击平射小子弹LV7",
-		damage = 30,
-		base = 69551
-	}
-	uv0.weapon_property_175[69558] = {
-		id = 69558,
-		name = "香槟伴随射击平射小子弹LV8",
-		damage = 32,
-		base = 69551
-	}
-	uv0.weapon_property_175[69559] = {
-		id = 69559,
-		name = "香槟伴随射击平射小子弹LV9",
-		damage = 34,
-		base = 69551
-	}
-	uv0.weapon_property_175[69560] = {
-		id = 69560,
-		name = "香槟伴随射击平射小子弹LV10",
-		damage = 36,
-		base = 69551
-	}
-	uv0.weapon_property_175[69561] = {
-		recover_time = 0.5,
-		name = "奥丁平射小子弹LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 50,
-		damage = 38,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 69561,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19151,
-			19151
-		},
-		barrage_ID = {
-			80895,
-			80896
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_175[69562] = {
-		id = 69562,
-		name = "奥丁平射小子弹LV2",
-		damage = 44,
-		base = 69561
-	}
-	uv0.weapon_property_175[69563] = {
-		id = 69563,
-		name = "奥丁平射小子弹LV3",
-		damage = 50,
-		base = 69561
-	}
-	uv0.weapon_property_175[69564] = {
-		id = 69564,
-		name = "奥丁平射小子弹LV4",
-		damage = 56,
-		base = 69561
-	}
-	uv0.weapon_property_175[69565] = {
-		id = 69565,
-		name = "奥丁平射小子弹LV5",
-		damage = 62,
-		base = 69561
-	}
-	uv0.weapon_property_175[69566] = {
-		id = 69566,
-		name = "奥丁平射小子弹LV6",
-		damage = 68,
-		base = 69561
-	}
-	uv0.weapon_property_175[69567] = {
-		id = 69567,
-		name = "奥丁平射小子弹LV7",
-		damage = 74,
-		base = 69561
-	}
-	uv0.weapon_property_175[69568] = {
-		id = 69568,
-		name = "奥丁平射小子弹LV8",
-		damage = 80,
-		base = 69561
-	}
-	uv0.weapon_property_175[69569] = {
-		id = 69569,
-		name = "奥丁平射小子弹LV9",
-		damage = 86,
-		base = 69561
-	}
-	uv0.weapon_property_175[69570] = {
-		id = 69570,
-		name = "奥丁平射小子弹LV10",
-		damage = 92,
-		base = 69561
-	}
-	uv0.weapon_property_175[69571] = {
-		recover_time = 0.5,
-		name = "奥丁Gungnir雷电投枪LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 50,
-		damage = 68,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 69571,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19152
-		},
-		barrage_ID = {
-			80898
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_175[69572] = {
-		id = 69572,
-		name = "奥丁Gungnir雷电投枪LV2",
-		damage = 86,
-		base = 69571
-	}
-	uv0.weapon_property_175[69573] = {
-		id = 69573,
-		name = "奥丁Gungnir雷电投枪LV3",
-		damage = 106,
-		base = 69571
 	}
 end)()

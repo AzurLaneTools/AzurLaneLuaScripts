@@ -1,5 +1,40 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
+	[91010] = {
+		id = 91010,
+		damage = "150 x 3",
+		base = 91000,
+		weapon_id = {
+			91010
+		}
+	},
+	[91011] = {
+		id = 91011,
+		anti_siren = 100,
+		damage = "150 x 3",
+		base = 91000,
+		weapon_id = {
+			91011
+		}
+	},
+	[91012] = {
+		id = 91012,
+		anti_siren = 200,
+		damage = "150 x 3",
+		base = 91000,
+		weapon_id = {
+			91012
+		}
+	},
+	[91013] = {
+		id = 91013,
+		anti_siren = 300,
+		damage = "150 x 3",
+		base = 91000,
+		weapon_id = {
+			91013
+		}
+	},
 	[95000] = {
 		tech = 1,
 		name = "三联装381mm主炮Model1934",
@@ -191,38 +226,6 @@ pg.equip_data_statistics_399 = {
 		base = 95020,
 		weapon_id = {
 			95025
-		}
-	},
-	[95026] = {
-		id = 95026,
-		damage = "100 x 3",
-		base = 95020,
-		weapon_id = {
-			95026
-		}
-	},
-	[95027] = {
-		id = 95027,
-		damage = "108 x 3",
-		base = 95020,
-		weapon_id = {
-			95027
-		}
-	},
-	[95028] = {
-		id = 95028,
-		damage = "117 x 3",
-		base = 95020,
-		weapon_id = {
-			95028
-		}
-	},
-	[95029] = {
-		id = 95029,
-		damage = "126 x 3",
-		base = 95020,
-		weapon_id = {
-			95029
 		}
 	}
 }

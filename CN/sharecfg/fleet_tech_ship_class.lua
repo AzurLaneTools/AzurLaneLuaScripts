@@ -114,7 +114,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 9,
 		ships = {
 			10145,
-			10144
+			10144,
+			10148
 		}
 	},
 	[10201] = {
@@ -515,6 +516,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			10806
+		}
+	},
+	[10803] = {
+		shiptype = 8,
+		name = "独角鲸级",
+		nation = 1,
+		id = 10803,
+		t_level_1 = 32,
+		t_level = 3,
+		ships = {
+			10807
 		}
 	},
 	[11201] = {
@@ -2536,6 +2548,7 @@ pg.fleet_tech_ship_class = {
 		10705,
 		10801,
 		10802,
+		10803,
 		11201,
 		20101,
 		20102,

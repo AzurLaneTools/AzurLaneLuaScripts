@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_375 = {
+	[89048] = {
+		id = 89048,
+		value_2 = 7,
+		value_1 = "215",
+		base = 89040
+	},
+	[89049] = {
+		id = 89049,
+		value_2 = 7,
+		value_1 = "230",
+		base = 89040
+	},
+	[89050] = {
+		id = 89050,
+		value_2 = 8,
+		value_1 = "245",
+		base = 89040
+	},
+	[89051] = {
+		value_2 = 8,
+		anti_siren = 100,
+		base = 89040,
+		id = 89051,
+		value_1 = "260"
+	},
 	[89052] = {
 		value_2 = 8,
 		anti_siren = 200,
@@ -106,59 +131,5 @@ pg.equip_data_statistics_375 = {
 		value_2 = 25,
 		value_1 = "15",
 		base = 89060
-	},
-	[89071] = {
-		value_2 = 26,
-		anti_siren = 100,
-		base = 89060,
-		id = 89071,
-		value_1 = "16"
-	},
-	[89072] = {
-		value_2 = 27,
-		anti_siren = 200,
-		base = 89060,
-		id = 89072,
-		value_1 = "17"
-	},
-	[89073] = {
-		value_2 = 28,
-		anti_siren = 300,
-		base = 89060,
-		id = 89073,
-		value_1 = "18"
-	},
-	[89080] = {
-		type = 10,
-		name = "Gamers的证明",
-		speciality = "无",
-		tech = 0,
-		value_2 = 0,
-		ammo = 10,
-		rarity = 5,
-		nationality = 105,
-		descrip = "hololivegamers成员的证明徽章！ ",
-		id = 89080,
-		value_3 = 0,
-		attribute_1 = "durability",
-		icon = "89080",
-		value_1 = "245",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6500
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

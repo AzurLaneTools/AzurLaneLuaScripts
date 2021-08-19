@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_357 = {
+	[79231] = {
+		type = 1,
+		name = "专属弹幕-海王星I",
+		speciality = "无",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 79231,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79231
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79232] = {
+		id = 79232,
+		name = "专属弹幕-海王星II",
+		base = 79231,
+		weapon_id = {
+			79232
+		}
+	},
 	[79241] = {
 		type = 1,
 		name = "专属弹幕-罗恩I",
@@ -350,53 +397,6 @@ pg.equip_data_statistics_357 = {
 		equip_info = {},
 		weapon_id = {
 			79321
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79322] = {
-		id = 79322,
-		name = "专属弹幕-絮库夫II",
-		base = 79321,
-		weapon_id = {
-			79322
-		}
-	},
-	[79331] = {
-		type = 1,
-		name = "专属弹幕-凯旋I",
-		speciality = "无",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能弹幕",
-		id = 79331,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60303
 		},
 		skill_id = {},
 		part_main = {

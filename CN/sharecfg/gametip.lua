@@ -6686,7 +6686,10 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>21.8.12-21.9.1</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
+		tip = "*活动期间(<color=#A1E400FF>$1</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
+	},
+	shop_street_Equipment_skin_box_help = {
+		tip = "<color=#A1E400FF>$1</COLOR> 出现时间为：<color=#A1E400FF>$2</COLOR>"
 	},
 	battle_result_boss_destruct = {
 		tip = "阻止boss自毁并击破boss"
@@ -7723,7 +7726,7 @@ $3]]
 		tip = "天赋点不足"
 	},
 	buildship_new_tip = {
-		tip = "天海春香、如月千早、水濑伊织等角色出现概率UP！"
+		tip = "英格拉罕、里诺、无畏等角色出现概率UP！"
 	},
 	buildship_heavy_tip = {
 		tip = "俾斯麦、英王乔治五世 建造追加！"
@@ -14614,6 +14617,9 @@ P.S.记录仪的记录容量有限，请务必及时前往解析
 	},
 	user_is_forever_banned = {
 		tip = "账号已被封禁"
+	},
+	gem_shop_xinzhi_tip = {
+		tip = "（本月已购买<color=#FF5C5CFF>$1</color>/15次）"
 	},
 	cowboy_tips = {
 		tip = {

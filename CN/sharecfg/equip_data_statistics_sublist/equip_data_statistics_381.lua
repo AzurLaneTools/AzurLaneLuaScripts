@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.equip_data_statistics_381 = {
+	[89192] = {
+		value_2 = 34,
+		anti_siren = 200,
+		base = 89180,
+		id = 89192,
+		value_1 = "41"
+	},
+	[89193] = {
+		value_2 = 36,
+		anti_siren = 300,
+		base = 89180,
+		id = 89193,
+		value_1 = "44"
+	},
+	[89200] = {
+		type = 10,
+		name = "引力舞鞋",
+		speciality = "无",
+		tech = 0,
+		value_2 = 1,
+		ammo = 10,
+		descrip = "引人瞩目的舞鞋，穿上以后似乎能够成为……偶像？",
+		nationality = 0,
+		rarity = 5,
+		attribute_1 = "dodge",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 89200,
+		icon = "89200",
+		value_1 = "13",
+		attribute_2 = "speed",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6690
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89201] = {
+		id = 89201,
+		value_1 = "14",
+		base = 89200
+	},
 	[89202] = {
 		id = 89202,
 		value_1 = "15",
@@ -106,25 +159,5 @@ pg.equip_data_statistics_381 = {
 		label = {
 			"DEV"
 		}
-	},
-	[89221] = {
-		id = 89221,
-		value_1 = "280",
-		base = 89220
-	},
-	[89222] = {
-		id = 89222,
-		value_1 = "310",
-		base = 89220
-	},
-	[89223] = {
-		id = 89223,
-		value_1 = "340",
-		base = 89220
-	},
-	[89224] = {
-		id = 89224,
-		value_1 = "370",
-		base = 89220
 	}
 }
