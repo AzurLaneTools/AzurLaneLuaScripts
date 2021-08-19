@@ -3,7 +3,7 @@ name: Check and update all scripts
 on:
   push:
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: '50 * * * *'
 
 jobs:
   build:
