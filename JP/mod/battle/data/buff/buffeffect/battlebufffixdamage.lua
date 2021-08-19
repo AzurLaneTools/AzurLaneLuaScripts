@@ -11,6 +11,7 @@ end
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._rant = slot0._tempData.arg_list.rant or 10000
 	slot0._value = slot0._tempData.arg_list.value
+	slot0._rate = slot0._tempData.arg_list.rate
 end
 
 function slot1.onTrigger(slot0, slot1, slot2, slot3)
@@ -18,7 +19,9 @@ function slot1.onTrigger(slot0, slot1, slot2, slot3)
 		return "chance"
 	end
 
-	if slot0._value < slot3.damage then
+	if slot0._rate then
+		slot3.damage = math.max(1, slot3.damage * slot0._rate)
+	elseif slot0._value < slot4 then
 		slot3.damage = slot0._value
 	end
 end

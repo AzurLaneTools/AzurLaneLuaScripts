@@ -2,6 +2,70 @@ pg = pg or {}
 pg.weapon_property_110 = {}
 
 (function ()
+	uv0.weapon_property_110[64048] = {
+		id = 64048,
+		name = "小天城战列技能-LV8",
+		damage = 36,
+		base = 64041
+	}
+	uv0.weapon_property_110[64049] = {
+		id = 64049,
+		name = "小天城战列技能-LV9",
+		damage = 38,
+		base = 64041
+	}
+	uv0.weapon_property_110[64050] = {
+		id = 64050,
+		name = "小天城战列技能-LV10",
+		damage = 40,
+		base = 64041
+	}
+	uv0.weapon_property_110[64051] = {
+		recover_time = 0.5,
+		name = "小天城战列技能-LV1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 500,
+		queue = 1,
+		range = 90,
+		damage = 22,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 64051,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19286,
+			19286
+		},
+		barrage_ID = {
+			81057,
+			81058
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_110[64052] = {
 		id = 64052,
 		name = "小天城战列技能-LV2",
@@ -713,69 +777,5 @@ pg.weapon_property_110 = {}
 			81081,
 			81082
 		}
-	}
-	uv0.weapon_property_110[64111] = {
-		recover_time = 0,
-		name = "博伊西技能子弹弹幕LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 5000,
-		queue = 1,
-		range = 120,
-		damage = 5,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 64111,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			19301,
-			19301
-		},
-		barrage_ID = {
-			81097,
-			81098
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_110[64112] = {
-		id = 64112,
-		name = "博伊西技能子弹弹幕LV2",
-		damage = 5,
-		base = 64111
-	}
-	uv0.weapon_property_110[64113] = {
-		id = 64113,
-		name = "博伊西技能子弹弹幕LV3",
-		damage = 6,
-		base = 64111
-	}
-	uv0.weapon_property_110[64114] = {
-		id = 64114,
-		name = "博伊西技能子弹弹幕LV4",
-		damage = 6,
-		base = 64111
 	}
 end)()

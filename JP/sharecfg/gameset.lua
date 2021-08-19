@@ -338,8 +338,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "偶像大师活动PT",
-		key_value = 215
+		description = "美系V3复刻活动PT",
+		key_value = 211
 	},
 	chapter_move_speed_1 = {
 		description = "",

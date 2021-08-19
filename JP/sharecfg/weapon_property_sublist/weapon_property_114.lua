@@ -2,6 +2,69 @@ pg = pg or {}
 pg.weapon_property_114 = {}
 
 (function ()
+	uv0.weapon_property_114[64360] = {
+		id = 64360,
+		damage = 142,
+		base = 64351
+	}
+	uv0.weapon_property_114[64361] = {
+		recover_time = 0,
+		name = "白龙斩击技能Lv1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 10,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1800,
+		queue = 1,
+		range = 200,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 64361,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19317,
+			19318
+		},
+		barrage_ID = {
+			81138,
+			81139
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_114[64362] = {
+		id = 64362,
+		name = "白龙斩击技能Lv2",
+		damage = 24,
+		base = 64361
+	}
+	uv0.weapon_property_114[64363] = {
+		id = 64363,
+		name = "白龙斩击技能Lv3",
+		damage = 36,
+		base = 64361
+	}
 	uv0.weapon_property_114[64364] = {
 		id = 64364,
 		name = "白龙斩击技能Lv4",
@@ -626,30 +689,6 @@ pg.weapon_property_114 = {}
 		id = 64422,
 		name = "马可波罗技能LV2-PVE",
 		damage = 70,
-		base = 64421
-	}
-	uv0.weapon_property_114[64423] = {
-		id = 64423,
-		name = "马可波罗技能LV3-PVE",
-		damage = 82,
-		base = 64421
-	}
-	uv0.weapon_property_114[64424] = {
-		id = 64424,
-		name = "马可波罗技能LV4-PVE",
-		damage = 94,
-		base = 64421
-	}
-	uv0.weapon_property_114[64425] = {
-		id = 64425,
-		name = "马可波罗技能LV5-PVE",
-		damage = 106,
-		base = 64421
-	}
-	uv0.weapon_property_114[64426] = {
-		id = 64426,
-		name = "马可波罗技能LV6-PVE",
-		damage = 118,
 		base = 64421
 	}
 end)()

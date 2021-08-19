@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_358 = {
+	[85302] = {
+		id = 85302,
+		damage = "67 x 3",
+		base = 85300,
+		weapon_id = {
+			85302
+		}
+	},
+	[85303] = {
+		id = 85303,
+		damage = "76 x 3",
+		base = 85300,
+		weapon_id = {
+			85303
+		}
+	},
+	[85304] = {
+		id = 85304,
+		damage = "84 x 3",
+		base = 85300,
+		weapon_id = {
+			85304
+		}
+	},
+	[85305] = {
+		id = 85305,
+		damage = "92 x 3",
+		base = 85300,
+		weapon_id = {
+			85305
+		}
+	},
 	[85306] = {
 		id = 85306,
 		damage = "101 x 3",
@@ -168,92 +200,6 @@ pg.equip_data_statistics_358 = {
 		},
 		weapon_id = {
 			85360
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85361] = {
-		id = 85361,
-		damage = "16/回",
-		base = 85360,
-		weapon_id = {
-			85361
-		}
-	},
-	[85362] = {
-		id = 85362,
-		damage = "19/回",
-		base = 85360,
-		weapon_id = {
-			85362
-		}
-	},
-	[85363] = {
-		id = 85363,
-		damage = "22/回",
-		base = 85360,
-		weapon_id = {
-			85363
-		}
-	},
-	[85380] = {
-		tech = 2,
-		name = "100mm連装両用砲B-34 MZ-14",
-		speciality = "対空",
-		type = 6,
-		value_2 = 12,
-		ammo = 5,
-		damage = "33/回",
-		nationality = 7,
-		rarity = 3,
-		id = 85380,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "0",
-		icon = "85360",
-		attribute_2 = "antiaircraft",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85380
 		},
 		skill_id = {},
 		part_main = {

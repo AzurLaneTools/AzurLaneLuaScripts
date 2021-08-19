@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.equip_data_statistics_364 = {
+	[89052] = {
+		value_2 = 8,
+		anti_siren = 200,
+		base = 89040,
+		id = 89052,
+		value_1 = "275"
+	},
+	[89053] = {
+		value_2 = 8,
+		anti_siren = 300,
+		base = 89040,
+		id = 89053,
+		value_1 = "290"
+	},
+	[89060] = {
+		type = 10,
+		name = "チームエンブレム",
+		speciality = "なし",
+		tech = 0,
+		value_2 = 16,
+		ammo = 10,
+		descrip = "元々はチームエンブレムとしてデザインされたはずのもの。ヘン...变身？",
+		nationality = 105,
+		rarity = 5,
+		attribute_1 = "dodge",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 89060,
+		icon = "89060",
+		value_1 = "6",
+		attribute_2 = "hit",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6490
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89061] = {
+		id = 89061,
+		value_1 = "7",
+		base = 89060
+	},
 	[89062] = {
 		id = 89062,
 		value_2 = 17,
@@ -107,25 +160,5 @@ pg.equip_data_statistics_364 = {
 		label = {
 			"DEV"
 		}
-	},
-	[89081] = {
-		id = 89081,
-		value_1 = "280",
-		base = 89080
-	},
-	[89082] = {
-		id = 89082,
-		value_1 = "310",
-		base = 89080
-	},
-	[89083] = {
-		id = 89083,
-		value_1 = "340",
-		base = 89080
-	},
-	[89084] = {
-		id = 89084,
-		value_1 = "370",
-		base = 89080
 	}
 }

@@ -9,5 +9,6 @@ pg.l2dhx = {
 	jianye_2 = {},
 	ailunsamuna_2 = {},
 	linuo_3 = {},
-	beikaluolaina_2 = {}
+	beikaluolaina_2 = {},
+	abeikelongbi_3 = {}
 }

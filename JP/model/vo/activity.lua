@@ -478,4 +478,12 @@ function slot0.canPermanentFinish(slot0)
 	return false
 end
 
+function slot0.GetShopTime(slot0)
+	slot1 = slot0:getConfig("time")
+	slot2 = slot1[2]
+	slot3 = slot1[3]
+
+	return string.format("%s.%s.%s - %s.%s.%s", slot2[1][1] - 2000, slot2[1][2], slot2[1][3], slot3[1][1] - 2000, slot3[1][2], slot3[1][3])
+end
+
 return slot0

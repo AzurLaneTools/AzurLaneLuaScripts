@@ -1,5 +1,22 @@
 pg = pg or {}
 pg.equip_data_statistics_339 = {
+	[72255] = {
+		id = 72255,
+		base = 72251,
+		weapon_id = {
+			72255
+		}
+	},
+	[72256] = {
+		id = 72256,
+		name = "0",
+		speciality = "なし",
+		base = 72251,
+		descrip = "スキル弾幕",
+		weapon_id = {
+			72256
+		}
+	},
 	[72257] = {
 		id = 72257,
 		base = 72251,
@@ -327,52 +344,6 @@ pg.equip_data_statistics_339 = {
 		base = 73051,
 		weapon_id = {
 			73052
-		}
-	},
-	[73111] = {
-		type = 1,
-		name = "0",
-		speciality = "なし",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "スキル弾幕",
-		id = 73111,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			73111
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[73112] = {
-		id = 73112,
-		base = 73111,
-		weapon_id = {
-			73112
 		}
 	}
 }

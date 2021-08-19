@@ -72,7 +72,7 @@ function slot0.RefreshView(slot0, slot1)
 			uv0.OnYes()
 		end
 
-		uv1:Hide()
+		uv1:Close()
 	end, SFX_PANEL)
 	pg.UIMgr:GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.TOP_LAYER,
@@ -81,17 +81,21 @@ function slot0.RefreshView(slot0, slot1)
 	slot0._tf:SetAsLastSibling()
 end
 
-function slot0.Hide(slot0)
+function slot0.Close(slot0)
 	if slot0._tf and isActive(slot0._tf) then
-		if slot0.settings.OnHide then
-			slot0.settings.OnHide()
-		end
-
 		slot0.settings = nil
 
 		pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0.UIOverlay)
 		setActive(slot0._tf, false)
 	end
+end
+
+function slot0.Hide(slot0)
+	if slot0._tf and isActive(slot0._tf) and slot0.settings.OnHide then
+		slot0.settings.OnHide()
+	end
+
+	slot0:Close()
 end
 
 function slot0.Destroy(slot0)

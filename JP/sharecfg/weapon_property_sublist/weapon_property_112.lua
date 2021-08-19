@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_112 = {}
 
 (function ()
+	uv0.weapon_property_112[64234] = {
+		id = 64234,
+		name = "霞光之绊·改弹幕LV4",
+		damage = 13,
+		base = 64231
+	}
+	uv0.weapon_property_112[64235] = {
+		id = 64235,
+		name = "霞光之绊·改弹幕LV5",
+		damage = 14,
+		base = 64231
+	}
+	uv0.weapon_property_112[64236] = {
+		id = 64236,
+		name = "霞光之绊·改弹幕LV6",
+		damage = 15,
+		base = 64231
+	}
+	uv0.weapon_property_112[64237] = {
+		id = 64237,
+		name = "霞光之绊·改弹幕LV7",
+		damage = 16,
+		base = 64231
+	}
 	uv0.weapon_property_112[64238] = {
 		id = 64238,
 		name = "霞光之绊·改弹幕LV8",
@@ -595,30 +619,6 @@ pg.weapon_property_112 = {}
 		id = 64296,
 		name = "香槟独立射击大子弹天运强化LV6",
 		damage = 130,
-		base = 64291
-	}
-	uv0.weapon_property_112[64297] = {
-		id = 64297,
-		name = "香槟独立射击大子弹天运强化LV7",
-		damage = 142,
-		base = 64291
-	}
-	uv0.weapon_property_112[64298] = {
-		id = 64298,
-		name = "香槟独立射击大子弹天运强化LV8",
-		damage = 154,
-		base = 64291
-	}
-	uv0.weapon_property_112[64299] = {
-		id = 64299,
-		name = "香槟独立射击大子弹天运强化LV9",
-		damage = 170,
-		base = 64291
-	}
-	uv0.weapon_property_112[64300] = {
-		id = 64300,
-		name = "香槟独立射击大子弹天运强化LV10",
-		damage = 186,
 		base = 64291
 	}
 end)()

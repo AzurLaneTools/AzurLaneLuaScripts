@@ -809,6 +809,135 @@ pg.weapon_property_108 = {}
 			1512
 		}
 	}
+	uv0.weapon_property_108[60691] = {
+		recover_time = 0.5,
+		name = "英格拉罕弹幕展示I",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 400,
+		queue = 1,
+		range = 50,
+		damage = 1,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 60691,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			79761,
+			79761,
+			79763
+		},
+		barrage_ID = {
+			79761,
+			79762,
+			79765
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_108[60692] = {
+		id = 60692,
+		name = "英格拉罕弹幕展示II",
+		damage = 1,
+		base = 60691,
+		bullet_ID = {
+			79762,
+			79762,
+			79763
+		},
+		barrage_ID = {
+			79763,
+			79764,
+			79765
+		}
+	}
+	uv0.weapon_property_108[60701] = {
+		recover_time = 0.5,
+		name = "全弹发射展示-独角鲸级I",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 400,
+		queue = 1,
+		range = 80,
+		damage = 1,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 60701,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			70311,
+			70312
+		},
+		barrage_ID = {
+			70321,
+			70324
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_108[60702] = {
+		id = 60702,
+		name = "全弹发射展示-独角鲸级II",
+		damage = 1,
+		base = 60701,
+		bullet_ID = {
+			70311,
+			70311,
+			70311,
+			70312,
+			70312
+		},
+		barrage_ID = {
+			70321,
+			70322,
+			70323,
+			70325
+		}
+	}
 	uv0.weapon_property_108[61000] = {
 		recover_time = 0.5,
 		name = "召唤地狱火专用武器",
@@ -1822,184 +1951,6 @@ pg.weapon_property_108 = {}
 		},
 		barrage_ID = {
 			2141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_108[61031] = {
-		recover_time = 0.5,
-		name = "十姊妹展示",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 280,
-		queue = 1,
-		range = 100,
-		damage = 2,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 265,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 61031,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19959
-		},
-		barrage_ID = {
-			80521
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_108[61041] = {
-		recover_time = 0,
-		name = "夕星展示",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 60,
-		damage = 11,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 118,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 61041,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			19960
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_108[61051] = {
-		recover_time = 0,
-		name = "百合根1段展示",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 100,
-		damage = 12,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 115,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 61051,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			19962
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_108[61052] = {
-		recover_time = 0,
-		name = "百合根2段展示",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 100,
-		damage = 12,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 145,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 61052,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			19962,
-			19962
-		},
-		barrage_ID = {
-			80522,
-			80523
 		},
 		oxy_type = {
 			1

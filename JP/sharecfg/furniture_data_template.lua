@@ -6452,6 +6452,58 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100028] = {
+		spine_extra = "",
+		describe = "瞬く夏の光は、ヒトの世界に舞い落ちる満天の星々――",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "boliguanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "蛍火の森",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100028,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"boliguan",
+				"normal",
+				{
+					"open",
+					true,
+					nil,
+					nil,
+					nil,
+					"action",
+					"bg2"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		spine_extra = "",
 		describe = "至る所がぼろぼろになっているフローリング。足元注意。",
@@ -91424,6 +91476,7 @@ pg.furniture_data_template = {
 		100025,
 		100026,
 		100027,
+		100028,
 		1001,
 		1002,
 		1101,

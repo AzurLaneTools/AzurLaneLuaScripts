@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_394 = {
+	[95246] = {
+		id = 95246,
+		damage = "39 x 8",
+		base = 95240,
+		weapon_id = {
+			95246
+		}
+	},
+	[95247] = {
+		id = 95247,
+		damage = "40 x 8",
+		base = 95240,
+		weapon_id = {
+			95247
+		}
+	},
+	[95248] = {
+		id = 95248,
+		damage = "41 x 8",
+		base = 95240,
+		weapon_id = {
+			95248
+		}
+	},
+	[95249] = {
+		id = 95249,
+		damage = "42 x 8",
+		base = 95240,
+		weapon_id = {
+			95249
+		}
+	},
 	[95250] = {
 		id = 95250,
 		damage = "43 x 8",
@@ -207,89 +239,6 @@ pg.equip_data_statistics_394 = {
 		base = 95320,
 		weapon_id = {
 			95324
-		}
-	},
-	[95325] = {
-		id = 95325,
-		damage = "34 x 6",
-		base = 95320,
-		weapon_id = {
-			95325
-		}
-	},
-	[95326] = {
-		id = 95326,
-		damage = "36 x 6",
-		base = 95320,
-		weapon_id = {
-			95326
-		}
-	},
-	[95340] = {
-		tech = 3,
-		name = "203mm連装砲Model1924",
-		speciality = "追尾",
-		type = 3,
-		value_2 = 25,
-		ammo = 2,
-		damage = "26 x 6",
-		nationality = 6,
-		rarity = 4,
-		id = 95340,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "0",
-		icon = "55300",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				1402
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1402
-			},
-			{
-				4,
-				1205
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95340
-		},
-		skill_id = {},
-		part_main = {
-			3,
-			18
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"CA",
-			"MG",
-			"HE"
-		}
-	},
-	[95341] = {
-		id = 95341,
-		damage = "28 x 6",
-		base = 95340,
-		weapon_id = {
-			95341
 		}
 	}
 }

@@ -2,6 +2,39 @@ pg = pg or {}
 pg.weapon_property_116 = {}
 
 (function ()
+	uv0.weapon_property_116[64486] = {
+		id = 64486,
+		name = "梓迷路团子LV6",
+		damage = 30,
+		base = 64481
+	}
+	uv0.weapon_property_116[64487] = {
+		id = 64487,
+		name = "梓迷路团子LV7",
+		damage = 31,
+		base = 64481,
+		barrage_ID = {
+			81144
+		}
+	}
+	uv0.weapon_property_116[64488] = {
+		id = 64488,
+		name = "梓迷路团子LV8",
+		damage = 32,
+		base = 64481,
+		barrage_ID = {
+			81144
+		}
+	}
+	uv0.weapon_property_116[64489] = {
+		id = 64489,
+		name = "梓迷路团子LV9",
+		damage = 33,
+		base = 64481,
+		barrage_ID = {
+			81144
+		}
+	}
 	uv0.weapon_property_116[64490] = {
 		id = 64490,
 		name = "梓迷路团子LV10",
@@ -686,70 +719,5 @@ pg.weapon_property_116 = {}
 		name = "如月千早飞艇地毯轰炸Lv8",
 		damage = 170,
 		base = 64541
-	}
-	uv0.weapon_property_116[64549] = {
-		id = 64549,
-		name = "如月千早飞艇地毯轰炸Lv9",
-		damage = 180,
-		base = 64541
-	}
-	uv0.weapon_property_116[64550] = {
-		id = 64550,
-		name = "如月千早飞艇地毯轰炸Lv10",
-		damage = 200,
-		base = 64541
-	}
-	uv0.weapon_property_116[64551] = {
-		recover_time = 0.5,
-		name = "水濑伊织技能LV1",
-		shakescreen = 302,
-		type = 23,
-		torpedo_ammo = 0,
-		fire_fx = "zhupao",
-		action_index = "attack_main",
-		fire_fx_loop_type = 1,
-		axis_angle = 0,
-		attack_attribute = 1,
-		reload_max = 3000,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 50,
-		queue = 1,
-		suppress = 1,
-		range = 200,
-		damage = 50,
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		corrected = 110,
-		min_range = 35,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		id = 64551,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19341
-		},
-		barrage_ID = {
-			81171
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			maxLock = 3,
-			lockTime = 0.3
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_116[64552] = {
-		id = 64552,
-		name = "水濑伊织技能LV2",
-		damage = 60,
-		base = 64551
 	}
 end)()

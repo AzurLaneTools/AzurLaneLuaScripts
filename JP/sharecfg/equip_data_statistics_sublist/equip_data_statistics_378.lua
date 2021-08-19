@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.equip_data_statistics_378 = {
+	[90320] = {
+		tech = 2,
+		name = "330mm四連装砲Mle1931",
+		speciality = "投射",
+		type = 4,
+		value_2 = 12,
+		ammo = 3,
+		damage = "37 x 4",
+		nationality = 8,
+		rarity = 3,
+		id = 90320,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "50300",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1550
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90320
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		}
+	},
+	[90321] = {
+		id = 90321,
+		damage = "42 x 4",
+		base = 90320,
+		weapon_id = {
+			90321
+		}
+	},
+	[90322] = {
+		id = 90322,
+		damage = "47 x 4",
+		base = 90320,
+		weapon_id = {
+			90322
+		}
+	},
+	[90323] = {
+		id = 90323,
+		damage = "52 x 4",
+		base = 90320,
+		weapon_id = {
+			90323
+		}
+	},
 	[90324] = {
 		id = 90324,
 		damage = "57 x 4",
@@ -147,84 +223,6 @@ pg.equip_data_statistics_378 = {
 		base = 90340,
 		weapon_id = {
 			90349
-		}
-	},
-	[90350] = {
-		id = 90350,
-		damage = "102 x 4",
-		base = 90340,
-		weapon_id = {
-			90350
-		}
-	},
-	[90351] = {
-		id = 90351,
-		anti_siren = 100,
-		damage = "102 x 4",
-		base = 90340,
-		weapon_id = {
-			90351
-		}
-	},
-	[90400] = {
-		tech = 1,
-		name = "380mm四連装砲Mle1935",
-		speciality = "投射",
-		type = 4,
-		value_2 = 12,
-		ammo = 3,
-		damage = "40 x 4",
-		nationality = 8,
-		rarity = 3,
-		id = 90400,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "リシュリュー級戦艦に搭載された四連装380mm主砲。戦艦・巡洋戦艦が装備可能",
-		icon = "50400",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1550
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90400
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"BB",
-			"MG",
-			"Richelieu"
-		}
-	},
-	[90401] = {
-		id = 90401,
-		damage = "46 x 4",
-		base = 90400,
-		weapon_id = {
-			90401
 		}
 	}
 }

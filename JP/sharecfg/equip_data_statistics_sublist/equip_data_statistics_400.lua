@@ -1,5 +1,89 @@
 pg = pg or {}
 pg.equip_data_statistics_400 = {
+	[95605] = {
+		id = 95605,
+		damage = "9 x 6",
+		base = 95600,
+		weapon_id = {
+			95605
+		}
+	},
+	[95606] = {
+		id = 95606,
+		damage = "10 x 6",
+		base = 95600,
+		weapon_id = {
+			95606
+		}
+	},
+	[95640] = {
+		tech = 3,
+		name = "152mm三連装砲Model1934",
+		speciality = "追尾",
+		type = 2,
+		value_2 = 45,
+		ammo = 1,
+		damage = "6 x 6",
+		nationality = 6,
+		rarity = 5,
+		id = 95640,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "サディア帝国製の改良型軽巡洋艦主砲 ",
+		icon = "55600",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1713
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1713
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			95640
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[95641] = {
+		id = 95641,
+		damage = "6 x 6",
+		base = 95640,
+		weapon_id = {
+			95641
+		}
+	},
 	[95642] = {
 		id = 95642,
 		damage = "7 x 6",

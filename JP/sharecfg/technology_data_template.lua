@@ -616,19 +616,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10040,
-				45
+				30023,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13001,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -661,19 +656,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10057,
-				45
+				30033,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13003,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -706,19 +696,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10074,
-				45
+				30043,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13004,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -751,19 +736,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10019,
-				45
+				30013,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13005,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -796,19 +776,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10037,
-				45
+				30023,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13006,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -841,19 +816,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10052,
-				45
+				30033,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13008,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -2954,19 +2924,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10075,
-				45
+				30043,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13013,
-				1
-			},
-			{
-				2,
-				52012,
 				1
 			},
 			{
@@ -2999,19 +2964,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10018,
-				45
+				30013,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13014,
-				1
-			},
-			{
-				2,
-				52012,
 				1
 			},
 			{
@@ -3044,19 +3004,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10026,
-				45
+				30033,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13015,
-				1
-			},
-			{
-				2,
-				52012,
 				1
 			},
 			{
@@ -3089,19 +3044,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10056,
-				45
+				30033,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13016,
-				1
-			},
-			{
-				2,
-				52012,
 				1
 			},
 			{
@@ -3134,19 +3084,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10077,
-				45
+				30013,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13017,
-				1
-			},
-			{
-				2,
-				52012,
 				1
 			},
 			{
@@ -5247,19 +5192,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10038,
-				45
+				30023,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13018,
-				1
-			},
-			{
-				2,
-				52022,
 				1
 			},
 			{
@@ -5292,19 +5232,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10035,
-				45
+				30023,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13020,
-				1
-			},
-			{
-				2,
-				52022,
 				1
 			},
 			{
@@ -5337,19 +5272,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				11009,
-				45
+				30023,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13021,
-				1
-			},
-			{
-				2,
-				52022,
 				1
 			},
 			{
@@ -5382,19 +5312,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10075,
-				45
+				30043,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13022,
-				1
-			},
-			{
-				2,
-				52022,
 				1
 			},
 			{
@@ -5427,19 +5352,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10102,
-				45
+				30013,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13023,
-				1
-			},
-			{
-				2,
-				52022,
 				1
 			},
 			{
@@ -9902,6 +9822,246 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[1031] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1031,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10040,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13001,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1032] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1032,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10057,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13003,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1033] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1033,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10074,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13004,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1034] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1034,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10019,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13005,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1035] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1035,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10037,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13006,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1036] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1036,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10052,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13008,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
 	[1101] = {
 		name = "基礎研究",
 		rarity = 3,
@@ -10962,6 +11122,206 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[1131] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 1131,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10075,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13013,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1132] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 1132,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10018,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13014,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1133] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 1133,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10026,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13015,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1134] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 1134,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10056,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13016,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1135] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 1135,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10077,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13017,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
 	[1201] = {
 		name = "基礎研究",
 		rarity = 3,
@@ -11933,6 +12293,206 @@ pg.technology_data_template = {
 			{
 				2,
 				52003,
+				1
+			}
+		}
+	},
+	[1231] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 3,
+		id = 1231,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10038,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13018,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1232] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 3,
+		id = 1232,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10035,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13020,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1233] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 3,
+		id = 1233,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				11009,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13021,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1234] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 3,
+		id = 1234,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10075,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13022,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1235] = {
+		name = "新装備試案作成 ",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		sub_name = "小型項目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 3,
+		id = 1235,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10102,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13023,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
 				1
 			}
 		}
@@ -13167,6 +13727,12 @@ pg.technology_data_template = {
 		1024,
 		1025,
 		1026,
+		1031,
+		1032,
+		1033,
+		1034,
+		1035,
+		1036,
 		1101,
 		1102,
 		1103,
@@ -13193,6 +13759,11 @@ pg.technology_data_template = {
 		1124,
 		1125,
 		1126,
+		1131,
+		1132,
+		1133,
+		1134,
+		1135,
 		1201,
 		1202,
 		1203,
@@ -13217,6 +13788,11 @@ pg.technology_data_template = {
 		1224,
 		1225,
 		1226,
+		1231,
+		1232,
+		1233,
+		1234,
+		1235,
 		1301,
 		1302,
 		1303,

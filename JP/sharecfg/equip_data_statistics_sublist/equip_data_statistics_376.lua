@@ -1,5 +1,96 @@
 pg = pg or {}
 pg.equip_data_statistics_376 = {
+	[90140] = {
+		tech = 3,
+		name = "138.6mm単装砲Mle1929",
+		speciality = "追尾",
+		type = 1,
+		value_2 = 35,
+		ammo = 2,
+		damage = "5 x 5",
+		nationality = 8,
+		rarity = 5,
+		id = 90140,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "50100",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				2206
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2206
+			},
+			{
+				4,
+				1021
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90140
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG",
+			"HE"
+		}
+	},
+	[90141] = {
+		id = 90141,
+		damage = "6 x 5",
+		base = 90140,
+		weapon_id = {
+			90141
+		}
+	},
+	[90142] = {
+		id = 90142,
+		damage = "7 x 5",
+		base = 90140,
+		weapon_id = {
+			90142
+		}
+	},
+	[90143] = {
+		id = 90143,
+		damage = "8 x 5",
+		base = 90140,
+		weapon_id = {
+			90143
+		}
+	},
 	[90144] = {
 		id = 90144,
 		damage = "9 x 5",
@@ -155,89 +246,6 @@ pg.equip_data_statistics_376 = {
 		base = 90200,
 		weapon_id = {
 			90202
-		}
-	},
-	[90203] = {
-		id = 90203,
-		damage = "10 x 6",
-		base = 90200,
-		weapon_id = {
-			90203
-		}
-	},
-	[90220] = {
-		tech = 2,
-		name = "152mm三連装砲Mle1930",
-		speciality = "追尾",
-		type = 2,
-		value_2 = 5,
-		ammo = 3,
-		damage = "8 x 6",
-		nationality = 8,
-		rarity = 2,
-		id = 90220,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "50200",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2201
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2201
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90220
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CL",
-			"MG"
-		}
-	},
-	[90221] = {
-		id = 90221,
-		damage = "9 x 6",
-		base = 90220,
-		weapon_id = {
-			90221
-		}
-	},
-	[90222] = {
-		id = 90222,
-		damage = "10 x 6",
-		base = 90220,
-		weapon_id = {
-			90222
 		}
 	}
 }

@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_360 = {
+	[85407] = {
+		id = 85407,
+		damage = "77/回",
+		base = 85400,
+		weapon_id = {
+			85407
+		}
+	},
+	[85408] = {
+		id = 85408,
+		damage = "83/回",
+		base = 85400,
+		weapon_id = {
+			85408
+		}
+	},
+	[85409] = {
+		id = 85409,
+		damage = "89/回",
+		base = 85400,
+		weapon_id = {
+			85409
+		}
+	},
+	[85410] = {
+		id = 85410,
+		damage = "96/回",
+		base = 85400,
+		weapon_id = {
+			85410
+		}
+	},
 	[85411] = {
 		id = 85411,
 		anti_siren = 100,
@@ -199,38 +231,6 @@ pg.equip_data_statistics_360 = {
 		base = 85440,
 		weapon_id = {
 			85443
-		}
-	},
-	[85444] = {
-		id = 85444,
-		damage = "12 x 4",
-		base = 85440,
-		weapon_id = {
-			85444
-		}
-	},
-	[85445] = {
-		id = 85445,
-		damage = "13 x 4",
-		base = 85440,
-		weapon_id = {
-			85445
-		}
-	},
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85446
-		}
-	},
-	[85447] = {
-		id = 85447,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85447
 		}
 	}
 }

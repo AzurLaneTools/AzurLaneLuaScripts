@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_398 = {
+	[95486] = {
+		id = 95486,
+		damage = "80 x 3",
+		base = 95480,
+		weapon_id = {
+			95486
+		}
+	},
+	[95487] = {
+		id = 95487,
+		damage = "80 x 3",
+		base = 95480,
+		weapon_id = {
+			95487
+		}
+	},
+	[95500] = {
+		tech = 1,
+		name = "37mm連装機銃Model1932",
+		speciality = "対空",
+		type = 6,
+		value_2 = 5,
+		ammo = 5,
+		damage = "15/回",
+		nationality = 6,
+		rarity = 2,
+		id = 95500,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "37mm連装機銃。対空兵装として使用可能",
+		icon = "55500",
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			95500
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"RN",
+			"ST",
+			"AA"
+		}
+	},
+	[95501] = {
+		id = 95501,
+		damage = "17/回",
+		base = 95500,
+		weapon_id = {
+			95501
+		}
+	},
 	[95502] = {
 		id = 95502,
 		damage = "19/回",
@@ -210,38 +296,6 @@ pg.equip_data_statistics_398 = {
 		base = 95540,
 		weapon_id = {
 			95543
-		}
-	},
-	[95544] = {
-		id = 95544,
-		damage = "32/回",
-		base = 95540,
-		weapon_id = {
-			95544
-		}
-	},
-	[95545] = {
-		id = 95545,
-		damage = "35/回",
-		base = 95540,
-		weapon_id = {
-			95545
-		}
-	},
-	[95546] = {
-		id = 95546,
-		damage = "38/回",
-		base = 95540,
-		weapon_id = {
-			95546
-		}
-	},
-	[95547] = {
-		id = 95547,
-		damage = "41/回",
-		base = 95540,
-		weapon_id = {
-			95547
 		}
 	}
 }

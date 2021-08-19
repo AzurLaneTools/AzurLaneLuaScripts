@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_113 = {}
 
 (function ()
+	uv0.weapon_property_113[64297] = {
+		id = 64297,
+		name = "香槟独立射击大子弹天运强化LV7",
+		damage = 142,
+		base = 64291
+	}
+	uv0.weapon_property_113[64298] = {
+		id = 64298,
+		name = "香槟独立射击大子弹天运强化LV8",
+		damage = 154,
+		base = 64291
+	}
+	uv0.weapon_property_113[64299] = {
+		id = 64299,
+		name = "香槟独立射击大子弹天运强化LV9",
+		damage = 170,
+		base = 64291
+	}
+	uv0.weapon_property_113[64300] = {
+		id = 64300,
+		name = "香槟独立射击大子弹天运强化LV10",
+		damage = 186,
+		base = 64291
+	}
 	uv0.weapon_property_113[64301] = {
 		recover_time = 0.5,
 		name = "白龙天雷落雷飞机 Lv1",
@@ -665,68 +689,5 @@ pg.weapon_property_113 = {}
 		id = 64359,
 		damage = 130,
 		base = 64351
-	}
-	uv0.weapon_property_113[64360] = {
-		id = 64360,
-		damage = 142,
-		base = 64351
-	}
-	uv0.weapon_property_113[64361] = {
-		recover_time = 0,
-		name = "白龙斩击技能Lv1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 10,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1800,
-		queue = 1,
-		range = 200,
-		damage = 12,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 64361,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19317,
-			19318
-		},
-		barrage_ID = {
-			81138,
-			81139
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_113[64362] = {
-		id = 64362,
-		name = "白龙斩击技能Lv2",
-		damage = 24,
-		base = 64361
-	}
-	uv0.weapon_property_113[64363] = {
-		id = 64363,
-		name = "白龙斩击技能Lv3",
-		damage = 36,
-		base = 64361
 	}
 end)()

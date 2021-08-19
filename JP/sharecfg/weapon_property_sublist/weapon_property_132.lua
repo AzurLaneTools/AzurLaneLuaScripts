@@ -2,6 +2,403 @@ pg = pg or {}
 pg.weapon_property_132 = {}
 
 (function ()
+	uv0.weapon_property_132[65918] = {
+		id = 65918,
+		name = "天鹰技能G.50Lv8",
+		damage = 1,
+		base = 65911,
+		bullet_ID = {
+			65918
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_132[65919] = {
+		id = 65919,
+		name = "天鹰技能G.50Lv9",
+		damage = 1,
+		base = 65911,
+		bullet_ID = {
+			65919
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_132[65920] = {
+		id = 65920,
+		name = "天鹰技能G.50Lv10",
+		damage = 1,
+		base = 65911,
+		bullet_ID = {
+			65920
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_132[65921] = {
+		recover_time = 0,
+		name = "2 x 100lb 炸弹",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 22,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 22,
+		reload_max = 9500,
+		queue = 1,
+		range = 500,
+		damage = 69,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 65921,
+		attack_attribute_ratio = 80,
+		aim_type = 1,
+		bullet_ID = {
+			2121
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_132[65922] = {
+		id = 65922,
+		damage = 78,
+		base = 65921
+	}
+	uv0.weapon_property_132[65923] = {
+		id = 65923,
+		damage = 89,
+		base = 65921
+	}
+	uv0.weapon_property_132[65924] = {
+		id = 65924,
+		damage = 99,
+		base = 65921
+	}
+	uv0.weapon_property_132[65925] = {
+		id = 65925,
+		damage = 110,
+		base = 65921
+	}
+	uv0.weapon_property_132[65926] = {
+		id = 65926,
+		damage = 120,
+		base = 65921
+	}
+	uv0.weapon_property_132[65927] = {
+		id = 65927,
+		damage = 131,
+		base = 65921
+	}
+	uv0.weapon_property_132[65928] = {
+		id = 65928,
+		damage = 141,
+		base = 65921
+	}
+	uv0.weapon_property_132[65929] = {
+		id = 65929,
+		damage = 152,
+		base = 65921
+	}
+	uv0.weapon_property_132[65930] = {
+		id = 65930,
+		damage = 162,
+		base = 65921
+	}
+	uv0.weapon_property_132[65931] = {
+		recover_time = 0.5,
+		name = "天鹰技能Re2001鱼雷机Lv1",
+		shakescreen = 0,
+		type = 10,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 2490,
+		queue = 1,
+		range = 90,
+		damage = 1,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 65931,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			65931
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_132[65932] = {
+		id = 65932,
+		name = "天鹰技能Re2001鱼雷机Lv2",
+		damage = 1,
+		base = 65931,
+		bullet_ID = {
+			65932
+		}
+	}
+	uv0.weapon_property_132[65933] = {
+		id = 65933,
+		name = "天鹰技能Re2001鱼雷机Lv3",
+		damage = 1,
+		base = 65931,
+		bullet_ID = {
+			65933
+		}
+	}
+	uv0.weapon_property_132[65934] = {
+		id = 65934,
+		name = "天鹰技能Re2001鱼雷机Lv4",
+		damage = 1,
+		base = 65931,
+		bullet_ID = {
+			65934
+		}
+	}
+	uv0.weapon_property_132[65935] = {
+		id = 65935,
+		name = "天鹰技能Re2001鱼雷机Lv5",
+		damage = 1,
+		base = 65931,
+		bullet_ID = {
+			65935
+		}
+	}
+	uv0.weapon_property_132[65936] = {
+		id = 65936,
+		name = "天鹰技能Re2001鱼雷机Lv6",
+		damage = 1,
+		base = 65931,
+		bullet_ID = {
+			65936
+		}
+	}
+	uv0.weapon_property_132[65937] = {
+		id = 65937,
+		name = "天鹰技能Re2001鱼雷机Lv7",
+		damage = 1,
+		base = 65931,
+		bullet_ID = {
+			65937
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_132[65938] = {
+		id = 65938,
+		name = "天鹰技能Re2001鱼雷机Lv8",
+		damage = 1,
+		base = 65931,
+		bullet_ID = {
+			65938
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_132[65939] = {
+		id = 65939,
+		name = "天鹰技能Re2001鱼雷机Lv9",
+		damage = 1,
+		base = 65931,
+		bullet_ID = {
+			65939
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_132[65940] = {
+		id = 65940,
+		name = "天鹰技能Re2001鱼雷机Lv10",
+		damage = 1,
+		base = 65931,
+		bullet_ID = {
+			65940
+		},
+		barrage_ID = {
+			12009
+		}
+	}
+	uv0.weapon_property_132[65941] = {
+		recover_time = 0,
+		name = "2 x 机载鱼雷",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 20,
+		reload_max = 9500,
+		queue = 1,
+		range = 75,
+		damage = 96,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 65941,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			2111
+		},
+		barrage_ID = {
+			2111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_132[65942] = {
+		id = 65942,
+		damage = 112,
+		base = 65941
+	}
+	uv0.weapon_property_132[65943] = {
+		id = 65943,
+		damage = 128,
+		base = 65941
+	}
+	uv0.weapon_property_132[65944] = {
+		id = 65944,
+		damage = 144,
+		base = 65941
+	}
+	uv0.weapon_property_132[65945] = {
+		id = 65945,
+		damage = 160,
+		base = 65941
+	}
+	uv0.weapon_property_132[65946] = {
+		id = 65946,
+		damage = 176,
+		base = 65941
+	}
+	uv0.weapon_property_132[65947] = {
+		id = 65947,
+		damage = 192,
+		base = 65941
+	}
+	uv0.weapon_property_132[65948] = {
+		id = 65948,
+		damage = 208,
+		base = 65941
+	}
+	uv0.weapon_property_132[65949] = {
+		id = 65949,
+		damage = 224,
+		base = 65941
+	}
+	uv0.weapon_property_132[65950] = {
+		id = 65950,
+		damage = 240,
+		base = 65941
+	}
+	uv0.weapon_property_132[65951] = {
+		recover_time = 0,
+		name = "射水鱼技能鱼雷LV1",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 90,
+		damage = 12,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 65951,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19289,
+			19289
+		},
+		barrage_ID = {
+			81091,
+			81092
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_132[65952] = {
 		id = 65952,
 		name = "射水鱼技能鱼雷LV2",
@@ -329,462 +726,5 @@ pg.weapon_property_132 = {}
 		name = "新泽西定点生成小弹幕-Lv10",
 		damage = 20,
 		base = 65971
-	}
-	uv0.weapon_property_132[65981] = {
-		recover_time = 0,
-		name = "新泽西跨队支援弹幕-Lv1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 3000,
-		queue = 1,
-		range = 80,
-		damage = 10,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 65981,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19294,
-			19294
-		},
-		barrage_ID = {
-			81100,
-			81104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_132[65982] = {
-		id = 65982,
-		name = "新泽西跨队支援弹幕-Lv2",
-		damage = 11,
-		base = 65981
-	}
-	uv0.weapon_property_132[65983] = {
-		id = 65983,
-		name = "新泽西跨队支援弹幕-Lv3",
-		damage = 12,
-		base = 65981
-	}
-	uv0.weapon_property_132[65984] = {
-		id = 65984,
-		name = "新泽西跨队支援弹幕-Lv4",
-		damage = 13,
-		base = 65981
-	}
-	uv0.weapon_property_132[65985] = {
-		id = 65985,
-		name = "新泽西跨队支援弹幕-Lv5",
-		damage = 14,
-		base = 65981
-	}
-	uv0.weapon_property_132[65986] = {
-		id = 65986,
-		name = "新泽西跨队支援弹幕-Lv6",
-		damage = 15,
-		base = 65981
-	}
-	uv0.weapon_property_132[65987] = {
-		id = 65987,
-		name = "新泽西跨队支援弹幕-Lv7",
-		damage = 16,
-		base = 65981,
-		barrage_ID = {
-			81105,
-			81106
-		}
-	}
-	uv0.weapon_property_132[65988] = {
-		id = 65988,
-		name = "新泽西跨队支援弹幕-Lv8",
-		damage = 17,
-		base = 65981,
-		barrage_ID = {
-			81105,
-			81106
-		}
-	}
-	uv0.weapon_property_132[65989] = {
-		id = 65989,
-		name = "新泽西跨队支援弹幕-Lv9",
-		damage = 18,
-		base = 65981,
-		barrage_ID = {
-			81105,
-			81106
-		}
-	}
-	uv0.weapon_property_132[65990] = {
-		id = 65990,
-		name = "新泽西跨队支援弹幕-Lv10",
-		damage = 20,
-		base = 65981,
-		barrage_ID = {
-			81105,
-			81106
-		}
-	}
-	uv0.weapon_property_132[65991] = {
-		recover_time = 0,
-		name = "黑海伦娜-区域雷达扫描",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 5000,
-		queue = 4,
-		range = 120,
-		damage = 1,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 65991,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			19305
-		},
-		barrage_ID = {
-			81107
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_132[66000] = {
-		recover_time = 0.5,
-		name = "萨拉托加技能LV0",
-		shakescreen = 302,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 10,
-		search_type = 1,
-		effect_move = 0,
-		angle = 40,
-		reload_max = 1300,
-		queue = 1,
-		range = 120,
-		damage = 40,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 105,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-203mm",
-		id = 66000,
-		attack_attribute_ratio = 120,
-		aim_type = 1,
-		bullet_ID = {
-			1404
-		},
-		barrage_ID = {
-			1206
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_132[66001] = {
-		reload_max = 1270,
-		name = "萨拉托加技能LV1",
-		damage = 48,
-		base = 66000,
-		id = 66001
-	}
-	uv0.weapon_property_132[66002] = {
-		reload_max = 1244,
-		name = "萨拉托加技能LV2",
-		damage = 56,
-		base = 66000,
-		id = 66002
-	}
-	uv0.weapon_property_132[66003] = {
-		reload_max = 1218,
-		name = "萨拉托加技能LV3",
-		damage = 64,
-		base = 66000,
-		id = 66003
-	}
-	uv0.weapon_property_132[66004] = {
-		reload_max = 1192,
-		name = "萨拉托加技能LV4",
-		damage = 72,
-		base = 66000,
-		id = 66004
-	}
-	uv0.weapon_property_132[66005] = {
-		reload_max = 1166,
-		name = "萨拉托加技能LV5",
-		damage = 80,
-		base = 66000,
-		id = 66005
-	}
-	uv0.weapon_property_132[66006] = {
-		reload_max = 1140,
-		name = "萨拉托加技能LV6",
-		damage = 88,
-		base = 66000,
-		id = 66006
-	}
-	uv0.weapon_property_132[66007] = {
-		reload_max = 1114,
-		name = "萨拉托加技能LV7",
-		damage = 96,
-		base = 66000,
-		id = 66007
-	}
-	uv0.weapon_property_132[66008] = {
-		reload_max = 1088,
-		name = "萨拉托加技能LV8",
-		damage = 104,
-		base = 66000,
-		id = 66008
-	}
-	uv0.weapon_property_132[66009] = {
-		reload_max = 1062,
-		name = "萨拉托加技能LV9",
-		damage = 112,
-		base = 66000,
-		id = 66009
-	}
-	uv0.weapon_property_132[66010] = {
-		reload_max = 1036,
-		name = "萨拉托加技能LV10",
-		damage = 120,
-		base = 66000,
-		id = 66010
-	}
-	uv0.weapon_property_132[66020] = {
-		recover_time = 0.5,
-		name = "厌战技能LV0",
-		shakescreen = 302,
-		type = 23,
-		torpedo_ammo = 0,
-		fire_fx = "zhupao",
-		action_index = "attack_main",
-		fire_fx_loop_type = 1,
-		axis_angle = 0,
-		attack_attribute = 1,
-		reload_max = 3366,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 50,
-		queue = 1,
-		suppress = 1,
-		range = 200,
-		damage = 52,
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		corrected = 110,
-		min_range = 35,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		id = 66020,
-		attack_attribute_ratio = 80,
-		aim_type = 1,
-		bullet_ID = {
-			19981
-		},
-		barrage_ID = {
-			1300
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			maxLock = 2,
-			lockTime = 0.3
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_132[66021] = {
-		reload_max = 3298,
-		name = "厌战技能LV1",
-		damage = 60,
-		base = 66020,
-		id = 66021
-	}
-	uv0.weapon_property_132[66022] = {
-		reload_max = 3231,
-		name = "厌战技能LV2",
-		damage = 68,
-		base = 66020,
-		id = 66022
-	}
-	uv0.weapon_property_132[66023] = {
-		reload_max = 3164,
-		name = "厌战技能LV3",
-		damage = 76,
-		base = 66020,
-		id = 66023
-	}
-	uv0.weapon_property_132[66024] = {
-		reload_max = 3096,
-		name = "厌战技能LV4",
-		damage = 84,
-		base = 66020,
-		id = 66024
-	}
-	uv0.weapon_property_132[66025] = {
-		reload_max = 3029,
-		name = "厌战技能LV5",
-		damage = 92,
-		base = 66020,
-		id = 66025
-	}
-	uv0.weapon_property_132[66026] = {
-		reload_max = 2962,
-		name = "厌战技能LV6",
-		damage = 100,
-		base = 66020,
-		id = 66026,
-		bullet_ID = {
-			19982
-		}
-	}
-	uv0.weapon_property_132[66027] = {
-		reload_max = 2894,
-		name = "厌战技能LV7",
-		damage = 112,
-		base = 66020,
-		id = 66027,
-		bullet_ID = {
-			19982
-		}
-	}
-	uv0.weapon_property_132[66028] = {
-		reload_max = 2827,
-		name = "厌战技能LV8",
-		damage = 124,
-		base = 66020,
-		id = 66028,
-		bullet_ID = {
-			19982
-		}
-	}
-	uv0.weapon_property_132[66029] = {
-		reload_max = 2760,
-		name = "厌战技能LV9",
-		damage = 138,
-		base = 66020,
-		id = 66029,
-		bullet_ID = {
-			19982
-		}
-	}
-	uv0.weapon_property_132[66030] = {
-		reload_max = 2692,
-		name = "厌战技能LV10",
-		damage = 154,
-		base = 66020,
-		id = 66030,
-		bullet_ID = {
-			19982
-		}
-	}
-	uv0.weapon_property_132[66040] = {
-		recover_time = 0,
-		name = "胡德技能LV0-PVP",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 2100,
-		queue = 1,
-		range = 115,
-		damage = 50,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 35,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 66040,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199437,
-			199438
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jineng",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
 	}
 end)()

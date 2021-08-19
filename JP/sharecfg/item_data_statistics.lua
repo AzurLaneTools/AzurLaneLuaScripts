@@ -12790,6 +12790,31 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40119] = {
+		display = "購入するとメンタルユニット×1000を入手できます",
+		name = "メンタルユニットパック",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40119,
+		is_world = 0,
+		icon = "ChargeIcon/boxChips",
+		display_icon = {
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[40901] = {
 		display = "ランダムに正月シリーズの着せ替え衣装、装備外装箱×3、ダイヤ×2018、キューブ×8、家具コイン×100、高速建造材×4が入手できます",
 		name = "福袋",
@@ -136257,6 +136282,25 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59229] = {
+		display = "イベント「闇靄払う銀翼」報酬交換用アイテム。イベント終了後に削除される。",
+		name = "銀翼バッジ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59229,
+		is_world = 0,
+		icon = "Props/meixiv3_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59232] = {
 		display = "「闇靄接近」報酬交換用アイテム。イベント終了後に削除される。",
 		name = "訓練Pt",
@@ -146863,6 +146907,7 @@ pg.item_data_statistics = {
 		40116,
 		40117,
 		40118,
+		40119,
 		40901,
 		40902,
 		40903,
@@ -149579,6 +149624,7 @@ pg.item_data_statistics = {
 		59225,
 		59226,
 		59227,
+		59229,
 		59232,
 		59233,
 		59601,

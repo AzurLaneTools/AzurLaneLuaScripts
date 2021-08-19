@@ -6653,7 +6653,10 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 		tip = "次の段階は目玉報酬を全部交換したことで開放されます"
 	},
 	shop_street_activity_tip = {
-		tip = "*<color=#A1E400FF>21.8.12-21.9.1</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
+		tip = "*<color=#A1E400FF>$1</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
+	},
+	shop_street_Equipment_skin_box_help = {
+		tip = "<color=#A1E400FF>$1</COLOR> 販売期間：<color=#A1E400FF>$2</COLOR>"
 	},
 	twitter_link_title = {
 		tip = "連携中のツイッター：$1"
@@ -7665,7 +7668,7 @@ META戦・ヘレナ(META)が開催中です。META戦で解析Ptを集め、META
 		tip = "アビリティPtが不足しています"
 	},
 	buildship_new_tip = {
-		tip = "イベント期間、天海春香、如月千早、水瀬伊織など出現率UP!"
+		tip = "イベント期間、イングラハム、イントレピッド、リノなど出現率UP!"
 	},
 	buildship_heavy_tip = {
 		tip = "「ビスマルク」「キング・ジョージ5世」などが常設実装！"
@@ -14857,6 +14860,9 @@ EN補給箱・小×45
 	},
 	user_is_forever_banned = {
 		tip = "アカウントが利用停止されています"
+	},
+	gem_shop_xinzhi_tip = {
+		tip = "今月購入済　$1/15回"
 	},
 	cowboy_tips = {
 		tip = {

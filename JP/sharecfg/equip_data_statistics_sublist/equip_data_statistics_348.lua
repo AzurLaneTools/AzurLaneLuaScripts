@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_348 = {
+	[79431] = {
+		type = 1,
+		name = "专属弹幕-U101I",
+		speciality = "なし",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "スキル弾幕",
+		id = 79431,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79431
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79432] = {
+		id = 79432,
+		name = "专属弹幕-U101II",
+		base = 79431,
+		weapon_id = {
+			79432
+		}
+	},
 	[79441] = {
 		type = 1,
 		name = "专属弹幕-棘鳍I",
@@ -350,53 +397,6 @@ pg.equip_data_statistics_348 = {
 		equip_info = {},
 		weapon_id = {
 			79511
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79512] = {
-		id = 79512,
-		name = "专属弹幕-恰巴耶夫II",
-		base = 79511,
-		weapon_id = {
-			79512
-		}
-	},
-	[79521] = {
-		type = 1,
-		name = "专属弹幕-里诺I",
-		speciality = "なし",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "スキル弾幕",
-		id = 79521,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79521
 		},
 		skill_id = {},
 		part_main = {

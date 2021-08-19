@@ -213,68 +213,75 @@ function slot9.HandleDamageToDeath(slot0)
 	})
 end
 
-function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
+function slot9.UpdateHP(slot0, slot1, slot2)
 	if not slot0:IsAlive() then
 		return
 	end
 
-	slot11 = slot1
+	if not slot0:IsAlive() then
+		return
+	end
+
+	slot10 = slot2.font
+	slot11 = slot2.cldPos
+	slot12 = slot1
 
 	if not slot2.isHeal then
-		slot12 = {
+		slot13 = {
 			damage = -slot1,
 			isShare = slot2.isShare,
 			miss = slot2.isMiss,
 			cri = slot2.isCri,
+			damageSrc = slot2.srcID,
 			damageAttr = slot2.attr
 		}
 
-		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_DAMAGE, slot12)
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_DAMAGE, slot13)
 
-		if slot0._currentHP <= slot12.damage then
+		if slot0._currentHP <= slot13.damage then
 			slot0:TriggerBuff(uv0.BuffEffectType.ON_BEFORE_FATAL_DAMAGE, {})
 		end
 
-		slot1 = -slot12.damage
+		slot1 = -slot13.damage
 
 		if uv1.IsInvincible(slot0) then
 			return
 		end
 	else
-		slot12 = {
+		slot13 = {
 			damage = slot1,
-			isHeal = slot8
+			isHeal = slot7
 		}
 
-		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot12)
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot13)
 
-		slot8 = slot12.isHeal
-		slot1 = slot12.damage
+		slot7 = slot13.isHeal
+		slot1 = slot13.damage
 	end
 
-	slot12 = math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1))
+	slot13 = math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1))
 
-	slot0:SetCurrentHP(slot12)
+	slot0:SetCurrentHP(slot13)
 
-	if slot3 and not slot3:EqualZero() then
-		slot15 = slot0:GetPosition()
-		slot16 = slot0:GetBoxSize().x
-		slot19 = slot3:Clone()
-		slot19.x = Mathf.Clamp(slot19.x, slot15.x - slot16, slot15.x + slot16)
+	if slot11 and not slot11:EqualZero() then
+		slot16 = slot0:GetPosition()
+		slot17 = slot0:GetBoxSize().x
+		slot20 = slot11:Clone()
+		slot20.x = Mathf.Clamp(slot20.x, slot16.x - slot17, slot16.x + slot17)
 	end
 
 	slot0:UpdateHPAction({
-		preShieldHP = slot11,
+		preShieldHP = slot12,
 		dHP = slot1,
-		validDHP = slot12 - slot0._currentHP,
-		isMiss = slot6,
-		isCri = slot7,
-		isHeal = slot8,
-		font = slot4,
-		posOffset = slot15 - slot19
+		validDHP = slot13 - slot0._currentHP,
+		isMiss = slot5,
+		isCri = slot6,
+		isHeal = slot7,
+		font = slot10,
+		posOffset = slot16 - slot20
 	})
 
-	if not slot0:IsAlive() and slot5 then
+	if not slot0:IsAlive() and slot4 then
 		slot0:SetDeathReason(slot2.damageReason)
 		slot0:DeadAction()
 	end

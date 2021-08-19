@@ -2,6 +2,902 @@ pg = pg or {}
 pg.weapon_property_324 = {}
 
 (function ()
+	uv0.weapon_property_324[691813] = {
+		name = "【2020信浓活动普通T6】BOSS 测试者 二阶段黄色子母弹",
+		range = 120,
+		type = 2,
+		base = 1000,
+		action_index = "skill",
+		suppress = 1,
+		reload_max = 9999,
+		fire_sfx = "",
+		queue = 1,
+		id = 691813,
+		aim_type = 1,
+		bullet_ID = {
+			760014
+		},
+		barrage_ID = {
+			770025
+		}
+	}
+	uv0.weapon_property_324[691814] = {
+		name = "【2020信浓活动普通T6】BOSS 测试者 二阶段蓝色子弹扩散",
+		range = 120,
+		suppress = 1,
+		base = 1000,
+		action_index = "skill2",
+		reload_max = 300,
+		fire_sfx = "",
+		queue = 1,
+		id = 691814,
+		aim_type = 1,
+		bullet_ID = {
+			760025,
+			760026,
+			760027
+		},
+		barrage_ID = {
+			770028,
+			770028,
+			770028
+		}
+	}
+	uv0.weapon_property_324[691815] = {
+		name = "【2020信浓活动普通T6】BOSS 测试者 二阶段紫色子母弹",
+		range = 120,
+		type = 2,
+		base = 1000,
+		action_index = "",
+		suppress = 1,
+		reload_max = 300,
+		fire_sfx = "",
+		queue = 2,
+		id = 691815,
+		aim_type = 1,
+		bullet_ID = {
+			760028,
+			760029
+		},
+		barrage_ID = {
+			770030,
+			770032
+		}
+	}
+	uv0.weapon_property_324[691816] = {
+		reload_max = 300,
+		name = "【2020信浓活动普通T6】BOSS 测试者 二阶段三角形鱼雷弹幕",
+		damage = 36,
+		base = 1001,
+		id = 691816,
+		queue = 3,
+		action_index = "",
+		suppress = 1,
+		bullet_ID = {
+			760160,
+			760162,
+			760164
+		},
+		barrage_ID = {
+			730076,
+			730078,
+			730080
+		},
+		oxy_type = {
+			1
+		}
+	}
+	uv0.weapon_property_324[691817] = {
+		fire_fx_loop_type = 1,
+		name = "【2020信浓活动普通T6】BOSS 测试者 二阶段前排跨射",
+		damage = 26,
+		type = 19,
+		min_range = 20,
+		fire_fx = "CAFire",
+		suppress = 1,
+		range = 80,
+		reload_max = 300,
+		action_index = "",
+		fire_sfx = "battle/cannon-main",
+		base = 1000,
+		id = 691817,
+		aim_type = 1,
+		bullet_ID = {
+			399988
+		},
+		barrage_ID = {
+			399912
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 1
+		}
+	}
+	uv0.weapon_property_324[691818] = {
+		fire_fx_loop_type = 1,
+		name = "【2020信浓活动普通T6】BOSS 测试者 二阶段后排跨射",
+		damage = 30,
+		type = 19,
+		range = 150,
+		fire_fx = "CAFire",
+		min_range = 80,
+		action_index = "",
+		reload_max = 600,
+		base = 1000,
+		fire_sfx = "battle/cannon-main",
+		queue = 5,
+		id = 691818,
+		suppress = 1,
+		aim_type = 1,
+		bullet_ID = {
+			1530
+		},
+		barrage_ID = {
+			20017
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 1
+		}
+	}
+	uv0.weapon_property_324[692601] = {
+		name = "【2020信浓活动困难T1】BOSS 测试者 近程自卫火炮",
+		range = 38,
+		damage = 12,
+		base = 1000,
+		type = 2,
+		fire_fx_loop_type = 1,
+		suppress = 1,
+		reload_max = 900,
+		queue = 8,
+		id = 692601,
+		aim_type = 1,
+		bullet_ID = {
+			801
+		},
+		barrage_ID = {
+			14
+		}
+	}
+	uv0.weapon_property_324[692602] = {
+		name = "【2020信浓活动困难T1】BOSS 测试者 第一波 主炮齐射",
+		range = 120,
+		damage = 18,
+		base = 1000,
+		fire_fx = "CAFire",
+		action_index = "",
+		reload_max = 600,
+		fire_sfx = "battle/cannon-main",
+		queue = 5,
+		id = 692602,
+		bullet_ID = {
+			399996,
+			399997,
+			399998,
+			399999
+		},
+		barrage_ID = {
+			770017,
+			770018,
+			770019,
+			770020
+		}
+	}
+	uv0.weapon_property_324[692603] = {
+		name = "【2020信浓活动困难T1】BOSS 测试者 第一波 圆形子弹",
+		range = 120,
+		damage = 18,
+		base = 1000,
+		type = 2,
+		fire_fx = "CAFire",
+		action_index = "",
+		reload_max = 9999,
+		fire_sfx = "battle/cannon-main",
+		queue = 2,
+		id = 692603,
+		bullet_ID = {
+			399993
+		},
+		barrage_ID = {
+			399993
+		}
+	}
+	uv0.weapon_property_324[692604] = {
+		suppress = 1,
+		name = "【2020信浓活动困难T1】BOSS 测试者 第一波 竖排鱼雷*8",
+		damage = 40,
+		base = 1001,
+		action_index = "",
+		reload_max = 9999,
+		queue = 3,
+		id = 692604,
+		aim_type = 0,
+		bullet_ID = {
+			30067
+		},
+		barrage_ID = {
+			770016
+		}
+	}
+	uv0.weapon_property_324[692605] = {
+		type = 19,
+		range = 150,
+		damage = 42,
+		base = 1000,
+		suppress = 1,
+		fire_fx = "CAFire",
+		min_range = 75,
+		name = "【2020信浓活动困难T1】BOSS 测试者 第一波 后排跨射",
+		reload_max = 9999,
+		fire_sfx = "battle/cannon-main",
+		id = 692605,
+		aim_type = 1,
+		bullet_ID = {
+			1530
+		},
+		barrage_ID = {
+			20017
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 1
+		}
+	}
+	uv0.weapon_property_324[692606] = {
+		type = 2,
+		range = 120,
+		damage = 16,
+		base = 1000,
+		name = "【2020信浓活动困难T1】BOSS 测试者 第二波 横向成排子弹",
+		action_index = "",
+		suppress = 1,
+		reload_max = 9999,
+		queue = 1,
+		id = 692606,
+		bullet_ID = {
+			760010,
+			760010,
+			760010
+		},
+		barrage_ID = {
+			595031,
+			595032,
+			595033
+		}
+	}
+	uv0.weapon_property_324[692607] = {
+		type = 2,
+		range = 120,
+		damage = 16,
+		base = 1000,
+		name = "【2020信浓活动困难T1】BOSS 测试者 第二波 横向成排子弹",
+		fire_fx = "CAFire",
+		suppress = 1,
+		action_index = "",
+		reload_max = 9999,
+		queue = 2,
+		id = 692607,
+		bullet_ID = {
+			760010,
+			760010
+		},
+		barrage_ID = {
+			595041,
+			595042
+		}
+	}
+	uv0.weapon_property_324[692608] = {
+		name = "【2020信浓活动困难T1】BOSS 测试者 第二波 红色扩散弹幕",
+		range = 120,
+		damage = 14,
+		base = 1000,
+		type = 2,
+		suppress = 1,
+		reload_max = 9999,
+		queue = 3,
+		id = 692608,
+		aim_type = 1,
+		bullet_ID = {
+			594006
+		},
+		barrage_ID = {
+			770021
+		}
+	}
+	uv0.weapon_property_324[692609] = {
+		recover_time = 3,
+		name = "【2020信浓活动困难T1】BOSS 测试者 第三波 浮游炮",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 100,
+		queue = 4,
+		range = 120,
+		damage = 18,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		id = 692609,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			760169
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_324[692610] = {
+		recover_time = 3,
+		name = "【2020信浓活动困难T1】BOSS 测试者 第三波 浮游炮",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 100,
+		queue = 5,
+		range = 120,
+		damage = 18,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		id = 692610,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			760170
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_324[692611] = {
+		name = "【2020信浓活动困难T1】BOSS 测试者 第三波 浮游炮蓝色子弹",
+		range = 120,
+		damage = 16,
+		base = 1000,
+		type = 2,
+		action_index = "",
+		reload_max = 9999,
+		queue = 1,
+		id = 692611,
+		bullet_ID = {
+			760011
+		},
+		barrage_ID = {
+			770022
+		}
+	}
+	uv0.weapon_property_324[692612] = {
+		name = "【2020信浓活动困难T1】BOSS 测试者 第三波 浮游炮橙色扩散",
+		range = 999,
+		damage = 16,
+		base = 1000,
+		type = 2,
+		fire_fx = "fangkongpaohuoshe2",
+		action_index = "",
+		reload_max = 9999,
+		fire_sfx = "battle/air-atk",
+		queue = 2,
+		id = 692612,
+		bullet_ID = {
+			760013
+		},
+		barrage_ID = {
+			770024
+		}
+	}
+	uv0.weapon_property_324[692701] = {
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 近程自卫火炮III",
+		range = 38,
+		damage = 12,
+		base = 1000,
+		type = 2,
+		suppress = 1,
+		reload_max = 700,
+		queue = 1,
+		id = 692701,
+		aim_type = 1,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		}
+	}
+	uv0.weapon_property_324[692702] = {
+		reload_max = 1800,
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 联装主炮x4-散射III型弹幕2",
+		damage = 24,
+		base = 1000,
+		id = 692702,
+		fire_fx = "CAFire",
+		queue = 1,
+		fire_sfx = "battle/cannon-main",
+		bullet_ID = {
+			1403
+		},
+		barrage_ID = {
+			200101
+		}
+	}
+	uv0.weapon_property_324[692703] = {
+		type = 2,
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 扫射弹幕",
+		damage = 18,
+		base = 1000,
+		suppress = 1,
+		reload_max = 600,
+		queue = 3,
+		id = 692703,
+		aim_type = 1,
+		bullet_ID = {
+			620010,
+			620010
+		},
+		barrage_ID = {
+			940041,
+			940042
+		}
+	}
+	uv0.weapon_property_324[692704] = {
+		type = 2,
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 扫射弹幕",
+		damage = 18,
+		base = 1000,
+		suppress = 1,
+		reload_max = 600,
+		queue = 3,
+		id = 692704,
+		aim_type = 1,
+		bullet_ID = {
+			620010,
+			620010
+		},
+		barrage_ID = {
+			940043,
+			940044
+		}
+	}
+	uv0.weapon_property_324[692705] = {
+		reload_max = 1200,
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 特殊弹幕",
+		damage = 24,
+		base = 1000,
+		id = 692705,
+		suppress = 1,
+		aim_type = 1,
+		bullet_ID = {
+			620006,
+			620007,
+			620008,
+			620009
+		},
+		barrage_ID = {
+			990001,
+			990002,
+			990241,
+			990242
+		}
+	}
+	uv0.weapon_property_324[692706] = {
+		name = "【2020信浓活动困难T2】BOSS 黑高雄 鱼雷",
+		range = 60,
+		damage = 52,
+		base = 1001,
+		id = 692706,
+		queue = 1,
+		suppress = 1,
+		initial_over_heat = 1,
+		bullet_ID = {
+			620011,
+			620012
+		},
+		barrage_ID = {
+			620016,
+			620017
+		}
+	}
+	uv0.weapon_property_324[692707] = {
+		type = 19,
+		range = 150,
+		damage = 22,
+		base = 1000,
+		suppress = 1,
+		fire_fx = "CAFire",
+		min_range = 85,
+		name = "【2020信浓活动困难T2】BOSS 跨射攻击后排武器2x2轮",
+		reload_max = 2500,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 692707,
+		aim_type = 1,
+		bullet_ID = {
+			1531
+		},
+		barrage_ID = {
+			20015
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_324[692801] = {
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 前排跨射",
+		range = 75,
+		damage = 28,
+		base = 1000,
+		spawn_bound = "cannon2",
+		fire_fx = "CAFire",
+		suppress = 1,
+		type = 19,
+		reload_max = 1500,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 692801,
+		aim_type = 1,
+		bullet_ID = {
+			400000
+		},
+		barrage_ID = {
+			399912
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 1
+		}
+	}
+	uv0.weapon_property_324[692802] = {
+		type = 19,
+		range = 150,
+		damage = 32,
+		base = 1000,
+		suppress = 1,
+		fire_fx = "CAFire",
+		min_range = 85,
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 后排跨射",
+		spawn_bound = "cannon3",
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 692802,
+		aim_type = 1,
+		bullet_ID = {
+			834
+		},
+		barrage_ID = {
+			20017
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 1
+		}
+	}
+	uv0.weapon_property_324[692803] = {
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 主炮中心弹幕",
+		damage = 24,
+		base = 1000,
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 1000,
+		fire_sfx = "battle/cannon-main",
+		queue = 3,
+		id = 692803,
+		aim_type = 1,
+		bullet_ID = {
+			760059
+		},
+		barrage_ID = {
+			690104
+		}
+	}
+	uv0.weapon_property_324[692804] = {
+		reload_max = 1200,
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 主炮竖排弹幕",
+		damage = 24,
+		base = 1000,
+		id = 692804,
+		fire_fx = "CAFire",
+		queue = 3,
+		fire_sfx = "battle/cannon-main",
+		bullet_ID = {
+			835,
+			835
+		},
+		barrage_ID = {
+			690105,
+			690106
+		}
+	}
+	uv0.weapon_property_324[692805] = {
+		reload_max = 600,
+		range = 70,
+		damage = 20,
+		base = 1000,
+		id = 692805,
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 双联装炮连射",
+		type = 2,
+		bullet_ID = {
+			760060
+		},
+		barrage_ID = {
+			690014
+		}
+	}
+	uv0.weapon_property_324[692806] = {
+		reload_max = 1500,
+		range = 70,
+		damage = 16,
+		base = 1000,
+		id = 692806,
+		name = "【2020信浓活动困难T3】BOSS 梦境塞壬破局者 副炮4way射击",
+		type = 2,
+		bullet_ID = {
+			831,
+			831
+		},
+		barrage_ID = {
+			690107,
+			690108
+		}
+	}
+	uv0.weapon_property_324[693601] = {
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 开幕自机狙乱弹",
+		range = 120,
+		damage = 9,
+		base = 1000,
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 9999,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 693601,
+		aim_type = 1,
+		bullet_ID = {
+			760070
+		},
+		barrage_ID = {
+			700001
+		}
+	}
+	uv0.weapon_property_324[693602] = {
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 延时环状链子弹",
+		range = 120,
+		base = 1000,
+		fire_fx = "CAFire",
+		suppress = 1,
+		reload_max = 9999,
+		fire_sfx = "battle/cannon-main",
+		queue = 1,
+		id = 693602,
+		aim_type = 1,
+		bullet_ID = {
+			760076,
+			760076,
+			760076,
+			760076,
+			760076,
+			760076,
+			760076,
+			760076
+		},
+		barrage_ID = {
+			700002,
+			700003,
+			700004,
+			700005,
+			700006,
+			700007,
+			700008,
+			700009
+		}
+	}
+	uv0.weapon_property_324[693603] = {
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 3way自机狙",
+		range = 120,
+		type = 2,
+		base = 1000,
+		suppress = 1,
+		reload_max = 9999,
+		queue = 2,
+		id = 693603,
+		aim_type = 1,
+		bullet_ID = {
+			760077,
+			760078,
+			760079,
+			760080,
+			760081,
+			760082,
+			760083,
+			760084,
+			760085,
+			760086
+		},
+		barrage_ID = {
+			700010,
+			700011,
+			700012,
+			700013,
+			700014,
+			700015,
+			700016,
+			700017,
+			700018,
+			700019
+		}
+	}
+	uv0.weapon_property_324[693604] = {
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 红黑色上下排子母弹 III",
+		range = 120,
+		damage = 18,
+		base = 1000,
+		type = 2,
+		fire_fx = "",
+		action_index = "",
+		reload_max = 9999,
+		fire_sfx = "",
+		queue = 1,
+		id = 693604,
+		bullet_ID = {
+			760071,
+			760072
+		},
+		barrage_ID = {
+			770060,
+			770061
+		}
+	}
+	uv0.weapon_property_324[693605] = {
+		reload_max = 1000,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 2x4自机狙鱼雷",
+		damage = 52,
+		base = 1001,
+		id = 693605,
+		queue = 1,
+		suppress = 1,
+		bullet_ID = {
+			700017
+		},
+		barrage_ID = {
+			700020
+		}
+	}
+	uv0.weapon_property_324[693606] = {
+		reload_max = 1000,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 开幕雷击",
+		damage = 44,
+		base = 1001,
+		id = 693606,
+		queue = 1,
+		aim_type = 0,
+		bullet_ID = {
+			700018,
+			700018,
+			700018,
+			700019
+		},
+		barrage_ID = {
+			700021,
+			700022,
+			700023,
+			700024
+		}
+	}
+	uv0.weapon_property_324[693607] = {
+		reload_max = 1000,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 开幕雷击2 通常鱼雷",
+		damage = 44,
+		base = 1001,
+		id = 693607,
+		queue = 1,
+		aim_type = 0,
+		bullet_ID = {
+			700018,
+			700018,
+			700019
+		},
+		barrage_ID = {
+			700021,
+			700023,
+			700025
+		}
+	}
+	uv0.weapon_property_324[693608] = {
+		reload_max = 2700,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 开幕雷击2 磁性鱼雷",
+		damage = 44,
+		base = 1001,
+		id = 693608,
+		suppress = 1,
+		bullet_ID = {
+			700020
+		},
+		barrage_ID = {
+			700026
+		}
+	}
+	uv0.weapon_property_324[693609] = {
+		reload_max = 1000,
+		range = 999,
+		damage = 44,
+		base = 1001,
+		id = 693609,
+		queue = 1,
+		name = "【2020信浓活动困难T4】BOSS 梦境塞壬潜伏者 开幕雷击3 竖排鱼雷",
+		aim_type = 0,
+		bullet_ID = {
+			700126,
+			700126,
+			700126
+		},
+		barrage_ID = {
+			700140,
+			700141,
+			700142
+		}
+	}
+	uv0.weapon_property_324[693701] = {
+		type = 2,
+		name = "【2020信浓活动困难T5】BOSS 拉菲1way黄色长时间自机狙",
+		damage = 15,
+		base = 1000,
+		suppress = 1,
+		reload_max = 600,
+		queue = 1,
+		id = 693701,
+		aim_type = 1,
+		bullet_ID = {
+			920001
+		},
+		barrage_ID = {
+			920002
+		}
+	}
 	uv0.weapon_property_324[693702] = {
 		type = 2,
 		name = "【2020信浓活动困难T5】BOSS 拉菲3way黄色长时间自机狙",
@@ -559,937 +1455,6 @@ pg.weapon_property_324 = {}
 		},
 		barrage_ID = {
 			770025
-		}
-	}
-	uv0.weapon_property_324[693814] = {
-		name = "【2020信浓活动困难T6】BOSS 测试者 二阶段蓝色子弹扩散",
-		range = 120,
-		damage = 28,
-		base = 1000,
-		action_index = "skill2",
-		suppress = 1,
-		reload_max = 300,
-		fire_sfx = "",
-		queue = 1,
-		id = 693814,
-		aim_type = 1,
-		bullet_ID = {
-			760025,
-			760026,
-			760027
-		},
-		barrage_ID = {
-			770028,
-			770028,
-			770028
-		}
-	}
-	uv0.weapon_property_324[693815] = {
-		name = "【2020信浓活动困难T6】BOSS 测试者 二阶段紫色子母弹",
-		range = 120,
-		damage = 20,
-		base = 1000,
-		type = 2,
-		action_index = "",
-		suppress = 1,
-		reload_max = 300,
-		fire_sfx = "",
-		queue = 2,
-		id = 693815,
-		aim_type = 1,
-		bullet_ID = {
-			760028,
-			760029
-		},
-		barrage_ID = {
-			770030,
-			770032
-		}
-	}
-	uv0.weapon_property_324[693816] = {
-		reload_max = 300,
-		name = "【2020信浓活动困难T6】BOSS 测试者 二阶段三角形鱼雷弹幕",
-		damage = 50,
-		base = 1001,
-		id = 693816,
-		queue = 3,
-		action_index = "",
-		suppress = 1,
-		bullet_ID = {
-			760160,
-			760162,
-			760164
-		},
-		barrage_ID = {
-			730076,
-			730078,
-			730080
-		},
-		oxy_type = {
-			1
-		}
-	}
-	uv0.weapon_property_324[693817] = {
-		fire_fx_loop_type = 1,
-		name = "【2020信浓活动困难T6】BOSS 测试者 二阶段前排跨射",
-		damage = 42,
-		type = 19,
-		min_range = 20,
-		fire_fx = "CAFire",
-		suppress = 1,
-		range = 80,
-		reload_max = 300,
-		action_index = "",
-		fire_sfx = "battle/cannon-main",
-		base = 1000,
-		id = 693817,
-		aim_type = 1,
-		bullet_ID = {
-			399988
-		},
-		barrage_ID = {
-			399912
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 2,
-			time = 1
-		}
-	}
-	uv0.weapon_property_324[693818] = {
-		fire_fx_loop_type = 1,
-		name = "【2020信浓活动困难T6】BOSS 测试者 二阶段后排跨射",
-		damage = 52,
-		type = 19,
-		range = 150,
-		fire_fx = "CAFire",
-		min_range = 80,
-		action_index = "",
-		reload_max = 500,
-		base = 1000,
-		fire_sfx = "battle/cannon-main",
-		queue = 5,
-		id = 693818,
-		suppress = 1,
-		aim_type = 1,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			20017
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 2,
-			time = 1
-		}
-	}
-	uv0.weapon_property_324[694601] = {
-		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第一波 横排黄色子弹",
-		range = 120,
-		damage = 20,
-		base = 1000,
-		fire_fx = "CAFire",
-		action_index = "",
-		reload_max = 9999,
-		queue = 1,
-		id = 694601,
-		bullet_ID = {
-			760043,
-			760043,
-			760043,
-			760043,
-			760043,
-			760043
-		},
-		barrage_ID = {
-			770044,
-			770045,
-			770046,
-			770047,
-			770048,
-			770049
-		}
-	}
-	uv0.weapon_property_324[694602] = {
-		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第一波 4way蓝色自机狙",
-		range = 120,
-		damage = 28,
-		base = 1000,
-		type = 2,
-		fire_fx = "CAFire",
-		suppress = 1,
-		action_index = "",
-		reload_max = 9999,
-		queue = 2,
-		id = 694602,
-		aim_type = 1,
-		bullet_ID = {
-			760044,
-			760045,
-			760046,
-			760047,
-			760048
-		},
-		barrage_ID = {
-			770050,
-			770050,
-			770050,
-			770050,
-			770050
-		}
-	}
-	uv0.weapon_property_324[694603] = {
-		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第二波 紫圆球放出黄色子弹",
-		range = 120,
-		damage = 20,
-		base = 1000,
-		type = 2,
-		action_index = "skill",
-		reload_max = 9999,
-		fire_sfx = "",
-		queue = 1,
-		id = 694603,
-		bullet_ID = {
-			760049,
-			760049
-		},
-		barrage_ID = {
-			770051,
-			770053
-		}
-	}
-	uv0.weapon_property_324[694604] = {
-		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第二波 紫圆球放出红色子弹",
-		range = 120,
-		damage = 20,
-		base = 1000,
-		type = 2,
-		action_index = "skill",
-		reload_max = 9999,
-		fire_sfx = "",
-		queue = 2,
-		id = 694604,
-		bullet_ID = {
-			760050,
-			760050
-		},
-		barrage_ID = {
-			770051,
-			770053
-		}
-	}
-	uv0.weapon_property_324[694605] = {
-		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第三波 主炮扫射",
-		range = 120,
-		damage = 48,
-		base = 1000,
-		fire_fx = "CAFire",
-		action_index = "",
-		reload_max = 9999,
-		fire_sfx = "battle/cannon-main",
-		queue = 1,
-		id = 694605,
-		bullet_ID = {
-			815,
-			815,
-			815,
-			815,
-			815
-		},
-		barrage_ID = {
-			690041,
-			690042,
-			690043,
-			690044,
-			690045
-		}
-	}
-	uv0.weapon_property_324[694606] = {
-		type = 19,
-		range = 150,
-		damage = 62,
-		base = 1000,
-		suppress = 1,
-		fire_fx = "CAFire",
-		min_range = 75,
-		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第三波 后排跨射",
-		reload_max = 9999,
-		fire_sfx = "battle/cannon-main",
-		queue = 2,
-		id = 694606,
-		aim_type = 1,
-		bullet_ID = {
-			1530
-		},
-		barrage_ID = {
-			20017
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 2,
-			time = 1
-		}
-	}
-	uv0.weapon_property_324[694607] = {
-		reload_max = 9999,
-		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第三波 鱼雷",
-		damage = 56,
-		base = 1001,
-		id = 694607,
-		queue = 3,
-		suppress = 1,
-		aim_type = 0,
-		bullet_ID = {
-			700125,
-			700125
-		},
-		barrage_ID = {
-			700138,
-			700139
-		}
-	}
-	uv0.weapon_property_324[694608] = {
-		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第四波 紫色旋转弹幕",
-		range = 120,
-		damage = 20,
-		base = 1000,
-		type = 2,
-		action_index = "skill",
-		reload_max = 9999,
-		fire_sfx = "",
-		queue = 2,
-		id = 694608,
-		bullet_ID = {
-			760052,
-			760055
-		},
-		barrage_ID = {
-			770033,
-			770058
-		}
-	}
-	uv0.weapon_property_324[694609] = {
-		fire_fx_loop_type = 1,
-		name = "【2020信浓活动SP】BOSS 测试者(过劳死) 第四波 大面积弹幕",
-		damage = 20,
-		type = 2,
-		range = 999,
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		attack_attribute = 4,
-		reload_max = 9999,
-		base = 1000,
-		suppress = 1,
-		queue = 1,
-		id = 694609,
-		effect_move = 1,
-		aim_type = 1,
-		bullet_ID = {
-			760057,
-			760058
-		},
-		barrage_ID = {
-			730082,
-			730083
-		}
-	}
-	uv0.weapon_property_324[696601] = {
-		name = "【2020信浓活动普通TS1】BOSS 塞壬探索者II型 四联装鱼雷 ",
-		range = 70,
-		damage = 20,
-		base = 1001,
-		suppress = 1,
-		reload_max = 2100,
-		queue = 1,
-		id = 696601,
-		initial_over_heat = 1,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			1403
-		},
-		oxy_type = {
-			1
-		}
-	}
-	uv0.weapon_property_324[696602] = {
-		name = "【2020信浓活动普通TS1】BOSS 塞壬探索者II型 单发瞄准x4随机 ",
-		range = 70,
-		damage = 6,
-		base = 1000,
-		type = 2,
-		suppress = 1,
-		reload_max = 980,
-		queue = 1,
-		id = 696602,
-		aim_type = 1,
-		bullet_ID = {
-			811
-		},
-		barrage_ID = {
-			1005
-		}
-	}
-	uv0.weapon_property_324[696603] = {
-		type = 2,
-		range = 70,
-		damage = 8,
-		base = 1000,
-		name = "【2020信浓活动普通TS1】BOSS 塞壬探索者II型 扫射弹幕",
-		suppress = 1,
-		reload_max = 2200,
-		queue = 3,
-		id = 696603,
-		bullet_ID = {
-			811,
-			811,
-			811,
-			811
-		},
-		barrage_ID = {
-			21047,
-			21048,
-			21049,
-			21050
-		}
-	}
-	uv0.weapon_property_324[696604] = {
-		name = "【2020信浓活动普通TS1】BOSS 塞壬探索者II型 双联装炮瞄准 ",
-		range = 70,
-		damage = 12,
-		base = 1000,
-		type = 2,
-		suppress = 1,
-		reload_max = 1200,
-		queue = 1,
-		id = 696604,
-		aim_type = 1,
-		bullet_ID = {
-			811
-		},
-		barrage_ID = {
-			1001
-		}
-	}
-	uv0.weapon_property_324[696605] = {
-		name = "【2020信浓活动普通TS1】BOSS 塞壬探索者II型 三角状弹幕",
-		range = 80,
-		damage = 8,
-		base = 1000,
-		suppress = 1,
-		reload_max = 1400,
-		queue = 1,
-		id = 696605,
-		aim_type = 1,
-		bullet_ID = {
-			700001,
-			700002,
-			700003,
-			700004,
-			700005,
-			700001,
-			700002,
-			700003,
-			700004,
-			700005
-		},
-		barrage_ID = {
-			680003,
-			680004,
-			680005,
-			680006,
-			680007,
-			680008,
-			680009,
-			680010,
-			680011,
-			680012
-		}
-	}
-	uv0.weapon_property_324[696606] = {
-		type = 2,
-		range = 70,
-		damage = 6,
-		base = 1000,
-		name = "【2020信浓活动普通TS1】BOSS 塞壬探索者II型 旋转穿透弹",
-		suppress = 1,
-		reload_max = 1250,
-		queue = 2,
-		id = 696606,
-		bullet_ID = {
-			8070,
-			8071
-		},
-		barrage_ID = {
-			21056,
-			21057
-		}
-	}
-	uv0.weapon_property_324[697601] = {
-		name = "【2020信浓活动困难TS1】BOSS 塞壬探索者II型 四联装鱼雷 ",
-		range = 70,
-		damage = 40,
-		base = 1001,
-		suppress = 1,
-		reload_max = 2100,
-		queue = 1,
-		id = 697601,
-		initial_over_heat = 1,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			1403
-		},
-		oxy_type = {
-			1
-		}
-	}
-	uv0.weapon_property_324[697602] = {
-		name = "【2020信浓活动困难TS1】BOSS 塞壬探索者II型 单发瞄准x4随机 ",
-		range = 70,
-		type = 2,
-		base = 1000,
-		suppress = 1,
-		reload_max = 980,
-		queue = 1,
-		id = 697602,
-		aim_type = 1,
-		bullet_ID = {
-			811
-		},
-		barrage_ID = {
-			1005
-		}
-	}
-	uv0.weapon_property_324[697603] = {
-		type = 2,
-		range = 70,
-		damage = 12,
-		base = 1000,
-		name = "【2020信浓活动困难TS1】BOSS 塞壬探索者II型 扫射弹幕",
-		suppress = 1,
-		reload_max = 2200,
-		queue = 3,
-		id = 697603,
-		bullet_ID = {
-			811,
-			811,
-			811,
-			811
-		},
-		barrage_ID = {
-			21047,
-			21048,
-			21049,
-			21050
-		}
-	}
-	uv0.weapon_property_324[697604] = {
-		name = "【2020信浓活动困难TS1】BOSS 塞壬探索者II型 双联装炮瞄准 ",
-		range = 70,
-		damage = 16,
-		base = 1000,
-		type = 2,
-		suppress = 1,
-		reload_max = 1200,
-		queue = 1,
-		id = 697604,
-		aim_type = 1,
-		bullet_ID = {
-			811
-		},
-		barrage_ID = {
-			1001
-		}
-	}
-	uv0.weapon_property_324[697605] = {
-		reload_max = 1400,
-		range = 80,
-		name = "【2020信浓活动困难TS1】BOSS 塞壬探索者II型 三角状弹幕",
-		base = 1000,
-		id = 697605,
-		queue = 1,
-		suppress = 1,
-		aim_type = 1,
-		bullet_ID = {
-			700001,
-			700002,
-			700003,
-			700004,
-			700005,
-			700001,
-			700002,
-			700003,
-			700004,
-			700005
-		},
-		barrage_ID = {
-			680003,
-			680004,
-			680005,
-			680006,
-			680007,
-			680008,
-			680009,
-			680010,
-			680011,
-			680012
-		}
-	}
-	uv0.weapon_property_324[697606] = {
-		type = 2,
-		range = 70,
-		damage = 9,
-		base = 1000,
-		name = "【2020信浓活动困难TS1】BOSS 塞壬探索者II型 旋转穿透弹",
-		suppress = 1,
-		reload_max = 1250,
-		queue = 2,
-		id = 697606,
-		bullet_ID = {
-			8070,
-			8071
-		},
-		barrage_ID = {
-			21056,
-			21057
-		}
-	}
-	uv0.weapon_property_324[698001] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 3,
-		base = 1000,
-		id = 698001,
-		name = "【2020信浓活动】信浓支援弹幕第一波 扇形扩散弹幕",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760088,
-			760089,
-			760090,
-			760091,
-			760092,
-			760093,
-			760094,
-			760095
-		},
-		barrage_ID = {
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067
-		}
-	}
-	uv0.weapon_property_324[698002] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 3,
-		base = 1000,
-		id = 698002,
-		name = "【2020信浓活动】信浓支援弹幕第二波 子母弹",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760096,
-			760097
-		},
-		barrage_ID = {
-			770069,
-			770070
-		}
-	}
-	uv0.weapon_property_324[698003] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 3,
-		base = 1000,
-		id = 698003,
-		name = "【2020信浓活动】信浓支援弹幕第三波 八分饱",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760103,
-			760108,
-			760104,
-			760109
-		},
-		barrage_ID = {
-			770072,
-			770073,
-			770074,
-			770075
-		}
-	}
-	uv0.weapon_property_324[698004] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 5,
-		base = 1000,
-		id = 698004,
-		name = "【2020信浓活动】信浓支援弹幕第一波 扇形扩散弹幕 普通下篇",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760088,
-			760089,
-			760090,
-			760091,
-			760092,
-			760093,
-			760094,
-			760095
-		},
-		barrage_ID = {
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067
-		}
-	}
-	uv0.weapon_property_324[698005] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 5,
-		base = 1000,
-		id = 698005,
-		name = "【2020信浓活动】信浓支援弹幕第二波 子母弹 普通下篇",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760096,
-			760097
-		},
-		barrage_ID = {
-			770069,
-			770070
-		}
-	}
-	uv0.weapon_property_324[698006] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 5,
-		base = 1000,
-		id = 698006,
-		name = "【2020信浓活动】信浓支援弹幕第三波 八分饱 普通下篇",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760103,
-			760108,
-			760104,
-			760109
-		},
-		barrage_ID = {
-			770072,
-			770073,
-			770074,
-			770075
-		}
-	}
-	uv0.weapon_property_324[698007] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		id = 698007,
-		name = "【2020信浓活动】信浓支援弹幕第一波 扇形扩散弹幕 困难上篇",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760088,
-			760089,
-			760090,
-			760091,
-			760092,
-			760093,
-			760094,
-			760095
-		},
-		barrage_ID = {
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067
-		}
-	}
-	uv0.weapon_property_324[698008] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		id = 698008,
-		name = "【2020信浓活动】信浓支援弹幕第二波 子母弹 困难上篇",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760096,
-			760097
-		},
-		barrage_ID = {
-			770069,
-			770070
-		}
-	}
-	uv0.weapon_property_324[698009] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 6,
-		base = 1000,
-		id = 698009,
-		name = "【2020信浓活动】信浓支援弹幕第三波 八分饱 困难上篇",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760103,
-			760108,
-			760104,
-			760109
-		},
-		barrage_ID = {
-			770072,
-			770073,
-			770074,
-			770075
-		}
-	}
-	uv0.weapon_property_324[698010] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 8,
-		base = 1000,
-		id = 698010,
-		name = "【2020信浓活动】信浓支援弹幕第一波 扇形扩散弹幕 困难下篇",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760088,
-			760089,
-			760090,
-			760091,
-			760092,
-			760093,
-			760094,
-			760095
-		},
-		barrage_ID = {
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067,
-			770067
-		}
-	}
-	uv0.weapon_property_324[698011] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 8,
-		base = 1000,
-		id = 698011,
-		name = "【2020信浓活动】信浓支援弹幕第二波 子母弹 困难下篇",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760096,
-			760097
-		},
-		barrage_ID = {
-			770069,
-			770070
-		}
-	}
-	uv0.weapon_property_324[698012] = {
-		reload_max = 9999,
-		range = 120,
-		damage = 8,
-		base = 1000,
-		id = 698012,
-		name = "【2020信浓活动】信浓支援弹幕第三波 八分饱 困难下篇",
-		queue = 7,
-		type = 2,
-		bullet_ID = {
-			760103,
-			760108,
-			760104,
-			760109
-		},
-		barrage_ID = {
-			770072,
-			770073,
-			770074,
-			770075
-		}
-	}
-	uv0.weapon_property_324[695001] = {
-		reload_max = 9999,
-		range = 120,
-		name = "【2020信浓活动EX】BOSS 信浓 第一波 蝴蝶子母弹",
-		base = 1000,
-		id = 695001,
-		fire_fx = "CAFire",
-		action_index = "",
-		queue = 1,
-		bullet_ID = {
-			760110,
-			760110
-		},
-		barrage_ID = {
-			770078,
-			770082
-		}
-	}
-	uv0.weapon_property_324[695002] = {
-		name = "【2020信浓活动EX】BOSS 信浓 第一波 横排武士刀",
-		range = 120,
-		damage = 120,
-		base = 1000,
-		fire_fx = "CAFire",
-		action_index = "",
-		reload_max = 9999,
-		queue = 2,
-		id = 695002,
-		bullet_ID = {
-			760115
-		},
-		barrage_ID = {
-			770080
-		}
-	}
-	uv0.weapon_property_324[695003] = {
-		name = "【2020信浓活动EX】BOSS 信浓 第一波 连续斩击弹",
-		range = 120,
-		damage = 40,
-		base = 1000,
-		action_index = "",
-		fire_fx = "CAFire",
-		suppress = 1,
-		reload_max = 9999,
-		queue = 3,
-		id = 695003,
-		aim_type = 1,
-		bullet_ID = {
-			760116
-		},
-		barrage_ID = {
-			770081
 		}
 	}
 end)()

@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_375 = {
+	[90101] = {
+		id = 90101,
+		damage = "4 x 5",
+		base = 90100,
+		weapon_id = {
+			90101
+		}
+	},
+	[90102] = {
+		id = 90102,
+		damage = "5 x 5",
+		base = 90100,
+		weapon_id = {
+			90102
+		}
+	},
+	[90103] = {
+		id = 90103,
+		damage = "6 x 5",
+		base = 90100,
+		weapon_id = {
+			90103
+		}
+	},
+	[90104] = {
+		id = 90104,
+		damage = "7 x 5",
+		base = 90100,
+		weapon_id = {
+			90104
+		}
+	},
 	[90105] = {
 		id = 90105,
 		damage = "8 x 5",
@@ -161,97 +193,6 @@ pg.equip_data_statistics_375 = {
 		base = 90120,
 		weapon_id = {
 			90130
-		}
-	},
-	[90140] = {
-		tech = 3,
-		name = "138.6mm単装砲Mle1929",
-		speciality = "追尾",
-		type = 1,
-		value_2 = 35,
-		ammo = 2,
-		damage = "5 x 5",
-		nationality = 8,
-		rarity = 5,
-		id = 90140,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "50100",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				1,
-				2206
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2206
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90140
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG",
-			"HE"
-		}
-	},
-	[90141] = {
-		id = 90141,
-		damage = "6 x 5",
-		base = 90140,
-		weapon_id = {
-			90141
-		}
-	},
-	[90142] = {
-		id = 90142,
-		damage = "7 x 5",
-		base = 90140,
-		weapon_id = {
-			90142
-		}
-	},
-	[90143] = {
-		id = 90143,
-		damage = "8 x 5",
-		base = 90140,
-		weapon_id = {
-			90143
 		}
 	}
 }

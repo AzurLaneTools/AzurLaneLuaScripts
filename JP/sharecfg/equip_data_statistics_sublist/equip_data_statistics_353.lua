@@ -1,5 +1,93 @@
 pg = pg or {}
 pg.equip_data_statistics_353 = {
+	[85052] = {
+		id = 85052,
+		anti_siren = 200,
+		damage = "15 x 6",
+		base = 85040,
+		weapon_id = {
+			85052
+		}
+	},
+	[85053] = {
+		id = 85053,
+		anti_siren = 300,
+		damage = "15 x 6",
+		base = 85040,
+		weapon_id = {
+			85053
+		}
+	},
+	[85060] = {
+		tech = 1,
+		name = "100mm連装対空砲SM-5-1s",
+		speciality = "対空",
+		type = 6,
+		value_2 = 12,
+		ammo = 5,
+		damage = "35/回",
+		nationality = 7,
+		rarity = 3,
+		id = 85060,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "0",
+		icon = "85060",
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85060
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85061] = {
+		id = 85061,
+		damage = "40/回",
+		base = 85060,
+		weapon_id = {
+			85061
+		}
+	},
 	[85062] = {
 		id = 85062,
 		damage = "45/回",
@@ -205,38 +293,6 @@ pg.equip_data_statistics_353 = {
 			"CL",
 			"MG",
 			"HE"
-		}
-	},
-	[85141] = {
-		id = 85141,
-		damage = "6 x 6",
-		base = 85140,
-		weapon_id = {
-			85141
-		}
-	},
-	[85142] = {
-		id = 85142,
-		damage = "7 x 6",
-		base = 85140,
-		weapon_id = {
-			85142
-		}
-	},
-	[85143] = {
-		id = 85143,
-		damage = "8 x 6",
-		base = 85140,
-		weapon_id = {
-			85143
-		}
-	},
-	[85144] = {
-		id = 85144,
-		damage = "9 x 6",
-		base = 85140,
-		weapon_id = {
-			85144
 		}
 	}
 }

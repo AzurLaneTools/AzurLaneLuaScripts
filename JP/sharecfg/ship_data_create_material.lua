@@ -82,17 +82,19 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>天海春香</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>イングラハム</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>如月千早</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>イントレピッド</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>水瀬伊織</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>リノ</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>三浦あずさ</color>：0.5%",
+			"<color=#ffde38>ブレマートン</color>：0.5%",
 			" ",
-			"<color=#d797ff>双海真美</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>ノーチラス</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>双海亜美</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>クーパー</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#3dc6ff>マーブルヘッド</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

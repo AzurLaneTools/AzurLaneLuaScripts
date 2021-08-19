@@ -1,5 +1,51 @@
 pg = pg or {}
 pg.equip_data_statistics_347 = {
+	[79342] = {
+		id = 79342,
+		base = 79341,
+		weapon_id = {
+			79342
+		}
+	},
+	[79361] = {
+		type = 1,
+		name = "专属弹幕-天狼星I",
+		speciality = "なし",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "スキル弾幕",
+		id = 79361,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79361
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[79362] = {
 		id = 79362,
 		name = "专属弹幕-天狼星II",
@@ -334,53 +380,6 @@ pg.equip_data_statistics_347 = {
 		base = 79421,
 		weapon_id = {
 			79422
-		}
-	},
-	[79431] = {
-		type = 1,
-		name = "专属弹幕-U101I",
-		speciality = "なし",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "スキル弾幕",
-		id = 79431,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79431
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79432] = {
-		id = 79432,
-		name = "专属弹幕-U101II",
-		base = 79431,
-		weapon_id = {
-			79432
 		}
 	}
 }

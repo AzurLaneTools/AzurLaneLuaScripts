@@ -1,5 +1,32 @@
 pg = pg or {}
 pg.equip_data_statistics_368 = {
+	[89150] = {
+		id = 89150,
+		value_2 = 30,
+		value_1 = "35",
+		base = 89140
+	},
+	[89151] = {
+		value_2 = 32,
+		anti_siren = 100,
+		base = 89140,
+		id = 89151,
+		value_1 = "38"
+	},
+	[89152] = {
+		value_2 = 34,
+		anti_siren = 200,
+		base = 89140,
+		id = 89152,
+		value_1 = "41"
+	},
+	[89153] = {
+		value_2 = 36,
+		anti_siren = 300,
+		base = 89140,
+		id = 89153,
+		value_1 = "44"
+	},
 	[89160] = {
 		type = 10,
 		name = "神聖なるリュミエール",
@@ -107,58 +134,5 @@ pg.equip_data_statistics_368 = {
 		base = 89160,
 		id = 89172,
 		value_1 = "41"
-	},
-	[89173] = {
-		value_2 = 36,
-		anti_siren = 300,
-		base = 89160,
-		id = 89173,
-		value_1 = "44"
-	},
-	[89180] = {
-		type = 10,
-		name = "輝けるアストラム",
-		speciality = "なし",
-		tech = 0,
-		value_2 = 15,
-		ammo = 10,
-		descrip = "「私たちの歌で、愛と平和、そして光を遠くへと届けましょう」",
-		nationality = 0,
-		rarity = 5,
-		attribute_1 = "antiaircraft",
-		value_3 = 0,
-		torpedo_ammo = 0,
-		id = 89180,
-		icon = "89180",
-		value_1 = "14",
-		attribute_2 = "hit",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6712
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89181] = {
-		id = 89181,
-		value_2 = 16,
-		value_1 = "16",
-		base = 89180
-	},
-	[89182] = {
-		id = 89182,
-		value_2 = 17,
-		value_1 = "18",
-		base = 89180
 	}
 }

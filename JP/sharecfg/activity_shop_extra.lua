@@ -2125,7 +2125,7 @@ pg.activity_shop_extra = {
 		id = 74,
 		num = 1,
 		num_limit = 1,
-		order = 5,
+		order = 8,
 		time = {
 			{
 				{
@@ -2161,7 +2161,7 @@ pg.activity_shop_extra = {
 		id = 75,
 		num = 1,
 		num_limit = 1,
-		order = 5,
+		order = 8,
 		time = {
 			{
 				{

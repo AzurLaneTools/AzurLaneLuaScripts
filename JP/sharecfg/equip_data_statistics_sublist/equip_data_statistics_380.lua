@@ -1,5 +1,82 @@
 pg = pg or {}
 pg.equip_data_statistics_380 = {
+	[90428] = {
+		id = 90428,
+		damage = "96 x 4",
+		base = 90420,
+		weapon_id = {
+			90428
+		}
+	},
+	[90429] = {
+		id = 90429,
+		damage = "103 x 4",
+		base = 90420,
+		weapon_id = {
+			90429
+		}
+	},
+	[90430] = {
+		id = 90430,
+		damage = "110 x 4",
+		base = 90420,
+		weapon_id = {
+			90430
+		}
+	},
+	[90440] = {
+		tech = 3,
+		name = "380mm四連装砲Mle1935",
+		speciality = "投射",
+		type = 4,
+		value_2 = 45,
+		ammo = 2,
+		damage = "48 x 4",
+		nationality = 8,
+		rarity = 5,
+		id = 90440,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "リシュリュー級戦艦に搭載された四連装380mm主砲。戦艦・巡洋戦艦が装備可能",
+		icon = "50400",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1552
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90440
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
 	[90441] = {
 		id = 90441,
 		damage = "55 x 4",
@@ -105,95 +182,6 @@ pg.equip_data_statistics_380 = {
 		base = 90440,
 		weapon_id = {
 			90453
-		}
-	},
-	[90500] = {
-		tech = 1,
-		name = "130mm連装砲Mle1935",
-		speciality = "追尾",
-		type = 1,
-		value_2 = 5,
-		ammo = 3,
-		damage = "9 x 2",
-		nationality = 8,
-		rarity = 2,
-		id = 90500,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "0",
-		icon = "50500",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1011
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90500
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
-		}
-	},
-	[90501] = {
-		id = 90501,
-		base = 90500,
-		weapon_id = {
-			90501
-		}
-	},
-	[90502] = {
-		id = 90502,
-		damage = "10 x 2",
-		base = 90500,
-		weapon_id = {
-			90502
-		}
-	},
-	[90503] = {
-		id = 90503,
-		damage = "10 x 2",
-		base = 90500,
-		weapon_id = {
-			90503
 		}
 	}
 }

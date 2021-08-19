@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_115 = {}
 
 (function ()
+	uv0.weapon_property_115[64423] = {
+		id = 64423,
+		name = "马可波罗技能LV3-PVE",
+		damage = 82,
+		base = 64421
+	}
+	uv0.weapon_property_115[64424] = {
+		id = 64424,
+		name = "马可波罗技能LV4-PVE",
+		damage = 94,
+		base = 64421
+	}
+	uv0.weapon_property_115[64425] = {
+		id = 64425,
+		name = "马可波罗技能LV5-PVE",
+		damage = 106,
+		base = 64421
+	}
+	uv0.weapon_property_115[64426] = {
+		id = 64426,
+		name = "马可波罗技能LV6-PVE",
+		damage = 118,
+		base = 64421
+	}
 	uv0.weapon_property_115[64427] = {
 		id = 64427,
 		name = "马可波罗技能LV7-PVE",
@@ -654,38 +678,5 @@ pg.weapon_property_115 = {}
 		name = "梓迷路团子LV5",
 		damage = 29,
 		base = 64481
-	}
-	uv0.weapon_property_115[64486] = {
-		id = 64486,
-		name = "梓迷路团子LV6",
-		damage = 30,
-		base = 64481
-	}
-	uv0.weapon_property_115[64487] = {
-		id = 64487,
-		name = "梓迷路团子LV7",
-		damage = 31,
-		base = 64481,
-		barrage_ID = {
-			81144
-		}
-	}
-	uv0.weapon_property_115[64488] = {
-		id = 64488,
-		name = "梓迷路团子LV8",
-		damage = 32,
-		base = 64481,
-		barrage_ID = {
-			81144
-		}
-	}
-	uv0.weapon_property_115[64489] = {
-		id = 64489,
-		name = "梓迷路团子LV9",
-		damage = 33,
-		base = 64481,
-		barrage_ID = {
-			81144
-		}
 	}
 end)()
