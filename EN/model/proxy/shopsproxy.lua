@@ -17,6 +17,7 @@ function slot0.register(slot0)
 	slot0.shopStreet = nil
 	slot0.meritorousShop = nil
 	slot0.guildShop = nil
+	slot0.refreshChargeList = false
 
 	slot0:on(22102, function (slot0)
 		getProxy(ShopsProxy):setShopStreet(ShoppingStreet.New(slot0.street))
@@ -280,6 +281,10 @@ function slot0.remove(slot0)
 	slot0.timers = nil
 
 	slot0:removeWaitTimer()
+end
+
+function slot0.ShouldRefreshChargeList(slot0)
+	return not slot0:getFirstChargeList() or not slot0:getChargedList() or not slot0:GetNormalList() or not slot0:GetNormalGroupList() or slot0.refreshChargeList
 end
 
 return slot0

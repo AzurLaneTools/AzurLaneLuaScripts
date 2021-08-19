@@ -5587,6 +5587,67 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[108070] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		profile = "",
+		mission = "",
+		login = "",
+		mail = "",
+		feeling1 = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		id = 108070,
+		home = {
+			{
+				1100,
+				"Th-thank you for always being so considerate, but I've stopped standing behind the door now. You don't have to worry about that anymore."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Commander! I've spotted enemies!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Thank you for the headpat. Hehehe~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I'm so glad for all the things I've learned in my time with you, Commander."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I'm sure there's lots of things waiting to be discovered under the sea. Right, Commander?|The aquarium was so much fun! ...Huh? You'd like to visit it again? Sure, I'd love to go with you!|Um, Commander... I'm right here, in case you didn't notice... Oh, you did?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hehehe... What is it, Commander?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"This doesn't feel right, Commander... Y-you didn't mean to do that?"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -5679,6 +5740,7 @@ pg.ship_skin_words_extra = {
 		10700040,
 		10700050,
 		10700060,
-		10700070
+		10700070,
+		108070
 	}
 }

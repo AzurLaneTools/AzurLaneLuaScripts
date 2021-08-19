@@ -9189,6 +9189,258 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1550001] = {
+		map = 1550001,
+		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "WEICENGHUNHE1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-story",
+		ani_name = "Map_1300001",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1550011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1550002] = {
+		map = 1550002,
+		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "WEICENGHUNHE17",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-level",
+		ani_name = "Map_1300002",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1550012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1550011] = {
+		map = 1550011,
+		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "WEICENGHUNHE1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-story",
+		ani_name = "Map_1300003",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1550001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1550012] = {
+		map = 1550012,
+		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "WEICENGHUNHE17",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-level",
+		ani_name = "Map_1300004",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1550002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1550025] = {
+		map = 1550025,
+		name = "Microlayer Medley - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-4",
+		ani_name = "Map_1300004",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1550012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1550026] = {
+		map = 1550026,
+		name = "Microlayer Medley - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-4",
+		ani_name = "Map_1300004",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1550012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -10606,6 +10858,12 @@ pg.expedition_data_by_map = {
 		1540001,
 		1540002,
 		1540003,
+		1550001,
+		1550002,
+		1550011,
+		1550012,
+		1550025,
+		1550026,
 		2100000,
 		2100001,
 		2100010,

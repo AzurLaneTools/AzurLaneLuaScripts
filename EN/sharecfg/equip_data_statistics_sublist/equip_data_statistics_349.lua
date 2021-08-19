@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_349 = {
+	[72231] = {
+		type = 1,
+		name = "0",
+		speciality = "N/A",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "Barrage",
+		id = 72231,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			72231
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[72232] = {
+		id = 72232,
+		name = "0",
+		base = 72231,
+		weapon_id = {
+			72232
+		}
+	},
 	[72241] = {
 		type = 1,
 		name = "0",
@@ -292,53 +339,6 @@ pg.equip_data_statistics_349 = {
 		equip_info = {},
 		weapon_id = {
 			73011
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[73012] = {
-		id = 73012,
-		name = "0",
-		base = 73011,
-		weapon_id = {
-			73012
-		}
-	},
-	[73031] = {
-		type = 1,
-		name = "0",
-		speciality = "N/A",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "Barrage",
-		id = 73031,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			73031
 		},
 		skill_id = {},
 		part_main = {

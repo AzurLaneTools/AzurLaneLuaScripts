@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_356 = {
+	[79192] = {
+		id = 79192,
+		name = "0",
+		base = 79191,
+		weapon_id = {
+			79192
+		}
+	},
+	[79201] = {
+		type = 1,
+		name = "0",
+		speciality = "N/A",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "Barrage",
+		id = 79201,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79201
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[79202] = {
 		id = 79202,
 		name = "0",
@@ -335,53 +382,6 @@ pg.equip_data_statistics_356 = {
 		base = 79271,
 		weapon_id = {
 			79272
-		}
-	},
-	[79291] = {
-		type = 1,
-		name = "专属弹幕-22I",
-		speciality = "N/A",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "Barrage",
-		id = 79291,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79291
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79292] = {
-		id = 79292,
-		name = "专属弹幕-22II",
-		base = 79291,
-		weapon_id = {
-			79292
 		}
 	}
 }

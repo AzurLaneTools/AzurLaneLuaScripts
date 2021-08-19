@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_352 = {
+	[75012] = {
+		id = 75012,
+		name = "全弹发射-索尔达蒂级II",
+		base = 75011,
+		weapon_id = {
+			75012
+		}
+	},
+	[75021] = {
+		type = 1,
+		name = "全弹发射-诗人级I",
+		speciality = "N/A",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "Barrage",
+		id = 75021,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			75021
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[75022] = {
 		id = 75022,
 		name = "全弹发射-诗人级II",
@@ -335,53 +382,6 @@ pg.equip_data_statistics_352 = {
 		base = 76021,
 		weapon_id = {
 			76022
-		}
-	},
-	[76111] = {
-		type = 1,
-		name = "全弹发射-博加特里级I",
-		speciality = "N/A",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "Barrage",
-		id = 76111,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			76111
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[76112] = {
-		id = 76112,
-		name = "全弹发射-博加特里级II",
-		base = 76111,
-		weapon_id = {
-			76112
 		}
 	}
 }

@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_116 = {}
 
 (function ()
+	uv0.weapon_property_116[64463] = {
+		id = 64463,
+		name = "春香弹幕粉色imas徽章LV3",
+		damage = 13,
+		base = 64461
+	}
+	uv0.weapon_property_116[64464] = {
+		id = 64464,
+		name = "春香弹幕粉色imas徽章LV4",
+		damage = 14,
+		base = 64461
+	}
+	uv0.weapon_property_116[64465] = {
+		id = 64465,
+		name = "春香弹幕粉色imas徽章LV5",
+		damage = 15,
+		base = 64461
+	}
+	uv0.weapon_property_116[64466] = {
+		id = 64466,
+		name = "春香弹幕粉色imas徽章LV6",
+		damage = 16,
+		base = 64461
+	}
 	uv0.weapon_property_116[64467] = {
 		id = 64467,
 		name = "春香弹幕粉色imas徽章LV7",
@@ -658,30 +682,6 @@ pg.weapon_property_116 = {}
 		id = 64526,
 		name = "双海真美口红鱼雷弹幕LV7",
 		damage = 44,
-		base = 64521
-	}
-	uv0.weapon_property_116[64527] = {
-		id = 64527,
-		name = "双海真美口红鱼雷弹幕LV8",
-		damage = 48,
-		base = 64521
-	}
-	uv0.weapon_property_116[64528] = {
-		id = 64528,
-		name = "双海真美口红鱼雷弹幕LV9",
-		damage = 52,
-		base = 64521
-	}
-	uv0.weapon_property_116[64529] = {
-		id = 64529,
-		name = "双海真美口红鱼雷弹幕LV10",
-		damage = 56,
-		base = 64521
-	}
-	uv0.weapon_property_116[64530] = {
-		id = 64530,
-		name = "双海真美口红鱼雷弹幕LV11",
-		damage = 60,
 		base = 64521
 	}
 end)()

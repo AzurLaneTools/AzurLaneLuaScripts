@@ -2,6 +2,398 @@ pg = pg or {}
 pg.weapon_property_133 = {}
 
 (function ()
+	uv0.weapon_property_133[65975] = {
+		id = 65975,
+		name = "新泽西定点生成小弹幕-Lv5",
+		damage = 15,
+		base = 65971
+	}
+	uv0.weapon_property_133[65976] = {
+		id = 65976,
+		name = "新泽西定点生成小弹幕-Lv6",
+		damage = 16,
+		base = 65971
+	}
+	uv0.weapon_property_133[65977] = {
+		id = 65977,
+		name = "新泽西定点生成小弹幕-Lv7",
+		damage = 17,
+		base = 65971
+	}
+	uv0.weapon_property_133[65978] = {
+		id = 65978,
+		name = "新泽西定点生成小弹幕-Lv8",
+		damage = 18,
+		base = 65971
+	}
+	uv0.weapon_property_133[65979] = {
+		id = 65979,
+		name = "新泽西定点生成小弹幕-Lv9",
+		damage = 19,
+		base = 65971
+	}
+	uv0.weapon_property_133[65980] = {
+		id = 65980,
+		name = "新泽西定点生成小弹幕-Lv10",
+		damage = 20,
+		base = 65971
+	}
+	uv0.weapon_property_133[65981] = {
+		recover_time = 0,
+		name = "新泽西跨队支援弹幕-Lv1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 3000,
+		queue = 1,
+		range = 80,
+		damage = 10,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 65981,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19294,
+			19294
+		},
+		barrage_ID = {
+			81100,
+			81104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_133[65982] = {
+		id = 65982,
+		name = "新泽西跨队支援弹幕-Lv2",
+		damage = 11,
+		base = 65981
+	}
+	uv0.weapon_property_133[65983] = {
+		id = 65983,
+		name = "新泽西跨队支援弹幕-Lv3",
+		damage = 12,
+		base = 65981
+	}
+	uv0.weapon_property_133[65984] = {
+		id = 65984,
+		name = "新泽西跨队支援弹幕-Lv4",
+		damage = 13,
+		base = 65981
+	}
+	uv0.weapon_property_133[65985] = {
+		id = 65985,
+		name = "新泽西跨队支援弹幕-Lv5",
+		damage = 14,
+		base = 65981
+	}
+	uv0.weapon_property_133[65986] = {
+		id = 65986,
+		name = "新泽西跨队支援弹幕-Lv6",
+		damage = 15,
+		base = 65981
+	}
+	uv0.weapon_property_133[65987] = {
+		id = 65987,
+		name = "新泽西跨队支援弹幕-Lv7",
+		damage = 16,
+		base = 65981,
+		barrage_ID = {
+			81105,
+			81106
+		}
+	}
+	uv0.weapon_property_133[65988] = {
+		id = 65988,
+		name = "新泽西跨队支援弹幕-Lv8",
+		damage = 17,
+		base = 65981,
+		barrage_ID = {
+			81105,
+			81106
+		}
+	}
+	uv0.weapon_property_133[65989] = {
+		id = 65989,
+		name = "新泽西跨队支援弹幕-Lv9",
+		damage = 18,
+		base = 65981,
+		barrage_ID = {
+			81105,
+			81106
+		}
+	}
+	uv0.weapon_property_133[65990] = {
+		id = 65990,
+		name = "新泽西跨队支援弹幕-Lv10",
+		damage = 20,
+		base = 65981,
+		barrage_ID = {
+			81105,
+			81106
+		}
+	}
+	uv0.weapon_property_133[65991] = {
+		recover_time = 0,
+		name = "黑海伦娜-区域雷达扫描",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 5000,
+		queue = 4,
+		range = 120,
+		damage = 1,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 65991,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19305
+		},
+		barrage_ID = {
+			81107
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_133[66000] = {
+		recover_time = 0.5,
+		name = "萨拉托加技能LV0",
+		shakescreen = 302,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 10,
+		search_type = 1,
+		effect_move = 0,
+		angle = 40,
+		reload_max = 1300,
+		queue = 1,
+		range = 120,
+		damage = 40,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-203mm",
+		id = 66000,
+		attack_attribute_ratio = 120,
+		aim_type = 1,
+		bullet_ID = {
+			1404
+		},
+		barrage_ID = {
+			1206
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_133[66001] = {
+		reload_max = 1270,
+		name = "萨拉托加技能LV1",
+		damage = 48,
+		base = 66000,
+		id = 66001
+	}
+	uv0.weapon_property_133[66002] = {
+		reload_max = 1244,
+		name = "萨拉托加技能LV2",
+		damage = 56,
+		base = 66000,
+		id = 66002
+	}
+	uv0.weapon_property_133[66003] = {
+		reload_max = 1218,
+		name = "萨拉托加技能LV3",
+		damage = 64,
+		base = 66000,
+		id = 66003
+	}
+	uv0.weapon_property_133[66004] = {
+		reload_max = 1192,
+		name = "萨拉托加技能LV4",
+		damage = 72,
+		base = 66000,
+		id = 66004
+	}
+	uv0.weapon_property_133[66005] = {
+		reload_max = 1166,
+		name = "萨拉托加技能LV5",
+		damage = 80,
+		base = 66000,
+		id = 66005
+	}
+	uv0.weapon_property_133[66006] = {
+		reload_max = 1140,
+		name = "萨拉托加技能LV6",
+		damage = 88,
+		base = 66000,
+		id = 66006
+	}
+	uv0.weapon_property_133[66007] = {
+		reload_max = 1114,
+		name = "萨拉托加技能LV7",
+		damage = 96,
+		base = 66000,
+		id = 66007
+	}
+	uv0.weapon_property_133[66008] = {
+		reload_max = 1088,
+		name = "萨拉托加技能LV8",
+		damage = 104,
+		base = 66000,
+		id = 66008
+	}
+	uv0.weapon_property_133[66009] = {
+		reload_max = 1062,
+		name = "萨拉托加技能LV9",
+		damage = 112,
+		base = 66000,
+		id = 66009
+	}
+	uv0.weapon_property_133[66010] = {
+		reload_max = 1036,
+		name = "萨拉托加技能LV10",
+		damage = 120,
+		base = 66000,
+		id = 66010
+	}
+	uv0.weapon_property_133[66020] = {
+		recover_time = 0.5,
+		name = "厌战技能LV0",
+		shakescreen = 302,
+		type = 23,
+		torpedo_ammo = 0,
+		fire_fx = "zhupao",
+		action_index = "attack_main",
+		fire_fx_loop_type = 1,
+		axis_angle = 0,
+		attack_attribute = 1,
+		reload_max = 3366,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 50,
+		queue = 1,
+		suppress = 1,
+		range = 200,
+		damage = 52,
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		corrected = 110,
+		min_range = 35,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		id = 66020,
+		attack_attribute_ratio = 80,
+		aim_type = 1,
+		bullet_ID = {
+			19981
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			maxLock = 2,
+			lockTime = 0.3
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_133[66021] = {
+		reload_max = 3298,
+		name = "厌战技能LV1",
+		damage = 60,
+		base = 66020,
+		id = 66021
+	}
+	uv0.weapon_property_133[66022] = {
+		reload_max = 3231,
+		name = "厌战技能LV2",
+		damage = 68,
+		base = 66020,
+		id = 66022
+	}
+	uv0.weapon_property_133[66023] = {
+		reload_max = 3164,
+		name = "厌战技能LV3",
+		damage = 76,
+		base = 66020,
+		id = 66023
+	}
+	uv0.weapon_property_133[66024] = {
+		reload_max = 3096,
+		name = "厌战技能LV4",
+		damage = 84,
+		base = 66020,
+		id = 66024
+	}
+	uv0.weapon_property_133[66025] = {
+		reload_max = 3029,
+		name = "厌战技能LV5",
+		damage = 92,
+		base = 66020,
+		id = 66025
+	}
 	uv0.weapon_property_133[66026] = {
 		reload_max = 2962,
 		name = "厌战技能LV6",
@@ -435,531 +827,5 @@ pg.weapon_property_133 = {}
 		name = "宾夕法尼亚技能LV2-PVP",
 		damage = 56,
 		base = 66080
-	}
-	uv0.weapon_property_133[66083] = {
-		id = 66083,
-		name = "宾夕法尼亚技能LV3-PVP",
-		damage = 64,
-		base = 66080
-	}
-	uv0.weapon_property_133[66084] = {
-		id = 66084,
-		name = "宾夕法尼亚技能LV4-PVP",
-		damage = 72,
-		base = 66080,
-		bullet_ID = {
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402
-		}
-	}
-	uv0.weapon_property_133[66085] = {
-		id = 66085,
-		name = "宾夕法尼亚技能LV5-PVP",
-		damage = 80,
-		base = 66080,
-		bullet_ID = {
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402
-		}
-	}
-	uv0.weapon_property_133[66086] = {
-		id = 66086,
-		name = "宾夕法尼亚技能LV6-PVP",
-		damage = 88,
-		base = 66080,
-		bullet_ID = {
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402
-		}
-	}
-	uv0.weapon_property_133[66087] = {
-		id = 66087,
-		name = "宾夕法尼亚技能LV7-PVP",
-		damage = 96,
-		base = 66080,
-		bullet_ID = {
-			10014,
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402,
-			199403
-		}
-	}
-	uv0.weapon_property_133[66088] = {
-		id = 66088,
-		name = "宾夕法尼亚技能LV8-PVP",
-		damage = 104,
-		base = 66080,
-		bullet_ID = {
-			10014,
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402,
-			199403
-		}
-	}
-	uv0.weapon_property_133[66089] = {
-		id = 66089,
-		name = "宾夕法尼亚技能LV9-PVP",
-		damage = 112,
-		base = 66080,
-		bullet_ID = {
-			10014,
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402,
-			199403
-		}
-	}
-	uv0.weapon_property_133[66090] = {
-		id = 66090,
-		name = "宾夕法尼亚技能LV10-PVP",
-		damage = 120,
-		base = 66080,
-		bullet_ID = {
-			10014,
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402,
-			199403
-		}
-	}
-	uv0.weapon_property_133[66100] = {
-		recover_time = 0.5,
-		name = "宾夕法尼亚技能LV0-PVE",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 1250,
-		queue = 1,
-		range = 90,
-		damage = 40,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 25,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 66100,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_133[66101] = {
-		id = 66101,
-		name = "宾夕法尼亚技能LV1-PVE",
-		damage = 48,
-		base = 66100
-	}
-	uv0.weapon_property_133[66102] = {
-		id = 66102,
-		name = "宾夕法尼亚技能LV2-PVE",
-		damage = 56,
-		base = 66100
-	}
-	uv0.weapon_property_133[66103] = {
-		id = 66103,
-		name = "宾夕法尼亚技能LV3-PVE",
-		damage = 64,
-		base = 66100
-	}
-	uv0.weapon_property_133[66104] = {
-		id = 66104,
-		name = "宾夕法尼亚技能LV4-PVE",
-		damage = 72,
-		base = 66100,
-		bullet_ID = {
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402
-		}
-	}
-	uv0.weapon_property_133[66105] = {
-		id = 66105,
-		name = "宾夕法尼亚技能LV5-PVE",
-		damage = 80,
-		base = 66100,
-		bullet_ID = {
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402
-		}
-	}
-	uv0.weapon_property_133[66106] = {
-		id = 66106,
-		name = "宾夕法尼亚技能LV6-PVE",
-		damage = 88,
-		base = 66100,
-		bullet_ID = {
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402
-		}
-	}
-	uv0.weapon_property_133[66107] = {
-		id = 66107,
-		name = "宾夕法尼亚技能LV7-PVE",
-		damage = 96,
-		base = 66100,
-		bullet_ID = {
-			10014,
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402,
-			199403
-		}
-	}
-	uv0.weapon_property_133[66108] = {
-		id = 66108,
-		name = "宾夕法尼亚技能LV8-PVE",
-		damage = 104,
-		base = 66100,
-		bullet_ID = {
-			10014,
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402,
-			199403
-		}
-	}
-	uv0.weapon_property_133[66109] = {
-		id = 66109,
-		name = "宾夕法尼亚技能LV9-PVE",
-		damage = 112,
-		base = 66100,
-		bullet_ID = {
-			10014,
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402,
-			199403
-		}
-	}
-	uv0.weapon_property_133[66110] = {
-		id = 66110,
-		name = "宾夕法尼亚技能LV10-PVE",
-		damage = 120,
-		base = 66100,
-		bullet_ID = {
-			10014,
-			10014,
-			10014,
-			10014
-		},
-		barrage_ID = {
-			199400,
-			199401,
-			199402,
-			199403
-		}
-	}
-	uv0.weapon_property_133[66120] = {
-		recover_time = 0.5,
-		name = "黑暗界级技能LV0",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 50,
-		damage = 32,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 66120,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19931,
-			19931,
-			19930,
-			19930
-		},
-		barrage_ID = {
-			199831,
-			199821,
-			199811,
-			199801
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_133[66121] = {
-		id = 66121,
-		name = "黑暗界级技能LV1",
-		damage = 38,
-		base = 66120
-	}
-	uv0.weapon_property_133[66122] = {
-		id = 66122,
-		name = "黑暗界级技能LV2",
-		damage = 44,
-		base = 66120
-	}
-	uv0.weapon_property_133[66123] = {
-		id = 66123,
-		name = "黑暗界级技能LV3",
-		damage = 50,
-		base = 66120
-	}
-	uv0.weapon_property_133[66124] = {
-		id = 66124,
-		name = "黑暗界级技能LV4",
-		damage = 56,
-		base = 66120,
-		barrage_ID = {
-			199832,
-			199822,
-			199812,
-			199802
-		}
-	}
-	uv0.weapon_property_133[66125] = {
-		id = 66125,
-		name = "黑暗界级技能LV5",
-		damage = 62,
-		base = 66120,
-		barrage_ID = {
-			199832,
-			199822,
-			199812,
-			199802
-		}
-	}
-	uv0.weapon_property_133[66126] = {
-		id = 66126,
-		name = "黑暗界级技能LV6",
-		damage = 68,
-		base = 66120,
-		barrage_ID = {
-			199832,
-			199822,
-			199812,
-			199802
-		}
-	}
-	uv0.weapon_property_133[66127] = {
-		id = 66127,
-		name = "黑暗界级技能LV7",
-		damage = 78,
-		base = 66120,
-		barrage_ID = {
-			199833,
-			199823,
-			199813,
-			199803
-		}
-	}
-	uv0.weapon_property_133[66128] = {
-		id = 66128,
-		name = "黑暗界级技能LV8",
-		damage = 88,
-		base = 66120,
-		barrage_ID = {
-			199833,
-			199823,
-			199813,
-			199803
-		}
-	}
-	uv0.weapon_property_133[66129] = {
-		id = 66129,
-		name = "黑暗界级技能LV9",
-		damage = 98,
-		base = 66120,
-		barrage_ID = {
-			199833,
-			199823,
-			199813,
-			199803
-		}
-	}
-	uv0.weapon_property_133[66130] = {
-		id = 66130,
-		name = "黑暗界级技能LV10",
-		damage = 108,
-		base = 66120,
-		barrage_ID = {
-			199833,
-			199823,
-			199813,
-			199803
-		}
-	}
-	uv0.weapon_property_133[66140] = {
-		recover_time = 0.5,
-		name = "BigSeven技能LV0",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 50,
-		damage = 32,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 66140,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19929,
-			19929
-		},
-		barrage_ID = {
-			199791,
-			199781
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_133[66141] = {
-		id = 66141,
-		name = "BigSeven技能LV1",
-		damage = 44,
-		base = 66140
-	}
-	uv0.weapon_property_133[66142] = {
-		id = 66142,
-		name = "BigSeven技能LV2",
-		damage = 56,
-		base = 66140
-	}
-	uv0.weapon_property_133[66143] = {
-		id = 66143,
-		name = "BigSeven技能LV3",
-		damage = 68,
-		base = 66140
 	}
 end)()

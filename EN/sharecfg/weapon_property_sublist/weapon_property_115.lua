@@ -2,6 +2,76 @@ pg = pg or {}
 pg.weapon_property_115 = {}
 
 (function ()
+	uv0.weapon_property_115[64399] = {
+		id = 64399,
+		name = "埃吉尔技能跨射子弹Lv9",
+		damage = 54,
+		base = 64391,
+		barrage_ID = {
+			81127
+		}
+	}
+	uv0.weapon_property_115[64400] = {
+		id = 64400,
+		name = "埃吉尔技能跨射子弹Lv10",
+		damage = 56,
+		base = 64391,
+		barrage_ID = {
+			81127
+		}
+	}
+	uv0.weapon_property_115[64401] = {
+		recover_time = 0.5,
+		name = "安克雷奇技能弹幕-LV1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 412,
+		queue = 1,
+		range = 80,
+		damage = 26,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 64401,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19323,
+			19323
+		},
+		barrage_ID = {
+			81128,
+			81129
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_115[64402] = {
+		id = 64402,
+		name = "安克雷奇技能弹幕-LV2",
+		damage = 27,
+		base = 64401
+	}
 	uv0.weapon_property_115[64403] = {
 		id = 64403,
 		name = "安克雷奇技能弹幕-LV3",
@@ -677,30 +747,6 @@ pg.weapon_property_115 = {}
 		id = 64462,
 		name = "春香弹幕粉色imas徽章LV2",
 		damage = 12,
-		base = 64461
-	}
-	uv0.weapon_property_115[64463] = {
-		id = 64463,
-		name = "春香弹幕粉色imas徽章LV3",
-		damage = 13,
-		base = 64461
-	}
-	uv0.weapon_property_115[64464] = {
-		id = 64464,
-		name = "春香弹幕粉色imas徽章LV4",
-		damage = 14,
-		base = 64461
-	}
-	uv0.weapon_property_115[64465] = {
-		id = 64465,
-		name = "春香弹幕粉色imas徽章LV5",
-		damage = 15,
-		base = 64461
-	}
-	uv0.weapon_property_115[64466] = {
-		id = 64466,
-		name = "春香弹幕粉色imas徽章LV6",
-		damage = 16,
 		base = 64461
 	}
 end)()

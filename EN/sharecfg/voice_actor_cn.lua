@@ -1123,5 +1123,13 @@ pg.voice_actor_CN = {
 	{
 		code = 281,
 		actor_name = "Wakabayashi Naomi "
+	},
+	{
+		code = 282,
+		actor_name = "Kono Hiyori "
+	},
+	{
+		code = 283,
+		actor_name = "Suzumoto Akiho "
 	}
 }

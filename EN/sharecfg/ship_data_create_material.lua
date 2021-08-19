@@ -82,12 +82,13 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：30%",
-			"<color=#ffde38>Haruka Amami</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Chihaya Kisaragi</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Iori Minase</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Azusa Miura</color>：0.5%",
-			"<color=#d797ff>Ami Futami</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Mami Futami</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Ingraham</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Intrepid</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Reno</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Bremerton</color>：0.5%",
+			"<color=#d797ff>Nautilus </color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Cooper</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>Marblehead</color>：5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

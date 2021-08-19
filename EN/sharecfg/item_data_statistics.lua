@@ -12422,6 +12422,31 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[40119] = {
+		display = "Gives 1,000 Cognitive Chips when purchased.",
+		name = "Cognitive Chip Pack ",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40119,
+		is_world = 0,
+		icon = "ChargeIcon/boxChips",
+		display_icon = {
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[40903] = {
 		display = "Shougatsu Lucky Bag contains 1 x Kimono Ship skin, 2019 x Gems, 20 x T3 General Parts, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
 		name = "Shougatsu Lucky Bag (2019) ",
@@ -14141,6 +14166,61 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				2,
 				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40975] = {
+		display = "Contains 1 Random Outfit, 2021 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Special General Blueprints - Series 4, 10 Quick Finishers, and 100 Furniture Coins ",
+		name = "Microlayer Medley Lucky Box 2021",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40975,
+		is_world = 0,
+		icon = "Props/fudai71",
+		display_icon = {
+			{
+				2,
+				69970,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
 				2
 			},
 			{
@@ -128892,6 +128972,25 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59229] = {
+		display = "Used in the \"Microlayer Medley\" Event Exchange. Expires after the event exchange period ends. ",
+		name = "Silver Wing Badge ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59229,
+		is_world = 0,
+		icon = "Props/meixiv3_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59232] = {
 		display = "Used to unlock a special portrait frame. Expires after the event ends. ",
 		name = "Training Pt",
@@ -137522,6 +137621,42 @@ The available outfits and their rarities are as follows:
 		price = {},
 		index = {}
 	},
+	[69970] = {
+		display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
+The available outfits and their rarities are as follows:
+（<color=#92fc63>7.2%</color>）Abercrombie - Mischief on the Rocks<color=#92fc63> Live2D</color>;
+（<color=#92fc64>7.2%</color>）Ingraham - Fixin' for a Mixin' ；
+（<color=#92fc65>5.5%</color>）Nautilus - Afternoon Stretches ；
+（<color=#92fc66>7.5%</color>）Z46 - Girls' Relay<color=#92fc63> Live2D</color>;
+（<color=#92fc67>7.3%</color>）Cooper - Blazing Tennis Battle<color=#92fc63> Live2D</color>;
+（<color=#92fc68>5.6%</color>）Cygnet - Royal Fanfare ；
+（<color=#92fc69>7.6%</color>）Minneapolis - eXtreme Games ；
+（<color=#92fc70>7.2%</color>）Bremerton - Scorching-Hot Training ；
+（<color=#92fc71>7.6%</color>）Baltimore - Black Ace ；
+（<color=#92fc72>7.6%</color>）Intrepid - One Intrepid Pitch ；
+（<color=#92fc73>7.6%</color>）Reno - Biggest Little Cheerleader ；
+（<color=#92fc74>5.9%</color>）Bluegill - Up-And-Coming Infielder ；
+（<color=#92fc75>4.4%</color>）Marblehead - Boxing Girl! ；
+（<color=#92fc76>5.9%</color>）Casablanca - Cheer Squad on Break ；
+（<color=#92fc77>5.9%</color>）Bache - Showy Sports Star ]],
+		name = "Random Ship skin ",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 69970,
+		is_world = 0,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[70000] = {
 		display = "Use to unlock \"Port Memories\" No. 1",
 		name = "\"Port Memories\" No. 1",
@@ -139939,6 +140074,7 @@ The available outfits and their rarities are as follows:
 		40114,
 		40117,
 		40118,
+		40119,
 		40903,
 		40904,
 		40905,
@@ -139974,6 +140110,7 @@ The available outfits and their rarities are as follows:
 		40972,
 		40973,
 		40974,
+		40975,
 		41201,
 		41202,
 		41203,
@@ -142457,6 +142594,7 @@ The available outfits and their rarities are as follows:
 		59225,
 		59226,
 		59227,
+		59229,
 		59232,
 		59233,
 		59601,
@@ -142837,6 +142975,7 @@ The available outfits and their rarities are as follows:
 		69967,
 		69968,
 		69969,
+		69970,
 		70000,
 		70001,
 		70002,

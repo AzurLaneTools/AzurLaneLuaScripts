@@ -565,7 +565,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Would you do me a favor and the face I pulled back there? It won't happen ever again, I assure you.",
+			say = "Would you do me a favor and forget the face I pulled back there? It won't happen ever again, I assure you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

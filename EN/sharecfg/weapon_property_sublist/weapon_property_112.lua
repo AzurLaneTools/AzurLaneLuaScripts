@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_112 = {}
 
 (function ()
+	uv0.weapon_property_112[64207] = {
+		id = 64207,
+		name = "新泽西超重黑蓝弹幕LV7",
+		damage = 148,
+		base = 64201
+	}
+	uv0.weapon_property_112[64208] = {
+		id = 64208,
+		name = "新泽西超重黑蓝弹幕LV8",
+		damage = 159,
+		base = 64201
+	}
+	uv0.weapon_property_112[64209] = {
+		id = 64209,
+		name = "新泽西超重黑蓝弹幕LV9",
+		damage = 170,
+		base = 64201
+	}
+	uv0.weapon_property_112[64210] = {
+		id = 64210,
+		name = "新泽西超重黑蓝弹幕LV10",
+		damage = 181,
+		base = 64201
+	}
 	uv0.weapon_property_112[64211] = {
 		recover_time = 0,
 		name = "新泽西高爆黑红弹幕LV1",
@@ -604,67 +628,5 @@ pg.weapon_property_112 = {}
 		name = "奥丁平射小子弹天运强化LV10",
 		damage = 100,
 		base = 64261
-	}
-	uv0.weapon_property_112[64271] = {
-		recover_time = 0.5,
-		name = "奥丁Gungnir雷电投枪天运强化LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 50,
-		damage = 68,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 64271,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19313
-		},
-		barrage_ID = {
-			81122
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_112[64272] = {
-		id = 64272,
-		name = "奥丁Gungnir雷电投枪天运强化LV2",
-		damage = 86,
-		base = 64271
-	}
-	uv0.weapon_property_112[64273] = {
-		id = 64273,
-		name = "奥丁Gungnir雷电投枪天运强化LV3",
-		damage = 106,
-		base = 64271
-	}
-	uv0.weapon_property_112[64274] = {
-		id = 64274,
-		name = "奥丁Gungnir雷电投枪天运强化LV4",
-		damage = 124,
-		base = 64271
 	}
 end)()

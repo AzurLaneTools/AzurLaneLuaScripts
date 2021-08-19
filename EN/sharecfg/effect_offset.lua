@@ -1209,5 +1209,16 @@ pg.effect_offset = {
 			2.4,
 			-1.2
 		}
+	},
+	robot_yglh = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-2,
+			1.5,
+			0
+		}
 	}
 }

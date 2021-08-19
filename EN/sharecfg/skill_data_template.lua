@@ -30372,7 +30372,7 @@ pg.skill_data_template = {
 		id = 12570,
 		type = 1,
 		max_level = 10,
-		desc = "Increases this ship's AVI by $2. While this ship has a Fairey Albacore equipped: increases the gear efficiency of the slot it's equipped in by $1 and, when this ship launches an Airstrike: $3 chance to launch a Fairey Albacore airstrike with an 80.0% chance to cause Flooding DMG for 9s to enemies hit (DMG is based on the skill's level and this ship's AVI stat.)",
+		desc = "Increases this ship's AVI by $2. While this ship has a Albacore equipped: increases the gear efficiency of the slot it's equipped in by $1 and, when this ship launches an Airstrike: $3 chance to launch a Fairey Albacore airstrike with an 80.0% chance to cause Flooding DMG for 9s to enemies hit (DMG is based on the skill's level and this ship's AVI stat.)",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -51924,6 +51924,412 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	},
+	[14720] = {
+		desc_get = "",
+		name = "Support Robot Mk IV",
+		id = 14720,
+		type = 1,
+		max_level = 10,
+		desc = "3s after the battle starts and every 20s: summons a support robot for 10s. When summoned, the robot: 1) fires a $1 special barrage (DMG is based on the skill's level) and spawns 2 shields (last 5s) that can each block up to 10 enemy shells; 2) targets your Vanguard ship with the lowest % of HP left and heals her for 0.5% max HP 3 times over 10s; 3) increases your fleet's AA by $2 while it is deployed. ",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[14730] = {
+		desc_get = "",
+		name = "Combat Mechanic",
+		id = 14730,
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's AA by $1 of her total AA stat (base stats plus gear) and decreases the Burn DMG she takes by $2. This ship heals herself for 1.0% of her max HP every 15s in combat.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"50.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[14740] = {
+		desc_get = "",
+		name = "The Intrepid Nautilus",
+		id = 14740,
+		type = 2,
+		max_level = 10,
+		desc = "At the start of the battle: this boat moves forward a set distance, then fires a $1 torpedo barrage (DMG is based on the skill's level) and briefly resurfaces. Afterwards, she submerges and moves back into attack position, then fires a stronger $1 torpedo barrage. This boat takes $2 less DMG while resurfaced as part of this skill's effect.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"20%",
+				"60%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+4.4%"
+				},
+				{
+					"24.4%",
+					"+4.4%"
+				},
+				{
+					"28.8%",
+					"+4.4%"
+				},
+				{
+					"33.2%",
+					"+4.4%"
+				},
+				{
+					"37.6%",
+					"+4.4%"
+				},
+				{
+					"42.0%",
+					"+4.4%"
+				},
+				{
+					"46.4%",
+					"+4.4%"
+				},
+				{
+					"50.8%",
+					"+4.4%"
+				},
+				{
+					"55.2%",
+					"+4.8%"
+				},
+				{
+					"60.0%"
+				}
+			}
+		}
+	},
+	[14750] = {
+		desc_get = "",
+		name = "Lure",
+		id = 14750,
+		type = 3,
+		max_level = 10,
+		desc = "When this boat is hit by an enemy: increases that enemy's DMG taken by $1 for 3s. If the enemy is a DD: also decreases that enemy's Speed by $2 for 5s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -58827,6 +59233,34 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[20321] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		id = 20321,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Narwhal-class immediately after leaving the battle. ",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[20322] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		id = 20322,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Narwhal-class immediately after leaving the battle. ",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[21011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -63168,6 +63602,34 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		type = 1,
 		max_level = 1,
 		desc = "Activates All Out Assault II: Anchorage once every 8 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29751] = {
+		desc_get = "",
+		name = "All-Out Assault: I",
+		id = 29751,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Ingraham once every 15 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29752] = {
+		desc_get = "",
+		name = "All-Out Assault: II",
+		id = 29752,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Ingraham once every 10 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -71418,6 +71880,10 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		14680,
 		14700,
 		14710,
+		14720,
+		14730,
+		14740,
+		14750,
 		18010,
 		18040,
 		18050,
@@ -71527,6 +71993,8 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		20272,
 		20311,
 		20312,
+		20321,
+		20322,
 		21011,
 		21012,
 		21016,
@@ -71837,6 +72305,8 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		29732,
 		29741,
 		29742,
+		29751,
+		29752,
 		101010,
 		101020,
 		101030,

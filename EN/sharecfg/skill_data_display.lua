@@ -4008,6 +4008,26 @@ pg.skill_data_display = {
 		id = 14712,
 		name = "Destruction Bolt "
 	},
+	[14720] = {
+		id = 14720,
+		name = "Support Robot Mk IV"
+	},
+	[14730] = {
+		id = 14730,
+		name = "Combat Mechanic"
+	},
+	[14741] = {
+		id = 14741,
+		name = "The Intrepid Nautilus"
+	},
+	[14744] = {
+		id = 14744,
+		name = "The Intrepid Nautilus"
+	},
+	[14745] = {
+		id = 14745,
+		name = "The Intrepid Nautilus"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -5764,6 +5784,14 @@ pg.skill_data_display = {
 		id = 29742,
 		name = "All Out Assault Ⅱ"
 	},
+	[29751] = {
+		id = 29751,
+		name = "All Out Assault Ⅰ"
+	},
+	[29752] = {
+		id = 29752,
+		name = "All Out Assault Ⅱ"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -7439,6 +7467,11 @@ pg.skill_data_display = {
 		14710,
 		14711,
 		14712,
+		14720,
+		14730,
+		14741,
+		14744,
+		14745,
 		18010,
 		18040,
 		18041,
@@ -7878,6 +7911,8 @@ pg.skill_data_display = {
 		29732,
 		29741,
 		29742,
+		29751,
+		29752,
 		39000,
 		39001,
 		39002,

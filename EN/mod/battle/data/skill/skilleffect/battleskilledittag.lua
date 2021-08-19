@@ -14,11 +14,9 @@ function slot1.Ctor(slot0, slot1, slot2)
 end
 
 function slot1.DoDataEffect(slot0, slot1, slot2)
-	if slot0:IsFilterTarget(slot1, slot2) then
-		if slot0._op == uv0.TAG_OPERATION_APPEND then
-			slot2:AddLabelTag(slot0._tag)
-		elseif slot0._op == uv0.TAG_OPERATION_REMOVE then
-			slot2:RemoveLabelTag(slot0._tag)
-		end
+	if slot0._op == uv0.TAG_OPERATION_APPEND then
+		slot2:AddLabelTag(slot0._tag)
+	elseif slot0._op == uv0.TAG_OPERATION_REMOVE then
+		slot2:RemoveLabelTag(slot0._tag)
 	end
 end

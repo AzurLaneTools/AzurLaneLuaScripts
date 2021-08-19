@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_370 = {
+	[85383] = {
+		id = 85383,
+		damage = "45/wave",
+		base = 85380,
+		weapon_id = {
+			85383
+		}
+	},
+	[85384] = {
+		id = 85384,
+		damage = "51/wave",
+		base = 85380,
+		weapon_id = {
+			85384
+		}
+	},
+	[85385] = {
+		id = 85385,
+		damage = "57/wave",
+		base = 85380,
+		weapon_id = {
+			85385
+		}
+	},
+	[85386] = {
+		id = 85386,
+		damage = "64/wave",
+		base = 85380,
+		weapon_id = {
+			85386
+		}
+	},
 	[85400] = {
 		tech = 3,
 		name = "Twin 100mm B-34 MZ-14 Dual-Purpose AA Gun",
@@ -202,38 +234,6 @@ pg.equip_data_statistics_370 = {
 			"BB",
 			"MG",
 			"GangutMG"
-		}
-	},
-	[85421] = {
-		id = 85421,
-		damage = "59 x 3",
-		base = 85420,
-		weapon_id = {
-			85421
-		}
-	},
-	[85422] = {
-		id = 85422,
-		damage = "64 x 3",
-		base = 85420,
-		weapon_id = {
-			85422
-		}
-	},
-	[85423] = {
-		id = 85423,
-		damage = "70 x 3",
-		base = 85420,
-		weapon_id = {
-			85423
-		}
-	},
-	[85424] = {
-		id = 85424,
-		damage = "76 x 3",
-		base = 85420,
-		weapon_id = {
-			85424
 		}
 	}
 }

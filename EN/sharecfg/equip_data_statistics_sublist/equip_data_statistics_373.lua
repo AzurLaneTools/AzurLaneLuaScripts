@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.equip_data_statistics_373 = {
+	[89012] = {
+		value_2 = 17,
+		anti_siren = 200,
+		base = 89000,
+		id = 89012,
+		value_1 = "27"
+	},
+	[89013] = {
+		value_2 = 18,
+		anti_siren = 300,
+		base = 89000,
+		id = 89013,
+		value_1 = "28"
+	},
+	[89020] = {
+		type = 10,
+		name = "Pyoko-Pyoko",
+		speciality = "N/A",
+		tech = 0,
+		value_2 = 1,
+		ammo = 10,
+		descrip = "Kizuna AI's headband. It's a flippy-floppy wing-dang-doodle of a honkin' good time that goes on your head.",
+		nationality = 104,
+		rarity = 5,
+		attribute_1 = "durability",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 89020,
+		icon = "89020",
+		value_1 = "200",
+		attribute_2 = "luck",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6390
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89021] = {
+		id = 89021,
+		value_1 = "230",
+		base = 89020
+	},
 	[89022] = {
 		id = 89022,
 		value_1 = "260",
@@ -100,28 +153,5 @@ pg.equip_data_statistics_373 = {
 		label = {
 			"DEV"
 		}
-	},
-	[89041] = {
-		id = 89041,
-		value_1 = "112",
-		base = 89040
-	},
-	[89042] = {
-		id = 89042,
-		value_2 = 4,
-		value_1 = "127",
-		base = 89040
-	},
-	[89043] = {
-		id = 89043,
-		value_2 = 4,
-		value_1 = "142",
-		base = 89040
-	},
-	[89044] = {
-		id = 89044,
-		value_2 = 5,
-		value_1 = "156",
-		base = 89040
 	}
 }

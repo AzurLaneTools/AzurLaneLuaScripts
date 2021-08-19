@@ -1,5 +1,25 @@
 pg = pg or {}
 pg.equip_data_statistics_376 = {
+	[89087] = {
+		id = 89087,
+		value_1 = "460",
+		base = 89080
+	},
+	[89088] = {
+		id = 89088,
+		value_1 = "490",
+		base = 89080
+	},
+	[89089] = {
+		id = 89089,
+		value_1 = "520",
+		base = 89080
+	},
+	[89090] = {
+		id = 89090,
+		value_1 = "550",
+		base = 89080
+	},
 	[89091] = {
 		id = 89091,
 		anti_siren = 100,
@@ -105,32 +125,5 @@ pg.equip_data_statistics_376 = {
 		value_2 = 110,
 		value_1 = "22",
 		base = 89100
-	},
-	[89110] = {
-		id = 89110,
-		value_2 = 120,
-		value_1 = "24",
-		base = 89100
-	},
-	[89111] = {
-		value_2 = 130,
-		anti_siren = 100,
-		base = 89100,
-		id = 89111,
-		value_1 = "26"
-	},
-	[89112] = {
-		value_2 = 140,
-		anti_siren = 200,
-		base = 89100,
-		id = 89112,
-		value_1 = "28"
-	},
-	[89113] = {
-		value_2 = 150,
-		anti_siren = 300,
-		base = 89100,
-		id = 89113,
-		value_1 = "30"
 	}
 }

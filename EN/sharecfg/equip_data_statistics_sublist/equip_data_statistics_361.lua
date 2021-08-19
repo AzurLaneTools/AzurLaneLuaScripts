@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_361 = {
+	[79641] = {
+		type = 1,
+		name = "专属弹幕-塔什干μI",
+		speciality = "N/A",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "Barrage",
+		id = 79641,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79641
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79642] = {
+		id = 79642,
+		name = "专属弹幕-塔什干μII",
+		base = 79641,
+		weapon_id = {
+			79642
+		}
+	},
 	[79651] = {
 		type = 1,
 		name = "专属弹幕-大青花鱼μI",
@@ -349,53 +396,6 @@ pg.equip_data_statistics_361 = {
 		equip_info = {},
 		weapon_id = {
 			79721
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79722] = {
-		id = 79722,
-		name = "专属弹幕-射水鱼II",
-		base = 79721,
-		weapon_id = {
-			79722
-		}
-	},
-	[79731] = {
-		type = 1,
-		name = "专属弹幕-海伦娜.META I",
-		speciality = "N/A",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "Barrage",
-		id = 79731,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79731
 		},
 		skill_id = {},
 		part_main = {

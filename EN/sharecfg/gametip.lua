@@ -1714,7 +1714,7 @@ Current expansions: <color=#92fc63>$3</color>
 		tip = "<color=#92fc63>$1</color> has finished class! Her <color=#92fc63>$2</color> skill received <color=#92fc63>$3</color> EXP."
 	},
 	tactics_continue_to_learn = {
-		tip = "continue to learn a new book?"
+		tip = "Continue to learn a new book?"
 	},
 	tactics_should_exist_skill = {
 		tip = "Skill must exist."
@@ -6715,7 +6715,10 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>8.12-9.1</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>$1</COLOR>)!"
+	},
+	shop_street_Equipment_skin_box_help = {
+		tip = "<color=#A1E400FF>$1</COLOR>Sale Period:<color=#A1E400FF>$2</COLOR>"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -7739,7 +7742,7 @@ Combat Encounters
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Rate UP for Haruka Amami, Chihaya Kisaragi, Iori Minase, and more!"
+		tip = "Rate UP for Ingraham, Reno, Intrepid, and more!"
 	},
 	buildship_heavy_tip = {
 		tip = "Nagato and Suzuya are added to standard build pool! "
@@ -14601,6 +14604,9 @@ The Concert Venue is host to the following things:
 	},
 	user_is_forever_banned = {
 		tip = "This account has been banned. "
+	},
+	gem_shop_xinzhi_tip = {
+		tip = "Bought $1/15 times this month "
 	},
 	cowboy_tips = {
 		tip = {

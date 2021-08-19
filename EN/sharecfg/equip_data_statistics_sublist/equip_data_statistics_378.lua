@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.equip_data_statistics_378 = {
+	[89133] = {
+		value_2 = 8,
+		anti_siren = 300,
+		base = 89120,
+		id = 89133,
+		value_1 = "290"
+	},
+	[89140] = {
+		type = 10,
+		name = "White-Hot Verheerender",
+		speciality = "N/A",
+		tech = 0,
+		value_2 = 15,
+		ammo = 10,
+		descrip = "\"For your ears, Commander, and yours alone.\" ",
+		nationality = 0,
+		rarity = 5,
+		attribute_1 = "antiaircraft",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 89140,
+		icon = "89140",
+		value_1 = "14",
+		attribute_2 = "hit",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6710
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89141] = {
+		id = 89141,
+		value_2 = 16,
+		value_1 = "16",
+		base = 89140
+	},
+	[89142] = {
+		id = 89142,
+		value_2 = 17,
+		value_1 = "18",
+		base = 89140
+	},
 	[89143] = {
 		id = 89143,
 		value_2 = 18,
@@ -107,30 +160,6 @@ pg.equip_data_statistics_378 = {
 		id = 89161,
 		value_2 = 16,
 		value_1 = "16",
-		base = 89160
-	},
-	[89162] = {
-		id = 89162,
-		value_2 = 17,
-		value_1 = "18",
-		base = 89160
-	},
-	[89163] = {
-		id = 89163,
-		value_2 = 18,
-		value_1 = "20",
-		base = 89160
-	},
-	[89164] = {
-		id = 89164,
-		value_2 = 19,
-		value_1 = "22",
-		base = 89160
-	},
-	[89165] = {
-		id = 89165,
-		value_2 = 20,
-		value_1 = "24",
 		base = 89160
 	}
 }

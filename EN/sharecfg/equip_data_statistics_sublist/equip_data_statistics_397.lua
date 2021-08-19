@@ -1,5 +1,88 @@
 pg = pg or {}
 pg.equip_data_statistics_397 = {
+	[90900] = {
+		tech = 3,
+		name = "Twin 203mm Mle 1924 Main Gun Mount",
+		speciality = "Lock",
+		type = 3,
+		value_2 = 45,
+		ammo = 2,
+		damage = "30 x 4",
+		nationality = 8,
+		rarity = 5,
+		id = 90900,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "No description",
+		icon = "50860",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1416
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1416
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90900
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[90901] = {
+		id = 90901,
+		damage = "33 x 4",
+		base = 90900,
+		weapon_id = {
+			90901
+		}
+	},
+	[90902] = {
+		id = 90902,
+		damage = "35 x 4",
+		base = 90900,
+		weapon_id = {
+			90902
+		}
+	},
+	[90903] = {
+		id = 90903,
+		damage = "37 x 4",
+		base = 90900,
+		weapon_id = {
+			90903
+		}
+	},
 	[90904] = {
 		id = 90904,
 		damage = "39 x 4",
@@ -150,38 +233,6 @@ pg.equip_data_statistics_397 = {
 		base = 91000,
 		weapon_id = {
 			91002
-		}
-	},
-	[91003] = {
-		id = 91003,
-		damage = "82 x 3",
-		base = 91000,
-		weapon_id = {
-			91003
-		}
-	},
-	[91004] = {
-		id = 91004,
-		damage = "92 x 3",
-		base = 91000,
-		weapon_id = {
-			91004
-		}
-	},
-	[91005] = {
-		id = 91005,
-		damage = "102 x 3",
-		base = 91000,
-		weapon_id = {
-			91005
-		}
-	},
-	[91006] = {
-		id = 91006,
-		damage = "112 x 3",
-		base = 91000,
-		weapon_id = {
-			91006
 		}
 	}
 }

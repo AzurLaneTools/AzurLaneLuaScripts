@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_365 = {
+	[85147] = {
+		id = 85147,
+		damage = "12 x 6",
+		base = 85140,
+		weapon_id = {
+			85147
+		}
+	},
+	[85148] = {
+		id = 85148,
+		damage = "13 x 6",
+		base = 85140,
+		weapon_id = {
+			85148
+		}
+	},
+	[85149] = {
+		id = 85149,
+		damage = "14 x 6",
+		base = 85140,
+		weapon_id = {
+			85149
+		}
+	},
+	[85150] = {
+		id = 85150,
+		damage = "15 x 6",
+		base = 85140,
+		weapon_id = {
+			85150
+		}
+	},
 	[85160] = {
 		tech = 3,
 		name = "Triple 152mm B-38 MK 5 Main Gun Mount",
@@ -155,93 +187,6 @@ pg.equip_data_statistics_365 = {
 		base = 85160,
 		weapon_id = {
 			85172
-		}
-	},
-	[85173] = {
-		id = 85173,
-		anti_siren = 300,
-		damage = "16 x 6",
-		base = 85160,
-		weapon_id = {
-			85173
-		}
-	},
-	[85180] = {
-		tech = 1,
-		name = "Single 37mm 70-K AA Gun Mount",
-		speciality = "Anti-Air",
-		type = 6,
-		value_2 = 5,
-		ammo = 5,
-		damage = "9/wave",
-		nationality = 7,
-		rarity = 2,
-		id = 85180,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "No description",
-		icon = "85180",
-		attribute_2 = "antiaircraft",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85180
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85181] = {
-		id = 85181,
-		damage = "11/wave",
-		base = 85180,
-		weapon_id = {
-			85181
-		}
-	},
-	[85182] = {
-		id = 85182,
-		damage = "13/wave",
-		base = 85180,
-		weapon_id = {
-			85182
 		}
 	}
 }

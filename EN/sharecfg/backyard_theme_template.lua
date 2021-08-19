@@ -940,7 +940,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "caihongthemeicon",
 		deblocking = 1,
-		order = 29,
+		order = 27,
 		ids = {
 			30001,
 			30002,
@@ -986,7 +986,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "atrethemeicon",
 		deblocking = 1,
-		order = 30,
+		order = 28,
 		ids = {
 			31101,
 			31102,
@@ -1007,7 +1007,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "hl2themeicon",
 		deblocking = 1,
-		order = 34,
+		order = 30,
 		ids = {
 			35001,
 			35002,
@@ -1087,7 +1087,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "cr2themeicon",
 		deblocking = 1,
-		order = 36,
+		order = 31,
 		ids = {
 			37001,
 			37002,
@@ -1152,7 +1152,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "yzthemeicon",
 		deblocking = 1,
-		order = 37,
+		order = 32,
 		ids = {
 			38001,
 			38002,
@@ -1237,7 +1237,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "znthemeicon",
 		deblocking = 1,
-		order = 38,
+		order = 33,
 		ids = {
 			39001,
 			39002,
@@ -1292,7 +1292,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "vtthemeicon",
 		deblocking = 1,
-		order = 40,
+		order = 34,
 		ids = {
 			41001,
 			41002,
@@ -1328,7 +1328,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "kothemeicon",
 		deblocking = 1,
-		order = 41,
+		order = 35,
 		ids = {
 			42001,
 			42002,
@@ -1371,7 +1371,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "kathemeicon",
 		deblocking = 1,
-		order = 42,
+		order = 36,
 		ids = {
 			43001,
 			43002,
@@ -1414,7 +1414,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "bsmthemeicon",
 		deblocking = 1,
-		order = 44,
+		order = 37,
 		ids = {
 			45001,
 			45002,
@@ -1505,7 +1505,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "cpthemeicon",
 		deblocking = 1,
-		order = 45,
+		order = 38,
 		ids = {
 			46001,
 			46002,
@@ -1558,7 +1558,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "usthemeicon",
 		deblocking = 1,
-		order = 46,
+		order = 39,
 		ids = {
 			47001,
 			47002,
@@ -1611,7 +1611,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "ydlthemeicon",
 		deblocking = 1,
-		order = 47,
+		order = 40,
 		ids = {
 			48001,
 			48002,
@@ -1658,7 +1658,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "dhthemeicon",
 		deblocking = 1,
-		order = 48,
+		order = 41,
 		ids = {
 			49001,
 			49002,
@@ -1705,7 +1705,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "jcthemeicon",
 		deblocking = 1,
-		order = 49,
+		order = 42,
 		ids = {
 			50001,
 			50002,
@@ -1748,7 +1748,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "twthemeicon",
 		deblocking = 1,
-		order = 81,
+		order = 43,
 		ids = {
 			51001,
 			51002,
@@ -1785,7 +1785,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "hl3themeicon",
 		deblocking = 1,
-		order = 51,
+		order = 44,
 		ids = {
 			52001,
 			52002,
@@ -1823,7 +1823,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "idothemeicon",
 		deblocking = 1,
-		order = 52,
+		order = 45,
 		ids = {
 			53001,
 			53002,
@@ -1861,7 +1861,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "",
 		deblocking = 1,
-		order = 53,
+		order = 46,
 		ids = {
 			54101,
 			54102,
@@ -1884,7 +1884,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "holothemeicon",
 		deblocking = 1,
-		order = 54,
+		order = 47,
 		ids = {
 			55001,
 			55002,
@@ -1941,7 +1941,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "cs3themeicon",
 		deblocking = 1,
-		order = 55,
+		order = 48,
 		ids = {
 			56001,
 			56002,
@@ -1974,7 +1974,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "mh2themeicon",
 		deblocking = 1,
-		order = 56,
+		order = 49,
 		ids = {
 			57001,
 			57002,
@@ -2011,7 +2011,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "cj2themeicon",
 		deblocking = 1,
-		order = 57,
+		order = 50,
 		ids = {
 			58001,
 			58002,
@@ -2048,7 +2048,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "vt2themeicon",
 		deblocking = 1,
-		order = 58,
+		order = 51,
 		ids = {
 			59001,
 			59002,
@@ -2083,7 +2083,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "elsthemeicon",
 		deblocking = 1,
-		order = 59,
+		order = 52,
 		ids = {
 			60001,
 			60002,
@@ -2130,7 +2130,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "ydthemeicon",
 		deblocking = 1,
-		order = 60,
+		order = 72,
 		ids = {
 			61001,
 			61002,
@@ -2177,7 +2177,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "faxthemeicon",
 		deblocking = 1,
-		order = 61,
+		order = 54,
 		ids = {
 			62001,
 			62002,
@@ -2213,7 +2213,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "bskthemeicon",
 		deblocking = 1,
-		order = 62,
+		order = 55,
 		ids = {
 			63001,
 			63002,
@@ -2251,7 +2251,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "r3themeicon",
 		deblocking = 1,
-		order = 64,
+		order = 56,
 		ids = {
 			65001,
 			65002,
@@ -2291,7 +2291,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "carthemeicon",
 		deblocking = 1,
-		order = 65,
+		order = 57,
 		ids = {
 			66001,
 			66002,
@@ -2329,10 +2329,10 @@ pg.backyard_theme_template = {
 		desc = "Immerse yourself in the marvelous universe of movies!",
 		discount_time = "",
 		discount = 0,
-		new = 1,
+		new = 0,
 		icon = "us3themeicon",
 		deblocking = 1,
-		order = 67,
+		order = 73,
 		ids = {
 			68001,
 			68002,
@@ -2363,7 +2363,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "yithemeicon",
 		deblocking = 1,
-		order = 68,
+		order = 59,
 		ids = {
 			69001,
 			69002,
@@ -2409,7 +2409,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "ido2themeicon",
 		deblocking = 1,
-		order = 69,
+		order = 60,
 		ids = {
 			70001,
 			70002,
@@ -2445,7 +2445,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "hl4themeicon",
 		deblocking = 1,
-		order = 70,
+		order = 61,
 		ids = {
 			71001,
 			71002,
@@ -2481,7 +2481,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "doathemeicon",
 		deblocking = 1,
-		order = 71,
+		order = 62,
 		ids = {
 			72001,
 			72002,
@@ -2524,7 +2524,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "cs4themeicon",
 		deblocking = 1,
-		order = 72,
+		order = 63,
 		ids = {
 			73001,
 			73002,
@@ -2570,7 +2570,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "mh3themeicon",
 		deblocking = 1,
-		order = 73,
+		order = 64,
 		ids = {
 			74001,
 			74002,
@@ -2608,7 +2608,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "cj3themeicon",
 		deblocking = 1,
-		order = 74,
+		order = 65,
 		ids = {
 			75001,
 			75002,
@@ -2645,7 +2645,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "pdthemeicon",
 		deblocking = 1,
-		order = 76,
+		order = 66,
 		ids = {
 			76001,
 			76002,
@@ -2693,7 +2693,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "els2themeicon",
 		deblocking = 1,
-		order = 75,
+		order = 67,
 		ids = {
 			77001,
 			77002,
@@ -2729,7 +2729,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "ydl2themeicon",
 		deblocking = 1,
-		order = 77,
+		order = 68,
 		ids = {
 			78001,
 			78002,
@@ -2764,7 +2764,7 @@ pg.backyard_theme_template = {
 		new = 1,
 		icon = "idomthemeicon",
 		deblocking = 1,
-		order = 82,
+		order = 69,
 		ids = {
 			79001,
 			79002,
@@ -2813,7 +2813,7 @@ pg.backyard_theme_template = {
 		new = 1,
 		icon = "bngthemeicon",
 		deblocking = 1,
-		order = 78,
+		order = 70,
 		ids = {
 			80001,
 			80002,
@@ -2847,7 +2847,7 @@ pg.backyard_theme_template = {
 		new = 1,
 		icon = "sc2themeicon",
 		deblocking = 1,
-		order = 79,
+		order = 71,
 		ids = {
 			81001,
 			81002,
@@ -2889,7 +2889,7 @@ pg.backyard_theme_template = {
 		new = 1,
 		icon = "nzthemeicon",
 		deblocking = 1,
-		order = 83,
+		order = 74,
 		ids = {
 			82001,
 			82002,

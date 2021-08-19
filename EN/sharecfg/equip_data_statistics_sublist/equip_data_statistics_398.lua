@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_398 = {
+	[91003] = {
+		id = 91003,
+		damage = "82 x 3",
+		base = 91000,
+		weapon_id = {
+			91003
+		}
+	},
+	[91004] = {
+		id = 91004,
+		damage = "92 x 3",
+		base = 91000,
+		weapon_id = {
+			91004
+		}
+	},
+	[91005] = {
+		id = 91005,
+		damage = "102 x 3",
+		base = 91000,
+		weapon_id = {
+			91005
+		}
+	},
+	[91006] = {
+		id = 91006,
+		damage = "112 x 3",
+		base = 91000,
+		weapon_id = {
+			91006
+		}
+	},
 	[91007] = {
 		id = 91007,
 		damage = "120 x 3",
@@ -149,83 +181,6 @@ pg.equip_data_statistics_398 = {
 		base = 95000,
 		weapon_id = {
 			95005
-		}
-	},
-	[95006] = {
-		id = 95006,
-		damage = "90 x 3",
-		base = 95000,
-		weapon_id = {
-			95006
-		}
-	},
-	[95020] = {
-		tech = 2,
-		name = "Triple 381mm M1934 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		value_2 = 25,
-		ammo = 1,
-		damage = "47 x 3",
-		nationality = 6,
-		rarity = 4,
-		id = 95020,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "Main guns that were used by the Vittorio Veneto-class battleships. Equippable by BBs and BCs.",
-		icon = "55000",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1561
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95020
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[95021] = {
-		id = 95021,
-		damage = "56 x 3",
-		base = 95020,
-		weapon_id = {
-			95021
-		}
-	},
-	[95022] = {
-		id = 95022,
-		damage = "64 x 3",
-		base = 95020,
-		weapon_id = {
-			95022
 		}
 	}
 }

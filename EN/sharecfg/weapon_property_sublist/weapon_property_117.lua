@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_117 = {}
 
 (function ()
+	uv0.weapon_property_117[64527] = {
+		id = 64527,
+		name = "双海真美口红鱼雷弹幕LV8",
+		damage = 48,
+		base = 64521
+	}
+	uv0.weapon_property_117[64528] = {
+		id = 64528,
+		name = "双海真美口红鱼雷弹幕LV9",
+		damage = 52,
+		base = 64521
+	}
+	uv0.weapon_property_117[64529] = {
+		id = 64529,
+		name = "双海真美口红鱼雷弹幕LV10",
+		damage = 56,
+		base = 64521
+	}
+	uv0.weapon_property_117[64530] = {
+		id = 64530,
+		name = "双海真美口红鱼雷弹幕LV11",
+		damage = 60,
+		base = 64521
+	}
 	uv0.weapon_property_117[64531] = {
 		recover_time = 0.5,
 		name = "如月千早飞艇弹幕Lv1",
@@ -664,67 +688,5 @@ pg.weapon_property_117 = {}
 		id = 64590,
 		damage = 240,
 		base = 64581
-	}
-	uv0.weapon_property_117[64591] = {
-		recover_time = 0.5,
-		name = "皇家方舟改造紫色枪弹 LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 50,
-		damage = 34,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 64591,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19344
-		},
-		barrage_ID = {
-			81173
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_117[64592] = {
-		id = 64592,
-		name = "皇家方舟改造紫色枪弹 LV2",
-		damage = 43,
-		base = 64591
-	}
-	uv0.weapon_property_117[64593] = {
-		id = 64593,
-		name = "皇家方舟改造紫色枪弹 LV3",
-		damage = 53,
-		base = 64591
-	}
-	uv0.weapon_property_117[64594] = {
-		id = 64594,
-		name = "皇家方舟改造紫色枪弹 LV4",
-		damage = 62,
-		base = 64591
 	}
 end)()

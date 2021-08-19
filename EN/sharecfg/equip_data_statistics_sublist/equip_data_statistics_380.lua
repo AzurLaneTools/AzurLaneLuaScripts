@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_380 = {
+	[89185] = {
+		id = 89185,
+		value_2 = 20,
+		value_1 = "24",
+		base = 89180
+	},
+	[89186] = {
+		id = 89186,
+		value_2 = 22,
+		value_1 = "26",
+		base = 89180
+	},
+	[89187] = {
+		id = 89187,
+		value_2 = 24,
+		value_1 = "28",
+		base = 89180
+	},
+	[89188] = {
+		id = 89188,
+		value_2 = 26,
+		value_1 = "30",
+		base = 89180
+	},
 	[89189] = {
 		id = 89189,
 		value_2 = 28,
@@ -106,30 +130,5 @@ pg.equip_data_statistics_380 = {
 		value_2 = 3,
 		value_1 = "22",
 		base = 89200
-	},
-	[89208] = {
-		id = 89208,
-		value_2 = 4,
-		value_1 = "24",
-		base = 89200
-	},
-	[89209] = {
-		id = 89209,
-		value_2 = 4,
-		value_1 = "26",
-		base = 89200
-	},
-	[89210] = {
-		id = 89210,
-		value_2 = 5,
-		value_1 = "28",
-		base = 89200
-	},
-	[89211] = {
-		value_2 = 5,
-		anti_siren = 100,
-		base = 89200,
-		id = 89211,
-		value_1 = "30"
 	}
 }

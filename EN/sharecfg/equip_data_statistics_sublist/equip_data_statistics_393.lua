@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_393 = {
+	[90721] = {
+		id = 90721,
+		damage = "7 x 4",
+		base = 90720,
+		weapon_id = {
+			90721
+		}
+	},
+	[90722] = {
+		id = 90722,
+		damage = "8 x 4",
+		base = 90720,
+		weapon_id = {
+			90722
+		}
+	},
+	[90723] = {
+		id = 90723,
+		damage = "9 x 4",
+		base = 90720,
+		weapon_id = {
+			90723
+		}
+	},
+	[90724] = {
+		id = 90724,
+		damage = "10 x 4",
+		base = 90720,
+		weapon_id = {
+			90724
+		}
+	},
 	[90725] = {
 		id = 90725,
 		damage = "12 x 4",
@@ -160,91 +192,6 @@ pg.equip_data_statistics_393 = {
 		base = 90740,
 		weapon_id = {
 			90750
-		}
-	},
-	[90751] = {
-		id = 90751,
-		anti_siren = 100,
-		damage = "19 x 4",
-		base = 90740,
-		weapon_id = {
-			90751
-		}
-	},
-	[90780] = {
-		tech = 0,
-		name = "Twin 155mm Mle 1920 Main Gun Mount",
-		speciality = "Lock",
-		type = 2,
-		value_2 = 12,
-		ammo = 3,
-		damage = "10 x 4",
-		nationality = 8,
-		rarity = 3,
-		id = 90780,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "No description",
-		icon = "50780",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1001
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90780
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CL",
-			"MG",
-			"AP"
-		}
-	},
-	[90781] = {
-		id = 90781,
-		damage = "12 x 4",
-		base = 90780,
-		weapon_id = {
-			90781
-		}
-	},
-	[90782] = {
-		id = 90782,
-		damage = "14 x 4",
-		base = 90780,
-		weapon_id = {
-			90782
 		}
 	}
 }

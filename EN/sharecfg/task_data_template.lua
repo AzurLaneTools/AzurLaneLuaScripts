@@ -113696,6 +113696,399 @@ pg.task_data_template = {
 			"ACT_BOSS_BATTLE"
 		}
 	},
+	[16840] = {
+		name = "『美系V3复刻』角色收集：无畏",
+		guild_coin_award = 0,
+		award = 95840,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "Fully Limit Break Intrepid.",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "107114",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 107114,
+		id = 16840,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59232,
+				600
+			}
+		}
+	},
+	[16841] = {
+		name = "『美系V3复刻』角色收集：布莱默顿",
+		guild_coin_award = 0,
+		award = 95841,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "Fully Limit Break Bremerton.",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "103244",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 103244,
+		id = 16841,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59232,
+				600
+			}
+		}
+	},
+	[16842] = {
+		name = "『美系V3复刻』角色收集：里诺",
+		guild_coin_award = 0,
+		award = 95843,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "Fully Limit Break Reno.",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "102264",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 102264,
+		id = 16842,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59232,
+				600
+			}
+		}
+	},
+	[16843] = {
+		name = "『美系V3复刻』角色收集：库珀",
+		guild_coin_award = 0,
+		award = 95842,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "Fully Limit Break Cooper.",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "101444",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 101444,
+		id = 16843,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59232,
+				400
+			}
+		}
+	},
+	[16844] = {
+		name = "『美系V3复刻』角色收集：蓝鳃鱼",
+		guild_coin_award = 0,
+		award = 95844,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "Fully Limit Break Bluegill.",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "108044",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 108044,
+		id = 16844,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59232,
+				400
+			}
+		}
+	},
+	[16845] = {
+		name = "『美系V3复刻』角色收集：马布尔黑德",
+		guild_coin_award = 0,
+		award = 95845,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "Fully Limit Break Marblehead.",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "102274",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 102274,
+		id = 16845,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59232,
+				200
+			}
+		}
+	},
+	[16846] = {
+		name = "『美系V3复刻』角色收集：卡萨布兰卡",
+		guild_coin_award = 0,
+		award = 95846,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "Fully Limit Break Casablanca.",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "106554",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 106554,
+		id = 16846,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59232,
+				200
+			}
+		}
+	},
+	[16847] = {
+		name = "『美系V3复刻』角色刷关：圣地亚哥",
+		guild_coin_award = 0,
+		award = 95847,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Defeat flagship in B3 or D3 10 times with San Diego at max Limit Break. San Diego must not sink in battle.",
+		level = 1,
+		is_head = 1,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16847,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1351213,
+			1353213
+		},
+		target_id_2 = {
+			102084,
+			102174
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59232,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16848] = {
+		name = "『美系V3复刻』角色刷关：萨拉托加",
+		guild_coin_award = 0,
+		award = 95848,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Defeat flagship in B2 or D2 10 times with Saratoga at max Limit Break. Saratoga must not sink in battle.",
+		level = 1,
+		is_head = 1,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16848,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1351113,
+			1353113
+		},
+		target_id_2 = {
+			107034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59232,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16849] = {
+		name = "『美系V3复刻』角色刷关：海伦娜",
+		guild_coin_award = 0,
+		award = 95849,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Defeat flagship in A3 or C3 10 times with Helena at max Limit Break. Helena must not sink in battle.",
+		level = 1,
+		is_head = 1,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16849,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1350213,
+			1352213
+		},
+		target_id_2 = {
+			102054,
+			102284
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59232,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16850] = {
+		name = "『美系V3复刻』角色刷关：孟菲斯",
+		guild_coin_award = 0,
+		award = 95850,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Defeat flagship in A2 or C2 10 times with Memphis at max Limit Break. Memphis must not sink in battle.",
+		level = 1,
+		is_head = 1,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16850,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1350113,
+			1352113
+		},
+		target_id_2 = {
+			102164
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59232,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[16851] = {
 		name = "『美系V3复刻』前哨站zero1",
 		guild_coin_award = 0,
@@ -114311,6 +114704,729 @@ pg.task_data_template = {
 		scene = "",
 		target_id_for_client = 0,
 		id = 16869,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				218,
+				2
+			}
+		}
+	},
+	[16870] = {
+		name = "『微层混合复刻』-日常建造",
+		guild_coin_award = 0,
+		award = 95600,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "Build 3 ships.",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "0",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16870,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59155,
+				300
+			}
+		}
+	},
+	[16871] = {
+		name = "『微层混合复刻』-日常出击",
+		guild_coin_award = 0,
+		award = 95601,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "Sortie and obtain 15 victories.",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "0",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16871,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59155,
+				300
+			}
+		}
+	},
+	[16872] = {
+		name = "『微层混合复刻』-日常困难本",
+		guild_coin_award = 0,
+		award = 95602,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "10101",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16872,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59155,
+				150
+			}
+		}
+	},
+	[16873] = {
+		name = "『微层混合复刻』通关A1/C1",
+		guild_coin_award = 0,
+		award = 95603,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear A1 or C1.",
+		story_icon = "",
+		is_head = 1,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16874",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16873,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550001,
+			1550021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16874] = {
+		name = "『微层混合复刻』通关A2/C2",
+		guild_coin_award = 0,
+		award = 95604,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear A2 or C2.",
+		story_icon = "",
+		is_head = 0,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16875",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16874,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550002,
+			1550022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16875] = {
+		name = "『微层混合复刻』通关A3/C3",
+		guild_coin_award = 0,
+		award = 95605,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear A3 or C3.",
+		story_icon = "",
+		is_head = 0,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16876",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16875,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550003,
+			1550023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59155,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16876] = {
+		name = "『微层混合复刻』通关B1/D1",
+		guild_coin_award = 0,
+		award = 95606,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear B1 or D1.",
+		story_icon = "",
+		is_head = 0,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16877",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16876,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550004,
+			1550024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16877] = {
+		name = "『微层混合复刻』通关B2/D2",
+		guild_coin_award = 0,
+		award = 95607,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear B2 or D2.",
+		story_icon = "",
+		is_head = 0,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16878",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16877,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550005,
+			1550025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16878] = {
+		name = "『微层混合复刻』通关B3/D3",
+		guild_coin_award = 0,
+		award = 95608,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear B3 or D3.",
+		story_icon = "",
+		is_head = 0,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16879",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16878,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550006,
+			1550026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59155,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16879] = {
+		name = "『微层混合复刻』通关SP",
+		guild_coin_award = 0,
+		award = 95609,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear SP.",
+		story_icon = "",
+		is_head = 0,
+		level = 10,
+		target_id = "1550041",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1550041,
+		id = 16879,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16880] = {
+		name = "『微层混合复刻』通关D3",
+		guild_coin_award = 0,
+		award = 95610,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear D3<color=#92fc63>（If already cleared, you will not gain a second medal.）</color>",
+		story_icon = "",
+		is_head = 1,
+		level = 10,
+		target_id = "1550026",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1550026,
+		id = 16880,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				173,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16881] = {
+		name = "『微层混合复刻』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 95611,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete A1 or C1 with 3 stars.",
+		story_icon = "",
+		is_head = 1,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16882",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16881,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550001,
+			1550021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16882] = {
+		name = "『微层混合复刻』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 95612,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete A2 or C2 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16883",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16882,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550002,
+			1550022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16883] = {
+		name = "『微层混合复刻』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 95613,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete A3 or C3 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16884",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16883,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550003,
+			1550023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16884] = {
+		name = "『微层混合复刻』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 95614,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete B1 or D1 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16885",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16884,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550004,
+			1550024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16885] = {
+		name = "『微层混合复刻』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 95615,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete B2 or D2 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16886",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16885,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550005,
+			1550025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16886] = {
+		name = "『微层混合复刻』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 95616,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete B3 or D3 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		level = 10,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16886,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1550006,
+			1550026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16887] = {
+		name = "『美系V3复刻二阶段』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 95920,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "Login to the game.",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "0",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16887,
 		target_num = 1,
 		fix_task = 0,
 		added_tip = 0,
@@ -133634,6 +134750,17 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		16802,
 		16803,
 		16804,
+		16840,
+		16841,
+		16842,
+		16843,
+		16844,
+		16845,
+		16846,
+		16847,
+		16848,
+		16849,
+		16850,
 		16851,
 		16852,
 		16853,
@@ -133653,6 +134780,24 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		16867,
 		16868,
 		16869,
+		16870,
+		16871,
+		16872,
+		16873,
+		16874,
+		16875,
+		16876,
+		16877,
+		16878,
+		16879,
+		16880,
+		16881,
+		16882,
+		16883,
+		16884,
+		16885,
+		16886,
+		16887,
 		31013,
 		31014,
 		31015,

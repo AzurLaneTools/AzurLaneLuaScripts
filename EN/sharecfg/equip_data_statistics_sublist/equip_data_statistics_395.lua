@@ -1,5 +1,96 @@
 pg = pg or {}
 pg.equip_data_statistics_395 = {
+	[90820] = {
+		rarity = 3,
+		name = "Gourdou-Leseurre GL.2 Fighter",
+		speciality = "Air",
+		type = 7,
+		tech = 0,
+		ammo = 5,
+		nationality = 8,
+		value_2 = 12,
+		id = 90820,
+		torpedo_ammo = 0,
+		value_3 = 0,
+		descrip = "No description",
+		icon = "50820",
+		attribute_2 = "air",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			90820,
+			88000
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"FT"
+		}
+	},
+	[90821] = {
+		id = 90821,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50021
+			}
+		},
+		weapon_id = {
+			90821,
+			88001
+		}
+	},
+	[90822] = {
+		id = 90822,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50022
+			}
+		},
+		weapon_id = {
+			90822,
+			88002
+		}
+	},
+	[90823] = {
+		id = 90823,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50023
+			}
+		},
+		weapon_id = {
+			90823,
+			88003
+		}
+	},
 	[90824] = {
 		id = 90824,
 		base = 90820,
@@ -284,38 +375,6 @@ pg.equip_data_statistics_395 = {
 			"CA",
 			"MG",
 			"HE"
-		}
-	},
-	[90861] = {
-		id = 90861,
-		damage = "28 x 4",
-		base = 90860,
-		weapon_id = {
-			90861
-		}
-	},
-	[90862] = {
-		id = 90862,
-		damage = "30 x 4",
-		base = 90860,
-		weapon_id = {
-			90862
-		}
-	},
-	[90863] = {
-		id = 90863,
-		damage = "32 x 4",
-		base = 90860,
-		weapon_id = {
-			90863
-		}
-	},
-	[90864] = {
-		id = 90864,
-		damage = "34 x 4",
-		base = 90860,
-		weapon_id = {
-			90864
 		}
 	}
 }

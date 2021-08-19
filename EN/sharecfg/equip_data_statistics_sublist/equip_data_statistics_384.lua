@@ -1,5 +1,29 @@
 pg = pg or {}
 pg.equip_data_statistics_384 = {
+	[89283] = {
+		id = 89283,
+		value_2 = 18,
+		value_1 = "8",
+		base = 89280
+	},
+	[89284] = {
+		id = 89284,
+		value_2 = 19,
+		value_1 = "9",
+		base = 89280
+	},
+	[89285] = {
+		id = 89285,
+		value_2 = 20,
+		value_1 = "10",
+		base = 89280
+	},
+	[89286] = {
+		id = 89286,
+		value_2 = 21,
+		value_1 = "11",
+		base = 89280
+	},
 	[89287] = {
 		id = 89287,
 		value_2 = 22,
@@ -205,96 +229,6 @@ pg.equip_data_statistics_384 = {
 		base = 90020,
 		weapon_id = {
 			90021
-		}
-	},
-	[90022] = {
-		id = 90022,
-		damage = "4 x 5",
-		base = 90020,
-		weapon_id = {
-			90022
-		}
-	},
-	[90023] = {
-		id = 90023,
-		damage = "5 x 5",
-		base = 90020,
-		weapon_id = {
-			90023
-		}
-	},
-	[90040] = {
-		tech = 3,
-		name = "Single 130mm Mle 1924 Naval Gun",
-		speciality = "Lock",
-		type = 1,
-		value_2 = 12,
-		ammo = 3,
-		damage = "4 x 5",
-		nationality = 8,
-		rarity = 3,
-		id = 90040,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "No description",
-		icon = "50000",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90040
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"DD",
-			"MG"
-		}
-	},
-	[90041] = {
-		id = 90041,
-		damage = "5 x 5",
-		base = 90040,
-		weapon_id = {
-			90041
 		}
 	}
 }

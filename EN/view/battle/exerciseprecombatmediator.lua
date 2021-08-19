@@ -315,13 +315,13 @@ function slot0.getDockCallbackFuncsForExercise(slot0, slot1, slot2, slot3)
 	end, function (slot0, slot1, slot2)
 		slot1()
 	end, function (slot0)
-		slot3 = uv1:getShipPos(uv0:getShipById(slot0[1])) or -1
+		slot1 = uv0:getShipById(slot0[1])
 
 		if (uv1:getShipPos(uv2) or -1) > 0 then
 			uv1:removeShip(uv2)
 		end
 
-		if slot3 > 0 then
+		if (uv1:getShipPos(slot1) or -1) > 0 then
 			uv1:removeShip(slot1)
 		end
 

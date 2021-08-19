@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.equip_data_statistics_381 = {
+	[89208] = {
+		id = 89208,
+		value_2 = 4,
+		value_1 = "24",
+		base = 89200
+	},
+	[89209] = {
+		id = 89209,
+		value_2 = 4,
+		value_1 = "26",
+		base = 89200
+	},
+	[89210] = {
+		id = 89210,
+		value_2 = 5,
+		value_1 = "28",
+		base = 89200
+	},
+	[89211] = {
+		value_2 = 5,
+		anti_siren = 100,
+		base = 89200,
+		id = 89211,
+		value_1 = "30"
+	},
 	[89212] = {
 		value_2 = 5,
 		anti_siren = 200,
@@ -96,57 +121,5 @@ pg.equip_data_statistics_381 = {
 		id = 89230,
 		value_1 = "550",
 		base = 89220
-	},
-	[89231] = {
-		id = 89231,
-		anti_siren = 100,
-		value_1 = "580",
-		base = 89220
-	},
-	[89232] = {
-		id = 89232,
-		anti_siren = 200,
-		value_1 = "610",
-		base = 89220
-	},
-	[89233] = {
-		id = 89233,
-		anti_siren = 300,
-		value_1 = "640",
-		base = 89220
-	},
-	[89240] = {
-		type = 10,
-		name = "Awakening Pearl",
-		speciality = "N/A",
-		tech = 0,
-		value_2 = 16,
-		ammo = 10,
-		descrip = "No description",
-		nationality = 106,
-		rarity = 5,
-		attribute_1 = "dodge",
-		value_3 = 0,
-		torpedo_ammo = 0,
-		id = 89240,
-		icon = "89240",
-		value_1 = "6",
-		attribute_2 = "hit",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6720
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
 	}
 }

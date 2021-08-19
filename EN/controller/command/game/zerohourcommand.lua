@@ -27,6 +27,8 @@ function slot0.mainHandler(slot0, slot1)
 		slot4:setShopStreet(slot5)
 	end
 
+	slot4.refreshChargeList = true
+
 	getProxy(CollectionProxy):resetEvaCount()
 
 	if getProxy(MilitaryExerciseProxy):getSeasonInfo() then

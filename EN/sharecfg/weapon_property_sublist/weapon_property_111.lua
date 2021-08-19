@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_111 = {}
 
 (function ()
+	uv0.weapon_property_111[64083] = {
+		id = 64083,
+		name = "小天城二技能鱼雷LV3",
+		damage = 75,
+		base = 64081
+	}
+	uv0.weapon_property_111[64084] = {
+		id = 64084,
+		name = "小天城二技能鱼雷LV4",
+		damage = 79,
+		base = 64081
+	}
+	uv0.weapon_property_111[64085] = {
+		id = 64085,
+		name = "小天城二技能鱼雷LV5",
+		damage = 84,
+		base = 64081
+	}
+	uv0.weapon_property_111[64086] = {
+		id = 64086,
+		name = "小天城二技能鱼雷LV6",
+		damage = 90,
+		base = 64081
+	}
 	uv0.weapon_property_111[64087] = {
 		id = 64087,
 		name = "小天城二技能鱼雷LV7",
@@ -792,30 +816,6 @@ pg.weapon_property_111 = {}
 		id = 64206,
 		name = "新泽西超重黑蓝弹幕LV6",
 		damage = 137,
-		base = 64201
-	}
-	uv0.weapon_property_111[64207] = {
-		id = 64207,
-		name = "新泽西超重黑蓝弹幕LV7",
-		damage = 148,
-		base = 64201
-	}
-	uv0.weapon_property_111[64208] = {
-		id = 64208,
-		name = "新泽西超重黑蓝弹幕LV8",
-		damage = 159,
-		base = 64201
-	}
-	uv0.weapon_property_111[64209] = {
-		id = 64209,
-		name = "新泽西超重黑蓝弹幕LV9",
-		damage = 170,
-		base = 64201
-	}
-	uv0.weapon_property_111[64210] = {
-		id = 64210,
-		name = "新泽西超重黑蓝弹幕LV10",
-		damage = 181,
 		base = 64201
 	}
 end)()

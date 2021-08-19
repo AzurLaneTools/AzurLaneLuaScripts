@@ -223,7 +223,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "If the location is suitable, then let us hold a prayer so that the construction maybe completed safely.",
+			say = "If the location is suitable, then let us hold a prayer so that the construction may be completed safely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

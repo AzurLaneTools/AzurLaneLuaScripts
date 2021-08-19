@@ -1,5 +1,88 @@
 pg = pg or {}
 pg.equip_data_statistics_364 = {
+	[85064] = {
+		id = 85064,
+		damage = "57/wave",
+		base = 85060,
+		weapon_id = {
+			85064
+		}
+	},
+	[85065] = {
+		id = 85065,
+		damage = "63/wave",
+		base = 85060,
+		weapon_id = {
+			85065
+		}
+	},
+	[85066] = {
+		id = 85066,
+		damage = "70/wave",
+		base = 85060,
+		weapon_id = {
+			85066
+		}
+	},
+	[85120] = {
+		tech = 1,
+		name = "Triple 152mm B-38 MK 5 Main Gun Mount",
+		speciality = "Lock",
+		type = 2,
+		value_2 = 12,
+		ammo = 3,
+		damage = "5 x 6",
+		nationality = 7,
+		rarity = 3,
+		id = 85120,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "No description",
+		icon = "85120",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1201
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1201
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85120
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
+	},
 	[85121] = {
 		id = 85121,
 		base = 85120,
@@ -152,38 +235,6 @@ pg.equip_data_statistics_364 = {
 		base = 85140,
 		weapon_id = {
 			85146
-		}
-	},
-	[85147] = {
-		id = 85147,
-		damage = "12 x 6",
-		base = 85140,
-		weapon_id = {
-			85147
-		}
-	},
-	[85148] = {
-		id = 85148,
-		damage = "13 x 6",
-		base = 85140,
-		weapon_id = {
-			85148
-		}
-	},
-	[85149] = {
-		id = 85149,
-		damage = "14 x 6",
-		base = 85140,
-		weapon_id = {
-			85149
-		}
-	},
-	[85150] = {
-		id = 85150,
-		damage = "15 x 6",
-		base = 85140,
-		weapon_id = {
-			85150
 		}
 	}
 }

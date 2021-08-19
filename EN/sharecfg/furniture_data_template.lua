@@ -3450,7 +3450,7 @@ pg.furniture_data_template = {
 	[183] = {
 		effect = "",
 		name = "Dreamwaker's Montage",
-		gain_by = "",
+		gain_by = "Dreamwaker's Butterfly ",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -5105,6 +5105,80 @@ pg.furniture_data_template = {
 					100
 				},
 				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[100021] = {
+		effect = "",
+		name = "Bouncy Ball",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Let's Jump！",
+		tag = 6,
+		icon = "doaqiuicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		comfortable = 0,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100021,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"doaqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"doaqiuCharControl"
 			}
 		},
 		interAction_group = {}
@@ -82425,6 +82499,7 @@ pg.furniture_data_template = {
 		100016,
 		100018,
 		100019,
+		100021,
 		100023,
 		1001,
 		1002,

@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_388 = {
+	[90241] = {
+		id = 90241,
+		damage = "10 x 6",
+		base = 90240,
+		weapon_id = {
+			90241
+		}
+	},
+	[90242] = {
+		id = 90242,
+		damage = "11 x 6",
+		base = 90240,
+		weapon_id = {
+			90242
+		}
+	},
+	[90243] = {
+		id = 90243,
+		damage = "12 x 6",
+		base = 90240,
+		weapon_id = {
+			90243
+		}
+	},
+	[90244] = {
+		id = 90244,
+		damage = "13 x 6",
+		base = 90240,
+		weapon_id = {
+			90244
+		}
+	},
 	[90245] = {
 		id = 90245,
 		damage = "14 x 6",
@@ -190,83 +222,6 @@ pg.equip_data_statistics_388 = {
 		base = 90320,
 		weapon_id = {
 			90325
-		}
-	},
-	[90326] = {
-		id = 90326,
-		damage = "69 x 4",
-		base = 90320,
-		weapon_id = {
-			90326
-		}
-	},
-	[90340] = {
-		tech = 3,
-		name = "Quadruple 330mm Mle 1931 Main Gun Mount",
-		speciality = "Volley",
-		type = 4,
-		value_2 = 25,
-		ammo = 1,
-		damage = "41 x 4",
-		nationality = 8,
-		rarity = 4,
-		id = 90340,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "No description",
-		icon = "50300",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1551
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90340
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[90341] = {
-		id = 90341,
-		damage = "47 x 4",
-		base = 90340,
-		weapon_id = {
-			90341
-		}
-	},
-	[90342] = {
-		id = 90342,
-		damage = "53 x 4",
-		base = 90340,
-		weapon_id = {
-			90342
 		}
 	}
 }

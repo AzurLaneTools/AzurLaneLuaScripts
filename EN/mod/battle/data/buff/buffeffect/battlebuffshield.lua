@@ -30,14 +30,16 @@ function slot1.onStack(slot0, slot1, slot2)
 end
 
 function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
-	slot0._shield = slot0._shield - slot3.damage
+	if slot0:damageAttrRequire(slot3.damageAttr) then
+		slot0._shield = slot0._shield - slot3.damage
 
-	if slot0._shield > 0 then
-		slot3.damage = 0
-	else
-		slot3.damage = -slot0._shield
+		if slot0._shield > 0 then
+			slot3.damage = 0
+		else
+			slot3.damage = -slot0._shield
 
-		slot2:SetToCancel()
+			slot2:SetToCancel()
+		end
 	end
 end
 

@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_372 = {
+	[85462] = {
+		id = 85462,
+		damage = "17 x 3",
+		base = 85460,
+		weapon_id = {
+			85462
+		}
+	},
+	[85463] = {
+		id = 85463,
+		damage = "18 x 3",
+		base = 85460,
+		weapon_id = {
+			85463
+		}
+	},
+	[85464] = {
+		id = 85464,
+		damage = "19 x 3",
+		base = 85460,
+		weapon_id = {
+			85464
+		}
+	},
+	[85465] = {
+		id = 85465,
+		damage = "20 x 3",
+		base = 85460,
+		weapon_id = {
+			85465
+		}
+	},
 	[85466] = {
 		id = 85466,
 		damage = "21 x 3",
@@ -106,58 +138,5 @@ pg.equip_data_statistics_372 = {
 		base = 89000,
 		id = 89011,
 		value_1 = "26"
-	},
-	[89012] = {
-		value_2 = 17,
-		anti_siren = 200,
-		base = 89000,
-		id = 89012,
-		value_1 = "27"
-	},
-	[89013] = {
-		value_2 = 18,
-		anti_siren = 300,
-		base = 89000,
-		id = 89013,
-		value_1 = "28"
-	},
-	[89020] = {
-		type = 10,
-		name = "Pyoko-Pyoko",
-		speciality = "N/A",
-		tech = 0,
-		value_2 = 1,
-		ammo = 10,
-		descrip = "Kizuna AI's headband. It's a flippy-floppy wing-dang-doodle of a honkin' good time that goes on your head.",
-		nationality = 104,
-		rarity = 5,
-		attribute_1 = "durability",
-		value_3 = 0,
-		torpedo_ammo = 0,
-		id = 89020,
-		icon = "89020",
-		value_1 = "200",
-		attribute_2 = "luck",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6390
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89021] = {
-		id = 89021,
-		value_1 = "230",
-		base = 89020
 	}
 }
