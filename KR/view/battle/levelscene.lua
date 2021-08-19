@@ -2807,6 +2807,7 @@ function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
 		slot1:SetAsLastSibling()
 
 		slot5 = slot1:GetComponent("DftAniEvent")
+		slot6 = uv3:GetComponent("SpineAnimUI")
 
 		slot5:SetStartEvent(function (slot0)
 			uv0:SetAction("attack", 0)
@@ -2832,8 +2833,9 @@ function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
 		onButton(uv0, slot1, uv4, SFX_CANCEL)
 		coroutine.yield()
 		retPaintingPrefab(slot3, uv5:getPainting())
+		slot6:SetActionCallBack(nil)
 
-		uv3:GetComponent("SpineAnimUI"):GetComponent("SkeletonGraphic").freeze = false
+		slot6:GetComponent("SkeletonGraphic").freeze = false
 
 		PoolMgr.GetInstance():ReturnSpineChar(uv5:getPrefab(), uv3)
 		setActive(slot0, false)
@@ -2915,6 +2917,7 @@ function slot0.doPlayEnemyAnim(slot0, slot1, slot2, slot3)
 		slot1:SetAsLastSibling()
 
 		slot4 = slot1:GetComponent("DftAniEvent")
+		slot5 = uv2:GetComponent("SpineAnimUI")
 
 		slot4:SetStartEvent(function (slot0)
 			uv0:SetAction("attack", 0)
@@ -2939,8 +2942,9 @@ function slot0.doPlayEnemyAnim(slot0, slot1, slot2, slot3)
 		end)
 		onButton(uv0, slot1, uv3, SFX_CANCEL)
 		coroutine.yield()
+		slot5:SetActionCallBack(nil)
 
-		uv2:GetComponent("SpineAnimUI"):GetComponent("SkeletonGraphic").freeze = false
+		slot5:GetComponent("SkeletonGraphic").freeze = false
 
 		PoolMgr.GetInstance():ReturnSpineChar(uv4:getPrefab(), uv2)
 		setActive(slot0, false)

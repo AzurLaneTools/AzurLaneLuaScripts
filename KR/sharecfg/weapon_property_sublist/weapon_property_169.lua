@@ -2,6 +2,306 @@ pg = pg or {}
 pg.weapon_property_169 = {}
 
 (function ()
+	uv0.weapon_property_169[69089] = {
+		id = 69089,
+		name = "定点冰锥1-80-LV9",
+		damage = 49,
+		base = 69081
+	}
+	uv0.weapon_property_169[69090] = {
+		id = 69090,
+		name = "定点冰锥1-80-LV10",
+		damage = 56,
+		base = 69081
+	}
+	uv0.weapon_property_169[69091] = {
+		recover_time = 0,
+		name = "定点冰锥2-90-LV1",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 25,
+		reload_max = 9500,
+		queue = 4,
+		range = 90,
+		damage = 11,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 69091,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19099,
+			19101
+		},
+		barrage_ID = {
+			80842,
+			80842
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_169[69092] = {
+		id = 69092,
+		name = "定点冰锥2-90-LV2",
+		damage = 13,
+		base = 69091
+	}
+	uv0.weapon_property_169[69093] = {
+		id = 69093,
+		name = "定点冰锥2-90-LV3",
+		damage = 16,
+		base = 69091
+	}
+	uv0.weapon_property_169[69094] = {
+		id = 69094,
+		name = "定点冰锥2-90-LV4",
+		damage = 20,
+		base = 69091
+	}
+	uv0.weapon_property_169[69095] = {
+		id = 69095,
+		name = "定点冰锥2-90-LV5",
+		damage = 25,
+		base = 69091
+	}
+	uv0.weapon_property_169[69096] = {
+		id = 69096,
+		name = "定点冰锥2-90-LV6",
+		damage = 30,
+		base = 69091
+	}
+	uv0.weapon_property_169[69097] = {
+		id = 69097,
+		name = "定点冰锥2-90-LV7",
+		damage = 36,
+		base = 69091
+	}
+	uv0.weapon_property_169[69098] = {
+		id = 69098,
+		name = "定点冰锥2-90-LV8",
+		damage = 42,
+		base = 69091
+	}
+	uv0.weapon_property_169[69099] = {
+		id = 69099,
+		name = "定点冰锥2-90-LV9",
+		damage = 49,
+		base = 69091
+	}
+	uv0.weapon_property_169[69100] = {
+		id = 69100,
+		name = "定点冰锥2-90-LV10",
+		damage = 56,
+		base = 69091
+	}
+	uv0.weapon_property_169[69101] = {
+		recover_time = 0,
+		name = "定点冰锥3-100-LV1",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 25,
+		reload_max = 9500,
+		queue = 4,
+		range = 100,
+		damage = 11,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 69101,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19098,
+			19100,
+			19102
+		},
+		barrage_ID = {
+			80842,
+			80842,
+			80842
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_169[69102] = {
+		id = 69102,
+		name = "定点冰锥3-100-LV2",
+		damage = 13,
+		base = 69101
+	}
+	uv0.weapon_property_169[69103] = {
+		id = 69103,
+		name = "定点冰锥3-100-LV3",
+		damage = 16,
+		base = 69101
+	}
+	uv0.weapon_property_169[69104] = {
+		id = 69104,
+		name = "定点冰锥3-100-LV4",
+		damage = 20,
+		base = 69101
+	}
+	uv0.weapon_property_169[69105] = {
+		id = 69105,
+		name = "定点冰锥3-100-LV5",
+		damage = 25,
+		base = 69101
+	}
+	uv0.weapon_property_169[69106] = {
+		id = 69106,
+		name = "定点冰锥3-100-LV6",
+		damage = 30,
+		base = 69101
+	}
+	uv0.weapon_property_169[69107] = {
+		id = 69107,
+		name = "定点冰锥3-100-LV7",
+		damage = 36,
+		base = 69101
+	}
+	uv0.weapon_property_169[69108] = {
+		id = 69108,
+		name = "定点冰锥3-100-LV8",
+		damage = 42,
+		base = 69101
+	}
+	uv0.weapon_property_169[69109] = {
+		id = 69109,
+		name = "定点冰锥3-100-LV9",
+		damage = 49,
+		base = 69101
+	}
+	uv0.weapon_property_169[69110] = {
+		id = 69110,
+		name = "定点冰锥3-100-LV10",
+		damage = 56,
+		base = 69101
+	}
+	uv0.weapon_property_169[69111] = {
+		recover_time = 0.5,
+		name = "苏俄技能小子弹-LV1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 50,
+		damage = 11,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 69111,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19097
+		},
+		barrage_ID = {
+			80841
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_169[69112] = {
+		id = 69112,
+		name = "苏俄技能小子弹-LV2",
+		damage = 12,
+		base = 69111
+	}
+	uv0.weapon_property_169[69113] = {
+		id = 69113,
+		name = "苏俄技能小子弹-LV3",
+		damage = 13,
+		base = 69111
+	}
+	uv0.weapon_property_169[69114] = {
+		id = 69114,
+		name = "苏俄技能小子弹-LV4",
+		damage = 14,
+		base = 69111
+	}
+	uv0.weapon_property_169[69115] = {
+		id = 69115,
+		name = "苏俄技能小子弹-LV5",
+		damage = 15,
+		base = 69111
+	}
+	uv0.weapon_property_169[69116] = {
+		id = 69116,
+		name = "苏俄技能小子弹-LV6",
+		damage = 16,
+		base = 69111
+	}
+	uv0.weapon_property_169[69117] = {
+		id = 69117,
+		name = "苏俄技能小子弹-LV7",
+		damage = 17,
+		base = 69111
+	}
+	uv0.weapon_property_169[69118] = {
+		id = 69118,
+		name = "苏俄技能小子弹-LV8",
+		damage = 18,
+		base = 69111
+	}
 	uv0.weapon_property_169[69119] = {
 		id = 69119,
 		name = "苏俄技能小子弹-LV9",
@@ -382,328 +682,5 @@ pg.weapon_property_169 = {}
 		name = "定点冰锥PVP3-120-LV2",
 		damage = 13,
 		base = 69151
-	}
-	uv0.weapon_property_169[69153] = {
-		id = 69153,
-		name = "定点冰锥PVP3-120-LV3",
-		damage = 16,
-		base = 69151
-	}
-	uv0.weapon_property_169[69154] = {
-		id = 69154,
-		name = "定点冰锥PVP3-120-LV4",
-		damage = 20,
-		base = 69151
-	}
-	uv0.weapon_property_169[69155] = {
-		id = 69155,
-		name = "定点冰锥PVP3-120-LV5",
-		damage = 25,
-		base = 69151
-	}
-	uv0.weapon_property_169[69156] = {
-		id = 69156,
-		name = "定点冰锥PVP3-120-LV6",
-		damage = 30,
-		base = 69151
-	}
-	uv0.weapon_property_169[69157] = {
-		id = 69157,
-		name = "定点冰锥PVP3-120-LV7",
-		damage = 36,
-		base = 69151
-	}
-	uv0.weapon_property_169[69158] = {
-		id = 69158,
-		name = "定点冰锥PVP3-120-LV8",
-		damage = 42,
-		base = 69151
-	}
-	uv0.weapon_property_169[69159] = {
-		id = 69159,
-		name = "定点冰锥PVP3-120-LV9",
-		damage = 49,
-		base = 69151
-	}
-	uv0.weapon_property_169[69160] = {
-		id = 69160,
-		name = "定点冰锥PVP3-120-LV10",
-		damage = 56,
-		base = 69151
-	}
-	uv0.weapon_property_169[69161] = {
-		recover_time = 1,
-		name = "无畏技能轰炸机Lv1",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 10,
-		search_type = 1,
-		effect_move = 1,
-		angle = 90,
-		reload_max = 3000,
-		queue = 1,
-		range = 90,
-		damage = 66,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		id = 69161,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			69161
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_169[69162] = {
-		id = 69162,
-		name = "无畏技能轰炸机Lv2",
-		damage = 78,
-		base = 69161,
-		bullet_ID = {
-			69162
-		}
-	}
-	uv0.weapon_property_169[69163] = {
-		id = 69163,
-		name = "无畏技能轰炸机Lv3",
-		damage = 91,
-		base = 69161,
-		bullet_ID = {
-			69163
-		}
-	}
-	uv0.weapon_property_169[69164] = {
-		id = 69164,
-		name = "无畏技能轰炸机Lv4",
-		damage = 103,
-		base = 69161,
-		bullet_ID = {
-			69164
-		}
-	}
-	uv0.weapon_property_169[69165] = {
-		id = 69165,
-		name = "无畏技能轰炸机Lv5",
-		damage = 116,
-		base = 69161,
-		bullet_ID = {
-			69165
-		}
-	}
-	uv0.weapon_property_169[69166] = {
-		id = 69166,
-		name = "无畏技能轰炸机Lv6",
-		damage = 129,
-		base = 69161,
-		bullet_ID = {
-			69166
-		}
-	}
-	uv0.weapon_property_169[69167] = {
-		id = 69167,
-		name = "无畏技能轰炸机Lv7",
-		damage = 141,
-		base = 69161,
-		bullet_ID = {
-			69167
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_169[69168] = {
-		id = 69168,
-		name = "无畏技能轰炸机Lv8",
-		damage = 154,
-		base = 69161,
-		bullet_ID = {
-			69168
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_169[69169] = {
-		id = 69169,
-		name = "无畏技能轰炸机Lv9",
-		damage = 167,
-		base = 69161,
-		bullet_ID = {
-			69169
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_169[69170] = {
-		id = 69170,
-		name = "无畏技能轰炸机Lv10",
-		damage = 179,
-		base = 69161,
-		bullet_ID = {
-			69170
-		},
-		barrage_ID = {
-			12010
-		}
-	}
-	uv0.weapon_property_169[69171] = {
-		recover_time = 0,
-		name = "1 x 2000lb 폭탄",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 25,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 25,
-		reload_max = 3000,
-		queue = 1,
-		range = 500,
-		damage = 176,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 69171,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19105
-		},
-		barrage_ID = {
-			2120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_169[69172] = {
-		id = 69172,
-		damage = 198,
-		base = 69171
-	}
-	uv0.weapon_property_169[69173] = {
-		id = 69173,
-		damage = 221,
-		base = 69171
-	}
-	uv0.weapon_property_169[69174] = {
-		id = 69174,
-		damage = 243,
-		base = 69171
-	}
-	uv0.weapon_property_169[69175] = {
-		id = 69175,
-		damage = 266,
-		base = 69171
-	}
-	uv0.weapon_property_169[69176] = {
-		id = 69176,
-		damage = 288,
-		base = 69171
-	}
-	uv0.weapon_property_169[69177] = {
-		id = 69177,
-		damage = 311,
-		base = 69171
-	}
-	uv0.weapon_property_169[69178] = {
-		id = 69178,
-		damage = 333,
-		base = 69171
-	}
-	uv0.weapon_property_169[69179] = {
-		id = 69179,
-		damage = 356,
-		base = 69171
-	}
-	uv0.weapon_property_169[69180] = {
-		id = 69180,
-		damage = 380,
-		base = 69171
-	}
-	uv0.weapon_property_169[69181] = {
-		recover_time = 0,
-		name = "2 x 500lb 폭탄",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 25,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 25,
-		reload_max = 3000,
-		queue = 1,
-		range = 500,
-		damage = 86,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 69181,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19106
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_169[69182] = {
-		id = 69182,
-		damage = 99,
-		base = 69181
 	}
 end)()

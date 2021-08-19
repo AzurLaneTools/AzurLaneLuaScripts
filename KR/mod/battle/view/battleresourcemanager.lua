@@ -498,20 +498,22 @@ function slot5.StartPreload(slot0, slot1, slot2)
 				if slot0 == nil then
 					print("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
 				else
-					if not uv1._poolRoot then
-						uv2.ClearCharRes(uv0, slot0)
+					slot0 = SpineAnim.AnimChar(uv1, slot0)
+
+					if not uv2._poolRoot then
+						uv3.ClearCharRes(uv0, slot0)
 
 						return
 					end
 
-					SpineAnim.AnimChar(uv3, slot0):SetActive(false)
+					slot0:SetActive(false)
 
-					if uv1._resCacheList then
-						uv1._resCacheList[uv0] = slot0
+					if uv2._resCacheList then
+						uv2._resCacheList[uv0] = slot0
 					end
 				end
 
-				uv1:InitPool(uv0, slot0)
+				uv2:InitPool(uv0, slot0)
 				uv4()
 			end)
 		elseif string.find(slot9, "UI/") then

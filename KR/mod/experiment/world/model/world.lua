@@ -1122,6 +1122,7 @@ function slot0.TriggerAutoFight(slot0, slot1)
 	if tobool(slot1) ~= tobool(slot0.isAutoFight) then
 		slot0.isAutoFight = slot1
 
+		pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(slot1)
 		pg.m02:sendNotification(GAME.WORLD_TRIGGER_AUTO_FIGHT)
 	end
 end

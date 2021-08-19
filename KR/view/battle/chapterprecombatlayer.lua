@@ -429,12 +429,12 @@ function slot0.loadAllCharacter(slot0, slot1)
 
 		setActive(slot6:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
 
-		if slot18 then
-			if slot18 % 100 > 0 then
-				slot22 = tostring(slot18 / 100) .. "." .. tostring(slot21)
+		if slot17 then
+			if slot17 % 100 > 0 then
+				slot21 = tostring(slot17 / 100) .. "." .. tostring(slot20)
 			end
 
-			setText(slot19:Find("text"), string.format("EXP +%s%%", slot22))
+			setText(slot18:Find("text"), string.format("EXP +%s%%", slot21))
 		end
 	end
 

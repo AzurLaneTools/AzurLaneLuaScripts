@@ -16,9 +16,10 @@ function slot0.register(slot0)
 		table.insert(slot1, 1, uv0.contextData.shipId)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			blockLock = true,
-			selectedMax = 12,
+			destroyCheck = true,
 			selectedMin = 0,
 			skipSelect = true,
+			selectedMax = 12,
 			leftTopInfo = i18n("word_equipment_intensify"),
 			mode = DockyardScene.MODE_MOD,
 			onShip = ShipStatus.canDestroyShip,
@@ -30,15 +31,16 @@ function slot0.register(slot0)
 			sortData = {
 				Asc = true,
 				sort = 1
-			}
+			},
+			hideTagFlags = ShipStatus.TAG_HIDE_DESTROY
 		})
 	end)
 	slot0:bind(uv0.ON_AUTO_SELECT_SHIP, function (slot0)
-		if #uv0:autoSelectShip() > 0 then
-			uv0.contextData.materialShipIds = slot1
+		if #uv0:getModRecommendShip(uv1.viewComponent.shipVO, uv1.contextData.materialShipIds or {}) > 0 then
+			uv1.contextData.materialShipIds = slot1
 
-			uv0.viewComponent:initSelectedShips()
-			uv0.viewComponent:initAttrs()
+			uv1.viewComponent:initSelectedShips()
+			uv1.viewComponent:initAttrs()
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("without_selected_ship"))
 		end
@@ -61,68 +63,6 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.LOADEND, function (slot0, slot1)
 		uv0:sendNotification(uv1.LOADEND, slot1)
-	end)
-end
-
-function slot0.autoSelectShip(slot0)
-	slot1 = slot0.viewComponent.shipVO
-	slot2 = slot0.contextData.materialShipIds or {}
-	slot3 = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_2)
-	slot6 = {}
-
-	for slot10, slot11 in pairs(getProxy(BayProxy):getRawData()) do
-		if (function (slot0)
-			return slot0.level == 1 and slot0:getRarity() <= ShipRarity.Gray and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
-		end)(slot11) then
-			table.insert(slot6, slot11)
-		end
-	end
-
-	slot9 = pg.ship_data_by_type[slot1:getConfig("type")].strengthen_choose_type
-
-	table.sort(slot6, function (slot0, slot1)
-		if (slot0:isSameKind(uv0) and 1 or 0) == (slot1:isSameKind(uv0) and 1 or 0) then
-			return table.indexof(uv1, slot0:getConfig("type")) < table.indexof(uv1, slot1:getConfig("type"))
-		else
-			return slot3 < slot2
-		end
-	end)
-
-	for slot14, slot15 in pairs(slot2) do
-		table.insert({}, slot5[slot15])
-	end
-
-	for slot14, slot15 in ipairs(slot6) do
-		if #slot10 == 12 then
-			break
-		end
-
-		for slot21, slot22 in pairs(ShipModLayer.getModExpAdditions(Clone(slot1), slot10)) do
-			slot16:addModAttrExp(slot21, slot22)
-		end
-
-		slot19 = {}
-
-		for slot23, slot24 in pairs(ShipModLayer.getModExpAdditions(slot16, {
-			slot15
-		})) do
-			if slot24 > 0 then
-				table.insert(slot19, {
-					attrName = slot23,
-					value = slot24
-				})
-			end
-		end
-
-		if not _.all(slot19, function (slot0)
-			return uv0:leftModAdditionPoint(slot0.attrName) == 0
-		end) then
-			table.insert(slot10, slot15)
-		end
-	end
-
-	return _.map(slot10, function (slot0)
-		return slot0.id
 	end)
 end
 

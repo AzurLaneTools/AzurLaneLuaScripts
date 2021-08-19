@@ -1,88 +1,86 @@
 pg = pg or {}
 pg.aircraft_template_156 = {
-	[65845] = {
-		id = 65845,
-		name = "黑方舟技能-特殊鱼雷机Lv5",
-		base = 65841,
-		max_hp = 61,
-		hp_growth = 2335,
+	[65575] = {
+		id = 65575,
+		name = "威悉技能轰炸机PlusLv5",
+		base = 65561,
+		max_hp = 77,
+		hp_growth = 2478,
 		weapon_ID = {
-			65855
+			65585
 		}
 	},
-	[65846] = {
-		id = 65846,
-		name = "黑方舟技能-特殊鱼雷机Lv6",
-		base = 65841,
-		max_hp = 66,
-		hp_growth = 2554,
+	[65576] = {
+		id = 65576,
+		name = "威悉技能轰炸机PlusLv6",
+		base = 65561,
+		max_hp = 84,
+		hp_growth = 2710,
 		weapon_ID = {
-			65856
+			65586
 		}
 	},
-	[65847] = {
-		id = 65847,
-		name = "黑方舟技能-特殊鱼雷机Lv7",
-		base = 65841,
-		max_hp = 72,
-		hp_growth = 2772,
+	[65577] = {
+		id = 65577,
+		name = "威悉技能轰炸机PlusLv7",
+		base = 65561,
+		max_hp = 90,
+		hp_growth = 2943,
 		weapon_ID = {
-			65857
+			65587
 		}
 	},
-	[65848] = {
-		id = 65848,
-		name = "黑方舟技能-特殊鱼雷机Lv8",
-		base = 65841,
-		max_hp = 78,
-		hp_growth = 2991,
+	[65578] = {
+		id = 65578,
+		name = "威悉技能轰炸机PlusLv8",
+		base = 65561,
+		max_hp = 97,
+		hp_growth = 3175,
 		weapon_ID = {
-			65858
+			65588
 		}
 	},
-	[65849] = {
-		id = 65849,
-		name = "黑方舟技能-特殊鱼雷机Lv9",
-		base = 65841,
-		max_hp = 83,
-		hp_growth = 3210,
+	[65579] = {
+		id = 65579,
+		name = "威悉技能轰炸机PlusLv9",
+		base = 65561,
+		max_hp = 103,
+		hp_growth = 3407,
 		weapon_ID = {
-			65859
+			65589
 		}
 	},
-	[65850] = {
-		id = 65850,
-		name = "黑方舟技能-特殊鱼雷机Lv10",
-		base = 65841,
-		max_hp = 89,
-		hp_growth = 3429,
+	[65580] = {
+		id = 65580,
+		name = "威悉技能轰炸机PlusLv10",
+		base = 65561,
+		max_hp = 110,
+		hp_growth = 3640,
 		weapon_ID = {
-			65860
+			65590
 		}
 	},
-	[65911] = {
+	[65841] = {
 		attack_power = 2,
-		name = "天鹰技能G.50Lv1",
-		type = 1,
+		name = "黑方舟技能-特殊鱼雷机Lv1",
+		type = 2,
 		accuracy = 23,
-		model_ID = "g50",
+		model_ID = "jianyu",
 		ACC_growth = 0,
-		crash_DMG = 160,
-		dodge = 0.333,
+		crash_DMG = 420,
+		dodge = 1,
 		funnel_behavior = "",
-		nationality = 6,
-		id = 65911,
-		icon = "g50",
+		nationality = 2,
+		id = 65841,
+		icon = "jianyu",
 		AP_growth = 2000,
-		dodge_limit = 9,
-		hp_growth = 1785,
-		speed = 50,
-		max_hp = 46,
+		dodge_limit = 0,
+		hp_growth = 1459,
+		speed = 40,
+		max_hp = 38,
 		scale = 1,
 		weapon_ID = {
-			50041,
-			50541,
-			65921
+			65851
 		},
 		position_offset = {
 			0,
@@ -125,7 +123,7 @@ pg.aircraft_template_156 = {
 				0
 			},
 			{
-				0.27,
+				0.52,
 				0,
 				0
 			},
@@ -136,40 +134,34 @@ pg.aircraft_template_156 = {
 			}
 		}
 	},
-	[65912] = {
-		id = 65912,
-		name = "天鹰技能G.50Lv2",
-		base = 65911,
-		max_hp = 52,
-		hp_growth = 2018,
+	[65842] = {
+		id = 65842,
+		name = "黑方舟技能-特殊鱼雷机Lv2",
+		base = 65841,
+		max_hp = 44,
+		hp_growth = 1678,
 		weapon_ID = {
-			50042,
-			50542,
-			65922
+			65852
 		}
 	},
-	[65913] = {
-		id = 65913,
-		name = "天鹰技能G.50Lv3",
-		base = 65911,
-		max_hp = 59,
-		hp_growth = 2251,
+	[65843] = {
+		id = 65843,
+		name = "黑方舟技能-特殊鱼雷机Lv3",
+		base = 65841,
+		max_hp = 49,
+		hp_growth = 1897,
 		weapon_ID = {
-			50043,
-			50543,
-			65923
+			65853
 		}
 	},
-	[65914] = {
-		id = 65914,
-		name = "天鹰技能G.50Lv4",
-		base = 65911,
-		max_hp = 65,
-		hp_growth = 2484,
+	[65844] = {
+		id = 65844,
+		name = "黑方舟技能-特殊鱼雷机Lv4",
+		base = 65841,
+		max_hp = 55,
+		hp_growth = 2116,
 		weapon_ID = {
-			50044,
-			50544,
-			65924
+			65854
 		}
 	}
 }

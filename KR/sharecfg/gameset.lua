@@ -1379,9 +1379,9 @@ pg.gameset = {
 		key_value = 1,
 		description = {
 			{
-				20010,
-				20011,
-				20012
+				20013,
+				20014,
+				20015
 			}
 		}
 	},
@@ -1487,7 +1487,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 216
+		key_value = 218
 	},
 	order_pt_max = {
 		key_value = 0,

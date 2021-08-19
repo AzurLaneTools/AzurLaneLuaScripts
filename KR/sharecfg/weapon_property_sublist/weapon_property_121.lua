@@ -2,6 +2,329 @@ pg = pg or {}
 pg.weapon_property_121 = {}
 
 (function ()
+	uv0.weapon_property_121[65221] = {
+		recover_time = 0,
+		name = "2 x 100lb 炸弹",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 25,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 25,
+		reload_max = 9500,
+		queue = 1,
+		range = 500,
+		damage = 70,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 65221,
+		attack_attribute_ratio = 80,
+		aim_type = 1,
+		bullet_ID = {
+			19216
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_121[65222] = {
+		id = 65222,
+		damage = 78,
+		base = 65221
+	}
+	uv0.weapon_property_121[65223] = {
+		id = 65223,
+		damage = 85,
+		base = 65221
+	}
+	uv0.weapon_property_121[65224] = {
+		id = 65224,
+		damage = 93,
+		base = 65221
+	}
+	uv0.weapon_property_121[65225] = {
+		id = 65225,
+		damage = 100,
+		base = 65221
+	}
+	uv0.weapon_property_121[65226] = {
+		id = 65226,
+		damage = 108,
+		base = 65221
+	}
+	uv0.weapon_property_121[65227] = {
+		id = 65227,
+		damage = 115,
+		base = 65221
+	}
+	uv0.weapon_property_121[65228] = {
+		id = 65228,
+		damage = 123,
+		base = 65221
+	}
+	uv0.weapon_property_121[65229] = {
+		id = 65229,
+		damage = 130,
+		base = 65221
+	}
+	uv0.weapon_property_121[65230] = {
+		id = 65230,
+		damage = 138,
+		base = 65221
+	}
+	uv0.weapon_property_121[65231] = {
+		recover_time = 0,
+		name = "大凤μ-吸血弹幕Lv1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 10,
+		search_type = 1,
+		effect_move = 0,
+		angle = 180,
+		reload_max = 1800,
+		queue = 2,
+		range = 72,
+		damage = 35,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 65231,
+		attack_attribute_ratio = 80,
+		aim_type = 0,
+		bullet_ID = {
+			19217,
+			19218,
+			19219,
+			19220
+		},
+		barrage_ID = {
+			80958,
+			80959,
+			80960,
+			80961
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_121[65232] = {
+		id = 65232,
+		name = "大凤μ-吸血弹幕Lv2",
+		damage = 37,
+		base = 65231
+	}
+	uv0.weapon_property_121[65233] = {
+		id = 65233,
+		name = "大凤μ-吸血弹幕Lv3",
+		damage = 39,
+		base = 65231
+	}
+	uv0.weapon_property_121[65234] = {
+		id = 65234,
+		name = "大凤μ-吸血弹幕Lv4",
+		damage = 41,
+		base = 65231
+	}
+	uv0.weapon_property_121[65235] = {
+		id = 65235,
+		name = "大凤μ-吸血弹幕Lv5",
+		damage = 43,
+		base = 65231
+	}
+	uv0.weapon_property_121[65236] = {
+		id = 65236,
+		name = "大凤μ-吸血弹幕Lv6",
+		damage = 45,
+		base = 65231
+	}
+	uv0.weapon_property_121[65237] = {
+		id = 65237,
+		name = "大凤μ-吸血弹幕Lv7",
+		damage = 47,
+		base = 65231
+	}
+	uv0.weapon_property_121[65238] = {
+		id = 65238,
+		name = "大凤μ-吸血弹幕Lv8",
+		damage = 49,
+		base = 65231
+	}
+	uv0.weapon_property_121[65239] = {
+		id = 65239,
+		name = "大凤μ-吸血弹幕Lv9",
+		damage = 51,
+		base = 65231
+	}
+	uv0.weapon_property_121[65240] = {
+		id = 65240,
+		name = "大凤μ-吸血弹幕Lv10",
+		damage = 53,
+		base = 65231
+	}
+	uv0.weapon_property_121[65241] = {
+		recover_time = 0.5,
+		name = "罗恩μ追击鱼雷Lv1",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 400,
+		queue = 1,
+		range = 90,
+		damage = 30,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 65241,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19221
+		},
+		barrage_ID = {
+			80962
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_121[65242] = {
+		id = 65242,
+		name = "罗恩μ追击鱼雷Lv2",
+		damage = 32,
+		base = 65241
+	}
+	uv0.weapon_property_121[65243] = {
+		id = 65243,
+		name = "罗恩μ追击鱼雷Lv3",
+		damage = 34,
+		base = 65241
+	}
+	uv0.weapon_property_121[65244] = {
+		id = 65244,
+		name = "罗恩μ追击鱼雷Lv4",
+		damage = 36,
+		base = 65241
+	}
+	uv0.weapon_property_121[65245] = {
+		id = 65245,
+		name = "罗恩μ追击鱼雷Lv5",
+		damage = 38,
+		base = 65241
+	}
+	uv0.weapon_property_121[65246] = {
+		id = 65246,
+		name = "罗恩μ追击鱼雷Lv6",
+		damage = 40,
+		base = 65241
+	}
+	uv0.weapon_property_121[65247] = {
+		id = 65247,
+		name = "罗恩μ追击鱼雷Lv7",
+		damage = 42,
+		base = 65241,
+		bullet_ID = {
+			19221,
+			19221
+		},
+		barrage_ID = {
+			80962,
+			80963
+		}
+	}
+	uv0.weapon_property_121[65248] = {
+		id = 65248,
+		name = "罗恩μ追击鱼雷Lv8",
+		damage = 44,
+		base = 65241,
+		bullet_ID = {
+			19221,
+			19221
+		},
+		barrage_ID = {
+			80962,
+			80963
+		}
+	}
+	uv0.weapon_property_121[65249] = {
+		id = 65249,
+		name = "罗恩μ追击鱼雷Lv9",
+		damage = 46,
+		base = 65241,
+		bullet_ID = {
+			19221,
+			19221
+		},
+		barrage_ID = {
+			80962,
+			80963
+		}
+	}
+	uv0.weapon_property_121[65250] = {
+		id = 65250,
+		name = "罗恩μ追击鱼雷Lv10",
+		damage = 50,
+		base = 65241,
+		bullet_ID = {
+			19221,
+			19221
+		},
+		barrage_ID = {
+			80962,
+			80963
+		}
+	}
 	uv0.weapon_property_121[65251] = {
 		recover_time = 0.5,
 		name = "光辉μ坠星Lv1",
@@ -431,313 +754,5 @@ pg.weapon_property_121 = {}
 		name = "穗香弹幕LV4-类黎塞留高爆4+2枚",
 		damage = 98,
 		base = 65281
-	}
-	uv0.weapon_property_121[65285] = {
-		id = 65285,
-		name = "穗香弹幕LV5-类黎塞留高爆4+2枚",
-		damage = 110,
-		base = 65281
-	}
-	uv0.weapon_property_121[65286] = {
-		id = 65286,
-		name = "穗香弹幕LV6-类黎塞留高爆4+2枚",
-		damage = 122,
-		base = 65281
-	}
-	uv0.weapon_property_121[65287] = {
-		id = 65287,
-		name = "穗香弹幕LV7-类黎塞留高爆4+2枚",
-		damage = 134,
-		base = 65281
-	}
-	uv0.weapon_property_121[65288] = {
-		id = 65288,
-		name = "穗香弹幕LV8-类黎塞留高爆4+2枚",
-		damage = 146,
-		base = 65281
-	}
-	uv0.weapon_property_121[65289] = {
-		id = 65289,
-		name = "穗香弹幕LV9-类黎塞留高爆4+2枚",
-		damage = 158,
-		base = 65281
-	}
-	uv0.weapon_property_121[65290] = {
-		id = 65290,
-		name = "穗香弹幕LV10-类黎塞留高爆4+2枚",
-		damage = 170,
-		base = 65281
-	}
-	uv0.weapon_property_121[65291] = {
-		recover_time = 0,
-		name = "穗香弹幕LV1-类佐治亚超重弹2枚",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 95,
-		damage = 62,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 25,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 65291,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19226
-		},
-		barrage_ID = {
-			1300
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jineng",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_121[65292] = {
-		id = 65292,
-		name = "穗香弹幕LV2-类佐治亚超重弹2枚",
-		damage = 74,
-		base = 65291
-	}
-	uv0.weapon_property_121[65293] = {
-		id = 65293,
-		name = "穗香弹幕LV3-类佐治亚超重弹2枚",
-		damage = 86,
-		base = 65291
-	}
-	uv0.weapon_property_121[65294] = {
-		id = 65294,
-		name = "穗香弹幕LV4-类佐治亚超重弹2枚",
-		damage = 98,
-		base = 65291
-	}
-	uv0.weapon_property_121[65295] = {
-		id = 65295,
-		name = "穗香弹幕LV5-类佐治亚超重弹2枚",
-		damage = 110,
-		base = 65291
-	}
-	uv0.weapon_property_121[65296] = {
-		id = 65296,
-		name = "穗香弹幕LV6-类佐治亚超重弹2枚",
-		damage = 122,
-		base = 65291
-	}
-	uv0.weapon_property_121[65297] = {
-		id = 65297,
-		name = "穗香弹幕LV7-类佐治亚超重弹2枚",
-		damage = 134,
-		base = 65291
-	}
-	uv0.weapon_property_121[65298] = {
-		id = 65298,
-		name = "穗香弹幕LV8-类佐治亚超重弹2枚",
-		damage = 146,
-		base = 65291
-	}
-	uv0.weapon_property_121[65299] = {
-		id = 65299,
-		name = "穗香弹幕LV9-类佐治亚超重弹2枚",
-		damage = 158,
-		base = 65291
-	}
-	uv0.weapon_property_121[65300] = {
-		id = 65300,
-		name = "穗香弹幕LV10-类佐治亚超重弹2枚",
-		damage = 170,
-		base = 65291
-	}
-	uv0.weapon_property_121[65301] = {
-		recover_time = 0.5,
-		name = "霞樱花天舞袭弹幕LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 500,
-		queue = 1,
-		range = 100,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 65301,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19227,
-			19228
-		},
-		barrage_ID = {
-			80970,
-			80971
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_121[65302] = {
-		id = 65302,
-		name = "霞樱花天舞袭弹幕LV2",
-		damage = 26,
-		base = 65301
-	}
-	uv0.weapon_property_121[65303] = {
-		id = 65303,
-		name = "霞樱花天舞袭弹幕LV3",
-		damage = 28,
-		base = 65301
-	}
-	uv0.weapon_property_121[65304] = {
-		id = 65304,
-		name = "霞樱花天舞袭弹幕LV4",
-		damage = 30,
-		base = 65301
-	}
-	uv0.weapon_property_121[65305] = {
-		id = 65305,
-		name = "霞樱花天舞袭弹幕LV5",
-		damage = 32,
-		base = 65301
-	}
-	uv0.weapon_property_121[65306] = {
-		id = 65306,
-		name = "霞樱花天舞袭弹幕LV6",
-		damage = 34,
-		base = 65301
-	}
-	uv0.weapon_property_121[65307] = {
-		id = 65307,
-		name = "霞樱花天舞袭弹幕LV7",
-		damage = 36,
-		base = 65301
-	}
-	uv0.weapon_property_121[65308] = {
-		id = 65308,
-		name = "霞樱花天舞袭弹幕LV8",
-		damage = 38,
-		base = 65301
-	}
-	uv0.weapon_property_121[65309] = {
-		id = 65309,
-		name = "霞樱花天舞袭弹幕LV9",
-		damage = 40,
-		base = 65301
-	}
-	uv0.weapon_property_121[65310] = {
-		id = 65310,
-		name = "霞樱花天舞袭弹幕LV10",
-		damage = 42,
-		base = 65301
-	}
-	uv0.weapon_property_121[65311] = {
-		recover_time = 0,
-		name = "穗香弹幕LV1-类黎塞留高爆4+2枚-PVP",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 115,
-		damage = 62,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 35,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 65311,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19224,
-			19225
-		},
-		barrage_ID = {
-			80968,
-			80969
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jineng",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_121[65312] = {
-		id = 65312,
-		name = "穗香弹幕LV2-类黎塞留高爆4+2枚-PVP",
-		damage = 74,
-		base = 65311
-	}
-	uv0.weapon_property_121[65313] = {
-		id = 65313,
-		name = "穗香弹幕LV3-类黎塞留高爆4+2枚-PVP",
-		damage = 86,
-		base = 65311
-	}
-	uv0.weapon_property_121[65314] = {
-		id = 65314,
-		name = "穗香弹幕LV4-类黎塞留高爆4+2枚-PVP",
-		damage = 98,
-		base = 65311
 	}
 end)()

@@ -13925,6 +13925,37 @@ pg.activity_event_pt = {
 			0
 		}
 	},
+	[20820] = {
+		convert_resource_type = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 1,
+		buff_group = "",
+		pt_list = "",
+		drop_display = "",
+		pic_list = "",
+		buff_time = "",
+		id_2 = 20820,
+		link_id = 0,
+		id = 20820,
+		pt = 217,
+		target = {
+			2800
+		},
+		drop_client = {
+			{
+				14,
+				307,
+				1
+			}
+		},
+		allplayer = {
+			0.1
+		},
+		day_unlock = {
+			0
+		}
+	},
 	all = {
 		580,
 		640,
@@ -14000,6 +14031,7 @@ pg.activity_event_pt = {
 		20796,
 		20799,
 		20803,
-		20807
+		20807,
+		20820
 	}
 }

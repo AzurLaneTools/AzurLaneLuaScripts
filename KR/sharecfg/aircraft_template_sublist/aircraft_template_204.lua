@@ -1,59 +1,57 @@
 pg = pg or {}
 pg.aircraft_template_204 = {
-	[69718] = {
-		id = 69718,
-		name = "英仙座技能萤火虫Lv8",
-		base = 69711,
-		max_hp = 97,
-		hp_growth = 3717,
+	[69708] = {
+		id = 69708,
+		name = "英仙座技能TBFLv8",
+		base = 69701,
+		max_hp = 83,
+		hp_growth = 3202,
 		weapon_ID = {
-			50668,
-			52748
+			69738
 		}
 	},
-	[69719] = {
-		id = 69719,
-		name = "英仙座技能萤火虫Lv9",
-		base = 69711,
-		max_hp = 103,
-		hp_growth = 3971,
+	[69709] = {
+		id = 69709,
+		name = "英仙座技能TBFLv9",
+		base = 69701,
+		max_hp = 89,
+		hp_growth = 3421,
 		weapon_ID = {
-			50669,
-			52749
+			69739
 		}
 	},
-	[69720] = {
-		id = 69720,
-		name = "英仙座技能萤火虫Lv10",
-		base = 69711,
-		max_hp = 110,
-		hp_growth = 4224,
+	[69710] = {
+		id = 69710,
+		name = "英仙座技能TBFLv10",
+		base = 69701,
+		max_hp = 95,
+		hp_growth = 3639,
 		weapon_ID = {
-			50670,
-			52750
+			69740
 		}
 	},
-	[69751] = {
+	[69711] = {
 		attack_power = 2,
-		name = "鹰技能剑鱼 Lv1",
+		name = "英仙座技能萤火虫Lv1",
 		type = 3,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "yinghuochong",
 		ACC_growth = 0,
-		crash_DMG = 102,
-		dodge = 1,
+		crash_DMG = 210,
+		dodge = 0.75,
 		funnel_behavior = "",
-		nationality = 0,
-		id = 69751,
-		icon = "jianyu",
+		nationality = 2,
+		id = 69711,
+		icon = "yinghuochong",
 		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 1538,
-		speed = 45,
-		max_hp = 40,
+		dodge_limit = 7,
+		hp_growth = 1943,
+		speed = 47,
+		max_hp = 51,
 		scale = 1,
 		weapon_ID = {
-			69771
+			50661,
+			52741
 		},
 		position_offset = {
 			0,
@@ -73,13 +71,13 @@ pg.aircraft_template_204 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.03,
-					-1.43,
+					1.26,
+					-1.13,
 					0
 				},
 				{
-					1.01,
-					1.43,
+					1.35,
+					1.18,
 					0
 				}
 			}
@@ -96,7 +94,7 @@ pg.aircraft_template_204 = {
 				0
 			},
 			{
-				0.52,
+				0.44,
 				0,
 				0
 			},
@@ -107,64 +105,70 @@ pg.aircraft_template_204 = {
 			}
 		}
 	},
-	[69752] = {
-		id = 69752,
-		name = "鹰技能剑鱼 Lv2",
-		base = 69751,
-		max_hp = 45,
-		hp_growth = 1739,
+	[69712] = {
+		id = 69712,
+		name = "英仙座技能萤火虫Lv2",
+		base = 69711,
+		max_hp = 57,
+		hp_growth = 2196,
 		weapon_ID = {
-			69772
+			50662,
+			52742
 		}
 	},
-	[69753] = {
-		id = 69753,
-		name = "鹰技能剑鱼 Lv3",
-		base = 69751,
-		max_hp = 50,
-		hp_growth = 1940,
+	[69713] = {
+		id = 69713,
+		name = "英仙座技能萤火虫Lv3",
+		base = 69711,
+		max_hp = 64,
+		hp_growth = 2450,
 		weapon_ID = {
-			69773
+			50663,
+			52743
 		}
 	},
-	[69754] = {
-		id = 69754,
-		name = "鹰技能剑鱼 Lv4",
-		base = 69751,
-		max_hp = 56,
-		hp_growth = 2140,
+	[69714] = {
+		id = 69714,
+		name = "英仙座技能萤火虫Lv4",
+		base = 69711,
+		max_hp = 70,
+		hp_growth = 2703,
 		weapon_ID = {
-			69774
+			50664,
+			52744
 		}
 	},
-	[69755] = {
-		id = 69755,
-		name = "鹰技能剑鱼 Lv5",
-		base = 69751,
-		max_hp = 61,
-		hp_growth = 2341,
+	[69715] = {
+		id = 69715,
+		name = "英仙座技能萤火虫Lv5",
+		base = 69711,
+		max_hp = 77,
+		hp_growth = 2957,
 		weapon_ID = {
-			69775
+			50665,
+			52745
 		}
 	},
-	[69756] = {
-		id = 69756,
-		name = "鹰技能剑鱼 Lv6",
-		base = 69751,
-		max_hp = 66,
-		hp_growth = 2541,
+	[69716] = {
+		id = 69716,
+		name = "英仙座技能萤火虫Lv6",
+		base = 69711,
+		max_hp = 83,
+		hp_growth = 3210,
 		weapon_ID = {
-			69776
+			50666,
+			52746
 		}
 	},
-	[69757] = {
-		id = 69757,
-		name = "鹰技能剑鱼 Lv7",
-		base = 69751,
-		max_hp = 71,
-		hp_growth = 2742,
+	[69717] = {
+		id = 69717,
+		name = "英仙座技能萤火虫Lv7",
+		base = 69711,
+		max_hp = 90,
+		hp_growth = 3464,
 		weapon_ID = {
-			69777
+			50667,
+			52747
 		}
 	}
 }

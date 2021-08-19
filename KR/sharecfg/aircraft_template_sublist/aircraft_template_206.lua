@@ -1,61 +1,57 @@
 pg = pg or {}
 pg.aircraft_template_206 = {
-	[69928] = {
-		id = 69928,
-		name = "信浓技能试制紫电改二 LV8",
-		base = 69921,
+	[69758] = {
+		id = 69758,
+		name = "鹰技能剑鱼 Lv8",
+		base = 69751,
+		max_hp = 77,
+		hp_growth = 2943,
+		weapon_ID = {
+			69778
+		}
+	},
+	[69759] = {
+		id = 69759,
+		name = "鹰技能剑鱼 Lv9",
+		base = 69751,
 		max_hp = 82,
-		hp_growth = 3141,
+		hp_growth = 3143,
 		weapon_ID = {
-			59548,
-			69968
+			69779
 		}
 	},
-	[69929] = {
-		id = 69929,
-		name = "信浓技能试制紫电改二 LV9",
-		base = 69921,
-		max_hp = 88,
-		hp_growth = 3371,
+	[69760] = {
+		id = 69760,
+		name = "鹰技能剑鱼 Lv10",
+		base = 69751,
+		max_hp = 87,
+		hp_growth = 3344,
 		weapon_ID = {
-			59549,
-			69969
+			69780
 		}
 	},
-	[69930] = {
-		id = 69930,
-		name = "信浓技能试制紫电改二 LV10",
-		base = 69921,
-		max_hp = 94,
-		hp_growth = 3601,
-		weapon_ID = {
-			59550,
-			69970
-		}
-	},
-	[69931] = {
+	[69921] = {
 		attack_power = 2,
-		name = "信浓技能流星 LV1",
-		type = 2,
+		name = "信浓技能试制紫电改二 LV1",
+		type = 1,
 		accuracy = 23,
-		model_ID = "liuxing",
+		model_ID = "shizhizidiangaier",
 		ACC_growth = 0,
-		crash_DMG = 188,
-		dodge = 1.05,
+		crash_DMG = 162,
+		dodge = 0.297,
 		funnel_behavior = "",
-		nationality = 2,
-		id = 69931,
-		icon = "liuxing",
+		nationality = 3,
+		id = 69921,
+		icon = "shizhizidiangaier",
 		AP_growth = 2000,
-		dodge_limit = 5,
-		hp_growth = 1594,
-		speed = 52,
-		max_hp = 41,
+		dodge_limit = 10,
+		hp_growth = 1532,
+		speed = 60,
+		max_hp = 40,
 		scale = 1,
 		weapon_ID = {
-			50541,
-			50841,
-			51461
+			59541,
+			69961
 		},
 		position_offset = {
 			0,
@@ -98,7 +94,7 @@ pg.aircraft_template_206 = {
 				0
 			},
 			{
-				0.26,
+				0.51,
 				0,
 				0
 			},
@@ -109,76 +105,70 @@ pg.aircraft_template_206 = {
 			}
 		}
 	},
-	[69932] = {
-		id = 69932,
-		name = "信浓技能流星 LV2",
-		base = 69931,
-		max_hp = 47,
-		hp_growth = 1802,
+	[69922] = {
+		id = 69922,
+		name = "信浓技能试制紫电改二 LV2",
+		base = 69921,
+		max_hp = 46,
+		hp_growth = 1762,
 		weapon_ID = {
-			50542,
-			50842,
-			51462
+			59542,
+			69962
 		}
 	},
-	[69933] = {
-		id = 69933,
-		name = "信浓技能流星 LV3",
-		base = 69931,
+	[69923] = {
+		id = 69923,
+		name = "信浓技能试制紫电改二 LV3",
+		base = 69921,
 		max_hp = 52,
-		hp_growth = 2010,
+		hp_growth = 1992,
 		weapon_ID = {
-			50543,
-			50843,
-			51463
+			59543,
+			69963
 		}
 	},
-	[69934] = {
-		id = 69934,
-		name = "信浓技能流星 LV4",
-		base = 69931,
+	[69924] = {
+		id = 69924,
+		name = "信浓技能试制紫电改二 LV4",
+		base = 69921,
 		max_hp = 58,
-		hp_growth = 2218,
+		hp_growth = 2222,
 		weapon_ID = {
-			50544,
-			50844,
-			51464
+			59544,
+			69964
 		}
 	},
-	[69935] = {
-		id = 69935,
-		name = "信浓技能流星 LV5",
-		base = 69931,
-		max_hp = 63,
-		hp_growth = 2426,
+	[69925] = {
+		id = 69925,
+		name = "信浓技能试制紫电改二 LV5",
+		base = 69921,
+		max_hp = 64,
+		hp_growth = 2451,
 		weapon_ID = {
-			50545,
-			50845,
-			51465
+			59545,
+			69965
 		}
 	},
-	[69936] = {
-		id = 69936,
-		name = "信浓技能流星 LV6",
-		base = 69931,
-		max_hp = 68,
-		hp_growth = 2634,
+	[69926] = {
+		id = 69926,
+		name = "信浓技能试制紫电改二 LV6",
+		base = 69921,
+		max_hp = 70,
+		hp_growth = 2681,
 		weapon_ID = {
-			50546,
-			50846,
-			51466
+			59546,
+			69966
 		}
 	},
-	[69937] = {
-		id = 69937,
-		name = "信浓技能流星 LV7",
-		base = 69931,
-		max_hp = 74,
-		hp_growth = 2842,
+	[69927] = {
+		id = 69927,
+		name = "信浓技能试制紫电改二 LV7",
+		base = 69921,
+		max_hp = 76,
+		hp_growth = 2911,
 		weapon_ID = {
-			50547,
-			50847,
-			51467
+			59547,
+			69967
 		}
 	}
 }

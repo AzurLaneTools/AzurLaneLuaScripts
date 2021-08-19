@@ -319,7 +319,8 @@ slot0.BossPhaseSwitchType = {
 	DURATION = 1,
 	HP = 2,
 	POSITION_X_GREATER = 3,
-	POSITION_X_LESS = 4
+	POSITION_X_LESS = 4,
+	OXYGEN = 5
 }
 slot0.SubAidFlag = {
 	AMMO_EMPTY = 0,

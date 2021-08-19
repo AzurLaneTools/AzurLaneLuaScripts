@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_394 = {
-	[1001068] = {
+	[1000847] = {
 		attack_power = 2,
-		name = "量产型塞壬航母II型轰炸机T1 (飞机 III",
-		type = 3,
+		name = "塞壬空袭-鱼雷机 III",
+		type = 2,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 115,
+		crash_DMG = 90,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1001068,
+		id = 1000847,
 		icon = "shenhaifeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 3040,
-		speed = 30,
-		max_hp = 150,
+		hp_growth = 2720,
+		speed = 33,
+		max_hp = 126,
 		scale = 0.75,
 		weapon_ID = {
-			1001078
+			1000847
 		},
 		position_offset = {
 			0,
@@ -40,13 +40,13 @@ pg.aircraft_template_394 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					-1.25,
+					1.47,
 					0
 				}
 			}
@@ -63,7 +63,7 @@ pg.aircraft_template_394 = {
 				0
 			},
 			{
-				0,
+				0.54,
 				0,
 				0
 			},
@@ -74,27 +74,101 @@ pg.aircraft_template_394 = {
 			}
 		}
 	},
-	[1001069] = {
+	[1000848] = {
 		attack_power = 2,
-		name = "量产型塞壬航母II型轰炸机T1 (飞机 IV",
-		type = 3,
+		name = "塞壬空袭-鱼雷机 IV",
+		type = 2,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 145,
+		crash_DMG = 112,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1001069,
+		id = 1000848,
 		icon = "shenhaifeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 3420,
-		speed = 30,
+		hp_growth = 3060,
+		speed = 33,
+		max_hp = 153,
+		scale = 0.75,
+		weapon_ID = {
+			1000848
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1000849] = {
+		attack_power = 2,
+		name = "塞壬空袭-鱼雷机 V",
+		type = 2,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 136,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 1000849,
+		icon = "shenhaifeiji",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 3400,
+		speed = 33,
 		max_hp = 180,
 		scale = 0.75,
 		weapon_ID = {
-			1001079
+			1000849
 		},
 		position_offset = {
 			0,
@@ -114,13 +188,13 @@ pg.aircraft_template_394 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					-1.25,
+					1.47,
 					0
 				}
 			}
@@ -137,81 +211,7 @@ pg.aircraft_template_394 = {
 				0
 			},
 			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[1001070] = {
-		attack_power = 2,
-		name = "量产型塞壬航母II型轰炸机T1 (飞机 V",
-		type = 3,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 180,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 1001070,
-		icon = "shenhaifeiji",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 3800,
-		speed = 30,
-		max_hp = 210,
-		scale = 0.75,
-		weapon_ID = {
-			1001080
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
+				0.54,
 				0,
 				0
 			},
@@ -222,28 +222,28 @@ pg.aircraft_template_394 = {
 			}
 		}
 	},
-	[1001071] = {
+	[1000850] = {
 		attack_power = 2,
-		name = "量产型塞壬航母II型战斗机T1 (飞机 I",
+		name = "塞壬空袭-战斗机 I",
 		type = 1,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 41,
+		crash_DMG = 36,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1001071,
+		id = 1000850,
 		icon = "shenhaifeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 1680,
 		speed = 33,
-		max_hp = 74,
+		max_hp = 64,
 		scale = 0.75,
 		weapon_ID = {
-			1001081,
-			1001086
+			1000850,
+			1000855
 		},
 		position_offset = {
 			0,
@@ -297,28 +297,28 @@ pg.aircraft_template_394 = {
 			}
 		}
 	},
-	[1001072] = {
+	[1000851] = {
 		attack_power = 2,
-		name = "量产型塞壬航母II型战斗机T1 (飞机 II",
+		name = "塞壬空袭-战斗机 II",
 		type = 1,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 53,
+		crash_DMG = 48,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1001072,
+		id = 1000851,
 		icon = "shenhaifeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 1960,
 		speed = 33,
-		max_hp = 98,
+		max_hp = 88,
 		scale = 0.75,
 		weapon_ID = {
-			1001082,
-			1001087
+			1000851,
+			1000856
 		},
 		position_offset = {
 			0,
@@ -372,28 +372,28 @@ pg.aircraft_template_394 = {
 			}
 		}
 	},
-	[1001073] = {
+	[1000852] = {
 		attack_power = 2,
-		name = "量产型塞壬航母II型战斗机T1 (飞机 III",
+		name = "塞壬空袭-战斗机 III",
 		type = 1,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 67,
+		crash_DMG = 62,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1001073,
+		id = 1000852,
 		icon = "shenhaifeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 2240,
 		speed = 33,
-		max_hp = 122,
+		max_hp = 112,
 		scale = 0.75,
 		weapon_ID = {
-			1001083,
-			1001088
+			1000852,
+			1000857
 		},
 		position_offset = {
 			0,
@@ -447,28 +447,28 @@ pg.aircraft_template_394 = {
 			}
 		}
 	},
-	[1001074] = {
+	[1000853] = {
 		attack_power = 2,
-		name = "量产型塞壬航母II型战斗机T1 (飞机 IV",
+		name = "塞壬空袭-战斗机 IV",
 		type = 1,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 83,
+		crash_DMG = 78,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1001074,
+		id = 1000853,
 		icon = "shenhaifeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 2520,
 		speed = 33,
-		max_hp = 146,
+		max_hp = 136,
 		scale = 0.75,
 		weapon_ID = {
-			1001084,
-			1001089
+			1000853,
+			1000858
 		},
 		position_offset = {
 			0,
@@ -522,28 +522,28 @@ pg.aircraft_template_394 = {
 			}
 		}
 	},
-	[1001075] = {
+	[1000854] = {
 		attack_power = 2,
-		name = "量产型塞壬航母II型战斗机T1 (飞机 V",
+		name = "塞壬空袭-战斗机 V",
 		type = 1,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
-		crash_DMG = 103,
+		crash_DMG = 98,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1001075,
+		id = 1000854,
 		icon = "shenhaifeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 2800,
 		speed = 33,
-		max_hp = 170,
+		max_hp = 160,
 		scale = 0.75,
 		weapon_ID = {
-			1001085,
-			1001090
+			1000854,
+			1000859
 		},
 		position_offset = {
 			0,
@@ -597,9 +597,9 @@ pg.aircraft_template_394 = {
 			}
 		}
 	},
-	[1001186] = {
+	[1001066] = {
 		attack_power = 2,
-		name = "【精英】执棋者II型 轰炸机T3 I",
+		name = "量产型塞壬航母II型轰炸机T1 (飞机 I",
 		type = 3,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
@@ -608,7 +608,7 @@ pg.aircraft_template_394 = {
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1001186,
+		id = 1001066,
 		icon = "shenhaifeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
@@ -617,7 +617,7 @@ pg.aircraft_template_394 = {
 		max_hp = 90,
 		scale = 0.75,
 		weapon_ID = {
-			1001221
+			1001076
 		},
 		position_offset = {
 			0,
@@ -671,9 +671,9 @@ pg.aircraft_template_394 = {
 			}
 		}
 	},
-	[1001187] = {
+	[1001067] = {
 		attack_power = 2,
-		name = "【精英】执棋者II型 轰炸机T3 II",
+		name = "量产型塞壬航母II型轰炸机T1 (飞机 II",
 		type = 3,
 		accuracy = 23,
 		model_ID = "shenhaifeiji",
@@ -682,7 +682,7 @@ pg.aircraft_template_394 = {
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1001187,
+		id = 1001067,
 		icon = "shenhaifeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
@@ -691,7 +691,7 @@ pg.aircraft_template_394 = {
 		max_hp = 120,
 		scale = 0.75,
 		weapon_ID = {
-			1001222
+			1001077
 		},
 		position_offset = {
 			0,

@@ -13571,6 +13571,446 @@ pg.transform_data_template = {
 			50
 		}
 	},
+	[14401] = {
+		use_gold = 400,
+		name = "선체 개수Ⅰ",
+		star_limit = 2,
+		descrip = "耐久+60",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		id = 14401,
+		icon = "hp_1",
+		skill_id = 0,
+		condition_id = {},
+		effect = {
+			{
+				durability = 60
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18031,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[14402] = {
+		use_gold = 600,
+		name = "장전 강화Ⅰ",
+		star_limit = 2,
+		descrip = "装填+5",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		id = 14402,
+		icon = "rl_1",
+		skill_id = 0,
+		condition_id = {
+			14401
+		},
+		effect = {
+			{
+				reload = 5
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18031,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[14403] = {
+		use_gold = 800,
+		name = "폭격 숙련Ⅰ",
+		star_limit = 3,
+		descrip = "轰炸机武器效率+5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		id = 14403,
+		icon = "bfup_1",
+		skill_id = 0,
+		condition_id = {
+			14401
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18031,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[14404] = {
+		use_gold = 1000,
+		name = "대공 강화Ⅰ",
+		star_limit = 3,
+		descrip = "防空+15",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		id = 14404,
+		icon = "aa_1",
+		skill_id = 0,
+		condition_id = {
+			14403
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18031,
+					5
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[14405] = {
+		use_gold = 1200,
+		name = "어뢰 개수Ⅰ",
+		star_limit = 4,
+		descrip = "鱼雷机武器效率+3%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		id = 14405,
+		icon = "tfup_1",
+		skill_id = 0,
+		condition_id = {
+			14403
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.03,
+				equipment_proficiency_2 = 0.03
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18032,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[14406] = {
+		use_gold = 1500,
+		name = "항공 강화Ⅰ",
+		star_limit = 4,
+		descrip = "航空+10",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		id = 14406,
+		icon = "air_1",
+		skill_id = 0,
+		condition_id = {
+			14405
+		},
+		effect = {
+			{
+				air = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18032,
+					2
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[14407] = {
+		use_gold = 1800,
+		name = "선체 개수Ⅱ",
+		star_limit = 4,
+		descrip = "耐久+60/耐久+90",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		id = 14407,
+		icon = "hp_2",
+		skill_id = 0,
+		condition_id = {
+			14405
+		},
+		effect = {
+			{
+				durability = 60
+			},
+			{
+				durability = 90
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18032,
+					2
+				}
+			},
+			{
+				{
+					18032,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[14408] = {
+		use_gold = 2000,
+		name = "명중 강화 I",
+		star_limit = 4,
+		descrip = "命中+5",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		id = 14408,
+		icon = "hit_1",
+		skill_id = 0,
+		condition_id = {
+			14407,
+			14402
+		},
+		effect = {
+			{
+				hit = 5
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18032,
+					2
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[14409] = {
+		use_gold = 2500,
+		name = "폭격 숙련Ⅱ",
+		star_limit = 5,
+		descrip = "轰炸机武器效率+5%/轰炸机武器效率+5%",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		id = 14409,
+		icon = "bfup_2",
+		skill_id = 0,
+		condition_id = {
+			14407
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			},
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18033,
+					1
+				}
+			},
+			{
+				{
+					18033,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[14410] = {
+		use_gold = 3000,
+		name = "항공 강화Ⅱ",
+		star_limit = 5,
+		descrip = "航空+10/航空+15",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		id = 14410,
+		icon = "air_2",
+		skill_id = 0,
+		condition_id = {
+			14409
+		},
+		effect = {
+			{
+				air = 10
+			},
+			{
+				air = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18033,
+					1
+				},
+				{
+					17043,
+					15
+				}
+			},
+			{
+				{
+					18033,
+					2
+				},
+				{
+					17043,
+					35
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[14411] = {
+		use_gold = 4000,
+		name = "근대화 개수",
+		star_limit = 5,
+		descrip = "近代化改造完成，防空+35，装填+10",
+		max_level = 1,
+		skin_id = 207029,
+		use_ship = 1,
+		level_limit = 85,
+		id = 14411,
+		icon = "mt_red",
+		skill_id = 0,
+		condition_id = {
+			14409,
+			14410
+		},
+		effect = {
+			{
+				antiaircraft = 35,
+				reload = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18033,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[14412] = {
+		use_gold = 3000,
+		name = "전술 확충",
+		star_limit = 5,
+		descrip = "习得技能【】",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 90,
+		id = 14412,
+		icon = "skill_red",
+		skill_id = 14710,
+		condition_id = {
+			14411
+		},
+		effect = {
+			{
+				skill_id = 14710
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18033,
+					2
+				},
+				{
+					17003,
+					50
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
 	[15501] = {
 		use_gold = 400,
 		name = "선체 개수Ⅰ",
@@ -33929,6 +34369,18 @@ pg.transform_data_template = {
 		14009,
 		14010,
 		14011,
+		14401,
+		14402,
+		14403,
+		14404,
+		14405,
+		14406,
+		14407,
+		14408,
+		14409,
+		14410,
+		14411,
+		14412,
 		15501,
 		15502,
 		15503,

@@ -1,57 +1,56 @@
 pg = pg or {}
 pg.aircraft_template_195 = {
-	[68958] = {
-		id = 68958,
-		name = "白上吹雪狐笋轰炸机Lv8",
-		base = 68951,
+	[68888] = {
+		id = 68888,
+		name = "大神澪技能轰炸机Lv8",
+		base = 68881,
 		max_hp = 86,
 		hp_growth = 3237,
 		weapon_ID = {
-			68968
+			68898
 		}
 	},
-	[68959] = {
-		id = 68959,
-		name = "白上吹雪狐笋轰炸机Lv9",
-		base = 68951,
+	[68889] = {
+		id = 68889,
+		name = "大神澪技能轰炸机Lv9",
+		base = 68881,
 		max_hp = 92,
 		hp_growth = 3458,
 		weapon_ID = {
-			68969
+			68899
 		}
 	},
-	[68960] = {
-		id = 68960,
-		name = "白上吹雪狐笋轰炸机Lv10",
-		base = 68951,
+	[68890] = {
+		id = 68890,
+		name = "大神澪技能轰炸机Lv10",
+		base = 68881,
 		max_hp = 98,
 		hp_growth = 3678,
 		weapon_ID = {
-			68970
+			68900
 		}
 	},
-	[69161] = {
+	[68951] = {
 		attack_power = 2,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv1",
+		name = "白上吹雪狐笋轰炸机Lv1",
 		type = 3,
 		accuracy = 23,
-		model_ID = "sb2c",
+		model_ID = "feiji_hulifeiji",
 		ACC_growth = 0,
-		crash_DMG = 180,
-		dodge = 3.33,
+		crash_DMG = 208,
+		dodge = 1,
 		funnel_behavior = "",
-		nationality = 1,
-		id = 69161,
-		icon = "sb2c",
+		nationality = 3,
+		id = 68951,
+		icon = "feiji_hulifeiji",
 		AP_growth = 2000,
-		dodge_limit = 1,
-		hp_growth = 1870,
-		speed = 45,
-		max_hp = 49,
+		dodge_limit = 0,
+		hp_growth = 1692,
+		speed = 48,
+		max_hp = 42,
 		scale = 1,
 		weapon_ID = {
-			69171,
-			69181
+			68961
 		},
 		position_offset = {
 			0,
@@ -94,7 +93,7 @@ pg.aircraft_template_195 = {
 				0
 			},
 			{
-				0.44,
+				0.54,
 				0,
 				0
 			},
@@ -105,70 +104,64 @@ pg.aircraft_template_195 = {
 			}
 		}
 	},
-	[69162] = {
-		id = 69162,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv2",
-		base = 69161,
-		max_hp = 55,
-		hp_growth = 2114,
+	[68952] = {
+		id = 68952,
+		name = "白上吹雪狐笋轰炸机Lv2",
+		base = 68951,
+		max_hp = 48,
+		hp_growth = 1913,
 		weapon_ID = {
-			69172,
-			69182
+			68962
 		}
 	},
-	[69163] = {
-		id = 69163,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv3",
-		base = 69161,
+	[68953] = {
+		id = 68953,
+		name = "白上吹雪狐笋轰炸机Lv3",
+		base = 68951,
+		max_hp = 54,
+		hp_growth = 2133,
+		weapon_ID = {
+			68963
+		}
+	},
+	[68954] = {
+		id = 68954,
+		name = "白上吹雪狐笋轰炸机Lv4",
+		base = 68951,
 		max_hp = 61,
-		hp_growth = 2358,
+		hp_growth = 2354,
 		weapon_ID = {
-			69173,
-			69183
+			68964
 		}
 	},
-	[69164] = {
-		id = 69164,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv4",
-		base = 69161,
-		max_hp = 68,
-		hp_growth = 2602,
+	[68955] = {
+		id = 68955,
+		name = "白上吹雪狐笋轰炸机Lv5",
+		base = 68951,
+		max_hp = 67,
+		hp_growth = 2575,
 		weapon_ID = {
-			69174,
-			69184
+			68965
 		}
 	},
-	[69165] = {
-		id = 69165,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv5",
-		base = 69161,
-		max_hp = 74,
-		hp_growth = 2846,
+	[68956] = {
+		id = 68956,
+		name = "白上吹雪狐笋轰炸机Lv6",
+		base = 68951,
+		max_hp = 73,
+		hp_growth = 2796,
 		weapon_ID = {
-			69175,
-			69185
+			68966
 		}
 	},
-	[69166] = {
-		id = 69166,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv6",
-		base = 69161,
-		max_hp = 80,
-		hp_growth = 3090,
+	[68957] = {
+		id = 68957,
+		name = "白上吹雪狐笋轰炸机Lv7",
+		base = 68951,
+		max_hp = 79,
+		hp_growth = 3016,
 		weapon_ID = {
-			69176,
-			69186
-		}
-	},
-	[69167] = {
-		id = 69167,
-		name = "无畏技能SB2C(VB-18)轰炸机Lv7",
-		base = 69161,
-		max_hp = 87,
-		hp_growth = 3334,
-		weapon_ID = {
-			69177,
-			69187
+			68967
 		}
 	}
 }

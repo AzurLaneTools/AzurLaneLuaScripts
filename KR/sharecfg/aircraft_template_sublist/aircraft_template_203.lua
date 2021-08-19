@@ -1,57 +1,59 @@
 pg = pg or {}
 pg.aircraft_template_203 = {
-	[69708] = {
-		id = 69708,
-		name = "英仙座技能TBFLv8",
-		base = 69701,
-		max_hp = 83,
-		hp_growth = 3202,
+	[69698] = {
+		id = 69698,
+		name = "英仙座技能海黄蜂Lv8",
+		base = 69691,
+		max_hp = 86,
+		hp_growth = 3237,
 		weapon_ID = {
-			69738
+			50668,
+			69728
 		}
 	},
-	[69709] = {
-		id = 69709,
-		name = "英仙座技能TBFLv9",
-		base = 69701,
-		max_hp = 89,
-		hp_growth = 3421,
+	[69699] = {
+		id = 69699,
+		name = "英仙座技能海黄蜂Lv9",
+		base = 69691,
+		max_hp = 92,
+		hp_growth = 3458,
 		weapon_ID = {
-			69739
+			50669,
+			69729
 		}
 	},
-	[69710] = {
-		id = 69710,
-		name = "英仙座技能TBFLv10",
-		base = 69701,
-		max_hp = 95,
-		hp_growth = 3639,
+	[69700] = {
+		id = 69700,
+		name = "英仙座技能海黄蜂Lv10",
+		base = 69691,
+		max_hp = 98,
+		hp_growth = 3678,
 		weapon_ID = {
-			69740
+			50670,
+			69730
 		}
 	},
-	[69711] = {
+	[69701] = {
 		attack_power = 2,
-		name = "英仙座技能萤火虫Lv1",
+		name = "英仙座技能TBFLv1",
 		type = 3,
 		accuracy = 23,
-		model_ID = "yinghuochong",
+		model_ID = "tbf",
 		ACC_growth = 0,
-		crash_DMG = 210,
-		dodge = 0.75,
+		crash_DMG = 300,
+		dodge = 1.05,
 		funnel_behavior = "",
 		nationality = 2,
-		id = 69711,
-		icon = "yinghuochong",
+		id = 69701,
+		icon = "tbf",
 		AP_growth = 2000,
-		dodge_limit = 7,
-		hp_growth = 1943,
-		speed = 47,
-		max_hp = 51,
+		dodge_limit = 6,
+		hp_growth = 1674,
+		speed = 48,
+		max_hp = 44,
 		scale = 1,
 		weapon_ID = {
-			50661,
-			52741
+			69731
 		},
 		position_offset = {
 			0,
@@ -71,13 +73,13 @@ pg.aircraft_template_203 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.26,
-					-1.13,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					1.35,
-					1.18,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -94,8 +96,8 @@ pg.aircraft_template_203 = {
 				0
 			},
 			{
-				0.44,
-				0,
+				0.15,
+				-0.08,
 				0
 			},
 			{
@@ -105,70 +107,64 @@ pg.aircraft_template_203 = {
 			}
 		}
 	},
-	[69712] = {
-		id = 69712,
-		name = "英仙座技能萤火虫Lv2",
-		base = 69711,
-		max_hp = 57,
-		hp_growth = 2196,
+	[69702] = {
+		id = 69702,
+		name = "英仙座技能TBFLv2",
+		base = 69701,
+		max_hp = 49,
+		hp_growth = 1892,
 		weapon_ID = {
-			50662,
-			52742
+			69732
 		}
 	},
-	[69713] = {
-		id = 69713,
-		name = "英仙座技能萤火虫Lv3",
-		base = 69711,
-		max_hp = 64,
-		hp_growth = 2450,
+	[69703] = {
+		id = 69703,
+		name = "英仙座技能TBFLv3",
+		base = 69701,
+		max_hp = 55,
+		hp_growth = 2111,
 		weapon_ID = {
-			50663,
-			52743
+			69733
 		}
 	},
-	[69714] = {
-		id = 69714,
-		name = "英仙座技能萤火虫Lv4",
-		base = 69711,
-		max_hp = 70,
-		hp_growth = 2703,
+	[69704] = {
+		id = 69704,
+		name = "英仙座技能TBFLv4",
+		base = 69701,
+		max_hp = 61,
+		hp_growth = 2329,
 		weapon_ID = {
-			50664,
-			52744
+			69734
 		}
 	},
-	[69715] = {
-		id = 69715,
-		name = "英仙座技能萤火虫Lv5",
-		base = 69711,
-		max_hp = 77,
-		hp_growth = 2957,
+	[69705] = {
+		id = 69705,
+		name = "英仙座技能TBFLv5",
+		base = 69701,
+		max_hp = 66,
+		hp_growth = 2547,
 		weapon_ID = {
-			50665,
-			52745
+			69735
 		}
 	},
-	[69716] = {
-		id = 69716,
-		name = "英仙座技能萤火虫Lv6",
-		base = 69711,
-		max_hp = 83,
-		hp_growth = 3210,
+	[69706] = {
+		id = 69706,
+		name = "英仙座技能TBFLv6",
+		base = 69701,
+		max_hp = 72,
+		hp_growth = 2766,
 		weapon_ID = {
-			50666,
-			52746
+			69736
 		}
 	},
-	[69717] = {
-		id = 69717,
-		name = "英仙座技能萤火虫Lv7",
-		base = 69711,
-		max_hp = 90,
-		hp_growth = 3464,
+	[69707] = {
+		id = 69707,
+		name = "英仙座技能TBFLv7",
+		base = 69701,
+		max_hp = 78,
+		hp_growth = 2984,
 		weapon_ID = {
-			50667,
-			52747
+			69737
 		}
 	}
 }

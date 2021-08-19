@@ -61,10 +61,6 @@ function slot0.setItems(slot0, slot1)
 	slot0.itemsVO = slot1
 end
 
-function slot0.setShips(slot0, slot1)
-	slot0.shipVOs = slot1
-end
-
 function slot0.getItemCount(slot0, slot1)
 	return (slot0.itemsVO[slot1] or Item.New({
 		count = 0,
@@ -456,7 +452,7 @@ function slot0.updateProgress(slot0, slot1)
 
 			if slot9 then
 				updateDrop(slot0:findTF("IconTpl", slot0.shipTF), {
-					id = slot0.shipVOs[slot8[1]].configId,
+					id = getProxy(BayProxy):getShipById(slot8[1]).configId,
 					type = DROP_TYPE_SHIP
 				})
 			end
@@ -717,7 +713,7 @@ function slot0.isEnoughResource(slot0, slot1)
 		return false, i18n("ship_remould_no_gold")
 	end
 
-	if slot2.use_ship ~= 0 and table.getCount(slot0.contextData.materialShipIds or {}) ~= slot2.use_ship then
+	if slot2.use_ship ~= 0 and (not slot0.contextData.materialShipIds or #slot0.contextData.materialShipIds ~= slot2.use_ship) then
 		return false, i18n("ship_remould_no_material")
 	end
 

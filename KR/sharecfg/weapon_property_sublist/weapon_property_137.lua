@@ -2,6 +2,410 @@ pg = pg or {}
 pg.weapon_property_137 = {}
 
 (function ()
+	uv0.weapon_property_137[66470] = {
+		id = 66470,
+		name = "胜利刺穿-剑LV10",
+		damage = 386,
+		base = 66460,
+		bullet_ID = {
+			19907,
+			19907,
+			19907,
+			19907,
+			19908,
+			19908,
+			19908,
+			19908
+		},
+		barrage_ID = {
+			80321,
+			80322,
+			80323,
+			80324,
+			80325,
+			80326,
+			80327,
+			80328
+		}
+	}
+	uv0.weapon_property_137[66480] = {
+		recover_time = 0.5,
+		name = "胜利刺穿-小子弹LV0",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 50,
+		damage = 6,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 66480,
+		attack_attribute_ratio = 120,
+		aim_type = 1,
+		bullet_ID = {
+			19916
+		},
+		barrage_ID = {
+			80331
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_137[66481] = {
+		id = 66481,
+		name = "胜利刺穿-小子弹LV1",
+		damage = 7,
+		base = 66480
+	}
+	uv0.weapon_property_137[66482] = {
+		id = 66482,
+		name = "胜利刺穿-小子弹LV2",
+		damage = 8,
+		base = 66480
+	}
+	uv0.weapon_property_137[66483] = {
+		id = 66483,
+		name = "胜利刺穿-小子弹LV3",
+		damage = 9,
+		base = 66480
+	}
+	uv0.weapon_property_137[66484] = {
+		id = 66484,
+		name = "胜利刺穿-小子弹LV4",
+		damage = 10,
+		base = 66480
+	}
+	uv0.weapon_property_137[66485] = {
+		id = 66485,
+		name = "胜利刺穿-小子弹LV5",
+		damage = 11,
+		base = 66480,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_137[66486] = {
+		id = 66486,
+		name = "胜利刺穿-小子弹LV6",
+		damage = 12,
+		base = 66480,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_137[66487] = {
+		id = 66487,
+		name = "胜利刺穿-小子弹LV7",
+		damage = 13,
+		base = 66480,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_137[66488] = {
+		id = 66488,
+		name = "胜利刺穿-小子弹LV8",
+		damage = 14,
+		base = 66480,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_137[66489] = {
+		id = 66489,
+		name = "胜利刺穿-小子弹LV9",
+		damage = 15,
+		base = 66480,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_137[66490] = {
+		id = 66490,
+		name = "胜利刺穿-小子弹LV10",
+		damage = 16,
+		base = 66480,
+		bullet_ID = {
+			19916,
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80331,
+			80334,
+			80335
+		}
+	}
+	uv0.weapon_property_137[66500] = {
+		recover_time = 0.5,
+		name = "烈焰崩袭LV0",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 50,
+		damage = 11,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 66500,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19909
+		},
+		barrage_ID = {
+			80311
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_137[66501] = {
+		id = 66501,
+		name = "烈焰崩袭LV1",
+		damage = 12,
+		base = 66500
+	}
+	uv0.weapon_property_137[66502] = {
+		id = 66502,
+		name = "烈焰崩袭LV2",
+		damage = 13,
+		base = 66500
+	}
+	uv0.weapon_property_137[66503] = {
+		id = 66503,
+		name = "烈焰崩袭LV3",
+		damage = 14,
+		base = 66500
+	}
+	uv0.weapon_property_137[66504] = {
+		id = 66504,
+		name = "烈焰崩袭LV4",
+		damage = 15,
+		base = 66500,
+		barrage_ID = {
+			80312
+		}
+	}
+	uv0.weapon_property_137[66505] = {
+		id = 66505,
+		name = "烈焰崩袭LV5",
+		damage = 16,
+		base = 66500,
+		barrage_ID = {
+			80312
+		}
+	}
+	uv0.weapon_property_137[66506] = {
+		id = 66506,
+		name = "烈焰崩袭LV6",
+		damage = 17,
+		base = 66500,
+		barrage_ID = {
+			80312
+		}
+	}
+	uv0.weapon_property_137[66507] = {
+		id = 66507,
+		name = "烈焰崩袭LV7",
+		damage = 18,
+		base = 66500,
+		barrage_ID = {
+			80313
+		}
+	}
+	uv0.weapon_property_137[66508] = {
+		id = 66508,
+		name = "烈焰崩袭LV8",
+		damage = 19,
+		base = 66500,
+		barrage_ID = {
+			80313
+		}
+	}
+	uv0.weapon_property_137[66509] = {
+		id = 66509,
+		name = "烈焰崩袭LV9",
+		damage = 20,
+		base = 66500,
+		barrage_ID = {
+			80313
+		}
+	}
+	uv0.weapon_property_137[66510] = {
+		id = 66510,
+		name = "烈焰崩袭LV10",
+		damage = 21,
+		base = 66500,
+		barrage_ID = {
+			80314
+		}
+	}
+	uv0.weapon_property_137[66520] = {
+		recover_time = 0.5,
+		name = "蕾丝狂舞LV0",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 50,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 66520,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19910,
+			19911,
+			19912
+		},
+		barrage_ID = {
+			80341,
+			80345,
+			80349
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_137[66521] = {
+		id = 66521,
+		name = "蕾丝狂舞LV1",
+		damage = 13,
+		base = 66520
+	}
+	uv0.weapon_property_137[66522] = {
+		id = 66522,
+		name = "蕾丝狂舞LV2",
+		damage = 14,
+		base = 66520
+	}
+	uv0.weapon_property_137[66523] = {
+		id = 66523,
+		name = "蕾丝狂舞LV3",
+		damage = 15,
+		base = 66520
+	}
+	uv0.weapon_property_137[66524] = {
+		id = 66524,
+		name = "蕾丝狂舞LV4",
+		damage = 16,
+		base = 66520,
+		barrage_ID = {
+			80342,
+			80346,
+			80350
+		}
+	}
+	uv0.weapon_property_137[66525] = {
+		id = 66525,
+		name = "蕾丝狂舞LV5",
+		damage = 17,
+		base = 66520,
+		barrage_ID = {
+			80342,
+			80346,
+			80350
+		}
+	}
+	uv0.weapon_property_137[66526] = {
+		id = 66526,
+		name = "蕾丝狂舞LV6",
+		damage = 18,
+		base = 66520,
+		barrage_ID = {
+			80342,
+			80346,
+			80350
+		}
+	}
 	uv0.weapon_property_137[66527] = {
 		id = 66527,
 		name = "蕾丝狂舞LV7",
@@ -414,320 +818,5 @@ pg.weapon_property_137 = {}
 		barrage_ID = {
 			80303
 		}
-	}
-	uv0.weapon_property_137[66588] = {
-		id = 66588,
-		name = "宝石枪雨LV8",
-		damage = 203,
-		base = 66580,
-		bullet_ID = {
-			66588
-		},
-		barrage_ID = {
-			80303
-		}
-	}
-	uv0.weapon_property_137[66589] = {
-		id = 66589,
-		name = "宝石枪雨LV9",
-		damage = 219,
-		base = 66580,
-		bullet_ID = {
-			66589
-		},
-		barrage_ID = {
-			80303
-		}
-	}
-	uv0.weapon_property_137[66590] = {
-		id = 66590,
-		name = "宝石枪雨LV10",
-		damage = 235,
-		base = 66580,
-		bullet_ID = {
-			66590
-		},
-		barrage_ID = {
-			80304
-		}
-	}
-	uv0.weapon_property_137[66600] = {
-		recover_time = 0,
-		name = "联结·阿萨姆航弹",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 25,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 25,
-		reload_max = 3000,
-		queue = 1,
-		range = 500,
-		damage = 57,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 66600,
-		attack_attribute_ratio = 80,
-		aim_type = 1,
-		bullet_ID = {
-			19906
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_137[66601] = {
-		id = 66601,
-		name = "联结·阿萨姆航弹",
-		damage = 68,
-		base = 66600
-	}
-	uv0.weapon_property_137[66602] = {
-		id = 66602,
-		name = "联结·阿萨姆航弹",
-		damage = 79,
-		base = 66600
-	}
-	uv0.weapon_property_137[66603] = {
-		id = 66603,
-		name = "联结·阿萨姆航弹",
-		damage = 90,
-		base = 66600
-	}
-	uv0.weapon_property_137[66604] = {
-		id = 66604,
-		name = "联结·阿萨姆航弹",
-		damage = 101,
-		base = 66600
-	}
-	uv0.weapon_property_137[66605] = {
-		id = 66605,
-		name = "联结·阿萨姆航弹",
-		damage = 113,
-		base = 66600
-	}
-	uv0.weapon_property_137[66606] = {
-		id = 66606,
-		name = "联结·阿萨姆航弹",
-		damage = 125,
-		base = 66600
-	}
-	uv0.weapon_property_137[66607] = {
-		id = 66607,
-		name = "联结·阿萨姆航弹",
-		damage = 137,
-		base = 66600
-	}
-	uv0.weapon_property_137[66608] = {
-		id = 66608,
-		name = "联结·阿萨姆航弹",
-		damage = 149,
-		base = 66600
-	}
-	uv0.weapon_property_137[66609] = {
-		id = 66609,
-		name = "联结·阿萨姆航弹",
-		damage = 161,
-		base = 66600
-	}
-	uv0.weapon_property_137[66610] = {
-		id = 66610,
-		name = "联结·阿萨姆航弹",
-		damage = 173,
-		base = 66600
-	}
-	uv0.weapon_property_137[66620] = {
-		recover_time = 0,
-		name = "宝石枪雨航弹",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 25,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 25,
-		reload_max = 3000,
-		queue = 1,
-		range = 500,
-		damage = 75,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 66620,
-		attack_attribute_ratio = 80,
-		aim_type = 1,
-		bullet_ID = {
-			19915
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_137[66621] = {
-		id = 66621,
-		name = "宝石枪雨航弹",
-		damage = 91,
-		base = 66620
-	}
-	uv0.weapon_property_137[66622] = {
-		id = 66622,
-		name = "宝石枪雨航弹",
-		damage = 107,
-		base = 66620
-	}
-	uv0.weapon_property_137[66623] = {
-		id = 66623,
-		name = "宝石枪雨航弹",
-		damage = 123,
-		base = 66620
-	}
-	uv0.weapon_property_137[66624] = {
-		id = 66624,
-		name = "宝石枪雨航弹",
-		damage = 139,
-		base = 66620
-	}
-	uv0.weapon_property_137[66625] = {
-		id = 66625,
-		name = "宝石枪雨航弹",
-		damage = 155,
-		base = 66620
-	}
-	uv0.weapon_property_137[66626] = {
-		id = 66626,
-		name = "宝石枪雨航弹",
-		damage = 171,
-		base = 66620
-	}
-	uv0.weapon_property_137[66627] = {
-		id = 66627,
-		name = "宝石枪雨航弹",
-		damage = 187,
-		base = 66620
-	}
-	uv0.weapon_property_137[66628] = {
-		id = 66628,
-		name = "宝石枪雨航弹",
-		damage = 203,
-		base = 66620
-	}
-	uv0.weapon_property_137[66629] = {
-		id = 66629,
-		name = "宝石枪雨航弹",
-		damage = 219,
-		base = 66620
-	}
-	uv0.weapon_property_137[66630] = {
-		id = 66630,
-		name = "宝石枪雨航弹",
-		damage = 235,
-		base = 66620
-	}
-	uv0.weapon_property_137[66640] = {
-		recover_time = 0.5,
-		name = "约克公爵技能LV0",
-		shakescreen = 302,
-		type = 23,
-		torpedo_ammo = 0,
-		fire_fx = "zhupao",
-		action_index = "attack_main",
-		fire_fx_loop_type = 1,
-		axis_angle = 0,
-		attack_attribute = 1,
-		reload_max = 3000,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 50,
-		queue = 1,
-		suppress = 1,
-		range = 200,
-		damage = 40,
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		corrected = 110,
-		min_range = 35,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		id = 66640,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19985
-		},
-		barrage_ID = {
-			1302
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			maxLock = 4,
-			lockTime = 0.3
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_137[66641] = {
-		id = 66641,
-		name = "约克公爵技能LV1",
-		damage = 46,
-		base = 66640
-	}
-	uv0.weapon_property_137[66642] = {
-		id = 66642,
-		name = "约克公爵技能LV2",
-		damage = 52,
-		base = 66640
-	}
-	uv0.weapon_property_137[66643] = {
-		id = 66643,
-		name = "约克公爵技能LV3",
-		damage = 59,
-		base = 66640
-	}
-	uv0.weapon_property_137[66644] = {
-		id = 66644,
-		name = "约克公爵技能LV4",
-		damage = 66,
-		base = 66640
 	}
 end)()

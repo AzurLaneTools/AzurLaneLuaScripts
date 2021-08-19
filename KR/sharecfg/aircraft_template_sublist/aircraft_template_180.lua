@@ -1,16 +1,17 @@
 pg = pg or {}
 pg.aircraft_template_180 = {
-	[67930] = {
-		id = 67930,
-		name = "独立技能鱼雷机Lv10",
-		base = 67921,
-		max_hp = 91,
-		hp_growth = 3511,
+	[67900] = {
+		id = 67900,
+		name = "追赶者剑鱼 Lv10",
+		base = 67891,
+		max_hp = 87,
+		hp_growth = 3344,
 		weapon_ID = {
-			67950
+			67910,
+			67920
 		}
 	},
-	[67931] = {
+	[67921] = {
 		attack_power = 2,
 		name = "独立技能鱼雷机Lv1",
 		type = 2,
@@ -21,7 +22,7 @@ pg.aircraft_template_180 = {
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 1,
-		id = 67931,
+		id = 67921,
 		icon = "tbf",
 		AP_growth = 2000,
 		dodge_limit = 0,
@@ -30,7 +31,7 @@ pg.aircraft_template_180 = {
 		max_hp = 42,
 		scale = 1,
 		weapon_ID = {
-			67951
+			67941
 		},
 		position_offset = {
 			0,
@@ -84,84 +85,84 @@ pg.aircraft_template_180 = {
 			}
 		}
 	},
-	[67932] = {
-		id = 67932,
+	[67922] = {
+		id = 67922,
 		name = "独立技能鱼雷机Lv2",
-		base = 67931,
+		base = 67921,
 		max_hp = 47,
 		hp_growth = 1826,
 		weapon_ID = {
-			67952
+			67942
 		}
 	},
-	[67933] = {
-		id = 67933,
+	[67923] = {
+		id = 67923,
 		name = "独立技能鱼雷机Lv3",
-		base = 67931,
+		base = 67921,
 		max_hp = 53,
 		hp_growth = 2036,
 		weapon_ID = {
-			67953
+			67943
 		}
 	},
-	[67934] = {
-		id = 67934,
+	[67924] = {
+		id = 67924,
 		name = "独立技能鱼雷机Lv4",
-		base = 67931,
+		base = 67921,
 		max_hp = 58,
 		hp_growth = 2247,
 		weapon_ID = {
-			67954
+			67944
 		}
 	},
-	[67935] = {
-		id = 67935,
+	[67925] = {
+		id = 67925,
 		name = "独立技能鱼雷机Lv5",
-		base = 67931,
+		base = 67921,
 		max_hp = 64,
 		hp_growth = 2458,
 		weapon_ID = {
-			67955
+			67945
 		}
 	},
-	[67936] = {
-		id = 67936,
+	[67926] = {
+		id = 67926,
 		name = "独立技能鱼雷机Lv6",
-		base = 67931,
+		base = 67921,
 		max_hp = 69,
 		hp_growth = 2669,
 		weapon_ID = {
-			67956
+			67946
 		}
 	},
-	[67937] = {
-		id = 67937,
+	[67927] = {
+		id = 67927,
 		name = "独立技能鱼雷机Lv7",
-		base = 67931,
+		base = 67921,
 		max_hp = 75,
 		hp_growth = 2879,
 		weapon_ID = {
-			67957
+			67947
 		}
 	},
-	[67938] = {
-		id = 67938,
+	[67928] = {
+		id = 67928,
 		name = "独立技能鱼雷机Lv8",
-		base = 67931,
+		base = 67921,
 		max_hp = 80,
 		hp_growth = 3090,
 		weapon_ID = {
-			67958
+			67948
 		}
 	},
-	[67939] = {
-		id = 67939,
+	[67929] = {
+		id = 67929,
 		name = "独立技能鱼雷机Lv9",
-		base = 67931,
+		base = 67921,
 		max_hp = 86,
 		hp_growth = 3301,
 		weapon_ID = {
-			67959
+			67949
 		}
 	}
 }

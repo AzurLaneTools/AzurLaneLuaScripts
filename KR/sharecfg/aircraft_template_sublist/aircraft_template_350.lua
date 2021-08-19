@@ -1,155 +1,6 @@
 pg = pg or {}
 pg.aircraft_template_350 = {
-	[607087] = {
-		attack_power = 2,
-		name = "世界boss专用战斗机T1",
-		type = 1,
-		accuracy = 23,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 39,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 1,
-		id = 607087,
-		icon = "F4F",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 2686,
-		speed = 33,
-		max_hp = 39,
-		scale = 0.75,
-		weapon_ID = {
-			607090,
-			607091
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.32,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[607088] = {
-		attack_power = 2,
-		name = "世界boss专用鱼雷机T1",
-		type = 2,
-		accuracy = 23,
-		model_ID = "F6F",
-		ACC_growth = 0,
-		crash_DMG = 57,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 1,
-		id = 607088,
-		icon = "F6F",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 3136,
-		speed = 30,
-		max_hp = 42,
-		scale = 0.75,
-		weapon_ID = {
-			607092
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					1.24,
-					-1.34,
-					0
-				},
-				{
-					1.43,
-					1.6,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[607089] = {
+	[607009] = {
 		attack_power = 2,
 		name = "世界boss专用轰炸机T1",
 		type = 3,
@@ -160,7 +11,7 @@ pg.aircraft_template_350 = {
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 1,
-		id = 607089,
+		id = 607009,
 		icon = "tbd",
 		AP_growth = 2000,
 		dodge_limit = 0,
@@ -169,7 +20,7 @@ pg.aircraft_template_350 = {
 		max_hp = 50,
 		scale = 0.75,
 		weapon_ID = {
-			607093
+			607013
 		},
 		position_offset = {
 			0,
@@ -223,27 +74,28 @@ pg.aircraft_template_350 = {
 			}
 		}
 	},
-	[609010] = {
+	[607027] = {
 		attack_power = 2,
-		name = "【绊爱联动】空袭 轰炸机",
-		type = 3,
+		name = "世界boss专用战斗机T1",
+		type = 1,
 		accuracy = 23,
-		model_ID = "feiji_ai_aijiang",
+		model_ID = "F4F",
 		ACC_growth = 0,
-		crash_DMG = 65,
+		crash_DMG = 39,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 609010,
-		icon = "feiji_ai_aijiang",
+		nationality = 1,
+		id = 607027,
+		icon = "F4F",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2280,
-		speed = 30,
-		max_hp = 80,
+		hp_growth = 2686,
+		speed = 33,
+		max_hp = 39,
 		scale = 0.75,
 		weapon_ID = {
-			609004
+			607030,
+			607031
 		},
 		position_offset = {
 			0,
@@ -263,13 +115,13 @@ pg.aircraft_template_350 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -286,7 +138,7 @@ pg.aircraft_template_350 = {
 				0
 			},
 			{
-				0,
+				0.32,
 				0,
 				0
 			},
@@ -297,27 +149,27 @@ pg.aircraft_template_350 = {
 			}
 		}
 	},
-	[609020] = {
+	[607028] = {
 		attack_power = 2,
-		name = "【绊爱联动】空袭 鱼雷机",
+		name = "世界boss专用鱼雷机T1",
 		type = 2,
 		accuracy = 23,
-		model_ID = "feiji_ai_gamer",
+		model_ID = "F6F",
 		ACC_growth = 0,
-		crash_DMG = 52,
+		crash_DMG = 57,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 609020,
-		icon = "feiji_ai_gamer",
+		nationality = 1,
+		id = 607028,
+		icon = "F6F",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1920,
+		hp_growth = 3136,
 		speed = 30,
-		max_hp = 62,
+		max_hp = 42,
 		scale = 0.75,
 		weapon_ID = {
-			609005
+			607032
 		},
 		position_offset = {
 			0,
@@ -337,88 +189,13 @@ pg.aircraft_template_350 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					-1.25,
-					1.47,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[609030] = {
-		attack_power = 2,
-		name = "【绊爱联动】空袭 战斗机",
-		type = 1,
-		accuracy = 23,
-		model_ID = "feiji_ai_perform",
-		ACC_growth = 0,
-		crash_DMG = 36,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 609030,
-		icon = "feiji_ai_perform",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 1680,
-		speed = 33,
-		max_hp = 51,
-		scale = 0.75,
-		weapon_ID = {
-			609006,
-			609007
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.56,
-					-0.76,
-					0
-				},
-				{
-					0.48,
-					0.99,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -446,28 +223,102 @@ pg.aircraft_template_350 = {
 			}
 		}
 	},
-	[609021] = {
+	[607029] = {
 		attack_power = 2,
-		name = "【绊爱联动SP2】战斗机",
-		type = 1,
+		name = "世界boss专用轰炸机T1",
+		type = 3,
 		accuracy = 23,
-		model_ID = "feiji_ai_perform",
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 48,
+		crash_DMG = 78,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 609021,
-		icon = "feiji_ai_perform",
+		nationality = 1,
+		id = 607029,
+		icon = "tbd",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1960,
-		speed = 33,
-		max_hp = 86,
+		hp_growth = 3632,
+		speed = 30,
+		max_hp = 50,
 		scale = 0.75,
 		weapon_ID = {
-			609023,
-			609025
+			607033
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607047] = {
+		attack_power = 2,
+		name = "世界boss专用战斗机T1",
+		type = 1,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 607047,
+		icon = "F4F",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2686,
+		speed = 33,
+		max_hp = 39,
+		scale = 0.75,
+		weapon_ID = {
+			607050,
+			607051
 		},
 		position_offset = {
 			0,
@@ -510,7 +361,7 @@ pg.aircraft_template_350 = {
 				0
 			},
 			{
-				0.27,
+				0.32,
 				0,
 				0
 			},
@@ -521,27 +372,27 @@ pg.aircraft_template_350 = {
 			}
 		}
 	},
-	[609022] = {
+	[607048] = {
 		attack_power = 2,
-		name = "【绊爱联动SP2】轰炸机",
-		type = 1,
+		name = "世界boss专用鱼雷机T1",
+		type = 2,
 		accuracy = 23,
-		model_ID = "feiji_ai_aijiang",
+		model_ID = "F6F",
 		ACC_growth = 0,
-		crash_DMG = 85,
+		crash_DMG = 57,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 609022,
-		icon = "feiji_ai_aijiang",
+		nationality = 1,
+		id = 607048,
+		icon = "F6F",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2660,
+		hp_growth = 3136,
 		speed = 30,
-		max_hp = 109,
+		max_hp = 42,
 		scale = 0.75,
 		weapon_ID = {
-			609024
+			607052
 		},
 		position_offset = {
 			0,
@@ -561,13 +412,13 @@ pg.aircraft_template_350 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-0.91,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					0.77,
-					1,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -584,7 +435,7 @@ pg.aircraft_template_350 = {
 				0
 			},
 			{
-				0.51,
+				0,
 				0,
 				0
 			},
@@ -595,28 +446,102 @@ pg.aircraft_template_350 = {
 			}
 		}
 	},
-	[609051] = {
+	[607049] = {
 		attack_power = 2,
-		name = "【绊爱联动SP5】战斗机",
-		type = 1,
+		name = "世界boss专用轰炸机T1",
+		type = 3,
 		accuracy = 23,
-		model_ID = "feiji_ai_perform",
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 79,
+		crash_DMG = 78,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 609051,
-		icon = "feiji_ai_perform",
+		nationality = 1,
+		id = 607049,
+		icon = "tbd",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2520,
-		speed = 33,
-		max_hp = 141,
+		hp_growth = 3632,
+		speed = 30,
+		max_hp = 50,
 		scale = 0.75,
 		weapon_ID = {
-			609053,
-			609055
+			607053
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607067] = {
+		attack_power = 2,
+		name = "世界boss专用战斗机T1",
+		type = 1,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 607067,
+		icon = "F4F",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2686,
+		speed = 33,
+		max_hp = 39,
+		scale = 0.75,
+		weapon_ID = {
+			607070,
+			607071
 		},
 		position_offset = {
 			0,
@@ -659,7 +584,7 @@ pg.aircraft_template_350 = {
 				0
 			},
 			{
-				0.27,
+				0.32,
 				0,
 				0
 			},
@@ -670,27 +595,27 @@ pg.aircraft_template_350 = {
 			}
 		}
 	},
-	[609052] = {
+	[607068] = {
 		attack_power = 2,
-		name = "【绊爱联动SP5】轰炸机",
-		type = 1,
+		name = "世界boss专用鱼雷机T1",
+		type = 2,
 		accuracy = 23,
-		model_ID = "feiji_ai_aijiang",
+		model_ID = "F6F",
 		ACC_growth = 0,
-		crash_DMG = 140,
+		crash_DMG = 57,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 609052,
-		icon = "feiji_ai_aijiang",
+		nationality = 1,
+		id = 607068,
+		icon = "F6F",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 3420,
+		hp_growth = 3136,
 		speed = 30,
-		max_hp = 168,
+		max_hp = 42,
 		scale = 0.75,
 		weapon_ID = {
-			609054
+			607072
 		},
 		position_offset = {
 			0,
@@ -710,13 +635,13 @@ pg.aircraft_template_350 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-0.91,
+					1.24,
+					-1.34,
 					0
 				},
 				{
-					0.77,
-					1,
+					1.43,
+					1.6,
 					0
 				}
 			}
@@ -733,8 +658,82 @@ pg.aircraft_template_350 = {
 				0
 			},
 			{
-				0.51,
 				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607069] = {
+		attack_power = 2,
+		name = "世界boss专用轰炸机T1",
+		type = 3,
+		accuracy = 23,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 607069,
+		icon = "tbd",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 3632,
+		speed = 30,
+		max_hp = 50,
+		scale = 0.75,
+		weapon_ID = {
+			607073
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
 				0
 			},
 			{

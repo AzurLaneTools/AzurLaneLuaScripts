@@ -57576,24 +57576,25 @@ pg.furniture_data_template = {
 		interAction_group = {}
 	},
 	[49120] = {
-		rarity = 4,
+		spine_extra = "",
 		describe = "음… 필요한 자료는 아마도… 여기?",
 		gain_by = "",
 		type = 2,
 		dir = 0,
 		dorm_id = 0,
-		themeId = 49,
+		rarity = 4,
 		is_get_time_note = 0,
+		themeId = 49,
 		belong = 1,
-		count = 1,
 		is_3d_obj = 0,
-		name = "박사 책장",
+		count = 1,
 		tag = 1,
 		icon = "shuguidhicon",
 		deblocking = 1,
 		level = 1,
 		advice = 0,
 		effect = "",
+		name = "박사 책장",
 		comfortable = 0,
 		spine_action_replace = "",
 		picture = "donghuaBD/shuguidh",
@@ -57608,19 +57609,6 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
-		},
-		spine_extra = {
-			{
-				{},
-				{
-					0,
-					0
-				},
-				{
-					1,
-					1
-				}
-			}
 		},
 		interAction_group = {}
 	},
@@ -88318,6 +88306,942 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[82001] = {
+		spine_extra = "",
+		describe = "꿈, 우정, 재물. 여기는 희망찬 웨스턴 타운!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "웨스턴 스타일 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibannzicon",
+		spine_action_replace = "",
+		picture = "nz/dibannz",
+		comfortable = 4,
+		canputon = 0,
+		id = 82001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82002] = {
+		spine_extra = "",
+		describe = "꿈, 우정, 재물. 여기는 희망찬 웨스턴 타운!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "웨스턴 스타일 벽지",
+		effect = "",
+		advice = 0,
+		icon = "qiangbinzicon",
+		spine_action_replace = "",
+		picture = "nz/qiangbinz",
+		comfortable = 4,
+		canputon = 0,
+		id = 82002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82101] = {
+		spine_extra = "",
+		describe = "황량한 분위기를 부각시켜줘요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "caonzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 풀더미",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "nz/caonz",
+		canputon = 0,
+		id = 82101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82105] = {
+		spine_extra = "",
+		describe = "웨스턴 타운에 온 걸 환영한다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "biaoshipainzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "타운 표지판",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "nz/biaoshipainz",
+		canputon = 0,
+		id = 82105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82106] = {
+		spine_extra = "",
+		describe = "물자와 희망을 한 가득!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "banchenzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 짐수레",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "nz/banchenz",
+		canputon = 0,
+		id = 82106,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82107] = {
+		spine_extra = "",
+		describe = "목적지에 도착했어쥬?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dapengchenzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 캐러밴",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "nz/dapengchenz",
+		canputon = 0,
+		id = 82107,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82108] = {
+		spine_extra = "",
+		describe = "자칫 불 붙이면 큰일나요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 82,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gancaonzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "건초더미",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "nz/gancaonz",
+		canputon = 0,
+		id = 82108,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-9,
+					33
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82109] = {
+		spine_extra = "",
+		describe = "사건 발생쥬!?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jingchajunzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 경찰서",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "nz/jingchajunz",
+		canputon = 0,
+		id = 82109,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82110] = {
+		spine_extra = "",
+		describe = "누가 어디서 소란을 피우냐쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jingzhangjiunzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 경찰쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "nz/jingzhangjiunz",
+		canputon = 0,
+		id = 82110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82111] = {
+		spine_extra = "",
+		describe = "기, 긴장된다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jinzhangjiunzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "결투 관중쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "nz/jinzhangjiunz",
+		canputon = 0,
+		id = 82111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82112] = {
+		spine_extra = "",
+		describe = "눈 감고도 이길 수 있다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "juedoujiunzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "카우보이쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "nz/juedoujiunz",
+		canputon = 0,
+		id = 82112,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82113] = {
+		spine_extra = "",
+		describe = "넌 이미 죽어있다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "juedoujiu2nzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "결투쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "nz/juedoujiu2nz",
+		canputon = 0,
+		id = 82113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82114] = {
+		spine_extra = "",
+		describe = "황량한 분위기를 부각시켜줘요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kushunzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 고목",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "nz/kushunz",
+		canputon = 0,
+		id = 82114,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82115] = {
+		spine_extra = "",
+		describe = "쉽게 부서질 것 같은 나무 울타리.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "langannzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 나무 울타리",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "nz/langannz",
+		canputon = 0,
+		id = 82115,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82116] = {
+		spine_extra = "",
+		describe = "잘 먹고 마셔야 계속 달릴 수 있어요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "majiunzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 마구간",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "nz/majiunz",
+		canputon = 0,
+		id = 82116,
+		can_rotate = 0,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82117] = {
+		spine_extra = "",
+		describe = "음머~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "niunzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 카우",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "nz/niunz",
+		canputon = 0,
+		id = 82117,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82118] = {
+		spine_extra = "",
+		describe = "부딪히면 아플 거에요...",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shitounzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 바위",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "nz/shitounz",
+		canputon = 0,
+		id = 82118,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82119] = {
+		spine_extra = "",
+		describe = "덮개는!?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuitongnzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 물통",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "nz/shuitongnz",
+		canputon = 0,
+		id = 82119,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82120] = {
+		spine_extra = "",
+		describe = "황량한 사막 위의 푸른색 선인장",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xianrenzhangnzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 선인장",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "nz/xianrenzhangnz",
+		canputon = 0,
+		id = 82120,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82122] = {
+		spine_extra = "",
+		describe = "모닥불에 둘러 앉아 노래해요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yinghuonzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 모닥불",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "nz/yinghuonz",
+		canputon = 0,
+		id = 82122,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82123] = {
+		spine_extra = "",
+		describe = "우리 경비를 얕보지마라쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 82,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yinhangnzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "웨스턴 은행",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "nz/yinhangnz",
+		canputon = 0,
+		id = 82123,
+		can_rotate = 1,
+		size = {
+			8,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[82124] = {
+		spine_extra = "",
+		describe = "내 사격 솜씨를 믿어쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "사격쥬",
+		themeId = 82,
+		icon = "dabanzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 82124,
+		can_rotate = 0,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"daba",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[82125] = {
+		spine_extra = "",
+		describe = "오늘은 어떤 재미난 소식이 있을까요?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "웨스턴 바",
+		themeId = 82,
+		icon = "jiubanzicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 82125,
+		can_rotate = 0,
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiubaB",
+				"normal"
+			},
+			{
+				"jiubaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"action",
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -90310,6 +91234,29 @@ pg.furniture_data_template = {
 		81301,
 		81304,
 		81305,
-		81306
+		81306,
+		82001,
+		82002,
+		82101,
+		82105,
+		82106,
+		82107,
+		82108,
+		82109,
+		82110,
+		82111,
+		82112,
+		82113,
+		82114,
+		82115,
+		82116,
+		82117,
+		82118,
+		82119,
+		82120,
+		82122,
+		82123,
+		82124,
+		82125
 	}
 }

@@ -14,6 +14,7 @@ PLATFORM_CODE = PLATFORM_KR
 require("Include")
 require("tolua.reflection")
 tolua.loadassembly("Assembly-CSharp")
+tolua.loadassembly("UnityEngine.UI")
 math.randomseed(os.time())
 
 CSharpVersion = NetConst.GatewayState
@@ -232,6 +233,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.UserAgreementMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.BrightnessMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

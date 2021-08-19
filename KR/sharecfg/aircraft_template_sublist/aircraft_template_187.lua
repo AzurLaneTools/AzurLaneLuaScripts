@@ -1,45 +1,62 @@
 pg = pg or {}
 pg.aircraft_template_187 = {
-	[68398] = {
+	[68338] = {
+		id = 68338,
+		name = "小赤城技能飞机Lv8",
+		base = 68331,
 		max_hp = 86,
-		name = "科隆改直升机Lv8",
-		base = 68391,
-		id = 68398,
-		hp_growth = 3237
+		hp_growth = 3237,
+		weapon_ID = {
+			68348,
+			68358
+		}
 	},
-	[68399] = {
+	[68339] = {
+		id = 68339,
+		name = "小赤城技能飞机Lv9",
+		base = 68331,
 		max_hp = 92,
-		name = "科隆改直升机Lv9",
-		base = 68391,
-		id = 68399,
-		hp_growth = 3458
+		hp_growth = 3458,
+		weapon_ID = {
+			68349,
+			68359
+		}
 	},
-	[68400] = {
+	[68340] = {
+		id = 68340,
+		name = "小赤城技能飞机Lv10",
+		base = 68331,
 		max_hp = 98,
-		name = "科隆改直升机Lv10",
-		base = 68391,
-		id = 68400,
-		hp_growth = 3678
+		hp_growth = 3678,
+		weapon_ID = {
+			68350,
+			68360
+		}
 	},
-	[68541] = {
+	[68391] = {
 		attack_power = 2,
-		name = "伊25技能零侦LV1",
-		type = 3,
+		name = "科隆改直升机Lv1",
+		type = 1,
 		accuracy = 23,
-		model_ID = "glen",
+		model_ID = "fl-282",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 180,
 		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 68541,
-		icon = "glen",
+		nationality = 4,
+		id = 68391,
+		icon = "fl-282",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1615,
-		speed = 66,
+		hp_growth = 1692,
+		speed = 48,
 		max_hp = 42,
 		scale = 1,
+		funnel_behavior = {
+			rear = -40,
+			exist = 10,
+			stay = 2,
+			front = -40
+		},
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -82,7 +99,7 @@ pg.aircraft_template_187 = {
 				0
 			},
 			{
-				0.64,
+				0,
 				0,
 				0
 			},
@@ -93,52 +110,46 @@ pg.aircraft_template_187 = {
 			}
 		}
 	},
-	[68542] = {
-		id = 68542,
-		name = "伊25技能零侦LV2",
-		base = 68541,
+	[68392] = {
 		max_hp = 48,
-		hp_growth = 1826,
-		weapon_ID = {}
+		name = "科隆改直升机Lv2",
+		base = 68391,
+		id = 68392,
+		hp_growth = 1913
 	},
-	[68543] = {
-		id = 68543,
-		name = "伊25技能零侦LV3",
-		base = 68541,
+	[68393] = {
 		max_hp = 54,
-		hp_growth = 2036,
-		weapon_ID = {}
+		name = "科隆改直升机Lv3",
+		base = 68391,
+		id = 68393,
+		hp_growth = 2133
 	},
-	[68544] = {
-		id = 68544,
-		name = "伊25技能零侦LV4",
-		base = 68541,
+	[68394] = {
 		max_hp = 61,
-		hp_growth = 2247,
-		weapon_ID = {}
+		name = "科隆改直升机Lv4",
+		base = 68391,
+		id = 68394,
+		hp_growth = 2354
 	},
-	[68545] = {
-		id = 68545,
-		name = "伊25技能零侦LV5",
-		base = 68541,
+	[68395] = {
 		max_hp = 67,
-		hp_growth = 2458,
-		weapon_ID = {}
+		name = "科隆改直升机Lv5",
+		base = 68391,
+		id = 68395,
+		hp_growth = 2575
 	},
-	[68546] = {
-		id = 68546,
-		name = "伊25技能零侦LV6",
-		base = 68541,
+	[68396] = {
 		max_hp = 73,
-		hp_growth = 2669,
-		weapon_ID = {}
+		name = "科隆改直升机Lv6",
+		base = 68391,
+		id = 68396,
+		hp_growth = 2796
 	},
-	[68547] = {
-		id = 68547,
-		name = "伊25技能零侦LV7",
-		base = 68541,
+	[68397] = {
 		max_hp = 79,
-		hp_growth = 2879,
-		weapon_ID = {}
+		name = "科隆改直升机Lv7",
+		base = 68391,
+		id = 68397,
+		hp_growth = 3016
 	}
 }

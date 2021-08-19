@@ -16,6 +16,14 @@ function slot0.execute(slot0, slot1)
 
 		slot3.isClearNpc = true
 	end
+
+	if getProxy(ActivityProxy):getActiveBannerByType(GAMEUI_BANNER_10) then
+		slot5 = pg.item_data_statistics[50004]
+		slot5.icon = "Props/" .. slot4.pic
+		slot6 = string.split(slot4.param, "|")
+		slot5.name = slot6[1]
+		slot5.display = slot6[2]
+	end
 end
 
 function slot0.unloadEquipments(slot0, slot1)

@@ -23,6 +23,9 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.OnRelease = nil
 
 	setActive(slot0.tpl, false)
+
+	slot0.tweens = {}
+
 	slot0:AddListener()
 end
 
@@ -32,7 +35,19 @@ function slot0.Make(slot0, slot1, slot2, slot3)
 	slot0.OnRelease = slot3
 end
 
+function slot0.ClearTweens(slot0)
+	for slot4, slot5 in ipairs(slot0.tweens) do
+		if LeanTween.isTweening(slot5) then
+			LeanTween.cancel(slot5)
+		end
+	end
+
+	slot0.tweens = {}
+end
+
 function slot0.Align(slot0, slot1, slot2)
+	slot0:ClearTweens()
+
 	slot0.childs = {}
 	slot0.padding = 0
 	slot0.animFlag = false
@@ -190,6 +205,7 @@ function slot0.RefreshChildPos(slot0, slot1)
 			slot7.localPosition = slot10
 		end
 
+		table.insert(slot0.tweens, slot7.gameObject)
 		LeanTween.moveLocal(slot7.gameObject, slot11, slot0.animTime):setOnComplete(System.Action(function ()
 			uv0.localPosition = uv1
 			uv2.animFlag = false
@@ -282,6 +298,8 @@ function slot0.Release(slot0)
 end
 
 function slot0.Dispose(slot0)
+	slot0:ClearTweens()
+
 	slot0.OnSwitch = nil
 	slot0.OnRelease = nil
 	slot0.OnInit = nil

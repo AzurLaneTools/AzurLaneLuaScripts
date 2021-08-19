@@ -6209,6 +6209,9 @@ B평가:<color=#92fc63>70</color>점
 	destroy_high_intensify_tip = {
 		tip = "<color=#92fc63>$1 강화 후</color>"
 	},
+	destroy_inHardFormation_tip = {
+		tip = "어려움 편성 중"
+	},
 	ship_quick_change_noequip = {
 		tip = "변경하려는 장비가 존재하지 않습니다."
 	},
@@ -6326,6 +6329,9 @@ B평가:<color=#92fc63>70</color>점
 	word_status_world = {
 		tip = "대형 작전 중"
 	},
+	word_status_inHardFormation = {
+		tip = "어려움 편성 중"
+	},
 	challenge_rule = {
 		tip = {
 			{
@@ -6406,7 +6412,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "다음 단계는 목표 보상을 전부 획득하여 개방할 수 있습니다."
 	},
 	shop_street_activity_tip = {
-		tip = "·이벤트 기간(<color=#A1E400FF>2021.7.29-2021.8.11</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
+		tip = "·이벤트 기간(<color=#A1E400FF>2021.8.19-2021.9.8</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
 	},
 	twitter_link_title = {
 		tip = "连接中的推特账号：$1"
@@ -7436,7 +7442,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "장 바르, 매사추세츠, 됭케르크 건조 추가!"
 	},
 	buildship_light_tip = {
-		tip = "르 말랭, 르 트리옹팡, 로피니아트르, 포르뱅 건조 추가!"
+		tip = "{namecode:147} 건조 추가!"
 	},
 	buildship_special_tip = {
 		tip = "쉬르쿠프 건조 추가!"
@@ -14117,5 +14123,22 @@ P.S.기록기의 내용량은 상한이 있으니, 반드시 제때 분석하세
 	},
 	user_is_forever_banned = {
 		tip = "계정 이용 정지됨"
+	},
+	cowboy_tips = {
+		tip = {
+			{
+				info = [[
+이벤트 규칙:
+1. <color=#92fc63>8월 25일</color>까지 카우보이 경기가 매일 0시마다 <color=#92fc63>1</color>회씩 총 <color=#92fc63>7</color>경기가 개방되며, 누적 가능합니다. 경기를 완료할 시 풍부한 보상을 획득할 수 있습니다.
+게임 규칙:
+1. 화면 오른쪽에서 왼쪽으로 쥬쥬가 지나갑니다. 우측의 올가미 버튼을 눌러 쥬쥬에게 던져 올가미를 씌우면 점수를 획득합니다.
+2. 각 쥬쥬마다 획득 점수:
+젖소 쥬쥬: 50점
+앵거스 쥬쥬: 100점
+버팔로 쥬쥬: 200점
+들소 쥬쥬: 300점
+3. 게임 시간이 0이 되거나 게임 내 퇴장 버튼을 누를 경우 게임이 완료됩니다. 기타 원인으로 인해 중도 퇴장 시 완료하지 않은 것으로 간주됩니다.]]
+			}
+		}
 	}
 }

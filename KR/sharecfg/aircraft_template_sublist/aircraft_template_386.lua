@@ -1,26 +1,100 @@
 pg = pg or {}
 pg.aircraft_template_386 = {
-	[30001] = {
+	[960013] = {
 		attack_power = 2,
-		name = "F4F野猫",
+		name = "【翻格子活动】重樱轰炸机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 960013,
+		icon = "99shijianbao1",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1070,
+		speed = 46,
+		max_hp = 28,
+		scale = 1,
+		weapon_ID = {
+			960031
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[960014] = {
+		attack_power = 2,
+		name = "【翻格子活动】白鹰战斗机",
 		type = 1,
 		accuracy = 23,
-		model_ID = "F4F",
+		model_ID = "F2A",
 		ACC_growth = 0,
-		crash_DMG = 1,
+		crash_DMG = 9,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 1,
-		id = 30001,
-		icon = "F4F",
+		id = 960014,
+		icon = "F2A",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2518,
-		speed = 33,
-		max_hp = 52,
-		scale = 0.75,
+		hp_growth = 1129,
+		speed = 50,
+		max_hp = 29,
+		scale = 1,
 		weapon_ID = {
-			190014
+			960023
 		},
 		position_offset = {
 			0,
@@ -63,7 +137,7 @@ pg.aircraft_template_386 = {
 				0
 			},
 			{
-				0.32,
+				0.24,
 				0,
 				0
 			},
@@ -74,27 +148,27 @@ pg.aircraft_template_386 = {
 			}
 		}
 	},
-	[30002] = {
+	[960015] = {
 		attack_power = 2,
-		name = "F6F地狱猫",
-		type = 1,
+		name = "【翻格子活动】白鹰鱼雷机",
+		type = 2,
 		accuracy = 23,
-		model_ID = "F6F",
+		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 1,
+		crash_DMG = 9,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 1,
-		id = 30002,
-		icon = "F6F",
+		id = 960015,
+		icon = "tbd",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2518,
-		speed = 33,
-		max_hp = 52,
-		scale = 0.75,
+		hp_growth = 1021,
+		speed = 48,
+		max_hp = 27,
+		scale = 1,
 		weapon_ID = {
-			50000
+			960027
 		},
 		position_offset = {
 			0,
@@ -114,13 +188,13 @@ pg.aircraft_template_386 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -137,7 +211,7 @@ pg.aircraft_template_386 = {
 				0
 			},
 			{
-				0,
+				0.31,
 				0,
 				0
 			},
@@ -148,27 +222,27 @@ pg.aircraft_template_386 = {
 			}
 		}
 	},
-	[30003] = {
+	[960016] = {
 		attack_power = 2,
-		name = "SBD无畏",
+		name = "【翻格子活动】白鹰轰炸机",
 		type = 3,
 		accuracy = 23,
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
-		crash_DMG = 1,
+		crash_DMG = 9,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 1,
-		id = 30003,
+		id = 960016,
 		icon = "sbdwuwei",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2518,
-		speed = 33,
-		max_hp = 52,
-		scale = 0.75,
+		hp_growth = 1183,
+		speed = 46,
+		max_hp = 31,
+		scale = 1,
 		weapon_ID = {
-			50000
+			960031
 		},
 		position_offset = {
 			0,
@@ -222,27 +296,27 @@ pg.aircraft_template_386 = {
 			}
 		}
 	},
-	[30004] = {
+	[960017] = {
 		attack_power = 2,
-		name = "海喷火",
+		name = "【翻格子活动】皇家战斗机",
 		type = 1,
 		accuracy = 23,
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
-		crash_DMG = 1,
+		crash_DMG = 9,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 2,
-		id = 30004,
+		id = 960017,
 		icon = "haipenhuo",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 3386,
-		speed = 33,
-		max_hp = 68,
-		scale = 0.75,
+		hp_growth = 1075,
+		speed = 50,
+		max_hp = 28,
+		scale = 1,
 		weapon_ID = {
-			50000
+			960024
 		},
 		position_offset = {
 			0,
@@ -296,27 +370,27 @@ pg.aircraft_template_386 = {
 			}
 		}
 	},
-	[30005] = {
+	[960018] = {
 		attack_power = 2,
-		name = "剑鱼",
+		name = "【翻格子活动】皇家鱼雷机",
 		type = 2,
 		accuracy = 23,
-		model_ID = "sbdwuwei",
+		model_ID = "jianyu",
 		ACC_growth = 0,
-		crash_DMG = 1,
+		crash_DMG = 9,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 2,
-		id = 30005,
-		icon = "sbdwuwei",
+		id = 960018,
+		icon = "jianyu",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 3386,
-		speed = 33,
-		max_hp = 68,
-		scale = 0.75,
+		hp_growth = 973,
+		speed = 48,
+		max_hp = 25,
+		scale = 1,
 		weapon_ID = {
-			50000
+			960027
 		},
 		position_offset = {
 			0,
@@ -359,8 +433,8 @@ pg.aircraft_template_386 = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
+				0.52,
+				0,
 				0
 			},
 			{
@@ -370,175 +444,27 @@ pg.aircraft_template_386 = {
 			}
 		}
 	},
-	[30006] = {
+	[960019] = {
 		attack_power = 2,
-		name = "96式舰战（无资源）",
-		type = 1,
+		name = "【翻格子活动】皇家轰炸机",
+		type = 3,
 		accuracy = 23,
-		model_ID = "sbdwuwei",
+		model_ID = "zeiou",
 		ACC_growth = 0,
-		crash_DMG = 1,
+		crash_DMG = 9,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 30006,
-		icon = "sbdwuwei",
+		nationality = 2,
+		id = 960019,
+		icon = "zeiou",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 3386,
-		speed = 33,
-		max_hp = 54,
-		scale = 0.75,
+		hp_growth = 1126,
+		speed = 46,
+		max_hp = 29,
+		scale = 1,
 		weapon_ID = {
-			50000
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[30007] = {
-		attack_power = 2,
-		name = "零式战斗机（无资源）",
-		type = 1,
-		accuracy = 23,
-		model_ID = "sbdwuwei",
-		ACC_growth = 0,
-		crash_DMG = 1,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 30007,
-		icon = "sbdwuwei",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 2932,
-		speed = 33,
-		max_hp = 62,
-		scale = 0.75,
-		weapon_ID = {
-			50000
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[31100] = {
-		attack_power = 2,
-		name = "零战二一",
-		type = 1,
-		accuracy = 23,
-		model_ID = "lingzhan21",
-		ACC_growth = 0,
-		crash_DMG = 1,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 31100,
-		icon = "lingzhan21",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 3550,
-		speed = 33,
-		max_hp = 62,
-		scale = 0.75,
-		weapon_ID = {
-			50000
+			960031
 		},
 		position_offset = {
 			0,
@@ -559,12 +485,12 @@ pg.aircraft_template_386 = {
 			weapon = {
 				{
 					0.71,
-					-0.91,
+					-1.73,
 					0
 				},
 				{
-					0.77,
-					1,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -581,7 +507,7 @@ pg.aircraft_template_386 = {
 				0
 			},
 			{
-				0.27,
+				0.37,
 				0,
 				0
 			},
@@ -592,27 +518,27 @@ pg.aircraft_template_386 = {
 			}
 		}
 	},
-	[31101] = {
+	[960020] = {
 		attack_power = 2,
-		name = "零战二一改",
+		name = "【翻格子活动】鸢尾战斗机",
 		type = 1,
 		accuracy = 23,
-		model_ID = "lingzhan21gai",
+		model_ID = "GL2",
 		ACC_growth = 0,
-		crash_DMG = 1,
+		crash_DMG = 9,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 31101,
-		icon = "lingzhan21gai",
+		id = 960020,
+		icon = "GL2",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 4046,
-		speed = 33,
-		max_hp = 72,
-		scale = 0.75,
+		hp_growth = 1075,
+		speed = 50,
+		max_hp = 28,
+		scale = 1,
 		weapon_ID = {
-			50000
+			960026
 		},
 		position_offset = {
 			0,
@@ -632,13 +558,13 @@ pg.aircraft_template_386 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.52,
-					0.97,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.56,
-					-0.79,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -655,7 +581,81 @@ pg.aircraft_template_386 = {
 				0
 			},
 			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
 				0,
+				0,
+				0
+			}
+		}
+	},
+	[960021] = {
+		attack_power = 2,
+		name = "【翻格子活动】鸢尾鱼雷机",
+		type = 2,
+		accuracy = 23,
+		model_ID = "PL7",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 960021,
+		icon = "PL7",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 973,
+		speed = 48,
+		max_hp = 25,
+		scale = 1,
+		weapon_ID = {
+			960027
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
 				0,
 				0
 			},
@@ -666,27 +666,27 @@ pg.aircraft_template_386 = {
 			}
 		}
 	},
-	[31102] = {
+	[960022] = {
 		attack_power = 2,
-		name = "零战五二型",
-		type = 1,
+		name = "【翻格子活动】鸢尾轰炸机",
+		type = 3,
 		accuracy = 23,
-		model_ID = "lingzhan52",
+		model_ID = "GL2",
 		ACC_growth = 0,
-		crash_DMG = 1,
+		crash_DMG = 9,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 31102,
-		icon = "lingzhan52",
+		id = 960022,
+		icon = "GL2",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 3013,
-		speed = 33,
-		max_hp = 62,
-		scale = 0.75,
+		hp_growth = 1126,
+		speed = 46,
+		max_hp = 29,
+		scale = 1,
 		weapon_ID = {
-			50000
+			960031
 		},
 		position_offset = {
 			0,
@@ -707,12 +707,12 @@ pg.aircraft_template_386 = {
 			weapon = {
 				{
 					0.71,
-					-0.91,
+					-1.73,
 					0
 				},
 				{
-					0.77,
-					1,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -729,7 +729,7 @@ pg.aircraft_template_386 = {
 				0
 			},
 			{
-				0.51,
+				0,
 				0,
 				0
 			},

@@ -1,116 +1,122 @@
 pg = pg or {}
 pg.aircraft_template_161 = {
-	[66442] = {
-		id = 66442,
-		name = "联结·阿萨姆LV2",
-		base = 66440,
+	[66423] = {
+		id = 66423,
+		name = "胡蜂技能LV3",
+		base = 66420,
 		max_hp = 49,
-		hp_growth = 1877,
+		hp_growth = 1954,
 		weapon_ID = {
-			66602
+			50143,
+			50543,
+			52243
 		}
 	},
-	[66443] = {
-		id = 66443,
-		name = "联结·阿萨姆LV3",
-		base = 66440,
-		max_hp = 56,
-		hp_growth = 2150,
+	[66424] = {
+		id = 66424,
+		name = "胡蜂技能LV4",
+		base = 66420,
+		max_hp = 55,
+		hp_growth = 2202,
 		weapon_ID = {
-			66603
+			50144,
+			50544,
+			52244
 		}
 	},
-	[66444] = {
-		id = 66444,
-		name = "联结·阿萨姆LV4",
-		base = 66440,
-		max_hp = 63,
-		hp_growth = 2423,
+	[66425] = {
+		id = 66425,
+		name = "胡蜂技能LV5",
+		base = 66420,
+		max_hp = 61,
+		hp_growth = 2451,
 		weapon_ID = {
-			66604
+			50145,
+			50545,
+			52245
 		}
 	},
-	[66445] = {
-		id = 66445,
-		name = "联结·阿萨姆LV5",
-		base = 66440,
-		max_hp = 70,
-		hp_growth = 2696,
+	[66426] = {
+		id = 66426,
+		name = "胡蜂技能LV6",
+		base = 66420,
+		max_hp = 68,
+		hp_growth = 2700,
 		weapon_ID = {
-			66605
+			50146,
+			50546,
+			52246
 		}
 	},
-	[66446] = {
-		id = 66446,
-		name = "联结·阿萨姆LV6",
-		base = 66440,
-		max_hp = 77,
-		hp_growth = 2970,
+	[66427] = {
+		id = 66427,
+		name = "胡蜂技能LV7",
+		base = 66420,
+		max_hp = 75,
+		hp_growth = 2949,
 		weapon_ID = {
-			66606
+			50147,
+			50547,
+			52247
 		}
 	},
-	[66447] = {
-		id = 66447,
-		name = "联结·阿萨姆LV7",
-		base = 66440,
-		max_hp = 84,
-		hp_growth = 3244,
+	[66428] = {
+		id = 66428,
+		name = "胡蜂技能LV8",
+		base = 66420,
+		max_hp = 82,
+		hp_growth = 3198,
 		weapon_ID = {
-			66607
+			50148,
+			50548,
+			52248
 		}
 	},
-	[66448] = {
-		id = 66448,
-		name = "联结·阿萨姆LV8",
-		base = 66440,
-		max_hp = 91,
-		hp_growth = 3518,
+	[66429] = {
+		id = 66429,
+		name = "胡蜂技能LV9",
+		base = 66420,
+		max_hp = 89,
+		hp_growth = 3447,
 		weapon_ID = {
-			66608
+			50149,
+			50549,
+			52249
 		}
 	},
-	[66449] = {
-		id = 66449,
-		name = "联结·阿萨姆LV9",
-		base = 66440,
-		max_hp = 98,
-		hp_growth = 3792,
+	[66430] = {
+		id = 66430,
+		name = "胡蜂技能LV10",
+		base = 66420,
+		max_hp = 96,
+		hp_growth = 3696,
 		weapon_ID = {
-			66609
+			50150,
+			50550,
+			52250
 		}
 	},
-	[66450] = {
-		id = 66450,
-		name = "联结·阿萨姆LV10",
-		base = 66440,
-		max_hp = 106,
-		hp_growth = 4066,
-		weapon_ID = {
-			66610
-		}
-	},
-	[66580] = {
+	[66440] = {
 		attack_power = 2,
-		name = "宝石枪雨LV0",
+		name = "联结·阿萨姆LV0",
 		type = 3,
 		accuracy = 23,
-		model_ID = "Nep_green",
+		model_ID = "sb2c",
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 1,
-		id = 66580,
-		icon = "Nep_green",
+		id = 66440,
+		icon = "sb2c",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1478,
+		hp_growth = 1331,
 		speed = 50,
-		max_hp = 38,
+		max_hp = 35,
 		scale = 1,
 		weapon_ID = {
-			66620
+			66600
 		},
 		position_offset = {
 			0,
@@ -130,13 +136,13 @@ pg.aircraft_template_161 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.28,
-					-0.38,
+					0.69,
+					-2.62,
 					0
 				},
 				{
-					1.43,
-					1.85,
+					0.85,
+					0.17,
 					0
 				}
 			}
@@ -162,6 +168,16 @@ pg.aircraft_template_161 = {
 				0,
 				0
 			}
+		}
+	},
+	[66441] = {
+		id = 66441,
+		name = "联结·阿萨姆LV1",
+		base = 66440,
+		max_hp = 42,
+		hp_growth = 1604,
+		weapon_ID = {
+			66601
 		}
 	}
 }

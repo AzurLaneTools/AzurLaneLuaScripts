@@ -34,3 +34,7 @@ end
 function slot2.RunMode(slot0)
 	return false
 end
+
+function slot2.DoUpdateOxy(slot0, slot1)
+	slot1:OxyConsume()
+end

@@ -230,7 +230,10 @@ function slot0.didEnter(slot0)
 	if slot0.contextData.parent then
 		setParent(slot0._tf, slot0.contextData.parent)
 	else
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true, {
+			groupName = slot0:getGroupNameFromData(),
+			weight = slot0:getWeightFromData()
+		})
 	end
 
 	setActive(slot0.setView, slot0.contextData.mode == uv0.SetView)

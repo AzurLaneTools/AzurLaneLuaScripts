@@ -427,6 +427,18 @@ function slot0.getSameGroupShipCount(slot0, slot1)
 	return slot2
 end
 
+function slot0.getUpgradeShips(slot0, slot1)
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot0.data) do
+		if slot9.groupId == slot1.groupId or slot9:isTestShip() and slot9:canUseTestShip(slot1:getConfig("rarity")) then
+			table.insert(slot4, slot9)
+		end
+	end
+
+	return slot4
+end
+
 function slot0.getBayPower(slot0)
 	slot1 = {}
 
@@ -753,6 +765,109 @@ function slot0.getWorldRecommendShip(slot0, slot1, slot2)
 	end
 
 	return slot7
+end
+
+function slot0.getModRecommendShip(slot0, slot1, slot2)
+	slot3 = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_2, underscore.keys(slot0.data))
+	slot5 = {}
+
+	for slot9, slot10 in pairs(slot0.data) do
+		if (function (slot0)
+			return slot0.level == 1 and slot0:getRarity() <= ShipRarity.Gray and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
+		end)(slot10) then
+			table.insert(slot5, slot10)
+		end
+	end
+
+	slot8 = pg.ship_data_by_type[slot1:getConfig("type")].strengthen_choose_type
+	slot9 = {
+		function (slot0)
+			return slot0:isSameKind(uv0) and 0 or 1
+		end,
+		function (slot0)
+			return table.indexof(uv0, slot0:getConfig("type"))
+		end
+	}
+
+	table.sort(slot5, function (slot0, slot1)
+		return CompareFuncs(slot0, slot1, uv0)
+	end)
+
+	for slot14, slot15 in pairs(slot2) do
+		table.insert({}, slot0.data[slot15])
+	end
+
+	for slot14, slot15 in ipairs(slot5) do
+		if #slot10 == 12 then
+			break
+		end
+
+		for slot21, slot22 in pairs(ShipModLayer.getModExpAdditions(Clone(slot1), slot10)) do
+			slot16:addModAttrExp(slot21, slot22)
+		end
+
+		slot19 = {}
+
+		for slot23, slot24 in pairs(ShipModLayer.getModExpAdditions(slot16, {
+			slot15
+		})) do
+			if slot24 > 0 then
+				table.insert(slot19, {
+					attrName = slot23,
+					value = slot24
+				})
+			end
+		end
+
+		if not underscore.all(slot19, function (slot0)
+			return uv0:leftModAdditionPoint(slot0.attrName) == 0
+		end) then
+			table.insert(slot10, slot15)
+		end
+	end
+
+	return underscore.map(slot10, function (slot0)
+		return slot0.id
+	end)
+end
+
+function slot0.getUpgradeRecommendShip(slot0, slot1, slot2, slot3)
+	slot5 = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_4, underscore.keys(slot0.data))
+	slot7 = {}
+
+	for slot11, slot12 in ipairs(slot0:getUpgradeShips(slot1)) do
+		if (function (slot0)
+			return slot0.level == 1 and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
+		end)(slot12) then
+			table.insert(slot7, slot12)
+		end
+	end
+
+	slot8 = {
+		function (slot0)
+			return slot0:isSameKind(uv0) and 0 or 1
+		end
+	}
+
+	table.sort(slot7, function (slot0, slot1)
+		return CompareFuncs(slot0, slot1, uv0)
+	end)
+
+	for slot13, slot14 in pairs(slot2) do
+		table.insert({}, slot0.data[slot14])
+	end
+
+	for slot13, slot14 in ipairs(slot7) do
+		if #slot9 == slot3 then
+			break
+		end
+
+		table.insert(slot9, slot14)
+	end
+
+	return underscore.map(slot9, function (slot0)
+		return slot0.id
+	end)
 end
 
 return slot0

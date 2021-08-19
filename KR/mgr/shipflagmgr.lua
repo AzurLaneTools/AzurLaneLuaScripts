@@ -130,15 +130,14 @@ function slot1.GetShipFlag(slot0, slot1, slot2, slot3)
 end
 
 function slot1.FilterShips(slot0, slot1, slot2)
-	slot2 = slot2 or getProxy(BayProxy):getRawData()
 	slot3 = {}
 
-	for slot7, slot8 in pairs(slot1) do
-		if slot8 then
-			for slot12, slot13 in pairs(slot2) do
-				if slot0:GetShipFlag(slot12, slot7, slot8) then
-					slot3[slot12] = true
-				end
+	for slot7, slot8 in ipairs(slot2 or underscore.keys(getProxy(BayProxy):getRawData())) do
+		for slot12, slot13 in pairs(slot1) do
+			if slot13 and slot0:GetShipFlag(slot8, slot12, slot13) then
+				slot3[slot8] = true
+
+				break
 			end
 		end
 	end

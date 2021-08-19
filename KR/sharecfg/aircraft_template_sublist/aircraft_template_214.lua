@@ -1,60 +1,51 @@
 pg = pg or {}
 pg.aircraft_template_214 = {
-	[81121] = {
-		id = 81121,
-		max_hp = 42,
-		hp_growth = 1623,
-		base = 81120,
+	[81087] = {
+		id = 81087,
+		max_hp = 83,
+		hp_growth = 3182,
+		base = 81080,
 		weapon_ID = {
-			50421
+			50347
 		}
 	},
-	[81122] = {
-		id = 81122,
-		max_hp = 48,
-		hp_growth = 1835,
-		base = 81120,
+	[81088] = {
+		id = 81088,
+		max_hp = 89,
+		hp_growth = 3415,
+		base = 81080,
 		weapon_ID = {
-			50422
+			50348
 		}
 	},
-	[81123] = {
-		id = 81123,
-		max_hp = 53,
-		hp_growth = 2046,
-		base = 81120,
+	[81089] = {
+		id = 81089,
+		max_hp = 95,
+		hp_growth = 3648,
+		base = 81080,
 		weapon_ID = {
-			50423
+			50349
 		}
 	},
-	[81124] = {
-		id = 81124,
-		max_hp = 59,
-		hp_growth = 2258,
-		base = 81120,
+	[81090] = {
+		id = 81090,
+		max_hp = 101,
+		hp_growth = 3881,
+		base = 81080,
 		weapon_ID = {
-			50424
+			50350
 		}
 	},
-	[81125] = {
-		id = 81125,
-		max_hp = 64,
-		hp_growth = 2470,
-		base = 81120,
+	[81091] = {
+		id = 81091,
+		max_hp = 107,
+		hp_growth = 4114,
+		base = 81080,
 		weapon_ID = {
-			50425
+			50351
 		}
 	},
-	[81126] = {
-		id = 81126,
-		max_hp = 70,
-		hp_growth = 2681,
-		base = 81120,
-		weapon_ID = {
-			50426
-		}
-	},
-	[81140] = {
+	[81100] = {
 		attack_power = 2,
 		name = "F4F野猫",
 		type = 1,
@@ -62,19 +53,19 @@ pg.aircraft_template_214 = {
 		model_ID = "f4f",
 		ACC_growth = 0,
 		crash_DMG = 56,
-		dodge = 0.333,
+		dodge = 0.357,
 		funnel_behavior = "",
 		nationality = 1,
-		id = 81140,
+		id = 81100,
 		icon = "f4f",
 		AP_growth = 2000,
-		dodge_limit = 10,
-		hp_growth = 1552,
+		dodge_limit = 9,
+		hp_growth = 1270,
 		speed = 48,
-		max_hp = 40,
+		max_hp = 33,
 		scale = 1,
 		weapon_ID = {
-			50440
+			50400
 		},
 		position_offset = {
 			0,
@@ -128,31 +119,105 @@ pg.aircraft_template_214 = {
 			}
 		}
 	},
-	[81141] = {
-		id = 81141,
-		max_hp = 46,
-		hp_growth = 1785,
-		base = 81140,
+	[81101] = {
+		id = 81101,
+		max_hp = 38,
+		hp_growth = 1461,
+		base = 81100,
 		weapon_ID = {
-			50441
+			50401
 		}
 	},
-	[81142] = {
-		id = 81142,
-		max_hp = 52,
-		hp_growth = 2018,
-		base = 81140,
+	[81102] = {
+		id = 81102,
+		max_hp = 43,
+		hp_growth = 1651,
+		base = 81100,
 		weapon_ID = {
-			50442
+			50402
 		}
 	},
-	[81143] = {
-		id = 81143,
-		max_hp = 59,
-		hp_growth = 2251,
-		base = 81140,
+	[81103] = {
+		id = 81103,
+		max_hp = 48,
+		hp_growth = 1842,
+		base = 81100,
 		weapon_ID = {
-			50443
+			50403
+		}
+	},
+	[81120] = {
+		attack_power = 2,
+		name = "F4F野猫",
+		type = 1,
+		accuracy = 23,
+		model_ID = "f4f",
+		ACC_growth = 0,
+		crash_DMG = 56,
+		dodge = 0.345,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 81120,
+		icon = "f4f",
+		AP_growth = 2000,
+		dodge_limit = 9.5,
+		hp_growth = 1411,
+		speed = 48,
+		max_hp = 37,
+		scale = 1,
+		weapon_ID = {
+			50420
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.32,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

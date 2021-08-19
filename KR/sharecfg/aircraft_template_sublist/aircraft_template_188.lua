@@ -1,53 +1,46 @@
 pg = pg or {}
 pg.aircraft_template_188 = {
-	[68548] = {
-		id = 68548,
-		name = "伊25技能零侦LV8",
-		base = 68541,
+	[68398] = {
 		max_hp = 86,
-		hp_growth = 3090,
-		weapon_ID = {}
+		name = "科隆改直升机Lv8",
+		base = 68391,
+		id = 68398,
+		hp_growth = 3237
 	},
-	[68549] = {
-		id = 68549,
-		name = "伊25技能零侦LV9",
-		base = 68541,
+	[68399] = {
 		max_hp = 92,
-		hp_growth = 3301,
-		weapon_ID = {}
+		name = "科隆改直升机Lv9",
+		base = 68391,
+		id = 68399,
+		hp_growth = 3458
 	},
-	[68550] = {
-		id = 68550,
-		name = "伊25技能零侦LV10",
-		base = 68541,
+	[68400] = {
 		max_hp = 98,
-		hp_growth = 3511,
-		weapon_ID = {}
+		name = "科隆改直升机Lv10",
+		base = 68391,
+		id = 68400,
+		hp_growth = 3678
 	},
-	[68621] = {
+	[68541] = {
 		attack_power = 2,
-		name = "巴丹技能F6FLV1",
-		type = 1,
+		name = "伊25技能零侦LV1",
+		type = 3,
 		accuracy = 23,
-		model_ID = "f6f",
+		model_ID = "glen",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 0.315,
+		crash_DMG = 208,
+		dodge = 1,
 		funnel_behavior = "",
-		nationality = 1,
-		id = 68621,
-		icon = "f6f",
+		nationality = 3,
+		id = 68541,
+		icon = "glen",
 		AP_growth = 2000,
-		dodge_limit = 11,
-		hp_growth = 1947,
-		speed = 50,
-		max_hp = 51,
+		dodge_limit = 0,
+		hp_growth = 1615,
+		speed = 66,
+		max_hp = 42,
 		scale = 1,
-		weapon_ID = {
-			50341,
-			50541,
-			68631
-		},
+		weapon_ID = {},
 		position_offset = {
 			0,
 			5,
@@ -66,13 +59,13 @@ pg.aircraft_template_188 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -89,7 +82,7 @@ pg.aircraft_template_188 = {
 				0
 			},
 			{
-				0,
+				0.64,
 				0,
 				0
 			},
@@ -100,76 +93,52 @@ pg.aircraft_template_188 = {
 			}
 		}
 	},
-	[68622] = {
-		id = 68622,
-		name = "巴丹技能F6FLV2",
-		base = 68621,
-		max_hp = 57,
-		hp_growth = 2201,
-		weapon_ID = {
-			50342,
-			50542,
-			68632
-		}
+	[68542] = {
+		id = 68542,
+		name = "伊25技能零侦LV2",
+		base = 68541,
+		max_hp = 48,
+		hp_growth = 1826,
+		weapon_ID = {}
 	},
-	[68623] = {
-		id = 68623,
-		name = "巴丹技能F6FLV3",
-		base = 68621,
-		max_hp = 64,
-		hp_growth = 2455,
-		weapon_ID = {
-			50343,
-			50543,
-			68633
-		}
+	[68543] = {
+		id = 68543,
+		name = "伊25技能零侦LV3",
+		base = 68541,
+		max_hp = 54,
+		hp_growth = 2036,
+		weapon_ID = {}
 	},
-	[68624] = {
-		id = 68624,
-		name = "巴丹技能F6FLV4",
-		base = 68621,
-		max_hp = 70,
-		hp_growth = 2710,
-		weapon_ID = {
-			50344,
-			50544,
-			68634
-		}
+	[68544] = {
+		id = 68544,
+		name = "伊25技能零侦LV4",
+		base = 68541,
+		max_hp = 61,
+		hp_growth = 2247,
+		weapon_ID = {}
 	},
-	[68625] = {
-		id = 68625,
-		name = "巴丹技能F6FLV5",
-		base = 68621,
-		max_hp = 77,
-		hp_growth = 2964,
-		weapon_ID = {
-			50345,
-			50545,
-			68635
-		}
+	[68545] = {
+		id = 68545,
+		name = "伊25技能零侦LV5",
+		base = 68541,
+		max_hp = 67,
+		hp_growth = 2458,
+		weapon_ID = {}
 	},
-	[68626] = {
-		id = 68626,
-		name = "巴丹技能F6FLV6",
-		base = 68621,
-		max_hp = 84,
-		hp_growth = 3218,
-		weapon_ID = {
-			50346,
-			50546,
-			68636
-		}
+	[68546] = {
+		id = 68546,
+		name = "伊25技能零侦LV6",
+		base = 68541,
+		max_hp = 73,
+		hp_growth = 2669,
+		weapon_ID = {}
 	},
-	[68627] = {
-		id = 68627,
-		name = "巴丹技能F6FLV7",
-		base = 68621,
-		max_hp = 90,
-		hp_growth = 3472,
-		weapon_ID = {
-			50347,
-			50547,
-			68637
-		}
+	[68547] = {
+		id = 68547,
+		name = "伊25技能零侦LV7",
+		base = 68541,
+		max_hp = 79,
+		hp_growth = 2879,
+		weapon_ID = {}
 	}
 }

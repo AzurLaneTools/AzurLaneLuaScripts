@@ -223,17 +223,18 @@ function slot0.didEnter(slot0)
 				if uv0.intimacyDesc then
 					setActive(uv0.intimacyDesc, not uv0.intimacyDescPic)
 
-					if not IsNil(GetComponent(uv0.intimacyDesc, "VerticalText")) then
-						slot6.enabled = true
+					slot6 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(uv0.shipVO.proposeTime, "%Y년%m월%d일", true))
 
-						setText(uv0.intimacyDesc, i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescC(uv0.shipVO.proposeTime, "%Y년%m월%d일")))
-					else
-						setText(uv0.intimacyDesc, i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(uv0.shipVO.proposeTime, "%Y년%m월%d일", true)))
+					if not IsNil(GetComponent(uv0.intimacyDesc, "VerticalText")) then
+						GetComponent(uv0.intimacyDesc, "VerticalText").enabled = false
+						slot6 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescC(uv0.shipVO.proposeTime, "%Y년%m월%d일"))
 					end
+
+					setText(uv0.intimacyDesc, slot6)
 				end
 			else
-				if uv1 == "ProposeJpUI" and not IsNil(GetComponent(uv0.intimacyDesc, "VerticalText")) then
-					slot6.enabled = false
+				if uv0.intimacyDesc and GetComponent(uv0.intimacyDesc, "VerticalText") then
+					GetComponent(uv0.intimacyDesc, "VerticalText").enabled = false
 				end
 
 				if uv0.intimacyDescPic then
@@ -497,15 +498,16 @@ function slot0.stampWindow(slot0)
 	if slot0.intimacyDesc then
 		setActive(slot0.intimacyDesc, not slot0.intimacyDescPic)
 
-		if GetComponent(slot0.intimacyDesc, typeof(Text)) then
-			if GetComponent(slot0.intimacyDesc, "VerticalText") then
-				setText(slot0.intimacyDesc, i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescC(slot0.shipVO.proposeTime, "%Y년%m월%d일")))
-			else
-				setText(slot0.intimacyDesc, i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, "%Y년%m월%d일", true)))
-			end
+		slot2 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, "%Y년%m월%d일", true))
 
-			slot1 = GetOrAddComponent(slot0.intimacyDesc, typeof(CanvasGroup))
+		if not IsNil(GetComponent(slot0.intimacyDesc, "VerticalText")) then
+			GetComponent(slot0.intimacyDesc, "VerticalText").enabled = false
+			slot2 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescC(slot0.shipVO.proposeTime, "%Y년%m월%d일"))
 		end
+
+		setText(slot0.intimacyDesc, slot2)
+
+		slot1 = GetOrAddComponent(slot0.intimacyDesc, typeof(CanvasGroup))
 	end
 
 	setText(slot0.intimacyBuffDesc, "")

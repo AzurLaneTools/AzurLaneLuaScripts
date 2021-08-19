@@ -7,5 +7,7 @@ pg.l2dhx = {
 	longfeng_2 = {},
 	xukufu_3 = {},
 	jianye_2 = {},
-	ailunsamuna_2 = {}
+	ailunsamuna_2 = {},
+	linuo_3 = {},
+	beikaluolaina_2 = {}
 }

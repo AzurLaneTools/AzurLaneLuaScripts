@@ -1,86 +1,86 @@
 pg = pg or {}
 pg.aircraft_template_153 = {
-	[65495] = {
-		id = 65495,
-		name = "彼得史特拉塞技能JU87鱼雷机LV5",
-		base = 65491,
-		max_hp = 61,
-		hp_growth = 2335,
+	[65455] = {
+		id = 65455,
+		name = "META飞龙鱼雷机Lv5",
+		base = 65451,
+		max_hp = 67,
+		hp_growth = 2575,
 		weapon_ID = {
-			65505
+			65465
 		}
 	},
-	[65496] = {
-		id = 65496,
-		name = "彼得史特拉塞技能JU87鱼雷机LV6",
-		base = 65491,
-		max_hp = 66,
-		hp_growth = 2554,
+	[65456] = {
+		id = 65456,
+		name = "META飞龙鱼雷机Lv6",
+		base = 65451,
+		max_hp = 73,
+		hp_growth = 2796,
 		weapon_ID = {
-			65506
+			65466
 		}
 	},
-	[65497] = {
-		id = 65497,
-		name = "彼得史特拉塞技能JU87鱼雷机LV7",
-		base = 65491,
-		max_hp = 72,
-		hp_growth = 2772,
+	[65457] = {
+		id = 65457,
+		name = "META飞龙鱼雷机Lv7",
+		base = 65451,
+		max_hp = 79,
+		hp_growth = 3016,
 		weapon_ID = {
-			65507
+			65467
 		}
 	},
-	[65498] = {
-		id = 65498,
-		name = "彼得史特拉塞技能JU87鱼雷机LV8",
-		base = 65491,
-		max_hp = 78,
-		hp_growth = 2991,
+	[65458] = {
+		id = 65458,
+		name = "META飞龙鱼雷机Lv8",
+		base = 65451,
+		max_hp = 86,
+		hp_growth = 3237,
 		weapon_ID = {
-			65508
+			65468
 		}
 	},
-	[65499] = {
-		id = 65499,
-		name = "彼得史特拉塞技能JU87鱼雷机LV9",
-		base = 65491,
-		max_hp = 83,
-		hp_growth = 3210,
+	[65459] = {
+		id = 65459,
+		name = "META飞龙鱼雷机Lv9",
+		base = 65451,
+		max_hp = 92,
+		hp_growth = 3458,
 		weapon_ID = {
-			65509
+			65469
 		}
 	},
-	[65500] = {
-		id = 65500,
-		name = "彼得史特拉塞技能JU87鱼雷机LV10",
-		base = 65491,
-		max_hp = 89,
-		hp_growth = 3429,
+	[65460] = {
+		id = 65460,
+		name = "META飞龙鱼雷机Lv10",
+		base = 65451,
+		max_hp = 98,
+		hp_growth = 3678,
 		weapon_ID = {
-			65510
+			65470
 		}
 	},
-	[65561] = {
+	[65491] = {
 		attack_power = 2,
-		name = "威悉技能轰炸机Lv1",
-		type = 3,
+		name = "彼得史特拉塞技能JU87鱼雷机LV1",
+		type = 2,
 		accuracy = 23,
-		model_ID = "JU87C",
+		model_ID = "Ju87D4",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 0.315,
+		crash_DMG = 168,
+		dodge = 1.05,
 		funnel_behavior = "",
-		nationality = 4,
-		id = 65561,
-		icon = "JU87C",
+		nationality = 3,
+		id = 65491,
+		icon = "Ju87D4",
 		AP_growth = 2000,
-		dodge_limit = 11,
-		hp_growth = 1549,
-		speed = 50,
-		max_hp = 51,
+		dodge_limit = 5,
+		hp_growth = 1459,
+		speed = 51,
+		max_hp = 38,
 		scale = 1,
 		weapon_ID = {
-			65581
+			65501
 		},
 		position_offset = {
 			0,
@@ -100,13 +100,13 @@ pg.aircraft_template_153 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.69,
+					-1.22,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.75,
+					1.26,
 					0
 				}
 			}
@@ -134,34 +134,34 @@ pg.aircraft_template_153 = {
 			}
 		}
 	},
-	[65562] = {
-		id = 65562,
-		name = "威悉技能轰炸机Lv2",
-		base = 65561,
-		max_hp = 57,
-		hp_growth = 1781,
+	[65492] = {
+		id = 65492,
+		name = "彼得史特拉塞技能JU87鱼雷机LV2",
+		base = 65491,
+		max_hp = 44,
+		hp_growth = 1678,
 		weapon_ID = {
-			65582
+			65502
 		}
 	},
-	[65563] = {
-		id = 65563,
-		name = "威悉技能轰炸机Lv3",
-		base = 65561,
-		max_hp = 64,
-		hp_growth = 2013,
+	[65493] = {
+		id = 65493,
+		name = "彼得史特拉塞技能JU87鱼雷机LV3",
+		base = 65491,
+		max_hp = 49,
+		hp_growth = 1897,
 		weapon_ID = {
-			65583
+			65503
 		}
 	},
-	[65564] = {
-		id = 65564,
-		name = "威悉技能轰炸机Lv4",
-		base = 65561,
-		max_hp = 70,
-		hp_growth = 2246,
+	[65494] = {
+		id = 65494,
+		name = "彼得史特拉塞技能JU87鱼雷机LV4",
+		base = 65491,
+		max_hp = 55,
+		hp_growth = 2116,
 		weapon_ID = {
-			65584
+			65504
 		}
 	}
 }

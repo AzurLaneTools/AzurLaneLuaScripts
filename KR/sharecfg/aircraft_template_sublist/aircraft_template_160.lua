@@ -1,122 +1,98 @@
 pg = pg or {}
 pg.aircraft_template_160 = {
-	[66423] = {
-		id = 66423,
-		name = "胡蜂技能LV3",
-		base = 66420,
-		max_hp = 49,
-		hp_growth = 1954,
+	[66244] = {
+		id = 66244,
+		name = "山城改技能Lv4",
+		base = 66240,
+		max_hp = 47,
+		hp_growth = 1863,
 		weapon_ID = {
-			50143,
-			50543,
-			52243
+			66264
 		}
 	},
-	[66424] = {
-		id = 66424,
-		name = "胡蜂技能LV4",
-		base = 66420,
-		max_hp = 55,
-		hp_growth = 2202,
+	[66245] = {
+		id = 66245,
+		name = "山城改技能Lv5",
+		base = 66240,
+		max_hp = 52,
+		hp_growth = 2073,
 		weapon_ID = {
-			50144,
-			50544,
-			52244
+			66265
 		}
 	},
-	[66425] = {
-		id = 66425,
-		name = "胡蜂技能LV5",
-		base = 66420,
-		max_hp = 61,
-		hp_growth = 2451,
+	[66246] = {
+		id = 66246,
+		name = "山城改技能Lv6",
+		base = 66240,
+		max_hp = 57,
+		hp_growth = 2283,
 		weapon_ID = {
-			50145,
-			50545,
-			52245
+			66266
 		}
 	},
-	[66426] = {
-		id = 66426,
-		name = "胡蜂技能LV6",
-		base = 66420,
-		max_hp = 68,
-		hp_growth = 2700,
+	[66247] = {
+		id = 66247,
+		name = "山城改技能Lv7",
+		base = 66240,
+		max_hp = 63,
+		hp_growth = 2494,
 		weapon_ID = {
-			50146,
-			50546,
-			52246
+			66267
 		}
 	},
-	[66427] = {
-		id = 66427,
-		name = "胡蜂技能LV7",
-		base = 66420,
+	[66248] = {
+		id = 66248,
+		name = "山城改技能Lv8",
+		base = 66240,
+		max_hp = 69,
+		hp_growth = 2705,
+		weapon_ID = {
+			66268
+		}
+	},
+	[66249] = {
+		id = 66249,
+		name = "山城改技能Lv9",
+		base = 66240,
 		max_hp = 75,
-		hp_growth = 2949,
+		hp_growth = 2916,
 		weapon_ID = {
-			50147,
-			50547,
-			52247
+			66269
 		}
 	},
-	[66428] = {
-		id = 66428,
-		name = "胡蜂技能LV8",
-		base = 66420,
-		max_hp = 82,
-		hp_growth = 3198,
+	[66250] = {
+		id = 66250,
+		name = "山城改技能Lv10",
+		base = 66240,
+		max_hp = 81,
+		hp_growth = 3127,
 		weapon_ID = {
-			50148,
-			50548,
-			52248
+			66270
 		}
 	},
-	[66429] = {
-		id = 66429,
-		name = "胡蜂技能LV9",
-		base = 66420,
-		max_hp = 89,
-		hp_growth = 3447,
-		weapon_ID = {
-			50149,
-			50549,
-			52249
-		}
-	},
-	[66430] = {
-		id = 66430,
-		name = "胡蜂技能LV10",
-		base = 66420,
-		max_hp = 96,
-		hp_growth = 3696,
-		weapon_ID = {
-			50150,
-			50550,
-			52250
-		}
-	},
-	[66440] = {
+	[66420] = {
 		attack_power = 2,
-		name = "联结·阿萨姆LV0",
-		type = 3,
+		name = "胡蜂技能LV0",
+		type = 1,
 		accuracy = 23,
-		model_ID = "sb2c",
+		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 1,
-		id = 66440,
-		icon = "sb2c",
+		nationality = 2,
+		id = 66420,
+		icon = "haipenhuo",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1331,
+		hp_growth = 1210,
 		speed = 50,
-		max_hp = 35,
+		max_hp = 31,
 		scale = 1,
 		weapon_ID = {
-			66600
+			50140,
+			50540,
+			52240
 		},
 		position_offset = {
 			0,
@@ -170,14 +146,28 @@ pg.aircraft_template_160 = {
 			}
 		}
 	},
-	[66441] = {
-		id = 66441,
-		name = "联结·阿萨姆LV1",
-		base = 66440,
-		max_hp = 42,
-		hp_growth = 1604,
+	[66421] = {
+		id = 66421,
+		name = "胡蜂技能LV1",
+		base = 66420,
+		max_hp = 37,
+		hp_growth = 1458,
 		weapon_ID = {
-			66601
+			50141,
+			50541,
+			52241
+		}
+	},
+	[66422] = {
+		id = 66422,
+		name = "胡蜂技能LV2",
+		base = 66420,
+		max_hp = 43,
+		hp_growth = 1706,
+		weapon_ID = {
+			50142,
+			50542,
+			52242
 		}
 	}
 }

@@ -1,92 +1,87 @@
 pg = pg or {}
 pg.aircraft_template_151 = {
-	[65385] = {
-		id = 65385,
-		name = "女天狗沙排啾轰炸机Lv5",
-		base = 65381,
-		max_hp = 67,
-		hp_growth = 2809,
+	[65255] = {
+		id = 65255,
+		name = "坠星机LV5",
+		base = 65251,
+		max_hp = 58,
+		hp_growth = 2218,
 		weapon_ID = {
-			65395,
-			65405
+			65265
 		}
 	},
-	[65386] = {
-		id = 65386,
-		name = "女天狗沙排啾轰炸机Lv6",
-		base = 65381,
-		max_hp = 73,
+	[65256] = {
+		id = 65256,
+		name = "坠星机LV6",
+		base = 65251,
+		max_hp = 63,
+		hp_growth = 2426,
+		weapon_ID = {
+			65266
+		}
+	},
+	[65257] = {
+		id = 65257,
+		name = "坠星机LV7",
+		base = 65251,
+		max_hp = 68,
+		hp_growth = 2634,
+		weapon_ID = {
+			65267
+		}
+	},
+	[65258] = {
+		id = 65258,
+		name = "坠星机LV8",
+		base = 65251,
+		max_hp = 74,
+		hp_growth = 2842,
+		weapon_ID = {
+			65268
+		}
+	},
+	[65259] = {
+		id = 65259,
+		name = "坠星机LV9",
+		base = 65251,
+		max_hp = 79,
 		hp_growth = 3050,
 		weapon_ID = {
-			65396,
-			65406
+			65269
 		}
 	},
-	[65387] = {
-		id = 65387,
-		name = "女天狗沙排啾轰炸机Lv7",
-		base = 65381,
-		max_hp = 79,
-		hp_growth = 3290,
+	[65260] = {
+		id = 65260,
+		name = "坠星机LV10",
+		base = 65251,
+		max_hp = 85,
+		hp_growth = 3258,
 		weapon_ID = {
-			65397,
-			65407
+			65270
 		}
 	},
-	[65388] = {
-		id = 65388,
-		name = "女天狗沙排啾轰炸机Lv8",
-		base = 65381,
-		max_hp = 86,
-		hp_growth = 3531,
-		weapon_ID = {
-			65398,
-			65408
-		}
-	},
-	[65389] = {
-		id = 65389,
-		name = "女天狗沙排啾轰炸机Lv9",
-		base = 65381,
-		max_hp = 92,
-		hp_growth = 3772,
-		weapon_ID = {
-			65399,
-			65409
-		}
-	},
-	[65390] = {
-		id = 65390,
-		name = "女天狗沙排啾轰炸机Lv10",
-		base = 65381,
-		max_hp = 98,
-		hp_growth = 4013,
-		weapon_ID = {
-			65400,
-			65410
-		}
-	},
-	[65451] = {
+	[65381] = {
 		attack_power = 2,
-		name = "META飞龙鱼雷机Lv1",
+		name = "女天狗沙排啾轰炸机Lv1",
 		type = 3,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "feiji_doa",
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 65451,
-		icon = "97jiangong",
+		id = 65381,
+		icon = "feiji_doa",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1692,
+		hp_growth = 1846,
 		speed = 48,
 		max_hp = 42,
 		scale = 1,
 		weapon_ID = {
-			65461
+			65391,
+			65401
 		},
 		position_offset = {
 			0,
@@ -106,13 +101,13 @@ pg.aircraft_template_151 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -129,7 +124,7 @@ pg.aircraft_template_151 = {
 				0
 			},
 			{
-				0.54,
+				0.64,
 				0,
 				0
 			},
@@ -140,34 +135,37 @@ pg.aircraft_template_151 = {
 			}
 		}
 	},
-	[65452] = {
-		id = 65452,
-		name = "META飞龙鱼雷机Lv2",
-		base = 65451,
+	[65382] = {
+		id = 65382,
+		name = "女天狗沙排啾轰炸机Lv2",
+		base = 65381,
 		max_hp = 48,
-		hp_growth = 1913,
+		hp_growth = 2087,
 		weapon_ID = {
-			65462
+			65392,
+			65402
 		}
 	},
-	[65453] = {
-		id = 65453,
-		name = "META飞龙鱼雷机Lv3",
-		base = 65451,
+	[65383] = {
+		id = 65383,
+		name = "女天狗沙排啾轰炸机Lv3",
+		base = 65381,
 		max_hp = 54,
-		hp_growth = 2133,
+		hp_growth = 2327,
 		weapon_ID = {
-			65463
+			65393,
+			65403
 		}
 	},
-	[65454] = {
-		id = 65454,
-		name = "META飞龙鱼雷机Lv4",
-		base = 65451,
+	[65384] = {
+		id = 65384,
+		name = "女天狗沙排啾轰炸机Lv4",
+		base = 65381,
 		max_hp = 61,
-		hp_growth = 2354,
+		hp_growth = 2568,
 		weapon_ID = {
-			65464
+			65394,
+			65404
 		}
 	}
 }

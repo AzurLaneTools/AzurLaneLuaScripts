@@ -2,6 +2,344 @@ pg = pg or {}
 pg.weapon_property_367 = {}
 
 (function ()
+	uv0.weapon_property_367[1003203] = {
+		id = 1003203,
+		name = "【精英】梦境探索者 精英人形特殊武器 III",
+		base = 1002203,
+		bullet_ID = {
+			760063,
+			760064,
+			760065,
+			760066,
+			760067,
+			760063,
+			760064,
+			760065,
+			760066,
+			760067
+		}
+	}
+	uv0.weapon_property_367[1003204] = {
+		id = 1003204,
+		name = "【精英】梦境探索者 精英人形特殊武器 IV",
+		base = 1002204,
+		bullet_ID = {
+			760063,
+			760064,
+			760065,
+			760066,
+			760067,
+			760063,
+			760064,
+			760065,
+			760066,
+			760067
+		}
+	}
+	uv0.weapon_property_367[1003205] = {
+		id = 1003205,
+		name = "【精英】梦境探索者 精英人形特殊武器 V",
+		base = 1002205,
+		bullet_ID = {
+			760063,
+			760064,
+			760065,
+			760066,
+			760067,
+			760063,
+			760064,
+			760065,
+			760066,
+			760067
+		}
+	}
+	uv0.weapon_property_367[1003206] = {
+		id = 1003206,
+		name = "【精英】梦境追迹者 精英人形特殊武器 I",
+		base = 1002206,
+		bullet_ID = {
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832
+		}
+	}
+	uv0.weapon_property_367[1003207] = {
+		id = 1003207,
+		name = "【精英】梦境追迹者 精英人形特殊武器 II",
+		base = 1002207,
+		bullet_ID = {
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832
+		}
+	}
+	uv0.weapon_property_367[1003208] = {
+		id = 1003208,
+		name = "【精英】梦境追迹者 精英人形特殊武器 III",
+		base = 1002208,
+		bullet_ID = {
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832
+		}
+	}
+	uv0.weapon_property_367[1003209] = {
+		id = 1003209,
+		name = "【精英】梦境追迹者 精英人形特殊武器 IV",
+		base = 1002209,
+		bullet_ID = {
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832
+		}
+	}
+	uv0.weapon_property_367[1003210] = {
+		id = 1003210,
+		name = "【精英】梦境追迹者 精英人形特殊武器 V",
+		base = 1002210,
+		bullet_ID = {
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832,
+			832
+		}
+	}
+	uv0.weapon_property_367[1003211] = {
+		id = 1003211,
+		name = "【精英】梦境领洋者 精英人形特殊武器 I",
+		base = 1002211,
+		bullet_ID = {
+			835,
+			835,
+			835,
+			835,
+			835
+		}
+	}
+	uv0.weapon_property_367[1003212] = {
+		id = 1003212,
+		name = "【精英】梦境领洋者 精英人形特殊武器 II",
+		base = 1002212,
+		bullet_ID = {
+			835,
+			835,
+			835,
+			835,
+			835
+		}
+	}
+	uv0.weapon_property_367[1003213] = {
+		id = 1003213,
+		name = "【精英】梦境领洋者 精英人形特殊武器 III",
+		base = 1002213,
+		bullet_ID = {
+			835,
+			835,
+			835,
+			835,
+			835
+		}
+	}
+	uv0.weapon_property_367[1003214] = {
+		id = 1003214,
+		name = "【精英】梦境领洋者 精英人形特殊武器 IV",
+		base = 1002214,
+		bullet_ID = {
+			835,
+			835,
+			835,
+			835,
+			835
+		}
+	}
+	uv0.weapon_property_367[1003215] = {
+		id = 1003215,
+		name = "【精英】梦境领洋者 精英人形特殊武器 V",
+		base = 1002215,
+		bullet_ID = {
+			835,
+			835,
+			835,
+			835,
+			835
+		}
+	}
+	uv0.weapon_property_367[1003216] = {
+		id = 1003216,
+		name = "【精英】梦境破局者 精英人形特殊武器 I",
+		base = 1002216,
+		bullet_ID = {
+			835,
+			835
+		}
+	}
+	uv0.weapon_property_367[1003217] = {
+		id = 1003217,
+		name = "【精英】梦境破局者 精英人形特殊武器 II",
+		base = 1002217,
+		bullet_ID = {
+			835,
+			835
+		}
+	}
+	uv0.weapon_property_367[1003218] = {
+		id = 1003218,
+		name = "【精英】梦境破局者 精英人形特殊武器 III",
+		base = 1002218,
+		bullet_ID = {
+			835,
+			835
+		}
+	}
+	uv0.weapon_property_367[1003219] = {
+		id = 1003219,
+		name = "【精英】梦境破局者 精英人形特殊武器 IV",
+		base = 1002219,
+		bullet_ID = {
+			835,
+			835
+		}
+	}
+	uv0.weapon_property_367[1003220] = {
+		id = 1003220,
+		name = "【精英】梦境破局者 精英人形特殊武器 V",
+		base = 1002220,
+		bullet_ID = {
+			835,
+			835
+		}
+	}
+	uv0.weapon_property_367[1003221] = {
+		id = 1003221,
+		name = "【精英】梦境执棋者 轰炸机武器T1",
+		base = 1001221,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
+	uv0.weapon_property_367[1003222] = {
+		id = 1003222,
+		name = "【精英】梦境执棋者 轰炸机武器T1",
+		base = 1001222,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
+	uv0.weapon_property_367[1003223] = {
+		id = 1003223,
+		name = "【精英】梦境执棋者 轰炸机武器T1",
+		base = 1001223,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
+	uv0.weapon_property_367[1003224] = {
+		id = 1003224,
+		name = "【精英】梦境执棋者 轰炸机武器T1",
+		base = 1001224,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
+	uv0.weapon_property_367[1003225] = {
+		id = 1003225,
+		name = "【精英】梦境执棋者 轰炸机武器T1",
+		base = 1001225,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
+	uv0.weapon_property_367[1003226] = {
+		id = 1003226,
+		name = "【精英】梦境执棋者 鱼雷机武器T1",
+		base = 1001226
+	}
+	uv0.weapon_property_367[1003227] = {
+		id = 1003227,
+		name = "【精英】梦境执棋者 鱼雷机武器T1",
+		base = 1001227
+	}
+	uv0.weapon_property_367[1003228] = {
+		id = 1003228,
+		name = "【精英】梦境执棋者 鱼雷机武器T1",
+		base = 1001228
+	}
+	uv0.weapon_property_367[1003229] = {
+		id = 1003229,
+		name = "【精英】梦境执棋者 鱼雷机武器T1",
+		base = 1001229
+	}
+	uv0.weapon_property_367[1003230] = {
+		id = 1003230,
+		name = "【精英】梦境执棋者 鱼雷机武器T1",
+		base = 1001230
+	}
+	uv0.weapon_property_367[1003231] = {
+		id = 1003231,
+		name = "【空袭】梦境塞壬空袭轰炸机武器 I",
+		base = 1000840,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
+	uv0.weapon_property_367[1003232] = {
+		id = 1003232,
+		name = "【空袭】梦境塞壬空袭轰炸机武器 II",
+		base = 1000841,
+		bullet_ID = {
+			130301
+		},
+		barrage_ID = {
+			130992
+		}
+	}
 	uv0.weapon_property_367[1003233] = {
 		id = 1003233,
 		name = "【空袭】梦境塞壬空袭轰炸机武器 III",
@@ -319,669 +657,5 @@ pg.weapon_property_367 = {}
 		id = 1003266,
 		name = "【精英】梦境潜伏者 2x4自机狙鱼雷 I",
 		base = 1000890
-	}
-	uv0.weapon_property_367[1003267] = {
-		id = 1003267,
-		name = "【精英】梦境潜伏者 2x4自机狙鱼雷 II",
-		base = 1000891
-	}
-	uv0.weapon_property_367[1003268] = {
-		id = 1003268,
-		name = "【精英】梦境潜伏者 2x4自机狙鱼雷 III",
-		base = 1000892
-	}
-	uv0.weapon_property_367[1003269] = {
-		id = 1003269,
-		name = "【精英】梦境潜伏者 2x4自机狙鱼雷 IV",
-		base = 1000893
-	}
-	uv0.weapon_property_367[1003270] = {
-		id = 1003270,
-		name = "【精英】梦境潜伏者 2x4自机狙鱼雷 V",
-		base = 1000894
-	}
-	uv0.weapon_property_367[1003271] = {
-		id = 1003271,
-		name = "【精英】梦境潜伏者 开幕雷击 I",
-		base = 1000895
-	}
-	uv0.weapon_property_367[1003272] = {
-		id = 1003272,
-		name = "【精英】梦境潜伏者 开幕雷击 II",
-		base = 1000896
-	}
-	uv0.weapon_property_367[1003273] = {
-		id = 1003273,
-		name = "【精英】梦境潜伏者 开幕雷击 III",
-		base = 1000897
-	}
-	uv0.weapon_property_367[1003274] = {
-		id = 1003274,
-		name = "【精英】梦境潜伏者 开幕雷击 IV",
-		base = 1000898
-	}
-	uv0.weapon_property_367[1003275] = {
-		id = 1003275,
-		name = "【精英】梦境潜伏者 开幕雷击 V",
-		base = 1000899
-	}
-	uv0.weapon_property_367[1003276] = {
-		reload_max = 750,
-		name = "【量产型】精锐梦境塞壬潜艇 3way磁性鱼雷弹幕1",
-		id = 1003276,
-		base = 1100695,
-		bullet_ID = {
-			760087
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			2
-		}
-	}
-	uv0.weapon_property_367[1003277] = {
-		reload_max = 750,
-		name = "【量产型】精锐梦境塞壬潜艇 3way磁性鱼雷弹幕2",
-		id = 1003277,
-		base = 1100696,
-		bullet_ID = {
-			760087
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			2
-		}
-	}
-	uv0.weapon_property_367[1003278] = {
-		reload_max = 750,
-		name = "【量产型】精锐梦境塞壬潜艇 3way磁性鱼雷弹幕3",
-		id = 1003278,
-		base = 1100697,
-		bullet_ID = {
-			760087
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			2
-		}
-	}
-	uv0.weapon_property_367[1003279] = {
-		reload_max = 750,
-		name = "【量产型】精锐梦境塞壬潜艇 3way磁性鱼雷弹幕4",
-		id = 1003279,
-		base = 1100698,
-		bullet_ID = {
-			760087
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			2
-		}
-	}
-	uv0.weapon_property_367[1003280] = {
-		reload_max = 750,
-		name = "【量产型】精锐梦境塞壬潜艇 3way磁性鱼雷弹幕5",
-		id = 1003280,
-		base = 1100699,
-		bullet_ID = {
-			760087
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			2
-		}
-	}
-	uv0.weapon_property_367[1003281] = {
-		reload_max = 750,
-		name = "【量产型】精锐梦境塞壬潜艇 上浮主炮弹幕1",
-		id = 1003281,
-		base = 1100710,
-		bullet_ID = {
-			760070
-		},
-		barrage_ID = {
-			770066
-		}
-	}
-	uv0.weapon_property_367[1003282] = {
-		reload_max = 750,
-		name = "【量产型】精锐梦境塞壬潜艇 上浮主炮弹幕2",
-		id = 1003282,
-		base = 1100711,
-		bullet_ID = {
-			760070
-		},
-		barrage_ID = {
-			770066
-		}
-	}
-	uv0.weapon_property_367[1003283] = {
-		reload_max = 750,
-		name = "【量产型】精锐梦境塞壬潜艇 上浮主炮弹幕3",
-		id = 1003283,
-		base = 1100712,
-		bullet_ID = {
-			760070
-		},
-		barrage_ID = {
-			770066
-		}
-	}
-	uv0.weapon_property_367[1003284] = {
-		reload_max = 750,
-		name = "【量产型】精锐梦境塞壬潜艇 上浮主炮弹幕4",
-		id = 1003284,
-		base = 1100713,
-		bullet_ID = {
-			760070
-		},
-		barrage_ID = {
-			770066
-		}
-	}
-	uv0.weapon_property_367[1003285] = {
-		reload_max = 750,
-		name = "【量产型】精锐梦境塞壬潜艇 上浮主炮弹幕5",
-		id = 1003285,
-		base = 1100714,
-		bullet_ID = {
-			760070
-		},
-		barrage_ID = {
-			770066
-		}
-	}
-	uv0.weapon_property_367[1100000] = {
-		recover_time = 0.5,
-		name = "127mm单装炮-敌用I型弹幕1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 700,
-		queue = 1,
-		range = 60,
-		damage = 3,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 1100000,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_367[1100001] = {
-		recover_time = 0.5,
-		name = "127mm单装炮-敌用I型弹幕2",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 700,
-		queue = 1,
-		range = 60,
-		damage = 4,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 1100001,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_367[1100002] = {
-		recover_time = 0.5,
-		name = "127mm单装炮-敌用I型弹幕3",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 700,
-		queue = 1,
-		range = 60,
-		damage = 5,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 1100002,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_367[1100003] = {
-		recover_time = 0.5,
-		name = "127mm单装炮-敌用I型弹幕4",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 700,
-		queue = 1,
-		range = 60,
-		damage = 6,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 1100003,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_367[1100004] = {
-		recover_time = 0.5,
-		name = "127mm单装炮-敌用I型弹幕5",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 700,
-		queue = 1,
-		range = 60,
-		damage = 7,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 1100004,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1004
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_367[1100005] = {
-		recover_time = 0.5,
-		name = "127mm单装炮-敌用II型弹幕1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 550,
-		queue = 1,
-		range = 60,
-		damage = 4,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 1100005,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_367[1100006] = {
-		recover_time = 0.5,
-		name = "127mm单装炮-敌用II型弹幕2",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 550,
-		queue = 1,
-		range = 60,
-		damage = 5,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 1100006,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_367[1100007] = {
-		recover_time = 0.5,
-		name = "127mm单装炮-敌用II型弹幕3",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 550,
-		queue = 1,
-		range = 60,
-		damage = 6,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 1100007,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_367[1100008] = {
-		recover_time = 0.5,
-		name = "127mm单装炮-敌用II型弹幕4",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 550,
-		queue = 1,
-		range = 60,
-		damage = 7,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 1100008,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_367[1100009] = {
-		recover_time = 0.5,
-		name = "127mm单装炮-敌用II型弹幕5",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 550,
-		queue = 1,
-		range = 60,
-		damage = 8,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 1100009,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_367[1100010] = {
-		recover_time = 0.5,
-		name = "127mm单装炮-敌用III型弹幕1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 400,
-		queue = 1,
-		range = 60,
-		damage = 5,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 1100010,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1200
-		},
-		barrage_ID = {
-			1006
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end)()

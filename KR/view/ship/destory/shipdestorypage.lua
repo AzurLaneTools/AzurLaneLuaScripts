@@ -50,7 +50,7 @@ function slot0.DisplayShipList(slot0)
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = DockyardShipItem.New(slot2.gameObject)
+			slot4 = DockyardShipItem.New(slot2.gameObject, ShipStatus.TAG_HIDE_DESTROY)
 
 			slot4:update(uv1[uv0[slot1 + 1]])
 			onButton(uv2, slot4.tr, function ()

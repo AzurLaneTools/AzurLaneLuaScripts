@@ -365,11 +365,12 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.Flush(slot0, slot1)
+	slot0:Show()
+
 	slot0.list = slot1 or {}
 
 	slot0:InitThemeList()
 	slot0:UpdateArr()
-	slot0:Show()
 	onNextTick(function ()
 		uv0:ForceActiveFirstCard()
 	end)
@@ -398,8 +399,14 @@ function slot0.SetTotalCount(slot0)
 end
 
 function slot0.ForceActiveFirstCard(slot0)
-	setActive(slot0.tipBg, #slot0.disPlays == 0)
-	setActive(slot0.listRect, #slot0.disPlays ~= 0)
+	slot1 = #slot0.disPlays == 0
+
+	setActive(slot0.tipBg, slot1)
+
+	slot2 = GetOrAddComponent(slot0.listRect, typeof(CanvasGroup))
+	slot2.alpha = slot1 and 0 or 1
+	slot2.blocksRaycasts = not slot1
+
 	_.each(slot0.tips, function (slot0)
 		setActive(slot0, slot0.gameObject.name == "tip" .. tostring(uv0.pageType) and #uv0.disPlays == 0)
 	end)
@@ -411,9 +418,9 @@ function slot0.ForceActiveFirstCard(slot0)
 		return
 	end
 
-	for slot5, slot6 in pairs(slot0.cards) do
-		if slot0.disPlays[1].id == slot6.template.id then
-			triggerButton(slot6._tf)
+	for slot7, slot8 in pairs(slot0.cards) do
+		if slot0.disPlays[1].id == slot8.template.id then
+			triggerButton(slot8._tf)
 
 			break
 		end

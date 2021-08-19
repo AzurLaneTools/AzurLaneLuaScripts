@@ -51,17 +51,11 @@ function slot0.Confirm(slot0)
 			return
 		end
 
-		if slot0.callback then
-			slot0.callback()
-		end
-
 		slot0:Hide()
+		existCall(slot0.callback)
 	else
-		if slot0.callback then
-			slot0.callback()
-		end
-
 		slot0:Hide()
+		existCall(slot0.callback)
 	end
 end
 
@@ -75,7 +69,47 @@ function slot0.Show(slot0, slot1, slot2, slot3, slot4)
 	slot0:Updatelayout()
 	slot0:UpdateShips()
 	uv0.super.Show(slot0)
-	setParent(slot0._tf, pg.UIMgr:GetInstance().OverlayMain)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+end
+
+function slot0.ShowEliteTag(slot0, slot1, slot2)
+	slot0:SetCallBack(slot2)
+
+	slot0.title.text = i18n("destroy_eliteship_tip", i18n("destroy_inHardFormation_tip"))
+
+	setActive(slot0.urOverflowLabel, false)
+	setActive(slot0.urLabel.gameObject, false)
+	setActive(slot0.urInput, false)
+
+	if #slot1 <= 5 then
+		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 290)
+		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 565)
+	else
+		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 406)
+		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 670)
+	end
+
+	setAnchoredPosition(slot0.window, {
+		x = 0,
+		y = 0
+	})
+
+	slot0.grid.constraintCount = 5
+
+	setAnchoredPosition(slot0.shipList.container, {
+		x = 140
+	})
+	slot0.shipList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1 + 1]
+
+			updateShip(slot2, slot3)
+			setText(slot2:Find("icon_bg/level/Text"), "Lv." .. slot3.level)
+		end
+	end)
+	slot0.shipList:align(#slot1)
+	uv0.super.Show(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 function slot0.Updatelayout(slot0)
@@ -166,14 +200,11 @@ end
 
 function slot0.Hide(slot0)
 	slot0.key = nil
+	slot0.callback = nil
 
-	if slot0.callback then
-		slot0.callback = nil
-	end
-
-	uv0.super.Hide(slot0)
-	setParent(slot0._tf, slot0._parentTf)
 	setInputText(slot0.urInput, "")
+	uv0.super.Hide(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 function slot0.OnDestroy(slot0)

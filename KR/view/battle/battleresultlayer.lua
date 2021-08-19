@@ -206,11 +206,7 @@ function slot0.didEnter(slot0)
 	slot0._gradeUpperLeftPos = slot1.localPosition
 	slot1.localPosition = Vector3(0, 25, 0)
 
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
-
-	slot0.blurRt = pg.UIMgr.GetInstance():SetMainCamBlurTexture(GetComponent(slot0:findTF("blur_img", slot0._tf), "RawImage"))
-
-	setActive(slot0:findTF("blur_img", slot0._tf), true)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true)
 
 	slot0._grade.transform.localScale = Vector3(1.5, 1.5, 0)
 
@@ -994,12 +990,7 @@ function slot0.willExit(slot0)
 		slot0._rightTimer:Stop()
 	end
 
-	ReflectionHelp.RefCallStaticMethod(typeof("UnityEngine.RenderTexture"), "ReleaseTemporary", {
-		typeof("UnityEngine.RenderTexture")
-	}, {
-		slot0.blurRt
-	})
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0:stopVoice()
 	getProxy(MetaCharacterProxy):clearLastMetaSkillExpInfoList()
 

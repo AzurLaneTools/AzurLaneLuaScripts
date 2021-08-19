@@ -1280,15 +1280,11 @@ function slot9.ChangeWeaponDiveState(slot0)
 end
 
 function slot9.GetOxygenProgress(slot0)
-	slot1 = 1
+	return slot0._currentOxy / slot0._maxOxy
+end
 
-	if slot0._oxyState:GetCurrentStateName() == uv0.Battle.RaidOxyState.__name then
-		slot1 = 1 - slot0._phaseSwitcher:GetPhaseProgress()
-	elseif slot2 == uv0.Battle.FreeDiveOxyState.__name or slot2 == uv0.Battle.FreeFloatOxyState.__name or slot2 == uv0.Battle.FreeBenchOxyState.__name then
-		slot1 = slot0._currentOxy / slot0._maxOxy
-	end
-
-	return slot1
+function slot9.GetCuurentOxygen(slot0)
+	return slot0._currentOxy or 0
 end
 
 function slot9.ConfigBubbleFX(slot0)

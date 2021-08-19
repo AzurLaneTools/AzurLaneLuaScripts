@@ -68,7 +68,7 @@ function slot0.loginProcessHandler(slot0)
 							i18n("login_loginMediator_kickLoginOut"),
 							i18n("login_loginMediator_serverLoginErro"),
 							i18n("login_loginMediator_vertifyFail"),
-							[99] = i18n("login_loginMediator_dataExpired")
+							[199] = i18n("login_loginMediator_dataExpired")
 						})[uv0.contextData.code] or i18n("login_loginMediator_kickUndefined", uv0.contextData.code),
 						onYes = function ()
 							uv0.process()

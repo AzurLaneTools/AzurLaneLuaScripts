@@ -577,6 +577,8 @@ function slot0.aniOnSwitch(slot0, slot1, slot2)
 end
 
 function slot0.openMsgbox(slot0, slot1)
+	setActive(slot0.switchToNormalBtn, false)
+	setActive(slot0.switchToTecBtn, false)
 	setActive(slot0.awardMsg, true)
 	setActive(slot0.normalPanel, false)
 
@@ -604,6 +606,7 @@ end
 function slot0.closeMsgBox(slot0)
 	setActive(slot0.awardMsg, false)
 	setActive(slot0.normalPanel, true)
+	slot0:updateSwitchBtns()
 end
 
 function slot0.tryShowTecFixTip(slot0)

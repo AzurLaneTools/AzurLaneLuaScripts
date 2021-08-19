@@ -453,6 +453,15 @@ function slot0.loadAllCharacter(slot0, slot1)
 
 		setSlider(slot13, 0, 10000, slot4.hpRant)
 		setActive(slot13:Find("broken"), slot4:IsBroken())
+		setActive(slot6:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
+
+		if slot17 then
+			if slot17 % 100 > 0 then
+				slot21 = tostring(slot17 / 100) .. "." .. tostring(slot20)
+			end
+
+			setText(slot18:Find("text"), string.format("EXP +%s%%", slot21))
+		end
 	end
 
 	function slot4(slot0)

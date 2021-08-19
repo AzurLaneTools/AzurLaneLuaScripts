@@ -39,7 +39,8 @@ function slot0.register(slot0)
 			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 				isActivityNpc = true
 			}),
-			preView = uv0.viewComponent.__cname
+			preView = uv0.viewComponent.__cname,
+			hideTagFlags = ShipStatus.TAG_HIDE_DESTROY
 		})
 	end)
 	slot0:bind(uv0.OPEN_PROJECT_LIST, function (slot0)

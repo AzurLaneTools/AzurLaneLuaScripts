@@ -1,51 +1,48 @@
 pg = pg or {}
 pg.aircraft_template_191 = {
-	[68778] = {
-		id = 68778,
-		name = "赤城μ技能舰爆Lv8",
-		base = 68771,
-		max_hp = 86,
-		hp_growth = 3237,
+	[68658] = {
+		id = 68658,
+		name = "可畏技能鱼雷机Lv8",
+		base = 68651,
+		max_hp = 78,
+		hp_growth = 3037,
 		weapon_ID = {
-			68788,
-			68798
+			68668
 		}
 	},
-	[68779] = {
-		id = 68779,
-		name = "赤城μ技能舰爆Lv9",
-		base = 68771,
-		max_hp = 92,
-		hp_growth = 3458,
+	[68659] = {
+		id = 68659,
+		name = "可畏技能鱼雷机Lv9",
+		base = 68651,
+		max_hp = 84,
+		hp_growth = 3274,
 		weapon_ID = {
-			68789,
-			68799
+			68669
 		}
 	},
-	[68780] = {
-		id = 68780,
-		name = "赤城μ技能舰爆Lv10",
-		base = 68771,
-		max_hp = 98,
-		hp_growth = 3678,
+	[68660] = {
+		id = 68660,
+		name = "可畏技能鱼雷机Lv10",
+		base = 68651,
+		max_hp = 91,
+		hp_growth = 3511,
 		weapon_ID = {
-			68790,
-			68800
+			68670
 		}
 	},
-	[68801] = {
+	[68771] = {
 		attack_power = 2,
-		name = "赤城μ技能舰攻Lv1",
+		name = "赤城μ技能舰爆Lv1",
 		type = 3,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 180,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 68801,
-		icon = "97jiangong",
+		id = 68771,
+		icon = "99shijianbao1",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 1692,
@@ -53,7 +50,8 @@ pg.aircraft_template_191 = {
 		max_hp = 42,
 		scale = 1,
 		weapon_ID = {
-			68811
+			68781,
+			68791
 		},
 		position_offset = {
 			0,
@@ -73,13 +71,13 @@ pg.aircraft_template_191 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -96,7 +94,7 @@ pg.aircraft_template_191 = {
 				0
 			},
 			{
-				0.54,
+				0,
 				0,
 				0
 			},
@@ -107,64 +105,70 @@ pg.aircraft_template_191 = {
 			}
 		}
 	},
-	[68802] = {
-		id = 68802,
-		name = "赤城μ技能舰攻Lv2",
-		base = 68801,
+	[68772] = {
+		id = 68772,
+		name = "赤城μ技能舰爆Lv2",
+		base = 68771,
 		max_hp = 48,
 		hp_growth = 1913,
 		weapon_ID = {
-			68812
+			68782,
+			68792
 		}
 	},
-	[68803] = {
-		id = 68803,
-		name = "赤城μ技能舰攻Lv3",
-		base = 68801,
+	[68773] = {
+		id = 68773,
+		name = "赤城μ技能舰爆Lv3",
+		base = 68771,
 		max_hp = 54,
 		hp_growth = 2133,
 		weapon_ID = {
-			68813
+			68783,
+			68793
 		}
 	},
-	[68804] = {
-		id = 68804,
-		name = "赤城μ技能舰攻Lv4",
-		base = 68801,
+	[68774] = {
+		id = 68774,
+		name = "赤城μ技能舰爆Lv4",
+		base = 68771,
 		max_hp = 61,
 		hp_growth = 2354,
 		weapon_ID = {
-			68814
+			68784,
+			68794
 		}
 	},
-	[68805] = {
-		id = 68805,
-		name = "赤城μ技能舰攻Lv5",
-		base = 68801,
+	[68775] = {
+		id = 68775,
+		name = "赤城μ技能舰爆Lv5",
+		base = 68771,
 		max_hp = 67,
 		hp_growth = 2575,
 		weapon_ID = {
-			68815
+			68785,
+			68795
 		}
 	},
-	[68806] = {
-		id = 68806,
-		name = "赤城μ技能舰攻Lv6",
-		base = 68801,
+	[68776] = {
+		id = 68776,
+		name = "赤城μ技能舰爆Lv6",
+		base = 68771,
 		max_hp = 73,
 		hp_growth = 2796,
 		weapon_ID = {
-			68816
+			68786,
+			68796
 		}
 	},
-	[68807] = {
-		id = 68807,
-		name = "赤城μ技能舰攻Lv7",
-		base = 68801,
+	[68777] = {
+		id = 68777,
+		name = "赤城μ技能舰爆Lv7",
+		base = 68771,
 		max_hp = 79,
 		hp_growth = 3016,
 		weapon_ID = {
-			68817
+			68787,
+			68797
 		}
 	}
 }

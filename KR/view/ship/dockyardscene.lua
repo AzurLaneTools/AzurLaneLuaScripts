@@ -371,8 +371,8 @@ function slot0.onInitItem(slot0, slot1)
 					uv0:back()
 				end)
 			elseif not uv0.isLoading then
-				uv1:back()
 				uv1.onSelected({})
+				uv1:back()
 			end
 		end
 	end)
@@ -1010,19 +1010,37 @@ function slot0.filter(slot0)
 		slot0:filterCommon()
 	end
 
-	if slot0.contextData.priorEquipUpShipIDList then
-		slot2 = {}
+	if slot0.contextData.quitTeam then
+		table.insert(slot0.shipVOs, 0 + 1, false)
+	end
 
-		for slot6, slot7 in ipairs(slot0.shipVOs) do
-			if table.contains(slot0.contextData.priorEquipUpShipIDList, type(slot7) == "table" and slot7.id) then
-				table.insert(slot2, slot0.contextData.quitTeam and 2 or 1, slot7)
-			else
-				table.insert(slot2, slot7)
+	if slot0.contextData.priorEquipUpShipIDList then
+		slot2 = {
+			[slot7] = true
+		}
+
+		for slot6, slot7 in ipairs(slot0.contextData.priorEquipUpShipIDList) do
+			-- Nothing
+		end
+
+		for slot6 = #slot0.shipVOs, 1, -1 do
+			if slot2[type(slot0.shipVOs[slot6]) == "table" and slot0.shipVOs[slot6].id] then
+				slot2[slot7] = table.remove(slot0.shipVOs, slot6)
 			end
 		end
 
-		slot0.shipVOs = slot2
+		for slot6, slot7 in ipairs(slot0.contextData.priorEquipUpShipIDList) do
+			if type(slot2[slot7]) == "table" then
+				table.insert(slot0.shipVOs, slot1 + 1, slot8)
+			end
+		end
+	end
 
+	if uv0.MODE_OVERVIEW == slot0.contextData.mode and DockyardScene.value then
+		slot0:updateShipCount(DockyardScene.value or 0)
+
+		DockyardScene.value = nil
+	else
 		slot0:updateShipCount(0)
 	end
 end
@@ -1057,7 +1075,6 @@ function slot0.filterForRemouldAndUpgrade(slot0)
 			return slot0.level < slot1.level
 		end
 	end)
-	slot0:updateShipCount(0)
 end
 
 function slot0.filterCommon(slot0)
@@ -1131,19 +1148,6 @@ function slot0.filterCommon(slot0)
 		end)
 	end
 
-	if slot0.contextData.quitTeam then
-		table.insert(slot0.shipVOs, 1, false)
-	end
-
-	if uv0.MODE_OVERVIEW == slot0.contextData.mode and DockyardScene.value then
-		slot0:updateShipCount(DockyardScene.value or 0)
-
-		DockyardScene.value = nil
-	else
-		slot0:updateShipCount(0)
-	end
-
-	slot0:updateSelected()
 	setActive(slot0.sortImgAsc, slot0.selectAsc)
 	setActive(slot0.sortImgDesc, not slot0.selectAsc)
 	setText(slot0:findTF("Image", slot0.sortBtn), uv8[slot1] or uv9[slot1 - #uv8])
@@ -1219,7 +1223,7 @@ function slot0.didEnter(slot0)
 		slot0:OnSwitch(slot0.modLeveFilter, slot0.isFilterLevelForMod, function (slot0)
 			uv0.isFilterLevelForMod = slot0
 
-			uv0:filterForRemouldAndUpgrade()
+			uv0:filter()
 		end)
 
 		slot0.isFilterLockForMod = slot4:GetDockYardLockBtnFlag()
@@ -1227,7 +1231,7 @@ function slot0.didEnter(slot0)
 		slot0:OnSwitch(slot0.modLockFilter, slot0.isFilterLockForMod, function (slot0)
 			uv0.isFilterLockForMod = slot0
 
-			uv0:filterForRemouldAndUpgrade()
+			uv0:filter()
 		end)
 	end
 
@@ -1282,8 +1286,37 @@ function slot0.didEnter(slot0)
 		if uv0.contextData.mode == uv1.MODE_DESTROY then
 			uv0:displayDestroyPanel()
 		else
-			if not uv0.confirmSelect then
-				if uv0.callbackQuit then
+			slot0 = {}
+
+			if uv0.contextData.destroyCheck then
+				slot2, slot3 = ShipCalcHelper.GetEliteAndHightLevelShips(underscore.map(uv0.selectedIds, function (slot0)
+					return uv0.shipVOsById[slot0]
+				end))
+
+				if #slot2 > 0 or #slot3 > 0 then
+					table.insert(slot0, function (slot0)
+						uv0.destroyConfirmWindow:ExecuteAction("Show", uv1, uv2, false, slot0)
+					end)
+				end
+
+				if #underscore.filter(slot1, function (slot0)
+					return slot0:getFlag("inElite")
+				end) > 0 then
+					table.insert(slot0, function (slot0)
+						uv0.destroyConfirmWindow:ExecuteAction("ShowEliteTag", uv1, slot0)
+					end)
+				end
+			end
+
+			seriesAsync(slot0, function ()
+				if uv0.confirmSelect then
+					uv0.confirmSelect(uv0.selectedIds, function ()
+						uv0.onSelected(uv0.selectedIds)
+						uv0:back()
+					end, function ()
+						uv0:back()
+					end)
+				elseif uv0.callbackQuit then
 					uv0.onSelected(uv0.selectedIds, function ()
 						uv0:back()
 					end)
@@ -1291,16 +1324,7 @@ function slot0.didEnter(slot0)
 					uv0.onSelected(uv0.selectedIds)
 					uv0:back()
 				end
-			else
-				uv0.confirmSelect(uv0.selectedIds, function ()
-					uv0.onSelected(uv0.selectedIds)
-					uv0:back()
-				end, function ()
-					uv0:back()
-				end, uv0)
-			end
-
-			return
+			end)
 		end
 	end, SFX_CONFIRM)
 	onButton(slot0, findTF(slot0.selectPanel, "quick_select"), function ()
@@ -1586,7 +1610,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	if slot0.destroyConfirmWindow and slot0.destroyConfirmWindow:GetLoaded() and slot0.destroyConfirmWindow:isShowing() then
+	if slot0.destroyConfirmWindow:isShowing() then
 		slot0.destroyConfirmWindow:Hide()
 
 		return
@@ -1650,102 +1674,74 @@ function slot0.checkDestroyGold(slot0, slot1)
 end
 
 function slot0.selectShip(slot0, slot1, slot2)
-	function slot3()
-		slot0 = false
-		slot1 = nil
+	slot3 = false
+	slot4 = nil
 
-		for slot5, slot6 in ipairs(uv0.selectedIds) do
-			if slot6 == uv1.id then
-				slot0 = true
-				slot1 = slot5
+	for slot8, slot9 in ipairs(slot0.selectedIds) do
+		if slot9 == slot1.id then
+			slot3 = true
+			slot4 = slot8
 
-				break
-			end
-		end
-
-		return slot0, slot1
-	end
-
-	function slot4()
-		slot0, slot1 = uv0()
-
-		if not slot0 then
-			slot2, slot3 = uv1.checkShip(uv2, function ()
-				if not uv0.exited then
-					uv0:selectShip(uv1)
-				end
-			end, uv1.selectedMax == 1 and {} or uv1.selectedIds)
-
-			if not slot2 then
-				if slot3 then
-					pg.TipsMgr.GetInstance():ShowTips(slot3)
-				end
-
-				return
-			end
-
-			if uv1.selectedMax == 1 then
-				slot4 = uv1.selectedIds[1]
-				uv1.selectedIds[1] = uv2.id
-			elseif uv1.selectedMax == 0 or #uv1.selectedIds < uv1.selectedMax then
-				table.insert(uv1.selectedIds, uv2.id)
-				uv1:updateBlackBlocks(uv2)
-			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_dockyardScene_error_choiseRoleLess", uv1.selectedMax))
-
-				return
-			end
-		else
-			slot2, slot3 = uv1.onCancelShip(uv2, function ()
-				if not uv0.exited then
-					uv0:selectShip(uv1)
-				end
-			end, uv1.selectedIds)
-
-			if not slot2 then
-				if slot3 then
-					pg.TipsMgr.GetInstance():ShowTips(slot3)
-				end
-
-				return
-			end
-
-			table.remove(uv1.selectedIds, slot1)
-
-			if uv1.selectedMax ~= 1 then
-				uv1:updateBlackBlocks(uv2)
-			end
-		end
-
-		uv1:updateSelected()
-
-		if uv1.contextData.mode == uv3.MODE_DESTROY then
-			uv1:updateDestroyRes()
-		elseif uv1.contextData.mode == uv3.MODE_MOD then
-			uv1:updateModAttr()
+			break
 		end
 	end
 
-	if slot0.contextData.mode == slot0.contextData.mode_DESTROY then
-		slot5, slot6 = slot0:checkDestroyGold(slot1)
+	if not slot3 then
+		slot5, slot6 = slot0.checkShip(slot1, function ()
+			if not uv0.exited then
+				uv0:selectShip(uv1)
+			end
+		end, slot0.selectedMax == 1 and {} or slot0.selectedIds)
 
 		if not slot5 then
+			if slot6 then
+				pg.TipsMgr.GetInstance():ShowTips(slot6)
+			end
+
 			return
 		end
 
-		if not slot6 and not slot3() and not slot2 then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
-				onYes = function ()
-					uv0()
-				end
-			})
+		if slot0.selectedMax == 1 then
+			slot7 = slot0.selectedIds[1]
+			slot0.selectedIds[1] = slot1.id
+		elseif slot0.selectedMax == 0 or #slot0.selectedIds < slot0.selectedMax then
+			table.insert(slot0.selectedIds, slot1.id)
+			slot0:updateBlackBlocks(slot1)
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_dockyardScene_error_choiseRoleLess", slot0.selectedMax))
 
 			return
+		end
+	else
+		slot5, slot6 = slot0.onCancelShip(slot1, function ()
+			if not uv0.exited then
+				uv0:selectShip(uv1)
+			end
+		end, slot0.selectedIds)
+
+		if not slot5 then
+			if slot6 then
+				pg.TipsMgr.GetInstance():ShowTips(slot6)
+			end
+
+			return
+		end
+
+		table.remove(slot0.selectedIds, slot4)
+
+		if slot0.selectedMax ~= 1 then
+			slot0:updateBlackBlocks(slot1)
 		end
 	end
 
-	slot4()
+	slot0:updateSelected()
+
+	if slot0.contextData.mode == uv0.MODE_DESTROY then
+		slot0:updateDestroyRes()
+	elseif slot0.contextData.mode == uv0.MODE_MOD then
+		slot0:updateModAttr()
+	end
+
 	slot0:UpdateGuildViewEquipmentsBtn()
 end
 
@@ -2116,30 +2112,40 @@ function slot0.displayDestroyPanel(slot0)
 			uv0:updateSelected()
 		end)
 		slot0.destroyPage:SetConfirmCallBack(function ()
-			function slot0()
-				slot0, slot1, slot2 = ShipCalcHelper.GetEliteAndHightLevelAndResOverflow(uv0.selectedIds, uv0.shipVOsById)
-
-				if #slot0 == 0 and #slot1 == 0 then
-					uv0:emit(DockyardMediator.ON_DESTROY_SHIPS, uv0.selectedIds)
-				else
-					uv0.destroyConfirmWindow:ExecuteAction("Show", slot0, slot1, slot2, function ()
-						uv0:emit(DockyardMediator.ON_DESTROY_SHIPS, uv0.selectedIds)
-					end)
-				end
-			end
-
 			slot1, slot2 = uv0:checkDestroyGold()
 
 			if not slot2 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
-					onYes = slot0
-				})
-
-				return
+				table.insert({}, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
+						onYes = slot0
+					})
+				end)
 			end
 
-			slot0()
+			slot4, slot5 = ShipCalcHelper.GetEliteAndHightLevelShips(underscore.map(uv0.selectedIds, function (slot0)
+				return uv0.shipVOsById[slot0]
+			end))
+
+			if #slot4 > 0 or #slot5 > 0 then
+				table.insert(slot0, function (slot0)
+					slot1, slot2, slot3, slot4 = ShipCalcHelper.CalcDestoryRes(uv0)
+
+					uv1.destroyConfirmWindow:ExecuteAction("Show", uv2, uv3, slot4, slot0)
+				end)
+			end
+
+			if #underscore.filter(slot3, function (slot0)
+				return slot0:getFlag("inElite")
+			end) > 0 then
+				table.insert(slot0, function (slot0)
+					uv0.destroyConfirmWindow:ExecuteAction("ShowEliteTag", uv1, slot0)
+				end)
+			end
+
+			seriesAsync(slot0, function ()
+				uv0:emit(DockyardMediator.ON_DESTROY_SHIPS, uv0.selectedIds)
+			end)
 		end)
 	end
 

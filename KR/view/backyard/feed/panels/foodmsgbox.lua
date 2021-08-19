@@ -27,8 +27,6 @@ function slot0.Ctor(slot0, slot1, slot2)
 	onButton(nil, slot0.cancelBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-
-	slot0.banner = getProxy(ActivityProxy):getActiveBannerByType(GAMEUI_BANNER_10)
 end
 
 function slot0.Show(slot0, slot1, slot2)
@@ -85,27 +83,12 @@ function slot0.Show(slot0, slot1, slot2)
 end
 
 function slot0.UpdateFood(slot0, slot1)
-	slot2 = slot1:getConfig("name")
-	slot3 = slot1:getConfig("display")
-	slot4 = nil
-
-	if slot0.banner and slot1.id == 50004 then
-		slot5 = string.split(slot0.banner.param, "|")
-		slot2 = slot5[1]
-		slot3 = slot5[2]
-		slot4 = slot0.banner.pic
-	end
-
 	updateItem(slot0.foodItem, slot1)
 
-	if slot4 then
-		GetImageSpriteFromAtlasAsync("Props/" .. slot4, "", slot0.icon)
-	end
-
-	slot0.foodName.text = slot2
+	slot0.foodName.text = slot1:getConfig("name")
 
 	if PLATFORM_CODE == PLATFORM_US then
-		setBestFitTextEN(slot0.foodDesc.gameObject, slot3, 28)
+		setBestFitTextEN(slot0.foodDesc.gameObject, slot1:getConfig("display"), 28)
 	else
 		slot0.foodDesc.text = slot3
 	end

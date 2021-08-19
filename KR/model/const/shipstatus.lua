@@ -32,12 +32,6 @@ function slot0.ShipStatusToTag(slot0, slot1)
 			"red",
 			i18n("word_status_inFight")
 		}
-	elseif uv0.checkShipFlag(slot0, slot1, "inElite") then
-		return {
-			"shipstatus",
-			"red",
-			i18n("word_status_inFight")
-		}
 	elseif uv0.checkShipFlag(slot0, slot1, "inFleet") then
 		if math.fmod(slot0:getFleetId(), 10) >= 1 and slot2 <= 6 then
 			return {
@@ -52,6 +46,12 @@ function slot0.ShipStatusToTag(slot0, slot1)
 				Fleet.DEFAULT_NAME_FOR_DOCKYARD[slot0:getFleetId()]
 			}
 		end
+	elseif uv0.checkShipFlag(slot0, slot1, "inElite") then
+		return {
+			"shipstatus",
+			"red",
+			i18n("word_status_inHardFormation")
+		}
 	elseif uv0.checkShipFlag(slot0, slot1, "inActivity") then
 		return {
 			"shipstatus",
@@ -119,7 +119,7 @@ slot0.FILTER_SHIPS_FLAGS_1 = {
 	inPvP = false,
 	inActivity = true,
 	inTactics = false,
-	inElite = true,
+	inElite = false,
 	inGuildEvent = true,
 	inEvent = true,
 	inBackyard = false,
@@ -152,13 +152,30 @@ slot0.FILTER_SHIPS_FLAGS_3 = {
 	inPvP = false,
 	inActivity = true,
 	inTactics = false,
-	inElite = true,
+	inElite = false,
 	inGuildEvent = true,
 	inEvent = true,
 	inBackyard = false,
 	isActivityNpc = true,
 	inWorld = true,
 	inAdmiral = false
+}
+slot0.FILTER_SHIPS_FLAGS_4 = {
+	inExercise = true,
+	inChapter = true,
+	inClass = true,
+	inFleet = true,
+	inPvP = true,
+	inActivity = true,
+	inTactics = true,
+	inElite = true,
+	inGuildEvent = true,
+	inEvent = true,
+	inBackyard = true,
+	inGuildBossEvent = true,
+	isActivityNpc = true,
+	inWorld = true,
+	inAdmiral = true
 }
 slot0.TAG_HIDE_ALL = {
 	inExercise = true,
@@ -293,6 +310,9 @@ slot0.TAG_HIDE_WORLD = {
 	inFleet = true,
 	inActivity = true
 }
+slot0.TAG_HIDE_DESTROY = {
+	inElite = false
+}
 slot0.TAG_BLOCK_EVENT = {
 	inEvent = true
 }
@@ -302,66 +322,67 @@ slot0.TAG_BLOCK_PVP = {
 slot0.TAG_BLOCK_BACKYARD = {
 	inClass = true
 }
-slot0.STATE_CHANGE_OK = 0
+slot0.STATE_CHANGE_OK = -1
+slot0.STATE_CHANGE_FAIL = 0
 slot0.STATE_CHANGE_CHECK = 1
-slot0.STATE_CHANGE_FAIL = 2
+slot0.STATE_CHANGE_TIP = 2
 slot1 = {
 	inFleet = {
-		inEvent = 2
+		inEvent = 0
 	},
 	inElite = {
-		inEvent = 2,
-		inElite = 2
+		inEvent = 0,
+		inElite = 0
 	},
 	inActivity = {
-		isActivityNpc = 2,
-		inEvent = 2,
-		inActivity = 2
+		isActivityNpc = 0,
+		inEvent = 0,
+		inActivity = 0
 	},
 	inEvent = {
-		inEvent = 2,
-		inChapter = 2,
-		isActivityNpc = 2,
+		inEvent = 0,
+		inChapter = 0,
+		isActivityNpc = 0,
 		inFleet = 1,
 		inPvP = 1
 	},
 	inClass = {
-		isActivityNpc = 2,
-		inClass = 2,
+		isActivityNpc = 0,
+		inClass = 0,
 		inBackyard = 1
 	},
 	inTactics = {
-		inTactics = 2
+		inTactics = 0
 	},
 	inBackyard = {
-		inClass = 2,
-		isActivityNpc = 2
+		inClass = 0,
+		isActivityNpc = 0
 	},
 	inWorld = {
-		isActivityNpc = 2
+		isActivityNpc = 0
 	},
 	onPropose = {
-		inChapter = 2,
-		inEvent = 2
+		inChapter = 0,
+		inEvent = 0
 	},
 	onModify = {
-		inChapter = 2
+		inChapter = 0
 	},
 	onDestroy = {
 		inExercise = 1,
-		inChapter = 2,
-		inClass = 2,
+		inChapter = 0,
+		inClass = 0,
 		inFleet = 1,
 		inPvP = 1,
-		inActivity = 2,
+		inActivity = 0,
 		inTactics = 1,
 		inBackyard = 1,
-		inGuildEvent = 2,
-		inEvent = 2,
+		inGuildEvent = 0,
+		inEvent = 0,
 		inGuildBossEvent = 1,
-		isActivityNpc = 2,
-		inWorld = 2,
-		inAdmiral = 2
+		isActivityNpc = 0,
+		inWorld = 0,
+		inAdmiral = 0
 	}
 }
 slot2 = {
@@ -415,29 +436,37 @@ slot2 = {
 function slot0.ShipStatusCheck(slot0, slot1, slot2, slot3)
 	slot4, slot5 = uv0.ShipStatusConflict(slot0, slot1, slot3)
 
-	if slot4 == ShipStatus.STATE_CHANGE_FAIL then
+	if slot4 == uv0.STATE_CHANGE_FAIL then
 		return false, i18n(slot5)
-	elseif slot4 == ShipStatus.STATE_CHANGE_CHECK then
+	elseif slot4 == uv0.STATE_CHANGE_CHECK then
 		if slot2 then
-			return ShipStatus.ChangeStatusCheckBox(slot5, slot1, slot2)
+			return uv0.ChangeStatusCheckBox(slot5, slot1, slot2)
 		else
 			return false
 		end
-	else
+	elseif slot4 == uv0.STATE_CHANGE_TIP then
+		return uv0.ChangeStatusTipBox(slot5, slot1)
+	elseif slot4 == uv0.STATE_CHANGE_OK then
 		return true
 	end
 end
 
 function slot0.ShipStatusConflict(slot0, slot1, slot2)
-	slot3 = uv0[slot0]
+	for slot7, slot8 in ipairs(uv1.flagList) do
+		if uv0[slot0][slot8] == uv1.STATE_CHANGE_FAIL and slot1:getFlag(slot8, (slot2 or {})[slot8]) then
+			return uv1.STATE_CHANGE_FAIL, uv2[slot8].tips_block
+		end
+	end
 
 	for slot7, slot8 in ipairs(uv1.flagList) do
-		if slot3[slot8] and slot1:getFlag(slot8, (slot2 or {})[slot8]) then
-			if slot3[slot8] == uv1.STATE_CHANGE_FAIL then
-				return uv1.STATE_CHANGE_FAIL, uv2[slot8].tips_block
-			elseif slot9 == uv1.STATE_CHANGE_CHECK then
-				return uv1.STATE_CHANGE_CHECK, slot8
-			end
+		if slot3[slot8] == uv1.STATE_CHANGE_CHECK and slot1:getFlag(slot8, slot2[slot8]) then
+			return uv1.STATE_CHANGE_CHECK, slot8
+		end
+	end
+
+	for slot7, slot8 in ipairs(uv1.flagList) do
+		if slot3[slot8] == uv1.STATE_CHANGE_TIP and slot1:getFlag(slot8, slot2[slot8]) then
+			return uv1.STATE_CHANGE_TIP, slot8
 		end
 	end
 
@@ -582,6 +611,17 @@ function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
 		})
 
 		return false, nil
+	end
+
+	return true
+end
+
+function slot0.ChangeStatusTipBox(slot0, slot1)
+	if slot0 == "inElite" then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			hideNo = true,
+			content = i18n("ship_vo_moveout_hardFormation")
+		})
 	end
 
 	return true

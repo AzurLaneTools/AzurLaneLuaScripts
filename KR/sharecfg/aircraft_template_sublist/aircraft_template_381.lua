@@ -1,27 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_381 = {
-	[819003] = {
+	[793218] = {
 		attack_power = 2,
-		name = "【偶像大师联动】舰载战斗机III",
-		type = 1,
+		name = "【2021美系活动D3】BOSS 苍龙·META 一阶段 第四波 轰炸机",
+		type = 3,
 		accuracy = 23,
-		model_ID = "feiji_ouxiangfeiji",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 62,
+		crash_DMG = 138,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 819003,
-		icon = "feiji_ouxiangfeiji",
+		id = 793218,
+		icon = "haiyan",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2240,
-		speed = 33,
-		max_hp = 112,
+		hp_growth = 3820,
+		speed = 30,
+		max_hp = 224,
 		scale = 0.75,
 		weapon_ID = {
-			1100747,
-			1100752
+			793220
 		},
 		position_offset = {
 			0,
@@ -41,13 +40,13 @@ pg.aircraft_template_381 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.56,
-					-0.76,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.48,
-					0.99,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -75,27 +74,27 @@ pg.aircraft_template_381 = {
 			}
 		}
 	},
-	[819004] = {
+	[793219] = {
 		attack_power = 2,
-		name = "【偶像大师联动】舰载战斗机IV",
-		type = 1,
+		name = "【2021美系活动D3】BOSS 苍龙·META 一阶段 第四波 战斗机",
+		type = 3,
 		accuracy = 23,
-		model_ID = "feiji_ouxiangfeiji",
+		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
-		crash_DMG = 78,
+		crash_DMG = 110,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 819004,
-		icon = "feiji_ouxiangfeiji",
+		id = 793219,
+		icon = "haiduya",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2520,
+		hp_growth = 3410,
 		speed = 33,
-		max_hp = 136,
+		max_hp = 210,
 		scale = 0.75,
 		weapon_ID = {
-			1100748,
+			793221,
 			1100753
 		},
 		position_offset = {
@@ -150,28 +149,28 @@ pg.aircraft_template_381 = {
 			}
 		}
 	},
-	[819005] = {
+	[794008] = {
 		attack_power = 2,
-		name = "【偶像大师联动】舰载战斗机V",
+		name = "【2021美系活动SP】BOSS 苍龙·META 第三波 飞机",
 		type = 1,
 		accuracy = 23,
-		model_ID = "feiji_ouxiangfeiji",
+		model_ID = "alter_plane3",
 		ACC_growth = 0,
-		crash_DMG = 98,
+		crash_DMG = 130,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 819005,
-		icon = "feiji_ouxiangfeiji",
+		id = 794008,
+		icon = "alter_plane2",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2800,
+		hp_growth = 5000,
 		speed = 33,
-		max_hp = 160,
-		scale = 0.75,
+		max_hp = 330,
+		scale = 1,
 		weapon_ID = {
-			1100749,
-			1100754
+			794009,
+			794010
 		},
 		position_offset = {
 			0,
@@ -225,27 +224,28 @@ pg.aircraft_template_381 = {
 			}
 		}
 	},
-	[819006] = {
+	[795004] = {
 		attack_power = 2,
-		name = "【偶像大师联动】舰载鱼雷机I",
-		type = 2,
+		name = "【2021美系活动EX】BOSS 苍龙·META 第三波 飞机",
+		type = 1,
 		accuracy = 23,
-		model_ID = "feiji_ouxiangfeiji",
+		model_ID = "alter_plane3",
 		ACC_growth = 0,
-		crash_DMG = 52,
+		crash_DMG = 72,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 819006,
-		icon = "feiji_ouxiangfeiji",
+		id = 795004,
+		icon = "alter_plane2",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2040,
-		speed = 30,
-		max_hp = 72,
-		scale = 0.75,
+		hp_growth = 5000,
+		speed = 32,
+		max_hp = 1500,
+		scale = 1,
 		weapon_ID = {
-			1100755
+			795005,
+			795006
 		},
 		position_offset = {
 			0,
@@ -265,13 +265,161 @@ pg.aircraft_template_381 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.13,
-					-1.29,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					-1.25,
-					1.47,
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[800005] = {
+		attack_power = 2,
+		name = "三笠剧情战斗机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "96jiangong",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 800005,
+		icon = "96jiangong",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 980,
+		speed = 50,
+		max_hp = 13,
+		scale = 0.75,
+		weapon_ID = {
+			133
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[800006] = {
+		attack_power = 2,
+		name = "三笠剧情鱼雷机",
+		type = 2,
+		accuracy = 23,
+		model_ID = "97jiangong",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 800006,
+		icon = "97jiangong",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1076,
+		speed = 48,
+		max_hp = 14,
+		scale = 0.75,
+		weapon_ID = {
+			135
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -299,323 +447,27 @@ pg.aircraft_template_381 = {
 			}
 		}
 	},
-	[819007] = {
+	[800007] = {
 		attack_power = 2,
-		name = "【偶像大师联动】舰载鱼雷机II",
-		type = 2,
-		accuracy = 23,
-		model_ID = "feiji_ouxiangfeiji",
-		ACC_growth = 0,
-		crash_DMG = 70,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 819007,
-		icon = "feiji_ouxiangfeiji",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 2380,
-		speed = 30,
-		max_hp = 99,
-		scale = 0.75,
-		weapon_ID = {
-			1100756
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					-1.13,
-					-1.29,
-					0
-				},
-				{
-					-1.25,
-					1.47,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[819008] = {
-		attack_power = 2,
-		name = "【偶像大师联动】舰载鱼雷机III",
-		type = 2,
-		accuracy = 23,
-		model_ID = "feiji_ouxiangfeiji",
-		ACC_growth = 0,
-		crash_DMG = 90,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 819008,
-		icon = "feiji_ouxiangfeiji",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 2720,
-		speed = 30,
-		max_hp = 126,
-		scale = 0.75,
-		weapon_ID = {
-			1100757
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					-1.13,
-					-1.29,
-					0
-				},
-				{
-					-1.25,
-					1.47,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[819009] = {
-		attack_power = 2,
-		name = "【偶像大师联动】舰载鱼雷机IV",
-		type = 2,
-		accuracy = 23,
-		model_ID = "feiji_ouxiangfeiji",
-		ACC_growth = 0,
-		crash_DMG = 112,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 819009,
-		icon = "feiji_ouxiangfeiji",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 3060,
-		speed = 30,
-		max_hp = 153,
-		scale = 0.75,
-		weapon_ID = {
-			1100758
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					-1.13,
-					-1.29,
-					0
-				},
-				{
-					-1.25,
-					1.47,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[819010] = {
-		attack_power = 2,
-		name = "【偶像大师联动】舰载鱼雷机V",
-		type = 2,
-		accuracy = 23,
-		model_ID = "feiji_ouxiangfeiji",
-		ACC_growth = 0,
-		crash_DMG = 136,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 819010,
-		icon = "feiji_ouxiangfeiji",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 3400,
-		speed = 30,
-		max_hp = 180,
-		scale = 0.75,
-		weapon_ID = {
-			1100759
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					-1.13,
-					-1.29,
-					0
-				},
-				{
-					-1.25,
-					1.47,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[819011] = {
-		attack_power = 2,
-		name = "【偶像大师联动】舰载轰炸机I",
+		name = "三笠剧情轰炸机",
 		type = 3,
 		accuracy = 23,
-		model_ID = "feiji_ouxiangfeiting",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 65,
+		crash_DMG = 9,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 819011,
-		icon = "feiji_ouxiangfeiting",
+		id = 800007,
+		icon = "99shijianbao1",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2280,
-		speed = 30,
-		max_hp = 80,
+		hp_growth = 1206,
+		speed = 46,
+		max_hp = 16,
 		scale = 0.75,
 		weapon_ID = {
-			1101035
+			139
 		},
 		position_offset = {
 			0,
@@ -669,27 +521,30 @@ pg.aircraft_template_381 = {
 			}
 		}
 	},
-	[819012] = {
+	[800010] = {
 		attack_power = 2,
-		name = "【偶像大师联动】舰载轰炸机II",
-		type = 3,
+		name = "魔鬼鱼浮游炮",
+		type = 1,
 		accuracy = 23,
-		model_ID = "feiji_ouxiangfeiting",
+		model_ID = "fuyoupao",
 		ACC_growth = 0,
-		crash_DMG = 85,
+		crash_DMG = 100,
 		dodge = 1,
-		funnel_behavior = "",
 		nationality = 3,
-		id = 819012,
-		icon = "feiji_ouxiangfeiting",
+		id = 800010,
+		icon = "fuyoupao",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2660,
-		speed = 30,
-		max_hp = 110,
+		hp_growth = 1000,
+		speed = 70,
+		max_hp = 50,
 		scale = 0.75,
+		funnel_behavior = {
+			exist = 20,
+			stay = 2
+		},
 		weapon_ID = {
-			1101036
+			800011
 		},
 		position_offset = {
 			0,
@@ -709,13 +564,163 @@ pg.aircraft_template_381 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[819001] = {
+		attack_power = 2,
+		name = "【偶像大师联动】舰载战斗机I",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_ouxiangfeiji",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 819001,
+		icon = "feiji_ouxiangfeiji",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1680,
+		speed = 33,
+		max_hp = 64,
+		scale = 0.75,
+		weapon_ID = {
+			1100745,
+			1100750
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[819002] = {
+		attack_power = 2,
+		name = "【偶像大师联动】舰载战斗机II",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_ouxiangfeiji",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 819002,
+		icon = "feiji_ouxiangfeiji",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 33,
+		max_hp = 88,
+		scale = 0.75,
+		weapon_ID = {
+			1100746,
+			1100751
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
 					0
 				}
 			}

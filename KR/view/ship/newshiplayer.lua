@@ -243,8 +243,8 @@ function slot0.setShip(slot0, slot1)
 	end
 
 	if slot1:isMetaShip() then
-		LoadImageSpriteAsync("shiprarity/meta_" .. slot5 .. "m", slot0._shake:Find("rarity/type"), true)
-		LoadImageSpriteAsync("shiprarity/meta_" .. slot5 .. "s", slot0._shake:Find("rarity/type/rarLogo"), true)
+		LoadImageSpriteAsync("shiprarity/1" .. slot5 .. "m", slot0._shake:Find("rarity/type"), true)
+		LoadImageSpriteAsync("shiprarity/1" .. slot5 .. "s", slot0._shake:Find("rarity/type/rarLogo"), true)
 	else
 		LoadImageSpriteAsync("shiprarity/" .. (slot2 and "0" or "") .. slot5 .. "m", slot13, true)
 		LoadImageSpriteAsync("shiprarity/" .. (slot2 and "0" or "") .. slot5 .. "s", slot14, true)

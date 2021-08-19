@@ -243,9 +243,9 @@ function slot0.loadAllCharacter(slot0)
 		[TeamType.Main] = {},
 		[TeamType.Submarine] = {}
 	}
-	slot2 = getProxy(ActivityProxy):getBuffShipList()
+	slot1 = getProxy(ActivityProxy):getBuffShipList()
 
-	function slot3(slot0, slot1, slot2, slot3)
+	function slot2(slot0, slot1, slot2, slot3)
 		if uv0.exited then
 			return
 		end
@@ -428,9 +428,9 @@ function slot0.loadAllCharacter(slot0)
 		uv0:setCharacterPos(slot2, slot3, slot4)
 	end
 
-	slot4 = {}
+	slot3 = {}
 
-	function slot5(slot0, slot1)
+	function slot4(slot0, slot1)
 		for slot5, slot6 in ipairs(slot0) do
 			slot7 = slot6:getPrefab()
 
@@ -444,17 +444,17 @@ function slot0.loadAllCharacter(slot0)
 	end
 
 	if slot0.fleet:GetFleetType() == FleetType.Normal then
-		slot5(slot0.fleet:GetTeamShipVOs(TeamType.Vanguard, true), TeamType.Vanguard)
-		slot5(slot0.fleet:GetTeamShipVOs(TeamType.Main, true), TeamType.Main)
-	elseif slot6 == FleetType.Submarine then
-		slot5(slot0.fleet:GetTeamShipVOs(TeamType.Submarine, true), TeamType.Submarine)
+		slot4(slot0.fleet:GetTeamShipVOs(TeamType.Vanguard, true), TeamType.Vanguard)
+		slot4(slot0.fleet:GetTeamShipVOs(TeamType.Main, true), TeamType.Main)
+	elseif slot5 == FleetType.Submarine then
+		slot4(slot0.fleet:GetTeamShipVOs(TeamType.Submarine, true), TeamType.Submarine)
 	end
 
-	if #slot4 > 0 then
+	if #slot3 > 0 then
 		pg.UIMgr.GetInstance():LoadingOn()
 	end
 
-	parallelAsync(slot4, function (slot0)
+	parallelAsync(slot3, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		if uv0.exited then

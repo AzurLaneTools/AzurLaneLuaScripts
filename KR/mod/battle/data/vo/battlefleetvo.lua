@@ -1020,6 +1020,10 @@ function slot9.ShiftManualSub(slot0)
 end
 
 function slot9.ChangeSubmarineState(slot0, slot1, slot2)
+	if not slot0._manualSubUnit then
+		return
+	end
+
 	slot0._manualSubUnit:ChangeOxygenState(slot1)
 
 	if slot2 then

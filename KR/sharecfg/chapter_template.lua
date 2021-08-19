@@ -72160,6 +72160,1650 @@ end)()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
+	uv0.chapter_template[20013] = {
+		special_operation_list = "",
+		name = "상선 호위 EASY",
+		count = 0,
+		pop_pic = "",
+		act_id = 0,
+		chapter_tag = 0,
+		pos_y = "0.258333333",
+		progress_boss = 100,
+		pre_chapter = 0,
+		boss_refresh = 0,
+		is_limit_move = 1,
+		oil = 10,
+		is_ai = 1,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "CE1",
+		type = 1,
+		bg = "",
+		bgm = "",
+		enter_story = "",
+		model = 3,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 20013,
+		ammo_total = 5,
+		friendly_id = 13,
+		event_skip = 0,
+		map = 70000,
+		pos_x = "0.2046875",
+		formation = 70000,
+		mitigation_level = 0,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 300,
+		investigation_ratio = 0,
+		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#92fc63>횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
+		star_require_3 = 0,
+		difficulty = 4,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_shangchuan",
+		submarine_num = 0,
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 230,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.55,
+			0.5,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				5000045,
+				18,
+				0
+			},
+			{
+				5000046,
+				32,
+				0
+			},
+			{
+				5000047,
+				24,
+				1
+			},
+			{
+				5000048,
+				18,
+				0
+			},
+			{
+				5000049,
+				25,
+				0
+			},
+			{
+				5000050,
+				18,
+				1
+			},
+			{
+				5000051,
+				0,
+				0
+			},
+			{
+				5000052,
+				35,
+				0
+			},
+			{
+				5000053,
+				16,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			5000054,
+			5000055,
+			5000056
+		},
+		elite_expedition_list = {
+			5000045,
+			5000048,
+			5000051
+		},
+		ai_expedition_list = {
+			5000020,
+			5000021,
+			5000022,
+			5000023,
+			5000024
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			0
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1
+		},
+		elite_refresh = {
+			2
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"Z46"
+		},
+		awards = {
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				1
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				17
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				7
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				7
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				7
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				18
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				3,
+				"arrow_up",
+				0,
+				0
+			},
+			{
+				6,
+				1,
+				"1x1depot_day",
+				-13,
+				24
+			},
+			{
+				4,
+				6,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				3,
+				"arrow_left",
+				0,
+				0
+			},
+			{
+				4,
+				1,
+				"arrow_up",
+				0,
+				0
+			},
+			{
+				3,
+				3,
+				"1x3NormalIsland_2",
+				0,
+				0
+			},
+			{
+				1,
+				4,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				1,
+				1,
+				"arrow_right",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-166,
+			-95,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[20014] = {
+		special_operation_list = "",
+		name = "상선 호위 NORMAL",
+		count = 0,
+		pop_pic = "",
+		act_id = 0,
+		chapter_tag = 0,
+		pos_y = "0.041666667",
+		progress_boss = 100,
+		pre_chapter = 0,
+		boss_refresh = 0,
+		is_limit_move = 1,
+		oil = 10,
+		is_ai = 1,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "CE2",
+		type = 1,
+		bg = "",
+		bgm = "",
+		enter_story = "",
+		model = 3,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 20014,
+		ammo_total = 5,
+		friendly_id = 14,
+		event_skip = 0,
+		map = 70000,
+		pos_x = "0.2546875",
+		formation = 70000,
+		mitigation_level = 0,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 470,
+		investigation_ratio = 0,
+		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#92fc63>횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
+		star_require_3 = 0,
+		difficulty = 4,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_shangchuan",
+		submarine_num = 0,
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 360,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.36,
+			0.64,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				5000057,
+				10,
+				0
+			},
+			{
+				5000058,
+				28,
+				0
+			},
+			{
+				5000059,
+				28,
+				1
+			},
+			{
+				5000060,
+				14,
+				0
+			},
+			{
+				5000061,
+				29,
+				0
+			},
+			{
+				5000062,
+				22,
+				1
+			},
+			{
+				5000063,
+				0,
+				0
+			},
+			{
+				5000064,
+				39,
+				0
+			},
+			{
+				5000065,
+				22,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			5000066,
+			5000067,
+			5000068
+		},
+		elite_expedition_list = {
+			5000057,
+			5000060,
+			5000063
+		},
+		ai_expedition_list = {
+			5000030,
+			5000031,
+			5000032,
+			5000033,
+			5000034
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			0
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1
+		},
+		elite_refresh = {
+			2
+		},
+		ai_refresh = {
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"qibolin"
+		},
+		awards = {
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				5,
+				true,
+				18
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				7
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				1
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				7
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				7
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				17
+			}
+		},
+		float_items = {
+			{
+				6,
+				4,
+				"1x1depot_day",
+				-12,
+				25
+			},
+			{
+				6,
+				0,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				5,
+				5,
+				"arrow_down",
+				0,
+				0
+			},
+			{
+				5,
+				0,
+				"arrow_right",
+				0,
+				0
+			},
+			{
+				4,
+				5,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				3,
+				3,
+				"2x2NormalIsland_1",
+				-39,
+				-40
+			},
+			{
+				3,
+				2,
+				"1x1Rock_1",
+				-30,
+				17
+			},
+			{
+				1,
+				4,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"arrow_down",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-70,
+			-229,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
+	uv0.chapter_template[20015] = {
+		special_operation_list = "",
+		name = "상선 호위 HARD",
+		count = 0,
+		pop_pic = "",
+		act_id = 0,
+		chapter_tag = 0,
+		pos_y = "0.153125",
+		progress_boss = 100,
+		pre_chapter = 0,
+		boss_refresh = 0,
+		is_limit_move = 1,
+		oil = 10,
+		is_ai = 1,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "CE3",
+		type = 1,
+		bg = "",
+		bgm = "",
+		enter_story = "",
+		model = 3,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 20015,
+		ammo_total = 5,
+		friendly_id = 15,
+		event_skip = 0,
+		map = 70000,
+		pos_x = "0.6015625",
+		formation = 70000,
+		mitigation_level = 0,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 585,
+		investigation_ratio = 0,
+		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#92fc63>횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
+		star_require_3 = 0,
+		difficulty = 4,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 0,
+		time = 43200,
+		win_condition_display = "win_condition_display_shangchuan",
+		submarine_num = 0,
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 450,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.338,
+			0.43,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				5000069,
+				12,
+				0
+			},
+			{
+				5000070,
+				20,
+				0
+			},
+			{
+				5000071,
+				30,
+				0
+			},
+			{
+				5000072,
+				13,
+				0
+			},
+			{
+				5000073,
+				34,
+				0
+			},
+			{
+				5000074,
+				24,
+				1
+			},
+			{
+				5000075,
+				0,
+				0
+			},
+			{
+				5000076,
+				34,
+				0
+			},
+			{
+				5000077,
+				25,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			5000078,
+			5000079,
+			5000080
+		},
+		elite_expedition_list = {
+			5000069,
+			5000072,
+			5000075
+		},
+		ai_expedition_list = {
+			5000040,
+			5000041,
+			5000042,
+			5000043,
+			5000044
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			0
+		},
+		enemy_refresh = {
+			1,
+			2,
+			1
+		},
+		elite_refresh = {
+			2
+		},
+		ai_refresh = {
+			2,
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"tierbici"
+		},
+		awards = {
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				18
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				7
+			},
+			{
+				6,
+				5,
+				true,
+				7
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				7
+			},
+			{
+				4,
+				8,
+				true,
+				7
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				7
+			},
+			{
+				4,
+				5,
+				true,
+				7
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				17
+			},
+			{
+				2,
+				8,
+				true,
+				7
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				12
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				1
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				12
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				4,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				5,
+				6,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				2,
+				"1x3NormalIsland_2",
+				0,
+				0
+			},
+			{
+				3,
+				4,
+				"arrow_up",
+				0,
+				0
+			},
+			{
+				3,
+				1,
+				"arrow_right",
+				0,
+				0
+			},
+			{
+				2,
+				5,
+				"2x2NormalIsland_1",
+				70,
+				-35
+			},
+			{
+				2,
+				2,
+				"2x1NormalIsland_1",
+				-20,
+				0
+			},
+			{
+				2,
+				1,
+				"1x1Rock_1",
+				-12,
+				0
+			},
+			{
+				1,
+				8,
+				"arrow_down",
+				0,
+				0
+			},
+			{
+				1,
+				4,
+				"arrow_right",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-230,
+			-90,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {},
+		alarm_cell = {}
+	}
 	uv0.chapter_template[1040001] = {
 		special_operation_list = "",
 		name = "폭풍의 끝",
@@ -122032,6 +123676,8 @@ end)()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
+end)()
+(function ()
 	uv0.chapter_template[1110021] = {
 		special_operation_list = "",
 		name = "철 지나 핀 이계의 벚꽃",
@@ -123703,8 +125349,6 @@ end)()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end)()
-(function ()
 	uv0.chapter_template[1120003] = {
 		special_operation_list = "",
 		name = "주도권|~Initiative~",
@@ -186490,6 +188134,8 @@ end)()
 		},
 		alarm_cell = {}
 	}
+end)()
+(function ()
 	uv0.chapter_template[1330023] = {
 		special_operation_list = "",
 		name = "심연으로부터",
@@ -188480,8 +190126,6 @@ end)()
 		},
 		alarm_cell = {}
 	}
-end)()
-(function ()
 	uv0.chapter_template[1330026] = {
 		special_operation_list = "",
 		name = "옅은 안개와 구름",
@@ -259571,6 +261215,8 @@ end)()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
+end)()
+(function ()
 	uv0.chapter_template[1440003] = {
 		special_operation_list = "",
 		name = "섬격의 부동항",
@@ -261695,8 +263341,6 @@ end)()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
-end)()
-(function ()
 	uv0.chapter_template[1450002] = {
 		special_operation_list = "",
 		name = "함께 싸우는 자매",
@@ -330950,6 +332594,8 @@ end)()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
+end)()
+(function ()
 	uv0.chapter_template[1520022] = {
 		special_operation_list = "",
 		name = "불완전 재현",
@@ -333419,8 +335065,6 @@ end)()
 		wall_prefab = {},
 		alarm_cell = {}
 	}
-end)()
-(function ()
 	uv0.chapter_template[1520025] = {
 		special_operation_list = "",
 		name = "직선 작전",
@@ -399409,6 +401053,8 @@ end)()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
+end)()
+(function ()
 	uv0.chapter_template[2100114] = {
 		special_operation_list = "",
 		name = "지키는 자",
@@ -401696,8 +403342,6 @@ end)()
 		chapter_buff = {},
 		alarm_cell = {}
 	}
-end)()
-(function ()
 	uv0.chapter_template[2100121] = {
 		special_operation_list = "",
 		name = "독졸단명",
@@ -436404,6 +438048,9 @@ slot0.chapter_template.all = {
 	20010,
 	20011,
 	20012,
+	20013,
+	20014,
+	20015,
 	1040001,
 	1040002,
 	1040003,

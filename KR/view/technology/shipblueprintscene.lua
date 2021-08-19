@@ -48,7 +48,9 @@ function slot0.updateShipBluePrintVO(slot0, slot1)
 	slot0.bluePrintByIds[slot1.id] = slot1
 
 	slot0:filterBlueprints()
+	setActive(slot0.shipContainer, false)
 	slot0.itemList:align(#slot0.filterBlueprintVOs)
+	setActive(slot0.shipContainer, true)
 	eachChild(slot0.shipContainer, function (slot0)
 		if uv0.contextData.shipBluePrintVO.id == uv0.bluePrintItems[slot0].shipBluePrintVO.id then
 			triggerToggle(slot0, true)
@@ -468,8 +470,6 @@ function slot0.initShips(slot0)
 	slot0:checkStory()
 	slot0:filterBlueprints()
 
-	slot0.contextData.shipBluePrintVO = slot0.contextData.shipBluePrintVO or slot0.filterBlueprintVOs[1]
-
 	if not slot0.itemList then
 		slot0.bluePrintItems = {}
 		slot0.itemList = UIItemList.New(slot0.shipContainer, slot0.shipTpl)
@@ -519,11 +519,21 @@ function slot0.initShips(slot0)
 				end
 
 				triggerToggle(slot2, false)
+				uv0.bluePrintItems[slot2]:updateSelectedStyle(false)
 			end
 		end)
 	end
 
+	setActive(slot0.shipContainer, false)
 	slot0.itemList:align(#slot0.filterBlueprintVOs)
+	setActive(slot0.shipContainer, true)
+
+	if not slot0.contextData.shipBluePrintVO or underscore.all(slot0.filterBlueprintVOs, function (slot0)
+		return uv0.contextData.shipBluePrintVO.id ~= slot0.id
+	end) then
+		slot0.contextData.shipBluePrintVO = slot0.filterBlueprintVOs[1]
+	end
+
 	eachChild(slot0.shipContainer, function (slot0)
 		if uv0.contextData.shipBluePrintVO.id == uv0.bluePrintItems[slot0].shipBluePrintVO.id then
 			triggerToggle(slot0, true)

@@ -226,8 +226,9 @@ function slot0.loadAllCharacter(slot0, slot1)
 		[TeamType.Main] = {},
 		[TeamType.Submarine] = {}
 	}
+	slot2 = getProxy(ActivityProxy):getBuffShipList()
 
-	function slot2(slot0, slot1, slot2, slot3)
+	function slot3(slot0, slot1, slot2, slot3)
 		if uv0.exited then
 			PoolMgr.GetInstance():ReturnSpineChar(slot1:getPrefab(), slot0)
 
@@ -274,30 +275,39 @@ function slot0.loadAllCharacter(slot0, slot1)
 		end
 
 		setActive(slot14, slot13)
+		setActive(slot9:Find("expbuff"), uv1[slot1:getGroupId()] ~= nil)
+
+		if slot15 then
+			if slot15 % 100 > 0 then
+				slot19 = tostring(slot15 / 100) .. "." .. tostring(slot18)
+			end
+
+			setText(slot16:Find("text"), string.format("EXP +%s%%", slot19))
+		end
 
 		if not GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())) then
 			warning("找不到船形, shipConfigId: " .. slot1.configId)
 		end
 
-		setImageSprite(findTF(slot9, "type"), slot15, true)
+		setImageSprite(findTF(slot9, "type"), slot17, true)
 		setText(findTF(slot9, "frame/lv_contain/lv"), slot1.level)
 
-		slot16 = slot4:IsHpSafe()
-		slot17 = findTF(slot9, "blood")
+		slot18 = slot4:IsHpSafe()
+		slot19 = findTF(slot9, "blood")
 
-		setActive(findTF(slot17, "fillarea/green"), slot16)
-		setActive(findTF(slot17, "fillarea/red"), not slot16)
+		setActive(findTF(slot19, "fillarea/green"), slot18)
+		setActive(findTF(slot19, "fillarea/red"), not slot18)
 
-		slot17:GetComponent(typeof(Slider)).fillRect = slot16 and slot18 or slot19
+		slot19:GetComponent(typeof(Slider)).fillRect = slot18 and slot20 or slot21
 
-		setSlider(slot17, 0, 10000, slot4.hpRant)
-		setActive(slot17:Find("broken"), slot4:IsBroken())
+		setSlider(slot19, 0, 10000, slot4.hpRant)
+		setActive(slot19:Find("broken"), slot4:IsBroken())
 		uv0:enabledCharacter(slot5, true, slot2, slot3)
 		uv0:setCharacterPos(slot2, slot3, slot5)
 		uv0:sortSiblingIndex()
 	end
 
-	function slot4(slot0)
+	function slot5(slot0)
 		for slot6, slot7 in ipairs(uv0:getCurrentFleet():GetTeamShipVOs(slot0, false)) do
 			slot8 = slot7:getPrefab()
 
@@ -310,9 +320,9 @@ function slot0.loadAllCharacter(slot0, slot1)
 		end
 	end
 
-	slot4(TeamType.Vanguard)
-	slot4(TeamType.Main)
-	slot4(TeamType.Submarine)
+	slot5(TeamType.Vanguard)
+	slot5(TeamType.Main)
+	slot5(TeamType.Submarine)
 	seriesAsync({}, function (slot0)
 		if uv0 then
 			uv0()

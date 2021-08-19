@@ -24,9 +24,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.labelHeartIcon = findTF(slot0.heart, "icon"):GetComponent(typeof(Image))
 	slot0.labelHeartPlus = findTF(slot0.heart, "heart+"):GetComponent(typeof(Text))
 	slot0.imageUnknown = findTF(slot0.tr, "unknown"):GetComponent(typeof(Image))
+
+	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
 function slot0.update(slot0, slot1, slot2, slot3, slot4, slot5)
+	TweenItemAlphaAndWhite(slot0.go)
+
 	slot6 = ShipGroup.getState(slot5, slot2, slot3)
 
 	if slot0.code ~= slot1 or slot0.shipGroup ~= slot2 or slot0.showTrans ~= slot3 or slot0.propose ~= slot4 or slot0.state ~= slot6 then
@@ -77,6 +81,8 @@ function slot0.flush(slot0)
 end
 
 function slot0.clear(slot0)
+	ClearTweenItemAlphaAndWhite(slot0.go)
+
 	slot0.shipGroup = nil
 	slot0.showTrans = nil
 	slot0.propose = nil

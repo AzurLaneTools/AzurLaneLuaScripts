@@ -2,6 +2,357 @@ pg = pg or {}
 pg.weapon_property_155 = {}
 
 (function ()
+	uv0.weapon_property_155[68173] = {
+		id = 68173,
+		name = "加斯科涅技能·箭型国旗LV3蓝",
+		damage = 25,
+		base = 68171
+	}
+	uv0.weapon_property_155[68174] = {
+		id = 68174,
+		name = "加斯科涅技能·箭型国旗LV4蓝",
+		damage = 28,
+		base = 68171,
+		barrage_ID = {
+			80563,
+			80564
+		}
+	}
+	uv0.weapon_property_155[68175] = {
+		id = 68175,
+		name = "加斯科涅技能·箭型国旗LV5蓝",
+		damage = 31,
+		base = 68171,
+		barrage_ID = {
+			80563,
+			80564
+		}
+	}
+	uv0.weapon_property_155[68176] = {
+		id = 68176,
+		name = "加斯科涅技能·箭型国旗LV6蓝",
+		damage = 34,
+		base = 68171,
+		barrage_ID = {
+			80563,
+			80564
+		}
+	}
+	uv0.weapon_property_155[68177] = {
+		id = 68177,
+		name = "加斯科涅技能·箭型国旗LV7蓝",
+		damage = 39,
+		base = 68171,
+		barrage_ID = {
+			80565,
+			80566
+		}
+	}
+	uv0.weapon_property_155[68178] = {
+		id = 68178,
+		name = "加斯科涅技能·箭型国旗LV8蓝",
+		damage = 44,
+		base = 68171,
+		barrage_ID = {
+			80565,
+			80566
+		}
+	}
+	uv0.weapon_property_155[68179] = {
+		id = 68179,
+		name = "加斯科涅技能·箭型国旗LV9蓝",
+		damage = 49,
+		base = 68171,
+		barrage_ID = {
+			80565,
+			80566
+		}
+	}
+	uv0.weapon_property_155[68180] = {
+		id = 68180,
+		name = "加斯科涅技能·箭型国旗LV10蓝",
+		damage = 54,
+		base = 68171,
+		barrage_ID = {
+			80565,
+			80566
+		}
+	}
+	uv0.weapon_property_155[68181] = {
+		recover_time = 0,
+		name = "北风技能额外六联装鱼雷",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 90,
+		damage = 31,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 68181,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			1801,
+			1801
+		},
+		barrage_ID = {
+			80596,
+			80597
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_155[68182] = {
+		id = 68182,
+		damage = 36,
+		base = 68181
+	}
+	uv0.weapon_property_155[68183] = {
+		id = 68183,
+		damage = 40,
+		base = 68181
+	}
+	uv0.weapon_property_155[68184] = {
+		id = 68184,
+		damage = 45,
+		base = 68181
+	}
+	uv0.weapon_property_155[68185] = {
+		id = 68185,
+		damage = 49,
+		base = 68181
+	}
+	uv0.weapon_property_155[68186] = {
+		id = 68186,
+		damage = 54,
+		base = 68181
+	}
+	uv0.weapon_property_155[68187] = {
+		id = 68187,
+		damage = 58,
+		base = 68181
+	}
+	uv0.weapon_property_155[68188] = {
+		id = 68188,
+		damage = 63,
+		base = 68181
+	}
+	uv0.weapon_property_155[68189] = {
+		id = 68189,
+		damage = 67,
+		base = 68181
+	}
+	uv0.weapon_property_155[68190] = {
+		id = 68190,
+		damage = 72,
+		base = 68181
+	}
+	uv0.weapon_property_155[68191] = {
+		recover_time = 0.5,
+		name = "腓特烈弹幕技能LV1",
+		shakescreen = 302,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "zhupao",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 1300,
+		queue = 1,
+		range = 95,
+		damage = 100,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		id = 68191,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19860
+		},
+		barrage_ID = {
+			80593
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_155[68192] = {
+		id = 68192,
+		name = "腓特烈弹幕技能LV2",
+		damage = 105,
+		base = 68191
+	}
+	uv0.weapon_property_155[68193] = {
+		id = 68193,
+		name = "腓特烈弹幕技能LV3",
+		damage = 111,
+		base = 68191
+	}
+	uv0.weapon_property_155[68194] = {
+		id = 68194,
+		name = "腓特烈弹幕技能LV4",
+		damage = 118,
+		base = 68191
+	}
+	uv0.weapon_property_155[68195] = {
+		id = 68195,
+		name = "腓特烈弹幕技能LV5",
+		damage = 126,
+		base = 68191
+	}
+	uv0.weapon_property_155[68196] = {
+		id = 68196,
+		name = "腓特烈弹幕技能LV6",
+		damage = 137,
+		base = 68191
+	}
+	uv0.weapon_property_155[68197] = {
+		id = 68197,
+		name = "腓特烈弹幕技能LV7",
+		damage = 145,
+		base = 68191,
+		bullet_ID = {
+			19860,
+			19860
+		},
+		barrage_ID = {
+			80595,
+			80594
+		}
+	}
+	uv0.weapon_property_155[68198] = {
+		id = 68198,
+		name = "腓特烈弹幕技能LV8",
+		damage = 156,
+		base = 68191,
+		bullet_ID = {
+			19860,
+			19860
+		},
+		barrage_ID = {
+			80595,
+			80594
+		}
+	}
+	uv0.weapon_property_155[68199] = {
+		id = 68199,
+		name = "腓特烈弹幕技能LV9",
+		damage = 168,
+		base = 68191,
+		bullet_ID = {
+			19860,
+			19860
+		},
+		barrage_ID = {
+			80595,
+			80594
+		}
+	}
+	uv0.weapon_property_155[68200] = {
+		id = 68200,
+		name = "腓特烈弹幕技能LV10",
+		damage = 181,
+		base = 68191,
+		bullet_ID = {
+			19860,
+			19860
+		},
+		barrage_ID = {
+			80595,
+			80594
+		}
+	}
+	uv0.weapon_property_155[68221] = {
+		recover_time = 0.5,
+		name = "腓特烈弹幕小子弹LV1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 95,
+		damage = 13,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 68221,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19861,
+			19861,
+			19861
+		},
+		barrage_ID = {
+			80590,
+			80591,
+			80592
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_155[68222] = {
+		id = 68222,
+		name = "腓特烈弹幕小子弹LV2",
+		damage = 16,
+		base = 68221
+	}
 	uv0.weapon_property_155[68223] = {
 		id = 68223,
 		name = "腓特烈弹幕小子弹LV3",
@@ -505,375 +856,5 @@ pg.weapon_property_155 = {}
 			80563,
 			80564
 		}
-	}
-	uv0.weapon_property_155[68237] = {
-		id = 68237,
-		name = "加斯科涅技能·箭型国旗红-PVP-LV7",
-		damage = 39,
-		base = 68231,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68238] = {
-		id = 68238,
-		name = "加斯科涅技能·箭型国旗红-PVP-LV8",
-		damage = 44,
-		base = 68231,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68239] = {
-		id = 68239,
-		name = "加斯科涅技能·箭型国旗红-PVP-LV9",
-		damage = 49,
-		base = 68231,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68240] = {
-		id = 68240,
-		name = "加斯科涅技能·箭型国旗红-PVP-LV10",
-		damage = 54,
-		base = 68231,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68241] = {
-		recover_time = 0.5,
-		name = "加斯科涅技能·箭型国旗白-PVP-LV1",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 50,
-		reload_max = 3000,
-		queue = 1,
-		range = 115,
-		damage = 19,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 35,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 68241,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19848,
-			19848
-		},
-		barrage_ID = {
-			80561,
-			80562
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_155[68242] = {
-		id = 68242,
-		name = "加斯科涅技能·箭型国旗白-PVP-LV2",
-		damage = 22,
-		base = 68241
-	}
-	uv0.weapon_property_155[68243] = {
-		id = 68243,
-		name = "加斯科涅技能·箭型国旗白-PVP-LV3",
-		damage = 25,
-		base = 68241
-	}
-	uv0.weapon_property_155[68244] = {
-		id = 68244,
-		name = "加斯科涅技能·箭型国旗白-PVP-LV4",
-		damage = 28,
-		base = 68241,
-		barrage_ID = {
-			80563,
-			80564
-		}
-	}
-	uv0.weapon_property_155[68245] = {
-		id = 68245,
-		name = "加斯科涅技能·箭型国旗白-PVP-LV5",
-		damage = 31,
-		base = 68241,
-		barrage_ID = {
-			80563,
-			80564
-		}
-	}
-	uv0.weapon_property_155[68246] = {
-		id = 68246,
-		name = "加斯科涅技能·箭型国旗白-PVP-LV6",
-		damage = 34,
-		base = 68241,
-		barrage_ID = {
-			80563,
-			80564
-		}
-	}
-	uv0.weapon_property_155[68247] = {
-		id = 68247,
-		name = "加斯科涅技能·箭型国旗白-PVP-LV7",
-		damage = 39,
-		base = 68241,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68248] = {
-		id = 68248,
-		name = "加斯科涅技能·箭型国旗白-PVP-LV8",
-		damage = 44,
-		base = 68241,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68249] = {
-		id = 68249,
-		name = "加斯科涅技能·箭型国旗白-PVP-LV9",
-		damage = 49,
-		base = 68241,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68250] = {
-		id = 68250,
-		name = "加斯科涅技能·箭型国旗白-PVP-LV10",
-		damage = 54,
-		base = 68241,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68251] = {
-		recover_time = 0.5,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-LV1",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 50,
-		reload_max = 3000,
-		queue = 1,
-		range = 110,
-		damage = 19,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 35,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 68251,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19849,
-			19849
-		},
-		barrage_ID = {
-			80561,
-			80562
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_155[68252] = {
-		id = 68252,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-LV2",
-		damage = 22,
-		base = 68251
-	}
-	uv0.weapon_property_155[68253] = {
-		id = 68253,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-LV3",
-		damage = 25,
-		base = 68251
-	}
-	uv0.weapon_property_155[68254] = {
-		id = 68254,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-LV4",
-		damage = 28,
-		base = 68251,
-		barrage_ID = {
-			80563,
-			80564
-		}
-	}
-	uv0.weapon_property_155[68255] = {
-		id = 68255,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-LV5",
-		damage = 31,
-		base = 68251,
-		barrage_ID = {
-			80563,
-			80564
-		}
-	}
-	uv0.weapon_property_155[68256] = {
-		id = 68256,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-LV6",
-		damage = 34,
-		base = 68251,
-		barrage_ID = {
-			80563,
-			80564
-		}
-	}
-	uv0.weapon_property_155[68257] = {
-		id = 68257,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-LV7",
-		damage = 39,
-		base = 68251,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68258] = {
-		id = 68258,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-LV8",
-		damage = 44,
-		base = 68251,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68259] = {
-		id = 68259,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-LV9",
-		damage = 49,
-		base = 68251,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68260] = {
-		id = 68260,
-		name = "加斯科涅技能·箭型国旗蓝-PVP-LV10",
-		damage = 54,
-		base = 68251,
-		barrage_ID = {
-			80565,
-			80566
-		}
-	}
-	uv0.weapon_property_155[68261] = {
-		recover_time = 0.5,
-		name = "腓特烈弹幕技能-PVP-LV1",
-		shakescreen = 302,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "zhupao",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 1300,
-		queue = 1,
-		range = 115,
-		damage = 100,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		id = 68261,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			19860
-		},
-		barrage_ID = {
-			80593
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_155[68262] = {
-		id = 68262,
-		name = "腓特烈弹幕技能-PVP-LV2",
-		damage = 105,
-		base = 68261
-	}
-	uv0.weapon_property_155[68263] = {
-		id = 68263,
-		name = "腓特烈弹幕技能-PVP-LV3",
-		damage = 111,
-		base = 68261
-	}
-	uv0.weapon_property_155[68264] = {
-		id = 68264,
-		name = "腓特烈弹幕技能-PVP-LV4",
-		damage = 118,
-		base = 68261
-	}
-	uv0.weapon_property_155[68265] = {
-		id = 68265,
-		name = "腓特烈弹幕技能-PVP-LV5",
-		damage = 126,
-		base = 68261
-	}
-	uv0.weapon_property_155[68266] = {
-		id = 68266,
-		name = "腓特烈弹幕技能-PVP-LV6",
-		damage = 137,
-		base = 68261
 	}
 end)()

@@ -21,6 +21,7 @@ function slot1.Init(slot0, slot1)
 	slot0.manulStatus = false
 	slot0.originalBrightnessValue = 0
 	slot0.originalBrightnessMode = 0
+	slot0.sleepTimeOutCounter = 0
 
 	slot1()
 end
@@ -71,4 +72,21 @@ function slot1.ExitManualMode(slot0)
 	slot0:ClearTask()
 
 	slot0.manulStatus = false
+end
+
+function slot1.SetScreenNeverSleep(slot0, slot1)
+	if tobool(slot1) then
+		if slot0.sleepTimeOutCounter == 0 then
+			Screen.sleepTimeout = SleepTimeout.NeverSleep
+		end
+
+		slot0.sleepTimeOutCounter = slot0.sleepTimeOutCounter + 1
+	else
+		slot0.sleepTimeOutCounter = slot0.sleepTimeOutCounter - 1
+		slot0.sleepTimeOutCounter = math.max(0, slot0.sleepTimeOutCounter)
+
+		if slot0.sleepTimeOutCounter == 0 then
+			Screen.sleepTimeout = SleepTimeout.SystemSetting
+		end
+	end
 end

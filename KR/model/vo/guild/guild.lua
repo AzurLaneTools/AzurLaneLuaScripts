@@ -28,6 +28,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0:updateBaseInfo(slot1)
 	slot0:updateExtraInfo(slot1)
 	slot0:updateUserInfo({})
+
+	slot0.completion = false
 end
 
 function slot0.updateBaseInfo(slot0, slot1)
@@ -108,6 +110,11 @@ function slot0.updateUserInfo(slot0, slot1)
 
 	slot0.extraDonateCnt = slot2.extra_donate or 0
 	slot0.extraBattleCnt = slot2.extra_operation or 0
+	slot0.completion = true
+end
+
+function slot0.IsCompletion(slot0)
+	return slot0.completion
 end
 
 function slot0.AddExtraDonateCnt(slot0, slot1)

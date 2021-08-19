@@ -4427,41 +4427,15 @@ pg.activity_template = {
 	},
 	[20807] = {
 		mark = 20210729,
-		config_client = "",
 		title_res_tag = "IDOLM_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 20807,
 		is_show = 14,
+		config_client = "",
 		id = 20807,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "IDOLMPtPage",
 			ui_name = "IDOLMPtPage"
@@ -4469,12 +4443,13 @@ pg.activity_template = {
 	},
 	[20808] = {
 		mark = 20210729,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 20808,
 		config_data = {
 			1480,
@@ -4497,33 +4472,6 @@ pg.activity_template = {
 			1497,
 			1498,
 			1499
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_IDOLM",
@@ -4626,53 +4574,28 @@ pg.activity_template = {
 	},
 	[20811] = {
 		mark = 20210729,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20811,
 		config_data = {
 			16833
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20812] = {
 		mark = 20210729,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 76,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20812,
 		config_data = {
@@ -4690,43 +4613,17 @@ pg.activity_template = {
 			50026,
 			50027,
 			50028
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20813] = {
 		mark = 20210729,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 21,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20813,
 		config_data = {
@@ -4744,33 +4641,6 @@ pg.activity_template = {
 			70090,
 			70091,
 			70092
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20814] = {
@@ -4798,7 +4668,7 @@ pg.activity_template = {
 	},
 	[20815] = {
 		mark = 20210729,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
@@ -4806,34 +4676,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "[{31974,100}]",
 		config_client = "",
-		id = 20815,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 20815
 	},
 	[20816] = {
 		mark = 20210729,
@@ -4909,6 +4753,424 @@ pg.activity_template = {
 		page_info = {
 			class_name = "TianHouSkinPage",
 			ui_name = "TianHouSkinPage"
+		}
+	},
+	[20819] = {
+		mark = 20210819,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 20819,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					8,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					8,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20820] = {
+		mark = 20210819,
+		id = 20820,
+		title_res_tag = "outpost",
+		type = 74,
+		login_pop = 0,
+		config_id = 20820,
+		is_show = 19,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					8,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "OutPostPtPage",
+			ui_name = "OutPostPtPage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					8,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20822] = {
+		mark = 20210819,
+		title_res_tag = "",
+		page_info = "",
+		type = 18,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		id = 20822,
+		config_data = {
+			{
+				16851
+			},
+			{
+				16852
+			},
+			{
+				16853
+			},
+			{
+				16854
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					8,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			story = {
+				{
+					"MIWUZHIXIA1"
+				},
+				{
+					"MIWUZHIXIA2"
+				},
+				{
+					"MIWUZHIXIA3"
+				},
+				{
+					"MIWUZHIXIA4"
+				}
+			}
+		}
+	},
+	[20823] = {
+		mark = 20210819,
+		id = 20823,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 9,
+		is_show = 10,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					8,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "GeorgiaTecCatchupPage",
+			ui_name = "GeorgiaTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42012
+		}
+	},
+	[20824] = {
+		mark = 20210819,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31973,100}]",
+		config_client = "",
+		id = 20824,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					8,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20825] = {
+		mark = 20210819,
+		config_client = "",
+		title_res_tag = "JiFeng_JKSkin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 17,
+		id = 20825,
+		config_data = {
+			{
+				16855,
+				16856
+			},
+			{
+				16857,
+				16858
+			},
+			{
+				16859,
+				16860
+			},
+			{
+				16861,
+				16862
+			},
+			{
+				16863,
+				16864
+			},
+			{
+				16865,
+				16866
+			},
+			{
+				16867,
+				16868
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					8,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JiFengJKSkinPage",
+			ui_name = "JiFengJKSkinPage"
+		}
+	},
+	[20826] = {
+		mark = 20210819,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20826,
+		config_data = {
+			16869
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					8,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20827] = {
+		mark = 20210819,
+		title_res_tag = "",
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 21,
+		is_show = 0,
+		config_data = "0",
+		id = 20827,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					8,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			ships = {
+				"chunxiang",
+				"qianzao",
+				"yizhi",
+				"lvzi",
+				"zi",
+				"yamei",
+				"zhenmei"
+			}
 		}
 	},
 	[25000] = {
@@ -5887,6 +6149,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[25061] = {
+		mark = 20210819,
+		time = "always",
+		page_info = "",
+		type = 17,
+		login_pop = 0,
+		config_id = 5681,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 25061,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[29006] = {
 		mark = 20200624,
 		title_res_tag = "monopoly_car",
@@ -6031,6 +6309,14 @@ pg.activity_template = {
 		20816,
 		20817,
 		20818,
+		20819,
+		20820,
+		20822,
+		20823,
+		20824,
+		20825,
+		20826,
+		20827,
 		25000,
 		25001,
 		25002,
@@ -6092,6 +6378,7 @@ pg.activity_template = {
 		25058,
 		25059,
 		25060,
+		25061,
 		29006
 	}
 }

@@ -1955,15 +1955,18 @@ function slot0.updateChat(slot0, slot1)
 		else
 			slot10.supportRichText = slot7.emojiId ~= nil
 			slot11 = false
+			slot13 = false
 
-			if not slot7.emojiId then
-				slot12 = shortenString(slot7.player.name .. ": " .. slot7.content, 24)
+			for slot18 in string.gmatch(slot7.player.name .. ": " .. slot7.content, ChatConst.EmojiIconCodeMatch), nil,  do
+				if table.contains(pg.emoji_small_template.all, tonumber(slot18)) then
+					slot13 = true
+
+					slot10:AddSprite(slot18, LoadSprite("emoji/" .. pg.emoji_small_template[tonumber(slot18)].pic .. "_small", nil))
+				end
 			end
 
-			for slot17 in string.gmatch(slot12, ChatConst.EmojiIconCodeMatch), nil,  do
-				if table.contains(pg.emoji_small_template.all, tonumber(slot17)) then
-					slot10:AddSprite(slot17, LoadSprite("emoji/" .. pg.emoji_small_template[tonumber(slot17)].pic .. "_small", nil))
-				end
+			if not slot7.emojiId then
+				slot12 = (not slot13 or shortenString(slot12, 20)) and shortenString(slot12, 24)
 			end
 
 			slot10.text = string.gsub(slot12, ChatConst.EmojiIconCodeMatch, function (slot0)

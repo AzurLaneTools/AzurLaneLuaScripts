@@ -8,10 +8,12 @@ function slot0.register(slot0)
 			count = slot2,
 			arg = slot3,
 			callback = function (slot0)
-				uv0:sendNotification(GAME.USE_ITEM, {
-					count = 1,
-					id = slot0[1].id
-				})
+				if slot0 then
+					uv0:sendNotification(GAME.USE_ITEM, {
+						count = 1,
+						id = slot0[1].id
+					})
+				end
 			end
 		})
 	end)

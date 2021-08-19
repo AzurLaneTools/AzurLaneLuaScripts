@@ -2,13 +2,7 @@ pg = pg or {}
 slot0 = pg
 slot0.IPAddress = class("IPAddress")
 slot1 = slot0.IPAddress
-slot2 = {
-	"http://damninter.net/",
-	"http://icanhazip.com/",
-	"http://icanhazip.com/",
-	"http://icanhazip.com/",
-	"http://icanhazip.com/"
-}
+slot2 = {}
 slot3 = {
 	{
 		"202.39.128.0",

@@ -82,23 +82,10 @@ function slot0.register(slot0)
 				content = i18n("world_low_morale")
 			})
 		else
-			slot4 = {}
-
-			table.insert(slot4, function (slot0)
-				Fleet.EnergyCheck(uv0:GetShipVOs(true), uv0:GetDefaultName(), function (slot0)
-					if slot0 then
-						uv0()
-					else
-						nowWorld:TriggerAutoFight(false)
-					end
-				end)
-			end)
-			seriesAsync(slot4, function ()
-				uv0:sendNotification(GAME.BEGIN_STAGE, {
-					system = SYSTEM_WORLD,
-					stageId = uv1
-				})
-			end)
+			uv0:sendNotification(GAME.BEGIN_STAGE, {
+				system = SYSTEM_WORLD,
+				stageId = slot1
+			})
 		end
 	end)
 	slot0:bind(uv0.OnAutoSubmitTask, function (slot0, slot1)

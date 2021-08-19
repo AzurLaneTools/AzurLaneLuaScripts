@@ -1,86 +1,86 @@
 pg = pg or {}
 pg.aircraft_template_147 = {
-	[65125] = {
-		id = 65125,
-		name = "恶毒μ神圣天使轰炸机Lv5",
-		base = 65121,
-		max_hp = 67,
-		hp_growth = 2575,
+	[65065] = {
+		id = 65065,
+		name = "普林斯顿技能鱼雷机Lv5",
+		base = 65061,
+		max_hp = 64,
+		hp_growth = 2458,
 		weapon_ID = {
-			65135
+			65075
 		}
 	},
-	[65126] = {
-		id = 65126,
-		name = "恶毒μ神圣天使轰炸机Lv6",
-		base = 65121,
-		max_hp = 73,
-		hp_growth = 2796,
+	[65066] = {
+		id = 65066,
+		name = "普林斯顿技能鱼雷机Lv6",
+		base = 65061,
+		max_hp = 69,
+		hp_growth = 2669,
 		weapon_ID = {
-			65136
+			65076
 		}
 	},
-	[65127] = {
-		id = 65127,
-		name = "恶毒μ神圣天使轰炸机Lv7",
-		base = 65121,
-		max_hp = 79,
-		hp_growth = 3016,
+	[65067] = {
+		id = 65067,
+		name = "普林斯顿技能鱼雷机Lv7",
+		base = 65061,
+		max_hp = 75,
+		hp_growth = 2879,
 		weapon_ID = {
-			65137
+			65077
 		}
 	},
-	[65128] = {
-		id = 65128,
-		name = "恶毒μ神圣天使轰炸机Lv8",
-		base = 65121,
+	[65068] = {
+		id = 65068,
+		name = "普林斯顿技能鱼雷机Lv8",
+		base = 65061,
+		max_hp = 80,
+		hp_growth = 3090,
+		weapon_ID = {
+			65078
+		}
+	},
+	[65069] = {
+		id = 65069,
+		name = "普林斯顿技能鱼雷机Lv9",
+		base = 65061,
 		max_hp = 86,
-		hp_growth = 3237,
+		hp_growth = 3301,
 		weapon_ID = {
-			65138
+			65079
 		}
 	},
-	[65129] = {
-		id = 65129,
-		name = "恶毒μ神圣天使轰炸机Lv9",
-		base = 65121,
-		max_hp = 92,
-		hp_growth = 3458,
+	[65070] = {
+		id = 65070,
+		name = "普林斯顿技能鱼雷机Lv10",
+		base = 65061,
+		max_hp = 91,
+		hp_growth = 3511,
 		weapon_ID = {
-			65139
+			65080
 		}
 	},
-	[65130] = {
-		id = 65130,
-		name = "恶毒μ神圣天使轰炸机Lv10",
-		base = 65121,
-		max_hp = 98,
-		hp_growth = 3678,
-		weapon_ID = {
-			65140
-		}
-	},
-	[65181] = {
+	[65121] = {
 		attack_power = 2,
-		name = "大凤μ技能鱼雷机Lv1",
-		type = 2,
+		name = "恶毒μ神圣天使轰炸机Lv1",
+		type = 3,
 		accuracy = 23,
-		model_ID = "liuxing",
+		model_ID = "feiji_shenshengtianshi",
 		ACC_growth = 0,
-		crash_DMG = 188,
+		crash_DMG = 208,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 65181,
-		icon = "liuxing",
+		nationality = 9,
+		id = 65121,
+		icon = "feiji_shenshengtianshi",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1605,
-		speed = 52,
+		hp_growth = 1692,
+		speed = 48,
 		max_hp = 42,
 		scale = 1,
 		weapon_ID = {
-			65191
+			65131
 		},
 		position_offset = {
 			0,
@@ -123,7 +123,7 @@ pg.aircraft_template_147 = {
 				0
 			},
 			{
-				0.26,
+				0.54,
 				0,
 				0
 			},
@@ -134,34 +134,34 @@ pg.aircraft_template_147 = {
 			}
 		}
 	},
-	[65182] = {
-		id = 65182,
-		name = "大凤μ技能鱼雷机Lv2",
-		base = 65181,
+	[65122] = {
+		id = 65122,
+		name = "恶毒μ神圣天使轰炸机Lv2",
+		base = 65121,
 		max_hp = 48,
-		hp_growth = 1846,
+		hp_growth = 1913,
 		weapon_ID = {
-			65192
+			65132
 		}
 	},
-	[65183] = {
-		id = 65183,
-		name = "大凤μ技能鱼雷机Lv3",
-		base = 65181,
+	[65123] = {
+		id = 65123,
+		name = "恶毒μ神圣天使轰炸机Lv3",
+		base = 65121,
 		max_hp = 54,
-		hp_growth = 2087,
+		hp_growth = 2133,
 		weapon_ID = {
-			65193
+			65133
 		}
 	},
-	[65184] = {
-		id = 65184,
-		name = "大凤μ技能鱼雷机Lv4",
-		base = 65181,
+	[65124] = {
+		id = 65124,
+		name = "恶毒μ神圣天使轰炸机Lv4",
+		base = 65121,
 		max_hp = 61,
-		hp_growth = 2327,
+		hp_growth = 2354,
 		weapon_ID = {
-			65194
+			65134
 		}
 	}
 }

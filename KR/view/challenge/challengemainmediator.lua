@@ -72,8 +72,10 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(ActivityFleetPanel.ON_FLEET_CLEAR, function (slot0, slot1)
 		slot3 = uv0:getActivityFleets()[uv1.id]
+		slot4 = slot3[slot1]
 
-		slot3[slot1]:clearFleet()
+		slot4:clearFleet()
+		uv0:updateActivityFleet(uv1.id, slot1, slot4)
 		uv2.viewComponent:setFleet(slot3)
 		uv2.viewComponent:updateEditPanel()
 	end)

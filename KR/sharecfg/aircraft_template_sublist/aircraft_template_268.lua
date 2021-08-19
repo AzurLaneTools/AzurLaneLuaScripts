@@ -1,42 +1,66 @@
 pg = pg or {}
 pg.aircraft_template_268 = {
-	[88004] = {
-		id = 88004,
-		max_hp = 50,
-		hp_growth = 1935,
-		base = 88000,
+	[86106] = {
+		id = 86106,
+		max_hp = 69,
+		hp_growth = 2669,
+		base = 86100,
 		weapon_ID = {
-			50024
+			50046,
+			50746
 		}
 	},
-	[88005] = {
-		id = 88005,
-		max_hp = 55,
-		hp_growth = 2117,
-		base = 88000,
+	[86107] = {
+		id = 86107,
+		max_hp = 75,
+		hp_growth = 2879,
+		base = 86100,
 		weapon_ID = {
-			50025
+			50047,
+			50747
 		}
 	},
-	[88006] = {
-		id = 88006,
-		max_hp = 60,
-		hp_growth = 2298,
-		base = 88000,
+	[86108] = {
+		id = 86108,
+		max_hp = 80,
+		hp_growth = 3090,
+		base = 86100,
 		weapon_ID = {
-			50026
+			50048,
+			50748
 		}
 	},
-	[88007] = {
-		id = 88007,
-		max_hp = 64,
-		hp_growth = 2480,
-		base = 88000,
+	[86109] = {
+		id = 86109,
+		max_hp = 86,
+		hp_growth = 3301,
+		base = 86100,
 		weapon_ID = {
-			50027
+			50049,
+			50749
 		}
 	},
-	[90820] = {
+	[86110] = {
+		id = 86110,
+		max_hp = 91,
+		hp_growth = 3511,
+		base = 86100,
+		weapon_ID = {
+			50050,
+			50750
+		}
+	},
+	[86111] = {
+		id = 86111,
+		max_hp = 97,
+		hp_growth = 3722,
+		base = 86100,
+		weapon_ID = {
+			50051,
+			50751
+		}
+	},
+	[88000] = {
 		attack_power = 2,
 		name = "GL.2舰载战斗机T0",
 		type = 1,
@@ -47,7 +71,7 @@ pg.aircraft_template_268 = {
 		dodge = 0.354,
 		funnel_behavior = "",
 		nationality = 8,
-		id = 90820,
+		id = 88000,
 		icon = "GL2",
 		AP_growth = 2000,
 		dodge_limit = 8.5,
@@ -110,49 +134,31 @@ pg.aircraft_template_268 = {
 			}
 		}
 	},
-	[90821] = {
-		id = 90821,
+	[88001] = {
+		id = 88001,
 		max_hp = 36,
 		hp_growth = 1391,
-		base = 90820,
+		base = 88000,
 		weapon_ID = {
 			50021
 		}
 	},
-	[90822] = {
-		id = 90822,
+	[88002] = {
+		id = 88002,
 		max_hp = 41,
 		hp_growth = 1572,
-		base = 90820,
+		base = 88000,
 		weapon_ID = {
 			50022
 		}
 	},
-	[90823] = {
-		id = 90823,
+	[88003] = {
+		id = 88003,
 		max_hp = 46,
 		hp_growth = 1754,
-		base = 90820,
+		base = 88000,
 		weapon_ID = {
 			50023
-		}
-	},
-	[90824] = {
-		id = 90824,
-		max_hp = 50,
-		hp_growth = 1935,
-		base = 90820,
-		weapon_ID = {
-			50024
-		}
-	},
-	[90825] = {
-		id = 90825,
-		max_hp = 55,
-		hp_growth = 2117,
-		base = 90820,
-		weapon_ID = {
-			50025
 		}
 	}
 }

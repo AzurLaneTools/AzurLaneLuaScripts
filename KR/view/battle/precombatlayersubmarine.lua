@@ -170,6 +170,7 @@ function slot0.didEnter(slot0)
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	setActive(slot0._autoToggle, false)
+	setActive(slot0._autoSubToggle, false)
 	onNextTick(function ()
 		uv0:uiStartAnimating()
 	end)

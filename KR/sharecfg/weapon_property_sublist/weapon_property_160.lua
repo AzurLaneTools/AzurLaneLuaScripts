@@ -2,6 +2,365 @@ pg = pg or {}
 pg.weapon_property_160 = {}
 
 (function ()
+	uv0.weapon_property_160[68493] = {
+		id = 68493,
+		name = "俾斯麦·小子弹LV3",
+		damage = 13,
+		base = 68491
+	}
+	uv0.weapon_property_160[68494] = {
+		id = 68494,
+		name = "俾斯麦·小子弹LV4",
+		damage = 14,
+		base = 68491
+	}
+	uv0.weapon_property_160[68495] = {
+		id = 68495,
+		name = "俾斯麦·小子弹LV5",
+		damage = 15,
+		base = 68491
+	}
+	uv0.weapon_property_160[68496] = {
+		id = 68496,
+		name = "俾斯麦·小子弹LV6",
+		damage = 16,
+		base = 68491
+	}
+	uv0.weapon_property_160[68497] = {
+		id = 68497,
+		name = "俾斯麦·小子弹LV7",
+		damage = 17,
+		base = 68491
+	}
+	uv0.weapon_property_160[68498] = {
+		id = 68498,
+		name = "俾斯麦·小子弹LV8",
+		damage = 18,
+		base = 68491
+	}
+	uv0.weapon_property_160[68499] = {
+		id = 68499,
+		name = "俾斯麦·小子弹LV9",
+		damage = 19,
+		base = 68491
+	}
+	uv0.weapon_property_160[68500] = {
+		id = 68500,
+		name = "俾斯麦·小子弹LV10",
+		damage = 20,
+		base = 68491
+	}
+	uv0.weapon_property_160[68501] = {
+		recover_time = 0.5,
+		name = "小圣地亚哥LV1",
+		shakescreen = 0,
+		type = 23,
+		torpedo_ammo = 0,
+		fire_fx = "zhupao",
+		action_index = "attack",
+		fire_fx_loop_type = 1,
+		axis_angle = 0,
+		attack_attribute = 5,
+		reload_max = 3000,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		queue = 1,
+		suppress = 1,
+		range = 75,
+		damage = 30,
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		id = 68501,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19887
+		},
+		barrage_ID = {
+			1
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			maxLock = 2,
+			lockTime = 0.3
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_160[68502] = {
+		id = 68502,
+		name = "小圣地亚哥LV2",
+		damage = 33,
+		base = 68501
+	}
+	uv0.weapon_property_160[68503] = {
+		id = 68503,
+		name = "小圣地亚哥LV3",
+		damage = 36,
+		base = 68501
+	}
+	uv0.weapon_property_160[68504] = {
+		id = 68504,
+		name = "小圣地亚哥LV4",
+		damage = 39,
+		base = 68501,
+		barrage_ID = {
+			5
+		}
+	}
+	uv0.weapon_property_160[68505] = {
+		id = 68505,
+		name = "小圣地亚哥LV5",
+		damage = 42,
+		base = 68501,
+		barrage_ID = {
+			5
+		}
+	}
+	uv0.weapon_property_160[68506] = {
+		id = 68506,
+		name = "小圣地亚哥LV6",
+		damage = 46,
+		base = 68501,
+		barrage_ID = {
+			5
+		}
+	}
+	uv0.weapon_property_160[68507] = {
+		id = 68507,
+		name = "小圣地亚哥LV7",
+		damage = 50,
+		base = 68501,
+		barrage_ID = {
+			5
+		}
+	}
+	uv0.weapon_property_160[68508] = {
+		id = 68508,
+		name = "小圣地亚哥LV8",
+		damage = 54,
+		base = 68501,
+		barrage_ID = {
+			6
+		}
+	}
+	uv0.weapon_property_160[68509] = {
+		id = 68509,
+		name = "小圣地亚哥LV9",
+		damage = 58,
+		base = 68501,
+		barrage_ID = {
+			6
+		}
+	}
+	uv0.weapon_property_160[68510] = {
+		id = 68510,
+		name = "小圣地亚哥LV10",
+		damage = 62,
+		base = 68501,
+		barrage_ID = {
+			6
+		}
+	}
+	uv0.weapon_property_160[68511] = {
+		recover_time = 0.5,
+		name = "Z23技能弹幕LV1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 50,
+		damage = 20,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 68511,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19888,
+			19888,
+			19888
+		},
+		barrage_ID = {
+			80721,
+			80725,
+			80728
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_160[68512] = {
+		id = 68512,
+		name = "Z23技能弹幕LV2",
+		damage = 22,
+		base = 68511
+	}
+	uv0.weapon_property_160[68513] = {
+		id = 68513,
+		name = "Z23技能弹幕LV3",
+		damage = 24,
+		base = 68511
+	}
+	uv0.weapon_property_160[68514] = {
+		id = 68514,
+		name = "Z23技能弹幕LV4",
+		damage = 28,
+		base = 68511,
+		barrage_ID = {
+			80722,
+			80725,
+			80728
+		}
+	}
+	uv0.weapon_property_160[68515] = {
+		id = 68515,
+		name = "Z23技能弹幕LV5",
+		damage = 26,
+		base = 68511,
+		barrage_ID = {
+			80722,
+			80725,
+			80728
+		}
+	}
+	uv0.weapon_property_160[68516] = {
+		id = 68516,
+		name = "Z23技能弹幕LV6",
+		damage = 28,
+		base = 68511,
+		barrage_ID = {
+			80722,
+			80725,
+			80728
+		}
+	}
+	uv0.weapon_property_160[68517] = {
+		id = 68517,
+		name = "Z23技能弹幕LV7",
+		damage = 30,
+		base = 68511,
+		barrage_ID = {
+			80722,
+			80726,
+			80729
+		}
+	}
+	uv0.weapon_property_160[68518] = {
+		id = 68518,
+		name = "Z23技能弹幕LV8",
+		damage = 32,
+		base = 68511,
+		barrage_ID = {
+			80723,
+			80726,
+			80729
+		}
+	}
+	uv0.weapon_property_160[68519] = {
+		id = 68519,
+		name = "Z23技能弹幕LV9",
+		damage = 34,
+		base = 68511,
+		barrage_ID = {
+			80723,
+			80726,
+			80729
+		}
+	}
+	uv0.weapon_property_160[68520] = {
+		id = 68520,
+		name = "Z23技能弹幕LV10",
+		damage = 36,
+		base = 68511,
+		barrage_ID = {
+			80723,
+			80727,
+			80730
+		}
+	}
+	uv0.weapon_property_160[68521] = {
+		recover_time = 0.5,
+		name = "埃米尔·贝尔汀改技能弹幕LV1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 75,
+		damage = 30,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 68521,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			78111,
+			78111
+		},
+		barrage_ID = {
+			80731,
+			80732
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_160[68522] = {
+		id = 68522,
+		name = "埃米尔·贝尔汀改技能弹幕LV2",
+		damage = 33,
+		base = 68521
+	}
 	uv0.weapon_property_160[68523] = {
 		id = 68523,
 		name = "埃米尔·贝尔汀改技能弹幕LV3",
@@ -316,343 +675,5 @@ pg.weapon_property_160 = {}
 		id = 68556,
 		damage = 117,
 		base = 68551
-	}
-	uv0.weapon_property_160[68557] = {
-		id = 68557,
-		damage = 128,
-		base = 68551
-	}
-	uv0.weapon_property_160[68558] = {
-		id = 68558,
-		damage = 138,
-		base = 68551
-	}
-	uv0.weapon_property_160[68559] = {
-		id = 68559,
-		damage = 149,
-		base = 68551
-	}
-	uv0.weapon_property_160[68560] = {
-		id = 68560,
-		damage = 159,
-		base = 68551
-	}
-	uv0.weapon_property_160[68561] = {
-		recover_time = 0.5,
-		name = "伊25上浮技能弹幕LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 3000,
-		queue = 1,
-		range = 50,
-		damage = 20,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 68561,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19865,
-			19865,
-			19865
-		},
-		barrage_ID = {
-			80741,
-			80742,
-			80743
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_160[68562] = {
-		id = 68562,
-		name = "伊25上浮技能弹幕LV2",
-		damage = 22,
-		base = 68561
-	}
-	uv0.weapon_property_160[68563] = {
-		id = 68563,
-		name = "伊25上浮技能弹幕LV3",
-		damage = 24,
-		base = 68561
-	}
-	uv0.weapon_property_160[68564] = {
-		id = 68564,
-		name = "伊25上浮技能弹幕LV4",
-		damage = 28,
-		base = 68561
-	}
-	uv0.weapon_property_160[68565] = {
-		id = 68565,
-		name = "伊25上浮技能弹幕LV5",
-		damage = 26,
-		base = 68561
-	}
-	uv0.weapon_property_160[68566] = {
-		id = 68566,
-		name = "伊25上浮技能弹幕LV6",
-		damage = 28,
-		base = 68561
-	}
-	uv0.weapon_property_160[68567] = {
-		id = 68567,
-		name = "伊25上浮技能弹幕LV7",
-		damage = 30,
-		base = 68561
-	}
-	uv0.weapon_property_160[68568] = {
-		id = 68568,
-		name = "伊25上浮技能弹幕LV8",
-		damage = 32,
-		base = 68561
-	}
-	uv0.weapon_property_160[68569] = {
-		id = 68569,
-		name = "伊25上浮技能弹幕LV9",
-		damage = 34,
-		base = 68561
-	}
-	uv0.weapon_property_160[68570] = {
-		id = 68570,
-		name = "伊25上浮技能弹幕LV10",
-		damage = 36,
-		base = 68561
-	}
-	uv0.weapon_property_160[68571] = {
-		recover_time = 0,
-		name = "168技能鱼雷LV1",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 90,
-		damage = 27,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 68571,
-		attack_attribute_ratio = 120,
-		aim_type = 0,
-		bullet_ID = {
-			19899,
-			19899
-		},
-		barrage_ID = {
-			80735,
-			80736
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_160[68572] = {
-		id = 68572,
-		name = "168技能鱼雷LV2",
-		damage = 30,
-		base = 68571
-	}
-	uv0.weapon_property_160[68573] = {
-		id = 68573,
-		name = "168技能鱼雷LV3",
-		damage = 33,
-		base = 68571
-	}
-	uv0.weapon_property_160[68574] = {
-		id = 68574,
-		name = "168技能鱼雷LV4",
-		damage = 36,
-		base = 68571,
-		barrage_ID = {
-			80737,
-			80738
-		}
-	}
-	uv0.weapon_property_160[68575] = {
-		id = 68575,
-		name = "168技能鱼雷LV5",
-		damage = 40,
-		base = 68571,
-		barrage_ID = {
-			80737,
-			80738
-		}
-	}
-	uv0.weapon_property_160[68576] = {
-		id = 68576,
-		name = "168技能鱼雷LV6",
-		damage = 44,
-		base = 68571,
-		barrage_ID = {
-			80737,
-			80738
-		}
-	}
-	uv0.weapon_property_160[68577] = {
-		id = 68577,
-		name = "168技能鱼雷LV7",
-		damage = 48,
-		base = 68571,
-		barrage_ID = {
-			80737,
-			80738
-		}
-	}
-	uv0.weapon_property_160[68578] = {
-		id = 68578,
-		name = "168技能鱼雷LV8",
-		damage = 52,
-		base = 68571,
-		barrage_ID = {
-			80739,
-			80740
-		}
-	}
-	uv0.weapon_property_160[68579] = {
-		id = 68579,
-		name = "168技能鱼雷LV9",
-		damage = 56,
-		base = 68571,
-		barrage_ID = {
-			80739,
-			80740
-		}
-	}
-	uv0.weapon_property_160[68580] = {
-		id = 68580,
-		name = "168技能鱼雷LV10",
-		damage = 60,
-		base = 68571,
-		barrage_ID = {
-			80739,
-			80740
-		}
-	}
-	uv0.weapon_property_160[68581] = {
-		recover_time = 0,
-		name = "阿拉巴马技能LV1-PVP",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 115,
-		damage = 58,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 35,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 68581,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19001,
-			19001,
-			19001
-		},
-		barrage_ID = {
-			80760,
-			80761,
-			80762
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jineng",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_160[68582] = {
-		id = 68582,
-		name = "阿拉巴马技能LV2-PVP",
-		damage = 70,
-		base = 68581
-	}
-	uv0.weapon_property_160[68583] = {
-		id = 68583,
-		name = "阿拉巴马技能LV3-PVP",
-		damage = 82,
-		base = 68581
-	}
-	uv0.weapon_property_160[68584] = {
-		id = 68584,
-		name = "阿拉巴马技能LV4-PVP",
-		damage = 94,
-		base = 68581
-	}
-	uv0.weapon_property_160[68585] = {
-		id = 68585,
-		name = "阿拉巴马技能LV5-PVP",
-		damage = 106,
-		base = 68581
-	}
-	uv0.weapon_property_160[68586] = {
-		id = 68586,
-		name = "阿拉巴马技能LV6-PVP",
-		damage = 118,
-		base = 68581,
-		barrage_ID = {
-			80763,
-			80764,
-			80765
-		}
 	}
 end)()

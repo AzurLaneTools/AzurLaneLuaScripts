@@ -10,8 +10,7 @@ slot0.CLOSE_CHAT = "BattleMediator:CLOSE_CHAT"
 slot0.ON_AUTO = "BattleMediator:ON_AUTO"
 
 function slot0.register(slot0)
-	Screen.sleepTimeout = SleepTimeout.NeverSleep
-
+	pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(true)
 	slot0:GenBattleData()
 
 	slot0.contextData.battleData = slot0._battleData
@@ -1052,7 +1051,7 @@ function slot0.sortMainShips(slot0)
 end
 
 function slot0.remove(slot0)
-	Screen.sleepTimeout = SleepTimeout.SystemSetting
+	pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(false)
 end
 
 return slot0

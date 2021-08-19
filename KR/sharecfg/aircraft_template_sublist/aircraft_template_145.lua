@@ -60,27 +60,27 @@ pg.aircraft_template_145 = {
 			64590
 		}
 	},
-	[65061] = {
+	[64601] = {
 		attack_power = 2,
-		name = "普林斯顿技能鱼雷机Lv1",
+		name = "皇家方舟改技能剑鱼",
 		type = 2,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "jianyu",
 		ACC_growth = 0,
-		crash_DMG = 406,
-		dodge = 1,
+		crash_DMG = 306,
+		dodge = 1.11,
 		funnel_behavior = "",
-		nationality = 1,
-		id = 65061,
-		icon = "tbf",
+		nationality = 2,
+		id = 64601,
+		icon = "jianyu",
 		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 1615,
-		speed = 48,
-		max_hp = 42,
+		dodge_limit = 4,
+		hp_growth = 1338,
+		speed = 45,
+		max_hp = 35,
 		scale = 1,
 		weapon_ID = {
-			65071
+			64611
 		},
 		position_offset = {
 			0,
@@ -134,34 +134,31 @@ pg.aircraft_template_145 = {
 			}
 		}
 	},
-	[65062] = {
-		id = 65062,
-		name = "普林斯顿技能鱼雷机Lv2",
-		base = 65061,
-		max_hp = 47,
-		hp_growth = 1826,
+	[64602] = {
+		id = 64602,
+		max_hp = 40,
+		hp_growth = 1538,
+		base = 64601,
 		weapon_ID = {
-			65072
+			64612
 		}
 	},
-	[65063] = {
-		id = 65063,
-		name = "普林斯顿技能鱼雷机Lv3",
-		base = 65061,
-		max_hp = 53,
-		hp_growth = 2036,
+	[64603] = {
+		id = 64603,
+		max_hp = 45,
+		hp_growth = 1739,
+		base = 64601,
 		weapon_ID = {
-			65073
+			64613
 		}
 	},
-	[65064] = {
-		id = 65064,
-		name = "普林斯顿技能鱼雷机Lv4",
-		base = 65061,
-		max_hp = 58,
-		hp_growth = 2247,
+	[64604] = {
+		id = 64604,
+		max_hp = 50,
+		hp_growth = 1940,
+		base = 64601,
 		weapon_ID = {
-			65074
+			64614
 		}
 	}
 }

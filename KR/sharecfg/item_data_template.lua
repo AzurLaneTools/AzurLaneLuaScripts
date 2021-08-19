@@ -7137,6 +7137,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[30328] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30328",
+		id = 30328,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[30900] = {
 		usage = "usage_drop_appointed",
 		display_effect = "",
@@ -28476,6 +28491,7 @@ pg.item_data_template = {
 		30325,
 		30326,
 		30327,
+		30328,
 		30900,
 		30911,
 		30912,

@@ -142,7 +142,14 @@ function slot0.update(slot0, slot1)
 				end
 
 				if slot3 then
-					GetComponent(slot0, "VerticalLayoutGroup").padding.bottom = 30
+					GetComponent(slot0, "VerticalLayoutGroup").padding.bottom = -100
+
+					Canvas.ForceUpdateCanvases()
+					onNextTick(function ()
+						uv0.padding.bottom = 30
+
+						Canvas.ForceUpdateCanvases()
+					end)
 				else
 					slot4.padding.bottom = slot4.padding.top
 				end
@@ -160,9 +167,11 @@ function slot0.update(slot0, slot1)
 				tf(slot0):SetAsFirstSibling()
 				Canvas.ForceUpdateCanvases()
 				uv0:OnChatFrameLoaded(slot0)
-			else
-				PoolMgr.GetInstance():ReturnPrefab("ChatFrame/" .. uv2, uv2, slot0)
+
+				return
 			end
+
+			PoolMgr.GetInstance():ReturnPrefab("ChatFrame/" .. uv2, uv2, slot0)
 		end)
 	end
 

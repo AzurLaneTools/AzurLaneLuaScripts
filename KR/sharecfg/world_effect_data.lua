@@ -3182,7 +3182,7 @@ pg.world_effect_data = {
 			}
 		},
 		autoflag = {
-			0
+			2
 		}
 	},
 	[1108] = {
@@ -3656,7 +3656,9 @@ pg.world_effect_data = {
 				}
 			}
 		},
-		autoflag = {}
+		autoflag = {
+			0
+		}
 	},
 	[1423] = {
 		autocomplete = 0,
@@ -3675,7 +3677,9 @@ pg.world_effect_data = {
 				}
 			}
 		},
-		autoflag = {}
+		autoflag = {
+			0
+		}
 	},
 	[1424] = {
 		autocomplete = 0,
@@ -3766,7 +3770,9 @@ pg.world_effect_data = {
 				}
 			}
 		},
-		autoflag = {}
+		autoflag = {
+			0
+		}
 	},
 	[1428] = {
 		autocomplete = 0,
@@ -3785,7 +3791,9 @@ pg.world_effect_data = {
 				}
 			}
 		},
-		autoflag = {}
+		autoflag = {
+			0
+		}
 	},
 	[1429] = {
 		autocomplete = 0,
@@ -3957,7 +3965,9 @@ pg.world_effect_data = {
 				}
 			}
 		},
-		autoflag = {}
+		autoflag = {
+			0
+		}
 	},
 	[1441] = {
 		autocomplete = 0,
@@ -8324,10 +8334,6 @@ pg.world_effect_data = {
 		autoactivate = 2,
 		sound_effects = "",
 		effect_paramater = {
-			{
-				5404,
-				50
-			},
 			{
 				5405,
 				50

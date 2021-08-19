@@ -1,60 +1,60 @@
 pg = pg or {}
 pg.aircraft_template_185 = {
-	[68308] = {
-		id = 68308,
-		name = "绊爱技能轰炸机Lv8",
-		base = 68301,
-		max_hp = 86,
-		hp_growth = 3531,
+	[68038] = {
+		id = 68038,
+		name = "邦克山技能轰炸机Lv8",
+		base = 68031,
+		max_hp = 63,
+		hp_growth = 2320,
 		weapon_ID = {
-			68318,
-			68328
+			68048,
+			68058
 		}
 	},
-	[68309] = {
-		id = 68309,
-		name = "绊爱技能轰炸机Lv9",
-		base = 68301,
-		max_hp = 92,
-		hp_growth = 3772,
+	[68039] = {
+		id = 68039,
+		name = "邦克山技能轰炸机Lv9",
+		base = 68031,
+		max_hp = 68,
+		hp_growth = 2483,
 		weapon_ID = {
-			68319,
-			68329
+			68049,
+			68059
 		}
 	},
-	[68310] = {
-		id = 68310,
-		name = "绊爱技能轰炸机Lv10",
-		base = 68301,
-		max_hp = 98,
-		hp_growth = 4013,
+	[68040] = {
+		id = 68040,
+		name = "邦克山技能轰炸机Lv10",
+		base = 68031,
+		max_hp = 73,
+		hp_growth = 2646,
 		weapon_ID = {
-			68320,
-			68330
+			68050,
+			68060
 		}
 	},
-	[68331] = {
+	[68301] = {
 		attack_power = 2,
-		name = "小赤城技能飞机Lv1",
+		name = "绊爱技能轰炸机Lv1",
 		type = 3,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "feiji_ai_aijiang",
 		ACC_growth = 0,
-		crash_DMG = 180,
+		crash_DMG = 208,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 68331,
-		icon = "99shijianbao1",
+		id = 68301,
+		icon = "feiji_ai_aijiang",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1692,
+		hp_growth = 1846,
 		speed = 48,
 		max_hp = 42,
 		scale = 1,
 		weapon_ID = {
-			68341,
-			68351
+			68311,
+			68321
 		},
 		position_offset = {
 			0,
@@ -97,7 +97,7 @@ pg.aircraft_template_185 = {
 				0
 			},
 			{
-				0,
+				0.64,
 				0,
 				0
 			},
@@ -108,70 +108,70 @@ pg.aircraft_template_185 = {
 			}
 		}
 	},
-	[68332] = {
-		id = 68332,
-		name = "小赤城技能飞机Lv2",
-		base = 68331,
+	[68302] = {
+		id = 68302,
+		name = "绊爱技能轰炸机Lv2",
+		base = 68301,
 		max_hp = 48,
-		hp_growth = 1913,
+		hp_growth = 2087,
 		weapon_ID = {
-			68342,
-			68352
+			68312,
+			68322
 		}
 	},
-	[68333] = {
-		id = 68333,
-		name = "小赤城技能飞机Lv3",
-		base = 68331,
+	[68303] = {
+		id = 68303,
+		name = "绊爱技能轰炸机Lv3",
+		base = 68301,
 		max_hp = 54,
-		hp_growth = 2133,
+		hp_growth = 2327,
 		weapon_ID = {
-			68343,
-			68353
+			68313,
+			68323
 		}
 	},
-	[68334] = {
-		id = 68334,
-		name = "小赤城技能飞机Lv4",
-		base = 68331,
+	[68304] = {
+		id = 68304,
+		name = "绊爱技能轰炸机Lv4",
+		base = 68301,
 		max_hp = 61,
-		hp_growth = 2354,
+		hp_growth = 2568,
 		weapon_ID = {
-			68344,
-			68354
+			68314,
+			68324
 		}
 	},
-	[68335] = {
-		id = 68335,
-		name = "小赤城技能飞机Lv5",
-		base = 68331,
+	[68305] = {
+		id = 68305,
+		name = "绊爱技能轰炸机Lv5",
+		base = 68301,
 		max_hp = 67,
-		hp_growth = 2575,
+		hp_growth = 2809,
 		weapon_ID = {
-			68345,
-			68355
+			68315,
+			68325
 		}
 	},
-	[68336] = {
-		id = 68336,
-		name = "小赤城技能飞机Lv6",
-		base = 68331,
+	[68306] = {
+		id = 68306,
+		name = "绊爱技能轰炸机Lv6",
+		base = 68301,
 		max_hp = 73,
-		hp_growth = 2796,
+		hp_growth = 3050,
 		weapon_ID = {
-			68346,
-			68356
+			68316,
+			68326
 		}
 	},
-	[68337] = {
-		id = 68337,
-		name = "小赤城技能飞机Lv7",
-		base = 68331,
+	[68307] = {
+		id = 68307,
+		name = "绊爱技能轰炸机Lv7",
+		base = 68301,
 		max_hp = 79,
-		hp_growth = 3016,
+		hp_growth = 3290,
 		weapon_ID = {
-			68347,
-			68357
+			68317,
+			68327
 		}
 	}
 }

@@ -1,86 +1,92 @@
 pg = pg or {}
 pg.aircraft_template_152 = {
-	[65455] = {
-		id = 65455,
-		name = "META飞龙鱼雷机Lv5",
-		base = 65451,
+	[65385] = {
+		id = 65385,
+		name = "女天狗沙排啾轰炸机Lv5",
+		base = 65381,
 		max_hp = 67,
-		hp_growth = 2575,
+		hp_growth = 2809,
 		weapon_ID = {
-			65465
+			65395,
+			65405
 		}
 	},
-	[65456] = {
-		id = 65456,
-		name = "META飞龙鱼雷机Lv6",
-		base = 65451,
+	[65386] = {
+		id = 65386,
+		name = "女天狗沙排啾轰炸机Lv6",
+		base = 65381,
 		max_hp = 73,
-		hp_growth = 2796,
+		hp_growth = 3050,
 		weapon_ID = {
-			65466
+			65396,
+			65406
 		}
 	},
-	[65457] = {
-		id = 65457,
-		name = "META飞龙鱼雷机Lv7",
-		base = 65451,
+	[65387] = {
+		id = 65387,
+		name = "女天狗沙排啾轰炸机Lv7",
+		base = 65381,
 		max_hp = 79,
-		hp_growth = 3016,
+		hp_growth = 3290,
 		weapon_ID = {
-			65467
+			65397,
+			65407
 		}
 	},
-	[65458] = {
-		id = 65458,
-		name = "META飞龙鱼雷机Lv8",
-		base = 65451,
+	[65388] = {
+		id = 65388,
+		name = "女天狗沙排啾轰炸机Lv8",
+		base = 65381,
 		max_hp = 86,
-		hp_growth = 3237,
+		hp_growth = 3531,
 		weapon_ID = {
-			65468
+			65398,
+			65408
 		}
 	},
-	[65459] = {
-		id = 65459,
-		name = "META飞龙鱼雷机Lv9",
-		base = 65451,
+	[65389] = {
+		id = 65389,
+		name = "女天狗沙排啾轰炸机Lv9",
+		base = 65381,
 		max_hp = 92,
-		hp_growth = 3458,
+		hp_growth = 3772,
 		weapon_ID = {
-			65469
+			65399,
+			65409
 		}
 	},
-	[65460] = {
-		id = 65460,
-		name = "META飞龙鱼雷机Lv10",
-		base = 65451,
+	[65390] = {
+		id = 65390,
+		name = "女天狗沙排啾轰炸机Lv10",
+		base = 65381,
 		max_hp = 98,
-		hp_growth = 3678,
+		hp_growth = 4013,
 		weapon_ID = {
-			65470
+			65400,
+			65410
 		}
 	},
-	[65491] = {
+	[65451] = {
 		attack_power = 2,
-		name = "彼得史特拉塞技能JU87鱼雷机LV1",
-		type = 2,
+		name = "META飞龙鱼雷机Lv1",
+		type = 3,
 		accuracy = 23,
-		model_ID = "Ju87D4",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 168,
-		dodge = 1.05,
+		crash_DMG = 208,
+		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 65491,
-		icon = "Ju87D4",
+		id = 65451,
+		icon = "97jiangong",
 		AP_growth = 2000,
-		dodge_limit = 5,
-		hp_growth = 1459,
-		speed = 51,
-		max_hp = 38,
+		dodge_limit = 0,
+		hp_growth = 1692,
+		speed = 48,
+		max_hp = 42,
 		scale = 1,
 		weapon_ID = {
-			65501
+			65461
 		},
 		position_offset = {
 			0,
@@ -100,13 +106,13 @@ pg.aircraft_template_152 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-1.22,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.75,
-					1.26,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -123,7 +129,7 @@ pg.aircraft_template_152 = {
 				0
 			},
 			{
-				0,
+				0.54,
 				0,
 				0
 			},
@@ -134,34 +140,34 @@ pg.aircraft_template_152 = {
 			}
 		}
 	},
-	[65492] = {
-		id = 65492,
-		name = "彼得史特拉塞技能JU87鱼雷机LV2",
-		base = 65491,
-		max_hp = 44,
-		hp_growth = 1678,
+	[65452] = {
+		id = 65452,
+		name = "META飞龙鱼雷机Lv2",
+		base = 65451,
+		max_hp = 48,
+		hp_growth = 1913,
 		weapon_ID = {
-			65502
+			65462
 		}
 	},
-	[65493] = {
-		id = 65493,
-		name = "彼得史特拉塞技能JU87鱼雷机LV3",
-		base = 65491,
-		max_hp = 49,
-		hp_growth = 1897,
+	[65453] = {
+		id = 65453,
+		name = "META飞龙鱼雷机Lv3",
+		base = 65451,
+		max_hp = 54,
+		hp_growth = 2133,
 		weapon_ID = {
-			65503
+			65463
 		}
 	},
-	[65494] = {
-		id = 65494,
-		name = "彼得史特拉塞技能JU87鱼雷机LV4",
-		base = 65491,
-		max_hp = 55,
-		hp_growth = 2116,
+	[65454] = {
+		id = 65454,
+		name = "META飞龙鱼雷机Lv4",
+		base = 65451,
+		max_hp = 61,
+		hp_growth = 2354,
 		weapon_ID = {
-			65504
+			65464
 		}
 	}
 }

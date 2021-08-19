@@ -51,7 +51,9 @@ function slot0.register(slot0)
 		uv0:sendNotification(uv1.REQUEST_COUNT_UPDATED, slot0.count)
 	end)
 	slot0:on(60030, function (slot0)
-		slot1 = uv0:getData()
+		if not uv0:getData() then
+			return
+		end
 
 		slot1:updateBaseInfo({
 			base = slot0.guild
@@ -59,7 +61,10 @@ function slot0.register(slot0)
 		uv0:updateGuild(slot1)
 	end)
 	slot0:on(60031, function (slot0)
-		slot1 = uv0:getData()
+		if not uv0:getData() then
+			return
+		end
+
 		slot2 = false
 
 		for slot6, slot7 in ipairs(slot0.member_list) do
@@ -95,7 +100,9 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:on(60032, function (slot0)
-		slot1 = uv0:getData()
+		if not uv0:getData() then
+			return
+		end
 
 		slot1:updateExp(slot0.exp)
 		slot1:updateLevel(slot0.lv)
@@ -107,7 +114,9 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:on(62004, function (slot0)
-		slot1 = uv0:getData()
+		if not uv0:getData() or not slot1:IsCompletion() then
+			return
+		end
 
 		slot1:updateWeeklyTask(GuildTask.New(slot0.this_weekly_tasks))
 		slot1:setWeeklyTaskFlag(0)
@@ -115,7 +124,9 @@ function slot0.register(slot0)
 		uv0:sendNotification(uv1.WEEKLYTASK_ADDED)
 	end)
 	slot0:on(62005, function (slot0)
-		slot1 = uv0:getData()
+		if not uv0:getData() or not slot1:IsCompletion() then
+			return
+		end
 
 		slot1:startSupply(slot0.benefit_finish_time)
 		slot1:consumeCapital(slot1:getSupplyConsume())
@@ -124,9 +135,13 @@ function slot0.register(slot0)
 		uv0:sendNotification(uv1.SUPPLY_STARTED)
 	end)
 	slot0:on(62018, function (slot0)
+		if not uv0:getData() or not slot1:IsCompletion() then
+			return
+		end
+
 		slot2 = pg.guild_technology_template[slot0.id].group
 
-		if uv0:getData():getActiveTechnologyGroup() then
+		if slot1:getActiveTechnologyGroup() then
 			slot3:Stop()
 		end
 
@@ -136,11 +151,14 @@ function slot0.register(slot0)
 		uv0:sendNotification(uv1.TECHNOLOGY_START)
 	end)
 	slot0:on(62019, function (slot0)
-		slot3 = slot0.has_tech_point == 1
-		slot6 = uv0:getData()
+		if not uv0:getData() or not slot1:IsCompletion() then
+			return
+		end
+
+		slot4 = slot0.has_tech_point == 1
 
 		if slot0.has_capital == 1 then
-			slot6:updateCapital(slot6:getCapital() + GuildDonateTask.New({
+			slot1:updateCapital(slot1:getCapital() + GuildDonateTask.New({
 				id = slot0.id
 			}):getCapital())
 
@@ -149,51 +167,55 @@ function slot0.register(slot0)
 			end
 		end
 
-		if slot3 and slot6:getActiveTechnologyGroup() then
-			slot7:AddProgress(slot1:getConfig("award_tech_exp"))
+		if slot4 and slot1:getActiveTechnologyGroup() then
+			slot7:AddProgress(slot2:getConfig("award_tech_exp"))
 
 			if slot7.pid ~= slot7.pid and slot7:GuildMemberCntType() then
-				slot6:getTechnologyById(slot7.id):Update(slot10, slot7)
+				slot1:getTechnologyById(slot7.id):Update(slot10, slot7)
 			end
 
-			if slot5 == slot4 then
+			if slot6 == slot5 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_addition_techpoint_tip", slot9))
 			end
 		end
 
-		if slot2 or slot3 then
-			uv0:updateGuild(slot6)
+		if slot3 or slot4 then
+			uv0:updateGuild(slot1)
 			uv0:sendNotification(uv1.DONATE_UPDTAE)
 		end
 
-		if slot2 then
+		if slot3 then
 			uv0:sendNotification(uv1.CAPITAL_UPDATED)
 		end
 
-		if not slot2 and slot4 == slot5 then
+		if not slot3 and slot5 == slot6 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_capital_toplimit"))
 		end
 
-		if not slot3 and slot4 == slot5 then
+		if not slot4 and slot5 == slot6 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_techpoint_toplimit"))
 		end
 	end)
 	slot0:on(62031, function (slot0)
-		for slot5, slot6 in ipairs(slot0.donate_tasks) do
+		if not uv0:getData() or not slot1:IsCompletion() then
+			return
+		end
+
+		for slot6, slot7 in ipairs(slot0.donate_tasks) do
 			table.insert({}, GuildDonateTask.New({
-				id = slot6
+				id = slot7
 			}))
 		end
 
-		if uv0:getData() then
-			slot2.donateCount = 0
+		if slot1 then
+			slot1.donateCount = 0
 
-			slot2:updateDonateTasks(slot1)
-			uv0:updateGuild(slot2)
+			slot1:updateDonateTasks(slot2)
+			uv0:updateGuild(slot1)
 			uv0:sendNotification(uv1.ON_DONATE_LIST_UPDATED)
 		elseif uv0:GetPublicGuild() then
 			slot3:ResetDonateCnt()
-			slot3:UpdateDonateTasks(slot1)
+			slot3:UpdateDonateTasks(slot2)
 			uv0:sendNotification(GAME.PUBLIC_GUILD_REFRESH_DONATE_LIST_DONE)
 		end
 	end)

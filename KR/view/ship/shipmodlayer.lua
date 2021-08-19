@@ -35,20 +35,12 @@ function slot0.didEnter(slot0)
 						return
 					end
 
-					if table.getCount(uv0.contextData.materialShipIds or {}) == 0 then
+					if not uv0.contextData.materialShipIds or #uv0.contextData.materialShipIds == 0 then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("word_materal_no_enough"))
 
 						return
 					else
-						slot2, slot3 = ShipCalcHelper.GetEliteAndHightLevelShipsById(uv0.contextData.materialShipIds, uv0.shipVOs)
-
-						if #slot2 == 0 and #slot3 == 0 then
-							uv0:startModShip()
-						else
-							uv0.destoryConfirmWindow:ExecuteAction("Show", slot2, slot3, false, function ()
-								uv0:startModShip()
-							end)
-						end
+						uv0:startModShip()
 					end
 				end
 			})
@@ -150,7 +142,7 @@ function slot0.updateShip(slot0, slot1, slot2)
 	slot3 = slot0.shipVOs[slot2]
 
 	onButton(slot0, slot1, function ()
-		for slot3, slot4 in pairs(uv0.contextData.materialShipIds) do
+		for slot3, slot4 in ipairs(uv0.contextData.materialShipIds) do
 			if uv1 == slot4 then
 				setActive(uv2:Find("IconTpl"), false)
 				onButton(uv0, uv2:Find("add"), function ()

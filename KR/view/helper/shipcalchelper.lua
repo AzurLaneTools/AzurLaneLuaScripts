@@ -60,12 +60,6 @@ function slot0.GetEliteAndHightLevelShips(slot0)
 	return slot1, slot2
 end
 
-function slot0.GetEliteAndHightLevelShipsById(slot0, slot1)
-	return uv0.GetEliteAndHightLevelShips(_.map(slot0, function (slot0)
-		return uv0[slot0]
-	end))
-end
-
 function slot0.GetEliteAndHightLevelAndResOverflow(slot0, slot1)
 	slot2 = _.map(slot0, function (slot0)
 		return uv0[slot0]

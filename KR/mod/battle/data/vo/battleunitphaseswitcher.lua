@@ -31,7 +31,12 @@ function slot3.Update(slot0)
 				slot2 = slot7.to
 				slot7.andFlag = false
 			end
-		elseif slot8 == uv0.POSITION_X_LESS and slot0._client:GetPosition().x < slot9 then
+		elseif slot8 == uv0.POSITION_X_LESS then
+			if slot0._client:GetPosition().x < slot9 then
+				slot2 = slot7.to
+				slot7.andFlag = false
+			end
+		elseif slot8 == uv0.OXYGEN and slot0._client:GetCuurentOxygen() <= slot9 then
 			slot2 = slot7.to
 			slot7.andFlag = false
 		end
@@ -42,16 +47,6 @@ function slot3.Update(slot0)
 	if slot2 and slot1 then
 		slot0:switch(slot2)
 	end
-end
-
-function slot3.GetPhaseProgress(slot0)
-	for slot4, slot5 in ipairs(slot0._currentPhaseSwitchParam) do
-		if slot5.type == uv0.DURATION then
-			return (pg.TimeMgr.GetInstance():GetCombatTime() - slot0._phaseStartTime) / slot5.param
-		end
-	end
-
-	return 1
 end
 
 function slot3.UpdateHP(slot0, slot1)

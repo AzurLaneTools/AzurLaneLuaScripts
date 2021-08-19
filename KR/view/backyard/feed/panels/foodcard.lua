@@ -8,7 +8,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.name = slot0._tf:Find("name_bg/Text"):GetComponent(typeof(Text))
 	slot0.addTF = slot0._tf:Find("add_btn")
 	slot0.icon = slot0._tf:Find("icon_bg/icon")
-	slot0.banner = getProxy(ActivityProxy):getActiveBannerByType(GAMEUI_BANNER_10)
 end
 
 function slot0.Update(slot0, slot1)
@@ -25,10 +24,6 @@ function slot0.Update(slot0, slot1)
 		slot0.foodVOId = slot1.id
 
 		updateItem(slot0._tf, slot1)
-	end
-
-	if slot0.banner and slot1.id == 50004 then
-		GetImageSpriteFromAtlasAsync("Props/" .. slot0.banner.pic, "", slot0.icon)
 	end
 end
 

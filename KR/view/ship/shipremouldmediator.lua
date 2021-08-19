@@ -3,10 +3,7 @@ slot0.REMOULD_SHIP = "ShipRemouldMediator:REMOULD_SHIP"
 slot0.ON_SELECTE_SHIP = "ShipRemouldMediator:ON_SELECTE_SHIP"
 
 function slot0.register(slot0)
-	slot1 = getProxy(BayProxy)
-
-	slot0.viewComponent:setShipVO(slot1:getShipById(slot0.contextData.shipId))
-	slot0.viewComponent:setShips(slot1:getRawData())
+	slot0.viewComponent:setShipVO(getProxy(BayProxy):getShipById(slot0.contextData.shipId))
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 
 	slot0.bagProxy = getProxy(BagProxy)
@@ -26,20 +23,19 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_SELECTE_SHIP, function (slot0, slot1)
-		slot2 = {}
-		slot3 = pg.ship_data_template
+		slot2 = uv0:getUpgradeShips(slot1)
+		slot3 = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_3, underscore.map(slot2, function (slot0)
+			return slot0.id
+		end))
 
-		for slot8, slot9 in pairs(uv0) do
-			if slot3[slot9.configId].group_type ~= slot3[slot1.configId].group_type and not slot9:isTestShip() or slot1.id == slot9.id or slot9:isTestShip() and not slot9:canUseTestShip(slot1:getConfig("rarity")) then
-				table.insert(slot2, slot9.id)
-			end
-		end
-
+		table.insert(slot3, slot1.id)
 		uv1:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMax = 1,
 			selectedMin = 1,
+			destroyCheck = true,
 			skipSelect = true,
-			ignoredIds = slot2,
+			shipVOs = slot2,
+			ignoredIds = slot3,
 			selectedIds = uv1.contextData.materialShipIds or {},
 			onShip = function (slot0, slot1)
 				if slot0:getFlag("inAdmiral") then
@@ -68,15 +64,7 @@ function slot0.register(slot0)
 				uv0.contextData.materialShipIds = slot0
 			end,
 			mode = DockyardScene.MODE_REMOULD,
-			confirmSelect = function (slot0, slot1, slot2, slot3)
-				slot4, slot5 = ShipCalcHelper.GetEliteAndHightLevelShipsById(slot0, uv0)
-
-				if #slot4 == 0 and #slot5 == 0 then
-					slot1()
-				else
-					slot3.destroyConfirmWindow:ExecuteAction("Show", slot4, slot5, false, slot1)
-				end
-			end
+			hideTagFlags = ShipStatus.TAG_HIDE_DESTROY
 		})
 	end)
 end

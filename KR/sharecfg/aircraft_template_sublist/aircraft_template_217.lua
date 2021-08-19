@@ -1,93 +1,223 @@
 pg = pg or {}
 pg.aircraft_template_217 = {
-	[81241] = {
-		id = 81241,
-		max_hp = 46,
-		hp_growth = 1785,
-		base = 81240,
+	[81202] = {
+		id = 81202,
+		max_hp = 43,
+		hp_growth = 1651,
+		base = 81200,
 		weapon_ID = {
-			50441
+			50402
 		}
 	},
-	[81242] = {
-		id = 81242,
-		max_hp = 52,
-		hp_growth = 2018,
-		base = 81240,
+	[81203] = {
+		id = 81203,
+		max_hp = 48,
+		hp_growth = 1842,
+		base = 81200,
 		weapon_ID = {
-			50442
+			50403
 		}
 	},
-	[81243] = {
-		id = 81243,
+	[81220] = {
+		attack_power = 2,
+		name = "F4U海盗",
+		type = 1,
+		accuracy = 23,
+		model_ID = "F4U",
+		ACC_growth = 0,
+		crash_DMG = 66,
+		dodge = 0.345,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 81220,
+		icon = "F4U",
+		AP_growth = 2000,
+		dodge_limit = 9.5,
+		hp_growth = 1411,
+		speed = 48,
+		max_hp = 37,
+		scale = 1,
+		weapon_ID = {
+			50420
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.41,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[81221] = {
+		id = 81221,
+		max_hp = 42,
+		hp_growth = 1623,
+		base = 81220,
+		weapon_ID = {
+			50421
+		}
+	},
+	[81222] = {
+		id = 81222,
+		max_hp = 48,
+		hp_growth = 1835,
+		base = 81220,
+		weapon_ID = {
+			50422
+		}
+	},
+	[81223] = {
+		id = 81223,
+		max_hp = 53,
+		hp_growth = 2046,
+		base = 81220,
+		weapon_ID = {
+			50423
+		}
+	},
+	[81224] = {
+		id = 81224,
 		max_hp = 59,
-		hp_growth = 2251,
-		base = 81240,
+		hp_growth = 2258,
+		base = 81220,
 		weapon_ID = {
-			50443
+			50424
 		}
 	},
-	[81244] = {
-		id = 81244,
-		max_hp = 65,
-		hp_growth = 2484,
-		base = 81240,
+	[81225] = {
+		id = 81225,
+		max_hp = 64,
+		hp_growth = 2470,
+		base = 81220,
 		weapon_ID = {
-			50444
+			50425
 		}
 	},
-	[81245] = {
-		id = 81245,
-		max_hp = 71,
-		hp_growth = 2717,
-		base = 81240,
+	[81226] = {
+		id = 81226,
+		max_hp = 70,
+		hp_growth = 2681,
+		base = 81220,
 		weapon_ID = {
-			50445
+			50426
 		}
 	},
-	[81246] = {
-		id = 81246,
-		max_hp = 77,
-		hp_growth = 2949,
-		base = 81240,
+	[81240] = {
+		attack_power = 2,
+		name = "F4U海盗",
+		type = 1,
+		accuracy = 23,
+		model_ID = "F4U",
+		ACC_growth = 0,
+		crash_DMG = 66,
+		dodge = 0.333,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 81240,
+		icon = "F4U",
+		AP_growth = 2000,
+		dodge_limit = 10,
+		hp_growth = 1552,
+		speed = 48,
+		max_hp = 40,
+		scale = 1,
 		weapon_ID = {
-			50446
-		}
-	},
-	[81247] = {
-		id = 81247,
-		max_hp = 83,
-		hp_growth = 3182,
-		base = 81240,
-		weapon_ID = {
-			50447
-		}
-	},
-	[81248] = {
-		id = 81248,
-		max_hp = 89,
-		hp_growth = 3415,
-		base = 81240,
-		weapon_ID = {
-			50448
-		}
-	},
-	[81249] = {
-		id = 81249,
-		max_hp = 95,
-		hp_growth = 3648,
-		base = 81240,
-		weapon_ID = {
-			50449
-		}
-	},
-	[81250] = {
-		id = 81250,
-		max_hp = 101,
-		hp_growth = 3881,
-		base = 81240,
-		weapon_ID = {
-			50450
+			50440
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.41,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

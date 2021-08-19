@@ -486,11 +486,11 @@ function slot30.GeneratePlayerSubmarinPhase(slot0, slot1, slot2, slot3, slot4)
 			switchParam = slot0 - slot2
 		},
 		{
-			index = 1,
+			switchParam = 0,
 			dive = "STATE_RAID",
 			switchTo = 2,
-			switchType = 1,
-			switchParamFunc = slot3
+			index = 1,
+			switchType = 5
 		},
 		{
 			index = 2,
