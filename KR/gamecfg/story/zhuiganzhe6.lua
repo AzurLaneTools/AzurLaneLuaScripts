@@ -103,7 +103,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "오오... ”화둔“이라고 불리는 기술까지 사용하다니. 파이어볼을 쏴!",
+			say = "그리고 파이어볼을 쏘는 '화둔'이라는 술법도 쓸 수 있었어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

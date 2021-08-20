@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "에헤헤, 리베치오를 칭찬하러 온 거지? 나나도 진지하게 하면 잘 할 수 있다고!",
+			say = "에헤헤, 리베치오를 칭찬하러 온 거지? 나도 진지하게 하면 잘 할 수 있다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

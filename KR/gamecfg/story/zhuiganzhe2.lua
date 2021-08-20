@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "체이서는 보리차를 연구한느 홍차 컵에 옮겨 따랐다. 그리고 탁자 앞에 앉았다.",
+			say = "체이서는 보리차를 일반 컵이 아닌 찻잔에 옮겨 따랐다. 그리고 테이블 앞에 앉았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

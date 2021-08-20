@@ -14074,10 +14074,10 @@ P.S.기록기의 내용량은 상한이 있으니, 반드시 제때 분석하세
 		tip = "지휘관이 없던"
 	},
 	cattery_settlement_dialogue_2 = {
-		tip = "동안 지휘냥이 충분한 휴식을 취하고"
+		tip = "동안 지휘냥이 충분한"
 	},
 	cattery_settlement_dialogue_3 = {
-		tip = "총"
+		tip = "휴식을 취하고 총"
 	},
 	cattery_settlement_dialogue_4 = {
 		tip = "의 경험치를 획득했다냥~"
