@@ -52027,7 +52027,7 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		id = 14730,
 		type = 2,
 		max_level = 10,
-		desc = "Increases this ship's TRP by $1 of her total AA stat (base stats plus gear) and decreases the Burn DMG she takes by $2. This ship heals herself for 1.0% of her max HP every 15s in combat.",
+		desc = "Increases this ship's AA by $1 of her total TRP stat (base stats plus gear) and decreases the Burn DMG she takes by $2. This ship heals herself for 1.0% of her max HP every 15s in combat.",
 		system_transform = {},
 		world_death_mark = {
 			1

@@ -1720,7 +1720,7 @@ Current expansions: <color=#92fc63>$3</color>
 		tip = "Skill must exist."
 	},
 	tactics_skill_level_up = {
-		tip = "(Skill leveled up from lv. $1 to lv. $2!)"
+		tip = "(Skill leveled up from lv. $1 to lv. $2!) "
 	},
 	tactics_no_lesson = {
 		tip = "Not enough Textbook"
