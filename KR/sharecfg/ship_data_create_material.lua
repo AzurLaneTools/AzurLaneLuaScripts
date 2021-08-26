@@ -82,17 +82,19 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>SR</color>: 12%",
 			"<color=#3dc6ff>R</color>: 51%",
 			"N: 30%",
-			"<color=#ffde38>아마미 하루카</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>잉그레이엄</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>키사라기 치하야</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>인트레피드</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>미나세 이오리</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>리노</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>미우라 아즈사</color>：0.5%",
+			"<color=#ffde38>브레머튼</color>：0.5%",
 			" ",
-			"<color=#d797ff>후타미 마미</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>노틸러스</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>후타미 아미</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>쿠퍼</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#3dc6ff>마블헤드</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
