@@ -5982,6 +5982,58 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100028] = {
+		spine_extra = "",
+		describe = "여름밤의 반짝이는 작은 불빛. 마치 세상에 내린 별과 같아요.",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "boliguanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "반딧불의 숲",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100028,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"boliguan",
+				"normal",
+				{
+					"open",
+					true,
+					nil,
+					nil,
+					nil,
+					"action",
+					"bg2"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		spine_extra = "",
 		describe = "닿는 곳이 너덜너덜하게 닳은 플로링. 발밑 주의.",
@@ -89356,6 +89408,7 @@ pg.furniture_data_template = {
 		100025,
 		100026,
 		100027,
+		100028,
 		1001,
 		1002,
 		1101,

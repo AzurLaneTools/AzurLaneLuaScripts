@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_389 = {
+	[90321] = {
+		id = 90321,
+		damage = "42 x 4",
+		base = 90320,
+		weapon_id = {
+			90321
+		}
+	},
+	[90322] = {
+		id = 90322,
+		damage = "47 x 4",
+		base = 90320,
+		weapon_id = {
+			90322
+		}
+	},
+	[90323] = {
+		id = 90323,
+		damage = "52 x 4",
+		base = 90320,
+		weapon_id = {
+			90323
+		}
+	},
+	[90324] = {
+		id = 90324,
+		damage = "57 x 4",
+		base = 90320,
+		weapon_id = {
+			90324
+		}
+	},
 	[90325] = {
 		id = 90325,
 		damage = "63 x 4",
@@ -147,84 +179,6 @@ pg.equip_data_statistics_389 = {
 		base = 90340,
 		weapon_id = {
 			90350
-		}
-	},
-	[90351] = {
-		id = 90351,
-		anti_siren = 100,
-		damage = "102 x 4",
-		base = 90340,
-		weapon_id = {
-			90351
-		}
-	},
-	[90400] = {
-		tech = 1,
-		name = "380mm 4연장포 Mle 1935",
-		speciality = "투사",
-		type = 4,
-		value_2 = 12,
-		ammo = 3,
-		damage = "40 x 4",
-		nationality = 8,
-		rarity = 3,
-		id = 90400,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "리슐리외급 전함에 탑재하는 4연장 380mm 주포. 순양전함, 전함 사용 가능",
-		icon = "50400",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1550
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90400
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"BB",
-			"MG",
-			"Richelieu"
-		}
-	},
-	[90401] = {
-		id = 90401,
-		damage = "46 x 4",
-		base = 90400,
-		weapon_id = {
-			90401
-		}
-	},
-	[90402] = {
-		id = 90402,
-		damage = "52 x 4",
-		base = 90400,
-		weapon_id = {
-			90402
 		}
 	}
 }

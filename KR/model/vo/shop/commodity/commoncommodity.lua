@@ -1,5 +1,17 @@
 slot0 = class("CommonCommodity", import(".BaseCommodity"))
 
+function slot0.InCommodityDiscountTime(slot0)
+	if pg.shop_template[slot0].discount_time == "always" then
+		return true
+	end
+
+	if type(slot2) == "table" then
+		return table.getCount(slot2) == 0 or pg.TimeMgr.GetInstance():inTime(slot2)
+	end
+
+	return false
+end
+
 function slot0.bindConfigTable(slot0)
 	return pg.shop_template
 end
@@ -15,17 +27,30 @@ function slot0.canPurchase(slot0)
 end
 
 function slot0.isDisCount(slot0)
-	slot2 = true
-
-	if table.getCount(slot0:getConfig("discount_time")) ~= 0 then
-		slot2 = pg.TimeMgr.GetInstance():inTime(slot1)
-	end
-
 	if slot0:IsItemDiscountType() then
-		return slot2
+		return uv0.InCommodityDiscountTime(slot0.id)
 	else
-		return slot0:getConfig("discount") ~= 0 and slot2
+		return slot0:getConfig("discount") ~= 0 and slot1
 	end
+end
+
+function slot0.IsGroupSale(slot0)
+	return slot0.type == Goods.TYPE_MILITARY and slot0:getConfig("group") > 0 and slot0:getConfig("limit_args2")[1][1] == "purchase"
+end
+
+function slot0.IsShowWhenGroupSale(slot0, slot1)
+	if slot0:IsGroupSale() then
+		slot2 = slot0:getConfig("limit_args2")[1]
+		slot3 = slot2[2]
+
+		if slot1 == slot2[3] and slot4 == slot0:getConfig("group_limit") then
+			return true
+		end
+
+		return slot3 <= slot1 + 1 and slot1 <= slot4
+	end
+
+	return true
 end
 
 function slot0.GetPrice(slot0)

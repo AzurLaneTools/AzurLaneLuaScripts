@@ -1,5 +1,31 @@
 pg = pg or {}
 pg.equip_data_statistics_383 = {
+	[89249] = {
+		id = 89249,
+		value_2 = 24,
+		value_1 = "14",
+		base = 89240
+	},
+	[89250] = {
+		id = 89250,
+		value_2 = 25,
+		value_1 = "15",
+		base = 89240
+	},
+	[89251] = {
+		value_2 = 26,
+		anti_siren = 100,
+		base = 89240,
+		id = 89251,
+		value_1 = "16"
+	},
+	[89252] = {
+		value_2 = 27,
+		anti_siren = 200,
+		base = 89240,
+		id = 89252,
+		value_1 = "17"
+	},
 	[89253] = {
 		value_2 = 28,
 		anti_siren = 300,
@@ -107,58 +133,5 @@ pg.equip_data_statistics_383 = {
 		base = 89260,
 		id = 89271,
 		value_1 = "38"
-	},
-	[89272] = {
-		value_2 = 34,
-		anti_siren = 200,
-		base = 89260,
-		id = 89272,
-		value_1 = "41"
-	},
-	[89273] = {
-		value_2 = 36,
-		anti_siren = 300,
-		base = 89260,
-		id = 89273,
-		value_1 = "44"
-	},
-	[89280] = {
-		type = 10,
-		name = "아이돌 팔찌",
-		speciality = "없음",
-		tech = 0,
-		value_2 = 16,
-		ammo = 10,
-		descrip = "说明占坑",
-		nationality = 107,
-		rarity = 5,
-		attribute_1 = "dodge",
-		value_3 = 0,
-		torpedo_ammo = 0,
-		id = 89280,
-		icon = "89280",
-		value_1 = "6",
-		attribute_2 = "hit",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6880
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89281] = {
-		id = 89281,
-		value_1 = "7",
-		base = 89280
 	}
 }

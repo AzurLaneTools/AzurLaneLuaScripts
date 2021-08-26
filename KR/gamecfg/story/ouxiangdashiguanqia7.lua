@@ -393,9 +393,8 @@ return {
 		},
 		{
 			actor = 10700030,
-			nameColor = "#a9f548",
 			side = 2,
-			hidePaintEquip = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "물론이지! 이기지 못하면 앞으로 전진은 말도 꺼내지 마, 모항으로 돌아갈 수도 없고, 안 그래?",
 			typewriter = {

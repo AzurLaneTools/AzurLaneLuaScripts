@@ -96,7 +96,7 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	if slot5.discount ~= 0 and (table.getCount(slot5.discount_time) == 0 or pg.TimeMgr.GetInstance():inTime(slot5.discount_time)) then
+	if slot5.discount ~= 0 and CommonCommodity.InCommodityDiscountTime(slot5.id) then
 		slot12 = slot12 * (100 - slot5.discount) / 100
 	end
 

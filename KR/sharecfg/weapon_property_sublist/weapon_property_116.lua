@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_116 = {}
 
 (function ()
+	uv0.weapon_property_116[64453] = {
+		id = 64453,
+		name = "马可波罗技能·小子弹-跨队伤害增幅LV3",
+		damage = 17,
+		base = 64451
+	}
+	uv0.weapon_property_116[64454] = {
+		id = 64454,
+		name = "马可波罗技能·小子弹-跨队伤害增幅LV4",
+		damage = 18,
+		base = 64451
+	}
+	uv0.weapon_property_116[64455] = {
+		id = 64455,
+		name = "马可波罗技能·小子弹-跨队伤害增幅LV5",
+		damage = 19,
+		base = 64451
+	}
+	uv0.weapon_property_116[64456] = {
+		id = 64456,
+		name = "马可波罗技能·小子弹-跨队伤害增幅LV6",
+		damage = 20,
+		base = 64451
+	}
 	uv0.weapon_property_116[64457] = {
 		id = 64457,
 		name = "马可波罗技能·小子弹-跨队伤害增幅LV7",
@@ -688,30 +712,6 @@ pg.weapon_property_116 = {}
 		id = 64516,
 		name = "双海亚美花朵鱼雷弹幕LV6",
 		damage = 44,
-		base = 64511
-	}
-	uv0.weapon_property_116[64517] = {
-		id = 64517,
-		name = "双海亚美花朵鱼雷弹幕LV7",
-		damage = 48,
-		base = 64511
-	}
-	uv0.weapon_property_116[64518] = {
-		id = 64518,
-		name = "双海亚美花朵鱼雷弹幕LV8",
-		damage = 52,
-		base = 64511
-	}
-	uv0.weapon_property_116[64519] = {
-		id = 64519,
-		name = "双海亚美花朵鱼雷弹幕LV9",
-		damage = 56,
-		base = 64511
-	}
-	uv0.weapon_property_116[64520] = {
-		id = 64520,
-		name = "双海亚美花朵鱼雷弹幕LV10",
-		damage = 60,
 		base = 64511
 	}
 end)()

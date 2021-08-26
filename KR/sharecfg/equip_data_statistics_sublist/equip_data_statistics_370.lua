@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_370 = {
+	[85362] = {
+		id = 85362,
+		damage = "19/회",
+		base = 85360,
+		weapon_id = {
+			85362
+		}
+	},
+	[85363] = {
+		id = 85363,
+		damage = "22/회",
+		base = 85360,
+		weapon_id = {
+			85363
+		}
+	},
+	[85380] = {
+		tech = 2,
+		name = "B-34 100mm 연장 대공포 MZ-14",
+		speciality = "대공",
+		type = 6,
+		value_2 = 12,
+		ammo = 5,
+		damage = "33/회",
+		nationality = 7,
+		rarity = 3,
+		id = 85380,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85380
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85381] = {
+		id = 85381,
+		damage = "36/회",
+		base = 85380,
+		weapon_id = {
+			85381
+		}
+	},
 	[85382] = {
 		id = 85382,
 		damage = "41/회",
@@ -156,39 +242,6 @@ pg.equip_data_statistics_370 = {
 		base = 85400,
 		weapon_id = {
 			85407
-		}
-	},
-	[85408] = {
-		id = 85408,
-		damage = "83/회",
-		base = 85400,
-		weapon_id = {
-			85408
-		}
-	},
-	[85409] = {
-		id = 85409,
-		damage = "89/회",
-		base = 85400,
-		weapon_id = {
-			85409
-		}
-	},
-	[85410] = {
-		id = 85410,
-		damage = "96/회",
-		base = 85400,
-		weapon_id = {
-			85410
-		}
-	},
-	[85411] = {
-		id = 85411,
-		anti_siren = 100,
-		damage = "96/회",
-		base = 85400,
-		weapon_id = {
-			85411
 		}
 	}
 }

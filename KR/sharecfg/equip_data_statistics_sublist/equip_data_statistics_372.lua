@@ -1,5 +1,89 @@
 pg = pg or {}
 pg.equip_data_statistics_372 = {
+	[85445] = {
+		id = 85445,
+		damage = "13 x 4",
+		base = 85440,
+		weapon_id = {
+			85445
+		}
+	},
+	[85446] = {
+		id = 85446,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85446
+		}
+	},
+	[85447] = {
+		id = 85447,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85447
+		}
+	},
+	[85460] = {
+		tech = 1,
+		name = "B-1-P 3연장 180mm 주포 Model1932",
+		speciality = "추적",
+		type = 2,
+		value_2 = 12,
+		ammo = 1,
+		damage = "16 x 3",
+		nationality = 7,
+		rarity = 3,
+		id = 85460,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "노스 유니온에서 개발한 180mm 3연장 함포. 월등한 사거리 보유.",
+		icon = "85460",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				1,
+				1712
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1712
+			},
+			{
+				4,
+				1108
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85460
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
 	[85461] = {
 		id = 85461,
 		base = 85460,
@@ -113,30 +197,6 @@ pg.equip_data_statistics_372 = {
 		id = 89006,
 		value_2 = 11,
 		value_1 = "21",
-		base = 89000
-	},
-	[89007] = {
-		id = 89007,
-		value_2 = 12,
-		value_1 = "22",
-		base = 89000
-	},
-	[89008] = {
-		id = 89008,
-		value_2 = 13,
-		value_1 = "23",
-		base = 89000
-	},
-	[89009] = {
-		id = 89009,
-		value_2 = 14,
-		value_1 = "24",
-		base = 89000
-	},
-	[89010] = {
-		id = 89010,
-		value_2 = 15,
-		value_1 = "25",
 		base = 89000
 	}
 }

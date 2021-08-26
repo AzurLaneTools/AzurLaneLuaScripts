@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_360 = {
+	[79521] = {
+		type = 1,
+		name = "专属弹幕-里诺I",
+		speciality = "없음",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 79521,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79521
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79522] = {
+		id = 79522,
+		name = "专属弹幕-里诺II",
+		base = 79521,
+		weapon_id = {
+			79522
+		}
+	},
 	[79541] = {
 		type = 1,
 		name = "专属弹幕-圣女贞德I",
@@ -346,53 +393,6 @@ pg.equip_data_statistics_360 = {
 		equip_info = {},
 		weapon_id = {
 			79611
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79612] = {
-		id = 79612,
-		name = "专属弹幕-罗恩μII",
-		base = 79611,
-		weapon_id = {
-			79612
-		}
-	},
-	[79621] = {
-		type = 1,
-		name = "专属弹幕-恶毒μI",
-		speciality = "없음",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能弹幕",
-		id = 79621,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60581
 		},
 		skill_id = {},
 		part_main = {

@@ -2,6 +2,73 @@ pg = pg or {}
 pg.weapon_property_115 = {}
 
 (function ()
+	uv0.weapon_property_115[64389] = {
+		id = 64389,
+		name = "埃吉尔技能弹幕平射穿甲LV9",
+		damage = 38,
+		base = 64381
+	}
+	uv0.weapon_property_115[64390] = {
+		id = 64390,
+		name = "埃吉尔技能弹幕平射穿甲LV10",
+		damage = 40,
+		base = 64381
+	}
+	uv0.weapon_property_115[64391] = {
+		recover_time = 0,
+		name = "埃吉尔技能跨射子弹Lv1",
+		shakescreen = 0,
+		type = 19,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 95,
+		damage = 36,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 64391,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19322
+		},
+		barrage_ID = {
+			81126
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jineng",
+			alertTime = 1,
+			time = 0.5,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_115[64392] = {
+		id = 64392,
+		name = "埃吉尔技能跨射子弹Lv2",
+		damage = 38,
+		base = 64391
+	}
 	uv0.weapon_property_115[64393] = {
 		id = 64393,
 		name = "埃吉尔技能跨射子弹Lv3",
@@ -657,30 +724,6 @@ pg.weapon_property_115 = {}
 		id = 64452,
 		name = "马可波罗技能·小子弹-跨队伤害增幅LV2",
 		damage = 16,
-		base = 64451
-	}
-	uv0.weapon_property_115[64453] = {
-		id = 64453,
-		name = "马可波罗技能·小子弹-跨队伤害增幅LV3",
-		damage = 17,
-		base = 64451
-	}
-	uv0.weapon_property_115[64454] = {
-		id = 64454,
-		name = "马可波罗技能·小子弹-跨队伤害增幅LV4",
-		damage = 18,
-		base = 64451
-	}
-	uv0.weapon_property_115[64455] = {
-		id = 64455,
-		name = "马可波罗技能·小子弹-跨队伤害增幅LV5",
-		damage = 19,
-		base = 64451
-	}
-	uv0.weapon_property_115[64456] = {
-		id = 64456,
-		name = "马可波罗技能·小子弹-跨队伤害增幅LV6",
-		damage = 20,
 		base = 64451
 	}
 end)()

@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
+	[95001] = {
+		id = 95001,
+		damage = "50 x 3",
+		base = 95000,
+		weapon_id = {
+			95001
+		}
+	},
+	[95002] = {
+		id = 95002,
+		damage = "58 x 3",
+		base = 95000,
+		weapon_id = {
+			95002
+		}
+	},
+	[95003] = {
+		id = 95003,
+		damage = "66 x 3",
+		base = 95000,
+		weapon_id = {
+			95003
+		}
+	},
+	[95004] = {
+		id = 95004,
+		damage = "74 x 3",
+		base = 95000,
+		weapon_id = {
+			95004
+		}
+	},
 	[95005] = {
 		id = 95005,
 		damage = "82 x 3",
@@ -147,85 +179,6 @@ pg.equip_data_statistics_399 = {
 		base = 95020,
 		weapon_id = {
 			95030
-		}
-	},
-	[95040] = {
-		tech = 3,
-		name = "381mm 3연장포 Model1934",
-		speciality = "투사",
-		type = 4,
-		value_2 = 45,
-		ammo = 1,
-		damage = "52 x 3",
-		nationality = 6,
-		rarity = 5,
-		id = 95040,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "3연장 381mm 주포, 비토리오 베네토급 전함 주포, 순전 및 전함 사용 가능",
-		icon = "55000",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1563
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			95040
-		},
-		skill_id = {
-			6450
-		},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"RN",
-			"BB",
-			"MG",
-			"AP"
-		}
-	},
-	[95041] = {
-		id = 95041,
-		damage = "62 x 3",
-		base = 95040,
-		weapon_id = {
-			95041
-		}
-	},
-	[95042] = {
-		id = 95042,
-		damage = "70 x 3",
-		base = 95040,
-		weapon_id = {
-			95042
-		}
-	},
-	[95043] = {
-		id = 95043,
-		damage = "80 x 3",
-		base = 95040,
-		weapon_id = {
-			95043
 		}
 	}
 }

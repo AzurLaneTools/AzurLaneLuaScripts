@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_387 = {
+	[90141] = {
+		id = 90141,
+		damage = "6 x 5",
+		base = 90140,
+		weapon_id = {
+			90141
+		}
+	},
+	[90142] = {
+		id = 90142,
+		damage = "7 x 5",
+		base = 90140,
+		weapon_id = {
+			90142
+		}
+	},
+	[90143] = {
+		id = 90143,
+		damage = "8 x 5",
+		base = 90140,
+		weapon_id = {
+			90143
+		}
+	},
+	[90144] = {
+		id = 90144,
+		damage = "9 x 5",
+		base = 90140,
+		weapon_id = {
+			90144
+		}
+	},
 	[90145] = {
 		id = 90145,
 		damage = "10 x 5",
@@ -155,89 +187,6 @@ pg.equip_data_statistics_387 = {
 		base = 90200,
 		weapon_id = {
 			90203
-		}
-	},
-	[90220] = {
-		tech = 2,
-		name = "152mm 3연장포 Mle 1930",
-		speciality = "확산",
-		type = 2,
-		value_2 = 5,
-		ammo = 3,
-		damage = "8 x 6",
-		nationality = 8,
-		rarity = 2,
-		id = 90220,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "50200",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2201
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2201
-			},
-			{
-				4,
-				1102
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			90220
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CL",
-			"MG"
-		}
-	},
-	[90221] = {
-		id = 90221,
-		damage = "9 x 6",
-		base = 90220,
-		weapon_id = {
-			90221
-		}
-	},
-	[90222] = {
-		id = 90222,
-		damage = "10 x 6",
-		base = 90220,
-		weapon_id = {
-			90222
-		}
-	},
-	[90223] = {
-		id = 90223,
-		damage = "11 x 6",
-		base = 90220,
-		weapon_id = {
-			90223
 		}
 	}
 }

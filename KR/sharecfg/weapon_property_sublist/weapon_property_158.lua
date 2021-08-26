@@ -2,6 +2,410 @@ pg = pg or {}
 pg.weapon_property_158 = {}
 
 (function ()
+	uv0.weapon_property_158[68331] = {
+		recover_time = 0.5,
+		name = "小赤城技能舰爆机队LV1",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 10,
+		search_type = 1,
+		effect_move = 0,
+		angle = 90,
+		reload_max = 1890,
+		queue = 1,
+		range = 90,
+		damage = 56,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 68331,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			68331,
+			68331
+		},
+		barrage_ID = {
+			12008,
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_158[68332] = {
+		id = 68332,
+		name = "小赤城技能舰爆机队LV2",
+		damage = 78,
+		base = 68331,
+		bullet_ID = {
+			68332,
+			68332
+		}
+	}
+	uv0.weapon_property_158[68333] = {
+		id = 68333,
+		name = "小赤城技能舰爆机队LV3",
+		damage = 98,
+		base = 68331,
+		bullet_ID = {
+			68333,
+			68333
+		}
+	}
+	uv0.weapon_property_158[68334] = {
+		id = 68334,
+		name = "小赤城技能舰爆机队LV4",
+		damage = 102,
+		base = 68331,
+		bullet_ID = {
+			68334,
+			68334
+		},
+		barrage_ID = {
+			12009,
+			12009
+		}
+	}
+	uv0.weapon_property_158[68335] = {
+		id = 68335,
+		name = "小赤城技能舰爆机队LV5",
+		damage = 112,
+		base = 68331,
+		bullet_ID = {
+			68335,
+			68335
+		},
+		barrage_ID = {
+			12009,
+			12009
+		}
+	}
+	uv0.weapon_property_158[68336] = {
+		id = 68336,
+		name = "小赤城技能舰爆机队LV6",
+		damage = 134,
+		base = 68331,
+		bullet_ID = {
+			68336,
+			68336
+		},
+		barrage_ID = {
+			12009,
+			12009
+		}
+	}
+	uv0.weapon_property_158[68337] = {
+		id = 68337,
+		name = "小赤城技能舰爆机队LV7",
+		damage = 156,
+		base = 68331,
+		bullet_ID = {
+			68337,
+			68337
+		},
+		barrage_ID = {
+			12010,
+			12010
+		}
+	}
+	uv0.weapon_property_158[68338] = {
+		id = 68338,
+		name = "小赤城技能舰爆机队LV8",
+		damage = 176,
+		base = 68331,
+		bullet_ID = {
+			68338,
+			68338
+		},
+		barrage_ID = {
+			12010,
+			12010
+		}
+	}
+	uv0.weapon_property_158[68339] = {
+		id = 68339,
+		name = "小赤城技能舰爆机队LV9",
+		damage = 198,
+		base = 68331,
+		bullet_ID = {
+			68339,
+			68339
+		},
+		barrage_ID = {
+			12010,
+			12010
+		}
+	}
+	uv0.weapon_property_158[68340] = {
+		id = 68340,
+		name = "小赤城技能舰爆机队LV10",
+		damage = 220,
+		base = 68331,
+		bullet_ID = {
+			68340,
+			68340
+		},
+		barrage_ID = {
+			12010,
+			12010
+		}
+	}
+	uv0.weapon_property_158[68341] = {
+		recover_time = 0,
+		name = "2 x 100lb 폭탄",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 25,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 25,
+		reload_max = 9500,
+		queue = 1,
+		range = 500,
+		damage = 51,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 68341,
+		attack_attribute_ratio = 80,
+		aim_type = 1,
+		bullet_ID = {
+			19879
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_158[68342] = {
+		id = 68342,
+		damage = 52,
+		base = 68341
+	}
+	uv0.weapon_property_158[68343] = {
+		id = 68343,
+		damage = 54,
+		base = 68341
+	}
+	uv0.weapon_property_158[68344] = {
+		id = 68344,
+		damage = 57,
+		base = 68341
+	}
+	uv0.weapon_property_158[68345] = {
+		id = 68345,
+		damage = 61,
+		base = 68341
+	}
+	uv0.weapon_property_158[68346] = {
+		id = 68346,
+		damage = 66,
+		base = 68341
+	}
+	uv0.weapon_property_158[68347] = {
+		id = 68347,
+		damage = 72,
+		base = 68341
+	}
+	uv0.weapon_property_158[68348] = {
+		id = 68348,
+		damage = 79,
+		base = 68341
+	}
+	uv0.weapon_property_158[68349] = {
+		id = 68349,
+		damage = 87,
+		base = 68341
+	}
+	uv0.weapon_property_158[68350] = {
+		id = 68350,
+		damage = 96,
+		base = 68341
+	}
+	uv0.weapon_property_158[68351] = {
+		recover_time = 0,
+		name = "1 x 500lb 폭탄",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 22,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 22,
+		reload_max = 9500,
+		queue = 1,
+		range = 500,
+		damage = 127,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 68351,
+		attack_attribute_ratio = 80,
+		aim_type = 1,
+		bullet_ID = {
+			19880
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_158[68352] = {
+		id = 68352,
+		damage = 134,
+		base = 68351
+	}
+	uv0.weapon_property_158[68353] = {
+		id = 68353,
+		damage = 142,
+		base = 68351
+	}
+	uv0.weapon_property_158[68354] = {
+		id = 68354,
+		damage = 151,
+		base = 68351
+	}
+	uv0.weapon_property_158[68355] = {
+		id = 68355,
+		damage = 161,
+		base = 68351
+	}
+	uv0.weapon_property_158[68356] = {
+		id = 68356,
+		damage = 172,
+		base = 68351
+	}
+	uv0.weapon_property_158[68357] = {
+		id = 68357,
+		damage = 184,
+		base = 68351
+	}
+	uv0.weapon_property_158[68358] = {
+		id = 68358,
+		damage = 197,
+		base = 68351
+	}
+	uv0.weapon_property_158[68359] = {
+		id = 68359,
+		damage = 211,
+		base = 68351
+	}
+	uv0.weapon_property_158[68360] = {
+		id = 68360,
+		damage = 226,
+		base = 68351
+	}
+	uv0.weapon_property_158[68361] = {
+		recover_time = 0,
+		name = "竞技神白弹Lv1",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 10,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 95,
+		damage = 139,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		id = 68361,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19862
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_158[68362] = {
+		id = 68362,
+		name = "竞技神白弹Lv2",
+		damage = 147,
+		base = 68361
+	}
+	uv0.weapon_property_158[68363] = {
+		id = 68363,
+		name = "竞技神白弹Lv3",
+		damage = 156,
+		base = 68361
+	}
+	uv0.weapon_property_158[68364] = {
+		id = 68364,
+		name = "竞技神白弹Lv4",
+		damage = 166,
+		base = 68361
+	}
 	uv0.weapon_property_158[68365] = {
 		id = 68365,
 		name = "竞技神白弹Lv5",
@@ -309,367 +713,5 @@ pg.weapon_property_158 = {}
 		bullet_ID = {
 			68394
 		}
-	}
-	uv0.weapon_property_158[68395] = {
-		reload_max = 505,
-		name = "科隆改直升机Lv5",
-		damage = 48,
-		base = 68391,
-		id = 68395,
-		bullet_ID = {
-			68395
-		}
-	}
-	uv0.weapon_property_158[68396] = {
-		reload_max = 490,
-		name = "科隆改直升机Lv6",
-		damage = 52,
-		base = 68391,
-		id = 68396,
-		bullet_ID = {
-			68396
-		}
-	}
-	uv0.weapon_property_158[68397] = {
-		reload_max = 475,
-		name = "科隆改直升机Lv7",
-		damage = 56,
-		base = 68391,
-		id = 68397,
-		bullet_ID = {
-			68397
-		}
-	}
-	uv0.weapon_property_158[68398] = {
-		reload_max = 460,
-		name = "科隆改直升机Lv8",
-		damage = 60,
-		base = 68391,
-		id = 68398,
-		bullet_ID = {
-			68398
-		}
-	}
-	uv0.weapon_property_158[68399] = {
-		reload_max = 445,
-		name = "科隆改直升机Lv9",
-		damage = 64,
-		base = 68391,
-		id = 68399,
-		bullet_ID = {
-			68399
-		}
-	}
-	uv0.weapon_property_158[68400] = {
-		reload_max = 430,
-		name = "科隆改直升机Lv10",
-		damage = 68,
-		base = 68391,
-		id = 68400,
-		bullet_ID = {
-			68400
-		}
-	}
-	uv0.weapon_property_158[68401] = {
-		recover_time = 0,
-		name = "俾斯麦弹幕Lv1",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 95,
-		damage = 43,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 25,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 68401,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19978,
-			19979,
-			19979
-		},
-		barrage_ID = {
-			80491,
-			80492,
-			80493
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jineng",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_158[68402] = {
-		id = 68402,
-		name = "俾斯麦弹幕Lv2",
-		damage = 50,
-		base = 68401
-	}
-	uv0.weapon_property_158[68403] = {
-		id = 68403,
-		name = "俾斯麦弹幕Lv3",
-		damage = 57,
-		base = 68401
-	}
-	uv0.weapon_property_158[68404] = {
-		id = 68404,
-		name = "俾斯麦弹幕Lv4",
-		damage = 64,
-		base = 68401
-	}
-	uv0.weapon_property_158[68405] = {
-		id = 68405,
-		name = "俾斯麦弹幕Lv5",
-		damage = 72,
-		base = 68401
-	}
-	uv0.weapon_property_158[68406] = {
-		id = 68406,
-		name = "俾斯麦弹幕Lv6",
-		damage = 79,
-		base = 68401
-	}
-	uv0.weapon_property_158[68407] = {
-		id = 68407,
-		name = "俾斯麦弹幕Lv7",
-		damage = 86,
-		base = 68401
-	}
-	uv0.weapon_property_158[68408] = {
-		id = 68408,
-		name = "俾斯麦弹幕Lv8",
-		damage = 93,
-		base = 68401
-	}
-	uv0.weapon_property_158[68409] = {
-		id = 68409,
-		name = "俾斯麦弹幕Lv9",
-		damage = 100,
-		base = 68401
-	}
-	uv0.weapon_property_158[68410] = {
-		id = 68410,
-		name = "俾斯麦弹幕Lv10",
-		damage = 110,
-		base = 68401
-	}
-	uv0.weapon_property_158[68411] = {
-		recover_time = 0,
-		name = "俾斯麦弹幕Lv1",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 120,
-		damage = 43,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 35,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 68411,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19978,
-			19979,
-			19979
-		},
-		barrage_ID = {
-			80491,
-			80494,
-			80495
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jineng",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_158[68412] = {
-		id = 68412,
-		name = "俾斯麦弹幕Lv2",
-		damage = 50,
-		base = 68411
-	}
-	uv0.weapon_property_158[68413] = {
-		id = 68413,
-		name = "俾斯麦弹幕Lv3",
-		damage = 57,
-		base = 68411
-	}
-	uv0.weapon_property_158[68414] = {
-		id = 68414,
-		name = "俾斯麦弹幕Lv4",
-		damage = 64,
-		base = 68411
-	}
-	uv0.weapon_property_158[68415] = {
-		id = 68415,
-		name = "俾斯麦弹幕Lv5",
-		damage = 72,
-		base = 68411
-	}
-	uv0.weapon_property_158[68416] = {
-		id = 68416,
-		name = "俾斯麦弹幕Lv6",
-		damage = 79,
-		base = 68411
-	}
-	uv0.weapon_property_158[68417] = {
-		id = 68417,
-		name = "俾斯麦弹幕Lv7",
-		damage = 86,
-		base = 68411
-	}
-	uv0.weapon_property_158[68418] = {
-		id = 68418,
-		name = "俾斯麦弹幕Lv8",
-		damage = 93,
-		base = 68411
-	}
-	uv0.weapon_property_158[68419] = {
-		id = 68419,
-		name = "俾斯麦弹幕Lv9",
-		damage = 100,
-		base = 68411
-	}
-	uv0.weapon_property_158[68420] = {
-		id = 68420,
-		name = "俾斯麦弹幕Lv10",
-		damage = 110,
-		base = 68411
-	}
-	uv0.weapon_property_158[68421] = {
-		recover_time = 0,
-		name = "KGV技能弹幕-LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 3000,
-		queue = 1,
-		range = 95,
-		damage = 48,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 25,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 68421,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19881,
-			19882
-		},
-		barrage_ID = {
-			80708,
-			80706
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_158[68422] = {
-		id = 68422,
-		name = "KGV技能弹幕-LV2",
-		damage = 56,
-		base = 68421
-	}
-	uv0.weapon_property_158[68423] = {
-		id = 68423,
-		name = "KGV技能弹幕-LV3",
-		damage = 64,
-		base = 68421
-	}
-	uv0.weapon_property_158[68424] = {
-		id = 68424,
-		name = "KGV技能弹幕-LV4",
-		damage = 72,
-		base = 68421
-	}
-	uv0.weapon_property_158[68425] = {
-		id = 68425,
-		name = "KGV技能弹幕-LV5",
-		damage = 80,
-		base = 68421
-	}
-	uv0.weapon_property_158[68426] = {
-		id = 68426,
-		name = "KGV技能弹幕-LV6",
-		damage = 88,
-		base = 68421
-	}
-	uv0.weapon_property_158[68427] = {
-		id = 68427,
-		name = "KGV技能弹幕-LV7",
-		damage = 96,
-		base = 68421
-	}
-	uv0.weapon_property_158[68428] = {
-		id = 68428,
-		name = "KGV技能弹幕-LV8",
-		damage = 104,
-		base = 68421
 	}
 end)()

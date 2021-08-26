@@ -2,6 +2,321 @@ pg = pg or {}
 pg.weapon_property_161 = {}
 
 (function ()
+	uv0.weapon_property_161[68523] = {
+		id = 68523,
+		name = "埃米尔·贝尔汀改技能弹幕LV3",
+		damage = 36,
+		base = 68521
+	}
+	uv0.weapon_property_161[68524] = {
+		id = 68524,
+		name = "埃米尔·贝尔汀改技能弹幕LV4",
+		damage = 39,
+		base = 68521
+	}
+	uv0.weapon_property_161[68525] = {
+		id = 68525,
+		name = "埃米尔·贝尔汀改技能弹幕LV5",
+		damage = 42,
+		base = 68521
+	}
+	uv0.weapon_property_161[68526] = {
+		id = 68526,
+		name = "埃米尔·贝尔汀改技能弹幕LV6",
+		damage = 46,
+		base = 68521
+	}
+	uv0.weapon_property_161[68527] = {
+		id = 68527,
+		name = "埃米尔·贝尔汀改技能弹幕LV7",
+		damage = 50,
+		base = 68521
+	}
+	uv0.weapon_property_161[68528] = {
+		id = 68528,
+		name = "埃米尔·贝尔汀改技能弹幕LV8",
+		damage = 54,
+		base = 68521
+	}
+	uv0.weapon_property_161[68529] = {
+		id = 68529,
+		name = "埃米尔·贝尔汀改技能弹幕LV9",
+		damage = 58,
+		base = 68521
+	}
+	uv0.weapon_property_161[68530] = {
+		id = 68530,
+		name = "埃米尔·贝尔汀改技能弹幕LV10",
+		damage = 62,
+		base = 68521
+	}
+	uv0.weapon_property_161[68531] = {
+		recover_time = 0,
+		name = "埃米尔·贝尔汀改技能鱼雷LV1",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 90,
+		damage = 35,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 68531,
+		attack_attribute_ratio = 120,
+		aim_type = 0,
+		bullet_ID = {
+			19889,
+			19889
+		},
+		barrage_ID = {
+			80733,
+			80734
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_161[68532] = {
+		id = 68532,
+		name = "埃米尔·贝尔汀改技能鱼雷LV2",
+		damage = 36,
+		base = 68531
+	}
+	uv0.weapon_property_161[68533] = {
+		id = 68533,
+		name = "埃米尔·贝尔汀改技能鱼雷LV3",
+		damage = 42,
+		base = 68531
+	}
+	uv0.weapon_property_161[68534] = {
+		id = 68534,
+		name = "埃米尔·贝尔汀改技能鱼雷LV4",
+		damage = 50,
+		base = 68531
+	}
+	uv0.weapon_property_161[68535] = {
+		id = 68535,
+		name = "埃米尔·贝尔汀改技能鱼雷LV5",
+		damage = 52,
+		base = 68531
+	}
+	uv0.weapon_property_161[68536] = {
+		id = 68536,
+		name = "埃米尔·贝尔汀改技能鱼雷LV6",
+		damage = 55,
+		base = 68531
+	}
+	uv0.weapon_property_161[68537] = {
+		id = 68537,
+		name = "埃米尔·贝尔汀改技能鱼雷LV7",
+		damage = 58,
+		base = 68531
+	}
+	uv0.weapon_property_161[68538] = {
+		id = 68538,
+		name = "埃米尔·贝尔汀改技能鱼雷LV8",
+		damage = 62,
+		base = 68531
+	}
+	uv0.weapon_property_161[68539] = {
+		id = 68539,
+		name = "埃米尔·贝尔汀改技能鱼雷LV9",
+		damage = 67,
+		base = 68531
+	}
+	uv0.weapon_property_161[68540] = {
+		id = 68540,
+		name = "埃米尔·贝尔汀改技能鱼雷LV10",
+		damage = 72,
+		base = 68531
+	}
+	uv0.weapon_property_161[68541] = {
+		recover_time = 0.5,
+		name = "伊25技能零侦LV1",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 1890,
+		queue = 1,
+		range = 90,
+		damage = 70,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 68541,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			68541
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_161[68542] = {
+		id = 68542,
+		name = "伊25技能零侦LV2",
+		damage = 78,
+		base = 68541
+	}
+	uv0.weapon_property_161[68543] = {
+		id = 68543,
+		name = "伊25技能零侦LV3",
+		damage = 85,
+		base = 68541
+	}
+	uv0.weapon_property_161[68544] = {
+		id = 68544,
+		name = "伊25技能零侦LV4",
+		damage = 93,
+		base = 68541
+	}
+	uv0.weapon_property_161[68545] = {
+		id = 68545,
+		name = "伊25技能零侦LV5",
+		damage = 100,
+		base = 68541
+	}
+	uv0.weapon_property_161[68546] = {
+		id = 68546,
+		name = "伊25技能零侦LV6",
+		damage = 108,
+		base = 68541
+	}
+	uv0.weapon_property_161[68547] = {
+		id = 68547,
+		name = "伊25技能零侦LV7",
+		damage = 115,
+		base = 68541
+	}
+	uv0.weapon_property_161[68548] = {
+		id = 68548,
+		name = "伊25技能零侦LV8",
+		damage = 123,
+		base = 68541
+	}
+	uv0.weapon_property_161[68549] = {
+		id = 68549,
+		name = "伊25技能零侦LV9",
+		damage = 130,
+		base = 68541
+	}
+	uv0.weapon_property_161[68550] = {
+		id = 68550,
+		name = "伊25技能零侦LV10",
+		damage = 138,
+		base = 68541
+	}
+	uv0.weapon_property_161[68551] = {
+		recover_time = 0,
+		name = "2 x 150lb 폭탄",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 25,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 25,
+		reload_max = 9500,
+		queue = 1,
+		range = 500,
+		damage = 72,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 68551,
+		attack_attribute_ratio = 75,
+		aim_type = 1,
+		bullet_ID = {
+			19999
+		},
+		barrage_ID = {
+			2121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_161[68552] = {
+		id = 68552,
+		damage = 81,
+		base = 68551
+	}
+	uv0.weapon_property_161[68553] = {
+		id = 68553,
+		damage = 90,
+		base = 68551
+	}
+	uv0.weapon_property_161[68554] = {
+		id = 68554,
+		damage = 99,
+		base = 68551
+	}
+	uv0.weapon_property_161[68555] = {
+		id = 68555,
+		damage = 108,
+		base = 68551
+	}
+	uv0.weapon_property_161[68556] = {
+		id = 68556,
+		damage = 117,
+		base = 68551
+	}
 	uv0.weapon_property_161[68557] = {
 		id = 68557,
 		damage = 128,
@@ -338,499 +653,6 @@ pg.weapon_property_161 = {}
 			80763,
 			80764,
 			80765
-		}
-	}
-	uv0.weapon_property_161[68587] = {
-		id = 68587,
-		name = "阿拉巴马技能LV7-PVP",
-		damage = 130,
-		base = 68581,
-		barrage_ID = {
-			80763,
-			80764,
-			80765
-		}
-	}
-	uv0.weapon_property_161[68588] = {
-		id = 68588,
-		name = "阿拉巴马技能LV8-PVP",
-		damage = 142,
-		base = 68581,
-		barrage_ID = {
-			80763,
-			80764,
-			80765
-		}
-	}
-	uv0.weapon_property_161[68589] = {
-		id = 68589,
-		name = "阿拉巴马技能LV9-PVP",
-		damage = 154,
-		base = 68581,
-		barrage_ID = {
-			80777,
-			80778,
-			80779
-		}
-	}
-	uv0.weapon_property_161[68590] = {
-		id = 68590,
-		name = "阿拉巴马技能LV10-PVP",
-		damage = 170,
-		base = 68581,
-		barrage_ID = {
-			80777,
-			80778,
-			80779
-		}
-	}
-	uv0.weapon_property_161[68591] = {
-		recover_time = 0,
-		name = "阿拉巴马技能LV1-PVE",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 95,
-		damage = 58,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 25,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 68591,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19001,
-			19001,
-			19001
-		},
-		barrage_ID = {
-			80760,
-			80761,
-			80762
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jineng",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_161[68592] = {
-		id = 68592,
-		name = "阿拉巴马技能LV2-PVE",
-		damage = 70,
-		base = 68591
-	}
-	uv0.weapon_property_161[68593] = {
-		id = 68593,
-		name = "阿拉巴马技能LV3-PVE",
-		damage = 82,
-		base = 68591
-	}
-	uv0.weapon_property_161[68594] = {
-		id = 68594,
-		name = "阿拉巴马技能LV4-PVE",
-		damage = 94,
-		base = 68591
-	}
-	uv0.weapon_property_161[68595] = {
-		id = 68595,
-		name = "阿拉巴马技能LV5-PVE",
-		damage = 106,
-		base = 68591
-	}
-	uv0.weapon_property_161[68596] = {
-		id = 68596,
-		name = "阿拉巴马技能LV6-PVE",
-		damage = 118,
-		base = 68591,
-		barrage_ID = {
-			80763,
-			80764,
-			80765
-		}
-	}
-	uv0.weapon_property_161[68597] = {
-		id = 68597,
-		name = "阿拉巴马技能LV7-PVE",
-		damage = 130,
-		base = 68591,
-		barrage_ID = {
-			80763,
-			80764,
-			80765
-		}
-	}
-	uv0.weapon_property_161[68598] = {
-		id = 68598,
-		name = "阿拉巴马技能LV8-PVE",
-		damage = 142,
-		base = 68591,
-		barrage_ID = {
-			80763,
-			80764,
-			80765
-		}
-	}
-	uv0.weapon_property_161[68599] = {
-		id = 68599,
-		name = "阿拉巴马技能LV9-PVE",
-		damage = 154,
-		base = 68591,
-		barrage_ID = {
-			80777,
-			80778,
-			80779
-		}
-	}
-	uv0.weapon_property_161[68600] = {
-		id = 68600,
-		name = "阿拉巴马技能LV10-PVE",
-		damage = 170,
-		base = 68591,
-		barrage_ID = {
-			80777,
-			80778,
-			80779
-		}
-	}
-	uv0.weapon_property_161[68601] = {
-		recover_time = 0,
-		name = "阿拉巴马技能·超重弹LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 120,
-		damage = 58,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 25,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 68601,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19000
-		},
-		barrage_ID = {
-			80766
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jineng",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_161[68602] = {
-		id = 68602,
-		name = "阿拉巴马技能·超重弹LV2",
-		damage = 74,
-		base = 68601
-	}
-	uv0.weapon_property_161[68603] = {
-		id = 68603,
-		name = "阿拉巴马技能·超重弹LV3",
-		damage = 86,
-		base = 68601
-	}
-	uv0.weapon_property_161[68604] = {
-		id = 68604,
-		name = "阿拉巴马技能·超重弹LV4",
-		damage = 98,
-		base = 68601
-	}
-	uv0.weapon_property_161[68605] = {
-		id = 68605,
-		name = "阿拉巴马技能·超重弹LV5",
-		damage = 110,
-		base = 68601
-	}
-	uv0.weapon_property_161[68606] = {
-		id = 68606,
-		name = "阿拉巴马技能·超重弹LV6",
-		damage = 122,
-		base = 68601
-	}
-	uv0.weapon_property_161[68607] = {
-		id = 68607,
-		name = "阿拉巴马技能·超重弹LV7",
-		damage = 134,
-		base = 68601
-	}
-	uv0.weapon_property_161[68608] = {
-		id = 68608,
-		name = "阿拉巴马技能·超重弹LV8",
-		damage = 146,
-		base = 68601
-	}
-	uv0.weapon_property_161[68609] = {
-		id = 68609,
-		name = "阿拉巴马技能·超重弹LV9",
-		damage = 158,
-		base = 68601
-	}
-	uv0.weapon_property_161[68610] = {
-		id = 68610,
-		name = "阿拉巴马技能·超重弹LV10",
-		damage = 174,
-		base = 68601
-	}
-	uv0.weapon_property_161[68611] = {
-		recover_time = 0.5,
-		name = "阿拉巴马技能·小子弹LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 3000,
-		queue = 1,
-		range = 50,
-		damage = 11,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 68611,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80767,
-			80771
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_161[68612] = {
-		id = 68612,
-		name = "阿拉巴马技能·小子弹LV2",
-		damage = 12,
-		base = 68611,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80767,
-			80768,
-			80771,
-			80772
-		}
-	}
-	uv0.weapon_property_161[68613] = {
-		id = 68613,
-		name = "阿拉巴马技能·小子弹LV3",
-		damage = 13,
-		base = 68611,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80767,
-			80768,
-			80771,
-			80772
-		}
-	}
-	uv0.weapon_property_161[68614] = {
-		id = 68614,
-		name = "阿拉巴马技能·小子弹LV4",
-		damage = 14,
-		base = 68611,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80767,
-			80769,
-			80771,
-			80773
-		}
-	}
-	uv0.weapon_property_161[68615] = {
-		id = 68615,
-		name = "阿拉巴马技能·小子弹LV5",
-		damage = 15,
-		base = 68611,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80767,
-			80769,
-			80771,
-			80773
-		}
-	}
-	uv0.weapon_property_161[68616] = {
-		id = 68616,
-		name = "阿拉巴马技能·小子弹LV6",
-		damage = 16,
-		base = 68611,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80767,
-			80770,
-			80771,
-			80774
-		}
-	}
-	uv0.weapon_property_161[68617] = {
-		id = 68617,
-		name = "阿拉巴马技能·小子弹LV7",
-		damage = 17,
-		base = 68611,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80767,
-			80770,
-			80771,
-			80774
-		}
-	}
-	uv0.weapon_property_161[68618] = {
-		id = 68618,
-		name = "阿拉巴马技能·小子弹LV8",
-		damage = 18,
-		base = 68611,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80767,
-			80770,
-			80771,
-			80774,
-			80775
-		}
-	}
-	uv0.weapon_property_161[68619] = {
-		id = 68619,
-		name = "阿拉巴马技能·小子弹LV9",
-		damage = 19,
-		base = 68611,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80767,
-			80770,
-			80771,
-			80774,
-			80775
-		}
-	}
-	uv0.weapon_property_161[68620] = {
-		id = 68620,
-		name = "阿拉巴马技能·小子弹LV10",
-		damage = 20,
-		base = 68611,
-		bullet_ID = {
-			19905,
-			19905,
-			19905,
-			19905,
-			19905
-		},
-		barrage_ID = {
-			80767,
-			80770,
-			80771,
-			80774,
-			80776
 		}
 	}
 end)()

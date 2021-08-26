@@ -1,5 +1,84 @@
 pg = pg or {}
 pg.equip_data_statistics_398 = {
+	[90912] = {
+		id = 90912,
+		anti_siren = 200,
+		damage = "52 x 4",
+		base = 90900,
+		weapon_id = {
+			90912
+		}
+	},
+	[90913] = {
+		id = 90913,
+		anti_siren = 300,
+		damage = "52 x 4",
+		base = 90900,
+		weapon_id = {
+			90913
+		}
+	},
+	[91000] = {
+		tech = 0,
+		name = "시제형 3연장 406mm/50 주포",
+		speciality = "투사",
+		type = 4,
+		value_2 = 45,
+		ammo = 1,
+		damage = "54 x 3",
+		nationality = 8,
+		rarity = 5,
+		id = 91000,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "51000",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1580
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			91000
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[91001] = {
+		id = 91001,
+		damage = "64 x 3",
+		base = 91000,
+		weapon_id = {
+			91001
+		}
+	},
 	[91002] = {
 		id = 91002,
 		damage = "72 x 3",
@@ -149,38 +228,6 @@ pg.equip_data_statistics_398 = {
 			"RN",
 			"BB",
 			"MG"
-		}
-	},
-	[95001] = {
-		id = 95001,
-		damage = "50 x 3",
-		base = 95000,
-		weapon_id = {
-			95001
-		}
-	},
-	[95002] = {
-		id = 95002,
-		damage = "58 x 3",
-		base = 95000,
-		weapon_id = {
-			95002
-		}
-	},
-	[95003] = {
-		id = 95003,
-		damage = "66 x 3",
-		base = 95000,
-		weapon_id = {
-			95003
-		}
-	},
-	[95004] = {
-		id = 95004,
-		damage = "74 x 3",
-		base = 95000,
-		weapon_id = {
-			95004
 		}
 	}
 }

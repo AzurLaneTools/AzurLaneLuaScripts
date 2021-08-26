@@ -2,6 +2,26 @@ pg = pg or {}
 pg.weapon_property_112 = {}
 
 (function ()
+	uv0.weapon_property_112[64137] = {
+		id = 64137,
+		damage = 153,
+		base = 64131
+	}
+	uv0.weapon_property_112[64138] = {
+		id = 64138,
+		damage = 168,
+		base = 64131
+	}
+	uv0.weapon_property_112[64139] = {
+		id = 64139,
+		damage = 183,
+		base = 64131
+	}
+	uv0.weapon_property_112[64140] = {
+		id = 64140,
+		damage = 198,
+		base = 64131
+	}
 	uv0.weapon_property_112[64201] = {
 		recover_time = 0,
 		name = "新泽西超重黑蓝弹幕LV1",
@@ -607,69 +627,5 @@ pg.weapon_property_112 = {}
 		name = "美因茨黑子弹弹幕天运强化LV10",
 		damage = 40,
 		base = 64251
-	}
-	uv0.weapon_property_112[64261] = {
-		recover_time = 0.5,
-		name = "奥丁平射小子弹天运强化LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 50,
-		damage = 44,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 64261,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19312,
-			19312
-		},
-		barrage_ID = {
-			81120,
-			81121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_112[64262] = {
-		id = 64262,
-		name = "奥丁平射小子弹天运强化LV2",
-		damage = 50,
-		base = 64261
-	}
-	uv0.weapon_property_112[64263] = {
-		id = 64263,
-		name = "奥丁平射小子弹天运强化LV3",
-		damage = 56,
-		base = 64261
-	}
-	uv0.weapon_property_112[64264] = {
-		id = 64264,
-		name = "奥丁平射小子弹天运强化LV4",
-		damage = 62,
-		base = 64261
 	}
 end)()

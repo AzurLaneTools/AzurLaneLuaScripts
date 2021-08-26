@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_367 = {
+	[85220] = {
+		tech = 3,
+		name = "37mm대공포 70-K",
+		speciality = "대공",
+		type = 6,
+		value_2 = 25,
+		ammo = 5,
+		damage = "14/회",
+		nationality = 7,
+		rarity = 4,
+		id = 85220,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "85180",
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85221] = {
+		id = 85221,
+		damage = "17/회",
+		base = 85220,
+		weapon_id = {
+			85221
+		}
+	},
+	[85222] = {
+		id = 85222,
+		damage = "20/회",
+		base = 85220,
+		weapon_id = {
+			85222
+		}
+	},
+	[85223] = {
+		id = 85223,
+		damage = "23/회",
+		base = 85220,
+		weapon_id = {
+			85223
+		}
+	},
 	[85224] = {
 		id = 85224,
 		damage = "26/회",
@@ -157,92 +243,6 @@ pg.equip_data_statistics_367 = {
 		base = 85260,
 		weapon_id = {
 			85264
-		}
-	},
-	[85265] = {
-		id = 85265,
-		damage = "66/회",
-		base = 85260,
-		weapon_id = {
-			85265
-		}
-	},
-	[85266] = {
-		id = 85266,
-		damage = "73/회",
-		base = 85260,
-		weapon_id = {
-			85266
-		}
-	},
-	[85280] = {
-		tech = 3,
-		name = "B-54 100mm 연장 대공포",
-		speciality = "대공",
-		type = 6,
-		value_2 = 25,
-		ammo = 5,
-		damage = "43/회",
-		nationality = 7,
-		rarity = 4,
-		id = 85280,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "85240",
-		attribute_2 = "antiaircraft",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85280
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85281] = {
-		id = 85281,
-		damage = "48/회",
-		base = 85280,
-		weapon_id = {
-			85281
 		}
 	}
 }

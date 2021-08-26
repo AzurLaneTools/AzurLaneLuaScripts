@@ -1,5 +1,37 @@
 pg = pg or {}
 pg.equip_data_statistics_363 = {
+	[85003] = {
+		id = 85003,
+		damage = "4 x 6",
+		base = 85000,
+		weapon_id = {
+			85003
+		}
+	},
+	[85004] = {
+		id = 85004,
+		damage = "5 x 6",
+		base = 85000,
+		weapon_id = {
+			85004
+		}
+	},
+	[85005] = {
+		id = 85005,
+		damage = "6 x 6",
+		base = 85000,
+		weapon_id = {
+			85005
+		}
+	},
+	[85006] = {
+		id = 85006,
+		damage = "7 x 6",
+		base = 85000,
+		weapon_id = {
+			85006
+		}
+	},
 	[85040] = {
 		tech = 3,
 		name = "B-13 연장 130mm 주포 B-2LM",
@@ -162,93 +194,6 @@ pg.equip_data_statistics_363 = {
 		base = 85040,
 		weapon_id = {
 			85052
-		}
-	},
-	[85053] = {
-		id = 85053,
-		anti_siren = 300,
-		damage = "15 x 6",
-		base = 85040,
-		weapon_id = {
-			85053
-		}
-	},
-	[85060] = {
-		tech = 1,
-		name = "연장 100mm대공포 SM-5-1s",
-		speciality = "대공",
-		type = 6,
-		value_2 = 12,
-		ammo = 5,
-		damage = "35/회",
-		nationality = 7,
-		rarity = 3,
-		id = 85060,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "85060",
-		attribute_2 = "antiaircraft",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			1,
-			2,
-			6,
-			10
-		},
-		weapon_id = {
-			85060
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"ST",
-			"AA"
-		}
-	},
-	[85061] = {
-		id = 85061,
-		damage = "40/회",
-		base = 85060,
-		weapon_id = {
-			85061
-		}
-	},
-	[85062] = {
-		id = 85062,
-		damage = "45/회",
-		base = 85060,
-		weapon_id = {
-			85062
 		}
 	}
 }

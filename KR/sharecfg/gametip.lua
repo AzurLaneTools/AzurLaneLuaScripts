@@ -6414,6 +6414,9 @@ B평가:<color=#92fc63>70</color>점
 	shop_street_activity_tip = {
 		tip = "·이벤트 기간(<color=#A1E400FF>2021.8.19-2021.9.8</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
 	},
+	shop_street_Equipment_skin_box_help = {
+		tip = "$1 출현 시간: $2"
+	},
 	twitter_link_title = {
 		tip = "连接中的推特账号：$1"
 	},
@@ -7436,7 +7439,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "어빌리티 포인트가 부족합니다"
 	},
 	buildship_new_tip = {
-		tip = "아마미 하루카, 키사라기 치하야, 미나세 이오리 등 출현 확률 UP!"
+		tip = "잉그레이엄, 리노, 인트레피드 등 캐릭터 출현 확률 UP!"
 	},
 	buildship_heavy_tip = {
 		tip = "장 바르, 매사추세츠, 됭케르크 건조 추가!"
@@ -14123,6 +14126,9 @@ P.S.기록기의 내용량은 상한이 있으니, 반드시 제때 분석하세
 	},
 	user_is_forever_banned = {
 		tip = "계정 이용 정지됨"
+	},
+	gem_shop_xinzhi_tip = {
+		tip = "(이번달 <color=#FF5C5CFF>$1</color>/15회 구매함)"
 	},
 	cowboy_tips = {
 		tip = {

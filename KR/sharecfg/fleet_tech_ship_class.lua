@@ -114,7 +114,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 9,
 		ships = {
 			10145,
-			10144
+			10144,
+			10148
 		}
 	},
 	[10201] = {

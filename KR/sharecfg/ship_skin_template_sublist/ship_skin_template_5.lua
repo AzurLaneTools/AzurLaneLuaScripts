@@ -1,17 +1,17 @@
 pg = pg or {}
 pg.ship_skin_template_5 = {
-	[108060] = {
-		ship_group = 10806,
-		name = "아처피시",
+	[108070] = {
+		ship_group = 10807,
+		name = "노틸러스",
 		bullet_skin_secondary = "",
-		hand_id = 7,
+		hand_id = 13,
 		bgm = "",
 		illustrator2 = -1,
 		bg = "",
-		id = 108060,
+		id = 108070,
 		group_index = 0,
 		shop_id = 0,
-		painting = "sheshuiyu",
+		painting = "yingwuluo",
 		air_bomb_skin = "",
 		air_bullet_skin = "",
 		shop_type_id = 0,
@@ -22,15 +22,15 @@ pg.ship_skin_template_5 = {
 		bg_sp = "",
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
-		prefab = "sheshuiyu",
+		prefab = "yingwuluo",
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "발라오급 잠수함 {namecode:196}, 현호 SS-311",
-		voice_actor = 274,
+		desc = "나왈급 잠수함 노틸러스, 현호 SS-168",
+		voice_actor = 283,
 		spine_offset = "",
-		illustrator = -1,
+		illustrator = 14,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -68,8 +68,8 @@ pg.ship_skin_template_5 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.16,
-					1.12,
+					1.284,
+					0.819,
 					0
 				}
 			},
@@ -89,7 +89,7 @@ pg.ship_skin_template_5 = {
 						"smoke",
 						{
 							-0.64,
-							2.29,
+							2.45,
 							0
 						}
 					}
@@ -97,18 +97,18 @@ pg.ship_skin_template_5 = {
 			}
 		}
 	},
-	[108061] = {
-		ship_group = 10806,
-		name = "바니 특제 음료",
+	[108071] = {
+		ship_group = 10807,
+		name = "검은 토끼 휴식 중",
 		bullet_skin_secondary = "",
-		hand_id = 7,
+		hand_id = 13,
 		bgm = "",
 		illustrator2 = -1,
 		bg = "145",
-		id = 108061,
+		id = 108071,
 		group_index = 1,
-		shop_id = 70545,
-		painting = "sheshuiyu_3",
+		shop_id = 70587,
+		painting = "yingwuluo_2",
 		air_bomb_skin = "",
 		air_bullet_skin = "",
 		shop_type_id = 16,
@@ -116,18 +116,18 @@ pg.ship_skin_template_5 = {
 		l2d_animations = "",
 		bullet_skin_main = "",
 		skin_type = 0,
-		bg_sp = "1102",
+		bg_sp = "",
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
-		prefab = "sheshuiyu_3",
+		prefab = "yingwuluo_2",
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "오늘 행운의 손님은 지휘관~ 아처피시의 실험… 아니, 특제 음료 한 잔 해! 안심하고 마셔~ 아무 일도 없을 테니까, 아마도, 헤헤~",
-		voice_actor = 274,
+		desc = "후~ 오래 서있었더니 꽤 힘드네... 왓!? 지휘관도 여기 와 있었다니... 저기, 괜찮으면, 같이... 쉴래?",
+		voice_actor = 283,
 		spine_offset = "",
-		illustrator = -1,
+		illustrator = 14,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -167,8 +167,8 @@ pg.ship_skin_template_5 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.06,
-					1.11,
+					1.284,
+					0.819,
 					0
 				}
 			},
@@ -188,7 +188,7 @@ pg.ship_skin_template_5 = {
 						"smoke",
 						{
 							-0.64,
-							2.37,
+							2.45,
 							0
 						}
 					}
@@ -8042,6 +8042,119 @@ pg.ship_skin_template_5 = {
 						{
 							0.431,
 							0.392,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202031] = {
+		ship_group = 20203,
+		name = "파티 퀸",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "107",
+		id = 202031,
+		group_index = 1,
+		shop_id = 70099,
+		painting = "ajiakesi_2",
+		air_bomb_skin = "",
+		air_bullet_skin = "",
+		shop_type_id = 7,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ajiakesi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "후후후, 그 놀란 얼굴을 보니, 이렇게 갈아 입은 보람이 있네요♪ 자~ 지휘관, 와인, 한 잔 드릴까요?",
+		voice_actor = 34,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-1.02,
+					1.43,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.99,
+					1.5,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.19,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-1.01,
+					1.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.47,
 							0
 						}
 					}

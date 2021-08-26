@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_352 = {
+	[74121] = {
+		type = 1,
+		name = "0",
+		speciality = "없음",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "스킬 탄막",
+		id = 74121,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			74121
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[74122] = {
+		id = 74122,
+		name = "0",
+		base = 74121,
+		weapon_id = {
+			74122
+		}
+	},
 	[74131] = {
 		type = 1,
 		name = "全弹发射-肇和级I",
@@ -350,53 +397,6 @@ pg.equip_data_statistics_352 = {
 		equip_info = {},
 		weapon_id = {
 			75511
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[75512] = {
-		id = 75512,
-		name = "全弹发射-布林级II",
-		base = 75511,
-		weapon_id = {
-			75512
-		}
-	},
-	[76011] = {
-		type = 1,
-		name = "全弹发射-愤怒级I",
-		speciality = "없음",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能弹幕",
-		id = 76011,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			76011
 		},
 		skill_id = {},
 		part_main = {

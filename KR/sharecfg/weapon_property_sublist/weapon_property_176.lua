@@ -2,6 +2,395 @@ pg = pg or {}
 pg.weapon_property_176 = {}
 
 (function ()
+	uv0.weapon_property_176[69503] = {
+		id = 69503,
+		name = "小光辉技能圣光飞机Lv3",
+		damage = 54,
+		base = 69501,
+		bullet_ID = {
+			69503
+		}
+	}
+	uv0.weapon_property_176[69504] = {
+		id = 69504,
+		name = "小光辉技能圣光飞机Lv4",
+		damage = 57,
+		base = 69501,
+		bullet_ID = {
+			69504
+		}
+	}
+	uv0.weapon_property_176[69505] = {
+		id = 69505,
+		name = "小光辉技能圣光飞机Lv5",
+		damage = 61,
+		base = 69501,
+		bullet_ID = {
+			69505
+		}
+	}
+	uv0.weapon_property_176[69506] = {
+		id = 69506,
+		name = "小光辉技能圣光飞机Lv6",
+		damage = 66,
+		base = 69501,
+		bullet_ID = {
+			69506
+		}
+	}
+	uv0.weapon_property_176[69507] = {
+		id = 69507,
+		name = "小光辉技能圣光飞机Lv7",
+		damage = 72,
+		base = 69501,
+		bullet_ID = {
+			69507
+		}
+	}
+	uv0.weapon_property_176[69508] = {
+		id = 69508,
+		name = "小光辉技能圣光飞机Lv8",
+		damage = 79,
+		base = 69501,
+		bullet_ID = {
+			69508
+		}
+	}
+	uv0.weapon_property_176[69509] = {
+		id = 69509,
+		name = "小光辉技能圣光飞机Lv9",
+		damage = 87,
+		base = 69501,
+		bullet_ID = {
+			69509
+		}
+	}
+	uv0.weapon_property_176[69510] = {
+		id = 69510,
+		name = "小光辉技能圣光飞机Lv10",
+		damage = 96,
+		base = 69501,
+		bullet_ID = {
+			69510
+		}
+	}
+	uv0.weapon_property_176[69511] = {
+		recover_time = 0,
+		name = "圣光弹",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 90,
+		damage = 51,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 69511,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19145
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_176[69512] = {
+		id = 69512,
+		damage = 52,
+		base = 69511
+	}
+	uv0.weapon_property_176[69513] = {
+		id = 69513,
+		damage = 54,
+		base = 69511
+	}
+	uv0.weapon_property_176[69514] = {
+		id = 69514,
+		damage = 57,
+		base = 69511
+	}
+	uv0.weapon_property_176[69515] = {
+		id = 69515,
+		damage = 61,
+		base = 69511
+	}
+	uv0.weapon_property_176[69516] = {
+		id = 69516,
+		damage = 66,
+		base = 69511
+	}
+	uv0.weapon_property_176[69517] = {
+		id = 69517,
+		damage = 72,
+		base = 69511
+	}
+	uv0.weapon_property_176[69518] = {
+		id = 69518,
+		damage = 79,
+		base = 69511
+	}
+	uv0.weapon_property_176[69519] = {
+		id = 69519,
+		damage = 87,
+		base = 69511
+	}
+	uv0.weapon_property_176[69520] = {
+		id = 69520,
+		damage = 96,
+		base = 69511
+	}
+	uv0.weapon_property_176[69521] = {
+		recover_time = 0.5,
+		name = "爱斯基摩人弹幕LV1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 50,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 69521,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19146
+		},
+		barrage_ID = {
+			80886
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_176[69522] = {
+		id = 69522,
+		name = "爱斯基摩人弹幕LV2",
+		damage = 13,
+		base = 69521
+	}
+	uv0.weapon_property_176[69523] = {
+		id = 69523,
+		name = "爱斯基摩人弹幕LV3",
+		damage = 14,
+		base = 69521
+	}
+	uv0.weapon_property_176[69524] = {
+		id = 69524,
+		name = "爱斯基摩人弹幕LV4",
+		damage = 15,
+		base = 69521,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_176[69525] = {
+		id = 69525,
+		name = "爱斯基摩人弹幕LV5",
+		damage = 16,
+		base = 69521,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_176[69526] = {
+		id = 69526,
+		name = "爱斯基摩人弹幕LV6",
+		damage = 17,
+		base = 69521,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_176[69527] = {
+		id = 69527,
+		name = "爱斯基摩人弹幕LV7",
+		damage = 18,
+		base = 69521,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_176[69528] = {
+		id = 69528,
+		name = "爱斯基摩人弹幕LV8",
+		damage = 20,
+		base = 69521,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_176[69529] = {
+		id = 69529,
+		name = "爱斯基摩人弹幕LV9",
+		damage = 22,
+		base = 69521,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_176[69530] = {
+		id = 69530,
+		name = "爱斯基摩人弹幕LV10",
+		damage = 24,
+		base = 69521,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_176[69531] = {
+		recover_time = 0,
+		name = "柴郡猫爪技能Lv1",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 60,
+		damage = 11,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 118,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 69531,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19147
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_176[69532] = {
+		id = 69532,
+		name = "柴郡猫爪技能Lv2",
+		damage = 13,
+		base = 69531
+	}
+	uv0.weapon_property_176[69533] = {
+		id = 69533,
+		name = "柴郡猫爪技能Lv3",
+		damage = 16,
+		base = 69531
+	}
+	uv0.weapon_property_176[69534] = {
+		id = 69534,
+		name = "柴郡猫爪技能Lv4",
+		damage = 20,
+		base = 69531
+	}
+	uv0.weapon_property_176[69535] = {
+		id = 69535,
+		name = "柴郡猫爪技能Lv5",
+		damage = 25,
+		base = 69531
+	}
+	uv0.weapon_property_176[69536] = {
+		id = 69536,
+		name = "柴郡猫爪技能Lv6",
+		damage = 30,
+		base = 69531
+	}
 	uv0.weapon_property_176[69537] = {
 		id = 69537,
 		name = "柴郡猫爪技能Lv7",
@@ -314,355 +703,5 @@ pg.weapon_property_176 = {}
 		name = "奥丁平射小子弹LV6",
 		damage = 68,
 		base = 69561
-	}
-	uv0.weapon_property_176[69567] = {
-		id = 69567,
-		name = "奥丁平射小子弹LV7",
-		damage = 74,
-		base = 69561
-	}
-	uv0.weapon_property_176[69568] = {
-		id = 69568,
-		name = "奥丁平射小子弹LV8",
-		damage = 80,
-		base = 69561
-	}
-	uv0.weapon_property_176[69569] = {
-		id = 69569,
-		name = "奥丁平射小子弹LV9",
-		damage = 86,
-		base = 69561
-	}
-	uv0.weapon_property_176[69570] = {
-		id = 69570,
-		name = "奥丁平射小子弹LV10",
-		damage = 92,
-		base = 69561
-	}
-	uv0.weapon_property_176[69571] = {
-		recover_time = 0.5,
-		name = "奥丁Gungnir雷电投枪LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 50,
-		damage = 68,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 69571,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19152
-		},
-		barrage_ID = {
-			80898
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_176[69572] = {
-		id = 69572,
-		name = "奥丁Gungnir雷电投枪LV2",
-		damage = 86,
-		base = 69571
-	}
-	uv0.weapon_property_176[69573] = {
-		id = 69573,
-		name = "奥丁Gungnir雷电投枪LV3",
-		damage = 106,
-		base = 69571
-	}
-	uv0.weapon_property_176[69574] = {
-		id = 69574,
-		name = "奥丁Gungnir雷电投枪LV4",
-		damage = 124,
-		base = 69571
-	}
-	uv0.weapon_property_176[69575] = {
-		id = 69575,
-		name = "奥丁Gungnir雷电投枪LV5",
-		damage = 144,
-		base = 69571
-	}
-	uv0.weapon_property_176[69576] = {
-		id = 69576,
-		name = "奥丁Gungnir雷电投枪LV6",
-		damage = 164,
-		base = 69571
-	}
-	uv0.weapon_property_176[69577] = {
-		id = 69577,
-		name = "奥丁Gungnir雷电投枪LV7",
-		damage = 182,
-		base = 69571
-	}
-	uv0.weapon_property_176[69578] = {
-		id = 69578,
-		name = "奥丁Gungnir雷电投枪LV8",
-		damage = 202,
-		base = 69571
-	}
-	uv0.weapon_property_176[69579] = {
-		id = 69579,
-		name = "奥丁Gungnir雷电投枪LV9",
-		damage = 220,
-		base = 69571
-	}
-	uv0.weapon_property_176[69580] = {
-		id = 69580,
-		name = "奥丁Gungnir雷电投枪LV10",
-		damage = 240,
-		base = 69571
-	}
-	uv0.weapon_property_176[69581] = {
-		recover_time = 0.5,
-		name = "德雷克吸血特殊射击LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 80,
-		damage = 38,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 69581,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19153
-		},
-		barrage_ID = {
-			80899
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_176[69582] = {
-		id = 69582,
-		name = "德雷克吸血特殊射击LV2",
-		damage = 44,
-		base = 69581
-	}
-	uv0.weapon_property_176[69583] = {
-		id = 69583,
-		name = "德雷克吸血特殊射击LV3",
-		damage = 50,
-		base = 69581
-	}
-	uv0.weapon_property_176[69584] = {
-		id = 69584,
-		name = "德雷克吸血特殊射击LV4",
-		damage = 56,
-		base = 69581
-	}
-	uv0.weapon_property_176[69585] = {
-		id = 69585,
-		name = "德雷克吸血特殊射击LV5",
-		damage = 62,
-		base = 69581
-	}
-	uv0.weapon_property_176[69586] = {
-		id = 69586,
-		name = "德雷克吸血特殊射击LV6",
-		damage = 68,
-		base = 69581
-	}
-	uv0.weapon_property_176[69587] = {
-		id = 69587,
-		name = "德雷克吸血特殊射击LV7",
-		damage = 74,
-		base = 69581
-	}
-	uv0.weapon_property_176[69588] = {
-		id = 69588,
-		name = "德雷克吸血特殊射击LV8",
-		damage = 80,
-		base = 69581
-	}
-	uv0.weapon_property_176[69589] = {
-		id = 69589,
-		name = "德雷克吸血特殊射击LV9",
-		damage = 86,
-		base = 69581
-	}
-	uv0.weapon_property_176[69590] = {
-		id = 69590,
-		name = "德雷克吸血特殊射击LV10",
-		damage = 92,
-		base = 69581
-	}
-	uv0.weapon_property_176[69591] = {
-		recover_time = 0.5,
-		name = "美因茨破盾反击弹幕LV1",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 500,
-		queue = 1,
-		range = 100,
-		damage = 20,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 69591,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19154
-		},
-		barrage_ID = {
-			80900
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_176[69592] = {
-		id = 69592,
-		name = "美因茨破盾反击弹幕LV2",
-		damage = 22,
-		base = 69591
-	}
-	uv0.weapon_property_176[69593] = {
-		id = 69593,
-		name = "美因茨破盾反击弹幕LV3",
-		damage = 24,
-		base = 69591
-	}
-	uv0.weapon_property_176[69594] = {
-		id = 69594,
-		name = "美因茨破盾反击弹幕LV4",
-		damage = 28,
-		base = 69591
-	}
-	uv0.weapon_property_176[69595] = {
-		id = 69595,
-		name = "美因茨破盾反击弹幕LV5",
-		damage = 26,
-		base = 69591
-	}
-	uv0.weapon_property_176[69596] = {
-		id = 69596,
-		name = "美因茨破盾反击弹幕LV6",
-		damage = 28,
-		base = 69591
-	}
-	uv0.weapon_property_176[69597] = {
-		id = 69597,
-		name = "美因茨破盾反击弹幕LV7",
-		damage = 30,
-		base = 69591,
-		bullet_ID = {
-			19154,
-			19155
-		},
-		barrage_ID = {
-			80900,
-			80901
-		}
-	}
-	uv0.weapon_property_176[69598] = {
-		id = 69598,
-		name = "美因茨破盾反击弹幕LV8",
-		damage = 32,
-		base = 69591,
-		bullet_ID = {
-			19154,
-			19155
-		},
-		barrage_ID = {
-			80900,
-			80901
-		}
-	}
-	uv0.weapon_property_176[69599] = {
-		id = 69599,
-		name = "美因茨破盾反击弹幕LV9",
-		damage = 34,
-		base = 69591,
-		bullet_ID = {
-			19154,
-			19155
-		},
-		barrage_ID = {
-			80900,
-			80901
-		}
-	}
-	uv0.weapon_property_176[69600] = {
-		id = 69600,
-		name = "美因茨破盾反击弹幕LV10",
-		damage = 36,
-		base = 69591,
-		bullet_ID = {
-			19154,
-			19155
-		},
-		barrage_ID = {
-			80900,
-			80901
-		}
 	}
 end)()

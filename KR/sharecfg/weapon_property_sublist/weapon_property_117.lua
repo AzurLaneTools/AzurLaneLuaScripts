@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_117 = {}
 
 (function ()
+	uv0.weapon_property_117[64517] = {
+		id = 64517,
+		name = "双海亚美花朵鱼雷弹幕LV7",
+		damage = 48,
+		base = 64511
+	}
+	uv0.weapon_property_117[64518] = {
+		id = 64518,
+		name = "双海亚美花朵鱼雷弹幕LV8",
+		damage = 52,
+		base = 64511
+	}
+	uv0.weapon_property_117[64519] = {
+		id = 64519,
+		name = "双海亚美花朵鱼雷弹幕LV9",
+		damage = 56,
+		base = 64511
+	}
+	uv0.weapon_property_117[64520] = {
+		id = 64520,
+		name = "双海亚美花朵鱼雷弹幕LV10",
+		damage = 60,
+		base = 64511
+	}
 	uv0.weapon_property_117[64521] = {
 		recover_time = 0,
 		name = "双海真美口红鱼雷弹幕LV2",
@@ -677,64 +701,5 @@ pg.weapon_property_117 = {}
 		bullet_ID = {
 			64580
 		}
-	}
-	uv0.weapon_property_117[64581] = {
-		recover_time = 0,
-		name = "3 x 机载鱼雷",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = -10,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 25,
-		reload_max = 10500,
-		queue = 1,
-		range = 80,
-		damage = 80,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 64581,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			2112
-		},
-		barrage_ID = {
-			2142
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_117[64582] = {
-		id = 64582,
-		damage = 90,
-		base = 64581
-	}
-	uv0.weapon_property_117[64583] = {
-		id = 64583,
-		damage = 100,
-		base = 64581
-	}
-	uv0.weapon_property_117[64584] = {
-		id = 64584,
-		damage = 120,
-		base = 64581
 	}
 end)()

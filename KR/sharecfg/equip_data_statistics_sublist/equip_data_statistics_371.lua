@@ -1,5 +1,38 @@
 pg = pg or {}
 pg.equip_data_statistics_371 = {
+	[85408] = {
+		id = 85408,
+		damage = "83/회",
+		base = 85400,
+		weapon_id = {
+			85408
+		}
+	},
+	[85409] = {
+		id = 85409,
+		damage = "89/회",
+		base = 85400,
+		weapon_id = {
+			85409
+		}
+	},
+	[85410] = {
+		id = 85410,
+		damage = "96/회",
+		base = 85400,
+		weapon_id = {
+			85410
+		}
+	},
+	[85411] = {
+		id = 85411,
+		anti_siren = 100,
+		damage = "96/회",
+		base = 85400,
+		weapon_id = {
+			85411
+		}
+	},
 	[85420] = {
 		tech = 3,
 		name = "3연장 305mm 주포 Model1907",
@@ -198,90 +231,6 @@ pg.equip_data_statistics_371 = {
 		base = 85440,
 		weapon_id = {
 			85444
-		}
-	},
-	[85445] = {
-		id = 85445,
-		damage = "13 x 4",
-		base = 85440,
-		weapon_id = {
-			85445
-		}
-	},
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85446
-		}
-	},
-	[85447] = {
-		id = 85447,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85447
-		}
-	},
-	[85460] = {
-		tech = 1,
-		name = "B-1-P 3연장 180mm 주포 Model1932",
-		speciality = "추적",
-		type = 2,
-		value_2 = 12,
-		ammo = 1,
-		damage = "16 x 3",
-		nationality = 7,
-		rarity = 3,
-		id = 85460,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "노스 유니온에서 개발한 180mm 3연장 함포. 월등한 사거리 보유.",
-		icon = "85460",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1712
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1712
-			},
-			{
-				4,
-				1108
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85460
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG",
-			"AP"
 		}
 	}
 }

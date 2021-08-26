@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_357 = {
+	[79252] = {
+		id = 79252,
+		name = "专属弹幕-路易九世II",
+		base = 79251,
+		weapon_id = {
+			79252
+		}
+	},
+	[79261] = {
+		type = 1,
+		name = "专属弹幕-I19I",
+		speciality = "없음",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "스킬 탄막",
+		id = 79261,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79261
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[79262] = {
 		id = 79262,
 		name = "专属弹幕-I19II",
@@ -335,53 +382,6 @@ pg.equip_data_statistics_357 = {
 		base = 79341,
 		weapon_id = {
 			79342
-		}
-	},
-	[79361] = {
-		type = 1,
-		name = "专属弹幕-天狼星I",
-		speciality = "없음",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能弹幕",
-		id = 79361,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79361
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79362] = {
-		id = 79362,
-		name = "专属弹幕-天狼星II",
-		base = 79361,
-		weapon_id = {
-			79362
 		}
 	}
 }

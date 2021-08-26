@@ -9,9 +9,11 @@ function slot1.Ctor(slot0, slot1)
 end
 
 function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
-	slot0._count = slot0._count + slot3.damage
+	if slot0:damageAttrRequire(slot3.damageAttr) then
+		slot0._count = slot0._count + slot3.damage
 
-	slot0:onTrigger(slot1, slot2)
+		slot0:onTrigger(slot1, slot2)
+	end
 end
 
 function slot1.onTrigger(slot0, slot1, slot2)

@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_353 = {
+	[75512] = {
+		id = 75512,
+		name = "全弹发射-布林级II",
+		base = 75511,
+		weapon_id = {
+			75512
+		}
+	},
+	[76011] = {
+		type = 1,
+		name = "全弹发射-愤怒级I",
+		speciality = "없음",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 76011,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			76011
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[76012] = {
 		id = 76012,
 		name = "全弹发射-愤怒级II",
@@ -335,53 +382,6 @@ pg.equip_data_statistics_353 = {
 		base = 78121,
 		weapon_id = {
 			78122
-		}
-	},
-	[78211] = {
-		type = 1,
-		name = "全弹发射-阿尔及利亚I",
-		speciality = "없음",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能弹幕",
-		id = 78211,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			78211
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[78212] = {
-		id = 78212,
-		name = "全弹发射-阿尔及利亚II",
-		base = 78211,
-		weapon_id = {
-			78212
 		}
 	}
 }

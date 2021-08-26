@@ -2,6 +2,30 @@ pg = pg or {}
 pg.weapon_property_111 = {}
 
 (function ()
+	uv0.weapon_property_111[64073] = {
+		id = 64073,
+		name = "小天城一技能鱼雷LV3",
+		damage = 75,
+		base = 64071
+	}
+	uv0.weapon_property_111[64074] = {
+		id = 64074,
+		name = "小天城一技能鱼雷LV4",
+		damage = 79,
+		base = 64071
+	}
+	uv0.weapon_property_111[64075] = {
+		id = 64075,
+		name = "小天城一技能鱼雷LV5",
+		damage = 84,
+		base = 64071
+	}
+	uv0.weapon_property_111[64076] = {
+		id = 64076,
+		name = "小天城一技能鱼雷LV6",
+		damage = 90,
+		base = 64071
+	}
 	uv0.weapon_property_111[64077] = {
 		id = 64077,
 		name = "小天城一技能鱼雷LV7",
@@ -792,26 +816,6 @@ pg.weapon_property_111 = {}
 	uv0.weapon_property_111[64136] = {
 		id = 64136,
 		damage = 138,
-		base = 64131
-	}
-	uv0.weapon_property_111[64137] = {
-		id = 64137,
-		damage = 153,
-		base = 64131
-	}
-	uv0.weapon_property_111[64138] = {
-		id = 64138,
-		damage = 168,
-		base = 64131
-	}
-	uv0.weapon_property_111[64139] = {
-		id = 64139,
-		damage = 183,
-		base = 64131
-	}
-	uv0.weapon_property_111[64140] = {
-		id = 64140,
-		damage = 198,
 		base = 64131
 	}
 end)()

@@ -1,5 +1,91 @@
 pg = pg or {}
 pg.equip_data_statistics_368 = {
+	[85265] = {
+		id = 85265,
+		damage = "66/회",
+		base = 85260,
+		weapon_id = {
+			85265
+		}
+	},
+	[85266] = {
+		id = 85266,
+		damage = "73/회",
+		base = 85260,
+		weapon_id = {
+			85266
+		}
+	},
+	[85280] = {
+		tech = 3,
+		name = "B-54 100mm 연장 대공포",
+		speciality = "대공",
+		type = 6,
+		value_2 = 25,
+		ammo = 5,
+		damage = "43/회",
+		nationality = 7,
+		rarity = 4,
+		id = 85280,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "85240",
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85280
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85281] = {
+		id = 85281,
+		damage = "48/회",
+		base = 85280,
+		weapon_id = {
+			85281
+		}
+	},
 	[85282] = {
 		id = 85282,
 		damage = "54/회",
@@ -147,38 +233,6 @@ pg.equip_data_statistics_368 = {
 		base = 85300,
 		weapon_id = {
 			85302
-		}
-	},
-	[85303] = {
-		id = 85303,
-		damage = "76 x 3",
-		base = 85300,
-		weapon_id = {
-			85303
-		}
-	},
-	[85304] = {
-		id = 85304,
-		damage = "84 x 3",
-		base = 85300,
-		weapon_id = {
-			85304
-		}
-	},
-	[85305] = {
-		id = 85305,
-		damage = "92 x 3",
-		base = 85300,
-		weapon_id = {
-			85305
-		}
-	},
-	[85306] = {
-		id = 85306,
-		damage = "101 x 3",
-		base = 85300,
-		weapon_id = {
-			85306
 		}
 	}
 }

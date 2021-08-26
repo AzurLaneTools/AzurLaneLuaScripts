@@ -2,6 +2,80 @@ pg = pg or {}
 pg.weapon_property_110 = {}
 
 (function ()
+	uv0.weapon_property_110[64009] = {
+		id = 64009,
+		name = "U-37技能鱼雷弹幕LV9",
+		damage = 35,
+		base = 64001,
+		barrage_ID = {
+			80991,
+			80992,
+			80993
+		}
+	}
+	uv0.weapon_property_110[64010] = {
+		id = 64010,
+		name = "U-37技能鱼雷弹幕LV10",
+		damage = 40,
+		base = 64001,
+		barrage_ID = {
+			80991,
+			80992,
+			80993
+		}
+	}
+	uv0.weapon_property_110[64011] = {
+		recover_time = 0,
+		name = "托里拆利技能鱼雷弹幕LV1",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 90,
+		damage = 19,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 64011,
+		attack_attribute_ratio = 120,
+		aim_type = 0,
+		bullet_ID = {
+			19283,
+			19283
+		},
+		barrage_ID = {
+			81053,
+			81054
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_110[64012] = {
+		id = 64012,
+		name = "托里拆利技能鱼雷弹幕LV2",
+		damage = 21,
+		base = 64011
+	}
 	uv0.weapon_property_110[64013] = {
 		id = 64013,
 		name = "托里拆利技能鱼雷弹幕LV3",
@@ -600,30 +674,6 @@ pg.weapon_property_110 = {}
 		id = 64072,
 		name = "小天城一技能鱼雷LV2",
 		damage = 72,
-		base = 64071
-	}
-	uv0.weapon_property_110[64073] = {
-		id = 64073,
-		name = "小天城一技能鱼雷LV3",
-		damage = 75,
-		base = 64071
-	}
-	uv0.weapon_property_110[64074] = {
-		id = 64074,
-		name = "小天城一技能鱼雷LV4",
-		damage = 79,
-		base = 64071
-	}
-	uv0.weapon_property_110[64075] = {
-		id = 64075,
-		name = "小天城一技能鱼雷LV5",
-		damage = 84,
-		base = 64071
-	}
-	uv0.weapon_property_110[64076] = {
-		id = 64076,
-		name = "小天城一技能鱼雷LV6",
-		damage = 90,
 		base = 64071
 	}
 end)()

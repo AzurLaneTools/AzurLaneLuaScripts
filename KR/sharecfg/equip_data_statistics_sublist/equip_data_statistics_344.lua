@@ -141,6 +141,53 @@ pg.equip_data_statistics_344 = {
 			70312
 		}
 	},
+	[70321] = {
+		type = 1,
+		name = "全弹发射-独角鲸级I",
+		speciality = "无",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 70321,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60701
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[70322] = {
+		id = 70322,
+		name = "全弹发射-独角鲸级II",
+		base = 70321,
+		weapon_id = {
+			60702
+		}
+	},
 	[71011] = {
 		type = 1,
 		name = "0",
@@ -350,53 +397,6 @@ pg.equip_data_statistics_344 = {
 		equip_info = {},
 		weapon_id = {
 			71051
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[71052] = {
-		id = 71052,
-		name = "0",
-		base = 71051,
-		weapon_id = {
-			71052
-		}
-	},
-	[71061] = {
-		type = 1,
-		name = "0",
-		speciality = "없음",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "스킬 탄막",
-		id = 71061,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			71061
 		},
 		skill_id = {},
 		part_main = {

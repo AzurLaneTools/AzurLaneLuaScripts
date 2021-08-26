@@ -119,30 +119,6 @@ end
 function slot3.DoDataEffectWithoutTarget(slot0, slot1, slot2)
 end
 
-function slot3.IsFilterTarget(slot0, slot1, slot2)
-	slot4 = true
-
-	for slot8, slot9 in ipairs(slot0._tempData.arg_list.effectFilter or {}) do
-		if slot9[1] == "TargetID" then
-			if slot9[2] == "=" then
-				if slot9[3] == slot2:GetTemplateID() then
-					return true
-				else
-					slot4 = false
-				end
-			elseif slot9[2] == "~=" then
-				if slot9[3] == slot10 then
-					return false
-				else
-					slot4 = true
-				end
-			end
-		end
-	end
-
-	return slot4
-end
-
 function slot3.GetTarget(slot0, slot1, slot2)
 	if type(slot0._targetChoise) == "string" then
 		if slot0._targetChoise == "TargetSameToLastEffect" then

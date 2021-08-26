@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.equip_data_statistics_380 = {
+	[89180] = {
+		type = 10,
+		name = "빛나는 노래",
+		speciality = "없음",
+		tech = 0,
+		value_2 = 15,
+		ammo = 10,
+		descrip = "아이돌 그룹「Astrum」의 마이크",
+		nationality = 0,
+		rarity = 5,
+		attribute_1 = "antiaircraft",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 89180,
+		icon = "89180",
+		value_1 = "14",
+		attribute_2 = "hit",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			6712
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[89181] = {
+		id = 89181,
+		value_2 = 16,
+		value_1 = "16",
+		base = 89180
+	},
+	[89182] = {
+		id = 89182,
+		value_2 = 17,
+		value_1 = "18",
+		base = 89180
+	},
+	[89183] = {
+		id = 89183,
+		value_2 = 18,
+		value_1 = "20",
+		base = 89180
+	},
 	[89184] = {
 		id = 89184,
 		value_2 = 19,
@@ -105,30 +157,6 @@ pg.equip_data_statistics_380 = {
 	[89202] = {
 		id = 89202,
 		value_1 = "15",
-		base = 89200
-	},
-	[89203] = {
-		id = 89203,
-		value_2 = 2,
-		value_1 = "16",
-		base = 89200
-	},
-	[89204] = {
-		id = 89204,
-		value_2 = 2,
-		value_1 = "17",
-		base = 89200
-	},
-	[89205] = {
-		id = 89205,
-		value_2 = 2,
-		value_1 = "18",
-		base = 89200
-	},
-	[89206] = {
-		id = 89206,
-		value_2 = 3,
-		value_1 = "20",
 		base = 89200
 	}
 }
