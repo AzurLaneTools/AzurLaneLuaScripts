@@ -25,14 +25,10 @@ jobs:
       - name: Prepare cache
         uses: actions/cache@v2
         with:
-          key: "cache-${{ hashFiles('cache/**/*.csv') }}"
+          key: "cache-${{ hashFiles('cache/*/*/version.json') }}-${{ hashFiles('cache/*/*/scripts-hashes.csv') }}"
           path: "cache"
           restore-keys: |
             cache
-
-      - name: Show cache status
-        run: |
-          tree cache
 
       - name: Check for updates
         id: check
