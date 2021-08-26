@@ -621,4 +621,10 @@ pg.weapon_property_12 = {}
 		},
 		precast_param = {}
 	}
+	uv0.weapon_property_12[14101] = {
+		id = 14101,
+		reload_max = 4851,
+		damage = 46,
+		base = 14100
+	}
 end)()

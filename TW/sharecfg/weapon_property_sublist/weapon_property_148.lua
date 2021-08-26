@@ -2,36 +2,6 @@ pg = pg or {}
 pg.weapon_property_148 = {}
 
 (function ()
-	uv0.weapon_property_148[68043] = {
-		id = 68043,
-		damage = 263,
-		base = 68041
-	}
-	uv0.weapon_property_148[68044] = {
-		id = 68044,
-		damage = 290,
-		base = 68041
-	}
-	uv0.weapon_property_148[68045] = {
-		id = 68045,
-		damage = 317,
-		base = 68041
-	}
-	uv0.weapon_property_148[68046] = {
-		id = 68046,
-		damage = 344,
-		base = 68041
-	}
-	uv0.weapon_property_148[68047] = {
-		id = 68047,
-		damage = 371,
-		base = 68041
-	}
-	uv0.weapon_property_148[68048] = {
-		id = 68048,
-		damage = 399,
-		base = 68041
-	}
 	uv0.weapon_property_148[68049] = {
 		id = 68049,
 		damage = 428,
@@ -602,5 +572,91 @@ pg.weapon_property_148 = {}
 		id = 68104,
 		damage = 48,
 		base = 68101
+	}
+	uv0.weapon_property_148[68105] = {
+		id = 68105,
+		damage = 50,
+		base = 68101
+	}
+	uv0.weapon_property_148[68106] = {
+		id = 68106,
+		damage = 52,
+		base = 68101
+	}
+	uv0.weapon_property_148[68107] = {
+		id = 68107,
+		damage = 54,
+		base = 68101,
+		barrage_ID = {
+			80552
+		}
+	}
+	uv0.weapon_property_148[68108] = {
+		id = 68108,
+		damage = 56,
+		base = 68101,
+		barrage_ID = {
+			80552
+		}
+	}
+	uv0.weapon_property_148[68109] = {
+		id = 68109,
+		damage = 58,
+		base = 68101,
+		barrage_ID = {
+			80552
+		}
+	}
+	uv0.weapon_property_148[68110] = {
+		id = 68110,
+		damage = 62,
+		base = 68101,
+		barrage_ID = {
+			80552
+		}
+	}
+	uv0.weapon_property_148[68111] = {
+		recover_time = 0,
+		name = "吾妻技能平射子弹",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 95,
+		damage = 40,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 68111,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19996
+		},
+		barrage_ID = {
+			80553
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end)()

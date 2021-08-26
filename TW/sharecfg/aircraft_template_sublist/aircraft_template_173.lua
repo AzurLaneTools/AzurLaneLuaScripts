@@ -1,104 +1,97 @@
 pg = pg or {}
 pg.aircraft_template_173 = {
-	[68034] = {
-		id = 68034,
-		name = "邦克山技能轰炸机Lv4",
-		base = 68031,
-		max_hp = 47,
-		hp_growth = 1669,
+	[68004] = {
+		id = 68004,
+		name = "邦克山技能鱼雷机Lv4",
+		base = 68001,
+		max_hp = 53,
+		hp_growth = 2036,
 		weapon_ID = {
-			68044,
-			68054
+			68014
 		}
 	},
-	[68035] = {
-		id = 68035,
-		name = "邦克山技能轰炸机Lv5",
-		base = 68031,
-		max_hp = 51,
-		hp_growth = 1831,
+	[68005] = {
+		id = 68005,
+		name = "邦克山技能鱼雷机Lv5",
+		base = 68001,
+		max_hp = 58,
+		hp_growth = 2247,
 		weapon_ID = {
-			68045,
-			68055
+			68015
 		}
 	},
-	[68036] = {
-		id = 68036,
-		name = "邦克山技能轰炸机Lv6",
-		base = 68031,
-		max_hp = 55,
-		hp_growth = 1994,
+	[68006] = {
+		id = 68006,
+		name = "邦克山技能鱼雷机Lv6",
+		base = 68001,
+		max_hp = 64,
+		hp_growth = 2458,
 		weapon_ID = {
-			68046,
-			68056
+			68016
 		}
 	},
-	[68037] = {
-		id = 68037,
-		name = "邦克山技能轰炸机Lv7",
-		base = 68031,
-		max_hp = 59,
-		hp_growth = 2157,
+	[68007] = {
+		id = 68007,
+		name = "邦克山技能鱼雷机Lv7",
+		base = 68001,
+		max_hp = 69,
+		hp_growth = 2669,
 		weapon_ID = {
-			68047,
-			68057
+			68017
 		}
 	},
-	[68038] = {
-		id = 68038,
-		name = "邦克山技能轰炸机Lv8",
-		base = 68031,
-		max_hp = 63,
-		hp_growth = 2320,
+	[68008] = {
+		id = 68008,
+		name = "邦克山技能鱼雷机Lv8",
+		base = 68001,
+		max_hp = 75,
+		hp_growth = 2879,
 		weapon_ID = {
-			68048,
-			68058
+			68018
 		}
 	},
-	[68039] = {
-		id = 68039,
-		name = "邦克山技能轰炸机Lv9",
-		base = 68031,
-		max_hp = 68,
-		hp_growth = 2483,
+	[68009] = {
+		id = 68009,
+		name = "邦克山技能鱼雷机Lv9",
+		base = 68001,
+		max_hp = 80,
+		hp_growth = 3090,
 		weapon_ID = {
-			68049,
-			68059
+			68019
 		}
 	},
-	[68040] = {
-		id = 68040,
-		name = "邦克山技能轰炸机Lv10",
-		base = 68031,
-		max_hp = 73,
-		hp_growth = 2646,
+	[68010] = {
+		id = 68010,
+		name = "邦克山技能鱼雷机Lv10",
+		base = 68001,
+		max_hp = 86,
+		hp_growth = 3301,
 		weapon_ID = {
-			68050,
-			68060
+			68020
 		}
 	},
-	[68301] = {
+	[68021] = {
 		attack_power = 2,
-		name = "绊爱技能轰炸机Lv1",
-		type = 3,
+		name = "邦克山技能战斗机Lv1",
+		type = 1,
 		accuracy = 23,
-		model_ID = "feiji_ai_aijiang",
+		model_ID = "f6f",
 		ACC_growth = 0,
-		crash_DMG = 208,
+		crash_DMG = 156,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 68301,
-		icon = "feiji_ai_aijiang",
+		nationality = 1,
+		id = 68021,
+		icon = "F4U",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1846,
-		speed = 48,
-		max_hp = 42,
+		hp_growth = 1947,
+		speed = 50,
+		max_hp = 51,
 		scale = 1,
 		weapon_ID = {
-			68311,
-			68321
+			50441,
+			68051
 		},
 		position_offset = {
 			0,
@@ -118,13 +111,13 @@ pg.aircraft_template_173 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -141,7 +134,7 @@ pg.aircraft_template_173 = {
 				0
 			},
 			{
-				0.64,
+				0,
 				0,
 				0
 			},
@@ -152,26 +145,26 @@ pg.aircraft_template_173 = {
 			}
 		}
 	},
-	[68302] = {
-		id = 68302,
-		name = "绊爱技能轰炸机Lv2",
-		base = 68301,
-		max_hp = 48,
-		hp_growth = 2087,
+	[68022] = {
+		id = 68022,
+		name = "邦克山技能战斗机Lv2",
+		base = 68021,
+		max_hp = 57,
+		hp_growth = 2201,
 		weapon_ID = {
-			68312,
-			68322
+			50442,
+			68052
 		}
 	},
-	[68303] = {
-		id = 68303,
-		name = "绊爱技能轰炸机Lv3",
-		base = 68301,
-		max_hp = 54,
-		hp_growth = 2327,
+	[68023] = {
+		id = 68023,
+		name = "邦克山技能战斗机Lv3",
+		base = 68021,
+		max_hp = 64,
+		hp_growth = 2455,
 		weapon_ID = {
-			68313,
-			68323
+			50443,
+			68053
 		}
 	}
 }

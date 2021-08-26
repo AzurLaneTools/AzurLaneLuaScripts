@@ -2,6 +2,91 @@ pg = pg or {}
 pg.weapon_property_136 = {}
 
 (function ()
+	uv0.weapon_property_136[66967] = {
+		id = 66967,
+		name = "薩拉托加技能轟炸機Lv7",
+		damage = 154,
+		base = 66960,
+		bullet_ID = {
+			66967
+		}
+	}
+	uv0.weapon_property_136[66968] = {
+		id = 66968,
+		name = "薩拉托加技能轟炸機Lv8",
+		damage = 167,
+		base = 66960,
+		bullet_ID = {
+			66968
+		}
+	}
+	uv0.weapon_property_136[66969] = {
+		id = 66969,
+		name = "薩拉托加技能轟炸機Lv9",
+		damage = 179,
+		base = 66960,
+		bullet_ID = {
+			66969
+		}
+	}
+	uv0.weapon_property_136[66970] = {
+		id = 66970,
+		name = "薩拉托加技能轟炸機Lv10",
+		damage = 193,
+		base = 66960,
+		bullet_ID = {
+			66970
+		}
+	}
+	uv0.weapon_property_136[66980] = {
+		recover_time = 0,
+		name = "進水魚雷",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = -10,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 25,
+		reload_max = 9500,
+		queue = 1,
+		range = 80,
+		damage = 63,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 66980,
+		attack_attribute_ratio = 120,
+		aim_type = 1,
+		bullet_ID = {
+			19934
+		},
+		barrage_ID = {
+			2141
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_136[66981] = {
+		id = 66981,
+		damage = 76,
+		base = 66980
+	}
 	uv0.weapon_property_136[66982] = {
 		id = 66982,
 		damage = 90,
@@ -635,36 +720,6 @@ pg.weapon_property_136 = {}
 		id = 67083,
 		name = "Z23技能魚雷LV3",
 		damage = 75,
-		base = 67080
-	}
-	uv0.weapon_property_136[67084] = {
-		id = 67084,
-		name = "Z23技能魚雷LV4",
-		damage = 85,
-		base = 67080
-	}
-	uv0.weapon_property_136[67085] = {
-		id = 67085,
-		name = "Z23技能魚雷LV5",
-		damage = 95,
-		base = 67080
-	}
-	uv0.weapon_property_136[67086] = {
-		id = 67086,
-		name = "Z23技能魚雷LV6",
-		damage = 105,
-		base = 67080
-	}
-	uv0.weapon_property_136[67087] = {
-		id = 67087,
-		name = "Z23技能魚雷LV7",
-		damage = 115,
-		base = 67080
-	}
-	uv0.weapon_property_136[67088] = {
-		id = 67088,
-		name = "Z23技能魚雷LV8",
-		damage = 125,
 		base = 67080
 	}
 end)()

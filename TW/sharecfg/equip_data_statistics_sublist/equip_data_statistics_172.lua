@@ -1,85 +1,85 @@
 pg = pg or {}
 pg.equip_data_statistics_172 = {
-	[24164] = {
-		id = 24164,
-		damage = "88 x 3",
-		base = 24160,
+	[24144] = {
+		id = 24144,
+		damage = "84 x 2",
+		base = 24140,
 		weapon_id = {
-			24164
+			24144
 		}
 	},
-	[24165] = {
-		id = 24165,
-		damage = "97 x 3",
-		base = 24160,
+	[24145] = {
+		id = 24145,
+		damage = "92 x 2",
+		base = 24140,
 		weapon_id = {
-			24165
+			24145
 		}
 	},
-	[24166] = {
-		id = 24166,
-		damage = "106 x 3",
-		base = 24160,
+	[24146] = {
+		id = 24146,
+		damage = "98 x 2",
+		base = 24140,
 		weapon_id = {
-			24166
+			24146
 		}
 	},
-	[24167] = {
-		id = 24167,
-		damage = "115 x 3",
-		base = 24160,
+	[24147] = {
+		id = 24147,
+		damage = "106 x 2",
+		base = 24140,
 		weapon_id = {
-			24167
+			24147
 		}
 	},
-	[24168] = {
-		id = 24168,
-		damage = "124 x 3",
-		base = 24160,
+	[24148] = {
+		id = 24148,
+		damage = "112 x 2",
+		base = 24140,
 		weapon_id = {
-			24168
+			24148
 		}
 	},
-	[24169] = {
-		id = 24169,
-		damage = "133 x 3",
-		base = 24160,
+	[24149] = {
+		id = 24149,
+		damage = "120 x 2",
+		base = 24140,
 		weapon_id = {
-			24169
+			24149
 		}
 	},
-	[24170] = {
-		id = 24170,
-		damage = "142 x 3",
-		base = 24160,
+	[24150] = {
+		id = 24150,
+		damage = "128 x 2",
+		base = 24140,
 		weapon_id = {
-			24170
+			24150
 		}
 	},
-	[24200] = {
-		tech = 1,
-		name = "三聯裝406mm主炮",
+	[24160] = {
+		tech = 0,
+		name = "試作型三聯裝381mm主炮",
 		speciality = "跨射",
 		type = 4,
-		value_2 = 12,
-		ammo = 3,
-		damage = "48 x 3",
+		value_2 = 45,
+		ammo = 2,
+		damage = "56 x 3",
 		nationality = 2,
-		rarity = 3,
-		id = 24200,
+		rarity = 5,
+		id = 24160,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
-		icon = "24200",
+		icon = "24160",
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
-			1
+			3
 		},
 		ammo_info = {
 			{
 				2,
-				1510
+				1512
 			}
 		},
 		equip_info = {
@@ -91,7 +91,7 @@ pg.equip_data_statistics_172 = {
 			12
 		},
 		weapon_id = {
-			24200
+			24160
 		},
 		skill_id = {},
 		part_main = {
@@ -105,39 +105,40 @@ pg.equip_data_statistics_172 = {
 		label = {
 			"HMS",
 			"BB",
-			"MG"
+			"MG",
+			"HE"
 		}
 	},
-	[24201] = {
-		id = 24201,
-		damage = "56 x 3",
-		base = 24200,
-		weapon_id = {
-			24201
-		}
-	},
-	[24202] = {
-		id = 24202,
+	[24161] = {
+		id = 24161,
 		damage = "64 x 3",
-		base = 24200,
+		base = 24160,
 		weapon_id = {
-			24202
+			24161
 		}
 	},
-	[24203] = {
-		id = 24203,
+	[24162] = {
+		id = 24162,
 		damage = "72 x 3",
-		base = 24200,
+		base = 24160,
 		weapon_id = {
-			24203
+			24162
 		}
 	},
-	[24204] = {
-		id = 24204,
+	[24163] = {
+		id = 24163,
 		damage = "80 x 3",
-		base = 24200,
+		base = 24160,
 		weapon_id = {
-			24204
+			24163
+		}
+	},
+	[24164] = {
+		id = 24164,
+		damage = "88 x 3",
+		base = 24160,
+		weapon_id = {
+			24164
 		}
 	}
 }

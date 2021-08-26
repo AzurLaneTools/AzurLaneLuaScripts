@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港区·演出海域",
+			say = "港區·演出海域",
 			side = 2,
 			bgName = "bg_map_idom",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 201216,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我回来了！Z23、大家，都没事吧？！",
+			say = "我回來了！Z23、大家，都沒事吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常感谢，大家都没事。",
+			say = "非常感謝，大家都沒事。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然有点被吓到…不过，多亏各位及时营救所以没什么事……",
+			say = "雖然有點被嚇到…不過，多虧各位及時營救所以沒什麼事……",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼哼！说明亚美们的支援时机非常完美！",
+			say = "嗯哼哼！說明亞美們的支援時機非常完美！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯！也刚好展示了真美们的μ兵装！",
+			say = "嗯嗯！也剛好展示了真美們的μ兵裝！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 301057,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "必败事件之后驰援而来的新伙伴，是神演出的说。",
+			say = "必敗事件之後馳援而來的新夥伴，是神演出的說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 401236,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，刚才状况还是挺危险的呢……",
+			say = "真是的，剛才狀況還是挺危險的呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也还好~本来亚美和真美就一直在跟着舰队的信号。",
+			say = "也還好~本來亞美和真美就一直在跟著艦隊的訊號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 103250,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以才能在状况变危险之前赶来支援。",
+			say = "所以才能在狀況變危險之前趕來支援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 10700060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错！这个μ兵装是潜艇型！也就是说…",
+			say = "沒錯！這個μ兵裝是潛艇型！也就是說…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在春香她们不知道的情况下，我们一直跟在舰队后面哦！",
+			say = "在春香她們不知道的情況下，我們一直跟在艦隊後面哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的能够潜水吗…？！真是超乎想象的技术力…",
+			say = "真的能夠潛水嗎…？！真是超乎想像的技術力…",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也不能一整天都潜在水里…嗯，是{namecode:98}的功劳…的说。",
+			say = "也不能一整天都潛在水里…嗯，是{namecode:98}的功勞…的說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看，兵装的设计跟服装也很搭~♪",
+			say = "看，兵裝的設計跟服裝也很搭~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 10700060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "律子的也很让人期待呢~♪",
+			say = "律子的也很讓人期待呢~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀…这究竟是…？",
+			say = "哎呀…這究竟是…？",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那时候律子咨询了那个叫{namecode:98}的小伙伴，我们的冒牌货装备的那个机械究竟是什么。",
+			say = "那時候律子諮詢了那個叫{namecode:98}的小夥伴，我們的冒牌貨裝備的那個機械究竟是什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 10700030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "按{namecode:98}所说，那个似乎是“跟这边的舰船们装备的『μ兵装』相似”的东西呢。",
+			say = "按{namecode:98}所說，那個似乎是“跟這邊的艦船們裝備的『μ兵裝』相似”的東西呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以我在想，我们是不是也能装备“μ兵装”。",
+			say = "所以我在想，我們是不是也能裝備“μ兵裝”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来只是顺口问问，没想到居然真的帮我们做出来了……",
+			say = "本來只是順口問問，沒想到居然真的幫我們做出來了……",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -410,7 +410,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们也能“战斗”啦！这样不是很好嘛？",
+			say = "我們也能“戰鬥”啦！這樣不是很好嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！接下来亚美们会打倒很多敌人的！",
+			say = "沒錯！接下來亞美們會打倒很多敵人的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此~",
+			say = "原來如此~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们愿意“一起战斗”真是太好了，不过千万别太勉强哦。",
+			say = "妳們願意“一起戰鬥”真是太好了，不過千萬別太勉強哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 103250,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚才看到{namecode:6}、亚美和真美一起冲出去支援的时候，真是吓了一跳啊。别忘了是大家要“互相帮助”的哦？",
+			say = "剛才看到{namecode:6}、亞美和真美一起衝出去支援的時候，真是嚇了一跳啊。別忘了是大家要“互相幫助”的哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			actor = 301057,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常抱歉…的说。",
+			say = "非常抱歉…的說。",
 			action = {
 				{
 					type = "shake",
@@ -530,7 +530,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用道歉啦，保护同伴不是理所当然的事情嘛。",
+			say = "不用道歉啦，保護同伴不是理所當然的事情嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			actor = 108050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算发生了紧急事态，还有大青花鱼在呢！嘻嘻~",
+			say = "就算發生了緊急事態，還有大青花魚在呢！嘻嘻~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那就先继续前进，看看舞台的状况再回去吧！",
+			say = "那就先繼續前進，看看舞台的狀況再回去吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

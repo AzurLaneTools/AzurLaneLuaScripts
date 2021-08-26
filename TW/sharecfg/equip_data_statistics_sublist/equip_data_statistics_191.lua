@@ -1,309 +1,154 @@
 pg = pg or {}
 pg.equip_data_statistics_191 = {
+	[26629] = {
+		id = 26629,
+		damage = "90/輪",
+		base = 26620,
+		weapon_id = {
+			26629
+		}
+	},
+	[26630] = {
+		id = 26630,
+		damage = "96/輪",
+		base = 26620,
+		weapon_id = {
+			26630
+		}
+	},
+	[26640] = {
+		attribute_3 = "cannon",
+		name = "雙聯裝134mm高炮",
+		speciality = "防空",
+		type = 6,
+		tech = 0,
+		ammo = 5,
+		rarity = 5,
+		damage = "53/輪",
+		nationality = 2,
+		descrip = "说明未填写",
+		value_3 = 15,
+		id = 26640,
+		value_2 = 30,
+		icon = "21500",
+		torpedo_ammo = 0,
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26640
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26641] = {
+		id = 26641,
+		damage = "61/輪",
+		base = 26640,
+		weapon_id = {
+			26641
+		}
+	},
+	[26642] = {
+		id = 26642,
+		damage = "68/輪",
+		base = 26640,
+		weapon_id = {
+			26642
+		}
+	},
+	[26643] = {
+		id = 26643,
+		damage = "76/輪",
+		base = 26640,
+		weapon_id = {
+			26643
+		}
+	},
+	[26644] = {
+		id = 26644,
+		damage = "84/輪",
+		base = 26640,
+		weapon_id = {
+			26644
+		}
+	},
+	[26645] = {
+		id = 26645,
+		damage = "92/輪",
+		base = 26640,
+		weapon_id = {
+			26645
+		}
+	},
+	[26646] = {
+		id = 26646,
+		damage = "100/輪",
+		base = 26640,
+		weapon_id = {
+			26646
+		}
+	},
+	[26647] = {
+		id = 26647,
+		damage = "108/輪",
+		base = 26640,
+		weapon_id = {
+			26647
+		}
+	},
+	[26648] = {
+		id = 26648,
+		damage = "116/輪",
+		base = 26640,
+		weapon_id = {
+			26648
+		}
+	},
 	[26649] = {
 		id = 26649,
 		damage = "124/輪",
 		base = 26640,
 		weapon_id = {
 			26649
-		}
-	},
-	[26650] = {
-		id = 26650,
-		damage = "132/輪",
-		base = 26640,
-		weapon_id = {
-			26650
-		}
-	},
-	[27000] = {
-		rarity = 2,
-		name = "海噴火",
-		speciality = "空戰",
-		type = 7,
-		tech = 1,
-		ammo = 5,
-		nationality = 2,
-		value_2 = 5,
-		id = 27000,
-		torpedo_ammo = 0,
-		value_3 = 0,
-		descrip = "說明未填寫",
-		icon = "27000",
-		attribute_2 = "air",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50100
-			},
-			{
-				6,
-				50500
-			},
-			{
-				5,
-				52200
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			27000,
-			82000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"FT"
-		}
-	},
-	[27001] = {
-		id = 27001,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50101
-			},
-			{
-				6,
-				50501
-			},
-			{
-				5,
-				52201
-			}
-		},
-		weapon_id = {
-			27001,
-			82001
-		}
-	},
-	[27002] = {
-		id = 27002,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50102
-			},
-			{
-				6,
-				50502
-			},
-			{
-				5,
-				52202
-			}
-		},
-		weapon_id = {
-			27002,
-			82002
-		}
-	},
-	[27003] = {
-		id = 27003,
-		base = 27000,
-		ammo_info = {
-			{
-				6,
-				50103
-			},
-			{
-				6,
-				50503
-			},
-			{
-				5,
-				52203
-			}
-		},
-		weapon_id = {
-			27003,
-			82003
-		}
-	},
-	[27020] = {
-		rarity = 3,
-		name = "海噴火",
-		speciality = "空戰",
-		type = 7,
-		tech = 2,
-		ammo = 5,
-		nationality = 2,
-		value_2 = 12,
-		id = 27020,
-		torpedo_ammo = 0,
-		value_3 = 0,
-		descrip = "說明未填寫",
-		icon = "27000",
-		attribute_2 = "air",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50120
-			},
-			{
-				6,
-				50520
-			},
-			{
-				5,
-				52220
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			27020,
-			82020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"FT"
-		}
-	},
-	[27021] = {
-		id = 27021,
-		base = 27020,
-		ammo_info = {
-			{
-				6,
-				50121
-			},
-			{
-				6,
-				50521
-			},
-			{
-				5,
-				52221
-			}
-		},
-		weapon_id = {
-			27021,
-			82021
-		}
-	},
-	[27022] = {
-		id = 27022,
-		base = 27020,
-		ammo_info = {
-			{
-				6,
-				50122
-			},
-			{
-				6,
-				50522
-			},
-			{
-				5,
-				52222
-			}
-		},
-		weapon_id = {
-			27022,
-			82022
-		}
-	},
-	[27023] = {
-		id = 27023,
-		base = 27020,
-		ammo_info = {
-			{
-				6,
-				50123
-			},
-			{
-				6,
-				50523
-			},
-			{
-				5,
-				52223
-			}
-		},
-		weapon_id = {
-			27023,
-			82023
-		}
-	},
-	[27024] = {
-		id = 27024,
-		base = 27020,
-		ammo_info = {
-			{
-				6,
-				50124
-			},
-			{
-				6,
-				50524
-			},
-			{
-				5,
-				52224
-			}
-		},
-		weapon_id = {
-			27024,
-			82024
-		}
-	},
-	[27025] = {
-		id = 27025,
-		base = 27020,
-		ammo_info = {
-			{
-				6,
-				50125
-			},
-			{
-				6,
-				50525
-			},
-			{
-				5,
-				52225
-			}
-		},
-		weapon_id = {
-			27025,
-			82025
 		}
 	}
 }

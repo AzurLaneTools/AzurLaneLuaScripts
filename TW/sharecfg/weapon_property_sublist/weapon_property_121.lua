@@ -2,6 +2,257 @@ pg = pg or {}
 pg.weapon_property_121 = {}
 
 (function ()
+	uv0.weapon_property_121[65559] = {
+		id = 65559,
+		damage = 19,
+		base = 65551
+	}
+	uv0.weapon_property_121[65560] = {
+		id = 65560,
+		damage = 20,
+		base = 65551
+	}
+	uv0.weapon_property_121[65561] = {
+		recover_time = 0.5,
+		name = "威悉技能轰炸机Lv1",
+		shakescreen = 0,
+		type = 10,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 2490,
+		queue = 1,
+		range = 90,
+		damage = 39,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 65561,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			65561
+		},
+		barrage_ID = {
+			12009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_121[65562] = {
+		id = 65562,
+		name = "威悉技能轰炸机Lv2",
+		damage = 45,
+		base = 65561,
+		bullet_ID = {
+			65562
+		}
+	}
+	uv0.weapon_property_121[65563] = {
+		id = 65563,
+		name = "威悉技能轰炸机Lv3",
+		damage = 49,
+		base = 65561,
+		bullet_ID = {
+			65563
+		}
+	}
+	uv0.weapon_property_121[65564] = {
+		id = 65564,
+		name = "威悉技能轰炸机Lv4",
+		damage = 56,
+		base = 65561,
+		bullet_ID = {
+			65564
+		}
+	}
+	uv0.weapon_property_121[65565] = {
+		id = 65565,
+		name = "威悉技能轰炸机Lv5",
+		damage = 60,
+		base = 65561,
+		bullet_ID = {
+			65565
+		}
+	}
+	uv0.weapon_property_121[65566] = {
+		id = 65566,
+		name = "威悉技能轰炸机Lv6",
+		damage = 64,
+		base = 65561,
+		bullet_ID = {
+			65566
+		}
+	}
+	uv0.weapon_property_121[65567] = {
+		id = 65567,
+		name = "威悉技能轰炸机Lv7",
+		damage = 71,
+		base = 65561,
+		bullet_ID = {
+			65567
+		}
+	}
+	uv0.weapon_property_121[65568] = {
+		id = 65568,
+		name = "威悉技能轰炸机Lv8",
+		damage = 75,
+		base = 65561,
+		bullet_ID = {
+			65568
+		}
+	}
+	uv0.weapon_property_121[65569] = {
+		id = 65569,
+		name = "威悉技能轰炸机Lv9",
+		damage = 81,
+		base = 65561,
+		bullet_ID = {
+			65569
+		}
+	}
+	uv0.weapon_property_121[65570] = {
+		id = 65570,
+		name = "威悉技能轰炸机Lv10",
+		damage = 86,
+		base = 65561,
+		bullet_ID = {
+			65570
+		}
+	}
+	uv0.weapon_property_121[65571] = {
+		recover_time = 0.5,
+		name = "威悉技能轰炸机PlusLv1",
+		shakescreen = 0,
+		type = 10,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 2490,
+		queue = 1,
+		range = 90,
+		damage = 39,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 65571,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			65571
+		},
+		barrage_ID = {
+			12010
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_121[65572] = {
+		id = 65572,
+		name = "威悉技能轰炸机PlusLv2",
+		damage = 45,
+		base = 65571,
+		bullet_ID = {
+			65572
+		}
+	}
+	uv0.weapon_property_121[65573] = {
+		id = 65573,
+		name = "威悉技能轰炸机PlusLv3",
+		damage = 49,
+		base = 65571,
+		bullet_ID = {
+			65573
+		}
+	}
+	uv0.weapon_property_121[65574] = {
+		id = 65574,
+		name = "威悉技能轰炸机PlusLv4",
+		damage = 56,
+		base = 65571,
+		bullet_ID = {
+			65574
+		}
+	}
+	uv0.weapon_property_121[65575] = {
+		id = 65575,
+		name = "威悉技能轰炸机PlusLv5",
+		damage = 60,
+		base = 65571,
+		bullet_ID = {
+			65575
+		}
+	}
+	uv0.weapon_property_121[65576] = {
+		id = 65576,
+		name = "威悉技能轰炸机PlusLv6",
+		damage = 64,
+		base = 65571,
+		bullet_ID = {
+			65576
+		}
+	}
+	uv0.weapon_property_121[65577] = {
+		id = 65577,
+		name = "威悉技能轰炸机PlusLv7",
+		damage = 71,
+		base = 65571,
+		bullet_ID = {
+			65577
+		}
+	}
+	uv0.weapon_property_121[65578] = {
+		id = 65578,
+		name = "威悉技能轰炸机PlusLv8",
+		damage = 75,
+		base = 65571,
+		bullet_ID = {
+			65578
+		}
+	}
+	uv0.weapon_property_121[65579] = {
+		id = 65579,
+		name = "威悉技能轰炸机PlusLv9",
+		damage = 81,
+		base = 65571,
+		bullet_ID = {
+			65579
+		}
+	}
 	uv0.weapon_property_121[65580] = {
 		id = 65580,
 		name = "威悉技能轰炸机PlusLv10",
@@ -465,204 +716,6 @@ pg.weapon_property_121 = {}
 		barrage_ID = {
 			81016,
 			81017
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_121[65622] = {
-		id = 65622,
-		name = "U-410技能鱼雷LV2",
-		damage = 16,
-		base = 65621
-	}
-	uv0.weapon_property_121[65623] = {
-		id = 65623,
-		name = "U-410技能鱼雷LV3",
-		damage = 20,
-		base = 65621
-	}
-	uv0.weapon_property_121[65624] = {
-		id = 65624,
-		name = "U-410技能鱼雷LV4",
-		damage = 24,
-		base = 65621
-	}
-	uv0.weapon_property_121[65625] = {
-		id = 65625,
-		name = "U-410技能鱼雷LV5",
-		damage = 27,
-		base = 65621
-	}
-	uv0.weapon_property_121[65626] = {
-		id = 65626,
-		name = "U-410技能鱼雷LV6",
-		damage = 30,
-		base = 65621
-	}
-	uv0.weapon_property_121[65627] = {
-		id = 65627,
-		name = "U-410技能鱼雷LV7",
-		damage = 33,
-		base = 65621
-	}
-	uv0.weapon_property_121[65628] = {
-		id = 65628,
-		name = "U-410技能鱼雷LV8",
-		damage = 36,
-		base = 65621
-	}
-	uv0.weapon_property_121[65629] = {
-		id = 65629,
-		name = "U-410技能鱼雷LV9",
-		damage = 38,
-		base = 65621
-	}
-	uv0.weapon_property_121[65630] = {
-		id = 65630,
-		name = "U-410技能鱼雷LV10",
-		damage = 40,
-		base = 65621
-	}
-	uv0.weapon_property_121[65631] = {
-		recover_time = 0.5,
-		name = "应瑞技能弹幕LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 90,
-		damage = 8,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 65631,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19259,
-			19260
-		},
-		barrage_ID = {
-			81018,
-			81021
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_121[65632] = {
-		id = 65632,
-		name = "应瑞技能弹幕LV2",
-		damage = 9,
-		base = 65631
-	}
-	uv0.weapon_property_121[65633] = {
-		id = 65633,
-		name = "应瑞技能弹幕LV3",
-		damage = 10,
-		base = 65631
-	}
-	uv0.weapon_property_121[65634] = {
-		id = 65634,
-		name = "应瑞技能弹幕LV4",
-		damage = 11,
-		base = 65631
-	}
-	uv0.weapon_property_121[65635] = {
-		id = 65635,
-		name = "应瑞技能弹幕LV5",
-		damage = 12,
-		base = 65631
-	}
-	uv0.weapon_property_121[65636] = {
-		id = 65636,
-		name = "应瑞技能弹幕LV6",
-		damage = 13,
-		base = 65631
-	}
-	uv0.weapon_property_121[65637] = {
-		id = 65637,
-		name = "应瑞技能弹幕LV7",
-		damage = 14,
-		base = 65631
-	}
-	uv0.weapon_property_121[65638] = {
-		id = 65638,
-		name = "应瑞技能弹幕LV8",
-		damage = 15,
-		base = 65631
-	}
-	uv0.weapon_property_121[65639] = {
-		id = 65639,
-		name = "应瑞技能弹幕LV9",
-		damage = 16,
-		base = 65631
-	}
-	uv0.weapon_property_121[65640] = {
-		id = 65640,
-		name = "应瑞技能弹幕LV10",
-		damage = 18,
-		base = 65631
-	}
-	uv0.weapon_property_121[65641] = {
-		recover_time = 0,
-		name = "应瑞肇和技能鱼雷 LV1",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 90,
-		damage = 38,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 65641,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			19261
-		},
-		barrage_ID = {
-			81022
 		},
 		oxy_type = {
 			1

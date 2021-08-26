@@ -11,7 +11,7 @@ function slot1.Ctor(slot0, slot1, slot2)
 end
 
 function slot1.DoDataEffect(slot0, slot1, slot2)
-	if slot0:IsFilterTarget(slot1, slot2) and slot2:IsAlive() then
+	if slot2:IsAlive() then
 		slot2:ChangeOxygenState(slot0._state)
 	end
 end

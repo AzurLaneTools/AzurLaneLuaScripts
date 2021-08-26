@@ -1,157 +1,102 @@
 pg = pg or {}
 pg.equip_data_statistics_378 = {
-	[90042] = {
-		id = 90042,
-		damage = "5 x 5",
-		base = 90040,
-		weapon_id = {
-			90042
-		}
+	[89270] = {
+		id = 89270,
+		value_2 = 30,
+		value_1 = "35",
+		base = 89260
 	},
-	[90043] = {
-		id = 90043,
-		damage = "6 x 5",
-		base = 90040,
-		weapon_id = {
-			90043
-		}
-	},
-	[90044] = {
-		id = 90044,
-		damage = "6 x 5",
-		base = 90040,
-		weapon_id = {
-			90044
-		}
-	},
-	[90045] = {
-		id = 90045,
-		damage = "7 x 5",
-		base = 90040,
-		weapon_id = {
-			90045
-		}
-	},
-	[90046] = {
-		id = 90046,
-		damage = "8 x 5",
-		base = 90040,
-		weapon_id = {
-			90046
-		}
-	},
-	[90100] = {
-		tech = 1,
-		name = "138.6mm單裝炮Mle1929",
-		speciality = "鎖定",
-		type = 1,
-		value_2 = 12,
-		ammo = 3,
-		damage = "4 x 5",
-		nationality = 8,
-		rarity = 3,
-		id = 90100,
+	[89280] = {
+		type = 10,
+		name = "偶像手環",
+		speciality = "无",
+		tech = 0,
+		value_2 = 16,
+		ammo = 10,
+		descrip = "说明占坑",
+		nationality = 107,
+		rarity = 5,
+		attribute_1 = "dodge",
 		value_3 = 0,
 		torpedo_ammo = 0,
-		descrip = "說明未填寫",
-		icon = "50100",
-		attribute_2 = "cannon",
+		id = 89280,
+		icon = "89280",
+		value_1 = "6",
+		attribute_2 = "hit",
 		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				2200
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				2200
-			},
-			{
-				4,
-				1021
-			},
-			6,
-			10,
-			11,
-			12
+			6
 		},
-		weapon_id = {
-			90100
+		weapon_id = {},
+		skill_id = {
+			6880
 		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
+		part_main = {},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"FFNF",
-			"DD",
-			"MG"
+			"DEV"
 		}
 	},
-	[90101] = {
-		id = 90101,
-		damage = "4 x 5",
-		base = 90100,
-		weapon_id = {
-			90101
-		}
+	[89281] = {
+		id = 89281,
+		value_1 = "7",
+		base = 89280
 	},
-	[90102] = {
-		id = 90102,
-		damage = "5 x 5",
-		base = 90100,
-		weapon_id = {
-			90102
-		}
+	[89282] = {
+		id = 89282,
+		value_2 = 17,
+		value_1 = "7",
+		base = 89280
 	},
-	[90103] = {
-		id = 90103,
-		damage = "6 x 5",
-		base = 90100,
-		weapon_id = {
-			90103
-		}
+	[89283] = {
+		id = 89283,
+		value_2 = 18,
+		value_1 = "8",
+		base = 89280
 	},
-	[90104] = {
-		id = 90104,
-		damage = "7 x 5",
-		base = 90100,
-		weapon_id = {
-			90104
-		}
+	[89284] = {
+		id = 89284,
+		value_2 = 19,
+		value_1 = "9",
+		base = 89280
 	},
-	[90105] = {
-		id = 90105,
-		damage = "8 x 5",
-		base = 90100,
-		weapon_id = {
-			90105
-		}
+	[89285] = {
+		id = 89285,
+		value_2 = 20,
+		value_1 = "10",
+		base = 89280
 	},
-	[90106] = {
-		id = 90106,
-		damage = "9 x 5",
-		base = 90100,
-		weapon_id = {
-			90106
-		}
+	[89286] = {
+		id = 89286,
+		value_2 = 21,
+		value_1 = "11",
+		base = 89280
+	},
+	[89287] = {
+		id = 89287,
+		value_2 = 22,
+		value_1 = "12",
+		base = 89280
+	},
+	[89288] = {
+		id = 89288,
+		value_2 = 23,
+		value_1 = "13",
+		base = 89280
+	},
+	[89289] = {
+		id = 89289,
+		value_2 = 24,
+		value_1 = "14",
+		base = 89280
+	},
+	[89290] = {
+		id = 89290,
+		value_2 = 25,
+		value_1 = "15",
+		base = 89280
 	}
 }

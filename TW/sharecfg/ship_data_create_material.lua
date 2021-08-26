@@ -82,11 +82,17 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
 			"普通艦船：30%",
-			"<color=#ffde38>豪</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>英仙座</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>赫敏</color>：0.5%",
-			"<color=#d797ff>英勇</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>鷹</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>天海春香</color>：2%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#ffde38>如月千早</color>：2%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#ffde38>水瀨伊織</color>：2%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#ffde38>三浦 梓</color>：0.5%",
+			" ",
+			"<color=#d797ff>雙海真美</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>雙海亞美</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

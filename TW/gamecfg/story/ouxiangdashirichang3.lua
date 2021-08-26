@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"响彻碧海的偶像之歌-日常篇\n\n<size=45>三 港区·会议室</size>",
+					"響徹碧海的偶像之歌-日常篇\n\n<size=45>三 港區·會議室</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·会议室",
+			say = "港區·會議室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了使演出更加精彩，制定相应的训练课程尤为重要…所以，今天我们在此进行指定训练课程计划的会议。",
+			say = "為了使演出更加精彩，制定相應的訓練課程尤為重要…所以，今天我們在此進行指定訓練課程計劃的會議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为偶像课程的特别顾问，律子和伊织今天也会参加会议，两位，请多指教！",
+			say = "作為偶像課程的特別顧問，律子和伊織今天也會參加會議，兩位，請多指教！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用客气，什么都可以问哦。超级偶像伊织会认真回答你们的，嘻嘻♪",
+			say = "不用客氣，什麼都可以問哦。超級偶像伊織會認真回答妳們的，嘻嘻♪",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为偶像前辈，我会竭尽所能给你们提出建议的！请多关照！",
+			say = "作為偶像前輩，我會竭盡所能給妳們提出建議的！請多關照！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就立刻进入正题吧。在规划课程之前，首先要明确我们应该提高的关键点有哪些。",
+			say = "那就立刻進入正題吧。在規劃課程之前，首先要明確我們應該提高的關鍵點有哪些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为参考，想请作为偶像的二位告诉我们需要重点关注的才能有哪些。",
+			say = "作為參考，想請作為偶像的二位告訴我們需要重點關注的才能有哪些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 10700050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "另外表现力也很重要哦。无论是唱歌、跳舞、还是在参加综艺节目的时候，表现力都是关键要素之一。",
+			say = "另外表現力也很重要哦。無論是唱歌、跳舞、還是在參加綜藝節目的時候，表現力都是關鍵要素之一。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "的确，没有这三方面的才能，就不能成为偶像了呢。",
+			say = "的確，沒有這三方面的才能，就不能被成為偶像了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，我们就围绕唱功、舞技、表演这三点来制定计划吧。",
+			say = "那麼，我們就圍繞唱功、舞技、表演這三點來制定計劃吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…就目前的情况来看，还缺少一个具体的训练目标。",
+			say = "不過…就目前的情況來看，還缺少一個具體的訓練目標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的目标是“让演出更加精彩”，但这不够具体。我们没法根据这个目标来规划课程。",
+			say = "我們的目標是“讓演出更加精彩”，但這不夠具體。我們沒法根據這個目標來規劃課程。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊……开始的时候根本想象不到这个目标具体是怎样的呢~",
+			say = "是啊……開始的時候根本想像不到這個目標具體是怎樣的呢~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有具体目标而只是训练，可能有人会对训练的价值产生怀疑。",
+			say = "沒有具體目標而只是訓練，可能有人會對訓練的價值產生懷疑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…具体的目标…要怎么制定才好呢？",
+			say = "不過…具體的目標…要怎麼制定才好呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "先试着定一个短期目标怎么样？",
+			say = "先試著定一個短期目標怎麼樣？",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "短期目标…是吗？",
+			say = "短期目標…是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 10700050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是的，为了达成最终目标，也需要制定一些阶段性目标哦。",
+			say = "是的，為了達成最終目標，也需要制定一些階段性目標哦。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "举个例子就是，如果最终目标是成为顶级偶像，那么短期目标就是让每一场演出或工作获得成功。",
+			say = "舉個例子就是，如果最終目標是成為頂級偶像，那麼短期目標就是讓每一場演出或工作獲得成功。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -400,7 +400,7 @@ return {
 			actor = 10700050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为了达成短期目标，我们会参照近期的演出和工作来规划训练课程。",
+			say = "為了達成短期目標，我們會參照近期的演出和工作來規劃訓練課程。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -418,7 +418,7 @@ return {
 			actor = 10700050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同样，你们也可以试试制定短期目标并规划相应的课程，也许效果会还不错哦？",
+			say = "同樣，妳們也可以試試制定短期目標並規劃相應的課程，也許效果會還不錯哦？",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不愧是律子啊，给出了很好的建议呢。）",
+			say = "（不愧是律子啊，給出了很好的建議呢。）",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉已经可以制定出相应的计划了呢。",
+			say = "感覺已經可以制定出相應的計劃了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然要配合演出和工作…那就在两个月后安排一次演出吧。根据演出的节目来规划相应课程。",
+			say = "既然要配合演出和工作…那就在兩個月後安排一次演出吧。根據演出的節目來規劃相應課程。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（我们有这样的计划吗？！）",
+			say = "（我們有這樣的計劃嗎？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就…先从熟悉歌词以及编排舞蹈开始吧。",
+			say = "那就…先從熟悉歌詞以及編排舞蹈開始吧。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -562,7 +562,7 @@ return {
 			actor = 10700030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（怎么就顺着这个话题展开了！？）",
+			say = "（怎麼就順著這個話題展開了！？）",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -579,7 +579,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了。之后的课程就重点训练唱功和舞技。",
+			say = "我明白了。之後的課程就重點訓練唱功和舞技。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "除了提高个人能力，还要安排一些磨炼团队契合度的课程。",
+			say = "除了提高個人能力，還要安排一些磨練團隊契合度的課程。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！",
+			say = "沒錯！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -639,7 +639,7 @@ return {
 			actor = 10700030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（这、这样下去的话……）",
+			say = "（這、這樣下去的話……）",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -656,7 +656,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（话题往奇怪的方向发展了…！！）",
+			say = "（話題往奇怪的方向發展了…！！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "除此之外，我觉得还有一些需要注意的地方……",
+			say = "除此之外，我覺得還有一些需要注意的地方……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			bgName = "bg_story_task",
 			hideOther = true,
 			dir = 1,
-			actorName = "水濑伊织·女将",
+			actorName = "水瀨伊織·女將",
 			hidePaintEquip = true,
 			actor = 10700030,
 			nameColor = "#a9f548",
@@ -737,7 +737,7 @@ return {
 			actor = 10700030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "两位都稍微停一停！话题跑太快了！",
+			say = "兩位都稍微停一停！話題跑太快了！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -756,7 +756,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "就是啊！为什么要在两个月后安排演出？完全没有那样的计划吧？！",
+			say = "就是啊！為什麼要在兩個月後要安排演出？完全沒有那樣的計劃吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是觉得，那样安排的话训练会更有效果……",
+			say = "我只是覺得，那樣安排的話訓練會更有效果……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说倒也是没错啦…！不过——",
+			say = "這麼說倒也是沒錯啦…！不過——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就作为暂定方案，先向指挥官报告一下……",
+			say = "那就作為暫定方案，先向指揮官報告一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于这个，律子小姐，我想再请教一下…",
+			say = "關於這個，律子小姐，我想再請教一下…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,11 +847,11 @@ return {
 			actor = 10700030,
 			dir = 1,
 			blackBg = true,
-			actorName = "水濑伊织·女将",
+			actorName = "水瀨伊織·女將",
 			hidePaintEquip = true,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "所~以~说~！不要擅自推进话题啊——！",
+			say = "所~以~說~！不要擅自推進話題啊——！",
 			subActors = {
 				{
 					actor = 201010,

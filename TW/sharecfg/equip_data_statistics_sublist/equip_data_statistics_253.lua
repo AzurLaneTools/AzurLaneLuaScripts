@@ -1,64 +1,64 @@
 pg = pg or {}
 pg.equip_data_statistics_253 = {
-	[36621] = {
-		id = 36621,
-		damage = "45/輪",
-		base = 36620,
+	[36565] = {
+		id = 36565,
+		damage = "86/輪",
+		base = 36560,
 		weapon_id = {
-			36621
+			36565
 		}
 	},
-	[36622] = {
-		id = 36622,
-		damage = "51/輪",
-		base = 36620,
+	[36566] = {
+		id = 36566,
+		damage = "94/輪",
+		base = 36560,
 		weapon_id = {
-			36622
+			36566
 		}
 	},
-	[36623] = {
-		id = 36623,
-		damage = "57/輪",
-		base = 36620,
+	[36567] = {
+		id = 36567,
+		damage = "102/輪",
+		base = 36560,
 		weapon_id = {
-			36623
+			36567
 		}
 	},
-	[36624] = {
-		id = 36624,
-		damage = "63/輪",
-		base = 36620,
+	[36568] = {
+		id = 36568,
+		damage = "110/輪",
+		base = 36560,
 		weapon_id = {
-			36624
+			36568
 		}
 	},
-	[36625] = {
-		id = 36625,
-		damage = "70/輪",
-		base = 36620,
+	[36569] = {
+		id = 36569,
+		damage = "118/輪",
+		base = 36560,
 		weapon_id = {
-			36625
+			36569
 		}
 	},
-	[36626] = {
-		id = 36626,
-		damage = "77/輪",
-		base = 36620,
+	[36570] = {
+		id = 36570,
+		damage = "126/輪",
+		base = 36560,
 		weapon_id = {
-			36626
+			36570
 		}
 	},
-	[36640] = {
-		tech = 3,
+	[36600] = {
+		tech = 1,
 		name = "127mm連裝高射炮",
 		speciality = "防空",
 		type = 6,
-		value_2 = 25,
+		value_2 = 5,
 		ammo = 5,
-		damage = "46/輪",
+		damage = "32/輪",
 		nationality = 3,
-		rarity = 4,
-		id = 36640,
+		rarity = 2,
+		id = 36600,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
@@ -74,7 +74,7 @@ pg.equip_data_statistics_253 = {
 			10
 		},
 		weapon_id = {
-			36640
+			36600
 		},
 		skill_id = {},
 		part_main = {
@@ -110,44 +110,98 @@ pg.equip_data_statistics_253 = {
 			"AA"
 		}
 	},
-	[36641] = {
-		id = 36641,
-		damage = "53/輪",
-		base = 36640,
+	[36601] = {
+		id = 36601,
+		damage = "37/輪",
+		base = 36600,
 		weapon_id = {
-			36641
+			36601
 		}
 	},
-	[36642] = {
-		id = 36642,
-		damage = "60/輪",
-		base = 36640,
+	[36602] = {
+		id = 36602,
+		damage = "42/輪",
+		base = 36600,
 		weapon_id = {
-			36642
+			36602
 		}
 	},
-	[36643] = {
-		id = 36643,
-		damage = "67/輪",
-		base = 36640,
+	[36603] = {
+		id = 36603,
+		damage = "47/輪",
+		base = 36600,
 		weapon_id = {
-			36643
+			36603
 		}
 	},
-	[36644] = {
-		id = 36644,
-		damage = "74/輪",
-		base = 36640,
+	[36620] = {
+		tech = 2,
+		name = "127mm連裝高射炮",
+		speciality = "防空",
+		type = 6,
+		value_2 = 12,
+		ammo = 5,
+		damage = "39/輪",
+		nationality = 3,
+		rarity = 3,
+		id = 36620,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "說明未填寫",
+		icon = "36600",
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
 		weapon_id = {
-			36644
+			36620
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
 		}
 	},
-	[36645] = {
-		id = 36645,
-		damage = "81/輪",
-		base = 36640,
+	[36621] = {
+		id = 36621,
+		damage = "45/輪",
+		base = 36620,
 		weapon_id = {
-			36645
+			36621
 		}
 	}
 }

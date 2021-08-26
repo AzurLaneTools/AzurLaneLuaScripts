@@ -1,5 +1,189 @@
 pg = pg or {}
 pg.equip_data_statistics_375 = {
+	[85410] = {
+		id = 85410,
+		damage = "96/輪",
+		base = 85400,
+		weapon_id = {
+			85410
+		}
+	},
+	[85420] = {
+		tech = 3,
+		name = "三聯裝305mm主炮Model1907",
+		speciality = "跨射",
+		type = 4,
+		value_2 = 12,
+		ammo = 2,
+		damage = "54 x 3",
+		nationality = 7,
+		rarity = 3,
+		id = 85420,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "85420",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1502
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85420
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"BB",
+			"MG",
+			"GangutMG"
+		}
+	},
+	[85421] = {
+		id = 85421,
+		damage = "59 x 3",
+		base = 85420,
+		weapon_id = {
+			85421
+		}
+	},
+	[85422] = {
+		id = 85422,
+		damage = "64 x 3",
+		base = 85420,
+		weapon_id = {
+			85422
+		}
+	},
+	[85423] = {
+		id = 85423,
+		damage = "70 x 3",
+		base = 85420,
+		weapon_id = {
+			85423
+		}
+	},
+	[85424] = {
+		id = 85424,
+		damage = "76 x 3",
+		base = 85420,
+		weapon_id = {
+			85424
+		}
+	},
+	[85425] = {
+		id = 85425,
+		damage = "84 x 3",
+		base = 85420,
+		weapon_id = {
+			85425
+		}
+	},
+	[85426] = {
+		id = 85426,
+		damage = "92 x 3",
+		base = 85420,
+		weapon_id = {
+			85426
+		}
+	},
+	[85440] = {
+		tech = 3,
+		name = "雙聯裝152mm主炮Model1892",
+		speciality = "鎖定",
+		type = 2,
+		value_2 = 12,
+		ammo = 3,
+		damage = "8 x 4",
+		nationality = 7,
+		rarity = 3,
+		id = 85440,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "85440",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1001
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1001
+			},
+			{
+				4,
+				1101
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85440
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
+	},
+	[85441] = {
+		id = 85441,
+		damage = "9 x 4",
+		base = 85440,
+		weapon_id = {
+			85441
+		}
+	},
+	[85442] = {
+		id = 85442,
+		damage = "10 x 4",
+		base = 85440,
+		weapon_id = {
+			85442
+		}
+	},
 	[85443] = {
 		id = 85443,
 		damage = "11 x 4",
@@ -7,104 +191,5 @@ pg.equip_data_statistics_375 = {
 		weapon_id = {
 			85443
 		}
-	},
-	[85444] = {
-		id = 85444,
-		damage = "12 x 4",
-		base = 85440,
-		weapon_id = {
-			85444
-		}
-	},
-	[85445] = {
-		id = 85445,
-		damage = "13 x 4",
-		base = 85440,
-		weapon_id = {
-			85445
-		}
-	},
-	[85446] = {
-		id = 85446,
-		damage = "14 x 4",
-		base = 85440,
-		weapon_id = {
-			85446
-		}
-	},
-	[89240] = {
-		type = 10,
-		name = "覺醒寶珠",
-		speciality = "无",
-		tech = 0,
-		value_2 = 16,
-		ammo = 10,
-		descrip = "说明占坑",
-		nationality = 106,
-		rarity = 5,
-		attribute_1 = "dodge",
-		value_3 = 0,
-		torpedo_ammo = 0,
-		id = 89240,
-		icon = "89240",
-		value_1 = "6",
-		attribute_2 = "hit",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {
-			6
-		},
-		weapon_id = {},
-		skill_id = {
-			6720
-		},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"DEV"
-		}
-	},
-	[89241] = {
-		id = 89241,
-		value_1 = "7",
-		base = 89240
-	},
-	[89242] = {
-		id = 89242,
-		value_2 = 17,
-		value_1 = "7",
-		base = 89240
-	},
-	[89243] = {
-		id = 89243,
-		value_2 = 18,
-		value_1 = "8",
-		base = 89240
-	},
-	[89244] = {
-		id = 89244,
-		value_2 = 19,
-		value_1 = "9",
-		base = 89240
-	},
-	[89245] = {
-		id = 89245,
-		value_2 = 20,
-		value_1 = "10",
-		base = 89240
-	},
-	[89246] = {
-		id = 89246,
-		value_2 = 21,
-		value_1 = "11",
-		base = 89240
-	},
-	[89247] = {
-		id = 89247,
-		value_2 = 22,
-		value_1 = "12",
-		base = 89240
 	}
 }

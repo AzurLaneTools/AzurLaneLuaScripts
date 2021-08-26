@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "40383",
+		param = "40385",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2021,
 					8,
-					12
+					26
 				},
 				{
 					0,
@@ -21,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					8,
-					26
+					9,
+					9
 				},
 				{
 					23,
@@ -39,7 +39,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectName = "special"
+				projectName = "new"
 			}
 		},
 		time = {
@@ -47,7 +47,7 @@ pg.activity_banner = {
 				{
 					2021,
 					8,
-					12
+					26
 				},
 				{
 					0,
@@ -58,8 +58,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					8,
-					26
+					9,
+					9
 				},
 				{
 					23,
@@ -81,7 +81,7 @@ pg.activity_banner = {
 				{
 					2021,
 					8,
-					12
+					26
 				},
 				{
 					0,
@@ -92,8 +92,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					8,
-					25
+					9,
+					8
 				},
 				{
 					23,
@@ -108,15 +108,14 @@ pg.activity_banner = {
 		pic = "temp4",
 		type = 2,
 		param = {
-			"scene level",
-			{}
+			"scene shop"
 		},
 		time = {
 			{
 				{
 					2021,
 					8,
-					13
+					26
 				},
 				{
 					0,
@@ -127,8 +126,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					8,
-					25
+					9,
+					8
 				},
 				{
 					23,
@@ -143,17 +142,14 @@ pg.activity_banner = {
 		pic = "temp5",
 		type = 2,
 		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
+			"scene back yard"
 		},
 		time = {
 			{
 				{
 					2021,
 					8,
-					12
+					26
 				},
 				{
 					0,
@@ -164,8 +160,45 @@ pg.activity_banner = {
 			{
 				{
 					2021,
+					9,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 6,
+		pic = "temp7",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2021,
 					8,
-					18
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					8
 				},
 				{
 					23,
@@ -177,7 +210,7 @@ pg.activity_banner = {
 	},
 	{
 		param = "4076",
-		id = 6,
+		id = 7,
 		pic = "temp6",
 		type = 3,
 		time = {
@@ -208,38 +241,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4067",
-		id = 7,
-		pic = "temp7",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					8,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
 		param = "",
 		id = 8,
 		pic = "temp99",
@@ -249,7 +250,7 @@ pg.activity_banner = {
 				{
 					2021,
 					8,
-					12
+					26
 				},
 				{
 					0,
@@ -260,8 +261,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					8,
-					25
+					9,
+					8
 				},
 				{
 					23,
@@ -391,35 +392,10 @@ pg.activity_banner = {
 	},
 	{
 		param = "祭典美食(?)|據說時下非常流行的祭典美食(?) <color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
-		id = 20,
-		pic = "zhenzhunaicha",
+		time = "stop",
 		type = 10,
-		time = {
-			{
-				{
-					2021,
-					8,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					8,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 20,
+		pic = "zhenzhunaicha"
 	},
 	all = {
 		1,

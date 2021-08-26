@@ -39,14 +39,16 @@ function slot2.onUpdate(slot0, slot1, slot2, slot3)
 end
 
 function slot2.onTakeDamage(slot0, slot1, slot2, slot3)
-	slot0._durability = slot0._durability - slot3.damage
+	if slot0:damageAttrRequire(slot3.damageAttr) then
+		slot0._durability = slot0._durability - slot3.damage
 
-	if slot0._durability > 0 then
-		slot3.damage = 0
-	else
-		slot3.damage = -slot0._durability
+		if slot0._durability > 0 then
+			slot3.damage = 0
+		else
+			slot3.damage = -slot0._durability
 
-		slot2:SetToCancel()
+			slot2:SetToCancel()
+		end
 	end
 end
 

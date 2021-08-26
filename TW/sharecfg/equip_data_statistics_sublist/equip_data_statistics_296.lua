@@ -1,68 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_296 = {
-	[45045] = {
-		id = 45045,
-		damage = "107 x 3",
-		base = 45040,
+	[45021] = {
+		id = 45021,
+		damage = "72 x 3",
+		base = 45020,
 		weapon_id = {
-			45045
+			45021
 		}
 	},
-	[45046] = {
-		id = 45046,
-		damage = "115 x 3",
-		base = 45040,
+	[45022] = {
+		id = 45022,
+		damage = "79 x 3",
+		base = 45020,
 		weapon_id = {
-			45046
+			45022
 		}
 	},
-	[45047] = {
-		id = 45047,
-		damage = "122 x 3",
-		base = 45040,
+	[45023] = {
+		id = 45023,
+		damage = "86 x 3",
+		base = 45020,
 		weapon_id = {
-			45047
+			45023
 		}
 	},
-	[45048] = {
-		id = 45048,
-		damage = "130 x 3",
-		base = 45040,
+	[45024] = {
+		id = 45024,
+		damage = "92 x 3",
+		base = 45020,
 		weapon_id = {
-			45048
+			45024
 		}
 	},
-	[45049] = {
-		id = 45049,
-		damage = "137 x 3",
-		base = 45040,
+	[45025] = {
+		id = 45025,
+		damage = "99 x 3",
+		base = 45020,
 		weapon_id = {
-			45049
+			45025
 		}
 	},
-	[45050] = {
-		id = 45050,
-		damage = "145 x 3",
-		base = 45040,
+	[45026] = {
+		id = 45026,
+		damage = "106 x 3",
+		base = 45020,
 		weapon_id = {
-			45050
+			45026
 		}
 	},
-	[45100] = {
-		tech = 1,
-		name = "四聯裝533mm磁性魚雷",
+	[45040] = {
+		tech = 3,
+		name = "三聯裝533mm磁性魚雷",
 		speciality = "雷擊",
 		type = 5,
-		value_2 = 12,
+		value_2 = 25,
 		ammo = 4,
-		damage = "63 x 4",
+		damage = "70 x 3",
 		nationality = 4,
-		rarity = 3,
-		id = 45100,
+		rarity = 4,
+		id = 45040,
 		value_3 = 0,
 		torpedo_ammo = 0,
-		descrip = "四聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
-		icon = "45100",
+		descrip = "三聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
+		icon = "45000",
 		attribute_2 = "torpedo",
 		property_rate = {},
 		ammo_icon = {},
@@ -79,7 +79,7 @@ pg.equip_data_statistics_296 = {
 			},
 			{
 				4,
-				1403
+				1402
 			},
 			6,
 			10,
@@ -87,7 +87,7 @@ pg.equip_data_statistics_296 = {
 			12
 		},
 		weapon_id = {
-			45100
+			45040
 		},
 		skill_id = {},
 		part_main = {
@@ -107,47 +107,47 @@ pg.equip_data_statistics_296 = {
 			"KMS",
 			"ST",
 			"TP",
-			"QUAD"
+			"TRI"
 		}
 	},
-	[45101] = {
-		id = 45101,
-		damage = "69 x 4",
-		base = 45100,
+	[45041] = {
+		id = 45041,
+		damage = "77 x 3",
+		base = 45040,
 		weapon_id = {
-			45101
+			45041
 		}
 	},
-	[45102] = {
-		id = 45102,
-		damage = "75 x 4",
-		base = 45100,
+	[45042] = {
+		id = 45042,
+		damage = "85 x 3",
+		base = 45040,
 		weapon_id = {
-			45102
+			45042
 		}
 	},
-	[45103] = {
-		id = 45103,
-		damage = "81 x 4",
-		base = 45100,
+	[45043] = {
+		id = 45043,
+		damage = "92 x 3",
+		base = 45040,
 		weapon_id = {
-			45103
+			45043
 		}
 	},
-	[45104] = {
-		id = 45104,
-		damage = "87 x 4",
-		base = 45100,
+	[45044] = {
+		id = 45044,
+		damage = "100 x 3",
+		base = 45040,
 		weapon_id = {
-			45104
+			45044
 		}
 	},
-	[45105] = {
-		id = 45105,
-		damage = "93 x 4",
-		base = 45100,
+	[45045] = {
+		id = 45045,
+		damage = "107 x 3",
+		base = 45040,
 		weapon_id = {
-			45105
+			45045
 		}
 	}
 }

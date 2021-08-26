@@ -2,6 +2,235 @@ pg = pg or {}
 pg.weapon_property_123 = {}
 
 (function ()
+	uv0.weapon_property_123[65685] = {
+		id = 65685,
+		name = "贝拉罗斯冰锥2-95-LV5",
+		damage = 104,
+		base = 65681
+	}
+	uv0.weapon_property_123[65686] = {
+		id = 65686,
+		name = "贝拉罗斯冰锥2-95-LV6",
+		damage = 118,
+		base = 65681
+	}
+	uv0.weapon_property_123[65687] = {
+		id = 65687,
+		name = "贝拉罗斯冰锥2-95-LV7",
+		damage = 128,
+		base = 65681,
+		barrage_ID = {
+			81026,
+			81026
+		}
+	}
+	uv0.weapon_property_123[65688] = {
+		id = 65688,
+		name = "贝拉罗斯冰锥2-95-LV8",
+		damage = 140,
+		base = 65681,
+		barrage_ID = {
+			81026,
+			81026
+		}
+	}
+	uv0.weapon_property_123[65689] = {
+		id = 65689,
+		name = "贝拉罗斯冰锥2-95-LV9",
+		damage = 152,
+		base = 65681,
+		barrage_ID = {
+			81026,
+			81026
+		}
+	}
+	uv0.weapon_property_123[65690] = {
+		id = 65690,
+		name = "贝拉罗斯冰锥2-95-LV10",
+		damage = 164,
+		base = 65681,
+		barrage_ID = {
+			81026,
+			81026
+		}
+	}
+	uv0.weapon_property_123[65691] = {
+		recover_time = 0,
+		name = "贝拉罗斯冰锥3-100-LV1",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 25,
+		reload_max = 9500,
+		queue = 4,
+		range = 100,
+		damage = 56,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 65691,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19264
+		},
+		barrage_ID = {
+			81025
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_123[65692] = {
+		id = 65692,
+		name = "贝拉罗斯冰锥3-100-LV2",
+		damage = 68,
+		base = 65691
+	}
+	uv0.weapon_property_123[65693] = {
+		id = 65693,
+		name = "贝拉罗斯冰锥3-100-LV3",
+		damage = 80,
+		base = 65691
+	}
+	uv0.weapon_property_123[65694] = {
+		id = 65694,
+		name = "贝拉罗斯冰锥3-100-LV4",
+		damage = 92,
+		base = 65691,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_123[65695] = {
+		id = 65695,
+		name = "贝拉罗斯冰锥3-100-LV5",
+		damage = 104,
+		base = 65691,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_123[65696] = {
+		id = 65696,
+		name = "贝拉罗斯冰锥3-100-LV6",
+		damage = 118,
+		base = 65691,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_123[65697] = {
+		id = 65697,
+		name = "贝拉罗斯冰锥3-100-LV7",
+		damage = 128,
+		base = 65691,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_123[65698] = {
+		id = 65698,
+		name = "贝拉罗斯冰锥3-100-LV8",
+		damage = 140,
+		base = 65691,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_123[65699] = {
+		id = 65699,
+		name = "贝拉罗斯冰锥3-100-LV9",
+		damage = 152,
+		base = 65691,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_123[65700] = {
+		id = 65700,
+		name = "贝拉罗斯冰锥3-100-LV10",
+		damage = 164,
+		base = 65691,
+		barrage_ID = {
+			81026
+		}
+	}
+	uv0.weapon_property_123[65701] = {
+		recover_time = 0,
+		name = "贝拉罗斯冰锥4-105-LV1",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 25,
+		reload_max = 9500,
+		queue = 4,
+		range = 105,
+		damage = 56,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 65701,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19263,
+			19265
+		},
+		barrage_ID = {
+			81025,
+			81025
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_123[65702] = {
+		id = 65702,
+		name = "贝拉罗斯冰锥4-105-LV2",
+		damage = 68,
+		base = 65701
+	}
+	uv0.weapon_property_123[65703] = {
+		id = 65703,
+		name = "贝拉罗斯冰锥4-105-LV3",
+		damage = 80,
+		base = 65701
+	}
 	uv0.weapon_property_123[65704] = {
 		id = 65704,
 		name = "贝拉罗斯冰锥4-105-LV4",
@@ -502,223 +731,6 @@ pg.weapon_property_123 = {}
 		name = "贝拉罗斯PVP冰锥3-115-LV7",
 		damage = 128,
 		base = 65741,
-		barrage_ID = {
-			81026
-		}
-	}
-	uv0.weapon_property_123[65748] = {
-		id = 65748,
-		name = "贝拉罗斯PVP冰锥3-115-LV8",
-		damage = 140,
-		base = 65741,
-		barrage_ID = {
-			81026
-		}
-	}
-	uv0.weapon_property_123[65749] = {
-		id = 65749,
-		name = "贝拉罗斯PVP冰锥3-115-LV9",
-		damage = 152,
-		base = 65741,
-		barrage_ID = {
-			81026
-		}
-	}
-	uv0.weapon_property_123[65750] = {
-		id = 65750,
-		name = "贝拉罗斯PVP冰锥3-115-LV10",
-		damage = 164,
-		base = 65741,
-		barrage_ID = {
-			81026
-		}
-	}
-	uv0.weapon_property_123[65751] = {
-		recover_time = 0,
-		name = "贝拉罗斯PVP冰锥4-120上下-LV1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 25,
-		reload_max = 9500,
-		queue = 4,
-		range = 120,
-		damage = 56,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 65751,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			19266,
-			19267
-		},
-		barrage_ID = {
-			81025,
-			81025
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_123[65752] = {
-		id = 65752,
-		name = "贝拉罗斯PVP冰锥4-120上下-LV2",
-		damage = 68,
-		base = 65751
-	}
-	uv0.weapon_property_123[65753] = {
-		id = 65753,
-		name = "贝拉罗斯PVP冰锥4-120上下-LV3",
-		damage = 80,
-		base = 65751
-	}
-	uv0.weapon_property_123[65754] = {
-		id = 65754,
-		name = "贝拉罗斯PVP冰锥4-120上下-LV4",
-		damage = 92,
-		base = 65751
-	}
-	uv0.weapon_property_123[65755] = {
-		id = 65755,
-		name = "贝拉罗斯PVP冰锥4-120上下-LV5",
-		damage = 104,
-		base = 65751
-	}
-	uv0.weapon_property_123[65756] = {
-		id = 65756,
-		name = "贝拉罗斯PVP冰锥4-120上下-LV6",
-		damage = 118,
-		base = 65751
-	}
-	uv0.weapon_property_123[65757] = {
-		id = 65757,
-		name = "贝拉罗斯PVP冰锥4-120上下-LV7",
-		damage = 128,
-		base = 65751,
-		barrage_ID = {
-			81026,
-			81026
-		}
-	}
-	uv0.weapon_property_123[65758] = {
-		id = 65758,
-		name = "贝拉罗斯PVP冰锥4-120上下-LV8",
-		damage = 140,
-		base = 65751,
-		barrage_ID = {
-			81026,
-			81026
-		}
-	}
-	uv0.weapon_property_123[65759] = {
-		id = 65759,
-		name = "贝拉罗斯PVP冰锥4-120上下-LV9",
-		damage = 152,
-		base = 65751,
-		barrage_ID = {
-			81026,
-			81026
-		}
-	}
-	uv0.weapon_property_123[65760] = {
-		id = 65760,
-		name = "贝拉罗斯PVP冰锥4-120上下-LV10",
-		damage = 164,
-		base = 65751,
-		barrage_ID = {
-			81026,
-			81026
-		}
-	}
-	uv0.weapon_property_123[65761] = {
-		recover_time = 0,
-		name = "贝拉罗斯PVP冰锥5-120-LV1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 25,
-		reload_max = 9500,
-		queue = 4,
-		range = 120,
-		damage = 56,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 65761,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			19264
-		},
-		barrage_ID = {
-			81025
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_123[65762] = {
-		id = 65762,
-		name = "贝拉罗斯PVP冰锥5-120-LV2",
-		damage = 68,
-		base = 65761
-	}
-	uv0.weapon_property_123[65763] = {
-		id = 65763,
-		name = "贝拉罗斯PVP冰锥5-120-LV3",
-		damage = 80,
-		base = 65761
-	}
-	uv0.weapon_property_123[65764] = {
-		id = 65764,
-		name = "贝拉罗斯PVP冰锥5-120-LV4",
-		damage = 92,
-		base = 65761,
-		barrage_ID = {
-			81026
-		}
-	}
-	uv0.weapon_property_123[65765] = {
-		id = 65765,
-		name = "贝拉罗斯PVP冰锥5-120-LV5",
-		damage = 104,
-		base = 65761,
 		barrage_ID = {
 			81026
 		}

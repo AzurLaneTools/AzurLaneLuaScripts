@@ -2,6 +2,69 @@ pg = pg or {}
 pg.weapon_property_8 = {}
 
 (function ()
+	uv0.weapon_property_8[7147] = {
+		reload_max = 344,
+		damage = 32,
+		base = 7140,
+		id = 7147,
+		corrected = 114
+	}
+	uv0.weapon_property_8[7200] = {
+		recover_time = 0.5,
+		name = "130mm單裝炮T1",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 260,
+		queue = 1,
+		range = 65,
+		damage = 4,
+		suppress = 1,
+		auto_aftercast = 0.2,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 7200,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1000
+		},
+		barrage_ID = {
+			1018
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_8[7201] = {
+		id = 7201,
+		reload_max = 254,
+		damage = 5,
+		base = 7200
+	}
+	uv0.weapon_property_8[7202] = {
+		id = 7202,
+		reload_max = 248,
+		damage = 6,
+		base = 7200
+	}
 	uv0.weapon_property_8[7203] = {
 		id = 7203,
 		reload_max = 242,
@@ -665,22 +728,5 @@ pg.weapon_property_8 = {}
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_8[11041] = {
-		id = 11041,
-		reload_max = 111,
-		base = 11040
-	}
-	uv0.weapon_property_8[11042] = {
-		id = 11042,
-		reload_max = 110,
-		damage = 4,
-		base = 11040
-	}
-	uv0.weapon_property_8[11043] = {
-		id = 11043,
-		reload_max = 107,
-		damage = 4,
-		base = 11040
 	}
 end)()

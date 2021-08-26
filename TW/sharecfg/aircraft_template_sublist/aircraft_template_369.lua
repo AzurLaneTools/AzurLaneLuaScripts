@@ -1,100 +1,34 @@
 pg = pg or {}
 pg.aircraft_template_369 = {
-	[960009] = {
-		attack_power = 2,
-		name = "【翻格子活动】铁血战斗机",
-		type = 1,
-		accuracy = 23,
-		model_ID = "96jiangong",
-		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 960009,
-		icon = "96jiangong",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 1075,
-		speed = 50,
-		max_hp = 28,
-		scale = 1,
-		weapon_ID = {
-			960026
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
+	[784317] = {
+		id = 784317,
+		name = "【2021意大利活动SP】塞壬航母R型战斗机",
+		base = 1000853,
+		model_ID = "sairenfeiji_R",
+		icon = "sairenfeiji_R"
 	},
-	[960010] = {
+	[789001] = {
 		attack_power = 2,
-		name = "【翻格子活动】铁血轰炸机",
+		name = "【2021意大利活动】我方支援飞机B3",
 		type = 3,
 		accuracy = 23,
-		model_ID = "96jiangong",
+		model_ID = "SM.79",
 		ACC_growth = 0,
-		crash_DMG = 9,
+		crash_DMG = 208,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 960010,
-		icon = "96jiangong",
+		nationality = 6,
+		id = 789001,
+		icon = "SM.79",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1126,
-		speed = 46,
-		max_hp = 29,
+		hp_growth = 5000,
+		speed = 32,
+		max_hp = 240,
 		scale = 1,
 		weapon_ID = {
-			960031
+			789004,
+			789007
 		},
 		position_offset = {
 			0,
@@ -137,7 +71,7 @@ pg.aircraft_template_369 = {
 				0
 			},
 			{
-				0,
+				0.64,
 				0,
 				0
 			},
@@ -148,9 +82,159 @@ pg.aircraft_template_369 = {
 			}
 		}
 	},
-	[960011] = {
+	[789002] = {
 		attack_power = 2,
-		name = "【翻格子活动】重樱战斗机",
+		name = "【2021意大利活动】我方支援飞机DS",
+		type = 3,
+		accuracy = 23,
+		model_ID = "SM.79",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 6,
+		id = 789002,
+		icon = "SM.79",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 5000,
+		speed = 32,
+		max_hp = 360,
+		scale = 1,
+		weapon_ID = {
+			789005,
+			789008
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[789003] = {
+		attack_power = 2,
+		name = "【2021意大利活动】我方支援飞机SP",
+		type = 3,
+		accuracy = 23,
+		model_ID = "SM.79",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 6,
+		id = 789003,
+		icon = "SM.79",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 5000,
+		speed = 32,
+		max_hp = 450,
+		scale = 1,
+		weapon_ID = {
+			789006,
+			789009
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[800005] = {
+		attack_power = 2,
+		name = "三笠剧情战斗机",
 		type = 1,
 		accuracy = 23,
 		model_ID = "96jiangong",
@@ -159,16 +243,16 @@ pg.aircraft_template_369 = {
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 960011,
+		id = 800005,
 		icon = "96jiangong",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1021,
+		hp_growth = 980,
 		speed = 50,
-		max_hp = 27,
-		scale = 1,
+		max_hp = 13,
+		scale = 0.75,
 		weapon_ID = {
-			960025
+			133
 		},
 		position_offset = {
 			0,
@@ -222,9 +306,9 @@ pg.aircraft_template_369 = {
 			}
 		}
 	},
-	[960012] = {
+	[800006] = {
 		attack_power = 2,
-		name = "【翻格子活动】重樱鱼雷机",
+		name = "三笠剧情鱼雷机",
 		type = 2,
 		accuracy = 23,
 		model_ID = "97jiangong",
@@ -233,16 +317,16 @@ pg.aircraft_template_369 = {
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 960012,
+		id = 800006,
 		icon = "97jiangong",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 924,
+		hp_growth = 1076,
 		speed = 48,
-		max_hp = 24,
-		scale = 1,
+		max_hp = 14,
+		scale = 0.75,
 		weapon_ID = {
-			960027
+			135
 		},
 		position_offset = {
 			0,
@@ -296,9 +380,9 @@ pg.aircraft_template_369 = {
 			}
 		}
 	},
-	[960013] = {
+	[800007] = {
 		attack_power = 2,
-		name = "【翻格子活动】重樱轰炸机",
+		name = "三笠剧情轰炸机",
 		type = 3,
 		accuracy = 23,
 		model_ID = "99shijianbao1",
@@ -307,16 +391,16 @@ pg.aircraft_template_369 = {
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 960013,
+		id = 800007,
 		icon = "99shijianbao1",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1070,
+		hp_growth = 1206,
 		speed = 46,
-		max_hp = 28,
-		scale = 1,
+		max_hp = 16,
+		scale = 0.75,
 		weapon_ID = {
-			960031
+			139
 		},
 		position_offset = {
 			0,
@@ -370,27 +454,30 @@ pg.aircraft_template_369 = {
 			}
 		}
 	},
-	[960014] = {
+	[800010] = {
 		attack_power = 2,
-		name = "【翻格子活动】白鹰战斗机",
+		name = "魔鬼鱼浮游炮",
 		type = 1,
 		accuracy = 23,
-		model_ID = "F2A",
+		model_ID = "fuyoupao",
 		ACC_growth = 0,
-		crash_DMG = 9,
+		crash_DMG = 100,
 		dodge = 1,
-		funnel_behavior = "",
-		nationality = 1,
-		id = 960014,
-		icon = "F2A",
+		nationality = 3,
+		id = 800010,
+		icon = "fuyoupao",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1129,
-		speed = 50,
-		max_hp = 29,
-		scale = 1,
+		hp_growth = 1000,
+		speed = 70,
+		max_hp = 50,
+		scale = 0.75,
+		funnel_behavior = {
+			exist = 20,
+			stay = 2
+		},
 		weapon_ID = {
-			960023
+			800011
 		},
 		position_offset = {
 			0,
@@ -410,13 +497,13 @@ pg.aircraft_template_369 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.24,
-					-1.34,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					1.43,
-					1.6,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -433,7 +520,7 @@ pg.aircraft_template_369 = {
 				0
 			},
 			{
-				0.24,
+				0,
 				0,
 				0
 			},
@@ -444,175 +531,28 @@ pg.aircraft_template_369 = {
 			}
 		}
 	},
-	[960015] = {
+	[819001] = {
 		attack_power = 2,
-		name = "【翻格子活动】白鹰鱼雷机",
-		type = 2,
-		accuracy = 23,
-		model_ID = "tbd",
-		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 1,
-		id = 960015,
-		icon = "tbd",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 1021,
-		speed = 48,
-		max_hp = 27,
-		scale = 1,
-		weapon_ID = {
-			960027
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.31,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[960016] = {
-		attack_power = 2,
-		name = "【翻格子活动】白鹰轰炸机",
-		type = 3,
-		accuracy = 23,
-		model_ID = "sbdwuwei",
-		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 1,
-		id = 960016,
-		icon = "sbdwuwei",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 1183,
-		speed = 46,
-		max_hp = 31,
-		scale = 1,
-		weapon_ID = {
-			960031
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[960017] = {
-		attack_power = 2,
-		name = "【翻格子活动】皇家战斗机",
+		name = "【偶像大师联动】舰载战斗机I",
 		type = 1,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "feiji_ouxiangfeiji",
 		ACC_growth = 0,
-		crash_DMG = 9,
+		crash_DMG = 36,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 2,
-		id = 960017,
-		icon = "haipenhuo",
+		nationality = 3,
+		id = 819001,
+		icon = "feiji_ouxiangfeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1075,
-		speed = 50,
-		max_hp = 28,
-		scale = 1,
+		hp_growth = 1680,
+		speed = 33,
+		max_hp = 64,
+		scale = 0.75,
 		weapon_ID = {
-			960024
+			1100745,
+			1100750
 		},
 		position_offset = {
 			0,
@@ -632,13 +572,13 @@ pg.aircraft_template_369 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-2.62,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					0.85,
-					0.17,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -655,7 +595,7 @@ pg.aircraft_template_369 = {
 				0
 			},
 			{
-				0.62,
+				0,
 				0,
 				0
 			},
@@ -666,27 +606,28 @@ pg.aircraft_template_369 = {
 			}
 		}
 	},
-	[960018] = {
+	[819002] = {
 		attack_power = 2,
-		name = "【翻格子活动】皇家鱼雷机",
-		type = 2,
+		name = "【偶像大师联动】舰载战斗机II",
+		type = 1,
 		accuracy = 23,
-		model_ID = "jianyu",
+		model_ID = "feiji_ouxiangfeiji",
 		ACC_growth = 0,
-		crash_DMG = 9,
+		crash_DMG = 48,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 2,
-		id = 960018,
-		icon = "jianyu",
+		nationality = 3,
+		id = 819002,
+		icon = "feiji_ouxiangfeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 973,
-		speed = 48,
-		max_hp = 25,
-		scale = 1,
+		hp_growth = 1960,
+		speed = 33,
+		max_hp = 88,
+		scale = 0.75,
 		weapon_ID = {
-			960027
+			1100746,
+			1100751
 		},
 		position_offset = {
 			0,
@@ -706,13 +647,13 @@ pg.aircraft_template_369 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -729,7 +670,7 @@ pg.aircraft_template_369 = {
 				0
 			},
 			{
-				0.52,
+				0,
 				0,
 				0
 			},

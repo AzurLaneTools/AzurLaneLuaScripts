@@ -1,143 +1,228 @@
 pg = pg or {}
 pg.equip_data_statistics_393 = {
-	[90901] = {
-		id = 90901,
-		damage = "33 x 4",
-		base = 90900,
+	[90844] = {
+		id = 90844,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				4,
+				51564
+			}
+		},
 		weapon_id = {
-			90901
+			90844
 		}
 	},
-	[90902] = {
-		id = 90902,
-		damage = "35 x 4",
-		base = 90900,
+	[90845] = {
+		id = 90845,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				4,
+				51565
+			}
+		},
 		weapon_id = {
-			90902
+			90845
 		}
 	},
-	[90903] = {
-		id = 90903,
-		damage = "37 x 4",
-		base = 90900,
+	[90846] = {
+		id = 90846,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				4,
+				51566
+			}
+		},
 		weapon_id = {
-			90903
+			90846
 		}
 	},
-	[90904] = {
-		id = 90904,
-		damage = "39 x 4",
-		base = 90900,
-		weapon_id = {
-			90904
-		}
-	},
-	[90905] = {
-		id = 90905,
-		damage = "41 x 4",
-		base = 90900,
-		weapon_id = {
-			90905
-		}
-	},
-	[90906] = {
-		id = 90906,
-		damage = "43 x 4",
-		base = 90900,
-		weapon_id = {
-			90906
-		}
-	},
-	[90907] = {
-		id = 90907,
-		damage = "45 x 4",
-		base = 90900,
-		weapon_id = {
-			90907
-		}
-	},
-	[90908] = {
-		id = 90908,
-		damage = "47 x 4",
-		base = 90900,
-		weapon_id = {
-			90908
-		}
-	},
-	[90909] = {
-		id = 90909,
-		damage = "49 x 4",
-		base = 90900,
-		weapon_id = {
-			90909
-		}
-	},
-	[90910] = {
-		id = 90910,
-		damage = "52 x 4",
-		base = 90900,
-		weapon_id = {
-			90910
-		}
-	},
-	[95000] = {
+	[90860] = {
 		tech = 1,
-		name = "三聯裝381mm主炮Model1934",
-		speciality = "跨射",
-		type = 4,
+		name = "雙聯裝203mm主砲Mle1924",
+		speciality = "鎖定",
+		type = 3,
 		value_2 = 12,
-		ammo = 3,
-		damage = "42 x 3",
-		nationality = 6,
+		ammo = 2,
+		damage = "26 x 4",
+		nationality = 8,
 		rarity = 3,
-		id = 95000,
+		id = 90860,
 		value_3 = 0,
 		torpedo_ammo = 0,
-		descrip = "三聯裝381mm主炮，維托里奧·維內托級戰列艦主炮，戰巡和戰列可以使用",
-		icon = "55000",
+		descrip = "说明未填写",
+		icon = "50860",
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
-			1
+			3
 		},
 		ammo_info = {
 			{
-				2,
-				1560
+				1,
+				1416
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1416
+			},
+			{
+				4,
+				1205
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			95000
+			90860
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
-			"RN",
-			"BB",
-			"MG"
+			"FFNF",
+			"CA",
+			"MG",
+			"HE"
 		}
 	},
-	[95001] = {
-		id = 95001,
-		damage = "50 x 3",
-		base = 95000,
+	[90861] = {
+		id = 90861,
+		damage = "28 x 4",
+		base = 90860,
 		weapon_id = {
-			95001
+			90861
+		}
+	},
+	[90862] = {
+		id = 90862,
+		damage = "30 x 4",
+		base = 90860,
+		weapon_id = {
+			90862
+		}
+	},
+	[90863] = {
+		id = 90863,
+		damage = "32 x 4",
+		base = 90860,
+		weapon_id = {
+			90863
+		}
+	},
+	[90864] = {
+		id = 90864,
+		damage = "34 x 4",
+		base = 90860,
+		weapon_id = {
+			90864
+		}
+	},
+	[90865] = {
+		id = 90865,
+		damage = "36 x 4",
+		base = 90860,
+		weapon_id = {
+			90865
+		}
+	},
+	[90866] = {
+		id = 90866,
+		damage = "38 x 4",
+		base = 90860,
+		weapon_id = {
+			90866
+		}
+	},
+	[90880] = {
+		tech = 2,
+		name = "雙聯裝203mm主砲Mle1924",
+		speciality = "鎖定",
+		type = 3,
+		value_2 = 25,
+		ammo = 2,
+		damage = "28 x 4",
+		nationality = 8,
+		rarity = 4,
+		id = 90880,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "50860",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1416
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1416
+			},
+			{
+				4,
+				1205
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90880
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[90881] = {
+		id = 90881,
+		damage = "30 x 4",
+		base = 90880,
+		weapon_id = {
+			90881
 		}
 	}
 }

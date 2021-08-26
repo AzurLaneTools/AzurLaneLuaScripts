@@ -1,26 +1,28 @@
 pg = pg or {}
 pg.aircraft_template_148 = {
-	[66240] = {
+	[65911] = {
 		attack_power = 2,
-		name = "山城改技能Lv0",
-		type = 3,
+		name = "天鹰技能G.50Lv1",
+		type = 1,
 		accuracy = 23,
-		model_ID = "ruiyun",
+		model_ID = "g50",
 		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 1,
+		crash_DMG = 160,
+		dodge = 0.333,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 66240,
-		icon = "ruiyun",
+		nationality = 6,
+		id = 65911,
+		icon = "g50",
 		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 1023,
-		speed = 46,
-		max_hp = 27,
+		dodge_limit = 9,
+		hp_growth = 1785,
+		speed = 50,
+		max_hp = 46,
 		scale = 1,
 		weapon_ID = {
-			66260
+			50041,
+			50541,
+			65921
 		},
 		position_offset = {
 			0,
@@ -63,7 +65,7 @@ pg.aircraft_template_148 = {
 				0
 			},
 			{
-				0.26,
+				0.27,
 				0,
 				0
 			},
@@ -74,94 +76,112 @@ pg.aircraft_template_148 = {
 			}
 		}
 	},
-	[66241] = {
-		id = 66241,
-		name = "山城改技能Lv1",
-		base = 66240,
-		max_hp = 32,
-		hp_growth = 1233,
-		weapon_ID = {
-			66261
-		}
-	},
-	[66242] = {
-		id = 66242,
-		name = "山城改技能Lv2",
-		base = 66240,
-		max_hp = 37,
-		hp_growth = 1443,
-		weapon_ID = {
-			66262
-		}
-	},
-	[66243] = {
-		id = 66243,
-		name = "山城改技能Lv3",
-		base = 66240,
-		max_hp = 42,
-		hp_growth = 1653,
-		weapon_ID = {
-			66263
-		}
-	},
-	[66244] = {
-		id = 66244,
-		name = "山城改技能Lv4",
-		base = 66240,
-		max_hp = 47,
-		hp_growth = 1863,
-		weapon_ID = {
-			66264
-		}
-	},
-	[66245] = {
-		id = 66245,
-		name = "山城改技能Lv5",
-		base = 66240,
+	[65912] = {
+		id = 65912,
+		name = "天鹰技能G.50Lv2",
+		base = 65911,
 		max_hp = 52,
-		hp_growth = 2073,
+		hp_growth = 2018,
 		weapon_ID = {
-			66265
+			50042,
+			50542,
+			65922
 		}
 	},
-	[66246] = {
-		id = 66246,
-		name = "山城改技能Lv6",
-		base = 66240,
-		max_hp = 57,
-		hp_growth = 2283,
+	[65913] = {
+		id = 65913,
+		name = "天鹰技能G.50Lv3",
+		base = 65911,
+		max_hp = 59,
+		hp_growth = 2251,
 		weapon_ID = {
-			66266
+			50043,
+			50543,
+			65923
 		}
 	},
-	[66247] = {
-		id = 66247,
-		name = "山城改技能Lv7",
-		base = 66240,
-		max_hp = 63,
-		hp_growth = 2494,
+	[65914] = {
+		id = 65914,
+		name = "天鹰技能G.50Lv4",
+		base = 65911,
+		max_hp = 65,
+		hp_growth = 2484,
 		weapon_ID = {
-			66267
+			50044,
+			50544,
+			65924
 		}
 	},
-	[66248] = {
-		id = 66248,
-		name = "山城改技能Lv8",
-		base = 66240,
-		max_hp = 69,
-		hp_growth = 2705,
+	[65915] = {
+		id = 65915,
+		name = "天鹰技能G.50Lv5",
+		base = 65911,
+		max_hp = 71,
+		hp_growth = 2717,
 		weapon_ID = {
-			66268
+			50045,
+			50545,
+			65925
 		}
 	},
-	[66249] = {
-		id = 66249,
-		name = "山城改技能Lv9",
-		base = 66240,
-		max_hp = 75,
-		hp_growth = 2916,
+	[65916] = {
+		id = 65916,
+		name = "天鹰技能G.50Lv6",
+		base = 65911,
+		max_hp = 77,
+		hp_growth = 2949,
 		weapon_ID = {
-			66269
+			50046,
+			50546,
+			65926
+		}
+	},
+	[65917] = {
+		id = 65917,
+		name = "天鹰技能G.50Lv7",
+		base = 65911,
+		max_hp = 83,
+		hp_growth = 3182,
+		weapon_ID = {
+			50047,
+			50547,
+			65927
+		}
+	},
+	[65918] = {
+		id = 65918,
+		name = "天鹰技能G.50Lv8",
+		base = 65911,
+		max_hp = 89,
+		hp_growth = 3415,
+		weapon_ID = {
+			50048,
+			50548,
+			65928
+		}
+	},
+	[65919] = {
+		id = 65919,
+		name = "天鹰技能G.50Lv9",
+		base = 65911,
+		max_hp = 95,
+		hp_growth = 3648,
+		weapon_ID = {
+			50049,
+			50549,
+			65929
+		}
+	},
+	[65920] = {
+		id = 65920,
+		name = "天鹰技能G.50Lv10",
+		base = 65911,
+		max_hp = 101,
+		hp_growth = 3881,
+		weapon_ID = {
+			50050,
+			50550,
+			65930
 		}
 	}
 }

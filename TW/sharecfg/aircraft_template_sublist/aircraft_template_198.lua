@@ -1,89 +1,112 @@
 pg = pg or {}
 pg.aircraft_template_198 = {
-	[69984] = {
-		id = 69984,
-		max_hp = 52,
-		hp_growth = 2218,
-		base = 69981,
-		weapon_ID = {
-			51344
-		}
-	},
-	[69985] = {
-		id = 69985,
+	[69934] = {
+		id = 69934,
+		name = "信浓技能流星 LV4",
+		base = 69931,
 		max_hp = 58,
-		hp_growth = 2426,
-		base = 69981,
+		hp_growth = 2218,
 		weapon_ID = {
-			51345
+			50544,
+			50844,
+			51464
 		}
 	},
-	[69986] = {
-		id = 69986,
+	[69935] = {
+		id = 69935,
+		name = "信浓技能流星 LV5",
+		base = 69931,
 		max_hp = 63,
-		hp_growth = 2634,
-		base = 69981,
+		hp_growth = 2426,
 		weapon_ID = {
-			51346
+			50545,
+			50845,
+			51465
 		}
 	},
-	[69987] = {
-		id = 69987,
+	[69936] = {
+		id = 69936,
+		name = "信浓技能流星 LV6",
+		base = 69931,
 		max_hp = 68,
-		hp_growth = 2842,
-		base = 69981,
+		hp_growth = 2634,
 		weapon_ID = {
-			51347
+			50546,
+			50846,
+			51466
 		}
 	},
-	[69988] = {
-		id = 69988,
+	[69937] = {
+		id = 69937,
+		name = "信浓技能流星 LV7",
+		base = 69931,
 		max_hp = 74,
-		hp_growth = 3050,
-		base = 69981,
+		hp_growth = 2842,
 		weapon_ID = {
-			51348
+			50547,
+			50847,
+			51467
 		}
 	},
-	[69989] = {
-		id = 69989,
+	[69938] = {
+		id = 69938,
+		name = "信浓技能流星 LV8",
+		base = 69931,
 		max_hp = 79,
-		hp_growth = 3258,
-		base = 69981,
+		hp_growth = 3050,
 		weapon_ID = {
-			51349
+			50548,
+			50848,
+			51468
 		}
 	},
-	[69990] = {
-		id = 69990,
+	[69939] = {
+		id = 69939,
+		name = "信浓技能流星 LV9",
+		base = 69931,
 		max_hp = 85,
-		hp_growth = 3466,
-		base = 69981,
+		hp_growth = 3258,
 		weapon_ID = {
-			51350
+			50549,
+			50849,
+			51469
 		}
 	},
-	[81000] = {
+	[69940] = {
+		id = 69940,
+		name = "信浓技能流星 LV10",
+		base = 69931,
+		max_hp = 90,
+		hp_growth = 3466,
+		weapon_ID = {
+			50550,
+			50850,
+			51470
+		}
+	},
+	[69971] = {
 		attack_power = 2,
-		name = "F2A水牛",
-		type = 1,
+		name = "千岁千代田技能瑞云",
+		type = 3,
 		accuracy = 23,
-		model_ID = "F2A",
+		model_ID = "ruiyun",
 		ACC_growth = 0,
-		crash_DMG = 42,
-		dodge = 0.375,
+		crash_DMG = 120,
+		dodge = 3.51,
 		funnel_behavior = "",
-		nationality = 1,
-		id = 81000,
-		icon = "F2A",
+		nationality = 3,
+		id = 69971,
+		icon = "ruiyun",
 		AP_growth = 2000,
-		dodge_limit = 8,
-		hp_growth = 1129,
-		speed = 45,
-		max_hp = 29,
+		dodge_limit = 1,
+		hp_growth = 1438,
+		speed = 46,
+		max_hp = 37,
 		scale = 1,
 		weapon_ID = {
-			50300
+			50541,
+			50841,
+			52241
 		},
 		position_offset = {
 			0,
@@ -103,13 +126,13 @@ pg.aircraft_template_198 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.24,
-					-1.34,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					1.43,
-					1.6,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -126,7 +149,7 @@ pg.aircraft_template_198 = {
 				0
 			},
 			{
-				0.24,
+				0,
 				0,
 				0
 			},
@@ -137,22 +160,26 @@ pg.aircraft_template_198 = {
 			}
 		}
 	},
-	[81001] = {
-		id = 81001,
-		max_hp = 34,
-		hp_growth = 1298,
-		base = 81000,
+	[69972] = {
+		id = 69972,
+		max_hp = 42,
+		hp_growth = 1626,
+		base = 69971,
 		weapon_ID = {
-			50301
+			50542,
+			50842,
+			52242
 		}
 	},
-	[81002] = {
-		id = 81002,
-		max_hp = 38,
-		hp_growth = 1468,
-		base = 81000,
+	[69973] = {
+		id = 69973,
+		max_hp = 47,
+		hp_growth = 1813,
+		base = 69971,
 		weapon_ID = {
-			50302
+			50543,
+			50843,
+			52243
 		}
 	}
 }

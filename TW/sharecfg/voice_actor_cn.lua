@@ -1123,5 +1123,13 @@ pg.voice_actor_CN = {
 	{
 		code = 281,
 		actor_name = "若林直美"
+	},
+	{
+		code = 282,
+		actor_name = "河野日和"
+	},
+	{
+		code = 283,
+		actor_name = "涼本秋穗"
 	}
 }

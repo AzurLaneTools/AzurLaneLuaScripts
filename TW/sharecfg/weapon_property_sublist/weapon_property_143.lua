@@ -2,11 +2,6 @@ pg = pg or {}
 pg.weapon_property_143 = {}
 
 (function ()
-	uv0.weapon_property_143[67696] = {
-		id = 67696,
-		damage = 245,
-		base = 67691
-	}
 	uv0.weapon_property_143[67697] = {
 		id = 67697,
 		damage = 264,
@@ -728,6 +723,18 @@ pg.weapon_property_143 = {}
 		id = 67757,
 		name = "天城戰列技能-LV7",
 		damage = 120,
+		base = 67751
+	}
+	uv0.weapon_property_143[67758] = {
+		id = 67758,
+		name = "天城戰列技能-LV8",
+		damage = 131,
+		base = 67751
+	}
+	uv0.weapon_property_143[67759] = {
+		id = 67759,
+		name = "天城戰列技能-LV9",
+		damage = 143,
 		base = 67751
 	}
 end)()

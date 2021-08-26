@@ -1,40 +1,40 @@
 pg = pg or {}
 pg.equip_data_statistics_189 = {
-	[26607] = {
-		id = 26607,
-		damage = "78/輪",
-		base = 26600,
+	[26547] = {
+		id = 26547,
+		damage = "106/輪",
+		base = 26540,
 		weapon_id = {
-			26607
+			26547
 		}
 	},
-	[26608] = {
-		id = 26608,
-		damage = "84/輪",
-		base = 26600,
+	[26548] = {
+		id = 26548,
+		damage = "114/輪",
+		base = 26540,
 		weapon_id = {
-			26608
+			26548
 		}
 	},
-	[26609] = {
-		id = 26609,
-		damage = "90/輪",
-		base = 26600,
+	[26549] = {
+		id = 26549,
+		damage = "122/輪",
+		base = 26540,
 		weapon_id = {
-			26609
+			26549
 		}
 	},
-	[26610] = {
-		id = 26610,
-		damage = "96/輪",
-		base = 26600,
+	[26550] = {
+		id = 26550,
+		damage = "130/輪",
+		base = 26540,
 		weapon_id = {
-			26610
+			26550
 		}
 	},
-	[26620] = {
+	[26600] = {
 		attribute_3 = "hit",
-		name = "雙聯裝40mm波佛斯海茲梅耶",
+		name = "雙聯裝40mm波佛斯STAAG",
 		speciality = "防空",
 		type = 6,
 		tech = 0,
@@ -43,10 +43,10 @@ pg.equip_data_statistics_189 = {
 		damage = "38/輪",
 		nationality = 2,
 		descrip = "說明未填寫",
-		value_3 = 5,
-		id = 26620,
+		value_3 = 10,
+		id = 26600,
 		value_2 = 45,
-		icon = "26620",
+		icon = "26600",
 		torpedo_ammo = 0,
 		attribute_2 = "antiaircraft",
 		property_rate = {},
@@ -59,7 +59,7 @@ pg.equip_data_statistics_189 = {
 			10
 		},
 		weapon_id = {
-			26620
+			26600
 		},
 		skill_id = {},
 		part_main = {
@@ -95,60 +95,60 @@ pg.equip_data_statistics_189 = {
 			"AA"
 		}
 	},
-	[26621] = {
-		id = 26621,
+	[26601] = {
+		id = 26601,
 		damage = "43/輪",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26621
+			26601
 		}
 	},
-	[26622] = {
-		id = 26622,
+	[26602] = {
+		id = 26602,
 		damage = "48/輪",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26622
+			26602
 		}
 	},
-	[26623] = {
-		id = 26623,
+	[26603] = {
+		id = 26603,
 		damage = "54/輪",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26623
+			26603
 		}
 	},
-	[26624] = {
-		id = 26624,
+	[26604] = {
+		id = 26604,
 		damage = "60/輪",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26624
+			26604
 		}
 	},
-	[26625] = {
-		id = 26625,
+	[26605] = {
+		id = 26605,
 		damage = "66/輪",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26625
+			26605
 		}
 	},
-	[26626] = {
-		id = 26626,
+	[26606] = {
+		id = 26606,
 		damage = "72/輪",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26626
+			26606
 		}
 	},
-	[26627] = {
-		id = 26627,
+	[26607] = {
+		id = 26607,
 		damage = "78/輪",
-		base = 26620,
+		base = 26600,
 		weapon_id = {
-			26627
+			26607
 		}
 	}
 }

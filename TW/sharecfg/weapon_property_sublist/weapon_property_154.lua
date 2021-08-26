@@ -2,118 +2,6 @@ pg = pg or {}
 pg.weapon_property_154 = {}
 
 (function ()
-	uv0.weapon_property_154[68415] = {
-		id = 68415,
-		name = "俾斯麦弹幕PVP-Lv5",
-		damage = 72,
-		base = 68411
-	}
-	uv0.weapon_property_154[68416] = {
-		id = 68416,
-		name = "俾斯麦弹幕PVP-Lv6",
-		damage = 79,
-		base = 68411
-	}
-	uv0.weapon_property_154[68417] = {
-		id = 68417,
-		name = "俾斯麦弹幕PVP-Lv7",
-		damage = 86,
-		base = 68411
-	}
-	uv0.weapon_property_154[68418] = {
-		id = 68418,
-		name = "俾斯麦弹幕PVP-Lv8",
-		damage = 93,
-		base = 68411
-	}
-	uv0.weapon_property_154[68419] = {
-		id = 68419,
-		name = "俾斯麦弹幕PVP-Lv9",
-		damage = 100,
-		base = 68411
-	}
-	uv0.weapon_property_154[68420] = {
-		id = 68420,
-		name = "俾斯麦弹幕PVP-Lv10",
-		damage = 110,
-		base = 68411
-	}
-	uv0.weapon_property_154[68421] = {
-		recover_time = 0,
-		name = "KGV技能弹幕-LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 3000,
-		queue = 1,
-		range = 95,
-		damage = 48,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 25,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 68421,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19881,
-			19882
-		},
-		barrage_ID = {
-			80708,
-			80706
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_154[68422] = {
-		id = 68422,
-		name = "KGV技能弹幕-LV2",
-		damage = 56,
-		base = 68421
-	}
-	uv0.weapon_property_154[68423] = {
-		id = 68423,
-		name = "KGV技能弹幕-LV3",
-		damage = 64,
-		base = 68421
-	}
-	uv0.weapon_property_154[68424] = {
-		id = 68424,
-		name = "KGV技能弹幕-LV4",
-		damage = 72,
-		base = 68421
-	}
-	uv0.weapon_property_154[68425] = {
-		id = 68425,
-		name = "KGV技能弹幕-LV5",
-		damage = 80,
-		base = 68421
-	}
-	uv0.weapon_property_154[68426] = {
-		id = 68426,
-		name = "KGV技能弹幕-LV6",
-		damage = 88,
-		base = 68421
-	}
 	uv0.weapon_property_154[68427] = {
 		id = 68427,
 		name = "KGV技能弹幕-LV7",
@@ -665,5 +553,123 @@ pg.weapon_property_154 = {}
 		name = "KGV技能增强弹幕PVP-LV6",
 		damage = 108,
 		base = 68471
+	}
+	uv0.weapon_property_154[68477] = {
+		id = 68477,
+		name = "KGV技能增强弹幕PVP-LV7",
+		damage = 115,
+		base = 68471
+	}
+	uv0.weapon_property_154[68478] = {
+		id = 68478,
+		name = "KGV技能增强弹幕PVP-LV8",
+		damage = 123,
+		base = 68471
+	}
+	uv0.weapon_property_154[68479] = {
+		id = 68479,
+		name = "KGV技能增强弹幕PVP-LV9",
+		damage = 130,
+		base = 68471
+	}
+	uv0.weapon_property_154[68480] = {
+		id = 68480,
+		name = "KGV技能增强弹幕PVP-LV10",
+		damage = 138,
+		base = 68471
+	}
+	uv0.weapon_property_154[68481] = {
+		recover_time = 0.5,
+		name = "KGV小子弹LV1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 120,
+		damage = 11,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 25,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 68481,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19883,
+			19883
+		},
+		barrage_ID = {
+			80709,
+			80712
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_154[68482] = {
+		id = 68482,
+		name = "KGV小子弹LV2",
+		damage = 12,
+		base = 68481
+	}
+	uv0.weapon_property_154[68483] = {
+		id = 68483,
+		name = "KGV小子弹LV3",
+		damage = 13,
+		base = 68481
+	}
+	uv0.weapon_property_154[68484] = {
+		id = 68484,
+		name = "KGV小子弹LV4",
+		damage = 14,
+		base = 68481
+	}
+	uv0.weapon_property_154[68485] = {
+		id = 68485,
+		name = "KGV小子弹LV5",
+		damage = 15,
+		base = 68481
+	}
+	uv0.weapon_property_154[68486] = {
+		id = 68486,
+		name = "KGV小子弹LV6",
+		damage = 16,
+		base = 68481
+	}
+	uv0.weapon_property_154[68487] = {
+		id = 68487,
+		name = "KGV小子弹LV7",
+		damage = 17,
+		base = 68481
+	}
+	uv0.weapon_property_154[68488] = {
+		id = 68488,
+		name = "KGV小子弹LV8",
+		damage = 18,
+		base = 68481
+	}
+	uv0.weapon_property_154[68489] = {
+		id = 68489,
+		name = "KGV小子弹LV9",
+		damage = 19,
+		base = 68481
 	}
 end)()

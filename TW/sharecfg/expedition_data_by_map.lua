@@ -6333,6 +6333,132 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1540001] = {
+		map = 1540001,
+		name = "響徹碧海的偶像歌|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "OUXIANGDASHIGUANQIA1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Idom-Appeal",
+		ani_name = "Map_1430001",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 40385,
+		ui_type = 1,
+		bg = "Map_1430001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1540002] = {
+		map = 1540002,
+		name = "響徹碧海的偶像歌·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Idom-Appeal",
+		ani_name = "Map_1430001",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 40385,
+		ui_type = 1,
+		bg = "Map_1430001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1540001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1540003] = {
+		map = 1540003,
+		name = "響徹碧海的偶像歌·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Idom-Appeal",
+		ani_name = "Map_1430001",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 40385,
+		ui_type = 1,
+		bg = "Map_1430001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1540001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
@@ -7618,6 +7744,9 @@ pg.expedition_data_by_map = {
 		1450001,
 		1450002,
 		1450003,
+		1540001,
+		1540002,
+		1540003,
 		2100000,
 		2100001,
 		2100010,

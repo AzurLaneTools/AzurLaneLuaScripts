@@ -416,13 +416,13 @@ return {
 		ButtonName = "activity_IMasLink",
 		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
-			slot4 = getProxy(ActivityProxy):getActivityById(pg.activity_const.IDOL_MASTER_CHAPTER_ID.act_id) and not slot3:isEnd()
+			slot4 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot3:isEnd()
 
 			setActive(slot1, slot4)
 
 			if slot4 then
 				onButton(slot0, slot1, function ()
-					pg.m02:sendNotification(GAME.GO_MINI_GAME, 28)
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IMAS_STAGE)
 				end, SFX_PANEL)
 				setActive(slot1:Find("Tip"), (function ()
 					return uv0:getActivityById(ActivityConst.IDOL_MASTER_PT_ID) and not slot0:isEnd() and slot0:readyToAchieve()

@@ -7434,6 +7434,790 @@ pg.collection_template = {
 		},
 		special_drop = {}
 	},
+	[50015] = {
+		drop_oil_max = 0,
+		exp = 60,
+		time = 0,
+		type = 0,
+		collect_time = 1800,
+		title = "疊放待售的換裝",
+		lv = 1,
+		drop_gold_max = 40,
+		oil = 0,
+		id = 50015,
+		icon = "Collecthaixiao",
+		ship_num = 2,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "60",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "20~40",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "0~1",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50016] = {
+		drop_oil_max = 0,
+		exp = 120,
+		time = 0,
+		type = 0,
+		collect_time = 3600,
+		title = "piqiu~piqiu~刷碟",
+		lv = 1,
+		drop_gold_max = 85,
+		oil = 0,
+		id = 50016,
+		icon = "Collecthaixiao",
+		ship_num = 3,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "120",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "40~85",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "1~2",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50017] = {
+		drop_oil_max = 0,
+		exp = 240,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "點亮大螢幕",
+		lv = 1,
+		drop_gold_max = 190,
+		oil = 0,
+		id = 50017,
+		icon = "Collecthaixiao",
+		ship_num = 4,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50018] = {
+		drop_oil_max = 0,
+		exp = 240,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "佈置廣場燈光",
+		lv = 1,
+		drop_gold_max = 190,
+		oil = 0,
+		id = 50018,
+		icon = "Collecthaixiao",
+		ship_num = 4,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50019] = {
+		drop_oil_max = 130,
+		exp = 360,
+		time = 0,
+		type = 0,
+		collect_time = 10800,
+		title = "隨著節奏搖擺",
+		lv = 1,
+		drop_gold_max = 0,
+		oil = 0,
+		id = 50019,
+		icon = "Collecthaixiao",
+		ship_num = 4,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "360",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "80~130",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "3~5",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50020] = {
+		drop_oil_max = 180,
+		exp = 480,
+		time = 0,
+		type = 0,
+		collect_time = 14400,
+		title = "擦亮小金人",
+		lv = 1,
+		drop_gold_max = 0,
+		oil = 0,
+		id = 50020,
+		icon = "Collecthaixiao",
+		ship_num = 5,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "480",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "100~180",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "4~7",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50021] = {
+		drop_oil_max = 0,
+		exp = 60,
+		time = 0,
+		type = 0,
+		collect_time = 1800,
+		title = "疊放待售的換裝",
+		lv = 1,
+		drop_gold_max = 40,
+		oil = 0,
+		id = 50021,
+		icon = "Collecthaixiao",
+		ship_num = 2,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "60",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "20~40",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "0~1",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50022] = {
+		drop_oil_max = 0,
+		exp = 120,
+		time = 0,
+		type = 0,
+		collect_time = 3600,
+		title = "piqiu~piqiu~刷碟",
+		lv = 1,
+		drop_gold_max = 85,
+		oil = 0,
+		id = 50022,
+		icon = "Collecthaixiao",
+		ship_num = 3,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "120",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "40~85",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "1~2",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50023] = {
+		drop_oil_max = 0,
+		exp = 240,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "點亮大螢幕",
+		lv = 1,
+		drop_gold_max = 190,
+		oil = 0,
+		id = 50023,
+		icon = "Collecthaixiao",
+		ship_num = 4,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50024] = {
+		drop_oil_max = 0,
+		exp = 240,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "佈置廣場燈光",
+		lv = 1,
+		drop_gold_max = 190,
+		oil = 0,
+		id = 50024,
+		icon = "Collecthaixiao",
+		ship_num = 4,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50025] = {
+		drop_oil_max = 130,
+		exp = 360,
+		time = 0,
+		type = 0,
+		collect_time = 10800,
+		title = "隨著節奏搖擺",
+		lv = 1,
+		drop_gold_max = 0,
+		oil = 0,
+		id = 50025,
+		icon = "Collecthaixiao",
+		ship_num = 4,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "360",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "80~130",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "3~5",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50026] = {
+		drop_oil_max = 180,
+		exp = 480,
+		time = 0,
+		type = 0,
+		collect_time = 14400,
+		title = "擦亮小金人",
+		lv = 1,
+		drop_gold_max = 0,
+		oil = 0,
+		id = 50026,
+		icon = "Collecthaixiao",
+		ship_num = 5,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "480",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "100~180",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "4~7",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50027] = {
+		drop_oil_max = 0,
+		exp = 120,
+		time = 0,
+		type = 0,
+		collect_time = 3600,
+		title = "piqiu~piqiu~刷碟",
+		lv = 1,
+		drop_gold_max = 85,
+		oil = 0,
+		id = 50027,
+		icon = "Collecthaixiao",
+		ship_num = 3,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "120",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "40~85",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "1~2",
+				type = 2
+			},
+			{
+				id = 59230,
+				nums = "150",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
+	[50028] = {
+		drop_oil_max = 0,
+		exp = 240,
+		time = 0,
+		type = 0,
+		collect_time = 7200,
+		title = "佈置廣場燈光",
+		lv = 1,
+		drop_gold_max = 190,
+		oil = 0,
+		id = 50028,
+		icon = "Collecthaixiao",
+		ship_num = 4,
+		ship_lv = 1,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18,
+			19
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "240",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "70~190",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			},
+			{
+				id = 30327,
+				nums = "1",
+				type = 2
+			}
+		},
+		special_drop = {}
+	},
 	all = {
 		101,
 		102,
@@ -7593,6 +8377,20 @@ pg.collection_template = {
 		50011,
 		50012,
 		50013,
-		50014
+		50014,
+		50015,
+		50016,
+		50017,
+		50018,
+		50019,
+		50020,
+		50021,
+		50022,
+		50023,
+		50024,
+		50025,
+		50026,
+		50027,
+		50028
 	}
 }

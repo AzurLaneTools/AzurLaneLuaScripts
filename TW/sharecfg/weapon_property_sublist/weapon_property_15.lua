@@ -2,65 +2,6 @@ pg = pg or {}
 pg.weapon_property_15 = {}
 
 (function ()
-	uv0.weapon_property_15[14405] = {
-		id = 14405,
-		reload_max = 4491,
-		damage = 102,
-		base = 14400
-	}
-	uv0.weapon_property_15[14406] = {
-		id = 14406,
-		reload_max = 4390,
-		damage = 112,
-		base = 14400
-	}
-	uv0.weapon_property_15[14420] = {
-		recover_time = 0.5,
-		name = "三联装406mm主炮MK7T2",
-		shakescreen = 302,
-		type = 23,
-		torpedo_ammo = 0,
-		fire_fx = "zhupao",
-		action_index = "attack_main",
-		fire_fx_loop_type = 1,
-		axis_angle = 0,
-		attack_attribute = 1,
-		reload_max = 4752,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 50,
-		queue = 1,
-		suppress = 1,
-		range = 200,
-		damage = 57,
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		corrected = 105,
-		min_range = 50,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		id = 14420,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1512
-		},
-		barrage_ID = {
-			1301
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			maxLock = 3,
-			lockTime = 0.3
-		},
-		precast_param = {}
-	}
 	uv0.weapon_property_15[14421] = {
 		id = 14421,
 		reload_max = 4656,
@@ -623,6 +564,30 @@ pg.weapon_property_15 = {}
 		id = 15022,
 		reload_max = 4800,
 		damage = 60,
+		base = 15020
+	}
+	uv0.weapon_property_15[15023] = {
+		id = 15023,
+		reload_max = 4725,
+		damage = 67,
+		base = 15020
+	}
+	uv0.weapon_property_15[15024] = {
+		id = 15024,
+		reload_max = 4650,
+		damage = 74,
+		base = 15020
+	}
+	uv0.weapon_property_15[15025] = {
+		id = 15025,
+		reload_max = 4575,
+		damage = 81,
+		base = 15020
+	}
+	uv0.weapon_property_15[15026] = {
+		id = 15026,
+		reload_max = 4500,
+		damage = 88,
 		base = 15020
 	}
 end)()

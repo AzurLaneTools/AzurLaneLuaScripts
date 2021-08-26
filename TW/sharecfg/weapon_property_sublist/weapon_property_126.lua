@@ -2,6 +2,140 @@ pg = pg or {}
 pg.weapon_property_126 = {}
 
 (function ()
+	uv0.weapon_property_126[65874] = {
+		id = 65874,
+		name = "艾伦萨姆纳技能弹幕Lv4",
+		damage = 17,
+		base = 65871
+	}
+	uv0.weapon_property_126[65875] = {
+		id = 65875,
+		name = "艾伦萨姆纳技能弹幕Lv5",
+		damage = 18,
+		base = 65871
+	}
+	uv0.weapon_property_126[65876] = {
+		id = 65876,
+		name = "艾伦萨姆纳技能弹幕Lv6",
+		damage = 20,
+		base = 65871
+	}
+	uv0.weapon_property_126[65877] = {
+		id = 65877,
+		name = "艾伦萨姆纳技能弹幕Lv7",
+		damage = 22,
+		base = 65871
+	}
+	uv0.weapon_property_126[65878] = {
+		id = 65878,
+		name = "艾伦萨姆纳技能弹幕Lv8",
+		damage = 24,
+		base = 65871
+	}
+	uv0.weapon_property_126[65879] = {
+		id = 65879,
+		name = "艾伦萨姆纳技能弹幕Lv9",
+		damage = 26,
+		base = 65871
+	}
+	uv0.weapon_property_126[65880] = {
+		id = 65880,
+		name = "艾伦萨姆纳技能弹幕Lv10",
+		damage = 30,
+		base = 65871
+	}
+	uv0.weapon_property_126[65881] = {
+		recover_time = 0,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv1",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 90,
+		damage = 35,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 65881,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19280
+		},
+		barrage_ID = {
+			81050
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_126[65882] = {
+		id = 65882,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv2",
+		damage = 46,
+		base = 65881
+	}
+	uv0.weapon_property_126[65883] = {
+		id = 65883,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv3",
+		damage = 52,
+		base = 65881
+	}
+	uv0.weapon_property_126[65884] = {
+		id = 65884,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv4",
+		damage = 59,
+		base = 65881
+	}
+	uv0.weapon_property_126[65885] = {
+		id = 65885,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv5",
+		damage = 66,
+		base = 65881
+	}
+	uv0.weapon_property_126[65886] = {
+		id = 65886,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv6",
+		damage = 73,
+		base = 65881
+	}
+	uv0.weapon_property_126[65887] = {
+		id = 65887,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv7",
+		damage = 80,
+		base = 65881
+	}
+	uv0.weapon_property_126[65888] = {
+		id = 65888,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv8",
+		damage = 87,
+		base = 65881
+	}
+	uv0.weapon_property_126[65889] = {
+		id = 65889,
+		name = "艾伦萨姆纳技能弹幕鱼雷Lv9",
+		damage = 94,
+		base = 65881
+	}
 	uv0.weapon_property_126[65890] = {
 		id = 65890,
 		name = "艾伦萨姆纳技能弹幕鱼雷Lv10",
@@ -541,188 +675,5 @@ pg.weapon_property_126 = {}
 		bullet_ID = {
 			65936
 		}
-	}
-	uv0.weapon_property_126[65937] = {
-		id = 65937,
-		name = "天鹰技能Re2001鱼雷机Lv7",
-		damage = 1,
-		base = 65931,
-		bullet_ID = {
-			65937
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_126[65938] = {
-		id = 65938,
-		name = "天鹰技能Re2001鱼雷机Lv8",
-		damage = 1,
-		base = 65931,
-		bullet_ID = {
-			65938
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_126[65939] = {
-		id = 65939,
-		name = "天鹰技能Re2001鱼雷机Lv9",
-		damage = 1,
-		base = 65931,
-		bullet_ID = {
-			65939
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_126[65940] = {
-		id = 65940,
-		name = "天鹰技能Re2001鱼雷机Lv10",
-		damage = 1,
-		base = 65931,
-		bullet_ID = {
-			65940
-		},
-		barrage_ID = {
-			12009
-		}
-	}
-	uv0.weapon_property_126[65941] = {
-		recover_time = 0,
-		name = "2 x 机载鱼雷",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 20,
-		reload_max = 9500,
-		queue = 1,
-		range = 75,
-		damage = 96,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 65941,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			2111
-		},
-		barrage_ID = {
-			2111
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_126[65942] = {
-		id = 65942,
-		damage = 112,
-		base = 65941
-	}
-	uv0.weapon_property_126[65943] = {
-		id = 65943,
-		damage = 128,
-		base = 65941
-	}
-	uv0.weapon_property_126[65944] = {
-		id = 65944,
-		damage = 144,
-		base = 65941
-	}
-	uv0.weapon_property_126[65945] = {
-		id = 65945,
-		damage = 160,
-		base = 65941
-	}
-	uv0.weapon_property_126[65946] = {
-		id = 65946,
-		damage = 176,
-		base = 65941
-	}
-	uv0.weapon_property_126[65947] = {
-		id = 65947,
-		damage = 192,
-		base = 65941
-	}
-	uv0.weapon_property_126[65948] = {
-		id = 65948,
-		damage = 208,
-		base = 65941
-	}
-	uv0.weapon_property_126[65949] = {
-		id = 65949,
-		damage = 224,
-		base = 65941
-	}
-	uv0.weapon_property_126[65950] = {
-		id = 65950,
-		damage = 240,
-		base = 65941
-	}
-	uv0.weapon_property_126[65951] = {
-		recover_time = 0,
-		name = "射水鱼技能鱼雷LV1",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 90,
-		damage = 12,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 65951,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19289,
-			19289
-		},
-		barrage_ID = {
-			81091,
-			81092
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end)()

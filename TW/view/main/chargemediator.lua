@@ -15,32 +15,6 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GET_CHARGE_LIST)
 	end)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
-
-	slot3 = getProxy(ShopsProxy)
-	slot5 = slot3:getChargedList()
-	slot6 = slot3:GetNormalList()
-	slot7 = slot3:GetNormalGroupList()
-
-	if slot3:getFirstChargeList() then
-		slot0.viewComponent:setFirstChargeIds(slot4)
-	end
-
-	if slot5 then
-		slot0.viewComponent:setChargedList(slot5)
-	end
-
-	if slot6 then
-		slot0.viewComponent:setNormalList(slot6)
-	end
-
-	if slot7 then
-		slot0.viewComponent:setNormalGroupList(slot7)
-	end
-
-	if not slot4 or not slot5 or not slot6 or not slot7 then
-		slot0:sendNotification(GAME.GET_CHARGE_LIST)
-	end
-
 	slot0:bind(uv0.SWITCH_TO_SHOP, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1)
 	end)
@@ -144,9 +118,18 @@ function slot0.handleNotification(slot0, slot1)
 				slot0.viewComponent:setItemVOs()
 				slot0.viewComponent:sortItems()
 			end
-		elseif slot3.id == slot10 and slot7[slot3.id].limit_args[3] and slot11 < slot0.viewComponent.player.commanderBagMax then
-			slot0.viewComponent:setItemVOs()
-			slot0.viewComponent:sortItems()
+		elseif slot3.id == slot10 then
+			if slot7[slot3.id].limit_args[3] and slot11 < slot0.viewComponent.player.commanderBagMax then
+				slot0.viewComponent:setItemVOs()
+				slot0.viewComponent:sortItems()
+			end
+		elseif slot7[slot3.id].group > 0 and _.detect(slot0.viewComponent.itemVOs, function (slot0)
+			return slot0.id == uv0.id
+		end) then
+			if slot11:IsGroupSale() and (not slot11:IsShowWhenGroupSale(slot12) or slot0.viewComponent:getGroupLimit(slot11:getConfig("group")) == slot11:getConfig("group_limit")) then
+				slot0.viewComponent:setItemVOs()
+				slot0.viewComponent:sortItems()
+			end
 		end
 	elseif slot2 == GAME.USE_ITEM_DONE then
 		if table.getCount(slot3) ~= 0 then
@@ -177,6 +160,8 @@ function slot0.handleNotification(slot0, slot1)
 
 		if slot4 or slot5 or slot6 or slot7 then
 			slot0.viewComponent:sortDamondItems()
+			slot0.viewComponent:setItemVOs()
+			slot0.viewComponent:sortItems()
 		end
 	elseif slot2 == GAME.CLICK_MING_SHI_SUCCESS then
 		slot0.viewComponent:playHeartEffect()

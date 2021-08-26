@@ -2,6 +2,54 @@ pg = pg or {}
 pg.weapon_property_4 = {}
 
 (function ()
+	uv0.weapon_property_4[4142] = {
+		id = 4142,
+		reload_max = 570,
+		damage = 33,
+		base = 4140
+	}
+	uv0.weapon_property_4[4143] = {
+		id = 4143,
+		reload_max = 555,
+		damage = 36,
+		base = 4140
+	}
+	uv0.weapon_property_4[4144] = {
+		id = 4144,
+		reload_max = 540,
+		damage = 39,
+		base = 4140
+	}
+	uv0.weapon_property_4[4145] = {
+		id = 4145,
+		reload_max = 525,
+		damage = 42,
+		base = 4140
+	}
+	uv0.weapon_property_4[4146] = {
+		id = 4146,
+		reload_max = 510,
+		damage = 45,
+		base = 4140
+	}
+	uv0.weapon_property_4[4147] = {
+		id = 4147,
+		reload_max = 495,
+		damage = 49,
+		base = 4140
+	}
+	uv0.weapon_property_4[4148] = {
+		id = 4148,
+		reload_max = 480,
+		damage = 53,
+		base = 4140
+	}
+	uv0.weapon_property_4[4149] = {
+		id = 4149,
+		reload_max = 465,
+		damage = 57,
+		base = 4140
+	}
 	uv0.weapon_property_4[4150] = {
 		id = 4150,
 		reload_max = 450,
@@ -638,85 +686,5 @@ pg.weapon_property_4 = {}
 		reload_max = 3766,
 		damage = 68,
 		base = 5020
-	}
-	uv0.weapon_property_4[5023] = {
-		id = 5023,
-		reload_max = 3688,
-		damage = 77,
-		base = 5020
-	}
-	uv0.weapon_property_4[5040] = {
-		recover_time = 0.5,
-		name = "三聯533mm魚雷T3",
-		shakescreen = 0,
-		type = 16,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3728,
-		queue = 1,
-		range = 50,
-		damage = 56,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 5040,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1800
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_4[5041] = {
-		id = 5041,
-		reload_max = 3653,
-		damage = 66,
-		base = 5040
-	}
-	uv0.weapon_property_4[5042] = {
-		id = 5042,
-		reload_max = 3578,
-		damage = 76,
-		base = 5040
-	}
-	uv0.weapon_property_4[5043] = {
-		id = 5043,
-		reload_max = 3503,
-		damage = 86,
-		base = 5040
-	}
-	uv0.weapon_property_4[5044] = {
-		id = 5044,
-		reload_max = 3429,
-		damage = 96,
-		base = 5040
-	}
-	uv0.weapon_property_4[5045] = {
-		id = 5045,
-		reload_max = 3354,
-		damage = 106,
-		base = 5040
 	}
 end)()

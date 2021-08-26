@@ -2,122 +2,6 @@ pg = pg or {}
 pg.weapon_property_21 = {}
 
 (function ()
-	uv0.weapon_property_21[17121] = {
-		reload_max = 1838,
-		id = 17121,
-		damage = 28,
-		base = 17120,
-		bullet_ID = {
-			17101
-		}
-	}
-	uv0.weapon_property_21[17122] = {
-		reload_max = 1815,
-		id = 17122,
-		damage = 31,
-		base = 17120,
-		bullet_ID = {
-			17102
-		}
-	}
-	uv0.weapon_property_21[17123] = {
-		reload_max = 1791,
-		id = 17123,
-		damage = 34,
-		base = 17120,
-		bullet_ID = {
-			17103
-		}
-	}
-	uv0.weapon_property_21[17124] = {
-		reload_max = 1767,
-		id = 17124,
-		damage = 37,
-		base = 17120,
-		bullet_ID = {
-			17104
-		}
-	}
-	uv0.weapon_property_21[17125] = {
-		reload_max = 1743,
-		id = 17125,
-		damage = 41,
-		base = 17120,
-		bullet_ID = {
-			17105
-		}
-	}
-	uv0.weapon_property_21[17126] = {
-		reload_max = 1720,
-		id = 17126,
-		damage = 44,
-		base = 17120,
-		bullet_ID = {
-			17106
-		}
-	}
-	uv0.weapon_property_21[17140] = {
-		recover_time = 0.5,
-		name = "F4F野貓T3",
-		shakescreen = 0,
-		type = 10,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 30,
-		reload_max = 1824,
-		queue = 1,
-		range = 90,
-		damage = 26,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		id = 17140,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			17100
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_21[17141] = {
-		reload_max = 1800,
-		id = 17141,
-		damage = 31,
-		base = 17140,
-		bullet_ID = {
-			17101
-		}
-	}
-	uv0.weapon_property_21[17142] = {
-		reload_max = 1777,
-		id = 17142,
-		damage = 34,
-		base = 17140,
-		bullet_ID = {
-			17102
-		}
-	}
 	uv0.weapon_property_21[17143] = {
 		reload_max = 1753,
 		id = 17143,
@@ -768,6 +652,131 @@ pg.weapon_property_21 = {}
 		base = 17300,
 		bullet_ID = {
 			17306
+		}
+	}
+	uv0.weapon_property_21[17320] = {
+		recover_time = 0.5,
+		name = "F6F地獄貓T2",
+		shakescreen = 0,
+		type = 10,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 30,
+		reload_max = 1917,
+		queue = 1,
+		range = 90,
+		damage = 31,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		id = 17320,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			17300
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_21[17321] = {
+		reload_max = 1893,
+		id = 17321,
+		damage = 36,
+		base = 17320,
+		bullet_ID = {
+			17301
+		}
+	}
+	uv0.weapon_property_21[17322] = {
+		reload_max = 1869,
+		id = 17322,
+		damage = 41,
+		base = 17320,
+		bullet_ID = {
+			17302
+		}
+	}
+	uv0.weapon_property_21[17323] = {
+		reload_max = 1845,
+		id = 17323,
+		damage = 45,
+		base = 17320,
+		bullet_ID = {
+			17303
+		}
+	}
+	uv0.weapon_property_21[17324] = {
+		reload_max = 1821,
+		id = 17324,
+		damage = 51,
+		base = 17320,
+		bullet_ID = {
+			17304
+		}
+	}
+	uv0.weapon_property_21[17325] = {
+		reload_max = 1797,
+		id = 17325,
+		damage = 55,
+		base = 17320,
+		bullet_ID = {
+			17305
+		}
+	}
+	uv0.weapon_property_21[17326] = {
+		reload_max = 1773,
+		id = 17326,
+		damage = 59,
+		base = 17320,
+		bullet_ID = {
+			17306
+		}
+	}
+	uv0.weapon_property_21[17327] = {
+		reload_max = 1749,
+		id = 17327,
+		damage = 65,
+		base = 17320,
+		bullet_ID = {
+			17307
+		}
+	}
+	uv0.weapon_property_21[17328] = {
+		reload_max = 1725,
+		id = 17328,
+		damage = 69,
+		base = 17320,
+		bullet_ID = {
+			17308
+		}
+	}
+	uv0.weapon_property_21[17329] = {
+		reload_max = 1701,
+		id = 17329,
+		damage = 74,
+		base = 17320,
+		bullet_ID = {
+			17309
 		}
 	}
 end)()

@@ -1,101 +1,101 @@
 pg = pg or {}
 pg.equip_data_statistics_293 = {
-	[44142] = {
-		id = 44142,
-		damage = "72 x 2",
-		base = 44140,
+	[44122] = {
+		id = 44122,
+		damage = "67 x 2",
+		base = 44120,
 		weapon_id = {
-			44142
+			44122
 		}
 	},
-	[44143] = {
-		id = 44143,
+	[44123] = {
+		id = 44123,
+		damage = "74 x 2",
+		base = 44120,
+		weapon_id = {
+			44123
+		}
+	},
+	[44124] = {
+		id = 44124,
 		damage = "80 x 2",
-		base = 44140,
+		base = 44120,
 		weapon_id = {
-			44143
+			44124
 		}
 	},
-	[44144] = {
-		id = 44144,
-		damage = "86 x 2",
-		base = 44140,
+	[44125] = {
+		id = 44125,
+		damage = "87 x 2",
+		base = 44120,
 		weapon_id = {
-			44144
+			44125
 		}
 	},
-	[44145] = {
-		id = 44145,
-		damage = "94 x 2",
-		base = 44140,
+	[44126] = {
+		id = 44126,
+		damage = "93 x 2",
+		base = 44120,
 		weapon_id = {
-			44145
+			44126
 		}
 	},
-	[44146] = {
-		id = 44146,
+	[44127] = {
+		id = 44127,
 		damage = "100 x 2",
-		base = 44140,
+		base = 44120,
 		weapon_id = {
-			44146
+			44127
 		}
 	},
-	[44147] = {
-		id = 44147,
-		damage = "108 x 2",
-		base = 44140,
+	[44128] = {
+		id = 44128,
+		damage = "107 x 2",
+		base = 44120,
 		weapon_id = {
-			44147
+			44128
 		}
 	},
-	[44148] = {
-		id = 44148,
-		damage = "118 x 2",
-		base = 44140,
+	[44129] = {
+		id = 44129,
+		damage = "114 x 2",
+		base = 44120,
 		weapon_id = {
-			44148
+			44129
 		}
 	},
-	[44149] = {
-		id = 44149,
-		damage = "124 x 2",
-		base = 44140,
+	[44130] = {
+		id = 44130,
+		damage = "122 x 2",
+		base = 44120,
 		weapon_id = {
-			44149
+			44130
 		}
 	},
-	[44150] = {
-		id = 44150,
-		damage = "132 x 2",
-		base = 44140,
-		weapon_id = {
-			44150
-		}
-	},
-	[44200] = {
-		tech = 0,
-		name = "試作型雙聯裝406mmSKC主炮",
+	[44140] = {
+		tech = 3,
+		name = "雙聯380mmSKC主炮",
 		speciality = "跨射",
 		type = 4,
 		value_2 = 45,
-		ammo = 2,
+		ammo = 1,
 		damage = "58 x 2",
 		nationality = 4,
 		rarity = 5,
-		id = 44200,
+		id = 44140,
 		value_3 = 0,
 		torpedo_ammo = 0,
-		descrip = "說明未填寫",
-		icon = "44200",
+		descrip = "雙聯380mmSKC主炮，俾斯麥級戰艦主炮，戰巡和戰列可以使用",
+		icon = "44100",
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
-			3
+			2
 		},
 		ammo_info = {
 			{
 				2,
-				1502
+				1501
 			}
 		},
 		equip_info = {
@@ -107,7 +107,7 @@ pg.equip_data_statistics_293 = {
 			12
 		},
 		weapon_id = {
-			44200
+			44140
 		},
 		skill_id = {},
 		part_main = {
@@ -122,23 +122,23 @@ pg.equip_data_statistics_293 = {
 			"KMS",
 			"BB",
 			"MG",
-			"HE"
+			"AP"
 		}
 	},
-	[44201] = {
-		id = 44201,
-		damage = "68 x 2",
-		base = 44200,
+	[44141] = {
+		id = 44141,
+		damage = "64 x 2",
+		base = 44140,
 		weapon_id = {
-			44201
+			44141
 		}
 	},
-	[44202] = {
-		id = 44202,
-		damage = "76 x 2",
-		base = 44200,
+	[44142] = {
+		id = 44142,
+		damage = "72 x 2",
+		base = 44140,
 		weapon_id = {
-			44202
+			44142
 		}
 	}
 }

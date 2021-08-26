@@ -2,271 +2,9 @@ pg = pg or {}
 pg.weapon_property_390 = {}
 
 (function ()
-	uv0.weapon_property_390[2021511] = {
-		recover_time = 0.5,
-		name = "【大世界】白鹰驱逐精英专属_速射鱼雷（格里德利）",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 60,
-		damage = 18,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 2021511,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20210310
-		},
-		barrage_ID = {
-			20210310
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021600] = {
-		recover_time = 0.5,
-		name = "【大世界】通用轻巡精英固定_塞壬鱼雷",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 80,
-		reload_max = 3200,
-		queue = 1,
-		range = 70,
-		damage = 36,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 2021600,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20216000
-		},
-		barrage_ID = {
-			20216000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021601] = {
+	uv0.weapon_property_390[2024413] = {
 		recover_time = 0,
-		name = "【大世界】通用轻巡精英固定_塞壬轻型主炮",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 80,
-		damage = 6,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021601,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			20216010
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021611] = {
-		recover_time = 0,
-		name = "【大世界】白鹰轻巡精英专属_混合蛇形弹幕（海伦娜）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2200,
-		queue = 1,
-		range = 80,
-		damage = 16,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021611,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20216110,
-			20216110,
-			20216111,
-			20216111,
-			20216112,
-			20216112,
-			20216113,
-			20216113,
-			20216114,
-			20216114,
-			20216115,
-			20216115,
-			20216116,
-			20216116,
-			20216117,
-			20216117,
-			20216118,
-			20216118
-		},
-		barrage_ID = {
-			20216110,
-			20216111,
-			20216112,
-			20216113,
-			20216114,
-			20216115,
-			20216116,
-			20216117,
-			20216118,
-			20216119,
-			20216120,
-			20216121,
-			20216122,
-			20216123,
-			20216124,
-			20216125,
-			20216126,
-			20216127
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021613] = {
-		recover_time = 0,
-		name = "【大世界】白鹰轻巡精英专属_星星阵（圣地亚哥）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2200,
-		queue = 1,
-		range = 80,
-		damage = 10,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021613,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20216130,
-			20216130,
-			20216130,
-			20216130,
-			20216130
-		},
-		barrage_ID = {
-			20216130,
-			20216131,
-			20216132,
-			20216133,
-			20216134
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021614] = {
-		recover_time = 0,
-		name = "【大世界】白鹰轻巡精英专属_星幕（圣地亚哥）",
+		name = "【大世界】铁血战列强随机_穿甲重巡弹平射",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -283,7 +21,7 @@ pg.weapon_property_390 = {}
 		reload_max = 1600,
 		queue = 1,
 		range = 80,
-		damage = 10,
+		damage = 36,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -291,102 +29,18 @@ pg.weapon_property_390 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 2021614,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20216140,
-			20216141,
-			20216142,
-			20216143,
-			20216144,
-			20216145,
-			20216146,
-			20216147,
-			20216148,
-			20216149,
-			20216150,
-			20216140,
-			20216141,
-			20216142,
-			20216143,
-			20216144,
-			20216145,
-			20216146,
-			20216147,
-			20216148,
-			20216149,
-			20216150
-		},
-		barrage_ID = {
-			20216150,
-			20216151,
-			20216152,
-			20216153,
-			20216154,
-			20216155,
-			20216156,
-			20216157,
-			20216158,
-			20216159,
-			20216160,
-			20216161,
-			20216162,
-			20216163,
-			20216164,
-			20216165,
-			20216166,
-			20216167,
-			20216168,
-			20216169,
-			20216170,
-			20216171
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021620] = {
-		recover_time = 0,
-		name = "【大世界】白鹰轻巡精英专属_混合蛇形弹幕2（海伦娜）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1650,
-		queue = 1,
-		range = 80,
-		damage = 16,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021620,
+		id = 2024413,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
-			20216200,
-			20216201
+			20244130,
+			20244130,
+			20244130
 		},
 		barrage_ID = {
-			20216200,
-			20216201
+			20244130,
+			20244131,
+			20244132
 		},
 		oxy_type = {
 			1
@@ -396,171 +50,9 @@ pg.weapon_property_390 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_390[2021700] = {
-		recover_time = 0.5,
-		name = "【大世界】通用重巡精英固定_塞壬三联主炮",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2400,
-		queue = 1,
-		range = 80,
-		damage = 12,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 2021700,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20217001
-		},
-		barrage_ID = {
-			20217000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021711] = {
+	uv0.weapon_property_390[2024414] = {
 		recover_time = 0,
-		name = "【大世界】白鹰重巡精英随机_大将军之剑（威奇塔）",
-		shakescreen = 302,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 2250,
-		queue = 1,
-		range = 80,
-		damage = 32,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021711,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010,
-			20217010
-		},
-		barrage_ID = {
-			20217010,
-			20217011,
-			20217012,
-			20217013,
-			20217014,
-			20217015,
-			20217016,
-			20217017,
-			20217018,
-			20217019,
-			20217020,
-			20217021,
-			20217022,
-			20217023,
-			20217024,
-			20217025
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021712] = {
-		recover_time = 0.5,
-		name = "【大世界】白鹰重巡精英随机_副炮替换高爆弹幕（威奇塔）",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 900,
-		queue = 1,
-		range = 50,
-		damage = 8,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 110,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 2021712,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1006
-		},
-		barrage_ID = {
-			20217120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021800] = {
-		recover_time = 0,
-		name = "【大世界】通用战列精英固定_塞壬二联跨射炮",
+		name = "【大世界】铁血战列强随机_穿甲后排跨射",
 		shakescreen = 0,
 		type = 19,
 		torpedo_ammo = 0,
@@ -574,25 +66,25 @@ pg.weapon_property_390 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 40,
-		reload_max = 3600,
+		reload_max = 2800,
 		queue = 1,
 		range = 150,
-		damage = 60,
+		damage = 120,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
 		min_range = 75,
-		initial_over_heat = 1,
+		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 2021800,
+		id = 2024414,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			20218000
+			20244050
 		},
 		barrage_ID = {
-			20218000
+			20012
 		},
 		oxy_type = {
 			1
@@ -603,63 +95,13 @@ pg.weapon_property_390 = {}
 		precast_param = {
 			fx = "jinengenemy",
 			alertTime = 2,
-			time = 1
-		}
-	}
-	uv0.weapon_property_390[2021811] = {
-		recover_time = 0,
-		name = "【大世界】白鹰战列精英专属_塞壬二联跨射前排（俄克拉荷马）",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 80,
-		reload_max = 3600,
-		queue = 1,
-		range = 70,
-		damage = 72,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021811,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20218110,
-			20218111
-		},
-		barrage_ID = {
-			20218110,
-			20218111
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 0.6,
-			time = 0.5,
+			time = 1,
 			isBound = true
 		}
 	}
-	uv0.weapon_property_390[2021812] = {
+	uv0.weapon_property_390[2024611] = {
 		recover_time = 0,
-		name = "【大世界】白鹰战列精英随机_塞壬化英勇炮击上上下（华盛顿）",
+		name = "【大世界】铁血轻巡精英专属_鱼鱼出击（莱比锡）",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -673,803 +115,7 @@ pg.weapon_property_390 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 2000,
-		queue = 1,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021812,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20218121,
-			20218121,
-			20218121,
-			20218120,
-			20218120
-		},
-		barrage_ID = {
-			20218121,
-			20218122,
-			20218123,
-			20218124,
-			20218125
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021813] = {
-		recover_time = 0,
-		name = "【大世界】白鹰战列精英随机_塞壬化英勇炮击上下上（华盛顿）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2000,
-		queue = 1,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021813,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20218121,
-			20218121,
-			20218121,
-			20218120,
-			20218120
-		},
-		barrage_ID = {
-			20218121,
-			20218122,
-			20218123,
-			20218130,
-			20218131
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021814] = {
-		recover_time = 0,
-		name = "【大世界】白鹰战列精英随机_塞壬化英勇炮击下下上（华盛顿）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2000,
-		queue = 1,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021814,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20218121,
-			20218121,
-			20218121,
-			20218120,
-			20218120
-		},
-		barrage_ID = {
-			20218121,
-			20218122,
-			20218123,
-			20218140,
-			20218141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021815] = {
-		recover_time = 0,
-		name = "【大世界】白鹰战列精英随机_塞壬化英勇炮击下上下（华盛顿）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2000,
-		queue = 1,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021815,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20218121,
-			20218121,
-			20218121,
-			20218120,
-			20218120
-		},
-		barrage_ID = {
-			20218121,
-			20218122,
-			20218123,
-			20218150,
-			20218151
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021900] = {
-		recover_time = 5,
-		name = "【大世界】通用航母精英固定_塞壬战斗机",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 360,
-		reload_max = 2200,
-		queue = 1,
-		range = 100,
-		damage = 36,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 2021900,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			30019
-		},
-		barrage_ID = {
-			12014
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021901] = {
-		recover_time = 0,
-		name = "【大世界】通用航母精英固定_塞壬战斗机自机狙武器",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 180,
-		reload_max = 400,
-		queue = 1,
-		range = 85,
-		damage = 4,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		id = 2021901,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
-		},
-		barrage_ID = {
-			101,
-			102,
-			103,
-			104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021911] = {
-		recover_time = 0,
-		name = "【大世界】白鹰航母精英专属_舰炮掩护（萨拉托加）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2000,
-		queue = 1,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021911,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20219110
-		},
-		barrage_ID = {
-			20219110
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021912] = {
-		recover_time = 0,
-		name = "【大世界】白鹰航母精英专属_间歇航空弹幕（萨拉托加）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2400,
-		queue = 3,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021912,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20219120
-		},
-		barrage_ID = {
-			20219120
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021913] = {
-		recover_time = 0,
-		name = "【大世界】白鹰航母精英专属_间歇航空弹幕（大黄蜂）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1600,
-		queue = 3,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021913,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20219130,
-			20219130
-		},
-		barrage_ID = {
-			20219130,
-			20219131
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021914] = {
-		recover_time = 0,
-		name = "【大世界】白鹰航母精英专属_黄蜂突袭（大黄蜂）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1450,
-		queue = 4,
-		range = 80,
-		damage = 16,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021914,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20219140,
-			20219141,
-			20219142,
-			20219140,
-			20219141,
-			20219142,
-			20219140,
-			20219141,
-			20219142,
-			20219140,
-			20219141,
-			20219142
-		},
-		barrage_ID = {
-			20219140,
-			20219141,
-			20219142,
-			20219143,
-			20219144,
-			20219145,
-			20219146,
-			20219147,
-			20219148,
-			20219149,
-			20219150,
-			20219151
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021916] = {
-		recover_time = 0,
-		name = "【大世界】白鹰航母精英专属_野蜂飞舞（大黄蜂）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1850,
-		queue = 4,
-		range = 80,
-		damage = 16,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021916,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219160,
-			20219161,
-			20219162,
-			20219163,
-			20219162,
-			20219161,
-			20219161,
-			20219162,
-			20219163,
-			20219162,
-			20219161,
-			20219161,
-			20219162,
-			20219163,
-			20219162,
-			20219161,
-			20219161,
-			20219162,
-			20219163,
-			20219162,
-			20219161,
-			20219161,
-			20219162,
-			20219163,
-			20219162,
-			20219161,
-			20219161,
-			20219162,
-			20219163,
-			20219162,
-			20219161,
-			20219161,
-			20219162,
-			20219163,
-			20219162,
-			20219161
-		},
-		barrage_ID = {
-			20219160,
-			20219161,
-			20219162,
-			20219163,
-			20219164,
-			20219165,
-			20219166,
-			20219167,
-			20219168,
-			20219169,
-			20219170,
-			20219171,
-			20219172,
-			20219173,
-			20219174,
-			20219175,
-			20219176,
-			20219177,
-			20219178,
-			20219179,
-			20219180,
-			20219181,
-			20219182,
-			20219183,
-			20219184,
-			20219185,
-			20219186,
-			20219187,
-			20219188,
-			20219189,
-			20219190,
-			20219200,
-			20219201,
-			20219202,
-			20219203,
-			20219204,
-			20219205,
-			20219206,
-			20219207,
-			20219208,
-			20219209,
-			20219210,
-			20219211,
-			20219212,
-			20219213,
-			20219214,
-			20219215,
-			20219216,
-			20219217,
-			20219218,
-			20219219,
-			20219220,
-			20219221,
-			20219222,
-			20219223,
-			20219224,
-			20219225,
-			20219226,
-			20219227,
-			20219228,
-			20219229,
-			20219230,
-			20219231,
-			20219232,
-			20219233,
-			20219234
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2021920] = {
-		recover_time = 0,
-		name = "【大世界】白鹰航母精英专属_爱心发射（萨拉托加）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1250,
-		queue = 1,
-		range = 80,
-		damage = 10,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2021920,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20219200,
-			20219201,
-			20219202,
-			20219203,
-			20219204,
-			20219205,
-			20219206,
-			20219207,
-			20219208,
-			20219209,
-			20219210,
-			20219211,
-			20219212,
-			20219200,
-			20219201,
-			20219202,
-			20219203,
-			20219204,
-			20219205,
-			20219206,
-			20219207,
-			20219208,
-			20219209,
-			20219210,
-			20219211,
-			20219212,
-			20219200,
-			20219201,
-			20219202,
-			20219203,
-			20219204,
-			20219205,
-			20219206,
-			20219207,
-			20219208,
-			20219209,
-			20219210,
-			20219211,
-			20219212
-		},
-		barrage_ID = {
-			20219300,
-			20219301,
-			20219302,
-			20219303,
-			20219304,
-			20219305,
-			20219306,
-			20219307,
-			20219308,
-			20219309,
-			20219310,
-			20219311,
-			20219312,
-			20219313,
-			20219314,
-			20219315,
-			20219316,
-			20219317,
-			20219318,
-			20219319,
-			20219320,
-			20219321,
-			20219322,
-			20219323,
-			20219324,
-			20219325,
-			20219326,
-			20219327,
-			20219328,
-			20219329,
-			20219330,
-			20219331,
-			20219332,
-			20219333,
-			20219334,
-			20219335,
-			20219336,
-			20219337,
-			20219338
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022001] = {
-		recover_time = 0,
-		name = "【大世界】皇家驱逐普通随机_普通驱逐弹穿透弹瞄准弹幕1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
+		reload_max = 3000,
 		queue = 1,
 		range = 80,
 		damage = 8,
@@ -1480,16 +126,76 @@ pg.weapon_property_390 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 2022001,
+		id = 2024611,
 		attack_attribute_ratio = 100,
-		aim_type = 1,
+		aim_type = 0,
 		bullet_ID = {
-			20220010,
-			20220011
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246111,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246111,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246111,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246110,
+			20246111
 		},
 		barrage_ID = {
-			20220010,
-			20220011
+			20246110,
+			20246111,
+			20246112,
+			20246113,
+			20246114,
+			20246115,
+			20246116,
+			20246117,
+			20246118,
+			20246119,
+			20246120,
+			20246121,
+			20246122,
+			20246123,
+			20246124,
+			20246125,
+			20246126,
+			20246127,
+			20246128,
+			20246129,
+			20246130,
+			20246131,
+			20246132,
+			20246133,
+			20246134,
+			20246135,
+			20246136,
+			20246137,
+			20246138,
+			20246139,
+			20246140,
+			20246141
 		},
 		oxy_type = {
 			1
@@ -1499,9 +205,9 @@ pg.weapon_property_390 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_390[2022002] = {
+	uv0.weapon_property_390[2024615] = {
 		recover_time = 0,
-		name = "【大世界】皇家驱逐普通随机_普通驱逐弹穿透弹瞄准弹幕2",
+		name = "【大世界】铁血轻巡精英专属_双鱼交错（莱比锡）",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -1515,7 +221,7 @@ pg.weapon_property_390 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 1200,
+		reload_max = 2450,
 		queue = 1,
 		range = 80,
 		damage = 8,
@@ -1523,721 +229,79 @@ pg.weapon_property_390 = {}
 		auto_aftercast = 0,
 		corrected = 100,
 		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022002,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20220010,
-			20220011
-		},
-		barrage_ID = {
-			20220020,
-			20220021
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022101] = {
-		recover_time = 0,
-		name = "【大世界】皇家轻巡普通随机_穿透弹瞄准弹幕1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 80,
-		damage = 8,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022101,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20221011,
-			20221011
-		},
-		barrage_ID = {
-			20221010,
-			20221011
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022102] = {
-		recover_time = 0,
-		name = "【大世界】皇家轻巡普通随机_普通轻巡弹瞄准弹幕1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 80,
-		damage = 8,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022102,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20221010,
-			20221010,
-			20221010
-		},
-		barrage_ID = {
-			20221020,
-			20221021,
-			20221022
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022201] = {
-		recover_time = 0,
-		name = "【大世界】皇家重巡普通随机_普通重巡弹平射弹幕1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022201,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20222010,
-			20222010
-		},
-		barrage_ID = {
-			20212010,
-			20222011
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022202] = {
-		recover_time = 0,
-		name = "【大世界】皇家重巡普通随机_普通重巡弹穿透弹平射弹幕2",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022202,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20222010,
-			20222011
-		},
-		barrage_ID = {
-			20222020,
-			20222021
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022301] = {
-		recover_time = 0,
-		name = "【大世界】皇家战列普通随机_普通战列弹跨射前排1",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 80,
-		reload_max = 2400,
-		queue = 1,
-		range = 70,
-		damage = 30,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022301,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20223010
-		},
-		barrage_ID = {
-			20223010
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_390[2022302] = {
-		recover_time = 0,
-		name = "【大世界】皇家战列普通随机_普通战列弹平射弹幕1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2000,
-		queue = 1,
-		range = 80,
-		damage = 30,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022302,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20223020,
-			20223021,
-			20223021
-		},
-		barrage_ID = {
-			20223020,
-			20223021,
-			20223022
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022401] = {
-		recover_time = 0,
-		name = "【大世界】皇家航母普通随机_驱逐高爆弹投射",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 2400,
-		queue = 1,
-		range = 90,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 2022401,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20224010
-		},
-		barrage_ID = {
-			20224010
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_390[2022611] = {
-		recover_time = 0,
-		name = "【大世界】皇家轻巡精英专属_火焰羽衣（贝尔法斯特）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1800,
-		queue = 4,
-		range = 60,
-		damage = 16,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
 		initial_over_heat = 1,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 2022611,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111,
-			20226111
-		},
-		barrage_ID = {
-			20226110,
-			20226111,
-			20226112,
-			20226113,
-			20226114,
-			20226115,
-			20226116,
-			20226117,
-			20226118,
-			20226119,
-			20226120,
-			20226121,
-			20226122,
-			20226123,
-			20226124,
-			20226125,
-			20226126,
-			20226127,
-			20226128,
-			20226129,
-			20226130,
-			20226131,
-			20226132,
-			20226133,
-			20226134,
-			20226135,
-			20226136,
-			20226137,
-			20226138,
-			20226139,
-			20226140,
-			20226141,
-			20226142,
-			20226143,
-			20226144,
-			20226145
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022612] = {
-		recover_time = 0,
-		name = "【大世界】皇家轻巡精英专属_高爆炮（贝尔法斯特）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1050,
-		queue = 1,
-		range = 80,
-		damage = 12,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022612,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20226121,
-			20226120
-		},
-		barrage_ID = {
-			20226160,
-			20226161
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022711] = {
-		recover_time = 0,
-		name = "【大世界】皇家重巡精英专属_冰爆术（诺福克）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2000,
-		queue = 1,
-		range = 80,
-		damage = 12,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022711,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20227110
-		},
-		barrage_ID = {
-			20227110
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022811] = {
-		recover_time = 0,
-		name = "【大世界】皇家战列精英专属_皇家组合弹幕（胡德）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2050,
-		queue = 1,
-		range = 80,
-		damage = 20,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022811,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20228110,
-			20228111,
-			20228112,
-			20228112,
-			20228113,
-			20228114,
-			20228115
-		},
-		barrage_ID = {
-			20228110,
-			20228111,
-			20228112,
-			20228113,
-			20228114,
-			20228110,
-			20228111
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022821] = {
-		recover_time = 0.5,
-		name = "【大世界】皇家战列精英专属_近身鱼雷四连发（罗德尼）",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 30,
-		reload_max = 1850,
-		queue = 1,
-		range = 40,
-		damage = 36,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 2022821,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20228210
-		},
-		barrage_ID = {
-			20228210
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022822] = {
-		recover_time = 0,
-		name = "【大世界】皇家战列精英专属_BigSeven（罗德尼）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1650,
-		queue = 1,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022822,
+		id = 2024615,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
-			20228220,
-			20228220,
-			20228220,
-			20228220,
-			20228220,
-			20228220,
-			20228221,
-			20228221,
-			20228221,
-			20228221,
-			20228221,
-			20228221
+			20246150,
+			20246150,
+			20246150,
+			20246150,
+			20246150,
+			20246150,
+			20246150,
+			20246150,
+			20246151,
+			20246151,
+			20246151,
+			20246151,
+			20246151,
+			20246151,
+			20246151,
+			20246151,
+			20246152,
+			20246152,
+			20246152,
+			20246152,
+			20246152,
+			20246152,
+			20246152,
+			20246152,
+			20246153,
+			20246153,
+			20246153,
+			20246153,
+			20246153,
+			20246153,
+			20246153,
+			20246153
 		},
 		barrage_ID = {
-			20228220,
-			20228221,
-			20228222,
-			20228223,
-			20228224,
-			20228225,
-			20228230,
-			20228231,
-			20228232,
-			20228233,
-			20228234,
-			20228235
+			20246150,
+			20246151,
+			20246152,
+			20246153,
+			20246154,
+			20246155,
+			20246156,
+			20246157,
+			20246158,
+			20246159,
+			20246160,
+			20246161,
+			20246162,
+			20246163,
+			20246164,
+			20246165,
+			20246166,
+			20246167,
+			20246168,
+			20246169,
+			20246170,
+			20246171,
+			20246172,
+			20246173,
+			20246174,
+			20246175,
+			20246176,
+			20246177,
+			20246178,
+			20246179,
+			20246180,
+			20246181
 		},
 		oxy_type = {
 			1
@@ -2247,9 +311,9 @@ pg.weapon_property_390 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_390[2022831] = {
+	uv0.weapon_property_390[2024619] = {
 		recover_time = 0,
-		name = "【大世界】皇家战列精英专属_吸血鬼幻想（约克公爵）",
+		name = "【大世界】铁血轻巡精英专属_鱼型穿甲（莱比锡）",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2259,442 +323,6 @@ pg.weapon_property_390 = {}
 		axis_angle = 0,
 		fire_fx_loop_type = 1,
 		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2400,
-		queue = 1,
-		range = 80,
-		damage = 20,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022831,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20228310,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311,
-			20228311
-		},
-		barrage_ID = {
-			20228310,
-			20228311,
-			20228312,
-			20228313,
-			20228314,
-			20228315,
-			20228316,
-			20228317,
-			20228318,
-			20228319,
-			20228320,
-			20228321,
-			20228322,
-			20228323,
-			20228324,
-			20228325,
-			20228326,
-			20228327,
-			20228328,
-			20228329,
-			20228330,
-			20228331,
-			20228332,
-			20228333,
-			20228334
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022835] = {
-		recover_time = 0,
-		name = "【大世界】皇家战列精英专属_主炮速射（约克公爵）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1650,
-		queue = 1,
-		range = 100,
-		damage = 16,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 2022835,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20228350,
-			20228350,
-			20228350
-		},
-		barrage_ID = {
-			20020020,
-			20020021,
-			20020022
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022911] = {
-		recover_time = 0,
-		name = "【大世界】皇家航母精英专属_胜利女神的橄榄枝（胜利）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2000,
-		queue = 1,
-		range = 80,
-		damage = 48,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022911,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110,
-			20229110
-		},
-		barrage_ID = {
-			20229110,
-			20229111,
-			20229112,
-			20229113,
-			20229114,
-			20229115,
-			20229116,
-			20229117,
-			20229118,
-			20229122,
-			20229123,
-			20229124,
-			20229125,
-			20229126,
-			20229127,
-			20229128,
-			20229129,
-			20229130,
-			20229134,
-			20229135,
-			20229136,
-			20229137,
-			20229138,
-			20229139,
-			20229140,
-			20229141,
-			20229142,
-			20229146,
-			20229147,
-			20229148,
-			20229149,
-			20229150,
-			20229151,
-			20229152,
-			20229153,
-			20229154
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022917] = {
-		recover_time = 0.5,
-		name = "【大世界】皇家航母精英专属_剑鱼小队（胜利）",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 90,
-		reload_max = 1000,
-		queue = 3,
-		range = 90,
-		damage = 68,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		id = 2022917,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			30019
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022918] = {
-		recover_time = 0,
-		name = "【大世界】皇家航母精英专属_剑鱼小队飞机武器（胜利）",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 5000,
-		queue = 1,
-		range = 90,
-		damage = 60,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 2022918,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20229180
-		},
-		barrage_ID = {
-			20229180
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022921] = {
-		recover_time = 0.5,
-		name = "【大世界】皇家航母精英专属_剑鱼出击（皇家方舟）",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 90,
-		reload_max = 1800,
-		queue = 1,
-		range = 90,
-		damage = 68,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		id = 2022921,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			2022921
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022922] = {
-		recover_time = 0,
-		name = "【大世界】皇家航母精英专属_剑鱼出击飞机武器（皇家方舟）",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 80,
-		reload_max = 5000,
-		queue = 1,
-		range = 90,
-		damage = 68,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 2022922,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20229220,
-			20229220,
-			20229220,
-			20229220
-		},
-		barrage_ID = {
-			20229220,
-			20229221,
-			20229222,
-			20229223
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2022923] = {
-		recover_time = 0,
-		name = "【大世界】皇家航母精英专属_护体炮（皇家方舟）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
 		expose = 0,
 		search_type = 1,
 		effect_move = 0,
@@ -2702,6 +330,66 @@ pg.weapon_property_390 = {}
 		reload_max = 950,
 		queue = 1,
 		range = 80,
+		damage = 5,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2024619,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20246190,
+			20246190,
+			20246190,
+			20246190,
+			20246190,
+			20246190,
+			20246190,
+			20246190,
+			20246190
+		},
+		barrage_ID = {
+			20246190,
+			20246191,
+			20246192,
+			20246193,
+			20246194,
+			20246195,
+			20246196,
+			20246197,
+			20246198
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2024711] = {
+		recover_time = 0,
+		name = "【大世界】铁血重巡精英专属_主炮替换欧根炮（欧根亲王）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1250,
+		queue = 1,
+		range = 80,
 		damage = 16,
 		suppress = 1,
 		auto_aftercast = 0,
@@ -2710,24 +398,14 @@ pg.weapon_property_390 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 2022923,
+		id = 2024711,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			20229230,
-			20229231,
-			20229232,
-			20229233,
-			20229230,
-			20229231
+			1412
 		},
 		barrage_ID = {
-			20229230,
-			20229231,
-			20229232,
-			20229233,
-			20229234,
-			20229235
+			20247110
 		},
 		oxy_type = {
 			1
@@ -2737,87 +415,13 @@ pg.weapon_property_390 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_390[2022924] = {
+	uv0.weapon_property_390[2024712] = {
 		recover_time = 0,
-		name = "【大世界】皇家航母精英专属_方形结界弹幕（皇家方舟）",
+		name = "【大世界】铁血重巡精英专属_吃手手（欧根亲王）",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2050,
-		queue = 1,
-		range = 80,
-		damage = 12,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2022924,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20299240,
-			20299240,
-			20299240,
-			20299240,
-			20299240,
-			20299240,
-			20299240,
-			20299240,
-			20299241,
-			20299241,
-			20299241,
-			20299241,
-			20299241,
-			20299241,
-			20299241,
-			20299241
-		},
-		barrage_ID = {
-			20229240,
-			20229241,
-			20229242,
-			20229243,
-			20229244,
-			20229245,
-			20229246,
-			20229247,
-			20229248,
-			20229249,
-			20229250,
-			20229251,
-			20229252,
-			20229253,
-			20229254,
-			20229255
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2023001] = {
-		recover_time = 0,
-		name = "【大世界】重樱驱逐普通随机_高爆弹瞄准弹幕1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
+		fire_fx = "CAFire",
 		action_index = "attack",
 		charge_param = "",
 		axis_angle = 0,
@@ -2827,10 +431,10 @@ pg.weapon_property_390 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 1200,
+		reload_max = 1500,
 		queue = 1,
-		range = 80,
-		damage = 6,
+		range = 32,
+		damage = 52,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2838,152 +442,28 @@ pg.weapon_property_390 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 2023001,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20230010
-		},
-		barrage_ID = {
-			20230010
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2023002] = {
-		recover_time = 0,
-		name = "【大世界】重樱驱逐普通随机_高爆弹瞄准弹幕2",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 80,
-		damage = 6,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2023002,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20230010
-		},
-		barrage_ID = {
-			20230020
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2023101] = {
-		recover_time = 0,
-		name = "【大世界】重樱轻巡普通随机_普通轻巡弹高爆弹瞄准弹幕1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 80,
-		damage = 8,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2023101,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20231011,
-			20231011,
-			20231010,
-			20231010
-		},
-		barrage_ID = {
-			20231010,
-			20231011,
-			20231012,
-			20231013
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2023102] = {
-		recover_time = 0,
-		name = "【大世界】重樱轻巡普通随机_高爆弹平射弹幕1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 80,
-		damage = 8,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2023102,
+		id = 2024712,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
-			20231010
+			20247120,
+			20247121,
+			20247122,
+			20247123,
+			20247124,
+			20247125,
+			20247126,
+			20247127
 		},
 		barrage_ID = {
-			20231020
+			20247120,
+			20247121,
+			20247122,
+			20247123,
+			20247124,
+			20247125,
+			20247126,
+			20247127
 		},
 		oxy_type = {
 			1
@@ -2993,103 +473,9 @@ pg.weapon_property_390 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_390[2023201] = {
-		recover_time = 0,
-		name = "【大世界】重樱重巡普通随机_重巡高爆弹平射弹幕1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2023201,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20232010,
-			20232010
-		},
-		barrage_ID = {
-			20232010,
-			20232011
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2023202] = {
-		recover_time = 0,
-		name = "【大世界】重樱重巡普通随机_重巡高爆弹平射弹幕2",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 80,
-		damage = 24,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2023202,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			20232010,
-			20232010,
-			20232010
-		},
-		barrage_ID = {
-			20232020,
-			20232021,
-			20232022
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_390[2023301] = {
-		recover_time = 0,
-		name = "【大世界】重樱战列普通随机_战列高爆弹跨射前排1",
+	uv0.weapon_property_390[2024714] = {
+		recover_time = 0.5,
+		name = "【大世界】铁血重巡精英专属_主炮替换跨射炮（德意志）",
 		shakescreen = 0,
 		type = 19,
 		torpedo_ammo = 0,
@@ -3103,10 +489,10 @@ pg.weapon_property_390 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 80,
-		reload_max = 2400,
+		reload_max = 1750,
 		queue = 1,
 		range = 70,
-		damage = 30,
+		damage = 16,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -3114,18 +500,14 @@ pg.weapon_property_390 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 2023301,
+		id = 2024714,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			20233010,
-			20233011,
-			20233012
+			20247140
 		},
 		barrage_ID = {
-			20233010,
-			20233010,
-			20233010
+			20247140
 		},
 		oxy_type = {
 			1
@@ -3140,9 +522,159 @@ pg.weapon_property_390 = {}
 			isBound = true
 		}
 	}
-	uv0.weapon_property_390[2023302] = {
+	uv0.weapon_property_390[2024715] = {
 		recover_time = 0,
-		name = "【大世界】重樱战列普通随机_普通战列弹平射弹幕1",
+		name = "【大世界】铁血重巡精英专属_平射霰弹（德意志）",
+		shakescreen = 302,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1800,
+		queue = 1,
+		range = 80,
+		damage = 20,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2024715,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20247150,
+			20247150,
+			20247151,
+			20247151,
+			20247151
+		},
+		barrage_ID = {
+			20247150,
+			20247151,
+			20247152,
+			20247153,
+			20247154
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2024716] = {
+		recover_time = 0,
+		name = "【大世界】铁血重巡精英专属_收束霰弹（德意志）",
+		shakescreen = 302,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2600,
+		queue = 1,
+		range = 80,
+		damage = 20,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2024716,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20247150,
+			20247150,
+			20247151
+		},
+		barrage_ID = {
+			20247160,
+			20247161,
+			20247162
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2024717] = {
+		recover_time = 0,
+		name = "【大世界】铁血重巡精英专属_狙击霰弹（德意志）",
+		shakescreen = 302,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 3200,
+		queue = 1,
+		range = 80,
+		damage = 20,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2024717,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20247150,
+			20247150,
+			20247151,
+			20247151
+		},
+		barrage_ID = {
+			20247170,
+			20247171,
+			20247172,
+			20247173
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2024720] = {
+		recover_time = 0,
+		name = "【大世界】铁血重巡精英专属_方阵弹幕（欧根亲王）",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -3156,10 +688,10 @@ pg.weapon_property_390 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 2000,
+		reload_max = 3000,
 		queue = 1,
 		range = 80,
-		damage = 30,
+		damage = 12,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -3167,18 +699,292 @@ pg.weapon_property_390 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 2023302,
+		id = 2024720,
 		attack_attribute_ratio = 100,
-		aim_type = 0,
+		aim_type = 1,
 		bullet_ID = {
-			20223020,
-			20223021,
-			20223021
+			20030500,
+			20030501,
+			20030502,
+			20030503,
+			20030504,
+			20030505,
+			20030506,
+			20030507,
+			20030508,
+			20030509,
+			20030510,
+			20030501,
+			20030502,
+			20030503,
+			20030504,
+			20030505,
+			20030506,
+			20030507,
+			20030508,
+			20030509,
+			20030500,
+			20030501,
+			20030502,
+			20030503,
+			20030504,
+			20030505,
+			20030506,
+			20030507,
+			20030508,
+			20030509,
+			20030510,
+			20030501,
+			20030502,
+			20030503,
+			20030504,
+			20030505,
+			20030506,
+			20030507,
+			20030508,
+			20030509,
+			20030500,
+			20030501,
+			20030502,
+			20030503,
+			20030504,
+			20030505,
+			20030506,
+			20030507,
+			20030508,
+			20030509,
+			20030510,
+			20030501,
+			20030502,
+			20030503,
+			20030504,
+			20030505,
+			20030506,
+			20030507,
+			20030508,
+			20030509,
+			20030520,
+			20030521,
+			20030522,
+			20030523,
+			20030524,
+			20030525,
+			20030526,
+			20030527,
+			20030528,
+			20030529,
+			20030530,
+			20030521,
+			20030522,
+			20030523,
+			20030524,
+			20030525,
+			20030526,
+			20030527,
+			20030528,
+			20030529,
+			20030520,
+			20030521,
+			20030522,
+			20030523,
+			20030524,
+			20030525,
+			20030526,
+			20030527,
+			20030528,
+			20030529,
+			20030530,
+			20030521,
+			20030522,
+			20030523,
+			20030524,
+			20030525,
+			20030526,
+			20030527,
+			20030528,
+			20030529,
+			20030520,
+			20030521,
+			20030522,
+			20030523,
+			20030524,
+			20030525,
+			20030526,
+			20030527,
+			20030528,
+			20030529,
+			20030530,
+			20030521,
+			20030522,
+			20030523,
+			20030524,
+			20030525,
+			20030526,
+			20030527,
+			20030528,
+			20030529,
+			20030520,
+			20030521,
+			20030522,
+			20030523,
+			20030524,
+			20030525,
+			20030526,
+			20030527,
+			20030528,
+			20030529,
+			20030530,
+			20030521,
+			20030522,
+			20030523,
+			20030524,
+			20030525,
+			20030526,
+			20030527,
+			20030528,
+			20030529
 		},
 		barrage_ID = {
-			20223020,
-			20223021,
-			20223022
+			20030500,
+			20030501,
+			20030502,
+			20030503,
+			20030504,
+			20030505,
+			20030506,
+			20030507,
+			20030508,
+			20030509,
+			20030510,
+			20030511,
+			20030512,
+			20030513,
+			20030514,
+			20030515,
+			20030516,
+			20030517,
+			20030518,
+			20030519,
+			20030520,
+			20030521,
+			20030522,
+			20030523,
+			20030524,
+			20030525,
+			20030526,
+			20030527,
+			20030528,
+			20030529,
+			20030530,
+			20030531,
+			20030532,
+			20030533,
+			20030534,
+			20030535,
+			20030536,
+			20030537,
+			20030538,
+			20030539,
+			20030540,
+			20030541,
+			20030542,
+			20030543,
+			20030544,
+			20030545,
+			20030546,
+			20030547,
+			20030548,
+			20030549,
+			20030550,
+			20030551,
+			20030552,
+			20030553,
+			20030554,
+			20030555,
+			20030556,
+			20030557,
+			20030558,
+			20030559,
+			20030560,
+			20030561,
+			20030562,
+			20030563,
+			20030564,
+			20030565,
+			20030566,
+			20030567,
+			20030568,
+			20030569,
+			20030570,
+			20030571,
+			20030572,
+			20030573,
+			20030574,
+			20030575,
+			20030576,
+			20030577,
+			20030578,
+			20030579,
+			20030580,
+			20030581,
+			20030582,
+			20030583,
+			20030584,
+			20030585,
+			20030586,
+			20030587,
+			20030588,
+			20030589,
+			20030590,
+			20030591,
+			20030592,
+			20030593,
+			20030594,
+			20030595,
+			20030596,
+			20030597,
+			20030598,
+			20030599,
+			20030600,
+			20030601,
+			20030602,
+			20030603,
+			20030604,
+			20030605,
+			20030606,
+			20030607,
+			20030608,
+			20030609,
+			20030610,
+			20030611,
+			20030612,
+			20030613,
+			20030614,
+			20030615,
+			20030616,
+			20030617,
+			20030618,
+			20030619,
+			20030620,
+			20030621,
+			20030622,
+			20030623,
+			20030624,
+			20030625,
+			20030626,
+			20030627,
+			20030628,
+			20030629,
+			20030630,
+			20030631,
+			20030632,
+			20030633,
+			20030634,
+			20030635,
+			20030636,
+			20030637,
+			20030638,
+			20030639
 		},
 		oxy_type = {
 			1
@@ -3188,9 +994,9 @@ pg.weapon_property_390 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_390[2023401] = {
-		recover_time = 0,
-		name = "【大世界】重樱航母普通随机_驱逐高爆弹投射",
+	uv0.weapon_property_390[2024811] = {
+		recover_time = 0.5,
+		name = "【大世界】铁血战列精英专属_狙击手（沙恩霍斯特）",
 		shakescreen = 0,
 		type = 19,
 		torpedo_ammo = 0,
@@ -3199,30 +1005,38 @@ pg.weapon_property_390 = {}
 		charge_param = "",
 		axis_angle = 0,
 		fire_fx_loop_type = 1,
-		attack_attribute = 4,
+		attack_attribute = 1,
 		expose = 0,
 		search_type = 1,
 		effect_move = 0,
-		angle = 120,
-		reload_max = 2400,
+		angle = 80,
+		reload_max = 1950,
 		queue = 1,
-		range = 90,
-		damage = 24,
+		range = 75,
+		damage = 16,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
-		min_range = 0,
+		min_range = 30,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 2023401,
+		fire_sfx = "battle/cannon-main",
+		id = 2024811,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			20224010
+			20248110,
+			20248110,
+			20248110,
+			20248110,
+			20248110
 		},
 		barrage_ID = {
-			20224010
+			20248110,
+			20248111,
+			20248112,
+			20248113,
+			20248114
 		},
 		oxy_type = {
 			1
@@ -3232,14 +1046,1477 @@ pg.weapon_property_390 = {}
 		},
 		precast_param = {
 			fx = "jinengenemy",
-			alertTime = 1,
+			alertTime = 0.3,
 			time = 0.5,
 			isBound = true
 		}
 	}
-	uv0.weapon_property_390[2023611] = {
+	uv0.weapon_property_390[2024812] = {
 		recover_time = 0,
-		name = "【大世界】重樱轻巡精英专属_八卦阵（神通）",
+		name = "【大世界】铁血战列精英专属_交错穿甲弹（沙恩霍斯特）",
+		shakescreen = 302,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 3000,
+		queue = 1,
+		range = 80,
+		damage = 28,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2024812,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20248121,
+			20248120,
+			20248121,
+			20248120,
+			20248121,
+			20248120,
+			20248121,
+			20248120,
+			20248121
+		},
+		barrage_ID = {
+			20248120,
+			20248121,
+			20248122,
+			20248123,
+			20248124,
+			20248125,
+			20248126,
+			20248127,
+			20248128
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2024813] = {
+		recover_time = 0.5,
+		name = "【大世界】铁血战列精英专属_四联磁雷（提尔比茨）",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1650,
+		queue = 2,
+		range = 100,
+		damage = 16,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2024813,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20248130
+		},
+		barrage_ID = {
+			20248130
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2024814] = {
+		recover_time = 0.5,
+		name = "【大世界】铁血战列精英专属_后排二层跨射（提尔比茨）",
+		shakescreen = 0,
+		type = 19,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2800,
+		queue = 1,
+		range = 150,
+		damage = 24,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 75,
+		initial_over_heat = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2024814,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20248140,
+			20248141
+		},
+		barrage_ID = {
+			20248140,
+			20248141
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 0.3,
+			time = 0.5,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_390[2024815] = {
+		recover_time = 0,
+		name = "【大世界】铁血战列精英专属_前排多次跨射（提尔比茨）",
+		shakescreen = 0,
+		type = 19,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2200,
+		queue = 1,
+		range = 600,
+		damage = 24,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 100,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2024815,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20248150,
+			20248151,
+			20248152,
+			20248153,
+			20248154,
+			20248155,
+			20248156,
+			20248160,
+			20248161,
+			20248162,
+			20248163,
+			20248164,
+			20248165,
+			20248166
+		},
+		barrage_ID = {
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 1.5,
+			time = 1
+		}
+	}
+	uv0.weapon_property_390[2024818] = {
+		recover_time = 0,
+		name = "【大世界】铁血战列精英专属_前排多次跨射（提尔比茨）",
+		shakescreen = 0,
+		type = 19,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1850,
+		queue = 1,
+		range = 600,
+		damage = 24,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 100,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2024818,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20248180,
+			20248181,
+			20248182,
+			20248183,
+			20248184,
+			20248185,
+			20248186,
+			20248187,
+			20248188,
+			20248189,
+			20248190,
+			20248191,
+			20248192
+		},
+		barrage_ID = {
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150,
+			20248150
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 1.5,
+			time = 1
+		}
+	}
+	uv0.weapon_property_390[2024820] = {
+		recover_time = 0,
+		name = "【大世界】铁血战列精英专属_护体弹幕（提尔比茨）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 180,
+		reload_max = 1250,
+		queue = 2,
+		range = 40,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2024820,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20248200,
+			20248201,
+			20248202,
+			20248203,
+			20248204,
+			20248205,
+			20248206,
+			20248205,
+			20248204,
+			20248203,
+			20248202,
+			20248201,
+			20248200,
+			20248200,
+			20248201,
+			20248202,
+			20248203,
+			20248204,
+			20248205,
+			20248206,
+			20248205,
+			20248204,
+			20248203,
+			20248202,
+			20248201,
+			20248200
+		},
+		barrage_ID = {
+			20248200,
+			20248201,
+			20248202,
+			20248203,
+			20248204,
+			20248205,
+			20248206,
+			20248207,
+			20248208,
+			20248209,
+			20248210,
+			20248211,
+			20248212,
+			20248213,
+			20248214,
+			20248215,
+			20248216,
+			20248217,
+			20248218,
+			20248219,
+			20248220,
+			20248221,
+			20248222,
+			20248223,
+			20248224,
+			20248225
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2024911] = {
+		recover_time = 0,
+		name = "【大世界】铁血航母精英专属_憎恶之锁链（齐柏林）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 3550,
+		queue = 2,
+		range = 80,
+		damage = 10,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2024911,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20249110,
+			20249111,
+			20249112,
+			20249113,
+			20249114,
+			20249120,
+			20249121,
+			20249122,
+			20249123
+		},
+		barrage_ID = {
+			20249110,
+			20249111,
+			20249112,
+			20249113,
+			20249114,
+			20249130,
+			20249131,
+			20249132,
+			20249133
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2024920] = {
+		recover_time = 0,
+		name = "【大世界】铁血航母精英专属_邪恶之触（齐柏林）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1800,
+		queue = 1,
+		range = 80,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2024920,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20249200,
+			20249201,
+			20249202,
+			20249200,
+			20249201,
+			20249202
+		},
+		barrage_ID = {
+			20249200,
+			20249200,
+			20249200,
+			20249201,
+			20249201,
+			20249201
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029400] = {
+		recover_time = 0,
+		name = "【大世界】塞壬侵扰者通用_电击",
+		shakescreen = 0,
+		type = 17,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 200,
+		queue = 5,
+		range = 28,
+		damage = 6,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "lighting",
+		fire_sfx = "",
+		id = 2029400,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			690021
+		},
+		barrage_ID = {
+			690081
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029401] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬侵扰者通用_三重鱼雷",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2400,
+		queue = 2,
+		range = 999,
+		damage = 22,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 2029401,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			690020,
+			690020,
+			690020
+		},
+		barrage_ID = {
+			690060,
+			690061,
+			690063
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029402] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬侵扰者通用_副炮封锁",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 800,
+		queue = 1,
+		range = 999,
+		damage = 3,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029402,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			811,
+			811,
+			811,
+			811,
+			811
+		},
+		barrage_ID = {
+			690064,
+			690065,
+			690066,
+			690067,
+			690068
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029403] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬侵扰者通用_锥形轨道弹幕",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2800,
+		queue = 3,
+		range = 999,
+		damage = 10,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029403,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			690015,
+			690017,
+			690019
+		},
+		barrage_ID = {
+			690069,
+			690071,
+			690073
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029404] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬侵扰者通用_半扫射弹幕",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 9999,
+		queue = 2,
+		range = 999,
+		damage = 31,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 2029404,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			690009,
+			690009
+		},
+		barrage_ID = {
+			690132,
+			690133
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029500] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬驱逐精英通用_常驻护体武器（探索者）",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 4000,
+		queue = 6,
+		range = 70,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029500,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20295000,
+			20295001
+		},
+		barrage_ID = {
+			20295000,
+			20295001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029501] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬驱逐精英通用_驱逐主炮1（探索者）",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 350,
+		queue = 1,
+		range = 70,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 110,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029501,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			801
+		},
+		barrage_ID = {
+			20295010
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029502] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬驱逐精英通用_驱逐主炮2（探索者）",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 750,
+		queue = 1,
+		range = 70,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029502,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			801,
+			801
+		},
+		barrage_ID = {
+			20295020,
+			20295021
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029503] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬驱逐精英通用_驱逐鱼雷四联（探索者）",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 2200,
+		queue = 2,
+		range = 70,
+		damage = 32,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 2029503,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			30067
+		},
+		barrage_ID = {
+			20295030
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029511] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬驱逐精英随机_主炮系_纺锤形高速弹幕（探索者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1500,
+		queue = 1,
+		range = 70,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 110,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029511,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20295110,
+			20295110,
+			20295110,
+			20295110,
+			20295110
+		},
+		barrage_ID = {
+			20295110,
+			20295111,
+			20295112,
+			20295113,
+			20295114
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029512] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬驱逐精英随机_主炮系_交错高速弹幕（探索者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1500,
+		queue = 1,
+		range = 70,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 110,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029512,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20295110,
+			20295110,
+			20295110,
+			20295110
+		},
+		barrage_ID = {
+			20295120,
+			20295121,
+			20295122,
+			20295123
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029513] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬驱逐精英随机_主炮系_收敛高速弹幕（探索者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1600,
+		queue = 1,
+		range = 70,
+		damage = 5,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 110,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029513,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20295110
+		},
+		barrage_ID = {
+			20295130
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029521] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬驱逐精英随机_鱼雷系_中空磁雷（探索者）",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3200,
+		queue = 2,
+		range = 70,
+		damage = 72,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 2029521,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20295210,
+			20295210
+		},
+		barrage_ID = {
+			20295210,
+			20295211
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029522] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬驱逐精英随机_鱼雷系_连续二联磁雷（探索者）",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3200,
+		queue = 2,
+		range = 70,
+		damage = 72,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 2029522,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20295210,
+			20295210
+		},
+		barrage_ID = {
+			20295220,
+			20295221
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029530] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬驱逐精英随机_II型强化_高低速扫射",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1250,
+		queue = 4,
+		range = 70,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 110,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029530,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20295300,
+			20295300,
+			20295300,
+			20295300,
+			20295300,
+			20295300,
+			20295301,
+			20295301,
+			20295301,
+			20295301,
+			20295302,
+			20295302,
+			20295303,
+			20295303
+		},
+		barrage_ID = {
+			20295300,
+			20295301,
+			20295302,
+			20295303,
+			20295304,
+			20295305,
+			20295310,
+			20295311,
+			20295312,
+			20295313,
+			20295316,
+			20295317,
+			20295320,
+			20295321
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029540] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬驱逐精英随机_II型强化_中空磁雷",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 1700,
+		queue = 2,
+		range = 70,
+		damage = 50,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 2029540,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20295210,
+			20295210,
+			20295210,
+			20295210
+		},
+		barrage_ID = {
+			20295400,
+			20295401,
+			20295402,
+			20295403
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029600] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬轻巡精英通用_常驻护体武器（追迹者）",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 4000,
+		queue = 6,
+		range = 70,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029600,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20296000,
+			20296001
+		},
+		barrage_ID = {
+			20296000,
+			20296001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029601] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英通用_轻巡主炮1连续瞄准（追迹者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1600,
+		queue = 1,
+		range = 80,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029601,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			801
+		},
+		barrage_ID = {
+			20296010
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029602] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英通用_轻巡主炮2二连散射（追迹者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 600,
+		queue = 1,
+		range = 80,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029602,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			801
+		},
+		barrage_ID = {
+			20296020
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029603] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬轻巡精英通用_轻巡鱼雷三联x2（追迹者）",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 2600,
+		queue = 1,
+		range = 80,
+		damage = 32,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 2029603,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			30067
+		},
+		barrage_ID = {
+			20296030
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029611] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英随机_塞壬主炮系_瓶状弹幕（追迹者）",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -3256,7 +2533,7 @@ pg.weapon_property_390 = {}
 		reload_max = 1500,
 		queue = 1,
 		range = 80,
-		damage = 12,
+		damage = 7,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -3264,22 +2541,22 @@ pg.weapon_property_390 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 2023611,
+		id = 2029611,
 		attack_attribute_ratio = 100,
-		aim_type = 1,
+		aim_type = 0,
 		bullet_ID = {
-			20236110,
-			20236110,
-			20236111,
-			20236110,
-			20236110
+			20296110,
+			20296110,
+			20296110,
+			20296110,
+			20296110
 		},
 		barrage_ID = {
-			20236110,
-			20236112,
-			20236115,
-			20236116,
-			20236118
+			20296110,
+			20296111,
+			20296112,
+			20296113,
+			20296114
 		},
 		oxy_type = {
 			1
@@ -3289,9 +2566,571 @@ pg.weapon_property_390 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_390[2023612] = {
+	uv0.weapon_property_390[2029612] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英随机_塞壬主炮系_滞留弹幕（追迹者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1500,
+		queue = 1,
+		range = 80,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029612,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20296120,
+			20296121
+		},
+		barrage_ID = {
+			20296120,
+			20296121
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029613] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英随机_塞壬主炮系_爆竹弹幕（追迹者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1500,
+		queue = 1,
+		range = 80,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029613,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20296130,
+			20296131,
+			20296132,
+			20296130,
+			20296131,
+			20296132
+		},
+		barrage_ID = {
+			20296130,
+			20296131,
+			20296132,
+			20296133,
+			20296134,
+			20296135
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029614] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英随机_塞壬主炮系_窜天猴弹幕（追迹者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1500,
+		queue = 1,
+		range = 80,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029614,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20296140,
+			20296140,
+			20296140
+		},
+		barrage_ID = {
+			20296140,
+			20296141,
+			20296142
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029621] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英随机_常规主炮系_高爆强化（追迹者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 700,
+		queue = 1,
+		range = 80,
+		damage = 15,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029621,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20231010
+		},
+		barrage_ID = {
+			20296210
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029622] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英随机_常规主炮系_高爆强化长弹幕（追迹者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1350,
+		queue = 1,
+		range = 80,
+		damage = 15,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029622,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20231010,
+			20231010,
+			20231010,
+			20231010
+		},
+		barrage_ID = {
+			20210130,
+			20210131,
+			20210132,
+			20210133
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029623] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英随机_常规主炮系_穿甲强化（追迹者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 750,
+		queue = 1,
+		range = 80,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029623,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20241050
+		},
+		barrage_ID = {
+			20296230
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029624] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英随机_常规主炮系_穿甲强化长弹幕（追迹者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1350,
+		queue = 1,
+		range = 80,
+		damage = 15,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029624,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20241050,
+			20241050
+		},
+		barrage_ID = {
+			20296240,
+			20296241
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029630] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英随机_II型强化_波浪子母弹",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2000,
+		queue = 4,
+		range = 80,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029630,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20296300,
+			20296301
+		},
+		barrage_ID = {
+			20296300,
+			20296301
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029640] = {
+		recover_time = 0,
+		name = "【大世界】塞壬轻巡精英随机_II型强化_强化平射主炮",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1250,
+		queue = 1,
+		range = 80,
+		damage = 15,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029640,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20296400,
+			20296400
+		},
+		barrage_ID = {
+			20296400,
+			20296401
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029700] = {
 		recover_time = 0.5,
-		name = "【大世界】重樱轻巡精英专属_雷（神通）",
+		name = "【大世界】塞壬重巡精英通用_常驻护体武器（领洋者）",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 4000,
+		queue = 6,
+		range = 70,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029700,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			20297000,
+			20297001
+		},
+		barrage_ID = {
+			20297000,
+			20297001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029701] = {
+		recover_time = 0,
+		name = "【大世界】塞壬重巡精英通用_重巡主炮1连续瞄准（领洋者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2200,
+		queue = 1,
+		range = 90,
+		damage = 17,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029701,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20297010,
+			20297010
+		},
+		barrage_ID = {
+			20297010,
+			20297011
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029702] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬重巡精英通用_重巡副炮1二连散射（领洋者）",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 600,
+		queue = 1,
+		range = 80,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029702,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			801,
+			801
+		},
+		barrage_ID = {
+			20297020,
+			20297021
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029703] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬重巡精英通用_重巡鱼雷三联（领洋者）",
 		shakescreen = 0,
 		type = 3,
 		torpedo_ammo = 0,
@@ -3306,9 +3145,9 @@ pg.weapon_property_390 = {}
 		effect_move = 0,
 		angle = 60,
 		reload_max = 1800,
-		queue = 2,
-		range = 60,
-		damage = 60,
+		queue = 1,
+		range = 80,
+		damage = 32,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -3316,20 +3155,14 @@ pg.weapon_property_390 = {}
 		initial_over_heat = 1,
 		spawn_bound = "torpedo",
 		fire_sfx = "",
-		id = 2023612,
+		id = 2029703,
 		attack_attribute_ratio = 100,
-		aim_type = 1,
+		aim_type = 0,
 		bullet_ID = {
-			110141,
-			110142,
-			110143,
-			110144
+			30067
 		},
 		barrage_ID = {
-			110141,
-			110142,
-			110143,
-			110144
+			1402
 		},
 		oxy_type = {
 			1
@@ -3339,9 +3172,9 @@ pg.weapon_property_390 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_390[2023711] = {
+	uv0.weapon_property_390[2029711] = {
 		recover_time = 0,
-		name = "【大世界】重樱重巡精英专属_主炮替换高爆炮（最上）",
+		name = "【大世界】塞壬重巡精英随机_塞壬主炮系_三联收束弹幕（领洋者）",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -3354,11 +3187,11 @@ pg.weapon_property_390 = {}
 		expose = 0,
 		search_type = 1,
 		effect_move = 0,
-		angle = 120,
-		reload_max = 900,
+		angle = 360,
+		reload_max = 1800,
 		queue = 1,
-		range = 80,
-		damage = 12,
+		range = 90,
+		damage = 18,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -3366,14 +3199,16 @@ pg.weapon_property_390 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 2023711,
+		id = 2029711,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			20232010
+			20297110,
+			20297111
 		},
 		barrage_ID = {
-			20237110
+			20297110,
+			20297111
 		},
 		oxy_type = {
 			1
@@ -3383,10 +3218,148 @@ pg.weapon_property_390 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_390[2023712] = {
+	uv0.weapon_property_390[2029712] = {
 		recover_time = 0,
-		name = "【大世界】重樱重巡精英专属_混合弹幕（最上）",
-		shakescreen = 302,
+		name = "【大世界】塞壬重巡精英随机_塞壬主炮系_三联收束弹幕（领洋者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1800,
+		queue = 1,
+		range = 90,
+		damage = 18,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029712,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20297110,
+			20297111
+		},
+		barrage_ID = {
+			20297110,
+			20297111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029713] = {
+		recover_time = 0,
+		name = "【大世界】塞壬重巡精英随机_塞壬主炮系_三联收束弹幕（领洋者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1800,
+		queue = 1,
+		range = 90,
+		damage = 18,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029713,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20297110,
+			20297111
+		},
+		barrage_ID = {
+			20297110,
+			20297111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029714] = {
+		recover_time = 0,
+		name = "【大世界】塞壬重巡精英随机_塞壬主炮系_三联收束弹幕（领洋者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1800,
+		queue = 1,
+		range = 90,
+		damage = 18,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029714,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20297110,
+			20297111
+		},
+		barrage_ID = {
+			20297110,
+			20297111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029720] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬重巡精英随机_II型强化_重巡机枪炮",
+		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
 		fire_fx = "CLFire",
@@ -3399,37 +3372,79 @@ pg.weapon_property_390 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 2000,
+		reload_max = 1200,
 		queue = 1,
-		range = 80,
-		damage = 24,
+		range = 100,
+		damage = 18,
 		suppress = 1,
 		auto_aftercast = 0,
-		corrected = 100,
+		corrected = 125,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 2023712,
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029720,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20020020,
+			20020020,
+			20020020
+		},
+		barrage_ID = {
+			20020020,
+			20020021,
+			20020022
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029800] = {
+		recover_time = 0.5,
+		name = "【大世界】塞壬战列精英通用_常驻护体武器（破局者）",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 4000,
+		queue = 6,
+		range = 70,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 2029800,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
-			20237120,
-			20237120,
-			20237120,
-			20237120,
-			20237121,
-			20237121,
-			20237121
+			20298000,
+			20298000,
+			20298001,
+			20298001
 		},
 		barrage_ID = {
-			20237120,
-			20237121,
-			20237122,
-			20237123,
-			20237124,
-			20237125,
-			20237126
+			20298000,
+			20298001,
+			20298002,
+			20298003
 		},
 		oxy_type = {
 			1
@@ -3439,13 +3454,13 @@ pg.weapon_property_390 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_390[2023713] = {
+	uv0.weapon_property_390[2029801] = {
 		recover_time = 0,
-		name = "【大世界】重樱重巡精英专属_高爆射击（最上）",
-		shakescreen = 302,
+		name = "【大世界】塞壬战列精英通用_战列主炮1（破局者）",
+		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
-		fire_fx = "CLFire",
+		fire_fx = "CAFire",
 		action_index = "attack",
 		charge_param = "",
 		axis_angle = 0,
@@ -3455,35 +3470,71 @@ pg.weapon_property_390 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 1750,
+		reload_max = 1200,
 		queue = 1,
-		range = 80,
-		damage = 12,
-		suppress = 1,
+		range = 90,
+		damage = 14,
+		suppress = 0,
 		auto_aftercast = 0,
 		corrected = 100,
 		min_range = 0,
-		initial_over_heat = 1,
+		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 2023713,
+		id = 2029801,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			20237130,
-			20237131,
-			20237131,
-			20237130,
-			20237131,
-			20237131
+			20298010
 		},
 		barrage_ID = {
-			20237130,
-			20237131,
-			20237132,
-			20237133,
-			20237134,
-			20237135
+			20298010
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_390[2029802] = {
+		recover_time = 0,
+		name = "【大世界】塞壬战列精英通用_战列副炮1（破局者）",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 300,
+		queue = 1,
+		range = 100,
+		damage = 7,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 2029802,
+		attack_attribute_ratio = 80,
+		aim_type = 1,
+		bullet_ID = {
+			801,
+			801
+		},
+		barrage_ID = {
+			20298020,
+			20298021
 		},
 		oxy_type = {
 			1

@@ -1,181 +1,83 @@
 pg = pg or {}
 pg.aircraft_template_262 = {
-	[95803] = {
-		id = 95803,
-		max_hp = 43,
-		hp_growth = 1666,
-		base = 95800,
-		weapon_ID = {
-			50003,
-			50703,
-			52203
-		}
-	},
-	[95820] = {
-		attack_power = 2,
-		name = "Re.2001公羊T2",
-		type = 1,
-		accuracy = 23,
-		model_ID = "re2001",
-		ACC_growth = 0,
-		crash_DMG = 148,
-		dodge = 0.327,
-		funnel_behavior = "",
-		nationality = 6,
-		id = 95820,
-		icon = "re2001",
-		AP_growth = 2000,
-		dodge_limit = 8.5,
-		hp_growth = 1277,
-		speed = 46,
-		max_hp = 33,
-		scale = 1,
-		weapon_ID = {
-			50020,
-			50720,
-			52220
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[95821] = {
-		id = 95821,
-		max_hp = 38,
-		hp_growth = 1468,
-		base = 95820,
-		weapon_ID = {
-			50021,
-			50721,
-			52221
-		}
-	},
-	[95822] = {
-		id = 95822,
-		max_hp = 43,
-		hp_growth = 1660,
-		base = 95820,
+	[95742] = {
+		id = 95742,
+		max_hp = 48,
+		hp_growth = 1835,
+		base = 95740,
 		weapon_ID = {
 			50022,
-			50722,
-			52222
+			50522,
+			52122
 		}
 	},
-	[95823] = {
-		id = 95823,
-		max_hp = 48,
-		hp_growth = 1851,
-		base = 95820,
+	[95743] = {
+		id = 95743,
+		max_hp = 53,
+		hp_growth = 2046,
+		base = 95740,
 		weapon_ID = {
 			50023,
-			50723,
-			52223
+			50523,
+			52123
 		}
 	},
-	[95824] = {
-		id = 95824,
-		max_hp = 53,
-		hp_growth = 2043,
-		base = 95820,
+	[95744] = {
+		id = 95744,
+		max_hp = 59,
+		hp_growth = 2258,
+		base = 95740,
 		weapon_ID = {
 			50024,
-			50724,
-			52224
+			50524,
+			52124
 		}
 	},
-	[95825] = {
-		id = 95825,
-		max_hp = 58,
-		hp_growth = 2234,
-		base = 95820,
+	[95745] = {
+		id = 95745,
+		max_hp = 64,
+		hp_growth = 2470,
+		base = 95740,
 		weapon_ID = {
 			50025,
-			50725,
-			52225
+			50525,
+			52125
 		}
 	},
-	[95826] = {
-		id = 95826,
-		max_hp = 63,
-		hp_growth = 2426,
-		base = 95820,
+	[95746] = {
+		id = 95746,
+		max_hp = 70,
+		hp_growth = 2681,
+		base = 95740,
 		weapon_ID = {
 			50026,
-			50726,
-			52226
+			50526,
+			52126
 		}
 	},
-	[95840] = {
+	[95760] = {
 		attack_power = 2,
-		name = "Re.2001公羊T3",
+		name = "G.50箭式战斗机T3",
 		type = 1,
 		accuracy = 23,
-		model_ID = "re2001",
+		model_ID = "g50",
 		ACC_growth = 0,
-		crash_DMG = 148,
-		dodge = 0.315,
+		crash_DMG = 160,
+		dodge = 0.333,
 		funnel_behavior = "",
 		nationality = 6,
-		id = 95840,
-		icon = "re2001",
+		id = 95760,
+		icon = "g50",
 		AP_growth = 2000,
 		dodge_limit = 9,
-		hp_growth = 1404,
-		speed = 46,
-		max_hp = 37,
+		hp_growth = 1552,
+		speed = 50,
+		max_hp = 40,
 		scale = 1,
 		weapon_ID = {
 			50040,
-			50740,
-			52240
+			50540,
+			52140
 		},
 		position_offset = {
 			0,
@@ -229,15 +131,48 @@ pg.aircraft_template_262 = {
 			}
 		}
 	},
-	[95841] = {
-		id = 95841,
-		max_hp = 42,
-		hp_growth = 1615,
-		base = 95840,
+	[95761] = {
+		id = 95761,
+		max_hp = 46,
+		hp_growth = 1785,
+		base = 95760,
 		weapon_ID = {
 			50041,
-			50741,
-			52241
+			50541,
+			52141
+		}
+	},
+	[95762] = {
+		id = 95762,
+		max_hp = 52,
+		hp_growth = 2018,
+		base = 95760,
+		weapon_ID = {
+			50042,
+			50542,
+			52142
+		}
+	},
+	[95763] = {
+		id = 95763,
+		max_hp = 59,
+		hp_growth = 2251,
+		base = 95760,
+		weapon_ID = {
+			50043,
+			50543,
+			52143
+		}
+	},
+	[95764] = {
+		id = 95764,
+		max_hp = 65,
+		hp_growth = 2484,
+		base = 95760,
+		weapon_ID = {
+			50044,
+			50544,
+			52144
 		}
 	}
 }

@@ -2,162 +2,6 @@ pg = pg or {}
 pg.weapon_property_31 = {}
 
 (function ()
-	uv0.weapon_property_31[23127] = {
-		id = 23127,
-		reload_max = 1300,
-		damage = 48,
-		base = 23120
-	}
-	uv0.weapon_property_31[23128] = {
-		id = 23128,
-		reload_max = 1260,
-		damage = 50,
-		base = 23120
-	}
-	uv0.weapon_property_31[23129] = {
-		id = 23129,
-		reload_max = 1220,
-		damage = 52,
-		base = 23120
-	}
-	uv0.weapon_property_31[23130] = {
-		id = 23130,
-		reload_max = 1180,
-		damage = 54,
-		base = 23120
-	}
-	uv0.weapon_property_31[23131] = {
-		reload_max = 1180,
-		damage = 54,
-		base = 23120,
-		id = 23131,
-		corrected = 120
-	}
-	uv0.weapon_property_31[23132] = {
-		reload_max = 1180,
-		damage = 54,
-		base = 23120,
-		id = 23132,
-		corrected = 127
-	}
-	uv0.weapon_property_31[23133] = {
-		reload_max = 1180,
-		damage = 54,
-		base = 23120,
-		id = 23133,
-		corrected = 136
-	}
-	uv0.weapon_property_31[23200] = {
-		recover_time = 0.5,
-		name = "试作型三联装203mm主炮MarkIXT0",
-		shakescreen = 302,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 38,
-		reload_max = 1780,
-		queue = 1,
-		range = 70,
-		damage = 28,
-		suppress = 1,
-		auto_aftercast = 0.4,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-203mm",
-		id = 23200,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1402
-		},
-		barrage_ID = {
-			1214
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_31[23201] = {
-		id = 23201,
-		reload_max = 1721,
-		damage = 30,
-		base = 23200
-	}
-	uv0.weapon_property_31[23202] = {
-		id = 23202,
-		reload_max = 1662,
-		damage = 32,
-		base = 23200
-	}
-	uv0.weapon_property_31[23203] = {
-		id = 23203,
-		reload_max = 1603,
-		damage = 34,
-		base = 23200
-	}
-	uv0.weapon_property_31[23204] = {
-		id = 23204,
-		reload_max = 1544,
-		damage = 36,
-		base = 23200
-	}
-	uv0.weapon_property_31[23205] = {
-		id = 23205,
-		reload_max = 1485,
-		damage = 38,
-		base = 23200
-	}
-	uv0.weapon_property_31[23206] = {
-		id = 23206,
-		reload_max = 1426,
-		damage = 40,
-		base = 23200
-	}
-	uv0.weapon_property_31[23207] = {
-		id = 23207,
-		reload_max = 1367,
-		damage = 42,
-		base = 23200
-	}
-	uv0.weapon_property_31[23208] = {
-		id = 23208,
-		reload_max = 1308,
-		damage = 44,
-		base = 23200
-	}
-	uv0.weapon_property_31[23209] = {
-		id = 23209,
-		reload_max = 1249,
-		damage = 46,
-		base = 23200
-	}
-	uv0.weapon_property_31[23210] = {
-		id = 23210,
-		reload_max = 1190,
-		damage = 49,
-		base = 23200
-	}
-	uv0.weapon_property_31[23211] = {
-		reload_max = 1190,
-		damage = 49,
-		base = 23200,
-		id = 23211,
-		corrected = 104
-	}
 	uv0.weapon_property_31[23212] = {
 		reload_max = 1190,
 		damage = 49,
@@ -584,5 +428,249 @@ pg.weapon_property_31 = {}
 		reload_max = 2771,
 		damage = 104,
 		base = 24060
+	}
+	uv0.weapon_property_31[24069] = {
+		id = 24069,
+		reload_max = 2706,
+		damage = 111,
+		base = 24060
+	}
+	uv0.weapon_property_31[24070] = {
+		id = 24070,
+		reload_max = 2640,
+		damage = 116,
+		base = 24060
+	}
+	uv0.weapon_property_31[24071] = {
+		reload_max = 2640,
+		damage = 116,
+		base = 24060,
+		id = 24071,
+		corrected = 120
+	}
+	uv0.weapon_property_31[24100] = {
+		recover_time = 0.5,
+		name = "雙聯裝381mm主炮T1",
+		shakescreen = 302,
+		type = 23,
+		torpedo_ammo = 0,
+		fire_fx = "zhupao",
+		action_index = "attack_main",
+		fire_fx_loop_type = 1,
+		axis_angle = 0,
+		attack_attribute = 1,
+		reload_max = 3889,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 50,
+		queue = 1,
+		suppress = 1,
+		range = 200,
+		damage = 46,
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		corrected = 110,
+		min_range = 50,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		id = 24100,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1500
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			maxLock = 2,
+			lockTime = 0.3
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_31[24101] = {
+		id = 24101,
+		reload_max = 3809,
+		damage = 52,
+		base = 24100
+	}
+	uv0.weapon_property_31[24102] = {
+		id = 24102,
+		reload_max = 3731,
+		damage = 58,
+		base = 24100
+	}
+	uv0.weapon_property_31[24103] = {
+		id = 24103,
+		reload_max = 3654,
+		damage = 64,
+		base = 24100
+	}
+	uv0.weapon_property_31[24120] = {
+		recover_time = 0.5,
+		name = "雙聯裝381mm主炮T2",
+		shakescreen = 302,
+		type = 23,
+		torpedo_ammo = 0,
+		fire_fx = "zhupao",
+		action_index = "attack_main",
+		fire_fx_loop_type = 1,
+		axis_angle = 0,
+		attack_attribute = 1,
+		reload_max = 3703,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 50,
+		queue = 1,
+		suppress = 1,
+		range = 200,
+		damage = 51,
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		corrected = 110,
+		min_range = 50,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		id = 24120,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1501
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			maxLock = 2,
+			lockTime = 0.3
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_31[24121] = {
+		id = 24121,
+		reload_max = 3628,
+		damage = 57,
+		base = 24120
+	}
+	uv0.weapon_property_31[24122] = {
+		id = 24122,
+		reload_max = 3554,
+		damage = 64,
+		base = 24120
+	}
+	uv0.weapon_property_31[24123] = {
+		id = 24123,
+		reload_max = 3480,
+		damage = 70,
+		base = 24120
+	}
+	uv0.weapon_property_31[24124] = {
+		id = 24124,
+		reload_max = 3406,
+		damage = 77,
+		base = 24120
+	}
+	uv0.weapon_property_31[24125] = {
+		id = 24125,
+		reload_max = 3332,
+		damage = 84,
+		base = 24120
+	}
+	uv0.weapon_property_31[24126] = {
+		id = 24126,
+		reload_max = 3258,
+		damage = 90,
+		base = 24120
+	}
+	uv0.weapon_property_31[24140] = {
+		recover_time = 0.5,
+		name = "雙聯裝381mm主炮T3",
+		shakescreen = 302,
+		type = 23,
+		torpedo_ammo = 0,
+		fire_fx = "zhupao",
+		action_index = "attack_main",
+		fire_fx_loop_type = 1,
+		axis_angle = 0,
+		attack_attribute = 1,
+		reload_max = 3517,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 50,
+		queue = 1,
+		suppress = 1,
+		range = 200,
+		damage = 56,
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		corrected = 110,
+		min_range = 50,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		id = 24140,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1501
+		},
+		barrage_ID = {
+			1300
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			maxLock = 2,
+			lockTime = 0.3
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_31[24141] = {
+		id = 24141,
+		reload_max = 3446,
+		damage = 62,
+		base = 24140
+	}
+	uv0.weapon_property_31[24142] = {
+		id = 24142,
+		reload_max = 3377,
+		damage = 70,
+		base = 24140
+	}
+	uv0.weapon_property_31[24143] = {
+		id = 24143,
+		reload_max = 3307,
+		damage = 76,
+		base = 24140
+	}
+	uv0.weapon_property_31[24144] = {
+		id = 24144,
+		reload_max = 3235,
+		damage = 84,
+		base = 24140
+	}
+	uv0.weapon_property_31[24145] = {
+		id = 24145,
+		reload_max = 3165,
+		damage = 92,
+		base = 24140
 	}
 end)()

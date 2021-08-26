@@ -1,91 +1,35 @@
 pg = pg or {}
 pg.equip_data_statistics_240 = {
-	[35443] = {
-		id = 35443,
-		damage = "87 x 2",
-		base = 35440,
+	[35403] = {
+		id = 35403,
+		damage = "69 x 2",
+		base = 35400,
 		weapon_id = {
-			35443
+			35403
 		}
 	},
-	[35444] = {
-		id = 35444,
-		damage = "96 x 2",
-		base = 35440,
-		weapon_id = {
-			35444
-		}
-	},
-	[35445] = {
-		id = 35445,
-		damage = "105 x 2",
-		base = 35440,
-		weapon_id = {
-			35445
-		}
-	},
-	[35446] = {
-		id = 35446,
-		damage = "114 x 2",
-		base = 35440,
-		weapon_id = {
-			35446
-		}
-	},
-	[35447] = {
-		id = 35447,
-		damage = "123 x 2",
-		base = 35440,
-		weapon_id = {
-			35447
-		}
-	},
-	[35448] = {
-		id = 35448,
-		damage = "132 x 2",
-		base = 35440,
-		weapon_id = {
-			35448
-		}
-	},
-	[35449] = {
-		id = 35449,
-		damage = "141 x 2",
-		base = 35440,
-		weapon_id = {
-			35449
-		}
-	},
-	[35450] = {
-		id = 35450,
-		damage = "150 x 2",
-		base = 35440,
-		weapon_id = {
-			35450
-		}
-	},
-	[35500] = {
-		tech = 1,
-		name = "潛艇用95式純氧魚雷",
+	[35420] = {
+		tech = 2,
+		name = "潛艇用92式潛射魚雷",
 		speciality = "雷擊",
 		type = 13,
 		value_2 = 12,
 		ammo = 5,
-		damage = "56 x 2",
+		damage = "54 x 2",
 		nationality = 3,
 		rarity = 3,
-		id = 35500,
+		id = 35420,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
-		icon = "35500",
+		icon = "35400",
 		attribute_2 = "torpedo",
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				3,
-				1824
+				1823
 			}
 		},
 		equip_info = {
@@ -93,7 +37,7 @@ pg.equip_data_statistics_240 = {
 			2,
 			{
 				3,
-				1824
+				1823
 			},
 			{
 				4,
@@ -105,7 +49,7 @@ pg.equip_data_statistics_240 = {
 			12
 		},
 		weapon_id = {
-			35500
+			35420
 		},
 		skill_id = {},
 		part_main = {
@@ -123,28 +67,135 @@ pg.equip_data_statistics_240 = {
 			"TP"
 		}
 	},
-	[35501] = {
-		id = 35501,
-		damage = "64 x 2",
-		base = 35500,
+	[35421] = {
+		id = 35421,
+		damage = "62 x 2",
+		base = 35420,
 		weapon_id = {
-			35501
+			35421
 		}
 	},
-	[35502] = {
-		id = 35502,
-		damage = "72 x 2",
-		base = 35500,
+	[35422] = {
+		id = 35422,
+		damage = "70 x 2",
+		base = 35420,
 		weapon_id = {
-			35502
+			35422
 		}
 	},
-	[35503] = {
-		id = 35503,
-		damage = "80 x 2",
-		base = 35500,
+	[35423] = {
+		id = 35423,
+		damage = "78 x 2",
+		base = 35420,
 		weapon_id = {
-			35503
+			35423
+		}
+	},
+	[35424] = {
+		id = 35424,
+		damage = "86 x 2",
+		base = 35420,
+		weapon_id = {
+			35424
+		}
+	},
+	[35425] = {
+		id = 35425,
+		damage = "94 x 2",
+		base = 35420,
+		weapon_id = {
+			35425
+		}
+	},
+	[35426] = {
+		id = 35426,
+		damage = "102 x 2",
+		base = 35420,
+		weapon_id = {
+			35426
+		}
+	},
+	[35440] = {
+		tech = 3,
+		name = "潛艇用92式潛射魚雷",
+		speciality = "雷擊",
+		type = 13,
+		value_2 = 25,
+		ammo = 5,
+		damage = "60 x 2",
+		nationality = 3,
+		rarity = 4,
+		id = 35440,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "說明未填寫",
+		icon = "35400",
+		attribute_2 = "torpedo",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1823
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1823
+			},
+			{
+				4,
+				1601
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35440
+		},
+		skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		}
+	},
+	[35441] = {
+		id = 35441,
+		damage = "69 x 2",
+		base = 35440,
+		weapon_id = {
+			35441
+		}
+	},
+	[35442] = {
+		id = 35442,
+		damage = "78 x 2",
+		base = 35440,
+		weapon_id = {
+			35442
+		}
+	},
+	[35443] = {
+		id = 35443,
+		damage = "87 x 2",
+		base = 35440,
+		weapon_id = {
+			35443
 		}
 	}
 }

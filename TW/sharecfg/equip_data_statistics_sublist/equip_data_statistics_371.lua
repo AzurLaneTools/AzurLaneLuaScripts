@@ -1,56 +1,88 @@
 pg = pg or {}
 pg.equip_data_statistics_371 = {
-	[85302] = {
-		id = 85302,
-		damage = "67 x 3",
-		base = 85300,
+	[85282] = {
+		id = 85282,
+		damage = "54/輪",
+		base = 85280,
 		weapon_id = {
-			85302
+			85282
 		}
 	},
-	[85303] = {
-		id = 85303,
-		damage = "76 x 3",
-		base = 85300,
+	[85283] = {
+		id = 85283,
+		damage = "61/輪",
+		base = 85280,
 		weapon_id = {
-			85303
+			85283
 		}
 	},
-	[85304] = {
-		id = 85304,
-		damage = "84 x 3",
-		base = 85300,
+	[85284] = {
+		id = 85284,
+		damage = "68/輪",
+		base = 85280,
 		weapon_id = {
-			85304
+			85284
 		}
 	},
-	[85305] = {
-		id = 85305,
-		damage = "92 x 3",
-		base = 85300,
+	[85285] = {
+		id = 85285,
+		damage = "75/輪",
+		base = 85280,
 		weapon_id = {
-			85305
+			85285
 		}
 	},
-	[85306] = {
-		id = 85306,
-		damage = "101 x 3",
-		base = 85300,
+	[85286] = {
+		id = 85286,
+		damage = "82/輪",
+		base = 85280,
 		weapon_id = {
-			85306
+			85286
 		}
 	},
-	[85320] = {
-		tech = 2,
+	[85287] = {
+		id = 85287,
+		damage = "89/輪",
+		base = 85280,
+		weapon_id = {
+			85287
+		}
+	},
+	[85288] = {
+		id = 85288,
+		damage = "96/輪",
+		base = 85280,
+		weapon_id = {
+			85288
+		}
+	},
+	[85289] = {
+		id = 85289,
+		damage = "103/輪",
+		base = 85280,
+		weapon_id = {
+			85289
+		}
+	},
+	[85290] = {
+		id = 85290,
+		damage = "110/輪",
+		base = 85280,
+		weapon_id = {
+			85290
+		}
+	},
+	[85300] = {
+		tech = 1,
 		name = "B-37 三聯裝406mm主炮MK-1",
 		speciality = "跨射",
 		type = 4,
-		value_2 = 25,
+		value_2 = 12,
 		ammo = 3,
-		damage = "56 x 3",
+		damage = "50 x 3",
 		nationality = 7,
-		rarity = 4,
-		id = 85320,
+		rarity = 3,
+		id = 85300,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "说明未填写",
@@ -63,7 +95,7 @@ pg.equip_data_statistics_371 = {
 		ammo_info = {
 			{
 				2,
-				1571
+				1570
 			}
 		},
 		equip_info = {
@@ -75,7 +107,7 @@ pg.equip_data_statistics_371 = {
 			12
 		},
 		weapon_id = {
-			85320
+			85300
 		},
 		skill_id = {},
 		part_main = {
@@ -89,56 +121,23 @@ pg.equip_data_statistics_371 = {
 		label = {
 			"SN",
 			"BB",
-			"MG",
-			"AP"
+			"MG"
 		}
 	},
-	[85321] = {
-		id = 85321,
-		damage = "65 x 3",
-		base = 85320,
+	[85301] = {
+		id = 85301,
+		damage = "59 x 3",
+		base = 85300,
 		weapon_id = {
-			85321
+			85301
 		}
 	},
-	[85322] = {
-		id = 85322,
-		damage = "73 x 3",
-		base = 85320,
+	[85302] = {
+		id = 85302,
+		damage = "67 x 3",
+		base = 85300,
 		weapon_id = {
-			85322
-		}
-	},
-	[85323] = {
-		id = 85323,
-		damage = "83 x 3",
-		base = 85320,
-		weapon_id = {
-			85323
-		}
-	},
-	[85324] = {
-		id = 85324,
-		damage = "92 x 3",
-		base = 85320,
-		weapon_id = {
-			85324
-		}
-	},
-	[85325] = {
-		id = 85325,
-		damage = "102 x 3",
-		base = 85320,
-		weapon_id = {
-			85325
-		}
-	},
-	[85326] = {
-		id = 85326,
-		damage = "112 x 3",
-		base = 85320,
-		weapon_id = {
-			85326
+			85302
 		}
 	}
 }

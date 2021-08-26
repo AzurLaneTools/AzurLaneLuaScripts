@@ -1,77 +1,53 @@
 pg = pg or {}
 pg.equip_data_statistics_384 = {
-	[90401] = {
-		id = 90401,
-		damage = "46 x 4",
-		base = 90400,
+	[90301] = {
+		id = 90301,
+		damage = "39 x 4",
+		base = 90300,
 		weapon_id = {
-			90401
+			90301
 		}
 	},
-	[90402] = {
-		id = 90402,
-		damage = "52 x 4",
-		base = 90400,
+	[90302] = {
+		id = 90302,
+		damage = "44 x 4",
+		base = 90300,
 		weapon_id = {
-			90402
+			90302
 		}
 	},
-	[90403] = {
-		id = 90403,
-		damage = "58 x 4",
-		base = 90400,
+	[90303] = {
+		id = 90303,
+		damage = "49 x 4",
+		base = 90300,
 		weapon_id = {
-			90403
+			90303
 		}
 	},
-	[90404] = {
-		id = 90404,
-		damage = "64 x 4",
-		base = 90400,
-		weapon_id = {
-			90404
-		}
-	},
-	[90405] = {
-		id = 90405,
-		damage = "70 x 4",
-		base = 90400,
-		weapon_id = {
-			90405
-		}
-	},
-	[90406] = {
-		id = 90406,
-		damage = "76 x 4",
-		base = 90400,
-		weapon_id = {
-			90406
-		}
-	},
-	[90420] = {
+	[90320] = {
 		tech = 2,
-		name = "四聯裝380mm主炮Mle1935",
+		name = "四聯裝330mm主炮Mle1931",
 		speciality = "跨射",
 		type = 4,
-		value_2 = 25,
-		ammo = 2,
-		damage = "44 x 4",
+		value_2 = 12,
+		ammo = 3,
+		damage = "37 x 4",
 		nationality = 8,
-		rarity = 4,
-		id = 90420,
+		rarity = 3,
+		id = 90320,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
-		icon = "50400",
+		icon = "50300",
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
-			3
+			1
 		},
 		ammo_info = {
 			{
 				2,
-				1552
+				1550
 			}
 		},
 		equip_info = {
@@ -83,7 +59,107 @@ pg.equip_data_statistics_384 = {
 			12
 		},
 		weapon_id = {
-			90420
+			90320
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		}
+	},
+	[90321] = {
+		id = 90321,
+		damage = "42 x 4",
+		base = 90320,
+		weapon_id = {
+			90321
+		}
+	},
+	[90322] = {
+		id = 90322,
+		damage = "47 x 4",
+		base = 90320,
+		weapon_id = {
+			90322
+		}
+	},
+	[90323] = {
+		id = 90323,
+		damage = "52 x 4",
+		base = 90320,
+		weapon_id = {
+			90323
+		}
+	},
+	[90324] = {
+		id = 90324,
+		damage = "57 x 4",
+		base = 90320,
+		weapon_id = {
+			90324
+		}
+	},
+	[90325] = {
+		id = 90325,
+		damage = "63 x 4",
+		base = 90320,
+		weapon_id = {
+			90325
+		}
+	},
+	[90326] = {
+		id = 90326,
+		damage = "69 x 4",
+		base = 90320,
+		weapon_id = {
+			90326
+		}
+	},
+	[90340] = {
+		tech = 3,
+		name = "四聯裝330mm主炮Mle1931",
+		speciality = "跨射",
+		type = 4,
+		value_2 = 25,
+		ammo = 1,
+		damage = "41 x 4",
+		nationality = 8,
+		rarity = 4,
+		id = 90340,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "說明未填寫",
+		icon = "50300",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {
+			{
+				2,
+				1551
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90340
 		},
 		skill_id = {},
 		part_main = {
@@ -98,47 +174,15 @@ pg.equip_data_statistics_384 = {
 			"FFNF",
 			"BB",
 			"MG",
-			"HE"
+			"AP"
 		}
 	},
-	[90421] = {
-		id = 90421,
-		damage = "50 x 4",
-		base = 90420,
+	[90341] = {
+		id = 90341,
+		damage = "47 x 4",
+		base = 90340,
 		weapon_id = {
-			90421
-		}
-	},
-	[90422] = {
-		id = 90422,
-		damage = "56 x 4",
-		base = 90420,
-		weapon_id = {
-			90422
-		}
-	},
-	[90423] = {
-		id = 90423,
-		damage = "62 x 4",
-		base = 90420,
-		weapon_id = {
-			90423
-		}
-	},
-	[90424] = {
-		id = 90424,
-		damage = "68 x 4",
-		base = 90420,
-		weapon_id = {
-			90424
-		}
-	},
-	[90425] = {
-		id = 90425,
-		damage = "75 x 4",
-		base = 90420,
-		weapon_id = {
-			90425
+			90341
 		}
 	}
 }

@@ -1,68 +1,68 @@
 pg = pg or {}
 pg.equip_data_statistics_227 = {
-	[33065] = {
-		id = 33065,
+	[33045] = {
+		id = 33045,
+		damage = "36 x 4",
+		base = 33040,
+		weapon_id = {
+			33045
+		}
+	},
+	[33046] = {
+		id = 33046,
 		damage = "38 x 4",
-		base = 33060,
+		base = 33040,
 		weapon_id = {
-			33065
+			33046
 		}
 	},
-	[33066] = {
-		id = 33066,
+	[33047] = {
+		id = 33047,
 		damage = "40 x 4",
-		base = 33060,
+		base = 33040,
 		weapon_id = {
-			33066
+			33047
 		}
 	},
-	[33067] = {
-		id = 33067,
+	[33048] = {
+		id = 33048,
 		damage = "42 x 4",
-		base = 33060,
+		base = 33040,
 		weapon_id = {
-			33067
+			33048
 		}
 	},
-	[33068] = {
-		id = 33068,
+	[33049] = {
+		id = 33049,
 		damage = "44 x 4",
-		base = 33060,
+		base = 33040,
 		weapon_id = {
-			33068
+			33049
 		}
 	},
-	[33069] = {
-		id = 33069,
+	[33050] = {
+		id = 33050,
 		damage = "46 x 4",
-		base = 33060,
+		base = 33040,
 		weapon_id = {
-			33069
+			33050
 		}
 	},
-	[33070] = {
-		id = 33070,
-		damage = "48 x 4",
-		base = 33060,
-		weapon_id = {
-			33070
-		}
-	},
-	[33100] = {
+	[33060] = {
 		tech = 0,
-		name = "試作型三聯裝310mm主炮",
-		speciality = "跨射",
-		type = 11,
+		name = "試作型203mm(3號)連裝炮",
+		speciality = "鎖定",
+		type = 3,
 		value_2 = 45,
 		ammo = 2,
-		damage = "36 x 6",
+		damage = "28 x 4",
 		nationality = 3,
 		rarity = 5,
-		id = 33100,
+		id = 33060,
 		value_3 = 0,
 		torpedo_ammo = 0,
-		descrip = "說明未填寫",
-		icon = "33100",
+		descrip = "帶有試驗性質的203mm連裝炮強化版，由軍需處少量發放",
+		icon = "33060",
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
@@ -70,72 +70,81 @@ pg.equip_data_statistics_227 = {
 		},
 		ammo_info = {
 			{
-				2,
-				1414
+				1,
+				1402
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				1402
+			},
+			{
+				4,
+				1205
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			33100
+			33060
 		},
 		skill_id = {},
 		part_main = {
+			3,
 			18
 		},
 		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"IJN",
-			"CB",
+			"CA",
 			"MG",
 			"HE"
 		}
 	},
-	[33101] = {
-		id = 33101,
-		damage = "38 x 6",
-		base = 33100,
+	[33061] = {
+		id = 33061,
+		damage = "30 x 4",
+		base = 33060,
 		weapon_id = {
-			33101
+			33061
 		}
 	},
-	[33102] = {
-		id = 33102,
-		damage = "40 x 6",
-		base = 33100,
+	[33062] = {
+		id = 33062,
+		damage = "32 x 4",
+		base = 33060,
 		weapon_id = {
-			33102
+			33062
 		}
 	},
-	[33103] = {
-		id = 33103,
-		damage = "42 x 6",
-		base = 33100,
+	[33063] = {
+		id = 33063,
+		damage = "34 x 4",
+		base = 33060,
 		weapon_id = {
-			33103
+			33063
 		}
 	},
-	[33104] = {
-		id = 33104,
-		damage = "44 x 6",
-		base = 33100,
+	[33064] = {
+		id = 33064,
+		damage = "36 x 4",
+		base = 33060,
 		weapon_id = {
-			33104
+			33064
 		}
 	},
-	[33105] = {
-		id = 33105,
-		damage = "46 x 6",
-		base = 33100,
+	[33065] = {
+		id = 33065,
+		damage = "38 x 4",
+		base = 33060,
 		weapon_id = {
-			33105
+			33065
 		}
 	}
 }

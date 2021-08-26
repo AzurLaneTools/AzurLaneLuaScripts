@@ -1,5 +1,248 @@
 pg = pg or {}
 pg.equip_data_statistics_350 = {
+	[74112] = {
+		id = 74112,
+		name = "全彈發射-寧海級II",
+		base = 74111,
+		weapon_id = {
+			74112
+		}
+	},
+	[74121] = {
+		type = 1,
+		name = "全彈發射-逸仙I",
+		speciality = "無",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能彈幕",
+		id = 74121,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			74121
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[74122] = {
+		id = 74122,
+		name = "全彈發射-逸仙II",
+		base = 74121,
+		weapon_id = {
+			74122
+		}
+	},
+	[74131] = {
+		type = 1,
+		name = "全弹发射-肇和级I",
+		speciality = "无",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 74131,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			74131
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[74132] = {
+		id = 74132,
+		name = "全弹发射-肇和级II",
+		base = 74131,
+		weapon_id = {
+			74132
+		}
+	},
+	[75011] = {
+		type = 1,
+		name = "全弹发射-索尔达蒂级I",
+		speciality = "無",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 75011,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			75011
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[75012] = {
+		id = 75012,
+		name = "全弹发射-索尔达蒂级II",
+		base = 75011,
+		weapon_id = {
+			75012
+		}
+	},
+	[75021] = {
+		type = 1,
+		name = "全弹发射-诗人级I",
+		speciality = "无",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 75021,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			75021
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[75022] = {
+		id = 75022,
+		name = "全弹发射-诗人级II",
+		base = 75021,
+		weapon_id = {
+			75022
+		}
+	},
+	[75211] = {
+		type = 1,
+		name = "全弹发射-特伦托级I",
+		speciality = "無",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 75211,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			75211
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[75212] = {
+		id = 75212,
+		name = "全弹发射-特伦托级II",
+		base = 75211,
+		weapon_id = {
+			75212
+		}
+	},
 	[75221] = {
 		type = 1,
 		name = "全弹发射-扎拉级I",
@@ -38,248 +281,5 @@ pg.equip_data_statistics_350 = {
 		},
 		equip_parameters = {},
 		label = {}
-	},
-	[75222] = {
-		id = 75222,
-		name = "全弹发射-扎拉级II",
-		base = 75221,
-		weapon_id = {
-			75222
-		}
-	},
-	[76011] = {
-		type = 1,
-		name = "全弹发射-愤怒级I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能弹幕",
-		id = 76011,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			76011
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[76012] = {
-		id = 76012,
-		name = "全弹发射-愤怒级II",
-		base = 76011,
-		weapon_id = {
-			76012
-		}
-	},
-	[76021] = {
-		type = 1,
-		name = "全弹发射-明斯克级I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能弹幕",
-		id = 76021,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			76021
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[76022] = {
-		id = 76022,
-		name = "全弹发射-明斯克级II",
-		base = 76021,
-		weapon_id = {
-			76022
-		}
-	},
-	[76111] = {
-		type = 1,
-		name = "全弹发射-博加特里级I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能弹幕",
-		id = 76111,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			76111
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[76112] = {
-		id = 76112,
-		name = "全弹发射-博加特里级II",
-		base = 76111,
-		weapon_id = {
-			76112
-		}
-	},
-	[78011] = {
-		type = 1,
-		name = "全彈發射-靈巧級I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能彈幕",
-		id = 78011,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			78011
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[78012] = {
-		id = 78012,
-		name = "全彈發射-靈巧級II",
-		base = 78011,
-		weapon_id = {
-			78012
-		}
-	},
-	[78021] = {
-		type = 1,
-		name = "全彈發射-大膽級I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能彈幕",
-		id = 78021,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			78021
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[78022] = {
-		id = 78022,
-		name = "全彈發射-大膽級II",
-		base = 78021,
-		weapon_id = {
-			78022
-		}
 	}
 }

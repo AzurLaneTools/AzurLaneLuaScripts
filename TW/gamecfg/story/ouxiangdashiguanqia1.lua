@@ -11,15 +11,15 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>那是，再次迎来纷争的海域</size>",
+					"<size=51>那是，再次迎來紛爭的海域</size>",
 					1
 				},
 				{
-					"<size=51>那是，活跃在碧色舞台之上的艨艟少女们</size>",
+					"<size=51>那是，活躍在碧色舞台之上的艨艟少女們</size>",
 					3
 				},
 				{
-					"<size=51>那是，响彻大海的热情与希望之歌</size>",
+					"<size=51>那是，響徹大海的熱情與希望之歌</size>",
 					5
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			say = "某日·港区周边海域",
+			say = "某日·港區周邊海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和空中侦察的结果一样，状况不太妙啊…",
+			say = "和空中偵察的結果一樣，狀況不太妙啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，经过这片海域的船只都遭遇了“幻象”。",
+			say = "嗯，經過這片海域的船隻都遭遇了“幻象”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，怎么偏偏在这个节骨眼上发生这种事……！",
+			say = "真是的，怎麼偏偏在這個節骨眼上發生這種事……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁都没想到在“演出”马上要开始的时候，会发生这样的意外。",
+			say = "誰都沒想到在“演出”馬上要開始的時候，會發生這樣的意外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来怎么办？除了联络{namecode:91}她们，我们也得做些什么才行…",
+			say = "接下來怎麼辦？除了聯絡{namecode:91}她們，我們也得做些什麼才行…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能让这些“幻象”妨碍“演出”。一定要——",
+			say = "不能讓這些“幻象”妨礙“演出”。一定要——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢菲，这是…？！难道…怎么可能！",
+			say = "謝菲，這是…？！難道…怎麼可能！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…！紧急撤退！",
+			say = "…！緊急撤退！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			say = "同一时刻，港区·临时事务所",
+			say = "同一時刻，港區·臨時事務所",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来到我们港区的偶像……就是这几位喵！",
+			say = "來到我們港區的偶像……就是這幾位喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大、大家好！我是765事务所所属的偶像天海春香！请多多关照！",
+			say = "大、大家好！我是765事務所所屬的偶像天海春香！請多多關照！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同上，是偶像双海亚美哦！",
+			say = "同上，是偶像雙海亞美哦！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -375,7 +375,7 @@ return {
 			actor = 10700030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等，为什么就开始一本正经地做起自我介绍了啊！",
+			say = "等等，為什麼就開始一本正經地做起自我介紹了啊！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是！都让人说了些什么呀{namecode:98}！",
+			say = "就是！都讓人說了些什麼呀{namecode:98}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好啦好啦……自我介绍也是必要的啦。别这么着急…",
+			say = "好啦好啦……自我介紹也是必要的啦。別這麼著急…",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -437,7 +437,7 @@ return {
 			actor = 10700050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说的对。为了理清现在的状况——",
+			say = "說的對。為了理清現在的狀況——",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "先让大家彼此认识下也比较好吧。",
+			say = "先讓大家彼此認識下也比較好吧。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -471,7 +471,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊。突然来了这么一大波客人，确实让人吓了一跳呢。",
+			say = "是啊。突然來了這麼一大波客人，確實讓人嚇了一跳呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像这样突然出现在眼前的情况，还是第一次遇到…",
+			say = "像這樣突然出現在眼前的情況，還是第一次遇到…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是“碧蓝航线”的港区，我是“舰船”Z23。",
+			say = "這裡是“碧藍航線”的港區，我是“艦船”Z23。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位是所属于“765事务所”的偶像们，没错吧？",
+			say = "各位是所屬於“765事務所”的偶像們，沒錯吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的。我是765事务所的如月千早。",
+			say = "是的。我是765事務所的如月千早。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -552,7 +552,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和水濑小姐、梓、和律子——大家都是同一个事务所的伙伴。",
+			say = "和水瀨小姐、梓、和律子——大家都是同一個事務所的夥伴。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -570,7 +570,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真美几个，刚才在拍电影宣传照呢，眼前突然变得一片空白——",
+			say = "真美幾個，剛才在拍電影宣傳照呢，眼前突然變得一片空白——",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -588,7 +588,7 @@ return {
 			actor = 10700060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "回过神后就来到这里了…大概就是这样。",
+			say = "回過神後就來到這裡了…大概就是這樣。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -615,7 +615,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此。偏偏指挥官正好不在…不对，莫非是趁着指挥官不在的时候才…？",
+			say = "原來如此。偏偏指揮官正好不在…不對，莫非是趁著指揮官不在的時候才…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐…咳咳。你想到什么了？{namecode:91}？",
+			say = "姐…咳咳。妳想到什麼了？{namecode:91}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么。{namecode:98}，她们出现的时候有没有发生什么其他的怪事？",
+			say = "沒什麼。{namecode:98}，她們出現的時候有沒有發生什麼其他的怪事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怪事？你是指什么喵？",
+			say = "怪事？妳是指什麼喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "未知的能量反应之类的，以前也出现过的吧？",
+			say = "未知的能量反應之類的，以前也出現過的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了喵！一进到这个新建成的事务所，检测器就哔哔哔地响…",
+			say = "對了喵！一進到這個新建成的事務所，檢測器就嗶嗶嗶地響…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过能量反应很微弱喵…还在变得越来越弱……",
+			say = "不過能量反應很微弱喵…還在變得越來越弱……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请问一下，这到底是怎么回事？",
+			say = "請問一下，這到底是怎麼回事？",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -760,7 +760,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前也有和各位一样，突然出现在“这个世界”的客人。当时也发生了强烈的能量反应。",
+			say = "之前也有和各位一樣，突然出現在“这个世界”的客人。當時也發生了強烈的能量反應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然已经知道了大家从哪里来，利用这点的话，说不定可以送大家回到原来的地方。",
+			say = "既然已經知道了大家從哪裡來，利用這點的話，說不定可以送大家回到原來的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至少呆站在这里是不会有任何进展的呢。",
+			say = "至少呆站在這裡是不會有任何進展的呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,8 +809,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 403010,
-			actorName = "通信(希佩尔)",
-			say = "既然如此，来这边说不定能发现些什么哦。",
+			actorName = "通信(希佩爾)",
+			say = "既然如此，來這邊說不定能發現些什麼哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，是希佩尔姐姐？",
+			say = "哎呀，是希佩爾姐姐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "“演出海域”现在可是一片混乱呢——",
+			say = "“演出海域”現在可是一片混亂呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

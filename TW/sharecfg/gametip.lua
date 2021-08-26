@@ -3140,6 +3140,9 @@ pg.gametip = {
 	word_shipNation_doa = {
 		tip = "維納斯假期"
 	},
+	word_shipNation_imas = {
+		tip = "偶像大師"
+	},
 	word_shipNation_link = {
 		tip = "聯動"
 	},
@@ -3327,7 +3330,7 @@ pg.gametip = {
 		tip = "誓約日"
 	},
 	word_propose_cost_tip1 = {
-		tip = "誓約需要消耗<color=#92fc63>1</color>頂誓約之冠（當前擁有<color=#92fc63>$1</color>頂）\n\n<size=32>*誓約後角色獲得<color =#92fc63>3%</color>屬性加成<color=#ff5c5c>但無法更名</color></size>"
+		tip = "誓約需要消耗<color=#92fc63>1</color>頂誓約之冠（當前擁有<color=#92fc63>$1</color>頂）\n\n<size=32>*誓約後角色獲得<color=#92fc63>3%</color>屬性加成<color=#ff5c5c>但無法更名</color></size>"
 	},
 	word_propose_cost_tip2 = {
 		tip = "是否消耗<color=#92fc63>1</color>枚誓約之戒兌換為<color=#92fc63>1</color>頂誓約之冠\n<color=#ff5c5c>兌換操作無法撤回，以此誓約的角色無法更名</color>"
@@ -5877,7 +5880,10 @@ NPC角色說明：<color=#92fc63>(NPC角色不可參與部分港區功能,詳見
 		tip = "本階段主要獎勵未全部獲取，不能進入下一階段"
 	},
 	shop_street_activity_tip = {
-		tip = "*活動期間(<color=#A1E400FF>21.7.29-21.8.11</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>"
+		tip = "*活動期間(<color=#A1E400FF>21.8.26-21.9.08</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>"
+	},
+	shop_street_Equipment_skin_box_help = {
+		tip = "$1 出現時間為：$2"
 	},
 	twitter_link_title = {
 		tip = "</size>"
@@ -6879,7 +6885,7 @@ $3]]
 		tip = "天賦點不足"
 	},
 	buildship_new_tip = {
-		tip = "豪、英仙座、英勇、鷹出現機率UP!"
+		tip = "天海春香、如月千早、水瀨伊織等角色出現機率UP！"
 	},
 	buildship_heavy_tip = {
 		tip = "約克公爵建造追加！"
@@ -6943,10 +6949,10 @@ $3]]
 		tip = "指揮官，歡迎來到碧藍航線，先去新兵訓練營報到吧。"
 	},
 	tec_notice_1 = {
-		tip = "完成科研一期研发加速所有任务后解锁"
+		tip = "完成科研一期研發加速所有任務後解鎖"
 	},
 	tec_notice_2 = {
-		tip = "完成科研二期研发加速所有任务后解锁"
+		tip = "完成科研二期研發加速所有任務後解鎖"
 	},
 	tec_notice_not_open_tip = {
 		tip = "完成前一階段所有研發加速任務後開啟"
@@ -12530,6 +12536,19 @@ P.S.記錄儀的記錄容量有限，請務必及時前往解析
 			}
 		}
 	},
+	handshake_game_help = {
+		tip = {
+			{
+				info = [[
+活動規則：
+1.<color=#92fc63>9月1日</color>為止每日0點開放<color=#92fc63>1</color>場新的見面會，總計<color=#92fc63>7</color>場，可累計。全部完成後可以獲得限定裝備<color=#92fc63>「偶像手環」</color>
+遊戲規則：
+1.粉絲啾啾會提出三個禮物需求，指揮官需要在左側禮物區域選擇對應的禮物，選擇正確後粉絲啾啾會獲得禮物並離開，若選擇錯誤，工作啾啾會進行提示並重新選擇
+2.每位提出禮物需求的粉絲啾啾等待時間為15秒，若時間結束沒有收到對應禮物會離開會場，並且扣除一顆生命值。三顆生命值扣完則遊戲結束
+3.指揮官生命值耗盡結束遊戲、遊戲時間結束或是點擊遊戲內退出按鈕退出遊戲都視為完成遊戲。因為其他原因中途退出遊戲則算作未完成遊戲]]
+			}
+		}
+	},
 	activity_permanent_total = {
 		tip = "活動列表"
 	},
@@ -12564,6 +12583,70 @@ P.S.記錄儀的記錄容量有限，請務必及時前往解析
 	},
 	activity_permanent_finished = {
 		tip = "已完成"
+	},
+	idolmaster_main = {
+		tip = {
+			{
+				info = [[
+活動規則：
+<color=#92fc63>8.26-9.9</color>期間開啟限時活動「響徹碧海的偶像歌」
+1.通過特別作戰獲取「聯動Pt」，在「累計獎勵」和「補給商店」處兌換豐厚獎勵
+2.完成「啾啾見面會」小遊戲第七場可以獲得限定裝備<color=#92fc63>「偶像手環」</color>
+注意：每日開放1場新的見面會，總計7場
+3.在活動中收集14個「角色資料」道具後，可在「紀念章」處獲取<color=#92fc63>「765紀念章」</color>詳細獲取條件可在「紀念章」界面查看
+4.點擊「限時建造」可以前往建造界面
+5.點擊「換裝商店」可以前往換裝商店界面
+6.<color=#92fc63>8.26-9.09</color> 每日刷新一個活動特殊委託，該委託不佔用可派出艦隊上限，完成委託可獲取活動獎勵，未進行的委託將於次日消失，進行中的委託可於次日領取獎勵，領取獎勵後可刷新次日的活動特殊委託，領取時間截止9月15日23點59分]]
+			}
+		}
+	},
+	idolmaster_game_tip1 = {
+		tip = "是否繼續遊戲?"
+	},
+	idolmaster_game_tip2 = {
+		tip = "是否退出遊戲?"
+	},
+	idolmaster_game_tip3 = {
+		tip = "本次得分 :"
+	},
+	idolmaster_game_tip4 = {
+		tip = "最高得分 :"
+	},
+	idolmaster_game_tip5 = {
+		tip = "分數 :"
+	},
+	idolmaster_collection = {
+		tip = {
+			{
+				info = [[
+活動時間：8.26-9.9
+1.活動期間，參與活動收集「角色資料」，收集全部<color=#92fc63>14</color>個後可獲得限定傢俱<color=#92fc63>「765紀念章」</color>
+2.參與以下內容可以收集「角色資料」：
+①通過活動關卡
+②完成活動任務
+③累積聯動Pt點數
+④完成啾啾見面會
+3.領取時間截止9月15日23點59分]]
+			}
+		}
+	},
+	idolmaster_voice_name_feeling1 = {
+		tip = "失望"
+	},
+	idolmaster_voice_name_feeling2 = {
+		tip = "普通"
+	},
+	idolmaster_voice_name_feeling3 = {
+		tip = "友好"
+	},
+	idolmaster_voice_name_feeling4 = {
+		tip = "協作"
+	},
+	idolmaster_voice_name_feeling5 = {
+		tip = "應援"
+	},
+	idolmaster_voice_name_propose = {
+		tip = "誓約"
 	},
 	cartoon_notall = {
 		tip = "未讀"

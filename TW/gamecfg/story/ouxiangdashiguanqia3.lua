@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "idom-Thinking",
-			say = "港区·演出海域",
+			say = "港區·演出海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确认“敌方”出现，申请进行“演出”的准备。",
+			say = "確認“敵方”出現，申請進行“演出”的準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			actor = 403070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "整片海域都变成了几位客人所在世界的风格了，出现这种“敌人”也不奇怪了。",
+			say = "整片海域都變成了幾位客人所在世界的風格了，出現這種“敵人”也不奇怪了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 10700040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然看不太清，可是跟伊织酱长得好像…",
+			say = "雖然看不太清，可是跟伊織醬長得好像…",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			actor = 10700010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那些是……跟我们长得很像的人吗……？",
+			say = "那些是……跟我們長得很像的人嗎……？",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你可以认为是“假货”。",
+			say = "妳可以認為是“假貨”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 10700030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来是为了演出而准备的虚拟影像，却成了挡在眼前的障碍…",
+			say = "本來是為了演出而準備的虛擬影像，卻成了擋在眼前的障礙…",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -124,7 +124,7 @@ return {
 			actor = 10700030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…说实话，还真让人难以置信啊。",
+			say = "…說實話，還真讓人難以置信啊。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -142,7 +142,7 @@ return {
 			actor = 102240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊…我刚听到的时候也是这么想的…",
+			say = "是啊…我剛聽到的時候也是這麼想的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 102240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是，不战胜这些阻碍，就通不过这里。",
+			say = "但是，不戰勝這些阻礙，就通不過這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 10700040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战胜…是说要打倒那个跟伊织很像的人吗…？",
+			say = "戰勝…是說要打倒那個跟伊織很像的人嗎…？",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			actor = 202250,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，只要用“μ兵装”的力量进行演出，让对方认输就行。",
+			say = "不，只要用“μ兵裝”的力量進行演出，讓對方認輸就行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“μ兵装”是…？",
+			say = "“μ兵裝”是…？",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "就是我们身上这些装备啦。既能用来战斗，也能用来令演出更加精彩。",
+			say = "就是我們身上這些裝備啦。既能用來戰鬥，也能用來令演出更加精彩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有，刚才也跟你们说过，这里本来是要举办演出的地方。",
+			say = "還有，剛才也跟妳們說過，這裡本來是要舉辦演出的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因此在这里不需要真的进行战斗，只要在演出上胜过对方就行。",
+			say = "因此在這裡不需要真的進行戰鬥，只要在演出上勝過對方就行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "…真是的！要不是那个笨蛋的主意，谁要做这种事…",
+			say = "…真是的！要不是那個笨蛋的主意，誰要做這種事…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，对方的演出已经开始了！详细的等会再和你们说！",
+			say = "啊，對方的演出已經開始了！詳細的等會再和妳們說！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

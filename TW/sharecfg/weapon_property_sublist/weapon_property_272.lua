@@ -2,14 +2,14 @@ pg = pg or {}
 pg.weapon_property_272 = {}
 
 (function ()
-	uv0.weapon_property_272[564337] = {
-		recover_time = 0,
-		name = "【英系副本】執棋者I型精英轟炸機武器T1",
+	uv0.weapon_property_272[567093] = {
+		recover_time = 5,
+		name = "【長門陸奧活動A】【人型】鳳翔轟炸機T1",
 		shakescreen = 0,
-		type = 2,
+		type = 11,
 		torpedo_ammo = 0,
 		fire_fx = "",
-		action_index = "",
+		action_index = "attack",
 		charge_param = "",
 		axis_angle = 0,
 		fire_fx_loop_type = 1,
@@ -17,26 +17,26 @@ pg.weapon_property_272 = {}
 		expose = 0,
 		search_type = 1,
 		effect_move = 1,
-		angle = 180,
-		reload_max = 400,
+		angle = 360,
+		reload_max = 3250,
 		queue = 1,
-		range = 10,
-		damage = 144,
-		suppress = 0,
+		range = 100,
+		damage = 31,
+		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
 		min_range = 0,
 		initial_over_heat = 0,
-		spawn_bound = "cannon",
+		spawn_bound = "plane",
 		fire_sfx = "",
-		id = 564337,
+		id = 567093,
 		attack_attribute_ratio = 100,
-		aim_type = 0,
+		aim_type = 1,
 		bullet_ID = {
-			10012
+			30019
 		},
 		barrage_ID = {
-			10001
+			12015
 		},
 		oxy_type = {
 			1
@@ -46,14 +46,14 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[564338] = {
-		recover_time = 0,
-		name = "【英系副本】執棋者I型精英魚雷機武器T1",
+	uv0.weapon_property_272[567094] = {
+		recover_time = 5,
+		name = "【長門陸奧活動A】【人型】鳳翔魚雷機T1",
 		shakescreen = 0,
-		type = 3,
+		type = 11,
 		torpedo_ammo = 0,
 		fire_fx = "",
-		action_index = "",
+		action_index = "attack",
 		charge_param = "",
 		axis_angle = 0,
 		fire_fx_loop_type = 1,
@@ -61,26 +61,26 @@ pg.weapon_property_272 = {}
 		expose = 0,
 		search_type = 1,
 		effect_move = 1,
-		angle = 35,
-		reload_max = 11954,
+		angle = 360,
+		reload_max = 4500,
 		queue = 1,
-		range = 40,
-		damage = 112,
+		range = 110,
+		damage = 25,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
-		min_range = 22,
+		min_range = 0,
 		initial_over_heat = 0,
-		spawn_bound = "torpedo",
+		spawn_bound = "plane",
 		fire_sfx = "",
-		id = 564338,
+		id = 567094,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			30067
+			30014
 		},
 		barrage_ID = {
-			12001
+			12015
 		},
 		oxy_type = {
 			1
@@ -90,9 +90,53 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[564511] = {
+	uv0.weapon_property_272[567095] = {
+		recover_time = 5,
+		name = "【長門陸奧活動A】【人型】鳳翔戰鬥機T1",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "zhupao",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 5000,
+		queue = 1,
+		range = 120,
+		damage = 18,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		id = 567095,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			30013
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567101] = {
 		recover_time = 0.5,
-		name = "【英系副本】鐵必制BOSS近程自衛火炮II",
+		name = "【長門陸奧活動A】【人型】高雄Q版近程自衛火炮III",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -106,10 +150,10 @@ pg.weapon_property_272 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 800,
+		reload_max = 500,
 		queue = 1,
 		range = 38,
-		damage = 14,
+		damage = 7,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 125,
@@ -117,14 +161,14 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 564511,
+		id = 567101,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
 			999
 		},
 		barrage_ID = {
-			14
+			13
 		},
 		oxy_type = {
 			1
@@ -134,241 +178,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[564512] = {
+	uv0.weapon_property_272[567102] = {
 		recover_time = 0,
-		name = "【英系副本】鐵必制BOSS聯裝主炮x6-輪射II",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 600,
-		queue = 1,
-		range = 90,
-		damage = 40,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 564512,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			1406
-		},
-		barrage_ID = {
-			1203
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564513] = {
-		recover_time = 0.5,
-		name = "【英系副本】鐵必制BOSS平射",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 80,
-		reload_max = 800,
-		queue = 1,
-		range = 70,
-		damage = 30,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 564513,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1406
-		},
-		barrage_ID = {
-			10015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_272[564514] = {
-		recover_time = 0,
-		name = "【英系副本】鐵必制BOSS攻擊後排武器2x3輪-困難",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 40,
-		reload_max = 2300,
-		queue = 1,
-		range = 150,
-		damage = 60,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 80,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 564514,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1531
-		},
-		barrage_ID = {
-			20016
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 2,
-			time = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_272[564515] = {
-		recover_time = 0,
-		name = "【英系副本】鐵必制BOSS特殊武器1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 180,
-		reload_max = 750,
-		queue = 2,
-		range = 90,
-		damage = 22,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 564515,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			8040
-		},
-		barrage_ID = {
-			8040
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564516] = {
-		recover_time = 0,
-		name = "【英系副本】鐵必制BOSS特殊武器2",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 180,
-		reload_max = 1000,
-		queue = 2,
-		range = 90,
-		damage = 30,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 564516,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			8041,
-			8043
-		},
-		barrage_ID = {
-			8041,
-			8043
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564517] = {
-		recover_time = 0.5,
-		name = "【英系副本】鐵必制BOSS穿甲彈散射x8",
+		name = "【長門陸奧活動A】【人型】高雄Q版重巡聯裝主炮x6-散射III",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -383,434 +195,24 @@ pg.weapon_property_272 = {}
 		effect_move = 0,
 		angle = 360,
 		reload_max = 1800,
-		queue = 3,
-		range = 180,
-		damage = 40,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 564517,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			1408,
-			1409
-		},
-		barrage_ID = {
-			1210,
-			1211
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_272[564518] = {
-		recover_time = 0,
-		name = "【英系副本】鐵必制BOSS 4發磁性魚雷x2",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 180,
-		reload_max = 2400,
-		queue = 2,
-		range = 72,
-		damage = 160,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 564518,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1803
-		},
-		barrage_ID = {
-			1413
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564519] = {
-		recover_time = 0.5,
-		name = "【英系副本】鐵必制BOSS攻擊後排穿甲彈散射x8",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1600,
-		queue = 3,
-		range = 180,
-		damage = 38,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 90,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 564519,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			1408
-		},
-		barrage_ID = {
-			1210
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 1,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_272[564521] = {
-		recover_time = 0,
-		name = "【英系副本】執棋者BOSS武器1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 180,
-		reload_max = 2000,
 		queue = 1,
-		range = 90,
-		damage = 32,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 564521,
-		attack_attribute_ratio = 90,
-		aim_type = 1,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			399981
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564522] = {
-		recover_time = 0,
-		name = "【英系副本】執棋者BOSS武器2",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 180,
-		reload_max = 800,
-		queue = 1,
-		range = 90,
-		damage = 22,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 564522,
-		attack_attribute_ratio = 90,
-		aim_type = 0,
-		bullet_ID = {
-			801,
-			801
-		},
-		barrage_ID = {
-			399980,
-			399979
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564523] = {
-		recover_time = 5,
-		name = "【英系副本】執棋者BOSS浮游炮機體",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 360,
-		reload_max = 1600,
-		queue = 2,
-		range = 120,
-		damage = 20,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		id = 564523,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12025
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564524] = {
-		recover_time = 5,
-		name = "【英系副本】執棋者BOSS轟炸機T3",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 360,
-		reload_max = 2550,
-		queue = 2,
 		range = 100,
-		damage = 128,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 564524,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			30019
-		},
-		barrage_ID = {
-			12017
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564525] = {
-		recover_time = 5,
-		name = "【英系副本】執棋者BOSS魚雷機T3",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 360,
-		reload_max = 2200,
-		queue = 2,
-		range = 110,
-		damage = 96,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 564525,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			30014
-		},
-		barrage_ID = {
-			12017
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564526] = {
-		recover_time = 0,
-		name = "【英系副本】執棋者BOSS浮游炮武器1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 360,
-		reload_max = 850,
-		queue = 1,
-		range = 85,
-		damage = 16,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		id = 564526,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			9062
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564527] = {
-		recover_time = 0,
-		name = "【英系副本】執棋者BOSS轟炸機武器T1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 180,
-		reload_max = 400,
-		queue = 1,
-		range = 10,
-		damage = 128,
+		damage = 14,
 		suppress = 0,
 		auto_aftercast = 0,
 		corrected = 100,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 564527,
+		fire_sfx = "battle/cannon-main",
+		id = 567102,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
-			10012
+			1403
 		},
 		barrage_ID = {
-			10001
+			200102
 		},
 		oxy_type = {
 			1
@@ -820,149 +222,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[564528] = {
-		recover_time = 0,
-		name = "【英系副本】執棋者BOSS魚雷機武器T1",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 35,
-		reload_max = 11954,
-		queue = 1,
-		range = 40,
-		damage = 96,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 22,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 564528,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			12001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564531] = {
+	uv0.weapon_property_272[567103] = {
 		recover_time = 0.5,
-		name = "【英系副本】鎚頭鯊BOSS近程自衛火炮II",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 750,
-		queue = 1,
-		range = 38,
-		damage = 13,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 564531,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			999,
-			999
-		},
-		barrage_ID = {
-			12,
-			15
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564532] = {
-		recover_time = 0.5,
-		name = "【英系副本】鎚頭鯊BOSS特殊彈幕1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 1250,
-		queue = 1,
-		range = 80,
-		damage = 16,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 105,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 564532,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			7203,
-			7201,
-			7202,
-			7204
-		},
-		barrage_ID = {
-			7203,
-			7201,
-			7202,
-			7204
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564533] = {
-		recover_time = 0.5,
-		name = "【英系副本】鎚頭鯊BOSS7聯裝磁性魚雷散射",
+		name = "【長門陸奧活動A】【人型】高雄Q版三聯裝魚雷III",
 		shakescreen = 0,
 		type = 3,
 		torpedo_ammo = 0,
@@ -976,10 +238,10 @@ pg.weapon_property_272 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 60,
-		reload_max = 2700,
-		queue = 2,
+		reload_max = 2000,
+		queue = 1,
 		range = 60,
-		damage = 102,
+		damage = 25,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -987,14 +249,14 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 1,
 		spawn_bound = "torpedo",
 		fire_sfx = "",
-		id = 564533,
+		id = 567103,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			1804
+			1801
 		},
 		barrage_ID = {
-			1412
+			1402
 		},
 		oxy_type = {
 			1
@@ -1004,806 +266,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[564534] = {
+	uv0.weapon_property_272[567111] = {
 		recover_time = 0.5,
-		name = "【英系副本】鎚頭鯊BOSS特殊彈幕2",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 1500,
-		queue = 1,
-		range = 80,
-		damage = 20,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 105,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 564534,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			7205,
-			7206,
-			7207
-		},
-		barrage_ID = {
-			7205,
-			7206,
-			7207
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[564535] = {
-		recover_time = 0,
-		name = "【英系副本】鎚頭鯊BOSS後排跨射2*4輪",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 40,
-		reload_max = 2300,
-		queue = 2,
-		range = 150,
-		damage = 50,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 85,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 564535,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1531
-		},
-		barrage_ID = {
-			20017
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 2,
-			time = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_272[564536] = {
-		recover_time = 0.5,
-		name = "【英系副本】鎚頭鯊BOSS激光2道",
-		shakescreen = 0,
-		type = 24,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 120,
-		reload_max = 2800,
-		queue = 1,
-		range = 200,
-		damage = 14,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 105,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 564536,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			7301,
-			7301
-		},
-		barrage_ID = {
-			7302,
-			7303
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 2,
-			time = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_272[564537] = {
-		recover_time = 0.5,
-		name = "【英系副本】鎚頭鯊BOSS蓄力激光武器",
-		shakescreen = 0,
-		type = 24,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 120,
-		reload_max = 1500,
-		queue = 3,
-		range = 80,
-		damage = 18,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 105,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 564537,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			7302,
-			7302,
-			7302,
-			7302,
-			7302,
-			7302,
-			7302,
-			7302,
-			7302,
-			7302
-		},
-		barrage_ID = {
-			7304,
-			7305,
-			7306,
-			7307,
-			7308,
-			7309,
-			7310,
-			7311,
-			7312,
-			7313
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			armor = 10200,
-			time = 6,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_272[565001] = {
-		recover_time = 0.5,
-		name = "【英系副本】塞壬航母蛋船近程自衛火炮II",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 600,
-		queue = 1,
-		range = 38,
-		damage = 17,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 565001,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			12
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565002] = {
-		recover_time = 0.5,
-		name = "【英系副本】塞壬航母蛋船單發x6隨機II",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1100,
-		queue = 1,
-		range = 60,
-		damage = 36,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 565002,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			802
-		},
-		barrage_ID = {
-			1106
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565003] = {
-		recover_time = 5,
-		name = "【英系副本】塞壬航母蛋船轟炸機T1 (飛機",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 360,
-		reload_max = 2600,
-		queue = 1,
-		range = 100,
-		damage = 160,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "",
-		id = 565003,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			30019
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565004] = {
-		recover_time = 5,
-		name = "【英系副本】塞壬航母蛋船戰鬥機T1 (飛機",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "zhupao",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 360,
-		reload_max = 3000,
-		queue = 1,
-		range = 120,
-		damage = 65,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		id = 565004,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			30013
-		},
-		barrage_ID = {
-			12015
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565101] = {
-		recover_time = 0,
-		name = "【英系副本】魚雷艇魚雷3連",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 180,
-		reload_max = 2900,
-		queue = 1,
-		range = 90,
-		damage = 72,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "battle/cannon-main",
-		id = 565101,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			350105
-		},
-		barrage_ID = {
-			350102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565102] = {
-		recover_time = 0.5,
-		name = "【英系副本】自爆船武器",
-		shakescreen = 0,
-		type = 18,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 700,
-		queue = 1,
-		range = 8,
-		damage = 180,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 565102,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			80001
-		},
-		barrage_ID = {},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565201] = {
-		recover_time = 0,
-		name = "【英系副本】塞壬航母蛋船轟炸機武器T1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 180,
-		reload_max = 400,
-		queue = 1,
-		range = 10,
-		damage = 160,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 565201,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			10012
-		},
-		barrage_ID = {
-			10001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565202] = {
-		recover_time = 0,
-		name = "【英系副本】塞壬航母蛋船戰鬥機彈幕",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 180,
-		reload_max = 1650,
-		queue = 1,
-		range = 85,
-		damage = 40,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		id = 565202,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			20001,
-			20001,
-			20001,
-			20001
-		},
-		barrage_ID = {
-			101,
-			102,
-			103,
-			104
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565203] = {
-		recover_time = 0,
-		name = "【英系副本】塞壬航母蛋船戰鬥機空中",
-		shakescreen = 0,
-		type = 4,
-		torpedo_ammo = 0,
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 180,
-		reload_max = 48,
-		queue = 1,
-		range = 200,
-		damage = 45,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/air-atk",
-		id = 565203,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			10004
-		},
-		barrage_ID = {
-			5
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565204] = {
-		recover_time = 0,
-		name = "【英系副本】塞壬CV浮游炮武器1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "fangkongpaohuoshe2",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 360,
-		reload_max = 1050,
-		queue = 1,
-		range = 85,
-		damage = 16,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/air-atk",
-		id = 565204,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			399990
-		},
-		barrage_ID = {
-			399993
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565205] = {
-		recover_time = 0,
-		name = "【英系副本】塞壬CV浮游炮武器2",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 180,
-		reload_max = 1500,
-		queue = 1,
-		range = 90,
-		damage = 24,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 565205,
-		attack_attribute_ratio = 90,
-		aim_type = 1,
-		bullet_ID = {
-			399999,
-			399998,
-			399997,
-			399996
-		},
-		barrage_ID = {
-			399999,
-			399998,
-			399997,
-			399996
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565206] = {
-		recover_time = 0,
-		name = "【英系副本】塞壬CV轟炸機武器T1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 180,
-		reload_max = 400,
-		queue = 1,
-		range = 10,
-		damage = 200,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 565206,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			10012
-		},
-		barrage_ID = {
-			10001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565207] = {
-		recover_time = 0,
-		name = "【英系副本】塞壬CV魚雷機武器T1",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 35,
-		reload_max = 11954,
-		queue = 1,
-		range = 40,
-		damage = 160,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 22,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 565207,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			12001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_272[565301] = {
-		recover_time = 0.5,
-		name = "【英系副本】探索者I型精英四聯裝魚雷III",
+		name = "【長門陸奧活動A】【精英】探索者I型精英四聯裝魚雷III",
 		shakescreen = 0,
 		type = 3,
 		torpedo_ammo = 0,
@@ -1820,7 +285,7 @@ pg.weapon_property_272 = {}
 		reload_max = 1750,
 		queue = 1,
 		range = 70,
-		damage = 90,
+		damage = 32,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -1828,7 +293,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 1,
 		spawn_bound = "torpedo",
 		fire_sfx = "",
-		id = 565301,
+		id = 567111,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -1845,9 +310,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565302] = {
+	uv0.weapon_property_272[567112] = {
 		recover_time = 0.5,
-		name = "【英系副本】探索者I型精英單發瞄準x4隨機II",
+		name = "【長門陸奧活動A】【精英】探索者I型精英單發瞄準x4隨機II",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -1864,7 +329,7 @@ pg.weapon_property_272 = {}
 		reload_max = 500,
 		queue = 1,
 		range = 70,
-		damage = 16,
+		damage = 6,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 125,
@@ -1872,7 +337,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565302,
+		id = 567112,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -1889,9 +354,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565303] = {
+	uv0.weapon_property_272[567113] = {
 		recover_time = 0.5,
-		name = "【英系副本】探索者I型精英雙聯裝炮瞄準II",
+		name = "【長門陸奧活動A】【精英】探索者I型精英雙聯裝炮瞄準II",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -1908,7 +373,7 @@ pg.weapon_property_272 = {}
 		reload_max = 350,
 		queue = 1,
 		range = 70,
-		damage = 18,
+		damage = 7,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 110,
@@ -1916,7 +381,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565303,
+		id = 567113,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -1933,9 +398,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565304] = {
+	uv0.weapon_property_272[567114] = {
 		recover_time = 0.5,
-		name = "【英系副本】探索者I型精英特殊彈幕武器",
+		name = "【長門陸奧活動A】【精英】探索者I型精英特殊彈幕武器",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -1952,7 +417,7 @@ pg.weapon_property_272 = {}
 		reload_max = 1500,
 		queue = 3,
 		range = 70,
-		damage = 26,
+		damage = 10,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 110,
@@ -1960,7 +425,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565304,
+		id = 567114,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
@@ -1983,9 +448,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565305] = {
+	uv0.weapon_property_272[567115] = {
 		recover_time = 0.5,
-		name = "【英系副本】探索者I型精英旋轉穿透",
+		name = "【長門陸奧活動A】【精英】探索者I型精英旋轉穿透",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -2002,7 +467,7 @@ pg.weapon_property_272 = {}
 		reload_max = 1250,
 		queue = 2,
 		range = 70,
-		damage = 22,
+		damage = 8,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 125,
@@ -2010,7 +475,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565305,
+		id = 567115,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
@@ -2029,9 +494,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565306] = {
+	uv0.weapon_property_272[567116] = {
 		recover_time = 0.5,
-		name = "【英系副本】探索者I型精英特殊彈幕2",
+		name = "【長門陸奧活動A】【精英】探索者I型精英特殊彈幕2",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -2048,7 +513,7 @@ pg.weapon_property_272 = {}
 		reload_max = 5000,
 		queue = 2,
 		range = 70,
-		damage = 18,
+		damage = 7,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 125,
@@ -2056,7 +521,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565306,
+		id = 567116,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
@@ -2075,9 +540,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565311] = {
+	uv0.weapon_property_272[567121] = {
 		recover_time = 0.5,
-		name = "【英系副本】追跡者I型精英輕巡聯裝炮x6散射II",
+		name = "【長門陸奧活動A】【精英】追跡者I型精英輕巡聯裝炮x6散射II",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -2094,7 +559,7 @@ pg.weapon_property_272 = {}
 		reload_max = 750,
 		queue = 1,
 		range = 80,
-		damage = 18,
+		damage = 10,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 105,
@@ -2102,7 +567,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565311,
+		id = 567121,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
@@ -2119,9 +584,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565312] = {
+	uv0.weapon_property_272[567122] = {
 		recover_time = 0,
-		name = "【英系副本】追跡者I型精英大範圍緩速子彈",
+		name = "【長門陸奧活動A】【精英】追跡者I型精英大範圍緩速子彈",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2138,7 +603,7 @@ pg.weapon_property_272 = {}
 		reload_max = 2000,
 		queue = 1,
 		range = 80,
-		damage = 28,
+		damage = 12,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2146,7 +611,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 565312,
+		id = 567122,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
@@ -2175,9 +640,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565313] = {
+	uv0.weapon_property_272[567123] = {
 		recover_time = 0,
-		name = "【英系副本】追跡者I型精英瞄準連射",
+		name = "【長門陸奧活動A】【精英】追跡者I型精英瞄準連射",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2194,7 +659,7 @@ pg.weapon_property_272 = {}
 		reload_max = 1500,
 		queue = 1,
 		range = 80,
-		damage = 38,
+		damage = 7,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2202,7 +667,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 565313,
+		id = 567123,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -2219,9 +684,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565314] = {
+	uv0.weapon_property_272[567124] = {
 		recover_time = 0.5,
-		name = "【英系副本】追跡者I型精英三聯裝魚雷II",
+		name = "【長門陸奧活動A】【精英】追跡者I型精英三聯裝魚雷II",
 		shakescreen = 0,
 		type = 3,
 		torpedo_ammo = 0,
@@ -2238,7 +703,7 @@ pg.weapon_property_272 = {}
 		reload_max = 2000,
 		queue = 1,
 		range = 80,
-		damage = 90,
+		damage = 32,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2246,7 +711,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 1,
 		spawn_bound = "torpedo",
 		fire_sfx = "",
-		id = 565314,
+		id = 567124,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -2263,9 +728,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565315] = {
+	uv0.weapon_property_272[567125] = {
 		recover_time = 0,
-		name = "【英系副本】追跡者I型精英特殊武器交叉彈幕",
+		name = "【長門陸奧活動A】【精英】追跡者I型精英特殊武器交叉彈幕",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2282,7 +747,7 @@ pg.weapon_property_272 = {}
 		reload_max = 1250,
 		queue = 1,
 		range = 80,
-		damage = 25,
+		damage = 11,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2290,7 +755,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 565315,
+		id = 567125,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
@@ -2309,9 +774,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565316] = {
+	uv0.weapon_property_272[567126] = {
 		recover_time = 0.5,
-		name = "【英系副本】追跡者I型精英特殊彈幕2",
+		name = "【長門陸奧活動A】【精英】追跡者I型精英特殊彈幕2",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -2328,7 +793,7 @@ pg.weapon_property_272 = {}
 		reload_max = 5000,
 		queue = 2,
 		range = 70,
-		damage = 22,
+		damage = 7,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 125,
@@ -2336,7 +801,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565316,
+		id = 567126,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
@@ -2355,9 +820,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565321] = {
+	uv0.weapon_property_272[567131] = {
 		recover_time = 0.5,
-		name = "【英系副本】領洋者I型精英近程自衛火炮III",
+		name = "【長門陸奧活動A】【精英】領洋者I型精英近程自衛火炮III",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -2374,7 +839,7 @@ pg.weapon_property_272 = {}
 		reload_max = 750,
 		queue = 1,
 		range = 80,
-		damage = 16,
+		damage = 7,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 125,
@@ -2382,7 +847,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565321,
+		id = 567131,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -2399,9 +864,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565322] = {
+	uv0.weapon_property_272[567132] = {
 		recover_time = 0,
-		name = "【英系副本】領洋者I型精英主炮1",
+		name = "【長門陸奧活動A】【精英】領洋者I型精英主炮1",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2418,7 +883,7 @@ pg.weapon_property_272 = {}
 		reload_max = 3200,
 		queue = 1,
 		range = 90,
-		damage = 55,
+		damage = 17,
 		suppress = 0,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2426,7 +891,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 565322,
+		id = 567132,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
@@ -2445,9 +910,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565323] = {
+	uv0.weapon_property_272[567133] = {
 		recover_time = 0,
-		name = "【英系副本】領洋者I型精英主炮2",
+		name = "【長門陸奧活動A】【精英】領洋者I型精英主炮2",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2464,7 +929,7 @@ pg.weapon_property_272 = {}
 		reload_max = 1500,
 		queue = 1,
 		range = 90,
-		damage = 34,
+		damage = 14,
 		suppress = 0,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2472,7 +937,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 565323,
+		id = 567133,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -2489,9 +954,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565324] = {
+	uv0.weapon_property_272[567134] = {
 		recover_time = 0.5,
-		name = "【英系副本】領洋者I型精英三聯裝魚雷II",
+		name = "【長門陸奧活動A】【精英】領洋者I型精英三聯裝魚雷II",
 		shakescreen = 0,
 		type = 3,
 		torpedo_ammo = 0,
@@ -2508,7 +973,7 @@ pg.weapon_property_272 = {}
 		reload_max = 1850,
 		queue = 1,
 		range = 80,
-		damage = 90,
+		damage = 32,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2516,7 +981,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 1,
 		spawn_bound = "torpedo",
 		fire_sfx = "",
-		id = 565324,
+		id = 567134,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -2533,9 +998,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565325] = {
+	uv0.weapon_property_272[567135] = {
 		recover_time = 0.5,
-		name = "【英系副本】領洋者I型精英特殊主炮",
+		name = "【長門陸奧活動A】【精英】領洋者I型精英特殊主炮",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -2552,7 +1017,7 @@ pg.weapon_property_272 = {}
 		reload_max = 2450,
 		queue = 1,
 		range = 80,
-		damage = 42,
+		damage = 15,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 125,
@@ -2560,7 +1025,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565325,
+		id = 567135,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -2583,9 +1048,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565326] = {
+	uv0.weapon_property_272[567136] = {
 		recover_time = 0.5,
-		name = "【英系副本】領洋者I型精英特殊武器旋轉子彈",
+		name = "【長門陸奧活動A】【精英】領洋者I型精英特殊武器旋轉子彈",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -2602,7 +1067,7 @@ pg.weapon_property_272 = {}
 		reload_max = 750,
 		queue = 1,
 		range = 80,
-		damage = 18,
+		damage = 8,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 125,
@@ -2610,7 +1075,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565326,
+		id = 567136,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -2641,9 +1106,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565327] = {
+	uv0.weapon_property_272[567137] = {
 		recover_time = 0.5,
-		name = "【英系副本】領洋者I型精英特殊彈幕2",
+		name = "【長門陸奧活動A】【精英】領洋者I型精英特殊彈幕2",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -2660,7 +1125,7 @@ pg.weapon_property_272 = {}
 		reload_max = 5000,
 		queue = 2,
 		range = 70,
-		damage = 14,
+		damage = 7,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 125,
@@ -2668,7 +1133,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565327,
+		id = 567137,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
@@ -2687,9 +1152,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565331] = {
+	uv0.weapon_property_272[567141] = {
 		recover_time = 0,
-		name = "【英系副本】破局者I型精英武器1",
+		name = "【長門陸奧活動A】【精英】破局者I型精英武器1",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2706,7 +1171,7 @@ pg.weapon_property_272 = {}
 		reload_max = 250,
 		queue = 1,
 		range = 100,
-		damage = 22,
+		damage = 7,
 		suppress = 0,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2714,7 +1179,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 565331,
+		id = 567141,
 		attack_attribute_ratio = 80,
 		aim_type = 1,
 		bullet_ID = {
@@ -2733,9 +1198,9 @@ pg.weapon_property_272 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_272[565332] = {
+	uv0.weapon_property_272[567142] = {
 		recover_time = 0,
-		name = "【英系副本】破局者I型精英6顆炮彈一輪攻擊前排",
+		name = "【長門陸奧活動A】【精英】破局者I型精英6顆炮彈一輪攻擊前排",
 		shakescreen = 0,
 		type = 19,
 		torpedo_ammo = 0,
@@ -2752,7 +1217,7 @@ pg.weapon_property_272 = {}
 		reload_max = 1650,
 		queue = 1,
 		range = 50,
-		damage = 28,
+		damage = 15,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2760,7 +1225,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon2",
 		fire_sfx = "battle/cannon-main",
-		id = 565332,
+		id = 567142,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -2781,9 +1246,9 @@ pg.weapon_property_272 = {}
 			time = 1
 		}
 	}
-	uv0.weapon_property_272[565333] = {
+	uv0.weapon_property_272[567143] = {
 		recover_time = 0,
-		name = "【英系副本】破局者I型精英2顆炮彈一輪攻擊後排",
+		name = "【長門陸奧活動A】【精英】破局者I型精英2顆炮彈一輪攻擊後排",
 		shakescreen = 0,
 		type = 19,
 		torpedo_ammo = 0,
@@ -2800,7 +1265,7 @@ pg.weapon_property_272 = {}
 		reload_max = 3600,
 		queue = 1,
 		range = 150,
-		damage = 85,
+		damage = 30,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2808,7 +1273,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon3",
 		fire_sfx = "battle/cannon-main",
-		id = 565333,
+		id = 567143,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
@@ -2829,9 +1294,9 @@ pg.weapon_property_272 = {}
 			time = 1
 		}
 	}
-	uv0.weapon_property_272[565334] = {
+	uv0.weapon_property_272[567144] = {
 		recover_time = 0,
-		name = "【英系副本】破局者I型精英專用武器",
+		name = "【長門陸奧活動A】【精英】破局者I型精英專用武器",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2848,7 +1313,7 @@ pg.weapon_property_272 = {}
 		reload_max = 1000,
 		queue = 1,
 		range = 100,
-		damage = 16,
+		damage = 6,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2856,7 +1321,7 @@ pg.weapon_property_272 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 565334,
+		id = 567144,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
@@ -2864,6 +1329,1548 @@ pg.weapon_property_272 = {}
 		},
 		barrage_ID = {
 			400802
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567145] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【精英】破局者I型精英特殊武器2",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 180,
+		reload_max = 1000,
+		queue = 2,
+		range = 90,
+		damage = 16,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 567145,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			8041
+		},
+		barrage_ID = {
+			8041
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567151] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【精英】執棋者I型精英武器1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 180,
+		reload_max = 2500,
+		queue = 1,
+		range = 90,
+		damage = 14,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 567151,
+		attack_attribute_ratio = 90,
+		aim_type = 1,
+		bullet_ID = {
+			801
+		},
+		barrage_ID = {
+			399981
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567152] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【精英】執棋者I型精英武器2",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 180,
+		reload_max = 1000,
+		queue = 1,
+		range = 90,
+		damage = 9,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 567152,
+		attack_attribute_ratio = 90,
+		aim_type = 0,
+		bullet_ID = {
+			801,
+			801,
+			801
+		},
+		barrage_ID = {
+			7220,
+			7221,
+			7222
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567153] = {
+		recover_time = 5,
+		name = "【長門陸奧活動A】【精英】執棋者I型精英浮游炮機體",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 1800,
+		queue = 2,
+		range = 120,
+		damage = 10,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		id = 567153,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			30013
+		},
+		barrage_ID = {
+			12019
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567154] = {
+		recover_time = 5,
+		name = "【長門陸奧活動A】【精英】執棋者I型精英轟炸機T3",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 2850,
+		queue = 2,
+		range = 100,
+		damage = 36,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		id = 567154,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			30019
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567155] = {
+		recover_time = 5,
+		name = "【長門陸奧活動A】【精英】執棋者I型精英魚雷機T3",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 2200,
+		queue = 2,
+		range = 110,
+		damage = 28,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		id = 567155,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			30014
+		},
+		barrage_ID = {
+			12015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567201] = {
+		recover_time = 0.5,
+		name = "【長門陸奧活動A】【Boss】朝潮_副炮",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1200,
+		queue = 1,
+		range = 60,
+		damage = 6,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 567201,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			567201
+		},
+		barrage_ID = {
+			567201
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567211] = {
+		recover_time = 0.5,
+		name = "【長門陸奧活動A】【Boss】朝潮_穿甲",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 600,
+		queue = 1,
+		range = 60,
+		damage = 10,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 567211,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			567211,
+			567212
+		},
+		barrage_ID = {
+			567211,
+			567212
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567221] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】朝潮_魚雷",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1400,
+		queue = 3,
+		range = 90,
+		damage = 35,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 567221,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			567221,
+			567221
+		},
+		barrage_ID = {
+			567221,
+			567222
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567231] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】朝潮_波浪連射",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 800,
+		queue = 1,
+		range = 120,
+		damage = 8,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 567231,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			567231,
+			567231
+		},
+		barrage_ID = {
+			567231,
+			567232
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567301] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】春月_水槍副炮",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 800,
+		queue = 1,
+		range = 90,
+		damage = 6,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 567301,
+		attack_attribute_ratio = 80,
+		aim_type = 1,
+		bullet_ID = {
+			567301,
+			567301
+		},
+		barrage_ID = {
+			567301,
+			567302
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567311] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】春月_魚雷",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1400,
+		queue = 3,
+		range = 90,
+		damage = 35,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 567311,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			567311
+		},
+		barrage_ID = {
+			567311
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567401] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】宵月_弧形散射",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 400,
+		queue = 1,
+		range = 90,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 567401,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			567401,
+			567402
+		},
+		barrage_ID = {
+			567401,
+			567402
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567411] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】宵月_魚雷",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1400,
+		queue = 3,
+		range = 90,
+		damage = 35,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 567411,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			567411
+		},
+		barrage_ID = {
+			567411
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567501] = {
+		recover_time = 0.5,
+		name = "【長門陸奧活動A】【Boss】金剛_近程自衛火炮II",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 600,
+		queue = 1,
+		range = 38,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 567501,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			12
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567511] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】金剛_單發主炮x4-瞄準II",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1400,
+		queue = 1,
+		range = 90,
+		damage = 16,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 567511,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1403
+		},
+		barrage_ID = {
+			200091
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567521] = {
+		recover_time = 0.5,
+		name = "【長門陸奧活動A】【Boss】金剛_平射",
+		shakescreen = 0,
+		type = 19,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 80,
+		reload_max = 2000,
+		queue = 1,
+		range = 70,
+		damage = 22,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 567521,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			567521
+		},
+		barrage_ID = {
+			10015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 1,
+			time = 0.5,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_272[567531] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】金剛_4聯掃射",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1200,
+		queue = 1,
+		range = 120,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 567531,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			567531,
+			567531
+		},
+		barrage_ID = {
+			567532,
+			567533
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567541] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】金剛_跨射炮_X軸",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1400,
+		queue = 1,
+		range = 90,
+		damage = 45,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 567541,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			567541
+		},
+		barrage_ID = {
+			567541
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567601] = {
+		recover_time = 0.5,
+		name = "【長門陸奧活動A】【Boss】榛名_近程自衛火炮II",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 600,
+		queue = 1,
+		range = 38,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 567601,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			12
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567611] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】榛名_單發主炮x4-瞄準II",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1400,
+		queue = 1,
+		range = 90,
+		damage = 16,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 567611,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1403
+		},
+		barrage_ID = {
+			200091
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567621] = {
+		recover_time = 0.5,
+		name = "【長門陸奧活動A】【Boss】榛名_平射",
+		shakescreen = 0,
+		type = 19,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 80,
+		reload_max = 2000,
+		queue = 1,
+		range = 70,
+		damage = 22,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 567621,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			567521
+		},
+		barrage_ID = {
+			10015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 1,
+			time = 0.5,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_272[567631] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】榛名_4聯掃射",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1200,
+		queue = 1,
+		range = 120,
+		damage = 7,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 567631,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			567631,
+			567631
+		},
+		barrage_ID = {
+			567632,
+			567633
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567641] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【Boss】榛名_跨射炮_Y軸",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1400,
+		queue = 1,
+		range = 90,
+		damage = 45,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 567641,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			567641
+		},
+		barrage_ID = {
+			567641
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567901] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【飛機】空襲轟炸機武器",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 400,
+		queue = 1,
+		range = 10,
+		damage = 28,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 567901,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567902] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【飛機】空襲魚雷機武器",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 35,
+		reload_max = 11954,
+		queue = 1,
+		range = 40,
+		damage = 22,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 22,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 567902,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			30067
+		},
+		barrage_ID = {
+			12001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567903] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【飛機】空襲戰鬥機彈幕武器",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "fangkongpaohuoshe2",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 1650,
+		queue = 1,
+		range = 85,
+		damage = 4,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		id = 567903,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567904] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【飛機】空襲戰鬥機空中武器",
+		shakescreen = 0,
+		type = 4,
+		torpedo_ammo = 0,
+		fire_fx = "fangkongpaohuoshe2",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 48,
+		queue = 1,
+		range = 200,
+		damage = 16,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		id = 567904,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567911] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【飛機】塞壬航母蛋船轟炸機武器T1",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 400,
+		queue = 1,
+		range = 10,
+		damage = 28,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 567911,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567912] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【飛機】塞壬航母蛋船戰鬥機彈幕",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "fangkongpaohuoshe2",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 1650,
+		queue = 1,
+		range = 85,
+		damage = 4,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		id = 567912,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567913] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【飛機】塞壬航母蛋船戰鬥機空中",
+		shakescreen = 0,
+		type = 4,
+		torpedo_ammo = 0,
+		fire_fx = "fangkongpaohuoshe2",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 48,
+		queue = 1,
+		range = 200,
+		damage = 16,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		id = 567913,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567921] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【飛機】鳳翔轟炸機T1",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 400,
+		queue = 1,
+		range = 10,
+		damage = 31,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 567921,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			10012
+		},
+		barrage_ID = {
+			10001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567922] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【飛機】鳳翔魚雷機T1",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 35,
+		reload_max = 11954,
+		queue = 1,
+		range = 40,
+		damage = 25,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 22,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 567922,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			10031
+		},
+		barrage_ID = {
+			12001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_272[567923] = {
+		recover_time = 0,
+		name = "【長門陸奧活動A】【飛機】鳳翔戰鬥機T1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "fangkongpaohuoshe2",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 1650,
+		queue = 1,
+		range = 85,
+		damage = 6,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		id = 567923,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			20001,
+			20001,
+			20001,
+			20001
+		},
+		barrage_ID = {
+			101,
+			102,
+			103,
+			104
 		},
 		oxy_type = {
 			1

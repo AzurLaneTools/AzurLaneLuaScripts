@@ -15,7 +15,7 @@ return {
 			bgm = "idom-Speed",
 			actor = 10700020,
 			nameColor = "#a9f548",
-			say = "虽说输给那样的对手情有可原…但是，单纯只把歌唱出口，是没法打动人心的。",
+			say = "雖說輸給那樣的對手情有可原…但是，單純只把歌唱出口，是沒法打動人心的。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -55,7 +55,7 @@ return {
 			actor = 10700050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……啊哈哈，你们要好好照看好对方才行啊。",
+			say = "……啊哈哈，妳們要好好照顧好對方才行啊。",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -94,7 +94,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果我们的歌曲和舞蹈能帮上大家……请务必让我们帮忙。",
+			say = "如果我們的歌曲和舞蹈能幫上大家……請務必讓我們幫忙。",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -133,7 +133,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "保护同伴不是理所当然的事情嘛。",
+			say = "保護同伴不是理所當然的事情嘛。",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -172,7 +172,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且要是成功了，不仅可以解除这次危机，我们也能回到原来的世界，皆大欢喜！",
+			say = "而且要是成功了，不僅可以解除這次危機，我們也能回到原來的世界，皆大歡喜！",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -212,7 +212,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是就是！真美们的字典里可没有失败这个词—！",
+			say = "就是就是！真美們的字典裡可沒有失敗這個詞—！",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -252,7 +252,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们也觉得，在所有人都能出场的大舞台上演出更好！",
+			say = "我們也覺得，在所有人都能出場的大舞台上演出更好！",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -291,7 +291,7 @@ return {
 			actor = 103250,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（这不仅是自己的舞台，更是和伙伴们一起的舞台）",
+			say = "（這不僅是自己的舞台，更是和夥伴們一起的舞台）",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不仅是我们，还有同样使用“μ兵装”的其她舰船伙伴们）",
+			say = "（不僅是我們，還有同樣使用“μ兵裝”的其他艦船夥伴們）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			actor = 10700010,
 			dir = 1,
-			say = "（不仅如此……就连没有使用“μ兵装”舰船的大家们也在努力着。甚至这个世界的伙伴们，还有粉丝们…大家一起营造出了这个最棒的舞台！）",
+			say = "（不僅如此……就連沒有使用“μ兵裝”艦船的大家們也在努力著。甚至這個世界的夥伴們，還有粉絲們…大家一起營造出了這個最棒的舞台！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（而且，在原来世界的伙伴们也………）",
+			say = "（而且，在原來世界的夥伴們也………）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舞台的氛围产生变化了…",
+			say = "舞台的氛圍產生變化了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，看来担心的问题已经解决了。",
+			say = "是啊，看來擔心的問題已經解決了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}，能量数值应该也产生变化了吧？",
+			say = "{namecode:98}，能量數值應該也產生變化了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的喵！我们这边的数值已经超过对方了喵！再加把劲喵！",
+			say = "真的喵！我們這邊的數值已經超過對方了喵！再加把勁喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们最棒的舞台，还没有结束哦！",
+			say = "我們最棒的舞台，還沒有結束哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就这样一直到安可，一口气唱到最后吧！",
+			say = "就這樣一直到安可，一口氣唱到最後吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰船的各位也能跟上吗？",
+			say = "艦船的各位也能跟上嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,9 +530,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "全员",
+			actorName = "全員",
 			dir = 1,
-			say = "没问题——！",
+			say = "沒問題——！",
 			effects = {
 				{
 					active = true,
@@ -554,7 +554,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那就让我们燃到最后吧~！",
+			say = "那就讓我們燃到最後吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

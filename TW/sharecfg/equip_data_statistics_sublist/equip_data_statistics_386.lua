@@ -1,153 +1,144 @@
 pg = pg or {}
 pg.equip_data_statistics_386 = {
-	[90447] = {
-		id = 90447,
-		damage = "97 x 4",
-		base = 90440,
+	[90403] = {
+		id = 90403,
+		damage = "58 x 4",
+		base = 90400,
 		weapon_id = {
-			90447
+			90403
 		}
 	},
-	[90448] = {
-		id = 90448,
-		damage = "104 x 4",
-		base = 90440,
+	[90404] = {
+		id = 90404,
+		damage = "64 x 4",
+		base = 90400,
 		weapon_id = {
-			90448
+			90404
 		}
 	},
-	[90449] = {
-		id = 90449,
-		damage = "112 x 4",
-		base = 90440,
+	[90405] = {
+		id = 90405,
+		damage = "70 x 4",
+		base = 90400,
 		weapon_id = {
-			90449
+			90405
 		}
 	},
-	[90450] = {
-		id = 90450,
-		damage = "120 x 4",
-		base = 90440,
+	[90406] = {
+		id = 90406,
+		damage = "76 x 4",
+		base = 90400,
 		weapon_id = {
-			90450
+			90406
 		}
 	},
-	[90600] = {
-		tech = 0,
-		name = "雙聯37mm高射炮Mle1936",
-		speciality = "防空",
-		type = 6,
-		value_2 = 45,
-		ammo = 5,
-		damage = "38/輪",
+	[90420] = {
+		tech = 2,
+		name = "四聯裝380mm主炮Mle1935",
+		speciality = "跨射",
+		type = 4,
+		value_2 = 25,
+		ammo = 2,
+		damage = "44 x 4",
 		nationality = 8,
-		rarity = 5,
-		id = 90600,
+		rarity = 4,
+		id = 90420,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
-		icon = "50600",
-		attribute_2 = "antiaircraft",
+		icon = "50400",
+		attribute_2 = "cannon",
 		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				2,
+				1552
+			}
+		},
 		equip_info = {
 			1,
 			2,
 			6,
-			10
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			90600
+			90420
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
 			4,
 			5,
-			6,
 			10,
-			12,
-			13,
-			18,
-			19
+			13
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			10,
-			12,
-			13,
-			18,
-			19
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"DD",
-			"AA"
+			"BB",
+			"MG",
+			"HE"
 		}
 	},
-	[90601] = {
-		id = 90601,
-		damage = "42/輪",
-		base = 90600,
+	[90421] = {
+		id = 90421,
+		damage = "50 x 4",
+		base = 90420,
 		weapon_id = {
-			90601
+			90421
 		}
 	},
-	[90602] = {
-		id = 90602,
-		damage = "46/輪",
-		base = 90600,
+	[90422] = {
+		id = 90422,
+		damage = "56 x 4",
+		base = 90420,
 		weapon_id = {
-			90602
+			90422
 		}
 	},
-	[90603] = {
-		id = 90603,
-		damage = "50/輪",
-		base = 90600,
+	[90423] = {
+		id = 90423,
+		damage = "62 x 4",
+		base = 90420,
 		weapon_id = {
-			90603
+			90423
 		}
 	},
-	[90604] = {
-		id = 90604,
-		damage = "54/輪",
-		base = 90600,
+	[90424] = {
+		id = 90424,
+		damage = "68 x 4",
+		base = 90420,
 		weapon_id = {
-			90604
+			90424
 		}
 	},
-	[90605] = {
-		id = 90605,
-		damage = "58/輪",
-		base = 90600,
+	[90425] = {
+		id = 90425,
+		damage = "75 x 4",
+		base = 90420,
 		weapon_id = {
-			90605
+			90425
 		}
 	},
-	[90606] = {
-		id = 90606,
-		damage = "62/輪",
-		base = 90600,
+	[90426] = {
+		id = 90426,
+		damage = "82 x 4",
+		base = 90420,
 		weapon_id = {
-			90606
+			90426
 		}
 	},
-	[90607] = {
-		id = 90607,
-		damage = "66/輪",
-		base = 90600,
+	[90427] = {
+		id = 90427,
+		damage = "89 x 4",
+		base = 90420,
 		weapon_id = {
-			90607
+			90427
 		}
 	}
 }

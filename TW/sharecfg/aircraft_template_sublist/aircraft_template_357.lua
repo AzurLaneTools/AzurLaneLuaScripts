@@ -1,166 +1,18 @@
 pg = pg or {}
 pg.aircraft_template_357 = {
-	[749012] = {
+	[729029] = {
 		attack_power = 2,
-		name = "【DOA联动】舰载轰炸机II",
+		name = "【2020偶像活动二期】光辉 音符轰炸机4",
 		type = 3,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
-		ACC_growth = 0,
-		crash_DMG = 85,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 749012,
-		icon = "99shijianbao1",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 2660,
-		speed = 30,
-		max_hp = 110,
-		scale = 0.75,
-		weapon_ID = {
-			1100971
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[749013] = {
-		attack_power = 2,
-		name = "【DOA联动】舰载轰炸机III",
-		type = 3,
-		accuracy = 23,
-		model_ID = "99shijianbao1",
-		ACC_growth = 0,
-		crash_DMG = 110,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 749013,
-		icon = "99shijianbao1",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 3040,
-		speed = 30,
-		max_hp = 140,
-		scale = 0.75,
-		weapon_ID = {
-			1100972
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[749014] = {
-		attack_power = 2,
-		name = "【DOA联动】舰载轰炸机IV",
-		type = 3,
-		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 749014,
-		icon = "99shijianbao1",
+		id = 729029,
+		icon = "haiyan",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 3420,
@@ -168,7 +20,7 @@ pg.aircraft_template_357 = {
 		max_hp = 170,
 		scale = 0.75,
 		weapon_ID = {
-			1100973
+			729039
 		},
 		position_offset = {
 			0,
@@ -222,19 +74,19 @@ pg.aircraft_template_357 = {
 			}
 		}
 	},
-	[749015] = {
+	[729030] = {
 		attack_power = 2,
-		name = "【DOA联动】舰载轰炸机V",
+		name = "【2020偶像活动二期】光辉 音符轰炸机5",
 		type = 3,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 749015,
-		icon = "99shijianbao1",
+		id = 729030,
+		icon = "haiyan",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 3800,
@@ -242,7 +94,7 @@ pg.aircraft_template_357 = {
 		max_hp = 200,
 		scale = 0.75,
 		weapon_ID = {
-			1100974
+			729040
 		},
 		position_offset = {
 			0,
@@ -296,176 +148,28 @@ pg.aircraft_template_357 = {
 			}
 		}
 	},
-	[750000] = {
+	[743104] = {
 		attack_power = 2,
-		name = "空袭-轰炸机",
-		type = 3,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 220,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 750000,
-		icon = "shenhaifeiji",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 3800,
-		speed = 30,
-		max_hp = 180,
-		scale = 0.75,
-		weapon_ID = {
-			750137
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[750001] = {
-		attack_power = 2,
-		name = "空袭-鱼雷机",
-		type = 2,
-		accuracy = 23,
-		model_ID = "shenhaifeiji",
-		ACC_growth = 0,
-		crash_DMG = 180,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 750001,
-		icon = "shenhaifeiji",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 3200,
-		speed = 30,
-		max_hp = 164,
-		scale = 0.75,
-		weapon_ID = {
-			750066
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					-1.13,
-					-1.29,
-					0
-				},
-				{
-					-1.25,
-					1.47,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[750002] = {
-		attack_power = 2,
-		name = "空袭-战斗机",
+		name = "【DOA联动SP4】BOSS 女天狗 舰载战斗机V",
 		type = 1,
 		accuracy = 23,
-		model_ID = "shenhaifeiji",
+		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
-		crash_DMG = 130,
+		crash_DMG = 98,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 750002,
-		icon = "shenhaifeiji",
+		id = 743104,
+		icon = "lingzhan21gai",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 2800,
 		speed = 33,
-		max_hp = 148,
+		max_hp = 160,
 		scale = 0.75,
 		weapon_ID = {
-			750133,
-			750134
+			743107,
+			743108
 		},
 		position_offset = {
 			0,
@@ -519,102 +223,27 @@ pg.aircraft_template_357 = {
 			}
 		}
 	},
-	[750003] = {
+	[743105] = {
 		attack_power = 2,
-		name = "齐柏林使用BF109T (飞机",
-		type = 1,
+		name = "【DOA联动SP4】BOSS 女天狗 舰载鱼雷机V",
+		type = 2,
 		accuracy = 23,
-		model_ID = "BF109T",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 156,
+		crash_DMG = 136,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 4,
-		id = 750003,
-		icon = "BF109T",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 2500,
-		speed = 43,
-		max_hp = 168,
-		scale = 0.75,
-		weapon_ID = {
-			750133,
-			750134
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.83,
-					-1.48,
-					0
-				},
-				{
-					0.87,
-					1.34,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[750004] = {
-		attack_power = 2,
-		name = "齐柏林使用JU87C (飞机",
-		type = 3,
-		accuracy = 23,
-		model_ID = "JU87C",
-		ACC_growth = 0,
-		crash_DMG = 216,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 4,
-		id = 750004,
-		icon = "JU87C",
+		nationality = 3,
+		id = 743105,
+		icon = "97jiangong",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 3400,
-		speed = 41,
-		max_hp = 246,
+		speed = 30,
+		max_hp = 180,
 		scale = 0.75,
 		weapon_ID = {
-			750137
+			743109
 		},
 		position_offset = {
 			0,
@@ -634,13 +263,87 @@ pg.aircraft_template_357 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.86,
-					-1.3,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					1.14,
-					1.13,
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[743106] = {
+		attack_power = 2,
+		name = "【DOA联动SP4】BOSS 女天狗 舰载轰炸机V",
+		type = 3,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 743106,
+		icon = "99shijianbao1",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 3800,
+		speed = 30,
+		max_hp = 200,
+		scale = 0.75,
+		weapon_ID = {
+			743110
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -668,28 +371,27 @@ pg.aircraft_template_357 = {
 			}
 		}
 	},
-	[750005] = {
+	[743116] = {
 		attack_power = 2,
-		name = "齐柏林使用Me155A (飞机",
-		type = 1,
-		accuracy = 23,
-		model_ID = "Me155A",
+		name = "【DOA联动SP4】BOSS 女天狗 fever 轰炸机",
+		type = 3,
+		accuracy = 50,
+		model_ID = "huixing",
 		ACC_growth = 0,
-		crash_DMG = 168,
+		crash_DMG = 540,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 4,
-		id = 750005,
-		icon = "Me155A",
+		nationality = 3,
+		id = 743116,
+		icon = "huixing",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2800,
-		speed = 44,
-		max_hp = 188,
+		hp_growth = 0,
+		speed = 30,
+		max_hp = 1800,
 		scale = 0.75,
 		weapon_ID = {
-			750135,
-			750136
+			743117
 		},
 		position_offset = {
 			0,
@@ -709,13 +411,13 @@ pg.aircraft_template_357 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.04,
-					1.18,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.83,
-					-0.79,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -732,7 +434,313 @@ pg.aircraft_template_357 = {
 				0
 			},
 			{
-				0.51,
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[745003] = {
+		attack_power = 2,
+		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 150,
+		dodge = 1,
+		nationality = 3,
+		id = 745003,
+		icon = "lingzhan52",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2778,
+		speed = 60,
+		max_hp = 8000,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70121
+		},
+		weapon_ID = {
+			745006,
+			745007
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[745004] = {
+		attack_power = 2,
+		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 150,
+		dodge = 1,
+		nationality = 3,
+		id = 745004,
+		icon = "lingzhan52",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2778,
+		speed = 60,
+		max_hp = 8000,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70122
+		},
+		weapon_ID = {
+			745006,
+			745007
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[745005] = {
+		attack_power = 2,
+		name = "【DOA联动EX】BOSS 女天狗 第二波 飞机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 150,
+		dodge = 1,
+		nationality = 3,
+		id = 745005,
+		icon = "lingzhan52",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2778,
+		speed = 60,
+		max_hp = 8000,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70123
+		},
+		weapon_ID = {
+			745006,
+			745007
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[749001] = {
+		attack_power = 2,
+		name = "【DOA联动】舰载战斗机I",
+		type = 1,
+		accuracy = 23,
+		model_ID = "lingzhan21gai",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 749001,
+		icon = "lingzhan21gai",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1680,
+		speed = 33,
+		max_hp = 64,
+		scale = 0.75,
+		weapon_ID = {
+			1100745,
+			1100750
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			},

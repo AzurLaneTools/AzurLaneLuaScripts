@@ -2,6 +2,126 @@ pg = pg or {}
 pg.weapon_property_134 = {}
 
 (function ()
+	uv0.weapon_property_134[66742] = {
+		id = 66742,
+		name = "出雲技能LV2-穿甲",
+		damage = 38,
+		base = 66740
+	}
+	uv0.weapon_property_134[66743] = {
+		id = 66743,
+		name = "出雲技能LV3-穿甲",
+		damage = 46,
+		base = 66740
+	}
+	uv0.weapon_property_134[66744] = {
+		id = 66744,
+		name = "出雲技能LV4-穿甲",
+		damage = 54,
+		base = 66740,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80051,
+			80055,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_134[66745] = {
+		id = 66745,
+		name = "出雲技能LV5-穿甲",
+		damage = 62,
+		base = 66740,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80051,
+			80055,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_134[66746] = {
+		id = 66746,
+		name = "出雲技能LV6-穿甲",
+		damage = 70,
+		base = 66740,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80051,
+			80055,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_134[66747] = {
+		id = 66747,
+		name = "出雲技能LV7-穿甲",
+		damage = 78,
+		base = 66740,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80052,
+			80056,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_134[66748] = {
+		id = 66748,
+		name = "出雲技能LV8-穿甲",
+		damage = 86,
+		base = 66740,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80052,
+			80056,
+			80053,
+			80057
+		}
+	}
+	uv0.weapon_property_134[66749] = {
+		id = 66749,
+		name = "出雲技能LV9-穿甲",
+		damage = 95,
+		base = 66740,
+		bullet_ID = {
+			19922,
+			19922,
+			19922,
+			19922
+		},
+		barrage_ID = {
+			80052,
+			80056,
+			80053,
+			80057
+		}
+	}
 	uv0.weapon_property_134[66750] = {
 		id = 66750,
 		name = "出雲技能LV10-穿甲",
@@ -726,94 +846,5 @@ pg.weapon_property_134 = {}
 		id = 66849,
 		damage = 220,
 		base = 66840
-	}
-	uv0.weapon_property_134[66850] = {
-		id = 66850,
-		damage = 240,
-		base = 66840
-	}
-	uv0.weapon_property_134[66860] = {
-		recover_time = 0.5,
-		name = "羅伯茨級技能箭型LV0",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 50,
-		damage = 21,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 66860,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19925,
-			19925
-		},
-		barrage_ID = {
-			80081,
-			80085
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_134[66861] = {
-		id = 66861,
-		name = "羅伯茨級技能箭型LV1",
-		damage = 26,
-		base = 66860
-	}
-	uv0.weapon_property_134[66862] = {
-		id = 66862,
-		name = "羅伯茨級技能箭型LV2",
-		damage = 31,
-		base = 66860
-	}
-	uv0.weapon_property_134[66863] = {
-		id = 66863,
-		name = "羅伯茨級技能箭型LV3",
-		damage = 36,
-		base = 66860
-	}
-	uv0.weapon_property_134[66864] = {
-		id = 66864,
-		name = "羅伯茨級技能箭型LV4",
-		damage = 41,
-		base = 66860,
-		barrage_ID = {
-			80082,
-			80086
-		}
-	}
-	uv0.weapon_property_134[66865] = {
-		id = 66865,
-		name = "羅伯茨級技能箭型LV5",
-		damage = 46,
-		base = 66860,
-		barrage_ID = {
-			80082,
-			80086
-		}
 	}
 end)()

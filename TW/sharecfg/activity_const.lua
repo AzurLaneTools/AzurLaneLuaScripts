@@ -778,13 +778,13 @@ pg.activity_const = {
 		act_id = 987
 	},
 	IDOL_MASTER_PT_ID = {
-		act_id = 4052
+		act_id = 40387
 	},
 	IDOL_MASTER_MEDAL_ID = {
-		act_id = 4058
+		act_id = 40393
 	},
 	IDOL_MASTER_CHAPTER_ID = {
-		act_id = 4050
+		act_id = 40385
 	},
 	TIANHOU_SKIN_ACT_ID = {
 		act_id = 4067

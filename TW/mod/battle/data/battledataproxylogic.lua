@@ -84,8 +84,11 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 		isHeal = false,
 		isMiss = slot13,
 		isCri = slot14,
-		attr = slot11.damageAttr
-	}, slot1:GetPosition(), slot12)
+		attr = slot11.damageAttr,
+		font = slot12,
+		cldPos = slot1:GetPosition(),
+		srcID = slot7.battleUID
+	})
 	slot0:DamageStatistics(slot7.id, slot2:GetAttrByName("id"), slot10)
 
 	if not slot13 and slot1:GetWeaponTempData().type ~= uv2.EquipmentType.ANTI_AIR then
@@ -339,8 +342,11 @@ function slot0.HandleWallDamage(slot0, slot1, slot2)
 		isHeal = false,
 		isMiss = slot6.isMiss,
 		isCri = slot6.isCri,
-		attr = slot6.damageAttr
-	}, slot1:GetPosition(), slot7)
+		attr = slot6.damageAttr,
+		font = slot7,
+		cldPos = slot1:GetPosition(),
+		srcID = slot4
+	})
 	slot0:DamageStatistics(slot4, slot2:GetAttrByName("id"), slot5)
 
 	if slot2:IsAlive() then

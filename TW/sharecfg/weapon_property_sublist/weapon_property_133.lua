@@ -2,6 +2,101 @@ pg = pg or {}
 pg.weapon_property_133 = {}
 
 (function ()
+	uv0.weapon_property_133[66625] = {
+		id = 66625,
+		name = "寶石槍雨航彈",
+		damage = 155,
+		base = 66620
+	}
+	uv0.weapon_property_133[66626] = {
+		id = 66626,
+		name = "寶石槍雨航彈",
+		damage = 171,
+		base = 66620
+	}
+	uv0.weapon_property_133[66627] = {
+		id = 66627,
+		name = "寶石槍雨航彈",
+		damage = 187,
+		base = 66620
+	}
+	uv0.weapon_property_133[66628] = {
+		id = 66628,
+		name = "寶石槍雨航彈",
+		damage = 203,
+		base = 66620
+	}
+	uv0.weapon_property_133[66629] = {
+		id = 66629,
+		name = "寶石槍雨航彈",
+		damage = 219,
+		base = 66620
+	}
+	uv0.weapon_property_133[66630] = {
+		id = 66630,
+		name = "寶石槍雨航彈",
+		damage = 235,
+		base = 66620
+	}
+	uv0.weapon_property_133[66640] = {
+		recover_time = 0.5,
+		name = "約克公爵技能LV0",
+		shakescreen = 302,
+		type = 23,
+		torpedo_ammo = 0,
+		fire_fx = "zhupao",
+		action_index = "attack_main",
+		fire_fx_loop_type = 1,
+		axis_angle = 0,
+		attack_attribute = 1,
+		reload_max = 3000,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 50,
+		queue = 1,
+		suppress = 1,
+		range = 200,
+		damage = 40,
+		auto_aftercast = 0,
+		initial_over_heat = 1,
+		corrected = 110,
+		min_range = 35,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-356mm",
+		id = 66640,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19985
+		},
+		barrage_ID = {
+			1302
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		charge_param = {
+			maxLock = 4,
+			lockTime = 0.3
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_133[66641] = {
+		id = 66641,
+		name = "約克公爵技能LV1",
+		damage = 46,
+		base = 66640
+	}
+	uv0.weapon_property_133[66642] = {
+		id = 66642,
+		name = "約克公爵技能LV2",
+		damage = 52,
+		base = 66640
+	}
 	uv0.weapon_property_133[66643] = {
 		id = 66643,
 		name = "約克公爵技能LV3",
@@ -666,125 +761,5 @@ pg.weapon_property_133 = {}
 		name = "出雲技能LV1-穿甲",
 		damage = 30,
 		base = 66740
-	}
-	uv0.weapon_property_133[66742] = {
-		id = 66742,
-		name = "出雲技能LV2-穿甲",
-		damage = 38,
-		base = 66740
-	}
-	uv0.weapon_property_133[66743] = {
-		id = 66743,
-		name = "出雲技能LV3-穿甲",
-		damage = 46,
-		base = 66740
-	}
-	uv0.weapon_property_133[66744] = {
-		id = 66744,
-		name = "出雲技能LV4-穿甲",
-		damage = 54,
-		base = 66740,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80051,
-			80055,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_133[66745] = {
-		id = 66745,
-		name = "出雲技能LV5-穿甲",
-		damage = 62,
-		base = 66740,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80051,
-			80055,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_133[66746] = {
-		id = 66746,
-		name = "出雲技能LV6-穿甲",
-		damage = 70,
-		base = 66740,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80051,
-			80055,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_133[66747] = {
-		id = 66747,
-		name = "出雲技能LV7-穿甲",
-		damage = 78,
-		base = 66740,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80052,
-			80056,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_133[66748] = {
-		id = 66748,
-		name = "出雲技能LV8-穿甲",
-		damage = 86,
-		base = 66740,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80052,
-			80056,
-			80053,
-			80057
-		}
-	}
-	uv0.weapon_property_133[66749] = {
-		id = 66749,
-		name = "出雲技能LV9-穿甲",
-		damage = 95,
-		base = 66740,
-		bullet_ID = {
-			19922,
-			19922,
-			19922,
-			19922
-		},
-		barrage_ID = {
-			80052,
-			80056,
-			80053,
-			80057
-		}
 	}
 end)()

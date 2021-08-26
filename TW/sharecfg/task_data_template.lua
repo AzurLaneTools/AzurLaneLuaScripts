@@ -68782,6 +68782,687 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[16818] = {
+		name = "『偶像大师』日常建造",
+		guild_coin_award = 0,
+		award = 95741,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造艦船3次。",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "0",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16818,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				300
+			}
+		}
+	},
+	[16819] = {
+		name = "『偶像大师』日常出击",
+		guild_coin_award = 0,
+		award = 95742,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "艦隊出征，獲得15勝利。",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "0",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16819,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				300
+			}
+		}
+	},
+	[16820] = {
+		name = "『偶像大师』日常困难本",
+		guild_coin_award = 0,
+		award = 95743,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "通關1次任意困難關卡",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16820,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				100
+			}
+		}
+	},
+	[16821] = {
+		name = "『偶像大师』完成「活动特殊委托」1次",
+		guild_coin_award = 0,
+		award = 95744,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 82,
+		desc = "完成「活動特殊委託」1次",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16821,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			50015,
+			50016,
+			50017,
+			50018,
+			50019,
+			50020,
+			50021,
+			50022,
+			50023,
+			50024,
+			50025,
+			50026,
+			50027,
+			50028
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				200
+			},
+			{
+				8,
+				70081,
+				1
+			}
+		},
+		scene = {
+			"EVENT"
+		}
+	},
+	[16822] = {
+		name = "『偶像大师』累计建造10次",
+		guild_coin_award = 0,
+		award = 95745,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "建造艦船10次。",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "0",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16822,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				500
+			},
+			{
+				8,
+				70080,
+				1
+			}
+		}
+	},
+	[16823] = {
+		name = "『偶像大师』关卡特殊演出状态下获得60次胜利",
+		guild_coin_award = 0,
+		award = 95746,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 13,
+		desc = "關卡特殊演出狀態下獲得60次勝利",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 16823,
+		target_num = 60,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			8765,
+			8767,
+			8769
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				300
+			},
+			{
+				8,
+				70087,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[16824] = {
+		name = "『偶像大师』通关SP1",
+		guild_coin_award = 0,
+		award = 95747,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP1",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "1540001",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16825",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 1540001,
+		id = 16824,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70083,
+				1
+			}
+		}
+	},
+	[16825] = {
+		name = "『偶像大师』通关SP2",
+		guild_coin_award = 0,
+		award = 95748,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP2",
+		story_icon = "",
+		is_head = 0,
+		level = 1,
+		story_id = "",
+		target_id = "1540002",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16826",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 1540002,
+		id = 16825,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				400
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70085,
+				1
+			}
+		}
+	},
+	[16826] = {
+		name = "『偶像大师』通关SP3",
+		guild_coin_award = 0,
+		award = 95749,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP3",
+		story_icon = "",
+		is_head = 0,
+		level = 1,
+		story_id = "",
+		target_id = "1540003",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16827",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 1540003,
+		id = 16826,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				600
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70079,
+				1
+			}
+		}
+	},
+	[16827] = {
+		name = "『偶像大师』通关SP4",
+		guild_coin_award = 0,
+		award = 95750,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP4",
+		story_icon = "",
+		is_head = 0,
+		level = 1,
+		story_id = "",
+		target_id = "1540004",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16828",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 1540004,
+		id = 16827,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59230,
+				800
+			},
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				8,
+				70089,
+				1
+			}
+		}
+	},
+	[16828] = {
+		name = "『偶像大师』通关VSP",
+		guild_coin_award = 0,
+		award = 95751,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關VSP",
+		story_icon = "",
+		is_head = 0,
+		level = 1,
+		story_id = "",
+		target_id = "1540041",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 1540041,
+		id = 16828,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				8,
+				70091,
+				1
+			}
+		}
+	},
+	[16829] = {
+		name = "『偶像大师』SP1三星",
+		guild_coin_award = 0,
+		award = 95752,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成SP1的3星收集",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "1540001",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16830",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 1540001,
+		id = 16829,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30327,
+				1
+			},
+			{
+				8,
+				70084,
+				1
+			}
+		}
+	},
+	[16830] = {
+		name = "『偶像大师』SP2三星",
+		guild_coin_award = 0,
+		award = 95753,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成SP2的3星收集",
+		story_icon = "",
+		is_head = 0,
+		level = 1,
+		story_id = "",
+		target_id = "1540002",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16831",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 1540002,
+		id = 16830,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30327,
+				1
+			},
+			{
+				8,
+				70088,
+				1
+			}
+		}
+	},
+	[16831] = {
+		name = "『偶像大师』SP3三星",
+		guild_coin_award = 0,
+		award = 95754,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成SP3的3星收集",
+		story_icon = "",
+		is_head = 0,
+		level = 1,
+		story_id = "",
+		target_id = "1540003",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "16832",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 1540003,
+		id = 16831,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30327,
+				1
+			},
+			{
+				8,
+				70082,
+				1
+			}
+		}
+	},
+	[16832] = {
+		name = "『偶像大师』SP4三星",
+		guild_coin_award = 0,
+		award = 95755,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成SP4的3星收集",
+		story_icon = "",
+		is_head = 0,
+		level = 1,
+		story_id = "",
+		target_id = "1540004",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 1540004,
+		id = 16832,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30327,
+				1
+			},
+			{
+				8,
+				70090,
+				1
+			}
+		}
+	},
+	[16833] = {
+		name = "『偶像大师』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 95796,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "登入遊戲",
+		story_icon = "",
+		is_head = 1,
+		level = 1,
+		story_id = "",
+		target_id = "0",
+		award_choice = "",
+		priority_type = 0,
+		next_task = "0",
+		visibility = 1,
+		scene = "",
+		target_id_for_client = 0,
+		id = 16833,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				216,
+				2
+			}
+		}
+	},
 	[16855] = {
 		name = "『美系V3复刻』送矶风JK1",
 		guild_coin_award = 0,
@@ -83002,6 +83683,22 @@ pg.task_data_template = {
 		16765,
 		16766,
 		16767,
+		16818,
+		16819,
+		16820,
+		16821,
+		16822,
+		16823,
+		16824,
+		16825,
+		16826,
+		16827,
+		16828,
+		16829,
+		16830,
+		16831,
+		16832,
+		16833,
 		16855,
 		16856,
 		16857,

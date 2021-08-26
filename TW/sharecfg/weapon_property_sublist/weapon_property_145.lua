@@ -2,60 +2,6 @@ pg = pg or {}
 pg.weapon_property_145 = {}
 
 (function ()
-	uv0.weapon_property_145[67820] = {
-		id = 67820,
-		damage = 226,
-		base = 67811
-	}
-	uv0.weapon_property_145[67821] = {
-		recover_time = 0,
-		name = "2 x機載魚雷-重櫻",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 20,
-		reload_max = 9500,
-		queue = 1,
-		range = 80,
-		damage = 91,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 67821,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			2112
-		},
-		barrage_ID = {
-			2111
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_145[67822] = {
-		id = 67822,
-		damage = 96,
-		base = 67821
-	}
 	uv0.weapon_property_145[67823] = {
 		id = 67823,
 		damage = 102,
@@ -686,5 +632,25 @@ pg.weapon_property_145 = {}
 			1
 		},
 		precast_param = {}
+	}
+	uv0.weapon_property_145[67912] = {
+		id = 67912,
+		damage = 144,
+		base = 67911
+	}
+	uv0.weapon_property_145[67913] = {
+		id = 67913,
+		damage = 162,
+		base = 67911
+	}
+	uv0.weapon_property_145[67914] = {
+		id = 67914,
+		damage = 180,
+		base = 67911
+	}
+	uv0.weapon_property_145[67915] = {
+		id = 67915,
+		damage = 198,
+		base = 67911
 	}
 end)()

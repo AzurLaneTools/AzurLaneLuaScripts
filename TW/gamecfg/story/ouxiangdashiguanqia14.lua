@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "idom-Thinking",
-			say = "那便是，再次迎来“斗争”的七色之海",
+			say = "那便是，再次迎來“鬥爭”的七色之海",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "那便是，守护和平世界的闪耀舞台",
+			say = "那便是，守護和平世界的閃耀舞台",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "那便是，响彻大海的热情与希望之歌",
+			say = "那便是，響徹大海的熱情與希望之歌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "那便是，这个世界的“偶像”。",
+			say = "那便是，這個世界的“偶像”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "看着由远到近的全息影像中粉丝们的身影，少女们纵情演唱着。",
+			say = "看著由遠到近的全息影像中粉絲們的身影，少女們縱情演唱著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "大家，燃起来了吗——！",
+			say = "大家，燃起來了嗎——！",
 			effects = {
 				{
 					active = true,
@@ -98,7 +98,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "不仅是μ兵装的各位，还有我们也在哦！",
+			say = "不僅是μ兵裝的各位，還有我們也在哦！",
 			effects = {
 				{
 					active = true,
@@ -120,7 +120,7 @@ return {
 			actor = 901120,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "优雅地闪耀吧，维希…不，碧蓝航线的偶像们！",
+			say = "優雅地閃耀吧，維希…不，碧藍航線的偶像們！",
 			effects = {
 				{
 					active = true,
@@ -141,7 +141,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "倾听我们的歌唱吧！",
+			say = "傾聽我們的歌唱吧！",
 			effects = {
 				{
 					active = true,
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区·临时事务所",
+			say = "港區·臨時事務所",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}，μ兵装的能量数值怎么样了？",
+			say = "{namecode:98}，μ兵裝的能量數值怎麼樣了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已经很高了喵！这样的话应该真的能把对方的能量给……",
+			say = "已經很高了喵！這樣的話應該真的能把對方的能量給……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，还差一点。看吧，对方的能量也在不断升高，仿佛跟这边比拼着一样。",
+			say = "不，還差一點。看吧，對方的能量也在不斷升高，彷彿跟這邊比拼著一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的喵…这样下去真的只能一起爆炸了喵？！",
+			say = "真的喵…這樣下去真的只能一起爆炸了喵？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "就这样下去的话，确实…究竟该怎么办才好呢……",
+			say = "就這樣下去的話，確實…究竟該怎麼辦才好呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

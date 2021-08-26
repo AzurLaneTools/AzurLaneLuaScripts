@@ -1,150 +1,153 @@
 pg = pg or {}
 pg.equip_data_statistics_399 = {
-	[95204] = {
-		id = 95204,
-		damage = "23 x 8",
-		base = 95200,
+	[95124] = {
+		id = 95124,
+		damage = "54/輪",
+		base = 95120,
 		weapon_id = {
-			95204
+			95124
 		}
 	},
-	[95205] = {
-		id = 95205,
-		damage = "24 x 8",
-		base = 95200,
+	[95125] = {
+		id = 95125,
+		damage = "59/輪",
+		base = 95120,
 		weapon_id = {
-			95205
+			95125
 		}
 	},
-	[95206] = {
-		id = 95206,
-		damage = "25 x 8",
-		base = 95200,
+	[95126] = {
+		id = 95126,
+		damage = "65/輪",
+		base = 95120,
 		weapon_id = {
-			95206
+			95126
 		}
 	},
-	[95220] = {
-		tech = 2,
-		name = "雙聯203mm主炮Model1927",
-		speciality = "鎖定",
-		type = 3,
-		value_2 = 25,
-		ammo = 1,
-		damage = "26 x 8",
+	[95127] = {
+		id = 95127,
+		damage = "71/輪",
+		base = 95120,
+		weapon_id = {
+			95127
+		}
+	},
+	[95128] = {
+		id = 95128,
+		damage = "77/輪",
+		base = 95120,
+		weapon_id = {
+			95128
+		}
+	},
+	[95129] = {
+		id = 95129,
+		damage = "83/輪",
+		base = 95120,
+		weapon_id = {
+			95129
+		}
+	},
+	[95130] = {
+		id = 95130,
+		damage = "90/輪",
+		base = 95120,
+		weapon_id = {
+			95130
+		}
+	},
+	[95140] = {
+		tech = 3,
+		name = "90mm單裝高角炮Model1939",
+		speciality = "防空",
+		type = 6,
+		value_2 = 45,
+		ammo = 5,
+		damage = "40/輪",
 		nationality = 6,
-		rarity = 4,
-		id = 95220,
+		rarity = 5,
+		id = 95140,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "说明未填写",
-		icon = "55200",
-		attribute_2 = "cannon",
+		icon = "55100",
+		attribute_2 = "antiaircraft",
 		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				1,
-				1401
-			}
-		},
+		ammo_icon = {},
+		ammo_info = {},
 		equip_info = {
 			1,
 			2,
-			{
-				3,
-				1401
-			},
-			{
-				4,
-				1221
-			},
 			6,
-			10,
-			11,
-			12
+			10
 		},
 		weapon_id = {
-			95220
+			95140
 		},
 		skill_id = {},
 		part_main = {
+			1,
+			2,
 			3,
-			18
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
 		},
-		part_sub = {},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
 		equip_parameters = {},
 		label = {
 			"RN",
-			"CA",
-			"MG",
-			"AP"
+			"ST",
+			"AA"
 		}
 	},
-	[95221] = {
-		id = 95221,
-		damage = "26 x 8",
-		base = 95220,
+	[95141] = {
+		id = 95141,
+		damage = "45/輪",
+		base = 95140,
 		weapon_id = {
-			95221
+			95141
 		}
 	},
-	[95222] = {
-		id = 95222,
-		damage = "27 x 8",
-		base = 95220,
+	[95142] = {
+		id = 95142,
+		damage = "50/輪",
+		base = 95140,
 		weapon_id = {
-			95222
+			95142
 		}
 	},
-	[95223] = {
-		id = 95223,
-		damage = "28 x 8",
-		base = 95220,
+	[95143] = {
+		id = 95143,
+		damage = "56/輪",
+		base = 95140,
 		weapon_id = {
-			95223
+			95143
 		}
 	},
-	[95224] = {
-		id = 95224,
-		damage = "29 x 8",
-		base = 95220,
+	[95144] = {
+		id = 95144,
+		damage = "62/輪",
+		base = 95140,
 		weapon_id = {
-			95224
-		}
-	},
-	[95225] = {
-		id = 95225,
-		damage = "30 x 8",
-		base = 95220,
-		weapon_id = {
-			95225
-		}
-	},
-	[95226] = {
-		id = 95226,
-		damage = "31 x 8",
-		base = 95220,
-		weapon_id = {
-			95226
-		}
-	},
-	[95227] = {
-		id = 95227,
-		damage = "32 x 8",
-		base = 95220,
-		weapon_id = {
-			95227
-		}
-	},
-	[95228] = {
-		id = 95228,
-		damage = "33 x 8",
-		base = 95220,
-		weapon_id = {
-			95228
+			95144
 		}
 	}
 }

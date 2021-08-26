@@ -1,97 +1,103 @@
 pg = pg or {}
 pg.aircraft_template_187 = {
-	[69214] = {
-		id = 69214,
-		name = "库珀轰炸PBY-Lv4",
-		base = 69211,
-		max_hp = 61,
-		hp_growth = 2247,
+	[69164] = {
+		id = 69164,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv4",
+		base = 69161,
+		max_hp = 68,
+		hp_growth = 2602,
 		weapon_ID = {
-			69224
+			69174,
+			69184
 		}
 	},
-	[69215] = {
-		id = 69215,
-		name = "库珀轰炸PBY-Lv5",
-		base = 69211,
-		max_hp = 67,
-		hp_growth = 2458,
+	[69165] = {
+		id = 69165,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv5",
+		base = 69161,
+		max_hp = 74,
+		hp_growth = 2846,
 		weapon_ID = {
-			69225
+			69175,
+			69185
 		}
 	},
-	[69216] = {
-		id = 69216,
-		name = "库珀轰炸PBY-Lv6",
-		base = 69211,
-		max_hp = 73,
-		hp_growth = 2669,
-		weapon_ID = {
-			69226
-		}
-	},
-	[69217] = {
-		id = 69217,
-		name = "库珀轰炸PBY-Lv7",
-		base = 69211,
-		max_hp = 79,
-		hp_growth = 2879,
-		weapon_ID = {
-			69227
-		}
-	},
-	[69218] = {
-		id = 69218,
-		name = "库珀轰炸PBY-Lv8",
-		base = 69211,
-		max_hp = 86,
+	[69166] = {
+		id = 69166,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv6",
+		base = 69161,
+		max_hp = 80,
 		hp_growth = 3090,
 		weapon_ID = {
-			69228
+			69176,
+			69186
 		}
 	},
-	[69219] = {
-		id = 69219,
-		name = "库珀轰炸PBY-Lv9",
-		base = 69211,
-		max_hp = 92,
-		hp_growth = 3301,
+	[69167] = {
+		id = 69167,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv7",
+		base = 69161,
+		max_hp = 87,
+		hp_growth = 3334,
 		weapon_ID = {
-			69229
+			69177,
+			69187
 		}
 	},
-	[69220] = {
-		id = 69220,
-		name = "库珀轰炸PBY-Lv10",
-		base = 69211,
-		max_hp = 98,
-		hp_growth = 3511,
+	[69168] = {
+		id = 69168,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv8",
+		base = 69161,
+		max_hp = 93,
+		hp_growth = 3578,
 		weapon_ID = {
-			69230
+			69178,
+			69188
 		}
 	},
-	[69451] = {
+	[69169] = {
+		id = 69169,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv9",
+		base = 69161,
+		max_hp = 99,
+		hp_growth = 3822,
+		weapon_ID = {
+			69179,
+			69189
+		}
+	},
+	[69170] = {
+		id = 69170,
+		name = "无畏技能SB2C(VB-18)轰炸机Lv10",
+		base = 69161,
+		max_hp = 106,
+		hp_growth = 4066,
+		weapon_ID = {
+			69180,
+			69190
+		}
+	},
+	[69201] = {
 		attack_power = 2,
-		name = "贝亚恩V-156F-LV1",
-		type = 1,
+		name = "库珀反潜PBY-Lv1",
+		type = 3,
 		accuracy = 23,
-		model_ID = "v156f",
+		model_ID = "pby",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 0.315,
+		crash_DMG = 208,
+		dodge = 1,
 		funnel_behavior = "",
 		nationality = 1,
-		id = 69451,
-		icon = "v156f",
+		id = 69201,
+		icon = "pby",
 		AP_growth = 2000,
-		dodge_limit = 11,
-		hp_growth = 1947,
-		speed = 50,
-		max_hp = 51,
+		dodge_limit = 0,
+		hp_growth = 1615,
+		speed = 66,
+		max_hp = 42,
 		scale = 1,
 		weapon_ID = {
-			50701,
-			69461
+			53141
 		},
 		position_offset = {
 			0,
@@ -111,13 +117,13 @@ pg.aircraft_template_187 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -134,7 +140,7 @@ pg.aircraft_template_187 = {
 				0
 			},
 			{
-				0,
+				0.64,
 				0,
 				0
 			},
@@ -145,26 +151,24 @@ pg.aircraft_template_187 = {
 			}
 		}
 	},
-	[69452] = {
-		id = 69452,
-		name = "贝亚恩V-156F-LV2",
-		base = 69451,
-		max_hp = 57,
-		hp_growth = 2201,
+	[69202] = {
+		id = 69202,
+		name = "库珀反潜PBY-Lv2",
+		base = 69201,
+		max_hp = 48,
+		hp_growth = 1826,
 		weapon_ID = {
-			50702,
-			69462
+			53142
 		}
 	},
-	[69453] = {
-		id = 69453,
-		name = "贝亚恩V-156F-LV3",
-		base = 69451,
-		max_hp = 64,
-		hp_growth = 2455,
+	[69203] = {
+		id = 69203,
+		name = "库珀反潜PBY-Lv3",
+		base = 69201,
+		max_hp = 54,
+		hp_growth = 2036,
 		weapon_ID = {
-			50703,
-			69463
+			53143
 		}
 	}
 }

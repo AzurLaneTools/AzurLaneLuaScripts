@@ -38,6 +38,9 @@ function slot0.execute(slot0, slot1)
 		slot5:setFirstChargeList(slot2)
 		slot5:setNormalList(slot3)
 		slot5:setNormalGroupList(slot4)
+
+		slot5.refreshChargeList = false
+
 		uv0:sendNotification(GAME.GET_CHARGE_LIST_DONE, {
 			chargedList = slot1,
 			firstChargeIds = slot2,

@@ -1,5 +1,238 @@
 pg = pg or {}
 pg.equip_data_statistics_198 = {
+	[27305] = {
+		id = 27305,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50665
+			},
+			{
+				5,
+				52345
+			}
+		},
+		weapon_id = {
+			27305,
+			82305
+		}
+	},
+	[27306] = {
+		id = 27306,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50666
+			},
+			{
+				5,
+				52346
+			}
+		},
+		weapon_id = {
+			27306,
+			82306
+		}
+	},
+	[27307] = {
+		id = 27307,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50667
+			},
+			{
+				5,
+				52347
+			}
+		},
+		weapon_id = {
+			27307,
+			82307
+		}
+	},
+	[27308] = {
+		id = 27308,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50668
+			},
+			{
+				5,
+				52348
+			}
+		},
+		weapon_id = {
+			27308,
+			82308
+		}
+	},
+	[27309] = {
+		id = 27309,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50669
+			},
+			{
+				5,
+				52349
+			}
+		},
+		weapon_id = {
+			27309,
+			82309
+		}
+	},
+	[27310] = {
+		id = 27310,
+		base = 27300,
+		ammo_info = {
+			{
+				6,
+				50670
+			},
+			{
+				5,
+				52350
+			}
+		},
+		weapon_id = {
+			27310,
+			82310
+		}
+	},
+	[27320] = {
+		rarity = 5,
+		name = "海大黃蜂",
+		speciality = "空戰",
+		type = 7,
+		tech = 0,
+		ammo = 5,
+		nationality = 2,
+		value_2 = 45,
+		id = 27320,
+		torpedo_ammo = 0,
+		value_3 = 0,
+		descrip = "皇家雙活塞發動機式戰鬥機「德哈維蘭大黃蜂」的艦載機型，飛行速度很快，性能優秀",
+		icon = "27320",
+		attribute_2 = "air",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				5,
+				52760
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			27320,
+			82320
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27321] = {
+		id = 27321,
+		base = 27320,
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				5,
+				52761
+			}
+		},
+		weapon_id = {
+			27321,
+			82321
+		}
+	},
+	[27322] = {
+		id = 27322,
+		base = 27320,
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				5,
+				52762
+			}
+		},
+		weapon_id = {
+			27322,
+			82322
+		}
+	},
+	[27323] = {
+		id = 27323,
+		base = 27320,
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				5,
+				52763
+			}
+		},
+		weapon_id = {
+			27323,
+			82323
+		}
+	},
+	[27324] = {
+		id = 27324,
+		base = 27320,
+		ammo_info = {
+			{
+				6,
+				50664
+			},
+			{
+				5,
+				52764
+			}
+		},
+		weapon_id = {
+			27324,
+			82324
+		}
+	},
 	[27325] = {
 		id = 27325,
 		base = 27320,
@@ -16,268 +249,6 @@ pg.equip_data_statistics_198 = {
 		weapon_id = {
 			27325,
 			82325
-		}
-	},
-	[27326] = {
-		id = 27326,
-		base = 27320,
-		ammo_info = {
-			{
-				6,
-				50666
-			},
-			{
-				5,
-				52766
-			}
-		},
-		weapon_id = {
-			27326,
-			82326
-		}
-	},
-	[27327] = {
-		id = 27327,
-		base = 27320,
-		ammo_info = {
-			{
-				6,
-				50667
-			},
-			{
-				5,
-				52767
-			}
-		},
-		weapon_id = {
-			27327,
-			82327
-		}
-	},
-	[27328] = {
-		id = 27328,
-		base = 27320,
-		ammo_info = {
-			{
-				6,
-				50668
-			},
-			{
-				5,
-				52768
-			}
-		},
-		weapon_id = {
-			27328,
-			82328
-		}
-	},
-	[27329] = {
-		id = 27329,
-		base = 27320,
-		ammo_info = {
-			{
-				6,
-				50669
-			},
-			{
-				5,
-				52769
-			}
-		},
-		weapon_id = {
-			27329,
-			82329
-		}
-	},
-	[27330] = {
-		id = 27330,
-		base = 27320,
-		ammo_info = {
-			{
-				6,
-				50670
-			},
-			{
-				5,
-				52770
-			}
-		},
-		weapon_id = {
-			27330,
-			82330
-		}
-	},
-	[28000] = {
-		rarity = 2,
-		name = "劍魚",
-		speciality = "雷擊",
-		type = 8,
-		tech = 1,
-		ammo = 5,
-		nationality = 2,
-		value_2 = 5,
-		id = 28000,
-		torpedo_ammo = 0,
-		value_3 = 0,
-		descrip = "說明未填寫",
-		icon = "28000",
-		attribute_2 = "air",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			},
-			{
-				4,
-				51000
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
-		}
-	},
-	[28001] = {
-		id = 28001,
-		base = 28000,
-		ammo_info = {
-			{
-				6,
-				50001
-			},
-			{
-				4,
-				51001
-			}
-		},
-		weapon_id = {
-			28001
-		}
-	},
-	[28002] = {
-		id = 28002,
-		base = 28000,
-		ammo_info = {
-			{
-				6,
-				50002
-			},
-			{
-				4,
-				51002
-			}
-		},
-		weapon_id = {
-			28002
-		}
-	},
-	[28003] = {
-		id = 28003,
-		base = 28000,
-		ammo_info = {
-			{
-				6,
-				50003
-			},
-			{
-				4,
-				51003
-			}
-		},
-		weapon_id = {
-			28003
-		}
-	},
-	[28020] = {
-		rarity = 3,
-		name = "劍魚",
-		speciality = "雷擊",
-		type = 8,
-		tech = 2,
-		ammo = 5,
-		nationality = 2,
-		value_2 = 12,
-		id = 28020,
-		torpedo_ammo = 0,
-		value_3 = 0,
-		descrip = "說明未填寫",
-		icon = "28000",
-		attribute_2 = "air",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				4,
-				51020
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			28020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"HMS",
-			"CV",
-			"TB"
-		}
-	},
-	[28021] = {
-		id = 28021,
-		base = 28020,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51021
-			}
-		},
-		weapon_id = {
-			28021
 		}
 	}
 }

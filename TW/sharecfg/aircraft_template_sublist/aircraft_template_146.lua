@@ -1,28 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_146 = {
-	[65911] = {
+	[65571] = {
 		attack_power = 2,
-		name = "天鹰技能G.50Lv1",
-		type = 1,
+		name = "威悉技能轰炸机PlusLv1",
+		type = 3,
 		accuracy = 23,
-		model_ID = "g50",
+		model_ID = "JU87C",
 		ACC_growth = 0,
-		crash_DMG = 160,
-		dodge = 0.333,
+		crash_DMG = 156,
+		dodge = 0.315,
 		funnel_behavior = "",
-		nationality = 6,
-		id = 65911,
-		icon = "g50",
+		nationality = 4,
+		id = 65571,
+		icon = "JU87C",
 		AP_growth = 2000,
-		dodge_limit = 9,
-		hp_growth = 1785,
+		dodge_limit = 11,
+		hp_growth = 1549,
 		speed = 50,
-		max_hp = 46,
+		max_hp = 51,
 		scale = 1,
 		weapon_ID = {
-			50041,
-			50541,
-			65921
+			65581
 		},
 		position_offset = {
 			0,
@@ -42,13 +40,13 @@ pg.aircraft_template_146 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					-1.28,
+					1.62,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					-1.12,
+					-1,
 					0
 				}
 			}
@@ -65,7 +63,7 @@ pg.aircraft_template_146 = {
 				0
 			},
 			{
-				0.27,
+				0,
 				0,
 				0
 			},
@@ -76,112 +74,94 @@ pg.aircraft_template_146 = {
 			}
 		}
 	},
-	[65912] = {
-		id = 65912,
-		name = "天鹰技能G.50Lv2",
-		base = 65911,
-		max_hp = 52,
-		hp_growth = 2018,
+	[65572] = {
+		id = 65572,
+		name = "威悉技能轰炸机PlusLv2",
+		base = 65561,
+		max_hp = 57,
+		hp_growth = 1781,
 		weapon_ID = {
-			50042,
-			50542,
-			65922
+			65582
 		}
 	},
-	[65913] = {
-		id = 65913,
-		name = "天鹰技能G.50Lv3",
-		base = 65911,
-		max_hp = 59,
-		hp_growth = 2251,
+	[65573] = {
+		id = 65573,
+		name = "威悉技能轰炸机PlusLv3",
+		base = 65561,
+		max_hp = 64,
+		hp_growth = 2013,
 		weapon_ID = {
-			50043,
-			50543,
-			65923
+			65583
 		}
 	},
-	[65914] = {
-		id = 65914,
-		name = "天鹰技能G.50Lv4",
-		base = 65911,
-		max_hp = 65,
-		hp_growth = 2484,
+	[65574] = {
+		id = 65574,
+		name = "威悉技能轰炸机PlusLv4",
+		base = 65561,
+		max_hp = 70,
+		hp_growth = 2246,
 		weapon_ID = {
-			50044,
-			50544,
-			65924
+			65584
 		}
 	},
-	[65915] = {
-		id = 65915,
-		name = "天鹰技能G.50Lv5",
-		base = 65911,
-		max_hp = 71,
-		hp_growth = 2717,
-		weapon_ID = {
-			50045,
-			50545,
-			65925
-		}
-	},
-	[65916] = {
-		id = 65916,
-		name = "天鹰技能G.50Lv6",
-		base = 65911,
+	[65575] = {
+		id = 65575,
+		name = "威悉技能轰炸机PlusLv5",
+		base = 65561,
 		max_hp = 77,
-		hp_growth = 2949,
+		hp_growth = 2478,
 		weapon_ID = {
-			50046,
-			50546,
-			65926
+			65585
 		}
 	},
-	[65917] = {
-		id = 65917,
-		name = "天鹰技能G.50Lv7",
-		base = 65911,
-		max_hp = 83,
-		hp_growth = 3182,
+	[65576] = {
+		id = 65576,
+		name = "威悉技能轰炸机PlusLv6",
+		base = 65561,
+		max_hp = 84,
+		hp_growth = 2710,
 		weapon_ID = {
-			50047,
-			50547,
-			65927
+			65586
 		}
 	},
-	[65918] = {
-		id = 65918,
-		name = "天鹰技能G.50Lv8",
-		base = 65911,
-		max_hp = 89,
-		hp_growth = 3415,
+	[65577] = {
+		id = 65577,
+		name = "威悉技能轰炸机PlusLv7",
+		base = 65561,
+		max_hp = 90,
+		hp_growth = 2943,
 		weapon_ID = {
-			50048,
-			50548,
-			65928
+			65587
 		}
 	},
-	[65919] = {
-		id = 65919,
-		name = "天鹰技能G.50Lv9",
-		base = 65911,
-		max_hp = 95,
-		hp_growth = 3648,
+	[65578] = {
+		id = 65578,
+		name = "威悉技能轰炸机PlusLv8",
+		base = 65561,
+		max_hp = 97,
+		hp_growth = 3175,
 		weapon_ID = {
-			50049,
-			50549,
-			65929
+			65588
 		}
 	},
-	[65920] = {
-		id = 65920,
-		name = "天鹰技能G.50Lv10",
-		base = 65911,
-		max_hp = 101,
-		hp_growth = 3881,
+	[65579] = {
+		id = 65579,
+		name = "威悉技能轰炸机PlusLv9",
+		base = 65561,
+		max_hp = 103,
+		hp_growth = 3407,
 		weapon_ID = {
-			50050,
-			50550,
-			65930
+			65589
+		}
+	},
+	[65580] = {
+		id = 65580,
+		name = "威悉技能轰炸机PlusLv10",
+		base = 65561,
+		max_hp = 110,
+		hp_growth = 3640,
+		weapon_ID = {
+			65590
 		}
 	}
 }

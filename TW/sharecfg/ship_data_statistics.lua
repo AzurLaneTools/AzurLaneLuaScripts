@@ -227659,6 +227659,4394 @@ pg.ship_data_statistics = {
 			"DOAXVV"
 		}
 	},
+	[10700011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "天海春香",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10700010,
+		english_name = "Amami Haruka",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10700011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			670,
+			30,
+			68,
+			68,
+			0,
+			71,
+			0,
+			55,
+			28,
+			32,
+			83,
+			36
+		},
+		attrs_growth = {
+			16345,
+			298,
+			672,
+			1340,
+			0,
+			352,
+			0,
+			810,
+			408,
+			0,
+			0,
+			354
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.45,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "天海春香",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10700010,
+		english_name = "Amami Haruka",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10700012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			833,
+			37,
+			85,
+			85,
+			0,
+			71,
+			0,
+			55,
+			28,
+			32,
+			83,
+			45
+		},
+		attrs_growth = {
+			16345,
+			298,
+			672,
+			1340,
+			0,
+			352,
+			0,
+			810,
+			408,
+			0,
+			0,
+			354
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.45,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "天海春香",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10700010,
+		english_name = "Amami Haruka",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10700013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1160,
+			52,
+			118,
+			118,
+			0,
+			71,
+			0,
+			55,
+			28,
+			32,
+			83,
+			63
+		},
+		attrs_growth = {
+			16345,
+			298,
+			672,
+			1340,
+			0,
+			352,
+			0,
+			810,
+			408,
+			0,
+			0,
+			354
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.55,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "天海春香",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10700010,
+		english_name = "Amami Haruka",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10700014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1651,
+			75,
+			169,
+			169,
+			0,
+			71,
+			0,
+			55,
+			28,
+			32,
+			83,
+			89
+		},
+		attrs_growth = {
+			16345,
+			298,
+			672,
+			1340,
+			0,
+			352,
+			0,
+			810,
+			408,
+			0,
+			0,
+			354
+		},
+		attrs_growth_extra = {
+			9807,
+			707,
+			1208,
+			537,
+			0,
+			833,
+			0,
+			-58,
+			732,
+			0,
+			0,
+			423
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.55,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700021] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "如月千早",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10700020,
+		english_name = "Kisaragi Chihaya",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1128,
+			0,
+			0,
+			60,
+			82,
+			53,
+			0,
+			30,
+			13,
+			31.5,
+			72,
+			0
+		},
+		attrs_growth = {
+			27500,
+			0,
+			0,
+			1168,
+			814,
+			264,
+			0,
+			450,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700022] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "如月千早",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10700020,
+		english_name = "Kisaragi Chihaya",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1403,
+			0,
+			0,
+			75,
+			102,
+			53,
+			0,
+			30,
+			13,
+			31.5,
+			72,
+			0
+		},
+		attrs_growth = {
+			27500,
+			0,
+			0,
+			1168,
+			814,
+			264,
+			0,
+			450,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700023] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "如月千早",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10700020,
+		english_name = "Kisaragi Chihaya",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1953,
+			0,
+			0,
+			104,
+			143,
+			53,
+			0,
+			30,
+			13,
+			31.5,
+			72,
+			0
+		},
+		attrs_growth = {
+			27500,
+			0,
+			0,
+			1168,
+			814,
+			264,
+			0,
+			450,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700024] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "如月千早",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10700020,
+		english_name = "Kisaragi Chihaya",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2778,
+			0,
+			0,
+			148,
+			204,
+			53,
+			0,
+			30,
+			13,
+			31.5,
+			72,
+			0
+		},
+		attrs_growth = {
+			27500,
+			0,
+			0,
+			1168,
+			814,
+			264,
+			0,
+			450,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			16500,
+			0,
+			0,
+			597,
+			1171,
+			629,
+			0,
+			-3,
+			768,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700031] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水瀨伊織",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10700030,
+		english_name = "Minase Iori",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10700031,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1303,
+			80,
+			0,
+			72,
+			0,
+			55,
+			0,
+			19,
+			6,
+			26,
+			77,
+			0
+		},
+		attrs_growth = {
+			31785,
+			796,
+			0,
+			1408,
+			0,
+			276,
+			0,
+			282,
+			96,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700032] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水瀨伊織",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10700030,
+		english_name = "Minase Iori",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10700032,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1621,
+			100,
+			0,
+			90,
+			0,
+			55,
+			0,
+			19,
+			6,
+			26,
+			77,
+			0
+		},
+		attrs_growth = {
+			31785,
+			796,
+			0,
+			1408,
+			0,
+			276,
+			0,
+			282,
+			96,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700033] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水瀨伊織",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10700030,
+		english_name = "Minase Iori",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10700033,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2257,
+			140,
+			0,
+			125,
+			0,
+			55,
+			0,
+			19,
+			6,
+			26,
+			77,
+			0
+		},
+		attrs_growth = {
+			31785,
+			796,
+			0,
+			1408,
+			0,
+			276,
+			0,
+			282,
+			96,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700034] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水瀨伊織",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10700030,
+		english_name = "Minase Iori",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10700034,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3210,
+			199,
+			0,
+			178,
+			0,
+			55,
+			0,
+			19,
+			6,
+			26,
+			77,
+			0
+		},
+		attrs_growth = {
+			31785,
+			796,
+			0,
+			1408,
+			0,
+			276,
+			0,
+			282,
+			96,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			19065,
+			1181,
+			0,
+			506,
+			0,
+			647,
+			0,
+			25,
+			779,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "三浦梓",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10700040,
+		english_name = "Miura Azusa",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			873,
+			44,
+			0,
+			39,
+			0,
+			64,
+			0,
+			45,
+			17,
+			26.4,
+			91,
+			0
+		},
+		attrs_growth = {
+			21300,
+			440,
+			0,
+			772,
+			0,
+			320,
+			0,
+			660,
+			258,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.6,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "三浦梓",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10700040,
+		english_name = "Miura Azusa",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1086,
+			55,
+			0,
+			49,
+			0,
+			64,
+			0,
+			45,
+			17,
+			26.4,
+			91,
+			0
+		},
+		attrs_growth = {
+			21300,
+			440,
+			0,
+			772,
+			0,
+			320,
+			0,
+			660,
+			258,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.6,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "三浦梓",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10700040,
+		english_name = "Miura Azusa",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1512,
+			77,
+			0,
+			68,
+			0,
+			64,
+			0,
+			45,
+			17,
+			26.4,
+			91,
+			0
+		},
+		attrs_growth = {
+			21300,
+			440,
+			0,
+			772,
+			0,
+			320,
+			0,
+			660,
+			258,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.6,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "三浦梓",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10700040,
+		english_name = "Miura Azusa",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2151,
+			110,
+			0,
+			97,
+			0,
+			64,
+			0,
+			45,
+			17,
+			26.4,
+			91,
+			0
+		},
+		attrs_growth = {
+			21300,
+			440,
+			0,
+			772,
+			0,
+			320,
+			0,
+			660,
+			258,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			12774,
+			1038,
+			0,
+			526,
+			0,
+			753,
+			0,
+			-33,
+			752,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.65,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700051] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "秋月律子",
+		type = 19,
+		oxy_cost = 0,
+		skin_id = 10700050,
+		english_name = "Akizuki Ritsuko",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700051,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			721,
+			13,
+			0,
+			32,
+			0,
+			79,
+			0,
+			78,
+			16,
+			25,
+			85,
+			0
+		},
+		attrs_growth = {
+			17580,
+			128,
+			0,
+			636,
+			0,
+			392,
+			0,
+			1152,
+			240,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			100,
+			104,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700052] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "秋月律子",
+		type = 19,
+		oxy_cost = 0,
+		skin_id = 10700050,
+		english_name = "Akizuki Ritsuko",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700052,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			897,
+			16,
+			0,
+			40,
+			0,
+			79,
+			0,
+			78,
+			16,
+			25,
+			85,
+			0
+		},
+		attrs_growth = {
+			17580,
+			128,
+			0,
+			636,
+			0,
+			392,
+			0,
+			1152,
+			240,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			100,
+			104,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700053] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "秋月律子",
+		type = 19,
+		oxy_cost = 0,
+		skin_id = 10700050,
+		english_name = "Akizuki Ritsuko",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700053,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1248,
+			23,
+			0,
+			56,
+			0,
+			79,
+			0,
+			78,
+			16,
+			25,
+			85,
+			0
+		},
+		attrs_growth = {
+			17580,
+			128,
+			0,
+			636,
+			0,
+			392,
+			0,
+			1152,
+			240,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			100,
+			104,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700054] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "秋月律子",
+		type = 19,
+		oxy_cost = 0,
+		skin_id = 10700050,
+		english_name = "Akizuki Ritsuko",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10700054,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1776,
+			32,
+			0,
+			80,
+			0,
+			79,
+			0,
+			78,
+			16,
+			25,
+			85,
+			0
+		},
+		attrs_growth = {
+			17580,
+			128,
+			0,
+			636,
+			0,
+			392,
+			0,
+			1152,
+			240,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			10548,
+			300,
+			0,
+			429,
+			0,
+			928,
+			0,
+			-115,
+			755,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			100,
+			104,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700061] = {
+		raid_distance = 30,
+		oxy_max = 248,
+		name = "雙海亞美",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10700060,
+		english_name = "Futami Ami",
+		attack_duration = 4,
+		star = 2,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 10700061,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			251,
+			9,
+			99,
+			0,
+			0,
+			43,
+			0,
+			69,
+			9,
+			23,
+			74,
+			0
+		},
+		attrs_growth = {
+			6130,
+			90,
+			976,
+			0,
+			0,
+			212,
+			0,
+			1020,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					3
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700062] = {
+		raid_distance = 30,
+		oxy_max = 248,
+		name = "雙海亞美",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10700060,
+		english_name = "Futami Ami",
+		attack_duration = 4,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 10700062,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			312,
+			11,
+			123,
+			0,
+			0,
+			43,
+			0,
+			69,
+			9,
+			23,
+			74,
+			0
+		},
+		attrs_growth = {
+			6130,
+			90,
+			976,
+			0,
+			0,
+			212,
+			0,
+			1020,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					3
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700063] = {
+		raid_distance = 30,
+		oxy_max = 248,
+		name = "雙海亞美",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10700060,
+		english_name = "Futami Ami",
+		attack_duration = 4,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 10700063,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			435,
+			16,
+			172,
+			0,
+			0,
+			43,
+			0,
+			69,
+			9,
+			23,
+			74,
+			0
+		},
+		attrs_growth = {
+			6130,
+			90,
+			976,
+			0,
+			0,
+			212,
+			0,
+			1020,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					3
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700064] = {
+		raid_distance = 30,
+		oxy_max = 248,
+		name = "雙海亞美",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10700060,
+		english_name = "Futami Ami",
+		attack_duration = 4,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 10700064,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			619,
+			23,
+			245,
+			0,
+			0,
+			43,
+			0,
+			69,
+			9,
+			23,
+			74,
+			0
+		},
+		attrs_growth = {
+			6130,
+			90,
+			976,
+			0,
+			0,
+			212,
+			0,
+			1020,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			3672,
+			210,
+			1219,
+			0,
+			0,
+			501,
+			0,
+			-98,
+			772,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					3
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700071] = {
+		raid_distance = 30,
+		oxy_max = 248,
+		name = "雙海真美",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10700070,
+		english_name = "Futami Mami",
+		attack_duration = 4,
+		star = 2,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 10700071,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			251,
+			9,
+			99,
+			0,
+			0,
+			43,
+			0,
+			69,
+			9,
+			23,
+			74,
+			0
+		},
+		attrs_growth = {
+			6130,
+			90,
+			976,
+			0,
+			0,
+			212,
+			0,
+			1020,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700072] = {
+		raid_distance = 30,
+		oxy_max = 248,
+		name = "雙海真美",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10700070,
+		english_name = "Futami Mami",
+		attack_duration = 4,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 10700072,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			312,
+			11,
+			123,
+			0,
+			0,
+			43,
+			0,
+			69,
+			9,
+			23,
+			74,
+			0
+		},
+		attrs_growth = {
+			6130,
+			90,
+			976,
+			0,
+			0,
+			212,
+			0,
+			1020,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700073] = {
+		raid_distance = 30,
+		oxy_max = 248,
+		name = "雙海真美",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10700070,
+		english_name = "Futami Mami",
+		attack_duration = 4,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 10700073,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			435,
+			16,
+			172,
+			0,
+			0,
+			43,
+			0,
+			69,
+			9,
+			23,
+			74,
+			0
+		},
+		attrs_growth = {
+			6130,
+			90,
+			976,
+			0,
+			0,
+			212,
+			0,
+			1020,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
+	[10700074] = {
+		raid_distance = 30,
+		oxy_max = 248,
+		name = "雙海真美",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10700070,
+		english_name = "Futami Mami",
+		attack_duration = 4,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 107,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 10700074,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			619,
+			23,
+			245,
+			0,
+			0,
+			43,
+			0,
+			69,
+			9,
+			23,
+			74,
+			0
+		},
+		attrs_growth = {
+			6130,
+			90,
+			976,
+			0,
+			0,
+			212,
+			0,
+			1020,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			3672,
+			210,
+			1219,
+			0,
+			0,
+			501,
+			0,
+			-98,
+			772,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					0,
+					3
+				},
+				{
+					1,
+					-3
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					3
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					3,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"IMAS"
+		}
+	},
 	[299011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -235424,6 +239812,34 @@ pg.ship_data_statistics = {
 		10600072,
 		10600073,
 		10600074,
+		10700011,
+		10700012,
+		10700013,
+		10700014,
+		10700021,
+		10700022,
+		10700023,
+		10700024,
+		10700031,
+		10700032,
+		10700033,
+		10700034,
+		10700041,
+		10700042,
+		10700043,
+		10700044,
+		10700051,
+		10700052,
+		10700053,
+		10700054,
+		10700061,
+		10700062,
+		10700063,
+		10700064,
+		10700071,
+		10700072,
+		10700073,
+		10700074,
 		299011,
 		299012,
 		299013,

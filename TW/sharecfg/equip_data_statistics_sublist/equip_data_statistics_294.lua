@@ -1,153 +1,144 @@
 pg = pg or {}
 pg.equip_data_statistics_294 = {
-	[44203] = {
-		id = 44203,
+	[44143] = {
+		id = 44143,
+		damage = "80 x 2",
+		base = 44140,
+		weapon_id = {
+			44143
+		}
+	},
+	[44144] = {
+		id = 44144,
 		damage = "86 x 2",
-		base = 44200,
+		base = 44140,
 		weapon_id = {
-			44203
+			44144
 		}
 	},
-	[44204] = {
-		id = 44204,
-		damage = "96 x 2",
-		base = 44200,
+	[44145] = {
+		id = 44145,
+		damage = "94 x 2",
+		base = 44140,
 		weapon_id = {
-			44204
+			44145
 		}
 	},
-	[44205] = {
-		id = 44205,
-		damage = "106 x 2",
-		base = 44200,
+	[44146] = {
+		id = 44146,
+		damage = "100 x 2",
+		base = 44140,
 		weapon_id = {
-			44205
+			44146
 		}
 	},
-	[44206] = {
-		id = 44206,
-		damage = "116 x 2",
-		base = 44200,
+	[44147] = {
+		id = 44147,
+		damage = "108 x 2",
+		base = 44140,
 		weapon_id = {
-			44206
+			44147
 		}
 	},
-	[44207] = {
-		id = 44207,
+	[44148] = {
+		id = 44148,
+		damage = "118 x 2",
+		base = 44140,
+		weapon_id = {
+			44148
+		}
+	},
+	[44149] = {
+		id = 44149,
 		damage = "124 x 2",
-		base = 44200,
+		base = 44140,
 		weapon_id = {
-			44207
+			44149
 		}
 	},
-	[44208] = {
-		id = 44208,
-		damage = "134 x 2",
-		base = 44200,
+	[44150] = {
+		id = 44150,
+		damage = "132 x 2",
+		base = 44140,
 		weapon_id = {
-			44208
+			44150
 		}
 	},
-	[44209] = {
-		id = 44209,
-		damage = "144 x 2",
-		base = 44200,
-		weapon_id = {
-			44209
-		}
-	},
-	[44210] = {
-		id = 44210,
-		damage = "154 x 2",
-		base = 44200,
-		weapon_id = {
-			44210
-		}
-	},
-	[45000] = {
-		tech = 1,
-		name = "三聯裝533mm磁性魚雷",
-		speciality = "雷擊",
-		type = 5,
-		value_2 = 5,
-		ammo = 4,
-		damage = "63 x 3",
+	[44200] = {
+		tech = 0,
+		name = "試作型雙聯裝406mmSKC主炮",
+		speciality = "跨射",
+		type = 4,
+		value_2 = 45,
+		ammo = 2,
+		damage = "58 x 2",
 		nationality = 4,
-		rarity = 2,
-		id = 45000,
+		rarity = 5,
+		id = 44200,
 		value_3 = 0,
 		torpedo_ammo = 0,
-		descrip = "三聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
-		icon = "45000",
-		attribute_2 = "torpedo",
+		descrip = "說明未填寫",
+		icon = "44200",
+		attribute_2 = "cannon",
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			3
+		},
 		ammo_info = {
 			{
-				3,
-				1803
+				2,
+				1502
 			}
 		},
 		equip_info = {
-			{
-				3,
-				1803
-			},
-			{
-				4,
-				1402
-			},
+			1,
+			2,
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			45000
+			44200
 		},
 		skill_id = {},
 		part_main = {
-			1,
-			2,
-			3,
-			18
+			4,
+			5,
+			10,
+			13
 		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
+		part_sub = {},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"ST",
-			"TP",
-			"TRI"
+			"BB",
+			"MG",
+			"HE"
 		}
 	},
-	[45001] = {
-		id = 45001,
-		damage = "69 x 3",
-		base = 45000,
+	[44201] = {
+		id = 44201,
+		damage = "68 x 2",
+		base = 44200,
 		weapon_id = {
-			45001
+			44201
 		}
 	},
-	[45002] = {
-		id = 45002,
-		damage = "75 x 3",
-		base = 45000,
+	[44202] = {
+		id = 44202,
+		damage = "76 x 2",
+		base = 44200,
 		weapon_id = {
-			45002
+			44202
 		}
 	},
-	[45003] = {
-		id = 45003,
-		damage = "81 x 3",
-		base = 45000,
+	[44203] = {
+		id = 44203,
+		damage = "86 x 2",
+		base = 44200,
 		weapon_id = {
-			45003
+			44203
 		}
 	}
 }

@@ -1,5 +1,248 @@
 pg = pg or {}
 pg.equip_data_statistics_353 = {
+	[79032] = {
+		id = 79032,
+		name = "專屬彈幕-威廉·D·波特II",
+		base = 79031,
+		weapon_id = {
+			79032
+		}
+	},
+	[79041] = {
+		type = 1,
+		name = "專屬彈幕-約翰斯頓I",
+		speciality = "無",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能彈幕",
+		id = 79041,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79041
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79042] = {
+		id = 79042,
+		name = "專屬彈幕-約翰斯頓II",
+		base = 79041,
+		weapon_id = {
+			79042
+		}
+	},
+	[79051] = {
+		type = 1,
+		name = "專屬彈幕-拉菲I",
+		speciality = "無",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能彈幕",
+		id = 79051,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79051
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79052] = {
+		id = 79052,
+		name = "專屬彈幕-拉菲II",
+		base = 79051,
+		weapon_id = {
+			79052
+		}
+	},
+	[79061] = {
+		type = 1,
+		name = "專屬彈幕-螢火蟲I",
+		speciality = "無",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能彈幕",
+		id = 79061,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79061
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79062] = {
+		id = 79062,
+		name = "專屬彈幕-螢火蟲II",
+		base = 79061,
+		weapon_id = {
+			79062
+		}
+	},
+	[79071] = {
+		type = 1,
+		name = "專屬彈幕-勇敢I",
+		speciality = "無",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能彈幕",
+		id = 79071,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79071
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79072] = {
+		id = 79072,
+		name = "專屬彈幕-勇敢II",
+		base = 79071,
+		weapon_id = {
+			79072
+		}
+	},
+	[79081] = {
+		type = 1,
+		name = "專屬彈幕-標槍I",
+		speciality = "無",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能彈幕",
+		id = 79081,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			79081
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79082] = {
+		id = 79082,
+		name = "專屬彈幕-標槍II",
+		base = 79081,
+		weapon_id = {
+			79082
+		}
+	},
 	[79091] = {
 		type = 1,
 		name = "專屬彈幕-吸血鬼I",
@@ -38,248 +281,5 @@ pg.equip_data_statistics_353 = {
 		},
 		equip_parameters = {},
 		label = {}
-	},
-	[79092] = {
-		id = 79092,
-		name = "專屬彈幕-吸血鬼II",
-		base = 79091,
-		weapon_id = {
-			79092
-		}
-	},
-	[79101] = {
-		type = 1,
-		name = "專屬彈幕-貝爾法斯特I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能彈幕",
-		id = 79101,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79101
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79102] = {
-		id = 79102,
-		name = "專屬彈幕-貝爾法斯特II",
-		base = 79101,
-		weapon_id = {
-			79102
-		}
-	},
-	[79111] = {
-		type = 1,
-		name = "專屬彈幕-綾波I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能彈幕",
-		id = 79111,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79111
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79112] = {
-		id = 79112,
-		name = "專屬彈幕-綾波II",
-		base = 79111,
-		weapon_id = {
-			79112
-		}
-	},
-	[79121] = {
-		type = 1,
-		name = "專屬彈幕-夕立I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能彈幕",
-		id = 79121,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79121
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79122] = {
-		id = 79122,
-		name = "專屬彈幕-夕立II",
-		base = 79121,
-		weapon_id = {
-			79122
-		}
-	},
-	[79131] = {
-		type = 1,
-		name = "專屬彈幕-雪風I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能彈幕",
-		id = 79131,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79131
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79132] = {
-		id = 79132,
-		name = "專屬彈幕-雪風II",
-		base = 79131,
-		weapon_id = {
-			79132
-		}
-	},
-	[79141] = {
-		type = 1,
-		name = "專屬彈幕-島風I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "技能彈幕",
-		id = 79141,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			79141
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			19
-		},
-		part_sub = {
-			2,
-			3,
-			4,
-			5,
-			8,
-			13,
-			18
-		},
-		equip_parameters = {},
-		label = {}
-	},
-	[79142] = {
-		id = 79142,
-		name = "專屬彈幕-島風II",
-		base = 79141,
-		weapon_id = {
-			79142
-		}
 	}
 }

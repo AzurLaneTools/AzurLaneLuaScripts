@@ -1,112 +1,97 @@
 pg = pg or {}
 pg.aircraft_template_196 = {
-	[69934] = {
-		id = 69934,
-		name = "信浓技能流星 LV4",
-		base = 69931,
-		max_hp = 58,
-		hp_growth = 2218,
+	[69754] = {
+		id = 69754,
+		name = "鹰技能剑鱼 Lv4",
+		base = 69751,
+		max_hp = 56,
+		hp_growth = 2140,
 		weapon_ID = {
-			50544,
-			50844,
-			51464
+			69774
 		}
 	},
-	[69935] = {
-		id = 69935,
-		name = "信浓技能流星 LV5",
-		base = 69931,
-		max_hp = 63,
-		hp_growth = 2426,
+	[69755] = {
+		id = 69755,
+		name = "鹰技能剑鱼 Lv5",
+		base = 69751,
+		max_hp = 61,
+		hp_growth = 2341,
 		weapon_ID = {
-			50545,
-			50845,
-			51465
+			69775
 		}
 	},
-	[69936] = {
-		id = 69936,
-		name = "信浓技能流星 LV6",
-		base = 69931,
-		max_hp = 68,
-		hp_growth = 2634,
+	[69756] = {
+		id = 69756,
+		name = "鹰技能剑鱼 Lv6",
+		base = 69751,
+		max_hp = 66,
+		hp_growth = 2541,
 		weapon_ID = {
-			50546,
-			50846,
-			51466
+			69776
 		}
 	},
-	[69937] = {
-		id = 69937,
-		name = "信浓技能流星 LV7",
-		base = 69931,
-		max_hp = 74,
-		hp_growth = 2842,
+	[69757] = {
+		id = 69757,
+		name = "鹰技能剑鱼 Lv7",
+		base = 69751,
+		max_hp = 71,
+		hp_growth = 2742,
 		weapon_ID = {
-			50547,
-			50847,
-			51467
+			69777
 		}
 	},
-	[69938] = {
-		id = 69938,
-		name = "信浓技能流星 LV8",
-		base = 69931,
-		max_hp = 79,
-		hp_growth = 3050,
+	[69758] = {
+		id = 69758,
+		name = "鹰技能剑鱼 Lv8",
+		base = 69751,
+		max_hp = 77,
+		hp_growth = 2943,
 		weapon_ID = {
-			50548,
-			50848,
-			51468
+			69778
 		}
 	},
-	[69939] = {
-		id = 69939,
-		name = "信浓技能流星 LV9",
-		base = 69931,
-		max_hp = 85,
-		hp_growth = 3258,
+	[69759] = {
+		id = 69759,
+		name = "鹰技能剑鱼 Lv9",
+		base = 69751,
+		max_hp = 82,
+		hp_growth = 3143,
 		weapon_ID = {
-			50549,
-			50849,
-			51469
+			69779
 		}
 	},
-	[69940] = {
-		id = 69940,
-		name = "信浓技能流星 LV10",
-		base = 69931,
-		max_hp = 90,
-		hp_growth = 3466,
+	[69760] = {
+		id = 69760,
+		name = "鹰技能剑鱼 Lv10",
+		base = 69751,
+		max_hp = 87,
+		hp_growth = 3344,
 		weapon_ID = {
-			50550,
-			50850,
-			51470
+			69780
 		}
 	},
-	[69971] = {
+	[69921] = {
 		attack_power = 2,
-		name = "千岁千代田技能瑞云",
-		type = 3,
+		name = "信浓技能试制紫电改二 LV1",
+		type = 1,
 		accuracy = 23,
-		model_ID = "ruiyun",
+		model_ID = "shizhizidiangaier",
 		ACC_growth = 0,
-		crash_DMG = 120,
-		dodge = 3.51,
+		crash_DMG = 162,
+		dodge = 0.297,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 69971,
-		icon = "ruiyun",
+		id = 69921,
+		icon = "shizhizidiangaier",
 		AP_growth = 2000,
-		dodge_limit = 1,
-		hp_growth = 1438,
-		speed = 46,
-		max_hp = 37,
+		dodge_limit = 10,
+		hp_growth = 1532,
+		speed = 60,
+		max_hp = 40,
 		scale = 1,
 		weapon_ID = {
-			50541,
-			50841,
-			52241
+			59541,
+			69961
 		},
 		position_offset = {
 			0,
@@ -126,13 +111,13 @@ pg.aircraft_template_196 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -149,7 +134,7 @@ pg.aircraft_template_196 = {
 				0
 			},
 			{
-				0,
+				0.51,
 				0,
 				0
 			},
@@ -160,26 +145,26 @@ pg.aircraft_template_196 = {
 			}
 		}
 	},
-	[69972] = {
-		id = 69972,
-		max_hp = 42,
-		hp_growth = 1626,
-		base = 69971,
+	[69922] = {
+		id = 69922,
+		name = "信浓技能试制紫电改二 LV2",
+		base = 69921,
+		max_hp = 46,
+		hp_growth = 1762,
 		weapon_ID = {
-			50542,
-			50842,
-			52242
+			59542,
+			69962
 		}
 	},
-	[69973] = {
-		id = 69973,
-		max_hp = 47,
-		hp_growth = 1813,
-		base = 69971,
+	[69923] = {
+		id = 69923,
+		name = "信浓技能试制紫电改二 LV3",
+		base = 69921,
+		max_hp = 52,
+		hp_growth = 1992,
 		weapon_ID = {
-			50543,
-			50843,
-			52243
+			59543,
+			69963
 		}
 	}
 }

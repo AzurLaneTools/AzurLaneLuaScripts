@@ -2,104 +2,6 @@ pg = pg or {}
 pg.weapon_property_152 = {}
 
 (function ()
-	uv0.weapon_property_152[68291] = {
-		recover_time = 0,
-		name = "绊爱驱逐单发射击鱼雷-LV1",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 3000,
-		queue = 1,
-		range = 90,
-		damage = 30,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 68291,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			19873
-		},
-		barrage_ID = {
-			80600
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_152[68292] = {
-		id = 68292,
-		name = "绊爱驱逐单发射击鱼雷-LV2",
-		damage = 38,
-		base = 68291
-	}
-	uv0.weapon_property_152[68293] = {
-		id = 68293,
-		name = "绊爱驱逐单发射击鱼雷-LV3",
-		damage = 46,
-		base = 68291
-	}
-	uv0.weapon_property_152[68294] = {
-		id = 68294,
-		name = "绊爱驱逐单发射击鱼雷-LV4",
-		damage = 54,
-		base = 68291
-	}
-	uv0.weapon_property_152[68295] = {
-		id = 68295,
-		name = "绊爱驱逐单发射击鱼雷-LV5",
-		damage = 62,
-		base = 68291
-	}
-	uv0.weapon_property_152[68296] = {
-		id = 68296,
-		name = "绊爱驱逐单发射击鱼雷-LV6",
-		damage = 70,
-		base = 68291
-	}
-	uv0.weapon_property_152[68297] = {
-		id = 68297,
-		name = "绊爱驱逐单发射击鱼雷-LV7",
-		damage = 78,
-		base = 68291
-	}
-	uv0.weapon_property_152[68298] = {
-		id = 68298,
-		name = "绊爱驱逐单发射击鱼雷-LV8",
-		damage = 86,
-		base = 68291
-	}
-	uv0.weapon_property_152[68299] = {
-		id = 68299,
-		name = "绊爱驱逐单发射击鱼雷-LV9",
-		damage = 95,
-		base = 68291
-	}
-	uv0.weapon_property_152[68300] = {
-		id = 68300,
-		name = "绊爱驱逐单发射击鱼雷-LV10",
-		damage = 104,
-		base = 68291
-	}
 	uv0.weapon_property_152[68301] = {
 		recover_time = 0.5,
 		name = "绊爱航母额外轰炸机队-LV1",
@@ -725,5 +627,101 @@ pg.weapon_property_152 = {}
 		id = 68352,
 		damage = 134,
 		base = 68351
+	}
+	uv0.weapon_property_152[68353] = {
+		id = 68353,
+		damage = 142,
+		base = 68351
+	}
+	uv0.weapon_property_152[68354] = {
+		id = 68354,
+		damage = 151,
+		base = 68351
+	}
+	uv0.weapon_property_152[68355] = {
+		id = 68355,
+		damage = 161,
+		base = 68351
+	}
+	uv0.weapon_property_152[68356] = {
+		id = 68356,
+		damage = 172,
+		base = 68351
+	}
+	uv0.weapon_property_152[68357] = {
+		id = 68357,
+		damage = 184,
+		base = 68351
+	}
+	uv0.weapon_property_152[68358] = {
+		id = 68358,
+		damage = 197,
+		base = 68351
+	}
+	uv0.weapon_property_152[68359] = {
+		id = 68359,
+		damage = 211,
+		base = 68351
+	}
+	uv0.weapon_property_152[68360] = {
+		id = 68360,
+		damage = 226,
+		base = 68351
+	}
+	uv0.weapon_property_152[68361] = {
+		recover_time = 0,
+		name = "竞技神白弹Lv1",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 10,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 95,
+		damage = 139,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		id = 68361,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			19862
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_152[68362] = {
+		id = 68362,
+		name = "竞技神白弹Lv2",
+		damage = 147,
+		base = 68361
+	}
+	uv0.weapon_property_152[68363] = {
+		id = 68363,
+		name = "竞技神白弹Lv3",
+		damage = 156,
+		base = 68361
 	}
 end)()

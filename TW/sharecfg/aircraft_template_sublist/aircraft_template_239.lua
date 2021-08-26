@@ -1,69 +1,96 @@
 pg = pg or {}
 pg.aircraft_template_239 = {
-	[83324] = {
-		id = 83324,
-		max_hp = 58,
-		hp_growth = 2247,
-		base = 83320,
+	[83245] = {
+		id = 83245,
+		max_hp = 70,
+		hp_growth = 2681,
+		base = 83240,
 		weapon_ID = {
-			59524
+			50045,
+			50545
 		}
 	},
-	[83325] = {
-		id = 83325,
-		max_hp = 64,
-		hp_growth = 2458,
-		base = 83320,
+	[83246] = {
+		id = 83246,
+		max_hp = 76,
+		hp_growth = 2911,
+		base = 83240,
 		weapon_ID = {
-			59525
+			50046,
+			50546
 		}
 	},
-	[83326] = {
-		id = 83326,
-		max_hp = 69,
-		hp_growth = 2669,
-		base = 83320,
+	[83247] = {
+		id = 83247,
+		max_hp = 82,
+		hp_growth = 3141,
+		base = 83240,
 		weapon_ID = {
-			59526
+			50047,
+			50547
 		}
 	},
-	[83327] = {
-		id = 83327,
-		max_hp = 75,
-		hp_growth = 2879,
-		base = 83320,
+	[83248] = {
+		id = 83248,
+		max_hp = 88,
+		hp_growth = 3371,
+		base = 83240,
 		weapon_ID = {
-			59527
+			50048,
+			50548
 		}
 	},
-	[83328] = {
-		id = 83328,
-		max_hp = 80,
-		hp_growth = 3090,
-		base = 83320,
+	[83249] = {
+		id = 83249,
+		max_hp = 94,
+		hp_growth = 3601,
+		base = 83240,
 		weapon_ID = {
-			59528
+			50049,
+			50549
 		}
 	},
-	[83329] = {
-		id = 83329,
-		max_hp = 86,
-		hp_growth = 3301,
-		base = 83320,
+	[83250] = {
+		id = 83250,
+		max_hp = 100,
+		hp_growth = 3830,
+		base = 83240,
 		weapon_ID = {
-			59529
+			50050,
+			50550
 		}
 	},
-	[83330] = {
-		id = 83330,
-		max_hp = 91,
-		hp_growth = 3511,
-		base = 83320,
+	[83251] = {
+		id = 83251,
+		max_hp = 106,
+		hp_growth = 4060,
+		base = 83240,
 		weapon_ID = {
-			59530
+			50051,
+			50551
 		}
 	},
-	[83340] = {
+	[83252] = {
+		id = 83252,
+		max_hp = 112,
+		hp_growth = 4290,
+		base = 83240,
+		weapon_ID = {
+			50052,
+			50552
+		}
+	},
+	[83253] = {
+		id = 83253,
+		max_hp = 118,
+		hp_growth = 4520,
+		base = 83240,
+		weapon_ID = {
+			50053,
+			50553
+		}
+	},
+	[83300] = {
 		attack_power = 2,
 		name = "烈风",
 		type = 1,
@@ -71,19 +98,19 @@ pg.aircraft_template_239 = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 162,
-		dodge = 0.297,
+		dodge = 0.321,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 83340,
+		id = 83300,
 		icon = "liefeng",
 		AP_growth = 2000,
-		dodge_limit = 10,
-		hp_growth = 1532,
+		dodge_limit = 9,
+		hp_growth = 1277,
 		speed = 60,
-		max_hp = 40,
+		max_hp = 33,
 		scale = 1,
 		weapon_ID = {
-			59540
+			59500
 		},
 		position_offset = {
 			0,
@@ -135,24 +162,6 @@ pg.aircraft_template_239 = {
 				0,
 				0
 			}
-		}
-	},
-	[83341] = {
-		id = 83341,
-		max_hp = 46,
-		hp_growth = 1762,
-		base = 83340,
-		weapon_ID = {
-			59541
-		}
-	},
-	[83342] = {
-		id = 83342,
-		max_hp = 52,
-		hp_growth = 1992,
-		base = 83340,
-		weapon_ID = {
-			59542
 		}
 	}
 }

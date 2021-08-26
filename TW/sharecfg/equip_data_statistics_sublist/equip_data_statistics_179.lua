@@ -1,16 +1,16 @@
 pg = pg or {}
 pg.equip_data_statistics_179 = {
-	[26140] = {
-		tech = 3,
+	[26100] = {
+		tech = 1,
 		name = "四聯裝40mm“砰砰”炮",
 		speciality = "防空",
 		type = 6,
-		value_2 = 25,
+		value_2 = 5,
 		ammo = 5,
-		damage = "34/輪",
+		damage = "27/輪",
 		nationality = 2,
-		rarity = 4,
-		id = 26140,
+		rarity = 2,
+		id = 26100,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
@@ -26,7 +26,7 @@ pg.equip_data_statistics_179 = {
 			10
 		},
 		weapon_id = {
-			26140
+			26100
 		},
 		skill_id = {},
 		part_main = {
@@ -62,101 +62,45 @@ pg.equip_data_statistics_179 = {
 			"AA"
 		}
 	},
-	[26141] = {
-		id = 26141,
-		damage = "39/輪",
-		base = 26140,
+	[26101] = {
+		id = 26101,
+		damage = "31/輪",
+		base = 26100,
 		weapon_id = {
-			26141
+			26101
 		}
 	},
-	[26142] = {
-		id = 26142,
-		damage = "44/輪",
-		base = 26140,
+	[26102] = {
+		id = 26102,
+		damage = "35/輪",
+		base = 26100,
 		weapon_id = {
-			26142
+			26102
 		}
 	},
-	[26143] = {
-		id = 26143,
-		damage = "49/輪",
-		base = 26140,
+	[26103] = {
+		id = 26103,
+		damage = "40/輪",
+		base = 26100,
 		weapon_id = {
-			26143
+			26103
 		}
 	},
-	[26144] = {
-		id = 26144,
-		damage = "54/輪",
-		base = 26140,
-		weapon_id = {
-			26144
-		}
-	},
-	[26145] = {
-		id = 26145,
-		damage = "59/輪",
-		base = 26140,
-		weapon_id = {
-			26145
-		}
-	},
-	[26146] = {
-		id = 26146,
-		damage = "64/輪",
-		base = 26140,
-		weapon_id = {
-			26146
-		}
-	},
-	[26147] = {
-		id = 26147,
-		damage = "69/輪",
-		base = 26140,
-		weapon_id = {
-			26147
-		}
-	},
-	[26148] = {
-		id = 26148,
-		damage = "74/輪",
-		base = 26140,
-		weapon_id = {
-			26148
-		}
-	},
-	[26149] = {
-		id = 26149,
-		damage = "79/輪",
-		base = 26140,
-		weapon_id = {
-			26149
-		}
-	},
-	[26150] = {
-		id = 26150,
-		damage = "84/輪",
-		base = 26140,
-		weapon_id = {
-			26150
-		}
-	},
-	[26200] = {
-		tech = 1,
-		name = "八聯裝40mm“砰砰”炮",
+	[26120] = {
+		tech = 2,
+		name = "四聯裝40mm“砰砰”炮",
 		speciality = "防空",
 		type = 6,
 		value_2 = 12,
 		ammo = 5,
-		damage = "42/輪",
+		damage = "30/輪",
 		nationality = 2,
 		rarity = 3,
-		id = 26200,
+		id = 26120,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
-		icon = "26200",
+		icon = "26100",
 		attribute_2 = "antiaircraft",
 		property_rate = {},
 		ammo_icon = {},
@@ -168,7 +112,117 @@ pg.equip_data_statistics_179 = {
 			10
 		},
 		weapon_id = {
-			26200
+			26120
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26121] = {
+		id = 26121,
+		damage = "35/輪",
+		base = 26120,
+		weapon_id = {
+			26121
+		}
+	},
+	[26122] = {
+		id = 26122,
+		damage = "40/輪",
+		base = 26120,
+		weapon_id = {
+			26122
+		}
+	},
+	[26123] = {
+		id = 26123,
+		damage = "45/輪",
+		base = 26120,
+		weapon_id = {
+			26123
+		}
+	},
+	[26124] = {
+		id = 26124,
+		damage = "50/輪",
+		base = 26120,
+		weapon_id = {
+			26124
+		}
+	},
+	[26125] = {
+		id = 26125,
+		damage = "55/輪",
+		base = 26120,
+		weapon_id = {
+			26125
+		}
+	},
+	[26126] = {
+		id = 26126,
+		damage = "60/輪",
+		base = 26120,
+		weapon_id = {
+			26126
+		}
+	},
+	[26140] = {
+		tech = 3,
+		name = "四聯裝40mm“砰砰”炮",
+		speciality = "防空",
+		type = 6,
+		value_2 = 25,
+		ammo = 5,
+		damage = "34/輪",
+		nationality = 2,
+		rarity = 4,
+		id = 26140,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "說明未填寫",
+		icon = "26100",
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			26140
 		},
 		skill_id = {},
 		part_main = {

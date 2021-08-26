@@ -2,86 +2,6 @@ pg = pg or {}
 pg.weapon_property_19 = {}
 
 (function ()
-	uv0.weapon_property_19[16201] = {
-		id = 16201,
-		reload_max = 179,
-		damage = 26,
-		base = 16200
-	}
-	uv0.weapon_property_19[16202] = {
-		id = 16202,
-		reload_max = 175,
-		damage = 30,
-		base = 16200
-	}
-	uv0.weapon_property_19[16203] = {
-		id = 16203,
-		reload_max = 171,
-		damage = 34,
-		base = 16200
-	}
-	uv0.weapon_property_19[16220] = {
-		recover_time = 0.5,
-		name = "四聯裝28mm“芝加哥鋼琴”T2",
-		shakescreen = 0,
-		type = 22,
-		torpedo_ammo = 0,
-		fire_fx = "fangkongpaohuoshe",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 360,
-		reload_max = 173,
-		queue = 1,
-		range = 21,
-		damage = 25,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		id = 16220,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_19[16221] = {
-		id = 16221,
-		reload_max = 170,
-		damage = 29,
-		base = 16220
-	}
-	uv0.weapon_property_19[16222] = {
-		id = 16222,
-		reload_max = 166,
-		damage = 33,
-		base = 16220
-	}
-	uv0.weapon_property_19[16223] = {
-		id = 16223,
-		reload_max = 163,
-		damage = 37,
-		base = 16220
-	}
 	uv0.weapon_property_19[16224] = {
 		id = 16224,
 		reload_max = 159,
@@ -641,5 +561,91 @@ pg.weapon_property_19 = {}
 		reload_max = 168,
 		damage = 101,
 		base = 16420
+	}
+	uv0.weapon_property_19[16430] = {
+		id = 16430,
+		reload_max = 164,
+		damage = 108,
+		base = 16420
+	}
+	uv0.weapon_property_19[16440] = {
+		recover_time = 0.5,
+		name = "四聯40mm博福斯對空機炮T3",
+		shakescreen = 0,
+		type = 22,
+		torpedo_ammo = 0,
+		fire_fx = "fangkongpaohuoshe",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 194,
+		queue = 1,
+		range = 28,
+		damage = 48,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		id = 16440,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			2000
+		},
+		barrage_ID = {
+			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_19[16441] = {
+		id = 16441,
+		reload_max = 190,
+		damage = 55,
+		base = 16440
+	}
+	uv0.weapon_property_19[16442] = {
+		id = 16442,
+		reload_max = 186,
+		damage = 62,
+		base = 16440
+	}
+	uv0.weapon_property_19[16443] = {
+		id = 16443,
+		reload_max = 184,
+		damage = 69,
+		base = 16440
+	}
+	uv0.weapon_property_19[16444] = {
+		id = 16444,
+		reload_max = 178,
+		damage = 76,
+		base = 16440
+	}
+	uv0.weapon_property_19[16445] = {
+		id = 16445,
+		reload_max = 175,
+		damage = 83,
+		base = 16440
+	}
+	uv0.weapon_property_19[16446] = {
+		id = 16446,
+		reload_max = 171,
+		damage = 90,
+		base = 16440
 	}
 end)()

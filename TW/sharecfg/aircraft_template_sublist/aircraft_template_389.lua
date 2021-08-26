@@ -1,18 +1,93 @@
 pg = pg or {}
 pg.aircraft_template_389 = {
-	[1100813] = {
+	[1100767] = {
 		attack_power = 2,
-		name = "德系舰载战斗机IV",
+		name = "美系舰载-战斗机III",
 		type = 1,
 		accuracy = 23,
-		model_ID = "lingzhan21gai",
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 62,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 1100767,
+		icon = "F4F",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2240,
+		speed = 33,
+		max_hp = 112,
+		scale = 0.75,
+		weapon_ID = {
+			1100747,
+			1100752
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100768] = {
+		attack_power = 2,
+		name = "美系舰载-战斗机IV",
+		type = 1,
+		accuracy = 23,
+		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1100813,
-		icon = "Me155A",
+		id = 1100768,
+		icon = "F4F",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 2520,
@@ -75,19 +150,19 @@ pg.aircraft_template_389 = {
 			}
 		}
 	},
-	[1100814] = {
+	[1100769] = {
 		attack_power = 2,
-		name = "德系舰载战斗机V",
+		name = "美系舰载-战斗机V",
 		type = 1,
 		accuracy = 23,
-		model_ID = "lingzhan21gai",
+		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 98,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1100814,
-		icon = "Me155A",
+		id = 1100769,
+		icon = "F4F",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 2800,
@@ -150,19 +225,19 @@ pg.aircraft_template_389 = {
 			}
 		}
 	},
-	[1100815] = {
+	[1100770] = {
 		attack_power = 2,
-		name = "德系舰载鱼雷机I",
+		name = "美系舰载-鱼雷机I",
 		type = 2,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1100815,
-		icon = "qibolin",
+		id = 1100770,
+		icon = "tbd",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 2040,
@@ -224,19 +299,19 @@ pg.aircraft_template_389 = {
 			}
 		}
 	},
-	[1100816] = {
+	[1100771] = {
 		attack_power = 2,
-		name = "德系舰载鱼雷机II",
+		name = "美系舰载-鱼雷机II",
 		type = 2,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1100816,
-		icon = "qibolin",
+		id = 1100771,
+		icon = "tbd",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 2380,
@@ -298,19 +373,19 @@ pg.aircraft_template_389 = {
 			}
 		}
 	},
-	[1100817] = {
+	[1100772] = {
 		attack_power = 2,
-		name = "德系舰载鱼雷机III",
+		name = "美系舰载-鱼雷机III",
 		type = 2,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1100817,
-		icon = "qibolin",
+		id = 1100772,
+		icon = "tbd",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 2720,
@@ -372,19 +447,19 @@ pg.aircraft_template_389 = {
 			}
 		}
 	},
-	[1100818] = {
+	[1100773] = {
 		attack_power = 2,
-		name = "德系舰载鱼雷机IV",
+		name = "美系舰载-鱼雷机IV",
 		type = 2,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 112,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1100818,
-		icon = "qibolin",
+		id = 1100773,
+		icon = "tbd",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 3060,
@@ -446,19 +521,19 @@ pg.aircraft_template_389 = {
 			}
 		}
 	},
-	[1100819] = {
+	[1100774] = {
 		attack_power = 2,
-		name = "德系舰载鱼雷机V",
+		name = "美系舰载-鱼雷机V",
 		type = 2,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 136,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1100819,
-		icon = "qibolin",
+		id = 1100774,
+		icon = "tbd",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 3400,
@@ -520,19 +595,19 @@ pg.aircraft_template_389 = {
 			}
 		}
 	},
-	[1100820] = {
+	[1100775] = {
 		attack_power = 2,
-		name = "德系舰载轰炸机I",
+		name = "美系舰载-轰炸机I",
 		type = 3,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1100820,
-		icon = "JU87C",
+		id = 1100775,
+		icon = "sbdwuwei",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 2280,
@@ -594,19 +669,19 @@ pg.aircraft_template_389 = {
 			}
 		}
 	},
-	[1100821] = {
+	[1100776] = {
 		attack_power = 2,
-		name = "德系舰载轰炸机II",
+		name = "美系舰载-轰炸机II",
 		type = 3,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 1100821,
-		icon = "JU87C",
+		id = 1100776,
+		icon = "sbdwuwei",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 2660,
@@ -615,80 +690,6 @@ pg.aircraft_template_389 = {
 		scale = 0.75,
 		weapon_ID = {
 			1100761
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[1100822] = {
-		attack_power = 2,
-		name = "德系舰载轰炸机III",
-		type = 3,
-		accuracy = 23,
-		model_ID = "99shijianbao1",
-		ACC_growth = 0,
-		crash_DMG = 110,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 1100822,
-		icon = "JU87C",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 3040,
-		speed = 30,
-		max_hp = 140,
-		scale = 0.75,
-		weapon_ID = {
-			1100762
 		},
 		position_offset = {
 			0,

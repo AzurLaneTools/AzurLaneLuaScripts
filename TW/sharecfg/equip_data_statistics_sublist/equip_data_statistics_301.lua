@@ -1,103 +1,101 @@
 pg = pg or {}
 pg.equip_data_statistics_301 = {
-	[45243] = {
-		id = 45243,
+	[45223] = {
+		id = 45223,
+		damage = "86 x 5",
+		base = 45220,
+		weapon_id = {
+			45223
+		}
+	},
+	[45224] = {
+		id = 45224,
 		damage = "92 x 5",
-		base = 45240,
+		base = 45220,
 		weapon_id = {
-			45243
+			45224
 		}
 	},
-	[45244] = {
-		id = 45244,
-		damage = "100 x 5",
-		base = 45240,
+	[45225] = {
+		id = 45225,
+		damage = "99 x 5",
+		base = 45220,
 		weapon_id = {
-			45244
+			45225
 		}
 	},
-	[45245] = {
-		id = 45245,
-		damage = "107 x 5",
-		base = 45240,
+	[45226] = {
+		id = 45226,
+		damage = "106 x 5",
+		base = 45220,
 		weapon_id = {
-			45245
+			45226
 		}
 	},
-	[45246] = {
-		id = 45246,
-		damage = "115 x 5",
-		base = 45240,
+	[45227] = {
+		id = 45227,
+		damage = "112 x 5",
+		base = 45220,
 		weapon_id = {
-			45246
+			45227
 		}
 	},
-	[45247] = {
-		id = 45247,
-		damage = "122 x 5",
-		base = 45240,
+	[45228] = {
+		id = 45228,
+		damage = "119 x 5",
+		base = 45220,
 		weapon_id = {
-			45247
+			45228
 		}
 	},
-	[45248] = {
-		id = 45248,
-		damage = "130 x 5",
-		base = 45240,
+	[45229] = {
+		id = 45229,
+		damage = "126 x 5",
+		base = 45220,
 		weapon_id = {
-			45248
+			45229
 		}
 	},
-	[45249] = {
-		id = 45249,
-		damage = "137 x 5",
-		base = 45240,
+	[45230] = {
+		id = 45230,
+		damage = "133 x 5",
+		base = 45220,
 		weapon_id = {
-			45249
+			45230
 		}
 	},
-	[45250] = {
-		id = 45250,
-		damage = "145 x 5",
-		base = 45240,
-		weapon_id = {
-			45250
-		}
-	},
-	[45300] = {
-		tech = 1,
-		name = "潛艇用G7a魚雷",
+	[45240] = {
+		tech = 3,
+		name = "五聯裝533mm磁性魚雷",
 		speciality = "雷擊",
-		type = 13,
-		value_2 = 5,
-		ammo = 5,
-		damage = "46 x 2",
+		type = 5,
+		value_2 = 70,
+		ammo = 4,
+		damage = "70 x 5",
 		nationality = 4,
-		rarity = 2,
-		id = 45300,
+		rarity = 6,
+		id = 45240,
 		value_3 = 0,
 		torpedo_ammo = 0,
-		descrip = "說明未填寫",
-		icon = "45300",
+		descrip = "五聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
+		icon = "45200",
 		attribute_2 = "torpedo",
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				3,
-				1825
+				1803
 			}
 		},
 		equip_info = {
-			1,
-			2,
 			{
 				3,
-				1825
+				1803
 			},
 			{
 				4,
-				1601
+				1404
 			},
 			6,
 			10,
@@ -105,46 +103,51 @@ pg.equip_data_statistics_301 = {
 			12
 		},
 		weapon_id = {
-			45300
+			45240
 		},
 		skill_id = {},
 		part_main = {
-			8,
-			17
+			1,
+			2,
+			3,
+			18
 		},
 		part_sub = {
-			8,
-			17
+			1,
+			2,
+			3,
+			18
 		},
 		equip_parameters = {},
 		label = {
 			"KMS",
-			"SS",
-			"TP"
+			"ST",
+			"TP",
+			"QUINT"
 		}
 	},
-	[45301] = {
-		id = 45301,
-		damage = "52 x 2",
-		base = 45300,
+	[45241] = {
+		id = 45241,
+		damage = "77 x 5",
+		base = 45240,
 		weapon_id = {
-			45301
+			45241
 		}
 	},
-	[45302] = {
-		id = 45302,
-		damage = "59 x 2",
-		base = 45300,
+	[45242] = {
+		id = 45242,
+		damage = "85 x 5",
+		base = 45240,
 		weapon_id = {
-			45302
+			45242
 		}
 	},
-	[45303] = {
-		id = 45303,
-		damage = "66 x 2",
-		base = 45300,
+	[45243] = {
+		id = 45243,
+		damage = "92 x 5",
+		base = 45240,
 		weapon_id = {
-			45303
+			45243
 		}
 	}
 }

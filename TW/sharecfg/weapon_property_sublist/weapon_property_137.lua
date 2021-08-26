@@ -2,6 +2,36 @@ pg = pg or {}
 pg.weapon_property_137 = {}
 
 (function ()
+	uv0.weapon_property_137[67084] = {
+		id = 67084,
+		name = "Z23技能魚雷LV4",
+		damage = 85,
+		base = 67080
+	}
+	uv0.weapon_property_137[67085] = {
+		id = 67085,
+		name = "Z23技能魚雷LV5",
+		damage = 95,
+		base = 67080
+	}
+	uv0.weapon_property_137[67086] = {
+		id = 67086,
+		name = "Z23技能魚雷LV6",
+		damage = 105,
+		base = 67080
+	}
+	uv0.weapon_property_137[67087] = {
+		id = 67087,
+		name = "Z23技能魚雷LV7",
+		damage = 115,
+		base = 67080
+	}
+	uv0.weapon_property_137[67088] = {
+		id = 67088,
+		name = "Z23技能魚雷LV8",
+		damage = 125,
+		base = 67080
+	}
 	uv0.weapon_property_137[67089] = {
 		id = 67089,
 		name = "Z23技能魚雷LV9",
@@ -696,32 +726,5 @@ pg.weapon_property_137 = {}
 			1
 		},
 		precast_param = {}
-	}
-	uv0.weapon_property_137[67201] = {
-		id = 67201,
-		name = "半人馬技能魚雷Lv1",
-		damage = 76,
-		base = 67200
-	}
-	uv0.weapon_property_137[67202] = {
-		id = 67202,
-		name = "半人馬技能魚雷Lv2",
-		damage = 90,
-		base = 67200
-	}
-	uv0.weapon_property_137[67203] = {
-		id = 67203,
-		name = "半人馬技能魚雷Lv3",
-		damage = 104,
-		base = 67200
-	}
-	uv0.weapon_property_137[67204] = {
-		id = 67204,
-		name = "半人馬技能魚雷Lv4",
-		damage = 118,
-		base = 67200,
-		barrage_ID = {
-			80483
-		}
 	}
 end)()

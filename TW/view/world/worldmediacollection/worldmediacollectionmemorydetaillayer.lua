@@ -89,6 +89,8 @@ function slot0.PlayMemory(slot0, slot1)
 			setActive(uv0.memoryMask, false)
 		end, true)
 	elseif slot1.type == 2 then
+		slot0.contextData.selectedGroupID = slot0.contextData.memoryGroup
+
 		slot0:emit(WorldMediaCollectionMediator.BEGIN_STAGE, {
 			memory = true,
 			system = SYSTEM_PERFORM,

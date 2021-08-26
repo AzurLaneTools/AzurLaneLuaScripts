@@ -1,27 +1,27 @@
 pg = pg or {}
 pg.equip_data_template_349 = {
-	[45203] = {
-		next = 45204,
-		destory_gold = 61,
-		trans_use_gold = 160,
-		base = 45200,
-		id = 45203,
-		prev = 45202,
+	[45143] = {
+		next = 45144,
+		destory_gold = 93,
+		trans_use_gold = 240,
+		base = 45140,
+		id = 45143,
+		prev = 45142,
 		restore_gold = 180,
 		level = 4,
 		trans_use_item = {
 			{
 				17022,
-				8
+				12
 			}
 		},
 		destory_item = {
 			{
 				17021,
-				3
+				4
 			},
 			{
-				17022,
+				17023,
 				1
 			}
 		},
@@ -32,29 +32,33 @@ pg.equip_data_template_349 = {
 			}
 		}
 	},
-	[45204] = {
-		next = 45205,
-		destory_gold = 101,
-		trans_use_gold = 220,
-		base = 45200,
-		id = 45204,
-		prev = 45203,
+	[45144] = {
+		next = 45145,
+		destory_gold = 153,
+		trans_use_gold = 330,
+		base = 45140,
+		id = 45144,
+		prev = 45143,
 		restore_gold = 340,
 		level = 5,
 		trans_use_item = {
 			{
 				17022,
-				11
+				16
 			}
 		},
 		destory_item = {
 			{
 				17021,
-				3
+				4
 			},
 			{
 				17022,
 				3
+			},
+			{
+				17023,
+				1
 			}
 		},
 		restore_item = {
@@ -68,29 +72,33 @@ pg.equip_data_template_349 = {
 			}
 		}
 	},
-	[45205] = {
-		next = 45206,
-		destory_gold = 156,
-		trans_use_gold = 280,
-		base = 45200,
-		id = 45205,
-		prev = 45204,
+	[45145] = {
+		next = 45146,
+		destory_gold = 235,
+		trans_use_gold = 420,
+		base = 45140,
+		id = 45145,
+		prev = 45144,
 		restore_gold = 560,
 		level = 6,
 		trans_use_item = {
 			{
 				17022,
-				14
+				21
 			}
 		},
 		destory_item = {
 			{
 				17021,
-				3
+				4
 			},
 			{
 				17022,
-				6
+				7
+			},
+			{
+				17023,
+				1
 			}
 		},
 		restore_item = {
@@ -104,29 +112,33 @@ pg.equip_data_template_349 = {
 			}
 		}
 	},
-	[45206] = {
-		next = 45207,
-		destory_gold = 226,
-		trans_use_gold = 360,
-		base = 45200,
-		id = 45206,
-		prev = 45205,
+	[45146] = {
+		next = 45147,
+		destory_gold = 340,
+		trans_use_gold = 540,
+		base = 45140,
+		id = 45146,
+		prev = 45145,
 		restore_gold = 840,
 		level = 7,
 		trans_use_item = {
 			{
 				17023,
-				18
+				27
 			}
 		},
 		destory_item = {
 			{
 				17021,
-				3
+				4
 			},
 			{
 				17022,
-				9
+				12
+			},
+			{
+				17023,
+				1
 			}
 		},
 		restore_item = {
@@ -140,33 +152,33 @@ pg.equip_data_template_349 = {
 			}
 		}
 	},
-	[45207] = {
-		next = 45208,
-		destory_gold = 316,
-		trans_use_gold = 440,
-		base = 45200,
-		id = 45207,
-		prev = 45206,
+	[45147] = {
+		next = 45148,
+		destory_gold = 475,
+		trans_use_gold = 660,
+		base = 45140,
+		id = 45147,
+		prev = 45146,
 		restore_gold = 1200,
 		level = 8,
 		trans_use_item = {
 			{
 				17023,
-				22
+				33
 			}
 		},
 		destory_item = {
 			{
 				17021,
-				3
+				4
 			},
 			{
 				17022,
-				9
+				12
 			},
 			{
 				17023,
-				5
+				7
 			}
 		},
 		restore_item = {
@@ -184,33 +196,33 @@ pg.equip_data_template_349 = {
 			}
 		}
 	},
-	[45208] = {
-		next = 45209,
-		destory_gold = 426,
-		trans_use_gold = 520,
-		base = 45200,
-		id = 45208,
-		prev = 45207,
+	[45148] = {
+		next = 45149,
+		destory_gold = 640,
+		trans_use_gold = 780,
+		base = 45140,
+		id = 45148,
+		prev = 45147,
 		restore_gold = 1640,
 		level = 9,
 		trans_use_item = {
 			{
 				17023,
-				26
+				39
 			}
 		},
 		destory_item = {
 			{
 				17021,
-				3
+				4
 			},
 			{
 				17022,
-				9
+				12
 			},
 			{
 				17023,
-				10
+				15
 			}
 		},
 		restore_item = {
@@ -228,33 +240,33 @@ pg.equip_data_template_349 = {
 			}
 		}
 	},
-	[45209] = {
-		next = 45210,
-		destory_gold = 556,
-		trans_use_gold = 600,
-		base = 45200,
-		id = 45209,
-		prev = 45208,
+	[45149] = {
+		next = 45150,
+		destory_gold = 835,
+		trans_use_gold = 900,
+		base = 45140,
+		id = 45149,
+		prev = 45148,
 		restore_gold = 2160,
 		level = 10,
 		trans_use_item = {
 			{
 				17023,
-				30
+				45
 			}
 		},
 		destory_item = {
 			{
 				17021,
-				3
+				4
 			},
 			{
 				17022,
-				9
+				12
 			},
 			{
 				17023,
-				16
+				25
 			}
 		},
 		restore_item = {
@@ -272,28 +284,28 @@ pg.equip_data_template_349 = {
 			}
 		}
 	},
-	[45210] = {
+	[45150] = {
 		next = 0,
-		destory_gold = 706,
+		destory_gold = 1060,
 		trans_use_gold = 0,
-		base = 45200,
-		id = 45210,
-		prev = 45209,
+		base = 45140,
+		id = 45150,
+		prev = 45149,
 		restore_gold = 2760,
 		level = 11,
 		trans_use_item = {},
 		destory_item = {
 			{
 				17021,
-				3
+				4
 			},
 			{
 				17022,
-				9
+				12
 			},
 			{
 				17023,
-				24
+				36
 			}
 		},
 		restore_item = {
@@ -311,47 +323,47 @@ pg.equip_data_template_349 = {
 			}
 		}
 	},
-	[45220] = {
-		destory_gold = 25,
-		trans_use_gold = 30,
-		next = 45221,
+	[45200] = {
+		destory_gold = 16,
+		trans_use_gold = 20,
+		next = 45201,
 		type = 5,
-		group = 45220,
+		group = 45200,
 		restore_gold = 0,
 		important = 1,
 		prev = 0,
-		id = 45220,
+		id = 45200,
 		equip_limit = 0,
 		level = 1,
 		ship_type_forbidden = {},
 		trans_use_item = {
 			{
 				17021,
-				2
+				1
 			}
 		},
 		destory_item = {
 			{
-				17023,
+				17022,
 				1
 			}
 		},
 		restore_item = {},
 		upgrade_formula_id = {}
 	},
-	[45221] = {
-		next = 45222,
-		destory_gold = 33,
-		trans_use_gold = 90,
-		base = 45220,
-		id = 45221,
-		prev = 45220,
+	[45201] = {
+		next = 45202,
+		destory_gold = 21,
+		trans_use_gold = 60,
+		base = 45200,
+		id = 45201,
+		prev = 45200,
 		restore_gold = 20,
 		level = 2,
 		trans_use_item = {
 			{
 				17021,
-				5
+				3
 			}
 		},
 		destory_item = {
@@ -360,7 +372,7 @@ pg.equip_data_template_349 = {
 				1
 			},
 			{
-				17023,
+				17022,
 				1
 			}
 		},

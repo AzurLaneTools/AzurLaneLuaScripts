@@ -1,5 +1,238 @@
 pg = pg or {}
 pg.equip_data_statistics_263 = {
+	[37328] = {
+		id = 37328,
+		base = 37320,
+		ammo_info = {
+			{
+				6,
+				59528
+			},
+			{
+				5,
+				52328
+			}
+		},
+		weapon_id = {
+			37328,
+			83328
+		}
+	},
+	[37329] = {
+		id = 37329,
+		base = 37320,
+		ammo_info = {
+			{
+				6,
+				59529
+			},
+			{
+				5,
+				52329
+			}
+		},
+		weapon_id = {
+			37329,
+			83329
+		}
+	},
+	[37330] = {
+		id = 37330,
+		base = 37320,
+		ammo_info = {
+			{
+				6,
+				59530
+			},
+			{
+				5,
+				52330
+			}
+		},
+		weapon_id = {
+			37330,
+			83330
+		}
+	},
+	[37340] = {
+		rarity = 5,
+		name = "烈風",
+		speciality = "空戰",
+		type = 7,
+		tech = 3,
+		ammo = 5,
+		nationality = 3,
+		value_2 = 45,
+		id = 37340,
+		torpedo_ammo = 0,
+		value_3 = 0,
+		descrip = "Mitsubishi A7M Reppū烈風式艦載戰鬥 機，搭載有4門20毫米九九式二號四型機關炮和2枚約500磅炸彈",
+		icon = "37300",
+		attribute_2 = "air",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59540
+			},
+			{
+				5,
+				52340
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			37340,
+			83340
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
+	},
+	[37341] = {
+		id = 37341,
+		base = 37340,
+		ammo_info = {
+			{
+				6,
+				59541
+			},
+			{
+				5,
+				52341
+			}
+		},
+		weapon_id = {
+			37341,
+			83341
+		}
+	},
+	[37342] = {
+		id = 37342,
+		base = 37340,
+		ammo_info = {
+			{
+				6,
+				59542
+			},
+			{
+				5,
+				52342
+			}
+		},
+		weapon_id = {
+			37342,
+			83342
+		}
+	},
+	[37343] = {
+		id = 37343,
+		base = 37340,
+		ammo_info = {
+			{
+				6,
+				59543
+			},
+			{
+				5,
+				52343
+			}
+		},
+		weapon_id = {
+			37343,
+			83343
+		}
+	},
+	[37344] = {
+		id = 37344,
+		base = 37340,
+		ammo_info = {
+			{
+				6,
+				59544
+			},
+			{
+				5,
+				52344
+			}
+		},
+		weapon_id = {
+			37344,
+			83344
+		}
+	},
+	[37345] = {
+		id = 37345,
+		base = 37340,
+		ammo_info = {
+			{
+				6,
+				59545
+			},
+			{
+				5,
+				52345
+			}
+		},
+		weapon_id = {
+			37345,
+			83345
+		}
+	},
+	[37346] = {
+		id = 37346,
+		base = 37340,
+		ammo_info = {
+			{
+				6,
+				59546
+			},
+			{
+				5,
+				52346
+			}
+		},
+		weapon_id = {
+			37346,
+			83346
+		}
+	},
+	[37347] = {
+		id = 37347,
+		base = 37340,
+		ammo_info = {
+			{
+				6,
+				59547
+			},
+			{
+				5,
+				52347
+			}
+		},
+		weapon_id = {
+			37347,
+			83347
+		}
+	},
 	[37348] = {
 		id = 37348,
 		base = 37340,
@@ -16,299 +249,6 @@ pg.equip_data_statistics_263 = {
 		weapon_id = {
 			37348,
 			83348
-		}
-	},
-	[37349] = {
-		id = 37349,
-		base = 37340,
-		ammo_info = {
-			{
-				6,
-				59549
-			},
-			{
-				5,
-				52349
-			}
-		},
-		weapon_id = {
-			37349,
-			83349
-		}
-	},
-	[37350] = {
-		id = 37350,
-		base = 37340,
-		ammo_info = {
-			{
-				6,
-				59550
-			},
-			{
-				5,
-				52350
-			}
-		},
-		weapon_id = {
-			37350,
-			83350
-		}
-	},
-	[38000] = {
-		type = 8,
-		name = "九七式艦攻",
-		speciality = "雷擊",
-		tech = 1,
-		rarity = 1,
-		ammo = 5,
-		nationality = 3,
-		value_2 = 0,
-		id = 38000,
-		value_3 = 0,
-		descrip = "說明未填寫",
-		icon = "38000",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50000
-			},
-			{
-				4,
-				51300
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38000
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
-		}
-	},
-	[38001] = {
-		id = 38001,
-		base = 38000,
-		ammo_info = {
-			{
-				6,
-				50001
-			},
-			{
-				4,
-				51301
-			}
-		},
-		weapon_id = {
-			38001
-		}
-	},
-	[38002] = {
-		id = 38002,
-		base = 38000,
-		ammo_info = {
-			{
-				6,
-				50002
-			},
-			{
-				4,
-				51302
-			}
-		},
-		weapon_id = {
-			38002
-		}
-	},
-	[38003] = {
-		id = 38003,
-		base = 38000,
-		ammo_info = {
-			{
-				6,
-				50003
-			},
-			{
-				4,
-				51303
-			}
-		},
-		weapon_id = {
-			38003
-		}
-	},
-	[38020] = {
-		rarity = 2,
-		name = "九七式艦攻",
-		speciality = "雷擊",
-		type = 8,
-		tech = 2,
-		ammo = 5,
-		nationality = 3,
-		value_2 = 5,
-		id = 38020,
-		torpedo_ammo = 0,
-		value_3 = 0,
-		descrip = "說明未填寫",
-		icon = "38000",
-		attribute_2 = "air",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				4,
-				51320
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38020
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
-		}
-	},
-	[38021] = {
-		id = 38021,
-		base = 38020,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51321
-			}
-		},
-		weapon_id = {
-			38021
-		}
-	},
-	[38022] = {
-		id = 38022,
-		base = 38020,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				4,
-				51322
-			}
-		},
-		weapon_id = {
-			38022
-		}
-	},
-	[38023] = {
-		id = 38023,
-		base = 38020,
-		ammo_info = {
-			{
-				6,
-				50023
-			},
-			{
-				4,
-				51323
-			}
-		},
-		weapon_id = {
-			38023
-		}
-	},
-	[38040] = {
-		rarity = 3,
-		name = "九七式艦攻",
-		speciality = "雷擊",
-		type = 8,
-		tech = 3,
-		ammo = 5,
-		nationality = 3,
-		value_2 = 12,
-		id = 38040,
-		torpedo_ammo = 0,
-		value_3 = 0,
-		descrip = "說明未填寫",
-		icon = "38000",
-		attribute_2 = "air",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50040
-			},
-			{
-				4,
-				51340
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38040
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
 		}
 	}
 }

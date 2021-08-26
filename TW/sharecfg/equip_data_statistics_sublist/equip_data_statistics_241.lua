@@ -1,40 +1,72 @@
 pg = pg or {}
 pg.equip_data_statistics_241 = {
-	[35504] = {
-		id = 35504,
-		damage = "88 x 2",
-		base = 35500,
-		weapon_id = {
-			35504
-		}
-	},
-	[35505] = {
-		id = 35505,
+	[35444] = {
+		id = 35444,
 		damage = "96 x 2",
-		base = 35500,
+		base = 35440,
 		weapon_id = {
-			35505
+			35444
 		}
 	},
-	[35506] = {
-		id = 35506,
-		damage = "104 x 2",
-		base = 35500,
+	[35445] = {
+		id = 35445,
+		damage = "105 x 2",
+		base = 35440,
 		weapon_id = {
-			35506
+			35445
 		}
 	},
-	[35520] = {
-		tech = 2,
+	[35446] = {
+		id = 35446,
+		damage = "114 x 2",
+		base = 35440,
+		weapon_id = {
+			35446
+		}
+	},
+	[35447] = {
+		id = 35447,
+		damage = "123 x 2",
+		base = 35440,
+		weapon_id = {
+			35447
+		}
+	},
+	[35448] = {
+		id = 35448,
+		damage = "132 x 2",
+		base = 35440,
+		weapon_id = {
+			35448
+		}
+	},
+	[35449] = {
+		id = 35449,
+		damage = "141 x 2",
+		base = 35440,
+		weapon_id = {
+			35449
+		}
+	},
+	[35450] = {
+		id = 35450,
+		damage = "150 x 2",
+		base = 35440,
+		weapon_id = {
+			35450
+		}
+	},
+	[35500] = {
+		tech = 1,
 		name = "潛艇用95式純氧魚雷",
 		speciality = "雷擊",
 		type = 13,
-		value_2 = 25,
+		value_2 = 12,
 		ammo = 5,
-		damage = "63 x 2",
+		damage = "56 x 2",
 		nationality = 3,
-		rarity = 4,
-		id = 35520,
+		rarity = 3,
+		id = 35500,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
@@ -65,7 +97,7 @@ pg.equip_data_statistics_241 = {
 			12
 		},
 		weapon_id = {
-			35520
+			35500
 		},
 		skill_id = {},
 		part_main = {
@@ -83,68 +115,36 @@ pg.equip_data_statistics_241 = {
 			"TP"
 		}
 	},
-	[35521] = {
-		id = 35521,
+	[35501] = {
+		id = 35501,
+		damage = "64 x 2",
+		base = 35500,
+		weapon_id = {
+			35501
+		}
+	},
+	[35502] = {
+		id = 35502,
 		damage = "72 x 2",
-		base = 35520,
+		base = 35500,
 		weapon_id = {
-			35521
+			35502
 		}
 	},
-	[35522] = {
-		id = 35522,
-		damage = "81 x 2",
-		base = 35520,
+	[35503] = {
+		id = 35503,
+		damage = "80 x 2",
+		base = 35500,
 		weapon_id = {
-			35522
+			35503
 		}
 	},
-	[35523] = {
-		id = 35523,
-		damage = "90 x 2",
-		base = 35520,
+	[35504] = {
+		id = 35504,
+		damage = "88 x 2",
+		base = 35500,
 		weapon_id = {
-			35523
-		}
-	},
-	[35524] = {
-		id = 35524,
-		damage = "99 x 2",
-		base = 35520,
-		weapon_id = {
-			35524
-		}
-	},
-	[35525] = {
-		id = 35525,
-		damage = "108 x 2",
-		base = 35520,
-		weapon_id = {
-			35525
-		}
-	},
-	[35526] = {
-		id = 35526,
-		damage = "117 x 2",
-		base = 35520,
-		weapon_id = {
-			35526
-		}
-	},
-	[35527] = {
-		id = 35527,
-		damage = "127 x 2",
-		base = 35520,
-		weapon_id = {
-			35527
-		}
-	},
-	[35528] = {
-		id = 35528,
-		damage = "137 x 2",
-		base = 35520,
-		weapon_id = {
-			35528
+			35504
 		}
 	}
 }

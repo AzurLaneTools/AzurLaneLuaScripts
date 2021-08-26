@@ -1,89 +1,65 @@
 pg = pg or {}
 pg.aircraft_template_254 = {
-	[86045] = {
-		id = 86045,
-		max_hp = 71,
-		hp_growth = 2717,
-		base = 86040,
+	[84150] = {
+		id = 84150,
+		max_hp = 105,
+		hp_growth = 4032,
+		base = 84140,
 		weapon_ID = {
-			50745
+			59150,
+			59250
 		}
 	},
-	[86046] = {
-		id = 86046,
-		max_hp = 77,
-		hp_growth = 2949,
-		base = 86040,
+	[84151] = {
+		id = 84151,
+		max_hp = 111,
+		hp_growth = 4274,
+		base = 84140,
 		weapon_ID = {
-			50746
+			59151,
+			59251
 		}
 	},
-	[86047] = {
-		id = 86047,
-		max_hp = 83,
-		hp_growth = 3182,
-		base = 86040,
+	[84152] = {
+		id = 84152,
+		max_hp = 117,
+		hp_growth = 4516,
+		base = 84140,
 		weapon_ID = {
-			50747
+			59152,
+			59252
 		}
 	},
-	[86048] = {
-		id = 86048,
-		max_hp = 89,
-		hp_growth = 3415,
-		base = 86040,
+	[84153] = {
+		id = 84153,
+		max_hp = 124,
+		hp_growth = 4758,
+		base = 84140,
 		weapon_ID = {
-			50748
+			59153,
+			59253
 		}
 	},
-	[86049] = {
-		id = 86049,
-		max_hp = 95,
-		hp_growth = 3648,
-		base = 86040,
-		weapon_ID = {
-			50749
-		}
-	},
-	[86050] = {
-		id = 86050,
-		max_hp = 101,
-		hp_growth = 3881,
-		base = 86040,
-		weapon_ID = {
-			50750
-		}
-	},
-	[86051] = {
-		id = 86051,
-		max_hp = 107,
-		hp_growth = 4114,
-		base = 86040,
-		weapon_ID = {
-			50751
-		}
-	},
-	[86060] = {
+	[86000] = {
 		attack_power = 2,
-		name = "Re.2001公羊T1",
+		name = "G.50箭式战斗机T1",
 		type = 1,
 		accuracy = 23,
-		model_ID = "re2001",
+		model_ID = "g50",
 		ACC_growth = 0,
-		crash_DMG = 52,
-		dodge = 0.339,
+		crash_DMG = 160,
+		dodge = 0.357,
 		funnel_behavior = "",
 		nationality = 6,
-		id = 86060,
-		icon = "re2001",
+		id = 86000,
+		icon = "g50",
 		AP_growth = 2000,
 		dodge_limit = 8,
-		hp_growth = 1149,
-		speed = 46,
-		max_hp = 30,
+		hp_growth = 1270,
+		speed = 50,
+		max_hp = 33,
 		scale = 1,
 		weapon_ID = {
-			50000,
 			50700
 		},
 		position_offset = {
@@ -138,24 +114,114 @@ pg.aircraft_template_254 = {
 			}
 		}
 	},
-	[86061] = {
-		id = 86061,
-		max_hp = 34,
-		hp_growth = 1321,
-		base = 86060,
+	[86001] = {
+		id = 86001,
+		max_hp = 38,
+		hp_growth = 1461,
+		base = 86000,
 		weapon_ID = {
-			50001,
 			50701
 		}
 	},
-	[86062] = {
-		id = 86062,
-		max_hp = 39,
-		hp_growth = 1494,
-		base = 86060,
+	[86002] = {
+		id = 86002,
+		max_hp = 43,
+		hp_growth = 1651,
+		base = 86000,
 		weapon_ID = {
-			50002,
 			50702
+		}
+	},
+	[86003] = {
+		id = 86003,
+		max_hp = 48,
+		hp_growth = 1842,
+		base = 86000,
+		weapon_ID = {
+			50703
+		}
+	},
+	[86020] = {
+		attack_power = 2,
+		name = "G.50箭式战斗机T2",
+		type = 1,
+		accuracy = 23,
+		model_ID = "g50",
+		ACC_growth = 0,
+		crash_DMG = 160,
+		dodge = 0.345,
+		funnel_behavior = "",
+		nationality = 6,
+		id = 86020,
+		icon = "g50",
+		AP_growth = 2000,
+		dodge_limit = 8.5,
+		hp_growth = 1411,
+		speed = 50,
+		max_hp = 37,
+		scale = 1,
+		weapon_ID = {
+			50720
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[86021] = {
+		id = 86021,
+		max_hp = 42,
+		hp_growth = 1623,
+		base = 86020,
+		weapon_ID = {
+			50721
 		}
 	}
 }

@@ -1,5 +1,200 @@
 pg = pg or {}
 pg.equip_data_statistics_234 = {
+	[34188] = {
+		id = 34188,
+		damage = "134 x 3",
+		base = 34180,
+		weapon_id = {
+			34188
+		}
+	},
+	[34189] = {
+		id = 34189,
+		damage = "144 x 3",
+		base = 34180,
+		weapon_id = {
+			34189
+		}
+	},
+	[34190] = {
+		id = 34190,
+		damage = "154 x 3",
+		base = 34180,
+		weapon_id = {
+			34190
+		}
+	},
+	[35000] = {
+		tech = 1,
+		name = "雙聯裝610mm魚雷",
+		speciality = "雷擊",
+		type = 5,
+		rarity = 1,
+		ammo = 5,
+		damage = "52 x 2",
+		nationality = 3,
+		value_2 = 0,
+		id = 35000,
+		value_3 = 0,
+		descrip = "說明未填寫",
+		icon = "35000",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1801
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1801
+			},
+			{
+				4,
+				1401
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35000
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP",
+			"DUO"
+		}
+	},
+	[35001] = {
+		id = 35001,
+		damage = "62 x 2",
+		base = 35000,
+		weapon_id = {
+			35001
+		}
+	},
+	[35002] = {
+		id = 35002,
+		damage = "72 x 2",
+		base = 35000,
+		weapon_id = {
+			35002
+		}
+	},
+	[35003] = {
+		id = 35003,
+		damage = "82 x 2",
+		base = 35000,
+		weapon_id = {
+			35003
+		}
+	},
+	[35020] = {
+		tech = 2,
+		name = "雙聯裝610mm魚雷",
+		speciality = "雷擊",
+		type = 5,
+		value_2 = 5,
+		ammo = 5,
+		damage = "58 x 2",
+		nationality = 3,
+		rarity = 2,
+		id = 35020,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "說明未填寫",
+		icon = "35000",
+		attribute_2 = "torpedo",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1801
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1801
+			},
+			{
+				4,
+				1401
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			35020
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP",
+			"DUO"
+		}
+	},
+	[35021] = {
+		id = 35021,
+		damage = "70 x 2",
+		base = 35020,
+		weapon_id = {
+			35021
+		}
+	},
+	[35022] = {
+		id = 35022,
+		damage = "82 x 2",
+		base = 35020,
+		weapon_id = {
+			35022
+		}
+	},
+	[35023] = {
+		id = 35023,
+		damage = "94 x 2",
+		base = 35020,
+		weapon_id = {
+			35023
+		}
+	},
 	[35040] = {
 		tech = 3,
 		name = "雙聯裝610mm魚雷",
@@ -60,202 +255,6 @@ pg.equip_data_statistics_234 = {
 			"ST",
 			"TP",
 			"DUO"
-		}
-	},
-	[35041] = {
-		id = 35041,
-		damage = "80 x 2",
-		base = 35040,
-		weapon_id = {
-			35041
-		}
-	},
-	[35042] = {
-		id = 35042,
-		damage = "94 x 2",
-		base = 35040,
-		weapon_id = {
-			35042
-		}
-	},
-	[35043] = {
-		id = 35043,
-		damage = "108 x 2",
-		base = 35040,
-		weapon_id = {
-			35043
-		}
-	},
-	[35044] = {
-		id = 35044,
-		damage = "122 x 2",
-		base = 35040,
-		weapon_id = {
-			35044
-		}
-	},
-	[35045] = {
-		id = 35045,
-		damage = "136 x 2",
-		base = 35040,
-		weapon_id = {
-			35045
-		}
-	},
-	[35046] = {
-		id = 35046,
-		damage = "150 x 2",
-		base = 35040,
-		weapon_id = {
-			35046
-		}
-	},
-	[35100] = {
-		tech = 1,
-		name = "三聯裝610mm魚雷",
-		speciality = "雷擊",
-		type = 5,
-		value_2 = 5,
-		ammo = 5,
-		damage = "52 x 3",
-		nationality = 3,
-		rarity = 2,
-		id = 35100,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "說明未填寫",
-		icon = "35100",
-		attribute_2 = "torpedo",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1801
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1801
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			35100
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"TP",
-			"TRI"
-		}
-	},
-	[35101] = {
-		id = 35101,
-		damage = "62 x 3",
-		base = 35100,
-		weapon_id = {
-			35101
-		}
-	},
-	[35102] = {
-		id = 35102,
-		damage = "72 x 3",
-		base = 35100,
-		weapon_id = {
-			35102
-		}
-	},
-	[35103] = {
-		id = 35103,
-		damage = "82 x 3",
-		base = 35100,
-		weapon_id = {
-			35103
-		}
-	},
-	[35120] = {
-		tech = 2,
-		name = "三聯裝610mm魚雷",
-		speciality = "雷擊",
-		type = 5,
-		value_2 = 12,
-		ammo = 5,
-		damage = "58 x 3",
-		nationality = 3,
-		rarity = 3,
-		id = 35120,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "說明未填寫",
-		icon = "35100",
-		attribute_2 = "torpedo",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				3,
-				1801
-			}
-		},
-		equip_info = {
-			{
-				3,
-				1801
-			},
-			{
-				4,
-				1402
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			35120
-		},
-		skill_id = {},
-		part_main = {
-			1,
-			2,
-			3,
-			18
-		},
-		part_sub = {
-			1,
-			2,
-			3,
-			18
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"ST",
-			"TP",
-			"TRI"
 		}
 	}
 }

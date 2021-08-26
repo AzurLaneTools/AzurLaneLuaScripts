@@ -1,88 +1,88 @@
 pg = pg or {}
 pg.equip_data_statistics_300 = {
-	[45222] = {
-		id = 45222,
-		damage = "79 x 5",
-		base = 45220,
+	[45202] = {
+		id = 45202,
+		damage = "75 x 5",
+		base = 45200,
 		weapon_id = {
-			45222
+			45202
 		}
 	},
-	[45223] = {
-		id = 45223,
-		damage = "86 x 5",
-		base = 45220,
+	[45203] = {
+		id = 45203,
+		damage = "81 x 5",
+		base = 45200,
 		weapon_id = {
-			45223
+			45203
 		}
 	},
-	[45224] = {
-		id = 45224,
-		damage = "92 x 5",
-		base = 45220,
+	[45204] = {
+		id = 45204,
+		damage = "87 x 5",
+		base = 45200,
 		weapon_id = {
-			45224
+			45204
 		}
 	},
-	[45225] = {
-		id = 45225,
+	[45205] = {
+		id = 45205,
+		damage = "93 x 5",
+		base = 45200,
+		weapon_id = {
+			45205
+		}
+	},
+	[45206] = {
+		id = 45206,
 		damage = "99 x 5",
-		base = 45220,
+		base = 45200,
 		weapon_id = {
-			45225
+			45206
 		}
 	},
-	[45226] = {
-		id = 45226,
-		damage = "106 x 5",
-		base = 45220,
+	[45207] = {
+		id = 45207,
+		damage = "105 x 5",
+		base = 45200,
 		weapon_id = {
-			45226
+			45207
 		}
 	},
-	[45227] = {
-		id = 45227,
-		damage = "112 x 5",
-		base = 45220,
+	[45208] = {
+		id = 45208,
+		damage = "111 x 5",
+		base = 45200,
 		weapon_id = {
-			45227
+			45208
 		}
 	},
-	[45228] = {
-		id = 45228,
-		damage = "119 x 5",
-		base = 45220,
+	[45209] = {
+		id = 45209,
+		damage = "117 x 5",
+		base = 45200,
 		weapon_id = {
-			45228
+			45209
 		}
 	},
-	[45229] = {
-		id = 45229,
-		damage = "126 x 5",
-		base = 45220,
+	[45210] = {
+		id = 45210,
+		damage = "123 x 5",
+		base = 45200,
 		weapon_id = {
-			45229
+			45210
 		}
 	},
-	[45230] = {
-		id = 45230,
-		damage = "133 x 5",
-		base = 45220,
-		weapon_id = {
-			45230
-		}
-	},
-	[45240] = {
-		tech = 3,
+	[45220] = {
+		tech = 2,
 		name = "五聯裝533mm磁性魚雷",
 		speciality = "雷擊",
 		type = 5,
-		value_2 = 70,
+		value_2 = 45,
 		ammo = 4,
-		damage = "70 x 5",
+		damage = "66 x 5",
 		nationality = 4,
-		rarity = 6,
-		id = 45240,
+		rarity = 5,
+		id = 45220,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "五聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
@@ -111,7 +111,7 @@ pg.equip_data_statistics_300 = {
 			12
 		},
 		weapon_id = {
-			45240
+			45220
 		},
 		skill_id = {},
 		part_main = {
@@ -134,20 +134,20 @@ pg.equip_data_statistics_300 = {
 			"QUINT"
 		}
 	},
-	[45241] = {
-		id = 45241,
-		damage = "77 x 5",
-		base = 45240,
+	[45221] = {
+		id = 45221,
+		damage = "72 x 5",
+		base = 45220,
 		weapon_id = {
-			45241
+			45221
 		}
 	},
-	[45242] = {
-		id = 45242,
-		damage = "85 x 5",
-		base = 45240,
+	[45222] = {
+		id = 45222,
+		damage = "79 x 5",
+		base = 45220,
 		weapon_id = {
-			45242
+			45222
 		}
 	}
 }

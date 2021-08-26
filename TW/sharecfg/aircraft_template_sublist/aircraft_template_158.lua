@@ -1,113 +1,167 @@
 pg = pg or {}
 pg.aircraft_template_158 = {
-	[67241] = {
-		id = 67241,
-		name = "伊势技能轰炸机Lv1",
-		base = 67240,
-		max_hp = 48,
-		hp_growth = 1846,
+	[67143] = {
+		id = 67143,
+		name = "半人马技能鱼雷机Lv3",
+		base = 67140,
+		max_hp = 50,
+		hp_growth = 1940,
 		weapon_ID = {
-			67261,
-			67281
+			67183
 		}
 	},
-	[67242] = {
-		id = 67242,
-		name = "伊势技能轰炸机Lv2",
-		base = 67240,
-		max_hp = 54,
-		hp_growth = 2087,
+	[67144] = {
+		id = 67144,
+		name = "半人马技能鱼雷机Lv4",
+		base = 67140,
+		max_hp = 56,
+		hp_growth = 2140,
 		weapon_ID = {
-			67262,
-			67282
+			67184
 		}
 	},
-	[67243] = {
-		id = 67243,
-		name = "伊势技能轰炸机Lv3",
-		base = 67240,
+	[67145] = {
+		id = 67145,
+		name = "半人马技能鱼雷机Lv5",
+		base = 67140,
 		max_hp = 61,
-		hp_growth = 2327,
+		hp_growth = 2341,
 		weapon_ID = {
-			67263,
-			67283
+			67185
 		}
 	},
-	[67244] = {
-		id = 67244,
-		name = "伊势技能轰炸机Lv4",
-		base = 67240,
-		max_hp = 67,
-		hp_growth = 2568,
+	[67146] = {
+		id = 67146,
+		name = "半人马技能鱼雷机Lv6",
+		base = 67140,
+		max_hp = 66,
+		hp_growth = 2541,
 		weapon_ID = {
-			67264,
-			67284
+			67186
 		}
 	},
-	[67245] = {
-		id = 67245,
-		name = "伊势技能轰炸机Lv5",
-		base = 67240,
-		max_hp = 73,
-		hp_growth = 2809,
+	[67147] = {
+		id = 67147,
+		name = "半人马技能鱼雷机Lv7",
+		base = 67140,
+		max_hp = 71,
+		hp_growth = 2742,
 		weapon_ID = {
-			67265,
-			67285
+			67187
 		}
 	},
-	[67246] = {
-		id = 67246,
-		name = "伊势技能轰炸机Lv6",
-		base = 67240,
-		max_hp = 79,
-		hp_growth = 3050,
+	[67148] = {
+		id = 67148,
+		name = "半人马技能鱼雷机Lv8",
+		base = 67140,
+		max_hp = 77,
+		hp_growth = 2943,
 		weapon_ID = {
-			67266,
-			67286
+			67188
 		}
 	},
-	[67247] = {
-		id = 67247,
-		name = "伊势技能轰炸机Lv7",
-		base = 67240,
-		max_hp = 86,
-		hp_growth = 3290,
+	[67149] = {
+		id = 67149,
+		name = "半人马技能鱼雷机Lv9",
+		base = 67140,
+		max_hp = 82,
+		hp_growth = 3143,
 		weapon_ID = {
-			67267,
-			67287
+			67189
 		}
 	},
-	[67248] = {
-		id = 67248,
-		name = "伊势技能轰炸机Lv8",
-		base = 67240,
-		max_hp = 92,
-		hp_growth = 3531,
+	[67150] = {
+		id = 67150,
+		name = "半人马技能鱼雷机Lv10",
+		base = 67140,
+		max_hp = 87,
+		hp_growth = 3344,
 		weapon_ID = {
-			67268,
-			67288
+			67190
 		}
 	},
-	[67249] = {
-		id = 67249,
-		name = "伊势技能轰炸机Lv9",
-		base = 67240,
-		max_hp = 98,
-		hp_growth = 3772,
+	[67160] = {
+		attack_power = 2,
+		name = "半人马技能鱼雷机Lv0",
+		type = 2,
+		accuracy = 23,
+		model_ID = "jianyu",
+		ACC_growth = 0,
+		crash_DMG = 306,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 2,
+		id = 67160,
+		icon = "jianyu",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1338,
+		speed = 45,
+		max_hp = 35,
+		scale = 1,
 		weapon_ID = {
-			67269,
-			67289
+			67200
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[67250] = {
-		id = 67250,
-		name = "伊势技能轰炸机Lv10",
-		base = 67240,
-		max_hp = 104,
-		hp_growth = 4013,
+	[67161] = {
+		id = 67161,
+		name = "半人马技能鱼雷机Lv1",
+		base = 67160,
+		max_hp = 40,
+		hp_growth = 1538,
 		weapon_ID = {
-			67270,
-			67290
+			67201
 		}
 	}
 }

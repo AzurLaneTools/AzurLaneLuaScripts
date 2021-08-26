@@ -11,17 +11,81 @@ function slot0.OnLoaded(slot0)
 
 	setText(slot0:findTF("tpl/mask/tag/sellout_tag"), i18n("word_sell_out"))
 
-	slot0.actTip = slot0:findTF("tip_activity"):GetComponent(typeof(Text))
+	slot0.actTip = slot0:findTF("tip/tip_activity"):GetComponent(typeof(Text))
 
-	setActive(slot0.actTip, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SHOP_STREET) and not slot1:isEnd())
+	setActive(slot0.actTip, #_.select(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP_STREET), function (slot0)
+		return slot0 and not slot0:isEnd()
+	end) > 0)
 
-	slot0.actTip.text = i18n("shop_street_activity_tip")
+	slot0.actTip.text = slot0:GenTip(slot2)
+	slot0.helpBtn = slot0:findTF("tip/help")
+
+	setActive(slot0.helpBtn, #slot2 > 1)
+
+	slot0.activitys = slot2
+end
+
+function slot0.GenTip(slot0, slot1)
+	slot2 = ""
+
+	if #slot1 == 1 then
+		slot2 = i18n("shop_street_activity_tip", slot1[1]:GetShopTime())
+	elseif #slot1 > 1 then
+		slot2 = slot0:GenTipForMultiAct(slot1)
+	end
+
+	return slot2
+end
+
+function slot0.GenTipForMultiAct(slot0, slot1)
+	slot2 = slot1[1]
+	slot3 = slot2:getStartTime()
+	slot4 = slot2.stopTime
+	slot5 = _.all(slot1, function (slot0)
+		return slot0:getStartTime() == uv0
+	end)
+	slot7 = slot2
+
+	if not _.all(slot1, function (slot0)
+		return slot0.stopTime == uv0
+	end) then
+		table.sort(slot1, function (slot0, slot1)
+			return slot0.stopTime < slot1.stopTime
+		end)
+
+		slot7 = slot1[1]
+	elseif not slot5 and slot6 then
+		table.sort(slot1, function (slot0, slot1)
+			return slot0:getStartTime() < slot1:getStartTime()
+		end)
+
+		slot7 = slot1[1]
+	end
+
+	return i18n("shop_street_activity_tip", slot7:GetShopTime())
+end
+
+function slot0.GenHelpContent(slot0, slot1, slot2)
+	for slot7, slot8 in ipairs(slot2:getConfig("config_data")) do
+		table.insert(slot1, i18n("shop_street_Equipment_skin_box_help", pg.item_data_statistics[pg.shop_template[slot8[1]].effect_args[1]].name, slot2:GetShopTime()))
+	end
 end
 
 function slot0.OnInit(slot0)
 	slot0.resPanel = PlayerResource.New()
 
 	slot0.resPanel:setParent(slot0._tf, false)
+	onButton(slot0, slot0.helpBtn, function ()
+		table.sort(uv0.activitys, function (slot0, slot1)
+			return slot0:getStartTime() < slot1:getStartTime()
+		end)
+		_.each(uv0.activitys, function (slot0)
+			uv0:GenHelpContent(uv1, slot0)
+		end)
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = table.concat({}, "\n\n")
+		})
+	end, SFX_PANEL)
 	onButton(slot0, slot0.refreshBtn, function ()
 		if not ShoppingStreet.getRiseShopId(ShopArgs.ShoppingStreetUpgrade, uv0.shop.flashCount) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("shopStreet_refresh_max_count"))

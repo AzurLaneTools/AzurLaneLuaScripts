@@ -2,175 +2,6 @@ pg = pg or {}
 pg.weapon_property_23 = {}
 
 (function ()
-	uv0.weapon_property_23[17409] = {
-		reload_max = 1385,
-		id = 17409,
-		damage = 67,
-		base = 17400,
-		bullet_ID = {
-			17409
-		}
-	}
-	uv0.weapon_property_23[17410] = {
-		reload_max = 1350,
-		id = 17410,
-		damage = 72,
-		base = 17400,
-		bullet_ID = {
-			17410
-		}
-	}
-	uv0.weapon_property_23[17411] = {
-		reload_max = 1350,
-		id = 17411,
-		damage = 72,
-		base = 17400,
-		bullet_ID = {
-			17410
-		}
-	}
-	uv0.weapon_property_23[18000] = {
-		recover_time = 0.5,
-		name = "TBD蹂躪者T1",
-		shakescreen = 0,
-		type = 10,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 90,
-		reload_max = 2400,
-		queue = 1,
-		range = 90,
-		damage = 34,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		id = 18000,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			18000
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_23[18001] = {
-		reload_max = 2370,
-		id = 18001,
-		damage = 48,
-		base = 18000,
-		bullet_ID = {
-			18001
-		}
-	}
-	uv0.weapon_property_23[18002] = {
-		reload_max = 2340,
-		id = 18002,
-		damage = 62,
-		base = 18000,
-		bullet_ID = {
-			18002
-		}
-	}
-	uv0.weapon_property_23[18003] = {
-		reload_max = 2310,
-		id = 18003,
-		damage = 76,
-		base = 18000,
-		bullet_ID = {
-			18003
-		}
-	}
-	uv0.weapon_property_23[18020] = {
-		recover_time = 0.5,
-		name = "TBD蹂躪者T2",
-		shakescreen = 0,
-		type = 10,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 90,
-		reload_max = 2350,
-		queue = 1,
-		range = 90,
-		damage = 37,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		id = 18020,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			18000
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_23[18021] = {
-		reload_max = 2320,
-		id = 18021,
-		damage = 53,
-		base = 18020,
-		bullet_ID = {
-			18001
-		}
-	}
-	uv0.weapon_property_23[18022] = {
-		reload_max = 2290,
-		id = 18022,
-		damage = 68,
-		base = 18020,
-		bullet_ID = {
-			18002
-		}
-	}
-	uv0.weapon_property_23[18023] = {
-		reload_max = 2260,
-		id = 18023,
-		damage = 84,
-		base = 18020,
-		bullet_ID = {
-			18003
-		}
-	}
 	uv0.weapon_property_23[18040] = {
 		recover_time = 0.5,
 		name = "TBD蹂躪者T3",
@@ -778,6 +609,149 @@ pg.weapon_property_23 = {}
 		base = 18160,
 		bullet_ID = {
 			18165
+		}
+	}
+	uv0.weapon_property_23[18166] = {
+		reload_max = 1930,
+		id = 18166,
+		damage = 258,
+		base = 18160,
+		bullet_ID = {
+			18166
+		}
+	}
+	uv0.weapon_property_23[18167] = {
+		reload_max = 1900,
+		id = 18167,
+		damage = 279,
+		base = 18160,
+		bullet_ID = {
+			18167
+		}
+	}
+	uv0.weapon_property_23[18168] = {
+		reload_max = 1870,
+		id = 18168,
+		damage = 300,
+		base = 18160,
+		bullet_ID = {
+			18168
+		}
+	}
+	uv0.weapon_property_23[18169] = {
+		reload_max = 1840,
+		id = 18169,
+		damage = 321,
+		base = 18160,
+		bullet_ID = {
+			18169
+		}
+	}
+	uv0.weapon_property_23[18170] = {
+		reload_max = 1810,
+		id = 18170,
+		damage = 342,
+		base = 18160,
+		bullet_ID = {
+			18170
+		}
+	}
+	uv0.weapon_property_23[18171] = {
+		reload_max = 1810,
+		id = 18171,
+		damage = 342,
+		base = 18160,
+		bullet_ID = {
+			18170
+		}
+	}
+	uv0.weapon_property_23[18172] = {
+		reload_max = 1810,
+		id = 18172,
+		damage = 342,
+		base = 18160,
+		bullet_ID = {
+			18170
+		}
+	}
+	uv0.weapon_property_23[18173] = {
+		reload_max = 1810,
+		id = 18173,
+		damage = 342,
+		base = 18160,
+		bullet_ID = {
+			18170
+		}
+	}
+	uv0.weapon_property_23[18180] = {
+		recover_time = 0.5,
+		name = "TBM复仇者(VT-18中队)",
+		shakescreen = 0,
+		type = 10,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 2110,
+		queue = 1,
+		range = 90,
+		damage = 127,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 18180,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			18180
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_23[18181] = {
+		reload_max = 2080,
+		id = 18181,
+		damage = 148,
+		base = 18180,
+		bullet_ID = {
+			18181
+		}
+	}
+	uv0.weapon_property_23[18182] = {
+		reload_max = 2050,
+		id = 18182,
+		damage = 169,
+		base = 18180,
+		bullet_ID = {
+			18182
+		}
+	}
+	uv0.weapon_property_23[18183] = {
+		reload_max = 2020,
+		id = 18183,
+		damage = 190,
+		base = 18180,
+		bullet_ID = {
+			18183
 		}
 	}
 end)()

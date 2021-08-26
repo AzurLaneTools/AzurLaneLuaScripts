@@ -1,59 +1,59 @@
 pg = pg or {}
 pg.equip_data_statistics_213 = {
-	[31026] = {
-		id = 31026,
-		damage = "8 x 4",
-		base = 31020,
+	[31002] = {
+		id = 31002,
+		damage = "6 x 4",
+		base = 31000,
 		weapon_id = {
-			31026
+			31002
 		}
 	},
-	[31027] = {
-		id = 31027,
-		damage = "9 x 4",
-		base = 31020,
+	[31003] = {
+		id = 31003,
+		damage = "6 x 4",
+		base = 31000,
 		weapon_id = {
-			31027
+			31003
 		}
 	},
-	[31028] = {
-		id = 31028,
-		damage = "9 x 4",
-		base = 31020,
+	[31004] = {
+		id = 31004,
+		damage = "6 x 4",
+		base = 31000,
 		weapon_id = {
-			31028
+			31004
 		}
 	},
-	[31029] = {
-		id = 31029,
-		damage = "10 x 4",
-		base = 31020,
+	[31005] = {
+		id = 31005,
+		damage = "7 x 4",
+		base = 31000,
 		weapon_id = {
-			31029
+			31005
 		}
 	},
-	[31030] = {
-		id = 31030,
-		damage = "11 x 4",
-		base = 31020,
+	[31006] = {
+		id = 31006,
+		damage = "7 x 4",
+		base = 31000,
 		weapon_id = {
-			31030
+			31006
 		}
 	},
-	[31040] = {
+	[31020] = {
 		attribute_3 = "antiaircraft",
 		name = "雙聯100mm98式高射炮",
 		speciality = "鎖定",
 		type = 1,
-		tech = 3,
+		tech = 2,
 		ammo = 3,
-		rarity = 5,
+		rarity = 4,
 		damage = "4 x 4",
 		nationality = 3,
 		descrip = "說明未填寫",
-		value_3 = 30,
-		id = 31040,
-		value_2 = 15,
+		value_3 = 16,
+		id = 31020,
+		value_2 = 9,
 		icon = "31000",
 		torpedo_ammo = 0,
 		attribute_2 = "cannon",
@@ -84,7 +84,7 @@ pg.equip_data_statistics_213 = {
 			12
 		},
 		weapon_id = {
-			31040
+			31020
 		},
 		skill_id = {},
 		part_main = {
@@ -107,51 +107,51 @@ pg.equip_data_statistics_213 = {
 			"MG"
 		}
 	},
-	[31041] = {
-		id = 31041,
-		base = 31040,
+	[31021] = {
+		id = 31021,
+		base = 31020,
 		weapon_id = {
-			31041
+			31021
 		}
 	},
-	[31042] = {
-		id = 31042,
+	[31022] = {
+		id = 31022,
+		damage = "6 x 4",
+		base = 31020,
+		weapon_id = {
+			31022
+		}
+	},
+	[31023] = {
+		id = 31023,
+		damage = "6 x 4",
+		base = 31020,
+		weapon_id = {
+			31023
+		}
+	},
+	[31024] = {
+		id = 31024,
 		damage = "7 x 4",
-		base = 31040,
+		base = 31020,
 		weapon_id = {
-			31042
+			31024
 		}
 	},
-	[31043] = {
-		id = 31043,
-		damage = "7 x 4",
-		base = 31040,
-		weapon_id = {
-			31043
-		}
-	},
-	[31044] = {
-		id = 31044,
+	[31025] = {
+		id = 31025,
 		damage = "8 x 4",
-		base = 31040,
+		base = 31020,
 		weapon_id = {
-			31044
+			31025
 		}
 	},
-	[31045] = {
-		id = 31045,
-		damage = "9 x 4",
-		base = 31040,
+	[31026] = {
+		id = 31026,
+		damage = "8 x 4",
+		base = 31020,
 		weapon_id = {
-			31045
-		}
-	},
-	[31046] = {
-		id = 31046,
-		damage = "9 x 4",
-		base = 31040,
-		weapon_id = {
-			31046
+			31026
 		}
 	}
 }

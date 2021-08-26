@@ -1,60 +1,60 @@
 pg = pg or {}
 pg.equip_data_statistics_254 = {
-	[36646] = {
-		id = 36646,
-		damage = "88/輪",
-		base = 36640,
+	[36622] = {
+		id = 36622,
+		damage = "51/輪",
+		base = 36620,
 		weapon_id = {
-			36646
+			36622
 		}
 	},
-	[36647] = {
-		id = 36647,
-		damage = "95/輪",
-		base = 36640,
+	[36623] = {
+		id = 36623,
+		damage = "57/輪",
+		base = 36620,
 		weapon_id = {
-			36647
+			36623
 		}
 	},
-	[36648] = {
-		id = 36648,
-		damage = "102/輪",
-		base = 36640,
+	[36624] = {
+		id = 36624,
+		damage = "63/輪",
+		base = 36620,
 		weapon_id = {
-			36648
+			36624
 		}
 	},
-	[36649] = {
-		id = 36649,
-		damage = "109/輪",
-		base = 36640,
+	[36625] = {
+		id = 36625,
+		damage = "70/輪",
+		base = 36620,
 		weapon_id = {
-			36649
+			36625
 		}
 	},
-	[36650] = {
-		id = 36650,
-		damage = "116/輪",
-		base = 36640,
+	[36626] = {
+		id = 36626,
+		damage = "77/輪",
+		base = 36620,
 		weapon_id = {
-			36650
+			36626
 		}
 	},
-	[36700] = {
-		tech = 0,
-		name = "試作型五式40mm高射機關炮",
+	[36640] = {
+		tech = 3,
+		name = "127mm連裝高射炮",
 		speciality = "防空",
 		type = 6,
-		value_2 = 45,
+		value_2 = 25,
 		ammo = 5,
-		damage = "47/輪",
+		damage = "46/輪",
 		nationality = 3,
-		rarity = 5,
-		id = 36700,
+		rarity = 4,
+		id = 36640,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
-		icon = "36700",
+		icon = "36600",
 		attribute_2 = "antiaircraft",
 		property_rate = {},
 		ammo_icon = {},
@@ -66,7 +66,7 @@ pg.equip_data_statistics_254 = {
 			10
 		},
 		weapon_id = {
-			36700
+			36640
 		},
 		skill_id = {},
 		part_main = {
@@ -102,52 +102,52 @@ pg.equip_data_statistics_254 = {
 			"AA"
 		}
 	},
-	[36701] = {
-		id = 36701,
-		damage = "51/輪",
-		base = 36700,
+	[36641] = {
+		id = 36641,
+		damage = "53/輪",
+		base = 36640,
 		weapon_id = {
-			36701
+			36641
 		}
 	},
-	[36702] = {
-		id = 36702,
-		damage = "55/輪",
-		base = 36700,
+	[36642] = {
+		id = 36642,
+		damage = "60/輪",
+		base = 36640,
 		weapon_id = {
-			36702
+			36642
 		}
 	},
-	[36703] = {
-		id = 36703,
-		damage = "59/輪",
-		base = 36700,
-		weapon_id = {
-			36703
-		}
-	},
-	[36704] = {
-		id = 36704,
-		damage = "63/輪",
-		base = 36700,
-		weapon_id = {
-			36704
-		}
-	},
-	[36705] = {
-		id = 36705,
+	[36643] = {
+		id = 36643,
 		damage = "67/輪",
-		base = 36700,
+		base = 36640,
 		weapon_id = {
-			36705
+			36643
 		}
 	},
-	[36706] = {
-		id = 36706,
-		damage = "71/輪",
-		base = 36700,
+	[36644] = {
+		id = 36644,
+		damage = "74/輪",
+		base = 36640,
 		weapon_id = {
-			36706
+			36644
+		}
+	},
+	[36645] = {
+		id = 36645,
+		damage = "81/輪",
+		base = 36640,
+		weapon_id = {
+			36645
+		}
+	},
+	[36646] = {
+		id = 36646,
+		damage = "88/輪",
+		base = 36640,
+		weapon_id = {
+			36646
 		}
 	}
 }

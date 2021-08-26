@@ -9997,6 +9997,47 @@ pg.map_event_template = {
 			}
 		}
 	},
+	[483] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 483,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1544301,
+						{
+							1,
+							2
+						}
+					},
+					{
+						1544302,
+						{
+							2,
+							3
+						}
+					},
+					{
+						1544303,
+						{
+							1,
+							4
+						}
+					}
+				}
+			}
+		}
+	},
 	all = {
 		20,
 		21,
@@ -10453,6 +10494,7 @@ pg.map_event_template = {
 		479,
 		480,
 		481,
-		482
+		482,
+		483
 	}
 }

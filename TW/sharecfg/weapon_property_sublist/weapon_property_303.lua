@@ -2,59 +2,9 @@ pg = pg or {}
 pg.weapon_property_303 = {}
 
 (function ()
-	uv0.weapon_property_303[615047] = {
-		recover_time = 0.5,
-		name = "【偶像活动SP5】BOSS-偶像加斯科涅 特殊交叉弹幕",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 50,
-		damage = 11,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615047,
-		attack_attribute_ratio = 120,
-		aim_type = 1,
-		bullet_ID = {
-			650012,
-			650012,
-			650012,
-			650012
-		},
-		barrage_ID = {
-			650031,
-			650032,
-			650033,
-			650034
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615051] = {
+	uv0.weapon_property_303[616196] = {
 		recover_time = 0,
-		name = "【偶像活动SP】BOSS-偶像加斯科涅 上下波纹",
+		name = "【hololive联动EX】BOSS-白上吹雪_御剑跟着我",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -68,312 +18,25 @@ pg.weapon_property_303 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 1000,
-		queue = 1,
-		range = 80,
-		damage = 15,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615051,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650001,
-			650002
-		},
-		barrage_ID = {
-			650001,
-			650002
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 2,
-			time = 0.5,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_303[615052] = {
-		recover_time = 0,
-		name = "【偶像活动SP】BOSS-偶像加斯科涅 8颗炮弹2轮攻击前排",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 3000,
+		reload_max = 1300,
 		queue = 2,
-		range = 60,
-		damage = 55,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 20,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615052,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650006
-		},
-		barrage_ID = {
-			650017
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 2,
-			time = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_303[615053] = {
-		recover_time = 0.5,
-		name = "【偶像活动SP】BOSS-偶像加斯科涅 近程自卫火炮",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 500,
-		queue = 3,
-		range = 38,
-		damage = 12,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615053,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			999
-		},
-		barrage_ID = {
-			13
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615054] = {
-		recover_time = 0,
-		name = "【偶像活动SP】BOSS-偶像加斯科涅 四联装跨射主炮2轮",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 40,
-		reload_max = 2000,
-		queue = 2,
-		range = 150,
-		damage = 55,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 75,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615054,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650007
-		},
-		barrage_ID = {
-			590215
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 2,
-			time = 1,
-			isBound = true
-		}
-	}
-	uv0.weapon_property_303[615055] = {
-		recover_time = 0,
-		name = "【偶像活动SP】BOSS-偶像加斯科涅 子母弹上（十字弹幕）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1600,
-		queue = 4,
-		range = 80,
-		damage = 16,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615055,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650008
-		},
-		barrage_ID = {
-			650053
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615056] = {
-		recover_time = 0,
-		name = "【偶像活动SP】BOSS-偶像加斯科涅 子母弹下（十字弹幕）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1600,
-		queue = 4,
-		range = 80,
-		damage = 16,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615056,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650009
-		},
-		barrage_ID = {
-			650054
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615057] = {
-		recover_time = 0.5,
-		name = "【偶像活动SP】BOSS-偶像加斯科涅 特殊交叉弹幕",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 500,
-		queue = 1,
-		range = 50,
+		range = 100,
 		damage = 20,
-		suppress = 1,
+		suppress = 0,
 		auto_aftercast = 0,
 		corrected = 100,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615057,
-		attack_attribute_ratio = 120,
-		aim_type = 1,
+		fire_sfx = "battle/cannon-main",
+		id = 616196,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
 		bullet_ID = {
-			650012,
-			650012,
-			650012,
-			650012
+			660004
 		},
 		barrage_ID = {
-			650031,
-			650032,
-			650033,
-			650034
+			660008
 		},
 		oxy_type = {
 			1
@@ -383,13 +46,59 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[615061] = {
-		recover_time = 0,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅 上下波纹",
+	uv0.weapon_property_303[616197] = {
+		recover_time = 0.5,
+		name = "【hololive联动EX】BOSS-白上吹雪_鱼雷弹幕",
 		shakescreen = 0,
-		type = 1,
+		type = 3,
 		torpedo_ammo = 0,
-		fire_fx = "CLFire",
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2400,
+		queue = 2,
+		range = 60,
+		damage = 50,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 616197,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			660010,
+			660011
+		},
+		barrage_ID = {
+			110608,
+			110609
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[616198] = {
+		recover_time = 0.5,
+		name = "【hololive联动EX】BOSS-白上吹雪_蓝色箭头",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
 		action_index = "attack",
 		charge_param = "",
 		axis_angle = 0,
@@ -398,28 +107,36 @@ pg.weapon_property_303 = {}
 		expose = 0,
 		search_type = 1,
 		effect_move = 0,
-		angle = 360,
-		reload_max = 1000,
-		queue = 1,
-		range = 80,
-		damage = 15,
-		suppress = 1,
+		angle = 120,
+		reload_max = 400,
+		queue = 3,
+		range = 90,
+		damage = 20,
+		suppress = 0,
 		auto_aftercast = 0,
 		corrected = 100,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 615061,
+		id = 616198,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			650001,
-			650002
+			660003,
+			660003,
+			660003,
+			660003,
+			660003,
+			660003
 		},
 		barrage_ID = {
-			650001,
-			650002
+			660001,
+			660002,
+			660003,
+			660004,
+			660005,
+			660006
 		},
 		oxy_type = {
 			1
@@ -427,18 +144,13 @@ pg.weapon_property_303 = {}
 		search_condition = {
 			1
 		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 2,
-			time = 0.5,
-			isBound = true
-		}
+		precast_param = {}
 	}
-	uv0.weapon_property_303[615062] = {
+	uv0.weapon_property_303[616199] = {
 		recover_time = 0,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅 12颗炮弹2轮攻击前排",
+		name = "【hololive联动EX】BOSS-白上吹雪_子母弹",
 		shakescreen = 0,
-		type = 19,
+		type = 1,
 		torpedo_ammo = 0,
 		fire_fx = "CAFire",
 		action_index = "attack",
@@ -450,25 +162,25 @@ pg.weapon_property_303 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 3000,
+		reload_max = 1800,
 		queue = 1,
-		range = 60,
-		damage = 22,
-		suppress = 1,
+		range = 100,
+		damage = 20,
+		suppress = 0,
 		auto_aftercast = 0,
 		corrected = 100,
-		min_range = 20,
+		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 615062,
+		id = 616199,
 		attack_attribute_ratio = 100,
-		aim_type = 1,
+		aim_type = 0,
 		bullet_ID = {
-			650006
+			660007
 		},
 		barrage_ID = {
-			9073
+			130101
 		},
 		oxy_type = {
 			1
@@ -476,48 +188,93 @@ pg.weapon_property_303 = {}
 		search_condition = {
 			1
 		},
-		precast_param = {
-			fx = "jinengenemy",
-			alertTime = 2,
-			time = 1,
-			isBound = true
-		}
+		precast_param = {}
 	}
-	uv0.weapon_property_303[615063] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅 近程自卫火炮",
+	uv0.weapon_property_303[616200] = {
+		recover_time = 0,
+		name = "【hololive联动EX】BOSS-白上吹雪_特殊弹幕",
 		shakescreen = 0,
-		type = 2,
+		type = 1,
 		torpedo_ammo = 0,
 		fire_fx = "CLFire",
 		action_index = "attack",
 		charge_param = "",
 		axis_angle = 0,
-		fire_fx_loop_type = 1,
+		fire_fx_loop_type = 3,
 		attack_attribute = 1,
 		expose = 0,
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 500,
+		reload_max = 1100,
+		queue = 4,
+		range = 90,
+		damage = 30,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 616200,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			660032,
+			660033,
+			660034,
+			660035
+		},
+		barrage_ID = {
+			990001,
+			990002,
+			990241,
+			990242
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[616201] = {
+		recover_time = 0,
+		name = "【hololive联动EX】BOSS-白上吹雪 轰炸机",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 1500,
 		queue = 2,
-		range = 38,
+		range = 100,
 		damage = 40,
 		suppress = 1,
 		auto_aftercast = 0,
-		corrected = 125,
+		corrected = 100,
 		min_range = 0,
 		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615063,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		id = 616201,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			999
+			616201
 		},
 		barrage_ID = {
-			13
+			630021
 		},
 		oxy_type = {
 			1
@@ -527,9 +284,53 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[615064] = {
+	uv0.weapon_property_303[616202] = {
 		recover_time = 0,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅 四联装跨射主炮2轮",
+		name = "【hololive联动EX】BOSS-白上吹雪 轰炸机弹幕武器",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 200,
+		queue = 2,
+		range = 10,
+		damage = 40,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 616202,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			660016
+		},
+		barrage_ID = {
+			130992
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[616203] = {
+		recover_time = 0,
+		name = "【hololive联动EX】BOSS-白上吹雪 四联装跨射主炮2轮",
 		shakescreen = 0,
 		type = 19,
 		torpedo_ammo = 0,
@@ -544,9 +345,9 @@ pg.weapon_property_303 = {}
 		effect_move = 0,
 		angle = 40,
 		reload_max = 2000,
-		queue = 2,
+		queue = 3,
 		range = 150,
-		damage = 30,
+		damage = 40,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -554,11 +355,11 @@ pg.weapon_property_303 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 615064,
+		id = 616203,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			650007
+			660017
 		},
 		barrage_ID = {
 			590215
@@ -576,113 +377,9 @@ pg.weapon_property_303 = {}
 			isBound = true
 		}
 	}
-	uv0.weapon_property_303[615065] = {
+	uv0.weapon_property_303[617001] = {
 		recover_time = 0,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅 三角封路弹幕下（作废）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 50,
-		queue = 5,
-		range = 90,
-		damage = 30,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 105,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615065,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650003,
-			650003,
-			650003,
-			650003,
-			650003
-		},
-		barrage_ID = {
-			650003,
-			650004,
-			650005,
-			650006,
-			650007
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615066] = {
-		recover_time = 0,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅 三角封路弹幕上（作废）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 50,
-		queue = 5,
-		range = 90,
-		damage = 30,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 105,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615066,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650003,
-			650003,
-			650003,
-			650003,
-			650003
-		},
-		barrage_ID = {
-			650008,
-			650009,
-			650010,
-			650011,
-			650012
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615067] = {
-		recover_time = 0,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅 子母弹上（十字弹幕）",
+		name = "【年底日系活动A1】BOSS-龙凤 特殊弹幕1",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -691,30 +388,36 @@ pg.weapon_property_303 = {}
 		charge_param = "",
 		axis_angle = 0,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
+		attack_attribute = 2,
 		expose = 0,
 		search_type = 1,
 		effect_move = 0,
-		angle = 360,
-		reload_max = 1600,
-		queue = 4,
-		range = 100,
-		damage = 15,
-		suppress = 0,
+		angle = 180,
+		reload_max = 1800,
+		queue = 2,
+		range = 72,
+		damage = 16,
+		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 615067,
+		id = 617001,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
-			650008
+			670002,
+			670003,
+			670004,
+			670005
 		},
 		barrage_ID = {
-			650053
+			670001,
+			670002,
+			670003,
+			670004
 		},
 		oxy_type = {
 			1
@@ -722,57 +425,17 @@ pg.weapon_property_303 = {}
 		search_condition = {
 			1
 		},
-		precast_param = {}
+		precast_param = {
+			isBound = true,
+			fx = "jinengenemy",
+			time = 1
+		}
 	}
-	uv0.weapon_property_303[615068] = {
-		recover_time = 0,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅 子母弹下（十字弹幕）",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1600,
-		queue = 4,
-		range = 100,
-		damage = 15,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615068,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650008
-		},
-		barrage_ID = {
-			650054
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615069] = {
+	uv0.weapon_property_303[617002] = {
 		recover_time = 0.5,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅 特殊交叉弹幕",
+		name = "【年底日系活动A1】BOSS-龙凤 近程自卫火炮III",
 		shakescreen = 0,
-		type = 1,
+		type = 2,
 		torpedo_ammo = 0,
 		fire_fx = "CLFire",
 		action_index = "attack",
@@ -783,940 +446,26 @@ pg.weapon_property_303 = {}
 		expose = 0,
 		search_type = 1,
 		effect_move = 0,
-		angle = 120,
+		angle = 360,
 		reload_max = 500,
 		queue = 1,
-		range = 50,
-		damage = 22,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615069,
-		attack_attribute_ratio = 120,
-		aim_type = 1,
-		bullet_ID = {
-			650012,
-			650012,
-			650012,
-			650012
-		},
-		barrage_ID = {
-			650031,
-			650032,
-			650033,
-			650034
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615070] = {
-		recover_time = 0,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅  上中下三路十字封路弹幕 2",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 3,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1750,
-		queue = 2,
-		range = 90,
-		damage = 30,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 105,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615070,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650011,
-			650011,
-			650011,
-			650011,
-			650011,
-			650011
-		},
-		barrage_ID = {
-			650035,
-			650036,
-			650037,
-			650038,
-			650039,
-			650040
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615071] = {
-		recover_time = 0,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅  上下二路十字封路弹幕 1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1750,
-		queue = 3,
-		range = 90,
-		damage = 30,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 105,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615071,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650011,
-			650011,
-			650011,
-			650011
-		},
-		barrage_ID = {
-			650041,
-			650042,
-			650043,
-			650044
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615072] = {
-		recover_time = 0,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅  上下二路十字封路弹幕 3",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1750,
-		queue = 4,
-		range = 90,
-		damage = 30,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 105,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615072,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650011,
-			650011,
-			650011,
-			650011
-		},
-		barrage_ID = {
-			650045,
-			650046,
-			650047,
-			650048
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615073] = {
-		recover_time = 0,
-		name = "【偶像活动EX】BOSS-偶像加斯科涅  上下二路十字封路弹幕 4",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1750,
-		queue = 5,
-		range = 90,
-		damage = 30,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 105,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615073,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650011,
-			650011,
-			650011,
-			650011
-		},
-		barrage_ID = {
-			650049,
-			650050,
-			650051,
-			650052
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615080] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】克利夫兰 Q版驱逐双联装炮瞄准I型弹幕1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 400,
-		queue = 1,
-		range = 50,
-		damage = 4,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 110,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615080,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650030
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615081] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】克利夫兰 Q版驱逐双联装炮瞄准I型弹幕2",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 400,
-		queue = 1,
-		range = 50,
-		damage = 5,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 110,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615081,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650030
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615082] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】克利夫兰 Q版驱逐双联装炮瞄准I型弹幕3",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 400,
-		queue = 1,
-		range = 50,
+		range = 38,
 		damage = 6,
 		suppress = 1,
 		auto_aftercast = 0,
-		corrected = 110,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615082,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650030
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615083] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】克利夫兰 Q版驱逐双联装炮瞄准I型弹幕4",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 400,
-		queue = 1,
-		range = 50,
-		damage = 7,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 110,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615083,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650030
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615084] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】克利夫兰 Q版驱逐双联装炮瞄准I型弹幕5",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 400,
-		queue = 1,
-		range = 50,
-		damage = 8,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 110,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615084,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650030
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615085] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】谢菲尔德 Q版驱逐双联装炮瞄准I型弹幕1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 400,
-		queue = 1,
-		range = 50,
-		damage = 4,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 110,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615085,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650031
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615086] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】谢菲尔德 Q版驱逐双联装炮瞄准I型弹幕2",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 400,
-		queue = 1,
-		range = 50,
-		damage = 5,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 110,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615086,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650031
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615087] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】谢菲尔德 Q版驱逐双联装炮瞄准I型弹幕3",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 400,
-		queue = 1,
-		range = 50,
-		damage = 6,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 110,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615087,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650031
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615088] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】谢菲尔德 Q版驱逐双联装炮瞄准I型弹幕4",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 400,
-		queue = 1,
-		range = 50,
-		damage = 7,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 110,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615088,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650031
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615089] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】谢菲尔德 Q版驱逐双联装炮瞄准I型弹幕5",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 400,
-		queue = 1,
-		range = 50,
-		damage = 8,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 110,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615089,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			650031
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615090] = {
-		recover_time = 0,
-		name = "【偶像活动EX】希佩尔 Q版重巡联装主炮x6-散射III型弹幕1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1800,
-		queue = 1,
-		range = 100,
-		damage = 14,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615090,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650032
-		},
-		barrage_ID = {
-			200102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615091] = {
-		recover_time = 0,
-		name = "【偶像活动EX】希佩尔 Q版重巡联装主炮x6-散射III型弹幕2",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1800,
-		queue = 1,
-		range = 100,
-		damage = 18,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615091,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650032
-		},
-		barrage_ID = {
-			200102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615092] = {
-		recover_time = 0,
-		name = "【偶像活动EX】希佩尔 Q版重巡联装主炮x6-散射III型弹幕3",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1800,
-		queue = 1,
-		range = 100,
-		damage = 22,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615092,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650032
-		},
-		barrage_ID = {
-			200102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615093] = {
-		recover_time = 0,
-		name = "【偶像活动EX】希佩尔 Q版重巡联装主炮x6-散射III型弹幕4",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1800,
-		queue = 1,
-		range = 100,
-		damage = 28,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615093,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650032
-		},
-		barrage_ID = {
-			200102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615094] = {
-		recover_time = 0,
-		name = "【偶像活动EX】希佩尔 Q版重巡联装主炮x6-散射III型弹幕5",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1800,
-		queue = 1,
-		range = 100,
-		damage = 34,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615094,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650032
-		},
-		barrage_ID = {
-			200102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615095] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】谢菲尔德 Q版轻巡单发x6随机I型弹幕1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 60,
-		damage = 7,
-		suppress = 1,
-		auto_aftercast = 0,
 		corrected = 125,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 615095,
+		id = 617002,
 		attack_attribute_ratio = 100,
-		aim_type = 0,
+		aim_type = 1,
 		bullet_ID = {
-			650033
+			999
 		},
 		barrage_ID = {
-			1106
+			13
 		},
 		oxy_type = {
 			1
@@ -1726,13 +475,13 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[615096] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】克利夫兰 Q版轻巡单发x6随机I型弹幕2",
+	uv0.weapon_property_303[617003] = {
+		recover_time = 0,
+		name = "【年底日系活动A1】BOSS-龙凤 散射4*2",
 		shakescreen = 0,
-		type = 2,
+		type = 1,
 		torpedo_ammo = 0,
-		fire_fx = "CLFire",
+		fire_fx = "CAFire",
 		action_index = "attack",
 		charge_param = "",
 		axis_angle = 0,
@@ -1742,113 +491,25 @@ pg.weapon_property_303 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 1200,
+		reload_max = 1800,
 		queue = 1,
-		range = 60,
-		damage = 8,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615096,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650034
-		},
-		barrage_ID = {
-			1106
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615097] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】克利夫兰 Q版轻巡单发x6随机I型弹幕3",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 60,
-		damage = 10,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615097,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650034
-		},
-		barrage_ID = {
-			1106
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615098] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】克利夫兰 Q版轻巡单发x6随机I型弹幕4",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 60,
+		range = 100,
 		damage = 12,
 		suppress = 1,
 		auto_aftercast = 0,
-		corrected = 125,
+		corrected = 100,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615098,
+		fire_sfx = "battle/cannon-main",
+		id = 617003,
 		attack_attribute_ratio = 100,
-		aim_type = 0,
+		aim_type = 1,
 		bullet_ID = {
-			650034
+			670001
 		},
 		barrage_ID = {
-			1106
+			670005
 		},
 		oxy_type = {
 			1
@@ -1858,207 +519,201 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[615099] = {
-		recover_time = 0.5,
-		name = "【偶像活动EX】克利夫兰 Q版轻巡单发x6随机I型弹幕5",
+	uv0.weapon_property_303[617004] = {
+		recover_time = 0,
+		name = "【年底日系活动A1】BOSS-龙凤 战斗机",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 1600,
+		queue = 3,
+		range = 120,
+		damage = 18,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		id = 617004,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			617004
+		},
+		barrage_ID = {
+			630022
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617005] = {
+		recover_time = 0,
+		name = "【年底日系活动A1】BOSS-龙凤 轰炸机",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 1500,
+		queue = 2,
+		range = 100,
+		damage = 22,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		id = 617005,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			617005
+		},
+		barrage_ID = {
+			630021
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617006] = {
+		recover_time = 0,
+		name = "【年底日系活动A1】BOSS-龙凤 战斗机弹幕武器",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "fangkongpaohuoshe2",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 100,
+		queue = 3,
+		range = 85,
+		damage = 18,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		id = 617006,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			130314
+		},
+		barrage_ID = {
+			120303
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617007] = {
+		recover_time = 0,
+		name = "【年底日系活动A1】BOSS-龙凤 战斗机对空武器",
+		shakescreen = 0,
+		type = 4,
+		torpedo_ammo = 0,
+		fire_fx = "fangkongpaohuoshe2",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 48,
+		queue = 3,
+		range = 200,
+		damage = 18,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		id = 617007,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617008] = {
+		recover_time = 0,
+		name = "【年底日系活动A1】BOSS-龙凤 轰炸机弹幕武器",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1200,
-		queue = 1,
-		range = 60,
-		damage = 15,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 615099,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650034
-		},
-		barrage_ID = {
-			1106
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615100] = {
-		recover_time = 0,
-		name = "【偶像活动EX】希佩尔-专用武器I型1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
 		fire_fx = "CAFire",
-		action_index = "attack",
+		action_index = "",
 		charge_param = "",
 		axis_angle = 0,
 		fire_fx_loop_type = 1,
-		attack_attribute = 1,
+		attack_attribute = 4,
 		expose = 0,
 		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1500,
-		queue = 1,
-		range = 90,
-		damage = 11,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615100,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650035,
-			650035
-		},
-		barrage_ID = {
-			200142,
-			200143
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615101] = {
-		recover_time = 0,
-		name = "【偶像活动EX】希佩尔-专用武器I型2",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1500,
-		queue = 1,
-		range = 90,
-		damage = 14,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615101,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650035,
-			650035
-		},
-		barrage_ID = {
-			200142,
-			200143
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615102] = {
-		recover_time = 0,
-		name = "【偶像活动EX】希佩尔-专用武器I型3",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1500,
-		queue = 1,
-		range = 90,
-		damage = 18,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615102,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650035,
-			650035
-		},
-		barrage_ID = {
-			200142,
-			200143
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[615103] = {
-		recover_time = 0,
-		name = "【偶像活动EX】希佩尔-专用武器I型4",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1500,
-		queue = 1,
-		range = 90,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 200,
+		queue = 2,
+		range = 10,
 		damage = 22,
 		suppress = 0,
 		auto_aftercast = 0,
@@ -2067,16 +722,14 @@ pg.weapon_property_303 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 615103,
+		id = 617008,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
-			650035,
-			650035
+			130315
 		},
 		barrage_ID = {
-			200142,
-			200143
+			130992
 		},
 		oxy_type = {
 			1
@@ -2086,99 +739,9 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[615104] = {
+	uv0.weapon_property_303[617021] = {
 		recover_time = 0,
-		name = "【偶像活动EX】希佩尔-专用武器I型5",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 1500,
-		queue = 1,
-		range = 90,
-		damage = 28,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 615104,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			650035,
-			650035
-		},
-		barrage_ID = {
-			200142,
-			200143
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[616001] = {
-		recover_time = 0.5,
-		name = "【hololive联动TS1】BOSS –追迹者 轻巡联装炮x6散射",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 750,
-		queue = 1,
-		range = 80,
-		damage = 10,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 616001,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1102
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[616002] = {
-		recover_time = 0,
-		name = "【hololive联动TS1】BOSS –追迹者 大范围缓速子弹",
+		name = "【年底日系活动A2】BOSS-骏河 樱花子弹",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2192,37 +755,27 @@ pg.weapon_property_303 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 180,
-		reload_max = 2000,
+		reload_max = 1000,
 		queue = 1,
 		range = 80,
-		damage = 12,
+		damage = 9,
 		suppress = 1,
 		auto_aftercast = 0,
-		corrected = 100,
+		corrected = 110,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 616002,
+		fire_sfx = "battle/cannon-155mm",
+		id = 617021,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
-			8072,
-			8072,
-			8072,
-			8072,
-			8072,
-			8072,
-			8072
+			630001,
+			630002
 		},
 		barrage_ID = {
-			21093,
-			21094,
-			21095,
-			21096,
-			21097,
-			21098,
-			21099
+			630003,
+			630004
 		},
 		oxy_type = {
 			1
@@ -2232,9 +785,443 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[616004] = {
+	uv0.weapon_property_303[617022] = {
 		recover_time = 0.5,
-		name = "【hololive联动TS1】BOSS –追迹者 三联装鱼雷",
+		name = "【年底日系活动A2】BOSS-骏河 近程自卫火炮III",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 500,
+		queue = 2,
+		range = 38,
+		damage = 9,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617022,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617023] = {
+		recover_time = 0,
+		name = "【年底日系活动A2】BOSS-骏河 跨射攻击后排武器2x2轮",
+		shakescreen = 0,
+		type = 19,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 40,
+		reload_max = 2300,
+		queue = 3,
+		range = 150,
+		damage = 32,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 85,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 617023,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1531
+		},
+		barrage_ID = {
+			20015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_303[617024] = {
+		recover_time = 0.5,
+		name = "【年底日系活动A2】BOSS-骏河 特殊弹幕（鱼雷",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2400,
+		queue = 2,
+		range = 60,
+		damage = 32,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 617024,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			110605,
+			110606
+		},
+		barrage_ID = {
+			670012,
+			670013
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617025] = {
+		recover_time = 0,
+		name = "【年底日系活动A2】BOSS-骏河 3颗炮弹2轮攻击前排",
+		shakescreen = 0,
+		type = 19,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1800,
+		queue = 5,
+		range = 60,
+		damage = 40,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 20,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 617025,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			399988
+		},
+		barrage_ID = {
+			670011
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_303[617026] = {
+		recover_time = 0,
+		name = "【年底日系活动A2】BOSS-骏河 特色",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2500,
+		queue = 1,
+		range = 90,
+		damage = 16,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617026,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			630004,
+			630003,
+			630004,
+			630003
+		},
+		barrage_ID = {
+			630008,
+			630009,
+			630010,
+			630011
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617031] = {
+		recover_time = 0.5,
+		name = "【年底日系活动A3】BOSS-能代 Q版近程自卫火炮III",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 500,
+		queue = 1,
+		range = 38,
+		damage = 4,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617031,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617032] = {
+		recover_time = 0.5,
+		name = "【年底日系活动A3】BOSS-能代 特殊弹幕",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 180,
+		reload_max = 800,
+		queue = 1,
+		range = 90,
+		damage = 16,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617032,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			670011,
+			670011,
+			670011
+		},
+		barrage_ID = {
+			72154,
+			72155,
+			72156
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617033] = {
+		recover_time = 0,
+		name = "【年底日系活动A3】BOSS-能代 扩散弹幕",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1500,
+		queue = 1,
+		range = 90,
+		damage = 10,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617033,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			568421,
+			568421,
+			568421,
+			568421,
+			568421,
+			568421,
+			568421,
+			568421
+		},
+		barrage_ID = {
+			568421,
+			568422,
+			568423,
+			568424,
+			568425,
+			568426,
+			568427,
+			568428
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617034] = {
+		recover_time = 0,
+		name = "【年底日系活动A3】BOSS-能代 特殊弹幕",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2500,
+		queue = 1,
+		range = 100,
+		damage = 18,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 617034,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			60202,
+			60203
+		},
+		barrage_ID = {
+			670021,
+			670022
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617035] = {
+		recover_time = 0.5,
+		name = "【年底日系活动A3】BOSS-能代 鱼雷4*2",
 		shakescreen = 0,
 		type = 3,
 		torpedo_ammo = 0,
@@ -2248,10 +1235,10 @@ pg.weapon_property_303 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 60,
-		reload_max = 2000,
+		reload_max = 2400,
 		queue = 1,
-		range = 80,
-		damage = 32,
+		range = 60,
+		damage = 52,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2259,14 +1246,14 @@ pg.weapon_property_303 = {}
 		initial_over_heat = 1,
 		spawn_bound = "torpedo",
 		fire_sfx = "",
-		id = 616004,
+		id = 617035,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			30067
+			1801
 		},
 		barrage_ID = {
-			1402
+			670023
 		},
 		oxy_type = {
 			1
@@ -2276,9 +1263,506 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[616005] = {
+	uv0.weapon_property_303[617041] = {
+		recover_time = 0.5,
+		name = "【年底日系活动B1】BOSS-鬼怒 近程自卫火炮III",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 500,
+		queue = 1,
+		range = 38,
+		damage = 6,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617041,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617042] = {
 		recover_time = 0,
-		name = "【hololive联动TS1】BOSS –追迹者 特殊武器交叉弹幕",
+		name = "【年底日系活动B1】BOSS-鬼怒 旋转子弹散射8连",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1500,
+		queue = 2,
+		range = 80,
+		damage = 8,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 617042,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			300201
+		},
+		barrage_ID = {
+			300201
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617043] = {
+		recover_time = 0,
+		name = "【年底日系活动B1】BOSS-鬼怒 透弹交叉三横射",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 180,
+		reload_max = 800,
+		queue = 1,
+		range = 90,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 617043,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			300112,
+			300113,
+			300114
+		},
+		barrage_ID = {
+			300112,
+			300113,
+			300114
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 0.5,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_303[617044] = {
+		recover_time = 0.5,
+		name = "【年底日系活动B1】BOSS-鬼怒 Q版轻巡单发x12随机I型弹幕2",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1800,
+		queue = 1,
+		range = 60,
+		damage = 14,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617044,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			1201
+		},
+		barrage_ID = {
+			1107
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617045] = {
+		recover_time = 0.5,
+		name = "【年底日系活动B1】神秘结界",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 3360,
+		queue = 99,
+		range = 100,
+		damage = 0,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 617045,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			670054
+		},
+		barrage_ID = {
+			1
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617051] = {
+		recover_time = 0.5,
+		name = "【年底日系活动B1】BOSS-霞 Q版近程自卫火炮I",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 700,
+		queue = 1,
+		range = 38,
+		damage = 4,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617051,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			11
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617052] = {
+		recover_time = 0.5,
+		name = "【年底日系活动B1】BOSS-霞 特殊武器",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1200,
+		queue = 2,
+		range = 38,
+		damage = 6,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617052,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			9010,
+			9011
+		},
+		barrage_ID = {
+			650027,
+			650028
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617053] = {
+		recover_time = 0,
+		name = "【年底日系活动B1】BOSS-霞 鱼雷3发2轮",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1400,
+		queue = 3,
+		range = 90,
+		damage = 38,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 617053,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			567221
+		},
+		barrage_ID = {
+			650022
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617054] = {
+		recover_time = 0.5,
+		name = "【年底日系活动B1】BOSS-霞 Q版驱逐双联装炮瞄准III",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 300,
+		queue = 4,
+		range = 50,
+		damage = 10,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 110,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617054,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1200
+		},
+		barrage_ID = {
+			1001
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617061] = {
+		recover_time = 0.5,
+		name = "【年底日系活动B2】BOSS-响 近程自卫火炮III",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 500,
+		queue = 3,
+		range = 38,
+		damage = 5,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617061,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			14
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617062] = {
+		recover_time = 0.5,
+		name = "【年底日系活动B2】BOSS-响 特殊弹幕（鱼雷",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2400,
+		queue = 4,
+		range = 60,
+		damage = 40,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 617062,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			110605,
+			110606
+		},
+		barrage_ID = {
+			630001,
+			630002
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617063] = {
+		recover_time = 0,
+		name = "【年底日系活动B2】BOSS-响 缓慢阻挡燃烧子弹",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2292,73 +1776,27 @@ pg.weapon_property_303 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 180,
-		reload_max = 1250,
-		queue = 1,
+		reload_max = 700,
+		queue = 3,
 		range = 80,
-		damage = 12,
+		damage = 8,
 		suppress = 1,
 		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-main",
-		id = 616005,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			801,
-			801
-		},
-		barrage_ID = {
-			21068,
-			21069
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[616006] = {
-		recover_time = 0.5,
-		name = "【hololive联动TS1】BOSS –追迹者  特殊弹幕2",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 5000,
-		queue = 2,
-		range = 70,
-		damage = 12,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
+		corrected = 110,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 616006,
+		id = 617063,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
-			8050,
-			8051
+			300013,
+			300014
 		},
 		barrage_ID = {
-			8050,
-			8051
+			300013,
+			300014
 		},
 		oxy_type = {
 			1
@@ -2368,9 +1806,9 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[616011] = {
-		recover_time = 0.5,
-		name = "【hololive联动T1】BOSS –领洋者 近程自卫火炮",
+	uv0.weapon_property_303[617064] = {
+		recover_time = 0,
+		name = "【年底日系活动B2】BOSS-响 全屏散射",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -2384,9 +1822,9 @@ pg.weapon_property_303 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 750,
-		queue = 1,
-		range = 80,
+		reload_max = 3250,
+		queue = 2,
+		range = 100,
 		damage = 8,
 		suppress = 1,
 		auto_aftercast = 0,
@@ -2395,14 +1833,20 @@ pg.weapon_property_303 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 616011,
+		id = 617064,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			801
+			7403,
+			7403,
+			7402,
+			7402
 		},
 		barrage_ID = {
-			13
+			670031,
+			670032,
+			670033,
+			670034
 		},
 		oxy_type = {
 			1
@@ -2412,9 +1856,9 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[616013] = {
+	uv0.weapon_property_303[617065] = {
 		recover_time = 0,
-		name = "【hololive联动T1】BOSS –领洋者 主炮2",
+		name = "【年底日系活动B2】BOSS-响 扇形弹幕",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2428,10 +1872,150 @@ pg.weapon_property_303 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 1300,
-		queue = 1,
+		reload_max = 1500,
+		queue = 2,
+		range = 100,
+		damage = 8,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 617065,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			7401,
+			7401,
+			7401,
+			7401,
+			7401
+		},
+		barrage_ID = {
+			7401,
+			7402,
+			7403,
+			7404,
+			7405
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617066] = {
+		recover_time = 0.5,
+		name = "【年底日系活动B2】神秘结界",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 3360,
+		queue = 99,
+		range = 100,
+		damage = 0,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 617066,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			670054
+		},
+		barrage_ID = {
+			1
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617071] = {
+		recover_time = 0.5,
+		name = "【年底日系活动B3】BOSS-黑高雄 近程自卫火炮III",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 500,
+		queue = 2,
+		range = 38,
+		damage = 8,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617071,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617072] = {
+		recover_time = 0,
+		name = "【年底日系活动B3】BOSS-黑高雄 联装主炮x4-散射III型弹幕2",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 1400,
+		queue = 2,
 		range = 90,
-		damage = 12,
+		damage = 26,
 		suppress = 0,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2439,9 +2023,9 @@ pg.weapon_property_303 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 616013,
+		id = 617072,
 		attack_attribute_ratio = 100,
-		aim_type = 1,
+		aim_type = 0,
 		bullet_ID = {
 			1403
 		},
@@ -2456,91 +2040,43 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[616014] = {
-		recover_time = 0.5,
-		name = "【hololive联动T1】BOSS –领洋者 三联鱼雷",
+	uv0.weapon_property_303[617073] = {
+		recover_time = 0,
+		name = "【年底日系活动B3】BOSS-黑高雄 扫射弹幕",
 		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 60,
-		reload_max = 1800,
-		queue = 1,
-		range = 80,
-		damage = 32,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 616014,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			1402
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[616015] = {
-		recover_time = 0.5,
-		name = "【hololive联动T1】BOSS –领洋者 特殊主炮",
-		shakescreen = 0,
-		type = 2,
+		type = 1,
 		torpedo_ammo = 0,
 		fire_fx = "CLFire",
 		action_index = "attack",
 		charge_param = "",
 		axis_angle = 0,
-		fire_fx_loop_type = 1,
+		fire_fx_loop_type = 3,
 		attack_attribute = 1,
 		expose = 0,
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 2450,
-		queue = 1,
-		range = 80,
+		reload_max = 450,
+		queue = 3,
+		range = 90,
 		damage = 14,
 		suppress = 1,
 		auto_aftercast = 0,
-		corrected = 100,
+		corrected = 105,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 616015,
+		id = 617073,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			803,
-			803,
-			803,
-			803
+			620010,
+			620010
 		},
 		barrage_ID = {
-			21037,
-			21038,
-			21039,
-			21040
+			940041,
+			940042
 		},
 		oxy_type = {
 			1
@@ -2550,55 +2086,93 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[616016] = {
-		recover_time = 0.5,
-		name = "【hololive联动T1】BOSS –领洋者 特殊武器旋转子弹",
+	uv0.weapon_property_303[617074] = {
+		recover_time = 0,
+		name = "【年底日系活动B3】BOSS-黑高雄 扫射弹幕",
 		shakescreen = 0,
-		type = 2,
+		type = 1,
 		torpedo_ammo = 0,
 		fire_fx = "CLFire",
 		action_index = "attack",
 		charge_param = "",
 		axis_angle = 0,
-		fire_fx_loop_type = 1,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 450,
+		queue = 3,
+		range = 90,
+		damage = 14,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617074,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			620010,
+			620010
+		},
+		barrage_ID = {
+			940043,
+			940044
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617075] = {
+		recover_time = 0,
+		name = "【年底日系活动B3】BOSS-黑高雄 特殊弹幕",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 3,
 		attack_attribute = 1,
 		expose = 0,
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
 		reload_max = 2000,
-		queue = 1,
-		range = 80,
-		damage = 14,
+		queue = 4,
+		range = 90,
+		damage = 22,
 		suppress = 1,
 		auto_aftercast = 0,
-		corrected = 100,
+		corrected = 105,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 616016,
+		id = 617075,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			801,
-			801,
-			803,
-			803,
-			803,
-			803,
-			803,
-			803
+			620006,
+			620007,
+			620008,
+			620009
 		},
 		barrage_ID = {
-			21006,
-			21007,
-			21008,
-			21009,
-			21010,
-			21011,
-			21012,
-			21013
+			670043,
+			670044,
+			670045,
+			670046
 		},
 		oxy_type = {
 			1
@@ -2608,9 +2182,9 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[616018] = {
+	uv0.weapon_property_303[617076] = {
 		recover_time = 0.5,
-		name = "【hololive联动T1】BOSS –探索者 四联装鱼雷",
+		name = "【年底日系活动B3】BOSS-黑高雄  鱼雷",
 		shakescreen = 0,
 		type = 3,
 		torpedo_ammo = 0,
@@ -2619,124 +2193,229 @@ pg.weapon_property_303 = {}
 		charge_param = "",
 		axis_angle = 0,
 		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2400,
+		queue = 2,
+		range = 60,
+		damage = 44,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 617076,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			620011,
+			620012
+		},
+		barrage_ID = {
+			670041,
+			670042
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617077] = {
+		recover_time = 0,
+		name = "【年底日系活动B3】BOSS-黑高雄 跨射攻击后排武器2x2轮",
+		shakescreen = 0,
+		type = 19,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 40,
+		reload_max = 2300,
+		queue = 3,
+		range = 150,
+		damage = 22,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 85,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 617077,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1531
+		},
+		barrage_ID = {
+			20015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_303[617078] = {
+		recover_time = 0.5,
+		name = "【年底日系活动B3】神秘结界",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 3360,
+		queue = 99,
+		range = 100,
+		damage = 0,
+		suppress = 0,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "",
+		id = 617078,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			670054
+		},
+		barrage_ID = {
+			1
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617081] = {
+		recover_time = 0,
+		name = "【年底日系活动C1】BOSS-龙凤 特殊弹幕1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
 		attack_attribute = 2,
 		expose = 0,
 		search_type = 1,
 		effect_move = 0,
-		angle = 60,
-		reload_max = 2100,
-		queue = 1,
-		range = 70,
-		damage = 34,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 1,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 616018,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			30067
-		},
-		barrage_ID = {
-			1403
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[616019] = {
-		recover_time = 0.5,
-		name = "【hololive联动T1】BOSS –探索者 单发瞄准x4随机",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 980,
-		queue = 1,
-		range = 70,
-		damage = 8,
+		angle = 180,
+		reload_max = 1800,
+		queue = 2,
+		range = 72,
+		damage = 22,
 		suppress = 1,
 		auto_aftercast = 0,
 		corrected = 100,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 616019,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1005
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[616020] = {
-		recover_time = 0.5,
-		name = "【hololive联动T1】BOSS –探索者 特殊弹幕武器",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 2600,
-		queue = 3,
-		range = 70,
-		damage = 6,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 616020,
+		fire_sfx = "battle/cannon-main",
+		id = 617081,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
-			801,
-			801,
-			801,
-			801
+			670002,
+			670003,
+			670004,
+			670005
 		},
 		barrage_ID = {
-			21047,
-			21048,
-			21049,
-			21050
+			670001,
+			670002,
+			670003,
+			670004
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			isBound = true,
+			fx = "jinengenemy",
+			time = 1
+		}
+	}
+	uv0.weapon_property_303[617082] = {
+		recover_time = 0,
+		name = "【年底日系活动C1】BOSS-龙凤 波纹",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 3,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 3000,
+		queue = 2,
+		range = 100,
+		damage = 18,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 105,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617082,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			670006,
+			670006,
+			670006,
+			670006
+		},
+		barrage_ID = {
+			950171,
+			950172,
+			950173,
+			950169
 		},
 		oxy_type = {
 			1
@@ -2746,9 +2425,9 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[616021] = {
+	uv0.weapon_property_303[617083] = {
 		recover_time = 0.5,
-		name = "【hololive联动T1】BOSS –探索者 双联装炮瞄准",
+		name = "【年底日系活动C1】BOSS-龙凤 近程自卫火炮III",
 		shakescreen = 0,
 		type = 2,
 		torpedo_ammo = 0,
@@ -2762,66 +2441,22 @@ pg.weapon_property_303 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 1200,
+		reload_max = 500,
 		queue = 1,
-		range = 70,
-		damage = 6,
+		range = 38,
+		damage = 7,
 		suppress = 1,
 		auto_aftercast = 0,
-		corrected = 100,
+		corrected = 125,
 		min_range = 0,
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-155mm",
-		id = 616021,
+		id = 617083,
 		attack_attribute_ratio = 100,
 		aim_type = 1,
 		bullet_ID = {
-			801
-		},
-		barrage_ID = {
-			1001
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_303[616031] = {
-		recover_time = 0.5,
-		name = "【hololive联动TS2】BOSS –领洋者 近程自卫火炮",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 750,
-		queue = 1,
-		range = 80,
-		damage = 12,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 616031,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			801
+			999
 		},
 		barrage_ID = {
 			13
@@ -2834,9 +2469,9 @@ pg.weapon_property_303 = {}
 		},
 		precast_param = {}
 	}
-	uv0.weapon_property_303[616032] = {
+	uv0.weapon_property_303[617084] = {
 		recover_time = 0,
-		name = "【hololive联动TS2】BOSS –领洋者 主炮1",
+		name = "【年底日系活动C1】BOSS-龙凤 散射4*2",
 		shakescreen = 0,
 		type = 1,
 		torpedo_ammo = 0,
@@ -2850,10 +2485,230 @@ pg.weapon_property_303 = {}
 		search_type = 1,
 		effect_move = 0,
 		angle = 360,
-		reload_max = 3200,
+		reload_max = 1800,
 		queue = 1,
-		range = 90,
-		damage = 14,
+		range = 100,
+		damage = 18,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 617084,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			670001
+		},
+		barrage_ID = {
+			670005
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617085] = {
+		recover_time = 0,
+		name = "【年底日系活动C1】BOSS-龙凤 战斗机",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 1600,
+		queue = 3,
+		range = 120,
+		damage = 38,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		id = 617085,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			617085
+		},
+		barrage_ID = {
+			630022
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617086] = {
+		recover_time = 0,
+		name = "【年底日系活动C1】BOSS-龙凤 轰炸机",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 1500,
+		queue = 2,
+		range = 100,
+		damage = 42,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "",
+		id = 617086,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			617086
+		},
+		barrage_ID = {
+			630021
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617087] = {
+		recover_time = 0,
+		name = "【年底日系活动C1】BOSS-龙凤 战斗机弹幕武器",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "fangkongpaohuoshe2",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 100,
+		queue = 3,
+		range = 85,
+		damage = 38,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/air-atk",
+		id = 617087,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			130314
+		},
+		barrage_ID = {
+			120303
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617088] = {
+		recover_time = 0,
+		name = "【年底日系活动C1】BOSS-龙凤 战斗机对空武器",
+		shakescreen = 0,
+		type = 4,
+		torpedo_ammo = 0,
+		fire_fx = "fangkongpaohuoshe2",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 48,
+		queue = 3,
+		range = 200,
+		damage = 38,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/air-atk",
+		id = 617088,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			10004
+		},
+		barrage_ID = {
+			5
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617089] = {
+		recover_time = 0,
+		name = "【年底日系活动C1】BOSS-龙凤 轰炸机弹幕武器",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 180,
+		reload_max = 200,
+		queue = 2,
+		range = 10,
+		damage = 42,
 		suppress = 0,
 		auto_aftercast = 0,
 		corrected = 100,
@@ -2861,16 +2716,199 @@ pg.weapon_property_303 = {}
 		initial_over_heat = 0,
 		spawn_bound = "cannon",
 		fire_sfx = "battle/cannon-main",
-		id = 616032,
+		id = 617089,
 		attack_attribute_ratio = 100,
 		aim_type = 0,
 		bullet_ID = {
-			20003,
-			20003
+			130315
 		},
 		barrage_ID = {
-			200140,
-			200141
+			130992
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617101] = {
+		recover_time = 0,
+		name = "【年底日系活动C2】BOSS-骏河 樱花子弹",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 180,
+		reload_max = 1000,
+		queue = 1,
+		range = 80,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 110,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617101,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			630001,
+			630002
+		},
+		barrage_ID = {
+			630003,
+			630004
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617102] = {
+		recover_time = 0.5,
+		name = "【年底日系活动C2】BOSS-骏河 近程自卫火炮III",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 500,
+		queue = 2,
+		range = 38,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 617102,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			999
+		},
+		barrage_ID = {
+			13
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_303[617103] = {
+		recover_time = 0,
+		name = "【年底日系活动C2】BOSS-骏河 跨射攻击后排武器2x2轮",
+		shakescreen = 0,
+		type = 19,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 40,
+		reload_max = 2300,
+		queue = 3,
+		range = 150,
+		damage = 42,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 85,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 617103,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1531
+		},
+		barrage_ID = {
+			20015
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 1,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_303[617104] = {
+		recover_time = 0.5,
+		name = "【年底日系活动C2】BOSS-骏河 特殊弹幕（鱼雷",
+		shakescreen = 0,
+		type = 3,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 360,
+		reload_max = 2400,
+		queue = 2,
+		range = 60,
+		damage = 39,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 125,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 617104,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			110605,
+			110606
+		},
+		barrage_ID = {
+			630006,
+			630007
 		},
 		oxy_type = {
 			1

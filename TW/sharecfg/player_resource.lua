@@ -585,6 +585,11 @@ pg.player_resource = {
 		name = "skinTicket19",
 		itemid = 59224
 	},
+	[211] = {
+		id = 211,
+		name = "meixiv3_pt2",
+		itemid = 59229
+	},
 	[217] = {
 		id = 217,
 		name = "xunliandianshu_v3_2",
@@ -1072,6 +1077,9 @@ pg.player_resource = {
 		skinTicket19 = {
 			209
 		},
+		meixiv3_pt2 = {
+			211
+		},
 		xunliandianshu_v3_2 = {
 			217
 		},
@@ -1272,6 +1280,7 @@ pg.player_resource = {
 		216,
 		208,
 		209,
+		211,
 		217,
 		218,
 		950,

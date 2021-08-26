@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.equip_data_template_219 = {
-	[26647] = {
-		next = 26648,
+	[26627] = {
+		next = 26628,
 		destory_gold = 475,
 		trans_use_gold = 660,
-		base = 26640,
-		id = 26647,
-		prev = 26646,
+		base = 26620,
+		id = 26627,
+		prev = 26626,
 		restore_gold = 1200,
 		level = 8,
 		trans_use_item = {
@@ -44,13 +44,13 @@ pg.equip_data_template_219 = {
 			}
 		}
 	},
-	[26648] = {
-		next = 26649,
+	[26628] = {
+		next = 26629,
 		destory_gold = 640,
 		trans_use_gold = 780,
-		base = 26640,
-		id = 26648,
-		prev = 26647,
+		base = 26620,
+		id = 26628,
+		prev = 26627,
 		restore_gold = 1640,
 		level = 9,
 		trans_use_item = {
@@ -88,13 +88,13 @@ pg.equip_data_template_219 = {
 			}
 		}
 	},
-	[26649] = {
-		next = 26650,
+	[26629] = {
+		next = 26630,
 		destory_gold = 835,
 		trans_use_gold = 900,
-		base = 26640,
-		id = 26649,
-		prev = 26648,
+		base = 26620,
+		id = 26629,
+		prev = 26628,
 		restore_gold = 2160,
 		level = 10,
 		trans_use_item = {
@@ -132,13 +132,13 @@ pg.equip_data_template_219 = {
 			}
 		}
 	},
-	[26650] = {
+	[26630] = {
 		next = 0,
 		destory_gold = 1060,
 		trans_use_gold = 0,
-		base = 26640,
-		id = 26650,
-		prev = 26649,
+		base = 26620,
+		id = 26630,
+		prev = 26629,
 		restore_gold = 2760,
 		level = 11,
 		trans_use_item = {},
@@ -171,165 +171,209 @@ pg.equip_data_template_219 = {
 			}
 		}
 	},
-	[27000] = {
-		destory_gold = 4,
-		trans_use_gold = 20,
-		next = 27001,
-		type = 7,
-		group = 27000,
+	[26640] = {
+		destory_gold = 25,
+		trans_use_gold = 30,
+		next = 26641,
+		type = 6,
+		group = 26640,
 		restore_gold = 0,
-		important = 1,
+		important = 2,
 		prev = 0,
-		id = 27000,
+		id = 26640,
 		equip_limit = 0,
 		level = 1,
-		ship_type_forbidden = {
-			10
-		},
+		ship_type_forbidden = {},
 		trans_use_item = {
 			{
-				17041,
-				1
-			}
-		},
-		destory_item = {},
-		restore_item = {},
-		upgrade_formula_id = {}
-	},
-	[27001] = {
-		next = 27002,
-		destory_gold = 9,
-		trans_use_gold = 60,
-		base = 27000,
-		id = 27001,
-		prev = 27000,
-		restore_gold = 20,
-		level = 2,
-		trans_use_item = {
-			{
-				17041,
-				3
+				17031,
+				2
 			}
 		},
 		destory_item = {
 			{
-				17041,
+				17033,
 				1
 			}
 		},
-		restore_item = {
-			{
-				17041,
-				1
-			}
+		restore_item = {},
+		upgrade_formula_id = {
+			26640
 		}
 	},
-	[27002] = {
-		next = 27003,
-		destory_gold = 24,
-		trans_use_gold = 100,
-		base = 27000,
-		id = 27002,
-		prev = 27001,
-		restore_gold = 80,
-		level = 3,
+	[26641] = {
+		next = 26642,
+		destory_gold = 33,
+		trans_use_gold = 90,
+		base = 26640,
+		id = 26641,
+		prev = 26640,
+		restore_gold = 20,
+		level = 2,
 		trans_use_item = {
 			{
-				17041,
+				17031,
 				5
 			}
 		},
 		destory_item = {
 			{
-				17041,
-				2
+				17031,
+				1
+			},
+			{
+				17033,
+				1
 			}
 		},
 		restore_item = {
 			{
-				17041,
+				17031,
+				1
+			}
+		}
+	},
+	[26642] = {
+		next = 26643,
+		destory_gold = 55,
+		trans_use_gold = 150,
+		base = 26640,
+		id = 26642,
+		prev = 26641,
+		restore_gold = 80,
+		level = 3,
+		trans_use_item = {
+			{
+				17031,
+				8
+			}
+		},
+		destory_item = {
+			{
+				17031,
+				2
+			},
+			{
+				17033,
+				1
+			}
+		},
+		restore_item = {
+			{
+				17031,
 				4
 			}
 		}
 	},
-	[27003] = {
-		next = 0,
-		destory_gold = 49,
-		trans_use_gold = 0,
-		base = 27000,
-		id = 27003,
-		prev = 27002,
+	[26643] = {
+		next = 26644,
+		destory_gold = 93,
+		trans_use_gold = 240,
+		base = 26640,
+		id = 26643,
+		prev = 26642,
 		restore_gold = 180,
 		level = 4,
-		trans_use_item = {},
+		trans_use_item = {
+			{
+				17032,
+				12
+			}
+		},
 		destory_item = {
 			{
-				17041,
-				3
+				17031,
+				4
+			},
+			{
+				17033,
+				1
 			}
 		},
 		restore_item = {
 			{
-				17041,
+				17031,
 				9
 			}
 		}
 	},
-	[27020] = {
-		destory_gold = 9,
-		trans_use_gold = 20,
-		next = 27021,
-		type = 7,
-		group = 27020,
-		restore_gold = 0,
-		important = 1,
-		prev = 0,
-		id = 27020,
-		equip_limit = 0,
-		level = 1,
-		ship_type_forbidden = {
-			10
-		},
+	[26644] = {
+		next = 26645,
+		destory_gold = 153,
+		trans_use_gold = 330,
+		base = 26640,
+		id = 26644,
+		prev = 26643,
+		restore_gold = 340,
+		level = 5,
 		trans_use_item = {
 			{
-				17041,
-				1
+				17032,
+				16
 			}
 		},
 		destory_item = {
 			{
-				17041,
-				1
-			}
-		},
-		restore_item = {},
-		upgrade_formula_id = {}
-	},
-	[27021] = {
-		next = 27022,
-		destory_gold = 14,
-		trans_use_gold = 60,
-		base = 27020,
-		id = 27021,
-		prev = 27020,
-		restore_gold = 20,
-		level = 2,
-		trans_use_item = {
+				17031,
+				4
+			},
 			{
-				17041,
+				17032,
 				3
-			}
-		},
-		destory_item = {
+			},
 			{
-				17041,
-				2
+				17033,
+				1
 			}
 		},
 		restore_item = {
 			{
-				17041,
+				17031,
+				9
+			},
+			{
+				17032,
+				8
+			}
+		}
+	},
+	[26645] = {
+		next = 26646,
+		destory_gold = 235,
+		trans_use_gold = 420,
+		base = 26640,
+		id = 26645,
+		prev = 26644,
+		restore_gold = 560,
+		level = 6,
+		trans_use_item = {
+			{
+				17032,
+				21
+			}
+		},
+		destory_item = {
+			{
+				17031,
+				4
+			},
+			{
+				17032,
+				7
+			},
+			{
+				17033,
 				1
+			}
+		},
+		restore_item = {
+			{
+				17031,
+				9
+			},
+			{
+				17032,
+				19
 			}
 		}
 	}

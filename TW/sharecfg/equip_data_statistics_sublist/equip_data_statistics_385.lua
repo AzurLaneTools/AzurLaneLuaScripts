@@ -1,56 +1,88 @@
 pg = pg or {}
 pg.equip_data_statistics_385 = {
-	[90426] = {
-		id = 90426,
-		damage = "82 x 4",
-		base = 90420,
+	[90342] = {
+		id = 90342,
+		damage = "53 x 4",
+		base = 90340,
 		weapon_id = {
-			90426
+			90342
 		}
 	},
-	[90427] = {
-		id = 90427,
+	[90343] = {
+		id = 90343,
+		damage = "59 x 4",
+		base = 90340,
+		weapon_id = {
+			90343
+		}
+	},
+	[90344] = {
+		id = 90344,
+		damage = "65 x 4",
+		base = 90340,
+		weapon_id = {
+			90344
+		}
+	},
+	[90345] = {
+		id = 90345,
+		damage = "71 x 4",
+		base = 90340,
+		weapon_id = {
+			90345
+		}
+	},
+	[90346] = {
+		id = 90346,
+		damage = "77 x 4",
+		base = 90340,
+		weapon_id = {
+			90346
+		}
+	},
+	[90347] = {
+		id = 90347,
+		damage = "83 x 4",
+		base = 90340,
+		weapon_id = {
+			90347
+		}
+	},
+	[90348] = {
+		id = 90348,
 		damage = "89 x 4",
-		base = 90420,
+		base = 90340,
 		weapon_id = {
-			90427
+			90348
 		}
 	},
-	[90428] = {
-		id = 90428,
-		damage = "96 x 4",
-		base = 90420,
+	[90349] = {
+		id = 90349,
+		damage = "95 x 4",
+		base = 90340,
 		weapon_id = {
-			90428
+			90349
 		}
 	},
-	[90429] = {
-		id = 90429,
-		damage = "103 x 4",
-		base = 90420,
+	[90350] = {
+		id = 90350,
+		damage = "102 x 4",
+		base = 90340,
 		weapon_id = {
-			90429
+			90350
 		}
 	},
-	[90430] = {
-		id = 90430,
-		damage = "110 x 4",
-		base = 90420,
-		weapon_id = {
-			90430
-		}
-	},
-	[90440] = {
-		tech = 3,
+	[90400] = {
+		tech = 1,
 		name = "四聯裝380mm主炮Mle1935",
 		speciality = "跨射",
 		type = 4,
-		value_2 = 45,
-		ammo = 2,
-		damage = "48 x 4",
+		value_2 = 12,
+		ammo = 3,
+		damage = "40 x 4",
 		nationality = 8,
-		rarity = 5,
-		id = 90440,
+		rarity = 3,
+		id = 90400,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
@@ -58,12 +90,12 @@ pg.equip_data_statistics_385 = {
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
-			3
+			1
 		},
 		ammo_info = {
 			{
 				2,
-				1552
+				1550
 			}
 		},
 		equip_info = {
@@ -75,7 +107,7 @@ pg.equip_data_statistics_385 = {
 			12
 		},
 		weapon_id = {
-			90440
+			90400
 		},
 		skill_id = {},
 		part_main = {
@@ -90,55 +122,23 @@ pg.equip_data_statistics_385 = {
 			"FFNF",
 			"BB",
 			"MG",
-			"HE"
+			"Richelieu"
 		}
 	},
-	[90441] = {
-		id = 90441,
-		damage = "55 x 4",
-		base = 90440,
+	[90401] = {
+		id = 90401,
+		damage = "46 x 4",
+		base = 90400,
 		weapon_id = {
-			90441
+			90401
 		}
 	},
-	[90442] = {
-		id = 90442,
-		damage = "62 x 4",
-		base = 90440,
+	[90402] = {
+		id = 90402,
+		damage = "52 x 4",
+		base = 90400,
 		weapon_id = {
-			90442
-		}
-	},
-	[90443] = {
-		id = 90443,
-		damage = "69 x 4",
-		base = 90440,
-		weapon_id = {
-			90443
-		}
-	},
-	[90444] = {
-		id = 90444,
-		damage = "76 x 4",
-		base = 90440,
-		weapon_id = {
-			90444
-		}
-	},
-	[90445] = {
-		id = 90445,
-		damage = "83 x 4",
-		base = 90440,
-		weapon_id = {
-			90445
-		}
-	},
-	[90446] = {
-		id = 90446,
-		damage = "90 x 4",
-		base = 90440,
-		weapon_id = {
-			90446
+			90402
 		}
 	}
 }

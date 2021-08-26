@@ -1,5 +1,227 @@
 pg = pg or {}
 pg.equip_data_statistics_266 = {
+	[38123] = {
+		id = 38123,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				4,
+				51423
+			}
+		},
+		weapon_id = {
+			38123
+		}
+	},
+	[38124] = {
+		id = 38124,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50024
+			},
+			{
+				4,
+				51424
+			}
+		},
+		weapon_id = {
+			38124
+		}
+	},
+	[38125] = {
+		id = 38125,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50025
+			},
+			{
+				4,
+				51425
+			}
+		},
+		weapon_id = {
+			38125
+		}
+	},
+	[38126] = {
+		id = 38126,
+		base = 38120,
+		ammo_info = {
+			{
+				6,
+				50026
+			},
+			{
+				4,
+				51426
+			}
+		},
+		weapon_id = {
+			38126
+		}
+	},
+	[38140] = {
+		rarity = 4,
+		name = "天山",
+		speciality = "雷擊",
+		type = 8,
+		tech = 3,
+		ammo = 5,
+		nationality = 3,
+		value_2 = 25,
+		id = 38140,
+		torpedo_ammo = 0,
+		value_3 = 0,
+		descrip = "說明未填寫",
+		icon = "38100",
+		attribute_2 = "air",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50040
+			},
+			{
+				4,
+				51440
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			38140
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
+	},
+	[38141] = {
+		id = 38141,
+		base = 38140,
+		ammo_info = {
+			{
+				6,
+				50041
+			},
+			{
+				4,
+				51441
+			}
+		},
+		weapon_id = {
+			38141
+		}
+	},
+	[38142] = {
+		id = 38142,
+		base = 38140,
+		ammo_info = {
+			{
+				6,
+				50042
+			},
+			{
+				4,
+				51442
+			}
+		},
+		weapon_id = {
+			38142
+		}
+	},
+	[38143] = {
+		id = 38143,
+		base = 38140,
+		ammo_info = {
+			{
+				6,
+				50043
+			},
+			{
+				4,
+				51443
+			}
+		},
+		weapon_id = {
+			38143
+		}
+	},
+	[38144] = {
+		id = 38144,
+		base = 38140,
+		ammo_info = {
+			{
+				6,
+				50044
+			},
+			{
+				4,
+				51444
+			}
+		},
+		weapon_id = {
+			38144
+		}
+	},
+	[38145] = {
+		id = 38145,
+		base = 38140,
+		ammo_info = {
+			{
+				6,
+				50045
+			},
+			{
+				4,
+				51445
+			}
+		},
+		weapon_id = {
+			38145
+		}
+	},
+	[38146] = {
+		id = 38146,
+		base = 38140,
+		ammo_info = {
+			{
+				6,
+				50046
+			},
+			{
+				4,
+				51446
+			}
+		},
+		weapon_id = {
+			38146
+		}
+	},
 	[38147] = {
 		id = 38147,
 		base = 38140,
@@ -15,295 +237,6 @@ pg.equip_data_statistics_266 = {
 		},
 		weapon_id = {
 			38147
-		}
-	},
-	[38148] = {
-		id = 38148,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50048
-			},
-			{
-				4,
-				51448
-			}
-		},
-		weapon_id = {
-			38148
-		}
-	},
-	[38149] = {
-		id = 38149,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50049
-			},
-			{
-				4,
-				51449
-			}
-		},
-		weapon_id = {
-			38149
-		}
-	},
-	[38150] = {
-		id = 38150,
-		base = 38140,
-		ammo_info = {
-			{
-				6,
-				50050
-			},
-			{
-				4,
-				51450
-			}
-		},
-		weapon_id = {
-			38150
-		}
-	},
-	[38200] = {
-		rarity = 3,
-		name = "流星",
-		speciality = "雷擊",
-		type = 8,
-		tech = 1,
-		ammo = 5,
-		nationality = 3,
-		value_2 = 12,
-		id = 38200,
-		torpedo_ammo = 0,
-		value_3 = 0,
-		descrip = "Aichi B7A Ryusei流星式艦載攻擊機，搭載有2門20毫米機炮、1門13mm機槍和800kg魚雷",
-		icon = "38200",
-		attribute_2 = "air",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50500
-			},
-			{
-				6,
-				50800
-			},
-			{
-				4,
-				51420
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38200
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
-		}
-	},
-	[38201] = {
-		id = 38201,
-		base = 38200,
-		ammo_info = {
-			{
-				6,
-				50501
-			},
-			{
-				6,
-				50801
-			},
-			{
-				4,
-				51421
-			}
-		},
-		weapon_id = {
-			38201
-		}
-	},
-	[38202] = {
-		id = 38202,
-		base = 38200,
-		ammo_info = {
-			{
-				6,
-				50502
-			},
-			{
-				6,
-				50802
-			},
-			{
-				4,
-				51422
-			}
-		},
-		weapon_id = {
-			38202
-		}
-	},
-	[38203] = {
-		id = 38203,
-		base = 38200,
-		ammo_info = {
-			{
-				6,
-				50503
-			},
-			{
-				6,
-				50803
-			},
-			{
-				4,
-				51423
-			}
-		},
-		weapon_id = {
-			38203
-		}
-	},
-	[38204] = {
-		id = 38204,
-		base = 38200,
-		ammo_info = {
-			{
-				6,
-				50504
-			},
-			{
-				6,
-				50804
-			},
-			{
-				4,
-				51424
-			}
-		},
-		weapon_id = {
-			38204
-		}
-	},
-	[38205] = {
-		id = 38205,
-		base = 38200,
-		ammo_info = {
-			{
-				6,
-				50505
-			},
-			{
-				6,
-				50805
-			},
-			{
-				4,
-				51425
-			}
-		},
-		weapon_id = {
-			38205
-		}
-	},
-	[38206] = {
-		id = 38206,
-		base = 38200,
-		ammo_info = {
-			{
-				6,
-				50506
-			},
-			{
-				6,
-				50806
-			},
-			{
-				4,
-				51426
-			}
-		},
-		weapon_id = {
-			38206
-		}
-	},
-	[38220] = {
-		rarity = 4,
-		name = "流星",
-		speciality = "雷擊",
-		type = 8,
-		tech = 2,
-		ammo = 5,
-		nationality = 3,
-		value_2 = 25,
-		id = 38220,
-		torpedo_ammo = 0,
-		value_3 = 0,
-		descrip = "Aichi B7A Ryusei流星式艦載攻擊機，搭載有2門20毫米機炮、1門13mm機槍和800kg魚雷",
-		icon = "38200",
-		attribute_2 = "air",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50520
-			},
-			{
-				6,
-				50820
-			},
-			{
-				4,
-				51440
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			38220
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"IJN",
-			"CV",
-			"TB"
 		}
 	}
 }

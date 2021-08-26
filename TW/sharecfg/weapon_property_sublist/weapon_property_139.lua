@@ -2,6 +2,68 @@ pg = pg or {}
 pg.weapon_property_139 = {}
 
 (function ()
+	uv0.weapon_property_139[67309] = {
+		id = 67309,
+		name = "大鳳技能轟炸機Lv9",
+		damage = 238,
+		base = 67300,
+		bullet_ID = {
+			67309
+		}
+	}
+	uv0.weapon_property_139[67310] = {
+		id = 67310,
+		name = "大鳳技能轟炸機Lv10",
+		damage = 260,
+		base = 67300,
+		bullet_ID = {
+			67310
+		}
+	}
+	uv0.weapon_property_139[67320] = {
+		recover_time = 0.5,
+		name = "大鳳技能魚雷機Lv0",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 5,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 1890,
+		queue = 1,
+		range = 90,
+		damage = 48,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 67320,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			67320
+		},
+		barrage_ID = {
+			12009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_139[67321] = {
 		id = 67321,
 		name = "大鳳技能魚雷機Lv1",
@@ -629,24 +691,6 @@ pg.weapon_property_139 = {}
 		id = 67425,
 		name = "大青花魚技能魚雷LV5",
 		damage = 24,
-		base = 67420,
-		barrage_ID = {
-			80502
-		}
-	}
-	uv0.weapon_property_139[67426] = {
-		id = 67426,
-		name = "大青花魚技能魚雷LV6",
-		damage = 27,
-		base = 67420,
-		barrage_ID = {
-			80502
-		}
-	}
-	uv0.weapon_property_139[67427] = {
-		id = 67427,
-		name = "大青花魚技能魚雷LV7",
-		damage = 30,
 		base = 67420,
 		barrage_ID = {
 			80502

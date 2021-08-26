@@ -2,31 +2,6 @@ pg = pg or {}
 pg.weapon_property_147 = {}
 
 (function ()
-	uv0.weapon_property_147[67974] = {
-		id = 67974,
-		damage = 128,
-		base = 67971
-	}
-	uv0.weapon_property_147[67975] = {
-		id = 67975,
-		damage = 143,
-		base = 67971
-	}
-	uv0.weapon_property_147[67976] = {
-		id = 67976,
-		damage = 158,
-		base = 67971
-	}
-	uv0.weapon_property_147[67977] = {
-		id = 67977,
-		damage = 174,
-		base = 67971
-	}
-	uv0.weapon_property_147[67978] = {
-		id = 67978,
-		damage = 190,
-		base = 67971
-	}
 	uv0.weapon_property_147[67979] = {
 		id = 67979,
 		damage = 206,
@@ -735,6 +710,36 @@ pg.weapon_property_147 = {}
 	uv0.weapon_property_147[68042] = {
 		id = 68042,
 		damage = 236,
+		base = 68041
+	}
+	uv0.weapon_property_147[68043] = {
+		id = 68043,
+		damage = 263,
+		base = 68041
+	}
+	uv0.weapon_property_147[68044] = {
+		id = 68044,
+		damage = 290,
+		base = 68041
+	}
+	uv0.weapon_property_147[68045] = {
+		id = 68045,
+		damage = 317,
+		base = 68041
+	}
+	uv0.weapon_property_147[68046] = {
+		id = 68046,
+		damage = 344,
+		base = 68041
+	}
+	uv0.weapon_property_147[68047] = {
+		id = 68047,
+		damage = 371,
+		base = 68041
+	}
+	uv0.weapon_property_147[68048] = {
+		id = 68048,
+		damage = 399,
 		base = 68041
 	}
 end)()

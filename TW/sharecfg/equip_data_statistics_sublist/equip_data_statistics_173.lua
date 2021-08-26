@@ -1,32 +1,64 @@
 pg = pg or {}
 pg.equip_data_statistics_173 = {
-	[24205] = {
-		id = 24205,
-		damage = "88 x 3",
-		base = 24200,
+	[24165] = {
+		id = 24165,
+		damage = "97 x 3",
+		base = 24160,
 		weapon_id = {
-			24205
+			24165
 		}
 	},
-	[24206] = {
-		id = 24206,
-		damage = "96 x 3",
-		base = 24200,
+	[24166] = {
+		id = 24166,
+		damage = "106 x 3",
+		base = 24160,
 		weapon_id = {
-			24206
+			24166
 		}
 	},
-	[24220] = {
-		tech = 2,
+	[24167] = {
+		id = 24167,
+		damage = "115 x 3",
+		base = 24160,
+		weapon_id = {
+			24167
+		}
+	},
+	[24168] = {
+		id = 24168,
+		damage = "124 x 3",
+		base = 24160,
+		weapon_id = {
+			24168
+		}
+	},
+	[24169] = {
+		id = 24169,
+		damage = "133 x 3",
+		base = 24160,
+		weapon_id = {
+			24169
+		}
+	},
+	[24170] = {
+		id = 24170,
+		damage = "142 x 3",
+		base = 24160,
+		weapon_id = {
+			24170
+		}
+	},
+	[24200] = {
+		tech = 1,
 		name = "三聯裝406mm主炮",
 		speciality = "跨射",
 		type = 4,
-		value_2 = 25,
+		value_2 = 12,
 		ammo = 3,
-		damage = "53 x 3",
+		damage = "48 x 3",
 		nationality = 2,
-		rarity = 4,
-		id = 24220,
+		rarity = 3,
+		id = 24200,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
@@ -51,7 +83,7 @@ pg.equip_data_statistics_173 = {
 			12
 		},
 		weapon_id = {
-			24220
+			24200
 		},
 		skill_id = {},
 		part_main = {
@@ -68,76 +100,44 @@ pg.equip_data_statistics_173 = {
 			"MG"
 		}
 	},
-	[24221] = {
-		id = 24221,
-		damage = "62 x 3",
-		base = 24220,
+	[24201] = {
+		id = 24201,
+		damage = "56 x 3",
+		base = 24200,
 		weapon_id = {
-			24221
+			24201
 		}
 	},
-	[24222] = {
-		id = 24222,
-		damage = "70 x 3",
-		base = 24220,
+	[24202] = {
+		id = 24202,
+		damage = "64 x 3",
+		base = 24200,
 		weapon_id = {
-			24222
+			24202
 		}
 	},
-	[24223] = {
-		id = 24223,
-		damage = "79 x 3",
-		base = 24220,
+	[24203] = {
+		id = 24203,
+		damage = "72 x 3",
+		base = 24200,
 		weapon_id = {
-			24223
+			24203
 		}
 	},
-	[24224] = {
-		id = 24224,
+	[24204] = {
+		id = 24204,
+		damage = "80 x 3",
+		base = 24200,
+		weapon_id = {
+			24204
+		}
+	},
+	[24205] = {
+		id = 24205,
 		damage = "88 x 3",
-		base = 24220,
+		base = 24200,
 		weapon_id = {
-			24224
-		}
-	},
-	[24225] = {
-		id = 24225,
-		damage = "97 x 3",
-		base = 24220,
-		weapon_id = {
-			24225
-		}
-	},
-	[24226] = {
-		id = 24226,
-		damage = "106 x 3",
-		base = 24220,
-		weapon_id = {
-			24226
-		}
-	},
-	[24227] = {
-		id = 24227,
-		damage = "114 x 3",
-		base = 24220,
-		weapon_id = {
-			24227
-		}
-	},
-	[24228] = {
-		id = 24228,
-		damage = "123 x 3",
-		base = 24220,
-		weapon_id = {
-			24228
-		}
-	},
-	[24229] = {
-		id = 24229,
-		damage = "132 x 3",
-		base = 24220,
-		weapon_id = {
-			24229
+			24205
 		}
 	}
 }

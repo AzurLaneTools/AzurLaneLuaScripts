@@ -2,312 +2,6 @@ pg = pg or {}
 pg.weapon_property_170 = {}
 
 (function ()
-	uv0.weapon_property_170[69437] = {
-		id = 69437,
-		name = "贝亚恩技能·高爆LV7",
-		damage = 17,
-		base = 69431
-	}
-	uv0.weapon_property_170[69438] = {
-		id = 69438,
-		name = "贝亚恩技能·高爆LV8",
-		damage = 18,
-		base = 69431
-	}
-	uv0.weapon_property_170[69439] = {
-		id = 69439,
-		name = "贝亚恩技能·高爆LV9",
-		damage = 19,
-		base = 69431
-	}
-	uv0.weapon_property_170[69440] = {
-		id = 69440,
-		name = "贝亚恩技能·高爆LV10",
-		damage = 20,
-		base = 69431
-	}
-	uv0.weapon_property_170[69441] = {
-		recover_time = 0.5,
-		name = "拉·加利索尼埃技能弹幕-LV1",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CAFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 412,
-		queue = 1,
-		range = 80,
-		damage = 11,
-		suppress = 0,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 69441,
-		attack_attribute_ratio = 100,
-		aim_type = 0,
-		bullet_ID = {
-			19140
-		},
-		barrage_ID = {
-			1105
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_170[69442] = {
-		id = 69442,
-		name = "拉·加利索尼埃技能弹幕-LV2",
-		damage = 12,
-		base = 69441
-	}
-	uv0.weapon_property_170[69443] = {
-		id = 69443,
-		name = "拉·加利索尼埃技能弹幕-LV3",
-		damage = 13,
-		base = 69441
-	}
-	uv0.weapon_property_170[69444] = {
-		id = 69444,
-		name = "拉·加利索尼埃技能弹幕-LV4",
-		damage = 14,
-		base = 69441
-	}
-	uv0.weapon_property_170[69445] = {
-		id = 69445,
-		name = "拉·加利索尼埃技能弹幕-LV5",
-		damage = 15,
-		base = 69441
-	}
-	uv0.weapon_property_170[69446] = {
-		id = 69446,
-		name = "拉·加利索尼埃技能弹幕-LV6",
-		damage = 16,
-		base = 69441
-	}
-	uv0.weapon_property_170[69447] = {
-		id = 69447,
-		name = "拉·加利索尼埃技能弹幕-LV7",
-		damage = 17,
-		base = 69441
-	}
-	uv0.weapon_property_170[69448] = {
-		id = 69448,
-		name = "拉·加利索尼埃技能弹幕-LV8",
-		damage = 18,
-		base = 69441
-	}
-	uv0.weapon_property_170[69449] = {
-		id = 69449,
-		name = "拉·加利索尼埃技能弹幕-LV9",
-		damage = 19,
-		base = 69441
-	}
-	uv0.weapon_property_170[69450] = {
-		id = 69450,
-		name = "拉·加利索尼埃技能弹幕-LV10",
-		damage = 20,
-		base = 69441
-	}
-	uv0.weapon_property_170[69451] = {
-		recover_time = 0.5,
-		name = "贝亚恩技能V-156F-Lv1",
-		shakescreen = 0,
-		type = 10,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		expose = 10,
-		search_type = 1,
-		effect_move = 1,
-		angle = 90,
-		reload_max = 2490,
-		queue = 1,
-		range = 90,
-		damage = 39,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		id = 69451,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			68621
-		},
-		barrage_ID = {
-			12010
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_170[69452] = {
-		id = 69452,
-		name = "贝亚恩技能V-156F-Lv2",
-		damage = 45,
-		base = 69451,
-		bullet_ID = {
-			68622
-		}
-	}
-	uv0.weapon_property_170[69453] = {
-		id = 69453,
-		name = "贝亚恩技能V-156F-Lv3",
-		damage = 49,
-		base = 69451,
-		bullet_ID = {
-			68623
-		}
-	}
-	uv0.weapon_property_170[69454] = {
-		id = 69454,
-		name = "贝亚恩技能V-156F-Lv4",
-		damage = 56,
-		base = 69451,
-		bullet_ID = {
-			68624
-		}
-	}
-	uv0.weapon_property_170[69455] = {
-		id = 69455,
-		name = "贝亚恩技能V-156F-Lv5",
-		damage = 60,
-		base = 69451,
-		bullet_ID = {
-			68625
-		}
-	}
-	uv0.weapon_property_170[69456] = {
-		id = 69456,
-		name = "贝亚恩技能V-156F-Lv6",
-		damage = 64,
-		base = 69451,
-		bullet_ID = {
-			68626
-		}
-	}
-	uv0.weapon_property_170[69457] = {
-		id = 69457,
-		name = "贝亚恩技能V-156F-Lv7",
-		damage = 71,
-		base = 69451,
-		bullet_ID = {
-			68627
-		}
-	}
-	uv0.weapon_property_170[69458] = {
-		id = 69458,
-		name = "贝亚恩技能V-156F-Lv8",
-		damage = 75,
-		base = 69451,
-		bullet_ID = {
-			68628
-		}
-	}
-	uv0.weapon_property_170[69459] = {
-		id = 69459,
-		name = "贝亚恩技能V-156F-Lv9",
-		damage = 81,
-		base = 69451,
-		bullet_ID = {
-			68629
-		}
-	}
-	uv0.weapon_property_170[69460] = {
-		id = 69460,
-		name = "贝亚恩技能V-156F-Lv10",
-		damage = 86,
-		base = 69451,
-		bullet_ID = {
-			68630
-		}
-	}
-	uv0.weapon_property_170[69461] = {
-		recover_time = 0,
-		name = "2 x 500lb 炸彈",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 22,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 22,
-		reload_max = 9500,
-		queue = 1,
-		range = 500,
-		damage = 174,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 69461,
-		attack_attribute_ratio = 80,
-		aim_type = 1,
-		bullet_ID = {
-			2122
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_170[69462] = {
-		id = 69462,
-		damage = 196,
-		base = 69461
-	}
-	uv0.weapon_property_170[69463] = {
-		id = 69463,
-		damage = 219,
-		base = 69461
-	}
-	uv0.weapon_property_170[69464] = {
-		id = 69464,
-		damage = 242,
-		base = 69461
-	}
 	uv0.weapon_property_170[69465] = {
 		id = 69465,
 		damage = 265,
@@ -660,5 +354,341 @@ pg.weapon_property_170 = {}
 		id = 69498,
 		damage = 202,
 		base = 69491
+	}
+	uv0.weapon_property_170[69499] = {
+		id = 69499,
+		damage = 220,
+		base = 69491
+	}
+	uv0.weapon_property_170[69500] = {
+		id = 69500,
+		damage = 240,
+		base = 69491
+	}
+	uv0.weapon_property_170[69501] = {
+		recover_time = 0.5,
+		name = "小光辉技能圣光飞机Lv1",
+		shakescreen = 0,
+		type = 10,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 10,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 2490,
+		queue = 1,
+		range = 90,
+		damage = 51,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 69501,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			69501
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_170[69502] = {
+		id = 69502,
+		name = "小光辉技能圣光飞机Lv2",
+		damage = 52,
+		base = 69501,
+		bullet_ID = {
+			69502
+		}
+	}
+	uv0.weapon_property_170[69503] = {
+		id = 69503,
+		name = "小光辉技能圣光飞机Lv3",
+		damage = 54,
+		base = 69501,
+		bullet_ID = {
+			69503
+		}
+	}
+	uv0.weapon_property_170[69504] = {
+		id = 69504,
+		name = "小光辉技能圣光飞机Lv4",
+		damage = 57,
+		base = 69501,
+		bullet_ID = {
+			69504
+		}
+	}
+	uv0.weapon_property_170[69505] = {
+		id = 69505,
+		name = "小光辉技能圣光飞机Lv5",
+		damage = 61,
+		base = 69501,
+		bullet_ID = {
+			69505
+		}
+	}
+	uv0.weapon_property_170[69506] = {
+		id = 69506,
+		name = "小光辉技能圣光飞机Lv6",
+		damage = 66,
+		base = 69501,
+		bullet_ID = {
+			69506
+		}
+	}
+	uv0.weapon_property_170[69507] = {
+		id = 69507,
+		name = "小光辉技能圣光飞机Lv7",
+		damage = 72,
+		base = 69501,
+		bullet_ID = {
+			69507
+		}
+	}
+	uv0.weapon_property_170[69508] = {
+		id = 69508,
+		name = "小光辉技能圣光飞机Lv8",
+		damage = 79,
+		base = 69501,
+		bullet_ID = {
+			69508
+		}
+	}
+	uv0.weapon_property_170[69509] = {
+		id = 69509,
+		name = "小光辉技能圣光飞机Lv9",
+		damage = 87,
+		base = 69501,
+		bullet_ID = {
+			69509
+		}
+	}
+	uv0.weapon_property_170[69510] = {
+		id = 69510,
+		name = "小光辉技能圣光飞机Lv10",
+		damage = 96,
+		base = 69501,
+		bullet_ID = {
+			69510
+		}
+	}
+	uv0.weapon_property_170[69511] = {
+		recover_time = 0,
+		name = "圣光弹",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 4,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 90,
+		damage = 51,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 69511,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19145
+		},
+		barrage_ID = {
+			2120
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_170[69512] = {
+		id = 69512,
+		damage = 52,
+		base = 69511
+	}
+	uv0.weapon_property_170[69513] = {
+		id = 69513,
+		damage = 54,
+		base = 69511
+	}
+	uv0.weapon_property_170[69514] = {
+		id = 69514,
+		damage = 57,
+		base = 69511
+	}
+	uv0.weapon_property_170[69515] = {
+		id = 69515,
+		damage = 61,
+		base = 69511
+	}
+	uv0.weapon_property_170[69516] = {
+		id = 69516,
+		damage = 66,
+		base = 69511
+	}
+	uv0.weapon_property_170[69517] = {
+		id = 69517,
+		damage = 72,
+		base = 69511
+	}
+	uv0.weapon_property_170[69518] = {
+		id = 69518,
+		damage = 79,
+		base = 69511
+	}
+	uv0.weapon_property_170[69519] = {
+		id = 69519,
+		damage = 87,
+		base = 69511
+	}
+	uv0.weapon_property_170[69520] = {
+		id = 69520,
+		damage = 96,
+		base = 69511
+	}
+	uv0.weapon_property_170[69521] = {
+		recover_time = 0.5,
+		name = "爱斯基摩人弹幕LV1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 50,
+		damage = 12,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 69521,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19146
+		},
+		barrage_ID = {
+			80886
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_170[69522] = {
+		id = 69522,
+		name = "爱斯基摩人弹幕LV2",
+		damage = 13,
+		base = 69521
+	}
+	uv0.weapon_property_170[69523] = {
+		id = 69523,
+		name = "爱斯基摩人弹幕LV3",
+		damage = 14,
+		base = 69521
+	}
+	uv0.weapon_property_170[69524] = {
+		id = 69524,
+		name = "爱斯基摩人弹幕LV4",
+		damage = 15,
+		base = 69521,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_170[69525] = {
+		id = 69525,
+		name = "爱斯基摩人弹幕LV5",
+		damage = 16,
+		base = 69521,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_170[69526] = {
+		id = 69526,
+		name = "爱斯基摩人弹幕LV6",
+		damage = 17,
+		base = 69521,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
+	}
+	uv0.weapon_property_170[69527] = {
+		id = 69527,
+		name = "爱斯基摩人弹幕LV7",
+		damage = 18,
+		base = 69521,
+		bullet_ID = {
+			19146,
+			19146
+		},
+		barrage_ID = {
+			80887,
+			80886
+		}
 	}
 end)()

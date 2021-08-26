@@ -1,5 +1,153 @@
 pg = pg or {}
 pg.equip_data_statistics_320 = {
+	[54014] = {
+		id = 54014,
+		name = "正航專用空中支援技能-轟炸Lv2",
+		base = 54010,
+		weapon_id = {
+			54014
+		}
+	},
+	[54015] = {
+		id = 54015,
+		name = "正航專用空中支援技能-轟炸Lv3",
+		base = 54010,
+		weapon_id = {
+			54015
+		}
+	},
+	[60001] = {
+		type = 99,
+		name = "航空攻擊展示-長島I",
+		speciality = "無",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "航母空襲展示用",
+		id = 60001,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60001
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60002] = {
+		id = 60002,
+		name = "航空攻擊展示-長島II",
+		base = 60001,
+		weapon_id = {
+			60002
+		}
+	},
+	[60003] = {
+		id = 60003,
+		name = "航空攻擊展示-長島III",
+		base = 60001,
+		weapon_id = {
+			60003
+		}
+	},
+	[60011] = {
+		type = 99,
+		name = "航空攻擊展示-博格I",
+		speciality = "無",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "航母空襲展示用",
+		id = 60011,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60011
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60012] = {
+		id = 60012,
+		name = "航空攻擊展示-博格II",
+		base = 60011,
+		weapon_id = {
+			60012
+		}
+	},
+	[60013] = {
+		id = 60013,
+		name = "航空攻擊展示-博格III",
+		base = 60011,
+		weapon_id = {
+			60013
+		}
+	},
+	[60021] = {
+		type = 99,
+		name = "航空攻擊展示-蘭利I",
+		speciality = "無",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "航母空襲展示用",
+		id = 60021,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			60021
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60022] = {
+		id = 60022,
+		name = "航空攻擊展示-蘭利II",
+		base = 60021,
+		weapon_id = {
+			60022
+		}
+	},
+	[60023] = {
+		id = 60023,
+		name = "航空攻擊展示-蘭利III",
+		base = 60021,
+		weapon_id = {
+			60023
+		}
+	},
 	[60031] = {
 		type = 99,
 		name = "航空攻擊展示-列星頓I",
@@ -27,153 +175,5 @@ pg.equip_data_statistics_320 = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {}
-	},
-	[60032] = {
-		id = 60032,
-		name = "航空攻擊展示-列星頓II",
-		base = 60031,
-		weapon_id = {
-			60032
-		}
-	},
-	[60033] = {
-		id = 60033,
-		name = "航空攻擊展示-列星頓III",
-		base = 60031,
-		weapon_id = {
-			60033
-		}
-	},
-	[60041] = {
-		type = 99,
-		name = "航空攻擊展示-薩拉托加I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "航母空襲展示用",
-		id = 60041,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60041
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60042] = {
-		id = 60042,
-		name = "航空攻擊展示-薩拉托加II",
-		base = 60041,
-		weapon_id = {
-			60042
-		}
-	},
-	[60043] = {
-		id = 60043,
-		name = "航空攻擊展示-薩拉托加III",
-		base = 60041,
-		weapon_id = {
-			60043
-		}
-	},
-	[60051] = {
-		type = 99,
-		name = "航空攻擊展示-遊騎兵I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "航母空襲展示用",
-		id = 60051,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60051
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60052] = {
-		id = 60052,
-		name = "航空攻擊展示-遊騎兵II",
-		base = 60051,
-		weapon_id = {
-			60052
-		}
-	},
-	[60053] = {
-		id = 60053,
-		name = "航空攻擊展示-遊騎兵III",
-		base = 60051,
-		weapon_id = {
-			60053
-		}
-	},
-	[60061] = {
-		type = 99,
-		name = "航空攻擊展示-約克镇I",
-		speciality = "無",
-		tech = 1,
-		rarity = 1,
-		ammo = 10,
-		nationality = 0,
-		descrip = "航母空襲展示用",
-		id = 60061,
-		value_3 = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "0",
-		torpedo_ammo = 0,
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {},
-		equip_info = {},
-		weapon_id = {
-			60061
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {},
-		label = {}
-	},
-	[60062] = {
-		id = 60062,
-		name = "航空攻擊展示-約克镇II",
-		base = 60061,
-		weapon_id = {
-			60062
-		}
-	},
-	[60063] = {
-		id = 60063,
-		name = "航空攻擊展示-約克镇III",
-		base = 60061,
-		weapon_id = {
-			60063
-		}
 	}
 }

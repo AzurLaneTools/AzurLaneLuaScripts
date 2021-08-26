@@ -2,6 +2,170 @@ pg = pg or {}
 pg.weapon_property_129 = {}
 
 (function ()
+	uv0.weapon_property_129[66126] = {
+		id = 66126,
+		name = "黑暗界級技能LV6",
+		damage = 68,
+		base = 66120,
+		barrage_ID = {
+			199832,
+			199822,
+			199812,
+			199802
+		}
+	}
+	uv0.weapon_property_129[66127] = {
+		id = 66127,
+		name = "黑暗界級技能LV7",
+		damage = 78,
+		base = 66120,
+		barrage_ID = {
+			199833,
+			199823,
+			199813,
+			199803
+		}
+	}
+	uv0.weapon_property_129[66128] = {
+		id = 66128,
+		name = "黑暗界級技能LV8",
+		damage = 88,
+		base = 66120,
+		barrage_ID = {
+			199833,
+			199823,
+			199813,
+			199803
+		}
+	}
+	uv0.weapon_property_129[66129] = {
+		id = 66129,
+		name = "黑暗界級技能LV9",
+		damage = 98,
+		base = 66120,
+		barrage_ID = {
+			199833,
+			199823,
+			199813,
+			199803
+		}
+	}
+	uv0.weapon_property_129[66130] = {
+		id = 66130,
+		name = "黑暗界級技能LV10",
+		damage = 108,
+		base = 66120,
+		barrage_ID = {
+			199833,
+			199823,
+			199813,
+			199803
+		}
+	}
+	uv0.weapon_property_129[66140] = {
+		recover_time = 0.5,
+		name = "BigSeven技能LV0",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 500,
+		queue = 1,
+		range = 50,
+		damage = 32,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 66140,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19929,
+			19929
+		},
+		barrage_ID = {
+			199791,
+			199781
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_129[66141] = {
+		id = 66141,
+		name = "BigSeven技能LV1",
+		damage = 44,
+		base = 66140
+	}
+	uv0.weapon_property_129[66142] = {
+		id = 66142,
+		name = "BigSeven技能LV2",
+		damage = 56,
+		base = 66140
+	}
+	uv0.weapon_property_129[66143] = {
+		id = 66143,
+		name = "BigSeven技能LV3",
+		damage = 68,
+		base = 66140
+	}
+	uv0.weapon_property_129[66144] = {
+		id = 66144,
+		name = "BigSeven技能LV4",
+		damage = 80,
+		base = 66140,
+		barrage_ID = {
+			199792,
+			199782
+		}
+	}
+	uv0.weapon_property_129[66145] = {
+		id = 66145,
+		name = "BigSeven技能LV5",
+		damage = 92,
+		base = 66140,
+		barrage_ID = {
+			199792,
+			199782
+		}
+	}
+	uv0.weapon_property_129[66146] = {
+		id = 66146,
+		name = "BigSeven技能LV6",
+		damage = 104,
+		base = 66140,
+		barrage_ID = {
+			199792,
+			199782
+		}
+	}
+	uv0.weapon_property_129[66147] = {
+		id = 66147,
+		name = "BigSeven技能LV7",
+		damage = 116,
+		base = 66140,
+		barrage_ID = {
+			199793,
+			199783
+		}
+	}
 	uv0.weapon_property_129[66148] = {
 		id = 66148,
 		name = "BigSeven技能LV8",
@@ -521,136 +685,5 @@ pg.weapon_property_129 = {}
 		bullet_ID = {
 			66242
 		}
-	}
-	uv0.weapon_property_129[66243] = {
-		id = 66243,
-		name = "山城改技能Lv3",
-		damage = 192,
-		base = 66240,
-		bullet_ID = {
-			66243
-		}
-	}
-	uv0.weapon_property_129[66244] = {
-		id = 66244,
-		name = "山城改技能Lv4",
-		damage = 216,
-		base = 66240,
-		bullet_ID = {
-			66244
-		}
-	}
-	uv0.weapon_property_129[66245] = {
-		id = 66245,
-		name = "山城改技能Lv5",
-		damage = 240,
-		base = 66240,
-		bullet_ID = {
-			66245
-		}
-	}
-	uv0.weapon_property_129[66246] = {
-		id = 66246,
-		name = "山城改技能Lv6",
-		damage = 264,
-		base = 66240,
-		bullet_ID = {
-			66246
-		}
-	}
-	uv0.weapon_property_129[66247] = {
-		id = 66247,
-		name = "山城改技能Lv7",
-		damage = 288,
-		base = 66240,
-		bullet_ID = {
-			66247
-		}
-	}
-	uv0.weapon_property_129[66248] = {
-		id = 66248,
-		name = "山城改技能Lv8",
-		damage = 312,
-		base = 66240,
-		bullet_ID = {
-			66248
-		}
-	}
-	uv0.weapon_property_129[66249] = {
-		id = 66249,
-		name = "山城改技能Lv9",
-		damage = 336,
-		base = 66240,
-		bullet_ID = {
-			66249
-		}
-	}
-	uv0.weapon_property_129[66250] = {
-		id = 66250,
-		name = "山城改技能Lv10",
-		damage = 360,
-		base = 66240,
-		bullet_ID = {
-			66250
-		}
-	}
-	uv0.weapon_property_129[66260] = {
-		recover_time = 0,
-		name = "5 x 100lb炸彈",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 25,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 25,
-		reload_max = 3000,
-		queue = 1,
-		range = 500,
-		damage = 57,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 66260,
-		attack_attribute_ratio = 80,
-		aim_type = 1,
-		bullet_ID = {
-			2121
-		},
-		barrage_ID = {
-			2124
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_129[66261] = {
-		id = 66261,
-		damage = 68,
-		base = 66260
-	}
-	uv0.weapon_property_129[66262] = {
-		id = 66262,
-		damage = 79,
-		base = 66260
-	}
-	uv0.weapon_property_129[66263] = {
-		id = 66263,
-		damage = 90,
-		base = 66260
 	}
 end)()

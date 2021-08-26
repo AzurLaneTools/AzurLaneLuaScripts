@@ -2,6 +2,33 @@ pg = pg or {}
 pg.weapon_property_138 = {}
 
 (function ()
+	uv0.weapon_property_138[67201] = {
+		id = 67201,
+		name = "半人馬技能魚雷Lv1",
+		damage = 76,
+		base = 67200
+	}
+	uv0.weapon_property_138[67202] = {
+		id = 67202,
+		name = "半人馬技能魚雷Lv2",
+		damage = 90,
+		base = 67200
+	}
+	uv0.weapon_property_138[67203] = {
+		id = 67203,
+		name = "半人馬技能魚雷Lv3",
+		damage = 104,
+		base = 67200
+	}
+	uv0.weapon_property_138[67204] = {
+		id = 67204,
+		name = "半人馬技能魚雷Lv4",
+		damage = 118,
+		base = 67200,
+		barrage_ID = {
+			80483
+		}
+	}
 	uv0.weapon_property_138[67205] = {
 		id = 67205,
 		name = "半人馬技能魚雷Lv5",
@@ -612,67 +639,5 @@ pg.weapon_property_138 = {}
 		bullet_ID = {
 			67308
 		}
-	}
-	uv0.weapon_property_138[67309] = {
-		id = 67309,
-		name = "大鳳技能轟炸機Lv9",
-		damage = 238,
-		base = 67300,
-		bullet_ID = {
-			67309
-		}
-	}
-	uv0.weapon_property_138[67310] = {
-		id = 67310,
-		name = "大鳳技能轟炸機Lv10",
-		damage = 260,
-		base = 67300,
-		bullet_ID = {
-			67310
-		}
-	}
-	uv0.weapon_property_138[67320] = {
-		recover_time = 0.5,
-		name = "大鳳技能魚雷機Lv0",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		expose = 5,
-		search_type = 1,
-		effect_move = 1,
-		angle = 90,
-		reload_max = 1890,
-		queue = 1,
-		range = 90,
-		damage = 48,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		id = 67320,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			67320
-		},
-		barrage_ID = {
-			12009
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end)()

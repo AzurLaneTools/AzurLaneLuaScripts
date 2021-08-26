@@ -1,20 +1,103 @@
 pg = pg or {}
 pg.equip_data_statistics_383 = {
-	[90340] = {
-		tech = 3,
-		name = "四聯裝330mm主炮Mle1931",
-		speciality = "跨射",
-		type = 4,
-		value_2 = 25,
-		ammo = 1,
-		damage = "41 x 4",
+	[90220] = {
+		tech = 2,
+		name = "三聯裝152mm主炮Mle1930",
+		speciality = "散射",
+		type = 2,
+		value_2 = 5,
+		ammo = 3,
+		damage = "8 x 6",
 		nationality = 8,
-		rarity = 4,
-		id = 90340,
+		rarity = 2,
+		id = 90220,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
-		icon = "50300",
+		icon = "50200",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2201
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2201
+			},
+			{
+				4,
+				1102
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90220
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		}
+	},
+	[90221] = {
+		id = 90221,
+		damage = "9 x 6",
+		base = 90220,
+		weapon_id = {
+			90221
+		}
+	},
+	[90222] = {
+		id = 90222,
+		damage = "10 x 6",
+		base = 90220,
+		weapon_id = {
+			90222
+		}
+	},
+	[90223] = {
+		id = 90223,
+		damage = "11 x 6",
+		base = 90220,
+		weapon_id = {
+			90223
+		}
+	},
+	[90240] = {
+		tech = 3,
+		name = "三聯裝152mm主炮Mle1930",
+		speciality = "散射",
+		type = 2,
+		value_2 = 12,
+		ammo = 1,
+		damage = "9 x 6",
+		nationality = 8,
+		rarity = 3,
+		id = 90240,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "說明未填寫",
+		icon = "50200",
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
@@ -22,132 +105,107 @@ pg.equip_data_statistics_383 = {
 		},
 		ammo_info = {
 			{
-				2,
-				1551
+				1,
+				2204
 			}
 		},
 		equip_info = {
 			1,
 			2,
+			{
+				3,
+				2204
+			},
+			{
+				4,
+				1102
+			},
 			6,
 			10,
 			11,
 			12
 		},
 		weapon_id = {
-			90340
+			90240
 		},
 		skill_id = {},
 		part_main = {
-			4,
-			5,
-			10,
-			13
+			2
 		},
-		part_sub = {},
+		part_sub = {
+			5
+		},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"BB",
+			"CL",
 			"MG",
 			"AP"
 		}
 	},
-	[90341] = {
-		id = 90341,
-		damage = "47 x 4",
-		base = 90340,
+	[90241] = {
+		id = 90241,
+		damage = "10 x 6",
+		base = 90240,
 		weapon_id = {
-			90341
+			90241
 		}
 	},
-	[90342] = {
-		id = 90342,
-		damage = "53 x 4",
-		base = 90340,
+	[90242] = {
+		id = 90242,
+		damage = "11 x 6",
+		base = 90240,
 		weapon_id = {
-			90342
+			90242
 		}
 	},
-	[90343] = {
-		id = 90343,
-		damage = "59 x 4",
-		base = 90340,
+	[90243] = {
+		id = 90243,
+		damage = "12 x 6",
+		base = 90240,
 		weapon_id = {
-			90343
+			90243
 		}
 	},
-	[90344] = {
-		id = 90344,
-		damage = "65 x 4",
-		base = 90340,
+	[90244] = {
+		id = 90244,
+		damage = "13 x 6",
+		base = 90240,
 		weapon_id = {
-			90344
+			90244
 		}
 	},
-	[90345] = {
-		id = 90345,
-		damage = "71 x 4",
-		base = 90340,
+	[90245] = {
+		id = 90245,
+		damage = "14 x 6",
+		base = 90240,
 		weapon_id = {
-			90345
+			90245
 		}
 	},
-	[90346] = {
-		id = 90346,
-		damage = "77 x 4",
-		base = 90340,
+	[90246] = {
+		id = 90246,
+		damage = "15 x 6",
+		base = 90240,
 		weapon_id = {
-			90346
+			90246
 		}
 	},
-	[90347] = {
-		id = 90347,
-		damage = "83 x 4",
-		base = 90340,
-		weapon_id = {
-			90347
-		}
-	},
-	[90348] = {
-		id = 90348,
-		damage = "89 x 4",
-		base = 90340,
-		weapon_id = {
-			90348
-		}
-	},
-	[90349] = {
-		id = 90349,
-		damage = "95 x 4",
-		base = 90340,
-		weapon_id = {
-			90349
-		}
-	},
-	[90350] = {
-		id = 90350,
-		damage = "102 x 4",
-		base = 90340,
-		weapon_id = {
-			90350
-		}
-	},
-	[90400] = {
+	[90300] = {
 		tech = 1,
-		name = "四聯裝380mm主炮Mle1935",
+		name = "四聯裝330mm主炮Mle1931",
 		speciality = "跨射",
 		type = 4,
-		value_2 = 12,
+		value_2 = 5,
 		ammo = 3,
-		damage = "40 x 4",
+		damage = "34 x 4",
 		nationality = 8,
-		rarity = 3,
-		id = 90400,
+		rarity = 2,
+		id = 90300,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
-		icon = "50400",
+		icon = "50300",
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
@@ -168,7 +226,7 @@ pg.equip_data_statistics_383 = {
 			12
 		},
 		weapon_id = {
-			90400
+			90300
 		},
 		skill_id = {},
 		part_main = {
@@ -182,8 +240,7 @@ pg.equip_data_statistics_383 = {
 		label = {
 			"FFNF",
 			"BB",
-			"MG",
-			"Richelieu"
+			"MG"
 		}
 	}
 }

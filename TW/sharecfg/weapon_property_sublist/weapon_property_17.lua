@@ -2,36 +2,6 @@ pg = pg or {}
 pg.weapon_property_17 = {}
 
 (function ()
-	uv0.weapon_property_17[15162] = {
-		id = 15162,
-		reload_max = 2450,
-		damage = 71,
-		base = 15160
-	}
-	uv0.weapon_property_17[15163] = {
-		id = 15163,
-		reload_max = 2379,
-		damage = 80,
-		base = 15160
-	}
-	uv0.weapon_property_17[15164] = {
-		id = 15164,
-		reload_max = 2308,
-		damage = 89,
-		base = 15160
-	}
-	uv0.weapon_property_17[15165] = {
-		id = 15165,
-		reload_max = 2237,
-		damage = 99,
-		base = 15160
-	}
-	uv0.weapon_property_17[15166] = {
-		id = 15166,
-		reload_max = 2166,
-		damage = 109,
-		base = 15160
-	}
 	uv0.weapon_property_17[15167] = {
 		id = 15167,
 		reload_max = 2095,
@@ -610,5 +580,79 @@ pg.weapon_property_17 = {}
 		base = 16040,
 		id = 16047,
 		corrected = 104
+	}
+	uv0.weapon_property_17[16060] = {
+		recover_time = 0.5,
+		name = "76mm高射炮改进型",
+		shakescreen = 0,
+		type = 22,
+		torpedo_ammo = 0,
+		fire_fx = "fangkongpaohuoshe",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 3,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 164,
+		queue = 1,
+		range = 30,
+		damage = 29,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "antiaircraft",
+		fire_sfx = "battle/cannon-air",
+		id = 16060,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			2000
+		},
+		barrage_ID = {
+			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_17[16061] = {
+		id = 16061,
+		reload_max = 161,
+		damage = 32,
+		base = 16060
+	}
+	uv0.weapon_property_17[16062] = {
+		id = 16062,
+		reload_max = 156,
+		damage = 35,
+		base = 16060
+	}
+	uv0.weapon_property_17[16063] = {
+		id = 16063,
+		reload_max = 154,
+		damage = 38,
+		base = 16060
+	}
+	uv0.weapon_property_17[16064] = {
+		id = 16064,
+		reload_max = 150,
+		damage = 41,
+		base = 16060
+	}
+	uv0.weapon_property_17[16065] = {
+		id = 16065,
+		reload_max = 147,
+		damage = 44,
+		base = 16060
 	}
 end)()

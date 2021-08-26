@@ -1,67 +1,37 @@
 pg = pg or {}
 pg.aircraft_template_218 = {
-	[82048] = {
-		id = 82048,
-		max_hp = 85,
-		hp_growth = 3252,
-		base = 82040,
+	[81411] = {
+		id = 81411,
+		max_hp = 107,
+		hp_growth = 4114,
+		base = 81400,
 		weapon_ID = {
-			50148,
-			50548
+			50551,
+			50751
 		}
 	},
-	[82049] = {
-		id = 82049,
-		max_hp = 90,
-		hp_growth = 3474,
-		base = 82040,
-		weapon_ID = {
-			50149,
-			50549
-		}
-	},
-	[82050] = {
-		id = 82050,
-		max_hp = 96,
-		hp_growth = 3696,
-		base = 82040,
-		weapon_ID = {
-			50150,
-			50550
-		}
-	},
-	[82051] = {
-		id = 82051,
-		max_hp = 102,
-		hp_growth = 3918,
-		base = 82040,
-		weapon_ID = {
-			50151,
-			50551
-		}
-	},
-	[82060] = {
+	[82000] = {
 		attack_power = 2,
-		name = "海喷火FR.47",
+		name = "海喷火",
 		type = 1,
-		accuracy = 24,
-		model_ID = "haipenhuoFR47",
+		accuracy = 23,
+		model_ID = "haipenhuo",
 		ACC_growth = 0,
-		crash_DMG = 160,
-		dodge = 0.315,
+		crash_DMG = 52,
+		dodge = 0.357,
 		funnel_behavior = "",
 		nationality = 2,
-		id = 82060,
-		icon = "haipenhuoFR47",
+		id = 82000,
+		icon = "haipenhuo",
 		AP_growth = 2000,
-		dodge_limit = 10,
-		hp_growth = 1637,
-		speed = 51,
-		max_hp = 43,
+		dodge_limit = 9,
+		hp_growth = 1210,
+		speed = 50,
+		max_hp = 31,
 		scale = 1,
 		weapon_ID = {
-			50160,
-			50560
+			50100,
+			50500
 		},
 		position_offset = {
 			0,
@@ -104,8 +74,8 @@ pg.aircraft_template_218 = {
 				0
 			},
 			{
-				0.86,
-				-0.12,
+				0.62,
+				0,
 				0
 			},
 			{
@@ -115,54 +85,149 @@ pg.aircraft_template_218 = {
 			}
 		}
 	},
-	[82061] = {
-		id = 82061,
-		max_hp = 49,
-		hp_growth = 1883,
-		base = 82060,
+	[82001] = {
+		id = 82001,
+		max_hp = 36,
+		hp_growth = 1391,
+		base = 82000,
 		weapon_ID = {
-			50161,
-			50561
+			50101,
+			50501
 		}
 	},
-	[82062] = {
-		id = 82062,
-		max_hp = 55,
-		hp_growth = 2128,
-		base = 82060,
+	[82002] = {
+		id = 82002,
+		max_hp = 41,
+		hp_growth = 1572,
+		base = 82000,
 		weapon_ID = {
-			50162,
-			50562
+			50102,
+			50502
 		}
 	},
-	[82063] = {
-		id = 82063,
-		max_hp = 62,
-		hp_growth = 2374,
-		base = 82060,
+	[82003] = {
+		id = 82003,
+		max_hp = 46,
+		hp_growth = 1754,
+		base = 82000,
 		weapon_ID = {
-			50163,
-			50563
+			50103,
+			50503
 		}
 	},
-	[82064] = {
-		id = 82064,
-		max_hp = 68,
-		hp_growth = 2619,
-		base = 82060,
+	[82020] = {
+		attack_power = 2,
+		name = "海喷火",
+		type = 1,
+		accuracy = 23,
+		model_ID = "haipenhuo",
+		ACC_growth = 0,
+		crash_DMG = 52,
+		dodge = 0.345,
+		funnel_behavior = "",
+		nationality = 2,
+		id = 82020,
+		icon = "haipenhuo",
+		AP_growth = 2000,
+		dodge_limit = 9.5,
+		hp_growth = 1344,
+		speed = 50,
+		max_hp = 35,
+		scale = 1,
 		weapon_ID = {
-			50164,
-			50564
+			50120,
+			50520
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.69,
+					-2.62,
+					0
+				},
+				{
+					0.85,
+					0.17,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.62,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	},
-	[82065] = {
-		id = 82065,
-		max_hp = 74,
-		hp_growth = 2865,
-		base = 82060,
+	[82021] = {
+		id = 82021,
+		max_hp = 40,
+		hp_growth = 1546,
+		base = 82020,
 		weapon_ID = {
-			50165,
-			50565
+			50121,
+			50521
+		}
+	},
+	[82022] = {
+		id = 82022,
+		max_hp = 45,
+		hp_growth = 1747,
+		base = 82020,
+		weapon_ID = {
+			50122,
+			50522
+		}
+	},
+	[82023] = {
+		id = 82023,
+		max_hp = 51,
+		hp_growth = 1949,
+		base = 82020,
+		weapon_ID = {
+			50123,
+			50523
+		}
+	},
+	[82024] = {
+		id = 82024,
+		max_hp = 56,
+		hp_growth = 2150,
+		base = 82020,
+		weapon_ID = {
+			50124,
+			50524
 		}
 	}
 }

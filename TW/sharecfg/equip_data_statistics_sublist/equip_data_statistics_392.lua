@@ -1,201 +1,247 @@
 pg = pg or {}
 pg.equip_data_statistics_392 = {
-	[90880] = {
-		tech = 2,
-		name = "雙聯裝203mm主砲Mle1924",
-		speciality = "鎖定",
-		type = 3,
-		value_2 = 25,
-		ammo = 2,
-		damage = "28 x 4",
+	[90806] = {
+		id = 90806,
+		damage = "19 x 4",
+		base = 90800,
+		weapon_id = {
+			90806
+		}
+	},
+	[90820] = {
+		rarity = 3,
+		name = "GL.2艦載戰鬥機",
+		speciality = "空戰",
+		type = 7,
+		tech = 0,
+		ammo = 5,
 		nationality = 8,
-		rarity = 4,
-		id = 90880,
-		value_3 = 0,
+		value_2 = 12,
+		id = 90820,
 		torpedo_ammo = 0,
+		value_3 = 0,
 		descrip = "说明未填写",
-		icon = "50860",
-		attribute_2 = "cannon",
+		icon = "50820",
+		attribute_2 = "air",
 		property_rate = {},
-		ammo_icon = {
-			3
-		},
+		ammo_icon = {},
 		ammo_info = {
 			{
-				1,
-				1416
+				6,
+				50020
 			}
 		},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1416
-			},
-			{
-				4,
-				1205
-			},
 			6,
-			10,
-			11,
-			12
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			90880
+			90820,
+			88000
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			6,
+			7
 		},
-		part_sub = {},
+		part_sub = {
+			6,
+			7
+		},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"CA",
-			"MG",
-			"HE"
+			"CV",
+			"FT"
 		}
 	},
-	[90881] = {
-		id = 90881,
-		damage = "30 x 4",
-		base = 90880,
-		weapon_id = {
-			90881
-		}
-	},
-	[90882] = {
-		id = 90882,
-		damage = "32 x 4",
-		base = 90880,
-		weapon_id = {
-			90882
-		}
-	},
-	[90883] = {
-		id = 90883,
-		damage = "34 x 4",
-		base = 90880,
-		weapon_id = {
-			90883
-		}
-	},
-	[90884] = {
-		id = 90884,
-		damage = "36 x 4",
-		base = 90880,
-		weapon_id = {
-			90884
-		}
-	},
-	[90885] = {
-		id = 90885,
-		damage = "38 x 4",
-		base = 90880,
-		weapon_id = {
-			90885
-		}
-	},
-	[90886] = {
-		id = 90886,
-		damage = "40 x 4",
-		base = 90880,
-		weapon_id = {
-			90886
-		}
-	},
-	[90887] = {
-		id = 90887,
-		damage = "42 x 4",
-		base = 90880,
-		weapon_id = {
-			90887
-		}
-	},
-	[90888] = {
-		id = 90888,
-		damage = "44 x 4",
-		base = 90880,
-		weapon_id = {
-			90888
-		}
-	},
-	[90889] = {
-		id = 90889,
-		damage = "46 x 4",
-		base = 90880,
-		weapon_id = {
-			90889
-		}
-	},
-	[90890] = {
-		id = 90890,
-		damage = "48 x 4",
-		base = 90880,
-		weapon_id = {
-			90890
-		}
-	},
-	[90900] = {
-		tech = 3,
-		name = "雙聯裝203mm主砲Mle1924",
-		speciality = "鎖定",
-		type = 3,
-		value_2 = 45,
-		ammo = 2,
-		damage = "30 x 4",
-		nationality = 8,
-		rarity = 5,
-		id = 90900,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "50860",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
+	[90821] = {
+		id = 90821,
+		base = 90820,
 		ammo_info = {
 			{
-				1,
-				1416
+				6,
+				50021
+			}
+		},
+		weapon_id = {
+			90821,
+			88001
+		}
+	},
+	[90822] = {
+		id = 90822,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50022
+			}
+		},
+		weapon_id = {
+			90822,
+			88002
+		}
+	},
+	[90823] = {
+		id = 90823,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50023
+			}
+		},
+		weapon_id = {
+			90823,
+			88003
+		}
+	},
+	[90824] = {
+		id = 90824,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50024
+			}
+		},
+		weapon_id = {
+			90824,
+			88004
+		}
+	},
+	[90825] = {
+		id = 90825,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50025
+			}
+		},
+		weapon_id = {
+			90825,
+			88005
+		}
+	},
+	[90826] = {
+		id = 90826,
+		base = 90820,
+		ammo_info = {
+			{
+				6,
+				50026
+			}
+		},
+		weapon_id = {
+			90826,
+			88006
+		}
+	},
+	[90840] = {
+		rarity = 3,
+		name = "PL.7艦載魚雷機",
+		speciality = "雷擊",
+		type = 8,
+		tech = 0,
+		ammo = 5,
+		nationality = 8,
+		value_2 = 12,
+		id = 90840,
+		torpedo_ammo = 0,
+		value_3 = 0,
+		descrip = "说明未填写",
+		icon = "50840",
+		attribute_2 = "air",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50020
+			},
+			{
+				4,
+				51560
 			}
 		},
 		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1416
-			},
-			{
-				4,
-				1205
-			},
 			6,
-			10,
-			11,
-			12
+			7,
+			8,
+			9
 		},
 		weapon_id = {
-			90900
+			90840
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			6,
+			7
 		},
-		part_sub = {},
+		part_sub = {
+			6,
+			7
+		},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"CA",
-			"MG",
-			"HE"
+			"CV",
+			"TB"
+		}
+	},
+	[90841] = {
+		id = 90841,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50021
+			},
+			{
+				4,
+				51561
+			}
+		},
+		weapon_id = {
+			90841
+		}
+	},
+	[90842] = {
+		id = 90842,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50022
+			},
+			{
+				4,
+				51562
+			}
+		},
+		weapon_id = {
+			90842
+		}
+	},
+	[90843] = {
+		id = 90843,
+		base = 90840,
+		ammo_info = {
+			{
+				6,
+				50023
+			},
+			{
+				4,
+				51563
+			}
+		},
+		weapon_id = {
+			90843
 		}
 	}
 }

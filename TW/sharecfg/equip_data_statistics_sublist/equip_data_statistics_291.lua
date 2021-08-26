@@ -1,52 +1,52 @@
 pg = pg or {}
 pg.equip_data_statistics_291 = {
-	[44047] = {
-		id = 44047,
-		damage = "74 x 3",
-		base = 44040,
+	[44023] = {
+		id = 44023,
+		damage = "51 x 3",
+		base = 44020,
 		weapon_id = {
-			44047
+			44023
 		}
 	},
-	[44048] = {
-		id = 44048,
-		damage = "80 x 3",
-		base = 44040,
+	[44024] = {
+		id = 44024,
+		damage = "55 x 3",
+		base = 44020,
 		weapon_id = {
-			44048
+			44024
 		}
 	},
-	[44049] = {
-		id = 44049,
-		damage = "84 x 3",
-		base = 44040,
+	[44025] = {
+		id = 44025,
+		damage = "59 x 3",
+		base = 44020,
 		weapon_id = {
-			44049
+			44025
 		}
 	},
-	[44050] = {
-		id = 44050,
-		damage = "88 x 3",
-		base = 44040,
+	[44026] = {
+		id = 44026,
+		damage = "64 x 3",
+		base = 44020,
 		weapon_id = {
-			44050
+			44026
 		}
 	},
-	[44100] = {
-		tech = 1,
-		name = "雙聯380mmSKC主炮",
+	[44040] = {
+		tech = 3,
+		name = "三聯283mmSKC34主炮",
 		speciality = "跨射",
 		type = 4,
-		value_2 = 12,
+		value_2 = 25,
 		ammo = 3,
-		damage = "48 x 2",
+		damage = "40 x 3",
 		nationality = 4,
-		rarity = 3,
-		id = 44100,
+		rarity = 4,
+		id = 44040,
 		value_3 = 0,
 		torpedo_ammo = 0,
-		descrip = "雙聯380mmSKC主炮，俾斯麥級戰艦主炮，戰巡和戰列可以使用",
-		icon = "44100",
+		descrip = "三聯283mmSKC34主炮，沙恩霍斯特級戰鬥巡洋艦主炮，戰巡和戰列可以使用",
+		icon = "44000",
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
@@ -55,7 +55,7 @@ pg.equip_data_statistics_291 = {
 		ammo_info = {
 			{
 				2,
-				1500
+				1510
 			}
 		},
 		equip_info = {
@@ -67,7 +67,7 @@ pg.equip_data_statistics_291 = {
 			12
 		},
 		weapon_id = {
-			44100
+			44040
 		},
 		skill_id = {},
 		part_main = {
@@ -84,105 +84,60 @@ pg.equip_data_statistics_291 = {
 			"MG"
 		}
 	},
-	[44101] = {
-		id = 44101,
-		damage = "55 x 2",
-		base = 44100,
+	[44041] = {
+		id = 44041,
+		damage = "46 x 3",
+		base = 44040,
 		weapon_id = {
-			44101
+			44041
 		}
 	},
-	[44102] = {
-		id = 44102,
-		damage = "61 x 2",
-		base = 44100,
+	[44042] = {
+		id = 44042,
+		damage = "50 x 3",
+		base = 44040,
 		weapon_id = {
-			44102
+			44042
 		}
 	},
-	[44103] = {
-		id = 44103,
-		damage = "67 x 2",
-		base = 44100,
+	[44043] = {
+		id = 44043,
+		damage = "56 x 3",
+		base = 44040,
 		weapon_id = {
-			44103
+			44043
 		}
 	},
-	[44104] = {
-		id = 44104,
-		damage = "73 x 2",
-		base = 44100,
+	[44044] = {
+		id = 44044,
+		damage = "60 x 3",
+		base = 44040,
 		weapon_id = {
-			44104
+			44044
 		}
 	},
-	[44105] = {
-		id = 44105,
-		damage = "79 x 2",
-		base = 44100,
+	[44045] = {
+		id = 44045,
+		damage = "64 x 3",
+		base = 44040,
 		weapon_id = {
-			44105
+			44045
 		}
 	},
-	[44106] = {
-		id = 44106,
-		damage = "86 x 2",
-		base = 44100,
+	[44046] = {
+		id = 44046,
+		damage = "70 x 3",
+		base = 44040,
 		weapon_id = {
-			44106
+			44046
 		}
 	},
-	[44120] = {
-		tech = 2,
-		name = "雙聯380mmSKC主炮",
-		speciality = "跨射",
-		type = 4,
-		value_2 = 25,
-		ammo = 1,
-		damage = "55 x 2",
-		nationality = 4,
-		rarity = 4,
-		id = 44120,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "雙聯380mmSKC主炮，俾斯麥級戰艦主炮，戰巡和戰列可以使用",
-		icon = "44100",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			2
-		},
-		ammo_info = {
-			{
-				2,
-				1501
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
+	[44047] = {
+		id = 44047,
+		damage = "74 x 3",
+		base = 44040,
 		weapon_id = {
-			44120
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"KMS",
-			"BB",
-			"MG",
-			"AP"
+			44047
 		}
 	}
 }

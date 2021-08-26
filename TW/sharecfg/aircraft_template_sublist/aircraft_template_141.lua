@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_141 = {
-	[65451] = {
+	[65251] = {
 		attack_power = 2,
-		name = "META飞龙鱼雷机Lv1",
-		type = 3,
+		name = "坠星机LV1",
+		type = 2,
 		accuracy = 23,
-		model_ID = "97jiangong",
+		model_ID = "feiji_weixingbanwu",
 		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
+		crash_DMG = 188,
+		dodge = 1.05,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 65451,
-		icon = "97jiangong",
+		nationality = 2,
+		id = 65251,
+		icon = "feiji_weixingbanwu",
 		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 1692,
-		speed = 48,
-		max_hp = 42,
+		dodge_limit = 5,
+		hp_growth = 1386,
+		speed = 52,
+		max_hp = 36,
 		scale = 1,
 		weapon_ID = {
-			65461
+			65261
 		},
 		position_offset = {
 			0,
@@ -63,7 +63,7 @@ pg.aircraft_template_141 = {
 				0
 			},
 			{
-				0.54,
+				0.26,
 				0,
 				0
 			},
@@ -74,94 +74,94 @@ pg.aircraft_template_141 = {
 			}
 		}
 	},
-	[65452] = {
-		id = 65452,
-		name = "META飞龙鱼雷机Lv2",
-		base = 65451,
-		max_hp = 48,
-		hp_growth = 1913,
+	[65252] = {
+		id = 65252,
+		name = "坠星机LV2",
+		base = 65251,
+		max_hp = 41,
+		hp_growth = 1594,
 		weapon_ID = {
-			65462
+			65262
 		}
 	},
-	[65453] = {
-		id = 65453,
-		name = "META飞龙鱼雷机Lv3",
-		base = 65451,
-		max_hp = 54,
-		hp_growth = 2133,
+	[65253] = {
+		id = 65253,
+		name = "坠星机LV3",
+		base = 65251,
+		max_hp = 47,
+		hp_growth = 1802,
 		weapon_ID = {
-			65463
+			65263
 		}
 	},
-	[65454] = {
-		id = 65454,
-		name = "META飞龙鱼雷机Lv4",
-		base = 65451,
-		max_hp = 61,
-		hp_growth = 2354,
+	[65254] = {
+		id = 65254,
+		name = "坠星机LV4",
+		base = 65251,
+		max_hp = 52,
+		hp_growth = 2010,
 		weapon_ID = {
-			65464
+			65264
 		}
 	},
-	[65455] = {
-		id = 65455,
-		name = "META飞龙鱼雷机Lv5",
-		base = 65451,
-		max_hp = 67,
-		hp_growth = 2575,
+	[65255] = {
+		id = 65255,
+		name = "坠星机LV5",
+		base = 65251,
+		max_hp = 58,
+		hp_growth = 2218,
 		weapon_ID = {
-			65465
+			65265
 		}
 	},
-	[65456] = {
-		id = 65456,
-		name = "META飞龙鱼雷机Lv6",
-		base = 65451,
-		max_hp = 73,
-		hp_growth = 2796,
+	[65256] = {
+		id = 65256,
+		name = "坠星机LV6",
+		base = 65251,
+		max_hp = 63,
+		hp_growth = 2426,
 		weapon_ID = {
-			65466
+			65266
 		}
 	},
-	[65457] = {
-		id = 65457,
-		name = "META飞龙鱼雷机Lv7",
-		base = 65451,
+	[65257] = {
+		id = 65257,
+		name = "坠星机LV7",
+		base = 65251,
+		max_hp = 68,
+		hp_growth = 2634,
+		weapon_ID = {
+			65267
+		}
+	},
+	[65258] = {
+		id = 65258,
+		name = "坠星机LV8",
+		base = 65251,
+		max_hp = 74,
+		hp_growth = 2842,
+		weapon_ID = {
+			65268
+		}
+	},
+	[65259] = {
+		id = 65259,
+		name = "坠星机LV9",
+		base = 65251,
 		max_hp = 79,
-		hp_growth = 3016,
+		hp_growth = 3050,
 		weapon_ID = {
-			65467
+			65269
 		}
 	},
-	[65458] = {
-		id = 65458,
-		name = "META飞龙鱼雷机Lv8",
-		base = 65451,
-		max_hp = 86,
-		hp_growth = 3237,
+	[65260] = {
+		id = 65260,
+		name = "坠星机LV10",
+		base = 65251,
+		max_hp = 85,
+		hp_growth = 3258,
 		weapon_ID = {
-			65468
-		}
-	},
-	[65459] = {
-		id = 65459,
-		name = "META飞龙鱼雷机Lv9",
-		base = 65451,
-		max_hp = 92,
-		hp_growth = 3458,
-		weapon_ID = {
-			65469
-		}
-	},
-	[65460] = {
-		id = 65460,
-		name = "META飞龙鱼雷机Lv10",
-		base = 65451,
-		max_hp = 98,
-		hp_growth = 3678,
-		weapon_ID = {
-			65470
+			65270
 		}
 	}
 }

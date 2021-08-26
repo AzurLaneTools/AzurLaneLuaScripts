@@ -5260,8 +5260,8 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[15011] = {
-		display = "用于偶像大师联动角色誓约的冠冕\n(<color=#ff5c5c>兑换操作无法撤回，以此誓约的角色无法更名</color>)",
-		name = "誓约之冠",
+		display = "用於偶像大師聯動角色誓約的冠冕(兌換操作無法收回，以此誓約的角色無法更名）",
+		name = "誓約之冠",
 		rarity = 5,
 		type = 1,
 		drop_oil_max = 0,
@@ -8789,6 +8789,119 @@ pg.item_data_statistics = {
 			{
 				9,
 				357,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
+	[30327] = {
+		display = "可以獲得一件隨機的偶像大師風格外觀裝備",
+		name = "外觀裝備箱(偶像大師)",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 30327,
+		is_world = 0,
+		icon = "Props/appearanceboxidolmaster",
+		display_icon = {
+			{
+				9,
+				420,
+				1
+			},
+			{
+				9,
+				421,
+				1
+			},
+			{
+				9,
+				422,
+				1
+			},
+			{
+				9,
+				423,
+				1
+			},
+			{
+				9,
+				424,
+				1
+			},
+			{
+				9,
+				425,
+				1
+			},
+			{
+				9,
+				426,
+				1
+			},
+			{
+				9,
+				427,
+				1
+			},
+			{
+				9,
+				428,
+				1
+			},
+			{
+				9,
+				429,
+				1
+			},
+			{
+				9,
+				430,
+				1
+			},
+			{
+				9,
+				431,
+				1
+			},
+			{
+				9,
+				432,
+				1
+			},
+			{
+				9,
+				433,
+				1
+			},
+			{
+				9,
+				434,
+				1
+			},
+			{
+				9,
+				435,
+				1
+			},
+			{
+				9,
+				436,
+				1
+			},
+			{
+				9,
+				437,
 				1
 			}
 		},
@@ -23322,8 +23435,8 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "據說時下非常流行的祭典美食(?) <color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
-		name = "祭典美食(?)",
+		display = "甜咖哩還是辣咖哩，這是一個問題！ <color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
+		name = "海軍咖哩",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
@@ -23335,7 +23448,7 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 50004,
 		is_world = 0,
-		icon = "Props/zhenzhunaicha",
+		icon = "Props/haijungali",
 		display_icon = {},
 		price = {
 			1,
@@ -95286,6 +95399,1216 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[58240] = {
+		display = "有機率獲得以下設計圖",
+		name = "未知設計圖",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58240,
+		is_world = 0,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				4,
+				1
+			},
+			{
+				2,
+				25,
+				1
+			},
+			{
+				2,
+				27,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58241] = {
+		display = "有機率獲得以下設計圖",
+		name = "未知設計圖",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58241,
+		is_world = 0,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				5,
+				1
+			},
+			{
+				2,
+				8,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58242] = {
+		display = "有機率獲得以下設計圖",
+		name = "未知設計圖",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58242,
+		is_world = 0,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				46,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				10096,
+				1
+			},
+			{
+				2,
+				10066,
+				1
+			},
+			{
+				2,
+				10067,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58243] = {
+		display = "有機率獲得以下設計圖",
+		name = "未知設計圖",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58243,
+		is_world = 0,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				10099,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			},
+			{
+				2,
+				13006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58244] = {
+		display = "有機率獲得以下設計圖",
+		name = "未知設計圖",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58244,
+		is_world = 0,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			},
+			{
+				2,
+				13006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58245] = {
+		display = "有機率獲得以下設計圖",
+		name = "未知設計圖",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58245,
+		is_world = 0,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				4,
+				1
+			},
+			{
+				2,
+				25,
+				1
+			},
+			{
+				2,
+				27,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58246] = {
+		display = "有機率獲得以下設計圖",
+		name = "未知設計圖",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58246,
+		is_world = 0,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				5,
+				1
+			},
+			{
+				2,
+				8,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58247] = {
+		display = "有機率獲得以下設計圖",
+		name = "未知設計圖",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58247,
+		is_world = 0,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				46,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				10096,
+				1
+			},
+			{
+				2,
+				10066,
+				1
+			},
+			{
+				2,
+				10067,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58248] = {
+		display = "有機率獲得以下設計圖",
+		name = "未知設計圖",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58248,
+		is_world = 0,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				10099,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58249] = {
+		display = "有機率獲得以下設計圖",
+		name = "未知設計圖",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58249,
+		is_world = 0,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58250] = {
+		display = "目前關卡有機率獲得以下角色",
+		name = "未知角色",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58250,
+		is_world = 0,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				205031,
+				1
+			},
+			{
+				4,
+				205011,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58251] = {
+		display = "目前關卡有機率獲得以下角色",
+		name = "未知角色",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58251,
+		is_world = 0,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				103071,
+				1
+			},
+			{
+				4,
+				103051,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58252] = {
+		display = "目前關卡有機率獲得以下角色",
+		name = "未知角色",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58252,
+		is_world = 0,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				308031,
+				1
+			},
+			{
+				4,
+				107031,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58253] = {
+		display = "目前關卡有機率獲得以下角色",
+		name = "未知角色",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58253,
+		is_world = 0,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				10700041,
+				1
+			},
+			{
+				4,
+				408031,
+				1
+			},
+			{
+				4,
+				102091,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101241,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				103041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58254] = {
+		display = "目前關卡有機率獲得以下角色",
+		name = "未知角色",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58254,
+		is_world = 0,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				10700041,
+				1
+			},
+			{
+				4,
+				307041,
+				1
+			},
+			{
+				4,
+				307031,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101241,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				103041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[58255] = {
+		display = "有機率獲得外觀裝備箱，獲得以下裝備外觀之一",
+		name = "外觀裝備箱(偶像大師)",
+		rarity = 4,
+		type = 99,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58255,
+		is_world = 0,
+		icon = "Props/appearanceboxidolmaster",
+		display_icon = {
+			{
+				9,
+				420,
+				1
+			},
+			{
+				9,
+				421,
+				1
+			},
+			{
+				9,
+				422,
+				1
+			},
+			{
+				9,
+				423,
+				1
+			},
+			{
+				9,
+				424,
+				1
+			},
+			{
+				9,
+				425,
+				1
+			},
+			{
+				9,
+				426,
+				1
+			},
+			{
+				9,
+				427,
+				1
+			},
+			{
+				9,
+				428,
+				1
+			},
+			{
+				9,
+				429,
+				1
+			},
+			{
+				9,
+				430,
+				1
+			},
+			{
+				9,
+				431,
+				1
+			},
+			{
+				9,
+				432,
+				1
+			},
+			{
+				9,
+				433,
+				1
+			},
+			{
+				9,
+				434,
+				1
+			},
+			{
+				9,
+				435,
+				1
+			},
+			{
+				9,
+				436,
+				1
+			},
+			{
+				9,
+				437,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "參與角色將獲得經驗值",
 		name = "角色經驗",
@@ -96878,6 +98201,44 @@ pg.item_data_statistics = {
 		id = 59222,
 		is_world = 0,
 		icon = "Props/TWkaifuPT",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59230] = {
+		display = "用於『響徹碧海的偶像之歌』活動兌換，活動結束後將會消失",
+		name = "聯動Pt",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59230,
+		is_world = 0,
+		icon = "Props/idolm_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59231] = {
+		display = "用於『限時體驗商店』兌換角色限時換裝",
+		name = "換裝體驗券",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59231,
+		is_world = 0,
+		icon = "Props/skinTicket",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -102588,6 +103949,272 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[70079] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集①(天海春香)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70079,
+		is_world = 0,
+		icon = "Props/idolphotos",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70080] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集②(天海春香)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70080,
+		is_world = 0,
+		icon = "Props/idolarchives",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70081] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集①(如月千早)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70081,
+		is_world = 0,
+		icon = "Props/idolphotos",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70082] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集②(如月千早)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70082,
+		is_world = 0,
+		icon = "Props/idolarchives",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70083] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集①(水瀨伊織)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70083,
+		is_world = 0,
+		icon = "Props/idolphotos",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70084] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集②(水瀨伊織)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70084,
+		is_world = 0,
+		icon = "Props/idolarchives",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70085] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集①(三浦 梓)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70085,
+		is_world = 0,
+		icon = "Props/idolphotos",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70086] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集②(三浦 梓)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70086,
+		is_world = 0,
+		icon = "Props/idolarchives",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70087] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集①(秋月律子)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70087,
+		is_world = 0,
+		icon = "Props/idolphotos",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70088] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集②(秋月律子)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70088,
+		is_world = 0,
+		icon = "Props/idolarchives",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70089] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集①(雙海亞美)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70089,
+		is_world = 0,
+		icon = "Props/idolphotos",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70090] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集②(雙海亞美)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70090,
+		is_world = 0,
+		icon = "Props/idolarchives",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70091] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集①(雙海真美)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70091,
+		is_world = 0,
+		icon = "Props/idolphotos",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70092] = {
+		display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+		name = "資料收集②(雙海真美)",
+		rarity = 4,
+		type = 0,
+		drop_oil_max = 0,
+		shiptrans_id = 0,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		virtual_type = 1,
+		link_id = 40393,
+		id = 70092,
+		is_world = 0,
+		icon = "Props/idolarchives",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	all = {
 		1,
 		2,
@@ -102950,6 +104577,7 @@ pg.item_data_statistics = {
 		30319,
 		30320,
 		30323,
+		30327,
 		40003,
 		40004,
 		40005,
@@ -104647,6 +106275,22 @@ pg.item_data_statistics = {
 		58073,
 		58074,
 		58075,
+		58240,
+		58241,
+		58242,
+		58243,
+		58244,
+		58245,
+		58246,
+		58247,
+		58248,
+		58249,
+		58250,
+		58251,
+		58252,
+		58253,
+		58254,
+		58255,
 		59000,
 		59001,
 		59002,
@@ -104731,6 +106375,8 @@ pg.item_data_statistics = {
 		59219,
 		59220,
 		59222,
+		59230,
+		59231,
 		59227,
 		59601,
 		59602,
@@ -105003,6 +106649,20 @@ pg.item_data_statistics = {
 		70075,
 		70076,
 		70077,
-		70078
+		70078,
+		70079,
+		70080,
+		70081,
+		70082,
+		70083,
+		70084,
+		70085,
+		70086,
+		70087,
+		70088,
+		70089,
+		70090,
+		70091,
+		70092
 	}
 }

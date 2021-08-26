@@ -1,39 +1,45 @@
 pg = pg or {}
 pg.equip_data_statistics_376 = {
-	[89248] = {
-		id = 89248,
-		value_2 = 23,
-		value_1 = "13",
-		base = 89240
+	[85444] = {
+		id = 85444,
+		damage = "12 x 4",
+		base = 85440,
+		weapon_id = {
+			85444
+		}
 	},
-	[89249] = {
-		id = 89249,
-		value_2 = 24,
-		value_1 = "14",
-		base = 89240
+	[85445] = {
+		id = 85445,
+		damage = "13 x 4",
+		base = 85440,
+		weapon_id = {
+			85445
+		}
 	},
-	[89250] = {
-		id = 89250,
-		value_2 = 25,
-		value_1 = "15",
-		base = 89240
+	[85446] = {
+		id = 85446,
+		damage = "14 x 4",
+		base = 85440,
+		weapon_id = {
+			85446
+		}
 	},
-	[89260] = {
+	[89240] = {
 		type = 10,
-		name = "心之鑰匙",
+		name = "覺醒寶珠",
 		speciality = "无",
 		tech = 0,
-		value_2 = 15,
+		value_2 = 16,
 		ammo = 10,
 		descrip = "说明占坑",
 		nationality = 106,
 		rarity = 5,
-		attribute_1 = "antiaircraft",
+		attribute_1 = "dodge",
 		value_3 = 0,
 		torpedo_ammo = 0,
-		id = 89260,
-		icon = "89260",
-		value_1 = "14",
+		id = 89240,
+		icon = "89240",
+		value_1 = "6",
 		attribute_2 = "hit",
 		property_rate = {},
 		ammo_icon = {},
@@ -43,7 +49,7 @@ pg.equip_data_statistics_376 = {
 		},
 		weapon_id = {},
 		skill_id = {
-			6730
+			6720
 		},
 		part_main = {},
 		part_sub = {},
@@ -52,52 +58,51 @@ pg.equip_data_statistics_376 = {
 			"DEV"
 		}
 	},
-	[89261] = {
-		id = 89261,
-		value_2 = 16,
-		value_1 = "16",
-		base = 89260
+	[89241] = {
+		id = 89241,
+		value_1 = "7",
+		base = 89240
 	},
-	[89262] = {
-		id = 89262,
+	[89242] = {
+		id = 89242,
 		value_2 = 17,
-		value_1 = "18",
-		base = 89260
+		value_1 = "7",
+		base = 89240
 	},
-	[89263] = {
-		id = 89263,
+	[89243] = {
+		id = 89243,
 		value_2 = 18,
-		value_1 = "20",
-		base = 89260
+		value_1 = "8",
+		base = 89240
 	},
-	[89264] = {
-		id = 89264,
+	[89244] = {
+		id = 89244,
 		value_2 = 19,
-		value_1 = "22",
-		base = 89260
+		value_1 = "9",
+		base = 89240
 	},
-	[89265] = {
-		id = 89265,
+	[89245] = {
+		id = 89245,
 		value_2 = 20,
-		value_1 = "24",
-		base = 89260
+		value_1 = "10",
+		base = 89240
 	},
-	[89266] = {
-		id = 89266,
+	[89246] = {
+		id = 89246,
+		value_2 = 21,
+		value_1 = "11",
+		base = 89240
+	},
+	[89247] = {
+		id = 89247,
 		value_2 = 22,
-		value_1 = "26",
-		base = 89260
+		value_1 = "12",
+		base = 89240
 	},
-	[89267] = {
-		id = 89267,
-		value_2 = 24,
-		value_1 = "28",
-		base = 89260
-	},
-	[89268] = {
-		id = 89268,
-		value_2 = 26,
-		value_1 = "30",
-		base = 89260
+	[89248] = {
+		id = 89248,
+		value_2 = 23,
+		value_1 = "13",
+		base = 89240
 	}
 }

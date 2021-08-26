@@ -2,6 +2,151 @@ pg = pg or {}
 pg.weapon_property_131 = {}
 
 (function ()
+	uv0.weapon_property_131[66360] = {
+		recover_time = 0,
+		name = "華盛頓技能LV0-PVP",
+		shakescreen = 0,
+		type = 19,
+		torpedo_ammo = 0,
+		fire_fx = "CAFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3000,
+		queue = 1,
+		range = 115,
+		damage = 50,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 35,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 66360,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19904,
+			19904,
+			19904
+		},
+		barrage_ID = {
+			80201,
+			80205,
+			80208
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jineng",
+			alertTime = 1,
+			time = 0.5,
+			isBound = true
+		}
+	}
+	uv0.weapon_property_131[66361] = {
+		id = 66361,
+		name = "華盛頓技能LV1-PVP",
+		damage = 62,
+		base = 66360
+	}
+	uv0.weapon_property_131[66362] = {
+		id = 66362,
+		name = "華盛頓技能LV2-PVP",
+		damage = 74,
+		base = 66360
+	}
+	uv0.weapon_property_131[66363] = {
+		id = 66363,
+		name = "華盛頓技能LV3-PVP",
+		damage = 86,
+		base = 66360
+	}
+	uv0.weapon_property_131[66364] = {
+		id = 66364,
+		name = "華盛頓技能LV4-PVP",
+		damage = 98,
+		base = 66360
+	}
+	uv0.weapon_property_131[66365] = {
+		id = 66365,
+		name = "華盛頓技能LV5-PVP",
+		damage = 110,
+		base = 66360
+	}
+	uv0.weapon_property_131[66366] = {
+		id = 66366,
+		name = "華盛頓技能LV6-PVP",
+		damage = 122,
+		base = 66360,
+		barrage_ID = {
+			80202,
+			80206,
+			80209
+		}
+	}
+	uv0.weapon_property_131[66367] = {
+		id = 66367,
+		name = "華盛頓技能LV7-PVP",
+		damage = 134,
+		base = 66360,
+		barrage_ID = {
+			80202,
+			80206,
+			80209
+		}
+	}
+	uv0.weapon_property_131[66368] = {
+		id = 66368,
+		name = "華盛頓技能LV8-PVP",
+		damage = 146,
+		base = 66360,
+		barrage_ID = {
+			80202,
+			80206,
+			80209
+		}
+	}
+	uv0.weapon_property_131[66369] = {
+		id = 66369,
+		name = "華盛頓技能LV9-PVP",
+		damage = 158,
+		base = 66360,
+		barrage_ID = {
+			80202,
+			80206,
+			80209
+		}
+	}
+	uv0.weapon_property_131[66370] = {
+		id = 66370,
+		name = "華盛頓技能LV10-PVP",
+		damage = 174,
+		base = 66360,
+		bullet_ID = {
+			19904,
+			19904,
+			19904,
+			19904
+		},
+		barrage_ID = {
+			80203,
+			80204,
+			80207,
+			80210
+		}
+	}
 	uv0.weapon_property_131[66380] = {
 		recover_time = 0,
 		name = "華盛頓技能LV0-PVE",
@@ -819,139 +964,6 @@ pg.weapon_property_131 = {}
 		barrage_ID = {
 			80332,
 			80333
-		}
-	}
-	uv0.weapon_property_131[66488] = {
-		id = 66488,
-		name = "勝利刺穿-小子彈LV8",
-		damage = 14,
-		base = 66480,
-		bullet_ID = {
-			19916,
-			19916
-		},
-		barrage_ID = {
-			80332,
-			80333
-		}
-	}
-	uv0.weapon_property_131[66489] = {
-		id = 66489,
-		name = "勝利刺穿-小子彈LV9",
-		damage = 15,
-		base = 66480,
-		bullet_ID = {
-			19916,
-			19916
-		},
-		barrage_ID = {
-			80332,
-			80333
-		}
-	}
-	uv0.weapon_property_131[66490] = {
-		id = 66490,
-		name = "勝利刺穿-小子彈LV10",
-		damage = 16,
-		base = 66480,
-		bullet_ID = {
-			19916,
-			19916,
-			19916
-		},
-		barrage_ID = {
-			80331,
-			80334,
-			80335
-		}
-	}
-	uv0.weapon_property_131[66500] = {
-		recover_time = 0.5,
-		name = "烈焰崩襲LV0",
-		shakescreen = 0,
-		type = 1,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 120,
-		reload_max = 3000,
-		queue = 1,
-		range = 50,
-		damage = 11,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 66500,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19909
-		},
-		barrage_ID = {
-			80311
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_131[66501] = {
-		id = 66501,
-		name = "烈焰崩襲LV1",
-		damage = 12,
-		base = 66500
-	}
-	uv0.weapon_property_131[66502] = {
-		id = 66502,
-		name = "烈焰崩襲LV2",
-		damage = 13,
-		base = 66500
-	}
-	uv0.weapon_property_131[66503] = {
-		id = 66503,
-		name = "烈焰崩襲LV3",
-		damage = 14,
-		base = 66500
-	}
-	uv0.weapon_property_131[66504] = {
-		id = 66504,
-		name = "烈焰崩襲LV4",
-		damage = 15,
-		base = 66500,
-		barrage_ID = {
-			80312
-		}
-	}
-	uv0.weapon_property_131[66505] = {
-		id = 66505,
-		name = "烈焰崩襲LV5",
-		damage = 16,
-		base = 66500,
-		barrage_ID = {
-			80312
-		}
-	}
-	uv0.weapon_property_131[66506] = {
-		id = 66506,
-		name = "烈焰崩襲LV6",
-		damage = 17,
-		base = 66500,
-		barrage_ID = {
-			80312
 		}
 	}
 end)()

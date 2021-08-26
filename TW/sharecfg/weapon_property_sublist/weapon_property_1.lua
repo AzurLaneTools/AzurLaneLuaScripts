@@ -448,6 +448,186 @@ pg.weapon_property_1 = {}
 		},
 		precast_param = {}
 	}
+	uv0.weapon_property_1[23] = {
+		recover_time = 0,
+		name = "J-10机炮 FC-1机炮 双管",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 1,
+		queue = 50,
+		range = 120,
+		damage = 10,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 23,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			702
+		},
+		barrage_ID = {
+			22
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_1[24] = {
+		recover_time = 0,
+		name = "J-15机炮 单管",
+		shakescreen = 0,
+		type = 2,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 360,
+		reload_max = 1,
+		queue = 50,
+		range = 120,
+		damage = 20,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 24,
+		attack_attribute_ratio = 100,
+		aim_type = 0,
+		bullet_ID = {
+			702
+		},
+		barrage_ID = {
+			21
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_1[25] = {
+		recover_time = 0.5,
+		name = "中飞关卡导弹",
+		shakescreen = 0,
+		type = 28,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 100,
+		reload_max = 600,
+		queue = 1,
+		range = 100,
+		damage = 250,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 200,
+		min_range = 15,
+		initial_over_heat = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 25,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			703
+		},
+		barrage_ID = {
+			23
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "plane_miaozhun"
+		}
+	}
+	uv0.weapon_property_1[26] = {
+		recover_time = 0.5,
+		name = "中飞关卡导弹-加强",
+		shakescreen = 0,
+		type = 28,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 100,
+		reload_max = 200,
+		queue = 1,
+		range = 100,
+		damage = 340,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 200,
+		min_range = 15,
+		initial_over_heat = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 26,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			703
+		},
+		barrage_ID = {
+			23
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "plane_miaozhun"
+		}
+	}
 	uv0.weapon_property_1[97] = {
 		recover_time = 0,
 		name = "单装测试武器",
@@ -2611,138 +2791,6 @@ pg.weapon_property_1 = {}
 		},
 		barrage_ID = {
 			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_1[150] = {
-		recover_time = 0.5,
-		name = "默认撒丁轰炸机",
-		shakescreen = 0,
-		type = 10,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 90,
-		reload_max = 3600,
-		queue = 1,
-		range = 90,
-		damage = 60,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		id = 150,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			150
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_1[151] = {
-		recover_time = 0.5,
-		name = "默认撒丁战斗机-自动防空",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 30,
-		reload_max = 1800,
-		queue = 1,
-		range = 90,
-		damage = 3,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/air-atk",
-		id = 151,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			151
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_1[201] = {
-		recover_time = 0.5,
-		name = "白鷹雷擊輕巡副炮T1",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 360,
-		reload_max = 190,
-		queue = 0,
-		range = 60,
-		damage = 3,
-		suppress = 1,
-		auto_aftercast = 0.4,
-		corrected = 125,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 201,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			1000
-		},
-		barrage_ID = {
-			1007
 		},
 		oxy_type = {
 			1

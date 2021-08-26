@@ -882,7 +882,7 @@ end
 
 slot2 = {
 	[777.0] = "LevelStageDOAFeverPanel",
-	[4050.0] = "LevelStageIMasFeverPanel"
+	[40385.0] = "LevelStageIMasFeverPanel"
 }
 
 function slot0.UpdateDOALinkFeverPanel(slot0)

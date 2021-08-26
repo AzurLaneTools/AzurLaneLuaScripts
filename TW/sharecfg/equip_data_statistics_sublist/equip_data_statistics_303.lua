@@ -1,75 +1,75 @@
 pg = pg or {}
 pg.equip_data_statistics_303 = {
-	[45345] = {
-		id = 45345,
-		damage = "99 x 2",
-		base = 45340,
+	[45321] = {
+		id = 45321,
+		damage = "59 x 2",
+		base = 45320,
 		weapon_id = {
-			45345
+			45321
 		}
 	},
-	[45346] = {
-		id = 45346,
-		damage = "108 x 2",
-		base = 45340,
+	[45322] = {
+		id = 45322,
+		damage = "66 x 2",
+		base = 45320,
 		weapon_id = {
-			45346
+			45322
 		}
 	},
-	[45347] = {
-		id = 45347,
-		damage = "117 x 2",
-		base = 45340,
+	[45323] = {
+		id = 45323,
+		damage = "74 x 2",
+		base = 45320,
 		weapon_id = {
-			45347
+			45323
 		}
 	},
-	[45348] = {
-		id = 45348,
-		damage = "126 x 2",
-		base = 45340,
+	[45324] = {
+		id = 45324,
+		damage = "82 x 2",
+		base = 45320,
 		weapon_id = {
-			45348
+			45324
 		}
 	},
-	[45349] = {
-		id = 45349,
-		damage = "135 x 2",
-		base = 45340,
+	[45325] = {
+		id = 45325,
+		damage = "90 x 2",
+		base = 45320,
 		weapon_id = {
-			45349
+			45325
 		}
 	},
-	[45350] = {
-		id = 45350,
-		damage = "144 x 2",
-		base = 45340,
+	[45326] = {
+		id = 45326,
+		damage = "98 x 2",
+		base = 45320,
 		weapon_id = {
-			45350
+			45326
 		}
 	},
-	[45400] = {
-		tech = 1,
-		name = "潛艇用G7e聲導魚雷",
+	[45340] = {
+		tech = 3,
+		name = "潛艇用G7a魚雷",
 		speciality = "雷擊",
 		type = 13,
-		value_2 = 12,
-		ammo = 4,
-		damage = "52 x 2",
+		value_2 = 25,
+		ammo = 5,
+		damage = "58 x 2",
 		nationality = 4,
-		rarity = 3,
-		id = 45400,
+		rarity = 4,
+		id = 45340,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
-		icon = "45400",
+		icon = "45300",
 		attribute_2 = "torpedo",
 		property_rate = {},
 		ammo_icon = {},
 		ammo_info = {
 			{
 				3,
-				1826
+				1825
 			}
 		},
 		equip_info = {
@@ -77,7 +77,7 @@ pg.equip_data_statistics_303 = {
 			2,
 			{
 				3,
-				1826
+				1825
 			},
 			{
 				4,
@@ -89,7 +89,7 @@ pg.equip_data_statistics_303 = {
 			12
 		},
 		weapon_id = {
-			45400
+			45340
 		},
 		skill_id = {},
 		part_main = {
@@ -107,44 +107,44 @@ pg.equip_data_statistics_303 = {
 			"TP"
 		}
 	},
-	[45401] = {
-		id = 45401,
-		damage = "59 x 2",
-		base = 45400,
-		weapon_id = {
-			45401
-		}
-	},
-	[45402] = {
-		id = 45402,
+	[45341] = {
+		id = 45341,
 		damage = "66 x 2",
-		base = 45400,
+		base = 45340,
 		weapon_id = {
-			45402
+			45341
 		}
 	},
-	[45403] = {
-		id = 45403,
+	[45342] = {
+		id = 45342,
 		damage = "74 x 2",
-		base = 45400,
+		base = 45340,
 		weapon_id = {
-			45403
+			45342
 		}
 	},
-	[45404] = {
-		id = 45404,
+	[45343] = {
+		id = 45343,
 		damage = "82 x 2",
-		base = 45400,
+		base = 45340,
 		weapon_id = {
-			45404
+			45343
 		}
 	},
-	[45405] = {
-		id = 45405,
+	[45344] = {
+		id = 45344,
 		damage = "90 x 2",
-		base = 45400,
+		base = 45340,
 		weapon_id = {
-			45405
+			45344
+		}
+	},
+	[45345] = {
+		id = 45345,
+		damage = "99 x 2",
+		base = 45340,
+		weapon_id = {
+			45345
 		}
 	}
 }

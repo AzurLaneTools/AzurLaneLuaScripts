@@ -1,26 +1,27 @@
 pg = pg or {}
 pg.aircraft_template_142 = {
-	[65491] = {
+	[65381] = {
 		attack_power = 2,
-		name = "彼得史特拉塞技能JU87鱼雷机LV1",
-		type = 2,
+		name = "女天狗沙排啾轰炸机Lv1",
+		type = 3,
 		accuracy = 23,
-		model_ID = "Ju87D4",
+		model_ID = "feiji_doa",
 		ACC_growth = 0,
-		crash_DMG = 168,
-		dodge = 1.05,
+		crash_DMG = 208,
+		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 65491,
-		icon = "Ju87D4",
+		id = 65381,
+		icon = "feiji_doa",
 		AP_growth = 2000,
-		dodge_limit = 5,
-		hp_growth = 1459,
-		speed = 51,
-		max_hp = 38,
+		dodge_limit = 0,
+		hp_growth = 1846,
+		speed = 48,
+		max_hp = 42,
 		scale = 1,
 		weapon_ID = {
-			65501
+			65391,
+			65401
 		},
 		position_offset = {
 			0,
@@ -40,13 +41,13 @@ pg.aircraft_template_142 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-1.22,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.75,
-					1.26,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -63,7 +64,7 @@ pg.aircraft_template_142 = {
 				0
 			},
 			{
-				0,
+				0.64,
 				0,
 				0
 			},
@@ -74,94 +75,103 @@ pg.aircraft_template_142 = {
 			}
 		}
 	},
-	[65492] = {
-		id = 65492,
-		name = "彼得史特拉塞技能JU87鱼雷机LV2",
-		base = 65491,
-		max_hp = 44,
-		hp_growth = 1678,
+	[65382] = {
+		id = 65382,
+		name = "女天狗沙排啾轰炸机Lv2",
+		base = 65381,
+		max_hp = 48,
+		hp_growth = 2087,
 		weapon_ID = {
-			65502
+			65392,
+			65402
 		}
 	},
-	[65493] = {
-		id = 65493,
-		name = "彼得史特拉塞技能JU87鱼雷机LV3",
-		base = 65491,
-		max_hp = 49,
-		hp_growth = 1897,
+	[65383] = {
+		id = 65383,
+		name = "女天狗沙排啾轰炸机Lv3",
+		base = 65381,
+		max_hp = 54,
+		hp_growth = 2327,
 		weapon_ID = {
-			65503
+			65393,
+			65403
 		}
 	},
-	[65494] = {
-		id = 65494,
-		name = "彼得史特拉塞技能JU87鱼雷机LV4",
-		base = 65491,
-		max_hp = 55,
-		hp_growth = 2116,
-		weapon_ID = {
-			65504
-		}
-	},
-	[65495] = {
-		id = 65495,
-		name = "彼得史特拉塞技能JU87鱼雷机LV5",
-		base = 65491,
+	[65384] = {
+		id = 65384,
+		name = "女天狗沙排啾轰炸机Lv4",
+		base = 65381,
 		max_hp = 61,
-		hp_growth = 2335,
+		hp_growth = 2568,
 		weapon_ID = {
-			65505
+			65394,
+			65404
 		}
 	},
-	[65496] = {
-		id = 65496,
-		name = "彼得史特拉塞技能JU87鱼雷机LV6",
-		base = 65491,
-		max_hp = 66,
-		hp_growth = 2554,
+	[65385] = {
+		id = 65385,
+		name = "女天狗沙排啾轰炸机Lv5",
+		base = 65381,
+		max_hp = 67,
+		hp_growth = 2809,
 		weapon_ID = {
-			65506
+			65395,
+			65405
 		}
 	},
-	[65497] = {
-		id = 65497,
-		name = "彼得史特拉塞技能JU87鱼雷机LV7",
-		base = 65491,
-		max_hp = 72,
-		hp_growth = 2772,
+	[65386] = {
+		id = 65386,
+		name = "女天狗沙排啾轰炸机Lv6",
+		base = 65381,
+		max_hp = 73,
+		hp_growth = 3050,
 		weapon_ID = {
-			65507
+			65396,
+			65406
 		}
 	},
-	[65498] = {
-		id = 65498,
-		name = "彼得史特拉塞技能JU87鱼雷机LV8",
-		base = 65491,
-		max_hp = 78,
-		hp_growth = 2991,
+	[65387] = {
+		id = 65387,
+		name = "女天狗沙排啾轰炸机Lv7",
+		base = 65381,
+		max_hp = 79,
+		hp_growth = 3290,
 		weapon_ID = {
-			65508
+			65397,
+			65407
 		}
 	},
-	[65499] = {
-		id = 65499,
-		name = "彼得史特拉塞技能JU87鱼雷机LV9",
-		base = 65491,
-		max_hp = 83,
-		hp_growth = 3210,
+	[65388] = {
+		id = 65388,
+		name = "女天狗沙排啾轰炸机Lv8",
+		base = 65381,
+		max_hp = 86,
+		hp_growth = 3531,
 		weapon_ID = {
-			65509
+			65398,
+			65408
 		}
 	},
-	[65500] = {
-		id = 65500,
-		name = "彼得史特拉塞技能JU87鱼雷机LV10",
-		base = 65491,
-		max_hp = 89,
-		hp_growth = 3429,
+	[65389] = {
+		id = 65389,
+		name = "女天狗沙排啾轰炸机Lv9",
+		base = 65381,
+		max_hp = 92,
+		hp_growth = 3772,
 		weapon_ID = {
-			65510
+			65399,
+			65409
+		}
+	},
+	[65390] = {
+		id = 65390,
+		name = "女天狗沙排啾轰炸机Lv10",
+		base = 65381,
+		max_hp = 98,
+		hp_growth = 4013,
+		weapon_ID = {
+			65400,
+			65410
 		}
 	}
 }

@@ -340,7 +340,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 163
+		key_value = 215
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1561,7 +1561,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 195
+		key_value = 216
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -1639,16 +1639,24 @@ pg.gameset = {
 		key_value = 4
 	},
 	doa_fever_buff = {
-		description = "",
-		key_value = 8761
+		key_value = 8761,
+		description = {
+			8765,
+			8767,
+			8769
+		}
 	},
 	doa_fever_recover = {
 		description = "",
 		key_value = 0
 	},
 	doa_fever_strategy = {
-		description = "",
-		key_value = 10021
+		key_value = 10021,
+		description = {
+			10031,
+			10032,
+			10033
+		}
 	},
 	meta_skill_exp_double = {
 		description = "",
@@ -2060,7 +2068,7 @@ pg.gameset = {
 		}
 	},
 	dayandnight_bgm = {
-		key_value = 4050,
+		key_value = 40385,
 		description = {
 			{
 				{

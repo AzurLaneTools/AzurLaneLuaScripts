@@ -616,19 +616,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10040,
-				45
+				30023,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13001,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -661,19 +656,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10057,
-				45
+				30033,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13003,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -706,19 +696,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10074,
-				45
+				30043,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13004,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -751,19 +736,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10019,
-				45
+				30013,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13005,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -796,19 +776,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10037,
-				45
+				30023,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13006,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -841,19 +816,14 @@ pg.technology_data_template = {
 		consume = {
 			{
 				2,
-				10052,
-				45
+				30033,
+				15
 			}
 		},
 		drop_client = {
 			{
 				2,
 				13008,
-				1
-			},
-			{
-				2,
-				52002,
 				1
 			},
 			{
@@ -2927,6 +2897,206 @@ pg.technology_data_template = {
 			{
 				2,
 				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[133] = {
+		name = "E-179-MI",
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		condition = 0,
+		bg = "2",
+		lv_limit = 50,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "中型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 133,
+		bg_icon = "item_2",
+		consume = {
+			{
+				2,
+				30043,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13013,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[134] = {
+		name = "E-105-MI",
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		condition = 0,
+		bg = "2",
+		lv_limit = 50,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "中型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 134,
+		bg_icon = "item_2",
+		consume = {
+			{
+				2,
+				30013,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13014,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[135] = {
+		name = "E-146-MI",
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		condition = 0,
+		bg = "2",
+		lv_limit = 50,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "中型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 135,
+		bg_icon = "item_2",
+		consume = {
+			{
+				2,
+				30033,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13015,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[136] = {
+		name = "E-157-MI",
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		condition = 0,
+		bg = "2",
+		lv_limit = 50,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "中型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 136,
+		bg_icon = "item_2",
+		consume = {
+			{
+				2,
+				30033,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13016,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[137] = {
+		name = "E-194-MI",
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		condition = 0,
+		bg = "2",
+		lv_limit = 50,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "中型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 137,
+		bg_icon = "item_2",
+		consume = {
+			{
+				2,
+				30013,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13017,
+				1
+			},
+			{
+				2,
+				52003,
 				1
 			},
 			{
@@ -5476,6 +5646,246 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[1031] = {
+		name = "E-831-MI",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "小型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1031,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10040,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13001,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1032] = {
+		name = "E-859-MI",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "小型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1032,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10057,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13003,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1033] = {
+		name = "E-874-MI",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "小型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1033,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10074,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13004,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1034] = {
+		name = "E-892-MI",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "小型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1034,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10019,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13005,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1035] = {
+		name = "E-818-MI",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "小型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1035,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10037,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13006,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1036] = {
+		name = "E-844-MI",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "小型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 1,
+		id = 1036,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10052,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13008,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
 	[1101] = {
 		name = "C-038-RF",
 		rarity = 3,
@@ -6536,6 +6946,206 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[1131] = {
+		name = "E-879-MI",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "小型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 1131,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10075,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13013,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1132] = {
+		name = "E-805-MI",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "小型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 1132,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10018,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13014,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1133] = {
+		name = "E-846-MI",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "小型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 1133,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10026,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13015,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1134] = {
+		name = "E-857-MI",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "小型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 1134,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10056,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13016,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1135] = {
+		name = "E-894-MI",
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		condition = 0,
+		bg = "3",
+		lv_limit = 80,
+		desc = "對現實武器設備的解析，將為新型裝備的研發提供決定性的參考，至於解析期間的裝備損耗，只能說是必要的投入了",
+		sub_name = "小型项目",
+		label = "tag_blue",
+		label_color = "tag_e",
+		blueprint_version = 2,
+		id = 1135,
+		bg_icon = "item_3",
+		consume = {
+			{
+				2,
+				10077,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13017,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -6614,6 +7224,11 @@ pg.technology_data_template = {
 		123,
 		131,
 		132,
+		133,
+		134,
+		135,
+		136,
+		137,
 		141,
 		142,
 		143,
@@ -6677,6 +7292,12 @@ pg.technology_data_template = {
 		1024,
 		1025,
 		1026,
+		1031,
+		1032,
+		1033,
+		1034,
+		1035,
+		1036,
 		1101,
 		1102,
 		1103,
@@ -6702,6 +7323,11 @@ pg.technology_data_template = {
 		1123,
 		1124,
 		1125,
-		1126
+		1126,
+		1131,
+		1132,
+		1133,
+		1134,
+		1135
 	}
 }

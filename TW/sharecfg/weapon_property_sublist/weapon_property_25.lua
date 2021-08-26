@@ -2,158 +2,6 @@ pg = pg or {}
 pg.weapon_property_25 = {}
 
 (function ()
-	uv0.weapon_property_25[19044] = {
-		reload_max = 1957,
-		id = 19044,
-		damage = 192,
-		base = 19040,
-		bullet_ID = {
-			19004
-		}
-	}
-	uv0.weapon_property_25[19045] = {
-		reload_max = 1929,
-		id = 19045,
-		damage = 211,
-		base = 19040,
-		bullet_ID = {
-			19005
-		}
-	}
-	uv0.weapon_property_25[19046] = {
-		reload_max = 1900,
-		id = 19046,
-		damage = 228,
-		base = 19040,
-		bullet_ID = {
-			19006
-		}
-	}
-	uv0.weapon_property_25[19047] = {
-		reload_max = 1900,
-		id = 19047,
-		damage = 228,
-		base = 19040,
-		bullet_ID = {
-			19006
-		}
-	}
-	uv0.weapon_property_25[19060] = {
-		recover_time = 0.5,
-		name = "SBD-3無畏(麥克拉斯基隊)",
-		shakescreen = 0,
-		type = 10,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 90,
-		reload_max = 2060,
-		queue = 1,
-		range = 90,
-		damage = 113,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		id = 19060,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19060
-		},
-		barrage_ID = {
-			1500
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_25[19061] = {
-		reload_max = 2030,
-		id = 19061,
-		damage = 130,
-		base = 19060,
-		bullet_ID = {
-			19061
-		}
-	}
-	uv0.weapon_property_25[19062] = {
-		reload_max = 2000,
-		id = 19062,
-		damage = 147,
-		base = 19060,
-		bullet_ID = {
-			19062
-		}
-	}
-	uv0.weapon_property_25[19063] = {
-		reload_max = 1970,
-		id = 19063,
-		damage = 164,
-		base = 19060,
-		bullet_ID = {
-			19063
-		}
-	}
-	uv0.weapon_property_25[19064] = {
-		reload_max = 1940,
-		id = 19064,
-		damage = 181,
-		base = 19060,
-		bullet_ID = {
-			19064
-		}
-	}
-	uv0.weapon_property_25[19065] = {
-		reload_max = 1910,
-		id = 19065,
-		damage = 198,
-		base = 19060,
-		bullet_ID = {
-			19065
-		}
-	}
-	uv0.weapon_property_25[19066] = {
-		reload_max = 1880,
-		id = 19066,
-		damage = 215,
-		base = 19060,
-		bullet_ID = {
-			19066
-		}
-	}
-	uv0.weapon_property_25[19067] = {
-		reload_max = 1850,
-		id = 19067,
-		damage = 232,
-		base = 19060,
-		bullet_ID = {
-			19067
-		}
-	}
-	uv0.weapon_property_25[19068] = {
-		reload_max = 1820,
-		id = 19068,
-		damage = 249,
-		base = 19060,
-		bullet_ID = {
-			19068
-		}
-	}
 	uv0.weapon_property_25[19069] = {
 		reload_max = 1790,
 		id = 19069,
@@ -714,6 +562,202 @@ pg.weapon_property_25 = {}
 		base = 19200,
 		bullet_ID = {
 			19206
+		}
+	}
+	uv0.weapon_property_25[19220] = {
+		recover_time = 0.5,
+		name = "BTD-1毀滅者T2",
+		shakescreen = 0,
+		type = 10,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 2188,
+		queue = 1,
+		range = 90,
+		damage = 154,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 19220,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19200
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_25[19221] = {
+		reload_max = 2150,
+		id = 19221,
+		damage = 177,
+		base = 19220,
+		bullet_ID = {
+			19201
+		}
+	}
+	uv0.weapon_property_25[19222] = {
+		reload_max = 2112,
+		id = 19222,
+		damage = 200,
+		base = 19220,
+		bullet_ID = {
+			19202
+		}
+	}
+	uv0.weapon_property_25[19223] = {
+		reload_max = 2074,
+		id = 19223,
+		damage = 223,
+		base = 19220,
+		bullet_ID = {
+			19203
+		}
+	}
+	uv0.weapon_property_25[19224] = {
+		reload_max = 2036,
+		id = 19224,
+		damage = 246,
+		base = 19220,
+		bullet_ID = {
+			19204
+		}
+	}
+	uv0.weapon_property_25[19225] = {
+		reload_max = 1998,
+		id = 19225,
+		damage = 270,
+		base = 19220,
+		bullet_ID = {
+			19205
+		}
+	}
+	uv0.weapon_property_25[19226] = {
+		reload_max = 1960,
+		id = 19226,
+		damage = 293,
+		base = 19220,
+		bullet_ID = {
+			19206
+		}
+	}
+	uv0.weapon_property_25[19227] = {
+		reload_max = 1922,
+		id = 19227,
+		damage = 316,
+		base = 19220,
+		bullet_ID = {
+			19207
+		}
+	}
+	uv0.weapon_property_25[19228] = {
+		reload_max = 1884,
+		id = 19228,
+		damage = 339,
+		base = 19220,
+		bullet_ID = {
+			19208
+		}
+	}
+	uv0.weapon_property_25[19229] = {
+		reload_max = 1846,
+		id = 19229,
+		damage = 362,
+		base = 19220,
+		bullet_ID = {
+			19209
+		}
+	}
+	uv0.weapon_property_25[19230] = {
+		reload_max = 1808,
+		id = 19230,
+		damage = 385,
+		base = 19220,
+		bullet_ID = {
+			19210
+		}
+	}
+	uv0.weapon_property_25[19240] = {
+		recover_time = 0.5,
+		name = "BTD-1毀滅者T3",
+		shakescreen = 0,
+		type = 10,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 2140,
+		queue = 1,
+		range = 90,
+		damage = 168,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 19240,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19200
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_25[19241] = {
+		reload_max = 2102,
+		id = 19241,
+		damage = 193,
+		base = 19240,
+		bullet_ID = {
+			19201
+		}
+	}
+	uv0.weapon_property_25[19242] = {
+		reload_max = 2064,
+		id = 19242,
+		damage = 218,
+		base = 19240,
+		bullet_ID = {
+			19202
 		}
 	}
 end)()

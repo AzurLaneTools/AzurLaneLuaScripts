@@ -1,233 +1,154 @@
 pg = pg or {}
 pg.aircraft_template_216 = {
-	[81411] = {
-		id = 81411,
-		max_hp = 107,
-		hp_growth = 4114,
-		base = 81400,
+	[81385] = {
+		id = 81385,
+		max_hp = 83,
+		hp_growth = 3201,
+		base = 81380,
 		weapon_ID = {
-			50551,
-			50751
+			50665
 		}
 	},
-	[82000] = {
+	[81386] = {
+		id = 81386,
+		max_hp = 90,
+		hp_growth = 3475,
+		base = 81380,
+		weapon_ID = {
+			50666
+		}
+	},
+	[81387] = {
+		id = 81387,
+		max_hp = 97,
+		hp_growth = 3749,
+		base = 81380,
+		weapon_ID = {
+			50667
+		}
+	},
+	[81388] = {
+		id = 81388,
+		max_hp = 105,
+		hp_growth = 4024,
+		base = 81380,
+		weapon_ID = {
+			50668
+		}
+	},
+	[81389] = {
+		id = 81389,
+		max_hp = 112,
+		hp_growth = 4298,
+		base = 81380,
+		weapon_ID = {
+			50669
+		}
+	},
+	[81390] = {
+		id = 81390,
+		max_hp = 119,
+		hp_growth = 4572,
+		base = 81380,
+		weapon_ID = {
+			50670
+		}
+	},
+	[81391] = {
+		id = 81391,
+		max_hp = 126,
+		hp_growth = 4847,
+		base = 81380,
+		weapon_ID = {
+			50671
+		}
+	},
+	[81392] = {
+		id = 81392,
+		max_hp = 133,
+		hp_growth = 5121,
+		base = 81380,
+		weapon_ID = {
+			50672
+		}
+	},
+	[81393] = {
+		id = 81393,
+		max_hp = 140,
+		hp_growth = 5395,
+		base = 81380,
+		weapon_ID = {
+			50673
+		}
+	},
+	[81400] = {
 		attack_power = 2,
-		name = "海喷火",
+		name = "XF5F天箭",
 		type = 1,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "XF5F",
 		ACC_growth = 0,
-		crash_DMG = 52,
-		dodge = 0.357,
+		crash_DMG = 136,
+		dodge = 0.333,
 		funnel_behavior = "",
-		nationality = 2,
-		id = 82000,
-		icon = "haipenhuo",
+		nationality = 1,
+		id = 81400,
+		icon = "XF5F",
 		AP_growth = 2000,
 		dodge_limit = 9,
-		hp_growth = 1210,
-		speed = 50,
-		max_hp = 31,
-		scale = 1,
-		weapon_ID = {
-			50100,
-			50500
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.69,
-					-2.62,
-					0
-				},
-				{
-					0.85,
-					0.17,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.62,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[82001] = {
-		id = 82001,
-		max_hp = 36,
-		hp_growth = 1391,
-		base = 82000,
-		weapon_ID = {
-			50101,
-			50501
-		}
-	},
-	[82002] = {
-		id = 82002,
-		max_hp = 41,
-		hp_growth = 1572,
-		base = 82000,
-		weapon_ID = {
-			50102,
-			50502
-		}
-	},
-	[82003] = {
-		id = 82003,
-		max_hp = 46,
-		hp_growth = 1754,
-		base = 82000,
-		weapon_ID = {
-			50103,
-			50503
-		}
-	},
-	[82020] = {
-		attack_power = 2,
-		name = "海喷火",
-		type = 1,
-		accuracy = 23,
-		model_ID = "haipenhuo",
-		ACC_growth = 0,
-		crash_DMG = 52,
-		dodge = 0.345,
-		funnel_behavior = "",
-		nationality = 2,
-		id = 82020,
-		icon = "haipenhuo",
-		AP_growth = 2000,
-		dodge_limit = 9.5,
-		hp_growth = 1344,
-		speed = 50,
-		max_hp = 35,
-		scale = 1,
-		weapon_ID = {
-			50120,
-			50520
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.69,
-					-2.62,
-					0
-				},
-				{
-					0.85,
-					0.17,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.62,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[82021] = {
-		id = 82021,
+		hp_growth = 1552,
+		speed = 47,
 		max_hp = 40,
-		hp_growth = 1546,
-		base = 82020,
+		scale = 1,
 		weapon_ID = {
-			50121,
-			50521
-		}
-	},
-	[82022] = {
-		id = 82022,
-		max_hp = 45,
-		hp_growth = 1747,
-		base = 82020,
-		weapon_ID = {
-			50122,
-			50522
-		}
-	},
-	[82023] = {
-		id = 82023,
-		max_hp = 51,
-		hp_growth = 1949,
-		base = 82020,
-		weapon_ID = {
-			50123,
-			50523
-		}
-	},
-	[82024] = {
-		id = 82024,
-		max_hp = 56,
-		hp_growth = 2150,
-		base = 82020,
-		weapon_ID = {
-			50124,
-			50524
+			50540,
+			50740
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.63,
+					0.34,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.24,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
 		}
 	}
 }

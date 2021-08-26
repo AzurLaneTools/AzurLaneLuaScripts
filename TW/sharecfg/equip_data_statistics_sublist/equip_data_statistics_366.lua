@@ -1,72 +1,122 @@
 pg = pg or {}
 pg.equip_data_statistics_366 = {
-	[85144] = {
-		id = 85144,
-		damage = "9 x 6",
-		base = 85140,
-		weapon_id = {
-			85144
-		}
-	},
-	[85145] = {
-		id = 85145,
-		damage = "10 x 6",
-		base = 85140,
-		weapon_id = {
-			85145
-		}
-	},
-	[85146] = {
-		id = 85146,
-		damage = "11 x 6",
-		base = 85140,
-		weapon_id = {
-			85146
-		}
-	},
-	[85147] = {
-		id = 85147,
-		damage = "12 x 6",
-		base = 85140,
-		weapon_id = {
-			85147
-		}
-	},
-	[85148] = {
-		id = 85148,
-		damage = "13 x 6",
-		base = 85140,
-		weapon_id = {
-			85148
-		}
-	},
-	[85149] = {
-		id = 85149,
-		damage = "14 x 6",
-		base = 85140,
-		weapon_id = {
-			85149
-		}
-	},
-	[85150] = {
-		id = 85150,
-		damage = "15 x 6",
-		base = 85140,
-		weapon_id = {
-			85150
-		}
-	},
-	[85160] = {
-		tech = 3,
+	[85120] = {
+		tech = 1,
 		name = "B-38 三聯裝152mm主炮Mk5",
 		speciality = "鎖定",
 		type = 2,
-		value_2 = 45,
-		ammo = 2,
-		damage = "7 x 6",
+		value_2 = 12,
+		ammo = 3,
+		damage = "5 x 6",
 		nationality = 7,
-		rarity = 5,
-		id = 85160,
+		rarity = 3,
+		id = 85120,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "85120",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1201
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1201
+			},
+			{
+				4,
+				1110
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			85120
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
+	},
+	[85121] = {
+		id = 85121,
+		base = 85120,
+		weapon_id = {
+			85121
+		}
+	},
+	[85122] = {
+		id = 85122,
+		damage = "6 x 6",
+		base = 85120,
+		weapon_id = {
+			85122
+		}
+	},
+	[85123] = {
+		id = 85123,
+		damage = "7 x 6",
+		base = 85120,
+		weapon_id = {
+			85123
+		}
+	},
+	[85124] = {
+		id = 85124,
+		damage = "8 x 6",
+		base = 85120,
+		weapon_id = {
+			85124
+		}
+	},
+	[85125] = {
+		id = 85125,
+		damage = "9 x 6",
+		base = 85120,
+		weapon_id = {
+			85125
+		}
+	},
+	[85126] = {
+		id = 85126,
+		damage = "10 x 6",
+		base = 85120,
+		weapon_id = {
+			85126
+		}
+	},
+	[85140] = {
+		tech = 2,
+		name = "B-38 三聯裝152mm主炮Mk5",
+		speciality = "鎖定",
+		type = 2,
+		value_2 = 25,
+		ammo = 2,
+		damage = "6 x 6",
+		nationality = 7,
+		rarity = 4,
+		id = 85140,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "说明未填写",
@@ -99,7 +149,7 @@ pg.equip_data_statistics_366 = {
 			12
 		},
 		weapon_id = {
-			85160
+			85140
 		},
 		skill_id = {},
 		part_main = {
@@ -116,35 +166,35 @@ pg.equip_data_statistics_366 = {
 			"HE"
 		}
 	},
-	[85161] = {
-		id = 85161,
-		base = 85160,
+	[85141] = {
+		id = 85141,
+		base = 85140,
 		weapon_id = {
-			85161
+			85141
 		}
 	},
-	[85162] = {
-		id = 85162,
+	[85142] = {
+		id = 85142,
+		damage = "7 x 6",
+		base = 85140,
+		weapon_id = {
+			85142
+		}
+	},
+	[85143] = {
+		id = 85143,
 		damage = "8 x 6",
-		base = 85160,
+		base = 85140,
 		weapon_id = {
-			85162
+			85143
 		}
 	},
-	[85163] = {
-		id = 85163,
+	[85144] = {
+		id = 85144,
 		damage = "9 x 6",
-		base = 85160,
+		base = 85140,
 		weapon_id = {
-			85163
-		}
-	},
-	[85164] = {
-		id = 85164,
-		damage = "10 x 6",
-		base = 85160,
-		weapon_id = {
-			85164
+			85144
 		}
 	}
 }

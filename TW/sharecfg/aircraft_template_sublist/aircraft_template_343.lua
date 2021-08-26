@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.aircraft_template_343 = {
-	[612052] = {
+	[610037] = {
 		attack_power = 2,
-		name = "【意大利活动A3】BOSS-光辉 鱼雷机",
+		name = "【俾斯麦活动A3】鱼雷机",
 		type = 1,
 		accuracy = 23,
 		model_ID = "jianyu",
@@ -11,7 +11,7 @@ pg.aircraft_template_343 = {
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 612052,
+		id = 610037,
 		icon = "jianyu",
 		AP_growth = 2000,
 		dodge_limit = 0,
@@ -20,7 +20,7 @@ pg.aircraft_template_343 = {
 		max_hp = 96,
 		scale = 0.75,
 		weapon_ID = {
-			612053
+			610040
 		},
 		position_offset = {
 			0,
@@ -74,83 +74,9 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[612060] = {
+	[610092] = {
 		attack_power = 2,
-		name = "【意大利活动A3】BOSS-光辉 特殊鱼雷机",
-		type = 3,
-		accuracy = 50,
-		model_ID = "jianyu810",
-		ACC_growth = 0,
-		crash_DMG = 250,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 612060,
-		icon = "jianyu810",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 0,
-		speed = 30,
-		max_hp = 700,
-		scale = 0.75,
-		weapon_ID = {
-			612056
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.64,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[612181] = {
-		attack_power = 2,
-		name = "【意大利活动C3】BOSS-光辉 战斗机",
+		name = "【俾斯麦活动C2】战斗机",
 		type = 1,
 		accuracy = 23,
 		model_ID = "haipenhuo",
@@ -159,7 +85,7 @@ pg.aircraft_template_343 = {
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 612181,
+		id = 610092,
 		icon = "haipenhuo",
 		AP_growth = 2000,
 		dodge_limit = 0,
@@ -168,8 +94,8 @@ pg.aircraft_template_343 = {
 		max_hp = 141,
 		scale = 0.75,
 		weapon_ID = {
-			612184,
-			612185
+			610094,
+			610095
 		},
 		position_offset = {
 			0,
@@ -223,9 +149,9 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[612182] = {
+	[610093] = {
 		attack_power = 2,
-		name = "【意大利活动C3】BOSS-光辉 鱼雷机",
+		name = "【俾斯麦活动C2】鱼雷机",
 		type = 1,
 		accuracy = 23,
 		model_ID = "jianyu",
@@ -234,7 +160,7 @@ pg.aircraft_template_343 = {
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 612182,
+		id = 610093,
 		icon = "jianyu",
 		AP_growth = 2000,
 		dodge_limit = 0,
@@ -243,7 +169,7 @@ pg.aircraft_template_343 = {
 		max_hp = 154,
 		scale = 0.75,
 		weapon_ID = {
-			612183
+			610096
 		},
 		position_offset = {
 			0,
@@ -297,27 +223,27 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[612190] = {
+	[610100] = {
 		attack_power = 2,
-		name = "【意大利活动C3】BOSS-光辉 特殊鱼雷机",
+		name = "【俾斯麦活动C3】鱼雷封锁",
 		type = 3,
 		accuracy = 50,
 		model_ID = "jianyu810",
 		ACC_growth = 0,
-		crash_DMG = 400,
+		crash_DMG = 240,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 612190,
+		id = 610100,
 		icon = "jianyu810",
 		AP_growth = 2000,
 		dodge_limit = 0,
 		hp_growth = 0,
 		speed = 30,
-		max_hp = 1200,
+		max_hp = 600,
 		scale = 0.75,
 		weapon_ID = {
-			612186
+			610111
 		},
 		position_offset = {
 			0,
@@ -371,102 +297,28 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[613011] = {
+	[610106] = {
 		attack_power = 2,
-		name = "【世界BOSS普通】BOSS-大凤 地毯轰炸",
-		type = 3,
-		accuracy = 23,
-		model_ID = "huixing",
-		ACC_growth = 0,
-		crash_DMG = 183,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 613011,
-		icon = "huixing",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 0,
-		speed = 30,
-		max_hp = 450,
-		scale = 0.75,
-		weapon_ID = {
-			613012
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.64,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[613018] = {
-		attack_power = 2,
-		name = "【世界BOSS普通】BOSS-大凤 战斗机",
+		name = "【俾斯麦活动C3】战斗机",
 		type = 1,
 		accuracy = 23,
-		model_ID = "lingzhan21",
+		model_ID = "haipenhuo",
 		ACC_growth = 0,
-		crash_DMG = 75,
+		crash_DMG = 79,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 613018,
-		icon = "lingzhan21",
+		id = 610106,
+		icon = "haipenhuo",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2400,
+		hp_growth = 2520,
 		speed = 33,
-		max_hp = 120,
+		max_hp = 141,
 		scale = 0.75,
 		weapon_ID = {
-			613020,
-			613021
+			610108,
+			610109
 		},
 		position_offset = {
 			0,
@@ -520,27 +372,27 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[613019] = {
+	[610107] = {
 		attack_power = 2,
-		name = "【世界BOSS普通】BOSS-大凤 轰炸机",
+		name = "【俾斯麦活动C3】鱼雷机",
 		type = 1,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "jianyu",
 		ACC_growth = 0,
-		crash_DMG = 110,
+		crash_DMG = 114,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 613019,
-		icon = "99shijianbao1",
+		id = 610107,
+		icon = "jianyu",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 3040,
+		hp_growth = 2880,
 		speed = 30,
-		max_hp = 144,
+		max_hp = 154,
 		scale = 0.75,
 		weapon_ID = {
-			613022
+			610110
 		},
 		position_offset = {
 			0,
@@ -594,27 +446,31 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[616077] = {
+	[610065] = {
 		attack_power = 2,
-		name = "【hololive联动T3】BOSS-大神澪 特殊鱼雷封锁",
-		type = 3,
-		accuracy = 50,
-		model_ID = "feiji_vtuber2",
+		name = "【俾斯麦活动B2】BOSS –测试者β型-浮游炮",
+		type = 1,
+		accuracy = 23,
+		model_ID = "fuyoupao",
 		ACC_growth = 0,
-		crash_DMG = 90,
+		crash_DMG = 183,
 		dodge = 1,
-		funnel_behavior = "",
 		nationality = 3,
-		id = 616077,
-		icon = "feiji_vtuber2",
+		id = 610065,
+		icon = "fuyoupao",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 0,
-		speed = 30,
-		max_hp = 420,
+		hp_growth = 3680,
+		speed = 70,
+		max_hp = 209,
 		scale = 0.75,
+		funnel_behavior = {
+			exist = 20,
+			stay = 2
+		},
 		weapon_ID = {
-			616087
+			610066,
+			610067
 		},
 		position_offset = {
 			0,
@@ -634,13 +490,13 @@ pg.aircraft_template_343 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.56,
+					-0.76,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.48,
+					0.99,
 					0
 				}
 			}
@@ -657,7 +513,7 @@ pg.aircraft_template_343 = {
 				0
 			},
 			{
-				0.64,
+				0,
 				0,
 				0
 			},
@@ -668,28 +524,184 @@ pg.aircraft_template_343 = {
 			}
 		}
 	},
-	[616082] = {
+	[610135] = {
 		attack_power = 2,
-		name = "【hololive联动T3】BOSS-大神澪 战斗机",
+		name = "【俾斯麦活动D2】BOSS –测试者β型-浮游炮",
 		type = 1,
 		accuracy = 23,
-		model_ID = "feiji_vtuber2",
+		model_ID = "fuyoupao",
 		ACC_growth = 0,
-		crash_DMG = 48,
+		crash_DMG = 293,
+		dodge = 1,
+		nationality = 3,
+		id = 610135,
+		icon = "fuyoupao",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 4600,
+		speed = 70,
+		max_hp = 298,
+		scale = 0.75,
+		funnel_behavior = {
+			exist = 20,
+			stay = 2
+		},
+		weapon_ID = {
+			610136,
+			610137
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[611056] = {
+		attack_power = 2,
+		name = "【新美系活动A3】BOSS –测试者β型-浮游炮",
+		type = 1,
+		accuracy = 23,
+		model_ID = "fuyoupao",
+		ACC_growth = 0,
+		crash_DMG = 183,
+		dodge = 1,
+		nationality = 3,
+		id = 611056,
+		icon = "fuyoupao",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 3680,
+		speed = 70,
+		max_hp = 209,
+		scale = 0.75,
+		funnel_behavior = {
+			exist = 20,
+			stay = 2
+		},
+		weapon_ID = {
+			611057,
+			611058
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[611084] = {
+		attack_power = 2,
+		name = "【新美系活动B2】BOSS –大黄蜂 战斗机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 50,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 616082,
-		icon = "feiji_vtuber2",
+		id = 611084,
+		icon = "F4F",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1960,
+		hp_growth = 2000,
 		speed = 33,
-		max_hp = 86,
+		max_hp = 90,
 		scale = 0.75,
 		weapon_ID = {
-			616084,
-			616085
+			611086,
+			611087
 		},
 		position_offset = {
 			0,

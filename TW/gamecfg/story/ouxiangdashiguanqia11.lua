@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "idom-Thinking",
-			say = "港区·演出海域",
+			say = "港區·演出海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于到这时候了…{namecode:92}，监视屏那边没问题吧？",
+			say = "終於到這時候了…{namecode:92}，監視器那邊沒問題吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能量反应依旧异常，不过数值保持稳定。",
+			say = "能量反應依舊異常，不過數值保持穩定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			actor = 10700070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼嗯哼……原来如此……就是说，接下来只要一鼓作气冲到舞台那里就好了吧！",
+			say = "嗯哼嗯哼……原來如此……就是說，接下來只要一鼓作氣衝到舞台那裡就好了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "把碍事的量产舰“哐哐”干掉，再把冒牌货“砰砰”打倒，之后在舞台上进行大决战！",
+			say = "把礙事的量產艦“哐哐”幹掉，再把冒牌貨“砰砰”打倒，之後在舞台上進行大決戰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后，放出必杀的μ兵装攻击，打开异世界的通道～",
+			say = "然後，放出必殺的μ兵裝攻擊，打開異世界的通道～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 10700060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "向原来的世界凯旋！亚美们一定能大获全胜♪",
+			say = "向原來的世界凱旋！亞美們一定能大獲全勝♪",
 			effects = {
 				{
 					active = true,
@@ -143,7 +143,7 @@ return {
 			actor = 10700050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "亚美，现在下胜利宣言还太早了。目前先集中对付眼前的“冒牌货”！",
+			say = "亞美，現在下勝利宣言還太早了。目前先集中對付眼前的“冒牌貨”！",
 			effects = {
 				{
 					active = false,
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确认到能量体反应，请求进行演出准备。",
+			say = "確認到能量體反應，請求進行演出準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里就交给我们吧，765事务所的大家先保存好体力哦！",
+			say = "這裡就交給我們吧，765事務所的大家先保存好體力哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			actor = 10700040,
 			dir = 1,
-			say = "谢谢～看来今天会是漫长的一天呢。",
+			say = "謝謝～看來今天會是漫長的一天呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			actor = 307110,
 			dir = 1,
-			say = "今天的演唱会指挥官可是一直在看着的呢~从开场就全力以赴的话后面可是会撑不住的哦~",
+			say = "今天的演唱會指揮官可是一直在看著的呢~從開場就全力以赴的話後面可是會撐不住的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 10700030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，什么时候开始看着的？！我可没听说有这回事！",
+			say = "等等，什麼時候開始看著的？！我可沒聽說有這回事！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			actor = 10700020,
 			dir = 1,
-			say = "（说不定指挥官看着，对舰船们来说是个不错的刺激…）",
+			say = "（說不定指揮官看著，對艦船們來說是個不錯的刺激…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:97}，不能随便动演唱会转播装置的线路喵！线路不仅连接着指挥官的办公室，还连着港区的转播设备喵！",
+			say = "{namecode:97}，不能隨便動演唱會轉播裝置的線路喵！線路不僅連接著指揮官的辦公室，還連著港區的轉播設備喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（呵呵，看来是我多虑了，不过希望有人看着的这份心情确实是很重要的呢）",
+			say = "（呵呵，看來是我多慮了，不過希望有人看著的這份心情確實是很重要的呢）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

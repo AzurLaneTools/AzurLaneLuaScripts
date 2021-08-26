@@ -10,7 +10,7 @@ function slot0.Battle.BattleSkillAddBuff.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.Battle.BattleSkillAddBuff.DoDataEffect(slot0, slot1, slot2)
-	if slot0:IsFilterTarget(slot1, slot2) and slot2:IsAlive() then
+	if slot2:IsAlive() then
 		slot3 = uv0.Battle.BattleBuffUnit.New(slot0._buffID, slot0._level, slot1)
 
 		slot3:SetCommander(slot0._commander)

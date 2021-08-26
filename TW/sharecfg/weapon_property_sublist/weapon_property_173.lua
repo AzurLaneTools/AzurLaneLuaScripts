@@ -2,396 +2,6 @@ pg = pg or {}
 pg.weapon_property_173 = {}
 
 (function ()
-	uv0.weapon_property_173[69623] = {
-		id = 69623,
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV3",
-		damage = 29,
-		base = 69621
-	}
-	uv0.weapon_property_173[69624] = {
-		id = 69624,
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV4",
-		damage = 32,
-		base = 69621,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_173[69625] = {
-		id = 69625,
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV5",
-		damage = 35,
-		base = 69621,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_173[69626] = {
-		id = 69626,
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV6",
-		damage = 38,
-		base = 69621,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_173[69627] = {
-		id = 69627,
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV7",
-		damage = 43,
-		base = 69621,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69628] = {
-		id = 69628,
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV8",
-		damage = 48,
-		base = 69621,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69629] = {
-		id = 69629,
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV9",
-		damage = 53,
-		base = 69621,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69630] = {
-		id = 69630,
-		name = "加斯科涅技能·箭型国旗白-PVE-强化LV10",
-		damage = 58,
-		base = 69621,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69631] = {
-		recover_time = 0.5,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV1",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 50,
-		reload_max = 3000,
-		queue = 1,
-		range = 90,
-		damage = 23,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 35,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 69631,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19849,
-			19849
-		},
-		barrage_ID = {
-			80906,
-			80907
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_173[69632] = {
-		id = 69632,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV2",
-		damage = 26,
-		base = 69631
-	}
-	uv0.weapon_property_173[69633] = {
-		id = 69633,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV3",
-		damage = 29,
-		base = 69631
-	}
-	uv0.weapon_property_173[69634] = {
-		id = 69634,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV4",
-		damage = 32,
-		base = 69631,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_173[69635] = {
-		id = 69635,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV5",
-		damage = 35,
-		base = 69631,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_173[69636] = {
-		id = 69636,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV6",
-		damage = 38,
-		base = 69631,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_173[69637] = {
-		id = 69637,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV7",
-		damage = 43,
-		base = 69631,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69638] = {
-		id = 69638,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV8",
-		damage = 48,
-		base = 69631,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69639] = {
-		id = 69639,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV9",
-		damage = 53,
-		base = 69631,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69640] = {
-		id = 69640,
-		name = "加斯科涅技能·箭型国旗蓝-PVE-强化LV10",
-		damage = 58,
-		base = 69631,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69641] = {
-		recover_time = 0.5,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV1",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 50,
-		reload_max = 3000,
-		queue = 1,
-		range = 125,
-		damage = 23,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 35,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 69641,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19847,
-			19847
-		},
-		barrage_ID = {
-			80906,
-			80907
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_173[69642] = {
-		id = 69642,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV2",
-		damage = 26,
-		base = 69641
-	}
-	uv0.weapon_property_173[69643] = {
-		id = 69643,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV3",
-		damage = 29,
-		base = 69641
-	}
-	uv0.weapon_property_173[69644] = {
-		id = 69644,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV4",
-		damage = 32,
-		base = 69641,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_173[69645] = {
-		id = 69645,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV5",
-		damage = 35,
-		base = 69641,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_173[69646] = {
-		id = 69646,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV6",
-		damage = 38,
-		base = 69641,
-		barrage_ID = {
-			80908,
-			80909
-		}
-	}
-	uv0.weapon_property_173[69647] = {
-		id = 69647,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV7",
-		damage = 43,
-		base = 69641,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69648] = {
-		id = 69648,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV8",
-		damage = 48,
-		base = 69641,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69649] = {
-		id = 69649,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV9",
-		damage = 53,
-		base = 69641,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69650] = {
-		id = 69650,
-		name = "加斯科涅技能·箭型国旗红-PVP-强化-LV10",
-		damage = 58,
-		base = 69641,
-		barrage_ID = {
-			80910,
-			80911
-		}
-	}
-	uv0.weapon_property_173[69651] = {
-		recover_time = 0.5,
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV1",
-		shakescreen = 0,
-		type = 19,
-		torpedo_ammo = 0,
-		fire_fx = "CLFire",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 1,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 50,
-		reload_max = 3000,
-		queue = 1,
-		range = 120,
-		damage = 23,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 35,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-155mm",
-		id = 69651,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19848,
-			19848
-		},
-		barrage_ID = {
-			80906,
-			80907
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_173[69652] = {
-		id = 69652,
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV2",
-		damage = 26,
-		base = 69651
-	}
-	uv0.weapon_property_173[69653] = {
-		id = 69653,
-		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV3",
-		damage = 29,
-		base = 69651
-	}
 	uv0.weapon_property_173[69654] = {
 		id = 69654,
 		name = "加斯科涅技能·箭型国旗白-PVP-强化-LV4",
@@ -755,5 +365,380 @@ pg.weapon_property_173 = {}
 		name = "北风技能额外弹幕-天运追加LV4",
 		damage = 9,
 		base = 69681
+	}
+	uv0.weapon_property_173[69685] = {
+		id = 69685,
+		name = "北风技能额外弹幕-天运追加LV5",
+		damage = 10,
+		base = 69681
+	}
+	uv0.weapon_property_173[69686] = {
+		id = 69686,
+		name = "北风技能额外弹幕-天运追加LV6",
+		damage = 11,
+		base = 69681
+	}
+	uv0.weapon_property_173[69687] = {
+		id = 69687,
+		name = "北风技能额外弹幕-天运追加LV7",
+		damage = 12,
+		base = 69681
+	}
+	uv0.weapon_property_173[69688] = {
+		id = 69688,
+		name = "北风技能额外弹幕-天运追加LV8",
+		damage = 13,
+		base = 69681
+	}
+	uv0.weapon_property_173[69689] = {
+		id = 69689,
+		name = "北风技能额外弹幕-天运追加LV9",
+		damage = 14,
+		base = 69681
+	}
+	uv0.weapon_property_173[69690] = {
+		id = 69690,
+		name = "北风技能额外弹幕-天运追加LV10",
+		damage = 15,
+		base = 69681
+	}
+	uv0.weapon_property_173[69691] = {
+		recover_time = 0.5,
+		name = "英仙座随机飞机-海黄蜂-Lv1",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 10,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 1890,
+		queue = 1,
+		range = 90,
+		damage = 153,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 69691,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			69691
+		},
+		barrage_ID = {
+			12009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_173[69692] = {
+		id = 69692,
+		name = "英仙座随机飞机-海黄蜂-Lv2",
+		damage = 173,
+		base = 69691,
+		bullet_ID = {
+			69692
+		}
+	}
+	uv0.weapon_property_173[69693] = {
+		id = 69693,
+		name = "英仙座随机飞机-海黄蜂-Lv3",
+		damage = 192,
+		base = 69691,
+		bullet_ID = {
+			69693
+		}
+	}
+	uv0.weapon_property_173[69694] = {
+		id = 69694,
+		name = "英仙座随机飞机-海黄蜂-Lv4",
+		damage = 212,
+		base = 69691,
+		bullet_ID = {
+			69694
+		}
+	}
+	uv0.weapon_property_173[69695] = {
+		id = 69695,
+		name = "英仙座随机飞机-海黄蜂-Lv5",
+		damage = 231,
+		base = 69691,
+		bullet_ID = {
+			69695
+		}
+	}
+	uv0.weapon_property_173[69696] = {
+		id = 69696,
+		name = "英仙座随机飞机-海黄蜂-Lv6",
+		damage = 251,
+		base = 69691,
+		bullet_ID = {
+			69696
+		}
+	}
+	uv0.weapon_property_173[69697] = {
+		id = 69697,
+		name = "英仙座随机飞机-海黄蜂-Lv7",
+		damage = 272,
+		base = 69691,
+		bullet_ID = {
+			69697
+		}
+	}
+	uv0.weapon_property_173[69698] = {
+		id = 69698,
+		name = "英仙座随机飞机-海黄蜂-Lv8",
+		damage = 293,
+		base = 69691,
+		bullet_ID = {
+			69698
+		}
+	}
+	uv0.weapon_property_173[69699] = {
+		id = 69699,
+		name = "英仙座随机飞机-海黄蜂-Lv9",
+		damage = 314,
+		base = 69691,
+		bullet_ID = {
+			69699
+		}
+	}
+	uv0.weapon_property_173[69700] = {
+		id = 69700,
+		name = "英仙座随机飞机-海黄蜂-Lv10",
+		damage = 335,
+		base = 69691,
+		bullet_ID = {
+			69700
+		}
+	}
+	uv0.weapon_property_173[69701] = {
+		recover_time = 0.5,
+		name = "英仙座随机飞机-TBF-Lv1",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 10,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 1890,
+		queue = 1,
+		range = 90,
+		damage = 48,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 69701,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			69701
+		},
+		barrage_ID = {
+			12009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_173[69702] = {
+		id = 69702,
+		name = "英仙座随机飞机-TBF-Lv2",
+		damage = 68,
+		base = 69701,
+		bullet_ID = {
+			69702
+		}
+	}
+	uv0.weapon_property_173[69703] = {
+		id = 69703,
+		name = "英仙座随机飞机-TBF-Lv3",
+		damage = 86,
+		base = 69701,
+		bullet_ID = {
+			69703
+		}
+	}
+	uv0.weapon_property_173[69704] = {
+		id = 69704,
+		name = "英仙座随机飞机-TBF-Lv4",
+		damage = 106,
+		base = 69701,
+		bullet_ID = {
+			69704
+		}
+	}
+	uv0.weapon_property_173[69705] = {
+		id = 69705,
+		name = "英仙座随机飞机-TBF-Lv5",
+		damage = 124,
+		base = 69701,
+		bullet_ID = {
+			69705
+		}
+	}
+	uv0.weapon_property_173[69706] = {
+		id = 69706,
+		name = "英仙座随机飞机-TBF-Lv6",
+		damage = 144,
+		base = 69701,
+		bullet_ID = {
+			69706
+		}
+	}
+	uv0.weapon_property_173[69707] = {
+		id = 69707,
+		name = "英仙座随机飞机-TBF-Lv7",
+		damage = 164,
+		base = 69701,
+		bullet_ID = {
+			69707
+		}
+	}
+	uv0.weapon_property_173[69708] = {
+		id = 69708,
+		name = "英仙座随机飞机-TBF-Lv8",
+		damage = 182,
+		base = 69701,
+		bullet_ID = {
+			69708
+		}
+	}
+	uv0.weapon_property_173[69709] = {
+		id = 69709,
+		name = "英仙座随机飞机-TBF-Lv9",
+		damage = 202,
+		base = 69701,
+		bullet_ID = {
+			69709
+		}
+	}
+	uv0.weapon_property_173[69710] = {
+		id = 69710,
+		name = "英仙座随机飞机-TBF-Lv10",
+		damage = 220,
+		base = 69701,
+		bullet_ID = {
+			69710
+		}
+	}
+	uv0.weapon_property_173[69711] = {
+		recover_time = 0.5,
+		name = "英仙座随机飞机-萤火虫-Lv1",
+		shakescreen = 0,
+		type = 11,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 10,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 1890,
+		queue = 1,
+		range = 90,
+		damage = 48,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 69711,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			69711
+		},
+		barrage_ID = {
+			12009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_173[69712] = {
+		id = 69712,
+		name = "英仙座随机飞机-萤火虫-Lv2",
+		damage = 68,
+		base = 69711,
+		bullet_ID = {
+			69712
+		}
+	}
+	uv0.weapon_property_173[69713] = {
+		id = 69713,
+		name = "英仙座随机飞机-萤火虫-Lv3",
+		damage = 86,
+		base = 69711,
+		bullet_ID = {
+			69713
+		}
+	}
+	uv0.weapon_property_173[69714] = {
+		id = 69714,
+		name = "英仙座随机飞机-萤火虫-Lv4",
+		damage = 106,
+		base = 69711,
+		bullet_ID = {
+			69714
+		}
+	}
+	uv0.weapon_property_173[69715] = {
+		id = 69715,
+		name = "英仙座随机飞机-萤火虫-Lv5",
+		damage = 124,
+		base = 69711,
+		bullet_ID = {
+			69715
+		}
+	}
+	uv0.weapon_property_173[69716] = {
+		id = 69716,
+		name = "英仙座随机飞机-萤火虫-Lv6",
+		damage = 144,
+		base = 69711,
+		bullet_ID = {
+			69716
+		}
 	}
 end)()

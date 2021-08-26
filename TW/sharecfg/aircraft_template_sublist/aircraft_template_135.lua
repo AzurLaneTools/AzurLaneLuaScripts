@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_135 = {
-	[65061] = {
+	[64531] = {
 		attack_power = 2,
-		name = "普林斯顿技能鱼雷机Lv1",
-		type = 2,
+		name = "如月千早空艇Lv1",
+		type = 3,
 		accuracy = 23,
-		model_ID = "tbf",
+		model_ID = "feiji_ouxiangfeiting",
 		ACC_growth = 0,
-		crash_DMG = 406,
+		crash_DMG = 208,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 1,
-		id = 65061,
-		icon = "tbf",
+		nationality = 107,
+		id = 64531,
+		icon = "feiji_ouxiangfeiting",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1615,
-		speed = 48,
-		max_hp = 42,
+		hp_growth = 1846,
+		speed = 20,
+		max_hp = 48,
 		scale = 1,
 		weapon_ID = {
-			65071
+			64541
 		},
 		position_offset = {
 			0,
@@ -40,13 +40,13 @@ pg.aircraft_template_135 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -63,7 +63,7 @@ pg.aircraft_template_135 = {
 				0
 			},
 			{
-				0.52,
+				0.64,
 				0,
 				0
 			},
@@ -74,94 +74,94 @@ pg.aircraft_template_135 = {
 			}
 		}
 	},
-	[65062] = {
-		id = 65062,
-		name = "普林斯顿技能鱼雷机Lv2",
-		base = 65061,
-		max_hp = 47,
-		hp_growth = 1826,
+	[64532] = {
+		id = 64532,
+		name = "如月千早空艇Lv2",
+		base = 64531,
+		max_hp = 54,
+		hp_growth = 2087,
 		weapon_ID = {
-			65072
+			64542
 		}
 	},
-	[65063] = {
-		id = 65063,
-		name = "普林斯顿技能鱼雷机Lv3",
-		base = 65061,
-		max_hp = 53,
-		hp_growth = 2036,
+	[64533] = {
+		id = 64533,
+		name = "如月千早空艇Lv3",
+		base = 64531,
+		max_hp = 61,
+		hp_growth = 2327,
 		weapon_ID = {
-			65073
+			64543
 		}
 	},
-	[65064] = {
-		id = 65064,
-		name = "普林斯顿技能鱼雷机Lv4",
-		base = 65061,
-		max_hp = 58,
-		hp_growth = 2247,
+	[64534] = {
+		id = 64534,
+		name = "如月千早空艇Lv4",
+		base = 64531,
+		max_hp = 67,
+		hp_growth = 2568,
 		weapon_ID = {
-			65074
+			64544
 		}
 	},
-	[65065] = {
-		id = 65065,
-		name = "普林斯顿技能鱼雷机Lv5",
-		base = 65061,
-		max_hp = 64,
-		hp_growth = 2458,
+	[64535] = {
+		id = 64535,
+		name = "如月千早空艇Lv5",
+		base = 64531,
+		max_hp = 73,
+		hp_growth = 2809,
 		weapon_ID = {
-			65075
+			64545
 		}
 	},
-	[65066] = {
-		id = 65066,
-		name = "普林斯顿技能鱼雷机Lv6",
-		base = 65061,
-		max_hp = 69,
-		hp_growth = 2669,
+	[64536] = {
+		id = 64536,
+		name = "如月千早空艇Lv6",
+		base = 64531,
+		max_hp = 79,
+		hp_growth = 3050,
 		weapon_ID = {
-			65076
+			64546
 		}
 	},
-	[65067] = {
-		id = 65067,
-		name = "普林斯顿技能鱼雷机Lv7",
-		base = 65061,
-		max_hp = 75,
-		hp_growth = 2879,
-		weapon_ID = {
-			65077
-		}
-	},
-	[65068] = {
-		id = 65068,
-		name = "普林斯顿技能鱼雷机Lv8",
-		base = 65061,
-		max_hp = 80,
-		hp_growth = 3090,
-		weapon_ID = {
-			65078
-		}
-	},
-	[65069] = {
-		id = 65069,
-		name = "普林斯顿技能鱼雷机Lv9",
-		base = 65061,
+	[64537] = {
+		id = 64537,
+		name = "如月千早空艇Lv7",
+		base = 64531,
 		max_hp = 86,
-		hp_growth = 3301,
+		hp_growth = 3290,
 		weapon_ID = {
-			65079
+			64547
 		}
 	},
-	[65070] = {
-		id = 65070,
-		name = "普林斯顿技能鱼雷机Lv10",
-		base = 65061,
-		max_hp = 91,
-		hp_growth = 3511,
+	[64538] = {
+		id = 64538,
+		name = "如月千早空艇Lv8",
+		base = 64531,
+		max_hp = 92,
+		hp_growth = 3531,
 		weapon_ID = {
-			65080
+			64548
+		}
+	},
+	[64539] = {
+		id = 64539,
+		name = "如月千早空艇Lv9",
+		base = 64531,
+		max_hp = 98,
+		hp_growth = 3772,
+		weapon_ID = {
+			64549
+		}
+	},
+	[64540] = {
+		id = 64540,
+		name = "如月千早空艇Lv10",
+		base = 64531,
+		max_hp = 104,
+		hp_growth = 4013,
+		weapon_ID = {
+			64550
 		}
 	}
 }

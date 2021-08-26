@@ -1,77 +1,77 @@
 pg = pg or {}
 pg.equip_data_statistics_220 = {
-	[32145] = {
-		id = 32145,
+	[32121] = {
+		id = 32121,
+		damage = "7 x 4",
+		base = 32120,
+		weapon_id = {
+			32121
+		}
+	},
+	[32122] = {
+		id = 32122,
+		damage = "8 x 4",
+		base = 32120,
+		weapon_id = {
+			32122
+		}
+	},
+	[32123] = {
+		id = 32123,
+		damage = "9 x 4",
+		base = 32120,
+		weapon_id = {
+			32123
+		}
+	},
+	[32124] = {
+		id = 32124,
+		damage = "10 x 4",
+		base = 32120,
+		weapon_id = {
+			32124
+		}
+	},
+	[32125] = {
+		id = 32125,
+		damage = "11 x 4",
+		base = 32120,
+		weapon_id = {
+			32125
+		}
+	},
+	[32126] = {
+		id = 32126,
 		damage = "12 x 4",
-		base = 32140,
+		base = 32120,
 		weapon_id = {
-			32145
+			32126
 		}
 	},
-	[32146] = {
-		id = 32146,
-		damage = "13 x 4",
-		base = 32140,
-		weapon_id = {
-			32146
-		}
-	},
-	[32147] = {
-		id = 32147,
-		damage = "14 x 4",
-		base = 32140,
-		weapon_id = {
-			32147
-		}
-	},
-	[32148] = {
-		id = 32148,
-		damage = "15 x 4",
-		base = 32140,
-		weapon_id = {
-			32148
-		}
-	},
-	[32149] = {
-		id = 32149,
-		damage = "16 x 4",
-		base = 32140,
-		weapon_id = {
-			32149
-		}
-	},
-	[32150] = {
-		id = 32150,
-		damage = "17 x 4",
-		base = 32140,
-		weapon_id = {
-			32150
-		}
-	},
-	[32200] = {
-		tech = 1,
-		name = "155mm三連裝炮",
-		speciality = "鎖定",
+	[32140] = {
+		tech = 3,
+		name = "140mm連裝炮",
+		speciality = "散射",
 		type = 2,
-		value_2 = 12,
-		ammo = 3,
-		damage = "6 x 6",
+		value_2 = 25,
+		ammo = 2,
+		damage = "7 x 4",
 		nationality = 3,
-		rarity = 3,
-		id = 32200,
+		rarity = 4,
+		id = 32140,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
-		icon = "32200",
+		icon = "32100",
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
-			1
+			3
 		},
 		ammo_info = {
 			{
 				1,
-				1201
+				1207
 			}
 		},
 		equip_info = {
@@ -79,11 +79,11 @@ pg.equip_data_statistics_220 = {
 			2,
 			{
 				3,
-				1201
+				1207
 			},
 			{
 				4,
-				1105
+				1101
 			},
 			6,
 			10,
@@ -91,7 +91,7 @@ pg.equip_data_statistics_220 = {
 			12
 		},
 		weapon_id = {
-			32200
+			32140
 		},
 		skill_id = {},
 		part_main = {
@@ -104,47 +104,48 @@ pg.equip_data_statistics_220 = {
 		label = {
 			"IJN",
 			"CL",
-			"MG"
+			"MG",
+			"HE"
 		}
 	},
-	[32201] = {
-		id = 32201,
-		damage = "7 x 6",
-		base = 32200,
+	[32141] = {
+		id = 32141,
+		damage = "8 x 4",
+		base = 32140,
 		weapon_id = {
-			32201
+			32141
 		}
 	},
-	[32202] = {
-		id = 32202,
-		damage = "8 x 6",
-		base = 32200,
+	[32142] = {
+		id = 32142,
+		damage = "9 x 4",
+		base = 32140,
 		weapon_id = {
-			32202
+			32142
 		}
 	},
-	[32203] = {
-		id = 32203,
-		damage = "9 x 6",
-		base = 32200,
+	[32143] = {
+		id = 32143,
+		damage = "10 x 4",
+		base = 32140,
 		weapon_id = {
-			32203
+			32143
 		}
 	},
-	[32204] = {
-		id = 32204,
-		damage = "10 x 6",
-		base = 32200,
+	[32144] = {
+		id = 32144,
+		damage = "11 x 4",
+		base = 32140,
 		weapon_id = {
-			32204
+			32144
 		}
 	},
-	[32205] = {
-		id = 32205,
-		damage = "11 x 6",
-		base = 32200,
+	[32145] = {
+		id = 32145,
+		damage = "12 x 4",
+		base = 32140,
 		weapon_id = {
-			32205
+			32145
 		}
 	}
 }

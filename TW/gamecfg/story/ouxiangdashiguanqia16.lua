@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "据说能引出歌唱之力，思念之力的“μ兵装”",
+			say = "據說能引出歌唱之力，思念之力的“μ兵裝”",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "以及使用“μ兵装”举办的港区第三届“现场演唱会”——",
+			say = "以及使用“μ兵裝”舉辦的港區第三屆“現場演唱會”——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "“765事务所”的偶像们与舰船们的联合演出，达到了前所未有的人气，俘获了无数粉丝的心。",
+			say = "“765事務所”的偶像們與艦船們的聯合演出，達到了前所未有的人氣，俘獲了無數粉絲的心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "在那之后——",
+			say = "在那之後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10700050,
 			nameColor = "#a9f548",
-			say = "这次真的没问题了吧？要是那样的事情再来一次，我的心脏可真的受不了……",
+			say = "這次真的沒問題了吧？要是那樣的事情再來一次，我的心臟可真的受不了……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -124,7 +124,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀呀~，律子小姐真是爱担心～",
+			say = "哎呀呀~，律子小姐真是愛擔心～",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想两边的能量对撞后竟然互相抵消了。",
+			say = "沒想到兩邊的能量對撞後竟然互相抵消了。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，能量完全消失后，演出海域内量产舰的异常状态也解除了。",
+			say = "嗯，能量完全消失後，演出海域內量產艦的異常狀態也解除了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还以为要变成“诶，什么？！没办法回去了ー！”这样的状况呢…",
+			say = "還以為要變成“欸，什麼？！沒辦法回去了ー！”這樣的狀況呢…",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -192,7 +192,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "结果最后才发现通路并不在舞台那边，反而就在这个事务所里……",
+			say = "結果最後才發現通路並不在舞台那邊，反而就在這個事務所裡……",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -210,7 +210,7 @@ return {
 			actor = 10700030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种惊吓对心脏太不好了啊，真是的。",
+			say = "這種驚嚇對心臟太不好了啊，真是的。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次联系大家之前，记得先好好调查一下。",
+			say = "下次聯繫大家之前，記得先好好調查一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常抱歉喵…都是{namecode:98}的错喵，请原谅喵＞＜",
+			say = "非常抱歉喵…都是{namecode:98}的錯喵，請原諒喵＞＜",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系啦，多亏了大家才能顺利找到通路，结果是好的嘛。如果在找这个隧道的是我们，想想就不安呢~",
+			say = "沒關係啦，多虧了大家才能順利找到通路，結果是好的嘛。如果在找這個隧道的是我們，想想就不安呢~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，这次可以保证，大家从这里就能回到原来的世界了。",
+			say = "嗯，這次可以保證，大家從這裡就能回到原來的世界了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（那场演唱会之后，舰船伙伴们所说的异常能量和“μ兵装”产生的能量一起消失了）",
+			say = "（那場演唱會之後，艦船夥伴們所說的異常能量和“μ兵裝”產生的能量一起消失了）",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（其中一部分的余波影响到了这个港区，好像使得我们来到这个世界时使用的通路又能用了…）",
+			say = "（其中一部分的餘波影響到了這個港區，好像使得我們來到這個世界時使用的通路又能用了…）",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -337,7 +337,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（虽然到头来都不知道为什么突然来到了这个世界，不过能回去真是太好了……）",
+			say = "（雖然到頭來都不知道為什麼突然來到了這個世界，不過能回去真是太好了……）",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“μ兵装”，确认回收完毕。",
+			say = "“μ兵裝”，確認回收完畢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "辛苦啦！谢谢大家一直以来的帮助！",
+			say = "辛苦啦！謝謝大家一直以來的幫助！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲，不会忘记大家的。",
+			say = "拉菲，不會忘記大家的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "希望以后还能大家一起玩游戏的说。",
+			say = "希望以後還能大家一起玩遊戲的說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次绝对不会输的！对吧，真美？",
+			say = "下次絕對不會輸的！對吧，真美？",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -446,7 +446,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，明明输的是亚美啦！",
+			say = "真是的，明明輸的是亞美啦！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~果然到这种时候就伤感起来了呢…",
+			say = "啊~果然到這種時候就傷感起來了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…别看我啦！不过，久违地享受了一次演出，还是挺开心的…那个……",
+			say = "…別看我啦！不過，久違地享受了一次演出，還是挺開心的…那個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通路状况确认安全。请求判断出发许可。",
+			say = "通路狀況確認安全。請求判斷出發許可。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已经到时间了呢。没办法了呀~",
+			say = "已經到時間了呢。沒辦法了呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………这一次多亏大家关照了。",
+			say = "…………這一次多虧大家關照了。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -544,7 +544,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "承蒙关照。能跟大家一起度过这段时光真的很开心～呵呵",
+			say = "承蒙關照。能跟大家一起度過這段時光真的很開心～呵呵",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -561,7 +561,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不止是演出，在这边经历的各种各样的事都很开心！",
+			say = "不止是演出，在這邊經歷的各種各樣的事都很開心！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -588,7 +588,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "亚美也超开心的♪",
+			say = "亞美也超開心的♪",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -605,7 +605,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这个世界度过的这段时间真的是一段很棒的体验。真的谢谢大家了！",
+			say = "在這個世界度過的這段時間真的是一段很棒的體驗。真的謝謝大家了！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -622,7 +622,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊织酱走了之后可别觉得太寂寞哦！",
+			say = "伊織醬走了之後可別覺得太寂寞哦！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -639,7 +639,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总有一天，大家要再一起办演唱会哦！",
+			say = "總有一天，大家要再一起辦演唱會哦！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -662,11 +662,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "工作人员",
+			actorName = "工作人員",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好的，那么有请下一位！",
+			say = "好的，那麼有請下一位！",
 			bgm = "idom-MainBGM",
 			flashout = {
 				dur = 0.5,
@@ -705,7 +705,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎，我们这是，回来了吗……",
+			say = "哎，我們這是，回來了嗎……",
 			hidePaintEquip = true,
 			effects = {
 				{
@@ -773,7 +773,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一眨眼就结束了吗？不过总觉得过了很长时间呢…",
+			say = "一眨眼就結束了嗎？不過總覺得過了很長時間呢…",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -790,7 +790,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，可没有休息的时间，继续摄影吧！下一个是春香吗？",
+			say = "好了，可沒有休息的時間，繼續攝影吧！下一個是春香嗎？",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -808,7 +808,7 @@ return {
 			actor = 10700020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对，应该是。",
+			say = "對，應該是。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -821,11 +821,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "工作人员",
+			actorName = "工作人員",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~下一位拍照的请准备——",
+			say = "好~下一位拍照的請準備——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,7 +842,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好的—！拜托了！",
+			say = "好的—！拜託了！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -858,7 +858,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "“从远方出现，威胁着碧蓝色星球航路的未知侵略者”",
+			say = "“從遠方出現，威脅著碧藍色星球航路的未知侵略者”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,7 +873,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "“从海底苏醒，英勇迎击的钢铁战舰们”",
+			say = "“從海底甦醒，英勇迎擊的鋼鐵戰艦們”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "“偶像们歌唱的主题曲，支撑着勇者们的战斗……”",
+			say = "“偶像們歌唱的主題曲，支撐著勇者們的戰鬥……”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,7 +904,7 @@ return {
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			blackBg = true,
-			say = "偶像们的道路，舰船们的道路，还将继续下去——",
+			say = "偶像們的道路，艦船們的道路，還將繼續下去——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

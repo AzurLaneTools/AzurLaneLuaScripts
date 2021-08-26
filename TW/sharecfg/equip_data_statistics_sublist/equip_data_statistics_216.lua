@@ -1,63 +1,63 @@
 pg = pg or {}
 pg.equip_data_statistics_216 = {
-	[31221] = {
-		id = 31221,
-		base = 31220,
+	[31141] = {
+		id = 31141,
+		base = 31140,
 		weapon_id = {
-			31221
+			31141
 		}
 	},
-	[31222] = {
-		id = 31222,
-		damage = "5 x 4",
-		base = 31220,
+	[31142] = {
+		id = 31142,
+		damage = "4 x 1",
+		base = 31140,
 		weapon_id = {
-			31222
+			31142
 		}
 	},
-	[31223] = {
-		id = 31223,
-		damage = "5 x 4",
-		base = 31220,
+	[31143] = {
+		id = 31143,
+		damage = "4 x 1",
+		base = 31140,
 		weapon_id = {
-			31223
+			31143
 		}
 	},
-	[31224] = {
-		id = 31224,
-		damage = "7 x 4",
-		base = 31220,
+	[31144] = {
+		id = 31144,
+		damage = "7 x 1",
+		base = 31140,
 		weapon_id = {
-			31224
+			31144
 		}
 	},
-	[31225] = {
-		id = 31225,
-		damage = "7 x 4",
-		base = 31220,
+	[31145] = {
+		id = 31145,
+		damage = "7 x 1",
+		base = 31140,
 		weapon_id = {
-			31225
+			31145
 		}
 	},
-	[31226] = {
-		id = 31226,
-		damage = "8 x 4",
-		base = 31220,
+	[31146] = {
+		id = 31146,
+		damage = "8 x 1",
+		base = 31140,
 		weapon_id = {
-			31226
+			31146
 		}
 	},
-	[31240] = {
-		tech = 3,
+	[31200] = {
+		tech = 1,
 		name = "127mm連裝炮",
 		speciality = "鎖定",
 		type = 1,
-		value_2 = 25,
-		ammo = 2,
+		value_2 = 5,
+		ammo = 3,
 		damage = "4 x 4",
 		nationality = 3,
-		rarity = 4,
-		id = 31240,
+		rarity = 2,
+		id = 31200,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
@@ -65,12 +65,12 @@ pg.equip_data_statistics_216 = {
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
-			3
+			1
 		},
 		ammo_info = {
 			{
 				1,
-				1206
+				1200
 			}
 		},
 		equip_info = {
@@ -78,7 +78,7 @@ pg.equip_data_statistics_216 = {
 			2,
 			{
 				3,
-				1206
+				1200
 			},
 			{
 				4,
@@ -90,7 +90,7 @@ pg.equip_data_statistics_216 = {
 			12
 		},
 		weapon_id = {
-			31240
+			31200
 		},
 		skill_id = {},
 		part_main = {
@@ -110,47 +110,103 @@ pg.equip_data_statistics_216 = {
 		label = {
 			"IJN",
 			"DD",
-			"MG",
-			"HE"
+			"MG"
 		}
 	},
-	[31241] = {
-		id = 31241,
-		base = 31240,
+	[31201] = {
+		id = 31201,
+		base = 31200,
 		weapon_id = {
-			31241
+			31201
 		}
 	},
-	[31242] = {
-		id = 31242,
+	[31202] = {
+		id = 31202,
 		damage = "5 x 4",
-		base = 31240,
+		base = 31200,
 		weapon_id = {
-			31242
+			31202
 		}
 	},
-	[31243] = {
-		id = 31243,
+	[31203] = {
+		id = 31203,
 		damage = "5 x 4",
-		base = 31240,
+		base = 31200,
 		weapon_id = {
-			31243
+			31203
 		}
 	},
-	[31244] = {
-		id = 31244,
-		damage = "8 x 4",
-		base = 31240,
+	[31220] = {
+		tech = 2,
+		name = "127mm連裝炮",
+		speciality = "鎖定",
+		type = 1,
+		value_2 = 12,
+		ammo = 3,
+		damage = "4 x 4",
+		nationality = 3,
+		rarity = 3,
+		id = 31220,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "說明未填寫",
+		icon = "31200",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				1200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1200
+			},
+			{
+				4,
+				1001
+			},
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			31244
+			31220
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
 		}
 	},
-	[31245] = {
-		id = 31245,
-		damage = "8 x 4",
-		base = 31240,
+	[31221] = {
+		id = 31221,
+		base = 31220,
 		weapon_id = {
-			31245
+			31221
 		}
 	}
 }

@@ -2,165 +2,6 @@ pg = pg or {}
 pg.weapon_property_156 = {}
 
 (function ()
-	uv0.weapon_property_156[68539] = {
-		id = 68539,
-		name = "埃米尔·贝尔汀改技能鱼雷LV9",
-		damage = 67,
-		base = 68531
-	}
-	uv0.weapon_property_156[68540] = {
-		id = 68540,
-		name = "埃米尔·贝尔汀改技能鱼雷LV10",
-		damage = 72,
-		base = 68531
-	}
-	uv0.weapon_property_156[68541] = {
-		recover_time = 0.5,
-		name = "伊25技能零侦LV1",
-		shakescreen = 0,
-		type = 11,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 0,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 90,
-		reload_max = 1890,
-		queue = 1,
-		range = 90,
-		damage = 70,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "plane",
-		fire_sfx = "battle/cannon-main",
-		id = 68541,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			68541
-		},
-		barrage_ID = {
-			12008
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_156[68542] = {
-		id = 68542,
-		name = "伊25技能零侦LV2",
-		damage = 78,
-		base = 68541
-	}
-	uv0.weapon_property_156[68543] = {
-		id = 68543,
-		name = "伊25技能零侦LV3",
-		damage = 85,
-		base = 68541
-	}
-	uv0.weapon_property_156[68544] = {
-		id = 68544,
-		name = "伊25技能零侦LV4",
-		damage = 93,
-		base = 68541
-	}
-	uv0.weapon_property_156[68545] = {
-		id = 68545,
-		name = "伊25技能零侦LV5",
-		damage = 100,
-		base = 68541
-	}
-	uv0.weapon_property_156[68546] = {
-		id = 68546,
-		name = "伊25技能零侦LV6",
-		damage = 108,
-		base = 68541
-	}
-	uv0.weapon_property_156[68547] = {
-		id = 68547,
-		name = "伊25技能零侦LV7",
-		damage = 115,
-		base = 68541
-	}
-	uv0.weapon_property_156[68548] = {
-		id = 68548,
-		name = "伊25技能零侦LV8",
-		damage = 123,
-		base = 68541
-	}
-	uv0.weapon_property_156[68549] = {
-		id = 68549,
-		name = "伊25技能零侦LV9",
-		damage = 130,
-		base = 68541
-	}
-	uv0.weapon_property_156[68550] = {
-		id = 68550,
-		name = "伊25技能零侦LV10",
-		damage = 138,
-		base = 68541
-	}
-	uv0.weapon_property_156[68551] = {
-		recover_time = 0,
-		name = "2 x 150lb 炸彈",
-		shakescreen = 0,
-		type = 2,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = 25,
-		fire_fx_loop_type = 1,
-		attack_attribute = 2,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 25,
-		reload_max = 9500,
-		queue = 1,
-		range = 500,
-		damage = 72,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "cannon",
-		fire_sfx = "",
-		id = 68551,
-		attack_attribute_ratio = 75,
-		aim_type = 1,
-		bullet_ID = {
-			19999
-		},
-		barrage_ID = {
-			2121
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_156[68552] = {
-		id = 68552,
-		damage = 81,
-		base = 68551
-	}
 	uv0.weapon_property_156[68553] = {
 		id = 68553,
 		damage = 90,
@@ -693,6 +534,300 @@ pg.weapon_property_156 = {}
 			80777,
 			80778,
 			80779
+		}
+	}
+	uv0.weapon_property_156[68611] = {
+		recover_time = 0.5,
+		name = "阿拉巴马技能·小子弹LV1",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 50,
+		damage = 11,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 68611,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80771
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_156[68612] = {
+		id = 68612,
+		name = "阿拉巴马技能·小子弹LV2",
+		damage = 12,
+		base = 68611,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80768,
+			80771,
+			80772
+		}
+	}
+	uv0.weapon_property_156[68613] = {
+		id = 68613,
+		name = "阿拉巴马技能·小子弹LV3",
+		damage = 13,
+		base = 68611,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80768,
+			80771,
+			80772
+		}
+	}
+	uv0.weapon_property_156[68614] = {
+		id = 68614,
+		name = "阿拉巴马技能·小子弹LV4",
+		damage = 14,
+		base = 68611,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80769,
+			80771,
+			80773
+		}
+	}
+	uv0.weapon_property_156[68615] = {
+		id = 68615,
+		name = "阿拉巴马技能·小子弹LV5",
+		damage = 15,
+		base = 68611,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80769,
+			80771,
+			80773
+		}
+	}
+	uv0.weapon_property_156[68616] = {
+		id = 68616,
+		name = "阿拉巴马技能·小子弹LV6",
+		damage = 16,
+		base = 68611,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80770,
+			80771,
+			80774
+		}
+	}
+	uv0.weapon_property_156[68617] = {
+		id = 68617,
+		name = "阿拉巴马技能·小子弹LV7",
+		damage = 17,
+		base = 68611,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80770,
+			80771,
+			80774
+		}
+	}
+	uv0.weapon_property_156[68618] = {
+		id = 68618,
+		name = "阿拉巴马技能·小子弹LV8",
+		damage = 18,
+		base = 68611,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80770,
+			80771,
+			80774,
+			80775
+		}
+	}
+	uv0.weapon_property_156[68619] = {
+		id = 68619,
+		name = "阿拉巴马技能·小子弹LV9",
+		damage = 19,
+		base = 68611,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80770,
+			80771,
+			80774,
+			80775
+		}
+	}
+	uv0.weapon_property_156[68620] = {
+		id = 68620,
+		name = "阿拉巴马技能·小子弹LV10",
+		damage = 20,
+		base = 68611,
+		bullet_ID = {
+			19905,
+			19905,
+			19905,
+			19905,
+			19905
+		},
+		barrage_ID = {
+			80767,
+			80770,
+			80771,
+			80774,
+			80776
+		}
+	}
+	uv0.weapon_property_156[68621] = {
+		recover_time = 0.5,
+		name = "巴丹技能战斗机Lv1",
+		shakescreen = 0,
+		type = 10,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 0,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		reload_max = 2490,
+		queue = 1,
+		range = 90,
+		damage = 39,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 68621,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			68621
+		},
+		barrage_ID = {
+			12010
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_156[68622] = {
+		id = 68622,
+		name = "巴丹技能战斗机Lv2",
+		damage = 45,
+		base = 68621,
+		bullet_ID = {
+			68622
+		}
+	}
+	uv0.weapon_property_156[68623] = {
+		id = 68623,
+		name = "巴丹技能战斗机Lv3",
+		damage = 49,
+		base = 68621,
+		bullet_ID = {
+			68623
+		}
+	}
+	uv0.weapon_property_156[68624] = {
+		id = 68624,
+		name = "巴丹技能战斗机Lv4",
+		damage = 56,
+		base = 68621,
+		bullet_ID = {
+			68624
+		}
+	}
+	uv0.weapon_property_156[68625] = {
+		id = 68625,
+		name = "巴丹技能战斗机Lv5",
+		damage = 60,
+		base = 68621,
+		bullet_ID = {
+			68625
 		}
 	}
 end)()

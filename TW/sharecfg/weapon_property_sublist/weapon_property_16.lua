@@ -2,30 +2,6 @@ pg = pg or {}
 pg.weapon_property_16 = {}
 
 (function ()
-	uv0.weapon_property_16[15023] = {
-		id = 15023,
-		reload_max = 4725,
-		damage = 67,
-		base = 15020
-	}
-	uv0.weapon_property_16[15024] = {
-		id = 15024,
-		reload_max = 4650,
-		damage = 74,
-		base = 15020
-	}
-	uv0.weapon_property_16[15025] = {
-		id = 15025,
-		reload_max = 4575,
-		damage = 81,
-		base = 15020
-	}
-	uv0.weapon_property_16[15026] = {
-		id = 15026,
-		reload_max = 4500,
-		damage = 88,
-		base = 15020
-	}
 	uv0.weapon_property_16[15040] = {
 		recover_time = 0.5,
 		name = "潛艇用Mark14魚雷",
@@ -611,6 +587,36 @@ pg.weapon_property_16 = {}
 		id = 15161,
 		reload_max = 2521,
 		damage = 62,
+		base = 15160
+	}
+	uv0.weapon_property_16[15162] = {
+		id = 15162,
+		reload_max = 2450,
+		damage = 71,
+		base = 15160
+	}
+	uv0.weapon_property_16[15163] = {
+		id = 15163,
+		reload_max = 2379,
+		damage = 80,
+		base = 15160
+	}
+	uv0.weapon_property_16[15164] = {
+		id = 15164,
+		reload_max = 2308,
+		damage = 89,
+		base = 15160
+	}
+	uv0.weapon_property_16[15165] = {
+		id = 15165,
+		reload_max = 2237,
+		damage = 99,
+		base = 15160
+	}
+	uv0.weapon_property_16[15166] = {
+		id = 15166,
+		reload_max = 2166,
+		damage = 109,
 		base = 15160
 	}
 end)()

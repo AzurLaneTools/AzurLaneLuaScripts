@@ -2,6 +2,95 @@ pg = pg or {}
 pg.weapon_property_135 = {}
 
 (function ()
+	uv0.weapon_property_135[66850] = {
+		id = 66850,
+		damage = 240,
+		base = 66840
+	}
+	uv0.weapon_property_135[66860] = {
+		recover_time = 0.5,
+		name = "羅伯茨級技能箭型LV0",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 500,
+		queue = 1,
+		range = 50,
+		damage = 21,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 66860,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19925,
+			19925
+		},
+		barrage_ID = {
+			80081,
+			80085
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_135[66861] = {
+		id = 66861,
+		name = "羅伯茨級技能箭型LV1",
+		damage = 26,
+		base = 66860
+	}
+	uv0.weapon_property_135[66862] = {
+		id = 66862,
+		name = "羅伯茨級技能箭型LV2",
+		damage = 31,
+		base = 66860
+	}
+	uv0.weapon_property_135[66863] = {
+		id = 66863,
+		name = "羅伯茨級技能箭型LV3",
+		damage = 36,
+		base = 66860
+	}
+	uv0.weapon_property_135[66864] = {
+		id = 66864,
+		name = "羅伯茨級技能箭型LV4",
+		damage = 41,
+		base = 66860,
+		barrage_ID = {
+			80082,
+			80086
+		}
+	}
+	uv0.weapon_property_135[66865] = {
+		id = 66865,
+		name = "羅伯茨級技能箭型LV5",
+		damage = 46,
+		base = 66860,
+		barrage_ID = {
+			80082,
+			80086
+		}
+	}
 	uv0.weapon_property_135[66866] = {
 		id = 66866,
 		name = "羅伯茨級技能箭型LV6",
@@ -710,90 +799,5 @@ pg.weapon_property_135 = {}
 		bullet_ID = {
 			66966
 		}
-	}
-	uv0.weapon_property_135[66967] = {
-		id = 66967,
-		name = "薩拉托加技能轟炸機Lv7",
-		damage = 154,
-		base = 66960,
-		bullet_ID = {
-			66967
-		}
-	}
-	uv0.weapon_property_135[66968] = {
-		id = 66968,
-		name = "薩拉托加技能轟炸機Lv8",
-		damage = 167,
-		base = 66960,
-		bullet_ID = {
-			66968
-		}
-	}
-	uv0.weapon_property_135[66969] = {
-		id = 66969,
-		name = "薩拉托加技能轟炸機Lv9",
-		damage = 179,
-		base = 66960,
-		bullet_ID = {
-			66969
-		}
-	}
-	uv0.weapon_property_135[66970] = {
-		id = 66970,
-		name = "薩拉托加技能轟炸機Lv10",
-		damage = 193,
-		base = 66960,
-		bullet_ID = {
-			66970
-		}
-	}
-	uv0.weapon_property_135[66980] = {
-		recover_time = 0,
-		name = "進水魚雷",
-		shakescreen = 0,
-		type = 3,
-		torpedo_ammo = 0,
-		fire_fx = "",
-		action_index = "",
-		charge_param = "",
-		axis_angle = -10,
-		fire_fx_loop_type = 1,
-		attack_attribute = 4,
-		expose = 0,
-		search_type = 2,
-		effect_move = 0,
-		angle = 25,
-		reload_max = 9500,
-		queue = 1,
-		range = 80,
-		damage = 63,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "torpedo",
-		fire_sfx = "",
-		id = 66980,
-		attack_attribute_ratio = 120,
-		aim_type = 1,
-		bullet_ID = {
-			19934
-		},
-		barrage_ID = {
-			2141
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_135[66981] = {
-		id = 66981,
-		damage = 76,
-		base = 66980
 	}
 end)()

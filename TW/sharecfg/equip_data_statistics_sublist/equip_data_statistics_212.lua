@@ -1,66 +1,179 @@
 pg = pg or {}
 pg.equip_data_statistics_212 = {
-	[31001] = {
-		id = 31001,
-		base = 31000,
+	[29308] = {
+		id = 29308,
+		base = 29300,
+		ammo_info = {
+			{
+				6,
+				50048
+			},
+			{
+				5,
+				53288
+			}
+		},
 		weapon_id = {
-			31001
+			29308
+		},
+		skill_id = {
+			6838
 		}
 	},
-	[31002] = {
-		id = 31002,
-		damage = "6 x 4",
-		base = 31000,
+	[29309] = {
+		id = 29309,
+		base = 29300,
+		ammo_info = {
+			{
+				6,
+				50049
+			},
+			{
+				5,
+				53289
+			}
+		},
 		weapon_id = {
-			31002
+			29309
+		},
+		skill_id = {
+			6839
 		}
 	},
-	[31003] = {
-		id = 31003,
-		damage = "6 x 4",
-		base = 31000,
+	[29310] = {
+		id = 29310,
+		base = 29300,
+		ammo_info = {
+			{
+				6,
+				50050
+			},
+			{
+				5,
+				53290
+			}
+		},
 		weapon_id = {
-			31003
+			29310
+		},
+		skill_id = {
+			6840
 		}
 	},
-	[31004] = {
-		id = 31004,
-		damage = "6 x 4",
-		base = 31000,
+	[30000] = {
+		tech = 0,
+		name = "305mm連裝炮",
+		speciality = "跨射",
+		type = 4,
+		value_2 = 12,
+		ammo = 3,
+		damage = "40 x 2",
+		nationality = 3,
+		rarity = 3,
+		id = 30000,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "說明未填寫",
+		icon = "30000",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				2,
+				1500
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			6,
+			10,
+			11,
+			12
+		},
 		weapon_id = {
-			31004
+			30000
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5,
+			10,
+			13
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG"
 		}
 	},
-	[31005] = {
-		id = 31005,
-		damage = "7 x 4",
-		base = 31000,
+	[30001] = {
+		id = 30001,
+		damage = "45 x 2",
+		base = 30000,
 		weapon_id = {
-			31005
+			30001
 		}
 	},
-	[31006] = {
-		id = 31006,
-		damage = "7 x 4",
-		base = 31000,
+	[30002] = {
+		id = 30002,
+		damage = "50 x 2",
+		base = 30000,
 		weapon_id = {
-			31006
+			30002
 		}
 	},
-	[31020] = {
+	[30003] = {
+		id = 30003,
+		damage = "56 x 2",
+		base = 30000,
+		weapon_id = {
+			30003
+		}
+	},
+	[30004] = {
+		id = 30004,
+		damage = "62 x 2",
+		base = 30000,
+		weapon_id = {
+			30004
+		}
+	},
+	[30005] = {
+		id = 30005,
+		damage = "68 x 2",
+		base = 30000,
+		weapon_id = {
+			30005
+		}
+	},
+	[30006] = {
+		id = 30006,
+		damage = "74 x 2",
+		base = 30000,
+		weapon_id = {
+			30006
+		}
+	},
+	[31000] = {
 		attribute_3 = "antiaircraft",
 		name = "雙聯100mm98式高射炮",
 		speciality = "鎖定",
 		type = 1,
-		tech = 2,
+		tech = 1,
 		ammo = 3,
-		rarity = 4,
+		rarity = 3,
 		damage = "4 x 4",
 		nationality = 3,
 		descrip = "說明未填寫",
-		value_3 = 16,
-		id = 31020,
-		value_2 = 9,
+		value_3 = 8,
+		id = 31000,
+		value_2 = 4,
 		icon = "31000",
 		torpedo_ammo = 0,
 		attribute_2 = "cannon",
@@ -91,7 +204,7 @@ pg.equip_data_statistics_212 = {
 			12
 		},
 		weapon_id = {
-			31020
+			31000
 		},
 		skill_id = {},
 		part_main = {
@@ -114,43 +227,11 @@ pg.equip_data_statistics_212 = {
 			"MG"
 		}
 	},
-	[31021] = {
-		id = 31021,
-		base = 31020,
+	[31001] = {
+		id = 31001,
+		base = 31000,
 		weapon_id = {
-			31021
-		}
-	},
-	[31022] = {
-		id = 31022,
-		damage = "6 x 4",
-		base = 31020,
-		weapon_id = {
-			31022
-		}
-	},
-	[31023] = {
-		id = 31023,
-		damage = "6 x 4",
-		base = 31020,
-		weapon_id = {
-			31023
-		}
-	},
-	[31024] = {
-		id = 31024,
-		damage = "7 x 4",
-		base = 31020,
-		weapon_id = {
-			31024
-		}
-	},
-	[31025] = {
-		id = 31025,
-		damage = "8 x 4",
-		base = 31020,
-		weapon_id = {
-			31025
+			31001
 		}
 	}
 }

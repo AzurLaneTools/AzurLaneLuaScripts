@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——接下来该轮到我们上台了呢。",
+			say = "——接下來該輪到我們上台了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			actor = 103250,
 			dir = 1,
-			say = "大家的“冒牌货”都出现了。看来对方也准备好“一决胜负”了呢。",
+			say = "大家的“冒牌貨”都出現了。看來對方也準備好“一決勝負”了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于来到最后的舞台了啊。我们只要站上舞台就可以了吗？",
+			say = "終於來到最後的舞台了啊。我們只要站上舞台就可以了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，即使要调查能量来源，也要先在舞台上打败那些冒牌货才行。",
+			say = "嗯，即使要調查能量來源，也要先在舞台上打敗那些冒牌貨才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果通路还开着的话，就直接把你们送回原来的世界。",
+			say = "如果通路還開著的話，就直接把妳們送回原來的世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "直到最后一刻都不能放松，加油吧。",
+			say = "直到最後一刻都不能放鬆，加油吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			actor = 10700040,
 			dir = 1,
-			say = "真是奇妙的感觉…就好像对着镜子做彩排一样呢。",
+			say = "真是奇妙的感覺…就好像對著鏡子做彩排一樣呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			actor = 10700010,
 			dir = 1,
-			say = "因为“冒牌货”的外表跟我们一样吗……？",
+			say = "因為“冒牌貨”的外表跟我們一樣嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			actor = 10700060,
 			dir = 1,
-			say = "不仅如此，连给人的感觉也挺像呢。",
+			say = "不僅如此，連給人的感覺也挺像呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			actor = 10700070,
 			dir = 1,
-			say = "不过还是很明显能看出不是本人…真是奇妙的感觉！",
+			say = "不過還是很明顯能看出不是本人…真是奇妙的感覺！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			actor = 10700030,
 			dir = 1,
-			say = "现在可不是在意这种事的时候了，我们要把精力集中在舞台上才行！",
+			say = "現在可不是在意這種事的時候了，我們要把精力集中在舞台上才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			actor = 10700040,
 			dir = 1,
-			say = "伊织说得对。我们要——",
+			say = "伊織說得對。我們要——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能量反应变强了喵！",
+			say = "能量反應變強了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "有种不祥的预感…谢菲，这个反应难道是…",
+			say = "有種不祥的預感…謝菲，這個反應難道是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，和各位偶像来到这边的那天很像。",
+			say = "嗯，和各位偶像來到這邊的那天很像。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			actor = 10700050,
 			dir = 1,
-			say = "意思是…会变成和我们过来的那天相同的状况吗？",
+			say = "意思是…會變成和我們過來的那天相同的狀況嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			actor = 307100,
 			dir = 1,
-			say = "只能说很可能会变成那样了呢。联络负责护卫的标枪她们，让她们也集合到舞台这边来吧。",
+			say = "只能說很可能會變成那樣了呢。聯絡負責護衛的標槍她們，讓她們也集合到舞台這邊來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			actor = 10700020,
 			dir = 1,
-			say = "不要紧吗？负责护卫的各位还肩负着吸引量产型的任务…",
+			say = "不要緊嗎？負責護衛的各位還肩負著吸引量產型的任務…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也不是没有μ兵装就不能站上舞台，她们也可以助演出一臂之力哦！",
+			say = "也不是沒有μ兵裝就不能站上舞台，她們也可以助演出一臂之力哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然说了要全力以赴，就得拿出全部的战力才行呢！",
+			say = "既然說了要全力以赴，就得拿出全部的戰力才行呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

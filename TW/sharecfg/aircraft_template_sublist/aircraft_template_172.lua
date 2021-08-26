@@ -1,104 +1,162 @@
 pg = pg or {}
 pg.aircraft_template_172 = {
-	[68024] = {
-		id = 68024,
-		name = "邦克山技能战斗机Lv4",
-		base = 68021,
-		max_hp = 70,
-		hp_growth = 2710,
+	[67936] = {
+		id = 67936,
+		name = "独立技能鱼雷机Lv6",
+		base = 67931,
+		max_hp = 69,
+		hp_growth = 2669,
 		weapon_ID = {
-			50444,
-			68054
+			67956
 		}
 	},
-	[68025] = {
-		id = 68025,
-		name = "邦克山技能战斗机Lv5",
-		base = 68021,
-		max_hp = 77,
-		hp_growth = 2964,
+	[67937] = {
+		id = 67937,
+		name = "独立技能鱼雷机Lv7",
+		base = 67931,
+		max_hp = 75,
+		hp_growth = 2879,
 		weapon_ID = {
-			50445,
-			68055
+			67957
 		}
 	},
-	[68026] = {
-		id = 68026,
-		name = "邦克山技能战斗机Lv6",
-		base = 68021,
-		max_hp = 84,
-		hp_growth = 3218,
+	[67938] = {
+		id = 67938,
+		name = "独立技能鱼雷机Lv8",
+		base = 67931,
+		max_hp = 80,
+		hp_growth = 3090,
 		weapon_ID = {
-			50446,
-			68056
+			67958
 		}
 	},
-	[68027] = {
-		id = 68027,
-		name = "邦克山技能战斗机Lv7",
-		base = 68021,
-		max_hp = 90,
-		hp_growth = 3472,
+	[67939] = {
+		id = 67939,
+		name = "独立技能鱼雷机Lv9",
+		base = 67931,
+		max_hp = 86,
+		hp_growth = 3301,
 		weapon_ID = {
-			50447,
-			68057
+			67959
 		}
 	},
-	[68028] = {
-		id = 68028,
-		name = "邦克山技能战斗机Lv8",
-		base = 68021,
-		max_hp = 97,
-		hp_growth = 3726,
+	[67940] = {
+		id = 67940,
+		name = "独立技能鱼雷机Lv10",
+		base = 67931,
+		max_hp = 91,
+		hp_growth = 3511,
 		weapon_ID = {
-			50448,
-			68058
+			67960
 		}
 	},
-	[68029] = {
-		id = 68029,
-		name = "邦克山技能战斗机Lv9",
-		base = 68021,
-		max_hp = 103,
-		hp_growth = 3980,
-		weapon_ID = {
-			50449,
-			68059
-		}
-	},
-	[68030] = {
-		id = 68030,
-		name = "邦克山技能战斗机Lv10",
-		base = 68021,
-		max_hp = 110,
-		hp_growth = 4234,
-		weapon_ID = {
-			50450,
-			68060
-		}
-	},
-	[68031] = {
+	[67981] = {
 		attack_power = 2,
-		name = "邦克山技能轰炸机Lv1",
-		type = 3,
+		name = "香格里拉技能飞机-PVE",
+		type = 1,
 		accuracy = 23,
-		model_ID = "sbdwuwei",
+		model_ID = "F6F",
 		ACC_growth = 0,
-		crash_DMG = 156,
+		crash_DMG = 406,
+		dodge = 1,
+		nationality = 1,
+		id = 67981,
+		icon = "F6F",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2282,
+		speed = 48,
+		max_hp = 69,
+		scale = 1,
+		funnel_behavior = {
+			offsetZ = -26,
+			hover_range = 18,
+			offsetX = 22
+		},
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[67982] = {
+		id = 67982,
+		name = "香格里拉技能飞机-PVP",
+		base = 67981,
+		funnel_behavior = {
+			offsetZ = -14,
+			hover_range = 18,
+			offsetX = 4
+		}
+	},
+	[68001] = {
+		attack_power = 2,
+		name = "邦克山技能鱼雷机Lv1",
+		type = 2,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 1,
-		id = 68031,
-		icon = "sbdwuwei",
+		id = 68001,
+		icon = "tbf",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1183,
-		speed = 46,
-		max_hp = 35,
+		hp_growth = 1404,
+		speed = 48,
+		max_hp = 37,
 		scale = 1,
 		weapon_ID = {
-			68041,
-			68051
+			68011
 		},
 		position_offset = {
 			0,
@@ -141,8 +199,8 @@ pg.aircraft_template_172 = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
+				0.15,
+				-0.08,
 				0
 			},
 			{
@@ -152,26 +210,24 @@ pg.aircraft_template_172 = {
 			}
 		}
 	},
-	[68032] = {
-		id = 68032,
-		name = "邦克山技能轰炸机Lv2",
-		base = 68031,
-		max_hp = 39,
-		hp_growth = 1345,
+	[68002] = {
+		id = 68002,
+		name = "邦克山技能鱼雷机Lv2",
+		base = 68001,
+		max_hp = 42,
+		hp_growth = 1615,
 		weapon_ID = {
-			68042,
-			68052
+			68012
 		}
 	},
-	[68033] = {
-		id = 68033,
-		name = "邦克山技能轰炸机Lv3",
-		base = 68031,
-		max_hp = 43,
-		hp_growth = 1507,
+	[68003] = {
+		id = 68003,
+		name = "邦克山技能鱼雷机Lv3",
+		base = 68001,
+		max_hp = 47,
+		hp_growth = 1826,
 		weapon_ID = {
-			68043,
-			68053
+			68013
 		}
 	}
 }

@@ -1,114 +1,77 @@
 pg = pg or {}
 pg.equip_data_statistics_391 = {
-	[90842] = {
-		id = 90842,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50022
-			},
-			{
-				4,
-				51562
-			}
-		},
+	[90781] = {
+		id = 90781,
+		damage = "12 x 4",
+		base = 90780,
 		weapon_id = {
-			90842
+			90781
 		}
 	},
-	[90843] = {
-		id = 90843,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50023
-			},
-			{
-				4,
-				51563
-			}
-		},
+	[90782] = {
+		id = 90782,
+		damage = "14 x 4",
+		base = 90780,
 		weapon_id = {
-			90843
+			90782
 		}
 	},
-	[90844] = {
-		id = 90844,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50024
-			},
-			{
-				4,
-				51564
-			}
-		},
+	[90783] = {
+		id = 90783,
+		damage = "16 x 4",
+		base = 90780,
 		weapon_id = {
-			90844
+			90783
 		}
 	},
-	[90845] = {
-		id = 90845,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50025
-			},
-			{
-				4,
-				51565
-			}
-		},
+	[90784] = {
+		id = 90784,
+		damage = "17 x 4",
+		base = 90780,
 		weapon_id = {
-			90845
+			90784
 		}
 	},
-	[90846] = {
-		id = 90846,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50026
-			},
-			{
-				4,
-				51566
-			}
-		},
+	[90785] = {
+		id = 90785,
+		damage = "18 x 4",
+		base = 90780,
 		weapon_id = {
-			90846
+			90785
 		}
 	},
-	[90860] = {
-		tech = 1,
-		name = "雙聯裝203mm主砲Mle1924",
+	[90786] = {
+		id = 90786,
+		damage = "19 x 4",
+		base = 90780,
+		weapon_id = {
+			90786
+		}
+	},
+	[90800] = {
+		tech = 0,
+		name = "單裝155mm副砲Mle1920",
 		speciality = "鎖定",
-		type = 3,
+		type = 2,
 		value_2 = 12,
-		ammo = 2,
-		damage = "26 x 4",
+		ammo = 3,
+		damage = "10 x 4",
 		nationality = 8,
 		rarity = 3,
-		id = 90860,
+		id = 90800,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "说明未填写",
-		icon = "50860",
+		icon = "50800",
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
-			3
+			1
 		},
 		ammo_info = {
 			{
 				1,
-				1416
+				2201
 			}
 		},
 		equip_info = {
@@ -116,11 +79,11 @@ pg.equip_data_statistics_391 = {
 			2,
 			{
 				3,
-				1416
+				2200
 			},
 			{
 				4,
-				1205
+				1025
 			},
 			6,
 			10,
@@ -128,68 +91,61 @@ pg.equip_data_statistics_391 = {
 			12
 		},
 		weapon_id = {
-			90860
+			90800
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			2
 		},
-		part_sub = {},
+		part_sub = {
+			5
+		},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"CA",
+			"CL",
 			"MG",
-			"HE"
+			"AP"
 		}
 	},
-	[90861] = {
-		id = 90861,
-		damage = "28 x 4",
-		base = 90860,
+	[90801] = {
+		id = 90801,
+		damage = "12 x 4",
+		base = 90800,
 		weapon_id = {
-			90861
+			90801
 		}
 	},
-	[90862] = {
-		id = 90862,
-		damage = "30 x 4",
-		base = 90860,
+	[90802] = {
+		id = 90802,
+		damage = "14 x 4",
+		base = 90800,
 		weapon_id = {
-			90862
+			90802
 		}
 	},
-	[90863] = {
-		id = 90863,
-		damage = "32 x 4",
-		base = 90860,
+	[90803] = {
+		id = 90803,
+		damage = "16 x 4",
+		base = 90800,
 		weapon_id = {
-			90863
+			90803
 		}
 	},
-	[90864] = {
-		id = 90864,
-		damage = "34 x 4",
-		base = 90860,
+	[90804] = {
+		id = 90804,
+		damage = "17 x 4",
+		base = 90800,
 		weapon_id = {
-			90864
+			90804
 		}
 	},
-	[90865] = {
-		id = 90865,
-		damage = "36 x 4",
-		base = 90860,
+	[90805] = {
+		id = 90805,
+		damage = "18 x 4",
+		base = 90800,
 		weapon_id = {
-			90865
-		}
-	},
-	[90866] = {
-		id = 90866,
-		damage = "38 x 4",
-		base = 90860,
-		weapon_id = {
-			90866
+			90805
 		}
 	}
 }

@@ -2,6 +2,24 @@ pg = pg or {}
 pg.weapon_property_140 = {}
 
 (function ()
+	uv0.weapon_property_140[67426] = {
+		id = 67426,
+		name = "大青花魚技能魚雷LV6",
+		damage = 27,
+		base = 67420,
+		barrage_ID = {
+			80502
+		}
+	}
+	uv0.weapon_property_140[67427] = {
+		id = 67427,
+		name = "大青花魚技能魚雷LV7",
+		damage = 30,
+		base = 67420,
+		barrage_ID = {
+			80502
+		}
+	}
 	uv0.weapon_property_140[67428] = {
 		id = 67428,
 		name = "大青花魚技能魚雷LV8",
@@ -581,11 +599,6 @@ pg.weapon_property_140 = {}
 	uv0.weapon_property_140[67542] = {
 		id = 67542,
 		damage = 56,
-		base = 67540
-	}
-	uv0.weapon_property_140[67543] = {
-		id = 67543,
-		damage = 63,
 		base = 67540
 	}
 end)()

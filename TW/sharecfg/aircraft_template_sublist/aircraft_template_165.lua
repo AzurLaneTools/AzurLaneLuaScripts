@@ -1,82 +1,55 @@
 pg = pg or {}
 pg.aircraft_template_165 = {
-	[67686] = {
-		id = 67686,
-		name = "龙骧技能轰炸机Lv6",
-		base = 67681,
-		max_hp = 73,
-		hp_growth = 3050,
-		weapon_ID = {
-			67696,
-			67706
-		}
-	},
-	[67687] = {
-		id = 67687,
-		name = "龙骧技能轰炸机Lv7",
-		base = 67681,
-		max_hp = 79,
-		hp_growth = 3290,
-		weapon_ID = {
-			67697,
-			67707
-		}
-	},
-	[67688] = {
-		id = 67688,
-		name = "龙骧技能轰炸机Lv8",
-		base = 67681,
+	[67367] = {
 		max_hp = 86,
-		hp_growth = 3531,
-		weapon_ID = {
-			67698,
-			67708
-		}
+		name = "大凤技能轰炸机Lv7",
+		base = 67360,
+		id = 67367,
+		hp_growth = 3290
 	},
-	[67689] = {
-		id = 67689,
-		name = "龙骧技能轰炸机Lv9",
-		base = 67681,
+	[67368] = {
 		max_hp = 92,
-		hp_growth = 3772,
-		weapon_ID = {
-			67699,
-			67709
-		}
+		name = "大凤技能轰炸机Lv8",
+		base = 67360,
+		id = 67368,
+		hp_growth = 3531
 	},
-	[67690] = {
-		id = 67690,
-		name = "龙骧技能轰炸机Lv10",
-		base = 67681,
+	[67369] = {
 		max_hp = 98,
-		hp_growth = 4013,
-		weapon_ID = {
-			67700,
-			67710
-		}
+		name = "大凤技能轰炸机Lv9",
+		base = 67360,
+		id = 67369,
+		hp_growth = 3772
 	},
-	[67781] = {
+	[67370] = {
+		max_hp = 104,
+		name = "大凤技能轰炸机Lv10",
+		base = 67360,
+		id = 67370,
+		hp_growth = 4013
+	},
+	[67500] = {
 		attack_power = 2,
-		name = "双龙改轰炸5 Lv1",
+		name = "约克城SBD",
 		type = 3,
 		accuracy = 23,
-		model_ID = "99shijianbao1",
+		model_ID = "sbdwuwei",
 		ACC_growth = 0,
-		crash_DMG = 180,
+		crash_DMG = 156,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 3,
-		id = 67781,
-		icon = "99shijianbao1",
+		nationality = 1,
+		id = 67500,
+		icon = "sbdwuwei",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1692,
-		speed = 48,
-		max_hp = 42,
+		hp_growth = 1183,
+		speed = 46,
+		max_hp = 31,
 		scale = 1,
 		weapon_ID = {
-			67801,
-			67811
+			67520,
+			67540
 		},
 		position_offset = {
 			0,
@@ -96,13 +69,13 @@ pg.aircraft_template_165 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.71,
-					-1.73,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.82,
-					2.04,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -119,8 +92,8 @@ pg.aircraft_template_165 = {
 				0
 			},
 			{
-				0,
-				0,
+				0.72,
+				-0.15,
 				0
 			},
 			{
@@ -130,48 +103,54 @@ pg.aircraft_template_165 = {
 			}
 		}
 	},
-	[67782] = {
-		id = 67782,
-		name = "双龙改轰炸5 Lv2",
-		base = 67781,
-		max_hp = 48,
-		hp_growth = 1913,
+	[67501] = {
+		id = 67501,
+		max_hp = 35,
+		hp_growth = 1345,
+		base = 67500,
 		weapon_ID = {
-			67802,
-			67812
+			67521,
+			67541
 		}
 	},
-	[67783] = {
-		id = 67783,
-		name = "双龙改轰炸5 Lv3",
-		base = 67781,
-		max_hp = 54,
-		hp_growth = 2133,
+	[67502] = {
+		id = 67502,
+		max_hp = 39,
+		hp_growth = 1507,
+		base = 67500,
 		weapon_ID = {
-			67803,
-			67813
+			67522,
+			67542
 		}
 	},
-	[67784] = {
-		id = 67784,
-		name = "双龙改轰炸5 Lv4",
-		base = 67781,
-		max_hp = 61,
-		hp_growth = 2354,
+	[67503] = {
+		id = 67503,
+		max_hp = 43,
+		hp_growth = 1669,
+		base = 67500,
 		weapon_ID = {
-			67804,
-			67814
+			67523,
+			67543
 		}
 	},
-	[67785] = {
-		id = 67785,
-		name = "双龙改轰炸5 Lv5",
-		base = 67781,
-		max_hp = 67,
-		hp_growth = 2575,
+	[67504] = {
+		id = 67504,
+		max_hp = 47,
+		hp_growth = 1831,
+		base = 67500,
 		weapon_ID = {
-			67805,
-			67815
+			67524,
+			67544
+		}
+	},
+	[67505] = {
+		id = 67505,
+		max_hp = 51,
+		hp_growth = 1994,
+		base = 67500,
+		weapon_ID = {
+			67525,
+			67545
 		}
 	}
 }

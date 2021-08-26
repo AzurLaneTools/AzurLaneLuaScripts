@@ -1,64 +1,96 @@
 pg = pg or {}
 pg.equip_data_statistics_180 = {
-	[26201] = {
-		id = 26201,
-		damage = "48/輪",
-		base = 26200,
+	[26141] = {
+		id = 26141,
+		damage = "39/輪",
+		base = 26140,
 		weapon_id = {
-			26201
+			26141
 		}
 	},
-	[26202] = {
-		id = 26202,
+	[26142] = {
+		id = 26142,
+		damage = "44/輪",
+		base = 26140,
+		weapon_id = {
+			26142
+		}
+	},
+	[26143] = {
+		id = 26143,
+		damage = "49/輪",
+		base = 26140,
+		weapon_id = {
+			26143
+		}
+	},
+	[26144] = {
+		id = 26144,
 		damage = "54/輪",
-		base = 26200,
+		base = 26140,
 		weapon_id = {
-			26202
+			26144
 		}
 	},
-	[26203] = {
-		id = 26203,
-		damage = "60/輪",
-		base = 26200,
+	[26145] = {
+		id = 26145,
+		damage = "59/輪",
+		base = 26140,
 		weapon_id = {
-			26203
+			26145
 		}
 	},
-	[26204] = {
-		id = 26204,
-		damage = "66/輪",
-		base = 26200,
+	[26146] = {
+		id = 26146,
+		damage = "64/輪",
+		base = 26140,
 		weapon_id = {
-			26204
+			26146
 		}
 	},
-	[26205] = {
-		id = 26205,
-		damage = "73/輪",
-		base = 26200,
+	[26147] = {
+		id = 26147,
+		damage = "69/輪",
+		base = 26140,
 		weapon_id = {
-			26205
+			26147
 		}
 	},
-	[26206] = {
-		id = 26206,
-		damage = "80/輪",
-		base = 26200,
+	[26148] = {
+		id = 26148,
+		damage = "74/輪",
+		base = 26140,
 		weapon_id = {
-			26206
+			26148
 		}
 	},
-	[26220] = {
-		tech = 2,
+	[26149] = {
+		id = 26149,
+		damage = "79/輪",
+		base = 26140,
+		weapon_id = {
+			26149
+		}
+	},
+	[26150] = {
+		id = 26150,
+		damage = "84/輪",
+		base = 26140,
+		weapon_id = {
+			26150
+		}
+	},
+	[26200] = {
+		tech = 1,
 		name = "八聯裝40mm“砰砰”炮",
 		speciality = "防空",
 		type = 6,
-		value_2 = 25,
+		value_2 = 12,
 		ammo = 5,
-		damage = "46/輪",
+		damage = "42/輪",
 		nationality = 2,
-		rarity = 4,
-		id = 26220,
+		rarity = 3,
+		id = 26200,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
@@ -74,7 +106,7 @@ pg.equip_data_statistics_180 = {
 			10
 		},
 		weapon_id = {
-			26220
+			26200
 		},
 		skill_id = {},
 		part_main = {
@@ -110,44 +142,12 @@ pg.equip_data_statistics_180 = {
 			"AA"
 		}
 	},
-	[26221] = {
-		id = 26221,
-		damage = "53/輪",
-		base = 26220,
+	[26201] = {
+		id = 26201,
+		damage = "48/輪",
+		base = 26200,
 		weapon_id = {
-			26221
-		}
-	},
-	[26222] = {
-		id = 26222,
-		damage = "60/輪",
-		base = 26220,
-		weapon_id = {
-			26222
-		}
-	},
-	[26223] = {
-		id = 26223,
-		damage = "67/輪",
-		base = 26220,
-		weapon_id = {
-			26223
-		}
-	},
-	[26224] = {
-		id = 26224,
-		damage = "74/輪",
-		base = 26220,
-		weapon_id = {
-			26224
-		}
-	},
-	[26225] = {
-		id = 26225,
-		damage = "81/輪",
-		base = 26220,
-		weapon_id = {
-			26225
+			26201
 		}
 	}
 }

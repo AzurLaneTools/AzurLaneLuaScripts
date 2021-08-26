@@ -11,6 +11,38 @@ function slot0.getUIName(slot0)
 	return "ChargeUI"
 end
 
+function slot0.preload(slot0, slot1)
+	if getProxy(ShopsProxy):ShouldRefreshChargeList() then
+		pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
+			callback = function ()
+				slot1 = uv0:getChargedList()
+				slot2 = uv0:GetNormalList()
+				slot3 = uv0:GetNormalGroupList()
+
+				if uv0:getFirstChargeList() then
+					uv1:setFirstChargeIds(slot0)
+				end
+
+				if slot1 then
+					uv1:setChargedList(slot1)
+				end
+
+				if slot2 then
+					uv1:setNormalList(slot2)
+				end
+
+				if slot3 then
+					uv1:setNormalGroupList(slot3)
+				end
+
+				uv2()
+			end
+		})
+	else
+		slot3()
+	end
+end
+
 function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 
@@ -655,13 +687,21 @@ function slot0.setItemVOs(slot0)
 			end
 		end
 	end
+
+	for slot5 = #slot0.itemVOs, 1, -1 do
+		slot6 = slot0.itemVOs[slot5]
+
+		if not slot6:IsShowWhenGroupSale(slot0:getGroupLimit(slot6:getConfig("group"))) then
+			table.remove(slot0.itemVOs, slot5)
+		end
+	end
 end
 
 function slot0.initItems(slot0)
 	slot0.isInitItems = true
 	slot0.itemGos = {}
 	slot0.itemRect = slot0:initRect(slot0.viewContainer:Find("itemPanel"), function (slot0)
-		slot1 = GoodsCard.New(slot0)
+		slot1 = ChargeGoodsCard.New(slot0)
 
 		table.insert(uv0.cards, slot1)
 		onButton(uv0, slot1.tr, function ()
@@ -724,10 +764,11 @@ function slot0.initItems(slot0)
 				hideLine = true,
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				drop = slot1,
+				subIntro = uv0.goodsVO:IsGroupSale() and i18n("gem_shop_xinzhi_tip", uv1:getGroupLimit(uv0.goodsVO:getConfig("group"))) or "",
 				onYes = function ()
 					if uv0 then
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("charge_scene_buy_confirm", uv1.goodsVO:getConfig("resource_num"), Item.New({
+							content = i18n("charge_scene_buy_confirm", uv1.goodsVO:GetPrice(), Item.New({
 								id = uv0
 							}):getConfig("name")),
 							onYes = function ()
@@ -772,7 +813,7 @@ function slot0.sortItems(slot0)
 			return slot4 < slot5
 		end
 	end)
-	slot0.itemRect:SetTotalCount(#slot0.itemVOs, -1)
+	slot0.itemRect:SetTotalCount(#slot0.itemVOs)
 end
 
 function slot0.closeItemDetail(slot0)

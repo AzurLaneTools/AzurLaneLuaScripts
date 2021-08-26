@@ -1,143 +1,207 @@
 pg = pg or {}
 pg.equip_data_statistics_370 = {
+	[85228] = {
+		id = 85228,
+		damage = "38/輪",
+		base = 85220,
+		weapon_id = {
+			85228
+		}
+	},
+	[85229] = {
+		id = 85229,
+		damage = "41/輪",
+		base = 85220,
+		weapon_id = {
+			85229
+		}
+	},
+	[85230] = {
+		id = 85230,
+		damage = "44/輪",
+		base = 85220,
+		weapon_id = {
+			85230
+		}
+	},
+	[85260] = {
+		tech = 2,
+		name = "B-54 100mm雙聯裝防空炮",
+		speciality = "防空",
+		type = 6,
+		value_2 = 12,
+		ammo = 5,
+		damage = "36/輪",
+		nationality = 7,
+		rarity = 3,
+		id = 85260,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "85240",
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85260
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85261] = {
+		id = 85261,
+		damage = "41/輪",
+		base = 85260,
+		weapon_id = {
+			85261
+		}
+	},
+	[85262] = {
+		id = 85262,
+		damage = "47/輪",
+		base = 85260,
+		weapon_id = {
+			85262
+		}
+	},
+	[85263] = {
+		id = 85263,
+		damage = "52/輪",
+		base = 85260,
+		weapon_id = {
+			85263
+		}
+	},
+	[85264] = {
+		id = 85264,
+		damage = "59/輪",
+		base = 85260,
+		weapon_id = {
+			85264
+		}
+	},
+	[85265] = {
+		id = 85265,
+		damage = "66/輪",
+		base = 85260,
+		weapon_id = {
+			85265
+		}
+	},
+	[85266] = {
+		id = 85266,
+		damage = "73/輪",
+		base = 85260,
+		weapon_id = {
+			85266
+		}
+	},
+	[85280] = {
+		tech = 3,
+		name = "B-54 100mm雙聯裝防空炮",
+		speciality = "防空",
+		type = 6,
+		value_2 = 25,
+		ammo = 5,
+		damage = "43/輪",
+		nationality = 7,
+		rarity = 4,
+		id = 85280,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "85240",
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85280
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
 	[85281] = {
 		id = 85281,
 		damage = "48/輪",
 		base = 85280,
 		weapon_id = {
 			85281
-		}
-	},
-	[85282] = {
-		id = 85282,
-		damage = "54/輪",
-		base = 85280,
-		weapon_id = {
-			85282
-		}
-	},
-	[85283] = {
-		id = 85283,
-		damage = "61/輪",
-		base = 85280,
-		weapon_id = {
-			85283
-		}
-	},
-	[85284] = {
-		id = 85284,
-		damage = "68/輪",
-		base = 85280,
-		weapon_id = {
-			85284
-		}
-	},
-	[85285] = {
-		id = 85285,
-		damage = "75/輪",
-		base = 85280,
-		weapon_id = {
-			85285
-		}
-	},
-	[85286] = {
-		id = 85286,
-		damage = "82/輪",
-		base = 85280,
-		weapon_id = {
-			85286
-		}
-	},
-	[85287] = {
-		id = 85287,
-		damage = "89/輪",
-		base = 85280,
-		weapon_id = {
-			85287
-		}
-	},
-	[85288] = {
-		id = 85288,
-		damage = "96/輪",
-		base = 85280,
-		weapon_id = {
-			85288
-		}
-	},
-	[85289] = {
-		id = 85289,
-		damage = "103/輪",
-		base = 85280,
-		weapon_id = {
-			85289
-		}
-	},
-	[85290] = {
-		id = 85290,
-		damage = "110/輪",
-		base = 85280,
-		weapon_id = {
-			85290
-		}
-	},
-	[85300] = {
-		tech = 1,
-		name = "B-37 三聯裝406mm主炮MK-1",
-		speciality = "跨射",
-		type = 4,
-		value_2 = 12,
-		ammo = 3,
-		damage = "50 x 3",
-		nationality = 7,
-		rarity = 3,
-		id = 85300,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "85300",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				2,
-				1570
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85300
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"BB",
-			"MG"
-		}
-	},
-	[85301] = {
-		id = 85301,
-		damage = "59 x 3",
-		base = 85300,
-		weapon_id = {
-			85301
 		}
 	}
 }

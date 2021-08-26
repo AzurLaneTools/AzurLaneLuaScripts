@@ -2,6 +2,119 @@ pg = pg or {}
 pg.weapon_property_6 = {}
 
 (function ()
+	uv0.weapon_property_6[5253] = {
+		reload_max = 3975,
+		damage = 156,
+		base = 5240,
+		id = 5253,
+		corrected = 118
+	}
+	uv0.weapon_property_6[5300] = {
+		recover_time = 0.5,
+		name = "雙聯550mm魚雷T1",
+		shakescreen = 0,
+		type = 16,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3600,
+		queue = 1,
+		range = 50,
+		damage = 42,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 5300,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1800
+		},
+		barrage_ID = {
+			1401
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_6[5301] = {
+		id = 5301,
+		reload_max = 3540,
+		damage = 49,
+		base = 5300
+	}
+	uv0.weapon_property_6[5302] = {
+		id = 5302,
+		reload_max = 3480,
+		damage = 57,
+		base = 5300
+	}
+	uv0.weapon_property_6[5303] = {
+		id = 5303,
+		reload_max = 3420,
+		damage = 65,
+		base = 5300
+	}
+	uv0.weapon_property_6[5320] = {
+		recover_time = 0.5,
+		name = "雙聯550mm魚雷T2",
+		shakescreen = 0,
+		type = 16,
+		torpedo_ammo = 0,
+		fire_fx = "",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 2,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		reload_max = 3500,
+		queue = 1,
+		range = 50,
+		damage = 47,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 1,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 5320,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			1800
+		},
+		barrage_ID = {
+			1401
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
 	uv0.weapon_property_6[5321] = {
 		id = 5321,
 		reload_max = 3430,
@@ -615,111 +728,5 @@ pg.weapon_property_6 = {}
 		base = 5540,
 		id = 5551,
 		corrected = 104
-	}
-	uv0.weapon_property_6[6000] = {
-		recover_time = 0.5,
-		name = "12.7mm防空機槍T1",
-		shakescreen = 0,
-		type = 22,
-		torpedo_ammo = 0,
-		fire_fx = "fangkongpaohuoshe",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 360,
-		reload_max = 63,
-		queue = 1,
-		range = 15,
-		damage = 6,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		id = 6000,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_6[6001] = {
-		id = 6001,
-		reload_max = 61,
-		damage = 7,
-		base = 6000
-	}
-	uv0.weapon_property_6[6002] = {
-		id = 6002,
-		reload_max = 60,
-		damage = 8,
-		base = 6000
-	}
-	uv0.weapon_property_6[6003] = {
-		id = 6003,
-		reload_max = 59,
-		damage = 9,
-		base = 6000
-	}
-	uv0.weapon_property_6[6020] = {
-		recover_time = 0.5,
-		name = "12.7mm防空機槍T2",
-		shakescreen = 0,
-		type = 22,
-		torpedo_ammo = 0,
-		fire_fx = "fangkongpaohuoshe",
-		action_index = "attack",
-		charge_param = "",
-		axis_angle = 0,
-		fire_fx_loop_type = 1,
-		attack_attribute = 3,
-		expose = 0,
-		search_type = 1,
-		effect_move = 1,
-		angle = 360,
-		reload_max = 60,
-		queue = 1,
-		range = 15,
-		damage = 8,
-		suppress = 1,
-		auto_aftercast = 0,
-		corrected = 100,
-		min_range = 0,
-		initial_over_heat = 0,
-		spawn_bound = "antiaircraft",
-		fire_sfx = "battle/cannon-air",
-		id = 6020,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			2000
-		},
-		barrage_ID = {
-			2000
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		precast_param = {}
 	}
 end)()

@@ -1,27 +1,27 @@
 pg = pg or {}
 pg.aircraft_template_140 = {
-	[65381] = {
+	[65201] = {
 		attack_power = 2,
-		name = "女天狗沙排啾轰炸机Lv1",
+		name = "大凤μ技能轰炸机Lv1",
 		type = 3,
 		accuracy = 23,
-		model_ID = "feiji_doa",
+		model_ID = "huixing",
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 65381,
-		icon = "feiji_doa",
+		id = 65201,
+		icon = "huixing",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1846,
-		speed = 48,
+		hp_growth = 1605,
+		speed = 60,
 		max_hp = 42,
 		scale = 1,
 		weapon_ID = {
-			65391,
-			65401
+			65211,
+			65221
 		},
 		position_offset = {
 			0,
@@ -75,103 +75,103 @@ pg.aircraft_template_140 = {
 			}
 		}
 	},
-	[65382] = {
-		id = 65382,
-		name = "女天狗沙排啾轰炸机Lv2",
-		base = 65381,
+	[65202] = {
+		id = 65202,
+		name = "大凤μ技能轰炸机Lv2",
+		base = 65201,
 		max_hp = 48,
+		hp_growth = 1846,
+		weapon_ID = {
+			65212,
+			65222
+		}
+	},
+	[65203] = {
+		id = 65203,
+		name = "大凤μ技能轰炸机Lv3",
+		base = 65201,
+		max_hp = 54,
 		hp_growth = 2087,
 		weapon_ID = {
-			65392,
-			65402
+			65213,
+			65223
 		}
 	},
-	[65383] = {
-		id = 65383,
-		name = "女天狗沙排啾轰炸机Lv3",
-		base = 65381,
-		max_hp = 54,
+	[65204] = {
+		id = 65204,
+		name = "大凤μ技能轰炸机Lv4",
+		base = 65201,
+		max_hp = 61,
 		hp_growth = 2327,
 		weapon_ID = {
-			65393,
-			65403
+			65214,
+			65224
 		}
 	},
-	[65384] = {
-		id = 65384,
-		name = "女天狗沙排啾轰炸机Lv4",
-		base = 65381,
-		max_hp = 61,
+	[65205] = {
+		id = 65205,
+		name = "大凤μ技能轰炸机Lv5",
+		base = 65201,
+		max_hp = 67,
 		hp_growth = 2568,
 		weapon_ID = {
-			65394,
-			65404
+			65215,
+			65225
 		}
 	},
-	[65385] = {
-		id = 65385,
-		name = "女天狗沙排啾轰炸机Lv5",
-		base = 65381,
-		max_hp = 67,
+	[65206] = {
+		id = 65206,
+		name = "大凤μ技能轰炸机Lv6",
+		base = 65201,
+		max_hp = 73,
 		hp_growth = 2809,
 		weapon_ID = {
-			65395,
-			65405
+			65216,
+			65226
 		}
 	},
-	[65386] = {
-		id = 65386,
-		name = "女天狗沙排啾轰炸机Lv6",
-		base = 65381,
-		max_hp = 73,
+	[65207] = {
+		id = 65207,
+		name = "大凤μ技能轰炸机Lv7",
+		base = 65201,
+		max_hp = 79,
 		hp_growth = 3050,
 		weapon_ID = {
-			65396,
-			65406
+			65217,
+			65227
 		}
 	},
-	[65387] = {
-		id = 65387,
-		name = "女天狗沙排啾轰炸机Lv7",
-		base = 65381,
-		max_hp = 79,
+	[65208] = {
+		id = 65208,
+		name = "大凤μ技能轰炸机Lv8",
+		base = 65201,
+		max_hp = 86,
 		hp_growth = 3290,
 		weapon_ID = {
-			65397,
-			65407
+			65218,
+			65228
 		}
 	},
-	[65388] = {
-		id = 65388,
-		name = "女天狗沙排啾轰炸机Lv8",
-		base = 65381,
-		max_hp = 86,
+	[65209] = {
+		id = 65209,
+		name = "大凤μ技能轰炸机Lv9",
+		base = 65201,
+		max_hp = 92,
 		hp_growth = 3531,
 		weapon_ID = {
-			65398,
-			65408
+			65219,
+			65229
 		}
 	},
-	[65389] = {
-		id = 65389,
-		name = "女天狗沙排啾轰炸机Lv9",
-		base = 65381,
-		max_hp = 92,
+	[65210] = {
+		id = 65210,
+		name = "大凤μ技能轰炸机Lv10",
+		base = 65201,
+		max_hp = 98,
 		hp_growth = 3772,
 		weapon_ID = {
-			65399,
-			65409
-		}
-	},
-	[65390] = {
-		id = 65390,
-		name = "女天狗沙排啾轰炸机Lv10",
-		base = 65381,
-		max_hp = 98,
-		hp_growth = 4013,
-		weapon_ID = {
-			65400,
-			65410
+			65220,
+			65230
 		}
 	}
 }

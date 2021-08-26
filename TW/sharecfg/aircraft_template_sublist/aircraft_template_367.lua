@@ -1,406 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_367 = {
-	[784317] = {
-		id = 784317,
-		name = "【2021意大利活动SP】塞壬航母R型战斗机",
-		base = 1000853,
-		model_ID = "sairenfeiji_R",
-		icon = "sairenfeiji_R"
-	},
-	[789001] = {
+	[781003] = {
 		attack_power = 2,
-		name = "【2021意大利活动】我方支援飞机B3",
+		name = "【2021意大利活动B1】BOSS 光辉 轰炸机",
 		type = 3,
 		accuracy = 23,
-		model_ID = "SM.79",
+		model_ID = "haiyan",
 		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 6,
-		id = 789001,
-		icon = "SM.79",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 5000,
-		speed = 32,
-		max_hp = 240,
-		scale = 1,
-		weapon_ID = {
-			789004,
-			789007
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.64,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[789002] = {
-		attack_power = 2,
-		name = "【2021意大利活动】我方支援飞机DS",
-		type = 3,
-		accuracy = 23,
-		model_ID = "SM.79",
-		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 6,
-		id = 789002,
-		icon = "SM.79",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 5000,
-		speed = 32,
-		max_hp = 360,
-		scale = 1,
-		weapon_ID = {
-			789005,
-			789008
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.64,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[789003] = {
-		attack_power = 2,
-		name = "【2021意大利活动】我方支援飞机SP",
-		type = 3,
-		accuracy = 23,
-		model_ID = "SM.79",
-		ACC_growth = 0,
-		crash_DMG = 208,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 6,
-		id = 789003,
-		icon = "SM.79",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 5000,
-		speed = 32,
-		max_hp = 450,
-		scale = 1,
-		weapon_ID = {
-			789006,
-			789009
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-1.73,
-					0
-				},
-				{
-					0.82,
-					2.04,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.64,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[800005] = {
-		attack_power = 2,
-		name = "三笠剧情战斗机",
-		type = 1,
-		accuracy = 23,
-		model_ID = "96jiangong",
-		ACC_growth = 0,
-		crash_DMG = 9,
+		crash_DMG = 89,
 		dodge = 1,
 		funnel_behavior = "",
 		nationality = 3,
-		id = 800005,
-		icon = "96jiangong",
+		id = 781003,
+		icon = "haiyan",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 980,
-		speed = 50,
-		max_hp = 13,
+		hp_growth = 2560,
+		speed = 30,
+		max_hp = 106,
 		scale = 0.75,
 		weapon_ID = {
-			133
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.72,
-				-0.15,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[800006] = {
-		attack_power = 2,
-		name = "三笠剧情鱼雷机",
-		type = 2,
-		accuracy = 23,
-		model_ID = "97jiangong",
-		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 800006,
-		icon = "97jiangong",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 1076,
-		speed = 48,
-		max_hp = 14,
-		scale = 0.75,
-		weapon_ID = {
-			135
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.54,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[800007] = {
-		attack_power = 2,
-		name = "三笠剧情轰炸机",
-		type = 3,
-		accuracy = 23,
-		model_ID = "99shijianbao1",
-		ACC_growth = 0,
-		crash_DMG = 9,
-		dodge = 1,
-		funnel_behavior = "",
-		nationality = 3,
-		id = 800007,
-		icon = "99shijianbao1",
-		AP_growth = 2000,
-		dodge_limit = 0,
-		hp_growth = 1206,
-		speed = 46,
-		max_hp = 16,
-		scale = 0.75,
-		weapon_ID = {
-			139
+			781006
 		},
 		position_offset = {
 			0,
@@ -454,30 +74,28 @@ pg.aircraft_template_367 = {
 			}
 		}
 	},
-	[800010] = {
+	[781004] = {
 		attack_power = 2,
-		name = "魔鬼鱼浮游炮",
-		type = 1,
+		name = "【2021意大利活动B1】BOSS 光辉 战斗机",
+		type = 3,
 		accuracy = 23,
-		model_ID = "fuyoupao",
+		model_ID = "haiduya",
 		ACC_growth = 0,
-		crash_DMG = 100,
+		crash_DMG = 48,
 		dodge = 1,
+		funnel_behavior = "",
 		nationality = 3,
-		id = 800010,
-		icon = "fuyoupao",
+		id = 781004,
+		icon = "haiduya",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1000,
-		speed = 70,
-		max_hp = 50,
+		hp_growth = 1960,
+		speed = 33,
+		max_hp = 86,
 		scale = 0.75,
-		funnel_behavior = {
-			exist = 20,
-			stay = 2
-		},
 		weapon_ID = {
-			800011
+			781007,
+			1100751
 		},
 		position_offset = {
 			0,
@@ -531,28 +149,27 @@ pg.aircraft_template_367 = {
 			}
 		}
 	},
-	[950157] = {
+	[781102] = {
 		attack_power = 2,
-		name = "挑战关卡8战斗机T1",
-		type = 1,
+		name = "【2021意大利活动B2】BOSS 光辉 鱼雷机",
+		type = 2,
 		accuracy = 23,
-		model_ID = "F4F",
+		model_ID = "suoyu",
 		ACC_growth = 0,
-		crash_DMG = 39,
+		crash_DMG = 69,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 1,
-		id = 950157,
-		icon = "F4F",
+		nationality = 3,
+		id = 781102,
+		icon = "suoyu",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 2686,
-		speed = 33,
-		max_hp = 39,
+		hp_growth = 2380,
+		speed = 30,
+		max_hp = 96,
 		scale = 0.75,
 		weapon_ID = {
-			950160,
-			950161
+			781105
 		},
 		position_offset = {
 			0,
@@ -572,13 +189,13 @@ pg.aircraft_template_367 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					-1.13,
+					-1.29,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					-1.25,
+					1.47,
 					0
 				}
 			}
@@ -595,7 +212,7 @@ pg.aircraft_template_367 = {
 				0
 			},
 			{
-				0.32,
+				0.54,
 				0,
 				0
 			},
@@ -606,27 +223,27 @@ pg.aircraft_template_367 = {
 			}
 		}
 	},
-	[950158] = {
+	[781103] = {
 		attack_power = 2,
-		name = "挑战关卡8鱼雷机T1",
-		type = 2,
+		name = "【2021意大利活动B2】BOSS 光辉 轰炸机",
+		type = 3,
 		accuracy = 23,
-		model_ID = "F6F",
+		model_ID = "haiyan",
 		ACC_growth = 0,
-		crash_DMG = 57,
+		crash_DMG = 89,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 1,
-		id = 950158,
-		icon = "F6F",
+		nationality = 3,
+		id = 781103,
+		icon = "haiyan",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 3136,
+		hp_growth = 2560,
 		speed = 30,
-		max_hp = 42,
+		max_hp = 106,
 		scale = 0.75,
 		weapon_ID = {
-			950162
+			781106
 		},
 		position_offset = {
 			0,
@@ -646,13 +263,327 @@ pg.aircraft_template_367 = {
 		bound_bone = {
 			weapon = {
 				{
-					1.24,
-					-1.34,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					1.43,
-					1.6,
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[781104] = {
+		attack_power = 2,
+		name = "【2021意大利活动B2】BOSS 光辉 战斗机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "haiduya",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 781104,
+		icon = "haiduya",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 33,
+		max_hp = 86,
+		scale = 0.75,
+		weapon_ID = {
+			781107,
+			1100751
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[781316] = {
+		id = 781316,
+		name = "【2021意大利活动B】塞壬航母R型轰炸机",
+		base = 1000841,
+		model_ID = "sairenfeiji_R",
+		icon = "sairenfeiji_R"
+	},
+	[781317] = {
+		id = 781317,
+		name = "【2021意大利活动B】塞壬航母R型战斗机",
+		base = 1000851,
+		model_ID = "sairenfeiji_R",
+		icon = "sairenfeiji_R"
+	},
+	[782201] = {
+		attack_power = 2,
+		name = "【2021意大利活动C3】塞壬执棋者II型 轰炸机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 86,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 782201,
+		icon = "shenhaifeiji",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2660,
+		speed = 30,
+		max_hp = 110,
+		scale = 0.75,
+		weapon_ID = {
+			782205
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[782202] = {
+		attack_power = 2,
+		name = "【2021意大利活动C3】塞壬执棋者II型 鱼雷机",
+		type = 2,
+		accuracy = 23,
+		model_ID = "shenhaifeiji",
+		ACC_growth = 0,
+		crash_DMG = 72,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 782202,
+		icon = "shenhaifeiji",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2380,
+		speed = 33,
+		max_hp = 99,
+		scale = 0.75,
+		weapon_ID = {
+			782206
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[782203] = {
+		attack_power = 2,
+		name = "【2021意大利活动C3】塞壬执棋者II型 浮游炮1",
+		type = 1,
+		accuracy = 23,
+		model_ID = "fuyoupao2",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		dodge = 1,
+		nationality = 3,
+		id = 782203,
+		icon = "fuyoupao2",
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2380,
+		speed = 70,
+		max_hp = 98,
+		scale = 0.75,
+		funnel_behavior = {
+			exist = 20,
+			stay = 2
+		},
+		weapon_ID = {
+			782207
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
 					0
 				}
 			}

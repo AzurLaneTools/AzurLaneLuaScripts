@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_143 = {
-	[65561] = {
+	[65451] = {
 		attack_power = 2,
-		name = "威悉技能轰炸机Lv1",
+		name = "META飞龙鱼雷机Lv1",
 		type = 3,
 		accuracy = 23,
-		model_ID = "JU87C",
+		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 156,
-		dodge = 0.315,
+		crash_DMG = 208,
+		dodge = 1,
 		funnel_behavior = "",
-		nationality = 4,
-		id = 65561,
-		icon = "JU87C",
+		nationality = 3,
+		id = 65451,
+		icon = "97jiangong",
 		AP_growth = 2000,
-		dodge_limit = 11,
-		hp_growth = 1549,
-		speed = 50,
-		max_hp = 51,
+		dodge_limit = 0,
+		hp_growth = 1692,
+		speed = 48,
+		max_hp = 42,
 		scale = 1,
 		weapon_ID = {
-			65581
+			65461
 		},
 		position_offset = {
 			0,
@@ -40,13 +40,13 @@ pg.aircraft_template_143 = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -63,7 +63,7 @@ pg.aircraft_template_143 = {
 				0
 			},
 			{
-				0,
+				0.54,
 				0,
 				0
 			},
@@ -74,94 +74,94 @@ pg.aircraft_template_143 = {
 			}
 		}
 	},
-	[65562] = {
-		id = 65562,
-		name = "威悉技能轰炸机Lv2",
-		base = 65561,
-		max_hp = 57,
-		hp_growth = 1781,
+	[65452] = {
+		id = 65452,
+		name = "META飞龙鱼雷机Lv2",
+		base = 65451,
+		max_hp = 48,
+		hp_growth = 1913,
 		weapon_ID = {
-			65582
+			65462
 		}
 	},
-	[65563] = {
-		id = 65563,
-		name = "威悉技能轰炸机Lv3",
-		base = 65561,
-		max_hp = 64,
-		hp_growth = 2013,
+	[65453] = {
+		id = 65453,
+		name = "META飞龙鱼雷机Lv3",
+		base = 65451,
+		max_hp = 54,
+		hp_growth = 2133,
 		weapon_ID = {
-			65583
+			65463
 		}
 	},
-	[65564] = {
-		id = 65564,
-		name = "威悉技能轰炸机Lv4",
-		base = 65561,
-		max_hp = 70,
-		hp_growth = 2246,
+	[65454] = {
+		id = 65454,
+		name = "META飞龙鱼雷机Lv4",
+		base = 65451,
+		max_hp = 61,
+		hp_growth = 2354,
 		weapon_ID = {
-			65584
+			65464
 		}
 	},
-	[65565] = {
-		id = 65565,
-		name = "威悉技能轰炸机Lv5",
-		base = 65561,
-		max_hp = 77,
-		hp_growth = 2478,
+	[65455] = {
+		id = 65455,
+		name = "META飞龙鱼雷机Lv5",
+		base = 65451,
+		max_hp = 67,
+		hp_growth = 2575,
 		weapon_ID = {
-			65585
+			65465
 		}
 	},
-	[65566] = {
-		id = 65566,
-		name = "威悉技能轰炸机Lv6",
-		base = 65561,
-		max_hp = 84,
-		hp_growth = 2710,
+	[65456] = {
+		id = 65456,
+		name = "META飞龙鱼雷机Lv6",
+		base = 65451,
+		max_hp = 73,
+		hp_growth = 2796,
 		weapon_ID = {
-			65586
+			65466
 		}
 	},
-	[65567] = {
-		id = 65567,
-		name = "威悉技能轰炸机Lv7",
-		base = 65561,
-		max_hp = 90,
-		hp_growth = 2943,
+	[65457] = {
+		id = 65457,
+		name = "META飞龙鱼雷机Lv7",
+		base = 65451,
+		max_hp = 79,
+		hp_growth = 3016,
 		weapon_ID = {
-			65587
+			65467
 		}
 	},
-	[65568] = {
-		id = 65568,
-		name = "威悉技能轰炸机Lv8",
-		base = 65561,
-		max_hp = 97,
-		hp_growth = 3175,
+	[65458] = {
+		id = 65458,
+		name = "META飞龙鱼雷机Lv8",
+		base = 65451,
+		max_hp = 86,
+		hp_growth = 3237,
 		weapon_ID = {
-			65588
+			65468
 		}
 	},
-	[65569] = {
-		id = 65569,
-		name = "威悉技能轰炸机Lv9",
-		base = 65561,
-		max_hp = 103,
-		hp_growth = 3407,
+	[65459] = {
+		id = 65459,
+		name = "META飞龙鱼雷机Lv9",
+		base = 65451,
+		max_hp = 92,
+		hp_growth = 3458,
 		weapon_ID = {
-			65589
+			65469
 		}
 	},
-	[65570] = {
-		id = 65570,
-		name = "威悉技能轰炸机Lv10",
-		base = 65561,
-		max_hp = 110,
-		hp_growth = 3640,
+	[65460] = {
+		id = 65460,
+		name = "META飞龙鱼雷机Lv10",
+		base = 65451,
+		max_hp = 98,
+		hp_growth = 3678,
 		weapon_ID = {
-			65590
+			65470
 		}
 	}
 }

@@ -2,6 +2,139 @@ pg = pg or {}
 pg.weapon_property_132 = {}
 
 (function ()
+	uv0.weapon_property_132[66488] = {
+		id = 66488,
+		name = "勝利刺穿-小子彈LV8",
+		damage = 14,
+		base = 66480,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_132[66489] = {
+		id = 66489,
+		name = "勝利刺穿-小子彈LV9",
+		damage = 15,
+		base = 66480,
+		bullet_ID = {
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80332,
+			80333
+		}
+	}
+	uv0.weapon_property_132[66490] = {
+		id = 66490,
+		name = "勝利刺穿-小子彈LV10",
+		damage = 16,
+		base = 66480,
+		bullet_ID = {
+			19916,
+			19916,
+			19916
+		},
+		barrage_ID = {
+			80331,
+			80334,
+			80335
+		}
+	}
+	uv0.weapon_property_132[66500] = {
+		recover_time = 0.5,
+		name = "烈焰崩襲LV0",
+		shakescreen = 0,
+		type = 1,
+		torpedo_ammo = 0,
+		fire_fx = "CLFire",
+		action_index = "attack",
+		charge_param = "",
+		axis_angle = 0,
+		fire_fx_loop_type = 1,
+		attack_attribute = 1,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		reload_max = 3000,
+		queue = 1,
+		range = 50,
+		damage = 11,
+		suppress = 1,
+		auto_aftercast = 0,
+		corrected = 100,
+		min_range = 0,
+		initial_over_heat = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 66500,
+		attack_attribute_ratio = 100,
+		aim_type = 1,
+		bullet_ID = {
+			19909
+		},
+		barrage_ID = {
+			80311
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+	uv0.weapon_property_132[66501] = {
+		id = 66501,
+		name = "烈焰崩襲LV1",
+		damage = 12,
+		base = 66500
+	}
+	uv0.weapon_property_132[66502] = {
+		id = 66502,
+		name = "烈焰崩襲LV2",
+		damage = 13,
+		base = 66500
+	}
+	uv0.weapon_property_132[66503] = {
+		id = 66503,
+		name = "烈焰崩襲LV3",
+		damage = 14,
+		base = 66500
+	}
+	uv0.weapon_property_132[66504] = {
+		id = 66504,
+		name = "烈焰崩襲LV4",
+		damage = 15,
+		base = 66500,
+		barrage_ID = {
+			80312
+		}
+	}
+	uv0.weapon_property_132[66505] = {
+		id = 66505,
+		name = "烈焰崩襲LV5",
+		damage = 16,
+		base = 66500,
+		barrage_ID = {
+			80312
+		}
+	}
+	uv0.weapon_property_132[66506] = {
+		id = 66506,
+		name = "烈焰崩襲LV6",
+		damage = 17,
+		base = 66500,
+		barrage_ID = {
+			80312
+		}
+	}
 	uv0.weapon_property_132[66507] = {
 		id = 66507,
 		name = "烈焰崩襲LV7",
@@ -653,100 +786,5 @@ pg.weapon_property_132 = {}
 		name = "寶石槍雨航彈",
 		damage = 139,
 		base = 66620
-	}
-	uv0.weapon_property_132[66625] = {
-		id = 66625,
-		name = "寶石槍雨航彈",
-		damage = 155,
-		base = 66620
-	}
-	uv0.weapon_property_132[66626] = {
-		id = 66626,
-		name = "寶石槍雨航彈",
-		damage = 171,
-		base = 66620
-	}
-	uv0.weapon_property_132[66627] = {
-		id = 66627,
-		name = "寶石槍雨航彈",
-		damage = 187,
-		base = 66620
-	}
-	uv0.weapon_property_132[66628] = {
-		id = 66628,
-		name = "寶石槍雨航彈",
-		damage = 203,
-		base = 66620
-	}
-	uv0.weapon_property_132[66629] = {
-		id = 66629,
-		name = "寶石槍雨航彈",
-		damage = 219,
-		base = 66620
-	}
-	uv0.weapon_property_132[66630] = {
-		id = 66630,
-		name = "寶石槍雨航彈",
-		damage = 235,
-		base = 66620
-	}
-	uv0.weapon_property_132[66640] = {
-		recover_time = 0.5,
-		name = "約克公爵技能LV0",
-		shakescreen = 302,
-		type = 23,
-		torpedo_ammo = 0,
-		fire_fx = "zhupao",
-		action_index = "attack_main",
-		fire_fx_loop_type = 1,
-		axis_angle = 0,
-		attack_attribute = 1,
-		reload_max = 3000,
-		expose = 0,
-		search_type = 1,
-		effect_move = 0,
-		angle = 50,
-		queue = 1,
-		suppress = 1,
-		range = 200,
-		damage = 40,
-		auto_aftercast = 0,
-		initial_over_heat = 1,
-		corrected = 110,
-		min_range = 35,
-		spawn_bound = "cannon",
-		fire_sfx = "battle/cannon-356mm",
-		id = 66640,
-		attack_attribute_ratio = 100,
-		aim_type = 1,
-		bullet_ID = {
-			19985
-		},
-		barrage_ID = {
-			1302
-		},
-		oxy_type = {
-			1
-		},
-		search_condition = {
-			1
-		},
-		charge_param = {
-			maxLock = 4,
-			lockTime = 0.3
-		},
-		precast_param = {}
-	}
-	uv0.weapon_property_132[66641] = {
-		id = 66641,
-		name = "約克公爵技能LV1",
-		damage = 46,
-		base = 66640
-	}
-	uv0.weapon_property_132[66642] = {
-		id = 66642,
-		name = "約克公爵技能LV2",
-		damage = 52,
-		base = 66640
 	}
 end)()

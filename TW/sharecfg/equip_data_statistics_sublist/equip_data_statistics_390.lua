@@ -1,229 +1,209 @@
 pg = pg or {}
 pg.equip_data_statistics_390 = {
-	[90804] = {
-		id = 90804,
+	[90740] = {
+		tech = 3,
+		name = "138.6mm單裝炮Mle1927",
+		speciality = "鎖定",
+		type = 1,
+		value_2 = 25,
+		ammo = 3,
+		damage = "6 x 4",
+		nationality = 8,
+		rarity = 4,
+		id = 90740,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "50700",
+		attribute_2 = "cannon",
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {
+			{
+				1,
+				2200
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1025
+			},
+			6,
+			10,
+			11,
+			12
+		},
+		weapon_id = {
+			90740
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			19
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90741] = {
+		id = 90741,
+		damage = "7 x 4",
+		base = 90740,
+		weapon_id = {
+			90741
+		}
+	},
+	[90742] = {
+		id = 90742,
+		damage = "8 x 4",
+		base = 90740,
+		weapon_id = {
+			90742
+		}
+	},
+	[90743] = {
+		id = 90743,
+		damage = "9 x 4",
+		base = 90740,
+		weapon_id = {
+			90743
+		}
+	},
+	[90744] = {
+		id = 90744,
+		damage = "10 x 4",
+		base = 90740,
+		weapon_id = {
+			90744
+		}
+	},
+	[90745] = {
+		id = 90745,
+		damage = "11 x 4",
+		base = 90740,
+		weapon_id = {
+			90745
+		}
+	},
+	[90746] = {
+		id = 90746,
+		damage = "12 x 4",
+		base = 90740,
+		weapon_id = {
+			90746
+		}
+	},
+	[90747] = {
+		id = 90747,
+		damage = "13 x 4",
+		base = 90740,
+		weapon_id = {
+			90747
+		}
+	},
+	[90748] = {
+		id = 90748,
+		damage = "15 x 4",
+		base = 90740,
+		weapon_id = {
+			90748
+		}
+	},
+	[90749] = {
+		id = 90749,
 		damage = "17 x 4",
-		base = 90800,
+		base = 90740,
 		weapon_id = {
-			90804
+			90749
 		}
 	},
-	[90805] = {
-		id = 90805,
-		damage = "18 x 4",
-		base = 90800,
-		weapon_id = {
-			90805
-		}
-	},
-	[90806] = {
-		id = 90806,
+	[90750] = {
+		id = 90750,
 		damage = "19 x 4",
-		base = 90800,
+		base = 90740,
 		weapon_id = {
-			90806
+			90750
 		}
 	},
-	[90820] = {
-		rarity = 3,
-		name = "GL.2艦載戰鬥機",
-		speciality = "空戰",
-		type = 7,
+	[90780] = {
 		tech = 0,
-		ammo = 5,
-		nationality = 8,
+		name = "雙聯裝155mm主砲Mle1920",
+		speciality = "鎖定",
+		type = 2,
 		value_2 = 12,
-		id = 90820,
-		torpedo_ammo = 0,
+		ammo = 3,
+		damage = "10 x 4",
+		nationality = 8,
+		rarity = 3,
+		id = 90780,
 		value_3 = 0,
+		torpedo_ammo = 0,
 		descrip = "说明未填写",
-		icon = "50820",
-		attribute_2 = "air",
+		icon = "50780",
+		attribute_2 = "cannon",
 		property_rate = {},
-		ammo_icon = {},
+		ammo_icon = {
+			1
+		},
 		ammo_info = {
 			{
-				6,
-				50020
+				1,
+				2200
 			}
 		},
 		equip_info = {
+			1,
+			2,
+			{
+				3,
+				2200
+			},
+			{
+				4,
+				1001
+			},
 			6,
-			7,
-			8,
-			9
+			10,
+			11,
+			12
 		},
 		weapon_id = {
-			90820,
-			88000
+			90780
 		},
 		skill_id = {},
 		part_main = {
-			6,
-			7
+			2
 		},
 		part_sub = {
-			6,
-			7
+			5
 		},
 		equip_parameters = {},
 		label = {
 			"FFNF",
-			"CV",
-			"FT"
-		}
-	},
-	[90821] = {
-		id = 90821,
-		base = 90820,
-		ammo_info = {
-			{
-				6,
-				50021
-			}
-		},
-		weapon_id = {
-			90821,
-			88001
-		}
-	},
-	[90822] = {
-		id = 90822,
-		base = 90820,
-		ammo_info = {
-			{
-				6,
-				50022
-			}
-		},
-		weapon_id = {
-			90822,
-			88002
-		}
-	},
-	[90823] = {
-		id = 90823,
-		base = 90820,
-		ammo_info = {
-			{
-				6,
-				50023
-			}
-		},
-		weapon_id = {
-			90823,
-			88003
-		}
-	},
-	[90824] = {
-		id = 90824,
-		base = 90820,
-		ammo_info = {
-			{
-				6,
-				50024
-			}
-		},
-		weapon_id = {
-			90824,
-			88004
-		}
-	},
-	[90825] = {
-		id = 90825,
-		base = 90820,
-		ammo_info = {
-			{
-				6,
-				50025
-			}
-		},
-		weapon_id = {
-			90825,
-			88005
-		}
-	},
-	[90826] = {
-		id = 90826,
-		base = 90820,
-		ammo_info = {
-			{
-				6,
-				50026
-			}
-		},
-		weapon_id = {
-			90826,
-			88006
-		}
-	},
-	[90840] = {
-		rarity = 3,
-		name = "PL.7艦載魚雷機",
-		speciality = "雷擊",
-		type = 8,
-		tech = 0,
-		ammo = 5,
-		nationality = 8,
-		value_2 = 12,
-		id = 90840,
-		torpedo_ammo = 0,
-		value_3 = 0,
-		descrip = "说明未填写",
-		icon = "50840",
-		attribute_2 = "air",
-		property_rate = {},
-		ammo_icon = {},
-		ammo_info = {
-			{
-				6,
-				50020
-			},
-			{
-				4,
-				51560
-			}
-		},
-		equip_info = {
-			6,
-			7,
-			8,
-			9
-		},
-		weapon_id = {
-			90840
-		},
-		skill_id = {},
-		part_main = {
-			6,
-			7
-		},
-		part_sub = {
-			6,
-			7
-		},
-		equip_parameters = {},
-		label = {
-			"FFNF",
-			"CV",
-			"TB"
-		}
-	},
-	[90841] = {
-		id = 90841,
-		base = 90840,
-		ammo_info = {
-			{
-				6,
-				50021
-			},
-			{
-				4,
-				51561
-			}
-		},
-		weapon_id = {
-			90841
+			"CL",
+			"MG",
+			"AP"
 		}
 	}
 }

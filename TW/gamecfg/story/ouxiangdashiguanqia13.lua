@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "装备的μ兵装的亚美一行在舞台上是不会输给任何人的！",
+			say = "裝備著μ兵裝的亞美一行在舞台上是不會輸給任何人的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			actor = 10700070,
 			dir = 1,
-			say = "尤其是不会输给冒牌货们的♪",
+			say = "尤其是不會輸給冒牌貨們的♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来吧，大家，让我们在这个世界也闪耀光辉吧！",
+			say = "來吧，大家，讓我們在這個世界也閃耀光輝吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然！不只是这个世界，无论在哪个舞台上都要闪耀光辉才对！",
+			say = "當然！不只是這個世界，無論在哪個舞台上都要閃耀光輝才對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "后台",
+			say = "後台",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -165,7 +165,7 @@ return {
 			actor = 307100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…什么情况？！",
+			say = "…什麼情況？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "糟糕了喵！能量越来越强了喵！",
+			say = "糟糕了喵！能量越來越強了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}，冷静一下，先说清楚发生了什么事情，以及该做什么。",
+			say = "{namecode:98}，冷靜一下，先說清楚發生了什麼事情，以及該做什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "演唱会开始后，本来就异常的能量反应变得越来越强喵。",
+			say = "演唱會開始後，本來就異常的能量反應變得越來越強喵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "汇报，根据加斯科涅的监视，判断能源的发生源是“舞台上”。",
+			say = "匯報，根據加斯科涅的監視，判斷能源的發生源是“舞台上”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 201216,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "连加斯科涅都这么说…那，如果一直这样下去会怎么样？",
+			say = "連加斯科涅都這麼說…那，如果一直這樣下去會怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果能量暴走的话……先不提原本设置在这里的机器…",
+			say = "如果能量暴走的話……先不提原本設置在這裡的機器…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…不止是舞台，整个港区都会灰飞烟灭的喵！",
+			say = "唔…不止是舞台，整個港區都會灰飛煙滅的喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 403054,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那，那要马上联络她们终止演唱会才行…！",
+			say = "那，那要馬上聯絡她們終止演唱會才行…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算刚刚中场休息的时候，能量也在上涨，就算现在停下来也阻止不了爆炸了喵！",
+			say = "就算剛剛中場休息的時候，能量也在上漲，就算現在停下來也阻止不了爆炸了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 905030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "提案，有能减轻能量暴走风险的方法。",
+			say = "提案，有能減輕能量暴走風險的方法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——装备μ兵装的全部舰船参加演唱会，用其产生的最大功率抑制能量暴走。",
+			say = "——裝備μ兵裝的全部艦船參加演唱會，用其產生的最大功率抑制能量暴走。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "意思就是说，用全力以赴的演出“正面压制”吗…",
+			say = "意思就是說，用全力以赴的演出“正面壓制”嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 103250,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是单纯明快的作战呢。幸好之前为了能一起演出而做了彩排呢。",
+			say = "真是單純明快的作戰呢。幸好之前為了能一起演出而做了彩排呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们需要做什么？",
+			say = "我們需要做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照原来的计划就好。多亏有你们在，演唱会的气氛才能更加热烈哦。",
+			say = "按照原來的計劃就好。多虧有妳們在，演唱會的氣氛才能更加熱烈哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊…绝不能辜负了大家的努力！",
+			say = "是啊…絕不能辜負了大家的努力！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来是要和舰船的大家一起登上舞台吗？",
+			say = "接下來是要和艦船的大家一起登上舞台嗎？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -535,7 +535,7 @@ return {
 			side = 2,
 			actor = 101176,
 			dir = 1,
-			say = "嗯…不然的话，大家都会爆炸的。",
+			say = "嗯…不然的話，大家都會爆炸的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			side = 2,
 			actor = 10700070,
 			dir = 1,
-			say = "是说爆炸性的特别演出？",
+			say = "是說爆炸性的特別演出？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "很遗憾并不是…事情是这样的……",
+			say = "很遺憾並不是…事情是這樣的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			actor = 10700060,
 			dir = 1,
 			hideOther = true,
-			actorName = "亚美・真美",
+			actorName = "亞美・真美",
 			say = "………………………………",
 			subActors = {
 				{
@@ -680,7 +680,7 @@ return {
 			side = 2,
 			actor = 301057,
 			dir = 1,
-			say = "…我们并不想牵连大家。只是…",
+			say = "…我們並不想牽連大家。只是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			side = 2,
 			actor = 201216,
 			dir = 1,
-			say = "都怪我们带大家来到这里…对不起…",
+			say = "都怪我們帶大家來到這裡…對不起…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有必要道歉哦。",
+			say = "沒有必要道歉哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊织小姐……？",
+			say = "伊織小姐……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们是在知道这些风险的前提下，让你们准备了“μ兵装”，才来到这里的。",
+			say = "我們是在知道這些風險的前提下，讓妳們準備了“μ兵裝”，才來到這裡的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，伊织酱说的对。",
+			say = "沒錯，伊織醬說的對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都到这一步了，只能一起加油努力到最后了不是吗？",
+			say = "都到這一步了，只能一起加油努力到最後了不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且要是成功了，不仅可以解除这次危机，我们也能回到原来的世界，皆大欢喜！",
+			say = "而且要是成功了，不僅可以解除這次危機，我們也能回到原來的世界，皆大歡喜！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是就是！真美们的字典里可没有失败这个词—！",
+			say = "就是就是！真美們的字典裡可沒有失敗這個詞—！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果我们的歌能帮上大家的忙，我很愿意歌唱下去。",
+			say = "如果我們的歌能幫上大家的忙，我很願意歌唱下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +841,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是这个道理！大家齐心构建出的舞台，我可不允许它就这么被破坏了！",
+			say = "就是這個道理！大家齊心構建出的舞台，我可不允許它就這麼被破壞了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			actor = 10700010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了在这个世界最后的舞台上，大家能闪耀到最后一刻！",
+			say = "為了在這個世界最後的舞台上，大家能閃耀到最後一刻！",
 			effects = {
 				{
 					active = true,

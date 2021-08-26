@@ -1,195 +1,153 @@
 pg = pg or {}
 pg.equip_data_statistics_374 = {
+	[85385] = {
+		id = 85385,
+		damage = "57/輪",
+		base = 85380,
+		weapon_id = {
+			85385
+		}
+	},
+	[85386] = {
+		id = 85386,
+		damage = "64/輪",
+		base = 85380,
+		weapon_id = {
+			85386
+		}
+	},
+	[85400] = {
+		tech = 3,
+		name = "B-34 100mm雙聯裝防空炮MZ-14",
+		speciality = "防空",
+		type = 6,
+		value_2 = 25,
+		ammo = 5,
+		damage = "38/輪",
+		nationality = 7,
+		rarity = 4,
+		id = 85400,
+		value_3 = 0,
+		torpedo_ammo = 0,
+		descrip = "说明未填写",
+		icon = "85360",
+		attribute_2 = "antiaircraft",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			1,
+			2,
+			6,
+			10
+		},
+		weapon_id = {
+			85400
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			10,
+			12,
+			13,
+			18,
+			19
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85401] = {
+		id = 85401,
+		damage = "42/輪",
+		base = 85400,
+		weapon_id = {
+			85401
+		}
+	},
+	[85402] = {
+		id = 85402,
+		damage = "47/輪",
+		base = 85400,
+		weapon_id = {
+			85402
+		}
+	},
+	[85403] = {
+		id = 85403,
+		damage = "53/輪",
+		base = 85400,
+		weapon_id = {
+			85403
+		}
+	},
+	[85404] = {
+		id = 85404,
+		damage = "59/輪",
+		base = 85400,
+		weapon_id = {
+			85404
+		}
+	},
+	[85405] = {
+		id = 85405,
+		damage = "65/輪",
+		base = 85400,
+		weapon_id = {
+			85405
+		}
+	},
+	[85406] = {
+		id = 85406,
+		damage = "71/輪",
+		base = 85400,
+		weapon_id = {
+			85406
+		}
+	},
+	[85407] = {
+		id = 85407,
+		damage = "77/輪",
+		base = 85400,
+		weapon_id = {
+			85407
+		}
+	},
+	[85408] = {
+		id = 85408,
+		damage = "83/輪",
+		base = 85400,
+		weapon_id = {
+			85408
+		}
+	},
 	[85409] = {
 		id = 85409,
 		damage = "89/輪",
 		base = 85400,
 		weapon_id = {
 			85409
-		}
-	},
-	[85410] = {
-		id = 85410,
-		damage = "96/輪",
-		base = 85400,
-		weapon_id = {
-			85410
-		}
-	},
-	[85420] = {
-		tech = 3,
-		name = "三聯裝305mm主炮Model1907",
-		speciality = "跨射",
-		type = 4,
-		value_2 = 12,
-		ammo = 2,
-		damage = "54 x 3",
-		nationality = 7,
-		rarity = 3,
-		id = 85420,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "85420",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			3
-		},
-		ammo_info = {
-			{
-				2,
-				1502
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85420
-		},
-		skill_id = {},
-		part_main = {
-			4,
-			5,
-			10,
-			13
-		},
-		part_sub = {},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"BB",
-			"MG",
-			"GangutMG"
-		}
-	},
-	[85421] = {
-		id = 85421,
-		damage = "59 x 3",
-		base = 85420,
-		weapon_id = {
-			85421
-		}
-	},
-	[85422] = {
-		id = 85422,
-		damage = "64 x 3",
-		base = 85420,
-		weapon_id = {
-			85422
-		}
-	},
-	[85423] = {
-		id = 85423,
-		damage = "70 x 3",
-		base = 85420,
-		weapon_id = {
-			85423
-		}
-	},
-	[85424] = {
-		id = 85424,
-		damage = "76 x 3",
-		base = 85420,
-		weapon_id = {
-			85424
-		}
-	},
-	[85425] = {
-		id = 85425,
-		damage = "84 x 3",
-		base = 85420,
-		weapon_id = {
-			85425
-		}
-	},
-	[85426] = {
-		id = 85426,
-		damage = "92 x 3",
-		base = 85420,
-		weapon_id = {
-			85426
-		}
-	},
-	[85440] = {
-		tech = 3,
-		name = "雙聯裝152mm主炮Model1892",
-		speciality = "鎖定",
-		type = 2,
-		value_2 = 12,
-		ammo = 3,
-		damage = "8 x 4",
-		nationality = 7,
-		rarity = 3,
-		id = 85440,
-		value_3 = 0,
-		torpedo_ammo = 0,
-		descrip = "说明未填写",
-		icon = "85440",
-		attribute_2 = "cannon",
-		property_rate = {},
-		ammo_icon = {
-			1
-		},
-		ammo_info = {
-			{
-				1,
-				1001
-			}
-		},
-		equip_info = {
-			1,
-			2,
-			{
-				3,
-				1001
-			},
-			{
-				4,
-				1101
-			},
-			6,
-			10,
-			11,
-			12
-		},
-		weapon_id = {
-			85440
-		},
-		skill_id = {},
-		part_main = {
-			2
-		},
-		part_sub = {
-			5
-		},
-		equip_parameters = {},
-		label = {
-			"SN",
-			"CL",
-			"MG"
-		}
-	},
-	[85441] = {
-		id = 85441,
-		damage = "9 x 4",
-		base = 85440,
-		weapon_id = {
-			85441
-		}
-	},
-	[85442] = {
-		id = 85442,
-		damage = "10 x 4",
-		base = 85440,
-		weapon_id = {
-			85442
 		}
 	}
 }

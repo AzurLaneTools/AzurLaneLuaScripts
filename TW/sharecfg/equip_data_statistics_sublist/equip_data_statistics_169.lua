@@ -1,109 +1,109 @@
 pg = pg or {}
 pg.equip_data_statistics_169 = {
-	[24041] = {
-		id = 24041,
+	[24021] = {
+		id = 24021,
+		damage = "50 x 4",
+		base = 24020,
+		weapon_id = {
+			24021
+		}
+	},
+	[24022] = {
+		id = 24022,
 		damage = "55 x 4",
-		base = 24040,
+		base = 24020,
 		weapon_id = {
-			24041
+			24022
 		}
 	},
-	[24042] = {
-		id = 24042,
-		damage = "60 x 4",
-		base = 24040,
+	[24023] = {
+		id = 24023,
+		damage = "61 x 4",
+		base = 24020,
 		weapon_id = {
-			24042
+			24023
 		}
 	},
-	[24043] = {
-		id = 24043,
-		damage = "67 x 4",
-		base = 24040,
+	[24024] = {
+		id = 24024,
+		damage = "66 x 4",
+		base = 24020,
 		weapon_id = {
-			24043
+			24024
 		}
 	},
-	[24044] = {
-		id = 24044,
+	[24025] = {
+		id = 24025,
 		damage = "72 x 4",
-		base = 24040,
+		base = 24020,
 		weapon_id = {
-			24044
+			24025
 		}
 	},
-	[24045] = {
-		id = 24045,
-		damage = "79 x 4",
-		base = 24040,
+	[24026] = {
+		id = 24026,
+		damage = "77 x 4",
+		base = 24020,
 		weapon_id = {
-			24045
+			24026
 		}
 	},
-	[24046] = {
-		id = 24046,
-		damage = "84 x 4",
-		base = 24040,
+	[24027] = {
+		id = 24027,
+		damage = "83 x 4",
+		base = 24020,
 		weapon_id = {
-			24046
+			24027
 		}
 	},
-	[24047] = {
-		id = 24047,
-		damage = "91 x 4",
-		base = 24040,
+	[24028] = {
+		id = 24028,
+		damage = "88 x 4",
+		base = 24020,
 		weapon_id = {
-			24047
+			24028
 		}
 	},
-	[24048] = {
-		id = 24048,
-		damage = "96 x 4",
-		base = 24040,
+	[24029] = {
+		id = 24029,
+		damage = "94 x 4",
+		base = 24020,
 		weapon_id = {
-			24048
+			24029
 		}
 	},
-	[24049] = {
-		id = 24049,
-		damage = "103 x 4",
-		base = 24040,
+	[24030] = {
+		id = 24030,
+		damage = "99 x 4",
+		base = 24020,
 		weapon_id = {
-			24049
+			24030
 		}
 	},
-	[24050] = {
-		id = 24050,
-		damage = "108 x 4",
-		base = 24040,
-		weapon_id = {
-			24050
-		}
-	},
-	[24100] = {
-		tech = 1,
-		name = "雙聯裝381mm主炮",
+	[24040] = {
+		tech = 3,
+		name = "四聯裝356mm主炮",
 		speciality = "跨射",
 		type = 4,
-		value_2 = 5,
-		ammo = 3,
-		damage = "46 x 2",
+		value_2 = 45,
+		ammo = 2,
+		damage = "48 x 4",
 		nationality = 2,
-		rarity = 2,
-		id = 24100,
+		rarity = 5,
+		id = 24040,
 		value_3 = 0,
 		torpedo_ammo = 0,
 		descrip = "說明未填寫",
-		icon = "24100",
+		icon = "24000",
 		attribute_2 = "cannon",
 		property_rate = {},
 		ammo_icon = {
-			1
+			3
 		},
 		ammo_info = {
 			{
 				2,
-				1500
+				1522
 			}
 		},
 		equip_info = {
@@ -115,7 +115,7 @@ pg.equip_data_statistics_169 = {
 			12
 		},
 		weapon_id = {
-			24100
+			24040
 		},
 		skill_id = {},
 		part_main = {
@@ -129,15 +129,16 @@ pg.equip_data_statistics_169 = {
 		label = {
 			"HMS",
 			"BB",
-			"MG"
+			"MG",
+			"HE"
 		}
 	},
-	[24101] = {
-		id = 24101,
-		damage = "52 x 2",
-		base = 24100,
+	[24041] = {
+		id = 24041,
+		damage = "55 x 4",
+		base = 24040,
 		weapon_id = {
-			24101
+			24041
 		}
 	}
 }

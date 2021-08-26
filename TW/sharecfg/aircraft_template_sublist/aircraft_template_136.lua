@@ -1,26 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_136 = {
-	[65121] = {
+	[64571] = {
 		attack_power = 2,
-		name = "恶毒μ神圣天使轰炸机Lv1",
+		name = "如月千早集束飞机Lv1",
 		type = 3,
 		accuracy = 23,
-		model_ID = "feiji_shenshengtianshi",
+		model_ID = "feiji_ouxiangfeiji",
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 9,
-		id = 65121,
-		icon = "feiji_shenshengtianshi",
+		nationality = 107,
+		id = 64571,
+		icon = "feiji_ouxiangfeiji",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1692,
-		speed = 48,
-		max_hp = 42,
+		hp_growth = 1846,
+		speed = 50,
+		max_hp = 48,
 		scale = 1,
 		weapon_ID = {
-			65131
+			64581
 		},
 		position_offset = {
 			0,
@@ -40,13 +40,13 @@ pg.aircraft_template_136 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.68,
-					-0.667,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					0.97,
-					0.584,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -63,7 +63,7 @@ pg.aircraft_template_136 = {
 				0
 			},
 			{
-				0.54,
+				0.64,
 				0,
 				0
 			},
@@ -74,94 +74,94 @@ pg.aircraft_template_136 = {
 			}
 		}
 	},
-	[65122] = {
-		id = 65122,
-		name = "恶毒μ神圣天使轰炸机Lv2",
-		base = 65121,
-		max_hp = 48,
-		hp_growth = 1913,
-		weapon_ID = {
-			65132
-		}
-	},
-	[65123] = {
-		id = 65123,
-		name = "恶毒μ神圣天使轰炸机Lv3",
-		base = 65121,
+	[64572] = {
+		id = 64572,
+		name = "如月千早集束飞机Lv2",
+		base = 64571,
 		max_hp = 54,
-		hp_growth = 2133,
+		hp_growth = 2087,
 		weapon_ID = {
-			65133
+			64582
 		}
 	},
-	[65124] = {
-		id = 65124,
-		name = "恶毒μ神圣天使轰炸机Lv4",
-		base = 65121,
+	[64573] = {
+		id = 64573,
+		name = "如月千早集束飞机Lv3",
+		base = 64571,
 		max_hp = 61,
-		hp_growth = 2354,
+		hp_growth = 2327,
 		weapon_ID = {
-			65134
+			64583
 		}
 	},
-	[65125] = {
-		id = 65125,
-		name = "恶毒μ神圣天使轰炸机Lv5",
-		base = 65121,
+	[64574] = {
+		id = 64574,
+		name = "如月千早集束飞机Lv4",
+		base = 64571,
 		max_hp = 67,
-		hp_growth = 2575,
+		hp_growth = 2568,
 		weapon_ID = {
-			65135
+			64584
 		}
 	},
-	[65126] = {
-		id = 65126,
-		name = "恶毒μ神圣天使轰炸机Lv6",
-		base = 65121,
+	[64575] = {
+		id = 64575,
+		name = "如月千早集束飞机Lv5",
+		base = 64571,
 		max_hp = 73,
-		hp_growth = 2796,
+		hp_growth = 2809,
 		weapon_ID = {
-			65136
+			64585
 		}
 	},
-	[65127] = {
-		id = 65127,
-		name = "恶毒μ神圣天使轰炸机Lv7",
-		base = 65121,
+	[64576] = {
+		id = 64576,
+		name = "如月千早集束飞机Lv6",
+		base = 64571,
 		max_hp = 79,
-		hp_growth = 3016,
+		hp_growth = 3050,
 		weapon_ID = {
-			65137
+			64586
 		}
 	},
-	[65128] = {
-		id = 65128,
-		name = "恶毒μ神圣天使轰炸机Lv8",
-		base = 65121,
+	[64577] = {
+		id = 64577,
+		name = "如月千早集束飞机Lv7",
+		base = 64571,
 		max_hp = 86,
-		hp_growth = 3237,
+		hp_growth = 3290,
 		weapon_ID = {
-			65138
+			64587
 		}
 	},
-	[65129] = {
-		id = 65129,
-		name = "恶毒μ神圣天使轰炸机Lv9",
-		base = 65121,
+	[64578] = {
+		id = 64578,
+		name = "如月千早集束飞机Lv8",
+		base = 64571,
 		max_hp = 92,
-		hp_growth = 3458,
+		hp_growth = 3531,
 		weapon_ID = {
-			65139
+			64588
 		}
 	},
-	[65130] = {
-		id = 65130,
-		name = "恶毒μ神圣天使轰炸机Lv10",
-		base = 65121,
+	[64579] = {
+		id = 64579,
+		name = "如月千早集束飞机Lv9",
+		base = 64571,
 		max_hp = 98,
-		hp_growth = 3678,
+		hp_growth = 3772,
 		weapon_ID = {
-			65140
+			64589
+		}
+	},
+	[64580] = {
+		id = 64580,
+		name = "如月千早集束飞机Lv10",
+		base = 64571,
+		max_hp = 104,
+		hp_growth = 4013,
+		weapon_ID = {
+			64590
 		}
 	}
 }

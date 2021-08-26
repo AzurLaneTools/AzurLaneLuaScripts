@@ -1,50 +1,26 @@
 pg = pg or {}
 pg.aircraft_template_150 = {
-	[66429] = {
-		id = 66429,
-		name = "胡蜂技能LV9",
-		base = 66420,
-		max_hp = 89,
-		hp_growth = 3447,
-		weapon_ID = {
-			50149,
-			50549,
-			52249
-		}
-	},
-	[66430] = {
-		id = 66430,
-		name = "胡蜂技能LV10",
-		base = 66420,
-		max_hp = 96,
-		hp_growth = 3696,
-		weapon_ID = {
-			50150,
-			50550,
-			52250
-		}
-	},
-	[66440] = {
+	[66240] = {
 		attack_power = 2,
-		name = "联结·阿萨姆LV0",
+		name = "山城改技能Lv0",
 		type = 3,
 		accuracy = 23,
-		model_ID = "sb2c",
+		model_ID = "ruiyun",
 		ACC_growth = 0,
-		crash_DMG = 100,
+		crash_DMG = 120,
 		dodge = 1,
 		funnel_behavior = "",
-		nationality = 1,
-		id = 66440,
-		icon = "sb2c",
+		nationality = 3,
+		id = 66240,
+		icon = "ruiyun",
 		AP_growth = 2000,
 		dodge_limit = 0,
-		hp_growth = 1331,
-		speed = 50,
-		max_hp = 35,
+		hp_growth = 1023,
+		speed = 46,
+		max_hp = 27,
 		scale = 1,
 		weapon_ID = {
-			66600
+			66260
 		},
 		position_offset = {
 			0,
@@ -64,13 +40,13 @@ pg.aircraft_template_150 = {
 		bound_bone = {
 			weapon = {
 				{
-					0.69,
-					-2.62,
+					0.68,
+					-0.667,
 					0
 				},
 				{
-					0.85,
-					0.17,
+					0.97,
+					0.584,
 					0
 				}
 			}
@@ -87,7 +63,7 @@ pg.aircraft_template_150 = {
 				0
 			},
 			{
-				0.62,
+				0.26,
 				0,
 				0
 			},
@@ -98,74 +74,94 @@ pg.aircraft_template_150 = {
 			}
 		}
 	},
-	[66441] = {
-		id = 66441,
-		name = "联结·阿萨姆LV1",
-		base = 66440,
+	[66241] = {
+		id = 66241,
+		name = "山城改技能Lv1",
+		base = 66240,
+		max_hp = 32,
+		hp_growth = 1233,
+		weapon_ID = {
+			66261
+		}
+	},
+	[66242] = {
+		id = 66242,
+		name = "山城改技能Lv2",
+		base = 66240,
+		max_hp = 37,
+		hp_growth = 1443,
+		weapon_ID = {
+			66262
+		}
+	},
+	[66243] = {
+		id = 66243,
+		name = "山城改技能Lv3",
+		base = 66240,
 		max_hp = 42,
-		hp_growth = 1604,
+		hp_growth = 1653,
 		weapon_ID = {
-			66601
+			66263
 		}
 	},
-	[66442] = {
-		id = 66442,
-		name = "联结·阿萨姆LV2",
-		base = 66440,
-		max_hp = 49,
-		hp_growth = 1877,
+	[66244] = {
+		id = 66244,
+		name = "山城改技能Lv4",
+		base = 66240,
+		max_hp = 47,
+		hp_growth = 1863,
 		weapon_ID = {
-			66602
+			66264
 		}
 	},
-	[66443] = {
-		id = 66443,
-		name = "联结·阿萨姆LV3",
-		base = 66440,
-		max_hp = 56,
-		hp_growth = 2150,
+	[66245] = {
+		id = 66245,
+		name = "山城改技能Lv5",
+		base = 66240,
+		max_hp = 52,
+		hp_growth = 2073,
 		weapon_ID = {
-			66603
+			66265
 		}
 	},
-	[66444] = {
-		id = 66444,
-		name = "联结·阿萨姆LV4",
-		base = 66440,
+	[66246] = {
+		id = 66246,
+		name = "山城改技能Lv6",
+		base = 66240,
+		max_hp = 57,
+		hp_growth = 2283,
+		weapon_ID = {
+			66266
+		}
+	},
+	[66247] = {
+		id = 66247,
+		name = "山城改技能Lv7",
+		base = 66240,
 		max_hp = 63,
-		hp_growth = 2423,
+		hp_growth = 2494,
 		weapon_ID = {
-			66604
+			66267
 		}
 	},
-	[66445] = {
-		id = 66445,
-		name = "联结·阿萨姆LV5",
-		base = 66440,
-		max_hp = 70,
-		hp_growth = 2696,
+	[66248] = {
+		id = 66248,
+		name = "山城改技能Lv8",
+		base = 66240,
+		max_hp = 69,
+		hp_growth = 2705,
 		weapon_ID = {
-			66605
+			66268
 		}
 	},
-	[66446] = {
-		id = 66446,
-		name = "联结·阿萨姆LV6",
-		base = 66440,
-		max_hp = 77,
-		hp_growth = 2970,
+	[66249] = {
+		id = 66249,
+		name = "山城改技能Lv9",
+		base = 66240,
+		max_hp = 75,
+		hp_growth = 2916,
 		weapon_ID = {
-			66606
-		}
-	},
-	[66447] = {
-		id = 66447,
-		name = "联结·阿萨姆LV7",
-		base = 66440,
-		max_hp = 84,
-		hp_growth = 3244,
-		weapon_ID = {
-			66607
+			66269
 		}
 	}
 }

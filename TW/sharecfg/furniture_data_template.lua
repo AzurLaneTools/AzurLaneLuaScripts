@@ -3826,6 +3826,59 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[203] = {
+		spine_extra = "",
+		describe = "“目標！Top Idole！”——「  響徹碧海的偶像歌  」活動紀念",
+		gain_by = "響徹碧海的偶像歌",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "idomxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "765紀念章",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 203,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"idom-Town"
+			},
+			{
+				"action"
+			}
+		},
+		spine = {
+			{
+				"idomxunzhang",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "飛高高～飛高高～…唔！？太高了太高了！！QAQ",
@@ -4072,6 +4125,101 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"moshumaoCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100005] = {
+		belong = 1,
+		describe = "鏘鏘～猜猜看，她在哪個箱子裡？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "秘密的魔術箱",
+		tag = 6,
+		icon = "moshuxiangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100005,
+		can_rotate = 0,
+		size = {
+			8,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"MagicBoxB",
+				"normal"
+			},
+			{
+				"MagicBoxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand21",
+						0,
+						"walk"
+					},
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"stand22",
+						0,
+						"dance"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				{
+					"MagicBoxCharControl",
+					"MagicBoxCharControl2"
+				}
 			}
 		},
 		interAction_group = {}
@@ -67370,6 +67518,1231 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[79001] = {
+		spine_extra = "",
+		describe = "歡迎來到765事務所！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "事務所地板",
+		effect = "",
+		advice = 0,
+		icon = "dibanidomicon",
+		spine_action_replace = "",
+		picture = "idom/dibanidom",
+		comfortable = 4,
+		canputon = 0,
+		id = 79001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79002] = {
+		spine_extra = "",
+		describe = "歡迎來到765事務所！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "事務所壁紙",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiidomicon",
+		spine_action_replace = "",
+		picture = "idom/qiangbiidom",
+		comfortable = 4,
+		canputon = 0,
+		id = 79002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79101] = {
+		spine_extra = "",
+		describe = "某人最喜歡的兔兔玩偶。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "1idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "兔兔玩偶",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "idom/1idom",
+		canputon = 0,
+		id = 79101,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79102] = {
+		spine_extra = "",
+		describe = "注意力看過來~要開個小會囉~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "2idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所白板",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/2idom",
+		canputon = 0,
+		id = 79102,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79103] = {
+		spine_extra = "",
+		describe = "注意力看過來~要開個小會囉~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "3idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所白板(大)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/3idom",
+		canputon = 0,
+		id = 79103,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79105] = {
+		spine_extra = "",
+		describe = "簡約的置物架。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "4idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所置物架",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/4idom",
+		canputon = 0,
+		id = 79105,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79106] = {
+		spine_extra = "",
+		describe = "這個姿勢是不是比較好看…啾？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "5idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "練習啾",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "idom/5idom",
+		canputon = 0,
+		id = 79106,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79107] = {
+		spine_extra = "",
+		describe = "保持鍛煉是偶像的基本素養~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "6idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "瑜伽球架",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/6idom",
+		canputon = 0,
+		id = 79107,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79108] = {
+		spine_extra = "",
+		describe = "唔…台詞還沒背下來…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 79,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "7idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "歌詞架",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/7idom",
+		canputon = 0,
+		id = 79108,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-44,
+					-28
+				},
+				{
+					1,
+					1
+				},
+				"idom/7idom_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79109] = {
+		spine_extra = "",
+		describe = "新歌…是不是像這種感覺？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 79,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "8idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "偶像電子琴",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/8idom",
+		canputon = 0,
+		id = 79109,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					26.7,
+					50.6
+				},
+				{
+					-1,
+					1
+				},
+				"idom/8idom_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79110] = {
+		spine_extra = "",
+		describe = "一二三四、二二三四~",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "9idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "練習地板",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "idom/9idom",
+		canputon = 0,
+		id = 79110,
+		can_rotate = 0,
+		size = {
+			9,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79111] = {
+		spine_extra = "",
+		describe = "誰看到我列印的資料了~？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 79,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "10idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所設備桌",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/10idom",
+		canputon = 0,
+		id = 79111,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-46,
+					16
+				},
+				{
+					1,
+					1
+				},
+				"idom/10idom_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79112] = {
+		spine_extra = "",
+		describe = "呼~喝杯茶休息下吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 79,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "11idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所沙發",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "idom/11idom",
+		canputon = 0,
+		id = 79112,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-72,
+					14
+				},
+				{
+					1,
+					1
+				},
+				"idom/11idom_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79113] = {
+		spine_extra = "",
+		describe = "來重看下上次的live吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "12idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所電視櫃",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/12idom",
+		canputon = 0,
+		id = 79113,
+		can_rotate = 0,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79114] = {
+		spine_extra = "",
+		describe = "東西要放整齊才行哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "13idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所置物籃",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "idom/13idom",
+		canputon = 0,
+		id = 79114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79115] = {
+		spine_extra = "",
+		describe = "下次Live就決定是這套衣服了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "14idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所衣架",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "idom/14idom",
+		canputon = 0,
+		id = 79115,
+		can_rotate = 0,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79116] = {
+		spine_extra = "",
+		describe = "看完的書要好好放回原位哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "15idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所書架",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "idom/15idom",
+		canputon = 0,
+		id = 79116,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79118] = {
+		spine_extra = "",
+		describe = "本週的行程是——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "16idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所白板",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/16idom",
+		canputon = 0,
+		id = 79118,
+		can_rotate = 1,
+		size = {
+			2,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79119] = {
+		spine_extra = "",
+		describe = "裡面都是些什麼呢…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "17idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "打包紙箱",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/17idom",
+		canputon = 0,
+		id = 79119,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79121] = {
+		spine_extra = "",
+		describe = "唔~~那個資料應該是放在…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "18idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所置物櫃(5層)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/18idom",
+		canputon = 0,
+		id = 79121,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79122] = {
+		spine_extra = "",
+		describe = "唔~~那個資料應該是放在…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "19idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所置物櫃(3層)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/19idom",
+		canputon = 0,
+		id = 79122,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79123] = {
+		spine_extra = "",
+		describe = "忙忙忙忙暈啦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 79,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "20idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所辦公桌",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "idom/20idom",
+		canputon = 0,
+		id = 79123,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-130,
+					63
+				},
+				{
+					1,
+					1
+				},
+				"idom/20idom_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79124] = {
+		spine_extra = "",
+		describe = "看完的書要好好放回原位哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "21idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所書架(大)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/21idom",
+		canputon = 0,
+		id = 79124,
+		can_rotate = 0,
+		size = {
+			2,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79125] = {
+		spine_extra = "",
+		describe = "看點綠色保護眼睛~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "22idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "事務所盆栽",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "idom/22idom",
+		canputon = 0,
+		id = 79125,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79127] = {
+		spine_extra = "",
+		describe = "這個月的業績…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 79,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "23idomicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "社長辦公桌",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "idom/23idom",
+		canputon = 0,
+		id = 79127,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-83,
+					70
+				},
+				{
+					1,
+					1
+				},
+				"idom/23idom_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79301] = {
+		spine_extra = "",
+		describe = "嗯…是不是該換個新空調了？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "24idomicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "事務所空調",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/24idom",
+		canputon = 0,
+		id = 79301,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79303] = {
+		spine_extra = "",
+		describe = "啊~下一場通告要遲到了！ ？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "25idomicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "事務所時鐘",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "idom/25idom",
+		canputon = 0,
+		id = 79303,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79304] = {
+		spine_extra = "",
+		describe = "記得時常檢查下注意事項哦~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "26idomicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "事務所便簽",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "idom/26idom",
+		canputon = 0,
+		id = 79304,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79306] = {
+		spine_extra = "",
+		describe = "下一個通告的時間是……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "27idomicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "事務所日曆",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "idom/27idom",
+		canputon = 0,
+		id = 79306,
+		can_rotate = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79307] = {
+		spine_extra = "",
+		describe = "今天也要好好加油！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "28idomicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "海報「未來」",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "idom/28idom",
+		canputon = 0,
+		id = 79307,
+		can_rotate = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[79308] = {
+		spine_extra = "",
+		describe = "是不是偶爾開窗通通風比較好呢…",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 79,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "29idomicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "事務所窗戶",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "idom/29idom",
+		canputon = 0,
+		id = 79308,
+		can_rotate = 1,
+		size = {
+			14,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -67453,9 +68826,11 @@ pg.furniture_data_template = {
 		197,
 		198,
 		199,
+		203,
 		100002,
 		100003,
 		100004,
+		100005,
 		1001,
 		1002,
 		1101,
@@ -68903,6 +70278,37 @@ pg.furniture_data_template = {
 		76302,
 		76303,
 		76304,
-		76305
+		76305,
+		79001,
+		79002,
+		79101,
+		79102,
+		79103,
+		79105,
+		79106,
+		79107,
+		79108,
+		79109,
+		79110,
+		79111,
+		79112,
+		79113,
+		79114,
+		79115,
+		79116,
+		79118,
+		79119,
+		79121,
+		79122,
+		79123,
+		79124,
+		79125,
+		79127,
+		79301,
+		79303,
+		79304,
+		79306,
+		79307,
+		79308
 	}
 }
