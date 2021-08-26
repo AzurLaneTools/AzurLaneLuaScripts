@@ -23,9 +23,11 @@ jobs:
           python-version: 3.9
 
       - name: Prepare cache
-        uses: actions/cache@v2
+        uses: eyal0/cache@update_env_variable
         with:
           key: "cache-${{ github.run_id }}"
+          # Set the environment variable to watch to be named UPDATE_CACHE
+          update-env-variable: "UPDATE_CACHE"
           path: "cache"
           restore-keys: |
             cache
@@ -35,6 +37,11 @@ jobs:
         run: |
           cd tools
           python check.py
+
+      - name: Skip cache update
+        if: ${{ steps.check.outputs.update != 'true'}}
+        run: |
+          echo "UPDATE_CACHE=false" >> $GITHUB_ENV
 
       - name: Checkout target repo
         if: ${{ steps.check.outputs.update == 'true'}}
