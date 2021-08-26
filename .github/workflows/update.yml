@@ -15,7 +15,7 @@ jobs:
         with:
           repository: ${{ secrets.TOOLS_REPOSITORY }}
           path: "tools"
-          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          ssh-key: ${{ secrets.TOOLS_DEPLOY_KEY }}
 
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
