@@ -23,7 +23,6 @@ jobs:
           python-version: 3.9
 
       - name: Prepare cache
-        if: ${{ steps.check.outputs.update == 'true'}}
         uses: actions/cache@v2
         with:
           key: "cache"
