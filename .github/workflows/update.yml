@@ -3,7 +3,7 @@ name: Check and update all scripts
 on:
   push:
   schedule:
-    - cron: '50 * * * *'
+    - cron: "50 * * * *"
 
 jobs:
   build:
@@ -34,6 +34,13 @@ jobs:
         with:
           path: "target"
 
+      - name: Prepare cache
+        if: ${{ steps.check.outputs.update == 'true'}}
+        uses: actions/cache@v2
+        with:
+          key: "cache"
+          path: "cache"
+
       - name: Install dependencies
         if: ${{ steps.check.outputs.update == 'true'}}
         run: |
@@ -41,8 +48,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run update scripts
+      - name: Update lua scripts
         if: ${{ steps.check.outputs.update == 'true'}}
         run: |
           cd tools
-          python main.py ../target
+          python main.py ../target ../cache
