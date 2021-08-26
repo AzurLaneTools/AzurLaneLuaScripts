@@ -518,6 +518,17 @@ pg.fleet_tech_ship_class = {
 			10806
 		}
 	},
+	[10803] = {
+		shiptype = 8,
+		name = "나왈급",
+		nation = 1,
+		id = 10803,
+		t_level_1 = 32,
+		t_level = 3,
+		ships = {
+			10807
+		}
+	},
 	[11201] = {
 		shiptype = 12,
 		name = "베스탈",
@@ -2536,6 +2547,7 @@ pg.fleet_tech_ship_class = {
 		10705,
 		10801,
 		10802,
+		10803,
 		11201,
 		20101,
 		20102,

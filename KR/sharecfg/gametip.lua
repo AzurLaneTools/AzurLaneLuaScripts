@@ -10850,6 +10850,9 @@ TIPS:
 	ship_book = {
 		tip = "<color=#92fc63>교과서</color>"
 	},
+	month_sign_resign = {
+		tip = "페이스북 로그인 문제로 인해, 출석 보상을 보충 지급합니다."
+	},
 	collect_tip = {
 		tip = "출격 중인 함선이 있습니다. 의뢰에 포함시킬 수 없습니다."
 	},
