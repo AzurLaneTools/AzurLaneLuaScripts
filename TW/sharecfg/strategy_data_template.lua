@@ -215,7 +215,7 @@ pg.strategy_data_template = {
 		type = 1000,
 		id = 10032,
 		icon = "10032",
-		desc = "艦隊全員造成的傷害提高5%",
+		desc = "艦隊全員在戰鬥中造成的傷害提高5%",
 		arg = {}
 	},
 	[10033] = {
@@ -224,7 +224,7 @@ pg.strategy_data_template = {
 		type = 1000,
 		id = 10033,
 		icon = "10033",
-		desc = "艦隊全員造成的傷害提高5%",
+		desc = "艦隊全員在戰鬥中受到的傷害降低5%",
 		arg = {}
 	},
 	all = {
