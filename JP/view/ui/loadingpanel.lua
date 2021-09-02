@@ -123,10 +123,15 @@ function slot0.displayBG(slot0, slot1)
 			slot3:SetParent(slot0.bg.transform, false)
 			slot3:SetAsFirstSibling()
 		end
-	elseif not slot0.isCri then
-		slot2.sprite = nil
 	else
-		removeAllChildren(slot0.bg)
+		if not slot0.isCri then
+			slot2.sprite = nil
+		else
+			removeAllChildren(slot0.bg)
+		end
+
+		slot0.criBgGo = nil
+		slot0.staticBgSprite = nil
 	end
 end
 
