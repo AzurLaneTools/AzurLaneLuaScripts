@@ -1,25 +1,5 @@
 slot0 = class("TaskCommonPage", import("..base.BaseSubView"))
 
-function slot0.Load(slot0)
-	if slot0._state ~= uv0.STATES.NONE then
-		return
-	end
-
-	slot0._state = uv0.STATES.LOADING
-
-	pg.UIMgr.GetInstance():LoadingOn()
-
-	if IsNil(findTF(GameObject.Find("__Pool__"), slot0:getUIName())) then
-		PoolMgr.GetInstance():GetUI(slot0:getUIName(), true, function (slot0)
-			uv0:Loaded(slot0)
-			uv0:Init()
-		end)
-	else
-		slot0:Loaded(slot2.gameObject)
-		slot0:Init()
-	end
-end
-
 function slot0.getUIName(slot0)
 	return "TaskListPage"
 end

@@ -312,7 +312,7 @@ end
 
 function slot0.InShowTime(slot0, slot1)
 	if pg.ship_skin_template[slot1].skin_type == ShipSkin.SKIN_TYPE_SHOW_IN_TIME then
-		return pg.TimeMgr.GetInstance():inTime(slot2.time)
+		return pg.TimeMgr.GetInstance():passTime(slot2.time)
 	else
 		return true
 	end

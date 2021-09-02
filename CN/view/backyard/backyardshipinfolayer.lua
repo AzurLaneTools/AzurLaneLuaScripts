@@ -19,7 +19,7 @@ function slot4(slot0)
 		updateExpSpeed = function (slot0, slot1)
 			slot0.speed = slot1
 		end,
-		update = function (slot0, slot1, slot2, slot3)
+		update = function (slot0, slot1, slot2, slot3, slot4)
 			slot0.type = slot2
 
 			if slot1 == uv0.LOCK then
@@ -28,6 +28,13 @@ function slot4(slot0)
 				-- Nothing
 			elseif slot1 == uv0.INFO then
 				uv1(slot0, slot3)
+
+				if slot4 then
+					slot5 = GetOrAddComponent(slot0.shipTF, typeof(UILongPressTrigger))
+
+					slot5.onLongPressed:RemoveAllListeners()
+					slot5.onLongPressed:AddListener(slot4)
+				end
 			end
 
 			setActive(slot0.shipPanel, slot1 == uv0.INFO)
@@ -35,6 +42,7 @@ function slot4(slot0)
 			setActive(slot0.extendPanel, slot1 == uv0.LOCK)
 		end,
 		Clear = function (slot0)
+			GetOrAddComponent(slot0.shipTF, typeof(UILongPressTrigger)).onLongPressed:RemoveAllListeners()
 			removeOnButton(slot0.shipTF)
 			removeOnButton(slot0.addPanel)
 			removeOnButton(slot0.extendPanel)
@@ -194,6 +202,9 @@ function slot0.EnableUI(slot0, slot1)
 end
 
 function slot0.didEnter(slot0)
+	slot4 = "backyard_longpress_ship_tip"
+
+	setText(slot0:findTF("main/frame/panel/desc1"), i18n(slot4))
 	slot0:blurPanel()
 
 	slot0.cards = {}
@@ -268,7 +279,9 @@ function slot0.updateSlots(slot0, slot1)
 
 			if slot1 < #uv2 then
 				slot3:updateExpSpeed(uv0:getExpAdditionSpeed())
-				slot3:update(uv3.INFO, uv4, uv2[slot1 + 1])
+				slot3:update(uv3.INFO, uv4, uv2[slot1 + 1], function ()
+					uv0:emit(BackYardShipInfoMediator.GO_SHIP_INFO, uv1.id)
+				end)
 				onButton(uv0, slot3.shipTF, function ()
 					uv0:goToDockYard(uv1, uv2)
 				end, SFX_PANEL)

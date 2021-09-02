@@ -11,25 +11,49 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot4 = 0
-	slot5 = 0
-	slot6, slot5 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot3)
-
-	if slot6 and slot4 > 0 then
+	function slot5(slot0, slot1)
 		pg.ConnectionMgr.GetInstance():Send(11017, {
-			story_id = slot4
+			story_id = slot0
 		}, 11018, function (slot0)
-			pg.NewStoryMgr.GetInstance():SetPlayedFlag(uv0)
+			uv0:SetPlayedFlag(uv1)
+
+			if uv2 then
+				uv2()
+			end
 		end)
 	end
 
-	if slot5 and slot5 > 0 then
-		pg.ConnectionMgr.GetInstance():Send(11017, {
-			story_id = slot5
-		}, 11018, function (slot0)
-			pg.NewStoryMgr.GetInstance():SetPlayedFlag(uv0)
-		end)
+	function slot6(slot0, slot1)
+		slot2, slot3 = uv0:StoryName2StoryId(slot0)
+
+		if slot2 and slot2 > 0 and not uv0:GetPlayedFlag(slot2) then
+			table.insert({}, function (slot0)
+				uv0(uv1, slot0)
+			end)
+		end
+
+		if slot3 and slot3 > 0 and not uv0:GetPlayedFlag(slot3) then
+			table.insert(slot4, function (slot0)
+				uv0(uv1, slot0)
+			end)
+		end
+
+		parallelAsync(slot4, slot1)
 	end
+
+	slot8 = {}
+
+	if pg.NewStoryMgr.GetInstance():StoryLinkNames(slot3) then
+		for slot12, slot13 in ipairs(slot7) do
+			table.insert(slot8, function (slot0)
+				uv0(uv1, slot0)
+			end)
+		end
+	end
+
+	seriesAsync(slot8, function ()
+		uv0(uv1)
+	end)
 end
 
 return slot0

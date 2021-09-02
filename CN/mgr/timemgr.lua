@@ -389,3 +389,35 @@ function slot1.inTime(slot0, slot1)
 
 	return true, slot5
 end
+
+function slot1.passTime(slot0, slot1)
+	if not slot1 then
+		return true
+	end
+
+	if (function (slot0)
+		return {
+			year = slot0[1][1],
+			month = slot0[1][2],
+			day = slot0[1][3],
+			hour = slot0[2][1],
+			min = slot0[2][2],
+			sec = slot0[2][3]
+		}
+	end)(slot1 or {
+		{
+			2000,
+			1,
+			1
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}) then
+		return slot0:Table2ServerTime(slot3) < slot0:GetServerTime()
+	end
+
+	return true
+end

@@ -27,18 +27,22 @@ function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 
 		uv8.onData:AddListener(uv6.onData)
 
-		uv9 = -1
-		uv10 = true
-		uv11 = false
+		if PLATFORM_CODE == PLATFORM_CHT then
+			uv9 = uv0.IPAddress.New()
+		end
 
-		uv12()
+		uv10 = -1
+		uv11 = true
+		uv12 = false
+
+		uv13()
 		uv7:resetHBTimer()
 	end)
 	uv2.onData:AddListener(slot0.onData)
 	uv2.onError:AddListener(slot0.onError)
 	uv2.onDisconnected:AddListener(slot0.onDisconnected)
 
-	uv10 = true
+	uv11 = true
 
 	uv2:Connect()
 	print("connect to - " .. slot1 .. ":" .. slot2)
@@ -403,7 +407,7 @@ function slot1.CheckProxyCounter(slot0)
 end
 
 function slot1.SwitchProxy(slot0)
-	if uv0:IsSpecialIP() and PLATFORM_CODE == PLATFORM_CHT then
+	if uv0 and uv0:IsSpecialIP() then
 		if not VersionMgr.Inst:OnProxyUsing() then
 			print("switch proxy! reason: tw specialIP send timeout")
 			VersionMgr.Inst:SetUseProxy(true)

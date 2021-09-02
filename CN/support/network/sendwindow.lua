@@ -179,6 +179,10 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 				uv3.retryCount = 0
 			end
 
+			if PLATFORM_CODE == PLATFORM_CHT then
+				uv3.connectionMgr.SwitchProxy()
+			end
+
 			warning("Network is timedOut, resend: " .. uv4 .. ", protocal: " .. uv5)
 
 			uv3.retryCount = uv3.retryCount + 1

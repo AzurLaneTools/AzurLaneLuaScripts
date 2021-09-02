@@ -79,6 +79,8 @@ function slot0.SetDockYardLockBtnFlag(slot0, slot1)
 	if slot0.dockYardLockFlag ~= slot1 then
 		PlayerPrefs.SetInt("DockYardLockFlag" .. getProxy(PlayerProxy):getRawData().id, slot1 and 1 or 0)
 		PlayerPrefs.Save()
+
+		slot0.dockYardLockFlag = slot1
 	end
 end
 
@@ -94,6 +96,8 @@ function slot0.SetDockYardLevelBtnFlag(slot0, slot1)
 	if slot0.dockYardLevelFlag ~= slot1 then
 		PlayerPrefs.SetInt("DockYardLevelFlag" .. getProxy(PlayerProxy):getRawData().id, slot1 and 1 or 0)
 		PlayerPrefs.Save()
+
+		slot0.dockYardLevelFlag = slot1
 	end
 end
 

@@ -61,6 +61,8 @@ function slot0.handleNotification(slot0, slot1)
 				}
 			}))
 		end
+
+		setActive(slot0.viewComponent.mainPanel, true)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
 	end
