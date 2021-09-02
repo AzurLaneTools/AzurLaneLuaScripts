@@ -29,7 +29,6 @@ jobs:
           path: "cache"
           restore-keys: |
             cache-hashes-
-            cache-1194302111
           skip-save: ${{ env.SKIP_SAVE_CACHE }}
 
       - name: Check for updates
@@ -57,7 +56,7 @@ jobs:
           cd tools
           python main.py ../target ../cache
 
-      # - name: Skip cache update
-      #   if: ${{ steps.check.outputs.update != 'true'}}
-      #   run: |
-      #     echo "SKIP_SAVE_CACHE=true" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+      - name: Skip cache update
+        if: ${{ steps.check.outputs.update != 'true'}}
+        run: |
+          echo "SKIP_SAVE_CACHE=true" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
