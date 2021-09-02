@@ -10,8 +10,16 @@ function slot1.Ctor(slot0)
 	})
 
 	function slot0.commonEffectEvent(slot0)
+		if slot0 == nil and PLATFORM_CODE == PLATFORM_CH then
+			Debugger.LogError("empty effect obj")
+		end
+
+		if uv0.effectCbMap == nil and PLATFORM_CODE == PLATFORM_CH then
+			Debugger.LogError("empty effectCbMap")
+		end
+
 		if uv0.effectCbMap[slot0] == nil and PLATFORM_CODE == PLATFORM_CH then
-			print("FX MGR: info nil ", slot0.name, ", counter: ", uv0.debugFXCounterMap[slot0.name])
+			Debugger.LogError("FX MGR: info nil ", slot0.name, ", counter: ", uv0.debugFXCounterMap[slot0.name])
 		end
 
 		if slot1[2] ~= nil then

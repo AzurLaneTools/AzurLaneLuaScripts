@@ -1535,6 +1535,10 @@ function slot0.getConfigMaxLevel(slot0)
 	return uv0.all[#uv0.all]
 end
 
+function slot0.isConfigMaxLevel(slot0)
+	return slot0.level == slot0:getConfigMaxLevel()
+end
+
 function slot0.updateMaxLevel(slot0, slot1)
 	slot0.maxLevel = math.max(math.min(slot0:getConfigMaxLevel(), slot1), slot0.maxLevel)
 end

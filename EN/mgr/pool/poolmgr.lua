@@ -319,13 +319,18 @@ function slot0.HasCacheUI(slot0, slot1)
 end
 
 function slot0.PreloadUI(slot0, slot1, slot2)
-	slot0:GetUI(slot1, true, function (slot0)
-		uv0:ReturnUI(uv1, slot0)
+	slot3 = {}
 
-		if uv2 then
-			uv2()
-		end
-	end)
+	if not slot0.pools_plural["ui/" .. slot1 .. slot1] then
+		table.insert(slot3, function (slot0)
+			uv0:GetUI(uv1, true, function (slot0)
+				uv0.pools_plural[uv1]:Enqueue(slot0)
+				uv2()
+			end)
+		end)
+	end
+
+	seriesAsync(slot3, slot2)
 end
 
 function slot0.AddTempCache(slot0, slot1, slot2)

@@ -3034,6 +3034,22 @@ pg.memory_group = {
 			1787
 		}
 	},
+	[567] = {
+		icon = "title_chara_kasabulanka",
+		subtype = 0,
+		type = 3,
+		id = 567,
+		title = "A Whirlwind Romance",
+		memories = {
+			1791,
+			1792,
+			1793,
+			1794,
+			1795,
+			1796,
+			1797
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3194,6 +3210,7 @@ pg.memory_group = {
 		563,
 		564,
 		565,
-		566
+		566,
+		567
 	}
 }

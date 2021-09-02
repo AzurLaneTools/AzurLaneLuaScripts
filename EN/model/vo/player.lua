@@ -399,6 +399,10 @@ function slot0.getMaxShipBag(slot0)
 	return slot2 + slot1
 end
 
+function slot0.getMaxEquipmentBagExcludeGuild(slot0)
+	return slot0.equipBagMax
+end
+
 function slot0.getMaxShipBagExcludeGuild(slot0)
 	return slot0.shipBagMax
 end

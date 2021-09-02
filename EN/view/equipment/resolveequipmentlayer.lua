@@ -83,10 +83,6 @@ function slot0.didEnter(slot0)
 	onButton(slot0, findTF(slot0.destroyConfirm, "actions/destroy_button"), function ()
 		seriesAsync({}, function ()
 			uv0:emit(ResolveEquipmentMediator.ON_RESOLVE, uv0.selectedIds)
-			setActive(uv0.destroyConfirm, false)
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.destroyConfirm, uv0._tf)
-			setActive(uv0.mainPanel, false)
-			uv0:unselecteAllEquips()
 		end)
 	end, SFX_UI_EQUIPMENT_RESOLVE)
 	onToggle(slot0, slot0.selecteAllTF, function (slot0)
@@ -219,7 +215,7 @@ function slot0.displayDestroyBonus(slot0)
 		setText(slot7:Find("name"), slot12)
 		onButton(slot0, slot7, function ()
 			if uv0.type == DROP_TYPE_RESOURCE or uv0.type == DROP_TYPE_ITEM then
-				uv1:emit(AwardInfoMediator.ON_ITEM, uv0.cfg.id)
+				uv1:emit(uv2.ON_ITEM, uv0.cfg.id)
 			elseif uv0.type == DROP_TYPE_EQUIP then
 				uv1:emit(uv2.ON_EQUIPMENT, {
 					equipmentId = uv0.cfg.id,

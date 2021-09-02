@@ -44,6 +44,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.hpBar = findTF(slot0.tr, "content/dockyard/blood")
 	slot0.duang6tuzhi = findTF(slot0.tr, "content/duang_6_tuzhi")
 	slot0.expBuff = findTF(slot0.tr, "content/expbuff")
+	slot0.intimacyTF = findTF(slot0.tr, "content/intimacy")
 	slot0.detailType = uv0.DetailType0
 
 	if slot0.proposeTF.childCount > 0 then
@@ -427,6 +428,26 @@ function slot0.clear(slot0)
 		LeanTween.cancel(slot0.selectedTwId)
 
 		slot0.selectedTwId = nil
+	end
+end
+
+function slot0.updateIntimacy(slot0, slot1)
+	if not slot0.shipVO then
+		return
+	end
+
+	slot3, slot4 = slot2:getIntimacyDetail()
+
+	setText(findTF(slot0.intimacyTF, "Text"), slot4)
+
+	if slot4 == 100 or slot4 == 200 then
+		setText(findTF(slot0.intimacyTF, "Text"), setColorStr(slot4, "#ff8d8d"))
+	end
+
+	setActive(slot0.intimacyTF, slot1)
+
+	if slot1 then
+		setActive(slot0.energyTF, false)
 	end
 end
 

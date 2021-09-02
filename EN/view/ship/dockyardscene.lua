@@ -57,6 +57,8 @@ slot7 = {
 	"index_skin",
 	"index_reform",
 	"index_strengthen",
+	"index_awakening",
+	"index_not_lvmax",
 	"index_special",
 	"index_propose_skin"
 }
@@ -339,6 +341,28 @@ function slot0.init(slot0)
 	end
 end
 
+function slot0.isDefaultStatus(slot0)
+	slot1, slot2, slot3, slot4, slot5 = nil
+
+	if slot0:selectAll(slot0.indexFlag, #uv0 - 1) or slot0:selectNone(slot0.indexFlag, #uv0 - 1) then
+		slot1 = true
+	end
+
+	if slot0:selectAll(slot0.indexFlag2, #uv1 - 1) or slot0:selectNone(slot0.indexFlag2, #uv1 - 1) then
+		slot2 = true
+	end
+
+	if slot0:selectAll(slot0.indexFlag3, #uv2 - 1) or slot0:selectNone(slot0.indexFlag3, #uv2 - 1) then
+		slot3 = true
+	end
+
+	if slot0:selectAll(slot0.indexFlag4, #uv3 - 1) or slot0:selectNone(slot0.indexFlag4, #uv3 - 1) then
+		slot4 = true
+	end
+
+	return slot1 and slot2 and slot3 and slot4 and slot0.selectedSort == 2
+end
+
 function slot0.setShipsCount(slot0, slot1)
 	slot0.shipsCount = slot1
 end
@@ -450,6 +474,8 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 	slot0:updateItemBlackBlock(slot3)
 
 	slot3.isLoading = false
+
+	slot3:updateIntimacy(slot0.selectedSort == 5 and slot0.contextData.mode ~= DockyardScene.MODE_UPGRADE)
 end
 
 function slot0.onReturnItem(slot0, slot1, slot2)
@@ -627,7 +653,7 @@ function slot0.initIndex(slot0)
 					end
 				end
 
-				setImageSprite(uv0.indexTFAll, uv0.yellowSprite)
+				setImageSprite(uv0.indexTFAll, uv0.blueSprite)
 			end, SFX_UI_TAG)
 		else
 			slot7 = slot0.indexs:Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl, slot0.indexs, slot6)
@@ -637,7 +663,7 @@ function slot0.initIndex(slot0)
 			onToggle(slot0, slot7, function (slot0)
 				uv0.tmpIndexFlag[uv1 - 1] = slot0
 
-				setImageSprite(uv2, slot0 and uv0.yellowSprite or uv0.greySprite)
+				setImageSprite(uv2, slot0 and uv0.blueSprite or uv0.greySprite)
 
 				if uv0:selectAll(uv0.tmpIndexFlag, #uv3 - 1) or uv0:selectNone(uv0.tmpIndexFlag, #uv3 - 1) then
 					triggerButton(uv0.indexTFAll)
@@ -918,6 +944,9 @@ function slot0.updateBarInfo(slot0)
 		setText(slot0.bottomTipsWithFrameText, slot0.contextData.leftTopWithFrameInfo)
 		setText(slot0.bottomTipsText, "")
 		setActive(slot0.leftTipsText, false)
+	elseif slot0.contextData.mode == uv0.MODE_REMOULD then
+		setText(slot0.bottomTipsText, "")
+		setActive(slot0.leftTipsText, false)
 	else
 		setText(slot0.bottomTipsText, "")
 		setActive(slot0.leftTipsText, true)
@@ -1004,6 +1033,10 @@ function slot0.selectAll(slot0, slot1, slot2)
 end
 
 function slot0.filter(slot0)
+	GetSpriteFromAtlasAsync("ui/dockyardui_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
+		setImageSprite(uv0.indexBtn, slot0, true)
+	end)
+
 	if slot0.isRemouldOrUpgradeMode then
 		slot0:filterForRemouldAndUpgrade()
 	else
@@ -1015,23 +1048,23 @@ function slot0.filter(slot0)
 	end
 
 	if slot0.contextData.priorEquipUpShipIDList then
-		slot2 = {
-			[slot7] = true
+		slot3 = {
+			[slot8] = true
 		}
 
-		for slot6, slot7 in ipairs(slot0.contextData.priorEquipUpShipIDList) do
+		for slot7, slot8 in ipairs(slot0.contextData.priorEquipUpShipIDList) do
 			-- Nothing
 		end
 
-		for slot6 = #slot0.shipVOs, 1, -1 do
-			if slot2[type(slot0.shipVOs[slot6]) == "table" and slot0.shipVOs[slot6].id] then
-				slot2[slot7] = table.remove(slot0.shipVOs, slot6)
+		for slot7 = #slot0.shipVOs, 1, -1 do
+			if slot3[type(slot0.shipVOs[slot7]) == "table" and slot0.shipVOs[slot7].id] then
+				slot3[slot8] = table.remove(slot0.shipVOs, slot7)
 			end
 		end
 
-		for slot6, slot7 in ipairs(slot0.contextData.priorEquipUpShipIDList) do
-			if type(slot2[slot7]) == "table" then
-				table.insert(slot0.shipVOs, slot1 + 1, slot8)
+		for slot7, slot8 in ipairs(slot0.contextData.priorEquipUpShipIDList) do
+			if type(slot3[slot8]) == "table" then
+				table.insert(slot0.shipVOs, slot2 + 1, slot9)
 			end
 		end
 	end
@@ -1106,7 +1139,7 @@ function slot0.filterCommon(slot0)
 			-- Nothing
 		elseif slot0.teamTypeFilter and slot7:getTeamType() ~= slot0.teamTypeFilter then
 			-- Nothing
-		elseif (slot0:selectNone(slot0.indexFlag, #uv1 - 1) or slot0.indexFlag[uv2[slot7:getShipType()] + 2] or slot0.indexFlag[uv3[slot7:getTeamType()]]) and (slot0:selectNone(slot0.indexFlag2, #uv4 - 1) or slot0.indexFlag2[uv5[slot7:getConfig("nationality")]] or slot0.indexFlag2[#slot0.indexFlag2] and uv5[slot7:getConfig("nationality")] == nil) and (slot0:selectNone(slot0.indexFlag3, #uv6 - 1) or slot0.indexFlag3[uv7[slot7:getRarity()]]) and (not slot0.indexFlag4[1] or slot7:hasAvailiableSkin()) and (not slot0.indexFlag4[2] or slot7:isRemouldable() and not slot7:isAllRemouldFinish()) and (not slot0.indexFlag4[3] or not slot7:isMetaShip() and not slot7:isIntensifyMax()) and (not slot0.indexFlag4[4] or slot7:isSpecialFilter()) and (not slot0.indexFlag4[5] or slot7:hasProposeSkin()) and (slot0.filterTag == Ship.PREFERENCE_TAG_NONE or slot0.filterTag == slot7:GetPreferenceTag()) and slot2(slot7) then
+		elseif (slot0:selectNone(slot0.indexFlag, #uv1 - 1) or slot0.indexFlag[uv2[slot7:getShipType()] + 2] or slot0.indexFlag[uv3[slot7:getTeamType()]]) and (slot0:selectNone(slot0.indexFlag2, #uv4 - 1) or slot0.indexFlag2[uv5[slot7:getConfig("nationality")]] or slot0.indexFlag2[#slot0.indexFlag2] and uv5[slot7:getConfig("nationality")] == nil) and (slot0:selectNone(slot0.indexFlag3, #uv6 - 1) or slot0.indexFlag3[uv7[slot7:getRarity()]]) and (not slot0.indexFlag4[1] or slot7:hasAvailiableSkin()) and (not slot0.indexFlag4[2] or slot7:isRemouldable() and not slot7:isAllRemouldFinish()) and (not slot0.indexFlag4[3] or not slot7:isMetaShip() and not slot7:isIntensifyMax()) and (not slot0.indexFlag4[4] or slot7:isReachNextMaxLevel()) and (not slot0.indexFlag4[5] or not slot7:isConfigMaxLevel()) and (not slot0.indexFlag4[6] or slot7:isSpecialFilter()) and (not slot0.indexFlag4[7] or slot7:hasProposeSkin()) and (slot0.filterTag == Ship.PREFERENCE_TAG_NONE or slot0.filterTag == slot7:GetPreferenceTag()) and slot2(slot7) then
 			table.insert(slot0.shipVOs, slot7)
 		end
 	end
@@ -1148,6 +1181,7 @@ function slot0.filterCommon(slot0)
 		end)
 	end
 
+	slot0:updateSelected()
 	setActive(slot0.sortImgAsc, slot0.selectAsc)
 	setActive(slot0.sortImgDesc, not slot0.selectAsc)
 	setText(slot0:findTF("Image", slot0.sortBtn), uv8[slot1] or uv9[slot1 - #uv8])

@@ -2,20 +2,18 @@ pg = pg or {}
 pg.activity_banner = {
 	{
 		id = 1,
-		pic = "temp5",
+		pic = "temp1",
 		type = 2,
 		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2021,
-					8,
-					19
+					9,
+					2
 				},
 				{
 					0,
@@ -27,7 +25,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					1
+					15
 				},
 				{
 					23,
@@ -38,21 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4093",
 		id = 2,
-		pic = "temp9",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 3
-			}
-		},
+		pic = "temp2",
+		type = 3,
 		time = {
 			{
 				{
 					2021,
-					8,
-					12
+					9,
+					2
 				},
 				{
 					0,
@@ -63,8 +56,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					8,
-					18
+					9,
+					15
 				},
 				{
 					23,
@@ -75,10 +68,13 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4079",
 		id = 3,
-		pic = "temp1",
-		type = 3,
+		pic = "temp3",
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		},
 		time = {
 			{
 				{
@@ -108,13 +104,10 @@ pg.activity_banner = {
 	},
 	{
 		id = 4,
-		pic = "temp2",
+		pic = "temp4",
 		type = 2,
 		param = {
-			"scene get boat",
-			{
-				projectName = "new"
-			}
+			"scene back yard"
 		},
 		time = {
 			{
@@ -145,11 +138,13 @@ pg.activity_banner = {
 	},
 	{
 		id = 5,
-		pic = "temp3",
+		pic = "temp5",
 		type = 2,
 		param = {
-			"scene skinshop",
-			{}
+			"scene charge",
+			{
+				wrap = 4
+			}
 		},
 		time = {
 			{
@@ -215,73 +210,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		param = "4076",
-		id = 7,
-		pic = "temp7",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 8,
-		pic = "temp8",
-		type = 7,
-		param = {
-			28
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
+	[9] = {
 		param = "",
 		id = 9,
 		pic = "temp99",
@@ -290,8 +219,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					8,
-					19
+					9,
+					2
 				},
 				{
 					0,
@@ -303,7 +232,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					1
+					15
 				},
 				{
 					23,
@@ -313,12 +242,37 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		param = "Naval Curry|Sweet Curry or Hot Curry that is the question<color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
-		time = "",
-		type = 10,
+	[10] = {
+		param = "Manjuu Cup Ramen|Just add hot water, wait, and enjoy!<color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
 		id = 10,
-		pic = "haijungali"
+		pic = "paomian",
+		type = 10,
+		time = {
+			{
+				{
+					2021,
+					9,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	all = {
 		1,
@@ -327,8 +281,6 @@ pg.activity_banner = {
 		4,
 		5,
 		6,
-		7,
-		8,
 		9,
 		10
 	}

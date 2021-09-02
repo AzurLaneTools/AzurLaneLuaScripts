@@ -372,29 +372,28 @@ function slot0.register(slot0)
 			})
 		end
 
-		for slot8, slot9 in ipairs(pg.task_data_trigger.all) do
-			if pg.task_data_trigger[slot9].group_id == slot1 then
-				slot12 = slot10.args[1][2]
+		for slot7, slot8 in ipairs(pg.task_data_trigger.all) do
+			if pg.task_data_trigger[slot8].group_id == slot1 and not slot2:getFinishTaskById(slot9.task_id) then
+				uv0.viewComponent.chatFlag = nil
+				uv0.viewComponent._lastChatTween = nil
 
-				if getProxy(ActivityProxy):getActivityById(slot10.activity_id) and not slot13:isEnd() and not slot2:getTaskById(slot12) and not slot2:getFinishTaskById(slot12) then
-					uv0.viewComponent.chatFlag = nil
-					uv0.viewComponent._lastChatTween = nil
+				uv0:sendNotification(GAME.TRIGGER_TASK, slot10)
 
-					uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
-						cmd = 1,
-						activity_id = slot11
-					})
-
-					return
-				end
+				return
 			end
 		end
 	end)
 	slot0:bind(uv0.OPEN_ESCORT, function ()
-		slot2, slot3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "Escort")
+		slot0, slot1 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "Escort")
 
-		if not slot2 then
-			pg.TipsMgr.GetInstance():ShowTips(slot3)
+		if not slot0 then
+			pg.TipsMgr.GetInstance():ShowTips(slot1)
+
+			return
+		end
+
+		if getProxy(ChapterProxy):getMaxEscortChallengeTimes() == 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end

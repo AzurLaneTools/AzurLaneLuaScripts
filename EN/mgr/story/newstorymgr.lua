@@ -140,6 +140,14 @@ function slot0.StoryId2StoryName(slot0, slot1)
 	return uv0.indexIds[slot1], uv0.againIndexIds[slot1]
 end
 
+function slot0.StoryLinkNames(slot0, slot1)
+	if not uv0.linkNames then
+		uv0.linkNames = LoadStory("index_link")
+	end
+
+	return uv0.linkNames[slot1]
+end
+
 function slot0.Init(slot0, slot1)
 	slot0.state = uv0
 	slot0.playedList = {}
