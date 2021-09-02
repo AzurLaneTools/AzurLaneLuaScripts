@@ -39,10 +39,11 @@ function slot0.GCFinal(slot0)
 
 	if slot3 < slot2 then
 		slot1:DestroyAllSprite()
+	else
+		Resources.UnloadUnusedAssets()
 	end
 
 	LuaHelper.UnityGC()
-	Resources.UnloadUnusedAssets()
 
 	if Application.isEditor then
 		print("lua mem: " .. collectgarbage("count") * uv0.R1024 .. "MB")

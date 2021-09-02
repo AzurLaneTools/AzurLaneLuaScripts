@@ -2170,64 +2170,17 @@ function SwitchPanel(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot7
 end
 
-function getSpecialItemPage(slot0)
-	return ({
-		{
-			mediator = AssignedShipMediator,
-			viewComponent = AssignedShipScene
-		},
-		{
-			mediator = AssignedShipMediator,
-			viewComponent = AssignedShipScene2
-		},
-		{
-			mediator = AssignedShipMediator,
-			viewComponent = AssignedShipScene3
-		},
-		{
-			mediator = AssignedShipMediator,
-			viewComponent = AssignedShipScene4
-		},
-		{
-			mediator = AssignedShipMediator,
-			viewComponent = AssignedShipScene5
-		},
-		{
-			mediator = AssignedShipMediator,
-			viewComponent = AssignedShipScene6
-		},
-		{
-			mediator = AssignedShipMediator,
-			viewComponent = AssignedShipScene7
-		},
-		{
-			mediator = AssignedShipMediator,
-			viewComponent = AssignedShipScene8
-		}
-	})[slot0]
-end
-
 function updateActivityTaskStatus(slot0)
 	slot1 = slot0:getConfig("config_id")
 	slot2, slot3 = getActivityTask(slot0, true)
 
 	if not slot3 then
-		if slot1 == 0 or slot1 == 1 then
-			pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
-				cmd = 1,
-				activity_id = slot0.id,
-				arg1 = slot2
-			})
+		pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
+			cmd = 1,
+			activity_id = slot0.id
+		})
 
-			return true
-		elseif slot1 == 2 or slot1 == 3 then
-			pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
-				cmd = 1,
-				activity_id = slot0.id
-			})
-
-			return true
-		end
+		return true
 	end
 
 	return false

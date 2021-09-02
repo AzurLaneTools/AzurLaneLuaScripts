@@ -5,7 +5,7 @@ function slot0.execute(slot0, slot1)
 	slot0.shopsProxy = getProxy(ShopsProxy)
 	slot0.shopList = {}
 
-	seriesAsync({
+	parallelAsync({
 		function (slot0)
 			uv0:GetStressShop(slot0)
 		end,

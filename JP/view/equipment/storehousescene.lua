@@ -1031,10 +1031,9 @@ function slot0.initItem(slot0, slot1)
 			return
 		end
 
-		if uv0.itemVO:getTempCfgTable().open_ui[1] > 0 then
-			uv1:emit(EquipmentMediator.ITEM_GO_SCENE, SCENE.ITEM_ORIGIN_PAGE, {
-				itemVO = uv0.itemVO,
-				open_ui = uv0.itemVO:getTempCfgTable().open_ui[1]
+		if uv0.itemVO:getConfig("type") == Item.INVITATION_TYPE then
+			uv1:emit(EquipmentMediator.ITEM_GO_SCENE, SCENE.INVITATION, {
+				itemVO = uv0.itemVO
 			})
 		elseif uv0.itemVO:getConfig("type") == Item.ASSIGNED_TYPE or uv0.itemVO:getConfig("type") == Item.EQUIPMENT_ASSIGNED_TYPE then
 			uv1.assignedItemView = AssignedItemView.New(uv1.topItems, uv1.event)

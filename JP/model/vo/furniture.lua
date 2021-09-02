@@ -74,9 +74,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.count = slot1.count or 0
 	slot0.date = slot1.get_time or slot1.date or 0
 	slot0.floor = slot1.floor or 0
-	slot2 = pg.furniture_data_template[slot0.id]
+	slot2 = pg.furniture_data_template[slot0.configId]
 
-	if BackYardConst.SAME_ID_MODIFY_ID < slot0.id and slot2 and slot2.count > 1 then
+	if BackYardConst.SAME_ID_MODIFY_ID < slot0.configId and slot2 and slot2.count > 1 then
 		for slot6 = 1, slot2.count - 1 do
 			slot7 = slot0.configId + slot6
 		end

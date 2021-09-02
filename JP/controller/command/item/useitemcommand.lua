@@ -60,7 +60,7 @@ function slot0.execute(slot0, slot1)
 					id = uv1,
 					count = uv2
 				})
-			elseif uv3.usage == ItemUsage.DROP or uv3.usage == ItemUsage.DROP_APPOINTED then
+			elseif uv3.usage == ItemUsage.DROP or uv3.usage == ItemUsage.DROP_APPOINTED or uv3.usage == ItemUsage.INVITATION then
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 			elseif uv3.usage == ItemUsage.DORM_LV_UP then
 				uv4:sendNotification(GAME.EXTEND_BACKYARD_AREA)
@@ -93,9 +93,7 @@ function slot0.execute(slot0, slot1)
 				uv5(slot1)
 			end
 
-			if not uv3.open_ui or uv3.open_ui[2] ~= 1 then
-				uv4:sendNotification(GAME.USE_ITEM_DONE, slot1)
-			end
+			uv4:sendNotification(GAME.USE_ITEM_DONE, slot1)
 		else
 			if uv5 then
 				uv5({})
