@@ -29,6 +29,7 @@ jobs:
           path: "cache"
           restore-keys: |
             cache-hashes-
+            cache-1194302111
           skip-save: ${{ env.SKIP_SAVE_CACHE }}
 
       - name: Check for updates
