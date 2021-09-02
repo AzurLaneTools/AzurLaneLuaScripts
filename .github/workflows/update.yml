@@ -57,7 +57,7 @@ jobs:
           cd tools
           python main.py ../target ../cache
 
-      - name: Skip cache update
-        if: ${{ steps.check.outputs.update != 'true'}}
-        run: |
-          echo "SKIP_SAVE_CACHE=true" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+      # - name: Skip cache update
+      #   if: ${{ steps.check.outputs.update != 'true'}}
+      #   run: |
+      #     echo "SKIP_SAVE_CACHE=true" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
