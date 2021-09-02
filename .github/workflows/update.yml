@@ -28,7 +28,7 @@ jobs:
           key: "cache-${{ github.run_id }}"
           path: "cache"
           restore-keys: |
-            cache
+            cache-
           skip-save: ${{ env.SKIP_SAVE_CACHE }}
 
       - name: Check for updates
