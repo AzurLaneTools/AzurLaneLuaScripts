@@ -7038,7 +7038,7 @@ pg.ship_skin_template_2 = {
 	},
 	[102163] = {
 		ship_group = 10216,
-		name = "ギョｰカンの流儀",
+		name = "ギョーカンの流儀",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",

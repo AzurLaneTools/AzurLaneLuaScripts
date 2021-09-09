@@ -235,14 +235,14 @@ pg.activity_banner = {
 	[10] = {
 		param = "饅頭ヌードル|お湯を注いで少し待つだけ！<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		id = 10,
-		pic = "haijungali",
+		pic = "paomian",
 		type = 10,
 		time = {
 			{
 				{
 					2021,
-					8,
-					5
+					9,
+					9
 				},
 				{
 					0,
@@ -253,8 +253,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					8,
-					19
+					9,
+					16
 				},
 				{
 					23,
