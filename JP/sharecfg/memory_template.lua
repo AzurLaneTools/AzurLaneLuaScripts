@@ -17732,6 +17732,17 @@ pg.memory_template = {
 		icon = "memory_kasabulanka",
 		is_open = 0
 	},
+	[1798] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新しい旅-吾妻",
+		condition = "特別計画艦強化レベル30達成",
+		story = "LUCK39904",
+		id = 1798,
+		icon = "memory_wuqi",
+		is_open = 0
+	},
 	[10000] = {
 		type = 1,
 		subtitle = "",
@@ -20236,6 +20247,7 @@ pg.memory_template = {
 		1795,
 		1796,
 		1797,
+		1798,
 		10000,
 		10001,
 		10002,

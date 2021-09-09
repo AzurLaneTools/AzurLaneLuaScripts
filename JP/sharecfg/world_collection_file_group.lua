@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_collection_file_group = {
 	[110] = {
-		name = "特殊情報①",
+		name = "隕石事件",
 		id_2 = "011",
 		name_abbreviate = "1",
 		type = 2,
@@ -16,7 +16,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[210] = {
-		name = "特殊情報②",
+		name = "エネルギー革命",
 		id_2 = "021",
 		name_abbreviate = "2",
 		type = 1,
@@ -31,7 +31,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[310] = {
-		name = "特殊情報③",
+		name = "技術進歩と生活",
 		id_2 = "031",
 		name_abbreviate = "3",
 		type = 1,
@@ -46,7 +46,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[320] = {
-		name = "特殊情報④",
+		name = "生活スタイル",
 		id_2 = "032",
 		name_abbreviate = "4",
 		type = 1,
@@ -61,7 +61,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[330] = {
-		name = "特殊情報⑤",
+		name = "ミリタリー",
 		id_2 = "033",
 		name_abbreviate = "5",
 		type = 5,
@@ -76,7 +76,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[410] = {
-		name = "特殊情報⑥",
+		name = "ミリタリーⅡ",
 		id_2 = "041",
 		name_abbreviate = "6",
 		type = 5,
@@ -91,7 +91,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[510] = {
-		name = "特殊情報⑦",
+		name = "「微光」計画",
 		id_2 = "051",
 		name_abbreviate = "7",
 		type = 3,
@@ -136,7 +136,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[810] = {
-		name = "特殊情報⑩",
+		name = "世界情勢",
 		id_2 = "081",
 		name_abbreviate = "10",
 		type = 2,
@@ -166,7 +166,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1010] = {
-		name = "特殊情報⑫",
+		name = "世界情勢Ⅱ",
 		id_2 = "101",
 		name_abbreviate = "12",
 		type = 2,

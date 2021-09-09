@@ -97,45 +97,40 @@ function slot0.register(slot0)
 			selectedMin = 1,
 			selectedMax = 1,
 			ignoredIds = slot2.ships or {},
-			shipVOs = uv1:GetShipVOs(),
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
 			quitTeam = tobool(slot1),
 			teamFilter = slot3,
 			leftTopInfo = i18n("word_formation"),
 			onShip = function (slot0)
-				_.each(uv0.ships, function (slot0)
-					if uv0:isSameKind(uv1:getShipById(slot0)) then
-						return false, i18n("event_same_type_not_allowed")
-					end
-				end)
+				if _.any(uv0.ships, function (slot0)
+					return uv0:isSameKind(uv1:getShipById(slot0))
+				end) then
+					return false, i18n("event_same_type_not_allowed")
+				end
 
 				return true
 			end,
 			onSelected = function (slot0)
-				slot1 = slot0[1]
-
-				if _.detect(uv0, function (slot0)
-					return slot0.id == uv0
-				end) and uv1:containShip(slot2) then
+				if getProxy(BayProxy):getShipById(slot0[1]) and uv0:containShip(slot2) then
 					return
 				end
 
-				if uv2 == nil then
-					uv3:insertShip(slot2, nil, uv4)
+				if uv1 == nil then
+					uv2:insertShip(slot2, nil, uv3)
 				else
-					slot3 = uv1:getShipPos({
-						id = uv2
+					slot3 = uv0:getShipPos({
+						id = uv1
 					})
 
-					uv3:removeShipById(uv2)
+					uv2:removeShipById(uv1)
 
 					if slot2 and slot3 then
-						uv3:insertShip(slot2, slot3, uv4)
+						uv2:insertShip(slot2, slot3, uv3)
 					end
 				end
 			end,
 			preView = uv0.viewComponent.__cname,
-			hideTagFlags = ShipStatus.TAG_HIDE_WORLD
+			hideTagFlags = ShipStatus.TAG_HIDE_ALL
 		})
 	end)
 end

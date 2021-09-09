@@ -264,10 +264,19 @@ pg.item_data_frame = {
 	[315] = {
 		time_limit_type = 0,
 		name = "チャージングウィング",
-		gain_by = "",
+		gain_by = "照らす螺旋の鏡海",
 		id = 315,
 		time_second = 0,
 		desc = "<color=#ffffff>ユニオン所属、最大最強のブラックドラゴン！一緒に世界を動かそう！</color>――「照らす螺旋の鏡海」イベントで入手可能",
+		scene = {}
+	},
+	[316] = {
+		time_limit_type = 0,
+		name = "竜宮踏破者記念",
+		gain_by = "",
+		id = 316,
+		time_second = 0,
+		desc = "<color=#ffffff>後日イベントで入手可能</color>",
 		scene = {}
 	},
 	[401] = {
@@ -337,6 +346,7 @@ pg.item_data_frame = {
 		313,
 		314,
 		315,
+		316,
 		401,
 		402,
 		403,

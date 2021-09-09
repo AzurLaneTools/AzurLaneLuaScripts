@@ -201,6 +201,75 @@ pg.ship_meta_breakout = {
 		pre_id = 9707023,
 		weapon_ids = {}
 	},
+	[9707031] = {
+		breakout_view = "【揺灯の力-蒼龍】習得/爆撃機数+1/爆撃機補正+5%",
+		gold = 1000,
+		breakout_id = 9707032,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9707031,
+		item1 = 21004,
+		pre_id = 0,
+		weapon_ids = {
+			60151,
+			54014
+		}
+	},
+	[9707032] = {
+		breakout_view = "攻撃隊上限+1/戦闘機数+1/爆撃機補正+10%",
+		gold = 3000,
+		breakout_id = 9707033,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9707032,
+		item1 = 21004,
+		pre_id = 9707031,
+		weapon_ids = {
+			60152,
+			54014,
+			60152,
+			54014
+		}
+	},
+	[9707033] = {
+		breakout_view = "【揺灯の力-蒼龍】強化/艦載機数+1/爆撃機補正+15%",
+		gold = 10000,
+		breakout_id = 9707034,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9707033,
+		item1 = 21004,
+		pre_id = 9707032,
+		weapon_ids = {
+			60153,
+			54015,
+			60153,
+			54015
+		}
+	},
+	[9707034] = {
+		breakout_view = "なし",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9707034,
+		item1 = 21004,
+		pre_id = 9707033,
+		weapon_ids = {}
+	},
 	all = {
 		9702011,
 		9702012,
@@ -213,6 +282,10 @@ pg.ship_meta_breakout = {
 		9707021,
 		9707022,
 		9707023,
-		9707024
+		9707024,
+		9707031,
+		9707032,
+		9707033,
+		9707034
 	}
 }

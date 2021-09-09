@@ -176,6 +176,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[116] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "蒼龍(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 116,
+		target_num = 1,
+		target_id = "0"
+	},
+	[117] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "蒼龍(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 117,
+		target_num = 1,
+		target_id = "30"
+	},
+	[118] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "蒼龍(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 118,
+		target_num = 1,
+		target_id = "55"
+	},
+	[119] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "蒼龍(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 119,
+		target_num = 1,
+		target_id = "80"
+	},
+	[120] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "蒼龍(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 120,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -272,6 +312,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[212] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊で1回勝利する",
+		id = 212,
+		target_num = 1,
+		target_id = "0"
+	},
+	[213] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 213,
+		target_num = 1,
+		target_id = "70"
+	},
+	[214] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 214,
+		target_num = 1,
+		target_id = "90"
+	},
+	[215] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv100+の敵を撃破 ",
+		id = 215,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -311,6 +383,11 @@ pg.task_meta_data_template = {
 		113,
 		114,
 		115,
+		116,
+		117,
+		118,
+		119,
+		120,
 		200,
 		201,
 		202,
@@ -323,6 +400,10 @@ pg.task_meta_data_template = {
 		209,
 		210,
 		211,
+		212,
+		213,
+		214,
+		215,
 		301,
 		302
 	}
