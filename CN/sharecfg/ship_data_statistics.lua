@@ -266553,7 +266553,7 @@ pg.ship_data_statistics = {
 	[9707011] = {
 		raid_distance = 0,
 		oxy_max = 0,
-		name = "龙·META",
+		name = "飞龙·META",
 		type = 7,
 		oxy_cost = 0,
 		skin_id = 9707010,
@@ -266678,7 +266678,7 @@ pg.ship_data_statistics = {
 	[9707012] = {
 		raid_distance = 0,
 		oxy_max = 0,
-		name = "龙·META",
+		name = "飞龙·META",
 		type = 7,
 		oxy_cost = 0,
 		skin_id = 9707010,
@@ -266803,7 +266803,7 @@ pg.ship_data_statistics = {
 	[9707013] = {
 		raid_distance = 0,
 		oxy_max = 0,
-		name = "龙·META",
+		name = "飞龙·META",
 		type = 7,
 		oxy_cost = 0,
 		skin_id = 9707010,
@@ -266928,7 +266928,7 @@ pg.ship_data_statistics = {
 	[9707014] = {
 		raid_distance = 0,
 		oxy_max = 0,
-		name = "龙·META",
+		name = "飞龙·META",
 		type = 7,
 		oxy_cost = 0,
 		skin_id = 9707010,
@@ -267548,6 +267548,506 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"Ark Royal.META",
 			"Ark Royal"
+		}
+	},
+	[9707031] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "苍龙·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707030,
+		english_name = "Sōryū.META",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707031,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			908,
+			0,
+			0,
+			58,
+			80,
+			49,
+			0,
+			26,
+			10,
+			34,
+			36,
+			0
+		},
+		attrs_growth = {
+			13192,
+			0,
+			0,
+			566,
+			793,
+			246,
+			0,
+			338,
+			135,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SouryuMETA",
+			"Souryu"
+		}
+	},
+	[9707032] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "苍龙·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707030,
+		english_name = "Sōryū.META",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707032,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1129,
+			0,
+			0,
+			72,
+			100,
+			49,
+			0,
+			26,
+			10,
+			34,
+			36,
+			0
+		},
+		attrs_growth = {
+			13192,
+			0,
+			0,
+			566,
+			793,
+			246,
+			0,
+			338,
+			135,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.25,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SouryuMETA",
+			"Souryu"
+		}
+	},
+	[9707033] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "苍龙·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707030,
+		english_name = "Sōryū.META",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707033,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1572,
+			0,
+			0,
+			101,
+			139,
+			49,
+			0,
+			26,
+			10,
+			34,
+			36,
+			0
+		},
+		attrs_growth = {
+			13192,
+			0,
+			0,
+			566,
+			793,
+			246,
+			0,
+			338,
+			135,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.35,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SouryuMETA",
+			"Souryu"
+		}
+	},
+	[9707034] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "苍龙·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707030,
+		english_name = "Sōryū.META",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707034,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2236,
+			0,
+			0,
+			144,
+			199,
+			49,
+			0,
+			26,
+			10,
+			34,
+			36,
+			0
+		},
+		attrs_growth = {
+			13192,
+			0,
+			0,
+			566,
+			793,
+			246,
+			0,
+			338,
+			135,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			14477,
+			0,
+			0,
+			1178,
+			1183,
+			579,
+			0,
+			240,
+			530,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.5,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SouryuMETA",
+			"Souryu"
 		}
 	},
 	[10100011] = {
@@ -302332,6 +302832,10 @@ pg.ship_data_statistics = {
 		9707022,
 		9707023,
 		9707024,
+		9707031,
+		9707032,
+		9707033,
+		9707034,
 		10100011,
 		10100012,
 		10100013,

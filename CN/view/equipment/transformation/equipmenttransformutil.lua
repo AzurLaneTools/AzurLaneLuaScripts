@@ -4,10 +4,10 @@ function slot1(slot0, slot1)
 			"icon_bg/slv"
 		},
 		{
-			"icon_bg/IconColorful(Clone)"
+			"icon_bg/frame/IconColorful(Clone)"
 		},
 		{
-			"icon_bg/Item_duang5(Clone)"
+			"icon_bg/frame/Item_duang5(Clone)"
 		},
 		{
 			"icon_bg/frame/specialFrame"

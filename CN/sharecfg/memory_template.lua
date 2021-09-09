@@ -18051,6 +18051,17 @@ pg.memory_template = {
 		icon = "memory_kasabulanka",
 		is_open = 0
 	},
+	[1798] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-{namecode:165}",
+		condition = "对应舰船科研等级达到30级",
+		story = "LUCK39904",
+		id = 1798,
+		icon = "memory_wuqi",
+		is_open = 0
+	},
 	[10011] = {
 		type = 1,
 		subtitle = "",
@@ -20320,6 +20331,7 @@ pg.memory_template = {
 		1795,
 		1796,
 		1797,
+		1798,
 		10011,
 		10012,
 		10013,

@@ -904,7 +904,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 2,
 		name = "吾妻",
 		simulate_dungeon = 9910,
-		luck_story = "",
+		luck_story = "LUCK39904",
 		strengthen_item = 42014,
 		unlock_word = "重樱阵营科技点数达到<color=#92fc63>900</color>",
 		id = 39904,
@@ -913,7 +913,16 @@ pg.ship_data_blueprint = {
 		unlock_task_open_condition = {
 			60101
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19200,
+				18200
+			},
+			{
+				19210,
+				18210
+			}
+		},
 		unlock_task = {
 			{
 				60102,
@@ -980,7 +989,13 @@ pg.ship_data_blueprint = {
 			1029,
 			1030
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			1031,
+			1032,
+			1033,
+			1034,
+			1035
+		},
 		attr_exp = {
 			100,
 			100,
