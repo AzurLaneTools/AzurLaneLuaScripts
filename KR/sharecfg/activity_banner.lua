@@ -1,16 +1,19 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "20828",
 		id = 1,
 		pic = "temp1",
-		type = 3,
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		},
 		time = {
 			{
 				{
 					2021,
-					8,
-					26
+					9,
+					9
 				},
 				{
 					0,
@@ -22,7 +25,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					9
+					22
 				},
 				{
 					23,
@@ -33,21 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "20838",
 		id = 2,
 		pic = "temp2",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectName = "new"
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2021,
-					8,
-					26
+					9,
+					9
 				},
 				{
 					0,
@@ -59,7 +57,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					9
+					23
 				},
 				{
 					23,
@@ -82,7 +80,7 @@ pg.activity_banner = {
 				{
 					2021,
 					8,
-					26
+					19
 				},
 				{
 					0,
@@ -94,7 +92,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					8
+					1
 				},
 				{
 					23,
@@ -116,7 +114,7 @@ pg.activity_banner = {
 				{
 					2021,
 					8,
-					26
+					19
 				},
 				{
 					0,
@@ -128,7 +126,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					8
+					1
 				},
 				{
 					23,
@@ -153,7 +151,7 @@ pg.activity_banner = {
 				{
 					2021,
 					8,
-					26
+					19
 				},
 				{
 					0,
@@ -165,7 +163,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					8
+					1
 				},
 				{
 					23,
@@ -190,7 +188,7 @@ pg.activity_banner = {
 				{
 					2021,
 					8,
-					26
+					19
 				},
 				{
 					0,
@@ -202,7 +200,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					8
+					1
 				},
 				{
 					23,
@@ -212,73 +210,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		param = "20825",
-		id = 7,
-		pic = "temp7",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					8,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 8,
-		pic = "temp8",
-		type = 7,
-		param = {
-			28
-		},
-		time = {
-			{
-				{
-					2021,
-					8,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
+	[9] = {
 		param = "",
 		id = 9,
 		pic = "temp99",
@@ -287,8 +219,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					8,
-					26
+					9,
+					9
 				},
 				{
 					0,
@@ -300,7 +232,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					8
+					22
 				},
 				{
 					23,
@@ -310,17 +242,17 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		param = "해군 카레|단맛? 매운맛? 취향은 사람마다 제각각...<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
+	[10] = {
+		param = "컵라면|뜨거운 물을 붓고 5분을 기다리면 맛있는 컵라면이 완성됩니다!<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
 		id = 10,
-		pic = "haijungali",
+		pic = "paomian",
 		type = 10,
 		time = {
 			{
 				{
 					2021,
-					8,
-					5
+					9,
+					2
 				},
 				{
 					0,
@@ -331,8 +263,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					8,
-					26
+					9,
+					17
 				},
 				{
 					23,
@@ -349,8 +281,6 @@ pg.activity_banner = {
 		4,
 		5,
 		6,
-		7,
-		8,
 		9,
 		10
 	}

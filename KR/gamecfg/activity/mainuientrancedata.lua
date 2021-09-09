@@ -43,13 +43,18 @@ return {
 		end
 	},
 	{
-		ButtonName = "activity_escort",
+		Tip = "tip",
 		Image = "event_escort",
+		ButtonName = "activity_escort",
 		UpdateButton = function (slot0, slot1)
-			setActive(slot1, OPEN_ESCORT)
-			onButton(slot0, slot1, function ()
-				uv0:emit(MainUIMediator.OPEN_ESCORT)
-			end, SFX_PANEL)
+			setActive(slot1, getProxy(ChapterProxy):getMaxEscortChallengeTimes() > 0)
+
+			if slot3 > 0 then
+				setActive(slot1:Find("Tip"), slot2.escortChallengeTimes < slot3)
+				onButton(slot0, slot1, function ()
+					uv0:emit(MainUIMediator.OPEN_ESCORT)
+				end, SFX_PANEL)
+			end
 		end
 	},
 	{

@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "이 몸이 뒤뜰에서 가구 코인을 주웠다고! 감사하지?",
+			say = "나 뒤뜰에서 가구 코인을 주웠어. 지휘관 바보~♪",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "나 뒤뜰에서 가구 코인을 주웠어. 지휘관 바보~♪",
+			say = "이 몸이 뒤뜰에서 가구 코인을 주웠다고! 감사하지?",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,

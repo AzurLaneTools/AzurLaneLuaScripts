@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "보통 이 시간이면 비서함인 {namecode:96}가 아침 보고를 하러 왔을텐데...그런데 오늘은 아직 오지 않았나봐요.",
+			say = "보통 이 시간이면 비서함인 {namecode:96}가 아침 보고를 하러 왔을텐데...그런데 오늘은 아직 오지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

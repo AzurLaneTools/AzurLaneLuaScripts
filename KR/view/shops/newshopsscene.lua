@@ -10,24 +10,8 @@ function slot0.getUIName(slot0)
 	return "NewShopsUI"
 end
 
-slot1 = {
-	"ActivityShop",
-	"StreetShop"
-}
-
 function slot0.preload(slot0, slot1)
 	slot2 = {}
-
-	for slot6, slot7 in ipairs(uv0) do
-		table.insert(slot2, function (slot0)
-			PoolMgr.GetInstance():GetUI(uv0, true, function (slot0)
-				slot0.name = uv0
-
-				slot0.transform:SetParent(GameObject.Find("__Pool__").transform)
-				uv1()
-			end)
-		end)
-	end
 
 	table.insert(slot2, function (slot0)
 		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
@@ -166,55 +150,48 @@ end
 
 function slot0.ActiveDefaultShop(slot0)
 	if type(slot0.contextData.warp or slot0.contextData.activeShop or uv0.TYPE_ACTIVITY) == "string" then
-		if table.indexof({
+		slot2 = defaultValue(table.indexof({
 			"activity",
 			"shopstreet",
 			"supplies",
 			"sham",
 			"fragment",
 			"guild"
-		}, slot2) then
-			slot2 = slot3
-		end
-
-		if not slot3 then
-			slot2 = uv0.TYPE_ACTIVITY
-		end
+		}, slot2), uv0.TYPE_ACTIVITY)
 	end
 
-	slot3 = false
-	slot4 = slot0.contextData.index or 1
+	slot3 = slot0.contextData.index or 1
 
 	if slot2 == uv0.TYPE_ACTIVITY and slot0.contextData.actId then
-		for slot8, slot9 in ipairs(slot0.shops[slot2] or {}) do
-			if slot9.activityId == slot0.contextData.actId then
-				slot4 = slot8
+		for slot7, slot8 in ipairs(slot0.shops[slot2] or {}) do
+			if slot8.activityId == slot0.contextData.actId then
+				slot3 = slot7
 
 				break
 			end
 		end
 	end
 
-	slot5 = nil
+	slot4 = nil
 
 	if slot0.shops[slot2] then
-		slot6, slot7 = slot0.pages[slot2]:CanOpen(nil, slot0.player)
+		slot5, slot6 = slot0.pages[slot2]:CanOpen(nil, slot0.player)
 
-		if slot6 then
-			slot5 = slot0.toggleContainer:Find(slot2 .. "-" .. slot4)
+		if slot5 then
+			slot4 = slot0.toggleContainer:Find(slot2 .. "-" .. slot3)
 		else
-			pg.TipsMgr.GetInstance():ShowTips(slot7)
+			pg.TipsMgr.GetInstance():ShowTips(slot6)
 		end
 	end
 
-	if slot5 then
-		triggerButton(slot5)
+	if slot4 then
+		triggerButton(slot4)
 	else
 		triggerButton(slot0.toggleContainer:Find(uv0.TYPE_SHOP_STREET .. "-1"))
 	end
 end
 
-slot2 = 5
+slot1 = 5
 
 function slot0.AddScrollrect(slot0, slot1)
 	function slot2(slot0, slot1)
@@ -338,12 +315,6 @@ function slot0.willExit(slot0)
 
 	for slot4, slot5 in pairs(slot0.pages) do
 		slot5:Destroy()
-	end
-
-	for slot4, slot5 in ipairs(uv0) do
-		if not IsNil(findTF(GameObject.Find("__Pool__"), slot5)) then
-			PoolMgr.GetInstance():ReturnUI(slot5, slot7.gameObject)
-		end
 	end
 
 	slot0:UnBlurView()

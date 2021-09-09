@@ -1,10464 +1,7 @@
 pg = pg or {}
-slot0 = pg
-slot0.equip_data_statistics = {
-	subFolderName = "equip_data_statistics_subList",
-	subList = {
-		"equip_data_statistics_1",
-		"equip_data_statistics_2",
-		"equip_data_statistics_3",
-		"equip_data_statistics_4",
-		"equip_data_statistics_5",
-		"equip_data_statistics_6",
-		"equip_data_statistics_7",
-		"equip_data_statistics_8",
-		"equip_data_statistics_9",
-		"equip_data_statistics_10",
-		"equip_data_statistics_11",
-		"equip_data_statistics_12",
-		"equip_data_statistics_13",
-		"equip_data_statistics_14",
-		"equip_data_statistics_15",
-		"equip_data_statistics_16",
-		"equip_data_statistics_17",
-		"equip_data_statistics_18",
-		"equip_data_statistics_19",
-		"equip_data_statistics_20",
-		"equip_data_statistics_21",
-		"equip_data_statistics_22",
-		"equip_data_statistics_23",
-		"equip_data_statistics_24",
-		"equip_data_statistics_25",
-		"equip_data_statistics_26",
-		"equip_data_statistics_27",
-		"equip_data_statistics_28",
-		"equip_data_statistics_29",
-		"equip_data_statistics_30",
-		"equip_data_statistics_31",
-		"equip_data_statistics_32",
-		"equip_data_statistics_33",
-		"equip_data_statistics_34",
-		"equip_data_statistics_35",
-		"equip_data_statistics_36",
-		"equip_data_statistics_37",
-		"equip_data_statistics_38",
-		"equip_data_statistics_39",
-		"equip_data_statistics_40",
-		"equip_data_statistics_41",
-		"equip_data_statistics_42",
-		"equip_data_statistics_43",
-		"equip_data_statistics_44",
-		"equip_data_statistics_45",
-		"equip_data_statistics_46",
-		"equip_data_statistics_47",
-		"equip_data_statistics_48",
-		"equip_data_statistics_49",
-		"equip_data_statistics_50",
-		"equip_data_statistics_51",
-		"equip_data_statistics_52",
-		"equip_data_statistics_53",
-		"equip_data_statistics_54",
-		"equip_data_statistics_55",
-		"equip_data_statistics_56",
-		"equip_data_statistics_57",
-		"equip_data_statistics_58",
-		"equip_data_statistics_59",
-		"equip_data_statistics_60",
-		"equip_data_statistics_61",
-		"equip_data_statistics_62",
-		"equip_data_statistics_63",
-		"equip_data_statistics_64",
-		"equip_data_statistics_65",
-		"equip_data_statistics_66",
-		"equip_data_statistics_67",
-		"equip_data_statistics_68",
-		"equip_data_statistics_69",
-		"equip_data_statistics_70",
-		"equip_data_statistics_71",
-		"equip_data_statistics_72",
-		"equip_data_statistics_73",
-		"equip_data_statistics_74",
-		"equip_data_statistics_75",
-		"equip_data_statistics_76",
-		"equip_data_statistics_77",
-		"equip_data_statistics_78",
-		"equip_data_statistics_79",
-		"equip_data_statistics_80",
-		"equip_data_statistics_81",
-		"equip_data_statistics_82",
-		"equip_data_statistics_83",
-		"equip_data_statistics_84",
-		"equip_data_statistics_85",
-		"equip_data_statistics_86",
-		"equip_data_statistics_87",
-		"equip_data_statistics_88",
-		"equip_data_statistics_89",
-		"equip_data_statistics_90",
-		"equip_data_statistics_91",
-		"equip_data_statistics_92",
-		"equip_data_statistics_93",
-		"equip_data_statistics_94",
-		"equip_data_statistics_95",
-		"equip_data_statistics_96",
-		"equip_data_statistics_97",
-		"equip_data_statistics_98",
-		"equip_data_statistics_99",
-		"equip_data_statistics_100",
-		"equip_data_statistics_101",
-		"equip_data_statistics_102",
-		"equip_data_statistics_103",
-		"equip_data_statistics_104",
-		"equip_data_statistics_105",
-		"equip_data_statistics_106",
-		"equip_data_statistics_107",
-		"equip_data_statistics_108",
-		"equip_data_statistics_109",
-		"equip_data_statistics_110",
-		"equip_data_statistics_111",
-		"equip_data_statistics_112",
-		"equip_data_statistics_113",
-		"equip_data_statistics_114",
-		"equip_data_statistics_115",
-		"equip_data_statistics_116",
-		"equip_data_statistics_117",
-		"equip_data_statistics_118",
-		"equip_data_statistics_119",
-		"equip_data_statistics_120",
-		"equip_data_statistics_121",
-		"equip_data_statistics_122",
-		"equip_data_statistics_123",
-		"equip_data_statistics_124",
-		"equip_data_statistics_125",
-		"equip_data_statistics_126",
-		"equip_data_statistics_127",
-		"equip_data_statistics_128",
-		"equip_data_statistics_129",
-		"equip_data_statistics_130",
-		"equip_data_statistics_131",
-		"equip_data_statistics_132",
-		"equip_data_statistics_133",
-		"equip_data_statistics_134",
-		"equip_data_statistics_135",
-		"equip_data_statistics_136",
-		"equip_data_statistics_137",
-		"equip_data_statistics_138",
-		"equip_data_statistics_139",
-		"equip_data_statistics_140",
-		"equip_data_statistics_141",
-		"equip_data_statistics_142",
-		"equip_data_statistics_143",
-		"equip_data_statistics_144",
-		"equip_data_statistics_145",
-		"equip_data_statistics_146",
-		"equip_data_statistics_147",
-		"equip_data_statistics_148",
-		"equip_data_statistics_149",
-		"equip_data_statistics_150",
-		"equip_data_statistics_151",
-		"equip_data_statistics_152",
-		"equip_data_statistics_153",
-		"equip_data_statistics_154",
-		"equip_data_statistics_155",
-		"equip_data_statistics_156",
-		"equip_data_statistics_157",
-		"equip_data_statistics_158",
-		"equip_data_statistics_159",
-		"equip_data_statistics_160",
-		"equip_data_statistics_161",
-		"equip_data_statistics_162",
-		"equip_data_statistics_163",
-		"equip_data_statistics_164",
-		"equip_data_statistics_165",
-		"equip_data_statistics_166",
-		"equip_data_statistics_167",
-		"equip_data_statistics_168",
-		"equip_data_statistics_169",
-		"equip_data_statistics_170",
-		"equip_data_statistics_171",
-		"equip_data_statistics_172",
-		"equip_data_statistics_173",
-		"equip_data_statistics_174",
-		"equip_data_statistics_175",
-		"equip_data_statistics_176",
-		"equip_data_statistics_177",
-		"equip_data_statistics_178",
-		"equip_data_statistics_179",
-		"equip_data_statistics_180",
-		"equip_data_statistics_181",
-		"equip_data_statistics_182",
-		"equip_data_statistics_183",
-		"equip_data_statistics_184",
-		"equip_data_statistics_185",
-		"equip_data_statistics_186",
-		"equip_data_statistics_187",
-		"equip_data_statistics_188",
-		"equip_data_statistics_189",
-		"equip_data_statistics_190",
-		"equip_data_statistics_191",
-		"equip_data_statistics_192",
-		"equip_data_statistics_193",
-		"equip_data_statistics_194",
-		"equip_data_statistics_195",
-		"equip_data_statistics_196",
-		"equip_data_statistics_197",
-		"equip_data_statistics_198",
-		"equip_data_statistics_199",
-		"equip_data_statistics_200",
-		"equip_data_statistics_201",
-		"equip_data_statistics_202",
-		"equip_data_statistics_203",
-		"equip_data_statistics_204",
-		"equip_data_statistics_205",
-		"equip_data_statistics_206",
-		"equip_data_statistics_207",
-		"equip_data_statistics_208",
-		"equip_data_statistics_209",
-		"equip_data_statistics_210",
-		"equip_data_statistics_211",
-		"equip_data_statistics_212",
-		"equip_data_statistics_213",
-		"equip_data_statistics_214",
-		"equip_data_statistics_215",
-		"equip_data_statistics_216",
-		"equip_data_statistics_217",
-		"equip_data_statistics_218",
-		"equip_data_statistics_219",
-		"equip_data_statistics_220",
-		"equip_data_statistics_221",
-		"equip_data_statistics_222",
-		"equip_data_statistics_223",
-		"equip_data_statistics_224",
-		"equip_data_statistics_225",
-		"equip_data_statistics_226",
-		"equip_data_statistics_227",
-		"equip_data_statistics_228",
-		"equip_data_statistics_229",
-		"equip_data_statistics_230",
-		"equip_data_statistics_231",
-		"equip_data_statistics_232",
-		"equip_data_statistics_233",
-		"equip_data_statistics_234",
-		"equip_data_statistics_235",
-		"equip_data_statistics_236",
-		"equip_data_statistics_237",
-		"equip_data_statistics_238",
-		"equip_data_statistics_239",
-		"equip_data_statistics_240",
-		"equip_data_statistics_241",
-		"equip_data_statistics_242",
-		"equip_data_statistics_243",
-		"equip_data_statistics_244",
-		"equip_data_statistics_245",
-		"equip_data_statistics_246",
-		"equip_data_statistics_247",
-		"equip_data_statistics_248",
-		"equip_data_statistics_249",
-		"equip_data_statistics_250",
-		"equip_data_statistics_251",
-		"equip_data_statistics_252",
-		"equip_data_statistics_253",
-		"equip_data_statistics_254",
-		"equip_data_statistics_255",
-		"equip_data_statistics_256",
-		"equip_data_statistics_257",
-		"equip_data_statistics_258",
-		"equip_data_statistics_259",
-		"equip_data_statistics_260",
-		"equip_data_statistics_261",
-		"equip_data_statistics_262",
-		"equip_data_statistics_263",
-		"equip_data_statistics_264",
-		"equip_data_statistics_265",
-		"equip_data_statistics_266",
-		"equip_data_statistics_267",
-		"equip_data_statistics_268",
-		"equip_data_statistics_269",
-		"equip_data_statistics_270",
-		"equip_data_statistics_271",
-		"equip_data_statistics_272",
-		"equip_data_statistics_273",
-		"equip_data_statistics_274",
-		"equip_data_statistics_275",
-		"equip_data_statistics_276",
-		"equip_data_statistics_277",
-		"equip_data_statistics_278",
-		"equip_data_statistics_279",
-		"equip_data_statistics_280",
-		"equip_data_statistics_281",
-		"equip_data_statistics_282",
-		"equip_data_statistics_283",
-		"equip_data_statistics_284",
-		"equip_data_statistics_285",
-		"equip_data_statistics_286",
-		"equip_data_statistics_287",
-		"equip_data_statistics_288",
-		"equip_data_statistics_289",
-		"equip_data_statistics_290",
-		"equip_data_statistics_291",
-		"equip_data_statistics_292",
-		"equip_data_statistics_293",
-		"equip_data_statistics_294",
-		"equip_data_statistics_295",
-		"equip_data_statistics_296",
-		"equip_data_statistics_297",
-		"equip_data_statistics_298",
-		"equip_data_statistics_299",
-		"equip_data_statistics_300",
-		"equip_data_statistics_301",
-		"equip_data_statistics_302",
-		"equip_data_statistics_303",
-		"equip_data_statistics_304",
-		"equip_data_statistics_305",
-		"equip_data_statistics_306",
-		"equip_data_statistics_307",
-		"equip_data_statistics_308",
-		"equip_data_statistics_309",
-		"equip_data_statistics_310",
-		"equip_data_statistics_311",
-		"equip_data_statistics_312",
-		"equip_data_statistics_313",
-		"equip_data_statistics_314",
-		"equip_data_statistics_315",
-		"equip_data_statistics_316",
-		"equip_data_statistics_317",
-		"equip_data_statistics_318",
-		"equip_data_statistics_319",
-		"equip_data_statistics_320",
-		"equip_data_statistics_321",
-		"equip_data_statistics_322",
-		"equip_data_statistics_323",
-		"equip_data_statistics_324",
-		"equip_data_statistics_325",
-		"equip_data_statistics_326",
-		"equip_data_statistics_327",
-		"equip_data_statistics_328",
-		"equip_data_statistics_329",
-		"equip_data_statistics_330",
-		"equip_data_statistics_331",
-		"equip_data_statistics_332",
-		"equip_data_statistics_333",
-		"equip_data_statistics_334",
-		"equip_data_statistics_335",
-		"equip_data_statistics_336",
-		"equip_data_statistics_337",
-		"equip_data_statistics_338",
-		"equip_data_statistics_339",
-		"equip_data_statistics_340",
-		"equip_data_statistics_341",
-		"equip_data_statistics_342",
-		"equip_data_statistics_343",
-		"equip_data_statistics_344",
-		"equip_data_statistics_345",
-		"equip_data_statistics_346",
-		"equip_data_statistics_347",
-		"equip_data_statistics_348",
-		"equip_data_statistics_349",
-		"equip_data_statistics_350",
-		"equip_data_statistics_351",
-		"equip_data_statistics_352",
-		"equip_data_statistics_353",
-		"equip_data_statistics_354",
-		"equip_data_statistics_355",
-		"equip_data_statistics_356",
-		"equip_data_statistics_357",
-		"equip_data_statistics_358",
-		"equip_data_statistics_359",
-		"equip_data_statistics_360",
-		"equip_data_statistics_361",
-		"equip_data_statistics_362",
-		"equip_data_statistics_363",
-		"equip_data_statistics_364",
-		"equip_data_statistics_365",
-		"equip_data_statistics_366",
-		"equip_data_statistics_367",
-		"equip_data_statistics_368",
-		"equip_data_statistics_369",
-		"equip_data_statistics_370",
-		"equip_data_statistics_371",
-		"equip_data_statistics_372",
-		"equip_data_statistics_373",
-		"equip_data_statistics_374",
-		"equip_data_statistics_375",
-		"equip_data_statistics_376",
-		"equip_data_statistics_377",
-		"equip_data_statistics_378",
-		"equip_data_statistics_379",
-		"equip_data_statistics_380",
-		"equip_data_statistics_381",
-		"equip_data_statistics_382",
-		"equip_data_statistics_383",
-		"equip_data_statistics_384",
-		"equip_data_statistics_385",
-		"equip_data_statistics_386",
-		"equip_data_statistics_387",
-		"equip_data_statistics_388",
-		"equip_data_statistics_389",
-		"equip_data_statistics_390",
-		"equip_data_statistics_391",
-		"equip_data_statistics_392",
-		"equip_data_statistics_393",
-		"equip_data_statistics_394",
-		"equip_data_statistics_395",
-		"equip_data_statistics_396",
-		"equip_data_statistics_397",
-		"equip_data_statistics_398",
-		"equip_data_statistics_399",
-		"equip_data_statistics_400"
-	},
-	indexs = {
-		nil,
-		1,
-		1,
-		1,
-		1,
-		1,
-		1,
-		1,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		1,
-		1,
-		1,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		1,
-		1,
-		1,
-		1,
-		1,
-		1,
-		1,
-		2,
-		2,
-		2,
-		2,
-		2,
-		2,
-		nil,
-		2,
-		2,
-		2,
-		nil,
-		2,
-		2,
-		2,
-		nil,
-		2,
-		2,
-		2,
-		nil,
-		2,
-		2,
-		3,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		3,
-		3,
-		nil,
-		nil,
-		3,
-		nil,
-		nil,
-		3,
-		3,
-		3,
-		3,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		3,
-		3,
-		3,
-		3,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		3,
-		3,
-		3,
-		3,
-		3,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		4,
-		4,
-		4,
-		4,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		4,
-		4,
-		4,
-		4,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		4,
-		4,
-		4,
-		4,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		4,
-		4,
-		4,
-		4,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		4,
-		5,
-		5,
-		5,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		5,
-		5,
-		5,
-		5,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		5,
-		5,
-		5,
-		5,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		5,
-		5,
-		5,
-		5,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		5,
-		5,
-		6,
-		6,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		6,
-		6,
-		6,
-		6,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		6,
-		6,
-		6,
-		6,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		6,
-		6,
-		6,
-		6,
-		6,
-		6,
-		6,
-		7,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		7,
-		7,
-		7,
-		7,
-		7,
-		7,
-		7,
-		7,
-		7,
-		7,
-		7,
-		7,
-		7,
-		7,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		7,
-		7,
-		8,
-		8,
-		8,
-		8,
-		8,
-		8,
-		8,
-		8,
-		8,
-		8,
-		8,
-		8,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		8,
-		8,
-		8,
-		8,
-		8,
-		9,
-		9,
-		9,
-		9,
-		9,
-		9,
-		9,
-		9,
-		9,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		9,
-		9,
-		9,
-		9,
-		9,
-		9,
-		9,
-		9,
-		10,
-		10,
-		10,
-		10,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		10,
-		10,
-		10,
-		10,
-		10,
-		10,
-		10,
-		10,
-		10,
-		10,
-		10,
-		10,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		10,
-		11,
-		11,
-		11,
-		11,
-		11,
-		11,
-		11,
-		11,
-		11,
-		11,
-		11,
-		11,
-		11,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		11,
-		11,
-		11,
-		11,
-		12,
-		12,
-		12,
-		12,
-		12,
-		12,
-		12,
-		12,
-		12,
-		12,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		12,
-		12,
-		12,
-		12,
-		12,
-		12,
-		12,
-		13,
-		13,
-		13,
-		13,
-		13,
-		13,
-		13,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		13,
-		13,
-		13,
-		13,
-		13,
-		13,
-		13,
-		13,
-		13,
-		13,
-		14,
-		14,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		14,
-		14,
-		14,
-		14,
-		14,
-		14,
-		14,
-		14,
-		14,
-		14,
-		14,
-		14,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		14,
-		14,
-		14,
-		15,
-		15,
-		15,
-		15,
-		15,
-		15,
-		15,
-		15,
-		15,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		15,
-		15,
-		15,
-		15,
-		15,
-		15,
-		15,
-		15,
-		16,
-		16,
-		16,
-		16,
-		16,
-		16,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		16,
-		16,
-		16,
-		16,
-		16,
-		16,
-		16,
-		16,
-		16,
-		16,
-		16,
-		17,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		17,
-		17,
-		17,
-		17,
-		17,
-		17,
-		17,
-		17,
-		17,
-		17,
-		17,
-		17,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		17,
-		17,
-		17,
-		17,
-		18,
-		18,
-		18,
-		18,
-		18,
-		18,
-		18,
-		18,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		18,
-		18,
-		18,
-		18,
-		18,
-		18,
-		18,
-		18,
-		18,
-		19,
-		19,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		19,
-		19,
-		19,
-		19,
-		19,
-		19,
-		19,
-		19,
-		19,
-		19,
-		19,
-		19,
-		19,
-		19,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		19,
-		20,
-		20,
-		20,
-		20,
-		20,
-		20,
-		20,
-		20,
-		20,
-		20,
-		20,
-		20,
-		20,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		20,
-		20,
-		20,
-		20,
-		21,
-		21,
-		21,
-		21,
-		21,
-		21,
-		21,
-		21,
-		21,
-		21,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		21,
-		21,
-		21,
-		21,
-		21,
-		21,
-		21,
-		22,
-		22,
-		22,
-		22,
-		22,
-		22,
-		22,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		22,
-		22,
-		22,
-		22,
-		22,
-		22,
-		22,
-		22,
-		22,
-		22,
-		23,
-		23,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		23,
-		23,
-		23,
-		23,
-		23,
-		23,
-		23,
-		23,
-		23,
-		23,
-		23,
-		23,
-		23,
-		23,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		23,
-		24,
-		24,
-		24,
-		24,
-		24,
-		24,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		24,
-		24,
-		24,
-		24,
-		24,
-		24,
-		24,
-		24,
-		24,
-		24,
-		24,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		25,
-		25,
-		25,
-		25,
-		25,
-		25,
-		25,
-		25,
-		25,
-		25,
-		25,
-		25,
-		25,
-		25,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		25,
-		25,
-		25,
-		26,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		26,
-		26,
-		26,
-		26,
-		26,
-		26,
-		26,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		26,
-		26,
-		26,
-		26,
-		26,
-		26,
-		26,
-		26,
-		26,
-		27,
-		27,
-		27,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		27,
-		27,
-		27,
-		27,
-		27,
-		27,
-		27,
-		27,
-		27,
-		27,
-		27,
-		27,
-		27,
-		27,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		28,
-		28,
-		28,
-		28,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		28,
-		28,
-		28,
-		28,
-		28,
-		28,
-		28,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		28,
-		28,
-		28,
-		28,
-		28,
-		28,
-		29,
-		29,
-		29,
-		29,
-		29,
-		29,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		29,
-		29,
-		29,
-		29,
-		29,
-		29,
-		29,
-		29,
-		29,
-		29,
-		29,
-		30,
-		30,
-		30,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		30,
-		30,
-		30,
-		30,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		30,
-		30,
-		30,
-		30,
-		30,
-		30,
-		30,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		30,
-		30,
-		30,
-		31,
-		31,
-		31,
-		31,
-		31,
-		31,
-		31,
-		31,
-		31,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		31,
-		31,
-		31,
-		31,
-		31,
-		31,
-		31,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		31,
-		32,
-		32,
-		32,
-		32,
-		32,
-		32,
-		32,
-		32,
-		32,
-		32,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		32,
-		32,
-		32,
-		32,
-		32,
-		32,
-		32,
-		33,
-		33,
-		33,
-		33,
-		33,
-		33,
-		33,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		33,
-		33,
-		33,
-		33,
-		33,
-		33,
-		33,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		33,
-		33,
-		33,
-		34,
-		34,
-		34,
-		34,
-		34,
-		34,
-		34,
-		34,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		34,
-		34,
-		34,
-		34,
-		34,
-		34,
-		34,
-		34,
-		34,
-		35,
-		35,
-		35,
-		35,
-		35,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		35,
-		35,
-		35,
-		35,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		35,
-		35,
-		35,
-		35,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		35,
-		35,
-		35,
-		35,
-		36,
-		36,
-		36,
-		36,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		36,
-		36,
-		36,
-		36,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		36,
-		36,
-		36,
-		36,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		36,
-		36,
-		36,
-		36,
-		36,
-		37,
-		37,
-		37,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		37,
-		37,
-		37,
-		37,
-		37,
-		37,
-		37,
-		37,
-		37,
-		37,
-		37,
-		37,
-		37,
-		37,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		38,
-		38,
-		38,
-		38,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		38,
-		38,
-		38,
-		38,
-		38,
-		38,
-		38,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		38,
-		38,
-		38,
-		38,
-		38,
-		38,
-		39,
-		39,
-		39,
-		39,
-		39,
-		39,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		39,
-		39,
-		39,
-		39,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		39,
-		39,
-		39,
-		39,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		39,
-		39,
-		39,
-		40,
-		40,
-		40,
-		40,
-		40,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		40,
-		40,
-		40,
-		40,
-		40,
-		40,
-		40,
-		40,
-		40,
-		40,
-		40,
-		40,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		41,
-		41,
-		41,
-		41,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		41,
-		41,
-		41,
-		41,
-		41,
-		41,
-		41,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		41,
-		41,
-		41,
-		41,
-		41,
-		41,
-		42,
-		42,
-		42,
-		42,
-		42,
-		42,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		42,
-		42,
-		42,
-		42,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		42,
-		42,
-		42,
-		42,
-		42,
-		42,
-		42,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		43,
-		43,
-		43,
-		43,
-		43,
-		43,
-		43,
-		43,
-		43,
-		43,
-		43,
-		43,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		43,
-		43,
-		43,
-		43,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		43,
-		44,
-		44,
-		44,
-		44,
-		44,
-		44,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		44,
-		44,
-		44,
-		44,
-		44,
-		44,
-		44,
-		44,
-		44,
-		44,
-		44,
-		45,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		45,
-		45,
-		45,
-		45,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		45,
-		45,
-		45,
-		45,
-		45,
-		45,
-		45,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		45,
-		45,
-		45,
-		45,
-		45,
-		46,
-		46,
-		46,
-		46,
-		46,
-		46,
-		46,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		46,
-		46,
-		46,
-		46,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		46,
-		46,
-		46,
-		46,
-		46,
-		46,
-		47,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		47,
-		47,
-		47,
-		47,
-		47,
-		47,
-		47,
-		47,
-		47,
-		47,
-		47,
-		47,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		47,
-		47,
-		47,
-		47,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		48,
-		48,
-		48,
-		48,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		48,
-		48,
-		48,
-		48,
-		48,
-		48,
-		48,
-		48,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		48,
-		48,
-		48,
-		48,
-		48,
-		49,
-		49,
-		49,
-		49,
-		49,
-		49,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		49,
-		49,
-		49,
-		49,
-		49,
-		49,
-		49,
-		49,
-		49,
-		49,
-		49,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		50,
-		50,
-		50,
-		50,
-		50,
-		50,
-		50,
-		50,
-		50,
-		50,
-		50,
-		50,
-		50,
-		50,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		50,
-		50,
-		50,
-		51,
-		51,
-		51,
-		51,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		51,
-		51,
-		51,
-		51,
-		51,
-		51,
-		51,
-		51,
-		51,
-		51,
-		51,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		51,
-		51,
-		52,
-		52,
-		52,
-		52,
-		52,
-		52,
-		52,
-		52,
-		52,
-		52,
-		52,
-		52,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		52,
-		52,
-		52,
-		52,
-		52,
-		53,
-		53,
-		53,
-		53,
-		53,
-		53,
-		53,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		53,
-		53,
-		53,
-		53,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		53,
-		53,
-		53,
-		53,
-		53,
-		53,
-		54,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		54,
-		54,
-		54,
-		54,
-		54,
-		54,
-		54,
-		54,
-		54,
-		54,
-		54,
-		54,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		54,
-		54,
-		54,
-		54,
-		55,
-		55,
-		55,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		55,
-		55,
-		55,
-		55,
-		55,
-		55,
-		55,
-		55,
-		55,
-		55,
-		55,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		55,
-		55,
-		55,
-		56,
-		56,
-		56,
-		56,
-		56,
-		56,
-		56,
-		56,
-		56,
-		56,
-		56,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		56,
-		56,
-		56,
-		56,
-		56,
-		56,
-		57,
-		57,
-		57,
-		57,
-		57,
-		57,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		57,
-		57,
-		57,
-		57,
-		57,
-		57,
-		57,
-		57,
-		57,
-		57,
-		57,
-		58,
-		58,
-		58,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		58,
-		58,
-		58,
-		58,
-		58,
-		58,
-		58,
-		58,
-		58,
-		58,
-		58,
-		58,
-		58,
-		58,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		59,
-		59,
-		59,
-		59,
-		59,
-		59,
-		59,
-		59,
-		59,
-		59,
-		59,
-		59,
-		59,
-		59,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		59,
-		59,
-		59,
-		60,
-		60,
-		60,
-		60,
-		60,
-		60,
-		60,
-		60,
-		60,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		60,
-		60,
-		60,
-		60,
-		60,
-		60,
-		60,
-		60,
-		61,
-		61,
-		61,
-		61,
-		61,
-		61,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		61,
-		61,
-		61,
-		61,
-		61,
-		61,
-		61,
-		61,
-		61,
-		61,
-		61,
-		62,
-		62,
-		62,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		62,
-		62,
-		62,
-		62,
-		62,
-		62,
-		62,
-		62,
-		62,
-		62,
-		62,
-		62,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		62,
-		62,
-		63,
-		63,
-		63,
-		63,
-		63,
-		63,
-		63,
-		63,
-		63,
-		63,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		63,
-		63,
-		63,
-		63,
-		63,
-		63,
-		63,
-		64,
-		64,
-		64,
-		64,
-		64,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		64,
-		64,
-		64,
-		64,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		64,
-		64,
-		64,
-		64,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		nil,
-		64,
-		64,
-		64,
-		64,
-		65,
-		65,
-		65,
-		65,
-		[19230.0] = 146,
-		[24241.0] = 171,
-		[34221.0] = 235,
-		[46120.0] = 315,
-		[36649.0] = 259,
-		[14050.0] = 99,
-		[37122.0] = 262,
-		[49023.0] = 328,
-		[29205.0] = 211,
-		[34160.0] = 232,
-		[35540.0] = 248,
-		[14240.0] = 102,
-		[46244.0] = 316,
-		[32247.0] = 224,
-		[32125.0] = 222,
-		[31280.0] = 219,
-		[31225.0] = 218,
-		[31144.0] = 216,
-		[70032.0] = 342,
-		[16086.0] = 119,
-		[79542.0] = 360,
-		[16224.0] = 122,
-		[28413.0] = 208,
-		[15163.0] = 113,
-		[27244.0] = 198,
-		[32046.0] = 221,
-		[37401.0] = 268,
-		[27069.0] = 195,
-		[39247.0] = 282,
-		[27067.0] = 195,
-		[17248.0] = 131,
-		[27223.0] = 198,
-		[26667.0] = 193,
-		[33026.0] = 227,
-		[42024.0] = 289,
-		[26440.0] = 187,
-		[15000.0] = 109,
-		[33048.0] = 227,
-		[24043.0] = 166,
-		[26625.0] = 191,
-		[7002.0] = 79,
-		[42148.0] = 292,
-		[44140.0] = 301,
-		[29202.0] = 211,
-		[17372.0] = 135,
-		[24345.0] = 173,
-		[4126.0] = 65,
-		[27220.0] = 198,
-		[44405.0] = 304,
-		[45051.0] = 305,
-		[45452.0] = 313,
-		[70031.0] = 342,
-		[7101.0] = 80,
-		[17306.0] = 132,
-		[15062.0] = 111,
-		[25048.0] = 175,
-		[27060.0] = 195,
-		[5201.0] = 71,
-		[26620.0] = 191,
-		[27153.0] = 197,
-		[29003.0] = 208,
-		[28404.0] = 208,
-		[5520.0] = 76,
-		[85362.0] = 370,
-		[14170.0] = 100,
-		[46121.0] = 315,
-		[16403.0] = 124,
-		[33041.0] = 227,
-		[34220.0] = 235,
-		[5202.0] = 71,
-		[37142.0] = 263,
-		[17120.0] = 129,
-		[29201.0] = 211,
-		[14201.0] = 101,
-		[46245.0] = 316,
-		[73211.0] = 350,
-		[36351.0] = 253,
-		[49020.0] = 328,
-		[16449.0] = 126,
-		[12160.0] = 92,
-		[4248.0] = 67,
-		[21607.0] = 156,
-		[15068.0] = 111,
-		[32242.0] = 224,
-		[29203.0] = 211,
-		[90913.0] = 398,
-		[60521.0] = 338,
-		[35151.0] = 239,
-		[12042.0] = 89,
-		[17042.0] = 127,
-		[21541.0] = 155,
-		[13146.0] = 96,
-		[37400.0] = 268,
-		[21343.0] = 151,
-		[39246.0] = 282,
-		[15231.0] = 115,
-		[42025.0] = 289,
-		[28140.0] = 204,
-		[19168.0] = 145,
-		[60381.0] = 336,
-		[79012.0] = 354,
-		[28023.0] = 201,
-		[23000.0] = 161,
-		[42149.0] = 292,
-		[29143.0] = 210,
-		[26227.0] = 183,
-		[44403.0] = 303,
-		[24252.0] = 171,
-		[7311.0] = 82,
-		[23133.0] = 164,
-		[26629.0] = 191,
-		[21467.0] = 153,
-		[45453.0] = 313,
-		[15043.0] = 110,
-		[16324.0] = 123,
-		[23103.0] = 162,
-		[28050.0] = 202,
-		[39106.0] = 279,
-		[11167.0] = 87,
-		[89064.0] = 375,
-		[5420.0] = 74,
-		[6100.0] = 78,
-		[36345.0] = 253,
-		[44152.0] = 302,
-		[32245.0] = 224,
-		[16124.0] = 120,
-		[13045.0] = 94,
-		[11065.0] = 85,
-		[6045.0] = 77,
-		[12121.0] = 91,
-		[31050.0] = 214,
-		[29204.0] = 211,
-		[29206.0] = 211,
-		[33040.0] = 227,
-		[37403.0] = 268,
-		[7001.0] = 79,
-		[11229.0] = 88,
-		[17389.0] = 135,
-		[16452.0] = 126,
-		[21203.0] = 150,
-		[14425.0] = 107,
-		[7220.0] = 81,
-		[36224.0] = 251,
-		[5040.0] = 69,
-		[31180.0] = 217,
-		[31190.0] = 217,
-		[35251.0] = 242,
-		[35169.0] = 240,
-		[14472.0] = 108,
-		[32047.0] = 221,
-		[26631.0] = 191,
-		[39121.0] = 279,
-		[5446.0] = 75,
-		[35150.0] = 239,
-		[6145.0] = 78,
-		[14503.0] = 109,
-		[5140.0] = 70,
-		[18151.0] = 139,
-		[76111.0] = 353,
-		[26204.0] = 182,
-		[39245.0] = 282,
-		[5503.0] = 75,
-		[17247.0] = 131,
-		[35168.0] = 240,
-		[44150.0] = 301,
-		[31121.0] = 216,
-		[42022.0] = 289,
-		[19123.0] = 143,
-		[14301.0] = 103,
-		[7023.0] = 79,
-		[5449.0] = 75,
-		[21523.0] = 154,
-		[90123.0] = 386,
-		[42146.0] = 292,
-		[79291.0] = 357,
-		[31049.0] = 214,
-		[35553.0] = 249,
-		[16085.0] = 119,
-		[26365.0] = 186,
-		[47172.0] = 325,
-		[7040.0] = 79,
-		[89066.0] = 375,
-		[45450.0] = 312,
-		[14340.0] = 104,
-		[17350.0] = 134,
-		[17305.0] = 132,
-		[90908.0] = 397,
-		[14266.0] = 103,
-		[36344.0] = 253,
-		[28149.0] = 204,
-		[17262.0] = 131,
-		[14371.0] = 105,
-		[17269.0] = 132,
-		[16023.0] = 117,
-		[22003.0] = 156,
-		[35447.0] = 246,
-		[24053.0] = 167,
-		[24022.0] = 165,
-		[25300.0] = 177,
-		[44151.0] = 301,
-		[70042.0] = 342,
-		[18047.0] = 137,
-		[14402.0] = 106,
-		[26528.0] = 189,
-		[18045.0] = 137,
-		[26225.0] = 183,
-		[21544.0] = 155,
-		[60391.0] = 337,
-		[36341.0] = 252,
-		[39122.0] = 279,
-		[72152.0] = 348,
-		[6000.0] = 77,
-		[25201.0] = 177,
-		[14501.0] = 109,
-		[4146.0] = 66,
-		[31064.0] = 215,
-		[16169.0] = 121,
-		[39120.0] = 279,
-		[89061.0] = 375,
-		[35149.0] = 239,
-		[95146.0] = 400,
-		[17041.0] = 126,
-		[26101.0] = 181,
-		[36526.0] = 256,
-		[14451.0] = 108,
-		[18100.0] = 138,
-		[39244.0] = 282,
-		[16349.0] = 124,
-		[42023.0] = 289,
-		[21602.0] = 155,
-		[7249.0] = 82,
-		[21020.0] = 147,
-		[60251.0] = 334,
-		[70041.0] = 342,
-		[26630.0] = 191,
-		[42147.0] = 292,
-		[31189.0] = 217,
-		[17340.0] = 133,
-		[36602.0] = 258,
-		[38065.0] = 271,
-		[23122.0] = 163,
-		[47173.0] = 325,
-		[35552.0] = 249,
-		[22269.0] = 161,
-		[45451.0] = 313,
-		[21202.0] = 149,
-		[18182.0] = 139,
-		[22002.0] = 156,
-		[32246.0] = 224,
-		[24243.0] = 171,
-		[44413.0] = 304,
-		[89060.0] = 375,
-		[44025.0] = 299,
-		[37300.0] = 266,
-		[36343.0] = 253,
-		[19166.0] = 144,
-		[29207.0] = 211,
-		[19229.0] = 146,
-		[25030.0] = 174,
-		[44149.0] = 301,
-		[17382.0] = 135,
-		[15100.0] = 111,
-		[21401.0] = 152,
-		[24244.0] = 171,
-		[21140.0] = 148,
-		[22123.0] = 158,
-		[22270.0] = 161,
-		[24151.0] = 169,
-		[24120.0] = 168,
-		[29141.0] = 210,
-		[18042.0] = 137,
-		[37150.0] = 263,
-		[35568.0] = 249,
-		[38171.0] = 274,
-		[23127.0] = 164,
-		[38205.0] = 274,
-		[38123.0] = 272,
-		[5123.0] = 70,
-		[21021.0] = 147,
-		[36203.0] = 251,
-		[89063.0] = 375,
-		[35304.0] = 243,
-		[79022.0] = 354,
-		[14270.0] = 103,
-		[25142.0] = 176,
-		[35148.0] = 239,
-		[44130.0] = 301,
-		[15162.0] = 113,
-		[24042.0] = 166,
-		[44022.0] = 299,
-		[25309.0] = 178,
-		[14430.0] = 107,
-		[39243.0] = 282,
-		[4326.0] = 68,
-		[60252.0] = 334,
-		[42300.0] = 293,
-		[24200.0] = 170,
-		[14250.0] = 102,
-		[42020.0] = 289,
-		[79551.0] = 360,
-		[45200.0] = 307,
-		[15225.0] = 115,
-		[26366.0] = 186,
-		[34248.0] = 236,
-		[30000.0] = 212,
-		[38064.0] = 271,
-		[16451.0] = 126,
-		[4342.0] = 68,
-		[35551.0] = 248,
-		[41161.0] = 288,
-		[17242.0] = 131,
-		[47170.0] = 325,
-		[24353.0] = 173,
-		[28150.0] = 204,
-		[4247.0] = 67,
-		[29001.0] = 208,
-		[28340.0] = 207,
-		[16088.0] = 119,
-		[15061.0] = 111,
-		[14271.0] = 103,
-		[36342.0] = 253,
-		[95141.0] = 400,
-		[16249.0] = 123,
-		[26300.0] = 184,
-		[44147.0] = 301,
-		[45106.0] = 306,
-		[21221.0] = 150,
-		[90128.0] = 386,
-		[14169.0] = 100,
-		[45123.0] = 306,
-		[47046.0] = 321,
-		[24320.0] = 172,
-		[45125.0] = 306,
-		[72412.0] = 350,
-		[25045.0] = 175,
-		[34247.0] = 236,
-		[45142.0] = 307,
-		[17044.0] = 127,
-		[21543.0] = 155,
-		[14006.0] = 97,
-		[7303.0] = 82,
-		[16400.0] = 124,
-		[45201.0] = 307,
-		[45204.0] = 308,
-		[35023.0] = 237,
-		[36202.0] = 251,
-		[26102.0] = 181,
-		[45205.0] = 308,
-		[11201.0] = 87,
-		[12164.0] = 92,
-		[45207.0] = 308,
-		[35147.0] = 239,
-		[26226.0] = 183,
-		[45208.0] = 308,
-		[27063.0] = 195,
-		[13145.0] = 96,
-		[60253.0] = 334,
-		[45225.0] = 308,
-		[39242.0] = 282,
-		[35162.0] = 239,
-		[42021.0] = 289,
-		[21601.0] = 155,
-		[22272.0] = 161,
-		[45253.0] = 309,
-		[45301.0] = 310,
-		[45320.0] = 310,
-		[45322.0] = 310,
-		[45325.0] = 310,
-		[21403.0] = 152,
-		[36620.0] = 258,
-		[45324.0] = 310,
-		[38063.0] = 271,
-		[44408.0] = 304,
-		[47171.0] = 325,
-		[35550.0] = 248,
-		[45326.0] = 310,
-		[45341.0] = 310,
-		[45343.0] = 310,
-		[45345.0] = 310,
-		[79021.0] = 354,
-		[29208.0] = 211,
-		[24327.0] = 172,
-		[11166.0] = 87,
-		[95143.0] = 400,
-		[79562.0] = 360,
-		[45405.0] = 311,
-		[44144.0] = 301,
-		[19165.0] = 144,
-		[45421.0] = 311,
-		[90130.0] = 386,
-		[45424.0] = 311,
-		[45445.0] = 312,
-		[17381.0] = 135,
-		[29142.0] = 210,
-		[37410.0] = 269,
-		[22244.0] = 160,
-		[46000.0] = 313,
-		[46001.0] = 313,
-		[37146.0] = 263,
-		[11003.0] = 84,
-		[44122.0] = 300,
-		[17326.0] = 133,
-		[16450.0] = 126,
-		[46123.0] = 315,
-		[46144.0] = 315,
-		[14180.0] = 100,
-		[95152.0] = 400,
-		[37161.0] = 264,
-		[28349.0] = 207,
-		[14440.0] = 107,
-		[35022.0] = 237,
-		[46243.0] = 316,
-		[14471.0] = 108,
-		[15064.0] = 111,
-		[25310.0] = 178,
-		[70051.0] = 342,
-		[15044.0] = 110,
-		[35146.0] = 239,
-		[46250.0] = 317,
-		[14502.0] = 109,
-		[46251.0] = 317,
-		[46262.0] = 317,
-		[22065.0] = 157,
-		[60122.0] = 332,
-		[14048.0] = 98,
-		[72161.0] = 348,
-		[26367.0] = 186,
-		[46268.0] = 317,
-		[34244.0] = 236,
-		[32041.0] = 220,
-		[47001.0] = 320,
-		[30002.0] = 212,
-		[34230.0] = 235,
-		[35425.0] = 245,
-		[44409.0] = 304,
-		[26301.0] = 184,
-		[47043.0] = 321,
-		[38062.0] = 271,
-		[47047.0] = 321,
-		[29002.0] = 208,
-		[35549.0] = 248,
-		[47048.0] = 321,
-		[17241.0] = 130,
-		[47049.0] = 321,
-		[17371.0] = 134,
-		[47061.0] = 321,
-		[28020.0] = 201,
-		[47063.0] = 322,
-		[44145.0] = 301,
-		[47064.0] = 322,
-		[47065.0] = 322,
-		[35161.0] = 239,
-		[36340.0] = 252,
-		[47067.0] = 322,
-		[28209.0] = 205,
-		[14370.0] = 105,
-		[24124.0] = 168,
-		[26425.0] = 187,
-		[25046.0] = 175,
-		[90124.0] = 386,
-		[47123.0] = 323,
-		[41102.0] = 287,
-		[47044.0] = 321,
-		[47125.0] = 323,
-		[27020.0] = 194,
-		[24253.0] = 171,
-		[14401.0] = 106,
-		[35562.0] = 249,
-		[4347.0] = 69,
-		[17043.0] = 127,
-		[26103.0] = 181,
-		[17391.0] = 135,
-		[6147.0] = 78,
-		[47127.0] = 323,
-		[47141.0] = 324,
-		[48025.0] = 326,
-		[35021.0] = 237,
-		[21604.0] = 155,
-		[14443.0] = 107,
-		[48050.0] = 327,
-		[38201.0] = 274,
-		[79561.0] = 360,
-		[26632.0] = 192,
-		[16092.0] = 119,
-		[31191.0] = 217,
-		[60123.0] = 332,
-		[24002.0] = 165,
-		[14505.0] = 109,
-		[23124.0] = 163,
-		[21340.0] = 151,
-		[90125.0] = 386,
-		[22271.0] = 161,
-		[16123.0] = 120,
-		[49021.0] = 328,
-		[49026.0] = 328,
-		[5301.0] = 73,
-		[32248.0] = 224,
-		[15200.0] = 114,
-		[34229.0] = 235,
-		[35424.0] = 245,
-		[36603.0] = 258,
-		[28151.0] = 204,
-		[34242.0] = 235,
-		[38061.0] = 271,
-		[44406.0] = 304,
-		[31249.0] = 219,
-		[35548.0] = 248,
-		[49044.0] = 328,
-		[17384.0] = 135,
-		[49045.0] = 328,
-		[19102.0] = 143,
-		[49046.0] = 328,
-		[49048.0] = 328,
-		[43100.0] = 297,
-		[49049.0] = 328,
-		[39144.0] = 280,
-		[49066.0] = 329,
-		[35160.0] = 239,
-		[44142.0] = 301,
-		[60001.0] = 329,
-		[60072.0] = 331,
-		[90126.0] = 386,
-		[37409.0] = 268,
-		[41103.0] = 287,
-		[47045.0] = 321,
-		[60082.0] = 331,
-		[4300.0] = 67,
-		[60102.0] = 331,
-		[19226.0] = 146,
-		[60112.0] = 331,
-		[14243.0] = 102,
-		[16222.0] = 122,
-		[28350.0] = 207,
-		[16022.0] = 117,
-		[31051.0] = 214,
-		[60132.0] = 332,
-		[37145.0] = 263,
-		[14053.0] = 99,
-		[25311.0] = 178,
-		[44002.0] = 299,
-		[16126.0] = 120,
-		[60141.0] = 332,
-		[35020.0] = 237,
-		[5102.0] = 70,
-		[15130.0] = 112,
-		[60151.0] = 332,
-		[38200.0] = 274,
-		[14269.0] = 103,
-		[14044.0] = 98,
-		[15203.0] = 114,
-		[23002.0] = 161,
-		[15161.0] = 113,
-		[90127.0] = 386,
-		[32042.0] = 221,
-		[73212.0] = 351,
-		[24123.0] = 168,
-		[60152.0] = 332,
-		[26368.0] = 186,
-		[17244.0] = 131,
-		[26302.0] = 184,
-		[17328.0] = 133,
-		[28152.0] = 204,
-		[43101.0] = 297,
-		[33049.0] = 227,
-		[34228.0] = 235,
-		[35423.0] = 245,
-		[44407.0] = 304,
-		[22273.0] = 161,
-		[90400.0] = 390,
-		[38060.0] = 271,
-		[60242.0] = 334,
-		[39143.0] = 280,
-		[35547.0] = 248,
-		[36243.0] = 251,
-		[35165.0] = 239,
-		[33065.0] = 228,
-		[60261.0] = 334,
-		[60262.0] = 334,
-		[28210.0] = 205,
-		[7320.0] = 83,
-		[44143.0] = 301,
-		[26426.0] = 187,
-		[25047.0] = 175,
-		[13020.0] = 94,
-		[26069.0] = 181,
-		[5221.0] = 72,
-		[60273.0] = 335,
-		[18233.0] = 141,
-		[37408.0] = 268,
-		[79292.0] = 357,
-		[60281.0] = 335,
-		[17064.0] = 127,
-		[11204.0] = 87,
-		[41100.0] = 286,
-		[47042.0] = 321,
-		[60312.0] = 335,
-		[60332.0] = 336,
-		[60352.0] = 336,
-		[35321.0] = 243,
-		[90401.0] = 390,
-		[26228.0] = 183,
-		[44003.0] = 299,
-		[37144.0] = 263,
-		[14005.0] = 97,
-		[60392.0] = 337,
-		[36366.0] = 253,
-		[60393.0] = 337,
-		[60401.0] = 337,
-		[5549.0] = 76,
-		[21603.0] = 155,
-		[60402.0] = 337,
-		[60403.0] = 337,
-		[23207.0] = 164,
-		[60471.0] = 338,
-		[5122.0] = 70,
-		[89080.0] = 375,
-		[60511.0] = 338,
-		[36226.0] = 251,
-		[60522.0] = 338,
-		[13023.0] = 94,
-		[23123.0] = 163,
-		[22142.0] = 158,
-		[24147.0] = 168,
-		[34103.0] = 231,
-		[4145.0] = 66,
-		[60542.0] = 339,
-		[60543.0] = 339,
-		[60601.0] = 339,
-		[11103.0] = 85,
-		[31250.0] = 219,
-		[34227.0] = 235,
-		[35422.0] = 245,
-		[60603.0] = 340,
-		[5440.0] = 75,
-		[25049.0] = 175,
-		[19167.0] = 144,
-		[44404.0] = 304,
-		[14026.0] = 98,
-		[35546.0] = 248,
-		[22266.0] = 160,
-		[17383.0] = 135,
-		[29144.0] = 210,
-		[19101.0] = 143,
-		[21223.0] = 150,
-		[89083.0] = 376,
-		[60681.0] = 340,
-		[11165.0] = 87,
-		[39129.0] = 279,
-		[7240.0] = 81,
-		[36241.0] = 251,
-		[24050.0] = 166,
-		[95424.0] = 400,
-		[32241.0] = 224,
-		[61031.0] = 341,
-		[37407.0] = 268,
-		[41101.0] = 287,
-		[28351.0] = 207,
-		[5101.0] = 70,
-		[31052.0] = 214,
-		[61504.0] = 341,
-		[19225.0] = 146,
-		[90403.0] = 390,
-		[25312.0] = 178,
-		[26501.0] = 188,
-		[32061.0] = 221,
-		[19045.0] = 142,
-		[5450.0] = 75,
-		[17261.0] = 131,
-		[37143.0] = 263,
-		[30004.0] = 212,
-		[27101.0] = 196,
-		[70061.0] = 342,
-		[35561.0] = 249,
-		[70062.0] = 342,
-		[70071.0] = 342,
-		[26445.0] = 187,
-		[14470.0] = 108,
-		[32043.0] = 221,
-		[70072.0] = 342,
-		[7250.0] = 82,
-		[45444.0] = 312,
-		[28409.0] = 208,
-		[95425.0] = 400,
-		[26303.0] = 184,
-		[12041.0] = 89,
-		[95161.0] = 400,
-		[61051.0] = 341,
-		[70322.0] = 344,
-		[27040.0] = 194,
-		[34102.0] = 231,
-		[17243.0] = 131,
-		[37003.0] = 261,
-		[17063.0] = 127,
-		[23200.0] = 164,
-		[36240.0] = 251,
-		[33047.0] = 227,
-		[34226.0] = 235,
-		[35421.0] = 245,
-		[18046.0] = 137,
-		[28021.0] = 201,
-		[70311.0] = 344,
-		[70312.0] = 344,
-		[28211.0] = 205,
-		[70321.0] = 344,
-		[71022.0] = 344,
-		[71061.0] = 345,
-		[26361.0] = 185,
-		[28041.0] = 201,
-		[71141.0] = 346,
-		[60263.0] = 334,
-		[71151.0] = 346,
-		[71152.0] = 346,
-		[44141.0] = 301,
-		[39128.0] = 279,
-		[71171.0] = 346,
-		[16226.0] = 122,
-		[95162.0] = 400,
-		[28145.0] = 204,
-		[35448.0] = 246,
-		[14369.0] = 105,
-		[37406.0] = 268,
-		[85121.0] = 364,
-		[60523.0] = 339,
-		[71221.0] = 346,
-		[72011.0] = 347,
-		[15140.0] = 112,
-		[71112.0] = 345,
-		[16223.0] = 122,
-		[36363.0] = 253,
-		[72056.0] = 347,
-		[34241.0] = 235,
-		[4251.0] = 67,
-		[5223.0] = 72,
-		[16125.0] = 120,
-		[21540.0] = 154,
-		[73222.0] = 351,
-		[72091.0] = 348,
-		[72092.0] = 348,
-		[35560.0] = 249,
-		[37169.0] = 264,
-		[46264.0] = 317,
-		[72121.0] = 348,
-		[16060.0] = 118,
-		[79041.0] = 354,
-		[72131.0] = 348,
-		[85384.0] = 370,
-		[72141.0] = 348,
-		[16091.0] = 119,
-		[61052.0] = 341,
-		[72142.0] = 348,
-		[31061.0] = 215,
-		[17322.0] = 132,
-		[72151.0] = 348,
-		[31251.0] = 219,
-		[15168.0] = 114,
-		[34101.0] = 231,
-		[16122.0] = 120,
-		[37002.0] = 261,
-		[15104.0] = 112,
-		[71111.0] = 345,
-		[72162.0] = 349,
-		[33046.0] = 227,
-		[26626.0] = 191,
-		[35420.0] = 245,
-		[31185.0] = 217,
-		[17320.0] = 132,
-		[5523.0] = 76,
-		[36626.0] = 259,
-		[44402.0] = 303,
-		[15230.0] = 115,
-		[72251.0] = 349,
-		[22265.0] = 160,
-		[72254.0] = 349,
-		[5124.0] = 70,
-		[72261.0] = 349,
-		[72312.0] = 350,
-		[19228.0] = 146,
-		[32120.0] = 222,
-		[73011.0] = 350,
-		[39127.0] = 279,
-		[13123.0] = 95,
-		[73051.0] = 350,
-		[24049.0] = 166,
-		[19162.0] = 144,
-		[14144.0] = 99,
-		[31062.0] = 215,
-		[37405.0] = 268,
-		[26502.0] = 188,
-		[39251.0] = 282,
-		[73221.0] = 351,
-		[73231.0] = 351,
-		[73511.0] = 351,
-		[74011.0] = 351,
-		[74012.0] = 351,
-		[22067.0] = 157,
-		[74111.0] = 351,
-		[34240.0] = 235,
-		[16021.0] = 117,
-		[74121.0] = 352,
-		[26645.0] = 192,
-		[37141.0] = 263,
-		[32044.0] = 221,
-		[46265.0] = 317,
-		[38223.0] = 274,
-		[13022.0] = 94,
-		[28410.0] = 208,
-		[49040.0] = 328,
-		[85386.0] = 370,
-		[15129.0] = 112,
-		[76022.0] = 353,
-		[61053.0] = 341,
-		[13120.0] = 95,
-		[14043.0] = 98,
-		[36501.0] = 255,
-		[95421.0] = 400,
-		[22001.0] = 156,
-		[36350.0] = 253,
-		[76112.0] = 353,
-		[25305.0] = 178,
-		[13151.0] = 96,
-		[16406.0] = 124,
-		[34100.0] = 231,
-		[45401.0] = 311,
-		[28022.0] = 201,
-		[44304.0] = 303,
-		[21613.0] = 156,
-		[28212.0] = 205,
-		[33045.0] = 227,
-		[78012.0] = 353,
-		[78022.0] = 353,
-		[26362.0] = 185,
-		[22022.0] = 156,
-		[41001.0] = 285,
-		[89089.0] = 376,
-		[4100.0] = 65,
-		[14511.0] = 109,
-		[7304.0] = 82,
-		[35253.0] = 242,
-		[41125.0] = 287,
-		[35306.0] = 243,
-		[79031.0] = 354,
-		[28146.0] = 204,
-		[79032.0] = 354,
-		[79042.0] = 354,
-		[12064.0] = 90,
-		[39126.0] = 279,
-		[24021.0] = 165,
-		[24126.0] = 168,
-		[79052.0] = 354,
-		[26447.0] = 187,
-		[79062.0] = 354,
-		[26040.0] = 180,
-		[37404.0] = 268,
-		[18190.0] = 140,
-		[39250.0] = 282,
-		[21473.0] = 154,
-		[11203.0] = 87,
-		[12126.0] = 91,
-		[45209.0] = 308,
-		[79082.0] = 355,
-		[79072.0] = 354,
-		[24250.0] = 171,
-		[25041.0] = 175,
-		[79131.0] = 355,
-		[25126.0] = 176,
-		[44305.0] = 303,
-		[37140.0] = 263,
-		[26505.0] = 188,
-		[49041.0] = 328,
-		[79251.0] = 356,
-		[14441.0] = 107,
-		[79301.0] = 357,
-		[22144.0] = 158,
-		[11040.0] = 84,
-		[36225.0] = 251,
-		[79302.0] = 357,
-		[95423.0] = 400,
-		[85380.0] = 370,
-		[79321.0] = 357,
-		[79332.0] = 357,
-		[41122.0] = 287,
-		[21420.0] = 152,
-		[36349.0] = 253,
-		[14508.0] = 109,
-		[79372.0] = 358,
-		[90146.0] = 387,
-		[26627.0] = 191,
-		[22268.0] = 161,
-		[31186.0] = 217,
-		[79384.0] = 358,
-		[19103.0] = 143,
-		[25052.0] = 175,
-		[11102.0] = 85,
-		[33044.0] = 227,
-		[70052.0] = 342,
-		[46122.0] = 315,
-		[22202.0] = 159,
-		[38221.0] = 274,
-		[24052.0] = 167,
-		[79431.0] = 358,
-		[32243.0] = 224,
-		[79481.0] = 359,
-		[39001.0] = 276,
-		[35320.0] = 243,
-		[44302.0] = 303,
-		[79541.0] = 360,
-		[85383.0] = 370,
-		[79552.0] = 360,
-		[19227.0] = 146,
-		[4245.0] = 67,
-		[22021.0] = 156,
-		[39125.0] = 279,
-		[32251.0] = 224,
-		[79571.0] = 360,
-		[79572.0] = 360,
-		[19161.0] = 144,
-		[90147.0] = 387,
-		[73232.0] = 351,
-		[28221.0] = 205,
-		[39151.0] = 280,
-		[23121.0] = 163,
-		[45344.0] = 310,
-		[60013.0] = 330,
-		[47087.0] = 322,
-		[30005.0] = 213,
-		[79051.0] = 354,
-		[42026.0] = 289,
-		[11001.0] = 84,
-		[45206.0] = 308,
-		[28411.0] = 208,
-		[79611.0] = 360,
-		[79622.0] = 361,
-		[26448.0] = 187,
-		[5401.0] = 74,
-		[46263.0] = 317,
-		[19042.0] = 142,
-		[28345.0] = 207,
-		[37165.0] = 264,
-		[79671.0] = 361,
-		[85382.0] = 370,
-		[14469.0] = 108,
-		[71121.0] = 345,
-		[25306.0] = 178,
-		[79722.0] = 362,
-		[44153.0] = 302,
-		[44303.0] = 303,
-		[35443.0] = 246,
-		[16323.0] = 123,
-		[36348.0] = 253,
-		[72212.0] = 349,
-		[21550.0] = 155,
-		[37304.0] = 266,
-		[14045.0] = 98,
-		[79312.0] = 357,
-		[26363.0] = 186,
-		[90140.0] = 386,
-		[85063.0] = 364,
-		[5021.0] = 69,
-		[7201.0] = 80,
-		[33043.0] = 227,
-		[60271.0] = 335,
-		[85065.0] = 364,
-		[89085.0] = 376,
-		[85120.0] = 364,
-		[4348.0] = 69,
-		[28147.0] = 204,
-		[37040.0] = 262,
-		[27105.0] = 196,
-		[39000.0] = 276,
-		[31261.0] = 219,
-		[85122.0] = 364,
-		[5240.0] = 72,
-		[85123.0] = 364,
-		[85140.0] = 364,
-		[37164.0] = 264,
-		[85142.0] = 365,
-		[85144.0] = 365,
-		[39124.0] = 279,
-		[16160.0] = 121,
-		[24125.0] = 168,
-		[24006.0] = 165,
-		[60131.0] = 332,
-		[46348.0] = 319,
-		[46242.0] = 316,
-		[37402.0] = 268,
-		[61054.0] = 341,
-		[25042.0] = 175,
-		[60591.0] = 339,
-		[11205.0] = 87,
-		[11171.0] = 87,
-		[21022.0] = 147,
-		[5302.0] = 73,
-		[72242.0] = 349,
-		[24249.0] = 171,
-		[35442.0] = 245,
-		[89084.0] = 376,
-		[85163.0] = 365,
-		[15244.0] = 116,
-		[31063.0] = 215,
-		[79322.0] = 357,
-		[29213.0] = 211,
-		[22143.0] = 158,
-		[39025.0] = 277,
-		[14244.0] = 102,
-		[46260.0] = 317,
-		[85170.0] = 366,
-		[14448.0] = 107,
-		[36223.0] = 251,
-		[21146.0] = 149,
-		[85171.0] = 366,
-		[26628.0] = 191,
-		[16090.0] = 119,
-		[31187.0] = 217,
-		[19040.0] = 141,
-		[36347.0] = 253,
-		[15167.0] = 114,
-		[85172.0] = 366,
-		[90142.0] = 387,
-		[85180.0] = 366,
-		[22267.0] = 161,
-		[16121.0] = 120,
-		[85204.0] = 366,
-		[60272.0] = 335,
-		[85225.0] = 367,
-		[32244.0] = 224,
-		[33042.0] = 227,
-		[42040.0] = 289,
-		[37427.0] = 269,
-		[22201.0] = 159,
-		[19041.0] = 141,
-		[24051.0] = 166,
-		[19164.0] = 144,
-		[85290.0] = 368,
-		[15229.0] = 115,
-		[95164.0] = 400,
-		[26504.0] = 188,
-		[17380.0] = 135,
-		[43120.0] = 297,
-		[85302.0] = 368,
-		[85304.0] = 369,
-		[85306.0] = 369,
-		[85324.0] = 369,
-		[28222.0] = 205,
-		[39123.0] = 279,
-		[85360.0] = 369,
-		[4351.0] = 69,
-		[15066.0] = 111,
-		[14143.0] = 99,
-		[30006.0] = 213,
-		[17368.0] = 134,
-		[79311.0] = 357,
-		[85381.0] = 370,
-		[26243.0] = 183,
-		[28412.0] = 208,
-		[26503.0] = 188,
-		[85385.0] = 370,
-		[85400.0] = 370,
-		[89086.0] = 376,
-		[85401.0] = 370,
-		[11247.0] = 88,
-		[28346.0] = 207,
-		[24071.0] = 167,
-		[85403.0] = 370,
-		[26240.0] = 183,
-		[85404.0] = 370,
-		[95165.0] = 400,
-		[25307.0] = 178,
-		[85408.0] = 371,
-		[85410.0] = 371,
-		[43121.0] = 297,
-		[46143.0] = 315,
-		[28024.0] = 201,
-		[85420.0] = 371,
-		[36222.0] = 251,
-		[5148.0] = 71,
-		[24326.0] = 172,
-		[14042.0] = 98,
-		[7102.0] = 80,
-		[26364.0] = 186,
-		[35167.0] = 240,
-		[36346.0] = 253,
-		[24005.0] = 165,
-		[21549.0] = 155,
-		[13150.0] = 96,
-		[27025.0] = 194,
-		[85423.0] = 371,
-		[60592.0] = 339,
-		[5144.0] = 71,
-		[42041.0] = 289,
-		[28148.0] = 204,
-		[47050.0] = 321,
-		[32322.0] = 225,
-		[85427.0] = 371,
-		[31262.0] = 219,
-		[85407.0] = 370,
-		[36625.0] = 259,
-		[95166.0] = 400,
-		[37441.0] = 270,
-		[85447.0] = 372,
-		[14184.0] = 101,
-		[89001.0] = 372,
-		[85125.0] = 364,
-		[11140.0] = 86,
-		[89003.0] = 372,
-		[5550.0] = 77,
-		[60133.0] = 332,
-		[14246.0] = 102,
-		[12063.0] = 90,
-		[89012.0] = 373,
-		[15500.0] = 116,
-		[25043.0] = 175,
-		[32124.0] = 222,
-		[39147.0] = 280,
-		[36361.0] = 253,
-		[24062.0] = 167,
-		[19044.0] = 142,
-		[32253.0] = 225,
-		[5206.0] = 71,
-		[15169.0] = 114,
-		[27045.0] = 194,
-		[11202.0] = 87,
-		[12125.0] = 91,
-		[26100.0] = 181,
-		[71131.0] = 346,
-		[18191.0] = 140,
-		[89050.0] = 374,
-		[89052.0] = 374,
-		[95167.0] = 400,
-		[7324.0] = 83,
-		[26442.0] = 187,
-		[89062.0] = 375,
-		[38067.0] = 272,
-		[44412.0] = 304,
-		[89065.0] = 375,
-		[85124.0] = 364,
-		[44024.0] = 299,
-		[31188.0] = 217,
-		[15170.0] = 114,
-		[89067.0] = 375,
-		[36221.0] = 251,
-		[21145.0] = 148,
-		[89068.0] = 375,
-		[89069.0] = 375,
-		[31122.0] = 216,
-		[42302.0] = 294,
-		[35166.0] = 240,
-		[44148.0] = 301,
-		[14507.0] = 109,
-		[11243.0] = 88,
-		[89070.0] = 375,
-		[89071.0] = 375,
-		[60142.0] = 332,
-		[47051.0] = 321,
-		[89072.0] = 375,
-		[89073.0] = 375,
-		[89081.0] = 375,
-		[11101.0] = 85,
-		[24330.0] = 172,
-		[22224.0] = 159,
-		[89082.0] = 376,
-		[22066.0] = 157,
-		[36624.0] = 259,
-		[89087.0] = 376,
-		[19163.0] = 144,
-		[37151.0] = 263,
-		[45342.0] = 310,
-		[28223.0] = 205,
-		[89088.0] = 376,
-		[35569.0] = 249,
-		[29140.0] = 210,
-		[5323.0] = 73,
-		[95705.0] = 400,
-		[30007.0] = 213,
-		[31266.0] = 219,
-		[38206.0] = 274,
-		[14344.0] = 104,
-		[60002.0] = 330,
-		[43066.0] = 297,
-		[95441.0] = 400,
-		[36360.0] = 253,
-		[89090.0] = 376,
-		[89091.0] = 376,
-		[89092.0] = 376,
-		[11142.0] = 86,
-		[28347.0] = 207,
-		[89100.0] = 376,
-		[35305.0] = 243,
-		[89101.0] = 376,
-		[44048.0] = 300,
-		[89102.0] = 376,
-		[25308.0] = 178,
-		[12065.0] = 90,
-		[45202.0] = 307,
-		[60671.0] = 340,
-		[14406.0] = 106,
-		[89104.0] = 376,
-		[85126.0] = 364,
-		[38066.0] = 271,
-		[89105.0] = 377,
-		[89106.0] = 377,
-		[89107.0] = 377,
-		[89108.0] = 377,
-		[95706.0] = 400,
-		[90148.0] = 387,
-		[35041.0] = 237,
-		[36220.0] = 251,
-		[42303.0] = 294,
-		[24325.0] = 172,
-		[27026.0] = 194,
-		[95442.0] = 400,
-		[89109.0] = 377,
-		[16322.0] = 123,
-		[89111.0] = 377,
-		[60143.0] = 332,
-		[89112.0] = 377,
-		[21222.0] = 150,
-		[89113.0] = 377,
-		[31263.0] = 219,
-		[60531.0] = 339,
-		[16402.0] = 124,
-		[89120.0] = 377,
-		[21610.0] = 156,
-		[89121.0] = 377,
-		[89122.0] = 377,
-		[36648.0] = 259,
-		[79461.0] = 359,
-		[34249.0] = 236,
-		[36623.0] = 259,
-		[5224.0] = 72,
-		[89127.0] = 377,
-		[32320.0] = 225,
-		[14447.0] = 107,
-		[23130.0] = 164,
-		[21346.0] = 152,
-		[25044.0] = 175,
-		[75221.0] = 352,
-		[89129.0] = 378,
-		[79081.0] = 354,
-		[60003.0] = 330,
-		[89131.0] = 378,
-		[19240.0] = 146,
-		[24251.0] = 171,
-		[89132.0] = 378,
-		[5421.0] = 74,
-		[85363.0] = 370,
-		[89144.0] = 378,
-		[24061.0] = 167,
-		[7123.0] = 80,
-		[89145.0] = 378,
-		[45102.0] = 306,
-		[89146.0] = 378,
-		[89147.0] = 378,
-		[17390.0] = 135,
-		[45226.0] = 308,
-		[45203.0] = 308,
-		[16221.0] = 122,
-		[89150.0] = 378,
-		[36120.0] = 250,
-		[60672.0] = 340,
-		[28227.0] = 206,
-		[79582.0] = 360,
-		[29149.0] = 210,
-		[5253.0] = 73,
-		[44049.0] = 300,
-		[44410.0] = 304,
-		[90150.0] = 387,
-		[89162.0] = 379,
-		[31123.0] = 216,
-		[89163.0] = 379,
-		[89166.0] = 379,
-		[35040.0] = 237,
-		[14346.0] = 104,
-		[95700.0] = 400,
-		[89169.0] = 379,
-		[25122.0] = 176,
-		[16089.0] = 119,
-		[22203.0] = 159,
-		[35164.0] = 239,
-		[44146.0] = 301,
-		[15166.0] = 114,
-		[60532.0] = 339,
-		[89183.0] = 380,
-		[37413.0] = 269,
-		[5322.0] = 73,
-		[16068.0] = 118,
-		[89212.0] = 381,
-		[19100.0] = 143,
-		[89221.0] = 381,
-		[17126.0] = 129,
-		[89223.0] = 381,
-		[19120.0] = 143,
-		[28224.0] = 206,
-		[15003.0] = 110,
-		[36622.0] = 259,
-		[26642.0] = 192,
-		[89233.0] = 382,
-		[37149.0] = 263,
-		[45340.0] = 310,
-		[44046.0] = 299,
-		[19244.0] = 146,
-		[35567.0] = 249,
-		[16161.0] = 121,
-		[17250.0] = 131,
-		[85402.0] = 370,
-		[89251.0] = 383,
-		[89260.0] = 383,
-		[38204.0] = 274,
-		[18181.0] = 139,
-		[28348.0] = 207,
-		[31003.0] = 213,
-		[15065.0] = 111,
-		[14142.0] = 99,
-		[90424.0] = 390,
-		[95173.0] = 400,
-		[89265.0] = 383,
-		[45240.0] = 309,
-		[17072.0] = 128,
-		[89282.0] = 384,
-		[35303.0] = 243,
-		[89283.0] = 384,
-		[60673.0] = 340,
-		[41120.0] = 287,
-		[47062.0] = 322,
-		[24328.0] = 172,
-		[44311.0] = 303,
-		[18061.0] = 137,
-		[44411.0] = 304,
-		[11240.0] = 88,
-		[90022.0] = 385,
-		[44023.0] = 299,
-		[21551.0] = 155,
-		[90120.0] = 386,
-		[90121.0] = 386,
-		[5121.0] = 70,
-		[95702.0] = 400,
-		[12163.0] = 92,
-		[90122.0] = 386,
-		[36591.0] = 258,
-		[42301.0] = 293,
-		[42061.0] = 290,
-		[14041.0] = 98,
-		[31264.0] = 219,
-		[60533.0] = 339,
-		[35163.0] = 239,
-		[14391.0] = 106,
-		[15173.0] = 114,
-		[11242.0] = 88,
-		[13149.0] = 96,
-		[37412.0] = 269,
-		[90129.0] = 386,
-		[12000.0] = 89,
-		[24064.0] = 167,
-		[33083.0] = 228,
-		[21609.0] = 156,
-		[90141.0] = 387,
-		[90143.0] = 387,
-		[90144.0] = 387,
-		[79581.0] = 360,
-		[18041.0] = 137,
-		[36621.0] = 258,
-		[4200.0] = 66,
-		[45101.0] = 306,
-		[37148.0] = 263,
-		[90149.0] = 387,
-		[23129.0] = 164,
-		[21345.0] = 151,
-		[35566.0] = 249,
-		[26643.0] = 192,
-		[46270.0] = 317,
-		[41145.0] = 287,
-		[21023.0] = 147,
-		[12062.0] = 90,
-		[38203.0] = 274,
-		[11170.0] = 87,
-		[90426.0] = 390,
-		[24122.0] = 168,
-		[31202.0] = 218,
-		[31000.0] = 213,
-		[90151.0] = 387,
-		[19173.0] = 145,
-		[44308.0] = 303,
-		[90153.0] = 387,
-		[36503.0] = 255,
-		[41121.0] = 287,
-		[35302.0] = 243,
-		[29150.0] = 210,
-		[90201.0] = 387,
-		[5501.0] = 75,
-		[21147.0] = 149,
-		[89093.0] = 376,
-		[35270.0] = 242,
-		[35426.0] = 245,
-		[6046.0] = 77,
-		[16404.0] = 124,
-		[31004.0] = 213,
-		[95448.0] = 400,
-		[7301.0] = 82,
-		[22140.0] = 158,
-		[36520.0] = 256,
-		[44020.0] = 299,
-		[90345.0] = 389,
-		[14444.0] = 107,
-		[27048.0] = 194,
-		[17071.0] = 128,
-		[73512.0] = 351,
-		[90427.0] = 390,
-		[25140.0] = 176,
-		[90402.0] = 390,
-		[18044.0] = 137,
-		[5340.0] = 73,
-		[90405.0] = 390,
-		[14506.0] = 109,
-		[16300.0] = 123,
-		[90406.0] = 390,
-		[37411.0] = 269,
-		[90421.0] = 390,
-		[19023.0] = 141,
-		[27102.0] = 196,
-		[46261.0] = 317,
-		[37023.0] = 262,
-		[17125.0] = 129,
-		[44309.0] = 303,
-		[27303.0] = 199,
-		[18184.0] = 140,
-		[34246.0] = 236,
-		[35441.0] = 245,
-		[95449.0] = 400,
-		[18188.0] = 140,
-		[37147.0] = 263,
-		[5402.0] = 74,
-		[46271.0] = 317,
-		[90428.0] = 390,
-		[35565.0] = 249,
-		[25120.0] = 176,
-		[17249.0] = 131,
-		[90429.0] = 391,
-		[90430.0] = 391,
-		[23206.0] = 164,
-		[38202.0] = 274,
-		[14343.0] = 104,
-		[70082.0] = 342,
-		[90440.0] = 391,
-		[79592.0] = 360,
-		[44045.0] = 299,
-		[21422.0] = 152,
-		[90441.0] = 391,
-		[16168.0] = 121,
-		[90445.0] = 391,
-		[21426.0] = 152,
-		[78011.0] = 353,
-		[35301.0] = 243,
-		[90447.0] = 391,
-		[30001.0] = 212,
-		[5022.0] = 69,
-		[7202.0] = 81,
-		[33051.0] = 227,
-		[85409.0] = 371,
-		[95450.0] = 400,
-		[14405.0] = 106,
-		[90448.0] = 391,
-		[90449.0] = 391,
-		[44021.0] = 299,
-		[90450.0] = 391,
-		[21224.0] = 150,
-		[90452.0] = 391,
-		[85145.0] = 365,
-		[90453.0] = 391,
-		[90502.0] = 392,
-		[37170.0] = 264,
-		[21612.0] = 156,
-		[90606.0] = 392,
-		[26045.0] = 180,
-		[31203.0] = 218,
-		[70081.0] = 342,
-		[26640.0] = 192,
-		[16321.0] = 123,
-		[90700.0] = 393,
-		[90702.0] = 393,
-		[21546.0] = 155,
-		[72112.0] = 348,
-		[23132.0] = 164,
-		[41143.0] = 287,
-		[4220.0] = 66,
-		[34121.0] = 231,
-		[90721.0] = 393,
-		[37022.0] = 262,
-		[47060.0] = 321,
-		[90724.0] = 393,
-		[7140.0] = 80,
-		[15204.0] = 114,
-		[34245.0] = 236,
-		[35440.0] = 245,
-		[90726.0] = 393,
-		[90741.0] = 393,
-		[24063.0] = 167,
-		[90745.0] = 393,
-		[49047.0] = 328,
-		[44042.0] = 299,
-		[35564.0] = 249,
-		[14120.0] = 99,
-		[17392.0] = 135,
-		[90785.0] = 394,
-		[7044.0] = 79,
-		[90805.0] = 395,
-		[90825.0] = 395,
-		[6103.0] = 78,
-		[90422.0] = 390,
-		[24121.0] = 168,
-		[90841.0] = 395,
-		[29151.0] = 211,
-		[90845.0] = 396,
-		[28040.0] = 201,
-		[27301.0] = 199,
-		[90863.0] = 396,
-		[37425.0] = 269,
-		[18063.0] = 137,
-		[35300.0] = 243,
-		[15103.0] = 112,
-		[85411.0] = 371,
-		[17066.0] = 127,
-		[27041.0] = 194,
-		[33050.0] = 227,
-		[42048.0] = 290,
-		[89103.0] = 376,
-		[4345.0] = 68,
-		[44307.0] = 303,
-		[90900.0] = 397,
-		[85147.0] = 365,
-		[29209.0] = 211,
-		[90902.0] = 397,
-		[90903.0] = 397,
-		[14242.0] = 102,
-		[90905.0] = 397,
-		[44043.0] = 299,
-		[11148.0] = 86,
-		[36545.0] = 256,
-		[90909.0] = 397,
-		[90423.0] = 390,
-		[90910.0] = 397,
-		[79591.0] = 360,
-		[90911.0] = 397,
-		[27103.0] = 196,
-		[90912.0] = 398,
-		[15165.0] = 114,
-		[21103.0] = 148,
-		[17062.0] = 127,
-		[24202.0] = 170,
-		[91001.0] = 398,
-		[91002.0] = 398,
-		[34120.0] = 231,
-		[90152.0] = 387,
-		[37021.0] = 261,
-		[4151.0] = 66,
-		[46145.0] = 315,
-		[91009.0] = 398,
-		[18183.0] = 139,
-		[15002.0] = 109,
-		[91010.0] = 398,
-		[95445.0] = 400,
-		[95006.0] = 399,
-		[85146.0] = 365,
-		[7321.0] = 83,
-		[46269.0] = 317,
-		[26500.0] = 188,
-		[35563.0] = 249,
-		[22220.0] = 159,
-		[43102.0] = 297,
-		[34003.0] = 230,
-		[95040.0] = 400,
-		[23205.0] = 164,
-		[12001.0] = 89,
-		[35322.0] = 243,
-		[95042.0] = 400,
-		[24004.0] = 165,
-		[95048.0] = 400,
-		[14141.0] = 99,
-		[21421.0] = 152,
-		[12100.0] = 90,
-		[4246.0] = 67,
-		[95103.0] = 400,
-		[37424.0] = 269,
-		[95121.0] = 400,
-		[95140.0] = 400,
-		[15063.0] = 111,
-		[42049.0] = 290,
-		[95142.0] = 400,
-		[95144.0] = 400,
-		[25200.0] = 177,
-		[85405.0] = 370,
-		[95446.0] = 400,
-		[95145.0] = 400,
-		[12066.0] = 90,
-		[95147.0] = 400,
-		[95148.0] = 400,
-		[37160.0] = 263,
-		[26046.0] = 180,
-		[95149.0] = 400,
-		[85141.0] = 364,
-		[34142.0] = 232,
-		[12162.0] = 92,
-		[31200.0] = 217,
-		[21611.0] = 156,
-		[71132.0] = 346,
-		[24322.0] = 172,
-		[21502.0] = 154,
-		[39130.0] = 279,
-		[18043.0] = 137,
-		[95151.0] = 400,
-		[5423.0] = 74,
-		[36369.0] = 254,
-		[21545.0] = 155,
-		[25053.0] = 175,
-		[23131.0] = 164,
-		[21347.0] = 152,
-		[95153.0] = 400,
-		[95160.0] = 400,
-		[22150.0] = 159,
-		[37020.0] = 261,
-		[24000.0] = 165,
-		[79061.0] = 354,
-		[95447.0] = 400,
-		[33064.0] = 228,
-		[34243.0] = 236,
-		[46142.0] = 315,
-		[79602.0] = 360,
-		[22141.0] = 158,
-		[95163.0] = 400,
-		[14380.0] = 105,
-		[43103.0] = 297,
-		[7223.0] = 81,
-		[26633.0] = 192,
-		[5043.0] = 69,
-		[46266.0] = 317,
-		[43124.0] = 298,
-		[14185.0] = 101,
-		[12061.0] = 90,
-		[27302.0] = 199,
-		[11169.0] = 87,
-		[95168.0] = 400,
-		[39145.0] = 280,
-		[27042.0] = 194,
-		[17325.0] = 133,
-		[46002.0] = 313,
-		[39168.0] = 281,
-		[32249.0] = 224,
-		[95169.0] = 400,
-		[37423.0] = 269,
-		[95170.0] = 400,
-		[95171.0] = 400,
-		[95172.0] = 400,
-		[31060.0] = 215,
-		[18124.0] = 138,
-		[29210.0] = 211,
-		[60563.0] = 339,
-		[42046.0] = 290,
-		[14302.0] = 103,
-		[95201.0] = 400,
-		[71092.0] = 345,
-		[95203.0] = 400,
-		[85143.0] = 365,
-		[24143.0] = 168,
-		[45350.0] = 311,
-		[95204.0] = 400,
-		[95221.0] = 400,
-		[95222.0] = 400,
-		[27104.0] = 196,
-		[90145.0] = 387,
-		[95721.0] = 400,
-		[89110.0] = 377,
-		[37306.0] = 266,
-		[79121.0] = 355,
-		[95225.0] = 400,
-		[95227.0] = 400,
-		[95229.0] = 400,
-		[95230.0] = 400,
-		[36368.0] = 254,
-		[14220.0] = 101,
-		[17061.0] = 127,
-		[95240.0] = 400,
-		[95150.0] = 400,
-		[18120.0] = 138,
-		[95242.0] = 400,
-		[17251.0] = 131,
-		[26245.0] = 183,
-		[90744.0] = 393,
-		[23208.0] = 164,
-		[43125.0] = 298,
-		[33063.0] = 227,
-		[45210.0] = 308,
-		[16066.0] = 118,
-		[15143.0] = 113,
-		[95253.0] = 400,
-		[21424.0] = 152,
-		[95322.0] = 400,
-		[46267.0] = 317,
-		[95349.0] = 400,
-		[15042.0] = 110,
-		[27241.0] = 198,
-		[49042.0] = 328,
-		[95400.0] = 400,
-		[30003.0] = 212,
-		[95401.0] = 400,
-		[95402.0] = 400,
-		[14342.0] = 104,
-		[46003.0] = 313,
-		[26369.0] = 186,
-		[95403.0] = 400,
-		[95420.0] = 400,
-		[11002.0] = 84,
-		[28153.0] = 204,
-		[95426.0] = 400,
-		[14373.0] = 105,
-		[37422.0] = 269,
-		[95440.0] = 400,
-		[11066.0] = 85,
-		[24344.0] = 173,
-		[42047.0] = 290,
-		[32323.0] = 225,
-		[95443.0] = 400,
-		[26047.0] = 180,
-		[21160.0] = 149,
-		[79601.0] = 360,
-		[95444.0] = 400,
-		[45351.0] = 311,
-		[26126.0] = 181,
-		[43122.0] = 297,
-		[21548.0] = 155,
-		[47085.0] = 322,
-		[13126.0] = 95,
-		[95723.0] = 400,
-		[14049.0] = 98,
-		[16064.0] = 118,
-		[45220.0] = 308,
-		[37444.0] = 270,
-		[60011.0] = 330,
-		[24321.0] = 172,
-		[45323.0] = 310,
-		[95451.0] = 400,
-		[5443.0] = 75,
-		[95460.0] = 400,
-		[72241.0] = 349,
-		[36367.0] = 254,
-		[31069.0] = 215,
-		[23021.0] = 161,
-		[95463.0] = 400,
-		[95464.0] = 400,
-		[15172.0] = 114,
-		[70112.0] = 343,
-		[22149.0] = 159,
-		[95466.0] = 400,
-		[24204.0] = 170,
-		[95467.0] = 400,
-		[7243.0] = 81,
-		[33062.0] = 227,
-		[32126.0] = 222,
-		[46140.0] = 315,
-		[85167.0] = 365,
-		[19046.0] = 142,
-		[15507.0] = 117,
-		[36103.0] = 250,
-		[49043.0] = 328,
-		[85406.0] = 370,
-		[89247.0] = 382,
-		[95486.0] = 400,
-		[95487.0] = 400,
-		[95300.0] = 400,
-		[15040.0] = 110,
-		[95422.0] = 400,
-		[32250.0] = 224,
-		[95502.0] = 400,
-		[95503.0] = 400,
-		[29021.0] = 209,
-		[95521.0] = 400,
-		[31140.0] = 216,
-		[15071.0] = 111,
-		[19170.0] = 145,
-		[29211.0] = 211,
-		[95524.0] = 400,
-		[37421.0] = 269,
-		[95543.0] = 400,
-		[17386.0] = 135,
-		[15102.0] = 112,
-		[43123.0] = 297,
-		[11046.0] = 84,
-		[71142.0] = 346,
-		[95604.0] = 400,
-		[42044.0] = 290,
-		[95605.0] = 400,
-		[45224.0] = 308,
-		[29145.0] = 210,
-		[95642.0] = 400,
-		[95646.0] = 400,
-		[17141.0] = 129,
-		[45348.0] = 311,
-		[39003.0] = 277,
-		[14241.0] = 102,
-		[60012.0] = 330,
-		[42066.0] = 290,
-		[95650.0] = 400,
-		[45246.0] = 309,
-		[95651.0] = 400,
-		[79071.0] = 354,
-		[26325.0] = 185,
-		[13124.0] = 95,
-		[14047.0] = 98,
-		[95652.0] = 400,
-		[95653.0] = 400,
-		[26246.0] = 184,
-		[12200.0] = 92,
-		[95701.0] = 400,
-		[25313.0] = 178,
-		[17265.0] = 131,
-		[16453.0] = 126,
-		[95703.0] = 400,
-		[95704.0] = 400,
-		[15067.0] = 111,
-		[17122.0] = 129,
-		[46141.0] = 315,
-		[28220.0] = 205,
-		[33061.0] = 227,
-		[15001.0] = 109,
-		[7308.0] = 82,
-		[95720.0] = 400,
-		[95722.0] = 400,
-		[21423.0] = 152,
-		[36102.0] = 250,
-		[14382.0] = 105,
-		[39304.0] = 283,
-		[95740.0] = 400,
-		[26370.0] = 186,
-		[95741.0] = 400,
-		[24343.0] = 173,
-		[35047.0] = 238,
-		[60153.0] = 332,
-		[27047.0] = 194,
-		[34000.0] = 230,
-		[85160.0] = 365,
-		[39142.0] = 280,
-		[60541.0] = 339,
-		[35171.0] = 240,
-		[17067.0] = 127,
-		[39040.0] = 277,
-		[95746.0] = 400,
-		[4148.0] = 66,
-		[37420.0] = 269,
-		[85149.0] = 365,
-		[72211.0] = 349,
-		[95761.0] = 400,
-		[42045.0] = 290,
-		[26061.0] = 180,
-		[32325.0] = 225,
-		[24324.0] = 172,
-		[18060.0] = 137,
-		[37442.0] = 270,
-		[48000.0] = 325,
-		[45349.0] = 311,
-		[95767.0] = 400,
-		[72255.0] = 349,
-		[21547.0] = 155,
-		[95768.0] = 400,
-		[39002.0] = 276,
-		[95770.0] = 400,
-		[32206.0] = 223,
-		[12161.0] = 92,
-		[7021.0] = 79,
-		[11044.0] = 84,
-		[31070.0] = 215,
-		[95801.0] = 400,
-		[95820.0] = 400,
-		[31260.0] = 219,
-		[90442.0] = 391,
-		[17342.0] = 133,
-		[95847.0] = 400,
-		[36365.0] = 253,
-		[17408.0] = 136,
-		[14512.0] = 109,
-		[95908.0] = 400,
-		[16003.0] = 117,
-		[85148.0] = 365,
-		[16065.0] = 118,
-		[35310.0] = 243,
-		[630022.0] = 400,
-		[90404.0] = 390,
-		[5502.0] = 75,
-		[27304.0] = 199,
-		[33060.0] = 227,
-		[23001.0] = 161,
-		[89123.0] = 377,
-		[15142.0] = 113,
-		[17327.0] = 133,
-		[24060.0] = 167,
-		[36101.0] = 250,
-		[7302.0] = 82,
-		[90420.0] = 390,
-		[95200.0] = 400,
-		[29022.0] = 209,
-		[650603.0] = 400,
-		[90425.0] = 390,
-		[35046.0] = 238,
-		[800000.0] = 400,
-		[29212.0] = 211,
-		[90443.0] = 391,
-		[800001.0] = 400,
-		[39141.0] = 280,
-		[60022.0] = 330,
-		[35170.0] = 240,
-		[13164.0] = 96,
-		[19169.0] = 145,
-		[45120.0] = 306,
-		[800002.0] = 400,
-		[71122.0] = 345,
-		[28229.0] = 206,
-		[17385.0] = 135,
-		[29146.0] = 210,
-		[26326.0] = 185,
-		[800004.0] = 400,
-		[48001.0] = 325,
-		[79331.0] = 357,
-		[42042.0] = 289,
-		[35471.0] = 247,
-		[45222.0] = 308,
-		[35449.0] = 246,
-		[95465.0] = 400,
-		[800007.0] = 400,
-		[33066.0] = 228,
-		[45346.0] = 310,
-		[800009.0] = 400,
-		[960003.0] = 400,
-		[35573.0] = 249,
-		[14442.0] = 107,
-		[960004.0] = 400,
-		[26247.0] = 184,
-		[14473.0] = 108,
-		[15041.0] = 110,
-		[960005.0] = 400,
-		[26450.0] = 187,
-		[960010.0] = 400,
-		[960013.0] = 400,
-		[25005.0] = 174,
-		[36364.0] = 253,
-		[85150.0] = 365,
-		[26252.0] = 184,
-		[85205.0] = 366,
-		[38247.0] = 275,
-		[39162.0] = 280,
-		[60551.0] = 339,
-		[35309.0] = 243,
-		[36401.0] = 254,
-		[17121.0] = 129,
-		[41126.0] = 287,
-		[45245.0] = 309,
-		[18180.0] = 139,
-		[85425.0] = 371,
-		[26371.0] = 186,
-		[35470.0] = 247,
-		[73321.0] = 351,
-		[95202.0] = 400,
-		[36100.0] = 249,
-		[11146.0] = 86,
-		[60411.0] = 337,
-		[90701.0] = 393,
-		[85161.0] = 365,
-		[800003.0] = 400,
-		[17407.0] = 136,
-		[35045.0] = 238,
-		[23202.0] = 164,
-		[60023.0] = 330,
-		[14341.0] = 104,
-		[38225.0] = 274,
-		[39140.0] = 279,
-		[16164.0] = 121,
-		[35206.0] = 240,
-		[41149.0] = 288,
-		[11045.0] = 84,
-		[32326.0] = 225,
-		[38246.0] = 275,
-		[36400.0] = 254,
-		[35345.0] = 244,
-		[25050.0] = 175,
-		[17267.0] = 132,
-		[42043.0] = 289,
-		[35469.0] = 247,
-		[45223.0] = 308,
-		[24323.0] = 172,
-		[19246.0] = 146,
-		[85424.0] = 371,
-		[34253.0] = 236,
-		[45347.0] = 311,
-		[17201.0] = 130,
-		[28045.0] = 201,
-		[31071.0] = 215,
-		[21220.0] = 150,
-		[35205.0] = 240,
-		[41022.0] = 285,
-		[35572.0] = 249,
-		[14248.0] = 102,
-		[22151.0] = 159,
-		[31005.0] = 213,
-		[16063.0] = 118,
-		[26041.0] = 180,
-		[26063.0] = 180,
-		[42203.0] = 292,
-		[26121.0] = 181,
-		[35344.0] = 244,
-		[26650.0] = 192,
-		[5143.0] = 71,
-		[15242.0] = 115,
-		[60552.0] = 339,
-		[19062.0] = 142,
-		[32062.0] = 221,
-		[15171.0] = 114,
-		[79342.0] = 357,
-		[35308.0] = 243,
-		[29103.0] = 209,
-		[17264.0] = 131,
-		[35204.0] = 240,
-		[32252.0] = 224,
-		[15202.0] = 114,
-		[26526.0] = 189,
-		[29023.0] = 209,
-		[4346.0] = 68,
-		[60412.0] = 337,
-		[90703.0] = 393,
-		[19172.0] = 145,
-		[6146.0] = 78,
-		[17080.0] = 128,
-		[25205.0] = 177,
-		[44026.0] = 299,
-		[17388.0] = 135,
-		[38244.0] = 275,
-		[35044.0] = 238,
-		[35343.0] = 244,
-		[7343.0] = 83,
-		[13000.0] = 93,
-		[38224.0] = 274,
-		[28230.0] = 206,
-		[26446.0] = 187,
-		[29147.0] = 210,
-		[15070.0] = 111,
-		[18193.0] = 140,
-		[14147.0] = 100,
-		[5205.0] = 71,
-		[4201.0] = 66,
-		[5444.0] = 75,
-		[24340.0] = 172,
-		[15101.0] = 111,
-		[36502.0] = 255,
-		[85426.0] = 371,
-		[11246.0] = 88,
-		[34147.0] = 232,
-		[17000.0] = 126,
-		[33073.0] = 228,
-		[34252.0] = 236,
-		[25125.0] = 176,
-		[95461.0] = 400,
-		[26248.0] = 184,
-		[85162.0] = 365,
-		[22226.0] = 159,
-		[17343.0] = 133,
-		[19251.0] = 147,
-		[35571.0] = 249,
-		[15505.0] = 116,
-		[41021.0] = 285,
-		[12168.0] = 92,
-		[17124.0] = 129,
-		[35202.0] = 240,
-		[60442.0] = 338,
-		[7323.0] = 83,
-		[14046.0] = 98,
-		[60553.0] = 339,
-		[14388.0] = 106,
-		[36362.0] = 253,
-		[17401.0] = 136,
-		[41000.0] = 285,
-		[25206.0] = 177,
-		[14450.0] = 107,
-		[17203.0] = 130,
-		[28047.0] = 201,
-		[35307.0] = 243,
-		[34146.0] = 232,
-		[31285.0] = 220,
-		[41124.0] = 287,
-		[47066.0] = 322,
-		[60413.0] = 337,
-		[85421.0] = 371,
-		[95462.0] = 400,
-		[14349.0] = 104,
-		[36641.0] = 259,
-		[39172.0] = 281,
-		[29303.0] = 212,
-		[37168.0] = 264,
-		[16040.0] = 117,
-		[16071.0] = 118,
-		[15148.0] = 113,
-		[11144.0] = 86,
-		[24070.0] = 167,
-		[35043.0] = 238,
-		[23201.0] = 164,
-		[23020.0] = 161,
-		[16102.0] = 119,
-		[12067.0] = 90,
-		[15504.0] = 116,
-		[25051.0] = 175,
-		[5424.0] = 74,
-		[5147.0] = 71,
-		[31145.0] = 216,
-		[89128.0] = 378,
-		[22225.0] = 159,
-		[79341.0] = 357,
-		[4350.0] = 69,
-		[32202.0] = 223,
-		[5242.0] = 72,
-		[11206.0] = 87,
-		[19122.0] = 143,
-		[45221.0] = 308,
-		[37325.0] = 267,
-		[19245.0] = 146,
-		[33072.0] = 228,
-		[34251.0] = 236,
-		[35446.0] = 246,
-		[26462.0] = 188,
-		[31006.0] = 213,
-		[16001.0] = 117,
-		[26042.0] = 180,
-		[7141.0] = 80,
-		[7224.0] = 81,
-		[35570.0] = 249,
-		[5044.0] = 70,
-		[45252.0] = 309,
-		[11043.0] = 84,
-		[44040.0] = 299,
-		[25141.0] = 176,
-		[13100.0] = 95,
-		[32063.0] = 221,
-		[23003.0] = 161,
-		[39153.0] = 280,
-		[17140.0] = 129,
-		[19047.0] = 142,
-		[7327.0] = 83,
-		[27240.0] = 198,
-		[60422.0] = 337,
-		[39046.0] = 277,
-		[37431.0] = 269,
-		[78021.0] = 353,
-		[22146.0] = 158,
-		[7042.0] = 79,
-		[17263.0] = 131,
-		[26000.0] = 179,
-		[71162.0] = 346,
-		[90451.0] = 391,
-		[26124.0] = 181,
-		[16422.0] = 125,
-		[6101.0] = 78,
-		[36640.0] = 259,
-		[60282.0] = 335,
-		[19171.0] = 145,
-		[37167.0] = 264,
-		[33104.0] = 229,
-		[32121.0] = 222,
-		[28231.0] = 206,
-		[17387.0] = 135,
-		[29148.0] = 210,
-		[35042.0] = 237,
-		[31022.0] = 213,
-		[43143.0] = 298,
-		[79091.0] = 355,
-		[38222.0] = 274,
-		[14348.0] = 104,
-		[89130.0] = 378,
-		[17321.0] = 132,
-		[19063.0] = 142,
-		[26463.0] = 188,
-		[14387.0] = 106,
-		[43003.0] = 295,
-		[33103.0] = 229,
-		[43140.0] = 298,
-		[42351.0] = 294,
-		[34126.0] = 232,
-		[36500.0] = 255,
-		[85422.0] = 371,
-		[27050.0] = 195,
-		[71161.0] = 346,
-		[47080.0] = 322,
-		[33071.0] = 228,
-		[34250.0] = 236,
-		[35445.0] = 246,
-		[17073.0] = 128,
-		[26662.0] = 193,
-		[90444.0] = 391,
-		[15248.0] = 116,
-		[32344.0] = 225,
-		[39044.0] = 277,
-		[44041.0] = 299,
-		[27100.0] = 195,
-		[49050.0] = 329,
-		[16421.0] = 125,
-		[17123.0] = 129,
-		[33102.0] = 229,
-		[14224.0] = 101,
-		[43141.0] = 298,
-		[42224.0] = 293,
-		[39152.0] = 280,
-		[60423.0] = 337,
-		[16326.0] = 123,
-		[31147.0] = 216,
-		[89125.0] = 377,
-		[800008.0] = 400,
-		[42348.0] = 294,
-		[37430.0] = 269,
-		[85169.0] = 366,
-		[800005.0] = 400,
-		[26241.0] = 183,
-		[26464.0] = 188,
-		[23204.0] = 164,
-		[800006.0] = 400,
-		[27125.0] = 196,
-		[60283.0] = 335,
-		[5544.0] = 76,
-		[26646.0] = 192,
-		[28025.0] = 201,
-		[15240.0] = 115,
-		[39043.0] = 277,
-		[37166.0] = 264,
-		[4301.0] = 68,
-		[38252.0] = 275,
-		[26522.0] = 189,
-		[5321.0] = 73,
-		[24069.0] = 167,
-		[78032.0] = 353,
-		[35351.0] = 245,
-		[26200.0] = 182,
-		[41168.0] = 288,
-		[19248.0] = 146,
-		[33101.0] = 229,
-		[16163.0] = 121,
-		[42225.0] = 293,
-		[34001.0] = 230,
-		[36142.0] = 250,
-		[89124.0] = 377,
-		[14022.0] = 97,
-		[26324.0] = 184,
-		[31288.0] = 220,
-		[85168.0] = 366,
-		[34125.0] = 232,
-		[47081.0] = 322,
-		[16000.0] = 117,
-		[16405.0] = 124,
-		[26043.0] = 180,
-		[16225.0] = 122,
-		[33070.0] = 228,
-		[90446.0] = 391,
-		[35444.0] = 246,
-		[31222.0] = 218,
-		[12043.0] = 90,
-		[21047.0] = 148,
-		[44208.0] = 302,
-		[49051.0] = 329,
-		[22040.0] = 156,
-		[32064.0] = 221,
-		[14247.0] = 102,
-		[41169.0] = 288,
-		[79162.0] = 355,
-		[16062.0] = 118,
-		[45001.0] = 304,
-		[42346.0] = 294,
-		[37305.0] = 266,
-		[36544.0] = 256,
-		[16093.0] = 119,
-		[17149.0] = 130,
-		[7241.0] = 81,
-		[31065.0] = 215,
-		[17200.0] = 130,
-		[25144.0] = 176,
-		[44209.0] = 302,
-		[37429.0] = 269,
-		[41123.0] = 287,
-		[22145.0] = 158,
-		[14386.0] = 105,
-		[35349.0] = 244,
-		[37041.0] = 262,
-		[16240.0] = 122,
-		[15201.0] = 114,
-		[32122.0] = 222,
-		[28232.0] = 206,
-		[5222.0] = 72,
-		[17324.0] = 133,
-		[60063.0] = 331,
-		[42347.0] = 294,
-		[5540.0] = 76,
-		[18068.0] = 138,
-		[26664.0] = 193,
-		[31223.0] = 218,
-		[36667.0] = 260,
-		[90720.0] = 393,
-		[49064.0] = 329,
-		[38125.0] = 272,
-		[16423.0] = 125,
-		[35224.0] = 241,
-		[38220.0] = 274,
-		[18189.0] = 140,
-		[89126.0] = 377,
-		[44206.0] = 302,
-		[15069.0] = 111,
-		[7121.0] = 80,
-		[14146.0] = 100,
-		[95205.0] = 400,
-		[16201.0] = 121,
-		[26506.0] = 188,
-		[41167.0] = 288,
-		[34124.0] = 232,
-		[7340.0] = 83,
-		[4223.0] = 67,
-		[42220.0] = 292,
-		[32140.0] = 222,
-		[27127.0] = 196,
-		[33069.0] = 228,
-		[34168.0] = 233,
-		[13060.0] = 94,
-		[79612.0] = 361,
-		[11244.0] = 88,
-		[38000.0] = 270,
-		[17060.0] = 127,
-		[4103.0] = 65,
-		[36666.0] = 260,
-		[7307.0] = 82,
-		[78031.0] = 353,
-		[47106.0] = 323,
-		[12167.0] = 92,
-		[36402.0] = 254,
-		[41040.0] = 285,
-		[35347.0] = 244,
-		[13122.0] = 95,
-		[60161.0] = 332,
-		[39150.0] = 280,
-		[11220.0] = 87,
-		[26242.0] = 183,
-		[95206.0] = 400,
-		[42221.0] = 292,
-		[31224.0] = 218,
-		[36541.0] = 256,
-		[37428.0] = 269,
-		[85165.0] = 365,
-		[26647.0] = 192,
-		[28026.0] = 201,
-		[33112.0] = 230,
-		[23203.0] = 164,
-		[43151.0] = 298,
-		[41041.0] = 285,
-		[35222.0] = 240,
-		[41165.0] = 288,
-		[27062.0] = 195,
-		[22222.0] = 159,
-		[38122.0] = 272,
-		[35221.0] = 240,
-		[60021.0] = 330,
-		[90722.0] = 393,
-		[49065.0] = 329,
-		[34305.0] = 236,
-		[11143.0] = 86,
-		[37330.0] = 267,
-		[7022.0] = 79,
-		[46064.0] = 314,
-		[36249.0] = 252,
-		[34165.0] = 233,
-		[19247.0] = 146,
-		[15503.0] = 116,
-		[15246.0] = 116,
-		[13021.0] = 94,
-		[4240.0] = 67,
-		[36373.0] = 254,
-		[46022.0] = 313,
-		[26044.0] = 180,
-		[29045.0] = 209,
-		[14160.0] = 100,
-		[85164.0] = 365,
-		[34123.0] = 231,
-		[79362.0] = 358,
-		[95744.0] = 400,
-		[32321.0] = 225,
-		[14222.0] = 101,
-		[44300.0] = 302,
-		[33068.0] = 228,
-		[37205.0] = 264,
-		[46146.0] = 315,
-		[39051.0] = 278,
-		[14028.0] = 98,
-		[90723.0] = 393,
-		[95480.0] = 400,
-		[15145.0] = 113,
-		[46065.0] = 314,
-		[60682.0] = 340,
-		[34040.0] = 230,
-		[22148.0] = 159,
-		[11042.0] = 84,
-		[31066.0] = 215,
-		[21447.0] = 153,
-		[43146.0] = 298,
-		[37303.0] = 266,
-		[44203.0] = 302,
-		[39149.0] = 280,
-		[32349.0] = 226,
-		[34303.0] = 236,
-		[31160.0] = 216,
-		[14510.0] = 109,
-		[29310.0] = 212,
-		[31284.0] = 219,
-		[32123.0] = 222,
-		[32151.0] = 223,
-		[95745.0] = 400,
-		[34163.0] = 233,
-		[39329.0] = 284,
-		[33108.0] = 229,
-		[27300.0] = 199,
-		[17351.0] = 134,
-		[42050.0] = 290,
-		[18192.0] = 140,
-		[45230.0] = 309,
-		[17323.0] = 133,
-		[95481.0] = 400,
-		[43147.0] = 298,
-		[37163.0] = 264,
-		[39065.0] = 278,
-		[21043.0] = 147,
-		[37343.0] = 267,
-		[18126.0] = 139,
-		[26469.0] = 188,
-		[49062.0] = 329,
-		[34302.0] = 236,
-		[36248.0] = 252,
-		[28101.0] = 203,
-		[45130.0] = 306,
-		[14347.0] = 104,
-		[46023.0] = 313,
-		[34162.0] = 233,
-		[33107.0] = 229,
-		[36372.0] = 254,
-		[85166.0] = 365,
-		[43020.0] = 295,
-		[39064.0] = 278,
-		[28225.0] = 206,
-		[26441.0] = 187,
-		[34122.0] = 231,
-		[44301.0] = 303,
-		[29311.0] = 212,
-		[34301.0] = 236,
-		[46147.0] = 315,
-		[37202.0] = 264,
-		[33067.0] = 228,
-		[85441.0] = 371,
-		[95482.0] = 400,
-		[19072.0] = 143,
-		[39327.0] = 284,
-		[60683.0] = 340,
-		[89133.0] = 378,
-		[33106.0] = 229,
-		[29047.0] = 209,
-		[39024.0] = 277,
-		[39063.0] = 278,
-		[6140.0] = 78,
-		[5243.0] = 72,
-		[17346.0] = 133,
-		[26206.0] = 182,
-		[60031.0] = 330,
-		[37302.0] = 266,
-		[21166.0] = 149,
-		[39148.0] = 280,
-		[26648.0] = 192,
-		[16325.0] = 123,
-		[16100.0] = 119,
-		[5145.0] = 71,
-		[17082.0] = 128,
-		[36146.0] = 250,
-		[37426.0] = 269,
-		[79361.0] = 358,
-		[26669.0] = 193,
-		[31141.0] = 216,
-		[42051.0] = 290,
-		[21441.0] = 152,
-		[36425.0] = 254,
-		[89224.0] = 381,
-		[95483.0] = 400,
-		[85440.0] = 371,
-		[48006.0] = 326,
-		[22221.0] = 159,
-		[12141.0] = 91,
-		[31220.0] = 218,
-		[37162.0] = 264,
-		[39201.0] = 281,
-		[49063.0] = 329,
-		[31265.0] = 219,
-		[44212.0] = 302,
-		[42102.0] = 291,
-		[17400.0] = 135,
-		[32145.0] = 222,
-		[36247.0] = 251,
-		[42226.0] = 293,
-		[39061.0] = 278,
-		[5426.0] = 75,
-		[16162.0] = 121,
-		[17345.0] = 133,
-		[27000.0] = 193,
-		[36371.0] = 254,
-		[46020.0] = 313,
-		[25150.0] = 177,
-		[27309.0] = 199,
-		[14453.0] = 108,
-		[22023.0] = 156,
-		[72222.0] = 349,
-		[39200.0] = 281,
-		[41046.0] = 286,
-		[85443.0] = 371,
-		[18140.0] = 139,
-		[19242.0] = 146,
-		[32000.0] = 220,
-		[42064.0] = 290,
-		[42103.0] = 291,
-		[47129.0] = 324,
-		[15252.0] = 116,
-		[31067.0] = 215,
-		[39060.0] = 278,
-		[36423.0] = 254,
-		[34173.0] = 233,
-		[39023.0] = 277,
-		[60032.0] = 330,
-		[22147.0] = 158,
-		[31001.0] = 213,
-		[16061.0] = 118,
-		[26067.0] = 180,
-		[48042.0] = 327,
-		[37301.0] = 266,
-		[7043.0] = 79,
-		[70111.0] = 342,
-		[29305.0] = 212,
-		[14052.0] = 99,
-		[37353.0] = 268,
-		[41047.0] = 286,
-		[17224.0] = 130,
-		[17070.0] = 127,
-		[13160.0] = 96,
-		[45104.0] = 306,
-		[72221.0] = 349,
-		[5524.0] = 76,
-		[17260.0] = 131,
-		[85442.0] = 371,
-		[48007.0] = 326,
-		[39323.0] = 283,
-		[73012.0] = 350,
-		[33081.0] = 228,
-		[45228.0] = 308,
-		[32146.0] = 222,
-		[17348.0] = 133,
-		[45003.0] = 304,
-		[36422.0] = 254,
-		[28102.0] = 203,
-		[26530.0] = 189,
-		[36546.0] = 256,
-		[18125.0] = 138,
-		[48043.0] = 327,
-		[49060.0] = 329,
-		[90200.0] = 387,
-		[36246.0] = 251,
-		[23213.0] = 165,
-		[4120.0] = 65,
-		[28226.0] = 206,
-		[46021.0] = 313,
-		[60561.0] = 339,
-		[26142.0] = 182,
-		[36370.0] = 254,
-		[14145.0] = 100,
-		[26120.0] = 181,
-		[13103.0] = 95,
-		[44211.0] = 302,
-		[37440.0] = 269,
-		[24206.0] = 170,
-		[95742.0] = 400,
-		[42101.0] = 291,
-		[42065.0] = 290,
-		[34311.0] = 237,
-		[22246.0] = 160,
-		[5100.0] = 70,
-		[79092.0] = 355,
-		[25121.0] = 176,
-		[38143.0] = 272,
-		[26244.0] = 183,
-		[32221.0] = 223,
-		[60033.0] = 330,
-		[36421.0] = 254,
-		[26068.0] = 181,
-		[39022.0] = 277,
-		[85173.0] = 366,
-		[60421.0] = 337,
-		[12166.0] = 92,
-		[19205.0] = 145,
-		[38003.0] = 270,
-		[35102.0] = 238,
-		[13121.0] = 95,
-		[21165.0] = 149,
-		[39146.0] = 280,
-		[79621.0] = 361,
-		[31142.0] = 216,
-		[25804.0] = 179,
-		[45105.0] = 306,
-		[6003.0] = 77,
-		[41045.0] = 286,
-		[17223.0] = 130,
-		[95743.0] = 400,
-		[12003.0] = 89,
-		[32147.0] = 222,
-		[4149.0] = 66,
-		[36560.0] = 257,
-		[45229.0] = 309,
-		[35505.0] = 247,
-		[44312.0] = 303,
-		[33080.0] = 228,
-		[48004.0] = 326,
-		[19065.0] = 142,
-		[38142.0] = 272,
-		[28125.0] = 203,
-		[46071.0] = 314,
-		[36121.0] = 250,
-		[49061.0] = 329,
-		[90202.0] = 387,
-		[26641.0] = 192,
-		[24066.0] = 167,
-		[35241.0] = 241,
-		[36420.0] = 254,
-		[36245.0] = 251,
-		[14390.0] = 106,
-		[27310.0] = 199,
-		[15502.0] = 116,
-		[60343.0] = 336,
-		[39161.0] = 280,
-		[25210.0] = 177,
-		[43028.0] = 295,
-		[17083.0] = 128,
-		[37350.0] = 268,
-		[26672.0] = 193,
-		[28051.0] = 202,
-		[95224.0] = 400,
-		[41042.0] = 285,
-		[34309.0] = 237,
-		[22245.0] = 160,
-		[31068.0] = 215,
-		[31289.0] = 220,
-		[19241.0] = 146,
-		[35240.0] = 241,
-		[42062.0] = 290,
-		[32346.0] = 226,
-		[28301.0] = 206,
-		[31002.0] = 213,
-		[39071.0] = 278,
-		[35100.0] = 238,
-		[90203.0] = 387,
-		[15150.0] = 113,
-		[39021.0] = 277,
-		[79371.0] = 358,
-		[34184.0] = 233,
-		[11041.0] = 84,
-		[34308.0] = 237,
-		[35503.0] = 247,
-		[38140.0] = 272,
-		[26466.0] = 188,
-		[38230.0] = 275,
-		[34044.0] = 230,
-		[27046.0] = 194,
-		[19043.0] = 142,
-		[26144.0] = 182,
-		[14509.0] = 109,
-		[25211.0] = 177,
-		[17069.0] = 127,
-		[17020.0] = 126,
-		[29020.0] = 209,
-		[43026.0] = 295,
-		[35329.0] = 244,
-		[44313.0] = 303,
-		[26253.0] = 184,
-		[48005.0] = 326,
-		[28103.0] = 203,
-		[47088.0] = 322,
-		[13102.0] = 95,
-		[70122.0] = 343,
-		[18062.0] = 137,
-		[26202.0] = 182,
-		[79632.0] = 361,
-		[22248.0] = 160,
-		[7221.0] = 81,
-		[34307.0] = 237,
-		[5041.0] = 69,
-		[26443.0] = 187,
-		[72232.0] = 349,
-		[35502.0] = 247,
-		[12046.0] = 90,
-		[36244.0] = 251,
-		[13001.0] = 93,
-		[32347.0] = 226,
-		[18186.0] = 140,
-		[19141.0] = 143,
-		[39160.0] = 280,
-		[60431.0] = 337,
-		[79202.0] = 356,
-		[95226.0] = 400,
-		[89141.0] = 378,
-		[46066.0] = 314,
-		[16200.0] = 121,
-		[90725.0] = 393,
-		[24205.0] = 170,
-		[60602.0] = 340,
-		[28325.0] = 207,
-		[42063.0] = 290,
-		[11022.0] = 84,
-		[27070.0] = 195,
-		[60291.0] = 335,
-		[21168.0] = 149,
-		[70121.0] = 343,
-		[26343.0] = 185,
-		[36647.0] = 259,
-		[5227.0] = 72,
-		[21102.0] = 148,
-		[16344.0] = 124,
-		[29044.0] = 209,
-		[39020.0] = 277,
-		[34182.0] = 233,
-		[72231.0] = 349,
-		[31143.0] = 216,
-		[95321.0] = 400,
-		[25212.0] = 177,
-		[25022.0] = 174,
-		[24329.0] = 172,
-		[38229.0] = 275,
-		[14389.0] = 106,
-		[85281.0] = 368,
-		[22223.0] = 159,
-		[25146.0] = 176,
-		[45103.0] = 306,
-		[89140.0] = 378,
-		[21226.0] = 150,
-		[32200.0] = 223,
-		[31267.0] = 219,
-		[39332.0] = 284,
-		[35328.0] = 244,
-		[47089.0] = 322,
-		[76021.0] = 353,
-		[45227.0] = 308,
-		[37222.0] = 265,
-		[44310.0] = 303,
-		[15207.0] = 115,
-		[48002.0] = 325,
-		[39068.0] = 278,
-		[31201.0] = 217,
-		[31167.0] = 217,
-		[32324.0] = 225,
-		[37346.0] = 267,
-		[27311.0] = 199,
-		[42200.0] = 292,
-		[32224.0] = 223,
-		[24065.0] = 167,
-		[31291.0] = 220,
-		[34181.0] = 233,
-		[17270.0] = 132,
-		[27245.0] = 198,
-		[60432.0] = 337,
-		[35500.0] = 247,
-		[79102.0] = 355,
-		[89143.0] = 378,
-		[17360.0] = 134,
-		[4203.0] = 66,
-		[42248.0] = 293,
-		[95484.0] = 400,
-		[85283.0] = 368,
-		[19202.0] = 145,
-		[95220.0] = 400,
-		[39331.0] = 284,
-		[28302.0] = 206,
-		[60292.0] = 335,
-		[16401.0] = 124,
-		[14226.0] = 101,
-		[37221.0] = 265,
-		[14183.0] = 101,
-		[42060.0] = 290,
-		[22041.0] = 157,
-		[79631.0] = 361,
-		[36646.0] = 259,
-		[91000.0] = 398,
-		[27071.0] = 195,
-		[15106.0] = 112,
-		[32060.0] = 221,
-		[4143.0] = 66,
-		[14245.0] = 102,
-		[14020.0] = 97,
-		[34180.0] = 233,
-		[26320.0] = 184,
-		[28062.0] = 202,
-		[45024.0] = 305,
-		[11223.0] = 88,
-		[38228.0] = 275,
-		[5448.0] = 75,
-		[89142.0] = 378,
-		[14051.0] = 99,
-		[95485.0] = 400,
-		[7122.0] = 80,
-		[12204.0] = 93,
-		[28104.0] = 203,
-		[37220.0] = 265,
-		[45100.0] = 305,
-		[38151.0] = 273,
-		[39066.0] = 278,
-		[35327.0] = 244,
-		[33000.0] = 226,
-		[48003.0] = 325,
-		[41144.0] = 287,
-		[47086.0] = 322,
-		[28228.0] = 206,
-		[26444.0] = 187,
-		[35451.0] = 246,
-		[11122.0] = 85,
-		[42201.0] = 292,
-		[22242.0] = 160,
-		[89153.0] = 379,
-		[16428.0] = 125,
-		[26543.0] = 189,
-		[44047.0] = 299,
-		[11021.0] = 84,
-		[60433.0] = 337,
-		[38150.0] = 273,
-		[36242.0] = 251,
-		[18022.0] = 137,
-		[39344.0] = 284,
-		[18185.0] = 140,
-		[85445.0] = 372,
-		[25123.0] = 176,
-		[25024.0] = 174,
-		[6020.0] = 77,
-		[24142.0] = 168,
-		[12103.0] = 90,
-		[18146.0] = 139,
-		[60293.0] = 335,
-		[24165.0] = 169,
-		[85181.0] = 366,
-		[34193.0] = 234,
-		[31103.0] = 215,
-		[36521.0] = 256,
-		[71172.0] = 346,
-		[45241.0] = 309,
-		[46340.0] = 318,
-		[21167.0] = 149,
-		[5151.0] = 71,
-		[39343.0] = 284,
-		[36645.0] = 259,
-		[15024.0] = 110,
-		[21101.0] = 148,
-		[89152.0] = 379,
-		[38103.0] = 272,
-		[45023.0] = 305,
-		[26544.0] = 189,
-		[16427.0] = 125,
-		[12165.0] = 92,
-		[14163.0] = 100,
-		[14225.0] = 101,
-		[46341.0] = 318,
-		[79101.0] = 355,
-		[38227.0] = 274,
-		[85444.0] = 371,
-		[36302.0] = 252,
-		[95223.0] = 400,
-		[36426.0] = 255,
-		[79642.0] = 361,
-		[4222.0] = 66,
-		[21225.0] = 150,
-		[42121.0] = 291,
-		[36705.0] = 261,
-		[12002.0] = 89,
-		[24068.0] = 167,
-		[35326.0] = 244,
-		[95760.0] = 400,
-		[18145.0] = 139,
-		[91003.0] = 398,
-		[27312.0] = 199,
-		[45020.0] = 304,
-		[60213.0] = 333,
-		[35450.0] = 246,
-		[36441.0] = 255,
-		[60302.0] = 335,
-		[36565.0] = 257,
-		[27246.0] = 198,
-		[44104.0] = 300,
-		[41065.0] = 286,
-		[11141.0] = 86,
-		[35246.0] = 241,
-		[24028.0] = 166,
-		[19203.0] = 145,
-		[44044.0] = 299,
-		[45021.0] = 304,
-		[19243.0] = 146,
-		[15501.0] = 116,
-		[14364.0] = 105,
-		[70131.0] = 343,
-		[28303.0] = 206,
-		[5343.0] = 74,
-		[36440.0] = 255,
-		[85183.0] = 366,
-		[43048.0] = 296,
-		[23112.0] = 163,
-		[22020.0] = 156,
-		[14384.0] = 105,
-		[17393.0] = 135,
-		[35245.0] = 241,
-		[60162.0] = 332,
-		[37047.0] = 262,
-		[41062.0] = 286,
-		[18148.0] = 139,
-		[73032.0] = 350,
-		[36703.0] = 261,
-		[35465.0] = 246,
-		[36644.0] = 259,
-		[42243.0] = 293,
-		[16148.0] = 120,
-		[37171.0] = 264,
-		[38102.0] = 272,
-		[36563.0] = 257,
-		[43049.0] = 296,
-		[54015.0] = 329,
-		[14446.0] = 107,
-		[21122.0] = 148,
-		[85446.0] = 372,
-		[650601.0] = 400,
-		[31163.0] = 216,
-		[38226.0] = 274,
-		[7100.0] = 79,
-		[650602.0] = 400,
-		[18064.0] = 137,
-		[35201.0] = 240,
-		[29313.0] = 212,
-		[85182.0] = 366,
-		[41063.0] = 286,
-		[14325.0] = 103,
-		[95762.0] = 400,
-		[650604.0] = 400,
-		[27106.0] = 196,
-		[35325.0] = 244,
-		[24027.0] = 166,
-		[46353.0] = 319,
-		[41142.0] = 287,
-		[47084.0] = 322,
-		[73031.0] = 350,
-		[37229.0] = 265,
-		[79112.0] = 355,
-		[21302.0] = 151,
-		[25000.0] = 173,
-		[27331.0] = 200,
-		[89149.0] = 378,
-		[4144.0] = 66,
-		[28322.0] = 206,
-		[18122.0] = 138,
-		[25124.0] = 176,
-		[43046.0] = 296,
-		[5244.0] = 72,
-		[28000.0] = 200,
-		[23210.0] = 165,
-		[26150.0] = 182,
-		[14345.0] = 104,
-		[38241.0] = 275,
-		[44103.0] = 300,
-		[79641.0] = 361,
-		[26340.0] = 185,
-		[24141.0] = 168,
-		[41002.0] = 285,
-		[95763.0] = 400,
-		[41060.0] = 286,
-		[60163.0] = 332,
-		[13169.0] = 97,
-		[12020.0] = 89,
-		[34145.0] = 232,
-		[36701.0] = 260,
-		[37046.0] = 262,
-		[37228.0] = 265,
-		[24228.0] = 170,
-		[7143.0] = 80,
-		[24162.0] = 169,
-		[35464.0] = 246,
-		[36643.0] = 259,
-		[31164.0] = 216,
-		[21121.0] = 148,
-		[89148.0] = 378,
-		[38101.0] = 272,
-		[35242.0] = 241,
-		[35521.0] = 247,
-		[26349.0] = 185,
-		[16067.0] = 118,
-		[46351.0] = 319,
-		[37227.0] = 265,
-		[14363.0] = 104,
-		[15144.0] = 113,
-		[21162.0] = 149,
-		[21462.0] = 153,
-		[26644.0] = 192,
-		[16248.0] = 122,
-		[35200.0] = 240,
-		[43044.0] = 296,
-		[23048.0] = 162,
-		[44101.0] = 300,
-		[21322.0] = 151,
-		[37226.0] = 265,
-		[37449.0] = 270,
-		[24067.0] = 167,
-		[35324.0] = 243,
-		[32230.0] = 224,
-		[17272.0] = 132,
-		[27247.0] = 198,
-		[44306.0] = 303,
-		[15206.0] = 114,
-		[24227.0] = 170,
-		[89151.0] = 379,
-		[24161.0] = 169,
-		[39351.0] = 285,
-		[79222.0] = 356,
-		[16046.0] = 118,
-		[37241.0] = 265,
-		[85043.0] = 363,
-		[95228.0] = 400,
-		[26520.0] = 189,
-		[7146.0] = 80,
-		[18223.0] = 140,
-		[24001.0] = 165,
-		[71182.0] = 346,
-		[27201.0] = 197,
-		[24304.0] = 172,
-		[38240.0] = 275,
-		[41003.0] = 285,
-		[12120.0] = 91,
-		[17330.0] = 133,
-		[91008.0] = 398,
-		[25029.0] = 174,
-		[27305.0] = 199,
-		[6044.0] = 77,
-		[43042.0] = 296,
-		[36713.0] = 261,
-		[14029.0] = 98,
-		[34144.0] = 232,
-		[31240.0] = 218,
-		[37045.0] = 262,
-		[23105.0] = 163,
-		[14182.0] = 101,
-		[79111.0] = 355,
-		[33089.0] = 229,
-		[35463.0] = 246,
-		[36642.0] = 259,
-		[21321.0] = 151,
-		[24164.0] = 169,
-		[15105.0] = 112,
-		[38100.0] = 272,
-		[46346.0] = 319,
-		[39225.0] = 282,
-		[21123.0] = 148,
-		[39349.0] = 285,
-		[43126.0] = 298,
-		[12172.0] = 92,
-		[71181.0] = 346,
-		[27144.0] = 197,
-		[16348.0] = 124,
-		[24342.0] = 173,
-		[21464.0] = 153,
-		[5141.0] = 70,
-		[24303.0] = 172,
-		[41070.0] = 286,
-		[12203.0] = 93,
-		[89161.0] = 379,
-		[4249.0] = 67,
-		[33003.0] = 226,
-		[37448.0] = 270,
-		[39348.0] = 284,
-		[35323.0] = 243,
-		[47153.0] = 324,
-		[18020.0] = 136,
-		[41140.0] = 287,
-		[47082.0] = 322,
-		[18187.0] = 140,
-		[45026.0] = 305,
-		[26145.0] = 182,
-		[21301.0] = 151,
-		[24163.0] = 169,
-		[24144.0] = 168,
-		[60041.0] = 330,
-		[16146.0] = 120,
-		[12040.0] = 89,
-		[18121.0] = 138,
-		[41071.0] = 286,
-		[26653.0] = 192,
-		[39223.0] = 282,
-		[14168.0] = 100,
-		[23209.0] = 164,
-		[42000.0] = 289,
-		[85051.0] = 363,
-		[73042.0] = 350,
-		[15508.0] = 117,
-		[46361.0] = 319,
-		[45428.0] = 312,
-		[21425.0] = 152,
-		[12102.0] = 90,
-		[89160.0] = 379,
-		[90746.0] = 394,
-		[14261.0] = 102,
-		[5521.0] = 76,
-		[36446.0] = 255,
-		[34143.0] = 232,
-		[4150.0] = 66,
-		[37044.0] = 262,
-		[36570.0] = 257,
-		[28070.0] = 202,
-		[19253.0] = 147,
-		[33088.0] = 229,
-		[35462.0] = 246,
-		[11241.0] = 88,
-		[25031.0] = 174,
-		[39222.0] = 281,
-		[42125.0] = 291,
-		[11227.0] = 88,
-		[47151.0] = 324,
-		[36709.0] = 261,
-		[5103.0] = 70,
-		[21521.0] = 154,
-		[22126.0] = 158,
-		[11047.0] = 84,
-		[4141.0] = 65,
-		[91011.0] = 398,
-		[21161.0] = 149,
-		[73041.0] = 350,
-		[23041.0] = 162,
-		[79122.0] = 355,
-		[39169.0] = 281,
-		[11126.0] = 86,
-		[90747.0] = 394,
-		[32101.0] = 221,
-		[22250.0] = 160,
-		[17301.0] = 132,
-		[37447.0] = 270,
-		[41141.0] = 287,
-		[47083.0] = 322,
-		[41069.0] = 286,
-		[17271.0] = 132,
-		[60562.0] = 339,
-		[39221.0] = 281,
-		[14400.0] = 106,
-		[42070.0] = 291,
-		[35529.0] = 248,
-		[79651.0] = 361,
-		[38166.0] = 273,
-		[14462.0] = 108,
-		[16347.0] = 124,
-		[26221.0] = 183,
-		[21400.0] = 152,
-		[43052.0] = 296,
-		[85321.0] = 369,
-		[95769.0] = 400,
-		[28129.0] = 204,
-		[39220.0] = 281,
-		[21524.0] = 154,
-		[27306.0] = 199,
-		[16246.0] = 122,
-		[36707.0] = 261,
-		[23044.0] = 162,
-		[5422.0] = 74,
-		[17329.0] = 133,
-		[91004.0] = 398,
-		[16083.0] = 119,
-		[35264.0] = 242,
-		[79502.0] = 359,
-		[19022.0] = 141,
-		[14383.0] = 105,
-		[43053.0] = 296,
-		[90740.0] = 393,
-		[95241.0] = 400,
-		[37043.0] = 262,
-		[35000.0] = 237,
-		[37249.0] = 266,
-		[41067.0] = 286,
-		[33087.0] = 229,
-		[35461.0] = 246,
-		[17040.0] = 126,
-		[26610.0] = 191,
-		[35527.0] = 248,
-		[47146.0] = 324,
-		[7222.0] = 81,
-		[15121.0] = 112,
-		[5042.0] = 69,
-		[38164.0] = 273,
-		[14445.0] = 107,
-		[18000.0] = 136,
-		[28072.0] = 202,
-		[26346.0] = 185,
-		[26125.0] = 181,
-		[11164.0] = 87,
-		[24341.0] = 173,
-		[85465.0] = 372,
-		[91005.0] = 398,
-		[34002.0] = 230,
-		[38303.0] = 276,
-		[24300.0] = 171,
-		[17065.0] = 127,
-		[26148.0] = 182,
-		[25025.0] = 174,
-		[37446.0] = 270,
-		[85201.0] = 366,
-		[11226.0] = 88,
-		[26249.0] = 184,
-		[42071.0] = 291,
-		[23212.0] = 165,
-		[12149.0] = 91,
-		[43000.0] = 294,
-		[35526.0] = 248,
-		[44120.0] = 300,
-		[23022.0] = 161,
-		[32103.0] = 222,
-		[5228.0] = 72,
-		[34067.0] = 231,
-		[95771.0] = 400,
-		[35262.0] = 242,
-		[19021.0] = 141,
-		[43051.0] = 296,
-		[37247.0] = 266,
-		[14368.0] = 105,
-		[46304.0] = 318,
-		[18230.0] = 141,
-		[21040.0] = 147,
-		[4303.0] = 68,
-		[91006.0] = 398,
-		[85464.0] = 372,
-		[16167.0] = 121,
-		[17361.0] = 134,
-		[26421.0] = 186,
-		[43064.0] = 296,
-		[46040.0] = 313,
-		[90742.0] = 393,
-		[95243.0] = 400,
-		[24201.0] = 170,
-		[85200.0] = 366,
-		[34141.0] = 232,
-		[17406.0] = 136,
-		[37042.0] = 262,
-		[26223.0] = 183,
-		[35261.0] = 242,
-		[21164.0] = 149,
-		[33086.0] = 228,
-		[35460.0] = 246,
-		[60239.0] = 334,
-		[4344.0] = 68,
-		[31245.0] = 218,
-		[21460.0] = 153,
-		[32302.0] = 225,
-		[49067.0] = 329,
-		[38301.0] = 276,
-		[35400.0] = 245,
-		[14251.0] = 102,
-		[79382.0] = 358,
-		[95764.0] = 400,
-		[36251.0] = 252,
-		[91007.0] = 398,
-		[16445.0] = 125,
-		[37321.0] = 267,
-		[43065.0] = 297,
-		[39167.0] = 281,
-		[35524.0] = 247,
-		[16082.0] = 119,
-		[90743.0] = 393,
-		[85203.0] = 366,
-		[95500.0] = 400,
-		[22251.0] = 160,
-		[37445.0] = 270,
-		[35260.0] = 242,
-		[32228.0] = 224,
-		[43001.0] = 294,
-		[24003.0] = 165,
-		[15221.0] = 115,
-		[17142.0] = 129,
-		[15205.0] = 114,
-		[42068.0] = 290,
-		[37245.0] = 266,
-		[45248.0] = 309,
-		[26422.0] = 186,
-		[18229.0] = 141,
-		[33025.0] = 226,
-		[27307.0] = 199,
-		[6120.0] = 78,
-		[46305.0] = 318,
-		[79383.0] = 358,
-		[95765.0] = 400,
-		[26224.0] = 183,
-		[17266.0] = 131,
-		[85466.0] = 372,
-		[14003.0] = 97,
-		[26348.0] = 185,
-		[28066.0] = 202,
-		[5451.0] = 75,
-		[46041.0] = 313,
-		[32303.0] = 225,
-		[37244.0] = 265,
-		[95501.0] = 400,
-		[85202.0] = 366,
-		[25027.0] = 174,
-		[7251.0] = 82,
-		[7346.0] = 83,
-		[22064.0] = 157,
-		[34140.0] = 232,
-		[11000.0] = 84,
-		[21501.0] = 154,
-		[11225.0] = 88,
-		[14181.0] = 100,
-		[12140.0] = 91,
-		[33085.0] = 228,
-		[35522.0] = 247,
-		[13064.0] = 94,
-		[46226.0] = 316,
-		[11248.0] = 89,
-		[7313.0] = 83,
-		[17068.0] = 127,
-		[14468.0] = 108,
-		[95766.0] = 400,
-		[27043.0] = 194,
-		[5125.0] = 70,
-		[60441.0] = 337,
-		[12171.0] = 92,
-		[36250.0] = 252,
-		[11062.0] = 85,
-		[17002.0] = 126,
-		[37320.0] = 266,
-		[85461.0] = 372,
-		[39166.0] = 281,
-		[21303.0] = 151,
-		[26250.0] = 184,
-		[12202.0] = 93,
-		[28100.0] = 203,
-		[27150.0] = 197,
-		[60301.0] = 335,
-		[18123.0] = 138,
-		[19147.0] = 144,
-		[29124.0] = 210,
-		[46367.0] = 320,
-		[42069.0] = 291,
-		[23211.0] = 165,
-		[45249.0] = 309,
-		[14367.0] = 105,
-		[21470.0] = 154,
-		[33023.0] = 226,
-		[48024.0] = 326,
-		[43060.0] = 296,
-		[38313.0] = 276,
-		[16345.0] = 124,
-		[89168.0] = 379,
-		[16120.0] = 120,
-		[39026.0] = 277,
-		[79381.0] = 358,
-		[11147.0] = 86,
-		[5220.0] = 72,
-		[46302.0] = 317,
-		[15228.0] = 115,
-		[37242.0] = 265,
-		[16151.0] = 121,
-		[32205.0] = 223,
-		[85460.0] = 372,
-		[16447.0] = 126,
-		[24169.0] = 169,
-		[22063.0] = 157,
-		[12101.0] = 90,
-		[42144.0] = 292,
-		[15127.0] = 112,
-		[16081.0] = 119,
-		[27151.0] = 197,
-		[25301.0] = 178,
-		[71062.0] = 345,
-		[17405.0] = 136,
-		[39305.0] = 283,
-		[17300.0] = 132,
-		[36590.0] = 258,
-		[21163.0] = 149,
-		[33084.0] = 228,
-		[70132.0] = 343,
-		[89171.0] = 379,
-		[15026.0] = 110,
-		[28142.0] = 204,
-		[4101.0] = 65,
-		[5150.0] = 71,
-		[7305.0] = 82,
-		[36450.0] = 255,
-		[12124.0] = 91,
-		[39041.0] = 277,
-		[24246.0] = 171,
-		[14452.0] = 108,
-		[85463.0] = 372,
-		[95248.0] = 400,
-		[31248.0] = 219,
-		[22264.0] = 160,
-		[11100.0] = 85,
-		[39165.0] = 281,
-		[19223.0] = 145,
-		[44128.0] = 301,
-		[17373.0] = 135,
-		[89043.0] = 374,
-		[5344.0] = 74,
-		[73312.0] = 351,
-		[37443.0] = 270,
-		[26623.0] = 191,
-		[72257.0] = 349,
-		[22124.0] = 158,
-		[27152.0] = 197,
-		[25302.0] = 178,
-		[27308.0] = 199,
-		[36588.0] = 258,
-		[32065.0] = 221,
-		[28143.0] = 204,
-		[89170.0] = 379,
-		[21472.0] = 154,
-		[91012.0] = 398,
-		[27242.0] = 198,
-		[75031.0] = 352,
-		[14366.0] = 105,
-		[46303.0] = 318,
-		[35269.0] = 242,
-		[24245.0] = 171,
-		[90748.0] = 394,
-		[95249.0] = 400,
-		[85462.0] = 372,
-		[45042.0] = 305,
-		[5204.0] = 71,
-		[32240.0] = 224,
-		[14351.0] = 104,
-		[19160.0] = 144,
-		[15227.0] = 115,
-		[35144.0] = 239,
-		[44126.0] = 301,
-		[4341.0] = 68,
-		[16441.0] = 125,
-		[73311.0] = 351,
-		[28233.0] = 206,
-		[26449.0] = 187,
-		[72256.0] = 349,
-		[79392.0] = 358,
-		[90220.0] = 388,
-		[14203.0] = 101,
-		[41150.0] = 288,
-		[5551.0] = 77,
-		[60311.0] = 335,
-		[27044.0] = 194,
-		[91013.0] = 398,
-		[45043.0] = 305,
-		[32100.0] = 221,
-		[14040.0] = 98,
-		[89165.0] = 379,
-		[13148.0] = 96,
-		[21240.0] = 150,
-		[90749.0] = 394,
-		[95250.0] = 400,
-		[27145.0] = 197,
-		[26251.0] = 184,
-		[43070.0] = 297,
-		[60513.0] = 338,
-		[17001.0] = 126,
-		[18225.0] = 140,
-		[38249.0] = 275,
-		[39164.0] = 281,
-		[23024.0] = 161,
-		[13047.0] = 94,
-		[42141.0] = 291,
-		[4320.0] = 68,
-		[26220.0] = 183,
-		[31184.0] = 217,
-		[60171.0] = 332,
-		[38307.0] = 276,
-		[90221.0] = 388,
-		[11161.0] = 86,
-		[42067.0] = 290,
-		[14320.0] = 103,
-		[45247.0] = 309,
-		[35142.0] = 239,
-		[7144.0] = 80,
-		[44124.0] = 300,
-		[48022.0] = 326,
-		[36651.0] = 259,
-		[15243.0] = 115,
-		[28343.0] = 207,
-		[89164.0] = 379,
-		[90750.0] = 394,
-		[95251.0] = 400,
-		[24203.0] = 170,
-		[21001.0] = 147,
-		[100000.0] = 400,
-		[46300.0] = 317,
-		[22060.0] = 157,
-		[19126.0] = 143,
-		[14404.0] = 106,
-		[5320.0] = 73,
-		[37251.0] = 266,
-		[16166.0] = 121,
-		[17045.0] = 127,
-		[42344.0] = 294,
-		[21100.0] = 148,
-		[21606.0] = 156,
-		[44001.0] = 298,
-		[18228.0] = 141,
-		[90222.0] = 388,
-		[21342.0] = 151,
-		[41151.0] = 288,
-		[25040.0] = 174,
-		[39303.0] = 283,
-		[29101.0] = 209,
-		[5002.0] = 69,
-		[19250.0] = 147,
-		[33082.0] = 228,
-		[14365.0] = 105,
-		[89167.0] = 379,
-		[4349.0] = 69,
-		[21144.0] = 148,
-		[90751.0] = 394,
-		[36123.0] = 250,
-		[24305.0] = 172,
-		[45443.0] = 312,
-		[16087.0] = 119,
-		[5241.0] = 72,
-		[7120.0] = 80,
-		[14303.0] = 103,
-		[44050.0] = 300,
-		[95244.0] = 400,
-		[17144.0] = 129,
-		[19220.0] = 145,
-		[38248.0] = 275,
-		[39163.0] = 280,
-		[35140.0] = 238,
-		[16443.0] = 125,
-		[60172.0] = 332,
-		[46249.0] = 316,
-		[90223.0] = 388,
-		[27023.0] = 194,
-		[32066.0] = 221,
-		[79391.0] = 358,
-		[46373.0] = 320,
-		[26420.0] = 186,
-		[17268.0] = 132,
-		[27243.0] = 198,
-		[48023.0] = 326,
-		[14101.0] = 99,
-		[12060.0] = 90,
-		[12122.0] = 91,
-		[45244.0] = 309,
-		[36650.0] = 259,
-		[21143.0] = 148,
-		[17202.0] = 130,
-		[24242.0] = 171,
-		[44400.0] = 303,
-		[46301.0] = 317,
-		[5403.0] = 74,
-		[28300.0] = 206,
-		[23051.0] = 162,
-		[95245.0] = 400,
-		[21503.0] = 154,
-		[31244.0] = 218,
-		[14504.0] = 109,
-		[42345.0] = 294,
-		[5023.0] = 69,
-		[70142.0] = 343,
-		[5142.0] = 71,
-		[7203.0] = 81,
-		[79652.0] = 361,
-		[27222.0] = 198,
-		[17245.0] = 131,
-		[4250.0] = 67,
-		[60313.0] = 335,
-		[34222.0] = 235,
-		[72252.0] = 349,
-		[14403.0] = 106,
-		[39302.0] = 283,
-		[60643.0] = 340,
-		[41148.0] = 288,
-		[47090.0] = 322,
-		[13063.0] = 94,
-		[36665.0] = 260,
-		[36122.0] = 250,
-		[26062.0] = 180,
-		[73322.0] = 351,
-		[44051.0] = 300,
-		[95246.0] = 400,
-		[12170.0] = 92,
-		[7041.0] = 79,
-		[13125.0] = 95,
-		[60173.0] = 333,
-		[70141.0] = 343,
-		[23023.0] = 161,
-		[12201.0] = 93,
-		[45121.0] = 306,
-		[5522.0] = 76,
-		[34151.0] = 232,
-		[36525.0] = 256,
-		[71211.0] = 346,
-		[61503.0] = 341,
-		[74112.0] = 351,
-		[48020.0] = 326,
-		[24140.0] = 168,
-		[32141.0] = 222,
-		[95247.0] = 400,
-		[26649.0] = 192,
-		[5047.0] = 70,
-		[79402.0] = 358,
-		[19125.0] = 143,
-		[7322.0] = 83,
-		[15506.0] = 116,
-		[42342.0] = 294,
-		[17341.0] = 133,
-		[29102.0] = 209,
-		[95520.0] = 400,
-		[35330.0] = 244,
-		[47091.0] = 323,
-		[39301.0] = 283,
-		[60182.0] = 333,
-		[19249.0] = 146,
-		[26525.0] = 189,
-		[36664.0] = 260,
-		[14420.0] = 106,
-		[47104.0] = 323,
-		[42202.0] = 292,
-		[27120.0] = 196,
-		[17143.0] = 129,
-		[32067.0] = 221,
-		[60042.0] = 330,
-		[6001.0] = 77,
-		[14513.0] = 109,
-		[32001.0] = 220,
-		[34150.0] = 232,
-		[36524.0] = 256,
-		[48021.0] = 326,
-		[45242.0] = 309,
-		[18070.0] = 138,
-		[21440.0] = 152,
-		[85206.0] = 366,
-		[26451.0] = 187,
-		[42343.0] = 294,
-		[14350.0] = 104,
-		[95522.0] = 400,
-		[25006.0] = 174,
-		[89173.0] = 379,
-		[14381.0] = 105,
-		[60183.0] = 333,
-		[39300.0] = 282,
-		[41146.0] = 287,
-		[17003.0] = 126,
-		[47105.0] = 323,
-		[36663.0] = 260,
-		[38121.0] = 272,
-		[79401.0] = 358,
-		[60043.0] = 330,
-		[29301.0] = 211,
-		[38245.0] = 275,
-		[95523.0] = 400,
-		[21300.0] = 151,
-		[16103.0] = 119,
-		[89172.0] = 379,
-		[61505.0] = 341,
-		[34149.0] = 232,
-		[36523.0] = 256,
-		[45243.0] = 309,
-		[32142.0] = 222,
-		[35468.0] = 247,
-		[17344.0] = 133,
-		[79662.0] = 361,
-		[72262.0] = 349,
-		[15048.0] = 110,
-		[19252.0] = 147,
-		[37329.0] = 267,
-		[16165.0] = 121,
-		[41023.0] = 285,
-		[42340.0] = 294,
-		[41147.0] = 288,
-		[17402.0] = 136,
-		[16002.0] = 117,
-		[95252.0] = 400,
-		[14187.0] = 101,
-		[5225.0] = 72,
-		[36662.0] = 260,
-		[5543.0] = 76,
-		[38120.0] = 272,
-		[14249.0] = 102,
-		[14024.0] = 98,
-		[15141.0] = 113,
-		[32002.0] = 220,
-		[73052.0] = 350,
-		[74122.0] = 352,
-		[12208.0] = 93,
-		[13163.0] = 96,
-		[34148.0] = 232,
-		[36522.0] = 256,
-		[90240.0] = 388,
-		[28046.0] = 201,
-		[41160.0] = 288,
-		[47102.0] = 323,
-		[35467.0] = 246,
-		[18069.0] = 138,
-		[89185.0] = 380,
-		[5126.0] = 70,
-		[25007.0] = 174,
-		[42341.0] = 294,
-		[37328.0] = 267,
-		[79132.0] = 355,
-		[35203.0] = 240,
-		[24150.0] = 169,
-		[41020.0] = 285,
-		[26064.0] = 180,
-		[90241.0] = 388,
-		[32341.0] = 225,
-		[43006.0] = 295,
-		[13062.0] = 94,
-		[79661.0] = 361,
-		[36661.0] = 260,
-		[26122.0] = 181,
-		[89184.0] = 380,
-		[29302.0] = 212,
-		[12169.0] = 92,
-		[7244.0] = 81,
-		[38243.0] = 275,
-		[22102.0] = 158,
-		[25800.0] = 178,
-		[34023.0] = 230,
-		[44200.0] = 302,
-		[46046.0] = 314,
-		[32143.0] = 222,
-		[90242.0] = 388,
-		[26651.0] = 192,
-		[35342.0] = 244,
-		[47103.0] = 323,
-		[27320.0] = 200,
-		[35466.0] = 246,
-		[89187.0] = 380,
-		[19061.0] = 142,
-		[4102.0] = 65,
-		[7306.0] = 82,
-		[11145.0] = 86,
-		[39049.0] = 278,
-		[32201.0] = 223,
-		[37327.0] = 267,
-		[95000.0] = 398,
-		[26527.0] = 189,
-		[39173.0] = 281,
-		[90243.0] = 388,
-		[37451.0] = 270,
-		[79411.0] = 358,
-		[26461.0] = 187,
-		[89186.0] = 380,
-		[36660.0] = 260,
-		[32003.0] = 220,
-		[43144.0] = 298,
-		[95001.0] = 399,
-		[38242.0] = 275,
-		[44201.0] = 302,
-		[46047.0] = 314,
-		[18072.0] = 138,
-		[34022.0] = 230,
-		[79672.0] = 361,
-		[90500.0] = 391,
-		[35341.0] = 244,
-		[47100.0] = 323,
-		[33091.0] = 229,
-		[26321.0] = 184,
-		[89181.0] = 380,
-		[39048.0] = 277,
-		[21500.0] = 154,
-		[95002.0] = 399,
-		[28105.0] = 203,
-		[37326.0] = 267,
-		[5341.0] = 74,
-		[60443.0] = 338,
-		[90501.0] = 392,
-		[24149.0] = 169,
-		[32342.0] = 225,
-		[16203.0] = 122,
-		[37450.0] = 270,
-		[34161.0] = 232,
-		[26123.0] = 181,
-		[21046.0] = 148,
-		[43004.0] = 295,
-		[48030.0] = 326,
-		[89180.0] = 380,
-		[43145.0] = 298,
-		[85224.0] = 367,
-		[95003.0] = 399,
-		[31021.0] = 213,
-		[32144.0] = 222,
-		[21170.0] = 149,
-		[22101.0] = 157,
-		[26652.0] = 192,
-		[34021.0] = 230,
-		[19064.0] = 142,
-		[46044.0] = 313,
-		[61501.0] = 341,
-		[35340.0] = 244,
-		[47101.0] = 323,
-		[39311.0] = 283,
-		[33090.0] = 229,
-		[79142.0] = 355,
-		[15241.0] = 115,
-		[85227.0] = 367,
-		[37201.0] = 264,
-		[39047.0] = 277,
-		[17404.0] = 136,
-		[15047.0] = 110,
-		[90503.0] = 392,
-		[39171.0] = 281,
-		[27313.0] = 200,
-		[45128.0] = 306,
-		[25207.0] = 177,
-		[43005.0] = 295,
-		[48031.0] = 326,
-		[14186.0] = 101,
-		[33105.0] = 229,
-		[89182.0] = 380,
-		[61510.0] = 341,
-		[95525.0] = 400,
-		[85226.0] = 367,
-		[14023.0] = 97,
-		[43142.0] = 298,
-		[28048.0] = 202,
-		[4123.0] = 65,
-		[24350.0] = 173,
-		[46045.0] = 313,
-		[18071.0] = 138,
-		[34020.0] = 230,
-		[12207.0] = 93,
-		[89193.0] = 380,
-		[13162.0] = 96,
-		[60321.0] = 335,
-		[27049.0] = 194,
-		[26322.0] = 184,
-		[39310.0] = 283,
-		[74131.0] = 352,
-		[31286.0] = 220,
-		[95526.0] = 400,
-		[36673.0] = 260,
-		[28106.0] = 203,
-		[37200.0] = 264,
-		[12044.0] = 90,
-		[85221.0] = 367,
-		[26661.0] = 193,
-		[71212.0] = 346,
-		[32343.0] = 225,
-		[37324.0] = 267,
-		[60181.0] = 333,
-		[39170.0] = 281,
-		[45129.0] = 306,
-		[89192.0] = 380,
-		[29304.0] = 212,
-		[25001.0] = 173,
-		[21045.0] = 148,
-		[43002.0] = 294,
-		[79141.0] = 355,
-		[13061.0] = 94,
-		[48028.0] = 326,
-		[11245.0] = 88,
-		[79682.0] = 361,
-		[11020.0] = 84,
-		[36145.0] = 250,
-		[85220.0] = 367,
-		[46306.0] = 318,
-		[95800.0] = 400,
-		[21169.0] = 149,
-		[31146.0] = 216,
-		[42350.0] = 294,
-		[66200.0] = 341,
-		[46042.0] = 313,
-		[29040.0] = 209,
-		[39309.0] = 283,
-		[32203.0] = 223,
-		[36672.0] = 260,
-		[85223.0] = 367,
-		[39045.0] = 277,
-		[17403.0] = 136,
-		[19121.0] = 143,
-		[37323.0] = 267,
-		[25208.0] = 177,
-		[6002.0] = 77,
-		[45126.0] = 306,
-		[35353.0] = 245,
-		[48029.0] = 326,
-		[26521.0] = 189,
-		[45250.0] = 309,
-		[85222.0] = 367,
-		[36144.0] = 250,
-		[95802.0] = 400,
-		[14449.0] = 107,
-		[90244.0] = 388,
-		[16303.0] = 123,
-		[24349.0] = 173,
-		[46043.0] = 313,
-		[79152.0] = 355,
-		[26323.0] = 184,
-		[89189.0] = 380,
-		[21246.0] = 150,
-		[60191.0] = 333,
-		[31287.0] = 220,
-		[39308.0] = 283,
-		[18066.0] = 137,
-		[79681.0] = 361,
-		[36671.0] = 260,
-		[31221.0] = 218,
-		[95803.0] = 400,
-		[16140.0] = 120,
-		[90245.0] = 388,
-		[46320.0] = 318,
-		[60051.0] = 330,
-		[37322.0] = 267,
-		[38253.0] = 275,
-		[16171.0] = 121,
-		[25002.0] = 173,
-		[45127.0] = 306,
-		[89188.0] = 380,
-		[16202.0] = 121,
-		[35352.0] = 245,
-		[31023.0] = 213,
-		[45251.0] = 309,
-		[22103.0] = 158,
-		[48026.0] = 326,
-		[36143.0] = 250,
-		[90246.0] = 388,
-		[16070.0] = 118,
-		[19000.0] = 141,
-		[15147.0] = 113,
-		[89191.0] = 380,
-		[16101.0] = 119,
-		[60192.0] = 333,
-		[32204.0] = 223,
-		[39307.0] = 283,
-		[19124.0] = 143,
-		[71222.0] = 346,
-		[17150.0] = 130,
-		[95004.0] = 399,
-		[5226.0] = 72,
-		[36670.0] = 260,
-		[90247.0] = 388,
-		[46321.0] = 318,
-		[60052.0] = 330,
-		[90784.0] = 394,
-		[15046.0] = 110,
-		[14123.0] = 99,
-		[79151.0] = 355,
-		[89190.0] = 380,
-		[25143.0] = 176,
-		[4140.0] = 65,
-		[45124.0] = 306,
-		[7344.0] = 83,
-		[48027.0] = 326,
-		[95005.0] = 399,
-		[12144.0] = 91,
-		[24352.0] = 173,
-		[61506.0] = 341,
-		[11252.0] = 89,
-		[89201.0] = 380,
-		[27051.0] = 195,
-		[79412.0] = 358,
-		[45000.0] = 304,
-		[42349.0] = 294,
-		[60193.0] = 333,
-		[4202.0] = 66,
-		[72012.0] = 347,
-		[6023.0] = 77,
-		[12206.0] = 93,
-		[13161.0] = 96,
-		[21245.0] = 150,
-		[85229.0] = 367,
-		[26663.0] = 193,
-		[39306.0] = 283,
-		[28042.0] = 201,
-		[11120.0] = 85,
-		[18065.0] = 137,
-		[48040.0] = 326,
-		[36669.0] = 260,
-		[60053.0] = 330,
-		[89200.0] = 380,
-		[90786.0] = 394,
-		[39042.0] = 277,
-		[11151.0] = 86,
-		[25003.0] = 173,
-		[16424.0] = 125,
-		[38251.0] = 275,
-		[15511.0] = 117,
-		[24146.0] = 168,
-		[31024.0] = 213,
-		[26060.0] = 180,
-		[85228.0] = 367,
-		[35350.0] = 244,
-		[39321.0] = 283,
-		[61507.0] = 341,
-		[21171.0] = 149,
-		[33100.0] = 229,
-		[89203.0] = 381,
-		[90787.0] = 394,
-		[36141.0] = 250,
-		[95544.0] = 400,
-		[42222.0] = 292,
-		[60062.0] = 331,
-		[79691.0] = 361,
-		[85231.0] = 367,
-		[27126.0] = 196,
-		[5441.0] = 75,
-		[48041.0] = 327,
-		[89202.0] = 380,
-		[36668.0] = 260,
-		[29100.0] = 209,
-		[95545.0] = 400,
-		[38126.0] = 272,
-		[18142.0] = 139,
-		[90780.0] = 394,
-		[17273.0] = 132,
-		[38250.0] = 275,
-		[26523.0] = 189,
-		[35225.0] = 241,
-		[21446.0] = 153,
-		[85230.0] = 367,
-		[45122.0] = 306,
-		[61508.0] = 341,
-		[39320.0] = 283,
-		[41166.0] = 288,
-		[24351.0] = 173,
-		[25202.0] = 177,
-		[95546.0] = 400,
-		[42223.0] = 292,
-		[36140.0] = 250,
-		[90781.0] = 394,
-		[21248.0] = 150,
-		[5247.0] = 73,
-		[71232.0] = 347,
-		[16302.0] = 123,
-		[5342.0] = 74,
-		[60451.0] = 338,
-		[28043.0] = 201,
-		[18002.0] = 136,
-		[34169.0] = 233,
-		[36543.0] = 256,
-		[14324.0] = 103,
-		[38001.0] = 270,
-		[79161.0] = 355,
-		[95547.0] = 400,
-		[25004.0] = 174,
-		[15247.0] = 116,
-		[90782.0] = 394,
-		[19200.0] = 145,
-		[31281.0] = 219,
-		[25805.0] = 179,
-		[71231.0] = 346,
-		[74132.0] = 352,
-		[16170.0] = 121,
-		[24145.0] = 168,
-		[36403.0] = 254,
-		[61509.0] = 341,
-		[27325.0] = 200,
-		[35348.0] = 244,
-		[79422.0] = 358,
-		[21042.0] = 147,
-		[14223.0] = 101,
-		[72022.0] = 347,
-		[90783.0] = 394,
-		[95540.0] = 400,
-		[45400.0] = 311,
-		[16069.0] = 118,
-		[15146.0] = 113,
-		[60452.0] = 338,
-		[7047.0] = 79,
-		[19060.0] = 142,
-		[17086.0] = 128,
-		[13168.0] = 97,
-		[27061.0] = 195,
-		[26400.0] = 186,
-		[36542.0] = 256,
-		[7142.0] = 80,
-		[90001.0] = 385,
-		[33113.0] = 230,
-		[72021.0] = 347,
-		[95541.0] = 400,
-		[38124.0] = 272,
-		[26524.0] = 189,
-		[18141.0] = 139,
-		[43150.0] = 298,
-		[15045.0] = 110,
-		[14122.0] = 99,
-		[4124.0] = 65,
-		[44207.0] = 302,
-		[60593.0] = 339,
-		[35223.0] = 240,
-		[21445.0] = 153,
-		[89209.0] = 381,
-		[25203.0] = 177,
-		[24222.0] = 170,
-		[6040.0] = 77,
-		[41164.0] = 288,
-		[12143.0] = 91,
-		[90000.0] = 384,
-		[13067.0] = 95,
-		[95542.0] = 400,
-		[11251.0] = 89,
-		[26070.0] = 181,
-		[21247.0] = 150,
-		[14021.0] = 97,
-		[60453.0] = 338,
-		[28044.0] = 201,
-		[24346.0] = 173,
-		[18067.0] = 138,
-		[22240.0] = 159,
-		[12205.0] = 93,
-		[89208.0] = 381,
-		[79421.0] = 358,
-		[18001.0] = 136,
-		[34167.0] = 233,
-		[90003.0] = 385,
-		[24024.0] = 165,
-		[6102.0] = 78,
-		[31282.0] = 219,
-		[25806.0] = 179,
-		[24148.0] = 168,
-		[32149.0] = 223,
-		[11150.0] = 86,
-		[27326.0] = 200,
-		[15510.0] = 117,
-		[89211.0] = 381,
-		[17349.0] = 134,
-		[44204.0] = 302,
-		[29300.0] = 211,
-		[35346.0] = 244,
-		[90002.0] = 385,
-		[21041.0] = 147,
-		[71242.0] = 347,
-		[22100.0] = 157,
-		[95024.0] = 399,
-		[60322.0] = 335,
-		[14424.0] = 106,
-		[47120.0] = 323,
-		[27128.0] = 196,
-		[17151.0] = 130,
-		[79171.0] = 356,
-		[5425.0] = 74,
-		[89210.0] = 381,
-		[16340.0] = 123,
-		[17085.0] = 128,
-		[18144.0] = 139,
-		[34166.0] = 233,
-		[36540.0] = 256,
-		[71241.0] = 347,
-		[95025.0] = 399,
-		[33111.0] = 229,
-		[43024.0] = 295,
-		[21448.0] = 153,
-		[7225.0] = 81,
-		[5045.0] = 70,
-		[43148.0] = 298,
-		[79432.0] = 359,
-		[44205.0] = 302,
-		[25204.0] = 177,
-		[72032.0] = 347,
-		[89205.0] = 381,
-		[14385.0] = 105,
-		[24221.0] = 170,
-		[95026.0] = 399,
-		[41162.0] = 288,
-		[26071.0] = 181,
-		[60323.0] = 335,
-		[47121.0] = 323,
-		[37206.0] = 265,
-		[46328.0] = 318,
-		[78112.0] = 353,
-		[16301.0] = 123,
-		[29309.0] = 212,
-		[72031.0] = 347,
-		[34041.0] = 230,
-		[89204.0] = 381,
-		[21242.0] = 150,
-		[31283.0] = 219,
-		[25807.0] = 179,
-		[95027.0] = 399,
-		[14323.0] = 103,
-		[24023.0] = 165,
-		[32150.0] = 223,
-		[43025.0] = 295,
-		[33110.0] = 229,
-		[23026.0] = 162,
-		[17352.0] = 134,
-		[19070.0] = 142,
-		[32340.0] = 225,
-		[43149.0] = 298,
-		[27327.0] = 200,
-		[21044.0] = 147,
-		[27261.0] = 198,
-		[37345.0] = 267,
-		[26600.0] = 190,
-		[89207.0] = 381,
-		[35220.0] = 240,
-		[44202.0] = 302,
-		[95548.0] = 400,
-		[41163.0] = 288,
-		[95020.0] = 399,
-		[34304.0] = 236,
-		[17088.0] = 128,
-		[6123.0] = 78,
-		[46329.0] = 318,
-		[17410.0] = 136,
-		[25213.0] = 177,
-		[90800.0] = 394,
-		[4302.0] = 68,
-		[17022.0] = 126,
-		[89206.0] = 381,
-		[75211.0] = 352,
-		[95549.0] = 400,
-		[12212.0] = 93,
-		[28120.0] = 203,
-		[13167.0] = 96,
-		[18143.0] = 139,
-		[34164.0] = 233,
-		[17146.0] = 129,
-		[95021.0] = 399,
-		[33109.0] = 229,
-		[26460.0] = 187,
-		[27121.0] = 196,
-		[43022.0] = 295,
-		[79692.0] = 361,
-		[7312.0] = 82,
-		[90801.0] = 394,
-		[24224.0] = 170,
-		[78111.0] = 353,
-		[14121.0] = 99,
-		[37344.0] = 267,
-		[60201.0] = 333,
-		[95550.0] = 400,
-		[95022.0] = 399,
-		[12142.0] = 91,
-		[24348.0] = 173,
-		[13066.0] = 95,
-		[48048.0] = 327,
-		[11250.0] = 89,
-		[5541.0] = 76,
-		[60061.0] = 331,
-		[37204.0] = 264,
-		[90802.0] = 394,
-		[39050.0] = 278,
-		[18003.0] = 136,
-		[12173.0] = 92,
-		[46326.0] = 318,
-		[95551.0] = 400,
-		[25808.0] = 179,
-		[46062.0] = 314,
-		[21241.0] = 150,
-		[7341.0] = 83,
-		[95023.0] = 399,
-		[79442.0] = 359,
-		[95824.0] = 400,
-		[43023.0] = 295,
-		[27328.0] = 200,
-		[23025.0] = 161,
-		[72042.0] = 347,
-		[19069.0] = 142,
-		[90803.0] = 395,
-		[27262.0] = 198,
-		[95560.0] = 400,
-		[11149.0] = 86,
-		[29046.0] = 209,
-		[16420.0] = 124,
-		[5000.0] = 69,
-		[15509.0] = 117,
-		[31020.0] = 213,
-		[5347.0] = 74,
-		[95825.0] = 400,
-		[5442.0] = 75,
-		[78122.0] = 353,
-		[48049.0] = 327,
-		[27064.0] = 195,
-		[72041.0] = 347,
-		[14423.0] = 106,
-		[95561.0] = 400,
-		[37203.0] = 264,
-		[17087.0] = 128,
-		[46327.0] = 318,
-		[17409.0] = 136,
-		[7242.0] = 81,
-		[17021.0] = 126,
-		[46063.0] = 314,
-		[26205.0] = 182,
-		[95826.0] = 400,
-		[27122.0] = 196,
-		[39328.0] = 284,
-		[17145.0] = 129,
-		[5248.0] = 73,
-		[23102.0] = 162,
-		[95562.0] = 400,
-		[89213.0] = 381,
-		[24223.0] = 170,
-		[60071.0] = 331,
-		[37342.0] = 267,
-		[21442.0] = 152,
-		[4323.0] = 68,
-		[32350.0] = 226,
-		[21120.0] = 148,
-		[79441.0] = 359,
-		[36551.0] = 257,
-		[24347.0] = 173,
-		[7147.0] = 80,
-		[95563.0] = 400,
-		[48046.0] = 327,
-		[46200.0] = 315,
-		[16044.0] = 118,
-		[21244.0] = 150,
-		[14260.0] = 102,
-		[46324.0] = 318,
-		[31029.0] = 214,
-		[26065.0] = 180,
-		[15152.0] = 113,
-		[26660.0] = 192,
-		[79702.0] = 362,
-		[46060.0] = 314,
-		[78121.0] = 353,
-		[14322.0] = 103,
-		[27263.0] = 198,
-		[43021.0] = 295,
-		[76011.0] = 353,
-		[15020.0] = 110,
-		[15245.0] = 116,
-		[66220.0] = 341,
-		[17222.0] = 130,
-		[36147.0] = 250,
-		[25801.0] = 178,
-		[4224.0] = 67,
-		[28320.0] = 206,
-		[15051.0] = 111,
-		[37341.0] = 267,
-		[95028.0] = 399,
-		[26470.0] = 188,
-		[27321.0] = 200,
-		[45144.0] = 307,
-		[95821.0] = 400,
-		[36550.0] = 257,
-		[48047.0] = 327,
-		[46201.0] = 315,
-		[14221.0] = 101,
-		[34300.0] = 236,
-		[25149.0] = 176,
-		[46325.0] = 318,
-		[14027.0] = 98,
-		[17148.0] = 130,
-		[95029.0] = 399,
-		[46061.0] = 314,
-		[27123.0] = 196,
-		[12211.0] = 93,
-		[89225.0] = 381,
-		[13166.0] = 96,
-		[95822.0] = 400,
-		[39326.0] = 284,
-		[41172.0] = 289,
-		[23101.0] = 162,
-		[79172.0] = 356,
-		[24160.0] = 169,
-		[60073.0] = 331,
-		[39062.0] = 278,
-		[60461.0] = 338,
-		[13003.0] = 93,
-		[95030.0] = 399,
-		[32351.0] = 226,
-		[37340.0] = 267,
-		[79701.0] = 362,
-		[72051.0] = 347,
-		[45145.0] = 307,
-		[95823.0] = 400,
-		[5525.0] = 76,
-		[29312.0] = 212,
-		[36549.0] = 256,
-		[16430.0] = 125,
-		[13065.0] = 95,
-		[48044.0] = 327,
-		[11249.0] = 89,
-		[31030.0] = 214,
-		[26066.0] = 180,
-		[21243.0] = 150,
-		[22046.0] = 157,
-		[46322.0] = 318,
-		[4121.0] = 65,
-		[7325.0] = 83,
-		[89227.0] = 382,
-		[35230.0] = 241,
-		[19071.0] = 143,
-		[27264.0] = 199,
-		[32021.0] = 220,
-		[41173.0] = 289,
-		[39325.0] = 283,
-		[24020.0] = 165,
-		[25802.0] = 178,
-		[17221.0] = 130,
-		[47128.0] = 323,
-		[45406.0] = 311,
-		[79451.0] = 359,
-		[26471.0] = 188,
-		[27322.0] = 200,
-		[14360.0] = 104,
-		[89226.0] = 382,
-		[36424.0] = 254,
-		[17411.0] = 136,
-		[90804.0] = 395,
-		[36548.0] = 256,
-		[48045.0] = 327,
-		[95041.0] = 400,
-		[17023.0] = 126,
-		[26529.0] = 189,
-		[14422.0] = 106,
-		[79712.0] = 362,
-		[7226.0] = 81,
-		[46323.0] = 318,
-		[5046.0] = 70,
-		[27124.0] = 196,
-		[17147.0] = 129,
-		[26141.0] = 181,
-		[44213.0] = 302,
-		[23104.0] = 163,
-		[21320.0] = 151,
-		[35229.0] = 241,
-		[17081.0] = 128,
-		[85265.0] = 368,
-		[39324.0] = 283,
-		[4340.0] = 68,
-		[41170.0] = 288,
-		[60331.0] = 336,
-		[85001.0] = 362,
-		[26670.0] = 193,
-		[21444.0] = 153,
-		[28049.0] = 202,
-		[75212.0] = 352,
-		[38145.0] = 273,
-		[16144.0] = 120,
-		[72311.0] = 350,
-		[45002.0] = 304,
-		[45143.0] = 307,
-		[89220.0] = 381,
-		[90806.0] = 395,
-		[19206.0] = 145,
-		[85264.0] = 367,
-		[95043.0] = 400,
-		[36547.0] = 256,
-		[16429.0] = 125,
-		[85000.0] = 362,
-		[16043.0] = 117,
-		[26001.0] = 179,
-		[15120.0] = 112,
-		[22045.0] = 157,
-		[42240.0] = 293,
-		[15151.0] = 113,
-		[60472.0] = 338,
-		[32022.0] = 220,
-		[79182.0] = 356,
-		[35228.0] = 241,
-		[44210.0] = 302,
-		[90807.0] = 395,
-		[25803.0] = 178,
-		[41171.0] = 288,
-		[14321.0] = 103,
-		[85003.0] = 363,
-		[42100.0] = 291,
-		[79711.0] = 362,
-		[19066.0] = 142,
-		[47126.0] = 323,
-		[27323.0] = 200,
-		[45404.0] = 311,
-		[38144.0] = 272,
-		[15050.0] = 111,
-		[29041.0] = 209,
-		[89222.0] = 381,
-		[25151.0] = 177,
-		[85266.0] = 368,
-		[45140.0] = 307,
-		[34172.0] = 233,
-		[95301.0] = 400,
-		[85002.0] = 362,
-		[12148.0] = 91,
-		[43030.0] = 295,
-		[17084.0] = 128,
-		[42241.0] = 293,
-		[25209.0] = 177,
-		[60473.0] = 338,
-		[35103.0] = 238,
-		[37352.0] = 268,
-		[35227.0] = 241,
-		[12210.0] = 93,
-		[41044.0] = 286,
-		[13165.0] = 96,
-		[60333.0] = 336,
-		[85261.0] = 367,
-		[95302.0] = 400,
-		[26671.0] = 193,
-		[39322.0] = 283,
-		[36561.0] = 257,
-		[5447.0] = 75,
-		[11124.0] = 85,
-		[18073.0] = 138,
-		[21443.0] = 152,
-		[5542.0] = 76,
-		[89232.0] = 382,
-		[12047.0] = 90,
-		[24220.0] = 170,
-		[13002.0] = 93,
-		[7247.0] = 81,
-		[24030.0] = 166,
-		[79181.0] = 356,
-		[34047.0] = 231,
-		[45141.0] = 307,
-		[46070.0] = 314,
-		[95303.0] = 400,
-		[85260.0] = 367,
-		[7342.0] = 83,
-		[34171.0] = 233,
-		[95840.0] = 400,
-		[32345.0] = 226,
-		[26002.0] = 179,
-		[60342.0] = 336,
-		[11023.0] = 84,
-		[29306.0] = 212,
-		[7309.0] = 82,
-		[32023.0] = 220,
-		[26605.0] = 190,
-		[14460.0] = 108,
-		[27200.0] = 197,
-		[37351.0] = 268,
-		[70211.0] = 343,
-		[6021.0] = 77,
-		[35226.0] = 241,
-		[85263.0] = 367,
-		[75222.0] = 352,
-		[95841.0] = 400,
-		[60202.0] = 333,
-		[27324.0] = 200,
-		[73112.0] = 350,
-		[34310.0] = 237,
-		[17347.0] = 133,
-		[72057.0] = 347,
-		[26341.0] = 185,
-		[47124.0] = 323,
-		[45402.0] = 311,
-		[29042.0] = 209,
-		[18150.0] = 139,
-		[95049.0] = 400,
-		[90021.0] = 385,
-		[76012.0] = 353,
-		[34046.0] = 230,
-		[85262.0] = 367,
-		[47000.0] = 320,
-		[95842.0] = 400,
-		[26465.0] = 188,
-		[34170.0] = 233,
-		[38002.0] = 270,
-		[26143.0] = 182,
-		[21520.0] = 154,
-		[73111.0] = 350,
-		[16244.0] = 122,
-		[79192.0] = 356,
-		[14421.0] = 106,
-		[89229.0] = 382,
-		[23040.0] = 162,
-		[35101.0] = 238,
-		[95050.0] = 400,
-		[90020.0] = 385,
-		[79721.0] = 362,
-		[26201.0] = 182,
-		[4324.0] = 68,
-		[95843.0] = 400,
-		[60203.0] = 333,
-		[34185.0] = 234,
-		[31165.0] = 217,
-		[15220.0] = 115,
-		[35504.0] = 247,
-		[45403.0] = 311,
-		[15251.0] = 116,
-		[89228.0] = 382,
-		[38141.0] = 272,
-		[32222.0] = 223,
-		[16143.0] = 120,
-		[25813.0] = 179,
-		[95051.0] = 400,
-		[90023.0] = 385,
-		[24029.0] = 166,
-		[19142.0] = 143,
-		[34045.0] = 230,
-		[46068.0] = 314,
-		[26003.0] = 179,
-		[27333.0] = 200,
-		[22047.0] = 157,
-		[29307.0] = 212,
-		[43029.0] = 295,
-		[26606.0] = 190,
-		[89231.0] = 382,
-		[16042.0] = 117,
-		[37225.0] = 265,
-		[5245.0] = 72,
-		[31025.0] = 213,
-		[32148.0] = 222,
-		[37349.0] = 268,
-		[95044.0] = 400,
-		[41043.0] = 285,
-		[19068.0] = 142,
-		[13172.0] = 97,
-		[45152.0] = 307,
-		[19002.0] = 141,
-		[90824.0] = 395,
-		[26342.0] = 185,
-		[79191.0] = 356,
-		[29043.0] = 209,
-		[89230.0] = 382,
-		[47122.0] = 323,
-		[28126.0] = 203,
-		[18149.0] = 139,
-		[15049.0] = 111,
-		[95045.0] = 400,
-		[46069.0] = 314,
-		[5146.0] = 71,
-		[13040.0] = 94,
-		[89241.0] = 382,
-		[4221.0] = 66,
-		[24230.0] = 171,
-		[79452.0] = 359,
-		[25021.0] = 174,
-		[11224.0] = 88,
-		[12147.0] = 91,
-		[25145.0] = 176,
-		[72052.0] = 347,
-		[60081.0] = 331,
-		[37224.0] = 265,
-		[14025.0] = 98,
-		[39070.0] = 278,
-		[95046.0] = 400,
-		[7045.0] = 79,
-		[37348.0] = 268,
-		[73122.0] = 350,
-		[85005.0] = 363,
-		[31166.0] = 217,
-		[12209.0] = 93,
-		[45153.0] = 307,
-		[89240.0] = 382,
-		[90826.0] = 395,
-		[5526.0] = 76,
-		[34183.0] = 233,
-		[960001.0] = 400,
-		[11123.0] = 85,
-		[32223.0] = 223,
-		[31290.0] = 220,
-		[48052.0] = 327,
-		[71011.0] = 344,
-		[26665.0] = 193,
-		[95047.0] = 400,
-		[46330.0] = 318,
-		[95848.0] = 400,
-		[4122.0] = 65,
-		[7326.0] = 83,
-		[960002.0] = 400,
-		[73121.0] = 350,
-		[85004.0] = 363,
-		[89243.0] = 382,
-		[34043.0] = 230,
-		[90827.0] = 395,
-		[29308.0] = 212,
-		[26607.0] = 190,
-		[39333.0] = 284,
-		[16426.0] = 125,
-		[95320.0] = 400,
-		[43027.0] = 295,
-		[26541.0] = 189,
-		[79731.0] = 362,
-		[31026.0] = 213,
-		[14428.0] = 107,
-		[37223.0] = 265,
-		[22042.0] = 157,
-		[39069.0] = 278,
-		[95849.0] = 400,
-		[37347.0] = 268,
-		[61007.0] = 340,
-		[89242.0] = 382,
-		[19067.0] = 142,
-		[960016.0] = 400,
-		[27260.0] = 198,
-		[960017.0] = 400,
-		[45150.0] = 307,
-		[19001.0] = 141,
-		[90820.0] = 395,
-		[960014.0] = 400,
-		[48053.0] = 327,
-		[28127.0] = 203,
-		[960015.0] = 400,
-		[34306.0] = 237,
-		[35501.0] = 247,
-		[960020.0] = 400,
-		[43040.0] = 295,
-		[28061.0] = 202,
-		[960021.0] = 400,
-		[95850.0] = 400,
-		[26467.0] = 188,
-		[960018.0] = 400,
-		[85006.0] = 363,
-		[960019.0] = 400,
-		[46067.0] = 314,
-		[26401.0] = 186,
-		[34042.0] = 230,
-		[960008.0] = 400,
-		[960009.0] = 400,
-		[90821.0] = 395,
-		[24229.0] = 170,
-		[960006.0] = 400,
-		[960007.0] = 400,
-		[16243.0] = 122,
-		[960012.0] = 400,
-		[26203.0] = 182,
-		[95851.0] = 400,
-		[46344.0] = 319,
-		[16080.0] = 118,
-		[61008.0] = 340,
-		[960011.0] = 400,
-		[23100.0] = 162,
-		[79201.0] = 356,
-		[5200.0] = 71,
-		[22247.0] = 160,
-		[45151.0] = 307,
-		[31101.0] = 215,
-		[90822.0] = 395,
-		[95323.0] = 400,
-		[85280.0] = 368,
-		[21250.0] = 151,
-		[19144.0] = 144,
-		[43041.0] = 295,
-		[26666.0] = 193,
-		[15250.0] = 116,
-		[32348.0] = 226,
-		[16142.0] = 120,
-		[79462.0] = 359,
-		[95844.0] = 400,
-		[26608.0] = 190,
-		[72062.0] = 347,
-		[90823.0] = 395,
-		[14164.0] = 100,
-		[960022.0] = 400,
-		[26542.0] = 189,
-		[28326.0] = 207,
-		[31027.0] = 214,
-		[16425.0] = 125,
-		[95052.0] = 400,
-		[5229.0] = 72,
-		[16041.0] = 117,
-		[46345.0] = 319,
-		[5547.0] = 76,
-		[61009.0] = 340,
-		[39067.0] = 278,
-		[95845.0] = 400,
-		[26344.0] = 185,
-		[15149.0] = 113,
-		[90041.0] = 385,
-		[13140.0] = 95,
-		[72061.0] = 347,
-		[17220.0] = 130,
-		[85282.0] = 368,
-		[28128.0] = 203,
-		[13171.0] = 97,
-		[45148.0] = 307,
-		[33001.0] = 226,
-		[7347.0] = 83,
-		[7000.0] = 79,
-		[48051.0] = 327,
-		[95053.0] = 400,
-		[26468.0] = 188,
-		[27129.0] = 196,
-		[89249.0] = 383,
-		[42249.0] = 293,
-		[95846.0] = 400,
-		[26402.0] = 186,
-		[25023.0] = 174,
-		[90040.0] = 385,
-		[25147.0] = 176,
-		[24166.0] = 169,
-		[60341.0] = 336,
-		[39330.0] = 284,
-		[36569.0] = 257,
-		[12146.0] = 91,
-		[6121.0] = 78,
-		[89248.0] = 382,
-		[13101.0] = 95,
-		[46342.0] = 319,
-		[7248.0] = 82,
-		[90043.0] = 385,
-		[11060.0] = 84,
-		[31102.0] = 215,
-		[45149.0] = 307,
-		[21249.0] = 151,
-		[31226.0] = 218,
-		[39345.0] = 284,
-		[19143.0] = 144,
-		[70212.0] = 343,
-		[46202.0] = 315,
-		[29120.0] = 209,
-		[12045.0] = 90,
-		[7310.0] = 82,
-		[45025.0] = 305,
-		[42246.0] = 293,
-		[90042.0] = 385,
-		[24026.0] = 166,
-		[6022.0] = 77,
-		[31028.0] = 214,
-		[19201.0] = 145,
-		[22044.0] = 157,
-		[36568.0] = 257,
-		[79211.0] = 356,
-		[89250.0] = 383,
-		[27072.0] = 195,
-		[14427.0] = 107,
-		[46343.0] = 319,
-		[26601.0] = 190,
-		[19003.0] = 141,
-		[35249.0] = 241,
-		[16343.0] = 124,
-		[28063.0] = 202,
-		[71017.0] = 345,
-		[45146.0] = 307,
-		[27130.0] = 196,
-		[79472.0] = 359,
-		[90300.0] = 388,
-		[46203.0] = 315,
-		[60351.0] = 336,
-		[23110.0] = 163,
-		[26403.0] = 186,
-		[72072.0] = 348,
-		[89245.0] = 382,
-		[42247.0] = 293,
-		[85289.0] = 368,
-		[25148.0] = 176,
-		[45022.0] = 304,
-		[28121.0] = 203,
-		[21450.0] = 153,
-		[5345.0] = 74,
-		[71016.0] = 345,
-		[60211.0] = 333,
-		[90301.0] = 388,
-		[36567.0] = 257,
-		[16242.0] = 122,
-		[72071.0] = 348,
-		[89244.0] = 382,
-		[38149.0] = 273,
-		[85288.0] = 368,
-		[14264.0] = 102,
-		[36303.0] = 252,
-		[26668.0] = 193,
-		[35248.0] = 241,
-		[45147.0] = 307,
-		[90302.0] = 388,
-		[31161.0] = 216,
-		[14326.0] = 104,
-		[42120.0] = 291,
-		[22241.0] = 159,
-		[15249.0] = 116,
-		[85291.0] = 368,
-		[19204.0] = 145,
-		[16141.0] = 120,
-		[25809.0] = 179,
-		[5246.0] = 73,
-		[42244.0] = 293,
-		[24025.0] = 165,
-		[95324.0] = 400,
-		[39203.0] = 281,
-		[4321.0] = 68,
-		[60212.0] = 333,
-		[90303.0] = 388,
-		[27329.0] = 200,
-		[22043.0] = 157,
-		[79471.0] = 359,
-		[34192.0] = 234,
-		[90840.0] = 395,
-		[36566.0] = 257,
-		[7145.0] = 80,
-		[32020.0] = 220,
-		[26602.0] = 190,
-		[14000.0] = 97,
-		[89246.0] = 382,
-		[47130.0] = 324,
-		[38148.0] = 273,
-		[95325.0] = 400,
-		[28064.0] = 202,
-		[70222.0] = 343,
-		[35247.0] = 241,
-		[79732.0] = 362,
-		[17090.0] = 128,
-		[41064.0] = 286,
-		[13170.0] = 97,
-		[60353.0] = 336,
-		[27065.0] = 195,
-		[18021.0] = 136,
-		[39342.0] = 284,
-		[6043.0] = 77,
-		[75512.0] = 353,
-		[23109.0] = 163,
-		[45425.0] = 312,
-		[24168.0] = 169,
-		[28122.0] = 203,
-		[42245.0] = 293,
-		[85285.0] = 368,
-		[95326.0] = 400,
-		[11160.0] = 86,
-		[24102.0] = 167,
-		[7046.0] = 79,
-		[70221.0] = 343,
-		[39202.0] = 281,
-		[21449.0] = 153,
-		[26140.0] = 181,
-		[71012.0] = 344,
-		[90842.0] = 395,
-		[24226.0] = 170,
-		[34191.0] = 234,
-		[11222.0] = 88,
-		[12145.0] = 91,
-		[38023.0] = 271,
-		[22120.0] = 158,
-		[11253.0] = 89,
-		[71027.0] = 345,
-		[38147.0] = 273,
-		[85284.0] = 368,
-		[21251.0] = 151,
-		[79482.0] = 359,
-		[36301.0] = 252,
-		[31162.0] = 216,
-		[72082.0] = 348,
-		[90843.0] = 395,
-		[95600.0] = 400,
-		[39341.0] = 284,
-		[60222.0] = 333,
-		[11121.0] = 85,
-		[25810.0] = 179,
-		[36704.0] = 261,
-		[85287.0] = 368,
-		[47144.0] = 324,
-		[71026.0] = 345,
-		[45422.0] = 311,
-		[42242.0] = 293,
-		[27330.0] = 200,
-		[18222.0] = 140,
-		[17353.0] = 134,
-		[72081.0] = 348,
-		[95601.0] = 400,
-		[26603.0] = 190,
-		[5300.0] = 73,
-		[34190.0] = 234,
-		[36564.0] = 257,
-		[75511.0] = 352,
-		[38022.0] = 271,
-		[90045.0] = 385,
-		[28321.0] = 206,
-		[14426.0] = 107,
-		[85286.0] = 368,
-		[38146.0] = 273,
-		[44105.0] = 300,
-		[35121.0] = 238,
-		[36300.0] = 252,
-		[26149.0] = 182,
-		[21526.0] = 154,
-		[27066.0] = 195,
-		[95602.0] = 400,
-		[16342.0] = 123,
-		[17089.0] = 128,
-		[89253.0] = 383,
-		[23046.0] = 162,
-		[60223.0] = 333,
-		[39340.0] = 284,
-		[28123.0] = 203,
-		[90044.0] = 385,
-		[47145.0] = 324,
-		[45423.0] = 311,
-		[24167.0] = 169,
-		[37230.0] = 265,
-		[38161.0] = 273,
-		[46352.0] = 319,
-		[24101.0] = 167,
-		[60083.0] = 331,
-		[95603.0] = 400,
-		[34065.0] = 231,
-		[89252.0] = 383,
-		[24225.0] = 170,
-		[34189.0] = 234,
-		[90047.0] = 385,
-		[38021.0] = 270,
-		[16241.0] = 122,
-		[70232.0] = 343,
-		[79742.0] = 362,
-		[16047.0] = 118,
-		[15124.0] = 112,
-		[14263.0] = 102,
-		[35120.0] = 238,
-		[44102.0] = 300,
-		[4243.0] = 67,
-		[22243.0] = 160,
-		[35244.0] = 241,
-		[32220.0] = 223,
-		[25811.0] = 179,
-		[90046.0] = 385,
-		[27141.0] = 197,
-		[19140.0] = 143,
-		[70231.0] = 343,
-		[15023.0] = 110,
-		[5230.0] = 72,
-		[36702.0] = 260,
-		[14100.0] = 99,
-		[47142.0] = 324,
-		[5548.0] = 76,
-		[45420.0] = 311,
-		[38160.0] = 273,
-		[27265.0] = 199,
-		[26604.0] = 190,
-		[18221.0] = 140,
-		[34064.0] = 231,
-		[14162.0] = 100,
-		[73411.0] = 351,
-		[34188.0] = 234,
-		[36562.0] = 257,
-		[90320.0] = 388,
-		[38020.0] = 270,
-		[24302.0] = 172,
-		[54014.0] = 329,
-		[71021.0] = 344,
-		[14030.0] = 98,
-		[18023.0] = 137,
-		[21525.0] = 154,
-		[27001.0] = 193,
-		[23111.0] = 163,
-		[79212.0] = 356,
-		[35243.0] = 241,
-		[28124.0] = 203,
-		[47002.0] = 320,
-		[23045.0] = 162,
-		[18147.0] = 139,
-		[90321.0] = 389,
-		[47143.0] = 324,
-		[79741.0] = 362,
-		[21451.0] = 153,
-		[6122.0] = 78,
-		[89264.0] = 383,
-		[46350.0] = 319,
-		[89000.0] = 372,
-		[16440.0] = 125,
-		[32229.0] = 224,
-		[34063.0] = 231,
-		[61010.0] = 340,
-		[31040.0] = 214,
-		[90322.0] = 389,
-		[34187.0] = 234,
-		[11221.0] = 87,
-		[39353.0] = 285,
-		[43047.0] = 296,
-		[35506.0] = 247,
-		[89267.0] = 383,
-		[14464.0] = 108,
-		[26613.0] = 191,
-		[44100.0] = 300,
-		[95344.0] = 400,
-		[5003.0] = 69,
-		[25812.0] = 179,
-		[41061.0] = 286,
-		[47003.0] = 320,
-		[27142.0] = 197,
-		[90323.0] = 389,
-		[79491.0] = 359,
-		[5445.0] = 75,
-		[37103.0] = 262,
-		[27332.0] = 200,
-		[18224.0] = 140,
-		[89266.0] = 383,
-		[36700.0] = 260,
-		[19073.0] = 143,
-		[47140.0] = 324,
-		[27266.0] = 199,
-		[89002.0] = 372,
-		[7245.0] = 81,
-		[90844.0] = 396,
-		[95345.0] = 400,
-		[61011.0] = 340,
-		[70242.0] = 343,
-		[28323.0] = 207,
-		[34062.0] = 231,
-		[79752.0] = 362,
-		[34186.0] = 234,
-		[39352.0] = 285,
-		[26151.0] = 182,
-		[5251.0] = 73,
-		[27068.0] = 195,
-		[24301.0] = 171,
-		[17091.0] = 128,
-		[89261.0] = 383,
-		[27002.0] = 193,
-		[85305.0] = 369,
-		[95346.0] = 400,
-		[70241.0] = 343,
-		[85041.0] = 363,
-		[16341.0] = 123,
-		[5346.0] = 74,
-		[71032.0] = 344,
-		[34201.0] = 234,
-		[24103.0] = 168,
-		[37102.0] = 262,
-		[23106.0] = 163,
-		[15224.0] = 115,
-		[35520.0] = 247,
-		[25020.0] = 174,
-		[46224.0] = 316,
-		[21000.0] = 147,
-		[90846.0] = 396,
-		[95347.0] = 400,
-		[16147.0] = 120,
-		[61012.0] = 340,
-		[19150.0] = 144,
-		[85040.0] = 363,
-		[34061.0] = 231,
-		[17366.0] = 134,
-		[71031.0] = 344,
-		[29125.0] = 210,
-		[43045.0] = 296,
-		[14200.0] = 101,
-		[89263.0] = 383,
-		[54011.0] = 329,
-		[90847.0] = 396,
-		[15123.0] = 112,
-		[14262.0] = 102,
-		[27143.0] = 197,
-		[95340.0] = 400,
-		[6143.0] = 78,
-		[79751.0] = 362,
-		[4322.0] = 68,
-		[17102.0] = 129,
-		[28200.0] = 204,
-		[34200.0] = 234,
-		[26350.0] = 185,
-		[37101.0] = 262,
-		[27267.0] = 199,
-		[46225.0] = 316,
-		[15022.0] = 110,
-		[89262.0] = 383,
-		[49000.0] = 327,
-		[17226.0] = 130,
-		[46349.0] = 319,
-		[26540.0] = 189,
-		[28324.0] = 207,
-		[95341.0] = 400,
-		[85042.0] = 363,
-		[34060.0] = 231,
-		[13044.0] = 94,
-		[21461.0] = 153,
-		[14161.0] = 100,
-		[89273.0] = 384,
-		[60361.0] = 336,
-		[89009.0] = 373,
-		[39350.0] = 285,
-		[11228.0] = 88,
-		[12151.0] = 92,
-		[27003.0] = 193,
-		[95606.0] = 400,
-		[54010.0] = 329,
-		[37240.0] = 265,
-		[23047.0] = 162,
-		[85301.0] = 368,
-		[95342.0] = 400,
-		[28060.0] = 202,
-		[60221.0] = 333,
-		[12213.0] = 93,
-		[36449.0] = 255,
-		[89272.0] = 384,
-		[89008.0] = 373,
-		[36573.0] = 257,
-		[37100.0] = 262,
-		[24040.0] = 166,
-		[49001.0] = 327,
-		[79221.0] = 356,
-		[5400.0] = 74,
-		[46222.0] = 316,
-		[79762.0] = 362,
-		[95343.0] = 400,
-		[85300.0] = 368,
-		[26673.0] = 193,
-		[19149.0] = 144,
-		[17365.0] = 134,
-		[29126.0] = 210,
-		[89011.0] = 373,
-		[5020.0] = 69,
-		[7200.0] = 80,
-		[54013.0] = 329,
-		[31100.0] = 215,
-		[43043.0] = 296,
-		[42126.0] = 291,
-		[70251.0] = 343,
-		[26549.0] = 190,
-		[36712.0] = 261,
-		[85303.0] = 369,
-		[47152.0] = 324,
-		[71042.0] = 344,
-		[45430.0] = 312,
-		[42250.0] = 293,
-		[14463.0] = 108,
-		[26351.0] = 185,
-		[36448.0] = 255,
-		[17101.0] = 128,
-		[89010.0] = 373,
-		[36572.0] = 257,
-		[27202.0] = 197,
-		[46223.0] = 316,
-		[17225.0] = 130,
-		[46347.0] = 319,
-		[28069.0] = 202,
-		[71041.0] = 344,
-		[90324.0] = 389,
-		[14362.0] = 104,
-		[79232.0] = 356,
-		[39224.0] = 282,
-		[89269.0] = 383,
-		[60231.0] = 333,
-		[89005.0] = 372,
-		[54012.0] = 329,
-		[4343.0] = 68,
-		[21200.0] = 149,
-		[16247.0] = 122,
-		[85049.0] = 363,
-		[79761.0] = 362,
-		[36711.0] = 261,
-		[42251.0] = 293,
-		[26021.0] = 179,
-		[38169.0] = 273,
-		[46360.0] = 319,
-		[90325.0] = 389,
-		[16084.0] = 119,
-		[60091.0] = 331,
-		[21522.0] = 154,
-		[23108.0] = 163,
-		[14300.0] = 103,
-		[36447.0] = 255,
-		[89268.0] = 383,
-		[23042.0] = 162,
-		[89004.0] = 372,
-		[36571.0] = 257,
-		[15223.0] = 115,
-		[85048.0] = 363,
-		[46220.0] = 316,
-		[90326.0] = 389,
-		[17302.0] = 132,
-		[15060.0] = 111,
-		[4244.0] = 67,
-		[89271.0] = 383,
-		[35252.0] = 242,
-		[28400.0] = 207,
-		[60232.0] = 334,
-		[89007.0] = 373,
-		[33002.0] = 226,
-		[26550.0] = 190,
-		[39347.0] = 284,
-		[95348.0] = 400,
-		[42124.0] = 291,
-		[36710.0] = 261,
-		[16045.0] = 118,
-		[47150.0] = 324,
-		[15122.0] = 112,
-		[73412.0] = 351,
-		[38168.0] = 273,
-		[60092.0] = 331,
-		[90864.0] = 396,
-		[15153.0] = 113,
-		[79231.0] = 356,
-		[13144.0] = 96,
-		[89270.0] = 383,
-		[27203.0] = 198,
-		[90600.0] = 392,
-		[89006.0] = 372,
-		[75011.0] = 352,
-		[85050.0] = 363,
-		[46221.0] = 316,
-		[15021.0] = 110,
-		[21463.0] = 153,
-		[89281.0] = 384,
-		[90865.0] = 396,
-		[24240.0] = 171,
-		[79492.0] = 359,
-		[45040.0] = 305,
-		[60233.0] = 334,
-		[13043.0] = 94,
-		[90601.0] = 392,
-		[42001.0] = 289,
-		[41068.0] = 286,
-		[95350.0] = 400,
-		[39346.0] = 284,
-		[36585.0] = 258,
-		[12150.0] = 92,
-		[26022.0] = 179,
-		[85045.0] = 363,
-		[45429.0] = 312,
-		[5545.0] = 76,
-		[26146.0] = 182,
-		[89280.0] = 384,
-		[90866.0] = 396,
-		[38167.0] = 273,
-		[11064.0] = 85,
-		[36321.0] = 252,
-		[23107.0] = 163,
-		[21323.0] = 151,
-		[90602.0] = 392,
-		[36445.0] = 255,
-		[71051.0] = 344,
-		[95351.0] = 400,
-		[7345.0] = 83,
-		[24100.0] = 167,
-		[19151.0] = 144,
-		[85044.0] = 363,
-		[79242.0] = 356,
-		[17367.0] = 134,
-		[45041.0] = 305,
-		[35126.0] = 238,
-		[32225.0] = 223,
-		[90603.0] = 392,
-		[26551.0] = 190,
-		[35250.0] = 242,
-		[36584.0] = 258,
-		[85047.0] = 363,
-		[42122.0] = 291,
-		[45302.0] = 310,
-		[36708.0] = 261,
-		[47148.0] = 324,
-		[17103.0] = 129,
-		[45426.0] = 312,
-		[26609.0] = 191,
-		[7246.0] = 81,
-		[90860.0] = 396,
-		[630024.0] = 400,
-		[36320.0] = 252,
-		[630023.0] = 400,
-		[35265.0] = 242,
-		[36444.0] = 255,
-		[28071.0] = 202,
-		[47024.0] = 321,
-		[630021.0] = 400,
-		[85046.0] = 363,
-		[5252.0] = 73,
-		[18220.0] = 140,
-		[26345.0] = 185,
-		[35001.0] = 237,
-		[90861.0] = 396,
-		[89013.0] = 373,
-		[35125.0] = 238,
-		[60103.0] = 331,
-		[14361.0] = 104,
-		[38305.0] = 276,
-		[60491.0] = 338,
-		[24173.0] = 169,
-		[41066.0] = 286,
-		[26023.0] = 180,
-		[34209.0] = 235,
-		[42123.0] = 291,
-		[36583.0] = 258,
-		[26147.0] = 182,
-		[45303.0] = 310,
-		[38041.0] = 271,
-		[79241.0] = 356,
-		[47149.0] = 324,
-		[35528.0] = 248,
-		[45427.0] = 312,
-		[90862.0] = 396,
-		[38165.0] = 273,
-		[85320.0] = 369,
-		[14268.0] = 103,
-		[31045.0] = 214,
-		[15160.0] = 113,
-		[22125.0] = 158,
-		[47025.0] = 321,
-		[36443.0] = 255,
-		[32102.0] = 221,
-		[630012.0] = 400,
-		[17304.0] = 132,
-		[630011.0] = 400,
-		[15222.0] = 115,
-		[22249.0] = 160,
-		[15253.0] = 116,
-		[5120.0] = 70,
-		[85323.0] = 369,
-		[32226.0] = 223,
-		[16145.0] = 120,
-		[45440.0] = 312,
-		[26552.0] = 190,
-		[35124.0] = 238,
-		[44106.0] = 300,
-		[19146.0] = 144,
-		[60492.0] = 338,
-		[38304.0] = 276,
-		[17362.0] = 134,
-		[14167.0] = 100,
-		[34208.0] = 235,
-		[29121.0] = 210,
-		[36582.0] = 258,
-		[38040.0] = 271,
-		[594019.0] = 400,
-		[14004.0] = 97,
-		[45300.0] = 309,
-		[36706.0] = 261,
-		[594018.0] = 400,
-		[85322.0] = 369,
-		[90608.0] = 392,
-		[594017.0] = 400,
-		[90344.0] = 389,
-		[26222.0] = 183,
-		[13143.0] = 96,
-		[5149.0] = 71,
-		[35263.0] = 242,
-		[36442.0] = 255,
-		[89289.0] = 384,
-		[47022.0] = 320,
-		[5500.0] = 75,
-		[27073.0] = 195,
-		[89025.0] = 373,
-		[7300.0] = 82,
-		[43050.0] = 296,
-		[90609.0] = 392,
-		[45441.0] = 312,
-		[28130.0] = 204,
-		[37248.0] = 266,
-		[60493.0] = 338,
-		[35123.0] = 238,
-		[85053.0] = 364,
-		[13042.0] = 94,
-		[32301.0] = 225,
-		[89288.0] = 384,
-		[79501.0] = 359,
-		[34207.0] = 234,
-		[89024.0] = 373,
-		[36581.0] = 258,
-		[16446.0] = 125,
-		[47147.0] = 324,
-		[90610.0] = 392,
-		[31046.0] = 214,
-		[23043.0] = 162,
-		[38163.0] = 273,
-		[90346.0] = 389,
-		[22062.0] = 157,
-		[11063.0] = 85,
-		[4125.0] = 65,
-		[14500.0] = 109,
-		[70252.0] = 343,
-		[85052.0] = 363,
-		[89291.0] = 384,
-		[47023.0] = 320,
-		[89027.0] = 373,
-		[6041.0] = 77,
-		[17303.0] = 132,
-		[60238.0] = 334,
-		[11125.0] = 85,
-		[32227.0] = 224,
-		[90611.0] = 392,
-		[95104.0] = 400,
-		[60362.0] = 336,
-		[47160.0] = 324,
-		[90347.0] = 389,
-		[35122.0] = 238,
-		[19145.0] = 144,
-		[28205.0] = 205,
-		[38302.0] = 276,
-		[89290.0] = 384,
-		[29122.0] = 210,
-		[89026.0] = 373,
-		[26611.0] = 191,
-		[34206.0] = 234,
-		[35401.0] = 245,
-		[36580.0] = 257,
-		[95105.0] = 400,
-		[26545.0] = 189,
-		[35525.0] = 247,
-		[27140.0] = 197,
-		[90604.0] = 392,
-		[21600.0] = 155,
-		[38162.0] = 273,
-		[44121.0] = 300,
-		[14461.0] = 108,
-		[79512.0] = 359,
-		[90340.0] = 389,
-		[23120.0] = 163,
-		[34066.0] = 231,
-		[26347.0] = 185,
-		[16346.0] = 124,
-		[89285.0] = 384,
-		[47020.0] = 320,
-		[85329.0] = 369,
-		[89021.0] = 373,
-		[95106.0] = 400,
-		[60363.0] = 336,
-		[6144.0] = 78,
-		[47161.0] = 325,
-		[90605.0] = 392,
-		[28065.0] = 202,
-		[37246.0] = 266,
-		[46368.0] = 320,
-		[90341.0] = 389,
-		[75012.0] = 352,
-		[5203.0] = 71,
-		[25026.0] = 174,
-		[72111.0] = 348,
-		[89284.0] = 384,
-		[19222.0] = 145,
-		[85328.0] = 369,
-		[34205.0] = 234,
-		[89020.0] = 373,
-		[16020.0] = 117,
-		[31047.0] = 214,
-		[16245.0] = 122,
-		[85064.0] = 364,
-		[15128.0] = 112,
-		[90342.0] = 389,
-		[22061.0] = 157,
-		[14267.0] = 103,
-		[89287.0] = 384,
-		[47021.0] = 320,
-		[17240.0] = 130,
-		[89023.0] = 373,
-		[27149.0] = 197,
-		[19148.0] = 144,
-		[37121.0] = 262,
-		[90607.0] = 392,
-		[95100.0] = 400,
-		[17364.0] = 134,
-		[46369.0] = 320,
-		[90343.0] = 389,
-		[28206.0] = 205,
-		[79511.0] = 359,
-		[29123.0] = 210,
-		[90880.0] = 396,
-		[26612.0] = 191,
-		[38300.0] = 276,
-		[89286.0] = 384,
-		[85330.0] = 369,
-		[14166.0] = 100,
-		[89022.0] = 373,
-		[26546.0] = 190,
-		[34204.0] = 234,
-		[25101.0] = 175,
-		[7003.0] = 79,
-		[85066.0] = 364,
-		[95101.0] = 400,
-		[70262.0] = 344,
-		[35523.0] = 247,
-		[43062.0] = 296,
-		[17100.0] = 128,
-		[90881.0] = 396,
-		[89033.0] = 374,
-		[45048.0] = 305,
-		[4241.0] = 67,
-		[13142.0] = 95,
-		[60241.0] = 334,
-		[13173.0] = 97,
-		[85325.0] = 369,
-		[31246.0] = 218,
-		[95102.0] = 400,
-		[37120.0] = 262,
-		[70261.0] = 344,
-		[85061.0] = 364,
-		[22262.0] = 160,
-		[5546.0] = 76,
-		[60101.0] = 331,
-		[71052.0] = 345,
-		[90882.0] = 396,
-		[46366.0] = 320,
-		[11163.0] = 86,
-		[89032.0] = 374,
-		[16448.0] = 126,
-		[24046.0] = 166,
-		[13041.0] = 94,
-		[24170.0] = 169,
-		[4142.0] = 66,
-		[31048.0] = 214,
-		[19221.0] = 145,
-		[33024.0] = 226,
-		[34203.0] = 234,
-		[46102.0] = 314,
-		[79522.0] = 360,
-		[95904.0] = 400,
-		[43063.0] = 296,
-		[85060.0] = 364,
-		[72122.0] = 348,
-		[90883.0] = 396,
-		[95640.0] = 400,
-		[45049.0] = 305,
-		[26621.0] = 191,
-		[39105.0] = 279,
-		[28405.0] = 208,
-		[22122.0] = 158,
-		[29000.0] = 208,
-		[85327.0] = 369,
-		[70011.0] = 342,
-		[95905.0] = 400,
-		[60234.0] = 334,
-		[75022.0] = 352,
-		[28207.0] = 205,
-		[18232.0] = 141,
-		[17363.0] = 134,
-		[26423.0] = 186,
-		[95641.0] = 400,
-		[37243.0] = 265,
-		[28141.0] = 204,
-		[26547.0] = 190,
-		[25102.0] = 175,
-		[35273.0] = 243,
-		[85326.0] = 369,
-		[90612.0] = 392,
-		[46103.0] = 315,
-		[95906.0] = 400,
-		[34202.0] = 234,
-		[90348.0] = 389,
-		[85062.0] = 364,
-		[49002.0] = 327,
-		[14429.0] = 107,
-		[89293.0] = 384,
-		[39104.0] = 279,
-		[89029.0] = 373,
-		[45046.0] = 305,
-		[5001.0] = 69,
-		[60111.0] = 331,
-		[31247.0] = 218,
-		[90613.0] = 392,
-		[28067.0] = 202,
-		[95907.0] = 400,
-		[60235.0] = 334,
-		[79521.0] = 360,
-		[90349.0] = 389,
-		[28001.0] = 200,
-		[31181.0] = 217,
-		[95643.0] = 400,
-		[25028.0] = 174,
-		[22261.0] = 160,
-		[46240.0] = 316,
-		[89292.0] = 384,
-		[19224.0] = 146,
-		[46364.0] = 319,
-		[89028.0] = 373,
-		[24045.0] = 166,
-		[70272.0] = 344,
-		[35272.0] = 242,
-		[36451.0] = 255,
-		[90350.0] = 389,
-		[33022.0] = 226,
-		[46100.0] = 314,
-		[75021.0] = 352,
-		[95900.0] = 400,
-		[5249.0] = 73,
-		[49003.0] = 327,
-		[43061.0] = 296,
-		[32040.0] = 220,
-		[26622.0] = 191,
-		[28406.0] = 208,
-		[89031.0] = 374,
-		[45047.0] = 305,
-		[45448.0] = 312,
-		[39103.0] = 279,
-		[31041.0] = 214,
-		[22121.0] = 158,
-		[70271.0] = 344,
-		[38312.0] = 276,
-		[60236.0] = 334,
-		[90351.0] = 390,
-		[28208.0] = 205,
-		[95901.0] = 400,
-		[26424.0] = 187,
-		[90888.0] = 397,
-		[46241.0] = 316,
-		[18231.0] = 141,
-		[14103.0] = 99,
-		[46365.0] = 320,
-		[7020.0] = 79,
-		[89030.0] = 374,
-		[26548.0] = 190,
-		[25103.0] = 175,
-		[36326.0] = 252,
-		[60641.0] = 340,
-		[35271.0] = 242,
-		[21469.0] = 154,
-		[14165.0] = 100,
-		[46101.0] = 314,
-		[95902.0] = 400,
-		[33021.0] = 226,
-		[90889.0] = 397,
-		[89041.0] = 374,
-		[42145.0] = 292,
-		[14002.0] = 97,
-		[79252.0] = 357,
-		[45449.0] = 312,
-		[60113.0] = 331,
-		[4225.0] = 67,
-		[39102.0] = 279,
-		[45044.0] = 305,
-		[28068.0] = 202,
-		[75032.0] = 352,
-		[6141.0] = 78,
-		[13141.0] = 95,
-		[60237.0] = 334,
-		[38311.0] = 276,
-		[39226.0] = 282,
-		[28002.0] = 201,
-		[31182.0] = 217,
-		[95903.0] = 400,
-		[90890.0] = 397,
-		[12023.0] = 89,
-		[89040.0] = 374,
-		[36589.0] = 258,
-		[24048.0] = 166,
-		[38047.0] = 271,
-		[23113.0] = 163,
-		[24172.0] = 169,
-		[36201.0] = 250,
-		[29200.0] = 211,
-		[46362.0] = 319,
-		[11162.0] = 86,
-		[95912.0] = 400,
-		[36325.0] = 252,
-		[26020.0] = 179,
-		[39241.0] = 282,
-		[95648.0] = 400,
-		[33020.0] = 226,
-		[6042.0] = 77,
-		[28407.0] = 208,
-		[16442.0] = 125,
-		[22000.0] = 156,
-		[42142.0] = 291,
-		[95120.0] = 400,
-		[28341.0] = 207,
-		[31042.0] = 214,
-		[47168.0] = 325,
-		[14467.0] = 108,
-		[45045.0] = 305,
-		[45446.0] = 312,
-		[39101.0] = 278,
-		[95913.0] = 400,
-		[11061.0] = 85,
-		[38310.0] = 276,
-		[95649.0] = 400,
-		[89042.0] = 374,
-		[42002.0] = 289,
-		[5303.0] = 73,
-		[90884.0] = 396,
-		[38046.0] = 271,
-		[18102.0] = 138,
-		[43072.0] = 297,
-		[46363.0] = 319,
-		[36200.0] = 250,
-		[38170.0] = 274,
-		[44129.0] = 301,
-		[78211.0] = 354,
-		[35145.0] = 239,
-		[36324.0] = 252,
-		[28201.0] = 205,
-		[18226.0] = 140,
-		[39240.0] = 282,
-		[16220.0] = 122,
-		[90885.0] = 396,
-		[42143.0] = 292,
-		[95122.0] = 400,
-		[60371.0] = 336,
-		[16251.0] = 123,
-		[47169.0] = 325,
-		[45447.0] = 312,
-		[71072.0] = 345,
-		[21142.0] = 148,
-		[39100.0] = 278,
-		[26624.0] = 191,
-		[28003.0] = 201,
-		[31183.0] = 217,
-		[38309.0] = 276,
-		[22263.0] = 160,
-		[42003.0] = 289,
-		[23050.0] = 162,
-		[90886.0] = 397,
-		[95123.0] = 400,
-		[36587.0] = 258,
-		[24047.0] = 166,
-		[38045.0] = 271,
-		[43073.0] = 297,
-		[31241.0] = 218,
-		[24171.0] = 169,
-		[71071.0] = 345,
-		[16150.0] = 121,
-		[7103.0] = 80,
-		[36323.0] = 252,
-		[60512.0] = 338,
-		[79262.0] = 357,
-		[35268.0] = 242,
-		[28408.0] = 208,
-		[21002.0] = 147,
-		[90887.0] = 397,
-		[95644.0] = 400,
-		[28342.0] = 207,
-		[60372.0] = 336,
-		[31043.0] = 214,
-		[75042.0] = 352,
-		[42140.0] = 291,
-		[25303.0] = 178,
-		[47166.0] = 325,
-		[15126.0] = 112,
-		[37253.0] = 266,
-		[61041.0] = 341,
-		[14265.0] = 103,
-		[95909.0] = 400,
-		[19020.0] = 141,
-		[26360.0] = 185,
-		[17046.0] = 127,
-		[90105.0] = 386,
-		[38308.0] = 276,
-		[27021.0] = 194,
-		[95645.0] = 400,
-		[4147.0] = 66,
-		[28144.0] = 204,
-		[36586.0] = 258,
-		[38044.0] = 271,
-		[15025.0] = 110,
-		[18101.0] = 138,
-		[14102.0] = 99,
-		[21471.0] = 154,
-		[28202.0] = 205,
-		[95910.0] = 400,
-		[44127.0] = 301,
-		[24248.0] = 171,
-		[89049.0] = 374,
-		[35143.0] = 239,
-		[36322.0] = 252,
-		[4242.0] = 67,
-		[90104.0] = 386,
-		[35267.0] = 242,
-		[11200.0] = 87,
-		[12123.0] = 91,
-		[47026.0] = 321,
-		[60373.0] = 336,
-		[45321.0] = 310,
-		[36601.0] = 258,
-		[14001.0] = 97,
-		[47167.0] = 325,
-		[24306.0] = 172,
-		[35003.0] = 237,
-		[95911.0] = 400,
-		[37252.0] = 266,
-		[21141.0] = 148,
-		[89048.0] = 374,
-		[22200.0] = 159,
-		[79261.0] = 357,
-		[95647.0] = 400,
-		[23049.0] = 162,
-		[31242.0] = 218,
-		[12022.0] = 89,
-		[75041.0] = 352,
-		[38043.0] = 271,
-		[43071.0] = 297,
-		[35530.0] = 248,
-		[44000.0] = 298,
-		[60382.0] = 336,
-		[89051.0] = 374,
-		[70012.0] = 342,
-		[90106.0] = 386,
-		[16444.0] = 125,
-		[95128.0] = 400,
-		[35266.0] = 242,
-		[31044.0] = 214,
-		[71082.0] = 345,
-		[25304.0] = 178,
-		[36600.0] = 258,
-		[35545.0] = 248,
-		[35002.0] = 237,
-		[47164.0] = 325,
-		[14466.0] = 108,
-		[79011.0] = 354,
-		[45442.0] = 312,
-		[27022.0] = 194,
-		[28401.0] = 208,
-		[16320.0] = 123,
-		[95129.0] = 400,
-		[90101.0] = 385,
-		[38306.0] = 276,
-		[27146.0] = 197,
-		[16351.0] = 124,
-		[26229.0] = 183,
-		[71081.0] = 345,
-		[47040.0] = 321,
-		[34210.0] = 235,
-		[38042.0] = 271,
-		[28203.0] = 205,
-		[60383.0] = 337,
-		[23126.0] = 163,
-		[79272.0] = 357,
-		[43068.0] = 297,
-		[44125.0] = 300,
-		[24247.0] = 171,
-		[89045.0] = 374,
-		[35141.0] = 239,
-		[95130.0] = 400,
-		[90100.0] = 385,
-		[21466.0] = 153,
-		[60243.0] = 334,
-		[34225.0] = 235,
-		[37126.0] = 263,
-		[16250.0] = 123,
-		[47165.0] = 325,
-		[35544.0] = 248,
-		[46248.0] = 316,
-		[37250.0] = 266,
-		[46372.0] = 320,
-		[89044.0] = 374,
-		[90103.0] = 386,
-		[31053.0] = 215,
-		[15164.0] = 114,
-		[31243.0] = 218,
-		[47041.0] = 321,
-		[32300.0] = 225,
-		[5250.0] = 73,
-		[43069.0] = 297,
-		[15226.0] = 115,
-		[17246.0] = 131,
-		[27221.0] = 198,
-		[89047.0] = 374,
-		[16149.0] = 120,
-		[28344.0] = 207,
-		[90102.0] = 386,
-		[24041.0] = 166,
-		[14140.0] = 99,
-		[95124.0] = 400,
-		[17370.0] = 134,
-		[4325.0] = 68,
-		[37001.0] = 261,
-		[14171.0] = 100,
-		[34224.0] = 235,
-		[90904.0] = 397,
-		[37125.0] = 263,
-		[14202.0] = 101,
-		[79271.0] = 357,
-		[35543.0] = 248,
-		[28402.0] = 208,
-		[49024.0] = 328,
-		[47162.0] = 325,
-		[15125.0] = 112,
-		[89046.0] = 374,
-		[27147.0] = 197,
-		[26230.0] = 183,
-		[95125.0] = 400,
-		[13147.0] = 96,
-		[18103.0] = 138,
-		[21605.0] = 155,
-		[28204.0] = 205,
-		[70022.0] = 342,
-		[35403.0] = 245,
-		[6047.0] = 78,
-		[18227.0] = 141,
-		[23125.0] = 163,
-		[21341.0] = 151,
-		[72132.0] = 348,
-		[60121.0] = 332,
-		[4226.0] = 67,
-		[44123.0] = 300,
-		[11168.0] = 87,
-		[72411.0] = 350,
-		[95126.0] = 400,
-		[6142.0] = 78,
-		[13046.0] = 94,
-		[21465.0] = 153,
-		[37000.0] = 261,
-		[90906.0] = 397,
-		[70021.0] = 342,
-		[34223.0] = 235,
-		[31120.0] = 216,
-		[11230.0] = 88,
-		[78212.0] = 354,
-		[37124.0] = 263,
-		[49025.0] = 328,
-		[47163.0] = 325,
-		[35542.0] = 248,
-		[46246.0] = 316,
-		[71091.0] = 345,
-		[46370.0] = 320,
-		[95127.0] = 400,
-		[11067.0] = 85,
-		[21201.0] = 149,
-		[22260.0] = 160,
-		[39249.0] = 282,
-		[90907.0] = 397,
-		[32045.0] = 221,
-		[12021.0] = 89,
-		[35402.0] = 245,
-		[24044.0] = 166,
-		[60642.0] = 340,
-		[43067.0] = 297,
-		[42150.0] = 292,
-		[21003.0] = 147,
-		[28213.0] = 205,
-		[14372.0] = 105,
-		[17369.0] = 134,
-		[27024.0] = 194,
-		[28403.0] = 208,
-		[44401.0] = 303,
-		[37123.0] = 263,
-		[17047.0] = 127,
-		[46247.0] = 316,
-		[26553.0] = 190,
-		[35541.0] = 248,
-		[49022.0] = 328,
-		[27148.0] = 197,
-		[46371.0] = 320,
-		[14465.0] = 108,
-		[21608.0] = 156,
-		[18040.0] = 137,
-		[21542.0] = 155,
-		[23128.0] = 164,
-		[21344.0] = 151,
-		[39248.0] = 282,
-		[16350.0] = 124,
-		[85361.0] = 369,
-		[90901.0] = 397,
-		[89053.0] = 375,
-		[42151.0] = 292,
-		[25100.0] = 175,
-		[21468.0] = 153,
-		[28073.0] = 203,
-		[45050.0] = 305,
-		[21402.0] = 152
-	},
+
+rawset(pg, "equip_data_statistics", rawget(pg, "equip_data_statistics") or {
+	__name = "equip_data_statistics",
 	all = {
 		2,
 		3,
@@ -17559,25 +7102,35499 @@ slot0.equip_data_statistics = {
 		960021,
 		960022
 	}
-}
-
-setmetatable(slot0.equip_data_statistics, {
-	__index = function (slot0, slot1)
-		if uv0.equip_data_statistics.indexs[slot1] == nil then
-			return nil
-		end
-
-		if uv0[uv0.equip_data_statistics.subList[slot2]] == nil then
-			require("ShareCfg.equip_data_statistics_subList." .. slot3)
-		end
-
-		if rawget(uv0[slot3][slot1], "base") ~= nil then
-			rawset(slot4, "base", nil)
-			setmetatable(slot4, {
-				__index = slot0[slot5]
-			})
-		end
-
-		return slot4
-	end
 })
+setmetatable(pg.equip_data_statistics, confMT)
+
+cs = cs or {}
+cs.equip_data_statistics = {
+	[2] = {
+		0,
+		414,
+		true
+	},
+	[3] = {
+		414,
+		421,
+		true
+	},
+	[4] = {
+		835,
+		424,
+		true
+	},
+	[5] = {
+		1259,
+		424,
+		true
+	},
+	[6] = {
+		1683,
+		429,
+		true
+	},
+	[7] = {
+		2112,
+		429,
+		true
+	},
+	[8] = {
+		2541,
+		414,
+		true
+	},
+	[20] = {
+		2955,
+		444,
+		true
+	},
+	[21] = {
+		3399,
+		452,
+		true
+	},
+	[22] = {
+		3851,
+		452,
+		true
+	},
+	[99] = {
+		4303,
+		422,
+		true
+	},
+	[100] = {
+		4725,
+		452,
+		true
+	},
+	[101] = {
+		5177,
+		438,
+		true
+	},
+	[102] = {
+		5615,
+		435,
+		true
+	},
+	[103] = {
+		6050,
+		439,
+		true
+	},
+	[104] = {
+		6489,
+		472,
+		true
+	},
+	[105] = {
+		6961,
+		449,
+		true
+	},
+	[106] = {
+		7410,
+		449,
+		true
+	},
+	[107] = {
+		7859,
+		450,
+		true
+	},
+	[108] = {
+		8309,
+		451,
+		true
+	},
+	[109] = {
+		8760,
+		426,
+		true
+	},
+	[110] = {
+		9186,
+		424,
+		true
+	},
+	[111] = {
+		9610,
+		424,
+		true
+	},
+	[113] = {
+		10034,
+		426,
+		true
+	},
+	[114] = {
+		10460,
+		424,
+		true
+	},
+	[115] = {
+		10884,
+		424,
+		true
+	},
+	[117] = {
+		11308,
+		426,
+		true
+	},
+	[118] = {
+		11734,
+		424,
+		true
+	},
+	[119] = {
+		12158,
+		424,
+		true
+	},
+	[121] = {
+		12582,
+		426,
+		true
+	},
+	[122] = {
+		13008,
+		424,
+		true
+	},
+	[123] = {
+		13432,
+		424,
+		true
+	},
+	[125] = {
+		13856,
+		447,
+		true
+	},
+	[126] = {
+		14303,
+		444,
+		true
+	},
+	[127] = {
+		14747,
+		444,
+		true
+	},
+	[140] = {
+		15191,
+		461,
+		true
+	},
+	[141] = {
+		15652,
+		431,
+		true
+	},
+	[144] = {
+		16083,
+		459,
+		true
+	},
+	[147] = {
+		16542,
+		428,
+		true
+	},
+	[148] = {
+		16970,
+		447,
+		true
+	},
+	[149] = {
+		17417,
+		444,
+		true
+	},
+	[150] = {
+		17861,
+		444,
+		true
+	},
+	[201] = {
+		18305,
+		455,
+		true
+	},
+	[202] = {
+		18760,
+		122,
+		true
+	},
+	[203] = {
+		18882,
+		147,
+		true
+	},
+	[204] = {
+		19029,
+		147,
+		true
+	},
+	[211] = {
+		19176,
+		455,
+		true
+	},
+	[212] = {
+		19631,
+		122,
+		true
+	},
+	[213] = {
+		19753,
+		122,
+		true
+	},
+	[214] = {
+		19875,
+		122,
+		true
+	},
+	[215] = {
+		19997,
+		178,
+		true
+	},
+	[221] = {
+		20175,
+		455,
+		true
+	},
+	[222] = {
+		20630,
+		122,
+		true
+	},
+	[223] = {
+		20752,
+		147,
+		true
+	},
+	[224] = {
+		20899,
+		147,
+		true
+	},
+	[231] = {
+		21046,
+		455,
+		true
+	},
+	[232] = {
+		21501,
+		122,
+		true
+	},
+	[233] = {
+		21623,
+		122,
+		true
+	},
+	[234] = {
+		21745,
+		122,
+		true
+	},
+	[251] = {
+		21867,
+		478,
+		true
+	},
+	[252] = {
+		22345,
+		148,
+		true
+	},
+	[253] = {
+		22493,
+		148,
+		true
+	},
+	[254] = {
+		22641,
+		148,
+		true
+	},
+	[261] = {
+		22789,
+		458,
+		true
+	},
+	[262] = {
+		23247,
+		126,
+		true
+	},
+	[263] = {
+		23373,
+		151,
+		true
+	},
+	[264] = {
+		23524,
+		151,
+		true
+	},
+	[271] = {
+		23675,
+		485,
+		true
+	},
+	[272] = {
+		24160,
+		152,
+		true
+	},
+	[273] = {
+		24312,
+		176,
+		true
+	},
+	[274] = {
+		24488,
+		176,
+		true
+	},
+	[301] = {
+		24664,
+		459,
+		true
+	},
+	[302] = {
+		25123,
+		126,
+		true
+	},
+	[303] = {
+		25249,
+		151,
+		true
+	},
+	[304] = {
+		25400,
+		151,
+		true
+	},
+	[311] = {
+		25551,
+		459,
+		true
+	},
+	[312] = {
+		26010,
+		126,
+		true
+	},
+	[313] = {
+		26136,
+		126,
+		true
+	},
+	[314] = {
+		26262,
+		126,
+		true
+	},
+	[321] = {
+		26388,
+		459,
+		true
+	},
+	[322] = {
+		26847,
+		126,
+		true
+	},
+	[323] = {
+		26973,
+		151,
+		true
+	},
+	[324] = {
+		27124,
+		151,
+		true
+	},
+	[331] = {
+		27275,
+		459,
+		true
+	},
+	[332] = {
+		27734,
+		126,
+		true
+	},
+	[333] = {
+		27860,
+		126,
+		true
+	},
+	[334] = {
+		27986,
+		126,
+		true
+	},
+	[351] = {
+		28112,
+		482,
+		true
+	},
+	[352] = {
+		28594,
+		152,
+		true
+	},
+	[353] = {
+		28746,
+		152,
+		true
+	},
+	[354] = {
+		28898,
+		152,
+		true
+	},
+	[371] = {
+		29050,
+		487,
+		true
+	},
+	[372] = {
+		29537,
+		152,
+		true
+	},
+	[373] = {
+		29689,
+		152,
+		true
+	},
+	[374] = {
+		29841,
+		152,
+		true
+	},
+	[431] = {
+		29993,
+		513,
+		true
+	},
+	[432] = {
+		30506,
+		493,
+		true
+	},
+	[433] = {
+		30999,
+		669,
+		true
+	},
+	[434] = {
+		31668,
+		532,
+		true
+	},
+	[435] = {
+		32200,
+		505,
+		true
+	},
+	[436] = {
+		32705,
+		469,
+		true
+	},
+	[437] = {
+		33174,
+		508,
+		true
+	},
+	[438] = {
+		33682,
+		471,
+		true
+	},
+	[500] = {
+		34153,
+		561,
+		true
+	},
+	[501] = {
+		34714,
+		102,
+		true
+	},
+	[502] = {
+		34816,
+		102,
+		true
+	},
+	[503] = {
+		34918,
+		102,
+		true
+	},
+	[504] = {
+		35020,
+		102,
+		true
+	},
+	[505] = {
+		35122,
+		102,
+		true
+	},
+	[506] = {
+		35224,
+		102,
+		true
+	},
+	[507] = {
+		35326,
+		102,
+		true
+	},
+	[508] = {
+		35428,
+		102,
+		true
+	},
+	[509] = {
+		35530,
+		102,
+		true
+	},
+	[510] = {
+		35632,
+		102,
+		true
+	},
+	[511] = {
+		35734,
+		115,
+		true
+	},
+	[512] = {
+		35849,
+		116,
+		true
+	},
+	[513] = {
+		35965,
+		116,
+		true
+	},
+	[520] = {
+		36081,
+		532,
+		true
+	},
+	[521] = {
+		36613,
+		93,
+		true
+	},
+	[522] = {
+		36706,
+		93,
+		true
+	},
+	[523] = {
+		36799,
+		93,
+		true
+	},
+	[524] = {
+		36892,
+		93,
+		true
+	},
+	[525] = {
+		36985,
+		93,
+		true
+	},
+	[526] = {
+		37078,
+		93,
+		true
+	},
+	[527] = {
+		37171,
+		93,
+		true
+	},
+	[528] = {
+		37264,
+		93,
+		true
+	},
+	[529] = {
+		37357,
+		93,
+		true
+	},
+	[530] = {
+		37450,
+		93,
+		true
+	},
+	[531] = {
+		37543,
+		106,
+		true
+	},
+	[532] = {
+		37649,
+		107,
+		true
+	},
+	[533] = {
+		37756,
+		107,
+		true
+	},
+	[540] = {
+		37863,
+		512,
+		true
+	},
+	[541] = {
+		38375,
+		93,
+		true
+	},
+	[542] = {
+		38468,
+		93,
+		true
+	},
+	[543] = {
+		38561,
+		93,
+		true
+	},
+	[544] = {
+		38654,
+		93,
+		true
+	},
+	[545] = {
+		38747,
+		93,
+		true
+	},
+	[546] = {
+		38840,
+		93,
+		true
+	},
+	[547] = {
+		38933,
+		93,
+		true
+	},
+	[548] = {
+		39026,
+		93,
+		true
+	},
+	[549] = {
+		39119,
+		93,
+		true
+	},
+	[550] = {
+		39212,
+		93,
+		true
+	},
+	[551] = {
+		39305,
+		106,
+		true
+	},
+	[552] = {
+		39411,
+		107,
+		true
+	},
+	[553] = {
+		39518,
+		107,
+		true
+	},
+	[560] = {
+		39625,
+		597,
+		true
+	},
+	[561] = {
+		40222,
+		92,
+		true
+	},
+	[562] = {
+		40314,
+		92,
+		true
+	},
+	[563] = {
+		40406,
+		92,
+		true
+	},
+	[564] = {
+		40498,
+		92,
+		true
+	},
+	[565] = {
+		40590,
+		92,
+		true
+	},
+	[566] = {
+		40682,
+		92,
+		true
+	},
+	[567] = {
+		40774,
+		92,
+		true
+	},
+	[568] = {
+		40866,
+		92,
+		true
+	},
+	[569] = {
+		40958,
+		92,
+		true
+	},
+	[570] = {
+		41050,
+		92,
+		true
+	},
+	[571] = {
+		41142,
+		105,
+		true
+	},
+	[580] = {
+		41247,
+		705,
+		true
+	},
+	[581] = {
+		41952,
+		102,
+		true
+	},
+	[582] = {
+		42054,
+		102,
+		true
+	},
+	[583] = {
+		42156,
+		102,
+		true
+	},
+	[584] = {
+		42258,
+		102,
+		true
+	},
+	[585] = {
+		42360,
+		102,
+		true
+	},
+	[586] = {
+		42462,
+		102,
+		true
+	},
+	[587] = {
+		42564,
+		102,
+		true
+	},
+	[588] = {
+		42666,
+		102,
+		true
+	},
+	[589] = {
+		42768,
+		102,
+		true
+	},
+	[590] = {
+		42870,
+		102,
+		true
+	},
+	[591] = {
+		42972,
+		115,
+		true
+	},
+	[600] = {
+		43087,
+		582,
+		true
+	},
+	[601] = {
+		43669,
+		92,
+		true
+	},
+	[602] = {
+		43761,
+		102,
+		true
+	},
+	[603] = {
+		43863,
+		102,
+		true
+	},
+	[604] = {
+		43965,
+		102,
+		true
+	},
+	[605] = {
+		44067,
+		102,
+		true
+	},
+	[606] = {
+		44169,
+		102,
+		true
+	},
+	[607] = {
+		44271,
+		102,
+		true
+	},
+	[608] = {
+		44373,
+		102,
+		true
+	},
+	[609] = {
+		44475,
+		102,
+		true
+	},
+	[610] = {
+		44577,
+		102,
+		true
+	},
+	[611] = {
+		44679,
+		115,
+		true
+	},
+	[612] = {
+		44794,
+		116,
+		true
+	},
+	[613] = {
+		44910,
+		116,
+		true
+	},
+	[620] = {
+		45026,
+		576,
+		true
+	},
+	[621] = {
+		45602,
+		92,
+		true
+	},
+	[622] = {
+		45694,
+		92,
+		true
+	},
+	[623] = {
+		45786,
+		92,
+		true
+	},
+	[624] = {
+		45878,
+		92,
+		true
+	},
+	[625] = {
+		45970,
+		92,
+		true
+	},
+	[626] = {
+		46062,
+		92,
+		true
+	},
+	[627] = {
+		46154,
+		92,
+		true
+	},
+	[628] = {
+		46246,
+		92,
+		true
+	},
+	[629] = {
+		46338,
+		92,
+		true
+	},
+	[630] = {
+		46430,
+		92,
+		true
+	},
+	[631] = {
+		46522,
+		105,
+		true
+	},
+	[632] = {
+		46627,
+		106,
+		true
+	},
+	[633] = {
+		46733,
+		106,
+		true
+	},
+	[640] = {
+		46839,
+		585,
+		true
+	},
+	[641] = {
+		47424,
+		91,
+		true
+	},
+	[642] = {
+		47515,
+		101,
+		true
+	},
+	[643] = {
+		47616,
+		101,
+		true
+	},
+	[644] = {
+		47717,
+		101,
+		true
+	},
+	[645] = {
+		47818,
+		102,
+		true
+	},
+	[646] = {
+		47920,
+		102,
+		true
+	},
+	[647] = {
+		48022,
+		102,
+		true
+	},
+	[648] = {
+		48124,
+		102,
+		true
+	},
+	[649] = {
+		48226,
+		102,
+		true
+	},
+	[650] = {
+		48328,
+		102,
+		true
+	},
+	[651] = {
+		48430,
+		115,
+		true
+	},
+	[652] = {
+		48545,
+		116,
+		true
+	},
+	[653] = {
+		48661,
+		116,
+		true
+	},
+	[660] = {
+		48777,
+		651,
+		true
+	},
+	[661] = {
+		49428,
+		92,
+		true
+	},
+	[662] = {
+		49520,
+		92,
+		true
+	},
+	[663] = {
+		49612,
+		92,
+		true
+	},
+	[664] = {
+		49704,
+		92,
+		true
+	},
+	[665] = {
+		49796,
+		92,
+		true
+	},
+	[666] = {
+		49888,
+		92,
+		true
+	},
+	[667] = {
+		49980,
+		92,
+		true
+	},
+	[668] = {
+		50072,
+		92,
+		true
+	},
+	[669] = {
+		50164,
+		92,
+		true
+	},
+	[670] = {
+		50256,
+		92,
+		true
+	},
+	[671] = {
+		50348,
+		105,
+		true
+	},
+	[680] = {
+		50453,
+		630,
+		true
+	},
+	[681] = {
+		51083,
+		92,
+		true
+	},
+	[682] = {
+		51175,
+		92,
+		true
+	},
+	[683] = {
+		51267,
+		92,
+		true
+	},
+	[684] = {
+		51359,
+		92,
+		true
+	},
+	[685] = {
+		51451,
+		92,
+		true
+	},
+	[686] = {
+		51543,
+		92,
+		true
+	},
+	[687] = {
+		51635,
+		92,
+		true
+	},
+	[688] = {
+		51727,
+		92,
+		true
+	},
+	[689] = {
+		51819,
+		92,
+		true
+	},
+	[690] = {
+		51911,
+		92,
+		true
+	},
+	[691] = {
+		52003,
+		105,
+		true
+	},
+	[700] = {
+		52108,
+		641,
+		true
+	},
+	[701] = {
+		52749,
+		92,
+		true
+	},
+	[702] = {
+		52841,
+		92,
+		true
+	},
+	[703] = {
+		52933,
+		92,
+		true
+	},
+	[704] = {
+		53025,
+		92,
+		true
+	},
+	[705] = {
+		53117,
+		92,
+		true
+	},
+	[706] = {
+		53209,
+		92,
+		true
+	},
+	[707] = {
+		53301,
+		92,
+		true
+	},
+	[708] = {
+		53393,
+		92,
+		true
+	},
+	[709] = {
+		53485,
+		92,
+		true
+	},
+	[710] = {
+		53577,
+		92,
+		true
+	},
+	[711] = {
+		53669,
+		105,
+		true
+	},
+	[720] = {
+		53774,
+		639,
+		true
+	},
+	[721] = {
+		54413,
+		102,
+		true
+	},
+	[722] = {
+		54515,
+		102,
+		true
+	},
+	[723] = {
+		54617,
+		102,
+		true
+	},
+	[724] = {
+		54719,
+		102,
+		true
+	},
+	[725] = {
+		54821,
+		102,
+		true
+	},
+	[726] = {
+		54923,
+		102,
+		true
+	},
+	[727] = {
+		55025,
+		102,
+		true
+	},
+	[728] = {
+		55127,
+		103,
+		true
+	},
+	[729] = {
+		55230,
+		103,
+		true
+	},
+	[730] = {
+		55333,
+		103,
+		true
+	},
+	[731] = {
+		55436,
+		116,
+		true
+	},
+	[732] = {
+		55552,
+		117,
+		true
+	},
+	[733] = {
+		55669,
+		117,
+		true
+	},
+	[740] = {
+		55786,
+		521,
+		true
+	},
+	[741] = {
+		56307,
+		92,
+		true
+	},
+	[742] = {
+		56399,
+		92,
+		true
+	},
+	[743] = {
+		56491,
+		92,
+		true
+	},
+	[744] = {
+		56583,
+		92,
+		true
+	},
+	[745] = {
+		56675,
+		92,
+		true
+	},
+	[746] = {
+		56767,
+		92,
+		true
+	},
+	[747] = {
+		56859,
+		92,
+		true
+	},
+	[748] = {
+		56951,
+		92,
+		true
+	},
+	[749] = {
+		57043,
+		92,
+		true
+	},
+	[750] = {
+		57135,
+		92,
+		true
+	},
+	[751] = {
+		57227,
+		105,
+		true
+	},
+	[760] = {
+		57332,
+		659,
+		true
+	},
+	[761] = {
+		57991,
+		101,
+		true
+	},
+	[762] = {
+		58092,
+		101,
+		true
+	},
+	[763] = {
+		58193,
+		101,
+		true
+	},
+	[764] = {
+		58294,
+		101,
+		true
+	},
+	[765] = {
+		58395,
+		102,
+		true
+	},
+	[766] = {
+		58497,
+		102,
+		true
+	},
+	[767] = {
+		58599,
+		102,
+		true
+	},
+	[768] = {
+		58701,
+		102,
+		true
+	},
+	[769] = {
+		58803,
+		102,
+		true
+	},
+	[770] = {
+		58905,
+		102,
+		true
+	},
+	[771] = {
+		59007,
+		116,
+		true
+	},
+	[780] = {
+		59123,
+		577,
+		true
+	},
+	[781] = {
+		59700,
+		102,
+		true
+	},
+	[782] = {
+		59802,
+		102,
+		true
+	},
+	[783] = {
+		59904,
+		102,
+		true
+	},
+	[784] = {
+		60006,
+		102,
+		true
+	},
+	[785] = {
+		60108,
+		102,
+		true
+	},
+	[786] = {
+		60210,
+		103,
+		true
+	},
+	[787] = {
+		60313,
+		103,
+		true
+	},
+	[788] = {
+		60416,
+		103,
+		true
+	},
+	[789] = {
+		60519,
+		103,
+		true
+	},
+	[790] = {
+		60622,
+		103,
+		true
+	},
+	[791] = {
+		60725,
+		116,
+		true
+	},
+	[800] = {
+		60841,
+		674,
+		true
+	},
+	[801] = {
+		61515,
+		102,
+		true
+	},
+	[802] = {
+		61617,
+		102,
+		true
+	},
+	[803] = {
+		61719,
+		102,
+		true
+	},
+	[804] = {
+		61821,
+		102,
+		true
+	},
+	[805] = {
+		61923,
+		102,
+		true
+	},
+	[806] = {
+		62025,
+		102,
+		true
+	},
+	[807] = {
+		62127,
+		102,
+		true
+	},
+	[808] = {
+		62229,
+		102,
+		true
+	},
+	[809] = {
+		62331,
+		102,
+		true
+	},
+	[810] = {
+		62433,
+		102,
+		true
+	},
+	[820] = {
+		62535,
+		577,
+		true
+	},
+	[821] = {
+		63112,
+		102,
+		true
+	},
+	[822] = {
+		63214,
+		102,
+		true
+	},
+	[823] = {
+		63316,
+		102,
+		true
+	},
+	[824] = {
+		63418,
+		102,
+		true
+	},
+	[825] = {
+		63520,
+		102,
+		true
+	},
+	[826] = {
+		63622,
+		102,
+		true
+	},
+	[827] = {
+		63724,
+		102,
+		true
+	},
+	[828] = {
+		63826,
+		102,
+		true
+	},
+	[829] = {
+		63928,
+		102,
+		true
+	},
+	[830] = {
+		64030,
+		103,
+		true
+	},
+	[831] = {
+		64133,
+		116,
+		true
+	},
+	[832] = {
+		64249,
+		117,
+		true
+	},
+	[833] = {
+		64366,
+		117,
+		true
+	},
+	[840] = {
+		64483,
+		619,
+		true
+	},
+	[841] = {
+		65102,
+		93,
+		true
+	},
+	[842] = {
+		65195,
+		103,
+		true
+	},
+	[843] = {
+		65298,
+		103,
+		true
+	},
+	[844] = {
+		65401,
+		103,
+		true
+	},
+	[845] = {
+		65504,
+		103,
+		true
+	},
+	[846] = {
+		65607,
+		103,
+		true
+	},
+	[847] = {
+		65710,
+		103,
+		true
+	},
+	[848] = {
+		65813,
+		103,
+		true
+	},
+	[849] = {
+		65916,
+		103,
+		true
+	},
+	[850] = {
+		66019,
+		103,
+		true
+	},
+	[851] = {
+		66122,
+		116,
+		true
+	},
+	[852] = {
+		66238,
+		117,
+		true
+	},
+	[853] = {
+		66355,
+		117,
+		true
+	},
+	[860] = {
+		66472,
+		547,
+		true
+	},
+	[861] = {
+		67019,
+		91,
+		true
+	},
+	[862] = {
+		67110,
+		101,
+		true
+	},
+	[863] = {
+		67211,
+		102,
+		true
+	},
+	[864] = {
+		67313,
+		102,
+		true
+	},
+	[865] = {
+		67415,
+		102,
+		true
+	},
+	[866] = {
+		67517,
+		102,
+		true
+	},
+	[867] = {
+		67619,
+		102,
+		true
+	},
+	[868] = {
+		67721,
+		102,
+		true
+	},
+	[869] = {
+		67823,
+		102,
+		true
+	},
+	[870] = {
+		67925,
+		102,
+		true
+	},
+	[871] = {
+		68027,
+		115,
+		true
+	},
+	[872] = {
+		68142,
+		116,
+		true
+	},
+	[873] = {
+		68258,
+		116,
+		true
+	},
+	[880] = {
+		68374,
+		524,
+		true
+	},
+	[881] = {
+		68898,
+		92,
+		true
+	},
+	[882] = {
+		68990,
+		102,
+		true
+	},
+	[883] = {
+		69092,
+		102,
+		true
+	},
+	[884] = {
+		69194,
+		102,
+		true
+	},
+	[885] = {
+		69296,
+		102,
+		true
+	},
+	[886] = {
+		69398,
+		102,
+		true
+	},
+	[887] = {
+		69500,
+		102,
+		true
+	},
+	[888] = {
+		69602,
+		102,
+		true
+	},
+	[889] = {
+		69704,
+		102,
+		true
+	},
+	[890] = {
+		69806,
+		102,
+		true
+	},
+	[891] = {
+		69908,
+		115,
+		true
+	},
+	[892] = {
+		70023,
+		116,
+		true
+	},
+	[893] = {
+		70139,
+		116,
+		true
+	},
+	[940] = {
+		70255,
+		561,
+		true
+	},
+	[941] = {
+		70816,
+		93,
+		true
+	},
+	[942] = {
+		70909,
+		93,
+		true
+	},
+	[943] = {
+		71002,
+		93,
+		true
+	},
+	[944] = {
+		71095,
+		93,
+		true
+	},
+	[945] = {
+		71188,
+		93,
+		true
+	},
+	[946] = {
+		71281,
+		93,
+		true
+	},
+	[947] = {
+		71374,
+		93,
+		true
+	},
+	[948] = {
+		71467,
+		93,
+		true
+	},
+	[949] = {
+		71560,
+		93,
+		true
+	},
+	[950] = {
+		71653,
+		93,
+		true
+	},
+	[951] = {
+		71746,
+		106,
+		true
+	},
+	[960] = {
+		71852,
+		587,
+		true
+	},
+	[961] = {
+		72439,
+		102,
+		true
+	},
+	[962] = {
+		72541,
+		102,
+		true
+	},
+	[963] = {
+		72643,
+		102,
+		true
+	},
+	[964] = {
+		72745,
+		102,
+		true
+	},
+	[965] = {
+		72847,
+		102,
+		true
+	},
+	[966] = {
+		72949,
+		102,
+		true
+	},
+	[967] = {
+		73051,
+		102,
+		true
+	},
+	[968] = {
+		73153,
+		102,
+		true
+	},
+	[969] = {
+		73255,
+		102,
+		true
+	},
+	[970] = {
+		73357,
+		102,
+		true
+	},
+	[971] = {
+		73459,
+		115,
+		true
+	},
+	[972] = {
+		73574,
+		116,
+		true
+	},
+	[973] = {
+		73690,
+		116,
+		true
+	},
+	[1000] = {
+		73806,
+		519,
+		true
+	},
+	[1001] = {
+		74325,
+		93,
+		true
+	},
+	[1002] = {
+		74418,
+		93,
+		true
+	},
+	[1003] = {
+		74511,
+		93,
+		true
+	},
+	[1004] = {
+		74604,
+		93,
+		true
+	},
+	[1005] = {
+		74697,
+		93,
+		true
+	},
+	[1006] = {
+		74790,
+		93,
+		true
+	},
+	[1020] = {
+		74883,
+		520,
+		true
+	},
+	[1021] = {
+		75403,
+		93,
+		true
+	},
+	[1022] = {
+		75496,
+		93,
+		true
+	},
+	[1023] = {
+		75589,
+		93,
+		true
+	},
+	[1024] = {
+		75682,
+		93,
+		true
+	},
+	[1025] = {
+		75775,
+		93,
+		true
+	},
+	[1026] = {
+		75868,
+		93,
+		true
+	},
+	[1027] = {
+		75961,
+		93,
+		true
+	},
+	[1028] = {
+		76054,
+		93,
+		true
+	},
+	[1029] = {
+		76147,
+		93,
+		true
+	},
+	[1030] = {
+		76240,
+		93,
+		true
+	},
+	[1040] = {
+		76333,
+		520,
+		true
+	},
+	[1041] = {
+		76853,
+		93,
+		true
+	},
+	[1042] = {
+		76946,
+		93,
+		true
+	},
+	[1043] = {
+		77039,
+		93,
+		true
+	},
+	[1044] = {
+		77132,
+		93,
+		true
+	},
+	[1045] = {
+		77225,
+		93,
+		true
+	},
+	[1046] = {
+		77318,
+		93,
+		true
+	},
+	[1047] = {
+		77411,
+		93,
+		true
+	},
+	[1048] = {
+		77504,
+		93,
+		true
+	},
+	[1049] = {
+		77597,
+		93,
+		true
+	},
+	[1050] = {
+		77690,
+		93,
+		true
+	},
+	[1051] = {
+		77783,
+		106,
+		true
+	},
+	[1052] = {
+		77889,
+		107,
+		true
+	},
+	[1053] = {
+		77996,
+		107,
+		true
+	},
+	[1100] = {
+		78103,
+		508,
+		true
+	},
+	[1101] = {
+		78611,
+		92,
+		true
+	},
+	[1102] = {
+		78703,
+		92,
+		true
+	},
+	[1103] = {
+		78795,
+		92,
+		true
+	},
+	[1120] = {
+		78887,
+		508,
+		true
+	},
+	[1121] = {
+		79395,
+		92,
+		true
+	},
+	[1122] = {
+		79487,
+		92,
+		true
+	},
+	[1123] = {
+		79579,
+		92,
+		true
+	},
+	[1124] = {
+		79671,
+		92,
+		true
+	},
+	[1125] = {
+		79763,
+		92,
+		true
+	},
+	[1126] = {
+		79855,
+		92,
+		true
+	},
+	[1140] = {
+		79947,
+		508,
+		true
+	},
+	[1141] = {
+		80455,
+		92,
+		true
+	},
+	[1142] = {
+		80547,
+		92,
+		true
+	},
+	[1143] = {
+		80639,
+		92,
+		true
+	},
+	[1144] = {
+		80731,
+		92,
+		true
+	},
+	[1145] = {
+		80823,
+		92,
+		true
+	},
+	[1146] = {
+		80915,
+		92,
+		true
+	},
+	[1147] = {
+		81007,
+		92,
+		true
+	},
+	[1148] = {
+		81099,
+		92,
+		true
+	},
+	[1149] = {
+		81191,
+		92,
+		true
+	},
+	[1150] = {
+		81283,
+		92,
+		true
+	},
+	[1151] = {
+		81375,
+		105,
+		true
+	},
+	[1160] = {
+		81480,
+		540,
+		true
+	},
+	[1161] = {
+		82020,
+		92,
+		true
+	},
+	[1162] = {
+		82112,
+		92,
+		true
+	},
+	[1163] = {
+		82204,
+		92,
+		true
+	},
+	[1164] = {
+		82296,
+		92,
+		true
+	},
+	[1165] = {
+		82388,
+		92,
+		true
+	},
+	[1166] = {
+		82480,
+		92,
+		true
+	},
+	[1167] = {
+		82572,
+		92,
+		true
+	},
+	[1168] = {
+		82664,
+		92,
+		true
+	},
+	[1169] = {
+		82756,
+		92,
+		true
+	},
+	[1170] = {
+		82848,
+		93,
+		true
+	},
+	[1171] = {
+		82941,
+		106,
+		true
+	},
+	[1172] = {
+		83047,
+		107,
+		true
+	},
+	[1173] = {
+		83154,
+		107,
+		true
+	},
+	[1200] = {
+		83261,
+		577,
+		true
+	},
+	[1201] = {
+		83838,
+		91,
+		true
+	},
+	[1202] = {
+		83929,
+		91,
+		true
+	},
+	[1203] = {
+		84020,
+		101,
+		true
+	},
+	[1220] = {
+		84121,
+		577,
+		true
+	},
+	[1221] = {
+		84698,
+		101,
+		true
+	},
+	[1222] = {
+		84799,
+		101,
+		true
+	},
+	[1223] = {
+		84900,
+		101,
+		true
+	},
+	[1224] = {
+		85001,
+		102,
+		true
+	},
+	[1225] = {
+		85103,
+		102,
+		true
+	},
+	[1226] = {
+		85205,
+		102,
+		true
+	},
+	[1240] = {
+		85307,
+		577,
+		true
+	},
+	[1241] = {
+		85884,
+		102,
+		true
+	},
+	[1242] = {
+		85986,
+		102,
+		true
+	},
+	[1243] = {
+		86088,
+		102,
+		true
+	},
+	[1244] = {
+		86190,
+		102,
+		true
+	},
+	[1245] = {
+		86292,
+		102,
+		true
+	},
+	[1246] = {
+		86394,
+		102,
+		true
+	},
+	[1247] = {
+		86496,
+		102,
+		true
+	},
+	[1248] = {
+		86598,
+		102,
+		true
+	},
+	[1249] = {
+		86700,
+		102,
+		true
+	},
+	[1250] = {
+		86802,
+		102,
+		true
+	},
+	[1251] = {
+		86904,
+		115,
+		true
+	},
+	[1260] = {
+		87019,
+		693,
+		true
+	},
+	[1261] = {
+		87712,
+		102,
+		true
+	},
+	[1262] = {
+		87814,
+		102,
+		true
+	},
+	[1263] = {
+		87916,
+		102,
+		true
+	},
+	[1264] = {
+		88018,
+		102,
+		true
+	},
+	[1265] = {
+		88120,
+		102,
+		true
+	},
+	[1266] = {
+		88222,
+		102,
+		true
+	},
+	[1267] = {
+		88324,
+		102,
+		true
+	},
+	[1268] = {
+		88426,
+		102,
+		true
+	},
+	[1269] = {
+		88528,
+		102,
+		true
+	},
+	[1270] = {
+		88630,
+		102,
+		true
+	},
+	[1271] = {
+		88732,
+		115,
+		true
+	},
+	[1272] = {
+		88847,
+		116,
+		true
+	},
+	[1273] = {
+		88963,
+		116,
+		true
+	},
+	[1300] = {
+		89079,
+		571,
+		true
+	},
+	[1301] = {
+		89650,
+		92,
+		true
+	},
+	[1302] = {
+		89742,
+		92,
+		true
+	},
+	[1303] = {
+		89834,
+		92,
+		true
+	},
+	[1320] = {
+		89926,
+		571,
+		true
+	},
+	[1321] = {
+		90497,
+		93,
+		true
+	},
+	[1322] = {
+		90590,
+		93,
+		true
+	},
+	[1323] = {
+		90683,
+		93,
+		true
+	},
+	[1324] = {
+		90776,
+		93,
+		true
+	},
+	[1325] = {
+		90869,
+		93,
+		true
+	},
+	[1326] = {
+		90962,
+		93,
+		true
+	},
+	[1340] = {
+		91055,
+		572,
+		true
+	},
+	[1341] = {
+		91627,
+		93,
+		true
+	},
+	[1342] = {
+		91720,
+		93,
+		true
+	},
+	[1343] = {
+		91813,
+		93,
+		true
+	},
+	[1344] = {
+		91906,
+		93,
+		true
+	},
+	[1345] = {
+		91999,
+		93,
+		true
+	},
+	[1346] = {
+		92092,
+		93,
+		true
+	},
+	[1347] = {
+		92185,
+		93,
+		true
+	},
+	[1348] = {
+		92278,
+		93,
+		true
+	},
+	[1349] = {
+		92371,
+		93,
+		true
+	},
+	[1350] = {
+		92464,
+		93,
+		true
+	},
+	[1351] = {
+		92557,
+		106,
+		true
+	},
+	[1400] = {
+		92663,
+		550,
+		true
+	},
+	[1401] = {
+		93213,
+		102,
+		true
+	},
+	[1402] = {
+		93315,
+		102,
+		true
+	},
+	[1403] = {
+		93417,
+		102,
+		true
+	},
+	[1404] = {
+		93519,
+		102,
+		true
+	},
+	[1405] = {
+		93621,
+		102,
+		true
+	},
+	[1406] = {
+		93723,
+		102,
+		true
+	},
+	[1420] = {
+		93825,
+		550,
+		true
+	},
+	[1421] = {
+		94375,
+		102,
+		true
+	},
+	[1422] = {
+		94477,
+		102,
+		true
+	},
+	[1423] = {
+		94579,
+		102,
+		true
+	},
+	[1424] = {
+		94681,
+		102,
+		true
+	},
+	[1425] = {
+		94783,
+		102,
+		true
+	},
+	[1426] = {
+		94885,
+		102,
+		true
+	},
+	[1427] = {
+		94987,
+		102,
+		true
+	},
+	[1428] = {
+		95089,
+		102,
+		true
+	},
+	[1429] = {
+		95191,
+		102,
+		true
+	},
+	[1430] = {
+		95293,
+		102,
+		true
+	},
+	[1440] = {
+		95395,
+		550,
+		true
+	},
+	[1441] = {
+		95945,
+		102,
+		true
+	},
+	[1442] = {
+		96047,
+		102,
+		true
+	},
+	[1443] = {
+		96149,
+		102,
+		true
+	},
+	[1444] = {
+		96251,
+		102,
+		true
+	},
+	[1445] = {
+		96353,
+		102,
+		true
+	},
+	[1446] = {
+		96455,
+		102,
+		true
+	},
+	[1447] = {
+		96557,
+		102,
+		true
+	},
+	[1448] = {
+		96659,
+		102,
+		true
+	},
+	[1449] = {
+		96761,
+		102,
+		true
+	},
+	[1450] = {
+		96863,
+		103,
+		true
+	},
+	[1451] = {
+		96966,
+		116,
+		true
+	},
+	[1452] = {
+		97082,
+		117,
+		true
+	},
+	[1453] = {
+		97199,
+		117,
+		true
+	},
+	[1500] = {
+		97316,
+		654,
+		true
+	},
+	[1501] = {
+		97970,
+		101,
+		true
+	},
+	[1502] = {
+		98071,
+		101,
+		true
+	},
+	[1503] = {
+		98172,
+		101,
+		true
+	},
+	[1504] = {
+		98273,
+		102,
+		true
+	},
+	[1505] = {
+		98375,
+		102,
+		true
+	},
+	[1506] = {
+		98477,
+		102,
+		true
+	},
+	[1520] = {
+		98579,
+		654,
+		true
+	},
+	[1521] = {
+		99233,
+		92,
+		true
+	},
+	[1522] = {
+		99325,
+		102,
+		true
+	},
+	[1523] = {
+		99427,
+		102,
+		true
+	},
+	[1524] = {
+		99529,
+		102,
+		true
+	},
+	[1525] = {
+		99631,
+		102,
+		true
+	},
+	[1526] = {
+		99733,
+		102,
+		true
+	},
+	[1527] = {
+		99835,
+		102,
+		true
+	},
+	[1528] = {
+		99937,
+		102,
+		true
+	},
+	[1529] = {
+		100039,
+		102,
+		true
+	},
+	[1530] = {
+		100141,
+		102,
+		true
+	},
+	[1540] = {
+		100243,
+		655,
+		true
+	},
+	[1541] = {
+		100898,
+		92,
+		true
+	},
+	[1542] = {
+		100990,
+		102,
+		true
+	},
+	[1543] = {
+		101092,
+		102,
+		true
+	},
+	[1544] = {
+		101194,
+		102,
+		true
+	},
+	[1545] = {
+		101296,
+		102,
+		true
+	},
+	[1546] = {
+		101398,
+		102,
+		true
+	},
+	[1547] = {
+		101500,
+		102,
+		true
+	},
+	[1548] = {
+		101602,
+		102,
+		true
+	},
+	[1549] = {
+		101704,
+		102,
+		true
+	},
+	[1550] = {
+		101806,
+		102,
+		true
+	},
+	[1551] = {
+		101908,
+		115,
+		true
+	},
+	[1552] = {
+		102023,
+		116,
+		true
+	},
+	[1553] = {
+		102139,
+		116,
+		true
+	},
+	[1600] = {
+		102255,
+		577,
+		true
+	},
+	[1601] = {
+		102832,
+		110,
+		true
+	},
+	[1602] = {
+		102942,
+		120,
+		true
+	},
+	[1603] = {
+		103062,
+		120,
+		true
+	},
+	[1620] = {
+		103182,
+		596,
+		true
+	},
+	[1621] = {
+		103778,
+		91,
+		true
+	},
+	[1622] = {
+		103869,
+		101,
+		true
+	},
+	[1623] = {
+		103970,
+		101,
+		true
+	},
+	[1640] = {
+		104071,
+		596,
+		true
+	},
+	[1641] = {
+		104667,
+		92,
+		true
+	},
+	[1642] = {
+		104759,
+		92,
+		true
+	},
+	[1643] = {
+		104851,
+		102,
+		true
+	},
+	[1644] = {
+		104953,
+		102,
+		true
+	},
+	[1645] = {
+		105055,
+		102,
+		true
+	},
+	[1646] = {
+		105157,
+		102,
+		true
+	},
+	[1647] = {
+		105259,
+		102,
+		true
+	},
+	[1700] = {
+		105361,
+		531,
+		true
+	},
+	[1701] = {
+		105892,
+		91,
+		true
+	},
+	[1702] = {
+		105983,
+		101,
+		true
+	},
+	[1703] = {
+		106084,
+		101,
+		true
+	},
+	[1720] = {
+		106185,
+		531,
+		true
+	},
+	[1721] = {
+		106716,
+		91,
+		true
+	},
+	[1722] = {
+		106807,
+		101,
+		true
+	},
+	[1723] = {
+		106908,
+		101,
+		true
+	},
+	[1740] = {
+		107009,
+		531,
+		true
+	},
+	[1741] = {
+		107540,
+		102,
+		true
+	},
+	[1742] = {
+		107642,
+		102,
+		true
+	},
+	[1743] = {
+		107744,
+		102,
+		true
+	},
+	[1744] = {
+		107846,
+		102,
+		true
+	},
+	[1745] = {
+		107948,
+		102,
+		true
+	},
+	[1746] = {
+		108050,
+		102,
+		true
+	},
+	[1747] = {
+		108152,
+		102,
+		true
+	},
+	[1760] = {
+		108254,
+		542,
+		true
+	},
+	[1761] = {
+		108796,
+		102,
+		true
+	},
+	[1762] = {
+		108898,
+		102,
+		true
+	},
+	[1763] = {
+		109000,
+		102,
+		true
+	},
+	[1764] = {
+		109102,
+		102,
+		true
+	},
+	[1765] = {
+		109204,
+		102,
+		true
+	},
+	[1766] = {
+		109306,
+		102,
+		true
+	},
+	[1767] = {
+		109408,
+		102,
+		true
+	},
+	[1768] = {
+		109510,
+		102,
+		true
+	},
+	[1769] = {
+		109612,
+		102,
+		true
+	},
+	[1770] = {
+		109714,
+		102,
+		true
+	},
+	[1771] = {
+		109816,
+		115,
+		true
+	},
+	[1772] = {
+		109931,
+		116,
+		true
+	},
+	[1773] = {
+		110047,
+		116,
+		true
+	},
+	[1800] = {
+		110163,
+		536,
+		true
+	},
+	[1801] = {
+		110699,
+		92,
+		true
+	},
+	[1802] = {
+		110791,
+		92,
+		true
+	},
+	[1803] = {
+		110883,
+		92,
+		true
+	},
+	[1820] = {
+		110975,
+		536,
+		true
+	},
+	[1821] = {
+		111511,
+		92,
+		true
+	},
+	[1822] = {
+		111603,
+		92,
+		true
+	},
+	[1823] = {
+		111695,
+		102,
+		true
+	},
+	[1824] = {
+		111797,
+		103,
+		true
+	},
+	[1825] = {
+		111900,
+		103,
+		true
+	},
+	[1826] = {
+		112003,
+		103,
+		true
+	},
+	[1840] = {
+		112106,
+		536,
+		true
+	},
+	[1841] = {
+		112642,
+		93,
+		true
+	},
+	[1842] = {
+		112735,
+		103,
+		true
+	},
+	[1843] = {
+		112838,
+		103,
+		true
+	},
+	[1844] = {
+		112941,
+		103,
+		true
+	},
+	[1845] = {
+		113044,
+		103,
+		true
+	},
+	[1846] = {
+		113147,
+		103,
+		true
+	},
+	[1847] = {
+		113250,
+		103,
+		true
+	},
+	[1848] = {
+		113353,
+		103,
+		true
+	},
+	[1849] = {
+		113456,
+		103,
+		true
+	},
+	[1850] = {
+		113559,
+		103,
+		true
+	},
+	[1851] = {
+		113662,
+		116,
+		true
+	},
+	[1900] = {
+		113778,
+		563,
+		true
+	},
+	[1901] = {
+		114341,
+		91,
+		true
+	},
+	[1902] = {
+		114432,
+		101,
+		true
+	},
+	[1903] = {
+		114533,
+		101,
+		true
+	},
+	[1920] = {
+		114634,
+		563,
+		true
+	},
+	[1921] = {
+		115197,
+		91,
+		true
+	},
+	[1922] = {
+		115288,
+		101,
+		true
+	},
+	[1923] = {
+		115389,
+		101,
+		true
+	},
+	[1940] = {
+		115490,
+		563,
+		true
+	},
+	[1941] = {
+		116053,
+		102,
+		true
+	},
+	[1942] = {
+		116155,
+		102,
+		true
+	},
+	[1943] = {
+		116257,
+		102,
+		true
+	},
+	[1944] = {
+		116359,
+		102,
+		true
+	},
+	[1945] = {
+		116461,
+		102,
+		true
+	},
+	[1946] = {
+		116563,
+		102,
+		true
+	},
+	[1947] = {
+		116665,
+		102,
+		true
+	},
+	[1960] = {
+		116767,
+		519,
+		true
+	},
+	[1961] = {
+		117286,
+		101,
+		true
+	},
+	[1962] = {
+		117387,
+		102,
+		true
+	},
+	[1963] = {
+		117489,
+		102,
+		true
+	},
+	[1964] = {
+		117591,
+		102,
+		true
+	},
+	[1965] = {
+		117693,
+		102,
+		true
+	},
+	[1966] = {
+		117795,
+		102,
+		true
+	},
+	[1967] = {
+		117897,
+		102,
+		true
+	},
+	[1968] = {
+		117999,
+		102,
+		true
+	},
+	[1969] = {
+		118101,
+		102,
+		true
+	},
+	[1970] = {
+		118203,
+		102,
+		true
+	},
+	[1971] = {
+		118305,
+		115,
+		true
+	},
+	[2000] = {
+		118420,
+		546,
+		true
+	},
+	[2001] = {
+		118966,
+		92,
+		true
+	},
+	[2002] = {
+		119058,
+		92,
+		true
+	},
+	[2003] = {
+		119150,
+		92,
+		true
+	},
+	[2020] = {
+		119242,
+		546,
+		true
+	},
+	[2021] = {
+		119788,
+		93,
+		true
+	},
+	[2022] = {
+		119881,
+		93,
+		true
+	},
+	[2023] = {
+		119974,
+		93,
+		true
+	},
+	[2024] = {
+		120067,
+		103,
+		true
+	},
+	[2025] = {
+		120170,
+		103,
+		true
+	},
+	[2026] = {
+		120273,
+		103,
+		true
+	},
+	[2040] = {
+		120376,
+		547,
+		true
+	},
+	[2041] = {
+		120923,
+		93,
+		true
+	},
+	[2042] = {
+		121016,
+		93,
+		true
+	},
+	[2043] = {
+		121109,
+		93,
+		true
+	},
+	[2044] = {
+		121202,
+		103,
+		true
+	},
+	[2045] = {
+		121305,
+		103,
+		true
+	},
+	[2046] = {
+		121408,
+		103,
+		true
+	},
+	[2047] = {
+		121511,
+		103,
+		true
+	},
+	[2048] = {
+		121614,
+		103,
+		true
+	},
+	[2049] = {
+		121717,
+		103,
+		true
+	},
+	[2050] = {
+		121820,
+		103,
+		true
+	},
+	[2051] = {
+		121923,
+		116,
+		true
+	},
+	[2100] = {
+		122039,
+		553,
+		true
+	},
+	[2101] = {
+		122592,
+		102,
+		true
+	},
+	[2102] = {
+		122694,
+		102,
+		true
+	},
+	[2103] = {
+		122796,
+		102,
+		true
+	},
+	[2120] = {
+		122898,
+		553,
+		true
+	},
+	[2121] = {
+		123451,
+		102,
+		true
+	},
+	[2122] = {
+		123553,
+		102,
+		true
+	},
+	[2123] = {
+		123655,
+		102,
+		true
+	},
+	[2124] = {
+		123757,
+		102,
+		true
+	},
+	[2125] = {
+		123859,
+		102,
+		true
+	},
+	[2126] = {
+		123961,
+		102,
+		true
+	},
+	[2140] = {
+		124063,
+		553,
+		true
+	},
+	[2141] = {
+		124616,
+		102,
+		true
+	},
+	[2142] = {
+		124718,
+		102,
+		true
+	},
+	[2143] = {
+		124820,
+		102,
+		true
+	},
+	[2144] = {
+		124922,
+		102,
+		true
+	},
+	[2145] = {
+		125024,
+		102,
+		true
+	},
+	[2146] = {
+		125126,
+		102,
+		true
+	},
+	[2147] = {
+		125228,
+		102,
+		true
+	},
+	[2148] = {
+		125330,
+		102,
+		true
+	},
+	[2149] = {
+		125432,
+		102,
+		true
+	},
+	[2150] = {
+		125534,
+		102,
+		true
+	},
+	[2151] = {
+		125636,
+		115,
+		true
+	},
+	[2200] = {
+		125751,
+		596,
+		true
+	},
+	[2201] = {
+		126347,
+		81,
+		true
+	},
+	[2202] = {
+		126428,
+		91,
+		true
+	},
+	[2203] = {
+		126519,
+		101,
+		true
+	},
+	[2220] = {
+		126620,
+		596,
+		true
+	},
+	[2221] = {
+		127216,
+		92,
+		true
+	},
+	[2222] = {
+		127308,
+		92,
+		true
+	},
+	[2223] = {
+		127400,
+		102,
+		true
+	},
+	[2224] = {
+		127502,
+		102,
+		true
+	},
+	[2225] = {
+		127604,
+		102,
+		true
+	},
+	[2226] = {
+		127706,
+		102,
+		true
+	},
+	[2240] = {
+		127808,
+		597,
+		true
+	},
+	[2241] = {
+		128405,
+		92,
+		true
+	},
+	[2242] = {
+		128497,
+		92,
+		true
+	},
+	[2243] = {
+		128589,
+		102,
+		true
+	},
+	[2244] = {
+		128691,
+		102,
+		true
+	},
+	[2245] = {
+		128793,
+		102,
+		true
+	},
+	[2246] = {
+		128895,
+		102,
+		true
+	},
+	[2247] = {
+		128997,
+		102,
+		true
+	},
+	[2248] = {
+		129099,
+		102,
+		true
+	},
+	[2249] = {
+		129201,
+		102,
+		true
+	},
+	[2250] = {
+		129303,
+		102,
+		true
+	},
+	[2251] = {
+		129405,
+		115,
+		true
+	},
+	[2300] = {
+		129520,
+		593,
+		true
+	},
+	[2301] = {
+		130113,
+		81,
+		true
+	},
+	[2302] = {
+		130194,
+		91,
+		true
+	},
+	[2303] = {
+		130285,
+		91,
+		true
+	},
+	[2320] = {
+		130376,
+		593,
+		true
+	},
+	[2321] = {
+		130969,
+		92,
+		true
+	},
+	[2322] = {
+		131061,
+		92,
+		true
+	},
+	[2323] = {
+		131153,
+		102,
+		true
+	},
+	[2324] = {
+		131255,
+		102,
+		true
+	},
+	[2325] = {
+		131357,
+		102,
+		true
+	},
+	[2326] = {
+		131459,
+		102,
+		true
+	},
+	[2340] = {
+		131561,
+		594,
+		true
+	},
+	[2341] = {
+		132155,
+		92,
+		true
+	},
+	[2342] = {
+		132247,
+		102,
+		true
+	},
+	[2343] = {
+		132349,
+		102,
+		true
+	},
+	[2344] = {
+		132451,
+		102,
+		true
+	},
+	[2345] = {
+		132553,
+		102,
+		true
+	},
+	[2346] = {
+		132655,
+		102,
+		true
+	},
+	[2347] = {
+		132757,
+		102,
+		true
+	},
+	[2348] = {
+		132859,
+		102,
+		true
+	},
+	[2349] = {
+		132961,
+		102,
+		true
+	},
+	[2350] = {
+		133063,
+		102,
+		true
+	},
+	[2351] = {
+		133165,
+		115,
+		true
+	},
+	[2400] = {
+		133280,
+		537,
+		true
+	},
+	[2401] = {
+		133817,
+		93,
+		true
+	},
+	[2402] = {
+		133910,
+		93,
+		true
+	},
+	[2403] = {
+		134003,
+		93,
+		true
+	},
+	[2420] = {
+		134096,
+		538,
+		true
+	},
+	[2421] = {
+		134634,
+		93,
+		true
+	},
+	[2422] = {
+		134727,
+		93,
+		true
+	},
+	[2423] = {
+		134820,
+		93,
+		true
+	},
+	[2424] = {
+		134913,
+		93,
+		true
+	},
+	[2425] = {
+		135006,
+		93,
+		true
+	},
+	[2426] = {
+		135099,
+		93,
+		true
+	},
+	[2440] = {
+		135192,
+		538,
+		true
+	},
+	[2441] = {
+		135730,
+		93,
+		true
+	},
+	[2442] = {
+		135823,
+		93,
+		true
+	},
+	[2443] = {
+		135916,
+		93,
+		true
+	},
+	[2444] = {
+		136009,
+		93,
+		true
+	},
+	[2445] = {
+		136102,
+		93,
+		true
+	},
+	[2446] = {
+		136195,
+		93,
+		true
+	},
+	[2447] = {
+		136288,
+		93,
+		true
+	},
+	[2448] = {
+		136381,
+		93,
+		true
+	},
+	[2449] = {
+		136474,
+		93,
+		true
+	},
+	[2450] = {
+		136567,
+		93,
+		true
+	},
+	[2451] = {
+		136660,
+		106,
+		true
+	},
+	[2500] = {
+		136766,
+		500,
+		true
+	},
+	[2501] = {
+		137266,
+		92,
+		true
+	},
+	[2502] = {
+		137358,
+		92,
+		true
+	},
+	[2503] = {
+		137450,
+		92,
+		true
+	},
+	[2520] = {
+		137542,
+		500,
+		true
+	},
+	[2521] = {
+		138042,
+		93,
+		true
+	},
+	[2522] = {
+		138135,
+		93,
+		true
+	},
+	[2523] = {
+		138228,
+		93,
+		true
+	},
+	[2540] = {
+		138321,
+		501,
+		true
+	},
+	[2541] = {
+		138822,
+		93,
+		true
+	},
+	[2542] = {
+		138915,
+		93,
+		true
+	},
+	[2543] = {
+		139008,
+		93,
+		true
+	},
+	[2544] = {
+		139101,
+		93,
+		true
+	},
+	[2545] = {
+		139194,
+		93,
+		true
+	},
+	[2546] = {
+		139287,
+		93,
+		true
+	},
+	[2547] = {
+		139380,
+		93,
+		true
+	},
+	[2600] = {
+		139473,
+		615,
+		true
+	},
+	[2601] = {
+		140088,
+		92,
+		true
+	},
+	[2602] = {
+		140180,
+		102,
+		true
+	},
+	[2603] = {
+		140282,
+		102,
+		true
+	},
+	[2604] = {
+		140384,
+		102,
+		true
+	},
+	[2605] = {
+		140486,
+		102,
+		true
+	},
+	[2606] = {
+		140588,
+		102,
+		true
+	},
+	[2607] = {
+		140690,
+		102,
+		true
+	},
+	[2608] = {
+		140792,
+		102,
+		true
+	},
+	[2609] = {
+		140894,
+		102,
+		true
+	},
+	[2610] = {
+		140996,
+		117,
+		true
+	},
+	[2620] = {
+		141113,
+		615,
+		true
+	},
+	[2621] = {
+		141728,
+		92,
+		true
+	},
+	[2622] = {
+		141820,
+		102,
+		true
+	},
+	[2623] = {
+		141922,
+		102,
+		true
+	},
+	[2624] = {
+		142024,
+		102,
+		true
+	},
+	[2625] = {
+		142126,
+		117,
+		true
+	},
+	[2626] = {
+		142243,
+		117,
+		true
+	},
+	[2627] = {
+		142360,
+		117,
+		true
+	},
+	[2628] = {
+		142477,
+		117,
+		true
+	},
+	[2629] = {
+		142594,
+		117,
+		true
+	},
+	[2630] = {
+		142711,
+		117,
+		true
+	},
+	[2640] = {
+		142828,
+		615,
+		true
+	},
+	[2641] = {
+		143443,
+		92,
+		true
+	},
+	[2642] = {
+		143535,
+		102,
+		true
+	},
+	[2643] = {
+		143637,
+		102,
+		true
+	},
+	[2644] = {
+		143739,
+		117,
+		true
+	},
+	[2645] = {
+		143856,
+		117,
+		true
+	},
+	[2646] = {
+		143973,
+		117,
+		true
+	},
+	[2647] = {
+		144090,
+		117,
+		true
+	},
+	[2648] = {
+		144207,
+		117,
+		true
+	},
+	[2649] = {
+		144324,
+		117,
+		true
+	},
+	[2650] = {
+		144441,
+		118,
+		true
+	},
+	[2651] = {
+		144559,
+		132,
+		true
+	},
+	[2652] = {
+		144691,
+		133,
+		true
+	},
+	[2653] = {
+		144824,
+		133,
+		true
+	},
+	[2700] = {
+		144957,
+		590,
+		true
+	},
+	[2701] = {
+		145547,
+		102,
+		true
+	},
+	[2702] = {
+		145649,
+		102,
+		true
+	},
+	[2703] = {
+		145751,
+		102,
+		true
+	},
+	[2704] = {
+		145853,
+		102,
+		true
+	},
+	[2705] = {
+		145955,
+		102,
+		true
+	},
+	[2706] = {
+		146057,
+		102,
+		true
+	},
+	[2720] = {
+		146159,
+		590,
+		true
+	},
+	[2721] = {
+		146749,
+		92,
+		true
+	},
+	[2722] = {
+		146841,
+		102,
+		true
+	},
+	[2723] = {
+		146943,
+		102,
+		true
+	},
+	[2724] = {
+		147045,
+		102,
+		true
+	},
+	[2725] = {
+		147147,
+		102,
+		true
+	},
+	[2726] = {
+		147249,
+		102,
+		true
+	},
+	[2727] = {
+		147351,
+		102,
+		true
+	},
+	[2728] = {
+		147453,
+		102,
+		true
+	},
+	[2729] = {
+		147555,
+		102,
+		true
+	},
+	[2730] = {
+		147657,
+		102,
+		true
+	},
+	[2740] = {
+		147759,
+		597,
+		true
+	},
+	[2741] = {
+		148356,
+		92,
+		true
+	},
+	[2742] = {
+		148448,
+		102,
+		true
+	},
+	[2743] = {
+		148550,
+		102,
+		true
+	},
+	[2744] = {
+		148652,
+		102,
+		true
+	},
+	[2745] = {
+		148754,
+		102,
+		true
+	},
+	[2746] = {
+		148856,
+		102,
+		true
+	},
+	[2747] = {
+		148958,
+		102,
+		true
+	},
+	[2748] = {
+		149060,
+		102,
+		true
+	},
+	[2749] = {
+		149162,
+		102,
+		true
+	},
+	[2750] = {
+		149264,
+		102,
+		true
+	},
+	[2751] = {
+		149366,
+		115,
+		true
+	},
+	[2752] = {
+		149481,
+		116,
+		true
+	},
+	[2753] = {
+		149597,
+		116,
+		true
+	},
+	[2800] = {
+		149713,
+		651,
+		true
+	},
+	[2801] = {
+		150364,
+		102,
+		true
+	},
+	[2802] = {
+		150466,
+		102,
+		true
+	},
+	[2803] = {
+		150568,
+		102,
+		true
+	},
+	[2804] = {
+		150670,
+		102,
+		true
+	},
+	[2805] = {
+		150772,
+		102,
+		true
+	},
+	[2806] = {
+		150874,
+		102,
+		true
+	},
+	[2807] = {
+		150976,
+		102,
+		true
+	},
+	[2808] = {
+		151078,
+		102,
+		true
+	},
+	[2809] = {
+		151180,
+		102,
+		true
+	},
+	[2810] = {
+		151282,
+		102,
+		true
+	},
+	[2811] = {
+		151384,
+		115,
+		true
+	},
+	[2900] = {
+		151499,
+		491,
+		true
+	},
+	[2901] = {
+		151990,
+		101,
+		true
+	},
+	[2902] = {
+		152091,
+		101,
+		true
+	},
+	[2903] = {
+		152192,
+		101,
+		true
+	},
+	[2920] = {
+		152293,
+		491,
+		true
+	},
+	[2921] = {
+		152784,
+		101,
+		true
+	},
+	[2922] = {
+		152885,
+		101,
+		true
+	},
+	[2923] = {
+		152986,
+		101,
+		true
+	},
+	[2924] = {
+		153087,
+		101,
+		true
+	},
+	[2925] = {
+		153188,
+		101,
+		true
+	},
+	[2926] = {
+		153289,
+		101,
+		true
+	},
+	[2940] = {
+		153390,
+		498,
+		true
+	},
+	[2941] = {
+		153888,
+		91,
+		true
+	},
+	[2942] = {
+		153979,
+		101,
+		true
+	},
+	[2943] = {
+		154080,
+		101,
+		true
+	},
+	[2944] = {
+		154181,
+		101,
+		true
+	},
+	[2945] = {
+		154282,
+		102,
+		true
+	},
+	[2946] = {
+		154384,
+		102,
+		true
+	},
+	[2947] = {
+		154486,
+		102,
+		true
+	},
+	[2948] = {
+		154588,
+		102,
+		true
+	},
+	[2949] = {
+		154690,
+		102,
+		true
+	},
+	[2950] = {
+		154792,
+		102,
+		true
+	},
+	[2951] = {
+		154894,
+		115,
+		true
+	},
+	[3000] = {
+		155009,
+		491,
+		true
+	},
+	[3001] = {
+		155500,
+		101,
+		true
+	},
+	[3002] = {
+		155601,
+		101,
+		true
+	},
+	[3003] = {
+		155702,
+		101,
+		true
+	},
+	[3004] = {
+		155803,
+		101,
+		true
+	},
+	[3005] = {
+		155904,
+		101,
+		true
+	},
+	[3006] = {
+		156005,
+		102,
+		true
+	},
+	[3020] = {
+		156107,
+		491,
+		true
+	},
+	[3021] = {
+		156598,
+		92,
+		true
+	},
+	[3022] = {
+		156690,
+		102,
+		true
+	},
+	[3023] = {
+		156792,
+		102,
+		true
+	},
+	[3024] = {
+		156894,
+		102,
+		true
+	},
+	[3025] = {
+		156996,
+		102,
+		true
+	},
+	[3026] = {
+		157098,
+		102,
+		true
+	},
+	[3027] = {
+		157200,
+		102,
+		true
+	},
+	[3028] = {
+		157302,
+		102,
+		true
+	},
+	[3029] = {
+		157404,
+		102,
+		true
+	},
+	[3030] = {
+		157506,
+		102,
+		true
+	},
+	[3040] = {
+		157608,
+		499,
+		true
+	},
+	[3041] = {
+		158107,
+		92,
+		true
+	},
+	[3042] = {
+		158199,
+		102,
+		true
+	},
+	[3043] = {
+		158301,
+		102,
+		true
+	},
+	[3044] = {
+		158403,
+		102,
+		true
+	},
+	[3045] = {
+		158505,
+		102,
+		true
+	},
+	[3046] = {
+		158607,
+		102,
+		true
+	},
+	[3047] = {
+		158709,
+		102,
+		true
+	},
+	[3048] = {
+		158811,
+		102,
+		true
+	},
+	[3049] = {
+		158913,
+		102,
+		true
+	},
+	[3050] = {
+		159015,
+		102,
+		true
+	},
+	[3051] = {
+		159117,
+		115,
+		true
+	},
+	[3052] = {
+		159232,
+		116,
+		true
+	},
+	[3053] = {
+		159348,
+		116,
+		true
+	},
+	[3100] = {
+		159464,
+		565,
+		true
+	},
+	[3101] = {
+		160029,
+		92,
+		true
+	},
+	[3102] = {
+		160121,
+		92,
+		true
+	},
+	[3103] = {
+		160213,
+		92,
+		true
+	},
+	[3104] = {
+		160305,
+		92,
+		true
+	},
+	[3105] = {
+		160397,
+		92,
+		true
+	},
+	[3106] = {
+		160489,
+		92,
+		true
+	},
+	[3107] = {
+		160581,
+		92,
+		true
+	},
+	[3108] = {
+		160673,
+		92,
+		true
+	},
+	[3109] = {
+		160765,
+		92,
+		true
+	},
+	[3110] = {
+		160857,
+		92,
+		true
+	},
+	[3111] = {
+		160949,
+		132,
+		true
+	},
+	[3120] = {
+		161081,
+		533,
+		true
+	},
+	[3121] = {
+		161614,
+		92,
+		true
+	},
+	[3122] = {
+		161706,
+		92,
+		true
+	},
+	[3123] = {
+		161798,
+		92,
+		true
+	},
+	[3124] = {
+		161890,
+		92,
+		true
+	},
+	[3125] = {
+		161982,
+		92,
+		true
+	},
+	[3126] = {
+		162074,
+		92,
+		true
+	},
+	[3127] = {
+		162166,
+		92,
+		true
+	},
+	[3128] = {
+		162258,
+		92,
+		true
+	},
+	[3129] = {
+		162350,
+		92,
+		true
+	},
+	[3130] = {
+		162442,
+		92,
+		true
+	},
+	[3131] = {
+		162534,
+		132,
+		true
+	},
+	[3132] = {
+		162666,
+		133,
+		true
+	},
+	[3133] = {
+		162799,
+		133,
+		true
+	},
+	[3140] = {
+		162932,
+		558,
+		true
+	},
+	[3141] = {
+		163490,
+		91,
+		true
+	},
+	[3142] = {
+		163581,
+		91,
+		true
+	},
+	[3143] = {
+		163672,
+		91,
+		true
+	},
+	[3144] = {
+		163763,
+		91,
+		true
+	},
+	[3145] = {
+		163854,
+		91,
+		true
+	},
+	[3146] = {
+		163945,
+		91,
+		true
+	},
+	[3147] = {
+		164036,
+		91,
+		true
+	},
+	[3148] = {
+		164127,
+		92,
+		true
+	},
+	[3149] = {
+		164219,
+		92,
+		true
+	},
+	[3150] = {
+		164311,
+		158,
+		true
+	},
+	[3151] = {
+		164469,
+		171,
+		true
+	},
+	[3152] = {
+		164640,
+		172,
+		true
+	},
+	[3153] = {
+		164812,
+		172,
+		true
+	},
+	[3200] = {
+		164984,
+		615,
+		true
+	},
+	[3201] = {
+		165599,
+		93,
+		true
+	},
+	[3202] = {
+		165692,
+		93,
+		true
+	},
+	[3203] = {
+		165785,
+		93,
+		true
+	},
+	[3204] = {
+		165878,
+		93,
+		true
+	},
+	[3205] = {
+		165971,
+		93,
+		true
+	},
+	[3206] = {
+		166064,
+		93,
+		true
+	},
+	[3207] = {
+		166157,
+		93,
+		true
+	},
+	[3208] = {
+		166250,
+		93,
+		true
+	},
+	[3209] = {
+		166343,
+		93,
+		true
+	},
+	[3210] = {
+		166436,
+		93,
+		true
+	},
+	[3211] = {
+		166529,
+		106,
+		true
+	},
+	[3212] = {
+		166635,
+		107,
+		true
+	},
+	[3213] = {
+		166742,
+		107,
+		true
+	},
+	[3220] = {
+		166849,
+		638,
+		true
+	},
+	[3221] = {
+		167487,
+		93,
+		true
+	},
+	[3222] = {
+		167580,
+		93,
+		true
+	},
+	[3223] = {
+		167673,
+		93,
+		true
+	},
+	[3224] = {
+		167766,
+		93,
+		true
+	},
+	[3225] = {
+		167859,
+		93,
+		true
+	},
+	[3226] = {
+		167952,
+		93,
+		true
+	},
+	[3227] = {
+		168045,
+		93,
+		true
+	},
+	[3228] = {
+		168138,
+		93,
+		true
+	},
+	[3229] = {
+		168231,
+		93,
+		true
+	},
+	[3230] = {
+		168324,
+		93,
+		true
+	},
+	[3231] = {
+		168417,
+		106,
+		true
+	},
+	[3300] = {
+		168523,
+		587,
+		true
+	},
+	[3301] = {
+		169110,
+		93,
+		true
+	},
+	[3302] = {
+		169203,
+		93,
+		true
+	},
+	[3303] = {
+		169296,
+		93,
+		true
+	},
+	[3304] = {
+		169389,
+		93,
+		true
+	},
+	[3305] = {
+		169482,
+		93,
+		true
+	},
+	[3306] = {
+		169575,
+		93,
+		true
+	},
+	[3307] = {
+		169668,
+		93,
+		true
+	},
+	[3308] = {
+		169761,
+		93,
+		true
+	},
+	[3309] = {
+		169854,
+		93,
+		true
+	},
+	[3310] = {
+		169947,
+		93,
+		true
+	},
+	[3311] = {
+		170040,
+		106,
+		true
+	},
+	[3312] = {
+		170146,
+		107,
+		true
+	},
+	[3313] = {
+		170253,
+		107,
+		true
+	},
+	[3400] = {
+		170360,
+		542,
+		true
+	},
+	[3401] = {
+		170902,
+		93,
+		true
+	},
+	[3402] = {
+		170995,
+		93,
+		true
+	},
+	[3403] = {
+		171088,
+		93,
+		true
+	},
+	[3404] = {
+		171181,
+		93,
+		true
+	},
+	[3405] = {
+		171274,
+		93,
+		true
+	},
+	[3406] = {
+		171367,
+		93,
+		true
+	},
+	[3407] = {
+		171460,
+		93,
+		true
+	},
+	[3408] = {
+		171553,
+		93,
+		true
+	},
+	[3409] = {
+		171646,
+		93,
+		true
+	},
+	[3410] = {
+		171739,
+		93,
+		true
+	},
+	[3411] = {
+		171832,
+		106,
+		true
+	},
+	[3412] = {
+		171938,
+		107,
+		true
+	},
+	[3413] = {
+		172045,
+		107,
+		true
+	},
+	[3500] = {
+		172152,
+		517,
+		true
+	},
+	[3501] = {
+		172669,
+		93,
+		true
+	},
+	[3502] = {
+		172762,
+		93,
+		true
+	},
+	[3503] = {
+		172855,
+		93,
+		true
+	},
+	[3504] = {
+		172948,
+		93,
+		true
+	},
+	[3505] = {
+		173041,
+		93,
+		true
+	},
+	[3506] = {
+		173134,
+		93,
+		true
+	},
+	[3507] = {
+		173227,
+		93,
+		true
+	},
+	[3508] = {
+		173320,
+		93,
+		true
+	},
+	[3509] = {
+		173413,
+		93,
+		true
+	},
+	[3510] = {
+		173506,
+		93,
+		true
+	},
+	[3511] = {
+		173599,
+		106,
+		true
+	},
+	[3520] = {
+		173705,
+		530,
+		true
+	},
+	[3521] = {
+		174235,
+		93,
+		true
+	},
+	[3522] = {
+		174328,
+		93,
+		true
+	},
+	[3523] = {
+		174421,
+		93,
+		true
+	},
+	[3524] = {
+		174514,
+		93,
+		true
+	},
+	[3525] = {
+		174607,
+		93,
+		true
+	},
+	[3526] = {
+		174700,
+		93,
+		true
+	},
+	[3527] = {
+		174793,
+		93,
+		true
+	},
+	[3528] = {
+		174886,
+		93,
+		true
+	},
+	[3529] = {
+		174979,
+		93,
+		true
+	},
+	[3530] = {
+		175072,
+		93,
+		true
+	},
+	[3531] = {
+		175165,
+		106,
+		true
+	},
+	[3540] = {
+		175271,
+		517,
+		true
+	},
+	[3541] = {
+		175788,
+		93,
+		true
+	},
+	[3542] = {
+		175881,
+		93,
+		true
+	},
+	[3543] = {
+		175974,
+		93,
+		true
+	},
+	[3544] = {
+		176067,
+		93,
+		true
+	},
+	[3545] = {
+		176160,
+		93,
+		true
+	},
+	[3546] = {
+		176253,
+		93,
+		true
+	},
+	[3547] = {
+		176346,
+		93,
+		true
+	},
+	[3548] = {
+		176439,
+		93,
+		true
+	},
+	[3549] = {
+		176532,
+		93,
+		true
+	},
+	[3550] = {
+		176625,
+		93,
+		true
+	},
+	[3551] = {
+		176718,
+		106,
+		true
+	},
+	[4000] = {
+		176824,
+		492,
+		true
+	},
+	[4001] = {
+		177316,
+		120,
+		true
+	},
+	[4002] = {
+		177436,
+		120,
+		true
+	},
+	[4003] = {
+		177556,
+		120,
+		true
+	},
+	[4020] = {
+		177676,
+		511,
+		true
+	},
+	[4021] = {
+		178187,
+		120,
+		true
+	},
+	[4022] = {
+		178307,
+		120,
+		true
+	},
+	[4023] = {
+		178427,
+		120,
+		true
+	},
+	[4040] = {
+		178547,
+		511,
+		true
+	},
+	[4041] = {
+		179058,
+		120,
+		true
+	},
+	[4042] = {
+		179178,
+		120,
+		true
+	},
+	[4043] = {
+		179298,
+		120,
+		true
+	},
+	[4044] = {
+		179418,
+		120,
+		true
+	},
+	[4045] = {
+		179538,
+		120,
+		true
+	},
+	[4046] = {
+		179658,
+		120,
+		true
+	},
+	[4047] = {
+		179778,
+		120,
+		true
+	},
+	[4100] = {
+		179898,
+		511,
+		true
+	},
+	[4101] = {
+		180409,
+		120,
+		true
+	},
+	[4102] = {
+		180529,
+		120,
+		true
+	},
+	[4103] = {
+		180649,
+		120,
+		true
+	},
+	[4120] = {
+		180769,
+		511,
+		true
+	},
+	[4121] = {
+		181280,
+		120,
+		true
+	},
+	[4122] = {
+		181400,
+		120,
+		true
+	},
+	[4123] = {
+		181520,
+		120,
+		true
+	},
+	[4124] = {
+		181640,
+		120,
+		true
+	},
+	[4125] = {
+		181760,
+		120,
+		true
+	},
+	[4126] = {
+		181880,
+		120,
+		true
+	},
+	[4140] = {
+		182000,
+		511,
+		true
+	},
+	[4141] = {
+		182511,
+		120,
+		true
+	},
+	[4142] = {
+		182631,
+		120,
+		true
+	},
+	[4143] = {
+		182751,
+		120,
+		true
+	},
+	[4144] = {
+		182871,
+		120,
+		true
+	},
+	[4145] = {
+		182991,
+		120,
+		true
+	},
+	[4146] = {
+		183111,
+		120,
+		true
+	},
+	[4147] = {
+		183231,
+		120,
+		true
+	},
+	[4148] = {
+		183351,
+		121,
+		true
+	},
+	[4149] = {
+		183472,
+		121,
+		true
+	},
+	[4150] = {
+		183593,
+		121,
+		true
+	},
+	[4151] = {
+		183714,
+		134,
+		true
+	},
+	[4200] = {
+		183848,
+		558,
+		true
+	},
+	[4201] = {
+		184406,
+		143,
+		true
+	},
+	[4202] = {
+		184549,
+		143,
+		true
+	},
+	[4203] = {
+		184692,
+		143,
+		true
+	},
+	[4220] = {
+		184835,
+		558,
+		true
+	},
+	[4221] = {
+		185393,
+		143,
+		true
+	},
+	[4222] = {
+		185536,
+		143,
+		true
+	},
+	[4223] = {
+		185679,
+		143,
+		true
+	},
+	[4224] = {
+		185822,
+		143,
+		true
+	},
+	[4225] = {
+		185965,
+		143,
+		true
+	},
+	[4226] = {
+		186108,
+		143,
+		true
+	},
+	[4240] = {
+		186251,
+		558,
+		true
+	},
+	[4241] = {
+		186809,
+		143,
+		true
+	},
+	[4242] = {
+		186952,
+		143,
+		true
+	},
+	[4243] = {
+		187095,
+		143,
+		true
+	},
+	[4244] = {
+		187238,
+		143,
+		true
+	},
+	[4245] = {
+		187381,
+		143,
+		true
+	},
+	[4246] = {
+		187524,
+		143,
+		true
+	},
+	[4247] = {
+		187667,
+		143,
+		true
+	},
+	[4248] = {
+		187810,
+		143,
+		true
+	},
+	[4249] = {
+		187953,
+		143,
+		true
+	},
+	[4250] = {
+		188096,
+		143,
+		true
+	},
+	[4251] = {
+		188239,
+		156,
+		true
+	},
+	[4300] = {
+		188395,
+		545,
+		true
+	},
+	[4301] = {
+		188940,
+		143,
+		true
+	},
+	[4302] = {
+		189083,
+		143,
+		true
+	},
+	[4303] = {
+		189226,
+		143,
+		true
+	},
+	[4320] = {
+		189369,
+		545,
+		true
+	},
+	[4321] = {
+		189914,
+		143,
+		true
+	},
+	[4322] = {
+		190057,
+		143,
+		true
+	},
+	[4323] = {
+		190200,
+		143,
+		true
+	},
+	[4324] = {
+		190343,
+		143,
+		true
+	},
+	[4325] = {
+		190486,
+		143,
+		true
+	},
+	[4326] = {
+		190629,
+		143,
+		true
+	},
+	[4340] = {
+		190772,
+		545,
+		true
+	},
+	[4341] = {
+		191317,
+		143,
+		true
+	},
+	[4342] = {
+		191460,
+		143,
+		true
+	},
+	[4343] = {
+		191603,
+		143,
+		true
+	},
+	[4344] = {
+		191746,
+		143,
+		true
+	},
+	[4345] = {
+		191889,
+		143,
+		true
+	},
+	[4346] = {
+		192032,
+		143,
+		true
+	},
+	[4347] = {
+		192175,
+		143,
+		true
+	},
+	[4348] = {
+		192318,
+		143,
+		true
+	},
+	[4349] = {
+		192461,
+		143,
+		true
+	},
+	[4350] = {
+		192604,
+		143,
+		true
+	},
+	[4351] = {
+		192747,
+		156,
+		true
+	},
+	[5000] = {
+		192903,
+		530,
+		true
+	},
+	[5001] = {
+		193433,
+		120,
+		true
+	},
+	[5002] = {
+		193553,
+		120,
+		true
+	},
+	[5003] = {
+		193673,
+		120,
+		true
+	},
+	[5020] = {
+		193793,
+		550,
+		true
+	},
+	[5021] = {
+		194343,
+		120,
+		true
+	},
+	[5022] = {
+		194463,
+		120,
+		true
+	},
+	[5023] = {
+		194583,
+		120,
+		true
+	},
+	[5040] = {
+		194703,
+		550,
+		true
+	},
+	[5041] = {
+		195253,
+		120,
+		true
+	},
+	[5042] = {
+		195373,
+		120,
+		true
+	},
+	[5043] = {
+		195493,
+		120,
+		true
+	},
+	[5044] = {
+		195613,
+		120,
+		true
+	},
+	[5045] = {
+		195733,
+		121,
+		true
+	},
+	[5046] = {
+		195854,
+		121,
+		true
+	},
+	[5047] = {
+		195975,
+		121,
+		true
+	},
+	[5100] = {
+		196096,
+		551,
+		true
+	},
+	[5101] = {
+		196647,
+		120,
+		true
+	},
+	[5102] = {
+		196767,
+		120,
+		true
+	},
+	[5103] = {
+		196887,
+		120,
+		true
+	},
+	[5120] = {
+		197007,
+		551,
+		true
+	},
+	[5121] = {
+		197558,
+		120,
+		true
+	},
+	[5122] = {
+		197678,
+		120,
+		true
+	},
+	[5123] = {
+		197798,
+		120,
+		true
+	},
+	[5124] = {
+		197918,
+		120,
+		true
+	},
+	[5125] = {
+		198038,
+		120,
+		true
+	},
+	[5126] = {
+		198158,
+		121,
+		true
+	},
+	[5140] = {
+		198279,
+		551,
+		true
+	},
+	[5141] = {
+		198830,
+		120,
+		true
+	},
+	[5142] = {
+		198950,
+		120,
+		true
+	},
+	[5143] = {
+		199070,
+		120,
+		true
+	},
+	[5144] = {
+		199190,
+		120,
+		true
+	},
+	[5145] = {
+		199310,
+		121,
+		true
+	},
+	[5146] = {
+		199431,
+		121,
+		true
+	},
+	[5147] = {
+		199552,
+		121,
+		true
+	},
+	[5148] = {
+		199673,
+		121,
+		true
+	},
+	[5149] = {
+		199794,
+		121,
+		true
+	},
+	[5150] = {
+		199915,
+		121,
+		true
+	},
+	[5151] = {
+		200036,
+		135,
+		true
+	},
+	[5200] = {
+		200171,
+		552,
+		true
+	},
+	[5201] = {
+		200723,
+		120,
+		true
+	},
+	[5202] = {
+		200843,
+		120,
+		true
+	},
+	[5203] = {
+		200963,
+		120,
+		true
+	},
+	[5204] = {
+		201083,
+		120,
+		true
+	},
+	[5205] = {
+		201203,
+		120,
+		true
+	},
+	[5206] = {
+		201323,
+		120,
+		true
+	},
+	[5220] = {
+		201443,
+		552,
+		true
+	},
+	[5221] = {
+		201995,
+		120,
+		true
+	},
+	[5222] = {
+		202115,
+		120,
+		true
+	},
+	[5223] = {
+		202235,
+		120,
+		true
+	},
+	[5224] = {
+		202355,
+		120,
+		true
+	},
+	[5225] = {
+		202475,
+		120,
+		true
+	},
+	[5226] = {
+		202595,
+		121,
+		true
+	},
+	[5227] = {
+		202716,
+		121,
+		true
+	},
+	[5228] = {
+		202837,
+		121,
+		true
+	},
+	[5229] = {
+		202958,
+		121,
+		true
+	},
+	[5230] = {
+		203079,
+		121,
+		true
+	},
+	[5240] = {
+		203200,
+		552,
+		true
+	},
+	[5241] = {
+		203752,
+		120,
+		true
+	},
+	[5242] = {
+		203872,
+		120,
+		true
+	},
+	[5243] = {
+		203992,
+		120,
+		true
+	},
+	[5244] = {
+		204112,
+		120,
+		true
+	},
+	[5245] = {
+		204232,
+		121,
+		true
+	},
+	[5246] = {
+		204353,
+		121,
+		true
+	},
+	[5247] = {
+		204474,
+		121,
+		true
+	},
+	[5248] = {
+		204595,
+		121,
+		true
+	},
+	[5249] = {
+		204716,
+		121,
+		true
+	},
+	[5250] = {
+		204837,
+		121,
+		true
+	},
+	[5251] = {
+		204958,
+		135,
+		true
+	},
+	[5252] = {
+		205093,
+		136,
+		true
+	},
+	[5253] = {
+		205229,
+		136,
+		true
+	},
+	[5300] = {
+		205365,
+		555,
+		true
+	},
+	[5301] = {
+		205920,
+		120,
+		true
+	},
+	[5302] = {
+		206040,
+		120,
+		true
+	},
+	[5303] = {
+		206160,
+		120,
+		true
+	},
+	[5320] = {
+		206280,
+		575,
+		true
+	},
+	[5321] = {
+		206855,
+		120,
+		true
+	},
+	[5322] = {
+		206975,
+		120,
+		true
+	},
+	[5323] = {
+		207095,
+		120,
+		true
+	},
+	[5340] = {
+		207215,
+		575,
+		true
+	},
+	[5341] = {
+		207790,
+		120,
+		true
+	},
+	[5342] = {
+		207910,
+		120,
+		true
+	},
+	[5343] = {
+		208030,
+		120,
+		true
+	},
+	[5344] = {
+		208150,
+		120,
+		true
+	},
+	[5345] = {
+		208270,
+		120,
+		true
+	},
+	[5346] = {
+		208390,
+		121,
+		true
+	},
+	[5347] = {
+		208511,
+		121,
+		true
+	},
+	[5400] = {
+		208632,
+		576,
+		true
+	},
+	[5401] = {
+		209208,
+		120,
+		true
+	},
+	[5402] = {
+		209328,
+		120,
+		true
+	},
+	[5403] = {
+		209448,
+		120,
+		true
+	},
+	[5420] = {
+		209568,
+		576,
+		true
+	},
+	[5421] = {
+		210144,
+		120,
+		true
+	},
+	[5422] = {
+		210264,
+		120,
+		true
+	},
+	[5423] = {
+		210384,
+		120,
+		true
+	},
+	[5424] = {
+		210504,
+		120,
+		true
+	},
+	[5425] = {
+		210624,
+		120,
+		true
+	},
+	[5426] = {
+		210744,
+		121,
+		true
+	},
+	[5440] = {
+		210865,
+		576,
+		true
+	},
+	[5441] = {
+		211441,
+		120,
+		true
+	},
+	[5442] = {
+		211561,
+		120,
+		true
+	},
+	[5443] = {
+		211681,
+		120,
+		true
+	},
+	[5444] = {
+		211801,
+		120,
+		true
+	},
+	[5445] = {
+		211921,
+		121,
+		true
+	},
+	[5446] = {
+		212042,
+		121,
+		true
+	},
+	[5447] = {
+		212163,
+		121,
+		true
+	},
+	[5448] = {
+		212284,
+		121,
+		true
+	},
+	[5449] = {
+		212405,
+		121,
+		true
+	},
+	[5450] = {
+		212526,
+		121,
+		true
+	},
+	[5451] = {
+		212647,
+		135,
+		true
+	},
+	[5500] = {
+		212782,
+		567,
+		true
+	},
+	[5501] = {
+		213349,
+		120,
+		true
+	},
+	[5502] = {
+		213469,
+		120,
+		true
+	},
+	[5503] = {
+		213589,
+		120,
+		true
+	},
+	[5520] = {
+		213709,
+		567,
+		true
+	},
+	[5521] = {
+		214276,
+		120,
+		true
+	},
+	[5522] = {
+		214396,
+		120,
+		true
+	},
+	[5523] = {
+		214516,
+		120,
+		true
+	},
+	[5524] = {
+		214636,
+		120,
+		true
+	},
+	[5525] = {
+		214756,
+		120,
+		true
+	},
+	[5526] = {
+		214876,
+		120,
+		true
+	},
+	[5540] = {
+		214996,
+		567,
+		true
+	},
+	[5541] = {
+		215563,
+		120,
+		true
+	},
+	[5542] = {
+		215683,
+		120,
+		true
+	},
+	[5543] = {
+		215803,
+		120,
+		true
+	},
+	[5544] = {
+		215923,
+		120,
+		true
+	},
+	[5545] = {
+		216043,
+		120,
+		true
+	},
+	[5546] = {
+		216163,
+		121,
+		true
+	},
+	[5547] = {
+		216284,
+		121,
+		true
+	},
+	[5548] = {
+		216405,
+		121,
+		true
+	},
+	[5549] = {
+		216526,
+		121,
+		true
+	},
+	[5550] = {
+		216647,
+		121,
+		true
+	},
+	[5551] = {
+		216768,
+		135,
+		true
+	},
+	[6000] = {
+		216903,
+		503,
+		true
+	},
+	[6001] = {
+		217406,
+		119,
+		true
+	},
+	[6002] = {
+		217525,
+		119,
+		true
+	},
+	[6003] = {
+		217644,
+		119,
+		true
+	},
+	[6020] = {
+		217763,
+		528,
+		true
+	},
+	[6021] = {
+		218291,
+		119,
+		true
+	},
+	[6022] = {
+		218410,
+		120,
+		true
+	},
+	[6023] = {
+		218530,
+		120,
+		true
+	},
+	[6040] = {
+		218650,
+		528,
+		true
+	},
+	[6041] = {
+		219178,
+		119,
+		true
+	},
+	[6042] = {
+		219297,
+		120,
+		true
+	},
+	[6043] = {
+		219417,
+		120,
+		true
+	},
+	[6044] = {
+		219537,
+		120,
+		true
+	},
+	[6045] = {
+		219657,
+		120,
+		true
+	},
+	[6046] = {
+		219777,
+		120,
+		true
+	},
+	[6047] = {
+		219897,
+		120,
+		true
+	},
+	[6100] = {
+		220017,
+		519,
+		true
+	},
+	[6101] = {
+		220536,
+		120,
+		true
+	},
+	[6102] = {
+		220656,
+		120,
+		true
+	},
+	[6103] = {
+		220776,
+		120,
+		true
+	},
+	[6120] = {
+		220896,
+		544,
+		true
+	},
+	[6121] = {
+		221440,
+		120,
+		true
+	},
+	[6122] = {
+		221560,
+		120,
+		true
+	},
+	[6123] = {
+		221680,
+		120,
+		true
+	},
+	[6140] = {
+		221800,
+		544,
+		true
+	},
+	[6141] = {
+		222344,
+		120,
+		true
+	},
+	[6142] = {
+		222464,
+		120,
+		true
+	},
+	[6143] = {
+		222584,
+		120,
+		true
+	},
+	[6144] = {
+		222704,
+		120,
+		true
+	},
+	[6145] = {
+		222824,
+		120,
+		true
+	},
+	[6146] = {
+		222944,
+		120,
+		true
+	},
+	[6147] = {
+		223064,
+		120,
+		true
+	},
+	[7000] = {
+		223184,
+		519,
+		true
+	},
+	[7001] = {
+		223703,
+		120,
+		true
+	},
+	[7002] = {
+		223823,
+		120,
+		true
+	},
+	[7003] = {
+		223943,
+		120,
+		true
+	},
+	[7020] = {
+		224063,
+		538,
+		true
+	},
+	[7021] = {
+		224601,
+		120,
+		true
+	},
+	[7022] = {
+		224721,
+		120,
+		true
+	},
+	[7023] = {
+		224841,
+		120,
+		true
+	},
+	[7040] = {
+		224961,
+		538,
+		true
+	},
+	[7041] = {
+		225499,
+		120,
+		true
+	},
+	[7042] = {
+		225619,
+		120,
+		true
+	},
+	[7043] = {
+		225739,
+		120,
+		true
+	},
+	[7044] = {
+		225859,
+		120,
+		true
+	},
+	[7045] = {
+		225979,
+		120,
+		true
+	},
+	[7046] = {
+		226099,
+		120,
+		true
+	},
+	[7047] = {
+		226219,
+		120,
+		true
+	},
+	[7100] = {
+		226339,
+		521,
+		true
+	},
+	[7101] = {
+		226860,
+		120,
+		true
+	},
+	[7102] = {
+		226980,
+		120,
+		true
+	},
+	[7103] = {
+		227100,
+		120,
+		true
+	},
+	[7120] = {
+		227220,
+		540,
+		true
+	},
+	[7121] = {
+		227760,
+		120,
+		true
+	},
+	[7122] = {
+		227880,
+		120,
+		true
+	},
+	[7123] = {
+		228000,
+		120,
+		true
+	},
+	[7140] = {
+		228120,
+		540,
+		true
+	},
+	[7141] = {
+		228660,
+		120,
+		true
+	},
+	[7142] = {
+		228780,
+		120,
+		true
+	},
+	[7143] = {
+		228900,
+		120,
+		true
+	},
+	[7144] = {
+		229020,
+		120,
+		true
+	},
+	[7145] = {
+		229140,
+		120,
+		true
+	},
+	[7146] = {
+		229260,
+		120,
+		true
+	},
+	[7147] = {
+		229380,
+		120,
+		true
+	},
+	[7200] = {
+		229500,
+		565,
+		true
+	},
+	[7201] = {
+		230065,
+		119,
+		true
+	},
+	[7202] = {
+		230184,
+		119,
+		true
+	},
+	[7203] = {
+		230303,
+		119,
+		true
+	},
+	[7220] = {
+		230422,
+		565,
+		true
+	},
+	[7221] = {
+		230987,
+		119,
+		true
+	},
+	[7222] = {
+		231106,
+		119,
+		true
+	},
+	[7223] = {
+		231225,
+		119,
+		true
+	},
+	[7224] = {
+		231344,
+		119,
+		true
+	},
+	[7225] = {
+		231463,
+		120,
+		true
+	},
+	[7226] = {
+		231583,
+		120,
+		true
+	},
+	[7240] = {
+		231703,
+		568,
+		true
+	},
+	[7241] = {
+		232271,
+		119,
+		true
+	},
+	[7242] = {
+		232390,
+		119,
+		true
+	},
+	[7243] = {
+		232509,
+		119,
+		true
+	},
+	[7244] = {
+		232628,
+		120,
+		true
+	},
+	[7245] = {
+		232748,
+		120,
+		true
+	},
+	[7246] = {
+		232868,
+		120,
+		true
+	},
+	[7247] = {
+		232988,
+		120,
+		true
+	},
+	[7248] = {
+		233108,
+		120,
+		true
+	},
+	[7249] = {
+		233228,
+		120,
+		true
+	},
+	[7250] = {
+		233348,
+		120,
+		true
+	},
+	[7251] = {
+		233468,
+		134,
+		true
+	},
+	[7300] = {
+		233602,
+		564,
+		true
+	},
+	[7301] = {
+		234166,
+		120,
+		true
+	},
+	[7302] = {
+		234286,
+		120,
+		true
+	},
+	[7303] = {
+		234406,
+		120,
+		true
+	},
+	[7304] = {
+		234526,
+		120,
+		true
+	},
+	[7305] = {
+		234646,
+		120,
+		true
+	},
+	[7306] = {
+		234766,
+		120,
+		true
+	},
+	[7307] = {
+		234886,
+		120,
+		true
+	},
+	[7308] = {
+		235006,
+		120,
+		true
+	},
+	[7309] = {
+		235126,
+		120,
+		true
+	},
+	[7310] = {
+		235246,
+		120,
+		true
+	},
+	[7311] = {
+		235366,
+		134,
+		true
+	},
+	[7312] = {
+		235500,
+		135,
+		true
+	},
+	[7313] = {
+		235635,
+		135,
+		true
+	},
+	[7320] = {
+		235770,
+		573,
+		true
+	},
+	[7321] = {
+		236343,
+		119,
+		true
+	},
+	[7322] = {
+		236462,
+		119,
+		true
+	},
+	[7323] = {
+		236581,
+		119,
+		true
+	},
+	[7324] = {
+		236700,
+		119,
+		true
+	},
+	[7325] = {
+		236819,
+		119,
+		true
+	},
+	[7326] = {
+		236938,
+		120,
+		true
+	},
+	[7327] = {
+		237058,
+		120,
+		true
+	},
+	[7340] = {
+		237178,
+		575,
+		true
+	},
+	[7341] = {
+		237753,
+		120,
+		true
+	},
+	[7342] = {
+		237873,
+		120,
+		true
+	},
+	[7343] = {
+		237993,
+		120,
+		true
+	},
+	[7344] = {
+		238113,
+		120,
+		true
+	},
+	[7345] = {
+		238233,
+		120,
+		true
+	},
+	[7346] = {
+		238353,
+		120,
+		true
+	},
+	[7347] = {
+		238473,
+		120,
+		true
+	},
+	[11000] = {
+		238593,
+		533,
+		true
+	},
+	[11001] = {
+		239126,
+		106,
+		true
+	},
+	[11002] = {
+		239232,
+		119,
+		true
+	},
+	[11003] = {
+		239351,
+		119,
+		true
+	},
+	[11020] = {
+		239470,
+		552,
+		true
+	},
+	[11021] = {
+		240022,
+		106,
+		true
+	},
+	[11022] = {
+		240128,
+		119,
+		true
+	},
+	[11023] = {
+		240247,
+		119,
+		true
+	},
+	[11040] = {
+		240366,
+		552,
+		true
+	},
+	[11041] = {
+		240918,
+		106,
+		true
+	},
+	[11042] = {
+		241024,
+		119,
+		true
+	},
+	[11043] = {
+		241143,
+		119,
+		true
+	},
+	[11044] = {
+		241262,
+		119,
+		true
+	},
+	[11045] = {
+		241381,
+		119,
+		true
+	},
+	[11046] = {
+		241500,
+		119,
+		true
+	},
+	[11047] = {
+		241619,
+		119,
+		true
+	},
+	[11060] = {
+		241738,
+		577,
+		true
+	},
+	[11061] = {
+		242315,
+		106,
+		true
+	},
+	[11062] = {
+		242421,
+		119,
+		true
+	},
+	[11063] = {
+		242540,
+		119,
+		true
+	},
+	[11064] = {
+		242659,
+		119,
+		true
+	},
+	[11065] = {
+		242778,
+		120,
+		true
+	},
+	[11066] = {
+		242898,
+		120,
+		true
+	},
+	[11067] = {
+		243018,
+		120,
+		true
+	},
+	[11100] = {
+		243138,
+		553,
+		true
+	},
+	[11101] = {
+		243691,
+		106,
+		true
+	},
+	[11102] = {
+		243797,
+		119,
+		true
+	},
+	[11103] = {
+		243916,
+		119,
+		true
+	},
+	[11120] = {
+		244035,
+		553,
+		true
+	},
+	[11121] = {
+		244588,
+		106,
+		true
+	},
+	[11122] = {
+		244694,
+		119,
+		true
+	},
+	[11123] = {
+		244813,
+		119,
+		true
+	},
+	[11124] = {
+		244932,
+		119,
+		true
+	},
+	[11125] = {
+		245051,
+		119,
+		true
+	},
+	[11126] = {
+		245170,
+		120,
+		true
+	},
+	[11140] = {
+		245290,
+		556,
+		true
+	},
+	[11141] = {
+		245846,
+		106,
+		true
+	},
+	[11142] = {
+		245952,
+		119,
+		true
+	},
+	[11143] = {
+		246071,
+		119,
+		true
+	},
+	[11144] = {
+		246190,
+		119,
+		true
+	},
+	[11145] = {
+		246309,
+		120,
+		true
+	},
+	[11146] = {
+		246429,
+		120,
+		true
+	},
+	[11147] = {
+		246549,
+		120,
+		true
+	},
+	[11148] = {
+		246669,
+		120,
+		true
+	},
+	[11149] = {
+		246789,
+		120,
+		true
+	},
+	[11150] = {
+		246909,
+		120,
+		true
+	},
+	[11151] = {
+		247029,
+		134,
+		true
+	},
+	[11160] = {
+		247163,
+		576,
+		true
+	},
+	[11161] = {
+		247739,
+		106,
+		true
+	},
+	[11162] = {
+		247845,
+		119,
+		true
+	},
+	[11163] = {
+		247964,
+		119,
+		true
+	},
+	[11164] = {
+		248083,
+		119,
+		true
+	},
+	[11165] = {
+		248202,
+		120,
+		true
+	},
+	[11166] = {
+		248322,
+		120,
+		true
+	},
+	[11167] = {
+		248442,
+		120,
+		true
+	},
+	[11168] = {
+		248562,
+		120,
+		true
+	},
+	[11169] = {
+		248682,
+		120,
+		true
+	},
+	[11170] = {
+		248802,
+		120,
+		true
+	},
+	[11171] = {
+		248922,
+		134,
+		true
+	},
+	[11200] = {
+		249056,
+		590,
+		true
+	},
+	[11201] = {
+		249646,
+		106,
+		true
+	},
+	[11202] = {
+		249752,
+		119,
+		true
+	},
+	[11203] = {
+		249871,
+		119,
+		true
+	},
+	[11204] = {
+		249990,
+		119,
+		true
+	},
+	[11205] = {
+		250109,
+		119,
+		true
+	},
+	[11206] = {
+		250228,
+		119,
+		true
+	},
+	[11220] = {
+		250347,
+		593,
+		true
+	},
+	[11221] = {
+		250940,
+		106,
+		true
+	},
+	[11222] = {
+		251046,
+		119,
+		true
+	},
+	[11223] = {
+		251165,
+		119,
+		true
+	},
+	[11224] = {
+		251284,
+		119,
+		true
+	},
+	[11225] = {
+		251403,
+		119,
+		true
+	},
+	[11226] = {
+		251522,
+		120,
+		true
+	},
+	[11227] = {
+		251642,
+		120,
+		true
+	},
+	[11228] = {
+		251762,
+		120,
+		true
+	},
+	[11229] = {
+		251882,
+		120,
+		true
+	},
+	[11230] = {
+		252002,
+		120,
+		true
+	},
+	[11240] = {
+		252122,
+		593,
+		true
+	},
+	[11241] = {
+		252715,
+		106,
+		true
+	},
+	[11242] = {
+		252821,
+		119,
+		true
+	},
+	[11243] = {
+		252940,
+		119,
+		true
+	},
+	[11244] = {
+		253059,
+		119,
+		true
+	},
+	[11245] = {
+		253178,
+		120,
+		true
+	},
+	[11246] = {
+		253298,
+		120,
+		true
+	},
+	[11247] = {
+		253418,
+		120,
+		true
+	},
+	[11248] = {
+		253538,
+		120,
+		true
+	},
+	[11249] = {
+		253658,
+		120,
+		true
+	},
+	[11250] = {
+		253778,
+		120,
+		true
+	},
+	[11251] = {
+		253898,
+		134,
+		true
+	},
+	[11252] = {
+		254032,
+		135,
+		true
+	},
+	[11253] = {
+		254167,
+		135,
+		true
+	},
+	[12000] = {
+		254302,
+		520,
+		true
+	},
+	[12001] = {
+		254822,
+		119,
+		true
+	},
+	[12002] = {
+		254941,
+		119,
+		true
+	},
+	[12003] = {
+		255060,
+		120,
+		true
+	},
+	[12020] = {
+		255180,
+		539,
+		true
+	},
+	[12021] = {
+		255719,
+		119,
+		true
+	},
+	[12022] = {
+		255838,
+		120,
+		true
+	},
+	[12023] = {
+		255958,
+		120,
+		true
+	},
+	[12040] = {
+		256078,
+		539,
+		true
+	},
+	[12041] = {
+		256617,
+		120,
+		true
+	},
+	[12042] = {
+		256737,
+		120,
+		true
+	},
+	[12043] = {
+		256857,
+		120,
+		true
+	},
+	[12044] = {
+		256977,
+		120,
+		true
+	},
+	[12045] = {
+		257097,
+		120,
+		true
+	},
+	[12046] = {
+		257217,
+		120,
+		true
+	},
+	[12047] = {
+		257337,
+		120,
+		true
+	},
+	[12060] = {
+		257457,
+		563,
+		true
+	},
+	[12061] = {
+		258020,
+		120,
+		true
+	},
+	[12062] = {
+		258140,
+		120,
+		true
+	},
+	[12063] = {
+		258260,
+		120,
+		true
+	},
+	[12064] = {
+		258380,
+		120,
+		true
+	},
+	[12065] = {
+		258500,
+		120,
+		true
+	},
+	[12066] = {
+		258620,
+		120,
+		true
+	},
+	[12067] = {
+		258740,
+		120,
+		true
+	},
+	[12100] = {
+		258860,
+		540,
+		true
+	},
+	[12101] = {
+		259400,
+		119,
+		true
+	},
+	[12102] = {
+		259519,
+		119,
+		true
+	},
+	[12103] = {
+		259638,
+		120,
+		true
+	},
+	[12120] = {
+		259758,
+		540,
+		true
+	},
+	[12121] = {
+		260298,
+		119,
+		true
+	},
+	[12122] = {
+		260417,
+		120,
+		true
+	},
+	[12123] = {
+		260537,
+		120,
+		true
+	},
+	[12124] = {
+		260657,
+		120,
+		true
+	},
+	[12125] = {
+		260777,
+		120,
+		true
+	},
+	[12126] = {
+		260897,
+		120,
+		true
+	},
+	[12140] = {
+		261017,
+		543,
+		true
+	},
+	[12141] = {
+		261560,
+		120,
+		true
+	},
+	[12142] = {
+		261680,
+		120,
+		true
+	},
+	[12143] = {
+		261800,
+		120,
+		true
+	},
+	[12144] = {
+		261920,
+		120,
+		true
+	},
+	[12145] = {
+		262040,
+		120,
+		true
+	},
+	[12146] = {
+		262160,
+		120,
+		true
+	},
+	[12147] = {
+		262280,
+		120,
+		true
+	},
+	[12148] = {
+		262400,
+		120,
+		true
+	},
+	[12149] = {
+		262520,
+		120,
+		true
+	},
+	[12150] = {
+		262640,
+		120,
+		true
+	},
+	[12151] = {
+		262760,
+		134,
+		true
+	},
+	[12160] = {
+		262894,
+		567,
+		true
+	},
+	[12161] = {
+		263461,
+		120,
+		true
+	},
+	[12162] = {
+		263581,
+		120,
+		true
+	},
+	[12163] = {
+		263701,
+		120,
+		true
+	},
+	[12164] = {
+		263821,
+		120,
+		true
+	},
+	[12165] = {
+		263941,
+		120,
+		true
+	},
+	[12166] = {
+		264061,
+		120,
+		true
+	},
+	[12167] = {
+		264181,
+		120,
+		true
+	},
+	[12168] = {
+		264301,
+		120,
+		true
+	},
+	[12169] = {
+		264421,
+		120,
+		true
+	},
+	[12170] = {
+		264541,
+		120,
+		true
+	},
+	[12171] = {
+		264661,
+		134,
+		true
+	},
+	[12172] = {
+		264795,
+		135,
+		true
+	},
+	[12173] = {
+		264930,
+		135,
+		true
+	},
+	[12200] = {
+		265065,
+		604,
+		true
+	},
+	[12201] = {
+		265669,
+		119,
+		true
+	},
+	[12202] = {
+		265788,
+		119,
+		true
+	},
+	[12203] = {
+		265907,
+		119,
+		true
+	},
+	[12204] = {
+		266026,
+		119,
+		true
+	},
+	[12205] = {
+		266145,
+		120,
+		true
+	},
+	[12206] = {
+		266265,
+		120,
+		true
+	},
+	[12207] = {
+		266385,
+		120,
+		true
+	},
+	[12208] = {
+		266505,
+		120,
+		true
+	},
+	[12209] = {
+		266625,
+		120,
+		true
+	},
+	[12210] = {
+		266745,
+		120,
+		true
+	},
+	[12211] = {
+		266865,
+		134,
+		true
+	},
+	[12212] = {
+		266999,
+		135,
+		true
+	},
+	[12213] = {
+		267134,
+		135,
+		true
+	},
+	[13000] = {
+		267269,
+		521,
+		true
+	},
+	[13001] = {
+		267790,
+		120,
+		true
+	},
+	[13002] = {
+		267910,
+		120,
+		true
+	},
+	[13003] = {
+		268030,
+		120,
+		true
+	},
+	[13020] = {
+		268150,
+		540,
+		true
+	},
+	[13021] = {
+		268690,
+		120,
+		true
+	},
+	[13022] = {
+		268810,
+		120,
+		true
+	},
+	[13023] = {
+		268930,
+		120,
+		true
+	},
+	[13040] = {
+		269050,
+		540,
+		true
+	},
+	[13041] = {
+		269590,
+		120,
+		true
+	},
+	[13042] = {
+		269710,
+		120,
+		true
+	},
+	[13043] = {
+		269830,
+		120,
+		true
+	},
+	[13044] = {
+		269950,
+		120,
+		true
+	},
+	[13045] = {
+		270070,
+		120,
+		true
+	},
+	[13046] = {
+		270190,
+		120,
+		true
+	},
+	[13047] = {
+		270310,
+		120,
+		true
+	},
+	[13060] = {
+		270430,
+		563,
+		true
+	},
+	[13061] = {
+		270993,
+		120,
+		true
+	},
+	[13062] = {
+		271113,
+		120,
+		true
+	},
+	[13063] = {
+		271233,
+		120,
+		true
+	},
+	[13064] = {
+		271353,
+		120,
+		true
+	},
+	[13065] = {
+		271473,
+		120,
+		true
+	},
+	[13066] = {
+		271593,
+		120,
+		true
+	},
+	[13067] = {
+		271713,
+		120,
+		true
+	},
+	[13100] = {
+		271833,
+		550,
+		true
+	},
+	[13101] = {
+		272383,
+		120,
+		true
+	},
+	[13102] = {
+		272503,
+		120,
+		true
+	},
+	[13103] = {
+		272623,
+		120,
+		true
+	},
+	[13120] = {
+		272743,
+		550,
+		true
+	},
+	[13121] = {
+		273293,
+		120,
+		true
+	},
+	[13122] = {
+		273413,
+		120,
+		true
+	},
+	[13123] = {
+		273533,
+		120,
+		true
+	},
+	[13124] = {
+		273653,
+		120,
+		true
+	},
+	[13125] = {
+		273773,
+		120,
+		true
+	},
+	[13126] = {
+		273893,
+		120,
+		true
+	},
+	[13140] = {
+		274013,
+		550,
+		true
+	},
+	[13141] = {
+		274563,
+		120,
+		true
+	},
+	[13142] = {
+		274683,
+		120,
+		true
+	},
+	[13143] = {
+		274803,
+		120,
+		true
+	},
+	[13144] = {
+		274923,
+		120,
+		true
+	},
+	[13145] = {
+		275043,
+		120,
+		true
+	},
+	[13146] = {
+		275163,
+		120,
+		true
+	},
+	[13147] = {
+		275283,
+		120,
+		true
+	},
+	[13148] = {
+		275403,
+		120,
+		true
+	},
+	[13149] = {
+		275523,
+		120,
+		true
+	},
+	[13150] = {
+		275643,
+		120,
+		true
+	},
+	[13151] = {
+		275763,
+		134,
+		true
+	},
+	[13160] = {
+		275897,
+		563,
+		true
+	},
+	[13161] = {
+		276460,
+		120,
+		true
+	},
+	[13162] = {
+		276580,
+		120,
+		true
+	},
+	[13163] = {
+		276700,
+		120,
+		true
+	},
+	[13164] = {
+		276820,
+		120,
+		true
+	},
+	[13165] = {
+		276940,
+		120,
+		true
+	},
+	[13166] = {
+		277060,
+		120,
+		true
+	},
+	[13167] = {
+		277180,
+		120,
+		true
+	},
+	[13168] = {
+		277300,
+		120,
+		true
+	},
+	[13169] = {
+		277420,
+		120,
+		true
+	},
+	[13170] = {
+		277540,
+		120,
+		true
+	},
+	[13171] = {
+		277660,
+		134,
+		true
+	},
+	[13172] = {
+		277794,
+		135,
+		true
+	},
+	[13173] = {
+		277929,
+		135,
+		true
+	},
+	[14000] = {
+		278064,
+		509,
+		true
+	},
+	[14001] = {
+		278573,
+		120,
+		true
+	},
+	[14002] = {
+		278693,
+		120,
+		true
+	},
+	[14003] = {
+		278813,
+		120,
+		true
+	},
+	[14004] = {
+		278933,
+		120,
+		true
+	},
+	[14005] = {
+		279053,
+		120,
+		true
+	},
+	[14006] = {
+		279173,
+		120,
+		true
+	},
+	[14020] = {
+		279293,
+		509,
+		true
+	},
+	[14021] = {
+		279802,
+		120,
+		true
+	},
+	[14022] = {
+		279922,
+		120,
+		true
+	},
+	[14023] = {
+		280042,
+		120,
+		true
+	},
+	[14024] = {
+		280162,
+		120,
+		true
+	},
+	[14025] = {
+		280282,
+		120,
+		true
+	},
+	[14026] = {
+		280402,
+		120,
+		true
+	},
+	[14027] = {
+		280522,
+		120,
+		true
+	},
+	[14028] = {
+		280642,
+		120,
+		true
+	},
+	[14029] = {
+		280762,
+		120,
+		true
+	},
+	[14030] = {
+		280882,
+		120,
+		true
+	},
+	[14040] = {
+		281002,
+		509,
+		true
+	},
+	[14041] = {
+		281511,
+		120,
+		true
+	},
+	[14042] = {
+		281631,
+		120,
+		true
+	},
+	[14043] = {
+		281751,
+		120,
+		true
+	},
+	[14044] = {
+		281871,
+		120,
+		true
+	},
+	[14045] = {
+		281991,
+		120,
+		true
+	},
+	[14046] = {
+		282111,
+		120,
+		true
+	},
+	[14047] = {
+		282231,
+		120,
+		true
+	},
+	[14048] = {
+		282351,
+		120,
+		true
+	},
+	[14049] = {
+		282471,
+		120,
+		true
+	},
+	[14050] = {
+		282591,
+		120,
+		true
+	},
+	[14051] = {
+		282711,
+		134,
+		true
+	},
+	[14052] = {
+		282845,
+		135,
+		true
+	},
+	[14053] = {
+		282980,
+		135,
+		true
+	},
+	[14100] = {
+		283115,
+		486,
+		true
+	},
+	[14101] = {
+		283601,
+		120,
+		true
+	},
+	[14102] = {
+		283721,
+		120,
+		true
+	},
+	[14103] = {
+		283841,
+		120,
+		true
+	},
+	[14120] = {
+		283961,
+		508,
+		true
+	},
+	[14121] = {
+		284469,
+		120,
+		true
+	},
+	[14122] = {
+		284589,
+		120,
+		true
+	},
+	[14123] = {
+		284709,
+		120,
+		true
+	},
+	[14140] = {
+		284829,
+		508,
+		true
+	},
+	[14141] = {
+		285337,
+		120,
+		true
+	},
+	[14142] = {
+		285457,
+		120,
+		true
+	},
+	[14143] = {
+		285577,
+		120,
+		true
+	},
+	[14144] = {
+		285697,
+		120,
+		true
+	},
+	[14145] = {
+		285817,
+		120,
+		true
+	},
+	[14146] = {
+		285937,
+		120,
+		true
+	},
+	[14147] = {
+		286057,
+		120,
+		true
+	},
+	[14160] = {
+		286177,
+		540,
+		true
+	},
+	[14161] = {
+		286717,
+		120,
+		true
+	},
+	[14162] = {
+		286837,
+		120,
+		true
+	},
+	[14163] = {
+		286957,
+		120,
+		true
+	},
+	[14164] = {
+		287077,
+		120,
+		true
+	},
+	[14165] = {
+		287197,
+		120,
+		true
+	},
+	[14166] = {
+		287317,
+		120,
+		true
+	},
+	[14167] = {
+		287437,
+		120,
+		true
+	},
+	[14168] = {
+		287557,
+		121,
+		true
+	},
+	[14169] = {
+		287678,
+		121,
+		true
+	},
+	[14170] = {
+		287799,
+		121,
+		true
+	},
+	[14171] = {
+		287920,
+		135,
+		true
+	},
+	[14180] = {
+		288055,
+		532,
+		true
+	},
+	[14181] = {
+		288587,
+		120,
+		true
+	},
+	[14182] = {
+		288707,
+		120,
+		true
+	},
+	[14183] = {
+		288827,
+		120,
+		true
+	},
+	[14184] = {
+		288947,
+		120,
+		true
+	},
+	[14185] = {
+		289067,
+		120,
+		true
+	},
+	[14186] = {
+		289187,
+		121,
+		true
+	},
+	[14187] = {
+		289308,
+		121,
+		true
+	},
+	[14200] = {
+		289429,
+		508,
+		true
+	},
+	[14201] = {
+		289937,
+		120,
+		true
+	},
+	[14202] = {
+		290057,
+		120,
+		true
+	},
+	[14203] = {
+		290177,
+		120,
+		true
+	},
+	[14220] = {
+		290297,
+		511,
+		true
+	},
+	[14221] = {
+		290808,
+		120,
+		true
+	},
+	[14222] = {
+		290928,
+		120,
+		true
+	},
+	[14223] = {
+		291048,
+		120,
+		true
+	},
+	[14224] = {
+		291168,
+		120,
+		true
+	},
+	[14225] = {
+		291288,
+		120,
+		true
+	},
+	[14226] = {
+		291408,
+		121,
+		true
+	},
+	[14240] = {
+		291529,
+		511,
+		true
+	},
+	[14241] = {
+		292040,
+		120,
+		true
+	},
+	[14242] = {
+		292160,
+		120,
+		true
+	},
+	[14243] = {
+		292280,
+		120,
+		true
+	},
+	[14244] = {
+		292400,
+		120,
+		true
+	},
+	[14245] = {
+		292520,
+		121,
+		true
+	},
+	[14246] = {
+		292641,
+		121,
+		true
+	},
+	[14247] = {
+		292762,
+		121,
+		true
+	},
+	[14248] = {
+		292883,
+		121,
+		true
+	},
+	[14249] = {
+		293004,
+		121,
+		true
+	},
+	[14250] = {
+		293125,
+		121,
+		true
+	},
+	[14251] = {
+		293246,
+		135,
+		true
+	},
+	[14260] = {
+		293381,
+		532,
+		true
+	},
+	[14261] = {
+		293913,
+		120,
+		true
+	},
+	[14262] = {
+		294033,
+		120,
+		true
+	},
+	[14263] = {
+		294153,
+		120,
+		true
+	},
+	[14264] = {
+		294273,
+		120,
+		true
+	},
+	[14265] = {
+		294393,
+		121,
+		true
+	},
+	[14266] = {
+		294514,
+		121,
+		true
+	},
+	[14267] = {
+		294635,
+		121,
+		true
+	},
+	[14268] = {
+		294756,
+		121,
+		true
+	},
+	[14269] = {
+		294877,
+		121,
+		true
+	},
+	[14270] = {
+		294998,
+		121,
+		true
+	},
+	[14271] = {
+		295119,
+		135,
+		true
+	},
+	[14300] = {
+		295254,
+		509,
+		true
+	},
+	[14301] = {
+		295763,
+		120,
+		true
+	},
+	[14302] = {
+		295883,
+		120,
+		true
+	},
+	[14303] = {
+		296003,
+		120,
+		true
+	},
+	[14320] = {
+		296123,
+		512,
+		true
+	},
+	[14321] = {
+		296635,
+		120,
+		true
+	},
+	[14322] = {
+		296755,
+		120,
+		true
+	},
+	[14323] = {
+		296875,
+		120,
+		true
+	},
+	[14324] = {
+		296995,
+		120,
+		true
+	},
+	[14325] = {
+		297115,
+		120,
+		true
+	},
+	[14326] = {
+		297235,
+		121,
+		true
+	},
+	[14340] = {
+		297356,
+		512,
+		true
+	},
+	[14341] = {
+		297868,
+		120,
+		true
+	},
+	[14342] = {
+		297988,
+		120,
+		true
+	},
+	[14343] = {
+		298108,
+		120,
+		true
+	},
+	[14344] = {
+		298228,
+		120,
+		true
+	},
+	[14345] = {
+		298348,
+		121,
+		true
+	},
+	[14346] = {
+		298469,
+		121,
+		true
+	},
+	[14347] = {
+		298590,
+		121,
+		true
+	},
+	[14348] = {
+		298711,
+		121,
+		true
+	},
+	[14349] = {
+		298832,
+		121,
+		true
+	},
+	[14350] = {
+		298953,
+		121,
+		true
+	},
+	[14351] = {
+		299074,
+		135,
+		true
+	},
+	[14360] = {
+		299209,
+		540,
+		true
+	},
+	[14361] = {
+		299749,
+		120,
+		true
+	},
+	[14362] = {
+		299869,
+		120,
+		true
+	},
+	[14363] = {
+		299989,
+		120,
+		true
+	},
+	[14364] = {
+		300109,
+		120,
+		true
+	},
+	[14365] = {
+		300229,
+		121,
+		true
+	},
+	[14366] = {
+		300350,
+		121,
+		true
+	},
+	[14367] = {
+		300471,
+		121,
+		true
+	},
+	[14368] = {
+		300592,
+		121,
+		true
+	},
+	[14369] = {
+		300713,
+		121,
+		true
+	},
+	[14370] = {
+		300834,
+		121,
+		true
+	},
+	[14371] = {
+		300955,
+		135,
+		true
+	},
+	[14372] = {
+		301090,
+		136,
+		true
+	},
+	[14373] = {
+		301226,
+		136,
+		true
+	},
+	[14380] = {
+		301362,
+		527,
+		true
+	},
+	[14381] = {
+		301889,
+		120,
+		true
+	},
+	[14382] = {
+		302009,
+		120,
+		true
+	},
+	[14383] = {
+		302129,
+		120,
+		true
+	},
+	[14384] = {
+		302249,
+		120,
+		true
+	},
+	[14385] = {
+		302369,
+		121,
+		true
+	},
+	[14386] = {
+		302490,
+		121,
+		true
+	},
+	[14387] = {
+		302611,
+		121,
+		true
+	},
+	[14388] = {
+		302732,
+		121,
+		true
+	},
+	[14389] = {
+		302853,
+		121,
+		true
+	},
+	[14390] = {
+		302974,
+		121,
+		true
+	},
+	[14391] = {
+		303095,
+		135,
+		true
+	},
+	[14400] = {
+		303230,
+		509,
+		true
+	},
+	[14401] = {
+		303739,
+		120,
+		true
+	},
+	[14402] = {
+		303859,
+		120,
+		true
+	},
+	[14403] = {
+		303979,
+		120,
+		true
+	},
+	[14404] = {
+		304099,
+		120,
+		true
+	},
+	[14405] = {
+		304219,
+		121,
+		true
+	},
+	[14406] = {
+		304340,
+		121,
+		true
+	},
+	[14420] = {
+		304461,
+		512,
+		true
+	},
+	[14421] = {
+		304973,
+		120,
+		true
+	},
+	[14422] = {
+		305093,
+		120,
+		true
+	},
+	[14423] = {
+		305213,
+		120,
+		true
+	},
+	[14424] = {
+		305333,
+		121,
+		true
+	},
+	[14425] = {
+		305454,
+		121,
+		true
+	},
+	[14426] = {
+		305575,
+		121,
+		true
+	},
+	[14427] = {
+		305696,
+		121,
+		true
+	},
+	[14428] = {
+		305817,
+		121,
+		true
+	},
+	[14429] = {
+		305938,
+		121,
+		true
+	},
+	[14430] = {
+		306059,
+		121,
+		true
+	},
+	[14440] = {
+		306180,
+		512,
+		true
+	},
+	[14441] = {
+		306692,
+		120,
+		true
+	},
+	[14442] = {
+		306812,
+		120,
+		true
+	},
+	[14443] = {
+		306932,
+		120,
+		true
+	},
+	[14444] = {
+		307052,
+		121,
+		true
+	},
+	[14445] = {
+		307173,
+		121,
+		true
+	},
+	[14446] = {
+		307294,
+		121,
+		true
+	},
+	[14447] = {
+		307415,
+		121,
+		true
+	},
+	[14448] = {
+		307536,
+		121,
+		true
+	},
+	[14449] = {
+		307657,
+		121,
+		true
+	},
+	[14450] = {
+		307778,
+		121,
+		true
+	},
+	[14451] = {
+		307899,
+		135,
+		true
+	},
+	[14452] = {
+		308034,
+		136,
+		true
+	},
+	[14453] = {
+		308170,
+		136,
+		true
+	},
+	[14460] = {
+		308306,
+		567,
+		true
+	},
+	[14461] = {
+		308873,
+		120,
+		true
+	},
+	[14462] = {
+		308993,
+		120,
+		true
+	},
+	[14463] = {
+		309113,
+		120,
+		true
+	},
+	[14464] = {
+		309233,
+		121,
+		true
+	},
+	[14465] = {
+		309354,
+		121,
+		true
+	},
+	[14466] = {
+		309475,
+		121,
+		true
+	},
+	[14467] = {
+		309596,
+		121,
+		true
+	},
+	[14468] = {
+		309717,
+		121,
+		true
+	},
+	[14469] = {
+		309838,
+		121,
+		true
+	},
+	[14470] = {
+		309959,
+		121,
+		true
+	},
+	[14471] = {
+		310080,
+		135,
+		true
+	},
+	[14472] = {
+		310215,
+		136,
+		true
+	},
+	[14473] = {
+		310351,
+		136,
+		true
+	},
+	[14500] = {
+		310487,
+		536,
+		true
+	},
+	[14501] = {
+		311023,
+		120,
+		true
+	},
+	[14502] = {
+		311143,
+		121,
+		true
+	},
+	[14503] = {
+		311264,
+		121,
+		true
+	},
+	[14504] = {
+		311385,
+		121,
+		true
+	},
+	[14505] = {
+		311506,
+		121,
+		true
+	},
+	[14506] = {
+		311627,
+		121,
+		true
+	},
+	[14507] = {
+		311748,
+		121,
+		true
+	},
+	[14508] = {
+		311869,
+		121,
+		true
+	},
+	[14509] = {
+		311990,
+		121,
+		true
+	},
+	[14510] = {
+		312111,
+		121,
+		true
+	},
+	[14511] = {
+		312232,
+		135,
+		true
+	},
+	[14512] = {
+		312367,
+		136,
+		true
+	},
+	[14513] = {
+		312503,
+		136,
+		true
+	},
+	[15000] = {
+		312639,
+		556,
+		true
+	},
+	[15001] = {
+		313195,
+		120,
+		true
+	},
+	[15002] = {
+		313315,
+		120,
+		true
+	},
+	[15003] = {
+		313435,
+		120,
+		true
+	},
+	[15020] = {
+		313555,
+		556,
+		true
+	},
+	[15021] = {
+		314111,
+		120,
+		true
+	},
+	[15022] = {
+		314231,
+		120,
+		true
+	},
+	[15023] = {
+		314351,
+		120,
+		true
+	},
+	[15024] = {
+		314471,
+		120,
+		true
+	},
+	[15025] = {
+		314591,
+		120,
+		true
+	},
+	[15026] = {
+		314711,
+		120,
+		true
+	},
+	[15040] = {
+		314831,
+		556,
+		true
+	},
+	[15041] = {
+		315387,
+		120,
+		true
+	},
+	[15042] = {
+		315507,
+		120,
+		true
+	},
+	[15043] = {
+		315627,
+		120,
+		true
+	},
+	[15044] = {
+		315747,
+		120,
+		true
+	},
+	[15045] = {
+		315867,
+		120,
+		true
+	},
+	[15046] = {
+		315987,
+		120,
+		true
+	},
+	[15047] = {
+		316107,
+		121,
+		true
+	},
+	[15048] = {
+		316228,
+		121,
+		true
+	},
+	[15049] = {
+		316349,
+		121,
+		true
+	},
+	[15050] = {
+		316470,
+		121,
+		true
+	},
+	[15051] = {
+		316591,
+		135,
+		true
+	},
+	[15060] = {
+		316726,
+		564,
+		true
+	},
+	[15061] = {
+		317290,
+		120,
+		true
+	},
+	[15062] = {
+		317410,
+		120,
+		true
+	},
+	[15063] = {
+		317530,
+		120,
+		true
+	},
+	[15064] = {
+		317650,
+		120,
+		true
+	},
+	[15065] = {
+		317770,
+		120,
+		true
+	},
+	[15066] = {
+		317890,
+		120,
+		true
+	},
+	[15067] = {
+		318010,
+		120,
+		true
+	},
+	[15068] = {
+		318130,
+		121,
+		true
+	},
+	[15069] = {
+		318251,
+		121,
+		true
+	},
+	[15070] = {
+		318372,
+		121,
+		true
+	},
+	[15071] = {
+		318493,
+		135,
+		true
+	},
+	[15100] = {
+		318628,
+		556,
+		true
+	},
+	[15101] = {
+		319184,
+		120,
+		true
+	},
+	[15102] = {
+		319304,
+		120,
+		true
+	},
+	[15103] = {
+		319424,
+		120,
+		true
+	},
+	[15104] = {
+		319544,
+		120,
+		true
+	},
+	[15105] = {
+		319664,
+		121,
+		true
+	},
+	[15106] = {
+		319785,
+		121,
+		true
+	},
+	[15120] = {
+		319906,
+		556,
+		true
+	},
+	[15121] = {
+		320462,
+		120,
+		true
+	},
+	[15122] = {
+		320582,
+		120,
+		true
+	},
+	[15123] = {
+		320702,
+		120,
+		true
+	},
+	[15124] = {
+		320822,
+		121,
+		true
+	},
+	[15125] = {
+		320943,
+		121,
+		true
+	},
+	[15126] = {
+		321064,
+		121,
+		true
+	},
+	[15127] = {
+		321185,
+		121,
+		true
+	},
+	[15128] = {
+		321306,
+		121,
+		true
+	},
+	[15129] = {
+		321427,
+		121,
+		true
+	},
+	[15130] = {
+		321548,
+		121,
+		true
+	},
+	[15140] = {
+		321669,
+		556,
+		true
+	},
+	[15141] = {
+		322225,
+		120,
+		true
+	},
+	[15142] = {
+		322345,
+		120,
+		true
+	},
+	[15143] = {
+		322465,
+		121,
+		true
+	},
+	[15144] = {
+		322586,
+		121,
+		true
+	},
+	[15145] = {
+		322707,
+		121,
+		true
+	},
+	[15146] = {
+		322828,
+		121,
+		true
+	},
+	[15147] = {
+		322949,
+		121,
+		true
+	},
+	[15148] = {
+		323070,
+		121,
+		true
+	},
+	[15149] = {
+		323191,
+		121,
+		true
+	},
+	[15150] = {
+		323312,
+		121,
+		true
+	},
+	[15151] = {
+		323433,
+		135,
+		true
+	},
+	[15152] = {
+		323568,
+		136,
+		true
+	},
+	[15153] = {
+		323704,
+		136,
+		true
+	},
+	[15160] = {
+		323840,
+		564,
+		true
+	},
+	[15161] = {
+		324404,
+		120,
+		true
+	},
+	[15162] = {
+		324524,
+		120,
+		true
+	},
+	[15163] = {
+		324644,
+		120,
+		true
+	},
+	[15164] = {
+		324764,
+		120,
+		true
+	},
+	[15165] = {
+		324884,
+		120,
+		true
+	},
+	[15166] = {
+		325004,
+		121,
+		true
+	},
+	[15167] = {
+		325125,
+		121,
+		true
+	},
+	[15168] = {
+		325246,
+		121,
+		true
+	},
+	[15169] = {
+		325367,
+		121,
+		true
+	},
+	[15170] = {
+		325488,
+		121,
+		true
+	},
+	[15171] = {
+		325609,
+		135,
+		true
+	},
+	[15172] = {
+		325744,
+		136,
+		true
+	},
+	[15173] = {
+		325880,
+		136,
+		true
+	},
+	[15200] = {
+		326016,
+		570,
+		true
+	},
+	[15201] = {
+		326586,
+		120,
+		true
+	},
+	[15202] = {
+		326706,
+		120,
+		true
+	},
+	[15203] = {
+		326826,
+		120,
+		true
+	},
+	[15204] = {
+		326946,
+		121,
+		true
+	},
+	[15205] = {
+		327067,
+		121,
+		true
+	},
+	[15206] = {
+		327188,
+		121,
+		true
+	},
+	[15207] = {
+		327309,
+		121,
+		true
+	},
+	[15220] = {
+		327430,
+		571,
+		true
+	},
+	[15221] = {
+		328001,
+		120,
+		true
+	},
+	[15222] = {
+		328121,
+		120,
+		true
+	},
+	[15223] = {
+		328241,
+		120,
+		true
+	},
+	[15224] = {
+		328361,
+		121,
+		true
+	},
+	[15225] = {
+		328482,
+		121,
+		true
+	},
+	[15226] = {
+		328603,
+		121,
+		true
+	},
+	[15227] = {
+		328724,
+		121,
+		true
+	},
+	[15228] = {
+		328845,
+		121,
+		true
+	},
+	[15229] = {
+		328966,
+		121,
+		true
+	},
+	[15230] = {
+		329087,
+		121,
+		true
+	},
+	[15231] = {
+		329208,
+		135,
+		true
+	},
+	[15240] = {
+		329343,
+		572,
+		true
+	},
+	[15241] = {
+		329915,
+		120,
+		true
+	},
+	[15242] = {
+		330035,
+		120,
+		true
+	},
+	[15243] = {
+		330155,
+		120,
+		true
+	},
+	[15244] = {
+		330275,
+		121,
+		true
+	},
+	[15245] = {
+		330396,
+		121,
+		true
+	},
+	[15246] = {
+		330517,
+		121,
+		true
+	},
+	[15247] = {
+		330638,
+		121,
+		true
+	},
+	[15248] = {
+		330759,
+		121,
+		true
+	},
+	[15249] = {
+		330880,
+		121,
+		true
+	},
+	[15250] = {
+		331001,
+		121,
+		true
+	},
+	[15251] = {
+		331122,
+		135,
+		true
+	},
+	[15252] = {
+		331257,
+		136,
+		true
+	},
+	[15253] = {
+		331393,
+		136,
+		true
+	},
+	[15500] = {
+		331529,
+		628,
+		true
+	},
+	[15501] = {
+		332157,
+		102,
+		true
+	},
+	[15502] = {
+		332259,
+		102,
+		true
+	},
+	[15503] = {
+		332361,
+		102,
+		true
+	},
+	[15504] = {
+		332463,
+		102,
+		true
+	},
+	[15505] = {
+		332565,
+		102,
+		true
+	},
+	[15506] = {
+		332667,
+		102,
+		true
+	},
+	[15507] = {
+		332769,
+		102,
+		true
+	},
+	[15508] = {
+		332871,
+		102,
+		true
+	},
+	[15509] = {
+		332973,
+		102,
+		true
+	},
+	[15510] = {
+		333075,
+		102,
+		true
+	},
+	[15511] = {
+		333177,
+		115,
+		true
+	},
+	[16000] = {
+		333292,
+		506,
+		true
+	},
+	[16001] = {
+		333798,
+		119,
+		true
+	},
+	[16002] = {
+		333917,
+		120,
+		true
+	},
+	[16003] = {
+		334037,
+		120,
+		true
+	},
+	[16020] = {
+		334157,
+		531,
+		true
+	},
+	[16021] = {
+		334688,
+		120,
+		true
+	},
+	[16022] = {
+		334808,
+		120,
+		true
+	},
+	[16023] = {
+		334928,
+		120,
+		true
+	},
+	[16040] = {
+		335048,
+		532,
+		true
+	},
+	[16041] = {
+		335580,
+		120,
+		true
+	},
+	[16042] = {
+		335700,
+		120,
+		true
+	},
+	[16043] = {
+		335820,
+		120,
+		true
+	},
+	[16044] = {
+		335940,
+		120,
+		true
+	},
+	[16045] = {
+		336060,
+		120,
+		true
+	},
+	[16046] = {
+		336180,
+		120,
+		true
+	},
+	[16047] = {
+		336300,
+		120,
+		true
+	},
+	[16060] = {
+		336420,
+		546,
+		true
+	},
+	[16061] = {
+		336966,
+		120,
+		true
+	},
+	[16062] = {
+		337086,
+		120,
+		true
+	},
+	[16063] = {
+		337206,
+		120,
+		true
+	},
+	[16064] = {
+		337326,
+		120,
+		true
+	},
+	[16065] = {
+		337446,
+		120,
+		true
+	},
+	[16066] = {
+		337566,
+		120,
+		true
+	},
+	[16067] = {
+		337686,
+		120,
+		true
+	},
+	[16068] = {
+		337806,
+		120,
+		true
+	},
+	[16069] = {
+		337926,
+		120,
+		true
+	},
+	[16070] = {
+		338046,
+		120,
+		true
+	},
+	[16071] = {
+		338166,
+		134,
+		true
+	},
+	[16080] = {
+		338300,
+		551,
+		true
+	},
+	[16081] = {
+		338851,
+		120,
+		true
+	},
+	[16082] = {
+		338971,
+		120,
+		true
+	},
+	[16083] = {
+		339091,
+		120,
+		true
+	},
+	[16084] = {
+		339211,
+		120,
+		true
+	},
+	[16085] = {
+		339331,
+		120,
+		true
+	},
+	[16086] = {
+		339451,
+		120,
+		true
+	},
+	[16087] = {
+		339571,
+		120,
+		true
+	},
+	[16088] = {
+		339691,
+		120,
+		true
+	},
+	[16089] = {
+		339811,
+		120,
+		true
+	},
+	[16090] = {
+		339931,
+		120,
+		true
+	},
+	[16091] = {
+		340051,
+		134,
+		true
+	},
+	[16092] = {
+		340185,
+		135,
+		true
+	},
+	[16093] = {
+		340320,
+		135,
+		true
+	},
+	[16100] = {
+		340455,
+		539,
+		true
+	},
+	[16101] = {
+		340994,
+		120,
+		true
+	},
+	[16102] = {
+		341114,
+		120,
+		true
+	},
+	[16103] = {
+		341234,
+		120,
+		true
+	},
+	[16120] = {
+		341354,
+		539,
+		true
+	},
+	[16121] = {
+		341893,
+		120,
+		true
+	},
+	[16122] = {
+		342013,
+		120,
+		true
+	},
+	[16123] = {
+		342133,
+		120,
+		true
+	},
+	[16124] = {
+		342253,
+		120,
+		true
+	},
+	[16125] = {
+		342373,
+		120,
+		true
+	},
+	[16126] = {
+		342493,
+		120,
+		true
+	},
+	[16140] = {
+		342613,
+		539,
+		true
+	},
+	[16141] = {
+		343152,
+		120,
+		true
+	},
+	[16142] = {
+		343272,
+		120,
+		true
+	},
+	[16143] = {
+		343392,
+		120,
+		true
+	},
+	[16144] = {
+		343512,
+		120,
+		true
+	},
+	[16145] = {
+		343632,
+		120,
+		true
+	},
+	[16146] = {
+		343752,
+		120,
+		true
+	},
+	[16147] = {
+		343872,
+		120,
+		true
+	},
+	[16148] = {
+		343992,
+		120,
+		true
+	},
+	[16149] = {
+		344112,
+		120,
+		true
+	},
+	[16150] = {
+		344232,
+		120,
+		true
+	},
+	[16151] = {
+		344352,
+		134,
+		true
+	},
+	[16160] = {
+		344486,
+		559,
+		true
+	},
+	[16161] = {
+		345045,
+		120,
+		true
+	},
+	[16162] = {
+		345165,
+		120,
+		true
+	},
+	[16163] = {
+		345285,
+		120,
+		true
+	},
+	[16164] = {
+		345405,
+		120,
+		true
+	},
+	[16165] = {
+		345525,
+		120,
+		true
+	},
+	[16166] = {
+		345645,
+		120,
+		true
+	},
+	[16167] = {
+		345765,
+		120,
+		true
+	},
+	[16168] = {
+		345885,
+		120,
+		true
+	},
+	[16169] = {
+		346005,
+		120,
+		true
+	},
+	[16170] = {
+		346125,
+		120,
+		true
+	},
+	[16171] = {
+		346245,
+		134,
+		true
+	},
+	[16200] = {
+		346379,
+		546,
+		true
+	},
+	[16201] = {
+		346925,
+		120,
+		true
+	},
+	[16202] = {
+		347045,
+		120,
+		true
+	},
+	[16203] = {
+		347165,
+		120,
+		true
+	},
+	[16220] = {
+		347285,
+		546,
+		true
+	},
+	[16221] = {
+		347831,
+		120,
+		true
+	},
+	[16222] = {
+		347951,
+		120,
+		true
+	},
+	[16223] = {
+		348071,
+		120,
+		true
+	},
+	[16224] = {
+		348191,
+		120,
+		true
+	},
+	[16225] = {
+		348311,
+		120,
+		true
+	},
+	[16226] = {
+		348431,
+		120,
+		true
+	},
+	[16240] = {
+		348551,
+		546,
+		true
+	},
+	[16241] = {
+		349097,
+		120,
+		true
+	},
+	[16242] = {
+		349217,
+		120,
+		true
+	},
+	[16243] = {
+		349337,
+		120,
+		true
+	},
+	[16244] = {
+		349457,
+		120,
+		true
+	},
+	[16245] = {
+		349577,
+		120,
+		true
+	},
+	[16246] = {
+		349697,
+		120,
+		true
+	},
+	[16247] = {
+		349817,
+		120,
+		true
+	},
+	[16248] = {
+		349937,
+		120,
+		true
+	},
+	[16249] = {
+		350057,
+		120,
+		true
+	},
+	[16250] = {
+		350177,
+		120,
+		true
+	},
+	[16251] = {
+		350297,
+		134,
+		true
+	},
+	[16300] = {
+		350431,
+		539,
+		true
+	},
+	[16301] = {
+		350970,
+		120,
+		true
+	},
+	[16302] = {
+		351090,
+		120,
+		true
+	},
+	[16303] = {
+		351210,
+		120,
+		true
+	},
+	[16320] = {
+		351330,
+		539,
+		true
+	},
+	[16321] = {
+		351869,
+		120,
+		true
+	},
+	[16322] = {
+		351989,
+		120,
+		true
+	},
+	[16323] = {
+		352109,
+		120,
+		true
+	},
+	[16324] = {
+		352229,
+		120,
+		true
+	},
+	[16325] = {
+		352349,
+		120,
+		true
+	},
+	[16326] = {
+		352469,
+		120,
+		true
+	},
+	[16340] = {
+		352589,
+		539,
+		true
+	},
+	[16341] = {
+		353128,
+		120,
+		true
+	},
+	[16342] = {
+		353248,
+		120,
+		true
+	},
+	[16343] = {
+		353368,
+		120,
+		true
+	},
+	[16344] = {
+		353488,
+		120,
+		true
+	},
+	[16345] = {
+		353608,
+		120,
+		true
+	},
+	[16346] = {
+		353728,
+		120,
+		true
+	},
+	[16347] = {
+		353848,
+		120,
+		true
+	},
+	[16348] = {
+		353968,
+		120,
+		true
+	},
+	[16349] = {
+		354088,
+		120,
+		true
+	},
+	[16350] = {
+		354208,
+		120,
+		true
+	},
+	[16351] = {
+		354328,
+		134,
+		true
+	},
+	[16400] = {
+		354462,
+		542,
+		true
+	},
+	[16401] = {
+		355004,
+		123,
+		true
+	},
+	[16402] = {
+		355127,
+		123,
+		true
+	},
+	[16403] = {
+		355250,
+		123,
+		true
+	},
+	[16404] = {
+		355373,
+		123,
+		true
+	},
+	[16405] = {
+		355496,
+		123,
+		true
+	},
+	[16406] = {
+		355619,
+		123,
+		true
+	},
+	[16420] = {
+		355742,
+		542,
+		true
+	},
+	[16421] = {
+		356284,
+		123,
+		true
+	},
+	[16422] = {
+		356407,
+		123,
+		true
+	},
+	[16423] = {
+		356530,
+		123,
+		true
+	},
+	[16424] = {
+		356653,
+		123,
+		true
+	},
+	[16425] = {
+		356776,
+		123,
+		true
+	},
+	[16426] = {
+		356899,
+		123,
+		true
+	},
+	[16427] = {
+		357022,
+		123,
+		true
+	},
+	[16428] = {
+		357145,
+		123,
+		true
+	},
+	[16429] = {
+		357268,
+		124,
+		true
+	},
+	[16430] = {
+		357392,
+		124,
+		true
+	},
+	[16440] = {
+		357516,
+		542,
+		true
+	},
+	[16441] = {
+		358058,
+		123,
+		true
+	},
+	[16442] = {
+		358181,
+		123,
+		true
+	},
+	[16443] = {
+		358304,
+		123,
+		true
+	},
+	[16444] = {
+		358427,
+		123,
+		true
+	},
+	[16445] = {
+		358550,
+		123,
+		true
+	},
+	[16446] = {
+		358673,
+		123,
+		true
+	},
+	[16447] = {
+		358796,
+		123,
+		true
+	},
+	[16448] = {
+		358919,
+		124,
+		true
+	},
+	[16449] = {
+		359043,
+		124,
+		true
+	},
+	[16450] = {
+		359167,
+		124,
+		true
+	},
+	[16451] = {
+		359291,
+		138,
+		true
+	},
+	[16452] = {
+		359429,
+		139,
+		true
+	},
+	[16453] = {
+		359568,
+		139,
+		true
+	},
+	[17000] = {
+		359707,
+		470,
+		true
+	},
+	[17001] = {
+		360177,
+		150,
+		true
+	},
+	[17002] = {
+		360327,
+		150,
+		true
+	},
+	[17003] = {
+		360477,
+		150,
+		true
+	},
+	[17020] = {
+		360627,
+		486,
+		true
+	},
+	[17021] = {
+		361113,
+		150,
+		true
+	},
+	[17022] = {
+		361263,
+		150,
+		true
+	},
+	[17023] = {
+		361413,
+		150,
+		true
+	},
+	[17040] = {
+		361563,
+		486,
+		true
+	},
+	[17041] = {
+		362049,
+		150,
+		true
+	},
+	[17042] = {
+		362199,
+		150,
+		true
+	},
+	[17043] = {
+		362349,
+		150,
+		true
+	},
+	[17044] = {
+		362499,
+		150,
+		true
+	},
+	[17045] = {
+		362649,
+		150,
+		true
+	},
+	[17046] = {
+		362799,
+		150,
+		true
+	},
+	[17047] = {
+		362949,
+		150,
+		true
+	},
+	[17060] = {
+		363099,
+		586,
+		true
+	},
+	[17061] = {
+		363685,
+		150,
+		true
+	},
+	[17062] = {
+		363835,
+		150,
+		true
+	},
+	[17063] = {
+		363985,
+		150,
+		true
+	},
+	[17064] = {
+		364135,
+		150,
+		true
+	},
+	[17065] = {
+		364285,
+		150,
+		true
+	},
+	[17066] = {
+		364435,
+		150,
+		true
+	},
+	[17067] = {
+		364585,
+		150,
+		true
+	},
+	[17068] = {
+		364735,
+		150,
+		true
+	},
+	[17069] = {
+		364885,
+		150,
+		true
+	},
+	[17070] = {
+		365035,
+		150,
+		true
+	},
+	[17071] = {
+		365185,
+		163,
+		true
+	},
+	[17072] = {
+		365348,
+		164,
+		true
+	},
+	[17073] = {
+		365512,
+		164,
+		true
+	},
+	[17080] = {
+		365676,
+		531,
+		true
+	},
+	[17081] = {
+		366207,
+		168,
+		true
+	},
+	[17082] = {
+		366375,
+		168,
+		true
+	},
+	[17083] = {
+		366543,
+		168,
+		true
+	},
+	[17084] = {
+		366711,
+		168,
+		true
+	},
+	[17085] = {
+		366879,
+		168,
+		true
+	},
+	[17086] = {
+		367047,
+		168,
+		true
+	},
+	[17087] = {
+		367215,
+		168,
+		true
+	},
+	[17088] = {
+		367383,
+		168,
+		true
+	},
+	[17089] = {
+		367551,
+		168,
+		true
+	},
+	[17090] = {
+		367719,
+		168,
+		true
+	},
+	[17091] = {
+		367887,
+		181,
+		true
+	},
+	[17100] = {
+		368068,
+		489,
+		true
+	},
+	[17101] = {
+		368557,
+		150,
+		true
+	},
+	[17102] = {
+		368707,
+		150,
+		true
+	},
+	[17103] = {
+		368857,
+		150,
+		true
+	},
+	[17120] = {
+		369007,
+		489,
+		true
+	},
+	[17121] = {
+		369496,
+		150,
+		true
+	},
+	[17122] = {
+		369646,
+		150,
+		true
+	},
+	[17123] = {
+		369796,
+		150,
+		true
+	},
+	[17124] = {
+		369946,
+		150,
+		true
+	},
+	[17125] = {
+		370096,
+		150,
+		true
+	},
+	[17126] = {
+		370246,
+		150,
+		true
+	},
+	[17140] = {
+		370396,
+		489,
+		true
+	},
+	[17141] = {
+		370885,
+		150,
+		true
+	},
+	[17142] = {
+		371035,
+		150,
+		true
+	},
+	[17143] = {
+		371185,
+		150,
+		true
+	},
+	[17144] = {
+		371335,
+		150,
+		true
+	},
+	[17145] = {
+		371485,
+		150,
+		true
+	},
+	[17146] = {
+		371635,
+		150,
+		true
+	},
+	[17147] = {
+		371785,
+		150,
+		true
+	},
+	[17148] = {
+		371935,
+		150,
+		true
+	},
+	[17149] = {
+		372085,
+		150,
+		true
+	},
+	[17150] = {
+		372235,
+		150,
+		true
+	},
+	[17151] = {
+		372385,
+		163,
+		true
+	},
+	[17200] = {
+		372548,
+		504,
+		true
+	},
+	[17201] = {
+		373052,
+		168,
+		true
+	},
+	[17202] = {
+		373220,
+		168,
+		true
+	},
+	[17203] = {
+		373388,
+		168,
+		true
+	},
+	[17220] = {
+		373556,
+		504,
+		true
+	},
+	[17221] = {
+		374060,
+		168,
+		true
+	},
+	[17222] = {
+		374228,
+		168,
+		true
+	},
+	[17223] = {
+		374396,
+		168,
+		true
+	},
+	[17224] = {
+		374564,
+		168,
+		true
+	},
+	[17225] = {
+		374732,
+		168,
+		true
+	},
+	[17226] = {
+		374900,
+		168,
+		true
+	},
+	[17240] = {
+		375068,
+		504,
+		true
+	},
+	[17241] = {
+		375572,
+		168,
+		true
+	},
+	[17242] = {
+		375740,
+		168,
+		true
+	},
+	[17243] = {
+		375908,
+		168,
+		true
+	},
+	[17244] = {
+		376076,
+		168,
+		true
+	},
+	[17245] = {
+		376244,
+		168,
+		true
+	},
+	[17246] = {
+		376412,
+		168,
+		true
+	},
+	[17247] = {
+		376580,
+		168,
+		true
+	},
+	[17248] = {
+		376748,
+		168,
+		true
+	},
+	[17249] = {
+		376916,
+		168,
+		true
+	},
+	[17250] = {
+		377084,
+		168,
+		true
+	},
+	[17251] = {
+		377252,
+		181,
+		true
+	},
+	[17260] = {
+		377433,
+		591,
+		true
+	},
+	[17261] = {
+		378024,
+		168,
+		true
+	},
+	[17262] = {
+		378192,
+		168,
+		true
+	},
+	[17263] = {
+		378360,
+		168,
+		true
+	},
+	[17264] = {
+		378528,
+		168,
+		true
+	},
+	[17265] = {
+		378696,
+		168,
+		true
+	},
+	[17266] = {
+		378864,
+		168,
+		true
+	},
+	[17267] = {
+		379032,
+		168,
+		true
+	},
+	[17268] = {
+		379200,
+		168,
+		true
+	},
+	[17269] = {
+		379368,
+		168,
+		true
+	},
+	[17270] = {
+		379536,
+		168,
+		true
+	},
+	[17271] = {
+		379704,
+		181,
+		true
+	},
+	[17272] = {
+		379885,
+		182,
+		true
+	},
+	[17273] = {
+		380067,
+		182,
+		true
+	},
+	[17300] = {
+		380249,
+		523,
+		true
+	},
+	[17301] = {
+		380772,
+		186,
+		true
+	},
+	[17302] = {
+		380958,
+		186,
+		true
+	},
+	[17303] = {
+		381144,
+		186,
+		true
+	},
+	[17304] = {
+		381330,
+		186,
+		true
+	},
+	[17305] = {
+		381516,
+		186,
+		true
+	},
+	[17306] = {
+		381702,
+		186,
+		true
+	},
+	[17320] = {
+		381888,
+		523,
+		true
+	},
+	[17321] = {
+		382411,
+		186,
+		true
+	},
+	[17322] = {
+		382597,
+		186,
+		true
+	},
+	[17323] = {
+		382783,
+		186,
+		true
+	},
+	[17324] = {
+		382969,
+		186,
+		true
+	},
+	[17325] = {
+		383155,
+		186,
+		true
+	},
+	[17326] = {
+		383341,
+		186,
+		true
+	},
+	[17327] = {
+		383527,
+		186,
+		true
+	},
+	[17328] = {
+		383713,
+		186,
+		true
+	},
+	[17329] = {
+		383899,
+		186,
+		true
+	},
+	[17330] = {
+		384085,
+		186,
+		true
+	},
+	[17340] = {
+		384271,
+		523,
+		true
+	},
+	[17341] = {
+		384794,
+		186,
+		true
+	},
+	[17342] = {
+		384980,
+		186,
+		true
+	},
+	[17343] = {
+		385166,
+		186,
+		true
+	},
+	[17344] = {
+		385352,
+		186,
+		true
+	},
+	[17345] = {
+		385538,
+		186,
+		true
+	},
+	[17346] = {
+		385724,
+		186,
+		true
+	},
+	[17347] = {
+		385910,
+		186,
+		true
+	},
+	[17348] = {
+		386096,
+		186,
+		true
+	},
+	[17349] = {
+		386282,
+		186,
+		true
+	},
+	[17350] = {
+		386468,
+		186,
+		true
+	},
+	[17351] = {
+		386654,
+		199,
+		true
+	},
+	[17352] = {
+		386853,
+		200,
+		true
+	},
+	[17353] = {
+		387053,
+		200,
+		true
+	},
+	[17360] = {
+		387253,
+		521,
+		true
+	},
+	[17361] = {
+		387774,
+		168,
+		true
+	},
+	[17362] = {
+		387942,
+		168,
+		true
+	},
+	[17363] = {
+		388110,
+		168,
+		true
+	},
+	[17364] = {
+		388278,
+		168,
+		true
+	},
+	[17365] = {
+		388446,
+		168,
+		true
+	},
+	[17366] = {
+		388614,
+		168,
+		true
+	},
+	[17367] = {
+		388782,
+		168,
+		true
+	},
+	[17368] = {
+		388950,
+		168,
+		true
+	},
+	[17369] = {
+		389118,
+		168,
+		true
+	},
+	[17370] = {
+		389286,
+		168,
+		true
+	},
+	[17371] = {
+		389454,
+		181,
+		true
+	},
+	[17372] = {
+		389635,
+		182,
+		true
+	},
+	[17373] = {
+		389817,
+		182,
+		true
+	},
+	[17380] = {
+		389999,
+		518,
+		true
+	},
+	[17381] = {
+		390517,
+		168,
+		true
+	},
+	[17382] = {
+		390685,
+		168,
+		true
+	},
+	[17383] = {
+		390853,
+		168,
+		true
+	},
+	[17384] = {
+		391021,
+		168,
+		true
+	},
+	[17385] = {
+		391189,
+		168,
+		true
+	},
+	[17386] = {
+		391357,
+		168,
+		true
+	},
+	[17387] = {
+		391525,
+		168,
+		true
+	},
+	[17388] = {
+		391693,
+		168,
+		true
+	},
+	[17389] = {
+		391861,
+		168,
+		true
+	},
+	[17390] = {
+		392029,
+		168,
+		true
+	},
+	[17391] = {
+		392197,
+		181,
+		true
+	},
+	[17392] = {
+		392378,
+		182,
+		true
+	},
+	[17393] = {
+		392560,
+		182,
+		true
+	},
+	[17400] = {
+		392742,
+		709,
+		true
+	},
+	[17401] = {
+		393451,
+		168,
+		true
+	},
+	[17402] = {
+		393619,
+		168,
+		true
+	},
+	[17403] = {
+		393787,
+		168,
+		true
+	},
+	[17404] = {
+		393955,
+		168,
+		true
+	},
+	[17405] = {
+		394123,
+		168,
+		true
+	},
+	[17406] = {
+		394291,
+		168,
+		true
+	},
+	[17407] = {
+		394459,
+		168,
+		true
+	},
+	[17408] = {
+		394627,
+		168,
+		true
+	},
+	[17409] = {
+		394795,
+		168,
+		true
+	},
+	[17410] = {
+		394963,
+		168,
+		true
+	},
+	[17411] = {
+		395131,
+		181,
+		true
+	},
+	[18000] = {
+		395312,
+		493,
+		true
+	},
+	[18001] = {
+		395805,
+		164,
+		true
+	},
+	[18002] = {
+		395969,
+		164,
+		true
+	},
+	[18003] = {
+		396133,
+		164,
+		true
+	},
+	[18020] = {
+		396297,
+		509,
+		true
+	},
+	[18021] = {
+		396806,
+		164,
+		true
+	},
+	[18022] = {
+		396970,
+		164,
+		true
+	},
+	[18023] = {
+		397134,
+		164,
+		true
+	},
+	[18040] = {
+		397298,
+		509,
+		true
+	},
+	[18041] = {
+		397807,
+		164,
+		true
+	},
+	[18042] = {
+		397971,
+		164,
+		true
+	},
+	[18043] = {
+		398135,
+		164,
+		true
+	},
+	[18044] = {
+		398299,
+		164,
+		true
+	},
+	[18045] = {
+		398463,
+		164,
+		true
+	},
+	[18046] = {
+		398627,
+		164,
+		true
+	},
+	[18047] = {
+		398791,
+		164,
+		true
+	},
+	[18060] = {
+		398955,
+		646,
+		true
+	},
+	[18061] = {
+		399601,
+		188,
+		true
+	},
+	[18062] = {
+		399789,
+		188,
+		true
+	},
+	[18063] = {
+		399977,
+		188,
+		true
+	},
+	[18064] = {
+		400165,
+		188,
+		true
+	},
+	[18065] = {
+		400353,
+		188,
+		true
+	},
+	[18066] = {
+		400541,
+		188,
+		true
+	},
+	[18067] = {
+		400729,
+		188,
+		true
+	},
+	[18068] = {
+		400917,
+		188,
+		true
+	},
+	[18069] = {
+		401105,
+		188,
+		true
+	},
+	[18070] = {
+		401293,
+		188,
+		true
+	},
+	[18071] = {
+		401481,
+		201,
+		true
+	},
+	[18072] = {
+		401682,
+		202,
+		true
+	},
+	[18073] = {
+		401884,
+		202,
+		true
+	},
+	[18100] = {
+		402086,
+		500,
+		true
+	},
+	[18101] = {
+		402586,
+		164,
+		true
+	},
+	[18102] = {
+		402750,
+		164,
+		true
+	},
+	[18103] = {
+		402914,
+		164,
+		true
+	},
+	[18120] = {
+		403078,
+		500,
+		true
+	},
+	[18121] = {
+		403578,
+		164,
+		true
+	},
+	[18122] = {
+		403742,
+		164,
+		true
+	},
+	[18123] = {
+		403906,
+		164,
+		true
+	},
+	[18124] = {
+		404070,
+		164,
+		true
+	},
+	[18125] = {
+		404234,
+		164,
+		true
+	},
+	[18126] = {
+		404398,
+		164,
+		true
+	},
+	[18140] = {
+		404562,
+		500,
+		true
+	},
+	[18141] = {
+		405062,
+		164,
+		true
+	},
+	[18142] = {
+		405226,
+		164,
+		true
+	},
+	[18143] = {
+		405390,
+		164,
+		true
+	},
+	[18144] = {
+		405554,
+		164,
+		true
+	},
+	[18145] = {
+		405718,
+		164,
+		true
+	},
+	[18146] = {
+		405882,
+		164,
+		true
+	},
+	[18147] = {
+		406046,
+		164,
+		true
+	},
+	[18148] = {
+		406210,
+		164,
+		true
+	},
+	[18149] = {
+		406374,
+		164,
+		true
+	},
+	[18150] = {
+		406538,
+		164,
+		true
+	},
+	[18151] = {
+		406702,
+		177,
+		true
+	},
+	[18180] = {
+		406879,
+		597,
+		true
+	},
+	[18181] = {
+		407476,
+		188,
+		true
+	},
+	[18182] = {
+		407664,
+		188,
+		true
+	},
+	[18183] = {
+		407852,
+		188,
+		true
+	},
+	[18184] = {
+		408040,
+		188,
+		true
+	},
+	[18185] = {
+		408228,
+		188,
+		true
+	},
+	[18186] = {
+		408416,
+		188,
+		true
+	},
+	[18187] = {
+		408604,
+		188,
+		true
+	},
+	[18188] = {
+		408792,
+		188,
+		true
+	},
+	[18189] = {
+		408980,
+		188,
+		true
+	},
+	[18190] = {
+		409168,
+		188,
+		true
+	},
+	[18191] = {
+		409356,
+		201,
+		true
+	},
+	[18192] = {
+		409557,
+		202,
+		true
+	},
+	[18193] = {
+		409759,
+		202,
+		true
+	},
+	[18220] = {
+		409961,
+		527,
+		true
+	},
+	[18221] = {
+		410488,
+		164,
+		true
+	},
+	[18222] = {
+		410652,
+		164,
+		true
+	},
+	[18223] = {
+		410816,
+		164,
+		true
+	},
+	[18224] = {
+		410980,
+		164,
+		true
+	},
+	[18225] = {
+		411144,
+		164,
+		true
+	},
+	[18226] = {
+		411308,
+		164,
+		true
+	},
+	[18227] = {
+		411472,
+		164,
+		true
+	},
+	[18228] = {
+		411636,
+		164,
+		true
+	},
+	[18229] = {
+		411800,
+		164,
+		true
+	},
+	[18230] = {
+		411964,
+		164,
+		true
+	},
+	[18231] = {
+		412128,
+		177,
+		true
+	},
+	[18232] = {
+		412305,
+		178,
+		true
+	},
+	[18233] = {
+		412483,
+		178,
+		true
+	},
+	[19000] = {
+		412661,
+		505,
+		true
+	},
+	[19001] = {
+		413166,
+		182,
+		true
+	},
+	[19002] = {
+		413348,
+		182,
+		true
+	},
+	[19003] = {
+		413530,
+		182,
+		true
+	},
+	[19020] = {
+		413712,
+		521,
+		true
+	},
+	[19021] = {
+		414233,
+		182,
+		true
+	},
+	[19022] = {
+		414415,
+		182,
+		true
+	},
+	[19023] = {
+		414597,
+		182,
+		true
+	},
+	[19040] = {
+		414779,
+		521,
+		true
+	},
+	[19041] = {
+		415300,
+		182,
+		true
+	},
+	[19042] = {
+		415482,
+		182,
+		true
+	},
+	[19043] = {
+		415664,
+		182,
+		true
+	},
+	[19044] = {
+		415846,
+		182,
+		true
+	},
+	[19045] = {
+		416028,
+		182,
+		true
+	},
+	[19046] = {
+		416210,
+		182,
+		true
+	},
+	[19047] = {
+		416392,
+		182,
+		true
+	},
+	[19060] = {
+		416574,
+		627,
+		true
+	},
+	[19061] = {
+		417201,
+		164,
+		true
+	},
+	[19062] = {
+		417365,
+		164,
+		true
+	},
+	[19063] = {
+		417529,
+		164,
+		true
+	},
+	[19064] = {
+		417693,
+		164,
+		true
+	},
+	[19065] = {
+		417857,
+		164,
+		true
+	},
+	[19066] = {
+		418021,
+		164,
+		true
+	},
+	[19067] = {
+		418185,
+		164,
+		true
+	},
+	[19068] = {
+		418349,
+		164,
+		true
+	},
+	[19069] = {
+		418513,
+		164,
+		true
+	},
+	[19070] = {
+		418677,
+		164,
+		true
+	},
+	[19071] = {
+		418841,
+		177,
+		true
+	},
+	[19072] = {
+		419018,
+		178,
+		true
+	},
+	[19073] = {
+		419196,
+		178,
+		true
+	},
+	[19100] = {
+		419374,
+		522,
+		true
+	},
+	[19101] = {
+		419896,
+		182,
+		true
+	},
+	[19102] = {
+		420078,
+		182,
+		true
+	},
+	[19103] = {
+		420260,
+		182,
+		true
+	},
+	[19120] = {
+		420442,
+		522,
+		true
+	},
+	[19121] = {
+		420964,
+		182,
+		true
+	},
+	[19122] = {
+		421146,
+		182,
+		true
+	},
+	[19123] = {
+		421328,
+		182,
+		true
+	},
+	[19124] = {
+		421510,
+		182,
+		true
+	},
+	[19125] = {
+		421692,
+		182,
+		true
+	},
+	[19126] = {
+		421874,
+		182,
+		true
+	},
+	[19140] = {
+		422056,
+		522,
+		true
+	},
+	[19141] = {
+		422578,
+		182,
+		true
+	},
+	[19142] = {
+		422760,
+		182,
+		true
+	},
+	[19143] = {
+		422942,
+		182,
+		true
+	},
+	[19144] = {
+		423124,
+		182,
+		true
+	},
+	[19145] = {
+		423306,
+		182,
+		true
+	},
+	[19146] = {
+		423488,
+		182,
+		true
+	},
+	[19147] = {
+		423670,
+		182,
+		true
+	},
+	[19148] = {
+		423852,
+		182,
+		true
+	},
+	[19149] = {
+		424034,
+		182,
+		true
+	},
+	[19150] = {
+		424216,
+		182,
+		true
+	},
+	[19151] = {
+		424398,
+		195,
+		true
+	},
+	[19160] = {
+		424593,
+		535,
+		true
+	},
+	[19161] = {
+		425128,
+		182,
+		true
+	},
+	[19162] = {
+		425310,
+		182,
+		true
+	},
+	[19163] = {
+		425492,
+		182,
+		true
+	},
+	[19164] = {
+		425674,
+		182,
+		true
+	},
+	[19165] = {
+		425856,
+		182,
+		true
+	},
+	[19166] = {
+		426038,
+		182,
+		true
+	},
+	[19167] = {
+		426220,
+		182,
+		true
+	},
+	[19168] = {
+		426402,
+		182,
+		true
+	},
+	[19169] = {
+		426584,
+		182,
+		true
+	},
+	[19170] = {
+		426766,
+		182,
+		true
+	},
+	[19171] = {
+		426948,
+		195,
+		true
+	},
+	[19172] = {
+		427143,
+		196,
+		true
+	},
+	[19173] = {
+		427339,
+		196,
+		true
+	},
+	[19200] = {
+		427535,
+		511,
+		true
+	},
+	[19201] = {
+		428046,
+		164,
+		true
+	},
+	[19202] = {
+		428210,
+		164,
+		true
+	},
+	[19203] = {
+		428374,
+		164,
+		true
+	},
+	[19204] = {
+		428538,
+		164,
+		true
+	},
+	[19205] = {
+		428702,
+		164,
+		true
+	},
+	[19206] = {
+		428866,
+		164,
+		true
+	},
+	[19220] = {
+		429030,
+		511,
+		true
+	},
+	[19221] = {
+		429541,
+		164,
+		true
+	},
+	[19222] = {
+		429705,
+		164,
+		true
+	},
+	[19223] = {
+		429869,
+		164,
+		true
+	},
+	[19224] = {
+		430033,
+		164,
+		true
+	},
+	[19225] = {
+		430197,
+		164,
+		true
+	},
+	[19226] = {
+		430361,
+		164,
+		true
+	},
+	[19227] = {
+		430525,
+		164,
+		true
+	},
+	[19228] = {
+		430689,
+		164,
+		true
+	},
+	[19229] = {
+		430853,
+		164,
+		true
+	},
+	[19230] = {
+		431017,
+		164,
+		true
+	},
+	[19240] = {
+		431181,
+		511,
+		true
+	},
+	[19241] = {
+		431692,
+		164,
+		true
+	},
+	[19242] = {
+		431856,
+		164,
+		true
+	},
+	[19243] = {
+		432020,
+		164,
+		true
+	},
+	[19244] = {
+		432184,
+		164,
+		true
+	},
+	[19245] = {
+		432348,
+		164,
+		true
+	},
+	[19246] = {
+		432512,
+		164,
+		true
+	},
+	[19247] = {
+		432676,
+		164,
+		true
+	},
+	[19248] = {
+		432840,
+		164,
+		true
+	},
+	[19249] = {
+		433004,
+		164,
+		true
+	},
+	[19250] = {
+		433168,
+		164,
+		true
+	},
+	[19251] = {
+		433332,
+		177,
+		true
+	},
+	[19252] = {
+		433509,
+		178,
+		true
+	},
+	[19253] = {
+		433687,
+		178,
+		true
+	},
+	[21000] = {
+		433865,
+		540,
+		true
+	},
+	[21001] = {
+		434405,
+		109,
+		true
+	},
+	[21002] = {
+		434514,
+		122,
+		true
+	},
+	[21003] = {
+		434636,
+		122,
+		true
+	},
+	[21020] = {
+		434758,
+		559,
+		true
+	},
+	[21021] = {
+		435317,
+		109,
+		true
+	},
+	[21022] = {
+		435426,
+		122,
+		true
+	},
+	[21023] = {
+		435548,
+		122,
+		true
+	},
+	[21040] = {
+		435670,
+		559,
+		true
+	},
+	[21041] = {
+		436229,
+		109,
+		true
+	},
+	[21042] = {
+		436338,
+		122,
+		true
+	},
+	[21043] = {
+		436460,
+		122,
+		true
+	},
+	[21044] = {
+		436582,
+		122,
+		true
+	},
+	[21045] = {
+		436704,
+		122,
+		true
+	},
+	[21046] = {
+		436826,
+		122,
+		true
+	},
+	[21047] = {
+		436948,
+		122,
+		true
+	},
+	[21100] = {
+		437070,
+		540,
+		true
+	},
+	[21101] = {
+		437610,
+		109,
+		true
+	},
+	[21102] = {
+		437719,
+		122,
+		true
+	},
+	[21103] = {
+		437841,
+		122,
+		true
+	},
+	[21120] = {
+		437963,
+		559,
+		true
+	},
+	[21121] = {
+		438522,
+		109,
+		true
+	},
+	[21122] = {
+		438631,
+		122,
+		true
+	},
+	[21123] = {
+		438753,
+		122,
+		true
+	},
+	[21140] = {
+		438875,
+		559,
+		true
+	},
+	[21141] = {
+		439434,
+		109,
+		true
+	},
+	[21142] = {
+		439543,
+		122,
+		true
+	},
+	[21143] = {
+		439665,
+		122,
+		true
+	},
+	[21144] = {
+		439787,
+		122,
+		true
+	},
+	[21145] = {
+		439909,
+		122,
+		true
+	},
+	[21146] = {
+		440031,
+		122,
+		true
+	},
+	[21147] = {
+		440153,
+		122,
+		true
+	},
+	[21160] = {
+		440275,
+		580,
+		true
+	},
+	[21161] = {
+		440855,
+		109,
+		true
+	},
+	[21162] = {
+		440964,
+		122,
+		true
+	},
+	[21163] = {
+		441086,
+		122,
+		true
+	},
+	[21164] = {
+		441208,
+		122,
+		true
+	},
+	[21165] = {
+		441330,
+		122,
+		true
+	},
+	[21166] = {
+		441452,
+		122,
+		true
+	},
+	[21167] = {
+		441574,
+		122,
+		true
+	},
+	[21168] = {
+		441696,
+		122,
+		true
+	},
+	[21169] = {
+		441818,
+		122,
+		true
+	},
+	[21170] = {
+		441940,
+		123,
+		true
+	},
+	[21171] = {
+		442063,
+		137,
+		true
+	},
+	[21200] = {
+		442200,
+		560,
+		true
+	},
+	[21201] = {
+		442760,
+		109,
+		true
+	},
+	[21202] = {
+		442869,
+		122,
+		true
+	},
+	[21203] = {
+		442991,
+		122,
+		true
+	},
+	[21220] = {
+		443113,
+		560,
+		true
+	},
+	[21221] = {
+		443673,
+		109,
+		true
+	},
+	[21222] = {
+		443782,
+		122,
+		true
+	},
+	[21223] = {
+		443904,
+		122,
+		true
+	},
+	[21224] = {
+		444026,
+		122,
+		true
+	},
+	[21225] = {
+		444148,
+		122,
+		true
+	},
+	[21226] = {
+		444270,
+		122,
+		true
+	},
+	[21240] = {
+		444392,
+		560,
+		true
+	},
+	[21241] = {
+		444952,
+		109,
+		true
+	},
+	[21242] = {
+		445061,
+		122,
+		true
+	},
+	[21243] = {
+		445183,
+		122,
+		true
+	},
+	[21244] = {
+		445305,
+		122,
+		true
+	},
+	[21245] = {
+		445427,
+		122,
+		true
+	},
+	[21246] = {
+		445549,
+		122,
+		true
+	},
+	[21247] = {
+		445671,
+		122,
+		true
+	},
+	[21248] = {
+		445793,
+		122,
+		true
+	},
+	[21249] = {
+		445915,
+		122,
+		true
+	},
+	[21250] = {
+		446037,
+		123,
+		true
+	},
+	[21251] = {
+		446160,
+		137,
+		true
+	},
+	[21300] = {
+		446297,
+		536,
+		true
+	},
+	[21301] = {
+		446833,
+		109,
+		true
+	},
+	[21302] = {
+		446942,
+		122,
+		true
+	},
+	[21303] = {
+		447064,
+		122,
+		true
+	},
+	[21320] = {
+		447186,
+		555,
+		true
+	},
+	[21321] = {
+		447741,
+		109,
+		true
+	},
+	[21322] = {
+		447850,
+		122,
+		true
+	},
+	[21323] = {
+		447972,
+		122,
+		true
+	},
+	[21340] = {
+		448094,
+		555,
+		true
+	},
+	[21341] = {
+		448649,
+		109,
+		true
+	},
+	[21342] = {
+		448758,
+		122,
+		true
+	},
+	[21343] = {
+		448880,
+		122,
+		true
+	},
+	[21344] = {
+		449002,
+		122,
+		true
+	},
+	[21345] = {
+		449124,
+		123,
+		true
+	},
+	[21346] = {
+		449247,
+		123,
+		true
+	},
+	[21347] = {
+		449370,
+		123,
+		true
+	},
+	[21400] = {
+		449493,
+		555,
+		true
+	},
+	[21401] = {
+		450048,
+		109,
+		true
+	},
+	[21402] = {
+		450157,
+		122,
+		true
+	},
+	[21403] = {
+		450279,
+		122,
+		true
+	},
+	[21420] = {
+		450401,
+		555,
+		true
+	},
+	[21421] = {
+		450956,
+		109,
+		true
+	},
+	[21422] = {
+		451065,
+		122,
+		true
+	},
+	[21423] = {
+		451187,
+		122,
+		true
+	},
+	[21424] = {
+		451309,
+		122,
+		true
+	},
+	[21425] = {
+		451431,
+		122,
+		true
+	},
+	[21426] = {
+		451553,
+		123,
+		true
+	},
+	[21440] = {
+		451676,
+		555,
+		true
+	},
+	[21441] = {
+		452231,
+		109,
+		true
+	},
+	[21442] = {
+		452340,
+		122,
+		true
+	},
+	[21443] = {
+		452462,
+		122,
+		true
+	},
+	[21444] = {
+		452584,
+		122,
+		true
+	},
+	[21445] = {
+		452706,
+		123,
+		true
+	},
+	[21446] = {
+		452829,
+		123,
+		true
+	},
+	[21447] = {
+		452952,
+		123,
+		true
+	},
+	[21448] = {
+		453075,
+		123,
+		true
+	},
+	[21449] = {
+		453198,
+		123,
+		true
+	},
+	[21450] = {
+		453321,
+		123,
+		true
+	},
+	[21451] = {
+		453444,
+		137,
+		true
+	},
+	[21460] = {
+		453581,
+		613,
+		true
+	},
+	[21461] = {
+		454194,
+		122,
+		true
+	},
+	[21462] = {
+		454316,
+		122,
+		true
+	},
+	[21463] = {
+		454438,
+		122,
+		true
+	},
+	[21464] = {
+		454560,
+		123,
+		true
+	},
+	[21465] = {
+		454683,
+		123,
+		true
+	},
+	[21466] = {
+		454806,
+		123,
+		true
+	},
+	[21467] = {
+		454929,
+		123,
+		true
+	},
+	[21468] = {
+		455052,
+		123,
+		true
+	},
+	[21469] = {
+		455175,
+		123,
+		true
+	},
+	[21470] = {
+		455298,
+		123,
+		true
+	},
+	[21471] = {
+		455421,
+		137,
+		true
+	},
+	[21472] = {
+		455558,
+		138,
+		true
+	},
+	[21473] = {
+		455696,
+		138,
+		true
+	},
+	[21500] = {
+		455834,
+		587,
+		true
+	},
+	[21501] = {
+		456421,
+		109,
+		true
+	},
+	[21502] = {
+		456530,
+		122,
+		true
+	},
+	[21503] = {
+		456652,
+		122,
+		true
+	},
+	[21520] = {
+		456774,
+		590,
+		true
+	},
+	[21521] = {
+		457364,
+		109,
+		true
+	},
+	[21522] = {
+		457473,
+		122,
+		true
+	},
+	[21523] = {
+		457595,
+		122,
+		true
+	},
+	[21524] = {
+		457717,
+		122,
+		true
+	},
+	[21525] = {
+		457839,
+		122,
+		true
+	},
+	[21526] = {
+		457961,
+		122,
+		true
+	},
+	[21540] = {
+		458083,
+		590,
+		true
+	},
+	[21541] = {
+		458673,
+		109,
+		true
+	},
+	[21542] = {
+		458782,
+		122,
+		true
+	},
+	[21543] = {
+		458904,
+		122,
+		true
+	},
+	[21544] = {
+		459026,
+		122,
+		true
+	},
+	[21545] = {
+		459148,
+		122,
+		true
+	},
+	[21546] = {
+		459270,
+		122,
+		true
+	},
+	[21547] = {
+		459392,
+		122,
+		true
+	},
+	[21548] = {
+		459514,
+		123,
+		true
+	},
+	[21549] = {
+		459637,
+		123,
+		true
+	},
+	[21550] = {
+		459760,
+		123,
+		true
+	},
+	[21551] = {
+		459883,
+		137,
+		true
+	},
+	[21600] = {
+		460020,
+		598,
+		true
+	},
+	[21601] = {
+		460618,
+		122,
+		true
+	},
+	[21602] = {
+		460740,
+		122,
+		true
+	},
+	[21603] = {
+		460862,
+		122,
+		true
+	},
+	[21604] = {
+		460984,
+		122,
+		true
+	},
+	[21605] = {
+		461106,
+		122,
+		true
+	},
+	[21606] = {
+		461228,
+		122,
+		true
+	},
+	[21607] = {
+		461350,
+		123,
+		true
+	},
+	[21608] = {
+		461473,
+		123,
+		true
+	},
+	[21609] = {
+		461596,
+		123,
+		true
+	},
+	[21610] = {
+		461719,
+		123,
+		true
+	},
+	[21611] = {
+		461842,
+		137,
+		true
+	},
+	[21612] = {
+		461979,
+		138,
+		true
+	},
+	[21613] = {
+		462117,
+		138,
+		true
+	},
+	[22000] = {
+		462255,
+		525,
+		true
+	},
+	[22001] = {
+		462780,
+		122,
+		true
+	},
+	[22002] = {
+		462902,
+		123,
+		true
+	},
+	[22003] = {
+		463025,
+		123,
+		true
+	},
+	[22020] = {
+		463148,
+		544,
+		true
+	},
+	[22021] = {
+		463692,
+		123,
+		true
+	},
+	[22022] = {
+		463815,
+		123,
+		true
+	},
+	[22023] = {
+		463938,
+		123,
+		true
+	},
+	[22040] = {
+		464061,
+		545,
+		true
+	},
+	[22041] = {
+		464606,
+		123,
+		true
+	},
+	[22042] = {
+		464729,
+		123,
+		true
+	},
+	[22043] = {
+		464852,
+		123,
+		true
+	},
+	[22044] = {
+		464975,
+		123,
+		true
+	},
+	[22045] = {
+		465098,
+		123,
+		true
+	},
+	[22046] = {
+		465221,
+		123,
+		true
+	},
+	[22047] = {
+		465344,
+		123,
+		true
+	},
+	[22060] = {
+		465467,
+		565,
+		true
+	},
+	[22061] = {
+		466032,
+		123,
+		true
+	},
+	[22062] = {
+		466155,
+		123,
+		true
+	},
+	[22063] = {
+		466278,
+		123,
+		true
+	},
+	[22064] = {
+		466401,
+		123,
+		true
+	},
+	[22065] = {
+		466524,
+		123,
+		true
+	},
+	[22066] = {
+		466647,
+		123,
+		true
+	},
+	[22067] = {
+		466770,
+		123,
+		true
+	},
+	[22100] = {
+		466893,
+		544,
+		true
+	},
+	[22101] = {
+		467437,
+		122,
+		true
+	},
+	[22102] = {
+		467559,
+		123,
+		true
+	},
+	[22103] = {
+		467682,
+		123,
+		true
+	},
+	[22120] = {
+		467805,
+		544,
+		true
+	},
+	[22121] = {
+		468349,
+		123,
+		true
+	},
+	[22122] = {
+		468472,
+		123,
+		true
+	},
+	[22123] = {
+		468595,
+		123,
+		true
+	},
+	[22124] = {
+		468718,
+		123,
+		true
+	},
+	[22125] = {
+		468841,
+		123,
+		true
+	},
+	[22126] = {
+		468964,
+		123,
+		true
+	},
+	[22140] = {
+		469087,
+		545,
+		true
+	},
+	[22141] = {
+		469632,
+		123,
+		true
+	},
+	[22142] = {
+		469755,
+		123,
+		true
+	},
+	[22143] = {
+		469878,
+		123,
+		true
+	},
+	[22144] = {
+		470001,
+		123,
+		true
+	},
+	[22145] = {
+		470124,
+		123,
+		true
+	},
+	[22146] = {
+		470247,
+		123,
+		true
+	},
+	[22147] = {
+		470370,
+		123,
+		true
+	},
+	[22148] = {
+		470493,
+		123,
+		true
+	},
+	[22149] = {
+		470616,
+		123,
+		true
+	},
+	[22150] = {
+		470739,
+		123,
+		true
+	},
+	[22151] = {
+		470862,
+		137,
+		true
+	},
+	[22200] = {
+		470999,
+		545,
+		true
+	},
+	[22201] = {
+		471544,
+		122,
+		true
+	},
+	[22202] = {
+		471666,
+		123,
+		true
+	},
+	[22203] = {
+		471789,
+		123,
+		true
+	},
+	[22220] = {
+		471912,
+		545,
+		true
+	},
+	[22221] = {
+		472457,
+		123,
+		true
+	},
+	[22222] = {
+		472580,
+		123,
+		true
+	},
+	[22223] = {
+		472703,
+		123,
+		true
+	},
+	[22224] = {
+		472826,
+		123,
+		true
+	},
+	[22225] = {
+		472949,
+		123,
+		true
+	},
+	[22226] = {
+		473072,
+		123,
+		true
+	},
+	[22240] = {
+		473195,
+		546,
+		true
+	},
+	[22241] = {
+		473741,
+		123,
+		true
+	},
+	[22242] = {
+		473864,
+		123,
+		true
+	},
+	[22243] = {
+		473987,
+		123,
+		true
+	},
+	[22244] = {
+		474110,
+		123,
+		true
+	},
+	[22245] = {
+		474233,
+		123,
+		true
+	},
+	[22246] = {
+		474356,
+		123,
+		true
+	},
+	[22247] = {
+		474479,
+		123,
+		true
+	},
+	[22248] = {
+		474602,
+		123,
+		true
+	},
+	[22249] = {
+		474725,
+		123,
+		true
+	},
+	[22250] = {
+		474848,
+		123,
+		true
+	},
+	[22251] = {
+		474971,
+		137,
+		true
+	},
+	[22260] = {
+		475108,
+		570,
+		true
+	},
+	[22261] = {
+		475678,
+		123,
+		true
+	},
+	[22262] = {
+		475801,
+		123,
+		true
+	},
+	[22263] = {
+		475924,
+		123,
+		true
+	},
+	[22264] = {
+		476047,
+		123,
+		true
+	},
+	[22265] = {
+		476170,
+		123,
+		true
+	},
+	[22266] = {
+		476293,
+		123,
+		true
+	},
+	[22267] = {
+		476416,
+		123,
+		true
+	},
+	[22268] = {
+		476539,
+		123,
+		true
+	},
+	[22269] = {
+		476662,
+		123,
+		true
+	},
+	[22270] = {
+		476785,
+		123,
+		true
+	},
+	[22271] = {
+		476908,
+		137,
+		true
+	},
+	[22272] = {
+		477045,
+		138,
+		true
+	},
+	[22273] = {
+		477183,
+		138,
+		true
+	},
+	[23000] = {
+		477321,
+		541,
+		true
+	},
+	[23001] = {
+		477862,
+		123,
+		true
+	},
+	[23002] = {
+		477985,
+		123,
+		true
+	},
+	[23003] = {
+		478108,
+		123,
+		true
+	},
+	[23020] = {
+		478231,
+		541,
+		true
+	},
+	[23021] = {
+		478772,
+		123,
+		true
+	},
+	[23022] = {
+		478895,
+		123,
+		true
+	},
+	[23023] = {
+		479018,
+		123,
+		true
+	},
+	[23024] = {
+		479141,
+		123,
+		true
+	},
+	[23025] = {
+		479264,
+		123,
+		true
+	},
+	[23026] = {
+		479387,
+		123,
+		true
+	},
+	[23040] = {
+		479510,
+		541,
+		true
+	},
+	[23041] = {
+		480051,
+		123,
+		true
+	},
+	[23042] = {
+		480174,
+		123,
+		true
+	},
+	[23043] = {
+		480297,
+		123,
+		true
+	},
+	[23044] = {
+		480420,
+		123,
+		true
+	},
+	[23045] = {
+		480543,
+		123,
+		true
+	},
+	[23046] = {
+		480666,
+		123,
+		true
+	},
+	[23047] = {
+		480789,
+		123,
+		true
+	},
+	[23048] = {
+		480912,
+		123,
+		true
+	},
+	[23049] = {
+		481035,
+		123,
+		true
+	},
+	[23050] = {
+		481158,
+		123,
+		true
+	},
+	[23051] = {
+		481281,
+		137,
+		true
+	},
+	[23100] = {
+		481418,
+		555,
+		true
+	},
+	[23101] = {
+		481973,
+		123,
+		true
+	},
+	[23102] = {
+		482096,
+		123,
+		true
+	},
+	[23103] = {
+		482219,
+		123,
+		true
+	},
+	[23104] = {
+		482342,
+		123,
+		true
+	},
+	[23105] = {
+		482465,
+		123,
+		true
+	},
+	[23106] = {
+		482588,
+		123,
+		true
+	},
+	[23107] = {
+		482711,
+		123,
+		true
+	},
+	[23108] = {
+		482834,
+		123,
+		true
+	},
+	[23109] = {
+		482957,
+		123,
+		true
+	},
+	[23110] = {
+		483080,
+		123,
+		true
+	},
+	[23111] = {
+		483203,
+		137,
+		true
+	},
+	[23112] = {
+		483340,
+		138,
+		true
+	},
+	[23113] = {
+		483478,
+		138,
+		true
+	},
+	[23120] = {
+		483616,
+		555,
+		true
+	},
+	[23121] = {
+		484171,
+		123,
+		true
+	},
+	[23122] = {
+		484294,
+		123,
+		true
+	},
+	[23123] = {
+		484417,
+		123,
+		true
+	},
+	[23124] = {
+		484540,
+		123,
+		true
+	},
+	[23125] = {
+		484663,
+		123,
+		true
+	},
+	[23126] = {
+		484786,
+		123,
+		true
+	},
+	[23127] = {
+		484909,
+		123,
+		true
+	},
+	[23128] = {
+		485032,
+		123,
+		true
+	},
+	[23129] = {
+		485155,
+		123,
+		true
+	},
+	[23130] = {
+		485278,
+		123,
+		true
+	},
+	[23131] = {
+		485401,
+		137,
+		true
+	},
+	[23132] = {
+		485538,
+		138,
+		true
+	},
+	[23133] = {
+		485676,
+		138,
+		true
+	},
+	[23200] = {
+		485814,
+		578,
+		true
+	},
+	[23201] = {
+		486392,
+		123,
+		true
+	},
+	[23202] = {
+		486515,
+		123,
+		true
+	},
+	[23203] = {
+		486638,
+		123,
+		true
+	},
+	[23204] = {
+		486761,
+		123,
+		true
+	},
+	[23205] = {
+		486884,
+		123,
+		true
+	},
+	[23206] = {
+		487007,
+		123,
+		true
+	},
+	[23207] = {
+		487130,
+		123,
+		true
+	},
+	[23208] = {
+		487253,
+		123,
+		true
+	},
+	[23209] = {
+		487376,
+		123,
+		true
+	},
+	[23210] = {
+		487499,
+		123,
+		true
+	},
+	[23211] = {
+		487622,
+		137,
+		true
+	},
+	[23212] = {
+		487759,
+		138,
+		true
+	},
+	[23213] = {
+		487897,
+		138,
+		true
+	},
+	[24000] = {
+		488035,
+		507,
+		true
+	},
+	[24001] = {
+		488542,
+		123,
+		true
+	},
+	[24002] = {
+		488665,
+		123,
+		true
+	},
+	[24003] = {
+		488788,
+		123,
+		true
+	},
+	[24004] = {
+		488911,
+		123,
+		true
+	},
+	[24005] = {
+		489034,
+		123,
+		true
+	},
+	[24006] = {
+		489157,
+		123,
+		true
+	},
+	[24020] = {
+		489280,
+		510,
+		true
+	},
+	[24021] = {
+		489790,
+		123,
+		true
+	},
+	[24022] = {
+		489913,
+		123,
+		true
+	},
+	[24023] = {
+		490036,
+		123,
+		true
+	},
+	[24024] = {
+		490159,
+		123,
+		true
+	},
+	[24025] = {
+		490282,
+		123,
+		true
+	},
+	[24026] = {
+		490405,
+		123,
+		true
+	},
+	[24027] = {
+		490528,
+		123,
+		true
+	},
+	[24028] = {
+		490651,
+		123,
+		true
+	},
+	[24029] = {
+		490774,
+		123,
+		true
+	},
+	[24030] = {
+		490897,
+		123,
+		true
+	},
+	[24040] = {
+		491020,
+		510,
+		true
+	},
+	[24041] = {
+		491530,
+		123,
+		true
+	},
+	[24042] = {
+		491653,
+		123,
+		true
+	},
+	[24043] = {
+		491776,
+		123,
+		true
+	},
+	[24044] = {
+		491899,
+		123,
+		true
+	},
+	[24045] = {
+		492022,
+		123,
+		true
+	},
+	[24046] = {
+		492145,
+		123,
+		true
+	},
+	[24047] = {
+		492268,
+		123,
+		true
+	},
+	[24048] = {
+		492391,
+		123,
+		true
+	},
+	[24049] = {
+		492514,
+		124,
+		true
+	},
+	[24050] = {
+		492638,
+		124,
+		true
+	},
+	[24051] = {
+		492762,
+		138,
+		true
+	},
+	[24052] = {
+		492900,
+		139,
+		true
+	},
+	[24053] = {
+		493039,
+		139,
+		true
+	},
+	[24060] = {
+		493178,
+		529,
+		true
+	},
+	[24061] = {
+		493707,
+		123,
+		true
+	},
+	[24062] = {
+		493830,
+		123,
+		true
+	},
+	[24063] = {
+		493953,
+		123,
+		true
+	},
+	[24064] = {
+		494076,
+		123,
+		true
+	},
+	[24065] = {
+		494199,
+		123,
+		true
+	},
+	[24066] = {
+		494322,
+		123,
+		true
+	},
+	[24067] = {
+		494445,
+		123,
+		true
+	},
+	[24068] = {
+		494568,
+		124,
+		true
+	},
+	[24069] = {
+		494692,
+		124,
+		true
+	},
+	[24070] = {
+		494816,
+		124,
+		true
+	},
+	[24071] = {
+		494940,
+		138,
+		true
+	},
+	[24100] = {
+		495078,
+		506,
+		true
+	},
+	[24101] = {
+		495584,
+		123,
+		true
+	},
+	[24102] = {
+		495707,
+		123,
+		true
+	},
+	[24103] = {
+		495830,
+		123,
+		true
+	},
+	[24120] = {
+		495953,
+		509,
+		true
+	},
+	[24121] = {
+		496462,
+		123,
+		true
+	},
+	[24122] = {
+		496585,
+		123,
+		true
+	},
+	[24123] = {
+		496708,
+		123,
+		true
+	},
+	[24124] = {
+		496831,
+		123,
+		true
+	},
+	[24125] = {
+		496954,
+		123,
+		true
+	},
+	[24126] = {
+		497077,
+		123,
+		true
+	},
+	[24140] = {
+		497200,
+		509,
+		true
+	},
+	[24141] = {
+		497709,
+		123,
+		true
+	},
+	[24142] = {
+		497832,
+		123,
+		true
+	},
+	[24143] = {
+		497955,
+		123,
+		true
+	},
+	[24144] = {
+		498078,
+		123,
+		true
+	},
+	[24145] = {
+		498201,
+		123,
+		true
+	},
+	[24146] = {
+		498324,
+		123,
+		true
+	},
+	[24147] = {
+		498447,
+		124,
+		true
+	},
+	[24148] = {
+		498571,
+		124,
+		true
+	},
+	[24149] = {
+		498695,
+		124,
+		true
+	},
+	[24150] = {
+		498819,
+		124,
+		true
+	},
+	[24151] = {
+		498943,
+		138,
+		true
+	},
+	[24160] = {
+		499081,
+		534,
+		true
+	},
+	[24161] = {
+		499615,
+		123,
+		true
+	},
+	[24162] = {
+		499738,
+		123,
+		true
+	},
+	[24163] = {
+		499861,
+		123,
+		true
+	},
+	[24164] = {
+		499984,
+		123,
+		true
+	},
+	[24165] = {
+		500107,
+		123,
+		true
+	},
+	[24166] = {
+		500230,
+		124,
+		true
+	},
+	[24167] = {
+		500354,
+		124,
+		true
+	},
+	[24168] = {
+		500478,
+		124,
+		true
+	},
+	[24169] = {
+		500602,
+		124,
+		true
+	},
+	[24170] = {
+		500726,
+		124,
+		true
+	},
+	[24171] = {
+		500850,
+		138,
+		true
+	},
+	[24172] = {
+		500988,
+		139,
+		true
+	},
+	[24173] = {
+		501127,
+		139,
+		true
+	},
+	[24200] = {
+		501266,
+		507,
+		true
+	},
+	[24201] = {
+		501773,
+		123,
+		true
+	},
+	[24202] = {
+		501896,
+		123,
+		true
+	},
+	[24203] = {
+		502019,
+		123,
+		true
+	},
+	[24204] = {
+		502142,
+		123,
+		true
+	},
+	[24205] = {
+		502265,
+		123,
+		true
+	},
+	[24206] = {
+		502388,
+		123,
+		true
+	},
+	[24220] = {
+		502511,
+		507,
+		true
+	},
+	[24221] = {
+		503018,
+		123,
+		true
+	},
+	[24222] = {
+		503141,
+		123,
+		true
+	},
+	[24223] = {
+		503264,
+		123,
+		true
+	},
+	[24224] = {
+		503387,
+		123,
+		true
+	},
+	[24225] = {
+		503510,
+		123,
+		true
+	},
+	[24226] = {
+		503633,
+		124,
+		true
+	},
+	[24227] = {
+		503757,
+		124,
+		true
+	},
+	[24228] = {
+		503881,
+		124,
+		true
+	},
+	[24229] = {
+		504005,
+		124,
+		true
+	},
+	[24230] = {
+		504129,
+		124,
+		true
+	},
+	[24240] = {
+		504253,
+		507,
+		true
+	},
+	[24241] = {
+		504760,
+		123,
+		true
+	},
+	[24242] = {
+		504883,
+		123,
+		true
+	},
+	[24243] = {
+		505006,
+		123,
+		true
+	},
+	[24244] = {
+		505129,
+		123,
+		true
+	},
+	[24245] = {
+		505252,
+		124,
+		true
+	},
+	[24246] = {
+		505376,
+		124,
+		true
+	},
+	[24247] = {
+		505500,
+		124,
+		true
+	},
+	[24248] = {
+		505624,
+		124,
+		true
+	},
+	[24249] = {
+		505748,
+		124,
+		true
+	},
+	[24250] = {
+		505872,
+		124,
+		true
+	},
+	[24251] = {
+		505996,
+		138,
+		true
+	},
+	[24252] = {
+		506134,
+		139,
+		true
+	},
+	[24253] = {
+		506273,
+		139,
+		true
+	},
+	[24300] = {
+		506412,
+		539,
+		true
+	},
+	[24301] = {
+		506951,
+		123,
+		true
+	},
+	[24302] = {
+		507074,
+		123,
+		true
+	},
+	[24303] = {
+		507197,
+		123,
+		true
+	},
+	[24304] = {
+		507320,
+		123,
+		true
+	},
+	[24305] = {
+		507443,
+		123,
+		true
+	},
+	[24306] = {
+		507566,
+		123,
+		true
+	},
+	[24320] = {
+		507689,
+		542,
+		true
+	},
+	[24321] = {
+		508231,
+		123,
+		true
+	},
+	[24322] = {
+		508354,
+		123,
+		true
+	},
+	[24323] = {
+		508477,
+		123,
+		true
+	},
+	[24324] = {
+		508600,
+		123,
+		true
+	},
+	[24325] = {
+		508723,
+		123,
+		true
+	},
+	[24326] = {
+		508846,
+		123,
+		true
+	},
+	[24327] = {
+		508969,
+		124,
+		true
+	},
+	[24328] = {
+		509093,
+		124,
+		true
+	},
+	[24329] = {
+		509217,
+		124,
+		true
+	},
+	[24330] = {
+		509341,
+		124,
+		true
+	},
+	[24340] = {
+		509465,
+		542,
+		true
+	},
+	[24341] = {
+		510007,
+		123,
+		true
+	},
+	[24342] = {
+		510130,
+		123,
+		true
+	},
+	[24343] = {
+		510253,
+		123,
+		true
+	},
+	[24344] = {
+		510376,
+		123,
+		true
+	},
+	[24345] = {
+		510499,
+		123,
+		true
+	},
+	[24346] = {
+		510622,
+		124,
+		true
+	},
+	[24347] = {
+		510746,
+		124,
+		true
+	},
+	[24348] = {
+		510870,
+		124,
+		true
+	},
+	[24349] = {
+		510994,
+		124,
+		true
+	},
+	[24350] = {
+		511118,
+		124,
+		true
+	},
+	[24351] = {
+		511242,
+		138,
+		true
+	},
+	[24352] = {
+		511380,
+		139,
+		true
+	},
+	[24353] = {
+		511519,
+		139,
+		true
+	},
+	[25000] = {
+		511658,
+		576,
+		true
+	},
+	[25001] = {
+		512234,
+		123,
+		true
+	},
+	[25002] = {
+		512357,
+		123,
+		true
+	},
+	[25003] = {
+		512480,
+		123,
+		true
+	},
+	[25004] = {
+		512603,
+		124,
+		true
+	},
+	[25005] = {
+		512727,
+		124,
+		true
+	},
+	[25006] = {
+		512851,
+		124,
+		true
+	},
+	[25007] = {
+		512975,
+		124,
+		true
+	},
+	[25020] = {
+		513099,
+		577,
+		true
+	},
+	[25021] = {
+		513676,
+		123,
+		true
+	},
+	[25022] = {
+		513799,
+		123,
+		true
+	},
+	[25023] = {
+		513922,
+		123,
+		true
+	},
+	[25024] = {
+		514045,
+		124,
+		true
+	},
+	[25025] = {
+		514169,
+		124,
+		true
+	},
+	[25026] = {
+		514293,
+		124,
+		true
+	},
+	[25027] = {
+		514417,
+		124,
+		true
+	},
+	[25028] = {
+		514541,
+		124,
+		true
+	},
+	[25029] = {
+		514665,
+		124,
+		true
+	},
+	[25030] = {
+		514789,
+		124,
+		true
+	},
+	[25031] = {
+		514913,
+		138,
+		true
+	},
+	[25040] = {
+		515051,
+		578,
+		true
+	},
+	[25041] = {
+		515629,
+		123,
+		true
+	},
+	[25042] = {
+		515752,
+		123,
+		true
+	},
+	[25043] = {
+		515875,
+		123,
+		true
+	},
+	[25044] = {
+		515998,
+		124,
+		true
+	},
+	[25045] = {
+		516122,
+		124,
+		true
+	},
+	[25046] = {
+		516246,
+		124,
+		true
+	},
+	[25047] = {
+		516370,
+		124,
+		true
+	},
+	[25048] = {
+		516494,
+		124,
+		true
+	},
+	[25049] = {
+		516618,
+		124,
+		true
+	},
+	[25050] = {
+		516742,
+		124,
+		true
+	},
+	[25051] = {
+		516866,
+		138,
+		true
+	},
+	[25052] = {
+		517004,
+		139,
+		true
+	},
+	[25053] = {
+		517143,
+		139,
+		true
+	},
+	[25100] = {
+		517282,
+		569,
+		true
+	},
+	[25101] = {
+		517851,
+		123,
+		true
+	},
+	[25102] = {
+		517974,
+		123,
+		true
+	},
+	[25103] = {
+		518097,
+		123,
+		true
+	},
+	[25120] = {
+		518220,
+		569,
+		true
+	},
+	[25121] = {
+		518789,
+		123,
+		true
+	},
+	[25122] = {
+		518912,
+		123,
+		true
+	},
+	[25123] = {
+		519035,
+		123,
+		true
+	},
+	[25124] = {
+		519158,
+		123,
+		true
+	},
+	[25125] = {
+		519281,
+		123,
+		true
+	},
+	[25126] = {
+		519404,
+		124,
+		true
+	},
+	[25140] = {
+		519528,
+		569,
+		true
+	},
+	[25141] = {
+		520097,
+		123,
+		true
+	},
+	[25142] = {
+		520220,
+		123,
+		true
+	},
+	[25143] = {
+		520343,
+		123,
+		true
+	},
+	[25144] = {
+		520466,
+		124,
+		true
+	},
+	[25145] = {
+		520590,
+		124,
+		true
+	},
+	[25146] = {
+		520714,
+		124,
+		true
+	},
+	[25147] = {
+		520838,
+		124,
+		true
+	},
+	[25148] = {
+		520962,
+		124,
+		true
+	},
+	[25149] = {
+		521086,
+		124,
+		true
+	},
+	[25150] = {
+		521210,
+		124,
+		true
+	},
+	[25151] = {
+		521334,
+		138,
+		true
+	},
+	[25200] = {
+		521472,
+		574,
+		true
+	},
+	[25201] = {
+		522046,
+		123,
+		true
+	},
+	[25202] = {
+		522169,
+		123,
+		true
+	},
+	[25203] = {
+		522292,
+		123,
+		true
+	},
+	[25204] = {
+		522415,
+		123,
+		true
+	},
+	[25205] = {
+		522538,
+		123,
+		true
+	},
+	[25206] = {
+		522661,
+		124,
+		true
+	},
+	[25207] = {
+		522785,
+		124,
+		true
+	},
+	[25208] = {
+		522909,
+		124,
+		true
+	},
+	[25209] = {
+		523033,
+		124,
+		true
+	},
+	[25210] = {
+		523157,
+		124,
+		true
+	},
+	[25211] = {
+		523281,
+		138,
+		true
+	},
+	[25212] = {
+		523419,
+		139,
+		true
+	},
+	[25213] = {
+		523558,
+		139,
+		true
+	},
+	[25300] = {
+		523697,
+		575,
+		true
+	},
+	[25301] = {
+		524272,
+		123,
+		true
+	},
+	[25302] = {
+		524395,
+		123,
+		true
+	},
+	[25303] = {
+		524518,
+		124,
+		true
+	},
+	[25304] = {
+		524642,
+		124,
+		true
+	},
+	[25305] = {
+		524766,
+		124,
+		true
+	},
+	[25306] = {
+		524890,
+		124,
+		true
+	},
+	[25307] = {
+		525014,
+		124,
+		true
+	},
+	[25308] = {
+		525138,
+		124,
+		true
+	},
+	[25309] = {
+		525262,
+		124,
+		true
+	},
+	[25310] = {
+		525386,
+		124,
+		true
+	},
+	[25311] = {
+		525510,
+		138,
+		true
+	},
+	[25312] = {
+		525648,
+		139,
+		true
+	},
+	[25313] = {
+		525787,
+		139,
+		true
+	},
+	[25800] = {
+		525926,
+		514,
+		true
+	},
+	[25801] = {
+		526440,
+		125,
+		true
+	},
+	[25802] = {
+		526565,
+		126,
+		true
+	},
+	[25803] = {
+		526691,
+		126,
+		true
+	},
+	[25804] = {
+		526817,
+		126,
+		true
+	},
+	[25805] = {
+		526943,
+		126,
+		true
+	},
+	[25806] = {
+		527069,
+		126,
+		true
+	},
+	[25807] = {
+		527195,
+		126,
+		true
+	},
+	[25808] = {
+		527321,
+		126,
+		true
+	},
+	[25809] = {
+		527447,
+		126,
+		true
+	},
+	[25810] = {
+		527573,
+		126,
+		true
+	},
+	[25811] = {
+		527699,
+		140,
+		true
+	},
+	[25812] = {
+		527839,
+		141,
+		true
+	},
+	[25813] = {
+		527980,
+		141,
+		true
+	},
+	[26000] = {
+		528121,
+		507,
+		true
+	},
+	[26001] = {
+		528628,
+		123,
+		true
+	},
+	[26002] = {
+		528751,
+		123,
+		true
+	},
+	[26003] = {
+		528874,
+		123,
+		true
+	},
+	[26020] = {
+		528997,
+		532,
+		true
+	},
+	[26021] = {
+		529529,
+		123,
+		true
+	},
+	[26022] = {
+		529652,
+		123,
+		true
+	},
+	[26023] = {
+		529775,
+		123,
+		true
+	},
+	[26040] = {
+		529898,
+		532,
+		true
+	},
+	[26041] = {
+		530430,
+		123,
+		true
+	},
+	[26042] = {
+		530553,
+		123,
+		true
+	},
+	[26043] = {
+		530676,
+		123,
+		true
+	},
+	[26044] = {
+		530799,
+		123,
+		true
+	},
+	[26045] = {
+		530922,
+		123,
+		true
+	},
+	[26046] = {
+		531045,
+		123,
+		true
+	},
+	[26047] = {
+		531168,
+		123,
+		true
+	},
+	[26060] = {
+		531291,
+		564,
+		true
+	},
+	[26061] = {
+		531855,
+		123,
+		true
+	},
+	[26062] = {
+		531978,
+		123,
+		true
+	},
+	[26063] = {
+		532101,
+		123,
+		true
+	},
+	[26064] = {
+		532224,
+		123,
+		true
+	},
+	[26065] = {
+		532347,
+		123,
+		true
+	},
+	[26066] = {
+		532470,
+		123,
+		true
+	},
+	[26067] = {
+		532593,
+		123,
+		true
+	},
+	[26068] = {
+		532716,
+		123,
+		true
+	},
+	[26069] = {
+		532839,
+		123,
+		true
+	},
+	[26070] = {
+		532962,
+		123,
+		true
+	},
+	[26071] = {
+		533085,
+		137,
+		true
+	},
+	[26100] = {
+		533222,
+		533,
+		true
+	},
+	[26101] = {
+		533755,
+		123,
+		true
+	},
+	[26102] = {
+		533878,
+		123,
+		true
+	},
+	[26103] = {
+		534001,
+		123,
+		true
+	},
+	[26120] = {
+		534124,
+		533,
+		true
+	},
+	[26121] = {
+		534657,
+		123,
+		true
+	},
+	[26122] = {
+		534780,
+		123,
+		true
+	},
+	[26123] = {
+		534903,
+		123,
+		true
+	},
+	[26124] = {
+		535026,
+		123,
+		true
+	},
+	[26125] = {
+		535149,
+		123,
+		true
+	},
+	[26126] = {
+		535272,
+		123,
+		true
+	},
+	[26140] = {
+		535395,
+		533,
+		true
+	},
+	[26141] = {
+		535928,
+		123,
+		true
+	},
+	[26142] = {
+		536051,
+		123,
+		true
+	},
+	[26143] = {
+		536174,
+		123,
+		true
+	},
+	[26144] = {
+		536297,
+		123,
+		true
+	},
+	[26145] = {
+		536420,
+		123,
+		true
+	},
+	[26146] = {
+		536543,
+		123,
+		true
+	},
+	[26147] = {
+		536666,
+		123,
+		true
+	},
+	[26148] = {
+		536789,
+		123,
+		true
+	},
+	[26149] = {
+		536912,
+		123,
+		true
+	},
+	[26150] = {
+		537035,
+		123,
+		true
+	},
+	[26151] = {
+		537158,
+		137,
+		true
+	},
+	[26200] = {
+		537295,
+		533,
+		true
+	},
+	[26201] = {
+		537828,
+		123,
+		true
+	},
+	[26202] = {
+		537951,
+		123,
+		true
+	},
+	[26203] = {
+		538074,
+		123,
+		true
+	},
+	[26204] = {
+		538197,
+		123,
+		true
+	},
+	[26205] = {
+		538320,
+		123,
+		true
+	},
+	[26206] = {
+		538443,
+		123,
+		true
+	},
+	[26220] = {
+		538566,
+		533,
+		true
+	},
+	[26221] = {
+		539099,
+		123,
+		true
+	},
+	[26222] = {
+		539222,
+		123,
+		true
+	},
+	[26223] = {
+		539345,
+		123,
+		true
+	},
+	[26224] = {
+		539468,
+		123,
+		true
+	},
+	[26225] = {
+		539591,
+		123,
+		true
+	},
+	[26226] = {
+		539714,
+		123,
+		true
+	},
+	[26227] = {
+		539837,
+		123,
+		true
+	},
+	[26228] = {
+		539960,
+		124,
+		true
+	},
+	[26229] = {
+		540084,
+		124,
+		true
+	},
+	[26230] = {
+		540208,
+		124,
+		true
+	},
+	[26240] = {
+		540332,
+		533,
+		true
+	},
+	[26241] = {
+		540865,
+		123,
+		true
+	},
+	[26242] = {
+		540988,
+		123,
+		true
+	},
+	[26243] = {
+		541111,
+		123,
+		true
+	},
+	[26244] = {
+		541234,
+		123,
+		true
+	},
+	[26245] = {
+		541357,
+		123,
+		true
+	},
+	[26246] = {
+		541480,
+		123,
+		true
+	},
+	[26247] = {
+		541603,
+		124,
+		true
+	},
+	[26248] = {
+		541727,
+		124,
+		true
+	},
+	[26249] = {
+		541851,
+		124,
+		true
+	},
+	[26250] = {
+		541975,
+		124,
+		true
+	},
+	[26251] = {
+		542099,
+		138,
+		true
+	},
+	[26252] = {
+		542237,
+		139,
+		true
+	},
+	[26253] = {
+		542376,
+		139,
+		true
+	},
+	[26300] = {
+		542515,
+		524,
+		true
+	},
+	[26301] = {
+		543039,
+		123,
+		true
+	},
+	[26302] = {
+		543162,
+		123,
+		true
+	},
+	[26303] = {
+		543285,
+		123,
+		true
+	},
+	[26320] = {
+		543408,
+		524,
+		true
+	},
+	[26321] = {
+		543932,
+		123,
+		true
+	},
+	[26322] = {
+		544055,
+		123,
+		true
+	},
+	[26323] = {
+		544178,
+		123,
+		true
+	},
+	[26324] = {
+		544301,
+		123,
+		true
+	},
+	[26325] = {
+		544424,
+		123,
+		true
+	},
+	[26326] = {
+		544547,
+		123,
+		true
+	},
+	[26340] = {
+		544670,
+		524,
+		true
+	},
+	[26341] = {
+		545194,
+		123,
+		true
+	},
+	[26342] = {
+		545317,
+		123,
+		true
+	},
+	[26343] = {
+		545440,
+		123,
+		true
+	},
+	[26344] = {
+		545563,
+		123,
+		true
+	},
+	[26345] = {
+		545686,
+		123,
+		true
+	},
+	[26346] = {
+		545809,
+		123,
+		true
+	},
+	[26347] = {
+		545932,
+		123,
+		true
+	},
+	[26348] = {
+		546055,
+		123,
+		true
+	},
+	[26349] = {
+		546178,
+		123,
+		true
+	},
+	[26350] = {
+		546301,
+		123,
+		true
+	},
+	[26351] = {
+		546424,
+		137,
+		true
+	},
+	[26360] = {
+		546561,
+		553,
+		true
+	},
+	[26361] = {
+		547114,
+		123,
+		true
+	},
+	[26362] = {
+		547237,
+		123,
+		true
+	},
+	[26363] = {
+		547360,
+		123,
+		true
+	},
+	[26364] = {
+		547483,
+		123,
+		true
+	},
+	[26365] = {
+		547606,
+		123,
+		true
+	},
+	[26366] = {
+		547729,
+		123,
+		true
+	},
+	[26367] = {
+		547852,
+		123,
+		true
+	},
+	[26368] = {
+		547975,
+		123,
+		true
+	},
+	[26369] = {
+		548098,
+		123,
+		true
+	},
+	[26370] = {
+		548221,
+		123,
+		true
+	},
+	[26371] = {
+		548344,
+		137,
+		true
+	},
+	[26400] = {
+		548481,
+		525,
+		true
+	},
+	[26401] = {
+		549006,
+		123,
+		true
+	},
+	[26402] = {
+		549129,
+		123,
+		true
+	},
+	[26403] = {
+		549252,
+		123,
+		true
+	},
+	[26420] = {
+		549375,
+		525,
+		true
+	},
+	[26421] = {
+		549900,
+		123,
+		true
+	},
+	[26422] = {
+		550023,
+		123,
+		true
+	},
+	[26423] = {
+		550146,
+		123,
+		true
+	},
+	[26424] = {
+		550269,
+		123,
+		true
+	},
+	[26425] = {
+		550392,
+		123,
+		true
+	},
+	[26426] = {
+		550515,
+		123,
+		true
+	},
+	[26440] = {
+		550638,
+		525,
+		true
+	},
+	[26441] = {
+		551163,
+		123,
+		true
+	},
+	[26442] = {
+		551286,
+		123,
+		true
+	},
+	[26443] = {
+		551409,
+		123,
+		true
+	},
+	[26444] = {
+		551532,
+		123,
+		true
+	},
+	[26445] = {
+		551655,
+		123,
+		true
+	},
+	[26446] = {
+		551778,
+		123,
+		true
+	},
+	[26447] = {
+		551901,
+		123,
+		true
+	},
+	[26448] = {
+		552024,
+		123,
+		true
+	},
+	[26449] = {
+		552147,
+		123,
+		true
+	},
+	[26450] = {
+		552270,
+		123,
+		true
+	},
+	[26451] = {
+		552393,
+		137,
+		true
+	},
+	[26460] = {
+		552530,
+		549,
+		true
+	},
+	[26461] = {
+		553079,
+		123,
+		true
+	},
+	[26462] = {
+		553202,
+		123,
+		true
+	},
+	[26463] = {
+		553325,
+		123,
+		true
+	},
+	[26464] = {
+		553448,
+		123,
+		true
+	},
+	[26465] = {
+		553571,
+		123,
+		true
+	},
+	[26466] = {
+		553694,
+		123,
+		true
+	},
+	[26467] = {
+		553817,
+		123,
+		true
+	},
+	[26468] = {
+		553940,
+		123,
+		true
+	},
+	[26469] = {
+		554063,
+		124,
+		true
+	},
+	[26470] = {
+		554187,
+		124,
+		true
+	},
+	[26471] = {
+		554311,
+		138,
+		true
+	},
+	[26500] = {
+		554449,
+		532,
+		true
+	},
+	[26501] = {
+		554981,
+		123,
+		true
+	},
+	[26502] = {
+		555104,
+		123,
+		true
+	},
+	[26503] = {
+		555227,
+		123,
+		true
+	},
+	[26504] = {
+		555350,
+		123,
+		true
+	},
+	[26505] = {
+		555473,
+		123,
+		true
+	},
+	[26506] = {
+		555596,
+		123,
+		true
+	},
+	[26520] = {
+		555719,
+		532,
+		true
+	},
+	[26521] = {
+		556251,
+		123,
+		true
+	},
+	[26522] = {
+		556374,
+		123,
+		true
+	},
+	[26523] = {
+		556497,
+		123,
+		true
+	},
+	[26524] = {
+		556620,
+		123,
+		true
+	},
+	[26525] = {
+		556743,
+		123,
+		true
+	},
+	[26526] = {
+		556866,
+		123,
+		true
+	},
+	[26527] = {
+		556989,
+		123,
+		true
+	},
+	[26528] = {
+		557112,
+		123,
+		true
+	},
+	[26529] = {
+		557235,
+		124,
+		true
+	},
+	[26530] = {
+		557359,
+		124,
+		true
+	},
+	[26540] = {
+		557483,
+		532,
+		true
+	},
+	[26541] = {
+		558015,
+		123,
+		true
+	},
+	[26542] = {
+		558138,
+		123,
+		true
+	},
+	[26543] = {
+		558261,
+		123,
+		true
+	},
+	[26544] = {
+		558384,
+		123,
+		true
+	},
+	[26545] = {
+		558507,
+		123,
+		true
+	},
+	[26546] = {
+		558630,
+		123,
+		true
+	},
+	[26547] = {
+		558753,
+		124,
+		true
+	},
+	[26548] = {
+		558877,
+		124,
+		true
+	},
+	[26549] = {
+		559001,
+		124,
+		true
+	},
+	[26550] = {
+		559125,
+		124,
+		true
+	},
+	[26551] = {
+		559249,
+		138,
+		true
+	},
+	[26552] = {
+		559387,
+		139,
+		true
+	},
+	[26553] = {
+		559526,
+		139,
+		true
+	},
+	[26600] = {
+		559665,
+		577,
+		true
+	},
+	[26601] = {
+		560242,
+		123,
+		true
+	},
+	[26602] = {
+		560365,
+		123,
+		true
+	},
+	[26603] = {
+		560488,
+		123,
+		true
+	},
+	[26604] = {
+		560611,
+		123,
+		true
+	},
+	[26605] = {
+		560734,
+		123,
+		true
+	},
+	[26606] = {
+		560857,
+		123,
+		true
+	},
+	[26607] = {
+		560980,
+		123,
+		true
+	},
+	[26608] = {
+		561103,
+		123,
+		true
+	},
+	[26609] = {
+		561226,
+		123,
+		true
+	},
+	[26610] = {
+		561349,
+		123,
+		true
+	},
+	[26611] = {
+		561472,
+		137,
+		true
+	},
+	[26612] = {
+		561609,
+		138,
+		true
+	},
+	[26613] = {
+		561747,
+		138,
+		true
+	},
+	[26620] = {
+		561885,
+		574,
+		true
+	},
+	[26621] = {
+		562459,
+		123,
+		true
+	},
+	[26622] = {
+		562582,
+		123,
+		true
+	},
+	[26623] = {
+		562705,
+		123,
+		true
+	},
+	[26624] = {
+		562828,
+		123,
+		true
+	},
+	[26625] = {
+		562951,
+		123,
+		true
+	},
+	[26626] = {
+		563074,
+		123,
+		true
+	},
+	[26627] = {
+		563197,
+		123,
+		true
+	},
+	[26628] = {
+		563320,
+		123,
+		true
+	},
+	[26629] = {
+		563443,
+		123,
+		true
+	},
+	[26630] = {
+		563566,
+		123,
+		true
+	},
+	[26631] = {
+		563689,
+		137,
+		true
+	},
+	[26632] = {
+		563826,
+		138,
+		true
+	},
+	[26633] = {
+		563964,
+		138,
+		true
+	},
+	[26640] = {
+		564102,
+		565,
+		true
+	},
+	[26641] = {
+		564667,
+		123,
+		true
+	},
+	[26642] = {
+		564790,
+		123,
+		true
+	},
+	[26643] = {
+		564913,
+		123,
+		true
+	},
+	[26644] = {
+		565036,
+		123,
+		true
+	},
+	[26645] = {
+		565159,
+		123,
+		true
+	},
+	[26646] = {
+		565282,
+		124,
+		true
+	},
+	[26647] = {
+		565406,
+		124,
+		true
+	},
+	[26648] = {
+		565530,
+		124,
+		true
+	},
+	[26649] = {
+		565654,
+		124,
+		true
+	},
+	[26650] = {
+		565778,
+		124,
+		true
+	},
+	[26651] = {
+		565902,
+		138,
+		true
+	},
+	[26652] = {
+		566040,
+		139,
+		true
+	},
+	[26653] = {
+		566179,
+		139,
+		true
+	},
+	[26660] = {
+		566318,
+		556,
+		true
+	},
+	[26661] = {
+		566874,
+		123,
+		true
+	},
+	[26662] = {
+		566997,
+		123,
+		true
+	},
+	[26663] = {
+		567120,
+		123,
+		true
+	},
+	[26664] = {
+		567243,
+		123,
+		true
+	},
+	[26665] = {
+		567366,
+		123,
+		true
+	},
+	[26666] = {
+		567489,
+		124,
+		true
+	},
+	[26667] = {
+		567613,
+		124,
+		true
+	},
+	[26668] = {
+		567737,
+		124,
+		true
+	},
+	[26669] = {
+		567861,
+		124,
+		true
+	},
+	[26670] = {
+		567985,
+		124,
+		true
+	},
+	[26671] = {
+		568109,
+		138,
+		true
+	},
+	[26672] = {
+		568247,
+		139,
+		true
+	},
+	[26673] = {
+		568386,
+		139,
+		true
+	},
+	[27000] = {
+		568525,
+		521,
+		true
+	},
+	[27001] = {
+		569046,
+		186,
+		true
+	},
+	[27002] = {
+		569232,
+		186,
+		true
+	},
+	[27003] = {
+		569418,
+		186,
+		true
+	},
+	[27020] = {
+		569604,
+		521,
+		true
+	},
+	[27021] = {
+		570125,
+		186,
+		true
+	},
+	[27022] = {
+		570311,
+		186,
+		true
+	},
+	[27023] = {
+		570497,
+		186,
+		true
+	},
+	[27024] = {
+		570683,
+		186,
+		true
+	},
+	[27025] = {
+		570869,
+		186,
+		true
+	},
+	[27026] = {
+		571055,
+		186,
+		true
+	},
+	[27040] = {
+		571241,
+		521,
+		true
+	},
+	[27041] = {
+		571762,
+		186,
+		true
+	},
+	[27042] = {
+		571948,
+		186,
+		true
+	},
+	[27043] = {
+		572134,
+		186,
+		true
+	},
+	[27044] = {
+		572320,
+		186,
+		true
+	},
+	[27045] = {
+		572506,
+		186,
+		true
+	},
+	[27046] = {
+		572692,
+		186,
+		true
+	},
+	[27047] = {
+		572878,
+		186,
+		true
+	},
+	[27048] = {
+		573064,
+		186,
+		true
+	},
+	[27049] = {
+		573250,
+		186,
+		true
+	},
+	[27050] = {
+		573436,
+		186,
+		true
+	},
+	[27051] = {
+		573622,
+		199,
+		true
+	},
+	[27060] = {
+		573821,
+		541,
+		true
+	},
+	[27061] = {
+		574362,
+		186,
+		true
+	},
+	[27062] = {
+		574548,
+		186,
+		true
+	},
+	[27063] = {
+		574734,
+		186,
+		true
+	},
+	[27064] = {
+		574920,
+		186,
+		true
+	},
+	[27065] = {
+		575106,
+		186,
+		true
+	},
+	[27066] = {
+		575292,
+		186,
+		true
+	},
+	[27067] = {
+		575478,
+		186,
+		true
+	},
+	[27068] = {
+		575664,
+		186,
+		true
+	},
+	[27069] = {
+		575850,
+		186,
+		true
+	},
+	[27070] = {
+		576036,
+		186,
+		true
+	},
+	[27071] = {
+		576222,
+		199,
+		true
+	},
+	[27072] = {
+		576421,
+		200,
+		true
+	},
+	[27073] = {
+		576621,
+		200,
+		true
+	},
+	[27100] = {
+		576821,
+		497,
+		true
+	},
+	[27101] = {
+		577318,
+		168,
+		true
+	},
+	[27102] = {
+		577486,
+		168,
+		true
+	},
+	[27103] = {
+		577654,
+		168,
+		true
+	},
+	[27104] = {
+		577822,
+		168,
+		true
+	},
+	[27105] = {
+		577990,
+		168,
+		true
+	},
+	[27106] = {
+		578158,
+		168,
+		true
+	},
+	[27120] = {
+		578326,
+		497,
+		true
+	},
+	[27121] = {
+		578823,
+		168,
+		true
+	},
+	[27122] = {
+		578991,
+		168,
+		true
+	},
+	[27123] = {
+		579159,
+		168,
+		true
+	},
+	[27124] = {
+		579327,
+		168,
+		true
+	},
+	[27125] = {
+		579495,
+		168,
+		true
+	},
+	[27126] = {
+		579663,
+		168,
+		true
+	},
+	[27127] = {
+		579831,
+		168,
+		true
+	},
+	[27128] = {
+		579999,
+		168,
+		true
+	},
+	[27129] = {
+		580167,
+		168,
+		true
+	},
+	[27130] = {
+		580335,
+		168,
+		true
+	},
+	[27140] = {
+		580503,
+		497,
+		true
+	},
+	[27141] = {
+		581000,
+		168,
+		true
+	},
+	[27142] = {
+		581168,
+		168,
+		true
+	},
+	[27143] = {
+		581336,
+		168,
+		true
+	},
+	[27144] = {
+		581504,
+		168,
+		true
+	},
+	[27145] = {
+		581672,
+		168,
+		true
+	},
+	[27146] = {
+		581840,
+		168,
+		true
+	},
+	[27147] = {
+		582008,
+		168,
+		true
+	},
+	[27148] = {
+		582176,
+		168,
+		true
+	},
+	[27149] = {
+		582344,
+		168,
+		true
+	},
+	[27150] = {
+		582512,
+		168,
+		true
+	},
+	[27151] = {
+		582680,
+		181,
+		true
+	},
+	[27152] = {
+		582861,
+		182,
+		true
+	},
+	[27153] = {
+		583043,
+		182,
+		true
+	},
+	[27200] = {
+		583225,
+		479,
+		true
+	},
+	[27201] = {
+		583704,
+		150,
+		true
+	},
+	[27202] = {
+		583854,
+		150,
+		true
+	},
+	[27203] = {
+		584004,
+		150,
+		true
+	},
+	[27220] = {
+		584154,
+		495,
+		true
+	},
+	[27221] = {
+		584649,
+		150,
+		true
+	},
+	[27222] = {
+		584799,
+		150,
+		true
+	},
+	[27223] = {
+		584949,
+		150,
+		true
+	},
+	[27240] = {
+		585099,
+		495,
+		true
+	},
+	[27241] = {
+		585594,
+		150,
+		true
+	},
+	[27242] = {
+		585744,
+		150,
+		true
+	},
+	[27243] = {
+		585894,
+		150,
+		true
+	},
+	[27244] = {
+		586044,
+		150,
+		true
+	},
+	[27245] = {
+		586194,
+		150,
+		true
+	},
+	[27246] = {
+		586344,
+		150,
+		true
+	},
+	[27247] = {
+		586494,
+		150,
+		true
+	},
+	[27260] = {
+		586644,
+		499,
+		true
+	},
+	[27261] = {
+		587143,
+		150,
+		true
+	},
+	[27262] = {
+		587293,
+		150,
+		true
+	},
+	[27263] = {
+		587443,
+		150,
+		true
+	},
+	[27264] = {
+		587593,
+		150,
+		true
+	},
+	[27265] = {
+		587743,
+		150,
+		true
+	},
+	[27266] = {
+		587893,
+		150,
+		true
+	},
+	[27267] = {
+		588043,
+		150,
+		true
+	},
+	[27300] = {
+		588193,
+		610,
+		true
+	},
+	[27301] = {
+		588803,
+		168,
+		true
+	},
+	[27302] = {
+		588971,
+		168,
+		true
+	},
+	[27303] = {
+		589139,
+		168,
+		true
+	},
+	[27304] = {
+		589307,
+		168,
+		true
+	},
+	[27305] = {
+		589475,
+		168,
+		true
+	},
+	[27306] = {
+		589643,
+		168,
+		true
+	},
+	[27307] = {
+		589811,
+		168,
+		true
+	},
+	[27308] = {
+		589979,
+		168,
+		true
+	},
+	[27309] = {
+		590147,
+		168,
+		true
+	},
+	[27310] = {
+		590315,
+		168,
+		true
+	},
+	[27311] = {
+		590483,
+		181,
+		true
+	},
+	[27312] = {
+		590664,
+		182,
+		true
+	},
+	[27313] = {
+		590846,
+		182,
+		true
+	},
+	[27320] = {
+		591028,
+		638,
+		true
+	},
+	[27321] = {
+		591666,
+		168,
+		true
+	},
+	[27322] = {
+		591834,
+		168,
+		true
+	},
+	[27323] = {
+		592002,
+		168,
+		true
+	},
+	[27324] = {
+		592170,
+		168,
+		true
+	},
+	[27325] = {
+		592338,
+		168,
+		true
+	},
+	[27326] = {
+		592506,
+		168,
+		true
+	},
+	[27327] = {
+		592674,
+		168,
+		true
+	},
+	[27328] = {
+		592842,
+		168,
+		true
+	},
+	[27329] = {
+		593010,
+		168,
+		true
+	},
+	[27330] = {
+		593178,
+		168,
+		true
+	},
+	[27331] = {
+		593346,
+		181,
+		true
+	},
+	[27332] = {
+		593527,
+		182,
+		true
+	},
+	[27333] = {
+		593709,
+		182,
+		true
+	},
+	[28000] = {
+		593891,
+		499,
+		true
+	},
+	[28001] = {
+		594390,
+		164,
+		true
+	},
+	[28002] = {
+		594554,
+		164,
+		true
+	},
+	[28003] = {
+		594718,
+		164,
+		true
+	},
+	[28020] = {
+		594882,
+		499,
+		true
+	},
+	[28021] = {
+		595381,
+		164,
+		true
+	},
+	[28022] = {
+		595545,
+		164,
+		true
+	},
+	[28023] = {
+		595709,
+		164,
+		true
+	},
+	[28024] = {
+		595873,
+		164,
+		true
+	},
+	[28025] = {
+		596037,
+		164,
+		true
+	},
+	[28026] = {
+		596201,
+		164,
+		true
+	},
+	[28040] = {
+		596365,
+		499,
+		true
+	},
+	[28041] = {
+		596864,
+		164,
+		true
+	},
+	[28042] = {
+		597028,
+		164,
+		true
+	},
+	[28043] = {
+		597192,
+		164,
+		true
+	},
+	[28044] = {
+		597356,
+		164,
+		true
+	},
+	[28045] = {
+		597520,
+		164,
+		true
+	},
+	[28046] = {
+		597684,
+		164,
+		true
+	},
+	[28047] = {
+		597848,
+		164,
+		true
+	},
+	[28048] = {
+		598012,
+		164,
+		true
+	},
+	[28049] = {
+		598176,
+		164,
+		true
+	},
+	[28050] = {
+		598340,
+		164,
+		true
+	},
+	[28051] = {
+		598504,
+		177,
+		true
+	},
+	[28060] = {
+		598681,
+		657,
+		true
+	},
+	[28061] = {
+		599338,
+		188,
+		true
+	},
+	[28062] = {
+		599526,
+		188,
+		true
+	},
+	[28063] = {
+		599714,
+		188,
+		true
+	},
+	[28064] = {
+		599902,
+		188,
+		true
+	},
+	[28065] = {
+		600090,
+		188,
+		true
+	},
+	[28066] = {
+		600278,
+		188,
+		true
+	},
+	[28067] = {
+		600466,
+		188,
+		true
+	},
+	[28068] = {
+		600654,
+		188,
+		true
+	},
+	[28069] = {
+		600842,
+		188,
+		true
+	},
+	[28070] = {
+		601030,
+		188,
+		true
+	},
+	[28071] = {
+		601218,
+		201,
+		true
+	},
+	[28072] = {
+		601419,
+		202,
+		true
+	},
+	[28073] = {
+		601621,
+		202,
+		true
+	},
+	[28100] = {
+		601823,
+		499,
+		true
+	},
+	[28101] = {
+		602322,
+		164,
+		true
+	},
+	[28102] = {
+		602486,
+		164,
+		true
+	},
+	[28103] = {
+		602650,
+		164,
+		true
+	},
+	[28104] = {
+		602814,
+		164,
+		true
+	},
+	[28105] = {
+		602978,
+		164,
+		true
+	},
+	[28106] = {
+		603142,
+		164,
+		true
+	},
+	[28120] = {
+		603306,
+		499,
+		true
+	},
+	[28121] = {
+		603805,
+		164,
+		true
+	},
+	[28122] = {
+		603969,
+		164,
+		true
+	},
+	[28123] = {
+		604133,
+		164,
+		true
+	},
+	[28124] = {
+		604297,
+		164,
+		true
+	},
+	[28125] = {
+		604461,
+		164,
+		true
+	},
+	[28126] = {
+		604625,
+		164,
+		true
+	},
+	[28127] = {
+		604789,
+		164,
+		true
+	},
+	[28128] = {
+		604953,
+		164,
+		true
+	},
+	[28129] = {
+		605117,
+		164,
+		true
+	},
+	[28130] = {
+		605281,
+		164,
+		true
+	},
+	[28140] = {
+		605445,
+		499,
+		true
+	},
+	[28141] = {
+		605944,
+		164,
+		true
+	},
+	[28142] = {
+		606108,
+		164,
+		true
+	},
+	[28143] = {
+		606272,
+		164,
+		true
+	},
+	[28144] = {
+		606436,
+		164,
+		true
+	},
+	[28145] = {
+		606600,
+		164,
+		true
+	},
+	[28146] = {
+		606764,
+		164,
+		true
+	},
+	[28147] = {
+		606928,
+		164,
+		true
+	},
+	[28148] = {
+		607092,
+		164,
+		true
+	},
+	[28149] = {
+		607256,
+		164,
+		true
+	},
+	[28150] = {
+		607420,
+		164,
+		true
+	},
+	[28151] = {
+		607584,
+		177,
+		true
+	},
+	[28152] = {
+		607761,
+		178,
+		true
+	},
+	[28153] = {
+		607939,
+		178,
+		true
+	},
+	[28200] = {
+		608117,
+		613,
+		true
+	},
+	[28201] = {
+		608730,
+		164,
+		true
+	},
+	[28202] = {
+		608894,
+		164,
+		true
+	},
+	[28203] = {
+		609058,
+		164,
+		true
+	},
+	[28204] = {
+		609222,
+		164,
+		true
+	},
+	[28205] = {
+		609386,
+		164,
+		true
+	},
+	[28206] = {
+		609550,
+		164,
+		true
+	},
+	[28207] = {
+		609714,
+		164,
+		true
+	},
+	[28208] = {
+		609878,
+		164,
+		true
+	},
+	[28209] = {
+		610042,
+		164,
+		true
+	},
+	[28210] = {
+		610206,
+		164,
+		true
+	},
+	[28211] = {
+		610370,
+		177,
+		true
+	},
+	[28212] = {
+		610547,
+		178,
+		true
+	},
+	[28213] = {
+		610725,
+		178,
+		true
+	},
+	[28220] = {
+		610903,
+		513,
+		true
+	},
+	[28221] = {
+		611416,
+		164,
+		true
+	},
+	[28222] = {
+		611580,
+		164,
+		true
+	},
+	[28223] = {
+		611744,
+		164,
+		true
+	},
+	[28224] = {
+		611908,
+		164,
+		true
+	},
+	[28225] = {
+		612072,
+		164,
+		true
+	},
+	[28226] = {
+		612236,
+		164,
+		true
+	},
+	[28227] = {
+		612400,
+		164,
+		true
+	},
+	[28228] = {
+		612564,
+		164,
+		true
+	},
+	[28229] = {
+		612728,
+		164,
+		true
+	},
+	[28230] = {
+		612892,
+		164,
+		true
+	},
+	[28231] = {
+		613056,
+		177,
+		true
+	},
+	[28232] = {
+		613233,
+		178,
+		true
+	},
+	[28233] = {
+		613411,
+		178,
+		true
+	},
+	[28300] = {
+		613589,
+		656,
+		true
+	},
+	[28301] = {
+		614245,
+		164,
+		true
+	},
+	[28302] = {
+		614409,
+		164,
+		true
+	},
+	[28303] = {
+		614573,
+		164,
+		true
+	},
+	[28320] = {
+		614737,
+		656,
+		true
+	},
+	[28321] = {
+		615393,
+		164,
+		true
+	},
+	[28322] = {
+		615557,
+		164,
+		true
+	},
+	[28323] = {
+		615721,
+		164,
+		true
+	},
+	[28324] = {
+		615885,
+		164,
+		true
+	},
+	[28325] = {
+		616049,
+		164,
+		true
+	},
+	[28326] = {
+		616213,
+		164,
+		true
+	},
+	[28340] = {
+		616377,
+		656,
+		true
+	},
+	[28341] = {
+		617033,
+		164,
+		true
+	},
+	[28342] = {
+		617197,
+		164,
+		true
+	},
+	[28343] = {
+		617361,
+		164,
+		true
+	},
+	[28344] = {
+		617525,
+		164,
+		true
+	},
+	[28345] = {
+		617689,
+		164,
+		true
+	},
+	[28346] = {
+		617853,
+		164,
+		true
+	},
+	[28347] = {
+		618017,
+		164,
+		true
+	},
+	[28348] = {
+		618181,
+		164,
+		true
+	},
+	[28349] = {
+		618345,
+		164,
+		true
+	},
+	[28350] = {
+		618509,
+		164,
+		true
+	},
+	[28351] = {
+		618673,
+		177,
+		true
+	},
+	[28400] = {
+		618850,
+		514,
+		true
+	},
+	[28401] = {
+		619364,
+		168,
+		true
+	},
+	[28402] = {
+		619532,
+		168,
+		true
+	},
+	[28403] = {
+		619700,
+		168,
+		true
+	},
+	[28404] = {
+		619868,
+		168,
+		true
+	},
+	[28405] = {
+		620036,
+		168,
+		true
+	},
+	[28406] = {
+		620204,
+		168,
+		true
+	},
+	[28407] = {
+		620372,
+		168,
+		true
+	},
+	[28408] = {
+		620540,
+		168,
+		true
+	},
+	[28409] = {
+		620708,
+		168,
+		true
+	},
+	[28410] = {
+		620876,
+		168,
+		true
+	},
+	[28411] = {
+		621044,
+		181,
+		true
+	},
+	[28412] = {
+		621225,
+		182,
+		true
+	},
+	[28413] = {
+		621407,
+		182,
+		true
+	},
+	[29000] = {
+		621589,
+		480,
+		true
+	},
+	[29001] = {
+		622069,
+		164,
+		true
+	},
+	[29002] = {
+		622233,
+		164,
+		true
+	},
+	[29003] = {
+		622397,
+		164,
+		true
+	},
+	[29020] = {
+		622561,
+		496,
+		true
+	},
+	[29021] = {
+		623057,
+		164,
+		true
+	},
+	[29022] = {
+		623221,
+		164,
+		true
+	},
+	[29023] = {
+		623385,
+		164,
+		true
+	},
+	[29040] = {
+		623549,
+		496,
+		true
+	},
+	[29041] = {
+		624045,
+		164,
+		true
+	},
+	[29042] = {
+		624209,
+		164,
+		true
+	},
+	[29043] = {
+		624373,
+		164,
+		true
+	},
+	[29044] = {
+		624537,
+		164,
+		true
+	},
+	[29045] = {
+		624701,
+		164,
+		true
+	},
+	[29046] = {
+		624865,
+		164,
+		true
+	},
+	[29047] = {
+		625029,
+		164,
+		true
+	},
+	[29100] = {
+		625193,
+		493,
+		true
+	},
+	[29101] = {
+		625686,
+		164,
+		true
+	},
+	[29102] = {
+		625850,
+		164,
+		true
+	},
+	[29103] = {
+		626014,
+		164,
+		true
+	},
+	[29120] = {
+		626178,
+		493,
+		true
+	},
+	[29121] = {
+		626671,
+		164,
+		true
+	},
+	[29122] = {
+		626835,
+		164,
+		true
+	},
+	[29123] = {
+		626999,
+		164,
+		true
+	},
+	[29124] = {
+		627163,
+		164,
+		true
+	},
+	[29125] = {
+		627327,
+		164,
+		true
+	},
+	[29126] = {
+		627491,
+		164,
+		true
+	},
+	[29140] = {
+		627655,
+		493,
+		true
+	},
+	[29141] = {
+		628148,
+		164,
+		true
+	},
+	[29142] = {
+		628312,
+		164,
+		true
+	},
+	[29143] = {
+		628476,
+		164,
+		true
+	},
+	[29144] = {
+		628640,
+		164,
+		true
+	},
+	[29145] = {
+		628804,
+		164,
+		true
+	},
+	[29146] = {
+		628968,
+		164,
+		true
+	},
+	[29147] = {
+		629132,
+		164,
+		true
+	},
+	[29148] = {
+		629296,
+		164,
+		true
+	},
+	[29149] = {
+		629460,
+		164,
+		true
+	},
+	[29150] = {
+		629624,
+		164,
+		true
+	},
+	[29151] = {
+		629788,
+		177,
+		true
+	},
+	[29200] = {
+		629965,
+		628,
+		true
+	},
+	[29201] = {
+		630593,
+		164,
+		true
+	},
+	[29202] = {
+		630757,
+		164,
+		true
+	},
+	[29203] = {
+		630921,
+		164,
+		true
+	},
+	[29204] = {
+		631085,
+		164,
+		true
+	},
+	[29205] = {
+		631249,
+		164,
+		true
+	},
+	[29206] = {
+		631413,
+		164,
+		true
+	},
+	[29207] = {
+		631577,
+		164,
+		true
+	},
+	[29208] = {
+		631741,
+		164,
+		true
+	},
+	[29209] = {
+		631905,
+		164,
+		true
+	},
+	[29210] = {
+		632069,
+		164,
+		true
+	},
+	[29211] = {
+		632233,
+		177,
+		true
+	},
+	[29212] = {
+		632410,
+		178,
+		true
+	},
+	[29213] = {
+		632588,
+		178,
+		true
+	},
+	[29300] = {
+		632766,
+		621,
+		true
+	},
+	[29301] = {
+		633387,
+		188,
+		true
+	},
+	[29302] = {
+		633575,
+		188,
+		true
+	},
+	[29303] = {
+		633763,
+		188,
+		true
+	},
+	[29304] = {
+		633951,
+		188,
+		true
+	},
+	[29305] = {
+		634139,
+		188,
+		true
+	},
+	[29306] = {
+		634327,
+		188,
+		true
+	},
+	[29307] = {
+		634515,
+		188,
+		true
+	},
+	[29308] = {
+		634703,
+		188,
+		true
+	},
+	[29309] = {
+		634891,
+		188,
+		true
+	},
+	[29310] = {
+		635079,
+		188,
+		true
+	},
+	[29311] = {
+		635267,
+		201,
+		true
+	},
+	[29312] = {
+		635468,
+		202,
+		true
+	},
+	[29313] = {
+		635670,
+		202,
+		true
+	},
+	[30000] = {
+		635872,
+		506,
+		true
+	},
+	[30001] = {
+		636378,
+		123,
+		true
+	},
+	[30002] = {
+		636501,
+		123,
+		true
+	},
+	[30003] = {
+		636624,
+		123,
+		true
+	},
+	[30004] = {
+		636747,
+		123,
+		true
+	},
+	[30005] = {
+		636870,
+		123,
+		true
+	},
+	[30006] = {
+		636993,
+		123,
+		true
+	},
+	[30007] = {
+		637116,
+		123,
+		true
+	},
+	[31000] = {
+		637239,
+		593,
+		true
+	},
+	[31001] = {
+		637832,
+		109,
+		true
+	},
+	[31002] = {
+		637941,
+		122,
+		true
+	},
+	[31003] = {
+		638063,
+		122,
+		true
+	},
+	[31004] = {
+		638185,
+		122,
+		true
+	},
+	[31005] = {
+		638307,
+		122,
+		true
+	},
+	[31006] = {
+		638429,
+		122,
+		true
+	},
+	[31020] = {
+		638551,
+		593,
+		true
+	},
+	[31021] = {
+		639144,
+		109,
+		true
+	},
+	[31022] = {
+		639253,
+		122,
+		true
+	},
+	[31023] = {
+		639375,
+		122,
+		true
+	},
+	[31024] = {
+		639497,
+		122,
+		true
+	},
+	[31025] = {
+		639619,
+		122,
+		true
+	},
+	[31026] = {
+		639741,
+		122,
+		true
+	},
+	[31027] = {
+		639863,
+		122,
+		true
+	},
+	[31028] = {
+		639985,
+		122,
+		true
+	},
+	[31029] = {
+		640107,
+		123,
+		true
+	},
+	[31030] = {
+		640230,
+		123,
+		true
+	},
+	[31040] = {
+		640353,
+		593,
+		true
+	},
+	[31041] = {
+		640946,
+		109,
+		true
+	},
+	[31042] = {
+		641055,
+		122,
+		true
+	},
+	[31043] = {
+		641177,
+		122,
+		true
+	},
+	[31044] = {
+		641299,
+		122,
+		true
+	},
+	[31045] = {
+		641421,
+		122,
+		true
+	},
+	[31046] = {
+		641543,
+		122,
+		true
+	},
+	[31047] = {
+		641665,
+		123,
+		true
+	},
+	[31048] = {
+		641788,
+		123,
+		true
+	},
+	[31049] = {
+		641911,
+		123,
+		true
+	},
+	[31050] = {
+		642034,
+		123,
+		true
+	},
+	[31051] = {
+		642157,
+		137,
+		true
+	},
+	[31052] = {
+		642294,
+		138,
+		true
+	},
+	[31053] = {
+		642432,
+		138,
+		true
+	},
+	[31060] = {
+		642570,
+		571,
+		true
+	},
+	[31061] = {
+		643141,
+		109,
+		true
+	},
+	[31062] = {
+		643250,
+		122,
+		true
+	},
+	[31063] = {
+		643372,
+		122,
+		true
+	},
+	[31064] = {
+		643494,
+		122,
+		true
+	},
+	[31065] = {
+		643616,
+		122,
+		true
+	},
+	[31066] = {
+		643738,
+		122,
+		true
+	},
+	[31067] = {
+		643860,
+		122,
+		true
+	},
+	[31068] = {
+		643982,
+		122,
+		true
+	},
+	[31069] = {
+		644104,
+		122,
+		true
+	},
+	[31070] = {
+		644226,
+		122,
+		true
+	},
+	[31071] = {
+		644348,
+		136,
+		true
+	},
+	[31100] = {
+		644484,
+		536,
+		true
+	},
+	[31101] = {
+		645020,
+		109,
+		true
+	},
+	[31102] = {
+		645129,
+		122,
+		true
+	},
+	[31103] = {
+		645251,
+		122,
+		true
+	},
+	[31120] = {
+		645373,
+		555,
+		true
+	},
+	[31121] = {
+		645928,
+		109,
+		true
+	},
+	[31122] = {
+		646037,
+		122,
+		true
+	},
+	[31123] = {
+		646159,
+		122,
+		true
+	},
+	[31140] = {
+		646281,
+		555,
+		true
+	},
+	[31141] = {
+		646836,
+		109,
+		true
+	},
+	[31142] = {
+		646945,
+		122,
+		true
+	},
+	[31143] = {
+		647067,
+		122,
+		true
+	},
+	[31144] = {
+		647189,
+		122,
+		true
+	},
+	[31145] = {
+		647311,
+		122,
+		true
+	},
+	[31146] = {
+		647433,
+		122,
+		true
+	},
+	[31147] = {
+		647555,
+		122,
+		true
+	},
+	[31160] = {
+		647677,
+		578,
+		true
+	},
+	[31161] = {
+		648255,
+		109,
+		true
+	},
+	[31162] = {
+		648364,
+		122,
+		true
+	},
+	[31163] = {
+		648486,
+		122,
+		true
+	},
+	[31164] = {
+		648608,
+		122,
+		true
+	},
+	[31165] = {
+		648730,
+		122,
+		true
+	},
+	[31166] = {
+		648852,
+		122,
+		true
+	},
+	[31167] = {
+		648974,
+		122,
+		true
+	},
+	[31180] = {
+		649096,
+		601,
+		true
+	},
+	[31181] = {
+		649697,
+		109,
+		true
+	},
+	[31182] = {
+		649806,
+		122,
+		true
+	},
+	[31183] = {
+		649928,
+		122,
+		true
+	},
+	[31184] = {
+		650050,
+		122,
+		true
+	},
+	[31185] = {
+		650172,
+		122,
+		true
+	},
+	[31186] = {
+		650294,
+		122,
+		true
+	},
+	[31187] = {
+		650416,
+		122,
+		true
+	},
+	[31188] = {
+		650538,
+		122,
+		true
+	},
+	[31189] = {
+		650660,
+		123,
+		true
+	},
+	[31190] = {
+		650783,
+		123,
+		true
+	},
+	[31191] = {
+		650906,
+		137,
+		true
+	},
+	[31200] = {
+		651043,
+		555,
+		true
+	},
+	[31201] = {
+		651598,
+		109,
+		true
+	},
+	[31202] = {
+		651707,
+		122,
+		true
+	},
+	[31203] = {
+		651829,
+		122,
+		true
+	},
+	[31220] = {
+		651951,
+		555,
+		true
+	},
+	[31221] = {
+		652506,
+		109,
+		true
+	},
+	[31222] = {
+		652615,
+		122,
+		true
+	},
+	[31223] = {
+		652737,
+		122,
+		true
+	},
+	[31224] = {
+		652859,
+		122,
+		true
+	},
+	[31225] = {
+		652981,
+		122,
+		true
+	},
+	[31226] = {
+		653103,
+		122,
+		true
+	},
+	[31240] = {
+		653225,
+		558,
+		true
+	},
+	[31241] = {
+		653783,
+		109,
+		true
+	},
+	[31242] = {
+		653892,
+		122,
+		true
+	},
+	[31243] = {
+		654014,
+		122,
+		true
+	},
+	[31244] = {
+		654136,
+		122,
+		true
+	},
+	[31245] = {
+		654258,
+		122,
+		true
+	},
+	[31246] = {
+		654380,
+		122,
+		true
+	},
+	[31247] = {
+		654502,
+		123,
+		true
+	},
+	[31248] = {
+		654625,
+		123,
+		true
+	},
+	[31249] = {
+		654748,
+		123,
+		true
+	},
+	[31250] = {
+		654871,
+		123,
+		true
+	},
+	[31251] = {
+		654994,
+		137,
+		true
+	},
+	[31260] = {
+		655131,
+		601,
+		true
+	},
+	[31261] = {
+		655732,
+		109,
+		true
+	},
+	[31262] = {
+		655841,
+		122,
+		true
+	},
+	[31263] = {
+		655963,
+		122,
+		true
+	},
+	[31264] = {
+		656085,
+		122,
+		true
+	},
+	[31265] = {
+		656207,
+		122,
+		true
+	},
+	[31266] = {
+		656329,
+		122,
+		true
+	},
+	[31267] = {
+		656451,
+		122,
+		true
+	},
+	[31280] = {
+		656573,
+		575,
+		true
+	},
+	[31281] = {
+		657148,
+		122,
+		true
+	},
+	[31282] = {
+		657270,
+		122,
+		true
+	},
+	[31283] = {
+		657392,
+		122,
+		true
+	},
+	[31284] = {
+		657514,
+		122,
+		true
+	},
+	[31285] = {
+		657636,
+		122,
+		true
+	},
+	[31286] = {
+		657758,
+		123,
+		true
+	},
+	[31287] = {
+		657881,
+		123,
+		true
+	},
+	[31288] = {
+		658004,
+		123,
+		true
+	},
+	[31289] = {
+		658127,
+		123,
+		true
+	},
+	[31290] = {
+		658250,
+		123,
+		true
+	},
+	[31291] = {
+		658373,
+		137,
+		true
+	},
+	[32000] = {
+		658510,
+		522,
+		true
+	},
+	[32001] = {
+		659032,
+		122,
+		true
+	},
+	[32002] = {
+		659154,
+		122,
+		true
+	},
+	[32003] = {
+		659276,
+		122,
+		true
+	},
+	[32020] = {
+		659398,
+		541,
+		true
+	},
+	[32021] = {
+		659939,
+		122,
+		true
+	},
+	[32022] = {
+		660061,
+		122,
+		true
+	},
+	[32023] = {
+		660183,
+		122,
+		true
+	},
+	[32040] = {
+		660305,
+		541,
+		true
+	},
+	[32041] = {
+		660846,
+		122,
+		true
+	},
+	[32042] = {
+		660968,
+		122,
+		true
+	},
+	[32043] = {
+		661090,
+		123,
+		true
+	},
+	[32044] = {
+		661213,
+		123,
+		true
+	},
+	[32045] = {
+		661336,
+		123,
+		true
+	},
+	[32046] = {
+		661459,
+		123,
+		true
+	},
+	[32047] = {
+		661582,
+		123,
+		true
+	},
+	[32060] = {
+		661705,
+		558,
+		true
+	},
+	[32061] = {
+		662263,
+		122,
+		true
+	},
+	[32062] = {
+		662385,
+		123,
+		true
+	},
+	[32063] = {
+		662508,
+		123,
+		true
+	},
+	[32064] = {
+		662631,
+		123,
+		true
+	},
+	[32065] = {
+		662754,
+		123,
+		true
+	},
+	[32066] = {
+		662877,
+		123,
+		true
+	},
+	[32067] = {
+		663000,
+		123,
+		true
+	},
+	[32100] = {
+		663123,
+		541,
+		true
+	},
+	[32101] = {
+		663664,
+		122,
+		true
+	},
+	[32102] = {
+		663786,
+		122,
+		true
+	},
+	[32103] = {
+		663908,
+		122,
+		true
+	},
+	[32120] = {
+		664030,
+		541,
+		true
+	},
+	[32121] = {
+		664571,
+		122,
+		true
+	},
+	[32122] = {
+		664693,
+		122,
+		true
+	},
+	[32123] = {
+		664815,
+		122,
+		true
+	},
+	[32124] = {
+		664937,
+		123,
+		true
+	},
+	[32125] = {
+		665060,
+		123,
+		true
+	},
+	[32126] = {
+		665183,
+		123,
+		true
+	},
+	[32140] = {
+		665306,
+		544,
+		true
+	},
+	[32141] = {
+		665850,
+		122,
+		true
+	},
+	[32142] = {
+		665972,
+		122,
+		true
+	},
+	[32143] = {
+		666094,
+		123,
+		true
+	},
+	[32144] = {
+		666217,
+		123,
+		true
+	},
+	[32145] = {
+		666340,
+		123,
+		true
+	},
+	[32146] = {
+		666463,
+		123,
+		true
+	},
+	[32147] = {
+		666586,
+		123,
+		true
+	},
+	[32148] = {
+		666709,
+		123,
+		true
+	},
+	[32149] = {
+		666832,
+		123,
+		true
+	},
+	[32150] = {
+		666955,
+		123,
+		true
+	},
+	[32151] = {
+		667078,
+		137,
+		true
+	},
+	[32200] = {
+		667215,
+		542,
+		true
+	},
+	[32201] = {
+		667757,
+		122,
+		true
+	},
+	[32202] = {
+		667879,
+		122,
+		true
+	},
+	[32203] = {
+		668001,
+		122,
+		true
+	},
+	[32204] = {
+		668123,
+		123,
+		true
+	},
+	[32205] = {
+		668246,
+		123,
+		true
+	},
+	[32206] = {
+		668369,
+		123,
+		true
+	},
+	[32220] = {
+		668492,
+		545,
+		true
+	},
+	[32221] = {
+		669037,
+		122,
+		true
+	},
+	[32222] = {
+		669159,
+		122,
+		true
+	},
+	[32223] = {
+		669281,
+		123,
+		true
+	},
+	[32224] = {
+		669404,
+		123,
+		true
+	},
+	[32225] = {
+		669527,
+		123,
+		true
+	},
+	[32226] = {
+		669650,
+		123,
+		true
+	},
+	[32227] = {
+		669773,
+		123,
+		true
+	},
+	[32228] = {
+		669896,
+		123,
+		true
+	},
+	[32229] = {
+		670019,
+		123,
+		true
+	},
+	[32230] = {
+		670142,
+		123,
+		true
+	},
+	[32240] = {
+		670265,
+		545,
+		true
+	},
+	[32241] = {
+		670810,
+		122,
+		true
+	},
+	[32242] = {
+		670932,
+		123,
+		true
+	},
+	[32243] = {
+		671055,
+		123,
+		true
+	},
+	[32244] = {
+		671178,
+		123,
+		true
+	},
+	[32245] = {
+		671301,
+		123,
+		true
+	},
+	[32246] = {
+		671424,
+		123,
+		true
+	},
+	[32247] = {
+		671547,
+		123,
+		true
+	},
+	[32248] = {
+		671670,
+		123,
+		true
+	},
+	[32249] = {
+		671793,
+		123,
+		true
+	},
+	[32250] = {
+		671916,
+		123,
+		true
+	},
+	[32251] = {
+		672039,
+		137,
+		true
+	},
+	[32252] = {
+		672176,
+		138,
+		true
+	},
+	[32253] = {
+		672314,
+		138,
+		true
+	},
+	[32300] = {
+		672452,
+		541,
+		true
+	},
+	[32301] = {
+		672993,
+		122,
+		true
+	},
+	[32302] = {
+		673115,
+		122,
+		true
+	},
+	[32303] = {
+		673237,
+		122,
+		true
+	},
+	[32320] = {
+		673359,
+		544,
+		true
+	},
+	[32321] = {
+		673903,
+		122,
+		true
+	},
+	[32322] = {
+		674025,
+		122,
+		true
+	},
+	[32323] = {
+		674147,
+		123,
+		true
+	},
+	[32324] = {
+		674270,
+		123,
+		true
+	},
+	[32325] = {
+		674393,
+		123,
+		true
+	},
+	[32326] = {
+		674516,
+		123,
+		true
+	},
+	[32340] = {
+		674639,
+		544,
+		true
+	},
+	[32341] = {
+		675183,
+		122,
+		true
+	},
+	[32342] = {
+		675305,
+		123,
+		true
+	},
+	[32343] = {
+		675428,
+		123,
+		true
+	},
+	[32344] = {
+		675551,
+		123,
+		true
+	},
+	[32345] = {
+		675674,
+		123,
+		true
+	},
+	[32346] = {
+		675797,
+		123,
+		true
+	},
+	[32347] = {
+		675920,
+		123,
+		true
+	},
+	[32348] = {
+		676043,
+		123,
+		true
+	},
+	[32349] = {
+		676166,
+		123,
+		true
+	},
+	[32350] = {
+		676289,
+		123,
+		true
+	},
+	[32351] = {
+		676412,
+		137,
+		true
+	},
+	[33000] = {
+		676549,
+		544,
+		true
+	},
+	[33001] = {
+		677093,
+		126,
+		true
+	},
+	[33002] = {
+		677219,
+		126,
+		true
+	},
+	[33003] = {
+		677345,
+		126,
+		true
+	},
+	[33020] = {
+		677471,
+		544,
+		true
+	},
+	[33021] = {
+		678015,
+		126,
+		true
+	},
+	[33022] = {
+		678141,
+		126,
+		true
+	},
+	[33023] = {
+		678267,
+		126,
+		true
+	},
+	[33024] = {
+		678393,
+		126,
+		true
+	},
+	[33025] = {
+		678519,
+		126,
+		true
+	},
+	[33026] = {
+		678645,
+		126,
+		true
+	},
+	[33040] = {
+		678771,
+		544,
+		true
+	},
+	[33041] = {
+		679315,
+		126,
+		true
+	},
+	[33042] = {
+		679441,
+		126,
+		true
+	},
+	[33043] = {
+		679567,
+		126,
+		true
+	},
+	[33044] = {
+		679693,
+		126,
+		true
+	},
+	[33045] = {
+		679819,
+		126,
+		true
+	},
+	[33046] = {
+		679945,
+		126,
+		true
+	},
+	[33047] = {
+		680071,
+		126,
+		true
+	},
+	[33048] = {
+		680197,
+		126,
+		true
+	},
+	[33049] = {
+		680323,
+		126,
+		true
+	},
+	[33050] = {
+		680449,
+		126,
+		true
+	},
+	[33051] = {
+		680575,
+		140,
+		true
+	},
+	[33060] = {
+		680715,
+		644,
+		true
+	},
+	[33061] = {
+		681359,
+		126,
+		true
+	},
+	[33062] = {
+		681485,
+		126,
+		true
+	},
+	[33063] = {
+		681611,
+		126,
+		true
+	},
+	[33064] = {
+		681737,
+		126,
+		true
+	},
+	[33065] = {
+		681863,
+		126,
+		true
+	},
+	[33066] = {
+		681989,
+		126,
+		true
+	},
+	[33067] = {
+		682115,
+		126,
+		true
+	},
+	[33068] = {
+		682241,
+		126,
+		true
+	},
+	[33069] = {
+		682367,
+		126,
+		true
+	},
+	[33070] = {
+		682493,
+		126,
+		true
+	},
+	[33071] = {
+		682619,
+		140,
+		true
+	},
+	[33072] = {
+		682759,
+		141,
+		true
+	},
+	[33073] = {
+		682900,
+		141,
+		true
+	},
+	[33080] = {
+		683041,
+		561,
+		true
+	},
+	[33081] = {
+		683602,
+		126,
+		true
+	},
+	[33082] = {
+		683728,
+		126,
+		true
+	},
+	[33083] = {
+		683854,
+		126,
+		true
+	},
+	[33084] = {
+		683980,
+		126,
+		true
+	},
+	[33085] = {
+		684106,
+		126,
+		true
+	},
+	[33086] = {
+		684232,
+		126,
+		true
+	},
+	[33087] = {
+		684358,
+		126,
+		true
+	},
+	[33088] = {
+		684484,
+		126,
+		true
+	},
+	[33089] = {
+		684610,
+		126,
+		true
+	},
+	[33090] = {
+		684736,
+		126,
+		true
+	},
+	[33091] = {
+		684862,
+		140,
+		true
+	},
+	[33100] = {
+		685002,
+		532,
+		true
+	},
+	[33101] = {
+		685534,
+		126,
+		true
+	},
+	[33102] = {
+		685660,
+		126,
+		true
+	},
+	[33103] = {
+		685786,
+		126,
+		true
+	},
+	[33104] = {
+		685912,
+		126,
+		true
+	},
+	[33105] = {
+		686038,
+		126,
+		true
+	},
+	[33106] = {
+		686164,
+		126,
+		true
+	},
+	[33107] = {
+		686290,
+		126,
+		true
+	},
+	[33108] = {
+		686416,
+		126,
+		true
+	},
+	[33109] = {
+		686542,
+		126,
+		true
+	},
+	[33110] = {
+		686668,
+		126,
+		true
+	},
+	[33111] = {
+		686794,
+		140,
+		true
+	},
+	[33112] = {
+		686934,
+		141,
+		true
+	},
+	[33113] = {
+		687075,
+		141,
+		true
+	},
+	[34000] = {
+		687216,
+		490,
+		true
+	},
+	[34001] = {
+		687706,
+		126,
+		true
+	},
+	[34002] = {
+		687832,
+		126,
+		true
+	},
+	[34003] = {
+		687958,
+		126,
+		true
+	},
+	[34020] = {
+		688084,
+		512,
+		true
+	},
+	[34021] = {
+		688596,
+		126,
+		true
+	},
+	[34022] = {
+		688722,
+		126,
+		true
+	},
+	[34023] = {
+		688848,
+		126,
+		true
+	},
+	[34040] = {
+		688974,
+		512,
+		true
+	},
+	[34041] = {
+		689486,
+		126,
+		true
+	},
+	[34042] = {
+		689612,
+		126,
+		true
+	},
+	[34043] = {
+		689738,
+		126,
+		true
+	},
+	[34044] = {
+		689864,
+		126,
+		true
+	},
+	[34045] = {
+		689990,
+		126,
+		true
+	},
+	[34046] = {
+		690116,
+		126,
+		true
+	},
+	[34047] = {
+		690242,
+		126,
+		true
+	},
+	[34060] = {
+		690368,
+		533,
+		true
+	},
+	[34061] = {
+		690901,
+		126,
+		true
+	},
+	[34062] = {
+		691027,
+		126,
+		true
+	},
+	[34063] = {
+		691153,
+		126,
+		true
+	},
+	[34064] = {
+		691279,
+		126,
+		true
+	},
+	[34065] = {
+		691405,
+		126,
+		true
+	},
+	[34066] = {
+		691531,
+		126,
+		true
+	},
+	[34067] = {
+		691657,
+		126,
+		true
+	},
+	[34100] = {
+		691783,
+		509,
+		true
+	},
+	[34101] = {
+		692292,
+		126,
+		true
+	},
+	[34102] = {
+		692418,
+		126,
+		true
+	},
+	[34103] = {
+		692544,
+		126,
+		true
+	},
+	[34120] = {
+		692670,
+		512,
+		true
+	},
+	[34121] = {
+		693182,
+		126,
+		true
+	},
+	[34122] = {
+		693308,
+		126,
+		true
+	},
+	[34123] = {
+		693434,
+		126,
+		true
+	},
+	[34124] = {
+		693560,
+		126,
+		true
+	},
+	[34125] = {
+		693686,
+		126,
+		true
+	},
+	[34126] = {
+		693812,
+		127,
+		true
+	},
+	[34140] = {
+		693939,
+		512,
+		true
+	},
+	[34141] = {
+		694451,
+		126,
+		true
+	},
+	[34142] = {
+		694577,
+		126,
+		true
+	},
+	[34143] = {
+		694703,
+		126,
+		true
+	},
+	[34144] = {
+		694829,
+		126,
+		true
+	},
+	[34145] = {
+		694955,
+		127,
+		true
+	},
+	[34146] = {
+		695082,
+		127,
+		true
+	},
+	[34147] = {
+		695209,
+		127,
+		true
+	},
+	[34148] = {
+		695336,
+		127,
+		true
+	},
+	[34149] = {
+		695463,
+		127,
+		true
+	},
+	[34150] = {
+		695590,
+		127,
+		true
+	},
+	[34151] = {
+		695717,
+		141,
+		true
+	},
+	[34160] = {
+		695858,
+		670,
+		true
+	},
+	[34161] = {
+		696528,
+		132,
+		true
+	},
+	[34162] = {
+		696660,
+		132,
+		true
+	},
+	[34163] = {
+		696792,
+		132,
+		true
+	},
+	[34164] = {
+		696924,
+		132,
+		true
+	},
+	[34165] = {
+		697056,
+		132,
+		true
+	},
+	[34166] = {
+		697188,
+		132,
+		true
+	},
+	[34167] = {
+		697320,
+		132,
+		true
+	},
+	[34168] = {
+		697452,
+		132,
+		true
+	},
+	[34169] = {
+		697584,
+		132,
+		true
+	},
+	[34170] = {
+		697716,
+		132,
+		true
+	},
+	[34171] = {
+		697848,
+		145,
+		true
+	},
+	[34172] = {
+		697993,
+		146,
+		true
+	},
+	[34173] = {
+		698139,
+		146,
+		true
+	},
+	[34180] = {
+		698285,
+		537,
+		true
+	},
+	[34181] = {
+		698822,
+		126,
+		true
+	},
+	[34182] = {
+		698948,
+		126,
+		true
+	},
+	[34183] = {
+		699074,
+		126,
+		true
+	},
+	[34184] = {
+		699200,
+		126,
+		true
+	},
+	[34185] = {
+		699326,
+		127,
+		true
+	},
+	[34186] = {
+		699453,
+		127,
+		true
+	},
+	[34187] = {
+		699580,
+		127,
+		true
+	},
+	[34188] = {
+		699707,
+		127,
+		true
+	},
+	[34189] = {
+		699834,
+		127,
+		true
+	},
+	[34190] = {
+		699961,
+		127,
+		true
+	},
+	[34191] = {
+		700088,
+		141,
+		true
+	},
+	[34192] = {
+		700229,
+		142,
+		true
+	},
+	[34193] = {
+		700371,
+		142,
+		true
+	},
+	[34200] = {
+		700513,
+		510,
+		true
+	},
+	[34201] = {
+		701023,
+		126,
+		true
+	},
+	[34202] = {
+		701149,
+		126,
+		true
+	},
+	[34203] = {
+		701275,
+		126,
+		true
+	},
+	[34204] = {
+		701401,
+		127,
+		true
+	},
+	[34205] = {
+		701528,
+		127,
+		true
+	},
+	[34206] = {
+		701655,
+		127,
+		true
+	},
+	[34207] = {
+		701782,
+		127,
+		true
+	},
+	[34208] = {
+		701909,
+		127,
+		true
+	},
+	[34209] = {
+		702036,
+		127,
+		true
+	},
+	[34210] = {
+		702163,
+		127,
+		true
+	},
+	[34220] = {
+		702290,
+		510,
+		true
+	},
+	[34221] = {
+		702800,
+		126,
+		true
+	},
+	[34222] = {
+		702926,
+		126,
+		true
+	},
+	[34223] = {
+		703052,
+		127,
+		true
+	},
+	[34224] = {
+		703179,
+		127,
+		true
+	},
+	[34225] = {
+		703306,
+		127,
+		true
+	},
+	[34226] = {
+		703433,
+		127,
+		true
+	},
+	[34227] = {
+		703560,
+		127,
+		true
+	},
+	[34228] = {
+		703687,
+		127,
+		true
+	},
+	[34229] = {
+		703814,
+		127,
+		true
+	},
+	[34230] = {
+		703941,
+		127,
+		true
+	},
+	[34240] = {
+		704068,
+		513,
+		true
+	},
+	[34241] = {
+		704581,
+		126,
+		true
+	},
+	[34242] = {
+		704707,
+		127,
+		true
+	},
+	[34243] = {
+		704834,
+		127,
+		true
+	},
+	[34244] = {
+		704961,
+		127,
+		true
+	},
+	[34245] = {
+		705088,
+		127,
+		true
+	},
+	[34246] = {
+		705215,
+		127,
+		true
+	},
+	[34247] = {
+		705342,
+		127,
+		true
+	},
+	[34248] = {
+		705469,
+		127,
+		true
+	},
+	[34249] = {
+		705596,
+		127,
+		true
+	},
+	[34250] = {
+		705723,
+		127,
+		true
+	},
+	[34251] = {
+		705850,
+		141,
+		true
+	},
+	[34252] = {
+		705991,
+		142,
+		true
+	},
+	[34253] = {
+		706133,
+		142,
+		true
+	},
+	[34300] = {
+		706275,
+		529,
+		true
+	},
+	[34301] = {
+		706804,
+		126,
+		true
+	},
+	[34302] = {
+		706930,
+		126,
+		true
+	},
+	[34303] = {
+		707056,
+		126,
+		true
+	},
+	[34304] = {
+		707182,
+		126,
+		true
+	},
+	[34305] = {
+		707308,
+		127,
+		true
+	},
+	[34306] = {
+		707435,
+		127,
+		true
+	},
+	[34307] = {
+		707562,
+		127,
+		true
+	},
+	[34308] = {
+		707689,
+		127,
+		true
+	},
+	[34309] = {
+		707816,
+		127,
+		true
+	},
+	[34310] = {
+		707943,
+		127,
+		true
+	},
+	[34311] = {
+		708070,
+		141,
+		true
+	},
+	[35000] = {
+		708211,
+		536,
+		true
+	},
+	[35001] = {
+		708747,
+		126,
+		true
+	},
+	[35002] = {
+		708873,
+		126,
+		true
+	},
+	[35003] = {
+		708999,
+		126,
+		true
+	},
+	[35020] = {
+		709125,
+		556,
+		true
+	},
+	[35021] = {
+		709681,
+		126,
+		true
+	},
+	[35022] = {
+		709807,
+		126,
+		true
+	},
+	[35023] = {
+		709933,
+		126,
+		true
+	},
+	[35040] = {
+		710059,
+		556,
+		true
+	},
+	[35041] = {
+		710615,
+		126,
+		true
+	},
+	[35042] = {
+		710741,
+		126,
+		true
+	},
+	[35043] = {
+		710867,
+		127,
+		true
+	},
+	[35044] = {
+		710994,
+		127,
+		true
+	},
+	[35045] = {
+		711121,
+		127,
+		true
+	},
+	[35046] = {
+		711248,
+		127,
+		true
+	},
+	[35047] = {
+		711375,
+		127,
+		true
+	},
+	[35100] = {
+		711502,
+		557,
+		true
+	},
+	[35101] = {
+		712059,
+		126,
+		true
+	},
+	[35102] = {
+		712185,
+		126,
+		true
+	},
+	[35103] = {
+		712311,
+		126,
+		true
+	},
+	[35120] = {
+		712437,
+		557,
+		true
+	},
+	[35121] = {
+		712994,
+		126,
+		true
+	},
+	[35122] = {
+		713120,
+		126,
+		true
+	},
+	[35123] = {
+		713246,
+		126,
+		true
+	},
+	[35124] = {
+		713372,
+		127,
+		true
+	},
+	[35125] = {
+		713499,
+		127,
+		true
+	},
+	[35126] = {
+		713626,
+		127,
+		true
+	},
+	[35140] = {
+		713753,
+		557,
+		true
+	},
+	[35141] = {
+		714310,
+		126,
+		true
+	},
+	[35142] = {
+		714436,
+		126,
+		true
+	},
+	[35143] = {
+		714562,
+		127,
+		true
+	},
+	[35144] = {
+		714689,
+		127,
+		true
+	},
+	[35145] = {
+		714816,
+		127,
+		true
+	},
+	[35146] = {
+		714943,
+		127,
+		true
+	},
+	[35147] = {
+		715070,
+		127,
+		true
+	},
+	[35148] = {
+		715197,
+		127,
+		true
+	},
+	[35149] = {
+		715324,
+		127,
+		true
+	},
+	[35150] = {
+		715451,
+		127,
+		true
+	},
+	[35151] = {
+		715578,
+		141,
+		true
+	},
+	[35160] = {
+		715719,
+		574,
+		true
+	},
+	[35161] = {
+		716293,
+		126,
+		true
+	},
+	[35162] = {
+		716419,
+		126,
+		true
+	},
+	[35163] = {
+		716545,
+		127,
+		true
+	},
+	[35164] = {
+		716672,
+		127,
+		true
+	},
+	[35165] = {
+		716799,
+		127,
+		true
+	},
+	[35166] = {
+		716926,
+		127,
+		true
+	},
+	[35167] = {
+		717053,
+		127,
+		true
+	},
+	[35168] = {
+		717180,
+		127,
+		true
+	},
+	[35169] = {
+		717307,
+		127,
+		true
+	},
+	[35170] = {
+		717434,
+		127,
+		true
+	},
+	[35171] = {
+		717561,
+		141,
+		true
+	},
+	[35200] = {
+		717702,
+		558,
+		true
+	},
+	[35201] = {
+		718260,
+		126,
+		true
+	},
+	[35202] = {
+		718386,
+		126,
+		true
+	},
+	[35203] = {
+		718512,
+		126,
+		true
+	},
+	[35204] = {
+		718638,
+		126,
+		true
+	},
+	[35205] = {
+		718764,
+		127,
+		true
+	},
+	[35206] = {
+		718891,
+		127,
+		true
+	},
+	[35220] = {
+		719018,
+		558,
+		true
+	},
+	[35221] = {
+		719576,
+		126,
+		true
+	},
+	[35222] = {
+		719702,
+		126,
+		true
+	},
+	[35223] = {
+		719828,
+		126,
+		true
+	},
+	[35224] = {
+		719954,
+		127,
+		true
+	},
+	[35225] = {
+		720081,
+		127,
+		true
+	},
+	[35226] = {
+		720208,
+		127,
+		true
+	},
+	[35227] = {
+		720335,
+		127,
+		true
+	},
+	[35228] = {
+		720462,
+		127,
+		true
+	},
+	[35229] = {
+		720589,
+		127,
+		true
+	},
+	[35230] = {
+		720716,
+		127,
+		true
+	},
+	[35240] = {
+		720843,
+		558,
+		true
+	},
+	[35241] = {
+		721401,
+		126,
+		true
+	},
+	[35242] = {
+		721527,
+		126,
+		true
+	},
+	[35243] = {
+		721653,
+		127,
+		true
+	},
+	[35244] = {
+		721780,
+		127,
+		true
+	},
+	[35245] = {
+		721907,
+		127,
+		true
+	},
+	[35246] = {
+		722034,
+		127,
+		true
+	},
+	[35247] = {
+		722161,
+		127,
+		true
+	},
+	[35248] = {
+		722288,
+		127,
+		true
+	},
+	[35249] = {
+		722415,
+		127,
+		true
+	},
+	[35250] = {
+		722542,
+		127,
+		true
+	},
+	[35251] = {
+		722669,
+		141,
+		true
+	},
+	[35252] = {
+		722810,
+		142,
+		true
+	},
+	[35253] = {
+		722952,
+		142,
+		true
+	},
+	[35260] = {
+		723094,
+		575,
+		true
+	},
+	[35261] = {
+		723669,
+		126,
+		true
+	},
+	[35262] = {
+		723795,
+		126,
+		true
+	},
+	[35263] = {
+		723921,
+		127,
+		true
+	},
+	[35264] = {
+		724048,
+		127,
+		true
+	},
+	[35265] = {
+		724175,
+		127,
+		true
+	},
+	[35266] = {
+		724302,
+		127,
+		true
+	},
+	[35267] = {
+		724429,
+		127,
+		true
+	},
+	[35268] = {
+		724556,
+		127,
+		true
+	},
+	[35269] = {
+		724683,
+		127,
+		true
+	},
+	[35270] = {
+		724810,
+		127,
+		true
+	},
+	[35271] = {
+		724937,
+		141,
+		true
+	},
+	[35272] = {
+		725078,
+		142,
+		true
+	},
+	[35273] = {
+		725220,
+		142,
+		true
+	},
+	[35300] = {
+		725362,
+		559,
+		true
+	},
+	[35301] = {
+		725921,
+		126,
+		true
+	},
+	[35302] = {
+		726047,
+		126,
+		true
+	},
+	[35303] = {
+		726173,
+		126,
+		true
+	},
+	[35304] = {
+		726299,
+		126,
+		true
+	},
+	[35305] = {
+		726425,
+		127,
+		true
+	},
+	[35306] = {
+		726552,
+		127,
+		true
+	},
+	[35307] = {
+		726679,
+		127,
+		true
+	},
+	[35308] = {
+		726806,
+		127,
+		true
+	},
+	[35309] = {
+		726933,
+		127,
+		true
+	},
+	[35310] = {
+		727060,
+		127,
+		true
+	},
+	[35320] = {
+		727187,
+		559,
+		true
+	},
+	[35321] = {
+		727746,
+		126,
+		true
+	},
+	[35322] = {
+		727872,
+		126,
+		true
+	},
+	[35323] = {
+		727998,
+		126,
+		true
+	},
+	[35324] = {
+		728124,
+		127,
+		true
+	},
+	[35325] = {
+		728251,
+		127,
+		true
+	},
+	[35326] = {
+		728378,
+		127,
+		true
+	},
+	[35327] = {
+		728505,
+		127,
+		true
+	},
+	[35328] = {
+		728632,
+		127,
+		true
+	},
+	[35329] = {
+		728759,
+		127,
+		true
+	},
+	[35330] = {
+		728886,
+		127,
+		true
+	},
+	[35340] = {
+		729013,
+		559,
+		true
+	},
+	[35341] = {
+		729572,
+		126,
+		true
+	},
+	[35342] = {
+		729698,
+		126,
+		true
+	},
+	[35343] = {
+		729824,
+		127,
+		true
+	},
+	[35344] = {
+		729951,
+		127,
+		true
+	},
+	[35345] = {
+		730078,
+		127,
+		true
+	},
+	[35346] = {
+		730205,
+		127,
+		true
+	},
+	[35347] = {
+		730332,
+		127,
+		true
+	},
+	[35348] = {
+		730459,
+		127,
+		true
+	},
+	[35349] = {
+		730586,
+		127,
+		true
+	},
+	[35350] = {
+		730713,
+		127,
+		true
+	},
+	[35351] = {
+		730840,
+		141,
+		true
+	},
+	[35352] = {
+		730981,
+		142,
+		true
+	},
+	[35353] = {
+		731123,
+		142,
+		true
+	},
+	[35400] = {
+		731265,
+		562,
+		true
+	},
+	[35401] = {
+		731827,
+		126,
+		true
+	},
+	[35402] = {
+		731953,
+		126,
+		true
+	},
+	[35403] = {
+		732079,
+		126,
+		true
+	},
+	[35420] = {
+		732205,
+		562,
+		true
+	},
+	[35421] = {
+		732767,
+		126,
+		true
+	},
+	[35422] = {
+		732893,
+		126,
+		true
+	},
+	[35423] = {
+		733019,
+		126,
+		true
+	},
+	[35424] = {
+		733145,
+		126,
+		true
+	},
+	[35425] = {
+		733271,
+		126,
+		true
+	},
+	[35426] = {
+		733397,
+		127,
+		true
+	},
+	[35440] = {
+		733524,
+		562,
+		true
+	},
+	[35441] = {
+		734086,
+		126,
+		true
+	},
+	[35442] = {
+		734212,
+		126,
+		true
+	},
+	[35443] = {
+		734338,
+		126,
+		true
+	},
+	[35444] = {
+		734464,
+		126,
+		true
+	},
+	[35445] = {
+		734590,
+		127,
+		true
+	},
+	[35446] = {
+		734717,
+		127,
+		true
+	},
+	[35447] = {
+		734844,
+		127,
+		true
+	},
+	[35448] = {
+		734971,
+		127,
+		true
+	},
+	[35449] = {
+		735098,
+		127,
+		true
+	},
+	[35450] = {
+		735225,
+		127,
+		true
+	},
+	[35451] = {
+		735352,
+		141,
+		true
+	},
+	[35460] = {
+		735493,
+		571,
+		true
+	},
+	[35461] = {
+		736064,
+		126,
+		true
+	},
+	[35462] = {
+		736190,
+		126,
+		true
+	},
+	[35463] = {
+		736316,
+		126,
+		true
+	},
+	[35464] = {
+		736442,
+		126,
+		true
+	},
+	[35465] = {
+		736568,
+		127,
+		true
+	},
+	[35466] = {
+		736695,
+		127,
+		true
+	},
+	[35467] = {
+		736822,
+		127,
+		true
+	},
+	[35468] = {
+		736949,
+		127,
+		true
+	},
+	[35469] = {
+		737076,
+		127,
+		true
+	},
+	[35470] = {
+		737203,
+		127,
+		true
+	},
+	[35471] = {
+		737330,
+		141,
+		true
+	},
+	[35500] = {
+		737471,
+		566,
+		true
+	},
+	[35501] = {
+		738037,
+		126,
+		true
+	},
+	[35502] = {
+		738163,
+		126,
+		true
+	},
+	[35503] = {
+		738289,
+		126,
+		true
+	},
+	[35504] = {
+		738415,
+		126,
+		true
+	},
+	[35505] = {
+		738541,
+		126,
+		true
+	},
+	[35506] = {
+		738667,
+		127,
+		true
+	},
+	[35520] = {
+		738794,
+		566,
+		true
+	},
+	[35521] = {
+		739360,
+		126,
+		true
+	},
+	[35522] = {
+		739486,
+		126,
+		true
+	},
+	[35523] = {
+		739612,
+		126,
+		true
+	},
+	[35524] = {
+		739738,
+		126,
+		true
+	},
+	[35525] = {
+		739864,
+		127,
+		true
+	},
+	[35526] = {
+		739991,
+		127,
+		true
+	},
+	[35527] = {
+		740118,
+		127,
+		true
+	},
+	[35528] = {
+		740245,
+		127,
+		true
+	},
+	[35529] = {
+		740372,
+		127,
+		true
+	},
+	[35530] = {
+		740499,
+		127,
+		true
+	},
+	[35540] = {
+		740626,
+		566,
+		true
+	},
+	[35541] = {
+		741192,
+		126,
+		true
+	},
+	[35542] = {
+		741318,
+		126,
+		true
+	},
+	[35543] = {
+		741444,
+		127,
+		true
+	},
+	[35544] = {
+		741571,
+		127,
+		true
+	},
+	[35545] = {
+		741698,
+		127,
+		true
+	},
+	[35546] = {
+		741825,
+		127,
+		true
+	},
+	[35547] = {
+		741952,
+		127,
+		true
+	},
+	[35548] = {
+		742079,
+		127,
+		true
+	},
+	[35549] = {
+		742206,
+		127,
+		true
+	},
+	[35550] = {
+		742333,
+		127,
+		true
+	},
+	[35551] = {
+		742460,
+		141,
+		true
+	},
+	[35552] = {
+		742601,
+		142,
+		true
+	},
+	[35553] = {
+		742743,
+		142,
+		true
+	},
+	[35560] = {
+		742885,
+		575,
+		true
+	},
+	[35561] = {
+		743460,
+		126,
+		true
+	},
+	[35562] = {
+		743586,
+		126,
+		true
+	},
+	[35563] = {
+		743712,
+		127,
+		true
+	},
+	[35564] = {
+		743839,
+		127,
+		true
+	},
+	[35565] = {
+		743966,
+		127,
+		true
+	},
+	[35566] = {
+		744093,
+		127,
+		true
+	},
+	[35567] = {
+		744220,
+		127,
+		true
+	},
+	[35568] = {
+		744347,
+		127,
+		true
+	},
+	[35569] = {
+		744474,
+		127,
+		true
+	},
+	[35570] = {
+		744601,
+		127,
+		true
+	},
+	[35571] = {
+		744728,
+		141,
+		true
+	},
+	[35572] = {
+		744869,
+		142,
+		true
+	},
+	[35573] = {
+		745011,
+		142,
+		true
+	},
+	[36100] = {
+		745153,
+		508,
+		true
+	},
+	[36101] = {
+		745661,
+		125,
+		true
+	},
+	[36102] = {
+		745786,
+		126,
+		true
+	},
+	[36103] = {
+		745912,
+		126,
+		true
+	},
+	[36120] = {
+		746038,
+		533,
+		true
+	},
+	[36121] = {
+		746571,
+		126,
+		true
+	},
+	[36122] = {
+		746697,
+		126,
+		true
+	},
+	[36123] = {
+		746823,
+		126,
+		true
+	},
+	[36140] = {
+		746949,
+		534,
+		true
+	},
+	[36141] = {
+		747483,
+		126,
+		true
+	},
+	[36142] = {
+		747609,
+		126,
+		true
+	},
+	[36143] = {
+		747735,
+		126,
+		true
+	},
+	[36144] = {
+		747861,
+		126,
+		true
+	},
+	[36145] = {
+		747987,
+		126,
+		true
+	},
+	[36146] = {
+		748113,
+		126,
+		true
+	},
+	[36147] = {
+		748239,
+		126,
+		true
+	},
+	[36200] = {
+		748365,
+		541,
+		true
+	},
+	[36201] = {
+		748906,
+		126,
+		true
+	},
+	[36202] = {
+		749032,
+		126,
+		true
+	},
+	[36203] = {
+		749158,
+		126,
+		true
+	},
+	[36220] = {
+		749284,
+		541,
+		true
+	},
+	[36221] = {
+		749825,
+		126,
+		true
+	},
+	[36222] = {
+		749951,
+		126,
+		true
+	},
+	[36223] = {
+		750077,
+		126,
+		true
+	},
+	[36224] = {
+		750203,
+		126,
+		true
+	},
+	[36225] = {
+		750329,
+		126,
+		true
+	},
+	[36226] = {
+		750455,
+		126,
+		true
+	},
+	[36240] = {
+		750581,
+		541,
+		true
+	},
+	[36241] = {
+		751122,
+		126,
+		true
+	},
+	[36242] = {
+		751248,
+		126,
+		true
+	},
+	[36243] = {
+		751374,
+		126,
+		true
+	},
+	[36244] = {
+		751500,
+		126,
+		true
+	},
+	[36245] = {
+		751626,
+		126,
+		true
+	},
+	[36246] = {
+		751752,
+		126,
+		true
+	},
+	[36247] = {
+		751878,
+		126,
+		true
+	},
+	[36248] = {
+		752004,
+		126,
+		true
+	},
+	[36249] = {
+		752130,
+		126,
+		true
+	},
+	[36250] = {
+		752256,
+		126,
+		true
+	},
+	[36251] = {
+		752382,
+		140,
+		true
+	},
+	[36300] = {
+		752522,
+		542,
+		true
+	},
+	[36301] = {
+		753064,
+		126,
+		true
+	},
+	[36302] = {
+		753190,
+		126,
+		true
+	},
+	[36303] = {
+		753316,
+		126,
+		true
+	},
+	[36320] = {
+		753442,
+		542,
+		true
+	},
+	[36321] = {
+		753984,
+		126,
+		true
+	},
+	[36322] = {
+		754110,
+		126,
+		true
+	},
+	[36323] = {
+		754236,
+		126,
+		true
+	},
+	[36324] = {
+		754362,
+		126,
+		true
+	},
+	[36325] = {
+		754488,
+		126,
+		true
+	},
+	[36326] = {
+		754614,
+		126,
+		true
+	},
+	[36340] = {
+		754740,
+		542,
+		true
+	},
+	[36341] = {
+		755282,
+		126,
+		true
+	},
+	[36342] = {
+		755408,
+		126,
+		true
+	},
+	[36343] = {
+		755534,
+		126,
+		true
+	},
+	[36344] = {
+		755660,
+		126,
+		true
+	},
+	[36345] = {
+		755786,
+		126,
+		true
+	},
+	[36346] = {
+		755912,
+		126,
+		true
+	},
+	[36347] = {
+		756038,
+		126,
+		true
+	},
+	[36348] = {
+		756164,
+		126,
+		true
+	},
+	[36349] = {
+		756290,
+		126,
+		true
+	},
+	[36350] = {
+		756416,
+		126,
+		true
+	},
+	[36351] = {
+		756542,
+		140,
+		true
+	},
+	[36360] = {
+		756682,
+		564,
+		true
+	},
+	[36361] = {
+		757246,
+		126,
+		true
+	},
+	[36362] = {
+		757372,
+		126,
+		true
+	},
+	[36363] = {
+		757498,
+		126,
+		true
+	},
+	[36364] = {
+		757624,
+		126,
+		true
+	},
+	[36365] = {
+		757750,
+		126,
+		true
+	},
+	[36366] = {
+		757876,
+		126,
+		true
+	},
+	[36367] = {
+		758002,
+		126,
+		true
+	},
+	[36368] = {
+		758128,
+		126,
+		true
+	},
+	[36369] = {
+		758254,
+		126,
+		true
+	},
+	[36370] = {
+		758380,
+		126,
+		true
+	},
+	[36371] = {
+		758506,
+		140,
+		true
+	},
+	[36372] = {
+		758646,
+		141,
+		true
+	},
+	[36373] = {
+		758787,
+		141,
+		true
+	},
+	[36400] = {
+		758928,
+		541,
+		true
+	},
+	[36401] = {
+		759469,
+		126,
+		true
+	},
+	[36402] = {
+		759595,
+		126,
+		true
+	},
+	[36403] = {
+		759721,
+		126,
+		true
+	},
+	[36420] = {
+		759847,
+		541,
+		true
+	},
+	[36421] = {
+		760388,
+		126,
+		true
+	},
+	[36422] = {
+		760514,
+		126,
+		true
+	},
+	[36423] = {
+		760640,
+		126,
+		true
+	},
+	[36424] = {
+		760766,
+		126,
+		true
+	},
+	[36425] = {
+		760892,
+		126,
+		true
+	},
+	[36426] = {
+		761018,
+		126,
+		true
+	},
+	[36440] = {
+		761144,
+		541,
+		true
+	},
+	[36441] = {
+		761685,
+		126,
+		true
+	},
+	[36442] = {
+		761811,
+		126,
+		true
+	},
+	[36443] = {
+		761937,
+		126,
+		true
+	},
+	[36444] = {
+		762063,
+		126,
+		true
+	},
+	[36445] = {
+		762189,
+		126,
+		true
+	},
+	[36446] = {
+		762315,
+		126,
+		true
+	},
+	[36447] = {
+		762441,
+		126,
+		true
+	},
+	[36448] = {
+		762567,
+		126,
+		true
+	},
+	[36449] = {
+		762693,
+		126,
+		true
+	},
+	[36450] = {
+		762819,
+		126,
+		true
+	},
+	[36451] = {
+		762945,
+		140,
+		true
+	},
+	[36500] = {
+		763085,
+		527,
+		true
+	},
+	[36501] = {
+		763612,
+		126,
+		true
+	},
+	[36502] = {
+		763738,
+		126,
+		true
+	},
+	[36503] = {
+		763864,
+		126,
+		true
+	},
+	[36520] = {
+		763990,
+		527,
+		true
+	},
+	[36521] = {
+		764517,
+		126,
+		true
+	},
+	[36522] = {
+		764643,
+		126,
+		true
+	},
+	[36523] = {
+		764769,
+		126,
+		true
+	},
+	[36524] = {
+		764895,
+		126,
+		true
+	},
+	[36525] = {
+		765021,
+		126,
+		true
+	},
+	[36526] = {
+		765147,
+		126,
+		true
+	},
+	[36540] = {
+		765273,
+		527,
+		true
+	},
+	[36541] = {
+		765800,
+		126,
+		true
+	},
+	[36542] = {
+		765926,
+		126,
+		true
+	},
+	[36543] = {
+		766052,
+		126,
+		true
+	},
+	[36544] = {
+		766178,
+		126,
+		true
+	},
+	[36545] = {
+		766304,
+		126,
+		true
+	},
+	[36546] = {
+		766430,
+		126,
+		true
+	},
+	[36547] = {
+		766556,
+		126,
+		true
+	},
+	[36548] = {
+		766682,
+		126,
+		true
+	},
+	[36549] = {
+		766808,
+		126,
+		true
+	},
+	[36550] = {
+		766934,
+		126,
+		true
+	},
+	[36551] = {
+		767060,
+		140,
+		true
+	},
+	[36560] = {
+		767200,
+		549,
+		true
+	},
+	[36561] = {
+		767749,
+		126,
+		true
+	},
+	[36562] = {
+		767875,
+		126,
+		true
+	},
+	[36563] = {
+		768001,
+		126,
+		true
+	},
+	[36564] = {
+		768127,
+		126,
+		true
+	},
+	[36565] = {
+		768253,
+		126,
+		true
+	},
+	[36566] = {
+		768379,
+		126,
+		true
+	},
+	[36567] = {
+		768505,
+		127,
+		true
+	},
+	[36568] = {
+		768632,
+		127,
+		true
+	},
+	[36569] = {
+		768759,
+		127,
+		true
+	},
+	[36570] = {
+		768886,
+		127,
+		true
+	},
+	[36571] = {
+		769013,
+		141,
+		true
+	},
+	[36572] = {
+		769154,
+		142,
+		true
+	},
+	[36573] = {
+		769296,
+		142,
+		true
+	},
+	[36580] = {
+		769438,
+		541,
+		true
+	},
+	[36581] = {
+		769979,
+		126,
+		true
+	},
+	[36582] = {
+		770105,
+		126,
+		true
+	},
+	[36583] = {
+		770231,
+		126,
+		true
+	},
+	[36584] = {
+		770357,
+		126,
+		true
+	},
+	[36585] = {
+		770483,
+		126,
+		true
+	},
+	[36586] = {
+		770609,
+		126,
+		true
+	},
+	[36587] = {
+		770735,
+		126,
+		true
+	},
+	[36588] = {
+		770861,
+		126,
+		true
+	},
+	[36589] = {
+		770987,
+		126,
+		true
+	},
+	[36590] = {
+		771113,
+		126,
+		true
+	},
+	[36591] = {
+		771239,
+		140,
+		true
+	},
+	[36600] = {
+		771379,
+		535,
+		true
+	},
+	[36601] = {
+		771914,
+		126,
+		true
+	},
+	[36602] = {
+		772040,
+		126,
+		true
+	},
+	[36603] = {
+		772166,
+		126,
+		true
+	},
+	[36620] = {
+		772292,
+		535,
+		true
+	},
+	[36621] = {
+		772827,
+		126,
+		true
+	},
+	[36622] = {
+		772953,
+		126,
+		true
+	},
+	[36623] = {
+		773079,
+		126,
+		true
+	},
+	[36624] = {
+		773205,
+		126,
+		true
+	},
+	[36625] = {
+		773331,
+		126,
+		true
+	},
+	[36626] = {
+		773457,
+		126,
+		true
+	},
+	[36640] = {
+		773583,
+		535,
+		true
+	},
+	[36641] = {
+		774118,
+		126,
+		true
+	},
+	[36642] = {
+		774244,
+		126,
+		true
+	},
+	[36643] = {
+		774370,
+		126,
+		true
+	},
+	[36644] = {
+		774496,
+		126,
+		true
+	},
+	[36645] = {
+		774622,
+		126,
+		true
+	},
+	[36646] = {
+		774748,
+		126,
+		true
+	},
+	[36647] = {
+		774874,
+		126,
+		true
+	},
+	[36648] = {
+		775000,
+		127,
+		true
+	},
+	[36649] = {
+		775127,
+		127,
+		true
+	},
+	[36650] = {
+		775254,
+		127,
+		true
+	},
+	[36651] = {
+		775381,
+		141,
+		true
+	},
+	[36660] = {
+		775522,
+		552,
+		true
+	},
+	[36661] = {
+		776074,
+		126,
+		true
+	},
+	[36662] = {
+		776200,
+		126,
+		true
+	},
+	[36663] = {
+		776326,
+		126,
+		true
+	},
+	[36664] = {
+		776452,
+		126,
+		true
+	},
+	[36665] = {
+		776578,
+		126,
+		true
+	},
+	[36666] = {
+		776704,
+		126,
+		true
+	},
+	[36667] = {
+		776830,
+		127,
+		true
+	},
+	[36668] = {
+		776957,
+		127,
+		true
+	},
+	[36669] = {
+		777084,
+		127,
+		true
+	},
+	[36670] = {
+		777211,
+		127,
+		true
+	},
+	[36671] = {
+		777338,
+		141,
+		true
+	},
+	[36672] = {
+		777479,
+		142,
+		true
+	},
+	[36673] = {
+		777621,
+		142,
+		true
+	},
+	[36700] = {
+		777763,
+		562,
+		true
+	},
+	[36701] = {
+		778325,
+		126,
+		true
+	},
+	[36702] = {
+		778451,
+		126,
+		true
+	},
+	[36703] = {
+		778577,
+		126,
+		true
+	},
+	[36704] = {
+		778703,
+		126,
+		true
+	},
+	[36705] = {
+		778829,
+		126,
+		true
+	},
+	[36706] = {
+		778955,
+		126,
+		true
+	},
+	[36707] = {
+		779081,
+		126,
+		true
+	},
+	[36708] = {
+		779207,
+		126,
+		true
+	},
+	[36709] = {
+		779333,
+		126,
+		true
+	},
+	[36710] = {
+		779459,
+		126,
+		true
+	},
+	[36711] = {
+		779585,
+		140,
+		true
+	},
+	[36712] = {
+		779725,
+		141,
+		true
+	},
+	[36713] = {
+		779866,
+		141,
+		true
+	},
+	[37000] = {
+		780007,
+		481,
+		true
+	},
+	[37001] = {
+		780488,
+		153,
+		true
+	},
+	[37002] = {
+		780641,
+		153,
+		true
+	},
+	[37003] = {
+		780794,
+		153,
+		true
+	},
+	[37020] = {
+		780947,
+		497,
+		true
+	},
+	[37021] = {
+		781444,
+		153,
+		true
+	},
+	[37022] = {
+		781597,
+		153,
+		true
+	},
+	[37023] = {
+		781750,
+		153,
+		true
+	},
+	[37040] = {
+		781903,
+		497,
+		true
+	},
+	[37041] = {
+		782400,
+		153,
+		true
+	},
+	[37042] = {
+		782553,
+		153,
+		true
+	},
+	[37043] = {
+		782706,
+		153,
+		true
+	},
+	[37044] = {
+		782859,
+		153,
+		true
+	},
+	[37045] = {
+		783012,
+		153,
+		true
+	},
+	[37046] = {
+		783165,
+		153,
+		true
+	},
+	[37047] = {
+		783318,
+		153,
+		true
+	},
+	[37100] = {
+		783471,
+		527,
+		true
+	},
+	[37101] = {
+		783998,
+		189,
+		true
+	},
+	[37102] = {
+		784187,
+		189,
+		true
+	},
+	[37103] = {
+		784376,
+		189,
+		true
+	},
+	[37120] = {
+		784565,
+		527,
+		true
+	},
+	[37121] = {
+		785092,
+		189,
+		true
+	},
+	[37122] = {
+		785281,
+		189,
+		true
+	},
+	[37123] = {
+		785470,
+		189,
+		true
+	},
+	[37124] = {
+		785659,
+		189,
+		true
+	},
+	[37125] = {
+		785848,
+		189,
+		true
+	},
+	[37126] = {
+		786037,
+		189,
+		true
+	},
+	[37140] = {
+		786226,
+		527,
+		true
+	},
+	[37141] = {
+		786753,
+		189,
+		true
+	},
+	[37142] = {
+		786942,
+		189,
+		true
+	},
+	[37143] = {
+		787131,
+		189,
+		true
+	},
+	[37144] = {
+		787320,
+		189,
+		true
+	},
+	[37145] = {
+		787509,
+		189,
+		true
+	},
+	[37146] = {
+		787698,
+		189,
+		true
+	},
+	[37147] = {
+		787887,
+		189,
+		true
+	},
+	[37148] = {
+		788076,
+		189,
+		true
+	},
+	[37149] = {
+		788265,
+		189,
+		true
+	},
+	[37150] = {
+		788454,
+		189,
+		true
+	},
+	[37151] = {
+		788643,
+		202,
+		true
+	},
+	[37160] = {
+		788845,
+		541,
+		true
+	},
+	[37161] = {
+		789386,
+		189,
+		true
+	},
+	[37162] = {
+		789575,
+		189,
+		true
+	},
+	[37163] = {
+		789764,
+		189,
+		true
+	},
+	[37164] = {
+		789953,
+		189,
+		true
+	},
+	[37165] = {
+		790142,
+		189,
+		true
+	},
+	[37166] = {
+		790331,
+		189,
+		true
+	},
+	[37167] = {
+		790520,
+		189,
+		true
+	},
+	[37168] = {
+		790709,
+		189,
+		true
+	},
+	[37169] = {
+		790898,
+		189,
+		true
+	},
+	[37170] = {
+		791087,
+		189,
+		true
+	},
+	[37171] = {
+		791276,
+		202,
+		true
+	},
+	[37200] = {
+		791478,
+		527,
+		true
+	},
+	[37201] = {
+		792005,
+		189,
+		true
+	},
+	[37202] = {
+		792194,
+		189,
+		true
+	},
+	[37203] = {
+		792383,
+		189,
+		true
+	},
+	[37204] = {
+		792572,
+		189,
+		true
+	},
+	[37205] = {
+		792761,
+		189,
+		true
+	},
+	[37206] = {
+		792950,
+		189,
+		true
+	},
+	[37220] = {
+		793139,
+		527,
+		true
+	},
+	[37221] = {
+		793666,
+		189,
+		true
+	},
+	[37222] = {
+		793855,
+		189,
+		true
+	},
+	[37223] = {
+		794044,
+		189,
+		true
+	},
+	[37224] = {
+		794233,
+		189,
+		true
+	},
+	[37225] = {
+		794422,
+		189,
+		true
+	},
+	[37226] = {
+		794611,
+		189,
+		true
+	},
+	[37227] = {
+		794800,
+		189,
+		true
+	},
+	[37228] = {
+		794989,
+		189,
+		true
+	},
+	[37229] = {
+		795178,
+		189,
+		true
+	},
+	[37230] = {
+		795367,
+		189,
+		true
+	},
+	[37240] = {
+		795556,
+		527,
+		true
+	},
+	[37241] = {
+		796083,
+		189,
+		true
+	},
+	[37242] = {
+		796272,
+		189,
+		true
+	},
+	[37243] = {
+		796461,
+		189,
+		true
+	},
+	[37244] = {
+		796650,
+		189,
+		true
+	},
+	[37245] = {
+		796839,
+		189,
+		true
+	},
+	[37246] = {
+		797028,
+		189,
+		true
+	},
+	[37247] = {
+		797217,
+		189,
+		true
+	},
+	[37248] = {
+		797406,
+		189,
+		true
+	},
+	[37249] = {
+		797595,
+		189,
+		true
+	},
+	[37250] = {
+		797784,
+		189,
+		true
+	},
+	[37251] = {
+		797973,
+		202,
+		true
+	},
+	[37252] = {
+		798175,
+		203,
+		true
+	},
+	[37253] = {
+		798378,
+		203,
+		true
+	},
+	[37300] = {
+		798581,
+		589,
+		true
+	},
+	[37301] = {
+		799170,
+		171,
+		true
+	},
+	[37302] = {
+		799341,
+		171,
+		true
+	},
+	[37303] = {
+		799512,
+		171,
+		true
+	},
+	[37304] = {
+		799683,
+		171,
+		true
+	},
+	[37305] = {
+		799854,
+		171,
+		true
+	},
+	[37306] = {
+		800025,
+		171,
+		true
+	},
+	[37320] = {
+		800196,
+		589,
+		true
+	},
+	[37321] = {
+		800785,
+		171,
+		true
+	},
+	[37322] = {
+		800956,
+		171,
+		true
+	},
+	[37323] = {
+		801127,
+		171,
+		true
+	},
+	[37324] = {
+		801298,
+		171,
+		true
+	},
+	[37325] = {
+		801469,
+		171,
+		true
+	},
+	[37326] = {
+		801640,
+		171,
+		true
+	},
+	[37327] = {
+		801811,
+		171,
+		true
+	},
+	[37328] = {
+		801982,
+		171,
+		true
+	},
+	[37329] = {
+		802153,
+		171,
+		true
+	},
+	[37330] = {
+		802324,
+		171,
+		true
+	},
+	[37340] = {
+		802495,
+		589,
+		true
+	},
+	[37341] = {
+		803084,
+		171,
+		true
+	},
+	[37342] = {
+		803255,
+		171,
+		true
+	},
+	[37343] = {
+		803426,
+		171,
+		true
+	},
+	[37344] = {
+		803597,
+		171,
+		true
+	},
+	[37345] = {
+		803768,
+		171,
+		true
+	},
+	[37346] = {
+		803939,
+		171,
+		true
+	},
+	[37347] = {
+		804110,
+		171,
+		true
+	},
+	[37348] = {
+		804281,
+		171,
+		true
+	},
+	[37349] = {
+		804452,
+		171,
+		true
+	},
+	[37350] = {
+		804623,
+		171,
+		true
+	},
+	[37351] = {
+		804794,
+		184,
+		true
+	},
+	[37352] = {
+		804978,
+		185,
+		true
+	},
+	[37353] = {
+		805163,
+		185,
+		true
+	},
+	[37400] = {
+		805348,
+		575,
+		true
+	},
+	[37401] = {
+		805923,
+		189,
+		true
+	},
+	[37402] = {
+		806112,
+		189,
+		true
+	},
+	[37403] = {
+		806301,
+		189,
+		true
+	},
+	[37404] = {
+		806490,
+		189,
+		true
+	},
+	[37405] = {
+		806679,
+		189,
+		true
+	},
+	[37406] = {
+		806868,
+		189,
+		true
+	},
+	[37407] = {
+		807057,
+		189,
+		true
+	},
+	[37408] = {
+		807246,
+		189,
+		true
+	},
+	[37409] = {
+		807435,
+		189,
+		true
+	},
+	[37410] = {
+		807624,
+		189,
+		true
+	},
+	[37411] = {
+		807813,
+		202,
+		true
+	},
+	[37412] = {
+		808015,
+		203,
+		true
+	},
+	[37413] = {
+		808218,
+		203,
+		true
+	},
+	[37420] = {
+		808421,
+		549,
+		true
+	},
+	[37421] = {
+		808970,
+		189,
+		true
+	},
+	[37422] = {
+		809159,
+		189,
+		true
+	},
+	[37423] = {
+		809348,
+		189,
+		true
+	},
+	[37424] = {
+		809537,
+		189,
+		true
+	},
+	[37425] = {
+		809726,
+		189,
+		true
+	},
+	[37426] = {
+		809915,
+		189,
+		true
+	},
+	[37427] = {
+		810104,
+		189,
+		true
+	},
+	[37428] = {
+		810293,
+		189,
+		true
+	},
+	[37429] = {
+		810482,
+		189,
+		true
+	},
+	[37430] = {
+		810671,
+		189,
+		true
+	},
+	[37431] = {
+		810860,
+		202,
+		true
+	},
+	[37440] = {
+		811062,
+		552,
+		true
+	},
+	[37441] = {
+		811614,
+		189,
+		true
+	},
+	[37442] = {
+		811803,
+		189,
+		true
+	},
+	[37443] = {
+		811992,
+		189,
+		true
+	},
+	[37444] = {
+		812181,
+		189,
+		true
+	},
+	[37445] = {
+		812370,
+		189,
+		true
+	},
+	[37446] = {
+		812559,
+		189,
+		true
+	},
+	[37447] = {
+		812748,
+		189,
+		true
+	},
+	[37448] = {
+		812937,
+		189,
+		true
+	},
+	[37449] = {
+		813126,
+		189,
+		true
+	},
+	[37450] = {
+		813315,
+		189,
+		true
+	},
+	[37451] = {
+		813504,
+		202,
+		true
+	},
+	[38000] = {
+		813706,
+		495,
+		true
+	},
+	[38001] = {
+		814201,
+		167,
+		true
+	},
+	[38002] = {
+		814368,
+		167,
+		true
+	},
+	[38003] = {
+		814535,
+		167,
+		true
+	},
+	[38020] = {
+		814702,
+		511,
+		true
+	},
+	[38021] = {
+		815213,
+		167,
+		true
+	},
+	[38022] = {
+		815380,
+		167,
+		true
+	},
+	[38023] = {
+		815547,
+		167,
+		true
+	},
+	[38040] = {
+		815714,
+		511,
+		true
+	},
+	[38041] = {
+		816225,
+		167,
+		true
+	},
+	[38042] = {
+		816392,
+		167,
+		true
+	},
+	[38043] = {
+		816559,
+		167,
+		true
+	},
+	[38044] = {
+		816726,
+		167,
+		true
+	},
+	[38045] = {
+		816893,
+		167,
+		true
+	},
+	[38046] = {
+		817060,
+		167,
+		true
+	},
+	[38047] = {
+		817227,
+		167,
+		true
+	},
+	[38060] = {
+		817394,
+		528,
+		true
+	},
+	[38061] = {
+		817922,
+		167,
+		true
+	},
+	[38062] = {
+		818089,
+		167,
+		true
+	},
+	[38063] = {
+		818256,
+		167,
+		true
+	},
+	[38064] = {
+		818423,
+		167,
+		true
+	},
+	[38065] = {
+		818590,
+		167,
+		true
+	},
+	[38066] = {
+		818757,
+		167,
+		true
+	},
+	[38067] = {
+		818924,
+		167,
+		true
+	},
+	[38100] = {
+		819091,
+		496,
+		true
+	},
+	[38101] = {
+		819587,
+		167,
+		true
+	},
+	[38102] = {
+		819754,
+		167,
+		true
+	},
+	[38103] = {
+		819921,
+		167,
+		true
+	},
+	[38120] = {
+		820088,
+		496,
+		true
+	},
+	[38121] = {
+		820584,
+		167,
+		true
+	},
+	[38122] = {
+		820751,
+		167,
+		true
+	},
+	[38123] = {
+		820918,
+		167,
+		true
+	},
+	[38124] = {
+		821085,
+		167,
+		true
+	},
+	[38125] = {
+		821252,
+		167,
+		true
+	},
+	[38126] = {
+		821419,
+		167,
+		true
+	},
+	[38140] = {
+		821586,
+		496,
+		true
+	},
+	[38141] = {
+		822082,
+		167,
+		true
+	},
+	[38142] = {
+		822249,
+		167,
+		true
+	},
+	[38143] = {
+		822416,
+		167,
+		true
+	},
+	[38144] = {
+		822583,
+		167,
+		true
+	},
+	[38145] = {
+		822750,
+		167,
+		true
+	},
+	[38146] = {
+		822917,
+		167,
+		true
+	},
+	[38147] = {
+		823084,
+		167,
+		true
+	},
+	[38148] = {
+		823251,
+		167,
+		true
+	},
+	[38149] = {
+		823418,
+		167,
+		true
+	},
+	[38150] = {
+		823585,
+		167,
+		true
+	},
+	[38151] = {
+		823752,
+		180,
+		true
+	},
+	[38160] = {
+		823932,
+		531,
+		true
+	},
+	[38161] = {
+		824463,
+		185,
+		true
+	},
+	[38162] = {
+		824648,
+		185,
+		true
+	},
+	[38163] = {
+		824833,
+		185,
+		true
+	},
+	[38164] = {
+		825018,
+		185,
+		true
+	},
+	[38165] = {
+		825203,
+		185,
+		true
+	},
+	[38166] = {
+		825388,
+		185,
+		true
+	},
+	[38167] = {
+		825573,
+		185,
+		true
+	},
+	[38168] = {
+		825758,
+		185,
+		true
+	},
+	[38169] = {
+		825943,
+		185,
+		true
+	},
+	[38170] = {
+		826128,
+		185,
+		true
+	},
+	[38171] = {
+		826313,
+		198,
+		true
+	},
+	[38200] = {
+		826511,
+		601,
+		true
+	},
+	[38201] = {
+		827112,
+		185,
+		true
+	},
+	[38202] = {
+		827297,
+		185,
+		true
+	},
+	[38203] = {
+		827482,
+		185,
+		true
+	},
+	[38204] = {
+		827667,
+		185,
+		true
+	},
+	[38205] = {
+		827852,
+		185,
+		true
+	},
+	[38206] = {
+		828037,
+		185,
+		true
+	},
+	[38220] = {
+		828222,
+		601,
+		true
+	},
+	[38221] = {
+		828823,
+		185,
+		true
+	},
+	[38222] = {
+		829008,
+		185,
+		true
+	},
+	[38223] = {
+		829193,
+		185,
+		true
+	},
+	[38224] = {
+		829378,
+		185,
+		true
+	},
+	[38225] = {
+		829563,
+		185,
+		true
+	},
+	[38226] = {
+		829748,
+		185,
+		true
+	},
+	[38227] = {
+		829933,
+		185,
+		true
+	},
+	[38228] = {
+		830118,
+		185,
+		true
+	},
+	[38229] = {
+		830303,
+		185,
+		true
+	},
+	[38230] = {
+		830488,
+		185,
+		true
+	},
+	[38240] = {
+		830673,
+		601,
+		true
+	},
+	[38241] = {
+		831274,
+		185,
+		true
+	},
+	[38242] = {
+		831459,
+		185,
+		true
+	},
+	[38243] = {
+		831644,
+		185,
+		true
+	},
+	[38244] = {
+		831829,
+		185,
+		true
+	},
+	[38245] = {
+		832014,
+		185,
+		true
+	},
+	[38246] = {
+		832199,
+		185,
+		true
+	},
+	[38247] = {
+		832384,
+		185,
+		true
+	},
+	[38248] = {
+		832569,
+		185,
+		true
+	},
+	[38249] = {
+		832754,
+		185,
+		true
+	},
+	[38250] = {
+		832939,
+		185,
+		true
+	},
+	[38251] = {
+		833124,
+		198,
+		true
+	},
+	[38252] = {
+		833322,
+		199,
+		true
+	},
+	[38253] = {
+		833521,
+		199,
+		true
+	},
+	[38300] = {
+		833720,
+		523,
+		true
+	},
+	[38301] = {
+		834243,
+		167,
+		true
+	},
+	[38302] = {
+		834410,
+		167,
+		true
+	},
+	[38303] = {
+		834577,
+		167,
+		true
+	},
+	[38304] = {
+		834744,
+		167,
+		true
+	},
+	[38305] = {
+		834911,
+		167,
+		true
+	},
+	[38306] = {
+		835078,
+		167,
+		true
+	},
+	[38307] = {
+		835245,
+		167,
+		true
+	},
+	[38308] = {
+		835412,
+		167,
+		true
+	},
+	[38309] = {
+		835579,
+		167,
+		true
+	},
+	[38310] = {
+		835746,
+		167,
+		true
+	},
+	[38311] = {
+		835913,
+		180,
+		true
+	},
+	[38312] = {
+		836093,
+		181,
+		true
+	},
+	[38313] = {
+		836274,
+		181,
+		true
+	},
+	[39000] = {
+		836455,
+		529,
+		true
+	},
+	[39001] = {
+		836984,
+		185,
+		true
+	},
+	[39002] = {
+		837169,
+		185,
+		true
+	},
+	[39003] = {
+		837354,
+		185,
+		true
+	},
+	[39020] = {
+		837539,
+		529,
+		true
+	},
+	[39021] = {
+		838068,
+		185,
+		true
+	},
+	[39022] = {
+		838253,
+		185,
+		true
+	},
+	[39023] = {
+		838438,
+		185,
+		true
+	},
+	[39024] = {
+		838623,
+		185,
+		true
+	},
+	[39025] = {
+		838808,
+		185,
+		true
+	},
+	[39026] = {
+		838993,
+		185,
+		true
+	},
+	[39040] = {
+		839178,
+		529,
+		true
+	},
+	[39041] = {
+		839707,
+		185,
+		true
+	},
+	[39042] = {
+		839892,
+		185,
+		true
+	},
+	[39043] = {
+		840077,
+		185,
+		true
+	},
+	[39044] = {
+		840262,
+		185,
+		true
+	},
+	[39045] = {
+		840447,
+		185,
+		true
+	},
+	[39046] = {
+		840632,
+		185,
+		true
+	},
+	[39047] = {
+		840817,
+		185,
+		true
+	},
+	[39048] = {
+		841002,
+		185,
+		true
+	},
+	[39049] = {
+		841187,
+		185,
+		true
+	},
+	[39050] = {
+		841372,
+		185,
+		true
+	},
+	[39051] = {
+		841557,
+		198,
+		true
+	},
+	[39060] = {
+		841755,
+		546,
+		true
+	},
+	[39061] = {
+		842301,
+		185,
+		true
+	},
+	[39062] = {
+		842486,
+		185,
+		true
+	},
+	[39063] = {
+		842671,
+		185,
+		true
+	},
+	[39064] = {
+		842856,
+		185,
+		true
+	},
+	[39065] = {
+		843041,
+		185,
+		true
+	},
+	[39066] = {
+		843226,
+		185,
+		true
+	},
+	[39067] = {
+		843411,
+		185,
+		true
+	},
+	[39068] = {
+		843596,
+		185,
+		true
+	},
+	[39069] = {
+		843781,
+		185,
+		true
+	},
+	[39070] = {
+		843966,
+		185,
+		true
+	},
+	[39071] = {
+		844151,
+		198,
+		true
+	},
+	[39100] = {
+		844349,
+		520,
+		true
+	},
+	[39101] = {
+		844869,
+		185,
+		true
+	},
+	[39102] = {
+		845054,
+		185,
+		true
+	},
+	[39103] = {
+		845239,
+		185,
+		true
+	},
+	[39104] = {
+		845424,
+		185,
+		true
+	},
+	[39105] = {
+		845609,
+		185,
+		true
+	},
+	[39106] = {
+		845794,
+		185,
+		true
+	},
+	[39120] = {
+		845979,
+		520,
+		true
+	},
+	[39121] = {
+		846499,
+		185,
+		true
+	},
+	[39122] = {
+		846684,
+		185,
+		true
+	},
+	[39123] = {
+		846869,
+		185,
+		true
+	},
+	[39124] = {
+		847054,
+		185,
+		true
+	},
+	[39125] = {
+		847239,
+		185,
+		true
+	},
+	[39126] = {
+		847424,
+		185,
+		true
+	},
+	[39127] = {
+		847609,
+		185,
+		true
+	},
+	[39128] = {
+		847794,
+		185,
+		true
+	},
+	[39129] = {
+		847979,
+		185,
+		true
+	},
+	[39130] = {
+		848164,
+		185,
+		true
+	},
+	[39140] = {
+		848349,
+		520,
+		true
+	},
+	[39141] = {
+		848869,
+		185,
+		true
+	},
+	[39142] = {
+		849054,
+		185,
+		true
+	},
+	[39143] = {
+		849239,
+		185,
+		true
+	},
+	[39144] = {
+		849424,
+		185,
+		true
+	},
+	[39145] = {
+		849609,
+		185,
+		true
+	},
+	[39146] = {
+		849794,
+		185,
+		true
+	},
+	[39147] = {
+		849979,
+		185,
+		true
+	},
+	[39148] = {
+		850164,
+		185,
+		true
+	},
+	[39149] = {
+		850349,
+		185,
+		true
+	},
+	[39150] = {
+		850534,
+		185,
+		true
+	},
+	[39151] = {
+		850719,
+		198,
+		true
+	},
+	[39152] = {
+		850917,
+		199,
+		true
+	},
+	[39153] = {
+		851116,
+		199,
+		true
+	},
+	[39160] = {
+		851315,
+		541,
+		true
+	},
+	[39161] = {
+		851856,
+		185,
+		true
+	},
+	[39162] = {
+		852041,
+		185,
+		true
+	},
+	[39163] = {
+		852226,
+		185,
+		true
+	},
+	[39164] = {
+		852411,
+		185,
+		true
+	},
+	[39165] = {
+		852596,
+		185,
+		true
+	},
+	[39166] = {
+		852781,
+		185,
+		true
+	},
+	[39167] = {
+		852966,
+		185,
+		true
+	},
+	[39168] = {
+		853151,
+		185,
+		true
+	},
+	[39169] = {
+		853336,
+		185,
+		true
+	},
+	[39170] = {
+		853521,
+		185,
+		true
+	},
+	[39171] = {
+		853706,
+		198,
+		true
+	},
+	[39172] = {
+		853904,
+		199,
+		true
+	},
+	[39173] = {
+		854103,
+		199,
+		true
+	},
+	[39200] = {
+		854302,
+		605,
+		true
+	},
+	[39201] = {
+		854907,
+		185,
+		true
+	},
+	[39202] = {
+		855092,
+		185,
+		true
+	},
+	[39203] = {
+		855277,
+		185,
+		true
+	},
+	[39220] = {
+		855462,
+		605,
+		true
+	},
+	[39221] = {
+		856067,
+		185,
+		true
+	},
+	[39222] = {
+		856252,
+		185,
+		true
+	},
+	[39223] = {
+		856437,
+		185,
+		true
+	},
+	[39224] = {
+		856622,
+		185,
+		true
+	},
+	[39225] = {
+		856807,
+		185,
+		true
+	},
+	[39226] = {
+		856992,
+		185,
+		true
+	},
+	[39240] = {
+		857177,
+		605,
+		true
+	},
+	[39241] = {
+		857782,
+		185,
+		true
+	},
+	[39242] = {
+		857967,
+		185,
+		true
+	},
+	[39243] = {
+		858152,
+		185,
+		true
+	},
+	[39244] = {
+		858337,
+		185,
+		true
+	},
+	[39245] = {
+		858522,
+		185,
+		true
+	},
+	[39246] = {
+		858707,
+		185,
+		true
+	},
+	[39247] = {
+		858892,
+		185,
+		true
+	},
+	[39248] = {
+		859077,
+		185,
+		true
+	},
+	[39249] = {
+		859262,
+		185,
+		true
+	},
+	[39250] = {
+		859447,
+		185,
+		true
+	},
+	[39251] = {
+		859632,
+		198,
+		true
+	},
+	[39300] = {
+		859830,
+		613,
+		true
+	},
+	[39301] = {
+		860443,
+		167,
+		true
+	},
+	[39302] = {
+		860610,
+		167,
+		true
+	},
+	[39303] = {
+		860777,
+		167,
+		true
+	},
+	[39304] = {
+		860944,
+		167,
+		true
+	},
+	[39305] = {
+		861111,
+		167,
+		true
+	},
+	[39306] = {
+		861278,
+		167,
+		true
+	},
+	[39307] = {
+		861445,
+		167,
+		true
+	},
+	[39308] = {
+		861612,
+		167,
+		true
+	},
+	[39309] = {
+		861779,
+		167,
+		true
+	},
+	[39310] = {
+		861946,
+		167,
+		true
+	},
+	[39311] = {
+		862113,
+		180,
+		true
+	},
+	[39320] = {
+		862293,
+		536,
+		true
+	},
+	[39321] = {
+		862829,
+		185,
+		true
+	},
+	[39322] = {
+		863014,
+		185,
+		true
+	},
+	[39323] = {
+		863199,
+		185,
+		true
+	},
+	[39324] = {
+		863384,
+		185,
+		true
+	},
+	[39325] = {
+		863569,
+		185,
+		true
+	},
+	[39326] = {
+		863754,
+		185,
+		true
+	},
+	[39327] = {
+		863939,
+		185,
+		true
+	},
+	[39328] = {
+		864124,
+		185,
+		true
+	},
+	[39329] = {
+		864309,
+		185,
+		true
+	},
+	[39330] = {
+		864494,
+		185,
+		true
+	},
+	[39331] = {
+		864679,
+		198,
+		true
+	},
+	[39332] = {
+		864877,
+		199,
+		true
+	},
+	[39333] = {
+		865076,
+		199,
+		true
+	},
+	[39340] = {
+		865275,
+		555,
+		true
+	},
+	[39341] = {
+		865830,
+		209,
+		true
+	},
+	[39342] = {
+		866039,
+		209,
+		true
+	},
+	[39343] = {
+		866248,
+		209,
+		true
+	},
+	[39344] = {
+		866457,
+		209,
+		true
+	},
+	[39345] = {
+		866666,
+		209,
+		true
+	},
+	[39346] = {
+		866875,
+		209,
+		true
+	},
+	[39347] = {
+		867084,
+		209,
+		true
+	},
+	[39348] = {
+		867293,
+		209,
+		true
+	},
+	[39349] = {
+		867502,
+		209,
+		true
+	},
+	[39350] = {
+		867711,
+		209,
+		true
+	},
+	[39351] = {
+		867920,
+		222,
+		true
+	},
+	[39352] = {
+		868142,
+		223,
+		true
+	},
+	[39353] = {
+		868365,
+		223,
+		true
+	},
+	[41000] = {
+		868588,
+		598,
+		true
+	},
+	[41001] = {
+		869186,
+		112,
+		true
+	},
+	[41002] = {
+		869298,
+		125,
+		true
+	},
+	[41003] = {
+		869423,
+		125,
+		true
+	},
+	[41020] = {
+		869548,
+		617,
+		true
+	},
+	[41021] = {
+		870165,
+		112,
+		true
+	},
+	[41022] = {
+		870277,
+		125,
+		true
+	},
+	[41023] = {
+		870402,
+		125,
+		true
+	},
+	[41040] = {
+		870527,
+		617,
+		true
+	},
+	[41041] = {
+		871144,
+		112,
+		true
+	},
+	[41042] = {
+		871256,
+		125,
+		true
+	},
+	[41043] = {
+		871381,
+		125,
+		true
+	},
+	[41044] = {
+		871506,
+		125,
+		true
+	},
+	[41045] = {
+		871631,
+		125,
+		true
+	},
+	[41046] = {
+		871756,
+		125,
+		true
+	},
+	[41047] = {
+		871881,
+		125,
+		true
+	},
+	[41060] = {
+		872006,
+		675,
+		true
+	},
+	[41061] = {
+		872681,
+		125,
+		true
+	},
+	[41062] = {
+		872806,
+		125,
+		true
+	},
+	[41063] = {
+		872931,
+		125,
+		true
+	},
+	[41064] = {
+		873056,
+		125,
+		true
+	},
+	[41065] = {
+		873181,
+		125,
+		true
+	},
+	[41066] = {
+		873306,
+		125,
+		true
+	},
+	[41067] = {
+		873431,
+		125,
+		true
+	},
+	[41068] = {
+		873556,
+		125,
+		true
+	},
+	[41069] = {
+		873681,
+		125,
+		true
+	},
+	[41070] = {
+		873806,
+		126,
+		true
+	},
+	[41071] = {
+		873932,
+		140,
+		true
+	},
+	[41100] = {
+		874072,
+		724,
+		true
+	},
+	[41101] = {
+		874796,
+		125,
+		true
+	},
+	[41102] = {
+		874921,
+		125,
+		true
+	},
+	[41103] = {
+		875046,
+		125,
+		true
+	},
+	[41120] = {
+		875171,
+		724,
+		true
+	},
+	[41121] = {
+		875895,
+		125,
+		true
+	},
+	[41122] = {
+		876020,
+		125,
+		true
+	},
+	[41123] = {
+		876145,
+		125,
+		true
+	},
+	[41124] = {
+		876270,
+		125,
+		true
+	},
+	[41125] = {
+		876395,
+		125,
+		true
+	},
+	[41126] = {
+		876520,
+		125,
+		true
+	},
+	[41140] = {
+		876645,
+		724,
+		true
+	},
+	[41141] = {
+		877369,
+		125,
+		true
+	},
+	[41142] = {
+		877494,
+		125,
+		true
+	},
+	[41143] = {
+		877619,
+		125,
+		true
+	},
+	[41144] = {
+		877744,
+		125,
+		true
+	},
+	[41145] = {
+		877869,
+		125,
+		true
+	},
+	[41146] = {
+		877994,
+		125,
+		true
+	},
+	[41147] = {
+		878119,
+		125,
+		true
+	},
+	[41148] = {
+		878244,
+		125,
+		true
+	},
+	[41149] = {
+		878369,
+		126,
+		true
+	},
+	[41150] = {
+		878495,
+		126,
+		true
+	},
+	[41151] = {
+		878621,
+		140,
+		true
+	},
+	[41160] = {
+		878761,
+		625,
+		true
+	},
+	[41161] = {
+		879386,
+		125,
+		true
+	},
+	[41162] = {
+		879511,
+		125,
+		true
+	},
+	[41163] = {
+		879636,
+		125,
+		true
+	},
+	[41164] = {
+		879761,
+		126,
+		true
+	},
+	[41165] = {
+		879887,
+		126,
+		true
+	},
+	[41166] = {
+		880013,
+		126,
+		true
+	},
+	[41167] = {
+		880139,
+		126,
+		true
+	},
+	[41168] = {
+		880265,
+		126,
+		true
+	},
+	[41169] = {
+		880391,
+		126,
+		true
+	},
+	[41170] = {
+		880517,
+		126,
+		true
+	},
+	[41171] = {
+		880643,
+		140,
+		true
+	},
+	[41172] = {
+		880783,
+		141,
+		true
+	},
+	[41173] = {
+		880924,
+		141,
+		true
+	},
+	[42000] = {
+		881065,
+		624,
+		true
+	},
+	[42001] = {
+		881689,
+		125,
+		true
+	},
+	[42002] = {
+		881814,
+		125,
+		true
+	},
+	[42003] = {
+		881939,
+		126,
+		true
+	},
+	[42020] = {
+		882065,
+		624,
+		true
+	},
+	[42021] = {
+		882689,
+		125,
+		true
+	},
+	[42022] = {
+		882814,
+		126,
+		true
+	},
+	[42023] = {
+		882940,
+		126,
+		true
+	},
+	[42024] = {
+		883066,
+		126,
+		true
+	},
+	[42025] = {
+		883192,
+		126,
+		true
+	},
+	[42026] = {
+		883318,
+		126,
+		true
+	},
+	[42040] = {
+		883444,
+		624,
+		true
+	},
+	[42041] = {
+		884068,
+		126,
+		true
+	},
+	[42042] = {
+		884194,
+		126,
+		true
+	},
+	[42043] = {
+		884320,
+		126,
+		true
+	},
+	[42044] = {
+		884446,
+		126,
+		true
+	},
+	[42045] = {
+		884572,
+		126,
+		true
+	},
+	[42046] = {
+		884698,
+		126,
+		true
+	},
+	[42047] = {
+		884824,
+		126,
+		true
+	},
+	[42048] = {
+		884950,
+		126,
+		true
+	},
+	[42049] = {
+		885076,
+		126,
+		true
+	},
+	[42050] = {
+		885202,
+		126,
+		true
+	},
+	[42051] = {
+		885328,
+		140,
+		true
+	},
+	[42060] = {
+		885468,
+		623,
+		true
+	},
+	[42061] = {
+		886091,
+		126,
+		true
+	},
+	[42062] = {
+		886217,
+		126,
+		true
+	},
+	[42063] = {
+		886343,
+		126,
+		true
+	},
+	[42064] = {
+		886469,
+		126,
+		true
+	},
+	[42065] = {
+		886595,
+		126,
+		true
+	},
+	[42066] = {
+		886721,
+		126,
+		true
+	},
+	[42067] = {
+		886847,
+		126,
+		true
+	},
+	[42068] = {
+		886973,
+		126,
+		true
+	},
+	[42069] = {
+		887099,
+		126,
+		true
+	},
+	[42070] = {
+		887225,
+		126,
+		true
+	},
+	[42071] = {
+		887351,
+		140,
+		true
+	},
+	[42100] = {
+		887491,
+		629,
+		true
+	},
+	[42101] = {
+		888120,
+		125,
+		true
+	},
+	[42102] = {
+		888245,
+		125,
+		true
+	},
+	[42103] = {
+		888370,
+		126,
+		true
+	},
+	[42120] = {
+		888496,
+		629,
+		true
+	},
+	[42121] = {
+		889125,
+		125,
+		true
+	},
+	[42122] = {
+		889250,
+		126,
+		true
+	},
+	[42123] = {
+		889376,
+		126,
+		true
+	},
+	[42124] = {
+		889502,
+		126,
+		true
+	},
+	[42125] = {
+		889628,
+		126,
+		true
+	},
+	[42126] = {
+		889754,
+		126,
+		true
+	},
+	[42140] = {
+		889880,
+		629,
+		true
+	},
+	[42141] = {
+		890509,
+		126,
+		true
+	},
+	[42142] = {
+		890635,
+		126,
+		true
+	},
+	[42143] = {
+		890761,
+		126,
+		true
+	},
+	[42144] = {
+		890887,
+		126,
+		true
+	},
+	[42145] = {
+		891013,
+		126,
+		true
+	},
+	[42146] = {
+		891139,
+		126,
+		true
+	},
+	[42147] = {
+		891265,
+		126,
+		true
+	},
+	[42148] = {
+		891391,
+		126,
+		true
+	},
+	[42149] = {
+		891517,
+		126,
+		true
+	},
+	[42150] = {
+		891643,
+		126,
+		true
+	},
+	[42151] = {
+		891769,
+		140,
+		true
+	},
+	[42200] = {
+		891909,
+		669,
+		true
+	},
+	[42201] = {
+		892578,
+		125,
+		true
+	},
+	[42202] = {
+		892703,
+		125,
+		true
+	},
+	[42203] = {
+		892828,
+		126,
+		true
+	},
+	[42220] = {
+		892954,
+		669,
+		true
+	},
+	[42221] = {
+		893623,
+		125,
+		true
+	},
+	[42222] = {
+		893748,
+		126,
+		true
+	},
+	[42223] = {
+		893874,
+		126,
+		true
+	},
+	[42224] = {
+		894000,
+		126,
+		true
+	},
+	[42225] = {
+		894126,
+		126,
+		true
+	},
+	[42226] = {
+		894252,
+		126,
+		true
+	},
+	[42240] = {
+		894378,
+		669,
+		true
+	},
+	[42241] = {
+		895047,
+		126,
+		true
+	},
+	[42242] = {
+		895173,
+		126,
+		true
+	},
+	[42243] = {
+		895299,
+		126,
+		true
+	},
+	[42244] = {
+		895425,
+		126,
+		true
+	},
+	[42245] = {
+		895551,
+		126,
+		true
+	},
+	[42246] = {
+		895677,
+		126,
+		true
+	},
+	[42247] = {
+		895803,
+		126,
+		true
+	},
+	[42248] = {
+		895929,
+		126,
+		true
+	},
+	[42249] = {
+		896055,
+		126,
+		true
+	},
+	[42250] = {
+		896181,
+		126,
+		true
+	},
+	[42251] = {
+		896307,
+		140,
+		true
+	},
+	[42300] = {
+		896447,
+		673,
+		true
+	},
+	[42301] = {
+		897120,
+		125,
+		true
+	},
+	[42302] = {
+		897245,
+		125,
+		true
+	},
+	[42303] = {
+		897370,
+		126,
+		true
+	},
+	[42340] = {
+		897496,
+		655,
+		true
+	},
+	[42341] = {
+		898151,
+		112,
+		true
+	},
+	[42342] = {
+		898263,
+		125,
+		true
+	},
+	[42343] = {
+		898388,
+		125,
+		true
+	},
+	[42344] = {
+		898513,
+		125,
+		true
+	},
+	[42345] = {
+		898638,
+		126,
+		true
+	},
+	[42346] = {
+		898764,
+		126,
+		true
+	},
+	[42347] = {
+		898890,
+		126,
+		true
+	},
+	[42348] = {
+		899016,
+		126,
+		true
+	},
+	[42349] = {
+		899142,
+		126,
+		true
+	},
+	[42350] = {
+		899268,
+		126,
+		true
+	},
+	[42351] = {
+		899394,
+		140,
+		true
+	},
+	[43000] = {
+		899534,
+		634,
+		true
+	},
+	[43001] = {
+		900168,
+		126,
+		true
+	},
+	[43002] = {
+		900294,
+		126,
+		true
+	},
+	[43003] = {
+		900420,
+		126,
+		true
+	},
+	[43004] = {
+		900546,
+		126,
+		true
+	},
+	[43005] = {
+		900672,
+		126,
+		true
+	},
+	[43006] = {
+		900798,
+		126,
+		true
+	},
+	[43020] = {
+		900924,
+		634,
+		true
+	},
+	[43021] = {
+		901558,
+		126,
+		true
+	},
+	[43022] = {
+		901684,
+		126,
+		true
+	},
+	[43023] = {
+		901810,
+		126,
+		true
+	},
+	[43024] = {
+		901936,
+		126,
+		true
+	},
+	[43025] = {
+		902062,
+		126,
+		true
+	},
+	[43026] = {
+		902188,
+		126,
+		true
+	},
+	[43027] = {
+		902314,
+		126,
+		true
+	},
+	[43028] = {
+		902440,
+		126,
+		true
+	},
+	[43029] = {
+		902566,
+		126,
+		true
+	},
+	[43030] = {
+		902692,
+		126,
+		true
+	},
+	[43040] = {
+		902818,
+		634,
+		true
+	},
+	[43041] = {
+		903452,
+		126,
+		true
+	},
+	[43042] = {
+		903578,
+		126,
+		true
+	},
+	[43043] = {
+		903704,
+		126,
+		true
+	},
+	[43044] = {
+		903830,
+		126,
+		true
+	},
+	[43045] = {
+		903956,
+		126,
+		true
+	},
+	[43046] = {
+		904082,
+		126,
+		true
+	},
+	[43047] = {
+		904208,
+		126,
+		true
+	},
+	[43048] = {
+		904334,
+		126,
+		true
+	},
+	[43049] = {
+		904460,
+		126,
+		true
+	},
+	[43050] = {
+		904586,
+		126,
+		true
+	},
+	[43051] = {
+		904712,
+		140,
+		true
+	},
+	[43052] = {
+		904852,
+		141,
+		true
+	},
+	[43053] = {
+		904993,
+		141,
+		true
+	},
+	[43060] = {
+		905134,
+		644,
+		true
+	},
+	[43061] = {
+		905778,
+		126,
+		true
+	},
+	[43062] = {
+		905904,
+		126,
+		true
+	},
+	[43063] = {
+		906030,
+		126,
+		true
+	},
+	[43064] = {
+		906156,
+		126,
+		true
+	},
+	[43065] = {
+		906282,
+		126,
+		true
+	},
+	[43066] = {
+		906408,
+		126,
+		true
+	},
+	[43067] = {
+		906534,
+		126,
+		true
+	},
+	[43068] = {
+		906660,
+		126,
+		true
+	},
+	[43069] = {
+		906786,
+		126,
+		true
+	},
+	[43070] = {
+		906912,
+		126,
+		true
+	},
+	[43071] = {
+		907038,
+		140,
+		true
+	},
+	[43072] = {
+		907178,
+		141,
+		true
+	},
+	[43073] = {
+		907319,
+		141,
+		true
+	},
+	[43100] = {
+		907460,
+		602,
+		true
+	},
+	[43101] = {
+		908062,
+		126,
+		true
+	},
+	[43102] = {
+		908188,
+		126,
+		true
+	},
+	[43103] = {
+		908314,
+		126,
+		true
+	},
+	[43120] = {
+		908440,
+		602,
+		true
+	},
+	[43121] = {
+		909042,
+		126,
+		true
+	},
+	[43122] = {
+		909168,
+		126,
+		true
+	},
+	[43123] = {
+		909294,
+		126,
+		true
+	},
+	[43124] = {
+		909420,
+		126,
+		true
+	},
+	[43125] = {
+		909546,
+		126,
+		true
+	},
+	[43126] = {
+		909672,
+		126,
+		true
+	},
+	[43140] = {
+		909798,
+		602,
+		true
+	},
+	[43141] = {
+		910400,
+		126,
+		true
+	},
+	[43142] = {
+		910526,
+		126,
+		true
+	},
+	[43143] = {
+		910652,
+		126,
+		true
+	},
+	[43144] = {
+		910778,
+		126,
+		true
+	},
+	[43145] = {
+		910904,
+		126,
+		true
+	},
+	[43146] = {
+		911030,
+		126,
+		true
+	},
+	[43147] = {
+		911156,
+		126,
+		true
+	},
+	[43148] = {
+		911282,
+		126,
+		true
+	},
+	[43149] = {
+		911408,
+		126,
+		true
+	},
+	[43150] = {
+		911534,
+		126,
+		true
+	},
+	[43151] = {
+		911660,
+		140,
+		true
+	},
+	[44000] = {
+		911800,
+		619,
+		true
+	},
+	[44001] = {
+		912419,
+		126,
+		true
+	},
+	[44002] = {
+		912545,
+		126,
+		true
+	},
+	[44003] = {
+		912671,
+		126,
+		true
+	},
+	[44020] = {
+		912797,
+		619,
+		true
+	},
+	[44021] = {
+		913416,
+		126,
+		true
+	},
+	[44022] = {
+		913542,
+		126,
+		true
+	},
+	[44023] = {
+		913668,
+		126,
+		true
+	},
+	[44024] = {
+		913794,
+		126,
+		true
+	},
+	[44025] = {
+		913920,
+		126,
+		true
+	},
+	[44026] = {
+		914046,
+		126,
+		true
+	},
+	[44040] = {
+		914172,
+		619,
+		true
+	},
+	[44041] = {
+		914791,
+		126,
+		true
+	},
+	[44042] = {
+		914917,
+		126,
+		true
+	},
+	[44043] = {
+		915043,
+		126,
+		true
+	},
+	[44044] = {
+		915169,
+		126,
+		true
+	},
+	[44045] = {
+		915295,
+		126,
+		true
+	},
+	[44046] = {
+		915421,
+		126,
+		true
+	},
+	[44047] = {
+		915547,
+		126,
+		true
+	},
+	[44048] = {
+		915673,
+		126,
+		true
+	},
+	[44049] = {
+		915799,
+		126,
+		true
+	},
+	[44050] = {
+		915925,
+		126,
+		true
+	},
+	[44051] = {
+		916051,
+		140,
+		true
+	},
+	[44100] = {
+		916191,
+		608,
+		true
+	},
+	[44101] = {
+		916799,
+		126,
+		true
+	},
+	[44102] = {
+		916925,
+		126,
+		true
+	},
+	[44103] = {
+		917051,
+		126,
+		true
+	},
+	[44104] = {
+		917177,
+		126,
+		true
+	},
+	[44105] = {
+		917303,
+		126,
+		true
+	},
+	[44106] = {
+		917429,
+		126,
+		true
+	},
+	[44120] = {
+		917555,
+		611,
+		true
+	},
+	[44121] = {
+		918166,
+		126,
+		true
+	},
+	[44122] = {
+		918292,
+		126,
+		true
+	},
+	[44123] = {
+		918418,
+		126,
+		true
+	},
+	[44124] = {
+		918544,
+		126,
+		true
+	},
+	[44125] = {
+		918670,
+		126,
+		true
+	},
+	[44126] = {
+		918796,
+		126,
+		true
+	},
+	[44127] = {
+		918922,
+		127,
+		true
+	},
+	[44128] = {
+		919049,
+		127,
+		true
+	},
+	[44129] = {
+		919176,
+		127,
+		true
+	},
+	[44130] = {
+		919303,
+		127,
+		true
+	},
+	[44140] = {
+		919430,
+		611,
+		true
+	},
+	[44141] = {
+		920041,
+		126,
+		true
+	},
+	[44142] = {
+		920167,
+		126,
+		true
+	},
+	[44143] = {
+		920293,
+		126,
+		true
+	},
+	[44144] = {
+		920419,
+		126,
+		true
+	},
+	[44145] = {
+		920545,
+		126,
+		true
+	},
+	[44146] = {
+		920671,
+		127,
+		true
+	},
+	[44147] = {
+		920798,
+		127,
+		true
+	},
+	[44148] = {
+		920925,
+		127,
+		true
+	},
+	[44149] = {
+		921052,
+		127,
+		true
+	},
+	[44150] = {
+		921179,
+		127,
+		true
+	},
+	[44151] = {
+		921306,
+		141,
+		true
+	},
+	[44152] = {
+		921447,
+		142,
+		true
+	},
+	[44153] = {
+		921589,
+		142,
+		true
+	},
+	[44200] = {
+		921731,
+		540,
+		true
+	},
+	[44201] = {
+		922271,
+		126,
+		true
+	},
+	[44202] = {
+		922397,
+		126,
+		true
+	},
+	[44203] = {
+		922523,
+		126,
+		true
+	},
+	[44204] = {
+		922649,
+		126,
+		true
+	},
+	[44205] = {
+		922775,
+		127,
+		true
+	},
+	[44206] = {
+		922902,
+		127,
+		true
+	},
+	[44207] = {
+		923029,
+		127,
+		true
+	},
+	[44208] = {
+		923156,
+		127,
+		true
+	},
+	[44209] = {
+		923283,
+		127,
+		true
+	},
+	[44210] = {
+		923410,
+		127,
+		true
+	},
+	[44211] = {
+		923537,
+		141,
+		true
+	},
+	[44212] = {
+		923678,
+		142,
+		true
+	},
+	[44213] = {
+		923820,
+		142,
+		true
+	},
+	[44300] = {
+		923962,
+		547,
+		true
+	},
+	[44301] = {
+		924509,
+		126,
+		true
+	},
+	[44302] = {
+		924635,
+		126,
+		true
+	},
+	[44303] = {
+		924761,
+		126,
+		true
+	},
+	[44304] = {
+		924887,
+		126,
+		true
+	},
+	[44305] = {
+		925013,
+		126,
+		true
+	},
+	[44306] = {
+		925139,
+		126,
+		true
+	},
+	[44307] = {
+		925265,
+		126,
+		true
+	},
+	[44308] = {
+		925391,
+		126,
+		true
+	},
+	[44309] = {
+		925517,
+		127,
+		true
+	},
+	[44310] = {
+		925644,
+		127,
+		true
+	},
+	[44311] = {
+		925771,
+		141,
+		true
+	},
+	[44312] = {
+		925912,
+		142,
+		true
+	},
+	[44313] = {
+		926054,
+		142,
+		true
+	},
+	[44400] = {
+		926196,
+		561,
+		true
+	},
+	[44401] = {
+		926757,
+		126,
+		true
+	},
+	[44402] = {
+		926883,
+		126,
+		true
+	},
+	[44403] = {
+		927009,
+		126,
+		true
+	},
+	[44404] = {
+		927135,
+		126,
+		true
+	},
+	[44405] = {
+		927261,
+		126,
+		true
+	},
+	[44406] = {
+		927387,
+		126,
+		true
+	},
+	[44407] = {
+		927513,
+		126,
+		true
+	},
+	[44408] = {
+		927639,
+		126,
+		true
+	},
+	[44409] = {
+		927765,
+		127,
+		true
+	},
+	[44410] = {
+		927892,
+		127,
+		true
+	},
+	[44411] = {
+		928019,
+		141,
+		true
+	},
+	[44412] = {
+		928160,
+		142,
+		true
+	},
+	[44413] = {
+		928302,
+		142,
+		true
+	},
+	[45000] = {
+		928444,
+		705,
+		true
+	},
+	[45001] = {
+		929149,
+		126,
+		true
+	},
+	[45002] = {
+		929275,
+		126,
+		true
+	},
+	[45003] = {
+		929401,
+		126,
+		true
+	},
+	[45020] = {
+		929527,
+		705,
+		true
+	},
+	[45021] = {
+		930232,
+		126,
+		true
+	},
+	[45022] = {
+		930358,
+		126,
+		true
+	},
+	[45023] = {
+		930484,
+		126,
+		true
+	},
+	[45024] = {
+		930610,
+		126,
+		true
+	},
+	[45025] = {
+		930736,
+		126,
+		true
+	},
+	[45026] = {
+		930862,
+		127,
+		true
+	},
+	[45040] = {
+		930989,
+		705,
+		true
+	},
+	[45041] = {
+		931694,
+		126,
+		true
+	},
+	[45042] = {
+		931820,
+		126,
+		true
+	},
+	[45043] = {
+		931946,
+		126,
+		true
+	},
+	[45044] = {
+		932072,
+		127,
+		true
+	},
+	[45045] = {
+		932199,
+		127,
+		true
+	},
+	[45046] = {
+		932326,
+		127,
+		true
+	},
+	[45047] = {
+		932453,
+		127,
+		true
+	},
+	[45048] = {
+		932580,
+		127,
+		true
+	},
+	[45049] = {
+		932707,
+		127,
+		true
+	},
+	[45050] = {
+		932834,
+		127,
+		true
+	},
+	[45051] = {
+		932961,
+		141,
+		true
+	},
+	[45100] = {
+		933102,
+		706,
+		true
+	},
+	[45101] = {
+		933808,
+		126,
+		true
+	},
+	[45102] = {
+		933934,
+		126,
+		true
+	},
+	[45103] = {
+		934060,
+		126,
+		true
+	},
+	[45104] = {
+		934186,
+		126,
+		true
+	},
+	[45105] = {
+		934312,
+		126,
+		true
+	},
+	[45106] = {
+		934438,
+		126,
+		true
+	},
+	[45120] = {
+		934564,
+		706,
+		true
+	},
+	[45121] = {
+		935270,
+		126,
+		true
+	},
+	[45122] = {
+		935396,
+		126,
+		true
+	},
+	[45123] = {
+		935522,
+		126,
+		true
+	},
+	[45124] = {
+		935648,
+		126,
+		true
+	},
+	[45125] = {
+		935774,
+		126,
+		true
+	},
+	[45126] = {
+		935900,
+		127,
+		true
+	},
+	[45127] = {
+		936027,
+		127,
+		true
+	},
+	[45128] = {
+		936154,
+		127,
+		true
+	},
+	[45129] = {
+		936281,
+		127,
+		true
+	},
+	[45130] = {
+		936408,
+		127,
+		true
+	},
+	[45140] = {
+		936535,
+		706,
+		true
+	},
+	[45141] = {
+		937241,
+		126,
+		true
+	},
+	[45142] = {
+		937367,
+		126,
+		true
+	},
+	[45143] = {
+		937493,
+		126,
+		true
+	},
+	[45144] = {
+		937619,
+		127,
+		true
+	},
+	[45145] = {
+		937746,
+		127,
+		true
+	},
+	[45146] = {
+		937873,
+		127,
+		true
+	},
+	[45147] = {
+		938000,
+		127,
+		true
+	},
+	[45148] = {
+		938127,
+		127,
+		true
+	},
+	[45149] = {
+		938254,
+		127,
+		true
+	},
+	[45150] = {
+		938381,
+		127,
+		true
+	},
+	[45151] = {
+		938508,
+		141,
+		true
+	},
+	[45152] = {
+		938649,
+		142,
+		true
+	},
+	[45153] = {
+		938791,
+		142,
+		true
+	},
+	[45200] = {
+		938933,
+		707,
+		true
+	},
+	[45201] = {
+		939640,
+		126,
+		true
+	},
+	[45202] = {
+		939766,
+		126,
+		true
+	},
+	[45203] = {
+		939892,
+		126,
+		true
+	},
+	[45204] = {
+		940018,
+		126,
+		true
+	},
+	[45205] = {
+		940144,
+		126,
+		true
+	},
+	[45206] = {
+		940270,
+		126,
+		true
+	},
+	[45207] = {
+		940396,
+		127,
+		true
+	},
+	[45208] = {
+		940523,
+		127,
+		true
+	},
+	[45209] = {
+		940650,
+		127,
+		true
+	},
+	[45210] = {
+		940777,
+		127,
+		true
+	},
+	[45220] = {
+		940904,
+		707,
+		true
+	},
+	[45221] = {
+		941611,
+		126,
+		true
+	},
+	[45222] = {
+		941737,
+		126,
+		true
+	},
+	[45223] = {
+		941863,
+		126,
+		true
+	},
+	[45224] = {
+		941989,
+		126,
+		true
+	},
+	[45225] = {
+		942115,
+		126,
+		true
+	},
+	[45226] = {
+		942241,
+		127,
+		true
+	},
+	[45227] = {
+		942368,
+		127,
+		true
+	},
+	[45228] = {
+		942495,
+		127,
+		true
+	},
+	[45229] = {
+		942622,
+		127,
+		true
+	},
+	[45230] = {
+		942749,
+		127,
+		true
+	},
+	[45240] = {
+		942876,
+		707,
+		true
+	},
+	[45241] = {
+		943583,
+		126,
+		true
+	},
+	[45242] = {
+		943709,
+		126,
+		true
+	},
+	[45243] = {
+		943835,
+		126,
+		true
+	},
+	[45244] = {
+		943961,
+		127,
+		true
+	},
+	[45245] = {
+		944088,
+		127,
+		true
+	},
+	[45246] = {
+		944215,
+		127,
+		true
+	},
+	[45247] = {
+		944342,
+		127,
+		true
+	},
+	[45248] = {
+		944469,
+		127,
+		true
+	},
+	[45249] = {
+		944596,
+		127,
+		true
+	},
+	[45250] = {
+		944723,
+		127,
+		true
+	},
+	[45251] = {
+		944850,
+		141,
+		true
+	},
+	[45252] = {
+		944991,
+		142,
+		true
+	},
+	[45253] = {
+		945133,
+		142,
+		true
+	},
+	[45300] = {
+		945275,
+		557,
+		true
+	},
+	[45301] = {
+		945832,
+		126,
+		true
+	},
+	[45302] = {
+		945958,
+		126,
+		true
+	},
+	[45303] = {
+		946084,
+		126,
+		true
+	},
+	[45320] = {
+		946210,
+		557,
+		true
+	},
+	[45321] = {
+		946767,
+		126,
+		true
+	},
+	[45322] = {
+		946893,
+		126,
+		true
+	},
+	[45323] = {
+		947019,
+		126,
+		true
+	},
+	[45324] = {
+		947145,
+		126,
+		true
+	},
+	[45325] = {
+		947271,
+		126,
+		true
+	},
+	[45326] = {
+		947397,
+		126,
+		true
+	},
+	[45340] = {
+		947523,
+		557,
+		true
+	},
+	[45341] = {
+		948080,
+		126,
+		true
+	},
+	[45342] = {
+		948206,
+		126,
+		true
+	},
+	[45343] = {
+		948332,
+		126,
+		true
+	},
+	[45344] = {
+		948458,
+		126,
+		true
+	},
+	[45345] = {
+		948584,
+		126,
+		true
+	},
+	[45346] = {
+		948710,
+		127,
+		true
+	},
+	[45347] = {
+		948837,
+		127,
+		true
+	},
+	[45348] = {
+		948964,
+		127,
+		true
+	},
+	[45349] = {
+		949091,
+		127,
+		true
+	},
+	[45350] = {
+		949218,
+		127,
+		true
+	},
+	[45351] = {
+		949345,
+		141,
+		true
+	},
+	[45400] = {
+		949486,
+		571,
+		true
+	},
+	[45401] = {
+		950057,
+		126,
+		true
+	},
+	[45402] = {
+		950183,
+		126,
+		true
+	},
+	[45403] = {
+		950309,
+		126,
+		true
+	},
+	[45404] = {
+		950435,
+		126,
+		true
+	},
+	[45405] = {
+		950561,
+		126,
+		true
+	},
+	[45406] = {
+		950687,
+		126,
+		true
+	},
+	[45420] = {
+		950813,
+		571,
+		true
+	},
+	[45421] = {
+		951384,
+		126,
+		true
+	},
+	[45422] = {
+		951510,
+		126,
+		true
+	},
+	[45423] = {
+		951636,
+		126,
+		true
+	},
+	[45424] = {
+		951762,
+		126,
+		true
+	},
+	[45425] = {
+		951888,
+		126,
+		true
+	},
+	[45426] = {
+		952014,
+		127,
+		true
+	},
+	[45427] = {
+		952141,
+		127,
+		true
+	},
+	[45428] = {
+		952268,
+		127,
+		true
+	},
+	[45429] = {
+		952395,
+		127,
+		true
+	},
+	[45430] = {
+		952522,
+		127,
+		true
+	},
+	[45440] = {
+		952649,
+		571,
+		true
+	},
+	[45441] = {
+		953220,
+		126,
+		true
+	},
+	[45442] = {
+		953346,
+		126,
+		true
+	},
+	[45443] = {
+		953472,
+		126,
+		true
+	},
+	[45444] = {
+		953598,
+		127,
+		true
+	},
+	[45445] = {
+		953725,
+		127,
+		true
+	},
+	[45446] = {
+		953852,
+		127,
+		true
+	},
+	[45447] = {
+		953979,
+		127,
+		true
+	},
+	[45448] = {
+		954106,
+		127,
+		true
+	},
+	[45449] = {
+		954233,
+		127,
+		true
+	},
+	[45450] = {
+		954360,
+		127,
+		true
+	},
+	[45451] = {
+		954487,
+		141,
+		true
+	},
+	[45452] = {
+		954628,
+		142,
+		true
+	},
+	[45453] = {
+		954770,
+		142,
+		true
+	},
+	[46000] = {
+		954912,
+		552,
+		true
+	},
+	[46001] = {
+		955464,
+		126,
+		true
+	},
+	[46002] = {
+		955590,
+		126,
+		true
+	},
+	[46003] = {
+		955716,
+		126,
+		true
+	},
+	[46020] = {
+		955842,
+		577,
+		true
+	},
+	[46021] = {
+		956419,
+		126,
+		true
+	},
+	[46022] = {
+		956545,
+		126,
+		true
+	},
+	[46023] = {
+		956671,
+		126,
+		true
+	},
+	[46040] = {
+		956797,
+		577,
+		true
+	},
+	[46041] = {
+		957374,
+		126,
+		true
+	},
+	[46042] = {
+		957500,
+		126,
+		true
+	},
+	[46043] = {
+		957626,
+		126,
+		true
+	},
+	[46044] = {
+		957752,
+		126,
+		true
+	},
+	[46045] = {
+		957878,
+		126,
+		true
+	},
+	[46046] = {
+		958004,
+		126,
+		true
+	},
+	[46047] = {
+		958130,
+		126,
+		true
+	},
+	[46060] = {
+		958256,
+		557,
+		true
+	},
+	[46061] = {
+		958813,
+		126,
+		true
+	},
+	[46062] = {
+		958939,
+		126,
+		true
+	},
+	[46063] = {
+		959065,
+		126,
+		true
+	},
+	[46064] = {
+		959191,
+		126,
+		true
+	},
+	[46065] = {
+		959317,
+		126,
+		true
+	},
+	[46066] = {
+		959443,
+		126,
+		true
+	},
+	[46067] = {
+		959569,
+		126,
+		true
+	},
+	[46068] = {
+		959695,
+		126,
+		true
+	},
+	[46069] = {
+		959821,
+		126,
+		true
+	},
+	[46070] = {
+		959947,
+		126,
+		true
+	},
+	[46071] = {
+		960073,
+		140,
+		true
+	},
+	[46100] = {
+		960213,
+		529,
+		true
+	},
+	[46101] = {
+		960742,
+		125,
+		true
+	},
+	[46102] = {
+		960867,
+		126,
+		true
+	},
+	[46103] = {
+		960993,
+		126,
+		true
+	},
+	[46120] = {
+		961119,
+		555,
+		true
+	},
+	[46121] = {
+		961674,
+		126,
+		true
+	},
+	[46122] = {
+		961800,
+		126,
+		true
+	},
+	[46123] = {
+		961926,
+		126,
+		true
+	},
+	[46140] = {
+		962052,
+		555,
+		true
+	},
+	[46141] = {
+		962607,
+		126,
+		true
+	},
+	[46142] = {
+		962733,
+		126,
+		true
+	},
+	[46143] = {
+		962859,
+		126,
+		true
+	},
+	[46144] = {
+		962985,
+		126,
+		true
+	},
+	[46145] = {
+		963111,
+		126,
+		true
+	},
+	[46146] = {
+		963237,
+		126,
+		true
+	},
+	[46147] = {
+		963363,
+		126,
+		true
+	},
+	[46200] = {
+		963489,
+		569,
+		true
+	},
+	[46201] = {
+		964058,
+		126,
+		true
+	},
+	[46202] = {
+		964184,
+		126,
+		true
+	},
+	[46203] = {
+		964310,
+		126,
+		true
+	},
+	[46220] = {
+		964436,
+		569,
+		true
+	},
+	[46221] = {
+		965005,
+		126,
+		true
+	},
+	[46222] = {
+		965131,
+		126,
+		true
+	},
+	[46223] = {
+		965257,
+		126,
+		true
+	},
+	[46224] = {
+		965383,
+		126,
+		true
+	},
+	[46225] = {
+		965509,
+		126,
+		true
+	},
+	[46226] = {
+		965635,
+		126,
+		true
+	},
+	[46240] = {
+		965761,
+		569,
+		true
+	},
+	[46241] = {
+		966330,
+		126,
+		true
+	},
+	[46242] = {
+		966456,
+		126,
+		true
+	},
+	[46243] = {
+		966582,
+		126,
+		true
+	},
+	[46244] = {
+		966708,
+		126,
+		true
+	},
+	[46245] = {
+		966834,
+		126,
+		true
+	},
+	[46246] = {
+		966960,
+		126,
+		true
+	},
+	[46247] = {
+		967086,
+		126,
+		true
+	},
+	[46248] = {
+		967212,
+		126,
+		true
+	},
+	[46249] = {
+		967338,
+		126,
+		true
+	},
+	[46250] = {
+		967464,
+		126,
+		true
+	},
+	[46251] = {
+		967590,
+		140,
+		true
+	},
+	[46260] = {
+		967730,
+		557,
+		true
+	},
+	[46261] = {
+		968287,
+		126,
+		true
+	},
+	[46262] = {
+		968413,
+		126,
+		true
+	},
+	[46263] = {
+		968539,
+		126,
+		true
+	},
+	[46264] = {
+		968665,
+		126,
+		true
+	},
+	[46265] = {
+		968791,
+		126,
+		true
+	},
+	[46266] = {
+		968917,
+		126,
+		true
+	},
+	[46267] = {
+		969043,
+		126,
+		true
+	},
+	[46268] = {
+		969169,
+		126,
+		true
+	},
+	[46269] = {
+		969295,
+		126,
+		true
+	},
+	[46270] = {
+		969421,
+		126,
+		true
+	},
+	[46271] = {
+		969547,
+		140,
+		true
+	},
+	[46300] = {
+		969687,
+		573,
+		true
+	},
+	[46301] = {
+		970260,
+		126,
+		true
+	},
+	[46302] = {
+		970386,
+		126,
+		true
+	},
+	[46303] = {
+		970512,
+		126,
+		true
+	},
+	[46304] = {
+		970638,
+		126,
+		true
+	},
+	[46305] = {
+		970764,
+		126,
+		true
+	},
+	[46306] = {
+		970890,
+		126,
+		true
+	},
+	[46320] = {
+		971016,
+		573,
+		true
+	},
+	[46321] = {
+		971589,
+		126,
+		true
+	},
+	[46322] = {
+		971715,
+		126,
+		true
+	},
+	[46323] = {
+		971841,
+		126,
+		true
+	},
+	[46324] = {
+		971967,
+		126,
+		true
+	},
+	[46325] = {
+		972093,
+		126,
+		true
+	},
+	[46326] = {
+		972219,
+		126,
+		true
+	},
+	[46327] = {
+		972345,
+		126,
+		true
+	},
+	[46328] = {
+		972471,
+		126,
+		true
+	},
+	[46329] = {
+		972597,
+		126,
+		true
+	},
+	[46330] = {
+		972723,
+		127,
+		true
+	},
+	[46340] = {
+		972850,
+		573,
+		true
+	},
+	[46341] = {
+		973423,
+		126,
+		true
+	},
+	[46342] = {
+		973549,
+		126,
+		true
+	},
+	[46343] = {
+		973675,
+		126,
+		true
+	},
+	[46344] = {
+		973801,
+		126,
+		true
+	},
+	[46345] = {
+		973927,
+		126,
+		true
+	},
+	[46346] = {
+		974053,
+		126,
+		true
+	},
+	[46347] = {
+		974179,
+		126,
+		true
+	},
+	[46348] = {
+		974305,
+		127,
+		true
+	},
+	[46349] = {
+		974432,
+		127,
+		true
+	},
+	[46350] = {
+		974559,
+		127,
+		true
+	},
+	[46351] = {
+		974686,
+		141,
+		true
+	},
+	[46352] = {
+		974827,
+		142,
+		true
+	},
+	[46353] = {
+		974969,
+		142,
+		true
+	},
+	[46360] = {
+		975111,
+		562,
+		true
+	},
+	[46361] = {
+		975673,
+		126,
+		true
+	},
+	[46362] = {
+		975799,
+		126,
+		true
+	},
+	[46363] = {
+		975925,
+		126,
+		true
+	},
+	[46364] = {
+		976051,
+		126,
+		true
+	},
+	[46365] = {
+		976177,
+		126,
+		true
+	},
+	[46366] = {
+		976303,
+		126,
+		true
+	},
+	[46367] = {
+		976429,
+		127,
+		true
+	},
+	[46368] = {
+		976556,
+		127,
+		true
+	},
+	[46369] = {
+		976683,
+		127,
+		true
+	},
+	[46370] = {
+		976810,
+		127,
+		true
+	},
+	[46371] = {
+		976937,
+		141,
+		true
+	},
+	[46372] = {
+		977078,
+		142,
+		true
+	},
+	[46373] = {
+		977220,
+		142,
+		true
+	},
+	[47000] = {
+		977362,
+		580,
+		true
+	},
+	[47001] = {
+		977942,
+		171,
+		true
+	},
+	[47002] = {
+		978113,
+		171,
+		true
+	},
+	[47003] = {
+		978284,
+		171,
+		true
+	},
+	[47020] = {
+		978455,
+		580,
+		true
+	},
+	[47021] = {
+		979035,
+		171,
+		true
+	},
+	[47022] = {
+		979206,
+		171,
+		true
+	},
+	[47023] = {
+		979377,
+		171,
+		true
+	},
+	[47024] = {
+		979548,
+		171,
+		true
+	},
+	[47025] = {
+		979719,
+		171,
+		true
+	},
+	[47026] = {
+		979890,
+		171,
+		true
+	},
+	[47040] = {
+		980061,
+		580,
+		true
+	},
+	[47041] = {
+		980641,
+		171,
+		true
+	},
+	[47042] = {
+		980812,
+		171,
+		true
+	},
+	[47043] = {
+		980983,
+		171,
+		true
+	},
+	[47044] = {
+		981154,
+		171,
+		true
+	},
+	[47045] = {
+		981325,
+		171,
+		true
+	},
+	[47046] = {
+		981496,
+		171,
+		true
+	},
+	[47047] = {
+		981667,
+		171,
+		true
+	},
+	[47048] = {
+		981838,
+		171,
+		true
+	},
+	[47049] = {
+		982009,
+		171,
+		true
+	},
+	[47050] = {
+		982180,
+		171,
+		true
+	},
+	[47051] = {
+		982351,
+		184,
+		true
+	},
+	[47060] = {
+		982535,
+		549,
+		true
+	},
+	[47061] = {
+		983084,
+		189,
+		true
+	},
+	[47062] = {
+		983273,
+		189,
+		true
+	},
+	[47063] = {
+		983462,
+		189,
+		true
+	},
+	[47064] = {
+		983651,
+		189,
+		true
+	},
+	[47065] = {
+		983840,
+		189,
+		true
+	},
+	[47066] = {
+		984029,
+		189,
+		true
+	},
+	[47067] = {
+		984218,
+		189,
+		true
+	},
+	[47080] = {
+		984407,
+		553,
+		true
+	},
+	[47081] = {
+		984960,
+		189,
+		true
+	},
+	[47082] = {
+		985149,
+		189,
+		true
+	},
+	[47083] = {
+		985338,
+		189,
+		true
+	},
+	[47084] = {
+		985527,
+		189,
+		true
+	},
+	[47085] = {
+		985716,
+		189,
+		true
+	},
+	[47086] = {
+		985905,
+		189,
+		true
+	},
+	[47087] = {
+		986094,
+		189,
+		true
+	},
+	[47088] = {
+		986283,
+		189,
+		true
+	},
+	[47089] = {
+		986472,
+		189,
+		true
+	},
+	[47090] = {
+		986661,
+		189,
+		true
+	},
+	[47091] = {
+		986850,
+		202,
+		true
+	},
+	[47100] = {
+		987052,
+		572,
+		true
+	},
+	[47101] = {
+		987624,
+		171,
+		true
+	},
+	[47102] = {
+		987795,
+		171,
+		true
+	},
+	[47103] = {
+		987966,
+		171,
+		true
+	},
+	[47104] = {
+		988137,
+		171,
+		true
+	},
+	[47105] = {
+		988308,
+		171,
+		true
+	},
+	[47106] = {
+		988479,
+		171,
+		true
+	},
+	[47120] = {
+		988650,
+		572,
+		true
+	},
+	[47121] = {
+		989222,
+		171,
+		true
+	},
+	[47122] = {
+		989393,
+		171,
+		true
+	},
+	[47123] = {
+		989564,
+		171,
+		true
+	},
+	[47124] = {
+		989735,
+		171,
+		true
+	},
+	[47125] = {
+		989906,
+		171,
+		true
+	},
+	[47126] = {
+		990077,
+		171,
+		true
+	},
+	[47127] = {
+		990248,
+		171,
+		true
+	},
+	[47128] = {
+		990419,
+		171,
+		true
+	},
+	[47129] = {
+		990590,
+		171,
+		true
+	},
+	[47130] = {
+		990761,
+		171,
+		true
+	},
+	[47140] = {
+		990932,
+		572,
+		true
+	},
+	[47141] = {
+		991504,
+		171,
+		true
+	},
+	[47142] = {
+		991675,
+		171,
+		true
+	},
+	[47143] = {
+		991846,
+		171,
+		true
+	},
+	[47144] = {
+		992017,
+		171,
+		true
+	},
+	[47145] = {
+		992188,
+		171,
+		true
+	},
+	[47146] = {
+		992359,
+		171,
+		true
+	},
+	[47147] = {
+		992530,
+		171,
+		true
+	},
+	[47148] = {
+		992701,
+		171,
+		true
+	},
+	[47149] = {
+		992872,
+		171,
+		true
+	},
+	[47150] = {
+		993043,
+		171,
+		true
+	},
+	[47151] = {
+		993214,
+		184,
+		true
+	},
+	[47152] = {
+		993398,
+		185,
+		true
+	},
+	[47153] = {
+		993583,
+		185,
+		true
+	},
+	[47160] = {
+		993768,
+		572,
+		true
+	},
+	[47161] = {
+		994340,
+		185,
+		true
+	},
+	[47162] = {
+		994525,
+		185,
+		true
+	},
+	[47163] = {
+		994710,
+		185,
+		true
+	},
+	[47164] = {
+		994895,
+		185,
+		true
+	},
+	[47165] = {
+		995080,
+		185,
+		true
+	},
+	[47166] = {
+		995265,
+		185,
+		true
+	},
+	[47167] = {
+		995450,
+		185,
+		true
+	},
+	[47168] = {
+		995635,
+		185,
+		true
+	},
+	[47169] = {
+		995820,
+		185,
+		true
+	},
+	[47170] = {
+		996005,
+		185,
+		true
+	},
+	[47171] = {
+		996190,
+		198,
+		true
+	},
+	[47172] = {
+		996388,
+		199,
+		true
+	},
+	[47173] = {
+		996587,
+		199,
+		true
+	},
+	[48000] = {
+		996786,
+		527,
+		true
+	},
+	[48001] = {
+		997313,
+		167,
+		true
+	},
+	[48002] = {
+		997480,
+		167,
+		true
+	},
+	[48003] = {
+		997647,
+		167,
+		true
+	},
+	[48004] = {
+		997814,
+		167,
+		true
+	},
+	[48005] = {
+		997981,
+		167,
+		true
+	},
+	[48006] = {
+		998148,
+		167,
+		true
+	},
+	[48007] = {
+		998315,
+		167,
+		true
+	},
+	[48020] = {
+		998482,
+		527,
+		true
+	},
+	[48021] = {
+		999009,
+		167,
+		true
+	},
+	[48022] = {
+		999176,
+		167,
+		true
+	},
+	[48023] = {
+		999343,
+		167,
+		true
+	},
+	[48024] = {
+		999510,
+		167,
+		true
+	},
+	[48025] = {
+		999677,
+		167,
+		true
+	},
+	[48026] = {
+		999844,
+		167,
+		true
+	},
+	[48027] = {
+		1000011,
+		167,
+		true
+	},
+	[48028] = {
+		1000178,
+		167,
+		true
+	},
+	[48029] = {
+		1000345,
+		167,
+		true
+	},
+	[48030] = {
+		1000512,
+		167,
+		true
+	},
+	[48031] = {
+		1000679,
+		180,
+		true
+	},
+	[48040] = {
+		1000859,
+		513,
+		true
+	},
+	[48041] = {
+		1001372,
+		167,
+		true
+	},
+	[48042] = {
+		1001539,
+		167,
+		true
+	},
+	[48043] = {
+		1001706,
+		167,
+		true
+	},
+	[48044] = {
+		1001873,
+		167,
+		true
+	},
+	[48045] = {
+		1002040,
+		167,
+		true
+	},
+	[48046] = {
+		1002207,
+		167,
+		true
+	},
+	[48047] = {
+		1002374,
+		167,
+		true
+	},
+	[48048] = {
+		1002541,
+		167,
+		true
+	},
+	[48049] = {
+		1002708,
+		167,
+		true
+	},
+	[48050] = {
+		1002875,
+		167,
+		true
+	},
+	[48051] = {
+		1003042,
+		180,
+		true
+	},
+	[48052] = {
+		1003222,
+		181,
+		true
+	},
+	[48053] = {
+		1003403,
+		181,
+		true
+	},
+	[49000] = {
+		1003584,
+		619,
+		true
+	},
+	[49001] = {
+		1004203,
+		185,
+		true
+	},
+	[49002] = {
+		1004388,
+		185,
+		true
+	},
+	[49003] = {
+		1004573,
+		185,
+		true
+	},
+	[49020] = {
+		1004758,
+		619,
+		true
+	},
+	[49021] = {
+		1005377,
+		185,
+		true
+	},
+	[49022] = {
+		1005562,
+		185,
+		true
+	},
+	[49023] = {
+		1005747,
+		185,
+		true
+	},
+	[49024] = {
+		1005932,
+		185,
+		true
+	},
+	[49025] = {
+		1006117,
+		185,
+		true
+	},
+	[49026] = {
+		1006302,
+		185,
+		true
+	},
+	[49040] = {
+		1006487,
+		619,
+		true
+	},
+	[49041] = {
+		1007106,
+		185,
+		true
+	},
+	[49042] = {
+		1007291,
+		185,
+		true
+	},
+	[49043] = {
+		1007476,
+		185,
+		true
+	},
+	[49044] = {
+		1007661,
+		185,
+		true
+	},
+	[49045] = {
+		1007846,
+		185,
+		true
+	},
+	[49046] = {
+		1008031,
+		185,
+		true
+	},
+	[49047] = {
+		1008216,
+		185,
+		true
+	},
+	[49048] = {
+		1008401,
+		185,
+		true
+	},
+	[49049] = {
+		1008586,
+		185,
+		true
+	},
+	[49050] = {
+		1008771,
+		185,
+		true
+	},
+	[49051] = {
+		1008956,
+		198,
+		true
+	},
+	[49060] = {
+		1009154,
+		526,
+		true
+	},
+	[49061] = {
+		1009680,
+		167,
+		true
+	},
+	[49062] = {
+		1009847,
+		167,
+		true
+	},
+	[49063] = {
+		1010014,
+		167,
+		true
+	},
+	[49064] = {
+		1010181,
+		167,
+		true
+	},
+	[49065] = {
+		1010348,
+		167,
+		true
+	},
+	[49066] = {
+		1010515,
+		167,
+		true
+	},
+	[49067] = {
+		1010682,
+		167,
+		true
+	},
+	[54010] = {
+		1010849,
+		424,
+		true
+	},
+	[54011] = {
+		1011273,
+		119,
+		true
+	},
+	[54012] = {
+		1011392,
+		119,
+		true
+	},
+	[54013] = {
+		1011511,
+		119,
+		true
+	},
+	[54014] = {
+		1011630,
+		119,
+		true
+	},
+	[54015] = {
+		1011749,
+		119,
+		true
+	},
+	[60001] = {
+		1011868,
+		424,
+		true
+	},
+	[60002] = {
+		1012292,
+		119,
+		true
+	},
+	[60003] = {
+		1012411,
+		119,
+		true
+	},
+	[60011] = {
+		1012530,
+		424,
+		true
+	},
+	[60012] = {
+		1012954,
+		119,
+		true
+	},
+	[60013] = {
+		1013073,
+		119,
+		true
+	},
+	[60021] = {
+		1013192,
+		424,
+		true
+	},
+	[60022] = {
+		1013616,
+		119,
+		true
+	},
+	[60023] = {
+		1013735,
+		119,
+		true
+	},
+	[60031] = {
+		1013854,
+		424,
+		true
+	},
+	[60032] = {
+		1014278,
+		119,
+		true
+	},
+	[60033] = {
+		1014397,
+		119,
+		true
+	},
+	[60041] = {
+		1014516,
+		424,
+		true
+	},
+	[60042] = {
+		1014940,
+		119,
+		true
+	},
+	[60043] = {
+		1015059,
+		119,
+		true
+	},
+	[60051] = {
+		1015178,
+		424,
+		true
+	},
+	[60052] = {
+		1015602,
+		119,
+		true
+	},
+	[60053] = {
+		1015721,
+		119,
+		true
+	},
+	[60061] = {
+		1015840,
+		424,
+		true
+	},
+	[60062] = {
+		1016264,
+		119,
+		true
+	},
+	[60063] = {
+		1016383,
+		119,
+		true
+	},
+	[60071] = {
+		1016502,
+		424,
+		true
+	},
+	[60072] = {
+		1016926,
+		119,
+		true
+	},
+	[60073] = {
+		1017045,
+		119,
+		true
+	},
+	[60081] = {
+		1017164,
+		424,
+		true
+	},
+	[60082] = {
+		1017588,
+		119,
+		true
+	},
+	[60083] = {
+		1017707,
+		119,
+		true
+	},
+	[60091] = {
+		1017826,
+		424,
+		true
+	},
+	[60092] = {
+		1018250,
+		119,
+		true
+	},
+	[60101] = {
+		1018369,
+		424,
+		true
+	},
+	[60102] = {
+		1018793,
+		119,
+		true
+	},
+	[60103] = {
+		1018912,
+		119,
+		true
+	},
+	[60111] = {
+		1019031,
+		424,
+		true
+	},
+	[60112] = {
+		1019455,
+		119,
+		true
+	},
+	[60113] = {
+		1019574,
+		119,
+		true
+	},
+	[60121] = {
+		1019693,
+		424,
+		true
+	},
+	[60122] = {
+		1020117,
+		119,
+		true
+	},
+	[60123] = {
+		1020236,
+		119,
+		true
+	},
+	[60131] = {
+		1020355,
+		424,
+		true
+	},
+	[60132] = {
+		1020779,
+		119,
+		true
+	},
+	[60133] = {
+		1020898,
+		119,
+		true
+	},
+	[60141] = {
+		1021017,
+		424,
+		true
+	},
+	[60142] = {
+		1021441,
+		119,
+		true
+	},
+	[60143] = {
+		1021560,
+		119,
+		true
+	},
+	[60151] = {
+		1021679,
+		424,
+		true
+	},
+	[60152] = {
+		1022103,
+		119,
+		true
+	},
+	[60153] = {
+		1022222,
+		119,
+		true
+	},
+	[60161] = {
+		1022341,
+		424,
+		true
+	},
+	[60162] = {
+		1022765,
+		119,
+		true
+	},
+	[60163] = {
+		1022884,
+		119,
+		true
+	},
+	[60171] = {
+		1023003,
+		424,
+		true
+	},
+	[60172] = {
+		1023427,
+		119,
+		true
+	},
+	[60173] = {
+		1023546,
+		119,
+		true
+	},
+	[60181] = {
+		1023665,
+		424,
+		true
+	},
+	[60182] = {
+		1024089,
+		119,
+		true
+	},
+	[60183] = {
+		1024208,
+		119,
+		true
+	},
+	[60191] = {
+		1024327,
+		424,
+		true
+	},
+	[60192] = {
+		1024751,
+		119,
+		true
+	},
+	[60193] = {
+		1024870,
+		119,
+		true
+	},
+	[60201] = {
+		1024989,
+		424,
+		true
+	},
+	[60202] = {
+		1025413,
+		119,
+		true
+	},
+	[60203] = {
+		1025532,
+		119,
+		true
+	},
+	[60211] = {
+		1025651,
+		424,
+		true
+	},
+	[60212] = {
+		1026075,
+		119,
+		true
+	},
+	[60213] = {
+		1026194,
+		119,
+		true
+	},
+	[60221] = {
+		1026313,
+		424,
+		true
+	},
+	[60222] = {
+		1026737,
+		119,
+		true
+	},
+	[60223] = {
+		1026856,
+		119,
+		true
+	},
+	[60231] = {
+		1026975,
+		461,
+		true
+	},
+	[60232] = {
+		1027436,
+		461,
+		true
+	},
+	[60233] = {
+		1027897,
+		475,
+		true
+	},
+	[60234] = {
+		1028372,
+		442,
+		true
+	},
+	[60235] = {
+		1028814,
+		139,
+		true
+	},
+	[60236] = {
+		1028953,
+		442,
+		true
+	},
+	[60237] = {
+		1029395,
+		139,
+		true
+	},
+	[60238] = {
+		1029534,
+		442,
+		true
+	},
+	[60239] = {
+		1029976,
+		139,
+		true
+	},
+	[60241] = {
+		1030115,
+		448,
+		true
+	},
+	[60242] = {
+		1030563,
+		146,
+		true
+	},
+	[60243] = {
+		1030709,
+		147,
+		true
+	},
+	[60251] = {
+		1030856,
+		454,
+		true
+	},
+	[60252] = {
+		1031310,
+		152,
+		true
+	},
+	[60253] = {
+		1031462,
+		153,
+		true
+	},
+	[60261] = {
+		1031615,
+		448,
+		true
+	},
+	[60262] = {
+		1032063,
+		146,
+		true
+	},
+	[60263] = {
+		1032209,
+		147,
+		true
+	},
+	[60271] = {
+		1032356,
+		448,
+		true
+	},
+	[60272] = {
+		1032804,
+		146,
+		true
+	},
+	[60273] = {
+		1032950,
+		147,
+		true
+	},
+	[60281] = {
+		1033097,
+		448,
+		true
+	},
+	[60282] = {
+		1033545,
+		146,
+		true
+	},
+	[60283] = {
+		1033691,
+		147,
+		true
+	},
+	[60291] = {
+		1033838,
+		448,
+		true
+	},
+	[60292] = {
+		1034286,
+		146,
+		true
+	},
+	[60293] = {
+		1034432,
+		147,
+		true
+	},
+	[60301] = {
+		1034579,
+		439,
+		true
+	},
+	[60302] = {
+		1035018,
+		136,
+		true
+	},
+	[60311] = {
+		1035154,
+		451,
+		true
+	},
+	[60312] = {
+		1035605,
+		149,
+		true
+	},
+	[60313] = {
+		1035754,
+		150,
+		true
+	},
+	[60321] = {
+		1035904,
+		454,
+		true
+	},
+	[60322] = {
+		1036358,
+		152,
+		true
+	},
+	[60323] = {
+		1036510,
+		152,
+		true
+	},
+	[60331] = {
+		1036662,
+		448,
+		true
+	},
+	[60332] = {
+		1037110,
+		146,
+		true
+	},
+	[60333] = {
+		1037256,
+		147,
+		true
+	},
+	[60341] = {
+		1037403,
+		454,
+		true
+	},
+	[60342] = {
+		1037857,
+		152,
+		true
+	},
+	[60343] = {
+		1038009,
+		153,
+		true
+	},
+	[60351] = {
+		1038162,
+		451,
+		true
+	},
+	[60352] = {
+		1038613,
+		149,
+		true
+	},
+	[60353] = {
+		1038762,
+		150,
+		true
+	},
+	[60361] = {
+		1038912,
+		451,
+		true
+	},
+	[60362] = {
+		1039363,
+		149,
+		true
+	},
+	[60363] = {
+		1039512,
+		150,
+		true
+	},
+	[60371] = {
+		1039662,
+		448,
+		true
+	},
+	[60372] = {
+		1040110,
+		146,
+		true
+	},
+	[60373] = {
+		1040256,
+		147,
+		true
+	},
+	[60381] = {
+		1040403,
+		451,
+		true
+	},
+	[60382] = {
+		1040854,
+		149,
+		true
+	},
+	[60383] = {
+		1041003,
+		150,
+		true
+	},
+	[60391] = {
+		1041153,
+		448,
+		true
+	},
+	[60392] = {
+		1041601,
+		146,
+		true
+	},
+	[60393] = {
+		1041747,
+		147,
+		true
+	},
+	[60401] = {
+		1041894,
+		448,
+		true
+	},
+	[60402] = {
+		1042342,
+		146,
+		true
+	},
+	[60403] = {
+		1042488,
+		147,
+		true
+	},
+	[60411] = {
+		1042635,
+		454,
+		true
+	},
+	[60412] = {
+		1043089,
+		152,
+		true
+	},
+	[60413] = {
+		1043241,
+		153,
+		true
+	},
+	[60421] = {
+		1043394,
+		448,
+		true
+	},
+	[60422] = {
+		1043842,
+		146,
+		true
+	},
+	[60423] = {
+		1043988,
+		147,
+		true
+	},
+	[60431] = {
+		1044135,
+		451,
+		true
+	},
+	[60432] = {
+		1044586,
+		149,
+		true
+	},
+	[60433] = {
+		1044735,
+		150,
+		true
+	},
+	[60441] = {
+		1044885,
+		454,
+		true
+	},
+	[60442] = {
+		1045339,
+		152,
+		true
+	},
+	[60443] = {
+		1045491,
+		153,
+		true
+	},
+	[60451] = {
+		1045644,
+		451,
+		true
+	},
+	[60452] = {
+		1046095,
+		149,
+		true
+	},
+	[60453] = {
+		1046244,
+		150,
+		true
+	},
+	[60461] = {
+		1046394,
+		456,
+		true
+	},
+	[60471] = {
+		1046850,
+		448,
+		true
+	},
+	[60472] = {
+		1047298,
+		146,
+		true
+	},
+	[60473] = {
+		1047444,
+		147,
+		true
+	},
+	[60491] = {
+		1047591,
+		457,
+		true
+	},
+	[60492] = {
+		1048048,
+		155,
+		true
+	},
+	[60493] = {
+		1048203,
+		156,
+		true
+	},
+	[60511] = {
+		1048359,
+		451,
+		true
+	},
+	[60512] = {
+		1048810,
+		149,
+		true
+	},
+	[60513] = {
+		1048959,
+		150,
+		true
+	},
+	[60521] = {
+		1049109,
+		451,
+		true
+	},
+	[60522] = {
+		1049560,
+		149,
+		true
+	},
+	[60523] = {
+		1049709,
+		150,
+		true
+	},
+	[60531] = {
+		1049859,
+		445,
+		true
+	},
+	[60532] = {
+		1050304,
+		143,
+		true
+	},
+	[60533] = {
+		1050447,
+		144,
+		true
+	},
+	[60541] = {
+		1050591,
+		448,
+		true
+	},
+	[60542] = {
+		1051039,
+		146,
+		true
+	},
+	[60543] = {
+		1051185,
+		147,
+		true
+	},
+	[60551] = {
+		1051332,
+		451,
+		true
+	},
+	[60552] = {
+		1051783,
+		149,
+		true
+	},
+	[60553] = {
+		1051932,
+		150,
+		true
+	},
+	[60561] = {
+		1052082,
+		448,
+		true
+	},
+	[60562] = {
+		1052530,
+		146,
+		true
+	},
+	[60563] = {
+		1052676,
+		147,
+		true
+	},
+	[60591] = {
+		1052823,
+		449,
+		true
+	},
+	[60592] = {
+		1053272,
+		147,
+		true
+	},
+	[60593] = {
+		1053419,
+		147,
+		true
+	},
+	[60601] = {
+		1053566,
+		460,
+		true
+	},
+	[60602] = {
+		1054026,
+		158,
+		true
+	},
+	[60603] = {
+		1054184,
+		159,
+		true
+	},
+	[60641] = {
+		1054343,
+		445,
+		true
+	},
+	[60642] = {
+		1054788,
+		146,
+		true
+	},
+	[60643] = {
+		1054934,
+		147,
+		true
+	},
+	[60671] = {
+		1055081,
+		445,
+		true
+	},
+	[60672] = {
+		1055526,
+		146,
+		true
+	},
+	[60673] = {
+		1055672,
+		147,
+		true
+	},
+	[60681] = {
+		1055819,
+		451,
+		true
+	},
+	[60682] = {
+		1056270,
+		152,
+		true
+	},
+	[60683] = {
+		1056422,
+		153,
+		true
+	},
+	[61007] = {
+		1056575,
+		441,
+		true
+	},
+	[61008] = {
+		1057016,
+		119,
+		true
+	},
+	[61009] = {
+		1057135,
+		119,
+		true
+	},
+	[61010] = {
+		1057254,
+		441,
+		true
+	},
+	[61011] = {
+		1057695,
+		119,
+		true
+	},
+	[61012] = {
+		1057814,
+		119,
+		true
+	},
+	[61031] = {
+		1057933,
+		458,
+		true
+	},
+	[61041] = {
+		1058391,
+		455,
+		true
+	},
+	[61051] = {
+		1058846,
+		466,
+		true
+	},
+	[61052] = {
+		1059312,
+		466,
+		true
+	},
+	[61053] = {
+		1059778,
+		466,
+		true
+	},
+	[61054] = {
+		1060244,
+		454,
+		true
+	},
+	[61501] = {
+		1060698,
+		424,
+		true
+	},
+	[61503] = {
+		1061122,
+		424,
+		true
+	},
+	[61504] = {
+		1061546,
+		424,
+		true
+	},
+	[61505] = {
+		1061970,
+		424,
+		true
+	},
+	[61506] = {
+		1062394,
+		515,
+		true
+	},
+	[61507] = {
+		1062909,
+		499,
+		true
+	},
+	[61508] = {
+		1063408,
+		502,
+		true
+	},
+	[61509] = {
+		1063910,
+		505,
+		true
+	},
+	[61510] = {
+		1064415,
+		505,
+		true
+	},
+	[66200] = {
+		1064920,
+		441,
+		true
+	},
+	[66220] = {
+		1065361,
+		441,
+		true
+	},
+	[70011] = {
+		1065802,
+		441,
+		true
+	},
+	[70012] = {
+		1066243,
+		119,
+		true
+	},
+	[70021] = {
+		1066362,
+		441,
+		true
+	},
+	[70022] = {
+		1066803,
+		119,
+		true
+	},
+	[70031] = {
+		1066922,
+		441,
+		true
+	},
+	[70032] = {
+		1067363,
+		119,
+		true
+	},
+	[70041] = {
+		1067482,
+		441,
+		true
+	},
+	[70042] = {
+		1067923,
+		119,
+		true
+	},
+	[70051] = {
+		1068042,
+		441,
+		true
+	},
+	[70052] = {
+		1068483,
+		119,
+		true
+	},
+	[70061] = {
+		1068602,
+		441,
+		true
+	},
+	[70062] = {
+		1069043,
+		119,
+		true
+	},
+	[70071] = {
+		1069162,
+		441,
+		true
+	},
+	[70072] = {
+		1069603,
+		119,
+		true
+	},
+	[70081] = {
+		1069722,
+		473,
+		true
+	},
+	[70082] = {
+		1070195,
+		154,
+		true
+	},
+	[70111] = {
+		1070349,
+		441,
+		true
+	},
+	[70112] = {
+		1070790,
+		119,
+		true
+	},
+	[70121] = {
+		1070909,
+		441,
+		true
+	},
+	[70122] = {
+		1071350,
+		119,
+		true
+	},
+	[70131] = {
+		1071469,
+		441,
+		true
+	},
+	[70132] = {
+		1071910,
+		119,
+		true
+	},
+	[70141] = {
+		1072029,
+		441,
+		true
+	},
+	[70142] = {
+		1072470,
+		119,
+		true
+	},
+	[70211] = {
+		1072589,
+		441,
+		true
+	},
+	[70212] = {
+		1073030,
+		119,
+		true
+	},
+	[70221] = {
+		1073149,
+		441,
+		true
+	},
+	[70222] = {
+		1073590,
+		119,
+		true
+	},
+	[70231] = {
+		1073709,
+		441,
+		true
+	},
+	[70232] = {
+		1074150,
+		119,
+		true
+	},
+	[70241] = {
+		1074269,
+		441,
+		true
+	},
+	[70242] = {
+		1074710,
+		119,
+		true
+	},
+	[70251] = {
+		1074829,
+		441,
+		true
+	},
+	[70252] = {
+		1075270,
+		119,
+		true
+	},
+	[70261] = {
+		1075389,
+		441,
+		true
+	},
+	[70262] = {
+		1075830,
+		119,
+		true
+	},
+	[70271] = {
+		1075949,
+		441,
+		true
+	},
+	[70272] = {
+		1076390,
+		119,
+		true
+	},
+	[70311] = {
+		1076509,
+		463,
+		true
+	},
+	[70312] = {
+		1076972,
+		143,
+		true
+	},
+	[70321] = {
+		1077115,
+		462,
+		true
+	},
+	[70322] = {
+		1077577,
+		146,
+		true
+	},
+	[71011] = {
+		1077723,
+		441,
+		true
+	},
+	[71012] = {
+		1078164,
+		119,
+		true
+	},
+	[71021] = {
+		1078283,
+		441,
+		true
+	},
+	[71022] = {
+		1078724,
+		119,
+		true
+	},
+	[71031] = {
+		1078843,
+		441,
+		true
+	},
+	[71032] = {
+		1079284,
+		119,
+		true
+	},
+	[71041] = {
+		1079403,
+		441,
+		true
+	},
+	[71042] = {
+		1079844,
+		119,
+		true
+	},
+	[71051] = {
+		1079963,
+		441,
+		true
+	},
+	[71052] = {
+		1080404,
+		119,
+		true
+	},
+	[71061] = {
+		1080523,
+		441,
+		true
+	},
+	[71062] = {
+		1080964,
+		119,
+		true
+	},
+	[71026] = {
+		1081083,
+		457,
+		true
+	},
+	[71027] = {
+		1081540,
+		138,
+		true
+	},
+	[71071] = {
+		1081678,
+		441,
+		true
+	},
+	[71072] = {
+		1082119,
+		119,
+		true
+	},
+	[71081] = {
+		1082238,
+		458,
+		true
+	},
+	[71082] = {
+		1082696,
+		138,
+		true
+	},
+	[71091] = {
+		1082834,
+		458,
+		true
+	},
+	[71092] = {
+		1083292,
+		138,
+		true
+	},
+	[71016] = {
+		1083430,
+		462,
+		true
+	},
+	[71017] = {
+		1083892,
+		143,
+		true
+	},
+	[71111] = {
+		1084035,
+		441,
+		true
+	},
+	[71112] = {
+		1084476,
+		119,
+		true
+	},
+	[71121] = {
+		1084595,
+		441,
+		true
+	},
+	[71122] = {
+		1085036,
+		119,
+		true
+	},
+	[71131] = {
+		1085155,
+		441,
+		true
+	},
+	[71132] = {
+		1085596,
+		119,
+		true
+	},
+	[71141] = {
+		1085715,
+		441,
+		true
+	},
+	[71142] = {
+		1086156,
+		119,
+		true
+	},
+	[71151] = {
+		1086275,
+		469,
+		true
+	},
+	[71152] = {
+		1086744,
+		149,
+		true
+	},
+	[71161] = {
+		1086893,
+		463,
+		true
+	},
+	[71162] = {
+		1087356,
+		143,
+		true
+	},
+	[71171] = {
+		1087499,
+		466,
+		true
+	},
+	[71172] = {
+		1087965,
+		146,
+		true
+	},
+	[71181] = {
+		1088111,
+		469,
+		true
+	},
+	[71182] = {
+		1088580,
+		149,
+		true
+	},
+	[71211] = {
+		1088729,
+		441,
+		true
+	},
+	[71212] = {
+		1089170,
+		119,
+		true
+	},
+	[71221] = {
+		1089289,
+		441,
+		true
+	},
+	[71222] = {
+		1089730,
+		119,
+		true
+	},
+	[71231] = {
+		1089849,
+		441,
+		true
+	},
+	[71232] = {
+		1090290,
+		119,
+		true
+	},
+	[71241] = {
+		1090409,
+		441,
+		true
+	},
+	[71242] = {
+		1090850,
+		119,
+		true
+	},
+	[72011] = {
+		1090969,
+		441,
+		true
+	},
+	[72012] = {
+		1091410,
+		119,
+		true
+	},
+	[72021] = {
+		1091529,
+		441,
+		true
+	},
+	[72022] = {
+		1091970,
+		119,
+		true
+	},
+	[72031] = {
+		1092089,
+		441,
+		true
+	},
+	[72032] = {
+		1092530,
+		119,
+		true
+	},
+	[72041] = {
+		1092649,
+		441,
+		true
+	},
+	[72042] = {
+		1093090,
+		119,
+		true
+	},
+	[72051] = {
+		1093209,
+		441,
+		true
+	},
+	[72052] = {
+		1093650,
+		119,
+		true
+	},
+	[72056] = {
+		1093769,
+		463,
+		true
+	},
+	[72057] = {
+		1094232,
+		143,
+		true
+	},
+	[72061] = {
+		1094375,
+		441,
+		true
+	},
+	[72062] = {
+		1094816,
+		119,
+		true
+	},
+	[72071] = {
+		1094935,
+		441,
+		true
+	},
+	[72072] = {
+		1095376,
+		119,
+		true
+	},
+	[72081] = {
+		1095495,
+		441,
+		true
+	},
+	[72082] = {
+		1095936,
+		119,
+		true
+	},
+	[72091] = {
+		1096055,
+		463,
+		true
+	},
+	[72092] = {
+		1096518,
+		143,
+		true
+	},
+	[72111] = {
+		1096661,
+		441,
+		true
+	},
+	[72112] = {
+		1097102,
+		119,
+		true
+	},
+	[72121] = {
+		1097221,
+		441,
+		true
+	},
+	[72122] = {
+		1097662,
+		119,
+		true
+	},
+	[72131] = {
+		1097781,
+		441,
+		true
+	},
+	[72132] = {
+		1098222,
+		119,
+		true
+	},
+	[72141] = {
+		1098341,
+		441,
+		true
+	},
+	[72142] = {
+		1098782,
+		119,
+		true
+	},
+	[72151] = {
+		1098901,
+		441,
+		true
+	},
+	[72152] = {
+		1099342,
+		119,
+		true
+	},
+	[72161] = {
+		1099461,
+		441,
+		true
+	},
+	[72162] = {
+		1099902,
+		119,
+		true
+	},
+	[72211] = {
+		1100021,
+		441,
+		true
+	},
+	[72212] = {
+		1100462,
+		119,
+		true
+	},
+	[72221] = {
+		1100581,
+		441,
+		true
+	},
+	[72222] = {
+		1101022,
+		119,
+		true
+	},
+	[72231] = {
+		1101141,
+		441,
+		true
+	},
+	[72232] = {
+		1101582,
+		119,
+		true
+	},
+	[72241] = {
+		1101701,
+		441,
+		true
+	},
+	[72242] = {
+		1102142,
+		119,
+		true
+	},
+	[72251] = {
+		1102261,
+		441,
+		true
+	},
+	[72252] = {
+		1102702,
+		119,
+		true
+	},
+	[72254] = {
+		1102821,
+		190,
+		true
+	},
+	[72255] = {
+		1103011,
+		152,
+		true
+	},
+	[72256] = {
+		1103163,
+		196,
+		true
+	},
+	[72257] = {
+		1103359,
+		158,
+		true
+	},
+	[72261] = {
+		1103517,
+		441,
+		true
+	},
+	[72262] = {
+		1103958,
+		119,
+		true
+	},
+	[72311] = {
+		1104077,
+		463,
+		true
+	},
+	[72312] = {
+		1104540,
+		143,
+		true
+	},
+	[72411] = {
+		1104683,
+		459,
+		true
+	},
+	[72412] = {
+		1105142,
+		140,
+		true
+	},
+	[73011] = {
+		1105282,
+		441,
+		true
+	},
+	[73012] = {
+		1105723,
+		119,
+		true
+	},
+	[73031] = {
+		1105842,
+		441,
+		true
+	},
+	[73032] = {
+		1106283,
+		119,
+		true
+	},
+	[73041] = {
+		1106402,
+		462,
+		true
+	},
+	[73042] = {
+		1106864,
+		142,
+		true
+	},
+	[73051] = {
+		1107006,
+		462,
+		true
+	},
+	[73052] = {
+		1107468,
+		142,
+		true
+	},
+	[73111] = {
+		1107610,
+		441,
+		true
+	},
+	[73112] = {
+		1108051,
+		119,
+		true
+	},
+	[73121] = {
+		1108170,
+		441,
+		true
+	},
+	[73122] = {
+		1108611,
+		119,
+		true
+	},
+	[73211] = {
+		1108730,
+		441,
+		true
+	},
+	[73212] = {
+		1109171,
+		119,
+		true
+	},
+	[73221] = {
+		1109290,
+		441,
+		true
+	},
+	[73222] = {
+		1109731,
+		119,
+		true
+	},
+	[73231] = {
+		1109850,
+		458,
+		true
+	},
+	[73232] = {
+		1110308,
+		138,
+		true
+	},
+	[73311] = {
+		1110446,
+		466,
+		true
+	},
+	[73312] = {
+		1110912,
+		146,
+		true
+	},
+	[73321] = {
+		1111058,
+		464,
+		true
+	},
+	[73322] = {
+		1111522,
+		145,
+		true
+	},
+	[73411] = {
+		1111667,
+		465,
+		true
+	},
+	[73412] = {
+		1112132,
+		146,
+		true
+	},
+	[73511] = {
+		1112278,
+		464,
+		true
+	},
+	[73512] = {
+		1112742,
+		145,
+		true
+	},
+	[74011] = {
+		1112887,
+		441,
+		true
+	},
+	[74012] = {
+		1113328,
+		119,
+		true
+	},
+	[74111] = {
+		1113447,
+		441,
+		true
+	},
+	[74112] = {
+		1113888,
+		119,
+		true
+	},
+	[74121] = {
+		1114007,
+		441,
+		true
+	},
+	[74122] = {
+		1114448,
+		119,
+		true
+	},
+	[74131] = {
+		1114567,
+		459,
+		true
+	},
+	[74132] = {
+		1115026,
+		143,
+		true
+	},
+	[75011] = {
+		1115169,
+		468,
+		true
+	},
+	[75012] = {
+		1115637,
+		149,
+		true
+	},
+	[75021] = {
+		1115786,
+		459,
+		true
+	},
+	[75022] = {
+		1116245,
+		143,
+		true
+	},
+	[75031] = {
+		1116388,
+		462,
+		true
+	},
+	[75032] = {
+		1116850,
+		146,
+		true
+	},
+	[75041] = {
+		1116996,
+		462,
+		true
+	},
+	[75042] = {
+		1117458,
+		146,
+		true
+	},
+	[75211] = {
+		1117604,
+		465,
+		true
+	},
+	[75212] = {
+		1118069,
+		146,
+		true
+	},
+	[75221] = {
+		1118215,
+		462,
+		true
+	},
+	[75222] = {
+		1118677,
+		143,
+		true
+	},
+	[75511] = {
+		1118820,
+		459,
+		true
+	},
+	[75512] = {
+		1119279,
+		143,
+		true
+	},
+	[76011] = {
+		1119422,
+		462,
+		true
+	},
+	[76012] = {
+		1119884,
+		143,
+		true
+	},
+	[76021] = {
+		1120027,
+		465,
+		true
+	},
+	[76022] = {
+		1120492,
+		146,
+		true
+	},
+	[76111] = {
+		1120638,
+		468,
+		true
+	},
+	[76112] = {
+		1121106,
+		149,
+		true
+	},
+	[78011] = {
+		1121255,
+		463,
+		true
+	},
+	[78012] = {
+		1121718,
+		143,
+		true
+	},
+	[78021] = {
+		1121861,
+		463,
+		true
+	},
+	[78022] = {
+		1122324,
+		143,
+		true
+	},
+	[78031] = {
+		1122467,
+		465,
+		true
+	},
+	[78032] = {
+		1122932,
+		146,
+		true
+	},
+	[78111] = {
+		1123078,
+		474,
+		true
+	},
+	[78112] = {
+		1123552,
+		154,
+		true
+	},
+	[78121] = {
+		1123706,
+		473,
+		true
+	},
+	[78122] = {
+		1124179,
+		154,
+		true
+	},
+	[78211] = {
+		1124333,
+		468,
+		true
+	},
+	[78212] = {
+		1124801,
+		149,
+		true
+	},
+	[79011] = {
+		1124950,
+		441,
+		true
+	},
+	[79012] = {
+		1125391,
+		119,
+		true
+	},
+	[79021] = {
+		1125510,
+		441,
+		true
+	},
+	[79022] = {
+		1125951,
+		119,
+		true
+	},
+	[79031] = {
+		1126070,
+		441,
+		true
+	},
+	[79032] = {
+		1126511,
+		119,
+		true
+	},
+	[79041] = {
+		1126630,
+		441,
+		true
+	},
+	[79042] = {
+		1127071,
+		119,
+		true
+	},
+	[79051] = {
+		1127190,
+		441,
+		true
+	},
+	[79052] = {
+		1127631,
+		119,
+		true
+	},
+	[79061] = {
+		1127750,
+		441,
+		true
+	},
+	[79062] = {
+		1128191,
+		119,
+		true
+	},
+	[79071] = {
+		1128310,
+		441,
+		true
+	},
+	[79072] = {
+		1128751,
+		119,
+		true
+	},
+	[79081] = {
+		1128870,
+		441,
+		true
+	},
+	[79082] = {
+		1129311,
+		119,
+		true
+	},
+	[79091] = {
+		1129430,
+		441,
+		true
+	},
+	[79092] = {
+		1129871,
+		119,
+		true
+	},
+	[79101] = {
+		1129990,
+		441,
+		true
+	},
+	[79102] = {
+		1130431,
+		119,
+		true
+	},
+	[79111] = {
+		1130550,
+		441,
+		true
+	},
+	[79112] = {
+		1130991,
+		119,
+		true
+	},
+	[79121] = {
+		1131110,
+		441,
+		true
+	},
+	[79122] = {
+		1131551,
+		119,
+		true
+	},
+	[79131] = {
+		1131670,
+		441,
+		true
+	},
+	[79132] = {
+		1132111,
+		119,
+		true
+	},
+	[79141] = {
+		1132230,
+		441,
+		true
+	},
+	[79142] = {
+		1132671,
+		119,
+		true
+	},
+	[79151] = {
+		1132790,
+		441,
+		true
+	},
+	[79152] = {
+		1133231,
+		119,
+		true
+	},
+	[79161] = {
+		1133350,
+		441,
+		true
+	},
+	[79162] = {
+		1133791,
+		119,
+		true
+	},
+	[79171] = {
+		1133910,
+		441,
+		true
+	},
+	[79172] = {
+		1134351,
+		119,
+		true
+	},
+	[79181] = {
+		1134470,
+		441,
+		true
+	},
+	[79182] = {
+		1134911,
+		119,
+		true
+	},
+	[79191] = {
+		1135030,
+		441,
+		true
+	},
+	[79192] = {
+		1135471,
+		119,
+		true
+	},
+	[79201] = {
+		1135590,
+		441,
+		true
+	},
+	[79202] = {
+		1136031,
+		119,
+		true
+	},
+	[79211] = {
+		1136150,
+		441,
+		true
+	},
+	[79212] = {
+		1136591,
+		119,
+		true
+	},
+	[79221] = {
+		1136710,
+		460,
+		true
+	},
+	[79222] = {
+		1137170,
+		140,
+		true
+	},
+	[79231] = {
+		1137310,
+		463,
+		true
+	},
+	[79232] = {
+		1137773,
+		143,
+		true
+	},
+	[79241] = {
+		1137916,
+		460,
+		true
+	},
+	[79242] = {
+		1138376,
+		140,
+		true
+	},
+	[79251] = {
+		1138516,
+		466,
+		true
+	},
+	[79252] = {
+		1138982,
+		146,
+		true
+	},
+	[79261] = {
+		1139128,
+		457,
+		true
+	},
+	[79262] = {
+		1139585,
+		137,
+		true
+	},
+	[79271] = {
+		1139722,
+		457,
+		true
+	},
+	[79272] = {
+		1140179,
+		137,
+		true
+	},
+	[79291] = {
+		1140316,
+		456,
+		true
+	},
+	[79292] = {
+		1140772,
+		136,
+		true
+	},
+	[79301] = {
+		1140908,
+		456,
+		true
+	},
+	[79302] = {
+		1141364,
+		136,
+		true
+	},
+	[79311] = {
+		1141500,
+		457,
+		true
+	},
+	[79312] = {
+		1141957,
+		137,
+		true
+	},
+	[79321] = {
+		1142094,
+		463,
+		true
+	},
+	[79322] = {
+		1142557,
+		143,
+		true
+	},
+	[79331] = {
+		1142700,
+		460,
+		true
+	},
+	[79332] = {
+		1143160,
+		140,
+		true
+	},
+	[79341] = {
+		1143300,
+		466,
+		true
+	},
+	[79342] = {
+		1143766,
+		146,
+		true
+	},
+	[79361] = {
+		1143912,
+		462,
+		true
+	},
+	[79362] = {
+		1144374,
+		143,
+		true
+	},
+	[79371] = {
+		1144517,
+		456,
+		true
+	},
+	[79372] = {
+		1144973,
+		137,
+		true
+	},
+	[79381] = {
+		1145110,
+		460,
+		true
+	},
+	[79382] = {
+		1145570,
+		140,
+		true
+	},
+	[79383] = {
+		1145710,
+		466,
+		true
+	},
+	[79384] = {
+		1146176,
+		146,
+		true
+	},
+	[79391] = {
+		1146322,
+		463,
+		true
+	},
+	[79392] = {
+		1146785,
+		143,
+		true
+	},
+	[79401] = {
+		1146928,
+		460,
+		true
+	},
+	[79402] = {
+		1147388,
+		140,
+		true
+	},
+	[79411] = {
+		1147528,
+		460,
+		true
+	},
+	[79412] = {
+		1147988,
+		140,
+		true
+	},
+	[79421] = {
+		1148128,
+		458,
+		true
+	},
+	[79422] = {
+		1148586,
+		138,
+		true
+	},
+	[79431] = {
+		1148724,
+		458,
+		true
+	},
+	[79432] = {
+		1149182,
+		138,
+		true
+	},
+	[79441] = {
+		1149320,
+		460,
+		true
+	},
+	[79442] = {
+		1149780,
+		140,
+		true
+	},
+	[79451] = {
+		1149920,
+		467,
+		true
+	},
+	[79452] = {
+		1150387,
+		148,
+		true
+	},
+	[79461] = {
+		1150535,
+		467,
+		true
+	},
+	[79462] = {
+		1151002,
+		148,
+		true
+	},
+	[79471] = {
+		1151150,
+		476,
+		true
+	},
+	[79472] = {
+		1151626,
+		157,
+		true
+	},
+	[79481] = {
+		1151783,
+		459,
+		true
+	},
+	[79482] = {
+		1152242,
+		140,
+		true
+	},
+	[79491] = {
+		1152382,
+		459,
+		true
+	},
+	[79492] = {
+		1152841,
+		140,
+		true
+	},
+	[79501] = {
+		1152981,
+		462,
+		true
+	},
+	[79502] = {
+		1153443,
+		143,
+		true
+	},
+	[79511] = {
+		1153586,
+		465,
+		true
+	},
+	[79512] = {
+		1154051,
+		146,
+		true
+	},
+	[79521] = {
+		1154197,
+		459,
+		true
+	},
+	[79522] = {
+		1154656,
+		140,
+		true
+	},
+	[79541] = {
+		1154796,
+		465,
+		true
+	},
+	[79542] = {
+		1155261,
+		146,
+		true
+	},
+	[79551] = {
+		1155407,
+		449,
+		true
+	},
+	[79552] = {
+		1155856,
+		140,
+		true
+	},
+	[79561] = {
+		1155996,
+		452,
+		true
+	},
+	[79562] = {
+		1156448,
+		143,
+		true
+	},
+	[79571] = {
+		1156591,
+		452,
+		true
+	},
+	[79572] = {
+		1157043,
+		143,
+		true
+	},
+	[79581] = {
+		1157186,
+		459,
+		true
+	},
+	[79582] = {
+		1157645,
+		140,
+		true
+	},
+	[79591] = {
+		1157785,
+		454,
+		true
+	},
+	[79592] = {
+		1158239,
+		137,
+		true
+	},
+	[79601] = {
+		1158376,
+		459,
+		true
+	},
+	[79602] = {
+		1158835,
+		140,
+		true
+	},
+	[79611] = {
+		1158975,
+		461,
+		true
+	},
+	[79612] = {
+		1159436,
+		142,
+		true
+	},
+	[79621] = {
+		1159578,
+		461,
+		true
+	},
+	[79622] = {
+		1160039,
+		142,
+		true
+	},
+	[79631] = {
+		1160181,
+		461,
+		true
+	},
+	[79632] = {
+		1160642,
+		142,
+		true
+	},
+	[79641] = {
+		1160784,
+		464,
+		true
+	},
+	[79642] = {
+		1161248,
+		145,
+		true
+	},
+	[79651] = {
+		1161393,
+		467,
+		true
+	},
+	[79652] = {
+		1161860,
+		148,
+		true
+	},
+	[79661] = {
+		1162008,
+		467,
+		true
+	},
+	[79662] = {
+		1162475,
+		148,
+		true
+	},
+	[79671] = {
+		1162623,
+		455,
+		true
+	},
+	[79672] = {
+		1163078,
+		137,
+		true
+	},
+	[79681] = {
+		1163215,
+		459,
+		true
+	},
+	[79682] = {
+		1163674,
+		143,
+		true
+	},
+	[79691] = {
+		1163817,
+		465,
+		true
+	},
+	[79692] = {
+		1164282,
+		149,
+		true
+	},
+	[79701] = {
+		1164431,
+		468,
+		true
+	},
+	[79702] = {
+		1164899,
+		152,
+		true
+	},
+	[79711] = {
+		1165051,
+		459,
+		true
+	},
+	[79712] = {
+		1165510,
+		143,
+		true
+	},
+	[79721] = {
+		1165653,
+		459,
+		true
+	},
+	[79722] = {
+		1166112,
+		143,
+		true
+	},
+	[79731] = {
+		1166255,
+		465,
+		true
+	},
+	[79732] = {
+		1166720,
+		149,
+		true
+	},
+	[79741] = {
+		1166869,
+		456,
+		true
+	},
+	[79742] = {
+		1167325,
+		140,
+		true
+	},
+	[79751] = {
+		1167465,
+		462,
+		true
+	},
+	[79752] = {
+		1167927,
+		146,
+		true
+	},
+	[79761] = {
+		1168073,
+		462,
+		true
+	},
+	[79762] = {
+		1168535,
+		146,
+		true
+	},
+	[85000] = {
+		1168681,
+		657,
+		true
+	},
+	[85001] = {
+		1169338,
+		125,
+		true
+	},
+	[85002] = {
+		1169463,
+		125,
+		true
+	},
+	[85003] = {
+		1169588,
+		125,
+		true
+	},
+	[85004] = {
+		1169713,
+		125,
+		true
+	},
+	[85005] = {
+		1169838,
+		125,
+		true
+	},
+	[85006] = {
+		1169963,
+		125,
+		true
+	},
+	[85040] = {
+		1170088,
+		657,
+		true
+	},
+	[85041] = {
+		1170745,
+		125,
+		true
+	},
+	[85042] = {
+		1170870,
+		125,
+		true
+	},
+	[85043] = {
+		1170995,
+		125,
+		true
+	},
+	[85044] = {
+		1171120,
+		125,
+		true
+	},
+	[85045] = {
+		1171245,
+		126,
+		true
+	},
+	[85046] = {
+		1171371,
+		126,
+		true
+	},
+	[85047] = {
+		1171497,
+		126,
+		true
+	},
+	[85048] = {
+		1171623,
+		126,
+		true
+	},
+	[85049] = {
+		1171749,
+		126,
+		true
+	},
+	[85050] = {
+		1171875,
+		126,
+		true
+	},
+	[85051] = {
+		1172001,
+		140,
+		true
+	},
+	[85052] = {
+		1172141,
+		141,
+		true
+	},
+	[85053] = {
+		1172282,
+		141,
+		true
+	},
+	[85060] = {
+		1172423,
+		555,
+		true
+	},
+	[85061] = {
+		1172978,
+		126,
+		true
+	},
+	[85062] = {
+		1173104,
+		126,
+		true
+	},
+	[85063] = {
+		1173230,
+		126,
+		true
+	},
+	[85064] = {
+		1173356,
+		126,
+		true
+	},
+	[85065] = {
+		1173482,
+		126,
+		true
+	},
+	[85066] = {
+		1173608,
+		126,
+		true
+	},
+	[85120] = {
+		1173734,
+		571,
+		true
+	},
+	[85121] = {
+		1174305,
+		125,
+		true
+	},
+	[85122] = {
+		1174430,
+		125,
+		true
+	},
+	[85123] = {
+		1174555,
+		125,
+		true
+	},
+	[85124] = {
+		1174680,
+		125,
+		true
+	},
+	[85125] = {
+		1174805,
+		125,
+		true
+	},
+	[85126] = {
+		1174930,
+		126,
+		true
+	},
+	[85140] = {
+		1175056,
+		574,
+		true
+	},
+	[85141] = {
+		1175630,
+		125,
+		true
+	},
+	[85142] = {
+		1175755,
+		125,
+		true
+	},
+	[85143] = {
+		1175880,
+		125,
+		true
+	},
+	[85144] = {
+		1176005,
+		125,
+		true
+	},
+	[85145] = {
+		1176130,
+		126,
+		true
+	},
+	[85146] = {
+		1176256,
+		126,
+		true
+	},
+	[85147] = {
+		1176382,
+		126,
+		true
+	},
+	[85148] = {
+		1176508,
+		126,
+		true
+	},
+	[85149] = {
+		1176634,
+		126,
+		true
+	},
+	[85150] = {
+		1176760,
+		126,
+		true
+	},
+	[85160] = {
+		1176886,
+		574,
+		true
+	},
+	[85161] = {
+		1177460,
+		125,
+		true
+	},
+	[85162] = {
+		1177585,
+		125,
+		true
+	},
+	[85163] = {
+		1177710,
+		125,
+		true
+	},
+	[85164] = {
+		1177835,
+		126,
+		true
+	},
+	[85165] = {
+		1177961,
+		126,
+		true
+	},
+	[85166] = {
+		1178087,
+		126,
+		true
+	},
+	[85167] = {
+		1178213,
+		126,
+		true
+	},
+	[85168] = {
+		1178339,
+		126,
+		true
+	},
+	[85169] = {
+		1178465,
+		126,
+		true
+	},
+	[85170] = {
+		1178591,
+		126,
+		true
+	},
+	[85171] = {
+		1178717,
+		140,
+		true
+	},
+	[85172] = {
+		1178857,
+		141,
+		true
+	},
+	[85173] = {
+		1178998,
+		141,
+		true
+	},
+	[85180] = {
+		1179139,
+		543,
+		true
+	},
+	[85181] = {
+		1179682,
+		126,
+		true
+	},
+	[85182] = {
+		1179808,
+		126,
+		true
+	},
+	[85183] = {
+		1179934,
+		126,
+		true
+	},
+	[85200] = {
+		1180060,
+		544,
+		true
+	},
+	[85201] = {
+		1180604,
+		126,
+		true
+	},
+	[85202] = {
+		1180730,
+		126,
+		true
+	},
+	[85203] = {
+		1180856,
+		126,
+		true
+	},
+	[85204] = {
+		1180982,
+		126,
+		true
+	},
+	[85205] = {
+		1181108,
+		126,
+		true
+	},
+	[85206] = {
+		1181234,
+		126,
+		true
+	},
+	[85220] = {
+		1181360,
+		544,
+		true
+	},
+	[85221] = {
+		1181904,
+		126,
+		true
+	},
+	[85222] = {
+		1182030,
+		126,
+		true
+	},
+	[85223] = {
+		1182156,
+		126,
+		true
+	},
+	[85224] = {
+		1182282,
+		126,
+		true
+	},
+	[85225] = {
+		1182408,
+		126,
+		true
+	},
+	[85226] = {
+		1182534,
+		126,
+		true
+	},
+	[85227] = {
+		1182660,
+		126,
+		true
+	},
+	[85228] = {
+		1182786,
+		126,
+		true
+	},
+	[85229] = {
+		1182912,
+		126,
+		true
+	},
+	[85230] = {
+		1183038,
+		126,
+		true
+	},
+	[85231] = {
+		1183164,
+		140,
+		true
+	},
+	[85260] = {
+		1183304,
+		553,
+		true
+	},
+	[85261] = {
+		1183857,
+		126,
+		true
+	},
+	[85262] = {
+		1183983,
+		126,
+		true
+	},
+	[85263] = {
+		1184109,
+		126,
+		true
+	},
+	[85264] = {
+		1184235,
+		126,
+		true
+	},
+	[85265] = {
+		1184361,
+		126,
+		true
+	},
+	[85266] = {
+		1184487,
+		126,
+		true
+	},
+	[85280] = {
+		1184613,
+		553,
+		true
+	},
+	[85281] = {
+		1185166,
+		126,
+		true
+	},
+	[85282] = {
+		1185292,
+		126,
+		true
+	},
+	[85283] = {
+		1185418,
+		126,
+		true
+	},
+	[85284] = {
+		1185544,
+		126,
+		true
+	},
+	[85285] = {
+		1185670,
+		126,
+		true
+	},
+	[85286] = {
+		1185796,
+		126,
+		true
+	},
+	[85287] = {
+		1185922,
+		126,
+		true
+	},
+	[85288] = {
+		1186048,
+		126,
+		true
+	},
+	[85289] = {
+		1186174,
+		127,
+		true
+	},
+	[85290] = {
+		1186301,
+		127,
+		true
+	},
+	[85291] = {
+		1186428,
+		141,
+		true
+	},
+	[85300] = {
+		1186569,
+		537,
+		true
+	},
+	[85301] = {
+		1187106,
+		126,
+		true
+	},
+	[85302] = {
+		1187232,
+		126,
+		true
+	},
+	[85303] = {
+		1187358,
+		126,
+		true
+	},
+	[85304] = {
+		1187484,
+		126,
+		true
+	},
+	[85305] = {
+		1187610,
+		126,
+		true
+	},
+	[85306] = {
+		1187736,
+		127,
+		true
+	},
+	[85320] = {
+		1187863,
+		540,
+		true
+	},
+	[85321] = {
+		1188403,
+		126,
+		true
+	},
+	[85322] = {
+		1188529,
+		126,
+		true
+	},
+	[85323] = {
+		1188655,
+		126,
+		true
+	},
+	[85324] = {
+		1188781,
+		126,
+		true
+	},
+	[85325] = {
+		1188907,
+		127,
+		true
+	},
+	[85326] = {
+		1189034,
+		127,
+		true
+	},
+	[85327] = {
+		1189161,
+		127,
+		true
+	},
+	[85328] = {
+		1189288,
+		127,
+		true
+	},
+	[85329] = {
+		1189415,
+		127,
+		true
+	},
+	[85330] = {
+		1189542,
+		127,
+		true
+	},
+	[85360] = {
+		1189669,
+		559,
+		true
+	},
+	[85361] = {
+		1190228,
+		126,
+		true
+	},
+	[85362] = {
+		1190354,
+		126,
+		true
+	},
+	[85363] = {
+		1190480,
+		126,
+		true
+	},
+	[85380] = {
+		1190606,
+		559,
+		true
+	},
+	[85381] = {
+		1191165,
+		126,
+		true
+	},
+	[85382] = {
+		1191291,
+		126,
+		true
+	},
+	[85383] = {
+		1191417,
+		126,
+		true
+	},
+	[85384] = {
+		1191543,
+		126,
+		true
+	},
+	[85385] = {
+		1191669,
+		126,
+		true
+	},
+	[85386] = {
+		1191795,
+		126,
+		true
+	},
+	[85400] = {
+		1191921,
+		559,
+		true
+	},
+	[85401] = {
+		1192480,
+		126,
+		true
+	},
+	[85402] = {
+		1192606,
+		126,
+		true
+	},
+	[85403] = {
+		1192732,
+		126,
+		true
+	},
+	[85404] = {
+		1192858,
+		126,
+		true
+	},
+	[85405] = {
+		1192984,
+		126,
+		true
+	},
+	[85406] = {
+		1193110,
+		126,
+		true
+	},
+	[85407] = {
+		1193236,
+		126,
+		true
+	},
+	[85408] = {
+		1193362,
+		126,
+		true
+	},
+	[85409] = {
+		1193488,
+		126,
+		true
+	},
+	[85410] = {
+		1193614,
+		126,
+		true
+	},
+	[85411] = {
+		1193740,
+		140,
+		true
+	},
+	[85420] = {
+		1193880,
+		546,
+		true
+	},
+	[85421] = {
+		1194426,
+		126,
+		true
+	},
+	[85422] = {
+		1194552,
+		126,
+		true
+	},
+	[85423] = {
+		1194678,
+		126,
+		true
+	},
+	[85424] = {
+		1194804,
+		126,
+		true
+	},
+	[85425] = {
+		1194930,
+		126,
+		true
+	},
+	[85426] = {
+		1195056,
+		126,
+		true
+	},
+	[85427] = {
+		1195182,
+		126,
+		true
+	},
+	[85440] = {
+		1195308,
+		571,
+		true
+	},
+	[85441] = {
+		1195879,
+		125,
+		true
+	},
+	[85442] = {
+		1196004,
+		126,
+		true
+	},
+	[85443] = {
+		1196130,
+		126,
+		true
+	},
+	[85444] = {
+		1196256,
+		126,
+		true
+	},
+	[85445] = {
+		1196382,
+		126,
+		true
+	},
+	[85446] = {
+		1196508,
+		126,
+		true
+	},
+	[85447] = {
+		1196634,
+		126,
+		true
+	},
+	[85460] = {
+		1196760,
+		649,
+		true
+	},
+	[85461] = {
+		1197409,
+		112,
+		true
+	},
+	[85462] = {
+		1197521,
+		126,
+		true
+	},
+	[85463] = {
+		1197647,
+		126,
+		true
+	},
+	[85464] = {
+		1197773,
+		126,
+		true
+	},
+	[85465] = {
+		1197899,
+		126,
+		true
+	},
+	[85466] = {
+		1198025,
+		126,
+		true
+	},
+	[89000] = {
+		1198151,
+		575,
+		true
+	},
+	[89001] = {
+		1198726,
+		86,
+		true
+	},
+	[89002] = {
+		1198812,
+		107,
+		true
+	},
+	[89003] = {
+		1198919,
+		107,
+		true
+	},
+	[89004] = {
+		1199026,
+		107,
+		true
+	},
+	[89005] = {
+		1199133,
+		107,
+		true
+	},
+	[89006] = {
+		1199240,
+		107,
+		true
+	},
+	[89007] = {
+		1199347,
+		107,
+		true
+	},
+	[89008] = {
+		1199454,
+		107,
+		true
+	},
+	[89009] = {
+		1199561,
+		107,
+		true
+	},
+	[89010] = {
+		1199668,
+		107,
+		true
+	},
+	[89011] = {
+		1199775,
+		120,
+		true
+	},
+	[89012] = {
+		1199895,
+		121,
+		true
+	},
+	[89013] = {
+		1200016,
+		121,
+		true
+	},
+	[89020] = {
+		1200137,
+		642,
+		true
+	},
+	[89021] = {
+		1200779,
+		98,
+		true
+	},
+	[89022] = {
+		1200877,
+		98,
+		true
+	},
+	[89023] = {
+		1200975,
+		98,
+		true
+	},
+	[89024] = {
+		1201073,
+		98,
+		true
+	},
+	[89025] = {
+		1201171,
+		98,
+		true
+	},
+	[89026] = {
+		1201269,
+		98,
+		true
+	},
+	[89027] = {
+		1201367,
+		98,
+		true
+	},
+	[89028] = {
+		1201465,
+		98,
+		true
+	},
+	[89029] = {
+		1201563,
+		98,
+		true
+	},
+	[89030] = {
+		1201661,
+		108,
+		true
+	},
+	[89031] = {
+		1201769,
+		121,
+		true
+	},
+	[89032] = {
+		1201890,
+		122,
+		true
+	},
+	[89033] = {
+		1202012,
+		122,
+		true
+	},
+	[89040] = {
+		1202134,
+		715,
+		true
+	},
+	[89041] = {
+		1202849,
+		98,
+		true
+	},
+	[89042] = {
+		1202947,
+		108,
+		true
+	},
+	[89043] = {
+		1203055,
+		108,
+		true
+	},
+	[89044] = {
+		1203163,
+		108,
+		true
+	},
+	[89045] = {
+		1203271,
+		108,
+		true
+	},
+	[89046] = {
+		1203379,
+		108,
+		true
+	},
+	[89047] = {
+		1203487,
+		108,
+		true
+	},
+	[89048] = {
+		1203595,
+		108,
+		true
+	},
+	[89049] = {
+		1203703,
+		108,
+		true
+	},
+	[89050] = {
+		1203811,
+		108,
+		true
+	},
+	[89051] = {
+		1203919,
+		121,
+		true
+	},
+	[89052] = {
+		1204040,
+		122,
+		true
+	},
+	[89053] = {
+		1204162,
+		122,
+		true
+	},
+	[89060] = {
+		1204284,
+		529,
+		true
+	},
+	[89061] = {
+		1204813,
+		96,
+		true
+	},
+	[89062] = {
+		1204909,
+		106,
+		true
+	},
+	[89063] = {
+		1205015,
+		106,
+		true
+	},
+	[89064] = {
+		1205121,
+		106,
+		true
+	},
+	[89065] = {
+		1205227,
+		107,
+		true
+	},
+	[89066] = {
+		1205334,
+		107,
+		true
+	},
+	[89067] = {
+		1205441,
+		107,
+		true
+	},
+	[89068] = {
+		1205548,
+		107,
+		true
+	},
+	[89069] = {
+		1205655,
+		107,
+		true
+	},
+	[89070] = {
+		1205762,
+		107,
+		true
+	},
+	[89071] = {
+		1205869,
+		120,
+		true
+	},
+	[89072] = {
+		1205989,
+		121,
+		true
+	},
+	[89073] = {
+		1206110,
+		121,
+		true
+	},
+	[89080] = {
+		1206231,
+		512,
+		true
+	},
+	[89081] = {
+		1206743,
+		98,
+		true
+	},
+	[89082] = {
+		1206841,
+		98,
+		true
+	},
+	[89083] = {
+		1206939,
+		98,
+		true
+	},
+	[89084] = {
+		1207037,
+		98,
+		true
+	},
+	[89085] = {
+		1207135,
+		98,
+		true
+	},
+	[89086] = {
+		1207233,
+		98,
+		true
+	},
+	[89087] = {
+		1207331,
+		98,
+		true
+	},
+	[89088] = {
+		1207429,
+		98,
+		true
+	},
+	[89089] = {
+		1207527,
+		98,
+		true
+	},
+	[89090] = {
+		1207625,
+		98,
+		true
+	},
+	[89091] = {
+		1207723,
+		111,
+		true
+	},
+	[89092] = {
+		1207834,
+		112,
+		true
+	},
+	[89093] = {
+		1207946,
+		112,
+		true
+	},
+	[89100] = {
+		1208058,
+		536,
+		true
+	},
+	[89101] = {
+		1208594,
+		107,
+		true
+	},
+	[89102] = {
+		1208701,
+		107,
+		true
+	},
+	[89103] = {
+		1208808,
+		107,
+		true
+	},
+	[89104] = {
+		1208915,
+		107,
+		true
+	},
+	[89105] = {
+		1209022,
+		107,
+		true
+	},
+	[89106] = {
+		1209129,
+		107,
+		true
+	},
+	[89107] = {
+		1209236,
+		107,
+		true
+	},
+	[89108] = {
+		1209343,
+		107,
+		true
+	},
+	[89109] = {
+		1209450,
+		107,
+		true
+	},
+	[89110] = {
+		1209557,
+		107,
+		true
+	},
+	[89111] = {
+		1209664,
+		121,
+		true
+	},
+	[89112] = {
+		1209785,
+		122,
+		true
+	},
+	[89113] = {
+		1209907,
+		122,
+		true
+	},
+	[89120] = {
+		1210029,
+		590,
+		true
+	},
+	[89121] = {
+		1210619,
+		98,
+		true
+	},
+	[89122] = {
+		1210717,
+		108,
+		true
+	},
+	[89123] = {
+		1210825,
+		108,
+		true
+	},
+	[89124] = {
+		1210933,
+		108,
+		true
+	},
+	[89125] = {
+		1211041,
+		108,
+		true
+	},
+	[89126] = {
+		1211149,
+		108,
+		true
+	},
+	[89127] = {
+		1211257,
+		108,
+		true
+	},
+	[89128] = {
+		1211365,
+		108,
+		true
+	},
+	[89129] = {
+		1211473,
+		108,
+		true
+	},
+	[89130] = {
+		1211581,
+		108,
+		true
+	},
+	[89131] = {
+		1211689,
+		121,
+		true
+	},
+	[89132] = {
+		1211810,
+		122,
+		true
+	},
+	[89133] = {
+		1211932,
+		122,
+		true
+	},
+	[89140] = {
+		1212054,
+		523,
+		true
+	},
+	[89141] = {
+		1212577,
+		107,
+		true
+	},
+	[89142] = {
+		1212684,
+		107,
+		true
+	},
+	[89143] = {
+		1212791,
+		107,
+		true
+	},
+	[89144] = {
+		1212898,
+		107,
+		true
+	},
+	[89145] = {
+		1213005,
+		107,
+		true
+	},
+	[89146] = {
+		1213112,
+		107,
+		true
+	},
+	[89147] = {
+		1213219,
+		107,
+		true
+	},
+	[89148] = {
+		1213326,
+		107,
+		true
+	},
+	[89149] = {
+		1213433,
+		107,
+		true
+	},
+	[89150] = {
+		1213540,
+		107,
+		true
+	},
+	[89151] = {
+		1213647,
+		120,
+		true
+	},
+	[89152] = {
+		1213767,
+		121,
+		true
+	},
+	[89153] = {
+		1213888,
+		121,
+		true
+	},
+	[89160] = {
+		1214009,
+		519,
+		true
+	},
+	[89161] = {
+		1214528,
+		107,
+		true
+	},
+	[89162] = {
+		1214635,
+		107,
+		true
+	},
+	[89163] = {
+		1214742,
+		107,
+		true
+	},
+	[89164] = {
+		1214849,
+		107,
+		true
+	},
+	[89165] = {
+		1214956,
+		107,
+		true
+	},
+	[89166] = {
+		1215063,
+		107,
+		true
+	},
+	[89167] = {
+		1215170,
+		107,
+		true
+	},
+	[89168] = {
+		1215277,
+		107,
+		true
+	},
+	[89169] = {
+		1215384,
+		107,
+		true
+	},
+	[89170] = {
+		1215491,
+		107,
+		true
+	},
+	[89171] = {
+		1215598,
+		120,
+		true
+	},
+	[89172] = {
+		1215718,
+		121,
+		true
+	},
+	[89173] = {
+		1215839,
+		121,
+		true
+	},
+	[89180] = {
+		1215960,
+		517,
+		true
+	},
+	[89181] = {
+		1216477,
+		107,
+		true
+	},
+	[89182] = {
+		1216584,
+		107,
+		true
+	},
+	[89183] = {
+		1216691,
+		107,
+		true
+	},
+	[89184] = {
+		1216798,
+		107,
+		true
+	},
+	[89185] = {
+		1216905,
+		107,
+		true
+	},
+	[89186] = {
+		1217012,
+		107,
+		true
+	},
+	[89187] = {
+		1217119,
+		107,
+		true
+	},
+	[89188] = {
+		1217226,
+		107,
+		true
+	},
+	[89189] = {
+		1217333,
+		107,
+		true
+	},
+	[89190] = {
+		1217440,
+		107,
+		true
+	},
+	[89191] = {
+		1217547,
+		120,
+		true
+	},
+	[89192] = {
+		1217667,
+		121,
+		true
+	},
+	[89193] = {
+		1217788,
+		121,
+		true
+	},
+	[89200] = {
+		1217909,
+		557,
+		true
+	},
+	[89201] = {
+		1218466,
+		97,
+		true
+	},
+	[89202] = {
+		1218563,
+		97,
+		true
+	},
+	[89203] = {
+		1218660,
+		107,
+		true
+	},
+	[89204] = {
+		1218767,
+		107,
+		true
+	},
+	[89205] = {
+		1218874,
+		107,
+		true
+	},
+	[89206] = {
+		1218981,
+		107,
+		true
+	},
+	[89207] = {
+		1219088,
+		107,
+		true
+	},
+	[89208] = {
+		1219195,
+		107,
+		true
+	},
+	[89209] = {
+		1219302,
+		107,
+		true
+	},
+	[89210] = {
+		1219409,
+		107,
+		true
+	},
+	[89211] = {
+		1219516,
+		120,
+		true
+	},
+	[89212] = {
+		1219636,
+		121,
+		true
+	},
+	[89213] = {
+		1219757,
+		121,
+		true
+	},
+	[89220] = {
+		1219878,
+		537,
+		true
+	},
+	[89221] = {
+		1220415,
+		98,
+		true
+	},
+	[89222] = {
+		1220513,
+		98,
+		true
+	},
+	[89223] = {
+		1220611,
+		98,
+		true
+	},
+	[89224] = {
+		1220709,
+		98,
+		true
+	},
+	[89225] = {
+		1220807,
+		98,
+		true
+	},
+	[89226] = {
+		1220905,
+		98,
+		true
+	},
+	[89227] = {
+		1221003,
+		98,
+		true
+	},
+	[89228] = {
+		1221101,
+		98,
+		true
+	},
+	[89229] = {
+		1221199,
+		98,
+		true
+	},
+	[89230] = {
+		1221297,
+		98,
+		true
+	},
+	[89231] = {
+		1221395,
+		111,
+		true
+	},
+	[89232] = {
+		1221506,
+		112,
+		true
+	},
+	[89233] = {
+		1221618,
+		112,
+		true
+	},
+	[89240] = {
+		1221730,
+		477,
+		true
+	},
+	[89241] = {
+		1222207,
+		96,
+		true
+	},
+	[89242] = {
+		1222303,
+		106,
+		true
+	},
+	[89243] = {
+		1222409,
+		106,
+		true
+	},
+	[89244] = {
+		1222515,
+		106,
+		true
+	},
+	[89245] = {
+		1222621,
+		107,
+		true
+	},
+	[89246] = {
+		1222728,
+		107,
+		true
+	},
+	[89247] = {
+		1222835,
+		107,
+		true
+	},
+	[89248] = {
+		1222942,
+		107,
+		true
+	},
+	[89249] = {
+		1223049,
+		107,
+		true
+	},
+	[89250] = {
+		1223156,
+		107,
+		true
+	},
+	[89251] = {
+		1223263,
+		120,
+		true
+	},
+	[89252] = {
+		1223383,
+		121,
+		true
+	},
+	[89253] = {
+		1223504,
+		121,
+		true
+	},
+	[89260] = {
+		1223625,
+		488,
+		true
+	},
+	[89261] = {
+		1224113,
+		107,
+		true
+	},
+	[89262] = {
+		1224220,
+		107,
+		true
+	},
+	[89263] = {
+		1224327,
+		107,
+		true
+	},
+	[89264] = {
+		1224434,
+		107,
+		true
+	},
+	[89265] = {
+		1224541,
+		107,
+		true
+	},
+	[89266] = {
+		1224648,
+		107,
+		true
+	},
+	[89267] = {
+		1224755,
+		107,
+		true
+	},
+	[89268] = {
+		1224862,
+		107,
+		true
+	},
+	[89269] = {
+		1224969,
+		107,
+		true
+	},
+	[89270] = {
+		1225076,
+		107,
+		true
+	},
+	[89271] = {
+		1225183,
+		120,
+		true
+	},
+	[89272] = {
+		1225303,
+		121,
+		true
+	},
+	[89273] = {
+		1225424,
+		121,
+		true
+	},
+	[89280] = {
+		1225545,
+		480,
+		true
+	},
+	[89281] = {
+		1226025,
+		96,
+		true
+	},
+	[89282] = {
+		1226121,
+		106,
+		true
+	},
+	[89283] = {
+		1226227,
+		106,
+		true
+	},
+	[89284] = {
+		1226333,
+		106,
+		true
+	},
+	[89285] = {
+		1226439,
+		107,
+		true
+	},
+	[89286] = {
+		1226546,
+		107,
+		true
+	},
+	[89287] = {
+		1226653,
+		107,
+		true
+	},
+	[89288] = {
+		1226760,
+		107,
+		true
+	},
+	[89289] = {
+		1226867,
+		107,
+		true
+	},
+	[89290] = {
+		1226974,
+		107,
+		true
+	},
+	[89291] = {
+		1227081,
+		120,
+		true
+	},
+	[89292] = {
+		1227201,
+		121,
+		true
+	},
+	[89293] = {
+		1227322,
+		121,
+		true
+	},
+	[90000] = {
+		1227443,
+		563,
+		true
+	},
+	[90001] = {
+		1228006,
+		125,
+		true
+	},
+	[90002] = {
+		1228131,
+		125,
+		true
+	},
+	[90003] = {
+		1228256,
+		125,
+		true
+	},
+	[90020] = {
+		1228381,
+		582,
+		true
+	},
+	[90021] = {
+		1228963,
+		125,
+		true
+	},
+	[90022] = {
+		1229088,
+		125,
+		true
+	},
+	[90023] = {
+		1229213,
+		125,
+		true
+	},
+	[90040] = {
+		1229338,
+		582,
+		true
+	},
+	[90041] = {
+		1229920,
+		125,
+		true
+	},
+	[90042] = {
+		1230045,
+		125,
+		true
+	},
+	[90043] = {
+		1230170,
+		125,
+		true
+	},
+	[90044] = {
+		1230295,
+		125,
+		true
+	},
+	[90045] = {
+		1230420,
+		125,
+		true
+	},
+	[90046] = {
+		1230545,
+		125,
+		true
+	},
+	[90047] = {
+		1230670,
+		125,
+		true
+	},
+	[90100] = {
+		1230795,
+		584,
+		true
+	},
+	[90101] = {
+		1231379,
+		125,
+		true
+	},
+	[90102] = {
+		1231504,
+		125,
+		true
+	},
+	[90103] = {
+		1231629,
+		125,
+		true
+	},
+	[90104] = {
+		1231754,
+		125,
+		true
+	},
+	[90105] = {
+		1231879,
+		125,
+		true
+	},
+	[90106] = {
+		1232004,
+		125,
+		true
+	},
+	[90120] = {
+		1232129,
+		587,
+		true
+	},
+	[90121] = {
+		1232716,
+		125,
+		true
+	},
+	[90122] = {
+		1232841,
+		125,
+		true
+	},
+	[90123] = {
+		1232966,
+		125,
+		true
+	},
+	[90124] = {
+		1233091,
+		125,
+		true
+	},
+	[90125] = {
+		1233216,
+		125,
+		true
+	},
+	[90126] = {
+		1233341,
+		126,
+		true
+	},
+	[90127] = {
+		1233467,
+		126,
+		true
+	},
+	[90128] = {
+		1233593,
+		126,
+		true
+	},
+	[90129] = {
+		1233719,
+		126,
+		true
+	},
+	[90130] = {
+		1233845,
+		126,
+		true
+	},
+	[90140] = {
+		1233971,
+		587,
+		true
+	},
+	[90141] = {
+		1234558,
+		125,
+		true
+	},
+	[90142] = {
+		1234683,
+		125,
+		true
+	},
+	[90143] = {
+		1234808,
+		125,
+		true
+	},
+	[90144] = {
+		1234933,
+		125,
+		true
+	},
+	[90145] = {
+		1235058,
+		126,
+		true
+	},
+	[90146] = {
+		1235184,
+		126,
+		true
+	},
+	[90147] = {
+		1235310,
+		126,
+		true
+	},
+	[90148] = {
+		1235436,
+		126,
+		true
+	},
+	[90149] = {
+		1235562,
+		126,
+		true
+	},
+	[90150] = {
+		1235688,
+		126,
+		true
+	},
+	[90151] = {
+		1235814,
+		140,
+		true
+	},
+	[90152] = {
+		1235954,
+		141,
+		true
+	},
+	[90153] = {
+		1236095,
+		141,
+		true
+	},
+	[90200] = {
+		1236236,
+		550,
+		true
+	},
+	[90201] = {
+		1236786,
+		125,
+		true
+	},
+	[90202] = {
+		1236911,
+		125,
+		true
+	},
+	[90203] = {
+		1237036,
+		126,
+		true
+	},
+	[90220] = {
+		1237162,
+		569,
+		true
+	},
+	[90221] = {
+		1237731,
+		125,
+		true
+	},
+	[90222] = {
+		1237856,
+		126,
+		true
+	},
+	[90223] = {
+		1237982,
+		126,
+		true
+	},
+	[90240] = {
+		1238108,
+		572,
+		true
+	},
+	[90241] = {
+		1238680,
+		126,
+		true
+	},
+	[90242] = {
+		1238806,
+		126,
+		true
+	},
+	[90243] = {
+		1238932,
+		126,
+		true
+	},
+	[90244] = {
+		1239058,
+		126,
+		true
+	},
+	[90245] = {
+		1239184,
+		126,
+		true
+	},
+	[90246] = {
+		1239310,
+		126,
+		true
+	},
+	[90247] = {
+		1239436,
+		126,
+		true
+	},
+	[90300] = {
+		1239562,
+		534,
+		true
+	},
+	[90301] = {
+		1240096,
+		126,
+		true
+	},
+	[90302] = {
+		1240222,
+		126,
+		true
+	},
+	[90303] = {
+		1240348,
+		126,
+		true
+	},
+	[90320] = {
+		1240474,
+		534,
+		true
+	},
+	[90321] = {
+		1241008,
+		126,
+		true
+	},
+	[90322] = {
+		1241134,
+		126,
+		true
+	},
+	[90323] = {
+		1241260,
+		126,
+		true
+	},
+	[90324] = {
+		1241386,
+		126,
+		true
+	},
+	[90325] = {
+		1241512,
+		126,
+		true
+	},
+	[90326] = {
+		1241638,
+		126,
+		true
+	},
+	[90340] = {
+		1241764,
+		537,
+		true
+	},
+	[90341] = {
+		1242301,
+		126,
+		true
+	},
+	[90342] = {
+		1242427,
+		126,
+		true
+	},
+	[90343] = {
+		1242553,
+		126,
+		true
+	},
+	[90344] = {
+		1242679,
+		126,
+		true
+	},
+	[90345] = {
+		1242805,
+		126,
+		true
+	},
+	[90346] = {
+		1242931,
+		126,
+		true
+	},
+	[90347] = {
+		1243057,
+		126,
+		true
+	},
+	[90348] = {
+		1243183,
+		126,
+		true
+	},
+	[90349] = {
+		1243309,
+		126,
+		true
+	},
+	[90350] = {
+		1243435,
+		127,
+		true
+	},
+	[90351] = {
+		1243562,
+		141,
+		true
+	},
+	[90400] = {
+		1243703,
+		624,
+		true
+	},
+	[90401] = {
+		1244327,
+		126,
+		true
+	},
+	[90402] = {
+		1244453,
+		126,
+		true
+	},
+	[90403] = {
+		1244579,
+		126,
+		true
+	},
+	[90404] = {
+		1244705,
+		126,
+		true
+	},
+	[90405] = {
+		1244831,
+		126,
+		true
+	},
+	[90406] = {
+		1244957,
+		126,
+		true
+	},
+	[90420] = {
+		1245083,
+		617,
+		true
+	},
+	[90421] = {
+		1245700,
+		126,
+		true
+	},
+	[90422] = {
+		1245826,
+		126,
+		true
+	},
+	[90423] = {
+		1245952,
+		126,
+		true
+	},
+	[90424] = {
+		1246078,
+		126,
+		true
+	},
+	[90425] = {
+		1246204,
+		126,
+		true
+	},
+	[90426] = {
+		1246330,
+		126,
+		true
+	},
+	[90427] = {
+		1246456,
+		126,
+		true
+	},
+	[90428] = {
+		1246582,
+		126,
+		true
+	},
+	[90429] = {
+		1246708,
+		127,
+		true
+	},
+	[90430] = {
+		1246835,
+		127,
+		true
+	},
+	[90440] = {
+		1246962,
+		617,
+		true
+	},
+	[90441] = {
+		1247579,
+		126,
+		true
+	},
+	[90442] = {
+		1247705,
+		126,
+		true
+	},
+	[90443] = {
+		1247831,
+		126,
+		true
+	},
+	[90444] = {
+		1247957,
+		126,
+		true
+	},
+	[90445] = {
+		1248083,
+		126,
+		true
+	},
+	[90446] = {
+		1248209,
+		126,
+		true
+	},
+	[90447] = {
+		1248335,
+		126,
+		true
+	},
+	[90448] = {
+		1248461,
+		127,
+		true
+	},
+	[90449] = {
+		1248588,
+		127,
+		true
+	},
+	[90450] = {
+		1248715,
+		127,
+		true
+	},
+	[90451] = {
+		1248842,
+		141,
+		true
+	},
+	[90452] = {
+		1248983,
+		142,
+		true
+	},
+	[90453] = {
+		1249125,
+		142,
+		true
+	},
+	[90500] = {
+		1249267,
+		571,
+		true
+	},
+	[90501] = {
+		1249838,
+		112,
+		true
+	},
+	[90502] = {
+		1249950,
+		126,
+		true
+	},
+	[90503] = {
+		1250076,
+		126,
+		true
+	},
+	[90600] = {
+		1250202,
+		558,
+		true
+	},
+	[90601] = {
+		1250760,
+		126,
+		true
+	},
+	[90602] = {
+		1250886,
+		126,
+		true
+	},
+	[90603] = {
+		1251012,
+		126,
+		true
+	},
+	[90604] = {
+		1251138,
+		126,
+		true
+	},
+	[90605] = {
+		1251264,
+		126,
+		true
+	},
+	[90606] = {
+		1251390,
+		126,
+		true
+	},
+	[90607] = {
+		1251516,
+		126,
+		true
+	},
+	[90608] = {
+		1251642,
+		126,
+		true
+	},
+	[90609] = {
+		1251768,
+		126,
+		true
+	},
+	[90610] = {
+		1251894,
+		126,
+		true
+	},
+	[90611] = {
+		1252020,
+		140,
+		true
+	},
+	[90612] = {
+		1252160,
+		141,
+		true
+	},
+	[90613] = {
+		1252301,
+		141,
+		true
+	},
+	[90700] = {
+		1252442,
+		583,
+		true
+	},
+	[90701] = {
+		1253025,
+		125,
+		true
+	},
+	[90702] = {
+		1253150,
+		125,
+		true
+	},
+	[90703] = {
+		1253275,
+		125,
+		true
+	},
+	[90720] = {
+		1253400,
+		583,
+		true
+	},
+	[90721] = {
+		1253983,
+		125,
+		true
+	},
+	[90722] = {
+		1254108,
+		125,
+		true
+	},
+	[90723] = {
+		1254233,
+		125,
+		true
+	},
+	[90724] = {
+		1254358,
+		126,
+		true
+	},
+	[90725] = {
+		1254484,
+		126,
+		true
+	},
+	[90726] = {
+		1254610,
+		126,
+		true
+	},
+	[90740] = {
+		1254736,
+		583,
+		true
+	},
+	[90741] = {
+		1255319,
+		125,
+		true
+	},
+	[90742] = {
+		1255444,
+		125,
+		true
+	},
+	[90743] = {
+		1255569,
+		125,
+		true
+	},
+	[90744] = {
+		1255694,
+		126,
+		true
+	},
+	[90745] = {
+		1255820,
+		126,
+		true
+	},
+	[90746] = {
+		1255946,
+		126,
+		true
+	},
+	[90747] = {
+		1256072,
+		126,
+		true
+	},
+	[90748] = {
+		1256198,
+		126,
+		true
+	},
+	[90749] = {
+		1256324,
+		126,
+		true
+	},
+	[90750] = {
+		1256450,
+		126,
+		true
+	},
+	[90751] = {
+		1256576,
+		140,
+		true
+	},
+	[90780] = {
+		1256716,
+		576,
+		true
+	},
+	[90781] = {
+		1257292,
+		126,
+		true
+	},
+	[90782] = {
+		1257418,
+		126,
+		true
+	},
+	[90783] = {
+		1257544,
+		126,
+		true
+	},
+	[90784] = {
+		1257670,
+		126,
+		true
+	},
+	[90785] = {
+		1257796,
+		126,
+		true
+	},
+	[90786] = {
+		1257922,
+		126,
+		true
+	},
+	[90787] = {
+		1258048,
+		126,
+		true
+	},
+	[90800] = {
+		1258174,
+		575,
+		true
+	},
+	[90801] = {
+		1258749,
+		126,
+		true
+	},
+	[90802] = {
+		1258875,
+		126,
+		true
+	},
+	[90803] = {
+		1259001,
+		126,
+		true
+	},
+	[90804] = {
+		1259127,
+		126,
+		true
+	},
+	[90805] = {
+		1259253,
+		126,
+		true
+	},
+	[90806] = {
+		1259379,
+		126,
+		true
+	},
+	[90807] = {
+		1259505,
+		126,
+		true
+	},
+	[90820] = {
+		1259631,
+		512,
+		true
+	},
+	[90821] = {
+		1260143,
+		153,
+		true
+	},
+	[90822] = {
+		1260296,
+		153,
+		true
+	},
+	[90823] = {
+		1260449,
+		153,
+		true
+	},
+	[90824] = {
+		1260602,
+		153,
+		true
+	},
+	[90825] = {
+		1260755,
+		153,
+		true
+	},
+	[90826] = {
+		1260908,
+		153,
+		true
+	},
+	[90827] = {
+		1261061,
+		153,
+		true
+	},
+	[90840] = {
+		1261214,
+		526,
+		true
+	},
+	[90841] = {
+		1261740,
+		167,
+		true
+	},
+	[90842] = {
+		1261907,
+		167,
+		true
+	},
+	[90843] = {
+		1262074,
+		167,
+		true
+	},
+	[90844] = {
+		1262241,
+		167,
+		true
+	},
+	[90845] = {
+		1262408,
+		167,
+		true
+	},
+	[90846] = {
+		1262575,
+		167,
+		true
+	},
+	[90847] = {
+		1262742,
+		167,
+		true
+	},
+	[90860] = {
+		1262909,
+		572,
+		true
+	},
+	[90861] = {
+		1263481,
+		126,
+		true
+	},
+	[90862] = {
+		1263607,
+		126,
+		true
+	},
+	[90863] = {
+		1263733,
+		126,
+		true
+	},
+	[90864] = {
+		1263859,
+		126,
+		true
+	},
+	[90865] = {
+		1263985,
+		126,
+		true
+	},
+	[90866] = {
+		1264111,
+		126,
+		true
+	},
+	[90880] = {
+		1264237,
+		572,
+		true
+	},
+	[90881] = {
+		1264809,
+		126,
+		true
+	},
+	[90882] = {
+		1264935,
+		126,
+		true
+	},
+	[90883] = {
+		1265061,
+		126,
+		true
+	},
+	[90884] = {
+		1265187,
+		126,
+		true
+	},
+	[90885] = {
+		1265313,
+		126,
+		true
+	},
+	[90886] = {
+		1265439,
+		126,
+		true
+	},
+	[90887] = {
+		1265565,
+		126,
+		true
+	},
+	[90888] = {
+		1265691,
+		126,
+		true
+	},
+	[90889] = {
+		1265817,
+		126,
+		true
+	},
+	[90890] = {
+		1265943,
+		126,
+		true
+	},
+	[90900] = {
+		1266069,
+		572,
+		true
+	},
+	[90901] = {
+		1266641,
+		126,
+		true
+	},
+	[90902] = {
+		1266767,
+		126,
+		true
+	},
+	[90903] = {
+		1266893,
+		126,
+		true
+	},
+	[90904] = {
+		1267019,
+		126,
+		true
+	},
+	[90905] = {
+		1267145,
+		126,
+		true
+	},
+	[90906] = {
+		1267271,
+		126,
+		true
+	},
+	[90907] = {
+		1267397,
+		126,
+		true
+	},
+	[90908] = {
+		1267523,
+		126,
+		true
+	},
+	[90909] = {
+		1267649,
+		126,
+		true
+	},
+	[90910] = {
+		1267775,
+		126,
+		true
+	},
+	[90911] = {
+		1267901,
+		140,
+		true
+	},
+	[90912] = {
+		1268041,
+		141,
+		true
+	},
+	[90913] = {
+		1268182,
+		141,
+		true
+	},
+	[91000] = {
+		1268323,
+		544,
+		true
+	},
+	[91001] = {
+		1268867,
+		126,
+		true
+	},
+	[91002] = {
+		1268993,
+		126,
+		true
+	},
+	[91003] = {
+		1269119,
+		126,
+		true
+	},
+	[91004] = {
+		1269245,
+		126,
+		true
+	},
+	[91005] = {
+		1269371,
+		127,
+		true
+	},
+	[91006] = {
+		1269498,
+		127,
+		true
+	},
+	[91007] = {
+		1269625,
+		127,
+		true
+	},
+	[91008] = {
+		1269752,
+		127,
+		true
+	},
+	[91009] = {
+		1269879,
+		127,
+		true
+	},
+	[91010] = {
+		1270006,
+		127,
+		true
+	},
+	[91011] = {
+		1270133,
+		141,
+		true
+	},
+	[91012] = {
+		1270274,
+		142,
+		true
+	},
+	[91013] = {
+		1270416,
+		142,
+		true
+	},
+	[95000] = {
+		1270558,
+		612,
+		true
+	},
+	[95001] = {
+		1271170,
+		126,
+		true
+	},
+	[95002] = {
+		1271296,
+		126,
+		true
+	},
+	[95003] = {
+		1271422,
+		126,
+		true
+	},
+	[95004] = {
+		1271548,
+		126,
+		true
+	},
+	[95005] = {
+		1271674,
+		126,
+		true
+	},
+	[95006] = {
+		1271800,
+		126,
+		true
+	},
+	[95020] = {
+		1271926,
+		615,
+		true
+	},
+	[95021] = {
+		1272541,
+		126,
+		true
+	},
+	[95022] = {
+		1272667,
+		126,
+		true
+	},
+	[95023] = {
+		1272793,
+		126,
+		true
+	},
+	[95024] = {
+		1272919,
+		126,
+		true
+	},
+	[95025] = {
+		1273045,
+		126,
+		true
+	},
+	[95026] = {
+		1273171,
+		127,
+		true
+	},
+	[95027] = {
+		1273298,
+		127,
+		true
+	},
+	[95028] = {
+		1273425,
+		127,
+		true
+	},
+	[95029] = {
+		1273552,
+		127,
+		true
+	},
+	[95030] = {
+		1273679,
+		127,
+		true
+	},
+	[95040] = {
+		1273806,
+		622,
+		true
+	},
+	[95041] = {
+		1274428,
+		126,
+		true
+	},
+	[95042] = {
+		1274554,
+		126,
+		true
+	},
+	[95043] = {
+		1274680,
+		126,
+		true
+	},
+	[95044] = {
+		1274806,
+		126,
+		true
+	},
+	[95045] = {
+		1274932,
+		127,
+		true
+	},
+	[95046] = {
+		1275059,
+		127,
+		true
+	},
+	[95047] = {
+		1275186,
+		127,
+		true
+	},
+	[95048] = {
+		1275313,
+		127,
+		true
+	},
+	[95049] = {
+		1275440,
+		127,
+		true
+	},
+	[95050] = {
+		1275567,
+		127,
+		true
+	},
+	[95051] = {
+		1275694,
+		141,
+		true
+	},
+	[95052] = {
+		1275835,
+		142,
+		true
+	},
+	[95053] = {
+		1275977,
+		142,
+		true
+	},
+	[95100] = {
+		1276119,
+		557,
+		true
+	},
+	[95101] = {
+		1276676,
+		126,
+		true
+	},
+	[95102] = {
+		1276802,
+		126,
+		true
+	},
+	[95103] = {
+		1276928,
+		126,
+		true
+	},
+	[95104] = {
+		1277054,
+		126,
+		true
+	},
+	[95105] = {
+		1277180,
+		126,
+		true
+	},
+	[95106] = {
+		1277306,
+		126,
+		true
+	},
+	[95120] = {
+		1277432,
+		557,
+		true
+	},
+	[95121] = {
+		1277989,
+		126,
+		true
+	},
+	[95122] = {
+		1278115,
+		126,
+		true
+	},
+	[95123] = {
+		1278241,
+		126,
+		true
+	},
+	[95124] = {
+		1278367,
+		126,
+		true
+	},
+	[95125] = {
+		1278493,
+		126,
+		true
+	},
+	[95126] = {
+		1278619,
+		126,
+		true
+	},
+	[95127] = {
+		1278745,
+		126,
+		true
+	},
+	[95128] = {
+		1278871,
+		126,
+		true
+	},
+	[95129] = {
+		1278997,
+		126,
+		true
+	},
+	[95130] = {
+		1279123,
+		126,
+		true
+	},
+	[95140] = {
+		1279249,
+		557,
+		true
+	},
+	[95141] = {
+		1279806,
+		126,
+		true
+	},
+	[95142] = {
+		1279932,
+		126,
+		true
+	},
+	[95143] = {
+		1280058,
+		126,
+		true
+	},
+	[95144] = {
+		1280184,
+		126,
+		true
+	},
+	[95145] = {
+		1280310,
+		126,
+		true
+	},
+	[95146] = {
+		1280436,
+		126,
+		true
+	},
+	[95147] = {
+		1280562,
+		126,
+		true
+	},
+	[95148] = {
+		1280688,
+		126,
+		true
+	},
+	[95149] = {
+		1280814,
+		126,
+		true
+	},
+	[95150] = {
+		1280940,
+		126,
+		true
+	},
+	[95151] = {
+		1281066,
+		140,
+		true
+	},
+	[95152] = {
+		1281206,
+		141,
+		true
+	},
+	[95153] = {
+		1281347,
+		141,
+		true
+	},
+	[95160] = {
+		1281488,
+		568,
+		true
+	},
+	[95161] = {
+		1282056,
+		126,
+		true
+	},
+	[95162] = {
+		1282182,
+		126,
+		true
+	},
+	[95163] = {
+		1282308,
+		126,
+		true
+	},
+	[95164] = {
+		1282434,
+		126,
+		true
+	},
+	[95165] = {
+		1282560,
+		126,
+		true
+	},
+	[95166] = {
+		1282686,
+		126,
+		true
+	},
+	[95167] = {
+		1282812,
+		126,
+		true
+	},
+	[95168] = {
+		1282938,
+		127,
+		true
+	},
+	[95169] = {
+		1283065,
+		127,
+		true
+	},
+	[95170] = {
+		1283192,
+		127,
+		true
+	},
+	[95171] = {
+		1283319,
+		141,
+		true
+	},
+	[95172] = {
+		1283460,
+		142,
+		true
+	},
+	[95173] = {
+		1283602,
+		142,
+		true
+	},
+	[95200] = {
+		1283744,
+		567,
+		true
+	},
+	[95201] = {
+		1284311,
+		126,
+		true
+	},
+	[95202] = {
+		1284437,
+		126,
+		true
+	},
+	[95203] = {
+		1284563,
+		126,
+		true
+	},
+	[95204] = {
+		1284689,
+		126,
+		true
+	},
+	[95205] = {
+		1284815,
+		126,
+		true
+	},
+	[95206] = {
+		1284941,
+		126,
+		true
+	},
+	[95220] = {
+		1285067,
+		567,
+		true
+	},
+	[95221] = {
+		1285634,
+		126,
+		true
+	},
+	[95222] = {
+		1285760,
+		126,
+		true
+	},
+	[95223] = {
+		1285886,
+		126,
+		true
+	},
+	[95224] = {
+		1286012,
+		126,
+		true
+	},
+	[95225] = {
+		1286138,
+		126,
+		true
+	},
+	[95226] = {
+		1286264,
+		126,
+		true
+	},
+	[95227] = {
+		1286390,
+		126,
+		true
+	},
+	[95228] = {
+		1286516,
+		126,
+		true
+	},
+	[95229] = {
+		1286642,
+		126,
+		true
+	},
+	[95230] = {
+		1286768,
+		126,
+		true
+	},
+	[95240] = {
+		1286894,
+		568,
+		true
+	},
+	[95241] = {
+		1287462,
+		126,
+		true
+	},
+	[95242] = {
+		1287588,
+		126,
+		true
+	},
+	[95243] = {
+		1287714,
+		126,
+		true
+	},
+	[95244] = {
+		1287840,
+		126,
+		true
+	},
+	[95245] = {
+		1287966,
+		126,
+		true
+	},
+	[95246] = {
+		1288092,
+		126,
+		true
+	},
+	[95247] = {
+		1288218,
+		126,
+		true
+	},
+	[95248] = {
+		1288344,
+		126,
+		true
+	},
+	[95249] = {
+		1288470,
+		126,
+		true
+	},
+	[95250] = {
+		1288596,
+		126,
+		true
+	},
+	[95251] = {
+		1288722,
+		140,
+		true
+	},
+	[95252] = {
+		1288862,
+		141,
+		true
+	},
+	[95253] = {
+		1289003,
+		141,
+		true
+	},
+	[95300] = {
+		1289144,
+		567,
+		true
+	},
+	[95301] = {
+		1289711,
+		126,
+		true
+	},
+	[95302] = {
+		1289837,
+		126,
+		true
+	},
+	[95303] = {
+		1289963,
+		126,
+		true
+	},
+	[95320] = {
+		1290089,
+		567,
+		true
+	},
+	[95321] = {
+		1290656,
+		126,
+		true
+	},
+	[95322] = {
+		1290782,
+		126,
+		true
+	},
+	[95323] = {
+		1290908,
+		126,
+		true
+	},
+	[95324] = {
+		1291034,
+		126,
+		true
+	},
+	[95325] = {
+		1291160,
+		126,
+		true
+	},
+	[95326] = {
+		1291286,
+		126,
+		true
+	},
+	[95340] = {
+		1291412,
+		567,
+		true
+	},
+	[95341] = {
+		1291979,
+		126,
+		true
+	},
+	[95342] = {
+		1292105,
+		126,
+		true
+	},
+	[95343] = {
+		1292231,
+		126,
+		true
+	},
+	[95344] = {
+		1292357,
+		126,
+		true
+	},
+	[95345] = {
+		1292483,
+		126,
+		true
+	},
+	[95346] = {
+		1292609,
+		126,
+		true
+	},
+	[95347] = {
+		1292735,
+		126,
+		true
+	},
+	[95348] = {
+		1292861,
+		126,
+		true
+	},
+	[95349] = {
+		1292987,
+		126,
+		true
+	},
+	[95350] = {
+		1293113,
+		126,
+		true
+	},
+	[95351] = {
+		1293239,
+		140,
+		true
+	},
+	[95400] = {
+		1293379,
+		584,
+		true
+	},
+	[95401] = {
+		1293963,
+		112,
+		true
+	},
+	[95402] = {
+		1294075,
+		125,
+		true
+	},
+	[95403] = {
+		1294200,
+		125,
+		true
+	},
+	[95420] = {
+		1294325,
+		584,
+		true
+	},
+	[95421] = {
+		1294909,
+		112,
+		true
+	},
+	[95422] = {
+		1295021,
+		125,
+		true
+	},
+	[95423] = {
+		1295146,
+		125,
+		true
+	},
+	[95424] = {
+		1295271,
+		125,
+		true
+	},
+	[95425] = {
+		1295396,
+		126,
+		true
+	},
+	[95426] = {
+		1295522,
+		126,
+		true
+	},
+	[95440] = {
+		1295648,
+		584,
+		true
+	},
+	[95441] = {
+		1296232,
+		125,
+		true
+	},
+	[95442] = {
+		1296357,
+		125,
+		true
+	},
+	[95443] = {
+		1296482,
+		125,
+		true
+	},
+	[95444] = {
+		1296607,
+		126,
+		true
+	},
+	[95445] = {
+		1296733,
+		126,
+		true
+	},
+	[95446] = {
+		1296859,
+		126,
+		true
+	},
+	[95447] = {
+		1296985,
+		126,
+		true
+	},
+	[95448] = {
+		1297111,
+		126,
+		true
+	},
+	[95449] = {
+		1297237,
+		126,
+		true
+	},
+	[95450] = {
+		1297363,
+		126,
+		true
+	},
+	[95451] = {
+		1297489,
+		140,
+		true
+	},
+	[95460] = {
+		1297629,
+		581,
+		true
+	},
+	[95461] = {
+		1298210,
+		112,
+		true
+	},
+	[95462] = {
+		1298322,
+		125,
+		true
+	},
+	[95463] = {
+		1298447,
+		125,
+		true
+	},
+	[95464] = {
+		1298572,
+		125,
+		true
+	},
+	[95465] = {
+		1298697,
+		125,
+		true
+	},
+	[95466] = {
+		1298822,
+		125,
+		true
+	},
+	[95467] = {
+		1298947,
+		125,
+		true
+	},
+	[95480] = {
+		1299072,
+		537,
+		true
+	},
+	[95481] = {
+		1299609,
+		126,
+		true
+	},
+	[95482] = {
+		1299735,
+		126,
+		true
+	},
+	[95483] = {
+		1299861,
+		126,
+		true
+	},
+	[95484] = {
+		1299987,
+		126,
+		true
+	},
+	[95485] = {
+		1300113,
+		126,
+		true
+	},
+	[95486] = {
+		1300239,
+		126,
+		true
+	},
+	[95487] = {
+		1300365,
+		126,
+		true
+	},
+	[95500] = {
+		1300491,
+		603,
+		true
+	},
+	[95501] = {
+		1301094,
+		126,
+		true
+	},
+	[95502] = {
+		1301220,
+		126,
+		true
+	},
+	[95503] = {
+		1301346,
+		126,
+		true
+	},
+	[95520] = {
+		1301472,
+		603,
+		true
+	},
+	[95521] = {
+		1302075,
+		126,
+		true
+	},
+	[95522] = {
+		1302201,
+		126,
+		true
+	},
+	[95523] = {
+		1302327,
+		126,
+		true
+	},
+	[95524] = {
+		1302453,
+		126,
+		true
+	},
+	[95525] = {
+		1302579,
+		126,
+		true
+	},
+	[95526] = {
+		1302705,
+		126,
+		true
+	},
+	[95540] = {
+		1302831,
+		603,
+		true
+	},
+	[95541] = {
+		1303434,
+		126,
+		true
+	},
+	[95542] = {
+		1303560,
+		126,
+		true
+	},
+	[95543] = {
+		1303686,
+		126,
+		true
+	},
+	[95544] = {
+		1303812,
+		126,
+		true
+	},
+	[95545] = {
+		1303938,
+		126,
+		true
+	},
+	[95546] = {
+		1304064,
+		126,
+		true
+	},
+	[95547] = {
+		1304190,
+		126,
+		true
+	},
+	[95548] = {
+		1304316,
+		126,
+		true
+	},
+	[95549] = {
+		1304442,
+		126,
+		true
+	},
+	[95550] = {
+		1304568,
+		126,
+		true
+	},
+	[95551] = {
+		1304694,
+		140,
+		true
+	},
+	[95560] = {
+		1304834,
+		574,
+		true
+	},
+	[95561] = {
+		1305408,
+		112,
+		true
+	},
+	[95562] = {
+		1305520,
+		125,
+		true
+	},
+	[95563] = {
+		1305645,
+		125,
+		true
+	},
+	[95600] = {
+		1305770,
+		632,
+		true
+	},
+	[95601] = {
+		1306402,
+		125,
+		true
+	},
+	[95602] = {
+		1306527,
+		125,
+		true
+	},
+	[95603] = {
+		1306652,
+		125,
+		true
+	},
+	[95604] = {
+		1306777,
+		125,
+		true
+	},
+	[95605] = {
+		1306902,
+		125,
+		true
+	},
+	[95606] = {
+		1307027,
+		126,
+		true
+	},
+	[95640] = {
+		1307153,
+		632,
+		true
+	},
+	[95641] = {
+		1307785,
+		125,
+		true
+	},
+	[95642] = {
+		1307910,
+		125,
+		true
+	},
+	[95643] = {
+		1308035,
+		125,
+		true
+	},
+	[95644] = {
+		1308160,
+		125,
+		true
+	},
+	[95645] = {
+		1308285,
+		126,
+		true
+	},
+	[95646] = {
+		1308411,
+		126,
+		true
+	},
+	[95647] = {
+		1308537,
+		126,
+		true
+	},
+	[95648] = {
+		1308663,
+		126,
+		true
+	},
+	[95649] = {
+		1308789,
+		126,
+		true
+	},
+	[95650] = {
+		1308915,
+		126,
+		true
+	},
+	[95651] = {
+		1309041,
+		140,
+		true
+	},
+	[95652] = {
+		1309181,
+		141,
+		true
+	},
+	[95653] = {
+		1309322,
+		141,
+		true
+	},
+	[95700] = {
+		1309463,
+		574,
+		true
+	},
+	[95701] = {
+		1310037,
+		126,
+		true
+	},
+	[95702] = {
+		1310163,
+		126,
+		true
+	},
+	[95703] = {
+		1310289,
+		126,
+		true
+	},
+	[95704] = {
+		1310415,
+		126,
+		true
+	},
+	[95705] = {
+		1310541,
+		126,
+		true
+	},
+	[95706] = {
+		1310667,
+		126,
+		true
+	},
+	[95720] = {
+		1310793,
+		524,
+		true
+	},
+	[95721] = {
+		1311317,
+		171,
+		true
+	},
+	[95722] = {
+		1311488,
+		171,
+		true
+	},
+	[95723] = {
+		1311659,
+		171,
+		true
+	},
+	[95740] = {
+		1311830,
+		524,
+		true
+	},
+	[95741] = {
+		1312354,
+		171,
+		true
+	},
+	[95742] = {
+		1312525,
+		171,
+		true
+	},
+	[95743] = {
+		1312696,
+		171,
+		true
+	},
+	[95744] = {
+		1312867,
+		171,
+		true
+	},
+	[95745] = {
+		1313038,
+		171,
+		true
+	},
+	[95746] = {
+		1313209,
+		171,
+		true
+	},
+	[95760] = {
+		1313380,
+		524,
+		true
+	},
+	[95761] = {
+		1313904,
+		171,
+		true
+	},
+	[95762] = {
+		1314075,
+		171,
+		true
+	},
+	[95763] = {
+		1314246,
+		171,
+		true
+	},
+	[95764] = {
+		1314417,
+		171,
+		true
+	},
+	[95765] = {
+		1314588,
+		171,
+		true
+	},
+	[95766] = {
+		1314759,
+		171,
+		true
+	},
+	[95767] = {
+		1314930,
+		171,
+		true
+	},
+	[95768] = {
+		1315101,
+		171,
+		true
+	},
+	[95769] = {
+		1315272,
+		171,
+		true
+	},
+	[95770] = {
+		1315443,
+		171,
+		true
+	},
+	[95771] = {
+		1315614,
+		184,
+		true
+	},
+	[95800] = {
+		1315798,
+		545,
+		true
+	},
+	[95801] = {
+		1316343,
+		189,
+		true
+	},
+	[95802] = {
+		1316532,
+		189,
+		true
+	},
+	[95803] = {
+		1316721,
+		189,
+		true
+	},
+	[95820] = {
+		1316910,
+		545,
+		true
+	},
+	[95821] = {
+		1317455,
+		189,
+		true
+	},
+	[95822] = {
+		1317644,
+		189,
+		true
+	},
+	[95823] = {
+		1317833,
+		189,
+		true
+	},
+	[95824] = {
+		1318022,
+		189,
+		true
+	},
+	[95825] = {
+		1318211,
+		189,
+		true
+	},
+	[95826] = {
+		1318400,
+		189,
+		true
+	},
+	[95840] = {
+		1318589,
+		545,
+		true
+	},
+	[95841] = {
+		1319134,
+		189,
+		true
+	},
+	[95842] = {
+		1319323,
+		189,
+		true
+	},
+	[95843] = {
+		1319512,
+		189,
+		true
+	},
+	[95844] = {
+		1319701,
+		189,
+		true
+	},
+	[95845] = {
+		1319890,
+		189,
+		true
+	},
+	[95846] = {
+		1320079,
+		189,
+		true
+	},
+	[95847] = {
+		1320268,
+		189,
+		true
+	},
+	[95848] = {
+		1320457,
+		189,
+		true
+	},
+	[95849] = {
+		1320646,
+		189,
+		true
+	},
+	[95850] = {
+		1320835,
+		189,
+		true
+	},
+	[95851] = {
+		1321024,
+		202,
+		true
+	},
+	[95900] = {
+		1321226,
+		552,
+		true
+	},
+	[95901] = {
+		1321778,
+		126,
+		true
+	},
+	[95902] = {
+		1321904,
+		126,
+		true
+	},
+	[95903] = {
+		1322030,
+		126,
+		true
+	},
+	[95904] = {
+		1322156,
+		126,
+		true
+	},
+	[95905] = {
+		1322282,
+		127,
+		true
+	},
+	[95906] = {
+		1322409,
+		127,
+		true
+	},
+	[95907] = {
+		1322536,
+		127,
+		true
+	},
+	[95908] = {
+		1322663,
+		127,
+		true
+	},
+	[95909] = {
+		1322790,
+		127,
+		true
+	},
+	[95910] = {
+		1322917,
+		127,
+		true
+	},
+	[95911] = {
+		1323044,
+		141,
+		true
+	},
+	[95912] = {
+		1323185,
+		142,
+		true
+	},
+	[95913] = {
+		1323327,
+		142,
+		true
+	},
+	[100000] = {
+		1323469,
+		434,
+		true
+	},
+	[594017] = {
+		1323903,
+		501,
+		true
+	},
+	[594018] = {
+		1324404,
+		499,
+		true
+	},
+	[594019] = {
+		1324903,
+		502,
+		true
+	},
+	[630011] = {
+		1325405,
+		488,
+		true
+	},
+	[630012] = {
+		1325893,
+		488,
+		true
+	},
+	[630021] = {
+		1326381,
+		498,
+		true
+	},
+	[630022] = {
+		1326879,
+		498,
+		true
+	},
+	[630023] = {
+		1327377,
+		498,
+		true
+	},
+	[630024] = {
+		1327875,
+		498,
+		true
+	},
+	[650601] = {
+		1328373,
+		551,
+		true
+	},
+	[650602] = {
+		1328924,
+		561,
+		true
+	},
+	[650603] = {
+		1329485,
+		526,
+		true
+	},
+	[650604] = {
+		1330011,
+		551,
+		true
+	},
+	[800000] = {
+		1330562,
+		177,
+		true
+	},
+	[800001] = {
+		1330739,
+		177,
+		true
+	},
+	[800002] = {
+		1330916,
+		174,
+		true
+	},
+	[800003] = {
+		1331090,
+		177,
+		true
+	},
+	[800004] = {
+		1331267,
+		177,
+		true
+	},
+	[800005] = {
+		1331444,
+		180,
+		true
+	},
+	[800006] = {
+		1331624,
+		180,
+		true
+	},
+	[800007] = {
+		1331804,
+		180,
+		true
+	},
+	[800008] = {
+		1331984,
+		177,
+		true
+	},
+	[800009] = {
+		1332161,
+		177,
+		true
+	},
+	[960001] = {
+		1332338,
+		166,
+		true
+	},
+	[960002] = {
+		1332504,
+		173,
+		true
+	},
+	[960003] = {
+		1332677,
+		171,
+		true
+	},
+	[960004] = {
+		1332848,
+		171,
+		true
+	},
+	[960005] = {
+		1333019,
+		173,
+		true
+	},
+	[960006] = {
+		1333192,
+		171,
+		true
+	},
+	[960007] = {
+		1333363,
+		182,
+		true
+	},
+	[960008] = {
+		1333545,
+		182,
+		true
+	},
+	[960009] = {
+		1333727,
+		483,
+		true
+	},
+	[960010] = {
+		1334210,
+		481,
+		true
+	},
+	[960011] = {
+		1334691,
+		483,
+		true
+	},
+	[960012] = {
+		1335174,
+		481,
+		true
+	},
+	[960013] = {
+		1335655,
+		481,
+		true
+	},
+	[960014] = {
+		1336136,
+		483,
+		true
+	},
+	[960015] = {
+		1336619,
+		481,
+		true
+	},
+	[960016] = {
+		1337100,
+		481,
+		true
+	},
+	[960017] = {
+		1337581,
+		483,
+		true
+	},
+	[960018] = {
+		1338064,
+		481,
+		true
+	},
+	[960019] = {
+		1338545,
+		481,
+		true
+	},
+	[960020] = {
+		1339026,
+		485,
+		true
+	},
+	[960021] = {
+		1339511,
+		482,
+		true
+	},
+	[960022] = {
+		1339993,
+		482,
+		true
+	}
+}

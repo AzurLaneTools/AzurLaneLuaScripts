@@ -17,6 +17,7 @@ slot0.GIFT_BOX = 17
 slot0.TEC_SPEEDUP_TYPE = 18
 slot0.SPECIAL_OPERATION_TICKET = 19
 slot0.GUILD_OPENABLE = 20
+slot0.INVITATION_TYPE = 21
 
 function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon

@@ -4974,12 +4974,13 @@ pg.activity_template = {
 	},
 	[20824] = {
 		mark = 20210819,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20824,
 		config_data = {
@@ -4987,43 +4988,17 @@ pg.activity_template = {
 				31973,
 				100
 			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20825] = {
 		mark = 20210819,
-		config_client = "",
 		title_res_tag = "JiFeng_JKSkin",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 8,
+		config_client = "",
 		id = 20825,
 		config_data = {
 			{
@@ -5055,33 +5030,6 @@ pg.activity_template = {
 				16868
 			}
 		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "JiFengJKSkinPage",
 			ui_name = "JiFengJKSkinPage"
@@ -5089,82 +5037,30 @@ pg.activity_template = {
 	},
 	[20826] = {
 		mark = 20210819,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20826,
 		config_data = {
 			16869
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20827] = {
 		mark = 20210819,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 21,
 		is_show = 0,
 		config_data = "0",
+		title_res_tag = "",
 		id = 20827,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ships = {
 				"chunxiang",
@@ -5179,12 +5075,13 @@ pg.activity_template = {
 	},
 	[20828] = {
 		mark = 20210826,
-		id = 20828,
 		title_res_tag = "meixiv3zongye",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 12,
+		id = 20828,
 		config_data = {
 			1550001,
 			1550002,
@@ -5192,33 +5089,6 @@ pg.activity_template = {
 			1550021,
 			1550022,
 			1550023
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					8,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "AmericanMainPage",
@@ -5230,12 +5100,13 @@ pg.activity_template = {
 	},
 	[20829] = {
 		mark = 20210826,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 20829,
 		config_data = {
 			1550004,
@@ -5247,45 +5118,19 @@ pg.activity_template = {
 			1550041,
 			1550051
 		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					8,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
 	},
 	[20830] = {
 		mark = 20210826,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20830,
 		config_data = {
@@ -5306,33 +5151,6 @@ pg.activity_template = {
 			16884,
 			16885,
 			16886
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					8,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20831] = {
@@ -5543,92 +5361,41 @@ pg.activity_template = {
 	},
 	[20835] = {
 		mark = 20210826,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20835,
 		config_data = {
 			16887
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					8,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20836] = {
 		mark = 20210826,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20836,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					8,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[20837] = {
 		mark = 20210826,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20837,
 		config_data = {
@@ -5636,14 +5403,24 @@ pg.activity_template = {
 				31983,
 				100
 			}
-		},
+		}
+	},
+	[20838] = {
+		mark = 20210909,
+		id = 20838,
+		title_res_tag = "NissinFood",
+		type = 57,
+		login_pop = 0,
+		config_id = 22,
+		is_show = 13,
+		config_data = "0",
 		time = {
 			timer,
 			{
 				{
 					2021,
-					8,
-					26
+					9,
+					9
 				},
 				{
 					0,
@@ -5655,7 +5432,7 @@ pg.activity_template = {
 				{
 					2021,
 					9,
-					8
+					23
 				},
 				{
 					23,
@@ -5663,11 +5440,52 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		page_info = {
+			class_name = "NissinFoodPage",
+			ui_name = "NissinFoodPage"
+		},
+		config_client = {
+			{
+				2,
+				54006,
+				1
+			},
+			{
+				2,
+				50004,
+				5
+			},
+			{
+				5,
+				205,
+				1
+			},
+			{
+				2,
+				54023,
+				2
+			},
+			{
+				2,
+				20013,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				5,
+				206,
+				1
+			}
 		}
 	},
 	[25000] = {
 		mark = 20188020,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5683,7 +5501,7 @@ pg.activity_template = {
 	},
 	[25001] = {
 		mark = 20188030,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5699,7 +5517,7 @@ pg.activity_template = {
 	},
 	[25002] = {
 		mark = 20180906,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5715,7 +5533,7 @@ pg.activity_template = {
 	},
 	[25003] = {
 		mark = 20180914,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5731,7 +5549,7 @@ pg.activity_template = {
 	},
 	[25004] = {
 		mark = 20180914,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5747,7 +5565,7 @@ pg.activity_template = {
 	},
 	[25005] = {
 		mark = 20180914,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5763,7 +5581,7 @@ pg.activity_template = {
 	},
 	[25006] = {
 		mark = 20180928,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5779,7 +5597,7 @@ pg.activity_template = {
 	},
 	[25007] = {
 		mark = 20180928,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5795,7 +5613,7 @@ pg.activity_template = {
 	},
 	[25008] = {
 		mark = 20181011,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5811,7 +5629,7 @@ pg.activity_template = {
 	},
 	[25009] = {
 		mark = 20181018,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5827,7 +5645,7 @@ pg.activity_template = {
 	},
 	[25010] = {
 		mark = 20181030,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5843,7 +5661,7 @@ pg.activity_template = {
 	},
 	[25011] = {
 		mark = 20181122,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5859,7 +5677,7 @@ pg.activity_template = {
 	},
 	[25012] = {
 		mark = 20181122,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5875,7 +5693,7 @@ pg.activity_template = {
 	},
 	[25013] = {
 		mark = 20181220,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5891,7 +5709,7 @@ pg.activity_template = {
 	},
 	[25014] = {
 		mark = 20170726,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5907,7 +5725,7 @@ pg.activity_template = {
 	},
 	[25015] = {
 		mark = 20181227,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5923,7 +5741,7 @@ pg.activity_template = {
 	},
 	[25016] = {
 		mark = 20181227,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5939,7 +5757,7 @@ pg.activity_template = {
 	},
 	[25017] = {
 		mark = 20190117,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5955,7 +5773,7 @@ pg.activity_template = {
 	},
 	[25018] = {
 		mark = 20181227,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5971,7 +5789,7 @@ pg.activity_template = {
 	},
 	[25019] = {
 		mark = 20190131,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -5987,7 +5805,7 @@ pg.activity_template = {
 	},
 	[25020] = {
 		mark = 20190228,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6003,7 +5821,7 @@ pg.activity_template = {
 	},
 	[25021] = {
 		mark = 20180726,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6019,7 +5837,7 @@ pg.activity_template = {
 	},
 	[25022] = {
 		mark = 20180726,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6035,7 +5853,7 @@ pg.activity_template = {
 	},
 	[25023] = {
 		mark = 20180726,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6051,7 +5869,7 @@ pg.activity_template = {
 	},
 	[25024] = {
 		mark = 20190520,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6067,7 +5885,7 @@ pg.activity_template = {
 	},
 	[25025] = {
 		mark = 20190520,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6083,7 +5901,7 @@ pg.activity_template = {
 	},
 	[25026] = {
 		mark = 20180627,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6099,7 +5917,7 @@ pg.activity_template = {
 	},
 	[25027] = {
 		mark = 20180627,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6115,7 +5933,7 @@ pg.activity_template = {
 	},
 	[25028] = {
 		mark = 20190731,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6131,7 +5949,7 @@ pg.activity_template = {
 	},
 	[25029] = {
 		mark = 20190822,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6147,7 +5965,7 @@ pg.activity_template = {
 	},
 	[25030] = {
 		mark = 20190919,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6163,7 +5981,7 @@ pg.activity_template = {
 	},
 	[25031] = {
 		mark = 20191017,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6179,7 +5997,7 @@ pg.activity_template = {
 	},
 	[25032] = {
 		mark = 20191205,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6195,7 +6013,7 @@ pg.activity_template = {
 	},
 	[25033] = {
 		mark = 20200319,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6211,7 +6029,7 @@ pg.activity_template = {
 	},
 	[25034] = {
 		mark = 20200402,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6227,7 +6045,7 @@ pg.activity_template = {
 	},
 	[25035] = {
 		mark = 20200416,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6243,7 +6061,7 @@ pg.activity_template = {
 	},
 	[25036] = {
 		mark = 20200423,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6259,7 +6077,7 @@ pg.activity_template = {
 	},
 	[25037] = {
 		mark = 20200423,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6275,7 +6093,7 @@ pg.activity_template = {
 	},
 	[25038] = {
 		mark = 20200514,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6291,7 +6109,7 @@ pg.activity_template = {
 	},
 	[25039] = {
 		mark = 20200521,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6307,7 +6125,7 @@ pg.activity_template = {
 	},
 	[25040] = {
 		mark = 20200618,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6323,7 +6141,7 @@ pg.activity_template = {
 	},
 	[25041] = {
 		mark = 20190117,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6339,7 +6157,7 @@ pg.activity_template = {
 	},
 	[25042] = {
 		mark = 20180510,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6355,7 +6173,7 @@ pg.activity_template = {
 	},
 	[25043] = {
 		mark = 20190131,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6371,7 +6189,7 @@ pg.activity_template = {
 	},
 	[25044] = {
 		mark = 20200827,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6387,7 +6205,7 @@ pg.activity_template = {
 	},
 	[25045] = {
 		mark = 20200910,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6403,7 +6221,7 @@ pg.activity_template = {
 	},
 	[25046] = {
 		mark = 20201022,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6419,7 +6237,7 @@ pg.activity_template = {
 	},
 	[25047] = {
 		mark = 20201203,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6435,7 +6253,7 @@ pg.activity_template = {
 	},
 	[25048] = {
 		mark = 20201231,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6451,7 +6269,7 @@ pg.activity_template = {
 	},
 	[25049] = {
 		mark = 20210128,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6467,7 +6285,7 @@ pg.activity_template = {
 	},
 	[25050] = {
 		mark = 20210304,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6483,7 +6301,7 @@ pg.activity_template = {
 	},
 	[25051] = {
 		mark = 20210325,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6499,7 +6317,7 @@ pg.activity_template = {
 	},
 	[25052] = {
 		mark = 20210401,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6515,7 +6333,7 @@ pg.activity_template = {
 	},
 	[25053] = {
 		mark = 20210422,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6531,7 +6349,7 @@ pg.activity_template = {
 	},
 	[25054] = {
 		mark = 20210429,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6547,7 +6365,7 @@ pg.activity_template = {
 	},
 	[25055] = {
 		mark = 20210429,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6563,7 +6381,7 @@ pg.activity_template = {
 	},
 	[25056] = {
 		mark = 20210527,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6579,7 +6397,7 @@ pg.activity_template = {
 	},
 	[25057] = {
 		mark = 20210527,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6595,7 +6413,7 @@ pg.activity_template = {
 	},
 	[25058] = {
 		mark = 20210610,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6611,7 +6429,7 @@ pg.activity_template = {
 	},
 	[25059] = {
 		mark = 20210722,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6627,7 +6445,7 @@ pg.activity_template = {
 	},
 	[25060] = {
 		mark = 20210812,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6643,7 +6461,7 @@ pg.activity_template = {
 	},
 	[25061] = {
 		mark = 20210819,
-		time = "always",
+		time = "stop",
 		page_info = "",
 		type = 17,
 		login_pop = 0,
@@ -6820,6 +6638,7 @@ pg.activity_template = {
 		20835,
 		20836,
 		20837,
+		20838,
 		25000,
 		25001,
 		25002,

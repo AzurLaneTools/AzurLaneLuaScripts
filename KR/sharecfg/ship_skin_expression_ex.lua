@@ -2881,7 +2881,7 @@ pg.ship_skin_expression_ex = {
 		main_ex = {
 			{
 				1100,
-				"nil|5"
+				"|5"
 			}
 		}
 	},
@@ -3825,7 +3825,7 @@ pg.ship_skin_expression_ex = {
 		main_ex = {
 			{
 				1100,
-				"nil|1"
+				"|1"
 			}
 		},
 		mission = {
@@ -4481,7 +4481,7 @@ pg.ship_skin_expression_ex = {
 		main_ex = {
 			{
 				1100,
-				"1|nil|4"
+				"1||4"
 			}
 		},
 		mission = {
@@ -4538,7 +4538,7 @@ pg.ship_skin_expression_ex = {
 		main_ex = {
 			{
 				1100,
-				"nil|2|3"
+				"|2|3"
 			}
 		},
 		mission = {
@@ -4667,7 +4667,7 @@ pg.ship_skin_expression_ex = {
 		main_ex = {
 			{
 				1100,
-				"1l|2|3"
+				"1|2|3"
 			}
 		},
 		mission = {

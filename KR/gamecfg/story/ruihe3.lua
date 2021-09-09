@@ -77,7 +77,7 @@ return {
 			actorName = "{namecode:92}",
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "너도 수고가 많아. 지휘관님과 순찰 하던 중이야?",
+			say = "너도 수고가 많아. 지휘관이랑 순찰 하던 중이야?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -234,7 +234,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "응? 뭐라고?",
+			say = "네? 뭐라고요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

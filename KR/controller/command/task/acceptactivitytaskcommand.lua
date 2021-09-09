@@ -9,9 +9,7 @@ function slot0.execute(slot0, slot1)
 		ActivityConst.ACTIVITY_TYPE_TASK_LIST,
 		ActivityConst.ACTIVITY_TYPE_TASK_RES
 	}), function (slot0)
-		slot1 = slot0:getConfig("config_id")
-
-		if not slot0:isEnd() and (slot1 == 1 or slot1 == 3) then
+		if not slot0:isEnd() then
 			updateActivityTaskStatus(slot0)
 		end
 	end)

@@ -189,7 +189,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "...다음 출격시에는 저랑 \"그레이 고스트\"를 같이 보내주세요! 무조건 MVP가 되어 보이겠어요!",
+			say = "... 다음 출격 시에는 나랑 \"그레이 고스트\"를 같이 보내줘! 무조건 MVP가 되어 보이겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

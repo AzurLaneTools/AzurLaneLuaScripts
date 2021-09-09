@@ -54,23 +54,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.preload(slot0, slot1)
-	slot0.preloaduis = {
-		"TaskListPage"
-	}
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(slot0.preloaduis) do
-		table.insert(slot2, function (slot0)
-			PoolMgr.GetInstance():GetUI(uv0, true, function (slot0)
-				slot0.name = uv0
-
-				slot0.transform:SetParent(GameObject.Find("__Pool__").transform)
-				uv1()
-			end)
-		end)
-	end
-
-	seriesAsync(slot2, slot1)
+	PoolMgr.GetInstance():PreloadUI("TaskListPage", slot1)
 end
 
 function slot0.setTaskVOs(slot0, slot1)
@@ -317,12 +301,6 @@ end
 function slot0.willExit(slot0)
 	for slot4, slot5 in pairs(slot0.pages) do
 		slot5:Destroy()
-	end
-
-	for slot4, slot5 in ipairs(slot0.preloaduis) do
-		if not IsNil(GameObject.Find("__Pool__").transform:Find(slot5)) then
-			PoolMgr.GetInstance():ReturnUI(slot5, slot6.gameObject)
-		end
 	end
 
 	slot0.pages = nil

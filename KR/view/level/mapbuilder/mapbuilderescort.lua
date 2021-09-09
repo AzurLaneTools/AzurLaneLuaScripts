@@ -58,31 +58,32 @@ function slot1.UpdateMapItems(slot0)
 	setActive(slot0.sceneParent.mapHelpBtn, true)
 
 	slot2 = getProxy(ChapterProxy)
-	slot4 = UIItemList.New(slot0.itemHolder, slot0.tpl)
+	slot3 = getProxy(ChapterProxy):getEscortChapterIds()
+	slot5 = UIItemList.New(slot0.itemHolder, slot0.tpl)
 
-	slot4:make(function (slot0, slot1, slot2)
+	slot5:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateEscortItem(slot2, uv1[slot1 + 1].id, uv1[slot1 + 1])
 		end
 	end)
-	slot4:align(#_.filter(slot0.data:getChapters(), function (slot0)
-		return table.contains(pg.gameset.gardroad_count.description[1], slot0.id)
+	slot5:align(#_.filter(slot0.data:getChapters(), function (slot0)
+		return table.contains(uv0, slot0.id)
 	end))
 end
 
 function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
 	slot4 = pg.escort_template[slot2]
 	slot1.name = "chapter_" .. slot3.id
-	slot7 = slot0.map.rect
-	slot1.anchoredPosition = Vector2(slot7.width / slot0.scaleRatio * (tonumber(slot4.pos_x) - 0.5), slot7.height / slot0.scaleRatio * (tonumber(slot4.pos_y) - 0.5))
-	slot9 = getProxy(ChapterProxy):getActiveChapter() and slot6.id == slot3.id
+	slot6 = slot0.map.rect
+	slot1.anchoredPosition = Vector2(slot6.width / slot0.scaleRatio * (tonumber(slot4.pos_x) - 0.5), slot6.height / slot0.scaleRatio * (tonumber(slot4.pos_y) - 0.5))
+	slot8 = getProxy(ChapterProxy):getActiveChapter() and slot5.id == slot3.id
 
-	setActive(slot1:Find("fighting"), slot9)
+	setActive(slot1:Find("fighting"), slot8)
 	slot0:DeleteTween("fighting" .. slot3.id)
 
-	if slot9 then
-		setImageAlpha(slot8, 1)
-		slot0:RecordTween("fighting" .. slot3.id, LeanTween.alpha(slot8, 0, 0.5):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
+	if slot8 then
+		setImageAlpha(slot7, 1)
+		slot0:RecordTween("fighting" .. slot3.id, LeanTween.alpha(slot7, 0, 0.5):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
 	end
 
 	GetImageSpriteFromAtlasAsync("levelmap/mapquad/" .. slot4.pic, "", slot1, true)
@@ -91,7 +92,7 @@ function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
 		Color.green,
 		Color.yellow,
 		Color.red
-	})[table.indexof(pg.gameset.gardroad_count.description[1], slot2) or 1]
+	})[table.indexof(getProxy(ChapterProxy):getEscortChapterIds(), slot2) or 1]
 
 	for slot18 = 0, slot1:Find("anim"):GetComponentsInChildren(typeof(Image)).Length - 1 do
 		slot14[slot18].color = slot13

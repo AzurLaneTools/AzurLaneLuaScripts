@@ -231,21 +231,19 @@ function slot0.buildRemasterMaps(slot0)
 end
 
 function slot0.IsChapterInRemaster(slot0, slot1)
-	slot2 = pg.TimeMgr.GetInstance()
-
 	return _.detect(pg.re_map_template.all, function (slot0)
-		if not uv0:inTime(pg.re_map_template[slot0].time) then
-			return false
-		end
-
-		return _.any(slot1.config_data, function (slot0)
+		return _.any(pg.re_map_template[slot0].config_data, function (slot0)
 			return slot0 == uv0
 		end)
 	end)
 end
 
 function slot0.getMaxEscortChallengeTimes(slot0)
-	return pg.gameset.gardroad_count.key_value
+	return getProxy(ActivityProxy):getActivityParameter("escort_daily_count") or 0
+end
+
+function slot0.getEscortChapterIds(slot0)
+	return getProxy(ActivityProxy):getActivityParameter("escort_exp_id") or {}
 end
 
 function slot0.resetEscortChallengeTimes(slot0)

@@ -4076,6 +4076,118 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[205] = {
+		spine_extra = "",
+		describe = "음… 수온이 딱 좋아요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "beimianicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "컵라면 욕조",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/beimian",
+		canputon = 0,
+		id = 205,
+		can_rotate = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					21,
+					-47
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/beimian_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[206] = {
+		spine_extra = "",
+		describe = "3분이 됐어요! 먹어도 좋아요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "beimianzhuoicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "식사용 원탁",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/beimianzhuo",
+		canputon = 0,
+		id = 206,
+		can_rotate = 1,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					111.4,
+					-61.5
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-92,
+					-65
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -56088,7 +56200,7 @@ pg.furniture_data_template = {
 			{
 				"wash",
 				{
-					-106.8,
+					-92.6,
 					-51.9
 				},
 				{
@@ -89382,6 +89494,8 @@ pg.furniture_data_template = {
 		199,
 		200,
 		203,
+		205,
+		206,
 		100002,
 		100003,
 		100004,

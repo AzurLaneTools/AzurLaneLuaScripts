@@ -78,7 +78,7 @@ return {
 			actorName = "{namecode:95}",
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "아이, 그건 물어보고 말고 할 것도 없지!",
+			say = "어머, 그건 물어보고 말고 할 것도 없지!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

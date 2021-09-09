@@ -51,7 +51,7 @@ function slot0.removeFriend(slot0, slot1)
 
 		slot0:sendNotification(uv0.FRIEND_REMOVED, slot2.player)
 	else
-		print("不存在的好友: " .. data.id)
+		print("不存在的好友: " .. slot1)
 	end
 end
 

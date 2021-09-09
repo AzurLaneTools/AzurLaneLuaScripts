@@ -27,7 +27,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot11:getMapType() == Map.ESCORT and slot9:getMaxEscortChallengeTimes() <= slot9.escortChallengeTimes then
+	if slot11:isEscort() and slot9:getMaxEscortChallengeTimes() <= slot9.escortChallengeTimes then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("escort_less_count_to_combat"))
 
 		return
@@ -115,7 +115,7 @@ function slot0.execute(slot0, slot1)
 
 			uv5:updateChapter(uv0)
 
-			if uv6:getMapType() == Map.ESCORT then
+			if uv6:isEscort() then
 				uv5.escortChallengeTimes = uv5.escortChallengeTimes + 1
 			end
 

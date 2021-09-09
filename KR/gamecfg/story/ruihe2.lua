@@ -68,7 +68,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "아, 다들 여기 모여서 뭐하는 거죠?",
+			say = "아, 다들 여기 모여서 뭐하는 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actorName = "{namecode:76}",
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "어? {namecode:96}, 지휘관님이랑 순찰 중이야?",
+			say = "어? {namecode:96}, 지휘관이랑 순찰 중이야?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:47}",
-			say = "{namecode:76}{namecode:77}만 있으면 그래도 말 하기 쉬운데, 여기에 \"사쿠라 엠파이어와 유니온의 연합 훈련\"이라는 말을 꺼낼 수 있는 사람이...",
+			say = "{namecode:76}, {namecode:77}만 있으면 그래도 말 하기 쉬운데, 여기에 \"사쿠라 엠파이어와 유니온의 연합 훈련\"이라는 말을 꺼낼 수 있는 사람이...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

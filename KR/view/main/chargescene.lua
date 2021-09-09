@@ -719,7 +719,7 @@ function slot0.initItems(slot0)
 					id = Goods.SHIP_BAG_SIZE_ITEM
 				}).id
 			elseif slot0 == "equip_bag_size" then
-				if Player.MAX_EQUIP_BAG <= uv1.player:getMaxEquipmentBag() then
+				if Player.MAX_EQUIP_BAG <= uv1.player:getMaxEquipmentBagExcludeGuild() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("charge_equip_bag_max"))
 
 					return

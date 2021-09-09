@@ -226,7 +226,7 @@ return {
 			side = 2,
 			dir = -1,
 			actorName = "{namecode:66}",
-			say = "뭐!? 그렇게 쉽게 수리가 가능하다고!?...아이고 내 체면...",
+			say = "뭐!? 그렇게 쉽게 수리가 가능하다고!?...소인의 체면이...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
