@@ -23,8 +23,6 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot2 = getProxy(MiniGameProxy):GetHubByHubId(slot0.hubID)
-
 	eachChild(slot0.cupList, function (slot0)
 		setActive(uv0:findTF("lock", slot0), tonumber(slot0.name) > uv1.count + uv1.usedtime)
 		setActive(uv0:findTF("got", slot0), slot1 <= uv1.usedtime)
@@ -41,6 +39,14 @@ function slot0.OnUpdateFlush(slot0)
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
 	end)
+
+	if getProxy(MiniGameProxy):GetHubByHubId(slot0.hubID).ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime then
+		pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
+			hubid = slot2.id,
+			cmd = MiniGameOPCommand.CMD_ULTIMATE,
+			args1 = {}
+		})
+	end
 end
 
 return slot0
