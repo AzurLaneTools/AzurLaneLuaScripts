@@ -597,7 +597,6 @@ end
 
 function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
-		slot0.viewComponent:emit(LevelUIConst.DESTROY_LEVEL_STAGE_VIEW)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot1:getBody())
 	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
 		slot0.viewComponent:updateVoteBookBtn(slot3)

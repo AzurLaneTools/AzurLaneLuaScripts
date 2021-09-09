@@ -147,6 +147,7 @@ function slot0.getSegmentIndex(slot0)
 end
 
 slot4 = 1
+slot5 = 2
 
 function slot0.checkCondition(slot0, slot1)
 	slot3, slot4 = nil
@@ -156,6 +157,9 @@ function slot0.checkCondition(slot0, slot1)
 			protocol = slot5[2],
 			func = slot2.condition.func
 		}, slot1)
+	elseif slot5[1] == uv1 then
+		slot4, slot3 = slot2.condition.func(getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character))
+		slot0.stepConfig.condition = nil
 	end
 
 	return slot4, slot3

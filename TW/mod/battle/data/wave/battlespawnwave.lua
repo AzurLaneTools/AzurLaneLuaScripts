@@ -70,30 +70,36 @@ function slot1.DoWave(slot0)
 		end
 	end
 
-	for slot4, slot5 in ipairs(slot0._airStrike) do
-		if slot5.delay <= 0 then
-			slot0:doAirStrike(slot5)
-		else
-			slot0:airStrikeTimer(slot5, slot5.delay)
-		end
+	slot1 = 0
+
+	if PLATFORM_CODE == PLATFORM_CH then
+		slot1 = 0.03
 	end
 
-	for slot5, slot6 in ipairs(slot0._sapwnData) do
-		if slot6.bossData then
-			slot1 = 0 + 1
+	for slot5, slot6 in ipairs(slot0._airStrike) do
+		if slot6.delay + slot5 * slot1 <= 0 then
+			slot0:doAirStrike(slot6)
+		else
+			slot0:airStrikeTimer(slot6, slot7)
 		end
 	end
 
 	for slot6, slot7 in ipairs(slot0._sapwnData) do
-		if math.random() <= (slot7.chance or 1) then
-			if slot7.bossData and slot1 > 1 then
-				slot7.bossData.bossCount = 0 + 1
+		if slot7.bossData then
+			slot2 = 0 + 1
+		end
+	end
+
+	for slot7, slot8 in ipairs(slot0._sapwnData) do
+		if math.random() <= (slot8.chance or 1) then
+			if slot8.bossData and slot2 > 1 then
+				slot8.bossData.bossCount = 0 + 1
 			end
 
-			if slot7.delay <= 0 then
-				slot0:doSpawn(slot7)
+			if slot8.delay + slot7 * slot1 <= 0 then
+				slot0:doSpawn(slot8)
 			else
-				slot0:spawnTimer(slot7, slot7.delay, slot0._spawnTimerList)
+				slot0:spawnTimer(slot8, slot10, slot0._spawnTimerList)
 			end
 		else
 			slot0._spawnCount = slot0._spawnCount - 1
@@ -114,10 +120,10 @@ function slot1.DoWave(slot0)
 
 	uv1.Battle.BattleState.GenerateVertifyData(1)
 
-	slot3, slot4 = uv1.Battle.BattleState.Vertify()
+	slot4, slot5 = uv1.Battle.BattleState.Vertify()
 
-	if not slot3 then
-		uv1.Battle.BattleState.GetInstance():GetCommandByName(uv1.Battle.BattleSingleDungeonCommand.__name):SetVertifyFail(100 + slot4)
+	if not slot4 then
+		uv1.Battle.BattleState.GetInstance():GetCommandByName(uv1.Battle.BattleSingleDungeonCommand.__name):SetVertifyFail(100 + slot5)
 	end
 end
 

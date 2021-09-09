@@ -5,11 +5,17 @@ slot0.SPEED_UP = "BackYardShipInfoMediator:SPEED_UP"
 slot0.OPEN_CHUANWU = "BackYardShipInfoMediator:OPEN_CHUANWU"
 slot0.BUY_QUICKITEM = "BackYardShipInfoMediator:BUY_QUICKITEM"
 slot0.OPEN_NOFOOD = "BackYardShipInfoMediator:OPEN_NOFOOD"
+slot0.GO_SHIP_INFO = "BackYardShipInfoMediator:GO_SHIP_INFO"
 
 function slot0.register(slot0)
 	slot0.contextData.type = slot0.contextData.type or BackYardShipInfoLayer.SHIP_TRAIN_TYPE
 	slot0.dormProxy = getProxy(DormProxy)
 
+	slot0:bind(uv0.GO_SHIP_INFO, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
+			shipId = slot1
+		})
+	end)
 	slot0:bind(uv0.EXTEND, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.SHOPPING, {
 			id = slot1,

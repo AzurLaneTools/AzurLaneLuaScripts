@@ -115,19 +115,20 @@ end
 
 function slot0.doRetreat(slot0)
 	slot2 = slot0.data
+	slot3 = slot0.flag
 	slot4 = slot0.chapter
 
 	if slot0.op.id then
 		if #slot4.fleets > 0 then
-			_.each(slot4.fleets, function (slot0)
-				if slot0.id ~= uv0.id then
-					table.insert(uv1, slot0)
-				end
+			slot4.fleets = _.filter(slot4.fleets, function (slot0)
+				return slot0.id ~= uv0.id
 			end)
 
-			slot4.fleets = {}
-			slot4.findex = 1
-			slot3 = bit.bor(slot0.flag, ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion, ChapterConst.DirtyStrategy)
+			if slot4.fleets[slot1.id] and slot5:getFleetType() == FleetType.Normal then
+				slot4.findex = 1
+			end
+
+			slot3 = bit.bor(slot3, ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion, ChapterConst.DirtyStrategy)
 		end
 	else
 		slot4:retreat(slot1.win)

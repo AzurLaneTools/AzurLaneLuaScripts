@@ -17,6 +17,7 @@ slot0.ACTIVITY_PT_ID = 110
 function slot0.register(slot0)
 	slot0:on(11200, function (slot0)
 		uv0.data = {}
+		uv0.params = {}
 
 		for slot4, slot5 in ipairs(slot0.activity_list) do
 			if not pg.activity_template[slot5.id] then
@@ -24,6 +25,8 @@ function slot0.register(slot0)
 			else
 				if Activity.Create(slot5):getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 or slot7 == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
 					uv0:updateActivityFleet(slot5)
+				elseif slot7 == ActivityConst.ACTIVITY_TYPE_PARAMETER then
+					uv0:addActivityParameter(slot6)
 				end
 
 				uv0.data[slot5.id] = slot6
@@ -56,13 +59,17 @@ function slot0.register(slot0)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
 	end)
 	slot0:on(11201, function (slot0)
-		if not uv0.data[Activity.Create(slot0.activity_info).id] then
+		if Activity.Create(slot0.activity_info):getConfig("type") == ActivityConst.ACTIVITY_TYPE_PARAMETER then
+			uv0:addActivityParameter(slot1)
+		end
+
+		if not uv0.data[slot1.id] then
 			uv0:addActivity(slot1)
 		else
 			uv0:updateActivity(slot1)
 		end
 
-		if pg.activity_template[slot1.id].type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+		if slot2 == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
 			uv0:updateActivityFleet(slot0.activity_info)
 			uv0:InitActivityBossData(slot1)
 		end
@@ -539,6 +546,25 @@ function slot0.MarkSkinCoupon(slot0, slot1)
 		end
 
 		slot0:updateActivity(slot2)
+	end
+end
+
+function slot0.addActivityParameter(slot0, slot1)
+	for slot7, slot8 in ipairs(slot1:getConfig("config_data")) do
+		slot0.params[slot8[1]] = {
+			slot8[2],
+			slot1.stopTime
+		}
+	end
+end
+
+function slot0.getActivityParameter(slot0, slot1)
+	if slot0.params[slot1] then
+		slot2, slot3 = unpack(slot0.params[slot1])
+
+		if slot3 <= 0 or slot3 > pg.TimeMgr.GetInstance():GetServerTime() then
+			return slot2
+		end
 	end
 end
 

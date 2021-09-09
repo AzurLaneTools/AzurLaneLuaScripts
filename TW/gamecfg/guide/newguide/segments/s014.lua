@@ -13,7 +13,7 @@ return {
 			},
 			spriteui = {
 				defaultName = "white_dot",
-				path = "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items",
+				path = "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items_scroll/content",
 				childPath = "bg/icon_bg/icon",
 				pathIndex = "#"
 			},

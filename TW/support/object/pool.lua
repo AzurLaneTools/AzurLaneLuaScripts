@@ -33,6 +33,30 @@ function slot2.InitSize(slot0, slot1)
 	return slot0
 end
 
+function slot2.InitSizeAsync(slot0, slot1, slot2)
+	slot2 = slot2 or slot0.min
+	slot3 = 0
+	slot0.initTimer = Timer.New(function ()
+		uv0:Recycle(uv0:GetObject())
+
+		uv1 = uv1 + 1
+
+		if uv2 <= uv1 then
+			uv0.initTimer:Stop()
+
+			uv0.initTimer = nil
+
+			if uv3 then
+				uv3()
+			end
+		end
+	end, 0.001, -1, 1)
+
+	slot0.initTimer:Start()
+
+	return slot0
+end
+
 function slot2.SetInitFuncs(slot0, slot1)
 	slot0.initFunc = slot1
 end

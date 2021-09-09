@@ -3491,9 +3491,7 @@ pg.ship_skin_template_2 = {
 		group_index = 9,
 		aircraft_skin = "",
 		painting = "shengdiyage_g",
-		shop_id = 0,
 		air_bullet_skin = "",
-		air_bomb_skin = "",
 		shop_type_id = 0,
 		lip_smoothing = 0,
 		l2d_animations = "",
@@ -3506,10 +3504,10 @@ pg.ship_skin_template_2 = {
 		l2d_se = "",
 		no_showing = "0",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "欸嘿⭐雖然搞不清楚發生了什麼，不過聖地牙哥好像變厲害了呢！指揮官看到我的閃閃發光的“氣場”了嗎~",
 		voice_actor = 5,
-		spine_offset = "",
+		air_bomb_skin = "",
 		illustrator = 1,
 		rarity_bg = "",
 		time = "",
@@ -3581,6 +3579,27 @@ pg.ship_skin_template_2 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				0,
+				-535,
+				0
+			},
+			{
+				0.68
+			}
+		},
+		special_effects = {
+			"yanzhan",
+			{
+				37,
+				138,
+				0
+			},
+			{
+				1.6
 			}
 		}
 	},

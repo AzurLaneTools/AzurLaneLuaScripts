@@ -171,7 +171,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "誒？！",
+			say = "欸？！",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "誒？？！！",
+			say = "欸？？！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,

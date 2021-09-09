@@ -795,10 +795,9 @@ function slot0.InitMaterial(slot0, slot1)
 			return
 		end
 
-		if uv0.itemVO:getTempCfgTable().open_ui[1] > 0 then
-			uv1:emit(EquipmentMediator.ITEM_GO_SCENE, SCENE.ITEM_ORIGIN_PAGE, {
-				itemVO = uv0.itemVO,
-				open_ui = uv0.itemVO:getTempCfgTable().open_ui[1]
+		if uv0.itemVO:getConfig("type") == Item.INVITATION_TYPE then
+			uv1:emit(EquipmentMediator.ITEM_GO_SCENE, SCENE.INVITATION, {
+				itemVO = uv0.itemVO
 			})
 		else
 			uv1:emit(uv2.ON_ITEM, uv0.itemVO.id)

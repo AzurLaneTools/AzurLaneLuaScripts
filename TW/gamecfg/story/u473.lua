@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"温柔、安静又温暖\n\n<size=45>三  礼物</size>",
+					"溫柔、安靜又溫暖\n\n<size=45>三  禮物</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "指挥官，这个给你。",
+			say = "指揮官，這個給你。",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -56,7 +56,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "翌日，U-47又来了。而且这次带来了一盒牛奶。",
+			say = "翌日，U-47又來了。而且這次帶來了一盒牛奶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,38 +71,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "包装上画了一头威风的牛，感觉喝下去就能变强（？）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 408020,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……这个是昨天帮我盖毯子的谢礼。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "原来如此……心怀感谢的打开了包装——里面却没有吸管。",
+			say = "包裝上畫了一頭威風的牛，感覺喝下去就能變強（？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦，我可能把吸管掉在什么地方了……不过不管怎么喝，它都很美味。",
+			say = "……這個是昨天幫我蓋毯子的謝禮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,22 +102,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47说完话后，就开始在书架上物色着今天的阅读目标。看来要在没有吸管的情况下自己想办法了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "利用刀子和杯子化解了危机后，品尝了一口——跟普通的牛奶简直是天壤之别，实在是太美味了！",
+			say = "原來如此……心懷感謝的打開了包裝——裡面卻沒有吸管。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +118,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是我最喜欢的特制牛奶，所以特别送给指挥官。",
+			say = "哦，我可能把吸管掉在什麼地方了……不過不管怎麼喝，它都很美味。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "U-47說完話後，就開始在書架上物色著今天的閱讀目標。看來要在沒有吸管的情況下自己想辦法了……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "利用刀子和杯子化解了危機後，品嚐了一口——跟普通的牛奶簡直是天壤之別，實在是太美味了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,22 +164,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有，今天也要打扰你了，现在有什么需要帮忙的事么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "目前还没有特别需要U-47帮忙的事……不过既然有这份心的话，询问一下她擅长的事情好了。",
+			say = "這是我最喜歡的特製牛奶，所以特別送給指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +180,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "潜入任务。",
+			say = "還有，今天也要打擾你了，現在有什麼需要幫忙的事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,68 +195,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……看来暂时没有她发挥特长的机会了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 408020,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哦，那有需要的时候叫我也行。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "在搜寻了一会后，她从书架上取下了一本书。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "今天最终决定的目标是————",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "《军港纪念邮票集》",
+			say = "目前還沒有特別需要U-47幫忙的事……不過既然有這份心的話，詢問一下她擅長的事情好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +211,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "昨天好像没看到这本书……看名字感觉很有趣。",
+			say = "潛入任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,22 +226,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47拿着书来到了昨天的沙发上，然后默默开始了阅读。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "虽然这本书是我特意准备好混进去的，但没想到她真的很感兴趣。",
+			say = "……看來暫時沒有她發揮特長的機會了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +242,52 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官……果然有点奇怪呢。",
+			say = "哦，那有需要的時候叫我也行。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "在搜尋了一會後，她從書架上取下了一本書。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "今天最終決定的目標是————",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "《軍港紀念郵票集》",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +303,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给不说话又不帮忙的人特意准备本书，温柔过分了。",
+			say = "昨天好像沒看到這本書……看名字感覺很有趣。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "U-47拿著書來到了昨天的沙發上，然後默默開始了閱讀。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "雖然這本書是我特意準備好混進去的，但沒想到她真的很感興趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +349,39 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不……也不是说让你开始跟我聊天的意思。我喜欢安静，保持现状就好。",
+			say = "指揮官……果然有點奇怪呢。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 408020,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "給不說話又不幫忙的人特意準備本書，溫柔過分了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 408020,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "不……也不是說讓你開始跟我聊天的意思。我喜歡安靜，保持現狀就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			},
 			options = {
 				{
-					content = "这种只要呆在身边就能安心的关系也不错……",
+					content = "這種只要待在身邊就能安心的關係也不錯……",
 					flag = 1
 				}
 			}
@@ -418,7 +418,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47没有再多说什么，全身心投入了阅读之中。",
+			say = "U-47沒有再多說什麼，全身心投入了閱讀之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "虽然没有发生什么特别的事，但总感觉这个静谧的房间中似乎比刚才更加温暖了。",
+			say = "雖然沒有發生什麼特別的事，但總感覺這個靜謐的房間中似乎比剛才更加溫暖了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

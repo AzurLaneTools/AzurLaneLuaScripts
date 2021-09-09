@@ -240,10 +240,8 @@ function slot0.removeTaskById(slot0, slot1)
 end
 
 function slot0.getmingshiTaskID(slot0, slot1)
-	for slot6, slot7 in pairs(pg.task_data_trigger[mingshiTriggerId].args) do
-		if slot7[1] <= slot1 and slot7[2] and not slot0:getTaskVO(slot8) then
-			return slot8
-		end
+	if pg.task_data_trigger[mingshiTriggerId].count <= slot1 and slot2.task_id and not slot0:getTaskVO(slot4) then
+		return slot4
 	end
 
 	return 0

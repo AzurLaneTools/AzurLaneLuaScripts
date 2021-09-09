@@ -152,7 +152,7 @@ function slot0.LoadShip(slot0, slot1, slot2, slot3, slot4)
 			uv0.seaAnimator:SetAction(uv0.characterAction, 0, true)
 
 			slot2 = cloneTplTo(uv0.nameTF, slot0)
-			slot2.localPosition = Vector3(0, -0.35, 0)
+			slot2.localPosition = Vector3(0, -0.35, -1)
 
 			setText(slot2:Find("Text"), uv2)
 
@@ -257,7 +257,7 @@ function slot0.PlayOtherShipAnim(slot0, slot1, slot2)
 		slot2.transform:GetComponent("SpineAnim"):SetAction(ys.Battle.BattleConst.ActionName.MOVE, 0, true)
 
 		slot6 = cloneTplTo(uv0.nameTF, slot2)
-		slot6.localPosition = Vector3(0, -0.35, 0)
+		slot6.localPosition = Vector3(0, -0.35, -1)
 
 		setText(slot6:Find("Text"), slot0.name)
 

@@ -2,7 +2,7 @@ pg = pg or {}
 slot0 = pg
 slot0.IPAddress = class("IPAddress")
 slot1 = slot0.IPAddress
-slot2 = {}
+slot2 = "https://www.azurlane.tw/getip"
 slot3 = {
 	{
 		"202.39.128.0",
@@ -109,15 +109,14 @@ slot3 = {
 function slot1.Ctor(slot0)
 	slot0:ConvertIPRange()
 
-	slot0.requestUrl = uv0[PLATFORM_CODE]
+	slot0.requestUrl = uv0
 
 	if not Application.isEditor then
 		VersionMgr.Inst:WebRequest(slot0.requestUrl, function (slot0, slot1)
 			uv0.exportIP = slot1
+			uv0.isSpecialIP = uv0:CheckExportIP()
 		end)
 	end
-
-	slot0.isSpecialIP = slot0:CheckExportIP()
 end
 
 function slot1.IsIPString(slot0, slot1)

@@ -1,5 +1,117 @@
 pg = pg or {}
 pg.ship_skin_template_6 = {
+	[201232] = {
+		ship_group = 20123,
+		name = "白衣小惡魔",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201232,
+		group_index = 2,
+		aircraft_skin = "",
+		painting = "xixuegui_3",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xixuegui_3",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官，現在的人家是護士，所以人家要汝獻出血液，汝就不能反抗喲~嘻嘻，開玩笑的",
+		voice_actor = 89,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.892,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.913,
+					0.697,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.059,
+					0.051,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.854,
+					0.623,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.31,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
 	[201233] = {
 		ship_group = 20123,
 		name = "夜姬的正裝?",
@@ -6070,118 +6182,6 @@ pg.ship_skin_template_6 = {
 						{
 							-0.22,
 							2.4,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202199] = {
-		ship_group = 20219,
-		name = "紐卡斯爾.改",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 202199,
-		group_index = 9,
-		aircraft_skin = "",
-		painting = "niukasier_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "niukasier_g",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "這就是新的制服了，您還滿意嗎？ ……真是的，看到您那麼開心的樣子，不禁連我也稍稍有些興奮起來了。",
-		voice_actor = 150,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.256,
-					0.914,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.238,
-					0.887,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.13,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.264,
-					0.914,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.383,
-							2.486,
 							0
 						}
 					}

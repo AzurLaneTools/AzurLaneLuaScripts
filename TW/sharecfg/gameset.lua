@@ -1445,16 +1445,6 @@ pg.gameset = {
 		description = "",
 		key_value = 600
 	},
-	gardroad_count = {
-		key_value = 1,
-		description = {
-			{
-				20010,
-				20011,
-				20012
-			}
-		}
-	},
 	reactivity_time = {
 		description = "",
 		key_value = 900

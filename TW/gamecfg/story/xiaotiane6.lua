@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			actorName = "皇家方舟&小天鵝",
-			say = "誒？！！！",
+			say = "欸？！！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,

@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "誒？！不、不對，事情不是妳們想的那樣——",
+			say = "欸？！不、不對，事情不是妳們想的那樣——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

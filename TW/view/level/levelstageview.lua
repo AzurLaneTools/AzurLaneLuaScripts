@@ -1398,14 +1398,18 @@ function slot0.tryAutoAction(slot0, slot1)
 			slot0()
 		end,
 		function (slot0)
-			if uv0 then
-				uv0()
+			if uv0.exited then
+				return
 			end
 
-			uv1.doingAutoAction = nil
+			if uv1 then
+				uv1()
+			end
+
+			uv0.doingAutoAction = nil
 
 			if uv2 then
-				uv1:TryEnterChapterStoryStage()
+				uv0:TryEnterChapterStoryStage()
 			end
 		end
 	})
@@ -1458,28 +1462,16 @@ function slot0.TryEnterChapterStoryStage(slot0)
 			slot2 = uv0:getConfig("story_refresh") and slot1[uv1]
 
 			if slot2 and type(slot2) == "number" and not pg.NewStoryMgr.GetInstance():IsPlayed(pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot2)) then
-				uv2:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2, function ()
-					pg.m02:sendNotification(GAME.STORY_UPDATE, {
-						storyId = uv0
-					})
-					uv1()
-				end)
-
-				return
+				uv2:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2, slot0)
+			else
+				slot0()
 			end
-
-			slot0()
 		end,
 		function (slot0)
 			if uv0:getConfig("story_refresh_boss") and slot1 ~= "" and type(slot1) == "number" and uv0:bossRefreshed() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
-				uv1:emit(LevelMediator2.ON_PERFORM_COMBAT, slot1, function ()
-					pg.m02:sendNotification(GAME.STORY_UPDATE, {
-						storyId = uv0
-					})
-					uv1()
-				end)
-
-				return
+				uv1:emit(LevelMediator2.ON_PERFORM_COMBAT, slot1, slot0)
+			else
+				slot0()
 			end
 		end
 	})

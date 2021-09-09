@@ -129,19 +129,19 @@ pg.activity_shop_extra = {
 	},
 	[11] = {
 		commodity_type = 7,
-		activity = 40016,
+		activity = 40399,
 		commodity_id = 201101,
 		scene = "",
 		id = 11,
 		num = 1,
 		num_limit = 1,
-		order = 1,
+		order = 800,
 		time = {
 			{
 				{
-					2019,
-					10,
-					24
+					2021,
+					9,
+					9
 				},
 				{
 					0,
@@ -151,9 +151,9 @@ pg.activity_shop_extra = {
 			},
 			{
 				{
-					2019,
-					11,
-					14
+					2021,
+					9,
+					23
 				},
 				{
 					23,

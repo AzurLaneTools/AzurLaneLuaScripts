@@ -3072,93 +3072,195 @@ pg.activity_ins_template = {
 	[235] = {
 		ship_group = 1070004,
 		name = "Azusa_Miura",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_235",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_235.png",
+		is_active = 0,
 		sculpture = "zi",
 		id = 235,
 		group_id = 235,
 		order = 5,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				8,
+				26
+			},
+			{
+				13,
+				40,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2066,
+			2070
+		}
 	},
 	[236] = {
 		ship_group = 1070001,
 		name = "Haruka_Amami",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_236",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_236.png",
+		is_active = 0,
 		sculpture = "chunxiang",
 		id = 236,
 		group_id = 236,
 		order = 5,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				8,
+				27
+			},
+			{
+				10,
+				25,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2077,
+			2080,
+			2082
+		}
 	},
 	[237] = {
 		ship_group = 1070002,
 		name = "Chihaya_Kisaragi",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_237",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_237.png",
+		is_active = 0,
 		sculpture = "qianzao",
 		id = 237,
 		group_id = 237,
 		order = 5,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				8,
+				28
+			},
+			{
+				15,
+				33,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2090,
+			2092,
+			2094,
+			2097
+		}
 	},
 	[238] = {
 		ship_group = 1070003,
 		name = "Iori_Minase",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_238",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_238.png",
+		is_active = 0,
 		sculpture = "yizhi",
 		id = 238,
 		group_id = 238,
 		order = 5,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				8,
+				29
+			},
+			{
+				12,
+				14,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2102,
+			2105
+		}
 	},
 	[239] = {
 		ship_group = 1070005,
 		name = "Ritsuko_Akizuki",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_239",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_239.png",
+		is_active = 0,
 		sculpture = "lvzi",
 		id = 239,
 		group_id = 239,
 		order = 5,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				8,
+				30
+			},
+			{
+				16,
+				8,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2112,
+			2115,
+			2117
+		}
 	},
 	[240] = {
 		ship_group = 1070006,
 		name = "Ami_Futami",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_240",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_240.png",
+		is_active = 0,
 		sculpture = "yamei",
 		id = 240,
 		group_id = 240,
 		order = 5,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				8,
+				31
+			},
+			{
+				10,
+				26,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2122,
+			2125
+		}
 	},
 	[241] = {
 		ship_group = 1070007,
 		name = "Mami_Futami",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_241",
+		picture_persist = "https://blhxstatic-azurlane-tw.oss-ap-southeast-1.aliyuncs.com/pics/ins_241.png",
+		is_active = 0,
 		sculpture = "zhenmei",
 		id = 241,
 		group_id = 241,
 		order = 5,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2021,
+				9,
+				1
+			},
+			{
+				14,
+				52,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2131,
+			2134
+		}
 	},
 	all = {
 		1,

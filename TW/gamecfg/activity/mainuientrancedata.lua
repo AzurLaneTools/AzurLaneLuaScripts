@@ -66,13 +66,18 @@ return {
 		end
 	},
 	{
-		ButtonName = "activity_escort",
+		Tip = "tip",
 		Image = "event_escort",
+		ButtonName = "activity_escort",
 		UpdateButton = function (slot0, slot1)
-			setActive(slot1, OPEN_ESCORT)
-			onButton(slot0, slot1, function ()
-				uv0:emit(MainUIMediator.OPEN_ESCORT)
-			end, SFX_PANEL)
+			setActive(slot1, getProxy(ChapterProxy):getMaxEscortChallengeTimes() > 0)
+
+			if slot3 > 0 then
+				setActive(slot1:Find("Tip"), slot2.escortChallengeTimes < slot3)
+				onButton(slot0, slot1, function ()
+					uv0:emit(MainUIMediator.OPEN_ESCORT)
+				end, SFX_PANEL)
+			end
 		end
 	},
 	{
@@ -416,7 +421,7 @@ return {
 		ButtonName = "activity_IMasLink",
 		Tip = "tip",
 		UpdateButton = function (slot0, slot1)
-			slot4 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot3:isEnd()
+			slot4 = getProxy(ActivityProxy):getActivityById(pg.activity_const.IDOL_MASTER_CHAPTER_ID.act_id) and not slot3:isEnd()
 
 			setActive(slot1, slot4)
 

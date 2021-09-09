@@ -65,7 +65,7 @@ function slot0.GetCacheShips(slot0)
 
 	if string.split(PlayerPrefs.GetString(uv0.CacheKey .. getProxy(PlayerProxy):getRawData().id), "|") and #slot2 > 0 and (#slot2 ~= 1 or slot2[1] ~= "") then
 		for slot7, slot8 in ipairs(slot2) do
-			if pg.ShipFlagMgr.GetInstance():GetShipFlag(tonumber(slot8), "inWorld") then
+			if getProxy(BayProxy):getShipById(tonumber(slot8)) then
 				table.insert(slot3, slot9)
 			end
 		end
@@ -294,6 +294,12 @@ function slot0.ClearRank(slot0, slot1)
 end
 
 function slot0.GetFleet(slot0)
+	for slot4 = #slot0.fleet.ships, 1, -1 do
+		if not getProxy(BayProxy):getShipById(slot0.fleet.ships[slot4]) then
+			slot0.fleet:removeShipById(slot5)
+		end
+	end
+
 	return slot0.fleet
 end
 
