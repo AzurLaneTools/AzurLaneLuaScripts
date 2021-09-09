@@ -53083,6 +53083,263 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	},
+	[18200] = {
+		desc_get = "",
+		name = "Mizuho's Intuition+",
+		id = 18200,
+		type = 2,
+		max_level = 10,
+		desc = "Every 20s: $1 chance to increase this ship's EVA by $2, Accuracy by $3, and decrease this ship's torpedo DMG taken by $4 for 12s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"20.0%",
+				"50.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.3%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[18210] = {
+		desc_get = "",
+		name = "Special Gunnery Training+",
+		id = 18210,
+		type = 1,
+		max_level = 10,
+		desc = "Fires a special barrage that Burns enemies once every 8 times this ship fires her Main Guns. While equipping a Large-Caliber Main Gun: increases this ship's Main Gun efficiency by $1, lowers the number of shots needed to fire the barrage to 4, and improves the barrage.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
 	[18250] = {
 		desc_get = "",
 		name = "Emotion Inhibition Module+",
@@ -55339,7 +55596,7 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		id = 19210,
 		type = 1,
 		max_level = 10,
-		desc = "Fires a special barrage once every 8 times this ship fires its Main Guns. While equipping the Prototype Triple 310mm Main Gun (Type 0): increases this ship's Main Gun efficiency by $1, lowers the number of shots needed to fire the barrage to 4, and improves the barrage.",
+		desc = "Fires a special barrage once every 8 times this ship fires her Main Guns. While equipping the Prototype Triple 310mm Main Gun (Type 0): increases this ship's Main Gun efficiency by $1, lowers the number of shots needed to fire the barrage to 4, and improves the barrage.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -71143,6 +71400,280 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800130] = {
+		desc_get = "",
+		name = "Akatan of Blossoming Flame",
+		id = 800130,
+		type = 1,
+		max_level = 10,
+		desc = "10s after the battle starts, and every 20s after that: fires a $1 special barrage that inflicts a unique Burn ailment (lasts 6s) to enemies (Burn deals 521 DMG per tick; 1 tick occurs every 3s; barrage DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800140] = {
+		desc_get = "",
+		name = "Aotan of Shadow-Sealing",
+		id = 800140,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship launches an Airstrike: launches an additional $1 airstrike and executes a $1 slashing attack which inflicts a unique Flooding ailment (Flooding DMG is based on this ship's AVI stat and the skill's level; special airstrike and slashing attack DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800150] = {
+		desc_get = "",
+		name = "Cards of Beast and Butterfly",
+		id = 800150,
+		type = 3,
+		max_level = 10,
+		desc = "When sortied with any incarnation of Hiryuu, or when this ship has Sakura Empire aircraft equipped: increases this ship's AVI by $1. When a ship in your Vanguard fires her Torpedoes: $2 chance to increase this ship's DMG dealt by 20.0% for 5s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"20.0%",
+				"50.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			}
+		}
+	},
+	[800161] = {
+		desc_get = "",
+		name = "Flickering Light - Souryuu I",
+		id = 800161,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nIncreases this ship's Accuracy by 3.0%. When fighting humanoid Siren fleets or Boss fleets: further increases this ship's Accuracy and AVI by 3.0%.",
+		system_transform = {
+			[51.0] = 800165
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800162] = {
+		desc_get = "",
+		name = "Flickering Light - Souryuu II",
+		id = 800162,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nIncreases this ship's Accuracy by 5.0%. When fighting humanoid Siren fleets or Boss fleets: further increases this ship's Accuracy and AVI by 5.0%.",
+		system_transform = {
+			[51.0] = 800167
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800165] = {
+		desc_get = "",
+		name = "Flickering Light - Souryuu I",
+		id = 800165,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nIncreases this ship's Accuracy by 3.0%. When fighting humanoid Siren fleets or Boss fleets: further increases this ship's Accuracy and AVI by 3.0%.",
+		system_transform = {
+			[51.0] = 800165
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800167] = {
+		desc_get = "",
+		name = "Flickering Light - Souryuu II",
+		id = 800167,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nIncreases this ship's Accuracy by 5.0%. When fighting humanoid Siren fleets or Boss fleets: further increases this ship's Accuracy and AVI by 5.0%.",
+		system_transform = {
+			[51.0] = 800167
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		1,
 		2,
@@ -71893,6 +72424,8 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		18130,
 		18150,
 		18180,
+		18200,
+		18210,
 		18250,
 		18270,
 		18320,
@@ -72396,6 +72929,13 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		800121,
 		800122,
 		800125,
-		800127
+		800127,
+		800130,
+		800140,
+		800150,
+		800161,
+		800162,
+		800165,
+		800167
 	}
 }

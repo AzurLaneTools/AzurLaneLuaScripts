@@ -4080,6 +4080,30 @@ pg.skill_data_display = {
 		id = 18181,
 		name = "Kitakaze Style - Lotus Torpedoes+ "
 	},
+	[18200] = {
+		id = 18200,
+		name = "Mizuho's Intuition+"
+	},
+	[18210] = {
+		id = 18210,
+		name = "Special Gunnery Training+ "
+	},
+	[18211] = {
+		id = 18211,
+		name = "Special Gunnery Training+ "
+	},
+	[18212] = {
+		id = 18212,
+		name = "Special Gunnery Training+ "
+	},
+	[18213] = {
+		id = 18213,
+		name = "Special Gunnery Training+ "
+	},
+	[18214] = {
+		id = 18214,
+		name = "Special Gunnery Training+ "
+	},
 	[18250] = {
 		id = 18250,
 		name = "Emotion Inhibition Module+ "
@@ -6464,6 +6488,62 @@ pg.skill_data_display = {
 		id = 800127,
 		name = "Ashen Might - Helena II"
 	},
+	[800130] = {
+		id = 800130,
+		name = "Akatan of Blossoming Flame "
+	},
+	[800131] = {
+		id = 800131,
+		name = "Akatan of Blossoming Flame "
+	},
+	[800132] = {
+		id = 800132,
+		name = "Akatan of Blossoming Flame "
+	},
+	[800140] = {
+		id = 800140,
+		name = "Aotan of Shadow-Sealing "
+	},
+	[800141] = {
+		id = 800141,
+		name = "Aotan of Shadow-Sealing "
+	},
+	[800142] = {
+		id = 800142,
+		name = "Aotan of Shadow-Sealing "
+	},
+	[800150] = {
+		id = 800150,
+		name = "Cards of Beast and Butterfly "
+	},
+	[800151] = {
+		id = 800151,
+		name = "Cards of Beast and Butterfly "
+	},
+	[800152] = {
+		id = 800152,
+		name = "Cards of Beast and Butterfly "
+	},
+	[800153] = {
+		id = 800153,
+		name = "Cards of Beast and Butterfly "
+	},
+	[800161] = {
+		id = 800161,
+		name = "Flickering Light - Souryuu I "
+	},
+	[800162] = {
+		id = 800162,
+		name = "Flickering Light - Souryuu II"
+	},
+	[800165] = {
+		id = 800165,
+		name = "Flickering Light - Souryuu I "
+	},
+	[800167] = {
+		id = 800167,
+		name = "Flickering Light - Souryuu II"
+	},
 	all = {
 		4,
 		10,
@@ -7485,6 +7565,12 @@ pg.skill_data_display = {
 		18150,
 		18180,
 		18181,
+		18200,
+		18210,
+		18211,
+		18212,
+		18213,
+		18214,
 		18250,
 		18252,
 		18270,
@@ -8080,6 +8166,20 @@ pg.skill_data_display = {
 		800121,
 		800122,
 		800125,
-		800127
+		800127,
+		800130,
+		800131,
+		800132,
+		800140,
+		800141,
+		800142,
+		800150,
+		800151,
+		800152,
+		800153,
+		800161,
+		800162,
+		800165,
+		800167
 	}
 }

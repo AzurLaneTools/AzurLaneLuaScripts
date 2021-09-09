@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 900136,
 			actorName = "Recorded Voice",
-			say = "<The ships are KAN-SEN belonging to the Frontline division.>",
+			say = "<The ships are KAN-SEN belonging to the Revolutionary Front.>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#ffff4d",
 			bgName = "bg_cccpv2_7",
 			dir = 1,
-			say = "What is the Frontline division?",
+			say = "What is the Revolutionary Front?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -520,6 +520,11 @@ pg.player_resource = {
 		name = "xiaotiancheng_pt",
 		itemid = 59211
 	},
+	[199] = {
+		id = 199,
+		name = "newmeixiv4framept",
+		itemid = 59212
+	},
 	[200] = {
 		id = 200,
 		name = "xiongxiaobai_pt",
@@ -550,11 +555,6 @@ pg.player_resource = {
 		name = "duihuanquan_pt",
 		itemid = 59219
 	},
-	[199] = {
-		id = 199,
-		name = "newmeixiv4framept",
-		itemid = 59212
-	},
 	[206] = {
 		id = 206,
 		name = "xunliandianshu_r2",
@@ -564,16 +564,6 @@ pg.player_resource = {
 		id = 207,
 		name = "TWkaifuPT1",
 		itemid = 59222
-	},
-	[215] = {
-		id = 215,
-		name = "idolMasterPT",
-		itemid = 59230
-	},
-	[216] = {
-		id = 216,
-		name = "skinTicket20",
-		itemid = 59231
 	},
 	[208] = {
 		id = 208,
@@ -590,6 +580,16 @@ pg.player_resource = {
 		name = "meixiv3_pt2",
 		itemid = 59229
 	},
+	[215] = {
+		id = 215,
+		name = "idolMasterPT",
+		itemid = 59230
+	},
+	[216] = {
+		id = 216,
+		name = "skinTicket20",
+		itemid = 59231
+	},
 	[217] = {
 		id = 217,
 		name = "xunliandianshu_v3_2",
@@ -599,6 +599,11 @@ pg.player_resource = {
 		id = 218,
 		name = "skinTicket21",
 		itemid = 59233
+	},
+	[219] = {
+		id = 219,
+		name = "daofeng_pt",
+		itemid = 59234
 	},
 	[950] = {
 		id = 950,
@@ -719,6 +724,11 @@ pg.player_resource = {
 		id = 40275,
 		name = "Twouxiang_pt",
 		itemid = 59143
+	},
+	[3005] = {
+		id = 3005,
+		name = "synchronize_canglong",
+		itemid = 21904
 	},
 	get_id_list_by_name = {
 		gold = {
@@ -1033,6 +1043,9 @@ pg.player_resource = {
 		xiaotiancheng_pt = {
 			198
 		},
+		newmeixiv4framept = {
+			199
+		},
 		xiongxiaobai_pt = {
 			200
 		},
@@ -1051,20 +1064,11 @@ pg.player_resource = {
 		duihuanquan_pt = {
 			205
 		},
-		newmeixiv4framept = {
-			199
-		},
 		xunliandianshu_r2 = {
 			206
 		},
 		TWkaifuPT1 = {
 			207
-		},
-		idolMasterPT = {
-			215
-		},
-		skinTicket20 = {
-			216
 		},
 		xinrixi_pt2 = {
 			208
@@ -1075,11 +1079,20 @@ pg.player_resource = {
 		meixiv3_pt2 = {
 			211
 		},
+		idolMasterPT = {
+			215
+		},
+		skinTicket20 = {
+			216
+		},
 		xunliandianshu_v3_2 = {
 			217
 		},
 		skinTicket21 = {
 			218
+		},
+		daofeng_pt = {
+			219
 		},
 		yisegefuke_pt1 = {
 			950
@@ -1152,6 +1165,9 @@ pg.player_resource = {
 		},
 		Twouxiang_pt = {
 			40275
+		},
+		synchronize_canglong = {
+			3005
 		}
 	},
 	all = {
@@ -1259,22 +1275,23 @@ pg.player_resource = {
 		196,
 		197,
 		198,
+		199,
 		200,
 		201,
 		202,
 		203,
 		204,
 		205,
-		199,
 		206,
 		207,
-		215,
-		216,
 		208,
 		209,
 		211,
+		215,
+		216,
 		217,
 		218,
+		219,
 		950,
 		951,
 		952,
@@ -1298,6 +1315,7 @@ pg.player_resource = {
 		3000,
 		2008,
 		2009,
-		40275
+		40275,
+		3005
 	}
 }

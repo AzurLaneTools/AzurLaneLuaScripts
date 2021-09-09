@@ -16995,6 +16995,17 @@ pg.memory_template = {
 		icon = "memory_kasabulanka",
 		is_open = 0
 	},
+	[1798] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Azuma's New Journey",
+		condition = "Get Azuma to Dev. Level 30.",
+		story = "LUCK39904",
+		id = 1798,
+		icon = "memory_wuqi",
+		is_open = 0
+	},
 	[10011] = {
 		type = 1,
 		subtitle = "",
@@ -19168,6 +19179,7 @@ pg.memory_template = {
 		1795,
 		1796,
 		1797,
+		1798,
 		10011,
 		10012,
 		10013,

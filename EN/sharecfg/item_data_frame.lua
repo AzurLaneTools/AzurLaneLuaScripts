@@ -279,6 +279,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>The indomitable Black Dragon of the Eagle Union has arrived! Together, let us shake the foundations of this world!</color>  Obtained from the \"Mirror involution\" event.",
 		scene = {}
 	},
+	[316] = {
+		time_limit_type = 0,
+		name = "Ryugu's Acknowledgment",
+		gain_by = "",
+		id = 316,
+		time_second = 0,
+		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "Manjuu Pizzeria Frame ",
@@ -320,6 +329,7 @@ pg.item_data_frame = {
 		313,
 		314,
 		315,
+		316,
 		501
 	}
 }

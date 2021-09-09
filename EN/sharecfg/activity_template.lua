@@ -3064,7 +3064,7 @@ pg.activity_template = {
 		type = 57,
 		login_pop = 0,
 		config_id = 22,
-		is_show = 13,
+		is_show = 11,
 		config_data = "0",
 		time = {
 			timer,
@@ -3133,6 +3133,331 @@ pg.activity_template = {
 				206,
 				1
 			}
+		}
+	},
+	[4095] = {
+		mark = 20210909,
+		config_client = "",
+		title_res_tag = "Wuqitianyun",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		id = 4095,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "WuQiFittingDisplayPage",
+			ui_name = "WuQiFittingDisplayPage"
+		}
+	},
+	[4096] = {
+		mark = 20210909,
+		id = 4096,
+		title_res_tag = "Neptune_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 13,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AzumaTecCatchupPage",
+			ui_name = "AzumaTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42014
+		}
+	},
+	[4097] = {
+		mark = 20210909,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 14,
+		is_show = 0,
+		config_client = "",
+		id = 4097,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4098] = {
+		mark = 20210909,
+		id = 4098,
+		title_res_tag = "JapanV2_frame",
+		type = 74,
+		login_pop = 0,
+		config_id = 4098,
+		is_show = 12,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JapanV2framePage",
+			ui_name = "JapanV2framePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4099] = {
+		mark = 20210909,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4099,
+		config_data = {
+			16888,
+			16889,
+			16890,
+			16891,
+			16892,
+			16893,
+			16894,
+			16895,
+			16896,
+			16897
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4100] = {
+		mark = 20210909,
+		title_res_tag = "",
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 4100,
+		is_show = 0,
+		config_client = "",
+		id = 4100,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4101] = {
+		mark = 20210909,
+		title_res_tag = "",
+		page_info = "",
+		type = 34,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4101,
+		config_data = {
+			4
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 970703
 		}
 	},
 	[1011] = {
@@ -20181,6 +20506,13 @@ pg.activity_template = {
 		4088,
 		4089,
 		4093,
+		4095,
+		4096,
+		4097,
+		4098,
+		4099,
+		4100,
+		4101,
 		1011,
 		1012,
 		1013,

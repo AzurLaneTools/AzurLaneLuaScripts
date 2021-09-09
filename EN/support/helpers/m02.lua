@@ -937,12 +937,6 @@ function updateDrop(slot0, slot1, slot2)
 			"icon_bg/slv"
 		},
 		{
-			"icon_bg/IconColorful(Clone)"
-		},
-		{
-			"icon_bg/Item_duang5(Clone)"
-		},
-		{
 			"icon_bg/frame/specialFrame"
 		},
 		{
@@ -1207,6 +1201,8 @@ function getDropRarity(slot0)
 		slot1 = 1
 	elseif slot2 == DROP_TYPE_SKIN then
 		slot1 = 5
+	elseif slot2 == DROP_TYPE_VITEM then
+		slot1 = pg.item_data_statistics[slot0.id].rarity + 1
 	elseif slot2 == DROP_TYPE_WORLD_ITEM then
 		slot1 = pg.world_item_data_template[slot0.id].rarity
 	end

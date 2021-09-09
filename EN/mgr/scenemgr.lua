@@ -191,5 +191,13 @@ function slot1.gc(slot0, slot1)
 
 	slot1.exited = true
 
-	gcAll()
+	if PLATFORM_CODE == PLATFORM_CH then
+		if slot1:getUIName() == "LevelMainScene" then
+			gcAll(true)
+		elseif slot2 ~= "CombatLoadUI" then
+			gcAll()
+		end
+	else
+		gcAll()
+	end
 end

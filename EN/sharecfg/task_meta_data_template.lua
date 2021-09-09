@@ -176,6 +176,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[116] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "Win 1 battle with Souryuu META in your fleet.",
+		id = 116,
+		target_num = 1,
+		target_id = "0"
+	},
+	[117] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Souryuu META in your fleet.",
+		id = 117,
+		target_num = 1,
+		target_id = "30"
+	},
+	[118] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Souryuu META in your fleet.",
+		id = 118,
+		target_num = 1,
+		target_id = "55"
+	},
+	[119] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Souryuu META in your fleet.",
+		id = 119,
+		target_num = 1,
+		target_id = "80"
+	},
+	[120] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Souryuu META in your fleet.",
+		id = 120,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -272,6 +312,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[212] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Souryuu META in your fleet.",
+		id = 212,
+		target_num = 1,
+		target_id = "0"
+	},
+	[213] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Souryuu META in your fleet.",
+		id = 213,
+		target_num = 1,
+		target_id = "70"
+	},
+	[214] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Souryuu META in your fleet.",
+		id = 214,
+		target_num = 1,
+		target_id = "90"
+	},
+	[215] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Souryuu META in your fleet.",
+		id = 215,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -311,6 +383,11 @@ pg.task_meta_data_template = {
 		113,
 		114,
 		115,
+		116,
+		117,
+		118,
+		119,
+		120,
 		200,
 		201,
 		202,
@@ -323,6 +400,10 @@ pg.task_meta_data_template = {
 		209,
 		210,
 		211,
+		212,
+		213,
+		214,
+		215,
 		301,
 		302
 	}

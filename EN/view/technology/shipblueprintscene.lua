@@ -1126,11 +1126,8 @@ function slot0.updateFittingPanel(slot0)
 		end, SFX_PANEL)
 	end
 
-	slot8(slot6)
 	setText(slot0.fittingAttrPanel:Find("attr/name"), AttributeType.Type2Name(AttributeType.Luck))
 	setText(slot0.fittingPanel:Find("desc/top/text/Text"), i18n("fate_phase_word"))
-	GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_" .. slot1.id, "", slot0.fittingAttrPanel:Find("phase_5/off/icon_off"), true)
-	GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_on_" .. slot1.id, "", slot0.fittingAttrPanel:Find("phase_5/on/icon_on"), true)
 	onButton(slot0, slot0.fittingCancelBtn, function ()
 		uv0:switchUI(0.3, false, false, function ()
 			setActive(uv0.modPanel, true)
@@ -1152,7 +1149,9 @@ function slot0.updateFittingPanel(slot0)
 		uv3(uv2)
 	end, nil, true, true, 0.1, SFX_PANEL)
 
-	function slot12(slot0)
+	slot16 = 0.1
+
+	pressPersistTrigger(slot0.fittingCalcMaxBtn, 0.5, function (slot0)
 		if uv0:inModAnim() or uv1:isMaxFateLevel() then
 			if slot0 then
 				slot0()
@@ -1184,15 +1183,82 @@ function slot0.updateFittingPanel(slot0)
 		uv2 = math.max(math.min(uv2 + 1, uv4), 0)
 
 		uv5(uv2)
-	end
+	end, nil, true, true, slot16, SFX_PANEL)
+	setActive(slot0.fittingAttrPanel:Find("phase_panel"):Find("phase_tpl"), false)
 
-	pressPersistTrigger(slot0.fittingCalcMaxBtn, 0.5, slot12, nil, true, true, 0.1, SFX_PANEL)
+	slot11 = {
+		0,
+		-60,
+		0,
+		60
+	}
+	slot12 = {}
 
-	for slot12 = 1, slot1:getMaxFateLevel() do
-		onButton(slot0, slot0:findTF("phase_" .. slot12, slot0.fittingAttrPanel), function ()
+	for slot16 = 1, slot1:getMaxFateLevel() do
+		slot17 = slot9:Find("phase_" .. slot16) or cloneTplTo(slot10, slot9, "phase_" .. slot16)
+		slot20 = nil
+
+		for slot24, slot25 in ipairs(slot1:getFateStrengthenConfig(slot16).special_effect) do
+			if slot25[1] == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
+				slot20 = slot25[2][2]
+
+				break
+			end
+		end
+
+		for slot24, slot25 in ipairs({
+			"off",
+			"on"
+		}) do
+			setActive(slot17:Find(slot25 .. "/icon"), not slot20)
+			setActive(slot17:Find(slot25 .. "/skill"), slot20)
+			setActive(slot17:Find(slot25 .. "/icon/line"), slot11[slot16])
+			setActive(slot17:Find(slot25 .. "/skill/line"), slot11[slot16])
+
+			if slot11[slot16] then
+				slot17:Find(slot25 .. "/icon/line").localEulerAngles = Vector3(0, 0, slot11[slot16])
+				slot17:Find(slot25 .. "/skill/line").localEulerAngles = Vector3(0, 0, slot11[slot16])
+
+				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", slot16 .. "_" .. slot25, slot17:Find(slot25 .. "/icon/icon"), true)
+			end
+		end
+
+		if slot20 then
+			GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_" .. slot20, "", slot17:Find("off/skill/icon"), true)
+			GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_on_" .. slot20, "", slot17:Find("on/skill/icon"), true)
+
+			slot12[slot16] = 55
+		else
+			slot12[slot16] = 40
+		end
+
+		onButton(slot0, slot17, function ()
 			uv0:showFittingMsgPanel(uv1)
 		end, SFX_PANEL)
 	end
+
+	slot13 = Vector2.zero
+	slot14 = Vector2.zero
+	slot15 = Vector2.zero
+
+	for slot19 = 1, slot1:getMaxFateLevel() do
+		setAnchoredPosition(slot9:Find("phase_" .. slot19), slot13)
+
+		slot14.x = math.min(slot14.x, slot13.x)
+		slot14.y = math.min(slot14.y, slot13.y)
+		slot15.x = math.max(slot15.x, slot13.x)
+		slot15.y = math.max(slot15.y, slot13.y)
+
+		if slot11[slot19] then
+			slot13 = slot13 + (slot12[slot19] + slot12[slot19 + 1]) * Vector2(math.cos(math.pi * slot11[slot19] / 180), math.sin(math.pi * slot11[slot19] / 180))
+		end
+	end
+
+	setSizeDelta(slot9, slot15 - slot14)
+	setAnchoredPosition(slot9, {
+		y = -slot15.y
+	})
+	slot8(slot6)
 end
 
 function slot0.updateFittingInfo(slot0, slot1)
@@ -1238,7 +1304,7 @@ function slot0.updateFittingAttrPanel(slot0, slot1, slot2)
 	}
 
 	for slot6 = 1, slot1:getMaxFateLevel() do
-		slot7 = slot0:findTF("phase_" .. slot6, slot0.fittingAttrPanel)
+		slot7 = slot0:findTF("phase_panel/phase_" .. slot6, slot0.fittingAttrPanel)
 		slot8 = slot0:findTF("off", slot7)
 		slot9 = slot0:findTF("on", slot7)
 
@@ -1724,10 +1790,10 @@ function slot0.createTask(slot0, slot1)
 			slot3 = 0
 		end
 
-		if slot0.progessSlider.value < slot3 then
-			slot0.itemSliderLT = LeanTween.value(go(slot0.progressTF), slot0.progessSlider.value, slot3, 0.5):setOnUpdate(System.Action_float(function (slot0)
+		if slot3 > 0 then
+			slot0.itemSliderLT = LeanTween.value(go(slot0.progressTF), 0, math.min(slot3, 1), 0.5 * math.min(slot3, 1)):setOnUpdate(System.Action_float(function (slot0)
 				uv0.progessSlider.value = slot0
-			end))
+			end)).uniqueId
 		else
 			slot0.progessSlider.value = slot3
 		end
@@ -1739,19 +1805,15 @@ function slot0.createTask(slot0, slot1)
 	end
 
 	function slot2.addTimer(slot0, slot1, slot2)
-		function slot3()
-			uv0:clearTimer()
-			setText(uv0.timerTFTxt, "00:00:00")
-			uv0.view:emit(ShipBluePrintMediator.ON_TASK_OPEN, uv1.id)
-		end
-
 		slot0:clearTimer()
 
 		slot0.taskTimer = Timer.New(function ()
 			if uv0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
 				setText(uv1.timerTFTxt, pg.TimeMgr.GetInstance():DescCDTime(slot1))
 			else
-				uv2()
+				uv1:clearTimer()
+				setText(uv1.timerTFTxt, "00:00:00")
+				uv1.view:emit(ShipBluePrintMediator.ON_TASK_OPEN, uv2.id)
 			end
 		end, 1, -1)
 
@@ -1765,16 +1827,16 @@ function slot0.createTask(slot0, slot1)
 
 			slot0.taskTimer = nil
 		end
-
-		if slot0.itemSliderLT then
-			LeanTween.cancel(slot0.itemSliderLT.id)
-
-			slot0.itemSliderLT = nil
-		end
 	end
 
 	function slot2.clear(slot0)
 		slot0:clearTimer()
+
+		if slot0.itemSliderLT then
+			LeanTween.cancel(slot0.itemSliderLT)
+
+			slot0.itemSliderLT = nil
+		end
 	end
 
 	return slot2

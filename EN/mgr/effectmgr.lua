@@ -4,22 +4,15 @@ pg.EffectMgr = slot1
 
 function slot1.Ctor(slot0)
 	slot1 = ys.Battle.BattleResourceManager.GetInstance()
-	slot0.debugFXCounterMap = {}
 	slot0.effectCbMap = setmetatable({}, {
 		__mode = "k"
 	})
 
 	function slot0.commonEffectEvent(slot0)
-		if slot0 == nil and PLATFORM_CODE == PLATFORM_CH then
-			Debugger.LogError("empty effect obj")
-		end
-
-		if uv0.effectCbMap == nil and PLATFORM_CODE == PLATFORM_CH then
-			Debugger.LogError("empty effectCbMap")
-		end
-
 		if uv0.effectCbMap[slot0] == nil and PLATFORM_CODE == PLATFORM_CH then
-			Debugger.LogError("FX MGR: info nil ", slot0.name, ", counter: ", uv0.debugFXCounterMap[slot0.name])
+			uv1:DestroyOb(slot0)
+
+			return
 		end
 
 		if slot1[2] ~= nil then
@@ -27,7 +20,6 @@ function slot1.Ctor(slot0)
 		end
 
 		uv0.effectCbMap[slot0] = nil
-		uv0.debugFXCounterMap[slot0.name] = uv0.debugFXCounterMap[slot0.name] - 1
 
 		if slot1[1] then
 			uv1:DestroyOb(slot0)
@@ -41,7 +33,6 @@ function slot1.ClearBattleEffectMap(slot0)
 	slot0.effectCbMap = setmetatable({}, {
 		__mode = "k"
 	})
-	slot0.debugFXCounterMap = {}
 end
 
 function slot1.CommonEffectEvent(slot0, slot1)
@@ -57,11 +48,6 @@ function slot1.PlayBattleEffect(slot0, slot1, slot2, slot3, slot4, slot5)
 		LuaHelper.SetParticleSpeed(slot1, 1 / Time.timeScale)
 	end
 
-	if slot0.debugFXCounterMap[slot1.name] == nil then
-		slot0.debugFXCounterMap[slot1.name] = 0
-	end
-
-	slot0.debugFXCounterMap[slot1.name] = slot0.debugFXCounterMap[slot1.name] + 1
 	slot0.effectCbMap[slot1] = {
 		slot3,
 		slot4

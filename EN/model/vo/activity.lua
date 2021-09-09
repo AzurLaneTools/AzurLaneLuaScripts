@@ -280,14 +280,11 @@ function slot0.readyToAchieve(slot0)
 			end
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_MINIGAME then
 			slot4 = getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id"))
-			slot1 = slot4:getConfig("reward_need") <= slot4.usedtime and slot4.ultimate == 0
+			slot5 = slot4.usedtime
+			slot1 = slot4.count > 0
 
 			if slot0.id == ActivityConst.MUSIC_FESTIVAL_ID or slot0.id == ActivityConst.MUSIC_FESTIVAL_ID_2 then
 				slot1 = (slot4.count ~= 0 or slot4.usedtime == slot4:getConfig("reward_need")) and slot4.ultimate == 0
-			elseif slot0.id == ActivityConst.MATCH3_PAGE then
-				slot1 = slot4.count > 0
-			elseif slot0.id == ActivityConst.SPRING_FES_MINIGAME_SECOND or slot0.id == ActivityConst.TIANHOU_SKIN_ACT_ID then
-				slot1 = slot1 or slot4.count > 0
 			end
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_TURNTABLE then
 			slot3 = pg.activity_event_turning[slot0:getConfig("config_id")]
