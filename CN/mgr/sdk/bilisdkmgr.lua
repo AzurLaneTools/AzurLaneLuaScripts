@@ -274,5 +274,8 @@ return {
 	end,
 	GetIsPlatform = function ()
 		return uv0.isPlatform
+	end,
+	GameShare = function (slot0, slot1)
+		uv0:ShareWithImage("Azur Lane", slot0, slot1)
 	end
 }

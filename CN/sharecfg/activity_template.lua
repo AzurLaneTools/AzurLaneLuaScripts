@@ -4635,7 +4635,7 @@ pg.activity_template = {
 		type = 57,
 		login_pop = 0,
 		config_id = 22,
-		is_show = 13,
+		is_show = 11,
 		config_data = "0",
 		time = {
 			timer,

@@ -233,16 +233,16 @@ pg.activity_banner = {
 		}
 	},
 	[10] = {
-		param = "海军咖喱|甜咖喱还是辣咖喱，这是一个问题！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "泡面|倒入热水等待五分钟，美味的泡面就完成啦！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		id = 10,
-		pic = "haijungali",
+		pic = "paomian",
 		type = 10,
 		time = {
 			{
 				{
 					2021,
-					8,
-					5
+					9,
+					9
 				},
 				{
 					0,
@@ -253,8 +253,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					8,
-					19
+					9,
+					16
 				},
 				{
 					23,
