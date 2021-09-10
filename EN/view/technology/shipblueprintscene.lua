@@ -1018,16 +1018,15 @@ function slot0.updateModPanel(slot0)
 			uv0.cbTimer:Start()
 		end, SFX_PANEL)
 		slot0:updateFittingPanel()
-
-		if not pg.NewStoryMgr.GetInstance():IsPlayed(slot1:getConfig("luck_story")) then
-			pg.NewStoryMgr.GetInstance():Play(slot10, function ()
-				uv0:buildStartAni("fateStartWindow", function ()
-					uv0(true)
-				end)
+		pg.NewStoryMgr.GetInstance():Play(slot1:getConfig("luck_story"), function (slot0)
+			seriesAsync(slot0 and {
+				function (slot0)
+					uv0:buildStartAni("fateStartWindow", slot0)
+				end
+			} or {}, function ()
+				uv0(true)
 			end)
-		else
-			slot9(true)
-		end
+		end)
 	end
 end
 

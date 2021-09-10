@@ -69,7 +69,7 @@ function slot1.Init(slot0)
 end
 
 function slot1.Share(slot0, slot1, slot2, slot3)
-	if PLATFORM_CODE ~= PLATFORM_JP and PLATFORM_CODE ~= PLATFORM_US and PLATFORM_CODE ~= PLATFORM_KR and (not WBManager.IsSupportShare() or uv0.SdkMgr.GetInstance():GetChannelUID() == "yun") then
+	if PLATFORM_CODE == PLATFORM_CH and LuaHelper.GetCHPackageType() ~= PACKAGE_TYPE_BILI then
 		uv0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持分享功能哦")
 
 		return
@@ -88,39 +88,39 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 	setActive(slot0.panelBlack, slot2 == uv1.PANEL_TYPE_BLACK)
 	setActive(slot0.panelPink, slot2 == uv1.PANEL_TYPE_PINK)
 
-	slot4 = uv0.share_template[slot1]
-	slot5 = getProxy(PlayerProxy):getRawData()
-	slot7 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot6.server or 0]
-	slot10 = slot0.deckTF
-	slot11 = slot0.ANCHORS_TYPE[slot4.deck] or {
+	slot5 = uv0.share_template[slot1]
+	slot6 = getProxy(PlayerProxy):getRawData()
+	slot8 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot7.server or 0]
+	slot11 = slot0.deckTF
+	slot12 = slot0.ANCHORS_TYPE[slot5.deck] or {
 		0.5,
 		0.5,
 		0.5,
 		0.5
 	}
-	slot10.anchorMin = Vector2(slot11[1], slot11[2])
-	slot10.anchorMax = Vector2(slot11[3], slot11[4])
+	slot11.anchorMin = Vector2(slot12[1], slot12[2])
+	slot11.anchorMax = Vector2(slot12[3], slot12[4])
 
-	setText(slot10:Find("name/value"), slot5 and slot5.name or "")
-	setText(slot10:Find("server/value"), slot7 and slot7.name or "")
-	setText(slot10:Find("lv/value"), slot5.level)
+	setText(slot11:Find("name/value"), slot6 and slot6.name or "")
+	setText(slot11:Find("server/value"), slot8 and slot8.name or "")
+	setText(slot11:Find("lv/value"), slot6.level)
 
-	slot10.anchoredPosition3D = Vector3(slot4.qrcode_location[1], slot4.qrcode_location[2], -100)
-	slot10.anchoredPosition = Vector2(slot4.qrcode_location[1], slot4.qrcode_location[2])
+	slot11.anchoredPosition3D = Vector3(slot5.qrcode_location[1], slot5.qrcode_location[2], -100)
+	slot11.anchoredPosition = Vector2(slot5.qrcode_location[1], slot5.qrcode_location[2])
 
-	_.each(slot4.hidden_comps, function (slot0)
+	_.each(slot5.hidden_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and slot1.activeSelf then
 			table.insert(uv0.cacheComps, slot1)
 			slot1:SetActive(false)
 		end
 	end)
-	_.each(slot4.show_comps, function (slot0)
+	_.each(slot5.show_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and not slot1.activeSelf then
 			table.insert(uv0.cacheShowComps, slot1)
 			slot1:SetActive(true)
 		end
 	end)
-	_.each(slot4.move_comps, function (slot0)
+	_.each(slot5.move_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0.path)) then
 			table.insert(uv0.cacheMoveComps, {
 				slot1,
@@ -133,25 +133,29 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 			})
 		end
 	end)
-	SetParent(slot10, GameObject.Find(slot4.camera):GetComponent(typeof(Camera)).transform:GetChild(0), false)
-	slot10:SetAsLastSibling()
+	SetParent(slot11, GameObject.Find(slot5.camera):GetComponent(typeof(Camera)).transform:GetChild(0), false)
+	slot11:SetAsLastSibling()
 
-	slot14 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
+	slot15 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
 
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
-		uv0.SdkMgr.GetInstance():GameShare(slot4.description, slot14:EncodeToJPG(slot14:TakePhoto(slot12)))
+		uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot15:EncodeToJPG(slot15:TakePhoto(slot13)))
 		uv0.UIMgr.GetInstance():LoadingOn()
 		onDelayTick(function ()
 			uv0.UIMgr.GetInstance():LoadingOff()
 		end, 2)
-	elseif slot14:Take(slot12, slot0.screenshot) then
+	elseif PLATFORM_CODE == PLATFORM_CH and slot4 == PACKAGE_TYPE_BILI then
+		if slot15:Take(slot13, slot0.screenshot) then
+			uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot0.screenshot)
+		end
+	elseif slot15:Take(slot13, slot0.screenshot) then
 		print("截图位置: " .. slot0.screenshot)
-		slot0:Show(slot4, slot3)
+		slot0:Show(slot5, slot3)
 	else
 		uv0.TipsMgr.GetInstance():ShowTips("截图失败")
 	end
 
-	SetParent(slot10, slot0.tr, false)
+	SetParent(slot11, slot0.tr, false)
 	_.each(slot0.cacheComps, function (slot0)
 		slot0:SetActive(true)
 	end)
@@ -189,22 +193,10 @@ function slot1.Show(slot0, slot1, slot2)
 		uv0.panel = nil
 	end)
 	onButton(slot0, slot0.panel:Find("main/buttons/weibo"), function ()
-		WBManager.Inst:Share(uv0.description, uv1.screenshot, function (slot0, slot1)
-			if slot0 and slot1 == 0 then
-				uv0.TipsMgr.GetInstance():ShowTips("分享成功")
-			end
-		end)
-		uv3()
+		uv0()
 	end)
 	onButton(slot0, slot0.panel:Find("main/buttons/weixin"), function ()
-		WXManager.Inst:Share(uv0.description, uv1.screenshot, function (slot0, slot1)
-			if slot0 and slot1 == 0 then
-				uv0.TipsMgr.GetInstance():ShowTips("分享成功")
-			elseif slot1 == 99 then
-				uv0.TipsMgr.GetInstance():ShowTips("指挥官，你没有安装微信客户端哦")
-			end
-		end)
-		uv3()
+		uv0()
 	end)
 
 	if PLATFORM_CODE == PLATFORM_KR then
