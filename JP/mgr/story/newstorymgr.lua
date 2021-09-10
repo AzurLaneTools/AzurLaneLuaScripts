@@ -271,9 +271,13 @@ end
 function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 	uv0("Play Story:", slot1)
 
+	slot5 = 1
+
 	if not LoadStory(slot1) then
 		(function (slot0, slot1)
-			if uv0 then
+			uv0 = uv0 - 1
+
+			if uv1 and uv0 == 0 then
 				onNextTick(function ()
 					uv0(uv1, uv2)
 				end)
@@ -288,29 +292,29 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		slot3 = true
 	end
 
-	slot0.storyScript = Story.New(slot6, slot3, slot0.optionSelCodes)
+	slot0.storyScript = Story.New(slot7, slot3, slot0.optionSelCodes)
 
 	if not slot0:CheckState() then
 		uv0("story state error")
-		slot5(false)
+		slot6(false)
 
 		return nil
 	end
 
 	if not slot0.storyScript:CanPlay() then
 		uv0("story cant be played")
-		slot5(false)
+		slot6(false)
 
 		return nil
 	end
 
 	slot0:OnStart()
 
-	slot7 = {}
+	slot8 = {}
 	slot0.currPlayer = nil
 
-	for slot11, slot12 in ipairs(slot0.storyScript.steps) do
-		table.insert(slot7, function (slot0)
+	for slot12, slot13 in ipairs(slot0.storyScript.steps) do
+		table.insert(slot8, function (slot0)
 			slot1 = uv0.players[uv1:GetMode()]
 			uv0.currPlayer = slot1
 
@@ -318,7 +322,7 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		end)
 	end
 
-	seriesAsync(slot7, function ()
+	seriesAsync(slot8, function ()
 		uv0:OnEnd(uv1)
 	end)
 end
