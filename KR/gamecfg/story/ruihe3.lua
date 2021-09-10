@@ -98,7 +98,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "네! 응? 지휘관님, 제 뒤에 숨어서 뭐 하세요?",
+			say = "네! 응? 지휘관, 내 뒤에 숨어서 뭐해?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
-			say = "언니...콜록...{namecode:91}, 지휘관님 귀찮게 하지 말라구요.",
+			say = "언니...콜록...{namecode:91}, 지휘관 귀찮게 하지 말라구요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "지휘관님, {namecode:91}선배 갔어요.",
+			say = "지휘관, 아카기선배 갔어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "{namecode:91}선배가 조금 강경한 면이 있기는 하지만, 방금 지휘관님 반응은 좀 과하지 않아요?",
+			say = "{namecode:91}선배가 조금 강경한 면이 있기는 하지만, 방금 지휘관 반응은 좀 과하지 않았어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

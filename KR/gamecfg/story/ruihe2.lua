@@ -208,7 +208,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:76}",
-			say = "정말요? 덕분에 살았어요.",
+			say = "정말? 덕분에 살았어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "후...이렇게 하면 되겠죠?",
+			say = "후... 이렇게 하면 되겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#92fc63",
-			say = "자주 이렇게 나도 모르는 사이에 이런 저런 부탁을 받아버려요...",
+			say = "자주 이렇게 나도 모르는 사이에 이런 저런 부탁을 받아버려...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
