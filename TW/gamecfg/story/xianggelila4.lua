@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纪行的藏红花\n\n<size=45>四　战术准备·上</size>",
+					"紀行的藏紅花\n\n<size=45>四　戰術準備·上</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "演习前两日",
+			say = "演習前兩日",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = -1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "白鹰宿舍",
+			say = "白鷹宿舍",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 107090,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "诶、这是…要直接找前辈吗？",
+			say = "欸、這是…要直接去找前輩嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要想了解一个人，从她亲近的人开始也算是一种常规手段",
+			say = "要想了解一個人，從她親近的人開始也算是一種常規手段",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说到大黄蜂亲近的人，除了北安普顿，自然就是约克城前辈和企业前辈了",
+			say = "說到大黃蜂親近的人，除了北安普敦，自然就是約克鎮前輩和企業前輩了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位前辈，打扰了。",
+			say = "各位前輩，打擾了。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？埃塞克斯和香格里拉啊，找我有什么事吗？",
+			say = "嗯？艾塞克斯和香格里拉啊，找我有什麼事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事情是这样的——",
+			say = "事情是這樣的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，单刀直入。用最直接的方式调查对手的情报么，不错的想法",
+			say = "原來如此，單刀直入。用最直接的方式調查對手的情報嗎，不錯的想法",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可以的话希望前辈能告诉我",
+			say = "可以的話希望前輩能告訴我",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…这样会不会对大黄蜂不太公平呢——",
+			say = "唔…這樣會不會對大黃蜂不太公平呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟这是一个能够互相了解的好机会，大黄蜂也能借机重新审视自己，有所提高的",
+			say = "我覺得沒問題哦。畢竟這也是一個能夠互相了解的好機會，大黃蜂也能重新審視自己學習一下呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且我们把香格里拉的信息也告诉大黄蜂，不就没什么不公平的了么？",
+			say = "而且我們也把香格里拉的訊息也告訴大黃蜂，不就沒什麼不公平的了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实有点道理…",
+			say = "確實有點道理…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么我也把关于我这边的信息告诉大家吧",
+			say = "那麼我也把關於我這邊的訊息告訴大家吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢。那么先从大黄蜂开始——",
+			say = "謝謝。那麼先從大黃蜂開始——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（总，总觉得有背后有一股凉意……）",
+			say = "（總，總覺得有背後有一股涼意……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

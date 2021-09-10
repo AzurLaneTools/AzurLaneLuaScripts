@@ -83,12 +83,6 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if PLATFORM_CODE ~= PLATFORM_JP and PLATFORM_CODE ~= PLATFORM_US and PLATFORM_CODE ~= PLATFORM_KR and PLATFORM_CODE ~= PLATFORM_CHT and not WBManager.IsSupportShare() then
-		uv0.TipsMgr.GetInstance():ShowTips("指揮官，當前平台暫不支持分享功能哦")
-
-		return
-	end
-
 	if IsNil(slot0.go) then
 		slot0:Init()
 	end
@@ -162,6 +156,10 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 		slot14:Take(slot12, slot0.screenshot)
 		uv0.SdkMgr.GetInstance():ShareImg(slot0.screenshot, function ()
 		end)
+	elseif PLATFORM_CODE == PLATFORM_CH and packageType == PACKAGE_TYPE_BILI then
+		if slot14:Take(slot12, slot0.screenshot) then
+			uv0.SdkMgr.GetInstance():GameShare(slot4.description, slot0.screenshot)
+		end
 	elseif slot14:Take(slot12, slot0.screenshot) then
 		print("截图位置: " .. slot0.screenshot)
 		slot0:Show(slot4, slot3)
@@ -207,22 +205,10 @@ function slot1.Show(slot0, slot1, slot2)
 		uv0.panel = nil
 	end)
 	onButton(slot0, slot0.panel:Find("main/buttons/weibo"), function ()
-		WBManager.Inst:Share(uv0.description, uv1.screenshot, function (slot0, slot1)
-			if slot0 and slot1 == 0 then
-				uv0.TipsMgr.GetInstance():ShowTips("分享成功")
-			end
-		end)
-		uv3()
+		uv0()
 	end)
 	onButton(slot0, slot0.panel:Find("main/buttons/weixin"), function ()
-		WXManager.Inst:Share(uv0.description, uv1.screenshot, function (slot0, slot1)
-			if slot0 and slot1 == 0 then
-				uv0.TipsMgr.GetInstance():ShowTips("分享成功")
-			elseif slot1 == 99 then
-				uv0.TipsMgr.GetInstance():ShowTips("指挥官，你没有安装微信客户端哦")
-			end
-		end)
-		uv3()
+		uv0()
 	end)
 
 	if PLATFORM_CODE == PLATFORM_KR then

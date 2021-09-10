@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=45>一 秘书舰的工作(?)·上</size>",
+					"““獻身”的大鳳\n\n<size=45>一 秘書艦的工作(?)·上</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官大人是想要这份文件对吧？{namecode:97}知道的~",
+			say = "指揮官大人是想要這份文件對吧？大鳳知道的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "还没说出口，{namecode:97}就将需要的文件递了过来",
+			say = "還沒說出口，大鳳就將需要的文件遞了過來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官大人，请用茶~",
+			say = "指揮官大人，請用茶~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…刚觉得口渴，{namecode:97}就准备好了茶",
+			say = "…剛覺得口渴，大鳳就準備好了茶",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官大人，稍微休息一下吧？{namecode:97}来给妳揉揉肩膀~",
+			say = "指揮官大人，稍微休息一下吧？大鳳來給你揉揉肩膀~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……仿佛肩膀的酸痛被事先察觉了一样",
+			say = "……彷彿肩膀的酸痛被事先察覺了一樣",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "能感觉到{namecode:97}灼热的视线——",
+			say = "能感覺到大鳳灼熱的視線——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官大人？不用在意{namecode:97}，尽管忙妳的事情嘛~",
+			say = "指揮官大人？不用在意大鳳，儘管忙你的事情嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问盯着自己的原因",
+					content = "詢問盯著自己的原因",
 					flag = 1
 				}
 			}
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，因为指挥官大人好看呀~",
+			say = "嘻嘻，因為指揮官大人好看呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且，不这样的话，又怎么能更加了解您呢？",
+			say = "而且，不這樣的話，又怎麼能更加了解您呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只有一直看着指挥官大人，{namecode:97}才能随时知道指挥官大人想要什么，才能随时为指挥官大人服务呀~",
+			say = "只有一直看著指揮官大人，大鳳才能隨時知道指揮官大人想要什麼，才能隨時為指揮官大人服務呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这也是秘书舰的工作嘛",
+			say = "這也是秘書艦的工作嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官大人只需要做想做的事情就好，把其他细枝末节的事情都交给{namecode:97}就可以了~",
+			say = "指揮官大人只需要做想做的事情就好，把其他細枝末節的事情都交給大鳳就可以了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stobpgm = true,
-			say = "(小声)呵呵呵…没错…指挥官大人身边只要有{namecode:97}一个人就够了——",
+			say = "(小聲)呵呵呵…沒錯…指揮官大人身邊只要有大鳳一個人就夠了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "…好像听到了什么不该听到的东西",
+			say = "…好像聽到了什麼不該聽到的東西",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

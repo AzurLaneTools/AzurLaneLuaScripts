@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纪行的藏红花\n\n<size=45>五　战术准备·下</size>",
+					"紀行的藏紅花\n\n<size=45>五　戰術準備·下</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "演习前一日",
+			say = "演習前一日",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "演习海域",
+			say = "演習海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据记录，今天这个时间，她们应该会从这里经过才对…",
+			say = "根據紀錄，今天這個時間，她們應該會從這裡經過才對…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊，指挥官，今天的重樱演习刚刚结束哦？",
+			say = "啊，指揮官，今天的重櫻演習已經結束了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳好，{namecode:96}小姐，我是最近加入港区的白鹰埃塞克斯级航空母舰香格里拉。",
+			say = "妳好，{namecode:96}小姐，我是最近加入港區的白鷹艾塞克斯級航空母艦香格里拉。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -134,7 +134,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然有些唐突，不过能占用妳一点时间吗。有点事情想要请教一下…",
+			say = "雖然有些唐突，不過能佔用妳一點時間嗎。有點事情想要請教一下…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦哦！是想问关于灰色幽灵的事吗？",
+			say = "哦哦！是想問關於灰色幽靈的事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "额……关于企业前辈的妹妹大黄蜂，{namecode:96}小姐是如何看待这位对手的呢？",
+			say = "呃……關於企業前輩的妹妹大黃蜂，{namecode:96}小姐是如何看待這位對手的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "诶？大黄蜂吗？唔，关于那位的话，{namecode:95}姐应该比我更清楚一些吧",
+			say = "欸？大黃蜂嗎？唔，關於那位的話，{namecode:95}姐應該比我更清楚一些吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了来了，什么事？啊，是指挥官，和秘书舰小姐？",
+			say = "來了來了，什麼事？啊，是指揮官，和秘書艦小姐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}小姐妳好，事情是这样的——",
+			say = "{namecode:95}小姐妳好，事情是這樣的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，想要更加了解自己的对手，于是找到了我们……",
+			say = "原來如此，想要更加了解自己的對手，於是找到了我們……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，所谓敌人的敌人就是朋友，只是说说的话倒也无妨~",
+			say = "呵呵，所謂敵人的敵人就是朋友，只是說說的話倒也無妨~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大黄蜂，怎么说呢，首先是不管如何危险的任务都会努力执行的勇气",
+			say = "大黃蜂，怎麼說呢，首先是不管怎樣危險的任務都會努力執行的勇氣，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有和{namecode:96}一样，就算己方陷入劣势也绝不会气馁的坚强",
+			say = "還有和瑞鶴一樣，就算我方陷入劣勢也絕不會氣餒的堅強",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "直到最后一刻都在直面攻击，绝不放弃的坚强…呵呵~作为对手来说真是…",
+			say = "直到最後一刻都在正面攻擊，絕不放棄的堅強…呵呵~作為對手來說真是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大黄蜂也好、“灰色幽灵”也好，白鹰还真是…尽是些难缠的家伙啊…",
+			say = "大黃蜂也好、“灰色幽靈”也好，白鷹還真是…盡是些難纏的傢伙啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不好意思，我这边净顾着说了……香格里拉？刚才说的听到了吗？",
+			say = "啊，不好意思，我這邊淨顧著說了……香格里拉？剛才說的聽到了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "香格里拉一边听着，一边快速地挥舞着手中的笔",
+			say = "香格里拉一邊聽著，一邊快速地揮舞著手中的筆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "好快的写字速度…不愧是擅长记录的秘书舰小姐…！",
+			say = "好快的寫字速度…不愧是擅長紀錄的秘書艦小姐…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "结果三人谈论了很久很久——",
+			say = "結果三人談論了很久很久——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

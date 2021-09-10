@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纪行的藏红花\n\n<size=45>一　回忆</size>",
+					"紀行的藏紅花\n\n<size=45>一　回憶</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "早晨·指挥室",
+			say = "早晨，指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和秘书舰香格里拉一起工作",
+			say = "和秘書艦香格里拉一起工作",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——您遇上什么麻烦了吗？",
+			say = "——您遇上什麼麻煩了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			},
 			options = {
 				{
-					content = "实际上是…",
+					content = "實際上是…",
 					flag = 1
 				}
 			}
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "原来如此，昨晚审批的部分文件忘记收在哪里了是吧 ",
+			say = "原來如此，昨晚審批的部份文件忘記收在哪裡了是吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我明白了，请先不要着急，我为您泡了一杯安神的草药茶，请用",
+			say = "我明白了，請先不要著急，我為您泡了一杯安神的草藥茶，請用",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——现在能回忆一下需要的文件大概是什么样子的吗？",
+			say = "——現在能回憶一下需要的文件大概是什麼樣子的嗎？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有红色标签，已经装订好，写好签名，还没有盖章的文件…吗",
+			say = "有紅色標籤，已經裝訂好，寫好簽名，還沒有蓋章的文件…嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果我的记录没错的话，应该是放在这里左边第三个文件夹里面了。因为您昨天说过今天要提交给指挥部，我就记下来了",
+			say = "如果我的紀錄沒錯的話，應該是放在這裡左邊第三個文件夾裡面了。因為您昨天說過今天要提交給指揮部，我就記下來了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…如此这般，自从香格里拉担任秘书舰以后，她的“记录”给这边的工作提供了不少帮助",
+			say = "…如此這般，自從香格里拉擔任秘書艦以後，她的“紀錄”給這邊的工作提供了不少幫助",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……说起来，自从来到这个港区之后，真的认识了很多的夥伴呢",
+			say = "……說起來，自從來到這個港區之後，真的認識了很多的夥伴呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，指挥官妳也知道，我是那种属于比起参加更喜欢观察记录的性格…",
+			say = "嗯，指揮官你也知道，我是那種屬於比起參加更喜歡觀察紀錄的性格…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "香格里拉从随时带在身边的相册里取出了一张照片",
+			say = "香格里拉從隨時帶在身邊的相冊裡取出了一張照片",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			},
 			options = {
 				{
-					content = "凑过去看看",
+					content = "湊過去看看",
 					flag = 1
 				}
 			}
@@ -257,7 +257,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "名字是“夥伴”，背面的文字是“香格里拉，第一次发小脾气的结果”",
+			say = "名字是“夥伴”，背面的文字是“香格里拉，第一次發小脾氣的結果”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一开始想的是只要能帮上埃塞克斯就好了…",
+			say = "一開始想的是只要能幫上艾塞克斯就好了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结果因为一件小事钻了牛角尖，自己努力到连埃塞克斯都惊讶的程度。",
+			say = "結果因為一件小事鑽了牛角尖，自己努力到連艾塞克斯都驚訝的程度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从现在看来还真是挺可笑的呢，呵呵",
+			say = "從現在看來還真是挺可笑的呢。呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "正如她所说，在香格里拉刚到母港的时候，确实有一种所有行动都围着“埃塞克斯”转的感觉",
+			say = "如她所說，在她剛來到母港時，確實有一種行為動機都是“艾塞克斯”的感覺",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "那是在她来到这座母港报告一段时间之后的事了……",
+			say = "那是在她來到這座母港報到一段時間之後的事了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

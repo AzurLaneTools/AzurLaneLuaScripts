@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>一　指挥室的陷阱</size>",
+					"大青花魚的“陷阱”\n\n<size=45>一　辦公室的陷阱</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·辦公室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,14 +49,14 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和往常一样，在睡醒洗漱完之后便来到了指挥室。",
+			say = "和往常一樣，在睡醒洗漱完之後便來到了辦公室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "打开门",
+					content = "打開門",
 					flag = 1
 				}
 			}
@@ -90,14 +90,14 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "听到了什么东西碰撞的声音……",
+			say = "聽到了什麼東西碰撞的聲音……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "查看门的周围",
+					content = "查看門的周圍",
 					flag = 1
 				}
 			}
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "什么都没有发现。",
+			say = "什麼都沒有發現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了对了，我在指挥室给指挥官准备了一份惊喜呢！",
+			say = "對了對了，我在辦公室給指揮官準備了一份驚喜呢！",
 			flashout = {
 				black = true,
 				dur = 0.2,
@@ -169,7 +169,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，指挥官妳就好好期待一下吧！",
+			say = "嘿嘿，指揮官你就好好期待一下吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			say = "到底会是什么惊喜呢……",
+			say = "到底會是什麼驚喜呢……",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -228,14 +228,14 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "原本摆在书柜上的一个玩偶（？）落在了地上。",
+			say = "原本擺在書櫃上的一個玩偶（？）落在了地上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "弯下腰去捡起来",
+					content = "彎下腰去撿起來",
 					flag = 1
 				}
 			}
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "但是，为什么这个玩偶（？）会突然掉——",
+			say = "但是，為什麼這個玩偶（？）會突然掉——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……等下！这个莫非是……连环机关——",
+			say = "……等下！這個莫非是……連環機關——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哗啦！！",
+			say = "嘩啦！ ！",
 			flashN = {
 				color = {
 					1,
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "毫无征兆地，整个头被水浇了个遍，头发瞬间湿透了。",
+			say = "毫無徵兆地，整個頭被水澆了個遍，頭髮瞬間濕透了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，早上好！",
+			say = "指揮官，早上好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "大青花鱼拿着干毛巾和拖把出现在了门口。",
+			say = "大青花魚拿著乾毛巾和拖把出現在了門口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我发明的“指挥官快速清醒装置”怎么样？是不是很有效呢？嘿嘿~",
+			say = "我發明的“指揮官快速清醒裝置”怎麼樣？是不是很有效呢？嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "机关的时机，位置，角度都精准地把控好了，不会弄湿指挥官的衣服和指挥室的其它东西呢！",
+			say = "機關的時機，位置，角度都精準地把控好了，不會弄濕指揮官的衣服和辦公室的其它東西呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "果然是这家伙干的……",
+			say = "果然是這傢伙幹的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "可恶…看来这边也得去找出这家伙的弱点才行……！",
+			say = "可惡…看來這邊也得去找出這傢伙的弱點才行……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

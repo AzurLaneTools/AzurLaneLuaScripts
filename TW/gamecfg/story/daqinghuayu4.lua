@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>四　和“恶魔”的契约</size>",
+					"大青花魚的“陷阱”\n\n<size=45>四　和“惡魔”的契約</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就这几天有意无意的观察下来，大青花鱼不仅没有给港区带来麻烦，反而是和大家相处得很好。",
+			say = "就這幾天有意無意的觀察下來，大青花魚不僅沒有給港區帶來麻煩，反而是和大家相處得很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没出什么人际关系的问题，反而让人舒了口气。",
+			say = "沒出什麼人際關係的問題，反而讓人鬆了口氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官！",
+			say = "指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个那个，我有件事情想问指挥官呢！可以吗？",
+			say = "那個那個，我有件事情想問指揮官呢！可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "大青花鱼用着小孩子一般的口吻向我发问。",
+			say = "大青花魚用著小孩子一般的口吻向我發問。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "总觉得有种不好的预感。这家伙有什么阴谋……！",
+			say = "總覺得有種不好的預感。這傢伙有什麼陰謀……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，莫非——这几天，一直在偷偷跟踪着大青花鱼？",
+			say = "指揮官，莫非——這幾天，一直在偷偷跟蹤著大青花魚？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,11 +146,11 @@ return {
 			},
 			options = {
 				{
-					content = "承认",
+					content = "承認",
 					flag = 1
 				},
 				{
-					content = "否认",
+					content = "否認",
 					flag = 2
 				}
 			}
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "指挥官，说谎可是不行的呢~",
+			say = "指揮官，說謊可是不行的呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "无论如何，偷偷观察大青花鱼这件事情还是被她发现了。",
+			say = "無論如何，偷偷觀察大青花魚這件事情還是被她發現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是港区的大家知道了这件事情的话——",
+			say = "要是港區的大家知道了這件事情的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“哼！指挥官果然是个变态！”“怎，怎么可能，指挥官怎么会做出这样的事情！难道指挥官真的是个萝莉控……”“这样的指挥官，果然还是切成几块放在身边好了……”",
+			say = "“哼！指揮官果然是個變態！”“怎，怎麼可能，指揮官怎麼會做出這樣的事情！難道指揮官真的是個蘿莉控……”“這樣的指揮官，果然還是切成幾塊放在身邊好了……”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "大青花鱼一连模仿了好几个人的说话方式。",
+			say = "大青花魚一連模仿了好幾個人的說話方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总而言之，指挥官要怎么做才好呢？",
+			say = "總而言之，指揮官要怎麼做才好呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			},
 			options = {
 				{
-					content = "向大青花鱼道歉并说明原因。",
+					content = "向大青花魚道歉並說明原因。",
 					flag = 1
 				}
 			}
@@ -270,7 +270,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此……妳的担心也不是没有道理呢。",
+			say = "原來如此……你的擔心也不是沒有道理呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，决定了，那就这样吧！指挥官只要答应我两个条件，我就当做什么事都没有发生啦！",
+			say = "嗯，決定了，那就這樣吧！指揮官只要答應我兩個條件，我就當做什麼事都沒有發生啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第一！我现在有点累了~要是能在指挥的腿上睡一个下午的话，我就能恢复精神了呢！",
+			say = "第一！我現在有點累了~要是能在指揮官的腿上睡一個下午的話，我就能恢復精神了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第二……第二先留着！等我想到了再说吧！",
+			say = "第二……第二先留著！等我想到了再說吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "下午要工作吗？唔……这个要指挥官自己想办法了呢~",
+			say = "下午要工作嗎？唔……這個要指揮官自己想辦法了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "结果今天工作完成的时候，双腿已经完全不听使唤了……",
+			say = "結果今天工作完成的時候，雙腿已經完全不聽使喚了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>二　潜水体操！</size>",
+					"大青花魚的“陷阱”\n\n<size=45>二　潛水體操！</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·演习海域",
+			say = "港區·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "潜水艇们集合到了演习海域进行训练。",
+			say = "潛水艇們集合到了演習海域進行訓練。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "{namecode:155}&鲦鱼",
+			actorName = "伊26&鰷魚",
 			say = "一，二——！",
 			subActors = {
 				{
@@ -168,7 +168,7 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "U-81&伊19",
+			actorName = "U81&伊19",
 			say = "三，四~",
 			subActors = {
 				{
@@ -242,7 +242,7 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "伊58&U-557",
+			actorName = "伊58&U557",
 			say = "五，六……",
 			subActors = {
 				{
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "在大青花鱼的带领下，大家正做着热身运动。",
+			say = "在大青花魚的帶領下，大家正做著熱身運動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来是腰！",
+			say = "接下來是腰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "先这样，再像这样……",
+			say = "先這樣，再像這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "好的！这样一来“潜水前热身体操”就全部完成了呢！",
+			say = "好的！這樣一來“潛水前熱身體操”就全部完成了呢！",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，感觉身体都热起来了呢！",
+			say = "哦哦，感覺身體都熱起來了呢！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我只想快点到水里……",
+			say = "我只想快點到水裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，为什么U-47没有来呢？",
+			say = "對了，為什麼U-47沒有來呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳说47吗？她比较喜欢一个人呆着呢。无论平时和训练，她都是几乎是一个人。",
+			say = "妳說47嗎？她比較喜歡一個人待著呢。無論平時和訓練，她都幾乎是一個人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那下次就让我说服她一起来吧！",
+			say = "那下次就讓我說服她一起來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这可能有点困难……",
+			say = "這可能有點困難……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，放心吧！我的话一定没问题的！",
+			say = "啊，放心吧！我的話一定沒問題的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "大青花鱼看起来很自信的样子。",
+			say = "大青花魚看起來很自信的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "说起来，刚刚那谜一般的热身运动一直是大青花鱼带领着大家在做。",
+			say = "說起來，剛剛那謎一般的熱身運動一直是大青花魚帶領著大家在做。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "似乎在这么短的时间里，她就已经和港区里的潜水艇们弄好关系了呢。",
+			say = "似乎在這麼短的時間裡，她就已經和港區裡的潛水艇們弄好關係了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

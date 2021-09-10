@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>七　晚安，还有…早上好！</size>",
+					"大青花魚的“陷阱”\n\n<size=45>七　晚安，還有……早上好！</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "港区·寝室",
+			say = "港區·寢室",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "今天的嬉闹让身体提前感到了疲倦，早早地便躺在了床上。",
+			say = "今天的嬉鬧讓身體提前感到了疲倦，早早地便躺在了床上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "总感觉，脸好像被谁正在戳着……",
+			say = "總感覺，臉好像被誰正在戳著……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,11 +76,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "???",
+			actorName = "？ ？ ？",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，睡了吗？",
+			say = "指揮官，睡了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,14 +90,14 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "这个声音……是大青花鱼吧。",
+			say = "這個聲音……是大青花魚吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "装作睡着。",
+					content = "裝作睡著。",
 					flag = 1
 				}
 			}
@@ -109,7 +109,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "睡着了吗？该不会是在装睡吧？",
+			say = "睡著了嗎？該不會是在裝睡吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "睡着的话就没办法了呢……",
+			say = "睡著的話就沒辦法了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "呐，指挥官……我有很多东西想和指挥官说呢。",
+			say = "吶，指揮官……我有很多東西想和指揮官說呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "今天谢谢妳了呢。虽然是我用“条件”让妳陪我的，但是，听到指挥官说和我一起很开心的时候，我真的非常高兴呢。",
+			say = "今天謝謝你了呢。雖然是我用“條件”讓你陪我的，但是，聽到指揮官說和我一起很開心的時候，我真的非常高興呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "还有舰队的大家。大家都非常的友好，我很快就和她们都成为朋友了呢。和她们在一起训练，在一起聊天，在一起玩，我真的觉得非常幸福。",
+			say = "還有艦隊的大家。大家都非常的友好，我很快就和她們都成為朋友了呢。和她們在一起訓練，在一起聊天，在一起玩，我真的覺得非常幸福。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "也许，某个时候，我的潜泳不再是为了发射那将别人沉入深渊的鱼雷，而只是为了浮上来吓一吓我的同伴们，然后看着她们被吓到的样子笑起来。",
+			say = "也許，某個時候，我的潛泳不再是為了發射那將別人沉入深淵的魚雷，而只是為了浮上來嚇一嚇我的同伴們，然後看著她們被嚇到的樣子笑起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那样的未来，一定会出现的吧。",
+			say = "那樣的未來，一定會出現的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "舰队的大家，我最喜欢了。",
+			say = "艦隊的大家，我最喜歡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "还有指挥官，虽然我好像一直在捉弄妳，不过其实——",
+			say = "還有指揮官，雖然我好像一直在捉弄你，不過其實——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "脸颊上传来了温柔的触感",
+			say = "臉頰上傳來了溫柔的觸感",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我也最喜欢了。",
+			say = "我也最喜歡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "对了，明天还有我给妳准备的惊喜呢……装睡听别人真心话的指挥官要吃点苦头才行呢~",
+			say = "對了，明天還有我給你準備的驚喜呢……裝睡聽別人真心話的指揮官要吃點苦頭才行呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			say = "第二天",
+			say = "（第二天）",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真真真真的吗！指挥官，居然和大青花鱼一起睡了一晚！",
+			say = "真真真真的嗎！指揮官，居然和大青花魚一起睡了一晚！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "睡了一个晚上？发生了什么吗？",
+			say = "睡了一個晚上？發生了什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说啊指挥官，再怎么说一起睡觉这种事情也……",
+			say = "我說啊指揮官，再怎麼說一起睡覺這種事情也……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，莫非是萝莉控……",
+			say = "指揮官，莫非是蘿莉控……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "被摆了一道啊。",
+			say = "被擺了一道啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "结果光是和大家解释清楚，就用掉了一整个上午的时间。",
+			say = "結果光是和大家解釋清楚，就用掉了一整個上午的時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "这样的日子，以后也会继续下去的吧——",
+			say = "這樣的日子，以後也會繼續下去的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

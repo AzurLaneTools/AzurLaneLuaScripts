@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纪行的藏红花\n\n<size=45>六　战术与直觉的对抗</size>",
+					"紀行的藏紅花\n\n<size=45>六　戰術與直覺的對抗</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "演习当日·演习海域",
+			say = "演習當日·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "准备好了吗，香格里拉？",
+			say = "準備好了嗎，香格里拉？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，对大黄蜂的针对性战术已经准备完毕，剩下就是应用在实战中了。",
+			say = "嗯，對大黃蜂的針對性戰術已經準備完畢，剩下就是應用在實戰中了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哼～就让大黄蜂大人来好好挫挫妳的锐气吧！",
+			say = "哼～就讓大黃蜂大人來好好挫挫妳的銳氣吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真巧呢，这边也想说，就请妳切身体会一下战术的重要性吧！",
+			say = "真巧呢，這邊也想說，就請妳切身體會一下戰術的重要性吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哦，燃起来了燃起来了！",
+			say = "哇哦，燃起來了燃起來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "会是怎么样一场战斗呢，真是令人期待啊.",
+			say = "會是怎麼樣一場戰鬥呢，真是令人期待啊.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大黄蜂，要加油哦",
+			say = "大黃蜂，要加油哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前辈…还有大家，都来了啊",
+			say = "前輩…還有大家，都來了啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈，意外的成了一场热闹比赛啊！",
+			say = "啊哈哈，意外的成了一場熱鬧比賽啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么…开始的信号，就拜托指挥官了。",
+			say = "那麼…開始的訊號，就拜託指揮官了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "伴随着开始的信号，双方立即开始了行动——",
+			say = "伴隨著開始的訊號，雙方立即開始了行動——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "去吧，舰载机们！",
+			say = "去吧，艦載機們！",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -282,7 +282,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "根据以往的数据分析，这里是佯攻的機率有90%——",
+			say = "根據以往的數據分析，這裡是佯攻的機率有90%——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘁，没有上当么…那就…这样如何！",
+			say = "嘁，沒有上當嗎…那就…這樣如何！",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "这也在…预料之内！",
+			say = "這也在…預料之內！",
 			flashN = {
 				color = {
 					1,
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陷入苦战的，看起来是大黄蜂啊",
+			say = "陷入苦戰的，看起來是大黃蜂啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…看来这次会是战术的胜利了",
+			say = "呵呵…看來這次會是戰術的勝利了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没到最后，什么都不好说呢～",
+			say = "沒到最後，什麼都不好說呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			seDelay = 1,
-			say = "这下就…结束了！",
+			say = "這下就…結束了！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘁！别小看了…大黄蜂大人啊！！",
+			say = "嘁！別小看了…大黃蜂大人啊！ ！",
 			soundeffect = "event:/battle/plane",
 			effects = {
 				{
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然还藏有攻击编队？！糟了！！",
+			say = "居然還藏有攻擊編隊？！糟了！！",
 			effects = {
 				{
 					active = false,
@@ -500,7 +500,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "轰隆隆——",
+			say = "轟隆隆——",
 			flashN = {
 				color = {
 					1,
@@ -564,7 +564,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在最后被命中之前，大黄蜂放出了一直隐藏着的舰载机编队吗…",
+			say = "在最後被命中之前，大黃蜂放出了一直隱藏著的艦載機編隊嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这算是……平局？",
+			say = "這算是……平局？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

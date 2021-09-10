@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>三　后宅的大青花鱼</size>",
+					"大青花魚的“陷阱”\n\n<size=45>三　後宅的大青花魚</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·后宅",
+			say = "港區·後宅",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，又挂掉了……这下子又game over了呢。",
+			say = "啊，又掛掉了……這下子又game over了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "看起来几人是在后宅玩着游戏。",
+			say = "看起來幾人是在後宅玩著遊戲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊，这个boss怎么这么难打……",
+			say = "哈啊，這個boss怎麼這麼難打……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到…竟然有我也觉得有难度的BOSS，共斗游戏…果然不可小觑！",
+			say = "沒想到…竟然有我也覺得有難度的BOSS，共鬥遊戲…果然不可小覷！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，现在放弃还太早了。",
+			say = "不，現在放棄還太早了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通过这几次game over，我觉得我已经摸到boss的行动方式了。",
+			say = "通過這幾次game over，我覺得我已經摸到boss的行動方式了！只要我們四個人配合好的話，一定可以擊敗boss的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要我们四个人配合好的话，一定可以击败boss的！",
+			say = "只要我們四個人配合好的話，一定可以擊敗boss的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次就先听我的指挥试试吧！",
+			say = "這次就先聽我的指揮試試吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦…大青花鱼一副好可靠的样子！难道这就是所谓的队长风范？！",
+			say = "哦哦…大青花魚一副好可靠的樣子！難道這就是所謂的隊長風範？ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "赞成……",
+			say = "贊成……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大青花鱼，自信满满呢~",
+			say = "大青花魚，自信滿滿呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "（30分钟后）",
+			say = "（30分鐘後）",
 			flashout = {
 				black = true,
 				dur = 0.7,
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是最后一击了！接招吧，四人合体技——“无限冲击”！",
+			say = "這就是最後一擊了！接招吧，四人合體技——“無限衝擊”！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,8 +427,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 106011,
-			actorName = "长岛&拉菲&班森",
-			say = "喔喔喔喔！！！！！",
+			actorName = "長島&拉菲&本森",
+			say = "噢噢噢噢！ ！ ！ ！ ！",
 			effects = {
 				{
 					active = true,
@@ -487,7 +487,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦！我们赢了！",
+			say = "哦哦！我們贏了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通，通关了……居然没有查攻略就通关了……",
+			say = "通，通關了……居然沒有查攻略就通關了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼哼，轻轻松松！在我大青花鱼面前可没有打不过去的关卡！",
+			say = "哼哼哼，輕輕鬆鬆！在我大青花魚面前可沒有打不過去的關卡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "大青花鱼似乎非常开心。",
+			say = "大青花魚似乎非常開心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "看起来，和港区里的其他小夥伴也相处得很好的样子。——不对，这家伙一点也没有破绽…！",
+			say = "看起來，和港區裡的其他小夥伴也相處得很好的樣子。 ——不對，這傢伙一點也沒有破綻…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

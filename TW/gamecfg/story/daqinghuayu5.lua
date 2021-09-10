@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>五　两人的海滩·上</size>",
+					"大青花魚的“陷阱”\n\n<size=45>五　兩人的海灘·上</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
-			say = "港区·海滩",
+			say = "港區·海灘",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我想到第二个条件是什么了！",
+			say = "我想到第二個條件是什麼了！",
 			flashout = {
 				black = true,
 				dur = 0.2,
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我突然想在明天去海边呢……要是指挥官能陪我，让我开心的话就更好了呢！",
+			say = "我突然想在明天去海邊呢……要是指揮官能陪我，讓我開心的話就更好了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			say = "于是今天下午和大青花鱼来到了海边。",
+			say = "於是今天下午和大青花魚來到了海邊。",
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的海滩被我们两个人包场了呢！嘿嘿，要做些什么事情好呢，指~挥~官~？",
+			say = "今天的海灘被我們兩個人包場了呢！嘿嘿，要做些什麼事情好呢，指~揮~官~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			},
 			options = {
 				{
-					content = "游泳比赛",
+					content = "游泳比賽",
 					flag = 1
 				}
 			}
@@ -174,7 +174,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？只是游泳比赛吗？也不是不可以啦。",
+			say = "欸？只是游泳比賽嗎？也不是不可以啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			},
 			options = {
 				{
-					content = "比谁先游到远处的无人岛",
+					content = "比誰先游到遠處的無人島",
 					flag = 1
 				}
 			}
@@ -213,7 +213,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我将赌上潜水舰全部的尊严！指挥官，来和我一决胜负吧！",
+			say = "我將賭上潛水艦全部的尊嚴！指揮官，來和我一決勝負吧！",
 			effects = {
 				{
 					active = true,
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的开场白会不会比较有气势呢？但是——",
+			say = "這樣的開場白會不會比較有氣勢呢？但是——",
 			effects = {
 				{
 					active = false,
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "扑通！",
+			say = "撲通！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "大青花鱼先一步跳进了海中，游了起来。",
+			say = "大青花魚先一步跳進了海中，游了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "到达了无人岛，并没有发现大青花鱼的踪迹。",
+			say = "到達了無人島，並沒有發現大青花魚的蹤跡。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -347,7 +347,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "surprise！！！",
+			say = "surprise！ ！ ！",
 			actorPosition = {
 				x = 0,
 				y = -750
@@ -376,7 +376,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么样，指挥官，被吓了一跳吧！",
+			say = "怎麼樣，指揮官，被嚇了一跳吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我早就到了啦！这场胜负，是我拿下了呢！",
+			say = "我早就到了啦！這場勝負，是我拿下了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么，round 2，start！",
+			say = "那麼，round 2，start！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "大青花鱼又一头扎进了水中。",
+			say = "大青花魚又一頭紮進了水中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			say = "这次要追上她才行。",
+			say = "這次要追上她才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

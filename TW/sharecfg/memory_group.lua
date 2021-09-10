@@ -1785,6 +1785,38 @@ pg.memory_group = {
 			424
 		}
 	},
+	[522] = {
+		icon = "title_chara_daqinghuayu",
+		subtype = 0,
+		type = 3,
+		id = 522,
+		title = "大青花魚的“陷阱”",
+		memories = {
+			425,
+			426,
+			427,
+			428,
+			429,
+			430,
+			431
+		}
+	},
+	[523] = {
+		icon = "title_chara_dafeng",
+		subtype = 0,
+		type = 3,
+		id = 523,
+		title = "“獻身”的{namecode:97}",
+		memories = {
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449
+		}
+	},
 	[524] = {
 		icon = "title_chara_aisaikesi",
 		subtype = 0,
@@ -2039,6 +2071,22 @@ pg.memory_group = {
 			674,
 			675,
 			676
+		}
+	},
+	[540] = {
+		icon = "title_chara_xianggelila",
+		subtype = 0,
+		type = 3,
+		id = 540,
+		title = "紀行的藏紅花",
+		memories = {
+			689,
+			690,
+			691,
+			692,
+			693,
+			694,
+			695
 		}
 	},
 	[542] = {
@@ -2394,6 +2442,8 @@ pg.memory_group = {
 		519,
 		520,
 		521,
+		522,
+		523,
 		524,
 		525,
 		526,
@@ -2410,6 +2460,7 @@ pg.memory_group = {
 		537,
 		538,
 		539,
+		540,
 		542,
 		543,
 		544,

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纪行的藏红花\n\n<size=45>三　奇妙的“因缘”</size>",
+					"紀行的藏紅花\n\n<size=45>三　奇妙的“因緣”</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日·演习海域",
+			say = "某日·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "如同之前约定的那样，香格里拉和埃塞克斯开始了针对性训练",
+			say = "如同之前約定的那樣，香格里拉和艾塞克斯開始了針對性訓練",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "指挥官也来了啊…香格里拉，今天要做些什么呢？",
+			say = "指揮官也來了啊…香格里拉，今天要做些什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，根据之前特别演习的记录——",
+			say = "嗯，根據之前特別演習的紀錄——",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "使用通常的单舰战术去和企业前辈对抗的话估计很难取胜，",
+			say = "使用通常的單艦戰術去和企業前輩對抗的話估計很難取勝，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，如果采用集团对抗的方法，通过与己方其他舰艇的配合避免和企业前辈一对一作战，或许有取胜的机会。",
+			say = "不過，如果採用集團對抗的方法，通過與己方其他艦艇的配合避免和企業前輩一對一作戰，或許有取勝的機會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天就根据我思考的对策来制定针对性的作战方案吧。",
+			say = "今天就根據我思考的對策來制定針對性的作戰方案吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此…这时候像这样将攻击编队分散开…",
+			say = "原來如此…這時候像這樣將攻擊編隊分散開…",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。新锐机的运用这方面埃塞克斯比企业前辈更有经验……",
+			say = "嗯。新銳機的運用這方面艾塞克斯比企業前輩更有經驗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 107090,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "这样的话，就能应对企业前辈的这个战术了！",
+			say = "這樣的話，就能應對企業前輩的這個戰術了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "战术研讨火热进行中，就在这时——",
+			say = "戰術研討火熱進行中，就在這時——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哇！原、原来是大黄蜂啊……",
+			say = "哇！原、原來是大黃蜂啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "突然吓人可不好哦，牛仔小姐？",
+			say = "突然嚇人可不好哦，牛仔小姐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈，抱歉抱歉，没想到妳们这么专注。啊，指挥官也在，这是在做什么有趣的事情吗～？",
+			say = "啊哈哈，抱歉抱歉，沒想到妳們這麼專注。啊，指揮官也在，這是在做什麼有趣的事情嗎～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们正在进行特训，为了让埃塞克斯能够战胜企业前辈而进行的特训",
+			say = "我們正在進行特訓，為了讓艾塞克斯能夠戰勝企業前輩而進行的特訓",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "战胜姐姐？这个特训听起来很厉害啊，请务必也让我参一脚！",
+			say = "戰勝姐姐？這個特訓聽起來很厲害啊，請務必也讓我參一腳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此…看着是不坏啦，不过…总感觉这个战术前提会不会太偏重过往的经验了？",
+			say = "原來如此…看著是不壞啦，不過…總感覺這個戰術前提會不會太偏重過往的經驗了？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -385,7 +385,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…有经验才能归纳出正确的理论。企业前辈的实力不也是源自于以往经验的归纳总结吗？",
+			say = "…有經驗才能歸納出正確的理論。企業前輩的實力不也是源自於以往經驗的歸納總結嗎？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "说的是没错啦。不过感觉还是要有点能够临机应变，额或者说方案B之类的东西？我和姐姐当年也经常碰到预想不到的状况嘛",
+			say = "說的是沒錯啦。不過感覺還是要有點能夠臨機應變，呃或者說方案B之類的東西？我和姐姐當年也經常碰到預想不到的狀況嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…我明白了。正好指挥官也在这里，不如就让我们在此约定一场战斗演习如何？用事实来证明谁的方针更加有效。",
+			say = "…我明白了。正好指揮官也在這裡，不如就讓我們在此約定一場戰鬥演習如何？用事實來證明誰的方針更加有效。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘿～？似乎很有自信嘛？送上门的挑战，大黄蜂大人岂有不接的道理！",
+			say = "嘿～？似乎很有自信嘛？送上門的挑戰，大黃蜂大人豈有不接的道理！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么时间就定在…三天后吧，裁判就麻烦指挥官和埃塞克斯了",
+			say = "那麼時間就定在…三天後吧，裁判…就麻煩指揮官和艾塞克斯了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（小声）抱歉，埃塞克斯，针对训练需要暂时中断一下了。",
+			say = "（小聲）抱歉，艾塞克斯，針對訓練需要暫時中斷一下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "（小声）啊哈哈…难得看到香格里拉热血的一面呢。也好，观察他人的战斗也是一种学习，演习战加油吧！",
+			say = "（小聲）啊哈哈…難得看到香格里拉熱血的一面呢。也好，觀察他人的戰鬥也是一種學習，演習戰加油吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就，三天后演习场上见分晓吧！嘿嘿～",
+			say = "那就，三天後演習場上見分曉吧！嘿嘿～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "好像被卷进什么麻烦里了？",
+			say = "好像被捲進什麼麻煩裡了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

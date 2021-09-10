@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=45>七 {namecode:97}的消失(?)·下</size>",
+					"“獻身”的大鳳\n\n<size=45>七 大鳳的消失(?)·下</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "这天起床后，没有看到早餐",
+			say = "這天起床後，沒有看到早餐",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "……{namecode:97}？",
+			say = "……大鳳？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官？怎么了？脸色这么差？",
+			say = "指揮官？怎麼了？臉色這麼差？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:97}？…没看到呢，她平时不都是和指挥官在一起的吗——",
+			say = "大鳳？…沒看到呢，她平時不都是和指揮官在一起的嗎——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "来到指挥室，也没有看到那熟悉的身影……",
+			say = "來到指揮室，也沒有看到那熟悉的身影……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -140,7 +140,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官！太好了，妳在这里，快跟我来！{namecode:97}她、{namecode:97}她——",
+			say = "指揮官！太好了，你在這裡，快跟我來！大鳳她、大鳳她——",
 			actorPosition = {
 				x = 1500,
 				y = 0
@@ -170,7 +170,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对不起，指挥官…昨天原本只是开玩笑对{namecode:97}说，太过献身会导致别人的反感什么的，还给她找了一些杂志的报导",
+			say = "對不起，指揮官…昨天原本只是開玩笑對大鳳說，太過獻身會導致別人的反感什麼的，還給她找了一些雜誌的報導",
 			flashout = {
 				black = true,
 				dur = 0.2,
@@ -204,7 +204,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当时也没觉得有什么，没想到那之后她就把自己关在房间里不出来了……",
+			say = "當時也沒覺得有什麼，沒想到那之後她就把自己關在房間裡不出來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，大概只有妳的话她听得进去了…拜托了，指挥官，请把{namecode:97}从房间里带出来吧！",
+			say = "指揮官，大概只有你的話她聽得進去了…拜託了，指揮官，請把大鳳從房間裡帶出來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			say = "{namecode:97}的房门紧闭着",
+			say = "大鳳的房門緊閉著",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
@@ -271,7 +271,7 @@ return {
 			},
 			options = {
 				{
-					content = "敲门并表明身份",
+					content = "敲門並表明身份",
 					flag = 1
 				}
 			}
@@ -282,7 +282,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官大人…",
+			say = "指揮官大人…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:97}的声音听起来十分软弱",
+			say = "大鳳的聲音聽起來十分軟弱",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "一直以来，{namecode:97}都是想当然的以为自己所做的一切都是为了指挥官大人，却从未考虑过指挥官大人的感受。",
+			say = "一直以來，大鳳都是想當然的以為自己所做的一切都是為了指揮官大人，卻從未考慮過指揮官大人的感受。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "昨天被大青花鱼说过之后，{namecode:97}才突然发现自己是那么的缠人和讨人厌。",
+			say = "昨天被大青花魚說過之後，大鳳才突然發現自己是那麼的纏人和討人厭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,14 +330,14 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "但是{namecode:97}喜欢上了指挥官大人，只想着指挥官大人，脑海里根本容不下别的东西……",
+			say = "但是大鳳喜歡上了指揮官大人，只想著指揮官大人，腦海裡根本容不下別的東西……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "表示这样就好",
+					content = "表示這樣就好",
 					flag = 1
 				}
 			}
@@ -348,7 +348,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…指挥官大人真的不会觉得{namecode:97}太过进入自己的生活吗？",
+			say = "…指揮官大人真的不會覺得大鳳太過進入自己的生活嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "不会觉得{namecode:97}想要知道指挥官大人的一切太过贪心？不会厌烦{namecode:97}？",
+			say = "不會覺得大鳳想要知道指揮官大人的一切太過貪心？不會厭煩大鳳？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "不是表面上迎合{namecode:97}，其实背地里早就已经受不了了？？",
+			say = "不是表面上迎合大鳳，其實背地裡早就已經受不了了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,14 +382,14 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "{namecode:97}的话里带上了一丝哭腔。",
+			say = "大鳳的話裡帶上了一絲哭腔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没有{namecode:97}不行",
+					content = "沒有大鳳不行",
 					flag = 1
 				}
 			}
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "真的不觉得{namecode:97}讨厌，真的不是在敷衍{namecode:97}，真的喜欢{namecode:97}？",
+			say = "真的不覺得大鳳討厭，真的不是在敷衍大鳳，真的喜歡大鳳？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "还没来得及回答，房门就打开了",
+			say = "還沒等話說完，房門就打開了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorScale = 1,
-			say = "<size=45>指挥官大人！！！</size>",
+			say = "<size=45>指揮官大人！！！</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "{namecode:97}扑进了怀里……",
+			say = "大鳳撲進了懷裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "看来不论是{namecode:97}还是自己都知道——",
+			say = "看來不管是大鳳还是自己都知道——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "答案自然只有——“喜欢”——这么一个而已",
+			say = "答案自然只有——“喜歡”——這麼一個而已",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

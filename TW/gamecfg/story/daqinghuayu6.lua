@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>六　两人的海滩·下</size>",
+					"大青花魚的“陷阱”\n\n<size=45>六　兩人的海灘·下</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "不知不觉，太阳已经变成了红色。",
+			say = "不知不覺，太陽已經變成了紅色。",
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结果是10:0呢。指挥官，想战胜我的话还早了100年呢~",
+			say = "結果是10:0呢。指揮官，想戰勝我的話還早了100年呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈啊……我也有点累了。",
+			say = "哈啊……我也有點累了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "坐在沙滩边上休息，这时大青花鱼在旁边坐了下来。",
+			say = "坐在沙灘邊上休息，這時大青花魚在旁邊坐了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，我也好久没有如此尽兴地游泳了呢。",
+			say = "不過，我也好久沒有如此盡興地游泳了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "上次是什么时候呢？",
+			say = "上次是什麼時候呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……想不起来了呢。",
+			say = "唔……想不起來了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天和指挥官一起，我非常开心哦！这第二个条件就算达成了吧！",
+			say = "今天和指揮官一起，我非常開心哦！這第二個條件就算達成了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			},
 			options = {
 				{
-					content = "告诉大青花鱼和她一起自己也很开心。",
+					content = "告訴大青花魚和她一起自己也很開心。",
 					flag = 1
 				}
 			}
@@ -211,7 +211,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼、哼哼，那是当然！毕竟有我一直陪着妳嘛——",
+			say = "哼、哼哼，那是當然！畢竟有我一直陪著你嘛——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊啊，真是的，我说的这都是什么话啊！",
+			say = "啊啊，真是的，我說的這都是什麼話啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "都怪指挥官，让我变得奇怪啦！",
+			say = "都怪指揮官，讓我變得奇怪啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "大青花鱼突然站了起来，不停地朝这边泼水。",
+			say = "大青花魚突然站了起來，不停地朝這邊潑水。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看招！连环海浪攻击！",
+			say = "看招！連環海浪攻擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，躲不开了吧？",
+			say = "嘿嘿，躲不開了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			say = "结果又一直玩到了太阳落山为止。",
+			say = "結果又一直玩到了太陽下山為止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

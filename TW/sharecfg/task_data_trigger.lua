@@ -48,7 +48,15 @@ pg.task_data_trigger = {
 		id = 6,
 		task_id = 5081
 	},
-	[8] = {
+	{
+		group_id = 30701,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 7,
+		task_id = 5091
+	},
+	{
 		group_id = 10209,
 		activity_id = 0,
 		count = 1,
@@ -56,7 +64,7 @@ pg.task_data_trigger = {
 		id = 8,
 		task_id = 5101
 	},
-	[9] = {
+	{
 		group_id = 30502,
 		activity_id = 0,
 		count = 1,
@@ -64,7 +72,7 @@ pg.task_data_trigger = {
 		id = 9,
 		task_id = 5111
 	},
-	[10] = {
+	{
 		group_id = 20706,
 		activity_id = 0,
 		count = 1,
@@ -72,7 +80,7 @@ pg.task_data_trigger = {
 		id = 10,
 		task_id = 5121
 	},
-	[11] = {
+	{
 		group_id = 10703,
 		activity_id = 0,
 		count = 1,
@@ -80,7 +88,7 @@ pg.task_data_trigger = {
 		id = 11,
 		task_id = 5131
 	},
-	[12] = {
+	{
 		group_id = 30312,
 		activity_id = 0,
 		count = 1,
@@ -88,7 +96,7 @@ pg.task_data_trigger = {
 		id = 12,
 		task_id = 5141
 	},
-	[13] = {
+	{
 		group_id = 40146,
 		activity_id = 0,
 		count = 1,
@@ -96,13 +104,13 @@ pg.task_data_trigger = {
 		id = 13,
 		task_id = 5151
 	},
-	[14] = {
-		group_id = 40303,
+	[15] = {
+		group_id = 80101,
 		activity_id = 0,
 		count = 1,
 		type = 2,
-		id = 14,
-		task_id = 5161
+		id = 15,
+		task_id = 5171
 	},
 	[16] = {
 		group_id = 80201,
@@ -304,13 +312,13 @@ pg.task_data_trigger = {
 		id = 40,
 		task_id = 5421
 	},
-	[41] = {
-		group_id = 10717,
+	[42] = {
+		group_id = 40305,
 		activity_id = 0,
 		count = 1,
 		type = 2,
-		id = 41,
-		task_id = 5431
+		id = 42,
+		task_id = 5441
 	},
 	[43] = {
 		group_id = 20505,
@@ -408,29 +416,21 @@ pg.task_data_trigger = {
 		id = 54,
 		task_id = 5561
 	},
-	[55] = {
-		group_id = 20226,
+	[57] = {
+		group_id = 10215,
 		activity_id = 0,
 		count = 1,
 		type = 2,
-		id = 55,
-		task_id = 5571
+		id = 57,
+		task_id = 5591
 	},
-	[58] = {
-		group_id = 10145,
+	[59] = {
+		group_id = 30115,
 		activity_id = 0,
 		count = 1,
 		type = 2,
-		id = 58,
-		task_id = 5601
-	},
-	[60] = {
-		group_id = 60701,
-		activity_id = 0,
-		count = 1,
-		type = 2,
-		id = 60,
-		task_id = 5621
+		id = 59,
+		task_id = 5611
 	},
 	[61] = {
 		group_id = 40802,
@@ -447,13 +447,14 @@ pg.task_data_trigger = {
 		4,
 		5,
 		6,
+		7,
 		8,
 		9,
 		10,
 		11,
 		12,
 		13,
-		14,
+		15,
 		16,
 		17,
 		18,
@@ -479,7 +480,7 @@ pg.task_data_trigger = {
 		38,
 		39,
 		40,
-		41,
+		42,
 		43,
 		44,
 		45,
@@ -492,9 +493,8 @@ pg.task_data_trigger = {
 		52,
 		53,
 		54,
-		55,
-		58,
-		60,
+		57,
+		59,
 		61
 	}
 }

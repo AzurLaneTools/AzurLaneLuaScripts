@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=45>五 劲敌(?)相遇</size>",
+					"“獻身”的大鳳\n\n<size=45>五 勁敵(?)相遇</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "和秘书舰{namecode:97}正在日常的巡逻工作中",
+			say = "和秘書艦大鳳正在日常的巡邏工作中",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，{namecode:91}前辈、{namecode:92}前辈，妳们好",
+			say = "啊，赤城前輩、加賀前輩，妳們好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，是{namecode:97}啊。和指挥官在进行日常巡逻吗，辛苦了",
+			say = "嗯，是大鳳啊。和指揮官在進行日常巡邏嗎，辛苦了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "指挥官大人~还有{namecode:97}吗，啧——了",
+			say = "指揮官大人~還有大鳳嗎，嘖——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵、呵呵、呵呵呵……一段时间没注意，指挥官大人身边又多了不少“害虫”呢",
+			say = "呵、呵呵、呵呵呵……一段時間沒注意，指揮官大人身邊又多了不少“害蟲”呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "看来有必要再安排一次“扫除”了——",
+			say = "看來有必要再安排一次“掃除”了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "仿佛看到{namecode:91}身上冒出了红黑色的火焰…然而",
+			say = "彷彿看到赤城身上冒出了紅黑色的火焰…然而",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_school",
 			soundeffect = "event:/ui/boat_drag",
 			dir = 1,
-			say = "（噗哟)——手臂感受到柔软的触感，大、{namecode:97}？",
+			say = "（噗喲)——手臂感受到柔軟的觸感，大、大鳳？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是遗憾，现在在指挥官身边的，是{namecode:97}呢~{namecode:91}前·辈",
+			say = "真是遺憾，現在在指揮官身邊的，是大鳳呢~赤城前·輩",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -186,7 +186,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心吧，{namecode:97}会代替{namecode:91}前辈，把指挥官大人身边的“害虫”全~~部驱除干净的！",
+			say = "放心吧，大鳳會代替赤城前輩，把指揮官大人身邊的“害蟲”全~~部驅除乾淨的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "妳这小丫头……私下配指挥官房间的钥匙然后每天晚上图谋夜袭的就是妳吧……",
+			say = "妳這小丫頭……私下配指揮官房間的鑰匙然後每天晚上圖謀夜襲的就是妳吧……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -223,7 +223,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵呵，{namecode:91}前辈妳不也是威胁{namecode:98}把指挥官出差时的便当材料全都换成了自己的？",
+			say = "呵呵呵，赤城前輩妳不也是威脅明石把指揮官出差時的便當材料全都換成了自己的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "仿佛看到两人的视线碰撞出了火花…同时，手臂感受到的力道越来越重，大、{namecode:97}？！",
+			say = "彷彿看到兩人的視線碰撞出了火花…同時，手臂感受到的力道越來越重，大、大鳳？ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也…辛苦了呢",
+			say = "指揮官也…辛苦了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "感受到了一旁{namecode:92}投来的同情目光——",
+			say = "感受到了一旁加賀投來的同情目光——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，能像这样和指挥官比肩同行……",
+			say = "呵呵呵，能像這樣和指揮官比肩同行……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:97}是世界上最幸福的人呢~",
+			say = "大鳳是世界上最幸福的人呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "{namecode:97}今天心情很好的样子",
+			say = "心情很好的樣子",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:97}作为秘书舰照顾指挥官，指挥官随心所欲的做好自己的事",
+			say = "大鳳作為秘書艦照顧指揮官，指揮官隨心所欲的做好自己的事",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总有一天{namecode:97}也好、指挥官也好，都能有所收获的吧~",
+			say = "總有一天大鳳和指揮官都會有所報答的呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "对{namecode:97}来说作为秘书舰照顾自己似乎有着特别的意义",
+			say = "對大鳳來說作為秘書艦照顧自己似乎有著特別的意義",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
