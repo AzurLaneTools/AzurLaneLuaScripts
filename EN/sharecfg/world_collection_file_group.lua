@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_collection_file_group = {
 	[110] = {
-		name = "Mysterious ",
+		name = "Aerolith Incident",
 		id_2 = "011",
 		name_abbreviate = "1",
 		type = 2,
@@ -16,7 +16,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[210] = {
-		name = "Mysterious ",
+		name = "Energy Revolution",
 		id_2 = "021",
 		name_abbreviate = "2",
 		type = 1,
@@ -31,7 +31,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[310] = {
-		name = "Mysterious ",
+		name = "Tech & Life",
 		id_2 = "031",
 		name_abbreviate = "3",
 		type = 1,
@@ -46,7 +46,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[320] = {
-		name = "Mysterious ",
+		name = "New Lifestyle",
 		id_2 = "032",
 		name_abbreviate = "4",
 		type = 1,
@@ -61,7 +61,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[330] = {
-		name = "Mysterious ",
+		name = "Cube Militarization",
 		id_2 = "033",
 		name_abbreviate = "5",
 		type = 5,
@@ -76,7 +76,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[410] = {
-		name = "Mysterious ",
+		name = "Cube Militarization II",
 		id_2 = "041",
 		name_abbreviate = "6",
 		type = 5,
@@ -91,7 +91,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[510] = {
-		name = "Mysterious ",
+		name = "Project Dusk",
 		id_2 = "051",
 		name_abbreviate = "7",
 		type = 3,
@@ -106,7 +106,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[610] = {
-		name = "Mysterious ",
+		name = "Mysterious",
 		id_2 = "061",
 		name_abbreviate = "1",
 		type = 3,
@@ -121,7 +121,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[710] = {
-		name = "Mysterious ",
+		name = "Mysterious",
 		id_2 = "071",
 		name_abbreviate = "1",
 		type = 3,
@@ -136,7 +136,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[810] = {
-		name = "Mysterious ",
+		name = "Global Affairs",
 		id_2 = "081",
 		name_abbreviate = "10",
 		type = 2,
@@ -151,7 +151,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[910] = {
-		name = "Mysterious ",
+		name = "Mysterious",
 		id_2 = "091",
 		name_abbreviate = "1",
 		type = 5,
@@ -166,7 +166,7 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1010] = {
-		name = "Mysterious ",
+		name = "Global Affairs II",
 		id_2 = "101",
 		name_abbreviate = "12",
 		type = 2,

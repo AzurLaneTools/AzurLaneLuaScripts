@@ -1138,7 +1138,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 285,
-		actor_name = "Serizawa Yu "
+		actor_name = "Kawai Haruna"
 	},
 	{
 		code = 286,
@@ -1146,10 +1146,10 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 287,
-		actor_name = "Kawai Haruna "
+		actor_name = "Noguchi Ruriko "
 	},
 	{
 		code = 288,
-		actor_name = "Noguchi Ruriko "
+		actor_name = "Serizawa Yu"
 	}
 }

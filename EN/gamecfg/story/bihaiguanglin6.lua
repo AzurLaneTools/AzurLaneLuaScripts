@@ -179,7 +179,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_daofeng_2",
 			nameColor = "#a9f548",
 			dir = 1,
