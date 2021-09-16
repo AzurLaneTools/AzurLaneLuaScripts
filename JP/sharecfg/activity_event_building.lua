@@ -180,6 +180,66 @@ pg.activity_event_building = {
 			15
 		}
 	},
+	{
+		id = 13,
+		name = "波乗饅頭",
+		material_id = 59237,
+		desc = "波とダンスだピョ！",
+		buff = {
+			13,
+			14,
+			15
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 14,
+		name = "飛込饅頭",
+		material_id = 59237,
+		desc = "水しぶきが少ないほうが得点が高いピョ！",
+		buff = {
+			16,
+			17,
+			18
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 15,
+		name = "滑降饅頭",
+		material_id = 59237,
+		desc = "スリリングなウォータースライドだピョ！",
+		buff = {
+			19,
+			20,
+			21
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 16,
+		name = "滝行饅頭",
+		material_id = 59237,
+		desc = "スリリングなウォーターフォールだピョ！",
+		buff = {
+			22,
+			23,
+			24
+		},
+		material = {
+			10,
+			15
+		}
+	},
 	all = {
 		1,
 		2,
@@ -192,6 +252,10 @@ pg.activity_event_building = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13,
+		14,
+		15,
+		16
 	}
 }

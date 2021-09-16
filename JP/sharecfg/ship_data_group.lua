@@ -10729,6 +10729,68 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[286] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 242,
+		code = 286,
+		group_type = 30147,
+		trans_type = 0,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：駆けよ 碧海の吹き風",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[287] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 243,
+		code = 287,
+		group_type = 30148,
+		trans_type = 0,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：駆けよ 碧海の吹き風",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[288] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -11771,6 +11833,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[268] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 269,
+		code = 268,
+		group_type = 30129,
+		trans_type = 0,
+		property_hexagon = {
+			"C",
+			"S",
+			"E",
+			"A",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：駆けよ 碧海の吹き風",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[182] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -11844,6 +11937,37 @@ pg.ship_data_group = {
 					{
 						chapterid = 703
 					}
+				},
+				0
+			}
+		}
+	},
+	[185] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 272,
+		code = 185,
+		group_type = 30207,
+		trans_type = 0,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：駆けよ 碧海の吹き風",
+				{
+					""
 				},
 				0
 			}
@@ -12486,6 +12610,37 @@ pg.ship_data_group = {
 						projectName = "heavy",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[195] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 289,
+		code = 195,
+		group_type = 30306,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：駆けよ 碧海の吹き風",
+				{
+					""
 				},
 				0
 			}
@@ -14199,6 +14354,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"イベント：刹那觀る胡蝶の夢",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[520] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 7,
+		nationality = 3,
+		handbook_type = 0,
+		index_id = 334,
+		code = 520,
+		group_type = 30712,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：駆けよ 碧海の吹き風",
 				{
 					""
 				},
@@ -20704,6 +20890,8 @@ pg.ship_data_group = {
 		163,
 		165,
 		164,
+		286,
+		287,
 		288,
 		331,
 		332,
@@ -20729,8 +20917,10 @@ pg.ship_data_group = {
 		296,
 		297,
 		449,
+		268,
 		182,
 		183,
+		185,
 		186,
 		187,
 		179,
@@ -20747,6 +20937,7 @@ pg.ship_data_group = {
 		191,
 		192,
 		193,
+		195,
 		196,
 		197,
 		198,
@@ -20791,6 +20982,7 @@ pg.ship_data_group = {
 		230,
 		474,
 		231,
+		520,
 		338,
 		396,
 		339,

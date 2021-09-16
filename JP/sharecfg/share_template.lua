@@ -233,13 +233,17 @@ pg.share_template = {
 		name = "玩家历程MarkII界面分享",
 		show_comps = "",
 		deck = 0,
-		hidden_comps = "",
 		id = 14,
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
 			-50,
 			-269
+		},
+		hidden_comps = {
+			"/UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/main/pages/page5/share",
+			"/UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/main/foots",
+			"/UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/back_btn"
 		}
 	},
 	{

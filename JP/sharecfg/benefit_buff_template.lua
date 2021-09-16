@@ -147,9 +147,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域における経験値入手+3%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				9,
+				13,
 				1
 			}
 		}
@@ -165,9 +165,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域における経験値入手+4%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				9,
+				13,
 				2
 			}
 		}
@@ -183,9 +183,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域における経験値入手+5%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				9,
+				13,
 				3
 			}
 		}
@@ -201,9 +201,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域で与えるダメージ+1%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				10,
+				14,
 				1
 			}
 		}
@@ -219,9 +219,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域で与えるダメージ+2%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				10,
+				14,
 				2
 			}
 		}
@@ -237,9 +237,9 @@ pg.benefit_buff_template = {
 		desc = "メイン海域・イベント海域で与えるダメージ+3%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				10,
+				14,
 				3
 			}
 		}
@@ -255,9 +255,9 @@ pg.benefit_buff_template = {
 		desc = "戦術教室でスキルを強化する場合、所要時間-3%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				11,
+				15,
 				1
 			}
 		}
@@ -273,9 +273,9 @@ pg.benefit_buff_template = {
 		desc = "戦術教室でスキルを強化する場合、所要時間-4%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				11,
+				15,
 				2
 			}
 		}
@@ -291,9 +291,9 @@ pg.benefit_buff_template = {
 		desc = "戦術教室でスキルを強化する場合、所要時間-5%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				11,
+				15,
 				3
 			}
 		}
@@ -309,9 +309,9 @@ pg.benefit_buff_template = {
 		desc = "寮舎経験値入手＋3％",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				12,
+				16,
 				1
 			}
 		}
@@ -327,9 +327,9 @@ pg.benefit_buff_template = {
 		desc = "寮舎経験値入手＋4％",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				12,
+				16,
 				2
 			}
 		}
@@ -345,9 +345,9 @@ pg.benefit_buff_template = {
 		desc = "寮舎経験値入手＋5％",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				12,
+				16,
 				3
 			}
 		}

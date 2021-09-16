@@ -13,7 +13,7 @@ pg.activity_const = {
 		act_id = 122
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 4000
+		act_id = 4124
 	},
 	ACT_NPC_SHIP_ID = {
 		act_id = 989
@@ -779,5 +779,17 @@ pg.activity_const = {
 	},
 	ROP_COW_ID = {
 		act_id = 4078
+	},
+	JIUJIU_YOYO_ID = {
+		act_id = 4120
+	},
+	JP_CEREMONY_INVITATION_ID = {
+		act_id = 4110
+	},
+	RETUREN_AWARD_1 = {
+		act_id = 4111
+	},
+	CATCH_TREASURE_ID = {
+		act_id = 4109
 	}
 }

@@ -205,7 +205,18 @@ pg.effect_offset = {
 		top_cover_offset = false,
 		offset = {
 			0,
-			5,
+			3,
+			0
+		}
+	},
+	SPDdowm = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			3,
 			0
 		}
 	},

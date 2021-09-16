@@ -40,7 +40,8 @@ function slot0.GetAttributes(slot0)
 	return {
 		[slot6] = slot2["attribute_" .. slot6] ~= nil and {
 			type = slot7,
-			value = string.match(slot8, "^[%d|\\.]+$") and tonumber(slot8) or slot8
+			value = string.match(slot8, "^[%d|\\.]+$") and tonumber(slot8) or slot8,
+			auxBoost = slot0:isDevice()
 		} or false
 	}
 end
@@ -65,6 +66,7 @@ end
 
 function slot0.GetInfoTrans(slot0, slot1)
 	slot3 = slot0.value
+	slot4 = slot0.auxBoost
 
 	if slot0.type == AttributeType.CD then
 		if not slot1 then
@@ -78,7 +80,7 @@ function slot0.GetInfoTrans(slot0, slot1)
 		slot3 = (math.floor(slot3 / 100) > 0 and "+" or slot3 < 0 and "-" or "") .. slot3 .. "%"
 	end
 
-	return slot2 or AttributeType.Type2Name(slot0.type), slot3 or ""
+	return slot2 or AttributeType.Type2Name(slot0.type), slot3 or "", slot4 and slot1 and table.contains(slot1:getSpecificType(), ShipType.SpecificTypeTable.auxiliary)
 end
 
 function slot1(slot0)
@@ -226,6 +228,7 @@ function slot0.GetPropertiesInfo(slot0)
 		slot0.config.part_main,
 		slot0.config.part_sub
 	}
+	slot2.equipmentType = slot0.config.type
 
 	return slot2
 end
@@ -361,7 +364,7 @@ function slot0.GetEquipAttrInfo(slot0, slot1, slot2)
 	elseif slot1 == 4 then
 		return {
 			name = i18n("equip_info_18"),
-			value = pg.barrage_template[slot2].random_angle and slot3.angle or math.abs(slot3.angle) + math.abs(slot3.delta_angle) * slot3.primal_repeat
+			value = pg.barrage_template[slot2].random_angle and slot3.angle or math.abs(slot3.delta_angle) * slot3.primal_repeat
 		}
 	elseif slot1 == 5 then
 		return {

@@ -75,6 +75,10 @@ function slot0.update(slot0, slot1)
 			setActive(slot0._tagTFs[7], true)
 		end
 	end
+
+	setAnchoredPosition(slot0._icon.gameObject, {
+		y = slot2 == 302053 and 39 or 0
+	})
 end
 
 function slot0.updateSelected(slot0, slot1)

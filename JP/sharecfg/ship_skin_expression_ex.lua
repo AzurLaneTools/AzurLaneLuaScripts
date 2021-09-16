@@ -5,17 +5,18 @@ pg.ship_skin_expression_ex = {
 		feeling3 = "",
 		feeling5 = "",
 		upgrade = "",
-		lose = "",
+		skill = "",
 		win_mvp = "",
 		home = "",
 		main_ex = "",
 		feeling2 = "",
-		headtouch = "",
+		profile = "",
 		painting = "kewei",
 		battle = "",
 		feeling4 = "",
 		touch = "",
-		profile = "",
+		lose = "",
+		headtouch = "",
 		login = {
 			{
 				1100,
@@ -82,11 +83,12 @@ pg.ship_skin_expression_ex = {
 		feeling3 = "",
 		lose = "",
 		upgrade = "",
-		profile = "",
+		skill = "",
 		win_mvp = "",
-		headtouch = "",
+		profile = "",
 		main_ex = "",
 		feeling2 = "",
+		headtouch = "",
 		painting = "jiasikenie_idol",
 		battle = "",
 		feeling4 = "",
@@ -180,6 +182,7 @@ pg.ship_skin_expression_ex = {
 		mail = "",
 		touch = "",
 		main_3 = "",
+		skill = "",
 		profile = "",
 		feeling5 = "",
 		upgrade = "",
@@ -206,11 +209,12 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		main_ex = "",
 		feeling2 = "",
-		profile = "",
-		painting = "junhe",
 		lose = "",
+		painting = "junhe",
+		profile = "",
 		mail = "",
 		touch = "",
+		skill = "",
 		login = {
 			{
 				1100,
@@ -288,8 +292,9 @@ pg.ship_skin_expression_ex = {
 		home = "",
 		main_ex = "",
 		touch2 = "",
-		profile = "",
+		skill = "",
 		painting = "longfeng",
+		profile = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -347,6 +352,7 @@ pg.ship_skin_expression_ex = {
 		touch = "",
 		main_3 = "",
 		feeling4 = "",
+		skill = "",
 		profile = "",
 		upgrade = "",
 		mission_complete = "",
@@ -372,8 +378,9 @@ pg.ship_skin_expression_ex = {
 		home = "",
 		mission = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		painting = "gangute",
+		profile = "",
 		mail = "",
 		feeling1 = "",
 		feeling5 = "",
@@ -424,11 +431,12 @@ pg.ship_skin_expression_ex = {
 		mission_complete = "",
 		mission = "",
 		feeling2 = "",
-		headtouch = "",
+		skill = "",
 		painting = "qiabayefu",
-		profile = "",
+		headtouch = "",
 		mail = "",
 		feeling1 = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -506,8 +514,9 @@ pg.ship_skin_expression_ex = {
 		home = "",
 		mission = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		painting = "shuixingjinian",
+		profile = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
@@ -562,6 +571,7 @@ pg.ship_skin_expression_ex = {
 		win_mvp = "",
 		feeling4 = "",
 		mission = "",
+		skill = "",
 		profile = "",
 		painting = "suweiailuoxiya",
 		mail = "",
@@ -610,8 +620,9 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		mission = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		painting = "bulaimodun",
+		profile = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
@@ -667,8 +678,9 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		mission = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		painting = "kasabulanka",
+		profile = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -726,10 +738,11 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling4 = "",
 		painting = "mabuerheide",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
+		profile = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -772,6 +785,7 @@ pg.ship_skin_expression_ex = {
 		mail = "",
 		touch = "",
 		main_3 = "",
+		skill = "",
 		login = {
 			{
 				1100,
@@ -842,6 +856,7 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		home = "",
 		mission = "",
+		skill = "",
 		profile = "",
 		painting = "huangjiafangzhou",
 		mail = "",
@@ -910,8 +925,9 @@ pg.ship_skin_expression_ex = {
 		home = "",
 		mission = "",
 		touch2 = "",
-		profile = "",
+		skill = "",
 		painting = "lisailiu",
+		profile = "",
 		mail = "",
 		feeling1 = "",
 		main_3 = "",
@@ -969,9 +985,10 @@ pg.ship_skin_expression_ex = {
 		touch2 = "",
 		feeling4 = "",
 		painting = "nake",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
+		profile = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -1008,6 +1025,7 @@ pg.ship_skin_expression_ex = {
 		win_mvp = "",
 		home = "",
 		main_ex = "",
+		skill = "",
 		profile = "",
 		painting = "huayue",
 		mail = "",
@@ -1065,9 +1083,10 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling3 = "",
 		upgrade = "",
+		skill = "",
 		profile = "",
-		headtouch = "",
 		win_mvp = "",
+		headtouch = "",
 		main_ex = "",
 		feeling2 = "",
 		painting = "tuzuo",
@@ -1160,8 +1179,9 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		profile = "",
+		skill = "",
 		main_ex = "",
+		profile = "",
 		painting = "aerjiliya",
 		mail = "",
 		touch = "",
@@ -1229,6 +1249,7 @@ pg.ship_skin_expression_ex = {
 		win_mvp = "",
 		home = "",
 		mission = "",
+		skill = "",
 		profile = "",
 		painting = "shengnvzhende",
 		mail = "",
@@ -1288,16 +1309,17 @@ pg.ship_skin_expression_ex = {
 		feeling1 = "",
 		lose = "",
 		feeling4 = "",
-		upgrade = "",
+		skill = "",
 		profile = "",
 		mission = "",
-		feeling2 = "",
-		headtouch = "",
 		painting = "wokelan",
-		battle = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
 		detail = "",
 		login = {
 			{
@@ -1363,6 +1385,7 @@ pg.ship_skin_expression_ex = {
 		win_mvp = "",
 		feeling4 = "",
 		mission = "",
+		skill = "",
 		profile = "",
 		painting = "taertu",
 		mail = "",
@@ -1417,17 +1440,18 @@ pg.ship_skin_expression_ex = {
 		main_1 = "",
 		feeling1 = "",
 		expedition = "",
-		upgrade = "",
 		feeling4 = "",
+		skill = "",
 		mission = "",
 		touch2 = "",
 		profile = "",
 		painting = "edu",
-		battle = "",
 		mail = "",
 		touch = "",
-		feeling2 = "",
+		upgrade = "",
 		headtouch = "",
+		feeling2 = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -1493,11 +1517,12 @@ pg.ship_skin_expression_ex = {
 		mission_complete = "",
 		mission = "",
 		feeling2 = "",
-		headtouch = "",
+		skill = "",
 		painting = "weiershiqinwang",
-		profile = "",
+		headtouch = "",
 		mail = "",
 		feeling1 = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -1575,8 +1600,9 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		mission = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		painting = "jialisuoniye",
+		profile = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
@@ -1628,6 +1654,7 @@ pg.ship_skin_expression_ex = {
 		mail = "",
 		touch = "",
 		main_3 = "",
+		skill = "",
 		profile = "",
 		feeling5 = "",
 		upgrade = "",
@@ -1651,15 +1678,16 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		mission_complete = "",
+		skill = "",
 		mission = "",
-		feeling2 = "",
-		headtouch = "",
 		painting = "ying",
-		battle = "",
 		mail = "",
 		feeling1 = "",
 		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
 		detail = "",
 		login = {
 			{
@@ -1726,8 +1754,9 @@ pg.ship_skin_expression_ex = {
 		home = "",
 		mission = "",
 		touch2 = "",
-		profile = "",
+		skill = "",
 		painting = "yikaluosi",
+		profile = "",
 		main_2 = "",
 		feeling1 = "",
 		upgrade = "",
@@ -1793,6 +1822,7 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		mail = "",
 		feeling1 = "",
+		skill = "",
 		profile = "",
 		upgrade = "",
 		mission_complete = "",
@@ -1830,8 +1860,9 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		mission = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		painting = "hao",
+		profile = "",
 		mail = "",
 		feeling1 = "",
 		upgrade = "",
@@ -1882,10 +1913,11 @@ pg.ship_skin_expression_ex = {
 		feeling3 = "",
 		lose = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
+		profile = "",
 		painting = "yingxianzuo",
 		mail = "",
 		feeling1 = "",
@@ -1956,9 +1988,10 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling4 = "",
 		painting = "aoding",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
+		profile = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -2011,8 +2044,9 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		mission = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		painting = "chaijun",
+		profile = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
@@ -2075,10 +2109,11 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling4 = "",
 		painting = "deleike",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
+		profile = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -2117,10 +2152,11 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling4 = "",
 		painting = "meiyinci",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
+		profile = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -2157,8 +2193,9 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		mission = "",
 		touch2 = "",
-		profile = "",
+		skill = "",
 		painting = "U96",
+		profile = "",
 		mail = "",
 		feeling1 = "",
 		main_3 = "",
@@ -2206,9 +2243,10 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		profile = "",
+		skill = "",
 		mission = "",
 		touch2 = "",
+		profile = "",
 		painting = "shengwang_younv",
 		mail = "",
 		feeling1 = "",
@@ -2263,9 +2301,10 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling4 = "",
 		painting = "jiyi",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
+		profile = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -2307,6 +2346,7 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		home = "",
 		mission = "",
+		skill = "",
 		profile = "",
 		painting = "jianye",
 		mail = "",
@@ -2377,10 +2417,11 @@ pg.ship_skin_expression_ex = {
 		touch2 = "",
 		feeling4 = "",
 		painting = "liangyue",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
+		profile = "",
 		upgrade = "",
 		feeling2 = "",
 		battle = "",
@@ -2437,8 +2478,9 @@ pg.ship_skin_expression_ex = {
 		home = "",
 		mission = "",
 		touch2 = "",
-		profile = "",
+		skill = "",
 		painting = "aisijimo",
+		profile = "",
 		mail = "",
 		feeling1 = "",
 		main_3 = "",
@@ -2479,9 +2521,9 @@ pg.ship_skin_expression_ex = {
 		feeling3 = "",
 		main_1 = "",
 		feeling4 = "",
-		feeling5 = "",
+		skill = "",
 		upgrade = "",
-		profile = "",
+		feeling5 = "",
 		main_ex = "",
 		feeling2 = "",
 		headtouch = "",
@@ -2489,6 +2531,7 @@ pg.ship_skin_expression_ex = {
 		battle = "",
 		mail = "",
 		feeling1 = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -2563,8 +2606,9 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		profile = "",
+		skill = "",
 		mission = "",
+		profile = "",
 		painting = "pulinsidun",
 		mail = "",
 		feeling1 = "",
@@ -2630,10 +2674,11 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling4 = "",
 		painting = "shitelasai",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
+		profile = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -2675,6 +2720,7 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		mail = "",
 		touch = "",
+		skill = "",
 		profile = "",
 		feeling5 = "",
 		upgrade = "",
@@ -2717,8 +2763,9 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		mission = "",
 		touch2 = "",
-		profile = "",
+		skill = "",
 		painting = "Z24",
+		profile = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
@@ -2766,9 +2813,10 @@ pg.ship_skin_expression_ex = {
 		touch2 = "",
 		feeling4 = "",
 		painting = "niulunbao",
-		profile = "",
+		skill = "",
 		mail = "",
 		feeling1 = "",
+		profile = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -2818,10 +2866,11 @@ pg.ship_skin_expression_ex = {
 		touch2 = "",
 		feeling4 = "",
 		painting = "peineiluopo",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
+		profile = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -2859,6 +2908,7 @@ pg.ship_skin_expression_ex = {
 		mail = "",
 		touch = "",
 		main_3 = "",
+		skill = "",
 		profile = "",
 		feeling5 = "",
 		upgrade = "",
@@ -2894,6 +2944,7 @@ pg.ship_skin_expression_ex = {
 		win_mvp = "",
 		home = "",
 		main_ex = "",
+		skill = "",
 		profile = "",
 		painting = "zhaohe",
 		mail = "",
@@ -2964,10 +3015,11 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling4 = "",
 		painting = "moermansike",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
+		profile = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -3002,8 +3054,9 @@ pg.ship_skin_expression_ex = {
 		expedition = "",
 		win_mvp = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		touch2 = "",
+		profile = "",
 		painting = "leiming",
 		mail = "",
 		touch = "",
@@ -3063,10 +3116,11 @@ pg.ship_skin_expression_ex = {
 		touch2 = "",
 		feeling4 = "",
 		painting = "hongliang",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
+		profile = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -3102,6 +3156,7 @@ pg.ship_skin_expression_ex = {
 		win_mvp = "",
 		feeling4 = "",
 		mission = "",
+		skill = "",
 		profile = "",
 		painting = "talin",
 		mail = "",
@@ -3157,10 +3212,11 @@ pg.ship_skin_expression_ex = {
 		touch2 = "",
 		feeling4 = "",
 		painting = "jiluofu",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
+		profile = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -3196,6 +3252,7 @@ pg.ship_skin_expression_ex = {
 		win_mvp = "",
 		home = "",
 		mission = "",
+		skill = "",
 		profile = "",
 		painting = "suweiaibeilaluosi",
 		main_2 = "",
@@ -3255,6 +3312,7 @@ pg.ship_skin_expression_ex = {
 		mail = "",
 		touch = "",
 		main_3 = "",
+		skill = "",
 		profile = "",
 		feeling5 = "",
 		upgrade = "",
@@ -3281,8 +3339,9 @@ pg.ship_skin_expression_ex = {
 		home = "",
 		feeling4 = "",
 		touch2 = "",
-		profile = "",
+		skill = "",
 		painting = "ailunsamuna",
+		profile = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
@@ -3344,6 +3403,7 @@ pg.ship_skin_expression_ex = {
 		mail = "",
 		touch = "",
 		main_3 = "",
+		skill = "",
 		profile = "",
 		feeling5 = "",
 		upgrade = "",
@@ -3377,8 +3437,9 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		expedition = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		mission = "",
+		profile = "",
 		painting = "tiancheng_younv",
 		mail = "",
 		feeling1 = "",
@@ -3447,8 +3508,9 @@ pg.ship_skin_expression_ex = {
 		home = "",
 		lose = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		painting = "tianying",
+		profile = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
@@ -3515,6 +3577,7 @@ pg.ship_skin_expression_ex = {
 		mail = "",
 		touch = "",
 		main_3 = "",
+		skill = "",
 		profile = "",
 		feeling5 = "",
 		upgrade = "",
@@ -3538,8 +3601,9 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		expedition = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		mission = "",
+		profile = "",
 		painting = "xibeifeng",
 		mail = "",
 		feeling1 = "",
@@ -3605,9 +3669,10 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		profile = "",
+		skill = "",
 		mission = "",
 		touch2 = "",
+		profile = "",
 		painting = "xinanfeng",
 		mail = "",
 		feeling1 = "",
@@ -3666,9 +3731,10 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling4 = "",
 		expedition = "",
-		profile = "",
+		skill = "",
 		home = "",
 		mission = "",
+		profile = "",
 		painting = "abuluqi",
 		mail = "",
 		feeling1 = "",
@@ -3729,9 +3795,10 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling4 = "",
 		win_mvp = "",
-		profile = "",
+		skill = "",
 		mission = "",
 		touch2 = "",
+		profile = "",
 		painting = "daleike",
 		mail = "",
 		touch = "",
@@ -3792,6 +3859,7 @@ pg.ship_skin_expression_ex = {
 		expedition = "",
 		feeling4 = "",
 		home = "",
+		skill = "",
 		profile = "",
 		painting = "tuolichaili",
 		mail = "",
@@ -3845,9 +3913,10 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling3 = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		expedition = "",
 		win_mvp = "",
+		profile = "",
 		mission = "",
 		painting = "xinzexi",
 		mail = "",
@@ -3920,10 +3989,11 @@ pg.ship_skin_expression_ex = {
 		touch2 = "",
 		feeling4 = "",
 		painting = "tikangdeluojia",
-		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
+		profile = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -3969,6 +4039,7 @@ pg.ship_skin_expression_ex = {
 		win_mvp = "",
 		home = "",
 		mission = "",
+		skill = "",
 		profile = "",
 		painting = "molisen",
 		mail = "",
@@ -4033,6 +4104,7 @@ pg.ship_skin_expression_ex = {
 		main_1 = "",
 		feeling4 = "",
 		expedition = "",
+		skill = "",
 		profile = "",
 		mission = "",
 		painting = "boyixi",
@@ -4101,9 +4173,10 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		feeling4 = "",
 		win_mvp = "",
-		profile = "",
+		skill = "",
 		mission = "",
 		touch2 = "",
+		profile = "",
 		painting = "jiujinshan",
 		main_2 = "",
 		touch = "",
@@ -4163,10 +4236,11 @@ pg.ship_skin_expression_ex = {
 		touch2 = "",
 		feeling4 = "",
 		painting = "qiye_younv",
-		profile = "",
+		skill = "",
 		mail = "",
 		feeling1 = "",
 		main_3 = "",
+		profile = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -4213,8 +4287,9 @@ pg.ship_skin_expression_ex = {
 		feeling4 = "",
 		mission = "",
 		touch2 = "",
-		profile = "",
+		skill = "",
 		painting = "fengyun",
+		profile = "",
 		mail = "",
 		feeling1 = "",
 		main_3 = "",
@@ -4258,20 +4333,21 @@ pg.ship_skin_expression_ex = {
 	bailong = {
 		main_ex = "",
 		feeling3 = "",
-		feeling5 = "",
+		feeling1 = "",
 		lose = "",
-		upgrade = "",
+		feeling4 = "",
 		win_mvp = "",
-		mission_complete = "",
+		skill = "",
 		mission = "",
-		feeling2 = "",
 		profile = "",
 		painting = "bailong",
-		battle = "",
 		mail = "",
 		touch = "",
-		feeling1 = "",
-		feeling4 = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -4336,6 +4412,7 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		home = "",
 		feeling4 = "",
+		skill = "",
 		profile = "",
 		painting = "chunxiang",
 		mail = "",
@@ -4398,6 +4475,7 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		home = "",
 		feeling4 = "",
+		skill = "",
 		profile = "",
 		painting = "lvzi",
 		mail = "",
@@ -4455,6 +4533,7 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		home = "",
 		feeling4 = "",
+		skill = "",
 		profile = "",
 		painting = "qianzao",
 		mail = "",
@@ -4513,8 +4592,9 @@ pg.ship_skin_expression_ex = {
 		home = "",
 		lose = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
 		painting = "yamei",
+		profile = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
@@ -4569,6 +4649,7 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		home = "",
 		feeling4 = "",
+		skill = "",
 		profile = "",
 		painting = "yizhi",
 		mail = "",
@@ -4636,6 +4717,7 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		home = "",
 		feeling4 = "",
+		skill = "",
 		profile = "",
 		painting = "zhenmei",
 		mail = "",
@@ -4695,17 +4777,18 @@ pg.ship_skin_expression_ex = {
 		main_1 = "",
 		main_2 = "",
 		expedition = "",
-		upgrade = "",
+		lose = "",
 		home = "",
-		headtouch = "",
-		feeling2 = "",
+		feeling4 = "",
+		skill = "",
 		profile = "",
 		painting = "zi",
-		lose = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
-		feeling4 = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
 		login = {
 			{
 				1100,
@@ -4770,6 +4853,7 @@ pg.ship_skin_expression_ex = {
 		win_mvp = "",
 		feeling4 = "",
 		mission = "",
+		skill = "",
 		profile = "",
 		painting = "yingwuluo",
 		mail = "",
@@ -4807,6 +4891,464 @@ pg.ship_skin_expression_ex = {
 			}
 		},
 		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		}
+	},
+	daofeng = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		lose = "",
+		feeling4 = "",
+		upgrade = "",
+		skill = "",
+		mission = "",
+		feeling2 = "",
+		profile = "",
+		painting = "daofeng",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"5"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"4"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"5"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"1|4|2"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"1"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"5"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
+	},
+	gecheng = {
+		main_ex = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		skill = "",
+		profile = "",
+		painting = "gecheng",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"4"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"4"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"3"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
+	},
+	haifeng = {
+		main_ex = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		upgrade = "",
+		mission_complete = "",
+		mission = "",
+		feeling2 = "",
+		skill = "",
+		painting = "haifeng",
+		battle = "",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"4"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"5"
+			}
+		},
+		home = {
+			{
+				1100,
+				"5"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"5"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"4"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"1"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"5"
+			}
+		}
+	},
+	shanfeng = {
+		main_2 = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		skill = "",
+		win_mvp = "",
+		profile = "",
+		mission = "",
+		painting = "shanfeng",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"2"
+			}
+		},
+		home = {
+			{
+				1100,
+				"3"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"3"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"7"
+			}
+		}
+	},
+	youliang = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		feeling4 = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		mission = "",
+		feeling2 = "",
+		mission_complete = "",
+		painting = "youliang",
+		profile = "",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"3"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"2"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"3"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"2|1|2|1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"3"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		},
+		skill = {
+			{
+				1100,
+				"3"
+			}
+		}
+	},
+	zhumo = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		lose = "",
+		expedition = "",
+		upgrade = "",
+		feeling4 = "",
+		headtouch = "",
+		feeling2 = "",
+		skill = "",
+		painting = "zhumo",
+		battle = "",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"5"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"1|2"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"1"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"5"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		feeling5 = {
 			{
 				1100,
 				"5"

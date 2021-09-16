@@ -120476,6 +120476,502 @@ pg.ship_data_statistics = {
 			"Kagero-Class"
 		}
 	},
+	[301291] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "島風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301290,
+		english_name = "IJN Shimakaze",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301291,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			381,
+			14,
+			116,
+			30,
+			0,
+			82,
+			0,
+			74,
+			86,
+			48.72,
+			41,
+			52
+		},
+		attrs_growth = {
+			9290,
+			140,
+			1148,
+			592,
+			0,
+			410,
+			0,
+			1092,
+			1266,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shimakaze-Class"
+		}
+	},
+	[301292] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "島風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301290,
+		english_name = "IJN Shimakaze",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301292,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			474,
+			18,
+			145,
+			37,
+			0,
+			82,
+			0,
+			74,
+			86,
+			48.72,
+			41,
+			65
+		},
+		attrs_growth = {
+			9290,
+			140,
+			1148,
+			592,
+			0,
+			410,
+			0,
+			1092,
+			1266,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.55,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shimakaze-Class"
+		}
+	},
+	[301293] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "島風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301290,
+		english_name = "IJN Shimakaze",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301293,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			660,
+			25,
+			202,
+			52,
+			0,
+			82,
+			0,
+			74,
+			86,
+			48.72,
+			41,
+			90
+		},
+		attrs_growth = {
+			9290,
+			140,
+			1148,
+			592,
+			0,
+			410,
+			0,
+			1092,
+			1266,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.65,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shimakaze-Class"
+		}
+	},
+	[301294] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "島風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301290,
+		english_name = "IJN Shimakaze",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301294,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			938,
+			35,
+			288,
+			74,
+			0,
+			82,
+			0,
+			74,
+			86,
+			48.72,
+			41,
+			129
+		},
+		attrs_growth = {
+			9290,
+			140,
+			1148,
+			592,
+			0,
+			410,
+			0,
+			1092,
+			1266,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			9280,
+			325,
+			1432,
+			398,
+			0,
+			970,
+			0,
+			-637,
+			-889,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			2,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.7,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shimakaze-Class"
+		}
+	},
 	[301301] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -124938,6 +125434,998 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		}
+	},
+	[301471] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "海風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301470,
+		english_name = "IJN Umikaze",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301471,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			271,
+			12,
+			95,
+			26,
+			0,
+			73,
+			0,
+			70,
+			71,
+			40.8,
+			50,
+			45
+		},
+		attrs_growth = {
+			6610,
+			116,
+			944,
+			512,
+			0,
+			364,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			448
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
+	},
+	[301472] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "海風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301470,
+		english_name = "IJN Umikaze",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301472,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			337,
+			15,
+			119,
+			32,
+			0,
+			73,
+			0,
+			70,
+			71,
+			40.8,
+			50,
+			56
+		},
+		attrs_growth = {
+			6610,
+			116,
+			944,
+			512,
+			0,
+			364,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			448
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
+	},
+	[301473] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "海風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301470,
+		english_name = "IJN Umikaze",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301473,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			469,
+			21,
+			166,
+			45,
+			0,
+			73,
+			0,
+			70,
+			71,
+			40.8,
+			50,
+			79
+		},
+		attrs_growth = {
+			6610,
+			116,
+			944,
+			512,
+			0,
+			364,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			448
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
+	},
+	[301474] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "海風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301470,
+		english_name = "IJN Umikaze",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301474,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			668,
+			29,
+			237,
+			64,
+			0,
+			73,
+			0,
+			70,
+			71,
+			40.8,
+			50,
+			112
+		},
+		attrs_growth = {
+			6610,
+			116,
+			944,
+			512,
+			0,
+			364,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			448
+		},
+		attrs_growth_extra = {
+			6610,
+			274,
+			1176,
+			343,
+			0,
+			866,
+			0,
+			-602,
+			-759,
+			0,
+			0,
+			446
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
+	},
+	[301481] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "山風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301480,
+		english_name = "IJN Yamakaze",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301481,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			271,
+			12,
+			94,
+			26,
+			0,
+			73,
+			0,
+			70,
+			71,
+			40.8,
+			35,
+			46
+		},
+		attrs_growth = {
+			6610,
+			122,
+			932,
+			512,
+			0,
+			364,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			456
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
+	},
+	[301482] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "山風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301480,
+		english_name = "IJN Yamakaze",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301482,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			337,
+			15,
+			117,
+			32,
+			0,
+			73,
+			0,
+			70,
+			71,
+			40.8,
+			35,
+			57
+		},
+		attrs_growth = {
+			6610,
+			122,
+			932,
+			512,
+			0,
+			364,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			456
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
+	},
+	[301483] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "山風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301480,
+		english_name = "IJN Yamakaze",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301483,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			469,
+			21,
+			164,
+			45,
+			0,
+			73,
+			0,
+			70,
+			71,
+			40.8,
+			35,
+			80
+		},
+		attrs_growth = {
+			6610,
+			122,
+			932,
+			512,
+			0,
+			364,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			456
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shiratsuyu-Class"
+		}
+	},
+	[301484] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "山風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301480,
+		english_name = "IJN Yamakaze",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301484,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			668,
+			30,
+			234,
+			64,
+			0,
+			73,
+			0,
+			70,
+			71,
+			40.8,
+			35,
+			114
+		},
+		attrs_growth = {
+			6610,
+			122,
+			932,
+			512,
+			0,
+			364,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			456
+		},
+		attrs_growth_extra = {
+			6610,
+			283,
+			1163,
+			343,
+			0,
+			866,
+			0,
+			-602,
+			-759,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shiratsuyu-Class"
 		}
 	},
 	[301491] = {
@@ -137517,6 +139005,514 @@ pg.ship_data_statistics = {
 			"Nagara-Class"
 		}
 	},
+	[302071] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "由良",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302070,
+		english_name = "IJN Yura",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302071,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			496,
+			27,
+			54,
+			57,
+			0,
+			67,
+			0,
+			50,
+			31,
+			36,
+			40,
+			34
+		},
+		attrs_growth = {
+			12100,
+			266,
+			538,
+			1120,
+			0,
+			332,
+			0,
+			732,
+			456,
+			0,
+			0,
+			340
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.2,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Nagara-Class"
+		}
+	},
+	[302072] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "由良",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302070,
+		english_name = "IJN Yura",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302072,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			617,
+			34,
+			67,
+			71,
+			0,
+			67,
+			0,
+			50,
+			31,
+			36,
+			40,
+			43
+		},
+		attrs_growth = {
+			12100,
+			266,
+			538,
+			1120,
+			0,
+			332,
+			0,
+			732,
+			456,
+			0,
+			0,
+			340
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Nagara-Class"
+		}
+	},
+	[302073] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "由良",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302070,
+		english_name = "IJN Yura",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302073,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			859,
+			47,
+			94,
+			99,
+			0,
+			67,
+			0,
+			50,
+			31,
+			36,
+			40,
+			60
+		},
+		attrs_growth = {
+			12100,
+			266,
+			538,
+			1120,
+			0,
+			332,
+			0,
+			732,
+			456,
+			0,
+			0,
+			340
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Nagara-Class"
+		}
+	},
+	[302074] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "由良",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302070,
+		english_name = "IJN Yura",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302074,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1222,
+			67,
+			135,
+			141,
+			0,
+			67,
+			0,
+			50,
+			31,
+			36,
+			40,
+			85
+		},
+		attrs_growth = {
+			12100,
+			266,
+			538,
+			1120,
+			0,
+			332,
+			0,
+			732,
+			456,
+			0,
+			0,
+			340
+		},
+		attrs_growth_extra = {
+			3627,
+			634,
+			1150,
+			602,
+			0,
+			786,
+			0,
+			0,
+			724,
+			0,
+			0,
+			411
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.65,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Nagara-Class"
+		}
+	},
 	[302081] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -144107,6 +146103,510 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Aoba-Class"
+		}
+	},
+	[303061] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "筑摩",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303060,
+		english_name = "IJN Chikuma",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303061,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			755,
+			49,
+			46,
+			35,
+			0,
+			66,
+			0,
+			40,
+			13,
+			28.35,
+			42,
+			0
+		},
+		attrs_growth = {
+			18415,
+			482,
+			454,
+			692,
+			0,
+			330,
+			0,
+			594,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.5,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tone-Class"
+		}
+	},
+	[303062] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "筑摩",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303060,
+		english_name = "IJN Chikuma",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303062,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			939,
+			61,
+			57,
+			44,
+			0,
+			66,
+			0,
+			40,
+			13,
+			28.35,
+			42,
+			0
+		},
+		attrs_growth = {
+			18415,
+			482,
+			454,
+			692,
+			0,
+			330,
+			0,
+			594,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.5,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tone-Class"
+		}
+	},
+	[303063] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "筑摩",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303060,
+		english_name = "IJN Chikuma",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303063,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1307,
+			85,
+			80,
+			61,
+			0,
+			66,
+			0,
+			40,
+			13,
+			28.35,
+			42,
+			0
+		},
+		attrs_growth = {
+			18415,
+			482,
+			454,
+			692,
+			0,
+			330,
+			0,
+			594,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tone-Class"
+		}
+	},
+	[303064] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "筑摩",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303060,
+		english_name = "IJN Chikuma",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303064,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1860,
+			121,
+			114,
+			87,
+			0,
+			66,
+			0,
+			40,
+			13,
+			28.35,
+			42,
+			0
+		},
+		attrs_growth = {
+			18415,
+			482,
+			454,
+			692,
+			0,
+			330,
+			0,
+			594,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4604,
+			1095,
+			1061,
+			471,
+			0,
+			780,
+			0,
+			1,
+			1768,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.75,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tone-Class"
 		}
 	},
 	[303071] = {
@@ -167141,6 +169641,502 @@ pg.ship_data_statistics = {
 			"Armor-CV",
 			"μ",
 			"special"
+		}
+	},
+	[307121] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "葛城",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307120,
+		english_name = "IJN Katsuragi",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 307121,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1014,
+			0,
+			0,
+			58,
+			80,
+			44,
+			0,
+			32,
+			13,
+			32,
+			75,
+			0
+		},
+		attrs_growth = {
+			24720,
+			0,
+			0,
+			1144,
+			792,
+			220,
+			0,
+			480,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unryū-Class"
+		}
+	},
+	[307122] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "葛城",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307120,
+		english_name = "IJN Katsuragi",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 307122,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1261,
+			0,
+			0,
+			72,
+			100,
+			44,
+			0,
+			32,
+			13,
+			32,
+			75,
+			0
+		},
+		attrs_growth = {
+			24720,
+			0,
+			0,
+			1144,
+			792,
+			220,
+			0,
+			480,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.13,
+			1.03,
+			1.23
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unryū-Class"
+		}
+	},
+	[307123] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "葛城",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307120,
+		english_name = "IJN Katsuragi",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 307123,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1756,
+			0,
+			0,
+			101,
+			139,
+			44,
+			0,
+			32,
+			13,
+			32,
+			75,
+			0
+		},
+		attrs_growth = {
+			24720,
+			0,
+			0,
+			1144,
+			792,
+			220,
+			0,
+			480,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.18,
+			1.08,
+			1.28
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unryū-Class"
+		}
+	},
+	[307124] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "葛城",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307120,
+		english_name = "IJN Katsuragi",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 307124,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2497,
+			0,
+			0,
+			144,
+			199,
+			44,
+			0,
+			32,
+			13,
+			32,
+			75,
+			0
+		},
+		attrs_growth = {
+			24720,
+			0,
+			0,
+			1144,
+			792,
+			220,
+			0,
+			480,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			14832,
+			0,
+			0,
+			600,
+			1184,
+			515,
+			0,
+			-8,
+			768,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unryū-Class"
 		}
 	},
 	[308011] = {
@@ -262613,6 +265609,751 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[900315] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "島風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301290,
+		english_name = "IJN Shimakaze",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900315,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			820850,
+			820854,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.6,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shimakaze-Class"
+		}
+	},
+	[900316] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "筑摩",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303060,
+		english_name = "IJN Chikuma",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 900316,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1860,
+			121,
+			114,
+			87,
+			0,
+			66,
+			0,
+			40,
+			13,
+			28.35,
+			42,
+			0
+		},
+		attrs_growth = {
+			18415,
+			482,
+			454,
+			692,
+			0,
+			330,
+			0,
+			594,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4604,
+			1095,
+			1061,
+			471,
+			0,
+			780,
+			0,
+			1,
+			1768,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			820851,
+			820854,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.75,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tone-Class"
+		}
+	},
+	[900317] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "プリンツ・オイゲン",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 403030,
+		english_name = "KMS Prinz Eugen",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 900317,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2708,
+			107,
+			70,
+			94,
+			0,
+			67,
+			0,
+			44,
+			9,
+			25.6,
+			78,
+			0
+		},
+		attrs_growth = {
+			26810,
+			426,
+			280,
+			752,
+			0,
+			334,
+			0,
+			648,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			1014,
+			658,
+			508,
+			0,
+			791,
+			0,
+			0,
+			1672,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			820852,
+			820855,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.6,
+			1.2,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Admiral Hipper-Class"
+		}
+	},
+	[900318] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "駿河",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305140,
+		english_name = "IJN Suruga",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 900318,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3360,
+			199,
+			98,
+			99,
+			0,
+			51,
+			0,
+			21,
+			7,
+			28.5,
+			37,
+			0
+		},
+		attrs_growth = {
+			33260,
+			796,
+			390,
+			788,
+			0,
+			254,
+			0,
+			312,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			22284,
+			1181,
+			923,
+			540,
+			0,
+			601,
+			0,
+			343,
+			777,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			820853,
+			820850,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kii-Class",
+			"Suruga"
+		}
+	},
+	[900319] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "葛城",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307120,
+		english_name = "IJN Katsuragi",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 900319,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2497,
+			0,
+			0,
+			144,
+			199,
+			44,
+			0,
+			32,
+			13,
+			32,
+			75,
+			0
+		},
+		attrs_growth = {
+			24720,
+			0,
+			0,
+			1144,
+			792,
+			220,
+			0,
+			480,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			14832,
+			0,
+			0,
+			600,
+			1184,
+			515,
+			0,
+			-8,
+			768,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			820858,
+			820859,
+			820860
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unryū-Class"
+		}
+	},
+	[900320] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "オーディン",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 499040,
+		english_name = "KMS Odin",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 900320,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1186,
+			69,
+			45,
+			64,
+			0,
+			63,
+			0,
+			20,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			28930,
+			1348,
+			880,
+			1256,
+			0,
+			312,
+			0,
+			300,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17937,
+			534,
+			605,
+			570,
+			0,
+			738,
+			0,
+			145,
+			625,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			820856,
+			820857,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class"
+		}
+	},
 	[900801] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -300274,6 +304015,10 @@ pg.ship_data_statistics = {
 		301282,
 		301283,
 		301284,
+		301291,
+		301292,
+		301293,
+		301294,
 		301301,
 		301302,
 		301303,
@@ -300310,6 +304055,14 @@ pg.ship_data_statistics = {
 		301412,
 		301413,
 		301414,
+		301471,
+		301472,
+		301473,
+		301474,
+		301481,
+		301482,
+		301483,
+		301484,
 		301491,
 		301492,
 		301493,
@@ -300411,6 +304164,10 @@ pg.ship_data_statistics = {
 		302052,
 		302053,
 		302054,
+		302071,
+		302072,
+		302073,
+		302074,
 		302081,
 		302082,
 		302083,
@@ -300463,6 +304220,10 @@ pg.ship_data_statistics = {
 		303042,
 		303043,
 		303044,
+		303061,
+		303062,
+		303063,
+		303064,
 		303071,
 		303072,
 		303073,
@@ -300648,6 +304409,10 @@ pg.ship_data_statistics = {
 		307112,
 		307113,
 		307114,
+		307121,
+		307122,
+		307123,
+		307124,
 		308011,
 		308012,
 		308013,
@@ -301338,6 +305103,12 @@ pg.ship_data_statistics = {
 		900282,
 		900310,
 		900311,
+		900315,
+		900316,
+		900317,
+		900318,
+		900319,
+		900320,
 		900801,
 		900802,
 		900803,

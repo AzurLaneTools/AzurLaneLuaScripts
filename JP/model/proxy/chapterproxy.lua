@@ -105,7 +105,7 @@ function slot0.register(slot0)
 				_.each(slot0.map_update, function (slot0)
 					if slot0.item_type == ChapterConst.AttachStory and slot0.item_data == ChapterConst.StoryTrigger then
 						if uv0.cellAttachments[ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)] then
-							if slot2.flag == 3 and slot0.item_flag == 4 and pg.map_event_template[slot2.attachmentId].gametip ~= "" then
+							if slot2.flag == ChapterConst.CellFlagTriggerActive and slot0.item_flag == ChapterConst.CellFlagTriggerDisabled and pg.map_event_template[slot2.attachmentId].gametip ~= "" then
 								pg.TipsMgr.GetInstance():ShowTips(i18n(slot3))
 							end
 

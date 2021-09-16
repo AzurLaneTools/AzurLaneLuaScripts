@@ -79,4 +79,32 @@ function slot0.EliteConditionCompare(slot0, slot1, slot2)
 	end
 end
 
+slot0.attrNameTable = {
+	[slot0.Durability] = "maxHP",
+	[slot0.Cannon] = "cannonPower",
+	[slot0.Torpedo] = "torpedoPower",
+	[slot0.AntiAircraft] = "antiAirPower",
+	[slot0.AntiSub] = "antiSubPower",
+	[slot0.Air] = "airPower",
+	[slot0.Reload] = "loadSpeed",
+	[slot0.Hit] = "attackRating",
+	[slot0.Speed] = "speed",
+	[slot0.Luck] = "luck",
+	[slot0.Dodge] = "dodgeRate",
+	[slot0.OxyMax] = "oxyMax",
+	[slot0.OxyCost] = "oxyCost",
+	[slot0.OxyRecovery] = "oxyRecovery",
+	[slot0.OxyRecoveryBench] = "oxyRecoveryBench",
+	[slot0.OxyAttackDuration] = "oxyAtkDuration",
+	[slot0.OxyRaidDistance] = "raidDist"
+}
+
+function slot0.ConvertBattleAttrName(slot0)
+	if uv0.attrNameTable[slot0] then
+		return uv0.attrNameTable[slot0]
+	else
+		return slot0
+	end
+end
+
 return slot0

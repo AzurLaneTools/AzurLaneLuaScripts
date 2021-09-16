@@ -23,7 +23,7 @@ function slot0.doMapUpdate(slot0)
 		_.each(slot1.map_update, function (slot0)
 			if slot0.item_type == ChapterConst.AttachStory and slot0.item_data == ChapterConst.StoryTrigger then
 				if uv0.cellAttachments[ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)] then
-					if slot2.flag == 3 and slot0.item_flag == 4 and pg.map_event_template[slot2.attachmentId].gametip ~= "" then
+					if slot2.flag == ChapterConst.CellFlagTriggerActive and slot0.item_flag == ChapterConst.CellFlagTriggerDisabled and pg.map_event_template[slot2.attachmentId].gametip ~= "" then
 						pg.TipsMgr.GetInstance():ShowTips(i18n(slot3))
 					end
 
@@ -168,7 +168,7 @@ function slot0.doOpenBox(slot0)
 	slot3 = slot0.chapter
 	slot5 = slot3.fleet.line
 	slot6 = slot3:getChapterCell(slot5.row, slot5.column)
-	slot6.flag = 1
+	slot6.flag = ChapterConst.CellFlagDisabled
 
 	slot3:updateChapterCell(slot6)
 
@@ -198,7 +198,7 @@ function slot0.doPlayStory(slot0)
 	slot2 = slot0.chapter
 	slot4 = slot2.fleet.line
 	slot5 = slot2:getChapterCell(slot4.row, slot4.column)
-	slot5.flag = 1
+	slot5.flag = ChapterConst.CellFlagDisabled
 
 	slot2:updateChapterCell(slot5)
 
@@ -209,11 +209,11 @@ function slot0.doAmbush(slot0)
 	if slot0.op.arg1 == 1 then
 		slot4 = slot0.chapter.fleet.line
 
-		if slot2:getChapterCell(slot4.row, slot4.column).flag == 2 then
+		if slot2:getChapterCell(slot4.row, slot4.column).flag == ChapterConst.CellFlagAmbush then
 			slot2:clearChapterCell(slot4.row, slot4.column)
 		end
 
-		pg.TipsMgr.GetInstance():ShowTips(slot5.flag == 0 and i18n("chapter_tip_aovid_failed") or i18n("chapter_tip_aovid_succeed"))
+		pg.TipsMgr.GetInstance():ShowTips(slot5.flag == ChapterConst.CellFlagActive and i18n("chapter_tip_aovid_failed") or i18n("chapter_tip_aovid_succeed"))
 	end
 end
 
@@ -327,7 +327,7 @@ function slot0.doBarrier(slot0)
 	if slot3:getChapterCell(slot2.arg1, slot2.arg2).attachment ~= ChapterConst.AttachBox or slot4.attachmentId ~= slot6 then
 		slot4.attachment = slot5
 		slot4.attachmentId = slot6
-		slot4.flag = 1
+		slot4.flag = ChapterConst.CellFlagDisabled
 	end
 
 	slot3.modelCount = slot3.modelCount + (slot4.flag == 1 and -1 or 1)

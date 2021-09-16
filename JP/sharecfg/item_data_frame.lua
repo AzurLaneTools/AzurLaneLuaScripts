@@ -45,6 +45,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Third　Anniversary！</color>\n　三周年記念イベントで開放可能",
 		scene = {}
 	},
+	[105] = {
+		time_limit_type = 0,
+		name = "四周年記念",
+		gain_by = "",
+		id = 105,
+		time_second = 0,
+		desc = "<color=#ffffff>Fourth　Anniversary！</color>\n　四周年記念イベントで開放可能",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "チャレンジャー",
@@ -273,10 +282,10 @@ pg.item_data_frame = {
 	[316] = {
 		time_limit_type = 0,
 		name = "竜宮踏破者記念",
-		gain_by = "",
+		gain_by = "駆けよ 碧海の吹き風",
 		id = 316,
 		time_second = 0,
-		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		desc = "<color=#ffffff>「まあ、これは一つの『お宝』ってことね」</color>――「駆けよ 碧海の吹き風」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {
@@ -321,6 +330,7 @@ pg.item_data_frame = {
 		102,
 		103,
 		104,
+		105,
 		201,
 		202,
 		203,

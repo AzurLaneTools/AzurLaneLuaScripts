@@ -62,18 +62,25 @@ function slot0.OnFirstFlush(slot0)
 
 		uv0:Switch(slot0)
 	end, SFX_PANEL)
+
+	slot2 = pg.TimeMgr.GetInstance():inTime(slot0.activity:getConfig("config_client"))
+
+	setActive(slot0.battleBtn, slot2)
+
+	if slot2 then
+		triggerToggle(slot0.switchBtn, true)
+	end
 end
 
 function slot0.OnUpdateFlush(slot0)
-	setActive(slot0.battleBtn, isActive(slot0.battleBtn) and pg.TimeMgr.GetInstance():inTime(slot0.activity:getConfig("config_client")))
 	setActive(slot0.getBtn, slot0.ptData:CanGetAward())
 	setActive(slot0.gotBtn, not slot0.ptData:CanGetNextAward())
 
-	slot6, slot7, slot8 = slot0.ptData:GetResProgress()
+	slot3, slot4, slot5 = slot0.ptData:GetResProgress()
 
-	setText(slot0.step, slot8 >= 1 and setColorStr(slot6, COLOR_GREEN) or slot6)
-	setText(slot0.progress, "/" .. slot7)
-	setFillAmount(slot0.bar, slot6 / slot7)
+	setText(slot0.step, slot5 >= 1 and setColorStr(slot3, COLOR_GREEN) or slot3)
+	setText(slot0.progress, "/" .. slot4)
+	setFillAmount(slot0.bar, slot3 / slot4)
 	slot0:UpdateAwardGot()
 end
 
@@ -106,7 +113,13 @@ function slot0.Switch(slot0, slot1)
 end
 
 function slot0.UpdateAwardGot(slot0)
-	setActive(slot0:findTF("switcher/phase2/got", slot0.bg), not slot0.ptData:CanGetNextAward() and slot0.inPhase2)
+	slot2 = not slot0.ptData:CanGetNextAward() and slot0.inPhase2
+
+	setActive(slot0:findTF("switcher/phase2/got", slot0.bg), slot2)
+
+	if slot2 then
+		setActive(slot0.battleBtn, false)
+	end
 end
 
 function slot0.OnDestroy(slot0)

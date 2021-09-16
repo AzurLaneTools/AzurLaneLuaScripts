@@ -2945,7 +2945,7 @@ pg.backyard_theme_template = {
 		desc = "静かに飲むも良し、娯楽に興じるも良し！",
 		discount_time = "",
 		discount = 0,
-		new = 1,
+		new = 0,
 		icon = "bngthemeicon",
 		deblocking = 1,
 		order = 78,
@@ -2979,7 +2979,7 @@ pg.backyard_theme_template = {
 		desc = "学園ライフを楽しむピョ！",
 		discount_time = "",
 		discount = 0,
-		new = 1,
+		new = 0,
 		icon = "sc2themeicon",
 		deblocking = 1,
 		order = 79,
@@ -3047,6 +3047,39 @@ pg.backyard_theme_template = {
 			82120,
 			82122,
 			82123
+		}
+	},
+	[83] = {
+		Cfg_1 = 5,
+		name = "饅頭夏日祭",
+		hot = 1,
+		is_view = 1,
+		id = 83,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "母港っ子饅頭のお祭りだピョ！",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "xrjthemeicon",
+		deblocking = 1,
+		order = 84,
+		ids = {
+			83001,
+			83002,
+			83101,
+			83102,
+			83103,
+			83104,
+			83105,
+			83106,
+			83107,
+			83109,
+			83110,
+			83111,
+			83114,
+			83116,
+			83117
 		}
 	},
 	all = {
@@ -3118,6 +3151,7 @@ pg.backyard_theme_template = {
 		79,
 		80,
 		81,
-		82
+		82,
+		83
 	}
 }

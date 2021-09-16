@@ -13,14 +13,16 @@ function slot0.Update(slot0)
 		slot0:PrepareBase("story_" .. slot1.row .. "_" .. slot1.column .. "_" .. slot1.attachmentId)
 		slot0:GetLoader():GetPrefab("ui/" .. slot6 .. "_2", slot6 .. "_2", function (slot0)
 			slot0.transform:SetParent(uv0.tf, false)
+			uv0:ResetCanvasOrder()
 		end)
 	end
 
 	slot8 = pg.map_event_template[slot1.attachmentId]
 
-	if not (slot1.flag == 3) and slot8 and slot8.animation and not slot0.disappearAnim and slot8.animation and #slot9 > 0 then
+	if not (slot1.flag == ChapterConst.CellFlagTriggerActive) and slot8 and slot8.animation and not slot0.disappearAnim and slot8.animation and #slot9 > 0 then
 		slot0:GetLoader():GetPrefab("ui/" .. slot9, slot9, function (slot0)
 			setParent(slot0.transform, uv0.tf, false)
+			uv0:ResetCanvasOrder()
 
 			if not IsNil(slot0:GetComponent(typeof(ParticleSystemEvent))) then
 				slot1:SetEndEvent(function ()

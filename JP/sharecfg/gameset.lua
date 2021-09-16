@@ -338,8 +338,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "美系V3复刻活动PT",
-		key_value = 211
+		description = "岛风活动PT",
+		key_value = 212
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -437,26 +437,7 @@ pg.gameset = {
 	login_extra_voice = {
 		key_value = 0,
 		description = {
-			40101,
-			30156,
-			10701,
-			30301,
-			20216,
-			10124,
-			40201,
-			40202,
-			40203,
-			20507,
-			40305,
-			20102,
-			30161,
-			20706,
-			30162,
-			20103,
-			40118,
-			20121,
-			10117,
-			30105
+			"extra"
 		}
 	},
 	world_starting_story = {
@@ -1616,7 +1597,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 218
+		key_value = 221
 	},
 	order_pt_max = {
 		key_value = 0,

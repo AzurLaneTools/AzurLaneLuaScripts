@@ -520,6 +520,201 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic41",
+		id = 41,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic42",
+		id = 42,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic43",
+		id = 43,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic44",
+		id = 44,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic45",
+		id = 45,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic46",
+		id = 46,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic47",
+		id = 47,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic48",
+		id = 48,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic49",
+		id = 49,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic50",
+		id = 50,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic51",
+		id = 51,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic52",
+		id = 52,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic53",
+		id = 53,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic54",
+		id = 54,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic55",
+		id = 55,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
 	all = {
 		1,
 		2,
@@ -560,6 +755,21 @@ pg.gallery_config = {
 		37,
 		38,
 		39,
-		40
+		40,
+		41,
+		42,
+		43,
+		44,
+		45,
+		46,
+		47,
+		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55
 	}
 }

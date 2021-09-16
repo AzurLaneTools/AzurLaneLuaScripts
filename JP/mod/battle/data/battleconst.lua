@@ -303,7 +303,16 @@ slot0.CPChatType = {
 	SHIP_TYPE = 1,
 	RARE = 2,
 	NATIONALITY = 3,
-	ILLUSTRATOR = 4
+	ILLUSTRATOR = 4,
+	TEAM = 5
+}
+slot0.CPChatTargetFunc = {
+	[slot0.CPChatType.GROUP_ID] = "TargetGroup",
+	[slot0.CPChatType.SHIP_TYPE] = "TargetShipType",
+	[slot0.CPChatType.RARE] = "TargetRarity",
+	[slot0.CPChatType.NATIONALITY] = "TargetNationality",
+	[slot0.CPChatType.ILLUSTRATOR] = "TargetIllustrator",
+	[slot0.CPChatType.TEAM] = "TargetTeam"
 }
 slot0.AIStepType = {
 	STAY = 0,
@@ -358,4 +367,9 @@ slot0.FIRE_FX_TYPE = {
 slot0.DEATH_MARK_SKILL = {
 	IGNORE = 0,
 	DEACTIVE = 1
+}
+slot0.UltimateBonus = {
+	GunnerCountMod = 2,
+	TorpedoBarrageBuff = 374,
+	AuxBoostValue = 0.3
 }
