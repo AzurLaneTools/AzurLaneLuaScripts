@@ -20,13 +20,14 @@ slot0.CVBattleKey = {
 	link2 = "link2",
 	lose = "lose",
 	link5 = "link5",
+	mvp = "mvp",
 	link3 = "link3",
 	link6 = "link6",
 	hp = "hp",
 	link1 = "link1",
 	link4 = "link4",
 	warcry = "warcry",
-	mvp = "mvp"
+	link7 = "link7"
 }
 slot6 = false
 
