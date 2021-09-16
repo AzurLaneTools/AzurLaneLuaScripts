@@ -180,6 +180,66 @@ pg.activity_event_building = {
 			15
 		}
 	},
+	{
+		id = 13,
+		name = "Manjuu Waverider",
+		material_id = 59237,
+		desc = "The wildest and wettest ride of your life!",
+		buff = {
+			13,
+			14,
+			15
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 14,
+		name = "Manjuu Diver",
+		material_id = 59237,
+		desc = "Remember to shout \"Geronimooooo\"!",
+		buff = {
+			16,
+			17,
+			18
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 15,
+		name = "Slippy Slide",
+		material_id = 59237,
+		desc = "High speeds and crazy turns with a splashing climax!",
+		buff = {
+			19,
+			20,
+			21
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 16,
+		name = "Mini Waterfall",
+		material_id = 59237,
+		desc = "Will you take the plunge?",
+		buff = {
+			22,
+			23,
+			24
+		},
+		material = {
+			10,
+			15
+		}
+	},
 	all = {
 		1,
 		2,
@@ -192,6 +252,10 @@ pg.activity_event_building = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13,
+		14,
+		15,
+		16
 	}
 }

@@ -101,6 +101,16 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 	end
 end
 
+function slot0.TryPlayChampionSubAnim(slot0, slot1, slot2, slot3, slot4)
+	if (slot2.flag == ChapterConst.CellFlagDiving or slot3.flag == ChapterConst.CellFlagDiving) and (slot2.flag == ChapterConst.CellFlagActive or slot3.flag == ChapterConst.CellFlagActive) then
+		slot1.viewComponent.grid:PlayChampionSubmarineAnimation(slot3, slot2.flag == ChapterConst.CellFlagDiving, slot4)
+
+		return
+	end
+
+	slot4()
+end
+
 function slot0.applyTo(slot0, slot1, slot2)
 	if slot1:getChapterCell(slot0.line.row, slot0.line.column) and slot3.attachment == ChapterConst.AttachLandbase and not table.equal(slot0.stgTarget, {
 		row = 9999,
@@ -131,7 +141,7 @@ function slot0.applyTo(slot0, slot1, slot2)
 end
 
 function slot0.applyToChampion(slot0, slot1, slot2, slot3)
-	if slot2.flag == 1 then
+	if slot2.flag == ChapterConst.CellFlagDisabled then
 		return false, "can not apply ai to dead champion at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 	end
 

@@ -51,6 +51,12 @@ slot0.Story = 1
 slot0.StoryObstacle = 2
 slot0.StoryTrigger = 3
 slot0.EventTeleport = 4
+slot0.CellFlagActive = 0
+slot0.CellFlagDisabled = 1
+slot0.CellFlagAmbush = 2
+slot0.CellFlagTriggerActive = 3
+slot0.CellFlagTriggerDisabled = 4
+slot0.CellFlagDiving = 5
 slot0.EvtType_Poison = 1
 slot0.EvtType_AdditionalFloor = 2
 slot0.FlagBanaiAirStrike = 4
@@ -89,13 +95,21 @@ slot0.StrategyAmmoRich = 10001
 slot0.StrategyAmmoPoor = 10002
 slot0.StrategyHuntingRange = -1
 slot0.StrategySubAutoAttack = -2
+slot0.StrategyFormSignleLine = 1
+slot0.StrategyFormDoubleLine = 2
+slot0.StrategyFormCircular = 3
+slot0.StrategyRepair = 4
 slot0.StrategyExchange = 9
 slot0.StrategyCallSubOutofRange = 10
 slot0.StrategySubTeleport = 11
 slot0.StrategySonarDetect = 12
-slot0.StrategyRepair = 4
+slot0.StrategyForms = {
+	slot0.StrategyFormSignleLine,
+	slot0.StrategyFormDoubleLine,
+	slot0.StrategyFormCircular
+}
 slot0.StrategyPresents = {
-	4
+	slot0.StrategyRepair
 }
 slot0.StgDtRepair = "healthy"
 slot0.StgDtAirPrepare = "air"
@@ -127,9 +141,9 @@ function slot0.NeedMarkAsLurk(slot0)
 	if slot0.attachment == uv0.AttachBox then
 		slot1 = pg.box_data_template[slot0.attachmentId]
 
-		return slot0.flag == 0 and (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxSupply or slot1.type == uv0.BoxEnemy)
+		return slot0.flag == ChapterConst.CellFlagActive and (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxSupply or slot1.type == uv0.BoxEnemy)
 	else
-		return slot0.flag == 0 and (slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite or slot0.attachment == uv0.AttachBoss or slot0.attachment == uv0.AttachStory or slot0.attachment == uv0.AttachBomb_Enemy)
+		return slot0.flag == ChapterConst.CellFlagActive and (slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite or slot0.attachment == uv0.AttachBoss or slot0.attachment == uv0.AttachStory or slot0.attachment == uv0.AttachBomb_Enemy)
 	end
 end
 
@@ -137,11 +151,11 @@ function slot0.NeedEasePathCell(slot0)
 	if slot0.attachment == uv0.AttachNone then
 		return true
 	elseif slot0.attachment == uv0.AttachAmbush then
-		if slot0.flag ~= 0 then
+		if slot0.flag ~= ChapterConst.CellFlagActive then
 			return true
 		end
 	elseif slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite then
-		if slot0.flag == 1 then
+		if slot0.flag == ChapterConst.CellFlagDisabled then
 			return true
 		end
 	elseif slot0.attachment == uv0.AttachSupply and slot0.attachmentId <= 0 then
@@ -149,11 +163,11 @@ function slot0.NeedEasePathCell(slot0)
 	elseif slot0.attachment == uv0.AttachBox then
 		if pg.box_data_template[slot0.attachmentId].type == uv0.BoxAirStrike or slot1.type == uv0.BoxTorpedo then
 			return true
-		elseif (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxEnemy or slot1.type == uv0.BoxSupply) and slot0.flag == 1 then
+		elseif (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxEnemy or slot1.type == uv0.BoxSupply) and slot0.flag == ChapterConst.CellFlagDisabled then
 			return true
 		end
 	elseif slot0.attachment == uv0.AttachStory then
-		if slot0.flag ~= 0 and (slot0.flag ~= 3 or slot0.data ~= uv0.StoryObstacle) then
+		if slot0.flag ~= ChapterConst.CellFlagActive and (slot0.flag ~= ChapterConst.CellFlagTriggerActive or slot0.data ~= uv0.StoryObstacle) then
 			return true
 		end
 	elseif slot0.attachment == uv0.AttachBarrier then
@@ -164,7 +178,7 @@ function slot0.NeedEasePathCell(slot0)
 end
 
 function slot0.NeedClearStep(slot0)
-	if slot0.attachment == uv0.AttachAmbush and slot0.flag == 2 then
+	if slot0.attachment == uv0.AttachAmbush and slot0.flag == ChapterConst.CellFlagAmbush then
 		return true
 	end
 
@@ -248,7 +262,15 @@ slot0.StatusSunset = 8
 slot0.StatusMaze1 = 9
 slot0.StatusMaze2 = 10
 slot0.StatusMaze3 = 11
-slot0.Status2StgBuff = {
+slot0.StatusDPM_KASTHA_FOE = 12
+slot0.StatusDPM_KASTHA_FRIEND = 13
+slot0.StatusDPM_PANYIA_FOE = 14
+slot0.StatusDPM_PANYIA_FRIEND = 15
+slot0.StatusDPM_MRD_FOE = 16
+slot0.StatusDPM_MRD_FRIEND = 17
+slot0.StatusDPM_VITA_FOE = 18
+slot0.StatusDPM_VITA_FRIEND = 19
+slot0.Status2Stg = {
 	[slot0.KizunaJammingEngage] = 90,
 	[slot0.KizunaJammingDodge] = 91,
 	[slot0.StatusDay] = 93,
@@ -256,7 +278,15 @@ slot0.Status2StgBuff = {
 	[slot0.StatusAirportOutControl] = 8801,
 	[slot0.StatusAirportUnderControl] = 8802,
 	[slot0.StatusSunrise] = 8841,
-	[slot0.StatusSunset] = 8842
+	[slot0.StatusSunset] = 8842,
+	[slot0.StatusDPM_KASTHA_FOE] = 9211,
+	[slot0.StatusDPM_KASTHA_FRIEND] = 9212,
+	[slot0.StatusDPM_PANYIA_FOE] = 9231,
+	[slot0.StatusDPM_PANYIA_FRIEND] = 9232,
+	[slot0.StatusDPM_MRD_FOE] = 9251,
+	[slot0.StatusDPM_MRD_FRIEND] = 9252,
+	[slot0.StatusDPM_VITA_FOE] = 9271,
+	[slot0.StatusDPM_VITA_FRIEND] = 9272
 }
 slot0.HpGreen = 3000
 
@@ -321,6 +351,7 @@ slot0.EnemySize = {
 	2,
 	3,
 	3,
+	[96.0] = 100,
 	[97.0] = 100,
 	[98.0] = 98,
 	[99.0] = 99

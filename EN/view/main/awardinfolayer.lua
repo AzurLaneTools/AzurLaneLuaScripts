@@ -7,6 +7,8 @@ slot0.TITLE = {
 	ESCORT = "escort"
 }
 slot1 = 0.15
+slot2 = 340
+slot3 = 564
 
 function slot0.getUIName(slot0)
 	return "AwardInfoUI"
@@ -44,17 +46,17 @@ function slot0.init(slot0)
 		}).ships
 	else
 		slot0.container = slot1.items_scroll
-		slot0._itemsWindow:Find("items_scroll"):GetComponent(typeof(LayoutElement)).preferredHeight = #slot0.awards > 5 and 564 or 340
 
 		scrollTo(slot0.container, nil, 1)
+
+		slot0.windowLayout = slot0._itemsWindow:Find("items_scroll"):GetComponent(typeof(LayoutElement))
 	end
+
+	GetOrAddComponent(slot0.container, "CanvasGroup").alpha = 1
 
 	for slot5, slot6 in pairs(slot1) do
 		setActive(slot0._itemsWindow:Find(slot5), slot0.container == slot6)
 	end
-
-	slot0.containerCG = GetOrAddComponent(slot0.container, "CanvasGroup")
-	slot0.containerCG.alpha = 1
 
 	setLocalScale(slot0._itemsWindow, Vector3(0.5, 0.5, 0.5))
 
@@ -87,27 +89,50 @@ function slot0.doAnim(slot0, slot1)
 			return
 		end
 
-		uv0:updateSpriteMaskScale()
 		uv1()
 	end))
 end
 
+function slot0.playAnim(slot0, slot1)
+	slot2 = {}
+
+	for slot6 = 1, #slot0.awards do
+		table.insert(slot2, function (slot0)
+			setActive(uv0.container:GetChild(uv1 - 1), true)
+
+			if uv0.windowLayout then
+				if uv1 > 5 and uv0.windowLayout.preferredHeight ~= uv2 then
+					uv0.windowLayout.preferredHeight = uv2
+
+					onNextTick(function ()
+						uv0:updateSpriteMaskScale()
+					end)
+				end
+
+				if uv1 % 5 == 1 then
+					scrollTo(uv0.container, nil, 0)
+				end
+			end
+
+			uv0.tweeningId = LeanTween.delayedCall(uv3, System.Action(slot0)).uniqueId
+		end)
+	end
+
+	seriesAsync(slot2, function ()
+		uv0.tweeningId = nil
+
+		if uv1 then
+			uv1()
+		end
+	end)
+end
+
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
-		if not uv0.inited then
-			return
-		end
+		if uv0.tweeningId then
+			LeanTween.cancel(uv0.tweeningId)
 
-		if uv0.inAniming then
-			for slot3, slot4 in ipairs(uv0.tweenItems) do
-				LeanTween.cancel(slot4)
-			end
-
-			for slot3 = 1, #uv0.awards do
-				setActive(uv0.container:GetChild(slot3 - 1), true)
-			end
-
-			uv0.inAniming = false
+			uv0.tweeningId = nil
 		end
 
 		uv0:emit(uv1.ON_CLOSE)
@@ -118,27 +143,29 @@ function slot0.didEnter(slot0)
 		triggerButton(uv0._tf)
 	end)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_GETITEM)
-
-	slot1 = {}
+	table.insert({}, function (slot0)
+		uv0:doAnim(slot0)
+	end)
+	slot0:displayAwards()
 
 	if slot0.contextData.animation then
-		table.insert(slot1, function (slot0)
-			uv0.inAniming = true
-			uv0.containerCG.alpha = 0
-
-			setActive(uv0.container, false)
-			uv0:doAnim(slot0)
+		eachChild(slot0.container, function (slot0)
+			setActive(slot0, false)
 		end)
+
+		GetOrAddComponent(slot0.container, "CanvasGroup").alpha = 0
+
 		table.insert(slot1, function (slot0)
-			setActive(uv0.container, true)
-			uv0:displayAwards()
+			GetOrAddComponent(uv0.container, "CanvasGroup").alpha = 1
+
 			uv0:playAnim(slot0)
 		end)
-	else
-		table.insert(slot1, function (slot0)
-			uv0:displayAwards()
-			uv0:doAnim(slot0)
-		end)
+	end
+
+	if slot0.windowLayout then
+		slot0.windowLayout.preferredHeight = not slot0.contextData.animation and #slot0.awards > 5 and uv1 or uv2
+
+		slot0:updateSpriteMaskScale()
 	end
 
 	seriesAsync(slot1, function ()
@@ -171,7 +198,7 @@ function slot0.onBackPressed(slot0)
 	triggerButton(slot0._tf)
 end
 
-function slot2(slot0, slot1)
+function slot4(slot0, slot1)
 	slot2 = pg.ship_data_statistics[slot1.id]
 	slot3 = Ship.New({
 		configId = slot1.id
@@ -184,13 +211,9 @@ function slot2(slot0, slot1)
 end
 
 function slot0.displayAwards(slot0)
-	slot0.inited = false
+	removeAllChildren(slot0.container)
 
-	for slot4 = #slot0.awards, slot0.container.childCount - 1 do
-		Destroy(slot0.container:GetChild(slot4))
-	end
-
-	for slot4 = slot0.container.childCount, #slot0.awards - 1 do
+	for slot4 = 1, #slot0.awards do
 		if slot0.title ~= uv0.TITLE.SHIP then
 			cloneTplTo(slot0.itemTpl, slot0.container)
 		else
@@ -216,7 +239,7 @@ function slot0.displayAwards(slot0)
 			setActive(findTF(slot5, "name_mask"), true)
 			setScrollText(findTF(slot5, "name_mask/name"), slot6.name or getText(slot7))
 			onButton(slot0, slot5, function ()
-				if uv0.inAniming then
+				if uv0.tweeningId then
 					return
 				end
 
@@ -256,42 +279,6 @@ function slot0.displayAwards(slot0)
 			end
 		end
 	end
-
-	slot0.inited = true
-end
-
-function slot0.playAnim(slot0, slot1)
-	slot2 = {}
-
-	for slot6 = 1, #slot0.awards do
-		setActive(slot0.container:GetChild(slot6 - 1), false)
-		table.insert(slot2, function (slot0)
-			if not uv0.tweenItems then
-				slot0()
-
-				return
-			end
-
-			setActive(uv1, true)
-			uv0:updateSpriteMaskScale()
-
-			if uv0.title ~= uv2.TITLE.SHIP then
-				scrollTo(uv0.container, nil, 0)
-			end
-
-			table.insert(uv0.tweenItems, LeanTween.delayedCall(uv3, System.Action(slot0)).id)
-		end)
-	end
-
-	slot0.containerCG.alpha = 1
-
-	seriesAsync(slot2, function ()
-		uv0.inAniming = false
-
-		if uv1 then
-			uv1()
-		end
-	end)
 end
 
 function slot0.willExit(slot0)

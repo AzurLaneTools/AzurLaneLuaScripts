@@ -11,7 +11,7 @@ return {
 	desc = "主炮每进行15次攻击，触发专属弹幕-{namecode:18}I",
 	stack = 1,
 	id = 29141,
-	icon = 29000,
+	icon = 29140,
 	last_effect = "",
 	effect_list = {
 		{

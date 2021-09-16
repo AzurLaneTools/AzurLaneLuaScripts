@@ -8316,6 +8316,165 @@ pg.activity_ins_language = {
 	op_reply_241_1_1 = {
 		value = "Yeah! We should totally throw a bonsai festival! You'd better be there too, Commander!"
 	},
+	ins_242 = {
+		value = "I made a new friend today."
+	},
+	ins_discuss_242_1 = {
+		value = "Kasumi is happy you've made new friends. Foo is happy, too."
+	},
+	ins_reply_242_1_1 = {
+		value = "Friends? As in several...?"
+	},
+	ins_discuss_242_2 = {
+		value = "UMM who is that you're looking at kasumi??"
+	},
+	ins_reply_242_2_1 = {
+		value = "Foo's and Kasumi's new friend. By the way, our new friend says hello."
+	},
+	ins_reply_242_2_2 = {
+		value = "OH NO AM I CURSED NOW?! AFDSGDFSGF"
+	},
+	ins_op_242_1_1 = {
+		value = "Making new friends is always good."
+	},
+	op_reply_242_1_1 = {
+		value = "Absolutely. It's just, somehow I get the feeling Kasumi and I have met somewhere before..."
+	},
+	ins_243 = {
+		value = "Out on a morning jog! \"Gotta go fast,\" as they say!"
+	},
+	ins_discuss_243_1 = {
+		value = "This early? Although, the early bird gets the worm, I suppose."
+	},
+	ins_reply_243_1_1 = {
+		value = "Mhm! In this case, the early rabbit gets the carrots at the canteen!"
+	},
+	ins_discuss_243_2 = {
+		value = "Ah, a fellow morning jogger. Good to see a likeminded girl!"
+	},
+	ins_reply_243_2_1 = {
+		value = "Jogger solidarity! :handshake:"
+	},
+	ins_discuss_243_3 = {
+		value = "Enjoy your jogs. Me, I'd rather sleep in..."
+	},
+	ins_reply_243_3_1 = {
+		value = "You should give it a try sometime, Suruga! Exercising feels great and helps you stay in shape!"
+	},
+	ins_reply_243_3_2 = {
+		value = "Thanks but I need to conserve my energy, not burn it all first thing in the morning."
+	},
+	ins_op_243_1_1 = {
+		value = "Jogging in the nineties ♬"
+	},
+	op_reply_243_1_1 = {
+		value = "Nineties...? As in nautical miles per hour? I may be fast, but I'm not THAT fast, Commander!"
+	},
+	ins_244 = {
+		value = "Gaze in awe at what I, the full-fledged aircraft carrier Katsuragi, am capable of with my planes!"
+	},
+	ins_discuss_244_1 = {
+		value = "butter my butt and call me a biscuit... impressive."
+	},
+	ins_reply_244_1_1 = {
+		value = "Right? This is what distinguishes a full-fledged aircraft carrier from ordinary light carriers!"
+	},
+	ins_discuss_244_2 = {
+		value = "Oh, to mount a plane and soar through the air... Wouldn't that be nice?"
+	},
+	ins_reply_244_2_1 = {
+		value = "Yeah, looks sweet! I wanna have a go on it next!"
+	},
+	ins_reply_244_2_2 = {
+		value = "My intuition tells me you probably shouldn't..."
+	},
+	ins_op_244_1_1 = {
+		value = "Now this is what peak performance looks like."
+	},
+	op_reply_244_1_1 = {
+		value = "It sure is! The kind of peak performance only the cream of the carrier crop can reach!"
+	},
+	ins_245 = {
+		value = "As it turns out, collecting all the amusement park stickers was pretty easy."
+	},
+	ins_discuss_245_1 = {
+		value = "Here we have it, nya. Picture proof that Chikuma did it first, nya!"
+	},
+	ins_reply_245_1_1 = {
+		value = "I smell a scoop! Ahem... Chikuma, what was your trick to getting all the stickers so quickly?"
+	},
+	ins_reply_245_1_2 = {
+		value = "Let's just say I did some preliminary intel-gathering~"
+	},
+	ins_discuss_245_2 = {
+		value = "I heard you win a prize if you get every sticker. Is this true?"
+	},
+	ins_reply_245_2_1 = {
+		value = "Wuuut nobody said there'd be a prize!! Got caught up in errands earlier so maybe I just missed the news... Anyway what even is the prize?"
+	},
+	ins_reply_245_2_2 = {
+		value = "It's not about the prize, it's about all the stickers you got along the way~"
+	},
+	ins_op_245_1_1 = {
+		value = "THAT was quick. Good job!"
+	},
+	op_reply_245_1_1 = {
+		value = "Incidentally, how many have you got so far, Commander? Just curious, hehe."
+	},
+	ins_op_245_1_2 = {
+		value = "Can you go get the last ones I need? Please?"
+	},
+	op_reply_245_1_2 = {
+		value = "I'm afraid you'll have to do it yourself if you want to find out what the prize is, Commander! Sorry~"
+	},
+	ins_246 = {
+		value = "It's a nice day out today. The sea breeze is lovely, too."
+	},
+	ins_discuss_246_1 = {
+		value = "Wow look at all those seagulls! Dang they really like you huh umikaze"
+	},
+	ins_reply_246_1_1 = {
+		value = "So it seems. Do you want to feed them breadcrumbs together?"
+	},
+	ins_reply_246_1_2 = {
+		value = "Nah but thanks. They only ever seem to respond to you feeding them anyway..."
+	},
+	ins_discuss_246_2 = {
+		value = "Seagulls flying close to the sea's surface is a sign of sunny weather for the whole day."
+	},
+	ins_reply_246_2_1 = {
+		value = "So I've heard! The brilliant sun graces the port today."
+	},
+	ins_op_246_1_1 = {
+		value = "Popular with the gulls, eh?"
+	},
+	op_reply_246_1_1 = {
+		value = "Quite so. They're my dear little friends."
+	},
+	ins_247 = {
+		value = "Aw shoot... Magic isn't easy as it looks after all..."
+	},
+	ins_discuss_247_1 = {
+		value = "Practice makes perfect! I believe in you, Yamakaze!"
+	},
+	ins_reply_247_1_1 = {
+		value = "Thanks for believing umikaze!! I'm gonna keep trying until I nail it!!"
+	},
+	ins_discuss_247_2 = {
+		value = "Maybe you could use magic to prank people... Mwahaha! Time to study witchcraft!"
+	},
+	ins_reply_247_2_1 = {
+		value = "Magic and pranks are both a kind of trick, so there's bound to be potential for mischief!"
+	},
+	ins_reply_247_2_2 = {
+		value = "Nooooo magic shouldn't be used to cause trouble!!"
+	},
+	ins_op_247_1_1 = {
+		value = "Looking forward to your magic show!"
+	},
+	op_reply_247_1_1 = {
+		value = "Thanks! I promise you won't be disappointed!!"
+	},
 	all = {
 		ins_op_1_1_1,
 		ins_op_1_1_2,
@@ -11088,6 +11247,59 @@ pg.activity_ins_language = {
 		ins_reply_241_2_1,
 		ins_reply_241_2_2,
 		ins_op_241_1_1,
-		op_reply_241_1_1
+		op_reply_241_1_1,
+		ins_242,
+		ins_discuss_242_1,
+		ins_reply_242_1_1,
+		ins_discuss_242_2,
+		ins_reply_242_2_1,
+		ins_reply_242_2_2,
+		ins_op_242_1_1,
+		op_reply_242_1_1,
+		ins_243,
+		ins_discuss_243_1,
+		ins_reply_243_1_1,
+		ins_discuss_243_2,
+		ins_reply_243_2_1,
+		ins_discuss_243_3,
+		ins_reply_243_3_1,
+		ins_reply_243_3_2,
+		ins_op_243_1_1,
+		op_reply_243_1_1,
+		ins_244,
+		ins_discuss_244_1,
+		ins_reply_244_1_1,
+		ins_discuss_244_2,
+		ins_reply_244_2_1,
+		ins_reply_244_2_2,
+		ins_op_244_1_1,
+		op_reply_244_1_1,
+		ins_245,
+		ins_discuss_245_1,
+		ins_reply_245_1_1,
+		ins_reply_245_1_2,
+		ins_discuss_245_2,
+		ins_reply_245_2_1,
+		ins_reply_245_2_2,
+		ins_op_245_1_1,
+		op_reply_245_1_1,
+		ins_op_245_1_2,
+		op_reply_245_1_2,
+		ins_246,
+		ins_discuss_246_1,
+		ins_reply_246_1_1,
+		ins_reply_246_1_2,
+		ins_discuss_246_2,
+		ins_reply_246_2_1,
+		ins_op_246_1_1,
+		op_reply_246_1_1,
+		ins_247,
+		ins_discuss_247_1,
+		ins_reply_247_1_1,
+		ins_discuss_247_2,
+		ins_reply_247_2_1,
+		ins_reply_247_2_2,
+		ins_op_247_1_1,
+		op_reply_247_1_1
 	}
 }

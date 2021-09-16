@@ -4215,6 +4215,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[208] = {
+		effect = "",
+		name = "Ryugu's Prestige ",
+		gain_by = "Upon the Shimmering Blue",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 1,
+		picture = "chuanmo/dfxunzhang",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Is this the great Dragon Palace treasure? ...Come on, Suruga, even I'm not THAT naive!\" Given to commanders who excelled in the \"Upon the Shimmering Blue\" event. ",
+		tag = 6,
+		icon = "dfxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 208,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -50052,11 +50089,10 @@ pg.furniture_data_template = {
 		describe = "There's no secret chamber located behind these. That would be too obvious.",
 		tag = 1,
 		icon = "shuguidhicon",
-		spine_extra = "",
+		deblocking = 1,
 		level = 1,
 		advice = 0,
 		rarity = 4,
-		deblocking = 1,
 		comfortable = 0,
 		spine_action_replace = "",
 		belong = 1,
@@ -50071,6 +50107,19 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -82510,6 +82559,696 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[83001] = {
+		icon = "dibanxrjicon",
+		name = "Summer Festival Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 83,
+		picture = "xrj/dibanxrj",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Nice and moist from the evening drizzle.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 83001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83002] = {
+		icon = "qiangbixrjicon",
+		name = "Summer Festival Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 83,
+		picture = "xrj/qiangbixrj",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "When the moon hits your eye like a big pizza pie...",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 83002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83101] = {
+		effect = "",
+		name = "Summer Festival Lanterns",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/denglongzuxrj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Arranged in a manner reminiscent of an umbrella.",
+		tag = 1,
+		icon = "denglongzuxrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83101,
+		can_rotate = 0,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83102] = {
+		effect = "",
+		name = "Grand Manjuu Float",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/huadengxrj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "That's his Imperial Manjuuness. Don't forget to pay your respects.",
+		tag = 1,
+		icon = "huadengxrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83102,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83103] = {
+		effect = "",
+		name = "Goldfish Scooping Tub",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xrj/jinyutanxrj",
+		is_get_time_note = 0,
+		themeId = 83,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"This game is rigged! The paper is so thin a fly could break through it!\"",
+		tag = 1,
+		icon = "jinyutanxrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83103,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-71,
+					45.2
+				},
+				{
+					1,
+					1
+				},
+				"xrj/jinyutanxrj_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83104] = {
+		effect = "",
+		name = "Mask Shop",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/mianjutanxrj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "We all wear masks. My question to you, my friend, is: how many do you wear?",
+		tag = 1,
+		icon = "mianjutanxrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83104,
+		can_rotate = 0,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83105] = {
+		effect = "",
+		name = "Moonlit Torii",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/niaojuxrj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It looks so different at night...",
+		tag = 1,
+		icon = "niaojuxrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83105,
+		can_rotate = 0,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83106] = {
+		effect = "",
+		name = "Summer Festival Parasols",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/shanduixrj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Who left these here?",
+		tag = 1,
+		icon = "shanduixrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83106,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83107] = {
+		effect = "",
+		name = "Great Shrine Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/shensheshuxrj",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "It's as old as the shrine itself.",
+		tag = 1,
+		icon = "shensheshuxrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83107,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83109] = {
+		effect = "",
+		name = "Moonlit Manjuu Shrine",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/shenshexrj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The shrine has blessings if you have coin.",
+		tag = 1,
+		icon = "shenshexrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83109,
+		can_rotate = 1,
+		size = {
+			9,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83110] = {
+		effect = "",
+		name = "Ornate Portable Shrine",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/shenyuxrj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's a miracle the little Manjuus managed to even get it off the ground.",
+		tag = 1,
+		icon = "shenyuxrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83110,
+		can_rotate = 0,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83111] = {
+		effect = "",
+		name = "Moonlit Stone Lantern",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/shidengxrj",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Lit by fireflies!",
+		tag = 1,
+		icon = "shidengxrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83114] = {
+		effect = "",
+		name = "Shrine Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/songshuxrj",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "A tall friend to keep you company if you need a break from all the lights and noise.",
+		tag = 1,
+		icon = "songshuxrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83114,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83116] = {
+		effect = "",
+		name = "Summer Festival Food Stand",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/xiaochitanxrj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "For all your festival munchies needs.",
+		tag = 1,
+		icon = "xiaochitanxrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83116,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83117] = {
+		effect = "",
+		name = "Summer Festival Pond",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		picture = "xrj/xiaochizixrj",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Save your coins for the shrine donation box. Throwing them into the pond is bad manners.",
+		tag = 1,
+		icon = "xiaochizixrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83117,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83118] = {
+		effect = "",
+		name = "Summer Festival Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 83,
+		is_get_time_note = 0,
+		count = 1,
+		describe = "It sure takes center stage.",
+		is_3d_obj = 0,
+		advice = 0,
+		tag = 1,
+		icon = "wutaixrjicon",
+		deblocking = 1,
+		level = 1,
+		comfortable = 4,
+		rarity = 4,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 83118,
+		can_rotate = 0,
+		size = {
+			10,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"AxrjB",
+				"normal"
+			},
+			{
+				"AxrjT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"AxrjCharControl",
+				"AxrjCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[83119] = {
+		effect = "",
+		name = "Summer Festival Fireworks",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 83,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"And what if they don't work? Does that make them fire-duds?\"",
+		tag = 1,
+		icon = "yanhuaxrjicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 83119,
+		can_rotate = 0,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bxrj",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -82600,6 +83339,7 @@ pg.furniture_data_template = {
 		203,
 		205,
 		206,
+		208,
 		100002,
 		100003,
 		100004,
@@ -84381,6 +85121,23 @@ pg.furniture_data_template = {
 		82122,
 		82123,
 		82124,
-		82125
+		82125,
+		83001,
+		83002,
+		83101,
+		83102,
+		83103,
+		83104,
+		83105,
+		83106,
+		83107,
+		83109,
+		83110,
+		83111,
+		83114,
+		83116,
+		83117,
+		83118,
+		83119
 	}
 }

@@ -225,13 +225,24 @@ end
 
 function slot0.InitSubPainting(slot0, slot1, slot2)
 	function slot3(slot0, slot1)
-		setPaintingPrefab(slot1, slot0.name, "duihua")
+		slot2 = slot0.name
 
-		slot3 = findTF(findTF(slot1, "fitter"):GetChild(0), "face")
+		if slot0.showNPainting and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot2 .. "_n")) then
+			slot2 = slot2 .. "_n"
+		end
 
-		if slot0.expression then
-			setActive(slot3, true)
-			setImageSprite(slot3, GetSpriteFromAtlas("paintingface/" .. slot0.name, slot0.expression))
+		setPaintingPrefab(slot1, slot2, "duihua")
+
+		slot4 = findTF(findTF(slot1, "fitter"):GetChild(0), "face")
+		slot5 = slot0.expression
+
+		if not slot0.expression and slot0.name and ShipExpressionHelper.DefaultFaceless(slot0.name) then
+			slot5 = ShipExpressionHelper.GetDefaultFace(slot0.name)
+		end
+
+		if slot5 then
+			setActive(slot4, true)
+			setImageSprite(slot4, GetSpriteFromAtlas("paintingface/" .. slot0.name, slot0.expression))
 		end
 
 		if slot0.pos then
@@ -240,6 +251,10 @@ function slot0.InitSubPainting(slot0, slot1, slot2)
 
 		if slot0.dir then
 			slot1.transform.localScale = Vector3(slot0.dir, 1, 1)
+		end
+
+		if slot0.paintingNoise then
+			uv0:AddGlitchArtEffectForPating(slot1, slot3, uv1)
 		end
 	end
 
@@ -447,23 +462,23 @@ function slot0.StartMovePrevPaitingToSide(slot0, slot1, slot2, slot3)
 end
 
 function slot0.AddGlitchArtEffectForPating(slot0, slot1, slot2, slot3)
-	if slot3:ShouldAddGlitchArtEffect() and slot3:GetExPression() ~= nil then
-		slot5 = slot2:Find("face")
+	if slot3:ShouldAddGlitchArtEffect() and slot3:GetExPression() ~= nil and not slot3:IsNoHeadPainting() then
+		slot6 = slot2:Find("face")
 
-		cloneTplTo(slot5, slot5.parent, "temp_mask"):SetAsFirstSibling()
+		cloneTplTo(slot6, slot6.parent, "temp_mask"):SetAsFirstSibling()
 
-		for slot11 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-			if slot7[slot11].gameObject.name == "temp_mask" then
-				slot12.material = slot0.maskMaterial
-			elseif slot12.gameObject.name == "face" then
-				slot12.material = slot0.glitchArtMaterial
+		for slot12 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
+			if slot8[slot12].gameObject.name == "temp_mask" then
+				slot13.material = slot0.maskMaterial
+			elseif slot13.gameObject.name == "face" then
+				slot13.material = slot0.glitchArtMaterial
 			else
-				slot12.material = slot0.glitchArtMaterialForPainting
+				slot13.material = slot0.glitchArtMaterialForPainting
 			end
 		end
 	elseif slot4 then
-		for slot9 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-			slot5[slot9].material = slot0.glitchArtMaterial
+		for slot10 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
+			slot6[slot10].material = slot0.glitchArtMaterial
 		end
 	end
 end

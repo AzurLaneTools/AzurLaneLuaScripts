@@ -10,7 +10,16 @@ function slot2.Ctor(slot0)
 end
 
 function slot2.createMajorEmitter(slot0, slot1, slot2)
-	uv0.super.createMajorEmitter(slot0, slot1, slot2, nil, , function ()
+	uv0.super.createMajorEmitter(slot0, slot1, slot2, nil, function (slot0, slot1, slot2, slot3)
+		slot5 = uv0:Spawn(uv0._emitBulletIDList[uv1], nil, uv2.INTERNAL)
+
+		slot5:SetOffsetPriority(slot3)
+		slot5:SetShiftInfo(slot0, slot1)
+		slot5:SetRotateInfo(nil, uv0._botAutoAimAngle, slot2)
+		uv0:DispatchBulletEvent(slot5)
+
+		return slot5
+	end, function ()
 	end)
 end
 
@@ -26,8 +35,22 @@ function slot2.TriggerBuffOnReady(slot0)
 	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_MANUAL_TORPEDO_READY, {})
 end
 
-function slot2.Fire(slot0)
-	uv0.super.Fire(slot0)
+function slot2.Fire(slot0, slot1)
+	if slot1 then
+		slot0:updateMovementInfo()
+
+		if uv0.Battle.BattleTargetChoise.TargetHarmRandomByWeight(slot0._host, nil, slot0:GetFilteredList())[1] then
+			slot3 = slot2:GetPosition()
+			slot4 = slot0._host:GetPosition()
+			slot0._botAutoAimAngle = math.rad2Deg * math.atan2(slot3.z - slot4.z, slot3.x - slot4.x)
+		else
+			slot0._botAutoAimAngle = slot0:GetBaseAngle()
+		end
+	else
+		slot0._botAutoAimAngle = slot0:GetBaseAngle()
+	end
+
+	uv1.super.Fire(slot0)
 
 	return true
 end

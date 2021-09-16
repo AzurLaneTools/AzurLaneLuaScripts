@@ -8893,6 +8893,1638 @@ pg.map_event_template = {
 			}
 		}
 	},
+	[484] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 484,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1560401,
+						{
+							4,
+							5
+						}
+					}
+				}
+			}
+		}
+	},
+	[485] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 485,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				12
+			}
+		}
+	},
+	[486] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 486,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				12,
+				13
+			}
+		}
+	},
+	[487] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 487,
+		icon = "longgong_shui",
+		address = {
+			4,
+			5
+		},
+		effect = {}
+	},
+	[488] = {
+		gametip = "map_event_stop_battle_tip_2",
+		memory = 0,
+		preinstall = 3,
+		type = 2,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 488,
+		icon = "longgong_jinzhi",
+		address = {
+			0,
+			6
+		},
+		effect = {}
+	},
+	[489] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 489,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1560402,
+						{
+							4,
+							4
+						}
+					}
+				}
+			}
+		}
+	},
+	[490] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 490,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				14
+			}
+		}
+	},
+	[491] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 491,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				14,
+				15
+			}
+		}
+	},
+	[492] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 492,
+		icon = "longgong_huo",
+		address = {
+			4,
+			4
+		},
+		effect = {}
+	},
+	[493] = {
+		gametip = "map_event_stop_battle_tip_2",
+		memory = 0,
+		preinstall = 3,
+		type = 2,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 493,
+		icon = "longgong_jinzhi",
+		address = {
+			4,
+			1
+		},
+		effect = {}
+	},
+	[494] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 494,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1561401,
+						{
+							2,
+							6
+						}
+					}
+				}
+			}
+		}
+	},
+	[495] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 495,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				16
+			}
+		}
+	},
+	[496] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 496,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				16,
+				17
+			}
+		}
+	},
+	[497] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 497,
+		icon = "longgong_tu",
+		address = {
+			2,
+			6
+		},
+		effect = {}
+	},
+	[498] = {
+		gametip = "map_event_stop_battle_tip_2",
+		memory = 0,
+		preinstall = 3,
+		type = 2,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 498,
+		icon = "longgong_jinzhi",
+		address = {
+			5,
+			9
+		},
+		effect = {}
+	},
+	[499] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 499,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1561402,
+						{
+							6,
+							8
+						}
+					}
+				}
+			}
+		}
+	},
+	[500] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 500,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				18
+			}
+		}
+	},
+	[501] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 501,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				18,
+				19
+			}
+		}
+	},
+	[502] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 502,
+		icon = "longgong_shenming",
+		address = {
+			6,
+			8
+		},
+		effect = {}
+	},
+	[503] = {
+		gametip = "map_event_stop_battle_tip_2",
+		memory = 0,
+		preinstall = 3,
+		type = 2,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 503,
+		icon = "longgong_jinzhi",
+		address = {
+			6,
+			2
+		},
+		effect = {}
+	},
+	[504] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 504,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1561403,
+						{
+							4,
+							1
+						}
+					},
+					{
+						1561404,
+						{
+							7,
+							4
+						}
+					},
+					{
+						1561405,
+						{
+							1,
+							4
+						}
+					},
+					{
+						1561406,
+						{
+							4,
+							7
+						}
+					}
+				}
+			}
+		}
+	},
+	[505] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 505,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				12
+			},
+			{
+				"flag",
+				0,
+				14
+			},
+			{
+				"flag",
+				0,
+				16
+			},
+			{
+				"flag",
+				0,
+				18
+			}
+		}
+	},
+	[506] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 506,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				12,
+				13
+			}
+		}
+	},
+	[507] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 507,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				14,
+				15
+			}
+		}
+	},
+	[508] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 508,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				16,
+				17
+			}
+		}
+	},
+	[509] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 509,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				18,
+				19
+			}
+		}
+	},
+	[510] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 510,
+		icon = "longgong_shui",
+		address = {
+			4,
+			1
+		},
+		effect = {
+			{
+				"mult_story",
+				{
+					3219,
+					3220,
+					3221,
+					3222
+				}
+			}
+		}
+	},
+	[511] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 511,
+		icon = "longgong_huo",
+		address = {
+			7,
+			4
+		},
+		effect = {
+			{
+				"mult_story",
+				{
+					3219,
+					3220,
+					3221,
+					3222
+				}
+			}
+		}
+	},
+	[512] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 512,
+		icon = "longgong_tu",
+		address = {
+			1,
+			4
+		},
+		effect = {
+			{
+				"mult_story",
+				{
+					3219,
+					3220,
+					3221,
+					3222
+				}
+			}
+		}
+	},
+	[513] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 513,
+		icon = "longgong_shenming",
+		address = {
+			4,
+			7
+		},
+		effect = {
+			{
+				"mult_story",
+				{
+					3219,
+					3220,
+					3221,
+					3222
+				}
+			}
+		}
+	},
+	[514] = {
+		gametip = "map_event_stop_battle_tip_2",
+		memory = 0,
+		preinstall = 3,
+		type = 2,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 514,
+		icon = "longgong_jinzhi",
+		address = {
+			2,
+			6
+		},
+		effect = {}
+	},
+	[515] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 515,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1562401,
+						{
+							4,
+							5
+						}
+					}
+				}
+			}
+		}
+	},
+	[516] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 516,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				12
+			}
+		}
+	},
+	[517] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 517,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				12,
+				13
+			}
+		}
+	},
+	[518] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 518,
+		icon = "longgong_shui",
+		address = {
+			4,
+			5
+		},
+		effect = {}
+	},
+	[519] = {
+		gametip = "map_event_stop_battle_tip_2",
+		memory = 0,
+		preinstall = 3,
+		type = 2,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 519,
+		icon = "longgong_jinzhi",
+		address = {
+			0,
+			6
+		},
+		effect = {}
+	},
+	[520] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 520,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1562402,
+						{
+							4,
+							4
+						}
+					}
+				}
+			}
+		}
+	},
+	[521] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 521,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				14
+			}
+		}
+	},
+	[522] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 522,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				14,
+				15
+			}
+		}
+	},
+	[523] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 523,
+		icon = "longgong_huo",
+		address = {
+			4,
+			4
+		},
+		effect = {}
+	},
+	[524] = {
+		gametip = "map_event_stop_battle_tip_2",
+		memory = 0,
+		preinstall = 3,
+		type = 2,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 524,
+		icon = "longgong_jinzhi",
+		address = {
+			4,
+			1
+		},
+		effect = {}
+	},
+	[525] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 525,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1563401,
+						{
+							2,
+							6
+						}
+					}
+				}
+			}
+		}
+	},
+	[526] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 526,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				16
+			}
+		}
+	},
+	[527] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 527,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				16,
+				17
+			}
+		}
+	},
+	[528] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 528,
+		icon = "longgong_tu",
+		address = {
+			2,
+			6
+		},
+		effect = {}
+	},
+	[529] = {
+		gametip = "map_event_stop_battle_tip_2",
+		memory = 0,
+		preinstall = 3,
+		type = 2,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 529,
+		icon = "longgong_jinzhi",
+		address = {
+			5,
+			9
+		},
+		effect = {}
+	},
+	[530] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 530,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1563402,
+						{
+							6,
+							8
+						}
+					}
+				}
+			}
+		}
+	},
+	[531] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 531,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				18
+			}
+		}
+	},
+	[532] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 532,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				18,
+				19
+			}
+		}
+	},
+	[533] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 533,
+		icon = "longgong_shenming",
+		address = {
+			6,
+			8
+		},
+		effect = {}
+	},
+	[534] = {
+		gametip = "map_event_stop_battle_tip_2",
+		memory = 0,
+		preinstall = 3,
+		type = 2,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 534,
+		icon = "longgong_jinzhi",
+		address = {
+			6,
+			2
+		},
+		effect = {}
+	},
+	[535] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 535,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1563403,
+						{
+							4,
+							1
+						}
+					},
+					{
+						1563404,
+						{
+							7,
+							4
+						}
+					},
+					{
+						1563405,
+						{
+							1,
+							4
+						}
+					},
+					{
+						1563406,
+						{
+							4,
+							7
+						}
+					}
+				}
+			}
+		}
+	},
+	[536] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 536,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				12
+			},
+			{
+				"flag",
+				0,
+				14
+			},
+			{
+				"flag",
+				0,
+				16
+			},
+			{
+				"flag",
+				0,
+				18
+			}
+		}
+	},
+	[537] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 537,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				12,
+				13
+			}
+		}
+	},
+	[538] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 538,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				14,
+				15
+			}
+		}
+	},
+	[539] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 539,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				16,
+				17
+			}
+		}
+	},
+	[540] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 540,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				18,
+				19
+			}
+		}
+	},
+	[541] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 541,
+		icon = "longgong_shui",
+		address = {
+			4,
+			1
+		},
+		effect = {
+			{
+				"mult_story",
+				{
+					3219,
+					3220,
+					3221,
+					3222
+				}
+			}
+		}
+	},
+	[542] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 542,
+		icon = "longgong_huo",
+		address = {
+			7,
+			4
+		},
+		effect = {
+			{
+				"mult_story",
+				{
+					3219,
+					3220,
+					3221,
+					3222
+				}
+			}
+		}
+	},
+	[543] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 543,
+		icon = "longgong_tu",
+		address = {
+			1,
+			4
+		},
+		effect = {
+			{
+				"mult_story",
+				{
+					3219,
+					3220,
+					3221,
+					3222
+				}
+			}
+		}
+	},
+	[544] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 544,
+		icon = "longgong_shenming",
+		address = {
+			4,
+			7
+		},
+		effect = {
+			{
+				"mult_story",
+				{
+					3219,
+					3220,
+					3221,
+					3222
+				}
+			}
+		}
+	},
+	[545] = {
+		gametip = "map_event_stop_battle_tip_2",
+		memory = 0,
+		preinstall = 3,
+		type = 2,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 545,
+		icon = "longgong_jinzhi",
+		address = {
+			2,
+			6
+		},
+		effect = {}
+	},
+	[546] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 546,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1564401,
+						{
+							3,
+							3
+						}
+					},
+					{
+						1564402,
+						{
+							4,
+							2
+						}
+					},
+					{
+						1564403,
+						{
+							5,
+							3
+						}
+					},
+					{
+						1564404,
+						{
+							4,
+							4
+						}
+					}
+				}
+			}
+		}
+	},
+	[547] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 547,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				12
+			},
+			{
+				"flag",
+				0,
+				14
+			},
+			{
+				"flag",
+				0,
+				16
+			},
+			{
+				"flag",
+				0,
+				18
+			}
+		}
+	},
+	[548] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 548,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				12,
+				13
+			}
+		}
+	},
+	[549] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 549,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				14,
+				15
+			}
+		}
+	},
+	[550] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 550,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				16,
+				17
+			}
+		}
+	},
+	[551] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 551,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				18,
+				19
+			}
+		}
+	},
+	[552] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 552,
+		icon = "longgong_shui",
+		address = {
+			3,
+			3
+		},
+		effect = {}
+	},
+	[553] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 553,
+		icon = "longgong_huo",
+		address = {
+			4,
+			2
+		},
+		effect = {}
+	},
+	[554] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 554,
+		icon = "longgong_tu",
+		address = {
+			5,
+			3
+		},
+		effect = {}
+	},
+	[555] = {
+		gametip = "",
+		memory = 0,
+		preinstall = 3,
+		type = 3,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 555,
+		icon = "longgong_shenming",
+		address = {
+			4,
+			4
+		},
+		effect = {}
+	},
+	[556] = {
+		gametip = "map_event_stop_battle_tip_2",
+		memory = 0,
+		preinstall = 3,
+		type = 2,
+		ship_prefab = "",
+		c_type = 0,
+		animation = "",
+		round_gametip = "",
+		id = 556,
+		icon = "longgong_jinzhi",
+		address = {
+			3,
+			4
+		},
+		effect = {}
+	},
 	all = {
 		75,
 		76,
@@ -9295,6 +10927,79 @@ pg.map_event_template = {
 		480,
 		481,
 		482,
-		483
+		483,
+		484,
+		485,
+		486,
+		487,
+		488,
+		489,
+		490,
+		491,
+		492,
+		493,
+		494,
+		495,
+		496,
+		497,
+		498,
+		499,
+		500,
+		501,
+		502,
+		503,
+		504,
+		505,
+		506,
+		507,
+		508,
+		509,
+		510,
+		511,
+		512,
+		513,
+		514,
+		515,
+		516,
+		517,
+		518,
+		519,
+		520,
+		521,
+		522,
+		523,
+		524,
+		525,
+		526,
+		527,
+		528,
+		529,
+		530,
+		531,
+		532,
+		533,
+		534,
+		535,
+		536,
+		537,
+		538,
+		539,
+		540,
+		541,
+		542,
+		543,
+		544,
+		545,
+		546,
+		547,
+		548,
+		549,
+		550,
+		551,
+		552,
+		553,
+		554,
+		555,
+		556
 	}
 }

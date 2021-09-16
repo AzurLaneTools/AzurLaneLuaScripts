@@ -1131,5 +1131,25 @@ pg.voice_actor_CN = {
 	{
 		code = 283,
 		actor_name = "Suzumoto Akiho "
+	},
+	{
+		code = 284,
+		actor_name = "Hayami Saori "
+	},
+	{
+		code = 285,
+		actor_name = "Serizawa Yu "
+	},
+	{
+		code = 286,
+		actor_name = "Toda Megumi "
+	},
+	{
+		code = 287,
+		actor_name = "Kawai Haruna "
+	},
+	{
+		code = 288,
+		actor_name = "Noguchi Ruriko "
 	}
 }

@@ -8638,7 +8638,8 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅲ",
 			"Learn All Out Assault Ⅱ",
-			"All weapons' efficiency +5%"
+			"All weapons' efficiency +5%",
+			"Hits needed to activate All-Out Assault halved"
 		}
 	},
 	[931] = {

@@ -95,9 +95,17 @@ function slot0.register(slot0)
 	end)
 
 	slot0.canUpdate = true
+	slot2 = getProxy(BayProxy):getShipById(slot0.contextData.shipId)
 
-	slot0.viewComponent:OnMediatorRegister()
-	slot0.viewComponent:setShip(getProxy(BayProxy):getShipById(slot0.contextData.shipId))
+	slot0.viewComponent:setShip(slot2)
+
+	if slot2 then
+		if slot0.contextData.mode == StoreHouseConst.EQUIPMENT then
+			slot0.contextData.qiutBtn = defaultValue(slot2:getEquip(slot0.contextData.pos), nil)
+		elseif slot0.contextData.mode == StoreHouseConst.SKIN then
+			slot0.contextData.qiutBtn = slot2:getEquipSkin(slot0.contextData.pos) ~= 0
+		end
+	end
 
 	slot0.equipmentProxy = getProxy(EquipmentProxy)
 	slot3 = nil
@@ -159,17 +167,21 @@ end
 
 function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
+		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
+		slot0.viewComponent:setEquipment(slot1:getBody())
+
 		if slot0.canUpdate then
-			slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
-			slot0.viewComponent:setEquipment(slot1:getBody())
+			slot0.viewComponent:setEquipmentUpdate()
 		end
 	elseif slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
 		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
 		slot0.viewComponent:removeEquipment(slot3)
 	elseif slot2 == EquipmentProxy.EQUIPMENT_SKIN_UPDATED then
+		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
+		slot0.viewComponent:setEquipmentSkin(slot3)
+
 		if slot0.canUpdate then
-			slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
-			slot0.viewComponent:setEquipmentSkin(slot3)
+			slot0.viewComponent:setEquipmentSkinUpdate()
 		end
 	elseif slot2 == BayProxy.SHIP_UPDATED then
 		if slot3.id == slot0.contextData.shipId then
@@ -187,6 +199,10 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.FRAG_SELL_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == GAME.DESTROY_EQUIPMENTS_DONE then
+		slot0.canUpdate = true
+
+		slot0.viewComponent:setEquipmentUpdate()
+
 		if table.getCount(slot3) ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				items = slot3

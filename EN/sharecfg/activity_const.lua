@@ -791,5 +791,17 @@ pg.activity_const = {
 	},
 	ROP_COW_ID = {
 		act_id = 4078
+	},
+	JIUJIU_YOYO_ID = {
+		act_id = 4120
+	},
+	JP_CEREMONY_INVITATION_ID = {
+		act_id = 4110
+	},
+	RETUREN_AWARD_1 = {
+		act_id = 4111
+	},
+	CATCH_TREASURE_ID = {
+		act_id = 4109
 	}
 }

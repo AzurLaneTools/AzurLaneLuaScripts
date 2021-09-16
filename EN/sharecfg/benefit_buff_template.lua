@@ -147,9 +147,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 3%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				9,
+				13,
 				1
 			}
 		}
@@ -165,9 +165,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 4%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				9,
+				13,
 				2
 			}
 		}
@@ -183,9 +183,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 5%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				9,
+				13,
 				3
 			}
 		}
@@ -201,9 +201,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 1%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				10,
+				14,
 				1
 			}
 		}
@@ -219,9 +219,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 2%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				10,
+				14,
 				2
 			}
 		}
@@ -237,9 +237,9 @@ pg.benefit_buff_template = {
 		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 3%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				10,
+				14,
 				3
 			}
 		}
@@ -255,9 +255,9 @@ pg.benefit_buff_template = {
 		desc = "Reduces Tactical Class training time by 3%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				11,
+				15,
 				1
 			}
 		}
@@ -273,9 +273,9 @@ pg.benefit_buff_template = {
 		desc = "Reduces Tactical Class training time by 4%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				11,
+				15,
 				2
 			}
 		}
@@ -291,9 +291,9 @@ pg.benefit_buff_template = {
 		desc = "Reduces Tactical Class training time by 5%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				11,
+				15,
 				3
 			}
 		}
@@ -309,9 +309,9 @@ pg.benefit_buff_template = {
 		desc = "Increases EXP gained in the Dorm by 3%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				12,
+				16,
 				1
 			}
 		}
@@ -327,9 +327,9 @@ pg.benefit_buff_template = {
 		desc = "Increases EXP gained in the Dorm by 4%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				12,
+				16,
 				2
 			}
 		}
@@ -345,9 +345,9 @@ pg.benefit_buff_template = {
 		desc = "Increases EXP gained in the Dorm by 5%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				12,
+				16,
 				3
 			}
 		}

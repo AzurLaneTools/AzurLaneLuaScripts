@@ -30,6 +30,10 @@ function slot0.init(slot0)
 	slot0.typeList = {}
 	slot0.btnConfirm = slot0:findTF("layout/btns/ok", slot0.panel)
 	slot0.btnCancel = slot0:findTF("layout/btns/cancel", slot0.panel)
+
+	setText(slot0:findTF("Image", slot0.btnConfirm), i18n("text_confirm"))
+	setText(slot0:findTF("Image", slot0.btnCancel), i18n("text_cancel"))
+
 	slot0.greySprite = slot0:findTF("resource/grey", slot0.panel):GetComponent(typeof(Image)).sprite
 	slot0.blueSprite = slot0:findTF("resource/blue", slot0.panel):GetComponent(typeof(Image)).sprite
 	slot0.yellowSprite = slot0:findTF("resource/yellow", slot0.panel):GetComponent(typeof(Image)).sprite
@@ -46,6 +50,9 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.btnCancel, function ()
+		uv0:emit(uv1.ON_CLOSE)
+	end, SFX_CANCEL)
+	onButton(slot0, slot0:findTF("btn", slot0.panel), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 

@@ -1,5 +1,110 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
+	[101370] = {
+		ship_group = 10137,
+		name = "Kalk",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 101370,
+		group_index = 0,
+		aircraft_skin = "",
+		painting = "keerke",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "keerke",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Benson class Destroyer— Kalk, hull number DD-611.",
+		voice_actor = 151,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.23,
+					0.95,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.21,
+					0.89,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101371] = {
 		ship_group = 10137,
 		name = "Snow Fairy Schoolgirl",
@@ -4058,9 +4163,7 @@ pg.ship_skin_template_2 = {
 		group_index = 9,
 		aircraft_skin = "",
 		painting = "shengdiyage_g",
-		shop_id = 0,
 		air_bullet_skin = "",
-		air_bomb_skin = "",
 		shop_type_id = 0,
 		lip_smoothing = 0,
 		l2d_animations = "",
@@ -4073,10 +4176,10 @@ pg.ship_skin_template_2 = {
 		l2d_se = "",
 		no_showing = "0",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "Heheh~☆ I have no idea what just happened, but I feel like I've gotten super strong! Commander, can you see my sparkly aura~?",
 		voice_actor = 5,
-		spine_offset = "",
+		air_bomb_skin = "",
 		illustrator = 1,
 		rarity_bg = "",
 		time = "",
@@ -4148,6 +4251,27 @@ pg.ship_skin_template_2 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				0,
+				-500,
+				0
+			},
+			{
+				0.62
+			}
+		},
+		special_effects = {
+			"lihui_jinkela",
+			{
+				37,
+				89,
+				0
+			},
+			{
+				1.6
 			}
 		}
 	},
@@ -7950,111 +8074,6 @@ pg.ship_skin_template_2 = {
 						{
 							-0.49,
 							2.23,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[102230] = {
-		ship_group = 10223,
-		name = "Birmingham",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 102230,
-		group_index = 0,
-		aircraft_skin = "",
-		painting = "bominghan",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "bominghan",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Cleveland-class light cruiser – Birmingham, Hull Number CL-62.",
-		voice_actor = 203,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.088,
-					1.068,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.039,
-					0.032,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.071,
-					1.046,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.183,
 							-0.16
 						}
 					}

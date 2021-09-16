@@ -872,6 +872,130 @@ pg.skill_data_display = {
 		id = 9031,
 		name = "But nothing happened!"
 	},
+	[9204] = {
+		id = 9204,
+		name = "Dragon Palace's Boon - White Waves"
+	},
+	[9205] = {
+		id = 9205,
+		name = "Dragon Palace's Boon - Scarlet Flames "
+	},
+	[9206] = {
+		id = 9206,
+		name = "Dragon Palace's Boon - Azure Vortexes "
+	},
+	[9207] = {
+		id = 9207,
+		name = "Dragon Palace's Boon - Verdant Gales"
+	},
+	[9215] = {
+		id = 9215,
+		name = "Dragon Palace's Boon - White Waves "
+	},
+	[9218] = {
+		id = 9218,
+		name = "Dragon Palace's Boon - White Waves "
+	},
+	[9221] = {
+		id = 9221,
+		name = "Dragon Palace's Boon - White Waves "
+	},
+	[9224] = {
+		id = 9224,
+		name = "Dragon Palace's Boon - White Waves "
+	},
+	[9227] = {
+		id = 9227,
+		name = "Dragon Palace's Boon - White Waves "
+	},
+	[9235] = {
+		id = 9235,
+		name = "Dragon Palace's Boon - Scarlet Flames "
+	},
+	[9238] = {
+		id = 9238,
+		name = "Dragon Palace's Boon - Scarlet Flames "
+	},
+	[9241] = {
+		id = 9241,
+		name = "Dragon Palace's Boon - Scarlet Flames "
+	},
+	[9244] = {
+		id = 9244,
+		name = "Dragon Palace's Boon - Scarlet Flames "
+	},
+	[9247] = {
+		id = 9247,
+		name = "Dragon Palace's Boon - Scarlet Flames "
+	},
+	[9255] = {
+		id = 9255,
+		name = "Dragon Palace's Boon - Azure Vortexes "
+	},
+	[9258] = {
+		id = 9258,
+		name = "Dragon Palace's Boon - Azure Vortexes "
+	},
+	[9261] = {
+		id = 9261,
+		name = "Dragon Palace's Boon - Azure Vortexes "
+	},
+	[9264] = {
+		id = 9264,
+		name = "Dragon Palace's Boon - Azure Vortexes "
+	},
+	[9267] = {
+		id = 9267,
+		name = "Dragon Palace's Boon - Azure Vortexes "
+	},
+	[9275] = {
+		id = 9275,
+		name = "Dragon Palace's Boon - Verdant Gales"
+	},
+	[9278] = {
+		id = 9278,
+		name = "Dragon Palace's Boon - Verdant Gales"
+	},
+	[9281] = {
+		id = 9281,
+		name = "Dragon Palace's Boon - Verdant Gales"
+	},
+	[9284] = {
+		id = 9284,
+		name = "Dragon Palace's Boon - Verdant Gales"
+	},
+	[9287] = {
+		id = 9287,
+		name = "Dragon Palace's Boon - Verdant Gales"
+	},
+	[9292] = {
+		id = 9292,
+		name = "Dragon Palace's Boon - Verdant Gales"
+	},
+	[9296] = {
+		id = 9296,
+		name = "Dragon Palace's Boon - Azure Vortexes "
+	},
+	[9300] = {
+		id = 9300,
+		name = "Dragon Palace's Boon - Scarlet Flames "
+	},
+	[9304] = {
+		id = 9304,
+		name = "Dragon Palace's Boon - White Waves "
+	},
+	[9306] = {
+		id = 9306,
+		name = "Sky-Rending Aurum"
+	},
+	[9307] = {
+		id = 9307,
+		name = "Flame-Anointed Argentum"
+	},
+	[9308] = {
+		id = 9308,
+		name = "Ryugu's Shadow"
+	},
 	[10010] = {
 		id = 10010,
 		name = "Baptismal Flames"
@@ -4028,6 +4152,90 @@ pg.skill_data_display = {
 		id = 14745,
 		name = "The Intrepid Nautilus"
 	},
+	[14760] = {
+		id = 14760,
+		name = "Sunglint Phantasm"
+	},
+	[14762] = {
+		id = 14762,
+		name = "Sunglint Phantasm"
+	},
+	[14764] = {
+		id = 14764,
+		name = "Sunglint Phantasm"
+	},
+	[14770] = {
+		id = 14770,
+		name = "Blessed Self"
+	},
+	[14781] = {
+		id = 14781,
+		name = "All-Obscuring Eye"
+	},
+	[14782] = {
+		id = 14782,
+		name = "Seaplanes, Deploy! +"
+	},
+	[14783] = {
+		id = 14783,
+		name = "Seaplanes, Deploy!"
+	},
+	[14790] = {
+		id = 14790,
+		name = "All-Obscuring Eye"
+	},
+	[14792] = {
+		id = 14792,
+		name = "All-Obscuring Eye"
+	},
+	[14800] = {
+		id = 14800,
+		name = "Reverent and Graceful"
+	},
+	[14810] = {
+		id = 14810,
+		name = "Delicate but Devoted"
+	},
+	[14820] = {
+		id = 14820,
+		name = "Motivating Roooaaar"
+	},
+	[14830] = {
+		id = 14830,
+		name = "Late-Blooming Airstrike"
+	},
+	[14831] = {
+		id = 14831,
+		name = "Late-Blooming Airstrike"
+	},
+	[14840] = {
+		id = 14840,
+		name = "Veil of Azaleas"
+	},
+	[14850] = {
+		id = 14850,
+		name = "Upon the Wind's Edge "
+	},
+	[14860] = {
+		id = 14860,
+		name = "Before the Lightning's Flash"
+	},
+	[14870] = {
+		id = 14870,
+		name = "Within the Thunder's Roar"
+	},
+	[14880] = {
+		id = 14880,
+		name = "Within the Thunder's Roar"
+	},
+	[14881] = {
+		id = 14881,
+		name = "Within the Thunder's Roar"
+	},
+	[14882] = {
+		id = 14882,
+		name = "Within the Thunder's Roar"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -6763,6 +6971,37 @@ pg.skill_data_display = {
 		9020,
 		9030,
 		9031,
+		9204,
+		9205,
+		9206,
+		9207,
+		9215,
+		9218,
+		9221,
+		9224,
+		9227,
+		9235,
+		9238,
+		9241,
+		9244,
+		9247,
+		9255,
+		9258,
+		9261,
+		9264,
+		9267,
+		9275,
+		9278,
+		9281,
+		9284,
+		9287,
+		9292,
+		9296,
+		9300,
+		9304,
+		9306,
+		9307,
+		9308,
 		10010,
 		10020,
 		10030,
@@ -7552,6 +7791,27 @@ pg.skill_data_display = {
 		14741,
 		14744,
 		14745,
+		14760,
+		14762,
+		14764,
+		14770,
+		14781,
+		14782,
+		14783,
+		14790,
+		14792,
+		14800,
+		14810,
+		14820,
+		14830,
+		14831,
+		14840,
+		14850,
+		14860,
+		14870,
+		14880,
+		14881,
+		14882,
 		18010,
 		18040,
 		18041,

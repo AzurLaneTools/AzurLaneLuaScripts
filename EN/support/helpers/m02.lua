@@ -1261,7 +1261,7 @@ function openDestroyEquip()
 
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.EQUIPSCENE, {
 		warp = StoreHouseConst.WARP_TO_WEAPON,
-		mode = StoreHouseConst.DESTORY
+		mode = StoreHouseConst.DESTROY
 	})
 end
 
@@ -2718,19 +2718,25 @@ slot20, slot21, slot22 = nil
 
 function slot20(slot0, slot1, slot2)
 	slot3 = slot0:Find("base")
-	slot4, slot5 = Equipment.GetInfoTrans(slot1, slot2)
+	slot4, slot5, slot6 = Equipment.GetInfoTrans(slot1, slot2)
 
 	if slot1.nextValue then
-		slot7, slot8 = Equipment.GetInfoTrans({
+		slot8, slot9 = Equipment.GetInfoTrans({
 			name = slot1.name,
 			type = slot1.type,
 			value = slot1.nextValue
 		}, slot2)
-		slot5 = slot5 .. setColorStr("   >   " .. slot8, COLOR_GREEN)
+		slot5 = slot5 .. setColorStr("   >   " .. slot9, COLOR_GREEN)
 	end
 
 	setText(slot3:Find("name"), slot4)
-	setText(slot3:Find("value"), slot5)
+
+	if slot6 then
+		setText(slot3:Find("value"), slot5 .. ("<color=#afff72>(+" .. ys.Battle.BattleConst.UltimateBonus.AuxBoostValue * 100 .. "%)</color>"))
+	else
+		setText(slot3:Find("value"), slot5)
+	end
+
 	setActive(slot3:Find("value/up"), slot1.compare and slot1.compare > 0)
 	setActive(slot3:Find("value/down"), slot1.compare and slot1.compare < 0)
 	triggerToggle(slot3, slot1.lock_open)

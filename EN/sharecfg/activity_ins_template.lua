@@ -6605,6 +6605,84 @@ pg.activity_ins_template = {
 			2134
 		}
 	},
+	{
+		ship_group = 30207,
+		name = "Yura",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "youliang",
+		id = 242,
+		group_id = 242,
+		order = 19,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30129,
+		name = "Hayaizo",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "daofeng",
+		id = 243,
+		group_id = 243,
+		order = 19,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30712,
+		name = "Misato",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "gecheng",
+		id = 244,
+		group_id = 244,
+		order = 19,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30306,
+		name = "ChiKUMA",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "zhumo",
+		id = 245,
+		group_id = 245,
+		order = 19,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30147,
+		name = "Umikaze",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "haifeng",
+		id = 246,
+		group_id = 246,
+		order = 19,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30148,
+		name = "Yamakaze",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "shanfeng",
+		id = 247,
+		group_id = 247,
+		order = 19,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -6846,6 +6924,12 @@ pg.activity_ins_template = {
 		238,
 		239,
 		240,
-		241
+		241,
+		242,
+		243,
+		244,
+		245,
+		246,
+		247
 	}
 }

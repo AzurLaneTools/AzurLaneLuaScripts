@@ -1,4 +1,4 @@
-slot0 = class("MapEventStoryTriggerCellView", import("view.level.cell.StaticCellView"))
+slot0 = class("MapEventStoryTriggerCellView", import(".StaticCellView"))
 
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
@@ -12,7 +12,7 @@ function slot0.GetOrder(slot0)
 end
 
 function slot0.Update(slot0)
-	slot2 = slot0.info.flag == 3 and slot1.trait ~= ChapterConst.TraitLurk
+	slot2 = slot0.info.flag == ChapterConst.CellFlagTriggerActive and slot1.trait ~= ChapterConst.TraitLurk
 
 	if IsNil(slot0.go) then
 		slot5 = slot1.data
@@ -23,32 +23,25 @@ function slot0.Update(slot0)
 		if pg.map_event_template[slot1.attachmentId].icon and #slot8 > 0 then
 			slot0:GetLoader():GetPrefab("ui/" .. slot8 .. "_1", slot8 .. "_1", function (slot0)
 				slot0.transform:SetParent(uv0.tf, false)
+				uv0:ResetCanvasOrder()
 			end)
 		end
 
-		if IsNil(slot0.triggerUpper) then
-			slot10 = GameObject.New(slot9 .. "_upper")
+		if IsNil(slot0.triggerUpper) and PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. slot8 .. "_1shangceng")) then
+			slot0.triggerUpper = HaloAttachmentView.New(slot0.parent, slot3, slot4)
 
-			slot10:AddComponent(typeof(RectTransform))
-			tf(slot10):SetParent(slot0.cellRoot, false)
-
-			tf(slot10).localPosition = slot6.theme:GetLinePosition(slot3, slot4)
-			tf(slot10).localEulerAngles = Vector3(-slot6.theme.angle, 0, 0)
-
-			if slot8 and #slot8 > 0 then
-				slot11 = slot8 .. "_1shangceng"
-
-				slot0:GetLoader():GetPrefab("ui/" .. slot11, slot11, function (slot0)
-					tf(slot0):SetParent(tf(uv0), false)
-				end)
-			end
-
-			slot0.triggerUpper = HaloAttachmentView.New(slot10, slot3, slot4)
+			slot0.triggerUpper:SetLoader(slot0.loader)
 		end
 	end
 
 	setActive(slot0.tf, slot2)
-	setActive(slot0.triggerUpper.go, slot2)
+
+	if slot0.triggerUpper then
+		slot0.triggerUpper.info = slot0.info
+		slot0.triggerUpper.chapter = slot0.chapter
+
+		slot0.triggerUpper:Update()
+	end
 end
 
 function slot0.DestroyGO(slot0)

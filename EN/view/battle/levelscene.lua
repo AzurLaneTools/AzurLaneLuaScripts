@@ -1163,7 +1163,7 @@ function slot0.updateCountDown(slot0)
 		slot0.newChapterCDTimer = nil
 	end
 
-	if slot0.contextData.map:isActivity() then
+	if slot0.contextData.map:isActivity() and not slot0.contextData.map:isRemaster() then
 		_.each(slot1:getMapsByActivities(), function (slot0)
 			if uv0 == 0 then
 				uv0 = slot0:getChapterTimeLimit()

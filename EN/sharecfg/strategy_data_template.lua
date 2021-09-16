@@ -417,6 +417,258 @@ pg.strategy_data_template = {
 		desc = "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
 		arg = {}
 	},
+	[9211] = {
+		buff_id = 9211,
+		name = "Dragon Palace's Boon - White Waves",
+		type = 10,
+		id = 9211,
+		icon = "9211",
+		desc = "The Dragon Palace grants the enemy supporting fire in battle.",
+		arg = {}
+	},
+	[9212] = {
+		buff_id = 9212,
+		name = "Dragon Palace's Boon - White Waves",
+		type = 10,
+		id = 9212,
+		icon = "9212",
+		desc = "The Dragon Palace grants your fleet supporting fire in battle.",
+		arg = {}
+	},
+	[9213] = {
+		buff_id = 9213,
+		name = "White Waves Supporting Fire Lv1",
+		type = 10,
+		id = 9213,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9216] = {
+		buff_id = 9216,
+		name = "White Waves Supporting Fire Lv2",
+		type = 10,
+		id = 9216,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9219] = {
+		buff_id = 9219,
+		name = "White Waves Supporting Fire Lv3",
+		type = 10,
+		id = 9219,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9222] = {
+		buff_id = 9222,
+		name = "White Waves Supporting Fire Lv4",
+		type = 10,
+		id = 9222,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9225] = {
+		buff_id = 9225,
+		name = "White Waves Supporting Fire Lv5",
+		type = 10,
+		id = 9225,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9231] = {
+		buff_id = 9231,
+		name = "Dragon Palace's Boon - Scarlet Flames",
+		type = 10,
+		id = 9231,
+		icon = "9231",
+		desc = "The Dragon Palace grants the enemy supporting fire in battle.",
+		arg = {}
+	},
+	[9232] = {
+		buff_id = 9232,
+		name = "Dragon Palace's Boon - Scarlet Flames",
+		type = 10,
+		id = 9232,
+		icon = "9232",
+		desc = "The Dragon Palace grants your fleet supporting fire in battle.",
+		arg = {}
+	},
+	[9233] = {
+		buff_id = 9233,
+		name = "Scarlet Flames Supporting Fire Lv1",
+		type = 10,
+		id = 9233,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9236] = {
+		buff_id = 9236,
+		name = "Scarlet Flames Supporting Fire Lv2",
+		type = 10,
+		id = 9236,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9239] = {
+		buff_id = 9239,
+		name = "Scarlet Flames Supporting Fire Lv3",
+		type = 10,
+		id = 9239,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9242] = {
+		buff_id = 9242,
+		name = "Scarlet Flames Supporting Fire Lv4",
+		type = 10,
+		id = 9242,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9245] = {
+		buff_id = 9245,
+		name = "Scarlet Flames Supporting Fire Lv5",
+		type = 10,
+		id = 9245,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9251] = {
+		buff_id = 9251,
+		name = "Dragon Palace's Boon - Azure Vortexes",
+		type = 10,
+		id = 9251,
+		icon = "9251",
+		desc = "The Dragon Palace grants the enemy supporting fire in battle as well as protective shields.",
+		arg = {}
+	},
+	[9252] = {
+		buff_id = 9252,
+		name = "Dragon Palace's Boon - Azure Vortexes",
+		type = 10,
+		id = 9252,
+		icon = "9252",
+		desc = "The Dragon Palace grants your fleet supporting fire in battle as well as protective shields.",
+		arg = {}
+	},
+	[9253] = {
+		buff_id = 9253,
+		name = "Azure Vortexes Supporting Fire Lv1",
+		type = 10,
+		id = 9253,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9256] = {
+		buff_id = 9256,
+		name = "Azure Vortexes Supporting Fire Lv2",
+		type = 10,
+		id = 9256,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9259] = {
+		buff_id = 9259,
+		name = "Azure Vortexes Supporting Fire Lv3",
+		type = 10,
+		id = 9259,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9262] = {
+		buff_id = 9262,
+		name = "Azure Vortexes Supporting Fire Lv4",
+		type = 10,
+		id = 9262,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9265] = {
+		buff_id = 9265,
+		name = "Azure Vortexes Supporting Fire Lv5",
+		type = 10,
+		id = 9265,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9271] = {
+		buff_id = 9271,
+		name = "Dragon Palace's Boon - Verdant Gales",
+		type = 10,
+		id = 9271,
+		icon = "9271",
+		desc = "The Dragon Palace grants the enemy supporting fire in battle as well as sporadic healing.",
+		arg = {}
+	},
+	[9272] = {
+		buff_id = 9272,
+		name = "Dragon Palace's Boon - Verdant Gales",
+		type = 10,
+		id = 9272,
+		icon = "9272",
+		desc = "The Dragon Palace grants your fleet supporting fire in battle as well as sporadic healing.",
+		arg = {}
+	},
+	[9273] = {
+		buff_id = 9273,
+		name = "Verdant Gales Supporting Fire Lv1",
+		type = 10,
+		id = 9273,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9276] = {
+		buff_id = 9276,
+		name = "Verdant Gales Supporting Fire Lv2",
+		type = 10,
+		id = 9276,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9279] = {
+		buff_id = 9279,
+		name = "Verdant Gales Supporting Fire Lv3",
+		type = 10,
+		id = 9279,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9282] = {
+		buff_id = 9282,
+		name = "Verdant Gales Supporting Fire Lv4",
+		type = 10,
+		id = 9282,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
+	[9285] = {
+		buff_id = 9285,
+		name = "Verdant Gales Supporting Fire Lv5",
+		type = 10,
+		id = 9285,
+		icon = "",
+		desc = "Special Supporting Barrage",
+		arg = {}
+	},
 	[9500] = {
 		buff_id = 9500,
 		name = "Wisdom Cube Reactivity",
@@ -608,6 +860,34 @@ pg.strategy_data_template = {
 		8880,
 		8882,
 		8884,
+		9211,
+		9212,
+		9213,
+		9216,
+		9219,
+		9222,
+		9225,
+		9231,
+		9232,
+		9233,
+		9236,
+		9239,
+		9242,
+		9245,
+		9251,
+		9252,
+		9253,
+		9256,
+		9259,
+		9262,
+		9265,
+		9271,
+		9272,
+		9273,
+		9276,
+		9279,
+		9282,
+		9285,
 		9500,
 		9502,
 		9505,

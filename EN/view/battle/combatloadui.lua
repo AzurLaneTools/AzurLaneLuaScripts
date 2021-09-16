@@ -107,8 +107,8 @@ function slot0.Preload(slot0)
 			end
 		end
 
-		for slot11, slot12 in pairs(pg.aircraft_template.indexs) do
-			slot1:AddPreloadResource(slot1.GetAircraftResource(slot11, {}))
+		for slot11, slot12 in ipairs(pg.aircraft_template.all) do
+			slot1:AddPreloadResource(slot1.GetAircraftResource(slot12, {}))
 		end
 	else
 		slot3 = {}

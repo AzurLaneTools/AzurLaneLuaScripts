@@ -1,16 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4079",
+		param = "4104",
 		id = 1,
-		pic = "temp1",
+		pic = "temp2",
 		type = 3,
 		time = {
 			{
 				{
 					2021,
 					9,
-					2
+					16
 				},
 				{
 					0,
@@ -21,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					9,
-					15
+					10,
+					3
 				},
 				{
 					23,
@@ -34,12 +34,12 @@ pg.activity_banner = {
 	},
 	{
 		id = 2,
-		pic = "temp2",
+		pic = "temp3",
 		type = 2,
 		param = {
-			"metacharacter",
+			"scene get boat",
 			{
-				autoOpenShipConfigID = 9707030
+				projectName = "new"
 			}
 		},
 		time = {
@@ -47,7 +47,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					2
+					16
 				},
 				{
 					0,
@@ -58,8 +58,149 @@ pg.activity_banner = {
 			{
 				{
 					2021,
+					10,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 3,
+		pic = "temp4",
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2021,
 					9,
-					15
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 4,
+		pic = "temp1",
+		type = 7,
+		param = {
+			30
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 5,
+		pic = "temp5",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 6,
+		pic = "temp6",
+		type = 2,
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					3
 				},
 				{
 					23,
@@ -71,8 +212,8 @@ pg.activity_banner = {
 	},
 	{
 		param = "4096",
-		id = 3,
-		pic = "temp3",
+		id = 7,
+		pic = "temp7",
 		type = 3,
 		time = {
 			{
@@ -103,8 +244,8 @@ pg.activity_banner = {
 	},
 	{
 		param = "4098",
-		id = 4,
-		pic = "temp4",
+		id = 8,
+		pic = "temp8",
 		type = 3,
 		time = {
 			{
@@ -134,19 +275,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 5,
-		pic = "temp5",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
+		param = "",
+		id = 9,
+		pic = "temp99",
+		type = 9,
 		time = {
 			{
 				{
 					2021,
 					9,
-					2
+					16
 				},
 				{
 					0,
@@ -157,8 +295,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					9,
-					15
+					10,
+					13
 				},
 				{
 					23,
@@ -169,80 +307,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4093",
-		id = 6,
-		pic = "temp6",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					9,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[9] = {
-		param = "",
-		id = 9,
-		pic = "temp99",
-		type = 9,
-		time = {
-			{
-				{
-					2021,
-					8,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[10] = {
-		param = "Manjuu Cup Ramen|Just add hot water, wait, and enjoy!<color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
+		param = "Osmanthus Cake|A sweet and aromatic cake said to have come from the Moon Palace! Delicious!<color=#A9F548>（Increase EXP by 5 for 60 minutes）</color>",
 		id = 10,
-		pic = "haijungali",
+		pic = "guihuagao",
 		type = 10,
 		time = {
 			{
 				{
 					2021,
-					8,
-					5
+					9,
+					16
 				},
 				{
 					0,
@@ -253,8 +327,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					8,
-					19
+					10,
+					3
 				},
 				{
 					23,
@@ -271,6 +345,8 @@ pg.activity_banner = {
 		4,
 		5,
 		6,
+		7,
+		8,
 		9,
 		10
 	}

@@ -954,6 +954,57 @@ pg.mini_game = {
 		hub_id = 22,
 		request_data = 0
 	},
+	{
+		view_name = "CatchTreasureGameView",
+		name = "打捞团小游戏",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 30,
+		hub_id = 23,
+		request_data = 0,
+		simple_config_data = {
+			drop = {
+				{
+					2,
+					54050,
+					2
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					20012,
+					2
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -983,6 +1034,7 @@ pg.mini_game = {
 		26,
 		27,
 		28,
-		29
+		29,
+		30
 	}
 }

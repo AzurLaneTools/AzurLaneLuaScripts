@@ -453,6 +453,51 @@ return {
 			end
 		end
 	},
+	{
+		Tag = "MiniGameHub",
+		Image = "event_minigame",
+		ButtonName = "activity_JPfourthAnniversary",
+		Tip = "tip",
+		UpdateButton = function (slot0, slot1)
+			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF) and not slot2:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				setActive(slot1:Find("Tip"), slot2:readyToAchieve() or (function ()
+					return getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0
+				end)())
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.AMUSEMENT_PARK2)
+				end, SFX_PANEL)
+			end
+		end
+	},
+	{
+		Tag = "MiniGameHub",
+		Image = "event_us",
+		ButtonName = "activity_catch_game",
+		Tip = "tip",
+		UpdateButton = function (slot0, slot1)
+			slot4 = getProxy(ActivityProxy):getActivityById(pg.activity_const.CATCH_TREASURE_ID.act_id) and not slot3:isEnd() and PLATFORM_CODE == PLATFORM_US
+
+			setActive(slot1, slot4)
+
+			if slot4 then
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_MINI_GAME, 30)
+				end, SFX_PANEL)
+
+				slot6 = getProxy(MiniGameProxy):GetHubByGameId(30).count and slot5.count > 0 or false
+
+				if slot5.ultimate == 0 and slot5.usedtime == slot5:getConfig("reward_need") then
+					slot6 = true
+				end
+
+				setActive(slot1:Find("Tip"), slot6)
+			end
+		end
+	},
 	LayoutProperty = {
 		CellSize = Vector2(208, 215),
 		Spacing = Vector2(0, -20),
@@ -469,7 +514,6 @@ return {
 		2,
 		4,
 		6,
-		17,
-		18
+		19
 	}
 }

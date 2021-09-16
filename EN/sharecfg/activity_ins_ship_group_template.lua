@@ -78,7 +78,7 @@ pg.activity_ins_ship_group_template = {
 	[30181] = {
 		ship_group = 30181,
 		name = "fuwarin1118",
-		sculpture = "xia_2"
+		sculpture = "xia"
 	},
 	[30118] = {
 		ship_group = 30118,
@@ -93,7 +93,7 @@ pg.activity_ins_ship_group_template = {
 	[30514] = {
 		ship_group = 30514,
 		name = "S8u6r6ug8A",
-		sculpture = "junhe_5"
+		sculpture = "junhe"
 	},
 	[30401] = {
 		ship_group = 30401,
@@ -1415,6 +1415,51 @@ pg.activity_ins_ship_group_template = {
 		name = "Mami_Futami",
 		sculpture = "zhenmei"
 	},
+	[30129] = {
+		ship_group = 30129,
+		name = "Hayaizo",
+		sculpture = "daofeng"
+	},
+	[30306] = {
+		ship_group = 30306,
+		name = "ChiKUMA",
+		sculpture = "zhumo"
+	},
+	[10108] = {
+		ship_group = 10108,
+		name = "Maury",
+		sculpture = "moli"
+	},
+	[30712] = {
+		ship_group = 30712,
+		name = "Misato",
+		sculpture = "gecheng"
+	},
+	[30147] = {
+		ship_group = 30147,
+		name = "Umikaze",
+		sculpture = "haifeng"
+	},
+	[30148] = {
+		ship_group = 30148,
+		name = "Yamakaze",
+		sculpture = "shanfeng"
+	},
+	[30207] = {
+		ship_group = 30207,
+		name = "Yura",
+		sculpture = "youliang"
+	},
+	[10102] = {
+		ship_group = 10102,
+		name = "Dewey",
+		sculpture = "duwei"
+	},
+	[21304] = {
+		ship_group = 21304,
+		name = "Abercrombie",
+		sculpture = "abeikelongbi"
+	},
 	all = {
 		30701,
 		30702,
@@ -1698,6 +1743,15 @@ pg.activity_ins_ship_group_template = {
 		1070004,
 		1070005,
 		1070006,
-		1070007
+		1070007,
+		30129,
+		30306,
+		10108,
+		30712,
+		30147,
+		30148,
+		30207,
+		10102,
+		21304
 	}
 }
