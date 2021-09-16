@@ -118,9 +118,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 301480,
+			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			actor = 301480,
 			say = "信濃様のお屋敷の裏庭に迷い込んで、そこで信濃様と会ったと聞いたよ！",
 			typewriter = {
 				speed = 0.05,
@@ -135,9 +136,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 301480,
+			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			actor = 301480,
 			say = "島風、すごい！",
 			typewriter = {
 				speed = 0.05,
@@ -177,7 +179,7 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
@@ -198,8 +200,9 @@ return {
 			actor = 301470,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
+			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "それに、畏れ多いことに信濃様の前で気を失ったなんて…",
 			typewriter = {
 				speed = 0.05,
@@ -228,7 +231,7 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
@@ -246,12 +249,13 @@ return {
 			}
 		},
 		{
-			actor = 301290,
+			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			actor = 301290,
 			say = "そういうわけで、セイレーンだろうと、はぐれ量産艦だろうとなんでも、この島風がぶっ倒してみせまぁす！",
 			typewriter = {
 				speed = 0.05,
@@ -290,7 +294,7 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
@@ -311,9 +315,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 301480,
+			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			actor = 301480,
 			say = "そうだね…敵がいないね…",
 			typewriter = {
 				speed = 0.05,
@@ -328,9 +333,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 301470,
+			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			actor = 301470,
 			say = "でも今日はいい天気ですよ。空は快晴、波も風も気持ちよく、それにカモメも――",
 			typewriter = {
 				speed = 0.05,
@@ -437,7 +443,7 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			actor = 307120,

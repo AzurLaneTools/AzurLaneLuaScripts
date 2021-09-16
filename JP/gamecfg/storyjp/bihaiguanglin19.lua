@@ -68,7 +68,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "そうよ。ふふ、まさかこんなところで会えるなんて",
 			typewriter = {
@@ -84,7 +84,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "あーあ、この妙なお城に囚われてどうしようかと困っていたわ",
 			typewriter = {
@@ -131,11 +131,11 @@ return {
 		},
 		{
 			actor = 499040,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			bgName = "bg_daofeng_4",
 			side = 2,
 			dir = 1,
-			actorName = "???",
+			actorName = "？？？",
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -150,7 +150,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "ああ、この子は「オーディン」と言うの。私の連れだと思ってもらって大丈夫よ",
 			typewriter = {
@@ -166,7 +166,7 @@ return {
 			actor = 499040,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "………………",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "良い質問ね。さて、いつからここにいたのかしら…",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
 			actor = 305140,
@@ -295,7 +295,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "そうだ、思い出したわ",
 			typewriter = {
@@ -311,7 +311,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "私達、重桜の訪問艦隊を迎えるためにやってきたけど、途中でこの変なお城を発見したわ",
 			typewriter = {
@@ -327,7 +327,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "安全かどうか確認しようとちょっと調査してみたら、見ての通りこうして封印に囚われちゃって",
 			typewriter = {
@@ -343,7 +343,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "あなた達がいなければ、私達はどうなっていたのかしらね～",
 			typewriter = {
@@ -424,7 +424,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "あら、頼もしいわ～これ以上この建物に閉じ込められてたら私、どうにかなっちゃいそう♪",
 			typewriter = {
@@ -473,7 +473,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "そうね…まずここはセイレーンの施設だと判断してもよさそうかしら",
 			typewriter = {
@@ -489,7 +489,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "量産型のセイレーン艦隊や、ここまで大きな建物をいきなり海へと沈ませられる技術はセイレーン以外に考えられないわね",
 			typewriter = {
@@ -505,7 +505,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "あなた方に見てもらおうとしていた浮島要塞でも、こんなデタラメな機能なんてないわよ",
 			typewriter = {
@@ -521,7 +521,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "そしてセイレーンの施設だとわかったのはいいとして、問題は制御装置がどこにあるかってことかしらね",
 			typewriter = {
@@ -537,7 +537,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "あくまで推測だけど、中心部のあの高い建物にあるんじゃない？",
 			typewriter = {
@@ -622,7 +622,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "手がかりはこれだけね。一生ここで暮らしたくなければ頑張ってちょうだい",
 			typewriter = {

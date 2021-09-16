@@ -347,15 +347,15 @@ return {
 			bgm = "battle-pacific",
 			flashout = {
 				black = true,
-				dur = 0.5,
+				dur = 1,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
-				dur = 0.5,
+				delay = 1,
+				dur = 1,
 				black = true,
 				alpha = {
 					1,
@@ -538,7 +538,7 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
 			actor = 307120,
@@ -725,7 +725,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
-			bgmDelay = 1,
+			bgmDelay = 0.5,
 			bgm = "cw-story",
 			actor = 301290,
 			nameColor = "#a9f548",
@@ -849,7 +849,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			dir = 1,
-			actorName = "???",
+			actorName = "？？？",
 			say = "…………ふぅ……",
 			typewriter = {
 				speed = 0.05,
@@ -894,7 +894,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			dir = 1,
-			actorName = "???",
+			actorName = "？？？",
 			say = "汝は…なにゆえ藪の中に……？",
 			typewriter = {
 				speed = 0.05,
@@ -924,7 +924,7 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
 			hidePaintObj = true,
@@ -947,7 +947,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			dir = 1,
-			actorName = "???",
+			actorName = "？？？",
 			say = "信濃を…見たことは…？",
 			typewriter = {
 				speed = 0.05,
@@ -1000,7 +1000,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			dir = 1,
-			actorName = "???",
+			actorName = "？？？",
 			say = "汝は…島風であろう？",
 			typewriter = {
 				speed = 0.05,
@@ -1045,7 +1045,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			dir = 1,
-			actorName = "???",
+			actorName = "？？？",
 			say = "駿河とは…仲が良い…？",
 			typewriter = {
 				speed = 0.05,
@@ -1074,7 +1074,7 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
 			hidePaintObj = true,
@@ -1109,7 +1109,7 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			expression = 5,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
 			hidePaintObj = true,
@@ -1353,7 +1353,7 @@ return {
 				{
 					type = "move",
 					y = -2500,
-					delay = 1.2,
+					delay = 0.8,
 					dur = 1,
 					x = 0
 				}

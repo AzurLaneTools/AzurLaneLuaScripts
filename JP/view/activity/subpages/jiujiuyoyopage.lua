@@ -127,7 +127,9 @@ function slot0.OnUpdateFlush(slot0)
 
 	if slot0.isFirst == 0 then
 		setActive(slot0.taskRedDot, true)
-	elseif #slot0.finishItemList > 0 then
+	end
+
+	if #slot0.finishItemList > 0 then
 		slot0:openTask()
 	end
 

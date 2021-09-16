@@ -14,7 +14,7 @@ return {
 			bgmDelay = 1,
 			bgm = "map-longgong",
 			actor = 403030,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			say = "島風、敵は片付いた？",
 			flashin = {
 				delay = 1,
@@ -49,16 +49,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
@@ -85,7 +75,7 @@ return {
 			bgName = "bg_daofeng_4",
 			actor = 403030,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			say = "ええ、バリアを破るのにずいぶんと手間が掛かったけど",
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +90,7 @@ return {
 			side = 2,
 			actorName = "アナウンス",
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "「試練クリアおめでとうございます。ええ」",
 			typewriter = {
@@ -116,7 +106,7 @@ return {
 			side = 2,
 			actorName = "アナウンス",
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "「…コホン。挑戦と変革はこの先に待ち受けている。準備はできているだろうか」",
 			typewriter = {
@@ -215,7 +205,7 @@ return {
 			bgName = "bg_daofeng_4",
 			actor = 403030,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			say = "単なるセイレーンの機械音声かもしれないわよ？…ふふ、むしろ強敵や仕掛けよりそっちのほうが望ましいかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -242,16 +232,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{

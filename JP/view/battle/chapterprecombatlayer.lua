@@ -747,14 +747,9 @@ function slot0.updateStrategyIcon(slot0)
 
 	setActive(slot5, false)
 
-	slot6 = {}
+	slot6 = ChapterConst.StrategyForms
 	slot7 = {}
 
-	_.each(slot1, function (slot0)
-		if pg.strategy_data_template[slot0.id].type == ChapterConst.StgTypeForm then
-			table.insert(uv0, slot0.id)
-		end
-	end)
 	table.insert(slot7, 1, {
 		id = slot0.chapter.fleet:getFormationStg()
 	})
@@ -779,7 +774,7 @@ function slot0.updateStrategyIcon(slot0)
 			end, SFX_PANEL)
 			setText(slot2:Find("nums"), "")
 			setActive(slot2:Find("mask"), false)
-			setActive(slot2:Find("selected"), formationId == slot3.id)
+			setActive(slot2:Find("selected"), false)
 		end
 	end)
 	slot9:align(#slot7)

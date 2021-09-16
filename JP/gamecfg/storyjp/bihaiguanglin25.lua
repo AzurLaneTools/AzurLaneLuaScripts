@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_daofeng_4",
 			actor = 403030,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			say = "ちょっと、その作戦の成功率も五分五分じゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_daofeng_4",
 			actor = 403030,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			say = "私とオーディンがそちらに向かって、敵がうまく誘導されたかどうか確認してくるわ",
 			typewriter = {
 				speed = 0.05,
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_daofeng_4",
 			actor = 403030,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			say = "駿河たちはここで待機しててちょうだい。あのちびっこたちを出迎えてくるわね",
 			typewriter = {
 				speed = 0.05,

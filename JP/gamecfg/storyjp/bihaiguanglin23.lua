@@ -23,15 +23,6 @@ return {
 					0
 				}
 			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +33,7 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
 			actor = 301480,
@@ -200,8 +191,48 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
-			dir = 1,
 			say = "――！！！",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			flashN = {
+				color = {
+					1,
+					1,
+					1,
+					1
+				},
+				alpha = {
+					{
+						0,
+						1,
+						0.2,
+						0
+					},
+					{
+						1,
+						0,
+						0.2,
+						0.2
+					},
+					{
+						0,
+						1,
+						0.2,
+						0.4
+					},
+					{
+						1,
+						0,
+						0.2,
+						0.6
+					}
+				}
+			},
+			dialogShake = {
+				speed = 0.09,
+				x = 8.5,
+				number = 2
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +446,7 @@ return {
 			bgName = "bg_daofeng_4",
 			actor = 403030,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			say = "簡単よ。ほら、そこをこうして…こうやって…こう…",
 			typewriter = {
 				speed = 0.05,
@@ -467,7 +498,7 @@ return {
 			bgName = "bg_daofeng_4",
 			actor = 403030,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			say = "そんなことないでしょ？わからなかったらもう一回説明すればいいじゃない",
 			typewriter = {
 				speed = 0.05,

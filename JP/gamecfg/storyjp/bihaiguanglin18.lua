@@ -113,16 +113,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
@@ -153,9 +143,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "？？？",
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "誰かー助けてくださーい",
 			typewriter = {

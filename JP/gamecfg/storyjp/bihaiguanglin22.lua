@@ -210,7 +210,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "へーきへーき、セイレーンの装置ならもう触り慣れてるわよ",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "事故る確率なんて5割もないし～",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "こうして…こう…さらに…ほら、完成よ",
 			typewriter = {
@@ -298,9 +298,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "アナウンス",
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "「竜宮城の秘宝は、ええ、勇者に進呈します」",
 			typewriter = {
@@ -379,7 +379,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "そうね。そしてうまく利用すれば私達の力にできるわ",
 			typewriter = {
@@ -411,7 +411,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "さあ？仕掛けがもう一度作動して、またあの量産型が出てくるんじゃない？",
 			typewriter = {
@@ -441,26 +441,10 @@ return {
 			}
 		},
 		{
-			actor = 305140,
-			side = 2,
-			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "今度仕掛けの台座を操作するときは、予め皆に断ってください！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "はいはーい。今のは結果オーライよ~",
 			typewriter = {

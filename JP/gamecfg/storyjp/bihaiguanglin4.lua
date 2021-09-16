@@ -48,12 +48,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_daofeng_1",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			actorName = "{namecode:18}",
 			say = "か、葛城殿、これは一体…！？",
 			typewriter = {
 				speed = 0.05,
@@ -68,9 +68,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_1",
-			actor = 307120,
-			dir = 1,
 			nameColor = "#a9f548",
+			dir = 1,
+			actorName = "{namecode:208}",
 			say = "うちに聞かれても分からぬわ！むむ、正規空母であるうちの経験と素晴らしき判断力から簡単な予想をすれば――",
 			typewriter = {
 				speed = 0.05,
@@ -85,9 +85,9 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "bg_daofeng_1",
-			actor = 301480,
-			dir = 1,
 			nameColor = "#a9f548",
+			dir = 1,
+			actorName = "{namecode:207}",
 			say = "伝説の「竜宮城」みたい！",
 			typewriter = {
 				speed = 0.05,
@@ -102,9 +102,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_1",
-			actor = 307120,
-			dir = 1,
 			nameColor = "#a9f548",
+			dir = 1,
+			actorName = "{namecode:208}",
 			say = "そういうことだ！島風、早う筑摩たちに大発見だと連絡するのだ！",
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 301290,
+			actorName = "{namecode:18}",
 			say = "はい！筑摩殿、聞こえていますか？",
 			typewriter = {
 				speed = 0.05,
@@ -147,9 +147,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_1",
-			actor = 303060,
-			dir = 1,
 			nameColor = "#a9f548",
+			dir = 1,
+			actorName = "{namecode:62}",
 			say = "こちら筑摩です。何があったんです？",
 			typewriter = {
 				speed = 0.05,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_daofeng_1",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			actorName = "{namecode:18}",
 			say = "実は航路のすぐそばに今まで発見されていない巨大な城がありまして……",
 			typewriter = {
 				speed = 0.05,
@@ -268,9 +268,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 301480,
+			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			actor = 301480,
 			say = "本当の竜宮城ならお宝もいっぱいあるしね！おー！",
 			typewriter = {
 				speed = 0.05,
@@ -285,9 +286,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 301470,
+			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			actor = 301470,
 			say = "お、お宝なんてそんな畏れ多いものが…",
 			typewriter = {
 				speed = 0.05,
@@ -302,9 +304,8 @@ return {
 			actor = 307120,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "つべこべ言うでない！島風もこのまま信濃様に「なぜか突然倒れる小娘」だと見られたくなかろうに！ほら！",
 			typewriter = {
 				speed = 0.05,

@@ -10,7 +10,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			bgmDelay = 1,
 			say = "オーディン、チャージのほうは大丈夫？",
@@ -37,7 +37,7 @@ return {
 			actor = 499040,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "ああ。編纂竜骨、接続、エネルギー直結……",
 			typewriter = {
@@ -55,48 +55,8 @@ return {
 			bgName = "bg_daofeng_4",
 			actor = 499040,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			say = "穿て、ヘルテイトの轟雷！！！",
-			soundeffect = "event:/battle/boom2",
-			flashN = {
-				color = {
-					1,
-					1,
-					1,
-					1
-				},
-				alpha = {
-					{
-						0,
-						1,
-						0.2,
-						0
-					},
-					{
-						1,
-						0,
-						0.2,
-						0.2
-					},
-					{
-						0,
-						1,
-						0.2,
-						0.4
-					},
-					{
-						1,
-						0,
-						0.2,
-						0.6
-					}
-				}
-			},
-			dialogShake = {
-				speed = 0.09,
-				x = 8.5,
-				number = 2
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,15 +73,15 @@ return {
 			dir = 1,
 			say = "竜宮城の明かりが一瞬暗くなったが、すぐさま眩しい光が一行の視界を真っ白にした。",
 			flashout = {
-				dur = 0.15,
+				dur = 0.5,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.2,
-				dur = 0.2,
+				delay = 0.5,
+				dur = 0.5,
 				alpha = {
 					1,
 					0
@@ -182,12 +142,11 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 499040,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			actor = 499040,
+			nameColor = "#ffff4d",
 			dir = 1,
-			nameColor = "#a9f548",
 			say = "攻撃完了だ。オイゲン、戦果の観測を",
 			typewriter = {
 				speed = 0.05,
@@ -202,7 +161,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "ええ、目標の完全破壊を確認。ご苦労さま",
 			typewriter = {
@@ -212,23 +171,13 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "好啦~さて、駿河に筑摩、由良、これで前に進められるわよ",
 			typewriter = {
@@ -244,7 +193,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "あら、どうしたの？そこでじっとしたままで",
 			typewriter = {
@@ -321,7 +270,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "オーディンは私と同じく「艦船」よ",
 			typewriter = {
@@ -353,7 +302,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "あら、もう知ってたの？そう、オーディンは「特別計画艦」よ",
 			typewriter = {
@@ -369,7 +318,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "知っていたら仲間に言っとけばよかったのに",
 			typewriter = {
@@ -429,7 +378,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			say = "あの出力は一回限り、しかもここの環境そのものを利用しないと放てないの",
 			typewriter = {
@@ -445,7 +394,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
+			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
 			say = "つまり奥の手はこれでおしまい。早く出発しないとあの島風って子たちに差をつけられるわよ？~",
