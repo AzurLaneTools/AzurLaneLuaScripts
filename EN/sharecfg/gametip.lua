@@ -16324,56 +16324,56 @@ cs.gametip = {
 	},
 	activity_event_building = {
 		547377,
-		1700,
+		1201,
 		true
 	},
 	salvage_tips = {
-		549077,
+		548578,
 		1059,
 		true
 	},
 	tips_shakebeads = {
-		550136,
+		549637,
 		1027,
 		true
 	},
 	gem_shop_xinzhi_tip = {
-		551163,
+		550664,
 		104,
 		true
 	},
 	cowboy_tips = {
-		551267,
+		550768,
 		699,
 		true
 	},
 	chazi_tips = {
-		551966,
+		551467,
 		877,
 		true
 	},
 	catchteasure_help = {
-		552843,
+		552344,
 		444,
 		true
 	},
 	unlock_tips = {
-		553287,
+		552788,
 		84,
 		true
 	},
 	breakout_tip_ultimatebonus_gunner = {
-		553371,
+		552872,
 		136,
 		true
 	},
 	breakout_tip_ultimatebonus_torpedo = {
-		553507,
+		553008,
 		120,
 		true
 	},
 	breakout_tip_ultimatebonus_aux = {
-		553627,
+		553128,
 		123,
 		true
 	}

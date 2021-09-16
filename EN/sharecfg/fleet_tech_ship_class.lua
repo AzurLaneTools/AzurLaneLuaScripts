@@ -1263,7 +1263,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30113] = {
 		shiptype = 1,
-		name = "岛风级",
+		name = "Shimakaze Class",
 		nation = 3,
 		id = 30113,
 		t_level_1 = 0,
@@ -1401,7 +1401,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30306] = {
 		shiptype = 3,
-		name = "利根级",
+		name = "Tone Class",
 		nation = 3,
 		id = 30306,
 		t_level_1 = 91,
@@ -1666,7 +1666,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30709] = {
 		shiptype = 7,
-		name = "云龙级",
+		name = "Unryuu Class",
 		nation = 3,
 		id = 30709,
 		t_level_1 = 104,
