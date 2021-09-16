@@ -176,6 +176,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[116] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "소류·META를 사용해 승리 1회",
+		id = 116,
+		target_num = 1,
+		target_id = "0"
+	},
+	[117] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "소류·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 117,
+		target_num = 1,
+		target_id = "30"
+	},
+	[118] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "소류·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 118,
+		target_num = 1,
+		target_id = "55"
+	},
+	[119] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "소류·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 119,
+		target_num = 1,
+		target_id = "80"
+	},
+	[120] = {
+		target_id_2 = "970703",
+		sub_type = 180,
+		desc = "소류·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 120,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -272,6 +312,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[212] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "대형 작전에서 소류·META를 사용해 1회 승리",
+		id = 212,
+		target_num = 1,
+		target_id = "0"
+	},
+	[213] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "대형 작전에서 소류·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 213,
+		target_num = 1,
+		target_id = "70"
+	},
+	[214] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "대형 작전에서 소류·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 214,
+		target_num = 1,
+		target_id = "90"
+	},
+	[215] = {
+		target_id_2 = "970703",
+		sub_type = 302,
+		desc = "대형 작전에서 소류·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 215,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -311,6 +383,11 @@ pg.task_meta_data_template = {
 		113,
 		114,
 		115,
+		116,
+		117,
+		118,
+		119,
+		120,
 		200,
 		201,
 		202,
@@ -323,6 +400,10 @@ pg.task_meta_data_template = {
 		209,
 		210,
 		211,
+		212,
+		213,
+		214,
+		215,
 		301,
 		302
 	}

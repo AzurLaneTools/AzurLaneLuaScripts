@@ -9620,6 +9620,162 @@ pg.ship_strengthen_blueprint = {
 			"주포 효율+15%"
 		}
 	},
+	[1031] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 31,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "행운+3",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1031,
+		need_exp = 200,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[1032] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 32,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "행운+4",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1032,
+		need_exp = 300,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[1033] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 33,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "행운+5|【전장 감각】스킬을【전장 감각 +】로 강화한다",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1033,
+		need_exp = 400,
+		effect_preload = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19200,
+			18200
+		}
+	},
+	[1034] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 34,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "행운+6",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1034,
+		need_exp = 500,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				6
+			}
+		}
+	},
+	[1035] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 35,
+		effect_breakout = 0,
+		need_lv = 100,
+		effect_desc = "행운+7|【특수 포격  훈련】스킬을【특수 포격  훈련 +】로 강화한다",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1035,
+		need_exp = 750,
+		effect_preload = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				7
+			}
+		},
+		change_skill = {
+			19210,
+			18210
+		}
+	},
 	[1101] = {
 		effect_equipment_proficiency = "",
 		effect_skill = "",
@@ -20635,6 +20791,11 @@ pg.ship_strengthen_blueprint = {
 		1028,
 		1029,
 		1030,
+		1031,
+		1032,
+		1033,
+		1034,
+		1035,
 		1101,
 		1102,
 		1103,

@@ -5412,7 +5412,7 @@ pg.activity_template = {
 		type = 57,
 		login_pop = 0,
 		config_id = 22,
-		is_show = 13,
+		is_show = 11,
 		config_data = "0",
 		time = {
 			timer,
@@ -5480,6 +5480,199 @@ pg.activity_template = {
 				5,
 				206,
 				1
+			}
+		}
+	},
+	[20839] = {
+		mark = 20210916,
+		config_client = "",
+		title_res_tag = "Wuqitianyun",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		id = 20839,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "WuQiFittingDisplayPage",
+			ui_name = "WuQiFittingDisplayPage"
+		}
+	},
+	[20840] = {
+		mark = 20210916,
+		id = 20840,
+		title_res_tag = "Neptune_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 13,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AzumaTecCatchupPage",
+			ui_name = "AzumaTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42014
+		}
+	},
+	[20841] = {
+		mark = 20210916,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 14,
+		is_show = 0,
+		config_client = "",
+		id = 20841,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20842] = {
+		mark = 20210916,
+		id = 20842,
+		title_res_tag = "JapanV2_frame",
+		type = 74,
+		login_pop = 0,
+		config_id = 20842,
+		is_show = 12,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JapanV2framePage",
+			ui_name = "JapanV2framePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -6639,6 +6832,10 @@ pg.activity_template = {
 		20836,
 		20837,
 		20838,
+		20839,
+		20840,
+		20841,
+		20842,
 		25000,
 		25001,
 		25002,

@@ -17545,6 +17545,17 @@ pg.memory_template = {
 		icon = "memory_kasabulanka",
 		is_open = 0
 	},
+	[1798] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "새로운 여행-{namecode:165}",
+		condition = "스페셜 프로젝트 함선 강화 레벨 30 달성",
+		story = "LUCK39904",
+		id = 1798,
+		icon = "memory_wuqi",
+		is_open = 0
+	},
 	[10000] = {
 		type = 1,
 		subtitle = "",
@@ -19878,6 +19889,7 @@ pg.memory_template = {
 		1795,
 		1796,
 		1797,
+		1798,
 		10000,
 		10001,
 		10002,

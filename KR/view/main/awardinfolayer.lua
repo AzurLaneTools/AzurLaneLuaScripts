@@ -39,17 +39,15 @@ function slot0.init(slot0)
 
 	if slot0.title == uv0.TITLE.SHIP then
 		slot0.container = ({
-			items = slot0._itemsWindow:Find("items"),
-			items_scroll = slot0._itemsWindow:Find("items_scroll/viewport/content"),
+			items_scroll = slot0._itemsWindow:Find("items_scroll/content"),
 			ships = slot0._itemsWindow:Find("ships")
 		}).ships
-	elseif #slot0.awards <= 10 then
-		slot0.container = slot1.items
 	else
 		slot0.container = slot1.items_scroll
-	end
+		slot0._itemsWindow:Find("items_scroll"):GetComponent(typeof(LayoutElement)).preferredHeight = #slot0.awards > 5 and 564 or 340
 
-	setActive(slot0.container, true)
+		scrollTo(slot0.container, nil, 1)
+	end
 
 	for slot5, slot6 in pairs(slot1) do
 		setActive(slot0._itemsWindow:Find(slot5), slot0.container == slot6)
@@ -121,25 +119,25 @@ function slot0.didEnter(slot0)
 	end)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_GETITEM)
 
+	slot1 = {}
+
 	if slot0.contextData.animation then
-		table.insert({}, function (slot0)
+		table.insert(slot1, function (slot0)
 			uv0.inAniming = true
 			uv0.containerCG.alpha = 0
 
 			setActive(uv0.container, false)
-			uv0:doAnim(function ()
-				setActive(uv0.container, true)
-				uv0:displayAwards()
-				uv0:playAnim(uv1)
-			end)
+			uv0:doAnim(slot0)
+		end)
+		table.insert(slot1, function (slot0)
+			setActive(uv0.container, true)
+			uv0:displayAwards()
+			uv0:playAnim(slot0)
 		end)
 	else
 		table.insert(slot1, function (slot0)
 			uv0:displayAwards()
-			uv0:doAnim(function ()
-				scrollTo(uv0._itemsWindow:Find("items_scroll"), 0, 1)
-				uv1()
-			end)
+			uv0:doAnim(slot0)
 		end)
 	end
 
@@ -275,16 +273,13 @@ function slot0.playAnim(slot0, slot1)
 			end
 
 			setActive(uv1, true)
+			uv0:updateSpriteMaskScale()
 
-			if uv0.title ~= uv2.TITLE.SHIP and #uv0.awards > 10 then
-				scrollTo(uv0._itemsWindow:Find("items_scroll"), 0, 0)
+			if uv0.title ~= uv2.TITLE.SHIP then
+				scrollTo(uv0.container, nil, 0)
 			end
 
 			table.insert(uv0.tweenItems, LeanTween.delayedCall(uv3, System.Action(slot0)).id)
-		end)
-		table.insert(slot2, function (slot0)
-			uv0:updateSpriteMaskScale()
-			slot0()
 		end)
 	end
 

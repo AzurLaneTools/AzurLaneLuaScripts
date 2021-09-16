@@ -1020,6 +1020,11 @@ pg.name_code = {
 		name = "하쿠류",
 		code = "하쿠류"
 	},
+	{
+		id = 205,
+		name = "소류·META",
+		code = "소류·META"
+	},
 	[250] = {
 		id = 250,
 		name = "이9",

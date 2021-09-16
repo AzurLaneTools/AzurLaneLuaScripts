@@ -192,6 +192,18 @@ return {
 		view = {
 			"MainUI"
 		},
+		condition = {
+			arg = {
+				2
+			},
+			func = function (slot0)
+				if slot0:getEquip(2) then
+					return pg.SeriesGuideMgr.CODES.MAINUI, 15
+				end
+
+				return pg.SeriesGuideMgr.CODES.MAINUI, 14
+			end
+		},
 		segment = {
 			{
 				"S017",
