@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎！{namecode:62}阁下你误会了！{namecode:18}的意思是{namecode:62}阁下拥有自己的作为航空母舰的特色，不需要跟其他人比较啦！",
+			say = "哎！{namecode:208}阁下你误会了！{namecode:18}的意思是{namecode:208}阁下拥有自己的作为航空母舰的特色，不需要跟其他人比较啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
