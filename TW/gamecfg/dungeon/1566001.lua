@@ -763,8 +763,8 @@ return {
 		vanguard_unitList = {
 			{
 				exp = 10,
-				configId = 900925,
-				tmpID = 900925,
+				configId = 900315,
+				tmpID = 900315,
 				skinId = 301290,
 				oil_at_end = 55,
 				id = 1,
@@ -809,8 +809,8 @@ return {
 			},
 			{
 				exp = 10,
-				configId = 900926,
-				tmpID = 900926,
+				configId = 900316,
+				tmpID = 900316,
 				skinId = 303060,
 				oil_at_end = 55,
 				id = 2,
@@ -851,8 +851,8 @@ return {
 			},
 			{
 				exp = 10,
-				configId = 900927,
-				tmpID = 900927,
+				configId = 900317,
+				tmpID = 900317,
 				skinId = 403030,
 				oil_at_end = 55,
 				id = 3,
@@ -890,8 +890,8 @@ return {
 		},
 		main_unitList = {
 			{
-				tmpID = 900928,
-				configId = 900928,
+				tmpID = 900318,
+				configId = 900318,
 				skinId = 305140,
 				id = 1,
 				level = 100,
@@ -925,8 +925,8 @@ return {
 				}
 			},
 			{
-				tmpID = 900929,
-				configId = 900929,
+				tmpID = 900319,
+				configId = 900319,
 				skinId = 307120,
 				id = 2,
 				level = 97,
@@ -960,8 +960,8 @@ return {
 				}
 			},
 			{
-				tmpID = 900930,
-				configId = 900930,
+				tmpID = 900320,
+				configId = 900320,
 				skinId = 499040,
 				id = 3,
 				level = 82,

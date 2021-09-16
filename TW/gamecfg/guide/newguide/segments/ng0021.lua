@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "点击帮助查看按钮说明",
+				text = "點擊幫助查看按鈕說明",
 				mode = 2,
 				posY = -382,
 				dir = 1,

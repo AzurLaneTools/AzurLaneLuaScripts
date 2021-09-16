@@ -1133,6 +1133,9 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 
 	slot10 = uv3.CreateBattleUnitData(slot5, slot8, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot1.baseProperties, slot7, slot1.baseList, slot1.preloasList)
 
+	uv3.AttachUltimateBonus(slot10)
+	print(slot1.initHPRate)
+	slot10:InitCurrentHP(slot1.initHPRate or 1)
 	slot10:SetRarity(slot1.rarity)
 	slot10:SetIntimacy(slot1.intimacy)
 	slot10:SetShipName(slot1.name)
@@ -1155,8 +1158,6 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 	uv3.InitUnitSkill(slot1, slot10, slot9)
 	uv3.InitEquipSkill(slot1.equipment, slot10, slot9)
 	uv3.InitCommanderSkill(slot4, slot10, slot9)
-	uv3.AttachUltimateBonus(slot10)
-	slot10:InitCurrentHP(slot1.initHPRate or 1)
 	slot10:SetGearScore(slot1.shipGS)
 
 	if slot1.deathMark then

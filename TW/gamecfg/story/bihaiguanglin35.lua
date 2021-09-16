@@ -269,7 +269,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "呃……你是{namecode:161}级的……",
+			say = "呃……你是{namecode:161}级的，不对，{namecode:92}级的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
