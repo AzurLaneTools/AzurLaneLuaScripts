@@ -386,7 +386,7 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			slot8:updateActivity(slot9)
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
-		slot9 = slot3.data1KeyValueList[2][slot1.arg1] or 0
+		slot9 = slot3.data1KeyValueList[2][slot1.arg1] or 1
 		slot3.data1KeyValueList[2][slot1.arg1] = slot9 + 1
 
 		if slot9 < #pg.activity_event_building[slot1.arg1].buff then
@@ -450,6 +450,14 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		elseif slot1.cmd == 2 then
 			slot3.data1KeyValueList[2] = slot3.data1KeyValueList[2] or {}
 			slot3.data1KeyValueList[2][slot1.arg1] = 1
+		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_SHAKE_BEADS then
+		if slot1.cmd == 1 then
+			slot3.data1 = slot3.data1 - 1
+			slot8 = slot2.number[1]
+			slot3.data1KeyValueList[1][slot8] = slot3.data1KeyValueList[1][slot8] + 1
+		elseif slot1.cmd == 2 then
+			slot3.data2 = 1
 		end
 	end
 
@@ -525,16 +533,25 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 			end
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("building_complete_tip"))
-		elseif uv0 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN and uv6.cmd == 3 then
-			slot0 = uv1:getSpecialData("month_sign_awards") or {}
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
+			if uv6.cmd == 3 then
+				slot0 = uv1:getSpecialData("month_sign_awards") or {}
 
-			for slot4 = 1, #uv5 do
-				table.insert(slot0, uv5[slot4])
+				for slot4 = 1, #uv5 do
+					table.insert(slot0, uv5[slot4])
+				end
+
+				uv1:setSpecialData("month_sign_awards", slot0)
+
+				uv5 = {}
 			end
-
-			uv1:setSpecialData("month_sign_awards", slot0)
-
-			uv5 = {}
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_SHAKE_BEADS and uv6.cmd == 1 then
+			uv3:sendNotification(ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT, {
+				number = uv4.number[1],
+				callback = uv2,
+				awards = uv5
+			})
+			coroutine.yield()
 		end
 
 		if #uv5 > 0 then

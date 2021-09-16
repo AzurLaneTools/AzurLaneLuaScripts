@@ -59,10 +59,6 @@ function slot0.update(slot0, slot1)
 		table.insert(slot4, slot0:getFormationStg())
 	end
 
-	for slot9, slot10 in ipairs(slot0.chapter:getConfig("chapter_buff")) do
-		table.insert(slot4, slot10)
-	end
-
 	slot0.stgPicked = slot2
 	slot0.stgUsed = slot3
 	slot0.stgIds = slot4
@@ -535,10 +531,8 @@ function slot0.getStrategies(slot0)
 		end
 	end
 
-	for slot5, slot6 in pairs(pg.strategy_data_template) do
-		if slot6.type == ChapterConst.StgTypeForm or slot6.type == ChapterConst.StgTypeConsume and table.contains(ChapterConst.StrategyPresents, slot6.id) then
-			slot1[slot5] = slot1[slot5] or 0
-		end
+	for slot5, slot6 in pairs(ChapterConst.StrategyPresents) do
+		slot1[slot6] = slot1[slot6] or 0
 	end
 
 	slot2 = {}
@@ -556,25 +550,21 @@ function slot0.getStrategies(slot0)
 end
 
 function slot0.getOwnStrategies(slot0)
+	slot1 = {}
+
 	_.each(slot0:getShips(false), function (slot0)
 		_.each(slot0:getConfig("strategy_list"), function (slot0)
 			uv0[slot0[1]] = (uv0[slot0[1]] or 0) + slot0[2]
 		end)
 	end)
 
-	if slot0:triggerSkill(FleetSkill.TypeExchange) and slot3 > 0 then
-		-- Nothing
-	end
-
 	if slot0:triggerSkill(FleetSkill.TypeStrategy) then
-		_.each(slot4, function (slot0)
+		_.each(slot3, function (slot0)
 			uv0[slot0[1]] = (uv0[slot0[1]] or 0) + slot0[2]
 		end)
 	end
 
-	return {
-		[ChapterConst.StrategyExchange] = slot3
-	}
+	return slot1
 end
 
 function slot0.achievedOneStrategy(slot0, slot1)

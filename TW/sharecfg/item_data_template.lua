@@ -3560,6 +3560,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[20101] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 20101,
+		compose_number = 0,
+		target_id = 0
+	},
 	[30001] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -12079,6 +12090,180 @@ pg.item_data_template = {
 			}
 		}
 	},
+	[42020] = {
+		usage = "usage_drop_appointed",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 42020,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		}
+	},
+	[42021] = {
+		usage = "usage_blueprint",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 42021,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			10
+		}
+	},
+	[42022] = {
+		usage = "usage_blueprint",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 42022,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			10
+		}
+	},
+	[42023] = {
+		usage = "usage_blueprint",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 42023,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			10
+		}
+	},
+	[42024] = {
+		usage = "usage_blueprint",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 42024,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			10
+		}
+	},
+	[42025] = {
+		usage = "usage_blueprint",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 42025,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			10
+		}
+	},
+	[42026] = {
+		usage = "usage_drop_appointed",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 42026,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		}
+	},
 	[50001] = {
 		usage = "usage_food",
 		display_effect = "",
@@ -13449,6 +13634,7 @@ pg.item_data_template = {
 		20011,
 		20012,
 		20013,
+		20101,
 		30001,
 		30011,
 		30012,
@@ -14198,6 +14384,13 @@ pg.item_data_template = {
 		42015,
 		42016,
 		42017,
+		42020,
+		42021,
+		42022,
+		42023,
+		42024,
+		42025,
+		42026,
 		50001,
 		50002,
 		50003,

@@ -8447,7 +8447,7 @@ pg.activity_template = {
 		type = 57,
 		login_pop = 0,
 		config_id = 22,
-		is_show = 17,
+		is_show = 9,
 		config_data = "0",
 		time = {
 			timer,
@@ -8525,7 +8525,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 16,
+		is_show = 10,
 		config_data = {
 			{
 				35034,
@@ -8625,6 +8625,350 @@ pg.activity_template = {
 				{
 					"XIAOTIANE7"
 				}
+			}
+		}
+	},
+	[40400] = {
+		mark = 20210916,
+		id = 40400,
+		title_res_tag = "Neptune_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 11,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NeptuneTecCatchupPage",
+			ui_name = "NeptuneTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42001
+		}
+	},
+	[40401] = {
+		mark = 20210916,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 0,
+		config_client = "",
+		id = 40401,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40402] = {
+		mark = 20210916,
+		id = 40402,
+		title_res_tag = "Shinano_frame",
+		type = 54,
+		login_pop = 0,
+		config_id = 40402,
+		is_show = 12,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShinanoframePage",
+			ui_name = "ShinanoframePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40404] = {
+		mark = 20210916,
+		title_res_tag = "",
+		page_info = "",
+		type = 43,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40404,
+		config_data = {
+			{
+				55,
+				93323
+			},
+			{
+				56,
+				93324
+			},
+			{
+				57,
+				93325
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40405] = {
+		mark = 20210916,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40405,
+		config_data = {
+			15714,
+			15715,
+			15716,
+			15717,
+			15718,
+			15719,
+			15720,
+			15721,
+			15722
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40406] = {
+		mark = 20210916,
+		time = "always",
+		page_info = "",
+		type = 71,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 40406,
+		config_data = {
+			101,
+			500,
+			{
+				{
+					{
+						51101,
+						51102,
+						51103,
+						51104,
+						51105,
+						51106,
+						51107,
+						51108,
+						51109,
+						51110,
+						51111,
+						51112,
+						51113,
+						51114,
+						51115,
+						51116,
+						51117,
+						51118,
+						51119
+					},
+					51120
+				}
+			}
+		}
+	},
+	[40407] = {
+		mark = 20210916,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_40407",
+		id = 40407,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "斯莫利 建造機率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：26%",
+				"普通艦船：55%",
+				"<color=#3dc6ff>斯莫利</color>：5%(<color=#92fc63>up!</color>)"
 			}
 		}
 	},
@@ -9846,6 +10190,13 @@ pg.activity_template = {
 		40397,
 		40398,
 		40399,
+		40400,
+		40401,
+		40402,
+		40404,
+		40405,
+		40406,
+		40407,
 		45000,
 		45001,
 		45002,

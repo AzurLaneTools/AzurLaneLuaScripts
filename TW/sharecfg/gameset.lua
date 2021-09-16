@@ -2047,7 +2047,7 @@ pg.gameset = {
 		key_value = 0
 	},
 	permanent_mark = {
-		description = "20210715",
+		description = "20210923",
 		key_value = 0
 	},
 	vow_prop_conversion = {

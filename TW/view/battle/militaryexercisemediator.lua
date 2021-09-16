@@ -53,7 +53,6 @@ function slot0.listNotificationInterests(slot0)
 		PlayerProxy.UPDATED,
 		MilitaryExerciseProxy.SEASON_INFO_UPDATED,
 		GAME.MILITARY_STARTED,
-		GAME.REMOVE_LAYERS,
 		ActivityProxy.ACTIVITY_UPDATED
 	}
 end

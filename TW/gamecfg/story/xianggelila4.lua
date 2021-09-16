@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，情报收集也是作战重要的一环哦，就给后辈们说说也无妨吧？",
+			say = "呵呵，情報收集也是作戰重要的一環哦，就給後輩們說說也無妨吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

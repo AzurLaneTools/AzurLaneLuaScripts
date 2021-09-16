@@ -42,6 +42,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.actorAlpha = slot1.actorAlpha
 	slot0.showNPainting = slot1.hidePaintObj
 	slot0.showWJZPainting = slot1.hidePaintEquip
+	slot0.nohead = slot1.nohead
 
 	if slot0.hidePainting or slot0.actor == nil then
 		slot0.actor = nil
@@ -217,9 +218,15 @@ function slot0.GetSubPaintings(slot0)
 			name = pg.ship_skin_template[slot0.actor].painting,
 			expression = slot0.expression,
 			pos = slot0.pos,
-			dir = slot0.dir or 1
+			dir = slot0.dir or 1,
+			paintingNoise = slot0.paintingNoise or false,
+			showNPainting = slot0.hidePaintObj or false
 		}
 	end)
+end
+
+function slot0.IsNoHeadPainting(slot0)
+	return slot0.nohead
 end
 
 function slot0.GetFontSize(slot0)

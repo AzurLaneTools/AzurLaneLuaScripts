@@ -28,9 +28,13 @@ function slot5.Update(slot0, slot1)
 end
 
 function slot5.UpdateCloakConfig(slot0)
-	slot0._exposeValue = uv0.GetCurrent(slot0._client, "cloakExpose")
+	slot0._exposeBase = uv0.GetCurrent(slot0._client, "cloakExposeBase")
+	slot0._exposeExtra = uv0.GetCurrent(slot0._client, "cloakExposeExtra")
 	slot0._restoreValue = uv0.GetCurrent(slot0._client, "cloakRestore")
 	slot0._recovery = uv0.GetCurrent(slot0._client, "cloakRecovery")
+
+	slot0:adjustCloakAttr()
+	slot0._client:DispatchEvent(uv1.Event.New(uv2.UPDATE_CLOAK_CONFIG))
 end
 
 function slot5.SetRecoverySpeed(slot0, slot1)
@@ -137,18 +141,33 @@ function slot5.updateCloakValue(slot0, slot1)
 end
 
 function slot5.initCloak(slot0)
-	slot0._exposeValue = uv0.GetCurrent(slot0._client, "cloakExpose")
+	slot0._exposeBase = uv0.GetCurrent(slot0._client, "cloakExposeBase")
+	slot0._exposeExtra = uv0.GetCurrent(slot0._client, "cloakExposeExtra")
 	slot0._restoreValue = uv0.GetCurrent(slot0._client, "cloakRestore")
 	slot0._fireLockValue = uv0.GetCurrent(slot0._client, "cloakFireLock")
+	slot0._cloakValue = 0
+	slot0._exposeSpeed = 0
+	slot0._cloakBottom = 0
+
+	slot0:adjustCloakAttr()
+
 	slot0._recovery = uv0.GetCurrent(slot0._client, "cloakRecovery")
 	slot0._strikeExposeAdditive = uv0.GetCurrent(slot0._client, "cloakStrikeAdditive")
 	slot0._strikeCount = 0
 	slot0._strikeExposeAdditiveLimit = uv1.CLOAK_STRIKE_ADDITIVE_LIMIT
-	slot0._cloakValue = 0
-	slot0._exposeSpeed = 0
-	slot0._cloakBottom = 0
 	slot0._exposeDotList = {}
 	slot0._currentState = uv2.STATE_CLOAK
 
 	uv0.Cloak(slot0._client)
+end
+
+function slot5.adjustCloakAttr(slot0)
+	slot0._exposeBase = math.max(slot0._exposeBase, uv0.CLOAK_EXPOSE_BASE_MIN)
+	slot0._restoreValue = math.max(slot0._restoreValue, 0)
+	slot0._exposeValue = math.max(slot0._exposeBase + slot0._exposeExtra, uv0.CLOAK_EXPOSE_SKILL_MIN)
+	slot0._cloakValue = Mathf.Clamp(slot0._cloakValue, 0, slot0._exposeValue)
+
+	uv1.SetCurrent(slot0._client, "cloakExposeBase", slot0._exposeBase)
+	uv1.SetCurrent(slot0._client, "cloakRestore", slot0._restoreValue)
+	slot0:UpdateCloakState()
 end

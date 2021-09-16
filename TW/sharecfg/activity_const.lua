@@ -601,10 +601,10 @@ pg.activity_const = {
 		act_id = 531
 	},
 	OUTPOST_PT = {
-		act_id = 40364
+		act_id = 40402
 	},
 	OUTPOST_TASK = {
-		act_id = 40365
+		act_id = 40403
 	},
 	APRILFOOL_DISCOVERY = {
 		act_id = 549
@@ -631,7 +631,7 @@ pg.activity_const = {
 		act_id = 40166
 	},
 	SHINANO_EXP_ACT_ID = {
-		act_id = 679
+		act_id = 40401
 	},
 	JIUJIU_ADVENTURE_ID = {
 		act_id = 690
@@ -791,5 +791,17 @@ pg.activity_const = {
 	},
 	ROP_COW_ID = {
 		act_id = 4078
+	},
+	JIUJIU_YOYO_ID = {
+		act_id = 4120
+	},
+	JP_CEREMONY_INVITATION_ID = {
+		act_id = 4110
+	},
+	RETUREN_AWARD_1 = {
+		act_id = 4111
+	},
+	CATCH_TREASURE_ID = {
+		act_id = 4109
 	}
 }

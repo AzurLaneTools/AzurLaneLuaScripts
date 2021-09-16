@@ -1,110 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101340] = {
-		ship_group = 10134,
-		name = "黑澤伍德",
-		bullet_skin_secondary = "",
-		hand_id = 7,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101340,
-		group_index = 0,
-		aircraft_skin = "",
-		painting = "heizewude",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "heizewude",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "佛萊契爾級驅逐艦—黑澤伍德，舷號DD-531",
-		voice_actor = 161,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.9,
-					0.9,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.93,
-					0.9,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.14,
-					0.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101350] = {
 		ship_group = 10135,
 		name = "貝奇",
@@ -1567,6 +1462,111 @@ pg.ship_skin_template_2 = {
 				{
 					0.06,
 					0.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101420] = {
+		ship_group = 10142,
+		name = "斯莫利",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 101420,
+		group_index = 0,
+		aircraft_skin = "",
+		painting = "simoli",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "simoli",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "弗萊契爾級驅逐艦—斯莫利，舷號DD-565",
+		voice_actor = 180,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.239,
+					1.032,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.24,
+					1.099,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					0.008,
 					0
 				}
 			}
@@ -3584,18 +3584,18 @@ pg.ship_skin_template_2 = {
 		spine_offset = {
 			{
 				0,
-				-535,
+				-500,
 				0
 			},
 			{
-				0.68
+				0.62
 			}
 		},
 		special_effects = {
-			"yanzhan",
+			"lihui_jinkela",
 			{
 				37,
-				138,
+				89,
 				0
 			},
 			{
@@ -6055,6 +6055,111 @@ pg.ship_skin_template_2 = {
 		special_effects = "",
 		desc = "克里夫蘭級輕巡洋艦—丹佛，舷號CL-58",
 		voice_actor = 117,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.14,
+					1.09,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.23,
+					1.05,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.23,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102160] = {
+		ship_group = 10216,
+		name = "曼非斯",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 102160,
+		group_index = 0,
+		aircraft_skin = "",
+		painting = "mengfeisi",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "mengfeisi",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "奧馬哈級輕巡洋艦—曼非斯，舷號CL-12",
+		voice_actor = 159,
 		spine_offset = "",
 		illustrator = -1,
 		rarity_bg = "",

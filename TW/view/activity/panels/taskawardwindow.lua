@@ -37,12 +37,33 @@ function slot1(slot0)
 			setText(slot2:Find("target/title"), slot4:getConfig("name"))
 			setText(slot2:Find("target/Text"), "")
 
-			slot5 = slot4:getConfig("award_display")[1]
+			if GetPerceptualSize(slot4:getConfig("name")) > 15 then
+				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 26
+				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 26
+			elseif slot5 > 12 then
+				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 28
+				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 28
+			elseif slot5 > 10 then
+				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 30
+				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 30
+			else
+				GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 32
+				GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 32
+			end
+
+			if slot2:Find("target/icon") and uv3.resIcon and uv3.resIcon ~= "" then
+				setActive(slot2:Find("target/icon"), true)
+				LoadImageSpriteAsync(uv3.resIcon, slot2:Find("target/icon/image"), false)
+			else
+				setActive(slot2:Find("target/icon"), false)
+			end
+
+			slot6 = slot4:getConfig("award_display")[1]
 
 			updateDrop(slot2:Find("award"), {
-				type = slot5[1],
-				id = slot5[2],
-				count = slot5[3]
+				type = slot6[1],
+				id = slot6[2],
+				count = slot6[3]
 			})
 			onButton(uv3.binder, slot2:Find("award"), function ()
 				uv0.binder:emit(BaseUI.ON_DROP, uv1)
@@ -59,6 +80,7 @@ function slot0.Show(slot0, slot1)
 	slot0.totalPt = slot1.totalPt
 	slot0.index = slot1.index or 1
 
+	slot0:updateResIcon(slot1.resId, slot1.resIcon, slot1.type)
 	uv0(slot0)
 
 	slot0.totalTxt.text = slot0.totalPt

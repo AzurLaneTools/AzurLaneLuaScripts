@@ -43,6 +43,7 @@ function slot1.InitCri(slot0, slot1)
 	slot0.criInitializer = GameObject.Find("CRIWARE"):GetComponent(typeof(CriWareInitializer))
 	slot0.criInitializer.fileSystemConfig.numberOfLoaders = 128
 	slot0.criInitializer.manaConfig.numberOfDecoders = 128
+	slot0.criInitializer.atomConfig.useRandomSeedWithTime = true
 
 	slot0.criInitializer:Initialize()
 	CriWareMgr.Inst:Init(function ()

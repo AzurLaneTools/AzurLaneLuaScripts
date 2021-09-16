@@ -946,7 +946,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 237,
-		actor_name = "松冈由贵"
+		actor_name = "松岡由貴"
 	},
 	{
 		code = 238,

@@ -7108,7 +7108,7 @@ pg.ship_skin_expression = {
 	},
 	edu_2 = {
 		default = "",
-		feeling3 = "5",
+		feeling3 = "",
 		main_1 = "",
 		mission = "3",
 		main_6 = "",

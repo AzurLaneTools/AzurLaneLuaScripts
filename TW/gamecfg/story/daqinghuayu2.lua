@@ -168,7 +168,7 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "U81&伊19",
+			actorName = "U-81&伊19",
 			say = "三，四~",
 			subActors = {
 				{
@@ -242,7 +242,7 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "伊58&U557",
+			actorName = "伊58&U-557",
 			say = "五，六……",
 			subActors = {
 				{

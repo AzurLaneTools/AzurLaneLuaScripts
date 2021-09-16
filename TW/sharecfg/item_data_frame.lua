@@ -126,6 +126,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>為皇家的榮耀而戰，天佑女王</color>\n「永夜幻光」活動獲取",
 		scene = {}
 	},
+	[311] = {
+		time_limit_type = 0,
+		name = "浮光蝶影",
+		gain_by = "蝶海梦花",
+		id = 311,
+		time_second = 0,
+		desc = "<color=#ffffff>「無論現世亦或夢境，皆願希望之光長存。」</color>\n「蝶海夢花」活動獲取",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "美味的紀念",
@@ -159,6 +168,7 @@ pg.item_data_frame = {
 		307,
 		308,
 		309,
+		311,
 		501,
 		1001
 	}

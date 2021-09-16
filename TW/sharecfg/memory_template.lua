@@ -6776,6 +6776,50 @@ pg.memory_template = {
 		icon = "memory_jhluyijiushi",
 		is_open = 0
 	},
+	[722] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-北風",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK39903",
+		id = 722,
+		icon = "memory_jhbeifeng",
+		is_open = 0
+	},
+	[725] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-加斯科涅",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK99901",
+		id = 725,
+		icon = "memory_jhjiasikenie",
+		is_open = 0
+	},
+	[726] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-喬治亞",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK19902",
+		id = 726,
+		icon = "memory_jhzuozhiya",
+		is_open = 0
+	},
+	[727] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-西雅圖",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK19901",
+		id = 727,
+		icon = "memory_jhxiyatu",
+		is_open = 0
+	},
 	[763] = {
 		type = 1,
 		subtitle = "",
@@ -13520,6 +13564,10 @@ pg.memory_template = {
 		719,
 		720,
 		721,
+		722,
+		725,
+		726,
+		727,
 		763,
 		764,
 		765,

@@ -196,8 +196,9 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3.oxyAtkDuration = slot1.attack_duration
 	slot3.raidDist = slot1.raid_distance
 	slot3.sonarRange = slot1.sonarRange or 0
-	slot3.cloakExpose = slot2 and math.max(slot2.dodge + ys.Battle.BattleConfig.CLOAK_EXPOSE_CONST, ys.Battle.BattleConfig.CLOAK_EXPOSE_MAX) or 0
-	slot3.cloakRestore = math.max(slot3.cloakExpose + ys.Battle.BattleConfig.CLOAK_BASE_RESTORE_DELTA, 0)
+	slot3.cloakExposeBase = slot2 and slot2.dodge + ys.Battle.BattleConfig.CLOAK_EXPOSE_CONST or 0
+	slot3.cloakExposeExtra = 0
+	slot3.cloakRestore = slot3.cloakExposeBase + slot3.cloakExposeExtra + ys.Battle.BattleConfig.CLOAK_BASE_RESTORE_DELTA
 	slot3.cloakRecovery = ys.Battle.BattleConfig.CLOAK_RECOVERY
 	slot3.cloakStrikeAdditive = ys.Battle.BattleConfig.CLOAK_STRIKE_ADDITIVE
 	slot3.airResistPierce = ys.Battle.BattleConfig.BASE_ARP
@@ -205,6 +206,7 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3.DMG_TAG_EHC_N_99 = slot1[AttributeType.AntiSiren] or 0
 	slot3.comboTag = "combo_" .. slot3.battleUID
 	slot3.labelTag = {}
+	slot3.barrageCounterMod = 1
 
 	uv0.SetBaseAttr(slot0)
 end

@@ -270,6 +270,12 @@ function slot0.updateStagesScrollView(slot0)
 	end
 end
 
+slot2 = {
+	GNR = "breakout_tip_ultimatebonus_gunner",
+	TORP = "breakout_tip_ultimatebonus_torpedo",
+	AUX = "breakout_tip_ultimatebonus_aux"
+}
+
 function slot0.updateBattleView(slot0)
 	if #slot0.breakIds < uv0 then
 		return
@@ -280,8 +286,12 @@ function slot0.updateBattleView(slot0)
 
 		onToggle(slot0, slot0:findTF("stage" .. slot4, slot0.stages), function (slot0)
 			if slot0 then
-				setText(uv0.breakView, uv0.shipBreakOutCfg[uv1].breakout_view)
-				uv0:switchStage(uv1)
+				for slot5, slot6 in ipairs(uv0.ultimate_bonus) do
+					slot1 = uv0.breakout_view .. "/" .. i18n(uv1[slot6])
+				end
+
+				changeToScrollText(uv2.breakView, slot1)
+				uv2:switchStage(uv3)
 			end
 		end, SFX_PANEL)
 	end
@@ -293,7 +303,7 @@ function slot0.updateBattleView(slot0)
 	end
 end
 
-slot2 = {
+slot3 = {
 	"durability",
 	"cannon",
 	"torpedo",

@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然不时会出现一些过激（？）的言行，但是整体来说{namecode:97}作为秘书舰还是相当尽责的。不过……",
+			say = "雖然不時會出現一些過激（？）的言行，但是整體來說大鳳作為秘書艦還是相當盡責的。不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这么想着，于是建议{namecode:97}去休息一天",
+			say = "這麼想著，於是建議大鳳去休息一天",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

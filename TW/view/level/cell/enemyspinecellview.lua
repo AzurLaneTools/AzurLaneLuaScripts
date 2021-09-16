@@ -12,9 +12,9 @@ function slot0.Update(slot0)
 	slot3 = slot1.row
 	slot4 = slot1.column
 
-	if slot1.attachment == ChapterConst.AttachAmbush and slot1.flag == 2 then
+	if slot1.attachment == ChapterConst.AttachAmbush and slot1.flag == ChapterConst.CellFlagAmbush then
 		-- Nothing
-	elseif slot1.flag == 0 then
+	elseif slot1.flag == ChapterConst.CellFlagActive then
 		if slot0:UpdateGO(slot0._aliveTpl) then
 			slot0.tf.anchoredPosition = Vector2(0, 0)
 
@@ -46,7 +46,7 @@ function slot0.Update(slot0)
 
 		setActive(findTF(slot0.tf, "fighting"), slot0.chapter:existFleet(FleetType.Normal, slot3, slot4))
 		setActive(findTF(slot0.tf, "damage_count"), slot1.data > 0)
-	elseif slot1.flag == 1 and slot0:UpdateGO(slot0._deadTpl) and slot1.attachment ~= ChapterConst.AttachAmbush then
+	elseif slot1.flag == ChapterConst.CellFlagDisabled and slot0:UpdateGO(slot0._deadTpl) and slot1.attachment ~= ChapterConst.AttachAmbush then
 		setActive(slot0.tf:Find("huoqiubaozha"), slot0._live2death)
 
 		slot0._live2death = nil

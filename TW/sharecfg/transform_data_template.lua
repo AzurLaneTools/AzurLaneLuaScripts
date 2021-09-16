@@ -13172,6 +13172,489 @@ pg.transform_data_template = {
 			30
 		}
 	},
+	[16501] = {
+		use_gold = 400,
+		name = "艦體改良I",
+		star_limit = 2,
+		descrip = "耐久+45",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		id = 16501,
+		icon = "hp_1",
+		skill_id = 0,
+		condition_id = {},
+		effect = {
+			{
+				durability = 45
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[16502] = {
+		use_gold = 600,
+		name = "機動強化I",
+		star_limit = 2,
+		descrip = "機動+5",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		id = 16502,
+		icon = "dd_1",
+		skill_id = 0,
+		condition_id = {
+			16501
+		},
+		effect = {
+			{
+				dodge = 5
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[16503] = {
+		use_gold = 800,
+		name = "魚雷改良I",
+		star_limit = 3,
+		descrip = "魚雷武器效率+5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		id = 16503,
+		icon = "tpup_1",
+		skill_id = 0,
+		condition_id = {
+			16501
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[16504] = {
+		use_gold = 1000,
+		name = "雷擊強化I",
+		star_limit = 3,
+		descrip = "雷擊+10",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		id = 16504,
+		icon = "tp_1",
+		skill_id = 0,
+		condition_id = {
+			16503
+		},
+		effect = {
+			{
+				torpedo = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[16505] = {
+		use_gold = 1200,
+		name = "艦體改良II",
+		star_limit = 4,
+		descrip = "耐久+45/耐久+75",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		id = 16505,
+		icon = "hp_2",
+		skill_id = 0,
+		condition_id = {
+			16503
+		},
+		effect = {
+			{
+				durability = 45
+			},
+			{
+				durability = 75
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					1
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			10
+		}
+	},
+	[16506] = {
+		use_gold = 1500,
+		name = "機動強化II",
+		star_limit = 4,
+		descrip = "機動+5/機動+10",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		id = 16506,
+		icon = "dd_1",
+		skill_id = 0,
+		condition_id = {
+			16502,
+			16505
+		},
+		effect = {
+			{
+				dodge = 5
+			},
+			{
+				dodge = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					1
+				}
+			},
+			{
+				{
+					18002,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			10
+		}
+	},
+	[16507] = {
+		use_gold = 1800,
+		name = "主炮改良II",
+		star_limit = 4,
+		descrip = "主炮武器效率+5%/主炮武器效率+5%",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		id = 16507,
+		icon = "mgup_2",
+		skill_id = 0,
+		condition_id = {
+			16505
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			},
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			},
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[16508] = {
+		use_gold = 2000,
+		name = "炮擊強化II",
+		star_limit = 4,
+		descrip = "炮擊+5/炮擊+15",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		id = 16508,
+		icon = "cn_2",
+		skill_id = 0,
+		condition_id = {
+			16507
+		},
+		effect = {
+			{
+				cannon = 5
+			},
+			{
+				cannon = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					1
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[16509] = {
+		use_gold = 2500,
+		name = "魚雷改良II",
+		star_limit = 5,
+		descrip = "魚雷武器效率+5%/魚雷武器效率+5%",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		id = 16509,
+		icon = "tpup_2",
+		skill_id = 0,
+		condition_id = {
+			16507
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			},
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				}
+			},
+			{
+				{
+					18003,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[16510] = {
+		use_gold = 3000,
+		name = "雷擊強化III",
+		star_limit = 5,
+		descrip = "雷擊+5/雷擊+10/雷擊+15",
+		max_level = 3,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		id = 16510,
+		icon = "Tp_3",
+		skill_id = 0,
+		condition_id = {
+			16504,
+			16509
+		},
+		effect = {
+			{
+				torpedo = 5
+			},
+			{
+				torpedo = 10
+			},
+			{
+				torpedo = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				},
+				{
+					17023,
+					5
+				}
+			},
+			{
+				{
+					18003,
+					1
+				},
+				{
+					17023,
+					10
+				}
+			},
+			{
+				{
+					18003,
+					1
+				},
+				{
+					17023,
+					15
+				}
+			}
+		},
+		gear_score = {
+			5,
+			10,
+			15
+		}
+	},
+	[16511] = {
+		use_gold = 4000,
+		name = "近代化改造",
+		star_limit = 5,
+		descrip = "近代化改造完成，雷擊+25，反潛+20",
+		max_level = 1,
+		skin_id = 301159,
+		use_ship = 1,
+		level_limit = 85,
+		id = 16511,
+		icon = "mt_red",
+		skill_id = 0,
+		condition_id = {
+			16509
+		},
+		effect = {
+			{
+				antisub = 20,
+				torpedo = 25
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18003,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[16512] = {
+		use_gold = 3000,
+		name = "戰術啟發",
+		star_limit = 5,
+		descrip = "習得技能【】",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 90,
+		id = 16512,
+		icon = "skill_yellow",
+		skill_id = 12680,
+		condition_id = {
+			16511
+		},
+		effect = {
+			{
+				skill_id = 12680
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18003,
+					2
+				},
+				{
+					17013,
+					20
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	},
 	[16701] = {
 		use_gold = 300,
 		name = "艦體改良I",
@@ -13932,6 +14415,391 @@ pg.transform_data_template = {
 				{
 					18002,
 					6
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[17601] = {
+		use_gold = 300,
+		name = "艦體改良I",
+		star_limit = 2,
+		descrip = "耐久+45",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		id = 17601,
+		icon = "hp_1",
+		skill_id = 0,
+		condition_id = {},
+		effect = {
+			{
+				durability = 45
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[17602] = {
+		use_gold = 400,
+		name = "機動強化I",
+		star_limit = 2,
+		descrip = "機動+5",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		id = 17602,
+		icon = "dd_1",
+		skill_id = 0,
+		condition_id = {
+			17601
+		},
+		effect = {
+			{
+				dodge = 5
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[17603] = {
+		use_gold = 600,
+		name = "防空炮改良I",
+		star_limit = 3,
+		descrip = "防空炮武器效率+5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		id = 17603,
+		icon = "aaup_1",
+		skill_id = 0,
+		condition_id = {
+			17601
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[17604] = {
+		use_gold = 800,
+		name = "防空強化I",
+		star_limit = 3,
+		descrip = "防空+15",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		id = 17604,
+		icon = "aa_1",
+		skill_id = 0,
+		condition_id = {
+			17603
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[17605] = {
+		use_gold = 1000,
+		name = "魚雷改良I",
+		star_limit = 4,
+		descrip = "魚雷武器效率+5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		id = 17605,
+		icon = "tpup_1",
+		skill_id = 0,
+		condition_id = {
+			17603
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[17606] = {
+		use_gold = 1200,
+		name = "雷擊強化I",
+		star_limit = 4,
+		descrip = "雷擊+10",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		id = 17606,
+		icon = "tp_1",
+		skill_id = 0,
+		condition_id = {
+			17605
+		},
+		effect = {
+			{
+				torpedo = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					4
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[17607] = {
+		use_gold = 1500,
+		name = "艦體改良II",
+		star_limit = 4,
+		descrip = "耐久+45/耐久+75",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		id = 17607,
+		icon = "hp_2",
+		skill_id = 0,
+		condition_id = {
+			17605
+		},
+		effect = {
+			{
+				durability = 45
+			},
+			{
+				durability = 75
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					1
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[17608] = {
+		use_gold = 1800,
+		name = "戰術啟發",
+		star_limit = 4,
+		descrip = "習得技能【空襲引導】",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		id = 17608,
+		icon = "skill_yellow",
+		skill_id = 1081,
+		condition_id = {
+			17607
+		},
+		effect = {
+			{
+				skill_id = 1081
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[17609] = {
+		use_gold = 2000,
+		name = "動力強化",
+		star_limit = 5,
+		descrip = "航速+3",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		id = 17609,
+		icon = "sp_1",
+		skill_id = 0,
+		condition_id = {
+			17607
+		},
+		effect = {
+			{
+				speed = 3
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	},
+	[17610] = {
+		use_gold = 2500,
+		name = "機動強化II",
+		star_limit = 5,
+		descrip = "機動+5/機動+10",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		id = 17610,
+		icon = "dd_2",
+		skill_id = 0,
+		condition_id = {
+			17602,
+			17609
+		},
+		effect = {
+			{
+				dodge = 5
+			},
+			{
+				dodge = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[17611] = {
+		use_gold = 3000,
+		name = "近代化改造",
+		star_limit = 5,
+		descrip = "近代化改造完成，雷擊+30，防空+15",
+		max_level = 1,
+		skin_id = 301269,
+		use_ship = 1,
+		level_limit = 85,
+		id = 17611,
+		icon = "mt_red",
+		skill_id = 0,
+		condition_id = {
+			17608,
+			17609,
+			17610
+		},
+		effect = {
+			{
+				torpedo = 30,
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
 				}
 			}
 		},
@@ -28857,6 +29725,18 @@ pg.transform_data_template = {
 		15510,
 		15511,
 		15512,
+		16501,
+		16502,
+		16503,
+		16504,
+		16505,
+		16506,
+		16507,
+		16508,
+		16509,
+		16510,
+		16511,
+		16512,
 		16701,
 		16702,
 		16703,
@@ -28879,6 +29759,17 @@ pg.transform_data_template = {
 		16809,
 		16810,
 		16811,
+		17601,
+		17602,
+		17603,
+		17604,
+		17605,
+		17606,
+		17607,
+		17608,
+		17609,
+		17610,
+		17611,
 		17901,
 		17902,
 		17903,

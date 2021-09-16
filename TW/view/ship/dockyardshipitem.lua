@@ -436,19 +436,25 @@ function slot0.updateIntimacy(slot0, slot1)
 		return
 	end
 
-	slot3, slot4 = slot2:getIntimacyDetail()
+	if isActive(findTF(slot0.tr, "content/energy")) then
+		slot0.intimacyTF = findTF(slot0.tr, "content/intimacy_with_energy")
 
-	setText(findTF(slot0.intimacyTF, "Text"), slot4)
+		setActive(findTF(slot0.tr, "content/intimacy"), false)
+	else
+		slot0.intimacyTF = findTF(slot0.tr, "content/intimacy")
 
-	if slot4 == 100 or slot4 == 200 then
-		setText(findTF(slot0.intimacyTF, "Text"), setColorStr(slot4, "#ff8d8d"))
+		setActive(findTF(slot0.tr, "content/intimacy_with_energy"), false)
+	end
+
+	slot4, slot5 = slot2:getIntimacyDetail()
+
+	setText(findTF(slot0.intimacyTF, "Text"), slot5)
+
+	if slot5 == 100 or slot5 == 200 then
+		setText(findTF(slot0.intimacyTF, "Text"), setColorStr(slot5, "#ff8d8d"))
 	end
 
 	setActive(slot0.intimacyTF, slot1)
-
-	if slot1 then
-		setActive(slot0.energyTF, false)
-	end
 end
 
 return slot0

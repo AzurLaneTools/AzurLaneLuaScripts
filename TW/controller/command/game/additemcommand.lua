@@ -99,6 +99,14 @@ function slot0.execute(slot0, slot1)
 				slot5:updateActivity(slot6)
 				nowWorld:GetBossProxy():UpdatedUnlockProgress()
 			end
+		elseif slot4 == 16 then
+			for slot10, slot11 in pairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHAKE_BEADS)) do
+				if slot11 and not slot11:isEnd() and slot2.id == slot11:getConfig("config_id") then
+					slot11.data1 = slot11.data1 + slot2.count
+
+					slot5:updateActivity(slot11)
+				end
+			end
 		elseif slot4 == 20 then
 			slot6 = pg.gameset.urpt_chapter_max.description
 

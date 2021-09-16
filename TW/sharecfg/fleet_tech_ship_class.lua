@@ -61,6 +61,7 @@ pg.fleet_tech_ship_class = {
 			10113,
 			10111,
 			10133,
+			10142,
 			10143
 		}
 	},
@@ -799,6 +800,28 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			20307,
 			20308
+		}
+	},
+	[20305] = {
+		shiptype = 3,
+		name = "柴郡",
+		nation = 2,
+		id = 20305,
+		t_level_1 = 57,
+		t_level = 8,
+		ships = {
+			29903
+		}
+	},
+	[20306] = {
+		shiptype = 3,
+		name = "德雷克",
+		nation = 2,
+		id = 20306,
+		t_level_1 = 58,
+		t_level = 9,
+		ships = {
+			29904
 		}
 	},
 	[20401] = {
@@ -1662,6 +1685,17 @@ pg.fleet_tech_ship_class = {
 			40204
 		}
 	},
+	[40203] = {
+		shiptype = 2,
+		name = "美因茲",
+		nation = 4,
+		id = 40203,
+		t_level_1 = 120,
+		t_level = 8,
+		ships = {
+			49903
+		}
+	},
 	[40301] = {
 		shiptype = 3,
 		name = "希佩爾將軍級",
@@ -1707,6 +1741,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			40401,
 			40402
+		}
+	},
+	[40402] = {
+		shiptype = 4,
+		name = "奧丁",
+		nation = 4,
+		id = 40402,
+		t_level_1 = 124,
+		t_level = 8,
+		ships = {
+			49904
 		}
 	},
 	[40501] = {
@@ -2038,6 +2083,17 @@ pg.fleet_tech_ship_class = {
 			80501
 		}
 	},
+	[80502] = {
+		shiptype = 5,
+		name = "香檳",
+		nation = 8,
+		id = 80502,
+		t_level_1 = 140,
+		t_level = 9,
+		ships = {
+			89902
+		}
+	},
 	[80701] = {
 		shiptype = 7,
 		name = "貝亞恩 ",
@@ -2193,6 +2249,8 @@ pg.fleet_tech_ship_class = {
 		20302,
 		20303,
 		20304,
+		20305,
+		20306,
 		20401,
 		20402,
 		20501,
@@ -2264,10 +2322,12 @@ pg.fleet_tech_ship_class = {
 		40105,
 		40201,
 		40202,
+		40203,
 		40301,
 		40302,
 		40303,
 		40401,
+		40402,
 		40501,
 		40502,
 		40701,
@@ -2297,6 +2357,7 @@ pg.fleet_tech_ship_class = {
 		80202,
 		80301,
 		80501,
+		80502,
 		80701,
 		80801,
 		90103,

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这感觉真不赖啊，指挥官！我现在甚至有种我什么都做得到的错觉！多谢多谢~",
+			say = "這感覺真不賴啊，指揮官！我現在甚至有種我什麼都做得到的錯覺！多謝多謝~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 199010,
 			dir = 1,
-			say = "哈哈，我现在迫不及待地想要把大家聚集起来开个大型派对呢！",
+			say = "哈哈，我現在迫不及待地想要把大家聚集起來開個大型派對呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 199010,
 			dir = 1,
-			say = "不过，总觉得还有一些缺憾……嗯……就是说，我感觉我应该还能变得更强一点？",
+			say = "不過，總覺得還有一些缺憾……嗯……就是說，我感覺我應該還能變得更強一點？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 199010,
 			dir = 1,
-			say = "哎呀，不管了，大型派对就等到那个时候好了，今天先开个小派对吧！",
+			say = "哎呀，不管了，大型派對就等到那個時候好了，今天先開個小派對吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，记得来参加哦！",
+			say = "指揮官，記得來參加哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

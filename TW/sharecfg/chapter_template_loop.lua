@@ -126680,9 +126680,7 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {
-			8650
-		},
+		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1280002] = {
@@ -127272,9 +127270,7 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {
-			8650
-		},
+		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1280003] = {
@@ -127865,9 +127861,7 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {
-			8650
-		},
+		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1280004] = {
@@ -128459,9 +128453,7 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {
-			8650
-		},
+		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1280005] = {
@@ -129048,9 +129040,7 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {
-			8650
-		},
+		chapter_buff = {},
 		alarm_cell = {}
 	},
 	[1300001] = {

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"““獻身”的大鳳\n\n<size=45>三 天敵(?)登場</size>",
+					"“獻身”的大鳳\n\n<size=45>三 天敵(?)登場</size>",
 					1
 				}
 			}
@@ -308,7 +308,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……啊啊啊！知道了啦，{namecode:97}会考虑的",
+			say = "……啊啊啊！知道了啦，大鳳會考慮的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

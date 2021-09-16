@@ -52331,25 +52331,24 @@ pg.furniture_data_template = {
 		interAction_group = {}
 	},
 	[49120] = {
-		spine_extra = "",
+		rarity = 4,
 		describe = "唔…想要的資料應該是在…這裡？",
 		gain_by = "",
 		type = 2,
 		dir = 0,
 		dorm_id = 0,
-		rarity = 4,
-		is_get_time_note = 0,
 		themeId = 49,
+		is_get_time_note = 0,
 		belong = 1,
-		is_3d_obj = 0,
 		count = 1,
+		is_3d_obj = 0,
+		name = "博學書櫃",
 		tag = 1,
 		icon = "shuguidhicon",
 		deblocking = 1,
 		level = 1,
 		advice = 0,
 		effect = "",
-		name = "博學書櫃",
 		comfortable = 0,
 		spine_action_replace = "",
 		picture = "donghuaBD/shuguidh",
@@ -52364,6 +52363,19 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
 		},
 		interAction_group = {}
 	},

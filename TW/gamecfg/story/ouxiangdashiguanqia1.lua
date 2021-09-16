@@ -760,7 +760,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前也有和各位一樣，突然出現在“这个世界”的客人。當時也發生了強烈的能量反應。",
+			say = "之前也有和各位一樣，突然出現在“這個世界”的客人。當時也發生了強烈的能量反應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

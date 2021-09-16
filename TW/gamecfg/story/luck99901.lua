@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "提示，加斯科涅已到达成熟期。情感机能、战斗机能正在趋近完成。",
+			say = "提示，加斯科涅已到達成熟期。情感機能、戰鬥機能正在趨近完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 999010,
 			dir = 1,
-			say = "检索项：向主人表达感谢之情的方式——",
+			say = "檢索項：向主人表達感謝之情的方式——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 999010,
 			dir = 1,
-			say = "检索结果：给主人以感谢的拥抱",
+			say = "檢索結果：給主人以感謝的擁抱",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 999010,
 			dir = 1,
-			say = "主、主人…这样会让你感到高兴吗？",
+			say = "主、主人…這樣會讓你感到高興嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			actor = 999010,
 			dir = 1,
-			say = "……继续提示，加斯科涅距离完全体还有一定距离。",
+			say = "……繼續提示，加斯科涅距離完全體還有一定距離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			actor = 999010,
 			dir = 1,
-			say = "提案，请继续完成加斯科涅。",
+			say = "提案，請繼續完成加斯科涅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,7 +6,7 @@ slot0.TEC_PAGE_CATCHUP_ACT = 4
 slot0.PANEL_INTO_TIME = 0.15
 slot0.SELECT_TENDENCY_FADE_TIME = 0.3
 slot0.SELECT_CHAR_LIGHT_FADE_TIME = 0.3
-slot0.CATCHUP_VERSION = 0
+slot0.CATCHUP_VERSION = 1
 
 function slot0.getUIName(slot0)
 	return "TechnologySettingsUI"

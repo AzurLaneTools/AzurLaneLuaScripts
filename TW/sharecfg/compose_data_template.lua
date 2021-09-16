@@ -1792,6 +1792,55 @@ pg.compose_data_template = {
 		id = 13017,
 		material_num = 15
 	},
+	[13018] = {
+		material_id = 13018,
+		equip_id = 23100,
+		gold_num = 500,
+		id = 13018,
+		material_num = 25
+	},
+	[13019] = {
+		material_id = 13019,
+		equip_id = 23120,
+		gold_num = 1500,
+		id = 13019,
+		material_num = 50
+	},
+	[13020] = {
+		material_id = 13020,
+		equip_id = 21600,
+		gold_num = 500,
+		id = 13020,
+		material_num = 25
+	},
+	[13021] = {
+		material_id = 13021,
+		equip_id = 26660,
+		gold_num = 500,
+		id = 13021,
+		material_num = 25
+	},
+	[13022] = {
+		material_id = 13022,
+		equip_id = 44300,
+		gold_num = 500,
+		id = 13022,
+		material_num = 25
+	},
+	[13023] = {
+		material_id = 13023,
+		equip_id = 91000,
+		gold_num = 500,
+		id = 13023,
+		material_num = 25
+	},
+	[13024] = {
+		material_id = 13024,
+		equip_id = 1260,
+		gold_num = 500,
+		id = 13024,
+		material_num = 25
+	},
 	all = {
 		1,
 		2,
@@ -2048,6 +2097,13 @@ pg.compose_data_template = {
 		13014,
 		13015,
 		13016,
-		13017
+		13017,
+		13018,
+		13019,
+		13020,
+		13021,
+		13022,
+		13023,
+		13024
 	}
 }
