@@ -180,6 +180,66 @@ pg.activity_event_building = {
 			15
 		}
 	},
+	{
+		id = 13,
+		name = "啾啾冲浪",
+		material_id = 59237,
+		desc = "与海浪一同起舞吧！",
+		buff = {
+			13,
+			14,
+			15
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 14,
+		name = "啾啾跳水",
+		material_id = 59237,
+		desc = "水花越小，分数越高哦！",
+		buff = {
+			16,
+			17,
+			18
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 15,
+		name = "滑滑世界",
+		material_id = 59237,
+		desc = "紧张刺激的水滑梯之旅！",
+		buff = {
+			19,
+			20,
+			21
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 16,
+		name = "啾啾瀑布",
+		material_id = 59237,
+		desc = "尽情感受水流的冲击！",
+		buff = {
+			22,
+			23,
+			24
+		},
+		material = {
+			10,
+			15
+		}
+	},
 	all = {
 		1,
 		2,
@@ -192,6 +252,10 @@ pg.activity_event_building = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13,
+		14,
+		15,
+		16
 	}
 }

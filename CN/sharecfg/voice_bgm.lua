@@ -134,5 +134,8 @@ pg.voice_bgm = {
 	},
 	ChargeScene = {
 		bgm = "main"
+	},
+	AmusementParkScene2 = {
+		bgm = "Story-richang"
 	}
 }

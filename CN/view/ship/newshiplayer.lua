@@ -34,9 +34,9 @@ function slot0.init(slot0)
 	slot0._paintingTF = slot0._shake:Find("paint")
 	slot0._paintingShadowTF = slot0._shake:Find("shadow")
 	slot0._dialogue = slot0._shake:Find("dialogue")
-	slot0._shipName = slot0._dialogue:Find("name"):GetComponent(typeof(Text))
-	slot0._shipType = slot0._dialogue:Find("type"):GetComponent(typeof(Text))
-	slot0._dialogueText = slot0._dialogue:Find("desc/Text")
+	slot0._shipName = slot0._dialogue:Find("bg/name"):GetComponent(typeof(Text))
+	slot0._shipType = slot0._dialogue:Find("bg/type"):GetComponent(typeof(Text))
+	slot0._dialogueText = slot0._dialogue:Find("Text")
 	slot0._left = slot0._shake:Find("ForNotch/left_panel")
 	slot0._lockTF = slot0._left:Find("lock")
 	slot0._lockBtn = slot0._left:Find("lock/lock")
@@ -359,7 +359,7 @@ function slot0.DisplayWord(slot0)
 		slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(slot0._shipVO.skinId, ShipWordHelper.WORD_TYPE_UNLOCK)
 	end
 
-	setWidgetText(slot0._dialogue, SwitchSpecialChar(slot2, true), "desc/Text")
+	setWidgetText(slot0._dialogue, SwitchSpecialChar(slot2, true), "Text")
 
 	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
 
@@ -755,7 +755,7 @@ function slot0.playOpening(slot0, slot1)
 			if uv0 then
 				uv0()
 			end
-		end, "ui", slot3, true, true, {
+		end, "ui", slot3, true, false, {
 			weight = slot0:getWeightFromData()
 		})
 	elseif slot1 then

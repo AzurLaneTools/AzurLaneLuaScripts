@@ -955,6 +955,12 @@ function slot0.isMaxStar(slot0)
 	return slot0:getMaxStar() <= slot0:getStar()
 end
 
+function slot0.IsMaxStarByTmpID(slot0)
+	slot1 = pg.ship_data_template[slot0]
+
+	return slot1.star_max <= slot1.star
+end
+
 function slot0.getModProperties(slot0, slot1)
 	return slot0.strengthList[slot1] or 0
 end
@@ -1933,6 +1939,10 @@ end
 
 function slot0.IsXIdol(slot0)
 	return slot0:getNation() == Nation.IDOL_LINK
+end
+
+function slot0.getSpecificType(slot0)
+	return pg.ship_data_template[slot0.configId].specific_type
 end
 
 return slot0

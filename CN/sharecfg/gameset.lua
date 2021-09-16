@@ -338,8 +338,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "美系V3复刻活动PT",
-		key_value = 211
+		description = "岛风活动PT",
+		key_value = 212
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1616,7 +1616,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 218
+		key_value = 221
 	},
 	order_pt_max = {
 		key_value = 0,

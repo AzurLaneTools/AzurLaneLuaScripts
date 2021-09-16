@@ -803,74 +803,74 @@ function slot9.QuickCastTorpedo(slot0)
 	end
 
 	if slot0._torpedoWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_READY then
-		slot1:Fire()
+		slot1:Fire(true)
 	end
 end
 
 function slot9.CoupleEncourage(slot0)
-	slot1 = {
-		[uv0.GetPlayerShipModelFromID(slot12:GetTemplateID()).group_type] = true
-	}
 	slot2 = {}
-	slot3 = {}
-	slot4 = {}
-	slot5 = {}
-	slot7 = {}
 
-	for slot11, slot12 in ipairs(slot0._unitList) do
-		slot15 = slot12:GetRarity()
-		slot2[slot14.type] = (slot2[slot12:GetTemplate().type] or 0) + 1
-		slot3[slot15] = (slot3[slot15] or 0) + 1
-		slot4[slot14.nationality] = (slot4[slot14.nationality] or 0) + 1
-		slot5[slot20] = (slot5[uv1.Battle.BattleDataFunction.GetPlayerShipSkinDataFromID(slot12:GetSkinID()).illustrator] or 0) + 1
-
-		if #uv0.GetWords(slot12:GetSkinID(), "couple_encourage", slot12:GetIntimacy()) > 0 then
+	for slot6, slot7 in ipairs(slot0._unitList) do
+		if #uv0.GetWords(slot7:GetSkinID(), "couple_encourage", slot7:GetIntimacy()) > 0 then
 			-- Nothing
 		end
 	end
 
-	slot8 = uv2.CPChatType
+	slot3 = uv1.CPChatType
+	slot4 = uv1.CPChatTargetFunc
 
-	for slot12, slot13 in pairs({
-		[slot12] = slot23
+	function slot5(slot0, slot1)
+		if slot0 == uv0.GROUP_ID then
+			-- Nothing
+		elseif slot0 == uv0.SHIP_TYPE then
+			slot2.ship_type_list = slot1
+		elseif slot0 == uv0.RARE then
+			slot2.rarity = slot1[1]
+		elseif slot0 == uv0.NATIONALITY then
+			slot2.nationality = slot1[1]
+		elseif slot0 == uv0.ILLUSTRATOR then
+			slot2.illustrator = slot1[1]
+		elseif slot0 == uv0.TEAM then
+			slot2.teamIndex = slot1[1]
+		end
+
+		return {
+			groupIDList = slot1
+		}
+	end
+
+	for slot9, slot10 in pairs({
+		[slot7] = slot9
 	}) do
-		for slot17, slot18 in ipairs(slot13) do
-			slot19 = slot18[1]
-			slot20 = slot18[2]
-			slot22 = 0
+		for slot14, slot15 in ipairs(slot10) do
+			slot16 = slot15[1]
+			slot17 = slot15[2]
+			slot19 = nil
 
-			if (slot18[4] or slot8.GROUP_ID) == slot8.GROUP_ID then
-				for slot26, slot27 in ipairs(slot19) do
-					if slot1[slot27] then
-						slot22 = slot22 + 1
-					end
+			if type(slot15[4] or slot3.GROUP_ID) == "table" then
+				for slot23, slot24 in ipairs(slot18) do
+					slot19 = uv2.Battle.BattleTargetChoise[slot4[slot24]](slot9, slot5(slot24, slot16[slot23]), slot19)
 				end
-			elseif slot21 == slot8.SHIP_TYPE then
-				slot22 = slot2[slot19[1]]
-			elseif slot21 == slot8.RARE then
-				slot22 = slot3[slot19[1]]
-			elseif slot21 == slot8.NATIONALITY then
-				slot22 = slot4[slot19[1]]
-			elseif slot21 == slot8.ILLUSTRATOR then
-				slot22 = slot5[slot19[1]]
+			elseif type(slot18) == "number" then
+				slot19 = uv2.Battle.BattleTargetChoise[slot4[slot18]](slot9, slot5(slot18, slot16))
 			end
 
-			if slot22 and slot20 <= slot22 then
-				slot7[#slot7 + 1] = {
-					cp = slot12,
-					content = slot18[3],
-					linkIndex = slot17
+			if slot17 <= #slot19 then
+				slot2[#slot2 + 1] = {
+					cp = slot9,
+					content = slot15[3],
+					linkIndex = slot14
 				}
 			end
 		end
 	end
 
-	if #slot7 > 0 then
-		slot10 = slot7[math.random(#slot7)]
-		slot11 = "link" .. slot10.linkIndex
+	if #slot2 > 0 then
+		slot7 = slot2[math.random(#slot2)]
+		slot8 = "link" .. slot7.linkIndex
 
-		slot10.cp:DispatchVoice(slot11)
-		slot10.cp:DispatchChat(slot10.content, 3, slot11)
+		slot7.cp:DispatchVoice(slot8)
+		slot7.cp:DispatchChat(slot7.content, 3, slot8)
 	end
 end
 

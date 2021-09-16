@@ -282,10 +282,10 @@ pg.item_data_frame = {
 	[316] = {
 		time_limit_type = 0,
 		name = "龙宫之证",
-		gain_by = "",
+		gain_by = "碧海光粼",
 		id = 316,
 		time_second = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「愿汝等揭开龙宫城中谜题，寻获真正的宝藏」</color>\n「碧海光粼」活动获取",
 		scene = {}
 	},
 	[401] = {

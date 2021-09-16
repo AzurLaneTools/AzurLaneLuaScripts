@@ -68,6 +68,7 @@ slot0.ACTIVITY_TYPE_AIRFIGHT_BATTLE = 75
 slot0.ACTIVITY_TYPE_COLLECTION_EVENT = 76
 slot0.ACTIVITY_TYPE_WORLD_WORLDBOSS = 34
 slot0.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD = 77
+slot0.ACTIVITY_TYPE_SHAKE_BEADS = 78
 slot0.HIDE_PT_PANELS = false
 slot0.WITHOUT_ACTIVITY = 0
 slot0.MONOPOLY_OP_THROW = 1
@@ -103,8 +104,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2021,
-			8,
-			19
+			9,
+			16
 		},
 		{
 			0,
@@ -115,8 +116,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2021,
-			9,
-			1
+			10,
+			13
 		},
 		{
 			23,

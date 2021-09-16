@@ -10327,6 +10327,258 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1560001] = {
+		map = 1560001,
+		name = "碧海光粼·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "BIHAIGUANGLIN1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-pacific",
+		ani_name = "Map_1560001",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4104,
+		ui_type = 1,
+		bg = "Map_1560001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560002] = {
+		map = 1560002,
+		name = "碧海光粼·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "BIHAIGUANGLIN17",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "map-longgong",
+		ani_name = "Map_1560002",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4104,
+		ui_type = 1,
+		bg = "Map_1560002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560011] = {
+		map = 1560011,
+		name = "碧海光粼·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "BIHAIGUANGLIN1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-pacific",
+		ani_name = "Map_1560011",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4104,
+		ui_type = 1,
+		bg = "Map_1560011",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560012] = {
+		map = 1560012,
+		name = "碧海光粼·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "BIHAIGUANGLIN17",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "map-longgong",
+		ani_name = "Map_1560012",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4104,
+		ui_type = 1,
+		bg = "Map_1560012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560025] = {
+		map = 1560025,
+		name = "碧海光粼·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-longgong",
+		ani_name = "Map_1560012",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4104,
+		ui_type = 1,
+		bg = "Map_1560012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560026] = {
+		map = 1560026,
+		name = "碧海光粼·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-longgong",
+		ani_name = "Map_1560012",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4104,
+		ui_type = 1,
+		bg = "Map_1560012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1560012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『红染的参访者』-前篇|| ||CHAPTER EX||E.X.",
@@ -12003,6 +12255,12 @@ pg.expedition_data_by_map = {
 		1550012,
 		1550025,
 		1550026,
+		1560001,
+		1560002,
+		1560011,
+		1560012,
+		1560025,
+		1560026,
 		2100000,
 		2100001,
 		2100010,

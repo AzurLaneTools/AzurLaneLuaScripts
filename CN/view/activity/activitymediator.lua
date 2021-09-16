@@ -36,6 +36,7 @@ slot0.GO_DECODE_MINI_GAME = "ActivityMediator:GO_DECODE_MINI_GAME"
 slot0.ON_BOBING_RESULT = "on bobing result"
 slot0.ACTIVITY_PERMANENT = "ActivityMediator.ACTIVITY_PERMANENT"
 slot0.FINISH_ACTIVITY_PERMANENT = "ActivityMediator.FINISH_ACTIVITY_PERMANENT"
+slot0.ON_SHAKE_BEADS_RESULT = "on shake beads result"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -314,6 +315,7 @@ function slot0.listNotificationInterests(slot0)
 		ActivityProxy.ACTIVITY_SHOW_AWARDS,
 		ActivityProxy.ACTIVITY_SHOW_BB_RESULT,
 		ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT,
+		ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT,
 		GAME.COLORING_ACHIEVE_DONE,
 		GAME.SUBMIT_TASK_DONE,
 		GAME.ACT_NEW_PT_DONE,
@@ -360,6 +362,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(ActivityMediator.ON_BOBING_RESULT, slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT then
 		slot0.viewComponent.pageDic[slot3.activityID]:showLotteryAwardResult(slot3.awards, slot3.number, slot3.callback)
+	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT then
+		slot0.viewComponent:emit(ActivityMediator.ON_SHAKE_BEADS_RESULT, slot3)
 	elseif slot2 == GAME.COLORING_ACHIEVE_DONE then
 		slot0.viewComponent:playBonusAnim(function ()
 			uv0.viewComponent:emit(BaseUI.ON_ACHIEVE, uv1.drops, function ()

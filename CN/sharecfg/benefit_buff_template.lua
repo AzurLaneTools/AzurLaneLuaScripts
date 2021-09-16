@@ -147,9 +147,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，角色经验获取提高3%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				9,
+				13,
 				1
 			}
 		}
@@ -165,9 +165,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，角色经验获取提高4%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				9,
+				13,
 				2
 			}
 		}
@@ -183,9 +183,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，角色经验获取提高5%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				9,
+				13,
 				3
 			}
 		}
@@ -201,9 +201,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，造成的伤害提高1%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				10,
+				14,
 				1
 			}
 		}
@@ -219,9 +219,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，造成的伤害提高2%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				10,
+				14,
 				2
 			}
 		}
@@ -237,9 +237,9 @@ pg.benefit_buff_template = {
 		desc = "主线、困难、活动、作战档案关卡中，造成的伤害提高3%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				10,
+				14,
 				3
 			}
 		}
@@ -255,9 +255,9 @@ pg.benefit_buff_template = {
 		desc = "战术学院技能学习时间减少3%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				11,
+				15,
 				1
 			}
 		}
@@ -273,9 +273,9 @@ pg.benefit_buff_template = {
 		desc = "战术学院技能学习时间减少4%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				11,
+				15,
 				2
 			}
 		}
@@ -291,9 +291,9 @@ pg.benefit_buff_template = {
 		desc = "战术学院技能学习时间减少5%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				11,
+				15,
 				3
 			}
 		}
@@ -309,9 +309,9 @@ pg.benefit_buff_template = {
 		desc = "后宅经验加成提高3%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				12,
+				16,
 				1
 			}
 		}
@@ -327,9 +327,9 @@ pg.benefit_buff_template = {
 		desc = "后宅经验加成提高4%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				12,
+				16,
 				2
 			}
 		}
@@ -345,9 +345,9 @@ pg.benefit_buff_template = {
 		desc = "后宅经验加成提高5%",
 		benefit_condition = {
 			"activity",
-			992,
+			4113,
 			{
-				12,
+				16,
 				3
 			}
 		}

@@ -1029,7 +1029,7 @@ function slot0.initChampions(slot0)
 			if slot7 == "common" then
 				slot10:SetExtraEffect(slot6:getConfig("effect_prefab"))
 
-				if slot6.flag == 5 then
+				if slot6.flag == ChapterConst.CellFlagDiving then
 					slot10:setAction(ChapterConst.ShipSwimAction)
 				end
 			elseif slot7 == "enemy" then
@@ -1402,7 +1402,6 @@ function slot0.updateExtraAttachments(slot0)
 
 			slot14.info = slot7
 			slot14.chapter = slot1
-			slot14.cellRoot = slot0.cellRoot
 
 			slot14:SetLine({
 				row = slot8,
@@ -1428,7 +1427,7 @@ function slot0.updateAreaAttachment(slot0, slot1)
 			slot13 = pg.expedition_data_template[slot9.attachmentId]
 			slot17 = slot12:Find("dead_" .. slot9.attachmentId)
 
-			if slot9.flag == 0 then
+			if slot9.flag == ChapterConst.CellFlagActive then
 				if IsNil(slot12:Find("enemy_" .. slot9.attachmentId)) then
 					slot16 = cloneTplTo(slot0.enemyTpl, slot12, slot14)
 					slot16.anchoredPosition = slot7
@@ -1451,7 +1450,7 @@ function slot0.updateAreaAttachment(slot0, slot1)
 				setActive(findTF(slot16, "fighting"), _.any(slot2.fleets, function (slot0)
 					return slot0:isValid() and uv0 <= slot0.line.row and slot0.line.row <= uv1 and uv2 <= slot0.line.column and slot0.line.column <= uv3
 				end))
-			elseif slot9.flag == 1 and slot9.attachment ~= ChapterConst.AttachAmbush then
+			elseif slot9.flag == ChapterConst.CellFlagDisabled and slot9.attachment ~= ChapterConst.AttachAmbush then
 				slot18 = not IsNil(slot16) and slot16.gameObject.activeSelf
 
 				if IsNil(slot17) then
@@ -1467,11 +1466,11 @@ function slot0.updateAreaAttachment(slot0, slot1)
 			end
 
 			if not IsNil(slot16) then
-				setActive(slot16, slot9.flag == 0)
+				setActive(slot16, slot9.flag == ChapterConst.CellFlagActive)
 			end
 
 			if not IsNil(slot17) then
-				setActive(slot17, slot9.flag == 1)
+				setActive(slot17, slot9.flag == ChapterConst.CellFlagDisabled)
 			end
 		end
 	end
@@ -1524,7 +1523,7 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 
 			slot12 = false
 
-			if slot4.flag == 0 then
+			if slot4.flag == ChapterConst.CellFlagActive then
 				slot12 = slot0:isHuntingRangeVisible() and _.any(slot3.fleets, function (slot0)
 					return slot0:getFleetType() == FleetType.Submarine and slot0:isValid() and slot0:inHuntingRange(uv0.row, uv0.column)
 				end)
@@ -1724,7 +1723,7 @@ function slot0.updateQuadBase(slot0)
 					slot9 = uv1.quadRoot:Find(ChapterCell.Line2QuadName(slot1, slot2))
 					slot9.localScale = Vector3.one
 
-					if slot6 == "champion" and slot3[slot6].flag == 0 and slot11.trait ~= ChapterConst.TraitLurk and uv0:getChampionVisibility(slot11) and not uv0:existFleet(FleetType.Transport, slot11.row, slot11.column) then
+					if slot6 == "champion" and slot3[slot6].flag == ChapterConst.CellFlagActive and slot11.trait ~= ChapterConst.TraitLurk and uv0:getChampionVisibility(slot11) and not uv0:existFleet(FleetType.Transport, slot11.row, slot11.column) then
 						uv1:startQuadTween(slot8, slot9)
 						setImageSprite(slot9, GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_enemy"))
 						setImageSprite(slot9:Find("grid"), GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_enemy_grid"))
@@ -2624,7 +2623,7 @@ function slot0.toggleHuntingRange(slot0)
 		slot0:ShowHuntingRange()
 	end
 
-	slot0.contextData.huntingRangeVisibility = slot0.contextData.huntingRangeVisibility + 1
+	slot0.contextData.huntingRangeVisibility = 1 - slot0.contextData.huntingRangeVisibility
 
 	slot0:updateAttachments()
 	slot0:updateChampions()
@@ -2993,7 +2992,7 @@ function slot0.shakeCell(slot0, slot1, slot2)
 	slot4, slot5 = nil
 	slot7 = slot3:getChapterCell(slot1.row, slot1.column)
 
-	if slot3:getChampion(slot1.row, slot1.column) and slot6.flag == 0 then
+	if slot3:getChampion(slot1.row, slot1.column) and slot6.flag == ChapterConst.CellFlagActive then
 		slot5 = slot0.cellChampions[slot3:getChampionIndex(slot1.row, slot1.column)].tf:Find("huoqiubaozha")
 	elseif table.contains(ChapterConst.AttachStaticEnemys, slot7.attachment) then
 		slot5 = slot0.cellRoot:Find(ChapterCell.Line2Name(slot1.row, slot1.column)):Find("attachment"):Find("enemy_" .. slot7.attachmentId):Find("huoqiubaozha")

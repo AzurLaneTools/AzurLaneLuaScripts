@@ -216,7 +216,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 10,
 		icon = "build_4",
-		exchange_ship_id = 105171,
+		exchange_ship_id = 301291,
 		rate_tip = {
 			"<color=#ff5e39>海上传奇舰船</color>：1.2%",
 			"<color=#ffde38>超稀有舰船</color>：7%",
@@ -224,15 +224,15 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：28.8%",
 			" ",
-			"<color=#ff5e39>{namecode:199}</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>{namecode:18}</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:195}</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:208}</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:196}</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:62}</color>：0.5%",
 			" ",
-			"<color=#ffde38>{namecode:194}</color>：0.5%",
+			"<color=#d797ff>{namecode:206}</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>{namecode:197}</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>{namecode:150}</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	all = {

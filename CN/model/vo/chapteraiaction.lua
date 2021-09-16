@@ -126,8 +126,8 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 end
 
 function slot0.TryPlayChampionSubAnim(slot0, slot1, slot2, slot3, slot4)
-	if (slot2.flag == 5 or slot3.flag == 5) and (slot2.flag == 0 or slot3.flag == 0) then
-		slot1.viewComponent.grid:PlayChampionSubmarineAnimation(slot3, slot2.flag == 5, slot4)
+	if (slot2.flag == ChapterConst.CellFlagDiving or slot3.flag == ChapterConst.CellFlagDiving) and (slot2.flag == ChapterConst.CellFlagActive or slot3.flag == ChapterConst.CellFlagActive) then
+		slot1.viewComponent.grid:PlayChampionSubmarineAnimation(slot3, slot2.flag == ChapterConst.CellFlagDiving, slot4)
 
 		return
 	end
@@ -165,7 +165,7 @@ function slot0.applyTo(slot0, slot1, slot2)
 end
 
 function slot0.applyToChampion(slot0, slot1, slot2, slot3)
-	if slot2.flag == 1 then
+	if slot2.flag == ChapterConst.CellFlagDisabled then
 		return false, "can not apply ai to dead champion at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 	end
 

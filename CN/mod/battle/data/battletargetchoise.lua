@@ -651,3 +651,61 @@ function slot2.TargetDamageSource(slot0, slot1, slot2)
 
 	return slot4
 end
+
+function slot2.TargetRarity(slot0, slot1, slot2)
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot2 or uv0.TargetAllHelp(slot0)) do
+		if slot9:GetRarity() == slot1.rarity then
+			table.insert(slot4, slot9)
+		end
+	end
+
+	return slot4
+end
+
+function slot2.TargetIllustrator(slot0, slot1, slot2)
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot2 or uv0.TargetAllHelp(slot0)) do
+		if ys.Battle.BattleDataFunction.GetPlayerShipSkinDataFromID(slot9:GetSkinID()).illustrator == slot1.illustrator then
+			table.insert(slot4, slot9)
+		end
+	end
+
+	return slot4
+end
+
+function slot2.TargetTeam(slot0, slot1, slot2)
+	slot4 = {}
+
+	if slot1.teamIndex == TeamType.TeamTypeIndex[TeamType.Vanguard] then
+		slot4 = ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF()):GetScoutList()
+	elseif slot1.teamIndex == TeamType.TeamTypeIndex[TeamType.Main] then
+		slot4 = slot3:GetMainList()
+	elseif slot1.teamIndex == TeamType.TeamTypeIndex[TeamType.Submarine] then
+		slot4 = slot3:GetSubList()
+	end
+
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot4) do
+		if not slot2 or table.contains(slot2, slot10) then
+			table.insert(slot5, slot10)
+		end
+	end
+
+	return slot5
+end
+
+function slot2.TargetGroup(slot0, slot1, slot2)
+	slot5 = {}
+
+	for slot10, slot11 in ipairs(slot2 or uv0.TargetAllHelp(slot0)) do
+		if table.contains(slot1.groupIDList, ys.Battle.BattleDataFunction.GetPlayerShipModelFromID(slot11:GetTemplateID()).group_type) and slot0:GetIFF() == slot11:GetIFF() then
+			slot5[#slot5 + 1] = slot11
+		end
+	end
+
+	return slot5
+end

@@ -8316,6 +8316,165 @@ pg.activity_ins_language = {
 	op_reply_241_1_1 = {
 		value = "是时候成立一个“盆栽同好会”了！指挥官要不要也一起加入？"
 	},
+	ins_242 = {
+		value = "交到了新朋友。"
+	},
+	ins_discuss_242_1 = {
+		value = "嗯，认识了新的朋友们，噗噗也很高兴。"
+	},
+	ins_reply_242_1_1 = {
+		value = "欸，朋友…们？"
+	},
+	ins_discuss_242_2 = {
+		value = "那、那个…{namecode:180}是在看…谁？"
+	},
+	ins_reply_242_2_1 = {
+		value = "{namecode:180}和噗噗在和新朋友打招呼，嗯。"
+	},
+	ins_reply_242_2_2 = {
+		value = "欸？诶诶！？！"
+	},
+	ins_op_242_1_1 = {
+		value = "关系真不错呢"
+	},
+	op_reply_242_1_1 = {
+		value = "和{namecode:180}有种一见如故的感觉呢。"
+	},
+	ins_243 = {
+		value = "晨跑！{namecode:18}，全速前进~"
+	},
+	ins_discuss_243_1 = {
+		value = "哎呀，早起的兔子有草吃~？"
+	},
+	ins_reply_243_1_1 = {
+		value = "比起草，{namecode:18}对胡萝卜更感兴趣些！"
+	},
+	ins_discuss_243_2 = {
+		value = "欢迎加入晨跑的行列！"
+	},
+	ins_reply_243_2_1 = {
+		value = "噢~"
+	},
+	ins_discuss_243_3 = {
+		value = "起得还真早啊…"
+	},
+	ins_reply_243_3_1 = {
+		value = "{namecode:175}也一起来呀~跑步很舒服的哦！"
+	},
+	ins_reply_243_3_2 = {
+		value = "我就算了吧……"
+	},
+	ins_op_243_1_1 = {
+		value = "奔跑吧，{namecode:18}！"
+	},
+	op_reply_243_1_1 = {
+		value = "指挥官也该锻炼了！"
+	},
+	ins_244 = {
+		value = "看吧！这就是空母的舰载机运用能力~"
+	},
+	ins_discuss_244_1 = {
+		value = "还能有这种操作？！"
+	},
+	ins_reply_244_1_1 = {
+		value = "哼哼~我可是实打实的正规航空母舰！"
+	},
+	ins_discuss_244_2 = {
+		value = "真好呀~能在天空自由飞翔…"
+	},
+	ins_reply_244_2_1 = {
+		value = "是呀是呀~不知道我们有没有机会也试试…"
+	},
+	ins_reply_244_2_2 = {
+		value = "感觉还是不要试比较好呢……"
+	},
+	ins_op_244_1_1 = {
+		value = "精湛的操控技巧！"
+	},
+	op_reply_244_1_1 = {
+		value = "你还是很有眼光的嘛，指挥官！"
+	},
+	ins_245 = {
+		value = "呼呼，游乐园的集印任务意外的简单呢~"
+	},
+	ins_discuss_245_1 = {
+		value = "确认了喵，{namecode:62}小姐是第一位集完所有印的喵。"
+	},
+	ins_reply_245_1_1 = {
+		value = "采访一下！{namecode:62}小姐集印如此之快的秘诀究竟是——？"
+	},
+	ins_reply_245_1_2 = {
+		value = "得归功于事先的情报搜集哦~"
+	},
+	ins_discuss_245_2 = {
+		value = "听说，收集完所有的印章之后有一份特别礼品？"
+	},
+	ins_reply_245_2_1 = {
+		value = "欸欸欸？！原来有奖励的吗？光顾着帮忙了就没在意这个…所以奖励是啥呀？"
+	},
+	ins_reply_245_2_2 = {
+		value = "这里就不透露了哦。要是说出来的话，可就没有神秘感了。"
+	},
+	ins_op_245_1_1 = {
+		value = "好厉害！"
+	},
+	op_reply_245_1_1 = {
+		value = "指挥官，你的印章收集得怎么样了？有些好奇呢~"
+	},
+	ins_op_245_1_2 = {
+		value = "帮我也集一张吧！"
+	},
+	op_reply_245_1_2 = {
+		value = "这可不行哦，指挥官想要礼品的话，就自己加油吧~"
+	},
+	ins_246 = {
+		value = "海风，很舒服~"
+	},
+	ins_discuss_246_1 = {
+		value = "啊！{namecode:150}又去找海鸥玩了！"
+	},
+	ins_reply_246_1_1 = {
+		value = "{namecode:207}也一起来？"
+	},
+	ins_reply_246_1_2 = {
+		value = "唔…还是算啦！每次海鸥们都只找{namecode:150}！"
+	},
+	ins_discuss_246_2 = {
+		value = "听说海鸥们贴近海面飞行的时候，港区就将会是个好天气呢。"
+	},
+	ins_reply_246_2_1 = {
+		value = "对的对的！今天的港区也是风和日丽~"
+	},
+	ins_op_246_1_1 = {
+		value = "真受欢迎呀"
+	},
+	op_reply_246_1_1 = {
+		value = "嘻嘻，这些孩子们都是{namecode:150}的好朋友~"
+	},
+	ins_247 = {
+		value = "哎~学魔术果然没有那么容易啊~"
+	},
+	ins_discuss_247_1 = {
+		value = "加油，{namecode:207}，你可以的！"
+	},
+	ins_reply_247_1_1 = {
+		value = "噢噢！感觉干劲又加满了！"
+	},
+	ins_discuss_247_2 = {
+		value = "用魔术变出吓人一跳的东西！嗯哼，感觉发现了恶作剧新思路！"
+	},
+	ins_reply_247_2_1 = {
+		value = "恶作剧不能被人发现，魔术的秘密也不能被人发现，所以两者是相通的！"
+	},
+	ins_reply_247_2_2 = {
+		value = "魔术才不是用来整人的啦！"
+	},
+	ins_op_247_1_1 = {
+		value = "期待正式演出！"
+	},
+	op_reply_247_1_1 = {
+		value = "不会让大家失望的~"
+	},
 	all = {
 		ins_op_1_1_1,
 		ins_op_1_1_2,
@@ -11088,6 +11247,59 @@ pg.activity_ins_language = {
 		ins_reply_241_2_1,
 		ins_reply_241_2_2,
 		ins_op_241_1_1,
-		op_reply_241_1_1
+		op_reply_241_1_1,
+		ins_242,
+		ins_discuss_242_1,
+		ins_reply_242_1_1,
+		ins_discuss_242_2,
+		ins_reply_242_2_1,
+		ins_reply_242_2_2,
+		ins_op_242_1_1,
+		op_reply_242_1_1,
+		ins_243,
+		ins_discuss_243_1,
+		ins_reply_243_1_1,
+		ins_discuss_243_2,
+		ins_reply_243_2_1,
+		ins_discuss_243_3,
+		ins_reply_243_3_1,
+		ins_reply_243_3_2,
+		ins_op_243_1_1,
+		op_reply_243_1_1,
+		ins_244,
+		ins_discuss_244_1,
+		ins_reply_244_1_1,
+		ins_discuss_244_2,
+		ins_reply_244_2_1,
+		ins_reply_244_2_2,
+		ins_op_244_1_1,
+		op_reply_244_1_1,
+		ins_245,
+		ins_discuss_245_1,
+		ins_reply_245_1_1,
+		ins_reply_245_1_2,
+		ins_discuss_245_2,
+		ins_reply_245_2_1,
+		ins_reply_245_2_2,
+		ins_op_245_1_1,
+		op_reply_245_1_1,
+		ins_op_245_1_2,
+		op_reply_245_1_2,
+		ins_246,
+		ins_discuss_246_1,
+		ins_reply_246_1_1,
+		ins_reply_246_1_2,
+		ins_discuss_246_2,
+		ins_reply_246_2_1,
+		ins_op_246_1_1,
+		op_reply_246_1_1,
+		ins_247,
+		ins_discuss_247_1,
+		ins_reply_247_1_1,
+		ins_discuss_247_2,
+		ins_reply_247_2_1,
+		ins_reply_247_2_2,
+		ins_op_247_1_1,
+		op_reply_247_1_1
 	}
 }

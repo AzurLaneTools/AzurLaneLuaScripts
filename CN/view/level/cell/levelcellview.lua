@@ -9,6 +9,10 @@ function slot0.GetOrder(slot0)
 	return ChapterConst.CellPriorityNone
 end
 
+function slot0.SetLoader(slot0, slot1)
+	slot0.loader = slot1
+end
+
 function slot0.GetLoader(slot0)
 	slot0.loader = slot0.loader or AutoLoader.New()
 

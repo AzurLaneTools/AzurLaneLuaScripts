@@ -184,6 +184,8 @@ function slot0.readyToAchieve(slot0)
 		return WWFPtPage:IsShowRed()
 	elseif slot0.id == ActivityConst.NEWMEIXIV4_SKIRMISH_ID then
 		return NewMeixiV4SkirmishPage:IsShowRed()
+	elseif slot0.id == ActivityConst.JIUJIU_YOYO_ID then
+		return JiujiuYoyoPage:IsShowRed()
 	end
 
 	if slot2 == ActivityConst.ACTIVITY_TYPE_CARD_PAIRS then
@@ -331,7 +333,7 @@ function slot0.readyToAchieve(slot0)
 			slot1 = math.clamp(slot4:DiffDay(slot0.data3, slot4:GetServerTime()) + 1 - slot0.data2, 0, #slot0:getConfig("config_client")[3] - slot0.data2) > 0
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
 			for slot7, slot8 in ipairs(slot0:getConfig("config_data")) do
-				slot9 = slot0.data1KeyValueList[2][slot8] or 0
+				slot9 = slot0.data1KeyValueList[2][slot8] or 1
 
 				if pg.activity_event_building[slot8] and slot9 < #slot10.buff then
 					slot1 = slot1 or slot10.material[slot9] <= (slot0.data1KeyValueList[1][slot10.material_id] or 0)
