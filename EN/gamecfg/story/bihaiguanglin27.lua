@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "华丽的中心区内万籁俱寂，水面空空荡荡，没有任何敌人存在的踪迹。",
+			say = "The surface of the water surrounding the Heart was as clear as a mirror, reflecting the figures of the Palace's guests.",
 			dir = 1,
 			bgm = "theme-longgong",
 			flashin = {
@@ -36,7 +36,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "仿佛这里不是战场的中心，只是一处宁静的景点而已。",
+			say = "It was calm. Too calm. The party was filled with suspense as it prepared for the decisive battle that was about to unfold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没看到什么强敌哎，是不是恰好出门了…？",
+			say = "Huh... Doesn't look like anyone's home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也许因为我们在城里大闹……去忙别的事了吧。",
+			say = "Oh no... I'd hate to think we ruined someone's home while they were out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（绝对不可能……你们当这里是什么地方啊！）",
+			say = "It's just a Siren research facility. I wouldn't feel too bad if I were you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好，抓紧机会寻找能够升起龙宫城的机关，我们尽快离开。",
+			say = "Now, what's inside this spire? Treasure? The facility's self-destruct button? Or maybe even the controls to make the Palace resurface?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "一番并不漫长的寻找后，众人在海域中发现了一个被结界封印的区域。",
+			say = "The party entered the building and split up to cover more ground. Soon after, they found a pedestal resembling the structures the Palace's mechanisms were built into.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -151,7 +151,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好漂亮的结界啊，和之前看到的那些都不一样……",
+			say = "This place feels very different from what we've seen so far...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "结界里似乎有人……",
+			say = "Also... I can feel a person's presence from inside that sealed structure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "咦？这次的控制台好像在结界外面，那个就是龙宫城的控制开关吧！",
+			say = "It seems fair to surmise that pedestal is the Palace's control center. Now the question is how we operate it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "稍等一下，{namecode:18}……那个好像是————",
+			say = "Um, Shimakaze? Shouldn't we wait for Eugen and Odin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "我按——————",
+			say = "You're right, we sho– Oops! I didn't mean to touch that scabbard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
-			say = "轰隆隆隆——————————",
+			say = "––––––!!!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -300,7 +300,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "随着控制台被启动，中心区域发生了一阵短暂而又猛烈地抖动。",
+			say = "A mechanical whirr rang out from deep inside the structure, and the ground shook beneath the party's feet for a few moments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么奇怪的事都没发生？真是太好了……不要总是这样轻举妄动啊，{namecode:18}！",
+			say = "Darn it, Shimakaze! What have I told you about not touching things?! Ugh... At least nothing bad happened to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "没想太多就按下去了…非常抱歉，{namecode:175}阁下！！",
+			say = "I'm really sorry, Suruga... I should learn to be more careful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家注意，结界内的人好像苏醒了……",
+			say = "Heads up, everyone! Someone's... Someone's emerging from the sealed structure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,8 +378,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 399050,
-			actorName = "？？？",
-			say = "好困……吾这一觉究竟睡过去多久了…………",
+			actorName = "???",
+			say = "Mghh... How long have I been asleep?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然说话了？！",
+			say = "Who in the world is that?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,8 +413,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 399050,
-			actorName = "？？？",
-			say = "这是什么玩意儿……碍事————！",
+			actorName = "???",
+			say = "What's this supposed to be? Ah, no matter... HUMPH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -486,7 +486,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且随便一挥刀就从内部把结界破坏了？！",
+			say = "Did she just destroy the seal?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,8 +503,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 399050,
-			actorName = "？？？",
-			say = "啊……空气清新，现在舒服多了…………",
+			actorName = "???",
+			say = "*yaaawn*... Some fresh air at last. That's the good stuff...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "破坏了结界后，从结界中苏醒的人没有发动进一步攻击，只是悠然的环视着水面。",
+			say = "A shipgirl appeared from within the Heart. The first thing she did was neither attack or address the party – she simply yawned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是棋子…？但是压迫力好惊人。",
+			say = "She could be a Siren Pawn... But she doesn't quite feel like one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "那个……你是谁？是和我们一样被困在这里的人么？",
+			say = "Umm, if you don't mind me asking, who are you? Were you trapped here, like us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（居然主动上去打招呼了？！前面这个怎么看都不是吧！）",
+			say = "(What are you doing, casually trying to start a conversation?! She could attack us for all we know, moron!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "吾乃{namecode:204}，此处深海龙宫的守护者。",
+			say = "Who am I? I'm Hakuryuu, guardian of the Dragon Palace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			actor = 399050,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "汝等就是侵入吾之领地，并打破吾之封印之人？",
+			say = "And who might YOU be? You ransack the Palace, then you have the gall to awaken me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "因为有声音说这么做就能离开嘛……抱抱抱歉！我们会赔偿的！",
+			say = "Eek! We're so sorry! We were convinced this was a Siren stronghold, and, uhh... Look, we'll pay you for the damage done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（刚才的封印明明是你自己打破的吧……）",
+			say = "(We're all guilty of messing this place up, but it's YOU who woke her up...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			actor = 399050,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "既然将吾从久睡中唤醒，想必对此已经有了充分的觉悟了吧？",
+			say = "Splendid. Then I assume you're also ready for the consequences of rousing me from my slumber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "觉、觉悟？！我们只是想离开这里而已！真的抱歉打扰到你休息了！",
+			say = "C-consequences?! Oh no, just as I hoped I could finally get out of this place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			actor = 399050,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "你……作为挑战者来说也太缺乏气势了……不过无妨，让我们开始试炼吧。",
+			say = "A brat, and spineless at that, eh? You know what? I shall have you ALL take part in a trial!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "试炼！？",
+			say = "What... What trial?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +745,7 @@ return {
 			actor = 399050,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "想要离开龙宫么？那只要通过试炼就可以了，出招吧！",
+			say = "Do you want to leave the Palace? Then a trial is your ticket home. What don't you understand?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哇啊啊啊啊！",
+			say = "Well, what do you even mean, for starters...",
 			flashN = {
 				color = {
 					1,
@@ -830,7 +830,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我说，你不要上来就对着{namecode:18}欺负啊！",
+			say = "Let me handle this, Shimakaze. Hakuryuu, what does this \"trial\" entail?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,7 +847,7 @@ return {
 			actor = 399050,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "哦？原来你才是领头人么。",
+			say = "Ah. You're her chief, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是{namecode:62}，受{namecode:84}大人和{namecode:182}大人的委托带领舰队探索此处龙宫城。",
+			say = "I'm Chikuma, Tone-class heavy cruiser from the Sakura Empire. This girl is a friend of mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -881,7 +881,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "试炼，是指战胜你的意思么？",
+			say = "Now, are you proposing a duel of sorts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,7 +897,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "没错。",
+			say = "Uh-huh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要战胜你，我们就能离开？",
+			say = "And, if we win this duel, you'll let us leave the Palace, correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不错。",
+			say = "Correct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,7 +946,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "仅此而已么？",
+			say = "...Is there nothing more to it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,7 +963,7 @@ return {
 			actor = 399050,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "你究竟想说什么？",
+			say = "Nothing more to what? Just spit it out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果我们打赢了，能离开这里是理所当然的。既然是试炼，作为胜利者难道不应该有额外的嘉奖么？",
+			say = "Supposing we defeat you, should we not also receive the Palace's \"treasure\" and ownership of the control device?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -997,7 +997,7 @@ return {
 			actor = 399050,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "自大狂妄。仅凭汝等要是真赢了吾，看上城中什么奖励随便拿走便是。",
+			say = "I haven't a clue what you're talking about. Just fight me already, will you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1014,7 +1014,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就这么说定了~接下来请由我向你介绍这位重樱的新锐战列舰，和她过招一定会更有意思的。",
+			say = "I suppose the only way we'll find out more is not by engaging her in conversation, but in battle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是。（哎、哎，等等？！）",
+			say = "4 pedestals... Maybe they each house a Palace mechanism?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1073,7 +1073,7 @@ return {
 			actor = 399050,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "嗯~看起来确实比刚才的小个子能打。那么就换成你来吧，接招——————！",
+			say = "Hey! Quit whispering among yourselves! Either you come at me now, or I'll come at YOU!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1089,7 +1089,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……{namecode:175}，参上（为什么成这样了啊啊啊啊啊！）",
+			say = "Ugh, another hothead who's always in a rush! Fine! If it's a fight you want, then a fight you'll get!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1107,7 +1107,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "加油哦，{namecode:175}阁下！",
+			say = "You tell her, Suruga! Show her who's boss!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1135,7 +1135,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不要摆出一副事不关己的态度，又没说要一对一！一起来打啊！",
+			say = "If you think you can just cheer me on from the sidelines, think again! Get over here and help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

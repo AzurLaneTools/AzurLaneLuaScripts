@@ -361234,7 +361234,7 @@ end)()
 	}
 	uv0.chapter_template[1560004] = {
 		special_operation_list = "",
-		name = "神之枪 ",
+		name = "Approaching Storm",
 		count = 0,
 		pop_pic = "",
 		act_id = 4105,
@@ -361277,7 +361277,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 405,
 		investigation_ratio = 0,
-		profiles = "刺眼的光芒瞬间瓦解了敌人的攻势，这就是「计划舰」的力量…… ",
+		profiles = "The party heard a voice call out for help. Perhaps another soul who's trapped in the Palace with them? They must make haste and rescue the stranger.",
 		star_require_3 = 3,
 		difficulty = 5,
 		num_2 = 25,
@@ -362044,7 +362044,7 @@ end)()
 	}
 	uv0.chapter_template[1560005] = {
 		special_operation_list = "",
-		name = "秘宝 ",
+		name = "Seizing the Advantage",
 		count = 0,
 		pop_pic = "",
 		act_id = 4105,
@@ -362087,7 +362087,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 610,
 		investigation_ratio = 0,
-		profiles = "以彼之道还施彼身，利用龙宫城内的机关尽情作战吧。 ",
+		profiles = "Shimakaze has learned how to control the Palace's mechanisms. At least, she has in theory. Putting into practice is another question...",
 		star_require_3 = 3,
 		difficulty = 6,
 		num_2 = 30,
@@ -362875,7 +362875,7 @@ end)()
 	}
 	uv0.chapter_template[1560006] = {
 		special_operation_list = "",
-		name = "龙宫之「龙」 ",
+		name = "The Guardian of the Palace",
 		count = 0,
 		pop_pic = "",
 		act_id = 4105,
@@ -362918,7 +362918,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 690,
 		investigation_ratio = 0,
-		profiles = "强敌终于出现，热血澎湃的最终战即将开始——拼尽全力将其击败夺取龙宫城最后的秘宝吧！ ",
+		profiles = "The Palace Guardian has appeared. But who is the guardian, really? Where is the treasure kept? And who's behind the mysterious disembodied voice?",
 		star_require_3 = 3,
 		difficulty = 7,
 		num_2 = 30,
@@ -363206,7 +363206,7 @@ end)()
 				6,
 				4,
 				true,
-				0
+				16
 			},
 			{
 				6,
@@ -363326,7 +363326,7 @@ end)()
 				4,
 				2,
 				true,
-				0
+				16
 			},
 			{
 				4,
@@ -366082,7 +366082,7 @@ end)()
 	}
 	uv0.chapter_template[1560024] = {
 		special_operation_list = "",
-		name = "神之枪 ",
+		name = "Approaching Storm",
 		count = 0,
 		pop_pic = "",
 		act_id = 4105,
@@ -366125,7 +366125,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 1275,
 		investigation_ratio = 0,
-		profiles = "刺眼的光芒瞬间瓦解了敌人的攻势，这就是「计划舰」的力量…… ",
+		profiles = "The party heard a voice call out for help. Perhaps another soul who's trapped in the Palace with them? They must make haste and rescue the stranger.",
 		star_require_3 = 3,
 		difficulty = 8,
 		num_2 = 35,
@@ -366934,7 +366934,7 @@ end)()
 	}
 	uv0.chapter_template[1560025] = {
 		special_operation_list = "",
-		name = "秘宝 ",
+		name = "Seizing the Advantage",
 		count = 0,
 		pop_pic = "",
 		act_id = 4105,
@@ -366977,7 +366977,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 1860,
 		investigation_ratio = 0,
-		profiles = "以彼之道还施彼身，利用龙宫城内的机关尽情作战吧。 ",
+		profiles = "Shimakaze has learned how to control the Palace's mechanisms. At least, she has in theory. Putting into practice is another question...",
 		star_require_3 = 3,
 		difficulty = 9,
 		num_2 = 40,
@@ -367809,7 +367809,7 @@ end)()
 	}
 	uv0.chapter_template[1560026] = {
 		special_operation_list = "",
-		name = "龙宫之「龙」 ",
+		name = "The Guardian of the Palace",
 		count = 0,
 		pop_pic = "",
 		act_id = 4105,
@@ -367852,7 +367852,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 2105,
 		investigation_ratio = 0,
-		profiles = "强敌终于出现，热血澎湃的最终战即将开始——拼尽全力将其击败夺取龙宫城最后的秘宝吧！ ",
+		profiles = "The Palace Guardian has appeared. But who is the guardian, really? Where is the treasure kept? And who's behind the mysterious disembodied voice?",
 		star_require_3 = 3,
 		difficulty = 10,
 		num_2 = 40,
@@ -368183,7 +368183,7 @@ end)()
 				6,
 				4,
 				true,
-				0
+				16
 			},
 			{
 				6,
@@ -368303,7 +368303,7 @@ end)()
 				4,
 				2,
 				true,
-				0
+				16
 			},
 			{
 				4,
@@ -368767,7 +368767,7 @@ end)()
 	}
 	uv0.chapter_template[1560041] = {
 		special_operation_list = "",
-		name = "风雷疾影",
+		name = "The Palace's Secret Bonus Treasure",
 		count = 1,
 		pop_pic = "",
 		act_id = 4105,
@@ -368810,7 +368810,7 @@ end)()
 		num_1 = 0,
 		best_air_dominance = 2905,
 		investigation_ratio = 0,
-		profiles = "「在此展现高山流操舰术的精髓，{namecode:18}级驱逐舰{namecode:18}，参上！」",
+		profiles = "You've proven yourself worthy of the Palace's treasures if you've made it this far. Now, go! Claim what is rightfully yours!",
 		star_require_3 = 0,
 		difficulty = 10,
 		num_2 = 0,
@@ -369523,7 +369523,7 @@ end)()
 	}
 	uv0.chapter_template[1560051] = {
 		special_operation_list = "",
-		name = "「碧海光粼」 ",
+		name = "When Priorities Clash",
 		count = 0,
 		pop_pic = "",
 		act_id = 4105,
@@ -369566,7 +369566,7 @@ end)()
 		num_1 = 0,
 		best_air_dominance = 810,
 		investigation_ratio = 0,
-		profiles = "意外之旅终于意外之获。在那碧海的光粼之中，命运之轮已然开始转动。隐藏在谜面中的答案，你注意到了么？ ",
+		profiles = "This is it. The final showdown. Or, at least, a simulation of it. Nevertheless... There will be no holds barred!",
 		star_require_3 = 0,
 		difficulty = 10,
 		num_2 = 0,

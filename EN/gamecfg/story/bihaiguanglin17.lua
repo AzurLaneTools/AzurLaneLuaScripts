@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "帕克菲克洋·重樱主力舰队",
+			say = "Sakura Empire",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-pacific",
@@ -39,7 +39,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然连前去支援的{namecode:62}等人都失踪了？！唔……这可是了不得的大事。",
+			say = "They all disappeared inside the Dragon Palace? Chikuma, Yamakaze, all of them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那座龙宫城真的完全消失了么？",
+			say = "The Dragon Palace... is it really gone now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正是。后续侦察未能发现其存在过的任何痕迹。",
+			say = "...To that place I sent my planes, but... I could find no trace of them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血的反馈亦然，没有发现任何疑似目标。",
+			say = "Our counterparts in the Iron Blood said the same thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "访问舰队居然会遭遇到这种事……真是出师不利啊。",
+			say = "What foul luck... I thought it would be safe for us to head to the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你联系吾等是希望由本岛派出增援力量么？",
+			say = "Did you request reinforcements from the home islands?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非也。既然名为龙宫城，或许只是暂时沉入水中了吧。",
+			say = "Nay, for there may be no need... I have seen much in my dreams, of the castle beneath the waves...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "此次危机，妾身相信{namecode:18}她们定能平安化解，与诸位通讯实有其他事相商。",
+			say = "And though we may be in a crisis, I have also heard its calls...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今日妾身做了一个梦，一个关于碧蓝航线指挥官的梦。",
+			say = "But more importantly, I saw... the \"Commander.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "梦醒之后，妾身查阅了指挥官的资料。",
+			say = "One who guides both the Sakura Empire and the Iron Blood equally...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于参战后的部分非常详细，参战前的部分却为一片空白。",
+			say = "The importance of this person's past cannot be understated... Alas, my dreams refuse to show it to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "以情报机关的工作效率而言实在不应该出现此等纰漏，诸位对此事有所了解么？",
+			say = "I beseech you, please, find the story of this one's past for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉……吾之前一直封闭在御神木中，不是很清楚这些事。",
+			say = "I would be glad to honor your request, Shinano.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官参加战争以前的情报啊……我也许知道一些。",
+			say = "Wait, Nagato, may I take on this responsibility?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们知道碧蓝航线指挥部有一所直属的军事学院么？",
+			say = "...I don't know how much Shinano has seen about the Commander, but let me tell you something important first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为情报有所耳闻，具体就……",
+			say = "Something... important...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吾有印象。很久之前，吾曾批准过一次重樱考察团的远航申请，不过当时似乎不是军事学院啊？",
+			say = "Right. The reason why the Commander is able to lead ships of all factions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，你没记错。当时那里还是碧蓝航线所属的心智魔方科学研究院。主要展开相关研究以及培训相关岗位的从业人员。",
+			say = "Allow me to explain. Shinano, as you already may know, us shipgirls are born from the powers of the Wisdom Cube.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然有不少涉及到军事技术的部分，但本质上只是一座研究机构而已。",
+			say = "Humanity has been researching the Wisdom Cube since the previous war, but to little avail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当时我们除了参观之外，还在那里做了不少舰装性能测试呢。",
+			say = "...As for our rigging and gear, those are essentially byproducts made from the energy given off by Wisdom Cubes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？你也在当时的考察团之中么？",
+			say = "Much of the military use of Wisdom Cubes followed the same process.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不如说考察团本身就是由我带领的，一次很有趣的旅程哦。",
+			say = "Indeed. In actuality... Us shipgirls are only a small part of the Wisdom Cubes' saga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，当时的吾，完全没注意过这些事……",
+			say = "What?! I've been kept in the dark on this entire matter?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用在意~过去的事已经过去了。",
+			say = "Don't be so shocked. There's much I haven't even talked about yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "除了那次正式出访，我在退役之后又去那边旅行了几次。",
+			say = "It is often said that Wisdom Cubes \"embody the wishes of humanity,\" but nobody actually knows what that means.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在研究院改为军事学院的大概同一时期，还发生过一件在当时引发过热议的事。",
+			say = "...At least, not according to the information disclosed by the Naval HQ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "据说，指挥部在某次日常测试中发现了一位具有超高心智魔方适应性的人……",
+			say = "However, the Commander is unique for having a special \"Cube Resonance\" that can help us fully draw out the power from our Wisdom Cubes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这件事妾身在资料中也未曾见过……",
+			say = "Cube... Resonance...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊，不知道为什么后来这个轰动性的消息就消失了呢。",
+			say = "Just as we do not fully understand the true nature of the Wisdom Cubes, we also do not know about how exactly this \"resonance\" works.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "之前我在想起来之后还特意查过一次，结果一堆资料查下来仿佛记忆都变得不那么可靠了。",
+			say = "But that's not the important part. I believe that the Commander is far more than simply someone with this special aptitude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然，我对自己的记忆可是很有自信的，所以结论只有一个——那次事件的情报在世界范围内刻意管控起来了。",
+			say = "This is a person willing to treat us as human, someone able to trust and cherish us, regardless of our origins or our past. That... is what truly makes the Commander unique.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你觉得这两件事有联系？",
+			say = "Mikasa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说不好……不过这件事也是被刻意抹除的记录，不是和指挥官的过去履历很像么？",
+			say = "Global affairs have become more complicated than ever, with each faction acting out of their own interests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "况且那位指挥官之前也有在军事学院学习的经历——",
+			say = "Only the Commander is capable of re-establishing the Azur Lane that previously united the world during the previous war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，非常抱歉打扰您……",
+			say = "Um, pardon me for interrupting, but... there's a message from the Iron Blood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "铁血浮岛要塞负责人彼得·史特拉塞大人发来了联络，她想和您确认一下舰队对接的细节。",
+			say = "A woman by the name of Strasser wants to talk about the search effort...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "知道了。",
+			say = "...I understand. Please put her through...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那你去忙吧，闲聊什么时候都能进行。最近我跟{namecode:74}因为{namecode:91}的特殊关照，其实意外的清闲哦~",
+			say = "I suppose that concludes today's storytime. Maybe we'll be able to continue sometime else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "妾身最后还有一个问题……{namecode:82}，你实际见过指挥官么？",
+			say = "...I have one more question... Where is the Commander now...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有哎。毕竟我活跃在海上的年代，指挥官还没有踏入战场呢~",
+			say = "Last thing I heard, there was some battle against the Sirens shortly after coming back from the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不过听说现在指挥官正驻扎在白鹰的PH港。大家身处同一片大洋中，迟早会有遇到的一天吧~",
+			say = "Right. PH Harbor would probably be my best guess, along with that \"Black Dragon.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

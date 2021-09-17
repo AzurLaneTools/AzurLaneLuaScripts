@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "龙宫城·外环区  机关前",
+			say = "Dragon Palace - Outer Ring",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -41,7 +41,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:62}阁下！刚才从你们的方向传来了剧烈的震动和闪耀的白光，大家都没出事吧！",
+			say = "Chikuma! Prinz Eugen! Is everyone okay?! The whole place started shaking and the lights even went out for a moment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我们没事。是铁血舰队发动攻击后引发的现象，现在我们已经让机关停止运作了。",
+			say = "It's fine~ We were just taking care of the mechanism over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦？！那么大的动静居然是铁血舰队的攻击？！！太不可思议了。",
+			say = "Huh?! That massive shockwave came from one of your attacks? You nearly made me drop my planes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 307120,
 			nameColor = "#a9f548",
-			say = "{namecode:206}{namecode:206}~刚才我是在观察了结界的弱点之后集中火力一口气破坏掉的，",
+			say = "Since even a full-fledged aircraft carrier like me can't make an explosion that big, we thought that you had encountered some ridiculously strong enemy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 307120,
 			nameColor = "#a9f548",
-			say = "这种类型的结界是不是这样处理最好呀？",
+			say = "Oh, right! You didn't completely destroy the pedestal that the mechanism was sitting on, did you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔嗯……如果是你所说的那种类型的话，不过实际上我也没见到结界没法判断……",
+			say = "Pedestal? Oh, I do remember seeing something like that, but... Self, mind giving me a hand?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "保护在外围的封印已经在奥丁小姐的一击中灰飞烟灭了……",
+			say = "Well, um, I guess this kind of matches the description Shimakaze gave me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过机关本身还完整，我打算仔细检查一下……那个，欧根亲王阁下……?",
+			say = "I have no idea how this part survived, but I guess this is– M-Miss Eugen?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，那边的欧根亲王！不要趁机乱动操作台啊，很危险吧！",
+			say = "Wait, don't just go around touching things! It might be dangerous!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "不危险~不危险~操作塞壬装置我早就已经轻车熟路了。",
+			say = "It's fine, it's fine~ I get to play around with all kinds of Siren things~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "会发生事故的概率连五成都不到哦。",
+			say = "I'd say there's only a fifty percent chance of something going wrong~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要给五成成功率换个好听的说法啊！",
+			say = "You'd seriously gamble on fifty percent odds?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "先这样……再这样……最后这样————完成！",
+			say = "If I do it like this... Oh yeah... How about right here... And look, it's done~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "随着欧根亲王的操作结束，控制台发出了一阵机械启动的震动声，相同的谜之音也再次出现了。",
+			say = "As Eugen manipulated the pedestal, a mechanic whirring could be heard from inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,11 +298,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「龙宫城中的秘宝，在此向勇者献上」",
+			say = "\"Yes, the secret treasure of the Dragon Palace will be presented to only the brave...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……秘宝？",
+			say = "Again with that secret treasure?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:62}阁下！{namecode:175}阁下！！你们刚才说的出现在敌人身上的护盾，也出现在我们身上了哎！",
+			say = "Hwaaah?! What is this light? ...Chikuma, one of those energy barriers suddenly went up all around us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道龙宫城中各个机关区域之间是有关联的……？只要夺下来就能为我们所用。",
+			say = "Operating this pedestal interferes with things on Shimakaze's side...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "果然是这样的设计，跟我预想的一样。",
+			say = "Yup. If we figure out how to use them properly, they'll work to our advantage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在你预想中不是只有五成成功率么……如果运气不好失败了呢？",
+			say = "*sigh*... So I guess things worked out this time. What would've happened if we lost the coin flip?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "大概是机关重新启动，然后我们重新被大量敌人包围……？",
+			say = "Who knows? Couldn't be much worse than the mechanism whirring back to life and calling the mass-produced ships back again, could it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不行，太累了……跟这个危险分子完全合不来。）",
+			say = "(This person's way too dangerous! But...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "不要一副垂头丧气的样子嘛。只要结果好，一切都好~",
+			say = "Aw, what's the problem? All's well that ends well, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "非常感谢，欧根亲王阁下！有了这些护盾，火海就无法阻挡我们的前进了！",
+			say = "Thanks for the backup, Prinz Eugen! With this barrier, we won't have any problems crossing the sea of fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家跟紧我，向着机关的方向，冲锋~！",
+			say = "...Owwie! But, my speed... knows no limits!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

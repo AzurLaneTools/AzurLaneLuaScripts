@@ -13,7 +13,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			bgmDelay = 1,
-			say = "奥丁，准备好了么？",
+			say = "Odin, are you done charging?",
 			bgm = "xinnong-2",
 			flashin = {
 				delay = 1,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "决战武装——主神之枪充能完毕。",
+			say = "Mm. Hull integrated. Connected. Synchronizing energy link...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 499040,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "刺穿吧————————冈格尼尔！",
+			say = "Herteitr's Rolling Thunder, fire!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
-			say = "一道粗大光束毫无征兆出现在奥丁正前方，然后紧贴水面向远方的敌人直射而去。",
+			say = "The light inside the Dragon Palace dimmed briefly, but the brief darkness was immediately engulfed by a burst of all-consuming light.",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -101,7 +101,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_5",
 			dir = 1,
-			say = "光束的炫目仿佛刺破了眼皮，将耀眼的白光强行投射在眼球之上。",
+			say = "A roaring serpent of pure electricity shot forth from Odin's arm, smashing into the building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_5",
 			dir = 1,
-			say = "由攻击引发的冲击则掀起巨浪，使人几乎难以维持平衡。",
+			say = "The seal crumbled before her unparalleled destructive might, the mechanism sitting atop a pedestal soon following suit, then followed by the rest of the building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_5",
 			dir = 1,
-			say = "在双眼终于从致盲中恢复后，不久前还占据着水道的庞大敌方舰队已经荡然无存了。",
+			say = "The mass-produced ships began to scatter and disappear as if cowering before the loss of the mechanism.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "攻击结束，欧根亲王，请确认战斗结果。",
+			say = "Attack cycle complete. Survey the damage, Eugen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "战斗结果已确认，辛苦了，奥丁。",
+			say = "The target has been completely annihilated. Well done, Odin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "好啦~现在前方畅通无阻，大家继续前进吧。",
+			say = "Now then, girls, let's get moving~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "……额，你们怎么了……？",
+			say = "Oh, why aren't any of you moving? Have you taken a liking to this place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直像是大天狗的龙卷一样…………",
+			say = "What in the world... was that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚刚的攻击是什么……？那个夸张的冲击波是从舰装上发射出来的？？",
+			say = "(That attack just now... I can't say for certain, but I've never seen any main gun even come close to that level of firepower! Is this also Siren technology?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "奥丁小姐真和我们一样同为「舰船」么？！",
+			say = "That's an absolutely ridiculous level of firepower for a shipgirl... Does she have some kind of special rigging, or is that her power––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "虽然细节上有些区别，不过我觉得奥丁和我们一样都是「舰船」哦。",
+			say = "Odin's just a regular shipgirl, just like me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「计划舰」……没错吧？",
+			say = "...And one of your priority blueprint ships, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "情报收集很充分嘛~没错，奥丁就是被称为计划舰的舰船。",
+			say = "My, you're quite the knowledgeable one. But yes, that is exactly what she is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "既然已经知道的话，也不用这么惊讶吧。",
+			say = "If you already knew about our blueprint ships, you could've just told me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原本只是作为情报了解过的程度而已，实际见到还是第一次…………",
+			say = "My knowledge was pretty much just hearsay. Some things, you have to see to believe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些情报从阿非利加飘过来的时候我还在怀疑有夸大的成分……现在看来那些情报最大的问题是描述不足啊！",
+			say = "However, such destructive power falls outside the theoretical framework of even blueprint ships, as far as I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "好啦好啦~敌人虽然清理掉了，机关还在运作着呢。如果放着不管的话，说不定敌人还会冒出来哦。",
+			say = "That's only something we can do once, and it's only made possible by taking advantage of our surroundings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "奥丁已经没法再次开火了，我们还是先去解决掉机关的问题吧~",
+			say = "In other words, I've already played all my cards. You'd better hurry up, or that Shimakaze girl is going to leave you in the dust~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

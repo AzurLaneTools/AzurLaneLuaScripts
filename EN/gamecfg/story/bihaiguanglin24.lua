@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "龙宫城·内环区",
+			say = "Dragon Palace - Inner Ring",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎？！{namecode:208}阁下，我们的屏障消失了哎！",
+			say = "Huuuh? Katsuragi, the barrier's gone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来使用机关后得到的秘宝是有时间限制的啊，真遗憾……",
+			say = "That's unfortunately what it looks like. If we want a permanent version of the barrier, we're going to have to find that treasure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过现在已经进入了内环，前方应该就是最后一个阻拦我们前进的区域了。",
+			say = "Well, we've already made our way to the innermost part of the castle. Once we get through this area, we'll be right at the Heart!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "敌人依然很弱，也没有出现火海巨浪之类的奇怪东西，不依靠屏障我们也能顺利通过。",
+			say = "The enemies look weak, there aren't any storms, and I don't see any fire! Let's not pass up this opportunity to make some serious progress!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "可是{namecode:208}阁下，敌人的数量是不是有点太多了……",
+			say = "All right, but don't let your guard down, Katsuragi! The enemy is still here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "这么弱的敌人来多少都不会引起质变的，看我用轰炸机全部清理掉，轻松有余~！",
+			say = "Who are you accusing of letting her guard down? Hmph! Any enemies that dare get in the way of this full-fledged aircraft carrier are going to get blown away in a single shot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

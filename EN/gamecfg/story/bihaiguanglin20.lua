@@ -11,7 +11,7 @@ return {
 			actor = 303060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据{namecode:18}提供的情报，只要破坏位于前方的封印海域中的机关就会被解除。",
+			say = "Based on what Shimakaze's told us, the only way to break these seals is to either destroy or solve the puzzle mechanisms.",
 			bgm = "battle-boss-longgong",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "可是若想破坏机关，就必须解决掉堵塞航道的坚硬的敌人。而不解决坚硬的敌人，又无法破坏位于后方的机关。",
+			say = "And if you want to destroy the mechanisms, you'll have to get through these almost impenetrable enemies to get into the right position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "我们只能依靠集中火力逐个消灭敌人，艰难向前推进。",
+			say = "By focusing our firepower, we've been able to pick off these enemies one at a time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "原来如此……这个效率可够低的。",
+			say = "Mm. Quite inefficient, but it works.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那请问欧根亲王阁下有什么更高效率的方法么？",
+			say = "Do you have any better ideas, Miss Eugen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "也不能说没有吧~其实我在被困的时候一直在为打破屏障做准备。",
+			say = "I won't say no, since it's not like I had anything better to do other than to think about how to break out while trapped in here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "既然被你们救了，积攒的力量不如就为突破眼前的困境做点贡献好了。",
+			say = "Maybe I can give it a try, as a token of gratitude for rescuing me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 303060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你居然真的有突破死循环的方案么？请务必详细说明。",
+			say = "Sounds great. But what did you have in mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "与其花时间说明，还是由我来向大家直接展示吧~",
+			say = "You know what they say: show, don't tell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "请大家向着两侧散开，为奥丁的开火留出条通道来。",
+			say = "First, I want everyone to form a straight line towards that mechanism.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "……还不够，再散开一点，散开一点~",
+			say = "Keep going. Good, just like that~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			actor = 302070,
 			dir = 1,
-			say = "这样的距离够了么……？",
+			say = "Is this good enough?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "还是稍微再远点吧，比如像{namecode:175}那样，她选的距离就不错嘛。",
+			say = "Leave a bit more space. Yes, just follow Suruga's example.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（只不过和你拉开的距离保持一致而已……！）",
+			say = "(But I was just trying to find a spot where I wouldn't stand out...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "留出这么宽敞的空间，你究竟打算做什么……？",
+			say = "So, what do we do next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "不要心急，{namecode:62}小姐，你马上就能知道了。",
+			say = "Just give me a moment. Hmm... That should work, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "唔……以防万一，大家还是再向外散开一圈吧！",
+			say = "Hmm... I wonder if you guys should stand a bit farther back just in case~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

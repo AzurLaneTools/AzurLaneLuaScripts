@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			dir = 1,
 			bgm = "battle-longgong",
 			flashN = {
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰队居然被她一个人压制了？！——这个敌人很强！",
+			say = "Crap! I thought she'd be strong, but not so strong she can hold her own against all of us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "如果能利用之前的机关进行战斗的话，战斗说不定会轻松一些。",
+			say = "Suruga, I think we have to resort to using the Palace's mechanisms after all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你想利用哪个呢？",
+			say = "No kidding! But how do we do that?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "既然已经是决战了，不如把四个都打开试试吧？",
+			say = "Eugen showed Shimakaze how to activate them! She'll have to do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊~不知道把所有机关一起打开会出现什么情况，我也想看看！",
+			say = "And leave me exposed?! I may be a full-fledged carrier, but I cannot hold my own in close-range combat! But if she must do it, make it quick!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "时间紧迫，只有{namecode:18}的速度能在最短时间内开启四处机关，这次任务请务必让我来做。",
+			say = "Roger that! Leave it to me, Suruga!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "可是……",
+			say = "What about those fifty-fifty odds?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "要给同伴多一些信任哦，{namecode:175}。{namecode:18}你过来我再跟你说一遍，如此如此……这般这般……",
+			say = "You'll just have to have faith in the coin flip. Watch, Shimakaze, I'll show you one more time. First you do this... then this... aaaand... there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感谢欧根亲王阁下……我完全明白了！大家请放心，机关的事就交给我吧！",
+			say = "Okay! I've got it down to a T now! Everyone, just hang in there a little longer! I'll have all the mechanisms online in a minute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好吧，快去快回，一定要注意安全。",
+			say = "Get out of there at the first sign of danger! Got it?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是，{namecode:18}明白！",
+			say = "Got it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

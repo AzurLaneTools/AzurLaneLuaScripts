@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "龙宫城·外环区 ",
+			say = "Dragon Palace - Outer Ring",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-longgong",
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "在一阵阵炮火中，{namecode:62}队用尽全力的艰难前行着。",
+			say = "Suruga's group made their way to a building with a mechanism while avoiding the barrages of the mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:175}，好厉害啊……就算是坚硬的像乌龟妖怪一样的敌人也被一个个消灭了。",
+			say = "It seems we can make some headway against those seal-protected enemies if we concentrate our firepower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "新锐战列舰的实力果然厉害！不愧是我们重樱的精锐！",
+			say = "Your firepower really is something else, Suruga~ Maybe I'll put in a good word for you when we get back to see if we can get you a medal~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家都过奖了……我还有很多需要提高的地方呢。",
+			say = "Err, thanks, but it's a team effort...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（要累死了……要累死了要累死了！）",
+			say = "(Why are they looking at me though? I'm tired and just want to go home... and I hate sticking out like this!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（有没有人来救救我啊………………）",
+			say = "(And, I'm starting to get sore from firing so much... Someone come save us already...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,11 +143,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "喂~~~有没有人来救救我啊——！",
+			say = "Someone, please save me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们快听，有人在呼救！",
+			say = "Oh my, did you hear that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！这次我什么都没说哦！绝对没出声！",
+			say = "You didn't hear anything! That was just a slip of– Wait, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……？不是指你啦，你仔细听，附近好像有人在呼救的声音。",
+			say = "...Are you okay, Suruga? I'll send a seaplane over to see if we can locate the source of that voice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——找到了！是从那边的建筑里传来的！",
+			say = "...All right, it's coming from that direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "建筑上有结界的痕迹。既然在求救，大概是被某种结界关在里面了吧……",
+			say = "I'm seeing more of that same sealing technique. Do you think there's someone trapped in that building?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真没想到除了我们之外居然还有人被困在这里。",
+			say = "Huh, I didn't expect other people to also get caught up in this mess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "大家转移火力，准备开展营救行动！",
+			say = "Whoever it is, Suruga, let's go help them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

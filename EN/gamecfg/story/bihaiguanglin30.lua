@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:18}",
 			dir = 1,
 			bgmDelay = 1,
-			say = "这个是之前{namecode:175}阁下遇到的能生成特殊屏障的机关……",
+			say = "This pedestal's totally new... But it should work the same way as the rest...!",
 			bgm = "battle-longgong",
 			flashin = {
 				delay = 1,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果能开启的话，大家在战斗中就能更好地保护自己了！",
+			say = "It HAS to work... Okay, this goes there... Now this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,11 +51,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「继续提问——」",
+			say = "\"Answer me this...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,11 +67,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「同伴为何，何为同伴？{namecode:91}么，亦或是新生重樱联合么？」",
+			say = "\"Who are your friends? Akagi's people, or the New Sakura Alliance?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，谜之音小姐连{namecode:91}大人和新生重樱联合都知道呀？！",
+			say = "Huh? What are either of those? Are you talking about the Great Veteran and Lady Nagato?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……{namecode:91}大人和{namecode:82}大前辈之间的火花就算是{namecode:18}也能感觉出来。",
+			say = "Hmm... The way I see it... They're all my friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是，同伴之间有不同意见不是很正常的么！",
+			say = "I can only assume something happened between Akagi and the others, but that's not the end of the world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:18}",
-			say = "我是个笨蛋，不清楚{namecode:91}大人、{namecode:82}大前辈还有许许多多人的想法。",
+			say = "Disagreement between people is perfectly normal! And I know they both care deeply about us all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是正因为在意和关心，才会存在坚持和分歧吧！",
+			say = "People can come to an understanding as long as they're willing to listen to the other side!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我认为大家所有人都是同伴！",
+			say = "That's what I've always believed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,11 +180,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「既是如此…坚石之秘宝向勇者献上，继续前进吧」",
+			say = "\"That is a brave view to hold. Yes, this treasure is yours as well.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "谢啦，我们下一处控制台再见~",
+			say = "Thank you! We'll meet again at the next pedestal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

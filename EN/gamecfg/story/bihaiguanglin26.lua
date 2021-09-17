@@ -15,7 +15,7 @@ return {
 			bgm = "map-longgong",
 			actor = 403030,
 			nameColor = "#ffff4d",
-			say = "全部搞定，你们那边应该热闹起来了吧？",
+			say = "Shimakaze, did you already take care of the enemies?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直比烟火大会还热闹！巨浪卷着火焰把敌人全都烧光了哦！",
+			say = "That worked perfectly! The effect of the mechanism faded once we dragged the enemies out of range!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "连同机关上的封印也被一起破坏了，敌人的增援也停止了！",
+			say = "The enemy reinforcements stopped as well! Did you find another mechanism on your way here, Miss Eugen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "那还真是壮观，没能亲眼看到有些遗憾呢。",
+			say = "Sure did. That's why it took me a bit longer than expected to get here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,11 +88,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「外围试炼结束，中心区域即将开启」",
+			say = "\"Congratulations on passing your trial, yes.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,11 +104,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「挑战与变革就在前方，汝等准备好了么？」",
+			say = "\"But, a greater challenge yet remains. Have you steeled yourselves?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "那是当然！{namecode:18}已经迫不及待了~！",
+			say = "I'm always ready to go! Nothing's going to stop me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:62}阁下，{namecode:175}阁下，你们也听到谜之音说的话了吧！",
+			say = "Chikuma, Suruga, did the two of you hear that announcement?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "听得很清楚哦。跟之前推测的相同，中心区域有强敌存在。要突破看来需要费一番功夫了。",
+			say = "Yes, loud and clear. By the sounds of things, we'll probably be encountering more of the same once we're inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "额…相比前方存在的强敌，我觉得这个全程监控我们的谜之音更加令人不安……",
+			say = "And we're still blindly trusting this suspicious disembodied voice...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "说不定只是塞壬制作的贴心导航呢。已经到这一步了，我觉得还是干脆接受这个设定比较好哦。",
+			say = "Maybe it's just a Siren noisemaker then? ...Hehe, you'd prefer that over some strong enemy or devious puzzle, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（不安的感觉加倍了！）",
+			say = "(I don't even want to think about how annoying this is going to be...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			blackBg = true,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "接下来就是中心区域……前方情报不明，大家绝对不要掉以轻心哦。",
+			say = "All right then, let's group up in front of the gate and head into the Heart together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

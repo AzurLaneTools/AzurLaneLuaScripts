@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "龙宫城·中环区",
+			say = "Dragon Palace - Middle Ring",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -39,7 +39,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "冲锋~冲锋~冲锋~",
+			say = "Charge, charge, chaaaarge~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:62}阁下她们真是太厉害了！能让我们挂着敌人的护盾去打敌人！",
+			say = "Ahaha, we're totally on easy mode now with this handy barrier protecting us~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嚯嚯~航空母舰最不擅长的就是近身战，这个护盾正好弥补了这一点！",
+			say = "Thanks to the barrier, I'm not even taking any damage from short-range battles, something that has typically given me difficulty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在这一刻的我，说是世界上最完美的正规航空母舰也不为过！",
+			say = "Oh~hohoho! If the Dragon Palace's treasure is actually a device that lets us make these barriers any time we want, I'll actually become the strongest aircraft carrier in the entire world~☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也不怕被火烧了……好厉害。",
+			say = "If I may make a suggestion, we should probably leave the treasure as-is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到现在为止终于有些探险的感觉了，看来这个龙宫城也会做些有趣的事嘛~",
+			say = "Heck to the no! We've already had to fight through so many enemies and solve all these annoying puzzles! I'm not about to leave empty handed when we've come so far! Is that not so, Shimakaze?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "机关发现！{namecode:208}阁下，这次也拜托你了！",
+			say = "Yeah! Oh, look over there, Katsuragi! It's another mechanism!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小菜一碟~",
+			say = "Just leave it to me! Fly, my planes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -247,7 +247,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "在{namecode:208}的轰炸下，保护装置的结界很快就消失了。",
+			say = "Katsuragi's attack made quick work of the seal protecting the mechanism's pedestal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:208}阁下，是一个和刚才一样的控制台！",
+			say = "It looks just like the same one we found earlier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "通过这个控制台又能收获什么秘宝呢，真是令人期待啊！",
+			say = "I wonder if we get the treasure once we activate all of the pedestals? I can't wait to find out what it is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是可以变得巨大的秘宝就好了~如果变得巨大化，{namecode:207}就能一拳打瘪敌人啦！",
+			say = "I hope it's something that turns me huge! If I get super huge, I'll be able to steamroll all of Lady Nagato's enemies without even breaking a sweat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能够变出点心和糖果的机关也不错……",
+			say = "It'd be nice if there were tasty snacks that Lady Mutsu and Kawakaze would enjoy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那样对于作战完全没帮助吧！",
+			say = "I like that gigantification idea, but what kind of treasure is FOOD? Rejected!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "食物也是很重要的！吃饱肚子才好打仗嘛！",
+			say = "But she has a point, Katsuragi. You know what they say, an army marches on its stomach! Food can be quite the valuable treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "如果有点心的话，我想要胡萝卜蛋糕~",
+			say = "*droool*... You know, just thinking about food has really made me crave a nice carrot cake~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:18}，现在进展怎么样？",
+			say = "Shimakaze, how's the situation on your end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:62}阁下，{namecode:18}队现在进展顺利，已经到达控制台的前方~",
+			say = "Oh! Uhh, Team Shimakaze has safely arrived at the next pedestal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "不过这个控制台好复杂，{namecode:18}完全搞不懂要怎么弄……",
+			say = "But how are we supposed to make this thing cough up the treasure...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这个很简单。我教你啊~首先这样……然后这样……最后这样……",
+			say = "It's easy. First you do this, then reach under here... and finally, right here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "原来如此！好像明白了，又好像没明白！",
+			say = "I see, I see! Actually, I don't see at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我说…现在还没到需要这个机关的时候，万一{namecode:18}弄错了会很麻烦吧？",
+			say = "Okay, alright, stop! That's where I draw the line. I'm sure YOU know what you're doing, but letting Shimakaze mess around with this stuff?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不会不会，我的说明简单易懂，只要再讲一遍就算{namecode:18}也能明白。",
+			say = "It's really not that bad~ If she doesn't get it the first time, I'll just explain it again~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "嗯！只要{namecode:18}再听一遍 ，大概也许可能就明白了！",
+			say = "That's right, Suruga! I'm a fast learner, so I'm sure I'll get it if you show me that again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走了！继续前进！不是还在竞速比赛中么，这么磨磨蹭蹭被落下我可不管哦？",
+			say = "*sigh*... If you keep saying stupid things, I'm going to smash this pedestal right now and leave you stuck over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊，被落下可不好！等等我，{namecode:175}阁下！",
+			say = "Ahhhh! That's foul play! Fine, fine, I'll get going!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
