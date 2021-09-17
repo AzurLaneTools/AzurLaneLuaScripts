@@ -105,7 +105,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:208}",
-			say = "哼~{namecode:62}，立刻联络本阵，我们有大发现了！",
+			say = "哼~{namecode:18}，立刻联络本阵，我们有大发现了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

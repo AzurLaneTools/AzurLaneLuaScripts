@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "说得没错！不管是塞壬还是别的敌人什么，尽管放马过来吧！",
+			say = "说得没错！不管是塞壬还是别的什么敌人，尽管放马过来吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

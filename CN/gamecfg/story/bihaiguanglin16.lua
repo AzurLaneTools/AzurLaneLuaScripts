@@ -81,7 +81,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟就算我们不开火，敌人也不会手下领情嘛……",
+			say = "毕竟就算我们不开火，敌人也不会手下留情嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

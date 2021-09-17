@@ -6237,7 +6237,7 @@ pg.ship_skin_template_10 = {
 	},
 	[302071] = {
 		ship_group = 30207,
-		name = "二重诱惑？",
+		name = "二重吸引?",
 		bullet_skin_secondary = "",
 		hand_id = 14,
 		bgm = "",

@@ -1,5 +1,50 @@
 pg = pg or {}
 pg.enemy_data_statistics_397 = {
+	[294101] = {
+		cannon = 7,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 576,
+		rarity = 5,
+		air = 0,
+		torpedo = 63,
+		dodge = 26,
+		durability_growth = 63000,
+		antiaircraft = 25,
+		speed = 36,
+		reload_growth = 0,
+		dodge_growth = 320,
+		luck = 10,
+		star = 5,
+		hit = 15,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 228,
+		base = 423,
+		durability = 158,
+		armor_growth = 0,
+		torpedo_growth = 5064,
+		luck_growth = 0,
+		antiaircraft_growth = 2016,
+		armor = 0,
+		id = 294101,
+		battle_unit_type = 90,
+		antisub = 0,
+		scale = 150,
+		world_enhancement = {
+			30,
+			4.4,
+			1,
+			0.5,
+			0.7,
+			0.7,
+			0
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		}
+	},
 	[294102] = {
 		cannon = 15,
 		reload = 150,
@@ -1115,41 +1160,6 @@ pg.enemy_data_statistics_397 = {
 		antiaircraft_growth = 0,
 		armor = 0,
 		id = 295006,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295007] = {
-		cannon = 155,
-		name = "龙·META(Tier.7)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 372,
-		hit_growth = 0,
-		dodge = 13,
-		base = 494,
-		durability_growth = 0,
-		antiaircraft = 274,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 12,
-		hit = 55,
-		antisub_growth = 0,
-		air_growth = 0,
-		antisub = 0,
-		torpedo = 0,
-		durability = 230000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		id = 295007,
 		buff_list = {
 			{
 				ID = 8830,

@@ -231745,7 +231745,7 @@ pg.chapter_template_loop = {
 				6,
 				4,
 				true,
-				0
+				16
 			},
 			{
 				6,
@@ -231865,7 +231865,7 @@ pg.chapter_template_loop = {
 				4,
 				2,
 				true,
-				0
+				16
 			},
 			{
 				4,
@@ -236128,7 +236128,7 @@ pg.chapter_template_loop = {
 				6,
 				4,
 				true,
-				0
+				16
 			},
 			{
 				6,
@@ -236248,7 +236248,7 @@ pg.chapter_template_loop = {
 				4,
 				2,
 				true,
-				0
+				16
 			},
 			{
 				4,

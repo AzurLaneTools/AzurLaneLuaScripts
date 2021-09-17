@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "那些笨重的敌人量产型不会给我们带来威胁，反而会帮我们减小风浪。",
+			say = "那些笨重的量产型敌人不会给我们带来威胁，反而会帮我们减小风浪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

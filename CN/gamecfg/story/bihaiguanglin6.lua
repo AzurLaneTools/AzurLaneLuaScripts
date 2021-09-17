@@ -200,7 +200,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里{namecode:62}，我已带领增援舰队抵达龙宫城入口处，请报告你们目前所处位置。",
+			say = "这里是{namecode:62}，我已带领增援舰队抵达龙宫城入口处，请报告你们目前所处位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
