@@ -5547,7 +5547,7 @@ pg.ship_skin_template_1 = {
 	},
 	[101265] = {
 		ship_group = 10126,
-		name = "ささきのぞみ",
+		name = "アストロ・ルナーデー",
 		bullet_skin_secondary = "",
 		hand_id = 5,
 		bgm = "",

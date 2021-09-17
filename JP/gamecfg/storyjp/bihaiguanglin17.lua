@@ -698,7 +698,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "たしか北方連合から帰還したあと、すぐ「再現」の戦いに参加していたそうだが……~",
+			say = "たしか北方連合から帰還したあと、すぐ「再現」の戦いに参加していたそうだが……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "そうだ。今はあのニュージャージーたちとPH基地にいるはずだ~",
+			say = "そうだ。今はあのニュージャージーたちとPH基地にいるはずだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

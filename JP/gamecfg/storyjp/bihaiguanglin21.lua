@@ -179,7 +179,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "好啦~さて、駿河に筑摩、由良、これで前に進められるわよ",
+			say = "さて、駿河に筑摩、由良、これで前に進められるわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "つまり奥の手はこれでおしまい。早く出発しないとあの島風って子たちに差をつけられるわよ？~",
+			say = "つまり奥の手はこれでおしまい。早く出発しないとあの島風って子たちに差をつけられるわよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

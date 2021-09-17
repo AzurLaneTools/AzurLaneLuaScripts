@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "説明するより直接見せたほうがいいわね~",
+			say = "説明するより直接見せたほうがいいわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "まだ足りないわ。もっと、もっとよ～~",
+			say = "まだ足りないわ。もっと、もっとよ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

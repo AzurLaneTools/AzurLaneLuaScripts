@@ -446,7 +446,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "はいはーい。今のは結果オーライよ~",
+			say = "はいはーい。今のは結果オーライよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -119,7 +119,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "確かに赤城さんと三笠大先輩たちの間に何かあったのかも知れませんけど………",
+			say = "確かに赤城さんと三笠大先輩たちの間に何かあったのかもしれませんけど………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

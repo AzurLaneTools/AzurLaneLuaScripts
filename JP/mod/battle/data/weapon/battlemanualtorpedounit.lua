@@ -15,7 +15,7 @@ function slot2.createMajorEmitter(slot0, slot1, slot2)
 
 		slot5:SetOffsetPriority(slot3)
 		slot5:SetShiftInfo(slot0, slot1)
-		slot5:SetRotateInfo(nil, uv0:GetBaseAngle() + uv0._botAutoAimAngle, slot2)
+		slot5:SetRotateInfo(nil, uv0._botAutoAimAngle, slot2)
 		uv0:DispatchBulletEvent(slot5)
 
 		return slot5
@@ -44,10 +44,10 @@ function slot2.Fire(slot0, slot1)
 			slot4 = slot0._host:GetPosition()
 			slot0._botAutoAimAngle = math.rad2Deg * math.atan2(slot3.z - slot4.z, slot3.x - slot4.x)
 		else
-			slot0._botAutoAimAngle = 0
+			slot0._botAutoAimAngle = slot0:GetBaseAngle()
 		end
 	else
-		slot0._botAutoAimAngle = 0
+		slot0._botAutoAimAngle = slot0:GetBaseAngle()
 	end
 
 	uv1.super.Fire(slot0)
