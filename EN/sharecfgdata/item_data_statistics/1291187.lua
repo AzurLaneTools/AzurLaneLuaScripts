@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59100] = {
+	display = "Increase Depot capacity by 20 slots",
+	name = "Depot Expansion",
+	rarity = 5,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59100,
+	is_world = 0,
+	icon = "props/equipment_expand",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59966] = {
+	display = "Pigment G used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment G",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 30307,
+	id = 59966,
+	is_world = 0,
+	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
+	index = {}
+}

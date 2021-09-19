@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[1502] = {
+	display = "To commemorate the day we celebrated the 1st birthday of Azur Lane EN on USS Iowa. With this badge, we wish everyone an epic voyage in life. ",
+	name = "1st Anniversary Souvenir Badge",
+	rarity = 5,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 1502,
+	is_world = 0,
+	icon = "props/Honorary2",
+	display_icon = {},
+	price = {},
+	index = {}
+}

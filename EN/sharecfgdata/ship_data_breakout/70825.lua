@@ -1,0 +1,16 @@
+_G.pg.ship_data_breakout[102253] = {
+	use_gold = 2500,
+	breakout_view = "Improve All Out Assault/Main gun efficiency +15%",
+	use_char_num = 2,
+	use_char = 10225,
+	breakout_id = 102254,
+	level = 70,
+	id = 102253,
+	icon = "10001",
+	pre_id = 102252,
+	use_item = {},
+	weapon_ids = {
+		70142
+	},
+	ultimate_bonus = {}
+}

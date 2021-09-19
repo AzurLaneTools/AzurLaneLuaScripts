@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59838] = {
+	display = "Piece 8",
+	name = "Piece 8",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 30166,
+	id = 59838,
+	is_world = 0,
+	icon = "Props/javelin",
+	display_icon = {},
+	price = {},
+	index = {}
+}

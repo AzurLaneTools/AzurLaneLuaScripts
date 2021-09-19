@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[10101] = {
+	display = "Single 138.6mm Main Gun (Mle 1929) T2 Design",
+	name = "Single 138.6mm Main Gun (Mle 1929) T2 Design",
+	rarity = 3,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 10101,
+	is_world = 0,
+	icon = "Equips/50100",
+	display_icon = {},
+	price = {},
+	index = {}
+}

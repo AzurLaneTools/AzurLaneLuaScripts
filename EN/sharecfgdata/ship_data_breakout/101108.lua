@@ -1,0 +1,17 @@
+_G.pg.ship_data_breakout[105101] = {
+	use_gold = 500,
+	breakout_view = "Main gun base +1/Main gun efficiency +5%",
+	use_char_num = 1,
+	use_char = 10510,
+	breakout_id = 105102,
+	level = 10,
+	id = 105101,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		14200,
+		14200
+	},
+	ultimate_bonus = {}
+}

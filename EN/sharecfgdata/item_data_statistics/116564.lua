@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[17990] = {
+	display = "Upgrade material used to further enhance gear of SR rarity or below.",
+	name = "Prototype Gear Upgrade Part",
+	rarity = 4,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 17990,
+	is_world = 1,
+	icon = "Props/17990",
+	display_icon = {},
+	price = {},
+	index = {}
+}

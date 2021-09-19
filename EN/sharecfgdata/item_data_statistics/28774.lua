@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[1004] = {
+	display = "May the world be peaceful and blessed this Christmas Eve.",
+	name = "Christmas Gift",
+	rarity = 4,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 1004,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
+	price = {},
+	index = {}
+}

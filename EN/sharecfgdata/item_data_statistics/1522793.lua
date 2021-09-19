@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70043] = {
+	display = "A reward obtained through the \"Looking Glass of Fact and Fiction\" event. Can be used at the Port Workbench.",
+	name = "Murasaki Shion Medal",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 30277,
+	id = 70043,
+	is_world = 0,
+	icon = "Props/hololive_zixiaoshiyin",
+	display_icon = {},
+	price = {},
+	index = {}
+}

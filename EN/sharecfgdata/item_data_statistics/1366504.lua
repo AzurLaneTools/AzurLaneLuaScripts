@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59771] = {
+	display = "Maybe something nice will happen if you collect 10 of them? ",
+	name = "Memory Card ",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 5,
+	link_id = 30077,
+	id = 59771,
+	is_world = 0,
+	icon = "props/memorycard",
+	display_icon = {},
+	price = {},
+	index = {}
+}

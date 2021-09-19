@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[13017] = {
+	display = "Twin 37mm AA Gun (Mle 1936) T0 Design",
+	name = "Twin 37mm AA Gun (Mle 1936) T0 Design",
+	rarity = 4,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13017,
+	is_world = 0,
+	icon = "Equips/50600",
+	display_icon = {},
+	price = {},
+	index = {}
+}

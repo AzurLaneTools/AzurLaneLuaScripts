@@ -1,0 +1,124 @@
+_G.pg.ship_skin_template[201238] = {
+	ship_group = 20123,
+	name = "以罗伊的赐福",
+	bullet_skin_secondary = "",
+	hand_id = 13,
+	bgm = "",
+	illustrator2 = -1,
+	bg = "",
+	id = 201238,
+	group_index = 8,
+	shop_id = 0,
+	painting = "xixuegui_h",
+	air_bomb_skin = "",
+	air_bullet_skin = "",
+	shop_type_id = 0,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	bullet_skin_main = "",
+	skin_type = 1,
+	bg_sp = "",
+	voice_actor_2 = -1,
+	air_torpedo_skin = "",
+	prefab = "xixuegui_h",
+	l2d_se = "",
+	aircraft_skin = "",
+	main_UI_FX = "",
+	special_effects = "",
+	desc = "爱上吸血鬼的人，必将遭受七倍的迷恋。毕竟，爱乃致死之毒",
+	voice_actor = 89,
+	spine_offset = "",
+	illustrator = 10,
+	rarity_bg = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.599,
+				0.621,
+				0
+			}
+		},
+		vicegun = {
+			{
+				0.599,
+				0.621,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.139,
+				0.066,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.599,
+				0.621,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			70,
+			{
+				{
+					"smoke",
+					{
+						-0.1,
+						0.8,
+						-0.13
+					}
+				}
+			}
+		},
+		{
+			30,
+			{
+				{
+					"smoke",
+					{
+						-0.8,
+						2.31,
+						-0.57
+					}
+				}
+			}
+		}
+	}
+}

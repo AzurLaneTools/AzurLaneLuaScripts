@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[17991] = {
+	display = "Upgrade material used to further enhance gear of UR rarity or below.",
+	name = "Specialized Gear Upgrade Part",
+	rarity = 5,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 17991,
+	is_world = 1,
+	icon = "Props/17991",
+	display_icon = {},
+	price = {},
+	index = {}
+}

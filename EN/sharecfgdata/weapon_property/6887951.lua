@@ -1,0 +1,62 @@
+_G.pg.weapon_property[660206] = {
+	recover_time = 0,
+	name = "【2020纳尔维克下篇SP3】第一波 Z2 7way自机狙",
+	shakescreen = 0,
+	type = 1,
+	torpedo_ammo = 0,
+	fire_fx = "CAFire",
+	action_index = "",
+	charge_param = "",
+	axis_angle = 0,
+	fire_fx_loop_type = 1,
+	attack_attribute = 4,
+	expose = 0,
+	search_type = 1,
+	effect_move = 0,
+	angle = 360,
+	reload_max = 9999,
+	queue = 1,
+	range = 999,
+	damage = 16,
+	suppress = 1,
+	auto_aftercast = 0,
+	corrected = 120,
+	min_range = 0,
+	initial_over_heat = 0,
+	spawn_bound = "cannon",
+	fire_sfx = "battle/cannon-155mm",
+	id = 660206,
+	attack_attribute_ratio = 100,
+	aim_type = 1,
+	bullet_ID = {
+		740006,
+		740007,
+		740008,
+		740009,
+		740010,
+		740011,
+		740012,
+		740013,
+		740014,
+		740015
+	},
+	barrage_ID = {
+		740016,
+		740017,
+		740018,
+		740019,
+		740020,
+		740021,
+		740022,
+		740023,
+		740024,
+		740025
+	},
+	oxy_type = {
+		1
+	},
+	search_condition = {
+		1
+	},
+	precast_param = {}
+}

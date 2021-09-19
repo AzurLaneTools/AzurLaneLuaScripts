@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[10106] = {
+	display = "Twin 203mm Main Gun (M1927) T2 Design",
+	name = "Twin 203mm Main Gun (M1927) T2 Design",
+	rarity = 3,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 10106,
+	is_world = 0,
+	icon = "Equips/55200",
+	display_icon = {},
+	price = {},
+	index = {}
+}

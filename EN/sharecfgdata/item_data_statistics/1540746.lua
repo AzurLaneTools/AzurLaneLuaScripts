@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[100000] = {
+	display = "Data that pinpoints the location of META forces. Analyze enough data to begin an META Showdown.",
+	name = "META Coordinates",
+	rarity = 3,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 14,
+	link_id = 1000000,
+	id = 100000,
+	is_world = 0,
+	icon = "Props/100000",
+	display_icon = {},
+	price = {},
+	index = {}
+}

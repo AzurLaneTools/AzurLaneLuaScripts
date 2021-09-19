@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[58] = {
+	display = "Quadruple 330mm Main Gun (Mle 1931) T2 Design",
+	name = "Quadruple 330mm Main Gun (Mle 1931) T2 Design",
+	rarity = 2,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58,
+	is_world = 0,
+	icon = "Equips/50300",
+	display_icon = {},
+	price = {},
+	index = {}
+}

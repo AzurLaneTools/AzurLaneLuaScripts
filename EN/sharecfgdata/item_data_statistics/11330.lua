@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[35] = {
+	display = "T2 Triple 283mm Main Gun (SK C/34) Design",
+	name = "T2 Triple 283mm Main Gun (SK C/34) Design",
+	rarity = 2,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 35,
+	is_world = 0,
+	icon = "Equips/44000",
+	display_icon = {},
+	price = {},
+	index = {}
+}

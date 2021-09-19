@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59180] = {
+	display = "Used to exchange for the \"Illusory Butterfly\" portrait frame. Will be removed after the event ends. ",
+	name = "Training Pt",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59180,
+	is_world = 0,
+	icon = "Props/xunliandianshu_s",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59613] = {
+	display = "One of Mikasa's scale models. This one is of the aircraft carrier Shoukaku.",
+	name = "Shoukaku Ship Model",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 30240,
+	id = 59613,
+	is_world = 0,
+	icon = "Props/jiujiu",
+	display_icon = {},
+	price = {},
+	index = {}
+}

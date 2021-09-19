@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59615] = {
+	display = "A ballot for the 2019 Azur Lane Popularity Poll. Will disappear after every step of the vote (Qualifiers, Groups, each Group vote, Finals Comeback, and Finals) has concluded. ",
+	name = "Ballot ",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 6,
+	link_id = 30094,
+	id = 59615,
+	is_world = 0,
+	icon = "Props/jiujiu",
+	display_icon = {},
+	price = {},
+	index = {}
+}

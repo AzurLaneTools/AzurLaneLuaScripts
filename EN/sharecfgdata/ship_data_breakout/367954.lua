@@ -1,0 +1,17 @@
+_G.pg.ship_data_breakout[307011] = {
+	use_gold = 1000,
+	breakout_view = "All Torpedo Bombers +1/Aircraft efficiency +3%",
+	use_char_num = 1,
+	use_char = 30701,
+	breakout_id = 307012,
+	level = 10,
+	id = 307011,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		60131,
+		54014
+	},
+	ultimate_bonus = {}
+}

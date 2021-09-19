@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59235] = {
+	display = "Exchange currency used in the \"Upon the Shimmering Blue\" event. Will disappear after the event period ends. ",
+	name = "Deepwrought Treasure",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59235,
+	is_world = 0,
+	icon = "Props/rixiv2_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

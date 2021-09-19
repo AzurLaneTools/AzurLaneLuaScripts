@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59109] = {
+	display = "Used in the \"Ink-Stained Steel Sakura\" Event Exchange. Will disappear after the exchange period ends. ",
+	name = "Sakura Amulet ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59109,
+	is_world = 0,
+	icon = "Props/omamori",
+	display_icon = {},
+	price = {},
+	index = {}
+}

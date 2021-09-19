@@ -1,0 +1,40 @@
+_G.pg.enemy_data_statistics[11800461] = {
+	cannon = 175,
+	reload = 150,
+	speed_growth = 0,
+	cannon_growth = 0,
+	rarity = 4,
+	air = 0,
+	torpedo = 340,
+	dodge = 22,
+	durability_growth = 0,
+	antiaircraft = 285,
+	luck = 20,
+	reload_growth = 0,
+	dodge_growth = 312,
+	hit_growth = 210,
+	star = 4,
+	hit = 28,
+	antisub_growth = 0,
+	air_growth = 0,
+	battle_unit_type = 95,
+	base = 273,
+	durability = 78000,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	luck_growth = 0,
+	speed = 18,
+	armor = 0,
+	id = 11800461,
+	antiaircraft_growth = 0,
+	antisub = 0,
+	appear_fx = {
+		"bossguangxiao",
+		"appearQ"
+	},
+	equipment_list = {
+		606090,
+		606091,
+		606092
+	}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[17011] = {
+	display = "Use this part to improve main guns",
+	name = "T1 Main Gun Part",
+	rarity = 1,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 17011,
+	is_world = 1,
+	icon = "Props/17011",
+	display_icon = {},
+	price = {},
+	index = {}
+}

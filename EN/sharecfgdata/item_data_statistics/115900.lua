@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[17043] = {
+	display = "Use this part to improve aircrafts",
+	name = "T3 Aircraft Part",
+	rarity = 3,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 17043,
+	is_world = 1,
+	icon = "Props/17043",
+	display_icon = {},
+	price = {},
+	index = {}
+}

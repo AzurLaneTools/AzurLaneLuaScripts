@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59988] = {
+	display = "Paint G, used in the Coloring Book event. Will be removed after the event ends",
+	name = "Pigment G",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 30761,
+	id = 59988,
+	is_world = 0,
+	icon = "props/shabaidraw_g",
+	display_icon = {},
+	price = {},
+	index = {}
+}

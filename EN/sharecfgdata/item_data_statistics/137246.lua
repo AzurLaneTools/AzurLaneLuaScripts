@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[21003] = {
+	display = "An item that increases the potential of Helena META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Helena",
+	rarity = 4,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21003,
+	is_world = 0,
+	icon = "Props/21003",
+	display_icon = {},
+	price = {},
+	index = {}
+}

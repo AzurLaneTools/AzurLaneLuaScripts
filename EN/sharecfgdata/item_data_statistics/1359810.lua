@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59754] = {
+	display = "A thank-you gift from Fubuki: \"Merry X-Mas! Next time, give a shout to Ayanami and Akatsuki too, okay? Thanks!\"",
+	name = "Gift from Fubuki ",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59754,
+	is_world = 0,
+	icon = "Props/shengye",
+	display_icon = {},
+	price = {},
+	index = {}
+}

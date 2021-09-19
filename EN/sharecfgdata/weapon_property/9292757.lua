@@ -1,0 +1,62 @@
+_G.pg.weapon_property[2004500] = {
+	recover_time = 0.5,
+	name = "【大世界】深渊BOSS执棋者III型储备_六角捕获",
+	shakescreen = 0,
+	type = 1,
+	torpedo_ammo = 0,
+	fire_fx = "CLFire",
+	action_index = "attack",
+	charge_param = "",
+	axis_angle = 0,
+	fire_fx_loop_type = 1,
+	attack_attribute = 1,
+	expose = 0,
+	search_type = 1,
+	effect_move = 0,
+	angle = 360,
+	reload_max = 2600,
+	queue = 6,
+	range = 120,
+	damage = 24,
+	suppress = 1,
+	auto_aftercast = 0,
+	corrected = 125,
+	min_range = 0,
+	initial_over_heat = 0,
+	spawn_bound = "cannon",
+	fire_sfx = "battle/cannon-155mm",
+	id = 2004500,
+	attack_attribute_ratio = 100,
+	aim_type = 0,
+	bullet_ID = {
+		20045000,
+		20045001,
+		20045002,
+		20045003,
+		20045004,
+		20045005,
+		20045006,
+		20045007,
+		20045008,
+		20045009
+	},
+	barrage_ID = {
+		20045000,
+		20045001,
+		20045002,
+		20045003,
+		20045004,
+		20045005,
+		20045006,
+		20045007,
+		20045008,
+		20045009
+	},
+	oxy_type = {
+		1
+	},
+	search_condition = {
+		1
+	},
+	precast_param = {}
+}

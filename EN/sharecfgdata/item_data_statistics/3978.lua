@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[13] = {
+	display = "T3 20mm AA Oerlikon Design",
+	name = "T3 20mm AA Oerlikon Design",
+	rarity = 2,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13,
+	is_world = 0,
+	icon = "Equips/16000",
+	display_icon = {},
+	price = {},
+	index = {}
+}

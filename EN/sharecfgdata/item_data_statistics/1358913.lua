@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59752] = {
+	display = "A thank-you gift from Ning Hai: \"Merry Christmas. Look, it's not much, but it's the thought that counts. We can't afford anything pricey.\"",
+	name = "Gift from Ning Hai ",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59752,
+	is_world = 0,
+	icon = "Props/shengye",
+	display_icon = {},
+	price = {},
+	index = {}
+}

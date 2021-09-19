@@ -1,0 +1,32 @@
+_G.pg.equip_data_template[45442] = {
+	next = 45443,
+	destory_gold = 55,
+	trans_use_gold = 150,
+	base = 45440,
+	id = 45442,
+	prev = 45441,
+	restore_gold = 120,
+	level = 3,
+	trans_use_item = {
+		{
+			17021,
+			8
+		}
+	},
+	destory_item = {
+		{
+			17021,
+			2
+		},
+		{
+			17023,
+			1
+		}
+	},
+	restore_item = {
+		{
+			17021,
+			7
+		}
+	}
+}

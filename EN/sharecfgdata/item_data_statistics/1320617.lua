@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59187] = {
+	display = "Obtained by playing the minigame in \"Universe in Unison.\" Collect 7 to exchange for Le Malin µ. ",
+	name = "Performance Note ",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59187,
+	is_world = 0,
+	icon = "props/music_stage1",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[52004] = {
+	display = "Used to get a random gear design. ",
+	name = "Random Gear Design T2",
+	rarity = 3,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 52004,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {},
+	price = {},
+	index = {}
+}

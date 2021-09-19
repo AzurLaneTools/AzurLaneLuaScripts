@@ -1,0 +1,16 @@
+_G.pg.weapon_property[64100] = {
+	id = 64100,
+	name = "西南风技能鱼雷弹幕LV10",
+	damage = 40,
+	base = 64091,
+	bullet_ID = {
+		19287,
+		19287,
+		19287
+	},
+	barrage_ID = {
+		81070,
+		81071,
+		81072
+	}
+}

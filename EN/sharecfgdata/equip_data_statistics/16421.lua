@@ -1,0 +1,31 @@
+_G.pg.equip_data_statistics[141] = {
+	type = 10,
+	name = "Default Depth Charge (Destroyer) ",
+	speciality = "Anti\nsubmarine",
+	tech = 1,
+	rarity = 1,
+	ammo = 5,
+	nationality = 0,
+	value_2 = 0,
+	id = 141,
+	value_3 = 0,
+	descrip = "Default gear",
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		141
+	},
+	skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"UN",
+		"ST",
+		"DC"
+	}
+}

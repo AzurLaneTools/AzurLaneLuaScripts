@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70061] = {
+	display = "Used to unlock Roon's Photo.",
+	name = "Roon Photo",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 30751,
+	id = 70061,
+	is_world = 0,
+	icon = "Props/music_pomie",
+	display_icon = {},
+	price = {},
+	index = {}
+}

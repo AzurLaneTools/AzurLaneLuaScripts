@@ -1,0 +1,3 @@
+_G.pg.gametip.word_sr = {
+	tip = "Elite"
+}

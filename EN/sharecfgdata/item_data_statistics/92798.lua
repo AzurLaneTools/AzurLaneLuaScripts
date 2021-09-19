@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[13014] = {
+	display = "Prototype Triple 152mm Main Gun (DP MK17) T0 Design",
+	name = "Prototype Triple 152mm Main Gun (DP MK17) T0 Design",
+	rarity = 4,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13014,
+	is_world = 0,
+	icon = "Equips/12200",
+	display_icon = {},
+	price = {},
+	index = {}
+}

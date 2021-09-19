@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59220] = {
+	display = "By participating in Manjuu Misadventures, you can obtain certificates. After obtaining 7 manjuu certificates, you can exchange it for an \"Early Summer Invitation 2021\". ",
+	name = "Manjuu Certificate ",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59220,
+	is_world = 0,
+	icon = "props/yaoqinghan",
+	display_icon = {},
+	price = {},
+	index = {}
+}

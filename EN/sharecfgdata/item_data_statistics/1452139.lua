@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[60135] = {
+	display = "A card from Taihou. It reads: \"Commander, would you like to hear Taihou's song~?\"",
+	name = "Spring Festival Tidings (Taihou)",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 0,
+	id = 60135,
+	is_world = 0,
+	icon = "Props/henianka",
+	price = "",
+	display_icon = {},
+	index = {}
+}

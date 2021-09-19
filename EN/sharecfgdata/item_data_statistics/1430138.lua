@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[60072] = {
+	display = "A letter from Enterprise. It reads: \"Been a whole year, huh? Happy second anniversary, Commander.\"",
+	name = "Enterprise's Letter",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60072,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	display_icon = {},
+	price = {},
+	index = {}
+}

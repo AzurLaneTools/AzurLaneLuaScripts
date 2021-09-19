@@ -1,0 +1,53 @@
+_G.pg.ship_skin_words[103250] = {
+	feeling1 = "A control freak like you isn't fit to instruct us. Loosen up a bit, then try again.",
+	feeling3 = "How do I look, Commander? This outfit's more revealing than what I'm used to... D-does it really make me look cuter?",
+	lose = "Looks like we need to rehearse it from the top...",
+	propose = "This I promise you, Commander: we'll all work together to bring you the best performance ever! In return I ask for one thing: that you witness it, and witness me, at my cutest.",
+	expedition = "Commission complete! What do you say we welcome them back with a small performance?",
+	win_mvp = "Picking me was the right choice, am I right? I'm never gonna let you down.",
+	home = "Oh, you're back. Hope everyone else made it safe and sound too. An idol needs an audience, after all.",
+	mission = "Mission time, eh... You're really not in an enviable position, having to keep doing those while we work as idols.",
+	touch2 = "Eep! What was that for?!",
+	voice_key_2 = -1,
+	skill = "Far and near! Hear our song loud and clear!",
+	drop_descrip = "The name's Baltimore, Eagle Union heavy cruiser. Whoops, right, I'm not just a soldier anymore, but an idol as well. I agreed to do it, and I'm gonna do it as best I can. We'll be counting on your support, Commander. ",
+	mail = "Thanks, Dido, I really appreciate it. Got a letter for you here, Commander.",
+	touch = "How's this for a signature pose? Good?",
+	profile = "Heavy cruiser Baltimore, currently serving as an idol to test the Muse System. I'm giving it my all to put on the best performance you'll ever see.",
+	mission_complete = "Got some mission rewards here. Oh, and I got rid of that trap Albacore set.",
+	feeling4 = "\"Thanks for supporting me!\" ...Yeah, Bremerton's right, my delivery is just a bit off... Hey, Commander, do I fit in with the other members? Am I really... cute?",
+	unlock = "The name's Baltimore, Eagle Union heavy cruiser. Whoops, right, I'm not just a soldier anymore, but an idol as well. I agreed to do it, and I'm gonna do it as best I can. We'll be counting on your support, Commander. ",
+	feeling5 = "You think I am cute? Especially when my eyes are on you? A-alright then... Now I know not to give up! This might be selfish to ask, but do you think we could do some special training together, so I can truly shine on stage?",
+	main = "There's tons of idol business to tend to, so I've not had much time to help people. Think you pick up the mantle for a while, Commander? Thanks, you're a hero! Hahahah!|These moves might be too hard for the Royal Navy girls... What do you think, Commander?|Th-this whole \"cute\" thing isn't exactly my thing... N-not that I hate it, and YOU seem to like it, I guess... Ughh...",
+	battle = "Just an idol, passing by... Nah, that just sounds off. Anyway, let's do this!",
+	upgrade = "Thanks a bunch. Guess I should say: look forward to our next performance!",
+	voice_key = 10325,
+	headtouch = "",
+	feeling2 = "Your job is to plan our schedule, and our job is to follow it. So business as usual, I guess, huh? Hahahah!",
+	login = "What's on our schedule today, Commander? Same as always, I'm counting on you.",
+	vote = "",
+	hp_warning = "A small screwup isn't gonna stop me!",
+	id = 103250,
+	detail = "A spin there... backstep there! Whew... Yeah, I'm just working out the choreography for our new single. Gotta come up with something everyone in the troop can dance, not just me.",
+	couple_encourage = {
+		{
+			{
+				30711,
+				70105,
+				20228,
+				10805,
+				40308,
+				20711,
+				90112,
+				90503,
+				30710,
+				10224,
+				40307,
+				20225
+			},
+			1,
+			"Together now! In formation, on standby!",
+			0
+		}
+	}
+}

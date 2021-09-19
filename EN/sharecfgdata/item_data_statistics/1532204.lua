@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70073] = {
+	display = "Nagisa's favorite food: souffle pancake. Unlocks information about this character.",
+	name = "Favorite Food (Nagisa)",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 30774,
+	id = 70073,
+	is_world = 0,
+	icon = "Props/doa_collect",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,55 @@
+_G.pg.item_data_statistics[40908] = {
+	display = "Shougatsu Lucky Bag(2020) contains 1 x random Ship skin, 2020 x Gems, 50 x Cognitive Chips, 2 x Special General Blueprint - Series 2, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
+	name = "Shougatsu Lucky Bag (2020) ",
+	rarity = 4,
+	type = 17,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40908,
+	is_world = 0,
+	icon = "Props/fudai1",
+	display_icon = {
+		{
+			2,
+			69908,
+			1
+		},
+		{
+			1,
+			4,
+			2020
+		},
+		{
+			2,
+			42017,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {}
+}

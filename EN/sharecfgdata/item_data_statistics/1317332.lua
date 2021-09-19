@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59179] = {
+	display = "Used in the Manjuu Chronicles event. Will disappear after the event period ends. ",
+	name = "Exploration Points ",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 15,
+	link_id = 30712,
+	id = 59179,
+	is_world = 0,
+	icon = "Props/lixian",
+	display_icon = {},
+	price = {},
+	index = {}
+}

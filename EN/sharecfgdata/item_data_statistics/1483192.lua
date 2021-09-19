@@ -1,0 +1,40 @@
+_G.pg.item_data_statistics[69913] = {
+	display = [[
+This pack contains one of the random outfits listed below (duplicate outfits will be converted into a corresponding sum of Gems)
+The available outfits and their rarities are as follows:
+(<color=#92fc63>6.5%</color>) Cheshire - Cait Sith Crooner (Live2D);
+(<color=#92fc63>6.5%</color>) Bremerton - Kung Fu Cruiser (Live2D);
+(<color=#92fc63>6.0%</color>) La Galissonnière - Lush Spring Dreams (Live2D);
+(<color=#92fc63>6.0%</color>) Glorious - Pungent Plum (Live2D);
+(<color=#92fc63>5.4%</color>) Z46 – Jianzhi Fantasia;
+(<color=#92fc63>5.4%</color>) Essex - Brush and Ink;
+(<color=#92fc63>5.4%</color>) Saint Louis - Alluring Administrator;
+(<color=#92fc63>5.4%</color>) Victorious - Guidance of the Spring Goddess;
+(<color=#92fc63>5.4%</color>) Noshiro - Fragrance of the Eastern Snow;
+(<color=#92fc63>4.8%</color>) Birmingham - Fruitful Snow of an Auspicious Year;
+(<color=#92fc63>4.8%</color>) Saratoga - Spring's Opening Act!;
+(<color=#92fc63>4.8%</color>) Queen Elizabeth - Crown Jewel of the Royal Navy;
+(<color=#92fc63>4.8%</color>) Glowworm - Jokey Adjudicator;
+(<color=#92fc63>4.8%</color>) Kirishima - Graceful Ink Incense;
+(<color=#92fc63>4.8%</color>) I-25 - Sweet Wine of Celebration;
+(<color=#92fc63>4.8%</color>) Ooshio - Bringer of Fortunes;
+(<color=#92fc63>4.8%</color>) Chao Ho - Plum Blossom's Illumination;
+(<color=#92fc63>4.8%</color>) Penelope - Ruby-Red Boudoir;
+(<color=#92fc63>4.8%</color>) U-410 - Spring Festival Scheme]],
+	name = "Random Skin",
+	rarity = 4,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 69913,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[60127] = {
+	display = "Pigment H used during Anshan's Diary event. Disappears after event has ended.",
+	name = "Pigment H",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 860,
+	id = 60127,
+	is_world = 0,
+	icon = "props/draw_h",
+	display_icon = {},
+	price = {},
+	index = {}
+}

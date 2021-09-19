@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59237] = {
+	display = "Material used to upgrade buildings in the Floating Funland. Will disappear after the event period ends.",
+	name = "Floating Funland Building Material",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 12,
+	link_id = 4113,
+	id = 59237,
+	is_world = 0,
+	icon = "Props/houshancailiao4",
+	display_icon = {},
+	price = {},
+	index = {}
+}
