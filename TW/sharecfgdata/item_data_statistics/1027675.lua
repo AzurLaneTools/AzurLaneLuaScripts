@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59968] = {
+	display = "參與『戰鬥！皇家女僕隊2nd』EX關的必要道具，也可以用來增加普通關額外獎勵次數",
+	name = "特別挑戰券",
+	rarity = 4,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59968,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {}
+}

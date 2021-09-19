@@ -1,0 +1,106 @@
+_G.pg.ship_skin_template[10100071] = {
+	ship_group = 1010007,
+	name = "女神的羞怯",
+	bullet_skin_secondary = "",
+	hand_id = 13,
+	bgm = "",
+	illustrator2 = -1,
+	bg = "203",
+	id = 10100071,
+	group_index = 1,
+	shop_id = 70040,
+	painting = "HDN302_2",
+	air_bomb_skin = "",
+	air_bullet_skin = "",
+	shop_type_id = 0,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	bullet_skin_main = "",
+	skin_type = 4,
+	bg_sp = "",
+	voice_actor_2 = -1,
+	air_torpedo_skin = "",
+	prefab = "HDN302_2",
+	l2d_se = "",
+	aircraft_skin = "",
+	main_UI_FX = "",
+	special_effects = "",
+	desc = "你、你这家伙在看什么呢！反正一定觉得像个小孩子吧！？额……？很合适……？指挥官说这种话…害我都不知道该怎么反应了不是嘛……",
+	voice_actor = 81,
+	spine_offset = "",
+	illustrator = 1,
+	rarity_bg = "nepwhite",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.72,
+				1.42,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.12,
+				0.08,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.66,
+				1.2,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.52,
+						2.3,
+						0
+					}
+				}
+			}
+		}
+	}
+}

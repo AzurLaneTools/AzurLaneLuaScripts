@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59213] = {
+	display = "用於『啾啾冰棒屋』活動，活動結束後將會消失。 ",
+	name = "啾啾冰棒材料",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59213,
+	is_world = 0,
+	icon = "Props/xiongxiaobai_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

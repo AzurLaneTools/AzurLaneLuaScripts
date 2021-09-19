@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[20010] = {
+	display = "可以立刻完成20分鐘喵箱訓練時間的加速工具。",
+	name = "喵箱訓練加速工具",
+	rarity = 3,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 20010,
+	is_world = 0,
+	icon = "Props/20010",
+	display_icon = {},
+	price = {},
+	index = {}
+}

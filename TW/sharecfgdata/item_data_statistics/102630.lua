@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[17003] = {
+	display = "一般的部件，很多地方都能用到，主要用於設備的改造",
+	name = "通用部件T3",
+	rarity = 3,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 17003,
+	is_world = 1,
+	icon = "Props/17003",
+	display_icon = {},
+	price = {},
+	index = {}
+}

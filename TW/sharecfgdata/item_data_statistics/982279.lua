@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59709] = {
+	display = "小天鵝造型任務道具",
+	name = "小天鵝造型任務道具",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 10053,
+	id = 59709,
+	is_world = 0,
+	icon = "props/hudiejie",
+	display_icon = {},
+	price = {},
+	index = {}
+}

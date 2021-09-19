@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59967] = {
+	display = "參與『戰鬥！皇家女僕隊2nd』獲得的點數，累計一定程度可以領取報酬",
+	name = "貢獻值",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59967,
+	is_world = 0,
+	icon = "Props/nvpu2_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

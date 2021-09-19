@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59715] = {
+	display = "顏料C，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料C",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 45002,
+	id = 59715,
+	is_world = 0,
+	icon = "props/draw_c",
+	display_icon = {},
+	price = {},
+	index = {}
+}

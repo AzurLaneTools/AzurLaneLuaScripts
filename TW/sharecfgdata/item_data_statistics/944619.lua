@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59113] = {
+	display = "用於『啾啾總動員』累計兌換活動，活動結束後將會消失",
+	name = "啾啾",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59113,
+	is_world = 0,
+	icon = "Props/jiujiu",
+	display_icon = {},
+	price = {},
+	index = {}
+}

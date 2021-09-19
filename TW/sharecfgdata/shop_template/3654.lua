@@ -1,0 +1,27 @@
+_G.pg.shop_template[11] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "shop_street_upgrade",
+	type = 0,
+	desc = "刷新商業街",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	time = "always",
+	effect_args = "shop_street_flash",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 11,
+	resource_num = 100,
+	discount_time = {},
+	limit_args = {
+		"count",
+		4,
+		9
+	}
+}

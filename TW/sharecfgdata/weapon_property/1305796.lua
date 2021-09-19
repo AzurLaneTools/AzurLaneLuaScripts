@@ -1,0 +1,14 @@
+_G.pg.weapon_property[65669] = {
+	id = 65669,
+	name = "神速技能弹幕LV9",
+	damage = 34,
+	base = 65661,
+	bullet_ID = {
+		19262,
+		19262
+	},
+	barrage_ID = {
+		81023,
+		81024
+	}
+}

@@ -1,0 +1,44 @@
+_G.pg.weapon_property[201005] = {
+	recover_time = 0,
+	name = "【大舰队达古康纳尔BOSS】执棋者 轰炸机武器",
+	shakescreen = 0,
+	type = 2,
+	torpedo_ammo = 0,
+	fire_fx = "",
+	action_index = "",
+	charge_param = "",
+	axis_angle = 0,
+	fire_fx_loop_type = 1,
+	attack_attribute = 4,
+	expose = 0,
+	search_type = 1,
+	effect_move = 1,
+	angle = 180,
+	reload_max = 400,
+	queue = 1,
+	range = 10,
+	damage = 45,
+	suppress = 0,
+	auto_aftercast = 0,
+	corrected = 100,
+	min_range = 0,
+	initial_over_heat = 0,
+	spawn_bound = "cannon",
+	fire_sfx = "",
+	id = 201005,
+	attack_attribute_ratio = 100,
+	aim_type = 0,
+	bullet_ID = {
+		501001
+	},
+	barrage_ID = {
+		501016
+	},
+	oxy_type = {
+		1
+	},
+	search_condition = {
+		1
+	},
+	precast_param = {}
+}

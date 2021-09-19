@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59008] = {
+	display = "由指揮部派發的新型貨幣，象征著指揮官曾經做出的貢獻，不管在哪個大艦隊都可以使用",
+	name = "艦隊幣",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59008,
+	is_world = 0,
+	icon = "Props/guildIcon",
+	display_icon = {},
+	price = {},
+	index = {}
+}

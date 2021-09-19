@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59953] = {
+	display = "由蒙彼利埃處收到的，新年年賀狀",
+	name = "蒙彼利埃的年賀狀",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59953,
+	is_world = 0,
+	icon = "Props/nianhezhuang",
+	display_icon = {},
+	price = {},
+	index = {}
+}

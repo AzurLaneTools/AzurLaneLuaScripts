@@ -1,0 +1,25 @@
+_G.pg.shop_template[50004] = {
+	is_auto_use = 0,
+	resource_type = 2,
+	genre = "",
+	type = 2,
+	desc = "10石油購買1個酸素可樂",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 50004,
+	resource_num = 10,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		50001
+	}
+}

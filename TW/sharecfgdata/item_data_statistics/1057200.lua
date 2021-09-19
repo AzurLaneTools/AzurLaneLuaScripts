@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[69911] = {
+	display = "收集7枚後，可以得到限定設備《約定的證明》",
+	name = "U-556的勳章",
+	rarity = 4,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 69911,
+	is_world = 0,
+	icon = "Props/u556xunzhang",
+	display_icon = {},
+	price = {},
+	index = {}
+}

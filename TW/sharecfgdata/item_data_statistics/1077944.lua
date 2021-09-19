@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70072] = {
+	display = "海咲喜歡的飲品：珍珠奶茶。可用於解鎖海咲的喜好資訊。",
+	name = "喜好飲品(海咲)",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 40228,
+	id = 70072,
+	is_world = 0,
+	icon = "Props/doa_collect",
+	display_icon = {},
+	price = {},
+	index = {}
+}

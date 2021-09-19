@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59784] = {
+	display = "收集7次後，可以得到限定角色「謝菲爾德(μ兵裝)」",
+	name = "演奏力",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59784,
+	is_world = 0,
+	icon = "props/music_stage",
+	display_icon = {},
+	price = {},
+	index = {}
+}

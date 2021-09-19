@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59165] = {
+	display = "用於『穹頂下的聖詠曲』活動兌換，活動結束後將會消失",
+	name = "鳶尾之印",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59165,
+	is_world = 0,
+	icon = "Props/faxiv2_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

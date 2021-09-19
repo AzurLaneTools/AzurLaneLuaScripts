@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70083] = {
+	display = "活動「響徹碧海的偶像歌」的收集道具。集齊14個資料，可獲得紀念傢俱",
+	name = "資料收集①(水瀨伊織)",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 40393,
+	id = 70083,
+	is_world = 0,
+	icon = "Props/idolphotos",
+	display_icon = {},
+	price = {},
+	index = {}
+}

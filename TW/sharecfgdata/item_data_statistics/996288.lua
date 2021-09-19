@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59749] = {
+	display = "「我是No.1！」——用於完成聖地牙哥近代化改造",
+	name = "閃耀的麥克風",
+	rarity = 4,
+	type = 7,
+	drop_oil_max = 0,
+	shiptrans_id = 102174,
+	shop_id = -1,
+	replace_item = 59773,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59749,
+	is_world = 0,
+	icon = "Props/shanyaomaikefeng",
+	display_icon = {},
+	price = {},
+	index = {}
+}

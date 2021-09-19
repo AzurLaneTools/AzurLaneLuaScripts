@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59821] = {
+	display = "用於參加投票大戰的投票次數，每日0點次數歸零",
+	name = "投票次數",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 2,
+	link_id = 1001,
+	id = 59821,
+	is_world = 0,
+	icon = "Props/voteT1",
+	display_icon = {},
+	price = {},
+	index = {}
+}

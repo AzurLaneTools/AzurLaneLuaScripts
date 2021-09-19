@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[41303] = {
+	display = "羅德尼贈送的情人節禮物",
+	name = "情人節禮物",
+	rarity = 8,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 40051,
+	id = 41303,
+	is_world = 0,
+	icon = "SquareIcon/luodeni",
+	display_icon = {},
+	price = {},
+	index = {}
+}

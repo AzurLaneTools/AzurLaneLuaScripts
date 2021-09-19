@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59222] = {
+	display = "幫山城收集的度假海灘的空氣。用於『假日攻勢！復刻』活動兌換，活動結束後將會消失。",
+	name = "空氣瓶",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59222,
+	is_world = 0,
+	icon = "Props/TWkaifuPT",
+	display_icon = {},
+	price = {},
+	index = {}
+}

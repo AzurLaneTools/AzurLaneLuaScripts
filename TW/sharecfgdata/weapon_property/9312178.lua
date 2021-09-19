@@ -1,0 +1,72 @@
+_G.pg.weapon_property[2024818] = {
+	recover_time = 0,
+	name = "【大世界】铁血战列精英专属_前排多次跨射（提尔比茨）",
+	shakescreen = 0,
+	type = 19,
+	torpedo_ammo = 0,
+	fire_fx = "CAFire",
+	action_index = "attack",
+	charge_param = "",
+	axis_angle = 0,
+	fire_fx_loop_type = 1,
+	attack_attribute = 1,
+	expose = 0,
+	search_type = 1,
+	effect_move = 0,
+	angle = 360,
+	reload_max = 1850,
+	queue = 1,
+	range = 600,
+	damage = 24,
+	suppress = 1,
+	auto_aftercast = 0,
+	corrected = 100,
+	min_range = 100,
+	initial_over_heat = 0,
+	spawn_bound = "cannon",
+	fire_sfx = "battle/cannon-main",
+	id = 2024818,
+	attack_attribute_ratio = 100,
+	aim_type = 1,
+	bullet_ID = {
+		20248180,
+		20248181,
+		20248182,
+		20248183,
+		20248184,
+		20248185,
+		20248186,
+		20248187,
+		20248188,
+		20248189,
+		20248190,
+		20248191,
+		20248192
+	},
+	barrage_ID = {
+		20248150,
+		20248150,
+		20248150,
+		20248150,
+		20248150,
+		20248150,
+		20248150,
+		20248150,
+		20248150,
+		20248150,
+		20248150,
+		20248150,
+		20248150
+	},
+	oxy_type = {
+		1
+	},
+	search_condition = {
+		1
+	},
+	precast_param = {
+		fx = "jinengenemy",
+		alertTime = 1.5,
+		time = 1
+	}
+}

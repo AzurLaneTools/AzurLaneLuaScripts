@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[16021] = {
+	display = "艦艇輔助教材T1，用於訓練角色輔助技能可以獲得額外的經驗\n*可消耗<color=#ffde38>6</color>個合成<color=#ffde38>1</color>個<color=#d797ff>艦艇輔助教材T2</color>",
+	name = "艦艇輔助教材T1",
+	rarity = 2,
+	type = 10,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 16021,
+	is_world = 0,
+	icon = "Props/16021",
+	display_icon = {},
+	price = {},
+	index = {}
+}

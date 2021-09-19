@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59102] = {
+	display = "用於Bili週年慶活動兌換，活動結束後將會消失",
+	name = "Bili電池",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59102,
+	is_world = 0,
+	icon = "Props/battery",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[18021] = {
+	display = "用於改造戰列艦的圖紙\n*可消耗<color=#fad545>6</color>個合成<color=#fad545>1</color>個<color=#966af6>戰列改造圖紙T2</color>",
+	name = "戰列改造圖紙T1",
+	rarity = 2,
+	type = 7,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 18021,
+	is_world = 0,
+	icon = "Props/18021",
+	display_icon = {},
+	price = {},
+	index = {}
+}

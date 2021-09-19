@@ -1,0 +1,83 @@
+_G.pg.enemy_data_statistics[14100302] = {
+	cannon = 95,
+	hit_growth = 210,
+	rarity = 2,
+	speed_growth = 0,
+	pilot_ai_template_id = 20004,
+	air = 0,
+	luck = 5,
+	dodge = 11,
+	id = 14100302,
+	cannon_growth = 0,
+	speed = 18,
+	reload_growth = 0,
+	dodge_growth = 132,
+	icon = "miaogaodc",
+	star = 3,
+	hit = 14,
+	antisub_growth = 0,
+	air_growth = 0,
+	reload = 150,
+	base = 113,
+	durability = 5400,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	luck_growth = 0,
+	antiaircraft_growth = 0,
+	armor = 0,
+	torpedo = 50,
+	durability_growth = 0,
+	antisub = 0,
+	antiaircraft = 115,
+	scale = 240,
+	battle_unit_type = 95,
+	smoke = {
+		{
+			70,
+			{
+				{
+					"smoke",
+					{
+						-1.35,
+						1.17,
+						0.51
+					}
+				}
+			}
+		},
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						1.39,
+						1.41,
+						0.54
+					}
+				}
+			}
+		},
+		{
+			40,
+			{
+				{
+					"smoke",
+					{
+						0.02,
+						1.82,
+						0.76
+					}
+				}
+			}
+		}
+	},
+	appear_fx = {
+		"appearsmall"
+	},
+	equipment_list = {
+		710021,
+		710022,
+		710024
+	}
+}

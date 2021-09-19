@@ -1,0 +1,41 @@
+_G.pg.weapon_property[783010] = {
+	initial_over_heat = 0,
+	name = "【2021意大利活动D1】BOSS 光辉 穿透弹幕",
+	type = 1,
+	fire_fx = "",
+	recover_time = 0,
+	reload_max = 9999,
+	queue = 4,
+	effect_move = 0,
+	range = 90,
+	damage = 16,
+	base = 1000,
+	corrected = 100,
+	suppress = 1,
+	spawn_bound = "cannon",
+	fire_sfx = "battle/cannon-main",
+	id = 783010,
+	aim_type = 1,
+	bullet_ID = {
+		300115,
+		300116,
+		300117,
+		300115,
+		300116,
+		300117,
+		300115,
+		300116,
+		300117
+	},
+	barrage_ID = {
+		740007,
+		740008,
+		740009,
+		740010,
+		740011,
+		740012,
+		740013,
+		740014,
+		740015
+	}
+}

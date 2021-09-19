@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59626] = {
+	display = "（曾經）陳列在三笠前輩博物館中的船模零件，用於修復船模，活動結束後將會消失",
+	name = "零件",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 40197,
+	id = 59626,
+	is_world = 0,
+	icon = "Props/gear",
+	display_icon = {},
+	price = {},
+	index = {}
+}

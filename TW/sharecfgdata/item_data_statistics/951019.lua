@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59136] = {
+	display = "『Azurlane人氣投票2020』活動累計獲得投票，每輪投票結束時次數歸零",
+	name = "應援棒 ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59136,
+	is_world = 0,
+	icon = "Props/vote_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

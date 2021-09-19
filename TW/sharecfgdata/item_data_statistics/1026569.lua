@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59965] = {
+	display = "颜料F，用於绘图日记活动，活动结束后将会消失",
+	name = "颜料F",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 471,
+	id = 59965,
+	is_world = 0,
+	icon = "props/draw_f",
+	display_icon = {},
+	price = {},
+	index = {}
+}
