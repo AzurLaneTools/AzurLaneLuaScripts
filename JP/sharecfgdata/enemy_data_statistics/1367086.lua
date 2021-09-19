@@ -1,0 +1,40 @@
+_G.pg.enemy_data_statistics[10044008] = {
+	cannon = 10,
+	name = "量産型センダイ級",
+	antiaircraft_growth = 2250,
+	speed_growth = 0,
+	pilot_ai_template_id = 20005,
+	air = 0,
+	speed = 15,
+	dodge = 0,
+	id = 10044008,
+	cannon_growth = 880,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	luck = 0,
+	star = 2,
+	hit = 10,
+	antisub_growth = 0,
+	rarity = 1,
+	reload = 150,
+	base = 110,
+	durability = 620,
+	armor_growth = 0,
+	torpedo_growth = 3500,
+	antiaircraft = 240,
+	hit_growth = 144,
+	armor = 0,
+	torpedo = 50,
+	durability_growth = 24500,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 30,
+	appear_fx = {
+		"appearsmall"
+	},
+	equipment_list = {
+		490009,
+		510150
+	}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59606] = {
+	display = "三笠大先輩のミニ博物館に陳列（していた）モデルのパーツ。イベント終了後に削除される",
+	name = "モデルパーツ",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 10117,
+	id = 59606,
+	is_world = 0,
+	icon = "Props/gear",
+	display_icon = {},
+	price = {},
+	index = {}
+}

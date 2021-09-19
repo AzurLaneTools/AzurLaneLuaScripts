@@ -1,0 +1,42 @@
+_G.pg.enemy_data_statistics[4005] = {
+	cannon = 3,
+	name = "量産型ムツキ級",
+	antiaircraft_growth = 630,
+	speed_growth = 0,
+	pilot_ai_template_id = 20005,
+	air = 0,
+	air_growth = 0,
+	dodge = 0,
+	friendly_cld = 1,
+	id = 4005,
+	cannon_growth = 270,
+	reload_growth = 0,
+	dodge_growth = 0,
+	reload = 150,
+	star = 2,
+	hit = 8,
+	antisub_growth = 0,
+	rarity = 1,
+	luck = 0,
+	base = 101,
+	durability = 102,
+	armor_growth = 0,
+	torpedo_growth = 1728,
+	antiaircraft = 8,
+	hit_growth = 120,
+	armor = 0,
+	speed = 15,
+	torpedo = 21,
+	antisub = 0,
+	durability_growth = 4400,
+	luck_growth = 0,
+	battle_unit_type = 20,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		100226,
+		100406,
+		313091
+	}
+}

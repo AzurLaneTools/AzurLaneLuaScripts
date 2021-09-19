@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[36] = {
+	display = "533mm三連装磁気魚雷T2設計図",
+	name = "533mm三連装磁気魚雷T2設計図",
+	rarity = 2,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 36,
+	is_world = 0,
+	icon = "Equips/45000",
+	display_icon = {},
+	price = {},
+	index = {}
+}

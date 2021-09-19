@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59109] = {
+	display = "「墨染まりし鋼の桜」報酬交換用。イベント終了後に削除されます",
+	name = "桜の御守り",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59109,
+	is_world = 0,
+	icon = "Props/omamori",
+	display_icon = {},
+	price = {},
+	index = {}
+}

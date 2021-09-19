@@ -1,0 +1,40 @@
+_G.pg.enemy_data_statistics[10043023] = {
+	cannon = 60,
+	name = "カゲロウ",
+	antiaircraft_growth = 1557,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 0,
+	speed = 32,
+	dodge = 14,
+	id = 10043023,
+	cannon_growth = 560,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 210,
+	luck = 0,
+	star = 3,
+	hit = 14,
+	antisub_growth = 0,
+	rarity = 3,
+	reload = 150,
+	base = 169,
+	durability = 1800,
+	armor_growth = 0,
+	torpedo_growth = 5600,
+	antiaircraft = 140,
+	hit_growth = 210,
+	armor = 0,
+	torpedo = 210,
+	durability_growth = 48000,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 35,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		512023,
+		512024
+	}
+}

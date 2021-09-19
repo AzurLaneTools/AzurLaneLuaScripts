@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59126] = {
+	display = "「仮想繋げし共時性」報酬交換用。イベント終了後に削除されます",
+	name = "Pt-キズナ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59126,
+	is_world = 0,
+	icon = "Props/kizuna_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

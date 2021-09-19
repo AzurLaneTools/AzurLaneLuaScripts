@@ -1,0 +1,41 @@
+_G.pg.enemy_data_statistics[107018] = {
+	cannon = 340,
+	name = "アブクマ",
+	antiaircraft_growth = 0,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 0,
+	speed = 24,
+	dodge = 23,
+	id = 107018,
+	cannon_growth = 0,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	luck = 0,
+	star = 3,
+	hit = 30,
+	antisub_growth = 0,
+	rarity = 2,
+	reload = 150,
+	base = 188,
+	durability = 5600,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	antiaircraft = 525,
+	hit_growth = 0,
+	armor = 0,
+	torpedo = 700,
+	durability_growth = 35500,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 55,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		317034,
+		317035,
+		317036
+	}
+}

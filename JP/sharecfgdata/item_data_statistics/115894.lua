@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[17044] = {
+	display = "艦載機を強化するのに使う強化パーツ",
+	name = "艦載機パーツT4",
+	rarity = 4,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 17044,
+	is_world = 1,
+	icon = "Props/17044",
+	display_icon = {},
+	price = {},
+	index = {}
+}

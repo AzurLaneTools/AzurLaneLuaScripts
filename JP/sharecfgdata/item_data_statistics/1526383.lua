@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59704] = {
+	display = "絵の具D",
+	name = "絵の具D",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 10046,
+	id = 59704,
+	is_world = 0,
+	icon = "Props/draw_d",
+	display_icon = {},
+	price = {},
+	index = {}
+}

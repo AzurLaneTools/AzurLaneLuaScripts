@@ -1,0 +1,9 @@
+_G.pg.weapon_property[60362] = {
+	id = 60362,
+	name = "航空攻击展示-萨菈娜II",
+	base = 60361,
+	barrage_ID = {
+		1511,
+		1511
+	}
+}

@@ -1,0 +1,111 @@
+_G.pg.ship_skin_template[102098] = {
+	ship_group = 10209,
+	name = "ときめきモメント",
+	bullet_skin_secondary = "",
+	hand_id = 13,
+	bgm = "",
+	illustrator2 = -1,
+	bg = "",
+	id = 102098,
+	group_index = 8,
+	shop_id = 0,
+	painting = "kelifulan_h",
+	air_bomb_skin = "",
+	air_bullet_skin = "",
+	shop_type_id = 0,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	bullet_skin_main = "",
+	skin_type = 1,
+	bg_sp = "",
+	voice_actor_2 = -1,
+	air_torpedo_skin = "",
+	prefab = "kelifulan_h",
+	l2d_se = "",
+	aircraft_skin = "",
+	main_UI_FX = "",
+	special_effects = "",
+	desc = "これ、やっぱり恥ずかしいな……し、指揮官！わ、わわ、私のこの格好、その、ええと、どどどどうかな……",
+	voice_actor = 40,
+	spine_offset = "",
+	illustrator = 8,
+	rarity_bg = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		47,
+		-197,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.37,
+				0.98,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.25,
+				1.03,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.14,
+				0.09,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				1.26,
+				0.97,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.39,
+						2.47,
+						0
+					}
+				}
+			}
+		}
+	}
+}

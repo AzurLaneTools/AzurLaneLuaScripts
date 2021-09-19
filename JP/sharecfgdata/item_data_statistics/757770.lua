@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[54004] = {
+	display = "一定の確率で教科書T1を入手できます",
+	name = "ランダム教科書T1",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 54004,
+	is_world = 0,
+	icon = "Props/54001",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,41 @@
+_G.pg.enemy_data_statistics[101011] = {
+	cannon = 45,
+	name = "ローリー",
+	antiaircraft_growth = 3933,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 0,
+	speed = 20,
+	dodge = 11,
+	id = 101011,
+	cannon_growth = 1100,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 156,
+	luck = 0,
+	star = 3,
+	hit = 14,
+	antisub_growth = 0,
+	rarity = 2,
+	reload = 150,
+	base = 182,
+	durability = 240,
+	armor_growth = 0,
+	torpedo_growth = 2808,
+	antiaircraft = 66,
+	hit_growth = 210,
+	armor = 0,
+	torpedo = 64,
+	durability_growth = 12000,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 55,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		311025,
+		311026,
+		311027
+	}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59951] = {
+	display = "「あけましておめでとうございます。瑞鶴共々何卒よろしくお願い申し上げます」――翔鶴からのお礼",
+	name = "翔鶴からのお礼（正月）",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59951,
+	is_world = 0,
+	icon = "Props/nianhezhuang",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59119] = {
+	display = "イベント「南洋に靡く硝煙」報酬交換用。イベント終了後に削除される",
+	name = "式札J",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59119,
+	is_world = 0,
+	icon = "Props/longxiang",
+	display_icon = {},
+	price = {},
+	index = {}
+}

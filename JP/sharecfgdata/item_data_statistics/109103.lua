@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[17001] = {
+	display = "設備系装備を強化するのに使う強化パーツ",
+	name = "汎用パーツT1",
+	rarity = 1,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 17001,
+	is_world = 1,
+	icon = "Props/17001",
+	display_icon = {},
+	price = {},
+	index = {}
+}

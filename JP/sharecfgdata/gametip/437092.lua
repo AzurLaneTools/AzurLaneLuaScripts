@@ -1,0 +1,3 @@
+_G.pg.gametip.shop_word_cancel = {
+	tip = "戻 る"
+}

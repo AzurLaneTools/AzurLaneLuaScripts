@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59239] = {
+	display = "キャンペン「饅頭ふくびき」での福引き回数。イベント終了時に削除されます。",
+	name = "饅頭福引券",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 16,
+	link_id = 4120,
+	id = 59239,
+	is_world = 0,
+	icon = "Props/yaoyaoquan",
+	display_icon = {},
+	price = {},
+	index = {}
+}

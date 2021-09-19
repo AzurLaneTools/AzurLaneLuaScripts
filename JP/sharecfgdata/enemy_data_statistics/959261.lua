@@ -1,0 +1,43 @@
+_G.pg.enemy_data_statistics[101022] = {
+	cannon = 64,
+	name = "ソウリュウ",
+	antiaircraft_growth = 3744,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 88,
+	speed = 17,
+	dodge = 5,
+	id = 101022,
+	cannon_growth = 0,
+	air_growth = 3627,
+	reload_growth = 0,
+	dodge_growth = 72,
+	luck = 0,
+	star = 5,
+	hit = 14,
+	antisub_growth = 0,
+	rarity = 4,
+	reload = 150,
+	base = 241,
+	durability = 480,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	antiaircraft = 60,
+	hit_growth = 210,
+	armor = 0,
+	torpedo = 0,
+	durability_growth = 19800,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 70,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		100201,
+		311050,
+		311051,
+		311052,
+		311053
+	}
+}

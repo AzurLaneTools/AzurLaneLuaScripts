@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[10103] = {
+	display = "380mm四連装砲Mle1935T2設計図",
+	name = "380mm四連装砲Mle1935T2設計図",
+	rarity = 3,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 10103,
+	is_world = 0,
+	icon = "Equips/50400",
+	display_icon = {},
+	price = {},
+	index = {}
+}

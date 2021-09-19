@@ -1,0 +1,41 @@
+_G.pg.enemy_data_statistics[6020] = {
+	cannon = 0,
+	name = "空母アカギ",
+	antiaircraft_growth = 1521,
+	speed_growth = 0,
+	luck = 0,
+	air = 18,
+	air_growth = 1476,
+	dodge = 0,
+	friendly_cld = 1,
+	id = 6020,
+	cannon_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed = 15,
+	star = 6,
+	hit = 8,
+	antisub_growth = 0,
+	rarity = 5,
+	reload = 150,
+	base = 120,
+	durability = 721,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	antiaircraft = 18,
+	hit_growth = 120,
+	armor = 0,
+	torpedo = 0,
+	durability_growth = 38675,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 60,
+	appear_fx = {
+		"appearbig"
+	},
+	equipment_list = {
+		316037,
+		316038,
+		316039
+	}
+}

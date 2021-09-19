@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[60149] = {
+	display = "使用すると、一部のSSR艦船と記念アイテム「お礼」を入手可能",
+	name = "初夏招待状2021",
+	rarity = 4,
+	type = 21,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60149,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	display_icon = {},
+	price = {},
+	index = {}
+}

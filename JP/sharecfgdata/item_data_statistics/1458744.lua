@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59102] = {
+	display = "イベント報酬に引き換えできる。（引き換え期間終了後削除されます",
+	name = "ニココイン",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59102,
+	is_world = 0,
+	icon = "Props/battery",
+	display_icon = {},
+	price = {},
+	index = {}
+}

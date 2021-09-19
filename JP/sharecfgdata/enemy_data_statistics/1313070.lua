@@ -1,0 +1,41 @@
+_G.pg.enemy_data_statistics[10042042] = {
+	cannon = 120,
+	name = "ナチ",
+	antiaircraft_growth = 2340,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 0,
+	speed = 16,
+	dodge = 6,
+	id = 10042042,
+	cannon_growth = 1638,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 84,
+	luck = 0,
+	star = 4,
+	hit = 14,
+	antisub_growth = 0,
+	rarity = 3,
+	reload = 150,
+	base = 204,
+	durability = 2800,
+	armor_growth = 0,
+	torpedo_growth = 2250,
+	antiaircraft = 135,
+	hit_growth = 210,
+	armor = 0,
+	torpedo = 50,
+	durability_growth = 51000,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 60,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		511075,
+		511076,
+		511077
+	}
+}

@@ -1,0 +1,3 @@
+_G.pg.gametip.guild_tech_oil_desc = {
+	tip = "燃料備蓄上限+$1"
+}

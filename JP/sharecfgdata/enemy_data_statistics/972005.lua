@@ -1,0 +1,43 @@
+_G.pg.enemy_data_statistics[102009] = {
+	cannon = 60,
+	name = "ショウカク",
+	antiaircraft_growth = 3744,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 88,
+	speed = 15,
+	dodge = 5,
+	id = 102009,
+	cannon_growth = 0,
+	air_growth = 3627,
+	reload_growth = 0,
+	dodge_growth = 72,
+	luck = 0,
+	star = 6,
+	hit = 14,
+	antisub_growth = 0,
+	rarity = 5,
+	reload = 150,
+	base = 243,
+	durability = 1480,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	antiaircraft = 90,
+	hit_growth = 210,
+	armor = 0,
+	torpedo = 0,
+	durability_growth = 37960,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 70,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		100201,
+		312030,
+		312031,
+		312032,
+		312033
+	}
+}

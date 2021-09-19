@@ -1,0 +1,23 @@
+_G.pg.shop_template[1] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "",
+	type = 0,
+	desc = "100ダイヤで装備所持枠+20",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	time = "always",
+	effect_args = "equip_bag_size",
+	group = 0,
+	num = 20,
+	discount = 0,
+	group_type = 0,
+	id = 1,
+	resource_num = 100,
+	discount_time = {},
+	limit_args = {}
+}

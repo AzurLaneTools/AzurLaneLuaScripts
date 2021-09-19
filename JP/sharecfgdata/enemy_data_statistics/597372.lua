@@ -1,0 +1,43 @@
+_G.pg.enemy_data_statistics[556] = {
+	cannon = 250,
+	name = "シャルンホルスト",
+	antiaircraft_growth = 3000,
+	speed_growth = 0,
+	pilot_ai_template_id = 20006,
+	air = 0,
+	speed = 20,
+	dodge = 3,
+	id = 556,
+	cannon_growth = 2000,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	luck = 0,
+	star = 4,
+	hit = 14,
+	antisub_growth = 0,
+	rarity = 4,
+	reload = 150,
+	base = 223,
+	durability = 200000,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	antiaircraft = 100,
+	hit_growth = 210,
+	armor = 0,
+	torpedo = 0,
+	durability_growth = 0,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 55,
+	appear_fx = {
+		"bossguangxiao",
+		"appearQ"
+	},
+	equipment_list = {
+		100201,
+		100571,
+		313075,
+		300504
+	}
+}

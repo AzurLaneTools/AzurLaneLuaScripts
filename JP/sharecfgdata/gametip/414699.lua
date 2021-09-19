@@ -1,0 +1,3 @@
+_G.pg.gametip.word_equipskin_type = {
+	tip = "種類"
+}

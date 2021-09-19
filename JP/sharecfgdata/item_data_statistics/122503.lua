@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[18103] = {
+	display = "精錬金属材の中で特に生産困難とされるタイプの上級資材。「装備開発」で使われる",
+	name = "特殊精錬金属材",
+	rarity = 4,
+	type = 2,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 18103,
+	is_world = 1,
+	icon = "Props/18103",
+	display_icon = {},
+	price = {},
+	index = {}
+}

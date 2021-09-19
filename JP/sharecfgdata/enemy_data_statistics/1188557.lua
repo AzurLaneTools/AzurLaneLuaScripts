@@ -1,0 +1,39 @@
+_G.pg.enemy_data_statistics[100011] = {
+	cannon = 80,
+	name = "モガミ",
+	reload = 150,
+	cannon_growth = 2000,
+	hit_growth = 210,
+	air = 0,
+	speed_growth = 0,
+	dodge = 6,
+	base = 210,
+	speed = 18,
+	luck = 0,
+	reload_growth = 0,
+	dodge_growth = 102,
+	luck_growth = 0,
+	star = 4,
+	hit = 14,
+	antisub_growth = 0,
+	rarity = 4,
+	air_growth = 0,
+	torpedo = 27,
+	durability = 1200,
+	armor_growth = 0,
+	durability_growth = 40000,
+	antiaircraft = 28,
+	antiaircraft_growth = 2340,
+	armor = 0,
+	id = 100011,
+	battle_unit_type = 60,
+	antisub = 0,
+	torpedo_growth = 2250,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		100201,
+		100421
+	}
+}

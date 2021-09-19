@@ -1,0 +1,41 @@
+_G.pg.enemy_data_statistics[10044037] = {
+	cannon = 150,
+	name = "ミョウコウ",
+	reload = 150,
+	cannon_growth = 2000,
+	hit_growth = 210,
+	air = 0,
+	speed_growth = 0,
+	dodge = 6,
+	base = 203,
+	speed = 24,
+	luck = 0,
+	reload_growth = 0,
+	dodge_growth = 96,
+	luck_growth = 0,
+	star = 4,
+	hit = 14,
+	antisub_growth = 0,
+	rarity = 3,
+	air_growth = 0,
+	torpedo = 75,
+	durability = 3400,
+	armor_growth = 0,
+	durability_growth = 90000,
+	antiaircraft = 140,
+	antiaircraft_growth = 2736,
+	armor = 0,
+	id = 10044037,
+	battle_unit_type = 45,
+	antisub = 0,
+	torpedo_growth = 2421,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		513059,
+		513060,
+		513061,
+		513062
+	}
+}

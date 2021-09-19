@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59623] = {
+	display = "三笠大先輩の蒐集品の一つ。駆逐艦「如月」のモデル",
+	name = "如月モデル",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 10230,
+	id = 59623,
+	is_world = 0,
+	icon = "Props/jiujiu",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[21901] = {
+	display = "飛龍(META)の解析ポイント。META戦開催期間（2021.3.18）終了時にリセットされます",
+	name = "飛龍(META)解析Pt",
+	rarity = 4,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21901,
+	is_world = 0,
+	icon = "Props/21901",
+	display_icon = {},
+	price = {},
+	index = {}
+}

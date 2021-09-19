@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[18105] = {
+	display = "高度な工業生産用の基準を満たしている電気資材。「装備開発」で使われる",
+	name = "工業用電子部品",
+	rarity = 3,
+	type = 2,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 18105,
+	is_world = 1,
+	icon = "Props/18105",
+	display_icon = {},
+	price = {},
+	index = {}
+}

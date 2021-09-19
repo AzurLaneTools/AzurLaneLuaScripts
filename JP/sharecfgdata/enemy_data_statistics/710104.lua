@@ -1,0 +1,43 @@
+_G.pg.enemy_data_statistics[305100] = {
+	cannon = 50,
+	name = "カガ",
+	antiaircraft_growth = 0,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 145,
+	speed = 18,
+	dodge = 8,
+	id = 305100,
+	cannon_growth = 0,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	luck = 0,
+	star = 6,
+	hit = 18,
+	antisub_growth = 0,
+	rarity = 5,
+	reload = 150,
+	base = 240,
+	durability = 3985,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	antiaircraft = 105,
+	hit_growth = 0,
+	armor = 0,
+	torpedo = 0,
+	durability_growth = 0,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 95,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		100201,
+		100351,
+		313077,
+		313078,
+		313079
+	}
+}

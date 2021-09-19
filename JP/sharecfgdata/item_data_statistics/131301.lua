@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[18125] = {
+	display = "ごく一般な兵装実験報告書。「装備開発」で使われる",
+	name = "兵装実験報告書",
+	rarity = 3,
+	type = 2,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 18125,
+	is_world = 1,
+	icon = "Props/18125",
+	display_icon = {},
+	price = {},
+	index = {}
+}

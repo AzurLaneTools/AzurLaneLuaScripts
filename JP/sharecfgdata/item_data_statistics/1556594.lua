@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59783] = {
+	display = "チケット所持中でお祭りのミニゲームをプレイすると入手可能！スタンプを集めて、報酬を手に入れよう！",
+	name = "祭スタンプ",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59783,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {}
+}

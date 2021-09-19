@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59194] = {
+	display = "7つ集めると、駆逐艦「Z28」を入手できます。このアイテムはイベント終了時に削除されます",
+	name = "グルメ券",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59194,
+	is_world = 0,
+	icon = "props/meishi",
+	display_icon = {},
+	price = {},
+	index = {}
+}

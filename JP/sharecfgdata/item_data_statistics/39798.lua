@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[10026] = {
+	display = "二連装ボフォース40mm機関砲T3設計図",
+	name = "二連装ボフォース40mm機関砲T3設計図",
+	rarity = 3,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 10026,
+	is_world = 0,
+	icon = "Equips/16300",
+	display_icon = {},
+	price = {},
+	index = {}
+}

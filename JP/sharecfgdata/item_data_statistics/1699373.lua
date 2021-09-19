@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70069] = {
+	display = "かすみが好きな食べもの：苺のミルフィーユ。キャラの好物情報を開放可能",
+	name = "好きな食べもの(かすみ)",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 783,
+	id = 70069,
+	is_world = 0,
+	icon = "Props/doa_collect",
+	display_icon = {},
+	price = {},
+	index = {}
+}

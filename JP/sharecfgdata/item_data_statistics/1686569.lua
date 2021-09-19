@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70033] = {
+	display = "「ポスター・アドミラルヒッパー」の開放に使用されます",
+	name = "ポスター・アドミラルヒッパー",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 413,
+	id = 70033,
+	is_world = 0,
+	icon = "Props/music_xipeier",
+	display_icon = {},
+	price = {},
+	index = {}
+}

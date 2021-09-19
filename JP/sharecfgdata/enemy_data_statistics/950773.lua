@@ -1,0 +1,40 @@
+_G.pg.enemy_data_statistics[101006] = {
+	cannon = 46,
+	name = "シラヌイ",
+	antiaircraft_growth = 1638,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 0,
+	speed = 24,
+	dodge = 15,
+	id = 101006,
+	cannon_growth = 520,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 222,
+	luck = 0,
+	star = 3,
+	hit = 14,
+	antisub_growth = 0,
+	rarity = 2,
+	reload = 150,
+	base = 170,
+	durability = 180,
+	armor_growth = 0,
+	torpedo_growth = 4491,
+	antiaircraft = 35,
+	hit_growth = 210,
+	armor = 0,
+	torpedo = 165,
+	durability_growth = 11800,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 50,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		100211,
+		100411
+	}
+}

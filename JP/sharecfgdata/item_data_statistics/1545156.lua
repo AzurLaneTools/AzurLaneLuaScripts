@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59752] = {
+	display = "寧海からの返礼――「メリークリスマス。いい？礼軽けれど情義重し、高いもの贈るんじゃないわよ」",
+	name = "寧海の贈り物",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59752,
+	is_world = 0,
+	icon = "Props/shengye",
+	display_icon = {},
+	price = {},
+	index = {}
+}

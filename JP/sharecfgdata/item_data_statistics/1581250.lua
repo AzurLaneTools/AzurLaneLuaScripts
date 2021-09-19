@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59926] = {
+	display = "7枚集めるといいことが起きるかも？",
+	name = "月餅",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 5,
+	link_id = 724,
+	id = 59926,
+	is_world = 0,
+	icon = "props/zhongqiufanpai",
+	display_icon = {},
+	price = {},
+	index = {}
+}

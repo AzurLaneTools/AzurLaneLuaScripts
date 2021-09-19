@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59237] = {
+	display = "「饅頭水上公園」の施設をレベルアップさせるために消費する素材。「饅頭水上公園」キャンペーン終了時に削除されます",
+	name = "饅頭水上公園建築材",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 12,
+	link_id = 4113,
+	id = 59237,
+	is_world = 0,
+	icon = "Props/houshancailiao4",
+	display_icon = {},
+	price = {},
+	index = {}
+}

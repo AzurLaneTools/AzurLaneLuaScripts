@@ -1,0 +1,104 @@
+_G.pg.ship_skin_template[101450] = {
+	ship_group = 10145,
+	name = "アレン・M・サムナー",
+	bullet_skin_secondary = "",
+	hand_id = 13,
+	bgm = "",
+	illustrator2 = -1,
+	bg = "",
+	id = 101450,
+	group_index = 0,
+	shop_id = 0,
+	painting = "ailunsamuna",
+	air_bomb_skin = "",
+	air_bullet_skin = "",
+	shop_type_id = 0,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	bullet_skin_main = "",
+	skin_type = -1,
+	bg_sp = "",
+	voice_actor_2 = -1,
+	air_torpedo_skin = "",
+	prefab = "ailunsamuna",
+	l2d_se = "",
+	aircraft_skin = "",
+	main_UI_FX = "",
+	special_effects = "",
+	desc = "アレン・M・サムナー級駆逐艦「アレン・M・サムナー」（DD-692)",
+	voice_actor = 266,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.244,
+				1.085,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.099,
+				1.05,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.6,
+						2.402,
+						0
+					}
+				}
+			}
+		}
+	}
+}

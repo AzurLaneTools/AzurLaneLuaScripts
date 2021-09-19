@@ -1,0 +1,40 @@
+_G.pg.enemy_data_statistics[10045011] = {
+	cannon = 250,
+	name = "量産型タカオ級",
+	reload = 150,
+	cannon_growth = 0,
+	hit_growth = 0,
+	air = 0,
+	speed_growth = 0,
+	dodge = 0,
+	base = 114,
+	speed = 15,
+	luck = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	luck_growth = 0,
+	star = 3,
+	hit = 35,
+	antisub_growth = 0,
+	rarity = 2,
+	air_growth = 0,
+	torpedo = 140,
+	durability = 2050,
+	armor_growth = 0,
+	durability_growth = 46000,
+	antiaircraft = 252,
+	antiaircraft_growth = 0,
+	armor = 0,
+	id = 10045011,
+	battle_unit_type = 35,
+	antisub = 0,
+	torpedo_growth = 0,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		100207,
+		100517,
+		100417
+	}
+}

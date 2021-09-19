@@ -1,0 +1,41 @@
+_G.pg.enemy_data_statistics[10705301] = {
+	cannon = 420,
+	name = "シグレ",
+	antiaircraft_growth = 0,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 0,
+	speed = 37,
+	dodge = 115,
+	id = 10705301,
+	cannon_growth = 0,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	luck = 15,
+	star = 6,
+	hit = 46,
+	antisub_growth = 0,
+	rarity = 5,
+	reload = 150,
+	base = 166,
+	durability = 43000,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	antiaircraft = 360,
+	hit_growth = 0,
+	armor = 0,
+	torpedo = 850,
+	durability_growth = 0,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 95,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		317015,
+		317016,
+		317017
+	}
+}

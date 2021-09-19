@@ -1,0 +1,41 @@
+_G.pg.enemy_data_statistics[106008] = {
+	cannon = 192,
+	name = "トネ",
+	antiaircraft_growth = 2340,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 0,
+	speed = 18,
+	dodge = 6,
+	id = 106008,
+	cannon_growth = 1638,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 84,
+	luck = 0,
+	star = 4,
+	hit = 18,
+	antisub_growth = 0,
+	rarity = 3,
+	reload = 150,
+	base = 206,
+	durability = 5480,
+	armor_growth = 0,
+	torpedo_growth = 3000,
+	antiaircraft = 273,
+	hit_growth = 210,
+	armor = 0,
+	torpedo = 200,
+	durability_growth = 45000,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 60,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		100202,
+		100522,
+		100422
+	}
+}

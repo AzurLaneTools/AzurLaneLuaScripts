@@ -1,0 +1,40 @@
+_G.pg.enemy_data_statistics[9036] = {
+	cannon = 80,
+	name = "ハマカゼ",
+	antiaircraft_growth = 2380,
+	speed_growth = 0,
+	pilot_ai_template_id = 20004,
+	air = 0,
+	speed = 26,
+	dodge = 18,
+	id = 9036,
+	cannon_growth = 600,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 270,
+	luck = 0,
+	star = 3,
+	hit = 80,
+	antisub_growth = 0,
+	rarity = 4,
+	reload = 150,
+	base = 173,
+	durability = 25000,
+	armor_growth = 0,
+	torpedo_growth = 3400,
+	antiaircraft = 135,
+	hit_growth = 210,
+	armor = 0,
+	torpedo = 200,
+	durability_growth = 300000,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 60,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		319081,
+		319085
+	}
+}

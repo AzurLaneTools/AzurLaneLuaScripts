@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[80] = {
+	display = "155mm単装副砲Mle1920T0設計図",
+	name = "155mm単装副砲Mle1920T0設計図",
+	rarity = 2,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 80,
+	is_world = 0,
+	icon = "Equips/50800",
+	display_icon = {},
+	price = {},
+	index = {}
+}

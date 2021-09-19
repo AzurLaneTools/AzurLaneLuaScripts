@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[61001] = {
+	display = "戦闘任務の効率化を図り、開発された特別指令書。一部海域周回モード（安全海域）の出撃時に使用でき、戦闘時に消費する燃料を倍にする代わりに戦果を2回獲得できる",
+	name = "大作戦指令書",
+	rarity = 3,
+	type = 19,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 61001,
+	is_world = 0,
+	icon = "Props/tebiezuozhan",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,42 @@
+_G.pg.enemy_data_statistics[10041050] = {
+	cannon = 0,
+	name = "リュウジョウ",
+	reload = 150,
+	cannon_growth = 0,
+	hit_growth = 210,
+	air = 31,
+	speed_growth = 0,
+	dodge = 9,
+	base = 235,
+	speed = 22,
+	luck = 0,
+	reload_growth = 0,
+	dodge_growth = 132,
+	luck_growth = 0,
+	star = 5,
+	hit = 14,
+	antisub_growth = 0,
+	rarity = 4,
+	air_growth = 2574,
+	torpedo = 0,
+	durability = 1600,
+	armor_growth = 0,
+	durability_growth = 54000,
+	antiaircraft = 235,
+	antiaircraft_growth = 3168,
+	armor = 0,
+	id = 10041050,
+	battle_unit_type = 60,
+	antisub = 0,
+	torpedo_growth = 0,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		510100,
+		510101,
+		510800,
+		510801,
+		510802
+	}
+}

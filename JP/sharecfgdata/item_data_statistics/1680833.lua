@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70018] = {
+	display = "「AIメモリアル」No.19開放用",
+	name = "「AIメモリアル」No.19",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 10243,
+	id = 70018,
+	is_world = 0,
+	icon = "Props/gangquhuiyi",
+	display_icon = {},
+	price = {},
+	index = {}
+}

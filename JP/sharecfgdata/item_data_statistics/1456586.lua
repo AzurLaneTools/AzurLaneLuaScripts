@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59010] = {
+	display = "海域クリア・ウィークリー任務・科学研究・建造UR艦船退役で入手可能。プロトショップでアイテム・艦船と交換用",
+	name = "特装コア",
+	rarity = 5,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59010,
+	is_world = 0,
+	icon = "Props/specialarmor_prt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

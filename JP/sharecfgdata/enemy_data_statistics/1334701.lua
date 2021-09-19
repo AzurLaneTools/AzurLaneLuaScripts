@@ -1,0 +1,40 @@
+_G.pg.enemy_data_statistics[10043013] = {
+	cannon = 17,
+	name = "量産型フルタカ級",
+	reload = 150,
+	cannon_growth = 1800,
+	hit_growth = 144,
+	air = 0,
+	speed_growth = 0,
+	dodge = 0,
+	base = 111,
+	speed = 15,
+	luck = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	luck_growth = 0,
+	star = 3,
+	hit = 10,
+	antisub_growth = 0,
+	rarity = 2,
+	air_growth = 0,
+	torpedo = 14,
+	durability = 1560,
+	armor_growth = 0,
+	durability_growth = 43000,
+	antiaircraft = 180,
+	antiaircraft_growth = 1404,
+	armor = 0,
+	id = 10043013,
+	battle_unit_type = 35,
+	antisub = 0,
+	torpedo_growth = 1125,
+	appear_fx = {
+		"appearsmall"
+	},
+	equipment_list = {
+		100205,
+		100506,
+		100406
+	}
+}

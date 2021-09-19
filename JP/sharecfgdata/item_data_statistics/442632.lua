@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[41725] = {
+	display = "不知火からのバレンタインプレゼント",
+	name = "バレンタインプレゼント",
+	rarity = 8,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 41725,
+	is_world = 0,
+	icon = "SquareIcon/buzhihuo",
+	display_icon = {},
+	price = {},
+	index = {}
+}

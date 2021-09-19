@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[60135] = {
+	display = "「指揮官様、大鳳の一曲をお聞きになります～？」大鳳からもらった新春のお礼",
+	name = "春節年賀状（大鳳）",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 0,
+	id = 60135,
+	is_world = 0,
+	icon = "Props/henianka",
+	price = "",
+	display_icon = {},
+	index = {}
+}

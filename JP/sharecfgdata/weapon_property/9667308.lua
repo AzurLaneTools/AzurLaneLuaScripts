@@ -1,0 +1,61 @@
+_G.pg.weapon_property[2043070] = {
+	recover_time = 0,
+	name = "【大世界】深渊BOSS战列_p2_跨射三段lv1",
+	shakescreen = 0,
+	type = 1,
+	torpedo_ammo = 0,
+	fire_fx = "shenyuanFire01",
+	action_index = "attack",
+	charge_param = "",
+	axis_angle = 0,
+	fire_fx_loop_type = 1,
+	attack_attribute = 1,
+	expose = 0,
+	search_type = 1,
+	effect_move = 0,
+	angle = 180,
+	reload_max = 2400,
+	queue = 7,
+	range = 150,
+	damage = 60,
+	suppress = 1,
+	auto_aftercast = 0,
+	corrected = 100,
+	min_range = 92,
+	initial_over_heat = 0,
+	spawn_bound = "cannon",
+	fire_sfx = "battle/cannon-main",
+	id = 2043070,
+	attack_attribute_ratio = 100,
+	aim_type = 0,
+	bullet_ID = {
+		20430500,
+		20430501,
+		20430502,
+		20430503,
+		20430504,
+		20430505,
+		20430506
+	},
+	barrage_ID = {
+		20430500,
+		20430500,
+		20430500,
+		20430501,
+		20430500,
+		20430500,
+		20430501
+	},
+	oxy_type = {
+		1
+	},
+	search_condition = {
+		1
+	},
+	precast_param = {
+		fx = "jinengenemy",
+		armor = 24000,
+		time = 5,
+		isBound = true
+	}
+}

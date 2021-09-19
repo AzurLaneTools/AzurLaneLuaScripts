@@ -1,0 +1,16 @@
+_G.pg.ship_data_breakout[299043] = {
+	use_gold = 0,
+	breakout_view = "特殊弾幕強化/主砲補正+15%",
+	use_char_num = 2,
+	use_char = 29904,
+	breakout_id = 299044,
+	level = 70,
+	id = 299043,
+	icon = "10001",
+	pre_id = 299042,
+	use_item = {},
+	weapon_ids = {
+		79562
+	},
+	ultimate_bonus = {}
+}

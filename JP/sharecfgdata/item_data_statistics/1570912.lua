@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59841] = {
+	display = "アズールレーン配信４周年記念メダル――航海はまだこれから！",
+	name = "4周年記念コイン",
+	rarity = 3,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59841,
+	is_world = 0,
+	icon = "props/sizhounian",
+	display_icon = {},
+	price = {},
+	index = {}
+}

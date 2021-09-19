@@ -1,0 +1,32 @@
+_G.pg.weapon_property[691801] = {
+	fire_fx_loop_type = 1,
+	name = "【2020信浓活动普通T6】BOSS 测试者 一形态第一波 浮游炮",
+	initial_over_heat = 0,
+	type = 11,
+	action_index = "attack",
+	fire_fx = "",
+	recover_time = 3,
+	shakescreen = 0,
+	reload_max = 100,
+	attack_attribute = 4,
+	range = 120,
+	queue = 2,
+	torpedo_ammo = 0,
+	effect_move = 1,
+	expose = 0,
+	auto_aftercast = 0,
+	charge_param = "",
+	damage = 16,
+	corrected = 100,
+	suppress = 0,
+	spawn_bound = "plane",
+	fire_sfx = "",
+	id = 691801,
+	attack_attribute_ratio = 100,
+	aim_type = 0,
+	bullet_ID = {},
+	barrage_ID = {
+		760169
+	},
+	precast_param = {}
+}

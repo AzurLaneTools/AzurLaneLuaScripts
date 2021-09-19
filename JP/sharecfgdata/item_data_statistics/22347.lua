@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[67] = {
+	display = "フェアリーアルバコアT2設計図",
+	name = "フェアリーアルバコアT2設計図",
+	rarity = 2,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 67,
+	is_world = 0,
+	icon = "Equips/28300",
+	display_icon = {},
+	price = {},
+	index = {}
+}

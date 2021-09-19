@@ -1,0 +1,44 @@
+_G.pg.weapon_property[340306] = {
+	recover_time = 0.5,
+	name = "第13章BOSS轰炸-翔鹤用飞机",
+	shakescreen = 0,
+	type = 11,
+	torpedo_ammo = 0,
+	fire_fx = "",
+	action_index = "",
+	charge_param = "",
+	axis_angle = 0,
+	fire_fx_loop_type = 1,
+	attack_attribute = 4,
+	expose = 0,
+	search_type = 1,
+	effect_move = 0,
+	angle = 90,
+	reload_max = 400,
+	queue = 4,
+	range = 90,
+	damage = 500,
+	suppress = 1,
+	auto_aftercast = 0,
+	corrected = 100,
+	min_range = 0,
+	initial_over_heat = 0,
+	spawn_bound = "plane",
+	fire_sfx = "battle/cannon-main",
+	id = 340306,
+	attack_attribute_ratio = 100,
+	aim_type = 1,
+	bullet_ID = {
+		130302
+	},
+	barrage_ID = {
+		12008
+	},
+	oxy_type = {
+		1
+	},
+	search_condition = {
+		1
+	},
+	precast_param = {}
+}

@@ -1,0 +1,40 @@
+_G.pg.enemy_data_statistics[107008] = {
+	cannon = 160,
+	name = "ユウダチ",
+	antiaircraft_growth = 0,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 0,
+	speed = 36,
+	dodge = 46,
+	id = 107008,
+	cannon_growth = 0,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	luck = 0,
+	star = 4,
+	hit = 38,
+	antisub_growth = 0,
+	rarity = 3,
+	reload = 150,
+	base = 167,
+	durability = 4700,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	antiaircraft = 425,
+	hit_growth = 0,
+	armor = 0,
+	torpedo = 760,
+	durability_growth = 28500,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 50,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		317033,
+		100432
+	}
+}

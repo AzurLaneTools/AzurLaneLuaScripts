@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59008] = {
+	display = "大艦隊への貢献を認められた証。どの大艦隊でも使用可能",
+	name = "貢献Pt",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59008,
+	is_world = 0,
+	icon = "Props/guildIcon",
+	display_icon = {},
+	price = {},
+	index = {}
+}

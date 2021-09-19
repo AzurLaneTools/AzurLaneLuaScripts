@@ -1,0 +1,40 @@
+_G.pg.enemy_data_statistics[7012] = {
+	cannon = 60,
+	name = "アヤナミ",
+	antiaircraft_growth = 2200,
+	speed_growth = 0,
+	pilot_ai_template_id = 10001,
+	air = 0,
+	speed = 33,
+	dodge = 18,
+	id = 7012,
+	cannon_growth = 500,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 360,
+	luck = 0,
+	star = 4,
+	hit = 14,
+	antisub_growth = 0,
+	rarity = 3,
+	reload = 150,
+	base = 160,
+	durability = 2400,
+	armor_growth = 0,
+	torpedo_growth = 5000,
+	antiaircraft = 24,
+	hit_growth = 210,
+	armor = 0,
+	torpedo = 100,
+	durability_growth = 35000,
+	antisub = 0,
+	luck_growth = 0,
+	battle_unit_type = 50,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		317027,
+		100432
+	}
+}

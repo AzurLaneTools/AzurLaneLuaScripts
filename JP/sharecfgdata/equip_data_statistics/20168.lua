@@ -1,0 +1,9 @@
+_G.pg.equip_data_statistics[222] = {
+	id = 222,
+	name = "0",
+	damage = "3 x 2",
+	base = 221,
+	weapon_id = {
+		222
+	}
+}

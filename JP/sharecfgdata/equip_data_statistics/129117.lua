@@ -1,0 +1,60 @@
+_G.pg.equip_data_statistics[2340] = {
+	type = 10,
+	name = "ジャイロスコープ",
+	speciality = "なし",
+	tech = 3,
+	value_2 = 3,
+	ammo = 10,
+	descrip = "艦の安定性を向上させ、命中と速力を高める",
+	nationality = 0,
+	rarity = 4,
+	attribute_1 = "hit",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 2340,
+	icon = "2300",
+	value_1 = "14",
+	attribute_2 = "speed",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		8,
+		10,
+		11,
+		12,
+		13,
+		17,
+		18,
+		19
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		8,
+		10,
+		11,
+		12,
+		13,
+		17,
+		18,
+		19
+	},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
