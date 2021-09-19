@@ -1,0 +1,14 @@
+_G.pg.weapon_property[66489] = {
+	id = 66489,
+	name = "胜利刺穿-小子弹LV9",
+	damage = 15,
+	base = 66480,
+	bullet_ID = {
+		19916,
+		19916
+	},
+	barrage_ID = {
+		80332,
+		80333
+	}
+}

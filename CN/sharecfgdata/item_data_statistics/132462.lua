@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[18116] = {
+	display = "在钛中加入了其它元素制成的合金，拥有众多优异性能，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+	name = "钛合金",
+	rarity = 4,
+	type = 2,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 18116,
+	is_world = 1,
+	icon = "Props/18116",
+	display_icon = {},
+	price = {},
+	index = {}
+}

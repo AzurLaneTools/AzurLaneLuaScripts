@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[21004] = {
+	display = "{namecode:205}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：{namecode:205}",
+	rarity = 4,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21004,
+	is_world = 0,
+	icon = "Props/21004",
+	display_icon = {},
+	price = {},
+	index = {}
+}

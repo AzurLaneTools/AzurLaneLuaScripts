@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70066] = {
+	display = "玛莉萝丝喜欢的饮品：热带果汁。可用于解锁玛莉萝丝的喜好信息。",
+	name = "喜好饮品(玛莉萝丝)",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 783,
+	id = 70066,
+	is_world = 0,
+	icon = "Props/doa_collect",
+	display_icon = {},
+	price = {},
+	index = {}
+}

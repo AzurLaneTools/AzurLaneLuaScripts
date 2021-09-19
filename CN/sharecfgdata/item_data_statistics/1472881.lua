@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59794] = {
+	display = "颜料D，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料D",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 607,
+	id = 59794,
+	is_world = 0,
+	icon = "props/draw_d",
+	display_icon = {},
+	price = {},
+	index = {}
+}

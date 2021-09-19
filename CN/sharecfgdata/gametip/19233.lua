@@ -1,0 +1,3 @@
+_G.pg.gametip.common_no_rmb = {
+	tip = "<color=#92fc63>钻石</color>不够啦！"
+}

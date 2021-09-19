@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59135] = {
+	display = "关于「传说中的海豹」的线索，收集更多情报，寻找传说中的小海豹吧！用于『碧海的偶像』活动，活动结束后将会消失",
+	name = "线索",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59135,
+	is_world = 0,
+	icon = "Props/qixihaibaopt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

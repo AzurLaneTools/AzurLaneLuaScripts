@@ -1,0 +1,6 @@
+_G.pg.weapon_property[67081] = {
+	id = 67081,
+	name = "Z23技能鱼雷LV1",
+	damage = 55,
+	base = 67080
+}

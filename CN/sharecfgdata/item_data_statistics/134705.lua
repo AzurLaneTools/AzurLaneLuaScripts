@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[18121] = {
+	display = "进行SSR型防空炮研发的必要图纸材料，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+	name = "防空炮研发图纸SSR型",
+	rarity = 4,
+	type = 2,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 18121,
+	is_world = 1,
+	icon = "Props/18121",
+	display_icon = {},
+	price = {},
+	index = {}
+}

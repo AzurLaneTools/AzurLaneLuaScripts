@@ -1,0 +1,3 @@
+_G.pg.gametip.backyard_backyardScene_restSuccess = {
+	tip = "<color=#92fc63>还原成功</color>"
+}

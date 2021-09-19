@@ -1,0 +1,3 @@
+_G.pg.gametip.backyard_theme_upload_success = {
+	tip = "分享成功"
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59010] = {
+	display = "通过击破关卡BOSS、完成特定任务、完成科研项目或退役非改造海上传奇角色得到，可以用在原型商店换取奖励",
+	name = "特装原型",
+	rarity = 5,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59010,
+	is_world = 0,
+	icon = "Props/specialarmor_prt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

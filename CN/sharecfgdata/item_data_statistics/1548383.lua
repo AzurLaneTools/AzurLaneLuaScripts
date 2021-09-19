@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[60143] = {
+	display = "为标枪的漫画涂上彩色吧！",
+	name = "漫画彩页4",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 959,
+	id = 60143,
+	is_world = 0,
+	icon = "Props/javelin",
+	display_icon = {},
+	price = {},
+	index = {}
+}

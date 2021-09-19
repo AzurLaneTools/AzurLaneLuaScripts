@@ -1,0 +1,18 @@
+_G.pg.ship_data_breakout[205022] = {
+	use_gold = 3000,
+	breakout_view = "副炮底座+2/主炮效率提高10%",
+	use_char_num = 1,
+	use_char = 20502,
+	breakout_id = 205023,
+	level = 30,
+	id = 205022,
+	icon = "10001",
+	pre_id = 205021,
+	use_item = {},
+	weapon_ids = {
+		22000,
+		22000,
+		22000
+	},
+	ultimate_bonus = {}
+}

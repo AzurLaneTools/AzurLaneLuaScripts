@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[18110] = {
+	display = "由橡胶树上采集加工而来的天然橡胶，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+	name = "天然橡胶",
+	rarity = 2,
+	type = 2,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 18110,
+	is_world = 1,
+	icon = "Props/18110",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[1009] = {
+	display = "Z代表着好运、必胜和正义，在Z的旗帜下，吾等将无往不利！",
+	name = "Z的信念",
+	rarity = 5,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 1009,
+	is_world = 0,
+	icon = "Equips/640",
+	display_icon = {},
+	price = {},
+	index = {}
+}

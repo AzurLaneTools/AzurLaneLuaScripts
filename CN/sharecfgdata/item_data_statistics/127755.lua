@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[18105] = {
+	display = "工业设备中使用的电子元件，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+	name = "工业级电子元件",
+	rarity = 3,
+	type = 2,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 18105,
+	is_world = 1,
+	icon = "Props/18105",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70034] = {
+	display = "可用于解锁「贴纸·希佩尔」",
+	name = "贴纸·希佩尔",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 413,
+	id = 70034,
+	is_world = 0,
+	icon = "Props/music_xipeier",
+	display_icon = {},
+	price = {},
+	index = {}
+}

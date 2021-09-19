@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[21111] = {
+	display = "用于提升舰装航空性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
+	name = "纳米陶铝合金",
+	rarity = 4,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21111,
+	is_world = 0,
+	icon = "Props/21111",
+	display_icon = {},
+	price = {},
+	index = {}
+}

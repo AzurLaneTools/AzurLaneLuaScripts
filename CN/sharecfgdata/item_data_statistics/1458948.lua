@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59755] = {
+	display = "由爱丁堡赠与的，作为共度平安夜的回礼",
+	name = "爱丁堡的回礼",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59755,
+	is_world = 0,
+	icon = "Props/shengye",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[15001] = {
+	display = "角色退役后所获得的荣誉勋章,可用于向军部申请稀有的角色",
+	name = "荣誉勋章",
+	rarity = 3,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15001,
+	is_world = 0,
+	icon = "Props/medal",
+	display_icon = {},
+	price = {},
+	index = {}
+}

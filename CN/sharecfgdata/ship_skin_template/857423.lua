@@ -1,0 +1,113 @@
+_G.pg.ship_skin_template[303115] = {
+	ship_group = 30311,
+	name = "至高焦点",
+	bullet_skin_secondary = "",
+	hand_id = 2,
+	bgm = "",
+	illustrator2 = -1,
+	bg = "132",
+	id = 303115,
+	group_index = 5,
+	shop_id = 70384,
+	painting = "gaoxiong_5",
+	air_bomb_skin = "",
+	air_bullet_skin = "",
+	shop_type_id = 14,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	bullet_skin_main = "",
+	skin_type = 4,
+	bg_sp = "",
+	voice_actor_2 = -1,
+	air_torpedo_skin = "",
+	prefab = "gaoxiong_5",
+	l2d_se = "",
+	aircraft_skin = "",
+	main_UI_FX = "",
+	special_effects = "",
+	desc = "呜…这、这种不知廉耻的装扮…要不是{namecode:67}一直说要有更多的生活体验…诶？很适合我？谢、谢谢……",
+	voice_actor = 8,
+	spine_offset = "",
+	illustrator = 21,
+	rarity_bg = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		4
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.571,
+				1.11,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.527,
+				1.097,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				1.434,
+				1.091,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.5,
+						2.46,
+						0
+					}
+				}
+			}
+		}
+	}
+}

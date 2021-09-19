@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59626] = {
+	display = "（曾经）陈列在鲐前辈博物馆中的船模零件，用于修复船模，活动结束后将会消失",
+	name = "零件",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 272,
+	id = 59626,
+	is_world = 0,
+	icon = "Props/gear",
+	display_icon = {},
+	price = {},
+	index = {}
+}

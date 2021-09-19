@@ -1,0 +1,50 @@
+_G.pg.shop_template[70336] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：马布尔黑德皮肤",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 1,
+	limit_args2 = "",
+	time_second = 0,
+	order = 7,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70336,
+	resource_num = 700,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		102271
+	},
+	time = {
+		{
+			{
+				2021,
+				8,
+				19
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2021,
+				9,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}

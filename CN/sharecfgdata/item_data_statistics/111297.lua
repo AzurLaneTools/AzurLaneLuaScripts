@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[16012] = {
+	display = "舰艇防御教材T2，用于训练角色防御技能可以获得额外的经验\n*可消耗<color=#ffde38>4</color>个合成<color=#ffde38>1</color>个<color=#ffde38>舰艇防御教材T3</color>",
+	name = "舰艇防御教材T2",
+	rarity = 3,
+	type = 10,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 16012,
+	is_world = 0,
+	icon = "Props/16012",
+	display_icon = {},
+	price = {},
+	index = {}
+}

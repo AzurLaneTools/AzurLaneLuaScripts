@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[18127] = {
+	display = "保密级别为绝密的实验计划书，可在<color=#92fc63>「科研」</color>-<color=#92fc63>「装备研发」</color>中使用",
+	name = "绝密实验计划",
+	rarity = 5,
+	type = 2,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 18127,
+	is_world = 1,
+	icon = "Props/18127",
+	display_icon = {},
+	price = {},
+	index = {}
+}

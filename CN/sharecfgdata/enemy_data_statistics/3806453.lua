@@ -1,0 +1,40 @@
+_G.pg.enemy_data_statistics[999573] = {
+	cannon = 0,
+	name = "中甲无限血测试敌人-前排鱼雷",
+	antiaircraft_growth = 0,
+	speed_growth = 0,
+	pilot_ai_template_id = 20006,
+	air = 0,
+	speed = 15,
+	dodge = 0,
+	id = 999573,
+	wave_fx = "danchuanlanghuaxiao2",
+	cannon_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	reload = 150,
+	star = 1,
+	hit = 8,
+	antisub_growth = 0,
+	rarity = 1,
+	air_growth = 0,
+	base = 70,
+	durability = 99999999,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	antiaircraft = 0,
+	hit_growth = 120,
+	armor = 0,
+	luck = 0,
+	torpedo = 300,
+	antisub = 0,
+	durability_growth = 0,
+	luck_growth = 0,
+	battle_unit_type = 35,
+	appear_fx = {
+		"appearsmall"
+	},
+	equipment_list = {
+		300011
+	}
+}

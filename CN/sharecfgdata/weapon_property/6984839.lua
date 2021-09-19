@@ -1,0 +1,48 @@
+_G.pg.weapon_property[680130] = {
+	recover_time = 0,
+	name = "【2020英系活动B1】BOSS U81 开幕鱼雷1",
+	shakescreen = 0,
+	type = 3,
+	torpedo_ammo = 0,
+	fire_fx = "",
+	action_index = "attack",
+	charge_param = "",
+	axis_angle = 0,
+	fire_fx_loop_type = 1,
+	attack_attribute = 2,
+	expose = 0,
+	search_type = 1,
+	effect_move = 0,
+	angle = 180,
+	reload_max = 9999,
+	queue = 1,
+	range = 120,
+	damage = 32,
+	suppress = 0,
+	auto_aftercast = 0,
+	corrected = 100,
+	min_range = 0,
+	initial_over_heat = 0,
+	spawn_bound = "torpedo",
+	fire_sfx = "",
+	id = 680130,
+	attack_attribute_ratio = 100,
+	aim_type = 0,
+	bullet_ID = {
+		750002,
+		750037
+	},
+	barrage_ID = {
+		760084,
+		760085
+	},
+	oxy_type = {
+		1,
+		2
+	},
+	search_condition = {
+		1,
+		2
+	},
+	precast_param = {}
+}

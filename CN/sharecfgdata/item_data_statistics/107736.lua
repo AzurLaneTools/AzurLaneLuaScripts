@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[15008] = {
+	display = "可用于认知觉醒，提升<color=#92fc63>100级以上且满足三次突破条件</color>的角色等级上限",
+	name = "心智单元",
+	rarity = 4,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15008,
+	is_world = 0,
+	icon = "Props/15008",
+	display_icon = {},
+	price = {},
+	index = {}
+}

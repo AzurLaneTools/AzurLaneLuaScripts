@@ -1,0 +1,40 @@
+_G.pg.enemy_data_statistics[10070201] = {
+	cannon = 12,
+	prefab = "srDD2",
+	reload = 150,
+	cannon_growth = 500,
+	speed_growth = 0,
+	air = 0,
+	rarity = 3,
+	dodge = 0,
+	torpedo = 30,
+	durability_growth = 6400,
+	antiaircraft = 25,
+	reload_growth = 0,
+	dodge_growth = 0,
+	luck = 0,
+	star = 3,
+	hit = 10,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 144,
+	base = 123,
+	durability = 240,
+	armor_growth = 0,
+	torpedo_growth = 3000,
+	luck_growth = 0,
+	speed = 15,
+	armor = 0,
+	battle_unit_type = 25,
+	antisub = 0,
+	id = 10070201,
+	antiaircraft_growth = 800,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		100219,
+		535001,
+		313091
+	}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[10114] = {
+	display = "B-54 100mm双联装防空炮T3设计图",
+	name = "B-54 100mm双联装防空炮T3设计图",
+	rarity = 3,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 10114,
+	is_world = 0,
+	icon = "Equips/85240",
+	display_icon = {},
+	price = {},
+	index = {}
+}

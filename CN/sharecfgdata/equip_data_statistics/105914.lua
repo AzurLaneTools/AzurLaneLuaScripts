@@ -1,0 +1,60 @@
+_G.pg.equip_data_statistics[1620] = {
+	type = 10,
+	name = "电动扬弹机",
+	speciality = "无",
+	tech = 2,
+	value_2 = 1,
+	ammo = 10,
+	descrip = "电动扬弹机，能够提高装填和炮击",
+	nationality = 0,
+	rarity = 2,
+	attribute_1 = "reload",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 1620,
+	icon = "1600",
+	value_1 = "5",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		8,
+		10,
+		11,
+		12,
+		13,
+		17,
+		18,
+		19
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		8,
+		10,
+		11,
+		12,
+		13,
+		17,
+		18,
+		19
+	},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}

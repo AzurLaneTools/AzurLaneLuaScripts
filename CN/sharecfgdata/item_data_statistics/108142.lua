@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[15009] = {
+	display = "更改指挥官登录名称时需要提交的证明，每<color=#92fc63>30天</color>仅限更改一次。\n通过主界面左上角的头像，点击名称旁的更名按钮可以变更指挥官的名称。",
+	name = "身份变更证明",
+	rarity = 5,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15009,
+	is_world = 0,
+	icon = "Props/15009",
+	display_icon = {},
+	price = {},
+	index = {}
+}

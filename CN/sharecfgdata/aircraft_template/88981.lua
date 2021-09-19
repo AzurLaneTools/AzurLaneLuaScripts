@@ -1,0 +1,75 @@
+_G.pg.aircraft_template[19200] = {
+	attack_power = 2,
+	name = "BTD-1毁灭者",
+	type = 3,
+	accuracy = 23,
+	model_ID = "BTD",
+	ACC_growth = 0,
+	crash_DMG = 206,
+	dodge = 3.39,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 19200,
+	icon = "BTD",
+	AP_growth = 2000,
+	dodge_limit = 1.6,
+	hp_growth = 1478,
+	speed = 45,
+	max_hp = 38,
+	scale = 1,
+	weapon_ID = {
+		50500,
+		52800
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.46,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}

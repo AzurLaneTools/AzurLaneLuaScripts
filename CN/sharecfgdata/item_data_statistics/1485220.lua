@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59902] = {
+	display = "指挥部派发的作战指令，使用后可以增加1次大舰队作战参与次数",
+	name = "大舰队作战指令",
+	rarity = 3,
+	type = 20,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59902,
+	is_world = 0,
+	icon = "Props/59902",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,67 @@
+_G.pg.equip_data_statistics[21500] = {
+	attribute_3 = "antiaircraft",
+	name = "双联装134mm高炮",
+	speciality = "锁定",
+	type = 1,
+	tech = 1,
+	ammo = 3,
+	rarity = 2,
+	damage = "4 x 2",
+	nationality = 2,
+	descrip = "说明未填写",
+	value_3 = 3,
+	id = 21500,
+	value_2 = 2,
+	icon = "21500",
+	torpedo_ammo = 0,
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			1,
+			1100
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1100
+		},
+		{
+			4,
+			1011
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		21500
+	},
+	skill_id = {},
+	part_main = {
+		1,
+		19
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"DD",
+		"MG"
+	}
+}
