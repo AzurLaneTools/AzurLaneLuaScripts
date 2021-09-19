@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70071] = {
+	display = "미사키가 좋아하는 음식: 망고 바닐라 크레이프. 미사키 취향 정보 해제 가능",
+	name = "좋아하는 음식(미사키)",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 20610,
+	id = 70071,
+	is_world = 0,
+	icon = "Props/doa_collect",
+	display_icon = {},
+	price = {},
+	index = {}
+}

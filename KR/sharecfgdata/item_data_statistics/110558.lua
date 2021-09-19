@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[15010] = {
+	display = "구조신호의 수신 감도를 향상시켜준다. 사용하면 구조신호 수가 +1이 된다.",
+	name = "구조신호 수신장치",
+	rarity = 4,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15010,
+	is_world = 0,
+	icon = "Props/15010",
+	display_icon = {},
+	price = {},
+	index = {}
+}

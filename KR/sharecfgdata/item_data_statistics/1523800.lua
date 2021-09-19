@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[69000] = {
+	display = "대함대 작전 대미지 수치. 대함대 보스 대미지 결산용",
+	name = "대미지 수치",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 69000,
+	is_world = 0,
+	icon = "Props/guild_boss_damage",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59726] = {
+	display = "엔터프라이즈에게 받은 연회 초대의 답례",
+	name = "엔터프라이즈의 답례",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59726,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	display_icon = {},
+	price = {},
+	index = {}
+}

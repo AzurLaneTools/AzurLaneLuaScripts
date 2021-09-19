@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59949] = {
+	display = "아타고로부터 받은 신년 연하장",
+	name = "아타고의 연하장",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59949,
+	is_world = 0,
+	icon = "Props/nianhezhuang",
+	display_icon = {},
+	price = {},
+	index = {}
+}

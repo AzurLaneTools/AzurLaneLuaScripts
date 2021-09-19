@@ -1,0 +1,3 @@
+_G.pg.gametip.new_airi_error_code_100113 = {
+	tip = "Account binding success; Verification failed, this UID does not match with Token, failed to acquire Access Token"
+}

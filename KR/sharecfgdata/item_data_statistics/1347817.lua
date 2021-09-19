@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59104] = {
+	display = "이벤트 보상으로 교환할 수 있다. (교환 기간 종료 후 삭제됩니다.)",
+	name = "현판",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59104,
+	is_world = 0,
+	icon = "Props/hongfeng",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70046] = {
+	display = "「환상과 진실의 이중주」이벤트 참여로 획득할 수 있는 퓨리파이어 기념 뱃지",
+	name = "퓨리파이어 기념 뱃지",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 20331,
+	id = 70046,
+	is_world = 0,
+	icon = "Props/hololive_jinghuazhe",
+	display_icon = {},
+	price = {},
+	index = {}
+}

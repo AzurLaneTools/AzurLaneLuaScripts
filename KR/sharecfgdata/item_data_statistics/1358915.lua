@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59135] = {
+	display = "「전설 속의 하프물범」에 관한 단서. 더 많은 정보를 수집하고, 하프물범을 찾아라! 『바다의 아이돌』 이벤트에 사용되며, 이벤트 종료 후 사라짐. ",
+	name = "하프물범 목격 정보 ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59135,
+	is_world = 0,
+	icon = "Props/qixihaibaopt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

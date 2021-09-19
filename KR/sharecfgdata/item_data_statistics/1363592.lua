@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59147] = {
+	display = "『빛나는 벚꽃의 그림자』이벤트에서 교환. 이벤트 종료 후 사라짐 ",
+	name = "곡옥 ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59147,
+	is_world = 0,
+	icon = "Props/xinrixi_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[71] = {
+	display = "B-54 100mm 연장 대공포 T2 설계도",
+	name = "B-54 100mm 연장 대공포 T2 설계도",
+	rarity = 2,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 71,
+	is_world = 0,
+	icon = "Equips/85240",
+	display_icon = {},
+	price = {},
+	index = {}
+}

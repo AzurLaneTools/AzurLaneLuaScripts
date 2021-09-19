@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59219] = {
+	display = "『쥬쥬 교환소』 보상 교환용. 이벤트 종료 후 사라짐",
+	name = "쥬쥬 교환권",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 15,
+	link_id = 20770,
+	id = 59219,
+	is_world = 0,
+	icon = "Props/AmusementparkshopPT",
+	display_icon = {},
+	price = {},
+	index = {}
+}

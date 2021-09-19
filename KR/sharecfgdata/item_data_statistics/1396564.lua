@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59601] = {
+	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
+	name = "프라모델-카와카제",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 20044,
+	id = 59601,
+	is_world = 0,
+	icon = "Props/jiujiu",
+	display_icon = {},
+	price = {},
+	index = {}
+}

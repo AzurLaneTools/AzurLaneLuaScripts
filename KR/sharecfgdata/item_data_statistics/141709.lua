@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[20010] = {
+	display = "냥박스 훈련 시간을 20분 단축할 수 있는 가속 아이템",
+	name = "냥박스 훈련 가속 아이템",
+	rarity = 3,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 20010,
+	is_world = 0,
+	icon = "Props/20010",
+	display_icon = {},
+	price = {},
+	index = {}
+}

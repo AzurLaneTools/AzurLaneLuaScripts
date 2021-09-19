@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59187] = {
+	display = "7개 수집 후, 한정 캐릭터「르 말랭(μ장비)」획득 가능",
+	name = "가창음표",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59187,
+	is_world = 0,
+	icon = "props/music_stage1",
+	display_icon = {},
+	price = {},
+	index = {}
+}

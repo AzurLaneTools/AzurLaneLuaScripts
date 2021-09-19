@@ -1,0 +1,3 @@
+_G.pg.gametip.word_secondseach = {
+	tip = "/회"
+}

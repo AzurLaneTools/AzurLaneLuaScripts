@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[10065] = {
+	display = "127mm 연장 고사포 T3 설계도",
+	name = "127mm 연장 고사포 T3 설계도",
+	rarity = 3,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 10065,
+	is_world = 0,
+	icon = "Equips/36600",
+	display_icon = {},
+	price = {},
+	index = {}
+}

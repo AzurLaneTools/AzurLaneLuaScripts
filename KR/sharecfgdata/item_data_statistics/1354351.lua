@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59122] = {
+	display = "「특별연습·에식스 급」에 참여하면 포인트를 획득하고, 일정량 누적 시 보상을 획득할 수 있다. ",
+	name = "기여치 ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59122,
+	is_world = 0,
+	icon = "Props/59122",
+	display_icon = {},
+	price = {},
+	index = {}
+}

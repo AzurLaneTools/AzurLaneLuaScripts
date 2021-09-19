@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59762] = {
+	display = "Belli dura despicio! 워스파이트의 근대화 개수에 사용된다. ",
+	name = "전사의 마음가짐 ",
+	rarity = 4,
+	type = 7,
+	drop_oil_max = 0,
+	shiptrans_id = 205124,
+	shop_id = -1,
+	replace_item = 59939,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59762,
+	is_world = 0,
+	icon = "Props/yanzhandabaojian",
+	display_icon = {},
+	price = {},
+	index = {}
+}

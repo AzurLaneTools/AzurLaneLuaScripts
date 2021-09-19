@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[60129] = {
+	display = "축복이 담긴 연하장. 사용 후 지정된 캐릭터 중에 임의로 선택 후 획득 가능",
+	name = "연하장(신축)",
+	rarity = 4,
+	type = 21,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 0,
+	id = 60129,
+	is_world = 0,
+	icon = "Props/henianka",
+	price = "",
+	display_icon = {},
+	index = {}
+}

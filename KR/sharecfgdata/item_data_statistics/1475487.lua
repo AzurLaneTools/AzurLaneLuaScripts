@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59977] = {
+	display = "물감 H, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 H",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 20614,
+	id = 59977,
+	is_world = 0,
+	icon = "props/z23draw_h",
+	display_icon = {},
+	price = {},
+	index = {}
+}

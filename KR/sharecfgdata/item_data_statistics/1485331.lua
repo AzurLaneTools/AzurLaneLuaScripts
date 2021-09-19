@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[61001] = {
+	display = "작전 효율을 상승시키기 위해 설계된 특별 명령서. 일부 일반 스테이지의 주회 모드에서 사용 가능. 사용 시 해당 작전의 전투에서 사용하는 연료가 2배로 증가하며, 전투 후 얻는 수익도 2배로 증가한다.",
+	name = "고효율 작전 명령서",
+	rarity = 3,
+	type = 19,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 61001,
+	is_world = 0,
+	icon = "Props/tebiezuozhan",
+	display_icon = {},
+	price = {},
+	index = {}
+}

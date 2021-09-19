@@ -1,0 +1,13 @@
+_G.pg.ship_data_breakout[108064] = {
+	use_gold = 0,
+	breakout_id = 0,
+	use_char_num = 0,
+	use_char = 10806,
+	breakout_view = "없음",
+	level = 0,
+	id = 108064,
+	icon = "10001",
+	pre_id = 108063,
+	use_item = {},
+	weapon_ids = {}
+}

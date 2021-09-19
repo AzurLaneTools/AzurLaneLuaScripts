@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59002] = {
+	display = "함선이나 비행기를 움직이는 데에 필요한 연료.",
+	name = "연료",
+	rarity = 1,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59002,
+	is_world = 0,
+	icon = "Props/oil",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59130] = {
+	display = "이벤트[내일의 스타? 깜짝 등장!] 중 캐릭터의 호감도 증가에 사용됩니다, 이벤트 종료 후 사라집니다. ",
+	name = "호감도",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59130,
+	is_world = 0,
+	icon = "Props/shengdiyagePT",
+	display_icon = {},
+	price = {},
+	index = {}
+}

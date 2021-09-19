@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[80] = {
+	display = "단장 155mm 부포 Mle1920 T0 설계도",
+	name = "단장 155mm 부포 Mle1920 T0 설계도",
+	rarity = 2,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 80,
+	is_world = 0,
+	icon = "Equips/50800",
+	display_icon = {},
+	price = {},
+	index = {}
+}

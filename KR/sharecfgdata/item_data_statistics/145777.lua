@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[21004] = {
+	display = "{namecode:205}의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정: {namecode:205}",
+	rarity = 4,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21004,
+	is_world = 0,
+	icon = "Props/21004",
+	display_icon = {},
+	price = {},
+	index = {}
+}

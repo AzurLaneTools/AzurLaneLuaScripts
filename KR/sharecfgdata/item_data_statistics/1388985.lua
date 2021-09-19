@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59216] = {
+	display = "<분투하자, 꼬마 엔터프라이즈!> 이벤트에서 캐릭터 호감도를 상승시키는데 사용되며, 이벤트 종료 후엔 자동 소멸된다.",
+	name = "호감도-꼬마 엔터프라이즈",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59216,
+	is_world = 0,
+	icon = "Props/xiaoqiye_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[1004] = {
+	display = "성스러운 밤──크리스마스이브. 바라노니 모든 이들에게 평안과 행복이 함께하기를...",
+	name = "성야의 선물",
+	rarity = 4,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 1004,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
+	price = {},
+	index = {}
+}

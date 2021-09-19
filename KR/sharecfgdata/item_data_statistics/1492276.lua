@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[60057] = {
+	display = "『특별 연습·에식스급』에서 획득한 포인트. 일정 수량 누적하여 보상 획득 가능",
+	name = "공헌도",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60057,
+	is_world = 0,
+	icon = "Props/59122",
+	display_icon = {},
+	price = {},
+	index = {}
+}

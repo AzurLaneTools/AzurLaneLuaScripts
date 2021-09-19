@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[11048] = {
+	display = "3연장 152mm 주포 Model 1934 T3 설계도",
+	name = "3연장 152mm 주포 Model 1934 T3 설계도",
+	rarity = 4,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11048,
+	is_world = 0,
+	icon = "Equips/55600",
+	display_icon = {},
+	price = {},
+	index = {}
+}

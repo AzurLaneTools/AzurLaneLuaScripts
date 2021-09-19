@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59227] = {
+	display = "축제의 미니게임에서 받을 수 있는 스탬프. 스탬프북을 모두 채우면 특별한 보상을 받을 수 있어요! ",
+	name = "여름 축제 스탬프",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59227,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {}
+}

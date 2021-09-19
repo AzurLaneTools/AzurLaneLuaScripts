@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[1011] = {
+	display = "상세한 작전 과정이 기록되어 있는 정식 문건. 사령부가 결정을 내리는 데 있어 중요한 참고 사항. (이벤트 종료 시 회수됨)",
+	name = "작전 보고서 ",
+	rarity = 3,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 1011,
+	is_world = 0,
+	icon = "Props/zuozhanbaogao",
+	display_icon = {},
+	price = {},
+	index = {}
+}

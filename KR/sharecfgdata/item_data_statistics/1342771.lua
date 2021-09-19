@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59001] = {
+	display = "각종 재화를 통틀어 가리키며, 다양한 곳에 사용된다.",
+	name = "물자",
+	rarity = 1,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59001,
+	is_world = 0,
+	icon = "Props/gold",
+	display_icon = {},
+	price = {},
+	index = {}
+}

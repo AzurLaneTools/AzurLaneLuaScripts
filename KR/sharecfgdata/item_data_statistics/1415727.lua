@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59733] = {
+	display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
+	name = "워스파이트의 답례 (패키지)",
+	rarity = 2,
+	type = 5,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59733,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	display_icon = {},
+	price = {},
+	index = {}
+}

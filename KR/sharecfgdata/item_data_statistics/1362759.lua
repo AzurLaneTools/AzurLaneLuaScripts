@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59145] = {
+	display = "「미오의 항구 점술관」이벤트에서 캐릭터 호감도 상승에 사용. 이벤트 종료 시 삭제된다. ",
+	name = "호감도-오오카미 미오 ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59145,
+	is_world = 0,
+	icon = "Props/dashenling_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

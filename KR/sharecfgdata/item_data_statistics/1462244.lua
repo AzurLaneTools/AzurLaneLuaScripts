@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59939] = {
+	display = "워스파이트의 특별 훈련 이벤트 참여 기념품",
+	name = "전쟁 기념 증표",
+	rarity = 3,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59939,
+	is_world = 0,
+	icon = "Props/lizhanzhizheng",
+	display_icon = {},
+	price = {},
+	index = {}
+}

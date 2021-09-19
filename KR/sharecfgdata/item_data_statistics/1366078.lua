@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59153] = {
+	display = "이국의 아이돌? 보상 교환용 아이템. 이벤트 종료 후에 사라진다. ",
+	name = "장구 ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59153,
+	is_world = 0,
+	icon = "Props/drum",
+	display_icon = {},
+	price = {},
+	index = {}
+}

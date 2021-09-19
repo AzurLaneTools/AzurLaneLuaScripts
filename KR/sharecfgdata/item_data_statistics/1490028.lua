@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[60051] = {
+	display = "워스파이트로부터의 연회 초대에 대한 답례",
+	name = "워스파이트의 답례",
+	rarity = 9,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60051,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	display_icon = {},
+	price = {},
+	index = {}
+}

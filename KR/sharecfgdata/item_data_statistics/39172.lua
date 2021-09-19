@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[10019] = {
+	display = "개량형 203mm 3연장포 T3 설계도",
+	name = "개량형 203mm 3연장포 T3 설계도",
+	rarity = 3,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 10019,
+	is_world = 0,
+	icon = "Equips/13100",
+	display_icon = {},
+	price = {},
+	index = {}
+}

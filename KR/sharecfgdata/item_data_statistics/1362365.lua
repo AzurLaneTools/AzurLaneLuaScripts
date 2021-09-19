@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59144] = {
+	display = "「환상과 진실의 이중주」이벤트 교환에 사용. 이벤트 종료 시 삭제된다. ",
+	name = "P-TNT",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59144,
+	is_world = 0,
+	icon = "Props/hololive_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

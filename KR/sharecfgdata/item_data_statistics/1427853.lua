@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59765] = {
+	display = "그림 교실 이벤트에 쓰이는 아이템. 이벤트가 끝나면 자동으로 사라진다.",
+	name = "물감 B",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 20130,
+	id = 59765,
+	is_world = 0,
+	icon = "props/draw_b",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,25 @@
+_G.pg.shop_template[61006] = {
+	is_auto_use = 0,
+	resource_type = 14,
+	genre = "gem_shop",
+	type = 1,
+	desc = "450 다이아로 15000 물자를 구입",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 1,
+	limit_args2 = "",
+	time_second = 0,
+	order = 5,
+	time = "always",
+	group = 0,
+	num = 15000,
+	discount = 0,
+	group_type = 0,
+	id = 61006,
+	resource_num = 450,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		1
+	}
+}

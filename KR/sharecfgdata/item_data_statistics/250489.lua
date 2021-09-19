@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[41314] = {
+	display = "애버크롬비에게 받은 밸런타인 데이 선물",
+	name = "밸런타인 데이 선물",
+	rarity = 8,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 41314,
+	is_world = 0,
+	icon = "SquareIcon/abeikelongbi",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,15 @@
+_G.pg.ship_data_breakout[10400022] = {
+	use_gold = 3000,
+	breakout_id = 10400023,
+	use_char_num = 1,
+	use_char = 1040002,
+	breakout_view = "주포 효율 +10%",
+	level = 30,
+	id = 10400022,
+	icon = "10001",
+	pre_id = 10400021,
+	use_item = {},
+	weapon_ids = {
+		33000
+	}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[100000] = {
+	display = "비콘의 데이터 기록. 지정 데이터량 도달 후 비콘·META 화면에서해석할 수 있다.",
+	name = "비콘 데이터",
+	rarity = 3,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 14,
+	link_id = 1000000,
+	id = 100000,
+	is_world = 0,
+	icon = "Props/100000",
+	display_icon = {},
+	price = {},
+	index = {}
+}

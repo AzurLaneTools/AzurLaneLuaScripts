@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59749] = {
+	display = "나는야 No.1!! 샌디에이고의 근대화 개조를 완성하는데 쓰인다.",
+	name = "빛나는 마이크",
+	rarity = 4,
+	type = 7,
+	drop_oil_max = 0,
+	shiptrans_id = 102174,
+	shop_id = -1,
+	replace_item = 59773,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59749,
+	is_world = 0,
+	icon = "Props/shanyaomaikefeng",
+	display_icon = {},
+	price = {},
+	index = {}
+}

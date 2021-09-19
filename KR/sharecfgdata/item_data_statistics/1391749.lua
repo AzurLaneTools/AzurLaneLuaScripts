@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59222] = {
+	display = "야마시로를 도와 수집한 휴일 해변의 공기. 『휴일의 공세』 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "공기를 담은 병",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59222,
+	is_world = 0,
+	icon = "Props/TWkaifuPT",
+	display_icon = {},
+	price = {},
+	index = {}
+}

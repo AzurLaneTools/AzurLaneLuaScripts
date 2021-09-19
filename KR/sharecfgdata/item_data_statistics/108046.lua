@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[15005] = {
+	display = "숙소 증축 허가서.",
+	name = "확장 허가서",
+	rarity = 3,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 15005,
+	is_world = 0,
+	icon = "Props/kuojian_",
+	display_icon = {},
+	price = {},
+	index = {}
+}

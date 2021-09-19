@@ -1,0 +1,41 @@
+_G.pg.enemy_data_statistics[12400119] = {
+	cannon = 31,
+	reload = 150,
+	speed_growth = 0,
+	cannon_growth = 2592,
+	pilot_ai_template_id = 10001,
+	air = 0,
+	rarity = 3,
+	dodge = 3,
+	torpedo = 0,
+	durability_growth = 49600,
+	antiaircraft = 45,
+	reload_growth = 0,
+	dodge_growth = 48,
+	hit_growth = 210,
+	star = 4,
+	hit = 18,
+	antisub_growth = 0,
+	air_growth = 0,
+	battle_unit_type = 65,
+	base = 377,
+	durability = 1020,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	luck_growth = 0,
+	speed = 18,
+	luck = 0,
+	id = 12400119,
+	antiaircraft_growth = 3744,
+	antisub = 0,
+	armor = 0,
+	appear_fx = {
+		"appearQ"
+	},
+	equipment_list = {
+		1100020,
+		1100625,
+		1100041,
+		1100731
+	}
+}

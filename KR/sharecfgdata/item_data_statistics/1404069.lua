@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59626] = {
+	display = "(한때) 미카사 선배의 프라모델 박물관에 진열되었던 프라모델의 부품. 프라모델을 복원하는데 쓰인다. 이벤트 기간 종료 시 인벤토리에서 자동소멸된다.",
+	name = "부품",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 20169,
+	id = 59626,
+	is_world = 0,
+	icon = "Props/gear",
+	display_icon = {},
+	price = {},
+	index = {}
+}

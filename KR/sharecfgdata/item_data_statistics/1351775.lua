@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59116] = {
+	display = "<어둠에 떨어진 푸른 날개> 이벤트에서 획득할 수 있으며, 이벤트 종료 뒤엔 자동으로 사라진다.",
+	name = "배틀 스타",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59116,
+	is_world = 0,
+	icon = "Props/StarPT",
+	display_icon = {},
+	price = {},
+	index = {}
+}

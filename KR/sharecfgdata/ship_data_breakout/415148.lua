@@ -1,0 +1,15 @@
+_G.pg.ship_data_breakout[502053] = {
+	use_gold = 2500,
+	breakout_id = 502054,
+	use_char_num = 2,
+	use_char = 50205,
+	breakout_view = "전탄 발사 스킬 강화 / 주포 효율 +15%",
+	level = 70,
+	id = 502053,
+	icon = "10001",
+	pre_id = 502052,
+	use_item = {},
+	weapon_ids = {
+		74132
+	}
+}

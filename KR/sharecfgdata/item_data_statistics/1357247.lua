@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59129] = {
+	display = "[메탈 블로드, 음표 & 맹세] 이벤트 교환에 사용된다. 이벤트 종료 후 사라진다. ",
+	name = "메탈 블러드 문장 ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59129,
+	is_world = 0,
+	icon = "Props/bsm_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

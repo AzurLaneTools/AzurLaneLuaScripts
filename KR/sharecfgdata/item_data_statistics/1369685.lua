@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59164] = {
+	display = "『축제광장』에서 건물 업그레이드용 아이템. 이벤트 종료 후 사라짐",
+	name = "축제용 건축 자재",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 12,
+	link_id = 20462,
+	id = 59164,
+	is_world = 0,
+	icon = "Props/houshancailiao",
+	display_icon = {},
+	price = {},
+	index = {}
+}

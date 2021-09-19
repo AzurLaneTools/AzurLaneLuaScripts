@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70060] = {
+	display = "사용하여「화보·{namecode:97}」해제 가능",
+	name = "화보·{namecode:97}",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 20586,
+	id = 70060,
+	is_world = 0,
+	icon = "Props/music_pomie",
+	display_icon = {},
+	price = {},
+	index = {}
+}

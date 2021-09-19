@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[110001] = {
+	display = "대형 작전 중 특수 자원 교환에 사용되는 증빙 토큰. 매우 희귀하며, 얻기 어렵다. 작전 종료 후 모두 회수되니, 제때 사용하세요.",
+	name = "특별 교환 증빙",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 110001,
+	is_world = 0,
+	icon = "Props/Wdashijiezhaungbeibi",
+	display_icon = {},
+	price = {},
+	index = {}
+}

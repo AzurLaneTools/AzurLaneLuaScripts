@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[21101] = {
+	display = "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
+	name = "결정화 내열강",
+	rarity = 4,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21101,
+	is_world = 0,
+	icon = "Props/21101",
+	display_icon = {},
+	price = {},
+	index = {}
+}

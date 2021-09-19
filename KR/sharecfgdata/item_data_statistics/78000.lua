@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[11007] = {
+	display = "305mm 3연장포 MK8 T3 설계도",
+	name = "305mm 3연장포 MK8 T3 설계도",
+	rarity = 4,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11007,
+	is_world = 0,
+	icon = "Equips/14000",
+	display_icon = {},
+	price = {},
+	index = {}
+}

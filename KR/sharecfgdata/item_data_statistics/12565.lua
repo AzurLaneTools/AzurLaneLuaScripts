@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[38] = {
+	display = "Ju-87C 급강하 폭격기 T2 설계도",
+	name = "Ju-87C 급강하 폭격기 T2 설계도",
+	rarity = 2,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 38,
+	is_world = 0,
+	icon = "Equips/49000",
+	display_icon = {},
+	price = {},
+	index = {}
+}

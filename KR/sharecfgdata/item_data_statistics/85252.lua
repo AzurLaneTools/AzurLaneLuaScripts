@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[11028] = {
+	display = "아카시가 찾고 있는 재료. 어떤 특별한 장비를 제작하는 데 사용된다고 하는데...?",
+	name = "신기한 재료",
+	rarity = 4,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11028,
+	is_world = 0,
+	icon = "Equips/540",
+	display_icon = {},
+	price = {},
+	index = {}
+}

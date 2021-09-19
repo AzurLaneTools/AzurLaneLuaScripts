@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59625] = {
+	display = "전함 미카사의 1:100 프라모델 모형",
+	name = "프라모델-미카사",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 20169,
+	id = 59625,
+	is_world = 0,
+	icon = "Props/jiujiu",
+	display_icon = {},
+	price = {},
+	index = {}
+}

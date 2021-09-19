@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59218] = {
+	display = "『쥬쥬랜드』 건물 업그레이드용. 이벤트 종료 후 사라짐",
+	name = "랜드 건설 재료",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 12,
+	link_id = 20769,
+	id = 59218,
+	is_world = 0,
+	icon = "Props/houshancailiao3",
+	display_icon = {},
+	price = {},
+	index = {}
+}

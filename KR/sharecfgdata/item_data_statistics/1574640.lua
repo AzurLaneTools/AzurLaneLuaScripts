@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70081] = {
+	display = "「바다에 울려퍼지는 아이돌 노래」 이벤트에서 수집한 아이템. 14개 수집 시, 기념 가구 획득 가능",
+	name = "자료 수집①(키사라기 치하야)",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 20813,
+	id = 70081,
+	is_world = 0,
+	icon = "Props/idolphotos",
+	display_icon = {},
+	price = {},
+	index = {}
+}

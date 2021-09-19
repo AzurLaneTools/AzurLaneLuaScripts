@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70032] = {
+	display = "휘장·셰필드μ",
+	name = "휘장·셰필드μ",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 20312,
+	id = 70032,
+	is_world = 0,
+	icon = "Props/music_xiefei",
+	display_icon = {},
+	price = {},
+	index = {}
+}

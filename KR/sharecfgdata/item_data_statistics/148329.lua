@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[21902] = {
+	display = "「비콘·META」 전투 중 수집한 데이터. 아크 로열·META의 동기화율을 높일 수 있다. 이벤트 종료 후 사라짐.",
+	name = "동기화 수치: 아크 로열·META",
+	rarity = 4,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21902,
+	is_world = 0,
+	icon = "Props/21902",
+	display_icon = {},
+	price = {},
+	index = {}
+}

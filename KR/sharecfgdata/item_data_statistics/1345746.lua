@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59010] = {
+	display = "스테이지 BOSS 격파, 특정 임무 완료, 과학 연구 개발 완료 또는 개조하지 않은 UR 함선 퇴역 시 획득. 원형 상점에서 보상과 교환 가능.",
+	name = "특장 원형",
+	rarity = 5,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59010,
+	is_world = 0,
+	icon = "Props/specialarmor_prt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59149] = {
+	display = "「동절의 북해」이벤트에서 교환. 이벤트 종료 후 사라집니다. ",
+	name = "정보Pt ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59149,
+	is_world = 0,
+	icon = "Props/maoxi_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

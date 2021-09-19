@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59008] = {
+	display = "지휘부에서 배포한 신형 화폐. 지휘관의 지난 공헌을 상징한다. 모든 대함대에서 사용 가능",
+	name = "함대 코인",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59008,
+	is_world = 0,
+	icon = "Props/guildIcon",
+	display_icon = {},
+	price = {},
+	index = {}
+}

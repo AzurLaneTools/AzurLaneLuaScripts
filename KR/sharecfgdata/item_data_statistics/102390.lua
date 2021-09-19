@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[13028] = {
+	display = "시제형 3연장 406mm 주포 Model 1940 T0 설계도",
+	name = "시제형 3연장 406mm 주포 Model 1940 T0 설계도",
+	rarity = 4,
+	type = 9,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 13028,
+	is_world = 0,
+	icon = "Equips/55900",
+	display_icon = {},
+	price = {},
+	index = {}
+}

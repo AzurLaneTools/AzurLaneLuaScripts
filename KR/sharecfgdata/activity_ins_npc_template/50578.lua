@@ -1,0 +1,18 @@
+_G.pg.activity_ins_npc_template[252] = {
+	ship_group = 20207,
+	message_persist = "op_reply_31_1_1",
+	id = 252,
+	npc_reply_persist = "",
+	time_persist = {
+		{
+			2019,
+			12,
+			26
+		},
+		{
+			14,
+			0,
+			0
+		}
+	}
+}

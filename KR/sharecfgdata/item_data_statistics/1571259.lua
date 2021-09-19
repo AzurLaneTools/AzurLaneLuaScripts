@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70073] = {
+	display = "나기사가 좋아하는 음식: 수플레 팬케이크. 나기사 취향 정보 해제 가능",
+	name = "좋아하는 음식(나기사)",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 20610,
+	id = 70073,
+	is_world = 0,
+	icon = "Props/doa_collect",
+	display_icon = {},
+	price = {},
+	index = {}
+}

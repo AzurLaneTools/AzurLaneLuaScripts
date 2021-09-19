@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59142] = {
+	display = "[저편을 건너온 물결] EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
+	name = "특별 도전권",
+	rarity = 4,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59142,
+	is_world = 0,
+	icon = "Props/special_ticket",
+	display_icon = {},
+	price = {},
+	index = {}
+}

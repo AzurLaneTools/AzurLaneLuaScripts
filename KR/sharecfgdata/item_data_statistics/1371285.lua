@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59169] = {
+	display = "『피오르드 반격전』 이벤트 교환용 아이템. 이벤트 종료 후 사라집니다. ",
+	name = "피오르드 휘장 ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59169,
+	is_world = 0,
+	icon = "Props/naerweike2_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

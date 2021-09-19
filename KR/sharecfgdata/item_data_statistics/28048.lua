@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[1001] = {
+	display = "콜라와 감자칩의 조합은 정의야!",
+	name = "감자칩 세트",
+	rarity = 4,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 1001,
+	is_world = 0,
+	icon = "Props/potechi",
+	display_icon = {},
+	price = {},
+	index = {}
+}

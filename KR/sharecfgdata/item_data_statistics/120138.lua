@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[17031] = {
+	display = "대공 계열 장비를 강화하는 데에 쓰이는 강화 부속.",
+	name = "대공포 부속 T1",
+	rarity = 1,
+	type = 4,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 17031,
+	is_world = 1,
+	icon = "Props/17031",
+	display_icon = {},
+	price = {},
+	index = {}
+}

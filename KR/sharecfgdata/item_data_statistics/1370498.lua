@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59167] = {
+	display = "「만쥬대모험」을 통해 획득. 7개를 수집하면 「특별 초대장 2020」과 교환 가능. ",
+	name = "만쥬초대장 ",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59167,
+	is_world = 0,
+	icon = "props/yaoqinghan",
+	display_icon = {},
+	price = {},
+	index = {}
+}

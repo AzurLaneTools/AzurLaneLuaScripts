@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59967] = {
+	display = "「싸워라! 로열 메이드 2nd」 참여로 획득하는 포인트. 적립 시 보수를 받을 수 있다.",
+	name = "공헌도",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59967,
+	is_world = 0,
+	icon = "Props/nvpu2_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59774] = {
+	display = "1주년 이벤트 [재탄생의 새벽] 완료 기념- 지휘관님, 제가 들고 있던 빵과 보드카를 보신 적 있으신가요? ",
+	name = "재탄생의 새벽 ",
+	rarity = 3,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59774,
+	is_world = 0,
+	icon = "props/yizhounian",
+	display_icon = {},
+	price = {},
+	index = {}
+}

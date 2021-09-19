@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59823] = {
+	display = "과거 작전 내역(상설 복각 이벤트)에 접속하기 위한 데이터 키. 소비 아이템 ",
+	name = "데이터 키 ",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 7,
+	link_id = 0,
+	id = 59823,
+	is_world = 0,
+	icon = "Props/activity_tickets",
+	display_icon = {},
+	price = {},
+	index = {}
+}

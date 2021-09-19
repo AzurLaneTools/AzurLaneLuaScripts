@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[110002] = {
+	display = "대형 작전에서 수집한 「비콘 데이터」를 기록하는 장치. 지정 데이터량 도달 후 해당 데이터를 해석하여 특정한 비콘 발견 가능",
+	name = "작전 준비 물자 교환권",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 110002,
+	is_world = 0,
+	icon = "Props/Wdashijiezhanbeiwuzi",
+	display_icon = {},
+	price = {},
+	index = {}
+}

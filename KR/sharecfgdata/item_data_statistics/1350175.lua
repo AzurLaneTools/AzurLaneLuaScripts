@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59112] = {
+	display = "빛과 그림자의 아이리스' 보상 교환용 아이템. 이벤트 종료 후에 제거된다. ",
+	name = "교국의 훈장 ",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59112,
+	is_world = 0,
+	icon = "Props/faxipt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

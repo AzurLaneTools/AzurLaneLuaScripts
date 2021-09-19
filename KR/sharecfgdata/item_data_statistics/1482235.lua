@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[60030] = {
+	display = "「황금의 보물」 이벤트 아이템",
+	name = "단서「M」",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 20715,
+	id = 60030,
+	is_world = 0,
+	icon = "Props/zuantou",
+	display_icon = {},
+	price = {},
+	index = {}
+}

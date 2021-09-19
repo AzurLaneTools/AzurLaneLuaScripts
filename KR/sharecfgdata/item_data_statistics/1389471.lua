@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59217] = {
+	display = "『사령부 동원 지령』 이벤트 누적하여 보상 획득 가능. 이벤트 종료 후 사라짐.",
+	name = "집결 PT",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59217,
+	is_world = 0,
+	icon = "Props/union_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}
