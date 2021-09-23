@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 40336
+		act_id = 40420
 	},
 	ACTIVITY_BOSS_PT_ID = {
 		act_id = 4031
@@ -637,10 +637,10 @@ pg.activity_const = {
 		act_id = 690
 	},
 	UR_ITEM_ACT_ID = {
-		act_id = 711
+		act_id = 40422
 	},
 	UR_TASK_ACT_ID = {
-		act_id = 713
+		act_id = 40424
 	},
 	DOA_MEDAL_ACT_ID = {
 		act_id = 40228
@@ -793,10 +793,10 @@ pg.activity_const = {
 		act_id = 4078
 	},
 	JIUJIU_YOYO_ID = {
-		act_id = 4120
+		act_id = 40431
 	},
 	JP_CEREMONY_INVITATION_ID = {
-		act_id = 4110
+		act_id = 40427
 	},
 	RETUREN_AWARD_1 = {
 		act_id = 4111

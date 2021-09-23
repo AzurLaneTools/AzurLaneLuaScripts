@@ -6207,6 +6207,258 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1410001] = {
+		map = 1410001,
+		name = "蝶海夢花·現世|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "DIEHAIMENGHUA1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		ani_name = "Map_1350001",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 40413,
+		ui_type = 3,
+		bg = "Map_1350001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1410011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1410002] = {
+		map = 1410002,
+		name = "蝶海夢花·夢境|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "main-newyear",
+		ani_name = "Map_1350002",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 40413,
+		ui_type = 3,
+		bg = "Map_1350002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1410012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1410011] = {
+		map = 1410011,
+		name = "蝶海夢花·現世|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "DIEHAIMENGHUA1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		ani_name = "Map_1350003",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 40413,
+		ui_type = 3,
+		bg = "Map_1350003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1410001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1410012] = {
+		map = 1410012,
+		name = "蝶海夢花·夢境|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "main-newyear",
+		ani_name = "Map_1350004",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 40413,
+		ui_type = 3,
+		bg = "Map_1350004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1410002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1410020] = {
+		map = 1410020,
+		name = "蝶海夢花·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		ani_name = "Map_1350004",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 40413,
+		ui_type = 3,
+		bg = "Map_1350004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1410012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1410021] = {
+		map = 1410021,
+		name = "蝶海夢花·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		ani_name = "Map_1350004",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 40413,
+		ui_type = 3,
+		bg = "Map_1350004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1410012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1450001] = {
 		map = 1450001,
 		name = "假日航線|| ||CHAPTER EX||E.X.",
@@ -7741,6 +7993,12 @@ pg.expedition_data_by_map = {
 		1380012,
 		1380025,
 		1380026,
+		1410001,
+		1410002,
+		1410011,
+		1410012,
+		1410020,
+		1410021,
 		1450001,
 		1450002,
 		1450003,

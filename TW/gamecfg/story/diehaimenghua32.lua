@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "轰————————————————！",
+			say = "轟————————————————！",
 			dir = 1,
 			bgm = "level02",
 			flashN = {
@@ -65,7 +65,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "目标“消灭”，下一个目标在哪里？",
+			say = "目標“消滅”，下一個目標在哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊…好奔放的打法…感觉今天的{namecode:182}心情很差的样子…",
+			say = "哇啊…好奔放的打法…感覺今天的信濃心情很差的樣子…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过反常的作战方式反而吸引了指挥官的注意力，让我方暂时取得了优势。",
+			say = "不過反常的作戰方式反而吸引了指揮官的注意力，讓我方暫時取得了優勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "问题是这么持续下去的话…拿大将当诱饵的战术可是很危险的哟。",
+			say = "問題是這麼持續下去的話…拿大將當誘餌的戰術可是很危險的喲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我明白。大家紧跟{namecode:182}，小心指挥官来自水下，或者空中的奇袭！",
+			say = "我明白。大家緊跟信濃，小心指揮官來自水下，或者空中的奇襲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

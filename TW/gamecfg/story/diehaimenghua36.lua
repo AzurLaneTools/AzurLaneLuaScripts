@@ -15,7 +15,7 @@ return {
 			bgm = "story-4",
 			actor = 306080,
 			nameColor = "#a9f548",
-			say = "不但赶上了{namecode:182}大人的首航，还能与您一路同行，真是非常荣幸。",
+			say = "不但趕上了信濃大人的首航，還能與您一路同行，真是非常榮幸。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也一样！",
+			say = "我也一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:103}、{namecode:104}、{namecode:188}、{namecode:29}。在这一路之上，汝等也直接称呼妾身为{namecode:182}就好。",
+			say = "千歲、千代田、樫野、花月。在這一路之上，汝等也直接稱呼妾身為信濃就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（果然…在{namecode:188}的运输船靠近之后身体状况就有所好转了。如果梦中的预兆不错的话…）",
+			say = "（果然…在樫野的運輸船靠近之後身體狀況就有所好轉了。如果夢中的預兆不錯的話…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…{namecode:188}，汝等此次所运何物？",
+			say = "…樫野，汝等此次所運何物？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我运输的货物么…？有一部分是常规的补给物资，还有一部分是为{namecode:83}大人准备的特别补给。",
+			say = "我運輸的貨物嗎…？有一部分是常規的補給物資，還有一部分是為大和大人準備的特別補給。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "任务本身是由谁下达的，{namecode:91}、{namecode:74}还是{namecode:84}？",
+			say = "任務本身是由誰下達的，赤城、長門還是武藏？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…我只是从上层部那里接受任务，具体是谁下的命令就…也许是正在进行作战物资调度的{namecode:92}分配的任务吧。",
+			say = "唔…我只是從上層部那裡接受任務，具體是誰下的命令就…也許是正在進行作戰物資調度的加賀分配的任務吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:92}么…妾身明白了。",
+			say = "加賀嗎…妾身明白了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（{namecode:182}、{namecode:182}大人原来是这样的个性么…！）",
+			say = "（信、信濃大人原來是這樣的個性嗎…！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不不不，直到不久之前还是像{namecode:74}大人那样不动如山的感觉…睡了一觉之后就突然就变得像这样侵掠如火了…！）",
+			say = "（不不不，直到不久之前還是像長門大人那樣不動如山的感覺…睡了一覺之後就突然就變得像這樣侵略如火了…！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（难道说…刚刚是梦到了什么噩梦…?）",
+			say = "（難道說…剛剛是夢到了什麼噩夢…?）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不太清楚…这样激动的{namecode:182}大人我也是第一次见。）",
+			say = "（不太清楚…這樣激動的信濃大人我也是第一次見。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:103}，现在我们两支舰队合并为一支。我们会负责保护运输队，{namecode:182}的安全也拜托你们了哦。",
+			say = "千歲，現在我們兩支艦隊合併為一支。我們會負責保護運輸隊，信濃的安全也拜託妳們了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请放心，尽管交给我们吧。",
+			say = "請放心，儘管交給我們吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~现在我们已经拥有不输给一支主力舰队的战斗力了，不论遇到什么敌人都不在话下！",
+			say = "哼哼~現在我們已經擁有不輸給一支主力艦隊的戰鬥力了，不論遇到什麼敵人都不在話下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……前方海域有塞壬设伏，不可掉以轻心。",
+			say = "……前方海域有塞壬設伏，不可掉以輕心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哎，塞壬伏击？！！这条航线一直都很通畅，很久都没有发生过塞壬袭击护航舰队的事哎…",
+			say = "啊哎，塞壬伏擊？！！這條航線一直都很通暢，很久都沒有發生過塞壬襲擊護航艦隊的事哎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然…您刚刚在梦里看到了什么吧。大家也许不知道，{namecode:182}大人…咳，{namecode:182}有时候能在梦中看到关于未来的预兆。",
+			say = "果然…您剛剛在夢裡看到了什麼吧。大家也許不知道，信濃大人…咳，信濃有時候能在夢中看到關於未來的預兆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来是还有这样的事…{namecode:182}，我相信你。不能对潜在的威胁忽视不管，请进行作战部署吧。",
+			say = "原來是還有這樣的事…信濃，我相信妳。不能對潛在的威脅忽視不管，請進行作戰部署吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}，相信自己，也要相信与你并肩战斗的同伴，祝你一路顺风。",
+			say = "信濃，相信自己，也要相信與妳並肩戰鬥的同伴，祝妳一路順風。",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "即将进入镜面海域，众人调整队形，准备迎敌。",
+			say = "即將進入鏡面海域，眾人調整隊形，準備迎敵。",
 			flashout = {
 				dur = 0.5,
 				alpha = {

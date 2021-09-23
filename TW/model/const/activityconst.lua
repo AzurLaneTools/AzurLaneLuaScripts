@@ -91,32 +91,6 @@ slot0.EXPEDITION_TYPE_OPEN = 1
 slot0.EXPEDITION_TYPE_BAOXIANG = 2
 slot0.EXPEDITION_TYPE_BOSS = 4
 slot0.EXPEDITION_TYPE_GOT = 8
-slot0.LIMIT_SKIN_SHOP_TIME = {
-	{
-		{
-			2021,
-			7,
-			29
-		},
-		{
-			0,
-			0,
-			0
-		}
-	},
-	{
-		{
-			2021,
-			8,
-			11
-		},
-		{
-			23,
-			59,
-			59
-		}
-	}
-}
 slot0.XIAOBEIFA_PT_SKIP = {
 	{
 		{
@@ -156,8 +130,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2021,
-			8,
-			26
+			9,
+			23
 		},
 		{
 			0,
@@ -168,8 +142,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2021,
-			9,
-			8
+			10,
+			13
 		},
 		{
 			23,

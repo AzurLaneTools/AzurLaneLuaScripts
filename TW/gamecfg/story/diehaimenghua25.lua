@@ -15,7 +15,7 @@ return {
 			bgm = "xinnong-4",
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "遭受雷击？没事，凭借装甲厚度的话……无法进行水密处理？！",
+			say = "遭受雷擊？沒事，憑藉裝甲厚度的話……無法進行水密處理？！",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————————！",
+			say = "轟————————————！",
 			side = 2,
 			bgName = "bg_xinnong_cg3",
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "怎么可能…区区四发鱼雷就………………",
+			say = "怎麼可能…區區四發魚雷就………………",
 			bgm = "bsm-2",
 			flashout = {
 				black = true,
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
-			say = "…舰装没有彻底完工，也没有搭载武装，还要选在这种时候贸然出航……也是必然的结果吧。",
+			say = "…艦裝沒有徹底完工，也沒有搭載武裝，還要選在這種時候貿然出航……也是必然的結果吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
-			say = "真是，比醒来时失去应有的力量来还要凄惨的境况……幸好只是梦中之事。",
+			say = "真是的，比醒來時失去應有的力量來還要淒慘的境況……幸好只是夢中之事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
-			say = "…………明明只是梦境而已，为什么妾身的「心」这么痛呢。",
+			say = "…………明明只是夢境而已，為什麼妾身的「心」這麼痛呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_xinnong2_6",
 			actorName = "{namecode:182}",
 			dir = 1,
-			say = "下沉还在继续，梦境还在持续么…？",
+			say = "下沉還在繼續，夢境還在持續嗎…？",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_xinnong2_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "意识正在远去，以往的梦境中从未出现如此真实的感觉……这个梦究竟是怎么回事……",
+			say = "意識正在遠去，以往的夢境中從未出現如此真實的感覺……這個夢究竟是怎麼回事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_xinnong2_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…嗯？鱼群身上泛起了光亮……?",
+			say = "…嗯？魚群身上泛起了光亮……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那里是……",
+			say = "那裡是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

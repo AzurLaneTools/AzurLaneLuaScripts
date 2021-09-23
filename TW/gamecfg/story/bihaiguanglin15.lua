@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "这里建筑的精美程度相比外环有过之而不及……",
+			say = "这里建筑的精美程度相比外环有过之而无不及……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

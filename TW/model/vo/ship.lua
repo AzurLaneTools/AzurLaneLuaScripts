@@ -365,7 +365,8 @@ function slot0.Ctor(slot0, slot1)
 
 	if table.indexof({
 		pg.gameset.test_ship_config_1.key_value,
-		pg.gameset.test_ship_config_2.key_value
+		pg.gameset.test_ship_config_2.key_value,
+		pg.gameset.test_ship_config_3.key_value
 	}, slot0.configId) == 1 then
 		slot0.testShip = {
 			2,

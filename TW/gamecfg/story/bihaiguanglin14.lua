@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "众人在{namecode:62}选择的航线上穿行着，最初十分顺利绕开了战斗力低下但防御力奇高的敌舰。",
+			say = "众人在{namecode:62}选择的航线上穿行着，最初十分顺利地绕开了战斗力低下但防御力奇高的敌舰。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-longgong",

@@ -14,8 +14,8 @@ return {
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
 			actor = 900011,
-			actorName = "测试者",
-			say = "警告---装甲破损，能量供应受损，系统即将停止运行。",
+			actorName = "測試者",
+			say = "警告---裝甲破損，能量供應受損，系統即將停止運行。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,12 +36,12 @@ return {
 		},
 		{
 			actor = 900011,
-			actorName = "测试者",
+			actorName = "測試者",
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "测试结果录入，{namecode:182}的结局发生改变，存在产生变局的可能性……",
+			say = "測試結果輸入，信濃的結局發生改變，存在產生變局的可能性……",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -96,7 +96,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "测试者，汝失败了。告诉妾身，那场决战的最后发生了什么？虽然只是推测，由火炬变为余烬的故事，汝等也十分清楚吧。",
+			say = "測試者，汝失敗了。告訴妾身，那場決戰的最後發生了什麼？雖然只是推測，由火炬變為餘燼的故事，汝等也十分清楚吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,8 +112,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "…………………………无可奉告。",
+			actorName = "測試者",
+			say = "…………………………無可奉告",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，果然迟到的舰队是汝等的……",
+			say = "哼，果然遲到的艦隊是汝等的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "罢了，妾身会用自己的力量寻找出答案，汝在此退场吧。",
+			say = "罷了，妾身會用自己的力量尋找出答案，汝在此退場吧。",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -204,7 +204,7 @@ return {
 			bgm = "story-4",
 			actor = 301840,
 			nameColor = "#a9f548",
-			say = "敌将讨伐~！我们战胜掉测试者了！！",
+			say = "敵將討伐~！我們戰勝掉測試者了！！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -238,7 +238,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "物资运输船都平安无恙，镜面海域也在解除…真是精彩的战斗。",
+			say = "物資運輸船都平安無恙，鏡面海域也在解除…真是精彩的戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是重樱的最强航母！首次出战就能神勇无比的解决战斗，真是太华丽了~！",
+			say = "不愧是被重櫻的最強航母！首次出戰就能神勇無比的解決戰鬥，真是太華麗了~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诸位过奖了……能让命运的轨迹发生改变非妾身一人之功，汝等的努力也同样重要。",
+			say = "諸位過獎了……能讓命運的軌跡發生改變非妾身一人之功，汝等的努力也同樣重要。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}……您刚才的战斗状态和威力…身体的力量已经恢复了么！",
+			say = "信濃……您剛才的戰鬥狀態和威力…身體的力量已經恢復了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊、对啊！刚才在战斗中没有看到{namecode:182}有任何虚弱的感觉，和来之前听说的情报完全不一样哎！",
+			say = "啊、對啊！剛才在戰鬥中沒有看到信濃有任何虛弱的感覺，和來之前聽說的情報完全不一樣哎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳，{namecode:60}……",
+			say = "咳，熊野……",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论这次运输是刻意安排的也好，偶然相遇的也罢…",
+			say = "不論這次運輸是刻意安排的也好，偶然相遇的也罷…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "此刻不过是借来的力量…恍若白日之梦，虚无缥缈，转瞬即逝。",
+			say = "此時此刻不過是借來的力量…如同白日之夢，轉瞬即逝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好像明白了，又好像没明白…",
+			say = "好像明白了，又好像沒明白…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "即使刚刚发生只是白日之梦，那也是值得载入档案的精彩梦境，不是么？",
+			say = "即使剛剛發生只是白日之夢，那也是值得載入檔案的精彩夢境，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祝愿您回到本岛之后能够查明原因，早日恢复您应有的力量。",
+			say = "祝愿您回到本島之後能夠查明原因，早日恢復您應有的力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "希望如此吧……毁灭的风暴正在接近，阴云已经笼罩了重樱上空。",
+			say = "希望如此吧……毀滅的風暴正在接近，陰雲已經籠罩了重櫻上空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是妾身会，不…妾身会同汝等一起，化解危局，带领重樱回到正确的航道上。",
+			say = "但是妾身會，不…妾身會同汝等一起，化解危局，帶領重櫻回到正確的航道上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "整理舰队，重新出航。之后要做的事还有很多呢……",
+			say = "整理艦隊，重新出航。之後要做的事還有很多呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

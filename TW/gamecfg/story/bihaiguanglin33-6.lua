@@ -473,7 +473,7 @@ return {
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "乐意奉陪！现在正是时候，就让你见识一下高山流操舰术的精髓吧！",
+			say = "乐意奉陪！现在正是时候，就让你见识一下{namecode:18}流操舰术的精髓吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

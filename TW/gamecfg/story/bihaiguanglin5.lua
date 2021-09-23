@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，您休息的还好么？",
+			say = "{namecode:182}大人，您休息得还好么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

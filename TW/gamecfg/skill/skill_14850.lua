@@ -20,6 +20,15 @@ return {
 					weapon_id = 63111,
 					emitter = "BattleBulletEmitter"
 				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 14855
+				}
 			}
 		}
 	},
@@ -43,6 +52,15 @@ return {
 				arg_list = {
 					weapon_id = 63112,
 					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 14855
 				}
 			}
 		}
@@ -68,6 +86,15 @@ return {
 					weapon_id = 63113,
 					emitter = "BattleBulletEmitter"
 				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 14855
+				}
 			}
 		}
 	},
@@ -91,6 +118,15 @@ return {
 				arg_list = {
 					weapon_id = 63114,
 					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 14855
 				}
 			}
 		}
@@ -116,6 +152,15 @@ return {
 					weapon_id = 63115,
 					emitter = "BattleBulletEmitter"
 				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 14855
+				}
 			}
 		}
 	},
@@ -139,6 +184,15 @@ return {
 				arg_list = {
 					weapon_id = 63116,
 					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 14855
 				}
 			}
 		}
@@ -164,6 +218,15 @@ return {
 					weapon_id = 63117,
 					emitter = "BattleBulletEmitter"
 				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 14855
+				}
 			}
 		}
 	},
@@ -187,6 +250,15 @@ return {
 				arg_list = {
 					weapon_id = 63118,
 					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 14855
 				}
 			}
 		}
@@ -212,6 +284,15 @@ return {
 					weapon_id = 63119,
 					emitter = "BattleBulletEmitter"
 				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 14855
+				}
 			}
 		}
 	},
@@ -235,6 +316,15 @@ return {
 				arg_list = {
 					weapon_id = 63120,
 					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 14855
 				}
 			}
 		}
@@ -274,6 +364,15 @@ return {
 			arg_list = {
 				weapon_id = 63111,
 				emitter = "BattleBulletEmitter"
+			}
+		},
+		{
+			type = "BattleSkillAddBuff",
+			casterAniEffect = "",
+			target_choise = "TargetSelf",
+			targetAniEffect = "",
+			arg_list = {
+				buff_id = 14855
 			}
 		}
 	}

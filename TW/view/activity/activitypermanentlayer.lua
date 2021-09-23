@@ -129,6 +129,9 @@ function slot0.doFinishAnim(slot0, slot1)
 end
 
 function slot0.showMsgbox(slot0, slot1)
+	setText(slot0.rtMsgbox:Find("window/button_container/custom_button_1/pic"), i18n("msgbox_text_confirm"))
+	setText(slot0.rtMsgbox:Find("window/button_container/custom_button_2/pic"), i18n("msgbox_text_cancel"))
+	setText(slot0.rtMsgbox:Find("window/top/bg/infomation/title"), i18n("words_information"))
 	setText(slot0.rtMsgbox:Find("window/msg_panel/content"), i18n("activity_permanent_tips1", pg.activity_task_permanent[slot1].activity_name))
 	setText(slot0.rtMsgbox:Find("window/msg_panel/Text"), i18n("activity_permanent_tips4"))
 	onButton(slot0, slot0.rtMsgbox:Find("window/button_container/custom_button_1"), function ()

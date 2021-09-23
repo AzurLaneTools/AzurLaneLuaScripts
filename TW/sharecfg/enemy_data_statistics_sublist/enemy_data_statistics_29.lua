@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_29 = {
 	[467] = {
 		cannon = 0,
-		name = "噩梦结晶-「领洋者」",
+		name = "噩夢結晶-「領洋者」",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -152,7 +152,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[468] = {
 		cannon = 0,
-		name = "噩梦结晶-「破局者」",
+		name = "噩夢結晶-「破局者」",
 		type = 5,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -316,7 +316,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[469] = {
 		cannon = 0,
-		name = "噩梦结晶-「执棋者」",
+		name = "噩夢結晶-「執棋者」",
 		type = 7,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -466,7 +466,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[470] = {
 		cannon = 0,
-		name = "噩梦结晶-「潜伏者」",
+		name = "噩夢結晶-「潛伏者」",
 		type = 8,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -604,7 +604,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[471] = {
 		cannon = 0,
-		name = "潜伏者II型",
+		name = "潛伏者II型",
 		type = 8,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -742,7 +742,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[472] = {
 		cannon = 0,
-		name = "信浓",
+		name = "信濃",
 		type = 7,
 		speed_growth = 0,
 		battle_unit_type = 49,

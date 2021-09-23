@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "{namecode:103}姐，我们到了哦~",
+			say = "千歲姐，我們到了哦~",
 			bgm = "bsm-3",
 			flashin = {
 				delay = 0.5,
@@ -40,7 +40,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太好了，你们也平安无事的抵达了。不过你们这副样子…快去后勤队那里处理一下吧…",
+			say = "太好了，妳們也平安無事的抵達了。不過妳們這副樣子…快去後勤隊那裏處理一下吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？！这次居然还配属了后勤舰队么，真是奢侈啊。那我就不客气了~",
+			say = "哦？！這次居然還配屬了後勤艦隊嗎，真是奢侈啊。那我就不客氣了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他舰队也和我们一样在路上遭遇了连续战斗么？",
+			say = "其他艦隊也和我們一樣在路上遭遇了連續戰鬥嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各舰队基本都差不多，但也都算平安的抵达了。看来和情报中一样，「它们」现在对这片区域的控制力减弱了很多。",
+			say = "各艦隊基本都差不多，但也都算平安的抵達了。看來和情報中一樣，「它們」現在對這片區域的控制力減弱了很多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那边那支…难道就是传说中的决战兵器运输队？！",
+			say = "那邊那支…難道就是傳說中的決戰兵器運輸隊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是造型夸张的军舰…这就是北方联合的最新技术么…！",
+			say = "真是造型誇張的軍艦…這就是北方聯合的最新技術嗎…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "决战运输队……？是在说{namecode:188}那边的事么。",
+			say = "決戰運輸隊……？是在說樫野那邊的事嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错哦~不过更重要的是{namecode:188}所护送的以「海若」为核心的决战兵器！",
+			say = "沒錯哦~不過更重要的是樫野所護送的以「海若」為核心的決戰兵器！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我记得{namecode:182}大人不是也参与设计了么？",
+			say = "我記得信濃大人不是也參與設計了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……是这样啊。",
+			say = "……是這樣啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（海若是可以用来作战的东西么……？）",
+			say = "（海若是可以用來作戰的東西嗎……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（说起来，之前在天岩岛的时候只是隐约有些预感…果然每次接近神石之后，身上的力量都能获得显著提升。）",
+			say = "（說起來，之前在天岩島的時候只是隱約有些預感…果然每次接近神石之後，身上的力量都能明顯獲得提升。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（难道现世的妾身之所以会这么虚弱是因为…？！不过…{namecode:83}与{namecode:84}都没听说过这种问题……）",
+			say = "（難道現世的妾身之所以會這麼虛弱是因為…？！不過…大和與武藏都沒聽說過這種問題……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -283,7 +283,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "重樱的各位，预定联络时间到。现在舰队的集结进展怎么样？",
+			say = "重櫻的各位，預定時間已經到了。現在集結的進展怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "重樱舰队已经集结完毕，正在做出发前最后的调整。你们那边战况怎么样？",
+			say = "我們的集結已經完成，正在做出發前最後的調整。妳們那邊戰況怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 107380,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "自交战至今，各特混舰队的进展都算顺利。核心区之中也没有发现任何异常迹象。",
+			say = "自交戰至今，各特混艦隊的進展都算順利。核心區之中也沒有發現任何異常跡象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 302130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好…！只要计划成功，我们必将重创它们，借此机会一举击溃它们也不是不可能……",
+			say = "很好…！只要計劃成功，我們必將重創它們，藉此機會一舉擊潰它們也不是不可能……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快点出发吧，我已经等的不耐烦了！",
+			say = "快點出發吧，我已經等的不耐煩了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿~{namecode:16}也很有精神嘛！没错，我已经等不及要痛扁它们一顿了！",
+			say = "嘿嘿~夕立也很有精神嘛！沒錯，我已經等不及要痛扁它們一頓了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，时间确实差不多了……企业，我们出发之后，参战的所有舰队就都到齐了吧。",
+			say = "嗯，時間確實差不多了……企業，我們出發之後，參戰的所有艦隊就都到齊了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不……█ █ █ █的舰队现在还在集结中，仍有部分舰队没有就位。",
+			say = "不……█ █ █ █的艦隊現在還在集結中，仍有部分艦隊沒有就位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			actor = 303110,
 			nameColor = "#a9f548",
-			say = "嗯？居然会在这种时候掉链子，不符合它们的作风啊……",
+			say = "哎？居然會在這種時候掉鏈子，不符合它們的作風啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 207040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "算啦算啦，原本它们也就是预备队，稍微晚到一会儿也不会带来太大影响就是了。",
+			say = "算啦算啦，原本它們也就是預備隊，稍微晚到一會兒也不會帶來太大影響就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那闲话就到此为止，该出发了。{namecode:182}，你们那边也准备好了吧？",
+			say = "那閒話就到此為止，該出發了。信濃，你們那邊也準備好了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（听不清，最后欠缺的舰队是什么…？）",
+			say = "（聽不清，最後欠缺的艦隊是什麼…？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，各舰队状态良好。",
+			say = "沒問題，各艦隊狀態良好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "很好，所有人注意，现在开始作战行动，起航！",
+			say = "很好，所有人注意，現在開始作戰行動，起航！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

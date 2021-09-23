@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "原来如此…妾身开始理解这个梦境了。",
+			say = "原來如此…妾身開始理解這個夢境了。",
 			bgm = "bsm-2",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有敌人与纷争，各大阵营和平相处，此处港区宛如樱花色的理想之地一般。",
+			say = "沒有敵人和戰爭，各大陣營其樂融融，此處港區宛如理想之地一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不仅如此，就连妾身也是与预想中相同的完美状态存在于此…",
+			say = "不僅如此，就連妾身也是與預想中相同的完美狀態存在於此…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如此的话，也许能在这里……",
+			say = "如此的話，也許能在這裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_7",
-			say = "一片樱色的花瓣在眼前缓缓落下。向着风吹来的方向望去，绚烂的樱花树下停留着一个苍红色的身影。",
+			say = "一片櫻色的花瓣在眼前緩緩落下，向著風吹來的方向望去，絢爛的櫻花樹下停留著一個蒼紅色的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的诸位同僚如果见到现在的场景，不知道该作何感想啊…",
+			say = "重櫻的各位同僚如果見到現在的場景，不知道該作何感想啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}…？演习就要开始了，你在这里做什么呢？",
+			say = "信濃…？演習就要開始了，妳在這裡做什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "困惑、震惊、激动、伤感…呵呵，第一次见到你脸上露出这么复杂的表情呢。",
+			say = "困惑、震驚、激動、傷感…呵呵，第一次見到妳臉上一下子露出這麼複雜的表情呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "氛围上……也不是我所熟悉的感觉。你，是从很远的地方来到这里的吧。",
+			say = "氛圍上……也不是我所熟悉的感覺。妳，是從很遠的地方來到這裡的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敏锐的观察力和绝顶的智慧，和妾身听说中的{namecode:161}一样……",
+			say = "敏銳的觀察力和絕頂的智慧，和妾身聽說中的天城一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			actorName = "{namecode:161}",
 			dir = 1,
-			say = "那还真是过奖了，咳咳……",
+			say = "那還真是過獎了，咳咳……",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			actorName = "{namecode:182}",
 			dir = 1,
-			say = "{namecode:161}，汝没事吧！",
+			say = "天城，汝沒事吧！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "痼疾而已，不用担心……嗯？听说的意思是…",
+			say = "痼疾而已，不用擔心……嗯？聽說的意思是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此…你并没有直接见过我的经历，而且也没有能够与我直接会面的可能性对么？",
+			say = "原來如此…妳並沒有直接見過我的經歷，而且也沒有能夠與我直接會面的可能性對麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵，那还真是令人遗憾~感觉是在聊些梦中发生的故事呢。",
+			say = "呵，那還真是令人遺憾~感覺是在聊些夢中發生的故事呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			actorName = "{namecode:182}",
 			dir = 1,
-			say = "那些不是梦…！汝才是…这里才是…存在于妾身的脑海之中，顷刻之间就会消散的梦境……",
+			say = "那些不是夢…！汝才是…這裡才是…存在於妾身的腦海之中，頃刻之間就會消散的夢境……",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉话题的哲学气息逐渐变浓了…",
+			say = "感覺話題的哲學氣息逐漸變濃了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，不重要了。不论哪边是梦境哪边是现实，此时此刻你我都一起实际存在于此地，这样就足够了。",
+			say = "呵呵，不重要了。不論哪邊是夢境哪邊是現實，此時此刻妳我都一起實際存在於此地，這樣就足夠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这片港区怎么样，想留在这里么？",
+			say = "這片港區怎麼樣，想留在這裡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妾身，不知道…不过重樱的同僚们还在等着妾身回去吧。",
+			say = "妾身，不知道…不過重櫻的同僚們還在等著妾身回去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样啊，看来你还有必须要去完成的使命呢。",
+			say = "這樣啊，看來妳還有必須要去做的事要完成呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，你那边的{namecode:91}…她还好么…？",
+			say = "對了，妳那邊的赤城…她還好嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………………………嗯，{namecode:91}一定会没问题的。",
+			say = "……嗯，赤城一定會沒問題的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "令人担心的回答，再加上你现在的状态…决定了，我和你一起去参加指挥官的演习吧！",
+			say = "令人擔心的回答，再加上妳現在的狀態…決定了，我和妳一起去參加指揮官的演習吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好啦~时间也差不多了，出发出发~",
+			say = "好啦~時間也差不多了，出發出發~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

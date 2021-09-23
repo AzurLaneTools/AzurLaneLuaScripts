@@ -104,9 +104,7 @@ function slot0.playAnim(slot0, slot1)
 				if uv1 > 5 and uv0.windowLayout.preferredHeight ~= uv2 then
 					uv0.windowLayout.preferredHeight = uv2
 
-					onNextTick(function ()
-						uv0:updateSpriteMaskScale()
-					end)
+					uv0:updateSpriteMaskScale()
 				end
 
 				if uv1 % 5 == 1 then
@@ -304,7 +302,9 @@ function slot0.willExit(slot0)
 end
 
 function slot0.updateSpriteMaskScale(slot0)
-	setLocalScale(slot0.spriteMask, Vector3(slot0.spriteMask.rect.width / WHITE_DOT_SIZE * PIXEL_PER_UNIT, slot0.spriteMask.rect.height / WHITE_DOT_SIZE * PIXEL_PER_UNIT, 1))
+	onNextTick(function ()
+		setLocalScale(uv0.spriteMask, Vector3(uv0.spriteMask.rect.width / WHITE_DOT_SIZE * PIXEL_PER_UNIT, uv0.spriteMask.rect.height / WHITE_DOT_SIZE * PIXEL_PER_UNIT, 1))
+	end)
 end
 
 return slot0

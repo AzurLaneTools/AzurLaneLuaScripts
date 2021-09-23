@@ -92,7 +92,7 @@ pg.benefit_buff_template = {
 		desc = "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高3%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				9,
 				1
@@ -110,7 +110,7 @@ pg.benefit_buff_template = {
 		desc = "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高4%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				9,
 				2
@@ -128,7 +128,7 @@ pg.benefit_buff_template = {
 		desc = "主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高5%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				9,
 				3
@@ -146,7 +146,7 @@ pg.benefit_buff_template = {
 		desc = "主線、困難、活動、作戰檔案關卡中，造成的傷害提高1%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				10,
 				1
@@ -164,7 +164,7 @@ pg.benefit_buff_template = {
 		desc = "主線、困難、活動、作戰檔案關卡中，造成的傷害提高2%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				10,
 				2
@@ -182,7 +182,7 @@ pg.benefit_buff_template = {
 		desc = "主線、困難、活動、作戰檔案關卡中，造成的傷害提高3%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				10,
 				3
@@ -200,7 +200,7 @@ pg.benefit_buff_template = {
 		desc = "戰術學院技能學習時間減少3%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				11,
 				1
@@ -218,7 +218,7 @@ pg.benefit_buff_template = {
 		desc = "戰術學院技能學習時間減少4%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				11,
 				2
@@ -236,7 +236,7 @@ pg.benefit_buff_template = {
 		desc = "戰術學院技能學習時間減少5%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				11,
 				3
@@ -254,7 +254,7 @@ pg.benefit_buff_template = {
 		desc = "後宅經驗加成提高3%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				12,
 				1
@@ -272,7 +272,7 @@ pg.benefit_buff_template = {
 		desc = "後宅經驗加成提高4%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				12,
 				2
@@ -290,12 +290,23 @@ pg.benefit_buff_template = {
 		desc = "後宅經驗加成提高5%",
 		benefit_condition = {
 			"activity",
-			40334,
+			40430,
 			{
 				12,
 				3
 			}
 		}
+	},
+	[25] = {
+		name = "活動關卡特裝原型掉落加成",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "通過「蝶海夢花」活動關卡獲得的特裝原型數量翻倍",
+		benefit_effect = "0",
+		id = 25,
+		icon = "Props/buff_urptup",
+		benefit_type = "urpt_drop_up"
 	},
 	[35] = {
 		benefit_effect = "500",
@@ -497,6 +508,7 @@ pg.benefit_buff_template = {
 		22,
 		23,
 		24,
+		25,
 		35,
 		36,
 		37,

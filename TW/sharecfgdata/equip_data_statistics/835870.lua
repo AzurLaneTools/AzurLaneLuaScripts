@@ -1,8 +1,0 @@
-_G.pg.equip_data_statistics[73312] = {
-	id = 73312,
-	name = "全彈發射-Type VIIC型II",
-	base = 73311,
-	weapon_id = {
-		73312
-	}
-}

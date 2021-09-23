@@ -15,7 +15,7 @@ return {
 			bgm = "battle-xinnong-image",
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "{namecode:27}，{namecode:29}，留意水下的动向，测试者将会使用潜艇编队进行偷袭。",
+			say = "涼月，花月，留意水下的動向，測試者將會使用潛艇編隊進行偷襲。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -67,7 +67,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:103}、{namecode:104}、配合妾身的舰载机队，继续压制测试者的航空力量。",
+			say = "千歲、千代田、配合妾身的艦載機隊，繼續壓制測試者的航空力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:103}&{namecode:104}",
-			say = "遵命！\n交给我吧~",
+			say = "遵命！\n交給我吧~",
 			subActors = {
 				{
 					actor = 306090,
@@ -110,7 +110,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其余各火力舰继续等待……",
+			say = "其餘各火力艦繼續等待……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！我们还需要等什么…？",
+			say = "哎？！我們還需要等什麼…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等待测试者将全部精力用于对空作战，改变应对模式而露出破绽的时候…",
+			say = "等待測試者將全部精力用於對空作戰，改變應對模式而露出破綻的時候…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！原来是这样…！所以{namecode:82}大前辈之前才能仅凭旧式主炮就能有效的重创测试者啊！",
+			say = "啊！原來是這樣…！所以三笠大前輩之前才能僅憑舊式主炮就能有效的重創測試者啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "正是如此。请诸位与妾身一同努力，共同赢取胜利吧！",
+			say = "正是如此。請諸位與妾身一同努力，共同贏取勝利吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:182}",
 			dir = 1,
 			blackBg = true,
-			say = "阳光、鸟鸣、青草与花朵的芳香……",
+			say = "陽光、鳥鳴、青草與花朵的芳香……",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			bgm = "story-1",
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "这里是……长椅上？",
+			say = "這裡是……長椅上？",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请问…？",
+			say = "請問…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲没有睡觉哦，没有睡觉…",
+			say = "拉菲沒有睡覺哦，沒有睡覺…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在是…什么情况？请问汝是…",
+			say = "現在是…什麼情況？請問汝是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}也睡糊涂了么…我是拉菲，白鹰的拉菲。",
+			say = "信濃也睡糊塗了嗎…我是拉菲，白鷹的拉菲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "白鹰的，拉菲号驱逐舰…？！",
+			say = "白鷹的，拉菲號驅逐艦…？！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，拉菲想起来了，指挥官让拉菲来通知演习舰队的成员。{namecode:182}准备好了之后，就去港口集合哦。",
+			say = "嗯，拉菲想起來了，指揮官讓我來通知演習艦隊的成員。信濃準備好了之後，就去港口集合哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲还要去通知其他人，先离开了…zzZ",
+			say = "拉菲還要去通知其他人，先離開了…zzZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……没有感受到敌意，也没有向妾身发动攻击？",
+			say = "……沒有感受到敵意，也沒有向妾身發動攻擊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "又是和白鹰联合的梦么，可是并没有感受到硝烟的气息…这种感觉是……总之先收集情报吧。",
+			say = "又是和白鷹聯合的夢嗎，可是並沒有感受到硝煙的氣息…這種感覺是……總之先收集情報吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

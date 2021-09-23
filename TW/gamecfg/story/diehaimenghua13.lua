@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "轰鸣与硝烟散去后，坚固的装甲被粉碎了。",
+			say = "轟鳴與硝煙散去後，堅固的裝甲被粉碎了。",
 			side = 2,
 			bgName = "bg_xinnong_cg2",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			say = "装甲的主人被击退了几个踉跄，终于还是跪倒在水面上。",
+			say = "裝甲的主人被擊退了幾個踉蹌，終於還是跪倒在水面上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…{namecode:82}……前辈？",
+			say = "…三笠……前輩？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳…咳咳……没事，就这么一下我还是扛得住的…",
+			say = "咳…咳咳……沒事，就這麼一下我還是扛得住的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可不能允许…亲眼看着后辈在面前陨落啊…",
+			say = "我可不能允許…親眼看著後輩在面前隕落啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算她偏离了正道…也绝不允许……！",
+			say = "就算她偏離了正道…也絕不允許……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到了现在这一步{namecode:182}大人还不打算出手么，真是耐得住性子啊…",
+			say = "到了現在這一步信濃大人還不打算出手嗎，真是耐得住性子啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,23 +167,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			say = "{namecode:91}回身望着毫无反应的天守阁，冷笑着，在手上展开了一个黑色的立方体。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307010,
-			side = 2,
-			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哦对，我忘了，现在勉强你也没用吧…",
+			say = "赤城回身望著毫無反應的天守閣，冷笑著，在手上展開了一個黑色的立方體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +183,23 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大量的信仰，被浪费在这种无用计划上………",
+			say = "哦對，我忘了，現在勉強妳也沒用吧…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			bgName = "bg_xinnong_cg2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "大量的信仰，被浪費在這種無用計劃上………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，那个是！！",
+			say = "姐姐，那個是！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算将此身献予恶魔，就算让灵魂坠入地狱…",
+			say = "就算將此身獻予惡魔，就算讓靈魂墜入地獄…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……任何人，任何人都不能阻碍我的计划！",
+			say = "……任何人，任何人都不能阻礙我的計劃！",
 			effects = {
 				{
 					active = true,

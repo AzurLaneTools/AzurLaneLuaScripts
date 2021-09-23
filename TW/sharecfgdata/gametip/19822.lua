@@ -1,3 +1,0 @@
-_G.pg.gametip.common_no_resource = {
-	tip = "資源不夠啦！"
-}

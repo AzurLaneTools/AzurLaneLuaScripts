@@ -1377,7 +1377,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[437] = {
 		cannon = 0,
-		name = "自爆船II型",
+		name = "自爆船「Buster」II型",
 		type = 16,
 		speed_growth = 0,
 		battle_unit_type = 49,

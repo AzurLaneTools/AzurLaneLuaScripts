@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_1",
 			dir = 1,
-			say = "舰队离开了天岩岛，向着一望无际的远方行驶着。",
+			say = "艦隊離開了天岩島，向著一望無際的遠方行駛著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是在现世中，进行远洋航行的感觉么……",
+			say = "這就是在現世中，進行遠洋航行的感覺嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人是第一次离开天岩岛吧，乘风破浪的感觉怎么样~！",
+			say = "信濃大人是第一次離開天岩島吧，乘風破浪的感覺怎麼樣~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有什么太特殊的感觉，与在那里的感觉相似，又有些不同……",
+			say = "沒有什麼太特殊的感覺，與在那裡的感覺相似，又有些不同……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…对了对了！身体状况呢，{namecode:182}大人的的身体状况还好吗…？",
+			say = "唔…對了對了！身體狀況呢，信濃大人的的身體狀況還好嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……目前为止，除了感受不到力量之外，没有出现其他值得注意的问题…",
+			say = "……目前為止，除了感受不到力量之外，沒有出現其他值得注意的問題…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用担心不用担心~等到了信仰充沛的本岛，肯定会有什么解决的办法啦！",
+			say = "不用擔心不用擔心~等到了信仰充沛的本島，肯定會有什麼解決的辦法啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果是那样就好了……",
+			say = "如果是那樣就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（…………炒热气氛计划大失败…）",
+			say = "（…………炒熱氣氛計劃大失敗…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（{namecode:182}大人有一种冰冷又梦幻的氛围呢，就算是活泼的{namecode:60}也接近不了啊……）",
+			say = "（信濃大人有一種冰冷又夢幻的氛圍呢，就算是活潑的熊野也接近不了啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（那当然了，{namecode:182}大人现在虽然状态不佳，不过依然是{namecode:83}级的三号舰哦。）",
+			say = "（那當然了，信濃大人現在雖然狀態不佳，不過依然是大和級的三號艦哦。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（说起来{namecode:74}大人曾经也是这种感觉，其实私下里有着非常可爱的一面，也许{namecode:182}大人也是…）",
+			say = "（說起來長門大人曾經也是這種感覺，其實私下裡有著非常可愛的一面，也許信濃大人也是…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（私下里可爱的一面啊…毛茸茸，好多毛茸茸的大尾巴…盯——）",
+			say = "（私下裡可愛的一面啊…毛茸茸，好多毛茸茸的大尾巴…盯——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:27}，汝是想躺进这尾巴之中么？",
+			say = "涼月，汝是想躺進這尾巴之中嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "被发现了？！哎！？不……真、真的可以么？",
+			say = "被發現了？！哎！？不……真、真的可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，{namecode:27}…",
+			say = "咳咳，涼月…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊啊！是我失礼了…！",
+			say = "哇啊啊！是我失禮了…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样啊，遗憾……感觉稍微有些困了…Zzzzzz",
+			say = "這樣啊，遺憾……感覺稍微有些睏了…Zzzzzz",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，如果您不介意的话，请到我的量产型上休息一下吧。",
+			say = "信濃大人，如果您不介意的話，請到我的量產型上休息一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里离重樱本岛不远，航路也十分通畅，应该不会遇到什么危险。",
+			say = "這裡離重櫻本島不遠，航路也十分通暢，應該不會遇到什麼危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "当然，如果有不速之客胆敢拦路的话，以{namecode:80}之名起誓，定让它们有来无回！",
+			say = "當然，如果有不速之客膽敢攔路的話，以紀伊之名起誓，定讓它們有來無回！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18,6 +18,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>獻給所有一年間持續奮鬥在港區的指揮官們</color>\n開啟「再誕·曙光」紀念幣獲得",
 		scene = {}
 	},
+	[102] = {
+		time_limit_type = 0,
+		name = "二周年紀念",
+		gain_by = "",
+		id = 102,
+		time_second = 0,
+		desc = "<color=#ffffff>獻給所有兩年間持續奮鬥在港區的指揮官們</color>\n通過參與二周年限定活動獲得",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "限界的挑戰者",
@@ -52,6 +61,24 @@ pg.item_data_frame = {
 		id = 204,
 		time_second = 0,
 		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「 限界挑戰」獲得  （2021.7.22-2021.10.17）",
+		scene = {}
+	},
+	[300] = {
+		time_limit_type = 1,
+		name = "召集者",
+		gain_by = "",
+		id = 300,
+		time_second = 2592000,
+		desc = "<color=#ffffff>感謝您對於動員指令的響應，指揮官</color>\n有效期30天",
+		scene = {}
+	},
+	[301] = {
+		time_limit_type = 1,
+		name = "回歸者",
+		gain_by = "",
+		id = 301,
+		time_second = 2592000,
+		desc = "<color=#ffffff>指揮部歡迎您的歸來，期待您今後的活躍，指揮官</color>\n有效期30天",
 		scene = {}
 	},
 	[302] = {
@@ -156,10 +183,13 @@ pg.item_data_frame = {
 	all = {
 		0,
 		101,
+		102,
 		201,
 		202,
 		203,
 		204,
+		300,
+		301,
 		302,
 		303,
 		304,

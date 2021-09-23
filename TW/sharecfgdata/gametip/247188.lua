@@ -1,3 +1,0 @@
-_G.pg.gametip.school_title_dajiangtang = {
-	tip = "大講堂"
-}

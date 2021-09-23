@@ -474,7 +474,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[457] = {
 		cannon = 0,
-		name = "潜艇「Assassin」II型",
+		name = "潛艇「Assassin」II型",
 		type = 8,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -619,7 +619,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[458] = {
 		cannon = 0,
-		name = "噩梦剪影-「Pawn」",
+		name = "噩夢剪影-「Pawn」",
 		type = 1,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -775,7 +775,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[459] = {
 		cannon = 0,
-		name = "噩梦剪影-「Knight」",
+		name = "噩夢剪影-「Knight」",
 		type = 2,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -931,7 +931,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[460] = {
 		cannon = 0,
-		name = "噩梦剪影-「Bishop」",
+		name = "噩夢剪影-「Bishop」",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1094,7 +1094,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[461] = {
 		cannon = 0,
-		name = "噩梦剪影-「Rook」",
+		name = "噩夢剪影-「Rook」",
 		type = 5,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1257,7 +1257,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[462] = {
 		cannon = 0,
-		name = "噩梦剪影-「Queen」",
+		name = "噩夢剪影-「Queen」",
 		type = 7,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1413,7 +1413,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[463] = {
 		cannon = 0,
-		name = "噩梦剪影-「Assassin」",
+		name = "噩夢剪影-「Assassin」",
 		type = 8,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1558,7 +1558,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[464] = {
 		cannon = 0,
-		name = "噩梦剪影-「Buster」",
+		name = "噩夢剪影-「Buster」",
 		type = 16,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1698,7 +1698,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[465] = {
 		cannon = 0,
-		name = "噩梦结晶-「探索者」",
+		name = "噩夢結晶-「探索者」",
 		type = 1,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1848,7 +1848,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[466] = {
 		cannon = 0,
-		name = "噩梦结晶-「追跡者」",
+		name = "噩夢結晶-「追蹟者」",
 		type = 2,
 		speed_growth = 0,
 		battle_unit_type = 49,

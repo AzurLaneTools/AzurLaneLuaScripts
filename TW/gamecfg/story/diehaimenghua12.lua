@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "可恶，到此为止了么…！",
+			say = "可惡，到此為止了嗎…！",
 			bgm = "xinnong-4",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这、到底是什么……",
+			say = "這、到底是什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……抱歉，{namecode:182}大人。",
+			say = "……抱歉，信濃大人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			say = "量产型战舰…只需一刀，岸防堡垒…只需一炮。驱逐舰、轻巡洋舰、轻型航母…若被命中了，也只需一炮。",
+			say = "量產型戰艦…只需一刀，岸防堡壘…只需一炮。驅逐艦、輕巡洋艦、輕型航母…若被命中了，也只需一炮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			say = "这是完全不能称之为战斗的战斗。但是，脆弱的防线依然在抵抗着。",
+			say = "這是完全不能稱之為戰鬥的戰鬥。但是，脆弱的防線依然在抵抗著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的攻击没造成有效损伤…大前辈，再这么战斗下去要全灭了！",
+			say = "我們的攻擊沒造成有效損傷…大前輩，再這麼戰鬥下去要全滅了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "坚持…再坚持一阵！{namecode:95}，求援电报有回复了么？",
+			say = "堅持…再堅持一陣！翔鶴，求援電報有回覆了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "支援舰队已经从最近的基地出发了，但是到达天岩岛还需要时间！",
+			say = "支援艦隊已經從最近的基地出發了，但是到達天岩島還需要時間！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看这种架势，希望她们带来的增援足够多……还要继续拖延时间啊。",
+			say = "看這種架勢，希望她們帶來的增援足夠多……還要繼續拖延時間啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，你有什么主意么？",
+			say = "赤城，妳有什麼主意嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵……很好…就是要这种程度的记录，这种程度的灵魂才行！",
+			say = "呵呵呵……很好…就是要這種程度的記錄，這種程度的靈魂才行！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尽情地战斗吧，然后在毁灭之中起舞吧！",
+			say = "盡情地戰鬥吧，然後在毀滅之中起舞吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………不要碍事。",
+			say = "…………不要礙事。",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {

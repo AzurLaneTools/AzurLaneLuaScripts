@@ -13,7 +13,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "侧翼发现潜艇编队，同时上空也发现了正在接近的舰载机群！",
+			say = "側翼發現潛艇編隊，同時上空也發現了正在接近的艦載機群！",
 			bgm = "battle-boss-tiancheng",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚刚的侦查舰队果然是诱导你的陷阱呢，{namecode:182}。",
+			say = "剛剛的偵查艦隊果然是誘導妳的陷阱呢，信濃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果按照刚刚的作战方式被吸引过去的话，舰队会正好进入潜艇和舰载机共同构成的伏击圈。",
+			say = "如果按照剛剛的作戰方式被吸引過去的話，艦隊會正好進入潛艇和艦載機共同構成的伏擊圈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是指挥官，一下子就抓住了{namecode:182}今天的异常，然后立刻进行了诱导作战…",
+			say = "不愧是指揮官，一下子就抓住了信濃今天的異常，然後立刻進行了誘導作戰…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还好你冷静下来了呢~",
+			say = "還好妳冷靜下來了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…其实从刚才起妾身就很在意，汝等口中的指挥官究竟是谁？",
+			say = "…其實從剛才起妾身就很在意，汝等口中的指揮官究竟是誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！指挥官就是指挥官啊…应该怎么说明呢…",
+			say = "哎？！指揮官就是指揮官啊…應該怎麼說明呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "已经接近指挥官的舰队主力了，接下来就是决战。不如等到演习结束之后------",
+			say = "已經接近指揮官的艦隊主力了，接下來就是決戰。不如等到演習結束之後------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遗憾，看来没时间了呢…",
+			say = "遺憾，看來沒時間了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}，相信自己，也要相信与你并肩战斗的同伴，祝你一路顺风。",
+			say = "信濃，相信自己，也要相信與妳並肩戰鬥的同伴，祝你一路順風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请加油吧~",
+			say = "請加油吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgm = "bsm-2",
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "是，妾身记住了。",
+			say = "是，妾身記住了。",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_xinnong2_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:161}…真是不可思议的人啊……这里也真是一个不可思议的地方……",
+			say = "天城…真是不可思議的人啊……這裡也真是一個不可思議的地方……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个叫指挥官的人也是，真遗憾…如果时间能再多一些就好了……",
+			say = "那個叫指揮官的人也是，真遺憾…如果時間能再多一些就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "若能再次来到此处的话……",
+			say = "如果能再次來到這裡的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "啊…意识正在剥离。终于到回归现实之时了么……",
+			say = "啊…意識正在剝離。終於到回歸現實之時了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

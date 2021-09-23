@@ -11,19 +11,19 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「昔者庄周梦为胡蝶  栩栩然胡蝶也」</size>",
+					"<size=51>「昔者莊周夢為胡蝶  栩栩然胡蝶也」</size>",
 					1
 				},
 				{
-					"<size=51>「自喻适志与  不知周也」</size>",
+					"<size=51>「自喻適志與  不知周也」</size>",
 					3
 				},
 				{
-					"<size=51>「俄然觉  则蘧蘧然周也」</size>",
+					"<size=51>「俄然覺  則蘧蘧然周也」</size>",
 					5
 				},
 				{
-					"<size=51>「不知  周之梦为胡蝶与  胡蝶之梦为周与」</size> ",
+					"<size=51>「不知  週之夢為胡蝶與  胡蝶之夢為周與」</size> ",
 					7
 				}
 			}
@@ -52,7 +52,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "长久以来，妾身一直在远方凝视着这个世界，如今终于得到了触碰它的机会，可是…",
+			say = "長久以來，妾身一直在遠方凝視著這個世界，如今終於得到了觸碰它的機會，可是…",
 			bgm = "bsm-2",
 			flashin = {
 				delay = 1,
@@ -85,7 +85,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "众人的期待，信仰的凝结，换来的却是如此的虚弱与无力。",
+			say = "眾人的期待，信仰的凝結，換來的卻是如此的虛弱與無力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原本不应该是这样的，原本……",
+			say = "原本不應該是這樣的，原本……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "命运的轨迹被干扰了么…亦或是，命运轨迹本该如此呢。",
+			say = "命運的軌跡被干擾了嗎…亦或是，命運軌跡本該如此呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，这些都不重要了…现在重要的不是妾身，而是重樱。",
+			say = "不，這些都不重要了…現在重要的不是妾身，而是重櫻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现世之中，神木已然凋零，群岛正在燃烧，赤红的身影逐步引导着毁灭的降临。",
+			say = "現世之中，神木已然凋零，群島正在燃燒，赤紅的身影逐步引導著毀滅的降臨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而梦境……正在被漆黑与猩红的预兆所撕裂。",
+			say = "而夢境……正在被漆黑與猩紅的預兆所撕裂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在片段拼凑的尽头，是妾身也无法看清的「梦魇」……",
+			say = "在片段拼湊的盡頭，是妾身也無法看清的「夢魘」……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "必须阻止这一切的发生。",
+			say = "必須阻止這一切的發生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_xinnong2_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "纵使以这般身姿醒来，妾身也有能做到的事。",
+			say = "縱使以這樣的身軀醒來，妾身也有能做到的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只要现在行动起来……",
+			say = "只要現在行動起來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			soundeffect = "event:/ui/fengling",
 			actor = 307080,
 			stopbgm = true,
-			say = "为时还，未晚…！",
+			say = "為時還，未晚…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

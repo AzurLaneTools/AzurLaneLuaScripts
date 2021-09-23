@@ -12,7 +12,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如同太阳的光晕一样，环绕着本岛的数个离岛…看来没错，这里就是天岩岛了！",
+			say = "如同太陽的光暈一樣，環繞著本島的數個離島…看來沒錯，這裡就是天岩島了！",
 			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与外界的盛况相比截然不同的冷清破败呢，怎么也不像是{namecode:182}大人居住的地方……",
+			say = "與外界的盛況相比截然不同的冷清破敗呢，怎麼也不像是信濃大人居住的地方……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“最强航空母舰的苏醒将如同耀眼烈日一般，一举驱散阴霾引领重樱走向新的辉煌。”",
+			say = "“最強航空母艦的甦醒將如同耀眼烈日一般，一舉驅散陰霾引領重櫻走向新的輝煌。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "通过上层部卖力的宣传，现在所有地方都对这件事讨论的沸沸扬扬的。",
+			say = "通過上層部賣力的宣傳，現在所有地方都對這件事討論的沸沸揚揚的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果让民众们知道了{namecode:182}大人的真实情况……",
+			say = "如果讓民眾們知道了信濃大人的真實情況……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉…不但天宇启户祭遭到了不速之客的干扰，连神石都被掉包了…现在的{namecode:182}大人恐怕不是正常醒来的。",
+			say = "唉…不但天宇啟戶祭遭到了不速之客的干擾，連神石都被掉包了…現在的信濃大人恐怕不是正常醒來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:84}大人也是有许多考虑在，才选择让我们护送{namecode:182}大人离开吧。",
+			say = "武藏大人也是有許多考慮在，才選擇讓我們護送信濃大人離開吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "上次战斗后留下的痕迹还十分明显…让{namecode:182}大人一直住在这样的地方确实不好。",
+			say = "上次戰鬥後留下的痕跡還十分明顯…讓信濃大人一直住在這樣的地方確實不好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果回到本岛之后{namecode:182}大人能恢复力量就好了呢！",
+			say = "如果回到本島之後信濃大人能恢復力量就好了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:84}大人应该也是这么想的，希望如此吧。",
+			say = "武藏大人應該也是這麼想的，希望如此吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔？有舰队从岛上的港口驶出来了…那个就是{namecode:182}大人么！好漂亮……",
+			say = "唔？有艦隊從島上的港口駛出來了…那個就是信濃大人嗎！好漂亮……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇，隔着这么远{namecode:60}已经能感受到不输给{namecode:84}大人的威压了……",
+			say = "嗚哇，隔著這麼遠熊野已經能感受到不輸給武藏大人的威壓了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？{namecode:182}大人身旁的是{namecode:50}么。计划里应该只有{namecode:182}大人一人出航才对…",
+			say = "嗯？信濃大人身旁的是能代嗎。計劃裡應該只有信濃大人一人出航才對…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我倒觉得原本只让{namecode:182}大人一人动身的计划才有问题…既然是大将出行，身旁有一两个近侍陪伴是理所当然的吧。",
+			say = "我倒覺得原本只讓信濃大人一人動身的計劃才有問題…既然是大將出行，身旁有一兩個近侍陪伴是理所當然的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的有道理啊…{namecode:182}大人这么做也一定有她的考虑。",
+			say = "說的有道理啊…信濃大人這麼做也一定有她的考慮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "好了，不能让她们等太久，我们也加快速度吧！",
+			say = "好了，不能讓她們等太久，我們也加快速度吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

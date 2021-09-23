@@ -9,7 +9,7 @@ return {
 		{
 			bgmDelay = 1,
 			side = 2,
-			say = "重樱本岛·某处",
+			say = "重櫻本島·某處",
 			dir = 1,
 			blackBg = true,
 			bgm = "bsm-2",
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "观察者你在听吧，给我出来。",
+			say = "測試者你在聽吧，給我出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "观察者",
-			say = "怎么大清早就把人家喊过来，我可是很忙的哟。",
+			say = "怎麼大清早就把人家喊過來，我可是很忙的喲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "你从一开始就知道吧，「海若」与{namecode:182}诞生的关系，以及换掉海若后对{namecode:182}带来的影响！",
+			say = "你從一開始就知道吧，「海若」與信濃誕生的關係，以及換掉海若後對信濃帶來的影響！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "观察者",
-			say = "呵呵呵，现在铁血送来了你想要的东西，{namecode:182}也提前苏醒了，我可一点都没骗你哦~",
+			say = "呵呵呵，現在鐵血送來了你想要的東西，信濃也提前甦醒了，我可一點都沒騙你哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "观察者",
-			say = "至于海若与{namecode:182}的关系，你之前也没有主动问我嘛。",
+			say = "至於海若與信濃的關係，你之前也沒有主動問我嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这么虚弱的{namecode:182}就算醒来能有什么用…哼，还好我听{namecode:92}的建议留了后手。",
+			say = "這麼虛弱的信濃就算醒來能有什麼用…哼，還好我聽加賀的建議留了後手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "观察者",
-			say = "留后手的潜台词就是对我的计划表示不信任呢，真是太令人伤心了。",
+			say = "留後手的潛台詞就是對我的計劃表示不信任呢，真是太令人傷心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "会乖乖信你鬼话的人才有问题。别会错意了，我们只是相互利用的关系而已。信赖，是不需要的。",
+			say = "會乖乖信你鬼話的人才有問題。別會錯意了，我們只是相互利用的關係而已。信賴，是不需要的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "还有，{namecode:182}路上遭遇的袭击又是怎么回事，你还想要测试什么？",
+			say = "還有，信濃路上遭遇的襲擊又是怎麼回事？你還想要測試什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "本岛附近的所有镜面海域的位置我都要知晓，这是协议好的内容吧。",
+			say = "本島附近的所有鏡面海域的位置我都要知曉，這是協議好的內容吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "观察者",
-			say = "虽然你对{namecode:182}没报什么期待，我们可是特别期待了很多哦。",
+			say = "雖然你對信濃沒報什麼期待，我們可是特別期待了很多哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "观察者",
-			say = "这次的袭击嘛，反正也没造成实际损失，你就当成一次「故障」好了。就算精密的机器，运行久了出现一些小故障也是可以被原谅的吧。",
+			say = "這次的襲擊嘛，反正也沒造成實際損失，你就當成一次「故障」好了。就算精密的機器，運行久了出現一些小故障也是可以被原諒的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "观察者",
-			say = "嗯？突然有有趣的联络接进来了。我还有事，今天就不奉陪了哦，再会~",
+			say = "嗯？突然有有趣的聯絡接進來了。我還有事，今天就不奉陪了哦，再會~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "不要把重樱的领海当成自己的后花园啊，可恶的塞壬……！",
+			say = "不要把重櫻的領海當成自己的後花園啊，可惡的塞壬……！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "啧…算了，计划正在顺利进行，这样的局面不会持续很久了……",
+			say = "嘖…算了，計劃正在順利進行，這樣的局面不會持續很久了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

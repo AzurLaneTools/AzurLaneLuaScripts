@@ -12,7 +12,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，您醒过来了啊，晚上好。",
+			say = "信濃大人，您醒過來了啊，晚上好。",
 			bgm = "xinnong-3",
 			flashin = {
 				delay = 0.5,
@@ -39,7 +39,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "妾身，在路上睡着了么…？",
+			say = "妾身，在路上睡著了嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！不愧是舰队的大将，就算已经发现了敌人的踪迹，依然有一种不动如山的感觉呢。",
+			say = "沒錯！不愧是艦隊的大將，就算已經發現了敵人的蹤跡，依然有一種不動如山的感覺呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的时间是…？",
+			say = "現在的時間是…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "马上就要到八点了，在发现白鹰潜艇信号后，舰队正在按照您之前的命令收缩队形高速前进。",
+			say = "馬上就要到八點了，在發現白鷹潛艇信號後，艦隊正在按照您之前的命令收縮隊形高速前進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（无力感，浑身上下都使不出力气。）",
+			say = "（無力感，渾身上下都使不出力氣。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…细看下来，舰装各处都有粗糙拼合的痕迹，动力系统在勉强运作，机库也是空的……）",
+			say = "（…細看下來，艦裝各處都有粗糙拼合的痕跡，動力系統在勉強運作，機庫也是空的……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，第一次出航有不舒服的感觉是很正常的。只要这么继续航行下去，很快就能习惯了。",
+			say = "信濃大人，第一次出航有不舒服的感覺是很正常的。只要這麼繼續航行下去，很快就能習慣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等您到了吴港编入战斗部队以后，就能好好教训一下白鹰的那些家伙了~！",
+			say = "等您到了吳港編入戰鬥部隊以後，就能好好教訓一下白鷹的那些傢伙了~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "深陷与白鹰的战争啊…这里也一样么……",
+			say = "深陷與白鷹的戰爭啊…這裡也一樣嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（明明不久之前还在并肩战斗呢，梦境这种存在啊…）",
+			say = "（明明不久之前還在並肩戰鬥呢，夢境這種存在啊…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（情报还在不停涌出，过去的梦中从未发生过这种事……算了，且行且看吧）",
+			say = "（情報還在不停湧出，過去的夢中從未發生過這種事……算了，且行且看吧）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

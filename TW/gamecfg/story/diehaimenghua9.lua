@@ -15,7 +15,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "还不够，这种程度还远远不够！……妾身的力量，应该远不止这种程度才对！",
+			say = "還不夠，這種程度還遠遠不夠！……妾身的力量，應該遠不止這種程度才對！",
 			flashN = {
 				color = {
 					1,
@@ -68,8 +68,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "无趣……",
+			actorName = "測試者",
+			say = "無趣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "{namecode:83}级船体改，{namecode:182}号装甲航母。原本被视为重樱的希望而被建造出来，实际上的数据只是这种程度么。",
+			actorName = "測試者",
+			say = "大和級船體改，信濃號裝甲航母。原本被視為重櫻的希望而被建造出來，實際上的數據只是這種程度嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "区区测试者而已……妾身已经与你进行过无数次对局了！",
+			say = "區區測試者而已……妾身已經與你進行過無數次對局了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,8 +119,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "进行过无数次的对局？这应该是我要说的台词才对。",
+			actorName = "測試者",
+			say = "進行過無數次的對局？這應該是我要說的台詞才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,8 +136,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "真正的实验，需要可靠的数据，严谨的建模，以及大量的计算。你所依靠的不过是虚无缥缈的幻想而已。",
+			actorName = "測試者",
+			say = "真正的實驗，需要可靠的數據，嚴謹的建模，以及大量的計算。妳所依靠的不過是虛無縹緲的幻想而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}大人，您位置太靠前了！快退回来！",
+			say = "信濃大人，您位置太靠前了！快退回來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不……这样才是正确的，只有这样才能在测试者放松警惕的时候抵达它脆弱的部分！",
+			say = "不……這樣才是正確的，只有這樣才能在測試者放鬆警惕的時候抵達它脆弱的部分！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,12 +193,12 @@ return {
 		},
 		{
 			actor = 900011,
-			actorName = "测试者",
+			actorName = "測試者",
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "嗯？居然直接攻击这个地方……",
+			say = "嗯？居然直接攻擊這個地方……",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -253,7 +253,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "观察到测试者的主炮受损，敌方攻击频率下降了！",
+			say = "觀察到測試者的主炮受損，敵方攻擊頻率下降了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后是能量的供应模块，妾身记得是在……",
+			say = "然後是能量的供應模組，妾身記得是在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_mirror",
-			say = "轰————————————！",
+			say = "轟————————————！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -340,7 +340,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "潜艇的袭击？！怎么可能…？究竟什么时候从哪里……",
+			say = "潛艇的襲擊？！怎麼可能…？究竟什麼時候從哪裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,8 +356,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "战场需要的不是无纪律的匹夫之勇，重樱的命运也不会因为你一人的行动而改变。",
+			actorName = "測試者",
+			say = "戰場需要的不是無紀律的匹夫之勇，重櫻的命運也不會因為妳一人的行動而改變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,8 +373,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "……测试结果录入，{namecode:182}的结局没有发生任何改变。",
+			actorName = "測試者",
+			say = "……測試結果錄入，信濃的結局沒有發生任何改變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actorName = "{namecode:182}",
 			dir = 1,
 			bgmDelay = 2,
-			say = "什么…？就这么草率的？！",
+			say = "什麼…？就這麼草率的？！",
 			bgm = "bsm-2",
 			flashout = {
 				black = true,
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行，妾身还不能在这里结束……好不容易才醒来，明明一切都才刚刚开始！",
+			say = "不行，妾身還不能在這裡結束……好不容易才醒來，明明一切都才剛剛開始！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明妾身还什么都没有做啊…",
+			say = "明明妾身還什麼都沒有做啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么会这样，这种事也，太不讲道理了……………………",
+			say = "怎麼會這樣，這種事也，太不講道理了……………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗还在继续…赶上了！",
+			say = "戰鬥還在繼續…趕上了！",
 			bgm = "xinnong-4",
 			flashN = {
 				color = {
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……海面上出现了黑色光芒？那个是………不好！",
+			say = "……海面上出現了黑色光芒？那個是………不好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，快停手！！！",
+			say = "赤城，快停手！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			actorName = "{namecode:82}",
 			dir = 1,
-			say = "你是……？啊，这不是{namecode:182}么！你终于睡醒了啊~！",
+			say = "妳是……？啊，這不是信濃嗎！妳終於睡醒了啊~！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，把手中的不祥之物放下吧，它能带来的只有噩梦与毁灭，这种力量不是重樱需要的。",
+			say = "赤城，把手中的不祥之物放下吧，它能帶來的只有噩夢與毀滅，這種力量不是重櫻需要的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵…今天怎么谁都想对我说教一番……明明一直躲在安全的地方睡大觉，你又懂些什么！",
+			say = "呵…今天怎麼誰都想對我說教一番……明明一直躲在安全的地方睡大覺，妳又懂些什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…妾身也不是因为自己想，才沉睡这么久的啊……！",
+			say = "…妾身也不是因為自己想，才沉睡這麼久的啊……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:182}",
-			say = "于虚境中彷徨，眼见重樱步入危局却只能从旁坐观的无奈，妾身已经不想再经历了……",
+			say = "於虛境中徬徨，眼見重櫻步入危局卻只能從旁坐觀的無奈，妾身已經不想再經歷了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:182}",
-			say = "嗯…这种状态才对，此刻充盈着力量的状态才对…",
+			say = "嗯…這種狀態才對，此刻充盈著力量的狀態才對…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉啊，让汝等久等了。{namecode:83}级三号舰{namecode:182}，现在加入战斗。",
+			say = "抱歉啊，讓汝等久等了。大和級三號艦信濃，現在加入戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:182}",
-			say = "梦境也好，现实也罢。不论身处何方，妾身须行之事都不曾有任何改变…",
+			say = "夢境也好，現實也罷。不論身處何方，妾身要做的事都不會有任何改變…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余烬之{namecode:66}啊，此乃妾身守护之土，就此退场吧！",
+			say = "餘燼之高雄啊，此乃妾身守護之土，就此退場吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actorName = "{namecode:182}",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这份光芒是…梦境的消散，这样就要结束了么……",
+			say = "這份光芒是…夢境的消散，這樣就要結束了嗎……",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果妾身能以这样的姿态直接醒来该多好啊……",
+			say = "如果妾身能以這樣的姿態直接醒來該多好啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "黑色的崩坏…与梦魇的诞生…一定要…阻止…………",
+			say = "黑色的崩壞…與夢魘的誕生…一定要…阻止…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

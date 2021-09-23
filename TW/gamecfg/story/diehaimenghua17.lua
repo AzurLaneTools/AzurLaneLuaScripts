@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "还是没遇到什么强力的抵抗呢，真是幸运~",
+			say = "還是沒遇到什麼強力的抵抗呢，真是幸運~",
 			bgm = "bsm-3",
 			flashin = {
 				delay = 0.5,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们现在正好处于舰队中心位置，就算有反击的敌人也会被外围舰队就地消灭吧。",
+			say = "我們現在正好處於艦隊中心位置，就算有反擊的敵人也會被外圍艦隊就地消滅吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要大意哦，{namecode:60}。天空、水面、水下，它们可能从任何方向袭击过来。",
+			say = "不要大意哦，熊野。天空、水面、水下，它們可能從任何方向襲擊過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心放心，我也不是第一天和它们打交道了嘛~",
+			say = "放心放心，我也不是第一天和它們打交道了嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，稍微有些紧张…",
+			say = "抱歉，稍微有些緊張…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直是暴风雨前的宁静，连我都觉得都有点喘不过气了。",
+			say = "簡直是暴風雨前的寧靜，連我都覺得都有點喘不過氣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我刚刚趁闲暇的时候准备了些安神的花茶，虽然花草的种类并不齐全…如果不介意的话，大家请用！",
+			say = "我剛剛趁閒暇的時候準備了些安神的花茶，雖然花草的種類並不齊全…如果不介意的話，大家請用！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦~帮大忙了。{namecode:182}大人也来一点么？",
+			say = "哦~幫大忙了。信濃大人也來一點嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…有劳了。",
+			say = "…有勞了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,24 +179,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "舰队的的众人有一句没一句的闲谈着，试图缓解这能将耳膜压出轰鸣的凝重气氛。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_bsmlevel",
-			actor = 303110,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "大家注意，疑似敌方先锋军团正在向我们的前锋接近。",
+			say = "艦隊的的眾人有一句沒一句的閒談著，試圖緩解這能將耳膜壓出轟鳴的凝重氣氛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +196,24 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且就在不久之前，我们与几支特混舰队失去了联络……白鹰目前正在全力调查情况。",
+			say = "大家注意，疑似敵方先鋒軍團正在向我們的前鋒接近。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_bsmlevel",
+			actor = 303110,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "而且在不久之前，我們與幾支特混艦隊失去了聯絡……白鷹目前正在全力調查情況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "我有种不好的预感，大家都小心一些。",
+			say = "我有種不好的預感，大家都小心一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

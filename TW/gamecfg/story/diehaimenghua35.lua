@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "{namecode:182}大人，您醒了？",
+			say = "信濃大人，您醒了？",
 			bgm = "story-4",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是…？战况怎么样了…！",
+			say = "這裡是…？戰況怎麼樣了…！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，您睡糊涂了。这里是我操控的量产型上。我们自天岩岛出发后一路上还没有遇到任何敌人哦。",
+			say = "呵呵，您睡糊塗了。這裡是我操控的量產型上。我們自天岩島出發後一路上還沒有遇到任何敵人哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（这种感觉…这里确实是现世。这么说从在船上睡着之后到现在为止发生的一切，全部都是梦中之事么…)",
+			say = "（這種感覺…這裡確實是現世。這麼說從在船上睡著之後到現在為止發生的一切，全部都是夢中之事嗎…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（啊…居然完全没有意识到…妾身还是不够细心啊。不过太好了…尚且还有挽回的余地！）",
+			say = "（啊…居然完全沒有意識到…妾身還是不夠細心啊。不過太好了…尚且還有挽回的餘地！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			actorName = "{namecode:50}",
 			dir = 1,
-			say = "{namecode:182}大人，您休息得还好么？",
+			say = "信濃大人，您休息得還好嗎？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妾身好像做了一个极其漫长的梦……让你担心了啊，{namecode:50}。",
+			say = "妾身好像做了一個極其漫長的夢……讓妳擔心了啊，能代。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、不敢当……",
+			say = "不、不敢當……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（{namecode:182}大人睡了一觉之后，整个人的气场都发生变化了哎！）",
+			say = "（信濃大人睡了一覺之後，整個人的氣場都發生變化了哎！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（嘿嘿…感觉变得更柔和，更平易近人了…）",
+			say = "（嘿嘿…感覺變得更柔和，更平易近人了…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…妾身刚刚在梦中也经历了许多啊……汝等不必如此客气，直接称呼妾身为{namecode:182}就好。",
+			say = "呼…妾身剛剛在夢中也經歷了許多啊……汝等不必如此客氣，直接稱呼妾身為信濃就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			actorName = "{namecode:27}",
 			dir = 1,
-			say = "哎？！这个不行，我们怎么能做出如此僭越的事……",
+			say = "哎？！這個不行，我們怎麼做出如此僭越的事……",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至少在这一路之上，妾身希望汝等能如此称呼。",
+			say = "至少在這一路之上，妾身希望汝等能如此稱呼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果这是您的愿望的话…我明白了。{namecode:182}，这种感觉可以么~？",
+			say = "如果這是您的願望的話…我明白了。信濃，這種感覺可以嗎~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，这样就好。",
+			say = "嗯，這樣就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来来来，大家也来这么叫叫看~",
+			say = "來來來，大家也來這麼叫叫看~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "锵~！一路上请多多关照咯，{namecode:182}！哎嘿嘿，这么叫感觉轻松多了~",
+			say = "鏘~！一路上請多多關照囉，信濃！哎嘿嘿，這麼叫感覺輕鬆多了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			actorName = "{namecode:27}",
 			dir = 1,
-			say = "唔…{namecode:182}、{namecode:182}！请您放心，不论路上发生什么危险，{namecode:27}都会拼死保护您的安全！",
+			say = "唔…信、信濃！請您放心，不論路上發生什麼危險，涼月都會拼死保護您的安全！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，看来{namecode:27}还需要在多熟悉一下氛围上的转变呢。",
+			say = "哈哈哈，看來涼月還需要在多熟悉一下氛圍上的轉變呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？我也要更改称呼么…？！",
+			say = "哎？我也要更改稱呼嗎…？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………我明白了，{namecode:182}大、{namecode:182}……",
+			say = "………………我明白了，信濃大、信濃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好，这样的氛围才与那里稍微接近了一些……接下来，差不多该到了……",
+			say = "很好，這樣的氛圍才與那裡稍微接近了一些……接下來，差不多該到了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}，我们前方出现了一支重樱舰队。领队是{namecode:103}和{namecode:104}。她们正在护送{namecode:188}和一批运输船前往重樱本岛的方向。",
+			say = "信濃，我們前方出現了一支重櫻艦隊。領隊是千歲和千代田。她們正在護送樫野和一批運輸船前往重櫻本島的方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然来了……两支舰队航向相同，结伴而行会更加安全，立刻向她们发出同行的命令。",
+			say = "果然來了……兩支艦隊航向相同，結伴而行會更加安全，立刻向她們發出同行的命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战况不利…！{namecode:80}，请允许我单独突围出镜面海域。{namecode:103}的舰队应该还没走远，我去找她们回来！",
+			say = "戰況不利…！紀伊，請允許我單獨突圍出鏡面海域。千歲的艦隊應該還沒走遠，我去找她們回來！",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里距离天岩岛也不远，只要能发出求援信息的话，天岩岛的舰队也能前来参战！",
+			say = "這裡距離天岩島也不遠，只要能發出求援訊息的話，天岩島的艦隊也能前來參戰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不行！敌人太多了，只靠你一个人是不可能突围成功的。",
+			say = "不行！敵人太多了，只靠妳一個人是不可能突圍成功的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且现在还没有找到正确的出路，就算你能一时摆脱敌人，也绕不出镜面海域吧……",
+			say = "而且現在還沒有找到正確的出路，就算妳能一時擺脫敵人，也繞不出鏡面海域吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然目前为止还没直接打过来，不过看这一层一层的敌人，测试者是铁定不打算放我们轻松离开啊。",
+			say = "雖然目前為止還沒直接打過來，不過看這一層一層的敵人，測試者是鐵定不打算放我們輕鬆離開啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没办法，只有在这里消灭测试者，从正面突破镜面海域这一个选择了。",
+			say = "沒辦法，只有在這裡消滅測試者，從正面突破鏡面海域這一個選擇了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "直取敌将么！唔…如果只是测试者的话靠我们的阵容还可以勉强一战，不过在加上那一圈护卫的舰队可就头疼了呢…",
+			say = "直取敵將嗎！唔…如果只是測試者的話靠我們的陣容還可以勉強一戰，不過在加上那一圈護衛的艦隊可就頭疼了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "汝等负责解决护卫舰队………测试者，交给妾身。",
+			say = "汝等負責解決護衛艦隊………測試者，交給妾身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎，可是，{namecode:182}大人，您的力量还……",
+			say = "哎，可是，信濃大人，您的力量還……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "无妨，妾身自有办法。",
+			say = "無妨，妾身自有辦法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（噩梦之中，妾身已经与它们交手过无数次了，就算是现在的状态也……有胜算！）",
+			say = "（噩夢之中，妾身已經與它們交手過無數次了，就算是現在的狀態也……有勝算！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "守护重樱，为重樱带来希望和辉煌是妾身的使命，不论在什么情况下也不会改变。",
+			say = "守護重櫻，為重櫻帶來希望和輝煌是妾身的使命，不論在什麼情況下也不會改變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "我明白了。我们会竭尽全力掩护您，请尽情作战，让狂妄之敌感受一下重樱最强航母的威力吧！",
+			say = "我明白了。我們會竭盡全力掩護您，請盡情作戰，讓狂妄之敵感受一下重櫻最強航母的威力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -26,6 +26,14 @@ function slot0.BattleUsage(slot0)
 	return slot0:getConfig("benefit_type") == BuffUsageConst.BATTLE
 end
 
+function slot0.RookieBattleExpUsage(slot0)
+	return slot0:getConfig("benefit_type") == BuffUsageConst.ROOKIEBATTLEEXP
+end
+
+function slot0.GetRookieBattleExpMaxLevel(slot0)
+	return slot0:getConfig("benefit_condition")[3]
+end
+
 function slot0.isActivate(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() <= slot0.timestamp
 end

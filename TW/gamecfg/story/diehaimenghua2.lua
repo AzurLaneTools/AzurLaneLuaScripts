@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "天岩岛·天守阁",
+			say = "天岩島·天守閣",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行…我果然还是反对这么安排。",
+			say = "不行…我果然還是反對這麼安排。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是……这项决定是上层部的意思，而且你看，{namecode:182}大人也不介意嘛。",
+			say = "可是……這項決定是上層部的意思，而且妳看，信濃大人也不介意嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "妾身不介意哦，原本就有去本岛同{namecode:83}与{namecode:84}商谈之意，此为顺路。",
+			say = "妾身不介意哦，原本就有去本島同大和與武藏商談之意，此為順路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "问题不在这里…{namecode:182}大人才刚刚从沉睡中醒来，对外部的一切事物都还不熟悉…",
+			say = "問題不在這裡…信濃大人才剛剛從沉睡中醒來，對外部的一切事物都還不熟悉…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在不但要匆忙出航，而且居然让我们这些近侍全部留在岛上待命…实在是令人无法理解。",
+			say = "現在不但要匆忙出航，而且居然讓我們這些近侍全部留在島上待命…實在是令人無法理解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非也…现世之事也好，重樱的内部情报亦好，妾身什么都知道。",
+			say = "非也…現世之事也好，重櫻的內部情報亦好，妾身什麼都知道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且上层部不是派遣了一支舰队专门来接{namecode:182}大人过去嘛，你担心过度了。",
+			say = "而且上層部不是派遣了一支艦隊專門來接信濃大人過去嘛，妳擔心過度了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次舰队的领舰{namecode:80}，虽然性格上有些豪放吧…不过实力可是一等一的，放心吧。",
+			say = "這次艦隊的領艦紀伊，雖然性格上有些豪放吧…不過實力可是一等一的，放心吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是……算了，我决定了！这次我要陪{namecode:182}大人一起出航。",
+			say = "可是……算了，我決定了！這次我要陪信濃大人一起出航。",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -230,7 +230,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…部署上的改变需要重新向上层部进行申请，时间上来已经来不及了吧？",
+			say = "…部署上的改變需要重新向上層部進行申請，時間上來說已經來不及了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果{namecode:182}大人同意带我去的话，就能先进行舰队调动再向上层部汇报，这样的话就没有问题了！",
+			say = "如果信濃大人同意帶我去的話，就能先進行艦隊調動再向上層部匯報，這樣的話就沒有問題了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今日的{namecode:50}稍稍有些强硬啊……",
+			say = "今日的能代稍稍有些強硬啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，如果只是多{namecode:50}一人的话……妾身许可了。",
+			say = "唔，如果只是多能代一人的話……妾身許可了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多谢{namecode:182}大人!",
+			say = "多謝信濃大人!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			say = "（敲门声）",
+			say = "（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，前来迎接的舰队已经接近天岩岛了。",
+			say = "信濃大人，前來迎接的艦隊已經接近天岩島了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "时间差不多了，吾等出发吧。",
+			say = "時間差不多了，吾等出發吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:179}，{namecode:175}，天岩岛就拜托汝等了。",
+			say = "龍鳳，駿河，天岩島就拜託汝等了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

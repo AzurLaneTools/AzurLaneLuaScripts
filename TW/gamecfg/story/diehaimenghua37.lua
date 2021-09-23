@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "好厉害啊，{namecode:182}！不但预测到了伏击，甚至连塞壬舰队的配置都提前知道了…！",
+			say = "好厲害啊，信濃！不但預測到了伏擊，甚至連塞壬艦隊的配置都提前知道了…！",
 			bgm = "story-6",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是令人震惊……塞壬居然在这里偷偷埋伏了这么多舰队……",
+			say = "真是令人震驚……塞壬居然在這裡偷偷埋伏了這麼多艦隊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果不是遇到{namecode:182}，我们可能就要因为这次伏击而陷入危机了…！",
+			say = "如果不是遇到信濃，我們可能就要因為這次伏擊而陷入危機了…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…非也。原本汝等将会平安通过，这些塞壬伏击的目标乃是妾身。抱歉将汝等卷进来了…",
+			say = "…非也。原本汝等將會平安通過，這些塞壬伏擊的目標是妾身。抱歉將汝等捲進來了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸，您在说什么啊！如果目标是您的话不是更糟糕了么！这些可恶的塞壬…居然大胆到来本岛附近设伏！",
+			say = "欸，您在說什麼啊！如果目標是您的話不是更糟糕了嗎！這些可惡的塞壬…居然大膽到來本島附近設伏！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬如此的反常部署，正是{namecode:182}对于它们威胁巨大的证明。您不用介意，为您护航是我们的义务和荣幸。",
+			say = "塞壬如此的反常部署，正是信濃對於它們威脅巨大的證明。您不用介意，為您護航是我們的義務和榮幸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常感谢…",
+			say = "非常感謝…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过不妙啊…敌人的增援还是源源不断，虽然看起来没有特意瞄准运输船，持续战斗下去还是会难免产生连带损伤。",
+			say = "不妙啊…敵人的增援還是源源不斷，雖然看起來沒有特意瞄準運輸船，不過持續戰鬥下去難免會產生連帶損傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有没有一个速战速决的方法……",
+			say = "有沒有一個速戰速決的方法……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再等等…测试者的舰队，就快出现了。",
+			say = "再等等…測試者的艦隊，就快出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "消灭测试者，就能彻底解除镜面海域的威胁。",
+			say = "消滅測試者，就能徹底解除鏡面海域的威脅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

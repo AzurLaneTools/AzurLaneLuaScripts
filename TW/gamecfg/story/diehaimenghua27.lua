@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "远处的喧嚣声…是在修行么…？",
+			say = "遠處的喧囂聲…是在修行嗎…？",
 			bgm = "story-1",
 			flashin = {
 				delay = 1,
@@ -74,7 +74,7 @@ return {
 			actor = 205060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是重樱的野太刀啊…令人印象深刻的长度。",
+			say = "這就是重櫻的野太刀啊…令人印象深刻的長度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的剑道虽然见过不少了，不过果然还是这张扬招式更合余的心意。余稍微也有些跃跃欲试了…",
+			say = "重櫻的劍道雖然見過不少了，不過果然還是這張揚招式更合余的心意。余稍微也有些躍躍欲試了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我对皇家骑士的剑术也仰慕已久，两位能不能借着今天的机会向我们展示一下呢？",
+			say = "我對皇家騎士團的劍術也仰慕已久，兩位能不能藉著今天的機會向我們展示一下呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "玫瑰能赏亦能作茶，剑术依然。吾就来一套观赏用的好了，至于实战用的…威尔士，这种事就交给你了哦。",
+			say = "玫瑰能賞亦能作茶，劍術依然。吾就來一套觀賞用的好了，至於實戰用的…威爾斯，這種事就交給你了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 205060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是，实战用的剑术若没有对手，则难以演示出效果啊…",
+			say = "但是，實戰用的劍術若沒有對手，則難以演示出效果啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈哈，这个好办！就当是为之后的演习热身，让我来当你的对手吧。",
+			say = "哈哈哈，這個好辦！就當是為之後的演習熱身，讓我來當妳的對手吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 205060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好，有合适的对手才有施展剑术的价值，拔剑吧！",
+			say = "很好，有合適的對手才有施展劍術的價值，拔劍吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵~稍微等一下喵！如果在这里比的话就太可惜了喵，优秀的剑术应该向更多人展现喵~！",
+			say = "喵~稍微等一下喵！如果在這裡比的話就太可惜了喵，優秀的劍術應該向更多人展現喵~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇…不知不觉中，居然连摊子都搭好了……！",
+			say = "不知不覺中，居然連攤子都搭好了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵~大家走过路过不要错过，重樱和皇家的剑术切磋比赛即将开始喵，门票是不会收的，不过零食和小吃请付费自取喵~！",
+			say = "呼喵~大家走過路過不要錯過，重櫻和皇家的劍術切磋比賽即將開始，門票是不會收的，不過零食和小吃請付費自取哦~！",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -276,7 +276,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚刚还是切磋……现在又变成演武会了么…",
+			say = "剛剛還是切磋……現在又變成比賽大會了嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟~这不是{namecode:182}么，要来看看我和皇家的剑术切磋比赛么？",
+			say = "喲~這不是信濃嗎，要來看看我和皇家的劍術切磋比賽嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（连重樱的人也直呼妾身为{namecode:182}…？这种情况还真是少见…）",
+			say = "（連重櫻的人也直呼妾身為信濃…？這種情況還真是少見啊…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:80}，{namecode:182}现在应该还有事要做，不应该在这里耽误时间哦。",
+			say = "紀伊，信濃現在應該還有事要做，不應該在這裡耽誤時間哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？演习还有很长时间才开始呢，来放松一下也没什么问题吧。",
+			say = "哎？演習還有很長時間才開始呢，來放鬆一下也沒什麼問題吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "抱歉，妾身确实还有事要做，先告辞了。汝等玩的开心……",
+			say = "抱歉，妾身確實還有事要做，先告辭了。汝等玩的開心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

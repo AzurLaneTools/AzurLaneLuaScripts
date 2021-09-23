@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "炸弹在空气的摩擦下发出死亡的轰鸣，由身形模糊的敌人构成的洪流被炸出一个个缺口。",
+			say = "炸彈在空氣的摩擦下發出死亡的轟鳴，由身形模糊的敵人構成的洪流被炸出一個個缺口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…就算在以往的梦境之中也没有感受过如此充盈的力量…如果是这样的力量……能赢！",
+			say = "…就算在以往的夢境之中也沒有感受過如此充盈的力量…如果是這樣的力量……能贏！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "若是仅有一头巨兽的话，确实如此。但是接二连三，更多身形模糊的威胁逼近了。",
+			say = "若是僅有一頭巨獸的話，確實如此。但是接二連三，更多身形模糊的威脅逼近了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "「——————此为徒劳。」",
+			say = "「——————此為徒勞。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即便如此，妾身也要继续战斗！",
+			say = "即便如此，妾身也要繼續戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "纵使梦境之中…只要界限未临，只要敌息尚存，妾身就要继续战斗下去！",
+			say = "縱使夢境之中…只要界限未臨，只要敵息尚存，妾身就要繼續戰鬥下去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "周边抵抗的声音变得越来越微弱。不知从何时开始，立于海面之上的只有{namecode:182}一人了。",
+			say = "周邊抵抗的聲音變得越來越微弱。不知從何時開始，立於海面之上的只有信濃一人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:103}、{namecode:104}、{namecode:188}…决战兵器运输队……",
+			say = "千歲、千代田、樫野…決戰兵器運輸隊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "「——————此为徒劳。」",
+			say = "「——————此為徒勞。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actorName = "{namecode:182}",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "远方曾经身处火炬之中的妾身，也是以这样的姿态迎来了最后一刻么…",
+			say = "遠方曾經身處火炬之中的妾身，也是以這樣的姿態迎來了最後一刻嗎…",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说，妾身哪里做错了呢……",
+			say = "還是說，妾身哪裡做錯了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明是足以消灭一切敌人的力量才对……！",
+			say = "明明是足以消滅一切敵人的力量才對……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么……………",
+			say = "為什麼……………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

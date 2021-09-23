@@ -12,7 +12,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，我们的航速比白鹰潜艇快得多，保持这个速度的话甩开它们轻而易举~",
+			say = "哼哼，我們的航速比白鷹潛艇快得多，保持這個速度的話甩開它們輕而易舉~",
 			bgm = "battle-boss-3",
 			flashin = {
 				delay = 0.5,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "冲锋~冲锋~！关原就在前方等着我们，正义在西军！",
+			say = "衝鋒~衝鋒~！關原就在前方等著我們，正義在西軍！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:143}，这个比喻应该不适合用在这里……",
+			say = "磯風，這個比喻應該不適合用在這裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？{namecode:182}大人，您怎么突然慢下来了…需要休息一下么？",
+			say = "哎？信濃大人，您怎麼突然慢下來了…需要休息一下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……妾身的动力系统突发故障，无法全速航行了。",
+			say = "……妾身的動力系統突發故障，無法全速航行了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然还是过度赶工留下的问题……",
+			say = "果然還是過度趕工留下的問題……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "糟糕…{namecode:182}大人现在的航速只有，15节？！这么下去很快就会被白鹰潜艇追上哦！",
+			say = "糟糕…信濃大人現在的航速只有，15節？！這麼下去很快就會被白鷹潛艇追上哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "周边又发现了白鹰潜艇的雷达信号…！",
+			say = "周邊又發現了白鷹潛艇的雷達訊號…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与之前的是同一艘么？",
+			say = "與之前的是同一艘嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个…无法判断，也许不是…可能我们真的已经落入白鹰潜艇的包围网了。",
+			say = "這個…無法判斷，也許不是…可能我們真的已經落入白鷹潛艇的包圍網了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			dir = 1,
-			say = "「——————立刻转向，躲避潜艇的伏击。」　",
+			say = "「——————立刻轉向，躲避潛艇的伏擊。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……舰队立刻转向，躲避潜艇的埋伏。",
+			say = "……艦隊立刻轉向，躲避潛艇的埋伏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（这里是妾身的梦境，脑中的情报也是这么说的，不会错…！）",
+			say = "（這裡是妾身的夢境，腦中的情報也是這麼說的，不會錯…！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

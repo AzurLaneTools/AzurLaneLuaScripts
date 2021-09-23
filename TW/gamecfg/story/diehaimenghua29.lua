@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "前方发现了一座正在运作中的厂房。",
+			say = "前方發現了一座正在運作中的廠房。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}？你也是来进行设备维修的么？",
+			say = "信濃？妳也是來進行設備維修的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是…维修厂？",
+			say = "這裡是…維修廠？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是科研部门哦，一起进来吧~",
+			say = "這裡是科研部門哦，一起進來吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎来到科研部门…各位今天有装备需要调整么？",
+			say = "歡迎來到科研部門…各位今天有裝備需要調整嗎？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰载机的升降装置这几天感觉有些问题，一会就要演习了，想来检查一下。",
+			say = "艦載機的彈射裝置這幾天感覺有些問題，一會就要演習了，想來檢查一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的是动力装置问题！",
+			say = "我的是動力裝置問題！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了，请两位到这边来。",
+			say = "我明白了，請兩位到這邊來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一会儿再见了哦~{namecode:182}。",
+			say = "一會兒再見了哦~信濃",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "随着三人的离开，空旷的房间中只有{namecode:98}一个人还在忙碌着。",
+			say = "隨著三人的離開，空曠的房間中只有明石一個人還在忙碌著。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -224,7 +224,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:98}…汝不是方才还在那边摆摊么……？",
+			say = "明石…妳不是剛剛還在那邊擺攤嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵？那里已经被设置成自助式购物了喵~就算放着不管也能源源不断的自动赚钱喵！",
+			say = "喵？那裡已經被設置成自助式購物了喵~就算放著不管也能源源不斷的自動賺錢喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}喵是来这里做什么的喵？有哪里不舒服么喵？",
+			say = "信濃喵是來這裡做什麼的喵？有哪裡不舒服嗎喵？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么说来……",
+			say = "這麼說來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（没有感觉到任何异常。舰装的状态良好，设备搭载齐全，身体也没有任何虚弱感…）",
+			say = "（沒有感覺到任何異常！艦裝的狀態良好，設備搭載齊全，身體也沒有任何虛弱感…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}，海若在这片区域的某个地方么？",
+			say = "明石，海若在這片區域的某個地方嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "hairuo？那是什么东西喵？港区的设备清单里没有这件东西喵。",
+			say = "hairuo？那是什麼東西喵？港區的設備清單裡沒有這件東西喵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "神石不存在于这里…？那妾身现在的状态是…",
+			say = "神石不存在於這裡…？那妾身現在的狀態是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔喵……让我看看喵！",
+			say = "唔喵……讓我看看喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来{namecode:182}喵没有任何问题，现在正处于正常状态喵！",
+			say = "看起來信濃喵沒有任何問題，現在正處於正常狀態喵！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -425,7 +425,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在这样才是正常状态么…？",
+			say = "現在這樣才是正常狀態嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错喵？现在的{namecode:182}喵才是处于正常状态的{namecode:182}喵。喵！{namecode:182}喵怎么了喵！小心脚下喵！",
+			say = "沒錯喵？現在的信濃喵才是處於正常狀態的信濃喵。喵！信濃喵怎麼了喵！小心腳下喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "慌慌张张的跑走了喵…",
+			say = "慌慌張張的跑走了喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

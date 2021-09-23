@@ -31,7 +31,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
-			say = "敌人伴随着一波又一波滔天的巨浪袭来",
+			say = "敵人伴隨著一波又一波滔天的巨浪襲來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "样貌，看不清……梦境中情报的局限么。",
+			say = "樣貌，看不清……夢境中情報的局限嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…很难缠。这些敌人的战斗力很强…！",
+			say = "不過…很難纏。這些敵人的戰鬥力很強…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
-			say = "狂风呼啸着，仿佛巨兽的咆哮。海浪翻滚着，仿佛巨兽的利爪。",
+			say = "狂風呼嘯著，彷彿巨獸的咆哮。海浪翻滾著，彷彿巨獸的利爪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对………巨兽是真实存在的？！",
+			say = "不對………巨獸是真實存在的？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
-			say = "自天际线而来，利用波峰之后隐藏着身形而快速接近着的，巨影…",
+			say = "自天際線而來，利用波峰之後隱藏著身形而快速接近著的，巨影…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "样貌，还是看不清…………",
+			say = "樣貌，還是看不清…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，巨兽突破了外围舰队正在向我们直冲过来！",
+			say = "信濃大人，巨獸突破了外圍艦隊正在向我們直衝過來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么可能…情报上不是这么说的，为什么还会有巨兽停留在这里！",
+			say = "怎麼可能…情報上不是這麼說的，為什麼還會有巨獸停留在這裡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来目标是海若啊…呵，意识到威胁的垂死挣扎。绝对不能让它们得逞，{namecode:182}大人！",
+			say = "看來目標是海若啊…呵，意識到威脅的垂死掙扎。絕對不能讓它們的得逞，信濃大人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "航空队全数起飞，准备对巨兽进行讨伐作战！",
+			say = "航空隊全數起飛，準備對巨獸進行討伐作戰！",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……妾身一定会亲手守护好这一切，守护好重樱的未来与希望……",
+			say = "……妾身一定會親手守護好這一切，守護好重櫻的未來與希望……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "愿火炬之光常明！",
+			say = "願火炬之光常明！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂…{namecode:182}，在这里哦……",
+			say = "喂…信濃，在這裡哦……",
 			bgm = "battle-boss-tiancheng",
 			flashin = {
 				delay = 1,
@@ -48,7 +48,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "白鹰的拉菲…是侦查舰队么。好的，看妾身的——————！",
+			say = "白鷹的拉菲…是偵查艦隊嗎。好的，看妾身的——————！",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "停！{namecode:182}，停！",
+			say = "停！信濃，停！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:161}…？发生什么事了？",
+			say = "天城…？發生什麼事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}，像这样不顾周围的一个人逞强就是你的战斗方式么？",
+			say = "信濃，像這樣不顧周圍的一個人逞強就是妳的戰斗方式嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "并非逞强。妾身乃是重樱的最强航母，是扭转重樱命运的希望，由妾身承担破局的责任是理所应当的。",
+			say = "並非逞強。妾身乃是重櫻的最強航母，是扭轉重櫻命運的希望，由妾身承擔破局的責任是理所應當的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为什么？扭转重樱命运……重樱本岛陷入危急了么？",
+			say = "為什麼？扭轉重櫻命運……重櫻本島陷入危急了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这到没有……本岛周边的塞壬基本清理完毕，和白鹰的战线目前也在僵持…",
+			say = "這到沒有……本島周邊的塞壬基本清理完畢，和白鷹的戰線目前也在僵持…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "联合舰队已经没有其他人了么？",
+			say = "聯合艦隊已經沒有其他人了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不…{namecode:91}、{namecode:92}、{namecode:74}、{namecode:83}、{namecode:84}都在。",
+			say = "不…赤城加賀長門大和武藏都在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然如此，就算重樱的未来真的充满阴云，又为什么要你独自一人承担？",
+			say = "既然如此，就算重櫻的未來真的充滿陰雲，又為什麼要妳獨自一人承擔？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}，你焦虑的根源究竟来自何处？",
+			say = "信濃，妳焦慮的根源究竟來自何處？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（啊……如此想来，现在最严重的事也不过是噩梦预兆的显现，距离真正的危机尚有时日…）",
+			say = "（啊……如此想來，現在最嚴重的事也不過是噩夢預兆的顯現，距離真正的危機尚有時日…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（为什么一直没有意识到这么简单的事，那妾身心中这股焦虑究竟来源于……）",
+			say = "（為什麼一直沒有意識到這麼簡單的事，那妾身心中這股焦慮究竟來源於……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:161}，请问————————",
+			say = "天城，請問-------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来就是你应该自己思考的部分了，{namecode:182}。",
+			say = "接下來就是妳應該自己思考的部分了，信濃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "放下焦躁，冷静下来。注意观察战场，与指挥官的演习还在继续哦。",
+			say = "放下焦躁，冷靜下來。注意觀察戰場，與指揮官的演習還在繼續哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

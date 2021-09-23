@@ -127,7 +127,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "努力之前先动动脑子！这种事怎么看都应该首先交给正规航母来做吧！",
+			say = "努力之前先动动脑子！这种事怎么看都应该交给正规航母来做吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
