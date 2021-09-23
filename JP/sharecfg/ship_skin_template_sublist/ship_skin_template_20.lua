@@ -8544,7 +8544,6 @@ pg.ship_skin_template_20 = {
 		time = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		l2d_voice_calibrate = "",
 		tag = {
 			1
 		},
@@ -8633,6 +8632,9 @@ pg.ship_skin_template_20 = {
 			"mail",
 			"touch_body",
 			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
 		},
 		l2d_para_range = {
 			ParamAngleX = {
