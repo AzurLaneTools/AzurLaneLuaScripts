@@ -4643,41 +4643,15 @@ pg.activity_template = {
 	},
 	[4095] = {
 		mark = 20210909,
-		config_client = "",
 		title_res_tag = "Wuqitianyun",
+		time = "stop",
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		config_client = "",
 		id = 4095,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "WuQiFittingDisplayPage",
 			ui_name = "WuQiFittingDisplayPage"
@@ -4690,7 +4664,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 10,
-		is_show = 11,
+		is_show = 9,
 		config_data = {},
 		time = {
 			timer,
@@ -4747,7 +4721,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4098,
-		is_show = 10,
+		is_show = 8,
 		config_data = {},
 		time = {
 			timer,
@@ -4947,7 +4921,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 16,
+		is_show = 14,
 		config_data = {
 			1560001,
 			1560002,
@@ -5239,7 +5213,7 @@ pg.activity_template = {
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 13,
+		is_show = 11,
 		config_data = {},
 		time = {
 			timer,
@@ -5283,7 +5257,7 @@ pg.activity_template = {
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 12,
+		is_show = 10,
 		id = 4111,
 		config_data = {},
 		time = {
@@ -5431,7 +5405,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4114,
-		is_show = 15,
+		is_show = 13,
 		id = 4114,
 		config_data = {},
 		time = {
@@ -5663,7 +5637,7 @@ pg.activity_template = {
 		type = 78,
 		login_pop = 0,
 		config_id = 59239,
-		is_show = 14,
+		is_show = 12,
 		config_data = {
 			{
 				{
@@ -5942,7 +5916,13 @@ pg.activity_template = {
 			244,
 			245,
 			246,
-			247
+			247,
+			248,
+			249,
+			250,
+			251,
+			252,
+			253
 		},
 		time = {
 			timer,
@@ -6004,6 +5984,160 @@ pg.activity_template = {
 					2021,
 					11,
 					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4130] = {
+		mark = 20210923,
+		config_client = "",
+		title_res_tag = "FourthJp",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 16,
+		id = 4130,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FourthJpPage",
+			ui_name = "FourthJpPage"
+		}
+	},
+	[4131] = {
+		mark = 20210923,
+		config_client = "",
+		title_res_tag = "manchao_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 15,
+		id = 4131,
+		config_data = {
+			{
+				17046,
+				17047
+			},
+			{
+				17048,
+				17049
+			},
+			{
+				17050,
+				17051
+			},
+			{
+				17052,
+				17053
+			},
+			{
+				17054,
+				17055
+			},
+			{
+				17056,
+				17057
+			},
+			{
+				17058,
+				17059
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ManChaoSkinPage",
+			ui_name = "ManChaoSkinPage"
+		}
+	},
+	[4132] = {
+		mark = 20210923,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4132,
+		config_data = {
+			17060
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
 				},
 				{
 					23,
@@ -7749,6 +7883,136 @@ pg.activity_template = {
 			}
 		}
 	},
+	[6004] = {
+		mark = 20210923,
+		title_res_tag = "dachaolifu_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		id = 6004,
+		config_data = {
+			{
+				35054,
+				35055
+			},
+			{
+				35056,
+				35057
+			},
+			{
+				35058,
+				35059
+			},
+			{
+				35060,
+				35061
+			},
+			{
+				35062,
+				35063
+			},
+			{
+				35064,
+				35065
+			},
+			{
+				35066,
+				35067
+			}
+		},
+		page_info = {
+			class_name = "DachaolifuSkinPage",
+			ui_name = "dachaolifuskinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"DACHAOLIFU1"
+				},
+				{},
+				{
+					"DACHAOLIFU2"
+				},
+				{},
+				{
+					"DACHAOLIFU3"
+				},
+				{},
+				{
+					"DACHAOLIFU4"
+				}
+			}
+		}
+	},
+	[6005] = {
+		mark = 20210923,
+		title_res_tag = "shanchenglifu_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		id = 6005,
+		config_data = {
+			{
+				35068,
+				35069
+			},
+			{
+				35070,
+				35071
+			},
+			{
+				35072,
+				35073
+			},
+			{
+				35074,
+				35075
+			},
+			{
+				35076,
+				35077
+			},
+			{
+				35078,
+				35079
+			},
+			{
+				35080,
+				35081
+			}
+		},
+		page_info = {
+			class_name = "YamashiroSkinPage",
+			ui_name = "yamashiroskinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"SHANCHENGLIFU1"
+				},
+				{
+					"SHANCHENGLIFU2"
+				},
+				{
+					"SHANCHENGLIFU3"
+				},
+				{},
+				{
+					"SHANCHENGLIFU4"
+				},
+				{
+					"SHANCHENGLIFU5"
+				},
+				{
+					"SHANCHENGLIFU6"
+				}
+			}
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		time = "stop",
@@ -7934,6 +8198,9 @@ pg.activity_template = {
 		4124,
 		4125,
 		4126,
+		4130,
+		4131,
+		4132,
 		10006,
 		10056,
 		10123,
@@ -8007,6 +8274,8 @@ pg.activity_template = {
 		6001,
 		6002,
 		6003,
+		6004,
+		6005,
 		100001
 	}
 }

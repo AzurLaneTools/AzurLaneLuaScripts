@@ -1,3 +1,0 @@
-_G.pg.gametip.word_sub_weapons = {
-	tip = "副兵装"
-}

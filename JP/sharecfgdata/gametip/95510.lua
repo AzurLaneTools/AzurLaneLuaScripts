@@ -1,3 +1,0 @@
-_G.pg.gametip.ship_shipInfoMediator_destory = {
-	tip = "退役完了"
-}

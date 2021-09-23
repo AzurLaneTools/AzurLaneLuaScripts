@@ -1,3 +1,0 @@
-_G.pg.gametip.activity_puzzle_get11 = {
-	tip = "<color=#92fc63FF>入手方法\n限定任務2</color>"
-}

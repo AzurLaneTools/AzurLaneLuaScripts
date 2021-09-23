@@ -1,3 +1,0 @@
-_G.pg.gametip.friend_inpout_key_tip = {
-	tip = "検索ワードを入力してください"
-}

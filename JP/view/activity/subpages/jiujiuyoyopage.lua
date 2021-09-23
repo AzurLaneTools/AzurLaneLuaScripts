@@ -1,5 +1,5 @@
 slot0 = class("JiujiuYoyoPage", import("...base.BaseActivityPage"))
-slot1 = PLATFORM_CODE == PLATFORM_JP
+slot1 = PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_CHT
 
 function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")

@@ -1,3 +1,0 @@
-_G.pg.gametip.ins_word_like = {
-	tip = "いいね！$1件"
-}

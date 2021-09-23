@@ -330,8 +330,6 @@ function slot0.updateTecItemList(slot0)
 			setLocalRotation(uv0:findTF("ClickBtn/ArrowBtn", slot1), {
 				z = 0
 			})
-
-			GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom = GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom + uv0.expanded[slot0] - uv0.rowHeight
 		else
 			setLocalRotation(slot15, {
 				z = 180
@@ -343,7 +341,7 @@ function slot0.updateTecItemList(slot0)
 		uv0.expanded[slot0] = defaultValue(uv0.expanded[slot0], uv0.rowHeight)
 
 		if uv0.rowHeight < uv0.expanded[slot0] then
-			GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom = GetComponent(uv0.rightContainer, "VerticalLayoutGroup").padding.bottom - (uv0.expanded[slot0] - uv0.rowHeight)
+			-- Nothing
 		end
 	end
 

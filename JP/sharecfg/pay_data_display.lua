@@ -2482,6 +2482,206 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	{
+		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		name = "四周年福袋",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		extra_gem = 0,
+		id = 32,
+		subject = "四周年福袋",
+		money = 3680,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe6_l",
+		id_str = "com.bilibili.blhx.zuanshi131",
+		first_pay_double = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		airijp_id = "com.yostarjp.azurlane.diamond123",
+		extra_service_item = {
+			{
+				2,
+				69915,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69915,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
+	{
+		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		name = "三周年福袋 (復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		extra_gem = 0,
+		id = 33,
+		subject = "三周年福袋 (復刻)",
+		money = 3680,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe3_l",
+		id_str = "com.bilibili.blhx.zuanshi132",
+		first_pay_double = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		airijp_id = "com.yostarjp.azurlane.diamond124",
+		extra_service_item = {
+			{
+				2,
+				69911,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69911,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -2513,6 +2713,8 @@ pg.pay_data_display = {
 		28,
 		29,
 		30,
-		31
+		31,
+		32,
+		33
 	}
 }

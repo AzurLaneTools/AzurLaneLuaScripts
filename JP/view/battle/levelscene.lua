@@ -1113,7 +1113,7 @@ function slot0.updateActivityBtns(slot0)
 			if underscore.all(underscore.filter(slot13, function (slot0)
 				return slot0:getMapType() == Map.ACTIVITY_EASY or slot1 == Map.ACTIVITY_HARD
 			end), function (slot0)
-				return slot0:isClear()
+				return slot0:isAllChaptersClear()
 			end) then
 				setActive(slot0.actExtraBtnAnim, true)
 			else
@@ -2041,8 +2041,12 @@ function slot0.switchToMap(slot0, slot1)
 		uv0.map.localScale = slot0
 		uv0.float.localScale = slot0
 	end):setOnComplete(System.Action(function ()
+		uv0.mapBuilder.buffer:Update(uv0.contextData.map)
 		uv0.mapBuilder.buffer:Show()
+		uv0:UpdateSwitchMapButton()
 		uv0:updateMapItems()
+		uv0.mapBuilder.buffer:UpdateButtons()
+		uv0.mapBuilder.buffer:PostUpdateMap(uv0.contextData.map)
 		uv0:unfrozen()
 
 		if uv1 then
@@ -2082,8 +2086,6 @@ function slot0.switchToMap(slot0, slot1)
 		slot0.ambushWarning:SetActive(false)
 		slot0:unfrozen()
 	end
-
-	slot0.mapBuilder:UpdateButtons()
 end
 
 function slot0.SwitchBG(slot0, slot1, slot2)

@@ -401,7 +401,7 @@ function slot1.UpdateMapItem(slot0, slot1, slot2)
 			return
 		end
 
-		if getProxy(ChapterProxy):getActiveChapter() and slot2.id ~= slot0.id then
+		if getProxy(ChapterProxy):getActiveChapter(true) and slot2.id ~= uv1 then
 			uv0:InvokeParent("emit", LevelMediator2.ON_STRATEGYING_CHAPTER)
 
 			return

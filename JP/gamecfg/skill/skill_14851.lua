@@ -27,7 +27,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					buff_id = 14855
+					buff_id = 14854
 				}
 			}
 		}
@@ -60,7 +60,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					buff_id = 14855
+					buff_id = 14854
 				}
 			}
 		}
@@ -93,7 +93,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					buff_id = 14855
+					buff_id = 14854
 				}
 			}
 		}
@@ -126,7 +126,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					buff_id = 14855
+					buff_id = 14854
 				}
 			}
 		}
@@ -159,7 +159,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					buff_id = 14855
+					buff_id = 14854
 				}
 			}
 		}
@@ -192,7 +192,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					buff_id = 14855
+					buff_id = 14854
 				}
 			}
 		}
@@ -225,7 +225,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					buff_id = 14855
+					buff_id = 14854
 				}
 			}
 		}
@@ -258,7 +258,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					buff_id = 14855
+					buff_id = 14854
 				}
 			}
 		}
@@ -291,7 +291,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					buff_id = 14855
+					buff_id = 14854
 				}
 			}
 		}
@@ -324,7 +324,7 @@ return {
 				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
-					buff_id = 14855
+					buff_id = 14854
 				}
 			}
 		}
@@ -333,7 +333,7 @@ return {
 	name = "",
 	cd = 0,
 	painting = 1,
-	id = 14850,
+	id = 14851,
 	picture = "0",
 	castCV = "skill",
 	desc = "",
@@ -372,7 +372,7 @@ return {
 			target_choise = "TargetSelf",
 			targetAniEffect = "",
 			arg_list = {
-				buff_id = 14855
+				buff_id = 14854
 			}
 		}
 	}

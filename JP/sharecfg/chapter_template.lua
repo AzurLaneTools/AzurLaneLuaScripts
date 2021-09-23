@@ -362170,7 +362170,7 @@ end)()
 		story_refresh_boss = "",
 		is_ambush = 0,
 		icon_outline = 0,
-		chapter_name = "EXTRA",
+		chapter_name = "EXTRA-I",
 		type = 2,
 		bg = "",
 		bgm = "battle-longgong",
