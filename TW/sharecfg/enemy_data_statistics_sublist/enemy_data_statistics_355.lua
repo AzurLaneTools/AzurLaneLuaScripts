@@ -38,7 +38,7 @@ pg.enemy_data_statistics_355 = {
 	},
 	[14001303] = {
 		cannon = 165,
-		name = "测试者",
+		name = "測試者",
 		type = 10,
 		speed_growth = 0,
 		antiaircraft_growth = 0,

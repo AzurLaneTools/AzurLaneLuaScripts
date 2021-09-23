@@ -208,7 +208,7 @@ pg.enemy_data_statistics_41 = {
 	},
 	[70013] = {
 		cannon = 225,
-		name = "测试者(?)",
+		name = "測試者(?)",
 		speed_growth = 0,
 		cannon_growth = 0,
 		pilot_ai_template_id = 10001,

@@ -290,7 +290,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原來如此…妳並沒有直接見過我的經歷，而且也沒有能夠與我直接會面的可能性對麼？",
+			say = "原來如此…妳並沒有直接見過我的經歷，而且也沒有能夠與我直接會面的可能性對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

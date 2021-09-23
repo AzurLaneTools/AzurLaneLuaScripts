@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "測試者你在聽吧，給我出來。",
+			say = "測試者妳在聽吧，給我出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
+			actorName = "觀察者",
 			say = "怎麼大清早就把人家喊過來，我可是很忙的喲。",
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "你從一開始就知道吧，「海若」與信濃誕生的關係，以及換掉海若後對信濃帶來的影響！",
+			say = "妳從一開始就知道吧，「海若」與信濃誕生的關係，以及換掉海若後對信濃帶來的影響！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,8 +88,8 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
-			say = "呵呵呵，現在鐵血送來了你想要的東西，信濃也提前甦醒了，我可一點都沒騙你哦~",
+			actorName = "觀察者",
+			say = "呵呵呵，現在鐵血送來了妳想要的東西，信濃也提前甦醒了，我可一點都沒騙妳哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,8 +106,8 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
-			say = "至於海若與信濃的關係，你之前也沒有主動問我嘛。",
+			actorName = "觀察者",
+			say = "至於海若與信濃的關係，妳之前也沒有主動問我嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
+			actorName = "觀察者",
 			say = "留後手的潛台詞就是對我的計劃表示不信任呢，真是太令人傷心了。",
 			typewriter = {
 				speed = 0.05,
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "會乖乖信你鬼話的人才有問題。別會錯意了，我們只是相互利用的關係而已。信賴，是不需要的。",
+			say = "會乖乖信妳鬼話的人才有問題。別會錯意了，我們只是相互利用的關係而已。信賴，是不需要的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "還有，信濃路上遭遇的襲擊又是怎麼回事？你還想要測試什麼？",
+			say = "還有，信濃路上遭遇的襲擊又是怎麼回事？妳還想要測試什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,8 +206,8 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
-			say = "雖然你對信濃沒報什麼期待，我們可是特別期待了很多哦。",
+			actorName = "觀察者",
+			say = "雖然妳對信濃沒報什麼期待，我們可是特別期待了很多哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,8 +224,8 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
-			say = "這次的襲擊嘛，反正也沒造成實際損失，你就當成一次「故障」好了。就算精密的機器，運行久了出現一些小故障也是可以被原諒的吧。",
+			actorName = "觀察者",
+			say = "這次的襲擊嘛，反正也沒造成實際損失，妳就當成一次「故障」好了。就算精密的機器，運行久了出現一些小故障也是可以被原諒的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
+			actorName = "觀察者",
 			say = "嗯？突然有有趣的聯絡接進來了。我還有事，今天就不奉陪了哦，再會~",
 			typewriter = {
 				speed = 0.05,

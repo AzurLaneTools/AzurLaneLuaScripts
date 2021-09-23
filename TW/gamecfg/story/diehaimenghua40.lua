@@ -447,7 +447,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祝愿您回到本島之後能夠查明原因，早日恢復您應有的力量。",
+			say = "祝願您回到本島之後能夠查明原因，早日恢復您應有的力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

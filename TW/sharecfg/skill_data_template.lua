@@ -7426,7 +7426,7 @@ pg.skill_data_template = {
 		id = 6380,
 		type = 0,
 		max_level = 0,
-		desc = "任意KizunaAI装备时，战斗开始时，将改变主武器的装备外观",
+		desc = "任意KizunaAI装备时，戰鬥开始时，将改变主武器的装备外观",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -7524,7 +7524,7 @@ pg.skill_data_template = {
 		id = 6430,
 		type = 0,
 		max_level = 0,
-		desc = "装备时提升队伍中所有战斗机4%武器效率，同类效果取最大值，不可叠加",
+		desc = "装备时提升队伍中所有戰鬥机4%武器效率，同类效果取最大值，不可叠加",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -7566,7 +7566,7 @@ pg.skill_data_template = {
 		id = 6460,
 		type = 0,
 		max_level = 0,
-		desc = "重甲角色装备时，战斗中受到的穿甲弹伤害降低6%，高爆弹通常弹伤害降低3%；非重甲角色装备时，战斗开始后，自身护甲类型修改为重甲",
+		desc = "重甲角色装备时，戰鬥中受到的穿甲弹伤害降低6%，高爆弹通常弹伤害降低3%；非重甲角色装备时，戰鬥开始后，自身护甲类型修改为重甲",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -7580,7 +7580,7 @@ pg.skill_data_template = {
 		id = 6470,
 		type = 0,
 		max_level = 0,
-		desc = "重甲角色装备时，战斗中受到的穿甲弹伤害降低4%，高爆弹通常弹伤害降低2%",
+		desc = "重甲角色装备时，戰鬥中受到的穿甲弹伤害降低4%，高爆弹通常弹伤害降低2%",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -7594,7 +7594,7 @@ pg.skill_data_template = {
 		id = 6480,
 		type = 0,
 		max_level = 0,
-		desc = "鞍山级驱逐舰装备时，战斗中自身主炮造成的伤害提高16%并强化自身全彈發射样式",
+		desc = "鞍山级驱逐舰装备时，戰鬥中自身主炮造成的伤害提高16%并强化自身全彈發射样式",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -7660,7 +7660,7 @@ pg.skill_data_template = {
 	},
 	[6580] = {
 		desc_get = "",
-		name = "“主炮”...开火！",
+		name = "“主炮”...開火！",
 		id = 6580,
 		type = 0,
 		max_level = 1,
@@ -8550,7 +8550,7 @@ pg.skill_data_template = {
 		id = 9050,
 		type = 1,
 		max_level = 9,
-		desc = "空中支援时，有$1機率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
+		desc = "空中支援时，有$1機率造成2倍伤害，并使自己進入隐身状态，回避所有伤害，持续8秒",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -26843,7 +26843,7 @@ pg.skill_data_template = {
 		id = 12230,
 		type = 2,
 		max_level = 10,
-		desc = "防空炮开火时有30%機率觸發，自身防空提高$1，持续5秒；战斗中小圣地亚哥、小克利夫兰受到伤害导致血量低于40%时觸發，自身炮击、命中提高$1持续15秒，每场战斗只能发动一次",
+		desc = "防空炮开火时有30%機率觸發，自身防空提高$1，持续5秒；戰鬥中小圣地亚哥、小克利夫兰受到伤害导致血量低于40%时觸發，自身炮击、命中提高$1持续15秒，每场戰鬥只能发动一次",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -27010,7 +27010,7 @@ pg.skill_data_template = {
 		id = 12250,
 		type = 2,
 		max_level = 10,
-		desc = "作为先锋领舰出击时，自身受到的伤害降低$1；战斗中小海伦娜、小圣地亚哥受到的炮击伤害降低$2",
+		desc = "作为先锋领舰出击时，自身受到的伤害降低$1；戰鬥中小海伦娜、小圣地亚哥受到的炮击伤害降低$2",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -27793,7 +27793,7 @@ pg.skill_data_template = {
 		id = 12320,
 		type = 1,
 		max_level = 10,
-		desc = "主炮命中同一敌人10次时，使其受到来自驱逐的炮击雷击伤害提高$1，持续5秒；每次自身在战斗中击破敌舰时，自身炮击属性提高$2，最多叠加10层",
+		desc = "主炮命中同一敌人10次时，使其受到来自驱逐的炮击雷击伤害提高$1，持续5秒；每次自身在戰鬥中击破敌舰时，自身炮击属性提高$2，最多叠加10层",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -27899,7 +27899,7 @@ pg.skill_data_template = {
 		id = 12330,
 		type = 2,
 		max_level = 10,
-		desc = "战斗开始时，机动、雷击属性提高$1，战斗开始30秒后，该增益在20秒内持续减少至0%",
+		desc = "戰鬥开始时，机动、雷击属性提高$1，戰鬥开始30秒后，该增益在20秒内持续减少至0%",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -27960,7 +27960,7 @@ pg.skill_data_template = {
 		id = 12350,
 		type = 1,
 		max_level = 10,
-		desc = "耐久低于80%时后，依据当前损失耐久百分比，提升自身炮击、雷击，最高提升$2点；耐久低于30%时觸發，自身防空提高$1，持续至战斗结束",
+		desc = "耐久低于80%时后，依据当前损失耐久百分比，提升自身炮击、雷击，最高提升$2点；耐久低于30%时觸發，自身防空提高$1，持续至戰鬥结束",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -33652,7 +33652,7 @@ pg.skill_data_template = {
 		id = 12970,
 		type = 2,
 		max_level = 10,
-		desc = "战斗开始后，自身受到的伤害降低$1，自身造成的伤害提高$2，队友中驱逐舰受到的伤害降低$3，持续80秒",
+		desc = "戰鬥开始后，自身受到的伤害降低$1，自身造成的伤害提高$2，队友中驱逐舰受到的伤害降低$3，持续80秒",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -37190,7 +37190,7 @@ pg.skill_data_template = {
 		id = 13380,
 		type = 3,
 		max_level = 10,
-		desc = "自身在战斗中受到的鱼雷伤害降低$1；战斗开始时，若先锋舰队满编且尾舰为自身以外的白鹰阵营角色，提升该角色机动$2",
+		desc = "自身在戰鬥中受到的鱼雷伤害降低$1；戰鬥开始时，若先锋舰队满编且尾舰为自身以外的白鹰阵营角色，提升该角色机动$2",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -37296,7 +37296,7 @@ pg.skill_data_template = {
 		id = 13390,
 		type = 1,
 		max_level = 10,
-		desc = "每30秒，有$1機率觸發一轮特殊弹幕（威力和样式根据技能等级）；在战斗中受到伤害，导致血量低于30%时，回復自身10%血量并立即觸發一次该弹幕（该效果每场战斗仅觸發1次）",
+		desc = "每30秒，有$1機率觸發一轮特殊弹幕（威力和样式根据技能等级）；在戰鬥中受到伤害，导致血量低于30%时，回復自身10%血量并立即觸發一次该弹幕（该效果每场戰鬥仅觸發1次）",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -37357,7 +37357,7 @@ pg.skill_data_template = {
 		id = 13400,
 		type = 3,
 		max_level = 10,
-		desc = "每隔20秒，有$1的機率发动，敌方所有单位受到的伤害上升$2，持续10秒；自身携带SG雷达时，自身机动上升$3，每场战斗第一次雷达扫描的判定时间提前至16秒",
+		desc = "每隔20秒，有$1的機率发动，敌方所有单位受到的伤害上升$2，持续10秒；自身携带SG雷达时，自身机动上升$3，每场戰鬥第一次雷达扫描的判定时间提前至16秒",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -38614,7 +38614,7 @@ pg.skill_data_template = {
 		id = 13550,
 		type = 1,
 		max_level = 10,
-		desc = "战斗中，自身发射的鱼雷暴击率提高$1；进入战斗时，发射一轮技能鱼雷弹幕$2（威力和弹幕样式依据技能等级）",
+		desc = "戰鬥中，自身发射的鱼雷暴击率提高$1；進入戰鬥時，发射一轮技能鱼雷弹幕$2（威力和弹幕样式依据技能等级）",
 		system_transform = {
 			[11.0] = 3500
 		},
@@ -46360,11 +46360,11 @@ pg.skill_data_template = {
 	},
 	[22411] = {
 		desc_get = "",
-		name = "全弹发射I",
+		name = "全彈發射I",
 		id = 22411,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发全弹发射-{namecode:188}I",
+		desc = "主炮每進行15次攻擊，觸發全彈發射-{namecode:188}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -46374,11 +46374,11 @@ pg.skill_data_template = {
 	},
 	[22412] = {
 		desc_get = "",
-		name = "全弹发射II",
+		name = "全彈發射II",
 		id = 22412,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发全弹发射-{namecode:188}II",
+		desc = "主炮每進行10次攻擊，觸發全彈發射-{namecode:188}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -46616,7 +46616,7 @@ pg.skill_data_template = {
 		id = 23231,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行9次攻击，触发全弹发射-P级I",
+		desc = "主炮每進行9次攻擊，觸發全弹发射-P级I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -46630,7 +46630,7 @@ pg.skill_data_template = {
 		id = 23232,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行9次攻击，触发全弹发射-P级I",
+		desc = "主炮每進行6次攻擊，觸發全弹发射-P级II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -48846,11 +48846,11 @@ pg.skill_data_template = {
 	},
 	[29601] = {
 		desc_get = "",
-		name = "专属弹幕-{namecode:27}I",
+		name = "專屬彈幕-{namecode:27}I",
 		id = 29601,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行24次攻击，触发专属弹幕-{namecode:27}I",
+		desc = "主炮每進行24次攻击，触发專屬彈幕-{namecode:27}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -48860,11 +48860,11 @@ pg.skill_data_template = {
 	},
 	[29602] = {
 		desc_get = "",
-		name = "专属弹幕-{namecode:27}II",
+		name = "專屬彈幕-{namecode:27}II",
 		id = 29602,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行16次攻击，触发专属弹幕-{namecode:27}II",
+		desc = "主炮每進行16次攻擊，觸發專屬彈幕-{namecode:27}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -48874,11 +48874,11 @@ pg.skill_data_template = {
 	},
 	[29611] = {
 		desc_get = "",
-		name = "专属弹幕-罗恩(μ兵装)I",
+		name = "專屬彈幕-罗恩(μ兵装)I",
 		id = 29611,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行12次攻击，触发专属弹幕-罗恩(μ兵装)I",
+		desc = "主炮每進行12次攻擊，觸發專屬彈幕-罗恩(μ兵装)I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -48888,11 +48888,11 @@ pg.skill_data_template = {
 	},
 	[29612] = {
 		desc_get = "",
-		name = "专属弹幕-罗恩(μ兵装)II",
+		name = "專屬彈幕-罗恩(μ兵装)II",
 		id = 29612,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行8次攻击，触发专属弹幕-罗恩(μ兵装)II",
+		desc = "主炮每進行8次攻擊，觸發專屬彈幕-罗恩(μ兵装)II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -48902,11 +48902,11 @@ pg.skill_data_template = {
 	},
 	[29621] = {
 		desc_get = "",
-		name = "专属弹幕-恶毒(μ兵装)I",
+		name = "專屬彈幕-恶毒(μ兵装)I",
 		id = 29621,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-恶毒(μ兵装)I",
+		desc = "主炮每進行15次攻擊，觸發專屬彈幕-恶毒(μ兵装)I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -48916,11 +48916,11 @@ pg.skill_data_template = {
 	},
 	[29622] = {
 		desc_get = "",
-		name = "专属弹幕-恶毒(μ兵装)II",
+		name = "專屬彈幕-恶毒(μ兵装)II",
 		id = 29622,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-恶毒(μ兵装)II",
+		desc = "主炮每進行10次攻擊，觸發專屬彈幕-恶毒(μ兵装)II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -48930,11 +48930,11 @@ pg.skill_data_template = {
 	},
 	[29631] = {
 		desc_get = "",
-		name = "专属弹幕-黛朵(μ兵装)I",
+		name = "專屬彈幕-黛朵(μ兵装)I",
 		id = 29631,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-黛朵(μ兵装)I",
+		desc = "主炮每進行15次攻擊，觸發專屬彈幕-黛朵(μ兵装)I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -48944,11 +48944,11 @@ pg.skill_data_template = {
 	},
 	[29632] = {
 		desc_get = "",
-		name = "专属弹幕-黛朵(μ兵装)II",
+		name = "專屬彈幕-黛朵(μ兵装)II",
 		id = 29632,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-黛朵(μ兵装)II",
+		desc = "主炮每進行10次攻擊，觸發專屬彈幕-黛朵(μ兵装)II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -48958,11 +48958,11 @@ pg.skill_data_template = {
 	},
 	[29641] = {
 		desc_get = "",
-		name = "专属弹幕-塔什干(μ兵装)I",
+		name = "專屬彈幕-塔什干(μ兵装)I",
 		id = 29641,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-塔什干(μ兵装)I",
+		desc = "主炮每進行15次攻擊，觸發專屬彈幕-塔什干(μ兵装)I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -48972,11 +48972,11 @@ pg.skill_data_template = {
 	},
 	[29642] = {
 		desc_get = "",
-		name = "专属弹幕-塔什干(μ兵装)II",
+		name = "專屬彈幕-塔什干(μ兵装)II",
 		id = 29642,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-塔什干(μ兵装)II",
+		desc = "主炮每進行10次攻擊，觸發專屬彈幕-塔什干(μ兵装)II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -48986,11 +48986,11 @@ pg.skill_data_template = {
 	},
 	[29651] = {
 		desc_get = "",
-		name = "专属弹幕-大青花鱼(μ兵装)I",
+		name = "專屬彈幕-大青花鱼(μ兵装)I",
 		id = 29651,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-大青花鱼(μ兵装)I",
+		desc = "進入战斗时，觸發專屬彈幕-大青花鱼(μ兵装)I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -49000,11 +49000,11 @@ pg.skill_data_template = {
 	},
 	[29652] = {
 		desc_get = "",
-		name = "专属弹幕-大青花鱼(μ兵装)II",
+		name = "專屬彈幕-大青花鱼(μ兵装)II",
 		id = 29652,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-大青花鱼(μ兵装)II",
+		desc = "进入戰鬥時，觸發專屬彈幕-大青花鱼(μ兵装)II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -49014,11 +49014,11 @@ pg.skill_data_template = {
 	},
 	[29661] = {
 		desc_get = "",
-		name = "专属弹幕-巴尔的摩(μ兵装)I",
+		name = "專屬彈幕-巴尔的摩(μ兵装)I",
 		id = 29661,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行12次攻击，触发专属弹幕-巴尔的摩(μ兵装)I",
+		desc = "主炮每進行12次攻擊，觸發專屬彈幕-巴尔的摩(μ兵装)I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -49028,11 +49028,11 @@ pg.skill_data_template = {
 	},
 	[29662] = {
 		desc_get = "",
-		name = "专属弹幕-巴尔的摩(μ兵装)II",
+		name = "專屬彈幕-巴尔的摩(μ兵装)II",
 		id = 29662,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行8次攻击，触发专属弹幕-巴尔的摩(μ兵装)II",
+		desc = "主炮每進行8次攻擊，觸發專屬彈幕-巴尔的摩(μ兵装)II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -49042,11 +49042,11 @@ pg.skill_data_template = {
 	},
 	[29671] = {
 		desc_get = "",
-		name = "专属弹幕-U37I",
+		name = "專屬彈幕-U37I",
 		id = 29671,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-U37I",
+		desc = "進入戰鬥时，觸發專屬彈幕-U37I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -49056,11 +49056,11 @@ pg.skill_data_template = {
 	},
 	[29672] = {
 		desc_get = "",
-		name = "专属弹幕-U37II",
+		name = "專屬彈幕-U37II",
 		id = 29672,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-U37II",
+		desc = "進入戰鬥時，觸發專屬彈幕-U37II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -51457,7 +51457,7 @@ pg.skill_data_template = {
 		id = 104010,
 		type = 3,
 		max_level = 10,
-		desc = "战斗开始后每20秒，运用超级人工智能的能力入侵敌方电子系统，依据侵入成果，随机降低在场的敌人炮击、雷击、航空属性(最高降低$1)，持续8秒；入侵有小機率略微提高敌方属性",
+		desc = "戰鬥开始后每20秒，运用超级人工智能的能力入侵敌方电子系统，依据侵入成果，随机降低在场的敌人炮击、雷击、航空属性(最高降低$1)，持续8秒；入侵有小機率略微提高敌方属性",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -51509,7 +51509,7 @@ pg.skill_data_template = {
 		id = 104020,
 		type = 2,
 		max_level = 10,
-		desc = "自身受到伤害时，有$1的機率觸發，使自身完全回避所有攻擊3秒并发射一轮鱼雷弹幕，完全回避效果结束后3秒内自身机动上升$2。（鱼雷弹幕每场战斗最多觸發3次）",
+		desc = "自身受到伤害时，有$1的機率觸發，使自身完全回避所有攻擊3秒并发射一轮鱼雷弹幕，完全回避效果结束后3秒内自身机动上升$2。（鱼雷弹幕每场戰鬥最多觸發3次）",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -51615,7 +51615,7 @@ pg.skill_data_template = {
 		id = 104030,
 		type = 3,
 		max_level = 10,
-		desc = "战斗开始时，若队伍中有其他KizunaAI阵营角色，根据KizunaAI阵营角色数量提升自身$1炮击，最多叠加4层；若队伍中没有其他KizunaAI阵营角色，开场时，自身受到的伤害降低$2，持续30秒",
+		desc = "戰鬥开始时，若队伍中有其他KizunaAI阵营角色，根据KizunaAI阵营角色数量提升自身$1炮击，最多叠加4层；若队伍中没有其他KizunaAI阵营角色，开场时，自身受到的伤害降低$2，持续30秒",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -51782,7 +51782,7 @@ pg.skill_data_template = {
 		id = 104050,
 		type = 1,
 		max_level = 10,
-		desc = "战斗开始后30秒、45秒、60秒各觸發一轮航空弹幕($1)(弹幕威力依据技能等级)",
+		desc = "戰鬥开始后30秒、45秒、60秒各觸發一轮航空弹幕($1)(弹幕威力依据技能等级)",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -51895,7 +51895,7 @@ pg.skill_data_template = {
 		id = 104070,
 		type = 1,
 		max_level = 10,
-		desc = "自身装备的主炮散布范围增加1点，主炮暴击率上升$1；战斗开始后每16秒，有$2的几率觸發一轮弹幕(弹幕威力依据技能等级)",
+		desc = "自身装备的主炮散布范围增加1点，主炮暴击率上升$1；戰鬥开始后每16秒，有$2的几率觸發一轮弹幕(弹幕威力依据技能等级)",
 		system_transform = {},
 		world_death_mark = {
 			1

@@ -56,7 +56,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "誕生即是誕生，沉沒即為沈沒。不過……",
+			say = "誕生即是誕生，沉沒即為沉沒。不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

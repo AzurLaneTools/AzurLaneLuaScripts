@@ -94,7 +94,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				9,
+				13,
 				1
 			}
 		}
@@ -112,7 +112,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				9,
+				13,
 				2
 			}
 		}
@@ -130,7 +130,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				9,
+				13,
 				3
 			}
 		}
@@ -148,7 +148,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				10,
+				14,
 				1
 			}
 		}
@@ -166,7 +166,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				10,
+				14,
 				2
 			}
 		}
@@ -184,7 +184,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				10,
+				14,
 				3
 			}
 		}
@@ -202,7 +202,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				11,
+				15,
 				1
 			}
 		}
@@ -220,7 +220,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				11,
+				15,
 				2
 			}
 		}
@@ -238,7 +238,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				11,
+				15,
 				3
 			}
 		}
@@ -256,7 +256,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				12,
+				16,
 				1
 			}
 		}
@@ -274,7 +274,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				12,
+				16,
 				2
 			}
 		}
@@ -292,7 +292,7 @@ pg.benefit_buff_template = {
 			"activity",
 			40430,
 			{
-				12,
+				16,
 				3
 			}
 		}

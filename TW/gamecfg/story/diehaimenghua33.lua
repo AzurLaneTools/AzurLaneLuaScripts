@@ -99,7 +99,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "信濃，像這樣不顧周圍的一個人逞強就是妳的戰斗方式嗎？",
+			say = "信濃，像這樣不顧周圍的一個人逞強就是妳的戰鬥方式嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

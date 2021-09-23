@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "hairuo？那是什麼東西喵？港區的設備清單裡沒有這件東西喵。",
+			say = "ㄏㄞˇㄖㄨㄛˋ？那是什麼東西喵？港區的設備清單裡沒有這件東西喵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

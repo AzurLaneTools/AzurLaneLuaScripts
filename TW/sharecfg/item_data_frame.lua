@@ -84,7 +84,7 @@ pg.item_data_frame = {
 	[302] = {
 		time_limit_type = 0,
 		name = "鐵血之誓",
-		gain_by = "铁血、音符与誓言",
+		gain_by = "鐵血、音符與誓言",
 		id = 302,
 		time_second = 0,
 		desc = "<color=#ffffff>以赤紅的血、和冷徹的鐵，鑄就堅定的意志</color>\n「鐵血、音符與誓言」活動獲取",
@@ -93,7 +93,7 @@ pg.item_data_frame = {
 	[303] = {
 		time_limit_type = 0,
 		name = "自由之翼",
-		gain_by = "箱庭疗法",
+		gain_by = "箱庭療法",
 		id = 303,
 		time_second = 0,
 		desc = "<color=#ffffff>「——為了碧藍色的自由意志，天佑白鷹」</color>\n「箱庭療法」活動獲得",
@@ -102,7 +102,7 @@ pg.item_data_frame = {
 	[304] = {
 		time_limit_type = 0,
 		name = "榮光之徽",
-		gain_by = "神圣的悲喜剧",
+		gain_by = "神聖的悲喜劇",
 		id = 304,
 		time_second = 0,
 		desc = "<color=#ffffff>「讓世界知曉薩丁帝國的榮耀與尊嚴吧！」</color>\n「神聖的悲喜劇」活動獲得",
@@ -111,7 +111,7 @@ pg.item_data_frame = {
 	[305] = {
 		time_limit_type = 0,
 		name = "重櫻之儀",
-		gain_by = "浮樱影华",
+		gain_by = "浮櫻影華",
 		id = 305,
 		time_second = 0,
 		desc = "<color=#ffffff>「奉納信仰，為重櫻之未來祈願光明」</color>\n「浮櫻影華」活動獲取",
@@ -129,7 +129,7 @@ pg.item_data_frame = {
 	[307] = {
 		time_limit_type = 0,
 		name = "閃耀之翼",
-		gain_by = "微层混合",
+		gain_by = "微層混合",
 		id = 307,
 		time_second = 0,
 		desc = "<color=#ffffff>「無畏的閃電劃破黑暗，照亮我們前進的方向」</color>\n「微層混合」活動獲取 ",
@@ -138,7 +138,7 @@ pg.item_data_frame = {
 	[308] = {
 		time_limit_type = 0,
 		name = "鳶尾之頌",
-		gain_by = "穹顶下的圣咏曲",
+		gain_by = "穹頂下的聖詠曲",
 		id = 308,
 		time_second = 0,
 		desc = "<color=#ffffff>「願昔日的頌歌再次響徹天空，Vive la Iris！」</color>\n「穹頂下的聖詠曲」活動獲取",
@@ -156,7 +156,7 @@ pg.item_data_frame = {
 	[311] = {
 		time_limit_type = 0,
 		name = "浮光蝶影",
-		gain_by = "蝶海梦花",
+		gain_by = "蝶海夢花",
 		id = 311,
 		time_second = 0,
 		desc = "<color=#ffffff>「無論現世亦或夢境，皆願希望之光長存。」</color>\n「蝶海夢花」活動獲取",

@@ -14412,53 +14412,58 @@ cs.gametip = {
 		95,
 		true
 	},
-	activity_event_building = {
+	old_class_is_close = {
 		441847,
+		125,
+		true
+	},
+	activity_event_building = {
+		441972,
 		1081,
 		true
 	},
 	salvage_tips = {
-		442928,
+		443053,
 		925,
 		true
 	},
 	tips_shakebeads = {
-		443853,
+		443978,
 		736,
 		true
 	},
 	gem_shop_xinzhi_tip = {
-		444589,
+		444714,
 		128,
 		true
 	},
 	chazi_tips = {
-		444717,
+		444842,
 		783,
 		true
 	},
 	catchteasure_help = {
-		445500,
+		445625,
 		694,
 		true
 	},
 	unlock_tips = {
-		446194,
+		446319,
 		88,
 		true
 	},
 	breakout_tip_ultimatebonus_gunner = {
-		446282,
+		446407,
 		150,
 		true
 	},
 	breakout_tip_ultimatebonus_torpedo = {
-		446432,
+		446557,
 		135,
 		true
 	},
 	breakout_tip_ultimatebonus_aux = {
-		446567,
+		446692,
 		127,
 		true
 	}
