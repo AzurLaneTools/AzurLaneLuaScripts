@@ -22,12 +22,12 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
-				"onTorpedoWeaponFire"
+				"onAttach"
 			},
 			arg_list = {
-				skill_id = 14850,
+				buff_id = 14854,
 				target = "TargetSelf"
 			}
 		},

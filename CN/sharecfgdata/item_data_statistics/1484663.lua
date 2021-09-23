@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59840] = {
+	display = "四周年活动「啾啾兑换屋」的完成感谢纪念 ——只要不停下脚步，航路就会不断延伸！",
+	name = "四周年纪念币",
+	rarity = 3,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59840,
+	is_world = 0,
+	icon = "props/sizhounian",
+	display_icon = {},
+	price = {},
+	index = {}
+}

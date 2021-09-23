@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[61001] = {
+	display = "为提高作战效率而设计的特别指令书，在部分常规关卡的周回模式下可以使用。使用后本轮作战中所用石油与心情消耗增加一倍，战后所有获得收益也增加一倍。",
+	name = "高效作战指令书",
+	rarity = 3,
+	type = 19,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 61001,
+	is_world = 0,
+	icon = "Props/tebiezuozhan",
+	display_icon = {},
+	price = {},
+	index = {}
+}

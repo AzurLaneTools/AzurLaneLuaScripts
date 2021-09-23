@@ -33,6 +33,8 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_UNEQUIP_EQUIPMENT, function (slot0)
+		uv0.canUpdate = false
+
 		uv0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
 			shipId = uv0.contextData.shipId,
 			pos = uv0.contextData.pos
@@ -73,6 +75,8 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(uv0.ON_UNEQUIP_EQUIPMENT_SKIN, function (slot0)
+		uv0.canUpdate = false
+
 		uv0:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP, {
 			equipmentSkinId = 0,
 			shipId = uv0.contextData.shipId,
@@ -157,6 +161,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.EQUIP_TO_SHIP_DONE,
 		GAME.REVERT_EQUIPMENT_DONE,
 		EquipmentProxy.EQUIPMENT_SKIN_UPDATED,
+		GAME.UNEQUIP_FROM_SHIP_DONE,
 		GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP_DONE,
 		GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE,
 		uv0.NO_UPDATE,
@@ -220,7 +225,7 @@ function slot0.handleNotification(slot0, slot1)
 				items = slot3.awards
 			})
 		end
-	elseif slot2 == GAME.EQUIP_TO_SHIP_DONE then
+	elseif slot2 == GAME.EQUIP_TO_SHIP_DONE or slot2 == GAME.UNEQUIP_FROM_SHIP_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_BACK)
 	elseif slot2 == GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP_DONE or slot2 == GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_BACK)

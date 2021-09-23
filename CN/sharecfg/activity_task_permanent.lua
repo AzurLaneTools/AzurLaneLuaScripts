@@ -102,10 +102,64 @@ pg.activity_task_permanent = {
 			35053
 		}
 	},
+	[6004] = {
+		gametip = "可获得荙限定换装「夜宴微醺」",
+		banner_route = "permanent_dachaolifu",
+		gametip_extra = "最快7日获得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6004,
+		activity_name = "夜宴微醺",
+		over_task_id = "",
+		eliminate_task_id = {
+			35054,
+			35055,
+			35056,
+			35057,
+			35058,
+			35059,
+			35060,
+			35061,
+			35062,
+			35063,
+			35064,
+			35065,
+			35066,
+			35067
+		}
+	},
+	[6005] = {
+		gametip = "可获得鲼限定换装「盛装的黑猫」",
+		banner_route = "permanent_shanchenglifu",
+		gametip_extra = "最快7日获得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6005,
+		activity_name = "港区的特别宴会",
+		over_task_id = "",
+		eliminate_task_id = {
+			35068,
+			35069,
+			35070,
+			35071,
+			35072,
+			35073,
+			35074,
+			35075,
+			35076,
+			35077,
+			35078,
+			35079,
+			35080,
+			35081
+		}
+	},
 	all = {
 		6000,
 		6001,
 		6002,
-		6003
+		6003,
+		6004,
+		6005
 	}
 }

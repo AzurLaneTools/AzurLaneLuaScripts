@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[60003] = {
+	display = "这是说明说明说明",
+	name = "示例道具3",
+	rarity = 3,
+	type = 1,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60003,
+	is_world = 0,
+	icon = "Props/nengyuanshi",
+	display_icon = {},
+	price = {},
+	index = {}
+}

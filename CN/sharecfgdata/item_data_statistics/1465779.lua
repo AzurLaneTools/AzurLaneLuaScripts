@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59772] = {
+	display = "集齐18个可以获得圣地亚哥专属改造道具-闪耀的麦克风",
+	name = "圣地亚哥之星",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 8,
+	link_id = 242,
+	id = 59772,
+	is_world = 0,
+	icon = "Props/linkstar",
+	display_icon = {},
+	price = {},
+	index = {}
+}

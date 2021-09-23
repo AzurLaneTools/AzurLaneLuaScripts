@@ -2398,6 +2398,206 @@ pg.pay_data_display = {
 		},
 		ignorePlatform = {}
 	},
+	[32] = {
+		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
+		name = "2021国庆礼盒",
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		extra_gem = 0,
+		id = 32,
+		subject = "2021国庆礼盒",
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe6_l",
+		id_str = "com.bilibili.blhx.zuanshi131",
+		first_pay_double = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		airijp_id = "com.yostarjp.azurlane.diamond123",
+		extra_service_item = {
+			{
+				2,
+				69915,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69915,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
+	[33] = {
+		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
+		name = "国庆礼盒复刻（2020）",
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		extra_gem = 0,
+		id = 33,
+		subject = "国庆礼盒复刻(2020)",
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe3_l",
+		id_str = "com.bilibili.blhx.zuanshi132",
+		first_pay_double = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		airijp_id = "com.yostarjp.azurlane.diamond124",
+		extra_service_item = {
+			{
+				2,
+				69911,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69911,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -2428,6 +2628,8 @@ pg.pay_data_display = {
 		28,
 		29,
 		30,
-		31
+		31,
+		32,
+		33
 	}
 }

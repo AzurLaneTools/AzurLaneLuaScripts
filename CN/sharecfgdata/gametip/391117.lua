@@ -1,3 +1,3 @@
-_G.pg.gametip.equip_info_3 = {
-	tip = "射速"
+_G.pg.gametip.equip_info_2 = {
+	tip = "标准射速"
 }

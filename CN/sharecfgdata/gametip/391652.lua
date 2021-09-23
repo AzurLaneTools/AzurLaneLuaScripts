@@ -1,3 +1,3 @@
-_G.pg.gametip.equip_info_10 = {
-	tip = "机枪射程"
+_G.pg.gametip.equip_info_9 = {
+	tip = "伤害范围"
 }

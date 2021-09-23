@@ -1,3 +1,3 @@
-_G.pg.gametip.world_collection_3 = {
-	tip = "收集率"
+_G.pg.gametip.world_collection_2 = {
+	tip = "进度"
 }

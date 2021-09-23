@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70062] = {
+	display = "可用于解锁「卡片·恶毒」",
+	name = "卡片·恶毒",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 758,
+	id = 70062,
+	is_world = 0,
+	icon = "Props/music_yangguang",
+	display_icon = {},
+	price = {},
+	index = {}
+}

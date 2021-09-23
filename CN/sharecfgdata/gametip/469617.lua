@@ -1,3 +1,3 @@
-_G.pg.gametip.meta_pt_left = {
-	tip = "剩余$1天"
+_G.pg.gametip.meta_acttime_limit = {
+	tip = "限时"
 }

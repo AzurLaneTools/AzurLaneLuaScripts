@@ -988,7 +988,7 @@ function slot0.updateStageStrategy(slot0)
 				setActive(slot4:Find("mask"), false)
 				setActive(slot4:Find("selected"), formationId == slot5.id)
 			else
-				setText(slot4:Find("nums"), slot5.count)
+				setText(slot4:Find("nums"), slot5.count or "")
 				setActive(slot4:Find("mask"), slot5.count == 0)
 				setActive(slot4:Find("selected"), false)
 			end

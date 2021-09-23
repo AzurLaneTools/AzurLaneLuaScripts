@@ -1,3 +1,3 @@
-_G.pg.gametip.guild_shop_label_5 = {
-	tip = "请选择想要兑换的角色："
+_G.pg.gametip.guild_shop_label_4 = {
+	tip = "消耗"
 }

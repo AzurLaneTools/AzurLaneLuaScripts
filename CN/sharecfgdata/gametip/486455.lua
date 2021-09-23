@@ -1,3 +1,3 @@
-_G.pg.gametip.setting_story_speed_4 = {
-	tip = "特快"
+_G.pg.gametip.setting_story_speed_3 = {
+	tip = "快"
 }

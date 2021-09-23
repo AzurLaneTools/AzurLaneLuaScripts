@@ -1,16 +1,21 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4079",
 		id = 1,
 		pic = "temp1",
-		type = 3,
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
 					2021,
 					9,
-					9
+					23
 				},
 				{
 					0,
@@ -21,8 +26,75 @@ pg.activity_banner = {
 			{
 				{
 					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 2,
+		pic = "temp2",
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2021,
 					9,
-					9
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4131",
+		id = 3,
+		pic = "temp3",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					7
 				},
 				{
 					23,
@@ -34,8 +106,8 @@ pg.activity_banner = {
 	},
 	{
 		param = "4104",
-		id = 2,
-		pic = "temp2",
+		id = 4,
+		pic = "temp4",
 		type = 3,
 		time = {
 			{
@@ -65,8 +137,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 3,
-		pic = "temp3",
+		id = 5,
+		pic = "temp5",
 		type = 2,
 		param = {
 			"scene get boat",
@@ -102,43 +174,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 4,
-		pic = "temp4",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2021,
-					9,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 5,
-		pic = "temp5",
+		id = 6,
+		pic = "temp6",
 		type = 2,
 		param = {
 			"scene charge",
@@ -174,8 +211,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 6,
-		pic = "temp6",
+		id = 7,
+		pic = "temp7",
 		type = 2,
 		param = {
 			"scene back yard"
@@ -198,38 +235,6 @@ pg.activity_banner = {
 					2021,
 					10,
 					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4096",
-		id = 7,
-		pic = "temp7",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					9,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					9
 				},
 				{
 					23,
@@ -281,7 +286,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					16
+					23
 				},
 				{
 					0,
@@ -304,16 +309,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "桂花糕|用相传从月宫里摘下来的桂花制成的糕点，香甜可口！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "海军咖喱|甜咖喱还是辣咖喱，这是一个问题！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		id = 10,
-		pic = "guihuagao",
+		pic = "haijungali",
 		type = 10,
 		time = {
 			{
 				{
 					2021,
 					9,
-					16
+					23
 				},
 				{
 					0,
@@ -324,13 +329,13 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					10,
-					3
+					9,
+					16
 				},
 				{
-					23,
-					59,
-					59
+					0,
+					0,
+					0
 				}
 			}
 		}

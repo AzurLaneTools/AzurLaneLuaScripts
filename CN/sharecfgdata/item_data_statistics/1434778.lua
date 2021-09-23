@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59615] = {
+	display = "用于『回流活动』累计点数获得奖励，活动结束后将会消失",
+	name = "回流pt点",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 6,
+	link_id = 162,
+	id = 59615,
+	is_world = 0,
+	icon = "Props/jiujiu",
+	display_icon = {},
+	price = {},
+	index = {}
+}

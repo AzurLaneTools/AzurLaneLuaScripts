@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59771] = {
+	display = "收集10个以后或许会有什么好事发生？",
+	name = "记忆卡片",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 5,
+	link_id = 240,
+	id = 59771,
+	is_world = 0,
+	icon = "props/memorycard",
+	display_icon = {},
+	price = {},
+	index = {}
+}

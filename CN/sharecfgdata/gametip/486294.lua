@@ -1,3 +1,3 @@
-_G.pg.gametip.setting_story_speed_2 = {
-	tip = "正常"
+_G.pg.gametip.setting_story_speed_1 = {
+	tip = "慢"
 }

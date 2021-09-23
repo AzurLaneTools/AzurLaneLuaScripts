@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59171] = {
+	display = "用于『永夜幻光』活动兑换，活动结束后将会消失",
+	name = "荣誉之冠",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59171,
+	is_world = 0,
+	icon = "Props/yingxiv2_pt",
+	display_icon = {},
+	price = {},
+	index = {}
+}

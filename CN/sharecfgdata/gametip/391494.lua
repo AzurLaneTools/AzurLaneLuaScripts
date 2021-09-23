@@ -1,3 +1,3 @@
-_G.pg.gametip.equip_info_8 = {
-	tip = "对甲比例"
+_G.pg.gametip.equip_info_7 = {
+	tip = "鱼雷航速"
 }

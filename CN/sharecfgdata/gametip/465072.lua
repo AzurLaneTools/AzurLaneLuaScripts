@@ -1,3 +1,3 @@
-_G.pg.gametip.query_role_button = {
-	tip = "角色查询"
+_G.pg.gametip.query_role_none = {
+	tip = "无角色"
 }

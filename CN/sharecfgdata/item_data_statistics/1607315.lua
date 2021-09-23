@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[70078] = {
+	display = "莫妮卡喜欢的饮品：雪顶拿铁。可用于解锁莫妮卡的喜好信息。",
+	name = "喜好饮品(莫妮卡)",
+	rarity = 4,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 783,
+	id = 70078,
+	is_world = 0,
+	icon = "Props/doa_collect",
+	display_icon = {},
+	price = {},
+	index = {}
+}

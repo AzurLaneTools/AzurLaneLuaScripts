@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59609] = {
+	display = "三笠收藏的战列船模-鲨",
+	name = "船模-鲨",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 154,
+	id = 59609,
+	is_world = 0,
+	icon = "Props/jiujiu",
+	display_icon = {},
+	price = {},
+	index = {}
+}

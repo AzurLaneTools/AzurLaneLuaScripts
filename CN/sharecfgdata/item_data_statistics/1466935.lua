@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59775] = {
+	display = "收集7枚后，可以得到限定设备《约定的证明》",
+	name = "U556的勋章",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 8,
+	link_id = 294,
+	id = 59775,
+	is_world = 0,
+	icon = "Props/u556xunzhang",
+	display_icon = {},
+	price = {},
+	index = {}
+}

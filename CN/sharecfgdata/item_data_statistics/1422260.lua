@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59219] = {
+	display = "用于『啾啾兑换屋』兑换奖品，活动结束后将会消失",
+	name = "啾啾兑换券",
+	rarity = 2,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 15,
+	link_id = 993,
+	id = 59219,
+	is_world = 0,
+	icon = "Props/AmusementparkshopPT",
+	display_icon = {},
+	price = {},
+	index = {}
+}

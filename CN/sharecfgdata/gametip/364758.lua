@@ -1,3 +1,3 @@
-_G.pg.gametip.index_strengthen = {
-	tip = "可强化"
+_G.pg.gametip.index_reform_cw = {
+	tip = "可改造"
 }

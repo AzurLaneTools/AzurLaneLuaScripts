@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59804] = {
+	display = "拼图A-4",
+	name = "拼图A-4",
+	rarity = 2,
+	type = 0,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 35,
+	id = 59804,
+	is_world = 0,
+	icon = "Props/puzzle",
+	display_icon = {},
+	price = {},
+	index = {}
+}

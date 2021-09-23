@@ -1,3 +1,3 @@
-_G.pg.gametip.meta_repair_success = {
-	tip = "舰装强化成功"
+_G.pg.gametip.meta_repair = {
+	tip = "属性提升:"
 }

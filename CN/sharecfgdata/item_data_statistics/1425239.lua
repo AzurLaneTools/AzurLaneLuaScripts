@@ -1,0 +1,19 @@
+_G.pg.item_data_statistics[59226] = {
+	display = "参与『穿越彼方的水线』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+	name = "特别挑战券",
+	rarity = 4,
+	type = 98,
+	drop_oil_max = 0,
+	shiptrans_id = 0,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59226,
+	is_world = 0,
+	icon = "Props/special_ticket",
+	display_icon = {},
+	price = {},
+	index = {}
+}

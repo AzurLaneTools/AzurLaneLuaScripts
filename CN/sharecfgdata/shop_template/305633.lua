@@ -9,8 +9,7 @@ _G.pg.shop_template[70400] = {
 	tag = 1,
 	limit_args2 = "",
 	time_second = 0,
-	order = 20,
-	time = "stop",
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -21,5 +20,31 @@ _G.pg.shop_template[70400] = {
 	limit_args = {},
 	effect_args = {
 		107222
+	},
+	time = {
+		{
+			{
+				2021,
+				9,
+				23
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2021,
+				10,
+				13
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
