@@ -163,7 +163,8 @@ end
 
 function slot5.adjustCloakAttr(slot0)
 	slot0._exposeBase = math.max(slot0._exposeBase, uv0.CLOAK_EXPOSE_BASE_MIN)
-	slot0._restoreValue = math.max(slot0._restoreValue, 0)
+	slot0._exposeValue = math.max(slot0._exposeBase + slot0._exposeExtra, uv0.CLOAK_EXPOSE_SKILL_MIN)
+	slot0._restoreValue = math.max(slot0._exposeValue + uv0.CLOAK_BASE_RESTORE_DELTA, 0)
 	slot0._exposeValue = math.max(slot0._exposeBase + slot0._exposeExtra, uv0.CLOAK_EXPOSE_SKILL_MIN)
 	slot0._cloakValue = Mathf.Clamp(slot0._cloakValue, 0, slot0._exposeValue)
 

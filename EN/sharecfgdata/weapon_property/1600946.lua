@@ -1,6 +1,0 @@
-_G.pg.weapon_property[67103] = {
-	id = 67103,
-	name = "敦刻尔克技能LV3",
-	damage = 70,
-	base = 67100
-}

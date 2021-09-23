@@ -148,7 +148,7 @@ function slot0.TriggerAction(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.CheckStopDrag(slot0)
-	if slot0.live2dData:GetShipSkinConfig().id == 301291 then
+	if slot0.live2dData:GetShipSkinConfig().l2d_ignore_drag and slot1.l2d_ignore_drag == 1 then
 		slot0.liveCom.ResponseClick = false
 
 		ReflectionHelp.RefSetField(typeof(Live2dChar), "inDrag", slot0.liveCom, false)

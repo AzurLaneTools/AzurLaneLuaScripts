@@ -1091,7 +1091,6 @@ function slot0.OnExitChapter(slot0, slot1, slot2)
 			slot1:RecordLastDefeatedEnemy(uv0.id, nil)
 			slot1:SetChapterAutoFlag(uv0.id, false)
 			slot1:RemoveExtendChapter(uv0.id)
-			uv1.viewComponent:UpdateSwitchMapButton()
 
 			if uv1.contextData.map and not uv1.contextData.map:isUnlock() then
 				uv1.viewComponent:emit(uv2.ON_SWITCH_NORMAL_MAP)

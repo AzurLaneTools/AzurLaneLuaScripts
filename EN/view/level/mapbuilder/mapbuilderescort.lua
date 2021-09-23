@@ -76,7 +76,7 @@ function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
 	slot1.name = "chapter_" .. slot3.id
 	slot6 = slot0.map.rect
 	slot1.anchoredPosition = Vector2(slot6.width / slot0.scaleRatio * (tonumber(slot4.pos_x) - 0.5), slot6.height / slot0.scaleRatio * (tonumber(slot4.pos_y) - 0.5))
-	slot8 = getProxy(ChapterProxy):getActiveChapter() and slot5.id == slot3.id
+	slot8 = getProxy(ChapterProxy):getActiveChapter(true) and slot5.id == slot3.id
 
 	setActive(slot1:Find("fighting"), slot8)
 	slot0:DeleteTween("fighting" .. slot3.id)

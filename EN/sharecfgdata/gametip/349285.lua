@@ -1,3 +1,0 @@
-_G.pg.gametip.help_firework_produce = {
-	tip = "Press the Start button to begin filling the fireworks. The Fill Gauge will continuously move. There will be three Fill attempts - press the button at the appropriate time on each attempt to finish filling the fireworks.The total Fill amount can be seen on the horizontal bar at the right-hand side of the screen.Prizes are given depending on total fill amount: First-tier prize: <color=#c80a00>140%-160%</color> Second-tier prize: <color=#e66f00>120%-140% 160-180%</color>Third-tier prize: <color=#ffea01>90-120% 180-210%</color>All other fill amounts will result in a booby prize."
-}

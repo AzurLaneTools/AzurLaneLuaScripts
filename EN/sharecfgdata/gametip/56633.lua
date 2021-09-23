@@ -1,3 +1,0 @@
-_G.pg.gametip.exercise_time_tip = {
-	tip = "Current season: $1"
-}

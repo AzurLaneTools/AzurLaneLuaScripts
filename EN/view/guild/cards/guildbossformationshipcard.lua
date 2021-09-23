@@ -39,6 +39,10 @@ function slot0.Update(slot0, slot1, slot2)
 end
 
 function slot0.Dispose(slot0)
+	if slot0._go then
+		tf(slot0._go).pivot = Vector2(0.5, 0.5)
+	end
+
 	ClearEventTrigger(GetOrAddComponent(slot0._go, "EventTriggerListener"))
 	PoolMgr.GetInstance():ReturnSpineChar(slot0._go.name, slot0._go)
 end

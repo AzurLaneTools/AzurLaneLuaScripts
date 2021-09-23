@@ -1,3 +1,0 @@
-_G.pg.gametip.challenge_season_update_casual_clear = {
-	tip = "Total score: $1\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to restart Challenge Mode?"
-}

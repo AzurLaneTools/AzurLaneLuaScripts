@@ -1,8 +1,0 @@
-_G.pg.equip_data_statistics[85221] = {
-	id = 85221,
-	damage = "17/wave",
-	base = 85220,
-	weapon_id = {
-		85221
-	}
-}

@@ -4216,6 +4216,10 @@ pg.skill_data_display = {
 		id = 14850,
 		name = "Upon the Wind's Edge "
 	},
+	[14851] = {
+		id = 14851,
+		name = "Upon the Wind's Edge "
+	},
 	[14860] = {
 		id = 14860,
 		name = "Before the Lightning's Flash"
@@ -7807,6 +7811,7 @@ pg.skill_data_display = {
 		14831,
 		14840,
 		14850,
+		14851,
 		14860,
 		14870,
 		14880,

@@ -461,6 +461,7 @@ function slot0.didEnter(slot0)
 
 		setActive(uv0.BatchDisposeBtn, slot0 and uv0.page == uv2)
 		setActive(uv0.filterBusyToggle, slot0)
+		setActive(uv0.equipmentToggle, slot0 and not uv0.contextData.shipId)
 		setActive(uv0.indexBtn, uv0.page == uv2)
 		setActive(uv0.sortBtn, uv0.page == uv2)
 	end, SFX_PANEL)
@@ -513,7 +514,7 @@ function slot0.didEnter(slot0)
 		end
 
 		setActive(uv0.filterBusyToggle, uv0.mode == StoreHouseConst.OVERVIEW)
-		setActive(uv0.equipmentToggle, uv0.mode == StoreHouseConst.OVERVIEW)
+		setActive(uv0.equipmentToggle, uv0.mode == StoreHouseConst.OVERVIEW and not uv0.contextData.shipId)
 	end, SFX_PANEL)
 	onButton(slot0, findTF(slot0.selectPanel, "cancel_button"), function ()
 		uv0:unselecteAllEquips()
@@ -765,9 +766,9 @@ function slot0.initEquipment(slot0, slot1)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot2.unloadBtn, function ()
-		if uv0.mode and uv0.mode == StoreHouseConst.SKIN then
+		if uv0.page == uv1 then
 			uv0:emit(EquipmentMediator.ON_UNEQUIP_EQUIPMENT_SKIN)
-		elseif uv0.mode and uv0.mode == StoreHouseConst.EQUIPMENT then
+		elseif uv0.page == uv2 then
 			uv0:emit(EquipmentMediator.ON_UNEQUIP_EQUIPMENT)
 		end
 	end, SFX_PANEL)

@@ -198,6 +198,14 @@ end
 
 function slot0.BindItemBuildShip(slot0, slot1)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "xianshijianzao", function ()
+		slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD)
+
+		if (not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1) or slot0:isEnd()) and (not slot1 or slot1:isEnd()) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
 		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.GETBOAT, uv1 or {
 			projectName = "new",
 			page = 1

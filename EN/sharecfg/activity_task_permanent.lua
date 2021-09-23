@@ -102,10 +102,64 @@ pg.activity_task_permanent = {
 			35053
 		}
 	},
+	[6004] = {
+		gametip = "Get an outfit for Ooshio! ",
+		banner_route = "permanent_dachaolifu",
+		gametip_extra = "Takes at least 7 days to complete",
+		over_pt = 0,
+		task_extra = "",
+		id = 6004,
+		activity_name = "Woozy Party ",
+		over_task_id = "",
+		eliminate_task_id = {
+			35054,
+			35055,
+			35056,
+			35057,
+			35058,
+			35059,
+			35060,
+			35061,
+			35062,
+			35063,
+			35064,
+			35065,
+			35066,
+			35067
+		}
+	},
+	[6005] = {
+		gametip = "Get an outfit for Yamashiro! ",
+		banner_route = "permanent_shanchenglifu",
+		gametip_extra = "Takes at least 7 days to complete",
+		over_pt = 0,
+		task_extra = "",
+		id = 6005,
+		activity_name = "The Special Banquet ",
+		over_task_id = "",
+		eliminate_task_id = {
+			35068,
+			35069,
+			35070,
+			35071,
+			35072,
+			35073,
+			35074,
+			35075,
+			35076,
+			35077,
+			35078,
+			35079,
+			35080,
+			35081
+		}
+	},
 	all = {
 		6000,
 		6001,
 		6002,
-		6003
+		6003,
+		6004,
+		6005
 	}
 }
