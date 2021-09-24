@@ -9,6 +9,14 @@ function slot0.OnInit(slot0)
 	if PLATFORM_CODE == PLATFORM_JP then
 		slot0.hideIndex = {}
 		slot0.scrollAble = true
+	elseif PLATFORM_CODE == PLATFORM_US then
+		slot0.hideIndex = {
+			1,
+			2,
+			3,
+			5
+		}
+		slot0.scrollAble = false
 	else
 		slot0.hideIndex = {
 			2,
