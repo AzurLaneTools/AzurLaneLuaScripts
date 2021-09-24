@@ -3016,6 +3016,39 @@ pg.backyard_theme_template = {
 			82123
 		}
 	},
+	[83] = {
+		Cfg_1 = 5,
+		name = "축제의 밤",
+		hot = 1,
+		is_view = 1,
+		id = 83,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "축제다~ 이 밤을 더욱 뜨겁게쥬!",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "xrjthemeicon",
+		deblocking = 1,
+		order = 84,
+		ids = {
+			83001,
+			83002,
+			83101,
+			83102,
+			83103,
+			83104,
+			83105,
+			83106,
+			83107,
+			83109,
+			83110,
+			83111,
+			83114,
+			83116,
+			83117
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3083,6 +3116,7 @@ pg.backyard_theme_template = {
 		79,
 		80,
 		81,
-		82
+		82,
+		83
 	}
 }

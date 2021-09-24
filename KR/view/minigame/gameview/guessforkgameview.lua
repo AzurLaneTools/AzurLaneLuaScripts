@@ -244,6 +244,8 @@ function slot0.startGame(slot0)
 	slot0:playForkAni(function ()
 		uv0:startSwap(uv1)
 	end)
+
+	slot0.gameStartFlag = true
 end
 
 function slot0.playForkAni(slot0, slot1)
@@ -455,6 +457,8 @@ function slot0.endGame(slot0)
 end
 
 function slot0.enterResultUI(slot0)
+	slot0.gameStartFlag = false
+
 	setActive(slot0.endUI, true)
 	setText(slot0.endScoreTxt, slot0.curScore)
 
@@ -482,6 +486,15 @@ function slot0.OnGetAwardDone(slot0, slot1)
 			cmd = MiniGameOPCommand.CMD_ULTIMATE,
 			args1 = {}
 		})
+	end
+end
+
+function slot0.onBackPressed(slot0)
+	if not slot0.gameStartFlag then
+		slot0:emit(uv0.ON_BACK_PRESSED)
+	else
+		setActive(slot0.exitUI, true)
+		slot0:pauseGame()
 	end
 end
 

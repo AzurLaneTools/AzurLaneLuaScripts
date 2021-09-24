@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					9
+					16
 				},
 				{
 					0,
@@ -33,16 +33,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "20840",
+		param = "20844",
 		id = 2,
-		pic = "temp3",
+		pic = "temp2",
 		type = 3,
 		time = {
 			{
 				{
 					2021,
 					9,
-					9
+					23
 				},
 				{
 					0,
@@ -54,7 +54,7 @@ pg.activity_banner = {
 				{
 					2021,
 					10,
-					9
+					10
 				},
 				{
 					23,
@@ -65,16 +65,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "20842",
 		id = 3,
-		pic = "temp4",
-		type = 3,
+		pic = "temp3",
+		type = 2,
+		param = {
+			"scene get boat",
+			{
+				projectName = "new"
+			}
+		},
 		time = {
 			{
 				{
 					2021,
 					9,
-					9
+					23
 				},
 				{
 					0,
@@ -86,7 +91,7 @@ pg.activity_banner = {
 				{
 					2021,
 					10,
-					9
+					10
 				},
 				{
 					23,
@@ -98,7 +103,7 @@ pg.activity_banner = {
 	},
 	{
 		id = 4,
-		pic = "temp5",
+		pic = "temp4",
 		type = 2,
 		param = {
 			"scene skinshop",
@@ -109,7 +114,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					2
+					23
 				},
 				{
 					0,
@@ -120,8 +125,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					9,
-					15
+					10,
+					20
 				},
 				{
 					23,
@@ -132,16 +137,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "20838",
 		id = 5,
-		pic = "temp6",
-		type = 3,
+		pic = "temp5",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
 					2021,
 					9,
-					9
+					23
 				},
 				{
 					0,
@@ -152,8 +162,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					9,
-					23
+					10,
+					10
 				},
 				{
 					23,
@@ -163,7 +173,105 @@ pg.activity_banner = {
 			}
 		}
 	},
-	[9] = {
+	{
+		id = 6,
+		pic = "temp6",
+		type = 2,
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2021,
+					9,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "20840",
+		id = 7,
+		pic = "temp7",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "20842",
+		id = 8,
+		pic = "temp8",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		param = "",
 		id = 9,
 		pic = "temp99",
@@ -172,8 +280,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					8,
-					19
+					9,
+					23
 				},
 				{
 					0,
@@ -184,8 +292,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					9,
-					1
+					10,
+					20
 				},
 				{
 					23,
@@ -195,17 +303,17 @@ pg.activity_banner = {
 			}
 		}
 	},
-	[10] = {
-		param = "컵라면|뜨거운 물을 붓고 5분을 기다리면 맛있는 컵라면이 완성됩니다!<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
+	{
+		param = "계화꽃떡|월궁에서 따온 계수나무로 만든 떡. 향긋하고 맛있다! <color=#6dd329> (60분 동안 숙소 경험치 효율 5% 상승) </color>",
 		id = 10,
-		pic = "paomian",
+		pic = "guihuagao",
 		type = 10,
 		time = {
 			{
 				{
 					2021,
 					9,
-					9
+					23
 				},
 				{
 					0,
@@ -216,8 +324,8 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					9,
-					16
+					10,
+					10
 				},
 				{
 					23,
@@ -233,6 +341,9 @@ pg.activity_banner = {
 		3,
 		4,
 		5,
+		6,
+		7,
+		8,
 		9,
 		10
 	}

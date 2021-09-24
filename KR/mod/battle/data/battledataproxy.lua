@@ -1133,6 +1133,8 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 
 	slot10 = uv3.CreateBattleUnitData(slot5, slot8, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot1.baseProperties, slot7, slot1.baseList, slot1.preloasList)
 
+	uv3.AttachUltimateBonus(slot10)
+	print(slot1.initHPRate)
 	slot10:InitCurrentHP(slot1.initHPRate or 1)
 	slot10:SetRarity(slot1.rarity)
 	slot10:SetIntimacy(slot1.intimacy)

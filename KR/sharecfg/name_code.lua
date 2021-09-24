@@ -1025,6 +1025,26 @@ pg.name_code = {
 		name = "소류·META",
 		code = "소류·META"
 	},
+	{
+		id = 206,
+		name = "유라",
+		code = "유라"
+	},
+	{
+		id = 207,
+		name = "야마카제",
+		code = "야마카제"
+	},
+	{
+		id = 208,
+		name = "카츠라기",
+		code = "카츠라기"
+	},
+	{
+		id = 209,
+		name = "운류",
+		code = "운류"
+	},
 	[250] = {
 		id = 250,
 		name = "이9",

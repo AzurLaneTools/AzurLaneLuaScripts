@@ -69,29 +69,6 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 999411,
-							reinforceDelay = 3,
-							score = 0,
-							delay = 0,
-							moveCast = true,
-							corrdinate = {
-								-10,
-								0,
-								55
-							}
-						},
-						{
-							monsterTemplateID = 999411,
-							moveCast = true,
-							delay = 0,
-							score = 0,
-							corrdinate = {
-								-10,
-								0,
-								35
-							}
-						},
-						{
-							monsterTemplateID = 999411,
 							moveCast = true,
 							delay = 0,
 							score = 0,

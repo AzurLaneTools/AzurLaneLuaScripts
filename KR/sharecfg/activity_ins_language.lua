@@ -8316,6 +8316,165 @@ pg.activity_ins_language = {
 	op_reply_241_1_1 = {
 		value = "\"화분 동호회\"를 만들 때야! 지휘관도 가입할래?"
 	},
+	ins_242 = {
+		value = "새로운 친구를 사귀었어요."
+	},
+	ins_discuss_242_1 = {
+		value = "음, 새로운 친구들을 만나서 둥실이도 기뻐해."
+	},
+	ins_reply_242_1_1 = {
+		value = "에, 친구...들?"
+	},
+	ins_discuss_242_2 = {
+		value = "저, 저기… 카스미는 누굴… 보고 있는 거야?"
+	},
+	ins_reply_242_2_1 = {
+		value = "카스미랑 둥실이는 새로운 친구랑 인사 중인데, 음."
+	},
+	ins_reply_242_2_2 = {
+		value = "에? 에엑!!??"
+	},
+	ins_op_242_1_1 = {
+		value = "사이가 정말 좋구나."
+	},
+	op_reply_242_1_1 = {
+		value = "카스미는 오랜 친구 같은 느낌이에요."
+	},
+	ins_243 = {
+		value = "아침 조깅! 시마카제, 전속 전진~"
+	},
+	ins_discuss_243_1 = {
+		value = "어머, 일찍 일어나는 새가 풀을 뜯어 먹는단 건가요~?"
+	},
+	ins_reply_243_1_1 = {
+		value = "풀보다, 시마카제는 당근이 더 좋아!"
+	},
+	ins_discuss_243_2 = {
+		value = "아침 조깅 행렬에 가입한 걸 환영해요!"
+	},
+	ins_reply_243_2_1 = {
+		value = "오~"
+	},
+	ins_discuss_243_3 = {
+		value = "정말 일찍 일어나셨네요..."
+	},
+	ins_reply_243_3_1 = {
+		value = "스루가도 같이 뛰어요~ 달리면 편안하다고요!"
+	},
+	ins_reply_243_3_2 = {
+		value = "전 됐어요……"
+	},
+	ins_op_243_1_1 = {
+		value = "달려라, 시마카제!"
+	},
+	op_reply_243_1_1 = {
+		value = "지휘관공도 운동해야죠!"
+	},
+	ins_244 = {
+		value = "이것 봐! 이게 바로 항공모함의 함재기 운용 능력이닷~"
+	},
+	ins_discuss_244_1 = {
+		value = "이런 것도 가능한 건가!?"
+	},
+	ins_reply_244_1_1 = {
+		value = "흐흥~ 나는 확실한 정규 항공모함이라고!"
+	},
+	ins_discuss_244_2 = {
+		value = "좋겠어요~ 하늘에서 자유롭게 날 수 있어서…"
+	},
+	ins_reply_244_2_1 = {
+		value = "맞아맞아~ 우리도 언제 해볼 수 있는 기회가 생길까…?"
+	},
+	ins_reply_244_2_2 = {
+		value = "아무래도 하지 않는 게 나을 것 같은데요……"
+	},
+	ins_op_244_1_1 = {
+		value = "기술이 훌륭한데!"
+	},
+	op_reply_244_1_1 = {
+		value = "역시 보는 눈이 있구나, 지휘관!"
+	},
+	ins_245 = {
+		value = "후후, 놀이 공원의 도장 수집 임무는 생각보다 간단하네요~"
+	},
+	ins_discuss_245_1 = {
+		value = "확인했다냥. 치쿠마가 1등이다냥."
+	},
+	ins_reply_245_1_1 = {
+		value = "인터뷰 좀! 치쿠마 씨가 이렇게 빨리 도장을 모은 비결은 대체 뭐야——?"
+	},
+	ins_reply_245_1_2 = {
+		value = "사전 정보 수집 덕분이죠~"
+	},
+	ins_discuss_245_2 = {
+		value = "도장을 전부 모으면 특별한 선물이 있다던데요?"
+	},
+	ins_reply_245_2_1 = {
+		value = "으에에!? 선물이 있다고? 도와주기만 하다가 신경을 못 썼는데... 그래서 선물이 뭐야?"
+	},
+	ins_reply_245_2_2 = {
+		value = "여기서는 밝히지 않을게요. 폭로한다면 신비감이 사라지니까요."
+	},
+	ins_op_245_1_1 = {
+		value = "대단한데!"
+	},
+	op_reply_245_1_1 = {
+		value = "지휘관님은 잘 모으고 계신가요? 궁금하네요~"
+	},
+	ins_op_245_1_2 = {
+		value = "내 것도 하나 모아줘!"
+	},
+	op_reply_245_1_2 = {
+		value = "그건 안돼요. 지휘관님, 선물을 원하신다면, 스스로 힘내세요~"
+	},
+	ins_246 = {
+		value = "바닷바람, 편하다~"
+	},
+	ins_discuss_246_1 = {
+		value = "아! 우미카제 또 갈매기랑 놀러갔어!"
+	},
+	ins_reply_246_1_1 = {
+		value = "야마카제도 오실래요?"
+	},
+	ins_reply_246_1_2 = {
+		value = "음... 역시 난 됐어! 갈매기들은 너랑만 놀잖아!"
+	},
+	ins_discuss_246_2 = {
+		value = "갈매기가 해수면 가까이 날 때는 항구의 날씨가 좋을 거랬어요."
+	},
+	ins_reply_246_2_1 = {
+		value = "맞아요! 오늘 모항도 화창하고 포근한 바람이 불어요~"
+	},
+	ins_op_246_1_1 = {
+		value = "정말 환영 받는구나."
+	},
+	op_reply_246_1_1 = {
+		value = "히히, 이 아이들 모두 우미카제의 친구에요~"
+	},
+	ins_247 = {
+		value = "꺅~ 마술 배우는 건 역시 그렇게 쉽지 않아~"
+	},
+	ins_discuss_247_1 = {
+		value = "힘내요, 야마카제, 할 수 있어요!"
+	},
+	ins_reply_247_1_1 = {
+		value = "오옷! 또 힘이 차오르는 것 같은걸!"
+	},
+	ins_discuss_247_2 = {
+		value = "마술로 깜짝 놀라는 걸 만들면... 으흠, 새로운 장난을 발견한 것 같아!"
+	},
+	ins_reply_247_2_1 = {
+		value = "장난은 들키면 안되고, 마술의 비밀도 들키면 안되지. 그러니까 둘이 똑같아!"
+	},
+	ins_reply_247_2_2 = {
+		value = "마술은 사람을 괴롭히는 데 쓰는 게 아니야!"
+	},
+	ins_op_247_1_1 = {
+		value = "정식 공연 기대할게!"
+	},
+	op_reply_247_1_1 = {
+		value = "실망시키지 않을 거야~"
+	},
 	all = {
 		ins_op_1_1_1,
 		ins_op_1_1_2,
@@ -11088,6 +11247,59 @@ pg.activity_ins_language = {
 		ins_reply_241_2_1,
 		ins_reply_241_2_2,
 		ins_op_241_1_1,
-		op_reply_241_1_1
+		op_reply_241_1_1,
+		ins_242,
+		ins_discuss_242_1,
+		ins_reply_242_1_1,
+		ins_discuss_242_2,
+		ins_reply_242_2_1,
+		ins_reply_242_2_2,
+		ins_op_242_1_1,
+		op_reply_242_1_1,
+		ins_243,
+		ins_discuss_243_1,
+		ins_reply_243_1_1,
+		ins_discuss_243_2,
+		ins_reply_243_2_1,
+		ins_discuss_243_3,
+		ins_reply_243_3_1,
+		ins_reply_243_3_2,
+		ins_op_243_1_1,
+		op_reply_243_1_1,
+		ins_244,
+		ins_discuss_244_1,
+		ins_reply_244_1_1,
+		ins_discuss_244_2,
+		ins_reply_244_2_1,
+		ins_reply_244_2_2,
+		ins_op_244_1_1,
+		op_reply_244_1_1,
+		ins_245,
+		ins_discuss_245_1,
+		ins_reply_245_1_1,
+		ins_reply_245_1_2,
+		ins_discuss_245_2,
+		ins_reply_245_2_1,
+		ins_reply_245_2_2,
+		ins_op_245_1_1,
+		op_reply_245_1_1,
+		ins_op_245_1_2,
+		op_reply_245_1_2,
+		ins_246,
+		ins_discuss_246_1,
+		ins_reply_246_1_1,
+		ins_reply_246_1_2,
+		ins_discuss_246_2,
+		ins_reply_246_2_1,
+		ins_op_246_1_1,
+		op_reply_246_1_1,
+		ins_247,
+		ins_discuss_247_1,
+		ins_reply_247_1_1,
+		ins_discuss_247_2,
+		ins_reply_247_2_1,
+		ins_reply_247_2_2,
+		ins_op_247_1_1,
+		op_reply_247_1_1
 	}
 }

@@ -1,3 +1,0 @@
-_G.pg.gametip.world_boss_drop_title = {
-	tip = "비콘 수집(미사용)"
-}

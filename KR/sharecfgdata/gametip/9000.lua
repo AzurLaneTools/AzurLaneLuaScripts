@@ -1,3 +1,0 @@
-_G.pg.gametip.word_rest = {
-	tip = "휴식"
-}

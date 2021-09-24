@@ -55,7 +55,9 @@ function slot0.execute(slot0, slot1)
 					slot3 = {}
 					slot4 = 0
 
-					for slot9, slot10 in ipairs(uv1) do
+					uv1:sendNotification(EquipmentMediator.NO_UPDATE)
+
+					for slot9, slot10 in ipairs(uv2) do
 						(function (slot0, slot1)
 							print("remove: " .. slot0 .. " " .. slot1)
 							uv0:removeEquipmentById(slot0, slot1)
@@ -95,10 +97,10 @@ function slot0.execute(slot0, slot1)
 					table.insert(slot3, Item.New(slot9))
 
 					for slot9, slot10 in ipairs(slot3) do
-						uv2:sendNotification(GAME.ADD_ITEM, slot10)
+						uv1:sendNotification(GAME.ADD_ITEM, slot10)
 					end
 
-					uv2:sendNotification(GAME.DESTROY_EQUIPMENTS_DONE, slot3)
+					uv1:sendNotification(GAME.DESTROY_EQUIPMENTS_DONE, slot3)
 
 					return
 				end

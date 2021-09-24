@@ -20,8 +20,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countTarget = 10,
 				countType = 29070,
+				countTarget = 10,
+				gunnerBonus = true,
 				index = {
 					1
 				}

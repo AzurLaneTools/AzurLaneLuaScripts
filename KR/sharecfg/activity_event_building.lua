@@ -180,6 +180,66 @@ pg.activity_event_building = {
 			15
 		}
 	},
+	{
+		id = 13,
+		name = "쥬쥬 서핑",
+		material_id = 59237,
+		desc = "파도와 함께 춤을!",
+		buff = {
+			13,
+			14,
+			15
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 14,
+		name = "쥬쥬 다이빙",
+		material_id = 59237,
+		desc = "물보라가 작을수록 높은 점수를!",
+		buff = {
+			16,
+			17,
+			18
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 15,
+		name = "슬라이드 월드",
+		material_id = 59237,
+		desc = "긴장감 넘치는 슬라이드 투어!",
+		buff = {
+			19,
+			20,
+			21
+		},
+		material = {
+			10,
+			15
+		}
+	},
+	{
+		id = 16,
+		name = "쥬쥬 폭포",
+		material_id = 59237,
+		desc = "물줄기의 충격을 느껴봐!",
+		buff = {
+			22,
+			23,
+			24
+		},
+		material = {
+			10,
+			15
+		}
+	},
 	all = {
 		1,
 		2,
@@ -192,6 +252,10 @@ pg.activity_event_building = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13,
+		14,
+		15,
+		16
 	}
 }

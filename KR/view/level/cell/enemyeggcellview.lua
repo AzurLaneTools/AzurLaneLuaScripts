@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.GetOrder(slot0)
-	return slot0.info and slot0.info.flag == 1 and ChapterConst.CellPriorityLittle or ChapterConst.CellPriorityEnemy
+	return slot0.info and slot0.info.flag == ChapterConst.CellFlagDisabled and ChapterConst.CellPriorityLittle or ChapterConst.CellPriorityEnemy
 end
 
 function slot0.SetTpl(slot0, slot1, slot2)
@@ -24,9 +24,9 @@ function slot0.Update(slot0)
 	slot3 = slot1.row
 	slot4 = slot1.column
 
-	if slot1.attachment == ChapterConst.AttachAmbush and slot1.flag == 2 then
+	if slot1.attachment == ChapterConst.AttachAmbush and slot1.flag == ChapterConst.CellFlagAmbush then
 		-- Nothing
-	elseif slot1.flag == 0 then
+	elseif slot1.flag == ChapterConst.CellFlagActive then
 		if slot0:UpdateGO(slot0._aliveTpl) then
 			slot0.tf.anchoredPosition = Vector2(0, 0)
 
@@ -45,7 +45,7 @@ function slot0.Update(slot0)
 		slot0.tf:GetComponent("Animator").enabled = slot1.data > 0
 
 		setActive(findTF(slot0.tf, "damage_count"), slot1.data > 0)
-	elseif slot1.flag == 1 and slot0:UpdateGO(slot0._deadTpl) and slot1.attachment ~= ChapterConst.AttachAmbush then
+	elseif slot1.flag == ChapterConst.CellFlagDisabled and slot0:UpdateGO(slot0._deadTpl) and slot1.attachment ~= ChapterConst.AttachAmbush then
 		if slot2.icon_type == 1 then
 			slot0.tf.anchoredPosition = Vector2(0, 10)
 

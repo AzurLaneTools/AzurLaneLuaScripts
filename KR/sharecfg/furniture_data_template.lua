@@ -4188,6 +4188,43 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[208] = {
+		spine_extra = "",
+		describe = "\"용궁\"의 주전을 본떠 만든 미니어처 모형, 장엄하고 신비로운 인상을 준다.——「맑고 푸른 바다」 작전 중 우수한 성적을 획득한 자에게 수여하는 기념장",
+		gain_by = "맑고 푸른 바다",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "dfxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "용궁 기념장",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/dfxunzhang",
+		canputon = 0,
+		id = 208,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -57740,25 +57777,24 @@ pg.furniture_data_template = {
 		interAction_group = {}
 	},
 	[49120] = {
-		spine_extra = "",
+		rarity = 4,
 		describe = "음… 필요한 자료는 아마도… 여기?",
 		gain_by = "",
 		type = 2,
 		dir = 0,
 		dorm_id = 0,
-		rarity = 4,
-		is_get_time_note = 0,
 		themeId = 49,
+		is_get_time_note = 0,
 		belong = 1,
-		is_3d_obj = 0,
 		count = 1,
+		is_3d_obj = 0,
+		name = "박사 책장",
 		tag = 1,
 		icon = "shuguidhicon",
 		deblocking = 1,
 		level = 1,
 		advice = 0,
 		effect = "",
-		name = "박사 책장",
 		comfortable = 0,
 		spine_action_replace = "",
 		picture = "donghuaBD/shuguidh",
@@ -57773,6 +57809,19 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -89406,6 +89455,696 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[83001] = {
+		spine_extra = "",
+		describe = "축제다~ 이 밤을 더욱 뜨겁게쥬!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "축제의 밤 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibanxrjicon",
+		spine_action_replace = "",
+		picture = "xrj/dibanxrj",
+		comfortable = 4,
+		canputon = 0,
+		id = 83001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83002] = {
+		spine_extra = "",
+		describe = "축제다~ 이 밤을 더욱 뜨겁게쥬!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "축제의 밤 벽지",
+		effect = "",
+		advice = 0,
+		icon = "qiangbixrjicon",
+		spine_action_replace = "",
+		picture = "xrj/qiangbixrj",
+		comfortable = 4,
+		canputon = 0,
+		id = 83002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83101] = {
+		spine_extra = "",
+		describe = "등롱에 스폰서 로고는 찍혀 있지 않아요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "denglongzuxrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "축제 등롱(야간)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xrj/denglongzuxrj",
+		canputon = 0,
+		id = 83101,
+		can_rotate = 0,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83102] = {
+		spine_extra = "",
+		describe = "짜잔, 세상에 하나뿐인 커다란 꽃등이다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "huadengxrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "쥬쥬 꽃등",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xrj/huadengxrj",
+		canputon = 0,
+		id = 83102,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83103] = {
+		spine_extra = "",
+		describe = "금붕어 낚시에 도전해봐쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 83,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jinyutanxrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "쥬쥬 금붕어 노점",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xrj/jinyutanxrj",
+		canputon = 0,
+		id = 83103,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-71,
+					45.2
+				},
+				{
+					1,
+					1
+				},
+				"xrj/jinyutanxrj_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83104] = {
+		spine_extra = "",
+		describe = "상상할 수 있는 건 무엇이든 다 있다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "mianjutanxrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "쥬쥬 가면 노점",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xrj/mianjutanxrj",
+		canputon = 0,
+		id = 83104,
+		can_rotate = 0,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83105] = {
+		spine_extra = "",
+		describe = "시끌시끌한 밤중의 고요함.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "niaojuxrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "도리이(야간)",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xrj/niaojuxrj",
+		canputon = 0,
+		id = 83105,
+		can_rotate = 0,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83106] = {
+		spine_extra = "",
+		describe = "축제의 분위기에 아름다움 더하기.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shanduixrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "축제 우산",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xrj/shanduixrj",
+		canputon = 0,
+		id = 83106,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83107] = {
+		spine_extra = "",
+		describe = "소원 종이를 묶으려면 저쪽으로 가라쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "shensheshuxrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "신사 큰 나무(야간)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xrj/shensheshuxrj",
+		canputon = 0,
+		id = 83107,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83109] = {
+		spine_extra = "",
+		describe = "지성이면 감천이라, 지성이면 감천이라!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shenshexrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "쥬쥬 신사",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "xrj/shenshexrj",
+		canputon = 0,
+		id = 83109,
+		can_rotate = 1,
+		size = {
+			9,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83110] = {
+		spine_extra = "",
+		describe = "무, 무겁다쥬...",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shenyuxrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "축제 가마",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xrj/shenyuxrj",
+		canputon = 0,
+		id = 83110,
+		can_rotate = 0,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83111] = {
+		spine_extra = "",
+		describe = "희미한 빛을 발하고 있어요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "shidengxrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "축제 석등",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xrj/shidengxrj",
+		canputon = 0,
+		id = 83111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83114] = {
+		spine_extra = "",
+		describe = "시끌시끌한 밤중의 고요함.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "songshuxrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "신사 소나무(야간)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "xrj/songshuxrj",
+		canputon = 0,
+		id = 83114,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83116] = {
+		spine_extra = "",
+		describe = "3가지 간식을 고를 수 있다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaochitanxrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "축제 간식 노점",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xrj/xiaochitanxrj",
+		canputon = 0,
+		id = 83116,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83117] = {
+		spine_extra = "",
+		describe = "함부로 동전을 던지면 안된다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 83,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaochizixrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "축제 못",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "xrj/xiaochizixrj",
+		canputon = 0,
+		id = 83117,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[83118] = {
+		belong = 1,
+		describe = "뛰자쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 83,
+		count = 1,
+		is_3d_obj = 0,
+		name = "축제 무대",
+		tag = 1,
+		icon = "wutaixrjicon",
+		deblocking = 1,
+		level = 1,
+		comfortable = 4,
+		effect = "",
+		advice = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 83118,
+		can_rotate = 0,
+		size = {
+			10,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"AxrjB",
+				"normal"
+			},
+			{
+				"AxrjT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"AxrjCharControl",
+				"AxrjCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[83119] = {
+		spine_extra = "",
+		describe = "그녀와 함께 불꽃놀이를 보러 가요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 83,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yanhuaxrjicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "축제 불꽃놀이",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 83119,
+		can_rotate = 0,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Bxrj",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -89496,6 +90235,7 @@ pg.furniture_data_template = {
 		203,
 		205,
 		206,
+		208,
 		100002,
 		100003,
 		100004,
@@ -91424,6 +92164,23 @@ pg.furniture_data_template = {
 		82122,
 		82123,
 		82124,
-		82125
+		82125,
+		83001,
+		83002,
+		83101,
+		83102,
+		83103,
+		83104,
+		83105,
+		83106,
+		83107,
+		83109,
+		83110,
+		83111,
+		83114,
+		83116,
+		83117,
+		83118,
+		83119
 	}
 }

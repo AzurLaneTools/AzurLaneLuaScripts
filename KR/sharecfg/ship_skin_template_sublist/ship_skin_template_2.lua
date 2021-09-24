@@ -3913,9 +3913,7 @@ pg.ship_skin_template_2 = {
 		bg = "",
 		id = 102089,
 		group_index = 9,
-		shop_id = 0,
 		painting = "shengdiyage_g",
-		air_bomb_skin = "",
 		air_bullet_skin = "",
 		shop_type_id = 0,
 		lip_smoothing = 0,
@@ -3929,10 +3927,10 @@ pg.ship_skin_template_2 = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "에헷☆ 뭔지는 잘 모르겠지만, 샌디에이고가 왠지 굉장히 강해졌어! 지휘관, 이 반짝반짝거리는 '필' 이 보여? ",
 		voice_actor = 5,
-		spine_offset = "",
+		air_bomb_skin = "",
 		illustrator = 1,
 		rarity_bg = "",
 		time = "",
@@ -4004,6 +4002,27 @@ pg.ship_skin_template_2 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				0,
+				-500,
+				0
+			},
+			{
+				0.62
+			}
+		},
+		special_effects = {
+			"lihui_jinkela",
+			{
+				37,
+				89,
+				0
+			},
+			{
+				1.6
 			}
 		}
 	},
@@ -8088,6 +8107,110 @@ pg.ship_skin_template_2 = {
 							-0.375,
 							2.506,
 							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102240] = {
+		ship_group = 10224,
+		name = "클리블랜드(μ장비)",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "121",
+		id = 102240,
+		group_index = 0,
+		shop_id = 0,
+		painting = "kelifulan_idol",
+		air_bomb_skin = "",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "kelifulan_idol",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "경순양함 클리블랜드, 도착! 사실 이런 건 익숙하지 않지만 하기로 한 이상 자연스럽게 모두와 맞춰갈 수 있겠지! 지휘관, 응원 부탁해!",
+		voice_actor = 40,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.13,
+					1.088,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.14,
+					1.04,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.114,
+					1.107,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.369,
+							2.43,
+							0
 						}
 					}
 				}

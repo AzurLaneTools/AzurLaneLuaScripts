@@ -204,7 +204,7 @@ function slot0.AddListener(slot0)
 			else
 				uv0:emit(LevelMediator2.ON_STAGE)
 			end
-		elseif slot3.attachment == ChapterConst.AttachAmbush and slot3.flag == 2 then
+		elseif slot3.attachment == ChapterConst.AttachAmbush and slot3.flag == ChapterConst.CellFlagAmbush then
 			slot5 = nil
 
 			coroutine.wrap(function ()
@@ -216,7 +216,7 @@ function slot0.AddListener(slot0)
 
 			slot4 = true
 		elseif slot3.attachment == ChapterConst.AttachEnemy or slot3.attachment == ChapterConst.AttachElite or slot3.attachment == ChapterConst.AttachAmbush or slot3.attachment == ChapterConst.AttachBoss then
-			if slot3.flag == 0 then
+			if slot3.flag == ChapterConst.CellFlagActive then
 				slot4 = true
 
 				if chapter_skip_battle == 1 and pg.SdkMgr.GetInstance():CheckPretest() then
@@ -231,7 +231,7 @@ function slot0.AddListener(slot0)
 				end
 			end
 		elseif slot3.attachment == ChapterConst.AttachBox then
-			if slot3.flag == 0 then
+			if slot3.flag == ChapterConst.CellFlagActive then
 				slot4 = true
 
 				uv0:emit(LevelMediator2.ON_OP, {
@@ -264,7 +264,7 @@ function slot0.AddListener(slot0)
 			}, 11018, function (slot0)
 			end)
 			pg.NewStoryMgr.GetInstance():Play(pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot5), function (slot0, slot1)
-				if uv0.flag == 0 then
+				if uv0.flag == ChapterConst.CellFlagActive then
 					uv1:emit(LevelMediator2.ON_OP, {
 						type = ChapterConst.OpStory,
 						id = uv2.id,
@@ -646,22 +646,13 @@ end
 function slot0.updateFleetBuff(slot0)
 	slot1 = slot0.contextData.chapterVO
 	slot2 = slot1.fleet
-	slot4 = #slot1:GetShowingStartegies()
+	slot3 = slot1:GetShowingStartegies()
+	slot4 = {}
 
-	while slot4 > 0 do
-		if pg.strategy_data_template[slot3[slot4]].icon == "" then
-			table.remove(slot3, slot4)
-		end
-
-		slot4 = slot4 - 1
-	end
-
-	slot5 = {}
-
-	if slot1:GetSubmarineFleet() and _.filter(slot6:getStrategies(), function (slot0)
+	if slot1:GetSubmarineFleet() and _.filter(slot5:getStrategies(), function (slot0)
 		return pg.strategy_data_template[slot0.id].type == ChapterConst.StgTypePassive and slot0.count > 0
-	end) and #slot7 > 0 then
-		_.each(slot7, function (slot0)
+	end) and #slot6 > 0 then
+		_.each(slot6, function (slot0)
 			table.insert(uv0, {
 				id = slot0.id,
 				count = slot0.count
@@ -669,23 +660,23 @@ function slot0.updateFleetBuff(slot0)
 		end)
 	end
 
-	slot7 = nil
-	slot8 = 0
+	slot6 = nil
+	slot7 = 0
 
 	if slot1:ExistDivingChampion() then
-		slot7 = {
+		slot6 = {
 			icon = "submarine_approach"
 		}
-		slot8 = 1
+		slot7 = 1
 	end
 
-	slot11 = findTF(slot0.topStage, "buff_tpl")
+	slot10 = findTF(slot0.topStage, "buff_tpl")
 
-	setActive(slot11, false)
+	setActive(slot10, false)
 
-	slot12 = UIItemList.New(findTF(slot0.topStage, "fleet_buffs"), slot11)
+	slot11 = UIItemList.New(findTF(slot0.topStage, "fleet_buffs"), slot10)
 
-	slot12:make(function (slot0, slot1, slot2)
+	slot11:make(function (slot0, slot1, slot2)
 		setActive(findTF(slot2, "frame"), false)
 		setActive(findTF(slot2, "Text"), false)
 		setActive(findTF(slot2, "times"), false)
@@ -758,7 +749,7 @@ function slot0.updateFleetBuff(slot0)
 			end
 		end
 	end)
-	slot12:align(#slot3 + #slot5 + slot8 + #_.map(_.values(slot2:getCommanders()), function (slot0)
+	slot11:align(#slot3 + #slot4 + slot7 + #_.map(_.values(slot2:getCommanders()), function (slot0)
 		return slot0:getSkills()[1]
 	end))
 
@@ -904,54 +895,16 @@ slot3 = Vector2(396, 128)
 slot4 = Vector2(128, 128)
 
 function slot0.updateStageStrategy(slot0)
+	slot2 = slot0.contextData.chapterVO.fleet
 	slot4 = findTF(findTF(slot0.rightStage, "event"), "detail")
-	slot5 = findTF(slot4, "click")
 	findTF(slot4, "items"):GetComponent(typeof(GridLayoutGroup)).cellSize = slot0._showStrategyDetail and uv0 or uv1
-	slot9 = findTF(slot3, "collapse")
+	slot8 = findTF(slot6, "item")
 
-	setActive(findTF(slot6, "item"), false)
+	setActive(slot8, false)
 
-	slot11 = {}
-	slot12 = {}
+	slot11 = nil
 
-	_.each(slot1:getFleetStgs(slot0.contextData.chapterVO.fleet), function (slot0)
-		if pg.strategy_data_template[slot0.id].type == ChapterConst.StgTypeForm then
-			table.insert(uv0, slot0.id)
-		else
-			table.insert(uv1, slot0)
-		end
-	end)
-
-	if _.any(slot1.fleets, function (slot0)
-		return slot0:getFleetType() == FleetType.Submarine
-	end) then
-		table.insert(slot12, 2, {
-			id = ChapterConst.StrategySubTeleport
-		})
-		table.insert(slot12, 2, {
-			id = ChapterConst.StrategySubAutoAttack
-		})
-		table.insert(slot12, 2, {
-			id = ChapterConst.StrategyHuntingRange
-		})
-	end
-
-	if #slot1.strategies > 0 then
-		for slot16, slot17 in pairs(slot1.strategies) do
-			table.insert(slot12, {
-				id = slot16,
-				count = slot17
-			})
-		end
-	end
-
-	table.insert(slot12, 1, {
-		id = slot2:getFormationStg()
-	})
-
-	slot14 = UIItemList.New(slot6, slot8)
-
-	slot14:make(function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot6, slot8, #slot1:GetActiveStrategies(), function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setActive(slot2:Find("detail"), uv0._showStrategyDetail)
 
@@ -959,12 +912,12 @@ function slot0.updateStageStrategy(slot0)
 			slot6, slot7 = nil
 
 			if uv1[slot1 + 1].id == ChapterConst.StrategyHuntingRange then
-				slot6 = 1
+				slot6 = ChapterConst.StgTypeConst
 				slot7 = uv0.contextData.huntingRangeVisibility % 2 == 1 and "range_invisible" or "range_visible"
 
 				setText(slot3, i18n("help_sub_limits"))
 			elseif slot5.id == ChapterConst.StrategySubAutoAttack then
-				slot6 = 1
+				slot6 = ChapterConst.StgTypeConst
 				slot7 = uv2.subAutoAttack == 0 and "sub_dont_auto_attack" or "sub_auto_attack"
 
 				setText(slot3, i18n("help_sub_display"))
@@ -986,7 +939,7 @@ function slot0.updateStageStrategy(slot0)
 
 				if uv1.id == ChapterConst.StrategyHuntingRange then
 					uv0.grid:toggleHuntingRange()
-					uv2.callback(uv3, uv4, uv5)
+					uv2(uv3, uv4, uv5)
 				elseif uv1.id == ChapterConst.StrategySubAutoAttack then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("ai_change_" .. 1 - uv6.subAutoAttack + 1))
 					uv0:emit(LevelMediator2.ON_OP, {
@@ -1021,8 +974,8 @@ function slot0.updateStageStrategy(slot0)
 					elseif uv8 == ChapterConst.StgTypeForm then
 						uv0:emit(LevelMediator2.ON_OP, {
 							type = ChapterConst.OpStrategy,
-							id = uv7:getNextStgUser(uv1.id),
-							arg1 = uv9[table.indexof(uv9, uv1.id) % #uv9 + 1]
+							id = uv7.id,
+							arg1 = ChapterConst.StrategyForms[table.indexof(ChapterConst.StrategyForms, uv1.id) % #ChapterConst.StrategyForms + 1]
 						})
 					else
 						uv0:emit(LevelUIConst.DISPLAY_STRATEGY_INFO, uv1)
@@ -1030,10 +983,10 @@ function slot0.updateStageStrategy(slot0)
 				end
 			end, SFX_PANEL)
 
-			if slot6 == ChapterConst.StgTypeForm or slot6 == ChapterConst.StgTypeConst then
+			if slot6 == ChapterConst.StgTypeForm then
 				setText(slot4:Find("nums"), "")
 				setActive(slot4:Find("mask"), false)
-				setActive(slot4:Find("selected"), uv7 == slot5.id)
+				setActive(slot4:Find("selected"), formationId == slot5.id)
 			else
 				setText(slot4:Find("nums"), slot5.count)
 				setActive(slot4:Find("mask"), slot5.count == 0)
@@ -1041,12 +994,11 @@ function slot0.updateStageStrategy(slot0)
 			end
 		end
 	end)
-	slot14:align(#slot12)
-	onButton(slot0, slot5, function ()
+	onButton(slot0, findTF(slot4, "click"), function ()
 		shiftPanel(uv0, uv0.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 		shiftPanel(uv1, -30, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	end, SFX_PANEL)
-	onButton(slot0, slot9, function ()
+	onButton(slot0, findTF(slot3, "collapse"), function ()
 		shiftPanel(uv0, 35, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 		shiftPanel(uv1, uv1.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	end, SFX_PANEL)
@@ -1230,7 +1182,7 @@ function slot0.clickGridCell(slot0, slot1)
 	elseif slot2:IsAutoFight() then
 		slot0:TryAutoFight()
 	elseif slot1.row ~= slot3.line.row or slot1.column ~= slot3.line.column then
-		if slot2:getChapterCell(slot1.row, slot1.column).attachment == ChapterConst.AttachStory and slot6.data == ChapterConst.StoryObstacle and slot6.flag == 3 then
+		if slot2:getChapterCell(slot1.row, slot1.column).attachment == ChapterConst.AttachStory and slot6.data == ChapterConst.StoryObstacle and slot6.flag == ChapterConst.CellFlagTriggerActive then
 			if pg.map_event_template[slot6.attachmentId] and slot7.gametip and #slot7.gametip > 0 and slot2:getPlayType() ~= ChapterConst.TypeDefence then
 				pg.TipsMgr.GetInstance():ShowTips(i18n(slot7.gametip))
 			end
@@ -1379,6 +1331,23 @@ function slot0.tryAutoAction(slot0, slot1)
 			}, slot0)
 		end,
 		function (slot0)
+			slot1, slot2 = uv0:GetAttachmentStories()
+
+			if slot1 then
+				table.eachAsync(slot1, function (slot0, slot1, slot2)
+					if slot0 <= uv0 and slot1 then
+						ChapterOpCommand.PlayChapterStory(pg.NewStoryMgr:StoryId2StoryName(tonumber(slot1)), slot2, uv1:IsAutoFight())
+					else
+						slot2()
+					end
+				end, slot0)
+
+				return
+			end
+
+			slot0()
+		end,
+		function (slot0)
 			if uv0 then
 				uv1:updateTrait(ChapterConst.TraitVirgin)
 				uv1.grid:updateAttachments()
@@ -1468,7 +1437,9 @@ function slot0.TryEnterChapterStoryStage(slot0)
 			end
 		end,
 		function (slot0)
-			if uv0:getConfig("story_refresh_boss") and slot1 ~= "" and type(slot1) == "number" and uv0:bossRefreshed() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
+			slot1 = uv0:getConfig("story_refresh_boss")
+
+			if slot1 and slot1 ~= "" and type(slot1) == "number" and uv0:bossRefreshed() and not pg.NewStoryMgr.GetInstance():IsPlayed(pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot1)) then
 				uv1:emit(LevelMediator2.ON_PERFORM_COMBAT, slot1, slot0)
 			else
 				slot0()
@@ -1752,7 +1723,7 @@ function slot0.TryAutoFight(slot0)
 			slot1 = slot0.target
 			slot2 = pg.expedition_data_template[slot1.attachmentId]
 
-			if slot1.flag == 1 then
+			if slot1.flag == ChapterConst.CellFlagDisabled then
 				return 0
 			end
 

@@ -126,6 +126,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （21.06.24-21.09.19）",
 		scene = {}
 	},
+	[210] = {
+		time_limit_type = 0,
+		name = "한계 챌린저 X",
+		gain_by = "",
+		id = 210,
+		time_second = 0,
+		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （21.09.23-21.12.19）",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "소환자",
@@ -261,6 +270,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「이글 유니온 최대 최강의 Black Dragon 등장! 함께 세상을 뒤흔들자!」</color>\n「비추는 나선의 경해」 이벤트 획득",
 		scene = {}
 	},
+	[316] = {
+		time_limit_type = 0,
+		name = "용궁의 증명",
+		gain_by = "碧海光粼",
+		id = 316,
+		time_second = 0,
+		desc = "<color=#ffffff>「용궁의 수수께끼를 풀고 진정한 보물을 찾을 수 있기를」</color>\n「맑고 푸른 바다」 이벤트 획득.",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "맛의 기념",
@@ -285,6 +303,7 @@ pg.item_data_frame = {
 		207,
 		208,
 		209,
+		210,
 		300,
 		301,
 		302,
@@ -300,6 +319,7 @@ pg.item_data_frame = {
 		313,
 		314,
 		315,
+		316,
 		501
 	}
 }

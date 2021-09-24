@@ -139,10 +139,20 @@ function slot0.GetTouchPart(slot0)
 end
 
 function slot0.TriggerAction(slot0, slot1, slot2, slot3, slot4)
+	slot0:CheckStopDrag()
+
 	slot0.finishActionCB = slot2
 	slot0.animEventCB = slot4
 
 	uv0(slot0, slot1, slot3)
+end
+
+function slot0.CheckStopDrag(slot0)
+	if slot0.live2dData:GetShipSkinConfig().id == 301291 then
+		slot0.liveCom.ResponseClick = false
+
+		ReflectionHelp.RefSetField(typeof(Live2dChar), "inDrag", slot0.liveCom, false)
+	end
 end
 
 function slot0.Dispose(slot0)

@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 20706
+		act_id = 20862
 	},
 	ACTIVITY_BOSS_PT_ID = {
 		act_id = 20803
@@ -791,5 +791,17 @@ pg.activity_const = {
 	},
 	ROP_COW_ID = {
 		act_id = 20827
+	},
+	JIUJIU_YOYO_ID = {
+		act_id = 20858
+	},
+	JP_CEREMONY_INVITATION_ID = {
+		act_id = 20850
+	},
+	RETUREN_AWARD_1 = {
+		act_id = 20851
+	},
+	CATCH_TREASURE_ID = {
+		act_id = 20849
 	}
 }
