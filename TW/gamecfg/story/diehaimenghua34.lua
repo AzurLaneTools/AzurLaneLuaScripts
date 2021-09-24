@@ -184,7 +184,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "信濃，相信自己，也要相信與妳並肩戰鬥的同伴，祝你一路順風。",
+			say = "信濃，相信自己，也要相信與妳並肩戰鬥的同伴，祝妳一路順風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
