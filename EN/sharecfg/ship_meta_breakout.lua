@@ -202,7 +202,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707031] = {
-		breakout_view = "Learn skill Flickering Light/All Torpedo Bombers +1/Torpedo Bomber efficiency +5%",
+		breakout_view = "Learn skill Flickering Light/All Dive Bombers +1/Dive Bombers efficiency +5%",
 		gold = 1000,
 		breakout_id = 9707032,
 		repair = 0,
@@ -219,7 +219,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707032] = {
-		breakout_view = "Hangar capacity +1/All fighters +1/Torpedo Bomber efficiency +10%",
+		breakout_view = "Hangar capacity +1/All fighters +1/Dive Bombers efficiency +10%",
 		gold = 3000,
 		breakout_id = 9707033,
 		repair = 0,
@@ -238,7 +238,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707033] = {
-		breakout_view = "Improve skill Flickering Light/All aircraft +1/Torpedo Bomber efficiency +15%",
+		breakout_view = "Improve skill Flickering Light/All aircraft +1/Dive Bombers efficiency +15%",
 		gold = 10000,
 		breakout_id = 9707034,
 		repair = 0,
