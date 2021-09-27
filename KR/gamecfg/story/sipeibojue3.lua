@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "오늘은 여기까지 하자.",
+			say = "오늘은 여기까지 하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "의욕이 있는 것은 좋은 일이지. 하지만 신청한 연습 해역 사용 시간이 다 되었어. 지휘관의 플랜을 방해할 생각은 아니겠지?",
+			say = "의욕이 있는 것은 좋은 일이죠. 하지만 신청한 연습 해역 시간이 다 되었습니다. 지휘관님의 플랜을 방해할 생각은 아니겠죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "슈피는 비서함이니 잘 알겠지.",
+			say = "슈피는 비서함이니 잘 아실 거라 생각합니다만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "두 분은 어떤 \"소망\"이 있는지 모르겠네?",
+			say = "내 \"소망\"인가요..... 괜찮은 질문이네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 2,
-			say = "지금이라면 지휘관을 더욱 잘 보좌하는 것, 그리고 중요한 순간에 폭주하는 언니를 잘 저지하는 것이겠지.",
+			say = "지금이라면 지휘관님을 더욱 잘 보좌하는 것, 그리고 중요한 순간에 폭주하는 언니를 잘 저지하는 것입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "그럼 슈피 너는? 네 \"소망\"은 뭐야?",
+			say = "그럼 슈피. 당신의 \"소망\"은 뭔가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

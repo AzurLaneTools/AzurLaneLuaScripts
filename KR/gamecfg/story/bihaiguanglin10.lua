@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "오오! 치쿠마공, 정말 대단해요!",
+			say = "오오! 카츠라기공, 정말 대단해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

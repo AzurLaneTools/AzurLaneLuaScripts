@@ -503,6 +503,7 @@ return {
 			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			withoutActorName = true,
 			dir = 1,
 			blackBg = true,
 			say = "우울해진 이유를 묻자, 르 트리옹팡은 쑥스러운 듯 발걸음을 옮기며 말을 꺼냈다.",

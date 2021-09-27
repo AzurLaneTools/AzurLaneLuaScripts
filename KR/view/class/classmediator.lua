@@ -6,6 +6,25 @@ slot0.CLASS_UPGRADE = "ClassMediator:CLASS_UPGRADE"
 slot0.CLASS_UPGRADE_TIMES_UP = "ClassMediator:CLASS_UPGRADE_TIMES_UP"
 slot0.CLASS_CLEAR_STUDENT = "ClassMediator:CLASS_CLEAR_STUDENT"
 
+function slot0.IsCloseOldClass(slot0)
+	if pg.TimeMgr.GetInstance():parseTimeFromConfig({
+		{
+			2021,
+			9,
+			29
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}) <= pg.TimeMgr.GetInstance():GetServerTime() then
+		return true
+	end
+
+	return false
+end
+
 function slot0.register(slot0)
 	slot1 = getProxy(NavalAcademyProxy)
 	slot2 = getProxy(BayProxy)
@@ -19,6 +38,12 @@ function slot0.register(slot0)
 	slot1:UpgradeFinish()
 	slot4:setFlag("blockResourceUpgrade", true)
 	slot0:bind(uv0.OPEN_DOCK, function (slot0)
+		if uv0:IsCloseOldClass() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("old_class_is_close"))
+
+			return
+		end
+
 		uv0:addSubLayers(Context.New({
 			mediator = BackYardShipInfoMediator,
 			viewComponent = BackYardShipInfoLayer,
@@ -28,6 +53,12 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(uv0.CLASS_START_COURSE, function (slot0, slot1)
+		if uv0:IsCloseOldClass() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("old_class_is_close"))
+
+			return
+		end
+
 		uv0:sendNotification(GAME.CLASS_START_COURSE, {
 			students = slot1
 		})

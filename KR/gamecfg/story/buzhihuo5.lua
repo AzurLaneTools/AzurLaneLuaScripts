@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "지휘관, 언제까지 이 풀숲에 계실 생각이신지요? 장시간 관찰하시기 편하도록 여길 좀 정리하여 드릴까요?",
+			say = "지휘관님, 언제까지 이 풀숲에 계실 생각이신지요? 장시간 관찰하시기 편하도록 여길 좀 정리하여 드릴까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -269,7 +269,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "윽, 너는 아마기급의...",
+			say = "윽, 너는 카가급의...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

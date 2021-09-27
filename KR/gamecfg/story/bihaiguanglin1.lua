@@ -62,7 +62,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "우리 함대의 부유섬 요새를 바라는 초대장 얘기군요?",
+			say = "우리 함대의 부유섬 요새를 바라는 초대장 얘기네?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "예의를 갖추는 것은 문제가 되지 않지요. 저 역시 메탈 블러드의 부유섬 요새에 관심이 많으니까요.",
+			say = "예의를 갖추는 것은 문제가 되지 않지. 나 역시 메탈 블러드의 부유섬 요새에 관심이 많으니까. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "하지만 시간이 참 공교롭네요.",
+			say = "하지만 시간이 참 공교롭네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "괜찮아요. 핵심 구역에 먼저 들어가지 못한 것은 아쉽지만, 그것조차 이번 원정에서는 사소한 문제일 뿐이에요.",
+			say = "괜찮아. 핵심 구역에 먼저 들어가지 못한 것은 아쉽지만, 그것조차 이번 원정에서는 사소한 문제일 뿐이니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "목적을 달성하기 전에 우리는 절대 돌아가지 않아요.",
+			say = "목적을 달성하기 전에는 절대 돌아가지 않을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "친구의 초대를 거절하는 것은 실례죠. 알겠다고 하세요.",
+			say = "친구의 초대를 거절하는 것은 실례지. 알겠다고 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "이번에는 다른 사람을 보내야겠지요. 어쨌든 단순한 답례성 방문이니까요.",
+			say = "이번에는 다른 사람을 보내야겠지. 어쨌든 단순한 답례성 방문이니까. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "적임자로는 누가 좋을 것 같나요?",
+			say = "적임자로 누가 좋을 것 같아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "적당하다 못해 과한 느낌이죠... 이런 작은 일에 야마토가 직접 나설 필요는 없어요.",
+			say = "적당하다 못해 과한 느낌이지... 이런 작은 일에 야마토가 직접 나설 필요은 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "이번 원정의 여러 일을 무사시가 후방에서 담당하고 있기 때문에 보낸다면 후속 작전에 영향이 생길 거에요.",
+			say = "이번 원정의 여러 일을 무사시가 후방에서 담당하고 있기 때문에 보낸다면 후속 작전에 영향이 생길 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "...제정신인가요? 대선배를 보내서 뭘 어쩌려고요?!",
+			say = "... 제정신이니? 대선배를 보내서 뭘 어쩔려고?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "나가토 님도 안 됩니다! 사쿠라 엠파이어 연합 함대에서 사람을 바꾸는 문제만이 아니에요...",
+			say = "나가토 님도 안돼! 사쿠라 엠파이어 연합 함대에서 사람을 바꾸는 문제만이 아니야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "일단 그 입 좀 다물어주세요...",
+			say = "일단 그 입 좀 다물어줄래...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

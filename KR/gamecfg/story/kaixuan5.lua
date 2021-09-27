@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "지휘관님을 알고 계시겠죠. 제가 르 팡타스크급의 막내란 사실을…",
+			say = "지휘관님은 알고 계시겠죠. 제가 르 팡타스크급의 막내란 사실을…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -84,7 +84,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "에?! 그게 메탈 블러드 함대의 공격이었단 말인가요?! 너무 신기해요.",
+			say = "에?! 그게 메탈 블러드 함대의 공격이었단 말이야?! 너무 신기할 정도야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
