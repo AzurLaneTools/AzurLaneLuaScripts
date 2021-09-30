@@ -10,7 +10,13 @@ function slot0.execute(slot0, slot1)
 		})
 		slot4:updatePlayer(slot5)
 	elseif slot2.dropType == DROP_TYPE_ITEM then
-		getProxy(BagProxy):addItemById(slot2.id, slot2.count)
+		if pg.item_data_statistics[slot2.id].type == Item.EXP_BOOK_TYPE then
+			if math.min(slot3.max_num - getProxy(BagProxy):getItemCountById(slot2.id), slot2.count) > 0 then
+				getProxy(BagProxy):addItemById(slot2.id, slot5)
+			end
+		else
+			getProxy(BagProxy):addItemById(slot2.id, slot2.count)
+		end
 	elseif slot2.dropType == DROP_TYPE_EQUIP then
 		getProxy(EquipmentProxy):addEquipmentById(slot2.id, slot2.count)
 	elseif slot2.dropType == DROP_TYPE_SHIP then
@@ -114,6 +120,10 @@ function slot0.execute(slot0, slot1)
 				slot5:addItemById(slot7, slot10)
 				slot5:AddLimitCnt(slot7, slot10)
 			end
+		elseif slot4 == 21 and getProxy(ActivityProxy):getActivityById(slot2:getConfig("link_id")) and not slot6:isEnd() then
+			slot6.data2 = 1
+
+			slot5:updateActivity(slot6)
 		end
 	elseif slot2.dropType == DROP_TYPE_EQUIPMENT_SKIN then
 		getProxy(EquipmentProxy):addEquipmentSkin(slot2.id, slot2.count)

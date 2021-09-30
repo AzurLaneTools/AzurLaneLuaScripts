@@ -27,4 +27,7 @@ function slot0.SetData(slot0, slot1)
 	setActive(slot0.gameObject, slot1)
 end
 
+function slot0.Remove(slot0)
+end
+
 return slot0

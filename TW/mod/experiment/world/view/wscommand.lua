@@ -1933,17 +1933,15 @@ function slot0.OpTaskGoto(slot0, slot1)
 		})
 	elseif nowWorld:GetActiveEntrance().id ~= slot2:GetFollowingEntrance() then
 		master:QueryTransport(function ()
-			master:QueryTransport(function ()
-				master.atlasDisplayInfo = {
-					entrance = nowWorld:GetEntrance(uv0:GetFollowingEntrance()),
-					mapTypes = {
-						"complete_chapter",
-						"base_chapter"
-					}
+			master.atlasDisplayInfo = {
+				entrance = nowWorld:GetEntrance(uv0:GetFollowingEntrance()),
+				mapTypes = {
+					"complete_chapter",
+					"base_chapter"
 				}
+			}
 
-				master:EnterTransportWorld()
-			end)
+			master:EnterTransportWorld()
 		end)
 	else
 		slot3 = slot2.config.task_goto

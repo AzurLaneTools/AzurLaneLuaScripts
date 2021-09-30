@@ -16,7 +16,8 @@ function slot0.register(slot0)
 			uv0.techList[slot5.group_id] = {
 				completeID = slot5.effect_tech_id,
 				studyID = slot5.study_tech_id,
-				finishTime = slot5.study_finish_time
+				finishTime = slot5.study_finish_time,
+				rewardedID = slot5.rewarded_tech
 			}
 		end
 
@@ -32,10 +33,11 @@ function slot0.flushData(slot0)
 	slot0:refreshRedPoint()
 end
 
-function slot0.updateTecItem(slot0, slot1, slot2, slot3, slot4)
+function slot0.updateTecItem(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.techList[slot1] then
 		slot0.techList[slot1] = {
 			completeID = 0,
+			rewardedID = 0,
 			studyID = slot3,
 			finishTime = slot4
 		}
@@ -46,8 +48,19 @@ function slot0.updateTecItem(slot0, slot1, slot2, slot3, slot4)
 	slot0.techList[slot1] = {
 		completeID = slot2 or slot0.techList[slot1].completeID,
 		studyID = slot3,
-		finishTime = slot4
+		finishTime = slot4,
+		rewardedID = slot5 or slot0.techList[slot1].rewardedID
 	}
+end
+
+function slot0.updateTecItemAward(slot0, slot1, slot2)
+	slot0.techList[slot1].rewardedID = slot2
+end
+
+function slot0.updateTecItemAwardOneStep(slot0)
+	for slot4, slot5 in pairs(slot0.techList) do
+		slot5.rewardedID = slot5.completeID
+	end
 end
 
 function slot0.shipGroupFilter(slot0)
@@ -319,10 +332,32 @@ function slot0.refreshRedPoint(slot0)
 			break
 		end
 	end
+
+	slot0.ifShowRedPoint = slot0:isAnyTecCampCanGetAward()
+end
+
+function slot0.isAnyTecCampCanGetAward(slot0)
+	slot1 = false
+
+	if not LOCK_TEC_NATION_AWARD then
+		for slot5, slot6 in pairs(slot0.techList) do
+			if (table.indexof(pg.fleet_tech_group[slot5].techs, slot6.rewardedID, 1) or 0) < (table.indexof(slot7.techs, slot6.completeID, 1) or 0) then
+				slot1 = true
+
+				break
+			end
+		end
+	end
+
+	return slot1
 end
 
 function slot0.GetTecList(slot0)
 	return slot0.techList
+end
+
+function slot0.GetTecItemByGroupID(slot0, slot1)
+	return slot0.techList[slot1]
 end
 
 function slot0.getLevelByTecID(slot0, slot1)

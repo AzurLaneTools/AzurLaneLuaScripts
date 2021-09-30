@@ -152,10 +152,7 @@ function slot0.addListener(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.buildBtn, function ()
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.GETBOAT, {
-			page = BuildShipScene.PAGE_BUILD,
-			projectName = BuildShipScene.PROJECTS.ACTIVITY
-		})
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CRUSING)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.ptPreviewBtn, function ()
 		uv0:emit(MetaCharacterMediator.OPEN_PT_PREVIEW_LAYER, uv0:getCurMetaProgressVO())
@@ -343,7 +340,7 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 			slot13 = slot0:findTF("Empty/BuildType", slot5)
 
 			setActive(slot12, slot10)
-			setActive(slot13, slot1:isBuildType())
+			setActive(slot13, slot1:isPassType())
 
 			slot14, slot15 = slot1:getBannerPathAndName()
 
@@ -465,7 +462,7 @@ function slot0.updateMain(slot0, slot1)
 		slot4 = slot2:isPtType()
 
 		setActive(slot0.ptPanel, slot4)
-		setActive(slot0.buildPanel, slot2:isBuildType())
+		setActive(slot0.buildPanel, slot2:isPassType())
 
 		if slot4 then
 			slot0:updatePTPanel(slot1)

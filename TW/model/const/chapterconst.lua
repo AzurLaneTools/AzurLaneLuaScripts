@@ -63,6 +63,8 @@ slot0.FlagBanaiAirStrike = 4
 slot0.FlagPoison = 5
 slot0.FlagLava = 10
 slot0.FlagNightmare = 9
+slot0.FlagWeatherNight = 101
+slot0.FlagWeatherFog = 102
 slot0.ActType_Poison = 1
 slot0.ActType_Healing = 2
 slot0.BoxBarrier = 0
@@ -91,6 +93,8 @@ slot0.StgTypeForm = 1
 slot0.StgTypeConsume = 2
 slot0.StgTypeConst = 3
 slot0.StgTypePassive = 4
+slot0.StgTypeBindChapter = 5
+slot0.StgTypeBindFleetPassive = 6
 slot0.StrategyAmmoRich = 10001
 slot0.StrategyAmmoPoor = 10002
 slot0.StrategyHuntingRange = -1
@@ -139,7 +143,9 @@ slot0.TraitVirgin = 2
 
 function slot0.NeedMarkAsLurk(slot0)
 	if slot0.attachment == uv0.AttachBox then
-		slot1 = pg.box_data_template[slot0.attachmentId]
+		if pg.box_data_template[slot0.attachmentId].type == uv0.BoxStrategy and pg.strategy_data_template[slot1.effect_id].type == ChapterConst.StgTypeBindFleetPassive then
+			return nil
+		end
 
 		return slot0.flag == ChapterConst.CellFlagActive and (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxSupply or slot1.type == uv0.BoxEnemy)
 	else
@@ -270,6 +276,7 @@ slot0.StatusDPM_MRD_FOE = 16
 slot0.StatusDPM_MRD_FRIEND = 17
 slot0.StatusDPM_VITA_FOE = 18
 slot0.StatusDPM_VITA_FRIEND = 19
+slot0.StatusLIGHTHOUSEACTIVE = 20
 slot0.Status2Stg = {
 	[slot0.KizunaJammingEngage] = 90,
 	[slot0.KizunaJammingDodge] = 91,
@@ -286,7 +293,8 @@ slot0.Status2Stg = {
 	[slot0.StatusDPM_MRD_FOE] = 9251,
 	[slot0.StatusDPM_MRD_FRIEND] = 9252,
 	[slot0.StatusDPM_VITA_FOE] = 9271,
-	[slot0.StatusDPM_VITA_FRIEND] = 9272
+	[slot0.StatusDPM_VITA_FRIEND] = 9272,
+	[slot0.StatusLIGHTHOUSEACTIVE] = 14
 }
 slot0.HpGreen = 3000
 

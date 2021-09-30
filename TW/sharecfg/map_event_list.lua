@@ -69,46 +69,6 @@ pg.map_event_list = {
 			"helpbg/uta_mapevent_3"
 		}
 	},
-	[1200001] = {
-		help_open = 1,
-		chapter_id = 1200001,
-		event_list = {},
-		event_list_loop = {},
-		help_pictures = {
-			"helpbg/coastalgun_1",
-			"helpbg/coastalgun_2"
-		}
-	},
-	[1200002] = {
-		help_open = 0,
-		chapter_id = 1200002,
-		event_list = {},
-		event_list_loop = {},
-		help_pictures = {
-			"helpbg/coastalgun_1",
-			"helpbg/coastalgun_2"
-		}
-	},
-	[1200003] = {
-		help_open = 0,
-		chapter_id = 1200003,
-		event_list = {},
-		event_list_loop = {},
-		help_pictures = {
-			"helpbg/coastalgun_1",
-			"helpbg/coastalgun_2"
-		}
-	},
-	[1200004] = {
-		help_open = 0,
-		chapter_id = 1200004,
-		event_list = {},
-		event_list_loop = {},
-		help_pictures = {
-			"helpbg/coastalgun_1",
-			"helpbg/coastalgun_2"
-		}
-	},
 	[1220001] = {
 		help_open = 1,
 		chapter_id = 1220001,
@@ -1521,10 +1481,6 @@ pg.map_event_list = {
 		1160002,
 		1160003,
 		1160004,
-		1200001,
-		1200002,
-		1200003,
-		1200004,
 		1220001,
 		1220002,
 		1220003,

@@ -41,6 +41,10 @@ function slot1.MakeModel(slot0, slot1, slot2)
 		if #uv0:GetUnitData():GetTorpedoList() > 0 then
 			uv1:MakeTorpedoTrack(uv0)
 		end
+
+		if uv0:GetUnitData():GetAimBias() then
+			uv1:MakeAimBiasBar(uv0)
+		end
 	end
 
 	slot0:GetCharacterPool():InstCharacter(slot1:GetModleID(), function (slot0)
@@ -53,6 +57,10 @@ function slot1.MakeBloodBar(slot0, slot1)
 
 	LuaHelper.SetTFChildActive(slot2.transform, "torpedoIcons", true)
 	slot1:AddHPBar(slot2)
+end
+
+function slot1.MakeAimBiasBar(slot0, slot1)
+	slot1:AddAimBiasBar(slot1._HPBarTf:Find("biasBar"))
 end
 
 function slot1.MakeChargeArea(slot0, slot1)

@@ -388,7 +388,7 @@ function slot0.initPreviewPanel(slot0, slot1)
 
 		onToggle(slot0, slot0:findTF("Stage" .. slot7, slot0.stages), function (slot0)
 			if slot0 then
-				setText(uv0.breakView, uv1[uv2].breakout_view)
+				setText(uv0.breakView, HXSet.hxLan(uv1[uv2].breakout_view))
 				uv0:switchStage(uv2)
 			end
 		end, SFX_PANEL)

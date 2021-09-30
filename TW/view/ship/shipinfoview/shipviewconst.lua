@@ -35,5 +35,6 @@ slot0.SHOW_CUSTOM_MSG = "ShipViewConst.show_custom_msg"
 slot0.HIDE_CUSTOM_MSG = "ShipViewConst.hide_custom_msg"
 slot0.DISPLAY_HUNTING_RANGE = "ShipViewConst.display_hunting_range"
 slot0.PAINT_VIEW = "ShipViewConst.paint_view"
+slot0.SHOW_EXP_ITEM_USAGE = "ShipViewConst.SHOW_EXP_ITEM_USAGE"
 
 return slot0

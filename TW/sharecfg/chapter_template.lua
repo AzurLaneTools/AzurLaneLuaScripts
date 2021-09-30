@@ -9,14 +9,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.157291667",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 1,
 		boss_refresh = 1,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -28,7 +28,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -262,7 +262,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[102] = {
 		special_operation_list = "",
@@ -270,14 +271,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.347916667",
-		progress_boss = 100,
 		pre_chapter = 101,
+		progress_boss = 100,
+		model = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -289,7 +290,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "UI10201",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -632,7 +633,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[103] = {
 		special_operation_list = "",
@@ -640,14 +642,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.080208333",
-		progress_boss = 100,
 		pre_chapter = 102,
+		progress_boss = 100,
+		model = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -659,7 +661,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -1036,7 +1038,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[104] = {
 		special_operation_list = "",
@@ -1044,14 +1047,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.446875",
-		progress_boss = 80,
 		pre_chapter = 103,
+		progress_boss = 80,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -1063,7 +1066,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -1527,7 +1530,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[201] = {
 		special_operation_list = "",
@@ -1535,14 +1539,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.15625",
-		progress_boss = 70,
 		pre_chapter = 104,
+		progress_boss = 70,
+		model = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -1554,7 +1558,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -2106,7 +2110,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[202] = {
 		special_operation_list = "",
@@ -2114,14 +2119,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.436458333",
-		progress_boss = 60,
 		pre_chapter = 201,
+		progress_boss = 60,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -2133,7 +2138,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -2738,7 +2743,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[203] = {
 		special_operation_list = "",
@@ -2746,14 +2752,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.35",
-		progress_boss = 50,
 		pre_chapter = 202,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -2765,7 +2771,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -3347,7 +3353,8 @@ slot0.chapter_template = {}
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[204] = {
 		special_operation_list = "",
@@ -3355,14 +3362,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.0625",
-		progress_boss = 50,
 		pre_chapter = 203,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -3374,7 +3381,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -3926,7 +3933,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[301] = {
 		special_operation_list = "",
@@ -3934,14 +3942,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.403125",
-		progress_boss = 50,
 		pre_chapter = 204,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -3953,7 +3961,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -4526,7 +4534,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[302] = {
 		special_operation_list = "",
@@ -4534,14 +4543,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.1125",
-		progress_boss = 50,
 		pre_chapter = 301,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -4553,7 +4562,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -5150,7 +5159,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[303] = {
 		special_operation_list = "",
@@ -5158,14 +5168,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.491666667",
-		progress_boss = 34,
 		pre_chapter = 302,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -5177,7 +5187,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -5769,7 +5779,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[304] = {
 		special_operation_list = "",
@@ -5777,14 +5788,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.254166667",
-		progress_boss = 34,
 		pre_chapter = 303,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -5796,7 +5807,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -6374,7 +6385,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[305] = {
 		special_operation_list = "",
@@ -6382,14 +6394,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.091666667",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 4,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 43200,
@@ -6401,7 +6413,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 4,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -7051,7 +7063,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[401] = {
 		special_operation_list = "",
@@ -7059,14 +7072,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.313541667",
-		progress_boss = 34,
 		pre_chapter = 304,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -7078,7 +7091,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -7575,7 +7588,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[402] = {
 		special_operation_list = "",
@@ -7583,14 +7597,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.140625",
-		progress_boss = 34,
 		pre_chapter = 401,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -7602,7 +7616,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -8092,7 +8106,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[403] = {
 		special_operation_list = "",
@@ -8100,14 +8115,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.061458333",
-		progress_boss = 34,
 		pre_chapter = 402,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -8119,7 +8134,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -8554,7 +8569,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[404] = {
 		special_operation_list = "",
@@ -8562,14 +8578,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.328125",
-		progress_boss = 34,
 		pre_chapter = 403,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -8581,7 +8597,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -9153,7 +9169,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[405] = {
 		special_operation_list = "",
@@ -9161,14 +9178,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.458333333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 4,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 43200,
@@ -9180,7 +9197,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 4,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -9803,7 +9820,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[501] = {
 		special_operation_list = "",
@@ -9811,14 +9829,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.25",
-		progress_boss = 34,
 		pre_chapter = 404,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -9830,7 +9848,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -10407,7 +10425,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[502] = {
 		special_operation_list = "",
@@ -10415,14 +10434,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.071875",
-		progress_boss = 34,
 		pre_chapter = 501,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -10434,7 +10453,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -10949,7 +10968,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[503] = {
 		special_operation_list = "",
@@ -10957,14 +10977,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.25",
-		progress_boss = 25,
 		pre_chapter = 502,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -10976,7 +10996,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -11461,7 +11481,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[504] = {
 		special_operation_list = "",
@@ -11469,14 +11490,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.408333333",
-		progress_boss = 25,
 		pre_chapter = 503,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -11488,7 +11509,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -11998,7 +12019,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[505] = {
 		special_operation_list = "",
@@ -12006,14 +12028,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.071875",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 4,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 43200,
@@ -12025,7 +12047,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 4,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -12586,7 +12608,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[601] = {
 		special_operation_list = "",
@@ -12594,14 +12617,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.113541667",
-		progress_boss = 25,
 		pre_chapter = 504,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -12613,7 +12636,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -13161,7 +13184,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[602] = {
 		special_operation_list = "",
@@ -13169,14 +13193,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.273958333",
-		progress_boss = 25,
 		pre_chapter = 601,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -13188,7 +13212,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -13792,7 +13816,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[603] = {
 		special_operation_list = "",
@@ -13800,14 +13825,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.40625",
-		progress_boss = 25,
 		pre_chapter = 602,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -13819,7 +13844,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -14347,7 +14372,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[604] = {
 		special_operation_list = "",
@@ -14355,14 +14381,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.186458333",
-		progress_boss = 25,
 		pre_chapter = 603,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -14374,7 +14400,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -14946,7 +14972,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[605] = {
 		special_operation_list = "",
@@ -14954,14 +14981,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.470833333",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 4,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 43200,
@@ -14973,7 +15000,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 4,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -15544,7 +15571,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[701] = {
 		special_operation_list = "",
@@ -15552,14 +15580,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.130208333",
-		progress_boss = 25,
 		pre_chapter = 604,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -15571,7 +15599,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -15966,7 +15994,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[702] = {
 		special_operation_list = "",
@@ -15974,14 +16003,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.442708333",
-		progress_boss = 25,
 		pre_chapter = 701,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -15993,7 +16022,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -16491,7 +16520,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[703] = {
 		special_operation_list = "",
@@ -16499,14 +16529,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.335416667",
-		progress_boss = 25,
 		pre_chapter = 702,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -16518,7 +16548,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -17087,7 +17117,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[704] = {
 		special_operation_list = "",
@@ -17095,14 +17126,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.163541667",
-		progress_boss = 25,
 		pre_chapter = 703,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -17114,7 +17145,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -17667,7 +17698,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[705] = {
 		special_operation_list = "",
@@ -17675,14 +17707,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.291666667",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 4,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 43200,
@@ -17694,7 +17726,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 4,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -18250,7 +18282,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[801] = {
 		special_operation_list = "",
@@ -18258,14 +18291,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.436458333",
-		progress_boss = 25,
 		pre_chapter = 704,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -18277,7 +18310,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -18694,7 +18727,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[802] = {
 		special_operation_list = "",
@@ -18702,14 +18736,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.258333333",
-		progress_boss = 25,
 		pre_chapter = 801,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -18721,7 +18755,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -19224,7 +19258,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[803] = {
 		special_operation_list = "",
@@ -19232,14 +19267,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.041666667",
-		progress_boss = 25,
 		pre_chapter = 802,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -19251,7 +19286,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -19817,7 +19852,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[804] = {
 		special_operation_list = "",
@@ -19825,14 +19861,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.153125",
-		progress_boss = 25,
 		pre_chapter = 803,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -19844,7 +19880,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -20473,7 +20509,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[805] = {
 		special_operation_list = "",
@@ -20481,14 +20518,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.338541667",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 4,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 43200,
@@ -20500,7 +20537,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 4,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -21118,7 +21155,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[901] = {
 		special_operation_list = "",
@@ -21126,14 +21164,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 804,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -21145,7 +21183,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -21656,7 +21694,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[902] = {
 		special_operation_list = "",
@@ -21664,14 +21703,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 25,
 		pre_chapter = 901,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -21683,7 +21722,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -22232,7 +22271,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[903] = {
 		special_operation_list = "",
@@ -22240,14 +22280,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 902,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -22259,7 +22299,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -22832,7 +22872,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[904] = {
 		special_operation_list = "",
@@ -22840,14 +22881,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.09375",
-		progress_boss = 20,
 		pre_chapter = 903,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -22859,7 +22900,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -23454,7 +23495,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[905] = {
 		special_operation_list = "",
@@ -23462,14 +23504,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.238541667",
-		progress_boss = 20,
 		pre_chapter = 0,
+		progress_boss = 20,
+		model = 4,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 43200,
@@ -23481,7 +23523,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 4,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -24086,7 +24128,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1001] = {
 		special_operation_list = "",
@@ -24094,14 +24137,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 904,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -24113,7 +24156,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -24643,7 +24686,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1002] = {
 		special_operation_list = "",
@@ -24651,14 +24695,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.234375",
-		progress_boss = 25,
 		pre_chapter = 1001,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -24670,7 +24714,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -25256,7 +25300,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1003] = {
 		special_operation_list = "",
@@ -25264,14 +25309,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.070833333",
-		progress_boss = 20,
 		pre_chapter = 1002,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -25283,7 +25328,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -25886,7 +25931,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1004] = {
 		special_operation_list = "",
@@ -25894,14 +25940,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.378125",
-		progress_boss = 20,
 		pre_chapter = 1003,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -25913,7 +25959,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -26530,7 +26576,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1005] = {
 		special_operation_list = "",
@@ -26538,14 +26585,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.196875",
-		progress_boss = 20,
 		pre_chapter = 0,
+		progress_boss = 20,
+		model = 4,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 43200,
@@ -26557,7 +26604,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 4,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -27163,7 +27210,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1101] = {
 		special_operation_list = "",
@@ -27171,14 +27219,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.388541667",
-		progress_boss = 25,
 		pre_chapter = 1004,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -27190,7 +27238,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -27769,7 +27817,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1102] = {
 		special_operation_list = "",
@@ -27777,14 +27826,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.091666667",
-		progress_boss = 25,
 		pre_chapter = 1101,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -27796,7 +27845,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -28490,7 +28539,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1103] = {
 		special_operation_list = "",
@@ -28498,14 +28548,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.453125",
-		progress_boss = 20,
 		pre_chapter = 1102,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -28517,7 +28567,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -29181,7 +29231,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1104] = {
 		special_operation_list = "",
@@ -29189,14 +29240,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.167708333",
-		progress_boss = 20,
 		pre_chapter = 1103,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -29208,7 +29259,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -29981,7 +30032,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1201] = {
 		special_operation_list = "",
@@ -29989,14 +30041,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 1104,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -30008,7 +30060,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -30565,7 +30617,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1202] = {
 		special_operation_list = "",
@@ -30573,14 +30626,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 25,
 		pre_chapter = 1201,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -30592,7 +30645,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -31262,7 +31315,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1203] = {
 		special_operation_list = "",
@@ -31270,14 +31324,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 1202,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -31289,7 +31343,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -31995,7 +32049,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1204] = {
 		special_operation_list = "",
@@ -32003,14 +32058,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.09375",
-		progress_boss = 20,
 		pre_chapter = 1203,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -32022,7 +32077,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -32844,7 +32899,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1301] = {
 		special_operation_list = "",
@@ -32852,14 +32908,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 1204,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -32871,7 +32927,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -33436,7 +33492,8 @@ slot0.chapter_template = {}
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1302] = {
 		special_operation_list = "",
@@ -33444,14 +33501,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 25,
 		pre_chapter = 1301,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -33463,7 +33520,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -34133,7 +34190,8 @@ slot0.chapter_template = {}
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1303] = {
 		special_operation_list = "",
@@ -34141,14 +34199,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 1302,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -34160,7 +34218,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -34874,7 +34932,8 @@ slot0.chapter_template = {}
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1304] = {
 		special_operation_list = "",
@@ -34882,14 +34941,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.09375",
-		progress_boss = 18,
 		pre_chapter = 1303,
+		progress_boss = 18,
+		model = 1,
 		boss_refresh = 7,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -34901,7 +34960,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -35724,7 +35783,8 @@ slot0.chapter_template = {}
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10000] = {
 		special_operation_list = "",
@@ -35732,14 +35792,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 40028,
-		chapter_tag = 0,
 		pos_y = "0.43125",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -35751,7 +35811,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -36143,7 +36203,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10001] = {
 		special_operation_list = "",
@@ -36151,14 +36212,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 40028,
-		chapter_tag = 0,
 		pos_y = "0.294791667",
-		progress_boss = 42,
 		pre_chapter = 10000,
+		progress_boss = 42,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -36170,7 +36231,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -36630,7 +36691,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10002] = {
 		special_operation_list = "",
@@ -36638,14 +36700,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 40028,
-		chapter_tag = 0,
 		pos_y = "0.080208333",
-		progress_boss = 28,
 		pre_chapter = 10001,
+		progress_boss = 28,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -36657,7 +36719,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -37147,7 +37209,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10101] = {
 		special_operation_list = "",
@@ -37155,14 +37218,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.157291667",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 1,
 		boss_refresh = 1,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -37174,7 +37237,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -37444,7 +37507,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10102] = {
 		special_operation_list = "",
@@ -37452,14 +37516,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.347916667",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -37471,7 +37535,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -37848,7 +37912,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10103] = {
 		special_operation_list = "",
@@ -37856,14 +37921,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.080208333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -37875,7 +37940,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -38288,7 +38353,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10104] = {
 		special_operation_list = "",
@@ -38296,14 +38362,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.446875",
-		progress_boss = 80,
 		pre_chapter = 0,
+		progress_boss = 80,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -38315,7 +38381,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -38811,7 +38877,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10201] = {
 		special_operation_list = "",
@@ -38819,14 +38886,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.15625",
-		progress_boss = 70,
 		pre_chapter = 0,
+		progress_boss = 70,
+		model = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -38838,7 +38905,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -39434,7 +39501,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10202] = {
 		special_operation_list = "",
@@ -39442,14 +39510,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.436458333",
-		progress_boss = 60,
 		pre_chapter = 0,
+		progress_boss = 60,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -39461,7 +39529,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -40110,7 +40178,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10203] = {
 		special_operation_list = "",
@@ -40118,14 +40187,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.35",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -40137,7 +40206,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -40763,7 +40832,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10204] = {
 		special_operation_list = "",
@@ -40771,14 +40841,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.0625",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -40790,7 +40860,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -41386,7 +41456,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10301] = {
 		special_operation_list = "",
@@ -41394,14 +41465,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.403125",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -41413,7 +41484,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -42030,7 +42101,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10302] = {
 		special_operation_list = "",
@@ -42038,14 +42110,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.1125",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -42057,7 +42129,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -42698,7 +42770,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10303] = {
 		special_operation_list = "",
@@ -42706,14 +42779,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.491666667",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -42725,7 +42798,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -43361,7 +43434,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10304] = {
 		special_operation_list = "",
@@ -43369,14 +43443,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.254166667",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -43388,7 +43462,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -44010,7 +44084,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10401] = {
 		special_operation_list = "",
@@ -44018,14 +44093,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.313541667",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -44037,7 +44112,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -44576,7 +44651,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10402] = {
 		special_operation_list = "",
@@ -44584,14 +44660,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.140625",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -44603,7 +44679,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -45135,7 +45211,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10403] = {
 		special_operation_list = "",
@@ -45143,14 +45220,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.061458333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -45162,7 +45239,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -45639,7 +45716,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10404] = {
 		special_operation_list = "",
@@ -45647,14 +45725,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.328125",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -45666,7 +45744,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -46280,7 +46358,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10501] = {
 		special_operation_list = "",
@@ -46288,14 +46367,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.25",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -46307,7 +46386,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -46926,7 +47005,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10502] = {
 		special_operation_list = "",
@@ -46934,14 +47014,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.071875",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -46953,7 +47033,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -47510,7 +47590,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10503] = {
 		special_operation_list = "",
@@ -47518,14 +47599,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.25",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -47537,7 +47618,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -48064,7 +48145,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10504] = {
 		special_operation_list = "",
@@ -48072,14 +48154,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.408333333",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -48091,7 +48173,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -48643,7 +48725,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10601] = {
 		special_operation_list = "",
@@ -48651,14 +48734,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.113541667",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -48670,7 +48753,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -49261,7 +49344,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10602] = {
 		special_operation_list = "",
@@ -49269,14 +49353,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.273958333",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -49288,7 +49372,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -49935,7 +50019,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10603] = {
 		special_operation_list = "",
@@ -49943,14 +50028,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.40625",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -49962,7 +50047,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -50533,7 +50618,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10604] = {
 		special_operation_list = "",
@@ -50541,14 +50627,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.186458333",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -50560,7 +50646,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -51175,7 +51261,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10701] = {
 		special_operation_list = "",
@@ -51183,14 +51270,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.130208333",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -51202,7 +51289,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -51642,7 +51729,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10702] = {
 		special_operation_list = "",
@@ -51650,14 +51738,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.442708333",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -51669,7 +51757,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -52212,7 +52300,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10703] = {
 		special_operation_list = "",
@@ -52220,14 +52309,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.335416667",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -52239,7 +52328,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -52853,7 +52942,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10704] = {
 		special_operation_list = "",
@@ -52861,14 +52951,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.163541667",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -52880,7 +52970,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -53478,7 +53568,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10801] = {
 		special_operation_list = "",
@@ -53486,14 +53577,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.436458333",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -53505,7 +53596,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -53967,7 +54058,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10802] = {
 		special_operation_list = "",
@@ -53975,14 +54067,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.258333333",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -53994,7 +54086,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -54542,7 +54634,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10803] = {
 		special_operation_list = "",
@@ -54550,14 +54643,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.041666667",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -54569,7 +54662,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -55180,7 +55273,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10804] = {
 		special_operation_list = "",
@@ -55188,14 +55282,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.153125",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -55207,7 +55301,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -55881,7 +55975,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10901] = {
 		special_operation_list = "",
@@ -55889,14 +55984,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -55908,7 +56003,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -56464,7 +56559,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10902] = {
 		special_operation_list = "",
@@ -56472,14 +56568,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -56491,7 +56587,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -57085,7 +57181,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10903] = {
 		special_operation_list = "",
@@ -57093,14 +57190,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 0,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -57112,7 +57209,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -57730,7 +57827,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[10904] = {
 		special_operation_list = "",
@@ -57738,14 +57836,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.09375",
-		progress_boss = 20,
 		pre_chapter = 0,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -57757,7 +57855,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -58397,7 +58495,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11001] = {
 		special_operation_list = "",
@@ -58405,14 +58504,14 @@ slot0.chapter_template = {}
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -58424,7 +58523,7 @@ slot0.chapter_template = {}
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -58999,7 +59098,8 @@ slot0.chapter_template = {}
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 end)()
 (function ()
@@ -59009,14 +59109,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.234375",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -59028,7 +59128,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -59659,7 +59759,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11003] = {
 		special_operation_list = "",
@@ -59667,14 +59768,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.070833333",
-		progress_boss = 20,
 		pre_chapter = 0,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -59686,7 +59787,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -60334,7 +60435,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11004] = {
 		special_operation_list = "",
@@ -60342,14 +60444,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.378125",
-		progress_boss = 20,
 		pre_chapter = 0,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -60361,7 +60463,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -61023,7 +61125,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11101] = {
 		special_operation_list = "",
@@ -61031,14 +61134,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.388541667",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -61050,7 +61153,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -61674,7 +61777,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11102] = {
 		special_operation_list = "",
@@ -61682,14 +61786,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.091666667",
-		progress_boss = 25,
 		pre_chapter = 0,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -61701,7 +61805,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -62440,7 +62544,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11103] = {
 		special_operation_list = "",
@@ -62448,14 +62553,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.453125",
-		progress_boss = 20,
 		pre_chapter = 0,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -62467,7 +62572,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -63176,7 +63281,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[11104] = {
 		special_operation_list = "",
@@ -63184,14 +63290,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.167708333",
-		progress_boss = 20,
 		pre_chapter = 0,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -63203,7 +63309,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -64021,7 +64127,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20004] = {
 		special_operation_list = "",
@@ -64029,14 +64136,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.258333333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 3,
 		boss_refresh = 0,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -64048,7 +64155,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 3,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -64498,7 +64605,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20005] = {
 		special_operation_list = "",
@@ -64506,14 +64614,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.041666667",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 3,
 		boss_refresh = 0,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -64525,7 +64633,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 3,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -65020,7 +65128,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20006] = {
 		special_operation_list = "",
@@ -65028,14 +65137,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.153125",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 3,
 		boss_refresh = 0,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -65047,7 +65156,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 3,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -65634,7 +65743,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20010] = {
 		special_operation_list = "",
@@ -65642,14 +65752,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.258333333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 3,
 		boss_refresh = 0,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -65661,7 +65771,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 3,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -66138,7 +66248,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20011] = {
 		special_operation_list = "",
@@ -66146,14 +66257,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.041666667",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 3,
 		boss_refresh = 0,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -66165,7 +66276,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 3,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -66686,7 +66797,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[20012] = {
 		special_operation_list = "",
@@ -66694,14 +66806,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0.153125",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 3,
 		boss_refresh = 0,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -66713,7 +66825,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 3,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -67278,7 +67390,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000001] = {
 		special_operation_list = "",
@@ -67286,14 +67399,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40034,
-		chapter_tag = 0,
 		pos_y = "0.402083333",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -67305,7 +67418,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -67834,7 +67947,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000002] = {
 		special_operation_list = "",
@@ -67842,14 +67956,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40034,
-		chapter_tag = 0,
 		pos_y = "0.123958333",
-		progress_boss = 34,
 		pre_chapter = 1000001,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -67861,7 +67975,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -68530,7 +68644,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000003] = {
 		special_operation_list = "",
@@ -68538,14 +68653,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40034,
-		chapter_tag = 0,
 		pos_y = "0.379166667",
-		progress_boss = 34,
 		pre_chapter = 1000002,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -68557,7 +68672,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -69193,7 +69308,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000004] = {
 		special_operation_list = "",
@@ -69201,14 +69317,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40034,
-		chapter_tag = 0,
 		pos_y = "0.10625",
-		progress_boss = 25,
 		pre_chapter = 1000003,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -69220,7 +69336,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -69974,7 +70090,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000005] = {
 		special_operation_list = "",
@@ -69982,14 +70099,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40038,
-		chapter_tag = 0,
 		pos_y = "0.3875",
-		progress_boss = 25,
 		pre_chapter = 1000004,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -70001,7 +70118,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -70550,7 +70667,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000006] = {
 		special_operation_list = "",
@@ -70558,14 +70676,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40038,
-		chapter_tag = 0,
 		pos_y = "0.430208333",
-		progress_boss = 25,
 		pre_chapter = 1000005,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -70577,7 +70695,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -71134,7 +71252,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000007] = {
 		special_operation_list = "",
@@ -71142,14 +71261,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40038,
-		chapter_tag = 0,
 		pos_y = "0.076041667",
-		progress_boss = 20,
 		pre_chapter = 1000006,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -71161,7 +71280,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -71773,7 +71892,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000008] = {
 		special_operation_list = "",
@@ -71781,14 +71901,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40038,
-		chapter_tag = 0,
 		pos_y = "0.254166667",
-		progress_boss = 20,
 		pre_chapter = 1000007,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -71800,7 +71920,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TACT20015",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -72568,7 +72688,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000011] = {
 		special_operation_list = "",
@@ -72576,14 +72697,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40034,
-		chapter_tag = 0,
 		pos_y = "0.402083333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -72595,7 +72716,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -73165,7 +73286,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000012] = {
 		special_operation_list = "",
@@ -73173,14 +73295,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40034,
-		chapter_tag = 0,
 		pos_y = "0.123958333",
-		progress_boss = 34,
 		pre_chapter = 1000011,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -73192,7 +73314,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -73904,7 +74026,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000013] = {
 		special_operation_list = "",
@@ -73912,14 +74035,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40034,
-		chapter_tag = 0,
 		pos_y = "0.379166667",
-		progress_boss = 25,
 		pre_chapter = 1000012,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -73931,7 +74054,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -74608,7 +74731,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000014] = {
 		special_operation_list = "",
@@ -74616,14 +74740,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40034,
-		chapter_tag = 0,
 		pos_y = "0.10625",
-		progress_boss = 25,
 		pre_chapter = 1000013,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -74635,7 +74759,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -75430,7 +75554,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000015] = {
 		special_operation_list = "",
@@ -75438,14 +75563,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40038,
-		chapter_tag = 0,
 		pos_y = "0.3875",
-		progress_boss = 20,
 		pre_chapter = 1000014,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -75457,7 +75582,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -76047,7 +76172,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000016] = {
 		special_operation_list = "",
@@ -76055,14 +76181,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40038,
-		chapter_tag = 0,
 		pos_y = "0.430208333",
-		progress_boss = 20,
 		pre_chapter = 1000015,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -76074,7 +76200,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -76672,7 +76798,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000017] = {
 		special_operation_list = "",
@@ -76680,14 +76807,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40038,
-		chapter_tag = 0,
 		pos_y = "0.076041667",
-		progress_boss = 20,
 		pre_chapter = 1000016,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -76699,7 +76826,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -77352,7 +77479,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1000018] = {
 		special_operation_list = "",
@@ -77360,14 +77488,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40038,
-		chapter_tag = 0,
 		pos_y = "0.254166667",
-		progress_boss = 17,
 		pre_chapter = 1000017,
+		progress_boss = 17,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -77379,7 +77507,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TACT20015",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -78188,7 +78316,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1050011] = {
 		special_operation_list = "",
@@ -78196,14 +78325,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40088,
-		chapter_tag = 0,
 		pos_y = "0.34375",
-		progress_boss = 35,
 		pre_chapter = 0,
+		progress_boss = 35,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -78215,7 +78344,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -78791,7 +78920,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1050012] = {
 		special_operation_list = "",
@@ -78799,14 +78929,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40088,
-		chapter_tag = 0,
 		pos_y = "0.070833333",
-		progress_boss = 28,
 		pre_chapter = 1050011,
+		progress_boss = 28,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -78818,7 +78948,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "ZHUNUO5",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -79396,7 +79526,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1050013] = {
 		special_operation_list = "",
@@ -79404,14 +79535,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40088,
-		chapter_tag = 0,
 		pos_y = "0.221875",
-		progress_boss = 22,
 		pre_chapter = 1050012,
+		progress_boss = 22,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -79423,7 +79554,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "ZHUNUO8",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -80124,7 +80255,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1070201] = {
 		special_operation_list = "",
@@ -80132,14 +80264,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40134,
-		chapter_tag = 0,
 		pos_y = "0.313541667",
-		progress_boss = 35,
 		pre_chapter = 0,
+		progress_boss = 35,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -80151,7 +80283,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "WEIJIAO01",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -80710,7 +80842,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1070202] = {
 		special_operation_list = "",
@@ -80718,14 +80851,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40134,
-		chapter_tag = 0,
 		pos_y = "0.079166667",
-		progress_boss = 28,
 		pre_chapter = 1070201,
+		progress_boss = 28,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -80737,7 +80870,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "WEIJIAO04",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -81395,7 +81528,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1070203] = {
 		special_operation_list = "",
@@ -81403,14 +81537,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40134,
-		chapter_tag = 0,
 		pos_y = "0.373958333",
-		progress_boss = 22,
 		pre_chapter = 1070202,
+		progress_boss = 22,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -81422,7 +81556,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "WEIJIAO07",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -82138,7 +82272,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1090017] = {
 		special_operation_list = "",
@@ -82146,14 +82281,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 82,
-		chapter_tag = 0,
 		pos_y = "0.196875",
-		progress_boss = 100,
 		pre_chapter = 1090016,
+		progress_boss = 100,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -82165,7 +82300,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -83003,7 +83138,8 @@ end)()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100001] = {
 		special_operation_list = "",
@@ -83011,14 +83147,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40017,
-		chapter_tag = 0,
 		pos_y = "0.444791667",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -83030,7 +83166,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING3",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -83549,7 +83685,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100002] = {
 		special_operation_list = "",
@@ -83557,14 +83694,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40017,
-		chapter_tag = 0,
 		pos_y = "0.088541667",
-		progress_boss = 34,
 		pre_chapter = 1100001,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -83576,7 +83713,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING6",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -84151,7 +84288,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100003] = {
 		special_operation_list = "",
@@ -84159,14 +84297,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40017,
-		chapter_tag = 0,
 		pos_y = "0.367708333",
-		progress_boss = 34,
 		pre_chapter = 1100002,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -84178,7 +84316,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING8",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -84822,7 +84960,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100004] = {
 		special_operation_list = "",
@@ -84830,14 +84969,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40025,
-		chapter_tag = 0,
 		pos_y = "0.090625",
-		progress_boss = 25,
 		pre_chapter = 1100003,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -84849,7 +84988,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -85444,7 +85583,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100005] = {
 		special_operation_list = "",
@@ -85452,14 +85592,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40025,
-		chapter_tag = 0,
 		pos_y = "0.1125",
-		progress_boss = 25,
 		pre_chapter = 1100004,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -85471,7 +85611,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING14",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -86165,7 +86305,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100006] = {
 		special_operation_list = "",
@@ -86173,14 +86314,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40025,
-		chapter_tag = 0,
 		pos_y = "0.4",
-		progress_boss = 25,
 		pre_chapter = 1100005,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -86192,7 +86333,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING17",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -86883,7 +87024,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100011] = {
 		special_operation_list = "",
@@ -86891,14 +87033,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40017,
-		chapter_tag = 0,
 		pos_y = "0.444791667",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -86910,7 +87052,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING3",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -87472,7 +87614,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100012] = {
 		special_operation_list = "",
@@ -87480,14 +87623,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40017,
-		chapter_tag = 0,
 		pos_y = "0.088541667",
-		progress_boss = 34,
 		pre_chapter = 1100011,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -87499,7 +87642,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING6",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -88116,7 +88259,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100013] = {
 		special_operation_list = "",
@@ -88124,14 +88268,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40017,
-		chapter_tag = 0,
 		pos_y = "0.367708333",
-		progress_boss = 25,
 		pre_chapter = 1100012,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -88143,7 +88287,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING8",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -88830,7 +88974,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100014] = {
 		special_operation_list = "",
@@ -88838,14 +88983,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40025,
-		chapter_tag = 0,
 		pos_y = "0.090625",
-		progress_boss = 25,
 		pre_chapter = 1100013,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -88857,7 +89002,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -89494,7 +89639,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100015] = {
 		special_operation_list = "",
@@ -89502,14 +89648,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40025,
-		chapter_tag = 0,
 		pos_y = "0.1125",
-		progress_boss = 20,
 		pre_chapter = 1100014,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -89521,7 +89667,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING14",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -90257,7 +90403,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100016] = {
 		special_operation_list = "",
@@ -90265,14 +90412,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40025,
-		chapter_tag = 0,
 		pos_y = "0.4",
-		progress_boss = 20,
 		pre_chapter = 1100015,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -90284,7 +90431,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING17",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -91016,7 +91163,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1100020] = {
 		special_operation_list = "",
@@ -91024,14 +91172,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40025,
-		chapter_tag = 0,
 		pos_y = "0.277083333",
-		progress_boss = 20,
 		pre_chapter = 1100016,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -91043,7 +91191,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -91768,7 +91916,8 @@ end)()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120001] = {
 		special_operation_list = "",
@@ -91776,14 +91925,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.402083333",
-		progress_boss = 50,
 		pre_chapter = 201,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -91795,7 +91944,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -92324,7 +92473,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120002] = {
 		special_operation_list = "",
@@ -92332,14 +92482,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.123958333",
-		progress_boss = 34,
 		pre_chapter = 1120001,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -92351,7 +92501,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TACT20016",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -93020,7 +93170,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120003] = {
 		special_operation_list = "",
@@ -93028,14 +93179,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.379166667",
-		progress_boss = 34,
 		pre_chapter = 1120002,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -93047,7 +93198,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -93683,7 +93834,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120004] = {
 		special_operation_list = "",
@@ -93691,14 +93843,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.10625",
-		progress_boss = 25,
 		pre_chapter = 1120003,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -93710,7 +93862,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -94464,7 +94616,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120005] = {
 		special_operation_list = "",
@@ -94472,14 +94625,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.3875",
-		progress_boss = 25,
 		pre_chapter = 1120004,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -94491,7 +94644,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -95040,7 +95193,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120006] = {
 		special_operation_list = "",
@@ -95048,14 +95202,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.430208333",
-		progress_boss = 25,
 		pre_chapter = 1120005,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -95067,7 +95221,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -95624,7 +95778,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120007] = {
 		special_operation_list = "",
@@ -95632,14 +95787,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.076041667",
-		progress_boss = 20,
 		pre_chapter = 1120006,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -95651,7 +95806,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -96263,7 +96418,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120008] = {
 		special_operation_list = "",
@@ -96271,14 +96427,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.254166667",
-		progress_boss = 20,
 		pre_chapter = 1120007,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -96290,7 +96446,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TACT20015",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -97058,7 +97214,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120011] = {
 		special_operation_list = "",
@@ -97066,14 +97223,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.402083333",
-		progress_boss = 34,
 		pre_chapter = 201,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -97085,7 +97242,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -97655,7 +97812,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120012] = {
 		special_operation_list = "",
@@ -97663,14 +97821,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.123958333",
-		progress_boss = 34,
 		pre_chapter = 1120011,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -97682,7 +97840,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TACT20016",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -98394,7 +98552,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120013] = {
 		special_operation_list = "",
@@ -98402,14 +98561,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.379166667",
-		progress_boss = 25,
 		pre_chapter = 1120012,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -98421,7 +98580,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -99098,7 +99257,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120014] = {
 		special_operation_list = "",
@@ -99106,14 +99266,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.10625",
-		progress_boss = 25,
 		pre_chapter = 1120013,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -99125,7 +99285,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -99920,7 +100080,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120015] = {
 		special_operation_list = "",
@@ -99928,14 +100089,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.3875",
-		progress_boss = 20,
 		pre_chapter = 1120014,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -99947,7 +100108,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -100537,7 +100698,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120016] = {
 		special_operation_list = "",
@@ -100545,14 +100707,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.430208333",
-		progress_boss = 20,
 		pre_chapter = 1120015,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -100564,7 +100726,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -101162,7 +101324,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120017] = {
 		special_operation_list = "",
@@ -101170,14 +101333,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.076041667",
-		progress_boss = 20,
 		pre_chapter = 1120016,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -101189,7 +101352,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -101842,7 +102005,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120018] = {
 		special_operation_list = "",
@@ -101850,14 +102014,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.254166667",
-		progress_boss = 17,
 		pre_chapter = 1120017,
+		progress_boss = 17,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -101869,7 +102033,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TACT20015",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -102678,7 +102842,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1120021] = {
 		special_operation_list = "",
@@ -102686,14 +102851,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40147,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1120018,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -102705,7 +102870,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -103108,7 +103273,8 @@ end)()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1130101] = {
 		special_operation_list = "",
@@ -103116,14 +103282,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40162,
-		chapter_tag = 0,
 		pos_y = "0.34375",
-		progress_boss = 35,
 		pre_chapter = 201,
+		progress_boss = 35,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -103135,7 +103301,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TACT50000",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -103621,7 +103787,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1130102] = {
 		special_operation_list = "",
@@ -103629,14 +103796,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40162,
-		chapter_tag = 0,
 		pos_y = "0.070833333",
-		progress_boss = 28,
 		pre_chapter = 1130101,
+		progress_boss = 28,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -103648,7 +103815,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TACT50003",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -104195,7 +104362,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1130103] = {
 		special_operation_list = "",
@@ -104203,14 +104371,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40162,
-		chapter_tag = 0,
 		pos_y = "0.221875",
-		progress_boss = 22,
 		pre_chapter = 1130102,
+		progress_boss = 22,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -104222,7 +104390,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TACT50006",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -104807,7 +104975,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150001] = {
 		special_operation_list = "",
@@ -104815,14 +104984,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40078,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -104834,7 +105003,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -105395,7 +105564,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150002] = {
 		special_operation_list = "",
@@ -105403,14 +105573,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40078,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 50,
 		pre_chapter = 1150001,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -105422,7 +105592,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO04",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -106044,7 +106214,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150003] = {
 		special_operation_list = "",
@@ -106052,14 +106223,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40078,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 1150002,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -106071,7 +106242,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO06",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -106784,7 +106955,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150004] = {
 		special_operation_list = "",
@@ -106792,14 +106964,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40079,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1150003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -106811,7 +106983,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO09",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -107462,7 +107634,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150005] = {
 		special_operation_list = "",
@@ -107470,14 +107643,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40079,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 25,
 		pre_chapter = 1150004,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -107489,7 +107662,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO10",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -108281,7 +108454,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150006] = {
 		special_operation_list = "",
@@ -108289,14 +108463,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40079,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 1150005,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -108308,7 +108482,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -109279,7 +109453,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150011] = {
 		special_operation_list = "",
@@ -109287,14 +109462,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40078,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -109306,7 +109481,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -109908,7 +110083,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150012] = {
 		special_operation_list = "",
@@ -109916,14 +110092,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40078,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 50,
 		pre_chapter = 1150011,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -109935,7 +110111,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO04",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -110598,7 +110774,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150013] = {
 		special_operation_list = "",
@@ -110606,14 +110783,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40078,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 1150012,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -110625,7 +110802,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO06",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -111379,7 +111556,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150014] = {
 		special_operation_list = "",
@@ -111387,14 +111565,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40079,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1150013,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -111406,7 +111584,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO09",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -112098,7 +112276,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150015] = {
 		special_operation_list = "",
@@ -112106,14 +112285,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40079,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 20,
 		pre_chapter = 1150014,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -112125,7 +112304,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO10",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -112958,7 +113137,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1150016] = {
 		special_operation_list = "",
@@ -112966,14 +113146,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40079,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 20,
 		pre_chapter = 1150015,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -112985,7 +113165,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -113997,7 +114177,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180001] = {
 		special_operation_list = "",
@@ -114005,14 +114186,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40142,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -114024,7 +114205,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIANCHENGHUODONG2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -114595,7 +114776,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180002] = {
 		special_operation_list = "",
@@ -114603,14 +114785,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40142,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1180001,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -114622,7 +114804,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -115164,7 +115346,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180003] = {
 		special_operation_list = "",
@@ -115172,14 +115355,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40142,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 1180002,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -115191,7 +115374,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIANCHENGHUODONG7",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -115829,7 +116012,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180004] = {
 		special_operation_list = "",
@@ -115837,14 +116021,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40143,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1180003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -115856,7 +116040,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIANCHENGHUODONG11",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -116496,7 +116680,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180005] = {
 		special_operation_list = "",
@@ -116504,14 +116689,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40143,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 25,
 		pre_chapter = 1180004,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -116523,7 +116708,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIANCHENGHUODONG13",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -117206,7 +117391,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180006] = {
 		special_operation_list = "",
@@ -117214,14 +117400,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40143,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 1180005,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -117233,7 +117419,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIANCHENGHUODONG16",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -117890,7 +118076,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180011] = {
 		special_operation_list = "",
@@ -117898,14 +118085,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40142,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -117917,7 +118104,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIANCHENGHUODONG2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -118530,7 +118717,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180012] = {
 		special_operation_list = "",
@@ -118538,14 +118726,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40142,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1180011,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -118557,7 +118745,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -119141,7 +119329,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180013] = {
 		special_operation_list = "",
@@ -119149,14 +119338,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40142,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 25,
 		pre_chapter = 1180012,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -119168,7 +119357,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIANCHENGHUODONG7",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -119848,7 +120037,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180014] = {
 		special_operation_list = "",
@@ -119856,14 +120046,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40143,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1180013,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -119875,7 +120065,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIANCHENGHUODONG11",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -120557,7 +120747,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180015] = {
 		special_operation_list = "",
@@ -120565,14 +120756,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40143,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 20,
 		pre_chapter = 1180014,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -120584,7 +120775,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIANCHENGHUODONG13",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -121311,7 +121502,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180016] = {
 		special_operation_list = "",
@@ -121319,14 +121511,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40143,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 20,
 		pre_chapter = 1180015,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -121338,7 +121530,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIANCHENGHUODONG16",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -122039,7 +122231,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1180021] = {
 		special_operation_list = "",
@@ -122047,14 +122240,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40143,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -122066,7 +122259,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -122450,7 +122643,8 @@ end)()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190001] = {
 		special_operation_list = "",
@@ -122458,14 +122652,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40092,
-		chapter_tag = 0,
 		pos_y = "0.361458333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -122477,7 +122671,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG02",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -122948,7 +123142,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190002] = {
 		special_operation_list = "",
@@ -122956,14 +123151,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40092,
-		chapter_tag = 0,
 		pos_y = "0.111458333",
-		progress_boss = 50,
 		pre_chapter = 1190001,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -122975,7 +123170,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG04",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -123508,7 +123703,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190003] = {
 		special_operation_list = "",
@@ -123516,14 +123712,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40092,
-		chapter_tag = 0,
 		pos_y = "0.3446875",
-		progress_boss = 34,
 		pre_chapter = 1190002,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -123535,7 +123731,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG07",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -124158,7 +124354,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190004] = {
 		special_operation_list = "",
@@ -124166,14 +124363,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40093,
-		chapter_tag = 0,
 		pos_y = "0.15",
-		progress_boss = 25,
 		pre_chapter = 1190003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -124185,7 +124382,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -124831,7 +125028,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190005] = {
 		special_operation_list = "",
@@ -124839,14 +125037,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40093,
-		chapter_tag = 0,
 		pos_y = "0.073958",
-		progress_boss = 25,
 		pre_chapter = 1190004,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -124858,7 +125056,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG13",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -125522,7 +125720,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190006] = {
 		special_operation_list = "",
@@ -125530,14 +125729,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40093,
-		chapter_tag = 0,
 		pos_y = "0.347395833",
-		progress_boss = 25,
 		pre_chapter = 1190005,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -125549,7 +125748,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG17",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -126388,7 +126587,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 end)()
 (function ()
@@ -126398,14 +126598,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40092,
-		chapter_tag = 0,
 		pos_y = "0.361458333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -126417,7 +126617,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG02",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -126929,7 +127129,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190012] = {
 		special_operation_list = "",
@@ -126937,14 +127138,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40092,
-		chapter_tag = 0,
 		pos_y = "0.111458333",
-		progress_boss = 50,
 		pre_chapter = 1190011,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -126956,7 +127157,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG04",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -127530,7 +127731,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190013] = {
 		special_operation_list = "",
@@ -127538,14 +127740,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40092,
-		chapter_tag = 0,
 		pos_y = "0.3446875",
-		progress_boss = 34,
 		pre_chapter = 1190012,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -127557,7 +127759,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG07",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -128221,7 +128423,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190014] = {
 		special_operation_list = "",
@@ -128229,14 +128432,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40093,
-		chapter_tag = 0,
 		pos_y = "0.15",
-		progress_boss = 25,
 		pre_chapter = 1190013,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -128248,7 +128451,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -128935,7 +129138,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190015] = {
 		special_operation_list = "",
@@ -128943,14 +129147,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40093,
-		chapter_tag = 0,
 		pos_y = "0.073958",
-		progress_boss = 20,
 		pre_chapter = 1190014,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -128962,7 +129166,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG13",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -129667,7 +129871,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190016] = {
 		special_operation_list = "",
@@ -129675,14 +129880,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40093,
-		chapter_tag = 0,
 		pos_y = "0.347395833",
-		progress_boss = 20,
 		pre_chapter = 1190015,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -129694,7 +129899,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG17",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -130574,7 +130779,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1190017] = {
 		special_operation_list = "",
@@ -130582,14 +130788,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40093,
-		chapter_tag = 0,
 		pos_y = "0.196875",
-		progress_boss = 100,
 		pre_chapter = 1190016,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -130601,7 +130807,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -131160,7 +131366,8 @@ end)()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1200001] = {
 		special_operation_list = "",
@@ -131168,14 +131375,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40356,
-		chapter_tag = 0,
 		pos_y = "0.402083333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 0,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -131187,7 +131394,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "NAERWEIKE1",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -131751,7 +131958,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1200002] = {
 		special_operation_list = "",
@@ -131759,14 +131967,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40356,
-		chapter_tag = 0,
 		pos_y = "0.123958333",
-		progress_boss = 35,
 		pre_chapter = 1200001,
+		progress_boss = 35,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -131778,7 +131986,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "NAERWEIKE3",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -132491,7 +132699,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1200003] = {
 		special_operation_list = "",
@@ -132499,14 +132708,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40356,
-		chapter_tag = 0,
 		pos_y = "0.379166667",
-		progress_boss = 28,
 		pre_chapter = 1200002,
+		progress_boss = 28,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -132518,7 +132727,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "NAERWEIKE6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -133247,7 +133456,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1200004] = {
 		special_operation_list = "",
@@ -133255,14 +133465,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40356,
-		chapter_tag = 0,
 		pos_y = "0.10625",
-		progress_boss = 22,
 		pre_chapter = 1200003,
+		progress_boss = 22,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -133274,7 +133484,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "NAERWEIKE9",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -133995,7 +134205,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210001] = {
 		special_operation_list = "",
@@ -134003,14 +134214,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40112,
-		chapter_tag = 0,
 		pos_y = "0.375",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -134022,7 +134233,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -134598,7 +134809,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210002] = {
 		special_operation_list = "",
@@ -134606,14 +134818,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40112,
-		chapter_tag = 0,
 		pos_y = "0.151041667",
-		progress_boss = 34,
 		pre_chapter = 1210001,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -134625,7 +134837,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA4",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -135166,7 +135378,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210003] = {
 		special_operation_list = "",
@@ -135174,14 +135387,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40112,
-		chapter_tag = 0,
 		pos_y = "0.09583",
-		progress_boss = 34,
 		pre_chapter = 1210002,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -135193,7 +135406,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA5",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -135832,7 +136045,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210004] = {
 		special_operation_list = "",
@@ -135840,14 +136054,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40112,
-		chapter_tag = 0,
 		pos_y = "0.334375",
-		progress_boss = 25,
 		pre_chapter = 1210003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -135859,7 +136073,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -136496,7 +136710,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210005] = {
 		special_operation_list = "",
@@ -136504,14 +136719,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40113,
-		chapter_tag = 0,
 		pos_y = "0.175",
-		progress_boss = 25,
 		pre_chapter = 1210004,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -136523,7 +136738,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA10",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -137211,7 +137426,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210006] = {
 		special_operation_list = "",
@@ -137219,14 +137435,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40113,
-		chapter_tag = 0,
 		pos_y = "0.255208333",
-		progress_boss = 25,
 		pre_chapter = 1210005,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -137238,7 +137454,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA13",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -137986,7 +138202,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210011] = {
 		special_operation_list = "",
@@ -137994,14 +138211,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40112,
-		chapter_tag = 0,
 		pos_y = "0.375",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -138013,7 +138230,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -138631,7 +138848,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210012] = {
 		special_operation_list = "",
@@ -138639,14 +138857,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40112,
-		chapter_tag = 0,
 		pos_y = "0.151041667",
-		progress_boss = 34,
 		pre_chapter = 1210011,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -138658,7 +138876,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA4",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -139241,7 +139459,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210013] = {
 		special_operation_list = "",
@@ -139249,14 +139468,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40112,
-		chapter_tag = 0,
 		pos_y = "0.09583",
-		progress_boss = 25,
 		pre_chapter = 1210012,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -139268,7 +139487,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA5",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -139949,7 +140168,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210014] = {
 		special_operation_list = "",
@@ -139957,14 +140177,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40112,
-		chapter_tag = 0,
 		pos_y = "0.334375",
-		progress_boss = 25,
 		pre_chapter = 1210013,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -139976,7 +140196,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -140655,7 +140875,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210015] = {
 		special_operation_list = "",
@@ -140663,14 +140884,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40113,
-		chapter_tag = 0,
 		pos_y = "0.175",
-		progress_boss = 20,
 		pre_chapter = 1210014,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -140682,7 +140903,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA10",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -141414,7 +141635,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210016] = {
 		special_operation_list = "",
@@ -141422,14 +141644,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40113,
-		chapter_tag = 0,
 		pos_y = "0.255208333",
-		progress_boss = 20,
 		pre_chapter = 1210015,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -141441,7 +141663,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA13",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -142233,7 +142455,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1210021] = {
 		special_operation_list = "",
@@ -142241,14 +142464,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40113,
-		chapter_tag = 0,
 		pos_y = "0.277083333",
-		progress_boss = 20,
 		pre_chapter = 0,
+		progress_boss = 20,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -142260,7 +142483,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -142648,7 +142871,8 @@ end)()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230001] = {
 		special_operation_list = "",
@@ -142656,14 +142880,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45004,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -142675,7 +142899,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -143217,7 +143441,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230002] = {
 		special_operation_list = "",
@@ -143225,14 +143450,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45004,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1230001,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -143244,7 +143469,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU5",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -143788,7 +144013,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230003] = {
 		special_operation_list = "",
@@ -143796,14 +144022,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45004,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 1230002,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -143815,7 +144041,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU8",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -144444,7 +144670,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230004] = {
 		special_operation_list = "",
@@ -144452,14 +144679,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45005,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1230003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -144471,7 +144698,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU11",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -145109,7 +145336,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230005] = {
 		special_operation_list = "",
@@ -145117,14 +145345,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45005,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 25,
 		pre_chapter = 1230004,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -145136,7 +145364,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU14",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -145817,7 +146045,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230006] = {
 		special_operation_list = "",
@@ -145825,14 +146054,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45005,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 1230005,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -145844,7 +146073,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU16",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -146497,7 +146726,8 @@ end)()
 		chapter_buff = {
 			9500
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230011] = {
 		special_operation_list = "",
@@ -146505,14 +146735,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45004,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -146524,7 +146754,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -147108,7 +147338,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230012] = {
 		special_operation_list = "",
@@ -147116,14 +147347,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45004,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1230011,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -147135,7 +147366,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU5",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -147721,7 +147952,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230013] = {
 		special_operation_list = "",
@@ -147729,14 +147961,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45004,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 25,
 		pre_chapter = 1230012,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -147748,7 +147980,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU8",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -148419,7 +148651,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230014] = {
 		special_operation_list = "",
@@ -148427,14 +148660,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45005,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 1230013,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -148446,7 +148679,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU11",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -149126,7 +149359,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230015] = {
 		special_operation_list = "",
@@ -149134,14 +149368,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45005,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 20,
 		pre_chapter = 1230014,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -149153,7 +149387,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU14",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -149878,7 +150112,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230016] = {
 		special_operation_list = "",
@@ -149886,14 +150121,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45005,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 1230015,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -149905,7 +150140,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "TIEXUEYUYINFU16",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -150602,7 +150837,8 @@ end)()
 		chapter_buff = {
 			9500
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230017] = {
 		special_operation_list = "",
@@ -150610,14 +150846,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 45005,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 20,
 		pre_chapter = 1230016,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 7,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -150629,7 +150865,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -151274,7 +151510,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1230021] = {
 		special_operation_list = "",
@@ -151282,14 +151519,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 45005,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 20,
 		pre_chapter = 1230016,
+		progress_boss = 20,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -151301,7 +151538,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -151682,7 +151919,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250001] = {
 		special_operation_list = "",
@@ -151690,14 +151928,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 340,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 10,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -151709,7 +151947,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA2",
-		model = 10,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_gangqu",
@@ -152268,7 +152506,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250002] = {
 		special_operation_list = "",
@@ -152276,14 +152515,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 340,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1250007,
+		progress_boss = 34,
+		model = 10,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -152295,7 +152534,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA8",
-		model = 10,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_gangqu",
@@ -152902,7 +153141,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250003] = {
 		special_operation_list = "",
@@ -152910,14 +153150,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 340,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 1250008,
+		progress_boss = 34,
+		model = 10,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -152929,7 +153169,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA14",
-		model = 10,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_gangqu",
@@ -153633,7 +153873,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250004] = {
 		special_operation_list = "",
@@ -153641,14 +153882,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1250003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -153660,7 +153901,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA17",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -154257,7 +154498,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250005] = {
 		special_operation_list = "",
@@ -154265,14 +154507,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 25,
 		pre_chapter = 1250009,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -154284,7 +154526,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA22",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -154924,7 +155166,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250006] = {
 		special_operation_list = "",
@@ -154932,14 +155175,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 1250010,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -154951,7 +155194,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA27",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -155563,7 +155806,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250007] = {
 		special_operation_list = "",
@@ -155571,14 +155815,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 340,
-		chapter_tag = 1,
 		pos_y = "0.052083333",
-		progress_boss = 100,
 		pre_chapter = 1250001,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -155590,7 +155834,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -156102,7 +156346,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250008] = {
 		special_operation_list = "",
@@ -156110,14 +156355,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 340,
-		chapter_tag = 1,
 		pos_y = "0.344791667",
-		progress_boss = 100,
 		pre_chapter = 1250002,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -156129,7 +156374,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA12",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -156697,7 +156942,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250009] = {
 		special_operation_list = "",
@@ -156705,14 +156951,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 1,
 		pos_y = "0.052083333",
-		progress_boss = 100,
 		pre_chapter = 1250004,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -156724,7 +156970,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA20",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -157285,7 +157531,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250010] = {
 		special_operation_list = "",
@@ -157293,14 +157540,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 1,
 		pos_y = "0.383333333",
-		progress_boss = 100,
 		pre_chapter = 1250005,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -157312,7 +157559,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA25",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -157930,7 +158177,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250011] = {
 		special_operation_list = "",
@@ -157938,14 +158186,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 340,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 10,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -157957,7 +158205,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA2",
-		model = 10,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_gangqu",
@@ -158558,7 +158806,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250012] = {
 		special_operation_list = "",
@@ -158566,14 +158815,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 340,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1250022,
+		progress_boss = 34,
+		model = 10,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -158585,7 +158834,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA8",
-		model = 10,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_gangqu",
@@ -159234,7 +159483,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250013] = {
 		special_operation_list = "",
@@ -159242,14 +159492,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 340,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 25,
 		pre_chapter = 1250023,
+		progress_boss = 25,
+		model = 10,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -159261,7 +159511,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA14",
-		model = 10,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_gangqu",
@@ -160002,7 +160252,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250014] = {
 		special_operation_list = "",
@@ -160010,14 +160261,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 1250013,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -160029,7 +160280,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA17",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -160668,7 +160919,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250015] = {
 		special_operation_list = "",
@@ -160676,14 +160928,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 20,
 		pre_chapter = 1250024,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -160695,7 +160947,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA22",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -161379,7 +161631,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250016] = {
 		special_operation_list = "",
@@ -161387,14 +161640,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 1250025,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -161406,7 +161659,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA27",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -162062,7 +162315,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250017] = {
 		special_operation_list = "",
@@ -162070,14 +162324,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 20,
 		pre_chapter = 1250016,
+		progress_boss = 20,
+		model = 10,
 		boss_refresh = 0,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -162089,7 +162343,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 10,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_gangqu",
@@ -162927,7 +163181,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250021] = {
 		special_operation_list = "",
@@ -162935,14 +163190,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 20,
 		pre_chapter = 1250016,
+		progress_boss = 20,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -162954,7 +163209,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -163335,7 +163590,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250022] = {
 		special_operation_list = "",
@@ -163343,14 +163599,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 340,
-		chapter_tag = 1,
 		pos_y = "0.052083333",
-		progress_boss = 100,
 		pre_chapter = 1250011,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -163362,7 +163618,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -163916,7 +164172,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250023] = {
 		special_operation_list = "",
@@ -163924,14 +164181,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 340,
-		chapter_tag = 1,
 		pos_y = "0.344791667",
-		progress_boss = 100,
 		pre_chapter = 1250012,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -163943,7 +164200,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA12",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -164553,7 +164810,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250024] = {
 		special_operation_list = "",
@@ -164561,14 +164819,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 1,
 		pos_y = "0.122916667",
-		progress_boss = 100,
 		pre_chapter = 1250014,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -164580,7 +164838,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA20",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -165183,7 +165441,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250025] = {
 		special_operation_list = "",
@@ -165191,14 +165450,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 341,
-		chapter_tag = 1,
 		pos_y = "0.35625",
-		progress_boss = 100,
 		pre_chapter = 1250015,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -165210,7 +165469,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "XIANGTINGLIAOFA25",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -165872,7 +166131,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250031] = {
 		special_operation_list = "",
@@ -165880,14 +166140,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 3,
 		boss_refresh = 0,
 		is_limit_move = 1,
 		oil = 0,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -165899,7 +166159,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FENGBAOQIANXI2",
-		model = 3,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -166444,7 +166704,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250032] = {
 		special_operation_list = "",
@@ -166452,14 +166713,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 0,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -166471,7 +166732,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FENGBAOQIANXI4",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -166985,7 +167246,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250033] = {
 		special_operation_list = "",
@@ -166993,14 +167255,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 0,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -167012,7 +167274,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -167533,7 +167795,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1250034] = {
 		special_operation_list = "",
@@ -167541,14 +167804,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		chapter_tag = 0,
 		pos_y = "0",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 0,
 		is_limit_move = 1,
 		oil = 0,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -167560,7 +167823,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FENGBAOQIANXI8",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -168169,7 +168432,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260001] = {
 		special_operation_list = "",
@@ -168177,14 +168441,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40180,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -168196,7 +168460,7 @@ end)()
 		bg = "Map_1240002",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -168744,7 +169008,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260002] = {
 		special_operation_list = "",
@@ -168752,14 +169017,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40180,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1260004,
+		progress_boss = 34,
+		model = 10,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -168771,7 +169036,7 @@ end)()
 		bg = "Map_1240002",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU6",
-		model = 10,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_gangqu",
@@ -169339,7 +169604,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260003] = {
 		special_operation_list = "",
@@ -169347,14 +169613,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40180,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 1260005,
+		progress_boss = 34,
+		model = 10,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -169366,7 +169632,7 @@ end)()
 		bg = "Map_1240002",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU10",
-		model = 10,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_gangqu",
@@ -170028,7 +170294,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260004] = {
 		special_operation_list = "",
@@ -170036,14 +170303,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40180,
-		chapter_tag = 1,
 		pos_y = "0.052083333",
-		progress_boss = 100,
 		pre_chapter = 1260001,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -170055,7 +170322,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU4",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -170567,7 +170834,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260005] = {
 		special_operation_list = "",
@@ -170575,14 +170843,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40180,
-		chapter_tag = 1,
 		pos_y = "0.344791667",
-		progress_boss = 100,
 		pre_chapter = 1260002,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -170594,7 +170862,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU8",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -171161,7 +171429,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260006] = {
 		special_operation_list = "",
@@ -171169,14 +171438,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40181,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1260003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -171188,7 +171457,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU14",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -171766,7 +172035,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260007] = {
 		special_operation_list = "",
@@ -171774,14 +172044,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40181,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 25,
 		pre_chapter = 1260006,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -171793,7 +172063,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU17",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -172413,7 +172683,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260008] = {
 		special_operation_list = "",
@@ -172421,14 +172692,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40181,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 1260007,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -172440,7 +172711,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU19",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -173026,7 +173297,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260021] = {
 		special_operation_list = "",
@@ -173034,14 +173306,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40180,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -173053,7 +173325,7 @@ end)()
 		bg = "Map_1240004",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -173643,7 +173915,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260022] = {
 		special_operation_list = "",
@@ -173651,14 +173924,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40180,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1260024,
+		progress_boss = 34,
+		model = 10,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -173670,7 +173943,7 @@ end)()
 		bg = "Map_1240004",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU6",
-		model = 10,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_gangqu",
@@ -174278,7 +174551,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260023] = {
 		special_operation_list = "",
@@ -174286,14 +174560,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40180,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 25,
 		pre_chapter = 1260025,
+		progress_boss = 25,
+		model = 10,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -174305,7 +174579,7 @@ end)()
 		bg = "Map_1240004",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU10",
-		model = 10,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_gangqu",
@@ -175008,7 +175282,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260024] = {
 		special_operation_list = "",
@@ -175016,14 +175291,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40180,
-		chapter_tag = 1,
 		pos_y = "0.052083333",
-		progress_boss = 100,
 		pre_chapter = 1260021,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -175035,7 +175310,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU4",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -175589,7 +175864,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260025] = {
 		special_operation_list = "",
@@ -175597,14 +175873,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40180,
-		chapter_tag = 1,
 		pos_y = "0.344791667",
-		progress_boss = 100,
 		pre_chapter = 1260022,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 1,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -175616,7 +175892,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU8",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -176226,7 +176502,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260026] = {
 		special_operation_list = "",
@@ -176234,14 +176511,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40181,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 1260023,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -176253,7 +176530,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU14",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -176872,7 +177149,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260027] = {
 		special_operation_list = "",
@@ -176880,14 +177158,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40181,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 20,
 		pre_chapter = 1260026,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -176899,7 +177177,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU17",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -177563,7 +177841,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260028] = {
 		special_operation_list = "",
@@ -177571,14 +177850,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40181,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 1260027,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -177590,7 +177869,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "SHENSHENGDEBEIXIJU19",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -178219,7 +178498,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260031] = {
 		special_operation_list = "",
@@ -178227,14 +178507,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 40181,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1260028,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 7,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -178246,7 +178526,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -178891,7 +179171,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1260041] = {
 		special_operation_list = "",
@@ -178899,14 +179180,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40181,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1260028,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -178918,7 +179199,7 @@ end)()
 		bg = "",
 		bgm = "Battle-italy",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -179296,7 +179577,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1270001] = {
 		special_operation_list = "",
@@ -179304,14 +179586,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40381,
-		chapter_tag = 0,
 		pos_y = "0.373958333",
-		progress_boss = 35,
 		pre_chapter = 0,
+		progress_boss = 35,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -179323,7 +179605,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -179869,7 +180151,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1270002] = {
 		special_operation_list = "",
@@ -179877,14 +180160,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40381,
-		chapter_tag = 0,
 		pos_y = "0.079166667",
-		progress_boss = 28,
 		pre_chapter = 1270001,
+		progress_boss = 28,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -179896,7 +180179,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "ZUIZHENGUIDEBAOWU3",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -180543,7 +180826,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1270003] = {
 		special_operation_list = "",
@@ -180551,14 +180835,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40381,
-		chapter_tag = 0,
 		pos_y = "0.313541667",
-		progress_boss = 22,
 		pre_chapter = 1270002,
+		progress_boss = 22,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -180570,7 +180854,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "ZUIZHENGUIDEBAOWU6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -181183,7 +181467,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1280001] = {
 		special_operation_list = "",
@@ -181191,14 +181476,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40269,
-		chapter_tag = 0,
 		pos_y = "0.410208333",
-		progress_boss = 35,
 		pre_chapter = 0,
+		progress_boss = 35,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 1,
 		activate_time = 0,
@@ -181209,7 +181494,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "OUXIANGHUODONG2",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -181783,7 +182068,8 @@ end)()
 		chapter_buff = {
 			8650
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1280002] = {
 		special_operation_list = "",
@@ -181791,14 +182077,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40269,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 35,
 		pre_chapter = 1280001,
+		progress_boss = 35,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 1,
 		activate_time = 0,
@@ -181809,7 +182095,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "OUXIANGHUODONG6",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -182473,7 +182759,8 @@ end)()
 		chapter_buff = {
 			8650
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1280003] = {
 		special_operation_list = "",
@@ -182481,14 +182768,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40269,
-		chapter_tag = 0,
 		pos_y = "0.081166667",
-		progress_boss = 28,
 		pre_chapter = 1280002,
+		progress_boss = 28,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 1,
 		activate_time = 0,
@@ -182499,7 +182786,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "OUXIANGHUODONG10",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -183167,7 +183454,8 @@ end)()
 		chapter_buff = {
 			8650
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1280004] = {
 		special_operation_list = "",
@@ -183175,14 +183463,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40269,
-		chapter_tag = 0,
 		pos_y = "0.079166667",
-		progress_boss = 28,
 		pre_chapter = 1280003,
+		progress_boss = 28,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 1,
 		activate_time = 0,
@@ -183193,7 +183481,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "OUXIANGHUODONG15",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -183859,7 +184147,8 @@ end)()
 		chapter_buff = {
 			8650
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1280005] = {
 		special_operation_list = "",
@@ -183867,14 +184156,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40269,
-		chapter_tag = 0,
 		pos_y = "0.2579",
-		progress_boss = 22,
 		pre_chapter = 1280004,
+		progress_boss = 22,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 1,
 		activate_time = 0,
@@ -183885,7 +184174,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "OUXIANGHUODONG19",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -184551,7 +184840,8 @@ end)()
 		chapter_buff = {
 			8650
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1280031] = {
 		special_operation_list = "",
@@ -184559,14 +184849,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 40269,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1280005,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 7,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -184577,7 +184867,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
@@ -185258,7 +185548,8 @@ end)()
 		chapter_buff = {
 			8650
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1280041] = {
 		special_operation_list = "",
@@ -185266,14 +185557,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40269,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1280005,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -185284,7 +185575,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		event_skip = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
@@ -185677,7 +185968,8 @@ end)()
 		chapter_buff = {
 			8650
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300001] = {
 		special_operation_list = "",
@@ -185685,14 +185977,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40203,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -185704,7 +185996,7 @@ end)()
 		bg = "",
 		bgm = "story-4",
 		enter_story = "FUYINGYINGHUA2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -186248,7 +186540,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300002] = {
 		special_operation_list = "",
@@ -186256,14 +186549,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40203,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1300001,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -186275,7 +186568,7 @@ end)()
 		bg = "",
 		bgm = "nagato-map",
 		enter_story = "FUYINGYINGHUA5",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -186836,7 +187129,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300003] = {
 		special_operation_list = "",
@@ -186844,14 +187138,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40203,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 1300002,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -186863,7 +187157,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-1",
 		enter_story = "FUYINGYINGHUA9",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -187447,7 +187741,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300004] = {
 		special_operation_list = "",
@@ -187455,14 +187750,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40204,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1300003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -187474,7 +187769,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-2",
 		enter_story = "FUYINGYINGHUA14",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -188074,7 +188369,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300005] = {
 		special_operation_list = "",
@@ -188082,14 +188378,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40204,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 25,
 		pre_chapter = 1300004,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -188101,7 +188397,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-2",
 		enter_story = "FUYINGYINGHUA19",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -188747,7 +189043,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300006] = {
 		special_operation_list = "",
@@ -188755,14 +189052,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40204,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 1300005,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -188774,7 +189071,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-2",
 		enter_story = "FUYINGYINGHUA22",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -189383,7 +189680,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300021] = {
 		special_operation_list = "",
@@ -189391,14 +189689,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40203,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -189410,7 +189708,7 @@ end)()
 		bg = "",
 		bgm = "story-4",
 		enter_story = "FUYINGYINGHUA2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -189996,7 +190294,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300022] = {
 		special_operation_list = "",
@@ -190004,14 +190303,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40203,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1300021,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -190023,7 +190322,7 @@ end)()
 		bg = "",
 		bgm = "nagato-map",
 		enter_story = "FUYINGYINGHUA5",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -190627,7 +190926,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 end)()
 (function ()
@@ -190637,14 +190937,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40203,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 25,
 		pre_chapter = 1300022,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -190656,7 +190956,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-1",
 		enter_story = "FUYINGYINGHUA9",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -191283,7 +191583,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300024] = {
 		special_operation_list = "",
@@ -191291,14 +191592,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40204,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 1300023,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -191310,7 +191611,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-2",
 		enter_story = "FUYINGYINGHUA14",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -191952,7 +192253,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300025] = {
 		special_operation_list = "",
@@ -191960,14 +192262,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40204,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 20,
 		pre_chapter = 1300024,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -191979,7 +192281,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-2",
 		enter_story = "FUYINGYINGHUA19",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -192669,7 +192971,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300026] = {
 		special_operation_list = "",
@@ -192677,14 +192980,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40204,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 1300025,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -192696,7 +192999,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-2",
 		enter_story = "FUYINGYINGHUA22",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -193349,7 +193652,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300041] = {
 		special_operation_list = "",
@@ -193357,14 +193661,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 40204,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1300026,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 7,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -193376,7 +193680,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-1",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -194043,7 +194347,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1300051] = {
 		special_operation_list = "",
@@ -194051,14 +194356,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40204,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1300026,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -194070,7 +194375,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-2",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -194447,7 +194752,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310001] = {
 		special_operation_list = "",
@@ -194455,14 +194761,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40254,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -194474,7 +194780,7 @@ end)()
 		bg = "",
 		bgm = "bgm-cccp2",
 		enter_story = "MAOZIHUODONG2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -195035,7 +195341,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310002] = {
 		special_operation_list = "",
@@ -195043,14 +195350,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40254,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1310001,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -195062,7 +195369,7 @@ end)()
 		bg = "",
 		bgm = "bgm-cccp2",
 		enter_story = "MAOZIHUODONG6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -195608,7 +195915,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310003] = {
 		special_operation_list = "",
@@ -195616,14 +195924,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40254,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 1310002,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -195635,7 +195943,7 @@ end)()
 		bg = "",
 		bgm = "bgm-cccp2",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -196226,7 +196534,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310004] = {
 		special_operation_list = "",
@@ -196234,14 +196543,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40255,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1310003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -196253,7 +196562,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-3",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -196857,7 +197166,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310005] = {
 		special_operation_list = "",
@@ -196865,14 +197175,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40255,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 25,
 		pre_chapter = 1310004,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -196884,7 +197194,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-3",
 		enter_story = "MAOZIHUODONG18",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -197436,7 +197746,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310006] = {
 		special_operation_list = "",
@@ -197444,14 +197755,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40255,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 1310005,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -197463,7 +197774,7 @@ end)()
 		bg = "",
 		bgm = "bgm-cccp",
 		enter_story = "MAOZIHUODONG23",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -198078,7 +198389,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310021] = {
 		special_operation_list = "",
@@ -198086,14 +198398,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40254,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -198105,7 +198417,7 @@ end)()
 		bg = "",
 		bgm = "bgm-cccp2",
 		enter_story = "MAOZIHUODONG2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -198709,7 +199021,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310022] = {
 		special_operation_list = "",
@@ -198717,14 +199030,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40254,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1310021,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -198736,7 +199049,7 @@ end)()
 		bg = "",
 		bgm = "bgm-cccp2",
 		enter_story = "MAOZIHUODONG6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -199325,7 +199638,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310023] = {
 		special_operation_list = "",
@@ -199333,14 +199647,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40254,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 25,
 		pre_chapter = 1310022,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -199352,7 +199666,7 @@ end)()
 		bg = "",
 		bgm = "bgm-cccp2",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -199985,7 +200299,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310024] = {
 		special_operation_list = "",
@@ -199993,14 +200308,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40255,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 1310023,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -200012,7 +200327,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-3",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -200658,7 +200973,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310025] = {
 		special_operation_list = "",
@@ -200666,14 +200982,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40255,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 20,
 		pre_chapter = 1310024,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -200685,7 +201001,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-3",
 		enter_story = "MAOZIHUODONG18",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -201281,7 +201597,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310026] = {
 		special_operation_list = "",
@@ -201289,14 +201606,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40255,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 1310025,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -201308,7 +201625,7 @@ end)()
 		bg = "",
 		bgm = "bgm-cccp",
 		enter_story = "MAOZIHUODONG23",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -201967,7 +202284,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310041] = {
 		special_operation_list = "",
@@ -201975,14 +202293,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 40255,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1310026,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 7,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -201994,7 +202312,7 @@ end)()
 		bg = "",
 		bgm = "bgm-cccp3",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -202646,7 +202964,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1310051] = {
 		special_operation_list = "",
@@ -202654,14 +202973,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40255,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1310026,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -202673,7 +202992,7 @@ end)()
 		bg = "",
 		bgm = "bgm-cccp",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -203076,7 +203395,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1320001] = {
 		special_operation_list = "",
@@ -203084,14 +203404,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40173,
-		chapter_tag = 0,
 		pos_y = "0.34375",
-		progress_boss = 35,
 		pre_chapter = 0,
+		progress_boss = 35,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -203103,7 +203423,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LONGXIANGHUODONG1",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -203610,7 +203930,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1320002] = {
 		special_operation_list = "",
@@ -203618,14 +203939,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40173,
-		chapter_tag = 0,
 		pos_y = "0.070833333",
-		progress_boss = 28,
 		pre_chapter = 1320001,
+		progress_boss = 28,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -203637,7 +203958,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LONGXIANGHUODONG5",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -204202,7 +204523,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1320003] = {
 		special_operation_list = "",
@@ -204210,14 +204532,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40173,
-		chapter_tag = 0,
 		pos_y = "0.221875",
-		progress_boss = 22,
 		pre_chapter = 1320002,
+		progress_boss = 22,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -204229,7 +204551,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LONGXIANGHUODONG8",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -204833,7 +205155,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330001] = {
 		special_operation_list = "",
@@ -204841,14 +205164,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40319,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -204859,7 +205182,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE2",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -205384,7 +205707,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330002] = {
 		special_operation_list = "",
@@ -205392,14 +205716,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40319,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1330001,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -205410,7 +205734,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE8",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -205963,7 +206287,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330003] = {
 		special_operation_list = "",
@@ -205971,14 +206296,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40319,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 1330002,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -205989,7 +206314,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE12",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -206562,7 +206887,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330004] = {
 		special_operation_list = "",
@@ -206570,14 +206896,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40320,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1330003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -206588,7 +206914,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE18",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -207198,7 +207524,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330005] = {
 		special_operation_list = "",
@@ -207206,14 +207533,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40320,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 25,
 		pre_chapter = 1330004,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -207224,7 +207551,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE23",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -207824,7 +208151,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330006] = {
 		special_operation_list = "",
@@ -207832,14 +208160,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40320,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 1330005,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -207850,7 +208178,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE28",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -208522,7 +208850,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330021] = {
 		special_operation_list = "",
@@ -208530,14 +208859,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40319,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -208548,7 +208877,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE2",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -209115,7 +209444,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330022] = {
 		special_operation_list = "",
@@ -209123,14 +209453,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40319,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1330021,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -209141,7 +209471,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE8",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -209736,7 +210066,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330023] = {
 		special_operation_list = "",
@@ -209744,14 +210075,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40319,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 25,
 		pre_chapter = 1330022,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -209762,7 +210093,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE12",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -210378,7 +210709,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330024] = {
 		special_operation_list = "",
@@ -210386,14 +210718,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40320,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 1330023,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -210404,7 +210736,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE18",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -211056,7 +211388,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330025] = {
 		special_operation_list = "",
@@ -211064,14 +211397,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40320,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 20,
 		pre_chapter = 1330024,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -211082,7 +211415,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE23",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -211726,7 +212059,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330026] = {
 		special_operation_list = "",
@@ -211734,14 +212068,14 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 40320,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 1330025,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -211752,7 +212086,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "WEICENGHUNHE28",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
@@ -212468,7 +212802,8 @@ end)()
 		chapter_buff = {
 			9502
 		},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330041] = {
 		special_operation_list = "",
@@ -212476,14 +212811,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 40320,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1330026,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 7,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -212494,7 +212829,7 @@ end)()
 		bgm = "",
 		bg = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		event_skip = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
@@ -213071,7 +213406,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1330051] = {
 		special_operation_list = "",
@@ -213079,14 +213415,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40320,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1330026,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		ItemTransformPattern = "",
 		icon_outline = 0,
 		activate_time = 0,
@@ -213097,7 +213433,7 @@ end)()
 		bgm = "hunhe-battle",
 		bg = "",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		event_skip = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
@@ -213509,7 +213845,8 @@ end)()
 		risk_levels = {},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1350001] = {
 		special_operation_list = "",
@@ -213517,14 +213854,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40339,
-		chapter_tag = 0,
 		pos_y = "0.34375",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -213536,7 +213873,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YESEXIADEGUITU1",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -214122,7 +214459,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1350002] = {
 		special_operation_list = "",
@@ -214130,14 +214468,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40339,
-		chapter_tag = 0,
 		pos_y = "0.09083333",
-		progress_boss = 25,
 		pre_chapter = 1350001,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -214149,7 +214487,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YESEXIADEGUITU4",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -214795,7 +215133,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1350003] = {
 		special_operation_list = "",
@@ -214803,14 +215142,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40339,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 20,
 		pre_chapter = 1350002,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -214822,7 +215161,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YESEXIADEGUITU7",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -215465,7 +215804,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360001] = {
 		special_operation_list = "",
@@ -215473,14 +215813,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40347,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -215492,7 +215832,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "SHENGYONGQU2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -216047,7 +216387,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360002] = {
 		special_operation_list = "",
@@ -216055,14 +216396,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40347,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1360001,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -216074,7 +216415,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "SHENGYONGQU6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -216660,7 +217001,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360003] = {
 		special_operation_list = "",
@@ -216668,14 +217010,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40347,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 1360002,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -216687,7 +217029,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "SHENGYONGQU11",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -217366,7 +217708,8 @@ end)()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360004] = {
 		special_operation_list = "",
@@ -217374,14 +217717,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40348,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1360003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -217393,7 +217736,7 @@ end)()
 		bg = "",
 		bgm = "hunhe-level",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -218062,7 +218405,8 @@ end)()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360005] = {
 		special_operation_list = "",
@@ -218070,14 +218414,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40348,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 25,
 		pre_chapter = 1360004,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -218089,7 +218433,7 @@ end)()
 		bg = "",
 		bgm = "hunhe-level",
 		enter_story = "SHENGYONGQU21",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -219076,7 +219420,8 @@ end)()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360006] = {
 		special_operation_list = "",
@@ -219084,14 +219429,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40348,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 1360005,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -219103,7 +219448,7 @@ end)()
 		bg = "",
 		bgm = "hunhe-level",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -220842,7 +221187,8 @@ end)()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360021] = {
 		special_operation_list = "",
@@ -220850,14 +221196,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40347,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -220869,7 +221215,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "SHENGYONGQU2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -221466,7 +221812,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360022] = {
 		special_operation_list = "",
@@ -221474,14 +221821,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40347,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1360021,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -221493,7 +221840,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "SHENGYONGQU6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -222121,7 +222468,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360023] = {
 		special_operation_list = "",
@@ -222129,14 +222477,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40347,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 25,
 		pre_chapter = 1360022,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -222148,7 +222496,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "SHENGYONGQU11",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -222870,7 +223218,8 @@ end)()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360024] = {
 		special_operation_list = "",
@@ -222878,14 +223227,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40348,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 1360023,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -222897,7 +223246,7 @@ end)()
 		bg = "",
 		bgm = "hunhe-level",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -223607,7 +223956,8 @@ end)()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360025] = {
 		special_operation_list = "",
@@ -223615,14 +223965,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40348,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 20,
 		pre_chapter = 1360024,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -223634,7 +223984,7 @@ end)()
 		bg = "",
 		bgm = "hunhe-level",
 		enter_story = "SHENGYONGQU21",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -224664,7 +225014,8 @@ end)()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360026] = {
 		special_operation_list = "",
@@ -224672,14 +225023,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40348,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 1360025,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -224691,7 +225042,7 @@ end)()
 		bg = "",
 		bgm = "hunhe-level",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -226473,7 +226824,8 @@ end)()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360041] = {
 		special_operation_list = "",
@@ -226481,14 +226833,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 40348,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1360026,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 7,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -226500,7 +226852,7 @@ end)()
 		bg = "",
 		bgm = "Bsm-3",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -227782,7 +228134,8 @@ end)()
 			"side_faxi",
 			44,
 			0
-		}
+		},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1360051] = {
 		special_operation_list = "",
@@ -227790,14 +228143,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40348,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1360026,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -227809,7 +228162,7 @@ end)()
 		bg = "",
 		bgm = "Bsm-3",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -228207,7 +228560,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380001] = {
 		special_operation_list = "",
@@ -228215,14 +228569,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40378,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -228234,7 +228588,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -228890,7 +229244,8 @@ end)()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380002] = {
 		special_operation_list = "",
@@ -228898,14 +229253,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40378,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1380001,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -228917,7 +229272,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG8",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -229558,7 +229913,8 @@ end)()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380003] = {
 		special_operation_list = "",
@@ -229566,14 +229922,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40378,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 1380002,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -229585,7 +229941,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG15",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -230244,7 +230600,8 @@ end)()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380004] = {
 		special_operation_list = "",
@@ -230252,14 +230609,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40379,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 1380003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -230271,7 +230628,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG21",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -230989,7 +231346,8 @@ end)()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380005] = {
 		special_operation_list = "",
@@ -230997,14 +231355,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40379,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 25,
 		pre_chapter = 1380004,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -231016,7 +231374,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG26",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -231759,7 +232117,8 @@ end)()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380006] = {
 		special_operation_list = "",
@@ -231767,14 +232126,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40379,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 1380005,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -231786,7 +232145,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG31",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -232626,7 +232985,8 @@ end)()
 			9508
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380021] = {
 		special_operation_list = "",
@@ -232634,14 +232994,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40378,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -232653,7 +233013,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -233348,7 +233708,8 @@ end)()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380022] = {
 		special_operation_list = "",
@@ -233356,14 +233717,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40378,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 34,
 		pre_chapter = 1380021,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -233375,7 +233736,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG8",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -234055,7 +234416,8 @@ end)()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380023] = {
 		special_operation_list = "",
@@ -234063,14 +234425,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40378,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 25,
 		pre_chapter = 1380022,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -234082,7 +234444,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG15",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -234780,7 +235142,8 @@ end)()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380024] = {
 		special_operation_list = "",
@@ -234788,14 +235151,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40379,
-		chapter_tag = 0,
 		pos_y = "0.380208333",
-		progress_boss = 25,
 		pre_chapter = 1380023,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -234807,7 +235170,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG21",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -235565,7 +235928,8 @@ end)()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380025] = {
 		special_operation_list = "",
@@ -235573,14 +235937,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40379,
-		chapter_tag = 0,
 		pos_y = "0.122916667",
-		progress_boss = 20,
 		pre_chapter = 1380024,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -235592,7 +235956,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG26",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -236377,7 +236741,8 @@ end)()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380026] = {
 		special_operation_list = "",
@@ -236385,14 +236750,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40379,
-		chapter_tag = 0,
 		pos_y = "0.35625",
-		progress_boss = 20,
 		pre_chapter = 1380025,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -236404,7 +236769,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YONGYEHUANGUANG31",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -237287,7 +237652,8 @@ end)()
 			9508
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380041] = {
 		special_operation_list = "",
@@ -237295,14 +237661,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 40379,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1380026,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 7,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -237314,7 +237680,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -238433,7 +238799,8 @@ end)()
 			9505
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1380051] = {
 		special_operation_list = "",
@@ -238441,14 +238808,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40379,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1380026,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -238460,7 +238827,7 @@ end)()
 		bg = "",
 		bgm = "bsm-3",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -238872,7 +239239,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410001] = {
 		special_operation_list = "",
@@ -238880,14 +239248,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40413,
-		chapter_tag = 0,
 		pos_y = "0.26",
-		progress_boss = 50,
 		pre_chapter = 1410007,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -238899,7 +239267,7 @@ end)()
 		bg = "",
 		bgm = "story-6",
 		enter_story = "DIEHAIMENGHUA6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -239659,7 +240027,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410002] = {
 		special_operation_list = "",
@@ -239667,14 +240036,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40413,
-		chapter_tag = 0,
 		pos_y = "0.402083333",
-		progress_boss = 34,
 		pre_chapter = 1410001,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -239686,7 +240055,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-2",
 		enter_story = "DIEHAIMENGHUA10",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -240328,7 +240697,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410003] = {
 		special_operation_list = "",
@@ -240336,14 +240706,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40413,
-		chapter_tag = 0,
 		pos_y = "0.123958333",
-		progress_boss = 34,
 		pre_chapter = 1410002,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -240355,7 +240725,7 @@ end)()
 		bg = "",
 		bgm = "bsm-1",
 		enter_story = "DIEHAIMENGHUA15",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -241177,7 +241547,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410004] = {
 		special_operation_list = "",
@@ -241185,14 +241556,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40414,
-		chapter_tag = 0,
 		pos_y = "0.402083333",
-		progress_boss = 25,
 		pre_chapter = 1410003,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -241204,7 +241575,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-3",
 		enter_story = "DIEHAIMENGHUA21",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -242183,7 +242554,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410005] = {
 		special_operation_list = "",
@@ -242191,14 +242563,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40414,
-		chapter_tag = 0,
 		pos_y = "0.123958333",
-		progress_boss = 25,
 		pre_chapter = 1410008,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -242210,7 +242582,7 @@ end)()
 		bg = "",
 		bgm = "level02",
 		enter_story = "DIEHAIMENGHUA31",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -243093,7 +243465,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410006] = {
 		special_operation_list = "",
@@ -243101,14 +243474,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40414,
-		chapter_tag = 0,
 		pos_y = "0.26",
-		progress_boss = 25,
 		pre_chapter = 1410005,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -243120,7 +243493,7 @@ end)()
 		bg = "",
 		bgm = "story-6",
 		enter_story = "DIEHAIMENGHUA35",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -244115,7 +244488,8 @@ end)()
 			8744
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410007] = {
 		special_operation_list = "",
@@ -244123,14 +244497,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40413,
-		chapter_tag = 0,
 		pos_y = "0.26",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -244142,7 +244516,7 @@ end)()
 		bg = "",
 		bgm = "story-4",
 		enter_story = "DIEHAIMENGHUA2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -244640,7 +245014,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410008] = {
 		special_operation_list = "",
@@ -244648,14 +245023,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40414,
-		chapter_tag = 0,
 		pos_y = "0.123958333",
-		progress_boss = 100,
 		pre_chapter = 1410004,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -244667,7 +245042,7 @@ end)()
 		bg = "",
 		bgm = "story-1",
 		enter_story = "DIEHAIMENGHUA26",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -245287,7 +245662,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410021] = {
 		special_operation_list = "",
@@ -245295,14 +245671,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40413,
-		chapter_tag = 0,
 		pos_y = "0.26",
-		progress_boss = 34,
 		pre_chapter = 1410027,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -245314,7 +245690,7 @@ end)()
 		bg = "",
 		bgm = "story-6",
 		enter_story = "DIEHAIMENGHUA6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -246115,7 +246491,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410022] = {
 		special_operation_list = "",
@@ -246123,14 +246500,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40413,
-		chapter_tag = 0,
 		pos_y = "0.402083333",
-		progress_boss = 34,
 		pre_chapter = 1410021,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -246142,7 +246519,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-2",
 		enter_story = "DIEHAIMENGHUA10",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -246826,7 +247203,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410023] = {
 		special_operation_list = "",
@@ -246834,14 +247212,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40413,
-		chapter_tag = 0,
 		pos_y = "0.123958333",
-		progress_boss = 25,
 		pre_chapter = 1410022,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -246853,7 +247231,7 @@ end)()
 		bg = "",
 		bgm = "bsm-1",
 		enter_story = "DIEHAIMENGHUA15",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -247717,7 +248095,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410024] = {
 		special_operation_list = "",
@@ -247725,14 +248104,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40414,
-		chapter_tag = 0,
 		pos_y = "0.402083333",
-		progress_boss = 25,
 		pre_chapter = 1410023,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -247744,7 +248123,7 @@ end)()
 		bg = "",
 		bgm = "xinnong-3",
 		enter_story = "DIEHAIMENGHUA21",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -248764,7 +249143,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410025] = {
 		special_operation_list = "",
@@ -248772,14 +249152,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40414,
-		chapter_tag = 0,
 		pos_y = "0.123958333",
-		progress_boss = 20,
 		pre_chapter = 1410028,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -248791,7 +249171,7 @@ end)()
 		bg = "",
 		bgm = "level02",
 		enter_story = "DIEHAIMENGHUA31",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -249717,7 +250097,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410026] = {
 		special_operation_list = "",
@@ -249725,14 +250106,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40414,
-		chapter_tag = 0,
 		pos_y = "0.26",
-		progress_boss = 20,
 		pre_chapter = 1410025,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -249744,7 +250125,7 @@ end)()
 		bg = "",
 		bgm = "story-6",
 		enter_story = "DIEHAIMENGHUA35",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -250783,7 +251164,8 @@ end)()
 			8746
 		},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410027] = {
 		special_operation_list = "",
@@ -250791,14 +251173,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40413,
-		chapter_tag = 0,
 		pos_y = "0.26",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -250810,7 +251192,7 @@ end)()
 		bg = "",
 		bgm = "story-4",
 		enter_story = "DIEHAIMENGHUA2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -251308,7 +251690,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410028] = {
 		special_operation_list = "",
@@ -251316,14 +251699,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40414,
-		chapter_tag = 0,
 		pos_y = "0.123958333",
-		progress_boss = 100,
 		pre_chapter = 1410024,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -251335,7 +251718,7 @@ end)()
 		bg = "",
 		bgm = "story-1",
 		enter_story = "DIEHAIMENGHUA26",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -251955,7 +252338,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410041] = {
 		special_operation_list = "",
@@ -251963,14 +252347,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 40414,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1410026,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 7,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -251982,7 +252366,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -252979,7 +253363,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1410051] = {
 		special_operation_list = "",
@@ -252987,14 +253372,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40414,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1410026,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -253006,7 +253391,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -253420,7 +253805,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450001] = {
 		special_operation_list = "",
@@ -253428,14 +253814,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40222,
-		chapter_tag = 0,
 		pos_y = "0.3875",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 11,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -253447,7 +253833,7 @@ end)()
 		bg = "",
 		bgm = "doa_daozhong",
 		enter_story = "JIARIHANGXIAN3",
-		model = 11,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -254040,7 +254426,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450002] = {
 		special_operation_list = "",
@@ -254048,14 +254435,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40222,
-		chapter_tag = 0,
 		pos_y = "0.116041667",
-		progress_boss = 34,
 		pre_chapter = 1450001,
+		progress_boss = 34,
+		model = 11,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -254067,7 +254454,7 @@ end)()
 		bg = "",
 		bgm = "doa_daozhong",
 		enter_story = "JIARIHANGXIAN7",
-		model = 11,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -254714,7 +255101,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450003] = {
 		special_operation_list = "",
@@ -254722,14 +255110,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40222,
-		chapter_tag = 0,
 		pos_y = "0.116041667",
-		progress_boss = 25,
 		pre_chapter = 1450002,
+		progress_boss = 25,
+		model = 11,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -254741,7 +255129,7 @@ end)()
 		bg = "",
 		bgm = "doa_daozhong",
 		enter_story = "JIARIHANGXIAN10",
-		model = 11,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -255389,7 +255777,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450004] = {
 		special_operation_list = "",
@@ -255397,14 +255786,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40222,
-		chapter_tag = 0,
 		pos_y = "0.3875",
-		progress_boss = 20,
 		pre_chapter = 1450003,
+		progress_boss = 20,
+		model = 11,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -255416,7 +255805,7 @@ end)()
 		bg = "",
 		bgm = "doa_daozhong",
 		enter_story = "JIARIHANGXIAN12",
-		model = 11,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -256147,7 +256536,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450041] = {
 		special_operation_list = "",
@@ -256155,14 +256545,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 40222,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1450004,
+		progress_boss = 100,
+		model = 11,
 		boss_refresh = 7,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -256174,7 +256564,7 @@ end)()
 		bg = "",
 		bgm = "doa_daozhong",
 		enter_story = "",
-		model = 11,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -256797,7 +257187,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1450051] = {
 		special_operation_list = "",
@@ -256805,14 +257196,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40222,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1450004,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -256824,7 +257215,7 @@ end)()
 		bg = "",
 		bgm = "doa_daozhong",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -257252,7 +257643,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540001] = {
 		special_operation_list = "",
@@ -257260,14 +257652,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40385,
-		chapter_tag = 0,
 		pos_y = "0.3875",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 11,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -257279,7 +257671,7 @@ end)()
 		bg = "",
 		bgm = "Idom-Thinking",
 		enter_story = "OUXIANGDASHIGUANQIA2",
-		model = 11,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -257881,7 +258273,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540002] = {
 		special_operation_list = "",
@@ -257889,14 +258282,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40385,
-		chapter_tag = 0,
 		pos_y = "0.116041667",
-		progress_boss = 34,
 		pre_chapter = 1540001,
+		progress_boss = 34,
+		model = 11,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -257908,7 +258301,7 @@ end)()
 		bg = "",
 		bgm = "Idom-Thinking",
 		enter_story = "OUXIANGDASHIGUANQIA5",
-		model = 11,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -258565,7 +258958,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540003] = {
 		special_operation_list = "",
@@ -258573,14 +258967,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40385,
-		chapter_tag = 0,
 		pos_y = "0.116041667",
-		progress_boss = 25,
 		pre_chapter = 1540002,
+		progress_boss = 25,
+		model = 11,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -258592,7 +258986,7 @@ end)()
 		bg = "",
 		bgm = "Idom-Thinking",
 		enter_story = "OUXIANGDASHIGUANQIA9",
-		model = 11,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -259254,7 +259648,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540004] = {
 		special_operation_list = "",
@@ -259262,14 +259657,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40385,
-		chapter_tag = 0,
 		pos_y = "0.3875",
-		progress_boss = 20,
 		pre_chapter = 1540003,
+		progress_boss = 20,
+		model = 11,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -259281,7 +259676,7 @@ end)()
 		bg = "",
 		bgm = "Idom-Thinking",
 		enter_story = "OUXIANGDASHIGUANQIA13",
-		model = 11,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -260018,7 +260413,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540041] = {
 		special_operation_list = "",
@@ -260026,14 +260422,14 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 40385,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1540004,
+		progress_boss = 100,
+		model = 11,
 		boss_refresh = 7,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -260045,7 +260441,7 @@ end)()
 		bg = "",
 		bgm = "Idom-Thinking",
 		enter_story = "",
-		model = 11,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -260702,7 +261098,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[1540051] = {
 		special_operation_list = "",
@@ -260710,14 +261107,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40385,
-		chapter_tag = 0,
 		pos_y = "0.2979",
-		progress_boss = 100,
 		pre_chapter = 1540041,
+		progress_boss = 100,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -260729,7 +261126,7 @@ end)()
 		bg = "",
 		bgm = "Idom-Thinking",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -261157,7 +261554,8 @@ end)()
 		land_based = {},
 		chapter_buff = {},
 		wall_prefab = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100001] = {
 		special_operation_list = "",
@@ -261165,14 +261563,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.444791667",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -261184,7 +261582,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING3",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -261701,7 +262099,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100002] = {
 		special_operation_list = "",
@@ -261709,14 +262108,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.088541667",
-		progress_boss = 34,
 		pre_chapter = 2100001,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -261728,7 +262127,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING6",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -262302,7 +262701,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 end)()
 (function ()
@@ -262312,14 +262712,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.367708333",
-		progress_boss = 34,
 		pre_chapter = 2100002,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -262331,7 +262731,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING8",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -262972,7 +263372,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100004] = {
 		special_operation_list = "",
@@ -262980,14 +263381,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.090625",
-		progress_boss = 25,
 		pre_chapter = 2100003,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -262999,7 +263400,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -263590,7 +263991,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100005] = {
 		special_operation_list = "",
@@ -263598,14 +264000,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.1125",
-		progress_boss = 25,
 		pre_chapter = 2100004,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -263617,7 +264019,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING14",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -264310,7 +264712,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100006] = {
 		special_operation_list = "",
@@ -264318,14 +264721,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.4",
-		progress_boss = 25,
 		pre_chapter = 2100005,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 7,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -264337,7 +264740,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING17",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -265025,7 +265428,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100011] = {
 		special_operation_list = "",
@@ -265033,14 +265437,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.444791667",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -265052,7 +265456,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING3",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -265610,7 +266014,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100012] = {
 		special_operation_list = "",
@@ -265618,14 +266023,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.088541667",
-		progress_boss = 34,
 		pre_chapter = 2100011,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -265637,7 +266042,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING6",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -266252,7 +266657,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100013] = {
 		special_operation_list = "",
@@ -266260,14 +266666,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.367708333",
-		progress_boss = 25,
 		pre_chapter = 2100012,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -266279,7 +266685,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING8",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -266962,7 +267368,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100014] = {
 		special_operation_list = "",
@@ -266970,14 +267377,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.090625",
-		progress_boss = 25,
 		pre_chapter = 2100013,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -266989,7 +267396,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -267622,7 +268029,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100015] = {
 		special_operation_list = "",
@@ -267630,14 +268038,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.1125",
-		progress_boss = 20,
 		pre_chapter = 2100014,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 7,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -267649,7 +268057,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING14",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -268384,7 +268792,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100016] = {
 		special_operation_list = "",
@@ -268392,14 +268801,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.4",
-		progress_boss = 20,
 		pre_chapter = 2100015,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 7,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -268411,7 +268820,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING17",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -269140,7 +269549,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100021] = {
 		special_operation_list = "",
@@ -269148,14 +269558,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.361458333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -269167,7 +269577,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG02",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -269635,7 +270045,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100022] = {
 		special_operation_list = "",
@@ -269643,14 +270054,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.111458333",
-		progress_boss = 50,
 		pre_chapter = 2100021,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -269662,7 +270073,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG04",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -270192,7 +270603,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100023] = {
 		special_operation_list = "",
@@ -270200,14 +270612,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.3446875",
-		progress_boss = 34,
 		pre_chapter = 2100022,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -270219,7 +270631,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG07",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -270839,7 +271251,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100024] = {
 		special_operation_list = "",
@@ -270847,14 +271260,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.15",
-		progress_boss = 25,
 		pre_chapter = 2100023,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -270866,7 +271279,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -271509,7 +271922,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100025] = {
 		special_operation_list = "",
@@ -271517,14 +271931,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.073958",
-		progress_boss = 25,
 		pre_chapter = 2100024,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -271536,7 +271950,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG13",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -272197,7 +272611,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100026] = {
 		special_operation_list = "",
@@ -272205,14 +272620,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.347395833",
-		progress_boss = 25,
 		pre_chapter = 2100025,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -272224,7 +272639,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG17",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -273060,7 +273475,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100031] = {
 		special_operation_list = "",
@@ -273068,14 +273484,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.361458333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -273087,7 +273503,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG02",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -273596,7 +274012,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100032] = {
 		special_operation_list = "",
@@ -273604,14 +274021,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.111458333",
-		progress_boss = 50,
 		pre_chapter = 2100031,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -273623,7 +274040,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG04",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -274194,7 +274611,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100033] = {
 		special_operation_list = "",
@@ -274202,14 +274620,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.3446875",
-		progress_boss = 34,
 		pre_chapter = 2100032,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -274221,7 +274639,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG07",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -274882,7 +275300,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100034] = {
 		special_operation_list = "",
@@ -274890,14 +275309,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.15",
-		progress_boss = 25,
 		pre_chapter = 2100033,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -274909,7 +275328,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -275593,7 +276012,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100035] = {
 		special_operation_list = "",
@@ -275601,14 +276021,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.073958",
-		progress_boss = 20,
 		pre_chapter = 2100034,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -275620,7 +276040,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG13",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -276322,7 +276742,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100036] = {
 		special_operation_list = "",
@@ -276330,14 +276751,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.347395833",
-		progress_boss = 20,
 		pre_chapter = 2100035,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -276349,7 +276770,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "LINGDONG17",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -277226,7 +277647,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100061] = {
 		special_operation_list = "",
@@ -277234,14 +277656,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -277253,7 +277675,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -277813,7 +278235,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100062] = {
 		special_operation_list = "",
@@ -277821,14 +278244,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 50,
 		pre_chapter = 2100061,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -277840,7 +278263,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO04",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -278458,7 +278881,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100063] = {
 		special_operation_list = "",
@@ -278466,14 +278890,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 2100062,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -278485,7 +278909,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO06",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -279194,7 +279618,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100064] = {
 		special_operation_list = "",
@@ -279202,14 +279627,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 2100063,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -279221,7 +279646,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO09",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -279868,7 +280293,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100065] = {
 		special_operation_list = "",
@@ -279876,14 +280302,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 25,
 		pre_chapter = 2100064,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -279895,7 +280321,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO10",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -280683,7 +281109,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100066] = {
 		special_operation_list = "",
@@ -280691,14 +281118,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 25,
 		pre_chapter = 2100065,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -280710,7 +281137,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -281677,7 +282104,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100071] = {
 		special_operation_list = "",
@@ -281685,14 +282113,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.392708333",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -281704,7 +282132,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -282305,7 +282733,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100072] = {
 		special_operation_list = "",
@@ -282313,14 +282742,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 50,
 		pre_chapter = 2100071,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -282332,7 +282761,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO04",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -282991,7 +283420,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100073] = {
 		special_operation_list = "",
@@ -282999,14 +283429,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.344791667",
-		progress_boss = 34,
 		pre_chapter = 2100072,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -283018,7 +283448,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO06",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -283768,7 +284198,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100074] = {
 		special_operation_list = "",
@@ -283776,14 +284207,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.227083333",
-		progress_boss = 25,
 		pre_chapter = 2100073,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -283795,7 +284226,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO09",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -284483,7 +284914,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100075] = {
 		special_operation_list = "",
@@ -284491,14 +284923,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.052083333",
-		progress_boss = 20,
 		pre_chapter = 2100074,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -284510,7 +284942,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "DONGHUO10",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -285339,7 +285771,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2100076] = {
 		special_operation_list = "",
@@ -285347,14 +285780,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.383333333",
-		progress_boss = 20,
 		pre_chapter = 2100075,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -285366,7 +285799,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -286374,7 +286807,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200001] = {
 		special_operation_list = "",
@@ -286382,14 +286816,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.43125",
-		progress_boss = 100,
 		pre_chapter = 0,
+		progress_boss = 100,
+		model = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -286401,7 +286835,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -286786,7 +287220,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200002] = {
 		special_operation_list = "",
@@ -286794,14 +287229,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.294791667",
-		progress_boss = 42,
 		pre_chapter = 2200001,
+		progress_boss = 42,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -286813,7 +287248,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -287273,7 +287708,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[2200003] = {
 		special_operation_list = "",
@@ -287281,14 +287717,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		chapter_tag = 0,
 		pos_y = "0.080208333",
-		progress_boss = 28,
 		pre_chapter = 2200002,
+		progress_boss = 28,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -287300,7 +287736,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -287790,7 +288226,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100001] = {
 		special_operation_list = "",
@@ -287798,14 +288235,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40101,
-		chapter_tag = 0,
 		pos_y = "0.444791667",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -287817,7 +288254,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING3",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -288336,7 +288773,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100002] = {
 		special_operation_list = "",
@@ -288344,14 +288782,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40101,
-		chapter_tag = 0,
 		pos_y = "0.088541667",
-		progress_boss = 34,
 		pre_chapter = 5100001,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -288363,7 +288801,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING6",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -288938,7 +289376,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100003] = {
 		special_operation_list = "",
@@ -288946,14 +289385,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40101,
-		chapter_tag = 0,
 		pos_y = "0.367708333",
-		progress_boss = 34,
 		pre_chapter = 5100002,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -288965,7 +289404,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING8",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -289609,7 +290048,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100004] = {
 		special_operation_list = "",
@@ -289617,14 +290057,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40102,
-		chapter_tag = 0,
 		pos_y = "0.090625",
-		progress_boss = 25,
 		pre_chapter = 5100003,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -289636,7 +290076,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -290231,7 +290671,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100005] = {
 		special_operation_list = "",
@@ -290239,14 +290680,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40102,
-		chapter_tag = 0,
 		pos_y = "0.1125",
-		progress_boss = 25,
 		pre_chapter = 5100004,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -290258,7 +290699,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING14",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -290952,7 +291393,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100006] = {
 		special_operation_list = "",
@@ -290960,14 +291402,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40102,
-		chapter_tag = 0,
 		pos_y = "0.4",
-		progress_boss = 25,
 		pre_chapter = 5100005,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -290979,7 +291421,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING17",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -291670,7 +292112,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100011] = {
 		special_operation_list = "",
@@ -291678,14 +292121,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40101,
-		chapter_tag = 0,
 		pos_y = "0.444791667",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -291697,7 +292140,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING3",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -292259,7 +292702,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100012] = {
 		special_operation_list = "",
@@ -292267,14 +292711,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40101,
-		chapter_tag = 0,
 		pos_y = "0.088541667",
-		progress_boss = 34,
 		pre_chapter = 5100011,
+		progress_boss = 34,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -292286,7 +292730,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING6",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -292903,7 +293347,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100013] = {
 		special_operation_list = "",
@@ -292911,14 +293356,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40101,
-		chapter_tag = 0,
 		pos_y = "0.367708333",
-		progress_boss = 25,
 		pre_chapter = 5100012,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -292930,7 +293375,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING8",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -293617,7 +294062,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100014] = {
 		special_operation_list = "",
@@ -293625,14 +294071,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40102,
-		chapter_tag = 0,
 		pos_y = "0.090625",
-		progress_boss = 25,
 		pre_chapter = 5100013,
+		progress_boss = 25,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -293644,7 +294090,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -294281,7 +294727,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100015] = {
 		special_operation_list = "",
@@ -294289,14 +294736,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40102,
-		chapter_tag = 0,
 		pos_y = "0.1125",
-		progress_boss = 20,
 		pre_chapter = 5100014,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -294308,7 +294755,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING14",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -295044,7 +295491,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100016] = {
 		special_operation_list = "",
@@ -295052,14 +295500,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40102,
-		chapter_tag = 0,
 		pos_y = "0.4",
-		progress_boss = 20,
 		pre_chapter = 5100015,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -295071,7 +295519,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "GUOQING17",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -295803,7 +296251,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100020] = {
 		special_operation_list = "",
@@ -295811,14 +296260,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40102,
-		chapter_tag = 0,
 		pos_y = "0.277083333",
-		progress_boss = 20,
 		pre_chapter = 5100016,
+		progress_boss = 20,
+		model = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -295830,7 +296279,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 2,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -296555,7 +297004,8 @@ end)()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100101] = {
 		special_operation_list = "",
@@ -296563,14 +297013,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40121,
-		chapter_tag = 0,
 		pos_y = "0.402083333",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -296582,7 +297032,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -297103,7 +297553,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100102] = {
 		special_operation_list = "",
@@ -297111,14 +297562,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40121,
-		chapter_tag = 0,
 		pos_y = "0.379166667",
-		progress_boss = 34,
 		pre_chapter = 5100101,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -297130,7 +297581,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FAXI02",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -297757,7 +298208,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100103] = {
 		special_operation_list = "",
@@ -297765,14 +298217,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40121,
-		chapter_tag = 0,
 		pos_y = "0.1739",
-		progress_boss = 25,
 		pre_chapter = 5100102,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -297784,7 +298236,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FAXI03",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -298523,7 +298975,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100104] = {
 		special_operation_list = "",
@@ -298531,14 +298984,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40122,
-		chapter_tag = 0,
 		pos_y = "0.3875",
-		progress_boss = 25,
 		pre_chapter = 5100103,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -298550,7 +299003,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FAXI06",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -299084,7 +299537,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100105] = {
 		special_operation_list = "",
@@ -299092,14 +299546,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40122,
-		chapter_tag = 0,
 		pos_y = "0.076041667",
-		progress_boss = 20,
 		pre_chapter = 5100104,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -299111,7 +299565,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FAXI07",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -299750,7 +300204,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100106] = {
 		special_operation_list = "",
@@ -299758,14 +300213,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40122,
-		chapter_tag = 0,
 		pos_y = "0.254166667",
-		progress_boss = 20,
 		pre_chapter = 5100105,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -299777,7 +300232,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FAXI08",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -300543,7 +300998,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100111] = {
 		special_operation_list = "",
@@ -300551,14 +301007,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40121,
-		chapter_tag = 0,
 		pos_y = "0.402083333",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -300570,7 +301026,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -301132,7 +301588,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100112] = {
 		special_operation_list = "",
@@ -301140,14 +301597,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40121,
-		chapter_tag = 0,
 		pos_y = "0.379166667",
-		progress_boss = 25,
 		pre_chapter = 5100111,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -301159,7 +301616,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FAXI02",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -301827,7 +302284,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100113] = {
 		special_operation_list = "",
@@ -301835,14 +302293,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40121,
-		chapter_tag = 0,
 		pos_y = "0.1739",
-		progress_boss = 25,
 		pre_chapter = 5100112,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -301854,7 +302312,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FAXI03",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -302634,7 +303092,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100114] = {
 		special_operation_list = "",
@@ -302642,14 +303101,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40122,
-		chapter_tag = 0,
 		pos_y = "0.3875",
-		progress_boss = 20,
 		pre_chapter = 5100113,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -302661,7 +303120,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FAXI06",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -303238,7 +303697,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100115] = {
 		special_operation_list = "",
@@ -303246,14 +303706,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40122,
-		chapter_tag = 0,
 		pos_y = "0.076041667",
-		progress_boss = 20,
 		pre_chapter = 5100114,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -303265,7 +303725,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FAXI07",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -303947,7 +304407,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100116] = {
 		special_operation_list = "",
@@ -303955,14 +304416,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40122,
-		chapter_tag = 0,
 		pos_y = "0.254166667",
-		progress_boss = 17,
 		pre_chapter = 5100115,
+		progress_boss = 17,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -303974,7 +304435,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "FAXI08",
-		model = 2,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -304782,7 +305243,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100200] = {
 		special_operation_list = "",
@@ -304790,14 +305252,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40289,
-		chapter_tag = 0,
 		pos_y = "0.313541667",
-		progress_boss = 35,
 		pre_chapter = 0,
+		progress_boss = 35,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -304809,7 +305271,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "WEIJIAO01",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -305368,7 +305830,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100201] = {
 		special_operation_list = "",
@@ -305376,14 +305839,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40289,
-		chapter_tag = 0,
 		pos_y = "0.079166667",
-		progress_boss = 28,
 		pre_chapter = 5100200,
+		progress_boss = 28,
+		model = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -305395,7 +305858,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "WEIJIAO04",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -306053,7 +306516,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5100202] = {
 		special_operation_list = "",
@@ -306061,14 +306525,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40289,
-		chapter_tag = 0,
 		pos_y = "0.373958333",
-		progress_boss = 22,
 		pre_chapter = 5100201,
+		progress_boss = 22,
+		model = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
 		oil = 10,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -306080,7 +306544,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "WEIJIAO07",
-		model = 1,
+		is_ai = 0,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -306796,7 +307260,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000301] = {
 		special_operation_list = "",
@@ -306804,14 +307269,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.375",
-		progress_boss = 50,
 		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -306823,7 +307288,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -307399,7 +307864,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000302] = {
 		special_operation_list = "",
@@ -307407,14 +307873,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.151041667",
-		progress_boss = 34,
 		pre_chapter = 5000301,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -307426,7 +307892,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA4",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -307967,7 +308433,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000303] = {
 		special_operation_list = "",
@@ -307975,14 +308442,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.09583",
-		progress_boss = 34,
 		pre_chapter = 5000302,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -307994,7 +308461,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA5",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -308633,7 +309100,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000304] = {
 		special_operation_list = "",
@@ -308641,14 +309109,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.334375",
-		progress_boss = 25,
 		pre_chapter = 5000303,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -308660,7 +309128,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -309297,7 +309765,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000305] = {
 		special_operation_list = "",
@@ -309305,14 +309774,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.175",
-		progress_boss = 25,
 		pre_chapter = 5000304,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -309324,7 +309793,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA10",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -310012,7 +310481,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000306] = {
 		special_operation_list = "",
@@ -310020,14 +310490,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.255208333",
-		progress_boss = 25,
 		pre_chapter = 5000305,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -310039,7 +310509,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA13",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -310787,7 +311257,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000311] = {
 		special_operation_list = "",
@@ -310795,14 +311266,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.375",
-		progress_boss = 34,
 		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -310814,7 +311285,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA2",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -311432,7 +311903,8 @@ end)()
 		},
 		land_based = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000312] = {
 		special_operation_list = "",
@@ -311440,14 +311912,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.151041667",
-		progress_boss = 34,
 		pre_chapter = 5000311,
+		progress_boss = 34,
+		model = 2,
 		boss_refresh = 4,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -311459,7 +311931,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA4",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -312042,7 +312514,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000313] = {
 		special_operation_list = "",
@@ -312050,14 +312523,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.09583",
-		progress_boss = 25,
 		pre_chapter = 5000312,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -312069,7 +312542,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA5",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -312750,7 +313223,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000314] = {
 		special_operation_list = "",
@@ -312758,14 +313232,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.334375",
-		progress_boss = 25,
 		pre_chapter = 5000313,
+		progress_boss = 25,
+		model = 2,
 		boss_refresh = 5,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -312777,7 +313251,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA6",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -313456,7 +313930,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000315] = {
 		special_operation_list = "",
@@ -313464,14 +313939,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.175",
-		progress_boss = 20,
 		pre_chapter = 5000314,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -313483,7 +313958,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA10",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -314215,7 +314690,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000316] = {
 		special_operation_list = "",
@@ -314223,14 +314699,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.255208333",
-		progress_boss = 20,
 		pre_chapter = 5000315,
+		progress_boss = 20,
+		model = 2,
 		boss_refresh = 6,
 		is_limit_move = 1,
 		oil = 10,
-		is_ai = 1,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -314242,7 +314718,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "YINGHUA13",
-		model = 2,
+		is_ai = 1,
 		mitigation_rate = 2,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -315034,7 +315510,8 @@ end)()
 			}
 		},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 	uv0.chapter_template[5000321] = {
 		special_operation_list = "",
@@ -315042,14 +315519,14 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 40299,
-		chapter_tag = 0,
 		pos_y = "0.277083333",
-		progress_boss = 20,
 		pre_chapter = 5000316,
+		progress_boss = 20,
+		model = 5,
 		boss_refresh = 0,
 		is_limit_move = 0,
 		oil = 0,
-		is_ai = 0,
+		chapter_tag = 0,
 		chapter_fx = "",
 		ItemTransformPattern = "",
 		activate_time = 0,
@@ -315061,7 +315538,7 @@ end)()
 		bg = "",
 		bgm = "",
 		enter_story = "",
-		model = 5,
+		is_ai = 0,
 		mitigation_rate = 0,
 		ammo_submarine = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -315449,7 +315926,8 @@ end)()
 		activity_random_box = {},
 		risk_levels = {},
 		chapter_buff = {},
-		alarm_cell = {}
+		alarm_cell = {},
+		weather_grids = {}
 	}
 end)()
 

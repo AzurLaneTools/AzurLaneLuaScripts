@@ -119,8 +119,8 @@ function slot0.isPtType(slot0)
 	return slot0.metaType == MetaCharacterConst.Meta_Type_Act_PT
 end
 
-function slot0.isBuildType(slot0)
-	return slot0.metaType == MetaCharacterConst.Meta_Type_Build
+function slot0.isPassType(slot0)
+	return slot0.metaType == MetaCharacterConst.Meta_Type_Pass
 end
 
 function slot0.isInAct(slot0)
@@ -144,7 +144,7 @@ function slot0.isShow(slot0)
 	elseif slot1 then
 		if slot0:isPtType() and slot3 then
 			return true
-		elseif slot0:isBuildType() then
+		elseif slot0:isPassType() then
 			return true
 		else
 			return false

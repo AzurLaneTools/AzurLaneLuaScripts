@@ -57,7 +57,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 557,
+							monsterTemplateID = 752,
 							reinforceDelay = 10,
 							pilotAITemplateID = 10001,
 							delay = 1,
@@ -96,7 +96,7 @@ return {
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							moveCast = true,
 							delay = 0,
 							score = 0,
@@ -107,7 +107,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							moveCast = true,
 							delay = 0,
 							score = 0,
@@ -118,7 +118,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							moveCast = true,
 							delay = 0,
 							score = 0,
@@ -129,7 +129,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 560,
+							monsterTemplateID = 755,
 							moveCast = true,
 							delay = 0,
 							score = 0,
@@ -144,7 +144,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 560,
+							monsterTemplateID = 755,
 							moveCast = true,
 							delay = 0,
 							score = 0,

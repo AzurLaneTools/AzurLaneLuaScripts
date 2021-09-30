@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "看來不管是大鳳还是自己都知道——",
+			say = "看來不管是大鳳還是自己都知道——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

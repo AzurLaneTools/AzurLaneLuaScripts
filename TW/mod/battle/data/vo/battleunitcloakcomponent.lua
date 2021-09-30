@@ -53,6 +53,12 @@ function slot5.AppendStrikeExpose(slot0)
 	slot0:AppendExpose(math.min(slot0._strikeExposeAdditive * slot0._strikeCount, slot0._strikeExposeAdditiveLimit))
 end
 
+function slot5.AppendBombardExpose(slot0)
+	slot0._bombardCount = slot0._bombardCount + 1
+
+	slot0:AppendExpose(math.min(slot0._bombardExposeAdditive * slot0._bombardCount, slot0._bombardExposeAdditiveLimit))
+end
+
 function slot5.AppendExposeSpeed(slot0, slot1)
 	slot0._exposeSpeed = slot1
 end
@@ -153,8 +159,11 @@ function slot5.initCloak(slot0)
 
 	slot0._recovery = uv0.GetCurrent(slot0._client, "cloakRecovery")
 	slot0._strikeExposeAdditive = uv0.GetCurrent(slot0._client, "cloakStrikeAdditive")
+	slot0._bombardExposeAdditive = uv0.GetCurrent(slot0._client, "cloakBombardAdditive")
 	slot0._strikeCount = 0
+	slot0._bombardCount = 0
 	slot0._strikeExposeAdditiveLimit = uv1.CLOAK_STRIKE_ADDITIVE_LIMIT
+	slot0._bombardExposeAdditiveLimit = uv1.CLOAK_STRIKE_ADDITIVE_LIMIT
 	slot0._exposeDotList = {}
 	slot0._currentState = uv2.STATE_CLOAK
 

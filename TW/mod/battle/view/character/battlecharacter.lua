@@ -245,8 +245,11 @@ function slot5.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.BLIND_VISIBLE, slot0.onUpdateBlindInvisible)
 	slot0._unitData:RegisterEventListener(slot0, uv0.BLIND_EXPOSE, slot0.onBlindExposed)
 	slot0._unitData:RegisterEventListener(slot0, uv0.INIT_ANIT_SUB_VIGILANCE, slot0.onInitVigilantState)
+	slot0._unitData:RegisterEventListener(slot0, uv0.INIT_CLOAK, slot0.onInitCloak)
 	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_CLOAK_CONFIG, slot0.onUpdateCloakConfig)
 	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_CLOAK_LOCK, slot0.onUpdateCloakLock)
+	slot0._unitData:RegisterEventListener(slot0, uv0.INIT_AIMBIAS, slot0.onInitAimBias)
+	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_AIMBIAS_LOCK, slot0.onUpdateAimBiasLock)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE, slot0.onChangeSize)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON, slot0.onNewWeapon)
 	slot0._unitData:RegisterEventListener(slot0, uv0.HIDE_WAVE_FX, slot0.RemoveWaveFX)
@@ -284,6 +287,9 @@ function slot5.RemoveUnitEvent(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.ANTI_SUB_VIGILANCE_SONAR_CHECK)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_CLOAK_CONFIG)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_CLOAK_LOCK)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.INIT_CLOAK)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_AIMBIAS_LOCK)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.INIT_AIMBIAS)
 	slot0._unitData:UnregisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE)
 	slot0._unitData:UnregisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON)
 
@@ -308,6 +314,7 @@ function slot5.Update(slot0)
 	slot0:UpdateChatPosition()
 	slot0:UpdateHpBar()
 	slot0:updateSomkeFX()
+	slot0:UpdateAimBiasBar()
 end
 
 function slot5.RegisterWeaponListener(slot0, slot1)
@@ -737,6 +744,12 @@ function slot5.Dispose(slot0)
 		slot0._cloakBarTf = nil
 	end
 
+	if slot0._aimBiarBar then
+		slot0._aimBiarBar:Dispose()
+
+		slot0._aimBiarBar = nil
+	end
+
 	slot0._voicePlaybackInfo = nil
 	slot0._popGO = nil
 	slot0._popTF = nil
@@ -910,12 +923,44 @@ function slot5.UpdateCloakBarPosition(slot0, slot1)
 	end
 end
 
+function slot5.onInitCloak(slot0, slot1)
+	slot0._factory:MakeCloakBar(slot0)
+end
+
 function slot5.onUpdateCloakConfig(slot0, slot1)
 	slot0._cloakBar:UpdateCloakConfig()
 end
 
 function slot5.onUpdateCloakLock(slot0, slot1)
 	slot0._cloakBar:UpdateCloakLock()
+end
+
+function slot5.AddAimBiasBar(slot0, slot1)
+	slot0._aimBiarBarTF = slot1
+	slot0._aimBiarBar = uv0.Battle.BattleAimbiasBar.New(slot1)
+
+	slot0._aimBiarBar:ConfigAimBias(slot0._unitData:GetAimBias())
+	slot0._aimBiarBar:UpdateAimBiasProgress()
+end
+
+function slot5.UpdateAimBiasBar(slot0)
+	if slot0._aimBiarBar then
+		slot0._aimBiarBar:UpdateAimBiasProgress()
+	end
+end
+
+function slot5.onUpdateAimBiasLock(slot0, slot1)
+	slot0._aimBiarBar:UpdateLockStateView()
+end
+
+function slot5.onInitAimBias(slot0, slot1)
+	slot0._factory:MakeAimBiasBar(slot0)
+end
+
+function slot5.AddAimBiasFogFX(slot0)
+	if slot0._unitData:GetTemplate().fog_fx and slot1 ~= "" then
+		slot0._fogFx = slot0:AddFX(slot1)
+	end
 end
 
 function slot5.OnUpdateHP(slot0, slot1)

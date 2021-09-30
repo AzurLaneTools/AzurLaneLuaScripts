@@ -38,81 +38,87 @@ function slot0.execute(slot0, slot1)
 			uv0:doDropUpdate()
 
 			if uv0.chapter then
-				uv0:doMapUpdate()
-				uv0:doAIUpdate()
-				uv0:doShipUpdate()
-				uv0:doBuffUpdate()
-				uv0:doCellFlagUpdate()
-				uv0:doExtraFlagUpdate()
-
-				if uv1.type == ChapterConst.OpRetreat then
-					if not uv1.id then
-						uv1.win = uv0.chapter:CheckChapterWillWin()
-
-						if uv1.win then
-							uv0.chapter:UpdateProgressOnRetreat()
-						end
-
-						slot4 = pg.TimeMgr.GetInstance()
-
-						if uv1.win and slot2:getMapById(slot3:getConfig("map")):getMapType() == Map.ELITE and slot4:IsSameDay(slot3:getStartTime(), slot4:GetServerTime()) then
-							getProxy(DailyLevelProxy):EliteCountPlus()
-						end
-
-						if slot3:getPlayType() == ChapterConst.TypeMainSub and (uv1.win or not slot3:isValid()) then
-							slot3:retreat(uv1.win)
-							slot3:clearSubChapter()
-							slot2:updateChapter(slot3, ChapterConst.DirtyMapItems)
-							uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
-								type = uv1.type,
-								win = uv1.win
-							})
-
-							return
-						end
-					end
-
-					uv0:doRetreat()
-				elseif uv1.type == ChapterConst.OpMove then
+				if uv1.type == ChapterConst.OpMove then
+					uv0:doCollectCommonAction()
 					uv0:doCollectAI()
 					uv0:doMove()
 					uv0:doTeleportByPortal()
-				elseif uv1.type == ChapterConst.OpBox then
-					uv0:doCollectAI()
-					uv0:doOpenBox()
-				elseif uv1.type == ChapterConst.OpStory then
-					uv0:doCollectAI()
-					uv0:doPlayStory()
-				elseif uv1.type == ChapterConst.OpAmbush then
-					uv0:doAmbush()
-				elseif uv1.type == ChapterConst.OpStrategy then
-					uv0:doCollectAI()
-					uv0:doStrategy()
-				elseif uv1.type == ChapterConst.OpRepair then
-					uv0:doRepair()
-				elseif uv1.type == ChapterConst.OpSupply then
-					uv0:doSupply()
-				elseif uv1.type == ChapterConst.OpEnemyRound then
-					uv0:doCollectAI()
-					uv0:doEnemyRound()
-				elseif uv1.type == ChapterConst.OpSubState then
-					uv0:doSubState()
-				elseif uv1.type == ChapterConst.OpBarrier then
-					uv0:doBarrier()
-				elseif uv1.type == ChapterConst.OpRequest then
-					uv0:doRequest()
-				elseif uv1.type == ChapterConst.OpSkipBattle then
-					uv0:doSkipBattle()
-				elseif uv1.type == ChapterConst.OpSubTeleport then
-					uv0:doTeleportSub()
-					uv0:doTeleportByPortal()
+				else
+					uv0:doMapUpdate()
+					uv0:doAIUpdate()
+					uv0:doShipUpdate()
+					uv0:doBuffUpdate()
+					uv0:doCellFlagUpdate()
+					uv0:doExtraFlagUpdate()
+
+					if uv1.type == ChapterConst.OpRetreat then
+						if not uv1.id then
+							uv1.win = uv0.chapter:CheckChapterWillWin()
+
+							if uv1.win then
+								uv0.chapter:UpdateProgressOnRetreat()
+							end
+
+							slot4 = pg.TimeMgr.GetInstance()
+
+							if uv1.win and slot2:getMapById(slot3:getConfig("map")):getMapType() == Map.ELITE and slot4:IsSameDay(slot3:getStartTime(), slot4:GetServerTime()) then
+								getProxy(DailyLevelProxy):EliteCountPlus()
+							end
+
+							if slot3:getPlayType() == ChapterConst.TypeMainSub and (uv1.win or not slot3:isValid()) then
+								slot3:retreat(uv1.win)
+								slot3:clearSubChapter()
+								slot2:updateChapter(slot3, ChapterConst.DirtyMapItems)
+								uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
+									type = uv1.type,
+									win = uv1.win
+								})
+
+								return
+							end
+						end
+
+						uv0:doRetreat()
+					elseif uv1.type == ChapterConst.OpBox then
+						uv0:doCollectAI()
+						uv0:doOpenBox()
+					elseif uv1.type == ChapterConst.OpStory then
+						uv0:doCollectAI()
+						uv0:doPlayStory()
+					elseif uv1.type == ChapterConst.OpAmbush then
+						uv0:doAmbush()
+					elseif uv1.type == ChapterConst.OpStrategy then
+						uv0:doCollectAI()
+						uv0:doStrategy()
+					elseif uv1.type == ChapterConst.OpRepair then
+						uv0:doRepair()
+					elseif uv1.type == ChapterConst.OpSupply then
+						uv0:doSupply()
+					elseif uv1.type == ChapterConst.OpEnemyRound then
+						uv0:doCollectAI()
+						uv0:doEnemyRound()
+					elseif uv1.type == ChapterConst.OpSubState then
+						uv0:doSubState()
+					elseif uv1.type == ChapterConst.OpBarrier then
+						uv0:doBarrier()
+					elseif uv1.type == ChapterConst.OpRequest then
+						uv0:doRequest()
+					elseif uv1.type == ChapterConst.OpSkipBattle then
+						uv0:doSkipBattle()
+					elseif uv1.type == ChapterConst.OpSubTeleport then
+						uv0:doTeleportSub()
+						uv0:doTeleportByPortal()
+					end
 				end
 
-				if uv1.type ~= ChapterConst.OpEnemyRound and uv1.type ~= ChapterConst.OpMove then
+				if uv1.type == ChapterConst.OpEnemyRound or uv1.type == ChapterConst.OpMove then
+					slot2:updateChapter(uv0.chapter, uv0.flag)
+				else
 					uv0.flag = bit.bor(uv0.flag, uv0.extraFlag)
+
+					slot2:updateChapter(uv0.chapter, uv0.flag)
 				end
 
-				slot2:updateChapter(uv0.chapter, uv0.flag)
 				uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
 					type = uv1.type,
 					id = uv1.id,
@@ -125,8 +131,6 @@ function slot0.execute(slot0, slot1)
 					aiActs = uv0.aiActs,
 					extraFlag = uv0.extraFlag or 0,
 					oldLine = uv1.ordLine,
-					extraFlagRemoveList = slot0.del_flag_list,
-					extraFlagAddList = slot0.add_flag_list,
 					win = uv1.win,
 					teleportPaths = uv0.teleportPaths,
 					chapterVO = uv0.chapter

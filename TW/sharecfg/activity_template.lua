@@ -9329,6 +9329,47 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40418] = {
+		mark = 20210930,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40418,
+		config_data = {
+			16057
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[40419] = {
 		mark = 20210923,
 		title_res_tag = "",
@@ -9999,6 +10040,272 @@ pg.activity_template = {
 					2021,
 					10,
 					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40434] = {
+		mark = 20210930,
+		config_client = "",
+		title_res_tag = "FourthJp",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 25,
+		id = 40434,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FourthJpPage",
+			ui_name = "FourthJpPage"
+		}
+	},
+	[40435] = {
+		mark = 20210930,
+		id = 40435,
+		title_res_tag = "yindi_main",
+		type = 14,
+		login_pop = 0,
+		config_id = 20,
+		is_show = 24,
+		config_data = {
+			1180,
+			1181,
+			1182,
+			1183,
+			1184,
+			1186,
+			1187,
+			1188,
+			1189,
+			1190,
+			1191,
+			1192,
+			1193,
+			1194,
+			1195,
+			1196,
+			1197,
+			1198,
+			1199,
+			1200,
+			1201,
+			1202,
+			1203
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YinDiMainPage",
+			ui_name = "YinDiMainPage"
+		},
+		config_client = {
+			"commonbg/bg_pt_meifu2",
+			{
+				1,
+				0.97,
+				0.89,
+				1
+			},
+			pt_id = 165,
+			painting = "bolisi_pt",
+			outline = {
+				0,
+				0,
+				0,
+				0.8
+			}
+		}
+	},
+	[40436] = {
+		mark = 20210930,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40436,
+		config_data = {
+			15811,
+			15812,
+			15813,
+			15814,
+			15815,
+			15816,
+			15817,
+			15818,
+			15819,
+			15820,
+			15821,
+			15822,
+			15823,
+			15824
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40437] = {
+		mark = 20210930,
+		title_res_tag = "eatFood",
+		type = 57,
+		login_pop = 0,
+		config_id = 24,
+		is_show = 23,
+		config_data = "0",
+		config_client = "",
+		id = 40437,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EatFoodPage",
+			ui_name = "EatFoodPage"
+		}
+	},
+	[40438] = {
+		mark = 20210930,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40438,
+		config_data = {
+			15825,
+			15826,
+			15827,
+			15828,
+			15829,
+			15830
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
 				},
 				{
 					23,
@@ -11312,6 +11619,7 @@ pg.activity_template = {
 		40415,
 		40416,
 		40417,
+		40418,
 		40419,
 		40420,
 		40421,
@@ -11327,6 +11635,11 @@ pg.activity_template = {
 		40431,
 		40432,
 		40433,
+		40434,
+		40435,
+		40436,
+		40437,
+		40438,
 		45000,
 		45001,
 		45002,

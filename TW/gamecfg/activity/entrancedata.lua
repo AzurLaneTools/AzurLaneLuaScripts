@@ -280,7 +280,7 @@ return {
 
 			slot1:setDataBeforeGet()
 
-			if slot1:isBuildType() then
+			if slot1:isPassType() then
 				return false
 			end
 

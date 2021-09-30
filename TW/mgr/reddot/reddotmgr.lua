@@ -142,6 +142,7 @@ function slot0.UnRegisterRedDotNode(slot0, slot1)
 
 		for slot12, slot13 in ipairs(slot8) do
 			if slot13 == slot1 then
+				slot13:Remove()
 				table.remove(slot8, slot12)
 			end
 		end

@@ -4379,6 +4379,108 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100006] = {
+		belong = 1,
+		describe = "就是今天，你也能成為展台上最閃亮的那顆星星！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "閃亮的舞台秀",
+		tag = 6,
+		icon = "qiandaowutaiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100006,
+		can_rotate = 0,
+		size = {
+			10,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xingguangwutaiB",
+				"normal"
+			},
+			{
+				"xingguangwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"dance",
+						0,
+						"stand2"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					},
+					{
+						"motou",
+						0,
+						"dance"
+					},
+					{
+						"dance2",
+						0,
+						"dance"
+					},
+					{
+						"normal",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"xingguangwutaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		spine_extra = "",
 		describe = "到處都是破洞的地板，注意不要踩到洞裡啊",
@@ -69928,6 +70030,7 @@ pg.furniture_data_template = {
 		100003,
 		100004,
 		100005,
+		100006,
 		1001,
 		1002,
 		1101,

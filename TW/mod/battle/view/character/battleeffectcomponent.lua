@@ -92,7 +92,7 @@ function slot5.DoWhenAddBuff(slot0, slot1)
 	if slot4.last_effect ~= nil and slot4.last_effect ~= "" then
 		slot0._buffLastEffects[slot2] = slot0._owner:AddFX(slot4.last_effect)
 
-		if slot4.last_effect_cld_scale then
+		if slot4.last_effect_cld_scale or slot4.last_effect_cld_angle then
 			slot6 = nil
 
 			for slot11, slot12 in ipairs(slot4[slot3] or slot4.effect_list) do
@@ -104,19 +104,25 @@ function slot5.DoWhenAddBuff(slot0, slot1)
 			end
 
 			if slot6 then
-				slot9 = slot5.transform.localScale
+				if slot4.last_effect_cld_scale then
+					slot9 = slot5.transform.localScale
 
-				if slot6.arg_list.cld_data.box.range then
-					slot9.x = slot9.x * slot8.range
-					slot9.y = slot9.y * slot8.range
-					slot9.z = slot9.z * slot8.range
-				else
-					slot9.x = slot9.x * slot8[1]
-					slot9.y = slot9.y * slot8[2]
-					slot9.z = slot9.z * slot8[3]
+					if slot6.arg_list.cld_data.box.range then
+						slot9.x = slot9.x * slot8.range
+						slot9.y = slot9.y * slot8.range
+						slot9.z = slot9.z * slot8.range
+					else
+						slot9.x = slot9.x * slot8[1]
+						slot9.y = slot9.y * slot8[2]
+						slot9.z = slot9.z * slot8[3]
+					end
+
+					slot5.transform.localScale = slot9
 				end
 
-				slot5.transform.localScale = slot9
+				if slot4.last_effect_cld_angle then
+					slot5.transform:Find("scale/sector"):GetComponent(typeof(Renderer)).material:SetInt("_AngleControl", (360 - slot6.arg_list.cld_data.angle) * 0.5 - 5)
+				end
 			end
 		end
 

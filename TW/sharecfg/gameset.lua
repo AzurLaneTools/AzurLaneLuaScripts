@@ -164,10 +164,6 @@ pg.gameset = {
 		description = "",
 		key_value = 10
 	},
-	same_color_lesson_addition = {
-		description = "",
-		key_value = 50
-	},
 	test_ship_config_1 = {
 		description = "",
 		key_value = 100001
@@ -2115,6 +2111,29 @@ pg.gameset = {
 				"bg_main_night",
 				"idom-Tender"
 			}
+		}
+	},
+	class_upgrade_reset_time = {
+		key_value = 0,
+		description = {
+			{
+				2021,
+				9,
+				30
+			},
+			{
+				16,
+				0,
+				0
+			}
+		}
+	},
+	ship_exp_books = {
+		key_value = 0,
+		description = {
+			16501,
+			16502,
+			16503
 		}
 	}
 }

@@ -671,6 +671,55 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[20017] = {
+		id = 20017,
+		name = "蛋船固定移动ai-24",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -15,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[20018] = {
+		id = 20018,
+		name = "战术研修-飞龙后退",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					z = 55,
+					valve = 1,
+					x = -5
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[30000] = {
 		id = 30000,
 		name = "转圈小范围 顺时针",

@@ -149,7 +149,7 @@ end
 
 function slot0.getPanelActivities(slot0)
 	return _(_.values(slot0.data)):chain():filter(function (slot0)
-		if slot0:isShow() then
+		if slot0:isShow() and not slot0:isAfterShow() then
 			if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD then
 				slot2 = slot0.data2 == 0
 			elseif slot1 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
@@ -293,6 +293,17 @@ function slot0.getActivityById(slot0, slot1)
 end
 
 function slot0.updateActivity(slot0, slot1)
+	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_CRUSING then
+		slot2 = pg.battlepass_event_pt[slot1.id].target
+
+		if slot0.data[slot1.id].data1 < slot2[#slot2] and slot1.data1 - slot0.data[slot1.id].data1 > 0 then
+			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_CRUSING, {
+				ptId = pg.battlepass_event_pt[slot1.id].pt,
+				ptCount = slot1.data1 - slot0.data[slot1.id].data1
+			})
+		end
+	end
+
 	slot0.data[slot1.id] = slot1
 
 	slot0.facade:sendNotification(uv0.ACTIVITY_UPDATED, slot1:clone())

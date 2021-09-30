@@ -188,41 +188,52 @@ function slot0.StaticJudgeOverflow(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot15 = false
 		slot16 = false
 		slot17 = false
-		slot18 = {}
+		slot18 = false
+		slot19 = {}
 
-		for slot23, slot24 in ipairs(slot5) do
-			if slot24[1] == DROP_TYPE_RESOURCE then
-				if slot24[2] == PlayerConst.ResGold then
-					if (slot0 or slot6.gold) + slot24[3] - pg.gameset.max_gold.key_value > 0 then
+		for slot24, slot25 in ipairs(slot5) do
+			if slot25[1] == DROP_TYPE_RESOURCE then
+				if slot25[2] == PlayerConst.ResGold then
+					if (slot0 or slot6.gold) + slot25[3] - pg.gameset.max_gold.key_value > 0 then
 						slot14 = true
 
-						table.insert(slot18, {
+						table.insert(slot19, {
 							type = DROP_TYPE_RESOURCE,
 							id = PlayerConst.ResGold,
-							count = setColorStr(slot28, COLOR_RED)
+							count = setColorStr(slot29, COLOR_RED)
 						})
 					end
-				elseif slot26 == PlayerConst.ResOil and slot9 + slot27 - slot12 > 0 then
+				elseif slot27 == PlayerConst.ResOil and slot9 + slot28 - slot12 > 0 then
 					slot15 = true
 
-					table.insert(slot18, {
+					table.insert(slot19, {
 						type = DROP_TYPE_RESOURCE,
 						id = PlayerConst.ResOil,
-						count = setColorStr(slot28, COLOR_RED)
+						count = setColorStr(slot29, COLOR_RED)
 					})
 				end
-			elseif not LOCK_UR_SHIP and slot25 == DROP_TYPE_VITEM and pg.item_data_statistics[slot26].virtual_type == 20 and slot10 + slot27 - slot13 > 0 then
-				slot16 = true
+			elseif not LOCK_UR_SHIP and slot26 == DROP_TYPE_VITEM then
+				if pg.item_data_statistics[slot27].virtual_type == 20 and slot10 + slot28 - slot13 > 0 then
+					slot16 = true
 
-				table.insert(slot18, {
-					type = DROP_TYPE_VITEM,
-					id = slot7,
-					count = setColorStr(slot29, COLOR_RED)
+					table.insert(slot19, {
+						type = DROP_TYPE_VITEM,
+						id = slot7,
+						count = setColorStr(slot30, COLOR_RED)
+					})
+				end
+			elseif slot26 == DROP_TYPE_ITEM and pg.item_data_statistics[slot27].type == Item.EXP_BOOK_TYPE and pg.item_data_statistics[slot27].max_num < getProxy(BagProxy):getItemCountById(slot27) + slot28 then
+				slot17 = true
+
+				table.insert(slot19, {
+					type = DROP_TYPE_ITEM,
+					id = slot27,
+					count = setColorStr(math.min(slot28, slot29 - slot30), COLOR_RED)
 				})
 			end
 		end
 
-		return slot14 or slot15 or slot16, slot18
+		return slot14 or slot15 or slot16 or slot17, slot19
 	end
 end
 
@@ -244,6 +255,20 @@ function slot0.GetRealType(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.IsOverflowShipExpItem(slot0)
+	for slot7, slot8 in ipairs(slot0:getConfig("award_display")) do
+		slot10 = slot8[2]
+
+		if slot8[1] == DROP_TYPE_ITEM and pg.item_data_statistics[slot10].type == Item.EXP_BOOK_TYPE and (function (slot0, slot1)
+			return pg.item_data_statistics[slot0].max_num < getProxy(BagProxy):getItemCountById(slot0) + slot1
+		end)(slot10, slot8[3]) then
+			return true
+		end
+	end
+
+	return false
 end
 
 return slot0

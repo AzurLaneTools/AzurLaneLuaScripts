@@ -36,6 +36,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.outline = findTF(slot0.attrs, "level_bg/outline")
 	slot0.levelTip = findTF(slot0.attrs, "level_bg/tip")
 	slot0.levelBg = findTF(slot0.attrs, "level_bg")
+	slot0.expTip = findTF(slot0.attrs, "level_bg/exp_tip")
 	slot0.armorNameTxt = slot0.attrs:Find("icons"):GetChild(1):Find("name")
 end
 
@@ -212,6 +213,23 @@ function slot0.updateLevelInfo(slot0)
 	end
 
 	slot0:updateMaxLevel(slot1)
+	slot0:UpdateExpTip(slot1)
+end
+
+function slot0.UpdateExpTip(slot0, slot1)
+	setActive(slot0.expTip, not slot1:isReachNextMaxLevel() and not (slot1.maxLevel <= slot1.level))
+	onButton(slot0, slot0.expTip, function ()
+		if uv0:isActivityNpc() then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("coures_exp_npc_tip"),
+				onYes = function ()
+					uv0:emit(ShipViewConst.SHOW_EXP_ITEM_USAGE, uv1)
+				end
+			})
+		else
+			uv1:emit(ShipViewConst.SHOW_EXP_ITEM_USAGE, uv0)
+		end
+	end, SFX_PANEL)
 end
 
 function slot0.updateMaxLevel(slot0, slot1)

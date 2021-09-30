@@ -595,8 +595,7 @@ function slot9.appendMainUnit(slot0, slot1)
 	slot0._mainList[#slot0._mainList + 1] = slot1
 
 	if ShipType.CloakShipType(slot1:GetTemplate().type) then
-		slot2 = slot1:InitCloak()
-		slot0._cloakList[#slot0._cloakList + 1] = slot1
+		slot0:AttachCloak(slot1)
 	end
 
 	for slot6, slot7 in ipairs(slot1:GetChargeList()) do
@@ -1144,4 +1143,26 @@ function slot9.CloakOutVision(slot0)
 	for slot4, slot5 in ipairs(slot0._cloakList) do
 		slot5:GetCloak():AppendExposeSpeed(0)
 	end
+end
+
+function slot9.AttachCloak(slot0, slot1)
+	if not slot1:GetCloak() then
+		slot1:InitCloak()
+
+		slot0._cloakList[#slot0._cloakList + 1] = slot1
+	end
+end
+
+function slot9.AttachNightCloak(slot0)
+	slot0._scoutAimBias = uv0.Battle.BattleUnitAimBiasComponent.New()
+
+	slot0._scoutAimBias:ConfigRangeFormula(uv1.CalculateMaxAimBiasRange, uv1.CalculateBiasDecay)
+	slot0._scoutAimBias:Active(slot0._scoutAimBias.STATE_ACTIVITING)
+	slot0:DispatchEvent(uv0.Event.New(uv2.ADD_AIM_BIAS, {
+		aimBias = slot0._scoutAimBias
+	}))
+end
+
+function slot9.GetFleetBias(slot0)
+	return slot0._scoutAimBias
 end
