@@ -389,7 +389,7 @@ function slot0.updateShipItemList(slot0, slot1, slot2)
 				setText(uv0:findTF("NumText", slot13), "+" .. pg.fleet_tech_ship_template[slot26].add_get_value)
 				setActive(slot12, true)
 
-				if uv0.collectionProxy:getShipGroup(slot26).maxLV < 120 then
+				if uv0.collectionProxy:getShipGroup(slot26).maxLV < TechnologyConst.SHIP_LEVEL_FOR_BUFF then
 					setActive(uv0:findTF("BottomBG/StatusResearching", slot2), true)
 					setActive(uv0:findTF("BottomBG/StatusUnknow", slot2), false)
 					setActive(slot17, false)

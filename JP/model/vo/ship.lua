@@ -1569,7 +1569,9 @@ function slot0.SetPreferenceTag(slot0, slot1)
 end
 
 function slot0.calReturnRes(slot0)
-	return math.floor((30 + slot0.level * pg.ship_data_by_type[slot0:getShipType()].distory_resource_gold_ratio) / 10), math.floor((30 + slot0.level * pg.ship_data_by_type[slot0:getShipType()].distory_resource_oil_ratio) / 10), pg.ship_data_by_star[slot0:getConfig("rarity")].destory_item
+	slot2 = pg.ship_data_by_type[slot0:getShipType()].distory_resource_oil_ratio
+
+	return pg.ship_data_by_type[slot0:getShipType()].distory_resource_gold_ratio, 0, pg.ship_data_by_star[slot0:getConfig("rarity")].destory_item
 end
 
 function slot0.getRarity(slot0)

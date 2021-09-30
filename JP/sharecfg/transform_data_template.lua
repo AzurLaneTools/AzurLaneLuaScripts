@@ -14869,7 +14869,11 @@ pg.transform_data_template = {
 		use_gold = 4000,
 		name = "近代化改修",
 		star_limit = 5,
-		descrip = "",
+		descrip = [[
+改造（近代化改修）完了　雷装+20，回避+25
+<color=#92fc63>【魚雷装填数-1】</color> <color=#92fc63>【主砲砲座+1】</color>
+スキル<color=#92fc63>【ソロモンの悪夢】</color>が<color=#92fc63>【ソロモンの悪夢・改】</color>に変更
+スキル<color=#92fc63>【特殊弾幕の-夕立II】</color>が<color=#92fc63>【特殊弾幕-夕立III】</color>に変更]],
 		max_level = 1,
 		skin_id = 301149,
 		use_ship = 1,
