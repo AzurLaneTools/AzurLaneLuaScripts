@@ -674,41 +674,52 @@ pg.enemy_data_statistics_31 = {
 			300535
 		}
 	},
-	[762] = {
-		cannon = 0,
-		battle_unit_type = 70,
-		fog_fx = "",
+	[761] = {
+		cannon = 280,
+		name = "フッド",
+		antiaircraft_growth = 0,
 		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 350,
-		speed = 20,
-		dodge = 45,
-		id = 762,
+		fog_fx = "",
+		air = 0,
+		air_growth = 0,
+		dodge = 35,
+		luck = 25,
+		id = 761,
 		cannon_growth = 0,
-		rarity = 5,
 		reload_growth = 0,
 		dodge_growth = 0,
-		armor = 0,
-		star = 6,
+		speed = 20,
+		star = 5,
 		hit = 75,
 		antisub_growth = 0,
-		air_growth = 0,
+		rarity = 5,
 		reload = 150,
-		base = 242,
+		base = 218,
 		durability = 1500000,
 		armor_growth = 0,
 		torpedo_growth = 0,
-		luck_growth = 0,
+		antiaircraft = 600,
 		hit_growth = 0,
-		luck = 25,
+		armor = 0,
 		torpedo = 0,
 		durability_growth = 0,
 		antisub = 0,
-		antiaircraft = 600,
-		antiaircraft_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
 		appear_fx = {
 			"appearQ"
 		},
-		equipment_list = {}
+		equipment_list = {
+			300536,
+			300537,
+			300538,
+			300539
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 2
+			}
+		}
 	}
 }

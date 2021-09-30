@@ -44274,7 +44274,7 @@ pg.chapter_template_loop = {
 			{
 				"antiaircraft",
 				1,
-				2400
+				3400
 			}
 		},
 		expedition_id_weight_list = {},
@@ -44744,7 +44744,7 @@ pg.chapter_template_loop = {
 			{
 				"antiaircraft",
 				1,
-				2500
+				3500
 			}
 		},
 		expedition_id_weight_list = {},
@@ -45325,7 +45325,7 @@ pg.chapter_template_loop = {
 			{
 				"antiaircraft",
 				1,
-				2600
+				3600
 			}
 		},
 		expedition_id_weight_list = {},
@@ -45942,7 +45942,7 @@ pg.chapter_template_loop = {
 			{
 				"antiaircraft",
 				1,
-				2700
+				3700
 			}
 		},
 		expedition_id_weight_list = {},

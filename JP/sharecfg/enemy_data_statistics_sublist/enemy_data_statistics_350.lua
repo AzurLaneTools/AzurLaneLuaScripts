@@ -1,5 +1,36 @@
 pg = pg or {}
 pg.enemy_data_statistics_350 = {
+	[15102501] = {
+		cannon = 115,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		base = 535,
+		air = 188,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "jiguan_shui",
+		antiaircraft_growth = 0,
+		hit = 30,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 9999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 15102501,
+		equipment_list = {}
+	},
 	[15102502] = {
 		cannon = 115,
 		reload = 150,
@@ -548,48 +579,5 @@ pg.enemy_data_statistics_350 = {
 			1000818,
 			1000823
 		}
-	},
-	[15103201] = {
-		cannon = 60,
-		hit_growth = 210,
-		luck_growth = 0,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 36,
-		dodge = 19,
-		id = 15103201,
-		cannon_growth = 1200,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 270,
-		luck = 0,
-		reload = 150,
-		hit = 24,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 205,
-		base = 248,
-		durability = 8140,
-		armor_growth = 0,
-		torpedo_growth = 3000,
-		antiaircraft = 105,
-		battle_unit_type = 90,
-		armor = 0,
-		durability_growth = 115200,
-		bubble_fx = "",
-		antisub = 0,
-		antiaircraft_growth = 2800,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			1000713,
-			1000718,
-			1000723,
-			1000728,
-			1000733
-		},
-		buff_list = {}
 	}
 }

@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_48 = {
+	[6002] = {
+		cannon = 30,
+		name = "アカツキ",
+		antiaircraft_growth = 1638,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		air_growth = 0,
+		dodge = 15,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 480,
+		reload_growth = 0,
+		dodge_growth = 222,
+		reload = 150,
+		star = 4,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 3,
+		fog_fx = "",
+		base = 161,
+		durability = 1200,
+		armor_growth = 0,
+		torpedo_growth = 5000,
+		antiaircraft = 20,
+		hit_growth = 210,
+		armor = 0,
+		speed = 33,
+		torpedo = 100,
+		id = 6002,
+		durability_growth = 24500,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		equipment_list = {
+			100222,
+			100432
+		}
+	},
 	[6003] = {
 		cannon = 30,
 		name = "シグレ",
@@ -661,68 +699,6 @@ pg.enemy_data_statistics_48 = {
 				ID = 50510,
 				LV = 3
 			}
-		}
-	},
-	[6018] = {
-		cannon = 20,
-		name = "戦艦キリシマ",
-		antiaircraft_growth = 1521,
-		speed_growth = 0,
-		reload = 150,
-		air = 0,
-		fog_fx = "",
-		dodge = 0,
-		speed = 15,
-		luck = 0,
-		id = 6018,
-		reload_growth = 0,
-		dodge_growth = 0,
-		air_growth = 0,
-		star = 5,
-		hit = 8,
-		antisub_growth = 0,
-		rarity = 4,
-		cannon_growth = 1638,
-		base = 118,
-		durability = 824,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 18,
-		hit_growth = 120,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 44200,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 55,
-		fx_container = {
-			{
-				1.47,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.1,
-				0.137,
-				-0.7175
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		appear_fx = {
-			"appearbig"
-		},
-		equipment_list = {
-			300007,
-			316035
 		}
 	}
 }

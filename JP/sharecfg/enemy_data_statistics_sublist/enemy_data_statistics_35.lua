@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.enemy_data_statistics_35 = {
+	[912] = {
+		cannon = 10,
+		name = "チェイサーⅠ型",
+		reload = 150,
+		fog_fx = "",
+		base = 249,
+		air = 0,
+		battle_unit_type = 52,
+		dodge = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 0,
+		torpedo = 30,
+		durability = 4400,
+		antiaircraft = 250,
+		speed = 20,
+		armor = 0,
+		id = 912,
+		equipment_list = {
+			531005,
+			531006,
+			531007,
+			531008
+		}
+	},
 	[913] = {
 		cannon = 20,
 		name = "ナビゲーターⅠ型",
@@ -577,48 +602,6 @@ pg.enemy_data_statistics_35 = {
 		antiaircraft_growth = 0,
 		equipment_list = {
 			201109
-		}
-	},
-	[1000] = {
-		cannon = 3,
-		name = "量産型マハン級",
-		antiaircraft_growth = 666,
-		speed_growth = 0,
-		pilot_ai_template_id = 20005,
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 1000,
-		cannon_growth = 270,
-		reload_growth = 0,
-		dodge_growth = 0,
-		reload = 150,
-		star = 2,
-		hit = 8,
-		antisub_growth = 0,
-		rarity = 1,
-		fog_fx = "",
-		base = 100,
-		durability = 52,
-		armor_growth = 0,
-		torpedo_growth = 1440,
-		antiaircraft = 8,
-		hit_growth = 120,
-		armor = 0,
-		speed = 15,
-		torpedo = 17,
-		antisub = 0,
-		durability_growth = 1600,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			311002,
-			311004,
-			311092
 		}
 	}
 }

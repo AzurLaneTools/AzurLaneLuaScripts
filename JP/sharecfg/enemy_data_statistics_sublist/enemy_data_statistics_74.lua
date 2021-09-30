@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_74 = {
+	[102016] = {
+		cannon = 45,
+		name = "量産型自爆ボート",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		pilot_ai_template_id = 80000,
+		air = 0,
+		air_growth = 0,
+		dodge = 0,
+		luck = 0,
+		id = 102016,
+		cannon_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		reload = 150,
+		star = 2,
+		hit = 81,
+		antisub_growth = 0,
+		rarity = 1,
+		fog_fx = "",
+		base = 80,
+		durability = 72,
+		armor_growth = 0,
+		torpedo_growth = 900,
+		antiaircraft = 0,
+		hit_growth = 1200,
+		armor = 0,
+		speed = 30,
+		torpedo = 22,
+		antisub = 0,
+		durability_growth = 1785,
+		luck_growth = 0,
+		battle_unit_type = 15,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300003
+		}
+	},
 	[102017] = {
 		cannon = 0,
 		name = "輸送艦",
@@ -699,47 +739,6 @@ pg.enemy_data_statistics_74 = {
 		battle_unit_type = 50,
 		equipment_list = {
 			100221,
-			100431
-		}
-	},
-	[103006] = {
-		cannon = 80,
-		name = "シラヌイ",
-		antiaircraft_growth = 1638,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		air_growth = 0,
-		dodge = 15,
-		luck = 0,
-		id = 103006,
-		cannon_growth = 468,
-		reload_growth = 0,
-		dodge_growth = 222,
-		reload = 150,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 2,
-		fog_fx = "",
-		base = 170,
-		durability = 600,
-		armor_growth = 0,
-		torpedo_growth = 4491,
-		antiaircraft = 88,
-		hit_growth = 210,
-		armor = 0,
-		speed = 30,
-		torpedo = 300,
-		antisub = 0,
-		durability_growth = 15600,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100211,
 			100431
 		}
 	}

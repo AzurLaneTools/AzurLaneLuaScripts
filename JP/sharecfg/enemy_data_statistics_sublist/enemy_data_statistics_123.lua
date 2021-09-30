@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.enemy_data_statistics_123 = {
+	[10044056] = {
+		cannon = 150,
+		name = "ショウカク",
+		antiaircraft_growth = 4446,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 120,
+		air_growth = 3888,
+		dodge = 6,
+		speed = 22,
+		luck = 0,
+		id = 10044056,
+		reload_growth = 0,
+		dodge_growth = 84,
+		fog_fx = "",
+		star = 6,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 5,
+		cannon_growth = 0,
+		base = 243,
+		durability = 4200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 240,
+		hit_growth = 210,
+		armor = 0,
+		reload = 150,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 122000,
+		luck_growth = 0,
+		battle_unit_type = 75,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							-0.03,
+							0.94
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.59,
+							1.23,
+							2.53
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			513115,
+			513116,
+			513818,
+			513819,
+			513820
+		}
+	},
 	[10044057] = {
 		cannon = 150,
 		name = "ズイカク",
@@ -672,48 +744,6 @@ pg.enemy_data_statistics_123 = {
 		equipment_list = {
 			100217,
 			510149,
-			313091
-		}
-	},
-	[10045002] = {
-		cannon = 75,
-		name = "量産型カゲロウ級",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		pilot_ai_template_id = 20005,
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 10045002,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		reload = 150,
-		star = 2,
-		hit = 35,
-		antisub_growth = 0,
-		rarity = 1,
-		fog_fx = "",
-		base = 105,
-		durability = 790,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 160,
-		hit_growth = 0,
-		armor = 0,
-		speed = 15,
-		torpedo = 350,
-		antisub = 0,
-		durability_growth = 17500,
-		luck_growth = 0,
-		battle_unit_type = 25,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			100216,
-			100406,
 			313091
 		}
 	}

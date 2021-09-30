@@ -75,6 +75,9 @@ function slot0.didEnter(slot0)
 							return underscore.all(slot0, function (slot0)
 								return slot0:isReceive()
 							end) and 1 or 0
+						end,
+						function (slot0)
+							return slot0[1].id
 						end
 					})
 				end)

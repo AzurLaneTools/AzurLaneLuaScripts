@@ -9,6 +9,7 @@ slot0.Buildings = {
 	[16.0] = "jiujiupubu",
 	[14.0] = "jiujiutiaoshui"
 }
+slot1 = 23
 
 function slot0.init(slot0)
 	slot0.top = slot0:findTF("Top")
@@ -179,9 +180,9 @@ function slot0.UpdateView(slot0)
 		slot0.Respones[slot8 .. "Tip"] = slot0:UpdateBuildingTip(slot7)
 	end
 
-	slot0.Respones.jiujiudalaotuanTip = getProxy(MiniGameProxy):GetHubByHubId(slot3:getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0
+	slot0.Respones.jiujiudalaotuanTip = getProxy(MiniGameProxy):GetHubByHubId(uv0).count > 0
 
-	slot0:UpdateHubData(slot6)
+	slot0:UpdateHubData(slot5)
 end
 
 function slot0.onBackPressed(slot0)
