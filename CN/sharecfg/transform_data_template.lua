@@ -14868,7 +14868,12 @@ pg.transform_data_template = {
 		use_gold = 4000,
 		name = "近代化改造",
 		star_limit = 5,
-		descrip = "近代化改造完成，雷击+20，机动+25",
+		descrip = [[
+近代化改造完成，雷击+20，机动+25
+
+改造后<color=#92fc63>【鱼雷底座-1】</color> <color=#92fc63>【主炮底座+1】</color>
+技能<color=#92fc63>【所罗门的噩梦】</color>将升级为<color=#92fc63>【所罗门的噩梦.改】</color>
+技能<color=#92fc63>【专属弹幕-{namecode:16}II】</color>将升级为<color=#92fc63>【专属弹幕-{namecode:16}III】</color>]],
 		max_level = 1,
 		skin_id = 301149,
 		use_ship = 1,

@@ -101,7 +101,7 @@ function slot0.updateDetail(slot0)
 		setImageColor(slot0.allStarStatusImg, Color.New(1, 0.9137254901960784, 0.4470588235294118, 1))
 	end
 
-	if slot0.maxLV >= 120 then
+	if TechnologyConst.SHIP_LEVEL_FOR_BUFF <= slot0.maxLV then
 		setImageColor(slot0.statusCompleteImg, Color.New(1, 0.9137254901960784, 0.4470588235294118, 1))
 	end
 
@@ -139,7 +139,7 @@ function slot0.updateDetail(slot0)
 			slot7 = uv0:findTF("ValueText", slot2)
 			slot10 = nil
 
-			if uv0.maxLV >= 120 then
+			if TechnologyConst.SHIP_LEVEL_FOR_BUFF <= uv0.maxLV then
 				slot10 = uv0.typeToColor[uv1[slot1 + 1]]
 
 				setGray(uv0:findTF("BG", slot2), false)

@@ -93,10 +93,16 @@ function slot0.RefreshRes(slot0)
 				slot4 = uv0
 				slot3 = "Props/gold"
 			elseif slot1 == 1 then
-				slot4 = uv1
-				slot3 = "Props/oil"
+				if not uv1 then
+					slot4 = uv2
+					slot3 = "Props/oil"
+				else
+					slot5 = uv3[1]
+					slot4 = slot5.count
+					slot3 = pg.item_data_statistics[slot5.id].icon
+				end
 			else
-				slot5 = uv2[slot1 - 1]
+				slot5 = uv1 and uv3[slot1] or uv3[slot1 - 1]
 				slot4 = slot5.count
 				slot3 = pg.item_data_statistics[slot5.id].icon
 			end
@@ -105,7 +111,7 @@ function slot0.RefreshRes(slot0)
 			setText(slot2:Find("Text"), "X" .. slot4)
 		end
 	end)
-	slot0.resList:align(2 + #slot5)
+	slot0.resList:align((slot4 == 0 and 1 or 2) + #slot5)
 end
 
 function slot0.Show(slot0)
