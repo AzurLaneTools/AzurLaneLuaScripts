@@ -1887,10 +1887,16 @@ function slot0.updateDestroyRes(slot0)
 					slot4 = uv0
 					slot3 = "Props/gold"
 				elseif slot1 == 1 then
-					slot4 = uv1
-					slot3 = "Props/oil"
-				else
-					slot5 = uv2[slot1 - 1]
+					if not uv1 then
+						slot4 = uv2
+						slot3 = "Props/oil"
+					else
+						slot5 = uv3[1]
+						slot4 = slot5.count
+						slot3 = pg.item_data_statistics[slot5.id].icon
+					end
+				elseif slot1 > 1 then
+					slot5 = uv1 and uv3[slot1] or uv3[slot1 - 1]
 					slot4 = slot5.count
 					slot3 = pg.item_data_statistics[slot5.id].icon
 				end
@@ -1899,7 +1905,7 @@ function slot0.updateDestroyRes(slot0)
 				setText(slot2:Find("Text"), "X" .. slot4)
 			end
 		end)
-		slot0.destroyResList:align(2 + #slot4)
+		slot0.destroyResList:align((slot3 == 0 and 1 or 2) + #slot4)
 	end
 
 	if slot0.destroyPage and slot0.destroyPage:GetLoaded() and slot0.destroyPage:isShowing() then

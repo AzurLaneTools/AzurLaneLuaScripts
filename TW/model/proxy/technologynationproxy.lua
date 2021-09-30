@@ -149,7 +149,7 @@ function slot0.nationPointFilter(slot0)
 			table.insert(slot0.nationToPointLog2[slot6], slot5)
 		end
 
-		if not slot5.maxLV or slot5.maxLV < TechnologyConst.MAX_LV then
+		if not slot5.maxLV or slot5.maxLV < TechnologyConst.SHIP_LEVEL_FOR_BUFF then
 			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_get
 
 			table.insert(slot0.nationToPointLog[slot6][1], slot7)
@@ -197,7 +197,7 @@ function slot0.calculateTecBuff(slot0)
 			end
 		end
 
-		if slot5.maxLV == TechnologyConst.MAX_LV then
+		if TechnologyConst.SHIP_LEVEL_FOR_BUFF <= slot5.maxLV then
 			for slot16, slot17 in ipairs(pg.fleet_tech_ship_template[slot6].add_level_shiptype) do
 				if not slot0.typeBuffList[slot17] then
 					slot0.typeBuffList[slot17] = {

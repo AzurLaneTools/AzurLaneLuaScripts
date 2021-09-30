@@ -489,7 +489,7 @@ return {
 
 			if slot3 then
 				setActive(slot1:Find("Tip"), slot2:readyToAchieve() or (function ()
-					return getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0
+					return getProxy(MiniGameProxy):GetHubByHubId(23).count > 0
 				end)())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.AMUSEMENT_PARK2)
