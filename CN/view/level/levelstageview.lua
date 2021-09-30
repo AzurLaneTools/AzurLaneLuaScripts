@@ -1373,7 +1373,7 @@ function slot0.tryAutoAction(slot0, slot1)
 
 			if slot1 then
 				table.eachAsync(slot1, function (slot0, slot1, slot2)
-					if slot0 <= uv0 and slot1 and #slot1 > 0 then
+					if slot0 <= uv0 and slot1 and (type(slot1) ~= "string" or #slot1 > 0) then
 						ChapterOpCommand.PlayChapterStory(pg.NewStoryMgr:StoryId2StoryName(tonumber(slot1)), slot2, uv1:IsAutoFight())
 					else
 						slot2()

@@ -243,7 +243,7 @@ return {
 	name = "编队外支援炮击",
 	cd = 0,
 	painting = "fusangmeta",
-	id = 800211,
+	id = 800210,
 	picture = "0",
 	castCV = "",
 	desc = "支援炮击",

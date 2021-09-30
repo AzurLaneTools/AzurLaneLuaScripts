@@ -1888,7 +1888,7 @@ function slot0.updateMaxLevelAttrs(slot0, slot1)
 	end
 
 	slot3 = Clone(slot0.shipVOs[slot1.shipId])
-	slot3.level = 120
+	slot3.level = 125
 	slot4 = Clone(slot1)
 	slot4.level = slot1:getMaxLevel()
 	slot9 = false

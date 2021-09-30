@@ -2,7 +2,7 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = "",
+	painting = 0,
 	id = 800210,
 	picture = "0",
 	castCV = "",
