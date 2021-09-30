@@ -38,11 +38,10 @@ function slot0.UpdateActivies(slot0, slot1, slot2)
 		uv0.UpdateActivity(slot8, slot3[slot9])
 	end
 
-	slot7 = ActivityConst.ACTIVITY_TYPE_PT_ACCUM
+	slot7 = ActivityConst.ACTIVITY_TYPE_PT_CRUSING
 
 	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
-		slot10 = nil
-		slot3[slot9] = slot3[slot8:getDataConfig("pt")] or slot2:getResource(slot9) - slot1:getResource(slot9)
+		slot3[slot9] = slot3[pg.battlepass_event_pt[slot8.id].pt] or slot2:getResource(slot9) - slot1:getResource(slot9)
 
 		uv0.UpdateActivity(slot8, slot3[slot9])
 	end
@@ -73,11 +72,13 @@ function slot0.UpdateActivies(slot0, slot1, slot2)
 end
 
 function slot0.UpdateActivity(slot0, slot1)
+	slot0 = getProxy(ActivityProxy):getActivityById(slot0.id)
+
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_RANK then
 		if not slot0:isEnd() and slot1 > 0 then
 			slot0.data1 = slot0.data1 + slot1
 
-			getProxy(ActivityProxy):updateActivity(slot0)
+			slot2:updateActivity(slot0)
 		end
 	elseif slot3 == ActivityConst.ACTIVITY_TYPE_BOSS_RANK then
 		if slot1 ~= 0 then
@@ -85,9 +86,7 @@ function slot0.UpdateActivity(slot0, slot1)
 
 			slot2:updateActivity(slot0)
 		end
-	elseif slot3 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM then
-		slot1 = (slot0:getDataConfig("type") ~= 1 or math.max(slot1, 0)) and (slot0:getDataConfig("type") ~= 2 or math.min(math.max(slot1, 0), 0)) and 0
-
+	elseif slot3 == ActivityConst.ACTIVITY_TYPE_PT_CRUSING then
 		if not slot0:isEnd() and slot1 ~= 0 then
 			slot0.data1 = slot0.data1 + math.abs(slot1)
 

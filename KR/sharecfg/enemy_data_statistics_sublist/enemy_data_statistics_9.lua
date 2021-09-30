@@ -1,5 +1,157 @@
 pg = pg or {}
 pg.enemy_data_statistics_9 = {
+	[229] = {
+		cannon = 0,
+		name = "휴가",
+		type = 5,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 0,
+		armor = 0,
+		id = 229,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "rixiang",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "rixiang",
+		cannon_growth = 0,
+		pilot_ai_template_id = 70003,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 3,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.78,
+					0.99,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.78,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.27,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.78,
+					0.99,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[230] = {
 		cannon = 0,
 		name = "나가토",
@@ -16,14 +168,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "changmen",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 5,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -163,14 +316,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "luao",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 5,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 14,
 		luck = 0,
 		antisub = 0,
@@ -334,14 +488,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "bisimai",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 5,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -488,14 +643,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "tierbici",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 5,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -635,14 +791,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "fengxiang",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 6,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 22,
 		luck = 0,
 		antisub = 0,
@@ -791,14 +948,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "longxiang",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 6,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 22,
 		luck = 0,
 		antisub = 0,
@@ -962,14 +1120,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "xiangfeng",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 6,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -1109,14 +1268,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "salatuojia",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 7,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -1263,14 +1423,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "dahuangfeng",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 7,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -1410,14 +1571,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "chicheng",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 7,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -1557,14 +1719,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "jiahe",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 7,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -1704,14 +1867,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "canglong",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 7,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -1851,14 +2015,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "feilong",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 7,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -1998,14 +2163,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "xianghe",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 7,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -2132,14 +2298,15 @@ pg.enemy_data_statistics_9 = {
 		dodge_growth = 0,
 		icon = "ruihe",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 7,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -2220,153 +2387,6 @@ pg.enemy_data_statistics_9 = {
 							0.932,
 							1.436,
 							1.83
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[245] = {
-		cannon = 0,
-		name = "그라프 체펠린",
-		type = 7,
-		speed_growth = 0,
-		battle_unit_type = 49,
-		air = 0,
-		air_growth = 0,
-		durability = 99999,
-		friendly_cld = 0,
-		armor = 0,
-		id = 245,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "qibolin",
-		star = 0,
-		torpedo = 0,
-		antisub_growth = 0,
-		rarity = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		icon_type = 7,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "qibolin",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 4,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.74,
-					1,
-					0
-				}
-			},
-			plane = {
-				{
-					0.73,
-					1.28,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-1.01,
-							0.86,
-							-1.89
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.87,
-							0.79,
-							-1.85
 						}
 					}
 				}

@@ -37,6 +37,7 @@ function slot5.Init(slot0)
 	slot0._arcEffectList = {}
 	slot0._bulletContainer = GameObject.Find("BulletContainer")
 	slot0._fxPool = uv0.Battle.BattleFXPool.GetInstance()
+	slot0._aimBiasTFList = {}
 
 	uv0.Battle.BattleCharacterFXContainersPool.GetInstance():Init()
 	slot0:InitPlayerAntiAirArea()
@@ -143,11 +144,15 @@ function slot5.AddEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ANTI_AIR_AREA, slot0.onAntiAirArea)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE, slot0.onUpdateHostileSubmarine)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_CAMERA_FX, slot0.onAddCameraFX)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_AIM_BIAS, slot0.onAddAimBias)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_AIM_BIAS, slot0.onRemoveAimBias)
 end
 
 function slot5.RemoveEvent(slot0)
 	slot0._leftFleet:UnregisterEventListener(slot0, uv0.SONAR_SCAN)
 	slot0._leftFleet:UnregisterEventListener(slot0, uv0.SONAR_UPDATE)
+	slot0._leftFleet:UnregisterEventListener(slot0, uv0.ADD_AIM_BIAS)
+	slot0._leftFleet:UnregisterEventListener(slot0, uv0.REMOVE_AIM_BIAS)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.STAGE_DATA_INIT_FINISH)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_UNIT)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_UNIT)
@@ -162,6 +167,8 @@ function slot5.RemoveEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ANTI_AIR_AREA)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_CAMERA_FX)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_AIM_BIAS)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_AIM_BIAS)
 	slot0._cameraUtil:UnregisterEventListener(slot0, uv0.CAMERA_FOCUS_RESET)
 	slot0._cameraUtil:UnregisterEventListener(slot0, uv0.BULLET_TIME)
 end
@@ -173,6 +180,8 @@ function slot5.onStageInitFinish(slot0, slot1)
 	slot0:InitCamera()
 	slot0._leftFleet:RegisterEventListener(slot0, uv1.SONAR_SCAN, slot0.onSonarScan)
 	slot0._leftFleet:RegisterEventListener(slot0, uv1.SONAR_UPDATE, slot0.onUpdateHostileSubmarine)
+	slot0._leftFleet:RegisterEventListener(slot0, uv1.ADD_AIM_BIAS, slot0.onAddAimBias)
+	slot0._leftFleet:RegisterEventListener(slot0, uv1.REMOVE_AIM_BIAS, slot0.onRemoveAimBias)
 end
 
 function slot5.onAddUnit(slot0, slot1)
@@ -248,8 +257,8 @@ function slot5.onAntiAirArea(slot0, slot1)
 		slot0._antiAirArea.gameObject:SetActive(slot1.Data.isShow)
 
 		if slot2 == true then
-			slot3 = slot0._leftFleet:GetFleetAntiAirWeapon():GetRange()
-			slot0._antiAirAreaTF.localScale = Vector3(slot3 * 2, 0, slot3 * 2)
+			slot3 = slot0._leftFleet:GetFleetAntiAirWeapon():GetRange() * 2
+			slot0._antiAirAreaTF.localScale = Vector3(slot3, 0, slot3)
 		end
 	end
 end
@@ -312,6 +321,21 @@ function slot5.onSonarScan(slot0, slot1)
 	end
 end
 
+function slot5.onAddAimBias(slot0, slot1)
+	slot0._aimBiasTFList[slot1.Data.aimBias] = {
+		tf = slot0._fxPool:GetFX("AimBiasArea").transform,
+		vector = Vector3(5, 0, 5)
+	}
+end
+
+function slot5.onRemoveAimBias(slot0, slot1)
+	if slot0._aimBiasTFList[slot1.Data.aimBias] then
+		uv0.Battle.BattleResourceManager.GetInstance():DestroyOb(slot3.tf.gameObject)
+
+		slot0._aimBiasTFList[slot2] = nil
+	end
+end
+
 function slot5.onCameraFocusReset(slot0, slot1)
 	slot0:ResetFocus()
 end
@@ -351,6 +375,7 @@ function slot5.Update(slot0)
 
 	slot0._popNumPool:Update()
 	slot0:UpdateAntiAirArea()
+	slot0:UpdateAimBiasArea()
 	slot0:UpdateFlagShipMark()
 end
 
@@ -475,6 +500,19 @@ function slot5.UpdateAntiAirArea(slot0)
 
 	for slot4, slot5 in pairs(slot0._anitSubAreaTFList) do
 		slot4.position = slot0._leftFleetMotion:GetPos()
+	end
+end
+
+function slot5.UpdateAimBiasArea(slot0)
+	for slot4, slot5 in pairs(slot0._aimBiasTFList) do
+		slot6 = slot5.tf
+		slot7 = slot5.vector
+		slot8 = slot4:GetRange() * 2
+
+		slot7:Set(slot8, 0, slot8)
+
+		slot6.position = slot4:GetPosition()
+		slot6.localScale = slot7
 	end
 end
 

@@ -272,6 +272,7 @@ function slot0.initPages(slot0)
 	slot0.shipHuntingRangeView = ShipHuntingRangeView.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.shipCustomMsgBox = ShipCustomMsgBox.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.shipChangeNameView = ShipChangeNameView.New(slot0._tf, slot0.event, slot0.contextData)
+	slot0.expItemUsagePage = ShipExpItemUsagePage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.viewList = {
 		[ShipViewConst.PAGE.DETAIL] = slot0.shipDetailView,
 		[ShipViewConst.PAGE.FASHION] = slot0.shipFashionView,
@@ -338,6 +339,9 @@ function slot0.initEvents(slot0)
 		else
 			uv0:hidePaintView(true)
 		end
+	end)
+	slot0:bind(ShipViewConst.SHOW_EXP_ITEM_USAGE, function (slot0, slot1)
+		uv0.expItemUsagePage:ExecuteAction("Show", slot1)
 	end)
 end
 
@@ -1266,6 +1270,12 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
+	if slot0.expItemUsagePage and slot0.expItemUsagePage:GetLoaded() and slot0.expItemUsagePage:isShowing() then
+		slot0.expItemUsagePage:Hide()
+
+		return
+	end
+
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	triggerButton(slot0:findTF("top/back_btn", slot0.common))
 end
@@ -1329,6 +1339,12 @@ function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 
 	slot0.shareData = nil
+end
+
+function slot0.RefreshShipExpItemUsagePage(slot0)
+	if slot0.expItemUsagePage and slot0.expItemUsagePage:GetLoaded() and slot0.expItemUsagePage:isShowing() then
+		slot0.expItemUsagePage:Flush(slot0.shipVO)
+	end
 end
 
 return slot0

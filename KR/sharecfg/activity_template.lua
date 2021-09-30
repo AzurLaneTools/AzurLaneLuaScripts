@@ -531,6 +531,136 @@ pg.activity_template = {
 			}
 		}
 	},
+	[6004] = {
+		mark = 20210923,
+		title_res_tag = "dachaolifu_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		id = 6004,
+		config_data = {
+			{
+				35054,
+				35055
+			},
+			{
+				35056,
+				35057
+			},
+			{
+				35058,
+				35059
+			},
+			{
+				35060,
+				35061
+			},
+			{
+				35062,
+				35063
+			},
+			{
+				35064,
+				35065
+			},
+			{
+				35066,
+				35067
+			}
+		},
+		page_info = {
+			class_name = "DachaolifuSkinPage",
+			ui_name = "dachaolifuskinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"DACHAOLIFU1"
+				},
+				{},
+				{
+					"DACHAOLIFU2"
+				},
+				{},
+				{
+					"DACHAOLIFU3"
+				},
+				{},
+				{
+					"DACHAOLIFU4"
+				}
+			}
+		}
+	},
+	[6005] = {
+		mark = 20210923,
+		title_res_tag = "shanchenglifu_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		id = 6005,
+		config_data = {
+			{
+				35068,
+				35069
+			},
+			{
+				35070,
+				35071
+			},
+			{
+				35072,
+				35073
+			},
+			{
+				35074,
+				35075
+			},
+			{
+				35076,
+				35077
+			},
+			{
+				35078,
+				35079
+			},
+			{
+				35080,
+				35081
+			}
+		},
+		page_info = {
+			class_name = "YamashiroSkinPage",
+			ui_name = "yamashiroskinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"SHANCHENGLIFU1"
+				},
+				{
+					"SHANCHENGLIFU2"
+				},
+				{
+					"SHANCHENGLIFU3"
+				},
+				{},
+				{
+					"SHANCHENGLIFU4"
+				},
+				{
+					"SHANCHENGLIFU5"
+				},
+				{
+					"SHANCHENGLIFU6"
+				}
+			}
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		time = "stop",
@@ -5508,7 +5638,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 10,
-		is_show = 11,
+		is_show = 8,
 		config_data = {},
 		time = {
 			timer,
@@ -5565,7 +5695,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 20842,
-		is_show = 10,
+		is_show = 7,
 		config_data = {},
 		time = {
 			timer,
@@ -5683,7 +5813,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 16,
+		is_show = 14,
 		config_data = {
 			1560001,
 			1560002,
@@ -5974,7 +6104,7 @@ pg.activity_template = {
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 13,
+		is_show = 10,
 		config_data = {},
 		time = {
 			timer,
@@ -6018,7 +6148,7 @@ pg.activity_template = {
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 12,
+		is_show = 9,
 		id = 20851,
 		config_data = {},
 		time = {
@@ -6166,7 +6296,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 20854,
-		is_show = 15,
+		is_show = 13,
 		id = 20854,
 		config_data = {},
 		time = {
@@ -6357,7 +6487,7 @@ pg.activity_template = {
 		type = 78,
 		login_pop = 0,
 		config_id = 59239,
-		is_show = 14,
+		is_show = 11,
 		config_data = {
 			{
 				{
@@ -6636,7 +6766,16 @@ pg.activity_template = {
 			244,
 			245,
 			246,
-			247
+			247,
+			248,
+			249,
+			250,
+			251,
+			252,
+			253,
+			254,
+			255,
+			256
 		},
 		time = {
 			timer,
@@ -6834,6 +6973,310 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[20868] = {
+		mark = 20210930,
+		config_client = "",
+		title_res_tag = "FourthJp",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 16,
+		id = 20868,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FourthJpPage",
+			ui_name = "FourthJpPage"
+		}
+	},
+	[20869] = {
+		mark = 20210930,
+		config_client = "",
+		title_res_tag = "manchao_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 15,
+		id = 20869,
+		config_data = {
+			{
+				17046,
+				17047
+			},
+			{
+				17048,
+				17049
+			},
+			{
+				17050,
+				17051
+			},
+			{
+				17052,
+				17053
+			},
+			{
+				17054,
+				17055
+			},
+			{
+				17056,
+				17057
+			},
+			{
+				17058,
+				17059
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ManChaoSkinPage",
+			ui_name = "ManChaoSkinPage"
+		}
+	},
+	[20870] = {
+		mark = 20210930,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20870,
+		config_data = {
+			17060
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20871] = {
+		mark = 20210930,
+		title_res_tag = "eatFood",
+		type = 57,
+		login_pop = 0,
+		config_id = 24,
+		is_show = 18,
+		config_data = "0",
+		config_client = "",
+		id = 20871,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EatFoodPage",
+			ui_name = "EatFoodPage"
+		}
+	},
+	[20872] = {
+		mark = 20210930,
+		config_client = "",
+		title_res_tag = "LevelOpenAct",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 12,
+		id = 20872,
+		config_data = {
+			{
+				17100,
+				17101,
+				17102,
+				17103,
+				17104,
+				17105,
+				17106,
+				17107,
+				17108,
+				17109,
+				17110
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LevelOpenActPage",
+			ui_name = "LevelOpenActPage"
+		}
+	},
+	[20873] = {
+		mark = 20210930,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 17,
+		id = 20873,
+		config_data = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage"
 		}
 	},
 	[25000] = {
@@ -7859,6 +8302,8 @@ pg.activity_template = {
 		6001,
 		6002,
 		6003,
+		6004,
+		6005,
 		100001,
 		20038,
 		20049,
@@ -8021,6 +8466,12 @@ pg.activity_template = {
 		20865,
 		20866,
 		20867,
+		20868,
+		20869,
+		20870,
+		20871,
+		20872,
+		20873,
 		25000,
 		25001,
 		25002,

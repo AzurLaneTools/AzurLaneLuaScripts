@@ -1,5 +1,153 @@
 pg = pg or {}
 pg.enemy_data_statistics_10 = {
+	[245] = {
+		cannon = 0,
+		name = "그라프 체펠린",
+		type = 7,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 0,
+		armor = 0,
+		id = 245,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "qibolin",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "qibolin",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 4,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.74,
+					1,
+					0
+				}
+			},
+			plane = {
+				{
+					0.73,
+					1.28,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.01,
+							0.86,
+							-1.89
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.87,
+							0.79,
+							-1.85
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[246] = {
 		cannon = 0,
 		name = "야마시로·改",
@@ -16,14 +164,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "shancheng_g",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 5,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 20,
 		luck = 0,
 		antisub = 0,
@@ -167,14 +316,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "unknown1",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 2,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -328,14 +478,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "sairenquzhu",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 1,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 20,
 		luck = 0,
 		antisub = 0,
@@ -478,14 +629,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "sairenqingxun",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 2,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 20,
 		luck = 0,
 		antisub = 0,
@@ -628,14 +780,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "sairenzhongxun",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 3,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 20,
 		luck = 0,
 		antisub = 0,
@@ -778,14 +931,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "sairenzhanlie",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 5,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 20,
 		luck = 0,
 		antisub = 0,
@@ -942,14 +1096,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "sairenhangmu",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 7,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 20,
 		luck = 0,
 		antisub = 0,
@@ -1092,14 +1247,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "HDN301",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 1,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 28,
 		luck = 0,
 		antisub = 0,
@@ -1235,14 +1391,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "HDN101",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 2,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 22,
 		luck = 0,
 		antisub = 0,
@@ -1378,14 +1535,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "HDN201",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 3,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 18,
 		luck = 0,
 		antisub = 0,
@@ -1521,14 +1679,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "HDN401",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 7,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 15,
 		luck = 0,
 		antisub = 0,
@@ -1664,14 +1823,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "HDN302_1",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 1,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 32,
 		luck = 0,
 		antisub = 0,
@@ -1807,14 +1967,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "HDN102_1",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 2,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 25,
 		luck = 0,
 		antisub = 0,
@@ -1950,14 +2111,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "HDN202_1",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 3,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 22,
 		luck = 0,
 		antisub = 0,
@@ -2093,14 +2255,15 @@ pg.enemy_data_statistics_10 = {
 		dodge_growth = 0,
 		icon = "HDN402_1",
 		star = 0,
-		torpedo = 0,
+		fog_fx = "",
 		antisub_growth = 0,
 		rarity = 0,
+		torpedo = 0,
 		luck_growth = 0,
-		hit_growth = 0,
 		icon_type = 7,
 		armor_growth = 0,
 		torpedo_growth = 0,
+		hit_growth = 0,
 		speed = 18,
 		luck = 0,
 		antisub = 0,
@@ -2204,150 +2367,6 @@ pg.enemy_data_statistics_10 = {
 		},
 		specific_fx_scale = {},
 		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[261] = {
-		cannon = 0,
-		name = "퓨리파이어",
-		type = 5,
-		speed_growth = 0,
-		battle_unit_type = 95,
-		air = 0,
-		air_growth = 0,
-		durability = 99999,
-		friendly_cld = 0,
-		armor = 0,
-		id = 261,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "unknown3",
-		star = 0,
-		torpedo = 0,
-		antisub_growth = 0,
-		rarity = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		icon_type = 5,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "unknown3",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 3,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.22,
-					1.18,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.46,
-					-0.33,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.22,
-					1.18,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.77,
-							3.29,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
 			"appearQ"
 		},
 		position_offset = {

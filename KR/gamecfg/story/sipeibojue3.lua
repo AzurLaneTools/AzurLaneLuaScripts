@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "내 \"소망\"인가요..... 괜찮은 질문이네요.",
+			say = "함께 싸우는 동료라면 지휘관이 말했던 \"소망\" 의 진짜 의미가 뭔지 알지도 몰라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 2,
-			say = "내 “소망”이라...... 괜찮은 질문이네.",
+			say = "제 \"소망\"이라.... 괜찮은 질문이네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

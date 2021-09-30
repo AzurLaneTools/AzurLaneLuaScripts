@@ -1,5 +1,34 @@
 pg = pg or {}
 pg.map_event_list = {
+	[1401] = {
+		help_open = 0,
+		chapter_id = 1401,
+		event_list = {
+			561
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1403] = {
+		help_open = 0,
+		chapter_id = 1403,
+		event_list = {
+			562,
+			563
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1404] = {
+		help_open = 0,
+		chapter_id = 1404,
+		event_list = {
+			564,
+			565
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
 	[1160001] = {
 		help_open = 0,
 		chapter_id = 1160001,
@@ -1968,6 +1997,9 @@ pg.map_event_list = {
 		}
 	},
 	all = {
+		1401,
+		1403,
+		1404,
 		1160001,
 		1160002,
 		1160003,

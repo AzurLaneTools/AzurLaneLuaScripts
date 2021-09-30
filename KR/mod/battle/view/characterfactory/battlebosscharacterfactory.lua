@@ -40,6 +40,11 @@ function slot1.MakeBloodBar(slot0, slot1)
 	end
 end
 
+function slot1.MakeAimBiasBar(slot0, slot1)
+	slot1:AddAimBiasBar(slot0:GetHPBarPool():GetHPBar(uv0.Battle.BattleEnemyCharacterFactory.HP_BAR_NAME))
+	slot1:AddAimBiasFogFX()
+end
+
 function slot1.RemoveCharacter(slot0, slot1)
 	uv0.super.RemoveCharacter(slot0, slot1)
 end

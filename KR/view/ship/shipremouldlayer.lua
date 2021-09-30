@@ -607,7 +607,7 @@ function slot0.updateProgress(slot0, slot1)
 
 			slot6:ShowMsgBox({
 				modal = true,
-				content = i18n("ship_remould_warning_" .. uv2, uv0.shipVO:getName()),
+				content = HXSet.hxLan(i18n("ship_remould_warning_" .. uv2, uv0.shipVO:getName())),
 				onYes = function ()
 					uv0:emit(ShipRemouldMediator.REMOULD_SHIP, uv0.shipVO.id, uv1)
 				end

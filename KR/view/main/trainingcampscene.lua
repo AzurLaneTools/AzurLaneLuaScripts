@@ -517,15 +517,17 @@ end
 function slot0.isTecActOn()
 	slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "ShipBluePrintMediator")
 	slot5 = false
+	slot6 = false
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP) and not slot0:isEnd() then
-		slot7 = getProxy(TaskProxy)
-		slot5 = _.any(_.flatten(slot0:getConfig("config_data")[3]), function (slot0)
+		slot5 = getProxy(ChapterProxy):getChapterById(slot0:getConfig("config_data")[1]) and slot8:isClear()
+		slot10 = getProxy(TaskProxy)
+		slot6 = _.any(_.flatten(slot0:getConfig("config_data")[3]), function (slot0)
 			return uv0:getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
 		end)
 	end
 
-	return slot1 and slot4, slot5
+	return slot1 and slot5 and slot4, slot6
 end
 
 function slot0.switchPanel(slot0, slot1, slot2)

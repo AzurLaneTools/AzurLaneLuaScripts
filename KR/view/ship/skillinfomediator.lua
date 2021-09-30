@@ -1,7 +1,6 @@
 slot0 = class("SkillInfoMediator", import("..base.ContextMediator"))
 slot0.WARP_TO_TACTIC = "SkillInfoMediator:WARP_TO_TACTIC"
 slot0.WARP_TO_META_TACTICS = "SkillInfoMediator:WARP_TO_METATASK"
-slot1 = 10
 
 function slot0.register(slot0)
 	slot0:bind(uv0.WARP_TO_TACTIC, function (slot0)
@@ -25,7 +24,7 @@ function slot0.register(slot0)
 			return
 		end
 
-		if table.getCount(getProxy(BagProxy):getItemsByType(uv1) or {}) <= 0 then
+		if table.getCount(getProxy(BagProxy):getItemsByType(Item.LESSON_TYPE) or {}) <= 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_no_lesson"))
 			uv0.viewComponent:close()
 

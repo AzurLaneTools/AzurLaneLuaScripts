@@ -1953,6 +1953,87 @@ pg.drop_data_restore = {
 		drop_id = 4914,
 		target_id = 301832
 	},
+	[261] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 261,
+		resource_num = 1100,
+		drop_id = 4915,
+		target_id = 299033
+	},
+	[262] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 262,
+		resource_num = 880,
+		drop_id = 4915,
+		target_id = 407032
+	},
+	[263] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 263,
+		resource_num = 880,
+		drop_id = 4915,
+		target_id = 607012
+	},
+	[264] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 264,
+		resource_num = 780,
+		drop_id = 4915,
+		target_id = 102221
+	},
+	[265] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 265,
+		resource_num = 780,
+		drop_id = 4915,
+		target_id = 601032
+	},
+	[266] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 266,
+		resource_num = 780,
+		drop_id = 4915,
+		target_id = 901032
+	},
+	[267] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 267,
+		resource_num = 780,
+		drop_id = 4915,
+		target_id = 203081
+	},
+	[268] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 268,
+		resource_num = 780,
+		drop_id = 4915,
+		target_id = 802013
+	},
+	[269] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 269,
+		resource_num = 700,
+		drop_id = 4915,
+		target_id = 201121
+	},
 	[998] = {
 		target_type = 7,
 		type = 1,
@@ -2033,6 +2114,24 @@ pg.drop_data_restore = {
 		resource_num = 2000,
 		drop_id = 95880,
 		target_id = 307
+	},
+	[5000] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 1,
+		id = 5000,
+		resource_num = 2000,
+		drop_id = 65050,
+		target_id = 301642
+	},
+	[5001] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 1,
+		id = 5001,
+		resource_num = 2000,
+		drop_id = 65064,
+		target_id = 305023
 	},
 	all = {
 		1,
@@ -2252,6 +2351,15 @@ pg.drop_data_restore = {
 		258,
 		259,
 		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
+		268,
+		269,
 		998,
 		1020,
 		1142,
@@ -2260,6 +2368,8 @@ pg.drop_data_restore = {
 		1145,
 		1146,
 		1147,
-		1148
+		1148,
+		5000,
+		5001
 	}
 }

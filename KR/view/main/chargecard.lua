@@ -150,7 +150,7 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 	setActive(slot0.important, slot1:isItemBox() or slot1:isGiftBox())
 	setActive(slot0.count, slot9 or slot1:isMonthCard())
 
-	if slot1:isItemBox() or slot1:isGiftBox() then
+	if slot1:isItemBox() or slot1:isGiftBox() or slot1:isPassItem() then
 		slot0:updateImport(slot1:getConfig("display"), slot1:getConfig("descrip"))
 	end
 
@@ -164,18 +164,7 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 		setText(slot0.limitText, "")
 	end
 
-	if slot1:isMonthCard() then
-		if slot2:getCardById(VipCard.MONTH) and not slot13:isExpire() then
-			slot16 = math.floor((slot13:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)
-
-			setActive(slot0.mask, (slot1:getConfig("limit_arg") or 0) < slot16)
-			setText(slot0.limitText, i18n("charge_month_card_lefttime_tip", slot16))
-		end
-
-		setText(slot0.desc, string.gsub(slot1:getConfig("descrip"), "$1", slot4 and slot1:getConfig("gem") or slot1:getConfig("extra_gem")))
-	elseif slot1:isGiftBox() then
-		-- Nothing
-	elseif slot1:isGem() then
+	if slot1:isGem() then
 		setActive(slot0.tipTF, true)
 
 		if slot5 then
@@ -185,7 +174,20 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 		else
 			setActive(slot0.tipTF, false)
 		end
+	elseif slot1:isGiftBox() then
+		-- Nothing
+	elseif slot1:isMonthCard() then
+		if slot2:getCardById(VipCard.MONTH) and not slot13:isExpire() then
+			slot16 = math.floor((slot13:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)
+
+			setActive(slot0.mask, (slot1:getConfig("limit_arg") or 0) < slot16)
+			setText(slot0.limitText, i18n("charge_month_card_lefttime_tip", slot16))
+		end
+
+		setText(slot0.desc, string.gsub(slot1:getConfig("descrip"), "$1", slot4 and slot1:getConfig("gem") or slot1:getConfig("extra_gem")))
 	elseif slot1:isItemBox() then
+		-- Nothing
+	elseif slot1:isPassItem() then
 		-- Nothing
 	end
 

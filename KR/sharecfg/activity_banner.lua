@@ -1,77 +1,13 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "20839",
 		id = 1,
 		pic = "temp1",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					9,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					9,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "20844",
-		id = 2,
-		pic = "temp2",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					9,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp3",
 		type = 2,
 		param = {
-			"scene get boat",
+			"scene charge",
 			{
-				projectName = "new"
+				wrap = 4
 			}
 		},
 		time = {
@@ -79,7 +15,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					23
+					30
 				},
 				{
 					0,
@@ -91,7 +27,71 @@ pg.activity_banner = {
 				{
 					2021,
 					10,
-					10
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "20873",
+		id = 2,
+		pic = "temp2",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "20871",
+		id = 3,
+		pic = "temp3",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
 				},
 				{
 					23,
@@ -106,15 +106,17 @@ pg.activity_banner = {
 		pic = "temp4",
 		type = 2,
 		param = {
-			"scene skinshop",
-			{}
+			"scene charge",
+			{
+				wrap = 4
+			}
 		},
 		time = {
 			{
 				{
 					2021,
 					9,
-					23
+					30
 				},
 				{
 					0,
@@ -141,17 +143,15 @@ pg.activity_banner = {
 		pic = "temp5",
 		type = 2,
 		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2021,
 					9,
-					23
+					30
 				},
 				{
 					0,
@@ -163,7 +163,7 @@ pg.activity_banner = {
 				{
 					2021,
 					10,
-					10
+					20
 				},
 				{
 					23,
@@ -174,12 +174,10 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "20844",
 		id = 6,
 		pic = "temp6",
-		type = 2,
-		param = {
-			"scene back yard"
-		},
+		type = 3,
 		time = {
 			{
 				{
@@ -281,7 +279,7 @@ pg.activity_banner = {
 				{
 					2021,
 					9,
-					23
+					30
 				},
 				{
 					0,
@@ -304,16 +302,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "계화꽃떡|월궁에서 따온 계수나무로 만든 떡. 향긋하고 맛있다! <color=#6dd329> (60분 동안 숙소 경험치 효율 5% 상승) </color>",
+		param = "해군 카레|단맛? 매운맛? 취향은 사람마다 제각각...<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
 		id = 10,
-		pic = "guihuagao",
+		pic = "haijungali",
 		type = 10,
 		time = {
 			{
 				{
 					2021,
 					9,
-					23
+					30
 				},
 				{
 					0,
@@ -324,13 +322,13 @@ pg.activity_banner = {
 			{
 				{
 					2022,
-					10,
-					10
+					9,
+					23
 				},
 				{
-					23,
-					59,
-					59
+					0,
+					0,
+					0
 				}
 			}
 		}

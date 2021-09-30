@@ -730,6 +730,10 @@ function slot0.handleNotification(slot0, slot1)
 				elseif slot0 == ChapterConst.OpMove then
 					seriesAsync({
 						function (slot0)
+							slot1 = uv0.contextData.chapterVO
+							slot1.fleet.line = Clone(uv1.fullpath[#uv1.fullpath])
+
+							getProxy(ChapterProxy):updateChapter(slot1)
 							uv0.viewComponent.grid:moveFleet(uv1.path, uv1.fullpath, uv1.oldLine, slot0)
 						end,
 						function (slot0)
@@ -745,16 +749,16 @@ function slot0.handleNotification(slot0, slot1)
 								return
 							end
 
-							if not uv1:getFleet(FleetType.Normal, slot1.row, slot1.column) then
+							if not uv1.contextData.chapterVO:getFleet(FleetType.Normal, slot1.row, slot1.column) then
 								slot0()
 
 								return
 							end
 
-							slot3.line = Clone(uv0.teleportPaths[2])
+							slot4.line = Clone(uv0.teleportPaths[2])
 
-							getProxy(ChapterProxy):updateChapter(uv1)
-							uv2:getViewComponent().grid:TeleportCellByPortalWithCameraMove(slot3, uv2:getViewComponent().grid:GetCellFleet(slot3.id), uv0.teleportPaths, slot0)
+							getProxy(ChapterProxy):updateChapter(slot3)
+							uv1:getViewComponent().grid:TeleportCellByPortalWithCameraMove(slot4, uv1:getViewComponent().grid:GetCellFleet(slot4.id), uv0.teleportPaths, slot0)
 						end,
 						function (slot0)
 							if uv0.aiActs then
@@ -772,7 +776,9 @@ function slot0.handleNotification(slot0, slot1)
 							uv1.viewComponent.levelStageView:popStageStrategy()
 						end
 
-						uv1.viewComponent.grid:updateFleets()
+						uv1.viewComponent.levelStageView:updateAmbushRate(uv0.fleet.line, true)
+						uv1.viewComponent.levelStageView:updateStageStrategy()
+						uv1.viewComponent.levelStageView:updateFleetBuff()
 						uv1.viewComponent.levelStageView:updateBombPanel()
 						uv1.viewComponent.levelStageView:tryAutoTrigger()
 					end)
@@ -1085,7 +1091,6 @@ function slot0.OnExitChapter(slot0, slot1, slot2)
 			slot1:RecordLastDefeatedEnemy(uv0.id, nil)
 			slot1:SetChapterAutoFlag(uv0.id, false)
 			slot1:RemoveExtendChapter(uv0.id)
-			uv1.viewComponent:UpdateSwitchMapButton()
 
 			if uv1.contextData.map and not uv1.contextData.map:isUnlock() then
 				uv1.viewComponent:emit(uv2.ON_SWITCH_NORMAL_MAP)

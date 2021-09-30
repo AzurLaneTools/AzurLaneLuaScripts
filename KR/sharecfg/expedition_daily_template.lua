@@ -53,6 +53,14 @@ pg.expedition_daily_template = {
 			{
 				2009,
 				70
+			},
+			{
+				2010,
+				95
+			},
+			{
+				2011,
+				95
 			}
 		}
 	},
@@ -89,6 +97,10 @@ pg.expedition_daily_template = {
 			{
 				3004,
 				70
+			},
+			{
+				3005,
+				95
 			}
 		}
 	},
@@ -125,6 +137,10 @@ pg.expedition_daily_template = {
 			{
 				4004,
 				70
+			},
+			{
+				4005,
+				95
 			}
 		}
 	},
@@ -165,6 +181,10 @@ pg.expedition_daily_template = {
 			{
 				1004,
 				75
+			},
+			{
+				1005,
+				95
 			}
 		}
 	},
@@ -197,6 +217,18 @@ pg.expedition_daily_template = {
 			{
 				6002,
 				60
+			},
+			{
+				6003,
+				100
+			},
+			{
+				6004,
+				100
+			},
+			{
+				6005,
+				100
 			}
 		}
 	},

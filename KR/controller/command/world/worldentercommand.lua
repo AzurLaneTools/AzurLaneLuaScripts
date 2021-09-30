@@ -7,9 +7,15 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	WorldConst.ReqWorldCheck(function ()
-		uv0:AfterReq(uv1)
-	end)
+	slot2, slot3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "WorldMediator")
+
+	if slot2 then
+		WorldConst.ReqWorldCheck(function ()
+			uv0:AfterReq(uv1)
+		end)
+	else
+		pg.TipsMgr.GetInstance():ShowTips(slot3)
+	end
 end
 
 function slot0.AfterReq(slot0, slot1)

@@ -1600,6 +1600,81 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[76] = {
+		commodity_type = 7,
+		activity = 20869,
+		commodity_id = 301651,
+		scene = "",
+		id = 76,
+		num = 1,
+		num_limit = 1,
+		order = 1,
+		time = {
+			{
+				{
+					2021,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[77] = {
+		commodity_type = 7,
+		activity = 20873,
+		commodity_id = 107052,
+		id = 77,
+		num = 1,
+		num_limit = 1,
+		order = 1,
+		scene = {
+			"crusing",
+			{}
+		},
+		time = {
+			{
+				{
+					2021,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		7,
 		8,
@@ -1644,6 +1719,8 @@ pg.activity_shop_extra = {
 		72,
 		73,
 		74,
-		75
+		75,
+		76,
+		77
 	}
 }

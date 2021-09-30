@@ -216,6 +216,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[121] = {
+		target_id_2 = "970501",
+		sub_type = 180,
+		desc = "후소·META를 사용해 승리 1회",
+		id = 121,
+		target_num = 1,
+		target_id = "0"
+	},
+	[122] = {
+		target_id_2 = "970501",
+		sub_type = 180,
+		desc = "후소·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 122,
+		target_num = 1,
+		target_id = "30"
+	},
+	[123] = {
+		target_id_2 = "970501",
+		sub_type = 180,
+		desc = "후소·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 123,
+		target_num = 1,
+		target_id = "55"
+	},
+	[124] = {
+		target_id_2 = "970501",
+		sub_type = 180,
+		desc = "후소·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 124,
+		target_num = 1,
+		target_id = "80"
+	},
+	[125] = {
+		target_id_2 = "970501",
+		sub_type = 180,
+		desc = "후소·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 125,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -344,6 +384,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[216] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "대형 작전에서 후소·META를 사용해 1회 승리",
+		id = 216,
+		target_num = 1,
+		target_id = "0"
+	},
+	[217] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "대형 작전에서 후소·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 217,
+		target_num = 1,
+		target_id = "70"
+	},
+	[218] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "대형 작전에서 후소·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 218,
+		target_num = 1,
+		target_id = "90"
+	},
+	[219] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "대형 작전에서 후소·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 219,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -388,6 +460,11 @@ pg.task_meta_data_template = {
 		118,
 		119,
 		120,
+		121,
+		122,
+		123,
+		124,
+		125,
 		200,
 		201,
 		202,
@@ -404,6 +481,10 @@ pg.task_meta_data_template = {
 		213,
 		214,
 		215,
+		216,
+		217,
+		218,
+		219,
 		301,
 		302
 	}

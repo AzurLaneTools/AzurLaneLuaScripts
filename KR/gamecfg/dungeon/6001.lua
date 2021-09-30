@@ -49,7 +49,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							score = 0,
 							pilotAITemplateID = 20005,
 							delay = 1,
@@ -65,7 +65,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							score = 0,
 							pilotAITemplateID = 20005,
 							delay = 1,
@@ -87,10 +87,10 @@ return {
 							onceNumber = 2,
 							formation = 10006,
 							delay = 0,
-							templateID = 520107,
+							templateID = 300501,
 							totalNumber = 2,
 							weaponID = {
-								520205
+								300523
 							},
 							attr = {
 								airPower = 40,
@@ -110,7 +110,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							score = 0,
 							pilotAITemplateID = 20005,
 							delay = 1,
@@ -126,7 +126,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 559,
+							monsterTemplateID = 754,
 							moveCast = true,
 							delay = 1,
 							score = 0,
@@ -137,7 +137,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 558,
+							monsterTemplateID = 753,
 							score = 0,
 							pilotAITemplateID = 20005,
 							delay = 1,
@@ -158,10 +158,10 @@ return {
 								onceNumber = 2,
 								formation = 10006,
 								delay = 0,
-								templateID = 520107,
+								templateID = 300501,
 								totalNumber = 2,
 								weaponID = {
-									520205
+									300523
 								},
 								attr = {
 									airPower = 40,
@@ -182,7 +182,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 556,
+							monsterTemplateID = 751,
 							reinforceDelay = 10,
 							pilotAITemplateID = 20006,
 							delay = 1,
@@ -209,10 +209,10 @@ return {
 							onceNumber = 3,
 							formation = 10006,
 							delay = 0,
-							templateID = 520108,
+							templateID = 300502,
 							totalNumber = 6,
 							weaponID = {
-								520204
+								300524
 							},
 							attr = {
 								airPower = 40,

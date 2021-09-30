@@ -73,7 +73,7 @@ function slot0.flush(slot0)
 		slot5 = slot0.shipVO:rarity2bgPrint()
 		slot6 = nil
 
-		setRectShipCardFrame(slot0.frame, slot5, slot2.propose and "prop" .. ((slot2:isBluePrintShip() or slot2:isMetaShip()) and slot5 or "") or nil)
+		setRectShipCardFrame(slot0.frame, slot5, slot2.propose and "prop" .. (slot2:isBluePrintShip() and slot5 or slot2:isMetaShip() and "14" or "") or nil)
 		GetSpriteFromAtlasAsync("bg/star_level_card_" .. slot5, "", function (slot0)
 			uv0.bgImage.sprite = slot0
 		end)
@@ -89,7 +89,7 @@ function slot0.flush(slot0)
 				slot8 = "duang_6_jiehun" .. (slot2:isBluePrintShip() and "_tuzhi" or "") .. "_1"
 			end
 		elseif slot2:isMetaShip() then
-			slot8 = "duang_meta_1"
+			slot8 = "duang_meta_b" .. slot5
 		elseif slot2:getRarity() == 6 then
 			slot8 = "duang_6_1"
 		end

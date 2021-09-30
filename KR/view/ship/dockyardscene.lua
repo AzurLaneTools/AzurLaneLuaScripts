@@ -55,7 +55,7 @@ slot6 = {
 slot7 = {
 	"index_no_limit",
 	"index_skin",
-	"index_reform",
+	"index_reform_cw",
 	"index_strengthen",
 	"index_awakening",
 	"index_not_lvmax",

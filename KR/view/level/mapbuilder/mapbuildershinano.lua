@@ -37,28 +37,43 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnShow(slot0)
-	uv0.super.OnShow(slot0)
+	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), true)
+	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), true)
 	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), true)
 end
 
 function slot0.OnHide(slot0)
-	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), false)
-	uv0.super.OnHide(slot0)
+	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), false)
+	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), false)
+
+	slot4 = "type_skirmish"
+
+	setActive(slot0.sceneParent.topChapter:Find(slot4), false)
+	table.clear(slot0.chaptersInBackAnimating)
+	slot0:StopMapItemTimers()
+
+	for slot4, slot5 in pairs(slot0.chapterTFsById) do
+		LeanTween.cancel(rtf(findTF(slot5, "main/info/bk")))
+	end
+
+	uv0.OnHide(slot0)
 end
 
 function slot0.InitTransformMapBtn(slot0, slot1, slot2, slot3)
 	function slot4()
-		slot0 = uv0.sceneParent
+		slot1 = uv0.sceneParent.contextData.mapIdx + uv1
 
-		if slot0.maps[slot0.contextData.mapIdx + uv1] then
+		if _.detect(getProxy(ChapterProxy):getMapsByActivities(), function (slot0)
+			return slot0.id == uv0
+		end) then
 			if slot2:getMapType() == Map.ELITE and not slot2:isEliteEnabled() then
-				slot1 = slot0.maps[slot2:getBindMapId()].id
-
 				pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_unusable"))
 			end
 
 			if slot3 == Map.ACTIVITY_EASY or slot3 == Map.ACTIVITY_HARD then
-				if slot0.maps[slot1 - 1] and not slot4:isClearForActivity() then
+				if _.detect(slot0, function (slot0)
+					return slot0.id == uv0 - 1
+				end) and not slot4:isClearForActivity() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_map_lock"))
 
 					return
@@ -72,7 +87,9 @@ function slot0.InitTransformMapBtn(slot0, slot1, slot2, slot3)
 			if not slot2:isUnlock() then
 				slot4 = i18n("levelScene_map_lock")
 
-				if slot0.maps[slot1 - 1] and slot5:isClear() then
+				if _.detect(slot0, function (slot0)
+					return slot0.id == uv0 - 1
+				end) and slot5:isClear() then
 					slot4 = i18n("levelScene_chapter_unlock_tip", slot2:getConfig("level_limit"))
 				end
 
@@ -137,22 +154,32 @@ end
 
 function slot0.PostUpdateMap(slot0, slot1)
 	uv0.super.PostUpdateMap(slot0, slot1)
+
+	slot4 = getProxy(ChapterProxy):getMapsByActivities()
+
 	setActive(slot0._tf:Find("rumeng"), false)
 	setActive(slot0._tf:Find("huigui"), false)
 
 	if not (slot0.contextData.map:getConfig("type") == Map.ACT_EXTRA) then
 		setActive(slot0.sceneParent.btnPrev, false)
 		setActive(slot0.sceneParent.btnNext, false)
-		setActive(slot4, slot0.sceneParent.maps[slot1.id + 1])
-		setActive(slot5, slot0.sceneParent.maps[slot1.id - 1])
-		LeanTween.cancel(go(slot4), true)
+
+		slot7 = _.detect(slot4, function (slot0)
+			return slot0.id == uv0.id + 1
+		end)
+
+		setActive(slot5, slot7)
+		setActive(slot6, _.detect(slot4, function (slot0)
+			return slot0.id == uv0.id - 1
+		end))
 		LeanTween.cancel(go(slot5), true)
+		LeanTween.cancel(go(slot6), true)
 
-		if slot0.sceneParent.maps[slot1.id + 1] then
-			slot6 = tf(slot4).localScale
-			slot9 = Clone(tf(slot4):GetChild(0):Find("Quad"):GetComponent(typeof(MeshRenderer)).sharedMaterial:GetColor("_MainColor"))
+		if slot7 then
+			slot9 = tf(slot5).localScale
+			slot12 = Clone(tf(slot5):GetChild(0):Find("Quad"):GetComponent(typeof(MeshRenderer)).sharedMaterial:GetColor("_MainColor"))
 
-			slot0:RecordTween("rumengAlphaTween", LeanTween.value(go(slot4), 0, 1, 0.8):setOnUpdate(System.Action_float(function (slot0)
+			slot0:RecordTween("rumengAlphaTween", LeanTween.value(go(slot5), 0, 1, 0.8):setOnUpdate(System.Action_float(function (slot0)
 				uv0.a = uv1.a * slot0
 
 				uv2:SetColor("_MainColor", uv0)
@@ -163,11 +190,11 @@ function slot0.PostUpdateMap(slot0, slot1)
 			return
 		end
 
-		if slot0.sceneParent.maps[slot1.id - 1] then
-			slot6 = tf(slot5).localScale
-			slot9 = Clone(tf(slot5):GetChild(0):Find("Quad"):GetComponent(typeof(MeshRenderer)).sharedMaterial:GetColor("_MainColor"))
+		if slot8 then
+			slot9 = tf(slot6).localScale
+			slot12 = Clone(tf(slot6):GetChild(0):Find("Quad"):GetComponent(typeof(MeshRenderer)).sharedMaterial:GetColor("_MainColor"))
 
-			slot0:RecordTween("huiguiAlphaTween", LeanTween.value(go(slot5), 0, 1, 0.8):setOnUpdate(System.Action_float(function (slot0)
+			slot0:RecordTween("huiguiAlphaTween", LeanTween.value(go(slot6), 0, 1, 0.8):setOnUpdate(System.Action_float(function (slot0)
 				uv0.a = uv1.a * slot0
 
 				uv2:SetColor("_MainColor", uv0)
@@ -412,15 +439,7 @@ function slot0.UpdateMapItem(slot0, slot1, slot2)
 			return
 		end
 
-		slot3 = nil
-
-		for slot7, slot8 in pairs(uv0.sceneParent.maps) do
-			if slot8:getActiveChapter() then
-				break
-			end
-		end
-
-		if slot3 and slot3 ~= slot0 then
+		if getProxy(ChapterProxy):getActiveChapter(true) and slot3.id ~= uv1 then
 			uv0:InvokeParent("emit", LevelMediator2.ON_STRATEGYING_CHAPTER)
 
 			return

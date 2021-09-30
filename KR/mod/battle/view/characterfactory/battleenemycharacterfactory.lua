@@ -35,6 +35,10 @@ function slot1.MakeModel(slot0, slot1)
 		for slot6, slot7 in ipairs(uv3:GetTemplate().appear_fx) do
 			uv0:AddFX(slot7)
 		end
+
+		if uv0:GetUnitData():GetAimBias() then
+			uv1:MakeAimBiasBar(uv0)
+		end
 	end
 
 	slot0:GetCharacterPool():InstCharacter(slot1:GetModleID(), function (slot0)
@@ -66,6 +70,11 @@ function slot1.MakeBloodBar(slot0, slot1)
 
 	slot1:AddHPBar(slot2)
 	slot1:UpdateHPBarPostition()
+end
+
+function slot1.MakeAimBiasBar(slot0, slot1)
+	slot1:AddAimBiasBar(slot1._HPBarTf:Find("biasBar"))
+	slot1:AddAimBiasFogFX()
 end
 
 function slot1.MakeWaveFX(slot0, slot1)

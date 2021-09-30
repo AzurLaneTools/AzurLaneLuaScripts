@@ -404,7 +404,7 @@ function slot2.TargetHarmRandomByWeight(slot0, slot1, slot2)
 	slot4 = {}
 
 	for slot9, slot10 in ipairs(slot2 or uv0.TargetFoeUncloak(slot0)) do
-		if (slot10:GetTemplate().battle_unit_type or 0) == 0 then
+		if (slot10:GetTargetedPriority() or 0) == -9999 then
 			slot4[#slot4 + 1] = slot10
 		elseif slot5 < slot11 then
 			slot4 = {
@@ -427,7 +427,7 @@ function slot2.TargetWeightiest(slot0, slot1, slot2)
 	slot4 = {}
 
 	for slot9, slot10 in ipairs(slot2 or uv0.TargetEntityUnit()) do
-		if (slot10:GetTemplate().battle_unit_type or 0) == 0 then
+		if (slot10:GetTargetedPriority() or 0) == -9999 then
 			slot4[#slot4 + 1] = slot10
 		elseif slot5 < slot11 then
 			slot4 = {

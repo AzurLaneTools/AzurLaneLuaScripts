@@ -1,12 +1,14 @@
 slot0 = class("Item", import(".BaseVO"))
 slot0.REVERT_EQUIPMENT_ID = 15007
 slot0.COMMANDER_QUICKLY_TOOL_ID = 20010
+slot0.QUICK_TASK_PASS_TICKET_ID = 15013
 slot0.INVISIBLE_TYPE = {
 	0,
 	9
 }
 slot0.PUZZLA_TYPE = 0
 slot0.EQUIPMENT_BOX_TYPE_5 = 5
+slot0.LESSON_TYPE = 10
 slot0.EQUIPMENT_SKIN_BOX = 11
 slot0.BLUEPRINT_TYPE = 12
 slot0.ASSIGNED_TYPE = 13
@@ -18,6 +20,7 @@ slot0.TEC_SPEEDUP_TYPE = 18
 slot0.SPECIAL_OPERATION_TICKET = 19
 slot0.GUILD_OPENABLE = 20
 slot0.INVITATION_TYPE = 21
+slot0.EXP_BOOK_TYPE = 22
 
 function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon
@@ -30,7 +33,7 @@ function slot0.GetIcon(slot0, slot1)
 		return itemId2icon(slot1)
 	elseif slot0 == DROP_TYPE_WORLD_RESOURCE then
 		-- Nothing
-	elseif slot0 == DROP_TYPE_WORLD_ITEM then
+	elseif slot0 == DROP_TYPE_WORLD_ITEM or slot0 == DROP_TYPE_VITEM then
 		return pg.world_item_data_template[slot1].icon
 	end
 end
@@ -56,6 +59,10 @@ end
 
 function slot0.CanOpen(slot0)
 	return slot0:getConfig("type") == uv0.EQUIPMENT_BOX_TYPE_5 or slot1 == uv0.EQUIPMENT_SKIN_BOX or slot1 == uv0.GOLD_BOX_TYPE or slot1 == uv0.OIL_BOX_TYPE or slot1 == uv0.GIFT_BOX or slot1 == uv0.GUILD_OPENABLE
+end
+
+function slot0.IsShipExpType(slot0)
+	return slot0:getConfig("type") == uv0.EXP_BOOK_TYPE
 end
 
 function slot0.bindConfigTable(slot0)
@@ -106,16 +113,16 @@ function slot0.isTecSpeedUpType(slot0)
 	return slot0:getConfig("type") == uv0.TEC_SPEEDUP_TYPE
 end
 
-function slot0.IsSkinCoupun(slot0)
-	return pg.item_data_statistics[slot0].type == 0 and slot1.virtual_type == 13
-end
-
 function slot0.VItem2SkinCouponShopId(slot0)
 	for slot5, slot6 in ipairs(pg.shop_discount_coupon_template.all) do
 		if slot1[slot6].item == slot0 then
 			return slot6
 		end
 	end
+end
+
+function slot0.IsMaxCnt(slot0)
+	return slot0:getConfig("max_num") <= slot0.count
 end
 
 return slot0

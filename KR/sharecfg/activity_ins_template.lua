@@ -6382,6 +6382,114 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[248] = {
+		ship_group = 30114,
+		name = "NikuSuki",
+		sculpture = "xili",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 248,
+		id = 248,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[249] = {
+		ship_group = 30707,
+		name = "OutrangeTH",
+		sculpture = "dafeng",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 249,
+		id = 249,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[250] = {
+		ship_group = 80201,
+		name = "DancerEmile",
+		sculpture = "aimierbeierding",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 250,
+		id = 250,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[251] = {
+		ship_group = 30165,
+		name = "Michishio ",
+		sculpture = "manchao",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 251,
+		id = 251,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[252] = {
+		ship_group = 20112,
+		name = "Fortune",
+		sculpture = "mingyunnvshen",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 252,
+		id = 252,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[253] = {
+		ship_group = 90111,
+		name = "VivaLaze",
+		sculpture = "edu",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 253,
+		id = 253,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[254] = {
+		ship_group = 10519,
+		name = "2700P.Justice",
+		sculpture = "masazhusai",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 254,
+		id = 254,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[255] = {
+		ship_group = 10306,
+		name = "INDI_LOVE",
+		sculpture = "botelan",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 255,
+		id = 255,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[256] = {
+		ship_group = 40205,
+		name = "Nürnberg",
+		sculpture = "niulunbao",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 256,
+		id = 256,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -6627,6 +6735,15 @@ pg.activity_ins_template = {
 		244,
 		245,
 		246,
-		247
+		247,
+		248,
+		249,
+		250,
+		251,
+		252,
+		253,
+		254,
+		255,
+		256
 	}
 }

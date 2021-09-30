@@ -15,8 +15,11 @@ function slot0.init(slot0)
 	slot0.resourcesTF = slot0:findTF("resources", slot0.frame)
 	slot0.oilTF = slot0:findTF("canteen/bubble/Text", slot0.resourcesTF):GetComponent(typeof(Text))
 	slot0.goldTF = slot0:findTF("merchant/bubble/Text", slot0.resourcesTF):GetComponent(typeof(Text))
+	slot0.classTF = slot0:findTF("class/bubble/Text", slot0.resourcesTF):GetComponent(typeof(Text))
 	slot0.oilbubbleTF = slot0:findTF("canteen/bubble", slot0.resourcesTF)
 	slot0.goldbubbleTF = slot0:findTF("merchant/bubble", slot0.resourcesTF)
+	slot0.classbubbleTF = slot0:findTF("class/bubble", slot0.resourcesTF)
+	slot0.classbubbleTF:Find("icon"):GetComponent(typeof(Image)).sprite = LoadSprite(pg.item_data_statistics[getProxy(NavalAcademyProxy):GetClassVO():GetResourceType()].icon)
 	slot0.projectContainer = slot0:findTF("main/content", slot0.frame)
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
@@ -29,6 +32,7 @@ function slot0.init(slot0)
 	slot0.activtyUrExchangeTxt = slot0:findTF("frame/link_btns/btns/urEx/Text"):GetComponent(typeof(Text))
 	slot0.activtyUrExchangeCG = slot0.activtyUrExchangeBtn:GetComponent(typeof(CanvasGroup))
 	slot0.activtyUrExchangeTip = slot0:findTF("frame/link_btns/btns/urEx/tip")
+	slot0.activityCrusingBtn = slot0:findTF("frame/link_btns/btns/crusing")
 end
 
 function slot0.UpdateUrItemEntrance(slot0)
@@ -46,6 +50,19 @@ function slot0.UpdateUrItemEntrance(slot0)
 	else
 		setActive(slot0.activtyUrExchangeBtn, false)
 	end
+end
+
+function slot0.updateCrusingEntrance(slot0)
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot1:isEnd() then
+		setActive(slot0.activityCrusingBtn, true)
+		setActive(slot0.activityCrusingBtn:Find("tip"), slot1:readyToAchieve())
+	else
+		setActive(slot0.activityCrusingBtn, false)
+	end
+
+	onButton(slot0, slot0.activityCrusingBtn, function ()
+		uv0:emit(CommissionInfoMediator.ON_CRUSING)
+	end, SFX_PANEL)
 end
 
 function slot0.NotifyIns(slot0, slot1, slot2)
@@ -100,8 +117,12 @@ function slot0.didEnter(slot0)
 
 		uv0:emit(uv1.ON_CLOSE)
 	end, SOUND_BACK)
+	onButton(slot0, slot0.classbubbleTF, function ()
+		uv0:emit(CommissionInfoMediator.GET_CLASS_RES)
+	end, SFX_PANEL)
 	slot0:initProjects()
 	slot0:UpdateUrItemEntrance()
+	slot0:updateCrusingEntrance()
 end
 
 function slot0.initProjects(slot0)
@@ -175,11 +196,15 @@ function slot0.setPlayer(slot0, slot1)
 end
 
 function slot0.updateResource(slot0, slot1)
+	slot3 = getProxy(NavalAcademyProxy):GetClassVO():GetGenResCnt()
+
 	setActive(slot0.oilbubbleTF, slot1.oilField ~= 0)
 	setActive(slot0.goldbubbleTF, slot1.goldField ~= 0)
+	setActive(slot0.classbubbleTF, slot3 > 0)
 
 	slot0.oilTF.text = slot1.oilField
 	slot0.goldTF.text = slot1.goldField
+	slot0.classTF.text = slot3
 end
 
 function slot0.onBackPressed(slot0)
