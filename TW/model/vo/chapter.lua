@@ -938,10 +938,8 @@ function slot0.GetShowingStartegies(slot0)
 		table.insert(slot2, pg.gameset.doa_fever_strategy.description[table.indexof(pg.gameset.doa_fever_buff.description, slot3)])
 	end
 
-	slot3 = #slot2
-
 	return _.filter(slot2, function (slot0)
-		return pg.strategy_data_template[uv0[uv1]].icon ~= ""
+		return pg.strategy_data_template[slot0].icon ~= ""
 	end)
 end
 

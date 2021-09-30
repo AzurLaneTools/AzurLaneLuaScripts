@@ -56,14 +56,25 @@ function getPlayerOwn(slot0, slot1)
 end
 
 function slot0.addTranDrop(slot0, slot1)
-	slot2 = {}
 	slot3 = pg.item_data_statistics
 	slot4 = pg.ship_skin_template
 	slot5 = pg.item_data_frame
 
 	for slot10, slot11 in ipairs(slot0) do
 		slot12, slot13 = (function (slot0)
-			if slot0.type == DROP_TYPE_SKIN then
+			if slot0.type == DROP_TYPE_RESOURCE then
+				slot4 = ActivityConst.ACTIVITY_TYPE_PT_CRUSING
+
+				for slot4, slot5 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot4)) do
+					if pg.battlepass_event_pt[slot5.id].pt == slot0.id then
+						return nil, Item.New({
+							type = slot0.type,
+							id = slot0.id,
+							count = slot0.number or slot0.count
+						})
+					end
+				end
+			elseif slot0.type == DROP_TYPE_SKIN then
 				if (slot0.number or slot0.count) == 0 then
 					return Item.New({
 						count = 1,
@@ -155,7 +166,7 @@ function slot0.addTranDrop(slot0, slot1)
 		end)(slot11)
 
 		if slot12 then
-			table.insert(slot2, slot12)
+			table.insert({}, slot12)
 			pg.m02:sendNotification(GAME.ADD_ITEM, slot12)
 		end
 
@@ -164,7 +175,11 @@ function slot0.addTranDrop(slot0, slot1)
 		end
 	end
 
-	return slot2
+	if slot1 and slot1.taskId and pg.task_data_template[slot1.taskId].auto_commit == 1 then
+		return {}
+	else
+		return slot2
+	end
 end
 
 function slot0.BonusItemMarker(slot0)

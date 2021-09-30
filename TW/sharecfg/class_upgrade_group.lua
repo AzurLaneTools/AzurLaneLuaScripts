@@ -88,10 +88,10 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "大講堂休息，出擊熟練度獲取比例翻倍",
+		name = "學生自主學習，出擊熟練度獲取比例翻倍",
 		id = 105031,
 		icon = "Props/BB",
-		name_show = "",
+		name_show = "自主學習",
 		day = 7,
 		type = {
 			1,

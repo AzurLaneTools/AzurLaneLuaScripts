@@ -303,6 +303,10 @@ end
 
 function slot0.updateSpriteMaskScale(slot0)
 	onNextTick(function ()
+		if uv0.exited then
+			return
+		end
+
 		setLocalScale(uv0.spriteMask, Vector3(uv0.spriteMask.rect.width / WHITE_DOT_SIZE * PIXEL_PER_UNIT, uv0.spriteMask.rect.height / WHITE_DOT_SIZE * PIXEL_PER_UNIT, 1))
 	end)
 end

@@ -158,8 +158,11 @@ function slot0.handleNotification(slot0, slot1)
 		if slot2 == GAME.SUBMIT_TASK_DONE then
 			slot4 = slot1:getType()
 			slot5 = getProxy(TaskProxy)
+			slot0.viewComponent.onShowAwards = true
 
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+				uv0.viewComponent.onShowAwards = nil
+
 				uv0:accepetActivityTask()
 				uv0.viewComponent:updateOneStepBtn()
 
@@ -188,7 +191,6 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot2 == TaskProxy.WEEK_TASKS_ADDED or slot2 == TaskProxy.WEEK_TASKS_DELETED or slot2 == TaskProxy.WEEK_TASK_UPDATED then
 			slot0.viewComponent:RefreshWeekTaskPage()
 		elseif slot2 == GAME.SUBMIT_WEEK_TASK_DONE then
-			warning(GAME.SUBMIT_WEEK_TASK_DONE)
 			slot0.viewComponent:RefreshWeekTaskPageBefore(slot3.id)
 
 			if #slot3.awards > 0 then

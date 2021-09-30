@@ -275,14 +275,26 @@ function slot0.GoToFilter(slot0, slot1)
 end
 
 function slot0.onSubmit(slot0, slot1)
+	if slot0.onShowAwards then
+		return
+	end
+
 	slot0:emit(TaskMediator.ON_TASK_SUBMIT, slot1)
 end
 
 function slot0.onSubmitForWeek(slot0, slot1)
+	if slot0.onShowAwards then
+		return
+	end
+
 	slot0:emit(TaskMediator.ON_SUBMIT_WEEK_TASK, slot1)
 end
 
 function slot0.onGo(slot0, slot1)
+	if slot0.onShowAwards then
+		return
+	end
+
 	slot0:emit(TaskMediator.ON_TASK_GO, slot1)
 end
 

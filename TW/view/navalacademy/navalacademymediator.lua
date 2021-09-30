@@ -82,8 +82,13 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_OPEN_TACTICROOM, function (slot0)
 		uv0:addSubLayers(Context.New({
 			mediator = NavalTacticsMediator,
-			viewComponent = NavalTacticsLayer
+			viewComponent = NavalTacticsLayer,
+			data = {
+				shipToLesson = uv0.contextData.shipToLesson
+			}
 		}))
+
+		uv0.contextData.shipToLesson = nil
 	end)
 
 	slot1 = getProxy(NavalAcademyProxy)

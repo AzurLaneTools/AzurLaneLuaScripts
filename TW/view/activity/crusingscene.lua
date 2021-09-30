@@ -90,16 +90,42 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnAll, function ()
-		if #uv0.activity:GetCrusingUnreceiveAward() > 0 and uv0:checkLimitMax(slot0) then
-			uv0:emit(CrusingMediator.EVENT_GET_AWARD_ALL)
+		if #uv0.activity:GetCrusingUnreceiveAward() > 0 then
+			slot1 = {}
+
+			if uv0:checkLimitMax(slot0) then
+				table.insert(slot1, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("player_expResource_mail_fullBag"),
+						onYes = slot0
+					})
+				end)
+			end
+
+			seriesAsync(slot1, function ()
+				uv0:emit(CrusingMediator.EVENT_GET_AWARD_ALL)
+			end)
 		end
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.btnPay, function ()
 		uv0:emit(CrusingMediator.EVENT_GO_CHARGE)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.btnAfter, function ()
-		if #uv0.activity:GetCrusingUnreceiveAward() > 0 and uv0:checkLimitMax(slot0) then
-			uv0:emit(CrusingMediator.EVENT_GET_AWARD_ALL)
+		if #uv0.activity:GetCrusingUnreceiveAward() > 0 then
+			slot1 = {}
+
+			if uv0:checkLimitMax(slot0) then
+				table.insert(slot1, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("player_expResource_mail_fullBag"),
+						onYes = slot0
+					})
+				end)
+			end
+
+			seriesAsync(slot1, function ()
+				uv0:emit(CrusingMediator.EVENT_GET_AWARD_ALL)
+			end)
 		end
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.btnHelp, function ()
@@ -142,7 +168,7 @@ function slot0.didEnter(slot0)
 
 	slot2 = GetComponent(slot0.scrollMap, typeof(ScrollRect))
 	slot3 = slot2.content.rect.width
-	slot6 = slot3 / slot2.content.childCount / (slot3 - slot2.viewport.rect.width)
+	slot6 = slot3 / 3 / (slot3 - slot2.viewport.rect.width)
 
 	onScroll(slot0, slot0.scrollMap, function (slot0)
 		if slot0.x < 0.1 then
@@ -449,17 +475,19 @@ function slot0.checkLimitMax(slot0, slot1)
 				if slot0.player:GoldMax(slot7.count) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title"))
 
-					return false
+					return true
 				end
 			elseif slot7.id == 2 and slot2:OilMax(slot7.count) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title"))
 
-				return false
+				return true
 			end
+		elseif slot7.type == DROP_TYPE_ITEM and pg.item_data_statistics[slot7.id].type == Item.EXP_BOOK_TYPE and slot8.max_num < getProxy(BagProxy):getItemCountById(slot7.id) + slot7.count then
+			return true
 		end
 	end
 
-	return true
+	return false
 end
 
 return slot0
