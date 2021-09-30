@@ -373,3 +373,6 @@ slot0.UltimateBonus = {
 	TorpedoBarrageBuff = 374,
 	AuxBoostValue = 0.3
 }
+slot0.WEATHER = {
+	NIGHT = 101
+}

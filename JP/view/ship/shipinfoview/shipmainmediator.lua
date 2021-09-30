@@ -29,6 +29,7 @@ slot0.ON_META = "ShipMainMediator:ON_META"
 slot0.ON_SEL_COMMANDER = "ShipMainMediator:ON_SEL_COMMANDER"
 slot0.OPEN_EQUIP_UPGRADE = "ShipMainMediator:OPEN_EQUIP_UPGRADE"
 slot0.BUY_ITEM_BY_ACT = "ShipMainMediator:BUY_ITEM_BY_ACT"
+slot0.ON_ADD_SHIP_EXP = "ShipMainMediator:ON_ADD_SHIP_EXP"
 
 function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
@@ -49,6 +50,12 @@ function slot0.register(slot0)
 
 	slot5 = getProxy(ContextProxy)
 
+	slot0:bind(uv0.ON_ADD_SHIP_EXP, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.USE_ADD_SHIPEXP_ITEM, {
+			id = slot1,
+			items = slot2
+		})
+	end)
 	slot0:bind(uv0.BUY_ITEM_BY_ACT, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.SKIN_COUPON_SHOPPING, {
 			shopId = slot1,
@@ -470,7 +477,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.UPGRADE_MAX_LEVEL_DONE,
 		GAME.SKIN_COUPON_SHOPPING_DONE,
 		GAME.HIDE_Ship_MAIN_SCENE_WORD,
-		GAME.PROPOSE_SHIP_DONE
+		GAME.PROPOSE_SHIP_DONE,
+		GAME.USE_ADD_SHIPEXP_ITEM_DONE
 	}
 end
 
@@ -552,8 +560,13 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.HIDE_Ship_MAIN_SCENE_WORD then
 		slot0.viewComponent:hideShipWord()
-	elseif slot2 == GAME.PROPOSE_SHIP_DONE and slot0.viewComponent.shipFashionView and slot4:GetLoaded() then
-		slot4:UpdateAllFashion(true)
+	elseif slot2 == GAME.PROPOSE_SHIP_DONE then
+		if slot0.viewComponent.shipFashionView and slot4:GetLoaded() then
+			slot4:UpdateAllFashion(true)
+		end
+	elseif slot2 == GAME.USE_ADD_SHIPEXP_ITEM_DONE then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipModLayer_modSuccess"))
+		slot0.viewComponent:RefreshShipExpItemUsagePage()
 	end
 end
 

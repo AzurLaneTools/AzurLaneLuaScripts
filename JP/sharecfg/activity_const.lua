@@ -786,6 +786,9 @@ pg.activity_const = {
 	JP_CEREMONY_INVITATION_ID = {
 		act_id = 4110
 	},
+	LEVEL_OPEN_ACT_ID = {
+		act_id = 4136
+	},
 	RETUREN_AWARD_1 = {
 		act_id = 4111
 	},

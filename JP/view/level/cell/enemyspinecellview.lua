@@ -7,10 +7,23 @@ end
 slot0.buffheight = 220
 
 function slot0.Update(slot0)
-	slot1 = slot0.info
 	slot2 = slot0.config
-	slot3 = slot1.row
-	slot4 = slot1.column
+	slot3 = slot0.info.trait ~= ChapterConst.TraitLurk
+
+	if (slot1.attachment == ChapterConst.AttachEnemy or slot1.attachment == ChapterConst.AttachElite or slot1.attachment == ChapterConst.AttachAmbush or slot1.attachment == ChapterConst.AttachBoss) and slot1.flag ~= ChapterConst.CellFlagDisabled and slot0.chapter:existFleet(FleetType.Transport, slot1.row, slot1.column) then
+		slot3 = false
+	end
+
+	if not IsNil(slot0.go) then
+		setActive(slot0.go, slot3)
+	end
+
+	if not slot3 then
+		return
+	end
+
+	slot4 = slot1.row
+	slot5 = slot1.column
 
 	if slot1.attachment == ChapterConst.AttachAmbush and slot1.flag == ChapterConst.CellFlagAmbush then
 		-- Nothing
@@ -20,9 +33,9 @@ function slot0.Update(slot0)
 
 			SetActive(findTF(slot0.tf, "icon"), false)
 
-			slot6 = findTF(slot0.tf, "titleContain/bg_boss")
-			slot6.localScale = Vector3(0.5, 0.5, 1)
-			slot6.anchoredPosition = Vector2(61.1, -30.6)
+			slot7 = findTF(slot0.tf, "titleContain/bg_boss")
+			slot7.localScale = Vector3(0.5, 0.5, 1)
+			slot7.anchoredPosition = Vector2(61.1, -30.6)
 
 			slot0:GetLoader():GetSpine(slot2.icon, function (slot0)
 				slot1 = uv0.scale * 0.01
@@ -44,7 +57,7 @@ function slot0.Update(slot0)
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
 		end
 
-		setActive(findTF(slot0.tf, "fighting"), slot0.chapter:existFleet(FleetType.Normal, slot3, slot4))
+		setActive(findTF(slot0.tf, "fighting"), slot0.chapter:existFleet(FleetType.Normal, slot4, slot5))
 		setActive(findTF(slot0.tf, "damage_count"), slot1.data > 0)
 	elseif slot1.flag == ChapterConst.CellFlagDisabled and slot0:UpdateGO(slot0._deadTpl) and slot1.attachment ~= ChapterConst.AttachAmbush then
 		setActive(slot0.tf:Find("huoqiubaozha"), slot0._live2death)

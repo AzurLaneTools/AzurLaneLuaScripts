@@ -718,6 +718,7 @@ function slot5.GetCommonResource()
 		uv0.GetFXPath("SquareAlert"),
 		uv0.GetFXPath("AntiAirArea"),
 		uv0.GetFXPath("AntiSubArea"),
+		uv0.GetFXPath("AimBiasArea"),
 		uv0.GetFXPath("shock"),
 		uv0.GetFXPath("qianting_chushui"),
 		uv0.GetFXPath(uv2.PLAYER_SUB_BUBBLE_FX),
@@ -788,6 +789,10 @@ function slot5.GetEnemyResource(slot0)
 	slot6 = uv0.GetMonsterTmpDataFromID(slot0.monsterTemplateID)
 	slot1[#slot1 + 1] = uv1.GetCharacterPath(slot6.prefab)
 	slot1[#slot1 + 1] = uv1.GetFXPath(slot6.wave_fx)
+
+	if slot6.fog_fx then
+		slot1[#slot1 + 1] = uv1.GetFXPath(slot6.fog_fx)
+	end
 
 	for slot10, slot11 in ipairs(slot6.appear_fx) do
 		slot1[#slot1 + 1] = uv1.GetFXPath(slot11)

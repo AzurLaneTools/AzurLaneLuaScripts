@@ -5,9 +5,10 @@ pg.pay_data_display = {
 		name = "貿易許可証（30日間）",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 1,
 		subject = "貿易許可証（30日間）",
+		id = 1,
 		money = 980,
 		tag = 2,
 		gem = 510,
@@ -37,6 +38,7 @@ pg.pay_data_display = {
 			}
 		},
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -44,9 +46,10 @@ pg.pay_data_display = {
 		name = "新規着任パック",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 2,
 		subject = "新規着任パック",
+		id = 2,
 		money = 120,
 		tag = 1,
 		gem = 0,
@@ -92,6 +95,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -99,9 +103,10 @@ pg.pay_data_display = {
 		name = "ダイヤ一摘み",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 0,
 		subject = "ダイヤ一摘み",
+		extra_gem = 0,
 		id = 3,
 		money = 120,
 		tag = 0,
@@ -115,6 +120,7 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		airijp_id = "com.yostarjp.azurlane.diamond1",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -122,9 +128,10 @@ pg.pay_data_display = {
 		name = "ダイヤ一握り",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 30,
 		subject = "ダイヤ一握り",
+		extra_gem = 30,
 		id = 4,
 		money = 610,
 		tag = 0,
@@ -138,6 +145,7 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		airijp_id = "com.yostarjp.azurlane.diamond2",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -145,9 +153,10 @@ pg.pay_data_display = {
 		name = "ダイヤ一袋",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 150,
 		subject = "ダイヤ一袋",
+		extra_gem = 150,
 		id = 5,
 		money = 1220,
 		tag = 0,
@@ -161,6 +170,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond3",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -168,9 +178,10 @@ pg.pay_data_display = {
 		name = "ダイヤ小箱",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 360,
 		subject = "ダイヤ小箱",
+		extra_gem = 360,
 		id = 6,
 		money = 2440,
 		tag = 0,
@@ -184,6 +195,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond4",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -191,9 +203,10 @@ pg.pay_data_display = {
 		name = "ダイヤ大箱",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 880,
 		subject = "ダイヤ大箱",
+		extra_gem = 880,
 		id = 7,
 		money = 4900,
 		tag = 0,
@@ -207,6 +220,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond5",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -214,9 +228,10 @@ pg.pay_data_display = {
 		name = "ダイヤ一船",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 2500,
 		subject = "ダイヤ一船",
+		extra_gem = 2500,
 		id = 8,
 		money = 10000,
 		tag = 1,
@@ -230,6 +245,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond6",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -237,9 +253,10 @@ pg.pay_data_display = {
 		name = "福袋",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\n※すでに所有している衣装を入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 9,
 		subject = "福袋",
+		id = 9,
 		money = 3680,
 		tag = 1,
 		gem = 0,
@@ -325,6 +342,7 @@ pg.pay_data_display = {
 				2018
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -332,9 +350,10 @@ pg.pay_data_display = {
 		name = "新生活キャンペｰン",
 		descrip_extra = "アプリストア新生活キャンペーン特典",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 10,
 		subject = "新生活キャンペｰン",
+		id = 10,
 		money = 1200,
 		tag = 1,
 		gem = 0,
@@ -420,6 +439,7 @@ pg.pay_data_display = {
 				3000
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -427,9 +447,10 @@ pg.pay_data_display = {
 		name = "一周年福袋",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の初回割引販売時の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 11,
 		subject = "福袋",
+		id = 11,
 		money = 3680,
 		tag = 1,
 		gem = 0,
@@ -515,6 +536,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -522,9 +544,10 @@ pg.pay_data_display = {
 		name = "福袋2019",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 12,
 		subject = "福袋2019",
+		id = 12,
 		money = 3680,
 		tag = 1,
 		gem = 0,
@@ -610,6 +633,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -617,9 +641,10 @@ pg.pay_data_display = {
 		name = "春節福袋",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 13,
 		subject = "福袋",
+		id = 13,
 		money = 3680,
 		tag = 1,
 		gem = 0,
@@ -705,6 +730,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -712,9 +738,10 @@ pg.pay_data_display = {
 		name = "福袋",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 14,
 		subject = "福袋",
+		id = 14,
 		money = 3680,
 		tag = 1,
 		gem = 0,
@@ -800,6 +827,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -807,9 +835,10 @@ pg.pay_data_display = {
 		name = "二週年福袋",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 15,
 		subject = "二週年福袋",
+		id = 15,
 		money = 3680,
 		tag = 1,
 		gem = 0,
@@ -895,6 +924,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -902,9 +932,10 @@ pg.pay_data_display = {
 		name = "新年福袋2020",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 16,
 		subject = "新年福袋2020",
+		id = 16,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -995,6 +1026,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1002,9 +1034,10 @@ pg.pay_data_display = {
 		name = "新年福袋復刻(2019)",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 17,
 		subject = "新年福袋復刻(2019)",
+		id = 17,
 		money = 3680,
 		tag = 1,
 		gem = 0,
@@ -1090,6 +1123,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1097,9 +1131,10 @@ pg.pay_data_display = {
 		name = "春節福袋2020",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 18,
 		subject = "春節福袋2020",
+		id = 18,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -1190,6 +1225,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1197,9 +1233,10 @@ pg.pay_data_display = {
 		name = "春節福袋復刻(2019)",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 19,
 		subject = "春節福袋復刻(2019)",
+		id = 19,
 		money = 3680,
 		tag = 1,
 		gem = 0,
@@ -1285,6 +1322,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1292,9 +1330,10 @@ pg.pay_data_display = {
 		name = "着任応援パック・Ⅰ",
 		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 20,
 		subject = "着任応援パック・Ⅰ",
+		id = 20,
 		money = 250,
 		tag = 1,
 		gem = 0,
@@ -1365,6 +1404,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1372,9 +1412,10 @@ pg.pay_data_display = {
 		name = "着任応援パック・Ⅱ",
 		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 21,
 		subject = "着任応援パック・Ⅱ",
+		id = 21,
 		money = 1480,
 		tag = 1,
 		gem = 0,
@@ -1470,6 +1511,7 @@ pg.pay_data_display = {
 				4
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1477,9 +1519,10 @@ pg.pay_data_display = {
 		name = "着任応援パック・Ⅲ",
 		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 22,
 		subject = "着任応援パック・Ⅲ",
+		id = 22,
 		money = 2940,
 		tag = 1,
 		gem = 0,
@@ -1580,6 +1623,7 @@ pg.pay_data_display = {
 				8
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1587,9 +1631,10 @@ pg.pay_data_display = {
 		name = "福袋（夏2020）",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\n既に所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 23,
 		subject = "福袋（夏2020）",
+		id = 23,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -1680,6 +1725,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1687,9 +1733,10 @@ pg.pay_data_display = {
 		name = "三周年福袋",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 24,
 		subject = "三周年福袋",
+		id = 24,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -1780,6 +1827,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1787,9 +1835,10 @@ pg.pay_data_display = {
 		name = "新年福袋2021",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 25,
 		subject = "新年福袋2021",
+		id = 25,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -1880,6 +1929,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1887,9 +1937,10 @@ pg.pay_data_display = {
 		name = "新年福袋2020(復刻)",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 26,
 		subject = "新年福袋2020(復刻)",
+		id = 26,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -1980,6 +2031,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -1987,9 +2039,10 @@ pg.pay_data_display = {
 		name = "春節福袋2021",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 27,
 		subject = "春節福袋2021",
+		id = 27,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -2080,6 +2133,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2087,9 +2141,10 @@ pg.pay_data_display = {
 		name = "春節福袋2020(復刻)",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 28,
 		subject = "春節福袋2020(復刻)",
+		id = 28,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -2180,6 +2235,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2187,9 +2243,10 @@ pg.pay_data_display = {
 		name = "福袋(夏2021)",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 29,
 		subject = "四周年礼盒",
+		id = 29,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -2280,6 +2337,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2287,9 +2345,10 @@ pg.pay_data_display = {
 		name = "福袋(夏2020) (復刻)",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 30,
 		subject = "三周年礼盒复刻",
+		id = 30,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -2380,6 +2439,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2387,9 +2447,10 @@ pg.pay_data_display = {
 		name = "着任応援パック・Ⅳ",
 		descrip_extra = "※購入されたパックはメールに送られます。ご注意ください",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 31,
 		subject = "着任応援パック・Ⅳ",
+		id = 31,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -2480,6 +2541,7 @@ pg.pay_data_display = {
 				10
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2487,9 +2549,10 @@ pg.pay_data_display = {
 		name = "四周年福袋",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 32,
 		subject = "四周年福袋",
+		id = 32,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -2580,6 +2643,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -2587,9 +2651,10 @@ pg.pay_data_display = {
 		name = "三周年福袋 (復刻)",
 		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 33,
 		subject = "三周年福袋 (復刻)",
+		id = 33,
 		money = 3680,
 		tag = 2,
 		gem = 0,
@@ -2680,6 +2745,77 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[1000] = {
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		type = 0,
+		subject_extra = "(2021.10.1-11.30)",
+		extra_gem = 0,
+		subject = "クルーズパス",
+		id = 1000,
+		money = 1220,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.bilibili.blhx.battlepass1",
+		first_pay_double = 0,
+		extra_service = 4,
+		limit_arg = 1,
+		airijp_id = "com.yostarjp.azurlane.seasonpass1",
+		extra_service_item = {
+			{
+				1,
+				4001,
+				1500
+			},
+			{
+				8,
+				59242,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4001,
+				1500
+			}
+		},
+		sub_display = {
+			7001,
+			1500
+		},
 		ignorePlatform = {}
 	},
 	all = {
@@ -2715,6 +2851,7 @@ pg.pay_data_display = {
 		30,
 		31,
 		32,
-		33
+		33,
+		1000
 	}
 }

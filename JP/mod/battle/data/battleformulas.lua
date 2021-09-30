@@ -338,6 +338,49 @@ function slot0.CaclulateDOTDamageEnhanceRate(slot0, slot1, slot2)
 	return ((slot1 and slot1:GetAttrByName(slot4.enhance) or uv1.NUM0) - (slot2 and slot2:GetAttrByName(slot4.reduce) or uv1.NUM0)) * uv1.PERCENT2
 end
 
+function slot0.CalculateMaxAimBiasRange(slot0)
+	slot2 = nil
+
+	if #slot0 == 1 then
+		slot3 = slot0[1]
+		slot2 = uv1.GetCurrent(slot0[1], "dodgeRate") * uv0.AIM_BIAS_FLEET_RANGE_MOD
+	else
+		slot3 = {}
+
+		for slot7, slot8 in ipairs(slot0) do
+			table.insert(slot3, uv1.GetCurrent(slot8, "dodgeRate"))
+		end
+
+		table.sort(slot3, function (slot0, slot1)
+			return slot1 < slot0
+		end)
+
+		slot2 = (slot3[1] + slot3[2] * 0.6 + (slot3[3] or 0) * 0.3) / #slot3 * slot1
+	end
+
+	return slot2
+end
+
+function slot0.CalculateMaxAimBiasRangeSub(slot0)
+	return uv0.GetCurrent(slot0[1], "dodgeRate") * uv1.AIM_BIAS_SUB_RANGE_MOD
+end
+
+function slot0.CalculateMaxAimBiasRangeMonster(slot0)
+	return uv0.GetCurrent(slot0[1], "dodgeRate") * uv1.AIM_BIAS_MONSTER_RANGE_MOD
+end
+
+function slot0.CalculateBiasDecay(slot0)
+	return slot0 * uv0.AIM_BIAS_DECAY_MOD_MONSTER
+end
+
+function slot0.CalculateBiasDecayMonster(slot0)
+	return slot0 * uv0.AIM_BIAS_DECAY_MOD + uv0.AIM_BIAS_DECAY_BASE
+end
+
+function slot0.CalculateBiasDecayDiving(slot0)
+	return math.max(0, slot0 - uv0.AIM_BIAS_DECAY_SUB_CONST) * uv0.AIM_BIAS_DECAY_MOD
+end
+
 function slot0.WorldEnemyAttrEnhance(slot0, slot1)
 	return 1 + slot0 / (1 + uv0.WORLD_ENEMY_ENHANCEMENT_CONST_C^(uv0.WORLD_ENEMY_ENHANCEMENT_CONST_B - slot1))
 end

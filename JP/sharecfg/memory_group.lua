@@ -3284,6 +3284,22 @@ pg.memory_group = {
 			1847
 		}
 	},
+	[569] = {
+		icon = "title_chara_daofeng",
+		subtype = 0,
+		type = 3,
+		id = 569,
+		title = "急がば回れ！",
+		memories = {
+			1851,
+			1852,
+			1853,
+			1854,
+			1855,
+			1856,
+			1857
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3456,6 +3472,7 @@ pg.memory_group = {
 		565,
 		566,
 		567,
-		568
+		568,
+		569
 	}
 }

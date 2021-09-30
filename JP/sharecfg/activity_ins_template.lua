@@ -6508,6 +6508,42 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	{
+		ship_group = 10519,
+		name = "2700P.Justice",
+		sculpture = "masazhusai",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 254,
+		id = 254,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10306,
+		name = "INDI_LOVE",
+		sculpture = "botelan",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 255,
+		id = 255,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 40205,
+		name = "Nürnberg",
+		sculpture = "niulunbao",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 256,
+		id = 256,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -6761,6 +6797,9 @@ pg.activity_ins_template = {
 		250,
 		251,
 		252,
-		253
+		253,
+		254,
+		255,
+		256
 	}
 }

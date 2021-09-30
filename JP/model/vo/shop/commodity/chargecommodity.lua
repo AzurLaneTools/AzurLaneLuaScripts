@@ -20,6 +20,10 @@ function slot0.hasExtraGem(slot0)
 	return slot0:getConfig("extra_gem") ~= 0
 end
 
+function slot0.isGem(slot0)
+	return slot0:getConfig("extra_service") == Goods.GEM
+end
+
 function slot0.isGiftBox(slot0)
 	return slot0:getConfig("extra_service") == Goods.GIFT_BOX
 end
@@ -28,12 +32,12 @@ function slot0.isMonthCard(slot0)
 	return slot0:getConfig("extra_service") == Goods.MONTH_CARD
 end
 
-function slot0.isGem(slot0)
-	return slot0:getConfig("extra_service") == Goods.GEM
-end
-
 function slot0.isItemBox(slot0)
 	return slot0:getConfig("extra_service") == Goods.ITEM_BOX
+end
+
+function slot0.isPassItem(slot0)
+	return slot0:getConfig("extra_service") == Goods.PASS_ITEM
 end
 
 function slot0.getLimitCount(slot0)

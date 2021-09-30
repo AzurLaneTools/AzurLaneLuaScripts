@@ -37,7 +37,6 @@ function slot1.updateSector(slot0, slot1)
 end
 
 function slot1.Dispose(slot0)
-	print("ttt")
 	Destroy(slot0._tf)
 
 	slot0._host = nil

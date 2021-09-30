@@ -216,6 +216,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[121] = {
+		target_id_2 = "970501",
+		sub_type = 180,
+		desc = "扶桑(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 121,
+		target_num = 1,
+		target_id = "0"
+	},
+	[122] = {
+		target_id_2 = "970501",
+		sub_type = 180,
+		desc = "扶桑(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 122,
+		target_num = 1,
+		target_id = "30"
+	},
+	[123] = {
+		target_id_2 = "970501",
+		sub_type = 180,
+		desc = "扶桑(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 123,
+		target_num = 1,
+		target_id = "55"
+	},
+	[124] = {
+		target_id_2 = "970501",
+		sub_type = 180,
+		desc = "扶桑(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 124,
+		target_num = 1,
+		target_id = "80"
+	},
+	[125] = {
+		target_id_2 = "970501",
+		sub_type = 180,
+		desc = "扶桑(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 125,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -344,6 +384,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[216] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "セイレーン作戦で扶桑(META)を含めた艦隊で1回勝利する",
+		id = 216,
+		target_num = 1,
+		target_id = "0"
+	},
+	[217] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 217,
+		target_num = 1,
+		target_id = "70"
+	},
+	[218] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 218,
+		target_num = 1,
+		target_id = "90"
+	},
+	[219] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv100+の敵を撃破 ",
+		id = 219,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -388,6 +460,11 @@ pg.task_meta_data_template = {
 		118,
 		119,
 		120,
+		121,
+		122,
+		123,
+		124,
+		125,
 		200,
 		201,
 		202,
@@ -404,6 +481,10 @@ pg.task_meta_data_template = {
 		213,
 		214,
 		215,
+		216,
+		217,
+		218,
+		219,
 		301,
 		302
 	}

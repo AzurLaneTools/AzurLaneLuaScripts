@@ -292,7 +292,7 @@ function slot6.HandleAreaCldWithVehicle(slot0, slot1, slot2)
 				end
 			end
 
-			if slot12 then
+			if slot12 and not slot1:IsOutOfAngle(slot0:GetShip(slot10.UID)) then
 				slot1:AppendCldObj(slot10)
 			end
 		end

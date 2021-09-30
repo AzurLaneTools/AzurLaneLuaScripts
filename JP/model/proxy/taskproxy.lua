@@ -331,10 +331,6 @@ function slot0.isReceiveTasks(slot0, slot1)
 	end)
 end
 
-function slot0.IsAutoSubmitTask(slot0)
-	return slot0:GetRealType() == 10 and slot0:isFinish()
-end
-
 function slot0.pushAutoSubmitTask(slot0)
 	for slot4, slot5 in pairs(slot0.data) do
 		slot0:checkAutoSubmitTask(slot5)
@@ -342,7 +338,7 @@ function slot0.pushAutoSubmitTask(slot0)
 end
 
 function slot0.checkAutoSubmitTask(slot0, slot1)
-	if uv0.IsAutoSubmitTask(slot1) then
+	if slot1:getConfig("auto_commit") == 1 and slot1:isFinish() then
 		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
 	end
 end

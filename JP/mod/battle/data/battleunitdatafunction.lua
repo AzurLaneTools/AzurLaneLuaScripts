@@ -123,25 +123,51 @@ function slot31.GetEquipSkill(slot0, slot1)
 		if slot8.id then
 			slot10 = nil
 
-			if slot2 and slot2 < slot7 then
-				if uv0.GetWeaponDataFromID(slot9) ~= nil then
-					slot10 = slot11.skill_id
-				end
-			else
-				slot10 = uv0.GetWeaponDataFromID(slot9).skill_id
-			end
+			if uv0.GetWeaponDataFromID(slot9) then
+				for slot15, slot16 in ipairs(slot11.skill_id) do
+					if slot1 then
+						slot16 = uv0.SkillTranform(slot1, slot16) or slot16
+					end
 
-			for slot14, slot15 in ipairs(slot10) do
-				if slot1 then
-					slot15 = uv0.SkillTranform(slot1, slot15) or slot15
+					table.insert(slot3, slot16)
 				end
 
-				table.insert(slot3, slot15)
+				for slot15, slot16 in ipairs(slot11.hidden_skill_id) do
+					if slot1 then
+						slot16 = uv0.SkillTranform(slot1, slot16) or slot16
+					end
+
+					table.insert(slot3, slot16)
+				end
 			end
 		end
 	end
 
 	return slot3
+end
+
+function slot31.AttachWeather(slot0, slot1)
+	if table.contains(slot1, uv0.WEATHER.NIGHT) then
+		if slot0:GetFleetVO() then
+			if table.contains(TeamType.VanguardShipType, slot0:GetTemplate().type) then
+				slot0:GetFleetVO():GetFleetBias():AppendCrew(slot0)
+			elseif table.contains(TeamType.MainShipType, slot3) then
+				slot2:AttachCloak(slot0)
+			elseif table.contains(TeamType.SubShipType, slot3) then
+				slot4 = uv1.Battle.BattleUnitAimBiasComponent.New()
+
+				slot4:ConfigRangeFormula(uv1.Battle.BattleFormulas.CalculateMaxAimBiasRangeSub, uv1.Battle.BattleFormulas.CalculateBiasDecay)
+				slot4:AppendCrew(slot0)
+				slot4:Active(slot4.STATE_ACTIVITING)
+			end
+		elseif slot0:GetUnitType() == uv0.UnitType.ENEMY_UNIT or slot0:GetUnitType() == uv0.UnitType.BOSS_UNIT then
+			slot2 = uv1.Battle.BattleUnitAimBiasComponent.New()
+
+			slot2:ConfigRangeFormula(uv1.Battle.BattleFormulas.CalculateMaxAimBiasRangeMonster, uv1.Battle.BattleFormulas.CalculateBiasDecayMonster)
+			slot2:AppendCrew(slot0)
+			slot2:Active(slot2.STATE_SUMMON_SICKNESS)
+		end
+	end
 end
 
 function slot31.InitEquipSkill(slot0, slot1, slot2)

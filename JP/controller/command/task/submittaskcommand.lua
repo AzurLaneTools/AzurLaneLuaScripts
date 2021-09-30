@@ -44,67 +44,79 @@ function slot0.execute(slot0, slot1)
 		slot6:addSubmittingTask(slot4)
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(20005, {
-		id = slot7.id,
-		choice_award = slot5
-	}, 20006, function (slot0)
-		uv0:removeSubmittingTask(uv1)
+	slot8 = {}
 
-		if slot0.result == 0 then
-			if uv2:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
-				getProxy(BagProxy):removeItemById(tonumber(uv2:getConfig("target_id_for_client")), tonumber(uv2:getConfig("target_num")))
-			elseif uv2:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
-				getProxy(ActivityProxy):removeVitemById(uv2:getConfig("target_id_for_client"), uv2:getConfig("target_num"))
-			elseif uv2:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
-				slot3 = getProxy(PlayerProxy)
-				slot4 = slot3:getData()
+	if slot7:IsOverflowShipExpItem() and not slot0:InTaskScene() then
+		table.insert(slot8, function (slot0)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("player_expResource_mail_fullBag"),
+				onYes = slot0,
+				onNo = function ()
+					uv0:removeSubmittingTask(uv1)
 
-				slot4:consume({
-					[id2res(uv2:getConfig("target_id_for_client"))] = uv2:getConfig("target_num")
-				})
-				slot3:updatePlayer(slot4)
-			end
-
-			uv3.AddGuildLivness(uv2)
-
-			for slot5 = #PlayerConst.addTranDrop(slot0.award_list), 1, -1 do
-				if slot1[slot5].type == DROP_TYPE_VITEM and pg.item_data_statistics[slot6.id].virtual_type == 6 then
-					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then
-						slot9[uv2.id] = (slot8.data1KeyValueList[1][uv2.id] or 0) + slot6.count
-
-						slot7:updateActivity(slot8)
+					if uv2 then
+						uv2(false)
 					end
+				end
+			})
+		end)
+	end
 
-					table.remove(slot1, slot5)
+	seriesAsync(slot8, function ()
+		pg.ConnectionMgr.GetInstance():Send(20005, {
+			id = uv0.id,
+			choice_award = uv1
+		}, 20006, function (slot0)
+			uv0:removeSubmittingTask(uv1)
+
+			if slot0.result == 0 then
+				if uv2:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
+					getProxy(BagProxy):removeItemById(tonumber(uv2:getConfig("target_id_for_client")), tonumber(uv2:getConfig("target_num")))
+				elseif uv2:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
+					getProxy(ActivityProxy):removeVitemById(uv2:getConfig("target_id_for_client"), uv2:getConfig("target_num"))
+				elseif uv2:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
+					slot3 = getProxy(PlayerProxy)
+					slot4 = slot3:getData()
+
+					slot4:consume({
+						[id2res(uv2:getConfig("target_id_for_client"))] = uv2:getConfig("target_num")
+					})
+					slot3:updatePlayer(slot4)
+				end
+
+				uv3.AddGuildLivness(uv2)
+
+				slot1 = PlayerConst.addTranDrop(slot0.award_list, {
+					taskId = uv2.id
+				})
+
+				if uv2:getConfig("type") ~= 8 then
+					uv0:removeTask(uv2)
+				else
+					uv2.submitTime = 1
+
+					uv0:updateTask(uv2)
+				end
+
+				uv4:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
+					uv2.id
+				})
+
+				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot3:isEnd() and table.contains(slot3:getConfig("config_data")[1] or {}, uv2.id) then
+					slot2:monitorTaskList(slot3)
+				end
+
+				if uv5 then
+					uv5(true)
+				end
+			else
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
+
+				if uv5 then
+					uv5(false)
 				end
 			end
-
-			if uv2:getConfig("type") ~= 8 then
-				uv0:removeTask(uv2)
-			else
-				uv2.submitTime = 1
-
-				uv0:updateTask(uv2)
-			end
-
-			uv4:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
-				uv2.id
-			})
-
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot3:isEnd() and table.contains(slot3:getConfig("config_data")[1] or {}, uv2.id) then
-				slot2:monitorTaskList(slot3)
-			end
-
-			if uv5 then
-				uv5(true)
-			end
-		else
-			pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
-
-			if uv5 then
-				uv5(false)
-			end
-		end
+		end)
 	end)
 end
 
@@ -137,6 +149,10 @@ function slot0.AddGuildLivness(slot0)
 			slot1:updateGuild(slot2)
 		end
 	end
+end
+
+function slot0.InTaskScene(slot0)
+	return getProxy(ContextProxy):getCurrentContext().mediator == TaskMediator
 end
 
 return slot0

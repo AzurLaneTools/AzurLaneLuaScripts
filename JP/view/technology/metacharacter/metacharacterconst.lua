@@ -1,7 +1,7 @@
 MetaCharacterConst = {}
 slot0 = MetaCharacterConst
 slot0.Meta_Type_Act_PT = 1
-slot0.Meta_Type_Build = 2
+slot0.Meta_Type_Pass = 3
 slot0.REPAIR_ATTRS = {
 	AttributeType.Cannon,
 	AttributeType.Torpedo,
@@ -65,6 +65,18 @@ slot0.UIConfig = {
 		-58,
 		-441.2,
 		-58
+	},
+	[970501] = {
+		-29.43,
+		-2.55,
+		1,
+		1,
+		-379.9,
+		-4.4,
+		-379.9,
+		-4.4,
+		-379.9,
+		-4.4
 	}
 }
 slot0.META_ART_RESOURCE_PERFIX = "metaship/"
@@ -192,7 +204,7 @@ function slot0.isMetaSynRedTag(slot0)
 
 	slot3:setDataBeforeGet()
 
-	if slot3:isBuildType() then
+	if slot3:isPassType() then
 		return false
 	end
 
@@ -222,7 +234,7 @@ function slot0.isMetaMainSceneRedTag(slot0)
 
 	slot2:setDataBeforeGet()
 
-	if slot2:isBuildType() then
+	if slot2:isPassType() then
 		return false
 	end
 

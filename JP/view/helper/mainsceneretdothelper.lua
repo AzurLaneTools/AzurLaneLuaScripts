@@ -18,7 +18,7 @@ function slot0.Ctor(slot0, slot1)
 		RedDotNode.New(slot0._tf:Find("toTop/frame/bottomPanel/btm/buttons_container/guildButton/tip"), {
 			pg.RedDotMgr.TYPES.GUILD
 		}),
-		RedDotNode.New(slot0._tf:Find("MainUISecondaryPanel/frame/bg/school_btn/tip"), {
+		SelfRefreshRedDotNode.New(slot0._tf:Find("MainUISecondaryPanel/frame/bg/school_btn/tip"), {
 			pg.RedDotMgr.TYPES.SCHOOL
 		}),
 		RedDotNode.New(slot0._tf:Find("toTop/frame/commanderPanel/top/iconBack/tip"), {
@@ -87,7 +87,6 @@ function slot0.GetNotifyType(slot0)
 				GAME.GET_GUILD_INFO_DONE
 			},
 			[pg.RedDotMgr.TYPES.SCHOOL] = {
-				NavalAcademyProxy.BUILDING_FINISH,
 				CollectionProxy.TROPHY_UPDATE
 			},
 			[pg.RedDotMgr.TYPES.FRIEND] = {

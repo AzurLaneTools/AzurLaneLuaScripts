@@ -1498,5 +1498,16 @@ pg.battle_environment_behaviour_template = {
 				}
 			}
 		}
+	},
+	[10024] = {
+		id = 10024,
+		name = "十四章灯塔暴露DEBUFF",
+		behaviour_list = {
+			{
+				buff_id = 9650,
+				reload_time = 1,
+				type = 3
+			}
+		}
 	}
 }

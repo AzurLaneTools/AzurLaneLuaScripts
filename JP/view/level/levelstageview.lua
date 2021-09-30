@@ -660,13 +660,10 @@ function slot0.updateFleetBuff(slot0)
 		end)
 	end
 
-	slot6 = nil
+	slot6 = slot1:GetWeather()
 	slot7 = 0
 
 	if slot1:ExistDivingChampion() then
-		slot6 = {
-			icon = "submarine_approach"
-		}
 		slot7 = 1
 	end
 
@@ -683,9 +680,20 @@ function slot0.updateFleetBuff(slot0)
 
 		if slot0 == UIItemList.EventUpdate then
 			if slot1 + 1 <= #uv0 then
-				GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[uv0[slot1 + 1]].icon, "", slot2)
-				onButton(uv1, slot2, function ()
+				slot4 = pg.strategy_data_template[uv0[slot1 + 1]]
+
+				GetImageSpriteFromAtlasAsync("strategyicon/" .. slot4.icon, "", slot2)
+
+				slot5 = nil
+
+				if slot4.type == ChapterConst.StgTypeBindFleetPassive then
+					setActive(findTF(slot2, "times"), true)
+					setText(findTF(slot2, "times"), uv1:GetStrategyCount(slot3))
+				end
+
+				onButton(uv2, slot2, function ()
 					uv0:HandleShowMsgBox({
+						showOwned = true,
 						hideNo = true,
 						content = "",
 						yesText = "text_confirm",
@@ -693,7 +701,8 @@ function slot0.updateFleetBuff(slot0)
 						drop = {
 							type = DROP_TYPE_STRATEGY,
 							id = uv1.id,
-							cfg = uv1
+							cfg = uv1,
+							strategyCount = uv2
 						}
 					})
 				end, SFX_PANEL)
@@ -701,13 +710,31 @@ function slot0.updateFleetBuff(slot0)
 				return
 			end
 
-			if slot1 + 1 <= #uv0 + #uv2 then
-				slot3 = uv2[slot1 + 1 - #uv0]
+			if slot1 - #uv0 + 1 <= #uv3 then
+				GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.weather_data_template[uv3[slot1 + 1]].buff_icon, "", slot2)
+				onButton(uv2, slot2, function ()
+					uv0:HandleShowMsgBox({
+						hideNo = true,
+						type = MSGBOX_TYPE_DROP_ITEM,
+						name = uv1.buff_name,
+						content = uv1.buff_desc,
+						iconPath = {
+							"strategyicon/" .. uv1.buff_icon
+						},
+						yesText = pg.MsgboxMgr.TEXT_CONFIRM
+					})
+				end, SFX_PANEL)
+
+				return
+			end
+
+			if slot1 - #uv3 + 1 <= #uv4 then
+				slot3 = uv4[slot1 + 1]
 
 				GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot3.id].icon, "", slot2)
 				setActive(findTF(slot2, "times"), true)
 				setText(findTF(slot2, "times"), slot3.count)
-				onButton(uv1, slot2, function ()
+				onButton(uv2, slot2, function ()
 					uv0:HandleShowMsgBox({
 						hideNo = true,
 						content = "",
@@ -721,35 +748,43 @@ function slot0.updateFleetBuff(slot0)
 						extendDesc = string.format(i18n("word_rest_times"), uv2.count)
 					})
 				end, SFX_PANEL)
-			elseif slot1 + 1 <= #uv0 + #uv2 + uv3 then
-				GetImageSpriteFromAtlasAsync("strategyicon/" .. uv4.icon, "", slot2)
+
+				return
+			end
+
+			if slot1 - #uv4 + 1 <= uv5 then
+				GetImageSpriteFromAtlasAsync("strategyicon/submarine_approach", "", slot2)
 
 				slot3 = slot2:GetComponent(typeof(Image))
 
-				onButton(uv1, slot2, function ()
+				onButton(uv2, slot2, function ()
 					uv0:HandleShowMsgBox({
 						hideNo = true,
 						yesText = "text_confirm",
 						type = MSGBOX_TYPE_DROP_ITEM,
 						name = i18n("submarine_approach"),
 						content = i18n("submarine_approach_desc"),
-						sprite = uv1.sprite
+						iconPath = {
+							"strategyicon/submarine_approach"
+						}
 					})
 				end, SFX_PANEL)
-			else
-				slot3 = uv5[slot1 + 1 - #uv0 - #uv2 - uv3]
 
-				GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot3:getConfig("icon"), "", slot2)
-				setText(findTF(slot2, "Text"), "Lv." .. slot3:getConfig("lv"))
-				setActive(findTF(slot2, "Text"), true)
-				setActive(findTF(slot2, "frame"), true)
-				onButton(uv1, slot2, function ()
-					uv0:emit(LevelMediator2.ON_COMMANDER_SKILL, uv1)
-				end, SFX_PANEL)
+				return
 			end
+
+			slot3 = uv6[slot1 - uv5 + 1]
+
+			GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot3:getConfig("icon"), "", slot2)
+			setText(findTF(slot2, "Text"), "Lv." .. slot3:getConfig("lv"))
+			setActive(findTF(slot2, "Text"), true)
+			setActive(findTF(slot2, "frame"), true)
+			onButton(uv2, slot2, function ()
+				uv0:emit(LevelMediator2.ON_COMMANDER_SKILL, uv1)
+			end, SFX_PANEL)
 		end
 	end)
-	slot11:align(#slot3 + #slot4 + slot7 + #_.map(_.values(slot2:getCommanders()), function (slot0)
+	slot11:align(#slot3 + #slot4 + #slot6 + slot7 + #_.map(_.values(slot2:getCommanders()), function (slot0)
 		return slot0:getSkills()[1]
 	end))
 
@@ -776,7 +811,10 @@ function slot0.updateChapterBuff(slot0)
 				hideNo = true,
 				type = MSGBOX_TYPE_DROP_ITEM,
 				name = uv0:getChapterState(),
-				sprite = getImageSprite(uv2),
+				iconPath = {
+					"passstate",
+					uv2 .. "_icon"
+				},
 				content = i18n("level_risk_level_mitigation_rate", uv0:getRemainPassCount(), uv0:getMitigationRate())
 			})
 		end, SFX_PANEL)
@@ -986,7 +1024,7 @@ function slot0.updateStageStrategy(slot0)
 			if slot6 == ChapterConst.StgTypeForm then
 				setText(slot4:Find("nums"), "")
 				setActive(slot4:Find("mask"), false)
-				setActive(slot4:Find("selected"), formationId == slot5.id)
+				setActive(slot4:Find("selected"), true)
 			else
 				setText(slot4:Find("nums"), slot5.count or "")
 				setActive(slot4:Find("mask"), slot5.count == 0)
@@ -1335,7 +1373,7 @@ function slot0.tryAutoAction(slot0, slot1)
 
 			if slot1 then
 				table.eachAsync(slot1, function (slot0, slot1, slot2)
-					if slot0 <= uv0 and slot1 then
+					if slot0 <= uv0 and slot1 and #slot1 > 0 then
 						ChapterOpCommand.PlayChapterStory(pg.NewStoryMgr:StoryId2StoryName(tonumber(slot1)), slot2, uv1:IsAutoFight())
 					else
 						slot2()

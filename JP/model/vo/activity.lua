@@ -99,7 +99,7 @@ end
 function slot0.getDataConfigTable(slot0)
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
 		return pg.activity_event_monopoly[tonumber(slot0:getConfig("config_id"))]
-	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM or slot1 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
 		return pg.activity_event_pt[tonumber(slot2)]
 	end
 end
@@ -232,7 +232,7 @@ function slot0.readyToAchieve(slot0)
 			slot11 = slot0.data2_list[1] - slot0.data2_list[2]
 
 			return math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.data1) / 86400) * slot0:getDataConfig("daily_time") + slot0.data1_list[1] - slot0.data1_list[2] > 0 or slot11 and slot11 > 0
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM or slot2 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot2 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
+		elseif slot2 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot2 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
 			slot4 = ActivityPtData.New(slot0):CanGetAward()
 			slot5 = true
 
@@ -377,22 +377,30 @@ function slot0.readyToAchieve(slot0)
 			elseif slot0.id == ActivityConst.APRILFOOL_DISCOVERY_RE then
 				slot1 = slot1 or slot0.data1 < 2
 			end
+		elseif slot2 == ActivityConst.ACTIVITY_TYPE_PT_CRUSING then
+			return #slot0:GetCrusingUnreceiveAward() > 0
 		end
 	end
 end
 
 function slot0.isShow(slot0)
-	if slot0.configId == ActivityConst.UR_TASK_ACT_ID then
-		return not _.all(slot0:getConfig("config_data")[1], function (slot0)
-			slot1 = getProxy(TaskProxy):getTaskById(slot0) or getProxy(TaskProxy):getFinishTaskById(slot0)
-
-			return slot1 and slot1:isReceive()
-		end)
-	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
 		return slot0:getConfig("is_show") > 0 and slot0.data1 ~= 0
 	else
 		return slot0:getConfig("is_show") > 0
 	end
+end
+
+function slot0.isAfterShow(slot0)
+	if slot0.configId == ActivityConst.UR_TASK_ACT_ID then
+		slot1 = getProxy(TaskProxy)
+
+		return underscore.all(slot0:getConfig("config_data")[1], function (slot0)
+			return uv0:getTaskVO(slot0) and slot1:isReceive()
+		end)
+	end
+
+	return false
 end
 
 function slot0.getShowPriority(slot0)
@@ -487,6 +495,56 @@ function slot0.GetShopTime(slot0)
 	slot3 = slot1[3]
 
 	return string.format("%s.%s.%s - %s.%s.%s", slot2[1][1] - 2000, slot2[1][2], slot2[1][3], slot3[1][1] - 2000, slot3[1][2], slot3[1][3])
+end
+
+function slot0.GetCrusingUnreceiveAward(slot0)
+	slot1 = pg.battlepass_event_pt[slot0.id]
+	slot2 = {}
+	slot3 = {
+		[slot8] = true
+	}
+
+	for slot7, slot8 in ipairs(slot0.data1_list) do
+		-- Nothing
+	end
+
+	for slot7, slot8 in ipairs(slot1.target) do
+		if slot0.data1 < slot8 then
+			break
+		elseif not slot3[slot8] then
+			table.insert(slot2, {
+				type = slot1.drop_client[slot7][1],
+				id = slot1.drop_client[slot7][2],
+				count = slot1.drop_client[slot7][3]
+			})
+		end
+	end
+
+	if slot0.data2 ~= 1 then
+		return PlayerConst.MergePassItemDrop(slot2)
+	end
+
+	slot4 = {
+		[slot9] = true
+	}
+
+	for slot8, slot9 in ipairs(slot0.data2_list) do
+		-- Nothing
+	end
+
+	for slot8, slot9 in ipairs(slot1.target) do
+		if slot0.data1 < slot9 then
+			break
+		elseif not slot4[slot9] then
+			table.insert(slot2, {
+				type = slot1.drop_client_pay[slot8][1],
+				id = slot1.drop_client_pay[slot8][2],
+				count = slot1.drop_client_pay[slot8][3]
+			})
+		end
+	end
+
+	return PlayerConst.MergePassItemDrop(slot2)
 end
 
 return slot0

@@ -168,6 +168,10 @@ function slot0.Uncloak(slot0)
 	slot0._attr.airResistPierceActive = 0
 end
 
+function slot0.IsLockAimBias(slot0)
+	return (slot0._attr.lockAimBias or 0) >= 1
+end
+
 function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3 = slot0._attr or {}
 	slot0._attr = slot3
@@ -201,7 +205,12 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3.cloakRestore = slot3.cloakExposeBase + slot3.cloakExposeExtra + ys.Battle.BattleConfig.CLOAK_BASE_RESTORE_DELTA
 	slot3.cloakRecovery = ys.Battle.BattleConfig.CLOAK_RECOVERY
 	slot3.cloakStrikeAdditive = ys.Battle.BattleConfig.CLOAK_STRIKE_ADDITIVE
+	slot3.cloakBombardAdditive = ys.Battle.BattleConfig.CLOAK_STRIKE_ADDITIVE
 	slot3.airResistPierce = ys.Battle.BattleConfig.BASE_ARP
+	slot3.aimBias = 0
+	slot3.aimBiasDecaySpeed = 0
+	slot3.aimBiasDecaySpeedRatio = 0
+	slot3.aimBiasExtraACC = 0
 	slot3.healingRate = 1
 	slot3.DMG_TAG_EHC_N_99 = slot1[AttributeType.AntiSiren] or 0
 	slot3.comboTag = "combo_" .. slot3.battleUID

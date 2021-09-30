@@ -354,6 +354,7 @@ function slot0.GenBattleData(slot0)
 		slot1.ChapterBuffIDs, slot1.CommanderList = slot6:getFleetBattleBuffs(slot7)
 		slot12 = slot7.line.column
 		slot1.StageWaveFlags = slot6:GetFleetAttachmentConfig("stage_flags", slot7.line.row, slot12)
+		slot1.ChapterWeatherIDS = slot6:GetWeather(slot7.line.row, slot7.line.column)
 		slot1.MapAuraSkills = slot5.GetChapterAuraBuffs(slot6)
 		slot1.MapAidSkills = {}
 
@@ -765,6 +766,20 @@ function slot0.GenBattleData(slot0)
 		slot12(slot7:getTeamByName(TeamType.Vanguard), slot10, slot1.VanguardUnitList)
 		slot12(slot7:getTeamByName(TeamType.Submarine), slot11, slot1.SubUnitList)
 		slot0.viewComponent:setFleet(slot9, slot10, slot11)
+
+		if BATTLE_DEBUG and BATTLE_FREE_SUBMARINE and #slot6:getFleetById(11):getTeamByName(TeamType.Submarine) > 0 then
+			slot1.SubFlag = 1
+			slot1.TotalSubAmmo = 1
+			subCommanderList = _.values(slot8:getCommanders())
+			slot1.SubCommanderList = slot8:buildBattleBuffList()
+
+			for slot21, slot22 in ipairs(slot16) do
+				slot23 = slot3:getShipById(slot22)
+
+				table.insert(slot11, slot23)
+				table.insert(slot1.SubUnitList, uv0(slot2, slot23, subCommanderList, slot5))
+			end
+		end
 	end
 
 	if slot0.mainShips then

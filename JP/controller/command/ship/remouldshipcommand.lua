@@ -112,7 +112,7 @@ function slot0.execute(slot0, slot1)
 								-- Nothing
 							end
 
-							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", pg.skill_data_template[slot8].name))
+							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[slot8].name)))
 						end
 
 						uv0.skills[slot9.id] = slot9

@@ -66,17 +66,7 @@ function slot0.execute(slot0, slot1)
 			end
 		end
 
-		for slot5, slot6 in ipairs(PlayerConst.addTranDrop(slot0.award_list)) do
-			if slot6.type == DROP_TYPE_VITEM and pg.item_data_statistics[slot6.id].virtual_type == 6 then
-				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then
-					slot9[task.id] = (slot8.data1KeyValueList[1][task.id] or 0) + slot6.count
-
-					slot7:updateActivity(slot8)
-				end
-			else
-				table.insert(uv1, slot6)
-			end
-		end
+		uv1 = PlayerConst.addTranDrop(slot0.award_list)
 
 		if not uv2 then
 			uv3:sendNotification(GAME.SUBMIT_TASK_DONE, uv1, _.map(uv4, function (slot0)

@@ -25,6 +25,7 @@ function slot0.init(slot0)
 	slot0.itemCells = {}
 	slot0.attachmentCells = {}
 	slot0.extraAttachmentCells = {}
+	slot0.weatherCells = {}
 	slot0.onCellClick = nil
 	slot0.onShipStepChange = nil
 	slot0.onShipArrived = nil
@@ -233,6 +234,12 @@ function slot0.clearAll(slot0)
 		end
 
 		table.clear(slot0.extraAttachmentCells)
+
+		for slot4, slot5 in pairs(slot0.weatherCells) do
+			slot5:Clear()
+		end
+
+		table.clear(slot0.weatherCells)
 
 		for slot4 = 0, ChapterConst.MaxRow - 1 do
 			for slot8 = 0, ChapterConst.MaxColumn - 1 do
@@ -1310,12 +1317,10 @@ function slot0.UpdateFloor(slot0)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.contextData.chapterVO.cells) do
-		if slot8.flagList and #slot8.flagList > 0 then
-			for slot12, slot13 in pairs(slot8.flagList) do
-				slot3[slot13] = slot3[slot13] or {}
+		for slot13, slot14 in pairs(slot8:GetFlagList()) do
+			slot3[slot14] = slot3[slot14] or {}
 
-				table.insert(slot3[slot13], slot8)
-			end
+			table.insert(slot3[slot14], slot8)
 		end
 	end
 
@@ -1335,7 +1340,7 @@ function slot0.UpdateFloor(slot0)
 		slot0:hideQuadMark(ChapterConst.MarkNightMare)
 		slot0:hideQuadMark(ChapterConst.MarkHideNight)
 
-		if slot1.extraFlagList[1] == ChapterConst.StatusDay then
+		if slot1:getExtraFlags()[1] == ChapterConst.StatusDay then
 			slot0:showQuadMark(slot3[ChapterConst.FlagNightmare], ChapterConst.MarkHideNight, "cell_hidden_nightmare", Vector2(110, 110), nil, true)
 		elseif slot4 == ChapterConst.StatusNight then
 			slot0:showQuadMark(slot3[ChapterConst.FlagNightmare], ChapterConst.MarkNightMare, "cell_nightmare", Vector2(110, 110), nil, true)
@@ -1344,7 +1349,7 @@ function slot0.UpdateFloor(slot0)
 
 	slot4 = {}
 
-	for slot8, slot9 in pairs(slot1.cellAttachments) do
+	for slot8, slot9 in pairs(slot1:GetChapterCellAttachemnts()) do
 		if slot9.data == ChapterConst.StoryTrigger and pg.map_event_template[slot9.attachmentId] and slot10.c_type == ChapterConst.EvtType_AdditionalFloor then
 			slot4[slot10.icon] = slot4[slot10.icon] or {}
 
@@ -1379,35 +1384,41 @@ function slot0.UpdateFloor(slot0)
 		slot0:hideQuadMark(slot8)
 		slot0:showQuadMark(slot7, slot8, slot8, Vector2(104, 104), nil, true)
 	end
+
+	slot0:UpdateWeatherCells()
 end
 
 function slot0.updateExtraAttachments(slot0)
-	for slot6, slot7 in pairs(slot0.contextData.chapterVO.cellAttachments) do
+	for slot6, slot7 in pairs(slot0.contextData.chapterVO:GetChapterCellAttachemnts()) do
 		slot8 = slot7.row
 		slot9 = slot7.column
 		slot11 = slot0.cellRoot:Find(slot6):Find(ChapterConst.ChildAttachment)
-		slot14 = slot0.extraAttachmentCells[slot6]
+		slot14 = nil
 
 		if slot7.data == ChapterConst.StoryTrigger and pg.map_event_template[slot7.attachmentId].c_type ~= ChapterConst.EvtType_AdditionalFloor then
-			if slot14 and slot14.class ~= MapEventStoryTriggerCellView then
-				slot14:Clear()
+			slot14 = MapEventStoryTriggerCellView
+		end
 
-				slot14 = nil
-				slot0.extraAttachmentCells[slot6] = nil
+		if slot0.extraAttachmentCells[slot6] and slot15.class ~= slot14 then
+			slot15:Clear()
+
+			slot15 = nil
+			slot0.extraAttachmentCells[slot6] = nil
+		end
+
+		if slot14 then
+			if not slot15 then
+				slot0.extraAttachmentCells[slot6] = slot14.New(slot11)
 			end
 
-			if not slot14 then
-				slot0.extraAttachmentCells[slot6] = MapEventStoryTriggerCellView.New(slot11)
-			end
+			slot15.info = slot7
+			slot15.chapter = slot1
 
-			slot14.info = slot7
-			slot14.chapter = slot1
-
-			slot14:SetLine({
+			slot15:SetLine({
 				row = slot8,
 				column = slot9
 			})
-			slot14:Update()
+			slot15:Update()
 		end
 	end
 end
@@ -1478,63 +1489,48 @@ end
 
 function slot0.updateAttachment(slot0, slot1, slot2)
 	if slot0.contextData.chapterVO:getChapterCell(slot1, slot2) then
-		if slot4.attachment == ChapterConst.AttachAreaBoss then
-			return
-		end
-
 		slot7 = slot0.cellRoot:Find(ChapterCell.Line2Name(slot1, slot2)):Find(ChapterConst.ChildAttachment)
-		slot8 = slot4.trait ~= ChapterConst.TraitLurk
-
-		if (slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachBoss) and slot4.flag ~= 1 and slot3:existFleet(FleetType.Transport, slot4.row, slot4.column) then
-			slot8 = false
-		end
-
-		setActive(slot7, slot8)
-
-		if not slot8 then
-			return
-		end
 
 		if slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachBoss then
-			if slot0.attachmentCells[slot5] and (pg.expedition_data_template[slot4.attachmentId].icon_type == 1 and EnemyEggCellView or EnemySpineCellView).__cname ~= slot11.__cname then
-				slot11:Clear()
+			if slot0.attachmentCells[slot5] and (pg.expedition_data_template[slot4.attachmentId].icon_type == 1 and EnemyEggCellView or EnemySpineCellView).__cname ~= slot10.__cname then
+				slot10:Clear()
 
-				slot11 = nil
+				slot10 = nil
 				slot0.attachmentCells[slot5] = nil
 			end
 
-			if not slot11 then
-				slot11 = slot10.New(slot7)
+			if not slot10 then
+				slot10 = slot9.New(slot7)
 
-				slot11:SetTpl(slot0.enemyTpl, slot0.deadTpl)
-				slot11:SetLine({
+				slot10:SetTpl(slot0.enemyTpl, slot0.deadTpl)
+				slot10:SetLine({
 					row = slot1,
 					column = slot2
 				})
 
-				slot0.attachmentCells[slot5] = slot11
+				slot0.attachmentCells[slot5] = slot10
 			end
 
-			slot11.info = slot4
-			slot11.config = slot9
-			slot11.chapter = slot3
+			slot10.info = slot4
+			slot10.config = slot8
+			slot10.chapter = slot3
 
-			slot11:Update()
+			slot10:Update()
 
-			slot12 = false
+			slot11 = false
 
 			if slot4.flag == ChapterConst.CellFlagActive then
-				slot12 = slot0:isHuntingRangeVisible() and _.any(slot3.fleets, function (slot0)
+				slot11 = slot0:isHuntingRangeVisible() and _.any(slot3.fleets, function (slot0)
 					return slot0:getFleetType() == FleetType.Submarine and slot0:isValid() and slot0:inHuntingRange(uv0.row, uv0.column)
 				end)
 			end
 
-			if slot12 then
-				if not slot0.attachTws[slot5] and slot11.tf then
-					slot13 = LeanTween.color(findTF(slot11.tf, "icon"), Color.New(1, 0.6, 0.6), 1):setFromColor(Color.white):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
+			if slot11 then
+				if not slot0.attachTws[slot5] and slot10.tf then
+					slot12 = LeanTween.color(findTF(slot10.tf, "icon"), Color.New(1, 0.6, 0.6), 1):setFromColor(Color.white):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 					slot0.attachTws[slot5] = {
-						tw = slot13,
-						uniqueId = slot13.uniqueId
+						tw = slot12,
+						uniqueId = slot12.uniqueId
 					}
 				end
 			elseif slot0.attachTws[slot5] then
@@ -1542,78 +1538,76 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 
 				slot0.attachTws[slot5] = nil
 
-				if slot11.tf then
-					setImageColor(findTF(slot11.tf, "icon"), Color.white)
+				if slot10.tf then
+					setImageColor(findTF(slot10.tf, "icon"), Color.white)
 				end
 			end
 		else
-			slot9 = nil
-			slot10 = {}
+			slot8 = nil
+			slot9 = {}
 
 			if slot4.attachment == ChapterConst.AttachBox then
-				slot9 = AttachmentBoxCell
+				slot8 = AttachmentBoxCell
 			elseif slot4.attachment == ChapterConst.AttachSupply then
-				slot9 = AttachmentSupplyCell
+				slot8 = AttachmentSupplyCell
 			elseif slot4.attachment == ChapterConst.AttachTransport_Target then
-				slot9 = AttachmentTransportTargetCell
+				slot8 = AttachmentTransportTargetCell
 			elseif slot4.attachment == ChapterConst.AttachStory then
 				if slot4.data == ChapterConst.Story then
-					slot9 = MapEventStoryCellView
+					slot8 = MapEventStoryCellView
 				elseif slot4.data == ChapterConst.StoryObstacle then
-					slot9 = MapEventStoryObstacleCellView
+					slot8 = MapEventStoryObstacleCellView
 				end
 			elseif slot4.attachment == ChapterConst.AttachBomb_Enemy then
-				slot9 = AttachmentBombEnemyCell
+				slot8 = AttachmentBombEnemyCell
 			elseif slot4.attachment == ChapterConst.AttachLandbase then
 				if pg.land_based_template[slot4.attachmentId].type == ChapterConst.LBCoastalGun then
-					slot9 = AttachmentLBCoastalGunCell
-				elseif slot11.type == ChapterConst.LBHarbor then
-					slot9 = AttachmentLBHarborCell
-				elseif slot11.type == ChapterConst.LBDock then
-					slot9 = AttachmentLBDockCell
-					slot10.chapter = slot3
-				elseif slot11.type == ChapterConst.LBAntiAir then
-					slot9 = AttachmentLBAntiAirCell
-					slot10.info = slot4
-					slot10.chapter = slot3
-					slot10.grid = slot0
-				elseif slot11.type == ChapterConst.LBIdle and slot4.attachmentId == ChapterConst.LBIDAirport then
-					slot9 = AttachmentLBAirport
-					slot10.extraFlagList = slot3:getExtraFlags()
+					slot8 = AttachmentLBCoastalGunCell
+				elseif slot10.type == ChapterConst.LBHarbor then
+					slot8 = AttachmentLBHarborCell
+				elseif slot10.type == ChapterConst.LBDock then
+					slot8 = AttachmentLBDockCell
+					slot9.chapter = slot3
+				elseif slot10.type == ChapterConst.LBAntiAir then
+					slot8 = AttachmentLBAntiAirCell
+					slot9.info = slot4
+					slot9.chapter = slot3
+					slot9.grid = slot0
+				elseif slot10.type == ChapterConst.LBIdle and slot4.attachmentId == ChapterConst.LBIDAirport then
+					slot8 = AttachmentLBAirport
+					slot9.extraFlagList = slot3:getExtraFlags()
 				end
 			elseif slot4.attachment == ChapterConst.AttachBarrier then
-				slot9 = AttachmentBarrierCell
+				slot8 = AttachmentBarrierCell
 			end
 
-			if slot0.attachmentCells[slot5] and slot11.class ~= slot9 then
-				slot11:Clear()
+			if slot0.attachmentCells[slot5] and slot10.class ~= slot8 then
+				slot10:Clear()
 
-				slot11 = nil
+				slot10 = nil
 				slot0.attachmentCells[slot5] = nil
 			end
 
-			if not slot9 then
-				return
+			if slot8 then
+				if not slot10 then
+					slot10 = slot8.New(slot7)
+
+					slot10:SetLine({
+						row = slot1,
+						column = slot2
+					})
+
+					slot0.attachmentCells[slot5] = slot10
+				end
+
+				slot10.info = slot4
+
+				for slot14, slot15 in pairs(slot9) do
+					slot10[slot14] = slot15
+				end
+
+				slot10:Update()
 			end
-
-			if not slot11 then
-				slot11 = slot9.New(slot7)
-
-				slot11:SetLine({
-					row = slot1,
-					column = slot2
-				})
-
-				slot0.attachmentCells[slot5] = slot11
-			end
-
-			slot11.info = slot4
-
-			for slot15, slot16 in pairs(slot10) do
-				slot11[slot15] = slot16
-			end
-
-			slot11:Update()
 		end
 	end
 end
@@ -1691,6 +1685,41 @@ function slot0.InitWallDirection(slot0, slot1, slot2)
 	slot10.BanCount = slot10.BanCount + (slot8 and 2 or 1)
 end
 
+function slot0.UpdateWeatherCells(slot0)
+	for slot5, slot6 in pairs(slot0.contextData.chapterVO.cells) do
+		slot7 = nil
+
+		if #slot6:GetWeatherFlagList() > 0 then
+			slot7 = MapWeatherCellView
+		end
+
+		if slot0.weatherCells[slot5] and slot9.class ~= slot7 then
+			slot9:Clear()
+
+			slot9 = nil
+			slot0.weatherCells[slot5] = nil
+		end
+
+		if slot7 then
+			if not slot9 then
+				slot9 = slot7.New(slot0.cellRoot:Find(slot5):Find(ChapterConst.ChildAttachment))
+
+				slot9:SetLine({
+					row = slot6.row,
+					column = slot6.column
+				})
+
+				slot0.weatherCells[slot5] = slot9
+			end
+
+			slot9.info = slot6
+			slot9.chapter = slot1
+
+			slot9:Update(slot8)
+		end
+	end
+end
+
 function slot0.updateQuadCells(slot0, slot1, ...)
 	slot1 = slot1 or ChapterConst.QuadStateNormal
 	slot0.quadState = slot1
@@ -1716,48 +1745,52 @@ function slot0.updateQuadBase(slot0)
 	for slot7, slot8 in pairs(slot1.cells) do
 		(function (slot0)
 			if slot0 and slot0:IsWalkable() then
-				slot3 = uv0:GetObjectsInCell(slot0.row, slot0.column)
-				slot4, slot5, slot6 = slot3:__pairs()
+				slot1 = slot0.row
+				slot2 = slot0.column
+				slot4 = uv0.quadRoot:Find(ChapterCell.Line2QuadName(slot1, slot2))
+				slot4.localScale = Vector3.one
 
-				if slot4(slot3, slot6) then
-					slot9 = uv1.quadRoot:Find(ChapterCell.Line2QuadName(slot1, slot2))
-					slot9.localScale = Vector3.one
+				if uv1:getChampion(slot1, slot2) and slot6.flag == ChapterConst.CellFlagActive and slot6.trait ~= ChapterConst.TraitLurk and uv1:getChampionVisibility(slot6) and not uv1:existFleet(FleetType.Transport, slot1, slot2) then
+					uv0:startQuadTween(slot3, slot4)
+					setImageSprite(slot4, GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_enemy"))
+					setImageSprite(slot4:Find("grid"), GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_enemy_grid"))
 
-					if slot6 == "champion" and slot3[slot6].flag == ChapterConst.CellFlagActive and slot11.trait ~= ChapterConst.TraitLurk and uv0:getChampionVisibility(slot11) and not uv0:existFleet(FleetType.Transport, slot11.row, slot11.column) then
-						uv1:startQuadTween(slot8, slot9)
-						setImageSprite(slot9, GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_enemy"))
-						setImageSprite(slot9:Find("grid"), GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_enemy_grid"))
+					slot4:Find("grid"):GetComponent(typeof(Image)).material = uv0.material_Add
 
-						slot9:Find("grid"):GetComponent(typeof(Image)).material = uv1.material_Add
-
-						return
-					end
-
-					if slot6 == "cell" and uv0:getQuadCellPic(slot0) then
-						uv1:startQuadTween(slot8, slot9)
-
-						if slot11 == "cell_enemy" then
-							setImageSprite(slot9:Find("grid"), GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_enemy_grid"))
-
-							slot10.material = uv1.material_Add
-						else
-							setImageSprite(slot9:Find("grid"), GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_grid"))
-
-							slot10.material = nil
-						end
-
-						setImageSprite(slot9, GetSpriteFromAtlas("chapter/pic/cellgrid", slot11))
-
-						return
-					end
-
-					uv1:cancelQuadTween(slot8, slot9)
-					setImageAlpha(slot9, ChapterConst.CellEaseOutAlpha)
-					setImageSprite(slot9, GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_normal"))
-					setImageSprite(slot9:Find("grid"), GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_grid"))
-
-					slot10.material = nil
+					return
 				end
+
+				if uv1:GetRawChapterAttachemnt(slot1, slot2) and uv1:getQuadCellPic(slot7) then
+					uv0:startQuadTween(slot3, slot4)
+					setImageSprite(slot4, GetSpriteFromAtlas("chapter/pic/cellgrid", slot8))
+
+					return
+				end
+
+				if uv1:getChapterCell(slot1, slot2) and uv1:getQuadCellPic(slot0) then
+					uv0:startQuadTween(slot3, slot4)
+
+					if slot9 == "cell_enemy" then
+						setImageSprite(slot4:Find("grid"), GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_enemy_grid"))
+
+						slot5.material = uv0.material_Add
+					else
+						setImageSprite(slot4:Find("grid"), GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_grid"))
+
+						slot5.material = nil
+					end
+
+					setImageSprite(slot4, GetSpriteFromAtlas("chapter/pic/cellgrid", slot9))
+
+					return
+				end
+
+				uv0:cancelQuadTween(slot3, slot4)
+				setImageAlpha(slot4, ChapterConst.CellEaseOutAlpha)
+				setImageSprite(slot4, GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_normal"))
+				setImageSprite(slot4:Find("grid"), GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_grid"))
+
+				slot5.material = nil
 			end
 		end)(slot8)
 	end
