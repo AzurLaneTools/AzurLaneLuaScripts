@@ -103,13 +103,13 @@ pg.activity_task_permanent = {
 		}
 	},
 	[6004] = {
-		gametip = "可获得荙限定换装「夜宴微醺」",
+		gametip = "오오시오 한정 스킨 「한 잔 마실래?」 획득 가능",
 		banner_route = "permanent_dachaolifu",
 		gametip_extra = "7일만에 획득 가능",
 		over_pt = 0,
 		task_extra = "",
 		id = 6004,
-		activity_name = "夜宴微醺",
+		activity_name = "한 잔 마실래?",
 		over_task_id = "",
 		eliminate_task_id = {
 			35054,
@@ -129,13 +129,13 @@ pg.activity_task_permanent = {
 		}
 	},
 	[6005] = {
-		gametip = "可获得鲼限定换装「盛装的黑猫」",
+		gametip = "야마시로 한정 스킨 「연회복을 입은 검은 고양이」 획득 가능",
 		banner_route = "permanent_shanchenglifu",
 		gametip_extra = "7일만에 획득 가능",
 		over_pt = 0,
 		task_extra = "",
 		id = 6005,
-		activity_name = "港区的特别宴会",
+		activity_name = "모항의 특별 연회",
 		over_task_id = "",
 		eliminate_task_id = {
 			35068,

@@ -14868,7 +14868,14 @@ pg.transform_data_template = {
 		use_gold = 4000,
 		name = "근대화 개수",
 		star_limit = 5,
-		descrip = "근대화 개수 완료, 뇌장+20, 기동+25 \n\n",
+		descrip = [[
+근대화 개수 완료, 뇌장+20, 기동+25
+
+이번 개조 시 <color=#92fc63>고기 냄새 향수</color>를 소모합니다.
+계속하시겠습니까?
+개조 후<color=#92fc63>[어뢰 발사 수 -1]</color> <color=#92fc63>[주포 발사 수 +1]</color>
+스킬 <color=#92fc63>[솔로몬의 악몽]</color>이 <color=#92fc63>[솔로몬의 악몽·改]</color>으로 업그레이드
+스킬 <color=#92fc63>[특수 탄막-{namecode:16}II]</color>가 <color=#92fc63>[특수 탄막-{namecode:16}III]</color>으로 업그레이드됩니다.]],
 		max_level = 1,
 		skin_id = 301149,
 		use_ship = 1,
