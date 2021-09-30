@@ -137,5 +137,8 @@ pg.voice_bgm = {
 	},
 	AmusementParkScene2 = {
 		bgm = "Story-richang"
+	},
+	CrusingScene = {
+		bgm = "Blueocean-image"
 	}
 }

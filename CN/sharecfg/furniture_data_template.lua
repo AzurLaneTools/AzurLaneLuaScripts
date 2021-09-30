@@ -7327,6 +7327,81 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100030] = {
+		spine_extra = "",
+		describe = "悄咪咪…没人能发现我完美的伪装！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "纸箱(潜入用)",
+		themeId = 0,
+		icon = "yinmizhixiangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100030,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinmizhixiangB",
+				"normal"
+			},
+			{
+				"yinmizhixiangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		spine_extra = "",
 		describe = "到处都是破洞的地板，注意不要踩到洞里啊",
@@ -99729,6 +99804,7 @@ pg.furniture_data_template = {
 		100027,
 		100028,
 		100029,
+		100030,
 		1001,
 		1002,
 		1101,

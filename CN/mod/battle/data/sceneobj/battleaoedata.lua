@@ -160,6 +160,10 @@ function slot2.GetRange(slot0)
 	return slot0._range
 end
 
+function slot2.GetSectorAngle(slot0)
+	return slot0._sectorAngle
+end
+
 function slot2.SetAreaType(slot0, slot1)
 	slot0._areaType = slot1
 
@@ -200,6 +204,24 @@ end
 
 function slot2.SetRange(slot0, slot1)
 	slot0._range = slot1
+end
+
+function slot2.SetSectorAngle(slot0, slot1, slot2)
+	slot0._sectorAngle = slot1
+	slot0._sectorDir = slot2
+	slot0._upperEdge = math.deg2Rad * slot0._sectorAngle / 2
+	slot0._lowerEdge = -1 * slot0._upperEdge
+
+	if slot2 == uv0.UnitDir.LEFT then
+		slot0._normalizeOffset = math.pi - 0
+	elseif slot2 == uv0.UnitDir.RIGHT then
+		slot0._normalizeOffset = slot4
+	end
+
+	slot0._wholeCircle = math.pi - slot0._normalizeOffset
+	slot0._negativeCircle = -math.pi - slot0._normalizeOffset
+	slot0._wholeCircleNormalizeOffset = slot0._normalizeOffset - math.pi * 2
+	slot0._negativeCircleNormalizeOffset = slot0._normalizeOffset + math.pi * 2
 end
 
 function slot2.SetAnchorPointAlignment(slot0, slot1)
@@ -281,4 +303,18 @@ end
 
 function slot2.GetDistance(slot0, slot1)
 	return slot0._cldObjDistanceList[slot1]
+end
+
+function slot2.IsOutOfAngle(slot0, slot1)
+	if not slot0._sectorAngle or slot0._sectorAngle >= 360 then
+		return false
+	else
+		slot2 = slot1:GetPosition()
+
+		if slot0._lowerEdge < (slot0._wholeCircle < math.atan2(slot2.z - slot0._pos.z, slot2.x - slot0._pos.x) and slot3 + slot0._wholeCircleNormalizeOffset or slot3 < slot0._negativeCircle and slot3 + slot0._negativeCircleNormalizeOffset or slot3 + slot0._normalizeOffset) and slot3 < slot0._upperEdge then
+			return false
+		else
+			return true
+		end
+	end
 end

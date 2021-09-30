@@ -102,10 +102,6 @@ function slot1.PushAll(slot0)
 			slot0:PushSchool()
 		end
 
-		if uv1[uv2.PUSH_TYPE_CLASS] then
-			slot0:PushClass()
-		end
-
 		if uv1[uv2.PUSH_TYPE_TECHNOLOGY] then
 			slot0:PushTechnlogy()
 		end
@@ -178,14 +174,6 @@ function slot1.PushSchool(slot0)
 
 			slot0:Push(slot2.title, string.gsub(string.gsub(slot2.content, "$1", slot10:getName()), "$2", getSkillName(slot9:getSkillId(slot10))), slot9.finishTime)
 		end
-	end
-end
-
-function slot1.PushClass(slot0)
-	slot1 = uv0.push_data_template[slot0.PUSH_TYPE_CLASS]
-
-	if getProxy(NavalAcademyProxy):getCourse():inClass() and uv0.TimeMgr.GetInstance():GetServerTime() < slot2.timestamp + AcademyCourse.MaxStudyTime then
-		slot0:Push(slot1.title, slot1.content, slot3)
 	end
 end
 

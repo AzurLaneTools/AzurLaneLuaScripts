@@ -27,6 +27,7 @@ function slot8.InitBattle(slot0, slot1)
 	slot0:DispatchEvent(uv2.Event.New(uv3.STAGE_DATA_INIT_FINISH))
 	slot0._cameraUtil:Initialize()
 	slot0._cameraUtil:SetMapData(slot0:GetTotalBounds())
+	slot0:InitWeatherData()
 	slot0:InitUserShipsData(slot0._battleInitData.MainUnitList, slot0._battleInitData.VanguardUnitList, uv4.FRIENDLY_CODE, slot0._battleInitData.SubUnitList)
 	slot0:InitUserAidData()
 	slot0:SetSubmarinAidData()
@@ -164,6 +165,7 @@ function slot8.InitData(slot0, slot1)
 	slot0._dungeonID = slot0._expeditionTmp.dungeon_id
 	slot0._dungeonInfo = uv1.GetDungeonTmpDataByID(slot0._dungeonID)
 	slot0._mapId = slot1.WorldMapId or slot0._expeditionTmp.map_id
+	slot0._weahter = slot1.ChapterWeatherIDS or {}
 	slot0._exposeSpeed = slot0._expeditionTmp.expose_speed
 	slot0._airExpose = slot0._expeditionTmp.aircraft_expose[1]
 	slot0._airExposeEX = slot0._expeditionTmp.aircraft_expose[2]
@@ -430,6 +432,16 @@ function slot8.SetSubmarinAidData(slot0)
 	slot0:GetFleetByIFF(uv0.FRIENDLY_CODE):SetSubAidData(slot0._battleInitData.TotalSubAmmo, slot0._battleInitData.SubFlag)
 end
 
+function slot8.InitWeatherData(slot0)
+	for slot4, slot5 in ipairs(slot0._weahter) do
+		if slot5 == uv0.WEATHER.NIGHT then
+			for slot9, slot10 in pairs(slot0._fleetList) do
+				slot10:AttachNightCloak()
+			end
+		end
+	end
+end
+
 function slot8.CelebrateVictory(slot0, slot1)
 	slot2 = nil
 
@@ -568,6 +580,7 @@ function slot8.updateLoop(slot0, slot1)
 	slot0.FrameIndex = slot0.FrameIndex + 1
 
 	slot0:UpdateCountDown(slot1)
+	slot0:UpdateWeather(slot1)
 
 	for slot5, slot6 in pairs(slot0._fleetList) do
 		slot6:UpdateMotion()
@@ -739,6 +752,71 @@ function slot8.UpdateAutoComponent(slot0, slot1)
 	end
 end
 
+function slot8.UpdateWeather(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0._weahter) do
+		if slot6 == uv0.WEATHER.NIGHT then
+			slot7 = {
+				[uv1.FRIENDLY_CODE] = 0,
+				[uv1.FOE_CODE] = 0
+			}
+			slot8 = {
+				[uv1.FRIENDLY_CODE] = 0,
+				[uv1.FOE_CODE] = 0
+			}
+			slot9 = {
+				[uv1.FRIENDLY_CODE] = 0,
+				[uv1.FOE_CODE] = 0
+			}
+
+			for slot13, slot14 in pairs(slot0._unitList) do
+				if not slot14:GetAimBias() or slot15:GetCurrentState() ~= slot15.STATE_SUMMON_SICKNESS then
+					slot16 = slot14:GetIFF()
+					slot8[slot16] = math.max(slot8[slot16], uv2.GetCurrent(slot14, "attackRating"))
+					slot9[slot16] = slot9[slot16] + uv2.GetCurrent(slot14, "aimBiasExtraACC")
+
+					if table.contains(ShipType.BundleList[ShipType.BundleAntiSubmarine], slot14:GetTemplate().type) then
+						slot7[slot16] = math.max(slot7[slot16], slot18)
+					end
+				end
+			end
+
+			for slot13, slot14 in pairs(slot0._fleetList) do
+				slot15 = slot14:GetFleetBias()
+				slot16 = slot13 * -1
+				slot20 = slot9[slot16]
+
+				slot15:SetDecayFactor(slot8[slot16], slot20)
+				slot15:Update(slot1)
+
+				for slot20, slot21 in ipairs(slot14:GetSubList()) do
+					slot22 = slot21:GetAimBias()
+
+					if slot22:GetDecayFactorType() == slot22.DIVING then
+						slot22:SetDecayFactor(slot7[slot16], slot9[slot16])
+					else
+						slot22:SetDecayFactor(slot8[slot16], slot9[slot16])
+					end
+
+					slot22:Update(slot1)
+				end
+			end
+
+			for slot13, slot14 in pairs(slot0._freeShipList) do
+				slot16 = slot14:GetIFF() * -1
+				slot17 = slot14:GetAimBias()
+
+				if slot17:GetDecayFactorType() == slot17.DIVING then
+					slot17:SetDecayFactor(slot7[slot16], slot9[slot16])
+				else
+					slot17:SetDecayFactor(slot8[slot16], slot9[slot16])
+				end
+
+				slot17:Update(slot1)
+			end
+		end
+	end
+end
+
 function slot8.UpdateEscapeOnly(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._foeShipList) do
 		slot6:Update(slot1)
@@ -802,6 +880,8 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot11:InitOxygen()
 		slot0:UpdateHostileSubmarine(true)
 	end
+
+	uv0.AttachWeather(slot11, slot0._weahter)
 
 	slot0._freeShipList[slot6] = slot11
 	slot0._unitList[slot6] = slot11
@@ -887,6 +967,12 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 	if slot0._battleInitData.CMDArgs and slot11:GetTemplateID() == slot0._battleInitData.CMDArgs then
 		slot0:InitSpecificEnemyStatistics(slot11)
 	end
+
+	if slot11:GetAimBias() then
+		slot0:DispatchEvent(uv5.Event.New(uv6.ADD_AIM_BIAS, {
+			aimBias = slot11:GetAimBias()
+		}))
+	end
 end
 
 function slot8.UpdateHostileSubmarine(slot0, slot1)
@@ -925,9 +1011,10 @@ function slot8.SpawnVanguard(slot0, slot1, slot2)
 	slot4 = slot0:generatePlayerUnit(slot1, slot2, BuildVector3(slot0:GetVanguardBornCoordinate(slot2)), slot0._commanderBuff)
 
 	slot0:GetFleetByIFF(slot2):AppendPlayerUnit(slot4)
+	uv0.AttachWeather(slot4, slot0._weahter)
 	slot0._cldSystem:InitShipCld(slot4)
-	slot0:DispatchEvent(uv1.Event.New(uv2.ADD_UNIT, {
-		type = uv0.UnitType.PLAYER_UNIT,
+	slot0:DispatchEvent(uv2.Event.New(uv3.ADD_UNIT, {
+		type = uv1.UnitType.PLAYER_UNIT,
 		unit = slot4
 	}))
 
@@ -948,9 +1035,10 @@ function slot8.SpawnMain(slot0, slot1, slot2)
 	end
 
 	slot4:AppendPlayerUnit(slot6)
+	uv1.AttachWeather(slot6, slot0._weahter)
 	slot0._cldSystem:InitShipCld(slot6)
-	slot0:DispatchEvent(uv2.Event.New(uv3.ADD_UNIT, {
-		type = uv1.UnitType.PLAYER_UNIT,
+	slot0:DispatchEvent(uv3.Event.New(uv4.ADD_UNIT, {
+		type = uv2.UnitType.PLAYER_UNIT,
 		unit = slot6
 	}))
 
@@ -964,6 +1052,7 @@ function slot8.SpawnSub(slot0, slot1, slot2)
 	slot7 = slot0:generatePlayerUnit(slot1, slot2, (slot2 ~= uv0.FRIENDLY_CODE or Vector3(slot6 + slot0._totalLeftBound, 0, uv0.SUB_UNIT_POS_Z[slot5])) and Vector3(slot0._totalRightBound - slot6, 0, uv0.SUB_UNIT_POS_Z[slot5]), slot0._subCommanderBuff)
 
 	slot4:AddSubMarine(slot7)
+	uv1.AttachWeather(slot7, slot0._weahter)
 	slot0._cldSystem:InitShipCld(slot7)
 	slot0:DispatchEvent(uv3.Event.New(uv4.ADD_UNIT, {
 		type = uv2.UnitType.PLAYER_UNIT,
@@ -1023,12 +1112,18 @@ function slot8.KillUnit(slot0, slot1)
 	slot4 = slot2:GetIFF()
 	slot5 = slot2:GetDeathReason()
 
+	if slot2:GetAimBias() then
+		slot0:DispatchEvent(uv0.Event.New(uv1.REMOVE_AIM_BIAS, {
+			aimBias = slot2:GetAimBias()
+		}))
+	end
+
 	if slot2:IsSpectre() then
 		slot0._spectreShipList[slot1] = nil
-	elseif slot4 == uv0.FOE_CODE then
+	elseif slot4 == uv2.FOE_CODE then
 		slot0._foeShipList[slot1] = nil
 
-		if slot3 == uv1.UnitType.ENEMY_UNIT or slot3 == uv1.UnitType.BOSS_UNIT or slot3 == uv1.UnitType.NPC_UNIT then
+		if slot3 == uv3.UnitType.ENEMY_UNIT or slot3 == uv3.UnitType.BOSS_UNIT or slot3 == uv3.UnitType.NPC_UNIT then
 			if slot2:GetTeam() then
 				slot2:GetTeam():RemoveUnit(slot2)
 			end
@@ -1041,11 +1136,11 @@ function slot8.KillUnit(slot0, slot1)
 				slot0._waveSummonList[slot7][slot2] = nil
 			end
 		end
-	elseif slot4 == uv0.FRIENDLY_CODE then
+	elseif slot4 == uv2.FRIENDLY_CODE then
 		slot0._friendlyShipList[slot1] = nil
 	end
 
-	slot0:DispatchEvent(uv2.Event.New(uv3.REMOVE_UNIT, {
+	slot0:DispatchEvent(uv0.Event.New(uv1.REMOVE_UNIT, {
 		UID = slot1,
 		type = slot3,
 		deadReason = slot5,
@@ -1134,7 +1229,6 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 	slot10 = uv3.CreateBattleUnitData(slot5, slot8, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot1.baseProperties, slot7, slot1.baseList, slot1.preloasList)
 
 	uv3.AttachUltimateBonus(slot10)
-	print(slot1.initHPRate)
 	slot10:InitCurrentHP(slot1.initHPRate or 1)
 	slot10:SetRarity(slot1.rarity)
 	slot10:SetIntimacy(slot1.intimacy)
@@ -1811,6 +1905,12 @@ function slot8.SubmarineStrike(slot0, slot1)
 			slot10:TriggerBuff(uv0.BuffEffectType.ON_UPPER_SUB_CONSORT)
 		elseif slot9 == 3 then
 			slot10:TriggerBuff(uv0.BuffEffectType.ON_LOWER_SUB_CONSORT)
+		end
+
+		if slot10:GetAimBias() then
+			slot0:DispatchEvent(uv1.Event.New(uv2.ADD_AIM_BIAS, {
+				aimBias = slot10:GetAimBias()
+			}))
 		end
 	end
 

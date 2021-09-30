@@ -1231,5 +1231,16 @@ pg.effect_offset = {
 			1.5,
 			0
 		}
+	},
+	hudie_debuff = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			1.5,
+			3,
+			0
+		}
 	}
 }

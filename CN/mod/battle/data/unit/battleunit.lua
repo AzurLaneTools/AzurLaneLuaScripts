@@ -186,6 +186,12 @@ function slot9.GetSingleWeaponTagCount(slot0, slot1)
 	end
 end
 
+function slot9.GetTargetedPriority(slot0)
+	slot1 = nil
+
+	return slot0._aimBias and ((slot0._aimBias:GetCurrentState() == slot0._aimBias.STATE_SKILL_EXPOSE or slot2 == slot0._aimBias.STATE_TOTAL_EXPOSE) and slot0:GetTemplate().battle_unit_type or -200) or slot0:GetTemplate().battle_unit_type
+end
+
 function slot9.PlayFX(slot0, slot1, slot2)
 	slot0:DispatchEvent(uv0.Event.New(uv1.PLAY_FX, {
 		fxName = slot1,
@@ -756,7 +762,21 @@ function slot9.GetBeenAimedPosition(slot0)
 		return slot1
 	end
 
-	return Vector3(slot1.x + slot2[1], slot1.y + slot2[2], slot1.z + slot2[3])
+	slot3 = Vector3(slot1.x + slot2[1], slot1.y + slot2[2], slot1.z + slot2[3])
+
+	slot0:biasAimPosition(slot3)
+
+	return slot3
+end
+
+function slot9.biasAimPosition(slot0, slot1)
+	if uv0.GetCurrent(slot0, "aimBias") > 0 then
+		slot3 = slot2 * 2
+
+		slot1:Set(slot1.x + math.random() * slot3 - slot2, slot1.y, slot1.z + math.random() * slot3 - slot2)
+	end
+
+	return slot1
 end
 
 function slot9.CancelFollowTeam(slot0)
@@ -1161,6 +1181,9 @@ function slot9.GetReinforceCastTime(slot0)
 	return slot0._reinforceCastTime
 end
 
+function slot9.GetFleetVO(slot0)
+end
+
 function slot9.SetFormationIndex(slot0, slot1)
 end
 
@@ -1476,6 +1499,8 @@ end
 function slot9.InitCloak(slot0)
 	slot0._cloak = uv0.Battle.BattleUnitCloakComponent.New(slot0)
 
+	slot0:DispatchEvent(uv0.Event.New(uv1.INIT_CLOAK))
+
 	return slot0._cloak
 end
 
@@ -1497,6 +1522,12 @@ function slot9.StrikeExpose(slot0)
 	end
 end
 
+function slot9.BombardExpose(slot0)
+	if slot0._cloak then
+		slot0._cloak:AppendBombardExpose()
+	end
+end
+
 function slot9.UpdateCloak(slot0, slot1)
 	slot0._cloak:Update(slot1)
 end
@@ -1508,6 +1539,25 @@ end
 
 function slot9.GetCloak(slot0)
 	return slot0._cloak
+end
+
+function slot9.AttachAimBias(slot0, slot1)
+	slot0._aimBias = slot1
+
+	slot0:DispatchEvent(uv0.Event.New(uv1.INIT_AIMBIAS))
+end
+
+function slot9.DetachAimBias(slot0)
+end
+
+function slot9.UpdateAimBiasSkillState(slot0)
+	if slot0._aimBias and slot0._aimBias:GetHost() == slot0 then
+		slot0._aimBias:UpdateSkillLock()
+	end
+end
+
+function slot9.GetAimBias(slot0)
+	return slot0._aimBias
 end
 
 function slot9.ActiveWeaponSectorView(slot0, slot1, slot2)

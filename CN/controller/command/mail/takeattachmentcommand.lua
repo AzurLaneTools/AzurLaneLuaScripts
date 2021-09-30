@@ -54,6 +54,15 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
+	if slot4:OverflowShipExpAttachment() then
+		table.insert(slot16, function (slot0)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("player_expResource_mail_fullBag"),
+				onYes = slot0
+			})
+		end)
+	end
+
 	seriesAsync(slot16, function ()
 		pg.ConnectionMgr.GetInstance():Send(30004, {
 			id = {

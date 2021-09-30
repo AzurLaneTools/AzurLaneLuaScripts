@@ -57,6 +57,7 @@ slot2 = {
 	SC_13105_ADD_FLAG_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_13105_DEL_FLAG_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_13105_BUFF_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_13105_CELL_FLAG_LIST_FIELD = slot0.FieldDescriptor(),
 	CHAPTERINFO_ID_FIELD = slot0.FieldDescriptor(),
 	CHAPTERINFO_PROGRESS_FIELD = slot0.FieldDescriptor(),
 	CHAPTERINFO_KILL_BOSS_COUNT_FIELD = slot0.FieldDescriptor(),
@@ -884,6 +885,16 @@ slot2.SC_13105_BUFF_LIST_FIELD.has_default_value = false
 slot2.SC_13105_BUFF_LIST_FIELD.default_value = {}
 slot2.SC_13105_BUFF_LIST_FIELD.type = 13
 slot2.SC_13105_BUFF_LIST_FIELD.cpp_type = 3
+slot2.SC_13105_CELL_FLAG_LIST_FIELD.name = "cell_flag_list"
+slot2.SC_13105_CELL_FLAG_LIST_FIELD.full_name = "p13.sc_13105.cell_flag_list"
+slot2.SC_13105_CELL_FLAG_LIST_FIELD.number = 6
+slot2.SC_13105_CELL_FLAG_LIST_FIELD.index = 5
+slot2.SC_13105_CELL_FLAG_LIST_FIELD.label = 3
+slot2.SC_13105_CELL_FLAG_LIST_FIELD.has_default_value = false
+slot2.SC_13105_CELL_FLAG_LIST_FIELD.default_value = {}
+slot2.SC_13105_CELL_FLAG_LIST_FIELD.message_type = CELLFLAG
+slot2.SC_13105_CELL_FLAG_LIST_FIELD.type = 11
+slot2.SC_13105_CELL_FLAG_LIST_FIELD.cpp_type = 10
 SC_13105.name = "sc_13105"
 SC_13105.full_name = "p13.sc_13105"
 SC_13105.nested_types = {}
@@ -893,7 +904,8 @@ SC_13105.fields = {
 	slot2.SC_13105_AI_LIST_FIELD,
 	slot2.SC_13105_ADD_FLAG_LIST_FIELD,
 	slot2.SC_13105_DEL_FLAG_LIST_FIELD,
-	slot2.SC_13105_BUFF_LIST_FIELD
+	slot2.SC_13105_BUFF_LIST_FIELD,
+	slot2.SC_13105_CELL_FLAG_LIST_FIELD
 }
 SC_13105.is_extendable = false
 SC_13105.extensions = {}

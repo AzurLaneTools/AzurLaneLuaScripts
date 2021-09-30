@@ -1,7 +1,6 @@
 slot0 = class("LevelCellView")
 
 function slot0.Ctor(slot0)
-	slot0.sortingOrderOffset = 0
 	slot0.orderTable = {}
 end
 

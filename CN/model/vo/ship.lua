@@ -945,10 +945,13 @@ end
 
 function slot0.getGrowthForAttr(slot0, slot1)
 	slot2 = slot0:getConfigTable()
-	slot3 = nil
-	slot4 = table.indexof(uv0.PROPERTIES, slot1)
+	slot3 = table.indexof(uv0.PROPERTIES, slot1)
 
-	return pg.gameset.extra_attr_level_limit.key_value < slot0.level and slot2.attrs[slot4] + (slot0.level - 1) * slot2.attrs_growth[slot4] / 1000 + (slot0.level - 100) * slot2.attrs_growth_extra[slot4] / 1000 or slot2.attrs[slot4] + slot2.attrs_growth[slot4] * (slot0.level - 1) / 1000
+	if pg.gameset.extra_attr_level_limit.key_value < slot0.level then
+		slot5 = slot2.attrs[slot3] + (slot0.level - 1) * slot2.attrs_growth[slot3] / 1000 + (slot0.level - slot4) * slot2.attrs_growth_extra[slot3] / 1000
+	end
+
+	return slot5
 end
 
 function slot0.isMaxStar(slot0)
@@ -1277,33 +1280,29 @@ function slot0.getProficiency(slot0)
 end
 
 function slot0.addExp(slot0, slot1, slot2)
-	if slot2 and pg.gameset.level_get_proficency.key_value <= slot0.level and pg.ship_data_template[slot0.configId].can_get_proficency == 1 then
-		slot5 = getProxy(NavalAcademyProxy)
-		slot6 = slot5:getCourse()
-		slot7 = slot5:GetClassVO()
-		slot6.proficiency = slot6.proficiency + math.floor(slot1 * slot7:getConfig("proficency_get_percent") * slot6:getExtraRate() * 0.01)
-		slot6.proficiency = math.min(slot6.proficiency, slot7:getConfig("store"))
+	if slot0.level == slot0:getMaxLevel() then
+		if pg.gameset.exp_overflow_max.key_value <= slot0.exp then
+			return
+		end
 
-		slot5:setCourse(slot6)
-	end
-
-	if slot0.level == slot0:getMaxLevel() and (LOCK_FULL_EXP or not slot2 or not slot0:CanAccumulateExp()) then
-		slot1 = 0
+		if LOCK_FULL_EXP or not slot2 or not slot0:CanAccumulateExp() then
+			slot1 = 0
+		end
 	end
 
 	slot0.exp = slot0.exp + slot1
-	slot5 = false
+	slot4 = false
 
 	while slot0:canLevelUp() do
 		slot0.exp = slot0.exp - slot0:getLevelExpConfig().exp_interval
-		slot0.level = math.min(slot0.level + 1, slot4)
-		slot5 = true
+		slot0.level = math.min(slot0.level + 1, slot3)
+		slot4 = true
 	end
 
-	if slot0.level == slot4 then
+	if slot0.level == slot3 then
 		if slot2 and slot0:CanAccumulateExp() then
 			slot0.exp = math.min(slot0.exp, pg.gameset.exp_overflow_max.key_value)
-		elseif slot5 then
+		elseif slot4 then
 			slot0.exp = 0
 		end
 	end

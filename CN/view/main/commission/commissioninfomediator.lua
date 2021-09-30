@@ -10,6 +10,8 @@ slot0.ON_TECH_TIME_OVER = "CommissionInfoMediator:ON_TECH_TIME_OVER"
 slot0.ON_TECH_FINISHED = "CommissionInfoMediator:ON_TECH_FINISHED"
 slot0.ON_INS = "CommissionInfoMediator:ON_INS"
 slot0.ON_UR_ACTIVITY = "CommanderInfoMediator:ON_UR_ACTIVITY"
+slot0.ON_CRUSING = "CommanderInfoMediator.ON_CRUSING"
+slot0.GET_CLASS_RES = "CommanderInfoMediator:GET_CLASS_RES"
 
 function slot0.register(slot0)
 	slot0.viewComponent:setProxies(getProxy(EventProxy), getProxy(NavalAcademyProxy), getProxy(TechnologyProxy))
@@ -18,6 +20,12 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = ActivityConst.UR_ITEM_ACT_ID
 		})
+	end)
+	slot0:bind(uv0.ON_CRUSING, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.CRUSING)
+	end)
+	slot0:bind(uv0.GET_CLASS_RES, function (slot0)
+		uv0:sendNotification(GAME.HARVEST_CLASS_RES)
 	end)
 	slot0:bind(uv0.ON_TECH_TIME_OVER, function (slot0, slot1, slot2)
 		if getProxy(TechnologyProxy):getTechnologyById(slot1):canFinish() then
@@ -77,10 +85,10 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.TECHNOLOGY)
 	end)
 	slot0:bind(uv0.GET_OIL_RES, function (slot0)
-		uv0:sendNotification(GAME.HARVEST_RES, ResourceField.TYPE_OIL)
+		uv0:sendNotification(GAME.HARVEST_RES, PlayerConst.ResOil)
 	end)
 	slot0:bind(uv0.GET_GOLD_RES, function (slot0)
-		uv0:sendNotification(GAME.HARVEST_RES, ResourceField.TYPE_GOLD)
+		uv0:sendNotification(GAME.HARVEST_RES, PlayerConst.ResGold)
 	end)
 	slot0:bind(uv0.ON_INS, function (slot0)
 		uv0:sendNotification(GAME.ON_OPEN_INS_LAYER)
@@ -97,7 +105,7 @@ end
 function slot0.continueClass(slot0, slot1, slot2, slot3)
 	slot5 = getProxy(BayProxy):getShipById(slot1)
 
-	if table.getCount(getProxy(BagProxy):getItemsByType(10) or {}) <= 0 then
+	if table.getCount(getProxy(BagProxy):getItemsByType(Item.LESSON_TYPE) or {}) <= 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_no_lesson"))
 
 		return

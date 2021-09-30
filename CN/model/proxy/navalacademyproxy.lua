@@ -4,29 +4,31 @@ slot0.COURSE_UPDATED = "NavalAcademyProxy:COURSE_UPDATED"
 slot0.COURSE_REWARD = "NavalAcademyProxy:COURSE_REWARD"
 slot0.COURSE_CANCEL = "NavalAcademyProxy:COURSE_CANCEL"
 slot0.RESOURCE_UPGRADE = "NavalAcademyProxy:RESOURCE_UPGRADE"
+slot0.RESOURCE_UPGRADE_DONE = "NavalAcademyProxy:RESOURCE_UPGRADE_DONE"
 slot0.BUILDING_FINISH = "NavalAcademyProxy:BUILDING_FINISH"
 slot0.START_LEARN_TACTICS = "NavalAcademyProxy:START_LEARN_TACTICS"
 slot0.CANCEL_LEARN_TACTICS = "NavalAcademyProxy:CANCEL_LEARN_TACTICS"
 slot0.SKILL_CLASS_POS_UPDATED = "NavalAcademyProxy:SKILL_CLASS_POS_UPDATED"
 
 function slot0.register(slot0)
+	slot0.timers = {}
 	slot0.students = {}
 	slot0.course = AcademyCourse.New()
 
 	slot0:on(22001, function (slot0)
-		slot1 = ResourceField.New(ResourceField.TYPE_OIL)
+		slot1 = OilResourceField.New()
 
 		slot1:SetLevel(slot0.oil_well_level)
 		slot1:SetUpgradeTimeStamp(slot0.oil_well_lv_up_time)
 
 		uv0._oilVO = slot1
-		slot2 = ResourceField.New(ResourceField.TYPE_GOLD)
+		slot2 = GoldResourceField.New()
 
 		slot2:SetLevel(slot0.gold_well_level)
 		slot2:SetUpgradeTimeStamp(slot0.gold_well_lv_up_time)
 
 		uv0._goldVO = slot2
-		slot3 = ResourceField.New(ResourceField.TYPE_CLASS)
+		slot3 = ClassResourceField.New()
 
 		slot3:SetLevel(slot0.class_lv)
 		slot3:SetUpgradeTimeStamp(slot0.class_lv_up_time)
@@ -44,12 +46,17 @@ function slot0.register(slot0)
 		uv0:setStudents({
 			[slot10.id] = slot10
 		})
-
-		uv0._mainUITimer = pg.TimeMgr.GetInstance():AddTimer("NavalAcademyProxy", 0, 10, function ()
-			uv0:notification()
-		end)
-
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inClass")
+		uv0:CheckResFields()
+	end)
+	slot0:on(22013, function (slot0)
+		uv0.course:SetProficiency(slot0.proficiency)
+
+		slot1 = getProxy(PlayerProxy):getData()
+		slot1.expField = slot0.exp_in_well
+
+		getProxy(PlayerProxy):updatePlayer(slot1)
+		uv0:sendNotification(uv1.COURSE_UPDATED)
 	end)
 end
 
@@ -65,38 +72,12 @@ function slot0.inCreaseKillClassNum(slot0)
 	slot0:sendNotification(uv0.SKILL_CLASS_POS_UPDATED, slot0.skillClassNum)
 end
 
-function slot0.notification(slot0)
-	if getProxy(PlayerProxy) and not slot1:getFlag("blockResourceUpgrade") and slot1:getData() and slot0:isResourceFieldUpgradeConditionSatisfy() then
-		slot0.facade:sendNotification(uv0.BUILDING_FINISH)
-
-		return
-	end
-
-	if getProxy(ShopsProxy) and slot2:getShopStreet() and slot3:isUpdateGoods() then
-		slot0.facade:sendNotification(uv0.BUILDING_FINISH)
-
-		return
-	end
-
-	for slot7, slot8 in pairs(slot0.students) do
-		if slot8:getFinishTime() <= pg.TimeMgr.GetInstance():GetServerTime() then
-			slot0.facade:sendNotification(uv0.BUILDING_FINISH)
-
-			return
-		end
-	end
-
-	if getProxy(CollectionProxy) and slot4:unclaimTrophyCount() > 0 then
-		slot0.facade:sendNotification(uv0.BUILDING_FINISH)
-
-		return
-	end
-end
-
 function slot0.onRemove(slot0)
-	if slot0._mainUITimer then
-		pg.TimeMgr.GetInstance():RemoveTimer(slot0._mainUITimer)
+	for slot4, slot5 in pairs(slot0.timers) do
+		slot5:Stop()
 	end
+
+	slot0.timers = nil
 
 	uv0.super.onRemove(slot0)
 end
@@ -168,57 +149,84 @@ function slot0.getCourse(slot0)
 end
 
 function slot0.setCourse(slot0, slot1)
-	slot0:verifyCourseData(slot1)
-
 	slot0.course = slot1
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inClass")
 end
 
-function slot0.verifyCourseData(slot0, slot1)
-	if not slot1:inClass() and slot1:existCourse() then
-		for slot8 = #slot1.students, 1, -1 do
-			if not getProxy(BayProxy):getShipById(slot4[slot8]) or not table.contains(slot1:getConfig("type"), slot9:getShipType()) or slot9:getEnergy() <= AcademyCourse.MinEnergy then
-				table.remove(slot4, slot8)
-			end
-		end
-	end
+function slot0.GetShipIDs(slot0)
+	return {}
 end
 
-function slot0.GetShipIDs(slot0)
-	slot1 = {}
-
-	if slot0.course:inClass() then
-		slot1 = Clone(slot0.course.students)
+function slot0.CheckResFields(slot0)
+	if slot0._oilVO:IsStarting() then
+		slot0:AddResFieldListener(slot0._oilVO)
 	end
 
-	return slot1
+	if slot0._goldVO:IsStarting() then
+		slot0:AddResFieldListener(slot0._goldVO)
+	end
+
+	if slot0._classVO:IsStarting() then
+		slot0:AddResFieldListener(slot0._classVO)
+	end
 end
 
 function slot0.StartUpGradeSuccess(slot0, slot1)
 	slot1:SetUpgradeTimeStamp(pg.TimeMgr.GetInstance():GetServerTime() + slot1:bindConfigTable()[slot1:GetLevel()].time)
+	slot0:AddResFieldListener(slot1)
 	slot0.facade:sendNotification(uv0.RESOURCE_UPGRADE, {
 		resVO = slot1
 	})
+end
+
+function slot0.AddResFieldListener(slot0, slot1)
+	if slot1._upgradeTimeStamp - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
+		if slot0.timers[slot1:GetUpgradeType()] then
+			slot0.timers[slot3]:Stop()
+
+			slot0.timers[slot3] = nil
+		end
+
+		slot0.timers[slot3] = Timer.New(function ()
+			uv0:UpgradeFinish()
+			uv0.timers[uv1]:Stop()
+
+			uv0.timers[uv1] = nil
+		end, slot2, 1)
+
+		slot0.timers[slot3]:Start()
+	end
 end
 
 function slot0.UpgradeFinish(slot0)
 	if slot0._goldVO:GetDuration() and slot0._goldVO:GetDuration() <= 0 then
 		slot0._goldVO:SetLevel(slot0._goldVO:GetLevel() + 1)
 		slot0._goldVO:SetUpgradeTimeStamp(0)
-		pg.TipsMgr.GetInstance():ShowTips(i18n("main_navalAcademyScene_upgrade_complete", pg.navalacademy_data_template[3].name, slot0._goldVO:bindConfigTable()[slot0._goldVO:GetLevel()].store - slot0._goldVO:bindConfigTable()[slot0._goldVO:GetLevel()].store))
+		slot0:sendNotification(uv0.RESOURCE_UPGRADE_DONE, {
+			field = slot0._goldVO,
+			value = slot0._goldVO:bindConfigTable()[slot0._goldVO:GetLevel()].store - slot0._goldVO:bindConfigTable()[slot0._goldVO:GetLevel()].store
+		})
 	end
 
 	if slot0._oilVO:GetDuration() and slot0._oilVO:GetDuration() <= 0 then
 		slot0._oilVO:SetLevel(slot0._oilVO:GetLevel() + 1)
 		slot0._oilVO:SetUpgradeTimeStamp(0)
-		pg.TipsMgr.GetInstance():ShowTips(i18n("main_navalAcademyScene_upgrade_complete", pg.navalacademy_data_template[4].name, slot0._oilVO:bindConfigTable()[slot0._oilVO:GetLevel()].store - slot0._oilVO:bindConfigTable()[slot0._oilVO:GetLevel()].store))
+		slot0:sendNotification(uv0.RESOURCE_UPGRADE_DONE, {
+			field = slot0._oilVO,
+			value = slot0._oilVO:bindConfigTable()[slot0._oilVO:GetLevel()].store - slot0._oilVO:bindConfigTable()[slot0._oilVO:GetLevel()].store
+		})
 	end
 
 	if slot0._classVO:GetDuration() and slot0._classVO:GetDuration() <= 0 then
 		slot0._classVO:SetLevel(slot0._classVO:GetLevel() + 1)
 		slot0._classVO:SetUpgradeTimeStamp(0)
-		pg.TipsMgr.GetInstance():ShowTips(i18n("main_navalAcademyScene_class_upgrade_complete", pg.navalacademy_data_template[1].name, slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].store - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].store, slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_get_percent - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_get_percent, (slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_cost_per_min - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_cost_per_min) * 60))
+		slot0:sendNotification(uv0.RESOURCE_UPGRADE_DONE, {
+			field = slot0._classVO,
+			value = slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].store - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].store,
+			rate = slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_get_percent - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_get_percent,
+			exp = (slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_cost_per_min - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_cost_per_min) * 60
+		})
 	end
 end
 
@@ -230,6 +238,14 @@ function slot0.isResourceFieldUpgradeConditionSatisfy(slot0)
 	end
 
 	return false
+end
+
+function slot0.AddCourseProficiency(slot0, slot1)
+	slot2 = slot0:getCourse()
+	slot3 = slot0:GetClassVO()
+
+	slot2:SetProficiency(math.min(slot2:GetProficiency() + math.floor(slot1 * slot3:GetExp2ProficiencyRatio() * slot2:getExtraRate() * 0.01), slot3:GetMaxProficiency()))
+	slot0:setCourse(slot2)
 end
 
 function slot0.fillStudens(slot0, slot1)
@@ -298,7 +314,7 @@ function slot0.fillStudens(slot0, slot1)
 end
 
 function slot0.IsShowTip(slot0)
-	if getProxy(PlayerProxy) and not slot1:getFlag("blockResourceUpgrade") and slot1:getData() and slot0:isResourceFieldUpgradeConditionSatisfy() then
+	if getProxy(PlayerProxy) and slot1:getData() and slot0:isResourceFieldUpgradeConditionSatisfy() then
 		return true
 	end
 
@@ -312,15 +328,11 @@ function slot0.IsShowTip(slot0)
 		end
 	end
 
-	if slot0:getCourse():inClass() and AcademyCourse.MaxStudyTime <= pg.TimeMgr.GetInstance():GetServerTime() - slot4.timestamp then
-		return true
-	end
-
 	if getProxy(CollectionProxy):unclaimTrophyCount() > 0 then
 		return true
 	end
 
-	slot7 = getProxy(TaskProxy)
+	slot6 = getProxy(TaskProxy)
 
 	if _.any(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
 		slot2 = slot0:getTaskShip() and uv0:getAcademyTask(slot1.groupId) or nil

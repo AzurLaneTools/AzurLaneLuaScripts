@@ -566,11 +566,14 @@ function slot0.filterBlueprints(slot0)
 	end
 
 	table.sort(slot0.filterBlueprintVOs, function (slot0, slot1)
-		if slot0.state == slot1.state then
-			return slot0.id < slot1.id
-		else
-			return slot1.state < slot0.state
-		end
+		return CompareFuncs(slot0, slot1, {
+			function (slot0)
+				return -slot0.state
+			end,
+			function (slot0)
+				return slot0.id
+			end
+		})
 	end)
 end
 
@@ -1852,7 +1855,7 @@ function slot0.openPreView(slot0)
 
 			onToggle(slot0, slot0:findTF("stage" .. slot5, slot0.stages), function (slot0)
 				if slot0 then
-					setText(uv0.breakView, uv1[uv2].breakout_view)
+					setText(uv0.breakView, HXSet.hxLan(uv1[uv2].breakout_view))
 					uv0:switchStage(uv2)
 				end
 			end, SFX_PANEL)

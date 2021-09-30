@@ -5,9 +5,10 @@ pg.pay_data_display = {
 		name = "贸易许可证（30日）",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 1,
 		subject = "贸易许可证",
+		id = 1,
 		money = 30,
 		tag = 2,
 		gem = 500,
@@ -53,6 +54,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -60,9 +62,10 @@ pg.pay_data_display = {
 		name = "新手启航补给",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 2,
 		subject = "新手起航补给",
+		id = 2,
 		money = 1,
 		tag = 1,
 		gem = 30,
@@ -103,6 +106,7 @@ pg.pay_data_display = {
 				30
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -110,9 +114,10 @@ pg.pay_data_display = {
 		name = "几个钻石",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 0,
 		subject = "钻石*60",
+		extra_gem = 0,
 		id = 3,
 		money = 6,
 		tag = 0,
@@ -126,6 +131,7 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		airijp_id = "com.yostarjp.azurlane.diamond1",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -133,9 +139,10 @@ pg.pay_data_display = {
 		name = "一小堆钻石",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 30,
 		subject = "钻石*300",
+		extra_gem = 30,
 		id = 4,
 		money = 30,
 		tag = 0,
@@ -149,6 +156,7 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		airijp_id = "com.yostarjp.azurlane.diamond2",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -156,9 +164,10 @@ pg.pay_data_display = {
 		name = "一大袋钻石",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 120,
 		subject = "钻石*980",
+		extra_gem = 120,
 		id = 5,
 		money = 98,
 		tag = 0,
@@ -172,6 +181,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond3",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -179,9 +189,10 @@ pg.pay_data_display = {
 		name = "一小箱钻石",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 300,
 		subject = "钻石*1980",
+		extra_gem = 300,
 		id = 6,
 		money = 198,
 		tag = 0,
@@ -195,6 +206,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond4",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -202,9 +214,10 @@ pg.pay_data_display = {
 		name = "一大箱钻石",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 720,
 		subject = "钻石*3280",
+		extra_gem = 720,
 		id = 7,
 		money = 328,
 		tag = 0,
@@ -218,6 +231,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond5",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -225,9 +239,10 @@ pg.pay_data_display = {
 		name = "一整船钻石",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 2400,
 		subject = "钻石*6480",
+		extra_gem = 2400,
 		id = 8,
 		money = 648,
 		tag = 1,
@@ -241,6 +256,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond6",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -248,9 +264,10 @@ pg.pay_data_display = {
 		name = "新年福袋",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。已获得的衣装将自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 9,
 		subject = "新年福袋",
+		id = 9,
 		money = 198,
 		tag = 1,
 		gem = 0,
@@ -336,6 +353,7 @@ pg.pay_data_display = {
 				2018
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[11] = {
@@ -343,9 +361,10 @@ pg.pay_data_display = {
 		name = "国庆福袋",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则会转化为对应原价9折的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 11,
 		subject = "国庆福袋",
+		id = 11,
 		money = 198,
 		tag = 1,
 		gem = 0,
@@ -431,6 +450,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[12] = {
@@ -438,9 +458,10 @@ pg.pay_data_display = {
 		name = "2019新年福袋",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 12,
 		subject = "2019新年福袋",
+		id = 12,
 		money = 198,
 		tag = 1,
 		gem = 0,
@@ -526,6 +547,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[13] = {
@@ -533,9 +555,10 @@ pg.pay_data_display = {
 		name = "2019春节福袋",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 13,
 		subject = "2019春节福袋",
+		id = 13,
 		money = 198,
 		tag = 1,
 		gem = 0,
@@ -621,6 +644,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[14] = {
@@ -628,9 +652,10 @@ pg.pay_data_display = {
 		name = "二周年礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 14,
 		subject = "二周年礼盒",
+		id = 14,
 		money = 198,
 		tag = 1,
 		gem = 0,
@@ -716,6 +741,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[15] = {
@@ -723,9 +749,10 @@ pg.pay_data_display = {
 		name = "2019国庆礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 15,
 		subject = "2019国庆礼盒",
+		id = 15,
 		money = 198,
 		tag = 1,
 		gem = 0,
@@ -811,6 +838,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[16] = {
@@ -818,9 +846,10 @@ pg.pay_data_display = {
 		name = "新年福袋2020",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 16,
 		subject = "新年福袋2020",
+		id = 16,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -911,6 +940,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[17] = {
@@ -918,9 +948,10 @@ pg.pay_data_display = {
 		name = "新年福袋复刻(2019)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 17,
 		subject = "新年福袋复刻(2019)",
+		id = 17,
 		money = 198,
 		tag = 1,
 		gem = 0,
@@ -1006,6 +1037,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[18] = {
@@ -1013,9 +1045,10 @@ pg.pay_data_display = {
 		name = "春节福袋2020",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 18,
 		subject = "春节福袋2020",
+		id = 18,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -1106,6 +1139,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[19] = {
@@ -1113,9 +1147,10 @@ pg.pay_data_display = {
 		name = "春节福袋复刻(2019)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 19,
 		subject = "春节福袋复刻(2019)",
+		id = 19,
 		money = 198,
 		tag = 1,
 		gem = 0,
@@ -1201,6 +1236,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[20] = {
@@ -1208,9 +1244,10 @@ pg.pay_data_display = {
 		name = "新晋指挥官支援包·I",
 		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 20,
 		subject = "新晋指挥官支援包·I ",
+		id = 20,
 		money = 18,
 		tag = 1,
 		gem = 0,
@@ -1281,6 +1318,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[21] = {
@@ -1288,9 +1326,10 @@ pg.pay_data_display = {
 		name = "新晋指挥官支援包·II",
 		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 21,
 		subject = "新晋指挥官支援包·II ",
+		id = 21,
 		money = 78,
 		tag = 1,
 		gem = 0,
@@ -1386,6 +1425,7 @@ pg.pay_data_display = {
 				4
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[22] = {
@@ -1393,9 +1433,10 @@ pg.pay_data_display = {
 		name = "新晋指挥官支援包·III",
 		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 22,
 		subject = "新晋指挥官支援包·III ",
+		id = 22,
 		money = 168,
 		tag = 1,
 		gem = 0,
@@ -1496,6 +1537,7 @@ pg.pay_data_display = {
 				8
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[23] = {
@@ -1503,9 +1545,10 @@ pg.pay_data_display = {
 		name = "三周年礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 23,
 		subject = "三周年礼盒",
+		id = 23,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -1596,6 +1639,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[24] = {
@@ -1603,9 +1647,10 @@ pg.pay_data_display = {
 		name = "2020国庆礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 24,
 		subject = "2020国庆礼盒",
+		id = 24,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -1696,6 +1741,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[25] = {
@@ -1703,9 +1749,10 @@ pg.pay_data_display = {
 		name = "新年福袋2021",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 25,
 		subject = "新年福袋2021",
+		id = 25,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -1796,6 +1843,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[26] = {
@@ -1803,9 +1851,10 @@ pg.pay_data_display = {
 		name = "新年福袋复刻(2020)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 26,
 		subject = "新年福袋复刻(2020)",
+		id = 26,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -1896,6 +1945,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[27] = {
@@ -1903,9 +1953,10 @@ pg.pay_data_display = {
 		name = "春节福袋2021",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 27,
 		subject = "春节福袋2021",
+		id = 27,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -1996,6 +2047,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[28] = {
@@ -2003,9 +2055,10 @@ pg.pay_data_display = {
 		name = "春节福袋复刻(2020)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 28,
 		subject = "春节福袋复刻(2020)",
+		id = 28,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -2096,6 +2149,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[29] = {
@@ -2103,9 +2157,10 @@ pg.pay_data_display = {
 		name = "四周年礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 29,
 		subject = "四周年礼盒",
+		id = 29,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -2196,6 +2251,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[30] = {
@@ -2203,9 +2259,10 @@ pg.pay_data_display = {
 		name = "三周年礼盒复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 30,
 		subject = "三周年礼盒复刻",
+		id = 30,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -2296,6 +2353,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[31] = {
@@ -2303,9 +2361,10 @@ pg.pay_data_display = {
 		name = "大型作战攻略支援包",
 		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 31,
 		subject = "大型作战攻略支援包",
+		id = 31,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -2396,6 +2455,7 @@ pg.pay_data_display = {
 				10
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[32] = {
@@ -2403,9 +2463,10 @@ pg.pay_data_display = {
 		name = "2021国庆礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 32,
 		subject = "2021国庆礼盒",
+		id = 32,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -2496,6 +2557,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[33] = {
@@ -2503,9 +2565,10 @@ pg.pay_data_display = {
 		name = "国庆礼盒复刻（2020）",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 33,
 		subject = "国庆礼盒复刻(2020)",
+		id = 33,
 		money = 198,
 		tag = 2,
 		gem = 0,
@@ -2596,6 +2659,77 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[1000] = {
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励：约克城限定换装和其他奖励",
+		name = "特许巡游凭证",
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		subject_extra = "(2021.10.1-11.30)",
+		extra_gem = 0,
+		subject = "特许巡游凭证",
+		id = 1000,
+		money = 68,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.bilibili.blhx.battlepass1",
+		first_pay_double = 0,
+		extra_service = 4,
+		limit_arg = 1,
+		airijp_id = "com.yostarjp.azurlane.seasonpass1",
+		extra_service_item = {
+			{
+				1,
+				4001,
+				1500
+			},
+			{
+				8,
+				59242,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4001,
+				1500
+			}
+		},
+		sub_display = {
+			7001,
+			1500
+		},
 		ignorePlatform = {}
 	},
 	all = {
@@ -2630,6 +2764,7 @@ pg.pay_data_display = {
 		30,
 		31,
 		32,
-		33
+		33,
+		1000
 	}
 }

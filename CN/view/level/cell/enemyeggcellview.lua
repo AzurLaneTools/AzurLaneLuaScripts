@@ -19,10 +19,23 @@ function slot0.SetTpl(slot0, slot1, slot2)
 end
 
 function slot0.Update(slot0)
-	slot1 = slot0.info
 	slot2 = slot0.config
-	slot3 = slot1.row
-	slot4 = slot1.column
+	slot3 = slot0.info.trait ~= ChapterConst.TraitLurk
+
+	if (slot1.attachment == ChapterConst.AttachEnemy or slot1.attachment == ChapterConst.AttachElite or slot1.attachment == ChapterConst.AttachAmbush or slot1.attachment == ChapterConst.AttachBoss) and slot1.flag ~= ChapterConst.CellFlagDisabled and slot0.chapter:existFleet(FleetType.Transport, slot1.row, slot1.column) then
+		slot3 = false
+	end
+
+	if not IsNil(slot0.go) then
+		setActive(slot0.go, slot3)
+	end
+
+	if not slot3 then
+		return
+	end
+
+	slot4 = slot1.row
+	slot5 = slot1.column
 
 	if slot1.attachment == ChapterConst.AttachAmbush and slot1.flag == ChapterConst.CellFlagAmbush then
 		-- Nothing
@@ -40,7 +53,7 @@ function slot0.Update(slot0)
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
 		end
 
-		setActive(findTF(slot0.tf, "fighting"), slot0.chapter:existFleet(FleetType.Normal, slot3, slot4))
+		setActive(findTF(slot0.tf, "fighting"), slot0.chapter:existFleet(FleetType.Normal, slot4, slot5))
 
 		slot0.tf:GetComponent("Animator").enabled = slot1.data > 0
 

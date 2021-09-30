@@ -133,6 +133,16 @@ function slot0.hasAttachmentsType(slot0, slot1)
 	end
 end
 
+function slot0.OverflowShipExpAttachment(slot0)
+	for slot5, slot6 in ipairs(slot0:getMails()) do
+		if slot6.attachFlag == Mail.ATTACHMENT_EXIST and slot6:OverflowShipExpAttachment() then
+			return true
+		end
+	end
+
+	return false
+end
+
 function slot0.getAttatchmentsCount(slot0, slot1, slot2)
 	for slot8, slot9 in ipairs(slot0:getMails()) do
 		if slot9.attachFlag == Mail.ATTACHMENT_EXIST then

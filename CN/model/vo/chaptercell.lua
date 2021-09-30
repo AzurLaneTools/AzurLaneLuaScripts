@@ -29,6 +29,16 @@ function slot0.updateFlagList(slot0, slot1)
 	end
 end
 
+function slot0.GetFlagList(slot0)
+	return slot0.flagList
+end
+
+function slot0.GetWeatherFlagList(slot0)
+	return _.filter(slot0:GetFlagList(), function (slot0)
+		return tobool(pg.weather_data_template[slot0])
+	end)
+end
+
 function slot0.checkHadFlag(slot0, slot1)
 	return table.contains(slot0.flagList, slot1)
 end
