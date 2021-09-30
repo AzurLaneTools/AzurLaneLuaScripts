@@ -23,11 +23,13 @@ function slot0.register(slot0)
 	slot0.viewComponent:setShips(slot0.ships)
 	slot0.viewComponent:updateRes(getProxy(PlayerProxy):getData())
 	slot0:bind(uv0.ON_QUICK_BATTLE, function (slot0, slot1, slot2, slot3)
-		uv0:sendNotification(GAME.DAILY_LEVEL_QUICK_BATTLE, {
-			dailyLevelId = slot1,
-			stageId = slot2,
-			cnt = slot3
-		})
+		uv0:CheckShipExpItemOverflow(slot2, function ()
+			uv0:sendNotification(GAME.DAILY_LEVEL_QUICK_BATTLE, {
+				dailyLevelId = uv1,
+				stageId = uv2,
+				cnt = uv3
+			})
+		end)
 	end)
 	slot0:bind(uv0.ON_STAGE, function (slot0, slot1)
 		uv0.dailyLevelId = uv1.contextData.dailyLevelId
@@ -44,7 +46,10 @@ function slot0.register(slot0)
 			viewComponent = slot2,
 			data = {
 				stageId = slot1.id,
-				system = slot3
+				system = slot3,
+				OnConfirm = function (slot0)
+					uv0:CheckShipExpItemOverflow(uv1.id, slot0)
+				end
 			}
 		}))
 	end)
@@ -153,6 +158,21 @@ function slot0.register(slot0)
 		slot0.contextData.loadBillBoard = nil
 
 		slot0.viewComponent:emit(uv0.ON_CHALLENGE_OPEN_RANK)
+	end
+end
+
+function slot0.CheckShipExpItemOverflow(slot0, slot1, slot2)
+	slot4 = pg.item_data_statistics
+
+	if _.any(pg.expedition_data_template[slot1].award_display, function (slot0)
+		return slot0[1] == DROP_TYPE_ITEM and uv0[slot0[2]].type == Item.EXP_BOOK_TYPE and uv0[slot0[2]].max_num <= getProxy(BagProxy):getItemCountById(slot0[2])
+	end) then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("player_expResource_mail_fullBag"),
+			onYes = slot2
+		})
+	else
+		slot2()
 	end
 end
 

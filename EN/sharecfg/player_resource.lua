@@ -45,6 +45,11 @@ pg.player_resource = {
 		name = "design_prt",
 		itemid = 59009
 	},
+	{
+		id = 10,
+		name = "expField",
+		itemid = 0
+	},
 	[14] = {
 		id = 14,
 		name = "freeGem",
@@ -680,6 +685,31 @@ pg.player_resource = {
 		name = "nvpu_ticket",
 		itemid = 59968
 	},
+	[2006] = {
+		id = 2006,
+		name = "contribution_worldboss624",
+		itemid = 60057
+	},
+	[2007] = {
+		id = 2007,
+		name = "worldboss624_ticket",
+		itemid = 60058
+	},
+	[2008] = {
+		id = 2008,
+		name = "contribution_worldboss708",
+		itemid = 59225
+	},
+	[2009] = {
+		id = 2009,
+		name = "worldboss708_ticket",
+		itemid = 59226
+	},
+	[3000] = {
+		id = 3000,
+		name = "guild_boss_damage",
+		itemid = 69000
+	},
 	[3001] = {
 		id = 3001,
 		name = "synchronize_ark",
@@ -700,6 +730,11 @@ pg.player_resource = {
 		name = "synchronize_hailunna",
 		itemid = 21903
 	},
+	[3005] = {
+		id = 3005,
+		name = "synchronize_canglong",
+		itemid = 21904
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -710,40 +745,15 @@ pg.player_resource = {
 		name = "TWkaifuPT",
 		itemid = 70050
 	},
-	[2006] = {
-		id = 2006,
-		name = "contribution_worldboss624",
-		itemid = 60057
-	},
-	[2007] = {
-		id = 2007,
-		name = "worldboss624_ticket",
-		itemid = 60058
-	},
-	[3000] = {
-		id = 3000,
-		name = "guild_boss_damage",
-		itemid = 69000
-	},
-	[2008] = {
-		id = 2008,
-		name = "contribution_worldboss708",
-		itemid = 59225
-	},
-	[2009] = {
-		id = 2009,
-		name = "worldboss708_ticket",
-		itemid = 59226
+	[4001] = {
+		id = 4001,
+		name = "battlepass_1",
+		itemid = 59241
 	},
 	[40275] = {
 		id = 40275,
 		name = "Twouxiang_pt",
 		itemid = 59143
-	},
-	[3005] = {
-		id = 3005,
-		name = "synchronize_canglong",
-		itemid = 21904
 	},
 	get_id_list_by_name = {
 		gold = {
@@ -772,6 +782,9 @@ pg.player_resource = {
 		},
 		design_prt = {
 			9
+		},
+		expField = {
+			10
 		},
 		freeGem = {
 			14
@@ -1154,6 +1167,21 @@ pg.player_resource = {
 		nvpu_ticket = {
 			2005
 		},
+		contribution_worldboss624 = {
+			2006
+		},
+		worldboss624_ticket = {
+			2007
+		},
+		contribution_worldboss708 = {
+			2008
+		},
+		worldboss708_ticket = {
+			2009
+		},
+		guild_boss_damage = {
+			3000
+		},
 		synchronize_ark = {
 			3001
 		},
@@ -1166,32 +1194,20 @@ pg.player_resource = {
 		synchronize_hailunna = {
 			3004
 		},
+		synchronize_canglong = {
+			3005
+		},
 		twhongran_pt = {
 			3106
 		},
 		TWkaifuPT = {
 			3137
 		},
-		contribution_worldboss624 = {
-			2006
-		},
-		worldboss624_ticket = {
-			2007
-		},
-		guild_boss_damage = {
-			3000
-		},
-		contribution_worldboss708 = {
-			2008
-		},
-		worldboss708_ticket = {
-			2009
+		battlepass_1 = {
+			4001
 		},
 		Twouxiang_pt = {
 			40275
-		},
-		synchronize_canglong = {
-			3005
 		}
 	},
 	all = {
@@ -1204,6 +1220,7 @@ pg.player_resource = {
 		7,
 		8,
 		9,
+		10,
 		14,
 		101,
 		102,
@@ -1331,18 +1348,19 @@ pg.player_resource = {
 		2003,
 		2004,
 		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		3000,
 		3001,
 		3002,
 		3003,
 		3004,
+		3005,
 		3106,
 		3137,
-		2006,
-		2007,
-		3000,
-		2008,
-		2009,
-		40275,
-		3005
+		4001,
+		40275
 	}
 }

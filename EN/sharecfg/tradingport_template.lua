@@ -111,13 +111,37 @@ pg.tradingport_template = {
 	{
 		store = 10000,
 		production = 100,
-		time = 0,
+		time = 7200,
 		user_level = 90,
 		level = 10,
 		hour_time = 3,
 		use = {
 			1,
-			30000
+			9000
+		}
+	},
+	{
+		store = 11000,
+		production = 104,
+		time = 7200,
+		user_level = 100,
+		level = 11,
+		hour_time = 3,
+		use = {
+			1,
+			10500
+		}
+	},
+	{
+		store = 12000,
+		production = 108,
+		time = 0,
+		user_level = 110,
+		level = 12,
+		hour_time = 3,
+		use = {
+			1,
+			12000
 		}
 	},
 	all = {
@@ -130,6 +154,8 @@ pg.tradingport_template = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11,
+		12
 	}
 }

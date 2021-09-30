@@ -236,10 +236,10 @@ end
 function slot2.filterEnemyUnitType(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
-	slot4 = 0
+	slot4 = -9999
 
 	for slot8, slot9 in ipairs(slot1) do
-		if slot9:GetTemplate().battle_unit_type == nil then
+		if slot9:GetTargetedPriority() == nil then
 			slot3[#slot3 + 1] = slot9
 		elseif slot4 < slot10 then
 			slot4 = slot10

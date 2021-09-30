@@ -5,9 +5,10 @@ pg.pay_data_display = {
 		name = "Trade License (30 days)",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 1,
 		subject = "Trade License",
+		id = 1,
 		money = 799,
 		tag = 2,
 		gem = 500,
@@ -53,6 +54,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -60,9 +62,10 @@ pg.pay_data_display = {
 		name = "Novice sailing supplies",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 2,
 		subject = "Novice sailing supplies",
+		id = 2,
 		money = 99,
 		tag = 1,
 		gem = 0,
@@ -108,6 +111,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -115,9 +119,10 @@ pg.pay_data_display = {
 		name = "Handful of Gems",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 0,
 		subject = "60 Gems",
+		extra_gem = 0,
 		id = 3,
 		money = 99,
 		tag = 0,
@@ -131,6 +136,7 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		airijp_id = "com.yostaren.azurlane.diamond1",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -138,9 +144,10 @@ pg.pay_data_display = {
 		name = "Pile of Gems",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 30,
 		subject = "300 Gems",
+		extra_gem = 30,
 		id = 4,
 		money = 499,
 		tag = 0,
@@ -154,6 +161,7 @@ pg.pay_data_display = {
 		limit_arg = 10,
 		airijp_id = "com.yostaren.azurlane.diamond2",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -161,9 +169,10 @@ pg.pay_data_display = {
 		name = "Sack of Gems",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 150,
 		subject = "980 Gems",
+		extra_gem = 150,
 		id = 5,
 		money = 999,
 		tag = 0,
@@ -177,6 +186,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostaren.azurlane.diamond3",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -184,9 +194,10 @@ pg.pay_data_display = {
 		name = "Box of Gems",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 360,
 		subject = "1980 Gems",
+		extra_gem = 360,
 		id = 6,
 		money = 1999,
 		tag = 0,
@@ -200,6 +211,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostaren.azurlane.diamond4",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -207,9 +219,10 @@ pg.pay_data_display = {
 		name = "Chest of Gems",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 880,
 		subject = "3280 Gems",
+		extra_gem = 880,
 		id = 7,
 		money = 3999,
 		tag = 0,
@@ -223,6 +236,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostaren.azurlane.diamond5",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	{
@@ -230,9 +244,10 @@ pg.pay_data_display = {
 		name = "Ship of Gems",
 		descrip_extra = "",
 		type = 0,
+		subject_extra = "",
 		first_pay_double = 1,
-		extra_gem = 2500,
 		subject = "6480 Gems",
+		extra_gem = 2500,
 		id = 8,
 		money = 7999,
 		tag = 1,
@@ -246,6 +261,7 @@ pg.pay_data_display = {
 		limit_arg = 0,
 		airijp_id = "com.yostaren.azurlane.diamond6",
 		display = {},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[24] = {
@@ -253,9 +269,10 @@ pg.pay_data_display = {
 		name = "2020 Party Dress Lucky Bag",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 24,
 		subject = "2020 Party Dress Lucky Bag",
+		id = 24,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -346,6 +363,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[25] = {
@@ -353,9 +371,10 @@ pg.pay_data_display = {
 		name = "Shougatsu Lucky Bag 2021 ",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 25,
 		subject = "Shougatsu Lucky Bag 2021",
+		id = 25,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -446,6 +465,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[26] = {
@@ -453,9 +473,10 @@ pg.pay_data_display = {
 		name = "Shougatsu Lucky Bag 2020 ",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 26,
 		subject = "Shougatsu Lucky Bag 2020",
+		id = 26,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -546,6 +567,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[27] = {
@@ -553,9 +575,10 @@ pg.pay_data_display = {
 		name = "Lunar New Year Lucky Bag (2021)",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 27,
 		subject = "Lunar New Year Lucky Bag (2021)",
+		id = 27,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -646,6 +669,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[28] = {
@@ -653,9 +677,10 @@ pg.pay_data_display = {
 		name = "Lunar New Year Lucky Bag (2020)",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 28,
 		subject = "Lunar New Year Lucky Bag (2020)",
+		id = 28,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -746,6 +771,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[29] = {
@@ -753,9 +779,10 @@ pg.pay_data_display = {
 		name = "Exquisite Lucky Box 2021 ",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 29,
 		subject = "Exquisite Lucky Box 2021 ",
+		id = 29,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -846,6 +873,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[30] = {
@@ -853,9 +881,10 @@ pg.pay_data_display = {
 		name = "Exquisite Lucky Bag 2020 ",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 30,
 		subject = "Exquisite Lucky Bag 2020 ",
+		id = 30,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -946,6 +975,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[31] = {
@@ -953,9 +983,10 @@ pg.pay_data_display = {
 		name = "New Commanders Support Pack IV ",
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 31,
 		subject = "New Commanders Support Pack IV ",
+		id = 31,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1046,6 +1077,7 @@ pg.pay_data_display = {
 				10
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[32] = {
@@ -1053,9 +1085,10 @@ pg.pay_data_display = {
 		name = "2021 Party Dress Lucky Box",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 32,
 		subject = "2021 Party Dress Lucky Box",
+		id = 32,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1146,6 +1179,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[33] = {
@@ -1153,9 +1187,10 @@ pg.pay_data_display = {
 		name = "2020 Party Dress Lucky Box",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 33,
 		subject = "2020 Party Dress Lucky Box",
+		id = 33,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1246,6 +1281,77 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
+	[1000] = {
+		descrip = "Purchase to unlock additional Fair Winds Cruise rewards, including an exclusive outfit for Yorktown and more! ",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
+		type = 0,
+		subject_extra = "(2021.10.1-11.30)",
+		extra_gem = 0,
+		subject = "Fair Winds Cruise Pass",
+		id = 1000,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.yostaren.azurlane.passport2",
+		first_pay_double = 0,
+		extra_service = 4,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.passport2",
+		extra_service_item = {
+			{
+				1,
+				4001,
+				1500
+			},
+			{
+				8,
+				59242,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4001,
+				1500
+			}
+		},
+		sub_display = {
+			7001,
+			1500
+		},
 		ignorePlatform = {}
 	},
 	[100] = {
@@ -1253,9 +1359,10 @@ pg.pay_data_display = {
 		name = "Nep's Lucky Bag ",
 		descrip_extra = "*Nep's Lucky Bag will appear in your mailbox. \n* If you draw an already owned ship skin, you will be refunded 80% of the gem cost.",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 100,
 		subject = "Nep's Lucky Bag",
+		id = 100,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1341,6 +1448,7 @@ pg.pay_data_display = {
 				3
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[101] = {
@@ -1348,9 +1456,10 @@ pg.pay_data_display = {
 		name = "Black Friday Lucky Bag ",
 		descrip_extra = "*Black Friday Lucky Bag will appear in your mailbox. \n* If you draw an already owned ship skin, you will be refunded 100% of the gem cost.",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 101,
 		subject = "Black Friday Lucky Bag",
+		id = 101,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1446,6 +1555,7 @@ pg.pay_data_display = {
 				3
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[102] = {
@@ -1453,9 +1563,10 @@ pg.pay_data_display = {
 		name = "Christmas Lucky Bag ",
 		descrip_extra = "*Christmas Lucky Bag will appear in your mailbox. \n* If you drew a ship skin that you already have, you will be refunded 80% of the gem cost. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 102,
 		subject = "Christmas Lucky Bag ",
+		id = 102,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -1541,6 +1652,7 @@ pg.pay_data_display = {
 				3
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[103] = {
@@ -1548,9 +1660,10 @@ pg.pay_data_display = {
 		name = "Heartthrob Pack",
 		descrip_extra = "*The pack contains 1 x Promise Ring, 1 x Universal Bulin, 10 x Quick Finishers, and 5 x Full Courses",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 103,
 		subject = "Heartthrob Pack",
+		id = 103,
 		money = 999,
 		tag = 2,
 		gem = 0,
@@ -1626,6 +1739,7 @@ pg.pay_data_display = {
 				5
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[104] = {
@@ -1633,9 +1747,10 @@ pg.pay_data_display = {
 		name = "Santa's Lucky Sack (Daily)",
 		descrip_extra = "*The sack contains 1 x Mystery T4 Tech Pack, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 104,
 		subject = "Santa's Lucky Sack (Daily)",
+		id = 104,
 		money = 499,
 		tag = 2,
 		gem = 0,
@@ -1716,6 +1831,7 @@ pg.pay_data_display = {
 				3000
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[105] = {
@@ -1723,9 +1839,10 @@ pg.pay_data_display = {
 		name = "Shougatsu Lucky Bag (2019)",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 105,
 		subject = "Shogatsu Lucky Bag ",
+		id = 105,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -1811,6 +1928,7 @@ pg.pay_data_display = {
 				20
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[106] = {
@@ -1818,9 +1936,10 @@ pg.pay_data_display = {
 		name = "Lunar New Year Lucky Bag (2019)",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 106,
 		subject = "Lunar New Year Lucky Bag ",
+		id = 106,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -1911,6 +2030,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[107] = {
@@ -1918,9 +2038,10 @@ pg.pay_data_display = {
 		name = "Glacier Blast ",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 107,
 		subject = "Glacier Blast ",
+		id = 107,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -2006,6 +2127,7 @@ pg.pay_data_display = {
 				3
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[108] = {
@@ -2013,9 +2135,10 @@ pg.pay_data_display = {
 		name = "Hanami Lucky Bag ",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems.",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 108,
 		subject = "Hanami Lucky Bag ",
+		id = 108,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -2101,6 +2224,7 @@ pg.pay_data_display = {
 				100
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[109] = {
@@ -2108,9 +2232,10 @@ pg.pay_data_display = {
 		name = "Research Supply (daily) ",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox.",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 109,
 		subject = "Research Supply (daily) ",
+		id = 109,
 		money = 499,
 		tag = 2,
 		gem = 0,
@@ -2191,6 +2316,7 @@ pg.pay_data_display = {
 				6
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[110] = {
@@ -2198,9 +2324,10 @@ pg.pay_data_display = {
 		name = "Scherzo Lucky Box ",
 		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 110,
 		subject = "Scherzo Lucky Box ",
+		id = 110,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -2286,6 +2413,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[111] = {
@@ -2293,9 +2421,10 @@ pg.pay_data_display = {
 		name = "1st Anniversary Lucky Bag ",
 		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's on sale value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 111,
 		subject = "1st Anniversary Lucky Bag ",
+		id = 111,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -2381,6 +2510,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[112] = {
@@ -2388,9 +2518,10 @@ pg.pay_data_display = {
 		name = "Yukata Lucky Bag",
 		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 112,
 		subject = "Yukata Lucky Bag",
+		id = 112,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -2476,6 +2607,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[113] = {
@@ -2483,9 +2615,10 @@ pg.pay_data_display = {
 		name = "Full Dress Lucky Bag ",
 		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 113,
 		subject = "Full Dress Lucky Bag ",
+		id = 113,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -2571,6 +2704,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[114] = {
@@ -2578,9 +2712,10 @@ pg.pay_data_display = {
 		name = "Black Friday Lucky Box ",
 		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 114,
 		subject = "Black Friday Lucky Box ",
+		id = 114,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -2671,6 +2806,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[115] = {
@@ -2678,9 +2814,10 @@ pg.pay_data_display = {
 		name = "Christmas Lucky Bag ",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 115,
 		subject = "Christmas Lucky Bag ",
+		id = 115,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -2766,6 +2903,7 @@ pg.pay_data_display = {
 				2000
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[116] = {
@@ -2773,9 +2911,10 @@ pg.pay_data_display = {
 		name = "Shougatsu Lucky Bag (2020)",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 116,
 		subject = "Shougatsu Lucky Bag (2020)",
+		id = 116,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -2866,6 +3005,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[117] = {
@@ -2873,9 +3013,10 @@ pg.pay_data_display = {
 		name = "Shougatsu Lucky Bag (2019)",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 117,
 		subject = "Shougatsu Lucky Bag (2019)",
+		id = 117,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -2961,6 +3102,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[118] = {
@@ -2968,9 +3110,10 @@ pg.pay_data_display = {
 		name = "Lunar New Year Lucky Bag (2020)",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 118,
 		subject = "Lunar New Year Lucky Bag (2020)",
+		id = 118,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -3061,6 +3204,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[119] = {
@@ -3068,9 +3212,10 @@ pg.pay_data_display = {
 		name = "Lunar New Year Lucky Bag (2019)",
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 119,
 		subject = "Lunar New Year Lucky Bag (2019)",
+		id = 119,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -3156,6 +3301,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[120] = {
@@ -3163,9 +3309,10 @@ pg.pay_data_display = {
 		name = "New Commanders Support Pack I",
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 120,
 		subject = "New Commanders Support Pack I",
+		id = 120,
 		money = 299,
 		tag = 1,
 		gem = 0,
@@ -3236,6 +3383,7 @@ pg.pay_data_display = {
 				1
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[121] = {
@@ -3243,9 +3391,10 @@ pg.pay_data_display = {
 		name = "New Commanders Support Pack II",
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 121,
 		subject = "New Commanders Support Pack II",
+		id = 121,
 		money = 1199,
 		tag = 1,
 		gem = 0,
@@ -3341,6 +3490,7 @@ pg.pay_data_display = {
 				4
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[122] = {
@@ -3348,9 +3498,10 @@ pg.pay_data_display = {
 		name = "New Commanders Support Pack III",
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 122,
 		subject = "New Commanders Support Pack III",
+		id = 122,
 		money = 2599,
 		tag = 1,
 		gem = 0,
@@ -3451,6 +3602,7 @@ pg.pay_data_display = {
 				8
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[123] = {
@@ -3458,9 +3610,10 @@ pg.pay_data_display = {
 		name = "Crimson Echoes' Lucky Bag",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 123,
 		subject = "Crimson Echoes' Lucky Bag",
+		id = 123,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -3546,6 +3699,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[124] = {
@@ -3553,9 +3707,10 @@ pg.pay_data_display = {
 		name = "Night Out Lucky Bag ",
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 124,
 		subject = "Night Out Lucky Bag ",
+		id = 124,
 		money = 2999,
 		tag = 1,
 		gem = 0,
@@ -3646,6 +3801,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[125] = {
@@ -3653,9 +3809,10 @@ pg.pay_data_display = {
 		name = "Skybound Oratorio Lucky Bag",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 125,
 		subject = "Skybound Oratorio Lucky Bag ",
+		id = 125,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -3741,6 +3898,7 @@ pg.pay_data_display = {
 				20
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[126] = {
@@ -3748,9 +3906,10 @@ pg.pay_data_display = {
 		name = "Aurora Noctis Lucky Bag ",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 126,
 		subject = "Aurora Noctis Lucky Bag ",
+		id = 126,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -3836,6 +3995,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[127] = {
@@ -3843,9 +4003,10 @@ pg.pay_data_display = {
 		name = "Summer Scherzo Lucky Bag ",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 127,
 		subject = "Summer Scherzo Lucky Bag ",
+		id = 127,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -3931,6 +4092,7 @@ pg.pay_data_display = {
 				50
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[128] = {
@@ -3938,9 +4100,10 @@ pg.pay_data_display = {
 		name = "Shining Star Lucky Bag ",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 128,
 		subject = "Shining Star Lucky Bag ",
+		id = 128,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4031,6 +4194,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[129] = {
@@ -4038,9 +4202,10 @@ pg.pay_data_display = {
 		name = "Azur Black Friday Lucky Box ",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 129,
 		subject = "Azur Black Friday Lucky Box ",
+		id = 129,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4131,6 +4296,7 @@ pg.pay_data_display = {
 				34
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[130] = {
@@ -4138,9 +4304,10 @@ pg.pay_data_display = {
 		name = "Crimson Black Friday Lucky Box ",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 130,
 		subject = "Crimson Black Friday Lucky Box ",
+		id = 130,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4231,6 +4398,7 @@ pg.pay_data_display = {
 				34
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[131] = {
@@ -4238,9 +4406,10 @@ pg.pay_data_display = {
 		name = "Dawn's Rime Lucky Pack",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 131,
 		subject = "Dawn's Rime Lucky Pack",
+		id = 131,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4331,6 +4500,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[132] = {
@@ -4338,9 +4508,10 @@ pg.pay_data_display = {
 		name = "Daedalian Hymn's Lucky Bag",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 132,
 		subject = "Daedalian Hymn's Lucky Bag",
+		id = 132,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4431,6 +4602,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	[133] = {
@@ -4438,9 +4610,10 @@ pg.pay_data_display = {
 		name = "Microlayer Medley Lucky Box 2021",
 		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
+		subject_extra = "",
 		extra_gem = 0,
-		id = 133,
 		subject = "Microlayer Medley Lucky Box 2021",
+		id = 133,
 		money = 2999,
 		tag = 2,
 		gem = 0,
@@ -4531,6 +4704,7 @@ pg.pay_data_display = {
 				2
 			}
 		},
+		sub_display = {},
 		ignorePlatform = {}
 	},
 	all = {
@@ -4552,6 +4726,7 @@ pg.pay_data_display = {
 		31,
 		32,
 		33,
+		1000,
 		100,
 		101,
 		102,

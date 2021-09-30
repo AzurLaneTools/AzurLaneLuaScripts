@@ -817,6 +817,20 @@ function slot0.handleEnterMainUI(slot0)
 				coroutine.yield()
 			end
 
+			if slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot11:isEnd() then
+				slot13 = slot11.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
+
+				if #slot11:GetCrusingUnreceiveAward() > 0 and math.floor(slot13 / 86400) < PlayerPrefs.GetInt(string.format("crusing_%d_last_time", slot11.id), 3) then
+					PlayerPrefs.SetInt(string.format("crusing_%d_last_time", slot11.id), math.floor(slot13 / 86400))
+					uv0:sendNotification(GAME.CRUSING_LAST_TIME_MSGBOX, {
+						awards = slot14,
+						time = slot13,
+						closeFunc = uv1
+					})
+					coroutine.yield()
+				end
+			end
+
 			HXSet.calcLocalizationUse()
 		end))
 	end

@@ -34,6 +34,20 @@ function slot0.hasAttachmentsType(slot0, slot1)
 	end
 end
 
+function slot0.OverflowShipExpAttachment(slot0)
+	slot1 = getProxy(BagProxy)
+
+	for slot6, slot7 in pairs(slot0.attachments) do
+		if slot7.type == DROP_TYPE_ITEM and slot7:IsShipExpType() and (function (slot0)
+			return slot0:getConfig("max_num") < uv0:getItemCountById(slot0.id) + slot0.count
+		end)(slot7) then
+			return true
+		end
+	end
+
+	return false
+end
+
 function slot0.getAttatchmentsCount(slot0, slot1, slot2)
 	for slot7, slot8 in pairs(slot0.attachments) do
 		if slot1 == slot8.type and slot2 == slot8.id then

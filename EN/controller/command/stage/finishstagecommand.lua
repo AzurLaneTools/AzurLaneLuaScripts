@@ -95,10 +95,15 @@ function slot0.addShipsExp(slot0, slot1, slot2)
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot0) do
+		slot12 = slot10.exp or 0
 		slot13 = slot10.intimacy
 
 		if slot1[slot10.ship_id] then
-			slot3:getShipById(slot11):addExp(slot10.exp or 0, slot2)
+			slot3:getShipById(slot11):addExp(slot12, slot2)
+
+			if slot2 and (pg.gameset.level_get_proficency.key_value < slot14.level or slot14.level == slot15 and slot14.exp > 0) and pg.ship_data_template[slot14.configId].can_get_proficency == 1 then
+				getProxy(NavalAcademyProxy):AddCourseProficiency(slot12)
+			end
 
 			if slot13 then
 				slot14:addLikability(slot13 - 10000)

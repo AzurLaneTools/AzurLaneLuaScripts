@@ -856,6 +856,14 @@ pg.skill_data_display = {
 		id = 8897,
 		name = "Zeroth Quadrant Expansion -5%"
 	},
+	[8899] = {
+		id = 8899,
+		name = "Lone Queen of the North"
+	},
+	[8903] = {
+		id = 8903,
+		name = "Final Counter"
+	},
 	[9010] = {
 		id = 9010,
 		name = "Eastern Bonds"
@@ -4240,6 +4248,18 @@ pg.skill_data_display = {
 		id = 14882,
 		name = "Within the Thunder's Roar"
 	},
+	[14890] = {
+		id = 14890,
+		name = "Nightmare of Solomon+"
+	},
+	[14900] = {
+		id = 14900,
+		name = "Feral Claws"
+	},
+	[14901] = {
+		id = 14901,
+		name = "All Out Assault III"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -6756,6 +6776,26 @@ pg.skill_data_display = {
 		id = 800167,
 		name = "Flickering Light - Souryuu II"
 	},
+	[800181] = {
+		id = 800181,
+		name = "The Butterfly's Last Gasp"
+	},
+	[800205] = {
+		id = 800205,
+		name = "Ashen Might - Fusou"
+	},
+	[800207] = {
+		id = 800207,
+		name = "Ashen Might - Fusou"
+	},
+	[800210] = {
+		id = 800210,
+		name = "The Butterfly's Last Gasp"
+	},
+	[800211] = {
+		id = 800211,
+		name = "The Butterfly's Last Gasp"
+	},
 	all = {
 		4,
 		10,
@@ -6971,6 +7011,8 @@ pg.skill_data_display = {
 		8882,
 		8884,
 		8897,
+		8899,
+		8903,
 		9010,
 		9020,
 		9030,
@@ -7817,6 +7859,9 @@ pg.skill_data_display = {
 		14880,
 		14881,
 		14882,
+		14890,
+		14900,
+		14901,
 		18010,
 		18040,
 		18041,
@@ -8445,6 +8490,11 @@ pg.skill_data_display = {
 		800161,
 		800162,
 		800165,
-		800167
+		800167,
+		800181,
+		800205,
+		800207,
+		800210,
+		800211
 	}
 }

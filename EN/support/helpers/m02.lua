@@ -1159,7 +1159,7 @@ function GetOwnedpropCount(slot0)
 	elseif slot3 == DROP_TYPE_FURNITURE then
 		slot1 = getProxy(DormProxy):getFurnitrueCount(slot0.id)
 	elseif slot3 == DROP_TYPE_STRATEGY then
-		-- Nothing
+		slot2 = tobool(slot0.strategyCount)
 	elseif slot3 == DROP_TYPE_SKIN then
 		slot1 = getProxy(ShipSkinProxy):getSkinCountById(slot0.id)
 	elseif slot3 == DROP_TYPE_VITEM then
@@ -2214,6 +2214,26 @@ function updateActivityTaskStatus(slot0)
 	return false
 end
 
+function updateCrusingActivityTask(slot0)
+	slot1 = getProxy(TaskProxy)
+	slot6 = "config_data"
+
+	for slot6, slot7 in ipairs(slot0:getConfig(slot6)) do
+		if pg.battlepass_task_group[slot7].time <= math.floor((pg.TimeMgr.GetInstance():GetServerTime() - slot0:getStartTime()) / 86400) + 1 and underscore.any(underscore.flatten(slot8.task_group), function (slot0)
+			return uv0:getTaskVO(slot0) == nil
+		end) then
+			pg.m02:sendNotification(GAME.CRUSING_CMD, {
+				cmd = 1,
+				activity_id = slot0.id
+			})
+
+			return true
+		end
+	end
+
+	return false
+end
+
 function setShipCardFrame(slot0, slot1, slot2)
 	slot0.localScale = Vector3.one
 	slot0.anchorMin = Vector2.zero
@@ -2266,7 +2286,7 @@ function flushShipCard(slot0, slot1)
 
 	slot9 = nil
 
-	setShipCardFrame(findTF(slot0, "content/front/frame"), slot2, slot1.propose and "prop" .. ((slot1:isBluePrintShip() or slot1:isMetaShip()) and slot2 or "") or nil)
+	setShipCardFrame(findTF(slot0, "content/front/frame"), slot2, slot1.propose and "prop" .. (slot1:isBluePrintShip() and slot2 or slot1:isMetaShip() and "14" or "") or nil)
 
 	slot10 = findTF(slot0, "content/front/stars")
 
@@ -2295,7 +2315,7 @@ function flushShipCard(slot0, slot1)
 			slot16 = "duang_6_jiehun" .. (slot1:isBluePrintShip() and "_tuzhi" or "")
 		end
 	elseif slot1:isMetaShip() then
-		slot16 = "duang_meta"
+		slot16 = "duang_meta_" .. slot2
 	elseif slot1:getRarity() == 6 then
 		slot16 = "duang_6"
 	end

@@ -90,10 +90,6 @@ function slot2.AddModel(slot0, slot1)
 	slot0._hpBarOffset = Vector3(0, slot0._unitData:GetTemplate().hp_bar[2], 0)
 end
 
-function slot2.AddShadow(slot0, slot1)
-	uv0.super.AddShadow(slot0, slot1)
-end
-
 function slot2.GetSpecificFXScale(slot0)
 	return slot0._unitData:GetTemplate().specific_fx_scale
 end
@@ -108,4 +104,13 @@ end
 
 function slot2.OnAnimatorStart(slot0)
 	slot0._unitData:CharacterActionStartCallback()
+end
+
+function slot2.UpdateAimBiasBar(slot0)
+	uv0.super.UpdateAimBiasBar(slot0)
+
+	if slot0._fogFx then
+		slot1 = slot0:GetUnitData():GetAimBias():GetCurrentRate()
+		slot0._fogFx.transform.localScale = Vector3(slot1, slot1, 1)
+	end
 end

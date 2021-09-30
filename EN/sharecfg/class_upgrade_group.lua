@@ -10,6 +10,7 @@ pg.class_upgrade_group = {
 			1,
 			12,
 			8,
+			12,
 			17,
 			19
 		}
@@ -65,6 +66,7 @@ pg.class_upgrade_group = {
 			1,
 			12,
 			8,
+			12,
 			17,
 			19
 		}
@@ -86,12 +88,32 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "Auditorium is resting. Attack proficiency doubled.",
-		id = 0,
-		icon = "",
-		name_show = "",
+		name = "Self-study in progress. Double Proficiency gained from sorties.",
+		id = 105031,
+		icon = "Props/BB",
+		name_show = "Self-Study ",
 		day = 7,
-		type = {}
+		type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19
+		}
 	},
 	all = {
 		1,

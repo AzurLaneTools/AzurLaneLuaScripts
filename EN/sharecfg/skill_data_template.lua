@@ -53837,6 +53837,254 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[14890] = {
+		desc_get = "",
+		name = "Nightmare of Solomon+",
+		id = 14890,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP, TRP, RLD, and EVA by $1, and increases her DMG dealt to Burning enemies by $2. After the battle starts: for 30s, increases your Vanguard's Torpedo Crit Rate by 10.0% and Torpedo Crit DMG by $3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"10.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.5%"
+				},
+				{
+					"11.5%",
+					"+1.5%"
+				},
+				{
+					"13%",
+					"+1.5%"
+				},
+				{
+					"14.5%",
+					"+1.6%"
+				},
+				{
+					"16.1%",
+					"+1.6%"
+				},
+				{
+					"17.7%",
+					"+1.7%"
+				},
+				{
+					"19.4%",
+					"+1.8%"
+				},
+				{
+					"21.2%",
+					"+1.8%"
+				},
+				{
+					"23%",
+					"+2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[14900] = {
+		desc_get = "",
+		name = "Feral Claws",
+		id = 14900,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's Evasion Rate by 5.0% and decreases her cannon DMG taken by $2. Every 20s after the battle starts: fires a $1 special barrage (DMG is based on this skill's level; inflicts a unique Burn ailment on hit).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -63671,6 +63919,20 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[29123] = {
+		desc_get = "",
+		name = "All Out Assault III",
+		id = 29123,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault III: Yuudachi once every 16 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[29131] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -73181,6 +73443,294 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800170] = {
+		desc_get = "",
+		name = "Cinderflame Curse",
+		id = 800170,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: fires a $1 special barrage (DMG is based on this skill's level). Enemies hit by this barrage are inflicted with \"Cinderflame Curse\" and take 41 damage per second for 10s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800180] = {
+		desc_get = "",
+		name = "The Butterfly's Last Gasp",
+		id = 800180,
+		type = 3,
+		max_level = 10,
+		desc = "For the first 3 battles of each sortie that the fleet this ship is in is deployed: every 20s, fires a $1 special barrage (DMG is based on this skill's level); For the 4th and 5th battles of each sortie that the fleet this ship is NOT in is deployed: every 20s, fires a $1 special barrage as long as this ship is still afloat (DMG is based on this skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800190] = {
+		desc_get = "",
+		name = "Echoes of Annihilation - Fusou",
+		id = 800190,
+		type = 1,
+		max_level = 10,
+		desc = "During battle, increases this ship's AA by $1 and RLD by $2;\nWhen the \"Cinderflame Curse\" status expires, all enemies affected by that status take one additional instance of special Burn DMG (DMG is based on this ship's FP);\nEvery time allies defeat an enemy affected by \"Cinderflame Curse\": increases this ship's FP by 4.0% until the end of battle, stacking up to 3 times; At max stacks, this ship deals 5.0% more DMG to enemies until the end of battle.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[800201] = {
+		desc_get = "",
+		name = "Ashen Might - Fusou I",
+		id = 800201,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG taken by your Vanguard by 2.0%.",
+		system_transform = {
+			[51.0] = 800205
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800202] = {
+		desc_get = "",
+		name = "Ashen Might - Fusou II",
+		id = 800202,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG taken by your Vanguard by 6.0%.",
+		system_transform = {
+			[51.0] = 800207
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800205] = {
+		desc_get = "",
+		name = "Ashen Might - Fusou I",
+		id = 800205,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG taken by your Vanguard by 2.0%.",
+		system_transform = {
+			[51.0] = 800205
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800207] = {
+		desc_get = "",
+		name = "Ashen Might - Fusou II",
+		id = 800207,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: reduces the DMG taken by your Vanguard by 6.0%.",
+		system_transform = {
+			[51.0] = 800207
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800210] = {
+		desc_get = "",
+		name = "The Butterfly's Last Gasp",
+		id = 800210,
+		type = 2,
+		max_level = 10,
+		desc = "None",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		1,
 		2,
@@ -73936,6 +74486,8 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		14860,
 		14870,
 		14880,
+		14890,
+		14900,
 		18010,
 		18040,
 		18050,
@@ -74238,6 +74790,7 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		29112,
 		29121,
 		29122,
+		29123,
 		29131,
 		29132,
 		29141,
@@ -74457,6 +75010,14 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		800161,
 		800162,
 		800165,
-		800167
+		800167,
+		800170,
+		800180,
+		800190,
+		800201,
+		800202,
+		800205,
+		800207,
+		800210
 	}
 }

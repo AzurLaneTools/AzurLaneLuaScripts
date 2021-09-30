@@ -130,7 +130,7 @@ end
 
 function slot0.isHaveBuildMetaProgressVO(slot0)
 	for slot5, slot6 in ipairs(slot0:getMetaProgressVOList()) do
-		if slot6:isBuildType() and slot6:isInAct() then
+		if slot6:isPassType() and slot6:isInAct() then
 			return true
 		end
 	end

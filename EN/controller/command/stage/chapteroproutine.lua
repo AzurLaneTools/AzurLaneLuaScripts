@@ -22,17 +22,17 @@ function slot0.doMapUpdate(slot0)
 	if #slot0.data.map_update > 0 then
 		_.each(slot1.map_update, function (slot0)
 			if slot0.item_type == ChapterConst.AttachStory and slot0.item_data == ChapterConst.StoryTrigger then
-				if uv0.cellAttachments[ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)] then
-					if slot2.flag == ChapterConst.CellFlagTriggerActive and slot0.item_flag == ChapterConst.CellFlagTriggerDisabled and pg.map_event_template[slot2.attachmentId].gametip ~= "" then
-						pg.TipsMgr.GetInstance():ShowTips(i18n(slot3))
+				if uv0:GetChapterCellAttachemnts()[ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)] then
+					if slot3.flag == ChapterConst.CellFlagTriggerActive and slot0.item_flag == ChapterConst.CellFlagTriggerDisabled and pg.map_event_template[slot3.attachmentId].gametip ~= "" then
+						pg.TipsMgr.GetInstance():ShowTips(i18n(slot4))
 					end
 
-					slot2.attachment = slot0.item_type
-					slot2.attachmentId = slot0.item_id
-					slot2.flag = slot0.item_flag
-					slot2.data = slot0.item_data
+					slot3.attachment = slot0.item_type
+					slot3.attachmentId = slot0.item_id
+					slot3.flag = slot0.item_flag
+					slot3.data = slot0.item_data
 				else
-					uv0.cellAttachments[slot1] = ChapterCell.New(slot0)
+					slot2[slot1] = ChapterCell.New(slot0)
 				end
 			elseif slot0.item_type ~= ChapterConst.AttachNone and slot0.item_type ~= ChapterConst.AttachBorn and slot0.item_type ~= ChapterConst.AttachBorn_Sub then
 				uv0:mergeChapterCell(ChapterCell.New(slot0))
@@ -141,27 +141,21 @@ end
 
 function slot0.doMove(slot0)
 	slot1 = slot0.op
-	slot5 = nil
+	slot3 = slot0.chapter
+	slot4 = nil
 
 	if #slot0.data.move_path > 0 then
-		slot5 = _.map(_.rest(slot2.move_path, 1), function (slot0)
+		slot4 = _.map(_.rest(slot2.move_path, 1), function (slot0)
 			return {
 				row = slot0.row,
 				column = slot0.column
 			}
 		end)
-		slot6 = slot2.move_path[#slot2.move_path]
-		slot0.chapter.fleet.line = {
-			row = slot6.row,
-			column = slot6.column
-		}
 	end
 
-	slot0.fullpath = slot5
+	slot0.fullpath = slot4
 
 	slot3:IncreaseRound()
-
-	slot0.flag = 0
 end
 
 function slot0.doOpenBox(slot0)
@@ -174,12 +168,13 @@ function slot0.doOpenBox(slot0)
 
 	if pg.box_data_template[slot6.attachmentId].type == ChapterConst.BoxStrategy then
 		slot8 = slot7.effect_id
+		slot9 = slot7.effect_arg
 
-		slot4:achievedOneStrategy(slot8)
+		slot4:achievedStrategy(slot8, slot9)
 		table.insert(slot0.items, Item.New({
-			count = 1,
 			type = DROP_TYPE_STRATEGY,
-			id = slot8
+			id = slot8,
+			count = slot9
 		}))
 
 		slot2 = bit.bor(bit.bor(slot0.flag, ChapterConst.DirtyAttachment), ChapterConst.DirtyStrategy)
@@ -294,7 +289,7 @@ end
 function slot0.doCollectAI(slot0)
 	slot2 = slot0.flag
 	slot3 = slot0.chapter
-	slot0.aiActs = {}
+	slot0.aiActs = slot0.aiActs or {}
 
 	if slot0.data.submarine_act_list then
 		_.each(slot1.submarine_act_list, function (slot0)
@@ -411,6 +406,12 @@ function slot0.doTeleportByPortal(slot0)
 		column = slot1.column
 	})
 	table.insert(slot0.teleportPaths, slot4)
+end
+
+function slot0.doCollectCommonAction(slot0)
+	slot0.aiActs = slot0.aiActs or {}
+
+	table.insert(slot0.aiActs, ChapterCommonAction.New(slot0.op, slot0.data))
 end
 
 return slot0

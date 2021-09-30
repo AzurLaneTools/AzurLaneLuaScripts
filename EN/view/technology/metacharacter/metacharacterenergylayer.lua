@@ -350,7 +350,7 @@ end
 function slot0.updatePreviewAttrListPanel(slot0)
 	slot2 = slot0.curMetaCharacterVO
 	slot4 = Clone(slot0.curShipVO)
-	slot4.level = 120
+	slot4.level = 125
 	slot6 = intProperties(slot4:getMetaCharacter():getFinalAddition(slot4))
 
 	slot0.previewAttrUIItemList:make(function (slot0, slot1, slot2)
@@ -388,7 +388,7 @@ function slot0.initPreviewPanel(slot0, slot1)
 
 		onToggle(slot0, slot0:findTF("Stage" .. slot7, slot0.stages), function (slot0)
 			if slot0 then
-				setText(uv0.breakView, uv1[uv2].breakout_view)
+				setText(uv0.breakView, HXSet.hxLan(uv1[uv2].breakout_view))
 				uv0:switchStage(uv2)
 			end
 		end, SFX_PANEL)

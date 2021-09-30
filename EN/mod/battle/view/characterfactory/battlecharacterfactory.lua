@@ -64,6 +64,10 @@ function slot2.MakeBloodBar(slot0, slot1)
 	return nil
 end
 
+function slot2.MakeAimBiasBar(slot0)
+	return nil
+end
+
 function slot2.SetHPBarWidth(slot0, slot1, slot2, slot3)
 	slot5 = slot1:GetUnitData():GetTemplate().hp_bar[1]
 	slot6 = slot2.transform

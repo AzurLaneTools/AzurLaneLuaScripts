@@ -489,13 +489,7 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		slot0, slot1 = pg.SystemOpenMgr.GetInstance():isOpenSystem(uv0.player.level, "WorldMediator")
-
-		if slot0 then
-			uv0:emit(LevelMediator2.ENTER_WORLD)
-		else
-			pg.TipsMgr.GetInstance():ShowTips(slot1)
-		end
+		uv0:emit(LevelMediator2.ENTER_WORLD)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.entranceLayer:Find("enters/enter_ready/activity"), function ()
 		if uv0:isfrozen() then
@@ -2548,15 +2542,7 @@ function slot0.initGrid(slot0, slot1)
 		uv0.levelStageView:updateAmbushRate(slot0)
 	end
 
-	function slot0.grid.onShipArrived()
-		uv0:overrideChapter()
-		uv0.levelStageView:updateAmbushRate(uv0.contextData.chapterVO.fleet.line, true)
-		uv0.levelStageView:updateStageStrategy()
-	end
-
-	slot0.grid:initAll(function ()
-		uv0()
-	end)
+	slot0.grid:initAll(slot1)
 end
 
 function slot0.destroyGrid(slot0)

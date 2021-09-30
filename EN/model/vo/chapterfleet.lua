@@ -567,8 +567,8 @@ function slot0.getOwnStrategies(slot0)
 	return slot1
 end
 
-function slot0.achievedOneStrategy(slot0, slot1)
-	slot0.stgPicked[slot1] = (slot0.stgPicked[slot1] or 0) + 1
+function slot0.achievedStrategy(slot0, slot1, slot2)
+	slot0.stgPicked[slot1] = (slot0.stgPicked[slot1] or 0) + slot2
 end
 
 function slot0.consumeOneStrategy(slot0, slot1)
@@ -577,6 +577,12 @@ function slot0.consumeOneStrategy(slot0, slot1)
 	elseif slot0.stgPicked[slot1] then
 		slot3[slot1] = math.max(0, slot3[slot1] - 1)
 	end
+end
+
+function slot0.GetStrategyCount(slot0, slot1)
+	return _.detect(slot0:getStrategies(), function (slot0)
+		return slot0.id == uv0
+	end) and slot3.count or 0
 end
 
 function slot0.getFormationStg(slot0)

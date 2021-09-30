@@ -4,6 +4,7 @@ slot1 = class("BattleBuffAura", slot0.Battle.BattleBuffEffect)
 slot0.Battle.BattleBuffAura = slot1
 slot1.__name = "BattleBuffAura"
 slot2 = slot0.Battle.BattleConst
+slot3 = slot0.Battle.BattleConfig
 
 function slot1.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
@@ -55,6 +56,11 @@ function slot1.SetArgs(slot0, slot1, slot2)
 			end
 		end
 	end)
+	slot0._angle = slot3.cld_data.angle
+
+	if slot0._angle then
+		slot0._aura:SetSectorAngle(slot0._angle, slot1:GetDirection())
+	end
 end
 
 function slot1.Clear(slot0)

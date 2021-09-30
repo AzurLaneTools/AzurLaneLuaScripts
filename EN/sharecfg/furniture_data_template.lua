@@ -5332,6 +5332,82 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100022] = {
+		effect = "",
+		name = "Anywhere, Anytime Swings",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Wa~ ha~ ha~! Now, Yukikaze the Great can look down upon the masses from anywhere!\"",
+		tag = 6,
+		icon = "feiqiuqianicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		comfortable = 0,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100022,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feiqiuqianB",
+				"normal"
+			},
+			{
+				"feiqiuqianT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"feiqiuqianCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[100023] = {
 		effect = "",
 		name = "Celebratory Fireworks",
@@ -83354,6 +83430,7 @@ pg.furniture_data_template = {
 		100018,
 		100019,
 		100021,
+		100022,
 		100023,
 		1001,
 		1002,

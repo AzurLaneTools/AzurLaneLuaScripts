@@ -111,13 +111,37 @@ pg.oilfield_template = {
 	{
 		store = 3000,
 		production = 30,
-		time = 0,
+		time = 7200,
 		user_level = 90,
 		level = 10,
 		hour_time = 3,
 		use = {
 			1,
-			30000
+			9000
+		}
+	},
+	{
+		store = 3300,
+		production = 31,
+		time = 7200,
+		user_level = 100,
+		level = 11,
+		hour_time = 3,
+		use = {
+			1,
+			10500
+		}
+	},
+	{
+		store = 3600,
+		production = 32,
+		time = 0,
+		user_level = 110,
+		level = 12,
+		hour_time = 3,
+		use = {
+			1,
+			12000
 		}
 	},
 	all = {
@@ -130,6 +154,8 @@ pg.oilfield_template = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11,
+		12
 	}
 }

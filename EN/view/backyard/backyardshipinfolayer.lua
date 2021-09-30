@@ -1,11 +1,9 @@
 slot0 = class("BackYardShipInfoLayer", import("..base.BaseUI"))
 slot0.SHIP_TRAIN_TYPE = 1
 slot0.SHIP_REST_TYPE = 2
-slot0.SHIP_CLASS_TYPE = 3
 slot1 = {
 	i18n("backyard_traning_tip"),
-	i18n("backyard_rest_tip"),
-	i18n("backyard_class_tip")
+	i18n("backyard_rest_tip")
 }
 slot2 = "RectShipCardTpl"
 slot3 = {
@@ -93,25 +91,10 @@ function slot4(slot0)
 					10 * (slot1:getRecoverEnergyPoint() + Ship.BACKYARD_2F_ENERGY_ADDITION) .. "/h"
 				}
 			})
-		elseif slot2 == uv0.SHIP_CLASS_TYPE then
-			slot3:updateProps1({
-				{
-					i18n("word_lv"),
-					slot1.level
-				},
-				{
-					i18n("word_next_level"),
-					math.max(slot1:getLevelExpConfig().exp - slot1.exp, 0)
-				},
-				{
-					i18n("word_exp_chinese") .. i18n("word_get"),
-					(slot0.speed or "") .. "/h"
-				}
-			})
 		end
 
 		setActive(slot3.propsTr, slot2 == uv0.SHIP_TRAIN_TYPE)
-		setActive(slot3.propsTr1, slot2 == uv0.SHIP_REST_TYPE or slot2 == uv0.SHIP_CLASS_TYPE)
+		setActive(slot3.propsTr1, slot2 == uv0.SHIP_REST_TYPE)
 	end
 
 	(function (slot0)
@@ -140,24 +123,12 @@ function slot0.setResetShipVOs(slot0, slot1)
 	slot0.restShipVOs = slot1
 end
 
-function slot0.setClassShipVOs(slot0, slot1)
-	slot0.classShipVOs = slot1
-end
-
-function slot0.setCourseVO(slot0, slot1)
-	slot0.courseVO = slot1
-end
-
 function slot0.setPlayerVO(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
 function slot0.setDormVO(slot0, slot1)
 	slot0.dormVO = slot1
-end
-
-function slot0.setResClassVO(slot0, slot1)
-	slot0.setResClassVO = slot1
 end
 
 function slot0.init(slot0)
@@ -172,33 +143,25 @@ function slot0.init(slot0)
 
 	slot0.titles = {
 		slot0:findTF("main/frame/top/title_training"),
-		slot0:findTF("main/frame/top/title_rest"),
-		slot0:findTF("main/frame/top/title_class")
+		slot0:findTF("main/frame/top/title_rest")
 	}
 	slot0.toggles = {
 		slot0:findTF("main/frame/top/train_btn"),
-		slot0:findTF("main/frame/top/rest_btn"),
-		slot0:findTF("main/frame/top/class_btn")
+		slot0:findTF("main/frame/top/rest_btn")
 	}
 	slot0.counter = slot0:findTF("main/frame/top/value/Text"):GetComponent(typeof(Text))
 	slot0.uiList = UIItemList.New(slot0:findTF("main/frame/panel/scrollview/ships"), slot0:findTF("main/frame/panel/scrollview/ships/tpl"))
 	slot0.panelDesc = slot0:findTF("main/frame/panel/desc"):GetComponent(typeof(Text))
+	slot0.backyardMain = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui")
 
-	if slot0.contextData.type ~= uv1.SHIP_CLASS_TYPE then
-		slot0.backyardMain = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui")
-
-		if slot0.backyardMain then
-			slot0.prevPos = tf(slot0.backyardMain).localPosition
-		end
+	if slot0.backyardMain then
+		slot0.prevPos = tf(slot0.backyardMain).localPosition
 	end
 end
 
 function slot0.EnableUI(slot0, slot1)
 	GetOrAddComponent(slot0._tf, typeof(CanvasGroup)).blocksRaycasts = slot1
-
-	if slot0.contextData.type ~= uv0.SHIP_CLASS_TYPE then
-		tf(slot0.backyardMain).localPosition = slot1 and slot0.prevPos or Vector3(10000, 10000, 0)
-	end
+	tf(slot0.backyardMain).localPosition = slot1 and slot0.prevPos or Vector3(10000, 10000, 0)
 end
 
 function slot0.didEnter(slot0)
@@ -227,7 +190,6 @@ function slot0.didEnter(slot0)
 
 	setActive(slot0.toggles[1], slot0.contextData.type == uv0.SHIP_TRAIN_TYPE or slot1 == uv0.SHIP_REST_TYPE)
 	setActive(slot0.toggles[2], (slot1 == uv0.SHIP_TRAIN_TYPE or slot1 == uv0.SHIP_REST_TYPE) and slot0.dormVO:isUnlockFloor(2))
-	setActive(slot0.toggles[3], slot1 == uv0.SHIP_CLASS_TYPE)
 	triggerToggle(slot0.toggles[slot1], true)
 	onButton(slot0, slot0:findTF("bg", slot0.mainPanel), function ()
 		if (uv0.contextData.type == uv1.SHIP_TRAIN_TYPE or uv0.contextData.type == uv1.SHIP_REST_TYPE) and uv0.dormVO.food == 0 and table.getCount(uv0.dormVO.shipIds) > 0 then
@@ -251,10 +213,6 @@ function slot0.getSlotsInfo(slot0, slot1)
 		slot2 = slot0.dormVO.rest_pos
 		slot3 = _.values(slot0.restShipVOs)
 		slot4 = slot0.dormVO:getConfig("fix_ship_number")
-	elseif slot1 == uv0.SHIP_CLASS_TYPE then
-		slot2 = AcademyCourse.MaxStudentSlot
-		slot3 = _.values(slot0.classShipVOs)
-		slot4 = AcademyCourse.MaxStudentSlot
 	end
 
 	return slot2, slot3, slot4
@@ -317,8 +275,6 @@ function slot0.updateSlots(slot0, slot1)
 		slot0.counter.text = table.getCount(slot0.trainShipVOs) .. "/" .. slot0.dormVO.exp_pos
 	elseif slot1 == uv3.SHIP_REST_TYPE then
 		slot0.counter.text = table.getCount(slot0.restShipVOs) .. "/" .. slot0.dormVO.rest_pos
-	elseif slot1 == uv3.SHIP_CLASS_TYPE then
-		slot0.counter.text = table.getCount(slot0.classShipVOs) .. "/" .. AcademyCourse.MaxStudentSlot
 	end
 end
 
@@ -329,14 +285,6 @@ function slot0.goToDockYard(slot0, slot1, slot2)
 		slot3 = slot0.dormVO.exp_pos
 	elseif slot1 == uv0.SHIP_REST_TYPE then
 		slot3 = slot0.dormVO.rest_pos
-	elseif slot1 == uv0.SHIP_CLASS_TYPE then
-		if slot0.courseVO:inClass() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("course_learning"))
-
-			return
-		end
-
-		slot3 = AcademyCourse.MaxStudentSlot
 	end
 
 	slot0:emit(BackYardShipInfoMediator.OPEN_CHUANWU, slot1, slot3, slot2)
@@ -379,14 +327,6 @@ function slot0.getExpAdditionSpeed(slot0)
 
 			return pg.gameset["dorm_exp_ratio_by_" .. slot0].key_value / 100 * (pg.gameset.dorm_exp_base.key_value + slot1.exp * slot7 / (slot7 + pg.gameset.dorm_exp_ratio_comfort_degree.key_value)) * slot3 * (1 + 0.05 * uv0.playerVO.level)
 		end)() * 3600 / pg.dorm_data_template[slot0.dormVO.id].time)
-	elseif slot0.contextData.type == uv0.SHIP_CLASS_TYPE then
-		slot2 = 0
-
-		if table.getCount(slot0.classShipVOs) > 0 then
-			slot2 = math.floor(60 * slot0.setResClassVO:getConfig("proficency_cost_per_min") * slot0.setResClassVO:getConfig("proficency_to_exp_rant_" .. slot3) / 100)
-		end
-
-		slot1 = slot2
 	end
 
 	return slot1

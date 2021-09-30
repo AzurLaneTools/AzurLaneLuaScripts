@@ -435,46 +435,74 @@ function slot0.confirm(slot0, slot1)
 	if Clone(slot1):isChargeType() then
 		slot4 = (table.contains(slot0.firstChargeIds, slot1.id) or slot1:firstPayDouble()) and 4 or slot1:getConfig("tag")
 
-		if slot1:isMonthCard() or slot1:isGiftBox() or slot1:isItemBox() then
-			for slot11, slot12 in ipairs(slot1:getConfig("extra_service_item")) do
-				table.insert({}, {
-					type = slot12[1],
-					id = slot12[2],
-					count = slot12[3]
-				})
-			end
-
-			slot8 = slot1:getConfig("gem") + slot1:getConfig("extra_gem")
-
-			if not slot5 and slot8 > 0 then
-				table.insert(slot6, {
-					id = 4,
-					type = 1,
-					count = slot8
-				})
-			end
-
-			slot9 = nil
-
-			if slot5 then
-				slot9 = {
-					id = 4,
-					type = 1,
-					count = slot8
+		if slot1:isMonthCard() or slot1:isGiftBox() or slot1:isItemBox() or slot1:isPassItem() then
+			slot5 = underscore.map(slot1:getConfig("extra_service_item"), function (slot0)
+				return {
+					type = slot0[1],
+					id = slot0[2],
+					count = slot0[3]
 				}
+			end)
+			slot6 = nil
+
+			if slot1:isPassItem() then
+				slot7 = slot1:getConfig("sub_display")
+				slot8 = slot7[1]
+				slot9 = pg.battlepass_event_pt[slot8].pt
+				slot6 = {
+					type = DROP_TYPE_RESOURCE,
+					id = pg.battlepass_event_pt[slot8].pt,
+					count = slot7[2]
+				}
+				slot5 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot8].drop_client_pay, function (slot0)
+					return {
+						type = slot0[1],
+						id = slot0[2],
+						count = slot0[3]
+					}
+				end))
+			end
+
+			slot8 = nil
+
+			if slot1:isMonthCard() then
+				slot8 = {
+					id = 4,
+					type = 1,
+					count = slot1:getConfig("gem") + slot1:getConfig("extra_gem")
+				}
+			elseif slot7 > 0 then
+				table.insert(slot5, {
+					id = 4,
+					type = 1,
+					count = slot7
+				})
+			end
+
+			slot9, slot10 = nil
+
+			if slot1:isPassItem() then
+				slot9 = i18n("battlepass_pay_tip")
+				slot11 = slot1:getConfig("name") .. "\n" .. slot1:getConfig("subject_extra")
+			elseif slot1:isMonthCard() then
+				slot9 = i18n("charge_title_getitem_month")
+				slot10 = i18n("charge_title_getitem_soon")
+			else
+				slot9 = i18n("charge_title_getitem")
 			end
 
 			slot0:showItemDetail({
 				isChargeType = true,
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
-				name = slot1:getConfig("name"),
-				tipExtra = slot5 and i18n("charge_title_getitem_month") or i18n("charge_title_getitem"),
-				extraItems = slot6,
+				name = slot11,
+				tipExtra = slot9,
+				extraItems = slot5,
 				price = slot1:getConfig("money"),
 				tagType = slot4,
-				isMonthCard = slot5,
-				tipBonus = slot5 and i18n("charge_title_getitem_soon") or "",
-				bonusItem = slot9,
+				isMonthCard = slot1:isMonthCard(),
+				tipBonus = slot10,
+				bonusItem = slot8,
+				extraDrop = slot6,
 				descExtra = slot1:getConfig("descrip_extra"),
 				onYes = function ()
 					if uv0:checkSetBirth() then
@@ -485,7 +513,7 @@ function slot0.confirm(slot0, slot1)
 				end
 			})
 		elseif slot1:isGem() then
-			slot7 = slot1:getConfig("gem")
+			slot6 = slot1:getConfig("gem")
 
 			slot0:showItemDetail({
 				isChargeType = true,
@@ -493,7 +521,7 @@ function slot0.confirm(slot0, slot1)
 				name = slot1:getConfig("name"),
 				price = slot1:getConfig("money"),
 				tagType = slot4,
-				normalTip = i18n("charge_start_tip", slot1:getConfig("money"), slot3 and slot7 + slot1:getConfig("gem") or slot7 + slot1:getConfig("extra_gem")),
+				normalTip = i18n("charge_start_tip", slot1:getConfig("money"), slot3 and slot6 + slot1:getConfig("gem") or slot6 + slot1:getConfig("extra_gem")),
 				onYes = function ()
 					if uv0:checkSetBirth() then
 						uv0:emit(ChargeMediator.CHARGE, uv1.id)
@@ -554,12 +582,12 @@ function slot0.sortDamondItems(slot0, slot1)
 		if slot7:isChargeType() then
 			slot7:updateBuyCount(slot0:getBuyCount(slot0.chargedList, slot7.id))
 
-			if slot2 == uv0.TYPE_DIAMOND and (slot7:isMonthCard() or slot7:isGem() or slot7:isGiftBox()) then
-				if slot7:canPurchase() and slot7:inTime() then
+			if slot7:canPurchase() and slot7:inTime() then
+				if slot2 == uv0.TYPE_DIAMOND and (slot7:isMonthCard() or slot7:isGem() or slot7:isGiftBox()) then
+					table.insert(slot0.tempDamondVOs, slot7)
+				elseif slot2 == uv0.TYPE_GIFT and (slot7:isItemBox() or slot7:isPassItem()) then
 					table.insert(slot0.tempDamondVOs, slot7)
 				end
-			elseif slot2 == uv0.TYPE_GIFT and slot7:isItemBox() and slot7:canPurchase() and slot7:inTime() then
-				table.insert(slot0.tempDamondVOs, slot7)
 			end
 		elseif not slot7:isChargeType() and slot2 == uv0.TYPE_GIFT and not slot7:isLevelLimit(slot0.player.level, true) then
 			slot7:updateBuyCount(slot0:getBuyCount(slot0.normalList, slot7.id))
@@ -692,7 +720,7 @@ end
 function slot0.initItems(slot0)
 	slot0.isInitItems = true
 	slot0.itemGos = {}
-	slot0.itemRect = slot0:initRect(slot0.viewContainer:Find("itemPanel"), function (slot0)
+	slot0.itemRect = slot0:initRect(slot0.viewContainer:Find("itemPanel/content"), function (slot0)
 		slot1 = ChargeGoodsCard.New(slot0)
 
 		table.insert(uv0.cards, slot1)
@@ -827,6 +855,7 @@ function slot0.showItemDetail(slot0, slot1)
 	slot10 = slot1.isMonthCard
 	slot11 = slot1.tagType
 	slot12 = slot1.normalTip
+	slot13 = slot1.extraDrop
 
 	setActive(slot0:findTF("window2", slot0.detail), slot12)
 	setActive(slot0:findTF("window", slot0.detail), not slot12)
@@ -851,19 +880,27 @@ function slot0.showItemDetail(slot0, slot1)
 	setActive(slot0.detailTag, slot11 > 0)
 
 	if slot11 > 0 then
-		for slot16, slot17 in ipairs(slot0.detailTags) do
-			setActive(slot17, slot16 == slot11)
+		for slot17, slot18 in ipairs(slot0.detailTags) do
+			setActive(slot18, slot17 == slot11)
 		end
 	end
 
-	slot0.detailIconTF.sprite = GetSpriteFromAtlas("chargeicon/1", "")
-
-	LoadSpriteAsync(slot2, function (slot0)
-		if slot0 then
-			uv0.detailIconTF.sprite = slot0
-		end
-	end)
+	GetImageSpriteFromAtlasAsync(slot2, "", slot0.detailIcon, false)
 	setText(slot0.detailName, slot3)
+
+	if slot0.detailExtraDrop then
+		setActive(slot0.detailExtraDrop, slot13)
+
+		if slot13 then
+			setText(slot0.detailExtraDrop:Find("Text"), i18n("battlepass_pay_acquire") .. "\n" .. slot13.count .. "x")
+			updateDrop(slot0.detailExtraDrop:Find("item/IconTpl"), setmetatable({
+				count = 1
+			}, {
+				__index = slot13
+			}))
+		end
+	end
+
 	setActive(slot0.detailRmb, slot9)
 	setActive(slot0.detailGem, not slot9)
 
@@ -875,9 +912,11 @@ function slot0.showItemDetail(slot0, slot1)
 		setText(slot0.detailPrice, slot8)
 	end
 
-	if slot0.detailDescExtra ~= nil then
-		setActive(slot0.detailDescExtra, slot1.descExtra and slot1.descExtra ~= "")
-		setText(slot0.detailDescExtra, slot1.descExtra or "")
+	if slot0.extraDesc ~= nil then
+		slot14 = slot1.descExtra or ""
+
+		setActive(slot0.extraDesc, #slot14 > 0)
+		setText(slot0.extraDesc, slot14)
 	end
 
 	if slot0.detailContain then
@@ -889,37 +928,37 @@ function slot0.showItemDetail(slot0, slot1)
 				uv0:emit(uv1.ON_DROP, uv2)
 			end, SFX_PANEL)
 
-			slot13, slot14 = contentWrap(slot5.cfg.name, 10, 2)
+			slot14, slot15 = contentWrap(slot5.cfg.name, 10, 2)
 
-			if slot13 then
-				slot14 = slot14 .. "..."
+			if slot14 then
+				slot15 = slot15 .. "..."
 			end
 
-			setText(slot0.detailItem:Find("name"), slot14)
+			setText(slot0.detailItem:Find("name"), slot15)
 			setText(slot0.detailTip, slot4)
 		end
 
-		setText(slot0.detailTip2, slot6)
+		setText(slot0.extraTip, slot6)
 
-		for slot16 = #slot7, slot0.detailItemList.childCount - 1 do
-			Destroy(slot0.detailItemList:GetChild(slot16))
+		for slot17 = #slot7, slot0.detailItemList.childCount - 1 do
+			Destroy(slot0.detailItemList:GetChild(slot17))
 		end
 
-		for slot16 = slot0.detailItemList.childCount, #slot7 - 1 do
+		for slot17 = slot0.detailItemList.childCount, #slot7 - 1 do
 			cloneTplTo(slot0.detailItem, slot0.detailItemList)
 		end
 
-		for slot16 = 1, #slot7 do
-			updateDrop(slot0.detailItemList:GetChild(slot16 - 1), slot7[slot16])
+		for slot17 = 1, #slot7 do
+			updateDrop(slot0.detailItemList:GetChild(slot17 - 1), slot7[slot17])
 
-			slot18, slot19 = contentWrap(slot7[slot16].cfg.name, 8, 2)
+			slot19, slot20 = contentWrap(slot7[slot17].cfg.name, 8, 2)
 
-			if slot18 then
-				slot19 = slot19 .. "..."
+			if slot19 then
+				slot20 = slot20 .. "..."
 			end
 
-			setText(slot17:Find("name"), slot19)
-			onButton(slot0, slot17, function ()
+			setText(slot18:Find("name"), slot20)
+			onButton(slot0, slot18, function ()
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					hideNo = true,
 					type = MSGBOX_TYPE_SINGLE_ITEM,
@@ -947,7 +986,7 @@ function slot0.bindDetailTF(slot0, slot1)
 	slot0.detailWindow = slot1
 	slot0.detailName = slot0:findTF("goods/name", slot0.detailWindow)
 	slot0.detailIcon = slot0:findTF("goods/icon", slot0.detailWindow)
-	slot0.detailIconTF = slot0.detailIcon:GetComponent(typeof(Image))
+	slot0.detailExtraDrop = slot0.detailWindow:Find("goods/extra_drop")
 	slot0.detailRmb = slot0:findTF("prince_bg/contain/icon_rmb", slot0.detailWindow)
 	slot0.detailGem = slot0:findTF("prince_bg/contain/icon_gem", slot0.detailWindow)
 	slot0.detailPrice = slot0:findTF("prince_bg/contain/Text", slot0.detailWindow)
@@ -965,13 +1004,13 @@ function slot0.bindDetailTF(slot0, slot1)
 	slot0.detailContain = slot0:findTF("container", slot0.detailWindow)
 
 	if slot0.detailContain then
-		slot0.extra = slot0:findTF("container/items", slot0.detailWindow)
-		slot0.detailTip2 = slot0:findTF("Text", slot0.extra)
-		slot0.detailItemList = slot0:findTF("scrollview/list", slot0.extra)
-		slot0.normal = slot0:findTF("container/normal_items", slot0.detailWindow)
-		slot0.detailTip = slot0:findTF("Text", slot0.normal)
-		slot0.detailItem = slot0:findTF("item_tpl", slot0.normal)
-		slot0.detailDescExtra = slot0:findTF("container/Text", slot0.detailWindow)
+		slot0.normal = slot0.detailContain:Find("normal_items")
+		slot0.detailTip = slot0.normal:Find("Text")
+		slot0.detailItem = slot0.normal:Find("item_tpl")
+		slot0.extra = slot0.detailContain:Find("items")
+		slot0.extraTip = slot0.extra:Find("Text")
+		slot0.detailItemList = slot0.extra:Find("scrollview/list")
+		slot0.extraDesc = slot0.detailContain:Find("Text")
 	end
 
 	slot0.detailNormalTip = slot0:findTF("NormalTips", slot0.detailWindow)
