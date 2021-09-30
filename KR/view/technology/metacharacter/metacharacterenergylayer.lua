@@ -350,7 +350,7 @@ end
 function slot0.updatePreviewAttrListPanel(slot0)
 	slot2 = slot0.curMetaCharacterVO
 	slot4 = Clone(slot0.curShipVO)
-	slot4.level = 120
+	slot4.level = 125
 	slot6 = intProperties(slot4:getMetaCharacter():getFinalAddition(slot4))
 
 	slot0.previewAttrUIItemList:make(function (slot0, slot1, slot2)

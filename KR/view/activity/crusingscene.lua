@@ -183,38 +183,8 @@ function slot0.didEnter(slot0)
 			uv0.velocity = uv0.velocity
 		end
 	end)
-
-	function slot7()
-	end
-
-	function slot8(slot0, slot1, slot2, slot3, slot4)
-		slot5 = nil
-
-		for slot10 = slot3, slot4, slot4 < slot3 and -1 or 1 do
-			if uv0.phasePos[slot10] < slot0 or slot1(uv0.awardList[slot10]) then
-				return slot5
-			elseif slot2(slot11) then
-				slot5 = slot10
-			end
-		end
-
-		return slot5
-	end
-
 	slot0:onScroll(slot0.comScroll, function (slot0)
-		if not uv0.phasePos then
-			return
-		end
-
-		if uv0.nextAward ~= (uv1(slot0.y + uv0.phasePos[#uv0.phasePos] - 1, function (slot0)
-			return slot0.pt <= uv0.pt
-		end, function (slot0)
-			return slot0.isImportent
-		end, #uv0.awardList - 1, 1) or #uv0.awardList) then
-			uv0.nextAward = slot2
-
-			uv0:updateAwardInfo(uv0.rtNextAward, uv0.awardList[slot2])
-		end
+		uv0:updateNextAward(slot0.y)
 	end)
 	slot0:updateAwardPanel()
 	slot0:buildPhaseAwardScrollPos()
@@ -353,6 +323,7 @@ function slot0.updateAwardPanel(slot0)
 	slot0.nextAward = nil
 
 	slot0.comScroll:SetTotalCount(#slot0.awardList - 1)
+	slot0:updateNextAward(slot0.comScroll.value)
 	setActive(slot0.btnAll, not slot0.isPay and slot0.activity:readyToAchieve())
 	setActive(slot0.btnPay, not slot0.isPay)
 	setActive(slot0.rtAward:Find("text_image_3"), not slot0.isPay)
@@ -455,6 +426,26 @@ function slot0.onScroll(slot0, slot1, slot2)
 	slot3:RemoveAllListeners()
 	pg.DelegateInfo.Add(slot0, slot3)
 	slot3:AddListener(slot2)
+end
+
+function slot0.updateNextAward(slot0, slot1)
+	if not slot0.phasePos then
+		return
+	end
+
+	for slot7 = #slot0.awardList - 1, 1, -1 do
+		if slot0.phasePos[slot7] < slot1 + slot0.phasePos[#slot0.phasePos] - 1 or slot0.awardList[slot7].pt <= slot0.pt then
+			break
+		elseif slot8.isImportent then
+			slot3 = slot7
+		end
+	end
+
+	if slot0.nextAward ~= slot3 then
+		slot0.nextAward = slot3
+
+		slot0:updateAwardInfo(slot0.rtNextAward, slot0.awardList[slot3])
+	end
 end
 
 function slot0.showWindow(slot0)

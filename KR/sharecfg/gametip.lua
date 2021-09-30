@@ -15859,101 +15859,101 @@ cs.gametip = {
 	},
 	battlepass_main_tip = {
 		569825,
-		251,
+		253,
 		true
 	},
 	battlepass_main_time = {
-		570076,
+		570078,
 		89,
 		true
 	},
 	battlepass_main_help = {
-		570165,
+		570167,
 		3449,
 		true
 	},
 	cruise_task_help = {
-		573614,
+		573616,
 		1412,
 		true
 	},
 	cruise_task_phase = {
-		575026,
+		575028,
 		94,
 		true
 	},
 	cruise_task_tips = {
-		575120,
+		575122,
 		81,
 		true
 	},
 	battlepass_task_quickfinish1 = {
-		575201,
+		575203,
 		280,
 		true
 	},
 	battlepass_task_quickfinish2 = {
-		575481,
+		575483,
 		192,
 		true
 	},
 	battlepass_task_quickfinish3 = {
-		575673,
+		575675,
 		106,
 		true
 	},
 	cruise_task_unlock = {
-		575779,
+		575781,
 		133,
 		true
 	},
 	cruise_task_week = {
-		575912,
+		575914,
 		79,
 		true
 	},
 	battlepass_pay_timelimit = {
-		575991,
+		575993,
 		89,
 		true
 	},
 	battlepass_pay_acquire = {
-		576080,
+		576082,
 		95,
 		true
 	},
 	battlepass_pay_attention = {
-		576175,
+		576177,
 		155,
 		true
 	},
 	battlepass_acquire_attention = {
-		576330,
+		576332,
 		190,
 		true
 	},
 	battlepass_pay_tip = {
-		576520,
+		576522,
 		112,
 		true
 	},
 	battlepass_main_tip1 = {
-		576632,
+		576634,
 		365,
 		true
 	},
 	battlepass_main_tip2 = {
-		576997,
+		576999,
 		298,
 		true
 	},
 	battlepass_main_tip3 = {
-		577295,
+		577297,
 		355,
 		true
 	},
 	battlepass_complete = {
-		577650,
+		577652,
 		94,
 		true
 	}
