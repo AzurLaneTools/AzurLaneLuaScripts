@@ -175,7 +175,7 @@ function slot0.flushCollection(slot0, slot1)
 				})
 			end
 
-			if slot2.maxLV < slot1.level and slot1.level == TechnologyConst.MAX_LV then
+			if slot2.maxLV < slot1.level and TechnologyConst.SHIP_LEVEL_FOR_BUFF <= slot1.level then
 				slot3 = true
 
 				pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {

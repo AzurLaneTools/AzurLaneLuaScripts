@@ -49,26 +49,24 @@ function slot0.execute(slot0, slot1)
 				table.insert(slot3, slot11.id)
 			end
 
-			slot7 = getProxy(PlayerProxy)
-			slot8 = slot7:getData()
-
-			slot8:addResources({
+			getProxy(PlayerProxy):getData():addResources({
 				gold = slot4,
 				oil = slot5
 			})
 
-			slot9 = {
-				{
-					id = 1,
-					type = DROP_TYPE_RESOURCE,
-					count = slot4
-				},
-				{
+			if slot5 > 0 then
+				table.insert({
+					{
+						id = 1,
+						type = DROP_TYPE_RESOURCE,
+						count = slot4
+					}
+				}, {
 					id = 2,
 					type = DROP_TYPE_RESOURCE,
 					count = slot5
-				}
-			}
+				})
+			end
 
 			slot7:updatePlayer(slot8)
 
