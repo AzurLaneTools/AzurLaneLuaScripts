@@ -14877,7 +14877,12 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		use_gold = 4000,
 		name = "Modernization",
 		star_limit = 5,
-		descrip = "",
+		descrip = [[
+After modernization is complete:
+<color=#92fc63>Torpedo base -1</color>,
+<color=#92fc63>Main Gun base +1</color>,
+<color=#92fc63>Nightmare of Solomon</color> will change to <color=#92fc63>Nightmare of Solomon+</color>,
+<color=#92fc63>All Out Assault II</color> will change to <color=#92fc63>All Out Assault III</color>.]],
 		max_level = 1,
 		skin_id = 301149,
 		use_ship = 1,
