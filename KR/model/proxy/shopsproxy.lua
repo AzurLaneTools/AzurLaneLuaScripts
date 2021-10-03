@@ -35,6 +35,13 @@ function slot0.register(slot0)
 
 	slot0.timers = {}
 	slot0.tradeNoPrev = ""
+	slot0.freeGiftIdList = {}
+
+	for slot5, slot6 in pairs(pg.shop_template.all) do
+		if slot1[slot6].genre == "gift_package" and slot1[slot6].discount == 100 then
+			table.insert(slot0.freeGiftIdList, slot6)
+		end
+	end
 end
 
 function slot0.setShopStreet(slot0, slot1)
@@ -92,6 +99,32 @@ function slot0.updateNormalByID(slot0, slot1)
 	slot0.normalList[slot1.id] = slot1
 end
 
+function slot0.checkHasFreeNormal(slot0)
+	for slot4, slot5 in ipairs(slot0.freeGiftIdList) do
+		if slot0:checkNormalCanPurchase(slot5) then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.checkNormalCanPurchase(slot0, slot1)
+	if slot0.normalList[slot1] ~= nil then
+		if not slot0.normalList[slot1]:inTime() then
+			return false
+		end
+
+		if (slot2:getConfig("group") or 0) > 0 then
+			return slot2:getConfig("group_limit") > 0 and slot0:getGroupLimit(slot3) < slot4
+		elseif slot2:canPurchase() then
+			return true
+		end
+	else
+		return slot0:GetNormalByID(slot1):inTime()
+	end
+end
+
 function slot0.setNormalGroupList(slot0, slot1)
 	slot0.normalGroupList = slot1
 end
@@ -117,6 +150,20 @@ function slot0.updateNormalGroupList(slot0, slot1, slot2)
 		shop_id = slot1,
 		pay_count = slot2
 	})
+end
+
+function slot0.getGroupLimit(slot0, slot1)
+	if not slot0.normalGroupList then
+		return 0
+	end
+
+	for slot5, slot6 in ipairs(slot0.normalGroupList) do
+		if slot6.shop_id == slot1 then
+			return slot6.pay_count
+		end
+	end
+
+	return 0
 end
 
 function slot0.addActivityShops(slot0, slot1)
