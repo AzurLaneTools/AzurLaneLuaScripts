@@ -16611,5 +16611,10 @@ cs.gametip = {
 		562985,
 		112,
 		true
+	},
+	shop_free_tag = {
+		563097,
+		72,
+		true
 	}
 }

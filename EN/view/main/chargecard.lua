@@ -10,7 +10,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.count = slot0.tr:Find("real_tpl/count")
 	slot0.resIcon = slot0.tr:Find("real_tpl/count/icon"):GetComponent(typeof(Image))
 	slot0.resCount = slot0.tr:Find("real_tpl/count/Text"):GetComponent(typeof(Text))
-	slot0.price = slot0.tr:Find("real_tpl/prince_bg/contain/Text"):GetComponent(typeof(Text))
+	slot0.priceTf = slot0.tr:Find("real_tpl/prince_bg/contain/Text")
+	slot0.price = slot0.priceTf:GetComponent(typeof(Text))
+	slot0.freeTag = slot0.tr:Find("real_tpl/prince_bg/contain/FreeText")
 	slot0.contain = slot0.tr:Find("real_tpl/prince_bg/contain")
 	slot0.rmb = slot0.tr:Find("real_tpl/prince_bg/contain/icon_rmb")
 	slot0.gem = slot0.tr:Find("real_tpl/prince_bg/contain/icon_gem")
@@ -49,7 +51,10 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	setActive(slot0.desc, true)
 	setText(slot0.desc, "")
 	setActive(slot0.rmb, slot1:isChargeType())
-	setActive(slot0.gem, not slot1:isChargeType())
+	setActive(slot0.gem, not slot1:isChargeType() and not slot1:isFree())
+	setText(slot0.freeTag, i18n("shop_free_tag"))
+	setActive(slot0.freeTag, slot1:isFree())
+	setActive(slot0.priceTf, not slot1:isFree())
 	setActive(slot0.icon, slot1:isChargeType())
 	setActive(slot0.contain, true)
 	setActive(slot0.countDown, false)
@@ -87,7 +92,7 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 
 	slot7, slot8 = slot1:inTime()
 
-	if slot7 and slot8 and slot8 > 0 then
+	if slot7 and not slot1:isFree() and slot8 and slot8 > 0 then
 		slot9, slot10, slot11 = pg.TimeMgr.GetInstance():parseTimeFrom(slot8)
 
 		if slot9 > 0 then
@@ -242,7 +247,7 @@ function slot0.updateGemItem(slot0, slot1, slot2)
 
 	slot7, slot8 = slot1:inTime()
 
-	if slot7 and slot8 and slot8 > 0 then
+	if slot7 and not slot1:isFree() and slot8 and slot8 > 0 then
 		slot9, slot10, slot11 = pg.TimeMgr.GetInstance():parseTimeFrom(slot8)
 
 		if slot9 > 0 then

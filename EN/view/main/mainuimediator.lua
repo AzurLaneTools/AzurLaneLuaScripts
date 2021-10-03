@@ -539,7 +539,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.ZERO_HOUR_OP_DONE,
 		GAME.GET_GUILD_INFO_DONE,
 		GAME.GUILD_GET_USER_INFO_DONE,
-		GAME.GET_PUBLIC_GUILD_USER_DATA_DONE
+		GAME.GET_PUBLIC_GUILD_USER_DATA_DONE,
+		GAME.SHOPPING_DONE
 	}
 
 	for slot5, slot6 in pairs(slot0.viewComponent.redDotHelper:GetNotifyType()) do
@@ -683,6 +684,8 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.GUILD_GET_USER_INFO_DONE or slot2 == GAME.GET_PUBLIC_GUILD_USER_DATA_DONE then
 		slot0.viewComponent:updatePlayerInfo(getProxy(PlayerProxy):getData())
+	elseif slot2 == GAME.SHOPPING_DONE then
+		slot0.viewComponent:checkGreeGiftTag()
 	end
 end
 

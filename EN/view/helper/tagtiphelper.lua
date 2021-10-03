@@ -80,4 +80,24 @@ function slot0.MonthCardTagTip(slot0)
 	triggerToggle(slot0, MonthCardOutDateTipPanel.GetShowMonthCardTag())
 end
 
+function slot0.FreeGiftTag(slot0)
+	if not getProxy(ShopsProxy):getChargedList() then
+		pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
+			callback = function ()
+				if _.all(uv0, function (slot0)
+					return not IsNil(slot0)
+				end) then
+					for slot3, slot4 in ipairs(uv0) do
+						setActive(slot4, uv1:checkHasFreeNormal())
+					end
+				end
+			end
+		})
+	else
+		for slot6, slot7 in ipairs(slot0) do
+			setActive(slot7, slot1:checkHasFreeNormal())
+		end
+	end
+end
+
 return slot0
