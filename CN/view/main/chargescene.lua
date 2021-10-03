@@ -81,6 +81,9 @@ function slot0.init(slot0)
 	slot0.itemToggle = slot0:findTF("toggle_list/item_toggle", slot0.viewContainer)
 	slot0.giftToggle = slot0:findTF("toggle_list/gift_toggle", slot0.viewContainer)
 	slot0.diamondToggle = slot0:findTF("toggle_list/diamond_toggle", slot0.viewContainer)
+	slot0.giftShop = slot0:findTF("gift_shop", slot0.menu)
+	slot0.manuGiftTip = slot0:findTF("tip", slot0.giftShop)
+	slot0.giftTip = slot0:findTF("tip", slot0.giftToggle)
 	slot0.resPanel = PlayerResource.New()
 
 	slot0.resPanel:setParent(slot0:findTF("res", slot0.top), false)
@@ -167,7 +170,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("item_shop", slot0.menu), function ()
 		uv0:switchPage(uv1.TYPE_ITEM)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("gift_shop", slot0.menu), function ()
+	onButton(slot0, slot0.giftShop, function ()
 		uv0:switchPage(uv1.TYPE_GIFT)
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("supply_shop", slot0.menu), function ()
@@ -619,6 +622,12 @@ function slot0.sortDamondItems(slot0, slot1)
 		slot7 = 0
 		slot8 = nil
 
+		if slot0:isFree() then
+			return true
+		elseif slot1:isFree() then
+			return false
+		end
+
 		if slot0:isChargeType() and slot0:isMonthCard() and uv0.player:getCardById(VipCard.MONTH) then
 			slot6 = math.floor((slot9:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400) > (slot0:getConfig("limit_arg") or 0) and 1 or 0
 		end
@@ -819,6 +828,10 @@ function slot0.initItems(slot0)
 end
 
 function slot0.sortItems(slot0)
+	if slot0.itemRect == nil then
+		return
+	end
+
 	table.sort(slot0.itemVOs, function (slot0, slot1)
 		slot2 = slot0:isLevelLimit(uv0.player.level) and 1 or 0
 		slot3 = slot1:isLevelLimit(uv0.player.level) and 1 or 0
@@ -1421,6 +1434,13 @@ function slot0.activeUserAgree(slot0, slot1, slot2)
 	else
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.userAgreeContainer, slot0.frame)
 	end
+end
+
+function slot0.checkFreeGiftTag(slot0)
+	TagTipHelper.FreeGiftTag({
+		slot0.manuGiftTip,
+		slot0.giftTip
+	})
 end
 
 return slot0
