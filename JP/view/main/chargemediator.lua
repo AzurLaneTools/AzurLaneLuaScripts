@@ -15,6 +15,7 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GET_CHARGE_LIST)
 	end)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+	slot0.viewComponent:checkFreeGiftTag()
 	slot0:bind(uv0.SWITCH_TO_SHOP, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1)
 	end)
@@ -131,6 +132,8 @@ function slot0.handleNotification(slot0, slot1)
 				slot0.viewComponent:sortItems()
 			end
 		end
+
+		slot0.viewComponent:checkFreeGiftTag()
 	elseif slot2 == GAME.USE_ITEM_DONE then
 		if table.getCount(slot3) ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
@@ -163,6 +166,8 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:setItemVOs()
 			slot0.viewComponent:sortItems()
 		end
+
+		slot0.viewComponent:checkFreeGiftTag()
 	elseif slot2 == GAME.CLICK_MING_SHI_SUCCESS then
 		slot0.viewComponent:playHeartEffect()
 	elseif slot2 == PlayerResource.GO_MALL then

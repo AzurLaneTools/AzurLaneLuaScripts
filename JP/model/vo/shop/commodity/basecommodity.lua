@@ -42,6 +42,10 @@ function slot0.hasDiscount(slot0)
 	return slot0.discount < 100
 end
 
+function slot0.isFree(slot0)
+	return slot0:getConfig("discount") == 100
+end
+
 function slot0.isDisCount(slot0)
 	return false
 end
