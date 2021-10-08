@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "level",
 			dir = 1,
-			say = "发现一批正在向我们接近的重樱机群，规模比之前的袭击更大。",
+			say = "發現一批正在向我們接近的重櫻機群，規模比之前的襲擊更大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来对面不打算轻易放我们回去啊…",
+			say = "看來對面不打算輕易放我們回去啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "也许在现在的对手眼里，落单的我们相比主力舰队在作为目标上有着更高的吸引力吧。",
+			say = "也許在現在的對手眼裡，落單的我們相比主力艦隊在作為目標上有著更高的吸引力吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "击退第一波袭击之后就隐约感觉会变成这样了......",
+			say = "擊退第一波襲擊之後就隱約感覺會變成這樣了......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "虽然战场上的经验不多，但判断却十分准确呢",
+			say = "雖然戰場上的經驗不多，但判斷卻十分準確呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "洞悉了敌人的心态，她们的意图和行动就能自然地推理出来——这也是我从萨拉托加前辈那里学到的。",
+			say = "洞悉了敵人的心態，她們的意圖和行動就能自然地推理出來——這也是我從薩拉托加前輩那裡學到的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,23 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过很明显，这波袭击已经不是仅凭我们就能解决的量了，对面的重樱航母是认真想要消灭我们。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			nameColor = "#a9f548",
-			side = 2,
-			actor = 107230,
-			dir = 1,
-			say = "立刻向企业求援。企业和埃塞克斯们现在应该会非常乐意出动航空队帮我们解决问题。",
+			say = "不過很明顯，這波襲擊已經不是僅憑我們就能解決的量了，對面的重櫻航母是認真想要消滅我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +120,23 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "在援军到来之前大家坚持住。我现在开始进行迎击准备。里诺，伯明翰，援护就拜托了！",
+			say = "立刻向企業求援。企業和艾塞克斯們現在應該會非常樂意出動航空隊幫我們解決問題。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#a9f548",
+			side = 2,
+			actor = 107230,
+			dir = 1,
+			say = "在援軍到來之前大家堅持住。我現在開始進行迎擊準備。雷諾，伯明罕，援護就拜託了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actorName = "里诺&伯明翰",
-			say = "交给我吧！\n明白。",
+			say = "交給我吧！ 明白。",
 			subActors = {
 				{
 					actor = 102230,

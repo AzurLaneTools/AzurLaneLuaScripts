@@ -9,7 +9,7 @@ return {
 			actor = 102260,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "普林斯顿，刚刚的战斗实在太帅了...你好厉害啊！",
+			say = "普林斯頓，剛剛的戰鬥實在太帥了...妳好厲害啊！",
 			dir = 1,
 			bgm = "battle-boss-1",
 			typewriter = {
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰载机攻击的精确度很高，进攻的时机也掌握得刚刚好。完全不像是新型航母会有的战斗经验呢！",
+			say = "艦載機攻擊的精確度很高，進攻的時機也掌握得剛剛好。完全不像是新型航母會有的戰鬥經驗呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "……那是因为我有一个好老师。",
+			say = "……那是因為我有一個好老師。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "好老师是指……？",
+			say = "好老師是指……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "萨拉托加前辈。我在来到这里之前，曾经和萨拉托加前辈共同战斗过一段时间。",
+			say = "薩拉托加前輩。我在來到這裡之前，曾經和薩拉托加前輩共同戰鬥過一段時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "我的战斗技巧也基本都是萨拉托加前辈传授的。",
+			say = "我的戰鬥技巧也基本都是薩拉托加前輩傳授的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "在我看来，前辈的战斗技巧甚至能称为战斗艺术。没有亲眼见识过的话，是绝对想象不到前辈有多厉害的。",
+			say = "在我看來，前輩的戰鬥技巧甚至能稱為戰鬥藝術。沒有親眼見識過的話，是絕對想像不到前輩有多厲害的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她虽然平时看起来爱玩，其实在战场上她对局势的把握能力绝对是顶尖的。而且————",
+			say = "她雖然平時看起來愛玩，其實在戰場上她對局勢的把握能力絕對是頂尖的。而且————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 107230,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "更不要说她本身对于舰载机的操控能力绝对是我所见过————",
+			say = "更不要說她本身對於艦載機的操控能力絕對是我所見過————",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些优点只占其中一样，都已经可以说是非常出色的航母了，但是前辈————",
+			say = "這些優點只佔其中一樣，都已經可以說是非常出色的航母了，但是前輩————",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -225,7 +225,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "一段时间之后",
+			say = "一段時間之後",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（完全没有插话的空间.......）",
+			say = "（完全沒有插話的空間.......）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "啊！抱歉...每次谈到萨拉托加前辈的时候都会不由自主的有些激动…",
+			say = "啊！抱歉...每次談到薩拉托加前輩的時候都會不由自主的有些激動…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "没关系没关系，你对萨拉托加小姐的崇拜，我已经深深地感受到了哦！",
+			say = "沒關係沒關係，妳對薩拉托加小姐的崇拜，我已經深深地感受到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能和心目中的英雄并肩作战，还能得到她的指导……没有什么能比这更让人幸福的了！",
+			say = "能和心目中的英雄並肩作戰，還能得到她的指導.....沒有什麼能比這更讓人幸福的了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 107230,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们能理解的话真是太好了！",
+			say = "妳們能理解的話真是太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "普林斯顿，感觉和蒙彼利埃有些像......",
+			say = "普林斯頓，感覺和蒙彼利埃有些像......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "在“非常崇拜某人”这一点上呢。嗯...？大姐头发来了通讯。",
+			say = "在“非常崇拜某人”這一點上呢。嗯...？大姐頭發來了通訊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不好，重樱舰队突然对我们发动了空袭，战斗开始了！",
+			say = "不好，重櫻艦隊突然對我們發動了空襲，戰鬥開始了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

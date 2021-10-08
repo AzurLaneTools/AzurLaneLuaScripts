@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-2",
 			dir = 1,
-			say = "这些舰载机，比之前难缠好多，而且数量也...这么下去不妙。",
+			say = "這些艦載機，比之前難纏好多，而且數量也...這麼下去不妙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "大家注意，又有航空编队正在向我们接近了哦！",
+			say = "大家注意，又有航空編隊正在向我們接近了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "不会吧，重樱把全部航空力量都集中过来了么......",
+			say = "不會吧，重櫻把全部航空力量都集中過來了麼......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉享受了整个战场的SuperVip待遇呢~",
+			say = "感覺享受了整個戰場的SuperVip待遇呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那还真是荣幸......",
+			say = "那還真是榮幸......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "不对，正在接近的好像是我们的战斗机群......已经开始从侧面向重樱编队发动攻击了！",
+			say = "不對，正在接近的好像是我們的戰鬥機群......已經開始從側面向重櫻編隊發動攻擊了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "原来是友军啊。呼......太好了。",
+			say = "原來是友軍啊。呼......太好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虚惊一场啊，Nice支援！",
+			say = "虛驚一場啊，Nice支援！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "里诺、伯明翰、普林斯顿、你们都没事吧！抱歉，我们来迟了！",
+			say = "雷諾、伯明罕、普林斯頓，妳們都沒事吧！抱歉，我們來遲了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业收到你们的联络之后，一边派出了支援的航空编队，一边让我们来接应你们回去、",
+			say = "企業收到妳們的聯絡之後，一邊派出了支援的航空編隊，一邊讓我們來接應妳們回去、",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "支援来得真是太及时了，不过企业那边不要紧么？",
+			say = "支援來得真是太及時了，不過企業那邊不要緊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			actor = 102090,
 			dir = 1,
-			say = "嘿嘿，不用担心，那边的战斗已经基本接近尾声了，企业甚至说“比预想中的还要轻松”。",
+			say = "嘿嘿，不用擔心，那邊的戰鬥已經基本接近尾聲了，企業甚至說“比預想中的還要輕鬆”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以我们只好来这里活动一下咯。",
+			say = "所以我們只好來這裡活動一下囉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "那我们这边也要加油了。大家一起努力，消灭来袭的敌人吧！",
+			say = "那我們這邊也要加油了。大家一起努力，消滅來襲的敵人吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

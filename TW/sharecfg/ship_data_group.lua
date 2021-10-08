@@ -4601,6 +4601,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[473] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 6,
+		nationality = 1,
+		handbook_type = 0,
+		index_id = 117,
+		code = 473,
+		group_type = 10723,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：劃破海空之翼",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[403] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -16213,6 +16244,7 @@ pg.ship_data_group = {
 		442,
 		380,
 		377,
+		473,
 		403,
 		378,
 		516,

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			dir = 1,
-			say = "{namecode:96}，{namecode:97}刚刚被一枚鱼雷命中，不过没受到太大损伤，很快就能继续战斗了。",
+			say = "瑞鶴，大鳳剛剛被一枚魚雷命中，不過沒受到太大損傷，很快就能繼續戰鬥了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "白鹰的潜艇居然已经摸到这么近的地方来了...{namecode:95}姐，让驱逐编队加强反潜警戒。",
+			say = "白鷹的潛艇居然已經摸到這麼近的地方來了...翔鶴姐，讓驅逐編隊加強反潛警戒！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯，已经安排了哦。{namecode:97}在遇袭之前发现了一支正在破坏我们机场的落单白鹰小队，你觉得怎么样？",
+			say = "嗯，已經安排了哦。大鳳在遇襲之前發現了一支正在破壞我們機場的落單白鷹小隊，妳覺得怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "作为目标来说真是再合适不过了！{namecode:95}姐，我们来继续发动攻击吧！",
+			say = "作為目標來說真是再合適不過了！翔鶴姐，我們來繼續發動攻擊吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呵呵，正合我意。就将这首安魂曲送给你们吧，白鹰的舰艇们~",
+			say = "呵呵，正合我意！就將這首安魂曲送給白鷹的艦艇們吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			say = "塞潘岛西侧海域 普林斯顿舰队",
+			say = "塞班島西側海域 普林斯頓艦隊",
 			side = 2,
 			bgName = "bg_map_maliyana",
 			dir = 1,
@@ -131,7 +131,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伯明翰，刚才你说我和蒙彼利埃比较像是么...？",
+			say = "伯明罕，剛才妳說我和蒙彼利埃比較像是嗎...？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 102230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊...！那个只是随口一说，你不用在意。",
+			say = "啊...！那個只是隨口一說，妳不用在意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我不是那个意思，你应该也知道，本来我也有可能成为克利夫兰级的一员。",
+			say = "我不是那個意思，妳應該也知道，本來我也有可能成為克里夫蘭級的一員。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "仔细想了想，我现在对克利夫兰级的各位都还不太了解呢，你能向我介绍一下么？",
+			say = "仔細想了想，我現在對克里夫蘭級的各位都還不太了解呢，妳能向我介紹一下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 102230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔......全部介绍起来可是要稍微花一些时间哦？",
+			say = "唔......全部介紹起來可是要稍微花一些時間哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 102230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "首先是我们的大姐头，克利夫兰。永远被阳光和自信所包围着，见过她帅气身姿的人都会留下深刻的印象。",
+			say = "首先是我們的大姐頭，克里夫蘭。永遠被陽光和自信所包圍著，見過她帥氣身姿的人都會留下深刻的印象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，本次作战中，克利夫兰也给我留下了深刻的印象。",
+			say = "嗯，本次作戰中，克里夫蘭也給我留下了深刻的印象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 102230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈哈，对吧~然后是二姐哥伦比亚，她比起大姐来要更随性一些，而且总是泡泡糖不离身。",
+			say = "然後是哥倫比亞，她比起大姐來要更隨性一些，而且總是泡泡糖不離身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 102230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "蒙彼利埃的话，你之前也见到过了。她非常崇拜大姐头，一直以大姐头为目标，追随着大姐头的脚步前行。",
+			say = "蒙彼利埃的話，妳之前也見到過了。她非常崇拜大姐頭，一直以大姐頭為目標，追隨著大姐頭的腳步前行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（蒙彼利埃是以克利夫兰为目标，追随着克利夫兰的脚步前行，我的话，就是萨拉托加前辈了吧...）",
+			say = "（蒙彼利埃是以克里夫蘭為目標，追隨著克里夫蘭的腳步前行，我的話，就是薩拉托加前輩了吧...）",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（呵呵，这么看来，应该真的和她很聊得来呢。）",
+			say = "（呵呵，這麼看來，應該真的和她很聊得來呢。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

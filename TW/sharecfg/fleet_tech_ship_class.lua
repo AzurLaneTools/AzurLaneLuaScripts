@@ -399,6 +399,7 @@ pg.fleet_tech_ship_class = {
 		t_level = 4,
 		ships = {
 			10722,
+			10723,
 			10729
 		}
 	},

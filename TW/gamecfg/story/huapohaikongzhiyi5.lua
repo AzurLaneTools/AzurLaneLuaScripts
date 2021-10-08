@@ -11,7 +11,7 @@ return {
 			actor = 107230,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，这座岛屿的机场彻底陷入瘫痪，我们该返回主力舰队了。",
+			say = "很好，這座島嶼的機場徹底陷入癱瘓，我們該返回主力艦隊了。",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？这是？！",
+			say = "嗯？這是？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，普林斯顿？",
+			say = "怎麼了，普林斯頓？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "重樱的舰载机群好像发现我们了！大家准备迎击！",
+			say = "重櫻的艦載機群好像發現我們了！大家準備迎擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "以重樱现在的实力，居然还有功夫分兵作战么...",
+			say = "以重櫻現在的實力，居然還有功夫分兵作戰嗎...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "普林斯顿，伯明翰，Fight on！",
+			say = "普林斯頓，伯明罕，Fight on！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			actor = 307070,
 			dir = 1,
-			say = "至少，如果能拿下你们的话......",
+			say = "至少，如果能拿下妳們的話.....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			actor = 107230,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前方发现了小股重樱舰队，应该是岛屿的驻防舰队吧。",
+			say = "前方發現了小股重櫻艦隊，應該是島嶼的駐防艦隊吧。",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么办，要上么，普林斯顿？",
+			say = "怎麼辦，要上嗎，普林斯頓？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "周边没有发现其他敌人，也没有收到重樱主力舰队的情报……嗯，把它们吃下吧。",
+			say = "周邊沒有發現其他敵人，也沒有收到重櫻主力艦隊的情報......嗯，把它們吃下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解，伯明翰，准备进行战斗。",
+			say = "了解。伯明罕，準備進行戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们上吧，It's Rino time！",
+			say = "我們上吧，It's Rino time！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

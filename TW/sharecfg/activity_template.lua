@@ -8994,7 +8994,7 @@ pg.activity_template = {
 				{
 					2021,
 					10,
-					27
+					7
 				},
 				{
 					23,
@@ -10306,6 +10306,257 @@ pg.activity_template = {
 					2021,
 					10,
 					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40440] = {
+		mark = 20211008,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_40440",
+		id = 40440,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "Rate Up characters: Glorious, Princeton and more",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%",
+				"<color=#d797ff>Glorious</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Princeton</color>：1.4%(<color=#92fc63>up!</color>)",
+				"<color=#3dc6ff>Acasta</color>：5.0%(<color=#92fc63>up!</color>)",
+				"<color=#3dc6ff>Ardent</color>：5.0%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[40441] = {
+		mark = 20211008,
+		time = "stop",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_40441",
+		title_res_tag = "",
+		id = 40441,
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "Rate Up characters: Princeton",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%",
+				"<color=#d797ff>Princeton</color>：1.4%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[40442] = {
+		mark = 20211008,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 40442,
+		config_data = {
+			1420001,
+			1420002,
+			1420003
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp15"
+		}
+	},
+	[40443] = {
+		mark = 20211008,
+		id = 40443,
+		title_res_tag = "Princeton_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 40443,
+		is_show = 25,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "PrincetonPtPage",
+			ui_name = "PrincetonPtPage"
+		},
+		config_client = {
+			linkActID = 40442
+		}
+	},
+	[40444] = {
+		mark = 20211008,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 172,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		id = 40444,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40445] = {
+		mark = 20211008,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40445,
+		config_data = {
+			15986,
+			15987,
+			15988,
+			15989,
+			15990,
+			15991
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					21
 				},
 				{
 					23,
@@ -11640,6 +11891,12 @@ pg.activity_template = {
 		40436,
 		40437,
 		40438,
+		40440,
+		40441,
+		40442,
+		40443,
+		40444,
+		40445,
 		45000,
 		45001,
 		45002,

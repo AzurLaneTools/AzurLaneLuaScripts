@@ -9,7 +9,7 @@ return {
 			actor = 307060,
 			side = 2,
 			nameColor = "#ff5c5c",
-			say = "{namecode:95}姐！",
+			say = "翔鶴姐！",
 			dir = 1,
 			bgm = "battle-boss-2",
 			effects = {
@@ -42,7 +42,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "对不起，{namecode:96}。接下来的战斗，姐姐不能再陪着你了…",
+			say = "對不起，瑞鶴。接下來的戰鬥，姐姐不能再陪著妳了…",
 			effects = {
 				{
 					active = false,
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "至少你能平安无事的话......",
+			say = "至少妳能平安無事的話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "可恶......为什么会这样........",
+			say = "可惡…為什麼會這樣…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "可恶..........！！！！！",
+			say = "可惡…！ ！ ！ ！ ！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "普林斯顿，你们那边也已经解决了么？",
+			say = "普林斯頓，妳們那邊也已經解決了嗎？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "多亏大部队及时的增援，现在天空中已经没有重樱舰载机的踪影了。",
+			say = "多虧大部隊及時的增援，現在天空中已經沒有重櫻艦載機的蹤影了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了，你们这边也顺利解决了么。我们这边也是，以轻微的代价击退了敌人的数次进攻，可以认为，这次重樱的行动已经完全失败了。",
+			say = "太好了，妳們這邊也順利解決了嗎。我們這邊也是，以輕微的代價擊退了敵人的數次進攻，可以認為，這次重櫻的行動已經完全失敗了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 102230,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然会这么顺利...太好了！",
+			say = "居然會這麼順利...太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "稍早时候的捷报也传来了，我们的潜艇成功命中了另一艘重樱的航母。再加上战斗机编队的折损率，应该足够对面慌乱好一阵了。",
+			say = "稍早時候的捷報也傳來了，我們的潛艇成功命中了另一艘重櫻的航母。再加上戰鬥機編隊的折損率，應該足夠對面慌亂好一陣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来总算能暂时歇口气了…大家都辛苦了！",
+			say = "看來總算能暫時歇口氣了…大家都辛苦了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "接下来，司令部就会命令我们乘胜追击了吧。",
+			say = "接下來，司令部就會命令我們乘勝追擊了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。敌人的航空编队已经构不成威胁，现在天空已经属于我们了。",
+			say = "沒錯。敵人的航空編隊已經構不成威脅，現在天空已經屬於我們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后，司令部肯定会将方针由防御转变为进攻，进而发动新的战役了吧。",
+			say = "今後，司令部肯定會將方針由防禦轉變為進攻，進而發動新的戰役了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "这次真是一次精彩的战役......如果萨拉托加前辈也能看到就好了.....",
+			say = "這次真是一次精彩的戰役...如果薩拉托加前輩也能看到就好了...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，等战役彻底结束之后，你亲自把过程讲给她听嘛~",
+			say = "嘿嘿，等戰役徹底結束之後，妳親自把過程講給她聽嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			actor = 102090,
 			dir = 1,
-			say = "告诉她你如何的英勇地与敌机搏斗，以及她错过了一场多么精彩的战役~",
+			say = "告訴她妳如何的英勇的與敵機搏鬥，以及她錯過了一場多麼精彩的戰役~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，就这么办吧！",
+			say = "嗯，就這麼辦吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "虽然现在的我还是缺乏战斗经验，更方面都还不够成熟...但是我会继续努力。",
+			say = "雖然現在的我還是缺乏戰鬥經驗，更方面都還不夠成熟...但是我會繼續努力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 107230,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要继续努力战斗，立下更多的战功，总有一天我会追上萨拉托加前辈的身影的...！",
+			say = "只要繼續努力戰鬥，立下更多的戰功，總有一天我會追上薩拉托加前輩的身影的...！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉托加么...你选了一个很艰巨的目标呢，普林斯顿。",
+			say = "薩拉托加嗎...妳選了一個很艱鉅的目標呢，普林斯頓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "即使是艰巨的目标，我也会加倍努力的，也请大家一起见证我的成长吧！",
+			say = "即使是艱鉅的目標，我也會加倍努力的，也請大家一起見證我的成長吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			actor = 102090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我很期待着那一天呢！",
+			say = "我很期待著那一天呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，看到成长如此迅速的优秀后辈，萨拉托加也会很开心吧。",
+			say = "嗯，看到成長如此迅速的優秀後輩，薩拉托加也會很開心吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "萨拉托加前辈......我一定不会辜负您的教导的。",
+			say = "薩拉托加前輩......我一定不會辜負您的教導的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "期待下次与萨拉托加前辈的共同作战…！",
+			say = "期待下次與薩拉托加前輩的共同作戰…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6459,6 +6459,48 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1420001] = {
+		map = 1420001,
+		name = "劃破海空之翼|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		enter_story = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level",
+		ani_name = "",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 40442,
+		ui_type = 1,
+		bg = "Map_1360001",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1450001] = {
 		map = 1450001,
 		name = "假日航線|| ||CHAPTER EX||E.X.",
@@ -7257,6 +7299,48 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200020] = {
+		map = 2200020,
+		name = "朱諾行動|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		enter_story = "ZHUNUO1",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		ani_name = "",
+		cloud_suffix = "white",
+		guide_id = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1050000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[5100000] = {
 		map = 5100000,
 		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
@@ -7999,6 +8083,7 @@ pg.expedition_data_by_map = {
 		1410012,
 		1410020,
 		1410021,
+		1420001,
 		1450001,
 		1450002,
 		1450003,
@@ -8018,6 +8103,7 @@ pg.expedition_data_by_map = {
 		2100070,
 		2100071,
 		2200000,
+		2200020,
 		5100000,
 		5100001,
 		5100010,

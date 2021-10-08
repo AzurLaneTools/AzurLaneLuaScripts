@@ -3843,7 +3843,7 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				731,
+				40442,
 				172
 			}
 		}
@@ -3853,7 +3853,7 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				731,
+				40442,
 				172
 			}
 		}
@@ -3863,7 +3863,7 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				731,
+				40442,
 				172
 			}
 		}

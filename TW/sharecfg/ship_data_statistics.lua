@@ -50783,6 +50783,502 @@ pg.ship_data_statistics = {
 			"Eagle Union-CVL"
 		}
 	},
+	[107231] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "普林斯頓",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 107230,
+		english_name = "USS Princeton",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 107231,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			799,
+			0,
+			0,
+			48,
+			64,
+			66,
+			0,
+			29,
+			22,
+			31.6,
+			49,
+			24
+		},
+		attrs_growth = {
+			21445,
+			0,
+			0,
+			1036,
+			833,
+			462,
+			0,
+			465,
+			494,
+			0,
+			0,
+			291
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
+	},
+	[107232] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "普林斯頓",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 107230,
+		english_name = "USS Princeton",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 107232,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			994,
+			0,
+			0,
+			60,
+			80,
+			66,
+			0,
+			29,
+			22,
+			31.6,
+			49,
+			30
+		},
+		attrs_growth = {
+			21445,
+			0,
+			0,
+			1036,
+			833,
+			462,
+			0,
+			465,
+			494,
+			0,
+			0,
+			291
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
+	},
+	[107233] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "普林斯頓",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 107230,
+		english_name = "USS Princeton",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 107233,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1383,
+			0,
+			0,
+			83,
+			111,
+			66,
+			0,
+			29,
+			22,
+			31.6,
+			49,
+			42
+		},
+		attrs_growth = {
+			21445,
+			0,
+			0,
+			1036,
+			833,
+			462,
+			0,
+			465,
+			494,
+			0,
+			0,
+			291
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
+	},
+	[107234] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "普林斯頓",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 107230,
+		english_name = "USS Princeton",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 107234,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1968,
+			0,
+			0,
+			118,
+			159,
+			66,
+			0,
+			29,
+			22,
+			31.6,
+			49,
+			59
+		},
+		attrs_growth = {
+			21445,
+			0,
+			0,
+			1036,
+			833,
+			462,
+			0,
+			465,
+			494,
+			0,
+			0,
+			291
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.55,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class",
+			"Eagle Union-CVL"
+		}
+	},
 	[107291] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -246324,6 +246820,10 @@ pg.ship_data_statistics = {
 		107222,
 		107223,
 		107224,
+		107231,
+		107232,
+		107233,
+		107234,
 		107291,
 		107292,
 		107293,

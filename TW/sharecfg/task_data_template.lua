@@ -70124,6 +70124,258 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[15986] = {
+		name = "【普林斯顿SP】地图任务1",
+		guild_coin_award = 0,
+		award = 93901,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP1",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1420001",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "15987",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1420001,
+		id = 15986,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15987] = {
+		name = "【普林斯顿SP】地图任务2",
+		guild_coin_award = 0,
+		award = 93902,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP2",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1420002",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "15988",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1420002,
+		id = 15987,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15988] = {
+		name = "【普林斯顿SP】地图任务3",
+		guild_coin_award = 0,
+		award = 93903,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP3",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1420003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1420003,
+		id = 15988,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15989] = {
+		name = "【普林斯顿SP】地图任务4",
+		guild_coin_award = 0,
+		award = 93904,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成SP1的3星收集",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1420001",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "15990",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1420001,
+		id = 15989,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15990] = {
+		name = "【普林斯顿SP】地图任务5",
+		guild_coin_award = 0,
+		award = 93905,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成SP2的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1420002",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "15991",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1420002,
+		id = 15990,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15991] = {
+		name = "【普林斯顿SP】地图任务6",
+		guild_coin_award = 0,
+		award = 93906,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成SP3的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		target_id = "1420003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 1420003,
+		id = 15991,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[16056] = {
 		name = "『信浓活动』917登录送皮肤体验券活动",
 		guild_coin_award = 0,
@@ -77720,7 +77972,7 @@ pg.task_data_template = {
 		}
 	},
 	[17009] = {
-		name = "邀请者可获得PT：30",
+		name = "邀請者可獲得PT：30",
 		guild_coin_award = 0,
 		award = 96064,
 		type = 26,
@@ -77800,7 +78052,7 @@ pg.task_data_template = {
 		}
 	},
 	[17010] = {
-		name = "邀请者可获得PT：30",
+		name = "邀請者可獲得PT：30",
 		guild_coin_award = 0,
 		award = 96065,
 		type = 26,
@@ -77835,7 +78087,7 @@ pg.task_data_template = {
 		}
 	},
 	[17011] = {
-		name = "邀请者可获得PT：30",
+		name = "邀請者可獲得PT：30",
 		guild_coin_award = 0,
 		award = 96066,
 		type = 26,
@@ -77915,7 +78167,7 @@ pg.task_data_template = {
 		}
 	},
 	[17012] = {
-		name = "邀请者可获得PT：25",
+		name = "邀請者可獲得PT：25",
 		guild_coin_award = 0,
 		award = 96067,
 		type = 26,
@@ -77950,7 +78202,7 @@ pg.task_data_template = {
 		}
 	},
 	[17013] = {
-		name = "邀请者可获得PT：25",
+		name = "邀請者可獲得PT：25",
 		guild_coin_award = 0,
 		award = 96068,
 		type = 26,
@@ -78030,7 +78282,7 @@ pg.task_data_template = {
 		}
 	},
 	[17014] = {
-		name = "邀请者可获得PT：25",
+		name = "邀請者可獲得PT：25",
 		guild_coin_award = 0,
 		award = 96069,
 		type = 26,
@@ -78065,7 +78317,7 @@ pg.task_data_template = {
 		}
 	},
 	[17015] = {
-		name = "邀请者可获得PT：25",
+		name = "邀請者可獲得PT：25",
 		guild_coin_award = 0,
 		award = 96070,
 		type = 26,
@@ -78145,7 +78397,7 @@ pg.task_data_template = {
 		}
 	},
 	[17016] = {
-		name = "邀请者可获得PT：20",
+		name = "邀請者可獲得PT：20",
 		guild_coin_award = 0,
 		award = 96071,
 		type = 26,
@@ -78180,7 +78432,7 @@ pg.task_data_template = {
 		}
 	},
 	[17017] = {
-		name = "邀请者可获得PT：20",
+		name = "邀請者可獲得PT：20",
 		guild_coin_award = 0,
 		award = 96072,
 		type = 26,
@@ -78260,7 +78512,7 @@ pg.task_data_template = {
 		}
 	},
 	[17018] = {
-		name = "邀请者可获得PT：20",
+		name = "邀請者可獲得PT：20",
 		guild_coin_award = 0,
 		award = 96073,
 		type = 26,
@@ -78295,7 +78547,7 @@ pg.task_data_template = {
 		}
 	},
 	[17019] = {
-		name = "邀请者可获得PT：20",
+		name = "邀請者可獲得PT：20",
 		guild_coin_award = 0,
 		award = 96074,
 		type = 26,
@@ -78375,7 +78627,7 @@ pg.task_data_template = {
 		}
 	},
 	[17020] = {
-		name = "邀请者可获得PT：15",
+		name = "邀請者可獲得PT：15",
 		guild_coin_award = 0,
 		award = 96075,
 		type = 26,
@@ -78410,7 +78662,7 @@ pg.task_data_template = {
 		}
 	},
 	[17021] = {
-		name = "邀请者可获得PT：15",
+		name = "邀請者可獲得PT：15",
 		guild_coin_award = 0,
 		award = 96076,
 		type = 26,
@@ -78490,7 +78742,7 @@ pg.task_data_template = {
 		}
 	},
 	[17022] = {
-		name = "邀请者可获得PT：15",
+		name = "邀請者可獲得PT：15",
 		guild_coin_award = 0,
 		award = 96077,
 		type = 26,
@@ -78525,7 +78777,7 @@ pg.task_data_template = {
 		}
 	},
 	[17023] = {
-		name = "邀请者可获得PT：15",
+		name = "邀請者可獲得PT：15",
 		guild_coin_award = 0,
 		award = 96078,
 		type = 26,
@@ -78605,7 +78857,7 @@ pg.task_data_template = {
 		}
 	},
 	[17024] = {
-		name = "邀请者可获得PT：15",
+		name = "邀請者可獲得PT：15",
 		guild_coin_award = 0,
 		award = 96079,
 		type = 26,
@@ -78640,7 +78892,7 @@ pg.task_data_template = {
 		}
 	},
 	[17025] = {
-		name = "邀请者可获得PT：15",
+		name = "邀請者可獲得PT：15",
 		guild_coin_award = 0,
 		award = 96080,
 		type = 26,
@@ -78720,7 +78972,7 @@ pg.task_data_template = {
 		}
 	},
 	[17026] = {
-		name = "邀请者可获得PT：15",
+		name = "邀請者可獲得PT：15",
 		guild_coin_award = 0,
 		award = 96081,
 		type = 26,
@@ -78755,7 +79007,7 @@ pg.task_data_template = {
 		}
 	},
 	[17027] = {
-		name = "邀请者可获得PT：15",
+		name = "邀請者可獲得PT：15",
 		guild_coin_award = 0,
 		award = 96082,
 		type = 26,
@@ -78835,7 +79087,7 @@ pg.task_data_template = {
 		}
 	},
 	[17028] = {
-		name = "邀请者可获得PT：10",
+		name = "邀請者可獲得PT：10",
 		guild_coin_award = 0,
 		award = 96083,
 		type = 26,
@@ -78870,7 +79122,7 @@ pg.task_data_template = {
 		}
 	},
 	[17029] = {
-		name = "邀请者可获得PT：10",
+		name = "邀請者可獲得PT：10",
 		guild_coin_award = 0,
 		award = 96084,
 		type = 26,
@@ -78950,7 +79202,7 @@ pg.task_data_template = {
 		}
 	},
 	[17030] = {
-		name = "邀请者可获得PT：10",
+		name = "邀請者可獲得PT：10",
 		guild_coin_award = 0,
 		award = 96085,
 		type = 26,
@@ -78985,7 +79237,7 @@ pg.task_data_template = {
 		}
 	},
 	[17031] = {
-		name = "邀请者可获得PT：10",
+		name = "邀請者可獲得PT：10",
 		guild_coin_award = 0,
 		award = 96086,
 		type = 26,
@@ -79065,7 +79317,7 @@ pg.task_data_template = {
 		}
 	},
 	[17032] = {
-		name = "邀请者可获得PT：10",
+		name = "邀請者可獲得PT：10",
 		guild_coin_award = 0,
 		award = 96087,
 		type = 26,
@@ -79100,7 +79352,7 @@ pg.task_data_template = {
 		}
 	},
 	[17033] = {
-		name = "邀请者可获得PT：10",
+		name = "邀請者可獲得PT：10",
 		guild_coin_award = 0,
 		award = 96088,
 		type = 26,
@@ -79180,7 +79432,7 @@ pg.task_data_template = {
 		}
 	},
 	[17034] = {
-		name = "邀请者可获得PT：10",
+		name = "邀請者可獲得PT：10",
 		guild_coin_award = 0,
 		award = 96089,
 		type = 26,
@@ -79215,7 +79467,7 @@ pg.task_data_template = {
 		}
 	},
 	[17035] = {
-		name = "邀请者可获得PT：10",
+		name = "邀請者可獲得PT：10",
 		guild_coin_award = 0,
 		award = 96090,
 		type = 26,
@@ -97102,6 +97354,12 @@ pg.task_data_template = {
 		15983,
 		15984,
 		15985,
+		15986,
+		15987,
+		15988,
+		15989,
+		15990,
+		15991,
 		16056,
 		16057,
 		16058,

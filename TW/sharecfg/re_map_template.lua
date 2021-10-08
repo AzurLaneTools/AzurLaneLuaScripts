@@ -79,10 +79,24 @@ pg.re_map_template = {
 			2100076
 		}
 	},
+	[10] = {
+		id = 10,
+		name = "光荣的一战常驻复刻",
+		activity_type = 2,
+		memory_group = 109,
+		bg = "temp_guangrong",
+		order = 10,
+		config_data = {
+			2200021,
+			2200022,
+			2200023
+		}
+	},
 	all = {
 		1,
 		2,
 		4,
-		7
+		7,
+		10
 	}
 }

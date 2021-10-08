@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			dir = 1,
-			say = "塞潘岛西侧海域 白鹰主力舰队",
+			say = "塞班島西側海域 白鷹主力艦隊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "重樱这些家伙，终于还是主动攻过来了啊...",
+			say = "重櫻這些傢伙，終於還是主動攻過來了啊...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正好，我也等得有些不耐烦了。",
+			say = "正好，我也等得有些不耐煩了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业，已经向普林斯顿小队发消息了，她们在解决了面前残余的敌人之后就会返航加入战斗。",
+			say = "企業，已經向普林斯頓小隊發消息了，她們在解決了面前殘餘的敵人之後就會返航加入戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，重樱的航空力量虽然比之前弱了不少，但是我们仍需要全力应战。",
+			say = "很好，重櫻的航空力量雖然比之前弱了不少，但是我們仍需要全力應戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也准备好了哦，企业，防空就交给我们吧！",
+			say = "我也準備好了哦，企業，防空就交給我們吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，我们计划在空中就将敌机全部消灭掉......不过有漏网之鱼的话，就拜托你们了。",
+			say = "抱歉，我們計劃在空中就將敵機全部消滅掉......不過有漏網之魚的話，就拜託妳們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "嘿嘿，我就喜欢企业这股自信的气势~让我们一鼓作气，迎接又一场胜利吧！",
+			say = "嘿嘿，我就喜歡企業這股自信的氣勢~讓我們一鼓作氣，迎接又一場勝利吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
