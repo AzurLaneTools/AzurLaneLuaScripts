@@ -258,11 +258,13 @@ function slot1(slot0, slot1, slot2, slot3)
 	end
 
 	for slot9, slot10 in pairs(slot1.skills) do
-		slot11 = {
-			level = slot10.level,
-			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot10.id)
-		}
-		ys.Battle.BattleDataFunction.GenerateHiddenBuff(slot1.configId)[slot11.id] = slot11
+		if not slot10 or slot10.id ~= 14900 or slot1.transforms[16412] then
+			slot11 = {
+				level = slot10.level,
+				id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot10.id)
+			}
+			ys.Battle.BattleDataFunction.GenerateHiddenBuff(slot1.configId)[slot11.id] = slot11
+		end
 	end
 
 	for slot10, slot11 in ipairs(ys.Battle.BattleDataFunction.GetEquipSkill(slot4)) do
