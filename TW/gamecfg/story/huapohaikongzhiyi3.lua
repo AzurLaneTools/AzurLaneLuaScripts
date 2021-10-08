@@ -362,7 +362,7 @@ return {
 			side = 2,
 			actor = 107230,
 			dir = 1,
-			say = "和蒙彼利埃......么？",
+			say = "和蒙彼利埃......嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

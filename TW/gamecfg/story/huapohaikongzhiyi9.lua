@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "不會吧，重櫻把全部航空力量都集中過來了麼......",
+			say = "不會吧，重櫻把全部航空力量都集中過來了嗎......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

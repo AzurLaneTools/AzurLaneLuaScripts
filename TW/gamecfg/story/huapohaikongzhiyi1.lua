@@ -277,7 +277,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "企业，妳听到了啊......",
+			say = "企業，妳聽到了啊......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_map_maliyana",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好。然後是護衛艦...克里夫蘭，我想讓妳們姐妹中的一艘加上雷諾共同作為普利斯頓的護衛，你有什麼想法嗎？",
+			say = "很好。然後是護衛艦...克里夫蘭，我想讓妳們姐妹中的一艘加上雷諾共同作為普利斯頓的護衛，妳有什麼想法嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

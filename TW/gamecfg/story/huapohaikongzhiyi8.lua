@@ -152,7 +152,7 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = 1,
-			actorName = "里诺&伯明翰",
+			actorName = "雷諾&伯明罕",
 			say = "交給我吧！ 明白。",
 			subActors = {
 				{

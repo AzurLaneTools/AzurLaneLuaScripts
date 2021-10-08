@@ -49306,7 +49306,7 @@ pg.skill_data_template = {
 		id = 29601,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每進行24次攻擊，触发專屬彈幕-{namecode:27}I",
+		desc = "主炮每進行24次攻擊，觸發專屬彈幕-{namecode:27}I",
 		system_transform = {},
 		world_death_mark = {
 			1
