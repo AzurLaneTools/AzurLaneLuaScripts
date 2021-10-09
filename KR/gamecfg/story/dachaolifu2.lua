@@ -88,7 +88,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "하하, 사쿠라 엠파이어의 여자애한테 들었다. 술 마신 오이겐이 그렇게 ‘호탕’하다매……",
+			say = "미치시오한티 참말로 술을 좋아하시는 분이라고 듣긴 혔지만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "오늘 함 제대로 보겠네~",
+			say = "「백문이 불여일견」이라는 거구마~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 301642,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "아이고~ 고맙다~",
+			say = "고맙데이~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

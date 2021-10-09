@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305023,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305023,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305023,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = -1,
-			actor = 305020,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "그치만, 드레스 같은 건 처음 입으니까, 나으리가 이상하다 생각하면 어떡하지……",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 307070,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "……어머나, 야마시로 아닙니까, 목소리가 멀리서도 잘 들리는군요.",
 			typewriter = {
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305023,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 307070,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "'만나러' 라고요……우후후, 혹시 집무실에 잠입하려는 걸 포기하고 결국 여기서 만나고자 하는 거냐고 여쭤보시는 거라면…",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = -1,
-			actor = 305020,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "응? 왜 포기한 거에요?",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 307070,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "지휘관님은 아직 업무 때문에 한창 바쁘신걸요. 이 다이호, 그런 지휘관님의 방해를 하다니 말도 안 되지요.",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actor = 307071,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 0,
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = -1,
-			actor = 305020,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "그래요……",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305023,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 1,
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = -1,
-			actor = 305020,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "왠지……조용하달까?",
 			typewriter = {
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 307070,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "평소엔 시끄럽다는 의미인가요?",
 			typewriter = {
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = -1,
-			actor = 305020,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "아, 아뇨, 그런 게 아니라…다만, 평소의 다이호씨는 뭐랄까, 접근하기 어렵달까? 좀 그런 느낌이 들어서…물론 아카기씨만큼은 아니지만……",
 			typewriter = {
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 307070,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "우후후, 당황할 필요 없답니다, 농담이에요.",
 			typewriter = {
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 307070,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "흠……오늘은 특별한 날이라서 그런가…",
 			typewriter = {
@@ -380,7 +380,7 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actor = 307071,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 0,
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = -1,
-			actor = 305020,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "무슨 말인지 알 것 같기도 하고…모를 것 같기도 하고……",
 			typewriter = {
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305023,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 1,
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actor = 307071,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 0,
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 307070,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "…………",
 			typewriter = {
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = -1,
-			actor = 305020,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "…………",
 			typewriter = {
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305023,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 1,
@@ -502,7 +502,7 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actor = 307071,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 0,
@@ -524,7 +524,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = -1,
-			actor = 305020,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "우와, 굉장해요! 저는 그냥 지휘관 나리와 같이 놀고 싶은 생각뿐이라, 그런 생각은 해본 적이 없는데……",
 			typewriter = {
@@ -547,7 +547,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305023,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 1,
@@ -569,7 +569,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 307070,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "다이호의 마음속엔 오직 지휘관님뿐, 다른 거엔 흥미 없답니다…",
 			typewriter = {
@@ -582,7 +582,7 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actor = 307071,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 0,
@@ -599,7 +599,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305023,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 1,
@@ -621,7 +621,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 307070,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "야마시로는? 다른 이벤트에 참가하지 않나요?",
 			typewriter = {
@@ -639,7 +639,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = -1,
-			actor = 305020,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "저요? 계속 언니를 도와주느라……아, 중간에 구축함 아이들이랑 같이 담력 테스트에는 한 번 참가했었네요.",
 			typewriter = {
@@ -652,7 +652,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305023,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 1,
@@ -679,7 +679,7 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actor = 307071,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 0,
@@ -701,7 +701,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 307070,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "그나저나, 지휘관님은 아무래도 좀 더 시간이 걸리는 모양이군요……",
 			typewriter = {
@@ -714,7 +714,7 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actor = 307071,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
@@ -735,7 +735,7 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			actor = 305023,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
@@ -767,7 +767,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 307070,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "우후후, 그렇게 센 술이 아니니까, 조금은 마셔도 괜찮을 것 같은데……",
 			typewriter = {
@@ -780,7 +780,7 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actor = 307071,
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,

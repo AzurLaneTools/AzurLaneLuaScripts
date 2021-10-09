@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -301,7 +301,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207030,
+			actor = 207032,
 			dir = 1,
 			nameColor = "#92fc63",
 			say = "빅토리어스, 그쪽은 맡겨둘게~",
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			actor = 207032,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -373,7 +373,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = -1,
-			actor = 312010,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "클리블랜드, 안냥!~",
 			typewriter = {
@@ -402,7 +402,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -421,7 +421,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207030,
+			actor = 207032,
 			dir = 1,
 			nameColor = "#92fc63",
 			say = "유니콘, 히에이씨가 연회 준비를 도와달라고 해서, 전 다른 곳도 돌아봐야 할 것 같아요. 혼자 여기 있어도 괜찮죠?",
@@ -458,7 +458,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207030,
+			actor = 207032,
 			dir = 1,
 			nameColor = "#92fc63",
 			say = "지휘관님 곁이 그렇게 좋나요? 유니콘도 참 한결같네요…우후후",
@@ -472,7 +472,7 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			actor = 207032,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -493,7 +493,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = -1,
-			actor = 312010,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "맡겨줘냥!",
 			typewriter = {
@@ -522,7 +522,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -545,7 +545,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207030,
+			actor = 207032,
 			dir = 1,
 			nameColor = "#92fc63",
 			say = "그렇죠, 그녀에게 있어 에식스씨는 정말 좋은 후배라는 듯하니까요. 요즘엔 늘 기분이 좋아보이더라고요.",
@@ -559,7 +559,7 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			actor = 207032,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -575,7 +575,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -595,7 +595,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -614,7 +614,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207030,
+			actor = 207032,
 			dir = 1,
 			nameColor = "#92fc63",
 			say = "우후후, 익숙해지겠죠.",
@@ -631,7 +631,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207030,
+			actor = 207032,
 			dir = 1,
 			nameColor = "#92fc63",
 			say = "일단은 연회장을 한 번 돌아볼까요? 지휘관님이 오시면 무도회가 시작될 테고 그러면 오늘 밤은 당신도 바빠질지 모르니까요~",
@@ -645,7 +645,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -687,7 +687,7 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			actor = 207032,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -703,7 +703,7 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",

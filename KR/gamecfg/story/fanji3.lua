@@ -506,7 +506,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "吸血鬼",
+			actorName = "뱀파이어",
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,

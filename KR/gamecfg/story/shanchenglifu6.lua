@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 201010,
+			actor = 201011,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 301010,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "로열 네이비쪽도 다들 수고했어~ 난 도와준 게 별로 없지만…그래도 다들 정말 대단하네!",
 			typewriter = {
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 201010,
+			actor = 201011,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 301010,
+			actor = 301013,
 			nameColor = "#92fc63",
 			bgName = "star_level_bg_107",
 			side = 1,
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 301010,
+			actor = 301013,
 			nameColor = "#92fc63",
 			bgName = "star_level_bg_107",
 			side = 1,
@@ -137,7 +137,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "내가 어떻게 알아……",
@@ -154,7 +154,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "하아……",
@@ -171,7 +171,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "가장 중요한 그 녀석이 아직 안 와서 말이야. 곡 연주도 그 녀석이 와야 할 텐데…",
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 301010,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "엥? 아……하긴, 지휘관은 아직 안 왔지?",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "정말이지, 이 연회의 50%는 그 바보 녀석을 위해 준비한 셈인데 말야, 아직 코빼기도 안 보이니……",
@@ -225,7 +225,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 301010,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "아? 그래?",
 			typewriter = {
@@ -241,7 +241,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "그래……뭐 일부러 안 오는 건 아니겠지만.",
@@ -258,7 +258,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "……평소에 그 바보한테  기대는 건 별로 없지만, 여태까지 함대를 운영하는 것도 말야, 다들 말은 안해도 실은 전부 알고있다고.",
@@ -275,7 +275,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "매일 얼마나 노력을 하는지, 얼마나 공무에 시간을 쏟는지도, 그리고 바쁜 와중에도 짬을 내서 우리랑 함께 어울리려 노력한다는 것도 말야.",
@@ -292,7 +292,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "혹시 그 바보가 없었다면, 분명 오늘처럼 축제를 할 순 없었을 거야……",
@@ -311,7 +311,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 301010,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "아마존……사실은 지휘관이 걱정되는 거지?",
 			typewriter = {
@@ -327,7 +327,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "……흥, 그런 거 없어. 그냥 말이 나온 김에 해본 소리야.",
@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 301010,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "(부정은 안 하네……아마존, 지휘관이 없으면 솔직해지는구나~)",
 			typewriter = {
@@ -359,7 +359,7 @@ return {
 			}
 		},
 		{
-			actor = 301010,
+			actor = 301013,
 			nameColor = "#92fc63",
 			bgName = "star_level_bg_107",
 			side = 1,
@@ -379,7 +379,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "그래, 축제라고 하면, 역시 이런 게 있어야겠지.",
@@ -393,7 +393,7 @@ return {
 			}
 		},
 		{
-			actor = 201010,
+			actor = 201011,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -409,7 +409,7 @@ return {
 			}
 		},
 		{
-			actor = 201010,
+			actor = 201011,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -425,7 +425,7 @@ return {
 			}
 		},
 		{
-			actor = 201010,
+			actor = 201011,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -441,7 +441,7 @@ return {
 			}
 		},
 		{
-			actor = 301010,
+			actor = 301013,
 			nameColor = "#92fc63",
 			bgName = "star_level_bg_107",
 			side = 1,
@@ -458,7 +458,7 @@ return {
 			}
 		},
 		{
-			actor = 201010,
+			actor = 201011,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -477,7 +477,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "오늘 밤만은 꼭 오겠다고 해서 서프라이즈까지 준비했는데……",
@@ -494,7 +494,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "아직도 안 온다면, 차라리 지금이라도 부르러 가는 게……",
@@ -513,7 +513,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 301010,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "아앗!",
 			typewriter = {
@@ -539,7 +539,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "우왓! 뭐야 후부키, 깜짝 놀랐잖아!",
@@ -563,7 +563,7 @@ return {
 			}
 		},
 		{
-			actor = 301010,
+			actor = 301013,
 			nameColor = "#92fc63",
 			bgName = "star_level_bg_107",
 			side = 1,
@@ -585,7 +585,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = 1,
-			actor = 301010,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "와아! 야마시로 얼굴 새빨간 거 봐! 게다가 얼굴도 해롱해롱 거리는데?",
 			typewriter = {
@@ -601,7 +601,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201010,
+			actor = 201011,
 			dir = -1,
 			nameColor = "#92fc63",
 			say = "뭐? 아무튼 지금 여기로 오고 있단 거지?",
@@ -615,7 +615,7 @@ return {
 			}
 		},
 		{
-			actor = 301010,
+			actor = 301013,
 			nameColor = "#92fc63",
 			bgName = "star_level_bg_107",
 			side = 1,
@@ -642,7 +642,7 @@ return {
 			}
 		},
 		{
-			actor = 201010,
+			actor = 201011,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -658,7 +658,7 @@ return {
 			}
 		},
 		{
-			actor = 301010,
+			actor = 301013,
 			nameColor = "#92fc63",
 			bgName = "star_level_bg_107",
 			side = 1,
@@ -675,7 +675,7 @@ return {
 			}
 		},
 		{
-			actor = 201010,
+			actor = 201011,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -691,7 +691,7 @@ return {
 			}
 		},
 		{
-			actor = 201010,
+			actor = 201011,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",

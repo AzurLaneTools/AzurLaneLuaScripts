@@ -409,7 +409,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "황혼이긴 하지만, 나무 그늘 아래는 이미 캄캄하여 잘 보이지 않았다.",
+			say = "황혼이기는 하지만, 나무 그늘 아래는 이미 캄캄해서 잘 보이지 않네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

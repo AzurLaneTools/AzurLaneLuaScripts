@@ -204,7 +204,7 @@ return {
 			actor = 205060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "\"보드 드문 조합\"...? 아니, 우리는 가끔씩 여기서 만나.",
+			say = "\"보기 드문 조합\"...? 아니, 우리는 가끔씩 여기서 만나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
