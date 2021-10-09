@@ -510,7 +510,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "That was nicely said, but I wanted to add one thing. ...There are times when I don't want to rely on my sisters' powers, don't want to copy their tricks, and just want to fight with what I hve.",
+			say = "That was nicely said, but I wanted to add one thing. ...There are times when I don't want to rely on my sisters' powers, don't want to copy their tricks, and just want to fight with what I have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

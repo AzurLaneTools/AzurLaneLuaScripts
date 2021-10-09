@@ -5225,7 +5225,8 @@ pg.task_data_template = {
 			2002,
 			2004,
 			2006,
-			2008
+			2008,
+			2010
 		},
 		open_need = {},
 		award_display = {
@@ -5271,7 +5272,8 @@ pg.task_data_template = {
 			2003,
 			2005,
 			2007,
-			2009
+			2009,
+			2011
 		},
 		open_need = {},
 		award_display = {
@@ -5317,7 +5319,8 @@ pg.task_data_template = {
 			3001,
 			3002,
 			3003,
-			3004
+			3004,
+			3005
 		},
 		open_need = {},
 		award_display = {
@@ -5358,7 +5361,8 @@ pg.task_data_template = {
 			4001,
 			4002,
 			4003,
-			4004
+			4004,
+			4005
 		},
 		open_need = {},
 		award_display = {
@@ -98378,7 +98382,9 @@ pg.task_data_template = {
 			2006,
 			2007,
 			2008,
-			2009
+			2009,
+			2010,
+			2011
 		},
 		open_need = {},
 		award_display = {
@@ -98419,7 +98425,8 @@ pg.task_data_template = {
 			3001,
 			3002,
 			3003,
-			3004
+			3004,
+			3005
 		},
 		open_need = {},
 		award_display = {
@@ -98460,7 +98467,8 @@ pg.task_data_template = {
 			4001,
 			4002,
 			4003,
-			4004
+			4004,
+			4005
 		},
 		open_need = {},
 		award_display = {
@@ -134903,7 +134911,7 @@ pg.task_data_template = {
 		target_id_2 = "",
 		count_inherit = 0,
 		sub_type = 181,
-		desc = "Clear Chapter 3 or onward stages for 6 times on \nNormal Mode ",
+		desc = "Clear Chapter 3 or onward stages for 6 times on Normal Mode ",
 		story_icon = "",
 		is_head = 1,
 		award_choice = "",

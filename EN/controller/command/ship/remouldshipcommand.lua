@@ -121,6 +121,10 @@ function slot0.execute(slot0, slot1)
 					if slot2[11720] and not uv0.skills[11720] then
 						uv0.skills[11720] = slot2[11720]
 					end
+
+					if slot2[14900] and not uv0.skills[14900] then
+						uv0.skills[14900] = slot2[14900]
+					end
 				end
 			end)
 
