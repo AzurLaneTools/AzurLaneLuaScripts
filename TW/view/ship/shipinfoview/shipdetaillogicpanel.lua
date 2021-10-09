@@ -165,6 +165,10 @@ function slot0.updateSKills(slot0)
 					slot5 = nil
 				end
 
+				if slot5 and slot5.id == 14900 and not uv1.transforms[16412] then
+					slot5 = nil
+				end
+
 				uv2:updateSkillTF(slot2, slot4, slot5)
 				onButton(uv2, slot2, function ()
 					uv0:emit(ShipMainMediator.ON_SKILL, uv1.id, uv2, uv3 + 1)

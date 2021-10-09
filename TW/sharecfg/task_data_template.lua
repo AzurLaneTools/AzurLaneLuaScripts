@@ -68996,7 +68996,9 @@ pg.task_data_template = {
 			2006,
 			2007,
 			2008,
-			2009
+			2009,
+			2010,
+			2011
 		},
 		open_need = {},
 		award_display = {
@@ -69037,7 +69039,8 @@ pg.task_data_template = {
 			3001,
 			3002,
 			3003,
-			3004
+			3004,
+			3005
 		},
 		open_need = {},
 		award_display = {
@@ -69078,7 +69081,8 @@ pg.task_data_template = {
 			4001,
 			4002,
 			4003,
-			4004
+			4004,
+			4005
 		},
 		open_need = {},
 		award_display = {
