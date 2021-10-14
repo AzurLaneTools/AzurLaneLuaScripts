@@ -473,6 +473,7 @@ function slot9.Dispose(slot0)
 	slot0._fleetStaticSonar = nil
 	slot0._buffList = nil
 	slot0._indieSonarList = nil
+	slot0._scoutAimBias = nil
 end
 
 function slot9.refreshFleetFormation(slot0, slot1)

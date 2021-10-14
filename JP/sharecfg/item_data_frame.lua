@@ -315,6 +315,33 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2019」殿堂入りページで入手可能",
 		scene = {}
 	},
+	[408] = {
+		time_limit_type = 0,
+		name = "殿堂入り：シリアス",
+		gain_by = "",
+		id = 408,
+		time_second = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2021」殿堂入りページで入手可能",
+		scene = {}
+	},
+	[409] = {
+		time_limit_type = 0,
+		name = "殿堂入り：長門",
+		gain_by = "",
+		id = 409,
+		time_second = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2021」殿堂入りページで入手可能",
+		scene = {}
+	},
+	[410] = {
+		time_limit_type = 0,
+		name = "殿堂入り：ローン",
+		gain_by = "",
+		id = 410,
+		time_second = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2021」殿堂入りページで入手可能",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "饅頭ピザ屋記念枠",
@@ -360,6 +387,9 @@ pg.item_data_frame = {
 		401,
 		402,
 		403,
+		408,
+		409,
+		410,
 		501
 	}
 }

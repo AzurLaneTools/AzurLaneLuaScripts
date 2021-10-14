@@ -11667,6 +11667,48 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200040] = {
+		map = 2200040,
+		name = "激奏のポラリス|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "azumaster-ins",
+		ani_name = "Map_1260001",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1260001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -11948,6 +11990,7 @@ pg.expedition_data_by_map = {
 		2200000,
 		2200010,
 		2200020,
-		2200030
+		2200030,
+		2200040
 	}
 }

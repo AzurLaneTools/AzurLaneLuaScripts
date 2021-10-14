@@ -76,7 +76,7 @@ function slot1.Init(slot0, slot1)
 		uv0._sigleItemPanel = uv0._window:Find("single_item_panel")
 		uv0._singleItemshipTypeTF = uv0._sigleItemPanel:Find("name_mode/ship_type")
 		uv0._singleItemshipTypeBgTF = uv0._sigleItemPanel:Find("name_mode/ship_type_bg")
-		uv0.singleItemIntros = {}
+		uv0._singleItemIntros = {}
 		uv0.singleItemIntro = uv0._sigleItemPanel:Find("intro_view/Viewport/Content/intro")
 		uv0.singleItemIntroTF = uv0.singleItemIntro:GetComponent("RichText")
 
@@ -86,7 +86,7 @@ function slot1.Init(slot0, slot1)
 		uv0.singleItemIntroTF:AddSprite("world_money", uv0._res:Find("world_money"):GetComponent(typeof(Image)).sprite)
 		uv0.singleItemIntroTF:AddSprite("port_money", uv0._res:Find("port_money"):GetComponent(typeof(Image)).sprite)
 		uv0.singleItemIntroTF:AddSprite("world_boss", uv0._res:Find("world_boss"):GetComponent(typeof(Image)).sprite)
-		table.insert(uv0.singleItemIntros, uv0.singleItemIntro)
+		table.insert(uv0._singleItemIntros, uv0.singleItemIntro)
 
 		uv0._inputPanel = uv0._window:Find("input_panel")
 		uv0._inputTitle = uv0._inputPanel:Find("label"):GetComponent(typeof(Text))
@@ -257,10 +257,10 @@ function slot7(slot0, slot1)
 	setFrame(slot0._sigleItemPanel:Find("icon_bg/frame"), slot1.frame or 1)
 	setScrollText(findTF(slot0._sigleItemPanel, "name_mode/name_mask/name"), slot1.name or "")
 	setText(slot4, slot1.content or "")
-	SetActive(slot0._sigleItemPanel:Find("icon_bg/icon").parent, slot1.sprite)
+	SetActive(slot0._sigleItemPanel:Find("icon_bg/icon").parent, slot1.iconPath)
 
-	if slot1.sprite then
-		setImageSprite(slot2, slot1.sprite, false)
+	if slot1.iconPath then
+		GetImageSpriteFromAtlasAsync(slot1.iconPath[1], slot1.iconPath[2] or "", slot2)
 	end
 
 	slot0:Loaded(slot1)
@@ -355,9 +355,9 @@ function slot8(slot0, slot1)
 		setText(slot2, HXSet.hxLan(slot1.drop.cfg.desc))
 
 		if slot1.extendDesc then
-			slot0.singleItemIntros[slot4] = slot0.singleItemIntros[slot4 + 1] or cloneTplTo(slot0.singleItemIntro, slot0.singleItemIntro.parent)
+			slot0._singleItemIntros[slot4] = slot0._singleItemIntros[slot4 + 1] or cloneTplTo(slot0.singleItemIntro, slot0.singleItemIntro.parent)
 
-			setText(slot0.singleItemIntros[slot4], slot1.extendDesc)
+			setText(slot0._singleItemIntros[slot4], slot1.extendDesc)
 		end
 	elseif slot1.drop.type == DROP_TYPE_SKIN then
 		setText(slot2, HXSet.hxLan(slot1.drop.cfg.desc))
@@ -397,7 +397,7 @@ function slot8(slot0, slot1)
 		end)
 	end
 
-	for slot12, slot13 in ipairs(slot0.singleItemIntros) do
+	for slot12, slot13 in ipairs(slot0._singleItemIntros) do
 		setActive(slot13, slot12 <= slot4 and slot5 == nil)
 	end
 
@@ -1161,6 +1161,10 @@ function slot1.Clear(slot0)
 	slot5 = "icon_bg/own"
 
 	setActive(findTF(slot0._sigleItemPanel, slot5), false)
+
+	for slot5, slot6 in ipairs(slot0._singleItemIntros) do
+		setActive(slot6, false)
+	end
 
 	for slot5 = 0, slot0._helpList.childCount - 1 do
 		slot0._helpList:GetChild(slot5):Find("icon"):GetComponent(typeof(Image)).sprite = nil

@@ -199,11 +199,12 @@ function slot0.InitUI(slot0)
 			slot4(slot0, "panel/sub/1")
 		}
 	}
-	slot0.tfLimit = slot0:findTF("panel/limit")
-	slot0.tfLimitTips = slot0:findTF("panel/limit_tip")
-	slot0.tfLimitElite = slot0:findTF("panel/limit_elite")
-	slot0.tfLimitContainer = slot0:findTF("panel/limit_elite/limit_list")
-	slot0.tfLimitTpl = slot0:findTF("panel/limit_elite/condition")
+	slot0.tfLimit = slot0:findTF("panel/limit_list/limit")
+	slot0.tfLimitTips = slot0:findTF("panel/limit_list/limit_tip")
+	slot0.tfLimitElite = slot0:findTF("panel/limit_list/limit_elite")
+	slot0.tfLimitContainer = slot0:findTF("panel/limit_list/limit_elite/limit_list")
+	slot0.tfLimitTpl = slot0:findTF("panel/limit_list/limit_elite/condition")
+	slot0.rtCostLimit = slot0._tf:Find("panel/limit_list/cost_limit")
 	slot0.btnBack = slot0:findTF("panel/btnBack")
 	slot0.btnGo = slot0:findTF("panel/start_button")
 	slot0.formationToggle = slot0:findTF("panel/RightTabs/formation_btn")
@@ -341,6 +342,18 @@ function slot0.set(slot0, slot1, slot2, slot3)
 	setActive(slot0.tfLimitElite, false)
 	setActive(slot0.tfLimitTips, false)
 	setActive(slot0.tfLimit, true)
+
+	slot5 = slot0.chapter:getConfig("use_oil_limit") or {}
+
+	setActive(slot0.rtCostLimit, #slot5 > 0)
+	setText(slot0.rtCostLimit:Find("text"), i18n("formationScene_use_oil_limit_tip"))
+
+	if #slot5 > 0 then
+		setText(slot0.rtCostLimit:Find("cost_noraml/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_enemy"), slot5[1]))
+		setText(slot0.rtCostLimit:Find("cost_boss/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_flagship"), slot5[2]))
+		setText(slot0.rtCostLimit:Find("cost_sub/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_submarine"), slot5[3]))
+	end
+
 	onButton(slot0, slot0.btnGo, function ()
 		function slot0()
 			uv0:onConfirm()
@@ -1065,6 +1078,17 @@ function slot0.updateEliteLimit(slot0)
 		end
 
 		setActive(slot0.tfLimitElite:Find("sub"), slot0.chapter:getConfig("submarine_num") > 0)
+	end
+
+	slot1 = slot0.chapter:getConfig("use_oil_limit") or {}
+
+	setActive(slot0.rtCostLimit, #slot1 > 0)
+	setText(slot0.rtCostLimit:Find("text"), i18n("formationScene_use_oil_limit_tip"))
+
+	if #slot1 > 0 then
+		setText(slot0.rtCostLimit:Find("cost_noraml/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_enemy"), slot1[1]))
+		setText(slot0.rtCostLimit:Find("cost_boss/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_flagship"), slot1[2]))
+		setText(slot0.rtCostLimit:Find("cost_sub/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_submarine"), slot1[3]))
 	end
 end
 

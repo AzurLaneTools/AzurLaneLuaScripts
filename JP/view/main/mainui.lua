@@ -165,7 +165,6 @@ function slot0.init(slot0)
 	slot0._resetBtn = slot0:findTF("toTop/frame/settingRight/reset")
 	slot0._saveBtn = slot0:findTF("toTop/frame/settingRight/save")
 	slot0._backBtn = slot0:findTF("toTop/frame/settingRight/back")
-	slot0._voteBtn = slot0:findTF("vote_btn", slot0._ActivityBtns)
 	slot0._voteBookBtn = slot0:findTF("btm/vote_book_btn", slot0._bottomPanel)
 	slot0._buildBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/buildButton")
 	slot0._taskBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/taskButton")
@@ -1112,39 +1111,6 @@ function slot0.updateMemoryBookBtn(slot0, slot1)
 	end
 end
 
-function slot0.updateVoteBtn(slot0, slot1, slot2)
-	slot0:updateVoteBookBtn(slot2)
-end
-
-function slot0.updateVoteBookBtn(slot0, slot1)
-	slot2 = slot1 and not slot1:IsExpired()
-
-	setActive(slot0._voteBookBtn, slot2)
-	slot0:RemoveVoteBookTimer()
-
-	if slot2 then
-		onButton(slot0, slot0._voteBookBtn, function ()
-			uv0:emit(MainUIMediator.ON_VOTE_BOOK)
-		end, SFX_PANEL)
-
-		slot3 = slot0._voteBookBtn:Find("tip/Text"):GetComponent(typeof(Text))
-		slot0.voteBookTimer = Timer.New(function ()
-			uv0.text = uv1:GetCDTime("#9BB8FFFF")
-		end, 1, -1)
-
-		slot0.voteBookTimer:Start()
-		slot0.voteBookTimer.func()
-	end
-end
-
-function slot0.RemoveVoteBookTimer(slot0)
-	if slot0.voteBookTimer then
-		slot0.voteBookTimer:Stop()
-
-		slot0.voteBookTimer = nil
-	end
-end
-
 function slot0.updateLotteryBtn(slot0, slot1)
 	slot2 = slot1 and not slot1:isEnd()
 
@@ -1952,9 +1918,11 @@ function slot0.notifyActivitySummary(slot0, slot1, slot2)
 	end
 
 	onButton(slot0, slot0._activitySummaryBtn, function ()
-		uv0:emit(MainUIMediator.OPEN_ACTIVITY_PANEL, {
-			id = uv1 and uv1.id
-		})
+		if uv0 then
+			uv1:emit(MainUIMediator.OPEN_ACTIVITY_PANEL, uv0.id)
+		else
+			uv1:emit(MainUIMediator.OPEN_ACTIVITY_PANEL)
+		end
 	end, SFX_PANEL)
 end
 
@@ -2125,7 +2093,6 @@ function slot0.willExit(slot0)
 		slot0.redDotHelper = nil
 	end
 
-	slot0:RemoveVoteBookTimer()
 	slot0:disablePartialBlur()
 
 	if slot0.leans then

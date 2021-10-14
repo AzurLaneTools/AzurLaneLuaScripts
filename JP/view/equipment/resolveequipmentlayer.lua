@@ -324,6 +324,12 @@ function slot0.selectEquip(slot0, slot1, slot2)
 		return
 	end
 
+	if slot1:isImportance() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("retire_importantequipment_tips"))
+
+		return
+	end
+
 	slot3 = false
 	slot4 = nil
 	slot5 = 0

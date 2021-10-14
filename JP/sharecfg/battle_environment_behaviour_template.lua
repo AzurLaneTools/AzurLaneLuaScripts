@@ -1504,8 +1504,8 @@ pg.battle_environment_behaviour_template = {
 		name = "十四章灯塔暴露DEBUFF",
 		behaviour_list = {
 			{
-				buff_id = 9650,
-				reload_time = 1,
+				buff_id = 9660,
+				reload_time = 0.1,
 				type = 3
 			}
 		}

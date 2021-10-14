@@ -8476,253 +8476,253 @@ pg.activity_ins_language = {
 		value = "がおー！みんなの期待に応えるよー！"
 	},
 	ins_248 = {
-		value = ""
+		value = "かき氷もお肉もうまいから、お肉味のかき氷もきっとうまいゼ！"
 	},
 	ins_discuss_248_1 = {
-		value = ""
+		value = "どんな味か想像できないですね…"
 	},
 	ins_reply_248_1_1 = {
-		value = ""
+		value = "どう考えてもゲテモノの類でしょ、それ"
 	},
 	ins_discuss_248_2 = {
-		value = ""
+		value = "かき氷、一気に食べると頭がキーンとしちゃう…"
 	},
 	ins_reply_248_2_1 = {
-		value = ""
+		value = "白露、大丈夫ですか…？"
 	},
 	ins_reply_248_2_2 = {
-		value = ""
+		value = "今もちょっとフラフラしてるの…"
 	},
 	ins_op_248_1_1 = {
-		value = ""
+		value = "今度また作ってみようか"
 	},
 	op_reply_248_1_1 = {
-		value = ""
+		value = "本当か！？今度こそお肉味のかき氷で頼むぜ！"
 	},
 	ins_249 = {
-		value = ""
+		value = "大鳳の愛情たーっぷりの手料理、きっと指揮官様なら……"
 	},
 	ins_discuss_249_1 = {
-		value = ""
+		value = "指揮官のために作ったの？じゃああたしも少し「隠し味」を入れよーかなー"
 	},
 	ins_reply_249_1_1 = {
-		value = ""
+		value = "ダメですわ！！！！"
 	},
 	ins_discuss_249_2 = {
-		value = ""
+		value = "大鳳さん、お料理が得意なんですか？"
 	},
 	ins_reply_249_2_1 = {
-		value = ""
+		value = "指揮官様のためなら大鳳、どんなことも得意になってみせますわ♡"
 	},
 	ins_discuss_249_3 = {
-		value = ""
+		value = "美味しそうですね！！"
 	},
 	ins_reply_249_3_1 = {
-		value = ""
+		value = "これは指揮官様にだけ作ったものですわ♡"
 	},
 	ins_reply_249_3_2 = {
-		value = ""
+		value = "なんだか怪しいような…"
 	},
 	ins_op_249_1_1 = {
-		value = ""
+		value = "楽しみだ"
 	},
 	op_reply_249_1_1 = {
-		value = ""
+		value = "大鳳の愛を味わって～♡"
 	},
 	ins_250 = {
-		value = ""
+		value = "fantastique！お魚たちの踊りを見てるとアイデアがどんどん湧き出てくるわ！"
 	},
 	ins_discuss_250_1 = {
-		value = ""
+		value = "う、うまそうだぜ……(¯﹃¯)"
 	},
 	ins_reply_250_1_1 = {
-		value = ""
+		value = "サメもいるよー、がおー！"
 	},
 	ins_reply_250_1_2 = {
-		value = ""
+		value = "うまいかどうかは置いといて、皆可愛いわ♪"
 	},
 	ins_discuss_250_2 = {
-		value = ""
+		value = "ふーん、エミールの踊りってお魚を参考にしてたの？"
 	},
 	ins_reply_250_2_1 = {
-		value = ""
+		value = "シュルクーフも興味あるの？"
 	},
 	ins_reply_250_2_2 = {
-		value = ""
+		value = "ちょこっとね～ん、また今度見せてよ"
 	},
 	ins_op_250_1_1 = {
-		value = ""
+		value = "楽しみにしてていい……のか？"
 	},
 	op_reply_250_1_1 = {
-		value = ""
+		value = "ふふふ、指揮官を失望させないわよ♪"
 	},
 	ins_251 = {
-		value = ""
+		value = "皆と楽しいピクニック～"
 	},
 	ins_discuss_251_1 = {
-		value = ""
+		value = "ゆっくり楽しめてよかったな～"
 	},
 	ins_reply_251_1_1 = {
-		value = ""
+		value = "いい天気でよかったですね～"
 	},
 	ins_discuss_251_2 = {
-		value = ""
+		value = "お昼寝にも…いい天気でしたね……Zzzz"
 	},
 	ins_reply_251_2_1 = {
-		value = ""
+		value = "ラフィーも眠くなった……Zzzz"
 	},
 	ins_discuss_251_3 = {
-		value = ""
+		value = "微笑ましいお天気でしたね"
 	},
 	ins_reply_251_3_1 = {
-		value = ""
+		value = "また今度一緒にピクニックしましょー"
 	},
 	ins_reply_251_3_2 = {
-		value = ""
+		value = "次は私がお弁当を用意しますね"
 	},
 	ins_op_251_1_1 = {
-		value = ""
+		value = "いい天気だった"
 	},
 	op_reply_251_1_1 = {
-		value = ""
+		value = "指揮官もそう思うでしょー？"
 	},
 	ins_op_251_1_2 = {
-		value = ""
+		value = "満潮のお弁当、美味しかった"
 	},
 	op_reply_251_1_2 = {
-		value = ""
+		value = "気に入ってくださってよかったですー"
 	},
 	ins_252 = {
-		value = ""
+		value = "ちょ、ちょっと揺れ過ぎじゃありませんか＞＜"
 	},
 	ins_discuss_252_1 = {
-		value = ""
+		value = "ロイヤルの艦船がパイレーツシップを怖れるんじゃないわ！"
 	},
 	ins_reply_252_1_1 = {
-		value = ""
+		value = "ががががんばりますぅ！？"
 	},
 	ins_reply_252_1_2 = {
-		value = ""
+		value = "ここだけの話ですけど、実は陛下は乗らなかったんですよねー"
 	},
 	ins_reply_252_1_3 = {
-		value = ""
+		value = "姉さん、そういうのは書き込まない方がいいですよ"
 	},
 	ins_reply_252_1_4 = {
-		value = ""
+		value = "！？ど、どうやって削除するの！？ベル助けて！！"
 	},
 	ins_discuss_252_2 = {
-		value = ""
+		value = "パイレーツシップに乗れて…フォーチュン、偉い……！"
 	},
 	ins_reply_252_2_1 = {
-		value = ""
+		value = "こんなに高く上がって、しかも速いなんて思わなかったです……"
 	},
 	ins_op_252_1_1 = {
-		value = ""
+		value = "次は難易度を下げよう"
 	},
 	op_reply_252_1_1 = {
-		value = ""
+		value = "指揮官、ありがとうございます＞＜"
 	},
 	ins_253 = {
-		value = ""
+		value = "もう……ムリ………"
 	},
 	ins_discuss_253_1 = {
-		value = ""
+		value = "ル・マランさま、どうしたんですか？！"
 	},
 	ins_reply_253_1_1 = {
-		value = ""
+		value = "アトラクション…回りすぎましたぁ……"
 	},
 	ins_reply_253_1_2 = {
-		value = ""
+		value = "はぁ…そうでしたか……"
 	},
 	ins_discuss_253_2 = {
-		value = ""
+		value = "姉さまって運動不足すぎませんか……？"
 	},
 	ins_reply_253_2_1 = {
-		value = ""
+		value = "遊園地…恐ろしかった……"
 	},
 	ins_op_253_1_1 = {
-		value = ""
+		value = "いきなりはしゃぎ過ぎはよくない"
 	},
 	op_reply_253_1_1 = {
-		value = ""
+		value = "次は…部屋の中で遊ばせて……"
 	},
 	ins_254 = {
-		value = ""
+		value = "なんだかんだで楽しかった"
 	},
 	ins_discuss_254_1 = {
-		value = ""
+		value = "一目でマサチューセッツが好きそうなやつだと思ったが合ってたな"
 	},
 	ins_reply_254_1_1 = {
-		value = ""
+		value = "うん。新記録、作ったし"
 	},
 	ins_discuss_254_2 = {
-		value = ""
+		value = "確かに、これは面白そうだ"
 	},
 	ins_reply_254_2_1 = {
-		value = ""
+		value = "今度アラバマと一緒に遊んでみようよ。アネキ"
 	},
 	ins_discuss_254_3 = {
-		value = ""
+		value = "ただの腕っぷしを試すだけのマシンだろ"
 	},
 	ins_reply_254_3_1 = {
-		value = ""
+		value = "ジャン・バール、これで勝負しない？"
 	},
 	ins_reply_254_3_2 = {
-		value = ""
+		value = "……また今度な"
 	},
 	ins_op_254_1_1 = {
-		value = ""
+		value = "そんなに簡単に記録を破るとは…"
 	},
 	op_reply_254_1_1 = {
-		value = ""
+		value = "指揮官も見てたからつい、ね"
 	},
 	ins_255 = {
-		value = ""
+		value = "すっっっっっごく可愛いインディちゃんのシャツですよ～！"
 	},
 	ins_discuss_255_1 = {
-		value = ""
+		value = "お姉ちゃん…恥ずかしいし作りすぎ………"
 	},
 	ins_reply_255_1_1 = {
-		value = ""
+		value = "インディちゃんの可愛さをみんなに布教しようと思ったらこの数じゃ全然足りないからねっ！"
 	},
 	ins_discuss_255_2 = {
-		value = ""
+		value = "ふにゃ…金儲けのためじゃなかったら明石わからないにゃ…"
 	},
 	ins_reply_255_2_1 = {
-		value = ""
+		value = "インディちゃんの可愛さをみんなに知ってもらうためのアメニティグッズです！はい！"
 	},
 	ins_reply_255_2_2 = {
-		value = ""
+		value = "お、お姉ちゃん…"
 	},
 	ins_op_255_1_1 = {
-		value = ""
+		value = "インディちゃん可愛い！"
 	},
 	op_reply_255_1_1 = {
-		value = ""
+		value = "そうでしょそうでしょう～！"
 	},
 	ins_256 = {
-		value = ""
+		value = "新しいおいしさの発見"
 	},
 	ins_discuss_256_1 = {
-		value = ""
+		value = "えへへ、行きつけのパン屋さんで無事に買えてよかったです"
 	},
 	ins_reply_256_1_1 = {
-		value = ""
+		value = "次は別のも買ってみましょう…！"
 	},
 	ins_discuss_256_2 = {
-		value = ""
+		value = "見た目だけでもう美味しそう…！"
 	},
 	ins_reply_256_2_1 = {
-		value = ""
+		value = "じゃあ556ちゃんにもあとで持っていくね"
 	},
 	ins_reply_256_2_2 = {
-		value = ""
+		value = "いいの！？よかった…！"
 	},
 	ins_op_256_1_1 = {
-		value = ""
+		value = "メロンパンは美味しいなあ"
 	},
 	op_reply_256_1_1 = {
-		value = ""
+		value = "次も指揮官さんの分を買いますね！"
 	},
 	all = {
 		ins_op_1_1_1,

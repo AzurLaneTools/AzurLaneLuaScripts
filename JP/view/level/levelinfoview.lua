@@ -15,6 +15,12 @@ function slot0.OnDestroy(slot0)
 
 	slot0.onConfirm = nil
 	slot0.onCancel = nil
+
+	if slot0.LTid then
+		LeanTween.cancel(slot0.LTid)
+
+		slot0.LTid = nil
+	end
 end
 
 function slot0.Show(slot0)
@@ -81,7 +87,8 @@ function slot0.InitUI(slot0)
 	slot0.descQuickPlay = slot0:findTF("desc", slot0.quickPlayGroup)
 	slot0.toggleQuickPlay = slot0.quickPlayGroup:GetComponent(typeof(Toggle))
 	slot0.bottomExtra = slot0:findTF("panel/BottomExtra")
-	slot0.bottomAnimator = slot0.bottomExtra:GetComponent(typeof(Animator))
+	slot0.layoutView = GetComponent(slot0.bottomExtra:Find("LoopGroup/view"), typeof(LayoutElement))
+	slot0.rtViewContainer = slot0.bottomExtra:Find("LoopGroup/view/container")
 
 	setText(slot0.bottomExtra:Find("LoopGroup/Loop/Text"), i18n("autofight_farm"))
 
@@ -89,7 +96,11 @@ function slot0.InitUI(slot0)
 	slot0.loopOn = slot0.loopToggle:Find("on")
 	slot0.loopOff = slot0.loopToggle:Find("off")
 	slot0.loopHelp = slot0.bottomExtra:Find("ButtonHelp")
-	slot0.autoFightToggle = slot0.bottomExtra:Find("LoopGroup/AutoFight")
+	slot0.costLimitTip = slot0.bottomExtra:Find("LoopGroup/view/container/CostLimit")
+
+	setActive(slot0.costLimitTip, false)
+
+	slot0.autoFightToggle = slot0.bottomExtra:Find("LoopGroup/view/container/AutoFight")
 
 	setText(slot0.autoFightToggle:Find("Text"), i18n("autofight"))
 
@@ -196,12 +207,11 @@ function slot0.set(slot0, slot1, slot2)
 
 		setActive(slot0.loopOn, slot13)
 		setActive(slot0.loopOff, not slot13)
+		setActive(slot0.costLimitTip, #pg.chapter_template_loop[slot1.id].use_oil_limit > 0)
 		onNextTick(function ()
-			if uv0.exited then
-				return
-			end
+			Canvas.ForceUpdateCanvases()
 
-			uv0.bottomAnimator:SetBool("IsActive", uv1)
+			uv0.layoutView.preferredWidth = uv1 and uv0.rtViewContainer.rect.width or 0
 		end)
 		onButton(slot0, slot0.loopToggle, function ()
 			if not uv0 then
@@ -214,7 +224,27 @@ function slot0.set(slot0, slot1, slot2)
 			PlayerPrefs.Save()
 			setActive(uv1.loopOn, slot0)
 			setActive(uv1.loopOff, not slot0)
-			uv1.bottomAnimator:SetBool("IsActive", slot0)
+
+			slot1 = 0
+			slot2 = 0
+
+			if slot0 then
+				slot2 = uv1.rtViewContainer.rect.width
+			else
+				slot1 = uv1.rtViewContainer.rect.width
+			end
+
+			if uv1.LTid then
+				LeanTween.cancel(uv1.LTid)
+
+				uv1.LTid = nil
+			end
+
+			uv1.LTid = LeanTween.value(slot1, slot2, 0.3):setOnUpdate(System.Action_float(function (slot0)
+				uv0.layoutView.preferredWidth = slot0
+			end)):setOnComplete(System.Action(function ()
+				uv0.LTid = nil
+			end)).uniqueId
 		end, SFX_PANEL)
 		onButton(slot0, slot0.loopHelp, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -231,7 +261,7 @@ function slot0.set(slot0, slot1, slot2)
 			end
 		end, SFX_UI_TAG)
 		triggerToggle(slot0.autoFightToggle, AutoBotCommand.autoBotSatisfied() and PlayerPrefs.GetInt("chapter_autofight_flag_" .. slot1.id, 1) == 1)
-		setActive(slot0.autoFightToggle, slot14)
+		setActive(slot0.autoFightToggle, slot15)
 	end
 
 	onButton(slot0, slot0.btnConfirm, function ()

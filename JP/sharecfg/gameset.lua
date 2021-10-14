@@ -433,7 +433,26 @@ pg.gameset = {
 	login_extra_voice = {
 		key_value = 0,
 		description = {
-			"extra"
+			40101,
+			30156,
+			10701,
+			30301,
+			20216,
+			10124,
+			40201,
+			40202,
+			40203,
+			20507,
+			40305,
+			20102,
+			30161,
+			20706,
+			30162,
+			20103,
+			40118,
+			20121,
+			10117,
+			30105
 		}
 	},
 	world_starting_story = {
@@ -2207,5 +2226,9 @@ pg.gameset = {
 			16502,
 			16503
 		}
+	},
+	vote_enlarge = {
+		description = "",
+		key_value = 23000
 	}
 }

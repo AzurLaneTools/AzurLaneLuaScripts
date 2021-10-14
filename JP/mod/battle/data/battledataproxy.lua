@@ -432,11 +432,20 @@ function slot8.SetSubmarinAidData(slot0)
 	slot0:GetFleetByIFF(uv0.FRIENDLY_CODE):SetSubAidData(slot0._battleInitData.TotalSubAmmo, slot0._battleInitData.SubFlag)
 end
 
+function slot8.AddWeather(slot0, slot1)
+	table.insert(slot0._weahter, slot1)
+	slot0:InitWeatherData()
+end
+
 function slot8.InitWeatherData(slot0)
 	for slot4, slot5 in ipairs(slot0._weahter) do
 		if slot5 == uv0.WEATHER.NIGHT then
 			for slot9, slot10 in pairs(slot0._fleetList) do
 				slot10:AttachNightCloak()
+			end
+
+			for slot9, slot10 in pairs(slot0._unitList) do
+				uv1.AttachWeather(slot10, slot0._weahter)
 			end
 		end
 	end
@@ -968,7 +977,7 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot0:InitSpecificEnemyStatistics(slot11)
 	end
 
-	if slot11:GetAimBias() then
+	if BATTLE_ENEMY_AIMBIAS_RANGE and slot11:GetAimBias() then
 		slot0:DispatchEvent(uv5.Event.New(uv6.ADD_AIM_BIAS, {
 			aimBias = slot11:GetAimBias()
 		}))
@@ -1113,9 +1122,15 @@ function slot8.KillUnit(slot0, slot1)
 	slot5 = slot2:GetDeathReason()
 
 	if slot2:GetAimBias() then
-		slot0:DispatchEvent(uv0.Event.New(uv1.REMOVE_AIM_BIAS, {
-			aimBias = slot2:GetAimBias()
-		}))
+		slot6 = slot2:GetAimBias()
+
+		slot6:RemoveCrew(slot2)
+
+		if slot6:GetCurrentState() == slot6.STATE_EXPIRE then
+			slot0:DispatchEvent(uv0.Event.New(uv1.REMOVE_AIM_BIAS, {
+				aimBias = slot2:GetAimBias()
+			}))
+		end
 	end
 
 	if slot2:IsSpectre() then

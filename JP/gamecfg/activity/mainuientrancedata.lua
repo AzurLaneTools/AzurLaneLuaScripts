@@ -1,7 +1,7 @@
 return {
 	{
 		Tip = "tip_1920",
-		Image = "event_all",
+		Image = "vote_main",
 		ButtonName = "activityButton"
 	},
 	{

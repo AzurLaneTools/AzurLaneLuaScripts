@@ -850,38 +850,45 @@ function slot0.getLastMap(slot0, slot1)
 	end
 end
 
-function slot0.getSubAidFlag(slot0)
-	slot1 = ys.Battle.BattleConst.SubAidFlag
-	slot2 = slot0.fleet
-	slot3 = false
+function slot0.getSubAidFlag(slot0, slot1)
+	slot2 = ys.Battle.BattleConst.SubAidFlag
+	slot3 = slot0.fleet
+	slot4 = false
 
 	if _.detect(slot0.fleets, function (slot0)
 		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid()
 	end) then
-		if slot4:inHuntingRange(slot2.line.row, slot2.line.column) then
-			slot3 = true
-		elseif _.detect(slot4:getStrategies(), function (slot0)
+		if slot5:inHuntingRange(slot3.line.row, slot3.line.column) then
+			slot4 = true
+		elseif _.detect(slot5:getStrategies(), function (slot0)
 			return slot0.id == ChapterConst.StrategyCallSubOutofRange
-		end) and slot6.count > 0 then
-			slot3 = true
+		end) and slot7.count > 0 then
+			slot4 = true
 		end
 	end
 
-	if slot3 then
-		slot6 = getProxy(PlayerProxy):getRawData()
-		slot7, slot8 = slot0:getFleetCost(slot2)
-		slot9, slot10 = slot0:getFleetAmmo(slot4)
-		slot11 = slot4:getSummonCost() * slot0:GetExtraCostRate()
+	if slot4 then
+		slot7 = getProxy(PlayerProxy):getRawData()
+		slot8, slot9 = slot0:getFleetCost(slot3, slot1)
+		slot10, slot11 = slot0:getFleetAmmo(slot5)
+		slot16 = slot0
+		slot17 = slot5
 
-		if slot10 <= 0 then
-			return slot1.AMMO_EMPTY
-		elseif slot6.oil < slot11 + slot8.oil then
-			return slot1.OIL_EMPTY
+		for slot16, slot17 in ipairs({
+			slot0.getFleetCost(slot16, slot17, slot1)
+		}) do
+			slot12 = 0 + slot17.oil
+		end
+
+		if slot11 <= 0 then
+			return slot2.AMMO_EMPTY
+		elseif slot7.oil < slot12 + slot9.oil then
+			return slot2.OIL_EMPTY
 		else
-			return true, slot4
+			return true, slot5
 		end
 	else
-		return slot1.AID_EMPTY
+		return slot2.AID_EMPTY
 	end
 end
 

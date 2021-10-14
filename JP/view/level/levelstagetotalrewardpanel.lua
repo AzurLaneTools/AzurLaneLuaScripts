@@ -10,18 +10,24 @@ function slot0.init(slot0)
 	slot0.window = slot0._tf:Find("Window")
 	slot0.boxView = slot0.window:Find("Layout/Box/ScrollView")
 	slot0.emptyTip = slot0.window:Find("Layout/Box/EmptyTip")
-	slot0.itemList = slot0.boxView:Find("Viewport/Content/ItemGrid")
+	slot0.itemList = slot0.boxView:Find("Content/ItemGrid")
 	slot1 = Instantiate(slot0.itemList:GetComponent(typeof(ItemList)).prefabItem[0])
 	slot1.name = "Icon"
 
 	setParent(slot1, slot0.itemList:Find("GridItem/Shell"))
 
+	slot0.itemListSub = slot0.boxView:Find("Content/ItemGridSub")
+
+	cloneTplTo(slot1, slot0.itemListSub:Find("GridItem/Shell"), slot1.name)
+
 	slot0.spList = slot0.window:Find("Fixed/SpList")
 
 	slot0.CloneIconTpl(slot0.spList:Find("Item/Active/Item"), "Icon")
 	setText(slot0.emptyTip, i18n("autofight_rewards_none"))
-	setText(slot0.window:Find("Fixed/top/bg/obtain/title"), i18n("autofight_rewards"))
-	setText(slot0.window:Find("Layout/Box/Title/Text"), i18n("battle_end_subtitle1"))
+	setText(slot0.window:Find("Fixed/top/bg/obtain/title"), slot0.contextData.title)
+	setText(slot0.window:Find("Fixed/top/bg/obtain/title/title_en"), slot0.contextData.subTitle)
+	setText(slot0.boxView:Find("Content/Title/Text"), i18n("battle_end_subtitle1"))
+	setText(slot0.boxView:Find("Content/TitleSub/Text"), i18n("settle_rewards_text"))
 end
 
 function slot0.didEnter(slot0)
@@ -134,88 +140,138 @@ function slot0.UpdateView(slot0)
 	end, SFX_CANCEL)
 	slot0:UpdateSPItem()
 
-	slot0.tweenItems = {}
-	slot3 = slot1.events
-	slot4 = slot1.guildTasks
-	slot5 = slot1.guildAutoReceives
-	slot7 = slot3 and #slot3 > 0
-	slot8 = slot4 and table.getCount(slot4) > 0
-	slot9 = slot5 and table.getCount(slot5) > 0
+	slot3 = slot1.resultRewards
+	slot4 = slot1.events
+	slot5 = slot1.guildTasks
+	slot6 = slot1.guildAutoReceives
+	slot8 = slot3 and #slot3 > 0
+	slot9 = slot4 and #slot4 > 0
+	slot10 = slot5 and table.getCount(slot5) > 0
+	slot11 = slot6 and table.getCount(slot6) > 0
+	slot12 = true
 
-	if slot1.rewards and #slot2 > 0 or slot7 or slot8 or slot9 then
-		setActive(slot0.window, true)
-		setActive(slot0.emptyTip, false)
-		setActive(slot0.boxView:Find("Viewport/Content/ItemGrid"), slot6)
+	setActive(slot0.boxView:Find("Content/Title"), false)
+	setActive(slot0.itemList, false)
 
-		if slot6 then
-			for slot14, slot15 in ipairs(CustomIndexLayer.Clone2Full(slot0.itemList, #slot2)) do
-				slot17 = slot10[slot14]
+	if slot1.rewards and #slot2 > 0 then
+		slot12 = false
+		slot0.hasRewards = true
 
-				updateDrop(slot17:Find("Shell/Icon"), slot2[slot14])
-				onButton(slot0, slot17:Find("Shell/Icon"), function ()
-					uv0:emit(BaseUI.ON_DROP, uv1)
-				end, SFX_PANEL)
-			end
+		table.insert({}, function (slot0)
+			setActive(uv0.boxView:Find("Content/Title"), true)
+			setActive(uv0.itemList, true)
+			slot0()
+		end)
 
-			slot11 = {}
+		for slot18, slot19 in ipairs(CustomIndexLayer.Clone2Full(slot0.itemList, #slot2)) do
+			slot21 = slot14[slot18]
 
-			for slot15 = 1, #slot2 do
-				setActive(slot10[slot15], false)
-				table.insert(slot11, function (slot0)
-					if not uv0.tweenItems then
-						slot0()
+			updateDrop(slot21:Find("Shell/Icon"), slot2[slot18])
+			onButton(slot0, slot21:Find("Shell/Icon"), function ()
+				uv0:emit(BaseUI.ON_DROP, uv1)
+			end, SFX_PANEL)
+		end
 
-						return
-					end
+		slot0.isRewardAnimating = true
+		slot15 = {}
 
-					setActive(uv1, true)
-					Canvas.ForceUpdateCanvases()
+		for slot19 = 1, #slot2 do
+			setActive(slot14[slot19], false)
+			table.insert(slot13, function (slot0)
+				if uv0.exited then
+					return
+				end
 
-					uv0.boxView:GetComponent(typeof(ScrollRect)).verticalNormalizedPosition = 0
+				setActive(uv1, true)
+				scrollTo(uv0.boxView:Find("Content"), {
+					y = 0
+				})
 
-					table.insert(uv0.tweenItems, LeanTween.delayedCall(uv2, System.Action(slot0)).id)
-				end)
-			end
-
-			slot0.isRewardAnimating = true
-
-			table.insert(slot11, function ()
-				uv0:SkipAnim()
+				uv0.LTid = LeanTween.delayedCall(uv2, System.Action(slot0)).uniqueId
 			end)
-			seriesAsync(slot11)
 		end
-
-		setActive(slot0.boxView:Find("Viewport/Content/TextArea"), slot7 or slot8)
-
-		slot10 = ""
-
-		if slot7 then
-			for slot14, slot15 in ipairs(slot3) do
-				slot10 = slot10 .. i18n("autofight_entrust", pg.collection_template[slot15] and pg.collection_template[slot15].title or "") .. "\n"
-			end
-		end
-
-		if slot8 then
-			for slot14, slot15 in pairs(slot4) do
-				slot10 = slot10 .. i18n("autofight_task", slot15) .. "\n"
-			end
-		end
-
-		if slot9 then
-			for slot14, slot15 in pairs(slot5) do
-				slot10 = slot10 .. i18n("guild_task_autoaccept_1", slot15) .. "\n"
-			end
-		end
-
-		if #slot10 > 0 then
-			slot10 = string.sub(slot10, 1, -2) or slot10
-		end
-
-		setText(slot0.boxView:Find("Viewport/Content/TextArea/Text"), slot10)
-	else
-		setActive(slot0.boxView, false)
-		setActive(slot0.emptyTip, true)
 	end
+
+	setActive(slot0.boxView:Find("Content/TitleSub"), false)
+	setActive(slot0.itemListSub, false)
+
+	if slot8 then
+		slot12 = false
+		slot0.hasResultRewards = true
+
+		table.insert(slot13, function (slot0)
+			setActive(uv0.boxView:Find("Content/TitleSub"), true)
+			setActive(uv0.itemListSub, true)
+			slot0()
+		end)
+
+		for slot18, slot19 in ipairs(CustomIndexLayer.Clone2Full(slot0.itemListSub, #slot3)) do
+			slot21 = slot14[slot18]
+
+			updateDrop(slot21:Find("Shell/Icon"), slot3[slot18])
+			onButton(slot0, slot21:Find("Shell/Icon"), function ()
+				uv0:emit(BaseUI.ON_DROP, uv1)
+			end, SFX_PANEL)
+		end
+
+		slot0.isRewardAnimating = true
+		slot15 = {}
+
+		for slot19 = 1, #slot3 do
+			setActive(slot14[slot19], false)
+			table.insert(slot13, function (slot0)
+				if uv0.exited then
+					return
+				end
+
+				setActive(uv1, true)
+				scrollTo(uv0.boxView:Find("Content"), {
+					y = 0
+				})
+
+				uv0.LTid = LeanTween.delayedCall(uv2, System.Action(slot0)).uniqueId
+			end)
+		end
+	end
+
+	setActive(slot0.boxView:Find("Content/TextArea"), false)
+
+	slot14 = {}
+
+	if slot9 then
+		for slot18, slot19 in ipairs(slot4) do
+			table.insert(slot14, i18n("autofight_entrust", pg.collection_template[slot19] and pg.collection_template[slot19].title or ""))
+		end
+	end
+
+	if slot10 then
+		for slot18, slot19 in pairs(slot5) do
+			table.insert(slot14, i18n("autofight_task", slot19))
+		end
+	end
+
+	if slot11 then
+		for slot18, slot19 in pairs(slot6) do
+			table.insert(slot14, i18n("guild_task_autoaccept_1", slot19))
+		end
+	end
+
+	if #slot14 > 0 then
+		slot12 = false
+		slot0.hasEventMsg = true
+
+		setText(slot0.boxView:Find("Content/TextArea/Text"), table.concat(slot14, "\n"))
+		table.insert(slot13, function (slot0)
+			setActive(uv0.boxView:Find("Content/TextArea"), true)
+			slot0()
+		end)
+	end
+
+	setActive(slot0.boxView, not slot12)
+	setActive(slot0.emptyTip, slot12)
+	seriesAsync(slot13, function ()
+		uv0:SkipAnim()
+	end)
 end
 
 function slot0.UpdateSPItem(slot0)
@@ -330,15 +386,25 @@ function slot0.SkipAnim(slot0)
 		return
 	end
 
-	for slot4, slot5 in ipairs(slot0.tweenItems) do
-		LeanTween.cancel(slot5)
-	end
-
-	for slot4 = 1, slot0.itemList.childCount do
-		setActive(slot0.itemList:GetChild(slot4 - 1), true)
-	end
-
 	slot0.isRewardAnimating = nil
+
+	if slot0.LTid then
+		LeanTween.cancel(slot0.LTid)
+
+		slot0.LTid = nil
+	end
+
+	eachChild(slot0.itemList, function (slot0)
+		setActive(slot0, true)
+	end)
+	eachChild(slot0.itemListSub, function (slot0)
+		setActive(slot0, true)
+	end)
+	setActive(slot0.boxView:Find("Content/Title"), slot0.hasRewards)
+	setActive(slot0.itemList, slot0.hasRewards)
+	setActive(slot0.boxView:Find("Content/TitleSub"), slot0.hasResultRewards)
+	setActive(slot0.itemListSub, slot0.hasResultRewards)
+	setActive(slot0.boxView:Find("Content/TextArea"), slot0.hasEventMsg)
 end
 
 return slot0

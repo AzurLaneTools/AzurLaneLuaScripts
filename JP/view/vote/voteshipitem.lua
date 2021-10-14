@@ -47,7 +47,7 @@ slot1 = {
 function slot0.wrapRankTxt(slot0, slot1)
 	if slot1 and slot1 <= 3 then
 		return string.format("<material=gradient from=#FF8c1c to=#ff0000 x=0 y=-1>%s<size=30>%s</size></material>", slot1, uv0[slot1])
-	elseif slot1 and slot1 > 3 and slot1 <= 10 then
+	elseif slot1 and slot1 > 3 and slot1 <= 20 then
 		return string.format("%s<size=30>%s</size>", slot1, "th")
 	else
 		return ""

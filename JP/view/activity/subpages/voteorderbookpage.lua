@@ -24,10 +24,12 @@ function slot0.OnInit(slot0)
 		slot0.voteTime = slot5.time_vote
 		slot0.title.text = slot5.name
 		slot4 = (function (slot0)
-			return VoteGroup.New({
+			slot1 = VoteGroup.New({
 				id = slot0,
 				list = {}
-			}):getTimeDesc()
+			})
+
+			return slot1:getTimeDesc() .. "\n" .. slot1:getConfig("desc")
 		end)(slot1)
 	elseif _.detect(pg.activity_vote.all, function (slot0)
 		return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_show)
@@ -96,7 +98,7 @@ end
 function slot0.OnFirstFlush(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.getBtn, function ()
-		if not getProxy(ActivityProxy):GetVoteActivity() or slot0:isEnd() then
+		if not getProxy(VoteProxy):GetVoteActivity() or slot0:isEnd() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return

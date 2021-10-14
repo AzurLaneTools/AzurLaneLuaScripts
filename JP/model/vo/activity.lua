@@ -101,6 +101,8 @@ function slot0.getDataConfigTable(slot0)
 		return pg.activity_event_monopoly[tonumber(slot0:getConfig("config_id"))]
 	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
 		return pg.activity_event_pt[tonumber(slot2)]
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_VOTE then
+		return pg.activity_vote[tonumber(slot2)]
 	end
 end
 

@@ -1233,15 +1233,18 @@ pg.memory_group = {
 		}
 	},
 	[166] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
+		icon = "title_chara_rongyaodiantang",
+		subtype = 0,
+		type = 3,
 		id = 166,
 		title = "SPストーリー",
 		memories = {
 			891,
 			892,
-			894
+			894,
+			1871,
+			1872,
+			1873
 		}
 	},
 	[167] = {
@@ -3300,6 +3303,22 @@ pg.memory_group = {
 			1857
 		}
 	},
+	[570] = {
+		icon = "title_chara_junhe",
+		subtype = 0,
+		type = 3,
+		id = 570,
+		title = "裏表魅力MAXガール",
+		memories = {
+			1861,
+			1862,
+			1863,
+			1864,
+			1865,
+			1866,
+			1867
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3473,6 +3492,7 @@ pg.memory_group = {
 		566,
 		567,
 		568,
-		569
+		569,
+		570
 	}
 }

@@ -84,7 +84,7 @@ function slot0.showCustomMsgBox(slot0, slot1)
 					slot11 = getProxy(BagProxy):getItemCountById(slot10.id)
 				end
 
-				setText(slot9:Find("icon_bg/count"), slot11 .. "/" .. (slot11 < slot10.count and "<color=#D6341DFF>" .. slot10.count .. "</color>" or "<color=#A9F548FF>" .. slot10.count .. "</color>"))
+				setText(slot9:Find("icon_bg/count"), (slot11 < slot10.count and "<color=#D6341DFF>" .. slot11 .. "</color>" or "<color=#A9F548FF>" .. slot11 .. "</color>") .. "/" .. slot12)
 			end
 		end
 

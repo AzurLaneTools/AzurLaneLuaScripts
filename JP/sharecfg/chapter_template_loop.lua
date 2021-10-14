@@ -8,7 +8,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 3,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 1,
 		is_limit_move = 0,
@@ -20,7 +20,7 @@ pg.chapter_template_loop = {
 		time = 99999999,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -82,6 +82,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				4,
@@ -172,7 +173,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 3,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
@@ -184,7 +185,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -277,6 +278,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -441,7 +443,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 3,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
@@ -453,7 +455,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -564,6 +566,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -746,7 +749,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -758,7 +761,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -937,6 +940,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -1133,7 +1137,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
@@ -1145,7 +1149,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.665,
@@ -1381,6 +1385,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -1614,7 +1619,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -1626,7 +1631,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.665,
@@ -1863,6 +1868,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -2148,7 +2154,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -2160,7 +2166,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -2397,6 +2403,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -2659,7 +2666,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -2671,7 +2678,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.38,
@@ -2908,6 +2915,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -3140,7 +3148,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -3152,7 +3160,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -3390,6 +3398,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -3641,7 +3650,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -3653,7 +3662,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -3891,6 +3900,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -4166,7 +4176,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 7,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -4178,7 +4188,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.64,
@@ -4416,6 +4426,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -4686,7 +4697,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 7,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -4698,7 +4709,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.53,
@@ -4936,6 +4947,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -5192,7 +5204,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -5204,7 +5216,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -5318,6 +5330,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -5617,7 +5630,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -5629,7 +5642,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.4,
@@ -5743,6 +5756,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -6035,7 +6049,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -6047,7 +6061,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -6161,6 +6175,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -6398,7 +6413,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -6410,7 +6425,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.63,
@@ -6525,6 +6540,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -6898,7 +6914,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -6910,7 +6926,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -7025,6 +7041,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -7403,7 +7420,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -7415,7 +7432,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -7530,6 +7547,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -7846,7 +7864,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -7858,7 +7876,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.54,
@@ -7973,6 +7991,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -8259,7 +8278,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -8271,7 +8290,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.51,
@@ -8386,6 +8405,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -8697,7 +8717,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -8709,7 +8729,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -8824,6 +8844,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -9173,7 +9194,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -9185,7 +9206,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.55,
@@ -9300,6 +9321,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -9705,7 +9727,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -9717,7 +9739,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.36,
@@ -9832,6 +9854,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -10161,7 +10184,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -10173,7 +10196,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.338,
@@ -10288,6 +10311,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -10661,7 +10685,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -10673,7 +10697,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -10773,6 +10797,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -10984,7 +11009,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -10996,7 +11021,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.55,
@@ -11096,6 +11121,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -11410,7 +11436,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -11422,7 +11448,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.36,
@@ -11522,6 +11548,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -11906,7 +11933,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -11918,7 +11945,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.338,
@@ -12018,6 +12045,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -12387,7 +12415,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -12399,7 +12427,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -12499,6 +12527,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -12732,7 +12761,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 17,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -12744,7 +12773,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.55,
@@ -12844,6 +12873,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -13163,7 +13193,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 17,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -13175,7 +13205,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.36,
@@ -13275,6 +13305,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -13657,7 +13688,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 18,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -13669,7 +13700,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.338,
@@ -13769,6 +13800,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -14214,7 +14246,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 17,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -14226,7 +14258,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.36,
@@ -14327,6 +14359,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			27,
+			37,
+			15
 		},
 		grids = {
 			{
@@ -14626,9 +14663,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -14653,7 +14687,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 18,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -14665,7 +14699,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.35,
@@ -14766,6 +14800,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			28,
+			38,
+			15
 		},
 		grids = {
 			{
@@ -15102,9 +15141,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -15130,7 +15166,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 18,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -15142,7 +15178,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -15243,6 +15279,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			29,
+			39,
+			15
 		},
 		grids = {
 			{
@@ -15604,9 +15645,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -15631,7 +15669,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 19,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -15643,7 +15681,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -15744,6 +15782,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			30,
+			40,
+			15
 		},
 		grids = {
 			{
@@ -16127,9 +16170,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -16154,7 +16194,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 18,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -16166,7 +16206,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -16266,6 +16306,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			31,
+			42,
+			16
 		},
 		grids = {
 			{
@@ -16584,9 +16629,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -16611,7 +16653,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 19,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -16623,7 +16665,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.55,
@@ -16723,6 +16765,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			32,
+			43,
+			16
 		},
 		grids = {
 			{
@@ -17098,9 +17145,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -17125,7 +17169,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 19,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -17137,7 +17181,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.36,
@@ -17238,6 +17282,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			33,
+			44,
+			16
 		},
 		grids = {
 			{
@@ -17628,9 +17677,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -17656,7 +17702,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 20,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -17668,7 +17714,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.338,
@@ -17770,6 +17816,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			34,
+			45,
+			16
 		},
 		grids = {
 			{
@@ -18174,9 +18225,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -18201,7 +18249,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 19,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -18213,7 +18261,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.38,
@@ -18312,6 +18360,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			35,
+			47,
+			16
 		},
 		grids = {
 			{
@@ -18680,9 +18733,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -18707,7 +18757,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 20,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -18719,7 +18769,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.38,
@@ -18819,6 +18869,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			36,
+			48,
+			16
 		},
 		grids = {
 			{
@@ -19302,9 +19357,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -19329,7 +19381,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 20,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -19341,7 +19393,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.65,
@@ -19442,6 +19494,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			37,
+			49,
+			16
 		},
 		grids = {
 			{
@@ -19893,9 +19950,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -19920,7 +19974,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 21,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -19932,7 +19986,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.65,
@@ -20034,6 +20088,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			38,
+			50,
+			16
 		},
 		grids = {
 			{
@@ -20594,9 +20653,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -20621,7 +20677,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 20,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -20633,7 +20689,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.35,
@@ -20732,6 +20788,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			39,
+			52,
+			17
 		},
 		grids = {
 			{
@@ -21079,9 +21140,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -21106,7 +21164,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 21,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -21118,7 +21176,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -21218,6 +21276,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			40,
+			53,
+			17
 		},
 		grids = {
 			{
@@ -21676,9 +21739,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -21703,7 +21763,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 21,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -21715,7 +21775,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -21816,6 +21876,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			41,
+			54,
+			17
 		},
 		grids = {
 			{
@@ -22309,9 +22374,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -22336,7 +22398,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 22,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -22348,7 +22410,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -22450,6 +22512,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			42,
+			55,
+			17
 		},
 		grids = {
 			{
@@ -23058,9 +23125,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -23085,7 +23149,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 21,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -23097,7 +23161,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.35,
@@ -23215,6 +23279,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			43,
+			57,
+			18
 		},
 		grids = {
 			{
@@ -23555,9 +23624,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -23582,7 +23648,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 22,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -23594,7 +23660,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -23713,6 +23779,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			44,
+			58,
+			18
 		},
 		grids = {
 			{
@@ -24157,9 +24228,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -24184,7 +24252,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 22,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -24196,7 +24264,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -24316,6 +24384,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			45,
+			59,
+			18
 		},
 		grids = {
 			{
@@ -24802,9 +24875,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -24829,7 +24899,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 23,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 7,
 		is_limit_move = 0,
@@ -24841,7 +24911,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -24963,6 +25033,11 @@ pg.chapter_template_loop = {
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			46,
+			60,
+			18
 		},
 		grids = {
 			{
@@ -25557,9 +25632,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -25589,7 +25661,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -25597,7 +25669,7 @@ pg.chapter_template_loop = {
 		time = 99999999,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.34,
@@ -25672,6 +25744,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				4,
@@ -25762,7 +25835,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -25770,7 +25843,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.34,
@@ -25845,6 +25918,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -26009,7 +26083,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -26017,7 +26091,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.52,
@@ -26095,6 +26169,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -26277,7 +26352,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -26285,7 +26360,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -26366,6 +26441,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -26562,7 +26638,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -26570,7 +26646,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.665,
@@ -26664,6 +26740,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -26897,7 +26974,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -26905,7 +26982,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.665,
@@ -26999,6 +27076,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -27284,7 +27362,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -27292,7 +27370,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.34,
@@ -27386,6 +27464,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -27648,7 +27727,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -27656,7 +27735,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.38,
@@ -27750,6 +27829,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -27982,7 +28062,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -27990,7 +28070,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.34,
@@ -28085,6 +28165,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -28336,7 +28417,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -28344,7 +28425,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.34,
@@ -28439,6 +28520,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -28714,7 +28796,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -28722,7 +28804,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.64,
@@ -28817,6 +28899,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -29087,7 +29170,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -29095,7 +29178,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.53,
@@ -29190,6 +29273,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -29446,7 +29530,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -29454,7 +29538,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.34,
@@ -29543,6 +29627,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -29842,7 +29927,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -29850,7 +29935,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.4,
@@ -29939,6 +30024,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -30231,7 +30317,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -30239,7 +30325,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -30328,6 +30414,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -30565,7 +30652,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -30573,7 +30660,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.63,
@@ -30662,6 +30749,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -31035,7 +31123,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -31043,7 +31131,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.34,
@@ -31132,6 +31220,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -31510,7 +31599,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -31518,7 +31607,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -31607,6 +31696,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -31923,7 +32013,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -31931,7 +32021,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.54,
@@ -32020,6 +32110,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -32306,7 +32397,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -32314,7 +32405,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.51,
@@ -32403,6 +32494,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -32714,7 +32806,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -32722,7 +32814,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -32811,6 +32903,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -33161,7 +33254,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -33169,7 +33262,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.55,
@@ -33258,6 +33351,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -33664,7 +33758,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -33672,7 +33766,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.36,
@@ -33761,6 +33855,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -34091,7 +34186,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -34099,7 +34194,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.338,
@@ -34188,6 +34283,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -34562,7 +34658,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -34570,7 +34666,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -34659,6 +34755,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -34871,7 +34968,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -34879,7 +34976,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.55,
@@ -34968,6 +35065,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -35283,7 +35381,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -35291,7 +35389,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.36,
@@ -35380,6 +35478,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -35765,7 +35864,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -35773,7 +35872,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.338,
@@ -35862,6 +35961,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -36232,7 +36332,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -36240,7 +36340,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -36329,6 +36429,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -36563,7 +36664,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -36571,7 +36672,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.55,
@@ -36660,6 +36761,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -36980,7 +37082,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -36988,7 +37090,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.36,
@@ -37077,6 +37179,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -37460,7 +37563,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -37468,7 +37571,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.338,
@@ -37557,6 +37660,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -38003,7 +38107,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -38011,7 +38115,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.36,
@@ -38100,6 +38204,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -38426,7 +38531,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -38434,7 +38539,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.35,
@@ -38523,6 +38628,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -38887,7 +38993,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -38895,7 +39001,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -38984,6 +39090,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -39372,7 +39479,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -39380,7 +39487,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -39469,6 +39576,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -39879,7 +39987,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -39887,7 +39995,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -39975,6 +40083,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -40320,7 +40429,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -40328,7 +40437,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.55,
@@ -40416,6 +40525,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -40818,7 +40928,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -40826,7 +40936,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.36,
@@ -40915,6 +41025,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -41333,7 +41444,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -41341,7 +41452,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.338,
@@ -41431,6 +41542,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -41862,7 +41974,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -41870,7 +41982,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.38,
@@ -41958,6 +42070,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -42353,7 +42466,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -42361,7 +42474,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.38,
@@ -42449,6 +42562,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -42959,7 +43073,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -42967,7 +43081,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.65,
@@ -43056,6 +43170,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -43534,7 +43649,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -43542,7 +43657,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.65,
@@ -43632,6 +43747,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -44219,7 +44335,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -44227,7 +44343,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.35,
@@ -44315,6 +44431,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -44689,7 +44806,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -44697,7 +44814,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -44785,6 +44902,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -45270,7 +45388,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -45278,7 +45396,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -45367,6 +45485,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -45887,7 +46006,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 0,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -45895,7 +46014,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "UIhuohua2",
 		scale = {
 			0.66,
@@ -45985,6 +46104,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -46620,7 +46740,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -46628,7 +46748,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -46716,6 +46836,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				4,
@@ -47035,7 +47156,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -47043,7 +47164,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -47131,6 +47252,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -47511,7 +47633,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -47519,7 +47641,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -47609,6 +47731,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -48026,7 +48149,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -48034,7 +48157,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -48122,6 +48245,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				4,
@@ -48441,7 +48565,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -48449,7 +48573,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -48537,6 +48661,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -48917,7 +49042,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 0,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -48925,7 +49050,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -49015,6 +49140,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -49432,7 +49558,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -49440,7 +49566,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -49541,6 +49667,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -49883,7 +50010,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -49891,7 +50018,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -49993,6 +50120,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -50440,7 +50568,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -50448,7 +50576,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -50551,6 +50679,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -51109,7 +51238,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -51117,7 +51246,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -51219,6 +51348,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -51572,7 +51702,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -51580,7 +51710,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -51683,6 +51813,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -52141,7 +52272,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -52149,7 +52280,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -52253,6 +52384,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -52839,7 +52971,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -52847,7 +52979,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -52989,6 +53121,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -53331,7 +53464,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -53339,7 +53472,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -53482,6 +53615,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -53929,7 +54063,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -53937,7 +54071,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -54081,6 +54215,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -54639,7 +54774,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -54647,7 +54782,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -54792,6 +54927,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -55145,7 +55281,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -55153,7 +55289,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -55299,6 +55435,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -55757,7 +55894,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -55765,7 +55902,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -55912,6 +56049,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -56491,7 +56629,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -56499,7 +56637,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -56565,6 +56703,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -57113,7 +57252,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 18,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -57121,7 +57260,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -57187,6 +57326,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -57744,7 +57884,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 21,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -57752,7 +57892,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -57819,6 +57959,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -58370,7 +58511,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -58378,7 +58519,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -58481,6 +58622,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				4,
@@ -58824,7 +58966,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -58832,7 +58974,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -58933,6 +59075,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -59473,7 +59616,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -59481,7 +59624,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.65,
@@ -59584,6 +59727,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -60142,7 +60286,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -60150,7 +60294,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.62,
@@ -60257,6 +60401,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -60845,7 +60990,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -60853,7 +60998,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -60955,6 +61100,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -61312,7 +61458,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -61320,7 +61466,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -61423,6 +61569,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -61786,7 +61933,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -61794,7 +61941,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -61898,6 +62045,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -62345,7 +62493,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -62353,7 +62501,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -62455,6 +62603,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -62909,7 +63058,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -62917,7 +63066,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -63020,6 +63169,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -63516,7 +63666,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -63524,7 +63674,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -63628,6 +63778,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -64089,7 +64240,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -64097,7 +64248,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -64241,6 +64392,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -64598,7 +64750,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -64606,7 +64758,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -64751,6 +64903,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -65114,7 +65267,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -65122,7 +65275,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -65268,6 +65421,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -65715,7 +65869,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -65723,7 +65877,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -65867,6 +66021,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -66321,7 +66476,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -66329,7 +66484,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -66476,6 +66631,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -66972,7 +67128,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -66980,7 +67136,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -67128,6 +67284,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -67589,7 +67746,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -67597,7 +67754,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -67698,6 +67855,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -68036,7 +68194,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -68044,7 +68202,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -68146,6 +68304,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -68589,7 +68748,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -68597,7 +68756,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -68700,6 +68859,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -69254,7 +69414,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -69262,7 +69422,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -69364,6 +69524,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -69713,7 +69874,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -69721,7 +69882,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -69824,6 +69985,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -70278,7 +70440,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -70286,7 +70448,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -70390,6 +70552,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -70965,7 +71128,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -70973,7 +71136,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -71115,6 +71278,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -71453,7 +71617,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -71461,7 +71625,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -71604,6 +71768,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -72047,7 +72212,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -72055,7 +72220,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -72199,6 +72364,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -72753,7 +72919,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -72761,7 +72927,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -72906,6 +73072,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -73255,7 +73422,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -73263,7 +73430,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -73409,6 +73576,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -73863,7 +74031,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -73871,7 +74039,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -74018,6 +74186,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -74593,7 +74762,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 3,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -74601,7 +74770,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -74703,6 +74872,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -75073,7 +75243,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -75081,7 +75251,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -75184,6 +75354,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -75602,7 +75773,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -75610,7 +75781,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -75714,6 +75885,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -76228,7 +76400,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -76236,7 +76408,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -76339,6 +76511,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -76751,7 +76924,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -76759,7 +76932,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -76863,6 +77036,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -77317,7 +77491,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -77325,7 +77499,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -77430,6 +77604,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -77849,7 +78024,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -77857,7 +78032,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -78001,6 +78176,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -78371,7 +78547,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -78379,7 +78555,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -78524,6 +78700,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -78942,7 +79119,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -78950,7 +79127,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -79091,6 +79268,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -79605,7 +79783,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -79613,7 +79791,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -79758,6 +79936,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -80170,7 +80349,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -80178,7 +80357,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -80326,6 +80505,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -80780,7 +80960,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -80788,7 +80968,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -80937,6 +81117,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -81356,7 +81537,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 3,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -81364,7 +81545,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -81466,6 +81647,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -81830,7 +82012,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -81838,7 +82020,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -81936,6 +82118,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -82324,7 +82507,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -82332,7 +82515,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -82436,6 +82619,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -82908,7 +83092,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -82916,7 +83100,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -83004,6 +83188,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -83416,7 +83601,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -83424,7 +83609,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -83512,6 +83697,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -83966,7 +84152,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -83974,7 +84160,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -84063,6 +84249,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -84475,7 +84662,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -84483,7 +84670,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -84627,6 +84814,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -84991,7 +85179,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -84999,7 +85187,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -85137,6 +85325,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -85525,7 +85714,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -85533,7 +85722,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -85678,6 +85867,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -86150,7 +86340,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -86158,7 +86348,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -86287,6 +86477,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -86699,7 +86890,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -86707,7 +86898,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -86839,6 +87030,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -87293,7 +87485,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -87301,7 +87493,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -87433,6 +87625,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -87845,7 +88038,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -87853,7 +88046,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -87956,6 +88149,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -88317,7 +88511,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -88325,7 +88519,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -88429,6 +88623,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -88894,7 +89089,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -88902,7 +89097,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -89007,6 +89202,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -89430,14 +89626,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -89554,6 +89750,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -89928,14 +90125,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -90053,6 +90250,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -90518,14 +90716,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -90644,6 +90842,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -91109,14 +91308,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -91236,6 +91435,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -91701,14 +91901,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -91830,6 +92030,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -92288,7 +92489,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -92296,7 +92497,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -92399,6 +92600,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -92787,7 +92989,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -92795,7 +92997,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -92899,6 +93101,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -93385,7 +93588,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -93393,7 +93596,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -93499,6 +93702,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -93978,7 +94182,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -93986,7 +94190,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -94091,6 +94295,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -94577,7 +94782,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -94585,7 +94790,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -94690,6 +94895,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -95120,7 +95326,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -95128,7 +95334,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -95236,6 +95442,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -95722,7 +95929,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 3,
 		is_limit_move = 0,
 		investigation_ratio = 3,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -95730,7 +95937,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -95832,6 +96039,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -96196,7 +96404,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -96204,7 +96412,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -96306,6 +96514,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -96683,7 +96892,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -96691,7 +96900,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -96793,6 +97002,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -97193,7 +97403,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -97201,7 +97411,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -97304,6 +97514,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -97716,7 +97927,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -97724,7 +97935,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -97827,6 +98038,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -98288,7 +98500,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -98296,7 +98508,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -98400,6 +98612,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -98819,7 +99032,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -98827,7 +99040,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -98971,6 +99184,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -99335,7 +99549,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -99343,7 +99557,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -99488,6 +99702,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -99865,7 +100080,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -99873,7 +100088,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -100018,6 +100233,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -100418,7 +100634,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -100426,7 +100642,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -100571,6 +100787,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -100983,7 +101200,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -100991,7 +101208,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -101138,6 +101355,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -101599,7 +101817,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -101607,7 +101825,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -101755,6 +101973,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -102174,7 +102393,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 3,
 		is_limit_move = 0,
 		investigation_ratio = 3,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -102182,7 +102401,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -102283,6 +102502,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -102659,7 +102879,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -102667,7 +102887,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -102768,6 +102988,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -103131,7 +103352,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -103139,7 +103360,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -103241,6 +103462,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -103641,7 +103863,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -103649,7 +103871,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -103752,6 +103974,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -104171,7 +104394,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -104179,7 +104402,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -104282,6 +104505,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -104646,7 +104870,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -104654,7 +104878,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -104757,6 +104981,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -105176,7 +105401,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -105184,7 +105409,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -105328,6 +105553,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -105704,7 +105930,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -105712,7 +105938,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -105856,6 +106082,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -106219,7 +106446,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -106227,7 +106454,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -106371,6 +106598,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -106771,7 +106999,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -106779,7 +107007,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -106924,6 +107152,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -107343,7 +107572,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -107351,7 +107580,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -107498,6 +107727,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -107862,7 +108092,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -107870,7 +108100,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -108017,6 +108247,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -108436,7 +108667,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -108444,7 +108675,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -108547,6 +108778,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				4,
@@ -108866,7 +109098,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -108874,7 +109106,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -108977,6 +109209,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -109357,7 +109590,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -109365,7 +109598,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -109470,6 +109703,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -109887,14 +110121,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 3,
 		is_limit_move = 0,
 		investigation_ratio = 3,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -110004,6 +110238,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -110332,14 +110567,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -110449,6 +110684,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -110806,14 +111042,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -110923,6 +111159,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -111300,14 +111537,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -111419,6 +111656,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -111831,14 +112069,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -111950,6 +112188,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -112350,14 +112589,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -112469,6 +112708,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -112937,14 +113177,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -113096,6 +113336,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -113424,14 +113665,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -113583,6 +113824,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -113940,14 +114182,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -114100,6 +114342,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -114477,14 +114720,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -114638,6 +114881,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -115050,14 +115294,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -115213,6 +115457,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -115613,14 +115858,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -115776,6 +116021,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -116244,7 +116490,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 3,
 		is_limit_move = 0,
 		investigation_ratio = 3,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -116252,7 +116498,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -116353,6 +116599,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -116745,7 +116992,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -116753,7 +117000,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -116855,6 +117102,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -117217,7 +117465,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -117225,7 +117473,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -117328,6 +117576,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -117781,7 +118030,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -117789,7 +118038,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -117891,6 +118140,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -118351,7 +118601,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -118359,7 +118609,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -118462,6 +118712,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -118964,7 +119215,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -118972,7 +119223,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -119076,6 +119327,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -119543,7 +119795,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -119551,7 +119803,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -119694,6 +119946,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -120086,7 +120339,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -120094,7 +120347,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -120238,6 +120491,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -120600,7 +120854,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -120608,7 +120862,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -120753,6 +121007,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -121206,7 +121461,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -121214,7 +121469,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -121358,6 +121613,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -121818,7 +122074,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -121826,7 +122082,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -121973,6 +122229,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -122475,7 +122732,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -122483,7 +122740,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -122631,6 +122888,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -123098,7 +123356,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -123106,7 +123364,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -123184,6 +123442,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -123610,7 +123869,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -123618,7 +123877,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -123696,6 +123955,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -124182,7 +124442,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -124190,7 +124450,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -124270,6 +124530,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -124751,14 +125012,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 3,
 		is_limit_move = 0,
 		investigation_ratio = 3,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -124855,6 +125116,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -125234,14 +125496,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -125338,6 +125600,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -125746,14 +126009,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -125850,6 +126113,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -126270,14 +126534,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -126376,6 +126640,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -126784,14 +127049,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -126890,6 +127155,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -127600,14 +127866,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -127706,6 +127972,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -129084,14 +129351,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -129230,6 +129497,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -129609,14 +129877,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 4,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -129755,6 +130023,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -130163,14 +130432,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -130310,6 +130579,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -130730,14 +131000,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 5,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -130877,6 +131147,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -131285,14 +131556,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -131434,6 +131705,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -132144,14 +132416,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 6,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -132293,6 +132565,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -133671,7 +133944,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -133679,7 +133952,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -133743,6 +134016,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -134316,7 +134590,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -134324,7 +134598,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -134388,6 +134662,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -134968,7 +135243,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -134976,7 +135251,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -135042,6 +135317,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -135615,14 +135891,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 3,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -135721,6 +135997,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -136190,14 +136467,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -136298,6 +136575,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -136749,14 +137027,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -136854,6 +137132,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -137329,14 +137608,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -137436,6 +137715,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -137966,14 +138246,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -138075,6 +138355,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -138628,14 +138909,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -138739,6 +139020,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -139384,14 +139666,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -139531,6 +139813,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -140000,14 +140283,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -140149,6 +140432,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -140600,14 +140884,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -140746,6 +141030,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -141221,14 +141506,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -141369,6 +141654,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -141899,14 +142185,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -142051,6 +142337,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -142604,14 +142891,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -142758,6 +143045,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -143403,7 +143691,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -143411,7 +143699,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -143514,6 +143802,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -143875,7 +144164,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -143883,7 +144172,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -143987,6 +144276,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -144452,7 +144742,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -144460,7 +144750,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -144565,6 +144855,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -144988,14 +145279,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 3,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -145096,6 +145387,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -145454,14 +145746,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -145563,6 +145855,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -145927,14 +146220,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -146037,6 +146330,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -146485,14 +146779,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -146594,6 +146888,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -147049,14 +147344,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -147159,6 +147454,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -147656,14 +147952,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -147767,6 +148063,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -148229,14 +148526,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -148379,6 +148676,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -148737,14 +149035,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -148888,6 +149186,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -149252,14 +149551,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -149404,6 +149703,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -149852,14 +150152,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -150003,6 +150303,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -150458,14 +150759,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -150612,6 +150913,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -151109,14 +151411,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -151264,6 +151566,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -151726,14 +152029,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 3,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -151831,6 +152134,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -152414,14 +152718,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -152518,6 +152822,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -152961,14 +153266,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -153065,6 +153370,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -153658,14 +153964,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -153764,6 +154070,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -154507,14 +154814,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -154613,6 +154920,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -155234,14 +155542,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -155340,6 +155648,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -156149,14 +156458,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -156295,6 +156604,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -156878,14 +157188,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -157024,6 +157334,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -157467,14 +157778,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -157613,6 +157924,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -158206,14 +158518,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -158353,6 +158665,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -159096,14 +159409,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -159245,6 +159558,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -159866,14 +160180,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -160016,6 +160330,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -160825,7 +161140,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -160833,7 +161148,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -160919,6 +161234,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -161326,7 +161642,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -161334,7 +161650,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -161420,6 +161736,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -161839,7 +162156,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -161847,7 +162164,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -161935,6 +162252,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -162349,14 +162667,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -162460,6 +162778,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -162839,14 +163158,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -162951,6 +163270,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -163414,14 +163734,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -163526,6 +163846,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -163996,14 +164317,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -164109,6 +164430,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -164593,14 +164915,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 6,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -164714,6 +165036,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -165402,14 +165725,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -165475,6 +165798,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -166021,14 +166345,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -166094,6 +166418,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -166656,14 +166981,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -166730,6 +167055,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -167279,14 +167605,14 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
 		friendly_id = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -167380,6 +167706,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -167800,7 +168127,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 4,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -167808,7 +168135,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -167902,6 +168229,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -168377,7 +168705,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -168385,7 +168713,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -168480,6 +168808,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -168955,7 +169284,7 @@ pg.chapter_template_loop = {
 		boss_refresh = 5,
 		is_limit_move = 0,
 		investigation_ratio = 0,
-		mine_id = 2001,
+		submarine_num = 1,
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
@@ -168963,7 +169292,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -169060,6 +169389,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -169605,7 +169935,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -169616,7 +169946,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -169714,6 +170044,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -170185,7 +170516,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -170196,7 +170527,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -170295,6 +170626,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -170755,7 +171087,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -170766,7 +171098,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -170864,6 +171196,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -171317,7 +171650,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -171328,7 +171661,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -171428,6 +171761,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -171974,7 +172308,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -171985,7 +172319,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -172086,6 +172420,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -172676,7 +173011,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -172687,7 +173022,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -172787,6 +173122,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -173543,7 +173879,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -173554,7 +173890,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -173693,6 +174029,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -174164,7 +174501,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -174175,7 +174512,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -174315,6 +174652,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -174775,7 +175113,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -174786,7 +175124,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -174927,6 +175265,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -175380,7 +175719,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -175391,7 +175730,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -175532,6 +175871,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -176078,7 +176418,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -176089,7 +176429,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -176233,6 +176573,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -176823,7 +177164,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -176834,7 +177175,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -176977,6 +177318,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -177733,7 +178075,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -177745,7 +178087,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -177847,6 +178189,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -178210,7 +178553,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 10,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -178222,7 +178565,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -178320,6 +178663,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -178707,7 +179051,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 10,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -178719,7 +179063,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -178823,6 +179167,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -179294,7 +179639,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -179306,7 +179651,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -179394,6 +179739,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -179805,7 +180151,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -179817,7 +180163,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -179905,6 +180251,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -180358,7 +180705,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -180369,7 +180716,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -180458,6 +180805,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -180870,7 +181218,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -180882,7 +181230,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -181026,6 +181374,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -181389,7 +181738,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 10,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -181401,7 +181750,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -181539,6 +181888,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -181926,7 +182276,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 10,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -181938,7 +182288,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -182083,6 +182433,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -182554,7 +182905,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -182566,7 +182917,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -182695,6 +183046,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -183106,7 +183458,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -183118,7 +183470,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -183250,6 +183602,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -183703,7 +184056,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -183714,7 +184067,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -183846,6 +184199,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -184258,7 +184612,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -184269,7 +184623,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -184366,6 +184720,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -184834,7 +185189,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -184845,7 +185200,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -184942,6 +185297,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -185424,7 +185780,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -185435,7 +185791,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -185532,6 +185888,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -186225,7 +186582,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -186236,7 +186593,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -186335,6 +186692,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -186909,7 +187267,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -186920,7 +187278,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -187019,6 +187377,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -187616,7 +187975,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -187627,7 +187986,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -187727,6 +188086,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -188423,7 +188783,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -188434,7 +188794,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -188573,6 +188933,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -189041,7 +189402,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -189052,7 +189413,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -189191,6 +189552,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -189673,7 +190035,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -189684,7 +190046,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -189824,6 +190186,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -190517,7 +190880,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -190528,7 +190891,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -190668,6 +191031,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -191242,7 +191606,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -191253,7 +191617,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -191395,6 +191759,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -191992,7 +192357,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -192003,7 +192368,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -192146,6 +192511,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -192842,7 +193208,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 10,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -192854,7 +193220,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -192956,6 +193322,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -193325,7 +193692,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 10,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -193337,7 +193704,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -193440,6 +193807,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -193857,7 +194225,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 10,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -193869,7 +194237,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -193973,6 +194341,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -194486,7 +194855,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -194498,7 +194867,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -194601,6 +194970,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -195012,7 +195382,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -195024,7 +195394,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -195128,6 +195498,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -195581,7 +195952,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -195593,7 +195964,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -195698,6 +196069,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -196116,7 +196488,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -196127,7 +196499,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -196266,6 +196638,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -196734,7 +197107,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -196745,7 +197118,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -196884,6 +197257,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -197366,7 +197740,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -197377,7 +197751,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -197517,6 +197891,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -198210,7 +198585,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -198221,7 +198596,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -198362,6 +198737,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -198933,7 +199309,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -198944,7 +199320,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -199087,6 +199463,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -199681,7 +200058,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -199692,7 +200069,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -199835,6 +200212,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -200530,7 +200908,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 10,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -200542,7 +200920,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -200686,6 +201064,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -201055,7 +201434,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 10,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -201067,7 +201446,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -201212,6 +201591,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -201629,7 +202009,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 10,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -201641,7 +202021,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -201782,6 +202162,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -202295,7 +202676,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -202307,7 +202688,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -202452,6 +202833,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -202863,7 +203245,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -202875,7 +203257,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -203023,6 +203405,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -203476,7 +203859,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -203488,7 +203871,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -203637,6 +204020,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -204055,7 +204439,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -204066,7 +204450,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -204163,6 +204547,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -204624,7 +205009,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -204635,7 +205020,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -204732,6 +205117,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -205214,7 +205600,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -205225,7 +205611,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -205322,6 +205708,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -205913,7 +206300,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -205924,7 +206311,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -206023,6 +206410,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -206642,7 +207030,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -206653,7 +207041,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -206752,6 +207140,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -207384,7 +207773,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -207395,7 +207784,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -207495,6 +207884,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -208115,7 +208505,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -208126,7 +208516,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -208265,6 +208655,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -208726,7 +209117,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -208737,7 +209128,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -208876,6 +209267,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -209358,7 +209750,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -209369,7 +209761,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -209509,6 +209901,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -210100,7 +210493,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -210111,7 +210504,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -210252,6 +210645,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -210871,7 +211265,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -210882,7 +211276,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -211025,6 +211419,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -211657,7 +212052,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -211668,7 +212063,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -211811,6 +212206,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -212431,7 +212827,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -212443,7 +212839,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -212521,6 +212917,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -212946,7 +213343,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -212958,7 +213355,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -213036,6 +213433,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -213521,7 +213919,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -213533,7 +213931,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -213613,6 +214011,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -214093,7 +214492,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -214104,7 +214503,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -214201,6 +214600,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -214678,7 +215078,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -214689,7 +215089,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -214786,6 +215186,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -215283,7 +215684,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -215294,7 +215695,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -215391,6 +215792,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -216005,7 +216407,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -216016,7 +216418,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -216115,6 +216517,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -216715,7 +217118,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -216726,7 +217129,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -216825,6 +217228,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -217439,7 +217843,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -217450,7 +217854,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -217550,6 +217954,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -218164,7 +218569,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -218175,7 +218580,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -218314,6 +218719,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -218791,7 +219197,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -218802,7 +219208,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -218941,6 +219347,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -219438,7 +219845,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -219449,7 +219856,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -219589,6 +219996,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -220203,7 +220611,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -220214,7 +220622,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -220355,6 +220763,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -220955,7 +221364,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -220966,7 +221375,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -221109,6 +221518,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -221723,7 +222133,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -221734,7 +222144,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -221877,6 +222287,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -222491,7 +222902,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -222503,7 +222914,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -222605,6 +223016,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -222968,7 +223380,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -222980,7 +223392,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -223082,6 +223494,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -223458,7 +223871,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -223470,7 +223883,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -223572,6 +223985,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -223971,7 +224385,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -223983,7 +224397,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -224086,6 +224500,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -224497,7 +224912,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -224509,7 +224924,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -224612,6 +225027,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -225072,7 +225488,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -225084,7 +225500,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -225188,6 +225604,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -225606,7 +226023,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -225618,7 +226035,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -225762,6 +226179,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -226125,7 +226543,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -226137,7 +226555,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -226282,6 +226700,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -226658,7 +227077,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -226670,7 +227089,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -226815,6 +227234,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -227214,7 +227634,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -227226,7 +227646,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -227371,6 +227791,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -227782,7 +228203,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -227794,7 +228215,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -227941,6 +228362,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -228401,7 +228823,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -228413,7 +228835,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -228561,6 +228983,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -228979,7 +229402,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 11,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -228990,7 +229413,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -229084,6 +229507,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -229510,7 +229934,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 11,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -229522,7 +229946,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -229616,6 +230040,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -230096,7 +230521,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 11,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -230108,7 +230533,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -230203,6 +230628,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -230683,7 +231109,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 11,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -230695,7 +231121,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -230792,6 +231218,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -231348,7 +231775,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -231360,7 +231787,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -231461,6 +231888,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -231788,7 +232216,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -231800,7 +232228,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -231901,6 +232329,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -232257,7 +232686,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -232269,7 +232698,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -232370,6 +232799,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -232746,7 +233176,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -232758,7 +233188,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -232861,6 +233291,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -233272,7 +233703,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -233284,7 +233715,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -233387,6 +233818,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -233786,7 +234218,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -233798,7 +234230,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -233901,6 +234333,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -234368,7 +234801,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -234380,7 +234813,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -234523,6 +234956,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -234850,7 +235284,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -234862,7 +235296,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -235005,6 +235439,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -235361,7 +235796,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -235373,7 +235808,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -235517,6 +235952,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -235893,7 +236329,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -235905,7 +236341,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -236050,6 +236486,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -236461,7 +236898,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -236473,7 +236910,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -236620,6 +237057,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -237019,7 +237457,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -237031,7 +237469,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -237178,6 +237616,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -237645,7 +238084,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -237656,7 +238095,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -237753,6 +238192,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -238179,7 +238619,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -238190,7 +238630,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -238287,6 +238727,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -238771,7 +239212,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -238782,7 +239223,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -238879,6 +239320,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -239514,7 +239956,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -239525,7 +239967,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -239624,6 +240066,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -240225,7 +240668,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -240236,7 +240679,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -240335,6 +240778,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -240957,7 +241401,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -240968,7 +241412,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -241068,6 +241512,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -241772,7 +242217,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -241783,7 +242228,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -241922,6 +242367,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -242348,7 +242794,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -242359,7 +242805,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -242498,6 +242944,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -242982,7 +243429,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -242993,7 +243440,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -243133,6 +243580,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -243768,7 +244216,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -243779,7 +244227,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -243920,6 +244368,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -244521,7 +244970,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -244532,7 +244981,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -244675,6 +245124,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -245297,7 +245747,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -245308,7 +245758,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -245451,6 +245901,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -246155,7 +246606,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -246167,7 +246618,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -246275,6 +246726,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -246600,7 +247052,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -246612,7 +247064,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.65,
@@ -246720,6 +247172,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -247101,7 +247554,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -247113,7 +247566,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.64,
@@ -247221,6 +247674,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -247670,7 +248124,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -247682,7 +248136,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -247790,6 +248244,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -248189,7 +248644,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -248201,7 +248656,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -248309,6 +248764,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -248810,7 +249266,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 7,
 		is_limit_move = 0,
@@ -248822,7 +249278,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -248931,6 +249387,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -249425,7 +249882,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -249437,7 +249894,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -249586,6 +250043,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -249911,7 +250369,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -249923,7 +250381,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.65,
@@ -250072,6 +250530,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -250453,7 +250912,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -250465,7 +250924,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.64,
@@ -250615,6 +251074,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -251064,7 +251524,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -251076,7 +251536,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -251226,6 +251686,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -251625,7 +252086,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 7,
 		is_limit_move = 0,
@@ -251637,7 +252098,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -251787,6 +252248,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -252288,7 +252750,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 17,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 7,
 		is_limit_move = 0,
@@ -252300,7 +252762,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -252450,6 +252912,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -252944,7 +253407,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -252956,7 +253419,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -253063,6 +253526,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				4,
@@ -253345,7 +253809,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -253357,7 +253821,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.65,
@@ -253466,6 +253930,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				4,
@@ -253808,7 +254273,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -253820,7 +254285,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.64,
@@ -253930,6 +254395,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -254361,7 +254827,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -254373,7 +254839,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -254482,6 +254948,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -254937,7 +255404,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -254949,7 +255416,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -255060,6 +255527,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -255531,7 +255999,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -255543,7 +256011,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -255656,6 +256124,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -256300,7 +256769,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -256312,7 +256781,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -256460,6 +256929,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				4,
@@ -256742,7 +257212,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -256754,7 +257224,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.65,
@@ -256904,6 +257374,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				4,
@@ -257246,7 +257717,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -257258,7 +257729,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.64,
@@ -257409,6 +257880,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -257840,7 +258312,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -257852,7 +258324,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -258002,6 +258474,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -258457,7 +258930,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -258469,7 +258942,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -258621,6 +259094,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -259092,7 +259566,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -259104,7 +259578,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -259258,6 +259732,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -259902,7 +260377,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -259915,7 +260390,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -260024,6 +260499,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -260364,7 +260840,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -260377,7 +260853,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -260486,6 +260962,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -260966,7 +261443,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -260979,7 +261456,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -261090,6 +261567,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -261535,7 +262013,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -261548,7 +262026,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -261659,6 +262137,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -262222,7 +262701,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -262235,7 +262714,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -262346,6 +262825,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -262704,7 +263184,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -262717,7 +263197,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -262828,6 +263308,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -263194,7 +263675,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -263207,7 +263688,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -263318,6 +263799,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -263739,7 +264221,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -263752,7 +264234,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -263863,6 +264345,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -264440,7 +264923,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -264453,7 +264936,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -264603,6 +265086,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -264943,7 +265427,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -264956,7 +265440,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -265108,6 +265592,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -265588,7 +266073,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -265601,7 +266086,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -265753,6 +266238,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -266198,7 +266684,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 17,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -266211,7 +266697,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -266363,6 +266849,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -266926,7 +267413,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -266939,7 +267426,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -267091,6 +267578,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -267449,7 +267937,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 17,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -267462,7 +267950,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -267614,6 +268102,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -267980,7 +268469,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 17,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -267993,7 +268482,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -268145,6 +268634,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -268566,7 +269056,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 18,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -268579,7 +269069,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -268731,6 +269221,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -269308,7 +269799,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -269321,7 +269812,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -269433,6 +269924,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -269798,7 +270290,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -269811,7 +270303,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.65,
@@ -269927,6 +270419,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -270349,7 +270842,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -270362,7 +270855,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.64,
@@ -270479,6 +270972,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -270990,7 +271484,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -271003,7 +271497,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -271119,6 +271613,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -271570,7 +272065,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -271583,7 +272078,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -271699,6 +272194,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -272291,7 +272787,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -272304,7 +272800,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -272422,6 +272918,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -273184,7 +273681,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -273197,7 +273694,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -273350,6 +273847,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -273715,7 +274213,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -273728,7 +274226,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.65,
@@ -273885,6 +274383,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -274307,7 +274806,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -274320,7 +274819,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.64,
@@ -274478,6 +274977,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -274989,7 +275489,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -275002,7 +275502,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -275159,6 +275659,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -275610,7 +276111,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -275623,7 +276124,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -275780,6 +276281,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -276372,7 +276874,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -276385,7 +276887,7 @@ pg.chapter_template_loop = {
 		land_based = "",
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -276544,6 +277046,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -277306,7 +277809,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -277318,7 +277821,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -277419,6 +277922,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -277756,7 +278260,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -277768,7 +278272,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -277870,6 +278374,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -278312,7 +278817,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -278324,7 +278829,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -278427,6 +278932,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -278980,7 +279486,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -278992,7 +279498,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -279094,6 +279600,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -279442,7 +279949,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -279454,7 +279961,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -279557,6 +280064,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -280010,7 +280518,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -280022,7 +280530,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -280126,6 +280634,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -280700,7 +281209,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -280712,7 +281221,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -280854,6 +281363,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -281191,7 +281701,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -281203,7 +281713,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -281346,6 +281856,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -281788,7 +282299,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -281800,7 +282311,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -281944,6 +282455,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -282497,7 +283009,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -282509,7 +283021,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -282654,6 +283166,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -283002,7 +283515,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -283014,7 +283527,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.66,
@@ -283160,6 +283673,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -283613,7 +284127,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -283625,7 +284139,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -283772,6 +284286,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -284346,7 +284861,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -284358,7 +284873,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -284459,6 +284974,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -284851,7 +285367,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -284863,7 +285379,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -284965,6 +285481,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -285320,7 +285837,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -285332,7 +285849,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -285435,6 +285952,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -285887,7 +286405,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -285899,7 +286417,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -286001,6 +286519,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -286454,7 +286973,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -286466,7 +286985,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -286569,6 +287088,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -287071,7 +287591,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -287083,7 +287603,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -287187,6 +287707,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -287749,7 +288270,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -287761,7 +288282,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -287904,6 +288425,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -288296,7 +288818,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -288308,7 +288830,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -288452,6 +288974,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -288807,7 +289330,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -288819,7 +289342,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -288964,6 +289487,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -289416,7 +289940,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -289428,7 +289952,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -289572,6 +290096,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -290025,7 +290550,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -290037,7 +290562,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -290184,6 +290709,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -290686,7 +291212,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -290698,7 +291224,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -290846,6 +291372,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -291408,7 +291935,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -291420,7 +291947,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -291521,6 +292048,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -291912,7 +292440,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -291924,7 +292452,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -292026,6 +292554,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -292387,7 +292916,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -292399,7 +292928,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -292502,6 +293031,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -292954,7 +293484,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -292966,7 +293496,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -293068,6 +293598,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -293527,7 +294058,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -293539,7 +294070,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -293642,6 +294173,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -294143,7 +294675,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -294155,7 +294687,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -294259,6 +294791,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -294725,7 +295258,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -294737,7 +295270,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -294880,6 +295413,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -295271,7 +295805,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -295283,7 +295817,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -295427,6 +295961,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -295788,7 +296323,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -295800,7 +296335,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -295945,6 +296480,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -296397,7 +296933,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -296409,7 +296945,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -296553,6 +297089,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -297012,7 +297549,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -297024,7 +297561,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -297171,6 +297708,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -297672,7 +298210,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -297684,7 +298222,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -297832,6 +298370,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -298298,7 +298837,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 3,
 		is_limit_move = 0,
@@ -298310,7 +298849,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -298411,6 +298950,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -298767,7 +299307,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -298779,7 +299319,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -298881,6 +299421,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -299243,7 +299784,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -299255,7 +299796,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -299358,6 +299899,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -299804,7 +300346,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -299816,7 +300358,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -299918,6 +300460,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -300371,7 +300914,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -300383,7 +300926,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -300486,6 +301029,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -300981,7 +301525,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -300993,7 +301537,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -301097,6 +301641,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -301557,7 +302102,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -301569,7 +302114,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -301712,6 +302257,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -302068,7 +302614,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 13,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -302080,7 +302626,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -302224,6 +302770,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -302586,7 +303133,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -302598,7 +303145,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -302743,6 +303290,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -303189,7 +303737,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -303201,7 +303749,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -303345,6 +303893,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -303798,7 +304347,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 15,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -303810,7 +304359,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -303957,6 +304506,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -304452,7 +305002,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 2,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 1,
 		fightauto = 1,
 		boss_refresh = 6,
 		is_limit_move = 0,
@@ -304464,7 +305014,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 1,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -304612,6 +305162,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				8,
@@ -305072,7 +305623,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 2,
 		is_limit_move = 0,
@@ -305084,7 +305635,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -305160,6 +305711,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -305377,7 +305929,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -305389,7 +305941,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.53,
@@ -305478,6 +306030,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -305765,7 +306318,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -305777,7 +306330,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.52,
@@ -305866,6 +306419,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -306183,7 +306737,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 8,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -306195,7 +306749,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -306302,6 +306856,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -306675,7 +307230,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -306687,7 +307242,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -306794,6 +307349,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -307266,7 +307822,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -307278,7 +307834,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -307386,6 +307942,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -307915,7 +308472,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 9,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -307927,7 +308484,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -308034,6 +308591,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				9,
@@ -308515,7 +309073,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 10,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -308527,7 +309085,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -308635,6 +309193,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -309130,7 +309689,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 11,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -309142,7 +309701,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -309250,6 +309809,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				7,
@@ -309752,7 +310312,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 12,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -309764,7 +310324,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.34,
@@ -309852,6 +310412,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				4,
@@ -310170,7 +310731,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 14,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 4,
 		is_limit_move = 0,
@@ -310182,7 +310743,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.49,
@@ -310270,6 +310831,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				6,
@@ -310649,7 +311211,7 @@ pg.chapter_template_loop = {
 		is_ambush = 0,
 		model = 1,
 		avoid_ratio = 16,
-		mine_id = 2001,
+		submarine_num = 0,
 		fightauto = 1,
 		boss_refresh = 5,
 		is_limit_move = 0,
@@ -310661,7 +311223,7 @@ pg.chapter_template_loop = {
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
-		submarine_num = 0,
+		mine_id = 2001,
 		uifx = "",
 		scale = {
 			0.61,
@@ -310751,6 +311313,7 @@ pg.chapter_template_loop = {
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		grids = {
 			{
 				5,
@@ -311142,6 +311705,2884 @@ pg.chapter_template_loop = {
 		random_box_list = {
 			5,
 			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[2200041] = {
+		group_num = 2,
+		is_ai = 1,
+		id = 2200041,
+		pop_pic = "",
+		is_ambush = 0,
+		model = 2,
+		avoid_ratio = 8,
+		submarine_num = 1,
+		fightauto = 1,
+		boss_refresh = 4,
+		is_limit_move = 0,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		air_dominance_loop_rate = 80,
+		is_air_attack = 0,
+		friendly_id = 0,
+		time = 43200,
+		slg_effect = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		chapter_fx = {
+			juguangdeng_SLG = {
+				offset = {
+					-380,
+					156,
+					0
+				},
+				rotation = {
+					-45,
+					0,
+					0
+				}
+			}
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1280001,
+				15,
+				0
+			},
+			{
+				1280002,
+				20,
+				0
+			},
+			{
+				1280003,
+				30,
+				1
+			},
+			{
+				1280004,
+				15,
+				0
+			},
+			{
+				1280005,
+				20,
+				0
+			},
+			{
+				1280006,
+				30,
+				1
+			},
+			{
+				1280007,
+				15,
+				0
+			},
+			{
+				1280008,
+				20,
+				0
+			},
+			{
+				1280009,
+				30,
+				1
+			},
+			{
+				1280010,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1280002,
+			1280011,
+			1280012
+		},
+		elite_expedition_list = {
+			1280005,
+			1280008
+		},
+		ai_expedition_list = {
+			1280021
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1280013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		grids = {
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				4
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				6,
+				true,
+				8
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				4
+			},
+			{
+				2,
+				4,
+				true,
+				16
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				12
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				0,
+				"2x2_6ouxiang",
+				51,
+				28
+			},
+			{
+				3,
+				3,
+				"1x1_4ouxiang",
+				-4,
+				4
+			},
+			{
+				2,
+				6,
+				"1x1_3ouxiang",
+				0,
+				47
+			},
+			{
+				0,
+				1,
+				"1x3_1ouxiang",
+				-11,
+				13
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_ouxiang",
+			45,
+			20,
+			66,
+			-103,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			2,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[2200042] = {
+		group_num = 2,
+		is_ai = 1,
+		id = 2200042,
+		pop_pic = "",
+		is_ambush = 0,
+		model = 2,
+		avoid_ratio = 9,
+		submarine_num = 1,
+		fightauto = 1,
+		boss_refresh = 4,
+		is_limit_move = 0,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		air_dominance_loop_rate = 80,
+		is_air_attack = 0,
+		friendly_id = 0,
+		time = 43200,
+		slg_effect = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		chapter_fx = {
+			juguangdeng_SLG = {
+				offset = {
+					-276,
+					156,
+					0
+				},
+				rotation = {
+					-45,
+					0,
+					0
+				}
+			}
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1280031,
+				15,
+				0
+			},
+			{
+				1280032,
+				20,
+				0
+			},
+			{
+				1280033,
+				30,
+				1
+			},
+			{
+				1280034,
+				15,
+				0
+			},
+			{
+				1280035,
+				20,
+				0
+			},
+			{
+				1280036,
+				30,
+				1
+			},
+			{
+				1280037,
+				15,
+				0
+			},
+			{
+				1280038,
+				20,
+				0
+			},
+			{
+				1280039,
+				30,
+				1
+			},
+			{
+				1280040,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1280032,
+			1280041,
+			1280042
+		},
+		elite_expedition_list = {
+			1280035,
+			1280038
+		},
+		ai_expedition_list = {
+			1280051,
+			1280053
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1280043
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		grids = {
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				12
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				4
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				8,
+				true,
+				8
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				12
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				12
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				7,
+				"2x2_5ouxiang",
+				93,
+				9
+			},
+			{
+				5,
+				4,
+				"1x1_1ouxiang",
+				-2,
+				-11
+			},
+			{
+				5,
+				1,
+				"1x1_3ouxiang",
+				0,
+				44
+			},
+			{
+				3,
+				4,
+				"1x1_4ouxiang",
+				-4,
+				2
+			},
+			{
+				2,
+				7,
+				"1x2_2ouxiang",
+				-56,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_ouxiang",
+			45,
+			20,
+			22,
+			-67,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[2200043] = {
+		group_num = 2,
+		is_ai = 1,
+		id = 2200043,
+		pop_pic = "",
+		is_ambush = 0,
+		model = 2,
+		avoid_ratio = 10,
+		submarine_num = 1,
+		fightauto = 1,
+		boss_refresh = 5,
+		is_limit_move = 0,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		air_dominance_loop_rate = 80,
+		is_air_attack = 0,
+		friendly_id = 0,
+		time = 43200,
+		slg_effect = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		chapter_fx = {
+			juguangdeng_SLG = {
+				offset = {
+					-276,
+					156,
+					0
+				},
+				rotation = {
+					-45,
+					0,
+					0
+				}
+			}
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1280061,
+				15,
+				0
+			},
+			{
+				1280062,
+				20,
+				0
+			},
+			{
+				1280063,
+				30,
+				1
+			},
+			{
+				1280064,
+				15,
+				0
+			},
+			{
+				1280065,
+				20,
+				0
+			},
+			{
+				1280066,
+				30,
+				1
+			},
+			{
+				1280067,
+				15,
+				0
+			},
+			{
+				1280068,
+				20,
+				0
+			},
+			{
+				1280069,
+				30,
+				1
+			},
+			{
+				1280070,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1280062,
+			1280071,
+			1280072
+		},
+		elite_expedition_list = {
+			1280065,
+			1280068
+		},
+		ai_expedition_list = {
+			1280081,
+			1280083,
+			1280085
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1280073
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				1
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				4
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				12
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				8
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				12
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				3,
+				"2x2_4ouxiang",
+				-71,
+				58
+			},
+			{
+				3,
+				8,
+				"1x2_2ouxiang",
+				-55,
+				0
+			},
+			{
+				3,
+				4,
+				"1x1_4ouxiang",
+				-5,
+				0
+			},
+			{
+				2,
+				0,
+				"1x1_3ouxiang",
+				0,
+				46
+			},
+			{
+				0,
+				3,
+				"1x3_1ouxiang",
+				-4,
+				24
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_ouxiang",
+			45,
+			20,
+			-38,
+			-70,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[2200044] = {
+		group_num = 2,
+		is_ai = 1,
+		id = 2200044,
+		pop_pic = "",
+		is_ambush = 0,
+		model = 2,
+		avoid_ratio = 11,
+		submarine_num = 1,
+		fightauto = 1,
+		boss_refresh = 5,
+		is_limit_move = 0,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		air_dominance_loop_rate = 80,
+		is_air_attack = 0,
+		friendly_id = 0,
+		time = 43200,
+		slg_effect = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		chapter_fx = {
+			juguangdeng_SLG = {
+				offset = {
+					-276,
+					156,
+					0
+				},
+				rotation = {
+					-45,
+					0,
+					0
+				}
+			}
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1280091,
+				15,
+				0
+			},
+			{
+				1280092,
+				20,
+				0
+			},
+			{
+				1280093,
+				30,
+				1
+			},
+			{
+				1280094,
+				15,
+				0
+			},
+			{
+				1280095,
+				20,
+				0
+			},
+			{
+				1280096,
+				30,
+				1
+			},
+			{
+				1280097,
+				15,
+				0
+			},
+			{
+				1280098,
+				20,
+				0
+			},
+			{
+				1280099,
+				30,
+				1
+			},
+			{
+				1280100,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1280092,
+			1280101,
+			1280102
+		},
+		elite_expedition_list = {
+			1280095,
+			1280098
+		},
+		ai_expedition_list = {
+			1280111,
+			1280113,
+			1280115
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1280103
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		grids = {
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				12
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				4
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				8,
+				true,
+				8
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				12
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				12
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				8,
+				"2x2_1ouxiang",
+				-39,
+				65
+			},
+			{
+				5,
+				1,
+				"1x1_3ouxiang",
+				0,
+				51
+			},
+			{
+				3,
+				4,
+				"1x1_4ouxiang",
+				-3,
+				0
+			},
+			{
+				1,
+				8,
+				"2x1_1ouxiang",
+				6,
+				-2
+			},
+			{
+				0,
+				1,
+				"1x2_1ouxiang",
+				57,
+				59
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_ouxiang",
+			45,
+			20,
+			22,
+			-67,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		npc_data = {},
+		activity_random_box = {},
+		special_operation_list = {
+			47,
+			48
+		},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[2200045] = {
+		group_num = 2,
+		is_ai = 1,
+		id = 2200045,
+		pop_pic = "",
+		is_ambush = 0,
+		model = 2,
+		avoid_ratio = 12,
+		submarine_num = 1,
+		fightauto = 1,
+		boss_refresh = 6,
+		is_limit_move = 0,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		air_dominance_loop_rate = 80,
+		is_air_attack = 0,
+		friendly_id = 0,
+		time = 43200,
+		slg_effect = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		chapter_fx = {
+			juguangdeng_SLG = {
+				offset = {
+					-276,
+					156,
+					0
+				},
+				rotation = {
+					-45,
+					0,
+					0
+				}
+			}
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1280121,
+				15,
+				0
+			},
+			{
+				1280122,
+				20,
+				0
+			},
+			{
+				1280123,
+				30,
+				1
+			},
+			{
+				1280124,
+				15,
+				0
+			},
+			{
+				1280125,
+				20,
+				0
+			},
+			{
+				1280126,
+				30,
+				1
+			},
+			{
+				1280127,
+				15,
+				0
+			},
+			{
+				1280128,
+				20,
+				0
+			},
+			{
+				1280129,
+				30,
+				1
+			},
+			{
+				1280130,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1280122,
+			1280131,
+			1280132
+		},
+		elite_expedition_list = {
+			1280125,
+			1280128
+		},
+		ai_expedition_list = {
+			1280141,
+			1280143,
+			1280145,
+			1280147
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1280133
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				4
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				12
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				8
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				12
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				7,
+				"2x2_3ouxiang",
+				41,
+				-38
+			},
+			{
+				3,
+				4,
+				"1x1_4ouxiang",
+				-3,
+				0
+			},
+			{
+				1,
+				7,
+				"1x2_1ouxiang",
+				59,
+				63
+			},
+			{
+				0,
+				3,
+				"1x3_1ouxiang",
+				0,
+				25
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_ouxiang",
+			45,
+			20,
+			-38,
+			-70,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
 			103,
 			1004,
 			5001
@@ -311702,6 +315143,11 @@ pg.chapter_template_loop = {
 		2200023,
 		2200031,
 		2200032,
-		2200033
+		2200033,
+		2200041,
+		2200042,
+		2200043,
+		2200044,
+		2200045
 	}
 }

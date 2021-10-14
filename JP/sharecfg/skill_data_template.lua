@@ -52121,7 +52121,9 @@ pg.skill_data_template = {
 		type = 2,
 		max_level = 10,
 		desc = "戦闘開始時、自身が前に一定距離移動し、魚雷弾幕$1を展開し（威力はスキルレベルによる）少しの間に浮上する。その後、潜航して攻撃位置に戻り、魚雷弾幕Ⅱ$1を展開する（威力はスキルレベルによる）。この効果で浮上している間に自身が受けるダメージを$2低減する",
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		world_death_mark = {
 			1
 		},
@@ -52218,7 +52220,9 @@ pg.skill_data_template = {
 		type = 3,
 		max_level = 10,
 		desc = "自身にダメージを与えた敵は3秒間、受けるダメージが$1アップ。その敵が駆逐艦である場合、更に5秒間その敵の速力がダウンする",
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		world_death_mark = {
 			1
 		},

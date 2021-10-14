@@ -720,51 +720,6 @@ end
 function slot0.initEquipment(slot0, slot1)
 	slot2 = EquipmentItem.New(slot1)
 
-	onButton(slot0, slot2.go, function ()
-		if uv0.equipmentVO == nil then
-			return
-		end
-
-		if uv0.equipmentVO.isSkin then
-			if not uv0.equipmentVO.shipId then
-				uv1:emit(EquipmentMediator.ON_EQUIPMENT_SKIN_INFO, uv0.equipmentVO.id, uv1.contextData.pos)
-			else
-				uv1:emit(EquipmentMediator.ON_EQUIPMENT_SKIN_INFO, uv0.equipmentVO.id, uv1.contextData.pos, {
-					id = uv0.equipmentVO.shipId,
-					pos = uv0.equipmentVO.shipPos
-				})
-			end
-		else
-			if uv0.equipmentVO.mask then
-				return
-			end
-
-			if uv1.mode == StoreHouseConst.DESTROY then
-				uv1:selectEquip(uv0.equipmentVO, uv0.equipmentVO.count)
-
-				return
-			end
-
-			uv1:emit(uv2.ON_EQUIPMENT, uv1.shipVO and {
-				type = EquipmentInfoMediator.TYPE_REPLACE,
-				equipmentId = uv0.equipmentVO.id,
-				shipId = uv1.contextData.shipId,
-				pos = uv1.contextData.pos,
-				oldShipId = uv0.equipmentVO.shipId,
-				oldPos = uv0.equipmentVO.shipPos
-			} or uv0.equipmentVO.shipId and {
-				showTransformTip = true,
-				type = EquipmentInfoMediator.TYPE_DISPLAY,
-				equipmentId = uv0.equipmentVO.id,
-				shipId = uv0.equipmentVO.shipId,
-				pos = uv0.equipmentVO.shipPos
-			} or {
-				destroy = true,
-				type = EquipmentInfoMediator.TYPE_DEFAULT,
-				equipmentId = uv0.equipmentVO.id
-			})
-		end
-	end, SFX_PANEL)
 	onButton(slot0, slot2.unloadBtn, function ()
 		if uv0.page == uv1 then
 			uv0:emit(EquipmentMediator.ON_UNEQUIP_EQUIPMENT_SKIN)
@@ -780,15 +735,9 @@ function slot0.initEquipment(slot0, slot1)
 end
 
 function slot0.updateEquipment(slot0, slot1, slot2)
-	if not slot0.equipmetItems[slot2] then
-		slot0:initEquipment(slot2)
-
-		slot3 = slot0.equipmetItems[slot2]
-	end
-
 	slot4 = slot0.loadEquipmentVOs[slot1 + 1]
 
-	slot3:update(slot4)
+	slot0.equipmetItems[slot2]:update(slot4)
 
 	slot5 = false
 	slot6 = 0
@@ -805,6 +754,50 @@ function slot0.updateEquipment(slot0, slot1, slot2)
 	end
 
 	slot3:updateSelected(slot5, slot6)
+
+	if not slot4 then
+		removeOnButton(slot3.go)
+	elseif slot3.equipmentVO.isSkin then
+		if slot4.shipId then
+			onButton(slot0, slot3.go, function ()
+				uv1:emit(EquipmentMediator.ON_EQUIPMENT_SKIN_INFO, uv0.id, uv1.contextData.pos, {
+					id = uv0.shipId,
+					pos = uv0.shipPos
+				})
+			end, SFX_PANEL)
+		else
+			onButton(slot0, slot3.go, function ()
+				uv0:emit(EquipmentMediator.ON_EQUIPMENT_SKIN_INFO, uv1.id, uv0.contextData.pos)
+			end, SFX_PANEL)
+		end
+	elseif slot4.mask then
+		removeOnButton(slot3.go)
+	elseif slot0.mode == StoreHouseConst.DESTROY then
+		onButton(slot0, slot3.go, function ()
+			uv0:selectEquip(uv1, uv1.count)
+		end, SFX_PANEL)
+	else
+		onButton(slot0, slot3.go, function ()
+			uv0:emit(uv2.ON_EQUIPMENT, uv0.shipVO and {
+				type = EquipmentInfoMediator.TYPE_REPLACE,
+				equipmentId = uv1.id,
+				shipId = uv0.contextData.shipId,
+				pos = uv0.contextData.pos,
+				oldShipId = uv1.shipId,
+				oldPos = uv1.shipPos
+			} or uv1.shipId and {
+				showTransformTip = true,
+				type = EquipmentInfoMediator.TYPE_DISPLAY,
+				equipmentId = uv1.id,
+				shipId = uv1.shipId,
+				pos = uv1.shipPos
+			} or {
+				destroy = true,
+				type = EquipmentInfoMediator.TYPE_DEFAULT,
+				equipmentId = uv1.id
+			})
+		end, SFX_PANEL)
+	end
 end
 
 function slot0.returnEquipment(slot0, slot1, slot2)
@@ -813,6 +806,7 @@ function slot0.returnEquipment(slot0, slot1, slot2)
 	end
 
 	if slot0.equipmetItems[slot2] then
+		removeOnButton(slot3.go)
 		slot3:clear()
 	end
 end
@@ -1025,38 +1019,34 @@ function slot0.sortItems(slot0)
 end
 
 function slot0.initItem(slot0, slot1)
-	slot2 = ItemCard.New(slot1)
-
-	onButton(slot0, slot2.go, function ()
-		if uv0.itemVO == nil then
-			return
-		end
-
-		if uv0.itemVO:getConfig("type") == Item.INVITATION_TYPE then
-			uv1:emit(EquipmentMediator.ITEM_GO_SCENE, SCENE.INVITATION, {
-				itemVO = uv0.itemVO
-			})
-		elseif uv0.itemVO:getConfig("type") == Item.ASSIGNED_TYPE or uv0.itemVO:getConfig("type") == Item.EQUIPMENT_ASSIGNED_TYPE then
-			uv1.assignedItemView = AssignedItemView.New(uv1.topItems, uv1.event)
-
-			uv1.assignedItemView:Load()
-			uv1.assignedItemView:ActionInvoke("update", uv0.itemVO)
-		else
-			uv1:emit(uv2.ON_ITEM, uv0.itemVO.id)
-		end
-	end, SFX_PANEL)
-
-	slot0.itemCards[slot1] = slot2
+	slot0.itemCards[slot1] = ItemCard.New(slot1)
 end
 
 function slot0.updateItem(slot0, slot1, slot2)
-	if not slot0.itemCards[slot2] then
-		slot0:initItem(slot2)
+	slot4 = slot0.itemVOs[slot1 + 1]
 
-		slot3 = slot0.itemCards[slot2]
+	slot0.itemCards[slot2]:update(slot4)
+
+	if not slot4 then
+		removeOnButton(slot3.go)
+	elseif slot4:getConfig("type") == Item.INVITATION_TYPE then
+		onButton(slot0, slot3.go, function ()
+			uv0:emit(EquipmentMediator.ITEM_GO_SCENE, SCENE.INVITATION, {
+				itemVO = uv1
+			})
+		end, SFX_PANEL)
+	elseif slot4:getConfig("type") == Item.ASSIGNED_TYPE or slot4:getConfig("type") == Item.EQUIPMENT_ASSIGNED_TYPE then
+		onButton(slot0, slot3.go, function ()
+			uv0.assignedItemView = AssignedItemView.New(uv0.topItems, uv0.event)
+
+			uv0.assignedItemView:Load()
+			uv0.assignedItemView:ActionInvoke("update", uv1)
+		end, SFX_PANEL)
+	else
+		onButton(slot0, slot3.go, function ()
+			uv0:emit(uv1.ON_ITEM, uv2.id)
+		end, SFX_PANEL)
 	end
-
-	slot3:update(slot0.itemVOs[slot1 + 1])
 end
 
 function slot0.returnItem(slot0, slot1, slot2)
@@ -1065,6 +1055,7 @@ function slot0.returnItem(slot0, slot1, slot2)
 	end
 
 	if slot0.itemCards[slot2] then
+		removeOnButton(slot3.go)
 		slot3:clear()
 	end
 end

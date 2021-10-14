@@ -65,7 +65,7 @@ end
 function slot0.Update(slot0, slot1)
 	slot0.nameTxt.text = slot1:getShipName()
 	slot0.enNameTxt.text = slot1:getEnName()
-	slot0.descTxt.text = slot1:GetDesc()
+	slot0.descTxt.text = HXSet.hxLan(slot1:GetDesc())
 	slot0.votesTxt.text = slot0.votes
 	slot0.rankTxt.text = slot0.rank
 	slot0.shiptypeTxt.text = slot1:getShipType()
