@@ -30,7 +30,6 @@ slot0.OPEN_MONTH_CARD_SET = "MainUIMediator.OPEN_MONTH_CARD_SET"
 slot0.OPEN_SHOP_LAYER = "MainUIMediator.OPEN_SHOP_LAYER"
 slot0.ON_ACTIVITY_MAP = "MainUIMediator.ON_ACTIVITY_MAP"
 slot0.ON_ACTIVITY_PT = "MainUIMediator.ON_ACTIVITY_PT"
-slot0.ON_VOTE = "MainUIMediator.ON_VOTE"
 slot0.ON_TOUCHSHIP = "MainUIMediator.ON_TOUCHSHIP"
 slot0.ON_LOTTERY = "MainUIMediator.ON_LOTTERY"
 slot0.OPEN_SCROLL = "MainUIMediator.OPEN_SCROLL"
@@ -347,13 +346,6 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OPEN_TECHNOLOGY, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
 	end)
-	slot0:bind(uv0.ON_VOTE, function ()
-		if getProxy(ActivityProxy):GetVoteBookActivty() then
-			uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
-				id = slot1.id
-			})
-		end
-	end)
 
 	if not getProxy(MilitaryExerciseProxy):getData() then
 		slot0:sendNotification(GAME.GET_SEASON_INFO)
@@ -407,14 +399,6 @@ function slot0.register(slot0)
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_COLLECTION)
 		end)
 	end)
-
-	if getProxy(MailProxy).total >= 1000 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_2"))
-	elseif slot9.total >= 950 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot9.total))
-	end
-
-	slot0.viewComponent:updateVoteBtn(getProxy(ActivityProxy):GetVoteActivity(), getProxy(VoteProxy):GetOrderBook())
 	slot0.viewComponent:ResetActivityBtns()
 	slot0:bind(uv0.LOG_OUT, function (slot0, slot1)
 		uv0:sendNotification(GAME.LOGOUT, {
@@ -533,8 +517,6 @@ function slot0.listNotificationInterests(slot0)
 		PERMISSION_REJECT,
 		PERMISSION_NEVER_REMIND,
 		MiniGameProxy.ON_HUB_DATA_UPDATE,
-		VoteProxy.VOTE_ORDER_BOOK_DELETE,
-		VoteProxy.VOTE_ORDER_BOOK_UPDATE,
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.ON_OPEN_INS_LAYER,
 		PileGameConst.OPEN_PILEGAME,
@@ -627,11 +609,21 @@ function slot0.handleNotification(slot0, slot1)
 	elseif TaskProxy.TASK_ADDED == slot2 then
 		slot0.viewComponent:stopCurVoice()
 	elseif slot2 == GAME.CHAPTER_OP_DONE then
-		if slot3.items and #slot3.items > 0 then
-			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3.items,
-				title = slot0.retreateMapType == Map.ESCORT and AwardInfoLayer.TITLE.ESCORT or nil
-			})
+		if slot3.type == ChapterConst.OpRetreat then
+			slot5 = {}
+
+			if getProxy(ChapterProxy):GetExtendChapter(slot3.chapterVO.id) and slot4.ResultDrops then
+				for slot9, slot10 in ipairs(slot4.ResultDrops) do
+					slot5 = table.mergeArray(slot5, slot10)
+				end
+			end
+
+			if #slot5 > 0 then
+				slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+					items = slot5,
+					title = slot0.retreateMapType == Map.ESCORT and AwardInfoLayer.TITLE.ESCORT or nil
+				})
+			end
 		end
 	elseif slot2 == GAME.FETCH_NPC_SHIP_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
@@ -670,8 +662,6 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == MiniGameProxy.ON_HUB_DATA_UPDATE then
 		slot0:getViewComponent():HandleMiniGameBtns()
 		slot0:handlingActivityBtn()
-	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
-		slot0.viewComponent:updateVoteBookBtn(slot3)
 	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE then
 		slot5 = slot3.argList[2]
 

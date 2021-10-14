@@ -112,7 +112,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 14001,
+							monsterTemplateID = 14005,
 							moveCast = true,
 							delay = 0,
 							score = 0,
@@ -122,8 +122,7 @@ return {
 								40
 							},
 							buffList = {
-								8001,
-								8007
+								9674
 							}
 						}
 					},
@@ -304,27 +303,26 @@ return {
 					},
 					reinforcement = {
 						{
+							monsterTemplateID = 14005,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								-15,
+								0,
+								75
+							},
+							buffList = {
+								9674
+							}
+						},
+						{
 							monsterTemplateID = 14003,
 							moveCast = true,
 							delay = 0,
 							score = 0,
 							corrdinate = {
 								15,
-								0,
-								75
-							},
-							buffList = {
-								8001,
-								8007
-							}
-						},
-						{
-							monsterTemplateID = 14001,
-							moveCast = true,
-							delay = 0,
-							score = 0,
-							corrdinate = {
-								0,
 								0,
 								65
 							},
@@ -334,12 +332,12 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 14001,
+							monsterTemplateID = 14003,
 							moveCast = true,
 							delay = 0,
 							score = 0,
 							corrdinate = {
-								0,
+								15,
 								0,
 								45
 							},
@@ -349,18 +347,17 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 14003,
+							monsterTemplateID = 14005,
 							moveCast = true,
 							delay = 0,
 							score = 0,
 							corrdinate = {
-								15,
+								-15,
 								0,
 								35
 							},
 							buffList = {
-								8001,
-								8007
+								9674
 							}
 						},
 						{
@@ -485,6 +482,20 @@ return {
 								8001,
 								8007
 							}
+						},
+						{
+							monsterTemplateID = 14005,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								-15,
+								0,
+								60
+							},
+							buffList = {
+								9674
+							}
 						}
 					},
 					airFighter = {
@@ -514,6 +525,68 @@ return {
 						104
 					},
 					triggerParams = {}
+				},
+				{
+					triggerType = 10,
+					waveIndex = 1000,
+					conditionType = 0,
+					preWaves = {
+						100
+					},
+					triggerParam = {},
+					blockFlags = {
+						9600
+					},
+					spawn = {
+						{
+							life_time = 5,
+							prefab = "suligao_dengta_stg",
+							delay = 8,
+							behaviours = 10024,
+							IFF = 1,
+							coordinate = {
+								-15,
+								0,
+								55
+							},
+							cld_data = {
+								30,
+								60
+							}
+						},
+						{
+							life_time = 5,
+							prefab = "suligao_dengta_stg",
+							delay = 23,
+							behaviours = 10024,
+							IFF = 1,
+							coordinate = {
+								-15,
+								0,
+								55
+							},
+							cld_data = {
+								30,
+								60
+							}
+						},
+						{
+							life_time = 5,
+							prefab = "suligao_dengta_stg",
+							delay = 38,
+							behaviours = 10024,
+							IFF = 1,
+							coordinate = {
+								-15,
+								0,
+								55
+							},
+							cld_data = {
+								30,
+								60
+							}
+						}
+					}
 				}
 			}
 		}

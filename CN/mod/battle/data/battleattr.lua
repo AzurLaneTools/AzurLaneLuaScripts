@@ -172,6 +172,33 @@ function slot0.IsLockAimBias(slot0)
 	return (slot0._attr.lockAimBias or 0) >= 1
 end
 
+function slot0.GetCurrentTargetSelect(slot0)
+	slot1 = nil
+	slot3 = ys.Battle.BattleConfig.TARGET_SELECT_PRIORITY
+
+	for slot7, slot8 in ipairs(uv0.GetCurrent(slot0, "TargetChoise")) do
+		if not slot1 or slot3[slot1] < slot3[slot8] then
+			slot1 = slot8
+		end
+	end
+
+	return slot1
+end
+
+function slot0.AddTargetSelect(slot0, slot1)
+	table.insert(uv0.GetCurrent(slot0, "TargetChoise"), slot1)
+end
+
+function slot0.RemoveTargetSelect(slot0, slot1)
+	for slot6, slot7 in ipairs(uv0.GetCurrent(slot0, "TargetChoise")) do
+		if slot7 == slot1 then
+			table.remove(slot2, slot6)
+
+			break
+		end
+	end
+end
+
 function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3 = slot0._attr or {}
 	slot0._attr = slot3
@@ -216,6 +243,7 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3.comboTag = "combo_" .. slot3.battleUID
 	slot3.labelTag = {}
 	slot3.barrageCounterMod = 1
+	slot3.TargetChoise = {}
 
 	uv0.SetBaseAttr(slot0)
 end
@@ -270,6 +298,7 @@ function slot0.SetEnemyAttr(slot0, slot1)
 	slot4.healingRate = 1
 	slot4.comboTag = "combo_" .. slot4.battleUID
 	slot4.labelTag = {}
+	slot4.TargetChoise = {}
 
 	uv0.SetBaseAttr(slot0)
 end
@@ -342,6 +371,7 @@ function slot0.SetAircraftAttFromMother(slot0, slot1)
 	slot2.labelTag = setmetatable({}, {
 		__index = slot1._attr.labelTag
 	})
+	slot2.TargetChoise = {}
 	slot2.comboTag = "combo_" .. slot2.hostUID
 end
 
@@ -386,6 +416,7 @@ function slot0.SetAirFighterAttr(slot0, slot1)
 	slot2.luck = 50
 	slot2.velocity = ys.Battle.BattleFormulas.ConvertAircraftSpeed(slot1.speed)
 	slot2.repressReduce = 1
+	slot2.TargetChoise = {}
 	slot2.crashDMG = slot1.crash_DMG
 end
 

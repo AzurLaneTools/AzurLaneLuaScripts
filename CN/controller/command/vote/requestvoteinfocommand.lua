@@ -22,7 +22,7 @@ function slot0.execute(slot0, slot1)
 			uv1.lastRequestTime = pg.TimeMgr.GetInstance():GetServerTime()
 			slot3 = 0
 
-			if getProxy(ActivityProxy):GetVoteActivity() then
+			if getProxy(VoteProxy):GetVoteActivity() then
 				slot3 = slot2.data1
 			end
 

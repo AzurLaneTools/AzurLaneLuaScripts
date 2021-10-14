@@ -460,18 +460,6 @@ function slot0.recommendActivityFleet(slot0, slot1, slot2)
 	getProxy(FleetProxy):updateActivityFleet(slot1, slot2, slot6)
 end
 
-function slot0.GetVoteBookActivty(slot0)
-	return slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_1) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_3) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_4) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_5) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_6) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_7) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_8)
-end
-
-function slot0.GetVoteActivity(slot0)
-	for slot5, slot6 in ipairs(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_VOTE)) do
-		if slot6:getConfig("config_id") ~= 6 then
-			return slot6
-		end
-	end
-end
-
 function slot0.InitActivityBossData(slot0, slot1)
 	if not pg.activity_event_worldboss[slot1:getConfig("config_id")] then
 		return

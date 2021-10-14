@@ -315,6 +315,33 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>为椿特别制作的角色专属头像框</color>\n「Azurlane人气投票2019」活动获取",
 		scene = {}
 	},
+	[405] = {
+		time_limit_type = 0,
+		name = "殿堂纪念：逸仙",
+		gain_by = "",
+		id = 405,
+		time_second = 0,
+		desc = "<color=#ffffff>为逸仙特别制作的角色专属头像框</color>\n「Azurlane人气投票2021」活动获取",
+		scene = {}
+	},
+	[406] = {
+		time_limit_type = 0,
+		name = "殿堂纪念：拉菲",
+		gain_by = "",
+		id = 406,
+		time_second = 0,
+		desc = "<color=#ffffff>为拉菲特别制作的角色专属头像框</color>\n「Azurlane人气投票2021」活动获取",
+		scene = {}
+	},
+	[407] = {
+		time_limit_type = 0,
+		name = "殿堂纪念：独角兽",
+		gain_by = "",
+		id = 407,
+		time_second = 0,
+		desc = "<color=#ffffff>为独角兽特别制作的角色专属头像框</color>\n「Azurlane人气投票2021」活动获取",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "美味的纪念 ",
@@ -360,6 +387,9 @@ pg.item_data_frame = {
 		401,
 		402,
 		404,
+		405,
+		406,
+		407,
 		501
 	}
 }

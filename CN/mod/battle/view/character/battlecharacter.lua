@@ -109,6 +109,10 @@ function slot5.GetBonePos(slot0, slot1)
 	end
 end
 
+function slot5.GetBoneList(slot0)
+	return slot0._boneList
+end
+
 function slot5.AddFXOffsets(slot0, slot1, slot2)
 	slot0._FXAttachPoint = slot1
 	slot0._FXOffset = slot2
@@ -250,6 +254,7 @@ function slot5.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_CLOAK_LOCK, slot0.onUpdateCloakLock)
 	slot0._unitData:RegisterEventListener(slot0, uv0.INIT_AIMBIAS, slot0.onInitAimBias)
 	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_AIMBIAS_LOCK, slot0.onUpdateAimBiasLock)
+	slot0._unitData:RegisterEventListener(slot0, uv0.HOST_AIMBIAS, slot0.onHostAimBias)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE, slot0.onChangeSize)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON, slot0.onNewWeapon)
 	slot0._unitData:RegisterEventListener(slot0, uv0.HIDE_WAVE_FX, slot0.RemoveWaveFX)
@@ -288,6 +293,7 @@ function slot5.RemoveUnitEvent(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_CLOAK_CONFIG)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_CLOAK_LOCK)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.INIT_CLOAK)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.HOST_AIMBIAS)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_AIMBIAS_LOCK)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.INIT_AIMBIAS)
 	slot0._unitData:UnregisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE)
@@ -954,6 +960,12 @@ function slot5.onUpdateAimBiasLock(slot0, slot1)
 end
 
 function slot5.onInitAimBias(slot0, slot1)
+	if slot0._unitData:GetAimBias():GetHost() == slot0._unitData then
+		slot0._factory:MakeAimBiasBar(slot0)
+	end
+end
+
+function slot5.onHostAimBias(slot0, slot1)
 	slot0._factory:MakeAimBiasBar(slot0)
 end
 

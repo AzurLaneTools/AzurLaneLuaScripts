@@ -538,28 +538,31 @@ pg.activity_const = {
 		act_id = 0
 	},
 	VOTE_ORDER_BOOK_PHASE_1 = {
-		act_id = 1020
+		act_id = 1049
 	},
 	VOTE_ORDER_BOOK_PHASE_2 = {
-		act_id = 1021
+		act_id = 1050
 	},
 	VOTE_ORDER_BOOK_PHASE_3 = {
-		act_id = 1022
+		act_id = 1051
 	},
 	VOTE_ORDER_BOOK_PHASE_4 = {
-		act_id = 1023
+		act_id = 1052
 	},
 	VOTE_ORDER_BOOK_PHASE_5 = {
-		act_id = 1024
+		act_id = 1053
 	},
 	VOTE_ORDER_BOOK_PHASE_6 = {
-		act_id = 1025
+		act_id = 1054
 	},
 	VOTE_ORDER_BOOK_PHASE_7 = {
-		act_id = 1026
+		act_id = 1055
 	},
 	VOTE_ORDER_BOOK_PHASE_8 = {
-		act_id = 1027
+		act_id = 1056
+	},
+	VOTE_ORDER_BOOK_PHASE_9 = {
+		act_id = 1057
 	},
 	ANNIVERSARY_LOGIN_ID = {
 		act_id = 371

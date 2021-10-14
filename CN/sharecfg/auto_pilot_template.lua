@@ -720,6 +720,39 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[20019] = {
+		id = 20019,
+		name = "蛋船固定移动ai-25 14章冲底最上",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -12,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 2.5
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 2,
+				param = {
+					x = -150,
+					z = 0
+				}
+			}
+		}
+	},
 	[30000] = {
 		id = 30000,
 		name = "转圈小范围 顺时针",

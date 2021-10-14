@@ -8476,253 +8476,253 @@ pg.activity_ins_language = {
 		value = "不会让大家失望的~"
 	},
 	ins_248 = {
-		value = ""
+		value = "刨冰和肉都是好吃的！那肉味的刨冰是不是就有两倍的好吃了！？"
 	},
 	ins_discuss_248_1 = {
-		value = ""
+		value = "肉味的…想象不出是什么味道呢！"
 	},
 	ins_reply_248_1_1 = {
-		value = ""
+		value = "不不，怎么想都只会是黑暗到不行的黑暗料理吧…"
 	},
 	ins_discuss_248_2 = {
-		value = ""
+		value = "刨冰虽然好吃，不过还是有点太刺激了…"
 	},
 	ins_reply_248_2_1 = {
-		value = ""
+		value = "{namecode:15}…没事吧？"
 	},
 	ins_reply_248_2_2 = {
-		value = ""
+		value = "没事的…就是太冰了牙齿稍微有点……"
 	},
 	ins_op_248_1_1 = {
-		value = ""
+		value = "下次再做刨冰给大家吃。"
 	},
 	op_reply_248_1_1 = {
-		value = ""
+		value = "真的吗？！我要肉味的！"
 	},
 	ins_249 = {
-		value = ""
+		value = "倾注了{namecode:97}满~满爱意的料理，指挥官一定会喜欢的吧！"
 	},
 	ins_discuss_249_1 = {
-		value = ""
+		value = "哎？给指挥官的吗？我来帮忙“加点料”吧？开玩笑的~嘿嘿~"
 	},
 	ins_reply_249_1_1 = {
-		value = ""
+		value = "不、不行！"
 	},
 	ins_discuss_249_2 = {
-		value = ""
+		value = "{namecode:97}小姐很擅长料理…？"
 	},
 	ins_reply_249_2_1 = {
-		value = ""
+		value = "只要是为了指挥官，{namecode:97}可以擅长任何事情~"
 	},
 	ins_discuss_249_3 = {
-		value = ""
+		value = "哇，看起来挺好吃的样子！"
 	},
 	ins_reply_249_3_1 = {
-		value = ""
+		value = "很遗憾，这个是只属于指挥官的哦~"
 	},
 	ins_reply_249_3_2 = {
-		value = ""
+		value = "我怎么感觉有股不太妙的气场…"
 	},
 	ins_op_249_1_1 = {
-		value = ""
+		value = "非常美味，谢谢。"
 	},
 	op_reply_249_1_1 = {
-		value = ""
+		value = "啊啊~感觉到{namecode:97}满溢的爱了吗，指挥官♡"
 	},
 	ins_250 = {
-		value = ""
+		value = "看着鱼儿优雅的身姿，舞蹈的灵感出来了！"
 	},
 	ins_discuss_250_1 = {
-		value = ""
+		value = "好多鱼！(¯﹃¯)"
 	},
 	ins_reply_250_1_1 = {
-		value = ""
+		value = "大鲨鱼来了，噶哦！"
 	},
 	ins_reply_250_1_2 = {
-		value = ""
+		value = "哈哈~大家都很可爱呢~"
 	},
 	ins_discuss_250_2 = {
-		value = ""
+		value = "似乎有不少优美的舞蹈都是参考动物们的动作编排出来的呢…"
 	},
 	ins_reply_250_2_1 = {
-		value = ""
+		value = "絮库夫也对编排舞蹈有兴趣吗~？"
 	},
 	ins_reply_250_2_2 = {
-		value = ""
+		value = "唔~虽然听上去挺有趣的…有机会再看看吧~"
 	},
 	ins_op_250_1_1 = {
-		value = ""
+		value = "期待新舞蹈。"
 	},
 	op_reply_250_1_1 = {
-		value = ""
+		value = "不会让指挥官失望的~"
 	},
 	ins_251 = {
-		value = ""
+		value = "和大家一起的愉快野餐时光～"
 	},
 	ins_discuss_251_1 = {
-		value = ""
+		value = "度过了一段悠闲又快乐的放松时间呀~"
 	},
 	ins_reply_251_1_1 = {
-		value = ""
+		value = "天气这么好真是太幸运了呢~"
 	},
 	ins_discuss_251_2 = {
-		value = ""
+		value = "这么好的天气…适合午睡…"
 	},
 	ins_reply_251_2_1 = {
-		value = ""
+		value = "拉菲看着也想午睡了Zzz…"
 	},
 	ins_discuss_251_3 = {
-		value = ""
+		value = "是让人忍不住微笑的好天气呢~"
 	},
 	ins_reply_251_3_1 = {
-		value = ""
+		value = "之后再来办一次这样的野餐会吧。"
 	},
 	ins_reply_251_3_2 = {
-		value = ""
+		value = "嗯~下次{namecode:148}来准备便当吧！"
 	},
 	ins_op_251_1_1 = {
-		value = ""
+		value = "确实是好个好天气。"
 	},
 	op_reply_251_1_1 = {
-		value = ""
+		value = "指挥官也这么觉得吧~"
 	},
 	ins_op_251_1_2 = {
-		value = ""
+		value = "便当很好吃。"
 	},
 	op_reply_251_1_2 = {
-		value = ""
+		value = "指挥官能喜欢真是太好了~"
 	},
 	ins_252 = {
-		value = ""
+		value = "虽然很刺激，但果然还是太刺激了呜…"
 	},
 	ins_discuss_252_1 = {
-		value = ""
+		value = "作为皇家光荣的一员，怎么能屈服于区区游乐场的海盗船！振作起来！"
 	},
 	ins_reply_252_1_1 = {
-		value = ""
+		value = "我会努力的！"
 	},
 	ins_reply_252_1_2 = {
-		value = ""
+		value = "陛下在那个面前徘徊了好久，最后貌似也没上去呢…"
 	},
 	ins_reply_252_1_3 = {
-		value = ""
+		value = "姐姐，有些事…留在心里就好……"
 	},
 	ins_reply_252_1_4 = {
-		value = ""
+		value = "哇哇？！知、知道了啦！"
 	},
 	ins_discuss_252_2 = {
-		value = ""
+		value = "居然敢坐那个…命运女神…好勇敢……"
 	},
 	ins_reply_252_2_1 = {
-		value = ""
+		value = "没想到海盗船会飞得这么高这么快呜呜…"
 	},
 	ins_op_252_1_1 = {
-		value = ""
+		value = "下次一起玩点温和些的项目吧…"
 	},
 	op_reply_252_1_1 = {
-		value = ""
+		value = "谢谢指挥官TOT"
 	},
 	ins_253 = {
-		value = ""
+		value = "哈啊…恶毒…已经不行了…"
 	},
 	ins_discuss_253_1 = {
-		value = ""
+		value = "这是怎么了！？"
 	},
 	ins_reply_253_1_1 = {
-		value = ""
+		value = "玩、玩太嗨累着了…"
 	},
 	ins_reply_253_1_2 = {
-		value = ""
+		value = "原、原来如此……"
 	},
 	ins_discuss_253_2 = {
-		value = ""
+		value = "真是的，姐姐你平时太缺乏锻炼了！"
 	},
 	ins_reply_253_2_1 = {
-		value = ""
+		value = "游乐园…竟然如此恐怖……"
 	},
 	ins_op_253_1_1 = {
-		value = ""
+		value = "下回还是控制一下游玩的节奏…"
 	},
 	op_reply_253_1_1 = {
-		value = ""
+		value = "下回还是让我窝在房间里休息吧！"
 	},
 	ins_254 = {
-		value = ""
+		value = "感觉这个…还挺有意思的"
 	},
 	ins_discuss_254_1 = {
-		value = ""
+		value = "哈哈，一看就是马萨诸塞会喜欢的游戏啊~"
 	},
 	ins_reply_254_1_1 = {
-		value = ""
+		value = "嗯，达成了新纪录。"
 	},
 	ins_discuss_254_2 = {
-		value = ""
+		value = "确实挺有意思的样子…"
 	},
 	ins_reply_254_2_1 = {
-		value = ""
+		value = "下次再和阿拉巴马一起来玩吧，姐姐。"
 	},
 	ins_discuss_254_3 = {
-		value = ""
+		value = "哼，只是用来测试蛮力的机器而已。"
 	},
 	ins_reply_254_3_1 = {
-		value = ""
+		value = "下次用这个来一决胜负？"
 	},
 	ins_reply_254_3_2 = {
-		value = ""
+		value = "…看看时间吧。"
 	},
 	ins_op_254_1_1 = {
-		value = ""
+		value = "轻松地破了记录，不亏是马萨诸塞"
 	},
 	op_reply_254_1_1 = {
-		value = ""
+		value = "还要感谢指挥官推荐了有趣的游戏项目呢。"
 	},
 	ins_255 = {
-		value = ""
+		value = "印地超可爱T恤绝赞推广中！！"
 	},
 	ins_discuss_255_1 = {
-		value = ""
+		value = "唔，果然还是好羞耻…而且…是不是印太多了，姐姐…"
 	},
 	ins_reply_255_1_1 = {
-		value = ""
+		value = "等大家都意识到印第的可爱之处之后，这点货怕是都不够呢！"
 	},
 	ins_discuss_255_2 = {
-		value = ""
+		value = "呼喵…究竟是不是商机，{namecode:98}也搞不清楚了喵…"
 	},
 	ins_reply_255_2_1 = {
-		value = ""
+		value = "哼哼哼，你们都太小瞧印第的可爱魅力了！"
 	},
 	ins_reply_255_2_2 = {
-		value = ""
+		value = "所以说这样很羞耻的啦，姐姐…"
 	},
 	ins_op_255_1_1 = {
-		value = ""
+		value = "确实是很可爱呢"
 	},
 	op_reply_255_1_1 = {
-		value = ""
+		value = "是吧是吧~指挥官果然很有眼光！"
 	},
 	ins_256 = {
-		value = ""
+		value = "意外发现了新的美味"
 	},
 	ins_discuss_256_1 = {
-		value = ""
+		value = "经过那家面包店的时候有买真是太好了呢~"
 	},
 	ins_reply_256_1_1 = {
-		value = ""
+		value = "下次还可以试试其他的品种…！"
 	},
 	ins_discuss_256_2 = {
-		value = ""
+		value = "哇哇，看起来就很好吃的样子！"
 	},
 	ins_reply_256_2_1 = {
-		value = ""
+		value = "正好还多买了几个，一会拿给你吧~"
 	},
 	ins_reply_256_2_2 = {
-		value = ""
+		value = "真的吗？！太好啦~"
 	},
 	ins_op_256_1_1 = {
-		value = ""
+		value = "多谢款待，确实是很好吃呢。"
 	},
 	op_reply_256_1_1 = {
-		value = ""
+		value = "下次还会帮你带的，指挥官！"
 	},
 	all = {
 		ins_op_1_1_1,

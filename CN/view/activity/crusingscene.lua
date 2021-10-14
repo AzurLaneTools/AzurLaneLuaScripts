@@ -60,6 +60,7 @@ function slot0.init(slot0)
 	slot0.btnAll = slot0.rtAward:Find("btn_all")
 	slot0.btnPay = slot0.rtAward:Find("btn_pay")
 	slot0.btnAfter = slot0.rtAward:Find("btn_after")
+	slot0.btnFinish = slot0.rtAward:Find("btn_finish")
 	slot0.rtTop = slot0._tf:Find("top")
 	slot0.btnBack = slot0.rtTop:Find("back")
 	slot0.btnHelp = slot0.rtTop:Find("help")
@@ -324,10 +325,14 @@ function slot0.updateAwardPanel(slot0)
 
 	slot0.comScroll:SetTotalCount(#slot0.awardList - 1)
 	slot0:updateNextAward(slot0.comScroll.value)
-	setActive(slot0.btnAll, not slot0.isPay and slot0.activity:readyToAchieve())
+
+	slot1 = slot0.activity:readyToAchieve()
+
+	setActive(slot0.btnAll, not slot0.isPay and slot1)
 	setActive(slot0.btnPay, not slot0.isPay)
 	setActive(slot0.rtAward:Find("text_image_3"), not slot0.isPay)
-	setActive(slot0.btnAfter, slot0.isPay)
+	setActive(slot0.btnFinish, slot0.isPay and slot0.phase == #slot0.awardList and not slot1)
+	setActive(slot0.btnAfter, slot0.isPay and not isActive(slot0.btnFinish))
 	setButtonEnabled(slot0.btnAfter, slot0.activity:readyToAchieve())
 end
 
@@ -364,8 +369,6 @@ function slot0.updateMapStatus(slot0)
 
 			setGray(slot0, slot1 <= uv0.phase)
 		end)
-		setActive(slot5:Find("finish"), slot0.phase == #slot0.awardList)
-		setGray(slot5:Find("finish"), true)
 	end
 end
 

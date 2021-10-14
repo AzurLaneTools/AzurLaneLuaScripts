@@ -52149,7 +52149,9 @@ pg.skill_data_template = {
 		type = 2,
 		max_level = 10,
 		desc = "开始战斗后鹦鹉螺向前移动一段距离，然后上浮一段时间并发射一轮特殊弹幕Ⅰ$1(威力根据技能等级)，期间受到的伤害减少$2，之后下潜撤退回原位，并触发一轮特殊弹幕Ⅱ$1(威力根据技能等级)。",
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		world_death_mark = {
 			1
 		},
@@ -52246,7 +52248,9 @@ pg.skill_data_template = {
 		type = 3,
 		max_level = 10,
 		desc = "对鹦鹉螺号造成伤害的敌方单位受到的伤害上升$1，持续3秒；若该敌方单位为驱逐舰，则额外减速该敌方单位$2，持续5秒",
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		world_death_mark = {
 			1
 		},

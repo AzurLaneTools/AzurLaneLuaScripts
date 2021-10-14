@@ -38,11 +38,11 @@ function slot1.MakeModel(slot0, slot1, slot2)
 
 		uv0:UpdateDiveInvisible()
 
-		if #uv0:GetUnitData():GetTorpedoList() > 0 then
+		if #slot2:GetTorpedoList() > 0 then
 			uv1:MakeTorpedoTrack(uv0)
 		end
 
-		if uv0:GetUnitData():GetAimBias() then
+		if slot2:GetAimBias() and slot2:GetAimBias():GetHost() == slot2 then
 			uv1:MakeAimBiasBar(uv0)
 		end
 	end

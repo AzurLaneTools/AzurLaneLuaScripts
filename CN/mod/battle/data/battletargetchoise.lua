@@ -360,6 +360,24 @@ function slot2.TargetCloakState(slot0, slot1, slot2)
 	return slot3
 end
 
+function slot2.TargetFaintState(slot0, slot1, slot2)
+	slot3 = {}
+
+	for slot9, slot10 in ipairs(slot2 or uv0.TargetEntityUnit()) do
+		slot11 = slot10:GetAimBias()
+
+		if (slot1.faint or 1) == 1 then
+			if slot11 and slot11:IsFaint() then
+				slot3[#slot3 + 1] = slot10
+			end
+		elseif slot4 == 0 and (not slot11 or not slot11:IsFaint()) then
+			slot3[#slot3 + 1] = slot10
+		end
+	end
+
+	return slot3
+end
+
 function slot2.TargetHarmNearest(slot0, slot1, slot2)
 	slot4 = nil
 

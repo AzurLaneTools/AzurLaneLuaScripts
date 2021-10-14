@@ -37,40 +37,32 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 
 	uv0.PAGES = {
-		[6] = {
+		{
+			VotePreRaceShipPage,
+			VotePreRaceRankPage
+		},
+		{
 			VoteGroupRaceShipPage,
 			VoteGroupRaceRankPage
 		},
-		[7] = {
+		{
 			VoteGroupRaceShipPage,
 			VoteGroupRaceRankPage
 		},
-		[8] = {
+		{
 			VoteGroupRaceShipPage,
 			VoteGroupRaceRankPage
 		},
-		[9] = {
-			VoteGroupRaceShipPage,
-			VoteGroupRaceRankPage
-		},
-		[10] = {
-			VoteGroupRaceShipPage,
-			VoteGroupRaceRankPage
-		},
-		[11] = {
-			VoteGroupRaceShipPage,
-			VoteGroupRaceRankPage
-		},
-		[12] = {
-			VoteGroupRaceShipPage,
-			VoteGroupRaceRankPage
-		},
-		[13] = {
+		{
 			VoteFinalsRaceShipsPage,
 			VoteFinalsRaceRankPage
+		},
+		{
+			VoteGroupRaceShipPage,
+			VotePreRaceRankPage
 		}
 	}
-	slot2 = uv0.PAGES[slot0.voteGroup.id]
+	slot2 = uv0.PAGES[slot0.voteGroup:getConfig("type")]
 	slot0.ships = slot2[1].New(slot0:findTF("main/right_panel"), slot0.event)
 	slot0.ranks = slot2[2].New(slot0:findTF("main/left_panel"), slot0.event)
 

@@ -15,6 +15,16 @@ function slot0.GetName(slot0)
 	return slot0.gameObject.name
 end
 
+function slot0.Init(slot0)
+	uv0.super.Init(slot0)
+
+	if getProxy(MailProxy).total >= 1000 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_2"))
+	elseif slot1.total >= 950 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot1.total))
+	end
+end
+
 function slot0.SetData(slot0, slot1)
 	if slot1 > 0 then
 		SetActive(slot0._attachmentHint, true)

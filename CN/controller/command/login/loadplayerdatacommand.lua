@@ -81,6 +81,7 @@ function slot0.execute(slot0, slot1)
 		pg.SecondaryPWDMgr.GetInstance():FetchData()
 		MonthCardOutDateTipPanel.SetMonthCardEndDateLocal()
 		pg.NewStoryMgr.GetInstance():Fix()
+		getProxy(SettingsProxy):ResetTimeLimitSkinShopTip()
 	end, nil, 60)
 end
 

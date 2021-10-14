@@ -13,7 +13,7 @@ function slot0.init(slot0)
 	slot0._startBtn = slot0:findTF("right/start")
 	slot0._popup = slot0:findTF("right/popup")
 	slot0._costText = slot0:findTF("right/popup/Text")
-	slot0._extraCostMark = slot0:findTF("right/popup/extra_cost")
+	slot0._costTip = slot0:findTF("right/popup/tip")
 	slot0._extraCostBuffIcon = slot0:findTF("right/operation_buff_icon")
 	slot0._backBtn = slot0:findTF("top/back_btn")
 	slot0._moveLayer = slot0:findTF("moveLayer")
@@ -157,6 +157,16 @@ function slot0.didEnter(slot0)
 			weight = LayerWeightConst.SECOND_LAYER
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot0._costTip, function ()
+		slot0 = uv0.chapter.fleet
+		slot2, slot3, slot4 = uv0.chapter:isOverFleetCost(slot0, uv0.chapter:getStageId(slot0.line.row, slot0.line.column))
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			hideNo = true,
+			content = i18n("use_oil_limit_help", slot4, slot3),
+			weight = LayerWeightConst.SECOND_LAYER
+		})
+	end)
 end
 
 function slot0.onBackPressed(slot0)
@@ -676,17 +686,32 @@ end
 
 function slot0.displayFleetInfo(slot0)
 	slot1 = slot0.chapter.fleet
-	slot2 = slot1:getCommanders()
-	slot5, slot6 = slot0.chapter:getFleetCost(slot1)
+	slot2 = slot0.chapter
+	slot3 = slot1:getCommanders()
+	slot4 = _.reduce(slot1:getShipsByTeam(TeamType.Vanguard, false), 0, function (slot0, slot1)
+		return slot0 + slot1:getShipCombatPower(uv0)
+	end)
+	slot5 = _.reduce(slot1:getShipsByTeam(TeamType.Main, false), 0, function (slot0, slot1)
+		return slot0 + slot1:getShipCombatPower(uv0)
+	end)
+	slot9 = slot0.chapter
+	slot10 = slot9
+	slot11 = slot1
+
+	for slot10, slot11 in ipairs({
+		slot9.getFleetCost(slot10, slot11, slot2:getStageId(slot1.line.row, slot1.line.column))
+	}) do
+		slot6 = 0 + slot11.oil
+	end
+
+	slot7 = slot0.chapter:isOverFleetCost(slot1, slot2)
 
 	setActive(slot0._popup, true)
-	uv0.tweenNumText(slot0._costText, slot5.oil + slot6.oil)
-	uv0.tweenNumText(slot0._vanguardGS, _.reduce(slot1:getShipsByTeam(TeamType.Vanguard, false), 0, function (slot0, slot1)
-		return slot0 + slot1:getShipCombatPower(uv0)
-	end))
-	uv0.tweenNumText(slot0._mainGS, _.reduce(slot1:getShipsByTeam(TeamType.Main, false), 0, function (slot0, slot1)
-		return slot0 + slot1:getShipCombatPower(uv0)
-	end))
+	setActive(slot0._costTip, slot7)
+	setTextColor(slot0._costText, slot7 and Color(0.9803921568627451, 0.39215686274509803, 0.39215686274509803) or Color.white)
+	uv0.tweenNumText(slot0._costText, slot6)
+	uv0.tweenNumText(slot0._vanguardGS, slot4)
+	uv0.tweenNumText(slot0._mainGS, slot5)
 
 	slot8, slot9 = slot0.chapter:GetExtraCostRate()
 

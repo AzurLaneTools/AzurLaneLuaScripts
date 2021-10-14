@@ -58,7 +58,7 @@ function slot4.createMajorEmitter(slot0, slot1, slot2)
 			end
 
 			slot4 = uv0:Spawn(slot6, slot7, uv0.INTERNAL)
-			slot5 = slot7:GetPosition()
+			slot5 = slot7:GetBeenAimedPosition() or slot7:GetPosition()
 
 			uv0:UnlockUnit(slot7)
 		end
@@ -141,11 +141,12 @@ function slot4.Fire(slot0, slot1)
 
 	slot0._strikePoint = slot1
 
+	slot0._host:CloakExpose(uv0.Battle.BattleConfig.CLOAK_BOMBARD_BASE_EXPOSE)
 	slot0._host:BombardExpose()
 
 	slot0._strikeMode = false
 
-	uv0.super.Fire(slot0)
+	uv1.super.Fire(slot0)
 end
 
 function slot4.DoAttack(slot0, slot1)
@@ -194,9 +195,9 @@ function slot4.Spawn(slot0, slot1, slot2, slot3)
 		if slot0:TrackingRandom(slot0:GetFilteredList()) == nil then
 			slot4 = Vector3.zero
 		else
-			slot4 = slot2:GetPosition()
+			slot4 = slot2:GetBeenAimedPosition() or slot2:GetPosition()
 		end
-	else
+	elseif not slot2:GetBeenAimedPosition() then
 		slot4 = slot2:GetPosition()
 	end
 

@@ -1462,13 +1462,12 @@ pg.furniture_data_template = {
 		icon = "jinkelawutaiicon",
 		spine_extra = "",
 		level = 1,
-		interaction_bgm = "diego",
-		effect = "",
 		advice = 0,
+		effect = "",
 		comfortable = 5,
+		deblocking = 1,
 		spine_action_replace = "",
 		picture = "",
-		deblocking = 1,
 		canputon = 0,
 		id = 116,
 		can_rotate = 1,
@@ -1509,6 +1508,10 @@ pg.furniture_data_template = {
 				159,
 				-199
 			}
+		},
+		interaction_bgm = {
+			0,
+			"diego"
 		},
 		interAction_group = {}
 	},
@@ -72493,13 +72496,12 @@ pg.furniture_data_template = {
 		icon = "wutaiholoicon",
 		deblocking = 1,
 		level = 1,
-		interaction_bgm = "holo-sss",
-		effect = "",
 		advice = 0,
+		effect = "",
 		tag = 1,
+		spine_extra = "",
 		spine_action_replace = "",
 		picture = "",
-		spine_extra = "",
 		canputon = 0,
 		id = 55118,
 		can_rotate = 1,
@@ -72545,6 +72547,10 @@ pg.furniture_data_template = {
 				"hololivestageCharControl2",
 				"hololivestageCharControl3"
 			}
+		},
+		interaction_bgm = {
+			0,
+			"holo-sss"
 		},
 		interAction_group = {}
 	},

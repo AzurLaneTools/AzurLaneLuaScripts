@@ -62,7 +62,7 @@ return {
 
 			return _.any(getProxy(ShipSkinProxy):GetAllSkins(), function (slot0)
 				return slot0:getConfig("genre") == ShopArgs.SkinShopTimeLimit and not uv0:hasSkin(slot0:getSkinId())
-			end)
+			end) and getProxy(SettingsProxy):ShouldTipTimeLimitSkinShop()
 		end
 	},
 	{
@@ -168,12 +168,12 @@ return {
 		event = ActivityMediator.GO_FISRT_VOTE,
 		data = {},
 		isShow = function ()
-			return getProxy(ActivityProxy):GetVoteBookActivty() and not slot1:isEnd() and PLATFORM_CODE ~= PLATFORM_US
+			slot0 = getProxy(ActivityProxy)
+
+			return getProxy(VoteProxy):GetVoteBookActivty() and not slot1:isEnd()
 		end,
 		isTip = function ()
-			return _.any(VoteFameHallLayer.configs, function (slot0)
-				return getProxy(TaskProxy):getTaskById(slot0[2]) and slot1:isFinish() and not slot1:isReceive()
-			end)
+			return getProxy(VoteProxy):ExistPastVoteAward()
 		end
 	},
 	{
