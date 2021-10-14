@@ -4290,81 +4290,29 @@ pg.activity_template = {
 	},
 	[20799] = {
 		mark = 20210708,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 74,
 		login_pop = 0,
 		config_id = 20799,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20799,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[20800] = {
 		mark = 20210708,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 34,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 20800,
 		config_data = {
 			3
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					7,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			id = 970201
@@ -7279,6 +7227,88 @@ pg.activity_template = {
 			ui_name = "CrusingDisplayActPage"
 		}
 	},
+	[20874] = {
+		mark = 20211014,
+		title_res_tag = "",
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 20874,
+		is_show = 0,
+		config_client = "",
+		id = 20874,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20875] = {
+		mark = 20211014,
+		title_res_tag = "",
+		page_info = "",
+		type = 34,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 20875,
+		config_data = {
+			4
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 970703
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		time = "stop",
@@ -8472,6 +8502,8 @@ pg.activity_template = {
 		20871,
 		20872,
 		20873,
+		20874,
+		20875,
 		25000,
 		25001,
 		25002,

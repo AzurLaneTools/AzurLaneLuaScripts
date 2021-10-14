@@ -3733,17 +3733,6 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
-	[16503] = {
-		other_resource_cost = "[]",
-		display_effect = "",
-		limit = "[]",
-		usage = "usage_undefined",
-		other_item_cost = "[]",
-		usage_arg = "50000",
-		id = 16503,
-		compose_number = 0,
-		target_id = 0
-	},
 	[17001] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -21408,7 +21397,6 @@ pg.item_data_template = {
 		16024,
 		16501,
 		16502,
-		16503,
 		17001,
 		17002,
 		17003,

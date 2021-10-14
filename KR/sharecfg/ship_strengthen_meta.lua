@@ -366,7 +366,7 @@ pg.ship_strengthen_meta = {
 	},
 	[970703] = {
 		ship_id = 9707031,
-		activity_id = 4100,
+		activity_id = 20874,
 		type = 1,
 		id = 970703,
 		repair_total_exp = 5000,
