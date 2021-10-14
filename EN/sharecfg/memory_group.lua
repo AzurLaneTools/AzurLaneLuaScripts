@@ -998,7 +998,10 @@ pg.memory_group = {
 			840,
 			841,
 			842,
-			843
+			843,
+			1874,
+			1869,
+			1875
 		}
 	},
 	[162] = {
@@ -1085,6 +1088,21 @@ pg.memory_group = {
 		memories = {
 			889,
 			890
+		}
+	},
+	[166] = {
+		icon = "title_chara_rongyaodiantang",
+		subtype = 0,
+		type = 3,
+		id = 166,
+		title = "Hall of Fame",
+		memories = {
+			891,
+			892,
+			893,
+			1868,
+			1869,
+			1870
 		}
 	},
 	[167] = {
@@ -3127,6 +3145,22 @@ pg.memory_group = {
 			1857
 		}
 	},
+	[570] = {
+		icon = "title_chara_junhe",
+		subtype = 0,
+		type = 3,
+		id = 570,
+		title = "Hidden Charm",
+		memories = {
+			1861,
+			1862,
+			1863,
+			1864,
+			1865,
+			1866,
+			1867
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3190,6 +3224,7 @@ pg.memory_group = {
 		163,
 		164,
 		165,
+		166,
 		167,
 		168,
 		169,
@@ -3291,6 +3326,7 @@ pg.memory_group = {
 		566,
 		567,
 		568,
-		569
+		569,
+		570
 	}
 }

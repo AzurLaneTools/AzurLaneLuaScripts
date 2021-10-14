@@ -1242,5 +1242,27 @@ pg.effect_offset = {
 			3,
 			0
 		}
+	},
+	zhaomingdan_baolu = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			3,
+			0
+		}
+	},
+	zhaomingdan_miaozhun = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0.1,
+			0
+		}
 	}
 }

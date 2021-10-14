@@ -1307,6 +1307,20 @@ function slot0.didEnter(slot0)
 			return
 		end
 
+		if uv0.contextData.mode == uv1.MODE_DESTROY then
+			slot0, slot1 = uv0:checkDestroyGold()
+
+			if not slot0 or not slot1 then
+				if not slot0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_retire"))
+				elseif not slot0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire"))
+				end
+
+				return
+			end
+		end
+
 		if #uv0.selectedIds < uv0.selectedMin then
 			if uv0.leastLimitMsg then
 				pg.TipsMgr.GetInstance():ShowTips(uv0.leastLimitMsg)
@@ -1497,7 +1511,7 @@ function slot0.didEnter(slot0)
 				if #uv0.selectedIds == 0 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_retire"))
 				else
-					pg.TipsMgr.GetInstance():ShowTips(i18n("retire_overgold"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title"))
 				end
 			elseif #uv0.selectedIds > 0 then
 				uv0:displayDestroyPanel()
@@ -1699,8 +1713,6 @@ function slot0.checkDestroyGold(slot0, slot1)
 	slot4 = slot0.player:OilMax(slot3)
 
 	if slot0.player:GoldMax(slot2) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_retire"))
-
 		return false, not slot4
 	end
 
@@ -1805,6 +1817,7 @@ function slot0.unselecteAllShips(slot0)
 	slot0.selectedIds = {}
 
 	slot0:updateSelected()
+	slot0:updateDestroyRes()
 end
 
 function slot0.updateSelected(slot0)

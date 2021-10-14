@@ -101,6 +101,10 @@ function slot0.addTranDrop(slot0, slot1)
 				else
 					slot2, slot3 = Player.headFrame2Res(slot0.id, slot1)
 
+					if slot3 <= 0 then
+						return nil
+					end
+
 					return Item.New({
 						type = DROP_TYPE_RESOURCE,
 						id = slot2,

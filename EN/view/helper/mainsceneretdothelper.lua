@@ -58,6 +58,9 @@ function slot0.Ctor(slot0, slot1)
 		}),
 		EffectRedDotNode.New(slot0._tf:Find("toTop/frame/commanderPanel/link_btns/return"), {
 			pg.RedDotMgr.TYPES.ACT_RETURN
+		}),
+		VoteOrderBookRedDotNode.New(slot0._tf:Find("toTop/frame/bottomPanel/btm/vote_book_btn"), {
+			pg.RedDotMgr.TYPES.VOTE_OREDER
 		})
 	}
 
@@ -119,6 +122,10 @@ function slot0.GetNotifyType(slot0)
 			},
 			[pg.RedDotMgr.TYPES.ACT_RETURN] = {
 				GAME.REMOVE_LAYERS
+			},
+			[pg.RedDotMgr.TYPES.VOTE_OREDER] = {
+				VoteProxy.VOTE_ORDER_BOOK_DELETE,
+				VoteProxy.VOTE_ORDER_BOOK_UPDATE
 			}
 		}
 	end

@@ -16,7 +16,6 @@ function slot0.init(slot0)
 	setActive(slot0._popup, false)
 
 	slot0._costText = slot0:findTF("right/popup/Text")
-	slot0._extraCostMark = slot0:findTF("right/popup/extra_cost")
 	slot0._extraCostBuffIcon = slot0:findTF("right/operation_buff_icon")
 	slot0._backBtn = slot0:findTF("top/back_btn")
 	slot0._moveLayer = slot0:findTF("moveLayer")

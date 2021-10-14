@@ -10659,6 +10659,174 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100120] = {
+		map = 2100120,
+		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "TIANCHENGHUODONG1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		ani_name = "map_1180001",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1180001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100130,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100121] = {
+		map = 2100121,
+		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "TIANCHENGHUODONG10",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		ani_name = "map_1180002",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1180002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100131,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100130] = {
+		map = 2100130,
+		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "TIANCHENGHUODONG1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		ani_name = "map_1180011",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1180001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100120,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100131] = {
+		map = 2100131,
+		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "TIANCHENGHUODONG10",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		ani_name = "map_1180012",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1180002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100121,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "Strive, Wish, and Strategize || || Chapter SP || S.P.",
@@ -11189,6 +11357,10 @@ pg.expedition_data_by_map = {
 		2100101,
 		2100110,
 		2100111,
+		2100120,
+		2100121,
+		2100130,
+		2100131,
 		2200000,
 		2200010,
 		2200020,

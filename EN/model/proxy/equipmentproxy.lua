@@ -157,6 +157,18 @@ function slot0.getEquipments(slot0, slot1)
 	return slot2
 end
 
+function slot0.getEquipmentsByFillter(slot0, slot1, slot2)
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot0.data.equipments) do
+		if slot8.count > 0 and table.contains(slot2, slot8.config.type) and not table.contains(pg.equip_data_template[slot8.configId].ship_type_forbidden, slot1) then
+			table.insert(slot3, slot8:clone())
+		end
+	end
+
+	return slot3
+end
+
 function slot0.GetEquipmentsRaw(slot0)
 	slot1 = {}
 

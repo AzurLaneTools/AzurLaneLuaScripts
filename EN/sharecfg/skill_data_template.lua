@@ -52148,7 +52148,9 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		type = 2,
 		max_level = 10,
 		desc = "At the start of the battle: this boat moves forward a set distance, then fires a $1 torpedo barrage (DMG is based on the skill's level) and briefly resurfaces. Afterwards, she submerges and moves back into attack position, then fires a stronger $1 torpedo barrage. This boat takes $2 less DMG while resurfaced as part of this skill's effect.",
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		world_death_mark = {
 			1
 		},
@@ -52245,7 +52247,9 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		type = 3,
 		max_level = 10,
 		desc = "When this boat is hit by an enemy: increases that enemy's DMG taken by $1 for 3s. If the enemy is a DD: also decreases that enemy's Speed by $2 for 5s.",
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		world_death_mark = {
 			1
 		},

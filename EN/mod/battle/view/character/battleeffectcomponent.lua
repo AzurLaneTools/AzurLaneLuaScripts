@@ -123,6 +123,10 @@ function slot5.DoWhenAddBuff(slot0, slot1)
 				if slot4.last_effect_cld_angle then
 					slot5.transform:Find("scale/sector"):GetComponent(typeof(Renderer)).material:SetInt("_AngleControl", (360 - slot6.arg_list.cld_data.angle) * 0.5 - 5)
 				end
+
+				if slot4.last_effect_bound_bone and slot0._owner:GetBoneList()[slot4.last_effect_bound_bone] then
+					slot5.transform.localPosition = slot8[1]
+				end
 			end
 		end
 

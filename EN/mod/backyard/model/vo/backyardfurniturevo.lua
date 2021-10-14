@@ -211,8 +211,12 @@ function slot0.canInterActionShipGroup(slot0, slot1)
 end
 
 function slot0.getBgm(slot0)
-	if slot0:getConfig("interaction_bgm") and slot1 ~= "" then
-		return slot1
+	if type(slot0:getConfig("interaction_bgm")) == "string" then
+		if slot1 and slot1 ~= "" then
+			return slot1, 0
+		end
+	elseif type(slot1) == "table" then
+		return slot1[2], slot1[1]
 	end
 end
 

@@ -151,6 +151,16 @@ pg.collection_template = {
 				id = 59000,
 				nums = "120",
 				type = 2
+			},
+			{
+				id = 59001,
+				nums = "12~28",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "0~2",
+				type = 2
 			}
 		},
 		special_drop = {
@@ -216,6 +226,16 @@ pg.collection_template = {
 			{
 				id = 59000,
 				nums = "1000",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "12~28",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "4~8",
 				type = 2
 			}
 		},
@@ -533,6 +553,16 @@ pg.collection_template = {
 				id = 59000,
 				nums = "380",
 				type = 2
+			},
+			{
+				id = 59001,
+				nums = "45~75",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "2~4",
+				type = 2
 			}
 		},
 		special_drop = {
@@ -598,6 +628,16 @@ pg.collection_template = {
 			{
 				id = 59000,
 				nums = "1250",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "15~35",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "8~14",
 				type = 2
 			}
 		},
@@ -912,6 +952,16 @@ pg.collection_template = {
 				id = 59000,
 				nums = "750",
 				type = 2
+			},
+			{
+				id = 59001,
+				nums = "90~150",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "4~10",
+				type = 2
 			}
 		},
 		special_drop = {
@@ -980,6 +1030,16 @@ pg.collection_template = {
 			{
 				id = 59000,
 				nums = "2000",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "25~55",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "14~22",
 				type = 2
 			}
 		},
@@ -1252,6 +1312,16 @@ pg.collection_template = {
 				id = 59000,
 				nums = "600",
 				type = 2
+			},
+			{
+				id = 59001,
+				nums = "50~80",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "20~50",
+				type = 2
 			}
 		},
 		special_drop = {
@@ -1492,6 +1562,16 @@ pg.collection_template = {
 			{
 				id = 59000,
 				nums = "660",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "60~90",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "25~55",
 				type = 2
 			}
 		},
@@ -1772,6 +1852,16 @@ pg.collection_template = {
 				id = 59000,
 				nums = "840",
 				type = 2
+			},
+			{
+				id = 59001,
+				nums = "85~125",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "40~70",
+				type = 2
 			}
 		},
 		special_drop = {
@@ -2009,6 +2099,16 @@ pg.collection_template = {
 			{
 				id = 59000,
 				nums = "1125",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "105~175",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "60~90",
 				type = 2
 			}
 		},
@@ -2289,6 +2389,16 @@ pg.collection_template = {
 				id = 59000,
 				nums = "1500",
 				type = 2
+			},
+			{
+				id = 59001,
+				nums = "145~225",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "80~120",
+				type = 2
 			}
 		},
 		special_drop = {
@@ -2526,6 +2636,16 @@ pg.collection_template = {
 			{
 				id = 59000,
 				nums = "2250",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "200~360",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "115~185",
 				type = 2
 			}
 		},
@@ -6079,6 +6199,16 @@ pg.collection_template = {
 				id = 59000,
 				nums = "2240",
 				type = 2
+			},
+			{
+				id = 59002,
+				nums = "65~105",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "18~24",
+				type = 2
 			}
 		},
 		special_drop = {
@@ -6312,6 +6442,16 @@ pg.collection_template = {
 				id = 59000,
 				nums = "2600",
 				type = 2
+			},
+			{
+				id = 59002,
+				nums = "100~160",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "20~28",
+				type = 2
 			}
 		},
 		special_drop = {
@@ -6544,6 +6684,16 @@ pg.collection_template = {
 			{
 				id = 59000,
 				nums = "3000",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "150~230",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "22~32",
 				type = 2
 			}
 		},

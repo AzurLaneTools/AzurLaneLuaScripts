@@ -359,6 +359,10 @@ function slot0.addbubbleMsgBox(slot0, slot1, slot2)
 	end
 end
 
+function slot0.CleanBubbleMsgbox(slot0)
+	table.clean(slot0.bubbleMsgBoxes)
+end
+
 function slot0.updatePtActivity(slot0, slot1)
 	slot0.ptActivity = slot1
 

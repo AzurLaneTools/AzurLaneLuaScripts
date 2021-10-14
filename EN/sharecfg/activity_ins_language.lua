@@ -8476,253 +8476,253 @@ pg.activity_ins_language = {
 		value = "Thanks! I promise you won't be disappointed!!"
 	},
 	ins_248 = {
-		value = ""
+		value = "meats yum yum, shaved ice is delish, combine them and you get the king of all food!!"
 	},
 	ins_discuss_248_1 = {
-		value = ""
+		value = "I can't even imagine how that would taste..."
 	},
 	ins_reply_248_1_1 = {
-		value = ""
+		value = "Probably like frozen chunks of meat. Not even a dog would touch that..."
 	},
 	ins_discuss_248_2 = {
-		value = ""
+		value = "I got severe brain freeze from eating too much at once..."
 	},
 	ins_reply_248_2_1 = {
-		value = ""
+		value = "Has it passed now, Shiratsuyu?"
 	},
 	ins_reply_248_2_2 = {
-		value = ""
+		value = "Mostly, but I still feel a bit cold in the noggin..."
 	},
 	ins_op_248_1_1 = {
-		value = ""
+		value = "Guess we'll make some tomorrow then."
 	},
 	op_reply_248_1_1 = {
-		value = ""
+		value = "for real?? you'd better make mine MEAT flavored!!"
 	},
 	ins_249 = {
-		value = ""
+		value = "My Commander is going to ADORE this soup. The secret ingredient is... my love <3"
 	},
 	ins_discuss_249_1 = {
-		value = ""
+		value = "I bet it'd be better if I added a little bit of my bathwater from last night~"
 	},
 	ins_reply_249_1_1 = {
-		value = ""
+		value = "WHY YOU LITTLE...!!!"
 	},
 	ins_discuss_249_2 = {
-		value = ""
+		value = "You can cook, Taihou? I never knew you were so multi-talented."
 	},
 	ins_reply_249_2_1 = {
-		value = ""
+		value = "If my Commander wills it, I will pick up and master any craft in the name of our love <3"
 	},
 	ins_discuss_249_3 = {
-		value = ""
+		value = "It looks great! I'd love to taste it myself!"
 	},
 	ins_reply_249_3_1 = {
-		value = ""
+		value = "Thank you, but its indescribable taste is only for my Commander to savor."
 	},
 	ins_reply_249_3_2 = {
-		value = ""
+		value = "Maybe that's for the best..."
 	},
 	ins_op_249_1_1 = {
-		value = ""
+		value = "Can't wait to try it."
 	},
 	op_reply_249_1_1 = {
-		value = ""
+		value = "I assure you, you'll feel my love seep into your every tastebud, my Commander! <3<3"
 	},
 	ins_250 = {
-		value = ""
+		value = "See the fish dance a fantastic dance! They've given me new inspiration!"
 	},
 	ins_discuss_250_1 = {
-		value = ""
+		value = "ooh, fish... bet they taste amazing grilled..."
 	},
 	ins_reply_250_1_1 = {
-		value = ""
+		value = "they better watch out for that shark. raaawr."
 	},
 	ins_reply_250_1_2 = {
-		value = ""
+		value = "I can't comment on their taste, but I can say they're cute and worthy of preservation!"
 	},
 	ins_discuss_250_2 = {
-		value = ""
+		value = "You're turning to the animal kingdom for new dance moves? Neato."
 	},
 	ins_reply_250_2_1 = {
-		value = ""
+		value = "Would you want to see me practicing them?"
 	},
 	ins_reply_250_2_2 = {
-		value = ""
+		value = "Thanks but I'll pass. I'd be down to watch when you've nailed them tho."
 	},
 	ins_op_250_1_1 = {
-		value = ""
+		value = "Hope your practice is going swimmingly."
 	},
 	op_reply_250_1_1 = {
-		value = ""
+		value = "Ahahah! Oh, you, Commander. It's going great! I promise you'll be amazed when you see it."
 	},
 	ins_251 = {
-		value = ""
+		value = "Check it out, we're having a picnic ^^"
 	},
 	ins_discuss_251_1 = {
-		value = ""
+		value = "Ain't nothing better than a comfy li'l picnic on a warm day!"
 	},
 	ins_reply_251_1_1 = {
-		value = ""
+		value = "Mhm! The weather couldn't be better for it~"
 	},
 	ins_discuss_251_2 = {
-		value = ""
+		value = "Perfect time and weather for a small siesta..."
 	},
 	ins_reply_251_2_1 = {
-		value = ""
+		value = "now you're making me sleepyyyyy..."
 	},
 	ins_discuss_251_3 = {
-		value = ""
+		value = "What a lovely day it was. I'm happy we could spend this day together."
 	},
 	ins_reply_251_3_1 = {
-		value = ""
+		value = "Right? We should do it again sometime soon!"
 	},
 	ins_reply_251_3_2 = {
-		value = ""
+		value = "Oh, definitely. I'll make the lunches next time."
 	},
 	ins_op_251_1_1 = {
-		value = ""
+		value = "I couldn't have asked for better weather."
 	},
 	op_reply_251_1_1 = {
-		value = ""
+		value = "Yeah! Not too hot, not too windy, and not too bright either!"
 	},
 	ins_op_251_1_2 = {
-		value = ""
+		value = "Great cooking by the way, Michishio."
 	},
 	op_reply_251_1_2 = {
-		value = ""
+		value = "I'm glad to hear you liked it!"
 	},
 	ins_252 = {
-		value = ""
+		value = "Does this ship NEED to swing so much?! ><"
 	},
 	ins_discuss_252_1 = {
-		value = ""
+		value = "Get it together, Fortune! A true Royal Navy shipgirl does not panic from a mere amusement park ride!"
 	},
 	ins_reply_252_1_1 = {
-		value = ""
+		value = "Sorry? I'll try... not panicking I guess??"
 	},
 	ins_reply_252_1_2 = {
-		value = ""
+		value = "It's worth pointing out Her Highness declined having a go on the ride >_>"
 	},
 	ins_reply_252_1_3 = {
-		value = ""
+		value = "I believe we were asked not to disclose that fact, Edinburgh."
 	},
 	ins_reply_252_1_4 = {
-		value = ""
+		value = "RIGHT UMM how do I delete the post? BEL PLEASE HELP ME HERE!"
 	},
 	ins_discuss_252_2 = {
-		value = ""
+		value = "Wow... I was be too scared to board the pirate ship. You're brave, Fortune..."
 	},
 	ins_reply_252_2_1 = {
-		value = ""
+		value = "I only did because I didn't expect it would go so high and so fast... ><"
 	},
 	ins_op_252_1_1 = {
-		value = ""
+		value = "Try familiarizing yourself with less intense rides first."
 	},
 	op_reply_252_1_1 = {
-		value = ""
+		value = "Good idea, then I might just get used to it..."
 	},
 	ins_253 = {
-		value = ""
+		value = "Never doing that ever again..."
 	},
 	ins_discuss_253_1 = {
-		value = ""
+		value = "What's the matter, Le Malin?! What happened?"
 	},
 	ins_reply_253_1_1 = {
-		value = ""
+		value = "One roller coaster too many..."
 	},
 	ins_reply_253_1_2 = {
-		value = ""
+		value = "Oh, I see... It's important to know your own limits."
 	},
 	ins_discuss_253_2 = {
-		value = ""
+		value = "Doesn't that just prove that you're out of shape?"
 	},
 	ins_reply_253_2_1 = {
-		value = ""
+		value = "No, it proves that the outside world sucks..."
 	},
 	ins_op_253_1_1 = {
-		value = ""
+		value = "All good things in moderation, Le Malin."
 	},
 	op_reply_253_1_1 = {
-		value = ""
+		value = "Yeah, I'll be enjoying good things moderately from the comfort of my room from now on..."
 	},
 	ins_254 = {
-		value = ""
+		value = "This was more fun than I expected."
 	},
 	ins_discuss_254_1 = {
-		value = ""
+		value = "Haha, somehow I just knew you'd like it the moment I laid eyes on it."
 	},
 	ins_reply_254_1_1 = {
-		value = ""
+		value = "I even set a new record. That was nice."
 	},
 	ins_discuss_254_2 = {
-		value = ""
+		value = "Hmm. This could be worth trying out."
 	},
 	ins_reply_254_2_1 = {
-		value = ""
+		value = "Let's bring Alabama and see who can score highest."
 	},
 	ins_discuss_254_3 = {
-		value = ""
+		value = "what a ripoff. it's just a punching bag with a score tracker."
 	},
 	ins_reply_254_3_1 = {
-		value = ""
+		value = "But it's fun. We could play it together and see who's really strongest."
 	},
 	ins_reply_254_3_2 = {
-		value = ""
+		value = "meh. another time maybe."
 	},
 	ins_op_254_1_1 = {
-		value = ""
+		value = "Wow. You really blew the last record out of the water."
 	},
 	op_reply_254_1_1 = {
-		value = ""
+		value = "What can I say? I felt motivated because you were around, Commander."
 	},
 	ins_255 = {
-		value = ""
+		value = "You asked for them, and we listened! Come get your very own Ultra Cute Indy t-shirt!"
 	},
 	ins_discuss_255_1 = {
-		value = ""
+		value = "For goodness' sake, sis... You didn't have to make so many..."
 	},
 	ins_reply_255_1_1 = {
-		value = ""
+		value = "This is only the start, my beloved Indy! I'm not done until every person alive has an Indy tee!"
 	},
 	ins_discuss_255_2 = {
-		value = ""
+		value = "You're giving them away, nya? Why not charge money for them, nya???"
 	},
 	ins_reply_255_2_1 = {
-		value = ""
+		value = "Because it's Indy promo merch! The point is to raise Indy awareness!"
 	},
 	ins_reply_255_2_2 = {
-		value = ""
+		value = "Is that really necessary though..."
 	},
 	ins_op_255_1_1 = {
-		value = ""
+		value = "Ahem... Indy is soooo cute!"
 	},
 	op_reply_255_1_1 = {
-		value = ""
+		value = "Preach it, Commander! Louder for the people in the back!"
 	},
 	ins_256 = {
-		value = ""
+		value = "Just discovered a new favorite treat!"
 	},
 	ins_discuss_256_1 = {
-		value = ""
+		value = "I'm glad we managed to get these. The bakery usually sells out pretty quick."
 	},
 	ins_reply_256_1_1 = {
-		value = ""
+		value = "Mhm. I'd like to try another one of their breads next time!"
 	},
 	ins_discuss_256_2 = {
-		value = ""
+		value = "I bet it tastes just as good as it looks!"
 	},
 	ins_reply_256_2_1 = {
-		value = ""
+		value = "It really does. I'll buy some for you too next time."
 	},
 	ins_reply_256_2_2 = {
-		value = ""
+		value = "Whoa, really?! You're the best! Thanks!"
 	},
 	ins_op_256_1_1 = {
-		value = ""
+		value = "I could go for some melon bread too."
 	},
 	op_reply_256_1_1 = {
-		value = ""
+		value = "Well, in that case... I'll get you one the next time I'm at the bakery, Commander!"
 	},
 	all = {
 		ins_op_1_1_1,

@@ -122,21 +122,44 @@ function slot0.Recommand(slot0)
 		return slot1 < slot0
 	end)
 
-	for slot7, slot8 in ipairs(slot3) do
-		for slot14 = 1, slot0:GetItem(slot8).count do
-			slot2:addExp(tonumber(pg.item_data_template[slot8].usage_arg))
+	slot4 = pg.item_data_template
 
-			slot1[slot8] = slot1[slot8] + 1
+	for slot8, slot9 in ipairs(slot3) do
+		for slot16 = 1, slot0:GetItem(slot9).count do
+			if slot8 ~= #slot3 and slot0:PreCalcExpOverFlow(slot2, tonumber(slot4[slot9].usage_arg), tonumber(slot8 + 1 > #slot3 and 0 or slot4[slot3[slot8 + 1]].usage_arg)) then
+				break
+			else
+				slot2:addExp(tonumber(slot11))
 
-			if slot2.maxLevel == slot2.level then
-				return slot1
+				slot1[slot9] = slot1[slot9] + 1
+
+				if slot2.maxLevel == slot2.level then
+					return slot1
+				end
 			end
 		end
 	end
 
 	return {
-		[slot8] = 0
+		[slot9] = 0
 	}
+end
+
+function slot0.PreCalcExpOverFlow(slot0, slot1, slot2, slot3)
+	slot4 = slot1.exp
+	slot5 = slot1.level
+	slot1.exp = slot1.exp + slot2
+	slot6 = slot1:getMaxLevel()
+
+	while slot1:canLevelUp() do
+		slot1.exp = slot1.exp - slot1:getLevelExpConfig().exp_interval
+		slot1.level = math.min(slot1.level + 1, slot6)
+	end
+
+	slot1.exp = slot4
+	slot1.level = slot5
+
+	return slot6 <= slot1.level and slot3 < slot1.exp
 end
 
 function slot0.GetAllItemIDs(slot0)

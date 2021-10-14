@@ -103,11 +103,6 @@ function slot0.LoadWaveEffect(slot0)
 end
 
 function slot0.LoadMainEffect(slot0)
-	slot0:GetEffect("xueyuan_xiatian", function (slot0)
-		setParent(slot0, uv0._tf)
-
-		uv0.mainEffect = slot0
-	end)
 end
 
 function slot0.InitChars(slot0)

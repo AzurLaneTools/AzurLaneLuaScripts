@@ -1,12 +1,13 @@
 return {
-	init_effect = "",
+	last_effect_bound_bone = "lamp",
 	name = "探照灯",
-	time = 0,
+	init_effect = "",
 	desc = "",
-	color = "yellow",
+	time = 0,
 	picture = "",
-	last_effect = "suligao_tanzhaodeng_stg",
+	color = "yellow",
 	last_effect_cld_angle = true,
+	last_effect = "suligao_tanzhaodeng_stg",
 	stack = 1,
 	id = 9700,
 	icon = 9700,
@@ -22,9 +23,28 @@ return {
 				cld_data = {
 					angle = 60,
 					box = {
-						range = 80
+						range = 55
 					}
 				}
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				attr = "aimBiasDecaySpeedRatio",
+				number = 1
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				tag = "C14_highlight"
 			}
 		}
 	}

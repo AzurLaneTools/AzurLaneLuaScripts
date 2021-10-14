@@ -173,7 +173,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 14001,
+							monsterTemplateID = 14005,
 							moveCast = true,
 							delay = 0,
 							score = 0,
@@ -183,8 +183,7 @@ return {
 								65
 							},
 							buffList = {
-								8001,
-								8007
+								9674
 							}
 						},
 						{
@@ -430,6 +429,20 @@ return {
 								8007,
 								50010
 							}
+						},
+						{
+							monsterTemplateID = 14005,
+							moveCast = true,
+							delay = 0,
+							score = 10,
+							corrdinate = {
+								-15,
+								0,
+								55
+							},
+							buffList = {
+								9674
+							}
 						}
 					},
 					reinforcement = {
@@ -492,6 +505,68 @@ return {
 						105
 					},
 					triggerParams = {}
+				},
+				{
+					triggerType = 10,
+					waveIndex = 1000,
+					conditionType = 0,
+					preWaves = {
+						100
+					},
+					triggerParam = {},
+					blockFlags = {
+						9600
+					},
+					spawn = {
+						{
+							life_time = 5,
+							prefab = "suligao_dengta_stg",
+							delay = 8,
+							behaviours = 10024,
+							IFF = 1,
+							coordinate = {
+								-15,
+								0,
+								55
+							},
+							cld_data = {
+								30,
+								60
+							}
+						},
+						{
+							life_time = 5,
+							prefab = "suligao_dengta_stg",
+							delay = 23,
+							behaviours = 10024,
+							IFF = 1,
+							coordinate = {
+								-15,
+								0,
+								55
+							},
+							cld_data = {
+								30,
+								60
+							}
+						},
+						{
+							life_time = 5,
+							prefab = "suligao_dengta_stg",
+							delay = 38,
+							behaviours = 10024,
+							IFF = 1,
+							coordinate = {
+								-15,
+								0,
+								55
+							},
+							cld_data = {
+								30,
+								60
+							}
+						}
+					}
 				}
 			}
 		}

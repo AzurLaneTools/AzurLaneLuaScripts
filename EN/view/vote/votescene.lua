@@ -42,50 +42,39 @@ end
 
 function slot0.didEnter(slot0)
 	uv0.PAGES = {
-		[5] = {
+		{
 			VotePreRaceShipPage,
 			VotePreRaceRankPage
 		},
-		[6] = {
+		{
 			VoteGroupRaceShipPage,
 			VoteGroupRaceRankPage
 		},
-		[7] = {
+		{
 			VoteGroupRaceShipPage,
 			VoteGroupRaceRankPage
 		},
-		[8] = {
+		{
 			VoteGroupRaceShipPage,
 			VoteGroupRaceRankPage
 		},
-		[9] = {
-			VoteGroupRaceShipPage,
-			VoteGroupRaceRankPage
-		},
-		[10] = {
-			VoteGroupRaceShipPage,
-			VoteGroupRaceRankPage
-		},
-		[11] = {
-			VoteGroupRaceShipPage,
-			VoteGroupRaceRankPage
-		},
-		[12] = {
-			VoteGroupRaceShipPage,
-			VoteGroupRaceRankPage
-		},
-		[13] = {
+		{
 			VoteFinalsRaceShipsPage,
 			VoteFinalsRaceRankPage
+		},
+		{
+			VoteGroupRaceShipPage,
+			VotePreRaceRankPage
 		}
 	}
-	slot0.shipsPage = uv0.PAGES[slot0.voteGroup.id][1].New(slot0:findTF("main/right_panel"), slot0.event)
+	slot1 = slot0.voteGroup:getConfig("type")
+	slot0.shipsPage = uv0.PAGES[slot1][1].New(slot0:findTF("main/right_panel"), slot0.event)
 
 	slot0.shipsPage:SetCallBack(function (slot0, slot1)
 		uv0:OnVote(slot0, slot1)
 	end)
 
-	slot0.rankPage = uv0.PAGES[slot0.voteGroup.id][2].New(slot0:findTF("main/left_panel"), slot0.event)
+	slot0.rankPage = uv0.PAGES[slot1][2].New(slot0:findTF("main/left_panel"), slot0.event)
 	slot0.voteMsgBox = VoteDiaplayPage.New(slot0._tf, slot0._event)
 
 	onButton(slot0, slot0.backBtn, function ()
@@ -100,7 +89,7 @@ function slot0.didEnter(slot0)
 			helps = pg.gametip[uv0].tip
 		})
 	end, SFX_PANEL)
-	setActive(slot0.helpBtn, slot0.voteGroup:getConfig("help_text") and slot3 ~= "")
+	setActive(slot0.helpBtn, slot0.voteGroup:getConfig("help_text") and slot4 ~= "")
 	onButton(slot0, slot0.filterBtn, function ()
 		uv0:emit(VoteMediator.ON_FILTER, {
 			display = uv1.ShipIndex.display,
@@ -122,14 +111,13 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.UpdateMode(slot0)
-	slot1 = slot0.voteGroup:isResurrectionRace()
-	slot2 = slot0.voteGroup:isFinalsRace()
+	slot2 = slot0.voteGroup:IsPrevResurrectionRace()
+	slot3 = slot0.voteGroup:isFinalsRace()
 
-	setActive(slot0.filterBtn, not slot1)
-	setActive(slot0.urlBtn, slot1)
-	setActive(slot0.titleBg1, not slot1 and not slot2)
-	setActive(slot0.titleBg2, slot1)
-	setActive(slot0.titleBg3, slot2)
+	setActive(slot0.filterBtn, true)
+	setActive(slot0.titleBg1, not slot0.voteGroup:isResurrectionRace() and not slot3 and not slot2)
+	setActive(slot0.titleBg2, slot1 or slot2)
+	setActive(slot0.titleBg3, slot3)
 end
 
 function slot0.OnVote(slot0, slot1, slot2)
@@ -176,10 +164,10 @@ end
 
 function slot0.initTitles(slot0)
 	slot1 = slot0.voteGroup:getConfig("time_vote")
-	slot0.tagtimeTF.text = slot0.voteGroup:getTimeDesc()
+	slot0.tagtimeTF.text = setColorStr(slot0.voteGroup:getTimeDesc(), (slot0.voteGroup:isResurrectionRace() or slot0.voteGroup:IsPrevResurrectionRace()) and "#05494C" or COLOR_WHITE)
 
 	if not slot0.voteGroup:isFinalsRace() then
-		slot0.title.text = slot0.voteGroup:getConfig("name")
+		slot0.title.text = setColorStr(slot0.voteGroup:getConfig("name"), slot4)
 	end
 
 	slot0.subTitle.text = slot0.voteGroup:getConfig("desc")

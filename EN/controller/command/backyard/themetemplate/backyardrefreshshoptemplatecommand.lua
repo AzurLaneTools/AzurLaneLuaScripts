@@ -7,7 +7,7 @@ function slot0.execute(slot0, slot1)
 	slot7 = false
 
 	if slot2.page == getProxy(DormProxy).MAX_PAGE then
-		pg.TipsMgr.GetInstance():ShowTips("backyard_shop_reach_last_page")
+		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_shop_reach_last_page"))
 
 		return
 	end

@@ -288,6 +288,33 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"Well, this is SOME kind of treasure, I suppose.\" Given to commanders who participated in the \"Upon the Shimmering Blue\" event.</color>",
 		scene = {}
 	},
+	[406] = {
+		time_limit_type = 0,
+		name = "Hall of Fame: Laffey ",
+		gain_by = "",
+		id = 406,
+		time_second = 0,
+		desc = "<color=#ffffff>A special portrait frame made to commemorate Laffey.</color>\nObtained through the Azur Lane 2021 Popularity Poll.",
+		scene = {}
+	},
+	[411] = {
+		time_limit_type = 0,
+		name = "Hall of Fame: Amagi ",
+		gain_by = "",
+		id = 411,
+		time_second = 0,
+		desc = "<color=#ffffff>A special portrait frame made to commemorate Amagi.</color>\nObtained through the Azur Lane 2021 Popularity Poll. ",
+		scene = {}
+	},
+	[412] = {
+		time_limit_type = 0,
+		name = "Hall of Fame: Bismarck ",
+		gain_by = "",
+		id = 412,
+		time_second = 0,
+		desc = "<color=#ffffff>A special portrait frame made to commemorate Bismarck.</color>\nObtained through the Azur Lane 2021 Popularity Poll.",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "Manjuu Pizzeria Frame ",
@@ -330,6 +357,9 @@ pg.item_data_frame = {
 		314,
 		315,
 		316,
+		406,
+		411,
+		412,
 		501
 	}
 }

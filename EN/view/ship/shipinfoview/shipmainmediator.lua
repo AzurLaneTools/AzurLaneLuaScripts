@@ -12,6 +12,7 @@ slot0.CLOSE_UPGRADE = "ShipMainMediator:CLOSE_UPGRADE"
 slot0.CHANGE_SKIN = "ShipMainMediator:CHANGE_SKIN"
 slot0.BUY_ITEM = "ShipMainMediator:BUY_ITEM"
 slot0.UNEQUIP_FROM_SHIP_ALL = "ShipMainMediator:UNEQUIP_FROM_SHIP_ALL"
+slot0.UNEQUIP_FROM_SHIP = "ShipMainMediator:UNEQUIP_FROM_SHIP"
 slot0.NEXTSHIP = "ShipMainMediator:NEXTSHIP"
 slot0.OPEN_ACTIVITY = "ShipMainMediator:OPEN_ACTIVITY"
 slot0.PROPOSE = "ShipMainMediator:PROPOSE"
@@ -30,6 +31,7 @@ slot0.ON_SEL_COMMANDER = "ShipMainMediator:ON_SEL_COMMANDER"
 slot0.OPEN_EQUIP_UPGRADE = "ShipMainMediator:OPEN_EQUIP_UPGRADE"
 slot0.BUY_ITEM_BY_ACT = "ShipMainMediator:BUY_ITEM_BY_ACT"
 slot0.ON_ADD_SHIP_EXP = "ShipMainMediator:ON_ADD_SHIP_EXP"
+slot0.OPEN_EQUIPMENT_INDEX = "ShipMainMediator:OPEN_EQUIPMENT_INDEX"
 
 function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
@@ -67,6 +69,13 @@ function slot0.register(slot0)
 			showTrans = slot2,
 			groupId = slot1
 		})
+	end)
+	slot0:bind(uv0.OPEN_EQUIPMENT_INDEX, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			viewComponent = CustomIndexLayer,
+			mediator = CustomIndexMediator,
+			data = slot1
+		}))
 	end)
 	slot0:bind(uv0.ON_SKIN_INFO, function (slot0, slot1, slot2)
 		uv0:addSubLayers(Context.New({
@@ -190,6 +199,9 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.UNEQUIP_FROM_SHIP_ALL, {
 			shipId = slot1
 		})
+	end)
+	slot0:bind(uv0.UNEQUIP_FROM_SHIP, function (slot0, slot1)
+		uv0:sendNotification(GAME.UNEQUIP_FROM_SHIP, slot1)
 	end)
 	slot0:bind(uv0.NEXTSHIP, function (slot0, slot1)
 		uv0:nextPage(slot1)
@@ -478,7 +490,10 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SKIN_COUPON_SHOPPING_DONE,
 		GAME.HIDE_Ship_MAIN_SCENE_WORD,
 		GAME.PROPOSE_SHIP_DONE,
-		GAME.USE_ADD_SHIPEXP_ITEM_DONE
+		GAME.USE_ADD_SHIPEXP_ITEM_DONE,
+		EquipmentProxy.EQUIPMENT_ADDED,
+		EquipmentProxy.EQUIPMENT_UPDATED,
+		EquipmentProxy.EQUIPMENT_REMOVED
 	}
 end
 
@@ -567,6 +582,8 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.USE_ADD_SHIPEXP_ITEM_DONE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipModLayer_modSuccess"))
 		slot0.viewComponent:RefreshShipExpItemUsagePage()
+	elseif slot2 == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED or slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
+		slot0.viewComponent:equipmentChange()
 	end
 end
 

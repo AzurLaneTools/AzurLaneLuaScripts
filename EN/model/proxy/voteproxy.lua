@@ -107,4 +107,36 @@ function slot0.remove(slot0)
 	slot0:RemoveOrderBookTimer()
 end
 
+function slot0.GetVoteBookActivty(slot0)
+	return getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_1) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_2) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_3) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_4) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_5) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_6) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_7) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_8) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_9)
+end
+
+function slot0.GetVoteActivity(slot0)
+	for slot6, slot7 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_VOTE)) do
+		if slot7:getDataConfig("is_in_game") == 1 then
+			return slot7
+		end
+	end
+end
+
+function slot0.GetPastVoteData(slot0)
+	if not slot0.pastVoteData then
+		slot0.pastVoteData = pg.vote_champion.get_id_list_by_group
+	end
+
+	return slot0.pastVoteData
+end
+
+function slot0.ExistPastVoteAward(slot0)
+	for slot5, slot6 in pairs(slot0:GetPastVoteData()) do
+		if _.any(slot6, function (slot0)
+			return getProxy(TaskProxy):getTaskById(pg.vote_champion[slot0].task) and slot2:isFinish() and not slot2:isReceive()
+		end) then
+			return true
+		end
+	end
+
+	return false
+end
+
 return slot0

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"特别小故事\n\n<size=45>碧蓝之海</size>",
+					"荣耀殿堂\n\n<size=45>碧蓝之海</size>",
 					1
 				}
 			}

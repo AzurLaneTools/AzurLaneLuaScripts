@@ -1161,13 +1161,12 @@ pg.furniture_data_template = {
 		icon = "jinkelawutaiicon",
 		spine_extra = "",
 		level = 1,
-		interaction_bgm = "diego",
-		rarity = 5,
 		describe = "War is so boring ~ Come come and listen to me sing instead!",
+		rarity = 5,
 		advice = 0,
+		comfortable = 5,
 		spine_action_replace = "",
 		belong = 1,
-		comfortable = 5,
 		canputon = 0,
 		id = 116,
 		can_rotate = 1,
@@ -1208,6 +1207,10 @@ pg.furniture_data_template = {
 				159,
 				-199
 			}
+		},
+		interaction_bgm = {
+			0,
+			"diego"
 		},
 		interAction_group = {}
 	},
@@ -55385,13 +55388,12 @@ pg.furniture_data_template = {
 		icon = "wutaiholoicon",
 		deblocking = 1,
 		level = 1,
-		interaction_bgm = "holo-sss",
-		rarity = 4,
 		count = 1,
+		rarity = 4,
 		tag = 1,
+		spine_extra = "",
 		spine_action_replace = "",
 		belong = 1,
-		spine_extra = "",
 		canputon = 0,
 		id = 55118,
 		can_rotate = 1,
@@ -55437,6 +55439,10 @@ pg.furniture_data_template = {
 				"hololivestageCharControl2",
 				"hololivestageCharControl3"
 			}
+		},
+		interaction_bgm = {
+			0,
+			"holo-sss"
 		},
 		interAction_group = {}
 	},

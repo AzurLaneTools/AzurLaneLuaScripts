@@ -144,7 +144,7 @@ function slot0.Preload(slot0)
 
 			uv0.addChapterAuraRes(slot13)
 
-			slot14, slot15 = slot5.getSubAidFlag(slot6)
+			slot14, slot15 = slot5.getSubAidFlag(slot6, slot0.contextData.stageId)
 
 			if slot14 == true or slot14 > 0 then
 				for slot20, slot21 in ipairs(slot15:getShipsByTeam(TeamType.Submarine, false)) do
