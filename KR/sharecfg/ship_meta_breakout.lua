@@ -64,7 +64,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705011] = {
-		breakout_view = "스킬 [일렁이는 불꽃·{namecode:78}] 습득/주포 발사 수 +1 / 주포 효율 +5%",
+		breakout_view = "스킬 [섬멸의 횃불·{namecode:78}] 습득/주포 발사 수 +1 / 주포 효율 +5%",
 		gold = 500,
 		breakout_id = 9705012,
 		repair = 0,
@@ -99,7 +99,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9705013] = {
-		breakout_view = "[일렁이는 불꽃·{namecode:205}] 레벨업/주포 발사 수 +1 / 주포 효율 +15%",
+		breakout_view = "[섬멸의 횃불·{namecode:205}] 레벨업/주포 발사 수 +1 / 주포 효율 +15%",
 		gold = 2500,
 		breakout_id = 9705014,
 		repair = 0,

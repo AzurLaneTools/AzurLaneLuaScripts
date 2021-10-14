@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그리고 지휘관공의 제안으로 나 루이지 디 사보이아 두카 델리 아브루치와 리토리오 각하의 도움을 찾으러 왔다라——",
+			say = "그리고 지휘관공의 제안으로 나 루이지 디 사보이아 두카 델리 아브루치와 리토리오공의 도움을 찾으러 왔다라——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

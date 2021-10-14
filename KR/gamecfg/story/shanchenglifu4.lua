@@ -592,7 +592,7 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			actor = 202031,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
@@ -648,7 +648,7 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 202030,
+			actor = 202031,
 			dir = 1,
 			nameColor = "#92fc63",
 			say = "아기돼지들이 필사적으로 일을 하니 즐거움이 조금 줄었지만, 이것도 나름 재미있지 않나요?",
@@ -662,7 +662,7 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			actor = 202031,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
