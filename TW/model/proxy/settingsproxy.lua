@@ -463,4 +463,26 @@ function slot0.RestoreFrameRate(slot0)
 	end
 end
 
+function slot0.ResetTimeLimitSkinShopTip(slot0)
+	slot0.isTipLimitSkinShop = PlayerPrefs.GetInt("tipLimitSkinShopTime_", 0) <= pg.TimeMgr.GetInstance():GetServerTime()
+
+	if slot0.isTipLimitSkinShop then
+		slot0.nextTipLimitSkinShopTime = GetZeroTime()
+	end
+end
+
+function slot0.ShouldTipTimeLimitSkinShop(slot0)
+	return slot0.isTipLimitSkinShop
+end
+
+function slot0.SetNextTipTimeLimitSkinShop(slot0)
+	if slot0.isTipLimitSkinShop and slot0.nextTipLimitSkinShopTime then
+		PlayerPrefs.SetInt("tipLimitSkinShopTime_", slot0.nextTipLimitSkinShopTime)
+		PlayerPrefs.Save()
+
+		slot0.nextTipLimitSkinShopTime = nil
+		slot0.isTipLimitSkinShop = false
+	end
+end
+
 return slot0

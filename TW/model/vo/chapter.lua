@@ -818,15 +818,38 @@ function slot0.getWaveCount(slot0)
 		end
 	end
 
-	slot3 = slot0:getConfig("elite_refresh")
+	slot2 = 0
 
-	for slot8, slot9 in pairs(slot0:getConfig("enemy_refresh")) do
-		if slot8 <= #slot3 then
-			slot4 = 0 + slot9 + slot3[slot8]
+	if pg.chapter_group_refresh[slot0.id] then
+		slot4 = 1
+
+		while true do
+			for slot9, slot10 in ipairs(slot3.enemy_refresh) do
+				slot2 = slot2 + (slot10[slot4] or 0)
+				slot5 = false or tobool(slot10[slot4])
+			end
+
+			if slot1 <= slot2 then
+				return slot4
+			end
+
+			slot4 = slot4 + 1
+
+			if not slot5 then
+				break
+			end
 		end
+	else
+		slot5 = slot0:getConfig("elite_refresh")
 
-		if slot1 <= slot4 then
-			return slot8
+		for slot9, slot10 in pairs(slot0:getConfig("enemy_refresh")) do
+			if slot9 <= #slot5 then
+				slot2 = slot2 + slot10 + slot5[slot9]
+			end
+
+			if slot1 <= slot2 then
+				return slot9
+			end
 		end
 	end
 
@@ -2240,7 +2263,7 @@ function slot0.GetExtraCostRate(slot0)
 	return math.max(1, slot1), slot2
 end
 
-function slot0.getFleetCost(slot0, slot1)
+function slot0.getFleetCost(slot0, slot1, slot2)
 	if slot0:getPlayType() == ChapterConst.TypeExtra then
 		return {
 			gold = 0,
@@ -2251,7 +2274,35 @@ function slot0.getFleetCost(slot0, slot1)
 		}
 	end
 
-	return slot1:getCost(slot0:GetExtraCostRate())
+	slot3, slot4 = slot1:getCost()
+	slot4.oil = math.clamp(slot0:GetLimitOilCost(slot1:getFleetType() == FleetType.Submarine, slot2) - slot3.oil, 0, slot4.oil)
+	slot6 = slot0:GetExtraCostRate()
+
+	for slot10, slot11 in ipairs({
+		slot3,
+		slot4
+	}) do
+		for slot15, slot16 in pairs(slot11) do
+			slot11[slot15] = slot11[slot15] * slot6
+		end
+	end
+
+	return slot3, slot4
+end
+
+function slot0.isOverFleetCost(slot0, slot1, slot2)
+	slot3 = slot0:GetLimitOilCost(slot1:getFleetType() == FleetType.Submarine, slot2)
+	slot8 = slot1
+
+	for slot8, slot9 in ipairs({
+		slot1.getCost(slot8)
+	}) do
+		slot4 = 0 + slot9.oil
+	end
+
+	slot5 = slot0:GetExtraCostRate()
+
+	return slot3 < slot4, slot3 * slot5, slot4 * slot5
 end
 
 function slot0.GetWinConditions(slot0)
@@ -3139,6 +3190,14 @@ function slot0.GetChapterLastFleetCache(slot0)
 	end
 
 	return slot2
+end
+
+function slot0.GetLimitOilCost(slot0, slot1, slot2)
+	slot3 = nil
+
+	return (slot0:getConfig("use_oil_limit") or {})[slot1 and 3 or underscore.any(slot0:getConfig("boss_expedition_id"), function (slot0)
+		return uv0 == slot0
+	end) and 2 or 1] or 9999
 end
 
 return slot0

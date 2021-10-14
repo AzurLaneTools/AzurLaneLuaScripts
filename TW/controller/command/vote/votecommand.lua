@@ -7,7 +7,7 @@ function slot0.execute(slot0, slot1)
 	slot5 = slot2.count
 	slot6 = getProxy(VoteProxy)
 
-	if not getProxy(ActivityProxy):GetVoteActivity() then
+	if not getProxy(VoteProxy):GetVoteActivity() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return

@@ -722,19 +722,19 @@ pg.skill_data_display = {
 	},
 	[8640] = {
 		id = 8640,
-		name = "战术解放I"
+		name = "戰術解放I"
 	},
 	[8641] = {
 		id = 8641,
-		name = "战术解放II"
+		name = "戰術解放II"
 	},
 	[8642] = {
 		id = 8642,
-		name = "战术解放III"
+		name = "戰術解放III"
 	},
 	[8643] = {
 		id = 8643,
-		name = "战术解放IV"
+		name = "戰術解放IV"
 	},
 	[8652] = {
 		id = 8652,

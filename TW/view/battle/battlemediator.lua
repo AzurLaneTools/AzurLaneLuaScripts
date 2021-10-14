@@ -373,7 +373,7 @@ function slot0.GenBattleData(slot0)
 		slot11 = {}
 		slot12 = _.values(slot7:getCommanders())
 		slot13 = {}
-		slot14, slot15 = slot5.getSubAidFlag(slot6)
+		slot14, slot15 = slot5.getSubAidFlag(slot6, slot0.contextData.stageId)
 
 		if slot14 == true or slot14 > 0 then
 			slot1.SubFlag = 1

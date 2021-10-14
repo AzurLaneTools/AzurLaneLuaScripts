@@ -13,6 +13,10 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
+	if getProxy(VoteProxy):GetVoteBookActivty() and not slot6:isEnd() then
+		slot5 = slot6
+	end
+
 	slot0:sendNotification(GAME.MAINUI_ACT_BTN_DONE, {
 		cnt = slot4 + #_.filter(ActivityMainScene.GetOnShowEntranceData(), function (slot0)
 			return slot0.isTip and slot0.isTip()

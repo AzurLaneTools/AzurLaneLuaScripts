@@ -18,11 +18,11 @@ function slot0.onInitItem(slot0, slot1)
 end
 
 function slot0.UpdateShip(slot0, slot1, slot2, slot3)
-	slot4 = slot0.voteGroup:GetRank(slot3)
+	slot2:update(slot3, slot0.voteGroup:GetRank(slot3))
 
-	slot2:update(slot3, slot4)
-
-	if slot4 > 3 then
+	if slot0.voteGroup:GetRankMark() == 4 and slot4 == 4 then
+		slot2.rank.text = string.format("<material=gradient from=#FF8c1c to=#ff0000 x=0 y=-1>%s<size=30>%s</size></material>", slot4, "th")
+	elseif slot5 < slot4 then
 		slot2.rank.text = ""
 	end
 end

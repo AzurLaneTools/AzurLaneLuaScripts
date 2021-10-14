@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"穿越彼方的水线\n\n<size=45>一　{namecode:175}、登场！</size>",
+					"穿越彼方的水線\n\n<size=45>一　駿河、登場</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·演习海域",
+			say = "港區·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——本次演习，将由我们重樱舰队，迎击指挥官所率领的舰队。",
+			say = "——本次演習，將由我們重櫻艦隊，迎擊指揮官所率領的艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家应该都知道，过去皇家·白鹰联合阵营也曾进行过类似的演习。虽说本次演习与那次一样，只是一般的联合演习……",
+			say = "大家應該都知道，過去皇家·白鷹聯合陣營也曾進行過類似的演習。雖說本次演習與那次一樣，只是一般的聯合演習……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但目的绝不仅仅是提高本港区舰队的实力，更是为了加深阵营之间的交流，特别是让各位在与平时不同的编队、战况下战斗，提升面对突发状况时的反应力。",
+			say = "但目的絕不僅僅是提高本港區艦隊的實力，更是為了加深陣營之間的交流，特別是讓各位在與平時不同的編隊、戰況下戰鬥，提升面對突發狀況時的反應力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因此，在{namecode:82}大人的裁夺下，重樱舰队方的“指挥官”角色，并非从本港区的成员中选出，而是由我来担任。",
+			say = "因此，在{namecode:82}大人的裁奪下，重櫻艦隊方的“指揮官”角色，並非從本港區的成員中選出，而是由我來擔任。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为突然到来的新面孔，想必会让各位感到有些不知所措吧。",
+			say = "作為突然到來的新面孔，想必會讓各位感到有些不知所措吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是，战列舰“{namecode:175}”，愿为舰队献上微薄之力。",
+			say = "但是，戰列艦“{namecode:175}”，願為艦隊獻上微薄之力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让我们在这次的联合演习中一起奋斗到最后吧！",
+			say = "讓我們在這次的聯合演習中一起奮鬥到最後吧！",
 			effects = {
 				{
 					active = true,
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼，真是精彩的战前动员。果然没有白把妳叫过来啊。",
+			say = "嗯哼，真是精彩的戰前動員。果然沒有白把妳叫過來啊",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是。我会为联合演习的顺利进行全力以赴的！",
+			say = "是。我會為聯合演習的順利進行全力以赴的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，这次联合演习，重樱阵营的总指挥不是我，而是妳。势必要向指挥官展示出吾等重樱的威严与荣耀！",
+			say = "很好，這次聯合演習，重櫻陣營的總指揮不是我，而是妳。勢必要向指揮官展示出吾等重櫻的威嚴與榮耀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来，就由我来公布我军的作战与配置——",
+			say = "接下來，就由我來公佈我軍的作戰與配置——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "HO，HO，HO！有我{namecode:22}大人在，指挥官的舰队什么的，根本不堪一击哒！",
+			say = "HO，HO，HO！有我{namecode:22}大人在，指揮官的艦隊什麼的，根本不堪一擊噠！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就有点难办了啊～难得的联合演习，{namecode:97}也想作为敌方角色，与指挥官大人好好缠绵一番呢～",
+			say = "那就有點難辦了啊～難得的聯合演習，{namecode:97}也想作為敵方角色，與指揮官大人好好纏綿一番呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:175}，请把{namecode:97}配置在指挥官大人必定会前往的海域吧？",
+			say = "{namecode:175}，請把{namecode:97}配置在指揮官大人必定會前往的海域吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我会考虑的。不过，即便只是演习，也要从作战目标与身为舰队指挥的立场出发，充分考虑配置的合理性……",
+			say = "嗯，我會考慮的。不過，即便只是演習，也要從作戰目標與身為艦隊指揮的立場出發，充分考慮配置的合理性……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦～也行。只要妳全心全意为指挥官大人效力就好。",
+			say = "哦～也行。只要妳全心全意為指揮官大人效力就好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次不是“{namecode:22}大人舰队”而是“{namecode:175}舰队”啊……真没办法，就乖乖听{namecode:175}的吧！",
+			say = "這次不是“{namecode:22}大人艦隊”而是“{namecode:175}艦隊”啊……真沒辦法，就乖乖聽{namecode:175}的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明、明白了，我会妥善处理的。",
+			say = "明、明白了，我會妥善處理的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

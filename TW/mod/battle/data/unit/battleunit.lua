@@ -1232,6 +1232,7 @@ function slot9.Dispose(slot0)
 		slot7:Dispose()
 	end
 
+	slot0._aimBias = nil
 	slot0._buffList = nil
 	slot0._cldZCenterCache = nil
 
@@ -1533,8 +1534,10 @@ function slot9.UpdateCloak(slot0, slot1)
 end
 
 function slot9.UpdateCloakConfig(slot0)
-	slot0._cloak:UpdateCloakConfig()
-	slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_CLOAK_CONFIG))
+	if slot0._cloak then
+		slot0._cloak:UpdateCloakConfig()
+		slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_CLOAK_CONFIG))
+	end
 end
 
 function slot9.GetCloak(slot0)
@@ -1553,6 +1556,12 @@ end
 function slot9.UpdateAimBiasSkillState(slot0)
 	if slot0._aimBias and slot0._aimBias:GetHost() == slot0 then
 		slot0._aimBias:UpdateSkillLock()
+	end
+end
+
+function slot9.HostAimBias(slot0)
+	if slot0._aimBias then
+		slot0:DispatchEvent(uv0.Event.New(uv1.HOST_AIMBIAS))
 	end
 end
 

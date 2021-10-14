@@ -57,7 +57,8 @@ function slot0.execute(slot0, slot1)
 			slot5 = getProxy(VoteProxy)
 
 			if slot4 == 2 then
-				slot7 = getProxy(ActivityProxy):GetVoteActivity()
+				slot6 = getProxy(ActivityProxy)
+				slot7 = getProxy(VoteProxy):GetVoteActivity()
 				slot7.data1 = slot7.data1 + slot3.count
 				slot5.votes = slot5.votes + slot3.count
 			end

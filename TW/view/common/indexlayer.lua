@@ -81,6 +81,9 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnCancel, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
+	onButton(slot0, slot0:findTF("btn", slot0.panel), function ()
+		uv0:emit(uv1.ON_CLOSE)
+	end, SFX_CANCEL)
 
 	slot0.panel.localScale = Vector3.zero
 

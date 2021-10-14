@@ -20,11 +20,11 @@ pg.item_data_frame = {
 	},
 	[102] = {
 		time_limit_type = 0,
-		name = "二周年紀念",
+		name = "二週年紀念",
 		gain_by = "",
 		id = 102,
 		time_second = 0,
-		desc = "<color=#ffffff>獻給所有兩年間持續奮鬥在港區的指揮官們</color>\n通過參與二周年限定活動獲得",
+		desc = "<color=#ffffff>獻給所有兩年間持續奮鬥在港區的指揮官們</color>\n通過參與二週年限定活動獲得",
 		scene = {}
 	},
 	[201] = {

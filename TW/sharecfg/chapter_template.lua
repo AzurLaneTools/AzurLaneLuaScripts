@@ -21661,9 +21661,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -22237,9 +22234,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -22839,9 +22833,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -23462,9 +23453,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -24653,9 +24641,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -25267,9 +25252,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -25897,9 +25879,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -26543,9 +26522,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -27784,9 +27760,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -28506,9 +28479,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -29198,9 +29168,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -29999,9 +29966,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -30584,9 +30548,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -31282,9 +31243,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -32016,9 +31974,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -32866,9 +32821,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -33458,9 +33410,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -34156,9 +34105,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -34898,9 +34844,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -35749,9 +35692,6 @@ slot0.chapter_template = {}
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},

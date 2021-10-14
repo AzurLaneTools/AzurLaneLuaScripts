@@ -8420,9 +8420,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：光榮的一戰",
+				"進行特型艦建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

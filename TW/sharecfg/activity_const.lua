@@ -34,7 +34,7 @@ pg.activity_const = {
 		act_id = 40420
 	},
 	ACTIVITY_BOSS_PT_ID = {
-		act_id = 4031
+		act_id = 40448
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -560,6 +560,9 @@ pg.activity_const = {
 	},
 	VOTE_ORDER_BOOK_PHASE_8 = {
 		act_id = 40068
+	},
+	VOTE_ORDER_BOOK_PHASE_9 = {
+		act_id = 1057
 	},
 	ANNIVERSARY_LOGIN_ID = {
 		act_id = 371

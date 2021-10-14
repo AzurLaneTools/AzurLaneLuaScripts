@@ -14,6 +14,7 @@ slot6.STATE_SUMMON_SICKNESS = "STATE_SUMMON_SICKNESS"
 slot6.STATE_ACTIVITING = "STATE_ACTIVITING"
 slot6.STATE_SKILL_EXPOSE = "STATE_SKILL_EXPOSE"
 slot6.STATE_TOTAL_EXPOSE = "STATE_TOTAL_EXPOSE"
+slot6.STATE_EXPIRE = "STATE_EXPIRE"
 
 function slot6.Ctor(slot0)
 end
@@ -39,6 +40,7 @@ function slot6.Active(slot0, slot1)
 	slot0._state = slot1
 	slot0._currentBiasRange = slot0._maxBiasRange
 	slot0._activeTimeStamp = pg.TimeMgr.GetInstance():GetCombatTime()
+	slot0._lastUpdateTimeStamp = slot0._activeTimeStamp
 end
 
 function slot6.GetHost(slot0)
@@ -55,7 +57,7 @@ function slot6.Update(slot0, slot1)
 	elseif slot0._state == uv0.STATE_SKILL_EXPOSE then
 		slot0._biasAttr = 0
 	else
-		slot0._currentBiasRange = Mathf.Clamp(slot0._currentBiasRange - (slot0._decaySpeed + uv2.GetCurrent(slot0._host, "aimBiasDecaySpeed") + uv2.GetCurrent(slot0._host, "aimBiasDecaySpeedRatio") * slot0._maxBiasRange) * uv1.calcInterval, slot0._minBiasRange, slot0._maxBiasRange)
+		slot0._currentBiasRange = Mathf.Clamp(slot0._currentBiasRange - (slot0._decaySpeed + uv2.GetCurrent(slot0._host, "aimBiasDecaySpeed") + uv2.GetCurrent(slot0._host, "aimBiasDecaySpeedRatio") * slot0._maxBiasRange) * (slot1 - slot0._lastUpdateTimeStamp), slot0._minBiasRange, slot0._maxBiasRange)
 		slot0._biasAttr = slot0._currentBiasRange
 
 		if slot0._currentBiasRange <= slot0._minBiasRange then
@@ -64,6 +66,8 @@ function slot6.Update(slot0, slot1)
 			slot0:ChangeState(uv0.STATE_ACTIVITING)
 		end
 	end
+
+	slot0._lastUpdateTimeStamp = slot1
 
 	slot0:biasEffect()
 end
@@ -74,6 +78,10 @@ end
 
 function slot6.GetCurrentState(slot0)
 	return slot0._state
+end
+
+function slot6.IsFaint(slot0)
+	return slot0._state == uv0.STATE_TOTAL_EXPOSE or slot0._state == uv0.STATE_SKILL_EXPOSE
 end
 
 function slot6.GetPosition(slot0)
@@ -119,10 +127,10 @@ function slot6.AppendCrew(slot0, slot1)
 		return
 	end
 
-	slot1:AttachAimBias(slot0)
 	table.insert(slot0._crewList, slot1)
 	slot0:switchHost()
 	slot0:flush()
+	slot1:AttachAimBias(slot0)
 
 	slot0._currentBiasRange = slot0._maxBiasRange
 end
@@ -141,6 +149,7 @@ function slot6.RemoveCrew(slot0, slot1)
 	if #slot0._crewList == 0 then
 		slot0:clear()
 	else
+		slot0:switchHost()
 		slot0:flush()
 	end
 end
@@ -163,6 +172,8 @@ end
 
 function slot6.switchHost(slot0)
 	slot0._host = slot0._crewList[1]
+
+	slot0._host:HostAimBias()
 end
 
 function slot6.flush(slot0)
@@ -179,4 +190,7 @@ function slot6.biasEffect(slot0)
 end
 
 function slot6.clear(slot0)
+	slot0._crewList = {}
+	slot0._pos = nil
+	slot0._state = uv0.STATE_EXPIRE
 end

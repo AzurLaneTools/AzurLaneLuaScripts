@@ -16408,14 +16408,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 1,
-		story_id = "QIAOZHIWUSHI1",
 		target_id = "50003",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "5452",
 		auto_commit = 0,
-		scene = "",
+		story_id = "QIAOZHIWUSHI1",
 		target_id_for_client = 50003,
 		id = 5451,
 		target_num = 3,
@@ -16428,6 +16427,9 @@ pg.task_data_template = {
 				1,
 				100
 			}
+		},
+		scene = {
+			"BACKYARD"
 		}
 	},
 	[5452] = {
@@ -16683,14 +16685,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 1,
-		story_id = "U556STORY1",
 		target_id = "50003",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "5462",
 		auto_commit = 0,
-		scene = "",
+		story_id = "U556STORY1",
 		target_id_for_client = 50003,
 		id = 5461,
 		target_num = 3,
@@ -16703,6 +16704,9 @@ pg.task_data_template = {
 				1,
 				100
 			}
+		},
+		scene = {
+			"BACKYARD"
 		}
 	},
 	[5462] = {
@@ -20300,14 +20304,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 1,
-		story_id = "U471",
 		target_id = "50003",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "5632",
 		auto_commit = 0,
-		scene = "",
+		story_id = "U471",
 		target_id_for_client = 50003,
 		id = 5631,
 		target_num = 3,
@@ -20320,6 +20323,9 @@ pg.task_data_template = {
 				1,
 				100
 			}
+		},
+		scene = {
+			"BACKYARD"
 		}
 	},
 	[5632] = {
@@ -20845,6 +20851,283 @@ pg.task_data_template = {
 				2,
 				18012,
 				2
+			}
+		}
+	},
+	[5721] = {
+		name = "沒有艦歷的女孩",
+		guild_coin_award = 0,
+		award = 5520,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1000,
+		desc = "提交3個《魚雷天婦羅》",
+		story_icon = "junhe",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "50003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5722",
+		auto_commit = 0,
+		story_id = "JUNHE1",
+		target_id_for_client = 50003,
+		id = 5721,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5722] = {
+		name = "駿河的本意",
+		guild_coin_award = 0,
+		award = 5521,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "強化任意角色10次",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE2",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5723",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 5722,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5723] = {
+		name = "想要低調可不容易",
+		guild_coin_award = 0,
+		award = 5522,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 18,
+		desc = "駿河上陣出擊(關卡)勝利20次",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE3",
+		target_id = "30514",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5724",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30514,
+		id = 5723,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5724] = {
+		name = "紀伊型意味著什麼",
+		guild_coin_award = 0,
+		award = 5523,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 19,
+		desc = "駿河上陣完成3次每日挑戰",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE4",
+		target_id = "30514",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5725",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30514,
+		id = 5724,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5725] = {
+		name = "保護自己的盾",
+		guild_coin_award = 0,
+		award = 5524,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1012,
+		desc = "駿河好感度達到100",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE5",
+		target_id = "30514",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5726",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30514,
+		id = 5725,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5726] = {
+		name = "無法袒露的弱點",
+		guild_coin_award = 0,
+		award = 5525,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "駿河突破至滿星",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE6",
+		target_id = "305144",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5727",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 305144,
+		id = 5726,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[5727] = {
+		name = "最強的盾",
+		guild_coin_award = 0,
+		award = 5526,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1013,
+		desc = "駿河等級達到100",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE7",
+		target_id = "30514",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30514,
+		id = 5727,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18023,
+				1
 			}
 		}
 	},
@@ -53072,6 +53355,195 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {}
 	},
+	[15026] = {
+		name = "骏河世界BOSS挑战券任务1",
+		guild_coin_award = 0,
+		award = 91816,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "登入遊戲",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 15026,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		}
+	},
+	[15027] = {
+		name = "骏河世界BOSS挑战券任务2",
+		guild_coin_award = 0,
+		award = 91817,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "通關1次任意困難關卡",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 15027,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		}
+	},
+	[15028] = {
+		name = "骏河世界BOSS挑战券任务3",
+		guild_coin_award = 0,
+		award = 91818,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 182,
+		desc = "通關3次任意困難關卡",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "10101",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 15028,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		}
+	},
+	[15029] = {
+		name = "骏河世界BOSS挑战券任务4",
+		guild_coin_award = 0,
+		award = 91819,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "通關5次『穿越彼方的水線』任意難度關卡",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15029,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15030] = {
+		name = "骏河世界BOSS挑战券任务5",
+		guild_coin_award = 0,
+		award = 91820,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "通關10次『穿越彼方的水線』任意難度關卡",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15030,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
 	[15050] = {
 		name = "SP1·通过任务 U110",
 		guild_coin_award = 0,
@@ -78044,7 +78516,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -78159,7 +78635,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -78274,7 +78754,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -78389,7 +78873,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -78504,7 +78992,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -78619,7 +79111,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -78734,7 +79230,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -78849,7 +79349,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -78964,7 +79468,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -79079,7 +79587,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -79194,7 +79706,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -79309,7 +79825,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -79424,7 +79944,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -79539,7 +80063,11 @@ pg.task_data_template = {
 			11101,
 			11102,
 			11103,
-			11104
+			11104,
+			11201,
+			11202,
+			11203,
+			11204
 		},
 		open_need = {},
 		award_display = {
@@ -96060,6 +96588,13 @@ pg.task_data_template = {
 		5675,
 		5676,
 		5677,
+		5721,
+		5722,
+		5723,
+		5724,
+		5725,
+		5726,
+		5727,
 		6001,
 		6002,
 		6003,
@@ -96921,6 +97456,11 @@ pg.task_data_template = {
 		14984,
 		14985,
 		14986,
+		15026,
+		15027,
+		15028,
+		15029,
+		15030,
 		15050,
 		15051,
 		15052,

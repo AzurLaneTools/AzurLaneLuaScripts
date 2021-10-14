@@ -1017,6 +1017,20 @@ pg.memory_group = {
 			929
 		}
 	},
+	[169] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 169,
+		title = "穿越彼方的水線",
+		memories = {
+			934,
+			935,
+			936,
+			937,
+			938
+		}
+	},
 	[170] = {
 		icon = "title_event",
 		subtype = 2,
@@ -2419,6 +2433,22 @@ pg.memory_group = {
 			1677
 		}
 	},
+	[570] = {
+		icon = "title_chara_junhe",
+		subtype = 0,
+		type = 3,
+		id = 570,
+		title = "從內到外魅力MAX！",
+		memories = {
+			1861,
+			1862,
+			1863,
+			1864,
+			1865,
+			1866,
+			1867
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2478,6 +2508,7 @@ pg.memory_group = {
 		164,
 		165,
 		167,
+		169,
 		170,
 		172,
 		173,
@@ -2552,6 +2583,7 @@ pg.memory_group = {
 		554,
 		557,
 		559,
-		561
+		561,
+		570
 	}
 }

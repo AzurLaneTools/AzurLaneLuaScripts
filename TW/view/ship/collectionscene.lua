@@ -30,6 +30,18 @@ slot0.MANGA_INDEX = 4
 slot0.GALLERY_INDEX = 5
 slot0.MUSIC_INDEX = 6
 
+function slot0.isDefaultStatus(slot0)
+	return uv0.ShipIndex.index == IndexConst.Flags2Bits({
+		IndexConst.IndexAll
+	}) and (uv0.ShipIndex.camp == IndexConst.Flags2Bits({
+		IndexConst.CampAll
+	}) or slot0.contextData.toggle == 1 and slot0.contextData.cardToggle == 2) and uv0.ShipIndex.rarity == IndexConst.Flags2Bits({
+		IndexConst.RarityAll
+	}) and uv0.ShipIndex.extra == IndexConst.Flags2Bits({
+		IndexConst.ExtraAll
+	})
+end
+
 function slot0.getUIName(slot0)
 	return "CollectionUI"
 end
@@ -316,6 +328,10 @@ function slot0.calFavoriteRate(slot0)
 end
 
 function slot0.initCardPanel(slot0)
+	GetSpriteFromAtlasAsync("ui/commonui_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
+		setImageSprite(uv0.indexBtn, slot0, true)
+	end)
+
 	if slot0.contextData.toggle == 1 then
 		setActive(slot0.cardToggleGroup, true)
 		slot0:cardFilter()

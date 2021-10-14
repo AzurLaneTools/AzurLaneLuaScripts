@@ -62,7 +62,7 @@ return {
 
 			return _.any(getProxy(ShipSkinProxy):GetAllSkins(), function (slot0)
 				return slot0:getConfig("genre") == ShopArgs.SkinShopTimeLimit and not uv0:hasSkin(slot0:getSkinId())
-			end)
+			end) and getProxy(SettingsProxy):ShouldTipTimeLimitSkinShop()
 		end
 	},
 	{
@@ -161,6 +161,19 @@ return {
 		},
 		isShow = function ()
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.SUMMER_FEAST_ID) and not slot0:isEnd()
+		end
+	},
+	{
+		banner = "vote_frame_hall",
+		event = ActivityMediator.GO_FISRT_VOTE,
+		data = {},
+		isShow = function ()
+			slot0 = getProxy(ActivityProxy)
+
+			return getProxy(VoteProxy):GetVoteBookActivty() and not slot1:isEnd()
+		end,
+		isTip = function ()
+			return getProxy(VoteProxy):ExistPastVoteAward()
 		end
 	},
 	{
@@ -299,36 +312,6 @@ return {
 			end
 
 			return slot2
-		end
-	},
-	{
-		banner = "doa_medal",
-		event = ActivityMediator.EVENT_GO_SCENE,
-		data = {
-			SCENE.ACT_BOSS_SPF,
-			{
-				showAni = true
-			}
-		},
-		isShow = function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot0:isEnd()
-		end,
-		isTip = function ()
-			slot0 = false
-			slot1 = false
-
-			if pg.activity_event_worldboss[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2):getConfig("config_id")] then
-				slot5 = slot4.time ~= "stop" and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4.time[2])
-				slot1 = slot5 and slot5 <= pg.TimeMgr.GetInstance():GetServerTime()
-			end
-
-			if not slot1 then
-				slot0 = slot2.data2 ~= 1
-			elseif getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
-				slot0 = ActivityBossPtData.New(slot5):CanGetAward()
-			end
-
-			return slot0
 		end
 	},
 	{

@@ -405,7 +405,7 @@ end
 function slot2.AddAimBiasBar(slot0, slot1)
 	slot0._normalHPTF = slot1
 	slot0._aimBiarBarTF = slot1:Find("biasBar")
-	slot0._aimBiarBar = uv0.Battle.BattleAimbiasBar.New(aimBiasBar)
+	slot0._aimBiarBar = uv0.Battle.BattleAimbiasBar.New(slot0._aimBiarBarTF)
 
 	slot0._aimBiarBar:ConfigAimBias(slot0._unitData:GetAimBias())
 	slot0._aimBiarBar:UpdateAimBiasProgress()

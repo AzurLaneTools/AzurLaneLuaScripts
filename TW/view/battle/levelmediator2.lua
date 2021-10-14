@@ -50,10 +50,11 @@ function slot0.register(slot0)
 			callback = slot2
 		})
 	end)
-	slot0:bind(uv0.ON_VOTE_BOOK, function (slot0)
+	slot0:bind(uv0.ON_VOTE_BOOK, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = VoteOrderBookMediator,
-			viewComponent = VoteOrderBookLayer
+			viewComponent = VoteOrderBookLayer,
+			onRemoved = slot1
 		}))
 	end)
 	slot0:bind(uv0.ON_COMMANDER_OP, function (slot0, slot1, slot2)
@@ -551,11 +552,10 @@ function slot0.NoticeVoteBook(slot0, slot1)
 			content = i18n("vote_get_book"),
 			onYes = function ()
 				if getProxy(VoteProxy):GetOrderBook() and not slot0:IsExpired() then
-					uv0.viewComponent:emit(uv1.ON_VOTE_BOOK)
+					uv0.viewComponent:emit(uv1.ON_VOTE_BOOK, uv2)
 				end
-
-				uv2()
-			end
+			end,
+			onNo = slot1
 		})
 	else
 		slot1()
@@ -630,7 +630,27 @@ function slot0.handleNotification(slot0, slot1)
 				slot1 = uv0.win
 				slot2 = uv1.contextData.chapterVO or uv0.chapterVO
 
-				if uv0.type == ChapterConst.OpRetreat and uv0.exittype and uv0.exittype == ChapterConst.ExitFromMap then
+				if uv0.type == ChapterConst.OpRetreat then
+					slot3 = false
+
+					uv1.viewComponent:addbubbleMsgBox(function ()
+						uv0 = false
+
+						if uv1 then
+							uv2()
+						end
+
+						uv3.viewComponent:CleanBubbleMsgbox()
+					end)
+
+					if true then
+						slot3 = true
+
+						coroutine.yield()
+					end
+				end
+
+				if slot0 == ChapterConst.OpRetreat and uv0.exittype and uv0.exittype == ChapterConst.ExitFromMap then
 					uv1.viewComponent:setChapter(nil)
 					uv1.viewComponent:updateChapterTF(slot2.id)
 					uv1:OnExitChapter(slot2)
@@ -649,33 +669,24 @@ function slot0.handleNotification(slot0, slot1)
 				end
 
 				if uv0.items and #slot3 > 0 then
-					if slot0 == ChapterConst.OpRetreat and uv1.contextData.map:isEscort() then
-						uv1.viewComponent:emit(BaseUI.ON_AWARD, {
-							items = slot3,
-							title = AwardInfoLayer.TITLE.ESCORT,
-							removeFunc = uv2
-						})
-					else
-						seriesAsync({
-							function (slot0)
-								uv0.viewComponent:emit(BaseUI.ON_WORLD_ACHIEVE, {
-									items = uv1,
-									closeOnCompleted = uv2:IsAutoFight(),
-									removeFunc = slot0
-								})
-							end,
-							function (slot0)
-								if _.any(uv0, function (slot0)
-									return slot0.type == DROP_TYPE_STRATEGY
-								end) then
-									uv1.viewComponent.levelStageView:popStageStrategy()
-								end
-
-								uv2()
+					seriesAsync({
+						function (slot0)
+							uv0.viewComponent:emit(BaseUI.ON_WORLD_ACHIEVE, {
+								items = uv1,
+								closeOnCompleted = uv2:IsAutoFight(),
+								removeFunc = slot0
+							})
+						end,
+						function (slot0)
+							if _.any(uv0, function (slot0)
+								return slot0.type == DROP_TYPE_STRATEGY
+							end) then
+								uv1.viewComponent.levelStageView:popStageStrategy()
 							end
-						})
-					end
 
+							slot0()
+						end
+					}, uv2)
 					coroutine.yield()
 				end
 
@@ -816,7 +827,13 @@ function slot0.handleNotification(slot0, slot1)
 						coroutine.yield()
 					end
 
-					uv1.viewComponent.levelStageView:tryAutoTrigger()
+					uv1.viewComponent.levelStageView:tryAutoAction(function ()
+						if not uv0.viewComponent.levelStageView then
+							return
+						end
+
+						uv0.viewComponent.levelStageView:tryAutoTrigger()
+					end)
 				elseif slot0 == ChapterConst.OpStory then
 					uv1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpSwitch then
@@ -1098,26 +1115,45 @@ function slot0.OnExitChapter(slot0, slot1, slot2)
 				return
 			end
 
-			if slot3 == nil then
-				return slot0()
-			end
-
 			slot4 = {}
 
-			if slot2.TotalDrops then
-				for slot8, slot9 in ipairs(slot2.TotalDrops) do
+			if slot2 and slot2.ResultDrops then
+				for slot8, slot9 in ipairs(slot2.ResultDrops) do
 					slot4 = table.mergeArray(slot4, slot9)
 				end
 			end
 
-			DropResultIntegration(slot4)
+			slot5, slot6 = nil
+
+			if slot3 then
+				slot5 = i18n("autofight_rewards")
+				slot6 = i18n("total_rewards_subtitle")
+			elseif #slot4 > 0 then
+				slot5 = i18n("settle_rewards_title")
+				slot6 = i18n("settle_rewards_subtitle")
+			else
+				return slot0()
+			end
+
+			slot7 = {}
+
+			if slot2.TotalDrops then
+				for slot11, slot12 in ipairs(slot2.TotalDrops) do
+					slot7 = table.mergeArray(slot7, slot12)
+				end
+			end
+
+			DropResultIntegration(slot7)
 			uv1:addSubLayers(Context.New({
 				viewComponent = LevelStageTotalRewardPanel,
 				mediator = LevelStageTotalRewardPanelMediator,
 				data = {
+					title = slot5,
+					subTitle = slot6,
 					chapter = uv0,
 					onClose = slot0,
-					rewards = slot4,
+					rewards = slot7,
+					resultRewards = slot4,
 					events = slot2.ListEventNotify,
 					guildTasks = slot2.ListGuildEventNotify,
 					guildAutoReceives = slot2.ListGuildEventAutoReceiveNotify,
@@ -1144,6 +1180,7 @@ function slot0.OnEventUpdate(slot0, slot1)
 	if slot3 and slot2.eventForMsg then
 		if getProxy(ChapterProxy):getActiveChapter(true) and slot6:IsAutoFight() then
 			getProxy(ChapterProxy):AddExtendChapterDataArray(slot6.id, "ListEventNotify", slot2.eventForMsg.id or 0)
+			existCall(slot1)
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = false,
@@ -1151,16 +1188,14 @@ function slot0.OnEventUpdate(slot0, slot1)
 				content = i18n("event_special_update", pg.collection_template[slot5] and pg.collection_template[slot5].title or ""),
 				weight = LayerWeightConst.SECOND_LAYER,
 				onYes = function ()
-					if uv0 then
-						uv0()
-					end
+					existCall(uv0)
 				end
 			})
 		end
 
 		slot2.eventForMsg = nil
-	elseif slot1 then
-		slot1()
+	else
+		existCall(slot1)
 	end
 end
 

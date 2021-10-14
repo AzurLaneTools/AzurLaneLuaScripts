@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"穿越彼方的水线\n\n<size=45>五　{namecode:175}SIDE</size>",
+					"穿越彼方的水線\n\n<size=45>五　駿河SIDE</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "演习辛苦了，{namecode:22}、{namecode:97}、还有{namecode:175}。指挥官也赞扬了这次的联合演习哦。",
+			say = "演習辛苦了，{namecode:22}、{namecode:97}、還有{namecode:175}。指揮官也讚揚了這次的聯合演習哦。",
 			bgm = "cw-level",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的……最后简直一团乱嘛！演习用的是模拟弹真是万幸啊！",
+			say = "真是的……最後簡直一團亂嘛！演習用的是模擬彈真是萬幸啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "竟然冲到离指挥官大人那么近的地方……{namecode:175}，下次绝对要跟我换啊！",
+			say = "竟然衝到離指揮官大人那麼近的地方……{namecode:175}，下次絕對要跟我換啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，演习刚刚结束却还这么精神，可真是再好不过了！我看，不如让{namecode:55}将诸位的活跃大书特书一笔吧？",
+			say = "哈哈哈，演習剛剛結束卻還這麼精神，可真是再好不過了！我看，不如讓青葉將諸位的活躍大書特書一筆吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请容我坚——————————————决拒绝！！",
+			say = "請容我堅——————————————決拒絕！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -165,7 +165,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（回想起来，真是没想到会变成这样呢……）",
+			say = "（回想起來，真是沒想到會變成這樣呢……）",
 			bgm = "story-2",
 			flashout = {
 				black = true,
@@ -199,7 +199,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "因此，在{namecode:82}大人的裁夺下，重樱舰队方的“指挥官”角色，并非从本港区的成员中选出，而是由我来担任。",
+			say = "因此，在{namecode:82}大人的裁奪下，重櫻艦隊方的“指揮官”角色，並非從本港區的成員中選出，而是由我來擔任。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（明明以为只是个门面职位，才随便答允下来的——！）",
+			say = "（明明以為只是個門面職位，才隨便答允下來的——！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哼哼！不需要使什么小手段！只要还有{namecode:22}大人的幸运加持，这点小事不成问题哒！",
+			say = "哼哼！不需要使什麼小手段！只要還有{namecode:22}大人的幸運加持，這點小事不成問題噠！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（真是够了，我最不擅长应对这种脑子空空行事随便的家伙了！）",
+			say = "（真是夠了，我最不擅長應對這種腦子空空行事隨便的傢伙了！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（但不管怎么说都是同伴啊？又不能放着不管对吧？结果还是只能靠这边努力想办法了不是嘛！）",
+			say = "（但不管怎麼說都是同伴啊？又不能放著不管對吧？結果還是只能靠這邊努力想辦法了不是嘛！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我个人是不介意被指挥官大人打得落花流水，不过确实也关系到重樱这边的面子呢……",
+			say = "我個人是不介意被指揮官大人打得落花流水，不過確實也關係到重櫻這邊的面子呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（那还用说吗！谁想到指挥官的舰队竟然强得那么离谱啊！）",
+			say = "（那還用說嗎！誰想得到指揮官的艦隊竟然強得那麼離譜啊！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（不出奇招的话，绝对会被秒杀的吧！？这不是没办法嘛！明明没打算引人注目的！）",
+			say = "（不出奇招的話，絕對會被秒殺的吧！？這不是沒辦法嘛！明明沒打算引人注目的！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（而且如果是其他人来想的话，绝对一下就被指挥官看穿了吧？所以还是得由我这个外人来不是嘛！）",
+			say = "（而且如果是其他人來想的話，絕對一下就被指揮官看穿了吧？所以還是得由我這個外人來不是嘛！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "真是的……最后简直一团乱嘛！演习用的是模拟弹真是万幸啊！",
+			say = "真是的……最後簡直一團亂嘛！演習用的是模擬彈真是萬幸啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "竟然冲到离指挥官大人那么近的地方……{namecode:175}，下次绝对要跟我换啊！",
+			say = "竟然衝到離指揮官大人那麼近的地方……{namecode:175}，下次絕對要跟我換啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（外人……吗……回想起来，这里的各位似乎没把我当作外人……）",
+			say = "（外人……嗎……回想起來，這裡的各位似乎沒把我當作外人……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>如果在这里的话，说不定我也——</size>",
+					"<size=51>如果在這裡的話，說不定我也——</size>",
 					1
 				}
 			}
@@ -408,7 +408,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "没错，就算是没有舰历的舰船，跟港区的大家也不会有隔阂的",
+			say = "沒錯，就算是沒有艦歷的艦船，跟港區的大家也不會有隔閡的",
 			bgm = "cw-story",
 			flashout = {
 				black = true,
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来有什么打算吗？要不，干脆就留在这个港区如何？",
+			say = "接下來有什麼打算嗎？要不，乾脆就留在這個港區如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从这回的演习来看的话，妳也许会比其他特别计划舰更快地融入这里呢，哈哈哈",
+			say = "從這回的演習來看的話，妳也許會比其他特別計劃艦更快地融入這裡呢，哈哈哈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事，时间有的是。好好思考吧，从心底得出答案后，再做决定也不迟。",
+			say = "沒事，時間有的是。好好思考吧，從心底得出答案後，再做決定也不遲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（是啊。如果是这里的话，我，还有“她”也说不定……）",
+			say = "（是啊。如果是這裡的話，我，還有“她”也說不定……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "有缘再相见吧——",
+			say = "有緣再相見吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

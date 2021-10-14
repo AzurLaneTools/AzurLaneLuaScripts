@@ -329,18 +329,15 @@ function slot8.getTrackingHost(slot0)
 	return slot0._host
 end
 
+slot8.TrackingFunc = {
+	farthest = slot8.TrackingFarthest,
+	leastHP = slot8.TrackingLeastHP
+}
+
 function slot8.Tracking(slot0)
-	if uv0.GetCurrent(slot0._host, "TargetChoise") == "farthest" then
-		return slot0:TrackingFarthest(slot0:GetFilteredList())
-	elseif slot1 == "leastHP" then
-		return slot0:TrackingLeastHP(slot0:GetFilteredList())
-	elseif type(slot1) == "number" and slot1 > 0 then
-		return slot0:TrackingModelID(slot0:GetFilteredList(), slot1)
-	elseif slot1 == 0 then
-		return slot0:TrackingNearest(slot0:GetFilteredList())
-	else
-		return slot0:TrackingTag(slot0:GetFilteredList(), slot1)
-	end
+	slot2 = nil
+
+	return (not uv0.GetCurrentTargetSelect(slot0._host) or (not uv1.TrackingFunc[slot1] or slot3(slot0, slot0:GetFilteredList())) and slot0:TrackingTag(slot0:GetFilteredList(), slot1)) and slot0:TrackingNearest(slot0:GetFilteredList())
 end
 
 function slot8.GetFilteredList(slot0)
@@ -397,18 +394,6 @@ function slot8.TrackingLeastHP(slot0, slot1)
 		if slot8:GetCurrentHP() < math.huge then
 			slot3 = slot8
 			slot2 = slot9
-		end
-	end
-
-	return slot3
-end
-
-function slot8.TrackingModelID(slot0, slot1, slot2)
-	slot3 = nil
-
-	for slot7, slot8 in ipairs(slot1) do
-		if slot8:GetTemplateID() == slot2 then
-			slot3 = slot8
 		end
 	end
 
@@ -856,7 +841,7 @@ end
 
 function slot8.Spawn(slot0, slot1, slot2)
 	slot3 = nil
-	slot4 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, (slot2 ~= nil or Vector3.zero) and slot2:GetPosition())
+	slot4 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, (slot2 ~= nil or Vector3.zero) and (slot2:GetBeenAimedPosition() or slot2:GetPosition()))
 
 	slot0:setBulletSkin(slot4, slot1)
 	slot0:TriggerBuffWhenSpawn(slot4)

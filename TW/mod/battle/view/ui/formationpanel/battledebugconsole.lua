@@ -207,6 +207,13 @@ function slot3.initComponent(slot0)
 		end)
 	end
 
+	slot0._triggerWeather = slot0._common:Find("weather_trigger")
+	slot0._weatherInput = slot0._common:Find("weather_input"):GetComponent("InputField")
+
+	onButton(nil, slot0._triggerWeather, function ()
+		uv0._dataProxy:AddWeather(tonumber(uv0._weatherInput.text))
+	end)
+
 	slot0._antiSubDetailRange = slot0._common:Find("anti_sub_detail")
 
 	onButton(nil, slot0._antiSubDetailRange, function ()
@@ -232,6 +239,7 @@ function slot3.initComponent(slot0)
 	slot0._white = slot0._base:Find("white_button")
 
 	onButton(nil, slot0._white, function ()
+		uv0._dataProxy._fleetList[1]._scoutList[1]:UpdateHP(-1000000, {})
 	end, SFX_PANEL)
 	SetActive(slot0._white, true)
 end

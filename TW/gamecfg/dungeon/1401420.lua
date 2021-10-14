@@ -175,7 +175,7 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								-15,
+								8,
 								0,
 								75
 							},
@@ -190,7 +190,7 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								-15,
+								8,
 								0,
 								45
 							},
@@ -201,17 +201,29 @@ return {
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 14002,
+							monsterTemplateID = 14005,
 							moveCast = true,
 							delay = 0,
 							corrdinate = {
+								-12,
 								0,
+								40
+							},
+							buffList = {
+								9674
+							}
+						},
+						{
+							monsterTemplateID = 14005,
+							moveCast = true,
+							delay = 0,
+							corrdinate = {
+								-12,
 								0,
 								70
 							},
 							buffList = {
-								8001,
-								8007
+								9674
 							}
 						},
 						{
@@ -226,20 +238,6 @@ return {
 							buffList = {
 								8001,
 								8002
-							}
-						},
-						{
-							monsterTemplateID = 14002,
-							moveCast = true,
-							delay = 0,
-							corrdinate = {
-								0,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8007
 							}
 						}
 					}
@@ -288,17 +286,16 @@ return {
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 14001,
+							monsterTemplateID = 14005,
 							moveCast = true,
 							delay = 0,
 							corrdinate = {
-								0,
+								-12,
 								0,
 								80
 							},
 							buffList = {
-								8001,
-								8007
+								9674
 							}
 						},
 						{
@@ -334,7 +331,7 @@ return {
 							moveCast = true,
 							delay = 0,
 							corrdinate = {
-								0,
+								-12,
 								0,
 								30
 							},
@@ -352,6 +349,68 @@ return {
 						103
 					},
 					triggerParams = {}
+				},
+				{
+					triggerType = 10,
+					waveIndex = 1000,
+					conditionType = 0,
+					preWaves = {
+						100
+					},
+					triggerParam = {},
+					blockFlags = {
+						9600
+					},
+					spawn = {
+						{
+							life_time = 5,
+							prefab = "suligao_dengta_stg",
+							delay = 8,
+							behaviours = 10024,
+							IFF = 1,
+							coordinate = {
+								-15,
+								0,
+								55
+							},
+							cld_data = {
+								30,
+								60
+							}
+						},
+						{
+							life_time = 5,
+							prefab = "suligao_dengta_stg",
+							delay = 23,
+							behaviours = 10024,
+							IFF = 1,
+							coordinate = {
+								-15,
+								0,
+								55
+							},
+							cld_data = {
+								30,
+								60
+							}
+						},
+						{
+							life_time = 5,
+							prefab = "suligao_dengta_stg",
+							delay = 38,
+							behaviours = 10024,
+							IFF = 1,
+							coordinate = {
+								-15,
+								0,
+								55
+							},
+							cld_data = {
+								30,
+								60
+							}
+						}
+					}
 				}
 			}
 		}

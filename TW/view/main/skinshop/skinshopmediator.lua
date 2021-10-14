@@ -33,6 +33,10 @@ function slot0.register(slot0)
 	end)
 	slot0.viewComponent:setSkins(getProxy(ShipSkinProxy):getSkinList())
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+
+	if slot0.contextData.type == SkinShopScene.SHOP_TYPE_TIMELIMIT then
+		getProxy(SettingsProxy):SetNextTipTimeLimitSkinShop()
+	end
 end
 
 function slot0.listNotificationInterests(slot0)

@@ -200032,7 +200032,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"xuzhang_hude"
+		}
 	},
 	[900007] = {
 		raid_distance = 0,

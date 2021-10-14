@@ -7562,11 +7562,11 @@ pg.skill_data_template = {
 	},
 	[6460] = {
 		desc_get = "",
-		name = "VH装甲钢板",
+		name = "VH裝甲鋼板",
 		id = 6460,
 		type = 0,
 		max_level = 0,
-		desc = "重甲角色装备时，戰鬥中受到的穿甲弹伤害降低6%，高爆弹通常弹伤害降低3%；非重甲角色装备时，戰鬥开始后，自身护甲类型修改为重甲",
+		desc = "重甲角色裝備時，戰鬥中受到的穿甲彈傷害降低6%，高爆彈通常彈傷害降低3%；非重甲角色裝備時，戰鬥開始後，自身護甲類型修改為重甲",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -7576,11 +7576,11 @@ pg.skill_data_template = {
 	},
 	[6470] = {
 		desc_get = "",
-		name = "VC装甲钢板",
+		name = "VC裝甲鋼板",
 		id = 6470,
 		type = 0,
 		max_level = 0,
-		desc = "重甲角色装备时，戰鬥中受到的穿甲弹伤害降低4%，高爆弹通常弹伤害降低2%",
+		desc = "重甲角色裝備時，戰鬥中受到的穿甲彈傷害降低4%，高爆彈通常彈傷害降低2%",
 		system_transform = {},
 		world_death_mark = {
 			1

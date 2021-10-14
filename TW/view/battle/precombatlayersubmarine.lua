@@ -80,7 +80,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		slot0 = {}
 
-		if uv0._currentForm == uv1.FORM_EDIT and uv0._editedFlag then
+		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					zIndex = -100,
@@ -112,7 +112,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._startBtn, function ()
 		slot0 = {}
 
-		if uv0._currentForm == uv1.FORM_EDIT and uv0._editedFlag then
+		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					zIndex = -100,
@@ -145,10 +145,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._checkBtn, function ()
 		if uv0._currentForm == uv1.FORM_EDIT then
 			uv0:emit(PreCombatMediator.ON_COMMIT_EDIT, function ()
-				if uv0._editedFlag then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
-				end
-
+				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
 				uv0:swtichToPreviewMode()
 			end)
 		elseif uv0._currentForm == uv1.FORM_PREVIEW then
@@ -156,17 +153,16 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_PANEL)
 
-	slot0._editedFlag = slot0.contextData.form == uv0.FORM_EDIT
+	slot0._currentForm = slot0.contextData.form
+	slot0.contextData.form = nil
 
 	slot0:UpdateFleetView(true)
 
-	if slot0.contextData.form == uv0.FORM_EDIT then
+	if slot0._currentForm == uv0.FORM_EDIT then
 		slot0:switchToEditMode()
 	else
 		slot0:swtichToPreviewMode()
 	end
-
-	slot0.contextData.form = nil
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	setActive(slot0._autoToggle, false)
@@ -209,7 +205,6 @@ function slot0.getPrevFleetID(slot0)
 end
 
 function slot0.swtichToPreviewMode(slot0)
-	slot0._editedFlag = nil
 	slot0._currentForm = uv0.FORM_PREVIEW
 	slot0._checkBtn:GetComponent("Button").interactable = true
 
@@ -332,7 +327,7 @@ function slot0.loadAllCharacter(slot0)
 
 		slot0:GetComponent("SkeletonGraphic").raycastTarget = false
 
-		uv0:enabledCharacter(slot0, tobool(uv0._editedFlag), slot7, slot2)
+		uv0:enabledCharacter(slot0, uv0._currentForm == uv1.FORM_EDIT, slot7, slot2)
 		uv0:setCharacterPos(slot2, slot3, slot0)
 		uv0:sortSiblingIndex()
 

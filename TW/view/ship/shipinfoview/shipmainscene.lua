@@ -73,6 +73,12 @@ function slot0.setShip(slot0, slot1)
 	slot0.shipEquipView:ActionInvoke("UpdateUI")
 end
 
+function slot0.equipmentChange(slot0)
+	if slot0.shipDetailView then
+		slot0.shipDetailView:ActionInvoke("UpdateUI")
+	end
+end
+
 function slot0.setToggleEnable(slot0)
 	for slot4, slot5 in pairs(slot0.togglesList) do
 		setActive(slot5, slot0:checkToggleActive(slot4))

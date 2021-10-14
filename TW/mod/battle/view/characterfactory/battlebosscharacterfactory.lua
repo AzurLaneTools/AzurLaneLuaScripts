@@ -41,7 +41,7 @@ function slot1.MakeBloodBar(slot0, slot1)
 end
 
 function slot1.MakeAimBiasBar(slot0, slot1)
-	slot1:AddAimBiasBar(slot0:GetHPBarPool():GetHPBar(uv0.Battle.BattleEnemyCharacterFactory.HP_BAR_NAME))
+	slot1:AddAimBiasBar(slot0:GetHPBarPool():GetHPBar(uv0.Battle.BattleHPBarManager.HP_BAR_FOE).transform)
 	slot1:AddAimBiasFogFX()
 end
 
