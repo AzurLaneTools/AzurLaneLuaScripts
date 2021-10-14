@@ -166,7 +166,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
-			actorName = "艤装",
+			actorName = "Rigging",
 			dir = 1,
 			say = "GRRRRGGHH!",
 			dialogShake = {
