@@ -1097,12 +1097,9 @@ pg.memory_group = {
 		id = 166,
 		title = "Hall of Fame",
 		memories = {
-			891,
-			892,
-			893,
-			1868,
+			1874,
 			1869,
-			1870
+			1875
 		}
 	},
 	[167] = {

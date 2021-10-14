@@ -288,7 +288,10 @@ function slot0.updateStageTF(slot0, slot1, slot2)
 	setActive(slot0:findTF("mask", slot1), slot0.player.level < slot2.level)
 
 	if slot0.player.level < slot2.level then
-		setText(slot0:findTF("msg/msg_contain/Text", slot4), "Lv." .. slot2.level .. " ")
+		slot5 = slot0:findTF("msg/msg_contain/Text", slot4)
+
+		setText(slot5, "Lv." .. slot2.level .. " ")
+		slot5:SetAsLastSibling()
 	end
 
 	slot5 = UIItemList.New(slot0:findTF("scrollView/right_panel", slot1), slot0.itemTpl)

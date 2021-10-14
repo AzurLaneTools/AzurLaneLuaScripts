@@ -22407,7 +22407,7 @@ pg.activity_template = {
 		config_client = {
 			id = 3,
 			bg = "loadingbg/bg_build_3_act",
-			buildship_tip = "Rate Up characters: Tosa, Hiei and more",
+			buildship_tip = "Rate Up characters: Tosa, Amagi and more",
 			rate_tip = {
 				"<color=#ffde38>Super Rare</color>：7%",
 				"<color=#d797ff>Elite</color>：12%",
@@ -22415,7 +22415,7 @@ pg.activity_template = {
 				"Common：30%",
 				"<color=#ffde38>Amagi</color>：2%(<color=#92fc63>up!</color>)",
 				"<color=#ffde38>Tosa</color>：2%(<color=#92fc63>up!</color>)",
-				"<color=#ffde38>Kaga BB</color>：2.5%",
+				"<color=#ffde38>Kaga BB</color>：0.5%",
 				"<color=#d797ff>Hanazuki</color>：2.5%(<color=#92fc63>up!</color>)",
 				"<color=#d797ff>Naganami</color>：2.5%(<color=#92fc63>up!</color>)",
 				"<color=#d797ff>Ashigara</color>：2.5%(<color=#92fc63>up!</color>)",
