@@ -14663,9 +14663,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -15144,9 +15141,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -15651,9 +15645,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -16179,9 +16170,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -16641,9 +16629,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -17160,9 +17145,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -17695,9 +17677,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -18246,9 +18225,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			9,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -18757,9 +18733,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -19384,9 +19357,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -19980,9 +19950,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -20686,9 +20653,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -21176,9 +21140,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -21778,9 +21739,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -22416,9 +22374,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -23170,9 +23125,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -23672,9 +23624,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -24279,9 +24228,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -24929,9 +24875,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},
@@ -25689,9 +25632,6 @@ pg.chapter_template_loop = {
 		},
 		box_list = {},
 		random_box_list = {
-			10,
-			23,
-			103,
 			1004,
 			5001
 		},

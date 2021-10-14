@@ -147187,9 +147187,9 @@ pg.task_data_template = {
 		fix_task = 0,
 		added_tip = 0,
 		target_id = {
-			31013,
-			31014,
-			31015
+			31030,
+			31031,
+			31032
 		},
 		open_need = {},
 		award_display = {
@@ -147226,9 +147226,9 @@ pg.task_data_template = {
 		fix_task = 0,
 		added_tip = 0,
 		target_id = {
-			31013,
-			31014,
-			31015
+			31030,
+			31031,
+			31032
 		},
 		open_need = {},
 		award_display = {
@@ -147265,9 +147265,9 @@ pg.task_data_template = {
 		fix_task = 0,
 		added_tip = 0,
 		target_id = {
-			31013,
-			31014,
-			31015
+			31030,
+			31031,
+			31032
 		},
 		open_need = {},
 		award_display = {
@@ -147304,9 +147304,9 @@ pg.task_data_template = {
 		fix_task = 0,
 		added_tip = 0,
 		target_id = {
-			31013,
-			31014,
-			31015
+			31030,
+			31031,
+			31032
 		},
 		open_need = {},
 		award_display = {
@@ -147343,9 +147343,9 @@ pg.task_data_template = {
 		fix_task = 0,
 		added_tip = 0,
 		target_id = {
-			31013,
-			31014,
-			31015
+			31030,
+			31031,
+			31032
 		},
 		open_need = {},
 		award_display = {
@@ -147382,9 +147382,9 @@ pg.task_data_template = {
 		fix_task = 0,
 		added_tip = 0,
 		target_id = {
-			31013,
-			31014,
-			31015
+			31030,
+			31031,
+			31032
 		},
 		open_need = {},
 		award_display = {
@@ -147421,9 +147421,9 @@ pg.task_data_template = {
 		fix_task = 0,
 		added_tip = 0,
 		target_id = {
-			31013,
-			31014,
-			31015
+			31030,
+			31031,
+			31032
 		},
 		open_need = {},
 		award_display = {
@@ -147460,9 +147460,9 @@ pg.task_data_template = {
 		fix_task = 0,
 		added_tip = 0,
 		target_id = {
-			31013,
-			31014,
-			31015
+			31030,
+			31031,
+			31032
 		},
 		open_need = {},
 		award_display = {
@@ -147499,9 +147499,9 @@ pg.task_data_template = {
 		fix_task = 0,
 		added_tip = 0,
 		target_id = {
-			31013,
-			31014,
-			31015
+			31030,
+			31031,
+			31032
 		},
 		open_need = {},
 		award_display = {
