@@ -79,16 +79,10 @@ function slot1.Reconnect(slot0, slot1)
 		return
 	end
 
-	if uv3 then
-		warning("Network is connected.")
-
-		return
-	end
-
-	uv4 = slot1
+	uv3 = slot1
 
 	slot0:stopHBTimer()
-	uv5:stopTimer()
+	uv4:stopTimer()
 	print("reconnect --> " .. slot0:GetLastHost() .. ":" .. slot0:GetLastPort())
 	slot0:Connect(slot0:GetLastHost(), slot0:GetLastPort(), function ()
 		slot1 = getProxy(UserProxy):getData()
