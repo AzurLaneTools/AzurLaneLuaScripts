@@ -559,6 +559,8 @@ function slot0.NoticeVoteBook(slot0, slot1)
 			onYes = function ()
 				if getProxy(VoteProxy):GetOrderBook() and not slot0:IsExpired() then
 					uv0.viewComponent:emit(uv1.ON_VOTE_BOOK, uv2)
+				else
+					existCall(uv2)
 				end
 			end,
 			onNo = slot1
