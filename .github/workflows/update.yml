@@ -25,10 +25,10 @@ jobs:
       - name: Prepare cache
         uses: eyal0/cache@skip-save
         with:
-          key: "cache-hashes-${{ github.run_id }}"
+          key: "cache@pipeline-${{ github.run_id }}"
           path: "cache"
           restore-keys: |
-            cache-hashes-
+            cache@pipeline-
           skip-save: ${{ env.SKIP_SAVE_CACHE }}
 
       - name: Check for updates
@@ -54,7 +54,7 @@ jobs:
         if: ${{ steps.check.outputs.update == 'true'}}
         run: |
           cd tools
-          python main.py ../target ../cache
+          python main.py ../target
 
       - name: Skip cache update
         if: ${{ steps.check.outputs.update != 'true'}}
