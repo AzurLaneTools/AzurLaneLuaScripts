@@ -137730,8 +137730,8 @@ _G.pg.item_data_statistics[59135] = {
 }
 
 _G.pg.item_data_statistics[59136] = {
-	display = "用于『Azurlane人气投票』活动累计获得投票，每轮投票结束时次数清零",
-	name = "应援棒",
+	display = "『Azurlane 인기 투표』 이벤트에서 누적하여 투표권 획득 가능. 매 라운드 투표 종료 시 초기화.",
+	name = "응원봉",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -142716,8 +142716,8 @@ _G.pg.item_data_statistics[59823] = {
 }
 
 _G.pg.item_data_statistics[59824] = {
-	display = "用于参加投票大战的投票次数，每轮投票结束时次数清零",
-	name = "投票次数",
+	display = "인기 투표 참여용 투표 가능 횟수. 매 라운드 투표 종료 시 횟수 초기화.",
+	name = "일반표",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,

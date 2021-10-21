@@ -11944,6 +11944,10 @@ _G.pg.gametip.vote_fame_tip = {
 	tip = "※전당 캐릭터의 스페셜 스토리 관람 후, 캐릭터 전용 테두리가 해제됩니다: $1,$2,$3"
 }
 
+_G.pg.gametip.word_maintain = {
+	tip = "업데이트 후"
+}
+
 _G.pg.gametip.change_skin_secretary_ship_success = {
 	tip = "스킨 변경 및 비서함 설정 성공 "
 }
