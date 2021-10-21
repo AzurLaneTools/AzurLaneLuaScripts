@@ -85,8 +85,10 @@ end
 function slot4.onAddUnit(slot0, slot1)
 	uv0.super.onAddUnit(slot0, slot1)
 
+	slot3 = slot1.Data.unit
+
 	if slot1.Data.type ~= uv1.Battle.BattleConst.UnitType.PLAYER_UNIT then
-		slot1.Data.unit:RegisterEventListener(slot0, uv2.ANTI_SUB_VIGILANCE_HATE_CHAIN, slot0.onHateChain)
+		slot3:RegisterEventListener(slot0, uv2.ANTI_SUB_VIGILANCE_HATE_CHAIN, slot0.onHateChain)
 	end
 end
 
@@ -116,7 +118,9 @@ function slot4.onWillDie(slot0, slot1)
 		slot0._dataProxy:CalcKillingSupplyShip()
 	end
 
-	if slot2:IsBoss() and not slot0._dataProxy:IsThereBoss() then
+	slot5 = slot0._dataProxy:IsThereBoss()
+
+	if slot2:IsBoss() and not slot5 then
 		if slot3 == uv0.Battle.BattleConst.UnitDeathReason.DESTRUCT then
 			slot0._dataProxy:AddScoreWhenBossDestruct()
 		end

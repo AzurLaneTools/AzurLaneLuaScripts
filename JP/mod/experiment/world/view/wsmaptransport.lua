@@ -41,7 +41,9 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.Load(slot0)
-	PoolMgr.GetInstance():GetPrefab("world/object/world_cell_transport", "world_cell_transport", false, function (slot0)
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetPrefab("world/object/world_cell_transport", "world_cell_transport", false, function (slot0)
 		uv0.transform = slot0.transform
 
 		uv0:Init()

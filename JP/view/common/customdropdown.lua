@@ -48,9 +48,10 @@ function slot0.OnInit(slot0)
 	end)
 
 	slot0.attrs = slot0:findTF("Attrs", slot0._tf)
+	slot2 = GetComponent(slot0.attrs, typeof(GridLayoutGroup))
 
 	if #slot0.options > 6 then
-		GetComponent(slot0.attrs, typeof(GridLayoutGroup)).constraintCount = 2
+		slot2.constraintCount = 2
 	else
 		slot2.constraintCount = 1
 	end
@@ -82,8 +83,10 @@ function slot0.SelectLast(slot0)
 end
 
 function slot0.UpdateData(slot0, slot1)
+	slot3 = bit.band(slot0.contextData.indexDatas[slot0.tag], slot0.options[slot1]) > 0
+
 	if slot0.mode == CustomIndexLayer.Mode.AND then
-		if bit.band(slot0.contextData.indexDatas[slot0.tag], slot0.options[slot1]) > 0 then
+		if slot3 then
 			slot0.contextData.indexDatas[slot0.tag] = slot2 - slot0.options[slot1]
 		else
 			slot0.contextData.indexDatas[slot0.tag] = bit.bxor(slot2, slot0.options[slot1])

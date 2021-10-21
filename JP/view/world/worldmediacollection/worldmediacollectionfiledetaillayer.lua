@@ -53,8 +53,10 @@ function slot0.Enter(slot0)
 
 	slot0:UpdateView()
 	slot0:SwitchFileIndex(slot0.contextData.SelectedFile or (function ()
+		slot0 = nowWorld:GetCollectionProxy()
+
 		for slot5, slot6 in ipairs(WorldCollectionProxy.GetCollectionFileGroupTemplate(uv0.contextData.FileGroupIndex).child) do
-			if nowWorld:GetCollectionProxy():IsUnlock(slot6) then
+			if slot0:IsUnlock(slot6) then
 				return slot5
 			end
 		end
@@ -71,12 +73,14 @@ function slot0.UpdateView(slot0)
 	slot0.archiveList = _.map(WorldCollectionProxy.GetCollectionFileGroupTemplate(slot0.contextData.FileGroupIndex).child, function (slot0)
 		return WorldCollectionProxy.GetCollectionTemplate(slot0)
 	end)
+	slot1 = nowWorld:GetCollectionProxy()
 	slot2 = WorldCollectionProxy.GetCollectionFileGroupTemplate(slot0.contextData.FileGroupIndex)
+	slot3 = 0
 	slot4 = #slot2.child
 
 	for slot8, slot9 in ipairs(slot2.child) do
-		if nowWorld:GetCollectionProxy():IsUnlock(slot9) then
-			slot3 = 0 + 1
+		if slot1:IsUnlock(slot9) then
+			slot3 = slot3 + 1
 		end
 	end
 
@@ -187,48 +191,53 @@ function slot0.SetDocumentText(slot0, slot1, slot2, slot3)
 	slot0.documentText:GetComponent(typeof(Text)).text = ""
 	slot11 = ""
 
+	function slot12()
+		slot0 = 0
+
+		if isActive(uv0.documentHead) then
+			slot0 = slot0 + uv0.documentHead:GetComponent(typeof(LayoutElement)).preferredHeight
+		end
+
+		slot1 = uv0.documentBody:GetComponent("LayoutGroup")
+		slot0 = slot0 + slot1.padding.top + slot1.padding.bottom
+
+		setActive(uv0.documentTip, uv1 and #uv1 > 0)
+
+		slot3 = 0
+
+		if uv1 and #uv1 > 0 then
+			slot4 = uv0.documentTip:Find("Text"):GetComponent(typeof(Text))
+			slot4.text = uv1
+			slot0 = slot0 + uv2.getTextPreferredHeight(slot4, uv3, uv1) + uv0.documentRect:GetComponent(typeof(VerticalLayoutGroup)).spacing
+		end
+
+		if uv4 then
+			uv0.documentImage.anchoredPosition = Vector2(0, -50 - slot3)
+		end
+
+		slot0 = slot0 + uv2.getTextPreferredHeight(uv5, uv3, uv6)
+		slot5 = uv0.documentContentTF.sizeDelta
+		slot5.y = slot0
+		uv0.documentContentTF.sizeDelta = slot5
+
+		setActive(uv0.document:Find("Arrow"), uv0.document:Find("Viewport").rect.height < slot0)
+		uv0.document:GetComponent(typeof(ScrollRect)).onValueChanged:RemoveAllListeners()
+
+		uv7 = uv7 or 0
+		uv0.documentContentTF.anchoredPosition = Vector2(0, math.max(slot4 - slot8, 0) * uv7)
+		slot9.velocity = Vector2.zero
+
+		if slot8 < slot0 then
+			onScroll(uv0, uv0.document, function (slot0)
+				setActive(uv0, slot0.y > 0.01)
+			end)
+		end
+	end
+
 	if not slot5 then
 		slot10.text = slot1
 
-		(function ()
-			if isActive(uv0.documentHead) then
-				slot0 = 0 + uv0.documentHead:GetComponent(typeof(LayoutElement)).preferredHeight
-			end
-
-			slot1 = uv0.documentBody:GetComponent("LayoutGroup")
-
-			setActive(uv0.documentTip, uv1 and #uv1 > 0)
-
-			slot3 = 0
-
-			if uv1 and #uv1 > 0 then
-				slot4 = uv0.documentTip:Find("Text"):GetComponent(typeof(Text))
-				slot4.text = uv1
-				slot0 = slot0 + slot1.padding.top + slot1.padding.bottom + uv2.getTextPreferredHeight(slot4, uv3, uv1) + uv0.documentRect:GetComponent(typeof(VerticalLayoutGroup)).spacing
-			end
-
-			if uv4 then
-				uv0.documentImage.anchoredPosition = Vector2(0, -50 - slot3)
-			end
-
-			slot0 = slot0 + uv2.getTextPreferredHeight(uv5, uv3, uv6)
-			slot5 = uv0.documentContentTF.sizeDelta
-			slot5.y = slot0
-			uv0.documentContentTF.sizeDelta = slot5
-
-			setActive(uv0.document:Find("Arrow"), uv0.document:Find("Viewport").rect.height < slot0)
-			uv0.document:GetComponent(typeof(ScrollRect)).onValueChanged:RemoveAllListeners()
-
-			uv7 = uv7 or 0
-			uv0.documentContentTF.anchoredPosition = Vector2(0, math.max(slot4 - slot8, 0) * uv7)
-			slot9.velocity = Vector2.zero
-
-			if slot8 < slot0 then
-				onScroll(uv0, uv0.document, function (slot0)
-					setActive(uv0, slot0.y > 0.01)
-				end)
-			end
-		end)()
+		slot12()
 
 		return
 	end
@@ -241,15 +250,18 @@ function slot0.SetDocumentText(slot0, slot1, slot2, slot3)
 		slot1 = ""
 		slot2 = ""
 		slot3 = {}
+		slot4 = slot0 and 1 or uv0
 
-		for slot8 = slot0 and 1 or uv0, #uv1 do
+		for slot8 = slot4, #uv1 do
 			if uv2[uv3].start < uv1[slot8].start then
 				break
 			end
 
+			slot9 = uv1[slot8]
+
 			if slot8 == uv0 then
 				uv0 = uv0 + 1
-				slot1 = slot1 .. uv1[slot8].value
+				slot1 = slot1 .. slot9.value
 			end
 
 			if slot0 then
@@ -276,11 +288,12 @@ function slot0.SetDocumentText(slot0, slot1, slot2, slot3)
 		return slot5, slot1, slot2
 	end
 
+	slot18 = 0
 	slot19 = 1
 	slot20 = slot10.fontSize
 	slot21 = slot0.documentRect:GetComponent("LayoutGroup").spacing
 
-	while 0 < slot9 and slot15 < #slot13 do
+	while slot18 < slot9 and slot15 < #slot13 do
 		slot22, slot23, slot24 = slot17(true)
 		slot10.text = slot11 .. slot23 .. slot22 .. slot24
 
@@ -311,19 +324,22 @@ function slot0.SetDocumentText(slot0, slot1, slot2, slot3)
 end
 
 function slot0.SplitRichAndLetters(slot0)
+	slot1 = 1
+	slot2 = "<([^>]*)>"
 	slot3 = {}
 	slot4 = {}
 
 	while true do
-		slot5, slot6 = string.find(slot0, "<([^>]*)>", 1)
+		slot5, slot6 = string.find(slot0, slot2, slot1)
 
 		if not slot6 then
 			break
 		end
 
 		slot7 = string.sub(slot0, slot5, slot6)
+		slot8 = string.find(slot7, "=")
 
-		if not string.find(slot7, "/") and not string.find(slot7, "=") then
+		if not string.find(slot7, "/") and not slot8 then
 			slot1 = slot6 + 1
 		else
 			table.insert(slot3, {
@@ -343,11 +359,12 @@ function slot0.SplitRichAndLetters(slot0)
 	end
 
 	slot5 = {}
+	slot1 = 1
 	slot6 = false
 	slot7 = 1
 
 	while true do
-		slot8, slot9 = string.find(slot0, "[-\\xc2-\\xf4][\\x80-\\xbf]*", 1)
+		slot8, slot9 = string.find(slot0, "[-\\xc2-\\xf4][\\x80-\\xbf]*", slot1)
 
 		if not slot9 then
 			slot5[#slot5 + 1] = {

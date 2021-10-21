@@ -10,7 +10,9 @@ function slot0.register(slot0)
 end
 
 function slot0.on(slot0, slot1, slot2)
-	pg.ConnectionMgr.GetInstance():On(slot1, function (slot0)
+	slot3 = pg.ConnectionMgr.GetInstance()
+
+	slot3:On(slot1, function (slot0)
 		uv0(slot0)
 	end)
 	table.insert(slot0.event, slot1)

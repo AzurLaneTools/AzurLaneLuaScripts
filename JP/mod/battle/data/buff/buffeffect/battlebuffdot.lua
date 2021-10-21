@@ -80,9 +80,10 @@ end
 function slot4.CalcNumber(slot0, slot1, slot2)
 	slot3 = uv0.CaclulateDOTDamageEnhanceRate(slot0._tempData, slot0._orb, slot1)
 	slot4, slot5 = slot1:GetHP()
+	slot6 = slot4 * slot0._currentHPRatio + slot5 * slot0._maxHPRatio + slot0._number + slot0._igniteDMG
 
 	if slot0._randExtraRange > 0 then
-		slot6 = slot4 * slot0._currentHPRatio + slot5 * slot0._maxHPRatio + slot0._number + slot0._igniteDMG + math.random(0, slot0._randExtraRange)
+		slot6 = slot6 + math.random(0, slot0._randExtraRange)
 	end
 
 	return math.max(0, math.floor(math.min(slot4 - slot5 * slot0._minRestHPRatio, slot6 * (1 + slot3) * slot2._stack * uv1.GetCurrent(slot1, "repressReduce"))))

@@ -3,12 +3,21 @@ slot0.REMOULD_SHIP = "ShipRemouldMediator:REMOULD_SHIP"
 slot0.ON_SELECTE_SHIP = "ShipRemouldMediator:ON_SELECTE_SHIP"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setShipVO(getProxy(BayProxy):getShipById(slot0.contextData.shipId))
-	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+	slot1 = getProxy(BayProxy)
+	slot3 = slot0.viewComponent
+
+	slot3:setShipVO(slot1:getShipById(slot0.contextData.shipId))
+
+	slot3 = getProxy(PlayerProxy)
+	slot5 = slot0.viewComponent
+
+	slot5:setPlayer(slot3:getData())
 
 	slot0.bagProxy = getProxy(BagProxy)
+	slot5 = slot0.viewComponent
+	slot7 = slot0.bagProxy
 
-	slot0.viewComponent:setItems(slot0.bagProxy:getData())
+	slot5:setItems(slot7:getData())
 	slot0:bind(uv0.REMOULD_SHIP, function (slot0, slot1, slot2, slot3)
 		if uv0.contextData.materialShipIds and table.getCount(uv0.contextData.materialShipIds) > 1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("remould_ship_count_more"))

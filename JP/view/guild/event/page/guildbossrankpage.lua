@@ -5,10 +5,17 @@ function slot0.getUIName(slot0)
 end
 
 function slot1(slot0)
+	slot2 = slot0.transform
+	slot2 = slot2:Find("numer")
+	slot2 = slot0.transform
+	slot2 = slot2:Find("name")
+	slot2 = slot0.transform
+	slot2 = slot2:Find("damage")
+
 	return {
-		numer = slot0.transform:Find("numer"):GetComponent(typeof(Text)),
-		name = slot0.transform:Find("name"):GetComponent(typeof(Text)),
-		damage = slot0.transform:Find("damage"):GetComponent(typeof(Text)),
+		numer = slot2:GetComponent(typeof(Text)),
+		name = slot2:GetComponent(typeof(Text)),
+		damage = slot2:GetComponent(typeof(Text)),
 		Update = function (slot0, slot1, slot2)
 			slot0.numer.text = slot1
 			slot0.name.text = slot2.name

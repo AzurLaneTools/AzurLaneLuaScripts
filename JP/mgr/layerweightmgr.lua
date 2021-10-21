@@ -147,16 +147,18 @@ function slot1.LayerSortHandler(slot0)
 			slot8 = slot15
 		end
 
+		function slot26()
+			uv0:ShowOrHideTF(uv1, true)
+			uv0:SetToOverlayParent(uv1, uv2, uv3)
+
+			if not uv4 and #uv5 > 0 then
+				table.insertto(uv6, uv5)
+			end
+		end
+
 		if slot16 == LayerWeightConst.UI_TYPE_SUB then
 			if slot25 then
-				(function ()
-					uv0:ShowOrHideTF(uv1, true)
-					uv0:SetToOverlayParent(uv1, uv2, uv3)
-
-					if not uv4 and #uv5 > 0 then
-						table.insertto(uv6, uv5)
-					end
-				end)()
+				slot26()
 			elseif slot4 ~= nil and slot4 == slot20 then
 				slot26()
 			else

@@ -26,7 +26,9 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.UpdateTip(slot0)
-	TowerClimbingCollectionLayer.New():SetData(slot0:GetMGData())
+	slot2 = TowerClimbingCollectionLayer.New()
+
+	slot2:SetData(slot0:GetMGData())
 	setActive(slot0:findTF("overview/collection/tip"), _.any({
 		1,
 		2,
@@ -74,11 +76,12 @@ function slot0.GetTowerClimbingPageAndScore(slot0)
 		return slot0.key < slot1.key
 	end)
 
+	slot3 = uv0.GetAwardScores()
 	slot4 = 0
 	slot5 = 1
 
 	for slot9, slot10 in ipairs(slot1) do
-		slot11 = uv0.GetAwardScores()[slot10.key]
+		slot11 = slot3[slot10.key]
 
 		if slot10.value2 < slot11[#slot11] or slot9 == #slot1 and slot12 <= slot10.value2 then
 			slot4 = slot10.value2

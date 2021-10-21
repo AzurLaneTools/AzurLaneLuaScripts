@@ -17,14 +17,17 @@ function slot0.onFire(slot0, slot1, slot2)
 	end
 
 	slot3 = slot0._tempData.arg_list
+	slot4 = slot3.node
+	slot5 = slot3.weapon
+	slot6 = ys.Battle.BattleDataProxy.GetInstance():GetSeqCenter()
 
 	for slot10, slot11 in ipairs(slot1:GetAutoWeapons()) do
-		if slot11:GetWeaponId() == slot3.weapon then
-			slot12 = ys.Battle.BattleDataProxy.GetInstance():GetSeqCenter():NewSeq("buff" .. slot0._id)
+		if slot11:GetWeaponId() == slot5 then
+			slot12 = slot6:NewSeq("buff" .. slot0._id)
 
 			pg.NodeMgr.GetInstance():GenNode(ys.Battle.NodeData.New(slot1, {
 				weapon = slot11
-			}, slot12), pg.BattleNodesCfg[slot3.node], slot12)
+			}, slot12), pg.BattleNodesCfg[slot4], slot12)
 
 			break
 		end

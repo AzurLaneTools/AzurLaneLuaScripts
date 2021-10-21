@@ -24,8 +24,9 @@ end
 
 function slot0.flush(slot0)
 	slot1 = slot0.voteShip.shipVO
+	slot4 = slot0.voteShip
 
-	LoadSpriteAsync("ShipYardIcon/" .. slot0.voteShip:getPainting(), function (slot0)
+	LoadSpriteAsync("ShipYardIcon/" .. slot4:getPainting(), function (slot0)
 		if uv0.voteShip and uv0.voteShip.shipVO == uv1 then
 			setImageSprite(uv0.icon, slot0, false)
 		end

@@ -145,7 +145,9 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:updateMain()
 		end
 	elseif slot2 == GAME.ACT_NEW_PT_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
+		slot5 = slot0.viewComponent
+
+		slot5:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
 			if uv0.callback then
 				uv0.callback()
 			end

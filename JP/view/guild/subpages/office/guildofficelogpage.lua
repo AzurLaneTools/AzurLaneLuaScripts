@@ -9,10 +9,15 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	onButton(slot0, slot0._tf:Find("frame/window/top/btnBack"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("frame/window/top/btnBack"), function ()
 		uv0:Close()
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("frame"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("frame"), function ()
 		uv0:Close()
 	end, SFX_PANEL)
 end

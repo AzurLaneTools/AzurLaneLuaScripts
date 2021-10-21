@@ -24,11 +24,14 @@ function slot1(slot0)
 		go = slot0,
 		tr = tf(slot0)
 	}
-	slot1.icon = slot1.tr:Find("icon")
-	slot1.iconImg = slot1.icon:GetComponent(typeof(Image))
+	slot2 = slot1.tr
+	slot1.icon = slot2:Find("icon")
+	slot2 = slot1.icon
+	slot1.iconImg = slot2:GetComponent(typeof(Image))
 	slot1.stars = findTF(slot1.tr, "stars")
 	slot1.starTpl = findTF(slot1.stars, "star")
-	slot1.name = findTF(slot1.tr, "name"):GetComponent(typeof(Text))
+	slot2 = findTF(slot1.tr, "name")
+	slot1.name = slot2:GetComponent(typeof(Text))
 	slot1.unkonwn = findTF(slot1.tr, "unkonwn")
 
 	function slot1.update(slot0, slot1, slot2)
@@ -86,8 +89,10 @@ function slot1(slot0)
 				setActive(slot9:Find("startpl"), false)
 			end
 
+			slot5 = slot4[slot3]
+
 			for slot9 = 1, slot3 do
-				setActive(findTF(uv0.stars, "star_" .. slot4[slot3][slot9]):Find("startpl"), slot9 <= slot2.star)
+				setActive(findTF(uv0.stars, "star_" .. slot5[slot9]):Find("startpl"), slot9 <= slot2.star)
 			end
 		else
 			setImageColor(slot0.icon, Color.New(0, 0, 0, 0.7))
@@ -112,18 +117,23 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	for slot9 = 0, slot0.charContainer.childCount - 1 do
 		setActive(slot0.charContainer:GetChild(slot9), slot9 < #slot5)
 
+		slot11 = slot5[slot9 + 1]
+
 		if slot9 < #slot5 then
-			slot4[slot5[slot9 + 1]] = uv0(slot10)
+			slot4[slot11] = uv0(slot10)
 		end
 	end
+
+	slot6 = 0
+	slot7 = 0
 
 	for slot11, slot12 in pairs(slot4) do
 		slot12:update(Ship.New({
 			configId = slot11 * 10 + 1
 		}), slot2[slot11])
 
-		slot6 = 0 + (slot2[slot11] and slot2[slot11].star or 0)
-		slot7 = 0 + slot14:getMaxStar()
+		slot6 = slot6 + (slot2[slot11] and slot2[slot11].star or 0)
+		slot7 = slot7 + slot14:getMaxStar()
 	end
 
 	slot0.nameTF.text = slot1:getConfig("name")

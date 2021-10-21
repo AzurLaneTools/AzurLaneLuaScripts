@@ -38,10 +38,11 @@ end
 
 function slot0.UpdateSigned(slot0)
 	slot1 = slot0.data:getConfig("reward_need")
+	slot2 = slot0.usedtime
 	slot3 = slot0.ultimate == 0
 
 	for slot7, slot8 in ipairs(slot0.icons) do
-		setActive(slot8, slot7 <= slot0.usedtime)
+		setActive(slot8, slot7 <= slot2)
 	end
 end
 

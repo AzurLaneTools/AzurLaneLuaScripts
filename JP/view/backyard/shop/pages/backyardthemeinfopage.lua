@@ -67,8 +67,10 @@ function slot0.DormUpdated(slot0, slot1)
 end
 
 function slot0.FurnituresUpdated(slot0, slot1)
+	slot2 = slot0.dorm:GetAllFurniture()
+
 	for slot6, slot7 in ipairs(slot1) do
-		slot8 = slot0.dorm:GetAllFurniture()[slot7]
+		slot8 = slot2[slot7]
 
 		slot0:OnDisplayUpdated(slot8)
 		slot0:OnCardUpdated(slot8)
@@ -112,10 +114,11 @@ function slot0.UpdateRes(slot0)
 end
 
 function slot0.InitFurnitureList(slot0)
+	slot2 = slot0.dorm:GetAllFurniture()
 	slot0.displays = {}
 
 	for slot6, slot7 in ipairs(slot0.themeVO:GetFurnitures()) do
-		table.insert(slot0.displays, slot0.dorm:GetAllFurniture()[slot7] or Furniture.New({
+		table.insert(slot0.displays, slot2[slot7] or Furniture.New({
 			id = slot7
 		}))
 	end
@@ -168,9 +171,11 @@ function slot0.UpdateThemeInfo(slot0)
 end
 
 function slot0.UpdatePurchaseBtn(slot0)
-	slot2 = slot0.dorm:GetAllFurniture()
+	slot1 = slot0.themeVO
+	slot2 = slot0.dorm
+	slot2 = slot2:GetAllFurniture()
 
-	setActive(slot0.purchaseBtn, _.any(slot0.themeVO:GetFurnitures(), function (slot0)
+	setActive(slot0.purchaseBtn, _.any(slot1:GetFurnitures(), function (slot0)
 		return not uv0[slot0]
 	end))
 end

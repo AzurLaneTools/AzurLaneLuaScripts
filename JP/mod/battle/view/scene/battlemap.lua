@@ -30,13 +30,16 @@ function slot1.Ctor(slot0, slot1)
 			table.insert(slot0.mapLayerCtrls, slot9)
 		end
 
+		slot10 = string.split(slot2[slot7 .. "_pos"], ";")
+		slot11 = string.split(slot2[slot7 .. "_scale"], ";")
+
 		for slot15, slot16 in ipairs(slot0.GetMapResNames(slot1, slot7)) do
 			slot17 = uv1.Battle.BattleResourceManager.GetInstance():InstMap(slot16)
 
 			setParent(slot17, slot8, false)
 
-			tf(slot17).localPosition = string2vector3(string.split(slot2[slot7 .. "_pos"], ";")[slot15])
-			tf(slot17).localScale = string2vector3(string.split(slot2[slot7 .. "_scale"], ";")[slot15])
+			tf(slot17).localPosition = string2vector3(slot10[slot15])
+			tf(slot17).localScale = string2vector3(slot11[slot15])
 
 			if slot17:GetComponent(typeof(MeshRenderer)) then
 				slot19 = slot18.sharedMaterial
@@ -134,9 +137,11 @@ function slot1.setSpeedScaler(slot0, slot1)
 end
 
 function slot1.UpdateMapOffset(slot0)
+	slot2 = -0.0005 * uv0.Battle.BattleVariable.MapSpeedRatio
+
 	for slot6, slot7 in ipairs(slot0.materialList) do
 		slot8 = slot7.offset
-		slot8.x = slot8.x + -0.0005 * uv0.Battle.BattleVariable.MapSpeedRatio
+		slot8.x = slot8.x + slot2
 
 		slot7.material:SetTextureOffset("_SeaTex", slot8)
 	end

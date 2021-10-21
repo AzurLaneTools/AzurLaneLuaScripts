@@ -1,7 +1,9 @@
 slot0 = class("CancelCommonFlagCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(11021, {
+	slot4 = pg.ConnectionMgr.GetInstance()
+
+	slot4:Send(11021, {
 		flag_id = slot1:getBody().flagID
 	}, 11022, function (slot0)
 		if getProxy(PlayerProxy) then

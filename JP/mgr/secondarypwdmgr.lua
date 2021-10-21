@@ -15,11 +15,13 @@ function slot2()
 		return
 	end
 
+	slot0 = {
+		uv0.UNLOCK_SHIP,
+		uv0.RESOLVE_EQUIPMENT
+	}
+
 	if PLATFORM_CODE ~= PLATFORM_US then
-		table.insert({
-			uv0.UNLOCK_SHIP,
-			uv0.RESOLVE_EQUIPMENT
-		}, 2, uv0.UNLOCK_COMMANDER)
+		table.insert(slot0, 2, uv0.UNLOCK_COMMANDER)
 	end
 
 	if PLATFORM_CODE == PLATFORM_JP then

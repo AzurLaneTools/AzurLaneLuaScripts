@@ -35,7 +35,9 @@ function slot0.execute(slot0, slot1)
 		slot14 = uv0.FRAG_NORMAL_SHOP
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(16201, {
+	slot15 = pg.ConnectionMgr.GetInstance()
+
+	slot15:Send(16201, {
 		id = slot3,
 		type = slot14,
 		count = slot4

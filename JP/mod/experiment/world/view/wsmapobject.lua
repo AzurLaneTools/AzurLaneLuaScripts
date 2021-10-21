@@ -74,16 +74,20 @@ function slot0.FlushModelAction(slot0)
 end
 
 function slot0.PlayModelAction(slot0, slot1, slot2, slot3)
+	slot4 = {}
+
 	if slot0.model then
 		if slot0.modelType == WorldConst.ModelSpine then
 			if slot0.modelComps and slot0.modelComps[1] and slot5.transform.gameObject.activeInHierarchy then
-				table.insert({}, function (slot0)
+				table.insert(slot4, function (slot0)
 					uv0:SetAction(uv1, 0)
 
 					if uv2 then
 						uv3:NewActionTimer(uv2, slot0)
 					else
-						uv0:SetActionCallBack(function (slot0)
+						slot1 = uv0
+
+						slot1:SetActionCallBack(function (slot0)
 							if slot0 == "finish" then
 								uv0:SetActionCallBack(nil)
 								uv1()
@@ -101,7 +105,9 @@ function slot0.PlayModelAction(slot0, slot1, slot2, slot3)
 						if uv2 then
 							uv3:NewActionTimer(uv2, slot0)
 						else
-							uv3.modelComps[2]:SetEndEvent(function ()
+							slot1 = uv3.modelComps[2]
+
+							slot1:SetEndEvent(function ()
 								uv0:SetEndEvent(nil)
 								uv1()
 							end)
@@ -124,11 +130,12 @@ function slot0.LoadModel(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot0.modelResPath = slot2
 		slot0.modelResName = slot3
 		slot0.modelResAsync = defaultValue(slot4, true)
+		slot6 = {}
 
 		if slot0.modelType == WorldConst.ModelSpine then
 			slot0.modelAction = slot0.modelAction or WorldConst.ActionIdle
 
-			table.insert({}, function (slot0)
+			table.insert(slot6, function (slot0)
 				uv0:LoadSpine(slot0)
 			end)
 		elseif slot0.modelType == WorldConst.ModelPrefab then
@@ -185,7 +192,9 @@ function slot0.UnloadModel(slot0)
 end
 
 function slot0.LoadSpine(slot0, slot1)
-	PoolMgr.GetInstance():GetSpineChar(slot0.modelResPath, slot0.modelResAsync, function (slot0)
+	slot4 = PoolMgr.GetInstance()
+
+	slot4:GetSpineChar(slot0.modelResPath, slot0.modelResAsync, function (slot0)
 		if uv0.modelType ~= WorldConst.ModelSpine or uv0.modelResPath ~= uv1 then
 			PoolMgr.GetInstance():ReturnSpineChar(uv1, slot0)
 
@@ -209,7 +218,9 @@ function slot0.LoadSpine(slot0, slot1)
 end
 
 function slot0.LoadPrefab(slot0, slot1)
-	PoolMgr.GetInstance():GetPrefab(slot0.modelResPath, slot0.modelResName, slot0.modelResAsync, function (slot0)
+	slot5 = PoolMgr.GetInstance()
+
+	slot5:GetPrefab(slot0.modelResPath, slot0.modelResName, slot0.modelResAsync, function (slot0)
 		if uv0.modelType ~= WorldConst.ModelPrefab or uv0.modelResPath ~= uv1 or uv0.modelResName ~= uv2 then
 			PoolMgr.GetInstance():ReturnPrefab(uv1, uv2, slot0, true)
 

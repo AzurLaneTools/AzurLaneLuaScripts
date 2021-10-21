@@ -2,10 +2,11 @@ slot0 = class("BuyFurnitureCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot4 = slot2.type
 	slot5 = getProxy(DormProxy)
 	slot7 = getProxy(PlayerProxy):getData()
 
-	if #slot2.furnitureIds == 0 or not slot2.type then
+	if #slot2.furnitureIds == 0 or not slot4 then
 		return
 	end
 
@@ -32,7 +33,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	function slot9()
-		pg.ConnectionMgr.GetInstance():Send(19006, {
+		slot0 = pg.ConnectionMgr.GetInstance()
+
+		slot0:Send(19006, {
 			furniture_id = uv0,
 			currency = uv1
 		}, 19007, function (slot0)

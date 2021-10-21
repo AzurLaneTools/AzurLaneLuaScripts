@@ -38,15 +38,16 @@ function slot0.register(slot0)
 
 		uv0.course:update(slot0.class)
 
+		slot4 = {}
+
 		for slot8, slot9 in ipairs(slot0.skill_class_list) do
 			slot10 = Student.New(slot9)
+			slot4[slot10.id] = slot10
 		end
 
 		uv0.skillClassNum = LOCK_CLASSROOM and 2 or slot0.skill_class_num or 2
 
-		uv0:setStudents({
-			[slot10.id] = slot10
-		})
+		uv0:setStudents(slot4)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inClass")
 		uv0:CheckResFields()
 	end)
@@ -250,15 +251,17 @@ function slot0.AddCourseProficiency(slot0, slot1)
 end
 
 function slot0.fillStudens(slot0, slot1)
-	slot3 = {
-		[slot8.groupId] = true
-	}
+	slot2 = pg.gameset.academy_random_ship_count.key_value
+	slot3 = {}
 
 	for slot7, slot8 in pairs(slot1) do
-		slot2 = pg.gameset.academy_random_ship_count.key_value - 1
+		slot3[slot8.groupId] = true
+		slot2 = slot2 - 1
 	end
 
-	if not slot0._timeStamp or pg.gameset.academy_random_ship_coldtime.key_value < os.time() - slot0._timeStamp then
+	slot4 = pg.gameset.academy_random_ship_coldtime.key_value
+
+	if not slot0._timeStamp or slot4 < os.time() - slot0._timeStamp then
 		slot0._studentsFiller = nil
 	end
 
@@ -323,8 +326,10 @@ function slot0.IsShowTip(slot0)
 		return true
 	end
 
+	slot3 = pg.TimeMgr.GetInstance():GetServerTime()
+
 	for slot7, slot8 in pairs(slot0.students) do
-		if slot8:getFinishTime() <= pg.TimeMgr.GetInstance():GetServerTime() then
+		if slot8:getFinishTime() <= slot3 then
 			return true
 		end
 	end
@@ -334,8 +339,9 @@ function slot0.IsShowTip(slot0)
 	end
 
 	slot6 = getProxy(TaskProxy)
+	slot8 = getProxy(ActivityProxy)
 
-	if _.any(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
+	if _.any(slot8:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
 		slot2 = slot0:getTaskShip() and uv0:getAcademyTask(slot1.groupId) or nil
 		slot3 = uv0:getTaskById(slot2)
 

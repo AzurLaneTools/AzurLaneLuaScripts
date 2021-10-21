@@ -139,11 +139,15 @@ function slot0.doRepairProgressPanelAni(slot0)
 	slot2 = GetComponent(slot0.repairSliderTF, typeof(Slider))
 	slot2.minValue = 0
 	slot2.maxValue = 1
+	slot3 = slot2.value
 
 	if slot0.curMetaCharacterVO:getRepairRate() > 0 then
-		slot0:managedTween(LeanTween.value, nil, go(slot0.repairSliderTF), slot2.value, slot1, 0.5):setOnUpdate(System.Action_float(function (slot0)
+		slot5 = slot0:managedTween(LeanTween.value, nil, go(slot0.repairSliderTF), slot3, slot1, 0.5)
+		slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
 			uv0:updateRepairProgressPanel(slot0)
-		end)):setOnComplete(System.Action(function ()
+		end))
+
+		slot5:setOnComplete(System.Action(function ()
 			uv0:updateRepairProgressPanel(uv1)
 		end))
 	else
@@ -165,10 +169,14 @@ function slot0.updateAttrListPanel(slot0)
 end
 
 function slot0.updateAttrItem(slot0, slot1, slot2)
+	slot3 = slot0:findTF("LockPanel", slot1)
+	slot4 = slot0:findTF("UnSelectPanel", slot1)
+	slot5 = slot0:findTF("SelectedPanel", slot1)
+
 	if slot0.curMetaCharacterVO:getAttrVO(slot2):isLock() then
-		setActive(slot0:findTF("UnSelectPanel", slot1), false)
-		setActive(slot0:findTF("SelectedPanel", slot1), false)
-		setActive(slot0:findTF("LockPanel", slot1), true)
+		setActive(slot4, false)
+		setActive(slot5, false)
+		setActive(slot3, true)
 
 		slot1:GetComponent("Toggle").interactable = false
 	else
@@ -261,12 +269,14 @@ function slot0.updateDetailItem(slot0, slot1, slot2)
 	slot13 = UIItemList.New(slot0:findTF("LineContainer", slot1), slot0.detailLineTpl)
 
 	slot13:make(function (slot0, slot1, slot2)
+		slot3 = uv0:findTF("AttrLine", slot2)
+		slot4 = uv0:findTF("UnlockTipLine", slot2)
 		slot5 = uv0:findTF("Text", slot2)
 
 		if slot0 == UIItemList.EventUpdate then
 			if slot1 + 1 == 1 then
-				setActive(uv0:findTF("AttrLine", slot2), false)
-				setActive(uv0:findTF("UnlockTipLine", slot2), false)
+				setActive(slot3, false)
+				setActive(slot4, false)
 				setActive(slot5, true)
 				setText(slot5, i18n("meta_repair_effect_unlock", uv1))
 
@@ -313,9 +323,11 @@ end
 
 function slot0.checkSpecialEffect(slot0)
 	slot2 = slot0.bayProxy:getShipById(slot0.curMetaShipID):getMetaCharacter()
+	slot3 = slot2:getRepairRate() * 100
+	slot4 = slot0.curMetaCharacterVO:getRepairRate() * 100
 
 	for slot9, slot10 in ipairs(slot2:getEffects()) do
-		if slot0.curMetaCharacterVO:getRepairRate() * 100 < slot10.progress and slot11 <= slot2:getRepairRate() * 100 then
+		if slot4 < slot10.progress and slot11 <= slot3 then
 			slot0:openRepairEffectBoxPanel(slot10)
 
 			break
@@ -335,11 +347,12 @@ function slot0.openRepairEffectBoxPanel(slot0, slot1)
 	slot12 = UIItemList.New(slot10, slot0:findTF("DetailLineTpl", slot10))
 
 	slot12:make(function (slot0, slot1, slot2)
+		slot3 = uv0:findTF("AttrLine", slot2)
 		slot4 = uv0:findTF("UnlockTipLine", slot2)
 
 		if slot0 == UIItemList.EventUpdate then
 			if slot1 + 1 == 1 then
-				setActive(uv0:findTF("AttrLine", slot2), false)
+				setActive(slot3, false)
 				setActive(slot4, true)
 				setScrollText(uv0:findTF("Text", slot4), i18n("meta_repair_effect_special", uv1))
 			elseif slot1 > 1 and slot1 <= 1 + uv2 then
@@ -373,17 +386,22 @@ end
 
 function slot0.openDetailPanel(slot0)
 	setActive(slot0.detailPanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.detailPanel, false, {
+
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:BlurPanel(slot0.detailPanel, false, {
 		weight = LayerWeightConst.TOP_LAYER
 	})
 
 	slot0.isOpening = true
-
-	slot0:managedTween(LeanTween.value, nil, go(slot0.detailTF), slot0.detailTF.rect.width, 0, 0.3):setOnUpdate(System.Action_float(function (slot0)
+	slot1 = slot0:managedTween(LeanTween.value, nil, go(slot0.detailTF), slot0.detailTF.rect.width, 0, 0.3)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setAnchoredPosition(uv0.detailTF, {
 			x = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		uv0.isOpening = nil
 	end))
 end
@@ -394,12 +412,14 @@ function slot0.closeDetailPanel(slot0)
 	end
 
 	slot0.isClosing = true
-
-	slot0:managedTween(LeanTween.value, nil, go(slot0.detailTF), 0, slot0.detailTF.rect.width, 0.3):setOnUpdate(System.Action_float(function (slot0)
+	slot1 = slot0:managedTween(LeanTween.value, nil, go(slot0.detailTF), 0, slot0.detailTF.rect.width, 0.3)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setAnchoredPosition(uv0.detailTF, {
 			x = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		uv0.isClosing = nil
 
 		setActive(uv0.detailPanel, false)

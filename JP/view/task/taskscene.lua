@@ -101,14 +101,17 @@ function slot0.IsNewStyleTime()
 end
 
 function slot0.IsPassScenario()
-	if #_.select(_.values(getProxy(TaskProxy):getData()), function (slot0)
+	slot0 = pg.gameset.task_first_daily_pre_id.key_value
+	slot1 = getProxy(TaskProxy)
+
+	if #_.select(_.values(slot1:getData()), function (slot0)
 		return slot0:getConfig("type") == 1
 	end) > 0 then
 		table.sort(slot2, function (slot0, slot1)
 			return slot0.id < slot1.id
 		end)
 
-		return pg.gameset.task_first_daily_pre_id.key_value < slot2[1].id
+		return slot0 < slot2[1].id
 	else
 		return true
 	end
@@ -178,7 +181,9 @@ function slot0.UpdatePage(slot0, slot1)
 		slot0.pages[slot0._currentToggleType]:ExecuteAction("Hide")
 	end
 
-	slot0.pages[slot1]:ExecuteAction("Update", slot1, slot2, function (slot0)
+	slot4 = slot0.pages[slot1]
+
+	slot4:ExecuteAction("Update", slot1, slot2, function (slot0)
 		uv0(uv1, slot0)
 	end)
 

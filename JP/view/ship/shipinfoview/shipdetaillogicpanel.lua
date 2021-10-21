@@ -20,9 +20,9 @@ slot2 = {
 	us = {
 		prop_ignore = {
 			luck = {
-				137,
+				134,
 				-260,
-				151,
+				147,
 				-260
 			}
 		},
@@ -247,25 +247,31 @@ function slot0.updateShipAttrs(slot0)
 
 	for slot12 = 1, #slot7.sort_index do
 		slot13 = slot8[slot12]
+		slot14 = findTF(slot0.attrs, "props/" .. slot13)
+		slot15 = findTF(slot0.attrs, "icons/" .. slot13)
 
-		findTF(slot0.attrs, "props/" .. slot13):SetSiblingIndex(slot12 - 1)
-		findTF(slot0.attrs, "icons/" .. slot13):SetSiblingIndex(slot12 - 1)
+		if pg.gametip["attr_" .. slot13].tip and string.len(slot16) > 0 and slot13 ~= "armor" then
+			setText(findTF(slot15, "name"), slot16)
+		end
+
+		slot14:SetSiblingIndex(slot12 - 1)
+		slot15:SetSiblingIndex(slot12 - 1)
 	end
 
-	for slot13, slot14 in pairs(slot7.prop_ignore) do
-		slot15 = findTF(slot0.attrs, "props/" .. slot13)
-		slot16 = findTF(slot0.attrs, "icons/" .. slot13)
-		GetOrAddComponent(slot15, typeof(LayoutElement)).ignoreLayout = true
+	for slot13 = 1, #slot7.hide do
+		slot14 = slot9[slot13]
+
+		setActive(findTF(slot0.attrs, "props/" .. slot14), false)
+		setActive(findTF(slot0.attrs, "icons/" .. slot14), false)
+	end
+
+	for slot14, slot15 in pairs(slot7.prop_ignore) do
+		slot16 = findTF(slot0.attrs, "props/" .. slot14)
+		slot17 = findTF(slot0.attrs, "icons/" .. slot14)
 		GetOrAddComponent(slot16, typeof(LayoutElement)).ignoreLayout = true
-		slot15.anchoredPosition = Vector2(slot14[3], slot14[4])
-		slot16.anchoredPosition = Vector2(slot14[1], slot14[2])
-	end
-
-	for slot14 = 1, #slot7.hide do
-		slot15 = slot10[slot14]
-
-		setActive(findTF(slot0.attrs, "props/" .. slot15), false)
-		setActive(findTF(slot0.attrs, "icons/" .. slot15), false)
+		GetOrAddComponent(slot17, typeof(LayoutElement)).ignoreLayout = true
+		Vector2(slot16.anchoredPosition.x, slot16.anchoredPosition.y).anchoredPosition = Vector2(slot15[3], slot15[4])
+		Vector2(slot17.anchoredPosition.x, slot17.anchoredPosition.y).anchoredPosition = Vector2(slot15[1], slot15[2])
 	end
 
 	slot0:updateEvalues()

@@ -73,8 +73,9 @@ end
 
 function slot0.OnInit(slot0)
 	slot0.resPanel = PlayerResource.New()
+	slot1 = slot0.resPanel
 
-	slot0.resPanel:setParent(slot0._tf, false)
+	slot1:setParent(slot0._tf, false)
 	onButton(slot0, slot0.helpBtn, function ()
 		table.sort(uv0.activitys, function (slot0, slot1)
 			return slot0:getStartTime() < slot1:getStartTime()

@@ -74,19 +74,21 @@ function slot0.addExpireTimer(slot0, slot1)
 		return
 	end
 
-	if slot1:getExpireTime() - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-		(function ()
-			table.insert(uv0.cacheSkins, uv1)
-			uv0:removeSkinById(uv1.id)
-			_.each(getProxy(BayProxy):getShips(), function (slot0)
-				if slot0.skinId == uv0.id then
-					slot0.skinId = slot0:getConfig("skin_id")
+	function slot2()
+		table.insert(uv0.cacheSkins, uv1)
+		uv0:removeSkinById(uv1.id)
+		_.each(getProxy(BayProxy):getShips(), function (slot0)
+			if slot0.skinId == uv0.id then
+				slot0.skinId = slot0:getConfig("skin_id")
 
-					uv1:updateShip(slot0)
-				end
-			end)
-			uv0:sendNotification(GAME.SHIP_SKIN_EXPIRED)
-		end)()
+				uv1:updateShip(slot0)
+			end
+		end)
+		uv0:sendNotification(GAME.SHIP_SKIN_EXPIRED)
+	end
+
+	if slot1:getExpireTime() - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
+		slot2()
 	else
 		slot0.timers[slot1.id] = Timer.New(slot2, slot3, 1)
 
@@ -152,25 +154,31 @@ function slot0.remove(slot0)
 end
 
 function slot0.GetAllSkins(slot0)
+	slot1 = {}
+
+	function slot2(slot0)
+		slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
+	end
+
 	for slot6, slot7 in ipairs(pg.shop_template.all) do
 		if pg.shop_template[slot7].genre == ShopArgs.SkinShop or slot8 == ShopArgs.SkinShopTimeLimit then
-			(function (slot0)
-				slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
-			end)(Goods.Create({
+			slot2(Goods.Create({
 				shop_id = slot7
 			}, Goods.TYPE_SKIN))
 
 			slot10, slot11 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot7].time)
 
 			if slot10 then
-				table.insert({}, slot9)
+				table.insert(slot1, slot9)
 			end
 		end
 	end
 
+	slot3 = getProxy(ActivityProxy)
+
 	for slot7, slot8 in ipairs(pg.activity_shop_extra.all) do
 		if pg.activity_shop_extra[slot8].commodity_type == DROP_TYPE_SKIN then
-			slot10 = getProxy(ActivityProxy):getActivityById(slot9.activity)
+			slot10 = slot3:getActivityById(slot9.activity)
 
 			if slot9.activity == 0 and pg.TimeMgr.GetInstance():inTime(slot9.time) or slot10 and not slot10:isEnd() then
 				slot11 = Goods.Create({
@@ -216,8 +224,10 @@ function slot0.GetAllSkinForShip(slot0, slot1)
 	end
 
 	if pg.ship_data_trans[slot2] and not slot1:isRemoulded() then
+		slot4 = ShipGroup.GetGroupConfig(slot2).trans_skin
+
 		for slot8 = #slot3, 1, -1 do
-			if slot3[slot8].id == ShipGroup.GetGroupConfig(slot2).trans_skin then
+			if slot3[slot8].id == slot4 then
 				table.remove(slot3, slot8)
 
 				break
@@ -238,8 +248,10 @@ function slot0.GetAllSkinForShip(slot0, slot1)
 	end
 
 	if PLATFORM_CODE == PLATFORM_CH then
+		slot4 = pg.gameset.big_seven_old_skin_timestamp.key_value
+
 		for slot8 = #slot3, 1, -1 do
-			if slot3[slot8].skin_type == ShipSkin.SKIN_TYPE_OLD and pg.gameset.big_seven_old_skin_timestamp.key_value < slot1.createTime then
+			if slot3[slot8].skin_type == ShipSkin.SKIN_TYPE_OLD and slot4 < slot1.createTime then
 				table.remove(slot3, slot8)
 			end
 		end

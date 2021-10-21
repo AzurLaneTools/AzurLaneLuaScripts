@@ -18,7 +18,8 @@ function slot0.initBtn(slot0)
 		end
 	end
 
-	slot2 = slot0.activity:getConfig("config_client")
+	slot2 = slot0.activity
+	slot2 = slot2:getConfig("config_client")
 	slot3 = {
 		task = function (slot0)
 			onButton(uv0, slot0, function ()
@@ -34,7 +35,8 @@ function slot0.initBtn(slot0)
 			end)
 		end,
 		shop = function (slot0)
-			slot1 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+			slot2 = getProxy(ActivityProxy)
+			slot1 = _.detect(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
 				return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
 			end)
 

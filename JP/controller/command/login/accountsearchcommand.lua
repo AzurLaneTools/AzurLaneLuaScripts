@@ -9,10 +9,16 @@ function slot0.execute(slot0, slot1)
 
 	for slot12, slot13 in pairs(getProxy(ServerProxy).data) do
 		table.insert(slot8, function (slot0)
+			slot1 = uv0
+			slot2 = uv0
 			slot3 = nil
+			slot4 = pg.SimpleConnectionMgr.GetInstance()
 
-			pg.SimpleConnectionMgr.GetInstance():Disconnect()
-			pg.SimpleConnectionMgr.GetInstance():SetErrorCB(function ()
+			slot4:Disconnect()
+
+			slot4 = pg.SimpleConnectionMgr.GetInstance()
+
+			slot4:SetErrorCB(function ()
 				if not uv0 then
 					uv1({
 						id = uv2.id
@@ -20,8 +26,13 @@ function slot0.execute(slot0, slot1)
 					uv3()
 				end
 			end)
-			pg.SimpleConnectionMgr.GetInstance():Connect(uv0:getHost(), uv0:getPort(), function ()
-				pg.SimpleConnectionMgr.GetInstance():Send(10026, {
+
+			slot4 = pg.SimpleConnectionMgr.GetInstance()
+
+			slot4:Connect(slot1:getHost(), slot2:getPort(), function ()
+				slot0 = pg.SimpleConnectionMgr.GetInstance()
+
+				slot0:Send(10026, {
 					account_id = uv0.uid
 				}, 10027, function (slot0)
 					if slot0.user_id and slot0.user_id ~= 0 and slot0.level and slot0.level > 0 then

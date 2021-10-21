@@ -87,8 +87,10 @@ function slot0.UpdateGuild(slot0, slot1)
 end
 
 function slot0.RefreshMission(slot0, slot1)
+	slot2 = slot0.activeEvent:GetMissionById(slot1)
+
 	if slot0.eventPage and slot0.eventPage:GetLoaded() then
-		slot0.eventPage:OnRefreshNode(slot0.activeEvent, slot0.activeEvent:GetMissionById(slot1))
+		slot0.eventPage:OnRefreshNode(slot0.activeEvent, slot2)
 	end
 
 	if slot0.missionInfoPage and slot0.missionInfoPage:GetLoaded() then
@@ -101,8 +103,10 @@ function slot0.RefreshMission(slot0, slot1)
 end
 
 function slot0.RefreshBossMission(slot0, slot1)
+	slot2 = slot0.activeEvent:GetBossMission()
+
 	if slot0.eventPage and slot0.eventPage:GetLoaded() then
-		slot0.eventPage:OnRefreshNode(slot0.activeEvent, slot0.activeEvent:GetBossMission())
+		slot0.eventPage:OnRefreshNode(slot0.activeEvent, slot2)
 	end
 
 	if slot0.missionBossPage and slot0.missionBossPage:GetLoaded() then
@@ -112,15 +116,19 @@ function slot0.RefreshBossMission(slot0, slot1)
 end
 
 function slot0.OnBossRankUpdate(slot0)
+	slot1 = slot0.activeEvent:GetBossMission()
+
 	if slot0.missionBossPage and slot0.missionBossPage:GetLoaded() then
-		slot0.missionBossPage:UpdateMission(slot0.activeEvent:GetBossMission())
+		slot0.missionBossPage:UpdateMission(slot1)
 		slot0.missionBossPage:UpdateRank()
 	end
 end
 
 function slot0.OnBossMissionFormationChanged(slot0)
+	slot1 = slot0.activeEvent:GetBossMission()
+
 	if slot0.missionBossPage and slot0.missionBossPage:GetLoaded() then
-		slot0.missionBossPage:UpdateMission(slot0.activeEvent:GetBossMission())
+		slot0.missionBossPage:UpdateMission(slot1)
 	end
 
 	if slot0.missBossForamtionPage and slot0.missBossForamtionPage:GetLoaded() then

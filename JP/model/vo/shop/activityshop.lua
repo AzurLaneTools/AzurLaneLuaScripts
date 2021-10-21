@@ -2,12 +2,10 @@ slot0 = class("ActivityShop", import(".BaseShop"))
 
 function slot0.Ctor(slot0, slot1)
 	slot0.activityId = slot1.id
-	slot2 = {
-		[slot7] = slot1.data2_list[slot6]
-	}
+	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1.data1_list) do
-		-- Nothing
+		slot2[slot7] = slot1.data2_list[slot6]
 	end
 
 	slot0.goods = {}

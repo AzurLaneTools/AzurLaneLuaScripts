@@ -60,9 +60,11 @@ end
 function slot0.UpdateSelected(slot0, slot1)
 	uv0.super.UpdateSelected(slot0, slot1)
 
+	slot3 = slot1 and slot1.id == slot0.themeVO.id and 0 or 33
+
 	if not IsNil(slot0.mask) then
 		setAnchoredPosition(slot0.mask, {
-			y = slot1 and slot1.id == slot0.themeVO.id and 0 or 33
+			y = slot3
 		})
 	end
 end

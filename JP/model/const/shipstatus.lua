@@ -452,8 +452,11 @@ function slot0.ShipStatusCheck(slot0, slot1, slot2, slot3)
 end
 
 function slot0.ShipStatusConflict(slot0, slot1, slot2)
+	slot3 = uv0[slot0]
+	slot2 = slot2 or {}
+
 	for slot7, slot8 in ipairs(uv1.flagList) do
-		if uv0[slot0][slot8] == uv1.STATE_CHANGE_FAIL and slot1:getFlag(slot8, (slot2 or {})[slot8]) then
+		if slot3[slot8] == uv1.STATE_CHANGE_FAIL and slot1:getFlag(slot8, slot2[slot8]) then
 			return uv1.STATE_CHANGE_FAIL, uv2[slot8].tips_block
 		end
 	end

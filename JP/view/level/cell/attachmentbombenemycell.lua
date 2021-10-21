@@ -22,8 +22,9 @@ function slot0.Update(slot0)
 		slot0:ClearLoader()
 
 		slot3 = pg.specialunit_template[slot1.attachmentId]
+		slot4 = slot0:GetLoader()
 
-		slot0:GetLoader():GetPrefab("leveluiview/Tpl_Enemy", "Tpl_Enemy", function (slot0)
+		slot4:GetPrefab("leveluiview/Tpl_Enemy", "Tpl_Enemy", function (slot0)
 			setParent(slot0, uv0.tf)
 
 			tf(slot0).anchoredPosition = Vector2(0, 10)
@@ -45,8 +46,9 @@ function slot0.Update(slot0)
 		slot0:ClearLoader()
 
 		slot3 = pg.land_based_template[slot1.attachmentId]
+		slot4 = slot0:GetLoader()
 
-		slot0:GetLoader():GetPrefab("leveluiview/Tpl_Dead", "Tpl_Dead", function (slot0)
+		slot4:GetPrefab("leveluiview/Tpl_Dead", "Tpl_Dead", function (slot0)
 			setParent(slot0, uv0.tf)
 
 			tf(slot0).anchoredPosition = Vector2(0, 10)

@@ -61,11 +61,13 @@ end
 
 function slot0.GetEquipTraceBack(slot0, slot1, slot2, slot3)
 	slot4 = slot0.data
+	slot2 = slot2 or {
+		slot1
+	}
+	slot3 = slot3 or {}
 
 	if #EquipmentProxy.GetTransformSources(slot1) == 0 then
-		table.insert(slot3 or {}, slot2 or {
-			slot1
-		})
+		table.insert(slot3, slot2)
 	end
 
 	for slot9, slot10 in ipairs(slot5) do
@@ -144,7 +146,9 @@ function slot0.AddEquipment(slot0, slot1)
 end
 
 function slot0.RemoveEquipment(slot0, slot1)
-	if not slot1 or not slot0.data[slot1.id] then
+	slot2 = slot0.data
+
+	if not slot1 or not slot2[slot1.id] then
 		return
 	end
 

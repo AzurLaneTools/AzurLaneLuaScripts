@@ -83,35 +83,56 @@ function slot0.init(slot0)
 	slot0._closeBtn = slot0:findTF("top/back")
 	slot0._homeBtn = slot0:findTF("top/home")
 	slot0._helpBtn = slot0:findTF("top/help")
-	slot0.ticketTimes = slot0.top:Find("ticket/text")
-	slot0.yinhuace = slot0.top:Find("yinhuace")
-	slot0.yinhuaceTimes = slot0.yinhuace:Find("get")
-	slot0.yinhuaceTips = slot0.yinhuace:Find("tip")
-	slot0.shouce = slot0.top:Find("yinhuashouceye")
-	slot0.shouce_bg = slot0.shouce:Find("bg")
-	slot0.layout_shouce = slot0.shouce:Find("yinhuace/go/layout")
+	slot1 = slot0.top
+	slot0.ticketTimes = slot1:Find("ticket/text")
+	slot1 = slot0.top
+	slot0.yinhuace = slot1:Find("yinhuace")
+	slot1 = slot0.yinhuace
+	slot0.yinhuaceTimes = slot1:Find("get")
+	slot1 = slot0.yinhuace
+	slot0.yinhuaceTips = slot1:Find("tip")
+	slot1 = slot0.top
+	slot0.shouce = slot1:Find("yinhuashouceye")
+	slot1 = slot0.shouce
+	slot0.shouce_bg = slot1:Find("bg")
+	slot1 = slot0.shouce
+	slot0.layout_shouce = slot1:Find("yinhuace/go/layout")
 	slot0.group_get = slot0:Clone2Full(slot0.layout_shouce, 14)
-	slot0.btn_receive = slot0.shouce:Find("yinhuace/receive")
-	slot0.btn_shouce_help = slot0.shouce:Find("yinhuace/help")
-	slot0.img_get = slot0.shouce:Find("yinhuace/get")
+	slot1 = slot0.shouce
+	slot0.btn_receive = slot1:Find("yinhuace/receive")
+	slot1 = slot0.shouce
+	slot0.btn_shouce_help = slot1:Find("yinhuace/help")
+	slot1 = slot0.shouce
+	slot0.img_get = slot1:Find("yinhuace/get")
 
 	setActive(slot0.shouce, false)
 
 	slot0.sakura = slot0:findTF("effect")
 	slot0._map = slot0:findTF("scrollRect/map")
-	slot0.wave = slot0._map:Find("effect_wave")
-	slot0.shrine = slot0._map:Find("shrine")
-	slot0.snack_street = slot0._map:Find("snack_street")
-	slot0.entertainment_street = slot0._map:Find("entertainment_street")
-	slot0.firework_factory = slot0._map:Find("firework_factory")
-	slot0.btn_fire = slot0.firework_factory:Find("fire")
-	slot0.bottom = slot0._map:Find("bottom")
-	slot0.middle = slot0._map:Find("middle")
-	slot0.front = slot0._map:Find("front")
-	slot0._shipTpl = slot0._map:Find("ship")
+	slot1 = slot0._map
+	slot0.wave = slot1:Find("effect_wave")
+	slot1 = slot0._map
+	slot0.shrine = slot1:Find("shrine")
+	slot1 = slot0._map
+	slot0.snack_street = slot1:Find("snack_street")
+	slot1 = slot0._map
+	slot0.entertainment_street = slot1:Find("entertainment_street")
+	slot1 = slot0._map
+	slot0.firework_factory = slot1:Find("firework_factory")
+	slot1 = slot0.firework_factory
+	slot0.btn_fire = slot1:Find("fire")
+	slot1 = slot0._map
+	slot0.bottom = slot1:Find("bottom")
+	slot1 = slot0._map
+	slot0.middle = slot1:Find("middle")
+	slot1 = slot0._map
+	slot0.front = slot1:Find("front")
+	slot1 = slot0._map
+	slot0._shipTpl = slot1:Find("ship")
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.SummerFeastGraph"))
+	slot1 = pg.PoolMgr.GetInstance()
 
-	pg.PoolMgr.GetInstance():GetPrefab("ui/firework", "", true, function (slot0)
+	slot1:GetPrefab("ui/firework", "", true, function (slot0)
 		pg.PoolMgr.GetInstance():ReturnPrefab("ui/firework", "", slot0)
 	end)
 
@@ -228,7 +249,9 @@ function slot0.PlayFirework(slot0, slot1)
 	for slot7, slot8 in pairs({
 		Vector2(215, 150)
 	}) do
-		pg.PoolMgr.GetInstance():GetPrefab("ui/firework", "", false, function (slot0)
+		slot9 = pg.PoolMgr.GetInstance()
+
+		slot9:GetPrefab("ui/firework", "", false, function (slot0)
 			slot2 = tf(slot0):Find("Fire"):GetComponent("ParticleSystem").main.startColor
 			tf(slot0):Find("Fire"):GetComponent("ParticleSystem").main.startColor = uv0(uv1.TransformColor(uv2[uv3[1]].color))
 			tf(slot0):Find("Fire/par_small"):GetComponent("ParticleSystem").main.startColor = uv0(uv1.TransformColor(uv2[uv3[2]].color))
@@ -287,8 +310,10 @@ function slot0.StopSE(slot0)
 end
 
 function slot0.getStudents(slot0)
+	slot1 = {}
+
 	if not getProxy(ActivityProxy):getActivityById(ActivityConst.SUMMER_FEAST_ID) then
-		return {}
+		return slot1
 	end
 
 	if slot3:getConfig("config_client") and slot4.ships then
@@ -394,10 +419,11 @@ function slot0.clearStudents(slot0)
 end
 
 function slot0.Clone2Full(slot0, slot1, slot2)
+	slot3 = {}
 	slot4 = slot1:GetChild(0)
 
 	for slot9 = 0, slot1.childCount - 1 do
-		table.insert({}, slot1:GetChild(slot9))
+		table.insert(slot3, slot1:GetChild(slot9))
 	end
 
 	for slot9 = slot5, slot2 - 1 do

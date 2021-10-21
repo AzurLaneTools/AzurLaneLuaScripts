@@ -173,8 +173,10 @@ function slot1.CTimeDescC(slot0, slot1, slot2)
 end
 
 function slot1.STimeDescC(slot0, slot1, slot2, slot3)
+	slot2 = slot2 or "%Y/%m/%d %H:%M:%S"
+
 	if slot3 then
-		return os.date(slot2 or "%Y/%m/%d %H:%M:%S", slot1 + os.time() - slot0:GetServerTime())
+		return os.date(slot2, slot1 + os.time() - slot0:GetServerTime())
 	else
 		return os.date(slot2, slot1)
 	end
@@ -328,19 +330,21 @@ function slot1.inTime(slot0, slot1)
 		}
 	end
 
+	function slot2(slot0)
+		return {
+			year = slot0[1][1],
+			month = slot0[1][2],
+			day = slot0[1][3],
+			hour = slot0[2][1],
+			min = slot0[2][2],
+			sec = slot0[2][3]
+		}
+	end
+
 	slot3 = nil
 
 	if #slot1 > 0 then
-		slot3 = (function (slot0)
-			return {
-				year = slot0[1][1],
-				month = slot0[1][2],
-				day = slot0[1][3],
-				hour = slot0[2][1],
-				min = slot0[2][2],
-				sec = slot0[2][3]
-			}
-		end)(slot1[1] or {
+		slot3 = slot2(slot1[1] or {
 			{
 				2000,
 				1,

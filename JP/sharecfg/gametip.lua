@@ -16211,5 +16211,80 @@ cs.gametip = {
 		604417,
 		99,
 		true
+	},
+	attr_durability = {
+		604516,
+		76,
+		true
+	},
+	attr_armor = {
+		604592,
+		71,
+		true
+	},
+	attr_reload = {
+		604663,
+		72,
+		true
+	},
+	attr_cannon = {
+		604735,
+		72,
+		true
+	},
+	attr_torpedo = {
+		604807,
+		73,
+		true
+	},
+	attr_motion = {
+		604880,
+		72,
+		true
+	},
+	attr_antiaircraft = {
+		604952,
+		78,
+		true
+	},
+	attr_air = {
+		605030,
+		69,
+		true
+	},
+	attr_hit = {
+		605099,
+		69,
+		true
+	},
+	attr_antisub = {
+		605168,
+		73,
+		true
+	},
+	attr_oxy_max = {
+		605241,
+		76,
+		true
+	},
+	attr_ammo = {
+		605317,
+		73,
+		true
+	},
+	attr_hunting_range = {
+		605390,
+		85,
+		true
+	},
+	attr_luck = {
+		605475,
+		67,
+		true
+	},
+	attr_consume = {
+		605542,
+		73,
+		true
 	}
 }

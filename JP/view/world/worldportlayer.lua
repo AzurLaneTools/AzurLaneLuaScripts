@@ -61,7 +61,8 @@ function slot0.init(slot0)
 	setText(slot0.rtTopRight:Find("display_panel/title/title"), i18n("world_map_title_tips"))
 	setText(slot0.rtTopRight:Find("display_panel/title/title_en"), i18n("world_map_title_tips_en"))
 
-	slot0.rtTopBottom = slot0.rtTop:Find("bottom_stage")
+	slot1 = slot0.rtTop
+	slot0.rtTopBottom = slot1:Find("bottom_stage")
 	slot0.rtButtons = slot0:findTF("btn", slot0.rtTopBottom)
 	slot0.buttons = {
 		slot0.rtButtons:Find("operation"),
@@ -87,7 +88,9 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:BlurPanel(slot0._tf, {
 		groupName = slot0:getGroupNameFromData()
 	})
 
@@ -97,7 +100,9 @@ function slot0.didEnter(slot0)
 		end
 
 		if uv0.port:IsTempPort() or uv0.page == uv1.PageMain then
-			uv0:EaseOutUI(function ()
+			slot0 = uv0
+
+			slot0:EaseOutUI(function ()
 				uv0:closeView()
 			end)
 		else
@@ -208,11 +213,12 @@ function slot0.RecyclePainting(slot0, slot1)
 	if slot1:Find("fitter").childCount > 0 then
 		for slot6 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
 			slot7 = slot2[slot6]
+			slot8 = Color.white
 
 			if slot7.material ~= slot7.defaultGraphicMaterial then
 				slot7.material = slot7.defaultGraphicMaterial
 
-				slot7.material:SetColor("_Color", Color.white)
+				slot7.material:SetColor("_Color", slot8)
 			end
 		end
 
@@ -265,13 +271,17 @@ end
 
 function slot0.EaseInUI(slot0, slot1)
 	slot0.isTweening = true
+	slot2 = {}
 
 	slot0:CancelUITween()
 
 	if #slot0.enterIcon > 0 and not slot0.contextData.isEnter then
-		table.insert({}, function (slot0)
+		table.insert(slot2, function (slot0)
 			setActive(uv0.rtTop, false)
-			uv0:EnterPortAnim(function ()
+
+			slot1 = uv0
+
+			slot1:EnterPortAnim(function ()
 				setActive(uv0.rtTop, true)
 
 				return uv1()
@@ -294,10 +304,23 @@ function slot0.EaseInUI(slot0, slot1)
 		setAnchoredPosition(uv0.rtTopBottom, {
 			y = -uv0.rtTopRight.rect.height
 		})
-		LeanTween.moveX(uv0.rtTopLeft, 0, WorldConst.UIEaseDuration):setEase(LeanTweenType.easeOutSine)
-		LeanTween.moveX(uv0.rtTopRight, 0, WorldConst.UIEaseDuration):setEase(LeanTweenType.easeOutSine)
-		LeanTween.moveY(uv0.rtTopTitle, 0, WorldConst.UIEaseDuration):setEase(LeanTweenType.easeOutSine)
-		LeanTween.moveY(uv0.rtTopBottom, 0, WorldConst.UIEaseDuration):setEase(LeanTweenType.easeOutSine):setOnComplete(System.Action(function ()
+
+		slot0 = LeanTween.moveX(uv0.rtTopLeft, 0, WorldConst.UIEaseDuration)
+
+		slot0:setEase(LeanTweenType.easeOutSine)
+
+		slot0 = LeanTween.moveX(uv0.rtTopRight, 0, WorldConst.UIEaseDuration)
+
+		slot0:setEase(LeanTweenType.easeOutSine)
+
+		slot0 = LeanTween.moveY(uv0.rtTopTitle, 0, WorldConst.UIEaseDuration)
+
+		slot0:setEase(LeanTweenType.easeOutSine)
+
+		slot0 = LeanTween.moveY(uv0.rtTopBottom, 0, WorldConst.UIEaseDuration)
+		slot0 = slot0:setEase(LeanTweenType.easeOutSine)
+
+		slot0:setOnComplete(System.Action(function ()
 			uv0.isTweening = false
 
 			return existCall(uv1)
@@ -307,10 +330,23 @@ end
 
 function slot0.EaseOutUI(slot0, slot1)
 	slot0:CancelUITween()
-	LeanTween.moveX(slot0.rtTopLeft, -slot0.rtTopLeft.rect.width, WorldConst.UIEaseDuration):setEase(LeanTweenType.easeOutSine)
-	LeanTween.moveX(slot0.rtTopRight, slot0.rtTopRight.rect.width, WorldConst.UIEaseDuration):setEase(LeanTweenType.easeOutSine)
-	LeanTween.moveY(slot0.rtTopTitle, slot0.rtTopTitle.rect.height, WorldConst.UIEaseDuration):setEase(LeanTweenType.easeOutSine)
-	LeanTween.moveY(slot0.rtTopBottom, -slot0.rtTopRight.rect.height, WorldConst.UIEaseDuration):setEase(LeanTweenType.easeOutSine):setOnComplete(System.Action(function ()
+
+	slot2 = LeanTween.moveX(slot0.rtTopLeft, -slot0.rtTopLeft.rect.width, WorldConst.UIEaseDuration)
+
+	slot2:setEase(LeanTweenType.easeOutSine)
+
+	slot2 = LeanTween.moveX(slot0.rtTopRight, slot0.rtTopRight.rect.width, WorldConst.UIEaseDuration)
+
+	slot2:setEase(LeanTweenType.easeOutSine)
+
+	slot2 = LeanTween.moveY(slot0.rtTopTitle, slot0.rtTopTitle.rect.height, WorldConst.UIEaseDuration)
+
+	slot2:setEase(LeanTweenType.easeOutSine)
+
+	slot2 = LeanTween.moveY(slot0.rtTopBottom, -slot0.rtTopRight.rect.height, WorldConst.UIEaseDuration)
+	slot2 = slot2:setEase(LeanTweenType.easeOutSine)
+
+	slot2:setOnComplete(System.Action(function ()
 		uv0.isTweening = false
 
 		return existCall(uv1)

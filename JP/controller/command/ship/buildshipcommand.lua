@@ -14,7 +14,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(12002, {
+	slot8 = pg.ConnectionMgr.GetInstance()
+
+	slot8:Send(12002, {
 		id = slot3,
 		count = slot4
 	}, 12003, function (slot0)
@@ -34,8 +36,10 @@ function slot0.execute(slot0, slot1)
 			})
 			slot3:updatePlayer(slot4)
 
+			slot5 = getProxy(BuildShipProxy)
+
 			for slot9, slot10 in ipairs(slot0.build_info) do
-				getProxy(BuildShipProxy):addBuildShip(BuildShip.New(slot10))
+				slot5:addBuildShip(BuildShip.New(slot10))
 			end
 
 			uv2:sendNotification(GAME.BUILD_SHIP_DONE)

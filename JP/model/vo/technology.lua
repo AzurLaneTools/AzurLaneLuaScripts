@@ -37,12 +37,15 @@ function slot0.isFinished(slot0)
 		return false
 	end
 
+	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
+
 	if not slot0:hasCondition() then
-		return slot0.time <= pg.TimeMgr.GetInstance():GetServerTime()
+		return slot0.time <= slot1
 	else
 		slot3 = getProxy(TaskProxy):getTaskById(slot0:getTaskId())
+		slot4 = slot0.time <= slot1 and slot3:getConfig("target_num") <= slot3.progress
 
-		return slot0.time <= slot1 and slot3:getConfig("target_num") <= slot3.progress
+		return slot4
 	end
 end
 
@@ -83,10 +86,11 @@ function slot0.finish(slot0)
 end
 
 function slot0.hasResToStart(slot0)
+	slot2 = getProxy(PlayerProxy):getData()
 	slot3 = getProxy(BagProxy)
 
 	for slot7, slot8 in ipairs(slot0:getConfig("consume")) do
-		if slot8[1] == DROP_TYPE_RESOURCE and getProxy(PlayerProxy):getData():getResById(slot8[2]) < slot8[3] then
+		if slot8[1] == DROP_TYPE_RESOURCE and slot2:getResById(slot8[2]) < slot8[3] then
 			return false, i18n("common_no_resource")
 		elseif slot8[1] == DROP_TYPE_ITEM and slot3:getItemCountById(slot8[2]) < slot8[3] then
 			return false, i18n("common_no_item_1")

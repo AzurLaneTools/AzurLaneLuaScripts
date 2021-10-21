@@ -177,7 +177,9 @@ function slot0.InitChatWindow(slot0)
 
 	if slot0.isAdmin then
 		onInputEndEdit(slot0, slot0.noticeTxt.gameObject, function ()
-			if getInputText(uv0.noticeTxt.gameObject) == "" or slot1 == (uv0.guildVO:GetAnnounce() or "") then
+			slot0 = uv0.guildVO:GetAnnounce() or ""
+
+			if getInputText(uv0.noticeTxt.gameObject) == "" or slot1 == slot0 then
 				return
 			end
 
@@ -229,11 +231,12 @@ function slot0.AppendLog(slot0, slot1, slot2)
 			slot3:SetAsFirstSibling()
 		end
 
+		slot4 = slot3:Find("text"):GetComponent("RichText")
 		slot5 = slot3:Find("time"):GetComponent(typeof(Text))
 		slot6, slot7 = slot1:getConent()
 
 		if slot1.cmd == GuildLogInfo.CMD_TYPE_GET_SHIP then
-			ChatProxy.InjectPublic(slot3:Find("text"):GetComponent("RichText"), slot6)
+			ChatProxy.InjectPublic(slot4, slot6)
 		else
 			slot4.text = slot6
 		end
@@ -348,9 +351,10 @@ function slot0.UpdateMainInfo(slot0)
 
 	slot0.levelTxt.text = slot1.level <= 9 and "0" .. slot1.level or slot1.level
 	slot2 = ""
+	slot3 = ""
 
 	for slot8 = 1, math.floor(slot1.level / 10) do
-		slot3 = "" .. ":"
+		slot3 = slot3 .. ":"
 	end
 
 	slot0.levelImg.text = slot3 .. (slot1.level % 10 == 0 and "" or slot5)
@@ -380,12 +384,14 @@ function slot0.ShowOrHideChatWindow(slot0, slot1)
 	end
 
 	slot0.isShowChatWindow = slot1
-
-	LeanTween.value(go(slot0.chatPanel), slot2, slot3, 0.3):setOnUpdate(System.Action_float(function (slot0)
+	slot7 = LeanTween.value(go(slot0.chatPanel), slot2, slot3, 0.3)
+	slot7 = slot7:setOnUpdate(System.Action_float(function (slot0)
 		setAnchoredPosition(uv0.chatPanel, {
 			x = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot7:setOnComplete(System.Action(function ()
 		if uv0 then
 			setParent(uv1.chatPanel, pg.UIMgr:GetInstance().OverlayMain, true)
 
@@ -403,7 +409,10 @@ function slot0.ShowOrHideChatWindow(slot0, slot1)
 			pg.UIMgr.GetInstance():UnOverlayPanel(uv1.chatPanel, uv1._tf)
 		end
 	end))
-	LeanTween.value(go(slot0.chatBtn), slot4, slot5, 0.3):setOnUpdate(System.Action_float(function (slot0)
+
+	slot7 = LeanTween.value(go(slot0.chatBtn), slot4, slot5, 0.3)
+
+	slot7:setOnUpdate(System.Action_float(function (slot0)
 		setAnchoredPosition(uv0.chatBtn, {
 			x = slot0
 		})

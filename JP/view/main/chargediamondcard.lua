@@ -102,9 +102,13 @@ function slot0.updateForMonthTF(slot0, slot1, slot2)
 	end
 
 	slot12 = MonthCardOutDateTipPanel.GetShowMonthCardTag()
+	slot14 = slot0.monthTF
 
-	setActive(slot0.monthTF:Find("monthcard_tag"), slot12)
-	setActive(slot0.monthTF:Find("NewTag"), not slot12)
+	setActive(slot14:Find("monthcard_tag"), slot12)
+
+	slot14 = slot0.monthTF
+
+	setActive(slot14:Find("NewTag"), not slot12)
 	onButton(slot0.parentContext, slot3, function ()
 		triggerButton(uv0.tr)
 	end, SFX_PANEL)

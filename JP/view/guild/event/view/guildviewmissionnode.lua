@@ -129,8 +129,10 @@ function slot0.UpdateLineStyle(slot0)
 	slot2 = slot0:IsFinish()
 
 	for slot6, slot7 in ipairs(slot0.childs) do
+		slot9 = slot7:IsMain()
+
 		for slot13, slot14 in ipairs(slot0.lines[slot7]) do
-			slot1(slot14.tf, slot2 and uv0[2] or slot7:IsMain() and uv0[3] or uv0[1])
+			slot1(slot14.tf, slot2 and uv0[2] or slot9 and uv0[3] or uv0[1])
 		end
 	end
 
@@ -161,10 +163,11 @@ function slot0.CalcOffset(slot0)
 	end
 
 	if #slot0.parent.childs == 2 then
+		slot1 = slot0:IsMain()
 		slot2 = slot0:GetParentOffset()
 
 		if math.abs(slot2 + -1) <= math.abs(slot2 + 1) then
-			slot0.offset = slot0:IsMain() and slot4 or slot3
+			slot0.offset = slot1 and slot4 or slot3
 		elseif slot5 < slot6 then
 			slot0.offset = slot1 and slot3 or slot4
 		end
@@ -263,9 +266,10 @@ function slot0.AddLine(slot0, slot1, slot2, slot3)
 		slot1.pivot = Vector2(1, 0.5)
 		slot1.anchoredPosition = Vector2(slot0.lines[slot0][1].tf.sizeDelta.x, 0)
 		slot1.eulerAngles = Vector3(0, 0, -90)
+		slot6 = slot3:GetLocalPosition().y - slot0:GetLocalPosition().y
 
 		if slot3:IsMain() then
-			slot1.sizeDelta = Vector2(slot3:GetLocalPosition().y - slot0:GetLocalPosition().y, slot1.sizeDelta.y)
+			slot1.sizeDelta = Vector2(slot6, slot1.sizeDelta.y)
 		else
 			slot1.sizeDelta = Vector2(slot6 - slot5 - slot0._tf.sizeDelta.y / 2, slot1.sizeDelta.y)
 		end
@@ -275,19 +279,23 @@ function slot0.AddLine(slot0, slot1, slot2, slot3)
 		slot1.pivot = Vector2(1, 0.5)
 		slot1.anchoredPosition = Vector2(slot0.lines[slot0][1].tf.sizeDelta.x, 0)
 		slot1.eulerAngles = Vector3(0, 0, 90)
+		slot6 = slot3:GetLocalPosition().y - slot0:GetLocalPosition().y
 
 		if slot3:IsMain() then
-			slot1.sizeDelta = Vector2(-(slot3:GetLocalPosition().y - slot0:GetLocalPosition().y), slot1.sizeDelta.y)
+			slot1.sizeDelta = Vector2(-slot6, slot1.sizeDelta.y)
 		else
 			slot1.sizeDelta = Vector2(-slot6 - slot5 - slot0._tf.sizeDelta.y / 2, slot1.sizeDelta.y)
 		end
 	elseif slot2 == uv0.TOP_HRZ_LINK then
 		slot4 = slot0.lines[slot3][1].tf
+		slot6 = slot0.lines[slot0][1].tf.sizeDelta.x
 		slot1.anchoredPosition = Vector2(slot4.anchoredPosition.x, slot4.sizeDelta.x + slot4.anchoredPosition.y)
+		slot8 = slot3:GetLocalPosition()
+		slot9 = slot0:GetLocalPosition()
 		slot10 = nil
 
 		if slot3:IsMain() then
-			slot10 = slot3:GetLocalPosition().x - slot0:GetLocalPosition().x - 2 * slot0.lines[slot0][1].tf.sizeDelta.x - slot0._tf.sizeDelta.x
+			slot10 = slot8.x - slot9.x - 2 * slot6 - slot0._tf.sizeDelta.x
 		else
 			nextNodeLposX = slot8.x + slot0._tf.sizeDelta.x / 2
 			slot10 = nextNodeLposX - slot9.x - slot0._tf.sizeDelta.x - slot6
@@ -296,11 +304,14 @@ function slot0.AddLine(slot0, slot1, slot2, slot3)
 		slot1.sizeDelta = Vector2(slot10, slot1.sizeDelta.y)
 	elseif slot2 == uv0.BOTTOM_HRZ_LINK then
 		slot4 = slot0.lines[slot3][1].tf
+		slot6 = slot0.lines[slot0][1].tf.sizeDelta.x
 		slot1.anchoredPosition = Vector2(slot4.anchoredPosition.x, slot4.anchoredPosition.y - slot4.sizeDelta.x)
+		slot8 = slot3:GetLocalPosition()
+		slot9 = slot0:GetLocalPosition()
 		slot10 = nil
 
 		if slot3:IsMain() then
-			slot10 = slot3:GetLocalPosition().x - slot0:GetLocalPosition().x - 2 * slot0.lines[slot0][1].tf.sizeDelta.x - slot0._tf.sizeDelta.x
+			slot10 = slot8.x - slot9.x - 2 * slot6 - slot0._tf.sizeDelta.x
 		else
 			nextNodeLposX = slot8.x + slot0._tf.sizeDelta.x / 2
 			slot10 = nextNodeLposX - slot9.x - slot0._tf.sizeDelta.x - slot6

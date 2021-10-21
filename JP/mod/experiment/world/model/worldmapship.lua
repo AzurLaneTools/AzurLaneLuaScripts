@@ -39,8 +39,10 @@ function slot0.GetImportWorldShipVO(slot0)
 					slot2 = true
 				end
 			elseif slot1.type == Ship.BENEFIT_EQUIP then
+				slot3 = slot1.limit
+
 				for slot8, slot9 in ipairs(slot0:getAllEquipments()) do
-					if slot9 and table.contains(slot1.limit, slot9.config.id) then
+					if slot9 and table.contains(slot3, slot9.config.id) then
 						slot2 = true
 
 						break
@@ -132,8 +134,10 @@ function slot0.AddBuff(slot0, slot1, slot2)
 end
 
 function slot0.RemoveBuff(slot0, slot1, slot2)
+	slot3 = slot0:GetBuff(slot1)
+
 	if slot2 then
-		slot0:GetBuff(slot1):AddFloor(slot2 * -1)
+		slot3:AddFloor(slot2 * -1)
 	else
 		slot0.buffs[slot1] = nil
 	end

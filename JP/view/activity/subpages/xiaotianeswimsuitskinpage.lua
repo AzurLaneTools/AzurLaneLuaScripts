@@ -13,7 +13,9 @@ function slot0.OnUpdateFlush(slot0)
 	GetImageSpriteFromAtlasAsync("ui/activityuipage/xiaotianeswimsuitskinpage_atlas", tostring(slot0.nday), slot0.rtDayImage, true)
 
 	if not slot0.model then
-		PoolMgr.GetInstance():GetSpineChar("xiaotiane_2", true, function (slot0)
+		slot1 = PoolMgr.GetInstance()
+
+		slot1:GetSpineChar("xiaotiane_2", true, function (slot0)
 			if uv0.model then
 				return
 			end

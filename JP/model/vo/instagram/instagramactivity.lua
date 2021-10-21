@@ -12,9 +12,13 @@ function slot0.UpdateActiveCnt(slot0)
 end
 
 function slot0.GetNextPushTime(slot0)
+	slot1 = getProxy(InstagramProxy)
+
 	for slot5, slot6 in ipairs(slot0.configIds) do
-		if not getProxy(InstagramProxy):ExistGroup(pg.activity_ins_template[slot6].group_id) then
-			return slot0.times[slot5], slot6
+		slot8 = slot0.times[slot5]
+
+		if not slot1:ExistGroup(pg.activity_ins_template[slot6].group_id) then
+			return slot8, slot6
 		end
 	end
 end

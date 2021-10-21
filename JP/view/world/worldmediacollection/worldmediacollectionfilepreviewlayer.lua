@@ -43,22 +43,26 @@ function slot0.didEnter(slot0)
 	slot4.text = tostring(slot1.name or "")
 	slot2.preferredWidth = math.min(slot4.preferredWidth, slot0.animBar:Find("Anim/Frame/Mask"):GetComponent(typeof(LayoutElement)).preferredWidth)
 
+	function slot7()
+		onButton(uv0, uv0._tf, function ()
+			uv0:closeView()
+		end)
+	end
+
+	function slot8()
+		if uv1 < uv0.preferredWidth then
+			uv2.pivot = Vector2(0.5, 0.5)
+			uv2.anchorMin = Vector2(0.5, 0.5)
+			uv2.anchorMax = Vector2(0.5, 0.5)
+			uv3.enabled = true
+		end
+	end
+
 	removeOnButton(slot0._tf)
 
 	if slot0.animBar:GetComponent(typeof(DftAniEvent)) then
-		slot9:SetTriggerEvent(function ()
-			if uv1 < uv0.preferredWidth then
-				uv2.pivot = Vector2(0.5, 0.5)
-				uv2.anchorMin = Vector2(0.5, 0.5)
-				uv2.anchorMax = Vector2(0.5, 0.5)
-				uv3.enabled = true
-			end
-		end)
-		slot9:SetEndEvent(function ()
-			onButton(uv0, uv0._tf, function ()
-				uv0:closeView()
-			end)
-		end)
+		slot9:SetTriggerEvent(slot8)
+		slot9:SetEndEvent(slot7)
 	else
 		slot8()
 		slot7()

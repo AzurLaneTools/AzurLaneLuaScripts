@@ -106,19 +106,28 @@ function slot0.Unload(slot0)
 end
 
 function slot0.InitPlane(slot0)
-	PoolMgr.GetInstance():GetPrefab("world/object/world_plane", "world_plane", false, function (slot0)
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetPrefab("world/object/world_plane", "world_plane", false, function (slot0)
 		uv0.transform = slot0.transform
 
 		setActive(uv0.transform, false)
 	end)
 
-	slot0.rtQuads = slot0.transform:Find("quads")
-	slot0.rtItems = slot0.transform:Find("items")
-	slot0.rtCells = slot0.transform:Find("cells")
-	slot0.rtTop = slot0.transform:Find("top")
-	slot0.rtEffectA = slot0.transform:Find("effect-a-1-999")
-	slot0.rtEffectB = slot0.transform:Find("effect-b-1001-1999")
-	slot0.rtEffectC = slot0.transform:Find("effect-c-2001-2999")
+	slot2 = slot0.transform
+	slot0.rtQuads = slot2:Find("quads")
+	slot2 = slot0.transform
+	slot0.rtItems = slot2:Find("items")
+	slot2 = slot0.transform
+	slot0.rtCells = slot2:Find("cells")
+	slot2 = slot0.transform
+	slot0.rtTop = slot2:Find("top")
+	slot2 = slot0.transform
+	slot0.rtEffectA = slot2:Find("effect-a-1-999")
+	slot2 = slot0.transform
+	slot0.rtEffectB = slot2:Find("effect-b-1001-1999")
+	slot2 = slot0.transform
+	slot0.rtEffectC = slot2:Find("effect-c-2001-2999")
 	slot3 = slot0.map.theme
 	slot4 = slot0.transform
 	slot4.name = "plane"
@@ -270,9 +279,10 @@ function slot0.InitMap(slot0)
 end
 
 function slot0.DisposeMap(slot0)
+	slot1 = slot0.map
 	slot4 = slot0.onUpdateFleetFOV
 
-	slot0.map:RemoveListener(WorldMap.EventUpdateFleetFOV, slot4)
+	slot1:RemoveListener(WorldMap.EventUpdateFleetFOV, slot4)
 	_.each(slot0.wsCarryItems, function (slot0)
 		uv0:DisposeCarryItem(slot0)
 	end)
@@ -665,13 +675,14 @@ end
 
 function slot0.DisplayMoveRange(slot0)
 	slot0.displayRangeLines = {}
+	slot3 = 0
 
 	for slot7, slot8 in ipairs(nowWorld:GetMoveRange(slot0.map:GetFleet())) do
 		setImageAlpha(slot0:GetQuad(slot8.row, slot8.column).rtWalkQuad, math.pow(0.75, slot8.stay and slot8.stay - 1 or 0))
 		setLocalScale(slot9.rtWalkQuad, Vector3.zero)
 
 		slot10 = ManhattonDist(slot1, slot8)
-		slot3 = math.max(0, slot10)
+		slot3 = math.max(slot3, slot10)
 		slot0.displayRangeLines[slot10] = slot0.displayRangeLines[slot10] or {}
 
 		table.insert(slot0.displayRangeLines[slot10], {
@@ -800,7 +811,8 @@ function slot0.FlushFleets(slot0)
 	slot0:FlushEnemyFightingMark()
 	slot0:FlushTransportDisplay()
 
-	slot1 = slot0.map:GetFleet()
+	slot1 = slot0.map
+	slot1 = slot1:GetFleet()
 
 	_.each(slot0.wsMapFleets, function (slot0)
 		slot0:UpdateSelected(slot0.fleet == uv0)
@@ -808,7 +820,8 @@ function slot0.FlushFleets(slot0)
 end
 
 function slot0.FlushFleetRetreatBtn(slot0)
-	slot1 = slot0.map:GetFleet()
+	slot1 = slot0.map
+	slot1 = slot1:GetFleet()
 
 	_.each(slot0.wsMapFleets, function (slot0)
 		slot1 = slot0.fleet

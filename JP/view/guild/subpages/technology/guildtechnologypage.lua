@@ -33,7 +33,9 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.frame, {
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:OverlayPanelPB(slot0.frame, {
 		pbList = {
 			slot0.frame
 		},

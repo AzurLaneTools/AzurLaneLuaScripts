@@ -36,7 +36,10 @@ function slot0.OnInit(slot0)
 			uv0:OnUpgrade()
 		end
 	end, SFX_PANEL)
-	slot0.attrUIlist:make(function (slot0, slot1, slot2)
+
+	slot1 = slot0.attrUIlist
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateResourceFieldAttr(uv0.attrs[slot1 + 1], slot2)
 		end

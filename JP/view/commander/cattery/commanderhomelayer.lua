@@ -209,12 +209,13 @@ end
 function slot0.InitCatteries(slot0)
 	slot0.displays = {}
 	slot3 = 0
+	slot4 = 0
 
 	for slot8, slot9 in pairs(slot0.home:GetCatteries()) do
 		table.insert(slot0.displays, slot9)
 
 		if slot9:ExistCommander() then
-			slot4 = 0 + 1
+			slot4 = slot4 + 1
 		end
 
 		if not slot9:IsLocked() then

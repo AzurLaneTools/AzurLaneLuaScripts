@@ -6,20 +6,39 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = tf(slot1)
 	slot0.parent = slot0._tf.parent
 	slot0.overlay = slot2
-	slot0.foodItem = slot0._tf:Find("frame")
-	slot0.icon = slot0.foodItem:Find("icon_bg/icon")
-	slot0.foodName = slot0._tf:Find("frame/name"):GetComponent(typeof(Text))
-	slot0.foodDesc = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
-	slot0.calPanel = slot0._tf:Find("frame/cal_panel")
-	slot0.cancelBtn = slot0._tf:Find("frame/cancel_btn")
-	slot0.countValue = slot0.calPanel:Find("value/Text"):GetComponent(typeof(Text))
-	slot0.total = slot0.calPanel:Find("total/Text"):GetComponent(typeof(Text))
-	slot0.totalIcon = slot0.calPanel:Find("total/icon"):GetComponent(typeof(Image))
-	slot0.minusBtn = slot0.calPanel:Find("minus_btn")
-	slot0.addBtn = slot0.calPanel:Find("add_btn")
-	slot0.tenBtn = slot0.calPanel:Find("ten_btn")
-	slot0.confirmBtn = slot0._tf:Find("frame/ok_btn")
-	slot0.cancelBtn = slot0._tf:Find("frame/cancel_btn")
+	slot3 = slot0._tf
+	slot0.foodItem = slot3:Find("frame")
+	slot3 = slot0.foodItem
+	slot0.icon = slot3:Find("icon_bg/icon")
+	slot3 = slot0._tf
+	slot3 = slot3:Find("frame/name")
+	slot0.foodName = slot3:GetComponent(typeof(Text))
+	slot3 = slot0._tf
+	slot3 = slot3:Find("frame/desc")
+	slot0.foodDesc = slot3:GetComponent(typeof(Text))
+	slot3 = slot0._tf
+	slot0.calPanel = slot3:Find("frame/cal_panel")
+	slot3 = slot0._tf
+	slot0.cancelBtn = slot3:Find("frame/cancel_btn")
+	slot3 = slot0.calPanel
+	slot3 = slot3:Find("value/Text")
+	slot0.countValue = slot3:GetComponent(typeof(Text))
+	slot3 = slot0.calPanel
+	slot3 = slot3:Find("total/Text")
+	slot0.total = slot3:GetComponent(typeof(Text))
+	slot3 = slot0.calPanel
+	slot3 = slot3:Find("total/icon")
+	slot0.totalIcon = slot3:GetComponent(typeof(Image))
+	slot3 = slot0.calPanel
+	slot0.minusBtn = slot3:Find("minus_btn")
+	slot3 = slot0.calPanel
+	slot0.addBtn = slot3:Find("add_btn")
+	slot3 = slot0.calPanel
+	slot0.tenBtn = slot3:Find("ten_btn")
+	slot3 = slot0._tf
+	slot0.confirmBtn = slot3:Find("frame/ok_btn")
+	slot3 = slot0._tf
+	slot0.cancelBtn = slot3:Find("frame/cancel_btn")
 
 	onButton(nil, slot0._tf, function ()
 		uv0:Hide()
@@ -83,12 +102,14 @@ function slot0.Show(slot0, slot1, slot2)
 end
 
 function slot0.UpdateFood(slot0, slot1)
+	slot3 = slot1:getConfig("display")
+
 	updateItem(slot0.foodItem, slot1)
 
 	slot0.foodName.text = slot1:getConfig("name")
 
 	if PLATFORM_CODE == PLATFORM_US then
-		setBestFitTextEN(slot0.foodDesc.gameObject, slot1:getConfig("display"), 28)
+		setBestFitTextEN(slot0.foodDesc.gameObject, slot3, 28)
 	else
 		slot0.foodDesc.text = slot3
 	end

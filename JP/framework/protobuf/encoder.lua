@@ -103,16 +103,20 @@ function _SimpleSizer(slot0)
 			slot4 = _VarintSize
 
 			return function (slot0)
+				slot1 = 0
+
 				for slot5, slot6 in uv0(slot0) do
-					slot1 = 0 + uv1(slot6)
+					slot1 = slot1 + uv1(slot6)
 				end
 
 				return slot1 + uv2(slot1) + uv3
 			end
 		elseif slot1 then
 			return function (slot0)
+				slot1 = uv0 * #slot0
+
 				for slot5, slot6 in uv1(slot0) do
-					slot1 = uv0 * #slot0 + uv2(slot6)
+					slot1 = slot1 + uv2(slot6)
 				end
 
 				return slot1
@@ -133,16 +137,20 @@ function _ModifiedSizer(slot0, slot1)
 			slot4 = _VarintSize
 
 			return function (slot0)
+				slot1 = 0
+
 				for slot5, slot6 in uv0(slot0) do
-					slot1 = 0 + uv1(uv2(slot6))
+					slot1 = slot1 + uv1(uv2(slot6))
 				end
 
 				return slot1 + uv3(slot1) + uv4
 			end
 		elseif slot1 then
 			return function (slot0)
+				slot1 = uv0 * #slot0
+
 				for slot5, slot6 in uv1(slot0) do
-					slot1 = uv0 * #slot0 + uv2(uv3(slot6))
+					slot1 = slot1 + uv2(uv3(slot6))
 				end
 
 				return slot1
@@ -204,9 +212,11 @@ function StringSizer(slot0, slot1, slot2)
 
 	if slot1 then
 		return function (slot0)
+			slot1 = uv0 * #slot0
+
 			for slot5, slot6 in uv1(slot0) do
 				slot7 = #slot6
-				slot1 = uv0 * #slot0 + uv2(slot7) + slot7
+				slot1 = slot1 + uv2(slot7) + slot7
 			end
 
 			return slot1
@@ -226,9 +236,11 @@ function BytesSizer(slot0, slot1, slot2)
 
 	if slot1 then
 		return function (slot0)
+			slot1 = uv0 * #slot0
+
 			for slot5, slot6 in uv1(slot0) do
 				slot7 = #slot6
-				slot1 = uv0 * #slot0 + uv2(slot7) + slot7
+				slot1 = slot1 + uv2(slot7) + slot7
 			end
 
 			return slot1
@@ -248,9 +260,11 @@ function MessageSizer(slot0, slot1, slot2)
 
 	if slot1 then
 		return function (slot0)
+			slot1 = uv0 * #slot0
+
 			for slot5, slot6 in uv1(slot0) do
 				slot7 = slot6:ByteSize()
-				slot1 = uv0 * #slot0 + uv2(slot7) + slot7
+				slot1 = slot1 + uv2(slot7) + slot7
 			end
 
 			return slot1
@@ -288,8 +302,10 @@ function _SimpleEncoder(slot0, slot1, slot2)
 			return function (slot0, slot1)
 				slot0(uv0)
 
+				slot2 = 0
+
 				for slot6, slot7 in uv1(slot1) do
-					slot2 = 0 + uv2(slot7)
+					slot2 = slot2 + uv2(slot7)
 				end
 
 				uv3(slot0, slot2)
@@ -327,8 +343,10 @@ function _ModifiedEncoder(slot0, slot1, slot2, slot3)
 			return function (slot0, slot1)
 				slot0(uv0)
 
+				slot2 = 0
+
 				for slot6, slot7 in uv1(slot1) do
-					slot2 = 0 + uv2(uv3(slot7))
+					slot2 = slot2 + uv2(uv3(slot7))
 				end
 
 				uv4(slot0, slot2)

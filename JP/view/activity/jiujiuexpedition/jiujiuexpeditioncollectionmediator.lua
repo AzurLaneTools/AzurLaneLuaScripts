@@ -47,9 +47,11 @@ function slot0.GetCollectionData()
 	slot8 = 0
 
 	for slot12 = 1, #slot1.boss_list do
+		slot14 = 0
+
 		for slot18 = 1, #slot1.boss_list[slot12] do
 			if table.contains(slot3, slot13[slot18]) then
-				slot14 = 0 + 1
+				slot14 = slot14 + 1
 			end
 		end
 
@@ -72,7 +74,9 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED and slot1:getBody().id == uv0 then
+	slot3 = slot1:getBody()
+
+	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED and slot3.id == uv0 then
 		slot4, slot5, slot6, slot7 = JiuJiuExpeditionCollectionMediator.GetCollectionData()
 
 		slot0.viewComponent:SetData(slot4, slot5, slot6, slot7)

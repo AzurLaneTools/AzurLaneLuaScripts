@@ -21,7 +21,9 @@ function slot0.Update(slot0)
 		slot0:PrepareBase("story_" .. slot1.row .. "_" .. slot1.column .. "_" .. slot1.attachmentId)
 
 		if pg.map_event_template[slot1.attachmentId].icon and #slot8 > 0 then
-			slot0:GetLoader():GetPrefab("ui/" .. slot8 .. "_1", slot8 .. "_1", function (slot0)
+			slot10 = slot0:GetLoader()
+
+			slot10:GetPrefab("ui/" .. slot8 .. "_1", slot8 .. "_1", function (slot0)
 				slot0.transform:SetParent(uv0.tf, false)
 				uv0:ResetCanvasOrder()
 			end)

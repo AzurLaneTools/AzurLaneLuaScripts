@@ -34,7 +34,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(12006, {
+	slot13 = pg.ConnectionMgr.GetInstance()
+
+	slot13:Send(12006, {
 		type = 0,
 		equip_id = slot3,
 		ship_id = slot4,
@@ -44,8 +46,10 @@ function slot0.execute(slot0, slot1)
 			uv2:getEquipmentById(uv3).count = 1
 
 			if uv0:getEquip(uv1) then
+				slot3 = pg.equip_skin_template
+
 				if slot1:hasSkin() then
-					if _.any(pg.equip_skin_template[slot1.skinId].equip_type, function (slot0)
+					if _.any(slot3[slot1.skinId].equip_type, function (slot0)
 						return slot0 == uv0.config.type
 					end) then
 						uv0:updateEquipmentSkin(uv1, slot1.skinId)

@@ -35,15 +35,19 @@ end
 
 if Application.isEditor then
 	function slot1.serialize(slot0)
+		slot1 = ""
+
 		if type(slot0) == "number" then
-			slot1 = "" .. slot0
+			slot1 = slot1 .. slot0
 		elseif slot2 == "boolean" then
 			slot1 = slot1 .. tostring(slot0)
 		elseif slot2 == "string" then
 			slot1 = slot1 .. string.format("%q", slot0)
 		elseif slot2 == "table" then
+			slot1 = slot1 .. "{\n"
+
 			for slot6, slot7 in pairs(slot0) do
-				slot1 = slot1 .. "{\n" .. "[" .. uv0.serialize(slot6) .. "]=" .. uv0.serialize(slot7) .. ",\n"
+				slot1 = slot1 .. "[" .. uv0.serialize(slot6) .. "]=" .. uv0.serialize(slot7) .. ",\n"
 			end
 
 			if getmetatable(slot0) ~= nil and type(slot3.__index) == "table" then
@@ -133,14 +137,18 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 
 	if not slot0.connectionMgr:getConnection() then
 		slot0.connectionMgr.needStartSend = true
+		slot9 = slot0.connectionMgr
 
-		slot0.connectionMgr:Reconnect(function ()
+		slot9:Reconnect(function ()
 		end)
 
 		return
 	end
 
+	slot5 = defaultValue(slot5, true)
 	slot6 = defaultValue(slot6, true)
+	slot7 = defaultValue(slot7, SEND_TIMEOUT)
+	slot9 = slot0:getPacketIdx()
 
 	if slot3 ~= nil then
 		uv0.UIMgr.GetInstance():LoadingOn()
@@ -148,7 +156,7 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 		slot10 = nil
 		slot11 = nil
 
-		uv1[defaultValue(slot5, true) and slot3 .. "_" .. slot0:getPacketIdx() or slot3] = function (slot0)
+		uv1[slot5 and slot3 .. "_" .. slot9 or slot3] = function (slot0)
 			uv0.isSending = false
 
 			uv1.UIMgr.GetInstance():LoadingOff()
@@ -187,12 +195,13 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 			uv3.retryCount = uv3.retryCount + 1
 
 			uv3:StartSend()
-		end, defaultValue(slot7, SEND_TIMEOUT), 1):Start()
+		end, slot7, 1):Start()
 	else
 		slot5 = false
 	end
 
-	slot10 = uv0.Packer.GetInstance():GetProtocolWithName("cs_" .. slot1)
+	slot10 = uv0.Packer.GetInstance()
+	slot10 = slot10:GetProtocolWithName("cs_" .. slot1)
 
 	(function (slot0, slot1)
 		for slot5, slot6 in pairs(slot1) do
@@ -245,10 +254,12 @@ end
 function slot1.onData(slot0)
 	print("Network Receive idx: " .. slot0.idx .. " cmd: " .. slot0.cmd)
 
+	slot1 = uv0.Packer.GetInstance():Unpack(slot0.cmd, slot0:getLuaStringBuffer())
+
 	if uv1[slot0.cmd .. "_" .. slot0.idx] then
 		uv1[slot2] = nil
 
-		uv1[slot2](uv0.Packer.GetInstance():Unpack(slot0.cmd, slot0:getLuaStringBuffer()))
+		uv1[slot2](slot1)
 	elseif uv1[slot0.cmd] then
 		uv1[slot0.cmd] = nil
 
@@ -260,7 +271,9 @@ if Application.isEditor then
 	function slot1.onRequestResend(slot0)
 		if uv0.unserialize(slot0.sndState) then
 			if slot0.scProNr > 0 then
-				uv1.ConnectionMgr.GetInstance():Send(slot0.csProNr, slot1, slot0.scProNr, function (slot0)
+				slot2 = uv1.ConnectionMgr.GetInstance()
+
+				slot2:Send(slot0.csProNr, slot1, slot0.scProNr, function (slot0)
 				end)
 			else
 				uv1.ConnectionMgr.GetInstance():Send(slot0.csProNr, slot1)

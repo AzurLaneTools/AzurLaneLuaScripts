@@ -206,10 +206,11 @@ function slot0.setShipId(slot0, slot1)
 
 	setText(slot0.desc, slot6 or i18n("ship_drop_desc_default"))
 
+	slot7 = slot0.itemTF:Find("icon_bg/startpl")
 	slot9 = slot3:getStar()
 
 	for slot14 = slot0.stars.childCount, slot3:getMaxStar() - 1 do
-		cloneTplTo(slot0.itemTF:Find("icon_bg/startpl"), slot0.stars)
+		cloneTplTo(slot7, slot0.stars)
 	end
 
 	slot11 = slot10 - slot9
@@ -245,7 +246,10 @@ function slot0.didEnter(slot0)
 
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0._tf:Find("window/top/btnBack"), function ()
+
+	slot4 = slot0._tf
+
+	onButton(slot0, slot4:Find("window/top/btnBack"), function ()
 		if uv0.playing then
 			return
 		end
@@ -330,7 +334,9 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CONFIRM)
 
-	slot0.keepFateState = not getProxy(PlayerProxy):getData():GetCommonFlag(SHOW_DONT_KEEP_FATE_ITEM)
+	slot2 = getProxy(PlayerProxy)
+	slot2 = slot2:getData()
+	slot0.keepFateState = not slot2:GetCommonFlag(SHOW_DONT_KEEP_FATE_ITEM)
 	GetComponent(slot0.keepFateTog, typeof(Toggle)).isOn = slot0.keepFateState
 
 	onToggle(slot0, slot0.keepFateTog, function (slot0)
@@ -415,7 +421,8 @@ function slot0.UpdateComposeCount(slot0)
 	slot0:RefreshBonusList(slot0.operateBonusTpl, slot7)
 
 	for slot7 = 1, #slot3 do
-		slot8 = slot0.operateBonusList:GetChild(slot7 - 1)
+		slot8 = slot0.operateBonusList
+		slot8 = slot8:GetChild(slot7 - 1)
 		slot9 = slot3[slot7]
 
 		updateDrop(slot8, slot9)
@@ -452,7 +459,8 @@ function slot0.UpdateResolvePanel(slot0)
 	slot0:RefreshBonusList(slot0.operateBonusTpl, slot7)
 
 	for slot7 = 1, #slot3 do
-		slot8 = slot0.operateBonusList:GetChild(slot7 - 1)
+		slot8 = slot0.operateBonusList
+		slot8 = slot8:GetChild(slot7 - 1)
 		slot9 = slot3[slot7]
 
 		updateDrop(slot8, slot9)
@@ -482,8 +490,9 @@ function slot0.UpdateBlueprintResolveNum(slot0)
 
 	if slot0.itemVO:getConfig("type") == Item.BLUEPRINT_TYPE then
 		slot3 = getProxy(TechnologyProxy)
+		slot5 = slot3:getBluePrintById(slot3:GetBlueprint4Item(slot0.itemVO.id))
 
-		if slot0.keepFateState and slot0.itemVO.count - slot3:getBluePrintById(slot3:GetBlueprint4Item(slot0.itemVO.id)):getFateMaxLeftOver() < 0 then
+		if slot0.keepFateState and slot0.itemVO.count - slot5:getFateMaxLeftOver() < 0 then
 			slot1 = 0
 		end
 	end
@@ -492,8 +501,10 @@ function slot0.UpdateBlueprintResolveNum(slot0)
 end
 
 function slot0.UpdateSpeedUpResolveNum(slot0)
+	slot1 = slot0.itemVO.count
+
 	if slot0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE then
-		slot0.operateMax = slot0.itemVO.count
+		slot0.operateMax = slot1
 	end
 end
 
@@ -554,7 +565,9 @@ function slot0.PlayOpenBox(slot0, slot1, slot2)
 	end
 
 	if not slot0[slot1] then
-		PoolMgr.GetInstance():GetPrefab("ui/" .. string.lower(slot1), "", true, function (slot0)
+		slot5 = PoolMgr.GetInstance()
+
+		slot5:GetPrefab("ui/" .. string.lower(slot1), "", true, function (slot0)
 			slot0:SetActive(true)
 
 			uv0[uv1] = slot0

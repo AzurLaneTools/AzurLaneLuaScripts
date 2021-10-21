@@ -69,8 +69,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
-		slot0.viewComponent:setEquipment(slot1:getBody())
+		slot0.viewComponent:setEquipment(slot3)
 	elseif slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
 		slot0.viewComponent:removeEquipment(slot3)
 	elseif slot2 == GAME.USE_ITEM_DONE then

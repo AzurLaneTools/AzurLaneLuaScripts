@@ -28,11 +28,12 @@ end
 function slot0.OnUpdateFlush(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
+	slot1 = slot0.activityProxy:getActivityById(slot0.comicID)
 	slot0.animeChild = nil
 
 	for slot5 = 1, #slot0.puzzleIDList do
 		slot9 = nil
-		slot9 = not table.contains(slot0.activityProxy:getActivityById(slot0.comicID).data1_list, slot0.puzzleIDList[slot5]) and 0 or 1
+		slot9 = not table.contains(slot1.data1_list, slot0.puzzleIDList[slot5]) and 0 or 1
 
 		slot0:updatePiece(slot9, slot0.puzzle:GetChild(slot5 - 1))
 
@@ -48,7 +49,10 @@ function slot0.OnUpdateFlush(slot0)
 			LeanTween.cancel(go(slot0.animeChild), true)
 		end
 
-		LeanTween.alpha(slot0.animeChild, 1, uv0.FADE_OUT_TIME):setFrom(0):setOnComplete(System.Action(function ()
+		slot2 = LeanTween.alpha(slot0.animeChild, 1, uv0.FADE_OUT_TIME)
+		slot2 = slot2:setFrom(0)
+
+		slot2:setOnComplete(System.Action(function ()
 			uv0:checkAward()
 		end))
 	end

@@ -15,8 +15,9 @@ function slot0.Ctor(slot0, slot1)
 	for slot6, slot7 in ipairs(slot1.nodes) do
 		slot8 = nil
 		slot9 = Clone(pg.guild_event_node[slot7.id])
+		slot8 = (slot7.status ~= 1 or slot9.success_award) and slot9.fail_award
 
-		for slot13, slot14 in ipairs((slot7.status ~= 1 or slot9.success_award) and slot9.fail_award) do
+		for slot13, slot14 in ipairs(slot8) do
 			if not slot2[slot14[2]] then
 				slot2[slot14[2]] = slot14
 			else
@@ -87,10 +88,11 @@ function slot0.GetNodeDrop(slot0)
 end
 
 function slot0.GetDrop(slot0)
+	slot1 = {}
 	slot3 = slot0:GetNodeDrop()
 
 	for slot7, slot8 in ipairs(slot0:GetSelfDrop()) do
-		table.insert({}, slot8)
+		table.insert(slot1, slot8)
 	end
 
 	for slot7, slot8 in ipairs(slot3) do

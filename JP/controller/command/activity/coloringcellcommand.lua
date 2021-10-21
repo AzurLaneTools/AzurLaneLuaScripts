@@ -2,8 +2,9 @@ slot0 = class("ColoringCellCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot6 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(26004, {
+	slot6:Send(26004, {
 		act_id = slot2.activityId,
 		id = slot2.id,
 		cell_list = slot2.cells

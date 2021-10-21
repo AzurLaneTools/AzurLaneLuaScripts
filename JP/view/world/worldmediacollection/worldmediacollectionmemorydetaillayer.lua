@@ -85,7 +85,10 @@ function slot0.PlayMemory(slot0, slot1)
 		end
 
 		setActive(slot0.memoryMask, true)
-		pg.NewStoryMgr.GetInstance():Play(slot1.story, function ()
+
+		slot3 = pg.NewStoryMgr.GetInstance()
+
+		slot3:Play(slot1.story, function ()
 			setActive(uv0.memoryMask, false)
 		end, true)
 	elseif slot1.type == 2 then
@@ -104,9 +107,13 @@ function slot0.ShowSubMemories(slot0, slot1)
 	slot0.memories = _.map(slot1.memories, function (slot0)
 		return pg.memory_template[slot0]
 	end)
+	slot2 = slot0.memoryItemList
 
-	slot0.memoryItemList:SetTotalCount(#slot0.memories, 0)
-	setText(slot0._tf:Find("ItemRect/ProgressText"), _.reduce(slot0.memories, 0, function (slot0, slot1)
+	slot2:SetTotalCount(#slot0.memories, 0)
+
+	slot5 = slot0._tf
+
+	setText(slot5:Find("ItemRect/ProgressText"), _.reduce(slot0.memories, 0, function (slot0, slot1)
 		if slot1.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot1.story, true) then
 			slot0 = slot0 + 1
 		end

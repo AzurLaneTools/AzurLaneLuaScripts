@@ -71,10 +71,12 @@ end
 
 function slot3.generateTargetPoint(slot0)
 	slot1 = slot0._fleetVO:GetLeaderPersonality()
+	slot2 = slot1.front_rate
+	slot3 = slot1.rear_rate
 
 	if slot0._fleetVO:GetIFF() == uv0.FRIENDLY_CODE then
-		slot2 = 1 - slot1.front_rate
-		slot3 = 1 - slot1.rear_rate
+		slot2 = 1 - slot2
+		slot3 = 1 - slot3
 	end
 
 	slot8 = nil

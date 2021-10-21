@@ -23,8 +23,12 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.WORLD_ACHIEVE_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().drops, function ()
+		slot4 = slot0.viewComponent
+
+		slot4:emit(BaseUI.ON_ACHIEVE, slot3.drops, function ()
 			uv0.viewComponent:flushAchieveUpdate(uv1.list)
 		end)
 	end

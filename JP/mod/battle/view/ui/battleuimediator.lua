@@ -396,8 +396,10 @@ function slot6.onCommonInit(slot0, slot1)
 end
 
 function slot6.onAddFleet(slot0, slot1)
+	slot2 = slot1.Data.fleetVO
+
 	if PlayerPrefs.GetInt(BATTLE_EXPOSE_LINE, 1) == 1 then
-		slot0:SetFleetCloakLine(slot1.Data.fleetVO)
+		slot0:SetFleetCloakLine(slot2)
 	end
 end
 
@@ -499,9 +501,10 @@ end
 
 function slot6.onBulletTime(slot0, slot1)
 	slot2 = slot1.Data
+	slot3 = slot2.key
 
 	if slot2.rate then
-		uv0.AppendMapFactor(slot2.key, slot4)
+		uv0.AppendMapFactor(slot3, slot4)
 	else
 		uv0.RemoveMapFactor(slot3)
 	end
@@ -531,9 +534,10 @@ end
 
 function slot6.onFleetBlind(slot0, slot1)
 	slot2 = slot1.Data.isBlind
+	slot3 = slot1.Dispatcher
 
 	if not slot0._inkView then
-		slot0:InitInkView(slot1.Dispatcher)
+		slot0:InitInkView(slot3)
 	end
 
 	if slot2 then

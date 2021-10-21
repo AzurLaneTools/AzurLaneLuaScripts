@@ -184,10 +184,18 @@ function slot0.onUpdateMemoryGroup(slot0, slot1, slot2)
 
 	slot3 = slot0.memoryGroups[slot1]
 	slot0.memoryGroupInfos[slot2] = slot3
+	slot5 = tf(slot2)
 
-	setText(tf(slot2):Find("title"), HXSet.hxLan(slot3.title))
-	slot0.loader:GetSprite("memoryicon/" .. slot3.icon, "", tf(slot2):Find("BG"))
-	setText(tf(slot2):Find("count"), _.reduce(slot3.memories, 0, function (slot0, slot1)
+	setText(slot5:Find("title"), HXSet.hxLan(slot3.title))
+
+	slot4 = slot0.loader
+	slot8 = tf(slot2)
+
+	slot4:GetSprite("memoryicon/" .. slot3.icon, "", slot8:Find("BG"))
+
+	slot7 = tf(slot2)
+
+	setText(slot7:Find("count"), _.reduce(slot3.memories, 0, function (slot0, slot1)
 		if pg.memory_template[slot1].is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot2.story, true) then
 			slot0 = slot0 + 1
 		end

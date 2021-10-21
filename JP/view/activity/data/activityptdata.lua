@@ -59,9 +59,10 @@ end
 function slot0.GetUnlockedMaxResRequire(slot0)
 	slot1 = pg.TimeMgr.GetInstance()
 	slot6 = slot1
+	slot2 = slot1:DiffDay(slot0.startTime, slot1.GetServerTime(slot6)) + 1
 
 	for slot6 = #slot0.targets, 1, -1 do
-		if slot0.unlockDay[slot6] <= slot1:DiffDay(slot0.startTime, slot1.GetServerTime(slot6)) + 1 then
+		if slot0.unlockDay[slot6] <= slot2 then
 			return slot0.targets[slot6]
 		end
 	end
@@ -123,18 +124,20 @@ function slot0.CanGetMorePt(slot0)
 end
 
 function slot0.CanTrain(slot0)
+	function slot1(slot0)
+		for slot4, slot5 in ipairs(uv0.curHasBuffs) do
+			if slot0 == slot5 then
+				return false
+			end
+		end
+
+		return true
+	end
+
 	slot5 = "target_buff"
 
 	for slot5, slot6 in ipairs(slot0.activity:getDataConfig(slot5)) do
-		if (function (slot0)
-			for slot4, slot5 in ipairs(uv0.curHasBuffs) do
-				if slot0 == slot5 then
-					return false
-				end
-			end
-
-			return true
-		end)(slot6) and slot6 <= slot0.level + 1 then
+		if slot1(slot6) and slot6 <= slot0.level + 1 then
 			return slot6
 		end
 	end

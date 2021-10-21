@@ -26,13 +26,15 @@ function slot0.OnInit(slot0)
 	slot5 = UIItemList.New(slot0._tf:Find("scroll_rect/content"), slot0._tf:Find("scroll_rect/content/item_tpl"))
 
 	slot5:make(function (slot0, slot1, slot2)
+		slot3 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
 			setActive(slot2:Find("icon/Image"), uv0 == uv1.PageTypeFurniture)
 			setActive(slot2:Find("icon/frame"), uv0 == uv1.PageTypeIconFrame)
 			setActive(slot2:Find("date"), uv0 == uv1.PageTypeFurniture)
 
 			if uv2.summaryInfoVO.pageType == uv1.PageTypeFurniture then
-				slot4 = uv3[slot1 + 1]
+				slot4 = uv3[slot3]
 				slot5 = uv2.summaryInfoVO.furnitures[slot4]
 				slot6 = pg.furniture_data_template[slot4]
 

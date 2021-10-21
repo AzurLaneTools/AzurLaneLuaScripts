@@ -49,9 +49,12 @@ function slot0.execute(slot0, slot1)
 	end
 
 	seriesAsync(slot8, function ()
-		pg.ConnectionMgr.GetInstance():Send(20013, {
+		slot0 = pg.ConnectionMgr.GetInstance()
+		slot4 = uv0
+
+		slot0:Send(20013, {
 			id = uv0.id,
-			item_cost = uv0:getConfig("quick_finish")
+			item_cost = slot4:getConfig("quick_finish")
 		}, 20014, function (slot0)
 			uv0:removeSubmittingTask(uv1)
 

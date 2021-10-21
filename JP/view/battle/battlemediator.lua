@@ -10,7 +10,9 @@ slot0.CLOSE_CHAT = "BattleMediator:CLOSE_CHAT"
 slot0.ON_AUTO = "BattleMediator:ON_AUTO"
 
 function slot0.register(slot0)
-	pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(true)
+	slot1 = pg.BrightnessMgr.GetInstance()
+
+	slot1:SetScreenNeverSleep(true)
 	slot0:GenBattleData()
 
 	slot0.contextData.battleData = slot0._battleData
@@ -257,13 +259,15 @@ function slot1(slot0, slot1, slot2, slot3)
 		end
 	end
 
+	slot5 = ys.Battle.BattleDataFunction.GenerateHiddenBuff(slot1.configId)
+
 	for slot9, slot10 in pairs(slot1.skills) do
 		if not slot10 or slot10.id ~= 14900 or slot1.transforms[16412] then
 			slot11 = {
 				level = slot10.level,
 				id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot10.id)
 			}
-			ys.Battle.BattleDataFunction.GenerateHiddenBuff(slot1.configId)[slot11.id] = slot11
+			slot5[slot11.id] = slot11
 		end
 	end
 
@@ -391,21 +395,23 @@ function slot0.GenBattleData(slot0)
 
 		slot0.mainShips = {}
 
+		function slot16(slot0, slot1, slot2)
+			slot4 = slot0.hpRant * 0.0001
+
+			if table.contains(uv0, slot0.id) then
+				BattleVertify.cloneShipVertiry = true
+			end
+
+			uv0[#uv0 + 1] = slot3
+			slot5 = uv1(uv2, slot0, slot1)
+			slot5.initHPRate = slot4
+
+			table.insert(uv3.mainShips, slot0)
+			table.insert(slot2, slot5)
+		end
+
 		for slot20, slot21 in ipairs(slot9) do
-			(function (slot0, slot1, slot2)
-				slot4 = slot0.hpRant * 0.0001
-
-				if table.contains(uv0, slot0.id) then
-					BattleVertify.cloneShipVertiry = true
-				end
-
-				uv0[#uv0 + 1] = slot3
-				slot5 = uv1(uv2, slot0, slot1)
-				slot5.initHPRate = slot4
-
-				table.insert(uv3.mainShips, slot0)
-				table.insert(slot2, slot5)
-			end)(slot21, slot12, slot1.MainUnitList)
+			slot16(slot21, slot12, slot1.MainUnitList)
 		end
 
 		for slot20, slot21 in ipairs(slot10) do
@@ -446,21 +452,23 @@ function slot0.GenBattleData(slot0)
 
 		slot0.mainShips = {}
 
+		function slot15(slot0, slot1, slot2)
+			slot4 = slot0.hpRant * 0.0001
+
+			if table.contains(uv0, slot0.id) then
+				BattleVertify.cloneShipVertiry = true
+			end
+
+			uv0[#uv0 + 1] = slot3
+			slot5 = uv1(uv2, slot0, slot1)
+			slot5.initHPRate = slot4
+
+			table.insert(uv3.mainShips, slot0)
+			table.insert(slot2, slot5)
+		end
+
 		for slot19, slot20 in ipairs(slot11) do
-			(function (slot0, slot1, slot2)
-				slot4 = slot0.hpRant * 0.0001
-
-				if table.contains(uv0, slot0.id) then
-					BattleVertify.cloneShipVertiry = true
-				end
-
-				uv0[#uv0 + 1] = slot3
-				slot5 = uv1(uv2, slot0, slot1)
-				slot5.initHPRate = slot4
-
-				table.insert(uv3.mainShips, slot0)
-				table.insert(slot2, slot5)
-			end)(slot20, slot9, slot1.MainUnitList)
+			slot15(slot20, slot9, slot1.MainUnitList)
 		end
 
 		for slot19, slot20 in ipairs(slot12) do
@@ -633,37 +641,44 @@ function slot0.GenBattleData(slot0)
 		slot1.MapAidSkills = {}
 
 		if slot9:IsSelf() then
-			slot17, slot1.WorldBossSupportDays, slot19 = slot6.GetSupportValue()
+			slot17, slot18, slot19 = slot6.GetSupportValue()
 
 			if slot17 then
 				table.insert(slot1.MapAidSkills, {
 					level = 1,
 					id = slot19
 				})
+
+				slot1.WorldBossSupportDays = slot18
 			end
 		end
 	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_ACT_BOSS or slot2 == SYSTEM_BOSS_EXPERIMENT then
 		if slot0.contextData.mainFleetId then
 			slot7 = getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId][slot0.contextData.mainFleetId]
+			slot8 = _.values(slot7:getCommanders())
 			slot1.CommanderList = slot7:buildBattleBuffList()
 			slot0.mainShips = {}
+			slot9 = {}
 			slot10 = {}
 			slot11 = {}
+
+			function slot12(slot0, slot1, slot2, slot3)
+				if table.contains(uv0, slot0) then
+					BattleVertify.cloneShipVertiry = true
+				end
+
+				uv0[#uv0 + 1] = slot0
+				slot4 = uv1:getShipById(slot0)
+
+				table.insert(uv4.mainShips, slot4)
+				table.insert(slot3, slot4)
+				table.insert(slot2, uv2(uv3, slot4, slot1))
+			end
+
 			slot14 = slot7:getTeamByName(TeamType.Vanguard)
 
 			for slot18, slot19 in ipairs(slot7:getTeamByName(TeamType.Main)) do
-				(function (slot0, slot1, slot2, slot3)
-					if table.contains(uv0, slot0) then
-						BattleVertify.cloneShipVertiry = true
-					end
-
-					uv0[#uv0 + 1] = slot0
-					slot4 = uv1:getShipById(slot0)
-
-					table.insert(uv4.mainShips, slot4)
-					table.insert(slot3, slot4)
-					table.insert(slot2, uv2(uv3, slot4, slot1))
-				end)(slot19, _.values(slot7:getCommanders()), slot1.MainUnitList, {})
+				slot12(slot19, slot8, slot1.MainUnitList, slot9)
 			end
 
 			for slot18, slot19 in ipairs(slot14) do
@@ -671,12 +686,16 @@ function slot0.GenBattleData(slot0)
 			end
 
 			slot15 = slot6[slot0.contextData.mainFleetId + 10]
+			slot16 = _.values(slot15:getCommanders())
 
 			for slot21, slot22 in ipairs(slot15:getTeamByName(TeamType.Submarine)) do
-				slot12(slot22, _.values(slot15:getCommanders()), slot1.SubUnitList, slot11)
+				slot12(slot22, slot16, slot1.SubUnitList, slot11)
 			end
 
-			if slot15:isLegalToFight() == true and (slot2 == SYSTEM_BOSS_EXPERIMENT or slot15:GetCostSum().oil + slot7:GetCostSum().oil < getProxy(PlayerProxy):getRawData().oil) then
+			slot19 = getProxy(PlayerProxy):getRawData()
+			slot20 = slot15:GetCostSum().oil + slot7:GetCostSum().oil
+
+			if slot15:isLegalToFight() == true and (slot2 == SYSTEM_BOSS_EXPERIMENT or slot20 < slot19.oil) then
 				slot1.SubFlag = 1
 				slot1.TotalSubAmmo = 1
 			end
@@ -815,9 +834,10 @@ function slot0.GenBattleData(slot0)
 
 	if slot5 then
 		slot1.RivalVO = slot5
+		slot6 = 0
 
 		for slot10, slot11 in ipairs(slot5.mainShips) do
-			slot6 = 0 + slot11.level
+			slot6 = slot6 + slot11.level
 		end
 
 		for slot10, slot11 in ipairs(slot5.vanguardShips) do
@@ -963,6 +983,7 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
 	slot4 = ys.Battle.BattleState.GetInstance()
 	slot5 = slot0.contextData.system
 
@@ -970,7 +991,7 @@ function slot0.handleNotification(slot0, slot1)
 		pg.MsgboxMgr.GetInstance():hide()
 		gcAll(true)
 
-		if slot1:getBody().system == SYSTEM_PROLOGUE then
+		if slot3.system == SYSTEM_PROLOGUE then
 			ys.Battle.BattleState.GetInstance():Deactive()
 			slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.CREATE_PLAYER)
 		elseif slot6 == SYSTEM_PERFORM or slot6 == SYSTEM_SIMULATION then

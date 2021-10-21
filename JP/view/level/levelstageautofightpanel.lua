@@ -28,8 +28,10 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.btnOn = slot0._tf:Find("On")
-	slot0.btnOff = slot0._tf:Find("Off")
+	slot1 = slot0._tf
+	slot0.btnOn = slot1:Find("On")
+	slot1 = slot0._tf
+	slot0.btnOff = slot1:Find("Off")
 
 	onButton(slot0, slot0.btnOn, function ()
 		getProxy(ChapterProxy):SetChapterAutoFlag(uv0.contextData.chapterVO.id, false)

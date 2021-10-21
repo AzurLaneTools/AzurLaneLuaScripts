@@ -195,18 +195,21 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+	slot4 = getProxy(ChallengeProxy)
+	slot5 = getProxy(ActivityProxy)
 	slot6 = getProxy(FleetProxy)
 
 	if slot1:getName() == GAME.CHALLENGE2_INITIAL_DONE then
-		slot7 = slot1:getBody().mode
-		slot8 = getProxy(ChallengeProxy):getUserChallengeInfo(slot7)
+		slot7 = slot3.mode
+		slot8 = slot4:getUserChallengeInfo(slot7)
 
 		slot0:addSubLayers(Context.New({
 			mediator = ChallengePreCombatMediator,
 			viewComponent = ChallengePreCombatLayer,
 			data = {
 				system = SYSTEM_CHALLENGE,
-				actID = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id,
+				actID = slot5:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id,
 				mode = slot7,
 				func = function ()
 					uv0:tryBattle()
@@ -244,7 +247,9 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateSlider()
 		slot0.viewComponent:updateFuncBtns()
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+		slot7 = slot0.viewComponent
+
+		slot7:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 			uv0.viewComponent:updateAwardPanel()
 		end)
 	elseif slot2 == CommanderProxy.PREFAB_FLEET_UPDATE then
@@ -262,7 +267,8 @@ end
 function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	slot5 = getProxy(BayProxy)
 	slot6 = getProxy(FleetProxy)
-	slot8 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE)
+	slot7 = getProxy(ActivityProxy)
+	slot8 = slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE)
 
 	return function (slot0, slot1)
 		slot2, slot3 = ShipStatus.ShipStatusCheck("inActivity", slot0, slot1, {
@@ -283,8 +289,10 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	end, function (slot0, slot1, slot2)
 		slot1()
 	end, function (slot0)
+		slot4 = uv1:getActivityFleets()[uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id][uv2]
+
 		if uv3 then
-			uv1:getActivityFleets()[uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id][uv2]:removeShip(uv3)
+			slot4:removeShip(uv3)
 		end
 
 		if #slot0 > 0 then

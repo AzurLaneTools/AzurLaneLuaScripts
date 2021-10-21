@@ -42,9 +42,10 @@ function slot2(slot0, slot1, slot2)
 		end
 	elseif slot1 == uv0.MessageCache.CMD_KILL then
 		slot3 = slot0.curRQPos_
+		slot4 = slot0.curRQLen_
 		slot5 = 1
 
-		while slot3 < slot0.curRQLen_ do
+		while slot3 < slot4 do
 			table.insert(slot0.cacheQueue_, slot5, slot0.retrieveQueue_[slot3])
 
 			slot0.retrieveQueue_[slot3] = nil
@@ -58,9 +59,10 @@ function slot2(slot0, slot1, slot2)
 		return uv0.MessageCache.OK, slot0.cacheQueue_
 	elseif slot1 == uv0.MessageCache.CMD_FLUSH then
 		slot3 = slot0.curRQPos_
+		slot4 = slot0.curRQLen_
 		slot5 = 1
 
-		while slot3 < slot0.curRQLen_ do
+		while slot3 < slot4 do
 			table.insert(slot0.cacheQueue_, slot5, slot0.retrieveQueue_[slot3])
 
 			slot0.retrieveQueue_[slot3] = nil

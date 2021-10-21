@@ -68,11 +68,13 @@ function slot3.DoTrack(slot0)
 
 	slot6 = slot3.x * slot5.x + slot3.z * slot5.z
 	slot8 = slot1:GetSpeedRatio()
+	slot10 = math.sin(slot1._sinAngularSpeed * slot8)
 	slot11 = slot6
+	slot12 = slot3.z * slot5.x - slot3.x * slot5.z
 
 	if slot6 < math.cos(slot1._cosAngularSpeed * slot8) then
 		slot11 = slot9
-		slot12 = math.sin(slot1._sinAngularSpeed * slot8) * (slot3.z * slot5.x - slot3.x * slot5.z > 0 and 1 or -1)
+		slot12 = slot10 * (slot12 > 0 and 1 or -1)
 	end
 
 	slot13 = slot5.x * slot11 - slot5.z * slot12
@@ -122,9 +124,10 @@ function slot3.Update(slot0, slot1)
 	uv0.super.Update(slot0, slot1)
 
 	slot0._reachDestFlag = slot1 > slot0._timeStamp + slot0._lifeTime
+	slot2 = pg.TimeMgr.GetInstance():GetCombatTime()
 
 	for slot6, slot7 in pairs(slot0._collidedTimes) do
-		if pg.TimeMgr.GetInstance():GetCombatTime() > slot7 + slot0._hitInterval then
+		if slot2 > slot7 + slot0._hitInterval then
 			slot0._collidedTimes[slot6] = nil
 			slot0._collidedList[slot6] = nil
 		end

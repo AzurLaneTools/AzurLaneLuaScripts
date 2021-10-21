@@ -200,8 +200,10 @@ function slot0.getDockCallbackFuncs(slot0)
 			return slot3, slot4
 		end
 
+		slot5 = getProxy(BayProxy)
+
 		for slot9, slot10 in ipairs(slot2) do
-			if slot0:isSameKind(getProxy(BayProxy):getShipById(slot10)) then
+			if slot0:isSameKind(slot5:getShipById(slot10)) then
 				return false, i18n("ship_formationMediator_changeNameError_sameShip")
 			end
 		end

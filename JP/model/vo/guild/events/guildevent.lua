@@ -27,44 +27,42 @@ function slot0.Active(slot0, slot1)
 	slot0.clueCount = slot1.clue_count
 	slot0.joinCnt = slot1.join_times
 	slot0.isParticipant = slot1.is_participant
-	slot2 = {
-		[slot7.event_id] = slot7.index
-	}
+	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1.perfs) do
-		-- Nothing
+		slot2[slot7.event_id] = slot7.index
 	end
 
-	slot3 = {
-		[slot8.key] = slot8.value
-	}
+	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1.formation_time) do
-		-- Nothing
+		slot3[slot8.key] = slot8.value
 	end
 
 	slot4 = 0
 
+	function slot5(slot0)
+		if uv0 < GuildMission.New(slot0):GetPosition() then
+			uv0 = slot2
+		end
+
+		if not uv1.missions[slot2] then
+			uv1.missions[slot2] = {}
+		end
+
+		if uv2[slot1.id] then
+			slot1:UpdateNodeAnimFlagIndex(uv2[slot1.id])
+		end
+
+		if uv3[slot1.id] then
+			slot1:UpdateFormationTime(uv3[slot1.id])
+		end
+
+		table.insert(uv1.missions[slot2], slot1)
+	end
+
 	for slot9, slot10 in ipairs(slot1.base_events) do
-		(function (slot0)
-			if uv0 < GuildMission.New(slot0):GetPosition() then
-				uv0 = slot2
-			end
-
-			if not uv1.missions[slot2] then
-				uv1.missions[slot2] = {}
-			end
-
-			if uv2[slot1.id] then
-				slot1:UpdateNodeAnimFlagIndex(uv2[slot1.id])
-			end
-
-			if uv3[slot1.id] then
-				slot1:UpdateFormationTime(uv3[slot1.id])
-			end
-
-			table.insert(uv1.missions[slot2], slot1)
-		end)(slot10)
+		slot5(slot10)
 	end
 
 	for slot9, slot10 in ipairs(slot1.completed_events) do
@@ -311,7 +309,10 @@ function slot0.GetUnlockMission(slot0)
 		end
 	end
 
-	for slot6, slot7 in ipairs(slot0.missions[slot1 + 1] or {}) do
+	slot3 = ipairs
+	slot4 = slot0.missions[slot1 + 1] or {}
+
+	for slot6, slot7 in slot3(slot4) do
 		if slot7:IsMain() then
 			return slot7
 		end

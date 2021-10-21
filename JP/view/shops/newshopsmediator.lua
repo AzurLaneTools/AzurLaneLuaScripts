@@ -29,8 +29,10 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.CHANGE_SCENE, SCENE.SKINSHOP)
 	end)
 	slot0:bind(uv0.GO_MALL, function (slot0, slot1)
+		slot2 = getProxy(ContextProxy)
+
 		if uv0.contextData.fromMediatorName == ChargeMediator.__cname then
-			getProxy(ContextProxy):getContextByMediator(ChargeMediator):extendData({
+			slot2:getContextByMediator(ChargeMediator):extendData({
 				wrap = slot1
 			})
 			uv0.viewComponent:closeView()
@@ -124,8 +126,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:SetPlayer(slot1:getBody())
+		slot0.viewComponent:SetPlayer(slot3)
 	elseif slot2 == ShopsProxy.SHOPPINGSTREET_UPDATE then
 		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_SHOP_STREET, slot3.shopStreet)
 	elseif slot2 == GAME.SHOPPING_DONE then

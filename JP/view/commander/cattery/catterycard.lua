@@ -37,8 +37,10 @@ end
 
 function slot0.UpdateStyle(slot0)
 	if not (slot0.cattery:GetState() == Cattery.STATE_LOCK) then
+		slot4 = slot1:_GetStyle_()
+
 		if slot2 == Cattery.STATE_EMPTY then
-			slot0.style.sprite = GetSpriteFromAtlas("CatteryStyle/" .. slot1:_GetStyle_():GetName(false), "")
+			slot0.style.sprite = GetSpriteFromAtlas("CatteryStyle/" .. slot4:GetName(false), "")
 		else
 			slot0.style.sprite = GetSpriteFromAtlas("CatteryStyle/" .. slot4:GetName(slot1:IsDirty()), "")
 		end

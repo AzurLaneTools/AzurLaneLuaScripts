@@ -50,7 +50,9 @@ end
 
 function slot0.initFriendsPage(slot0)
 	slot0.friendItems = {}
-	slot0.friendRect = slot0.friendPanel:Find("mask/view"):GetComponent("LScrollRect")
+	slot1 = slot0.friendPanel
+	slot1 = slot1:Find("mask/view")
+	slot0.friendRect = slot1:GetComponent("LScrollRect")
 
 	function slot0.friendRect.onInitItem(slot0)
 		uv0:onInitItem(slot0)
@@ -111,10 +113,11 @@ function slot0.updateFriendCount(slot0)
 end
 
 function slot0.initFriendsSortPanel(slot0)
+	slot2 = slot0:getTpl("tpl", slot0:findTF("mask/content", slot0.sortPanel))
 	slot0.friendSortCfg = require("view.friend.FriendSortCfg")
 
 	for slot6, slot7 in ipairs(slot0.friendSortCfg.SORT_TAG) do
-		slot8 = cloneTplTo(slot0:getTpl("tpl", slot0:findTF("mask/content", slot0.sortPanel)), slot1)
+		slot8 = cloneTplTo(slot2, slot1)
 		slot9 = slot8:Find("arr")
 
 		setImageSprite(slot8:Find("Image"), GetSpriteFromAtlas("ui/friendsui_atlas", slot7.spr), true)
@@ -154,7 +157,10 @@ function slot0.closeFriendsSortPanel(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	for slot4, slot5 in pairs(slot0.friendItems or {}) do
+	slot1 = pairs
+	slot2 = slot0.friendItems or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:dispose()
 	end
 end

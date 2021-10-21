@@ -66,13 +66,13 @@ function slot0.getAllFriends(slot0)
 end
 
 function slot0.getAllCacheMsg(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0.data) do
-		-- Nothing
+		slot1[slot6.player.id] = slot6.cacheMsgs
 	end
 
-	return Clone({
-		[slot6.player.id] = slot6.cacheMsgs
-	})
+	return Clone(slot1)
 end
 
 function slot0.getCacheMsgList(slot0)
@@ -154,9 +154,11 @@ function slot0.getFriendCount(slot0)
 end
 
 function slot0.getNewMsgCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6.player.unreadCount > 0 then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 

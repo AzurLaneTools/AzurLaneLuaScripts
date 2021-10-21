@@ -8,7 +8,10 @@ slot0.Listeners = {
 
 function slot0.Ctor(slot0)
 	uv0.super.Ctor(slot0)
-	PoolMgr.GetInstance():GetUI("WorldResPanel", false, function (slot0)
+
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetUI("WorldResPanel", false, function (slot0)
 		slot0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
 		uv0:onUILoaded(slot0)
 	end)
@@ -182,10 +185,13 @@ end
 
 function slot0.OnBossProgressUpdate(slot0)
 	slot1, slot2, slot3, slot4, slot5 = slot0.worldBossProxy:GetUnlockProgress()
+	slot6 = slot0.bossProgress:Find("value")
 	slot7 = slot0.bossProgress:Find("max_value")
+	slot8 = slot2 == WorldBossProxy.INFINITY and "#5E5E5EFF" or "#FAFAF7FF"
+	slot9 = "<color=%s>%d/%d</color>"
 
 	if slot2 == WorldBossProxy.INFINITY then
-		setText(slot0.bossProgress:Find("value"), string.format("<color=%s>%d/%d</color>", slot2 == WorldBossProxy.INFINITY and "#5E5E5EFF" or "#FAFAF7FF", slot5, slot5))
+		setText(slot6, string.format(slot9, slot8, slot5, slot5))
 	else
 		setText(slot6, string.format(slot9, slot8, slot1, slot2))
 	end

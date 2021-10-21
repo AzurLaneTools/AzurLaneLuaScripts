@@ -16,9 +16,10 @@ return {
 	__newindex = function (slot0, slot1, slot2)
 		if rawget(slot0._properties, slot1) ~= slot2 and not slot0._quiet then
 			slot0._properties[slot1] = uv0.CreateShell(slot2, slot0)
+			slot6 = uv0.DATA_UDPATE
 
 			if slot3 == nil then
-				slot6 = uv0.DATA_ADD or uv0.DATA_UDPATE
+				slot6 = uv0.DATA_ADD or slot6
 			end
 
 			if slot5 == nil then
@@ -35,7 +36,7 @@ return {
 
 			uv1 = 0
 
-			slot0:Response(slot0, {
+			slot0.Response(slot0, slot0, {
 				slot1
 			}, slot6)
 		end
@@ -75,8 +76,10 @@ return {
 			return
 		end
 
+		slot5 = table.getCount(slot0._parents)
+
 		for slot9, slot10 in pairs(slot0._parents) do
-			slot11 = table.getCount(slot0._parents) - 1 > 0 and Clone(slot2) or slot2
+			slot11 = slot5 - 1 > 0 and Clone(slot2) or slot2
 
 			table.insert(slot11, 1, table.keyof(slot9:GetRawData(), slot0))
 			slot9:Response(slot1, slot11, slot3)
@@ -103,7 +106,7 @@ return {
 	PropertyChange = function (slot0, slot1)
 		uv0 = 0
 
-		slot0:Response(slot0, {
+		slot0.Response(slot0, slot0, {
 			slot1
 		}, 0)
 	end,
@@ -182,11 +185,12 @@ return {
 				return
 			end
 
+			slot4 = slot0._properties[slot1]
 			slot5 = nil
 			slot0[slot1] = slot2
 
 			for slot9 = slot1 + 1, #slot0._properties + 1 do
-				slot0[slot9] = slot0._properties[slot1]
+				slot0[slot9] = slot4
 				slot4 = slot0._properties[slot9]
 			end
 		else

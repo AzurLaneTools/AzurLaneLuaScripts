@@ -13,7 +13,9 @@ function slot1.onTrigger(slot0, slot1, slot2, slot3)
 
 	uv0.super.onTrigger(slot0, slot1, slot2, slot8)
 
+	slot4 = uv1.Battle.BattleDataProxy.GetInstance()
+
 	for slot8, slot9 in ipairs(slot0._flags) do
-		uv1.Battle.BattleDataProxy.GetInstance():AddWaveFlag(slot9)
+		slot4:AddWaveFlag(slot9)
 	end
 end

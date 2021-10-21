@@ -13,7 +13,9 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.upgradeList:make(function (slot0, slot1, slot2)
+	slot1 = slot0.upgradeList
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			PublicGuildTechnologyCard.New(slot2:Find("content"), uv0):Update(uv0.technologyVOs[slot1 + 1])
 			setActive(slot2:Find("back"), false)

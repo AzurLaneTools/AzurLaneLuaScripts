@@ -59,7 +59,8 @@ function slot0.onRegister(slot0)
 	end
 
 	if BackYardConst.DEBUG then
-		slot0._escapeAITimer = pg.TimeMgr.GetInstance():AddTimer("escapeTimer", 0, UnityEngine.Time.fixedDeltaTime, function ()
+		slot1 = pg.TimeMgr.GetInstance()
+		slot0._escapeAITimer = slot1:AddTimer("escapeTimer", 0, UnityEngine.Time.fixedDeltaTime, function ()
 			uv0:Update()
 		end)
 	end
@@ -67,9 +68,10 @@ end
 
 function slot0.checkEffect(slot0)
 	slot1 = {}
+	slot2 = slot0.data:getFurnAndPaperIds()
 
 	for slot6, slot7 in ipairs(slot0.effects) do
-		if slot7:match(slot0.data:getFurnAndPaperIds()) and not table.contains(slot1, slot7) then
+		if slot7:match(slot2) and not table.contains(slot1, slot7) then
 			table.insert(slot1, slot7)
 		end
 	end
@@ -521,7 +523,8 @@ function slot0.addMoveOnFurnitrue(slot0, slot1, slot2, slot3)
 				uv0.moveNextTimer[uv1].func()
 			end
 
-			slot1 = uv2:getSurroundGrid()
+			slot1 = uv2
+			slot1 = slot1:getSurroundGrid()
 
 			(function ()
 				for slot3, slot4 in ipairs(uv0) do
@@ -589,8 +592,10 @@ function slot0.clearStageInteraction(slot0, slot1)
 end
 
 function slot0.addShipMove(slot0, slot1, slot2)
+	slot3 = slot0.data.ships[slot1]
+
 	if not BackYardConst.DEBUG then
-		slot0:shipRomdonMove(slot0.data.ships[slot1], slot2)
+		slot0:shipRomdonMove(slot3, slot2)
 	end
 end
 
@@ -731,7 +736,9 @@ function slot0.shipRomdonMove(slot0, slot1, slot2)
 end
 
 function slot0.updateArchState(slot0, slot1, slot2)
-	if slot1:getArchId() and not slot0.data:getArchByPos(slot2) then
+	slot3 = slot0.data:getArchByPos(slot2)
+
+	if slot1:getArchId() and not slot3 then
 		slot0:clearArchInteraction(slot1.id)
 	elseif not slot1:getArchId() and slot3 then
 		slot0:setArchInteraction(slot1.id, slot3.id)
@@ -837,8 +844,13 @@ function slot0.restoreFurnitures(slot0)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.data:getSortFurnitures()) do
-		if (slot9 or not slot0.data:isAddFurniture(slot8) and slot0.data:isChangeFurniture(slot8)) and not slot8:hasParent() then
-			for slot14, slot15 in pairs(slot8.child or {}) do
+		slot10 = not slot0.data:isAddFurniture(slot8) and slot0.data:isChangeFurniture(slot8)
+
+		if (slot9 or slot10) and not slot8:hasParent() then
+			slot11 = pairs
+			slot12 = slot8.child or {}
+
+			for slot14, slot15 in slot11(slot12) do
 				table.insert(slot3, slot14)
 			end
 
@@ -888,7 +900,9 @@ function slot0.restoreFurnitures(slot0)
 	end
 
 	if #slot2 > 0 then
-		pg.UIMgr.GetInstance():LoadingOn()
+		slot5 = pg.UIMgr.GetInstance()
+
+		slot5:LoadingOn()
 		seriesAsync(slot2, function ()
 			pg.UIMgr.GetInstance():LoadingOff()
 			uv0:sendNotification(uv1.BACKYARD_RESTORED)

@@ -12,10 +12,12 @@ end
 function slot0.OnUpdateFlush(slot0)
 	for slot4, slot5 in ipairs(slot0.taskVOList) do
 		slot7 = slot0.progress:GetChild(slot4 - 1)
+		slot8 = slot0:findTF("Empty", slot7)
+		slot9 = slot0:findTF("Full", slot7)
 
 		if slot5.state < SkirmishVO.StateClear then
-			setActive(slot0:findTF("Empty", slot7), true)
-			setActive(slot0:findTF("Full", slot7), false)
+			setActive(slot8, true)
+			setActive(slot9, false)
 		else
 			setActive(slot8, false)
 			setActive(slot9, true)

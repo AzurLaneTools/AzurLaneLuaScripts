@@ -57,10 +57,11 @@ function slot1.UpdateMapItems(slot0)
 	slot10 = 0
 
 	for slot14, slot15 in ipairs(slot6) do
+		slot16 = slot15
 		slot17 = slot3:GetChild(slot14 - 1)
 
 		if slot14 - 2 >= 0 then
-			go(slot4:GetChild(slot14 - 2)):SetActive(SkirmishVO.StateActive < slot15:GetState())
+			go(slot4:GetChild(slot14 - 2)):SetActive(SkirmishVO.StateActive < slot16:GetState())
 		end
 
 		setActive(slot17, SkirmishVO.StateActive < slot15:GetState())
@@ -109,8 +110,9 @@ function slot1.UpdateMapItems(slot0)
 			if uv1:GetType() == SkirmishVO.TypeStoryOrExpedition then
 				if tonumber(slot1) then
 					slot2 = uv2.sceneParent.contextData
+					slot3 = uv2
 
-					uv2:InvokeParent("emit", LevelMediator2.ON_PERFORM_COMBAT, tonumber(slot1), function ()
+					slot3:InvokeParent("emit", LevelMediator2.ON_PERFORM_COMBAT, tonumber(slot1), function ()
 						uv0.preparedTaskList = uv0.preparedTaskList or {}
 
 						table.insert(uv0.preparedTaskList, uv1)
@@ -119,7 +121,9 @@ function slot1.UpdateMapItems(slot0)
 					return
 				end
 
-				pg.NewStoryMgr.GetInstance():Play(slot1, function ()
+				slot2 = pg.NewStoryMgr.GetInstance()
+
+				slot2:Play(slot1, function ()
 					uv0:InvokeParent("emit", LevelMediator2.ON_SUBMIT_TASK, uv1)
 				end)
 			elseif slot0 == SkirmishVO.TypeChapter then
@@ -131,7 +135,8 @@ function slot1.UpdateMapItems(slot0)
 	if slot7 > 0 then
 		setActive(slot5, not slot8)
 
-		slot5.anchoredPosition = slot3:GetChild(slot7 - 1).anchoredPosition:Add(slot7 == 3 and uv1 or uv2)
+		slot12 = slot3:GetChild(slot7 - 1).anchoredPosition
+		slot5.anchoredPosition = slot12:Add(slot7 == 3 and uv1 or uv2)
 
 		setActive(slot5:Find("line1"), slot7 ~= 3)
 		setActive(slot5:Find("line2"), slot7 == 3)

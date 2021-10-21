@@ -6,11 +6,16 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnShow(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.THIRD_LAYER,
 		groupName = LayerWeightConst.GROUP_LEVELUI
 	})
-	slot0.animEvent:SetEndEvent(function ()
+
+	slot1 = slot0.animEvent
+
+	slot1:SetEndEvent(function ()
 		uv0:Hide()
 	end)
 end

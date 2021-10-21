@@ -47,8 +47,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.PUT_COMMANDER_IN_CATTERY_DONE then
-		slot0.viewComponent:OnCatteryUpdate(slot1:getBody().id)
+		slot0.viewComponent:OnCatteryUpdate(slot3.id)
 	elseif slot2 == GAME.COMMANDER_CHANGE_CATTERY_STYLE_DONE then
 		slot0.viewComponent:OnCatteryStyleUpdate(slot3.id)
 	elseif slot2 == GAME.COMMANDER_CATTERY_OP_DONE then

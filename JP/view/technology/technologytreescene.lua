@@ -325,9 +325,10 @@ function slot0.updateTecItemList(slot0)
 
 		uv0.expanded[slot0] = defaultValue(uv0.expanded[slot0], uv0.rowHeight)
 		GetComponent(slot1, "LayoutElement").preferredHeight = uv0.expanded[slot0]
+		slot15 = uv0:findTF("ClickBtn/ArrowBtn", slot1)
 
 		if uv0.rowHeight < uv0.expanded[slot0] then
-			setLocalRotation(uv0:findTF("ClickBtn/ArrowBtn", slot1), {
+			setLocalRotation(slot15, {
 				z = 0
 			})
 		else
@@ -361,13 +362,25 @@ function slot0.updateShipItemList(slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = uv0:findTF("BaseImg/CharImg", slot2)
 			slot5 = uv0
+			slot7 = uv0:findTF("BG", slot2)
 			slot8 = uv0:findTF("Star", slot2)
 			slot9 = uv0:findTF("Star/StarImg", slot2)
 			slot10 = uv0:findTF("Info", slot2)
-			slot13 = uv0:findTF("TypeIcon", uv0:findTF("BuffGet", slot10))
-			slot18 = uv0:findTF("TypeIcon", uv0:findTF("BuffComplete", slot10))
+			slot11 = uv0:findTF("PointText", slot10)
+			slot12 = uv0
+			slot13 = uv0:findTF("TypeIcon", slot12:findTF("BuffGet", slot10))
+			slot14 = uv0:findTF("AttrIcon", slot13)
+			slot15 = uv0:findTF("NumText", slot13)
+			slot16 = uv0:findTF("Lock", slot10)
+			slot17 = uv0
+			slot18 = uv0:findTF("TypeIcon", slot17:findTF("BuffComplete", slot10))
 			slot19 = uv0:findTF("AttrIcon", slot18)
 			slot20 = uv0:findTF("NumText", slot18)
+			slot21 = uv0:findTF("BottomBG", slot2)
+			slot22 = uv0:findTF("BottomBG/StatusUnknow", slot2)
+			slot23 = uv0:findTF("BottomBG/StatusResearching", slot2)
+			slot24 = uv0:findTF("ViewIcon", slot2)
+			slot25 = uv0:findTF("keyansaohguang", slot2)
 			slot26 = uv1[slot1 + 1]
 
 			setText(uv0:findTF("NameText", slot5:findTF("NameBG", slot2)), shortenString(ShipGroup.getDefaultShipNameByGroupID(slot26), 6))
@@ -385,22 +398,22 @@ function slot0.updateShipItemList(slot0, slot1, slot2)
 
 			if table.indexof(uv0.groupIDGotList, slot26, 1) then
 				setImageSprite(slot13, GetSpriteFromAtlas("ui/technologytreeui_atlas", "label_" .. pg.fleet_tech_ship_template[slot26].add_get_shiptype[1], true))
-				setImageSprite(uv0:findTF("AttrIcon", slot13), GetSpriteFromAtlas("attricon", pg.attribute_info_by_type[pg.fleet_tech_ship_template[slot26].add_get_attr].name, true))
-				setText(uv0:findTF("NumText", slot13), "+" .. pg.fleet_tech_ship_template[slot26].add_get_value)
+				setImageSprite(slot14, GetSpriteFromAtlas("attricon", pg.attribute_info_by_type[pg.fleet_tech_ship_template[slot26].add_get_attr].name, true))
+				setText(slot15, "+" .. pg.fleet_tech_ship_template[slot26].add_get_value)
 				setActive(slot12, true)
 
 				if uv0.collectionProxy:getShipGroup(slot26).maxLV < TechnologyConst.SHIP_LEVEL_FOR_BUFF then
-					setActive(uv0:findTF("BottomBG/StatusResearching", slot2), true)
-					setActive(uv0:findTF("BottomBG/StatusUnknow", slot2), false)
+					setActive(slot23, true)
+					setActive(slot22, false)
 					setActive(slot17, false)
-					setImageSprite(uv0:findTF("BG", slot2), GetSpriteFromAtlas("ui/technologytreeui_atlas", "card_bg_normal"))
-					setActive(uv0:findTF("BottomBG", slot2), true)
-					setActive(uv0:findTF("ViewIcon", slot2), true)
-					setActive(uv0:findTF("Lock", slot10), true)
-					setActive(uv0:findTF("keyansaohguang", slot2), false)
+					setImageSprite(slot7, GetSpriteFromAtlas("ui/technologytreeui_atlas", "card_bg_normal"))
+					setActive(slot21, true)
+					setActive(slot24, true)
+					setActive(slot16, true)
+					setActive(slot25, false)
 
 					if slot31.star == pg.fleet_tech_ship_template[slot26].max_star then
-						setText(uv0:findTF("PointText", slot10), "+" .. pg.fleet_tech_ship_template[slot26].pt_get + pg.fleet_tech_ship_template[slot26].pt_upgrage)
+						setText(slot11, "+" .. pg.fleet_tech_ship_template[slot26].pt_get + pg.fleet_tech_ship_template[slot26].pt_upgrage)
 					else
 						setText(slot11, "+" .. pg.fleet_tech_ship_template[slot26].pt_get)
 					end

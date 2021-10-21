@@ -11,8 +11,10 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.InitUI(slot0)
-	slot0.destroyBonusList = slot0._tf:Find("frame/bg/scrollview/list")
-	slot0.itemTpl = slot0.destroyBonusList:Find("item_tpl")
+	slot1 = slot0._tf
+	slot0.destroyBonusList = slot1:Find("frame/bg/scrollview/list")
+	slot1 = slot0.destroyBonusList
+	slot0.itemTpl = slot1:Find("item_tpl")
 
 	setText(slot0:findTF("frame/title_text/Text"), i18n("month_sign_resign"))
 	onButton(slot0, slot0:findTF("frame/top/btnBack"), function ()

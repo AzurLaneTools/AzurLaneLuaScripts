@@ -25,7 +25,9 @@ function slot0.OnDataSetting(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	onButton(slot0, slot0.bg:Find("battle_btn"), function ()
+	slot3 = slot0.bg
+
+	onButton(slot0, slot3:Find("battle_btn"), function ()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 16)
 	end, SFX_PANEL)
 end

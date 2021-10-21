@@ -135,8 +135,10 @@ function slot3.refreshCD(slot0)
 		slot0._current = 1
 		slot0._max = 1
 	else
+		slot4 = slot0:GetNextTimeStamp() - pg.TimeMgr.GetInstance():GetCombatTime()
+
 		if slot0._GCD <= slot0._current then
-			slot0._max = slot0:GetNextTimeStamp() - pg.TimeMgr.GetInstance():GetCombatTime()
+			slot0._max = slot4
 		else
 			slot0._max = math.max(math.max(slot0._max, slot0._GCD) - slot0._current, slot4)
 		end

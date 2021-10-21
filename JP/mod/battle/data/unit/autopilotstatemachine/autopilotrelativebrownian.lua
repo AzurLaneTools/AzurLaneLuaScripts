@@ -59,9 +59,10 @@ function slot1.GetDirection(slot0, slot1)
 			slot0._moveCount = 0
 		else
 			slot0._randomCount = 0
+			slot3 = uv0.Battle.BattleFormulas.RandomPos(slot0._relativePoint)
 			slot4 = 0
 
-			while Vector3.SqrDistance(uv0.Battle.BattleFormulas.RandomPos(slot0._relativePoint), slot1) < 5 do
+			while Vector3.SqrDistance(slot3, slot1) < 5 do
 				slot3 = uv0.Battle.BattleFormulas.RandomPos(slot0._relativePoint)
 				slot4 = slot4 + 1
 			end

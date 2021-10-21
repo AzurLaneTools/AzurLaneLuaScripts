@@ -7,11 +7,13 @@ return {
 		return (slot0 - 1) % slot1 + 1
 	end,
 	RayCross = function (slot0, slot1)
+		slot2 = 0
+
 		for slot7 = 0, #slot1 do
 			slot9 = slot1[uv0(slot7 + 1)]
 
 			if (slot1[uv0(slot7)].y <= slot0.y and slot0.y < slot9.y - uv1 or slot9.y <= slot0.y and slot0.y < slot8.y - uv1) and (slot0.x <= slot8.x or slot0.x <= slot9.x) and slot0.x + uv1 < slot8.x + (slot0.y - slot8.y) / (slot9.y - slot8.y) * (slot9.x - slot8.x) then
-				slot2 = 0 + 1
+				slot2 = slot2 + 1
 			end
 		end
 
@@ -21,10 +23,15 @@ return {
 		return bit.band(uv0(slot0, slot1), 1) > 0
 	end,
 	IsPointInAngle = function (slot0, slot1, slot2, slot3)
+		slot5 = uv0.VectorCross(slot0, slot2, slot1)
+		slot6 = uv0.VectorCross(slot0, slot1, slot3)
+
 		if uv0.IsZero(uv0.VectorCross(slot0, slot2, slot3)) then
-			return uv0.VectorCross(slot0, slot2, slot1) <= uv0.eps or uv0.VectorCross(slot0, slot1, slot3) <= uv0.eps
+			return slot5 <= uv0.eps or slot6 <= uv0.eps
 		else
-			return slot5 <= uv0.eps and slot6 <= uv0.eps
+			slot8 = slot5 <= uv0.eps and slot6 <= uv0.eps
+
+			return slot8
 		end
 	end,
 	IsCrossAnyEdge = function (slot0, slot1, slot2, slot3, slot4, slot5)
@@ -105,11 +112,14 @@ return {
 			return 0
 		end
 
+		slot2 = 0
+		slot3 = 0
+
 		for slot7 = 1, slot1 do
 			slot8 = slot0[slot7]
 			slot9 = slot0[uv0(slot7 + 1, slot1)]
-			slot2 = 0 + slot8.x * slot9.y
-			slot3 = 0 + slot8.y * slot9.x
+			slot2 = slot2 + slot8.x * slot9.y
+			slot3 = slot3 + slot8.y * slot9.x
 		end
 
 		return (slot2 - slot3) / 2

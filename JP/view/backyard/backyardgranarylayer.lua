@@ -126,19 +126,37 @@ function slot5(slot0, slot1)
 		slot0._tf = tf(uv0)
 		slot0.parent = slot0._tf.parent
 		slot0.overlay = uv1
-		slot0.foodItem = slot0._tf:Find("frame")
-		slot0.foodName = slot0._tf:Find("frame/name"):GetComponent(typeof(Text))
-		slot0.foodDesc = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
-		slot0.calPanel = slot0._tf:Find("frame/cal_panel")
-		slot0.cancelBtn = slot0._tf:Find("frame/cancel_btn")
-		slot0.countValue = slot0.calPanel:Find("value/Text"):GetComponent(typeof(Text))
-		slot0.total = slot0.calPanel:Find("total/Text"):GetComponent(typeof(Text))
-		slot0.totalIcon = slot0.calPanel:Find("total/icon"):GetComponent(typeof(Image))
-		slot0.minusBtn = slot0.calPanel:Find("minus_btn")
-		slot0.addBtn = slot0.calPanel:Find("add_btn")
-		slot0.tenBtn = slot0.calPanel:Find("ten_btn")
-		slot0.confirmBtn = slot0._tf:Find("frame/ok_btn")
-		slot0.cancelBtn = slot0._tf:Find("frame/cancel_btn")
+		slot1 = slot0._tf
+		slot0.foodItem = slot1:Find("frame")
+		slot1 = slot0._tf
+		slot1 = slot1:Find("frame/name")
+		slot0.foodName = slot1:GetComponent(typeof(Text))
+		slot1 = slot0._tf
+		slot1 = slot1:Find("frame/desc")
+		slot0.foodDesc = slot1:GetComponent(typeof(Text))
+		slot1 = slot0._tf
+		slot0.calPanel = slot1:Find("frame/cal_panel")
+		slot1 = slot0._tf
+		slot0.cancelBtn = slot1:Find("frame/cancel_btn")
+		slot1 = slot0.calPanel
+		slot1 = slot1:Find("value/Text")
+		slot0.countValue = slot1:GetComponent(typeof(Text))
+		slot1 = slot0.calPanel
+		slot1 = slot1:Find("total/Text")
+		slot0.total = slot1:GetComponent(typeof(Text))
+		slot1 = slot0.calPanel
+		slot1 = slot1:Find("total/icon")
+		slot0.totalIcon = slot1:GetComponent(typeof(Image))
+		slot1 = slot0.calPanel
+		slot0.minusBtn = slot1:Find("minus_btn")
+		slot1 = slot0.calPanel
+		slot0.addBtn = slot1:Find("add_btn")
+		slot1 = slot0.calPanel
+		slot0.tenBtn = slot1:Find("ten_btn")
+		slot1 = slot0._tf
+		slot0.confirmBtn = slot1:Find("frame/ok_btn")
+		slot1 = slot0._tf
+		slot0.cancelBtn = slot1:Find("frame/cancel_btn")
 
 		onButton(nil, slot0._tf, function ()
 			uv0:Hide()
@@ -185,11 +203,19 @@ function slot6(slot0, slot1)
 		slot0._tf = tf(uv0)
 		slot0.parent = slot0._tf.parent
 		slot0.overlay = uv1
-		slot0.icon = slot0._tf:Find("frame/tip/icon"):GetComponent(typeof(Image))
-		slot0.consume = slot0._tf:Find("frame/tip/Text"):GetComponent(typeof(Text))
-		slot0.desc = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
-		slot0.addBtn = slot0._tf:Find("frame/ok_btn")
-		slot0.cancelBtn = slot0._tf:Find("frame/cancel_btn")
+		slot1 = slot0._tf
+		slot1 = slot1:Find("frame/tip/icon")
+		slot0.icon = slot1:GetComponent(typeof(Image))
+		slot1 = slot0._tf
+		slot1 = slot1:Find("frame/tip/Text")
+		slot0.consume = slot1:GetComponent(typeof(Text))
+		slot1 = slot0._tf
+		slot1 = slot1:Find("frame/desc")
+		slot0.desc = slot1:GetComponent(typeof(Text))
+		slot1 = slot0._tf
+		slot0.addBtn = slot1:Find("frame/ok_btn")
+		slot1 = slot0._tf
+		slot0.cancelBtn = slot1:Find("frame/cancel_btn")
 
 		onButton(nil, slot0.cancelBtn, function ()
 			uv0:Hide()
@@ -398,7 +424,9 @@ function slot0.updateTotalConsume(slot0, slot1)
 end
 
 function slot0.openFoodShop(slot0, slot1)
-	slot0.foodMsgBox:Show(slot1, function (slot0)
+	slot2 = slot0.foodMsgBox
+
+	slot2:Show(slot1, function (slot0)
 		if uv0.playerVO[id2res(slot0.resourceType)] < slot0.resourceNum * slot0.count then
 			if slot0.resourceType == 4 then
 				GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
@@ -423,7 +451,9 @@ function slot0.openExtendPanel(slot0)
 		return
 	end
 
-	slot0.extendPanel:Show(slot1, slot0.capacity, function (slot0)
+	slot2 = slot0.extendPanel
+
+	slot2:Show(slot1, slot0.capacity, function (slot0)
 		if uv0.playerVO[id2res(slot0.resType)] < slot0.resCount then
 			if slot0.resType == 4 then
 				GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
@@ -458,13 +488,15 @@ function slot0.calFoodLeftTime(slot0, slot1)
 
 	slot2 = table.getCount(slot0.addExpShipVOs)
 
+	function slot3(slot0)
+		SetActive(uv0.leftTimeTF, true)
+		SetActive(uv0.chatContain, false)
+		SetActive(uv0.bottomText, false)
+		setText(uv0.leftTimeTF, slot0)
+	end
+
 	if slot1.food <= 0 then
-		(function (slot0)
-			SetActive(uv0.leftTimeTF, true)
-			SetActive(uv0.chatContain, false)
-			SetActive(uv0.bottomText, false)
-			setText(uv0.leftTimeTF, slot0)
-		end)(i18n("backyard_backyardGranaryLayer_word"))
+		slot3(i18n("backyard_backyardGranaryLayer_word"))
 
 		return
 	end

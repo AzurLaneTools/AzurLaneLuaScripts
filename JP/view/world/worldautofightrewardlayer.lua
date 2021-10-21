@@ -45,8 +45,9 @@ end
 
 function slot0.UpdateView(slot0)
 	slot1 = slot0.contextData
+	slot4 = slot0._tf
 
-	onButton(slot0, slot0._tf:Find("BG"), function ()
+	onButton(slot0, slot4:Find("BG"), function ()
 		if uv0.isRewardAnimating then
 			uv0:SkipAnim()
 
@@ -56,15 +57,22 @@ function slot0.UpdateView(slot0)
 		existCall(uv1.onClose)
 		uv0:closeView()
 	end)
-	setText(slot0.window:Find("Fixed/ButtonExit/pic"), i18n("autofight_leave"))
-	onButton(slot0, slot0.window:Find("Fixed/ButtonExit"), function ()
+
+	slot3 = slot0.window
+
+	setText(slot3:Find("Fixed/ButtonExit/pic"), i18n("autofight_leave"))
+
+	slot4 = slot0.window
+
+	onButton(slot0, slot4:Find("Fixed/ButtonExit"), function ()
 		existCall(uv0.onClose)
 		uv1:closeView()
 	end, SFX_CANCEL)
 
 	slot2 = nowWorld.autoInfos
+	slot3 = nowWorld
 
-	nowWorld:InitAutoInfos()
+	slot3:InitAutoInfos()
 	DropResultIntegration(slot2.drops)
 
 	slot3 = underscore.map(slot2.drops, function (slot0)
@@ -90,10 +98,11 @@ function slot0.UpdateView(slot0)
 	setActive(slot0.itemList, #slot3 > 0)
 
 	slot0.tweenItems = {}
+	slot4 = CustomIndexLayer.Clone2Full(slot0.itemList, #slot3)
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot3) do
-		slot12 = CustomIndexLayer.Clone2Full(slot0.itemList, #slot3)[slot9]
+		slot12 = slot4[slot9]
 
 		updateDrop(slot12:Find("Shell/Icon"), slot10.drop)
 		onButton(slot0, slot12:Find("Shell/Icon"), function ()

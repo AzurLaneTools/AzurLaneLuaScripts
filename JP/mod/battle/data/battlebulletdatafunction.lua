@@ -45,8 +45,14 @@ function slot4.GenerateTransBarrage(slot0, slot1, slot2)
 	slot4 = uv0.GetBarrageTmpDataFromID(slot0)
 
 	while slot4.trans_ID ~= -1 do
-		if uv0.GetBarrageTmpDataFromID(slot4.trans_ID).offset_prioritise then
-			-- Nothing
+		slot4 = uv0.GetBarrageTmpDataFromID(slot4.trans_ID)
+		slot6 = {
+			transStartDelay = slot4.first_delay + slot4.delay * slot2 + slot4.delta_delay * slot2
+		}
+
+		if slot4.offset_prioritise then
+			slot6.transAimPosX = slot4.offset_x + slot4.delta_offset_x * slot2
+			slot6.transAimPosZ = slot4.offset_z + slot4.delta_offset_z * slot2
 		else
 			slot6.transAimAngle = slot4.angle + slot4.delta_angle * slot2
 
@@ -55,11 +61,7 @@ function slot4.GenerateTransBarrage(slot0, slot1, slot2)
 			end
 		end
 
-		slot3[#slot3 + 1] = {
-			transStartDelay = slot4.first_delay + slot4.delay * slot2 + slot4.delta_delay * slot2,
-			transAimPosX = slot4.offset_x + slot4.delta_offset_x * slot2,
-			transAimPosZ = slot4.offset_z + slot4.delta_offset_z * slot2
-		}
+		slot3[#slot3 + 1] = slot6
 	end
 
 	return slot3
@@ -81,9 +83,10 @@ function slot4._createBombBullet(slot0, slot1, slot2, slot3, slot4)
 
 	if slot4:EqualZero() then
 		slot4 = slot2:GetPosition():Clone()
+		slot6 = slot3:GetTemplateData().range
 
 		if slot2:GetDirection() == uv1.UnitDir.RIGHT then
-			slot4.x = slot4.x + slot3:GetTemplateData().range
+			slot4.x = slot4.x + slot6
 		else
 			slot4.x = slot4.x - slot6
 		end
@@ -251,6 +254,10 @@ function slot4.barrageInteration(slot0, slot1)
 	slot6 = slot0.offset_z
 	slot7 = slot0.angle
 	slot8 = slot0.delay
+	slot9 = slot0.delta_offset_x
+	slot10 = slot0.delta_offset_z
+	slot11 = slot0.delta_angle
+	slot12 = slot0.delta_delay
 
 	for slot16 = 0, slot0.primal_repeat do
 		table.insert(slot4, {
@@ -260,10 +267,10 @@ function slot4.barrageInteration(slot0, slot1)
 			Delay = slot8
 		})
 
-		slot5 = slot5 + slot0.delta_offset_x
-		slot6 = slot6 + slot0.delta_offset_z
-		slot7 = slot7 + slot0.delta_angle
-		slot8 = slot8 + slot0.delta_delay
+		slot5 = slot5 + slot9
+		slot6 = slot6 + slot10
+		slot7 = slot7 + slot11
+		slot8 = slot8 + slot12
 	end
 
 	return slot4

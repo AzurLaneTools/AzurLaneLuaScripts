@@ -248,6 +248,8 @@ function slot0.OnClickRichText(slot0, slot1, slot2)
 
 		slot0:AppendText(string.format("[%s] [id: %s] [config_id: %s]", slot4:getName(), slot10, slot11))
 
+		slot6 = slot4:getProperties()
+
 		for slot10, slot11 in ipairs({
 			{
 				AttributeType.Durability,
@@ -372,7 +374,7 @@ function slot0.OnClickRichText(slot0, slot1, slot2)
 		}) do
 			slot12 = nil
 
-			if (slot11[1] ~= AttributeType.Armor or slot4:getShipArmorName()) and slot4:getProperties()[slot11[1]] then
+			if (slot11[1] ~= AttributeType.Armor or slot4:getShipArmorName()) and slot6[slot11[1]] then
 				slot0:AppendText(string.format("\t\t%s[%s] : <color=#A9F548>%s</color>", slot11[1], slot11[2], slot12))
 			end
 		end
@@ -383,8 +385,9 @@ end
 
 function slot0.AppendText(slot0, slot1)
 	slot2 = cloneTplTo(slot0.rtText, slot0.rtContent, false)
+	slot3 = slot2:GetComponent("RichText")
 
-	slot2:GetComponent("RichText"):AddListener(function (slot0, slot1)
+	slot3:AddListener(function (slot0, slot1)
 		uv0:OnClickRichText(slot0, slot1)
 	end)
 	setText(slot2, slot1)

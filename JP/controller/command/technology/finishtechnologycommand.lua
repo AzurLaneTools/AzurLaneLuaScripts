@@ -12,7 +12,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(63003, {
+	slot7 = pg.ConnectionMgr.GetInstance()
+
+	slot7:Send(63003, {
 		tech_id = slot3,
 		refresh_id = slot4
 	}, 63004, function (slot0)
@@ -27,8 +29,10 @@ function slot0.execute(slot0, slot1)
 				getProxy(TechnologyProxy):addCatupPrintsNum(slot0.count)
 			end)
 
+			slot3 = PlayerConst.addTranDrop(slot0.catchupact_list)
+
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot4:isEnd() then
-				underscore.each(PlayerConst.addTranDrop(slot0.catchupact_list), function (slot0)
+				underscore.each(slot3, function (slot0)
 					uv0.data1 = uv0.data1 + slot0.count
 				end)
 			end

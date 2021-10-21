@@ -2,8 +2,9 @@ slot0 = class("EndToLearnCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(22004, {
+	slot3:Send(22004, {
 		type = 0
 	}, 22005, function (slot0)
 		if slot0.result == 0 then

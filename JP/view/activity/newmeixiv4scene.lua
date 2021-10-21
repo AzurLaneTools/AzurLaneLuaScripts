@@ -73,10 +73,12 @@ function slot0.setCurIndex(slot0)
 	end)()
 
 	for slot5, slot6 in ipairs(slot0.contextData.taskList) do
+		slot9 = slot0.taskProxy:getTaskById(slot0.contextData.taskList[slot5 + 1]) or slot0.taskProxy:getFinishTaskById(slot8)
+
 		if (slot0.taskProxy:getTaskById(slot6) or slot0.taskProxy:getFinishTaskById(slot6)) and slot7:getTaskStatus() == 2 then
 			slot0.curIndex = slot0.curIndex + 1
 
-			if not slot8 or not (slot0.taskProxy:getTaskById(slot0.contextData.taskList[slot5 + 1]) or slot0.taskProxy:getFinishTaskById(slot8)) then
+			if not slot8 or not slot9 then
 				slot0.curIndex = slot0.curIndex - 1
 			end
 		end
@@ -111,9 +113,18 @@ function slot0.nodeInfoTween(slot0, slot1)
 		slot2.y = slot2.y - 20
 	end
 
+	function slot3()
+		setLocalPosition(uv0.nodeInfo, Vector3(uv1.x, uv1.y + 120, 0))
+		setLocalScale(uv0.nodeInfo, Vector3(0, 0, 0))
+		LeanTween.scale(tf(uv0.nodeInfo), Vector3.one, 0.1)
+	end
+
 	function slot4(slot0)
 		setLocalScale(uv0.nodeInfo, Vector3(1, 1, 1))
-		LeanTween.scale(tf(uv0.nodeInfo), Vector3.zero, 0.1):setOnComplete(System.Action(function ()
+
+		slot1 = LeanTween.scale(tf(uv0.nodeInfo), Vector3.zero, 0.1)
+
+		slot1:setOnComplete(System.Action(function ()
 			if uv0 then
 				uv0()
 			end
@@ -122,11 +133,7 @@ function slot0.nodeInfoTween(slot0, slot1)
 
 	if not isActive(slot0.nodeInfo) then
 		setActive(slot0.nodeInfo, true)
-		(function ()
-			setLocalPosition(uv0.nodeInfo, Vector3(uv1.x, uv1.y + 120, 0))
-			setLocalScale(uv0.nodeInfo, Vector3(0, 0, 0))
-			LeanTween.scale(tf(uv0.nodeInfo), Vector3.one, 0.1)
-		end)()
+		slot3()
 	else
 		slot4(slot3)
 	end
@@ -174,8 +181,10 @@ function slot0.updateNodeInfo(slot0, slot1)
 end
 
 function slot0.onUpdateTask(slot0)
+	slot1 = slot0.contextData.taskList[slot0.curIndex]
+
 	for slot5, slot6 in pairs(slot0.storyGroup) do
-		if slot0.contextData.taskList[slot0.curIndex] == slot6[1] then
+		if slot1 == slot6[1] then
 			slot0:getStory(slot6[2], slot6[3])
 		end
 	end
@@ -185,17 +194,30 @@ end
 
 function slot0.getStory(slot0, slot1, slot2)
 	setActive(slot0.storyTip, true)
-	pg.NewStoryMgr.GetInstance():SetPlayedFlag(slot2)
+
+	slot4 = pg.NewStoryMgr.GetInstance()
+
+	slot4:SetPlayedFlag(slot2)
 	setText(slot0:findTF("bar/Anim/Frame/Mask/Name", slot0.storyTip), HXSet.hxLan(pg.memory_template[slot1].title))
 	removeOnButton(slot0.storyTip)
 	removeOnButton(slot0:findTF("bar/Button", slot0.storyTip))
-	pg.UIMgr.GetInstance():BlurPanel(slot0.storyTip)
-	slot0:findTF("bar", slot0.storyTip):GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+
+	slot4 = pg.UIMgr.GetInstance()
+
+	slot4:BlurPanel(slot0.storyTip)
+
+	slot4 = slot0:findTF("bar", slot0.storyTip)
+	slot4 = slot4:GetComponent(typeof(DftAniEvent))
+
+	slot4:SetEndEvent(function ()
 		onButton(uv0, uv0.storyTip, function ()
 			pg.UIMgr.GetInstance():UnblurPanel(uv0.storyTip)
 			setActive(uv0.storyTip, false)
 		end)
-		onButton(uv0, uv0:findTF("bar/Button", uv0.storyTip), function ()
+
+		slot2 = uv0
+
+		onButton(uv0, slot2:findTF("bar/Button", uv0.storyTip), function ()
 			uv0:emit(NewMeixiV4Mediator.GO_STORY, uv0.memoryGroup)
 			triggerButton(uv0.storyTip)
 		end, SFX_PANEL)

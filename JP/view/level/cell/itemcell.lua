@@ -35,8 +35,9 @@ end
 
 function slot0.Update(slot0)
 	slot1 = slot0.info
+	slot2 = slot0.loader
 
-	slot0.loader:GetPrefabBYStopLoading("chapter/" .. slot1.item, slot1.item, function (slot0)
+	slot2:GetPrefabBYStopLoading("chapter/" .. slot1.item, slot1.item, function (slot0)
 		slot1 = slot0.transform
 		slot1.name = uv0.item
 

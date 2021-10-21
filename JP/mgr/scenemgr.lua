@@ -10,16 +10,18 @@ function slot1.prepare(slot0, slot1, slot2, slot3)
 
 	slot5 = nil
 
+	function slot5()
+		uv0.event:disconnect(BaseUI.LOADED, uv1)
+
+		slot0 = uv2.mediator.New(uv0)
+
+		slot0:setContextData(uv2.data)
+		uv3:registerMediator(slot0)
+		uv4(slot0)
+	end
+
 	if slot4:isLoaded() then
-		(function ()
-			uv0.event:disconnect(BaseUI.LOADED, uv1)
-
-			slot0 = uv2.mediator.New(uv0)
-
-			slot0:setContextData(uv2.data)
-			uv3:registerMediator(slot0)
-			uv4(slot0)
-		end)()
+		slot5()
 	else
 		slot4.event:connect(BaseUI.LOADED, slot5)
 		slot4:load()
@@ -28,11 +30,12 @@ end
 
 function slot1.prepareLayer(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
+	slot6 = {}
 
 	if slot2 ~= nil then
 		if slot2:getContextByMediator(slot3.mediator) then
 			print("mediator already exist: " .. slot3.mediator.__cname)
-			slot4({})
+			slot4(slot6)
 
 			return
 		end

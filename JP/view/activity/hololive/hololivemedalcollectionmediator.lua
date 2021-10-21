@@ -30,11 +30,15 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.MEMORYBOOK_UNLOCK_DONE then
 		slot0.viewComponent:UpdateView()
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
-		slot0.viewComponent:PlayStory(function ()
+		slot4 = slot0.viewComponent
+
+		slot4:PlayStory(function ()
 			uv0.viewComponent:emit(BaseUI.ON_ACHIEVE, uv1.awards, uv1.callback)
 		end)
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+		slot4 = slot0.viewComponent
+
+		slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 			uv0.viewComponent:UpdateView()
 		end)
 	elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then

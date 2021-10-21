@@ -2,8 +2,9 @@ slot0 = class("ColoringAchieveCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(26002, {
+	slot5:Send(26002, {
 		act_id = slot2.activityId,
 		id = slot2.id
 	}, 26003, function (slot0)

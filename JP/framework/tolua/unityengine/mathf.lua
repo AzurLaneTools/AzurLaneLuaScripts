@@ -188,9 +188,10 @@ end
 
 function slot3.MultiRandom(slot0, slot1)
 	slot2 = {}
+	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0) do
-		table.insert({}, slot7)
+		table.insert(slot3, slot7)
 	end
 
 	slot1 = uv0.min(#slot0, slot1)

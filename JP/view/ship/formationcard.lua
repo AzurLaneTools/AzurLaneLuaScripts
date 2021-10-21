@@ -83,7 +83,9 @@ function slot0.flush(slot0)
 		end)
 
 		if not slot8 then
-			PoolMgr.GetInstance():GetPrefab("effect/" .. slot7, "", true, function (slot0)
+			slot9 = PoolMgr.GetInstance()
+
+			slot9:GetPrefab("effect/" .. slot7, "", true, function (slot0)
 				setParent(slot0, uv0.otherBg)
 			end)
 		end

@@ -13,8 +13,11 @@ function slot0.Refresh(slot0)
 	slot1, slot2 = slot0:getStudents()
 
 	_.each(_.keys(slot0.academyStudents), function (slot0)
+		slot2 = uv1[slot0]
+		slot3 = uv2.academyStudents[slot0]
+
 		if uv0[slot0] then
-			uv2.academyStudents[slot0]:updateStudent(slot1, uv1[slot0])
+			slot3:updateStudent(slot1, slot2)
 		else
 			slot3:detach()
 		end
@@ -83,13 +86,14 @@ function slot0.sortStudents(slot0)
 end
 
 function slot0.onTask(slot0, slot1, slot2)
+	slot3 = getProxy(TaskProxy)
 	slot4 = getProxy(ActivityProxy)
 
 	if _.detect(slot4:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
 		return slot0:getTaskShip() and slot1.groupId == uv0.groupId
 	end) and not slot6:isEnd() then
 		if slot6.id == ActivityConst.JYHZ_ACTIVITY_ID and slot2.acceptTaskId then
-			slot7 = getProxy(TaskProxy):getAcademyTask(slot1.groupId)
+			slot7 = slot3:getAcademyTask(slot1.groupId)
 
 			if slot4:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and _.detect(slot8:getConfig("config_data"), function (slot0)
 				return _.any(pg.chapter_template[slot0].npc_data, function (slot0)
@@ -178,19 +182,17 @@ function slot0.getStudents(slot0)
 
 				if slot9 == 1 then
 					uv0[slot10.id].withShipFace = true
-					slot11 = {
-						type = slot10.type,
-						param = slot10.param,
-						showTips = slot12 and not slot13 or slot13 and slot13:isFinish() and not slot13:isReceive(),
-						acceptTaskId = slot12,
-						currentTask = slot13
-					}
+					slot11 = {}
 
 					if slot10.type then
-						-- Nothing
+						slot11.type = slot10.type
+						slot11.param = slot10.param
 					end
 
 					slot12, slot13 = getActivityTask(slot0, true)
+					slot11.showTips = slot12 and not slot13 or slot13 and slot13:isFinish() and not slot13:isReceive()
+					slot11.acceptTaskId = slot12
+					slot11.currentTask = slot13
 					uv1[slot10.id] = slot11
 					slot4 = slot11.acceptTaskId
 					slot5 = slot11.currentTask
@@ -198,9 +200,10 @@ function slot0.getStudents(slot0)
 
 				if slot10.tasks then
 					uv0[slot10.id].hide = true
+					slot12 = slot5 and table.indexof(slot3, slot5.id) or table.indexof(slot3, slot4)
 
 					for slot16, slot17 in ipairs(slot11) do
-						if slot17 == (slot5 and table.indexof(slot3, slot5.id) or table.indexof(slot3, slot4)) then
+						if slot17 == slot12 then
 							uv0[slot10.id].hide = false
 
 							break

@@ -285,7 +285,10 @@ function slot0.addListener(slot0)
 			uv0:updateSongTFLikeImg(uv0.songTFList[uv0.curMidddleIndex], true)
 		end
 	end, SFX_PANEL)
-	slot0.playSliderSC:AddPointDownFunc(function (slot0)
+
+	slot1 = slot0.playSliderSC
+
+	slot1:AddPointDownFunc(function (slot0)
 		if uv0.playbackInfo and not uv0.onDrag then
 			uv0.onDrag = true
 
@@ -296,7 +299,10 @@ function slot0.addListener(slot0)
 			uv0.playProgressTimer:Stop()
 		end
 	end)
-	slot0.playSliderSC:AddPointUpFunc(function (slot0)
+
+	slot1 = slot0.playSliderSC
+
+	slot1:AddPointUpFunc(function (slot0)
 		if uv0.playbackInfo and uv0.onDrag then
 			uv0.onDrag = false
 
@@ -418,11 +424,12 @@ function slot0.updatePlateTF(slot0, slot1, slot2)
 
 	slot16 = slot13.id
 	slot17, slot18 = nil
+	slot18 = slot0.appreciateProxy:getMusicExistStateByID(slot16)
 
 	if slot0:getMusicStateByID(slot16) == GalleryConst.CardStates.DirectShow then
 		print("is impossible to go to this, something wrong")
 
-		if slot0.appreciateProxy:getMusicExistStateByID(slot16) then
+		if slot18 then
 			setActive(slot6, false)
 		else
 			setActive(slot6, true)
@@ -449,24 +456,26 @@ function slot0.updatePlateTF(slot0, slot1, slot2)
 				setActive(slot11, false)
 				table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
 				onButton(slot0, slot10, function ()
+					function slot0()
+						setActive(uv0, true)
+						setActive(uv1, false)
+						setActive(uv2, false)
+						setActive(uv3, false)
+						setActive(uv4, false)
+						setActive(uv5, true)
+						VersionMgr.Inst:RequestUIForUpdateF("GALLERY_BGM", uv6, false)
+
+						if not table.contains(uv7.downloadCheckIDList, uv8) then
+							table.insert(uv7.downloadCheckIDList, uv8)
+						end
+
+						uv7:tryStartDownloadCheckTimer()
+					end
+
 					if Application.internetReachability == UnityEngine.NetworkReachability.ReachableViaCarrierDataNetwork then
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							content = i18n("res_wifi_tip"),
-							onYes = function ()
-								setActive(uv0, true)
-								setActive(uv1, false)
-								setActive(uv2, false)
-								setActive(uv3, false)
-								setActive(uv4, false)
-								setActive(uv5, true)
-								VersionMgr.Inst:RequestUIForUpdateF("GALLERY_BGM", uv6, false)
-
-								if not table.contains(uv7.downloadCheckIDList, uv8) then
-									table.insert(uv7.downloadCheckIDList, uv8)
-								end
-
-								uv7:tryStartDownloadCheckTimer()
-							end
+							onYes = slot0
 						})
 					else
 						slot0()
@@ -536,7 +545,9 @@ function slot0.updatePlateTF(slot0, slot1, slot2)
 end
 
 function slot0.initSongListPanel(slot0)
-	slot0.songUIItemList:make(function (slot0, slot1, slot2)
+	slot1 = slot0.songUIItemList
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot1 = slot1 + 1
 			uv0.songTFList[slot1] = slot2
@@ -564,6 +575,9 @@ function slot0.updateSongTF(slot0, slot1, slot2)
 	slot3 = slot1
 	slot4 = slot0:findTF("IndexText", slot3)
 	slot6 = slot0:findTF("NameText", slot3)
+	slot7 = slot0:findTF("PlayingImg", slot3)
+	slot8 = slot0:findTF("DownloadImg", slot3)
+	slot9 = slot0:findTF("LockImg", slot3)
 
 	setActive(slot0:findTF("LikeToggle", slot3), true)
 
@@ -580,9 +594,9 @@ function slot0.updateSongTF(slot0, slot1, slot2)
 	if slot0:getMusicStateByID(slot11) == MusicCollectionConst.MusicStates.Unlockable then
 		slot17 = MusicCollectionConst.Color_Of_Empty_Song
 
-		setActive(slot0:findTF("PlayingImg", slot3), false)
-		setActive(slot0:findTF("DownloadImg", slot3), false)
-		setActive(slot0:findTF("LockImg", slot3), true)
+		setActive(slot7, false)
+		setActive(slot8, false)
+		setActive(slot9, true)
 	elseif slot12 == MusicCollectionConst.MusicStates.DisUnlockable then
 		slot17 = MusicCollectionConst.Color_Of_Empty_Song
 
@@ -591,7 +605,9 @@ function slot0.updateSongTF(slot0, slot1, slot2)
 		setActive(slot9, true)
 	elseif slot12 == MusicCollectionConst.MusicStates.Unlocked then
 		if slot13 then
-			if slot0.isPlayingSong and slot2 == slot0.curMidddleIndex then
+			slot19 = slot2 == slot0.curMidddleIndex
+
+			if slot0.isPlayingSong and slot19 then
 				slot17 = MusicCollectionConst.Color_Of_Playing_Song
 
 				setActive(slot7, true)
@@ -658,27 +674,31 @@ function slot0.updateSongTF(slot0, slot1, slot2)
 						uv0:closePlateAni(uv0.plateTFList[uv0.curMidddleIndex])
 						uv0.lScrollPageSC:MoveToItemID(uv4 - 1)
 					end
-				elseif Application.internetReachability == UnityEngine.NetworkReachability.ReachableViaCarrierDataNetwork then
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("res_wifi_tip"),
-						onYes = function ()
-							setActive(uv0, false)
-							setActive(uv1, true)
-							setActive(uv2, false)
-							VersionMgr.Inst:RequestUIForUpdateF("GALLERY_BGM", uv3, false)
-
-							if not table.contains(uv4.downloadCheckIDList, uv5) then
-								table.insert(uv4.downloadCheckIDList, uv5)
-							end
-
-							uv4:tryStartDownloadCheckTimer()
-							uv4:setAniState(true)
-							uv4:closePlateAni(uv4.plateTFList[uv4.curMidddleIndex])
-							uv4.lScrollPageSC:MoveToItemID(uv6 - 1)
-						end
-					})
 				else
-					slot0()
+					function slot0()
+						setActive(uv0, false)
+						setActive(uv1, true)
+						setActive(uv2, false)
+						VersionMgr.Inst:RequestUIForUpdateF("GALLERY_BGM", uv3, false)
+
+						if not table.contains(uv4.downloadCheckIDList, uv5) then
+							table.insert(uv4.downloadCheckIDList, uv5)
+						end
+
+						uv4:tryStartDownloadCheckTimer()
+						uv4:setAniState(true)
+						uv4:closePlateAni(uv4.plateTFList[uv4.curMidddleIndex])
+						uv4.lScrollPageSC:MoveToItemID(uv6 - 1)
+					end
+
+					if Application.internetReachability == UnityEngine.NetworkReachability.ReachableViaCarrierDataNetwork then
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
+							content = i18n("res_wifi_tip"),
+							onYes = slot0
+						})
+					else
+						slot0()
+					end
 				end
 			elseif uv1 == MusicCollectionConst.MusicStates.DisUnlockable then
 				pg.TipsMgr.GetInstance():ShowTips(uv9.illustrate)
@@ -843,11 +863,13 @@ function slot0.playPlateAni(slot0, slot1, slot2, slot3, slot4)
 	if slot2 == true then
 		slot10 = (443 - 198) / slot7
 		slot13 = (-121 - 0) / slot7
-
-		LeanTween.value(go(slot1), 0, slot7, slot7):setOnUpdate(System.Action_float(function (slot0)
+		slot14 = LeanTween.value(go(slot1), 0, slot7, slot7)
+		slot14 = slot14:setOnUpdate(System.Action_float(function (slot0)
 			setAnchoredPosition(uv4, Vector2.New(uv0 + uv1 * slot0, 0))
 			setAnchoredPosition(uv5, Vector2.New(uv2 + uv3 * slot0, 0))
-		end)):setOnComplete(System.Action(function ()
+		end))
+
+		slot14:setOnComplete(System.Action(function ()
 			setAnchoredPosition(uv0, Vector2.New(uv1, 0))
 			setAnchoredPosition(uv2, Vector2.New(uv3, 0))
 			uv4:setAniState(false)
@@ -879,7 +901,9 @@ function slot0.setAniState(slot0, slot1)
 end
 
 function slot0.openSongListPanel(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.songListPanel, false, {
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:BlurPanel(slot0.songListPanel, false, {
 		groupName = LayerWeightConst.GROUP_COLLECTION
 	})
 
@@ -887,11 +911,15 @@ function slot0.openSongListPanel(slot0)
 	slot0.songListPanel.offsetMin = slot0._tf.parent.offsetMin
 
 	setActive(slot0.songListPanel, true)
-	LeanTween.value(go(slot0.panel), -460, 500, 0.3):setOnUpdate(System.Action_float(function (slot0)
+
+	slot1 = LeanTween.value(go(slot0.panel), -460, 500, 0.3)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setAnchoredPosition(uv0.panel, {
 			y = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		setAnchoredPosition(uv0.panel, {
 			y = 500
 		})
@@ -906,11 +934,15 @@ function slot0.closeSongListPanel(slot0, slot1)
 
 	if isActive(slot0.songListPanel) then
 		LeanTween.cancel(go(slot0.panel))
-		LeanTween.value(go(slot0.panel), getAnchoredPosition(slot0.panel).y, -460, 0.3):setOnUpdate(System.Action_float(function (slot0)
+
+		slot3 = LeanTween.value(go(slot0.panel), getAnchoredPosition(slot0.panel).y, -460, 0.3)
+		slot3 = slot3:setOnUpdate(System.Action_float(function (slot0)
 			setAnchoredPosition(uv0.panel, {
 				y = slot0
 			})
-		end)):setOnComplete(System.Action(function ()
+		end))
+
+		slot3:setOnComplete(System.Action(function ()
 			setAnchoredPosition(uv0.panel, {
 				y = -460
 			})
@@ -930,8 +962,9 @@ function slot0.playMusic(slot0)
 	slot0.cueData.channelName = pg.CriMgr.C_GALLERY_MUSIC
 	slot0.cueData.cueSheetName = slot2
 	slot0.cueData.cueName = ""
+	slot3 = CriWareMgr.Inst
 
-	CriWareMgr.Inst:PlaySound(slot0.cueData, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+	slot3:PlaySound(slot0.cueData, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
 		uv0.playbackInfo = slot0
 
 		uv0.playbackInfo:SetIgnoreAutoUnload(true)
@@ -987,12 +1020,14 @@ function slot0.fliteMusicConfigForShow(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(pg.music_collect_config.all) do
+		slot7 = slot0.appreciateProxy:getSingleMusicConfigByID(slot6)
+
 		if slot0.appreciateProxy:isMusicNeedUnlockByID(slot6) then
 			if not slot0.appreciateProxy:isMusicUnlockedByID(slot6) then
 				slot10, slot11 = slot0.appreciateProxy:isMusicUnlockableByID(slot6)
 
 				if slot10 then
-					slot1[#slot1 + 1] = slot0.appreciateProxy:getSingleMusicConfigByID(slot6)
+					slot1[#slot1 + 1] = slot7
 				elseif slot11 then
 					slot1[#slot1 + 1] = slot7
 				end
@@ -1027,8 +1062,11 @@ end
 
 function slot0.sortMusicConfigList(slot0, slot1)
 	table.sort(slot0.musicForShowConfigList, function (slot0, slot1)
+		slot2 = slot0.id
+		slot3 = slot1.id
+
 		if uv0 == true then
-			return slot1.id < slot0.id
+			return slot3 < slot2
 		else
 			return slot2 < slot3
 		end
@@ -1053,11 +1091,12 @@ end
 
 function slot0.isCanPlayByMusicID(slot0, slot1)
 	slot2, slot3 = nil
+	slot3 = slot0.appreciateProxy:getMusicExistStateByID(slot1)
 
 	if slot0:getMusicStateByID(slot1) == GalleryConst.CardStates.DirectShow then
 		print("is impossible to go to this, something wrong")
 
-		if slot0.appreciateProxy:getMusicExistStateByID(slot1) then
+		if slot3 then
 			return true
 		else
 			return false
@@ -1079,9 +1118,11 @@ function slot0.descTime(slot0, slot1)
 	slot2 = math.floor(slot1 / 1000)
 	slot3 = math.floor(slot2 / 3600)
 	slot2 = slot2 - slot3 * 3600
+	slot4 = math.floor(slot2 / 60)
+	slot5 = slot2 % 60
 
 	if slot3 ~= 0 then
-		return string.format("%02d:%02d:%02d", slot3, math.floor(slot2 / 60), slot2 % 60)
+		return string.format("%02d:%02d:%02d", slot3, slot4, slot5)
 	else
 		return string.format("%02d:%02d", slot4, slot5)
 	end

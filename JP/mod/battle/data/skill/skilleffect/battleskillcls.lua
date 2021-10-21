@@ -22,9 +22,12 @@ function slot1.DoDataEffectWithoutTarget(slot0, slot1)
 end
 
 function slot1.doCls(slot0, slot1)
+	slot2 = uv0.Battle.BattleDataProxy.GetInstance()
+	slot3 = slot1:GetIFF() * -1
+
 	for slot7, slot8 in ipairs(slot0._clsTypeList) do
 		if slot8 == uv1.TYPE_BULLET then
-			uv0.Battle.BattleDataProxy.GetInstance():CLSBullet(slot1:GetIFF() * -1)
+			slot2:CLSBullet(slot3)
 		elseif slot8 == uv1.TYPE_AIRCRAFT then
 			slot2:CLSAircraft(slot3)
 		elseif slot8 == uv1.TYPE_MINION then

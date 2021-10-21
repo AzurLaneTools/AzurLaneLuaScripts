@@ -22,9 +22,11 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot14 = _.detect(slot12, function (slot0)
-		slot2, uv1 = uv0:getMailById(slot0):IsFudaiAndFullCapcity()
+		slot2, slot3 = uv0:getMailById(slot0):IsFudaiAndFullCapcity()
 
 		if not slot2 then
+			uv1 = slot3
+
 			return true
 		else
 			return false
@@ -64,7 +66,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	seriesAsync(slot15, function (slot0)
-		pg.ConnectionMgr.GetInstance():Send(30004, {
+		slot1 = pg.ConnectionMgr.GetInstance()
+
+		slot1:Send(30004, {
 			id = uv0
 		}, 30005, function (slot0)
 			for slot5, slot6 in ipairs(uv0:getMails()) do

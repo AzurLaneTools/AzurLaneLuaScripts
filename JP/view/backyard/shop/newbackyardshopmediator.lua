@@ -37,10 +37,11 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
 	slot4 = slot1:getType()
 
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:PlayerUpdated(slot1:getBody())
+		slot0.viewComponent:PlayerUpdated(slot3)
 	elseif slot2 == GAME.BUY_FURNITURE_DONE then
 		slot0.viewComponent:FurnituresUpdated(slot4)
 	elseif slot2 == DormProxy.DORM_UPDATEED then

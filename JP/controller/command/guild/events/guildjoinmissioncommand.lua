@@ -2,8 +2,9 @@ slot0 = class("GuildJoinMissionCommand", import(".GuildEventBaseCommand"))
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot4 = slot2.shipIds
 
-	if not slot2.id or #slot2.shipIds == 0 then
+	if not slot2.id or #slot4 == 0 then
 		return
 	end
 
@@ -11,7 +12,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(61007, {
+	slot5 = pg.ConnectionMgr.GetInstance()
+
+	slot5:Send(61007, {
 		event_tid = slot3,
 		ship_ids = slot4
 	}, 61008, function (slot0)

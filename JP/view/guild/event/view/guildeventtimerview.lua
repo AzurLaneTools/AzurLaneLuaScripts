@@ -24,8 +24,10 @@ function slot0.Flush(slot0, slot1, slot2)
 			slot5 = slot5 + 1
 		end
 
+		slot8 = string.format("%s" .. i18n("word_date") .. "%s" .. i18n("word_hour"), slot4, slot5)
+
 		if slot4 < 7 then
-			slot8 = "<size=31><color=#FF3838>" .. string.format("%s" .. i18n("word_date") .. "%s" .. i18n("word_hour"), slot4, slot5) .. "</color></size>"
+			slot8 = "<size=31><color=#FF3838>" .. slot8 .. "</color></size>"
 		end
 
 		slot0:UpdateText(slot8)

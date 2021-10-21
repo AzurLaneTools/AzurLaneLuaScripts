@@ -14,7 +14,8 @@ function slot0.OnFormationDone(slot0)
 
 	for slot5, slot6 in pairs(slot0.shipGos) do
 		table.insert(slot1, function (slot0)
-			slot1 = uv0:GetComponent(typeof(SpineAnimUI))
+			slot1 = uv0
+			slot1 = slot1:GetComponent(typeof(SpineAnimUI))
 
 			slot1:SetAction("victory", 0)
 			slot1:SetActionCallBack(function (slot0)
@@ -33,8 +34,10 @@ function slot0.OnFormationDone(slot0)
 		uv0.loading = false
 	end)
 
+	slot2 = slot0.canFormationIndex or 1
+
 	for slot6, slot7 in ipairs(slot0.pageFooter) do
-		setActive(slot7, slot6 <= (slot0.canFormationIndex or 1))
+		setActive(slot7, slot6 <= slot2)
 	end
 
 	setActive(slot0.pageFooterAdd, false)
@@ -57,7 +60,8 @@ function slot0.OnLoaded(slot0)
 	slot0.scoreAdditionTxt = slot0:findTF("frame/bottom/score_addition/Text"):GetComponent(typeof(Text))
 	slot0.effectAdditionTxt = slot0:findTF("frame/bottom/effect_addition/Text"):GetComponent(typeof(Text))
 	slot0.effectTxt = slot0:findTF("frame/bottom/effect/Text"):GetComponent(typeof(Text))
-	slot0.bg = slot0:findTF("frame/bottom/bg"):GetComponent(typeof(Image))
+	slot1 = slot0:findTF("frame/bottom/bg")
+	slot0.bg = slot1:GetComponent(typeof(Image))
 	slot0.pageFooter = {
 		slot0:findTF("frame/single/dot/1"),
 		slot0:findTF("frame/single/dot/2"),
@@ -102,7 +106,9 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		uv0:emit(GuildEventMediator.ON_GET_FORMATION, function ()
+		slot0 = uv0
+
+		slot0:emit(GuildEventMediator.ON_GET_FORMATION, function ()
 			if #getProxy(GuildProxy):GetRecommendShipsForMission(uv0.mission) == 0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_event_recomm_ship_failed"))
 
@@ -272,12 +278,14 @@ function slot0.UpdateFleet(slot0, slot1)
 	slot0:ClearSlots()
 
 	slot2 = slot0.mission
+	slot3 = slot0.maxShipCnt
 	slot4 = nil
 	slot5 = {}
 	slot4 = slot1 == slot0.canFormationIndex and (slot0.contextData.missionShips or slot2:GetFleetByIndex(slot1)) or slot2:GetFleetByIndex(slot1) or {}
 
-	for slot9 = 1, slot0.maxShipCnt do
-		slot10 = slot0.shipContainer:GetChild(slot9 - 1)
+	for slot9 = 1, slot3 do
+		slot10 = slot0.shipContainer
+		slot10 = slot10:GetChild(slot9 - 1)
 
 		table.insert(slot5, function (slot0)
 			uv0:UpdateShipSlot(uv1, uv2, uv3, slot0)
@@ -324,6 +332,8 @@ end
 function slot0.UpdateShipSlot(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.mission
 	slot7 = slot2:Find("Image")
+	slot8 = slot2:Find("effect")
+	slot9 = slot2:Find("score")
 
 	if slot3[slot1] then
 		if getProxy(BayProxy):getShipById(slot6) then
@@ -348,8 +358,8 @@ function slot0.UpdateShipSlot(slot0, slot1, slot2, slot3, slot4)
 					uv7()
 				end
 			end)
-			setActive(slot2:Find("effect"), slot0:HasEffectAddition(slot10))
-			setActive(slot2:Find("score"), slot0:HasScoreAddition(slot10))
+			setActive(slot8, slot0:HasEffectAddition(slot10))
+			setActive(slot9, slot0:HasScoreAddition(slot10))
 		elseif slot4 then
 			slot4()
 		end
@@ -409,9 +419,10 @@ end
 function slot0.GetBattleTarget(slot0, slot1, slot2)
 	slot3 = slot0.mission
 	slot5 = slot3:GetAttrAcc()
+	slot6 = {}
 
 	for slot10, slot11 in pairs(slot3:GetAttrCntAcc()) do
-		table.insert({}, GuildMissionInfoPage.AttrCnt2Desc(slot10, {
+		table.insert(slot6, GuildMissionInfoPage.AttrCnt2Desc(slot10, {
 			value = slot11.value + (slot1[slot10] or 0),
 			total = slot11.total,
 			goal = slot11.goal,
@@ -432,9 +443,13 @@ function slot0.GetBattleTarget(slot0, slot1, slot2)
 end
 
 function slot0.GetTagShipCnt(slot0, slot1)
+	slot3 = slot0.mission:GetSquadron()
+	slot4 = 0
+	slot5 = getProxy(BayProxy)
+
 	for slot9, slot10 in ipairs(slot1) do
-		if getProxy(BayProxy):getShipById(slot10) and slot11:IsTagShip(slot0.mission:GetSquadron()) then
-			slot4 = 0 + 1
+		if slot5:getShipById(slot10) and slot11:IsTagShip(slot3) then
+			slot4 = slot4 + 1
 		end
 	end
 
@@ -449,11 +464,12 @@ function slot0.CalcScoreAddition(slot0, slot1)
 	slot6 = 0
 	slot7 = {}
 	slot8 = {}
+	slot9 = getProxy(BayProxy)
 
 	for slot13, slot14 in ipairs(slot1) do
 		slot16 = nil
 
-		if getProxy(BayProxy):getShipById(slot14) then
+		if slot9:getShipById(slot14) then
 			slot16 = _.detect(slot2:getConfig("ship_camp_effect"), function (slot0)
 				return slot0[1] == uv0:getNation()
 			end)
@@ -463,8 +479,10 @@ function slot0.CalcScoreAddition(slot0, slot1)
 			slot6 = slot6 + slot16[2]
 		end
 
+		slot17 = slot15 and slot15:getProperties() or {}
+
 		for slot21, slot22 in pairs(slot3) do
-			if slot22.total <= ((slot15 and slot15:getProperties() or {})[slot5[slot21].name] or 0) then
+			if slot22.total <= (slot17[slot5[slot21].name] or 0) then
 				slot7[slot21] = (slot7[slot21] or 0) + 1
 			end
 		end
@@ -481,10 +499,11 @@ function slot0.CalcScoreAddition(slot0, slot1)
 	end
 
 	for slot13, slot14 in pairs(slot4) do
+		slot15 = slot14.value + (slot8[slot13] or 0)
 		slot16 = nil
 
 		if slot14.op == 1 then
-			slot16 = slot14.goal <= slot14.value + (slot8[slot13] or 0)
+			slot16 = slot14.goal <= slot15
 		elseif slot14.op == 2 then
 			slot16 = slot15 <= slot14.goal
 		end
@@ -500,11 +519,12 @@ end
 function slot0.CalcEffectAddition(slot0, slot1)
 	slot2 = slot0.mission
 	slot3 = GuildMission.CalcMyEffect(slot1)
+	slot4 = getProxy(BayProxy)
 
 	for slot8, slot9 in ipairs(slot1) do
 		slot11 = nil
 
-		if getProxy(BayProxy):getShipById(slot9) then
+		if slot4:getShipById(slot9) then
 			slot11 = _.detect(slot2:getConfig("ship_type_effect"), function (slot0)
 				return slot0[1] == uv0:getShipType()
 			end)
@@ -530,15 +550,20 @@ function slot0.HasScoreAddition(slot0, slot1)
 	slot5 = slot2:GetAttrAcc()
 
 	return table.contains(slot2:GetRecommendShipNation(), slot1:getNation()) or (function ()
+		slot0 = uv0:getProperties()
+		slot1 = pg.attribute_info_by_type
+
 		for slot5, slot6 in pairs(uv1) do
-			if slot6.total <= (uv0:getProperties()[pg.attribute_info_by_type[slot5].name] or 0) then
+			if slot6.total <= (slot0[slot1[slot5].name] or 0) then
 				return true
 			end
 		end
 
 		for slot5, slot6 in pairs(uv2) do
+			slot7 = slot1[slot5].name
+
 			if slot6.op == 1 then
-				return (slot0[slot1[slot5].name] or 0) > 0
+				return (slot0[slot7] or 0) > 0
 			elseif slot6.op == 2 then
 				return (slot0[slot7] or 0) == 0
 			end

@@ -23,8 +23,9 @@ function slot0.Update(slot0)
 
 		if pg.map_event_template[slot1.attachmentId].icon and #slot8 > 0 then
 			slot9 = slot8 .. "_1shangceng"
+			slot12 = slot0:GetLoader()
 
-			slot0:GetLoader():GetPrefab("ui/" .. slot9, slot9, function (slot0)
+			slot12:GetPrefab("ui/" .. slot9, slot9, function (slot0)
 				tf(slot0):SetParent(uv0.tf, false)
 				uv0:ResetCanvasOrder()
 			end)

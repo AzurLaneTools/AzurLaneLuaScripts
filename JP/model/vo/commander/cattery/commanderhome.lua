@@ -110,8 +110,10 @@ function slot0.GetLevelConfig(slot0, slot1)
 end
 
 function slot0.GetTargetExpForLevel(slot0, slot1)
+	slot2 = 0
+
 	for slot6 = 1, slot1 - 1 do
-		slot2 = 0 + slot0:GetLevelConfig(slot6).home_exp
+		slot2 = slot2 + slot0:GetLevelConfig(slot6).home_exp
 	end
 
 	return slot2
@@ -127,10 +129,11 @@ end
 
 function slot0.ReduceClean(slot0)
 	slot1 = false
+	slot2 = slot0:getConfig("flower")[2]
 
 	for slot7, slot8 in pairs(slot0:GetCatteries()) do
 		if slot8:IsDirty() then
-			slot0.clean = slot0.clean - slot0:getConfig("flower")[2]
+			slot0.clean = slot0.clean - slot2
 
 			break
 		end
@@ -210,9 +213,11 @@ function slot0.GetPlayLevel(slot0)
 end
 
 function slot0.GetExistCommanderCattertCnt(slot0)
+	slot1 = 0
+
 	for slot6, slot7 in pairs(slot0:GetCatteries()) do
 		if slot7:ExistCommander() then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 

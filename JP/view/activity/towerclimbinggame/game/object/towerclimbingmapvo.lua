@@ -62,8 +62,10 @@ function slot1(slot0, slot1)
 	if slot0 == 1 then
 		return TowerClimbingGameSettings.HEAD_BLOCK_TYPE
 	else
+		slot3 = math.random(1, 100)
+
 		for slot7, slot8 in ipairs(TowerClimbingGameSettings.MapId2BlockType[slot1]) do
-			if math.random(1, 100) <= slot8[2] then
+			if slot3 <= slot8[2] then
 				return slot8[1]
 			end
 		end
@@ -75,11 +77,12 @@ function slot2(slot0, slot1)
 		return TowerClimbingGameSettings.BLOCK_START_POSITION
 	else
 		slot4 = TowerClimbingGameSettings.BLOCK_INTERVAL_HEIGHT
+		slot6 = TowerClimbingGameSettings.BLOCK_MAX_INTERVAL_WIDTH[2]
 		slot7 = TowerClimbingGameSettings.BOUNDS[1]
 		slot9 = {}
 
 		if TowerClimbingGameSettings.BLOCK_MAX_INTERVAL_WIDTH[1] < TowerClimbingGameSettings.BOUNDS[2] - (slot1.position.x + slot1.width / 2) - slot0 then
-			slot12 = math.min(TowerClimbingGameSettings.BLOCK_MAX_INTERVAL_WIDTH[2], slot11)
+			slot12 = math.min(slot6, slot11)
 			slot13 = slot5
 
 			if slot11 >= 0 then
@@ -175,8 +178,10 @@ function slot0.DoSink(slot0, slot1, slot2, slot3)
 end
 
 function slot0.CheckCorssBoundBlocks(slot0, slot1)
+	slot2 = 0
+
 	for slot6 = #slot0.blocks, 1, -1 do
-		if slot0.blocks[slot6].position.y <= 0 then
+		if slot0.blocks[slot6].position.y <= slot2 then
 			table.remove(slot0.blocks, slot6)
 			slot0:SendMapEvent("OnBlockDestory", slot7.level)
 		elseif slot7.position.y <= TowerClimbingGameSettings.MANJUU_HEIGHT + slot0.ground.position.y then
@@ -229,7 +234,7 @@ function slot0.SetCurrentLevel(slot0, slot1)
 end
 
 function slot0.OverHigestScore(slot0)
-	if slot0.player:IsOverHigestScore() and (function (slot0)
+	function slot1(slot0)
 		for slot4, slot5 in ipairs(uv0.awards) do
 			if slot0 == slot5 then
 				return true
@@ -237,7 +242,9 @@ function slot0.OverHigestScore(slot0)
 		end
 
 		return false
-	end)(slot0.player.score) then
+	end
+
+	if slot0.player:IsOverHigestScore() and slot1(slot0.player.score) then
 		slot0:SendMapEvent("OnReachAwardScore")
 	end
 end

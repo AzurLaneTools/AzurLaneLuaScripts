@@ -13,7 +13,9 @@ function slot0.applyEffect(slot0, slot1)
 		return
 	end
 
-	PoolMgr.GetInstance():GetPrefab("ui/" .. slot1, slot1, true, function (slot0)
+	slot2 = PoolMgr.GetInstance()
+
+	slot2:GetPrefab("ui/" .. slot1, slot1, true, function (slot0)
 		if not uv0.effects or uv0.effects[uv1] then
 			PoolMgr.GetInstance():ReturnPrefab("ui/" .. uv1, uv1, slot0)
 

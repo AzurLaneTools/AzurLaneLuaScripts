@@ -39,9 +39,10 @@ end
 
 function slot0.onBlueprintNotify()
 	slot0 = getProxy(TechnologyProxy)
+	slot1 = slot0:getBluePrints()
 
 	if not slot0:getBuildingBluePrint() then
-		return _.any(_.values(slot0:getBluePrints()), function (slot0)
+		return _.any(_.values(slot1), function (slot0)
 			return slot0:getState() == ShipBluePrint.STATE_LOCK and slot0:isFinishPrevTask()
 		end)
 	else
@@ -68,8 +69,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:setPlayer(slot1:getBody())
+		slot0.viewComponent:setPlayer(slot3)
 	end
 end
 

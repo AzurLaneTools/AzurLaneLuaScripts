@@ -17,7 +17,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0.shopAnim = GetComponent(slot0.shop, "SpineAnimUI")
 	slot0.sdContainer = slot0:findTF("sdcontainer", slot0.bg)
 	slot0.spine = nil
-	slot0.spineLRQ = GetSpineRequestPackage.New("mingshi_5", function (slot0)
+	slot1 = GetSpineRequestPackage.New("mingshi_5", function (slot0)
 		SetParent(slot0, uv0.sdContainer)
 
 		uv0.spine = slot0
@@ -28,7 +28,8 @@ function slot0.OnFirstFlush(slot0)
 		end
 
 		uv0.spineLRQ = nil
-	end):Start()
+	end)
+	slot0.spineLRQ = slot1:Start()
 
 	onButton(slot0, slot0:findTF("sdBtn", slot0.bg), function ()
 		uv0:showBubble()
@@ -136,18 +137,25 @@ function slot0.showBubble(slot0, slot1)
 	setText(slot0.bubbleText, slot2)
 
 	function slot4()
-		LeanTween.value(go(uv0.bubble), 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
+		slot0 = LeanTween.value(go(uv0.bubble), 1, 0, uv1.FADE_OUT_TIME)
+		slot0 = slot0:setOnUpdate(System.Action_float(uv2))
+
+		slot0:setOnComplete(System.Action(function ()
 			setActive(uv0.bubble, false)
 		end))
 	end
 
 	LeanTween.cancel(go(slot0.bubble))
 	setActive(slot0.bubble, true)
-	LeanTween.value(go(slot0.bubble), 0, 1, uv0.FADE_TIME):setOnUpdate(System.Action_float(function (slot0)
+
+	slot5 = LeanTween.value(go(slot0.bubble), 0, 1, uv0.FADE_TIME)
+	slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
 		uv0.bubbleCG.alpha = slot0
 
 		setLocalScale(uv0.bubble, Vector3.one * slot0)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot5:setOnComplete(System.Action(function ()
 		LeanTween.delayedCall(go(uv0.bubble), uv1.SHOW_TIME, System.Action(uv2))
 	end))
 end

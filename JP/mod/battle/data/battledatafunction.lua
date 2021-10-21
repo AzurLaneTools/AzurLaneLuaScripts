@@ -29,14 +29,13 @@ function slot3.ConvertSkillTemplate()
 
 			if pg.skillCfg[slot1] then
 				slot4 = {}
+				slot5 = {}
 
 				for slot9, slot10 in pairs(slot3) do
-					-- Nothing
+					slot5[slot9] = Clone(slot10)
 				end
 
-				slot4[0] = {
-					[slot9] = Clone(slot10)
-				}
+				slot4[0] = slot5
 
 				for slot9, slot10 in ipairs(slot3) do
 					slot11 = Clone(slot5)
@@ -69,14 +68,13 @@ function slot3.ConvertBuffTemplate()
 
 			if pg.buffCfg[slot1] then
 				slot4 = {}
+				slot5 = {}
 
 				for slot9, slot10 in pairs(slot3) do
-					-- Nothing
+					slot5[slot9] = Clone(slot10)
 				end
 
-				slot4[0] = {
-					[slot9] = Clone(slot10)
-				}
+				slot4[0] = slot5
 
 				for slot9, slot10 in ipairs(slot3) do
 					slot11 = Clone(slot5)
@@ -106,9 +104,10 @@ function slot3.GetBuffBulletRes(slot0, slot1, slot2, slot3)
 	function slot8(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			slot6 = nil
+			slot6 = (not uv0[slot5] or uv0[slot5].level) and 1
 			slot12 = uv4
 
-			for slot12, slot13 in ipairs(uv1.GetResFromBuff(uv1.SkillTranform(uv2, slot5), (not uv0[slot5] or uv0[slot5].level) and 1, uv3, slot12)) do
+			for slot12, slot13 in ipairs(uv1.GetResFromBuff(uv1.SkillTranform(uv2, slot5), slot6, uv3, slot12)) do
 				uv5[#uv5 + 1] = slot13
 			end
 		end
@@ -125,9 +124,10 @@ function slot3.GetBuffBulletRes(slot0, slot1, slot2, slot3)
 
 	if uv0.GetShipTransformDataTemplate(slot0) and slot10.skill_id ~= 0 and pg.transform_data_template[slot10.skill_id].skill_id ~= 0 then
 		slot12 = nil
+		slot12 = (not slot1[pg.transform_data_template[slot10.skill_id].skill_id] or slot1[slot11].level) and 1
 		slot17 = slot3
 
-		for slot17, slot18 in ipairs(uv0.GetResFromBuff(slot11, (not slot1[pg.transform_data_template[slot10.skill_id].skill_id] or slot1[slot11].level) and 1, slot5, slot17)) do
+		for slot17, slot18 in ipairs(uv0.GetResFromBuff(slot11, slot12, slot5, slot17)) do
 			slot4[#slot4 + 1] = slot18
 		end
 	end
@@ -140,24 +140,30 @@ function slot3.GetBuffBulletRes(slot0, slot1, slot2, slot3)
 end
 
 function slot3.GetResFromBuff(slot0, slot1, slot2, slot3)
+	slot4 = {}
+
 	if slot2[slot0 .. "_" .. slot1] then
-		return {}
+		return slot4
 	else
 		slot2[slot5] = true
 	end
 
 	if uv0.GetBuffTemplate(slot0, slot1).init_effect and slot6.init_effect ~= "" then
+		slot7 = slot6.init_effect
+
 		if slot6.skin_adapt then
-			slot7 = uv0.SkinAdaptFXID(slot6.init_effect, slot3)
+			slot7 = uv0.SkinAdaptFXID(slot7, slot3)
 		end
 
 		slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetFXPath(slot7)
 	end
 
 	if slot6.last_effect and slot6.last_effect ~= "" then
-		for slot11, slot12 in ipairs(type(slot6.last_effect) == "table" and slot6.last_effect or {
+		slot7 = type(slot6.last_effect) == "table" and slot6.last_effect or {
 			slot6.last_effect
-		}) do
+		}
+
+		for slot11, slot12 in ipairs(slot7) do
 			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetFXPath(slot12)
 		end
 	end
@@ -219,10 +225,11 @@ end
 
 function slot3.GetBuffListRes(slot0, slot1, slot2)
 	slot3 = {}
+	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot0) do
 		slot15 = slot9.level
-		slot16 = {}
+		slot16 = slot4
 
 		for slot15, slot16 in ipairs(uv0.GetResFromBuff(slot9.id, slot15, slot16, slot2)) do
 			slot3[#slot3 + 1] = slot16

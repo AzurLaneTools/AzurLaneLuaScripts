@@ -75,35 +75,37 @@ function slot0.AddToTopSortGroup(slot0, slot1, slot2)
 end
 
 function slot0.CheckCreateSortGroup(slot0)
+	function slot1(slot0)
+		slot3 = nil
+		slot3 = (#uv0.sortDataPool <= 0 or table.remove(uv0.sortDataPool)) and {}
+		slot3.startIndex = slot0
+		slot3.endIndex = uv0.maxNum
+		slot3.order = uv0.layerNum + slot1 * 2
+		uv0.sortDataList[#uv0.sortDataList + 1] = slot3
+
+		if uv0.sortDataList[slot1] then
+			uv0.sortDataList[slot1].endIndex = slot0 - 1
+		end
+
+		slot5 = nil
+
+		while slot2 > #uv0.sortGroupList do
+			slot5 = tf(Instantiate(uv0.sortGroup))
+
+			SetParent(slot5, uv0.floorContain, false)
+
+			uv0.sortGroupList[#uv0.sortGroupList + 1] = slot5
+		end
+
+		GetComponent(uv0.sortGroupList[slot2], typeof(Canvas)).sortingOrder = slot4
+	end
+
 	slot2 = false
 
 	for slot6, slot7 in ipairs(slot0.map.sortedItems) do
 		if slot7.ob.isBoat then
 			if #slot0.sortDataList == 0 then
-				(function (slot0)
-					slot3 = nil
-					slot3 = (#uv0.sortDataPool <= 0 or table.remove(uv0.sortDataPool)) and {}
-					slot3.startIndex = slot0
-					slot3.endIndex = uv0.maxNum
-					slot3.order = uv0.layerNum + slot1 * 2
-					uv0.sortDataList[#uv0.sortDataList + 1] = slot3
-
-					if uv0.sortDataList[slot1] then
-						uv0.sortDataList[slot1].endIndex = slot0 - 1
-					end
-
-					slot5 = nil
-
-					while slot2 > #uv0.sortGroupList do
-						slot5 = tf(Instantiate(uv0.sortGroup))
-
-						SetParent(slot5, uv0.floorContain, false)
-
-						uv0.sortGroupList[#uv0.sortGroupList + 1] = slot5
-					end
-
-					GetComponent(uv0.sortGroupList[slot2], typeof(Canvas)).sortingOrder = slot4
-				end)(slot6 - 1)
+				slot1(slot6 - 1)
 			end
 		elseif slot0.furModelDic[slot7.ob.id].furnitureVO:is3DObject() then
 			slot1(slot6 - 1)

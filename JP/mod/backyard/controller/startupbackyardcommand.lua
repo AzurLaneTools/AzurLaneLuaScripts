@@ -1,19 +1,21 @@
 slot0 = class("StartUpBackYardCommand", pm.SimpleCommand)
 
 function slot0.GetHouseByDorm(slot0)
-	slot1 = {
-		[slot5] = BackyardBoatVO.New(slot6)
-	}
+	slot1 = {}
+	slot2 = pairs
+	slot3 = slot0.ships or {}
 
-	for slot5, slot6 in pairs(slot0.ships or {}) do
-		-- Nothing
+	for slot5, slot6 in slot2(slot3) do
+		slot1[slot5] = BackyardBoatVO.New(slot6)
 	end
 
 	slot2 = {}
 	slot3, slot4 = nil
 
 	for slot8, slot9 in pairs(slot0.furnitures) do
-		if slot9.position and slot9:getConfig("type") == Furniture.TYPE_WALLPAPER then
+		slot10 = slot9:getConfig("type")
+
+		if slot9.position and slot10 == Furniture.TYPE_WALLPAPER then
 			slot3 = BackyardFurnitureVO.New(slot9)
 		elseif slot9.position and slot10 == Furniture.TYPE_FLOORPAPER then
 			slot4 = BackyardFurnitureVO.New(slot9)

@@ -30,15 +30,17 @@ function SDKLogined(slot0, slot1, slot2, slot3)
 		return
 	end
 
+	slot4 = User.New({
+		type = 1,
+		arg1 = slot0,
+		arg2 = slot1,
+		arg3 = slot2,
+		arg4 = slot3
+	})
+
 	if LuaHelper.GetCHPackageType() == uv0 then
 		pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
-			user = User.New({
-				type = 1,
-				arg1 = slot0,
-				arg2 = slot1,
-				arg3 = slot2,
-				arg4 = slot3
-			})
+			user = slot4
 		})
 	else
 		pg.m02:sendNotification(GAME.SERVER_INTERCOMMECTION, {

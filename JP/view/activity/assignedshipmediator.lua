@@ -19,8 +19,12 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.USE_ITEM_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody(), function ()
+		slot4 = slot0.viewComponent
+
+		slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 			triggerButton(uv0.viewComponent.backBtn)
 		end)
 	end

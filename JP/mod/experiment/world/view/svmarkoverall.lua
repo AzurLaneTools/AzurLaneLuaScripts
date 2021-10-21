@@ -21,13 +21,19 @@ function slot0.OnInit(slot0)
 	slot0.rtTaskPanel = slot1:Find("panel/middle/info_panel/task_panel")
 
 	setActive(slot0.rtTaskPanel, false)
-	onButton(slot0, slot0.rtTaskPanel:Find("btn_next"), function ()
+
+	slot4 = slot0.rtTaskPanel
+
+	onButton(slot0, slot4:Find("btn_next"), function ()
 		uv0:ShowNextTask()
 	end, SFX_PANEL)
 
-	slot0.entranceItemList = UIItemList.New(slot0.rtTaskPanel:Find("entrance_list/target_list"), slot0.rtTaskPanel:Find("entrance_list/target_tpl"))
+	slot3 = slot0.rtTaskPanel
+	slot4 = slot0.rtTaskPanel
+	slot0.entranceItemList = UIItemList.New(slot3:Find("entrance_list/target_list"), slot4:Find("entrance_list/target_tpl"))
+	slot2 = slot0.entranceItemList
 
-	slot0.entranceItemList:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -41,9 +47,12 @@ function slot0.OnInit(slot0)
 		end
 	end)
 
-	slot0.areaItemList = UIItemList.New(slot0.rtTaskPanel:Find("entrance_list/target_list"), slot0.rtTaskPanel:Find("entrance_list/target_tpl"))
+	slot3 = slot0.rtTaskPanel
+	slot4 = slot0.rtTaskPanel
+	slot0.areaItemList = UIItemList.New(slot3:Find("entrance_list/target_list"), slot4:Find("entrance_list/target_tpl"))
+	slot2 = slot0.areaItemList
 
-	slot0.areaItemList:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -61,7 +70,8 @@ function slot0.OnInit(slot0)
 
 	setActive(slot0.rtAchievementPanel, false)
 
-	slot0.btnAchieve = slot0.rtAchievementPanel:Find("btn_all")
+	slot2 = slot0.rtAchievementPanel
+	slot0.btnAchieve = slot2:Find("btn_all")
 
 	onButton(slot0, slot0.btnAchieve, function ()
 		slot0, slot1 = nowWorld:GetFinishAchievements()
@@ -110,7 +120,10 @@ function slot0.Setup(slot0, slot1, slot2)
 		slot0.entranceIds = slot1.ids
 	end
 
-	slot0._tf:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+	slot3 = slot0._tf
+	slot3 = slot3:GetComponent("DftAniEvent")
+
+	slot3:SetEndEvent(function (slot0)
 		uv0:emit(uv1.ShowView, uv0.entranceIds, uv0:GetOverviewMark())
 
 		if uv0.mode then
@@ -227,9 +240,10 @@ function slot0.UpdateAchievementPanel(slot0)
 	setText(slot0.rtAchievementPanel:Find("achievement_info/name/info/number"), slot1 + slot2 .. "/" .. slot3)
 
 	slot4, slot5 = nowWorld:GetFinishAchievements()
+	slot6 = 0
 
 	for slot10, slot11 in ipairs(slot4) do
-		slot6 = 0 + #slot11.star_list
+		slot6 = slot6 + #slot11.star_list
 	end
 
 	slot7 = slot0.rtAchievementPanel:Find("word_list/target_tpl")

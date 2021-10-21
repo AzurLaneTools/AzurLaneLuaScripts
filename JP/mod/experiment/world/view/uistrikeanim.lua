@@ -46,14 +46,18 @@ function slot0.ReloadShip(slot0, slot1)
 	slot0.painting = nil
 	slot0.char = nil
 	slot2 = PoolMgr.GetInstance()
+	slot3 = slot2.GetInstance()
 
-	slot2.GetInstance():GetPainting(slot1:getPainting(), true, function (slot0)
+	slot3:GetPainting(slot1:getPainting(), true, function (slot0)
 		uv0.painting = slot0
 
 		ShipExpressionHelper.SetExpression(uv0.painting, uv1:getPainting())
 		uv0:LoadBack()
 	end)
-	slot2.GetInstance():GetSpineChar(slot1:getPrefab(), true, function (slot0)
+
+	slot3 = slot2.GetInstance()
+
+	slot3:GetSpineChar(slot1:getPrefab(), true, function (slot0)
 		uv0.char = slot0
 		uv0.char.transform.localScale = Vector3.one
 

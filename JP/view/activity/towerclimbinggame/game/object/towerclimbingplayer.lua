@@ -8,7 +8,9 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.Init(slot0, slot1)
-	TowerClimbingResMgr.GetPlayer(slot0.player:GetShipName(), function (slot0)
+	slot2 = slot0.player
+
+	TowerClimbingResMgr.GetPlayer(slot2:GetShipName(), function (slot0)
 		uv0.shipName = uv1
 
 		uv0:OnLoaded(slot0)
@@ -44,8 +46,10 @@ function slot0.OnLoaded(slot0, slot1)
 		end
 	end)
 	slot0.physics2DItem.CollisionStay:AddListener(function (slot0)
+		slot1 = {}
+
 		for slot5 = 1, slot0.contacts.Length do
-			table.insert({}, slot0.contacts[slot5 - 1])
+			table.insert(slot1, slot0.contacts[slot5 - 1])
 		end
 
 		if slot0.collider.name == TowerClimbingGameSettings.BLOCK_NAME then
@@ -53,8 +57,10 @@ function slot0.OnLoaded(slot0, slot1)
 		end
 	end)
 	slot0.physics2DItem.CollisionExit:AddListener(function (slot0)
+		slot1 = uv0.map:GetHitBlock(slot0.collider.gameObject)
+
 		if slot0.collider.name == TowerClimbingGameSettings.BLOCK_NAME then
-			uv0.map:SendEvent("ExitBlock", uv0.map:GetHitBlock(slot0.collider.gameObject).block.level)
+			uv0.map:SendEvent("ExitBlock", slot1.block.level)
 		end
 	end)
 

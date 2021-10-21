@@ -49,15 +49,13 @@ end
 
 function slot0.SortDisplays(slot0)
 	if not slot0.contextData.filterPanel:GetLoaded() then
-		slot1 = {
-			[slot6.id] = {
+		slot1 = {}
+
+		for slot5, slot6 in ipairs(slot0.displays) do
+			slot1[slot6.id] = {
 				putCnt = slot0.dorm:GetPutCntForFurniture(slot6),
 				ownCnt = slot6:GetOwnCnt()
 			}
-		}
-
-		for slot5, slot6 in ipairs(slot0.displays) do
-			-- Nothing
 		end
 
 		table.sort(slot0.displays, function (slot0, slot1)
@@ -82,7 +80,8 @@ function slot0.change2ScrPos(slot0, slot1)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.scrollRect = slot0._tf:GetComponent("LScrollRect")
+	slot1 = slot0._tf
+	slot0.scrollRect = slot1:GetComponent("LScrollRect")
 
 	function slot1()
 		if uv0.timer then
@@ -106,9 +105,10 @@ function slot0.OnLoaded(slot0)
 			slot8 = slot7._bg
 			slot9 = slot7._tf.localPosition.x
 			slot10 = slot7._tf.localPosition.y
+			slot11 = Vector2(slot9 + slot8.rect.width / 2, slot10 + slot8.rect.height / 2)
 			slot12 = Vector2(slot9 + slot8.rect.width / 2, slot10 - slot8.rect.height / 2)
 
-			if Vector2(slot9 - slot8.rect.width / 2, slot10 - slot8.rect.height / 2).x < slot1.x and slot1.x < slot12.x and slot12.y < slot1.y and slot1.y < Vector2(slot9 + slot8.rect.width / 2, slot10 + slot8.rect.height / 2).y then
+			if Vector2(slot9 - slot8.rect.width / 2, slot10 - slot8.rect.height / 2).x < slot1.x and slot1.x < slot12.x and slot12.y < slot1.y and slot1.y < slot11.y then
 				slot2 = slot7
 
 				break
@@ -136,7 +136,9 @@ function slot0.OnLoaded(slot0)
 		uv0()
 
 		if uv1.lock then
-			uv1.contextData.furnitureDescMsgBox:ExecuteAction("Hide")
+			slot2 = uv1.contextData.furnitureDescMsgBox
+
+			slot2:ExecuteAction("Hide")
 			onNextTick(function ()
 				uv0.lock = false
 			end)

@@ -24,12 +24,13 @@ function slot0.Update(slot0, slot1, slot2)
 
 	slot0.icon:SetNativeSize()
 
+	slot3 = slot1:GetDiscount()
 	slot4 = slot1:HasDiscount()
 
 	setActive(slot0.discountTF, slot4)
 
 	if slot4 then
-		slot0.discountTxt.text = slot1:GetDiscount() .. "%"
+		slot0.discountTxt.text = slot3 .. "%"
 	end
 
 	slot5 = false
@@ -45,16 +46,20 @@ function slot0.Update(slot0, slot1, slot2)
 end
 
 function slot0.UpdateSelected(slot0, slot1)
+	slot3 = slot1 and slot1.id == slot0.themeVO.id and 0 or -170
+
 	if not IsNil(slot0.content) then
 		setActive(slot0.selected, slot2)
 		setAnchoredPosition(slot0.content, {
-			y = slot1 and slot1.id == slot0.themeVO.id and 0 or -170
+			y = slot3
 		})
 	end
 
+	slot4 = slot2 and 0 or 33
+
 	if not IsNil(slot0.maskPurchased) then
 		setAnchoredPosition(slot0.maskPurchased, {
-			y = slot2 and 0 or 33
+			y = slot4
 		})
 	end
 end

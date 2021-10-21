@@ -20,12 +20,16 @@ end
 function slot0.OnFirstFlush(slot0)
 	slot0.progressUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot4 = uv0:findTF("Unlocked", slot2)
+			slot5 = uv0:findTF("Finished", slot2)
+			slot6 = uv0:findTF("FinalFinished", slot2)
+
 			setActive(uv0:findTF("Locked", slot2), uv0.curDay < slot1 + 1)
 
 			if slot1 <= uv0.curDay then
-				setActive(uv0:findTF("Unlocked", slot2), uv0.playedCount < slot1)
-				setActive(uv0:findTF("Finished", slot2), slot1 <= uv0.playedCount and slot1 ~= uv0.needCount)
-				setActive(uv0:findTF("FinalFinished", slot2), slot1 <= uv0.playedCount and slot1 == uv0.needCount)
+				setActive(slot4, uv0.playedCount < slot1)
+				setActive(slot5, slot1 <= uv0.playedCount and slot1 ~= uv0.needCount)
+				setActive(slot6, slot1 <= uv0.playedCount and slot1 == uv0.needCount)
 			else
 				setActive(slot4, false)
 				setActive(slot5, false)
@@ -61,8 +65,9 @@ end
 
 function slot0.tryGetFinalAward(slot0)
 	slot4 = getProxy(MiniGameProxy):GetHubByHubId(getProxy(MiniGameProxy):GetMiniGameData(slot0.activity:getConfig("config_client").linkMiniGameID):getConfig("hub_id"))
+	slot7 = slot4.ultimate > 0
 
-	if slot4:getConfig("reward_need") <= slot4.usedtime and not (slot4.ultimate > 0) then
+	if slot4:getConfig("reward_need") <= slot4.usedtime and not slot7 then
 		pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
 			hubid = slot4.id,
 			cmd = MiniGameOPCommand.CMD_ULTIMATE,
@@ -74,8 +79,9 @@ end
 function slot0.IsTip()
 	if getProxy(ActivityProxy):getActivityById(pg.activity_const.NEWYEAR_SNACK_PAGE_ID.act_id) and not slot0:isEnd() then
 		slot4 = getProxy(MiniGameProxy):GetHubByHubId(getProxy(MiniGameProxy):GetMiniGameData(slot0:getConfig("config_client").linkMiniGameID):getConfig("hub_id"))
+		slot7 = slot4.ultimate > 0
 
-		if slot4:getConfig("reward_need") <= slot4.usedtime and not (slot4.ultimate > 0) then
+		if slot4:getConfig("reward_need") <= slot4.usedtime and not slot7 then
 			return true
 		elseif slot4.count > 0 then
 			return true

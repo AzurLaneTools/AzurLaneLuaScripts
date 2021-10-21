@@ -34,7 +34,9 @@ end
 
 function slot0.initBlackList(slot0)
 	slot0.blackItems = {}
-	slot0.blackRect = slot0.blackListPanel:Find("mask/view"):GetComponent("LScrollRect")
+	slot1 = slot0.blackListPanel
+	slot1 = slot1:Find("mask/view")
+	slot0.blackRect = slot1:GetComponent("LScrollRect")
 
 	function slot0.blackRect.onInitItem(slot0)
 		uv0:onInitItem(slot0)
@@ -78,7 +80,10 @@ function slot0.sortBlackList(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	for slot4, slot5 in pairs(slot0.blackItems or {}) do
+	slot1 = pairs
+	slot2 = slot0.blackItems or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:dispose()
 	end
 end

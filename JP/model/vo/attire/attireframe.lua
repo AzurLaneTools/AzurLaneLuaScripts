@@ -4,7 +4,9 @@ slot0.STATE_UNLOCKABLE = 2
 slot0.STATE_UNLOCK = 3
 
 function slot0.attireFrameRes(slot0, slot1, slot2, slot3)
-	if slot2 == AttireConst.TYPE_ICON_FRAME and slot0.attireInfo[slot2] == 0 and slot3 then
+	slot4 = slot0.attireInfo[slot2]
+
+	if slot2 == AttireConst.TYPE_ICON_FRAME and slot4 == 0 and slot3 then
 		if pg.ship_data_template[slot0.icon] and ShipGroup.IsMetaGroup(slot5.group_type) then
 			return "meta_propose"
 		else

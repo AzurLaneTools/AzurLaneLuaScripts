@@ -12,6 +12,8 @@ function slot0.Entrance(slot0, slot1)
 	end
 
 	slot2 = getProxy(PlayerProxy)
+	slot3 = getProxy(BayProxy)
+	slot4 = getProxy(FleetProxy)
 	slot6 = pg.battle_cost_template[SYSTEM_ROUTINE].oil_cost > 0
 	slot7 = {}
 	slot8 = 0
@@ -19,13 +21,15 @@ function slot0.Entrance(slot0, slot1)
 	slot10 = 0
 	slot11 = 0
 
-	for slot17, slot18 in ipairs(getProxy(BayProxy):getSortShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.mainFleetId))) do
+	for slot17, slot18 in ipairs(slot3:getSortShipsByFleet(slot4:getFleetById(slot0.mainFleetId))) do
 		slot7[#slot7 + 1] = slot18.id
 	end
 
 	slot9 = slot12:getStartCost().oil
+	slot11 = slot12:GetCostSum().oil
+	slot16 = slot2:getData()
 
-	if slot6 and slot2:getData().oil < slot12:GetCostSum().oil then
+	if slot6 and slot16.oil < slot11 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
@@ -47,13 +51,17 @@ function slot0.Entrance(slot0, slot1)
 		end
 
 		if uv3.enter_energy_cost > 0 and not exFlag then
+			slot1 = pg.gameset.battle_consume_energy.key_value
+
 			for slot5, slot6 in ipairs(uv4) do
-				slot6:cosumeEnergy(pg.gameset.battle_consume_energy.key_value)
+				slot6:cosumeEnergy(slot1)
 				uv5:updateShip(slot6)
 			end
 		end
 
-		uv6:updatePlayer(uv1)
+		slot1 = uv6
+
+		slot1:updatePlayer(uv1)
 		uv10:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			mainFleetId = uv7,
 			prefabFleet = uv8,
@@ -68,13 +76,15 @@ end
 
 function slot0.Exit(slot0, slot1)
 	slot2 = pg.battle_cost_template[SYSTEM_ROUTINE]
+	slot3 = getProxy(FleetProxy)
+	slot4 = getProxy(BayProxy)
 	slot5 = slot0.statistics._battleScore
 	slot6 = 0
 	slot7 = {}
-	slot8 = getProxy(FleetProxy):getFleetById(slot0.mainFleetId)
+	slot8 = slot3:getFleetById(slot0.mainFleetId)
 	slot6 = slot8:getEndCost().oil
 
-	slot1:SendRequest(slot1.GeneralPackage(slot0, getProxy(BayProxy):getShipsByFleet(slot8)), function (slot0)
+	slot1:SendRequest(slot1.GeneralPackage(slot0, slot4:getShipsByFleet(slot8)), function (slot0)
 		if uv0.end_sink_cost > 0 then
 			uv1.DeadShipEnergyCosume(uv2, uv3)
 		end

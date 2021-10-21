@@ -302,9 +302,11 @@ function slot0.GetDeviceId(slot0)
 end
 
 function InLoginScene()
-	if getProxy(ContextProxy):getCurrentContext() and slot1.mediator == LoginMediator and not (function ()
+	function slot0()
 		return getProxy(UserProxy):GetLoginedFlag()
-	end)() then
+	end
+
+	if getProxy(ContextProxy):getCurrentContext() and slot1.mediator == LoginMediator and not slot0() then
 		return true
 	end
 

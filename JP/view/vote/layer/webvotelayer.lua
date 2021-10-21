@@ -86,8 +86,13 @@ function slot0.initShips(slot0)
 end
 
 function slot0.initRanks(slot0)
-	slot0.ranks:ExecuteAction("Update", slot0.voteGroup)
-	slot0.ranks:CallbackInvoke(function ()
+	slot1 = slot0.ranks
+
+	slot1:ExecuteAction("Update", slot0.voteGroup)
+
+	slot1 = slot0.ranks
+
+	slot1:CallbackInvoke(function ()
 		setActive(uv0.ranks.webBtn, false)
 	end)
 end

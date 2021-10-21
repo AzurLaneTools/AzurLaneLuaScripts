@@ -60,9 +60,10 @@ function slot2.init(slot0)
 	slot0:updateCountText(slot0._resourceText)
 
 	slot0._timerList = {}
+	slot3 = {}
 
 	for slot7 = 1, 5 do
-		table.insert({}, slot0:pop(slot0._resourcePool))
+		table.insert(slot3, slot0:pop(slot0._resourcePool))
 	end
 
 	for slot7 = 1, 5 do
@@ -118,10 +119,11 @@ function slot2.ShowDrop(slot0, slot1)
 	end
 
 	slot2 = uv0.Battle.BattleVariable.CameraPosToUICamera(slot1.scenePos:Clone())
+	slot3 = Vector3(slot2.x, slot2.y, 2)
 	slot5, slot6 = math.modf(slot1.drops.resourceCount / uv1.RESOURCE_STEP)
 
 	if slot6 > 0 then
-		slot0:makeFloatAnima(Vector3(slot2.x, slot2.y, 2), slot0._resourcePool, slot0._resourceIconX, slot0._resourceIconY, slot0._resourceIcon, "_resourceCount", slot6 * uv1.RESOURCE_STEP, slot0._resourceText, 0)
+		slot0:makeFloatAnima(slot3, slot0._resourcePool, slot0._resourceIconX, slot0._resourceIconY, slot0._resourceIcon, "_resourceCount", slot6 * uv1.RESOURCE_STEP, slot0._resourceText, 0)
 	end
 
 	while slot5 > 0 do

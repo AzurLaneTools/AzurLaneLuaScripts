@@ -40,7 +40,10 @@ function slot0.register(slot0)
 	else
 		PlayerPrefs.SetInt(slot7, 1)
 		PlayerPrefs.Save()
-		slot0.viewComponent:DisplayLetter(function ()
+
+		slot9 = slot0.viewComponent
+
+		slot9:DisplayLetter(function ()
 			uv0:DispatchAutoOpertation()
 		end)
 	end
@@ -57,8 +60,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.SUBMIT_TASK_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody())
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
 	elseif slot2 == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED then
 		slot0.viewComponent:SetTask(getProxy(TaskProxy):getTaskById(slot3.id) or slot4:getFinishTaskById(slot3.id))
 

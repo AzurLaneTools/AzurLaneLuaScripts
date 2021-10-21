@@ -150,10 +150,11 @@ end
 
 function slot6.surfaceFilterCount(slot0, slot1)
 	slot2 = slot0:GetCldData()
+	slot3 = 0
 
 	for slot8 = 1, #slot1 do
 		if slot1[slot8].data.Active == true and slot9.UID ~= slot0:GetUniqueID() and slot2.IFF ~= slot9.IFF and slot2.Surface == slot9.Surface then
-			slot3 = 0 + 1
+			slot3 = slot3 + 1
 		end
 	end
 
@@ -184,11 +185,12 @@ function slot6.HandleBulletCldWithAircraft(slot0, slot1, slot2)
 end
 
 function slot6.UpdateBulletCld(slot0, slot1)
+	slot2 = slot1:GetEffectField()
 	slot3 = slot1:GetCldBox()
 	slot5, slot6 = nil
 
 	if slot1:GetCldData().IFF == slot0._friendlyCode then
-		slot5 = slot0:GetBulletTree(slot1:GetEffectField())
+		slot5 = slot0:GetBulletTree(slot2)
 	elseif slot4 == slot0._foeCode then
 		slot5 = slot0:GetFoeBulletTree(slot2)
 	end
@@ -248,6 +250,7 @@ end
 
 function slot6.UpdateAOECld(slot0, slot1)
 	slot2 = slot1:GetCldBox()
+	slot4 = slot1:GetAngle() * math.deg2Rad
 	slot5 = nil
 
 	if slot1:GetFieldType() == uv0.BulletField.SURFACE then
@@ -256,7 +259,7 @@ function slot6.UpdateAOECld(slot0, slot1)
 		slot8 = (not slot1:OpponentAffected() or (slot6 ~= slot0._foeCode or slot0._shipTree) and slot0._foeShipTree) and (slot6 ~= slot0._foeCode or slot0._foeShipTree) and slot0._shipTree
 
 		if slot1:GetIFF() == slot0._foeCode then
-			slot4 = slot1:GetAngle() * math.deg2Rad + math.pi
+			slot4 = slot4 + math.pi
 		end
 
 		slot10 = Vector3(math.cos(slot4), math.sin(slot4))
@@ -285,14 +288,18 @@ function slot6.HandleAreaCldWithVehicle(slot0, slot1, slot2)
 			slot12 = true
 
 			if slot1:GetDiveFilter() then
+				slot14 = slot0:GetShip(slot10.UID):GetCurrentOxyState()
+
 				for slot18, slot19 in ipairs(slot11) do
-					if slot0:GetShip(slot10.UID):GetCurrentOxyState() == slot19 then
+					if slot14 == slot19 then
 						slot12 = false
 					end
 				end
 			end
 
-			if slot12 and not slot1:IsOutOfAngle(slot0:GetShip(slot10.UID)) then
+			slot13 = slot1:IsOutOfAngle(slot0:GetShip(slot10.UID))
+
+			if slot12 and not slot13 then
 				slot1:AppendCldObj(slot10)
 			end
 		end

@@ -26,8 +26,10 @@ function slot0.Entrance(slot0, slot1)
 	slot7 = slot15.gold
 	slot8 = slot15.oil
 	slot9 = slot15.gold + slot16.gold
+	slot10 = slot15.oil + slot16.oil
+	slot17 = slot2:getData()
 
-	if slot5 and slot2:getData().oil < slot15.oil + slot16.oil then
+	if slot5 and slot17.oil < slot10 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
@@ -48,13 +50,17 @@ function slot0.Entrance(slot0, slot1)
 		end
 
 		if uv3.enter_energy_cost > 0 and not exFlag then
+			slot1 = pg.gameset.battle_consume_energy.key_value
+
 			for slot5, slot6 in ipairs(uv4) do
-				slot6:cosumeEnergy(pg.gameset.battle_consume_energy.key_value)
+				slot6:cosumeEnergy(slot1)
 				uv5:updateShip(slot6)
 			end
 		end
 
-		uv6:updatePlayer(uv1)
+		slot1 = uv6
+
+		slot1:updatePlayer(uv1)
 		uv9:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			prefabFleet = uv7,
 			stageId = uv8,

@@ -22,8 +22,10 @@ function slot1.DoDataEffectWithoutTarget(slot0, slot1)
 end
 
 function slot1._GetWeapon(slot0, slot1)
+	slot2 = {}
+
 	if slot0._weaponType == "ChargeWeapon" then
-		table.insert({}, slot1:GetChargeList()[1])
+		table.insert(slot2, slot1:GetChargeList()[1])
 	elseif slot0._weaponType == "TorpedoWeapon" then
 		table.insert(slot2, slot1:GetTorpedoList()[1])
 	elseif slot0._weaponType == "AirAssist" then

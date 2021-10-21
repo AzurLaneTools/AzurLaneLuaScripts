@@ -121,6 +121,8 @@ function slot0.GetMissFurnitures(slot0, slot1)
 		return
 	end
 
+	slot3 = {}
+
 	function slot4(slot0, slot1)
 		for slot5, slot6 in ipairs(slot0) do
 			if not slot1[slot6.id] then
@@ -136,9 +138,16 @@ function slot0.GetMissFurnitures(slot0, slot1)
 	slot4(slot2, slot5)
 	slot4(slot1, {})
 
+	function slot7(slot0)
+		return {
+			count = 1,
+			name = pg.furniture_data_template[slot0].name
+		}
+	end
+
 	for slot11, slot12 in pairs(slot5) do
 		if not slot6[slot11] then
-			-- Nothing
+			slot3[slot11] = slot7(slot11)
 		elseif slot6[slot11] and slot6[slot11] < slot12 then
 			if not slot3[slot11] then
 				slot3[slot11] = slot7(slot11)
@@ -148,14 +157,7 @@ function slot0.GetMissFurnitures(slot0, slot1)
 		end
 	end
 
-	return {
-		[slot11] = (function (slot0)
-			return {
-				count = 1,
-				name = pg.furniture_data_template[slot0].name
-			}
-		end)(slot11)
-	}
+	return slot3
 end
 
 function slot0.getName(slot0)

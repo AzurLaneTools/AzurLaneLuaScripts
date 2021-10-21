@@ -5,10 +5,14 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.cancelBtn = slot0._tf:Find("frame/cancel_btn")
-	slot0.text = slot0._tf:Find("frame/bg/content/Text")
-	slot0.confirmBtn = slot0._tf:Find("frame/confirm_btn")
-	slot0.closeBtn = slot0._tf:Find("frame/close_btn")
+	slot1 = slot0._tf
+	slot0.cancelBtn = slot1:Find("frame/cancel_btn")
+	slot1 = slot0._tf
+	slot0.text = slot1:Find("frame/bg/content/Text")
+	slot1 = slot0._tf
+	slot0.confirmBtn = slot1:Find("frame/confirm_btn")
+	slot1 = slot0._tf
+	slot0.closeBtn = slot1:Find("frame/close_btn")
 
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()

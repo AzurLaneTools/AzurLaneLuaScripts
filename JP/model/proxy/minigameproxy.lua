@@ -49,14 +49,18 @@ function slot0.UpdataHubData(slot0, slot1)
 end
 
 function slot0.RequestInitData(slot0, slot1, slot2)
-	if slot2 and not (slot0:GetMiniGameData(slot1):getConfig("request_data") == 1) then
+	slot4 = slot0:GetMiniGameData(slot1):getConfig("request_data") == 1
+
+	if slot2 and not slot4 then
 		return
 	end
 
 	if slot3:CheckInTime() then
+		slot5 = slot0:GetHubByGameId(slot1)
+
 		if (slot3:getConfig("type") == MiniGameConst.MG_TYPE_2 or slot6 == MiniGameConst.MG_TYPE_3) and not slot3:GetRuntimeData("fetchData") then
 			slot0:sendNotification(GAME.SEND_MINI_GAME_OP, {
-				hubid = slot0:GetHubByGameId(slot1).id,
+				hubid = slot5.id,
 				cmd = MiniGameOPCommand.CMD_SPECIAL_GAME,
 				args1 = {
 					slot3.id,

@@ -67,7 +67,10 @@ function slot0.getTendency(slot0, slot1)
 end
 
 function slot0.updateBlueprintStates(slot0)
-	for slot4, slot5 in pairs(slot0.bluePrintData or {}) do
+	slot1 = pairs
+	slot2 = slot0.bluePrintData or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:updateState()
 	end
 end
@@ -118,9 +121,11 @@ function slot0.updateTecCatchup(slot0, slot1)
 end
 
 function slot0.getActiveTechnologyCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6:isStart() then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -128,7 +133,10 @@ function slot0.getActiveTechnologyCount(slot0)
 end
 
 function slot0.getActiveTechnology(slot0)
-	for slot4, slot5 in pairs(slot0.data or {}) do
+	slot1 = pairs
+	slot2 = slot0.data or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		if slot5:isStart() then
 			return Clone(slot5)
 		end
@@ -153,8 +161,10 @@ end
 
 function slot0.getTechnologys(slot0)
 	slot1 = {}
+	slot2 = pairs
+	slot3 = slot0.data or {}
 
-	for slot5, slot6 in pairs(slot0.data or {}) do
+	for slot5, slot6 in slot2(slot3) do
 		table.insert(slot1, slot6)
 	end
 
@@ -292,20 +302,25 @@ end
 
 function slot0.calcMaxPursuingCount(slot0, slot1)
 	slot2 = pg.gameset.blueprint_pursue_discount_ssr.description
-	slot3 = getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResGold)
+	slot3 = getProxy(PlayerProxy)
+	slot3 = slot3:getRawData()
+	slot3 = slot3:getResource(PlayerConst.ResGold)
 	slot4 = 0
+
+	function slot5(slot0)
+		slot1 = #uv0
+
+		while slot0 < uv0[slot1][1] do
+			slot1 = slot1 - 1
+		end
+
+		return uv0[slot1][2]
+	end
+
 	slot6 = nil
 
 	for slot10 = slot0.pursuingTimes + 1, slot2[#slot2][1] - 1 do
-		if slot3 < slot1:getPursuingPrice((function (slot0)
-			slot1 = #uv0
-
-			while slot0 < uv0[slot1][1] do
-				slot1 = slot1 - 1
-			end
-
-			return uv0[slot1][2]
-		end)(slot10)) then
+		if slot3 < slot1:getPursuingPrice(slot5(slot10)) then
 			return slot4
 		else
 			slot3 = slot3 - slot6
@@ -319,18 +334,21 @@ end
 function slot0.calcPursuingCost(slot0, slot1, slot2)
 	slot3 = pg.gameset.blueprint_pursue_discount_ssr.description
 	slot4 = 0
+
+	function slot5(slot0)
+		slot1 = #uv0
+
+		while slot0 < uv0[slot1][1] do
+			slot1 = slot1 - 1
+		end
+
+		return uv0[slot1][2]
+	end
+
 	slot6 = nil
 
 	for slot10 = slot0.pursuingTimes + 1, slot3[#slot3][1] - 1 do
-		slot6 = slot1:getPursuingPrice((function (slot0)
-			slot1 = #uv0
-
-			while slot0 < uv0[slot1][1] do
-				slot1 = slot1 - 1
-			end
-
-			return uv0[slot1][2]
-		end)(slot10))
+		slot6 = slot1:getPursuingPrice(slot5(slot10))
 
 		if slot2 == 0 then
 			return slot4

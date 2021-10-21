@@ -18383,3 +18383,63 @@ _G.pg.gametip.formationScene_use_oil_limit_flagship = {
 _G.pg.gametip.formationScene_use_oil_limit_submarine = {
 	tip = "潜水"
 }
+
+_G.pg.gametip.attr_durability = {
+	tip = "耐久"
+}
+
+_G.pg.gametip.attr_armor = {
+	tip = "装甲"
+}
+
+_G.pg.gametip.attr_reload = {
+	tip = "装填"
+}
+
+_G.pg.gametip.attr_cannon = {
+	tip = "火力"
+}
+
+_G.pg.gametip.attr_torpedo = {
+	tip = "雷装"
+}
+
+_G.pg.gametip.attr_motion = {
+	tip = "回避"
+}
+
+_G.pg.gametip.attr_antiaircraft = {
+	tip = "対空"
+}
+
+_G.pg.gametip.attr_air = {
+	tip = "航空"
+}
+
+_G.pg.gametip.attr_hit = {
+	tip = "命中"
+}
+
+_G.pg.gametip.attr_antisub = {
+	tip = "対潜"
+}
+
+_G.pg.gametip.attr_oxy_max = {
+	tip = "潜航力"
+}
+
+_G.pg.gametip.attr_ammo = {
+	tip = "弾薬量"
+}
+
+_G.pg.gametip.attr_hunting_range = {
+	tip = "支援範囲"
+}
+
+_G.pg.gametip.attr_luck = {
+	tip = "運"
+}
+
+_G.pg.gametip.attr_consume = {
+	tip = "消費"
+}

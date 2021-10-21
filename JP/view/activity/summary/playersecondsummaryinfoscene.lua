@@ -86,7 +86,9 @@ function slot0.initSummaryInfo(slot0)
 		}))
 	end
 
-	slot1(slot0.pageContainer:Find("page5"), SecondSummaryPage5, slot0.summaryInfoVO)
+	slot5 = slot0.pageContainer
+
+	slot1(slot5:Find("page5"), SecondSummaryPage5, slot0.summaryInfoVO)
 	onButton(slot0, slot0:findTF("page5/share", slot0.pageContainer), function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeSecondSummary)
 	end, SFX_CONFIRM)

@@ -1,7 +1,9 @@
 slot0 = class("BackYardGarnitureLayer", import("..base.BaseUI"))
 
 function slot0.preload(slot0, slot1)
-	PoolMgr.GetInstance():GetUI("BackYardIndexUI", true, function (slot0)
+	slot2 = PoolMgr.GetInstance()
+
+	slot2:GetUI("BackYardIndexUI", true, function (slot0)
 		uv0.filterTF = tf(slot0)
 
 		uv1()
@@ -9,8 +11,10 @@ function slot0.preload(slot0, slot1)
 end
 
 function slot0.SORT_FUNC(slot0, slot1, slot2, slot3)
+	slot3 = slot3 or 1
+
 	if (slot2:getSameConfigIdCount(slot0.configId) == slot0.count and 1 or 0) == (slot2:getSameConfigIdCount(slot1.configId) == slot1.count and 1 or 0) then
-		if (slot3 or 1) == BackYardShopFilterPanel.ORDER_MODE_ASC then
+		if slot3 == BackYardShopFilterPanel.ORDER_MODE_ASC then
 			return slot0.id < slot1.id
 		else
 			return slot1.id < slot0.id
@@ -77,10 +81,12 @@ function slot0.didEnter(slot0)
 	slot0:initThemeBox()
 	slot0:initDecorations()
 
+	slot1 = slot0:findTF("types", slot0.decoratePanel)
+
 	for slot5 = 0, 6 do
 		slot7 = slot5
 
-		onToggle(slot0, slot0:findTF("types", slot0.decoratePanel):GetChild(slot5), function (slot0)
+		onToggle(slot0, slot1:GetChild(slot5), function (slot0)
 			if slot0 then
 				uv0:filter(uv1)
 
@@ -164,7 +170,8 @@ function slot0.initThemes(slot0)
 			end
 		end
 
-		slot0.themeRect = slot0.themesPanel:GetComponent("LScrollRect")
+		slot2 = slot0.themesPanel
+		slot0.themeRect = slot2:GetComponent("LScrollRect")
 
 		function slot0.themeRect.onInitItem(slot0)
 			uv0:onInitTheme(slot0)
@@ -218,8 +225,10 @@ end
 
 function slot0.filterTheme(slot0)
 	slot0.themeVOs = {}
+	slot1 = ipairs
+	slot2 = slot0.allThemeVOs or {}
 
-	for slot4, slot5 in ipairs(slot0.allThemeVOs or {}) do
+	for slot4, slot5 in slot1(slot2) do
 		if slot5:isBought(slot0.furnitureVOs) and slot5:isMatchSearchKey(slot0.searchKey) then
 			table.insert(slot0.themeVOs, slot5)
 		end
@@ -237,9 +246,11 @@ function slot0.filterTheme(slot0)
 		end
 	end)
 
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0.themeVOs) do
 		if slot6.type == BackYardTheme.TYPE_USER then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -279,7 +290,9 @@ function slot0.applyTheme(slot0, slot1)
 		end)
 	end
 
-	pg.UIMgr.GetInstance():LoadingOn()
+	slot5 = pg.UIMgr.GetInstance()
+
+	slot5:LoadingOn()
 	seriesAsync(slot2, function ()
 		pg.UIMgr.GetInstance():LoadingOff()
 		uv0:filterTheme()
@@ -303,10 +316,12 @@ function slot0.getCloneFurniture(slot0, slot1)
 end
 
 function slot0.createDecoration(slot0, slot1)
+	slot3 = slot0:findTF("itemtpl/icon", slot1)
+
 	return {
 		go = slot1,
 		maskTF = slot0:findTF("itemtpl/mask", slot1),
-		iconImg = slot0:findTF("itemtpl/icon", slot1):GetComponent(typeof(Image)),
+		iconImg = slot3:GetComponent(typeof(Image)),
 		comfortableTF = slot0:findTF("itemtpl/comfortable/Text", slot1),
 		newTF = slot0:findTF("itemtpl/new_bg", slot1),
 		add = slot0:findTF("itemtpl/Add", slot1),
@@ -497,7 +512,8 @@ function slot0.initThemeBox(slot0)
 	slot0.themeName = slot0:findTF("frame/bound/Name", slot0.themebox)
 	slot0.themeNameText = slot0:findTF("Text", slot0.themeName)
 	slot0.themeDesc = slot0:findTF("frame/bound/desc", slot0.themebox)
-	slot0.themeIcon = slot0:findTF("frame/bound/Icon", slot0.themebox):GetComponent(typeof(Image))
+	slot1 = slot0:findTF("frame/bound/Icon", slot0.themebox)
+	slot0.themeIcon = slot1:GetComponent(typeof(Image))
 	slot0.selectThemeVO = nil
 
 	onButton(slot0, slot0.themebox, function ()
@@ -539,7 +555,10 @@ function slot0.initThemeBox(slot0)
 		end
 
 		if uv0.selectThemeVO:isOccupyed(uv0.furnitruesPackage, uv0.contextData.floor) then
-			uv0:openMsgBox(i18n("backyarad_theme_replace", uv0.selectThemeVO:getName()), function ()
+			slot2 = uv0
+			slot6 = uv0.selectThemeVO
+
+			slot2:openMsgBox(i18n("backyarad_theme_replace", slot6:getName()), function ()
 				uv1(Clone(uv0.selectThemeVO:getUsableFurnituresForFloor(uv0.furnitruesPackage, uv0.contextData.floor)))
 				uv0:closeMsgBox()
 			end)
@@ -620,8 +639,9 @@ end
 function slot0.showFilterPanel(slot0)
 	if not slot0.indexPanel then
 		slot0.indexPanel = BackYardShopFilterPanel.New(slot0.filterTF, BackYardShopFilterPanel.TYPE_DECORATION)
+		slot1 = slot0.indexPanel
 
-		slot0.indexPanel:attach(slot0)
+		slot1:attach(slot0)
 
 		function slot0.indexPanel.confirmFunc()
 			setText(uv0.filterBtn:Find("Text"), uv0.indexPanel.sortTxt)

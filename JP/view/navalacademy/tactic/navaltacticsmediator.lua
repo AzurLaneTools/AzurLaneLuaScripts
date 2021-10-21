@@ -23,7 +23,9 @@ function slot0.register(slot0)
 		slot0.contextData.students = nil
 	end
 
-	slot0.viewComponent:setStudents(slot4)
+	slot6 = slot0.viewComponent
+
+	slot6:setStudents(slot4)
 	slot0:bind(uv0.OPEN_DOCKYARD, function (slot0, slot1, slot2, slot3)
 		uv0.contextData.students = slot2
 		slot4 = {}
@@ -123,8 +125,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == NavalAcademyProxy.START_LEARN_TACTICS then
-		slot0.viewComponent:updateStudentVO(slot1:getBody())
+		slot0.viewComponent:updateStudentVO(slot3)
 	elseif slot2 == GAME.CANCEL_LEARN_TACTICS_DONE then
 		slot0.viewComponent:updateShipVO(slot3.newShipVO)
 		slot0.viewComponent:addDeleteStudentQueue(slot3.id, slot3.totalExp, slot3.oldSkill, slot3.newSkill)

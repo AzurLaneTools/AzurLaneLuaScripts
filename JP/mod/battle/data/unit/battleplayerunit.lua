@@ -191,8 +191,11 @@ function slot7.setWeapon(slot0, slot1)
 			slot8[#slot8 + 1] = slot13
 		end
 
+		slot9 = 20
+		slot10 = 1
+
 		for slot14, slot15 in ipairs(slot8) do
-			slot0:AddAutoWeapon(uv2.Battle.BattleDataFunction.CreateWeaponUnit(slot15, slot0, 1, 20))
+			slot0:AddAutoWeapon(uv2.Battle.BattleDataFunction.CreateWeaponUnit(slot15, slot0, slot10, slot9))
 		end
 	end
 end

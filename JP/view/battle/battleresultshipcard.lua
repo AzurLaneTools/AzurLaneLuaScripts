@@ -17,10 +17,13 @@ function slot0.init(slot0)
 	slot0._lvFX = findTF(slot0._expContent, "dockyard/lv_bg/levelup")
 	slot0._expText = findTF(slot0._expInfo, "exp_text")
 	slot0._expProgress = findTF(slot0._expInfo, "exp_progress")
-	slot0._expImage = slot0._expProgress:GetComponent(typeof(Image))
+	slot1 = slot0._expProgress
+	slot0._expImage = slot1:GetComponent(typeof(Image))
 	slot0._expBuff = findTF(slot0._expInfo, "exp_buff")
+	slot1 = slot0._expTF
+	slot1 = slot1:GetComponent(typeof(DftAniEvent))
 
-	slot0._expTF:GetComponent(typeof(DftAniEvent)):SetTriggerEvent(function (slot0)
+	slot1:SetTriggerEvent(function (slot0)
 		uv0:expAnimation()
 	end)
 	SetActive(slot0._expTF, false)
@@ -38,13 +41,19 @@ function slot0.SetShipVO(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.RegisterPreEXPTF(slot0, slot1)
-	slot1:GetTF():GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+	slot2 = slot1:GetTF()
+	slot2 = slot2:GetComponent(typeof(DftAniEvent))
+
+	slot2:SetEndEvent(function (slot0)
 		setActive(uv0._expTF, true)
 	end)
 end
 
 function slot0.ConfigCallback(slot0, slot1)
-	slot0._expTF:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+	slot2 = slot0._expTF
+	slot2 = slot2:GetComponent(typeof(DftAniEvent))
+
+	slot2:SetEndEvent(function (slot0)
 		uv0()
 	end)
 end
@@ -64,8 +73,10 @@ function slot0.expAnimation(slot0)
 	slot0._expImage.fillAmount = slot0._oldShipVO:getExp() / getExpByRarityFromLv1(slot0._oldShipVO:getConfig("rarity"), slot0._oldShipVO.level)
 
 	if slot0._oldShipVO.level < slot0._newShipVO.level then
+		slot3 = 0
+
 		for slot7 = slot0._oldShipVO.level, slot0._newShipVO.level - 1 do
-			slot3 = 0 + getExpByRarityFromLv1(slot1, slot7)
+			slot3 = slot3 + getExpByRarityFromLv1(slot1, slot7)
 		end
 
 		slot0.playAnimation(slot0._expTF, 0, slot3 + slot0._newShipVO:getExp() - slot0._oldShipVO:getExp(), 1, 0, function (slot0)
@@ -84,18 +95,24 @@ function slot0.expAnimation(slot0)
 			return
 		end
 
-		slot0.playAnimation(slot0._expTF, slot0._oldShipVO:getExp() / slot2, slot0._newShipVO:getExp() / slot2, 1, 0, function (slot0)
+		slot6 = slot0._oldShipVO
+		slot7 = slot0._newShipVO
+
+		slot0.playAnimation(slot0._expTF, slot6:getExp() / slot2, slot7:getExp() / slot2, 1, 0, function (slot0)
 			uv0._expImage.fillAmount = slot0
 		end)
 	end
 end
 
 function slot0.loopAnimation(slot0, slot1, slot2, slot3, slot4)
-	slot5 = getExpByRarityFromLv1(slot0._oldShipVO:getConfig("rarity"), slot0._newShipVO.level)
-
-	LeanTween.value(go(slot0._expTF), slot1, slot2, slot3):setOnUpdate(System.Action_float(function (slot0)
+	slot6 = slot0._oldShipVO
+	slot5 = getExpByRarityFromLv1(slot6:getConfig("rarity"), slot0._newShipVO.level)
+	slot6 = LeanTween.value(go(slot0._expTF), slot1, slot2, slot3)
+	slot6 = slot6:setOnUpdate(System.Action_float(function (slot0)
 		uv0._expImage.fillAmount = slot0
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot6:setOnComplete(System.Action(function ()
 		uv0._animationLV = uv0._animationLV + 1
 
 		if uv1 then
@@ -117,7 +134,10 @@ end
 function slot0.levelUpEffect(slot0)
 	SetActive(slot0._lvUp, true)
 	SetActive(slot0._lvFX, true)
-	LeanTween.moveY(rtf(slot0._lvUp), slot0._lvUp.localPosition.y + 30, 0.5):setOnComplete(System.Action(function ()
+
+	slot2 = LeanTween.moveY(rtf(slot0._lvUp), slot0._lvUp.localPosition.y + 30, 0.5)
+
+	slot2:setOnComplete(System.Action(function ()
 		SetActive(uv0._lvUp, false)
 
 		uv0._lvUp.localPosition = uv1
@@ -160,8 +180,10 @@ function slot0.SkipAnimation(slot0)
 		slot1 = slot0._oldShipVO:getConfig("rarity")
 
 		if slot0._oldShipVO.level < slot0._newShipVO.level then
+			slot2 = 0
+
 			for slot6 = slot0._oldShipVO.level, slot0._newShipVO.level - 1 do
-				slot2 = 0 + getExpByRarityFromLv1(slot1, slot6)
+				slot2 = slot2 + getExpByRarityFromLv1(slot1, slot6)
 			end
 
 			setText(slot0._expText, "+" .. slot2 + slot0._newShipVO:getExp() - slot0._oldShipVO:getExp())
@@ -180,7 +202,10 @@ function slot0.GetTF(slot0)
 end
 
 function slot0.playAnimation(slot0, slot1, slot2, slot3, slot4, slot5)
-	LeanTween.value(slot0.gameObject, slot1, slot2, slot3):setDelay(slot4):setOnUpdate(System.Action_float(function (slot0)
+	slot6 = LeanTween.value(slot0.gameObject, slot1, slot2, slot3)
+	slot6 = slot6:setDelay(slot4)
+
+	slot6:setOnUpdate(System.Action_float(function (slot0)
 		uv0(slot0)
 	end))
 end

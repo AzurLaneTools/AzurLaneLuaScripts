@@ -89,7 +89,8 @@ function slot0.Init(slot0)
 	end
 
 	slot0.rtSubBar = slot1:Find("other/sub_bar")
-	slot0.rtAmmo = slot0.rtSubBar:Find("text")
+	slot2 = slot0.rtSubBar
+	slot0.rtAmmo = slot2:Find("text")
 	slot0.rtSalvageList = slot1:Find("other/salvage_list")
 
 	setActive(slot0.rtShip, false)
@@ -99,7 +100,9 @@ function slot0.Init(slot0)
 		uv0:Collpase()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.rtFleetBar, function ()
-		uv0:ShowToggleMask(function (slot0)
+		slot0 = uv0
+
+		slot0:ShowToggleMask(function (slot0)
 			uv0:DispatchEvent(uv1.EventSelectFleet, slot0)
 		end)
 	end, SFX_PANEL)
@@ -109,13 +112,17 @@ function slot0.Init(slot0)
 end
 
 function slot0.AddWorldListener(slot0)
-	underscore.each(nowWorld:GetNormalFleets(), function (slot0)
+	slot2 = nowWorld
+
+	underscore.each(slot2:GetNormalFleets(), function (slot0)
 		slot0:AddListener(WorldMapFleet.EventUpdateCatSalvage, uv0.onUpdateCatSalvage)
 	end)
 end
 
 function slot0.RemoveWorldListener(slot0)
-	underscore.each(nowWorld:GetNormalFleets(), function (slot0)
+	slot2 = nowWorld
+
+	underscore.each(slot2:GetNormalFleets(), function (slot0)
 		slot0:RemoveListener(WorldMapFleet.EventUpdateCatSalvage, uv0.onUpdateCatSalvage)
 	end)
 end
@@ -233,13 +240,14 @@ end
 
 function slot0.GetShipObject(slot0, slot1)
 	slot3 = WorldConst.FetchShipVO(slot1.id):getTeamType()
+	slot4 = ({
+		[TeamType.Main] = slot0.rtMain,
+		[TeamType.Vanguard] = slot0.rtVanguard
+	})[slot3]
 
 	for slot9, slot10 in ipairs(slot0.fleet:GetTeamShips(slot3, true)) do
 		if slot1.id == slot10.id then
-			return ({
-				[TeamType.Main] = slot0.rtMain,
-				[TeamType.Vanguard] = slot0.rtVanguard
-			})[slot3]:GetChild(slot9 - 1)
+			return slot4:GetChild(slot9 - 1)
 		end
 	end
 end
@@ -311,44 +319,52 @@ function slot0.ShipDamageDisplay(slot0, slot1, slot2, slot3)
 	setActive(slot4:Find("heal"), false)
 	setActive(slot4:Find("normal"), false)
 
+	slot5 = slot2:Find("blood")
+
 	if slot3 then
+		slot7 = WorldConst.FetchShipVO(slot1.id)
+
+		function slot9(slot0, slot1)
+			setActive(slot0, true)
+			setText(findTF(slot0, "text"), slot1)
+			setTextAlpha(findTF(slot0, "text"), 0)
+
+			uv0.delayCallFuncs[uv1.id].isDoing = true
+
+			parallelAsync({
+				function (slot0)
+					LeanTween.moveY(uv0, 60, 1):setOnComplete(System.Action(slot0))
+				end,
+				function (slot0)
+					slot1 = LeanTween.textAlpha(findTF(uv0, "text"), 1, 0.3)
+
+					slot1:setOnComplete(System.Action(function ()
+						LeanTween.textAlpha(findTF(uv0, "text"), 0, 0.5):setDelay(0.4):setOnComplete(System.Action(uv1))
+					end))
+				end
+			}, function ()
+				uv0.localPosition = Vector3(0, 0, 0)
+
+				if not uv1.delayCallFuncs[uv2.id] then
+					return
+				end
+
+				uv1.delayCallFuncs[uv2.id].isDoing = false
+
+				if #uv1.delayCallFuncs[uv2.id] > 0 then
+					table.remove(uv1.delayCallFuncs[uv2.id], 1)()
+				end
+			end)
+		end
+
 		function slot10(slot0)
 			LeanTween.moveX(slot0, slot0.transform.localPosition.x, 0.05):setEase(LeanTweenType.easeInOutSine):setLoopPingPong(4)
 			LeanTween.alpha(findTF(slot0, "red"), 0.5, 0.4)
 			LeanTween.alpha(findTF(slot0, "red"), 0, 0.4):setDelay(0.4)
 		end
 
-		if calcFloor((slot1.hpRant - slot2:Find("blood"):GetComponent(typeof(Slider)).value) / 10000 * WorldConst.FetchShipVO(slot1.id):getShipProperties()[AttributeType.Durability]) > 0 then
-			(function (slot0, slot1)
-				setActive(slot0, true)
-				setText(findTF(slot0, "text"), slot1)
-				setTextAlpha(findTF(slot0, "text"), 0)
-
-				uv0.delayCallFuncs[uv1.id].isDoing = true
-
-				parallelAsync({
-					function (slot0)
-						LeanTween.moveY(uv0, 60, 1):setOnComplete(System.Action(slot0))
-					end,
-					function (slot0)
-						LeanTween.textAlpha(findTF(uv0, "text"), 1, 0.3):setOnComplete(System.Action(function ()
-							LeanTween.textAlpha(findTF(uv0, "text"), 0, 0.5):setDelay(0.4):setOnComplete(System.Action(uv1))
-						end))
-					end
-				}, function ()
-					uv0.localPosition = Vector3(0, 0, 0)
-
-					if not uv1.delayCallFuncs[uv2.id] then
-						return
-					end
-
-					uv1.delayCallFuncs[uv2.id].isDoing = false
-
-					if #uv1.delayCallFuncs[uv2.id] > 0 then
-						table.remove(uv1.delayCallFuncs[uv2.id], 1)()
-					end
-				end)
-			end)(findTF(slot4, "heal"), slot8)
+		if calcFloor((slot1.hpRant - slot5:GetComponent(typeof(Slider)).value) / 10000 * slot7:getShipProperties()[AttributeType.Durability]) > 0 then
+			slot9(findTF(slot4, "heal"), slot8)
 		elseif slot8 < 0 then
 			slot10(slot2)
 			slot9(findTF(slot4, "normal"), slot8)
@@ -374,8 +390,10 @@ function slot0.ShowToggleMask(slot0, slot1)
 
 	setActive(slot0.toggleMask, true)
 
+	slot3 = slot0.map:GetNormalFleets()
+
 	for slot7, slot8 in ipairs(slot0.toggles) do
-		slot9 = slot0.map:GetNormalFleets()[slot7]
+		slot9 = slot3[slot7]
 
 		setActive(slot8, slot9)
 

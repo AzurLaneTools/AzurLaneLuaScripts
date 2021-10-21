@@ -89,14 +89,15 @@ function slot2.MakeFXContainer(slot0, slot1)
 	slot4.localPosition = Vector3.zero
 	slot5 = slot2.localEulerAngles
 	slot4.localEulerAngles = Vector3(slot5.x * -1, slot5.y, slot5.z)
+	slot6 = slot1:GetUnitData():GetTemplate().fx_container
+	slot7 = {}
 
 	for slot11, slot12 in ipairs(uv0.Battle.BattleConst.FXContainerIndex) do
-		slot13 = slot1:GetUnitData():GetTemplate().fx_container[slot11]
+		slot13 = slot6[slot11]
+		slot7[slot11] = Vector3(slot13[1], slot13[2], slot13[3])
 	end
 
-	slot1:AddFXOffsets(slot3, {
-		[slot11] = Vector3(slot13[1], slot13[2], slot13[3])
-	})
+	slot1:AddFXOffsets(slot3, slot7)
 end
 
 function slot2.MakeShadow(slot0)
@@ -107,20 +108,20 @@ function slot2.MakeSmokeFX(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1:GetUnitData():GetTemplate().smoke) do
+		slot10 = {}
+
 		for slot14, slot15 in ipairs(slot8[2]) do
-			-- Nothing
+			slot10[{
+				unInitialize = true,
+				resID = slot15[1],
+				pos = Vector3(slot15[2][1], slot15[2][2], slot15[2][3])
+			}] = false
 		end
 
 		slot3[slot7] = {
 			active = false,
 			rate = slot8[1] / 100,
-			smokes = {
-				[{
-					unInitialize = true,
-					resID = slot15[1],
-					pos = Vector3(slot15[2][1], slot15[2][2], slot15[2][3])
-				}] = false
-			}
+			smokes = slot10
 		}
 	end
 

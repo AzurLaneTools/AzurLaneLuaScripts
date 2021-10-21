@@ -3,9 +3,11 @@ slot0 = class("ShipExpItemUsageCard")
 function slot0.Ctor(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
-	slot0.nameTxt = slot1:Find("name"):GetComponent(typeof(Text))
+	slot2 = slot1:Find("name")
+	slot0.nameTxt = slot2:GetComponent(typeof(Text))
 	slot0.itemTF = slot1:Find("item")
-	slot0.valueTxt = slot1:Find("value/Text"):GetComponent(typeof(Text))
+	slot2 = slot1:Find("value/Text")
+	slot0.valueTxt = slot2:GetComponent(typeof(Text))
 	slot0.value = 0
 
 	pressPersistTrigger(slot1:Find("m10"), 0.5, function (slot0)

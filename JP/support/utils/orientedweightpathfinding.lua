@@ -57,6 +57,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 			end) and slot1.row >= 0 and slot1.row < uv2 and slot1.column >= 0 and slot1.column < uv3 and not uv4.IsDirectionForbidden(uv5[uv0.row][uv0.column], slot0[1], slot0[2]) then
 				slot3 = uv6[uv0.row][uv0.column]
 				slot4 = uv5[slot1.row][slot1.column]
+				slot6 = slot3.enemyCount + (slot4.isEnemy and 1 or 0)
 
 				if slot3.priority + slot4.priority < uv4.PrioObstacle then
 					slot7 = Clone(slot3)
@@ -64,7 +65,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 					table.insert(slot7.path, slot1)
 
 					slot7.priority = slot5
-					slot7.enemyCount = slot3.enemyCount + slot3.enemyCount + (slot4.isEnemy and 1 or 0)
+					slot7.enemyCount = slot3.enemyCount + slot6
 					slot8 = _.detect(uv7, function (slot0)
 						return slot0.row == uv0.row and slot0.column == uv0.column
 					end)

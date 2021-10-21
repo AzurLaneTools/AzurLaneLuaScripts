@@ -165,7 +165,10 @@ function slot0.AddShip(slot0, slot1, slot2)
 	end
 
 	slot5:Lock()
-	PoolMgr.GetInstance():GetSpineChar(slot4, true, function (slot0)
+
+	slot6 = PoolMgr.GetInstance()
+
+	slot6:GetSpineChar(slot4, true, function (slot0)
 		if IsNil(uv0.nameTF) then
 			return
 		end
@@ -196,8 +199,10 @@ function slot0.ExitShip(slot0, slot1)
 end
 
 function slot0.SortScene(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0.ships) do
-		table.insert({}, {
+		table.insert(slot1, {
 			obj = slot6,
 			position = slot6.grid.position
 		})
@@ -249,11 +254,11 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.AddGridDebugView(slot0)
-	slot1 = {
-		[slot5] = {}
-	}
+	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.path) do
+		slot1[slot5] = {}
+
 		for slot10, slot11 in pairs(slot6) do
 			slot12 = GameObject.New()
 

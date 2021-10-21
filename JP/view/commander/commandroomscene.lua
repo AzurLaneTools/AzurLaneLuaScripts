@@ -189,39 +189,43 @@ function slot0.initBoxes(slot0)
 	slot0:updateCapcity()
 	slot0:UpdateBoxesBtn()
 	onButton(slot0, slot0:findTF("reserve_btn", slot0.boxTF), function ()
-		if uv0.reservePanel:GetLoaded() then
-			(function ()
-				uv0.reservePanel:ActionInvoke("Update", uv0.reserveBoxCnt, uv0.playerVO)
+		function slot0()
+			uv0.reservePanel:ActionInvoke("Update", uv0.reserveBoxCnt, uv0.playerVO)
 
-				function uv0.reservePanel.confirm(slot0, slot1)
-					if uv0.playerVO.gold < slot0 then
-						uv0:GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
-							{
-								59001,
-								slot0 - slot2.gold,
-								slot0
-							}
-						})
-
-						return
-					end
-
-					uv0:openMsgBox({
-						content = i18n(slot0 <= 0 and "commander_get_1" or "commander_get", slot0, slot1),
-						onYes = function ()
-							uv0:emit(CommandRoomMediator.ON_RESERVE_BOX, uv1)
-						end
+			function uv0.reservePanel.confirm(slot0, slot1)
+				if uv0.playerVO.gold < slot0 then
+					uv0:GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
+						{
+							59001,
+							slot0 - slot2.gold,
+							slot0
+						}
 					})
+
+					return
 				end
-			end)()
+
+				uv0:openMsgBox({
+					content = i18n(slot0 <= 0 and "commander_get_1" or "commander_get", slot0, slot1),
+					onYes = function ()
+						uv0:emit(CommandRoomMediator.ON_RESERVE_BOX, uv1)
+					end
+				})
+			end
+		end
+
+		if uv0.reservePanel:GetLoaded() then
+			slot0()
 		else
 			uv0.reservePanel:Load()
 			uv0.reservePanel:CallbackInvoke(slot0)
 		end
 	end, SFX_PANEL)
 
+	slot1 = slot0:findTF("home", slot0.boxTF)
+
 	if not LOCK_CATTERY then
-		onButton(slot0, slot0:findTF("home", slot0.boxTF), function ()
+		onButton(slot0, slot1, function ()
 			uv0:emit(CommandRoomMediator.ON_OPEN_HOME)
 		end, SFX_PANEL)
 	else
@@ -229,10 +233,12 @@ function slot0.initBoxes(slot0)
 	end
 
 	onButton(slot0, slot0:findTF("boxes_btn", slot0.boxTF), function ()
+		function slot0()
+			uv0.boxesPanel:ActionInvoke("Update", uv0.boxes, uv0.pools)
+		end
+
 		if uv0.boxesPanel:GetLoaded() then
-			(function ()
-				uv0.boxesPanel:ActionInvoke("Update", uv0.boxes, uv0.pools)
-			end)()
+			slot0()
 		else
 			uv0.boxesPanel:Load()
 			uv0.boxesPanel:CallbackInvoke(slot0)
@@ -242,9 +248,13 @@ end
 
 function slot0.GoShoppingMsgBox(slot0, slot1, slot2, slot3)
 	if slot3 then
+		slot4 = ""
+
 		for slot8, slot9 in ipairs(slot3) do
+			slot4 = slot4 .. i18n(slot9[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", pg.item_data_statistics[slot9[1]].name, slot9[2])
+
 			if slot8 < #slot3 then
-				slot4 = "" .. i18n(slot9[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", pg.item_data_statistics[slot9[1]].name, slot9[2]) .. i18n("text_noRes_info_tip_link")
+				slot4 = slot4 .. i18n("text_noRes_info_tip_link")
 			end
 		end
 
@@ -264,7 +274,9 @@ function slot0.GoShoppingMsgBox(slot0, slot1, slot2, slot3)
 end
 
 function slot0.OnReserveDone(slot0, slot1)
-	slot0.reservePanel:ActionInvoke("setBlock", true)
+	slot2 = slot0.reservePanel
+
+	slot2:ActionInvoke("setBlock", true)
 	seriesAsync({
 		function (slot0)
 			uv0.reservePanel:ActionInvoke("playAnim", uv1, slot0)
@@ -295,12 +307,14 @@ slot1 = 0.3
 
 function slot0.enterAnim(slot0, slot1)
 	slot0.leftPanelCG.alpha = 0
-
-	LeanTween.value(go(slot0.leftPanel), 0, 1, uv0):setOnUpdate(System.Action_float(function (slot0)
+	slot2 = LeanTween.value(go(slot0.leftPanel), 0, 1, uv0)
+	slot2 = slot2:setOnUpdate(System.Action_float(function (slot0)
 		if uv0.leftPanelCG then
 			uv0.leftPanelCG.alpha = slot0
 		end
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot2:setOnComplete(System.Action(function ()
 		if uv0 then
 			uv0()
 		end
@@ -345,21 +359,23 @@ function slot0.didEnter(slot0)
 		uv0:updateCommanders()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sortBtn, function ()
+		function slot0()
+			uv0.indexPanel:ActionInvoke("Show", uv0.sortData)
+
+			function uv0.indexPanel.confirm()
+				uv0.sortData = uv0.indexPanel.data
+				uv0.sortData.asc = uv0.sortData.asc
+
+				uv0:clearAllSelected()
+				uv0:updateCommanders()
+				eachChild(uv0.sortBtn, function (slot0)
+					setActive(slot0, go(slot0).name == uv0.sortData.sortData)
+				end)
+			end
+		end
+
 		if uv0.indexPanel:GetLoaded() then
-			(function ()
-				uv0.indexPanel:ActionInvoke("Show", uv0.sortData)
-
-				function uv0.indexPanel.confirm()
-					uv0.sortData = uv0.indexPanel.data
-					uv0.sortData.asc = uv0.sortData.asc
-
-					uv0:clearAllSelected()
-					uv0:updateCommanders()
-					eachChild(uv0.sortBtn, function (slot0)
-						setActive(slot0, go(slot0).name == uv0.sortData.sortData)
-					end)
-				end
-			end)()
+			slot0()
 		else
 			uv0.indexPanel:Load()
 			uv0.indexPanel:CallbackInvoke(slot0)
@@ -411,13 +427,20 @@ function slot0.paintingView(slot0)
 	end
 
 	slot1 = 0.5
+	slot2 = slot0.detailPage
 
-	slot0.detailPage:tweenHide(slot1)
-	slot0.detailPage:onPaintingView()
+	slot2:tweenHide(slot1)
+
+	slot2 = slot0.detailPage
+
+	slot2:onPaintingView()
 	LeanTween.moveY(rtf(slot0.topPanel), slot0.topPanel.localPosition.y - 300, slot1)
 	LeanTween.moveX(rtf(slot0.leftPanel), -300, slot1)
 	LeanTween.moveX(rtf(slot0.rightPanel), 1000, slot1)
-	LeanTween.moveX(rtf(slot0.paintingTF), 0, slot1):setOnComplete(System.Action(function ()
+
+	slot2 = LeanTween.moveX(rtf(slot0.paintingTF), 0, slot1)
+
+	slot2:setOnComplete(System.Action(function ()
 		slot0 = GetOrAddComponent(uv0.bgTF, "MultiTouchZoom")
 
 		slot0:SetZoomTarget(uv0.paintingTF)
@@ -511,10 +534,12 @@ function slot0.opeRenamePanel(slot0, slot1)
 		})
 	end
 
+	function slot3()
+		uv0.renamePanel:ActionInvoke("Show", uv1, uv2)
+	end
+
 	if slot0.renamePanel:GetLoaded() then
-		(function ()
-			uv0.renamePanel:ActionInvoke("Show", uv1, uv2)
-		end)()
+		slot3()
 	else
 		slot0.renamePanel:Load()
 		slot0.renamePanel:CallbackInvoke(slot3)
@@ -526,7 +551,9 @@ function slot0.closeRenamePanel(slot0)
 end
 
 function slot0.initCommandersPanel(slot0)
-	slot0.commanderRect = slot0.commandersPanel:Find("frame/frame"):GetComponent("LScrollRect")
+	slot1 = slot0.commandersPanel
+	slot1 = slot1:Find("frame/frame")
+	slot0.commanderRect = slot1:GetComponent("LScrollRect")
 	slot0.cards = {}
 
 	function slot0.commanderRect.onInitItem(slot0)
@@ -629,7 +656,9 @@ function slot0.initCommandersPanel(slot0)
 end
 
 function slot0.checkCommander(slot0, slot1)
-	if table.contains(slot0.selecteds, slot1.id) and (slot0.contextData.maxCount or table.getCount(slot0.commanderVOs)) == 1 then
+	slot3 = slot0.contextData.maxCount or table.getCount(slot0.commanderVOs)
+
+	if table.contains(slot0.selecteds, slot1.id) and slot3 == 1 then
 		slot0:updateSelecteds()
 
 		return
@@ -690,9 +719,11 @@ function slot0.checkCommander(slot0, slot1)
 end
 
 function slot0.updateSelecteds(slot0)
+	slot1 = slot0.contextData.maxCount or table.getCount(slot0.commanderVOs)
+
 	for slot5, slot6 in pairs(slot0.cards) do
 		if slot6.commanderVO then
-			setActive((slot0.contextData.maxCount or table.getCount(slot0.commanderVOs)) == 1 and slot6.mark2 or slot6.mark1, table.contains(slot0.selecteds, slot6.commanderVO.id))
+			setActive(slot1 == 1 and slot6.mark2 or slot6.mark1, table.contains(slot0.selecteds, slot6.commanderVO.id))
 		end
 	end
 
@@ -763,20 +794,24 @@ function slot0.updateCommanders(slot0)
 	slot0.disPlayCommanderVOs = {}
 	slot1 = slot0.sortData
 
+	function slot2(slot0)
+		if #uv0.nationData > 0 then
+			return table.contains(uv0.nationData, slot0:getConfig("nationality"))
+		end
+
+		return true
+	end
+
+	function slot3(slot0)
+		if #uv0.rarityData > 0 then
+			return table.contains(uv0.rarityData, slot0:getRarity())
+		end
+
+		return true
+	end
+
 	for slot7, slot8 in pairs(slot0.commanderVOs) do
-		if not table.contains(slot0.contextData.ignoredIds or {}, slot8.id) and (function (slot0)
-			if #uv0.nationData > 0 then
-				return table.contains(uv0.nationData, slot0:getConfig("nationality"))
-			end
-
-			return true
-		end)(slot8) and (function (slot0)
-			if #uv0.rarityData > 0 then
-				return table.contains(uv0.rarityData, slot0:getRarity())
-			end
-
-			return true
-		end)(slot8) then
+		if not table.contains(slot0.contextData.ignoredIds or {}, slot8.id) and slot2(slot8) and slot3(slot8) then
 			table.insert(slot0.disPlayCommanderVOs, slot8)
 		end
 	end
@@ -877,10 +912,12 @@ end
 function slot0.openMsgBox(slot0, slot1)
 	slot0.isShowMsgBox = true
 
+	function slot2()
+		uv0.msgboxPage:ActionInvoke("OnUpdate", uv1)
+	end
+
 	if slot0.msgboxPage:GetLoaded() then
-		(function ()
-			uv0.msgboxPage:ActionInvoke("OnUpdate", uv1)
-		end)()
+		slot2()
 	else
 		slot0.msgboxPage:Load()
 		slot0.msgboxPage:CallbackInvoke(slot2)
@@ -894,10 +931,12 @@ function slot0.closeMsgBox(slot0)
 end
 
 function slot0.openTreePanel(slot0, slot1)
+	function slot2()
+		uv0.treePage:ActionInvoke("openTreePanel", uv1)
+	end
+
 	if slot0.treePage:GetLoaded() then
-		(function ()
-			uv0.treePage:ActionInvoke("openTreePanel", uv1)
-		end)()
+		slot2()
 	else
 		slot0.treePage:Load()
 		slot0.treePage:CallbackInvoke(slot2)

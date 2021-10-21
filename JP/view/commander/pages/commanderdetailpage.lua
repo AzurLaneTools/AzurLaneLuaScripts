@@ -94,16 +94,18 @@ function slot0.HideExp(slot0)
 end
 
 function slot0.Blur(slot0)
-	if slot0.isOnAddition or slot0.isOnSkill then
-		(function (slot0)
-			uv0.blurFlag = slot0
+	function slot1(slot0)
+		uv0.blurFlag = slot0
 
-			if slot0 then
-				pg.UIMgr.GetInstance():BlurPanel(uv0.blurPanel)
-			else
-				pg.UIMgr.GetInstance():UnblurPanel(uv0.blurPanel, uv0.blurPanelParent)
-			end
-		end)(true)
+		if slot0 then
+			pg.UIMgr.GetInstance():BlurPanel(uv0.blurPanel)
+		else
+			pg.UIMgr.GetInstance():UnblurPanel(uv0.blurPanel, uv0.blurPanelParent)
+		end
+	end
+
+	if slot0.isOnAddition or slot0.isOnSkill then
+		slot1(true)
 	else
 		slot1(false)
 	end
@@ -268,7 +270,10 @@ function slot0.updateTalentAddition(slot0, slot1, slot2)
 end
 
 function slot0.updateSkills(slot0)
-	GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot0.commanderVO:getSkills()[1]:getConfig("icon"), "", slot0.skillIcon)
+	slot1 = slot0.commanderVO
+	slot3 = slot1:getSkills()[1]
+
+	GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot3:getConfig("icon"), "", slot0.skillIcon)
 	onButton(slot0, slot0.skillIcon, function ()
 		uv0:emit(CommandRoomMediator.ON_CMD_SKILL, uv1)
 	end)

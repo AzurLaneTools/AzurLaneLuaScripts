@@ -35,7 +35,9 @@ function slot0.Init(slot0)
 	slot0.comSilder.interactable = CAMERA_MOVE_OPEN
 
 	if CAMERA_MOVE_OPEN then
-		slot0.comSilder.onValueChanged:AddListener(function (slot0)
+		slot2 = slot0.comSilder.onValueChanged
+
+		slot2:AddListener(function (slot0)
 			uv0:DispatchEvent(uv1.EventUpdateScale, slot0)
 		end)
 	end

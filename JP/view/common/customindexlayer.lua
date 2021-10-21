@@ -95,6 +95,7 @@ function slot0.InitDropdown(slot0, slot1)
 	setParent(slot3, slot0.layout, false)
 	setActive(slot3, true)
 
+	slot4 = uv0.Clone2Full(slot3:Find("bg/panel"), #slot2)
 	go(slot3).name = slot1.titleTxt
 
 	setText(slot3:Find("title/Image"), i18n(slot1.titleTxt))
@@ -107,7 +108,7 @@ function slot0.InitDropdown(slot0, slot1)
 	slot5.enabled = false
 
 	for slot9, slot10 in ipairs(slot2) do
-		slot11 = uv0.Clone2Full(slot3:Find("bg/panel"), #slot2)[slot9]
+		slot11 = slot4[slot9]
 
 		setActive(slot0:findTF("dropdown", slot11), true)
 		onButton(slot0, slot11, function ()
@@ -143,9 +144,10 @@ function slot0.InitCustoms(slot0, slot1)
 	slot5.enabled = false
 	slot6 = slot3.options
 	slot7 = slot3.mode or uv0.Mode.OR
+	slot8 = 0
 
 	for slot12, slot13 in ipairs(slot6) do
-		slot8 = bit.bor(slot13, 0)
+		slot8 = bit.bor(slot13, slot8)
 	end
 
 	slot0.contextData.indexDatas[slot2] = slot0.contextData.indexDatas[slot2] or slot6[1]
@@ -207,10 +209,13 @@ function slot0.OnDatasChange(slot0, slot1)
 
 	for slot6, slot7 in pairs(slot0.dropdownDic) do
 		if slot2[slot6] ~= nil then
-			if slot2[slot6].exclude[slot1] ~= nil or slot2[slot6].include[slot1] ~= nil then
+			slot8 = slot2[slot6].include
+
+			if slot2[slot6].exclude[slot1] ~= nil or slot8[slot1] ~= nil then
+				slot10 = slot0.contextData.indexDatas[slot1]
 				slot11 = false
 
-				if slot9[slot1] ~= nil and slot0.contextData.indexDatas[slot1] == slot9[slot1] then
+				if slot9[slot1] ~= nil and slot10 == slot9[slot1] then
 					slot11 = false
 				elseif slot8[slot1] ~= nil then
 					slot11 = bit.band(slot10, slot8[slot1]) > 0
@@ -242,10 +247,11 @@ function slot0.willExit(slot0)
 end
 
 function slot0.Clone2Full(slot0, slot1)
+	slot2 = {}
 	slot3 = slot0:GetChild(0)
 
 	for slot8 = 0, slot0.childCount - 1 do
-		table.insert({}, slot0:GetChild(slot8))
+		table.insert(slot2, slot0:GetChild(slot8))
 	end
 
 	for slot8 = slot4, slot1 - 1 do

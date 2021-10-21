@@ -13,8 +13,10 @@ function slot0.DormUpdated(slot0, slot1)
 end
 
 function slot0.FurnituresUpdated(slot0, slot1)
+	slot2 = slot0.dorm:GetAllFurniture()
+
 	for slot6, slot7 in ipairs(slot1) do
-		slot8 = slot0.dorm:GetAllFurniture()[slot7]
+		slot8 = slot2[slot7]
 
 		slot0:OnDisplayUpdated(slot8)
 		slot0:OnCardUpdated(slot8)

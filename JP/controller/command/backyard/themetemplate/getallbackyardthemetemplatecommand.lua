@@ -8,21 +8,27 @@ function slot0.execute(slot0, slot1)
 
 	seriesAsync({
 		function (slot0)
-			uv0:GetCustomThemeTemplate(function (slot0)
+			slot1 = uv0
+
+			slot1:GetCustomThemeTemplate(function (slot0)
 				uv0 = slot0
 
 				uv1()
 			end)
 		end,
 		function (slot0)
-			uv0:GetShopThemeTemplate(function (slot0)
+			slot1 = uv0
+
+			slot1:GetShopThemeTemplate(function (slot0)
 				uv0 = slot0
 
 				uv1()
 			end)
 		end,
 		function (slot0)
-			uv0:GetCollectionThemeTemplate(function (slot0)
+			slot1 = uv0
+
+			slot1:GetCollectionThemeTemplate(function (slot0)
 				uv0 = slot0
 
 				uv1()
@@ -37,8 +43,10 @@ end
 
 function slot1(slot0, slot1)
 	slot2 = {}
+	slot3 = pairs
+	slot4 = slot1 or {}
 
-	for slot6, slot7 in pairs(slot1 or {}) do
+	for slot6, slot7 in slot3(slot4) do
 		table.insert(slot2, slot7)
 	end
 

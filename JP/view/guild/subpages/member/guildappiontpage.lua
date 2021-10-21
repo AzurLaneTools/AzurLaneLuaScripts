@@ -41,8 +41,10 @@ function slot0.OnShow(slot0)
 	slot6 = nil
 
 	for slot10, slot11 in ipairs(uv0) do
+		slot13 = slot0.dutyContainer:Find(slot11):Find("Text")
+
 		if slot2.duty == slot10 then
-			setText(slot0.dutyContainer:Find(slot11):Find("Text"), i18n("guild_duty_tip_1"))
+			setText(slot13, i18n("guild_duty_tip_1"))
 		elseif not table.contains(slot5, slot10) then
 			setText(slot13, i18n("guild_duty_tip_2"))
 		end
@@ -65,8 +67,9 @@ function slot0.OnShow(slot0)
 
 	slot0.nameTF.text = slot2.name
 	slot8 = AttireFrame.attireFrameRes(slot2, isSelf, AttireConst.TYPE_ICON_FRAME, slot2.propose)
+	slot9 = PoolMgr.GetInstance()
 
-	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot8, slot8, true, function (slot0)
+	slot9:GetPrefab("IconFrame/" .. slot8, slot8, true, function (slot0)
 		if IsNil(uv0._tf) then
 			return
 		end
@@ -80,10 +83,13 @@ function slot0.OnShow(slot0)
 			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. uv1, uv1, slot0)
 		end
 	end)
-	LoadSpriteAsync("qicon/" .. Ship.New({
+
+	slot10 = Ship.New({
 		configId = slot2.icon,
 		skin_id = slot2.skinId
-	}):getPainting(), function (slot0)
+	})
+
+	LoadSpriteAsync("qicon/" .. slot10:getPainting(), function (slot0)
 		if not IsNil(uv0.iconTF) then
 			uv0.iconTF.sprite = slot0
 		end
@@ -100,13 +106,15 @@ function slot0.OnShow(slot0)
 	slot0.levelTF.text = "Lv." .. slot2.level
 
 	onButton(slot0, slot0.confirmBtn, function ()
+		function slot0()
+			uv0:emit(GuildMemberMediator.SET_DUTY, uv1.id, uv2)
+			uv0:Hide()
+		end
+
 		if uv3 == GuildConst.DUTY_COMMANDER and uv2 == GuildConst.DUTY_COMMANDER then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("guild_transfer_president_confirm", uv1.name),
-				onYes = function ()
-					uv0:emit(GuildMemberMediator.SET_DUTY, uv1.id, uv2)
-					uv0:Hide()
-				end
+				onYes = slot0
 			})
 		else
 			slot0()

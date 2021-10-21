@@ -10,10 +10,11 @@ module("protobuf.text_format")
 
 function format(slot0)
 	for slot5 = 1, uv0.len(slot0), 16 do
+		slot6 = ""
 		slot10 = slot1
 
 		for slot10 = slot5, uv1.min(slot5 + 16 - 1, slot10) do
-			slot6 = uv0.format("%s  %02x", "", uv0.byte(slot0, slot10))
+			slot6 = uv0.format("%s  %02x", slot6, uv0.byte(slot0, slot10))
 		end
 
 		uv2(slot6)
@@ -23,13 +24,15 @@ end
 slot8 = require("protobuf.descriptor").FieldDescriptor
 
 function msg_format_indent(slot0, slot1, slot2)
-	for slot6, slot7 in slot1:ListFields() do
+	for slot6, slot7 in slot1.ListFields(slot1) do
 		function slot8(slot0)
+			slot1 = uv0.name
+
 			uv1(uv2.rep(" ", uv3))
 
 			if uv0.type == uv4.TYPE_MESSAGE then
 				if uv5(uv6)._extensions_by_name[uv0.full_name] then
-					uv1("[" .. uv0.name .. "] {\n")
+					uv1("[" .. slot1 .. "] {\n")
 				else
 					uv1(slot1 .. " {\n")
 				end

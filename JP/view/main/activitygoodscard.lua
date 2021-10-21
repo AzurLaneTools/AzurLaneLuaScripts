@@ -41,10 +41,11 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 		count = slot1:getConfig("num")
 	})
 
+	slot10 = ""
 	slot0.countTF.text = slot1:getConfig("resource_num")
 
 	if string.match(slot7 == DROP_TYPE_SKIN and (pg.ship_skin_template[slot8].name or "??") or slot9.cfg.name or "??", "(%d+)") then
-		setText(slot0.nameTxt, shortenString("", 4))
+		setText(slot0.nameTxt, shortenString(slot10, 4))
 	else
 		setText(slot0.nameTxt, shortenString(slot10, 6))
 	end
@@ -68,9 +69,10 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 	slot14 = uv0.Color[slot2] or uv0.DefaultColor
 	slot0.limitCountTF.color = slot3 or Color.New(slot14[1], slot14[2], slot14[3], 1)
 	slot0.limitCountLabelTF.color = slot3 or Color.New(slot14[1], slot14[2], slot14[3], 1)
+	slot4 = slot4 or Color.New(0, 0, 0, 1)
 
 	if GetComponent(slot0.limitCountTF, typeof(Outline)) then
-		setOutlineColor(slot0.limitCountTF, slot4 or Color.New(0, 0, 0, 1))
+		setOutlineColor(slot0.limitCountTF, slot4)
 	end
 
 	if GetComponent(slot0.limitCountLabelTF, typeof(Outline)) then
@@ -84,6 +86,7 @@ end
 
 function slot0.StaticUpdate(slot0, slot1, slot2, slot3)
 	slot4 = tf(slot0)
+	slot6 = findTF(slot4, "item/name_mask/name")
 	slot7 = findTF(slot4, "item/consume/contain/icon"):GetComponent(typeof(Image))
 
 	setActive(findTF(slot4, "item/discount"), false)
@@ -103,10 +106,11 @@ function slot0.StaticUpdate(slot0, slot1, slot2, slot3)
 		count = slot1:getConfig("num")
 	})
 
+	slot19 = ""
 	findTF(slot4, "item/consume/contain/Text"):GetComponent(typeof(Text)).text = slot1:getConfig("resource_num")
 
 	if string.match(slot16 == DROP_TYPE_SKIN and (pg.ship_skin_template[slot17].name or "??") or slot18.cfg.name or "??", "(%d+)") then
-		setText(findTF(slot4, "item/name_mask/name"), shortenString("", 5))
+		setText(slot6, shortenString(slot19, 5))
 	else
 		setText(slot6, shortenString(slot19, 6))
 	end
@@ -123,10 +127,14 @@ function slot0.StaticUpdate(slot0, slot1, slot2, slot3)
 
 	if slot1:getConfig("num_limit") == 0 then
 		slot12.text = i18n("common_no_limit")
-	elseif slot16 == DROP_TYPE_SKIN and not slot14 then
-		slot12.text = "0/" .. slot1:getConfig("num_limit")
 	else
-		slot12.text = slot22 - slot1.buyCount .. "/" .. slot22
+		slot22 = slot1:getConfig("num_limit")
+
+		if slot16 == DROP_TYPE_SKIN and not slot14 then
+			slot12.text = "0/" .. slot22
+		else
+			slot12.text = slot22 - slot1.buyCount .. "/" .. slot22
+		end
 	end
 
 	slot22 = uv0.Color[slot2] or uv0.DefaultColor

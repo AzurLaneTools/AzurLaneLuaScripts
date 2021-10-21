@@ -37,7 +37,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	setActive(slot0.seeBtn, false)
 
-	slot0.batchText = slot0.batchUseBtn:Find("text")
+	slot3 = slot0.batchUseBtn
+	slot0.batchText = slot3:Find("text")
 
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Close()

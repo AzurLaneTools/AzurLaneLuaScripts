@@ -59,7 +59,9 @@ end
 
 function slot0.flush(slot0)
 	if slot0.shipVO then
-		LoadSpriteAsync("qicon/" .. slot0.shipVO:getPainting(), function (slot0)
+		slot4 = slot0.shipVO
+
+		LoadSpriteAsync("qicon/" .. slot4:getPainting(), function (slot0)
 			uv0.iconTF.sprite = slot0
 		end)
 		setActive(slot0.propose, slot0.shipVO.propose)
@@ -111,12 +113,13 @@ function slot0.flushDetail(slot0)
 		for slot9 = 1, 6 do
 			slot10 = slot0.detailLayoutTr:GetChild(slot9 - 1)
 			slot11 = slot10:GetChild(0):GetComponent("Text")
+			slot12 = slot10:GetChild(1):GetComponent("Text")
 
 			if slot0.detailType == uv0.DetailType1 then
 				if slot9 == 1 then
 					slot11.alignment = TextAnchor.MiddleCenter
 					slot11.text = slot0.shipVO:getName()
-					slot10:GetChild(1):GetComponent("Text").text = ""
+					slot12.text = ""
 				else
 					slot13 = slot4[slot9]
 					slot11.text = AttributeType.Type2Name(slot13)

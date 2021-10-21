@@ -28,7 +28,10 @@ function slot0.execute(slot0, slot1)
 			pg.backyard:sendNotification(BACKYARD.REMOVE_ITEM, Clone(slot6))
 
 			if slot6:hasStageShip() then
-				for slot14, slot15 in pairs(slot6:getStageShip() or {}) do
+				slot11 = pairs
+				slot12 = slot6:getStageShip() or {}
+
+				for slot14, slot15 in slot11(slot12) do
 					slot16 = nil
 					slot17 = slot6:getPosition()
 					slot18 = slot8:getShipPosById(slot15)
@@ -100,7 +103,10 @@ function slot0.execute(slot0, slot1)
 			end)(slot8)
 
 			if slot8:hasStageShip() then
-				for slot16, slot17 in pairs(slot8:getStageShip() or {}) do
+				slot13 = pairs
+				slot14 = slot8:getStageShip() or {}
+
+				for slot16, slot17 in slot13(slot14) do
 					slot18 = slot10:getShipPosById(slot17)
 					slot19 = Vector2(slot18.x - slot9.x, slot18.y - slot9.y)
 
@@ -157,11 +163,13 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.DormFurniture2HouseFurniture(slot0)
+	slot2 = getBackYardProxy(BackYardHouseProxy):getData()
+	slot5 = StartUpBackYardCommand.GetHouseByDorm({
+		furnitures = getProxy(DormProxy):getData():getOtherFloorFurnitrues(getProxy(DormProxy).floor)
+	})
 	slot6 = Clone(slot0)
 
-	if not slot0:isPaper() and (getBackYardProxy(BackYardHouseProxy):getData():ContainsFurnitrue(slot0.id) or StartUpBackYardCommand.GetHouseByDorm({
-		furnitures = getProxy(DormProxy):getData():getOtherFloorFurnitrues(getProxy(DormProxy).floor)
-	}):ContainsFurnitrue(slot0.id)) then
+	if not slot0:isPaper() and (slot2:ContainsFurnitrue(slot0.id) or slot5:ContainsFurnitrue(slot0.id)) then
 		for slot10 = 1, slot0.count - 1 do
 			if not slot2:ContainsFurnitrue(slot0:getCloneId(slot10)) and not slot5:ContainsFurnitrue(slot11) then
 				slot6.id = slot11

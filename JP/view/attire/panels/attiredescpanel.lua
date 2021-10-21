@@ -21,10 +21,11 @@ function slot0.Update(slot0, slot1, slot2)
 
 	slot0.nameTxt.text = slot1:getConfig("name")
 	slot0.stateTxt.text = setColorStr(slot1:isOwned() and i18n("word_got") or i18n("word_not_get"), slot3 and "#3DC6FFFF" or "#a5afdf")
+	slot5 = slot1:expiredType()
 
 	slot0:RemoveTimer()
 
-	if slot3 and slot1:expiredType() then
+	if slot3 and slot5 then
 		slot0:AddTimer(slot1, slot2)
 	elseif slot3 and not slot5 then
 		slot0.timeTxt.text = ""
@@ -43,11 +44,12 @@ end
 
 function slot0.UpdateIconDesc(slot0, slot1, slot2)
 	slot3 = slot1:getType() == AttireConst.TYPE_ICON_FRAME
+	slot4 = slot1:getType() == AttireConst.TYPE_CHAT_FRAME
 
 	if slot0.loadedIcon and slot0.loadedIconTF then
 		slot5 = slot0.loadedIcon:getIcon()
 
-		if slot1:getType() == AttireConst.TYPE_CHAT_FRAME then
+		if slot4 then
 			slot0.loadedIconTF.transform:Find("Text"):GetComponent(typeof(Text)).supportRichText = false
 		end
 
@@ -75,7 +77,9 @@ function slot0.UpdateIconDesc(slot0, slot1, slot2)
 		end)
 		slot0.startList:align(slot6:getStar())
 	elseif slot4 then
-		PoolMgr.GetInstance():GetPrefab(slot1:getIcon(), slot1:getConfig("id") .. "_self", true, function (slot0)
+		slot6 = PoolMgr.GetInstance()
+
+		slot6:GetPrefab(slot1:getIcon(), slot1:getConfig("id") .. "_self", true, function (slot0)
 			uv0.loadedIcon = uv1
 			uv0.loadedIconTF = slot0
 
