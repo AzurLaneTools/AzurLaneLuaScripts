@@ -90,9 +90,10 @@ end
 
 function slot0.updateCommanders(slot0, slot1)
 	slot0.commanders = {}
+	slot2 = getProxy(CommanderProxy)
 
 	for slot6, slot7 in ipairs(slot1) do
-		if getProxy(CommanderProxy):getCommanderById(slot7.id) then
+		if slot2:getCommanderById(slot7.id) then
 			slot0.commanders[slot7.pos] = slot9
 		end
 	end
@@ -352,12 +353,12 @@ function slot0.isValid(slot0)
 	return false
 end
 
-function slot0.getCost(slot0, slot1)
-	slot1 = slot1 or 1
+function slot0.getCost(slot0)
+	rate = rate or 1
 
 	_.each(slot0:getShips(false), function (slot0)
-		uv0.oil = uv0.oil + slot0:getStartBattleExpend() * uv1
-		uv2.oil = uv2.oil + slot0:getEndBattleExpend() * uv1
+		uv0.oil = uv0.oil + slot0:getStartBattleExpend()
+		uv1.oil = uv1.oil + slot0:getEndBattleExpend()
 	end)
 
 	return {
@@ -739,10 +740,11 @@ function slot0.findCommanderBySkillId(slot0, slot1)
 end
 
 function slot0.getFleetAirDominanceValue(slot0)
+	slot1 = 0
 	slot5 = false
 
 	for slot5, slot6 in ipairs(slot0:getShips(slot5)) do
-		slot1 = 0 + calcAirDominanceValue(slot6, slot0:getCommanders())
+		slot1 = slot1 + calcAirDominanceValue(slot6, slot0:getCommanders())
 	end
 
 	return slot1

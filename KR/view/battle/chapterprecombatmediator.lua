@@ -70,7 +70,7 @@ function slot0.register(slot0)
 
 	slot1 = getProxy(ChapterProxy)
 
-	slot0.viewComponent:setSubFlag(slot1.getSubAidFlag(slot1:getActiveChapter()))
+	slot0.viewComponent:setSubFlag(slot1.getSubAidFlag(slot1:getActiveChapter(), stageId))
 	slot0.viewComponent:setPlayerInfo(getProxy(PlayerProxy):getRawData())
 	slot0:display()
 end

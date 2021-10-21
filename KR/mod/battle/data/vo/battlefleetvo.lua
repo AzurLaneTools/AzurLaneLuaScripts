@@ -152,10 +152,11 @@ function slot9.RandomMainVictim(slot0, slot1)
 end
 
 function slot9.NearestUnitByType(slot0, slot1, slot2)
+	slot3 = 999
 	slot4 = nil
 
 	for slot8, slot9 in ipairs(slot0._unitList) do
-		if table.contains(slot2, slot9:GetTemplate().type) and Vector3.BattleDistance(slot9:GetPosition(), slot1) < 999 then
+		if table.contains(slot2, slot9:GetTemplate().type) and Vector3.BattleDistance(slot9:GetPosition(), slot1) < slot3 then
 			slot3 = slot12
 			slot4 = slot9
 		end
@@ -203,9 +204,11 @@ function slot9.SetTotalBound(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot9.CalcSubmarineBaseLine(slot0, slot1)
+	slot2 = (slot0._totalRightBound + slot0._totalLeftBound) * 0.5
+
 	if slot0._IFF == uv0.FRIENDLY_CODE then
 		if slot1 ~= SYSTEM_DUEL then
-			slot0._subAttackBaseLine = (slot0._totalRightBound + slot0._totalLeftBound) * 0.5
+			slot0._subAttackBaseLine = slot2
 			slot0._subRetreatBaseLine = slot0._leftBound - 10
 		end
 	elseif slot0._IFF == uv0.FOE_CODE and slot1 == SYSTEM_DUEL then
@@ -471,6 +474,7 @@ function slot9.Dispose(slot0)
 	slot0._fleetStaticSonar = nil
 	slot0._buffList = nil
 	slot0._indieSonarList = nil
+	slot0._scoutAimBias = nil
 end
 
 function slot9.refreshFleetFormation(slot0, slot1)
@@ -575,9 +579,10 @@ function slot9.appendScoutUnit(slot0, slot1)
 	slot0._fleetStaticSonar:AppendCrewUnit(slot1)
 
 	slot4 = 1
+	slot5 = #slot0._unitList
 	slot6 = {}
 
-	while slot4 < #slot0._unitList do
+	while slot4 < slot5 do
 		table.insert(slot6, slot4)
 
 		slot4 = slot4 + 1
@@ -634,9 +639,11 @@ end
 
 function slot9.FleetWarcry(slot0)
 	slot1 = nil
+	slot2 = math.random(0, 1)
+	slot3 = slot0:GetScoutList()[1]
 
-	if slot0:GetMainList()[1] == nil or math.random(0, 1) == 0 then
-		slot1 = slot0:GetScoutList()[1]
+	if slot0:GetMainList()[1] == nil or slot2 == 0 then
+		slot1 = slot3
 	elseif slot2 == 1 then
 		slot1 = slot4
 	end
@@ -648,8 +655,10 @@ function slot9.FleetWarcry(slot0)
 end
 
 function slot9.FleetUnitSpwanFinish(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0._unitList) do
-		slot1 = 0 + slot6:GetGearScore()
+		slot1 = slot1 + slot6:GetGearScore()
 	end
 
 	for slot5, slot6 in ipairs(slot0._unitList) do
@@ -807,11 +816,12 @@ function slot9.QuickCastTorpedo(slot0)
 end
 
 function slot9.CoupleEncourage(slot0)
+	slot1 = {}
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0._unitList) do
 		if #uv0.GetWords(slot7:GetSkinID(), "couple_encourage", slot7:GetIntimacy()) > 0 then
-			-- Nothing
+			slot1[slot7] = slot9
 		end
 	end
 
@@ -819,8 +829,10 @@ function slot9.CoupleEncourage(slot0)
 	slot4 = uv1.CPChatTargetFunc
 
 	function slot5(slot0, slot1)
+		slot2 = {}
+
 		if slot0 == uv0.GROUP_ID then
-			-- Nothing
+			slot2.groupIDList = slot1
 		elseif slot0 == uv0.SHIP_TYPE then
 			slot2.ship_type_list = slot1
 		elseif slot0 == uv0.RARE then
@@ -833,14 +845,10 @@ function slot9.CoupleEncourage(slot0)
 			slot2.teamIndex = slot1[1]
 		end
 
-		return {
-			groupIDList = slot1
-		}
+		return slot2
 	end
 
-	for slot9, slot10 in pairs({
-		[slot7] = slot9
-	}) do
+	for slot9, slot10 in pairs(slot1) do
 		for slot14, slot15 in ipairs(slot10) do
 			slot16 = slot15[1]
 			slot17 = slot15[2]
@@ -1030,7 +1038,9 @@ function slot9.ChangeSubmarineState(slot0, slot1, slot2)
 			slot7:ResetCurrent()
 		end
 
-		if not slot0._submarineShiftVO:IsOverLoad() or uv0.SR_CONFIG.DIVE_CD >= slot0._submarineShiftVO:GetMax() - slot0._submarineShiftVO:GetCurrent() then
+		slot3 = slot0._submarineShiftVO:GetMax() - slot0._submarineShiftVO:GetCurrent()
+
+		if not slot0._submarineShiftVO:IsOverLoad() or uv0.SR_CONFIG.DIVE_CD >= slot3 then
 			slot0._submarineShiftVO:SetMax(uv0.SR_CONFIG.DIVE_CD)
 			slot0._submarineShiftVO:ResetCurrent()
 		end
@@ -1122,8 +1132,10 @@ function slot9.UpdateHorizon(slot0)
 end
 
 function slot9.AutoBotUpdated(slot0, slot1)
+	slot2 = slot1 and uv0.BuffEffectType.ON_AUTOBOT or uv0.BuffEffectType.ON_MANUAL
+
 	for slot6, slot7 in ipairs(slot0._unitList) do
-		slot7:TriggerBuff(slot1 and uv0.BuffEffectType.ON_AUTOBOT or uv0.BuffEffectType.ON_MANUAL)
+		slot7:TriggerBuff(slot2)
 	end
 end
 

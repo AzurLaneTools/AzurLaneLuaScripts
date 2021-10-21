@@ -32,6 +32,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.hourLeftTag = slot0.tr:Find("real_tpl/time_left/hour")
 	slot0.minLeftTag = slot0.tr:Find("real_tpl/time_left/min")
 	slot0.numLeftText = slot0.timeLeftTag:Find("Text")
+	slot0.focusTip = slot0.tr:Find("real_tpl/focus_tip")
 	slot0.tag = slot0.tr:Find("real_tpl/tag")
 	slot0.tags = {}
 
@@ -55,6 +56,7 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	setText(slot0.freeTag, i18n("shop_free_tag"))
 	setActive(slot0.freeTag, slot1:isFree())
 	setActive(slot0.priceTf, not slot1:isFree())
+	setActive(slot0.focusTip, slot1:isFree())
 	setActive(slot0.icon, slot1:isChargeType())
 	setActive(slot0.contain, true)
 	setActive(slot0.countDown, false)
@@ -326,8 +328,10 @@ end
 function slot0.updateImport(slot0, slot1, slot2)
 	setActive(slot0.important, true)
 
+	slot3 = {}
+
 	for slot7, slot8 in ipairs(slot1) do
-		table.insert({}, {
+		table.insert(slot3, {
 			type = slot8[1],
 			id = slot8[2],
 			count = slot8[3]

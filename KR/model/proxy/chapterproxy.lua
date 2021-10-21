@@ -69,29 +69,31 @@ function slot0.register(slot0)
 		if uv0:getActiveChapter() then
 			slot2 = 0
 
+			function slot3()
+				if not getProxy(ContextProxy) then
+					return
+				end
+
+				if slot0:getCurrentContext().mediator == LevelMediator2 then
+					uv0 = bit.bor(uv0, ChapterConst.DirtyAttachment, ChapterConst.DirtyStrategy)
+
+					uv1:SetChapterAutoFlag(uv2.id, false)
+
+					return
+				end
+
+				if not slot0:getContextByMediator(LevelMediator2) then
+					return
+				end
+
+				slot2.data.StopAutoFightFlag = true
+			end
+
 			if _.any(slot0.ai_list, function (slot0)
 				return slot0.item_type == ChapterConst.AttachOni
 			end) then
 				slot1:onOniEnter()
-				(function ()
-					if not getProxy(ContextProxy) then
-						return
-					end
-
-					if slot0:getCurrentContext().mediator == LevelMediator2 then
-						uv0 = bit.bor(uv0, ChapterConst.DirtyAttachment, ChapterConst.DirtyStrategy)
-
-						uv1:SetChapterAutoFlag(uv2.id, false)
-
-						return
-					end
-
-					if not slot0:getContextByMediator(LevelMediator2) then
-						return
-					end
-
-					slot2.data.StopAutoFightFlag = true
-				end)()
+				slot3()
 			end
 
 			if _.any(slot0.map_update, function (slot0)
@@ -202,12 +204,14 @@ end
 function slot0.buildBaseMaps(slot0)
 	uv0.ActToMaps = {}
 	uv0.TypeToMaps = {}
+	slot1 = {}
 
 	for slot5, slot6 in ipairs(pg.expedition_data_by_map.all) do
 		slot7 = Map.New({
 			id = slot6,
 			chapterIds = uv0.MapToChapters[slot6]
 		})
+		slot1[slot6] = slot7
 
 		if slot7:getConfig("on_activity") ~= 0 then
 			uv0.ActToMaps[slot8] = uv0.ActToMaps[slot8] or {}
@@ -220,9 +224,7 @@ function slot0.buildBaseMaps(slot0)
 		table.insert(uv0.TypeToMaps[slot9], slot7.id)
 	end
 
-	slot0.baseMaps = {
-		[slot6] = slot7
-	}
+	slot0.baseMaps = slot1
 end
 
 function slot0.buildRemasterMaps(slot0)
@@ -275,6 +277,8 @@ function slot0.addChapterListener(slot0, slot1)
 		slot0.timers[slot1.id] = nil
 	end
 
+	slot3 = pg.TimeMgr.GetInstance()
+
 	function slot3()
 		uv0.data[uv1.id].dueTime = nil
 
@@ -286,7 +290,7 @@ function slot0.addChapterListener(slot0, slot1)
 		uv0:sendNotification(uv2.CHAPTER_TIMESUP)
 	end
 
-	if slot1.dueTime - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
+	if slot1.dueTime - slot3:GetServerTime() > 0 then
 		slot0.timers[slot1.id] = Timer.New(function ()
 			uv0()
 			uv1.timers[uv2.id]:Stop()
@@ -416,7 +420,9 @@ function slot0.getRemasterMaps(slot0, slot1)
 end
 
 function slot0.getMapsByActivities(slot0)
-	underscore.each(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT), function (slot0)
+	slot2 = getProxy(ActivityProxy)
+
+	underscore.each(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT), function (slot0)
 		if not slot0:isEnd() then
 			uv0 = table.mergeArray(uv0, uv1:getMapsByActId(slot0.id))
 		end
@@ -440,7 +446,9 @@ function slot0.getLastUnlockMap(slot0)
 end
 
 function slot0.updateExtraFlag(slot0, slot1, slot2, slot3, slot4)
-	if not slot4 and not slot1:updateExtraFlags(slot2, slot3) then
+	slot5 = slot1:updateExtraFlags(slot2, slot3)
+
+	if not slot4 and not slot5 then
 		return
 	end
 
@@ -850,38 +858,46 @@ function slot0.getLastMap(slot0, slot1)
 	end
 end
 
-function slot0.getSubAidFlag(slot0)
-	slot1 = ys.Battle.BattleConst.SubAidFlag
-	slot2 = slot0.fleet
-	slot3 = false
+function slot0.getSubAidFlag(slot0, slot1)
+	slot2 = ys.Battle.BattleConst.SubAidFlag
+	slot3 = slot0.fleet
+	slot4 = false
 
 	if _.detect(slot0.fleets, function (slot0)
 		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid()
 	end) then
-		if slot4:inHuntingRange(slot2.line.row, slot2.line.column) then
-			slot3 = true
-		elseif _.detect(slot4:getStrategies(), function (slot0)
+		if slot5:inHuntingRange(slot3.line.row, slot3.line.column) then
+			slot4 = true
+		elseif _.detect(slot5:getStrategies(), function (slot0)
 			return slot0.id == ChapterConst.StrategyCallSubOutofRange
-		end) and slot6.count > 0 then
-			slot3 = true
+		end) and slot7.count > 0 then
+			slot4 = true
 		end
 	end
 
-	if slot3 then
-		slot6 = getProxy(PlayerProxy):getRawData()
-		slot7, slot8 = slot0:getFleetCost(slot2)
-		slot9, slot10 = slot0:getFleetAmmo(slot4)
-		slot11 = slot4:getSummonCost() * slot0:GetExtraCostRate()
+	if slot4 then
+		slot7 = getProxy(PlayerProxy):getRawData()
+		slot8, slot9 = slot0:getFleetCost(slot3, slot1)
+		slot10, slot11 = slot0:getFleetAmmo(slot5)
+		slot12 = 0
+		slot16 = slot0
+		slot17 = slot5
 
-		if slot10 <= 0 then
-			return slot1.AMMO_EMPTY
-		elseif slot6.oil < slot11 + slot8.oil then
-			return slot1.OIL_EMPTY
+		for slot16, slot17 in ipairs({
+			slot0.getFleetCost(slot16, slot17, slot1)
+		}) do
+			slot12 = slot12 + slot17.oil
+		end
+
+		if slot11 <= 0 then
+			return slot2.AMMO_EMPTY
+		elseif slot7.oil < slot12 + slot9.oil then
+			return slot2.OIL_EMPTY
 		else
-			return true, slot4
+			return true, slot5
 		end
 	else
-		return slot1.AID_EMPTY
+		return slot2.AID_EMPTY
 	end
 end
 

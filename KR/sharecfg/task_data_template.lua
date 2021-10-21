@@ -16722,14 +16722,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 1,
-		story_id = "QIAOZHIWUSHI1",
 		target_id = "50003",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "5452",
 		auto_commit = 0,
-		scene = "",
+		story_id = "QIAOZHIWUSHI1",
 		target_id_for_client = 50003,
 		id = 5451,
 		target_num = 3,
@@ -16742,6 +16741,9 @@ pg.task_data_template = {
 				1,
 				100
 			}
+		},
+		scene = {
+			"BACKYARD"
 		}
 	},
 	[5452] = {
@@ -16997,14 +16999,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 1,
-		story_id = "U556STORY1",
 		target_id = "50003",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "5462",
 		auto_commit = 0,
-		scene = "",
+		story_id = "U556STORY1",
 		target_id_for_client = 50003,
 		id = 5461,
 		target_num = 3,
@@ -17017,6 +17018,9 @@ pg.task_data_template = {
 				1,
 				100
 			}
+		},
+		scene = {
+			"BACKYARD"
 		}
 	},
 	[5462] = {
@@ -21722,14 +21726,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 1,
-		story_id = "U471",
 		target_id = "50003",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "5632",
 		auto_commit = 0,
-		scene = "",
+		story_id = "U471",
 		target_id_for_client = 50003,
 		id = 5631,
 		target_num = 3,
@@ -21742,6 +21745,9 @@ pg.task_data_template = {
 				1,
 				100
 			}
+		},
+		scene = {
+			"BACKYARD"
 		}
 	},
 	[5632] = {
@@ -24205,6 +24211,283 @@ pg.task_data_template = {
 			{
 				2,
 				16004,
+				1
+			}
+		}
+	},
+	[5721] = {
+		name = "没有舰历的女孩",
+		guild_coin_award = 0,
+		award = 5520,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1000,
+		desc = "提交3个《鱼雷天妇罗》",
+		story_icon = "junhe",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "50003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5722",
+		auto_commit = 0,
+		story_id = "JUNHE1",
+		target_id_for_client = 50003,
+		id = 5721,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5722] = {
+		name = "{namecode:175}的本意",
+		guild_coin_award = 0,
+		award = 5521,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "强化任意角色10次",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE2",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5723",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 5722,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5723] = {
+		name = "想要低调可不容易",
+		guild_coin_award = 0,
+		award = 5522,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 18,
+		desc = "{namecode:175}上阵出击(关卡)胜利20次",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE3",
+		target_id = "30514",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5724",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30514,
+		id = 5723,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5724] = {
+		name = "{namecode:80}型意味着什么",
+		guild_coin_award = 0,
+		award = 5523,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 19,
+		desc = "{namecode:175}上阵完成3次每日挑战",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE4",
+		target_id = "30514",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5725",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30514,
+		id = 5724,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5725] = {
+		name = "保护自己的盾",
+		guild_coin_award = 0,
+		award = 5524,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1012,
+		desc = "{namecode:175}好感度达到100",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE5",
+		target_id = "30514",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5726",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30514,
+		id = 5725,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5726] = {
+		name = "无法袒露的弱点",
+		guild_coin_award = 0,
+		award = 5525,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "{namecode:175}突破至满星",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE6",
+		target_id = "305144",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5727",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 305144,
+		id = 5726,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[5727] = {
+		name = "最强的盾",
+		guild_coin_award = 0,
+		award = 5526,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1013,
+		desc = "{namecode:175}等级达到100",
+		story_icon = "junhe",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "JUNHE7",
+		target_id = "30514",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30514,
+		id = 5727,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18023,
 				1
 			}
 		}
@@ -132663,6 +132946,496 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[17130] = {
+		name = "『偶像活动一期复刻』送吹雪礼服1",
+		guild_coin_award = 0,
+		award = 96250,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 21,
+		desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17130,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	},
+	[17131] = {
+		name = "『偶像活动一期复刻』送吹雪礼服2",
+		guild_coin_award = 0,
+		award = 96251,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "게임 로그인하기",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17131,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17132] = {
+		name = "『偶像活动一期复刻』送吹雪礼服3",
+		guild_coin_award = 0,
+		award = 96252,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "함선을 5번 강화한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17132,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[17133] = {
+		name = "『偶像活动一期复刻』送吹雪礼服4",
+		guild_coin_award = 0,
+		award = 96253,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 31,
+		desc = "함선을 2척 퇴역시킨다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17133,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17134] = {
+		name = "『偶像活动一期复刻』送吹雪礼服5",
+		guild_coin_award = 0,
+		award = 96254,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 71,
+		desc = "전술학원에서 전술훈련을 2번 수행한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17134,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54032,
+				3
+			}
+		}
+	},
+	[17135] = {
+		name = "『偶像活动一期复刻』送吹雪礼服6",
+		guild_coin_award = 0,
+		award = 96255,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 61,
+		desc = "숙소에서 식량을 5회 보충한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17135,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17136] = {
+		name = "『偶像活动一期复刻』送吹雪礼服7",
+		guild_coin_award = 0,
+		award = 96256,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 11,
+		desc = "임의의 적함을 20척 격파한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17136,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50004,
+				3
+			}
+		}
+	},
+	[17137] = {
+		name = "『偶像活动一期复刻』送吹雪礼服8",
+		guild_coin_award = 0,
+		award = 96257,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "건조를 2회 수행한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17137,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17138] = {
+		name = "『偶像活动一期复刻』送吹雪礼服9",
+		guild_coin_award = 0,
+		award = 96258,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 50,
+		desc = "임의의 장비상자 1개 오픈한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17138,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				1
+			}
+		}
+	},
+	[17139] = {
+		name = "『偶像活动一期复刻』送吹雪礼服10",
+		guild_coin_award = 0,
+		award = 96259,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "함선을 5번 강화한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17139,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17140] = {
+		name = "『偶像活动一期复刻』送吹雪礼服11",
+		guild_coin_award = 0,
+		award = 96260,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "군사의뢰를 2번 수행한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17140,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				2
+			}
+		}
+	},
+	[17141] = {
+		name = "『偶像活动一期复刻』送吹雪礼服12",
+		guild_coin_award = 0,
+		award = 96261,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 61,
+		desc = "숙소에서 식량을 5회 보충한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17141,
+		target_num = 5,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[17142] = {
+		name = "『偶像活动一期复刻』送吹雪礼服13",
+		guild_coin_award = 0,
+		award = 96262,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 40,
+		desc = "장비를 2번 강화한다",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17142,
+		target_num = 2,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54034,
+				1
+			}
+		}
+	},
+	[17143] = {
+		name = "『偶像活动一期复刻』送吹雪礼服14",
+		guild_coin_award = 0,
+		award = 96263,
+		type = 26,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 24,
+		desc = "함대를 출격시켜, 10회 S평가로 승리하라!",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17143,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				7,
+				301014,
+				1
+			}
+		}
+	},
 	[30201] = {
 		name = "전투승리-일상",
 		guild_coin_award = 0,
@@ -132869,6 +133642,606 @@ pg.task_data_template = {
 			{
 				2,
 				59821,
+				1
+			}
+		}
+	},
+	[31027] = {
+		name = "投票单轮单次-预选复活",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "투표 일간 임무 10회 완성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31027,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31013,
+			31014,
+			31015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31030] = {
+		name = "投票日常建造",
+		guild_coin_award = 0,
+		award = 91495,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 30,
+		desc = "함선을 1척 「건조」하라!",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31030,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				10
+			}
+		}
+	},
+	[31031] = {
+		name = "投票日常出击",
+		guild_coin_award = 0,
+		award = 91495,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 20,
+		desc = "전투에서 15번 승리하라!",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31031,
+		target_num = 15,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				10
+			}
+		}
+	},
+	[31032] = {
+		name = "投票日常委托",
+		guild_coin_award = 0,
+		award = 91495,
+		type = 36,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 80,
+		desc = "군사의뢰를 4번 수행하라!",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31032,
+		target_num = 4,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				10
+			}
+		}
+	},
+	[31033] = {
+		name = "投票单轮单次-预选",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "투표 일간 임무 10회 완성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31033,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31034] = {
+		name = "投票单轮单次-预选复活",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "투표 일간 임무 10회 완성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31034,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31035] = {
+		name = "投票单轮单次-小组1",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "투표 일간 임무 10회 완성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31035,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31036] = {
+		name = "投票单轮单次-小组2",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "투표 일간 임무 10회 완성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31036,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31037] = {
+		name = "投票单轮单次-小组3",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "투표 일간 임무 10회 완성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31037,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31038] = {
+		name = "投票单轮单次-小组4",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "투표 일간 임무 10회 완성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31038,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31039] = {
+		name = "投票单轮单次-小组5",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "투표 일간 임무 10회 완성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31039,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31040] = {
+		name = "投票单轮单次-复活",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "투표 일간 임무 10회 완성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31040,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31041] = {
+		name = "投票单轮单次-决赛",
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 91,
+		desc = "투표 일간 임무 10회 완성",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		quick_finish = 0,
+		level = 25,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31041,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 0,
+		target_id = {
+			31030,
+			31031,
+			31032
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31042] = {
+		name = "殿堂奖励第一名 2021",
+		guild_coin_award = 0,
+		award = 91510,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31042,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				405,
+				1
+			}
+		}
+	},
+	[31043] = {
+		name = "殿堂奖励第二名 2021",
+		guild_coin_award = 0,
+		award = 91337,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31043,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				406,
+				1
+			}
+		}
+	},
+	[31044] = {
+		name = "殿堂奖励第三名 2021",
+		guild_coin_award = 0,
+		award = 91509,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 31044,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				407,
 				1
 			}
 		}
@@ -135966,14 +137339,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "16501",
 		quick_finish = 2,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41015,
 		target_num = 40,
@@ -135985,6 +137357,12 @@ pg.task_data_template = {
 				1,
 				4001,
 				120
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
 			}
 		}
 	},
@@ -136218,14 +137596,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "15003",
 		quick_finish = 2,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41022,
 		target_num = 20,
@@ -136238,6 +137615,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"GETBOAT"
 		}
 	},
 	[41023] = {
@@ -136757,14 +138137,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 2,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41037,
 		target_num = 800,
@@ -136777,6 +138156,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"TASK"
 		}
 	},
 	[41038] = {
@@ -136869,14 +138251,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "16501",
 		quick_finish = 1,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41040,
 		target_num = 20,
@@ -136888,6 +138269,12 @@ pg.task_data_template = {
 				1,
 				4001,
 				60
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
 			}
 		}
 	},
@@ -137121,14 +138508,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "15003",
 		quick_finish = 1,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41047,
 		target_num = 10,
@@ -137141,6 +138527,9 @@ pg.task_data_template = {
 				4001,
 				60
 			}
+		},
+		scene = {
+			"GETBOAT"
 		}
 	},
 	[41048] = {
@@ -137660,14 +139049,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 1,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41062,
 		target_num = 400,
@@ -137680,6 +139068,9 @@ pg.task_data_template = {
 				4001,
 				60
 			}
+		},
+		scene = {
+			"TASK"
 		}
 	},
 	[41063] = {
@@ -137842,14 +139233,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41067,
 		target_num = 100,
@@ -137862,6 +139252,9 @@ pg.task_data_template = {
 				4001,
 				60
 			}
+		},
+		scene = {
+			"TASK"
 		}
 	},
 	[41068] = {
@@ -137877,14 +139270,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41068,
 		target_num = 300,
@@ -137897,6 +139289,9 @@ pg.task_data_template = {
 				4001,
 				60
 			}
+		},
+		scene = {
+			"TASK"
 		}
 	},
 	[41069] = {
@@ -137912,14 +139307,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41069,
 		target_num = 600,
@@ -137932,6 +139326,9 @@ pg.task_data_template = {
 				4001,
 				60
 			}
+		},
+		scene = {
+			"TASK"
 		}
 	},
 	[41070] = {
@@ -137947,14 +139344,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41070,
 		target_num = 1000,
@@ -137967,6 +139363,9 @@ pg.task_data_template = {
 				4001,
 				60
 			}
+		},
+		scene = {
+			"TASK"
 		}
 	},
 	[41071] = {
@@ -137982,14 +139381,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41071,
 		target_num = 1500,
@@ -138002,6 +139400,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"TASK"
 		}
 	},
 	[41072] = {
@@ -138017,14 +139418,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41072,
 		target_num = 2000,
@@ -138037,6 +139437,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"TASK"
 		}
 	},
 	[41073] = {
@@ -138052,14 +139455,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41073,
 		target_num = 2500,
@@ -138072,6 +139474,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"TASK"
 		}
 	},
 	[41074] = {
@@ -138087,14 +139492,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41074,
 		target_num = 3000,
@@ -138107,6 +139511,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"TASK"
 		}
 	},
 	[41075] = {
@@ -138122,14 +139529,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41075,
 		target_num = 4000,
@@ -138142,6 +139548,9 @@ pg.task_data_template = {
 				4001,
 				240
 			}
+		},
+		scene = {
+			"TASK"
 		}
 	},
 	[41076] = {
@@ -138787,14 +140196,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41094,
 		target_num = 250000,
@@ -138807,6 +140215,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[41095] = {
@@ -138822,14 +140233,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41095,
 		target_num = 500000,
@@ -138842,6 +140252,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[41096] = {
@@ -138857,14 +140270,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41096,
 		target_num = 750000,
@@ -138877,6 +140289,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[41097] = {
@@ -138892,14 +140307,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41097,
 		target_num = 1000000,
@@ -138912,6 +140326,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[41098] = {
@@ -138927,14 +140344,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41098,
 		target_num = 1250000,
@@ -138947,6 +140363,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[41099] = {
@@ -138962,14 +140381,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41099,
 		target_num = 1500000,
@@ -138982,6 +140400,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[41100] = {
@@ -138997,14 +140418,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41100,
 		target_num = 1750000,
@@ -139017,6 +140437,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[41101] = {
@@ -139032,14 +140455,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41101,
 		target_num = 2000000,
@@ -139052,6 +140474,9 @@ pg.task_data_template = {
 				4001,
 				120
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[41102] = {
@@ -139067,14 +140492,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41102,
 		target_num = 2500000,
@@ -139087,6 +140511,9 @@ pg.task_data_template = {
 				4001,
 				240
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[41103] = {
@@ -139102,14 +140529,13 @@ pg.task_data_template = {
 		is_head = 1,
 		award_choice = "",
 		visibility = 0,
-		story_id = "",
 		target_id = "0",
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
 		next_task = "0",
 		auto_commit = 1,
-		scene = "",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 41103,
 		target_num = 3000000,
@@ -139122,6 +140548,9 @@ pg.task_data_template = {
 				4001,
 				240
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[41104] = {
@@ -157725,6 +159154,13 @@ pg.task_data_template = {
 		5715,
 		5716,
 		5717,
+		5721,
+		5722,
+		5723,
+		5724,
+		5725,
+		5726,
+		5727,
 		6001,
 		6002,
 		6003,
@@ -160563,12 +161999,42 @@ pg.task_data_template = {
 		17108,
 		17109,
 		17110,
+		17130,
+		17131,
+		17132,
+		17133,
+		17134,
+		17135,
+		17136,
+		17137,
+		17138,
+		17139,
+		17140,
+		17141,
+		17142,
+		17143,
 		30201,
 		30202,
 		30203,
 		31001,
 		31002,
 		31003,
+		31027,
+		31030,
+		31031,
+		31032,
+		31033,
+		31034,
+		31035,
+		31036,
+		31037,
+		31038,
+		31039,
+		31040,
+		31041,
+		31042,
+		31043,
+		31044,
 		35000,
 		35001,
 		35002,

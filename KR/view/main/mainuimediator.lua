@@ -30,7 +30,6 @@ slot0.OPEN_MONTH_CARD_SET = "MainUIMediator.OPEN_MONTH_CARD_SET"
 slot0.OPEN_SHOP_LAYER = "MainUIMediator.OPEN_SHOP_LAYER"
 slot0.ON_ACTIVITY_MAP = "MainUIMediator.ON_ACTIVITY_MAP"
 slot0.ON_ACTIVITY_PT = "MainUIMediator.ON_ACTIVITY_PT"
-slot0.ON_VOTE = "MainUIMediator.ON_VOTE"
 slot0.ON_TOUCHSHIP = "MainUIMediator.ON_TOUCHSHIP"
 slot0.ON_LOTTERY = "MainUIMediator.ON_LOTTERY"
 slot0.OPEN_SCROLL = "MainUIMediator.OPEN_SCROLL"
@@ -347,19 +346,14 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OPEN_TECHNOLOGY, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
 	end)
-	slot0:bind(uv0.ON_VOTE, function ()
-		if getProxy(ActivityProxy):GetVoteBookActivty() then
-			uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
-				id = slot1.id
-			})
-		end
-	end)
 
 	if not getProxy(MilitaryExerciseProxy):getData() then
 		slot0:sendNotification(GAME.GET_SEASON_INFO)
 	end
 
-	pg.SystemOpenMgr.GetInstance():notification(slot4.level)
+	slot9 = pg.SystemOpenMgr.GetInstance()
+
+	slot9:notification(slot4.level)
 	slot0:bind(uv0.MINIGAME_OPERATION, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.SEND_MINI_GAME_OP, {
 			hubid = slot1,
@@ -408,14 +402,9 @@ function slot0.register(slot0)
 		end)
 	end)
 
-	if getProxy(MailProxy).total >= 1000 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_2"))
-	elseif slot9.total >= 950 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot9.total))
-	end
+	slot9 = slot0.viewComponent
 
-	slot0.viewComponent:updateVoteBtn(getProxy(ActivityProxy):GetVoteActivity(), getProxy(VoteProxy):GetOrderBook())
-	slot0.viewComponent:ResetActivityBtns()
+	slot9:ResetActivityBtns()
 	slot0:bind(uv0.LOG_OUT, function (slot0, slot1)
 		uv0:sendNotification(GAME.LOGOUT, {
 			code = 0
@@ -429,7 +418,9 @@ function slot0.onBluePrintNotify(slot0)
 
 		for slot8, slot9 in ipairs(slot2:getTaskIds()) do
 			if slot2:getTaskOpenTimeStamp(slot9) <= pg.TimeMgr.GetInstance():GetServerTime() then
-				if not (getProxy(TaskProxy):getTaskById(slot9) or getProxy(TaskProxy):getFinishTaskById(slot9)) and getProxy(TaskProxy):isFinishPrevTasks(slot9) then
+				slot12 = getProxy(TaskProxy):isFinishPrevTasks(slot9)
+
+				if not (getProxy(TaskProxy):getTaskById(slot9) or getProxy(TaskProxy):getFinishTaskById(slot9)) and slot12 then
 					slot4 = true
 
 					slot0.viewComponent:emit(uv0.ON_TASK_OPEN, slot9)
@@ -492,7 +483,10 @@ function slot0.updateBanner(slot0)
 end
 
 function slot0.updateExSkinNotice(slot0)
-	slot0.viewComponent:updateExSkinBtn(_.select(_.values(getProxy(ShipSkinProxy):getRawData()), function (slot0)
+	slot1 = getProxy(ShipSkinProxy)
+	slot4 = slot0.viewComponent
+
+	slot4:updateExSkinBtn(_.select(_.values(slot1:getRawData()), function (slot0)
 		return slot0:isExpireType() and not slot0:isExpired()
 	end))
 end
@@ -533,8 +527,6 @@ function slot0.listNotificationInterests(slot0)
 		PERMISSION_REJECT,
 		PERMISSION_NEVER_REMIND,
 		MiniGameProxy.ON_HUB_DATA_UPDATE,
-		VoteProxy.VOTE_ORDER_BOOK_DELETE,
-		VoteProxy.VOTE_ORDER_BOOK_UPDATE,
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.ON_OPEN_INS_LAYER,
 		PileGameConst.OPEN_PILEGAME,
@@ -592,7 +584,10 @@ function slot0.handleNotification(slot0, slot1)
 
 			if not pg.NewStoryMgr.GetInstance():IsPlayed("FANGAN1") then
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
-				pg.NewStoryMgr.GetInstance():Play("FANGAN1", function ()
+
+				slot4 = pg.NewStoryMgr.GetInstance()
+
+				slot4:Play("FANGAN1", function ()
 				end, true)
 			else
 				slot0:handleEnterMainUI()
@@ -627,11 +622,21 @@ function slot0.handleNotification(slot0, slot1)
 	elseif TaskProxy.TASK_ADDED == slot2 then
 		slot0.viewComponent:stopCurVoice()
 	elseif slot2 == GAME.CHAPTER_OP_DONE then
-		if slot3.items and #slot3.items > 0 then
-			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3.items,
-				title = slot0.retreateMapType == Map.ESCORT and AwardInfoLayer.TITLE.ESCORT or nil
-			})
+		if slot3.type == ChapterConst.OpRetreat then
+			slot5 = {}
+
+			if getProxy(ChapterProxy):GetExtendChapter(slot3.chapterVO.id) and slot4.ResultDrops then
+				for slot9, slot10 in ipairs(slot4.ResultDrops) do
+					slot5 = table.mergeArray(slot5, slot10)
+				end
+			end
+
+			if #slot5 > 0 then
+				slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+					items = slot5,
+					title = slot0.retreateMapType == Map.ESCORT and AwardInfoLayer.TITLE.ESCORT or nil
+				})
+			end
 		end
 	elseif slot2 == GAME.FETCH_NPC_SHIP_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
@@ -670,8 +675,6 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == MiniGameProxy.ON_HUB_DATA_UPDATE then
 		slot0:getViewComponent():HandleMiniGameBtns()
 		slot0:handlingActivityBtn()
-	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
-		slot0.viewComponent:updateVoteBookBtn(slot3)
 	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE then
 		slot5 = slot3.argList[2]
 
@@ -775,8 +778,9 @@ function slot0.handleEnterMainUI(slot0)
 			end
 
 			slot6 = false
+			slot8 = uv0
 
-			uv0:onChapterTimeUp(function ()
+			slot8:onChapterTimeUp(function ()
 				if not uv0 then
 					uv0 = false
 					uv1 = false
@@ -795,15 +799,41 @@ function slot0.handleEnterMainUI(slot0)
 				uv0:tryRequestMainSub()
 			end
 
-			uv0:checkCV()
-			uv0:onBluePrintNotify()
-			getProxy(TaskProxy):pushAutoSubmitTask()
-			uv0:handlingSpecialActs()
-			uv0:checkTimeLimitEquip()
-			uv0:handlingActivityBtn()
-			uv0:handleOverdueAttire()
-			uv0:updateExSkinOverDue()
-			pg.GuildMsgBoxMgr.GetInstance():NotificationForMain()
+			slot8 = uv0
+
+			slot8:checkCV()
+
+			slot8 = uv0
+
+			slot8:onBluePrintNotify()
+
+			slot8 = getProxy(TaskProxy)
+
+			slot8:pushAutoSubmitTask()
+
+			slot9 = uv0
+
+			slot9:handlingSpecialActs()
+
+			slot9 = uv0
+
+			slot9:checkTimeLimitEquip()
+
+			slot9 = uv0
+
+			slot9:handlingActivityBtn()
+
+			slot9 = uv0
+
+			slot9:handleOverdueAttire()
+
+			slot9 = uv0
+
+			slot9:updateExSkinOverDue()
+
+			slot9 = pg.GuildMsgBoxMgr.GetInstance()
+
+			slot9:NotificationForMain()
 			MonthCardOutDateTipPanel.TryShowMonthCardTipPanel(function ()
 				uv0 = false
 
@@ -822,9 +852,10 @@ function slot0.handleEnterMainUI(slot0)
 			end
 
 			if slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot11:isEnd() then
+				slot12 = PlayerPrefs.GetInt(string.format("crusing_%d_last_time", slot11.id), 3)
 				slot13 = slot11.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 
-				if #slot11:GetCrusingUnreceiveAward() > 0 and math.floor(slot13 / 86400) < PlayerPrefs.GetInt(string.format("crusing_%d_last_time", slot11.id), 3) then
+				if #slot11:GetCrusingUnreceiveAward() > 0 and math.floor(slot13 / 86400) < slot12 then
 					PlayerPrefs.SetInt(string.format("crusing_%d_last_time", slot11.id), math.floor(slot13 / 86400))
 					uv0:sendNotification(GAME.CRUSING_LAST_TIME_MSGBOX, {
 						awards = slot14,
@@ -841,11 +872,12 @@ function slot0.handleEnterMainUI(slot0)
 end
 
 function slot0.playStroys(slot0, slot1)
+	slot3 = {}
 	slot4 = pg.NewStoryMgr.GetInstance()
 
 	for slot8, slot9 in pairs(getProxy(TaskProxy):getRawData()) do
 		if slot9:getConfig("story_id") and slot10 ~= "" and not slot4:IsPlayed(slot10) then
-			table.insert({}, function (slot0)
+			table.insert(slot3, function (slot0)
 				uv0:Play(uv1, slot0, true, true)
 			end)
 		end

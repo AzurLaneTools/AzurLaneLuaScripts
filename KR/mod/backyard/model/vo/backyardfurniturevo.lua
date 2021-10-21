@@ -111,9 +111,13 @@ function slot0.getSpineMaxCnt(slot0)
 		return #slot0:getConfig("animator")[1]
 	end
 
+	slot1 = 0
+
 	if slot0:isSpine() then
+		slot1 = slot1 + 1
+
 		if slot0:getConfig("spine_extra") and type(slot2) == "table" then
-			slot1 = 0 + 1 + table.getCount(slot2)
+			slot1 = slot1 + table.getCount(slot2)
 		end
 	end
 
@@ -121,8 +125,10 @@ function slot0.getSpineMaxCnt(slot0)
 end
 
 function slot0.getCurrSpineCnt(slot0)
+	slot1 = 0
+
 	if slot0.spineId then
-		slot1 = 0 + 1
+		slot1 = slot1 + 1
 	end
 
 	return slot1 + table.getCount(slot0.spineExtra)
@@ -211,8 +217,12 @@ function slot0.canInterActionShipGroup(slot0, slot1)
 end
 
 function slot0.getBgm(slot0)
-	if slot0:getConfig("interaction_bgm") and slot1 ~= "" then
-		return slot1
+	if type(slot0:getConfig("interaction_bgm")) == "string" then
+		if slot1 and slot1 ~= "" then
+			return slot1, 0
+		end
+	elseif type(slot1) == "table" then
+		return slot1[2], slot1[1]
 	end
 end
 
@@ -694,7 +704,9 @@ function slot0.isFurniture(slot0)
 end
 
 function slot0.isMapItem(slot0)
-	if slot0:isFloor() and slot0:getConfig("type") ~= Furniture.TYPE_MAT then
+	slot1 = slot0:getConfig("type")
+
+	if slot0:isFloor() and slot1 ~= Furniture.TYPE_MAT then
 		return true
 	end
 
@@ -879,9 +891,11 @@ function slot0.getAnimatorData(slot0)
 end
 
 function slot0.getAnimtorControlName(slot0, slot1)
+	slot2 = {}
+
 	if slot0:hasAnimator() then
 		if type(slot0:getConfig("animator")[1][slot1] or slot3[1] or {}) == "string" then
-			table.insert({}, slot4)
+			table.insert(slot2, slot4)
 		else
 			slot2 = slot4
 		end

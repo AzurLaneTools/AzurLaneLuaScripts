@@ -117,7 +117,7 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 		{
 			2021,
 			10,
-			21
+			20
 		},
 		{
 			23,

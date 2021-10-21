@@ -46,10 +46,11 @@ end
 function slot4.createMajorEmitter(slot0, slot1, slot2)
 	uv1.super.createMajorEmitter(slot0, slot1, slot2, uv1.EMITTER_NORMAL, function (slot0, slot1, slot2, slot3)
 		slot4, slot5 = nil
+		slot6 = uv0._emitBulletIDList[uv1]
 
 		if uv0._strikePoint then
 			slot5 = uv0._strikePoint
-			slot4 = uv0:SpawnPointBullet(uv0._emitBulletIDList[uv1], uv0._strikePoint)
+			slot4 = uv0:SpawnPointBullet(slot6, uv0._strikePoint)
 		else
 			uv0._lockList[#uv0._lockList] = nil
 
@@ -58,7 +59,7 @@ function slot4.createMajorEmitter(slot0, slot1, slot2)
 			end
 
 			slot4 = uv0:Spawn(slot6, slot7, uv0.INTERNAL)
-			slot5 = slot7:GetPosition()
+			slot5 = slot7:GetBeenAimedPosition() or slot7:GetPosition()
 
 			uv0:UnlockUnit(slot7)
 		end
@@ -141,11 +142,12 @@ function slot4.Fire(slot0, slot1)
 
 	slot0._strikePoint = slot1
 
+	slot0._host:CloakExpose(uv0.Battle.BattleConfig.CLOAK_BOMBARD_BASE_EXPOSE)
 	slot0._host:BombardExpose()
 
 	slot0._strikeMode = false
 
-	uv0.super.Fire(slot0)
+	uv1.super.Fire(slot0)
 end
 
 function slot4.DoAttack(slot0, slot1)
@@ -194,9 +196,9 @@ function slot4.Spawn(slot0, slot1, slot2, slot3)
 		if slot0:TrackingRandom(slot0:GetFilteredList()) == nil then
 			slot4 = Vector3.zero
 		else
-			slot4 = slot2:GetPosition()
+			slot4 = slot2:GetBeenAimedPosition() or slot2:GetPosition()
 		end
-	else
+	elseif not slot2:GetBeenAimedPosition() then
 		slot4 = slot2:GetPosition()
 	end
 
@@ -264,9 +266,10 @@ end
 
 function slot4.filterTagCount(slot0, slot1)
 	slot2 = {}
+	slot3 = slot0._maxLock
 
 	for slot7, slot8 in ipairs(slot1) do
-		if slot8:GetSingleWeaponTagCount(slot0) < slot0._maxLock then
+		if slot8:GetSingleWeaponTagCount(slot0) < slot3 then
 			slot3 = slot9
 			slot2 = {
 				[#slot2 + 1] = slot8

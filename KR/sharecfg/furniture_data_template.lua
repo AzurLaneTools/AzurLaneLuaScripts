@@ -1227,13 +1227,12 @@ pg.furniture_data_template = {
 		icon = "jinkelawutaiicon",
 		spine_extra = "",
 		level = 1,
-		interaction_bgm = "diego",
-		effect = "",
 		advice = 0,
+		effect = "",
 		comfortable = 5,
+		deblocking = 1,
 		spine_action_replace = "",
 		picture = "",
-		deblocking = 1,
 		canputon = 0,
 		id = 116,
 		can_rotate = 1,
@@ -1274,6 +1273,10 @@ pg.furniture_data_template = {
 				159,
 				-199
 			}
+		},
+		interaction_bgm = {
+			0,
+			"diego"
 		},
 		interAction_group = {}
 	},
@@ -4222,6 +4225,72 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			1
+		},
+		interAction_group = {}
+	},
+	[209] = {
+		rarity = 1,
+		describe = "오늘의 주제와 게스트는……!?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		themeId = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "쥬쥬 방송국",
+		tag = 6,
+		icon = "guangboicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "chuanmo/guangbo",
+		canputon = 0,
+		id = 209,
+		can_rotate = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-126,
+					-7
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/guangbo_using"
+			},
+			{
+				"sit",
+				{
+					110,
+					-133
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interaction_bgm = {
+			1,
+			"guangbo"
 		},
 		interAction_group = {}
 	},
@@ -63078,13 +63147,12 @@ pg.furniture_data_template = {
 		icon = "wutaiholoicon",
 		deblocking = 1,
 		level = 1,
-		interaction_bgm = "holo-sss",
-		effect = "",
 		advice = 0,
+		effect = "",
 		tag = 1,
+		spine_extra = "",
 		spine_action_replace = "",
 		picture = "",
-		spine_extra = "",
 		canputon = 0,
 		id = 55118,
 		can_rotate = 1,
@@ -63130,6 +63198,10 @@ pg.furniture_data_template = {
 				"hololivestageCharControl2",
 				"hololivestageCharControl3"
 			}
+		},
+		interaction_bgm = {
+			0,
+			"holo-sss"
 		},
 		interAction_group = {}
 	},
@@ -90303,6 +90375,7 @@ pg.furniture_data_template = {
 		205,
 		206,
 		208,
+		209,
 		100002,
 		100003,
 		100004,

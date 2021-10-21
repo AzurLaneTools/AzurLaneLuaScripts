@@ -1175,6 +1175,18 @@ pg.memory_group = {
 			890
 		}
 	},
+	[166] = {
+		icon = "title_chara_rongyaodiantang",
+		subtype = 0,
+		type = 3,
+		id = 166,
+		title = "명예의 전당",
+		memories = {
+			892,
+			1876,
+			891
+		}
+	},
 	[167] = {
 		icon = "title_event",
 		subtype = 1,
@@ -3215,6 +3227,22 @@ pg.memory_group = {
 			1857
 		}
 	},
+	[570] = {
+		icon = "title_chara_junhe",
+		subtype = 0,
+		type = 3,
+		id = 570,
+		title = "매력 발산 MAX!",
+		memories = {
+			1861,
+			1862,
+			1863,
+			1864,
+			1865,
+			1866,
+			1867
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3282,6 +3310,7 @@ pg.memory_group = {
 		163,
 		164,
 		165,
+		166,
 		167,
 		168,
 		169,
@@ -3383,6 +3412,7 @@ pg.memory_group = {
 		566,
 		567,
 		568,
-		569
+		569,
+		570
 	}
 }

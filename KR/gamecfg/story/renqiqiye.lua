@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"特别小故事\n\n<size=45>碧蓝之海</size>",
+					"명예의 전당\n\n<size=45>짙푸른 바다/size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日·港区近海",
+			say = "어느 날·모항 근해",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了吗，指挥官，等你很久了。",
+			say = "왔구나, 지휘관, 한참 기다렸어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平时都有其他的护卫舰一起，像这样两人一起执行巡逻任务意外的还挺少有的啊。",
+			say = "평소엔 다른 호위함과 함께 있어서 이렇게 단둘이 순찰 임무를 수행하는 건 정말 드물군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "港区近海巡逻这种简单的任务，就算我一个人执行也没什么问题…",
+			say = "모항 근해 순찰 같은 간단한 임무는, 나 혼자서 수행해도 아무런 문제가 없긴 하지만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然也这么想过，不过指挥官不来的话，果然还是觉得有点不安呢。",
+			say = "그렇긴 해도, 지휘관이 오지 않았더라면, 역시 조금은 불안했을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			},
 			options = {
 				{
-					content = "不安…？",
+					content = "불안하다고…?",
 					flag = 1
 				}
 			}
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，没有能够信赖的同伴的话，内心多少都会感到有些不安的吧。",
+			say = "그래, 믿을 수 있는 동료가 없다면 마음이 다소 불안하지 않겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然在电影之类的东西里，白鹰的文化经常被强调为重视个人实力、鼓励弘扬个性……",
+			say = "영화 같은 것 안에서, 자주 이글 유니온의 문화가 개인의 실력이나 개성의 발전을 중시한다고 강조되긴 하지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，我们绝不会忽视团队合作，更不会否定团结一致的力量，一味强调个人的发挥。",
+			say = "우리는 팀워크를 무시하거나, 똘똘 뭉쳐 단결된 힘을 부정하거나, 오로지 개인의 실력 발휘만을 강조하지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官能够一起出航，已经让我感到莫大的鼓舞了。",
+			say = "지휘관이 함께 출항할 수 있다는 것만으로 이미 나에게 큰 힘이 됐어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "虽然企业这么说，不过和她们相比，自己毕竟无法构成直接的战斗力。",
+			say = "엔터프라이즈가 저렇게 말하긴 하였지만, 나 자신은 그녀들에 비해 직접적인 전투력을 갖추지 못하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,23 +201,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "后方支援与指挥还好说，在前线是否能让她们放心将后背托付给自己…还是有些心虚的——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "唔，我的意思并不是依赖指挥官的战斗力，而是作为大家心灵的支柱。",
+			say = "후방 지원과 지휘는 괜찮다지만, 전선에서 그녀들에게 뒤를 나에게 맡겨달라고 할 수 있을지는… 자신이 없다—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +217,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们都是为了战斗而生的存在，目的只有打败敌人，但是——",
+			say = "음, 내 말은 지휘관의 전투력이 아니라, 모두의 마음속 지주가 된다는 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +233,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然我们能够用语言表达，能够自主思考，以人类所期望的“人”的形象存在于这个世界上，自然是需要有能够理解我们的存在的。",
+			say = "우린 모두 전투하기 위해 존재해. 목적은 적을 쓰러뜨리는 것뿐이지. 하지만——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,35 +249,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从这层意义上，指挥官对我来说…嗯，怎么说呢…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			say = "企业没有继续说下去。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			say = "对她来说自己究竟是怎样的存在...既然本人没有说出口，也就无从推测了",
+			say = "우리가 언어로 표현할 수 있고, 스스로 생각할 수 있어도, 인류가 원하는 '사람'이라는 이미지로 세상에 존재하기 위해서는 자연히 우리를 이해할 수 있는 존재가 필요해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +265,35 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…不过，像这样远眺过去，感觉大海从来没有变过呢",
+			say = "이런 의미에서, 지휘관은 나에게… 음, 뭐랄까…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			say = "엔터프라이즈는 더 얘기하지 않았다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			say = "그녀에게 나는 대체 어떤 존재일까... 본인이 얘기하지 않았으니, 추측할 수 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +309,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——一望无际的碧蓝大海",
+			say = "… 그런데, 이렇게 멀리서 바라보니 바다는 변한 적이 없는 것 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +325,23 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果同东煌的成语“水天一色”所说，大海和蓝天其实是相同的颜色，仅仅被天际的一线所分隔的话……",
+			say = "——일망무제의 짙푸른 대해",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107060,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "이스트 글림의 성어 '수천일색'처럼 바다와 하늘이 사실 같은 색이고, 하늘 끝의 한 선에 의해 나뉘어진 것 뿐이라면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，抱歉。不是有意要这么伤感的，只是…",
+			say = "아, 미안하다. 일부러 감상에 젖은 것은 아니야, 다만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,23 +387,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "企业有些害羞地扶了扶军帽",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "女灶神也经常说我，不经意间总会揽起过多的责任…",
+			say = "엔터프라이즈는 살짝 부끄러워하며 모자를 들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +403,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "用大黄蜂的话来说，大概是“太沉重了”吧。说实话我也不太有这方面的自觉",
+			say = "베스탈도 나에게 자주 말하곤 해, 무심코 지나치게 많은 책임을 떠안는다고…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +419,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈。要是和别人说这些的话，大概都会被认为“完全不像企业你啊”之类的，所以我很少能找到这样倾诉的对象呢",
+			say = "호넷의 말로는, '너무 무겁다'고 했었지, 아마. 솔직히 이런 쪽에서는 나도 날 모르겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,21 +435,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以在指挥官面前，或许是不用像平时一样在大家面前保持形象吧，总是会不自觉多说一些呢",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			say = "企业微微低头，军帽和刘海挡住了她的表情。",
+			say = "하하. 다른 사람과 이런 말들을 했다면, 아마도 '전혀 엔터프라이즈답지 않다' 같은 생각을 했겠지. 그래서 이렇게 속마음을 털어놓을 수 있는 대상을 찾기 쉽지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +451,21 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，似乎话题又不自觉沉重起来了…",
+			say = "지휘관 앞에서는, 어쩌면 평소 모두 앞에서처럼 이미지를 신경쓰지 않아도 되겠지. 자꾸만 나도 모르게 말이 많아지네.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			say = "엔터프라이즈는 가볍게 고개를 저었다. 모자와 앞머리가 그녀의 표정을 가렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +481,23 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，指挥官，要不要试试从天空看看大海？",
+			say = "크흠, 화제가 갑자기 무거워진 것 같군…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107060,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "참, 지휘관, 한 번 하늘에서 바다를 봐볼래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			},
 			options = {
 				{
-					content = "真的可以吗…？",
+					content = "정말 가능해…？",
 					flag = 1
 				}
 			}
@@ -519,7 +519,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要指挥官愿意的话，我这就去准备专用的设备",
+			say = "지휘관이 원한다면, 바로 전용 설비를 준비할게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么说我也是航母，有白鹰的技术，操纵一架飞机还是绰绰有余的吧",
+			say = "나도 항공모함이니까. 이글 유니온의 기술로 비행기 한 대 조종하는 건 여유롭지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "眼前的企业恢复到了平时英姿飒爽的模样",
+			say = "눈앞의 엔터프라이즈는 평상시의 늠름한 모습을 되찾았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "机会难得。既然如此，就恭敬不如从命了吧",
+			say = "기회는 얻기 어렵다. 이왕 이렇게 되었으니, 사양하지 말고 기꺼이 받자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "在企业的帮助下，享受了一番空中欣赏大海的美景",
+			say = "엔터프라이즈의 도움 하에, 공중에서 바다의 아름다운 경관을 감상했다.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -610,7 +610,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么样，“空中散步”感觉如何？",
+			say = "'공중 산책'하는 기분이 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,15 +621,15 @@ return {
 			},
 			options = {
 				{
-					content = "大海很漂亮",
+					content = "바다가 참 예쁘다.",
 					flag = 1
 				},
 				{
-					content = "一般？",
+					content = "보통?",
 					flag = 2
 				},
 				{
-					content = "果然还是不习惯",
+					content = "역시 좀 적응이 안된다.",
 					flag = 3
 				}
 			}
@@ -641,7 +641,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "很漂亮、吗……",
+			say = "참 예쁘다라……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "哈哈，看来我应该练习一下更平稳的飞行操纵，让客人安心观景呢",
+			say = "하하, 좀 더 안정적이도록 비행 조종을 연습해서, 승객이 안심하고 감상할 수 있게 해야 할 것 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			say = "是吗…看来下次应该叫埃塞克斯陪指挥官练习一下…",
+			say = "그래…? 다음에 에식스를 불러 지휘관을 데리고 연습을 시켜야겠군…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前面也说过，平时都是随舰队出击，和指挥官两人独处的机会并不多呢",
+			say = "아까도 말했듯이, 평상시에는 함대와 출격해서, 지휘관과 단둘이 있을 기회가 많지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次还有机会，如果还想看海的话，尽管告诉我——",
+			say = "다음에 또 기회가 되서, 바다를 보고 싶다면, 언제든 내게 말해——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…我想说的其实不是这个意思……",
+			say = "음… 사실 내가 하고 싶은 말은 이게 아닌데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,23 +747,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "企业深呼吸了一下，略带羞涩地说道。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "…看来约克城姐姐说得没错，我很不擅长隐藏自己的心意啊…",
+			say = "엔터프라이즈는 심호흡을 하고, 약간 수줍게 말했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +763,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说实话，和指挥官在一起我觉得非常开心。",
+			say = "… 보아하니 요크타운 언니의 말이 맞아. 난 내 마음을 숨기는 것에 능해…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,21 +779,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像这样两人一起出航，一起欣赏大海的景色，光是回想起来，都让人感到心中一阵雀跃。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			say = "企业有些面带红晕地露出了灿烂的笑容",
+			say = "사실은, 지휘관과 함께 있으면 정말 즐거워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +795,37 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，下次再一起去看大海吧",
+			say = "이렇게 둘이 출항하고 같이 바다의 경치를 감상하는 건, 생각만 해도 기뻐서 가슴이 뛰어.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			say = "엔터프라이즈는 얼굴에 홍조를 띠며 환하게 웃었다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107060,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "지휘관, 다음에도 같이 바다 구경하러 가자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,7 +842,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "与你一起瞭望的碧蓝大海，就是世界上最美丽的风景——",
+			say = "너와 함께 바라본 푸른 바다가, 세상에서 가장 아름다운 풍경이야——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

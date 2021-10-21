@@ -50,10 +50,11 @@ function slot0.register(slot0)
 			callback = slot2
 		})
 	end)
-	slot0:bind(uv0.ON_VOTE_BOOK, function (slot0)
+	slot0:bind(uv0.ON_VOTE_BOOK, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = VoteOrderBookMediator,
-			viewComponent = VoteOrderBookLayer
+			viewComponent = VoteOrderBookLayer,
+			onRemoved = slot1
 		}))
 	end)
 	slot0:bind(uv0.ON_COMMANDER_OP, function (slot0, slot1, slot2)
@@ -238,11 +239,12 @@ function slot0.register(slot0)
 		slot5 = slot1.fleet
 		slot6 = slot1.chapter
 		slot7 = slot1.teamType
+		slot10 = {}
 
 		for slot14, slot15 in pairs(getProxy(BayProxy):getRawData()) do
 			if type(slot2) == "number" then
 				if slot2 ~= 0 and slot2 ~= slot15:getShipType() then
-					table.insert({}, slot14)
+					table.insert(slot10, slot14)
 				end
 			elseif type(slot2) == "string" and not table.contains(ShipType.BundleList[slot2], slot15:getShipType()) then
 				table.insert(slot10, slot14)
@@ -296,8 +298,9 @@ function slot0.register(slot0)
 	slot0:bind(uv0.GO_ACT_SHOP, function ()
 		slot0, slot1 = nil
 		slot2 = {}
+		slot3 = pg.gameset.activity_res_id.key_value
 
-		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) and slot4:getConfig("config_client").resId == pg.gameset.activity_res_id.key_value and not slot4:isEnd() then
+		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) and slot4:getConfig("config_client").resId == slot3 and not slot4:isEnd() then
 			uv0:addSubLayers(Context.New({
 				mediator = LotteryMediator,
 				viewComponent = LotteryLayer,
@@ -488,13 +491,19 @@ function slot0.DidEnterLevelMainUI(slot0, slot1)
 
 	if slot0.contextData.chapterVO and slot2.active then
 		slot0.contextData.isSwitchToChapter = true
+		slot3 = slot0.viewComponent
 
-		slot0.viewComponent:switchToChapter(slot2, function ()
+		slot3:switchToChapter(slot2, function ()
 			uv0:OnSwitchChapterDone()
 		end)
 	elseif slot0.contextData.map:isSkirmish() then
-		slot0.viewComponent:ShowCurtains(true)
-		slot0.viewComponent:doPlayAnim("TV01", function (slot0)
+		slot3 = slot0.viewComponent
+
+		slot3:ShowCurtains(true)
+
+		slot3 = slot0.viewComponent
+
+		slot3:doPlayAnim("TV01", function (slot0)
 			go(slot0):SetActive(false)
 			uv0.viewComponent:ShowCurtains(false)
 		end)
@@ -551,11 +560,12 @@ function slot0.NoticeVoteBook(slot0, slot1)
 			content = i18n("vote_get_book"),
 			onYes = function ()
 				if getProxy(VoteProxy):GetOrderBook() and not slot0:IsExpired() then
-					uv0.viewComponent:emit(uv1.ON_VOTE_BOOK)
+					uv0.viewComponent:emit(uv1.ON_VOTE_BOOK, uv2)
+				else
+					existCall(uv2)
 				end
-
-				uv2()
-			end
+			end,
+			onNo = slot1
 		})
 	else
 		slot1()
@@ -596,18 +606,23 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot1:getBody())
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
 		slot0.viewComponent:updateVoteBookBtn(slot3)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:updateRes(slot3)
 	elseif slot2 == GAME.TRACKING_DONE then
-		slot0.viewComponent:resetLevelGrid()
+		slot4 = slot0.viewComponent
+
+		slot4:resetLevelGrid()
 
 		slot0.viewComponent.FirstEnterChapter = slot3.id
+		slot4 = slot0.viewComponent
 
-		slot0.viewComponent:switchToChapter(slot3, function ()
+		slot4:switchToChapter(slot3, function ()
 			uv0:loadSubState(uv1.subAutoAttack)
 		end)
 	elseif slot2 == ChapterProxy.CHAPTER_UPDATED then
@@ -630,7 +645,28 @@ function slot0.handleNotification(slot0, slot1)
 				slot1 = uv0.win
 				slot2 = uv1.contextData.chapterVO or uv0.chapterVO
 
-				if uv0.type == ChapterConst.OpRetreat and uv0.exittype and uv0.exittype == ChapterConst.ExitFromMap then
+				if uv0.type == ChapterConst.OpRetreat then
+					slot3 = false
+					slot5 = uv1.viewComponent
+
+					slot5:addbubbleMsgBox(function ()
+						uv0 = false
+
+						if uv1 then
+							uv2()
+						end
+
+						uv3.viewComponent:CleanBubbleMsgbox()
+					end)
+
+					if true then
+						slot3 = true
+
+						coroutine.yield()
+					end
+				end
+
+				if slot0 == ChapterConst.OpRetreat and uv0.exittype and uv0.exittype == ChapterConst.ExitFromMap then
 					uv1.viewComponent:setChapter(nil)
 					uv1.viewComponent:updateChapterTF(slot2.id)
 					uv1:OnExitChapter(slot2)
@@ -649,38 +685,31 @@ function slot0.handleNotification(slot0, slot1)
 				end
 
 				if uv0.items and #slot3 > 0 then
-					if slot0 == ChapterConst.OpRetreat and uv1.contextData.map:isEscort() then
-						uv1.viewComponent:emit(BaseUI.ON_AWARD, {
-							items = slot3,
-							title = AwardInfoLayer.TITLE.ESCORT,
-							removeFunc = uv2
-						})
-					else
-						seriesAsync({
-							function (slot0)
-								uv0.viewComponent:emit(BaseUI.ON_WORLD_ACHIEVE, {
-									items = uv1,
-									closeOnCompleted = uv2:IsAutoFight(),
-									removeFunc = slot0
-								})
-							end,
-							function (slot0)
-								if _.any(uv0, function (slot0)
-									return slot0.type == DROP_TYPE_STRATEGY
-								end) then
-									uv1.viewComponent.levelStageView:popStageStrategy()
-								end
-
-								uv2()
+					seriesAsync({
+						function (slot0)
+							uv0.viewComponent:emit(BaseUI.ON_WORLD_ACHIEVE, {
+								items = uv1,
+								closeOnCompleted = uv2:IsAutoFight(),
+								removeFunc = slot0
+							})
+						end,
+						function (slot0)
+							if _.any(uv0, function (slot0)
+								return slot0.type == DROP_TYPE_STRATEGY
+							end) then
+								uv1.viewComponent.levelStageView:popStageStrategy()
 							end
-						})
-					end
 
+							slot0()
+						end
+					}, uv2)
 					coroutine.yield()
 				end
 
 				if slot0 == ChapterConst.OpSkipBattle then
-					uv1.viewComponent.levelStageView:tryAutoAction(function ()
+					slot4 = uv1.viewComponent.levelStageView
+
+					slot4:tryAutoAction(function ()
 						if not uv0.viewComponent.levelStageView then
 							return
 						end
@@ -689,8 +718,10 @@ function slot0.handleNotification(slot0, slot1)
 					end)
 				elseif slot0 == ChapterConst.OpRetreat then
 					if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
+						slot5 = {}
+
 						if slot4:getContextByMediator(ChapterPreCombatMediator) then
-							table.insert({}, slot6)
+							table.insert(slot5, slot6)
 						end
 
 						if slot4:getContextByMediator(RivalInfoMediator) then
@@ -743,7 +774,9 @@ function slot0.handleNotification(slot0, slot1)
 								return
 							end
 
-							if not uv0.teleportPaths[1] or not uv0.teleportPaths[2] then
+							slot2 = uv0.teleportPaths[2]
+
+							if not uv0.teleportPaths[1] or not slot2 then
 								slot0()
 
 								return
@@ -769,8 +802,9 @@ function slot0.handleNotification(slot0, slot1)
 						end
 					}, function ()
 						uv0 = uv1.contextData.chapterVO
+						slot0 = uv0
 
-						if _.any(uv0:getFleetStgs(uv0.fleet), function (slot0)
+						if _.any(slot0:getFleetStgs(uv0.fleet), function (slot0)
 							return slot0.id == ChapterConst.StrategyExchange and slot0.count > 0
 						end) then
 							uv1.viewComponent.levelStageView:popStageStrategy()
@@ -816,16 +850,30 @@ function slot0.handleNotification(slot0, slot1)
 						coroutine.yield()
 					end
 
-					uv1.viewComponent.levelStageView:tryAutoTrigger()
+					slot7 = uv1.viewComponent.levelStageView
+
+					slot7:tryAutoAction(function ()
+						if not uv0.viewComponent.levelStageView then
+							return
+						end
+
+						uv0.viewComponent.levelStageView:tryAutoTrigger()
+					end)
 				elseif slot0 == ChapterConst.OpStory then
 					uv1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpSwitch then
 					uv1.viewComponent.grid:adjustCameraFocus()
 				elseif slot0 == ChapterConst.OpEnemyRound then
-					uv1:playAIActions(uv0.aiActs, uv0.extraFlag, function ()
-						uv0.viewComponent.levelStageView:updateBombPanel(true)
+					slot4 = uv1
 
-						if _.any(uv1:getFleetStgs(uv1.fleet), function (slot0)
+					slot4:playAIActions(uv0.aiActs, uv0.extraFlag, function ()
+						slot0 = uv0.viewComponent.levelStageView
+
+						slot0:updateBombPanel(true)
+
+						slot0 = uv1
+
+						if _.any(slot0:getFleetStgs(uv1.fleet), function (slot0)
 							return slot0.id == ChapterConst.StrategyExchange and slot0.count > 0
 						end) then
 							uv0.viewComponent.levelStageView:updateStageStrategy()
@@ -867,19 +915,24 @@ function slot0.handleNotification(slot0, slot1)
 								row = uv1.arg1,
 								column = uv1.arg2
 							}
-							slot5, slot6 = uv0:findPath(nil, uv1.fullpath[1], uv1.fullpath[#uv1.fullpath])
+							slot5 = uv0
+							slot5, slot6 = slot5:findPath(nil, uv1.fullpath[1], uv1.fullpath[#uv1.fullpath])
 							slot9 = getProxy(PlayerProxy)
 							slot10 = slot9:getData()
 
 							slot10:consume({
 								oil = math.ceil(pg.strategy_data_template[ChapterConst.StrategySubTeleport].arg[2] * #slot1:getShips(false) * slot5 - 1e-05)
 							})
-							uv2.viewComponent:updateRes(slot10)
+
+							slot11 = uv2.viewComponent
+
+							slot11:updateRes(slot10)
 							slot9:updatePlayer(slot10)
 
 							uv2.viewComponent.grid.subTeleportMode = false
+							slot11 = uv2.viewComponent.grid
 
-							uv2.viewComponent.grid:moveSub(table.indexof(uv0.fleets, slot1), uv1.fullpath, nil, function ()
+							slot11:moveSub(table.indexof(uv0.fleets, slot1), uv1.fullpath, nil, function ()
 								getProxy(ChapterProxy):updateChapter(uv0, bit.bor(ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampionPosition))
 
 								uv0 = uv1.contextData.chapterVO
@@ -894,7 +947,9 @@ function slot0.handleNotification(slot0, slot1)
 								return
 							end
 
-							if not uv0.teleportPaths[1] or not uv0.teleportPaths[2] then
+							slot2 = uv0.teleportPaths[2]
+
+							if not uv0.teleportPaths[1] or not slot2 then
 								slot0()
 
 								return
@@ -905,8 +960,12 @@ function slot0.handleNotification(slot0, slot1)
 							end)
 							slot3.startPos = Clone(uv0.teleportPaths[2])
 							slot3.line = Clone(uv0.teleportPaths[2])
+							slot4 = uv2
+							slot4 = slot4:getViewComponent().grid
+							slot5 = uv2
+							slot5 = slot5:getViewComponent().grid
 
-							uv2:getViewComponent().grid:TeleportFleetByPortal(uv2:getViewComponent().grid:GetCellFleet(slot3.id), uv0.teleportPaths, function ()
+							slot5:TeleportFleetByPortal(slot4:GetCellFleet(slot3.id), uv0.teleportPaths, function ()
 								getProxy(ChapterProxy):updateChapter(uv0, bit.bor(ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampionPosition))
 
 								uv0 = uv1.contextData.chapterVO
@@ -937,11 +996,15 @@ function slot0.handleNotification(slot0, slot1)
 		if slot2 == ChapterProxy.CHAPTER_TIMESUP then
 			slot0:onTimeUp()
 		elseif slot2 == GAME.EVENT_LIST_UPDATE then
-			slot0.viewComponent:addbubbleMsgBox(function (slot0)
+			slot4 = slot0.viewComponent
+
+			slot4:addbubbleMsgBox(function (slot0)
 				uv0:OnEventUpdate(slot0)
 			end)
 		elseif slot2 == GAME.VOTE_BOOK_BE_UPDATED_DONE then
-			slot0.viewComponent:addbubbleMsgBox(function (slot0)
+			slot4 = slot0.viewComponent
+
+			slot4:addbubbleMsgBox(function (slot0)
 				uv0:NoticeVoteBook(slot0)
 			end)
 		elseif slot2 == DailyLevelProxy.ELITE_QUOTA_UPDATE then
@@ -977,7 +1040,9 @@ function slot0.handleNotification(slot0, slot1)
 				slot0.viewComponent:updateMap()
 			end
 		elseif slot2 == GAME.GET_REMASTER_TICKETS_DONE then
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+			slot4 = slot0.viewComponent
+
+			slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 				if getProxy(ChapterProxy).remasterDailyCount > 0 then
 					slot1 = uv0.viewComponent.levelRemasterView
 
@@ -1000,7 +1065,9 @@ function slot0.handleNotification(slot0, slot1)
 				slot0.viewComponent:updateMapItems()
 			end
 
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+			slot4 = slot0.viewComponent
+
+			slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 				if uv0.contextData.map:isSkirmish() and uv0.contextData.TaskToSubmit then
 					uv0.contextData.TaskToSubmit = nil
 
@@ -1032,7 +1099,9 @@ function slot0.OnExitChapter(slot0, slot1, slot2)
 				return slot0()
 			end
 
-			if uv1.id == 103 and not getProxy(PlayerProxy):getData():GetCommonFlag(BATTLE_AUTO_ENABLED) then
+			slot1 = getProxy(PlayerProxy):getData()
+
+			if uv1.id == 103 and not slot1:GetCommonFlag(BATTLE_AUTO_ENABLED) then
 				uv2.viewComponent:HandleShowMsgBox({
 					modal = true,
 					hideNo = true,
@@ -1054,8 +1123,9 @@ function slot0.OnExitChapter(slot0, slot1, slot2)
 
 			if getProxy(ChapterProxy):getMapById(uv1:getConfig("map")):isSkirmish() then
 				slot2 = uv1.id
+				slot3 = getProxy(SkirmishProxy)
 
-				if not _.detect(getProxy(SkirmishProxy):getRawData(), function (slot0)
+				if not _.detect(slot3:getRawData(), function (slot0)
 					return tonumber(slot0:getConfig("event")) == uv0
 				end) then
 					slot0()
@@ -1098,26 +1168,45 @@ function slot0.OnExitChapter(slot0, slot1, slot2)
 				return
 			end
 
-			if slot3 == nil then
-				return slot0()
-			end
-
 			slot4 = {}
 
-			if slot2.TotalDrops then
-				for slot8, slot9 in ipairs(slot2.TotalDrops) do
+			if slot2 and slot2.ResultDrops then
+				for slot8, slot9 in ipairs(slot2.ResultDrops) do
 					slot4 = table.mergeArray(slot4, slot9)
 				end
 			end
 
-			DropResultIntegration(slot4)
+			slot5, slot6 = nil
+
+			if slot3 then
+				slot5 = i18n("autofight_rewards")
+				slot6 = i18n("total_rewards_subtitle")
+			elseif #slot4 > 0 then
+				slot5 = i18n("settle_rewards_title")
+				slot6 = i18n("settle_rewards_subtitle")
+			else
+				return slot0()
+			end
+
+			slot7 = {}
+
+			if slot2.TotalDrops then
+				for slot11, slot12 in ipairs(slot2.TotalDrops) do
+					slot7 = table.mergeArray(slot7, slot12)
+				end
+			end
+
+			DropResultIntegration(slot7)
 			uv1:addSubLayers(Context.New({
 				viewComponent = LevelStageTotalRewardPanel,
 				mediator = LevelStageTotalRewardPanelMediator,
 				data = {
+					title = slot5,
+					subTitle = slot6,
 					chapter = uv0,
 					onClose = slot0,
-					rewards = slot4,
+					rewards = slot7,
+					resultRewards = slot4,
 					events = slot2.ListEventNotify,
 					guildTasks = slot2.ListGuildEventNotify,
 					guildAutoReceives = slot2.ListGuildEventAutoReceiveNotify,
@@ -1142,8 +1231,11 @@ function slot0.OnEventUpdate(slot0, slot1)
 	slot3, slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "EventMediator")
 
 	if slot3 and slot2.eventForMsg then
+		slot5 = slot2.eventForMsg.id or 0
+
 		if getProxy(ChapterProxy):getActiveChapter(true) and slot6:IsAutoFight() then
-			getProxy(ChapterProxy):AddExtendChapterDataArray(slot6.id, "ListEventNotify", slot2.eventForMsg.id or 0)
+			getProxy(ChapterProxy):AddExtendChapterDataArray(slot6.id, "ListEventNotify", slot5)
+			existCall(slot1)
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = false,
@@ -1151,16 +1243,14 @@ function slot0.OnEventUpdate(slot0, slot1)
 				content = i18n("event_special_update", pg.collection_template[slot5] and pg.collection_template[slot5].title or ""),
 				weight = LayerWeightConst.SECOND_LAYER,
 				onYes = function ()
-					if uv0 then
-						uv0()
-					end
+					existCall(uv0)
 				end
 			})
 		end
 
 		slot2.eventForMsg = nil
-	elseif slot1 then
-		slot1()
+	else
+		existCall(slot1)
 	end
 end
 
@@ -1213,8 +1303,10 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 		slot1 = uv0:getEliteFleetList()[uv1]
 
 		if uv2 then
+			slot2 = table.indexof(slot1, uv2.id)
+
 			if slot0[1] then
-				slot1[table.indexof(slot1, uv2.id)] = slot0[1]
+				slot1[slot2] = slot0[1]
 			else
 				table.remove(slot1, slot2)
 			end
@@ -1240,6 +1332,7 @@ function slot0.playAIActions(slot0, slot1, slot2, slot3)
 	slot5 = coroutine.wrap(function ()
 		uv0.viewComponent:frozen()
 
+		slot0 = {}
 		slot1 = uv1 or 0
 
 		for slot5, slot6 in ipairs(uv2) do
@@ -1259,7 +1352,7 @@ function slot0.playAIActions(slot0, slot1, slot2, slot3)
 			coroutine.yield()
 
 			if isa(slot6, FleetAIAction) and slot6.actType == ChapterConst.ActType_Poison and slot7:existFleet(FleetType.Normal, slot6.line.row, slot6.line.column) then
-				table.insert({}, slot7:getFleetIndex(FleetType.Normal, slot6.line.row, slot6.line.column))
+				table.insert(slot0, slot7:getFleetIndex(FleetType.Normal, slot6.line.row, slot6.line.column))
 			end
 		end
 
@@ -1282,7 +1375,9 @@ function slot0.playAIActions(slot0, slot1, slot2, slot3)
 					slot1 = 0
 
 					for slot5 = 1, #uv0 do
-						uv1.viewComponent.grid:showFleetPoisonDamage(uv0[slot5], function ()
+						slot6 = uv1.viewComponent.grid
+
+						slot6:showFleetPoisonDamage(uv0[slot5], function ()
 							uv0 = uv0 + 1
 
 							if uv0 >= #uv1 then

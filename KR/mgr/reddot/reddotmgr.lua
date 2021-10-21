@@ -14,13 +14,14 @@ end
 
 slot0.TYPES = {
 	COMMANDER = 10,
-	BUILD = 4,
+	EVENT = 15,
 	ACT_RETURN = 16,
+	BUILD = 4,
 	BACKYARD = 1,
 	SERVER = 12,
 	BLUEPRINT = 14,
 	ACT_NEWBIE = 17,
-	EVENT = 15,
+	VOTE_OREDER = 18,
 	ATTIRE = 6,
 	FRIEND = 8,
 	TASK = 2,
@@ -76,8 +77,10 @@ function slot0.BindConditions(slot0)
 			return false
 		end
 
+		slot0 = getProxy(CommanderProxy):haveFinishedBox()
+
 		if not LOCK_CATTERY then
-			return getProxy(CommanderProxy):haveFinishedBox() or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse()
+			return slot0 or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse()
 		else
 			return slot0
 		end
@@ -105,6 +108,9 @@ function slot0.BindConditions(slot0)
 		slot2, slot3 = TrainingCampScene.isTecActOn()
 
 		return slot1 or slot3
+	end)
+	slot0:BindCondition(uv0.TYPES.VOTE_OREDER, function ()
+		return getProxy(VoteProxy):GetOrderBook()
 	end)
 end
 
@@ -150,7 +156,10 @@ function slot0.UnRegisterRedDotNode(slot0, slot1)
 end
 
 function slot0.NotifyAll(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.nodeList[slot1] or {}) do
+	slot2 = ipairs
+	slot3 = slot0.nodeList[slot1] or {}
+
+	for slot5, slot6 in slot2(slot3) do
 		slot6:SetData(slot0:CheckConditions(slot6:GetTypes()))
 	end
 end

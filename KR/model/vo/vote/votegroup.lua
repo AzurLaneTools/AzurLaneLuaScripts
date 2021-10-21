@@ -28,6 +28,22 @@ function slot0.isFinalsRace(slot0)
 	return slot0:getConfig("type") == 5
 end
 
+function slot0.IsPrevResurrectionRace(slot0)
+	return slot0:getConfig("type") == 6
+end
+
+function slot0.GetRankMark(slot0)
+	if slot0:isResurrectionRace() then
+		return 12
+	elseif slot0:IsPrevResurrectionRace() then
+		return 15
+	elseif slot0:isFinalsRace() then
+		return 3
+	else
+		return 4
+	end
+end
+
 function slot0.getList(slot0)
 	return slot0.list
 end

@@ -11625,6 +11625,48 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200040] = {
+		map = 2200040,
+		name = "격주의 폴라리스|| ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "azumaster-ins",
+		ani_name = "Map_1260001",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1260001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[9920001] = {
 		map = 9920001,
 		name = "거울에 비친 이색 - 전편|| ||EX CHAPTER||E.X.",
@@ -12052,6 +12094,7 @@ pg.expedition_data_by_map = {
 		2200010,
 		2200020,
 		2200030,
+		2200040,
 		9920001,
 		9920002,
 		9920011,

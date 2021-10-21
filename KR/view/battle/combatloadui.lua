@@ -50,12 +50,10 @@ function slot0.Preload(slot0)
 	slot2 = getProxy(BayProxy)
 
 	if slot0.contextData.system == SYSTEM_DEBUG then
-		slot3 = {
-			[slot11.configId] = slot11
-		}
+		slot3 = {}
 
 		for slot10, slot11 in ipairs(slot2:getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.contextData.mainFleetId))) do
-			-- Nothing
+			slot3[slot11.configId] = slot11
 		end
 
 		for slot12, slot13 in ipairs(slot4:getFleetById(11):getTeamByName(TeamType.Submarine)) do
@@ -144,7 +142,7 @@ function slot0.Preload(slot0)
 
 			uv0.addChapterAuraRes(slot13)
 
-			slot14, slot15 = slot5.getSubAidFlag(slot6)
+			slot14, slot15 = slot5.getSubAidFlag(slot6, slot0.contextData.stageId)
 
 			if slot14 == true or slot14 > 0 then
 				for slot20, slot21 in ipairs(slot15:getShipsByTeam(TeamType.Submarine, false)) do
@@ -416,8 +414,9 @@ function slot0.Preload(slot0)
 	end
 
 	slot9 = 0
+	slot11 = pg.UIMgr.GetInstance()
 
-	setActive(pg.UIMgr.GetInstance():GetMainCamera(), true)
+	setActive(slot11:GetMainCamera(), true)
 
 	slot9 = slot1:StartPreload(function ()
 		SetActive(uv0._loadingAnima, false)

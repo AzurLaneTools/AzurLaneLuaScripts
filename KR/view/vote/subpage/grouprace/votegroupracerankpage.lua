@@ -10,6 +10,7 @@ function slot0.OnInit(slot0)
 	slot0.uilist = UIItemList.New(slot0:findTF("scrollrect/content"), slot0:findTF("scrollrect/content/tpl"))
 	slot0.webBtn = slot0:findTF("web")
 
+	setActive(slot0.webBtn, false)
 	onButton(slot0, slot0.webBtn, function ()
 		if uv0.phase == VoteGroup.DISPLAY_STAGE then
 			Application.OpenURL(pg.gameset.vote_web_url.description)

@@ -39,10 +39,11 @@ function getPlayerOwn(slot0, slot1)
 	slot3 = 0
 
 	if slot0 == DROP_TYPE_RESOURCE then
+		slot4 = id2res(slot1)
 		slot2 = pg.item_data_statistics[id2ItemId(slot1)].name
 
 		if getProxy(PlayerProxy) then
-			slot3 = slot5:getRawData()[id2res(slot1)]
+			slot3 = slot5:getRawData()[slot4]
 		end
 	elseif slot0 == DROP_TYPE_ITEM and pg.item_data_statistics[slot1] then
 		slot2 = slot4.name
@@ -56,117 +57,124 @@ function getPlayerOwn(slot0, slot1)
 end
 
 function slot0.addTranDrop(slot0, slot1)
+	slot2 = {}
 	slot3 = pg.item_data_statistics
 	slot4 = pg.ship_skin_template
 	slot5 = pg.item_data_frame
 
-	for slot10, slot11 in ipairs(slot0) do
-		slot12, slot13 = (function (slot0)
-			if slot0.type == DROP_TYPE_RESOURCE then
-				slot4 = ActivityConst.ACTIVITY_TYPE_PT_CRUSING
+	function slot6(slot0)
+		if slot0.type == DROP_TYPE_RESOURCE then
+			slot4 = ActivityConst.ACTIVITY_TYPE_PT_CRUSING
 
-				for slot4, slot5 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot4)) do
-					if pg.battlepass_event_pt[slot5.id].pt == slot0.id then
-						return nil, Item.New({
-							type = slot0.type,
-							id = slot0.id,
-							count = slot0.number or slot0.count
-						})
-					end
-				end
-			elseif slot0.type == DROP_TYPE_SKIN then
-				if (slot0.number or slot0.count) == 0 then
-					return Item.New({
-						count = 1,
+			for slot4, slot5 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot4)) do
+				if pg.battlepass_event_pt[slot5.id].pt == slot0.id then
+					return nil, Item.New({
 						type = slot0.type,
-						id = slot0.id
-					})
-				else
-					slot2, slot3 = Player.skin2Res(slot0.id, slot1)
-
-					return Item.New({
-						type = DROP_TYPE_RESOURCE,
-						id = slot2,
-						count = slot3,
-						name = uv0[id2ItemId(slot2)].name .. "(" .. uv1[slot0.id].name .. ")"
+						id = slot0.id,
+						count = slot0.number or slot0.count
 					})
 				end
-			elseif slot0.type == DROP_TYPE_ICON_FRAME then
-				if (slot0.number or slot0.count) == 0 then
-					return Item.New({
-						count = 1,
-						type = slot0.type,
-						id = slot0.id
-					})
-				else
-					slot2, slot3 = Player.headFrame2Res(slot0.id, slot1)
-
-					return Item.New({
-						type = DROP_TYPE_RESOURCE,
-						id = slot2,
-						count = slot3,
-						name = uv0[id2ItemId(slot2)].name .. "(" .. uv2[slot0.id].name .. ")"
-					})
-				end
-			elseif slot0.type == DROP_TYPE_NPC_SHIP then
+			end
+		elseif slot0.type == DROP_TYPE_SKIN then
+			if (slot0.number or slot0.count) == 0 then
 				return Item.New({
 					count = 1,
 					type = slot0.type,
-					id = slot0.number or slot0.count
+					id = slot0.id
 				})
-			elseif slot0.type == DROP_TYPE_VITEM then
-				if Item.New({
-					type = slot0.type,
-					id = slot0.id,
-					count = slot0.number or slot0.count
-				}):getConfig("virtual_type") == 13 then
-					slot4 = Item.VItem2SkinCouponShopId(slot0.id)
+			else
+				slot2, slot3 = Player.skin2Res(slot0.id, slot1)
 
-					if not getProxy(ActivityProxy):ExistSkinCouponActivity() then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_timeout_tip", uv0[slot0.id].name))
-
-						return
-					elseif slot3:ExistSkinCouponActivityAndShopId(slot4) then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", uv0[slot0.id].name))
-
-						return
-					elseif getProxy(ShipSkinProxy):hasSkin(pg.shop_template[slot4].effect_args[1]) then
-						if slot1.count > 1 then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", uv0[slot0.id].name))
-						end
-
-						return Item.New({
-							id = 14,
-							type = DROP_TYPE_RESOURCE,
-							count = pg.shop_discount_coupon_template[slot4].change,
-							name = uv0[id2ItemId(14)].name .. "(" .. uv0[slot0.id].name .. ")"
-						}), slot1
-					end
-				elseif slot2 == 21 then
-					return nil, slot1
-				elseif slot2 == 6 then
-					slot3 = uv3.taskId
-
-					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then
-						slot6 = slot5.data1KeyValueList[1]
-						slot6[slot3] = defaultValue(slot6[slot3], 0) + slot1.count
-
-						slot4:updateActivity(slot5)
-					end
-
-					return nil, slot1
-				end
+				return Item.New({
+					type = DROP_TYPE_RESOURCE,
+					id = slot2,
+					count = slot3,
+					name = uv0[id2ItemId(slot2)].name .. "(" .. uv1[slot0.id].name .. ")"
+				})
 			end
+		elseif slot0.type == DROP_TYPE_ICON_FRAME then
+			if (slot0.number or slot0.count) == 0 then
+				return Item.New({
+					count = 1,
+					type = slot0.type,
+					id = slot0.id
+				})
+			else
+				slot2, slot3 = Player.headFrame2Res(slot0.id, slot1)
 
+				if slot3 <= 0 then
+					return nil
+				end
+
+				return Item.New({
+					type = DROP_TYPE_RESOURCE,
+					id = slot2,
+					count = slot3,
+					name = uv0[id2ItemId(slot2)].name .. "(" .. uv2[slot0.id].name .. ")"
+				})
+			end
+		elseif slot0.type == DROP_TYPE_NPC_SHIP then
 			return Item.New({
+				count = 1,
+				type = slot0.type,
+				id = slot0.number or slot0.count
+			})
+		elseif slot0.type == DROP_TYPE_VITEM then
+			if Item.New({
 				type = slot0.type,
 				id = slot0.id,
 				count = slot0.number or slot0.count
-			})
-		end)(slot11)
+			}):getConfig("virtual_type") == 13 then
+				slot4 = Item.VItem2SkinCouponShopId(slot0.id)
+
+				if not getProxy(ActivityProxy):ExistSkinCouponActivity() then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_timeout_tip", uv0[slot0.id].name))
+
+					return
+				elseif slot3:ExistSkinCouponActivityAndShopId(slot4) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", uv0[slot0.id].name))
+
+					return
+				elseif getProxy(ShipSkinProxy):hasSkin(pg.shop_template[slot4].effect_args[1]) then
+					if slot1.count > 1 then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", uv0[slot0.id].name))
+					end
+
+					return Item.New({
+						id = 14,
+						type = DROP_TYPE_RESOURCE,
+						count = pg.shop_discount_coupon_template[slot4].change,
+						name = uv0[id2ItemId(14)].name .. "(" .. uv0[slot0.id].name .. ")"
+					}), slot1
+				end
+			elseif slot2 == 21 then
+				return nil, slot1
+			elseif slot2 == 6 then
+				slot3 = uv3.taskId
+
+				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then
+					slot6 = slot5.data1KeyValueList[1]
+					slot6[slot3] = defaultValue(slot6[slot3], 0) + slot1.count
+
+					slot4:updateActivity(slot5)
+				end
+
+				return nil, slot1
+			end
+		end
+
+		return Item.New({
+			type = slot0.type,
+			id = slot0.id,
+			count = slot0.number or slot0.count
+		})
+	end
+
+	for slot10, slot11 in ipairs(slot0) do
+		slot12, slot13 = slot6(slot11)
 
 		if slot12 then
-			table.insert({}, slot12)
+			table.insert(slot2, slot12)
 			pg.m02:sendNotification(GAME.ADD_ITEM, slot12)
 		end
 

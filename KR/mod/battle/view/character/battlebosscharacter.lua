@@ -373,13 +373,15 @@ function slot2.initBarrierBar(slot0)
 end
 
 function slot2.onBarrierStateChange(slot0, slot1)
+	slot3 = slot1.Data.barrierDuration
+
 	SetActive(slot0._barrierBar, slot1.Data.barrierDurability > 0)
 
 	if slot2 > 0 then
 		slot0._totalBarrier = slot2
 		slot0._barrier = slot2
 
-		slot0:initBarrierClock(slot1.Data.barrierDuration)
+		slot0:initBarrierClock(slot3)
 		slot0:updateBarrierBar()
 		slot0:updateBarrierClock()
 	else
@@ -405,7 +407,7 @@ end
 function slot2.AddAimBiasBar(slot0, slot1)
 	slot0._normalHPTF = slot1
 	slot0._aimBiarBarTF = slot1:Find("biasBar")
-	slot0._aimBiarBar = uv0.Battle.BattleAimbiasBar.New(aimBiasBar)
+	slot0._aimBiarBar = uv0.Battle.BattleAimbiasBar.New(slot0._aimBiarBarTF)
 
 	slot0._aimBiarBar:ConfigAimBias(slot0._unitData:GetAimBias())
 	slot0._aimBiarBar:UpdateAimBiasProgress()

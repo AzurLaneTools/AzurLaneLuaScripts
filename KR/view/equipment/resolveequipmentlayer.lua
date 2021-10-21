@@ -54,22 +54,26 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.okBtn, function ()
-		if not _.all(uv0:hasEliteEquips(uv0.selectedIds, uv0.equipmentVOByIds), function (slot0)
+		function slot0()
+			if #uv0.selectedIds <= 0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("err_resloveequip_nochoice"))
+
+				return
+			end
+
+			setActive(uv0.mainPanel, false)
+			setActive(uv0.destroyConfirm, true)
+			uv0:displayDestroyBonus()
+		end
+
+		slot1 = uv0
+
+		if not _.all(slot1:hasEliteEquips(uv0.selectedIds, uv0.equipmentVOByIds), function (slot0)
 			return slot0 == ""
 		end) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("destroy_eliteequipment_tip", string.gsub(table.concat(slot1, ""), "$1", slot1[1] == "" and "" or ",")),
-				onYes = function ()
-					if #uv0.selectedIds <= 0 then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("err_resloveequip_nochoice"))
-
-						return
-					end
-
-					setActive(uv0.mainPanel, false)
-					setActive(uv0.destroyConfirm, true)
-					uv0:displayDestroyBonus()
-				end
+				onYes = slot0
 			})
 		else
 			slot0()
@@ -147,12 +151,14 @@ end
 
 function slot0.displayDestroyBonus(slot0)
 	slot1 = {}
+	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.selectedIds) do
 		if pg.equip_data_template[slot7[1]] then
-			slot2 = 0 + (slot8.destory_gold or 0) * slot7[2]
+			slot9 = slot8.destory_item or {}
+			slot2 = slot2 + (slot8.destory_gold or 0) * slot7[2]
 
-			for slot14, slot15 in ipairs(slot8.destory_item or {}) do
+			for slot14, slot15 in ipairs(slot9) do
 				slot16 = false
 
 				for slot20, slot21 in ipairs(slot1) do
@@ -324,6 +330,12 @@ function slot0.selectEquip(slot0, slot1, slot2)
 		return
 	end
 
+	if slot1:isImportance() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("retire_importantequipment_tips"))
+
+		return
+	end
+
 	slot3 = false
 	slot4 = nil
 	slot5 = 0
@@ -379,11 +391,14 @@ function slot0.updateSelected(slot0)
 end
 
 function slot0.checkDestroyGold(slot0, slot1, slot2)
+	slot3 = 0
 	slot4 = false
 
 	for slot8, slot9 in pairs(slot0.selectedIds) do
+		slot10 = slot9[2]
+
 		if pg.equip_data_template[slot9[1]] then
-			slot3 = 0 + (slot11.destory_gold or 0) * slot9[2]
+			slot3 = slot3 + (slot11.destory_gold or 0) * slot10
 		end
 
 		if slot1 and slot9[1] == slot1.configId then

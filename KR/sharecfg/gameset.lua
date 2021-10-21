@@ -2087,5 +2087,9 @@ pg.gameset = {
 			16502,
 			16503
 		}
+	},
+	vote_enlarge = {
+		description = "",
+		key_value = 23025
 	}
 }

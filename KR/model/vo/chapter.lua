@@ -18,6 +18,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.expireTime = slot1.active_time
 	slot0.awardIndex = slot1.index or 0
 	slot0.theme = ChapterTheme.New(slot0:getConfig("theme"))
+	slot2 = {
+		defaultValue(slot1.kill_boss_count, 0),
+		defaultValue(slot1.kill_enemy_count, 0),
+		defaultValue(slot1.take_box_count, 0)
+	}
 	slot0.achieves = {}
 
 	for slot6 = 1, 3 do
@@ -25,11 +30,7 @@ function slot0.Ctor(slot0, slot1)
 			table.insert(slot0.achieves, {
 				type = slot7,
 				config = slot0:getConfig("num_" .. slot6),
-				count = ({
-					defaultValue(slot1.kill_boss_count, 0),
-					defaultValue(slot1.kill_enemy_count, 0),
-					defaultValue(slot1.take_box_count, 0)
-				})[slot6]
+				count = slot2[slot6]
 			})
 		end
 	end
@@ -106,8 +107,10 @@ function slot0.BuildEliteFleetList(slot0)
 		{},
 		{}
 	}
+	slot3 = ipairs
+	slot4 = slot0 or {}
 
-	for slot6, slot7 in ipairs(slot0 or {}) do
+	for slot6, slot7 in slot3(slot4) do
 		slot8 = {}
 
 		for slot12, slot13 in ipairs(slot7.main_id) do
@@ -115,16 +118,17 @@ function slot0.BuildEliteFleetList(slot0)
 		end
 
 		slot1[slot6] = slot8
+		slot9 = {}
 
 		for slot13, slot14 in ipairs(slot7.commanders) do
-			if getProxy(CommanderProxy):getCommanderById(slot14.id) and Commander.canEquipToFleetList(slot2, slot6, slot14.pos, slot15) then
-				-- Nothing
+			slot16 = slot14.pos
+
+			if getProxy(CommanderProxy):getCommanderById(slot14.id) and Commander.canEquipToFleetList(slot2, slot6, slot16, slot15) then
+				slot9[slot16] = slot15
 			end
 		end
 
-		slot2[slot6] = {
-			[slot16] = slot15
-		}
+		slot2[slot6] = slot9
 	end
 
 	return slot1, slot2
@@ -145,10 +149,11 @@ function slot0.getFleetById(slot0, slot1)
 end
 
 function slot0.getFleetByShipVO(slot0, slot1)
+	slot2 = slot1.id
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot0.fleets) do
-		if slot8:getShip(slot1.id) then
+		if slot8:getShip(slot2) then
 			slot3 = slot8
 
 			break
@@ -623,9 +628,10 @@ function slot0.getAmbushRate(slot0, slot1, slot2)
 	slot6 = (_.detect(slot0:getConfig("ambush_ratio_extra"), function (slot0)
 		return slot0[1] == uv0.row and slot0[2] == uv0.column
 	end) and slot6[3] / 10000 or 0) + (slot7 and slot7[1] / 10000 or 0)
+	slot8 = 0.05 + slot4 / (slot4 + slot1:getInvestSums()) / 4 * math.max(slot1.step - 1, 0) + slot6
 
 	if slot6 == 0 then
-		slot8 = 0.05 + slot4 / (slot4 + slot1:getInvestSums()) / 4 * math.max(slot1.step - 1, 0) + slot6 - slot1:getEquipAmbushRateReduce()
+		slot8 = slot8 - slot1:getEquipAmbushRateReduce()
 	end
 
 	return math.clamp(slot8, 0, 1)
@@ -634,11 +640,12 @@ end
 function slot0.getAmbushDodge(slot0, slot1)
 	slot2 = slot1.line
 	slot3 = slot1:getDodgeSums()
+	slot5 = slot3 / (slot3 + slot0:getConfig("avoid_ratio"))
 
 	if (_.detect(slot0:getConfig("ambush_ratio_extra"), function (slot0)
 		return slot0[1] == uv0.row and slot0[2] == uv0.column
 	end) and slot6[3] / 10000 or 0) == 0 then
-		slot5 = slot3 / (slot3 + slot0:getConfig("avoid_ratio")) + slot1:getEquipDodgeRateUp()
+		slot5 = slot5 + slot1:getEquipDodgeRateUp()
 	end
 
 	return math.clamp(slot5, 0, 1)
@@ -707,9 +714,11 @@ function slot0.existAchieve(slot0)
 end
 
 function slot0.isAllAchieve(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0.achieves) do
 		if ChapterConst.IsAchieved(slot6) then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -806,6 +815,8 @@ function slot0.FindBossPath(slot0, slot1, slot2, slot3)
 end
 
 function slot0.getWaveCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.cells) do
 		if slot6.attachment == ChapterConst.AttachEnemy and underscore.detect(slot0:getConfig("grids"), function (slot0)
 			if slot0[1] == uv0.row and slot0[2] == uv0.column and (slot0[4] == ChapterConst.AttachElite or slot0[4] == ChapterConst.AttachEnemy) then
@@ -814,19 +825,46 @@ function slot0.getWaveCount(slot0)
 
 			return false
 		end) then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
-	slot3 = slot0:getConfig("elite_refresh")
+	slot2 = 0
 
-	for slot8, slot9 in pairs(slot0:getConfig("enemy_refresh")) do
-		if slot8 <= #slot3 then
-			slot4 = 0 + slot9 + slot3[slot8]
+	if pg.chapter_group_refresh[slot0.id] then
+		slot4 = 1
+
+		while true do
+			slot5 = false
+
+			for slot9, slot10 in ipairs(slot3.enemy_refresh) do
+				slot2 = slot2 + (slot10[slot4] or 0)
+				slot5 = slot5 or tobool(slot10[slot4])
+			end
+
+			if slot1 <= slot2 then
+				return slot4
+			end
+
+			slot4 = slot4 + 1
+
+			if not slot5 then
+				break
+			end
 		end
+	else
+		slot5 = slot0:getConfig("elite_refresh")
 
-		if slot1 <= slot4 then
-			return slot8
+		for slot9, slot10 in pairs(slot0:getConfig("enemy_refresh")) do
+			slot2 = slot2 + slot10
+
+			if slot9 <= #slot5 then
+				slot2 = slot2 + slot5[slot9]
+			end
+
+			if slot1 <= slot2 then
+				return slot9
+			end
 		end
 	end
 
@@ -844,8 +882,10 @@ function slot0.bossRefreshed(slot0)
 end
 
 function slot0.getFleetAmmo(slot0, slot1)
+	slot2 = slot1:getShipAmmo()
+
 	if slot1:getFleetType() == FleetType.Normal then
-		slot2 = slot1:getShipAmmo() + slot0:getConfig("ammo_total")
+		slot2 = slot2 + slot0:getConfig("ammo_total")
 	elseif slot3 == FleetType.Submarine then
 		slot2 = slot2 + slot0:getConfig("ammo_submarine")
 	end
@@ -885,8 +925,10 @@ function slot0.GetActiveStrategies(slot0)
 end
 
 function slot0.getFleetStgs(slot0, slot1)
+	slot2 = slot1:getStrategies()
+
 	if slot0:getPlayType() == ChapterConst.TypeLagacy then
-		slot2 = _.filter(slot1:getStrategies(), function (slot0)
+		slot2 = _.filter(slot2, function (slot0)
 			return pg.strategy_data_template[slot0.id].id == ChapterConst.StrategyRepair or slot1.id == ChapterConst.StrategyExchange
 		end)
 	end
@@ -895,10 +937,11 @@ function slot0.getFleetStgs(slot0, slot1)
 end
 
 function slot0.getFleetStates(slot0, slot1)
+	slot2 = {}
 	slot3, slot4 = slot0:getFleetAmmo(slot1)
 
 	if ChapterConst.AmmoRich <= slot4 then
-		table.insert({}, ChapterConst.StrategyAmmoRich)
+		table.insert(slot2, ChapterConst.StrategyAmmoRich)
 	elseif slot4 <= ChapterConst.AmmoPoor then
 		table.insert(slot2, ChapterConst.StrategyAmmoPoor)
 	end
@@ -950,10 +993,13 @@ function slot0.getAirDominanceStg(slot0)
 end
 
 function slot0.getAirDominanceValue(slot0)
+	slot1 = 0
+	slot2 = 0
+
 	for slot6, slot7 in ipairs(slot0.fleets) do
 		if slot7:isValid() then
-			slot1 = 0 + slot7:getFleetAirDominanceValue()
-			slot2 = 0 + slot7:getAntiAircraftSums()
+			slot1 = slot1 + slot7:getFleetAirDominanceValue()
+			slot2 = slot2 + slot7:getAntiAircraftSums()
 		end
 	end
 
@@ -1192,6 +1238,7 @@ end
 function slot0.IsEliteFleetLegal(slot0)
 	slot1 = 0
 	slot2 = 0
+	slot3 = 0
 	slot4 = 0
 	slot5, slot6 = nil
 
@@ -1201,7 +1248,7 @@ function slot0.IsEliteFleetLegal(slot0)
 		if not slot11 then
 			if not slot12 then
 				if slot10 >= 3 then
-					slot3 = 0 + 1
+					slot3 = slot3 + 1
 				else
 					slot1 = slot1 + 1
 				end
@@ -1225,9 +1272,10 @@ function slot0.IsEliteFleetLegal(slot0)
 	end
 
 	slot7, slot8 = slot0:IsPropertyLimitationSatisfy()
+	slot9 = 1
 
 	for slot13, slot14 in ipairs(slot7) do
-		slot9 = 1 * slot14
+		slot9 = slot9 * slot14
 	end
 
 	if slot9 ~= 1 then
@@ -1239,28 +1287,26 @@ end
 
 function slot0.IsPropertyLimitationSatisfy(slot0)
 	slot1 = getProxy(BayProxy):getRawData()
-	slot3 = {
-		[slot8[1]] = 0
-	}
+	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0:getConfig("property_limitation")) do
-		-- Nothing
+		slot3[slot8[1]] = 0
 	end
 
 	slot4 = 0
 
 	for slot8 = 1, 2 do
 		if slot0:singleEliteFleetVertify(slot8) then
-			slot9 = {
-				[slot17] = 0
-			}
+			slot9 = {}
+			slot10 = {}
 			slot11 = 0
 
 			for slot15, slot16 in ipairs(slot2) do
-				slot17, slot18, slot19, ({})[slot17] = unpack(slot16)
+				slot17, slot18, slot19, slot20 = unpack(slot16)
 
 				if string.sub(slot17, 1, 5) == "fleet" then
-					-- Nothing
+					slot9[slot17] = 0
+					slot10[slot17] = slot20
 				end
 			end
 
@@ -1306,9 +1352,11 @@ end
 
 function slot0.EliteShipTypeFilter(slot0)
 	function slot1(slot0, slot1, slot2)
+		slot3 = 0
+
 		for slot7, slot8 in ipairs(slot1) do
 			if slot8 == 0 then
-				slot3 = 0 + 1
+				slot3 = slot3 + 1
 			end
 		end
 
@@ -1368,12 +1416,13 @@ function slot0.EliteShipTypeFilter(slot0)
 	slot6 = "limitation"
 
 	for slot6, slot7 in ipairs(slot0:getConfig(slot6)) do
+		slot9 = {}
 		slot10 = {}
 		slot11 = {}
 
 		for slot15, slot16 in ipairs(slot0.eliteFleetList[slot6]) do
 			if slot2[slot16]:getTeamType() == TeamType.Main then
-				-- Nothing
+				slot9[slot17] = slot16
 			elseif slot18 == TeamType.Vanguard then
 				slot10[slot17] = slot16
 			elseif slot18 == TeamType.Submarine then
@@ -1381,9 +1430,7 @@ function slot0.EliteShipTypeFilter(slot0)
 			end
 		end
 
-		slot1(slot8, slot7[1], {
-			[slot17] = slot16
-		})
+		slot1(slot8, slot7[1], slot9)
 		slot1(slot8, slot7[2], slot10)
 		slot1(slot8, {
 			0,
@@ -1426,11 +1473,12 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 			slot8 = 1
 
 			for slot12, slot13 in ipairs(slot4[slot1]) do
+				slot14 = 0
 				slot15 = 0
 
 				for slot19, slot20 in ipairs(slot13) do
 					if type(slot20) == "number" then
-						slot14 = 0 + slot20
+						slot14 = slot14 + slot20
 
 						if slot20 ~= 0 and table.contains(slot7, slot20) then
 							slot15 = 1
@@ -1465,12 +1513,13 @@ end
 
 function slot0.getDragExtend(slot0)
 	slot1 = slot0.theme
+	slot2 = 99999999
 	slot3 = 99999999
 	slot4 = 0
 	slot5 = 0
 
 	for slot9, slot10 in pairs(slot0.cells) do
-		if slot10.row < 99999999 then
+		if slot10.row < slot2 then
 			slot2 = slot10.row
 		end
 
@@ -1495,24 +1544,23 @@ function slot0.getDragExtend(slot0)
 end
 
 function slot0.getPoisonArea(slot0, slot1)
+	slot2 = {}
 	slot3 = slot0.theme.cellSize + slot0.theme.cellSpace
 	slot4 = math.floor(slot3.x * slot1)
 	slot5 = math.floor(slot3.y * slot1)
 
 	for slot9, slot10 in pairs(slot0.cells) do
 		if slot10:checkHadFlag(ChapterConst.FlagPoison) then
-			-- Nothing
+			slot2[slot9] = {
+				x = math.floor(slot4 * (slot10.column - slot0.indexMin.y)),
+				y = math.floor(slot5 * (slot10.row - slot0.indexMin.x)),
+				w = slot4,
+				h = slot5
+			}
 		end
 	end
 
-	return {
-		[slot9] = {
-			x = math.floor(slot4 * (slot10.column - slot0.indexMin.y)),
-			y = math.floor(slot5 * (slot10.row - slot0.indexMin.x)),
-			w = slot4,
-			h = slot5
-		}
-	}
+	return slot2
 end
 
 function slot0.selectFleets(slot0, slot1, slot2)
@@ -1609,9 +1657,11 @@ function slot0.getPrevChapterName(slot0)
 end
 
 function slot0.getMaxColumnByRow(slot0, slot1)
+	slot2 = -1
+
 	for slot6, slot7 in pairs(slot0.cells) do
 		if slot7.row == slot1 then
-			slot2 = math.max(-1, slot7.column)
+			slot2 = math.max(slot2, slot7.column)
 		end
 	end
 
@@ -1940,8 +1990,10 @@ function slot0.calcWalkableCells(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
+	slot7 = {}
+
 	if not slot0:GetRawChapterCell(slot2, slot3) then
-		return {}
+		return slot7
 	end
 
 	slot9 = {
@@ -2084,13 +2136,17 @@ end
 
 function slot0.calcAttachmenArea(slot0, slot1)
 	slot2 = slot0.theme
+	slot3 = ChapterConst.MaxRow + 1
+	slot4 = -1
+	slot5 = ChapterConst.MaxColumn + 1
+	slot6 = -1
 
 	for slot10, slot11 in pairs(slot0.cells) do
 		if slot11.attachment == slot1 then
-			slot3 = math.min(ChapterConst.MaxRow + 1, slot11.row)
-			slot4 = math.max(-1, slot11.row)
-			slot5 = math.min(ChapterConst.MaxColumn + 1, slot11.column)
-			slot6 = math.max(-1, slot11.column)
+			slot3 = math.min(slot3, slot11.row)
+			slot4 = math.max(slot4, slot11.row)
+			slot5 = math.min(slot5, slot11.column)
+			slot6 = math.max(slot6, slot11.column)
 		end
 	end
 
@@ -2226,6 +2282,7 @@ function slot0.getStageExtraAwards(slot0)
 end
 
 function slot0.GetExtraCostRate(slot0)
+	slot1 = 1
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.operationBuffList) do
@@ -2233,14 +2290,14 @@ function slot0.GetExtraCostRate(slot0)
 		slot2[#slot2 + 1] = slot8
 
 		if slot8.benefit_type == uv0.OPERATION_BUFF_TYPE_COST then
-			slot1 = 1 + slot8.benefit_effect * 0.01
+			slot1 = slot1 + slot8.benefit_effect * 0.01
 		end
 	end
 
 	return math.max(1, slot1), slot2
 end
 
-function slot0.getFleetCost(slot0, slot1)
+function slot0.getFleetCost(slot0, slot1, slot2)
 	if slot0:getPlayType() == ChapterConst.TypeExtra then
 		return {
 			gold = 0,
@@ -2251,7 +2308,36 @@ function slot0.getFleetCost(slot0, slot1)
 		}
 	end
 
-	return slot1:getCost(slot0:GetExtraCostRate())
+	slot3, slot4 = slot1:getCost()
+	slot4.oil = math.clamp(slot0:GetLimitOilCost(slot1:getFleetType() == FleetType.Submarine, slot2) - slot3.oil, 0, slot4.oil)
+	slot6 = slot0:GetExtraCostRate()
+
+	for slot10, slot11 in ipairs({
+		slot3,
+		slot4
+	}) do
+		for slot15, slot16 in pairs(slot11) do
+			slot11[slot15] = slot11[slot15] * slot6
+		end
+	end
+
+	return slot3, slot4
+end
+
+function slot0.isOverFleetCost(slot0, slot1, slot2)
+	slot3 = slot0:GetLimitOilCost(slot1:getFleetType() == FleetType.Submarine, slot2)
+	slot4 = 0
+	slot8 = slot1
+
+	for slot8, slot9 in ipairs({
+		slot1.getCost(slot8)
+	}) do
+		slot4 = slot4 + slot9.oil
+	end
+
+	slot5 = slot0:GetExtraCostRate()
+
+	return slot3 < slot4, slot3 * slot5, slot4 * slot5
 end
 
 function slot0.GetWinConditions(slot0)
@@ -2291,12 +2377,14 @@ function slot0.GetDropShipList(slot0)
 end
 
 function slot0.writeBack(slot0, slot1, slot2)
+	function slot4(slot0)
+		if uv0.statistics[slot0.id] then
+			slot0.hpRant = slot1.bp
+		end
+	end
+
 	for slot8, slot9 in pairs(slot0.fleet.ships) do
-		(function (slot0)
-			if uv0.statistics[slot0.id] then
-				slot0.hpRant = slot1.bp
-			end
-		end)(slot9)
+		slot4(slot9)
 	end
 
 	slot3.restAmmo = math.max(slot3.restAmmo - 1, 0)
@@ -2464,7 +2552,9 @@ function slot0.UpdateProgressOnRetreat(slot0)
 				slot0.count = slot0.count + 1
 			end
 		elseif slot0.type == ChapterConst.AchieveType5 then
-			if not _.any(uv0:getShips(), function (slot0)
+			slot2 = uv0
+
+			if not _.any(slot2:getShips(), function (slot0)
 				return slot0:getShipType() == uv0.config
 			end) then
 				slot0.count = slot0.count + 1
@@ -2534,6 +2624,7 @@ function slot0.UpdateComboHistory(slot0, slot1)
 end
 
 function slot0.CheckChapterWin(slot0)
+	slot2 = false
 	slot3 = ChapterConst.ReasonVictory
 
 	for slot7, slot8 in pairs(slot0:GetWinConditions()) do
@@ -2544,7 +2635,7 @@ function slot0.CheckChapterWin(slot0)
 				end
 			end)
 
-			slot2 = false or slot8.param <= 0
+			slot2 = slot2 or slot8.param <= 0
 		elseif slot8.type == 2 then
 			slot2 = slot2 or slot8.param <= slot0:GetDefeatCount()
 		elseif slot8.type == 3 then
@@ -2554,8 +2645,10 @@ function slot0.CheckChapterWin(slot0)
 		elseif slot8.type == 5 then
 			slot9 = slot8.param
 			slot2 = slot2 or not (_.any(slot0.champions, function (slot0)
+				slot1 = slot0.attachmentId == uv0
+
 				for slot5, slot6 in pairs(slot0.idList) do
-					slot1 = slot0.attachmentId == uv0 or slot6 == uv0
+					slot1 = slot1 or slot6 == uv0
 				end
 
 				return slot1 and slot0.flag ~= ChapterConst.CellFlagDisabled
@@ -2578,11 +2671,12 @@ function slot0.CheckChapterWin(slot0)
 end
 
 function slot0.CheckChapterLose(slot0)
+	slot2 = false
 	slot3 = ChapterConst.ReasonDefeat
 
 	for slot7, slot8 in pairs(slot0:GetLoseConditions()) do
 		if slot8.type == 1 then
-			slot2 = false or not _.any(slot0.fleets, function (slot0)
+			slot2 = slot2 or not _.any(slot0.fleets, function (slot0)
 				return slot0:getFleetType() == FleetType.Normal and slot0:isValid()
 			end)
 		elseif slot8.type == 2 then
@@ -2625,8 +2719,10 @@ function slot0.triggerSkill(slot0, slot1, slot2)
 	end)
 
 	return _.reduce(slot3, nil, function (slot0, slot1)
+		slot3 = slot1:GetArgs()
+
 		if slot1:GetType() == FleetSkill.TypeMoveSpeed or slot2 == FleetSkill.TypeHuntingLv or slot2 == FleetSkill.TypeTorpedoPowerUp then
-			return (slot0 or 0) + slot1:GetArgs()[1]
+			return (slot0 or 0) + slot3[1]
 		elseif slot2 == FleetSkill.TypeAmbushDodge or slot2 == FleetSkill.TypeAirStrikeDodge then
 			return math.max(slot0 or 0, slot3[1])
 		elseif slot2 == FleetSkill.TypeAttack or slot2 == FleetSkill.TypeStrategy then
@@ -2673,8 +2769,10 @@ function slot0.triggerCheck(slot0, slot1, slot2, slot3)
 			}) <= uv2[2] and (type(uv2[3]) == "number" and uv2[3] == slot1 or type(uv2[3]) == "table" and table.contains(uv2[3], slot1))
 		end)
 	elseif slot4 == FleetSkill.TriggerNekoPos then
+		slot5 = slot1:findCommanderBySkillId(slot2.id)
+
 		for slot9, slot10 in pairs(slot1:getCommanders()) do
-			if slot1:findCommanderBySkillId(slot2.id).id == slot10.id and slot9 == slot3[2] then
+			if slot5.id == slot10.id and slot9 == slot3[2] then
 				return true
 			end
 		end
@@ -2882,17 +2980,18 @@ function slot0.GetAntiAirGunArea(slot0)
 
 	for slot6, slot7 in pairs(slot0.cells) do
 		if slot7.attachment == ChapterConst.AttachLandbase and slot7.flag ~= ChapterConst.CellFlagDisabled and pg.land_based_template[slot7.attachmentId].type == ChapterConst.LBAntiAir then
+			function slot11(slot0, slot1)
+				return ChapterConst.MaxColumn * slot0 + slot1
+			end
+
+			slot12 = {}
 			slot13 = {}
 
 			if math.abs(slot8.function_args[1]) > 0 then
-				-- Nothing
+				slot12[slot11(slot7.row, slot7.column)] = slot7
 			end
 
-			while next({
-				[(function (slot0, slot1)
-					return ChapterConst.MaxColumn * slot0 + slot1
-				end)(slot7.row, slot7.column)] = slot7
-			}) do
+			while next(slot12) do
 				slot14 = next(slot12)
 				slot12[slot14] = nil
 
@@ -2926,18 +3025,21 @@ end
 function slot0.getNpcShipByType(slot0, slot1)
 	slot2 = {}
 	slot3 = getProxy(TaskProxy)
+
+	function slot4(slot0)
+		if slot0 == 0 then
+			return true
+		end
+
+		return uv0:getTaskVO(slot0) and not slot1:isFinish()
+	end
+
 	slot8 = "npc_data"
 
 	for slot8, slot9 in ipairs(slot0:getConfig(slot8)) do
 		slot10 = pg.npc_squad_template[slot9]
 
-		if not slot1 or slot1 == slot10.type and (function (slot0)
-			if slot0 == 0 then
-				return true
-			end
-
-			return uv0:getTaskVO(slot0) and not slot1:isFinish()
-		end)(slot10.task_id) then
+		if not slot1 or slot1 == slot10.type and slot4(slot10.task_id) then
 			for slot14, slot15 in ipairs({
 				"vanguard_list",
 				"main_list"
@@ -2999,8 +3101,10 @@ function slot0.enoughTimes2Start(slot0)
 end
 
 function slot0.GetDailyBonusQuota(slot0)
+	slot2 = 0
+
 	for slot6, slot7 in ipairs(slot0:getConfig("boss_expedition_id")) do
-		slot2 = math.max(0, pg.expedition_activity_template[slot7] and slot8.bonus_time or 0)
+		slot2 = math.max(slot2, pg.expedition_activity_template[slot7] and slot8.bonus_time or 0)
 	end
 
 	if pg.chapter_defense[slot0.id] then
@@ -3046,9 +3150,11 @@ function slot0.GetOperationBuffList(slot0)
 end
 
 function slot0.GetAllEnemies(slot0, slot1)
+	slot2 = {}
+
 	for slot6, slot7 in pairs(slot0.cells) do
 		if (slot7.attachment == ChapterConst.AttachEnemy or slot7.attachment == ChapterConst.AttachElite or slot7.attachment == ChapterConst.AttachBoss or slot7.attachment == ChapterConst.AttachBox and pg.box_data_template[slot7.attachmentId].type == ChapterConst.BoxEnemy) and (slot1 or slot7.flag ~= ChapterConst.CellFlagDisabled) then
-			table.insert({}, slot7)
+			table.insert(slot2, slot7)
 		end
 	end
 
@@ -3088,12 +3194,15 @@ function slot0.GetBuffOfLinkAct(slot0)
 end
 
 function slot0.GetAttachmentStories(slot0)
+	slot2 = 0
+	slot3 = nil
+
 	for slot7, slot8 in pairs(slot0.cellAttachments) do
 		if uv0.GetEventTemplateByKey("mult_story", slot8.attachmentId) then
-			slot3 = nil or slot9[1]
+			slot3 = slot3 or slot9[1]
 
 			if slot0.cells[slot7] and slot10.flag == ChapterConst.CellFlagDisabled then
-				slot2 = 0 + 1
+				slot2 = slot2 + 1
 			end
 		end
 	end
@@ -3114,8 +3223,11 @@ function slot0.SaveChapterLastFleetCache(slot0, slot1)
 		return
 	end
 
+	slot2 = 0
+	slot3 = 8
+
 	for slot7, slot8 in ipairs(slot1) do
-		slot2 = 0 + bit.lshift(slot8, 8 * (slot7 - 1))
+		slot2 = slot2 + bit.lshift(slot8, slot3 * (slot7 - 1))
 	end
 
 	PlayerPrefs.SetInt(uv0.GetChapterLastFleetCacheKey(slot0), slot2)
@@ -3139,6 +3251,14 @@ function slot0.GetChapterLastFleetCache(slot0)
 	end
 
 	return slot2
+end
+
+function slot0.GetLimitOilCost(slot0, slot1, slot2)
+	slot3 = nil
+
+	return (slot0:getConfig("use_oil_limit") or {})[slot1 and 3 or underscore.any(slot0:getConfig("boss_expedition_id"), function (slot0)
+		return uv0 == slot0
+	end) and 2 or 1] or 9999
 end
 
 return slot0

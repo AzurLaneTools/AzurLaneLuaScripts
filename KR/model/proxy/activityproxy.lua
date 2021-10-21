@@ -162,8 +162,10 @@ end
 
 function slot0.getPanelActivities(slot0)
 	return _(_.values(slot0.data)):chain():filter(function (slot0)
+		slot1 = slot0:getConfig("type")
+
 		if slot0:isShow() and not slot0:isAfterShow() then
-			if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD then
+			if slot1 == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD then
 				slot2 = slot0.data2 == 0
 			elseif slot1 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
 				slot2 = slot0.data1 < 7 or not slot0.achieved
@@ -226,7 +228,9 @@ function slot0.findNextAutoActivity(slot0)
 					break
 				end
 			elseif slot9 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
-				if slot8.data1 < 7 and not slot2:IsSameDay(slot3, slot8.data2) or slot8.data1 == 7 and not slot8.achieved and getProxy(ChapterProxy):isClear(204) then
+				slot10 = getProxy(ChapterProxy)
+
+				if slot8.data1 < 7 and not slot2:IsSameDay(slot3, slot8.data2) or slot8.data1 == 7 and not slot8.achieved and slot10:isClear(204) then
 					slot1 = slot8
 
 					break
@@ -286,14 +290,20 @@ function slot0.existRefluxAwards(slot0)
 		end
 
 		slot3 = getProxy(TaskProxy)
-
-		if _.any(_(slot1:getConfig("config_data")[7]):chain():map(function (slot0)
+		slot4 = _(slot1:getConfig("config_data")[7])
+		slot4 = slot4:chain()
+		slot4 = slot4:map(function (slot0)
 			return slot0[2]
-		end):flatten():map(function (slot0)
+		end)
+		slot4 = slot4:flatten()
+		slot4 = slot4:map(function (slot0)
 			return uv0:getTaskById(slot0) or uv0:getFinishTaskById(slot0) or false
-		end):filter(function (slot0)
+		end)
+		slot4 = slot4:filter(function (slot0)
 			return not not slot0
-		end):value(), function (slot0)
+		end)
+
+		if _.any(slot4:value(), function (slot0)
 			return slot0:getTaskStatus() == 1
 		end) then
 			return true
@@ -444,19 +454,22 @@ function slot0.updateActivityFleet(slot0, slot1)
 end
 
 function slot0.recommendActivityFleet(slot0, slot1, slot2)
+	slot3 = getProxy(FleetProxy)
 	slot5 = getProxy(BayProxy)
-	slot6 = getProxy(FleetProxy):getActivityFleets()[slot1][slot2]
+	slot6 = slot3:getActivityFleets()[slot1][slot2]
+
+	function slot7(slot0, slot1)
+		slot7 = slot1
+		slot8 = uv2
+
+		for slot7, slot8 in ipairs(uv0:getActivityRecommendShips(TeamType.TeamToTypeList(slot0), uv1.ships, slot7, slot8)) do
+			uv1:insertShip(slot8, nil, slot0)
+		end
+	end
 
 	if Fleet.SUBMARINE_FLEET_ID <= slot2 then
 		if not slot6:isFull() then
-			(function (slot0, slot1)
-				slot7 = slot1
-				slot8 = uv2
-
-				for slot7, slot8 in ipairs(uv0:getActivityRecommendShips(TeamType.TeamToTypeList(slot0), uv1.ships, slot7, slot8)) do
-					uv1:insertShip(slot8, nil, slot0)
-				end
-			end)(TeamType.Submarine, TeamType.SubmarineMax - #slot6.subShips)
+			slot7(TeamType.Submarine, TeamType.SubmarineMax - #slot6.subShips)
 		end
 	else
 		slot9 = TeamType.MainMax - #slot6.mainShips
@@ -473,26 +486,16 @@ function slot0.recommendActivityFleet(slot0, slot1, slot2)
 	getProxy(FleetProxy):updateActivityFleet(slot1, slot2, slot6)
 end
 
-function slot0.GetVoteBookActivty(slot0)
-	return slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_1) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_3) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_4) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_5) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_6) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_7) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_8)
-end
-
-function slot0.GetVoteActivity(slot0)
-	for slot5, slot6 in ipairs(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_VOTE)) do
-		if slot6:getConfig("config_id") ~= 6 then
-			return slot6
-		end
-	end
-end
-
 function slot0.InitActivityBossData(slot0, slot1)
 	if not pg.activity_event_worldboss[slot1:getConfig("config_id")] then
 		return
 	end
 
 	slot3 = slot1.data1KeyValueList
+	slot4 = pairs
+	slot5 = slot2.normal_expedition_drop_num or {}
 
-	for slot7, slot8 in pairs(slot2.normal_expedition_drop_num or {}) do
+	for slot7, slot8 in slot4(slot5) do
 		for slot12, slot13 in pairs(slot8[1]) do
 			slot3[1][slot13] = math.max(slot8[2] - (slot3[1][slot13] or 0), 0)
 			slot3[2][slot13] = slot3[2][slot13] or 0
@@ -506,15 +509,19 @@ function slot0.AddInstagramTimer(slot0, slot1)
 	slot3, slot4 = slot0.data[slot1]:GetNextPushTime()
 
 	if slot3 then
-		if slot3 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-			(function ()
-				uv0:sendNotification(GAME.ACT_INSTAGRAM_OP, {
-					arg2 = 0,
-					activity_id = uv1,
-					cmd = ActivityConst.INSTAGRAM_OP_ACTIVE,
-					arg1 = uv2
-				})
-			end)()
+		slot5 = pg.TimeMgr.GetInstance()
+
+		function slot7()
+			uv0:sendNotification(GAME.ACT_INSTAGRAM_OP, {
+				arg2 = 0,
+				activity_id = uv1,
+				cmd = ActivityConst.INSTAGRAM_OP_ACTIVE,
+				arg1 = uv2
+			})
+		end
+
+		if slot3 - slot5:GetServerTime() <= 0 then
+			slot7()
 		else
 			slot0.instagramTimer = Timer.New(function ()
 				uv0()
@@ -575,10 +582,12 @@ function slot0.MarkSkinCoupon(slot0, slot1)
 end
 
 function slot0.addActivityParameter(slot0, slot1)
+	slot3 = slot1.stopTime
+
 	for slot7, slot8 in ipairs(slot1:getConfig("config_data")) do
 		slot0.params[slot8[1]] = {
 			slot8[2],
-			slot1.stopTime
+			slot3
 		}
 	end
 end

@@ -43,8 +43,10 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.recomBtn, function ()
 		triggerButton(uv0.clearBtn)
 
+		slot0 = uv0:Recommand()
+
 		for slot4, slot5 in pairs(uv0.cards) do
-			slot5.value = uv0:Recommand()[slot5.item.id] or 0
+			slot5.value = slot0[slot5.item.id] or 0
 
 			slot5:UpdateValue()
 		end
@@ -99,7 +101,10 @@ function slot0.OnInit(slot0)
 			slot0(slot5)
 		end
 	end, SFX_PANEL)
-	slot0.uiItemList:make(function (slot0, slot1, slot2)
+
+	slot1 = slot0.uiItemList
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateItemPanel(uv0.itemIds[slot1 + 1], slot2)
 		end
@@ -115,6 +120,7 @@ function slot0.GetItem(slot0, slot1)
 end
 
 function slot0.Recommand(slot0)
+	slot1 = {}
 	slot2 = Clone(slot0.shipVO)
 	slot3 = slot0:GetAllItemIDs()
 
@@ -122,21 +128,47 @@ function slot0.Recommand(slot0)
 		return slot1 < slot0
 	end)
 
-	for slot7, slot8 in ipairs(slot3) do
-		for slot14 = 1, slot0:GetItem(slot8).count do
-			slot2:addExp(tonumber(pg.item_data_template[slot8].usage_arg))
+	slot4 = pg.item_data_template
 
-			slot1[slot8] = slot1[slot8] + 1
+	for slot8, slot9 in ipairs(slot3) do
+		slot1[slot9] = 0
+		slot10 = slot0:GetItem(slot9)
+		slot11 = slot4[slot9].usage_arg
+		slot12 = slot8 + 1 > #slot3 and 0 or slot4[slot3[slot8 + 1]].usage_arg
 
-			if slot2.maxLevel == slot2.level then
-				return slot1
+		for slot16 = 1, slot10.count do
+			if slot8 ~= #slot3 and slot0:PreCalcExpOverFlow(slot2, tonumber(slot11), tonumber(slot12)) then
+				break
+			else
+				slot2:addExp(tonumber(slot11))
+
+				slot1[slot9] = slot1[slot9] + 1
+
+				if slot2.maxLevel == slot2.level then
+					return slot1
+				end
 			end
 		end
 	end
 
-	return {
-		[slot8] = 0
-	}
+	return slot1
+end
+
+function slot0.PreCalcExpOverFlow(slot0, slot1, slot2, slot3)
+	slot4 = slot1.exp
+	slot5 = slot1.level
+	slot1.exp = slot1.exp + slot2
+	slot6 = slot1:getMaxLevel()
+
+	while slot1:canLevelUp() do
+		slot1.exp = slot1.exp - slot1:getLevelExpConfig().exp_interval
+		slot1.level = math.min(slot1.level + 1, slot6)
+	end
+
+	slot1.exp = slot4
+	slot1.level = slot5
+
+	return slot6 <= slot1.level and slot3 < slot1.exp
 end
 
 function slot0.GetAllItemIDs(slot0)
@@ -200,10 +232,11 @@ function slot0.OnAddItem(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot5 = Clone(slot0.shipVO)
+	slot6 = 0
 
 	for slot10, slot11 in pairs(slot0.itemCnts) do
 		if slot10 ~= slot2 then
-			slot6 = 0 + tonumber(pg.item_data_template[slot10].usage_arg) * slot11
+			slot6 = slot6 + tonumber(pg.item_data_template[slot10].usage_arg) * slot11
 		end
 	end
 
@@ -254,8 +287,10 @@ function slot0.GetTempShipVO(slot0, slot1, slot2)
 end
 
 function slot0.GetAdditionExp(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.itemCnts) do
-		slot1 = 0 + tonumber(pg.item_data_template[slot5].usage_arg) * slot6
+		slot1 = slot1 + tonumber(pg.item_data_template[slot5].usage_arg) * slot6
 	end
 
 	return slot1

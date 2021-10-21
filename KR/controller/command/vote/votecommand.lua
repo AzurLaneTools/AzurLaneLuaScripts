@@ -7,7 +7,7 @@ function slot0.execute(slot0, slot1)
 	slot5 = slot2.count
 	slot6 = getProxy(VoteProxy)
 
-	if not getProxy(ActivityProxy):GetVoteActivity() then
+	if not getProxy(VoteProxy):GetVoteActivity() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return
@@ -27,7 +27,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(11202, {
+	slot10 = pg.ConnectionMgr.GetInstance()
+
+	slot10:Send(11202, {
 		cmd = 1,
 		activity_id = activityId,
 		arg1 = slot3,

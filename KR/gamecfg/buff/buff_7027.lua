@@ -16,7 +16,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				value = 900006,
+				value = "xuzhang_hude",
 				attr = "TargetChoise"
 			}
 		},

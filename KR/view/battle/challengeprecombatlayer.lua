@@ -16,7 +16,6 @@ function slot0.init(slot0)
 	setActive(slot0._popup, false)
 
 	slot0._costText = slot0:findTF("right/popup/Text")
-	slot0._extraCostMark = slot0:findTF("right/popup/extra_cost")
 	slot0._extraCostBuffIcon = slot0:findTF("right/operation_buff_icon")
 	slot0._backBtn = slot0:findTF("top/back_btn")
 	slot0._moveLayer = slot0:findTF("moveLayer")
@@ -111,8 +110,9 @@ end
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
+		slot1 = uv0
 
-		uv0:uiExitAnimating()
+		slot1:uiExitAnimating()
 		LeanTween.delayedCall(0.3, System.Action(function ()
 			uv0:emit(uv1.ON_CLOSE)
 		end))
@@ -139,7 +139,10 @@ function slot0.didEnter(slot0)
 			setActive(uv0._autoSubToggle, false)
 		end
 	end, SFX_PANEL, SFX_PANEL)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:BlurPanel(slot0._tf)
 	setParent(slot0.strategyInfo, slot0._tf.parent)
 	triggerToggle(slot0._autoToggle, ys.Battle.BattleState.IsAutoBotActive())
 	setAnchoredPosition(slot0.topPanel, {
@@ -183,10 +186,15 @@ function slot0.updateView(slot0, slot1)
 		SetActive(uv0._gridTFs[TeamType.Main][1]:Find("flag"), true)
 
 		if uv1 then
-			uv0:updateStageView()
+			slot0 = uv0
+
+			slot0:updateStageView()
 			onNextTick(uv2)
 			coroutine.yield()
-			uv0:loadAllCharacter(function ()
+
+			slot0 = uv0
+
+			slot0:loadAllCharacter(function ()
 				onNextTick(uv0)
 			end)
 			coroutine.yield()
@@ -203,6 +211,20 @@ function slot0.updateView(slot0, slot1)
 end
 
 function slot0.updateStageView(slot0)
+	function slot1(slot0, slot1)
+		if type(slot0) == "table" then
+			setActive(slot1, true)
+			setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
+		else
+			setActive(slot1, false)
+		end
+	end
+
+	slot2 = {
+		findTF(slot0._goals, "goal_tpl"),
+		findTF(slot0._goals, "goal_sink"),
+		findTF(slot0._goals, "goal_time")
+	}
 	slot4 = 1
 
 	for slot8, slot9 in ipairs({
@@ -213,18 +235,7 @@ function slot0.updateStageView(slot0)
 		false
 	}) do
 		if type(slot9) ~= "string" then
-			(function (slot0, slot1)
-				if type(slot0) == "table" then
-					setActive(slot1, true)
-					setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
-				else
-					setActive(slot1, false)
-				end
-			end)(slot9, ({
-				findTF(slot0._goals, "goal_tpl"),
-				findTF(slot0._goals, "goal_sink"),
-				findTF(slot0._goals, "goal_time")
-			})[slot4])
+			slot1(slot9, slot2[slot4])
 
 			slot4 = slot4 + 1
 		end
@@ -284,7 +295,9 @@ function slot0.loadAllCharacter(slot0, slot1)
 
 		for slot8, slot9 in pairs(slot1:getAttachmentPrefab()) do
 			if slot9.attachment_combat_ui[1] ~= "" then
-				ResourceMgr.Inst:getAssetAsync("Effect/" .. slot10, slot10, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				slot12 = ResourceMgr.Inst
+
+				slot12:getAssetAsync("Effect/" .. slot10, slot10, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 					if not uv0.exited then
 						slot1 = Object.Instantiate(slot0)
 						uv0._attachmentList[#uv0._attachmentList + 1] = slot1
@@ -355,7 +368,9 @@ function slot0.loadAllCharacter(slot0, slot1)
 			slot8 = slot7:getPrefab()
 
 			table.insert(uv1, function (slot0)
-				PoolMgr.GetInstance():GetSpineChar(uv0, true, function (slot0)
+				slot1 = PoolMgr.GetInstance()
+
+				slot1:GetSpineChar(uv0, true, function (slot0)
 					uv0(slot0, uv1, uv2, uv3)
 					onNextTick(uv4)
 				end)
@@ -446,7 +461,9 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 		if slot8 ~= slot1 then
 			LeanTween.moveLocalY(go(slot8), slot0._gridTFs[slot2][slot7].localPosition.y - 80, 0.5)
 
-			slot10 = tf(slot8):Find("mouseChild"):GetComponent("EventTriggerListener")
+			slot10 = tf(slot8)
+			slot10 = slot10:Find("mouseChild")
+			slot10 = slot10:GetComponent("EventTriggerListener")
 			slot0.eventTriggers[slot10] = true
 
 			slot10:AddPointEnterFunc(function ()
@@ -511,8 +528,10 @@ function slot0.sortSiblingIndex(slot0)
 end
 
 function slot0.enabledTeamCharacter(slot0, slot1, slot2)
+	slot4 = slot0.chapter.fleet[slot1]
+
 	for slot8, slot9 in ipairs(slot0._characterList[slot1]) do
-		slot0:enabledCharacter(slot9, slot2, slot0.chapter.fleet[slot1][slot8], slot1)
+		slot0:enabledCharacter(slot9, slot2, slot4[slot8], slot1)
 	end
 end
 
@@ -524,14 +543,16 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 			SetActive(slot5, true)
 		else
 			slot5 = GameObject("mouseChild")
+			slot8 = tf(slot5)
 
-			tf(slot5):SetParent(tf(slot1))
+			slot8:SetParent(tf(slot1))
 
 			tf(slot5).localPosition = Vector3.zero
+			slot6 = GetOrAddComponent(slot5, "ModelDrag")
 			slot7 = GetOrAddComponent(slot5, "EventTriggerListener")
 			slot0.eventTriggers[slot7] = true
 
-			GetOrAddComponent(slot5, "ModelDrag"):Init()
+			slot6:Init()
 
 			slot8 = slot5:GetComponent(typeof(RectTransform))
 			slot8.sizeDelta = Vector2(2.5, 2.5)
@@ -567,7 +588,8 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.displayFleetInfo(slot0)
-	slot1 = slot0.challenge:getRegularFleet()
+	slot1 = slot0.challenge
+	slot1 = slot1:getRegularFleet()
 	slot2 = slot1:getCommanders()
 
 	uv0.tweenNumText(slot0._vanguardGS, _.reduce(slot1:getShipsByTeam(TeamType.Vanguard, false), 0, function (slot0, slot1)

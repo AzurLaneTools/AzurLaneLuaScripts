@@ -25,7 +25,9 @@ function slot0.execute(slot0, slot1)
 		slot3:updateChapter(slot4)
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(13103, {
+	slot3 = pg.ConnectionMgr.GetInstance()
+
+	slot3:Send(13103, {
 		act = slot2.type,
 		group_id = defaultValue(slot2.id, 0),
 		act_arg_1 = slot2.arg1,
@@ -60,8 +62,9 @@ function slot0.execute(slot0, slot1)
 							end
 
 							slot4 = pg.TimeMgr.GetInstance()
+							slot5 = slot2:getMapById(slot3:getConfig("map"))
 
-							if uv1.win and slot2:getMapById(slot3:getConfig("map")):getMapType() == Map.ELITE and slot4:IsSameDay(slot3:getStartTime(), slot4:GetServerTime()) then
+							if uv1.win and slot5:getMapType() == Map.ELITE and slot4:IsSameDay(slot3:getStartTime(), slot4:GetServerTime()) then
 								getProxy(DailyLevelProxy):EliteCountPlus()
 							end
 
@@ -119,6 +122,14 @@ function slot0.execute(slot0, slot1)
 					slot2:updateChapter(uv0.chapter, uv0.flag)
 				end
 
+				slot4 = uv0.items
+
+				if uv1.type == ChapterConst.OpRetreat and slot4 and #slot4 > 0 then
+					getProxy(ChapterProxy):AddExtendChapterDataArray(uv0.chapter.id, "ResultDrops", slot4)
+
+					slot4 = nil
+				end
+
 				uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
 					type = uv1.type,
 					id = uv1.id,
@@ -126,7 +137,7 @@ function slot0.execute(slot0, slot1)
 					arg2 = uv1.arg2,
 					path = slot0.move_path,
 					fullpath = uv0.fullpath,
-					items = uv0.items,
+					items = slot4,
 					exittype = uv1.exittype or 0,
 					aiActs = uv0.aiActs,
 					extraFlag = uv0.extraFlag or 0,
@@ -197,9 +208,8 @@ function slot0.PrepareChapterRetreat(slot0)
 				type = ChapterConst.OpRetreat
 			})
 			slot0()
-		end,
-		slot0
-	})
+		end
+	}, slot0)
 end
 
 function slot0.PlayChapterStory(slot0, slot1, slot2)

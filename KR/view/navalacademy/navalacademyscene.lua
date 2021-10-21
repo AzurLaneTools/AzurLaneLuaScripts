@@ -30,7 +30,8 @@ end
 function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("blur_container/adapt/top/title/back")
 	slot0._blurLayer = slot0:findTF("blur_container")
-	slot0._topPanel = slot0._blurLayer:Find("adapt/top")
+	slot1 = slot0._blurLayer
+	slot0._topPanel = slot1:Find("adapt/top")
 	slot0.buildings = {
 		ShopBuiding.New(slot0),
 		CanteenBuiding.New(slot0),
@@ -103,11 +104,6 @@ function slot0.LoadWaveEffect(slot0)
 end
 
 function slot0.LoadMainEffect(slot0)
-	slot0:GetEffect("xueyuan_xiatian", function (slot0)
-		setParent(slot0, uv0._tf)
-
-		uv0.mainEffect = slot0
-	end)
 end
 
 function slot0.InitChars(slot0)
@@ -235,7 +231,9 @@ function slot0.willExit(slot0)
 end
 
 function slot0.GetEffect(slot0, slot1, slot2)
-	ResourceMgr.Inst:getAssetAsync("ui/" .. slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot3 = ResourceMgr.Inst
+
+	slot3:getAssetAsync("ui/" .. slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		if uv0.exited then
 			return
 		end

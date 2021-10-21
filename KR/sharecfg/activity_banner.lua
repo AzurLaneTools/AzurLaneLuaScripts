@@ -5,17 +5,18 @@ pg.activity_banner = {
 		pic = "temp1",
 		type = 2,
 		param = {
-			"scene charge",
+			"scene level",
 			{
-				wrap = 4
+				open_remaster = true,
+				isSP = true
 			}
 		},
 		time = {
 			{
 				{
 					2021,
-					9,
-					30
+					10,
+					14
 				},
 				{
 					0,
@@ -27,7 +28,7 @@ pg.activity_banner = {
 				{
 					2021,
 					10,
-					13
+					28
 				},
 				{
 					23,
@@ -38,9 +39,76 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "20873",
 		id = 2,
 		pic = "temp2",
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "20876",
+		id = 3,
+		pic = "temp3",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					10,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "7001",
+		id = 4,
+		pic = "temp4",
 		type = 3,
 		time = {
 			{
@@ -70,106 +138,14 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "20871",
-		id = 3,
-		pic = "temp3",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					9,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 4,
-		pic = "temp4",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2021,
-					9,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
 		id = 5,
 		pic = "temp5",
+		time = "stop",
 		type = 2,
 		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
+			"scene level",
 			{
-				{
-					2021,
-					9,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
+				mapIdx = 14
 			}
 		}
 	},

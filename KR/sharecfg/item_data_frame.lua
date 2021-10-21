@@ -279,6 +279,33 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「용궁의 수수께끼를 풀고 진정한 보물을 찾을 수 있기를」</color>\n「맑고 푸른 바다」 이벤트 획득.",
 		scene = {}
 	},
+	[401] = {
+		time_limit_type = 0,
+		name = "전당 기념: 엔터프라이즈",
+		gain_by = "",
+		id = 401,
+		time_second = 0,
+		desc = "<color=#ffffff>엔터프라이즈를 위해 특별 제작한 전용 테두리</color>\n「Azurlane 인기 투표 2019」 이벤트 획득",
+		scene = {}
+	},
+	[402] = {
+		time_limit_type = 0,
+		name = "전당 기념: 벨파스트",
+		gain_by = "",
+		id = 402,
+		time_second = 0,
+		desc = "<color=#ffffff>벨파스트를 위해 특별 제작한 전용 테두리</color>\n「Azurlane 인기 투표 2019」 이벤트 획득",
+		scene = {}
+	},
+	[413] = {
+		time_limit_type = 0,
+		name = "전당 기념: 모나크",
+		gain_by = "",
+		id = 413,
+		time_second = 0,
+		desc = "<color=#ffffff>모나크를 위해 특별 제작한 전용 테두리</color>\n「Azurlane 인기 투표 2019」 이벤트 획득",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "맛의 기념",
@@ -320,6 +347,9 @@ pg.item_data_frame = {
 		314,
 		315,
 		316,
+		401,
+		402,
+		413,
 		501
 	}
 }

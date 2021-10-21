@@ -14,14 +14,10 @@ function slot0.init(slot0)
 end
 
 function slot0.OnChatFrameLoaded(slot0, slot1)
-	if not slot0.prevChatFrameColor then
-		slot0.prevChatFrameColor = tf(slot1):Find("Text"):GetComponent(typeof(Text)).color
-	end
+	slot2 = tf(slot1):Find("Text"):GetComponent(typeof(Text))
 
-	if slot0.data.isSelf then
-		slot2.color = Color.New(0, 0, 0, 1)
-	else
-		slot2.color = Color.New(0, 0, 0, 1)
+	if not slot0.prevChatFrameColor then
+		slot0.prevChatFrameColor = slot2.color
 	end
 
 	slot0.charFrameTxt = slot2

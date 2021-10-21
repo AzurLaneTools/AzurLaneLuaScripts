@@ -51904,7 +51904,9 @@ pg.skill_data_template = {
 		type = 2,
 		max_level = 10,
 		desc = "전투 개시 후 노틸러스가 전방으로 일정 거리 이동하며, 수면으로 떠올라 특수 탄막 Ⅰ$1을 발사한다(위력은 스킬 레벨에 비례). 이때 받는 대미지 $2 감소. 이후 잠수하여 제자리로 철수하며, 특수 탄막 Ⅱ$1을 발동한다(위력은 스킬 레벨에 비례).",
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		world_death_mark = {
 			1
 		},
@@ -52001,7 +52003,9 @@ pg.skill_data_template = {
 		type = 3,
 		max_level = 10,
 		desc = "노틸러스에게 대미지를 입힌 적 유닛이 받는 대미지가 $1 증가한다, 3초 지속. 상대방이 구축함일 경우, 해당 적 유닛 $2 감속, 5초 지속",
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		world_death_mark = {
 			1
 		},

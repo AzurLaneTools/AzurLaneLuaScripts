@@ -44,9 +44,14 @@ end
 
 function slot0.onRegister(slot0)
 	slot0.event = {}
+	slot1 = getBackYardProxy(BackYardHouseProxy)
+	slot2 = slot0.viewComponent
 
-	slot0.viewComponent:setHouse(getBackYardProxy(BackYardHouseProxy):getData())
-	slot0.viewComponent:updateExtendItemVO(getProxy(BagProxy))
+	slot2:setHouse(slot1:getData())
+
+	slot2 = slot0.viewComponent
+
+	slot2:updateExtendItemVO(getProxy(BagProxy))
 	slot0:bind(uv0.GET_VISITOR_SHIP, function (slot0, slot1)
 		pg.m02:sendNotification(GAME.BACKYARD_GET_VISITOR_SHIP, {
 			callback = slot1
@@ -283,6 +288,7 @@ function slot0.onRemove(slot0)
 		slot0.viewComponent.event:disconnect(slot5.event, slot5.callback)
 	end
 
+	slot0:RemoveStopBgmTimer()
 	slot0.viewComponent:willExit()
 end
 
@@ -349,7 +355,9 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_EXIT_SHIP then
 		slot0.viewComponent:exitBoat(slot3)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_ADD_SHIP then
-		slot0.viewComponent:loadBoatModal(slot3, function ()
+		slot4 = slot0.viewComponent
+
+		slot4:loadBoatModal(slot3, function ()
 			if not uv0:hasInterActionFurnitrue() then
 				uv1.viewComponent:emit(BackyardMainMediator.ADD_BOAT_MOVE, uv0.id)
 			end
@@ -393,15 +401,17 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BACKYARD.GARNITURE_SAVE then
 		slot0.viewComponent:save()
 	elseif slot2 == BACKYARD.GARNITURE_CLEAR then
+		function slot4()
+			uv0.viewComponent:closePreFurnSelected()
+			pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
+				name = BACKYARD.CLEAR_FURNITURE
+			})
+		end
+
 		if slot3.tip then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("backyard_backyardScene_quest_clearButton"),
-				onYes = function ()
-					uv0.viewComponent:closePreFurnSelected()
-					pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
-						name = BACKYARD.CLEAR_FURNITURE
-					})
-				end
+				onYes = slot4
 			})
 		else
 			slot4()
@@ -423,16 +433,30 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BackYardHouseProxy.CLEAR_STAGE_INTERACTION then
 		slot0.viewComponent:clearStageInterAction(slot3.shipId)
 	elseif slot2 == BackYardHouseProxy.CLEAR_BGM then
-		if slot3.furnitureId and getBackYardProxy(BackYardHouseProxy):getFurnitureById(slot3.furnitureId) and slot5:getBgm() and slot0.bgmName ~= slot0.viewComponent.bgm then
-			playBGM(slot0.viewComponent.bgm)
+		if slot3.furnitureId then
+			if not getBackYardProxy(BackYardHouseProxy):getFurnitureById(slot3.furnitureId) then
+				return
+			end
 
-			slot0.bgmName = slot0.viewComponent.bgm
+			slot6, slot7 = slot5:getBgm()
+
+			if slot6 and slot7 == 0 and slot0.bgmName ~= slot0.viewComponent.bgm then
+				playBGM(slot0.viewComponent.bgm)
+
+				slot0.bgmName = slot0.viewComponent.bgm
+			end
 		end
 	elseif slot2 == BackYardHouseProxy.CHANGE_BGM then
-		if getBackYardProxy(BackYardHouseProxy):getFurnitureById(slot3.furnitureId):getBgm() and slot6 ~= slot0.bgmName then
-			playBGM(slot6)
+		slot6, slot7 = getBackYardProxy(BackYardHouseProxy):getFurnitureById(slot3.furnitureId):getBgm()
 
-			slot0.bgmName = slot6
+		if slot7 == 0 then
+			if slot6 and slot6 ~= slot0.bgmName then
+				playBGM(slot6)
+
+				slot0.bgmName = slot6
+			end
+		elseif slot7 == 1 then
+			slot0:PlayBgmOnce(slot6)
 		end
 	elseif slot2 == BackYardHouseProxy.ADD_ARCH_INTERACTION then
 		slot0.viewComponent:updateArchInteraction(slot3.shipId, slot3.furnitureId)
@@ -466,6 +490,41 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:StartFolloweInterAction(slot3.id, slot3.furnitureId)
 	elseif slot2 == BackYardHouseProxy.ON_CANCEL_FOLLOWER_INTERACTION then
 		slot0.viewComponent:CancelFolloweInterAction(slot3.id, slot3.furnitureId)
+	end
+end
+
+function slot0.PlayBgmOnce(slot0, slot1)
+	slot3 = CriWareMgr.Inst
+
+	slot3:PlayBGM("bgm-" .. slot1, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+		if slot0 ~= nil then
+			uv0:AddTimerToStopBgm(uv1, long2int(slot0.cueInfo.length) * 0.001)
+		end
+	end)
+
+	slot0.bgmName = slot1
+end
+
+function slot0.AddTimerToStopBgm(slot0, slot1, slot2)
+	slot0:RemoveStopBgmTimer()
+
+	slot0.bgmTimer = Timer.New(function ()
+		if uv0.bgmName == uv1 then
+			pg.CriMgr.GetInstance():StopBGM()
+			pg.CriMgr.GetInstance():PlayBGM(uv0.viewComponent.bgm)
+
+			uv0.bgmName = uv0.viewComponent.bgm
+		end
+	end, slot2, 1)
+
+	slot0.bgmTimer:Start()
+end
+
+function slot0.RemoveStopBgmTimer(slot0)
+	if slot0.bgmTimer then
+		slot0.bgmTimer:Stop()
+
+		slot0.bgmTimer = nil
 	end
 end
 

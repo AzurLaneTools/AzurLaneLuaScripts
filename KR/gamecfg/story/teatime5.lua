@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"왁자지껄 다과회\n\n<size=45>제5장 - 돌격! 옆동네의 낮잠부</size>",
+					"热热闹闹的下午茶\n\n<size=45>五 午睡与尾行</size>",
 					1
 				}
 			}
@@ -18,9 +18,9 @@ return {
 		{
 			actor = 207031,
 			side = 2,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "그러고 보니, 모두들 오후는 늘 어떻게 보내시나요?",
+			say = "说回来，各位平时都是如何度过下午的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,10 +32,10 @@ return {
 		},
 		{
 			actor = 301111,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "물론 '게임'~",
+			say = "当然是打电动——",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -52,9 +52,9 @@ return {
 		{
 			actor = 301121,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
-			say = "이카즈치는 늘 방안에 틀어박혀 모항의 다른 사람들이랑 안 만나면, 모두의 기억 속에서 잊혀져 '도감' 에서 사라져버릴지도……",
+			say = "姐姐如果一直呆在房间里，不到港区露面，会慢慢在大家的记忆中消失，最终连图鉴都褪色成“未获得”……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,9 +67,9 @@ return {
 		{
 			actor = 301111,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
-			say = "윽, 이게 '사회적 사망' 이란 거네…… 조, 조금 무서워……",
+			say = "这就是所谓的“社会性死亡”吗……有、有点可怕呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,9 +82,9 @@ return {
 		{
 			actor = 207031,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "쉴 때는 역시 친구들과 함께 있는 편이 좋죠.",
+			say = "休息的时候，还是和朋友在一起比较好喔",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,9 +97,9 @@ return {
 		{
 			actor = 301111,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
-			say = "그렇구나! 그, 그래도 괜찮아! 이카즈치도 친구가 있어!",
+			say = "原来如此，没、没关系，{namecode:13}也是有朋友的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,9 +112,9 @@ return {
 		{
 			actor = 207031,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "그래요?",
+			say = "真的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,9 +127,9 @@ return {
 		{
 			actor = 301111,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
-			say = "물론! 유바리랑 노와키, 시라츠유가 이카즈치의 친구야!",
+			say = "当然！{namecode:37}、{namecode:24}、{namecode:15}都是我的好朋友",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,9 +142,9 @@ return {
 		{
 			actor = 301121,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
-			say = "모두 '낮잠부' 의 멤버죠?",
+			say = "如果我没有记错，你们都是午睡部的成员吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,9 +157,9 @@ return {
 		{
 			actor = 207031,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "낮잠…부?",
+			say = "WUSHUI社？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,9 +172,9 @@ return {
 		{
 			actor = 301111,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
-			say = "그, 그러니까… 햇님의 햇볕이 가장 따뜻할 때, 다 같이 손 붙자고 눈 감고 '명상' 하는 부활동이야!",
+			say = "那、那个……就是在一天中阳光最强烈的时候，大家一起手牵着手闭上眼“观想”光辉的团体！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,9 +187,9 @@ return {
 		{
 			actor = 207031,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "어머, 멋지네요. 다음 부활동엔 일러스트리어스도 참가해도 될까요?",
+			say = "听起来好像很棒呢，下次举行这个活动的时候，我也能去体验一下吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 		{
 			actor = 301121,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -218,9 +218,9 @@ return {
 			actor = 207020,
 			side = 2,
 			actorName = "？？？",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "폐하! 역시 여기 계셨군요!",
+			say = "果然，陛下在这里！",
 			withoutPainting = true,
 			flashout = {
 				black = true,
@@ -251,9 +251,9 @@ return {
 		{
 			actor = 205010,
 			side = 2,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "아크 로열?",
+			say = "皇家方舟？你怎么才来？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,10 +265,10 @@ return {
 		},
 		{
 			actor = 207020,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "외람되오나 이 아크 로열, 오후에는…… 음, 이래저래……",
+			say = "因为我的下午……嗯，非常的忙碌！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -285,9 +285,9 @@ return {
 		{
 			actor = 205010,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "설마 너, 또……",
+			say = "该不会你又……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,24 +300,9 @@ return {
 		{
 			actor = 207020,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "오후 휴식을 막 끝낸 구축함 여동생들이, 오후의 햇볕을 쬐며 줄지어 자재 수송 호위의 길고 긴 해로에 향한다… 이렇게 위험하기 짝이 없는 원양항해에 호위를 안 붙인다니 말이 됩니까!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207020,
-			side = 1,
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "정찰, 색적 및 아웃레인지 공격이 전부 가능한 신예 항공모함, 이 아크 로열에게 부디 이 막중한 임무를… 아니, 설령 지휘관이 지시하지 않아도 따라가도록 하지요!",
+			say = "正午过后的太阳微微西斜，结束午休的驱逐舰们缓缓排成行列，沿着漫长的航路输送物资——这种危险的远洋行动必须得有人护卫才行！作为拥有最优秀的侦察与远程打击能力的新锐航空母舰，方舟我当然义不容辞！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,9 +315,9 @@ return {
 		{
 			actor = 301121,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
-			say = "그러니까, '스토커'…?",
+			say = "也就是说，你跟踪了她们？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,9 +330,9 @@ return {
 		{
 			actor = 207020,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "그런 게 아니다! 난 그저, 적의 기습이 걱정될 뿐이다!",
+			say = "当然不是！我只是担心敌对势力的袭击！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,9 +345,9 @@ return {
 		{
 			actor = 205010,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "수송로의 적들은 전에 대부분 격퇴했다 들었는데……",
+			say = "输送物资的航路应该都彻底完成扫荡了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,9 +360,9 @@ return {
 		{
 			actor = 207020,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "그렇다고 해서 방심해선 안 됩니다! 게, 게다가! 구축함 동생들이 어두운 바다에서 항로를 헤매거나, 길을 잘못 들어 복귀 시간을 놓치거나, 태풍 같은 걸 맞닥뜨리거나 하면 믿을 수 있는 건 바로 이 아크 로열의 소드피쉬 뿐!",
+			say = "即使这样也不能完全排除死灰复燃的可能性！而且、而且，驱逐舰们万一迷路了怎么办！万一贪玩错过了回家的时间怎么办！万一遇到了台风怎么办！在漆黑如墨的深沉大洋上，她们惟一能依赖的只有我的剑鱼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,9 +375,9 @@ return {
 		{
 			actor = 207020,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "\"고, 고마워여 아크 로열 씨! 위험해쪄여…… 앞으로 언니라 불러도 되나여?\"",
+			say = "“谢、谢谢方舟救了我，如果没有你咱真的不知道怎么办才好……今后咱能管你叫姐姐吗？”“方舟姐姐，我好冷……”“谢谢方舟姐姐，那个、那个，人家最喜欢方舟姐姐啦！”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,39 +390,9 @@ return {
 		{
 			actor = 207020,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "\"아크 로열 언니, 추워여… 아나주떼여!\"",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207020,
-			side = 1,
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "\"언니 고마워요… 저, 저기! 아크 로열 언니, 저, 정말 좋아!!\"",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207020,
-			side = 1,
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "크, 크헷, 우헤헷, 에헤헤헤헤헤……",
+			say = "嘿～嘿～嘿",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,9 +405,9 @@ return {
 		{
 			actor = 202110,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "아크 로열 씨, 아직 대낮이에요……",
+			say = "方舟，请醒一醒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,9 +420,9 @@ return {
 		{
 			actor = 202120,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "그래서, 이 다과회에 찾아왔다…… 는 거군요.",
+			say = "既然如此，你怎么来参加茶会了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,9 +435,9 @@ return {
 		{
 			actor = 207020,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "…엣헴! 흐트러진 모습을 보여 미안하군. 폐하도 계시다고 듣고 한달음에 달려왔다만, 설마 벨파스트도 있었을 줄이야……",
+			say = "因为我听说陛下也来了，只是没想到，贝尔法斯特你也在这里……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,9 +450,9 @@ return {
 		{
 			actor = 202120,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "역시 당신은 폐하께 가까이 다가가게 하지 않는 편이 좋겠네요.",
+			say = "果然，你还是离陛下远一点比较好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,9 +465,9 @@ return {
 		{
 			actor = 205010,
 			side = 2,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "뭐라는 거야! 난 구축함 같은 게 아니라고!",
+			say = "（火大）你们两人都听好了，本王可不是驱逐舰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +478,7 @@ return {
 			}
 		},
 		{
-			say = "한편, 아카츠키는……",
+			say = "此刻的{namecode:11}……",
 			blackBg = true,
 			flashout = {
 				black = true,
@@ -552,7 +507,7 @@ return {
 			}
 		},
 		{
-			say = "【S2°W139°】",
+			say = "【南纬2°西经139°】",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -565,12 +520,12 @@ return {
 		},
 		{
 			actor = 301090,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
-			say = "아, 아직인가…… 이제 지쳤어…… 히비키, 줄곧 이렇게 험한 곳에 있었던 거야……? 으응, 히비키, 언니가 금방 갈게!",
+			say = "还、还没有到吗……我已经快虚脱了……{namecode:12}一直都生活在如此严苛的环境中吗……{namecode:12}，姐姐快到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

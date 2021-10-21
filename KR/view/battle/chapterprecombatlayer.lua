@@ -13,7 +13,7 @@ function slot0.init(slot0)
 	slot0._startBtn = slot0:findTF("right/start")
 	slot0._popup = slot0:findTF("right/popup")
 	slot0._costText = slot0:findTF("right/popup/Text")
-	slot0._extraCostMark = slot0:findTF("right/popup/extra_cost")
+	slot0._costTip = slot0:findTF("right/popup/tip")
 	slot0._extraCostBuffIcon = slot0:findTF("right/operation_buff_icon")
 	slot0._backBtn = slot0:findTF("top/back_btn")
 	slot0._moveLayer = slot0:findTF("moveLayer")
@@ -104,8 +104,9 @@ end
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
+		slot1 = uv0
 
-		uv0:uiExitAnimating()
+		slot1:uiExitAnimating()
 		LeanTween.delayedCall(0.3, System.Action(function ()
 			uv0:emit(uv1.ON_CLOSE)
 		end))
@@ -132,7 +133,10 @@ function slot0.didEnter(slot0)
 			setActive(uv0._autoSubToggle, false)
 		end
 	end, SFX_PANEL, SFX_PANEL)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.SECOND_LAYER,
 		groupName = LayerWeightConst.GROUP_LEVELUI
 	})
@@ -157,6 +161,16 @@ function slot0.didEnter(slot0)
 			weight = LayerWeightConst.SECOND_LAYER
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot0._costTip, function ()
+		slot0 = uv0.chapter.fleet
+		slot2, slot3, slot4 = uv0.chapter:isOverFleetCost(slot0, uv0.chapter:getStageId(slot0.line.row, slot0.line.column))
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			hideNo = true,
+			content = i18n("use_oil_limit_help", slot4, slot3),
+			weight = LayerWeightConst.SECOND_LAYER
+		})
+	end)
 end
 
 function slot0.onBackPressed(slot0)
@@ -194,11 +208,16 @@ function slot0.updateView(slot0, slot1)
 
 		if uv1 then
 			slot0 = uv0.chapter.fleet
+			slot1 = uv0.chapter
+			slot2 = uv0
 
-			uv0:updateStageView(uv0.chapter:getStageId(slot0.line.row, slot0.line.column))
+			slot2:updateStageView(slot1:getStageId(slot0.line.row, slot0.line.column))
 			onNextTick(uv2)
 			coroutine.yield()
-			uv0:loadAllCharacter(function ()
+
+			slot2 = uv0
+
+			slot2:loadAllCharacter(function ()
 				onNextTick(uv0)
 			end)
 			coroutine.yield()
@@ -232,8 +251,10 @@ function slot0.updateStageView(slot0, slot1)
 	if checkExist(pg.expedition_activity_template[slot1], {
 		"pt_drop_display"
 	}) and type(slot9) == "table" then
+		slot10 = getProxy(ActivityProxy)
+
 		for slot14 = #slot9, 1, -1 do
-			if getProxy(ActivityProxy):getActivityById(slot9[slot14][1]) and not slot15:isEnd() then
+			if slot10:getActivityById(slot9[slot14][1]) and not slot15:isEnd() then
 				table.insert(slot6, 1, {
 					2,
 					id2ItemId(slot9[slot14][2])
@@ -254,7 +275,9 @@ function slot0.updateStageView(slot0, slot1)
 		})
 		onButton(uv1, slot3, function ()
 			if pg.item_data_statistics[uv0[2]] and uv1[slot0.type] then
-				uv2:emit(ChapterPreCombatMediator.GET_CHAPTER_DROP_SHIP_LIST, uv2.chapter.id, function (slot0)
+				slot2 = uv2
+
+				slot2:emit(ChapterPreCombatMediator.GET_CHAPTER_DROP_SHIP_LIST, uv2.chapter.id, function (slot0)
 					slot2 = {}
 
 					for slot6, slot7 in ipairs(uv0.display_icon) do
@@ -280,6 +303,15 @@ function slot0.updateStageView(slot0, slot1)
 	end)
 	slot10:align(math.min(#slot6, 6))
 
+	function slot11(slot0, slot1)
+		if type(slot0) == "table" then
+			setActive(slot1, true)
+			setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
+		else
+			setActive(slot1, false)
+		end
+	end
+
 	slot12 = {
 		findTF(slot0._goals, "goal_tpl"),
 		findTF(slot0._goals, "goal_sink"),
@@ -293,14 +325,7 @@ function slot0.updateStageView(slot0, slot1)
 		slot2.objective_3
 	}) do
 		if type(slot19) ~= "string" then
-			(function (slot0, slot1)
-				if type(slot0) == "table" then
-					setActive(slot1, true)
-					setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
-				else
-					setActive(slot1, false)
-				end
-			end)(slot19, slot12[slot14])
+			slot11(slot19, slot12[slot14])
 
 			slot14 = slot14 + 1
 		end
@@ -364,7 +389,9 @@ function slot0.loadAllCharacter(slot0, slot1)
 
 		for slot8, slot9 in pairs(slot1:getAttachmentPrefab()) do
 			if slot9.attachment_combat_ui[1] ~= "" then
-				ResourceMgr.Inst:getAssetAsync("Effect/" .. slot10, slot10, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				slot12 = ResourceMgr.Inst
+
+				slot12:getAssetAsync("Effect/" .. slot10, slot10, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 					if not uv0.exited then
 						slot1 = Object.Instantiate(slot0)
 						uv0._attachmentList[#uv0._attachmentList + 1] = slot1
@@ -430,8 +457,10 @@ function slot0.loadAllCharacter(slot0, slot1)
 		setActive(slot6:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
 
 		if slot17 then
+			slot21 = tostring(slot17 / 100)
+
 			if slot17 % 100 > 0 then
-				slot21 = tostring(slot17 / 100) .. "." .. tostring(slot20)
+				slot21 = slot21 .. "." .. tostring(slot20)
 			end
 
 			setText(slot18:Find("text"), string.format("EXP +%s%%", slot21))
@@ -443,7 +472,9 @@ function slot0.loadAllCharacter(slot0, slot1)
 			slot8 = slot7:getPrefab()
 
 			table.insert(uv1, function (slot0)
-				PoolMgr.GetInstance():GetSpineChar(uv0, true, function (slot0)
+				slot1 = PoolMgr.GetInstance()
+
+				slot1:GetSpineChar(uv0, true, function (slot0)
 					uv0(slot0, uv1, uv2, uv3)
 					onNextTick(uv4)
 				end)
@@ -472,7 +503,12 @@ function slot0.showEnergyDesc(slot0, slot1, slot2)
 	slot0.energyDescTF.position = slot1
 
 	setActive(slot0.energyDescTF, true)
-	LeanTween.scale(slot0.energyDescTF, Vector3.zero, 0.2):setDelay(1):setFrom(Vector3.one):setOnComplete(System.Action(function ()
+
+	slot3 = LeanTween.scale(slot0.energyDescTF, Vector3.zero, 0.2)
+	slot3 = slot3:setDelay(1)
+	slot3 = slot3:setFrom(Vector3.one)
+
+	slot3:setOnComplete(System.Action(function ()
 		uv0.energyDescTF.localScale = Vector3.one
 
 		setActive(uv0.energyDescTF, false)
@@ -553,7 +589,9 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 		if slot8 ~= slot1 then
 			LeanTween.moveLocalY(go(slot8), slot0._gridTFs[slot2][slot7].localPosition.y - 80, 0.5)
 
-			slot10 = tf(slot8):Find("mouseChild"):GetComponent("EventTriggerListener")
+			slot10 = tf(slot8)
+			slot10 = slot10:Find("mouseChild")
+			slot10 = slot10:GetComponent("EventTriggerListener")
 			slot0.eventTriggers[slot10] = true
 
 			slot10:AddPointEnterFunc(function ()
@@ -618,8 +656,10 @@ function slot0.sortSiblingIndex(slot0)
 end
 
 function slot0.enabledTeamCharacter(slot0, slot1, slot2)
+	slot4 = slot0.chapter.fleet[slot1]
+
 	for slot8, slot9 in ipairs(slot0._characterList[slot1]) do
-		slot0:enabledCharacter(slot9, slot2, slot0.chapter.fleet[slot1][slot8], slot1)
+		slot0:enabledCharacter(slot9, slot2, slot4[slot8], slot1)
 	end
 end
 
@@ -631,14 +671,16 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 			SetActive(slot5, true)
 		else
 			slot5 = GameObject("mouseChild")
+			slot8 = tf(slot5)
 
-			tf(slot5):SetParent(tf(slot1))
+			slot8:SetParent(tf(slot1))
 
 			tf(slot5).localPosition = Vector3.zero
+			slot6 = GetOrAddComponent(slot5, "ModelDrag")
 			slot7 = GetOrAddComponent(slot5, "EventTriggerListener")
 			slot0.eventTriggers[slot7] = true
 
-			GetOrAddComponent(slot5, "ModelDrag"):Init()
+			slot6:Init()
 
 			slot8 = slot5:GetComponent(typeof(RectTransform))
 			slot8.sizeDelta = Vector2(2.5, 2.5)
@@ -676,17 +718,33 @@ end
 
 function slot0.displayFleetInfo(slot0)
 	slot1 = slot0.chapter.fleet
-	slot2 = slot1:getCommanders()
-	slot5, slot6 = slot0.chapter:getFleetCost(slot1)
+	slot2 = slot0.chapter
+	slot3 = slot1:getCommanders()
+	slot4 = _.reduce(slot1:getShipsByTeam(TeamType.Vanguard, false), 0, function (slot0, slot1)
+		return slot0 + slot1:getShipCombatPower(uv0)
+	end)
+	slot5 = _.reduce(slot1:getShipsByTeam(TeamType.Main, false), 0, function (slot0, slot1)
+		return slot0 + slot1:getShipCombatPower(uv0)
+	end)
+	slot6 = 0
+	slot9 = slot0.chapter
+	slot10 = slot9
+	slot11 = slot1
+
+	for slot10, slot11 in ipairs({
+		slot9.getFleetCost(slot10, slot11, slot2:getStageId(slot1.line.row, slot1.line.column))
+	}) do
+		slot6 = slot6 + slot11.oil
+	end
+
+	slot7 = slot0.chapter:isOverFleetCost(slot1, slot2)
 
 	setActive(slot0._popup, true)
-	uv0.tweenNumText(slot0._costText, slot5.oil + slot6.oil)
-	uv0.tweenNumText(slot0._vanguardGS, _.reduce(slot1:getShipsByTeam(TeamType.Vanguard, false), 0, function (slot0, slot1)
-		return slot0 + slot1:getShipCombatPower(uv0)
-	end))
-	uv0.tweenNumText(slot0._mainGS, _.reduce(slot1:getShipsByTeam(TeamType.Main, false), 0, function (slot0, slot1)
-		return slot0 + slot1:getShipCombatPower(uv0)
-	end))
+	setActive(slot0._costTip, slot7)
+	setTextColor(slot0._costText, slot7 and Color(0.9803921568627451, 0.39215686274509803, 0.39215686274509803) or Color.white)
+	uv0.tweenNumText(slot0._costText, slot6)
+	uv0.tweenNumText(slot0._vanguardGS, slot4)
+	uv0.tweenNumText(slot0._mainGS, slot5)
 
 	slot8, slot9 = slot0.chapter:GetExtraCostRate()
 

@@ -80,7 +80,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		slot0 = {}
 
-		if uv0._currentForm == uv1.FORM_EDIT and uv0._editedFlag then
+		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					zIndex = -100,
@@ -112,7 +112,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._startBtn, function ()
 		slot0 = {}
 
-		if uv0._currentForm == uv1.FORM_EDIT and uv0._editedFlag then
+		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					zIndex = -100,
@@ -145,10 +145,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._checkBtn, function ()
 		if uv0._currentForm == uv1.FORM_EDIT then
 			uv0:emit(PreCombatMediator.ON_COMMIT_EDIT, function ()
-				if uv0._editedFlag then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
-				end
-
+				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
 				uv0:swtichToPreviewMode()
 			end)
 		elseif uv0._currentForm == uv1.FORM_PREVIEW then
@@ -156,19 +153,20 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_PANEL)
 
-	slot0._editedFlag = slot0.contextData.form == uv0.FORM_EDIT
+	slot0._currentForm = slot0.contextData.form
+	slot0.contextData.form = nil
 
 	slot0:UpdateFleetView(true)
 
-	if slot0.contextData.form == uv0.FORM_EDIT then
+	if slot0._currentForm == uv0.FORM_EDIT then
 		slot0:switchToEditMode()
 	else
 		slot0:swtichToPreviewMode()
 	end
 
-	slot0.contextData.form = nil
+	slot1 = pg.UIMgr.GetInstance()
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	slot1:BlurPanel(slot0._tf)
 	setActive(slot0._autoToggle, false)
 	setActive(slot0._autoSubToggle, false)
 	onNextTick(function ()
@@ -209,7 +207,6 @@ function slot0.getPrevFleetID(slot0)
 end
 
 function slot0.swtichToPreviewMode(slot0)
-	slot0._editedFlag = nil
 	slot0._currentForm = uv0.FORM_PREVIEW
 	slot0._checkBtn:GetComponent("Button").interactable = true
 
@@ -266,7 +263,9 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 		if slot8 ~= slot1 then
 			LeanTween.moveLocalY(go(slot8), slot0._gridTFs[slot2][slot7].localPosition.y + 80, 0.5)
 
-			slot10 = tf(slot8):Find("mouseChild"):GetComponent("EventTriggerListener")
+			slot10 = tf(slot8)
+			slot10 = slot10:Find("mouseChild")
+			slot10 = slot10:GetComponent("EventTriggerListener")
 			slot0.eventTriggers[slot10] = true
 
 			slot10:AddPointEnterFunc(function ()
@@ -308,7 +307,9 @@ function slot0.loadAllCharacter(slot0)
 
 		for slot10, slot11 in pairs(slot4:getAttachmentPrefab()) do
 			if slot11.attachment_combat_ui[1] ~= "" then
-				ResourceMgr.Inst:getAssetAsync("Effect/" .. slot12, slot12, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				slot14 = ResourceMgr.Inst
+
+				slot14:getAssetAsync("Effect/" .. slot12, slot12, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 					if not uv0.exited then
 						slot1 = Object.Instantiate(slot0)
 						uv0._attachmentList[#uv0._attachmentList + 1] = slot1
@@ -332,7 +333,7 @@ function slot0.loadAllCharacter(slot0)
 
 		slot0:GetComponent("SkeletonGraphic").raycastTarget = false
 
-		uv0:enabledCharacter(slot0, tobool(uv0._editedFlag), slot7, slot2)
+		uv0:enabledCharacter(slot0, uv0._currentForm == uv1.FORM_EDIT, slot7, slot2)
 		uv0:setCharacterPos(slot2, slot3, slot0)
 		uv0:sortSiblingIndex()
 
@@ -376,8 +377,10 @@ function slot0.loadAllCharacter(slot0)
 		setActive(slot9:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot7:getGroupId()] ~= nil)
 
 		if slot17 then
+			slot21 = tostring(slot17 / 100)
+
 			if slot17 % 100 > 0 then
-				slot21 = tostring(slot17 / 100) .. "." .. tostring(slot20)
+				slot21 = slot21 .. "." .. tostring(slot20)
 			end
 
 			setText(slot18:Find("text"), string.format("EXP +%s%%", slot21))
@@ -386,17 +389,23 @@ function slot0.loadAllCharacter(slot0)
 
 	(function (slot0, slot1)
 		for slot5, slot6 in ipairs(slot0) do
-			slot7 = uv0._shipVOs[slot6]:getPrefab()
+			slot7 = uv0._shipVOs[slot6]
+			slot7 = slot7:getPrefab()
 
 			table.insert(uv1, function (slot0)
-				PoolMgr.GetInstance():GetSpineChar(uv0, true, function (slot0)
+				slot1 = PoolMgr.GetInstance()
+
+				slot1:GetSpineChar(uv0, true, function (slot0)
 					uv0(slot0, uv1, uv2, uv3)
 					uv4()
 				end)
 			end)
 		end
 	end)(slot0._currentFleetVO.subShips, TeamType.Submarine)
-	pg.UIMgr.GetInstance():LoadingOn()
+
+	slot4 = pg.UIMgr.GetInstance()
+
+	slot4:LoadingOn()
 	parallelAsync({}, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)

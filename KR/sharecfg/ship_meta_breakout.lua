@@ -99,7 +99,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9705013] = {
-		breakout_view = "[섬멸의 횃불·{namecode:205}] 레벨업/주포 발사 수 +1 / 주포 효율 +15%",
+		breakout_view = "[섬멸의 횃불·{namecode:78}] 레벨업/주포 발사 수 +1 / 주포 효율 +15%",
 		gold = 2500,
 		breakout_id = 9705014,
 		repair = 0,

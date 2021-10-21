@@ -40,9 +40,10 @@ end
 
 function slot0.getSkinsByType(slot0, slot1)
 	slot2 = {}
+	slot3 = pg.equip_skin_template
 
 	for slot8, slot9 in pairs(slot0:getEquipmentSkins()) do
-		if table.contains(pg.equip_skin_template[slot9.id].equip_type, slot1) then
+		if table.contains(slot3[slot9.id].equip_type, slot1) then
 			table.insert(slot2, slot9)
 		end
 	end
@@ -157,6 +158,18 @@ function slot0.getEquipments(slot0, slot1)
 	return slot2
 end
 
+function slot0.getEquipmentsByFillter(slot0, slot1, slot2)
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot0.data.equipments) do
+		if slot8.count > 0 and table.contains(slot2, slot8.config.type) and not table.contains(pg.equip_data_template[slot8.configId].ship_type_forbidden, slot1) then
+			table.insert(slot3, slot8:clone())
+		end
+	end
+
+	return slot3
+end
+
 function slot0.GetEquipmentsRaw(slot0)
 	slot1 = {}
 
@@ -217,16 +230,20 @@ function slot0.getSameTypeEquipmentId(slot0, slot1)
 end
 
 function slot0.getEquipCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.data.equipments) do
-		slot1 = 0 + slot6.count
+		slot1 = slot1 + slot6.count
 	end
 
 	return slot1
 end
 
 function slot0.getEquipmentSkinCount(slot0)
+	slot2 = 0
+
 	for slot6, slot7 in pairs(slot0:getEquipmentSkins()) do
-		slot2 = 0 + slot7.count
+		slot2 = slot2 + slot7.count
 	end
 
 	return slot2
@@ -237,11 +254,12 @@ function slot0.getCapacity(slot0)
 end
 
 function slot0.getTimeLimitShipList(slot0)
+	slot1 = getProxy(BayProxy)
 	slot2 = {}
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot0.shipIdListInTimeLimit) do
-		if getProxy(BayProxy):getShipById(slot8) then
+		if slot1:getShipById(slot8) then
 			table.insert(slot2, {
 				count = 1,
 				type = 4,

@@ -22,14 +22,14 @@ function slot0.Entrance(slot0, slot1)
 		slot6[#slot6 + 1] = slot19.id
 	end
 
-	slot15 = slot12:GetExtraCostRate()
-	slot16, slot17 = slot12:getFleetCost(slot13)
-	slot7 = slot16.gold
-	slot8 = slot16.oil
-	slot9 = slot16.gold + slot17.gold
-	slot10 = slot16.oil + slot17.oil
+	slot15, slot16 = slot12:getFleetCost(slot13, slot0.stageId)
+	slot7 = slot15.gold
+	slot8 = slot15.oil
+	slot9 = slot15.gold + slot16.gold
+	slot10 = slot15.oil + slot16.oil
+	slot17 = slot2:getData()
 
-	if slot5 and slot2:getData().oil < slot10 then
+	if slot5 and slot17.oil < slot10 then
 		getProxy(ChapterProxy):StopAutoFight()
 
 		if not ItemTipPanel.ShowOilBuyTip(slot10) then
@@ -39,18 +39,20 @@ function slot0.Entrance(slot0, slot1)
 		return
 	end
 
-	slot21 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot0.stageId].dungeon_id).fleet_prefab
+	slot20 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot0.stageId].dungeon_id).fleet_prefab
 
 	slot1.ShipVertify()
 
-	slot22 = nil
+	slot21 = nil
 
 	if slot12:getPlayType() == ChapterConst.TypeExtra then
-		slot22 = true
+		slot21 = true
 	end
 
+	slot22 = slot12:GetExtraCostRate()
+
 	BeginStageCommand.SendRequest(SYSTEM_SCENARIO, slot6, {
-		slot19
+		slot18
 	}, function (slot0)
 		if uv0 then
 			uv1:consume({
@@ -60,15 +62,19 @@ function slot0.Entrance(slot0, slot1)
 		end
 
 		if uv3.enter_energy_cost > 0 and not uv4 then
+			slot1 = pg.gameset.battle_consume_energy.key_value * uv5
+
 			for slot5, slot6 in ipairs(uv6) do
 				if uv7:getShipById(slot6) then
-					slot7:cosumeEnergy(pg.gameset.battle_consume_energy.key_value * uv5)
+					slot7:cosumeEnergy(slot1)
 					uv7:updateShip(slot7)
 				end
 			end
 		end
 
-		uv8:updatePlayer(uv1)
+		slot1 = uv8
+
+		slot1:updatePlayer(uv1)
 		uv11:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			prefabFleet = uv9,
 			stageId = uv10,
@@ -92,27 +98,32 @@ function slot0.Exit(slot0, slot1)
 	slot5 = slot0.statistics._battleScore
 	slot6 = 0
 	slot7 = 0
+	slot8 = {}
 
 	for slot15, slot16 in ipairs(getProxy(ChapterProxy):getActiveChapter().fleet:getShips(true)) do
-		table.insert({}, slot16)
+		table.insert(slot8, slot16)
 	end
 
-	slot12, slot13 = slot9:getFleetCost(slot10)
-	slot6 = slot13.gold
-	slot7 = slot13.oil
-	slot14 = slot9:GetExtraCostRate()
+	slot13, slot14 = slot9:getFleetCost(slot10, slot0.stageId)
+	slot6 = slot14.gold
+	slot7 = slot14.oil
+	slot15 = slot9:GetExtraCostRate()
 
 	if slot0.statistics.submarineAid then
-		if _.detect(slot9.fleets, function (slot0)
-			return slot0:getFleetType() == FleetType.Submarine and slot0:isValid()
-		end) then
-			for slot20, slot21 in ipairs(slot15:getShipsByTeam(TeamType.Submarine, true)) do
-				if slot0.statistics[slot21.id] then
-					table.insert(slot8, slot21)
+		if slot9:GetSubmarineFleet() then
+			slot17 = 0
+			slot21 = TeamType.Submarine
+			slot22 = true
 
-					slot7 = slot7 + slot21:getEndBattleExpend() * slot14
+			for slot21, slot22 in ipairs(slot16:getShipsByTeam(slot21, slot22)) do
+				if slot0.statistics[slot22.id] then
+					table.insert(slot8, slot22)
+
+					slot17 = slot17 + slot22:getEndBattleExpend()
 				end
 			end
+
+			slot7 = slot7 + math.min(slot17, slot9:GetLimitOilCost(true)) * slot15
 		else
 			print("finish stage error: can not find submarine fleet.")
 		end

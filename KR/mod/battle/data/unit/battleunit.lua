@@ -228,6 +228,10 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 		return
 	end
 
+	slot5 = slot2.isMiss
+	slot6 = slot2.isCri
+	slot8 = slot2.isShare
+	slot9 = slot2.attr
 	slot10 = slot2.font
 	slot11 = slot2.cldPos
 	slot12 = slot1
@@ -235,11 +239,11 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 	if not slot2.isHeal then
 		slot13 = {
 			damage = -slot1,
-			isShare = slot2.isShare,
-			miss = slot2.isMiss,
-			cri = slot2.isCri,
+			isShare = slot8,
+			miss = slot5,
+			cri = slot6,
 			damageSrc = slot2.srcID,
-			damageAttr = slot2.attr
+			damageAttr = slot9
 		}
 
 		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_DAMAGE, slot13)
@@ -269,23 +273,25 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 
 	slot0:SetCurrentHP(slot13)
 
-	if slot11 and not slot11:EqualZero() then
-		slot16 = slot0:GetPosition()
-		slot17 = slot0:GetBoxSize().x
-		slot20 = slot11:Clone()
-		slot20.x = Mathf.Clamp(slot20.x, slot16.x - slot17, slot16.x + slot17)
-	end
-
-	slot0:UpdateHPAction({
+	slot15 = {
 		preShieldHP = slot12,
 		dHP = slot1,
 		validDHP = slot13 - slot0._currentHP,
 		isMiss = slot5,
 		isCri = slot6,
 		isHeal = slot7,
-		font = slot10,
-		posOffset = slot16 - slot20
-	})
+		font = slot10
+	}
+
+	if slot11 and not slot11:EqualZero() then
+		slot16 = slot0:GetPosition()
+		slot17 = slot0:GetBoxSize().x
+		slot20 = slot11:Clone()
+		slot20.x = Mathf.Clamp(slot20.x, slot16.x - slot17, slot16.x + slot17)
+		slot15.posOffset = slot16 - slot20
+	end
+
+	slot0:UpdateHPAction(slot15)
 
 	if not slot0:IsAlive() and slot4 then
 		slot0:SetDeathReason(slot2.damageReason)
@@ -475,8 +481,10 @@ function slot9.IsCrash(slot0)
 end
 
 function slot9.UpdateAction(slot0)
+	slot1 = slot0:GetSpeed().x * slot0._IFF
+
 	if slot0._oxyState and slot0._oxyState:GetCurrentDiveState() == uv0.OXY_STATE.DIVE then
-		if slot0:GetSpeed().x * slot0._IFF >= 0 then
+		if slot1 >= 0 then
 			slot0._unitState:ChangeState(uv1.STATE_DIVE)
 		else
 			slot0._unitState:ChangeState(uv1.STATE_DIVELEFT)
@@ -584,8 +592,9 @@ function slot9.RemoveAutoWeapon(slot0, slot1)
 	slot0._weaponQueue:RemoveWeapon(slot1)
 
 	slot2 = 1
+	slot3 = #slot0._autoWeaponList
 
-	while slot2 <= #slot0._autoWeaponList do
+	while slot2 <= slot3 do
 		if slot0._autoWeaponList[slot2] == slot1 then
 			slot0:DispatchEvent(uv0.Event.New(uv1.REMOVE_WEAPON, {
 				weapon = slot1
@@ -904,18 +913,19 @@ end
 
 function slot9.AddBuff(slot0, slot1)
 	slot2 = slot1:GetID()
+	slot3 = {
+		unit_id = slot0._uniqueID,
+		buff_id = slot2
+	}
 
 	if slot0:GetBuff(slot2) then
 		slot5 = slot4:GetLv()
 		slot6 = slot1:GetLv()
+		slot3.buff_level = math.max(slot5, slot6)
 
 		if slot6 <= slot5 then
 			slot4:Stack(slot0)
-			slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_STACK, {
-				unit_id = slot0._uniqueID,
-				buff_id = slot2,
-				buff_level = math.max(slot5, slot6)
-			}))
+			slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_STACK, slot3))
 		else
 			slot0:RemoveBuff(slot2)
 
@@ -1232,6 +1242,7 @@ function slot9.Dispose(slot0)
 		slot7:Dispose()
 	end
 
+	slot0._aimBias = nil
 	slot0._buffList = nil
 	slot0._cldZCenterCache = nil
 
@@ -1241,9 +1252,10 @@ end
 
 function slot9.InitCldComponent(slot0)
 	slot1 = slot0:GetTemplate().cld_box
+	slot3 = slot0:GetTemplate().cld_offset[1]
 
 	if slot0:GetDirection() == uv0.UnitDir.LEFT then
-		slot3 = slot0:GetTemplate().cld_offset[1] * -1
+		slot3 = slot3 * -1
 	end
 
 	slot0._cldComponent = uv1.Battle.BattleCubeCldComponent.New(slot1[1], slot1[2], slot1[3], slot3, slot2[3] + slot1[3] / 2)
@@ -1533,8 +1545,10 @@ function slot9.UpdateCloak(slot0, slot1)
 end
 
 function slot9.UpdateCloakConfig(slot0)
-	slot0._cloak:UpdateCloakConfig()
-	slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_CLOAK_CONFIG))
+	if slot0._cloak then
+		slot0._cloak:UpdateCloakConfig()
+		slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_CLOAK_CONFIG))
+	end
 end
 
 function slot9.GetCloak(slot0)
@@ -1553,6 +1567,12 @@ end
 function slot9.UpdateAimBiasSkillState(slot0)
 	if slot0._aimBias and slot0._aimBias:GetHost() == slot0 then
 		slot0._aimBias:UpdateSkillLock()
+	end
+end
+
+function slot9.HostAimBias(slot0)
+	if slot0._aimBias then
+		slot0:DispatchEvent(uv0.Event.New(uv1.HOST_AIMBIAS))
 	end
 end
 
