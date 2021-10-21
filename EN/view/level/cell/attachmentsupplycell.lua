@@ -9,7 +9,10 @@ function slot0.Update(slot0)
 
 	if IsNil(slot0.go) then
 		slot0:PrepareBase("supply")
-		slot0:GetLoader():GetPrefab("leveluiview/tpl_supply", "Tpl_Supply", function (slot0)
+
+		slot2 = slot0:GetLoader()
+
+		slot2:GetPrefab("leveluiview/tpl_supply", "Tpl_Supply", function (slot0)
 			setParent(slot0, uv0.tf)
 
 			tf(slot0).anchoredPosition3D = Vector3(0, 30, 0)

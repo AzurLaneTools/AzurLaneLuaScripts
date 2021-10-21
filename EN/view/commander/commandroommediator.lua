@@ -124,8 +124,9 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_DETAIL, function (slot0, slot1, slot2)
 		slot3 = {}
+		slot4 = uv0.viewComponent.disPlayCommanderVOs or {}
 
-		for slot8, slot9 in ipairs(uv0.viewComponent.disPlayCommanderVOs or {}) do
+		for slot8, slot9 in ipairs(slot4) do
 			table.insert(slot3, slot9.id)
 		end
 
@@ -168,9 +169,12 @@ function slot0.markFleet(slot0)
 		end
 	elseif CommandRoomScene.FLEET_TYPE_ACTBOSS == slot0.contextData.fleetType then
 		for slot9, slot10 in pairs(slot3:getActivityFleets()[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id]) do
+			slot11 = slot10:isSubmarineFleet()
+			slot12 = slot10.id % 10
+
 			for slot16, slot17 in pairs(slot10:getCommanders()) do
-				slot2[slot17.id].sub = slot10:isSubmarineFleet()
-				slot2[slot17.id].fleetId = slot10.id % 10
+				slot2[slot17.id].sub = slot11
+				slot2[slot17.id].fleetId = slot12
 				slot2[slot17.id].inFleet = true
 			end
 		end
@@ -184,16 +188,21 @@ function slot0.markFleet(slot0)
 		end
 	elseif CommandRoomScene.FLEET_TYPE_CHALLENGE == slot0.contextData.fleetType then
 		for slot9, slot10 in pairs(slot3:getActivityFleets()[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id]) do
+			slot11 = slot10:isSubmarineFleet()
+			slot12 = slot10.id % 10
+
 			for slot16, slot17 in pairs(slot10:getCommanders()) do
-				slot2[slot17.id].sub = slot10:isSubmarineFleet()
-				slot2[slot17.id].fleetId = slot10.id % 10
+				slot2[slot17.id].sub = slot11
+				slot2[slot17.id].fleetId = slot12
 				slot2[slot17.id].inFleet = true
 			end
 		end
 	elseif CommandRoomScene.FLEET_TYPE_GUILDBOSS == slot0.contextData.fleetType then
 		for slot11, slot12 in pairs(getProxy(GuildProxy):getData():GetActiveEvent():GetBossMission():GetFleets()) do
+			slot14 = not (slot0.contextData.fleets[slot11] or slot12):IsMainFleet()
+
 			for slot18, slot19 in pairs(slot13:getCommanders()) do
-				slot2[slot19.id].sub = not (slot0.contextData.fleets[slot11] or slot12):IsMainFleet()
+				slot2[slot19.id].sub = slot14
 				slot2[slot19.id].fleetId = 1
 				slot2[slot19.id].inFleet = true
 			end
@@ -268,8 +277,13 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == GAME.COMMANDER_ON_OPEN_BOX_DONE then
 		if slot0.viewComponent.boxesPanel then
-			pg.UIMgr.GetInstance():LoadingOn(false)
-			slot0.viewComponent.boxesPanel:playFinshedAnim(slot3.boxId, function ()
+			slot4 = pg.UIMgr.GetInstance()
+
+			slot4:LoadingOn(false)
+
+			slot4 = slot0.viewComponent.boxesPanel
+
+			slot4:playFinshedAnim(slot3.boxId, function ()
 				pg.UIMgr.GetInstance():LoadingOff()
 				uv0:addSubLayers(Context.New({
 					viewComponent = NewCommanderScene,
@@ -327,7 +341,9 @@ function slot0.handleNotification(slot0, slot1)
 
 			for slot10, slot11 in ipairs(slot3.boxIds) do
 				table.insert(slot6, function (slot0)
-					uv0.viewComponent.boxesPanel:playFinshedAnim(uv1, function ()
+					slot1 = uv0.viewComponent.boxesPanel
+
+					slot1:playFinshedAnim(uv1, function ()
 						uv0()
 					end)
 				end)

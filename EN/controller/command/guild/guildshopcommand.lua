@@ -28,7 +28,9 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(60035, {
+	slot14 = pg.ConnectionMgr.GetInstance()
+
+	slot14:Send(60035, {
 		goodsid = slot11.configId,
 		index = slot11.index,
 		selected = _.values(slot13)

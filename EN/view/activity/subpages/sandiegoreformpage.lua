@@ -26,9 +26,11 @@ function slot0.OnFirstFlush(slot0)
 
 	slot3 = slot1:getConfig("config_data")[4]
 	slot0.progress.sizeDelta = Vector2.New(10 + 90 * math.max(slot1.data2 - 1, 0), slot0.progress.sizeDelta.y)
+	slot4 = Color.New(1, 0.83, 0.15)
+	slot5 = Color.New(0.59, 0.62, 0.69)
 
 	for slot9 = 1, 7 do
-		setTextColor(slot0.days:Find(slot9), slot9 <= slot1.data2 and Color.New(1, 0.83, 0.15) or Color.New(0.59, 0.62, 0.69))
+		setTextColor(slot0.days:Find(slot9), slot9 <= slot1.data2 and slot4 or slot5)
 	end
 
 	onButton(slot0, slot0.gameBtn, function ()

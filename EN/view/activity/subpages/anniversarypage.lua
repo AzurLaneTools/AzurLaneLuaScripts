@@ -15,7 +15,10 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.scrollAnim(slot0)
-	slot0._tf:GetComponent(typeof(DftAniEvent)):SetTriggerEvent(function (slot0)
+	slot1 = slot0._tf
+	slot1 = slot1:GetComponent(typeof(DftAniEvent))
+
+	slot1:SetTriggerEvent(function (slot0)
 		uv0.charListTF:GetChild(0):SetAsLastSibling()
 
 		slot1 = 0

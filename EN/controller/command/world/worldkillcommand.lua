@@ -1,7 +1,9 @@
 slot0 = class("WorldKillCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(33112, {
+	slot2 = pg.ConnectionMgr.GetInstance()
+
+	slot2:Send(33112, {
 		type = 0
 	}, 33113, function (slot0)
 		slot1 = nil

@@ -39,7 +39,9 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(11202, {
+	slot5 = pg.ConnectionMgr.GetInstance()
+
+	slot5:Send(11202, {
 		activity_id = slot2.activity_id,
 		cmd = slot2.cmd,
 		arg1 = slot2.arg1,
@@ -180,8 +182,10 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		})
 		slot6:updatePlayer(slot9)
 
+		slot10 = getProxy(BuildShipProxy)
+
 		for slot14, slot15 in ipairs(slot2.build) do
-			getProxy(BuildShipProxy):addBuildShip(BuildShip.New(slot15))
+			slot10:addBuildShip(BuildShip.New(slot15))
 		end
 
 		slot3.data1 = slot3.data1 + slot1.arg1
@@ -254,8 +258,10 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			slot3.data1 = 2
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_VOTE then
+		slot9 = getProxy(VoteProxy):getVoteGroup()
+
 		if slot1.cmd == 1 then
-			getProxy(VoteProxy):getVoteGroup():voteShip(slot1.arg2)
+			slot9:voteShip(slot1.arg2)
 
 			slot8.votes = slot8.votes - 1
 		elseif slot1.cmd == 2 then
@@ -276,12 +282,13 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			slot9 = ActivityItemPool.New({
 				id = slot1.arg2
 			}):getComsume()
+			slot10 = slot1.arg1 * slot9.count
 
 			if slot9.type == DROP_TYPE_RESOURCE then
 				slot11 = slot6:getData()
 
 				slot11:consume({
-					[id2res(slot9.id)] = slot1.arg1 * slot9.count
+					[id2res(slot9.id)] = slot10
 				})
 				slot6:updatePlayer(slot11)
 			elseif slot9.type == DROP_TYPE_ITEM then
@@ -294,10 +301,12 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_CARD_PAIRS or slot5 == ActivityConst.ACTIVITY_TYPE_LINK_LINK then
 		if slot1.cmd == 1 then
+			slot8 = slot3:getConfig("config_data")[4]
+
 			if #slot4 > 0 then
 				slot3.data2 = slot3.data2 + 1
 
-				if slot3:getConfig("config_data")[4] <= slot3.data2 then
+				if slot8 <= slot3.data2 then
 					slot3.data1 = 1
 				end
 			end
@@ -521,7 +530,9 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 			end
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_SHOP then
 			if #uv5 == 1 and uv5[1].type == DROP_TYPE_ITEM then
-				if slot0.type == DROP_TYPE_ITEM and Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[uv5[1].id].type then
+				slot1 = Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[uv5[1].id].type
+
+				if slot0.type == DROP_TYPE_ITEM and slot1 then
 					uv5 = {}
 
 					uv3:sendNotification(GAME.USE_ITEM, {

@@ -164,7 +164,9 @@ function slot0.didEnter(slot0)
 		slot0:swtichToPreviewMode()
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:BlurPanel(slot0._tf)
 	setActive(slot0._autoToggle, false)
 	setActive(slot0._autoSubToggle, false)
 	onNextTick(function ()
@@ -261,7 +263,9 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 		if slot8 ~= slot1 then
 			LeanTween.moveLocalY(go(slot8), slot0._gridTFs[slot2][slot7].localPosition.y + 80, 0.5)
 
-			slot10 = tf(slot8):Find("mouseChild"):GetComponent("EventTriggerListener")
+			slot10 = tf(slot8)
+			slot10 = slot10:Find("mouseChild")
+			slot10 = slot10:GetComponent("EventTriggerListener")
 			slot0.eventTriggers[slot10] = true
 
 			slot10:AddPointEnterFunc(function ()
@@ -303,7 +307,9 @@ function slot0.loadAllCharacter(slot0)
 
 		for slot10, slot11 in pairs(slot4:getAttachmentPrefab()) do
 			if slot11.attachment_combat_ui[1] ~= "" then
-				ResourceMgr.Inst:getAssetAsync("Effect/" .. slot12, slot12, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				slot14 = ResourceMgr.Inst
+
+				slot14:getAssetAsync("Effect/" .. slot12, slot12, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 					if not uv0.exited then
 						slot1 = Object.Instantiate(slot0)
 						uv0._attachmentList[#uv0._attachmentList + 1] = slot1
@@ -371,8 +377,10 @@ function slot0.loadAllCharacter(slot0)
 		setActive(slot9:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot7:getGroupId()] ~= nil)
 
 		if slot17 then
+			slot21 = tostring(slot17 / 100)
+
 			if slot17 % 100 > 0 then
-				slot21 = tostring(slot17 / 100) .. "." .. tostring(slot20)
+				slot21 = slot21 .. "." .. tostring(slot20)
 			end
 
 			setText(slot18:Find("text"), string.format("EXP +%s%%", slot21))
@@ -381,17 +389,23 @@ function slot0.loadAllCharacter(slot0)
 
 	(function (slot0, slot1)
 		for slot5, slot6 in ipairs(slot0) do
-			slot7 = uv0._shipVOs[slot6]:getPrefab()
+			slot7 = uv0._shipVOs[slot6]
+			slot7 = slot7:getPrefab()
 
 			table.insert(uv1, function (slot0)
-				PoolMgr.GetInstance():GetSpineChar(uv0, true, function (slot0)
+				slot1 = PoolMgr.GetInstance()
+
+				slot1:GetSpineChar(uv0, true, function (slot0)
 					uv0(slot0, uv1, uv2, uv3)
 					uv4()
 				end)
 			end)
 		end
 	end)(slot0._currentFleetVO.subShips, TeamType.Submarine)
-	pg.UIMgr.GetInstance():LoadingOn()
+
+	slot4 = pg.UIMgr.GetInstance()
+
+	slot4:LoadingOn()
 	parallelAsync({}, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)

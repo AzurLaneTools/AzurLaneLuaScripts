@@ -36,7 +36,10 @@ function slot0.execute(slot0, slot1)
 	end
 
 	print("63303 meta energy", slot5.id)
-	pg.ConnectionMgr.GetInstance():Send(63303, {
+
+	slot15 = pg.ConnectionMgr.GetInstance()
+
+	slot15:Send(63303, {
 		ship_id = slot5.id
 	}, 63304, function (slot0)
 		if slot0.result == 0 then

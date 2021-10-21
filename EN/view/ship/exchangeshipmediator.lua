@@ -19,7 +19,10 @@ function slot0.register(slot0)
 		slot0.viewComponent:setExchangeItemList(slot6, slot5)
 	end
 
-	slot0.viewComponent:setItemVOs(getProxy(BagProxy):getItemById(ITEM_ID_SILVER_HOOK))
+	slot7 = getProxy(BagProxy)
+	slot9 = slot0.viewComponent
+
+	slot9:setItemVOs(slot7:getItemById(ITEM_ID_SILVER_HOOK))
 	slot0:bind(uv0.GET_EXCHANGE_SHIPS, function (slot0, slot1)
 		uv0:sendNotification(GAME.GET_EXCHANGE_SHIPS, {
 			time = slot1

@@ -176,9 +176,14 @@ function slot0.EnterPassWord(slot0, slot1)
 		slot0.view:OnRightCode(slot1, slot0.model:GetMapKeyStr(slot1), slot0.model:GetCurrMapKeyIndex(slot1))
 
 		if slot0.model:IsSuccess() then
-			slot0.model:Finish()
+			slot4 = slot0.model
+
+			slot4:Finish()
 			slot0:PlayVoice(DecodeGameConst.GET_AWARD_DONE_VOICE)
-			slot0.view:OnSuccess(function ()
+
+			slot4 = slot0.view
+
+			slot4:OnSuccess(function ()
 				if uv0.successCallback then
 					uv0.successCallback()
 				end
@@ -313,7 +318,9 @@ function slot0.EnterDecodeMap(slot0)
 
 	seriesAsync({
 		function (slot0)
-			uv0:PlayVoice(DecodeGameConst.PRESS_DOWN_PASSWORDBTN)
+			slot1 = uv0
+
+			slot1:PlayVoice(DecodeGameConst.PRESS_DOWN_PASSWORDBTN)
 
 			uv0.inSwitching = true
 

@@ -172,7 +172,8 @@ function slot0.UpdateFleetView(slot0, slot1)
 end
 
 function slot0.updateGridVisibility(slot0)
-	slot1 = slot0.fleet:GetFleetType()
+	slot1 = slot0.fleet
+	slot1 = slot1:GetFleetType()
 
 	_.each(slot0._gridTFs[TeamType.Main], function (slot0)
 		setActive(slot0, uv0 == FleetType.Normal)
@@ -207,11 +208,12 @@ function slot0.updateToggleList(slot0)
 	slot2 = slot0.fleet.id
 
 	for slot6 = 1, slot0._fleetToggleList.childCount do
+		slot7 = slot0._fleetToggleList
 		slot8 = _.detect(slot0.fleets, function (slot0)
 			return slot0.id == uv0
 		end)
 
-		setActive(slot0._fleetToggleList:GetChild(slot6 - 1), slot8)
+		setActive(slot7:GetChild(slot6 - 1), slot8)
 
 		if slot8 then
 			onToggle(slot0, slot7, function (slot0)
@@ -257,10 +259,11 @@ function slot0.loadAllCharacter(slot0)
 		SetActive(slot4, true)
 
 		slot5 = findTF(slot4, "info")
+		slot6 = findTF(slot5, "stars")
 		slot7 = findTF(slot5, "energy")
 
 		for slot12 = 1, slot1:getStar() do
-			cloneTplTo(uv0._starTpl, findTF(slot5, "stars"))
+			cloneTplTo(uv0._starTpl, slot6)
 		end
 
 		if not GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())) then
@@ -278,8 +281,10 @@ function slot0.loadAllCharacter(slot0)
 		setActive(slot5:Find("expbuff"), uv1[slot1:getGroupId()] ~= nil)
 
 		if slot10 then
+			slot14 = tostring(slot10 / 100)
+
 			if slot10 % 100 > 0 then
-				slot14 = tostring(slot10 / 100) .. "." .. tostring(slot13)
+				slot14 = slot14 .. "." .. tostring(slot13)
 			end
 
 			setText(slot11:Find("text"), string.format("EXP +%s%%", slot14))
@@ -380,12 +385,14 @@ function slot0.loadAllCharacter(slot0)
 			SetAction(uv1, "stand")
 			SetActive(uv2, true)
 
+			function slot3()
+				uv0:switchToDisplayMode()
+				uv0:sortSiblingIndex()
+				uv0:emit(WorldFormationMediator.OnChangeFleetShipsOrder, uv0.fleet)
+			end
+
 			if uv0._forceDropCharacter then
-				(function ()
-					uv0:switchToDisplayMode()
-					uv0:sortSiblingIndex()
-					uv0:emit(WorldFormationMediator.OnChangeFleetShipsOrder, uv0.fleet)
-				end)()
+				slot3()
 
 				return
 			end
@@ -545,7 +552,9 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 		if slot8 ~= slot1 then
 			LeanTween.moveY(rtf(slot9), slot9.localPosition.y + 20, 0.5)
 
-			slot10 = tf(slot9):Find("mouseChild"):GetComponent("EventTriggerListener")
+			slot10 = tf(slot9)
+			slot10 = slot10:Find("mouseChild")
+			slot10 = slot10:GetComponent("EventTriggerListener")
 			slot0.eventTriggers[slot10] = true
 
 			slot10:AddPointEnterFunc(function ()
@@ -685,11 +694,26 @@ function slot0.displayFleetInfo(slot0)
 	if slot0.fleet:GetFleetType() == FleetType.Normal then
 		setActive(slot0._vanguardGS, true)
 		setActive(slot0._mainGS, true)
-		setActive(slot0._vanguardGS:Find("up"), false)
-		setActive(slot0._vanguardGS:Find("down"), false)
-		setActive(slot0._mainGS:Find("up"), false)
-		setActive(slot0._mainGS:Find("down"), false)
-		slot0.tweenNumText(slot0._vanguardGS:Find("Text"), slot2, nil, function ()
+
+		slot7 = slot0._vanguardGS
+
+		setActive(slot7:Find("up"), false)
+
+		slot7 = slot0._vanguardGS
+
+		setActive(slot7:Find("down"), false)
+
+		slot7 = slot0._mainGS
+
+		setActive(slot7:Find("up"), false)
+
+		slot7 = slot0._mainGS
+
+		setActive(slot7:Find("down"), false)
+
+		slot7 = slot0._vanguardGS
+
+		slot0.tweenNumText(slot7:Find("Text"), slot2, nil, function ()
 			if not uv0.prevVanGS then
 				uv0.prevVanGS = uv1
 			end
@@ -697,7 +721,10 @@ function slot0.displayFleetInfo(slot0)
 			setActive(uv0._vanguardGS:Find("up"), uv0.prevVanGS < uv1)
 			setActive(uv0._vanguardGS:Find("down"), uv1 < uv0.prevVanGS)
 		end)
-		slot0.tweenNumText(slot0._mainGS:Find("Text"), slot3, nil, function ()
+
+		slot7 = slot0._mainGS
+
+		slot0.tweenNumText(slot7:Find("Text"), slot3, nil, function ()
 			if not uv0.prevMainGS then
 				uv0.prevMainGS = uv1
 			end
@@ -709,11 +736,19 @@ function slot0.displayFleetInfo(slot0)
 		slot0.contextData.mainGS = slot3
 		slot0.contextData.vanGS = slot2
 	elseif slot5 == FleetType.Submarine then
-		setActive(slot0._subGS:Find("up"), false)
-		setActive(slot0._subGS:Find("down"), false)
+		slot7 = slot0._subGS
+
+		setActive(slot7:Find("up"), false)
+
+		slot7 = slot0._subGS
+
+		setActive(slot7:Find("down"), false)
 		setActive(slot0._subGS, true)
 		slot0:updateSubAmm(true)
-		slot0.tweenNumText(slot0._subGS:Find("Text"), slot4, nil, function ()
+
+		slot7 = slot0._subGS
+
+		slot0.tweenNumText(slot7:Find("Text"), slot4, nil, function ()
 			if not uv0.prevSubGS then
 				uv0.prevSubGS = uv1
 			end
@@ -760,8 +795,10 @@ function slot0.initAttrFrame(slot0)
 		[TeamType.Submarine] = slot0.fleet.fields.submarine
 	}) do
 		if #slot0._cards[slot6] == 0 then
+			slot9 = slot0:findTF(slot6 .. "/list", slot0._attrFrame)
+
 			for slot13 = 1, 3 do
-				table.insert(slot8, FormationDetailCard.New(cloneTplTo(slot0._cardTpl, slot0:findTF(slot6 .. "/list", slot0._attrFrame)).gameObject))
+				table.insert(slot8, FormationDetailCard.New(cloneTplTo(slot0._cardTpl, slot9).gameObject))
 			end
 
 			slot2 = true
@@ -856,8 +893,10 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 	end)
 	slot3:AddPointUpFunc(function (slot0, slot1)
 		if not uv0.carddrag and slot0 == uv1.go and Vector2.Magnitude(uv2 - slot1.position) < 1 then
+			slot2 = uv1.shipVO
+
 			if uv1.shipVO then
-				uv0:emit(WorldFormationMediator.OnOpenShip, uv1.shipVO, uv3.TOGGLE_DETAIL)
+				uv0:emit(WorldFormationMediator.OnOpenShip, slot2, uv3.TOGGLE_DETAIL)
 			else
 				uv0:emit(WorldFormationMediator.OnAddShip, uv0.fleet, uv4, uv3.TOGGLE_DETAIL)
 			end
@@ -870,8 +909,10 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 
 	if slot1.shipVO then
 		slot5 = slot0._cards[slot2]
-		slot6 = slot1.tr.parent:GetComponent("ContentSizeFitter")
-		slot7 = slot1.tr.parent:GetComponent("HorizontalLayoutGroup")
+		slot6 = slot1.tr.parent
+		slot6 = slot6:GetComponent("ContentSizeFitter")
+		slot7 = slot1.tr.parent
+		slot7 = slot7:GetComponent("HorizontalLayoutGroup")
 		slot8 = slot1.tr.rect.width * 0.5
 		slot9 = nil
 		slot10 = 0
@@ -979,11 +1020,15 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 
 				uv1.paintingTr.localScale = Vector3(1, 1, 0)
 			else
-				LeanTween.value(uv1.go, uv1.tr.anchoredPosition.x, uv7[uv0._shiftIndex].x, math.min(math.abs(uv1.tr.anchoredPosition.x - uv7[uv0._shiftIndex].x) / 200, 1) * 0.3):setEase(LeanTweenType.easeOutCubic):setOnUpdate(System.Action_float(function (slot0)
+				slot4 = LeanTween.value(uv1.go, uv1.tr.anchoredPosition.x, uv7[uv0._shiftIndex].x, math.min(math.abs(uv1.tr.anchoredPosition.x - uv7[uv0._shiftIndex].x) / 200, 1) * 0.3)
+				slot4 = slot4:setEase(LeanTweenType.easeOutCubic)
+				slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
 					slot1 = uv0.tr.anchoredPosition
 					slot1.x = slot0
 					uv0.tr.anchoredPosition = slot1
-				end)):setOnComplete(System.Action(function ()
+				end))
+
+				slot4:setOnComplete(System.Action(function ()
 					resetCard()
 					LeanTween.scale(uv0.paintingTr, Vector3(1, 1, 0), 0.3)
 				end))

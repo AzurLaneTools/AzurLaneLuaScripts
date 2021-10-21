@@ -88,9 +88,9 @@ function slot0.onDestroy(slot0)
 end
 
 function slot0.rotate(slot0)
+	slot1 = slot0.activity
 	slot0.isTurning = true
-
-	LeanTween.value(go(slot0.circleTF), 0, 360 - 360 / pg.activity_event_turning[slot0.activity:getConfig("config_id")].total_num * ({
+	slot9 = LeanTween.value(go(slot0.circleTF), 0, 360 - 360 / pg.activity_event_turning[slot1:getConfig("config_id")].total_num * ({
 		6,
 		0,
 		4,
@@ -98,10 +98,16 @@ function slot0.rotate(slot0)
 		5,
 		3,
 		1
-	})[slot0.curIndex] + 8 * 360, 4):setEase(LeanTweenType.easeInOutCirc):setOnUpdate(System.Action_float(function (slot0)
+	})[slot0.curIndex] + 8 * 360, 4)
+	slot9 = slot9:setEase(LeanTweenType.easeInOutCirc)
+	slot9 = slot9:setOnUpdate(System.Action_float(function (slot0)
 		uv0.circleTF.localEulerAngles = Vector3(0, 0, -slot0)
-	end)):setOnComplete(System.Action(function ()
-		pg.NewStoryMgr.GetInstance():Play(uv0.curStoryID, function ()
+	end))
+
+	slot9:setOnComplete(System.Action(function ()
+		slot0 = pg.NewStoryMgr.GetInstance()
+
+		slot0:Play(uv0.curStoryID, function ()
 			uv0:updateTaskPanel()
 		end, true, true)
 

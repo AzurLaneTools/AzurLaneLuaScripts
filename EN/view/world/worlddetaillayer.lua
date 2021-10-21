@@ -195,7 +195,9 @@ function slot0.updateCommanderFormation(slot0)
 end
 
 function slot0.updateCharacters(slot0)
-	pg.UIMgr.GetInstance():LoadingOn()
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:LoadingOn()
 	slot0:resetGrid(TeamType.Vanguard)
 	slot0:resetGrid(TeamType.Main)
 	slot0:resetGrid(TeamType.Submarine)
@@ -226,7 +228,8 @@ function slot0.loadAllCharacter(slot0, slot1)
 		[TeamType.Main] = {},
 		[TeamType.Submarine] = {}
 	}
-	slot2 = getProxy(ActivityProxy):getBuffShipList()
+	slot2 = getProxy(ActivityProxy)
+	slot2 = slot2:getBuffShipList()
 
 	function slot3(slot0, slot1, slot2, slot3)
 		if uv0.exited then
@@ -256,10 +259,11 @@ function slot0.loadAllCharacter(slot0, slot1)
 		slot7 = slot1:getConfigTable()
 		slot8 = pg.ship_data_template[slot1.configId]
 		slot9 = findTF(slot5, "info")
+		slot10 = findTF(slot9, "stars")
 		slot11 = findTF(slot9, "energy")
 
 		for slot16 = 1, slot1:getStar() do
-			cloneTplTo(uv0.starTpl, findTF(slot9, "stars"))
+			cloneTplTo(uv0.starTpl, slot10)
 		end
 
 		slot14 = findTF(slot9, "energy")
@@ -278,8 +282,10 @@ function slot0.loadAllCharacter(slot0, slot1)
 		setActive(slot9:Find("expbuff"), uv1[slot1:getGroupId()] ~= nil)
 
 		if slot15 then
+			slot19 = tostring(slot15 / 100)
+
 			if slot15 % 100 > 0 then
-				slot19 = tostring(slot15 / 100) .. "." .. tostring(slot18)
+				slot19 = slot19 .. "." .. tostring(slot18)
 			end
 
 			setText(slot16:Find("text"), string.format("EXP +%s%%", slot19))
@@ -312,7 +318,9 @@ function slot0.loadAllCharacter(slot0, slot1)
 			slot8 = slot7:getPrefab()
 
 			table.insert(uv1, function (slot0)
-				PoolMgr.GetInstance():GetSpineChar(uv0, true, function (slot0)
+				slot1 = PoolMgr.GetInstance()
+
+				slot1:GetSpineChar(uv0, true, function (slot0)
 					uv0(slot0, uv1, uv2, uv3)
 					onNextTick(uv4)
 				end)
@@ -412,7 +420,9 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 		if slot8 ~= slot1 then
 			LeanTween.moveY(rtf(slot9), slot9.localPosition.y + 20, 0.5)
 
-			slot10 = tf(slot9):Find("mouseChild"):GetComponent("EventTriggerListener")
+			slot10 = tf(slot9)
+			slot10 = slot10:Find("mouseChild")
+			slot10 = slot10:GetComponent("EventTriggerListener")
 			slot0.eventTriggers[slot10] = true
 
 			slot10:AddPointEnterFunc(function ()
@@ -498,23 +508,26 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 			SetActive(slot9, true)
 		else
 			slot9 = GameObject("mouseChild")
+			slot10 = tf(slot9)
 
-			tf(slot9):SetParent(tf(slot5))
+			slot10:SetParent(tf(slot5))
 
 			tf(slot9).localPosition = Vector3.zero
+			slot10 = GetOrAddComponent(slot9, "ModelDrag")
 			slot11 = GetOrAddComponent(slot9, "UILongPressTrigger")
 			slot12 = GetOrAddComponent(slot9, "EventTriggerListener")
 			slot0.eventTriggers[slot12] = true
 
-			GetOrAddComponent(slot9, "ModelDrag"):Init()
+			slot10:Init()
 
 			slot13 = slot9:GetComponent(typeof(RectTransform))
 			slot13.sizeDelta = Vector2(3, 3)
 			slot13.pivot = Vector2(0.5, 0)
 			slot13.anchoredPosition = Vector2(0, 0)
 			slot11.longPressThreshold = 1
+			slot14 = slot11.onLongPressed
 
-			slot11.onLongPressed:AddListener(function ()
+			slot14:AddListener(function ()
 				uv0:emit(WorldDetailMediator.OnShipInfo, uv1.id)
 				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 			end)
@@ -657,8 +670,10 @@ function slot0.initAttrFrame(slot0)
 		[TeamType.Submarine] = slot2[TeamType.Submarine]
 	}) do
 		if #slot0.cards[slot7] == 0 then
+			slot10 = slot0:findTF(slot7 .. "/list", slot0.attrFrame)
+
 			for slot14 = 1, 3 do
-				table.insert(slot9, FormationDetailCard.New(cloneTplTo(slot0.cardTpl, slot0:findTF(slot7 .. "/list", slot0.attrFrame)).gameObject))
+				table.insert(slot9, FormationDetailCard.New(cloneTplTo(slot0.cardTpl, slot10).gameObject))
 			end
 
 			slot3 = true
@@ -758,8 +773,10 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 
 	if slot1.shipVO then
 		slot4 = slot0.cards[slot2]
-		slot5 = slot1.tr.parent:GetComponent("ContentSizeFitter")
-		slot6 = slot1.tr.parent:GetComponent("HorizontalLayoutGroup")
+		slot5 = slot1.tr.parent
+		slot5 = slot5:GetComponent("ContentSizeFitter")
+		slot6 = slot1.tr.parent
+		slot6 = slot6:GetComponent("HorizontalLayoutGroup")
 		slot7 = slot1.tr.rect.width * 0.5
 		slot8 = {}
 
@@ -817,11 +834,15 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 				return
 			end
 
-			LeanTween.value(uv1.go, uv1.tr.anchoredPosition.x, uv2[uv0.shiftIndex].x, math.min(math.abs(uv1.tr.anchoredPosition.x - uv2[uv0.shiftIndex].x) / 200, 1) * 0.3):setEase(LeanTweenType.easeOutCubic):setOnUpdate(System.Action_float(function (slot0)
+			slot3 = LeanTween.value(uv1.go, uv1.tr.anchoredPosition.x, uv2[uv0.shiftIndex].x, math.min(math.abs(uv1.tr.anchoredPosition.x - uv2[uv0.shiftIndex].x) / 200, 1) * 0.3)
+			slot3 = slot3:setEase(LeanTweenType.easeOutCubic)
+			slot3 = slot3:setOnUpdate(System.Action_float(function (slot0)
 				slot1 = uv0.tr.anchoredPosition
 				slot1.x = slot0
 				uv0.tr.anchoredPosition = slot1
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot3:setOnComplete(System.Action(function ()
 				uv0.enabled = true
 				uv1.enabled = true
 				uv2.shiftIndex = nil

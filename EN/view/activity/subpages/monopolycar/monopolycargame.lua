@@ -93,9 +93,14 @@ function slot0.initEvent(slot0)
 			return
 		end
 
-		uv0:changeAnimeState(true)
+		slot0 = uv0
+
+		slot0:changeAnimeState(true)
 		setActive(uv0.btnStart, true)
-		uv0._event:emit(MonopolyCarPage.ON_START, uv0.activity.id, function (slot0)
+
+		slot0 = uv0._event
+
+		slot0:emit(MonopolyCarPage.ON_START, uv0.activity.id, function (slot0)
 			if slot0 and slot0 > 0 then
 				uv0:showRollAnimated(slot0)
 			end
@@ -119,15 +124,20 @@ end
 
 function slot0.showRollAnimated(slot0, slot1)
 	findTF(slot0.rollStep, "stepArrow").localEulerAngles = Vector3(0, 0, 0)
-	findTF(slot0.rollStep, "progress/bg"):GetComponent(typeof(Image)).fillAmount = 0.1
-	findTF(slot0.rollStep, "select/bg"):GetComponent(typeof(Image)).fillAmount = 0.1
+	slot3 = findTF(slot0.rollStep, "progress/bg")
+	slot3:GetComponent(typeof(Image)).fillAmount = 0.1
+	slot3 = findTF(slot0.rollStep, "select/bg")
+	slot3:GetComponent(typeof(Image)).fillAmount = 0.1
 
 	setText(findTF(slot0.rollStep, "labelRoll"), "0")
 	seriesAsync({
 		function (slot0)
-			LeanTween.value(go(uv0._tf), 1, 0, 0.2):setOnUpdate(System.Action_float(function (slot0)
+			slot1 = LeanTween.value(go(uv0._tf), 1, 0, 0.2)
+			slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 				uv0.btnStart:GetComponent(typeof(CanvasGroup)).alpha = slot0
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot1:setOnComplete(System.Action(function ()
 				setActive(uv0.btnStart, false)
 
 				uv0.btnStart:GetComponent(typeof(CanvasGroup)).alpha = 1
@@ -136,38 +146,49 @@ function slot0.showRollAnimated(slot0, slot1)
 			end))
 		end,
 		function (slot0)
-			LeanTween.value(go(uv0._tf), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
+			slot1 = LeanTween.value(go(uv0._tf), 0, 1, 0.2)
+			slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 				uv0.rollStep:GetComponent(typeof(CanvasGroup)).alpha = slot0
 
 				setActive(uv0.rollStep, true)
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot1:setOnComplete(System.Action(function ()
 				uv0()
 			end))
 		end,
 		function (slot0)
 			slot2 = uv0 / 6 * 0.62 / uv0
 			slot3 = -uv0 * 31
-
-			LeanTween.value(go(uv1._tf), 0, 1, 0.7 + uv0 / 5):setEase(LeanTweenType.easeOutCirc):setOnUpdate(System.Action_float(function (slot0)
+			slot4 = LeanTween.value(go(uv1._tf), 0, 1, 0.7 + uv0 / 5)
+			slot4 = slot4:setEase(LeanTweenType.easeOutCirc)
+			slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
 				findTF(uv0.rollStep, "progress/bg"):GetComponent(typeof(Image)).fillAmount = uv1 * slot0 + 0.13
 				findTF(uv0.rollStep, "select/bg"):GetComponent(typeof(Image)).fillAmount = uv2 * math.floor(slot0 / (1 / uv3)) + 0.17
 
 				setText(findTF(uv0.rollStep, "labelRoll"), math.floor(slot0 / (1 / uv3)))
 
 				uv5.localEulerAngles = Vector3(0, 0, uv4 * slot0 - 13)
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot4:setOnComplete(System.Action(function ()
 				uv0()
 			end))
 		end,
 		function (slot0)
-			LeanTween.value(go(uv0._tf), 1, 0, 0.3):setOnComplete(System.Action(function ()
+			slot1 = LeanTween.value(go(uv0._tf), 1, 0, 0.3)
+
+			slot1:setOnComplete(System.Action(function ()
 				uv0()
 			end))
 		end,
 		function (slot0)
-			LeanTween.value(go(uv0._tf), 1, 0, 0.3):setOnUpdate(System.Action_float(function (slot0)
+			slot1 = LeanTween.value(go(uv0._tf), 1, 0, 0.3)
+			slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 				uv0.rollStep:GetComponent(typeof(CanvasGroup)).alpha = slot0
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot1:setOnComplete(System.Action(function ()
 				setActive(uv0.rollStep, false)
 
 				uv0.rollStep:GetComponent(typeof(CanvasGroup)).alpha = 1
@@ -241,8 +262,9 @@ function slot0.initMap(slot0)
 				slot15.localPosition = slot16
 				slot17 = pg.activity_event_monopoly_map[slot14].icon
 				findTF(slot15, "image"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/activityuipage/monopolycar_atlas", slot17)
+				slot19 = findTF(slot15, "image"):GetComponent(typeof(Image))
 
-				findTF(slot15, "image"):GetComponent(typeof(Image)):SetNativeSize()
+				slot19:SetNativeSize()
 				table.insert(slot0.mapCells, {
 					col = slot13,
 					row = slot6,
@@ -261,7 +283,9 @@ function slot0.initMap(slot0)
 end
 
 function slot0.initChar(slot0)
-	PoolMgr.GetInstance():GetSpineChar(uv0, true, function (slot0)
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetSpineChar(uv0, true, function (slot0)
 		uv0.model = slot0
 		uv0.model.transform.localScale = Vector3.one
 		uv0.model.transform.localPosition = Vector3.zero
@@ -276,7 +300,10 @@ function slot0.initChar(slot0)
 			uv0:updataCharDirect(uv0.pos, false)
 		end
 	end)
-	PoolMgr.GetInstance():GetSpineChar(uv1, true, function (slot0)
+
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetSpineChar(uv1, true, function (slot0)
 		uv0.showModel = slot0
 		uv0.showModel.transform.localScale = Vector3.one
 		uv0.showModel.transform.localPosition = Vector3.zero
@@ -395,7 +422,9 @@ end
 
 function slot0.checkStep(slot0, slot1)
 	if slot0.step > 0 then
-		slot0._event:emit(MonopolyCarPage.ON_MOVE, slot0.activity.id, function (slot0, slot1, slot2)
+		slot2 = slot0._event
+
+		slot2:emit(MonopolyCarPage.ON_MOVE, slot0.activity.id, function (slot0, slot1, slot2)
 			uv0.step = slot0
 			uv0.pos = slot1[#slot1]
 			uv0.effectId = slot2
@@ -469,7 +498,9 @@ function slot0.checkEffect(slot0, slot1)
 end
 
 function slot0.triggerEfeect(slot0, slot1)
-	slot0._event:emit(MonopolyCarPage.ON_TRIGGER, slot0.activity.id, function (slot0, slot1)
+	slot2 = slot0._event
+
+	slot2:emit(MonopolyCarPage.ON_TRIGGER, slot0.activity.id, function (slot0, slot1)
 		if slot0 and #slot0 >= 0 then
 			uv0.effectId = slot1
 			uv0.pos = slot0[#slot0]
@@ -496,11 +527,13 @@ function slot0.moveCarWithPaths(slot0, slot1, slot2, slot3)
 
 	slot4 = {}
 	slot5 = slot0.char.localPosition
+	slot6 = {}
+	slot7 = {}
 
 	for slot11 = 1, #slot1 do
 		if slot0:checkPathTurn(slot1[slot11]) then
-			table.insert({}, slot0.mapCells[slot1[slot11]].position)
-			table.insert({}, slot1[slot11])
+			table.insert(slot6, slot0.mapCells[slot1[slot11]].position)
+			table.insert(slot7, slot1[slot11])
 		elseif slot11 == #slot1 then
 			table.insert(slot6, slot0.mapCells[slot1[slot11]].position)
 			table.insert(slot7, slot1[slot11])
@@ -550,7 +583,9 @@ function slot0.moveCarWithPaths(slot0, slot1, slot2, slot3)
 		slot0()
 	end)
 	table.insert(slot4, function (slot0)
-		LeanTween.value(go(uv0._tf), 1, 0, 0.1):setOnComplete(System.Action(function ()
+		slot1 = LeanTween.value(go(uv0._tf), 1, 0, 0.1)
+
+		slot1:setOnComplete(System.Action(function ()
 			uv0()
 		end))
 	end)
@@ -562,7 +597,9 @@ function slot0.toMoveCar(slot0)
 		return
 	end
 
-	if math.abs(slot0.targetPosition.x - slot0.char.localPosition.x) <= 6.5 and math.abs(slot0.targetPosition.y - slot0.char.localPosition.y) <= 6.5 then
+	slot2 = math.abs(slot0.targetPosition.y - slot0.char.localPosition.y)
+
+	if math.abs(slot0.targetPosition.x - slot0.char.localPosition.x) <= 6.5 and slot2 <= 6.5 then
 		slot0.targetPosition = nil
 
 		if slot0.moveComplete then
@@ -605,11 +642,15 @@ function slot0.moveCharWithPaths(slot0, slot1, slot2, slot3)
 		slot10 = slot0.mapCells[slot1[slot9]]
 
 		table.insert(slot4, function (slot0)
-			uv0:updataCharDirect(uv1, true)
+			slot1 = uv0
+
+			slot1:updataCharDirect(uv1, true)
 
 			uv1 = uv2[uv3]
+			slot2 = LeanTween.moveLocal(go(uv0.char), uv4.tf.localPosition, 0.35)
+			slot2 = slot2:setEase(LeanTweenType.linear)
 
-			LeanTween.moveLocal(go(uv0.char), uv4.tf.localPosition, 0.35):setEase(LeanTweenType.linear):setOnComplete(System.Action(function ()
+			slot2:setOnComplete(System.Action(function ()
 				uv0()
 			end))
 		end)

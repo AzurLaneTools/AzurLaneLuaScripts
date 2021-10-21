@@ -20,8 +20,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == MiniGameProxy.ON_HUB_DATA_UPDATE then
-		slot0.viewComponent:SetData(slot1:getBody())
+		slot0.viewComponent:SetData(slot3)
 		slot0.viewComponent:UpdateSigned()
 	end
 end

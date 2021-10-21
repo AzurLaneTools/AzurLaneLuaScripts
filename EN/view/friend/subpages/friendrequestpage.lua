@@ -59,7 +59,9 @@ function slot0.onInitItem(slot0, slot1)
 	end, SFX_PANEL)
 	onButton(slot0, slot2.refuseBtn, function ()
 		if uv0.friendVO then
-			uv1.refuseMsgBox:ExecuteAction("Show", i18n("refuse_friend"), i18n("refuse_and_add_into_bl"), function (slot0)
+			slot0 = uv1.refuseMsgBox
+
+			slot0:ExecuteAction("Show", i18n("refuse_friend"), i18n("refuse_and_add_into_bl"), function (slot0)
 				uv0:emit(FriendMediator.REFUSE_REQUEST, uv1.friendVO, slot0)
 			end)
 		end
@@ -84,7 +86,10 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 end
 
 function slot0.OnDestroy(slot0)
-	for slot4, slot5 in pairs(slot0.requestItems or {}) do
+	slot1 = pairs
+	slot2 = slot0.requestItems or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:dispose()
 	end
 

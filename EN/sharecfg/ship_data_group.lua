@@ -159,7 +159,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage13-3",
+				"Explore Chapter 13-3",
 				{
 					"LEVEL",
 					{
@@ -212,7 +212,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-3",
+				"Explore Chapter 1-3",
 				{
 					"LEVEL",
 					{
@@ -276,7 +276,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-3",
+				"Explore Chapter 1-3",
 				{
 					"LEVEL",
 					{
@@ -331,7 +331,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-2",
+				"Explore Chapter 2-2",
 				{
 					"LEVEL",
 					{
@@ -406,7 +406,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-1",
+				"Explore Chapter 1-1",
 				{
 					"LEVEL",
 					{
@@ -461,7 +461,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-1",
+				"Explore Chapter 1-1",
 				{
 					"LEVEL",
 					{
@@ -559,7 +559,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage4-1",
+				"Explore Chapter 4-1",
 				{
 					"LEVEL",
 					{
@@ -612,7 +612,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage4-1",
+				"Explore Chapter 4-1",
 				{
 					"LEVEL",
 					{
@@ -700,7 +700,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage2-1",
+				"Explore Chapter 2-1",
 				{
 					"LEVEL",
 					{
@@ -882,7 +882,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-3",
+				"Explore Chapter 2-3",
 				{
 					"LEVEL",
 					{
@@ -927,7 +927,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage9-2",
+				"Explore Chapter 9-2",
 				{
 					"LEVEL",
 					{
@@ -961,7 +961,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage9-2",
+				"Explore Chapter 9-2",
 				{
 					"LEVEL",
 					{
@@ -1004,7 +1004,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage9-3",
+				"Explore Chapter 9-3",
 				{
 					"LEVEL",
 					{
@@ -1125,7 +1125,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-2",
+				"Explore Chapter 1-2",
 				{
 					"LEVEL",
 					{
@@ -1180,7 +1180,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-2",
+				"Explore Chapter 1-2",
 				{
 					"LEVEL",
 					{
@@ -1235,7 +1235,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-3",
+				"Explore Chapter 2-3",
 				{
 					"LEVEL",
 					{
@@ -1533,7 +1533,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-2",
+				"Explore Chapter 1-2",
 				{
 					"LEVEL",
 					{
@@ -1588,7 +1588,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage3-2",
+				"Explore Chapter 3-2",
 				{
 					"LEVEL",
 					{
@@ -1801,7 +1801,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-4",
+				"Explore Chapter 1-4",
 				{
 					"LEVEL",
 					{
@@ -1856,7 +1856,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-4",
+				"Explore Chapter 1-4",
 				{
 					"LEVEL",
 					{
@@ -1901,7 +1901,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage8-4",
+				"Explore Chapter 8-4",
 				{
 					"LEVEL",
 					{
@@ -2053,7 +2053,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-2",
+				"Explore Chapter 2-2",
 				{
 					"LEVEL",
 					{
@@ -2108,7 +2108,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage4-1",
+				"Explore Chapter 4-1",
 				{
 					"LEVEL",
 					{
@@ -2194,7 +2194,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage10-2",
+				"Explore Chapter 10-2",
 				{
 					"LEVEL",
 					{
@@ -2228,7 +2228,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage10-3",
+				"Explore Chapter 10-3",
 				{
 					"LEVEL",
 					{
@@ -2292,7 +2292,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-1",
+				"Explore Chapter 5-1",
 				{
 					"LEVEL",
 					{
@@ -2392,7 +2392,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-2",
+				"Explore Chapter 5-2",
 				{
 					"LEVEL",
 					{
@@ -2447,7 +2447,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-2",
+				"Explore Chapter 5-2",
 				{
 					"LEVEL",
 					{
@@ -2649,7 +2649,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-3",
+				"Explore Chapter 5-3",
 				{
 					"LEVEL",
 					{
@@ -2957,7 +2957,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-1",
+				"Explore Chapter 2-1",
 				{
 					"LEVEL",
 					{
@@ -3002,7 +3002,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage8-3",
+				"Explore Chapter 8-3",
 				{
 					"LEVEL",
 					{
@@ -3046,7 +3046,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage3-1",
+				"Explore Chapter 3-1",
 				{
 					"LEVEL",
 					{
@@ -3101,7 +3101,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage3-1",
+				"Explore Chapter 3-1",
 				{
 					"LEVEL",
 					{
@@ -3156,7 +3156,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage3-1",
+				"Explore Chapter 3-1",
 				{
 					"LEVEL",
 					{
@@ -3218,7 +3218,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage4-1",
+				"Explore Chapter 4-1",
 				{
 					"LEVEL",
 					{
@@ -3283,7 +3283,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage3-3",
+				"Explore Chapter 3-3",
 				{
 					"LEVEL",
 					{
@@ -3328,7 +3328,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage13-4",
+				"Explore Chapter 14-4",
 				{
 					"LEVEL",
 					{
@@ -3674,7 +3674,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-2",
+				"Explore Chapter 2-2",
 				{
 					"LEVEL",
 					{
@@ -3738,7 +3738,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-2",
+				"Explore Chapter 2-2",
 				{
 					"LEVEL",
 					{
@@ -3793,7 +3793,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-2",
+				"Explore Chapter 2-2",
 				{
 					"LEVEL",
 					{
@@ -3858,7 +3858,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-2",
+				"Explore Chapter 2-2",
 				{
 					"LEVEL",
 					{
@@ -3923,7 +3923,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-1",
+				"Explore Chapter 2-1",
 				{
 					"LEVEL",
 					{
@@ -3978,7 +3978,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-1",
+				"Explore Chapter 2-1",
 				{
 					"LEVEL",
 					{
@@ -4389,7 +4389,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-4",
+				"Explore Chapter 1-4",
 				{
 					"LEVEL",
 					{
@@ -4453,7 +4453,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-1",
+				"Explore Chapter 2-1",
 				{
 					"LEVEL",
 					{
@@ -4548,7 +4548,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage3-1",
+				"Explore Chapter 3-1",
 				{
 					"LEVEL",
 					{
@@ -4603,7 +4603,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-4",
+				"Explore Chapter 2-4",
 				{
 					"LEVEL",
 					{
@@ -4667,7 +4667,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage4-1",
+				"Explore Chapter 4-1",
 				{
 					"LEVEL",
 					{
@@ -4731,7 +4731,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage3-1",
+				"Explore Chapter 3-1",
 				{
 					"LEVEL",
 					{
@@ -4786,7 +4786,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage7-2",
+				"Explore Chapter 7-2",
 				{
 					"LEVEL",
 					{
@@ -4927,7 +4927,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-3",
+				"Explore Chapter 5-3",
 				{
 					"LEVEL",
 					{
@@ -5069,7 +5069,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage13-4",
+				"Explore Chapter 13-4",
 				{
 					"LEVEL",
 					{
@@ -5539,7 +5539,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage7-3",
+				"Explore Chapter 7-3",
 				{
 					"LEVEL",
 					{
@@ -5654,7 +5654,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-1",
+				"Explore Chapter 5-1",
 				{
 					"LEVEL",
 					{
@@ -5821,7 +5821,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-4",
+				"Explore Chapter 2-4",
 				{
 					"LEVEL",
 					{
@@ -5876,7 +5876,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-4",
+				"Explore Chapter 2-4",
 				{
 					"LEVEL",
 					{
@@ -5940,7 +5940,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-1",
+				"Explore Chapter 1-1",
 				{
 					"LEVEL",
 					{
@@ -6004,7 +6004,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-1",
+				"Explore Chapter 1-1",
 				{
 					"LEVEL",
 					{
@@ -6068,7 +6068,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-1",
+				"Explore Chapter 1-1",
 				{
 					"LEVEL",
 					{
@@ -6163,7 +6163,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-2",
+				"Explore Chapter 1-2",
 				{
 					"LEVEL",
 					{
@@ -6227,7 +6227,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage3-3",
+				"Explore Chapter 3-3",
 				{
 					"LEVEL",
 					{
@@ -6312,7 +6312,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-2",
+				"Explore Chapter 5-2",
 				{
 					"LEVEL",
 					{
@@ -6448,7 +6448,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage2-1",
+				"Explore Chapter 2-1",
 				{
 					"LEVEL",
 					{
@@ -6503,7 +6503,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-1",
+				"Explore Chapter 2-1",
 				{
 					"LEVEL",
 					{
@@ -6876,7 +6876,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-4",
+				"Explore Chapter 1-4",
 				{
 					"LEVEL",
 					{
@@ -6940,7 +6940,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-4",
+				"Explore Chapter 2-4",
 				{
 					"LEVEL",
 					{
@@ -7004,7 +7004,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-4",
+				"Explore Chapter 2-4",
 				{
 					"LEVEL",
 					{
@@ -7059,7 +7059,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage3-2",
+				"Explore Chapter 3-2",
 				{
 					"LEVEL",
 					{
@@ -7103,7 +7103,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage3-2",
+				"Explore Chapter 3-2",
 				{
 					"LEVEL",
 					{
@@ -7874,7 +7874,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-1",
+				"Explore Chapter 2-1",
 				{
 					"LEVEL",
 					{
@@ -7939,7 +7939,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-2",
+				"Explore Chapter 5-2",
 				{
 					"LEVEL",
 					{
@@ -8029,7 +8029,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-4",
+				"Explore Chapter 2-4",
 				{
 					"LEVEL",
 					{
@@ -8093,7 +8093,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-4",
+				"Explore Chapter 2-4",
 				{
 					"LEVEL",
 					{
@@ -8148,7 +8148,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-3",
+				"Explore Chapter 2-3",
 				{
 					"LEVEL",
 					{
@@ -8246,7 +8246,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage8-1",
+				"Explore Chapter 8-1",
 				{
 					"LEVEL",
 					{
@@ -8310,7 +8310,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage8-1",
+				"Explore Chapter 8-1",
 				{
 					"LEVEL",
 					{
@@ -8365,7 +8365,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-4",
+				"Explore Chapter 1-4",
 				{
 					"LEVEL",
 					{
@@ -8420,7 +8420,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage1-4",
+				"Explore Chapter 1-4",
 				{
 					"LEVEL",
 					{
@@ -8551,7 +8551,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-2",
+				"Explore Chapter 5-2",
 				{
 					"LEVEL",
 					{
@@ -8691,7 +8691,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-3",
+				"Explore Chapter 2-3",
 				{
 					"LEVEL",
 					{
@@ -8746,7 +8746,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-4",
+				"Explore Chapter 2-4",
 				{
 					"LEVEL",
 					{
@@ -8966,7 +8966,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage2-1",
+				"Explore Chapter 2-1",
 				{
 					"LEVEL",
 					{
@@ -9021,7 +9021,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage4-4",
+				"Explore Chapter 4-4",
 				{
 					"LEVEL",
 					{
@@ -9234,7 +9234,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage6-3",
+				"Explore Chapter 6-3",
 				{
 					"LEVEL",
 					{
@@ -9511,7 +9511,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage4-3",
+				"Explore Chapter 4-3",
 				{
 					"LEVEL",
 					{
@@ -9566,7 +9566,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage4-3",
+				"Explore Chapter 4-3",
 				{
 					"LEVEL",
 					{
@@ -9947,7 +9947,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage10-1",
+				"Explore Chapter 10-1",
 				{
 					"LEVEL",
 					{
@@ -10054,7 +10054,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage10-1",
+				"Explore Chapter 10-1",
 				{
 					"LEVEL",
 					{
@@ -10300,7 +10300,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage8-2",
+				"Explore Chapter 8-2",
 				{
 					"LEVEL",
 					{
@@ -10334,7 +10334,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage8-1",
+				"Explore Chapter 8-1",
 				{
 					"LEVEL",
 					{
@@ -10635,7 +10635,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage4-3",
+				"Explore Chapter 4-3",
 				{
 					"LEVEL",
 					{
@@ -10676,7 +10676,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage4-2",
+				"Explore Chapter 4-2",
 				{
 					"LEVEL",
 					{
@@ -10719,7 +10719,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage6-4",
+				"Explore Chapter 6-4",
 				{
 					"LEVEL",
 					{
@@ -11072,7 +11072,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage3-3",
+				"Explore Chapter 3-3",
 				{
 					"LEVEL",
 					{
@@ -11115,7 +11115,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage4-1",
+				"Explore Chapter 4-1",
 				{
 					"LEVEL",
 					{
@@ -11580,6 +11580,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Core Data Exchange",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11679,7 +11689,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage9-4",
+				"Explore Chapter 9-4",
 				{
 					"LEVEL",
 					{
@@ -11914,7 +11924,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage7-3",
+				"Explore Chapter 7-3",
 				{
 					"LEVEL",
 					{
@@ -12026,7 +12036,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage8-1",
+				"Explore Chapter 8-1",
 				{
 					"LEVEL",
 					{
@@ -12156,7 +12166,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage10-4",
+				"Explore Chapter 10-4",
 				{
 					"LEVEL",
 					{
@@ -12472,7 +12482,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage3-3",
+				"Explore Chapter 3-3",
 				{
 					"LEVEL",
 					{
@@ -12515,7 +12525,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage3-3",
+				"Explore Chapter 3-3",
 				{
 					"LEVEL",
 					{
@@ -12650,7 +12660,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage5-1",
+				"Explore Chapter 5-1",
 				{
 					"LEVEL",
 					{
@@ -12684,7 +12694,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage8-3",
+				"Explore Chapter 8-3",
 				{
 					"LEVEL",
 					{
@@ -12857,7 +12867,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage8-4",
+				"Explore Chapter 8-4",
 				{
 					"LEVEL",
 					{
@@ -13257,7 +13267,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage6-3",
+				"Explore Chapter 6-3",
 				{
 					"LEVEL",
 					{
@@ -13300,7 +13310,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage6-3",
+				"Explore Chapter 6-3",
 				{
 					"LEVEL",
 					{
@@ -13753,7 +13763,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage7-4",
+				"Explore Chapter 7-4",
 				{
 					"LEVEL",
 					{
@@ -13796,7 +13806,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage2-2",
+				"Explore Chapter 2-2",
 				{
 					"LEVEL",
 					{
@@ -13964,7 +13974,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage3-4",
+				"Explore Chapter 3-4",
 				{
 					"LEVEL",
 					{
@@ -13998,7 +14008,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Explore Stage3-4",
+				"Explore Chapter 3-4",
 				{
 					"LEVEL",
 					{
@@ -14114,7 +14124,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage3-1",
+				"Explore Chapter 3-1",
 				{
 					"LEVEL",
 					{
@@ -14157,7 +14167,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage3-1",
+				"Explore Chapter 3-1",
 				{
 					"LEVEL",
 					{
@@ -14736,7 +14746,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-1",
+				"Explore Chapter 5-1",
 				{
 					"LEVEL",
 					{
@@ -14956,7 +14966,7 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Explore Stage10-1",
+				"Explore Chapter 10-1",
 				{
 					"LEVEL",
 					{
@@ -15271,7 +15281,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-3",
+				"Explore Chapter 5-3",
 				{
 					"LEVEL",
 					{
@@ -15335,7 +15345,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-3",
+				"Explore Chapter 5-3",
 				{
 					"LEVEL",
 					{
@@ -15399,7 +15409,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Explore Stage5-3",
+				"Explore Chapter 5-3",
 				{
 					"LEVEL",
 					{

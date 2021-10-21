@@ -19,7 +19,8 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot10 = getProxy(FleetProxy):getCommandersInFleet()
+	slot9 = getProxy(FleetProxy)
+	slot10 = slot9:getCommandersInFleet()
 
 	if _.any(slot4, function (slot0)
 		return table.contains(uv0, slot0)
@@ -64,7 +65,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(25008, {
+	slot17 = pg.ConnectionMgr.GetInstance()
+
+	slot17:Send(25008, {
 		targetid = slot3,
 		materialid = slot4
 	}, 25009, function (slot0)

@@ -102,10 +102,10 @@ function slot13(slot0)
 end
 
 function slot14(slot0, slot1, slot2)
-	slot3, slot4 = slot0:write(slot2)
+	slot3, slot4 = slot0.write(slot0, slot2)
 
 	if slot3 and slot1 ~= "-" then
-		slot3, slot4 = slot0:close()
+		slot3, slot4 = slot0.close(slot0)
 	end
 
 	uv0(slot3, "cannot write ", slot1, ": ", slot4)
@@ -116,8 +116,10 @@ function slot15(slot0, slot1)
 end
 
 function slot16(slot0, slot1, slot2)
+	slot3 = uv0(slot1, "w")
+
 	if slot0.type == "c" then
-		uv0(slot1, "w"):write(string.format([[
+		slot3.write(slot3, string.format([[
 #ifdef _cplusplus
 extern "C"
 #endif
@@ -127,14 +129,16 @@ __declspec(dllexport)
 const unsigned char %s%s[] = {
 ]], uv1, slot0.modname))
 	else
-		slot3:write(string.format("#define %s%s_SIZE %d\nstatic const unsigned char %s%s[] = {\n", uv1, slot0.modname, #slot2, uv1, slot0.modname))
+		slot3.write(slot3, string.format("#define %s%s_SIZE %d\nstatic const unsigned char %s%s[] = {\n", uv1, slot0.modname, #slot2, uv1, slot0.modname))
 	end
 
 	slot4 = {}
+	slot5 = 0
+	slot6 = 0
 
 	for slot10 = 1, #slot2 do
-		if 0 + #tostring(string.byte(slot2, slot10)) + 1 > 78 then
-			slot3:write(table.concat(slot4, ",", 1, 0), ",\n")
+		if slot6 + #tostring(string.byte(slot2, slot10)) + 1 > 78 then
+			slot3.write(slot3, table.concat(slot4, ",", 1, slot5), ",\n")
 
 			slot6 = #slot11 + 1
 			slot5 = 0
@@ -233,12 +237,14 @@ typedef struct {
 		end
 	end
 
+	slot11 = slot3.new(slot5 and "ELF64obj" or "ELF32obj").hdr
+
 	if slot0.os == "bsd" or slot0.os == "other" then
 		slot12 = assert(io.open("/bin/ls", "rb"))
 
 		slot12:close()
 		slot3.copy(slot10, slot12:read(9), 9)
-		uv2(slot3.new(slot5 and "ELF64obj" or "ELF32obj").hdr.emagic[0] == 127, "no support for writing native object files")
+		uv2(slot11.emagic[0] == 127, "no support for writing native object files")
 	else
 		slot11.emagic = "ELF"
 		slot11.eosabi = ({
@@ -371,10 +377,11 @@ typedef struct {
 } PEobj;
 ]])
 
+	slot4 = uv0 .. slot0.modname
 	slot5 = false
 
 	if slot0.arch == "x86" then
-		slot4 = "_" .. (uv0 .. slot0.modname)
+		slot4 = "_" .. slot4
 	elseif slot0.arch == "x64" then
 		slot5 = true
 	end

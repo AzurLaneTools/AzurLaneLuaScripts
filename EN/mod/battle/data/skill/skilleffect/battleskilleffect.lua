@@ -127,8 +127,10 @@ function slot3.GetTarget(slot0, slot1, slot2)
 			return uv0.Battle.BattleTargetChoise[slot0._targetChoise](slot1, slot0._tempData.arg_list)
 		end
 	elseif type(slot0._targetChoise) == "table" then
+		slot3 = nil
+
 		for slot7, slot8 in ipairs(slot0._targetChoise) do
-			slot3 = uv0.Battle.BattleTargetChoise[slot8](slot1, slot0._tempData.arg_list, nil)
+			slot3 = uv0.Battle.BattleTargetChoise[slot8](slot1, slot0._tempData.arg_list, slot3)
 		end
 
 		return slot3

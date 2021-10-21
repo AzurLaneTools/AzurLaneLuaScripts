@@ -62,16 +62,22 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GuildProxy.GUILD_UPDATED then
-		slot0.viewComponent:SetGuild(slot1:getBody())
+		slot0.viewComponent:SetGuild(slot3)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getRawData())
 	elseif slot2 == GAME.GUILD_COMMIT_DONATE_DONE then
-		slot0.viewComponent:UpdateContribution()
+		slot4 = slot0.viewComponent
+
+		slot4:UpdateContribution()
+
+		function slot4()
+		end
 
 		if slot3.awards and #slot3.awards > 0 then
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
-			end)
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot4)
 		else
 			slot4()
 		end

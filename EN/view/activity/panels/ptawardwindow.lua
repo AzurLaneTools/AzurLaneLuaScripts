@@ -3,13 +3,24 @@ slot0 = class("PtAwardWindow")
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0.binder = slot2
-	slot0.UIlist = UIItemList.New(slot0._tf:Find("window/panel/list"), slot0._tf:Find("window/panel/list/item"))
-	slot0.ptTF = slot0._tf:Find("window/pt")
-	slot0.totalTxt = slot0._tf:Find("window/pt/Text"):GetComponent(typeof(Text))
-	slot0.totalTitleTxt = slot0._tf:Find("window/pt/title"):GetComponent(typeof(Text))
-	slot0.totalTitleIcon = slot0._tf:Find("window/pt/icon/image"):GetComponent(typeof(Image))
-	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
-	slot0.ptIcon = slot0._tf:Find("window/pt/icon")
+	slot4 = slot0._tf
+	slot5 = slot0._tf
+	slot0.UIlist = UIItemList.New(slot4:Find("window/panel/list"), slot5:Find("window/panel/list/item"))
+	slot3 = slot0._tf
+	slot0.ptTF = slot3:Find("window/pt")
+	slot3 = slot0._tf
+	slot3 = slot3:Find("window/pt/Text")
+	slot0.totalTxt = slot3:GetComponent(typeof(Text))
+	slot3 = slot0._tf
+	slot3 = slot3:Find("window/pt/title")
+	slot0.totalTitleTxt = slot3:GetComponent(typeof(Text))
+	slot3 = slot0._tf
+	slot3 = slot3:Find("window/pt/icon/image")
+	slot0.totalTitleIcon = slot3:GetComponent(typeof(Image))
+	slot3 = slot0._tf
+	slot0.closeBtn = slot3:Find("window/top/btnBack")
+	slot3 = slot0._tf
+	slot0.ptIcon = slot3:Find("window/pt/icon")
 
 	onButton(slot0.binder, slot0._tf, function ()
 		uv0:Hide()
@@ -24,9 +35,10 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 			slot4 = uv1[slot1 + 1]
+			slot5 = GetPerceptualSize(uv2.resTitle)
 
 			if PLATFORM_CODE == PLATFORM_JP then
-				if GetPerceptualSize(uv2.resTitle) > 15 then
+				if slot5 > 15 then
 					GetComponent(slot2:Find("target/Text"), typeof(Text)).fontSize = 26
 					GetComponent(slot2:Find("target/title"), typeof(Text)).fontSize = 26
 				elseif slot5 > 12 then

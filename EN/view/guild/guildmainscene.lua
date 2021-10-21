@@ -153,7 +153,9 @@ function slot0.OnDeleteMember(slot0, slot1)
 end
 
 function slot0.OnAddMember(slot0, slot1)
-	slot0.dynamicBg:AddShip(slot1:GetShip(), function ()
+	slot3 = slot0.dynamicBg
+
+	slot3:AddShip(slot1:GetShip(), function ()
 	end)
 end
 
@@ -210,7 +212,9 @@ function slot0.EnterOrExitPreView(slot0)
 end
 
 function slot0.UpdateBg(slot0)
-	GetSpriteFromAtlasAsync(slot0.guildVO:getBgName(), "", function (slot0)
+	slot1 = slot0.guildVO
+
+	GetSpriteFromAtlasAsync(slot1:getBgName(), "", function (slot0)
 		if not IsNil(uv0._tf) then
 			setImageSprite(uv0._bg, slot0, false)
 		end
@@ -218,10 +222,11 @@ function slot0.UpdateBg(slot0)
 end
 
 function slot0.UpdateNotices(slot0, slot1)
+	slot2 = getProxy(GuildProxy)
 	slot3 = slot0.guildVO
 
 	if slot1 == uv0.NOTIFY_TYPE_ALL or slot1 == uv0.NOTIFY_TYPE_MAIN then
-		setActive(slot0.mainTip, getProxy(GuildProxy):ShouldShowMainTip())
+		setActive(slot0.mainTip, slot2:ShouldShowMainTip())
 	end
 
 	if slot1 == uv0.NOTIFY_TYPE_ALL or slot1 == uv0.NOTIFY_TYPE_APPLY then
@@ -273,7 +278,8 @@ function slot0.initToggles(slot0)
 	slot0.contextData.toggles = {}
 
 	for slot4, slot5 in ipairs(uv0.TOGGLE_TAG) do
-		slot0.contextData.toggles[slot5] = slot0.toggleRoot:Find(slot5)
+		slot7 = slot0.toggleRoot
+		slot0.contextData.toggles[slot5] = slot7:Find(slot5)
 
 		onToggle(slot0, slot0.contextData.toggles[slot5], function (slot0)
 			if slot0 then

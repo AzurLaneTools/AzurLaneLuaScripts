@@ -62,12 +62,13 @@ function slot0.updateTrophyList(slot0)
 
 	removeAllChildren(slot0._trophyContainer)
 
+	slot1 = uv0.Filter[slot0._filterIndex]
 	slot2 = 0
 
 	for slot6, slot7 in pairs(slot0.trophyGroups) do
 		slot8 = nil
 
-		if uv0.Filter[slot0._filterIndex] == "all" then
+		if slot1 == "all" then
 			slot8 = true
 		elseif slot1 == "claimed" then
 			slot8 = slot7:getMaxClaimedTrophy() ~= nil
@@ -77,21 +78,25 @@ function slot0.updateTrophyList(slot0)
 
 		if slot8 then
 			slot9 = nil
+			slot12 = TrophyView.New(cloneTplTo((math.fmod(slot2, 2) ~= 0 or slot0._trophyUpperTpl) and slot0._trophyLowerTpl, slot0._trophyContainer))
 
 			if slot1 == "all" then
-				TrophyView.New(cloneTplTo((math.fmod(slot2, 2) ~= 0 or slot0._trophyUpperTpl) and slot0._trophyLowerTpl, slot0._trophyContainer)):UpdateTrophyGroup(slot7)
+				slot12:UpdateTrophyGroup(slot7)
 			elseif slot1 == "claimed" then
 				slot12:ClaimForm(slot7)
 			elseif slot1 == "unclaim" then
 				slot12:ProgressingForm(slot7)
 			end
 
-			slot12:SetTrophyReminder(Instantiate(slot0._reminderRes:Find(slot12:GetTrophyClaimTipsID())))
+			slot17 = slot0._reminderRes
+
+			slot12:SetTrophyReminder(Instantiate(slot17:Find(slot12:GetTrophyClaimTipsID())))
 
 			slot0._trophyTFList[slot6] = slot12
 			slot2 = slot2 + 1
+			slot16 = slot11.transform
 
-			onButton(slot0, slot11.transform:Find("frame"), function ()
+			onButton(slot0, slot16:Find("frame"), function ()
 				if uv0.trophyGroups[uv1]:getProgressTrophy():canClaimed() and not slot1:isClaimed() then
 					if not uv2:IsPlaying() then
 						uv0:emit(TrophyGalleryMediator.ON_TROPHY_CLAIM, slot1.id)
@@ -105,7 +110,10 @@ function slot0.updateTrophyList(slot0)
 end
 
 function slot0.PlayTrophyClaim(slot0, slot1)
-	slot0._trophyTFList[slot1]:PlayClaimAnima(slot0.trophyGroups[slot1], Instantiate(slot0._reminderRes:Find("claim_fx")), function ()
+	slot3 = slot0._trophyTFList[slot1]
+	slot5 = slot0._reminderRes
+
+	slot3:PlayClaimAnima(slot0.trophyGroups[slot1], Instantiate(slot5:Find("claim_fx")), function ()
 		uv0:updateTrophyByGroup(uv1)
 		uv0:updateTrophyCounter()
 	end)
@@ -122,9 +130,11 @@ function slot0.openTrophyDetail(slot0, slot1, slot2)
 end
 
 function slot0.updateTrophyCounter(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.trophyList) do
 		if slot6:isClaimed() and not slot6:isHide() then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 

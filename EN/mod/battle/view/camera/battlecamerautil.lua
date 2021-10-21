@@ -226,10 +226,12 @@ function slot4.BulletTime(slot0, slot1, slot2, slot3)
 end
 
 function slot4.ZoomCamara(slot0, slot1, slot2, slot3, slot4)
+	slot5 = LeanTween.value(go(slot0._camera), slot1 or slot0._camera.orthographicSize, slot2 or uv0.CAMERA_SIZE, slot3 or 1.6):setOnUpdate(System.Action_float(function (slot0)
+		uv0._camera.orthographicSize = slot0
+	end))
+
 	if slot4 then
-		LeanTween.value(go(slot0._camera), slot1 or slot0._camera.orthographicSize, slot2 or uv0.CAMERA_SIZE, slot3 or 1.6):setOnUpdate(System.Action_float(function (slot0)
-			uv0._camera.orthographicSize = slot0
-		end)):setEase(LeanTweenType.easeOutExpo)
+		slot5:setEase(LeanTweenType.easeOutExpo)
 	end
 end
 

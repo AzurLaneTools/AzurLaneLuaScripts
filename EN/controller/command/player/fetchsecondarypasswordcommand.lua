@@ -1,8 +1,13 @@
 slot0 = class("FetchSecondaryPasswordCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.UIMgr.GetInstance():LoadingOn()
-	pg.ConnectionMgr.GetInstance():Send(11603, {
+	slot2 = pg.UIMgr.GetInstance()
+
+	slot2:LoadingOn()
+
+	slot2 = pg.ConnectionMgr.GetInstance()
+
+	slot2:Send(11603, {
 		type = 1
 	}, 11604, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()

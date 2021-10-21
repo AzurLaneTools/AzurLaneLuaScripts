@@ -8,7 +8,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(11202, {
+	slot6 = pg.ConnectionMgr.GetInstance()
+
+	slot6:Send(11202, {
 		activity_id = slot2.activity_id,
 		cmd = slot2.cmd or 0,
 		arg1 = slot2.arg1 or 0,
@@ -35,8 +37,10 @@ function slot0.execute(slot0, slot1)
 					table.insert(uv1.data2_list, uv0.arg1)
 				end
 
+				slot2 = uv0.oldBuffId or 0
+
 				for slot6, slot7 in ipairs(uv1.data3_list) do
-					if slot7 == (uv0.oldBuffId or 0) then
+					if slot7 == slot2 then
 						uv1.data3_list[slot6] = uv0.arg2
 					end
 				end

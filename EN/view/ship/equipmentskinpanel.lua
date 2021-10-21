@@ -133,13 +133,14 @@ end
 
 function slot0.updateEquipmentPanel(slot0, slot1, slot2)
 	slot3 = slot0.shipVO:getEquip(slot2)
+	slot4 = slot3.skinId
 	slot5 = slot3:hasSkin()
 
 	setActive(slot1:Find("info"), slot5)
 	setActive(slot1:Find("add"), not slot5)
 
 	if slot5 then
-		slot0:updateSkinInfo(slot7, slot3.skinId)
+		slot0:updateSkinInfo(slot7, slot4)
 		onButton(slot0, slot0.equipmentTFs[slot2], function ()
 			uv0:emit(ShipMainMediator.ON_SELECT_EQUIPMENT_SKIN, uv1)
 		end, SFX_PANEL)

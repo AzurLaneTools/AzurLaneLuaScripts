@@ -79,7 +79,9 @@ function slot0.loadSpine(slot0, slot1, slot2)
 		end
 	end
 
-	pg.UIMgr.GetInstance():LoadingOn()
+	slot4 = pg.UIMgr.GetInstance()
+
+	slot4:LoadingOn()
 	LoadAndInstantiateAsync("sfurniture", slot1, function (slot0)
 		uv0.spineModel = slot0
 		rtf(slot0).anchorMin = Vector2(0.5, 1)

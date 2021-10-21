@@ -53,8 +53,10 @@ function slot0.getFill(slot0, slot1, slot2)
 end
 
 function slot0.setFill(slot0, slot1, slot2, slot3)
+	slot4 = slot1 .. "_" .. slot2
+
 	if slot3 == 0 then
-		slot0.fills[slot1 .. "_" .. slot2] = nil
+		slot0.fills[slot4] = nil
 	else
 		slot0.fills[slot4] = ColorCell.New(slot1, slot2, slot3)
 	end
@@ -99,11 +101,16 @@ function slot0.canBeCustomised(slot0)
 end
 
 function slot0.GetAABB(slot0)
+	slot1 = 1000
+	slot2 = 1000
+	slot3 = 0
+	slot4 = 0
+
 	for slot8, slot9 in pairs(slot0.cells) do
-		slot1 = math.min(1000, slot9.column)
-		slot2 = math.min(1000, slot9.row)
-		slot3 = math.max(0, slot9.column)
-		slot4 = math.max(0, slot9.row)
+		slot1 = math.min(slot1, slot9.column)
+		slot2 = math.min(slot2, slot9.row)
+		slot3 = math.max(slot3, slot9.column)
+		slot4 = math.max(slot4, slot9.row)
 	end
 
 	return Vector2(slot1, slot2), Vector2(slot3, slot4)

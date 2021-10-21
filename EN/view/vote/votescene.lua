@@ -122,8 +122,10 @@ end
 
 function slot0.OnVote(slot0, slot1, slot2)
 	slot3 = slot1.voteShip
+	slot4 = slot0.voteGroup
+	slot6 = slot0.voteMsgBox
 
-	slot0.voteMsgBox:ExecuteAction("Open", slot3, slot0.voteGroup:GetRank(slot3), slot0.count, defaultValue(slot2, false), function (slot0)
+	slot6:ExecuteAction("Open", slot3, slot4:GetRank(slot3), slot0.count, defaultValue(slot2, false), function (slot0)
 		if uv0.voteGroup:GetStage() ~= VoteGroup.VOTE_STAGE then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 

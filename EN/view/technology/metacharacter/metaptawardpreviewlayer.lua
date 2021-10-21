@@ -62,16 +62,19 @@ end
 
 function slot0.initScrollList(slot0)
 	slot0.awardUIItemList = UIItemList.New(slot0.awardContainerTF, slot0.awardTpl)
+	slot1 = slot0.awardUIItemList
 
-	slot0.awardUIItemList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:updateAwardTpl(slot2, slot1 + 1)
 		end
 	end)
 
-	slot0.scrollRectSC = slot0.scrollViewTF:GetComponent("ScrollRect")
+	slot1 = slot0.scrollViewTF
+	slot0.scrollRectSC = slot1:GetComponent("ScrollRect")
+	slot1 = slot0.scrollRectSC.onValueChanged
 
-	slot0.scrollRectSC.onValueChanged:AddListener(function (slot0)
+	slot1:AddListener(function (slot0)
 		setActive(uv0.preArrow, slot0.x >= 0.01)
 		setActive(uv0.nextArrow, slot0.x <= 0.99)
 	end)
@@ -93,7 +96,13 @@ end
 function slot0.updateAwardTpl(slot0, slot1, slot2)
 	slot3 = slot0:findTF("Item", slot1)
 	slot4 = slot0:findTF("mask", slot3)
+	slot5 = slot0:findTF("Got", slot4)
+	slot6 = slot0:findTF("Lock", slot4)
+	slot11 = slot0:findTF("GetText", slot1)
+	slot12 = slot0:findTF("GotText", slot1)
 	slot14 = slot0:findTF("LineTpl", slot1)
+	slot15 = slot0:findTF("LineTpl/Light", slot1)
+	slot16 = slot0:findTF("LineTpl/Dark", slot1)
 	slot17 = slot0.ptData.dropList[slot2]
 	slot18 = slot0.ptData.targets[slot2]
 
@@ -113,14 +122,14 @@ function slot0.updateAwardTpl(slot0, slot1, slot2)
 
 	if slot2 < slot0.ptData.level + 1 then
 		setActive(slot4, true)
-		setActive(slot0:findTF("Got", slot4), true)
-		setActive(slot0:findTF("Lock", slot4), false)
+		setActive(slot5, true)
+		setActive(slot6, false)
 		setActive(slot7, false)
 		setActive(slot9, true)
-		setActive(slot0:findTF("LineTpl/Light", slot1), false)
-		setActive(slot0:findTF("LineTpl/Dark", slot1), true)
-		setActive(slot0:findTF("GetText", slot1), false)
-		setActive(slot0:findTF("GotText", slot1), true)
+		setActive(slot15, false)
+		setActive(slot16, true)
+		setActive(slot11, false)
+		setActive(slot12, true)
 		setActive(slot13, false)
 	elseif slot0.ptData.count < slot18 then
 		setActive(slot4, true)

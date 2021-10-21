@@ -547,13 +547,11 @@ function slot46(slot0, slot1)
 end
 
 function slot47(slot0, slot1)
-	slot2 = {
-		[slot7.name] = slot7
-	}
+	slot2 = {}
 
 	for slot6, slot7 in uv0(slot0.fields) do
 		if slot7.label ~= uv1.LABEL_REPEATED then
-			-- Nothing
+			slot2[slot7.name] = slot7
 		end
 	end
 
@@ -575,13 +573,11 @@ function slot47(slot0, slot1)
 end
 
 function slot48(slot0, slot1)
-	slot2 = {
-		[slot7.name] = slot7
-	}
+	slot2 = {}
 
 	for slot6, slot7 in uv0(slot0.fields) do
 		if slot7.label ~= uv1.LABEL_REPEATED then
-			-- Nothing
+			slot2[slot7.name] = slot7
 		end
 	end
 
@@ -658,8 +654,10 @@ function slot54(slot0, slot1)
 			return slot0._cached_byte_size
 		end
 
+		slot1 = 0
+
 		for slot5, slot6 in uv0._member.ListFields(slot0) do
-			slot1 = slot5._sizer(slot6) + 0
+			slot1 = slot5._sizer(slot6) + slot1
 		end
 
 		slot0._cached_byte_size = slot1

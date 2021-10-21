@@ -61,9 +61,10 @@ end
 
 function slot0.InitTransformMapBtn(slot0, slot1, slot2, slot3)
 	function slot4()
+		slot0 = getProxy(ChapterProxy)
 		slot1 = uv0.sceneParent.contextData.mapIdx + uv1
 
-		if _.detect(getProxy(ChapterProxy):getMapsByActivities(), function (slot0)
+		if _.detect(slot0:getMapsByActivities(), function (slot0)
 			return slot0.id == uv0
 		end) then
 			if slot2:getMapType() == Map.ELITE and not slot2:isEliteEnabled() then
@@ -177,13 +178,20 @@ function slot0.PostUpdateMap(slot0, slot1)
 
 		if slot7 then
 			slot9 = tf(slot5).localScale
-			slot12 = Clone(tf(slot5):GetChild(0):Find("Quad"):GetComponent(typeof(MeshRenderer)).sharedMaterial:GetColor("_MainColor"))
-
-			slot0:RecordTween("rumengAlphaTween", LeanTween.value(go(slot5), 0, 1, 0.8):setOnUpdate(System.Action_float(function (slot0)
+			slot10 = tf(slot5)
+			slot10 = slot10:GetChild(0)
+			slot10 = slot10:Find("Quad")
+			slot10 = slot10:GetComponent(typeof(MeshRenderer)).sharedMaterial
+			slot12 = Clone(slot10:GetColor("_MainColor"))
+			slot13 = LeanTween.value(go(slot5), 0, 1, 0.8)
+			slot13 = slot13:setOnUpdate(System.Action_float(function (slot0)
 				uv0.a = uv1.a * slot0
 
 				uv2:SetColor("_MainColor", uv0)
-			end)):setEase(LeanTweenType.easeInCubic):setOnComplete(System.Action(function ()
+			end))
+			slot13 = slot13:setEase(LeanTweenType.easeInCubic)
+
+			slot0:RecordTween("rumengAlphaTween", slot13:setOnComplete(System.Action(function ()
 				uv0:SetColor("_MainColor", uv1)
 			end)).id)
 
@@ -192,13 +200,20 @@ function slot0.PostUpdateMap(slot0, slot1)
 
 		if slot8 then
 			slot9 = tf(slot6).localScale
-			slot12 = Clone(tf(slot6):GetChild(0):Find("Quad"):GetComponent(typeof(MeshRenderer)).sharedMaterial:GetColor("_MainColor"))
-
-			slot0:RecordTween("huiguiAlphaTween", LeanTween.value(go(slot6), 0, 1, 0.8):setOnUpdate(System.Action_float(function (slot0)
+			slot10 = tf(slot6)
+			slot10 = slot10:GetChild(0)
+			slot10 = slot10:Find("Quad")
+			slot10 = slot10:GetComponent(typeof(MeshRenderer)).sharedMaterial
+			slot12 = Clone(slot10:GetColor("_MainColor"))
+			slot13 = LeanTween.value(go(slot6), 0, 1, 0.8)
+			slot13 = slot13:setOnUpdate(System.Action_float(function (slot0)
 				uv0.a = uv1.a * slot0
 
 				uv2:SetColor("_MainColor", uv0)
-			end)):setEase(LeanTweenType.easeInCubic):setOnComplete(System.Action(function ()
+			end))
+			slot13 = slot13:setEase(LeanTweenType.easeInCubic)
+
+			slot0:RecordTween("huiguiAlphaTween", slot13:setOnComplete(System.Action(function ()
 				uv0:SetColor("_MainColor", uv1)
 			end)).id)
 		end
@@ -211,12 +226,15 @@ function slot0.UpdateMapItems(slot0)
 	end
 
 	uv0.UpdateMapItems(slot0)
+
+	slot2 = getProxy(ChapterProxy)
+
 	table.clear(slot0.chapterTFsById)
 
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.contextData.map:getChapters()) do
-		if (slot8:activeAlways() or slot8:isUnlock()) and (not slot8:ifNeedHide() or getProxy(ChapterProxy):GetJustClearChapters(slot8.id)) then
+		if (slot8:activeAlways() or slot8:isUnlock()) and (not slot8:ifNeedHide() or slot2:GetJustClearChapters(slot8.id)) then
 			table.insert(slot3, slot8)
 		end
 	end
@@ -252,13 +270,18 @@ function slot0.UpdateMapItems(slot0)
 
 			seriesAsync({
 				function (slot0)
+					slot1 = 0
+
 					for slot5, slot6 in pairs(uv0) do
 						if slot6:ifNeedHide() and uv1:GetJustClearChapters(slot6.id) and uv2.chapterTFsById[slot6.id] then
-							slot1 = 0 + 1
+							slot1 = slot1 + 1
 							slot7 = uv2.chapterTFsById[slot6.id]
 
 							setActive(slot7, true)
-							uv2:PlayChapterItemAnimationBackward(slot7, slot6, function ()
+
+							slot8 = uv2
+
+							slot8:PlayChapterItemAnimationBackward(slot7, slot6, function ()
 								uv0 = uv0 - 1
 
 								setActive(uv1, false)
@@ -280,12 +303,17 @@ function slot0.UpdateMapItems(slot0)
 					end
 				end,
 				function (slot0)
+					slot1 = 0
+
 					for slot5, slot6 in pairs(uv0) do
 						if not uv1[slot6.id] then
-							slot1 = 0 + 1
+							slot1 = slot1 + 1
 
 							setActive(uv2.chapterTFsById[slot6.id], true)
-							uv2:PlayChapterItemAnimation(uv2.chapterTFsById[slot6.id], slot6, function ()
+
+							slot7 = uv2
+
+							slot7:PlayChapterItemAnimation(uv2.chapterTFsById[slot6.id], slot6, function ()
 								uv0 = uv0 - 1
 
 								if uv0 <= 0 then
@@ -381,8 +409,10 @@ function slot0.UpdateMapItem(slot0, slot1, slot2)
 		setText(slot20:Find("Text"), setColorStr(slot22 - slot2:getTodayDefeatCount() .. "/" .. slot22, slot22 <= slot2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
 	end
 
+	slot23 = 0
+
 	for slot27, slot28 in ipairs(slot2:getConfig("boss_expedition_id")) do
-		slot23 = math.max(0, pg.expedition_activity_template[slot28] and slot29.bonus_time or 0)
+		slot23 = math.max(slot23, pg.expedition_activity_template[slot28] and slot29.bonus_time or 0)
 	end
 
 	if pg.chapter_defense[slot2.id] then

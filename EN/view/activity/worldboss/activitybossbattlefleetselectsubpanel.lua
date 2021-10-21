@@ -175,6 +175,7 @@ end
 function slot0.updateFleet(slot0, slot1, slot2)
 	slot0:updateCommanderBtn(slot1, slot2)
 
+	slot4 = slot2 <= slot0:getLimitNums(slot1) and slot0.fleets[slot1][slot2]
 	slot5 = slot0.tfFleets[slot1][slot2]
 	slot8 = slot0:findTF(TeamType.Vanguard, slot5)
 	slot9 = slot0:findTF(TeamType.Submarine, slot5)
@@ -186,7 +187,7 @@ function slot0.updateFleet(slot0, slot1, slot2)
 	setText(findTF(slot5, "bg/name"), "")
 
 	if slot0:findTF(TeamType.Main, slot5) then
-		setActive(slot7, slot3 and (slot2 <= slot0:getLimitNums(slot1) and slot0.fleets[slot1][slot2]))
+		setActive(slot7, slot3 and slot4)
 	end
 
 	if slot8 then
@@ -223,8 +224,10 @@ end
 function slot0.updateShips(slot0, slot1, slot2, slot3, slot4)
 	removeAllChildren(slot1)
 
+	slot5 = getProxy(BayProxy)
+
 	for slot9 = 1, 3 do
-		setActive(cloneTplTo(getProxy(BayProxy):getShipById(slot2[slot9]) and slot0.tfShipTpl or slot0.tfEmptyTpl, slot1), true)
+		setActive(cloneTplTo(slot5:getShipById(slot2[slot9]) and slot0.tfShipTpl or slot0.tfEmptyTpl, slot1), true)
 
 		if slot10 then
 			updateShip(slot12, slot10)
@@ -234,8 +237,9 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4)
 		setActive(slot0:findTF("ship_type", slot12), false)
 
 		slot13 = GetOrAddComponent(slot12, typeof(UILongPressTrigger))
+		slot15 = slot13.onLongPressed
 
-		slot13.onLongPressed:RemoveAllListeners()
+		slot15:RemoveAllListeners()
 		onButton(slot0, GetOrAddComponent(slot12, typeof(Button)), function ()
 			uv0:emit(uv0.viewParent.contextData.mediatorClass.ON_OPEN_DOCK, {
 				fleet = uv1,
@@ -244,7 +248,10 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4)
 				teamType = uv4
 			})
 		end)
-		slot13.onLongPressed:AddListener(function ()
+
+		slot16 = slot13.onLongPressed
+
+		slot16:AddListener(function ()
 			if uv0 then
 				uv1:OnLongPressShip(uv2[uv3], uv4)
 			else

@@ -1,7 +1,9 @@
 slot0 = class("UpdateCommonFlagCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(11019, {
+	slot4 = pg.ConnectionMgr.GetInstance()
+
+	slot4:Send(11019, {
 		flag_id = slot1:getBody().flagID
 	}, 11020, function (slot0)
 		if getProxy(PlayerProxy) then

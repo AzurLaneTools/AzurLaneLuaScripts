@@ -81,6 +81,7 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 	slot4 = slot0:findTF("skillInfo", slot3)
 	slot5 = slot0:findTF("empty", slot3)
 	slot6 = slot0:findTF("mask", slot3)
+	slot9 = slot0:findTF("next_contain/label", slot4)
 	slot10 = slot0:findTF("next_contain/Text", slot4)
 	slot13 = slot0:findTF("Tag/learing", slot3)
 	slot14 = slot0:findTF("Tag/unlockable", slot3)
@@ -92,11 +93,13 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 	setText(slot0:findTF("name_contain/level_contain/Text", slot4), slot15)
 
 	slot17 = slot2 == slot0.metaTacticsInfo.curSkillID
+	slot18 = slot15 > 0
+	slot19 = slot0.metaTacticsInfo:getSkillExp(slot2)
 
 	if not (pg.skill_data_template[slot2].max_level <= slot15) then
-		if slot15 > 0 then
-			setText(slot10, setColorStr(slot0.metaTacticsInfo:getSkillExp(slot2), COLOR_GREEN) .. "/" .. MetaCharacterConst.getMetaSkillTacticsConfig(slot2, slot15).need_exp)
-			setActive(slot0:findTF("next_contain/label", slot4), true)
+		if slot18 then
+			setText(slot10, setColorStr(slot19, COLOR_GREEN) .. "/" .. MetaCharacterConst.getMetaSkillTacticsConfig(slot2, slot15).need_exp)
+			setActive(slot9, true)
 			setActive(slot10, true)
 		else
 			setActive(slot9, false)
@@ -134,8 +137,9 @@ end
 function slot0.updateButtons(slot0, slot1)
 	slot2 = slot1 or slot0.selectSkillID
 	slot4 = slot0.metaShipVO:getMetaSkillLevelBySkillID(slot2) > 0
+	slot5 = slot0.metaShipVO:isSkillLevelMax(slot2)
 
-	if slot2 == slot0.metaTacticsInfo.curSkillID or slot0.metaShipVO:isSkillLevelMax(slot2) then
+	if slot2 == slot0.metaTacticsInfo.curSkillID or slot5 then
 		setActive(slot0.detailBtn, true)
 		setActive(slot0.unlockBtn, false)
 		setActive(slot0.switchBtn, false)

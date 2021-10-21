@@ -9,8 +9,9 @@ function slot0.execute(slot0, slot1)
 
 	if ActivityConst.INSTAGRAM_OP_ACTIVE == slot2.cmd then
 		slot5 = getProxy(ActivityProxy):getActivityById(slot2.activity_id)
+		slot6 = pg.ConnectionMgr.GetInstance()
 
-		pg.ConnectionMgr.GetInstance():Send(11202, {
+		slot6:Send(11202, {
 			cmd = 1,
 			activity_id = slot2.activity_id,
 			arg1 = slot2.arg1 or 0,
@@ -42,7 +43,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if ActivityConst.INSTAGRAM_OP_LIKE == slot2.cmd or ActivityConst.INSTAGRAM_OP_MARK_READ == slot2.cmd or ActivityConst.INSTAGRAM_OP_UPDATE == slot2.cmd or ActivityConst.INSTAGRAM_OP_SHARE == slot2.cmd then
-		pg.ConnectionMgr.GetInstance():Send(11701, {
+		slot4 = pg.ConnectionMgr.GetInstance()
+
+		slot4:Send(11701, {
 			id = slot2.arg1,
 			cmd = slot2.cmd
 		}, 11702, function (slot0)
@@ -69,7 +72,9 @@ function slot0.execute(slot0, slot1)
 			end
 		end)
 	elseif ActivityConst.INSTAGRAM_OP_COMMENT == slot2.cmd then
-		pg.ConnectionMgr.GetInstance():Send(11703, {
+		slot4 = pg.ConnectionMgr.GetInstance()
+
+		slot4:Send(11703, {
 			id = slot2.arg1,
 			discuss = slot2.arg2,
 			index = slot2.arg3

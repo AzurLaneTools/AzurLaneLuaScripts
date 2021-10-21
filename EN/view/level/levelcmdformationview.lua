@@ -39,15 +39,21 @@ function slot0.InitUI(slot0)
 	slot0.restAllBtn = slot0:findTF("rest_all", slot0.descFrameTF)
 	slot0.quickBtn = slot0:findTF("quick_btn", slot0.descFrameTF)
 	slot0.recordPanel = slot0:findTF("record_panel")
+	slot2 = slot0.recordPanel
+	slot2 = slot0.recordPanel
 	slot0.recordCommanders = {
-		slot0.recordPanel:Find("current/commanders/commander1/frame/info"),
-		slot0.recordPanel:Find("current/commanders/commander2/frame/info")
+		slot2:Find("current/commanders/commander1/frame/info"),
+		slot2:Find("current/commanders/commander2/frame/info")
 	}
+	slot2 = slot0.recordPanel
+	slot2 = slot0.recordPanel
 	slot0.reocrdSkills = {
-		slot0.recordPanel:Find("current/commanders/commander1/skill_info"),
-		slot0.recordPanel:Find("current/commanders/commander2/skill_info")
+		slot2:Find("current/commanders/commander1/skill_info"),
+		slot2:Find("current/commanders/commander2/skill_info")
 	}
-	slot0.recordList = UIItemList.New(slot0.recordPanel:Find("record/content"), slot0.recordPanel:Find("record/content/commanders"))
+	slot2 = slot0.recordPanel
+	slot3 = slot0.recordPanel
+	slot0.recordList = UIItemList.New(slot2:Find("record/content"), slot3:Find("record/content/commanders"))
 
 	onButton(slot0, slot0.restAllBtn, function ()
 		uv0.callback({
@@ -57,10 +63,16 @@ function slot0.InitUI(slot0)
 	onButton(slot0, slot0.quickBtn, function ()
 		uv0:OpenRecordPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.recordPanel:Find("back"), function ()
+
+	slot3 = slot0.recordPanel
+
+	onButton(slot0, slot3:Find("back"), function ()
 		uv0:CloseRecordPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("bg"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("bg"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 end
@@ -88,8 +100,10 @@ function slot0.updatePrefabs(slot0, slot1)
 end
 
 function slot0.updateRecordFleet(slot0)
+	slot1 = slot0.fleet:getCommanders()
+
 	for slot5, slot6 in ipairs(slot0.recordCommanders) do
-		slot7 = slot0.fleet:getCommanders()[slot5]
+		slot7 = slot1[slot5]
 
 		slot0:updateCommander(slot6, slot5, slot7)
 		slot0:updateSkillTF(slot7, slot0.reocrdSkills[slot5])
@@ -135,6 +149,11 @@ function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
 		})
 	end, SFX_PANEL)
 
+	slot7 = {
+		slot2:Find("commander1/skill_info"),
+		slot2:Find("commander2/skill_info")
+	}
+
 	for slot11, slot12 in ipairs({
 		slot2:Find("commander1/frame/info"),
 		slot2:Find("commander2/frame/info")
@@ -142,16 +161,15 @@ function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
 		slot13 = slot1:getCommanderByPos(slot11)
 
 		slot0:updateCommander(slot12, slot11, slot13)
-		slot0:updateSkillTF(slot13, ({
-			slot2:Find("commander1/skill_info"),
-			slot2:Find("commander2/skill_info")
-		})[slot11])
+		slot0:updateSkillTF(slot13, slot7[slot11])
 	end
 end
 
 function slot0.updateDesc(slot0)
+	slot1 = slot0.fleet:getCommanders()
+
 	for slot5 = 1, CommanderConst.MAX_FORMATION_POS do
-		slot6 = slot0.fleet:getCommanders()[slot5]
+		slot6 = slot1[slot5]
 
 		slot0:updateCommander(slot0["descPos" .. slot5], slot5, slot6, true)
 		slot0:updateSkillTF(slot6, slot0["skillTFPos" .. slot5])

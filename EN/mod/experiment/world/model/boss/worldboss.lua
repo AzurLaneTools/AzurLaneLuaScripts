@@ -243,8 +243,12 @@ function slot0.IsExpired(slot0)
 end
 
 function slot0.BuildTipText(slot0)
+	slot1 = slot0:GetRoleName()
+	slot2 = slot0.config.name
+	slot3 = slot0.level
+
 	if slot0.type == uv0.BOSS_TYPE_FRIEND then
-		return i18n("world_joint_call_friend_support_txt", slot0:GetRoleName(), slot0.config.name, slot0.level)
+		return i18n("world_joint_call_friend_support_txt", slot1, slot2, slot3)
 	elseif slot0.type == uv0.BOSS_TYPE_GUILD then
 		return i18n("world_joint_call_guild_support_txt", slot1, slot2, slot3)
 	else

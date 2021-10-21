@@ -77,7 +77,9 @@ end
 
 function slot0.InitTags(slot0)
 	for slot4, slot5 in ipairs(uv0) do
-		onToggle(slot0, slot0.tabContainer:Find(slot5), function (slot0)
+		slot6 = slot0.tabContainer
+
+		onToggle(slot0, slot6:Find(slot5), function (slot0)
 			if slot0 then
 				uv0:SwitchPage(uv1)
 			end

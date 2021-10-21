@@ -42,7 +42,11 @@ function slot0.PlayGetResAnim(slot0, slot1)
 	slot0.floatTxt.text = "+" .. slot1
 
 	setActive(slot0.floatTF, true)
-	LeanTween.moveY(rtf(slot0.floatTF), 30, 1):setFrom(0):setOnComplete(System.Action(function ()
+
+	slot2 = LeanTween.moveY(rtf(slot0.floatTF), 30, 1)
+	slot2 = slot2:setFrom(0)
+
+	slot2:setOnComplete(System.Action(function ()
 		setActive(uv0.floatTF, false)
 	end))
 end

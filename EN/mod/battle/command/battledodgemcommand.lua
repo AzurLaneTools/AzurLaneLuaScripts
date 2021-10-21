@@ -58,7 +58,9 @@ function slot3.onWillDie(slot0, slot1)
 
 	slot0._dataProxy:CalcDodgemCount(slot2)
 
-	if slot2:GetTemplate().type == ShipType.JinBi and slot2:GetDeathReason() == uv0.Battle.BattleConst.UnitDeathReason.CRUSH then
+	slot3 = slot2:GetDeathReason()
+
+	if slot2:GetTemplate().type == ShipType.JinBi and slot3 == uv0.Battle.BattleConst.UnitDeathReason.CRUSH then
 		slot2:DispatchScorePoint(slot0._dataProxy:GetScorePoint())
 	end
 end

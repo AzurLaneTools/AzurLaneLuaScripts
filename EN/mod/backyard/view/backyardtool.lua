@@ -5,7 +5,7 @@ slot4 = false
 
 return {
 	turnTransformLocalPos = function (slot0, slot1, slot2)
-		return slot2:InverseTransformPoint(slot1:TransformPoint(slot0))
+		return slot2.InverseTransformPoint(slot2, slot1.TransformPoint(slot1, slot0))
 	end,
 	change2ScrPos = function (slot0, slot1)
 		return LuaHelper.ScreenToLocal(slot0:GetComponent("RectTransform"), slot1, GameObject.Find("UICamera"):GetComponent("Camera"))
@@ -20,7 +20,7 @@ return {
 		return slot0 and -1 or 1
 	end,
 	changeGridColor = function (slot0, slot1)
-		slot0:GetComponent(typeof(Image)).color = slot1
+		slot0.GetComponent(slot0, typeof(Image)).color = slot1
 	end,
 	createImage = function (slot0, slot1, slot2, slot3, slot4)
 		slot5 = GameObject(slot0)
@@ -56,8 +56,10 @@ return {
 	end,
 	getPaths = function (slot0, slot1, slot2, slot3, slot4)
 		slot11 = {}
+		slot12 = ipairs
+		slot13 = uv0.CalcPath(uv0.CalcMoves(slot0, BackYardHouseVO.MAX_SIZE_X - slot2 + 1, BackYardHouseVO.MAX_SIZE_Y - slot1 + 1, BackYardHouseVO.MAX_SIZE_X - slot4 + 1, BackYardHouseVO.MAX_SIZE_Y - slot3 + 1)) or {}
 
-		for slot15, slot16 in ipairs(uv0.CalcPath(uv0.CalcMoves(slot0, BackYardHouseVO.MAX_SIZE_X - slot2 + 1, BackYardHouseVO.MAX_SIZE_Y - slot1 + 1, BackYardHouseVO.MAX_SIZE_X - slot4 + 1, BackYardHouseVO.MAX_SIZE_Y - slot3 + 1)) or {}) do
+		for slot15, slot16 in slot12(slot13) do
 			if slot15 ~= 1 then
 				table.insert(slot11, Vector2(BackYardHouseVO.MAX_SIZE_X - slot16.y + 1, BackYardHouseVO.MAX_SIZE_Y - slot16.x + 1))
 			end

@@ -179,7 +179,8 @@ function slot0.showBaoxiang(slot0, slot1, slot2, slot3, slot4)
 	slot0.isTweening = slot0.isTweening + 1
 
 	LeanTween.delayedCall(go(slot4), 0.5, System.Action(function ()
-		slot0, slot1 = uv0:getPosition(uv1, uv2)
+		slot0 = uv0
+		slot0, slot1 = slot0:getPosition(uv1, uv2)
 		uv3.localPosition = Vector3(slot0, slot1 + 50, -1)
 
 		setActive(uv3, true)
@@ -291,9 +292,11 @@ function slot0.updateUI(slot0)
 	if slot0.curSelectLevel < slot0.level then
 		setText(slot0.stgProgress, "100%")
 	else
+		slot2 = 0
+
 		for slot6 = 1, #slot0.gridTypes do
 			if bit.band(slot0.gridTypes[slot6], ActivityConst.EXPEDITION_TYPE_GOT) ~= 0 then
-				slot2 = 0 + 1
+				slot2 = slot2 + 1
 			end
 		end
 
@@ -313,8 +316,10 @@ function slot0.updateGridDatas(slot0)
 	end
 
 	for slot4 = 1, #slot0.mapDic do
+		slot5 = slot0.mapDic[slot4]
+
 		if slot0.curSelectLevel < slot0.level then
-			slot0:setMapGridType(slot0.mapDic[slot4], ActivityConst.EXPEDITION_TYPE_GOT)
+			slot0:setMapGridType(slot5, ActivityConst.EXPEDITION_TYPE_GOT)
 		else
 			slot7 = slot0.gridTypes[slot5.mapIndex]
 			slot8 = slot0:getMapActivityType(slot7)
@@ -375,11 +380,14 @@ function slot0.getGridSideOpen(slot0, slot1)
 		slot2 - slot0.chequerMap[2] - 1,
 		slot2 - slot0.chequerMap[2] + 1
 	}
+	slot4 = slot1.v
+	slot5 = slot1.h
 
 	for slot9 = #slot3, 1, -1 do
 		slot10 = slot3[slot9]
+		slot12 = (slot10 - 1) % slot0.chequerMap[2] + 1
 
-		if math.abs(math.ceil(slot10 / slot0.chequerMap[2]) - slot1.v) > 1 or math.abs((slot10 - 1) % slot0.chequerMap[2] + 1 - slot1.h) > 1 then
+		if math.abs(math.ceil(slot10 / slot0.chequerMap[2]) - slot4) > 1 or math.abs(slot12 - slot5) > 1 then
 			table.remove(slot3, slot9)
 		end
 	end
@@ -440,6 +448,8 @@ function slot0.updateMap(slot0)
 
 	for slot8 = 1, slot0.chequerMap[1] do
 		for slot12 = 1, slot3 do
+			slot4 = slot4 + 1
+
 			if not table.contains(slot0.emptyPosNums, slot0:getPosNum(slot8, slot12)) then
 				slot14 = slot0:getMask()
 				slot15 = slot0:getBottomGrid()
@@ -458,7 +468,7 @@ function slot0.updateMap(slot0)
 					v = slot8,
 					h = slot12,
 					posNum = slot13,
-					mapIndex = slot4 + 1
+					mapIndex = slot4
 				})
 			end
 		end
@@ -588,10 +598,16 @@ function slot0.showChar(slot0, slot1, slot2, slot3)
 	slot0.charactor.localPosition = Vector3(slot1, slot2 + uv0)
 
 	setActive(slot0.charactor, true)
-	LeanTween.value(go(slot0.charactor), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
+
+	slot4 = LeanTween.value(go(slot0.charactor), 0, 1, 0.2)
+
+	slot4:setOnUpdate(System.Action_float(function (slot0)
 		GetComponent(uv0.charactor, typeof(CanvasGroup)).alpha = slot0
 	end))
-	LeanTween.moveLocal(go(slot0.charactor), Vector3(slot1, slot2, 0), 0.2):setOnComplete(System.Action(function ()
+
+	slot4 = LeanTween.moveLocal(go(slot0.charactor), Vector3(slot1, slot2, 0), 0.2)
+
+	slot4:setOnComplete(System.Action(function ()
 		if uv0 then
 			uv0()
 		end
@@ -599,13 +615,16 @@ function slot0.showChar(slot0, slot1, slot2, slot3)
 end
 
 function slot0.hideChar(slot0, slot1)
-	LeanTween.value(go(slot0.charactor), 1, 0, 0.2):setOnUpdate(System.Action_float(function (slot0)
+	slot2 = LeanTween.value(go(slot0.charactor), 1, 0, 0.2)
+
+	slot2:setOnUpdate(System.Action_float(function (slot0)
 		GetComponent(uv0.charactor, typeof(CanvasGroup)).alpha = slot0
 	end))
 
 	slot2 = slot0.charactor.localPosition
+	slot3 = LeanTween.moveLocal(go(slot0.charactor), Vector3(slot2.x, slot2.y + uv0, 0), 0.2)
 
-	LeanTween.moveLocal(go(slot0.charactor), Vector3(slot2.x, slot2.y + uv0, 0), 0.2):setOnComplete(System.Action(function ()
+	slot3:setOnComplete(System.Action(function ()
 		setActive(uv0.charactor, false)
 
 		if uv1 then
@@ -771,9 +790,10 @@ end
 
 function slot0.getPosition(slot0, slot1, slot2)
 	slot3 = (slot2 - 1) * uv0
+	slot4 = -(slot1 - 1) * uv1
 
 	if slot2 % 2 == 0 then
-		slot4 = -(slot1 - 1) * uv1 + uv1 / 2
+		slot4 = slot4 + uv1 / 2
 	end
 
 	return slot3, slot4

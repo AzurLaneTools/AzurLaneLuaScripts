@@ -35,11 +35,13 @@ function slot4.doBehaviour(slot0)
 			table.merge(slot5, slot1)
 		end
 
+		slot6 = slot5.count
+		slot7 = slot5.child_prefab
 		slot8 = nil
 
 		if slot3:GetAreaType() == uv1.AreaType.CUBE then
-			slot16, slot10 = unpack(slot5.child_prefab.cld_data)
-			slot8 = slot0.GenerateRandomRectanglePosition(slot3:GetWidth(), slot3:GetHeight(), slot5.count, math.max(slot16, slot10 or 0))
+			slot16, slot10 = unpack(slot7.cld_data)
+			slot8 = slot0.GenerateRandomRectanglePosition(slot3:GetWidth(), slot3:GetHeight(), slot6, math.max(slot16, slot10 or 0))
 		elseif slot3:GetAreaType() == uv1.AreaType.COLUMN then
 			slot15, slot10 = unpack(slot7.cld_data)
 			slot8 = slot0.GenerateRandomCirclePosition(slot3:GetRange(), slot6, math.max(slot15, slot10 or 0))
@@ -118,9 +120,10 @@ slot5 = math
 
 function slot4.GenerateRandomRectanglePosition(slot0, slot1, slot2, slot3)
 	slot4 = uv0.ceil(uv0.sqrt(slot2))
+	slot5 = {}
 
 	for slot9 = 1, slot4 * slot4 do
-		table.insert({}, {
+		table.insert(slot5, {
 			weight = 65536,
 			rst = slot9
 		})
@@ -172,8 +175,10 @@ function slot4.GenerateRandomCirclePosition(slot0, slot1, slot2)
 		slot5 = slot5 / 3
 	end
 
+	slot6 = {}
+
 	for slot10 = 1, slot4 do
-		table.insert({}, {
+		table.insert(slot6, {
 			weight = 256,
 			rst = slot10
 		})
@@ -185,12 +190,14 @@ function slot4.GenerateRandomCirclePosition(slot0, slot1, slot2)
 		slot12 = uv0.WeightRandom(slot6)
 		slot6[slot12].weight = 0
 		slot13 = slot12 - 1
+		slot14 = 1
 		slot15 = Vector2(0, 0)
+		slot16 = slot5
 
 		for slot20 = slot3, 2, -1 do
-			slot15:Add(slot5 * 3 * uv2[slot13 - uv1.floor(slot13 / 7) * 7 + 1])
+			slot15:Add(slot16 * 3 * uv2[slot13 - uv1.floor(slot13 / 7) * 7 + 1])
 
-			slot14 = 1 * 7
+			slot14 = slot14 * 7
 
 			if slot20 > 2 and slot20 == slot3 then
 				for slot26 = slot13 * slot14 + 1, slot13 * slot14 + slot14 do

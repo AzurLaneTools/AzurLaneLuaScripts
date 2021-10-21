@@ -256,8 +256,9 @@ function slot0.RefreshLatelyNode(slot0)
 	end
 
 	slot3 = {}
+	slot4 = slot0.gevent:GetMissions()[slot0.lastPosition] or {}
 
-	for slot8, slot9 in ipairs(slot0.gevent:GetMissions()[slot0.lastPosition] or {}) do
+	for slot8, slot9 in ipairs(slot4) do
 		if not slot9:IsBoss() then
 			table.insert(slot3, function (slot0)
 				uv0:emit(GuildEventMediator.REFRESH_MISSION, uv1.id, slot0)
@@ -387,13 +388,15 @@ function slot0.InitTree(slot0)
 end
 
 function slot0.CreateLinkLine(slot0, slot1)
-	if slot1:HasChild() then
-		slot1:AddLine((function (slot0, slot1)
-			slot2 = Instantiate(slot0)
-			slot2.name = slot1
+	function slot2(slot0, slot1)
+		slot2 = Instantiate(slot0)
+		slot2.name = slot1
 
-			return slot2
-		end)(slot0.adapter, "adapter"), GuildViewMissionNode.LINE_RIGHT, slot1)
+		return slot2
+	end
+
+	if slot1:HasChild() then
+		slot1:AddLine(slot2(slot0.adapter, "adapter"), GuildViewMissionNode.LINE_RIGHT, slot1)
 	end
 
 	if slot1:HasParent() then
@@ -436,7 +439,8 @@ function slot0.ShowDesc(slot0, slot1)
 		slot0.descPanel:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("GuildMission/boss_" .. slot1.data:GetIcon(), "")
 	end
 
-	slot0.descPanelTag.sprite = GetSpriteFromAtlas("ui/GuildMissionUI_atlas", "tag" .. slot1.data:GetTag())
+	slot5 = slot1.data
+	slot0.descPanelTag.sprite = GetSpriteFromAtlas("ui/GuildMissionUI_atlas", "tag" .. slot5:GetTag())
 
 	function slot6(slot0)
 		if not slot0:IsUnLock() then
@@ -462,7 +466,9 @@ function slot0.ShowDesc(slot0, slot1)
 
 			uv2:emit(GuildEventLayer.ON_OPEN_BOSS, uv0.data)
 		else
-			uv2:emit(GuildEventMediator.REFRESH_MISSION, uv0.data.id, function ()
+			slot0 = uv2
+
+			slot0:emit(GuildEventMediator.REFRESH_MISSION, uv0.data.id, function ()
 				if not uv0(uv1) then
 					return
 				end

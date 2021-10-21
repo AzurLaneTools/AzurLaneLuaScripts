@@ -1,7 +1,9 @@
 slot0 = class("GetRivalInfoCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(18104, {
+	slot3 = pg.ConnectionMgr.GetInstance()
+
+	slot3:Send(18104, {
 		id = slot1:getBody()
 	}, 18105, function (slot0)
 		if slot0.info.id == 0 then

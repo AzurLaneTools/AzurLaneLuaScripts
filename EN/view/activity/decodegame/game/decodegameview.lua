@@ -9,88 +9,146 @@ end
 function slot0.SetUI(slot0, slot1)
 	slot0._tf = slot1
 	slot0._go = go(slot1)
-	slot0.mapItemContainer = slot0._tf:Find("game/container")
-	slot0.itemList = UIItemList.New(slot0.mapItemContainer, slot0._tf:Find("game/container/tpl"))
-	slot0.mapLine = slot0._tf:Find("game/line")
+	slot2 = slot0._tf
+	slot0.mapItemContainer = slot2:Find("game/container")
+	slot4 = slot0._tf
+	slot0.itemList = UIItemList.New(slot0.mapItemContainer, slot4:Find("game/container/tpl"))
+	slot2 = slot0._tf
+	slot0.mapLine = slot2:Find("game/line")
 
 	setActive(slot0.mapLine, false)
 
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
 	slot0.mapBtns = {
-		slot0._tf:Find("btn/btn1"),
-		slot0._tf:Find("btn/btn2"),
-		slot0._tf:Find("btn/btn3")
+		slot3:Find("btn/btn1"),
+		slot3:Find("btn/btn2"),
+		slot3:Find("btn/btn3")
 	}
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
 	slot0.engines = {
-		slot0._tf:Find("tuitong/1"),
-		slot0._tf:Find("tuitong/2"),
-		slot0._tf:Find("tuitong/3")
+		slot3:Find("tuitong/1"),
+		slot3:Find("tuitong/2"),
+		slot3:Find("tuitong/3")
 	}
-	slot0.engineBottom = slot0._tf:Find("tuitong/4")
-	slot0.number1 = slot0._tf:Find("shuzi/1"):GetComponent(typeof(Image))
-	slot0.number2 = slot0._tf:Find("shuzi/2"):GetComponent(typeof(Image))
-	slot0.awardProgressTF = slot0._tf:Find("zhuanpanxinxi/jindu")
-	slot0.awardProgress1TF = slot0._tf:Find("zhuanpanxinxi/jindu/zhuanpan")
+	slot2 = slot0._tf
+	slot0.engineBottom = slot2:Find("tuitong/4")
+	slot2 = slot0._tf
+	slot2 = slot2:Find("shuzi/1")
+	slot0.number1 = slot2:GetComponent(typeof(Image))
+	slot2 = slot0._tf
+	slot2 = slot2:Find("shuzi/2")
+	slot0.number2 = slot2:GetComponent(typeof(Image))
+	slot2 = slot0._tf
+	slot0.awardProgressTF = slot2:Find("zhuanpanxinxi/jindu")
+	slot2 = slot0._tf
+	slot0.awardProgress1TF = slot2:Find("zhuanpanxinxi/jindu/zhuanpan")
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
 	slot0.mapProgreeses = {
-		slot0._tf:Find("zhuanpanxinxi/deng1"),
-		slot0._tf:Find("zhuanpanxinxi/deng2"),
-		slot0._tf:Find("zhuanpanxinxi/deng3")
+		slot3:Find("zhuanpanxinxi/deng1"),
+		slot3:Find("zhuanpanxinxi/deng2"),
+		slot3:Find("zhuanpanxinxi/deng3")
 	}
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
 	slot0.mapPasswords = {
-		slot0._tf:Find("dengguang/code1/1"),
-		slot0._tf:Find("dengguang/code1/2"),
-		slot0._tf:Find("dengguang/code1/3"),
-		slot0._tf:Find("dengguang/code1/4"),
-		slot0._tf:Find("dengguang/code1/5"),
-		slot0._tf:Find("dengguang/code1/6")
+		slot3:Find("dengguang/code1/1"),
+		slot3:Find("dengguang/code1/2"),
+		slot3:Find("dengguang/code1/3"),
+		slot3:Find("dengguang/code1/4"),
+		slot3:Find("dengguang/code1/5"),
+		slot3:Find("dengguang/code1/6")
 	}
-	slot0.encodingPanel = slot0._tf:Find("encoding")
-	slot0.encodingSlider = slot0._tf:Find("encoding/slider/bar")
+	slot2 = slot0._tf
+	slot0.encodingPanel = slot2:Find("encoding")
+	slot2 = slot0._tf
+	slot0.encodingSlider = slot2:Find("encoding/slider/bar")
 
 	setActive(slot0.encodingPanel, false)
 
-	slot0.enterAnim = slot0._tf:Find("enter_anim")
-	slot0.enterAnimTop = slot0._tf:Find("enter_anim/top")
-	slot0.enterAnimBottom = slot0._tf:Find("enter_anim/bottom")
+	slot2 = slot0._tf
+	slot0.enterAnim = slot2:Find("enter_anim")
+	slot2 = slot0._tf
+	slot0.enterAnimTop = slot2:Find("enter_anim/top")
+	slot2 = slot0._tf
+	slot0.enterAnimBottom = slot2:Find("enter_anim/bottom")
 
 	setActive(slot0.enterAnim, false)
 
-	slot0.bookBtn = slot0._tf:Find("btn/mima/unlock")
-	slot0.mimaLockBtn = slot0._tf:Find("btn/mima/lock")
-	slot0.mimaLockBlink = slot0._tf:Find("btn/mima/blink")
-	slot0.code1Panel = slot0._tf:Find("dengguang/code1")
-	slot0.code2Panel = slot0._tf:Find("dengguang/code2")
-	slot0.passWordTF = slot0._tf:Find("game/password")
+	slot2 = slot0._tf
+	slot0.bookBtn = slot2:Find("btn/mima/unlock")
+	slot2 = slot0._tf
+	slot0.mimaLockBtn = slot2:Find("btn/mima/lock")
+	slot2 = slot0._tf
+	slot0.mimaLockBlink = slot2:Find("btn/mima/blink")
+	slot2 = slot0._tf
+	slot0.code1Panel = slot2:Find("dengguang/code1")
+	slot2 = slot0._tf
+	slot0.code2Panel = slot2:Find("dengguang/code2")
+	slot2 = slot0._tf
+	slot0.passWordTF = slot2:Find("game/password")
 	slot0.containerSize = slot0.mapItemContainer.sizeDelta
-	slot0.mosaic = slot0._tf:Find("game/Mosaic")
-	slot0.lines = slot0._tf:Find("game/grids")
+	slot2 = slot0._tf
+	slot0.mosaic = slot2:Find("game/Mosaic")
+	slot2 = slot0._tf
+	slot0.lines = slot2:Find("game/grids")
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot0._tf
 	slot0.code2 = {
-		slot0._tf:Find("dengguang/code2/1"),
-		slot0._tf:Find("dengguang/code2/2"),
-		slot0._tf:Find("dengguang/code2/3"),
-		slot0._tf:Find("dengguang/code2/4"),
-		slot0._tf:Find("dengguang/code2/5"),
-		slot0._tf:Find("dengguang/code2/6"),
-		slot0._tf:Find("dengguang/code2/7"),
-		slot0._tf:Find("dengguang/code2/8"),
-		slot0._tf:Find("dengguang/code2/9")
+		slot3:Find("dengguang/code2/1"),
+		slot3:Find("dengguang/code2/2"),
+		slot3:Find("dengguang/code2/3"),
+		slot3:Find("dengguang/code2/4"),
+		slot3:Find("dengguang/code2/5"),
+		slot3:Find("dengguang/code2/6"),
+		slot3:Find("dengguang/code2/7"),
+		slot3:Find("dengguang/code2/8"),
+		slot3:Find("dengguang/code2/9")
 	}
-	slot0.lightRight = slot0._tf:Find("dengguang/code2/light_right")
-	slot0.lightLeft = slot0._tf:Find("dengguang/code2/light_left")
-	slot0.awardLock = slot0._tf:Find("zhuanpanxinxi/item/lock")
-	slot0.awardGot = slot0._tf:Find("zhuanpanxinxi/item/got")
+	slot2 = slot0._tf
+	slot0.lightRight = slot2:Find("dengguang/code2/light_right")
+	slot2 = slot0._tf
+	slot0.lightLeft = slot2:Find("dengguang/code2/light_left")
+	slot2 = slot0._tf
+	slot0.awardLock = slot2:Find("zhuanpanxinxi/item/lock")
+	slot2 = slot0._tf
+	slot0.awardGot = slot2:Find("zhuanpanxinxi/item/got")
 	slot0.screenHeight = slot0._tf.rect.height
 	slot0.engineBottom.localPosition = Vector3(slot0.engineBottom.localPosition.x, -slot0.screenHeight / 2, 0)
 	slot0.code2Panel.localPosition = Vector3(slot0.code2Panel.localPosition.x, slot0.screenHeight / 2, 0)
-	slot0.line1 = slot0._tf:Find("game/lines/line1")
+	slot2 = slot0._tf
+	slot0.line1 = slot2:Find("game/lines/line1")
 	slot0.blinkFlag = false
-	slot0.helperTF = slot0._tf:Find("helper")
-	slot0.tips = slot0._tf:Find("btn/tips")
+	slot2 = slot0._tf
+	slot0.helperTF = slot2:Find("helper")
+	slot2 = slot0._tf
+	slot0.tips = slot2:Find("btn/tips")
 	slot0.animCallbacks = {}
-	slot0.decodeTV = slot0._tf:Find("game/zhezhao/DecodeTV")
-	slot0.anim = slot0.decodeTV:GetComponent(typeof(Animator))
-	slot0.dftAniEvent = slot0.decodeTV:GetComponent(typeof(DftAniEvent))
+	slot2 = slot0._tf
+	slot0.decodeTV = slot2:Find("game/zhezhao/DecodeTV")
+	slot2 = slot0.decodeTV
+	slot0.anim = slot2:GetComponent(typeof(Animator))
+	slot2 = slot0.decodeTV
+	slot0.dftAniEvent = slot2:GetComponent(typeof(DftAniEvent))
+	slot2 = slot0.dftAniEvent
 
-	slot0.dftAniEvent:SetEndEvent(function (slot0)
+	slot2:SetEndEvent(function (slot0)
 		for slot4, slot5 in ipairs(uv0.animCallbacks) do
 			slot5()
 		end
@@ -120,13 +178,16 @@ function slot0.DoEnterAnim(slot0, slot1)
 end
 
 function slot0.Inited(slot0, slot1)
-	onButton(slot0, slot0._tf:Find("btn/back"), function ()
+	slot4 = slot0._tf
+
+	onButton(slot0, slot4:Find("btn/back"), function ()
 		uv0.controller:ExitGame()
 	end, SFX_CANCEL)
 
+	slot4 = slot0._tf
 	slot6 = SFX_PANEL
 
-	onButton(slot0, slot0._tf:Find("btn/help"), function ()
+	onButton(slot0, slot4:Find("btn/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.decodegame_gametip.tip
@@ -166,11 +227,13 @@ function slot0.UpdateMap(slot0, slot1)
 	end)
 	slot0.itemList:align(#slot1.items)
 
+	slot2 = _.flatten(slot1.password)
+
 	for slot6, slot7 in ipairs(slot0.mapPasswords) do
 		slot8 = "-"
 
 		if slot1.isUnlock then
-			slot8 = _.flatten(slot1.password)[slot6]
+			slot8 = slot2[slot6]
 		end
 
 		slot7:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/DecodeGameUI_atlas", slot8 .. "-1")
@@ -201,11 +264,17 @@ function slot0.UpdateMapItem(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.OnMapRepairing(slot0, slot1)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.encodingPanel)
+	slot2 = pg.UIMgr.GetInstance()
+
+	slot2:BlurPanel(slot0.encodingPanel)
 	setActive(slot0.encodingPanel, true)
-	LeanTween.value(go(slot0.encodingSlider), 0, 1, DecodeGameConst.DECODE_MAP_TIME):setOnUpdate(System.Action_float(function (slot0)
+
+	slot2 = LeanTween.value(go(slot0.encodingSlider), 0, 1, DecodeGameConst.DECODE_MAP_TIME)
+	slot2 = slot2:setOnUpdate(System.Action_float(function (slot0)
 		setFillAmount(uv0.encodingSlider, slot0)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot2:setOnComplete(System.Action(function ()
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.encodingPanel, uv0._tf)
 		setActive(uv0.encodingPanel, false)
 		uv1()
@@ -235,7 +304,9 @@ end
 function slot0.OnEnterMap(slot0, slot1, slot2, slot3)
 	parallelAsync({
 		function (slot0)
-			uv0:OnSwitch(uv1, -150, -11, 23, 158, 90, function ()
+			slot1 = uv0
+
+			slot1:OnSwitch(uv1, -150, -11, 23, 158, 90, function ()
 				uv0()
 			end)
 		end,
@@ -247,13 +318,20 @@ function slot0.OnEnterMap(slot0, slot1, slot2, slot3)
 			end
 
 			setActive(uv1.mapLine, true)
-			LeanTween.value(go(uv1.mapItemContainer), 0, uv1.containerSize.y, DecodeGameConst.SCAN_MAP_TIME):setOnUpdate(System.Action_float(function (slot0)
+
+			slot1 = LeanTween.value(go(uv1.mapItemContainer), 0, uv1.containerSize.y, DecodeGameConst.SCAN_MAP_TIME)
+			slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 				uv0.mapItemContainer.sizeDelta = Vector2(uv0.containerSize.x, slot0)
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot1:setOnComplete(System.Action(function ()
 				setActive(uv0.mapLine, false)
 				uv1()
 			end))
-			LeanTween.value(go(uv1.mapLine), 286, 286 - uv1.containerSize.y, DecodeGameConst.SCAN_MAP_TIME):setOnUpdate(System.Action_float(function (slot0)
+
+			slot1 = LeanTween.value(go(uv1.mapLine), 286, 286 - uv1.containerSize.y, DecodeGameConst.SCAN_MAP_TIME)
+
+			slot1:setOnUpdate(System.Action_float(function (slot0)
 				uv0.mapLine.localPosition = Vector2(uv0.mapLine.localPosition.x, slot0, 0)
 			end))
 		end
@@ -292,9 +370,14 @@ function slot0.UpdateProgress(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot0.mapProgreeses[3], slot3[3])
 
 	if slot2 == DecodeGameConst.MAX_MAP_COUNT and not slot0.blinkFlag then
-		LeanTween.moveLocalX(go(slot0.mimaLockBtn), 150, 0.3):setOnComplete(System.Action(function ()
+		slot6 = LeanTween.moveLocalX(go(slot0.mimaLockBtn), 150, 0.3)
+
+		slot6:setOnComplete(System.Action(function ()
 			setActive(uv0.mimaLockBlink, true)
-			blinkAni(go(uv0.mimaLockBlink), 0.2, 2):setOnComplete(System.Action(function ()
+
+			slot0 = blinkAni(go(uv0.mimaLockBlink), 0.2, 2)
+
+			slot0:setOnComplete(System.Action(function ()
 				setActive(uv0.mimaLockBlink, false)
 				uv1()
 			end))
@@ -376,24 +459,28 @@ function slot0.OnEnterNormalMap(slot0, slot1, slot2)
 end
 
 function slot0.OnDecodeMap(slot0, slot1, slot2)
+	slot3 = {}
+
+	function slot4(slot0)
+		for slot4, slot5 in ipairs(uv0.items) do
+			if slot5.index == slot0 then
+				return slot5
+			end
+		end
+	end
+
 	for slot8, slot9 in ipairs(slot1.passwordIndexs) do
 		slot10 = slot0.mapItems[slot9]
 		slot11 = slot10:Find("rect").sizeDelta
 		slot12 = slot10.localPosition
 
 		slot10:SetAsLastSibling()
-		table.insert({}, {
+		table.insert(slot3, {
 			target = slot10,
 			sizeDelta = slot11,
 			starPosition = Vector2(slot12.x + slot11.x / 2, slot12.y - slot11.y / 2),
 			endPosition = Vector2(slot12.x - slot11.x / 2, slot12.y + slot11.y / 2),
-			item = (function (slot0)
-				for slot4, slot5 in ipairs(uv0.items) do
-					if slot5.index == slot0 then
-						return slot5
-					end
-				end
-			end)(slot9)
+			item = slot4(slot9)
 		})
 	end
 
@@ -401,19 +488,26 @@ function slot0.OnDecodeMap(slot0, slot1, slot2)
 		slot0 = Vector2(0, uv0.line1.localPosition.y)
 
 		for slot4, slot5 in ipairs(uv1) do
-			if slot5.starPosition.y <= slot0.y and slot0.y <= slot5.endPosition.y then
-				slot9.sizeDelta = Vector2(slot5.target:Find("rect").sizeDelta.x, slot5.sizeDelta.y - (slot0.y - slot7.y))
+			slot8 = slot5.endPosition
+			slot10 = slot5.target:Find("rect").sizeDelta
+
+			if slot5.starPosition.y <= slot0.y and slot0.y <= slot8.y then
+				slot9.sizeDelta = Vector2(slot10.x, slot5.sizeDelta.y - (slot0.y - slot7.y))
 			end
 		end
 	end
 
 	setActive(slot0.line1, true)
-	LeanTween.value(go(slot0.line1), 0, DecodeGameConst.BLOCK_SIZE[1] * DecodeGameConst.MAP_ROW, DecodeGameConst.SCAN_GRID_TIME):setOnUpdate(System.Action_float(function (slot0)
+
+	slot7 = LeanTween.value(go(slot0.line1), 0, DecodeGameConst.BLOCK_SIZE[1] * DecodeGameConst.MAP_ROW, DecodeGameConst.SCAN_GRID_TIME)
+	slot7 = slot7:setOnUpdate(System.Action_float(function (slot0)
 		setAnchoredPosition(uv0.line1, {
 			y = slot0
 		})
 		uv1()
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot7:setOnComplete(System.Action(function ()
 		setActive(uv0.line1, false)
 
 		for slot3, slot4 in ipairs(uv1) do
@@ -458,13 +552,18 @@ function slot0.OnFalseCode(slot0, slot1)
 	slot0.timer1 = Timer.New(function ()
 		setActive(uv0.lightLeft, false)
 	end, 1, 1)
+	slot2 = slot0.timer1
 
-	slot0.timer1:Start()
+	slot2:Start()
 
-	slot3 = slot0.mapItems[slot1]:Find("rays/yellow")
+	slot2 = slot0.mapItems[slot1]
+	slot3 = slot2:Find("rays/yellow")
 
 	setActive(slot3, true)
-	blinkAni(slot3, 0.2, 2):setOnComplete(System.Action(function (...)
+
+	slot4 = blinkAni(slot3, 0.2, 2)
+
+	slot4:setOnComplete(System.Action(function (...)
 		setActive(uv0, false)
 	end))
 end
@@ -484,10 +583,17 @@ function slot0.RemoveTimers(slot0)
 end
 
 function slot0.OnSuccess(slot0, slot1)
-	LeanTween.value(go(slot0.awardLock:Find("icon")), 0, -140, DecodeGameConst.GET_AWARD_ANIM_TIME / 2):setOnUpdate(System.Action_float(function (slot0)
+	slot3 = slot0.awardLock
+	slot3 = LeanTween.value(go(slot3:Find("icon")), 0, -140, DecodeGameConst.GET_AWARD_ANIM_TIME / 2)
+	slot3 = slot3:setOnUpdate(System.Action_float(function (slot0)
 		tf(uv0).eulerAngles = Vector3(0, 0, slot0)
-	end)):setOnComplete(System.Action(function ()
-		LeanTween.moveLocalX(uv0, 132, DecodeGameConst.GET_AWARD_ANIM_TIME / 2):setFrom(0):setOnComplete(System.Action(function ()
+	end))
+
+	slot3:setOnComplete(System.Action(function ()
+		slot0 = LeanTween.moveLocalX(uv0, 132, DecodeGameConst.GET_AWARD_ANIM_TIME / 2)
+		slot0 = slot0:setFrom(0)
+
+		slot0:setOnComplete(System.Action(function ()
 			setActive(uv0.awardLock, false)
 			setActive(uv0.awardGot, true)
 			uv1()
@@ -506,7 +612,8 @@ function slot0.ShowHelper(slot0, slot1, slot2)
 	PlayerPrefs.Save()
 	setActive(slot0.helperTF, true)
 
-	slot5 = slot0.helperTF:Find("Image")
+	slot5 = slot0.helperTF
+	slot5 = slot5:Find("Image")
 	slot6 = DecodeGameConst.HELP_BGS[slot1]
 
 	setImageSprite(slot5, LoadSprite("helpbg/" .. slot6[1], ""))

@@ -1349,17 +1349,23 @@ function slot56(slot0, slot1)
 					if uv3 < slot0._hookTf.sizeDelta.y * math.cos(math.deg2Rad * math.abs(slot0.hookRotation)) or uv4 < slot0._hookTf.sizeDelta.y then
 						slot0.throwHook = false
 					end
-				elseif not slot0.catchItem and slot0:hookBack() then
-					slot0.boatState = uv0
-				elseif slot0.catchItem then
-					if (slot0.catchItem.data.catch == uv5 or slot0.catchItem.data.act == uv6) and uv7 < slot0._sceneContent:InverseTransformPoint(slot0._hookContent.position).y then
-						slot0.boatState = uv8
+				else
+					slot1 = slot0:hookBack()
 
-						slot0:leaveItem()
-					elseif slot1 then
-						slot0.boatState = uv8
+					if not slot0.catchItem and slot1 then
+						slot0.boatState = uv0
+					elseif slot0.catchItem then
+						slot3 = slot0._sceneContent:InverseTransformPoint(slot0._hookContent.position)
 
-						slot0:leaveItem()
+						if (slot0.catchItem.data.catch == uv5 or slot0.catchItem.data.act == uv6) and uv7 < slot3.y then
+							slot0.boatState = uv8
+
+							slot0:leaveItem()
+						elseif slot1 then
+							slot0.boatState = uv8
+
+							slot0:leaveItem()
+						end
 					end
 				end
 			elseif slot0.boatState == uv8 then
@@ -1583,12 +1589,13 @@ function slot57(slot0, slot1, slot2, slot3)
 		end,
 		prepareItems = function (slot0)
 			for slot5, slot6 in pairs(uv0[math.random(1, #uv0)]) do
+				slot9 = slot6.repeated
 				slot11 = slot0:getItemsByType(slot6.type, slot6.name)
 
 				for slot15 = 1, math.random(slot6.amount[1], slot6.amount[2]) do
 					slot16 = nil
 
-					if slot6.repeated then
+					if slot9 then
 						slot16 = slot11[math.random(1, #slot11)]
 					elseif #slot11 > 0 then
 						slot16 = table.remove(slot11, math.random(1, #slot11))
@@ -1672,39 +1679,48 @@ function slot57(slot0, slot1, slot2, slot3)
 
 			slot3 = slot0:mixSplitePos(slot0:splitePositions(0, slot0._createBounds[1]), slot0:splitePositions(0, slot0._createBounds[2]))
 
-			for slot8 = 1, #slot0.items do
-				if (function (slot0)
-					if slot0 then
-						slot1 = {}
+			function slot4(slot0)
+				if slot0 then
+					slot1 = {}
 
-						for slot5 = 1, #uv0 do
-							slot7 = uv0[slot5]
+					for slot5 = 1, #uv0 do
+						slot6 = slot5
+						slot7 = uv0[slot5]
+						slot9 = slot0[2]
+						slot10 = slot0[3]
+						slot11 = slot0[4]
+						slot13 = slot7[1][2]
+						slot14 = slot7[2][1]
+						slot15 = slot7[2][2]
 
-							if slot0[1] <= slot7[1][1] and slot7[1][2] <= slot0[2] and slot0[3] <= slot7[2][1] and slot7[2][2] <= slot0[4] then
-								table.insert(slot1, slot5)
-							end
-						end
-
-						if #slot1 > 0 then
-							return table.remove(uv0, slot1[math.random(1, #slot1)])
+						if slot0[1] <= slot7[1][1] and slot13 <= slot9 and slot10 <= slot14 and slot15 <= slot11 then
+							table.insert(slot1, slot6)
 						end
 					end
 
-					if #uv0 > 0 then
-						return table.remove(uv0, math.random(1, #uv0))
-					else
-						return {
-							{
-								0,
-								1300
-							},
-							{
-								100,
-								300
-							}
+					if #slot1 > 0 then
+						return table.remove(uv0, slot1[math.random(1, #slot1)])
+					end
+				end
+
+				if #uv0 > 0 then
+					return table.remove(uv0, math.random(1, #uv0))
+				else
+					return {
+						{
+							0,
+							1300
+						},
+						{
+							100,
+							300
 						}
-					end
-				end)(slot0.items[slot8].data.create_range) then
+					}
+				end
+			end
+
+			for slot8 = 1, #slot0.items do
+				if slot4(slot0.items[slot8].data.create_range) then
 					slot0.items[slot8].tf.anchoredPosition = Vector2(slot9[1][1] + math.random() * (slot9[1][2] - slot9[1][1]) / 2, slot9[2][1] + math.random() * (slot9[2][2] - slot9[2][1]) / 2)
 				end
 			end
@@ -1713,9 +1729,11 @@ function slot57(slot0, slot1, slot2, slot3)
 			slot3 = {}
 
 			for slot7 = 1, #slot1 do
+				slot8 = slot1[slot7]
+
 				for slot12 = 1, #slot2 do
 					table.insert(slot3, {
-						slot1[slot7],
+						slot8,
 						slot2[slot12]
 					})
 				end
@@ -1801,8 +1819,10 @@ function slot57(slot0, slot1, slot2, slot3)
 			for slot4 = #slot0.items, 1, -1 do
 				if slot0.items[slot4].data.act == uv0 and slot5.moveAble then
 					if not slot5.targetX then
+						slot7 = slot5.data.move_range[2]
+
 						if slot5.tf.anchoredPosition.x == slot5.data.move_range[1] then
-							slot5.targetX = slot5.data.move_range[2]
+							slot5.targetX = slot7
 						elseif slot5.tf.anchoredPosition.x == slot7 then
 							slot5.targetX = slot6
 						else
@@ -1943,8 +1963,10 @@ function slot59(slot0, slot1)
 				slot3 = slot1.moveToX + slot1.offsetX
 				slot4 = slot1.tf.anchoredPosition
 				slot1.tf.anchoredPosition = Vector3(slot4.x + math.sign(slot3 - slot4.x) * slot1.speed, 0)
+				slot6 = math.sign(slot4.x - slot3)
+				slot7 = math.sign(slot1.tf.anchoredPosition.x - slot3)
 
-				if slot1.tf.anchoredPosition.x == slot3 or math.sign(slot4.x - slot3) ~= math.sign(slot1.tf.anchoredPosition.x - slot3) then
+				if slot1.tf.anchoredPosition.x == slot3 or slot6 ~= slot7 then
 					slot1.moveToX = nil
 					slot1.offsetX = nil
 				else
@@ -2249,11 +2271,12 @@ function slot0.initUI(slot0)
 		uv0:readyStart()
 	end, SFX_CANCEL)
 
+	slot2 = findTF(slot0.menuUI, "tplBattleItem")
 	slot0.battleItems = {}
 	slot0.dropItems = {}
 
 	for slot6 = 1, 7 do
-		slot7 = tf(instantiate(findTF(slot0.menuUI, "tplBattleItem")))
+		slot7 = tf(instantiate(slot2))
 		slot7.name = "battleItem_" .. slot6
 
 		setParent(slot7, findTF(slot0.menuUI, "battList/Viewport/Content"))
@@ -2333,6 +2356,7 @@ function slot0.AddDebugInput(slot0)
 end
 
 function slot0.updateMenuUI(slot0)
+	slot1 = slot0:getGameUsedTimes()
 	slot2 = slot0:getGameTimes()
 
 	for slot6 = 1, #slot0.battleItems do
@@ -2341,7 +2365,7 @@ function slot0.updateMenuUI(slot0)
 		setActive(findTF(slot0.battleItems[slot6], "state_clear"), false)
 		setActive(findTF(slot0.battleItems[slot6], "state_current"), false)
 
-		if slot6 <= slot0:getGameUsedTimes() then
+		if slot6 <= slot1 then
 			setActive(findTF(slot0.battleItems[slot6], "state_clear"), true)
 			SetParent(slot0.dropItems[slot6], findTF(slot0.battleItems[slot6], "state_clear/icon"))
 			setActive(slot0.dropItems[slot6], true)

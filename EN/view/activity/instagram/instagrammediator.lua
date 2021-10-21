@@ -64,6 +64,8 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	function slot4()
 		uv0.viewComponent:SetProxy(getProxy(InstagramProxy))
 		uv0.viewComponent:UpdateInstagram(uv1.id)
@@ -73,7 +75,7 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.ACT_INSTAGRAM_OP_DONE then
 		slot0.viewComponent:SetProxy(getProxy(InstagramProxy))
 
-		if slot1:getBody().cmd == ActivityConst.INSTAGRAM_OP_SHARE then
+		if slot3.cmd == ActivityConst.INSTAGRAM_OP_SHARE then
 			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeInstagram)
 		elseif slot3.cmd == ActivityConst.INSTAGRAM_OP_LIKE then
 			slot4()

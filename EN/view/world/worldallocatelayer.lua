@@ -22,21 +22,24 @@ function slot0.init(slot0)
 	slot0.nameTF = slot0:findTF("item/name_container/name")
 	slot0.descTF = slot0:findTF("item/desc")
 	slot0.fleetInfo = slot0:findTF("fleet_info")
+	slot2 = slot0.fleetInfo
 
-	setText(slot0.fleetInfo:Find("top/Text"), i18n("world_ship_repair"))
+	setText(slot2:Find("top/Text"), i18n("world_ship_repair"))
 
 	slot0.shipTpl = slot0:getTpl("fleet_info/shiptpl")
 	slot0.emptyTpl = slot0:getTpl("fleet_info/emptytpl")
 	slot0.shipsContainer = slot0:findTF("fleet_info/contain")
 	slot0.descLabel = slot0:findTF("fleet_info/top/Text")
+	slot2 = slot0.fleetInfo
 
-	setText(slot0.fleetInfo:Find("tip/Text"), i18n("world_battle_damage"))
+	setText(slot2:Find("tip/Text"), i18n("world_battle_damage"))
 
 	slot0.countLabel = slot0:findTF("count")
 	slot0.quotaTxt = slot0:findTF("count/value")
 	slot0.btnFleet = slot0:findTF("fleets/selected")
 	slot0.fleetToggleMask = slot0:findTF("fleets/list_mask")
-	slot0.fleetToggleList = slot0.fleetToggleMask:Find("list")
+	slot1 = slot0.fleetToggleMask
+	slot0.fleetToggleList = slot1:Find("list")
 
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:closeView()
@@ -64,7 +67,8 @@ function slot0.init(slot0)
 			slot1 = false
 
 			if uv0.itemVO:getWorldItemType() == WorldItem.UsageBuff then
-				slot3 = uv0.itemVO:getItemBuffID()
+				slot3 = uv0.itemVO
+				slot3 = slot3:getItemBuffID()
 				slot1 = _.any(uv0._selectedShipList, function (slot0)
 					return slot0:IsBuffMax()
 				end)
@@ -90,7 +94,10 @@ function slot0.init(slot0)
 	onButton(slot0, slot0.btnFleet, function ()
 		uv0:showOrHideToggleMask(true)
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("item/reset_btn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("item/reset_btn"), function ()
 		uv0.contextData.onResetInfo({
 			count = 1,
 			type = DROP_TYPE_WORLD_ITEM,
@@ -100,10 +107,12 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
+	slot1 = slot0.contextData.fleetIndex or 1
+
 	setActive(slot0.fleetToggleMask, true)
 
 	for slot5, slot6 in ipairs(slot0.fleetList) do
-		if slot6.id == (slot0.contextData.fleetIndex or 1) then
+		if slot6.id == slot1 then
 			triggerToggle(slot0.fleetToggleList:GetChild(slot0.fleetToggleList.childCount - slot5), true)
 
 			break
@@ -224,13 +233,15 @@ function slot0.setFleet(slot0, slot1)
 	slot0.currentFleetIndex = slot1
 	slot0._selectedShipList = {}
 	slot0._shipTFList = {}
+	slot3 = slot0.fleetList[slot0.currentFleetIndex]
+	slot5 = underscore.map(slot3:GetShips(true), function (slot0)
+		return WorldConst.FetchShipVO(slot0.id)
+	end)
 	slot6 = slot0.quota
 
 	for slot10 = 1, 6 do
 		slot11 = slot4[slot10]
-		slot12 = underscore.map(slot0.fleetList[slot0.currentFleetIndex]:GetShips(true), function (slot0)
-			return WorldConst.FetchShipVO(slot0.id)
-		end)[slot10]
+		slot12 = slot5[slot10]
 
 		if slot4[slot10] then
 			slot13 = cloneTplTo(slot0.shipTpl, slot0.shipsContainer)
@@ -259,20 +270,25 @@ function slot0.setFleet(slot0, slot1)
 		end
 	end
 
-	setActive(slot0.fleetInfo:Find("tip"), underscore.any(slot4, function (slot0)
+	slot8 = slot0.fleetInfo
+
+	setActive(slot8:Find("tip"), underscore.any(slot4, function (slot0)
 		return slot0:IsBroken()
 	end))
 end
 
 function slot0.OnUpdateShipHP(slot0)
+	slot1 = slot0.fleetList[slot0.currentFleetIndex]
 	slot2 = slot0.itemVO:getItemBuffID()
 
 	for slot6, slot7 in pairs(slot0._shipTFList) do
 		if slot0._preSelectedList[slot6] then
-			setImageColor(slot7:Find("hp"):Find("progress_bg/bar"), slot0.fleetList[slot0.currentFleetIndex]:GetShip(slot6):IsHpSafe() and Color.New(0.615686274509804, 0.9176470588235294, 0.23529411764705882) or Color.New(0.615686274509804, 0.9176470588235294, 0.23529411764705882))
+			setImageColor(slot7:Find("hp"):Find("progress_bg/bar"), slot1:GetShip(slot6):IsHpSafe() and Color.New(0.615686274509804, 0.9176470588235294, 0.23529411764705882) or Color.New(0.615686274509804, 0.9176470588235294, 0.23529411764705882))
 
 			if slot10:GetComponent(typeof(Image)).fillAmount < slot8.hpRant / 10000 then
-				LeanTween.value(go(slot10), slot11, slot12, slot12 - slot11):setOnUpdate(System.Action_float(function (slot0)
+				slot13 = LeanTween.value(go(slot10), slot11, slot12, slot12 - slot11)
+
+				slot13:setOnUpdate(System.Action_float(function (slot0)
 					uv0:GetComponent(typeof(Image)).fillAmount = slot0
 				end))
 			end
@@ -291,11 +307,12 @@ function slot0.OnUpdateShipHP(slot0)
 end
 
 function slot0.OnUpdateShipBuff(slot0)
+	slot1 = slot0.fleetList[slot0.currentFleetIndex]
 	slot2 = slot0.itemVO:getItemBuffID()
 
 	for slot6, slot7 in pairs(slot0._shipTFList) do
 		if slot0._preSelectedList[slot6] then
-			slot9 = slot0.fleetList[slot0.currentFleetIndex]:GetShip(slot6)
+			slot9 = slot1:GetShip(slot6)
 
 			setText(slot7:Find("buff/value"), slot9:IsBuffMax(slot2) and "Lv.MAX" or "Lv." .. slot9:GetBuff(slot2):GetFloor())
 
@@ -306,7 +323,9 @@ function slot0.OnUpdateShipBuff(slot0)
 			end
 
 			if IsNil(slot7:Find("buff/bg/levelup(Clone)")) then
-				PoolMgr.GetInstance():GetUI("levelup", true, function (slot0)
+				slot13 = PoolMgr.GetInstance()
+
+				slot13:GetUI("levelup", true, function (slot0)
 					if IsNil(uv0._tf) then
 						PoolMgr.GetInstance():ReturnUI("levelup", slot0)
 					else

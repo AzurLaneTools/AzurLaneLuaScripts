@@ -9,8 +9,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot6 = getProxy(ChallengeProxy)
+	slot7 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(24011, {
+	slot7:Send(24011, {
 		activity_id = slot5.id,
 		mode = slot2
 	}, 24012, function (slot0)

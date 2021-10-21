@@ -9725,11 +9725,11 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "Tosa,Amagi, and more added to standard build pool! "
+	tip = "Tosa, Amagi, and more added to standard build pool! "
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "Hanazuki,Naganami, and more added to standard build pool! "
+	tip = "Hanazuki, Naganami, and more added to standard build pool! "
 }
 
 _G.pg.gametip.buildship_special_tip = {

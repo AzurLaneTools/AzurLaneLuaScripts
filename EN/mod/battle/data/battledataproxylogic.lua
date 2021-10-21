@@ -79,6 +79,14 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 	slot14 = slot11.isCri
 
 	slot1:AppendDamageUnit(slot2:GetUniqueID())
+
+	slot18 = {
+		target = slot2,
+		damage = slot10,
+		weaponType = slot8.type,
+		equipIndex = slot6:GetEquipmentIndex()
+	}
+
 	slot1:GetWeapon():WeaponStatistics(slot10, slot14, slot13)
 	slot2:UpdateHP(slot10 * -1, {
 		isHeal = false,
@@ -92,12 +100,7 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 	slot0:DamageStatistics(slot7.id, slot2:GetAttrByName("id"), slot10)
 
 	if not slot13 and slot1:GetWeaponTempData().type ~= uv2.EquipmentType.ANTI_AIR then
-		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, {
-			target = slot2,
-			damage = slot10,
-			weaponType = slot8.type,
-			equipIndex = slot6:GetEquipmentIndex()
-		})
+		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot18)
 	end
 
 	slot22 = true
@@ -128,8 +131,10 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.HandleMeteoDamage(slot0, slot1, slot2)
+	slot3 = uv0.GetMeteoDamageRatio(#slot2)
+
 	for slot7, slot8 in ipairs(slot2) do
-		slot0:HandleDamage(slot1, slot8, nil, uv0.GetMeteoDamageRatio(#slot2)[slot7])
+		slot0:HandleDamage(slot1, slot8, nil, slot3[slot7])
 	end
 end
 

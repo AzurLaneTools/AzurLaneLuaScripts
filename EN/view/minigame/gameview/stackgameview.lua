@@ -14,9 +14,13 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 
 	slot0.controller = PileGameController.New()
+	slot1 = slot0.controller.view
 
-	slot0.controller.view:SetUI(slot0._go)
-	slot0.controller:SetUp(slot0:PackData(), function (slot0, slot1)
+	slot1:SetUI(slot0._go)
+
+	slot2 = slot0.controller
+
+	slot2:SetUp(slot0:PackData(), function (slot0, slot1)
 		if slot1 < slot0 then
 			uv0:StoreDataToServer({
 				slot0

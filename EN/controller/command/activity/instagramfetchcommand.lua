@@ -2,9 +2,11 @@ slot0 = class("InstagramFetchCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot4 = getProxy(ActivityProxy):getActivityById(slot2.activity_id)
+	slot3 = getProxy(ActivityProxy)
+	slot4 = slot3:getActivityById(slot2.activity_id)
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(11202, {
+	slot5:Send(11202, {
 		cmd = 6,
 		activity_id = slot2.activity_id,
 		arg_list = {}

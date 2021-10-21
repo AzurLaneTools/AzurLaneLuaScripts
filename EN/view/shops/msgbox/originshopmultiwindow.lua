@@ -45,9 +45,10 @@ end
 function slot0.InitWindow(slot0, slot1, slot2)
 	slot3 = slot1:getDropInfo()
 	slot4, slot5 = getPlayerOwn(DROP_TYPE_RESOURCE, slot1:getConfig("resource_type"))
+	slot6 = math.max(math.floor(slot5 / slot1:getConfig("resource_num")), 1)
 
 	if slot1:getLimitCount() ~= 0 then
-		slot6 = math.min(math.max(math.floor(slot5 / slot1:getConfig("resource_num")), 1), slot7 - slot1.buyCount)
+		slot6 = math.min(slot6, slot7 - slot1.buyCount)
 	end
 
 	(function (slot0)

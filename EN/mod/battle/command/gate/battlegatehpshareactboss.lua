@@ -9,6 +9,8 @@ function slot0.Entrance(slot0, slot1)
 
 	slot2 = slot0.actID
 	slot3 = getProxy(PlayerProxy)
+	slot4 = getProxy(BayProxy)
+	slot5 = getProxy(FleetProxy)
 	slot7 = pg.battle_cost_template[SYSTEM_HP_SHARE_ACT_BOSS].oil_cost > 0
 	slot8 = {}
 	slot9 = 0
@@ -16,7 +18,7 @@ function slot0.Entrance(slot0, slot1)
 	slot11 = 0
 	slot12 = 0
 
-	for slot18, slot19 in ipairs(getProxy(BayProxy):getSortShipsByFleet(getProxy(FleetProxy):getActivityFleets()[slot2][slot0.mainFleetId])) do
+	for slot18, slot19 in ipairs(slot4:getSortShipsByFleet(slot5:getActivityFleets()[slot2][slot0.mainFleetId])) do
 		slot8[#slot8 + 1] = slot19.id
 	end
 
@@ -57,13 +59,17 @@ function slot0.Entrance(slot0, slot1)
 		})
 
 		if uv4.enter_energy_cost > 0 and not exFlag then
+			slot2 = pg.gameset.battle_consume_energy.key_value
+
 			for slot6, slot7 in ipairs(uv5) do
-				slot7:cosumeEnergy(pg.gameset.battle_consume_energy.key_value)
+				slot7:cosumeEnergy(slot2)
 				uv6:updateShip(slot7)
 			end
 		end
 
-		uv7:updatePlayer(uv1)
+		slot2 = uv7
+
+		slot2:updatePlayer(uv1)
 		uv12:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			mainFleetId = uv8,
 			actId = uv9,
@@ -84,9 +90,10 @@ function slot0.Exit(slot0, slot1)
 	slot8 = 0
 	slot9 = {}
 	slot8 = slot7:getEndCost().oil
+	slot11 = {}
 
 	for slot15, slot16 in pairs(slot7.commanderIds) do
-		table.insert({}, slot16)
+		table.insert(slot11, slot16)
 	end
 
 	slot9 = slot4:getSortShipsByFleet(slot7)

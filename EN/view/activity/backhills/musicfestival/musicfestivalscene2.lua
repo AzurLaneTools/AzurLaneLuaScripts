@@ -36,9 +36,10 @@ function slot0.init(slot0)
 	}
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.MusicFestivalGraph2"))
 	slot0._map:GetComponent(typeof(UnityEngine.Canvas)).sortingOrder = (slot0._tf:GetComponentInParent(typeof(UnityEngine.Canvas)) and slot1.sortingOrder) - 2
+	slot3 = GetComponent(slot0._map, "ItemList")
 
 	for slot7 = 1, 3 do
-		setParent(tf(Instantiate(GetComponent(slot0._map, "ItemList").prefabItem[slot7 - 1])), slot0._map)
+		setParent(tf(Instantiate(slot3.prefabItem[slot7 - 1])), slot0._map)
 	end
 
 	slot0.loader = ThirdAnniversaryAutoloader.New()
@@ -138,7 +139,9 @@ function slot0.updateStageShip(slot0)
 		return
 	end
 
-	slot0.loader:GetSpine(slot1, function (slot0)
+	slot3 = slot0.loader
+
+	slot3:GetSpine(slot1, function (slot0)
 		slot0.transform.localScale = Vector3(0.63, 0.63, 1)
 		slot0.transform.localPosition = Vector3.zero
 
@@ -157,6 +160,7 @@ function slot0.InitStudents(slot0, slot1, slot2, slot3)
 		table.insert(slot5, slot10)
 	end
 
+	slot6 = #slot5
 	slot0.academyStudents = {}
 
 	for slot10, slot11 in pairs(slot4) do
@@ -167,7 +171,7 @@ function slot0.InitStudents(slot0, slot1, slot2, slot3)
 
 			slot14:attach()
 			slot14:setPathFinder(slot0.graphPath)
-			slot14:setCurrentIndex(slot0.ChooseRandomPos(slot5, #slot5 - 1) and slot13.id)
+			slot14:setCurrentIndex(slot0.ChooseRandomPos(slot5, slot6 - 1) and slot13.id)
 			slot14:SetOnTransEdge(function (slot0, slot1, slot2)
 				slot0._tf:SetParent(uv0[uv0.edge2area[math.min(slot1, slot2) .. "_" .. math.max(slot1, slot2)] or uv0.edge2area.default])
 			end)
@@ -188,8 +192,10 @@ function slot0.InitStudents(slot0, slot1, slot2, slot3)
 end
 
 function slot0.getStudents(slot0, slot1, slot2)
+	slot3 = {}
+
 	if not getProxy(ActivityProxy):getActivityById(slot0) then
-		return {}
+		return slot3
 	end
 
 	if slot5:getConfig("config_client") and slot6.stage_off_ship then

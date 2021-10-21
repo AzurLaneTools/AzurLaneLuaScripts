@@ -25,31 +25,37 @@ function slot0.execute(slot0, slot1)
 			taskId = uv0
 		}, 33208, function (slot0)
 			if slot0.result == 0 then
+				function slot1(slot0, slot1, slot2)
+					slot3 = getProxy(BayProxy)
+					slot4 = {}
+					slot5 = {}
+
+					for slot10, slot11 in ipairs(slot0:GetShipVOs()) do
+						table.insert(slot4, slot11)
+
+						slot12 = slot3:getShipById(slot11.id)
+
+						slot12:setIntimacy(slot12:getIntimacy() + slot2)
+						slot12:addExp(slot1)
+						slot3:updateShip(slot12)
+						table.insert(slot5, WorldConst.FetchShipVO(slot11.id))
+					end
+
+					return {
+						oldships = slot4,
+						newships = slot5
+					}
+				end
+
+				slot2 = {}
 				slot3 = slot0.exp
+				slot4 = slot0.intimacy
 
 				for slot9, slot10 in pairs(uv0:GetFleets()) do
+					slot11 = slot1(slot10, slot3, slot4)
+
 					if slot3 > 0 then
-						table.insert({}, (function (slot0, slot1, slot2)
-							slot3 = getProxy(BayProxy)
-							slot4 = {}
-							slot5 = {}
-
-							for slot10, slot11 in ipairs(slot0:GetShipVOs()) do
-								table.insert(slot4, slot11)
-
-								slot12 = slot3:getShipById(slot11.id)
-
-								slot12:setIntimacy(slot12:getIntimacy() + slot2)
-								slot12:addExp(slot1)
-								slot3:updateShip(slot12)
-								table.insert(slot5, WorldConst.FetchShipVO(slot11.id))
-							end
-
-							return {
-								oldships = slot4,
-								newships = slot5
-							}
-						end)(slot10, slot3, slot0.intimacy))
+						table.insert(slot2, slot11)
 					end
 				end
 

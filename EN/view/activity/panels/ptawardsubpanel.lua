@@ -5,15 +5,26 @@ function slot0.GetUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.UIlist = UIItemList.New(slot0._tf:Find("window/panel/list"), slot0._tf:Find("window/panel/list/item"))
-	slot0.totalTxt = slot0._tf:Find("window/pt/Text"):GetComponent(typeof(Text))
-	slot0.totalTitleTxt = slot0._tf:Find("window/pt/title"):GetComponent(typeof(Text))
-	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
-	slot0.btn_banned = slot0._tf:Find("window/btn_banned")
-	slot0.btn_get = slot0._tf:Find("window/btn_get")
-	slot0.btn_got = slot0._tf:Find("window/btn_got")
+	slot2 = slot0._tf
+	slot3 = slot0._tf
+	slot0.UIlist = UIItemList.New(slot2:Find("window/panel/list"), slot3:Find("window/panel/list/item"))
+	slot1 = slot0._tf
+	slot1 = slot1:Find("window/pt/Text")
+	slot0.totalTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0._tf
+	slot1 = slot1:Find("window/pt/title")
+	slot0.totalTitleTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0._tf
+	slot0.closeBtn = slot1:Find("window/top/btnBack")
+	slot1 = slot0._tf
+	slot0.btn_banned = slot1:Find("window/btn_banned")
+	slot1 = slot0._tf
+	slot0.btn_get = slot1:Find("window/btn_get")
+	slot1 = slot0._tf
+	slot0.btn_got = slot1:Find("window/btn_got")
+	slot3 = slot0._tf
 
-	onButton(slot0, slot0._tf:Find("bg_dark"), function ()
+	onButton(slot0, slot3:Find("bg_dark"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()

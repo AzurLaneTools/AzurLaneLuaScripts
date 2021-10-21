@@ -147,8 +147,10 @@ function slot0.play(slot0, slot1, slot2, slot3, slot4)
 
 		slot0:addDelegateInfo()
 
+		slot7 = Clone(slot0.currentGuide.events)
+
 		if slot2 then
-			slot0.curEvents = _.select(Clone(slot0.currentGuide.events), function (slot0)
+			slot0.curEvents = _.select(slot7, function (slot0)
 				if not slot0.code then
 					return true
 				elseif type(slot0.code) == "table" then
@@ -166,8 +168,10 @@ function slot0.play(slot0, slot1, slot2, slot3, slot4)
 		slot0:prepareGuider(slot3)
 
 		slot8 = {}
+		slot9 = ipairs
+		slot10 = slot0.curEvents or {}
 
-		for slot12, slot13 in ipairs(slot0.curEvents or {}) do
+		for slot12, slot13 in slot9(slot10) do
 			table.insert(slot8, function (slot0)
 				uv0:doCurrEvent(uv2, function ()
 					if uv0.managerState ~= uv1.MANAGER_STATE.IDLE then
@@ -267,6 +271,7 @@ function slot0.showSign(slot0, slot1, slot2)
 
 		for slot11, slot12 in ipairs(uv0.signList) do
 			slot13 = slot12.signType
+			slot15 = slot12.cachedIndex
 			uv1.curSignList[#uv1.curSignList + 1] = {
 				signType = slot13,
 				sign = uv1:getSign(slot13, slot12)
@@ -274,7 +279,7 @@ function slot0.showSign(slot0, slot1, slot2)
 
 			if type(slot12.pos) == "string" then
 				if slot14 == "useCachePos" then
-					slot14 = WorldGuider.GetInstance():GetTempGridPos(slot12.cachedIndex)
+					slot14 = WorldGuider.GetInstance():GetTempGridPos(slot15)
 				end
 			elseif type(slot14) == "table" then
 				slot14 = Vector3.New(slot14[1], slot14[2], slot14[3])
@@ -630,6 +635,14 @@ function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
 
 	SetActive(slot0.guiderTF, slot1.style)
 
+	function slot4(slot0)
+		if uv0.style.ui.lineMode then
+			uv1:SetHighLightLine(slot0)
+		else
+			uv1.cloneTarget = uv1:cloneGO(go(slot0), uv1._tf, uv0.style.ui)
+		end
+	end
+
 	if slot1.style then
 		slot0:updateContent(slot1)
 
@@ -638,13 +651,7 @@ function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
 				path = slot1.style.ui.path,
 				delay = slot1.style.ui.delay,
 				pathIndex = slot1.style.ui.pathIndex,
-				found = function (slot0)
-					if uv0.style.ui.lineMode then
-						uv1:SetHighLightLine(slot0)
-					else
-						uv1.cloneTarget = uv1:cloneGO(go(slot0), uv1._tf, uv0.style.ui)
-					end
-				end,
+				found = slot4,
 				notFound = function ()
 					uv0:endGuider()
 				end

@@ -55,8 +55,13 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	pg.GuildPaintingMgr.GetInstance():Enter(slot0:findTF("bg/painting"))
-	slot0.resPage:ExecuteAction("Update", slot0.player)
+	slot1 = pg.GuildPaintingMgr.GetInstance()
+
+	slot1:Enter(slot0:findTF("bg/painting"))
+
+	slot1 = slot0.resPage
+
+	slot1:ExecuteAction("Update", slot0.player)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)

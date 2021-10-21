@@ -50,20 +50,27 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0:findTF("main/label"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_title")
+	slot1 = slot0:findTF("main/label")
+	slot1:GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_title")
 	slot1 = slot0:getTpl("list_panel/mask/tpl")
-	slot1:Find("complete"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_02")
-	slot1:Find("raiding"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_03")
-	slot2 = slot1:Find("empty"):GetComponent(typeof(Image))
+	slot2 = slot1:Find("complete")
+	slot2:GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_02")
+	slot2 = slot1:Find("raiding")
+	slot2:GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_03")
+	slot2 = slot1:Find("empty")
+	slot2 = slot2:GetComponent(typeof(Image))
 	slot2.sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_04")
 
 	slot2:SetNativeSize()
 
-	slot1:Find("selected/challenging"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_01")
-	slot1:Find("selected/finished"):GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_05")
+	slot3 = slot1:Find("selected/challenging")
+	slot3:GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_01")
+	slot3 = slot1:Find("selected/finished")
+	slot3:GetComponent(typeof(Image)).sprite = LoadSprite("metaship/" .. slot0.groupId .. "_item_05")
 	slot0.scrollRect = WorldBossItemList.New(slot0:findTF("list_panel/mask/bg/container"), slot1)
+	slot3 = slot0.scrollRect
 
-	slot0.scrollRect:Make(function (slot0, slot1)
+	slot3:Make(function (slot0, slot1)
 		uv0:OnInitCard(slot0, slot1)
 	end, function (slot0, slot1)
 		uv0:OnPreviewCard(slot0, slot1)
@@ -71,19 +78,26 @@ function slot0.OnInit(slot0)
 		uv0:OnSelectCard(slot0, slot1)
 	end)
 
-	slot0.hpSlider = slot0:findTF("main/hp/slider"):GetComponent(typeof(Slider))
-	slot0.levelTxt = slot0:findTF("main/hp/level/Text"):GetComponent(typeof(Text))
-	slot0.hpTxt = slot0:findTF("main/hp/Text"):GetComponent(typeof(Text))
-	slot0.expiredTimeTxt = slot0:findTF("main/time/Text"):GetComponent(typeof(Text))
+	slot3 = slot0:findTF("main/hp/slider")
+	slot0.hpSlider = slot3:GetComponent(typeof(Slider))
+	slot3 = slot0:findTF("main/hp/level/Text")
+	slot0.levelTxt = slot3:GetComponent(typeof(Text))
+	slot3 = slot0:findTF("main/hp/Text")
+	slot0.hpTxt = slot3:GetComponent(typeof(Text))
+	slot3 = slot0:findTF("main/time/Text")
+	slot0.expiredTimeTxt = slot3:GetComponent(typeof(Text))
 	slot0.mainPanel = slot0:findTF("main")
 	slot0.painting = slot0:findTF("paint")
 
 	setActive(slot0.painting, false)
 	setActive(slot0.mainPanel, false)
 
-	slot0.awardBtn = slot0.mainPanel:Find("award_btn")
-	slot0.rankBtn = slot0.mainPanel:Find("rank_btn")
-	slot0.startBtn = slot0.mainPanel:Find("start_btn")
+	slot3 = slot0.mainPanel
+	slot0.awardBtn = slot3:Find("award_btn")
+	slot3 = slot0.mainPanel
+	slot0.rankBtn = slot3:Find("rank_btn")
+	slot3 = slot0.mainPanel
+	slot0.startBtn = slot3:Find("start_btn")
 	slot0.refreshBtn = slot0:findTF("list_panel/frame/filter/refresh_btn")
 	slot0.refreshBtnGray = slot0:findTF("list_panel/frame/filter/refresh_btn_gray")
 	slot0.cdTime = 0
@@ -156,7 +170,9 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.RotateRefreshBtn(slot0, slot1)
-	LeanTween.rotate(rtf(slot0.refreshBtn), -360, 0.5):setOnComplete(System.Action(function ()
+	slot2 = LeanTween.rotate(rtf(slot0.refreshBtn), -360, 0.5)
+
+	slot2:setOnComplete(System.Action(function ()
 		uv0.refreshBtn.localEulerAngles = Vector3(0, 0, 0)
 
 		setActive(uv0.refreshBtnGray, false)
@@ -205,16 +221,20 @@ function slot0.Update(slot0)
 end
 
 function slot0.UpdateNonProcessList(slot0)
+	slot1 = slot0.proxy
+
+	function slot3(slot0)
+		return _.any(_.select(uv0.filterFlags, function (slot0)
+			return slot0 >= 0
+		end), function (slot0)
+			return uv0:GetType() == slot0
+		end)
+	end
+
 	slot0.displays = {}
 
-	for slot7, slot8 in ipairs(slot0.proxy:GetCacheBossList()) do
-		if not slot8:isDeath() and not slot8:IsExpired() and (function (slot0)
-			return _.any(_.select(uv0.filterFlags, function (slot0)
-				return slot0 >= 0
-			end), function (slot0)
-				return uv0:GetType() == slot0
-			end)
-		end)(slot8) and not slot8:IsFullPeople() then
+	for slot7, slot8 in ipairs(slot1:GetCacheBossList()) do
+		if not slot8:isDeath() and not slot8:IsExpired() and slot3(slot8) and not slot8:IsFullPeople() then
 			table.insert(slot0.displays, slot8)
 		end
 	end

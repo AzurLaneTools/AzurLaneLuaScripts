@@ -58,7 +58,10 @@ function slot0.EnterAnim(slot0, slot1, slot2)
 end
 
 function slot0.ExistAnim(slot0, slot1, slot2)
-	LeanTween.moveX(rtf(slot0._tf), 1000, slot1):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(function ()
+	slot3 = LeanTween.moveX(rtf(slot0._tf), 1000, slot1)
+	slot3 = slot3:setEase(LeanTweenType.easeInOutSine)
+
+	slot3:setOnComplete(System.Action(function ()
 		if uv0 then
 			uv0()
 		end

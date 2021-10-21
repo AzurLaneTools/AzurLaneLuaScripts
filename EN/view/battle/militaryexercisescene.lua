@@ -200,8 +200,10 @@ function slot0.updateRecoverTime(slot0, slot1)
 		slot0.recoverTimer = nil
 	end
 
+	slot2 = findTF(slot0.seasonInfoPanel, "recover_container/time")
+
 	if slot1 == 0 then
-		setText(findTF(slot0.seasonInfoPanel, "recover_container/time"), "")
+		setText(slot2, "")
 
 		return
 	end
@@ -221,25 +223,27 @@ function slot0.updateRecoverTime(slot0, slot1)
 end
 
 function slot0.initPlayerFleet(slot0)
+	function slot1(slot0, slot1, slot2)
+		slot3 = cloneTplTo(uv0.shipTpl, slot1)
+		slot4 = slot0.configId
+		slot5 = slot0.skinId
+
+		updateShip(slot3, slot0, {
+			initStar = true
+		})
+		setText(findTF(slot3, "icon_bg/lv/Text"), slot0.level)
+		onButton(uv0, slot3, function ()
+			uv0:emit(MilitaryExerciseMediator.OPEN_DOCKYARD, uv1, uv2.id)
+		end, SFX_PANEL)
+	end
+
 	removeAllChildren(slot0.mainContainer)
 	removeAllChildren(slot0.vanguardContainer)
 
 	for slot5 = 1, 3 do
 		if slot0.fleet.mainShips[slot5] then
 			if slot0.ships[slot6] then
-				(function (slot0, slot1, slot2)
-					slot3 = cloneTplTo(uv0.shipTpl, slot1)
-					slot4 = slot0.configId
-					slot5 = slot0.skinId
-
-					updateShip(slot3, slot0, {
-						initStar = true
-					})
-					setText(findTF(slot3, "icon_bg/lv/Text"), slot0.level)
-					onButton(uv0, slot3, function ()
-						uv0:emit(MilitaryExerciseMediator.OPEN_DOCKYARD, uv1, uv2.id)
-					end, SFX_PANEL)
-				end)(slot7, slot0.mainContainer, TeamType.Main)
+				slot1(slot7, slot0.mainContainer, TeamType.Main)
 			end
 		else
 			onButton(slot0, findTF(cloneTplTo(slot0.emptyTpl, slot0.mainContainer), "icon_bg"), function ()
@@ -338,34 +342,38 @@ function slot0.initAwards(slot0)
 
 	slot3 = slot0:findTF("bg/frame/content/award_panel/award_list", slot0.awardPanel)
 	slot5 = slot0:getTpl("awards/equipmenttpl", slot0:getTpl("awardtpl", slot3))
+	slot6 = slot0:findTF("linetpl", slot3)
 
 	setText(slot0:findTF("bg/frame/content/award_panel/Text", slot0.awardPanel), i18n("exercise_award_tip"))
 
+	function slot8(slot0, slot1)
+		slot2 = uv0:findTF("awards", slot0)
+		slot3 = uv0.rankCfg[slot1]
+		slot7 = ":"
+
+		setText(findTF(slot0, "Text"), slot3.name .. slot7)
+
+		for slot7, slot8 in ipairs(slot3.award_list) do
+			slot9 = cloneTplTo(uv1, slot2)
+
+			updateDrop(slot9, {
+				type = slot8[1],
+				id = slot8[2],
+				count = slot8[3]
+			})
+			onButton(uv0, slot9:Find("icon_bg"), function ()
+				uv0:emit(BaseUI.ON_ITEM, uv1[1] == 1 and id2ItemId(uv1[2]) or uv1[2])
+			end, SFX_PANEL)
+		end
+
+		setText(findTF(slot0, "upgrade_score_tip/level"), slot3.point)
+		setText(findTF(slot0, "upgrade_rank_tip/level"), slot3.order > 0 and slot3.order or "-")
+	end
+
 	for slot12 = #slot0.rankCfg.all, 1, -1 do
 		if #slot0.rankCfg[slot0.rankCfg.all[slot12]].award_list > 0 then
-			(function (slot0, slot1)
-				slot3 = uv0.rankCfg[slot1]
-				slot7 = ":"
-
-				setText(findTF(slot0, "Text"), slot3.name .. slot7)
-
-				for slot7, slot8 in ipairs(slot3.award_list) do
-					slot9 = cloneTplTo(uv1, uv0:findTF("awards", slot0))
-
-					updateDrop(slot9, {
-						type = slot8[1],
-						id = slot8[2],
-						count = slot8[3]
-					})
-					onButton(uv0, slot9:Find("icon_bg"), function ()
-						uv0:emit(BaseUI.ON_ITEM, uv1[1] == 1 and id2ItemId(uv1[2]) or uv1[2])
-					end, SFX_PANEL)
-				end
-
-				setText(findTF(slot0, "upgrade_score_tip/level"), slot3.point)
-				setText(findTF(slot0, "upgrade_rank_tip/level"), slot3.order > 0 and slot3.order or "-")
-			end)(cloneTplTo(slot4, slot3), slot13)
-			cloneTplTo(slot0:findTF("linetpl", slot3), slot3)
+			slot8(cloneTplTo(slot4, slot3), slot13)
+			cloneTplTo(slot6, slot3)
 		end
 	end
 end

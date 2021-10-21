@@ -33,9 +33,13 @@ function slot0.init(slot0)
 	slot0.saveBtn = slot0:findTF("adpter/bottom/save")
 	slot0.clearBtn = slot0:findTF("adpter/bottom/clrear")
 	slot0.orderBtn = slot0:findTF("adpter/bottom/fliter_container/order")
-	slot0.orderBtnTxt = slot0.orderBtn:Find("Text"):GetComponent(typeof(Text))
+	slot1 = slot0.orderBtn
+	slot1 = slot1:Find("Text")
+	slot0.orderBtnTxt = slot1:GetComponent(typeof(Text))
 	slot0.filterBtn = slot0:findTF("adpter/bottom/fliter_container/filter")
-	slot0.filterBtnTxt = slot0.filterBtn:Find("Text"):GetComponent(typeof(Text))
+	slot1 = slot0.filterBtn
+	slot1 = slot1:Find("Text")
+	slot0.filterBtnTxt = slot1:GetComponent(typeof(Text))
 	slot0.filterBtnTxt.text = i18n("word_default")
 	slot0.searchInput = slot0:findTF("adpter/bottom/fliter_container/search")
 	slot0.showPutListBtn = slot0:findTF("adpter/putlist_btn")
@@ -101,7 +105,9 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		uv0.pages[uv0.pageType]:ShowFilterPanel(function (slot0)
+		slot0 = uv0.pages[uv0.pageType]
+
+		slot0:ShowFilterPanel(function (slot0)
 			uv0.filterBtnTxt.text = slot0
 		end)
 	end, SFX_PANEL)

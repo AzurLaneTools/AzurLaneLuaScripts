@@ -1,7 +1,9 @@
 slot0 = class("GetRemasterCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(13503, {
+	slot2 = pg.ConnectionMgr.GetInstance()
+
+	slot2:Send(13503, {
 		type = 0
 	}, 13504, function (slot0)
 		if slot0.result == 0 then

@@ -81,7 +81,8 @@ function slot0.init(slot0)
 end
 
 function slot0.initPainting(slot0)
-	slot2 = ys.Battle.BattleResourceManager.GetInstance():InstSkillPaintingUI()
+	slot1 = ys.Battle.BattleResourceManager.GetInstance()
+	slot2 = slot1:InstSkillPaintingUI()
 
 	setParent(slot2, slot0.uiCanvas, false)
 
@@ -90,9 +91,11 @@ function slot0.initPainting(slot0)
 	slot0._paintingAnimator.enabled = false
 	slot0._paintingParticleContainer = findTF(slot2, "particleContainer")
 	slot0._paintingParticles = findTF(slot0._paintingParticleContainer, "effect")
-	slot0._paintingParticleSystem = slot0._paintingParticles:GetComponent(typeof(ParticleSystem))
+	slot3 = slot0._paintingParticles
+	slot0._paintingParticleSystem = slot3:GetComponent(typeof(ParticleSystem))
+	slot3 = slot0._paintingParticleSystem
 
-	slot0._paintingParticleSystem:Stop(true)
+	slot3:Stop(true)
 
 	slot0._paintingFitter = findTF(slot2, "hero/fitter")
 
@@ -101,8 +104,9 @@ function slot0.initPainting(slot0)
 	slot3 = GetOrAddComponent(slot0._paintingFitter, "PaintingScaler")
 	slot3.FrameName = "lihuisha"
 	slot3.Tween = 1
+	slot4 = slot2:GetComponent(typeof(DftAniEvent))
 
-	slot2:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+	slot4:SetEndEvent(function (slot0)
 		if uv0._currentPainting then
 			setActive(uv0._currentPainting, false)
 
@@ -176,9 +180,10 @@ function slot0.appendSkill(slot0, slot1, slot2, slot3, slot4)
 	if slot3 then
 		slot0:commanderSkillFloat(slot3, slot1, slot8)
 	else
+		slot16 = table.contains(TeamType.SubShipType, slot2:GetTemplate().type)
 		slot17 = slot2:GetMainUnitIndex()
 
-		if ys.Battle.BattleCameraUtil.GetInstance():GetCharacterArrowBarPosition(uv1.CameraPosToUICamera(slot2:GetPosition():Clone())) == nil or slot15 == nil and table.contains(TeamType.SubShipType, slot2:GetTemplate().type) and not slot2:IsMainFleetUnit() then
+		if ys.Battle.BattleCameraUtil.GetInstance():GetCharacterArrowBarPosition(uv1.CameraPosToUICamera(slot2:GetPosition():Clone())) == nil or slot15 == nil and slot16 and not slot2:IsMainFleetUnit() then
 			slot14 = (slot12 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or uv1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(uv0.IN_VIEW_FRIEND_SKILL_OFFSET))) and uv1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(uv0.IN_VIEW_FOE_SKILL_OFFSET))
 			slot9.position = Vector3(slot14.x, slot14.y, -2)
 
@@ -187,8 +192,9 @@ function slot0.appendSkill(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			slot0._preSkillTF = slot9
+			slot18 = slot9:GetComponent(typeof(DftAniEvent))
 
-			slot9:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+			slot18:SetEndEvent(function (slot0)
 				uv0._preSkillTF = nil
 
 				uv1:Recycle(uv2)
@@ -218,8 +224,9 @@ function slot0.appendSkill(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			slot9.anchoredPosition = slot21
+			slot22 = slot9:GetComponent(typeof(DftAniEvent))
 
-			slot9:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+			slot22:SetEndEvent(function (slot0)
 				uv0[uv1] = true
 
 				uv2:Recycle(uv3)
@@ -257,8 +264,9 @@ function slot0.commanderSkillFloat(slot0, slot1, slot2, slot3)
 
 	slot4.anchoredPosition = slot5
 	slot0._preCommanderSkillTF = slot4
+	slot6 = slot4:GetComponent(typeof(DftAniEvent))
 
-	slot4:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+	slot6:SetEndEvent(function (slot0)
 		uv0._commanderSkillList[uv1][uv2] = nil
 		uv0._preCommanderSkillTF = nil
 
@@ -340,8 +348,10 @@ function slot0.didEnter(slot0)
 	}
 
 	function slot6(slot0)
+		slot1 = 0
+
 		for slot5, slot6 in ipairs(slot0) do
-			slot1 = 0 + ys.Battle.BattleDataFunction.GetShipSkillTriggerCount(slot6, uv0)
+			slot1 = slot1 + ys.Battle.BattleDataFunction.GetShipSkillTriggerCount(slot6, uv0)
 		end
 
 		return slot1
@@ -437,8 +447,10 @@ function slot0.initPauseWindow(slot0)
 		end
 
 		if slot2 then
+			slot3 = 0
+
 			for slot7, slot8 in ipairs(slot2) do
-				slot3 = 0 + slot8:getShipCombatPower()
+				slot3 = slot3 + slot8:getShipCombatPower()
 			end
 
 			setText(slot1:Find("power/value"), slot3)
@@ -450,14 +462,16 @@ function slot0.initPauseWindow(slot0)
 		slot1(false, slot0:findTF("window/van", slot0.pauseWindow), slot0._vanShipVOs)
 	end
 
+	slot3 = findTF(slot0.pauseWindow, "window/Chapter")
+	slot4 = findTF(slot0.pauseWindow, "window/Chapter/Text")
 	slot0.continueBtn = slot0:findTF("window/button_container/continue", slot0.pauseWindow)
 	slot0.leaveBtn = slot0:findTF("window/button_container/leave", slot0.pauseWindow)
 
 	if ys.Battle.BattleState.GetInstance():GetBattleType() == SYSTEM_SCENARIO then
 		slot6 = slot0._chapter:getConfigTable()
 
-		setText(findTF(slot0.pauseWindow, "window/Chapter"), slot6.chapter_name)
-		setText(findTF(slot0.pauseWindow, "window/Chapter/Text"), string.split(slot6.name, "|")[1])
+		setText(slot3, slot6.chapter_name)
+		setText(slot4, string.split(slot6.name, "|")[1])
 	elseif slot5 == SYSTEM_ROUTINE or slot5 == SYSTEM_DUEL or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_BOSS_EXPERIMENT or slot5 == SYSTEM_ACT_BOSS then
 		setText(slot3, "SP")
 		setText(slot4, pg.expedition_data_template[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().StageTmpId].name)

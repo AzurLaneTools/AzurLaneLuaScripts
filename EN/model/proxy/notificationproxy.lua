@@ -39,9 +39,12 @@ end
 
 function slot0.getRequests(slot0)
 	slot1 = {}
+	slot2 = getProxy(FriendProxy)
+	slot3 = pairs
+	slot4 = slot0.data.requests or {}
 
-	for slot6, slot7 in pairs(slot0.data.requests or {}) do
-		if not getProxy(FriendProxy):isInBlackList(slot6) then
+	for slot6, slot7 in slot3(slot4) do
+		if not slot2:isInBlackList(slot6) then
 			table.insert(slot1, slot7)
 		end
 	end
@@ -72,8 +75,12 @@ function slot0.getRequestCount(slot0)
 end
 
 function slot0.getUnreadCount(slot0)
-	for slot5, slot6 in pairs(slot0.data.requests or {}) do
-		slot1 = 0 + 1
+	slot1 = 0
+	slot2 = pairs
+	slot3 = slot0.data.requests or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot1 = slot1 + 1
 	end
 
 	return slot1

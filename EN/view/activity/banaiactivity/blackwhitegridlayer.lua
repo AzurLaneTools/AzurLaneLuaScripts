@@ -36,8 +36,9 @@ function slot18()
 
 	function slot2(slot0, slot1)
 		slot2 = {}
+		slot3 = 0
 
-		while slot1 > 0 do
+		while slot1 > slot3 do
 			if not table.contains(slot2, math.random(1, #slot0)) then
 				table.insert(slot2, slot4)
 
@@ -535,8 +536,9 @@ function slot24(slot0, slot1)
 			end
 
 			slot0._tf.localPosition = Vector3(slot1.x * slot2, -(slot1.y * slot3), 0)
+			slot7 = slot0.cellImage.localScale.y
 
-			if slot0.cellImage.localScale.x == -1 and slot0.cellImage.localScale.y == -1 then
+			if slot0.cellImage.localScale.x == -1 and slot7 == -1 then
 				anchorMax = Vector2(1, 0)
 				anchorMin = Vector2(1, 0)
 			elseif slot6 == 1 and slot7 == -1 then
@@ -888,7 +890,9 @@ function slot26(slot0)
 	(function (slot0)
 		setActive(slot0._tf, false)
 
-		slot0.scoreTxt = slot0._tf:Find("score/Text"):GetComponent(typeof(Text))
+		slot1 = slot0._tf
+		slot1 = slot1:Find("score/Text")
+		slot0.scoreTxt = slot1:GetComponent(typeof(Text))
 
 		onButton(nil, slot0._tf, function ()
 			uv0:Hide()
@@ -904,8 +908,9 @@ end
 
 function slot0.preload(slot0, slot1)
 	uv0 = {}
+	slot2 = ResourceMgr.Inst
 
-	ResourceMgr.Inst:loadAssetBundleAsync("ui/blackwhitegrid_atlas", function (slot0)
+	slot2:loadAssetBundleAsync("ui/blackwhitegrid_atlas", function (slot0)
 		for slot4 = 0, 4 do
 			uv0[slot4] = {}
 
@@ -985,7 +990,8 @@ function slot0.didEnter(slot0)
 	slot7 = "config_data"
 
 	for slot7, slot8 in ipairs(slot0.activityVO:getConfig(slot7)) do
-		slot10 = slot0.toggleTFs:GetChild(slot7 - 1)
+		slot10 = slot0.toggleTFs
+		slot10 = slot10:GetChild(slot7 - 1)
 		slot0.maps[slot8] = slot0:GetMapVO(uv2[slot8])
 
 		onButton(slot0, slot10, function ()
@@ -1039,9 +1045,12 @@ function slot0.GetLastestUnlockMap(slot0)
 		return slot0.btns[slot1]
 	else
 		slot2 = nil
+		slot3 = 0
 
 		for slot7, slot8 in pairs(slot0.btns) do
-			if slot0:isUnlock(uv0[slot7]) or 0 + 1 == 1 then
+			slot3 = slot3 + 1
+
+			if slot0:isUnlock(uv0[slot7]) or slot3 == 1 then
 				slot2 = slot8
 			end
 		end
@@ -1062,13 +1071,14 @@ end
 
 function slot0.GetMapVO(slot0, slot1)
 	slot2 = nil
+	slot6 = {
+		highestScore = table.indexof(slot0.passIds, slot1.id) and slot0.scores[slot3] or 0,
+		isFinished = table.contains(slot0.passIds, slot1.id),
+		isUnlock = slot0:isUnlock(slot1)
+	}
 
 	if slot0.maps[slot1.id] then
-		slot0.maps[slot1.id]:UpdateData({
-			highestScore = table.indexof(slot0.passIds, slot1.id) and slot0.scores[slot3] or 0,
-			isFinished = table.contains(slot0.passIds, slot1.id),
-			isUnlock = slot0:isUnlock(slot1)
-		})
+		slot0.maps[slot1.id]:UpdateData(slot6)
 	else
 		slot7, slot8, slot9 = slot0:parseMap(slot1)
 

@@ -22,8 +22,10 @@ function slot0.align(slot0, slot1)
 	end
 
 	for slot7 = slot3, slot1 - 1 do
+		slot8 = cloneTplTo(slot0.item, slot2)
+
 		if slot0.callback then
-			slot0.callback(uv0.EventInit, slot7, cloneTplTo(slot0.item, slot2))
+			slot0.callback(uv0.EventInit, slot7, slot8)
 		end
 	end
 
@@ -60,8 +62,10 @@ function slot0.StaticAlign(slot0, slot1, slot2, slot3)
 	end
 
 	for slot8 = slot4, slot2 - 1 do
+		slot9 = cloneTplTo(slot1, slot0)
+
 		if slot3 then
-			slot3(uv0.EventInit, slot8, cloneTplTo(slot1, slot0))
+			slot3(uv0.EventInit, slot8, slot9)
 		end
 	end
 

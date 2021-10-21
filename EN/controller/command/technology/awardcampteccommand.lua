@@ -6,7 +6,10 @@ function slot0.execute(slot0, slot1)
 	slot4 = slot2.tecID
 
 	print("64005 Get TecCamp Award", slot3, slot4)
-	pg.ConnectionMgr.GetInstance():Send(64005, {
+
+	slot6 = pg.ConnectionMgr.GetInstance()
+
+	slot6:Send(64005, {
 		group_id = slot3,
 		tech_id = slot4
 	}, 64006, function (slot0)

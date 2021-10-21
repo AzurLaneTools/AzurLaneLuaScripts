@@ -8,7 +8,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if not _.detect(getProxy(ShipSkinProxy):GetAllSkins(), function (slot0)
+	slot5 = getProxy(ShipSkinProxy)
+
+	if not _.detect(slot5:GetAllSkins(), function (slot0)
 		return slot0.id == uv0
 	end) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_shopId_noFound"))
@@ -26,9 +28,12 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(11202, {
+	slot10 = getProxy(ActivityProxy)
+	slot11 = pg.ConnectionMgr.GetInstance()
+
+	slot11:Send(11202, {
 		cmd = 1,
-		activity_id = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON).id,
+		activity_id = slot10:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON).id,
 		arg1 = slot3,
 		arg2 = slot4,
 		arg_list = {}

@@ -38,8 +38,10 @@ function slot0.byte_indices(slot0, slot1)
 end
 
 function slot0.len(slot0)
+	slot1 = 0
+
 	for slot5 in uv0.byte_indices(slot0) do
-		slot1 = 0 + 1
+		slot1 = slot1 + 1
 	end
 
 	return slot1
@@ -50,8 +52,10 @@ function slot0.byte_index(slot0, slot1)
 		return
 	end
 
+	slot2 = 0
+
 	for slot6 in uv0.byte_indices(slot0) do
-		if 0 + 1 == slot1 then
+		if slot2 + 1 == slot1 then
 			return slot6
 		end
 	end
@@ -62,9 +66,13 @@ function slot0.char_index(slot0, slot1)
 		return
 	end
 
+	slot2 = 0
+
 	for slot6 in uv0.byte_indices(slot0) do
+		slot2 = slot2 + 1
+
 		if slot6 == slot1 then
-			return 0 + 1
+			return slot2
 		end
 	end
 
@@ -254,10 +262,11 @@ function slot0.replace(slot0, slot1, ...)
 	end
 
 	slot2 = {}
+	slot3 = 1
 
 	for slot7 in uv0.byte_indices(slot0) do
 		if slot1(slot0, slot7, (uv0.next(slot0, slot7) or #slot0 + 1) - 1, ...) then
-			table.insert(slot2, slot0:sub(1, slot7 - 1))
+			table.insert(slot2, slot0:sub(slot3, slot7 - 1))
 			table.insert(slot2, slot9)
 
 			slot3 = slot8

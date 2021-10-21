@@ -49,7 +49,9 @@ function slot0.ExistMission(slot0, slot1)
 		return false
 	end
 
-	if slot1 and getProxy(GuildProxy):getRawData():GetActiveEvent():GetMissionById(slot1) == nil then
+	slot3 = getProxy(GuildProxy):getRawData():GetActiveEvent()
+
+	if slot1 and slot3:GetMissionById(slot1) == nil then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_event_not_exist"))
 
 		return false

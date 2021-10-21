@@ -38,8 +38,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GuildProxy.GUILD_UPDATED then
-		slot0.viewComponent:UpdateGuild(slot1:getBody())
+		slot0.viewComponent:UpdateGuild(slot3)
 	elseif slot2 == GAME.GUILD_START_TECH_DONE then
 		slot0.viewComponent:UpdateUpgradeList()
 	elseif slot2 == GuildProxy.DONATE_UPDTAE or slot2 == GuildProxy.TECHNOLOGY_START or slot2 == GuildProxy.TECHNOLOGY_STOP then

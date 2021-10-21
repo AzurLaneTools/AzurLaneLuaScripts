@@ -59,12 +59,10 @@ function slot0.displayShips(slot0)
 	slot0._skipExp = {}
 	slot0._subSkipExp = {}
 	slot0._subCardAnimaFuncList = {}
-	slot1 = {
-		[slot7.id] = slot7
-	}
+	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0.shipVOs) do
-		-- Nothing
+		slot1[slot7.id] = slot7
 	end
 
 	slot3 = slot0.contextData.statistics
@@ -75,8 +73,10 @@ function slot0.displayShips(slot0)
 		end
 	end
 
+	slot5 = 0
+
 	for slot9, slot10 in ipairs(slot0.contextData.oldMainShips) do
-		if slot3[slot10.id] and 0 < slot11.output then
+		if slot3[slot10.id] and slot5 < slot11.output then
 			slot0.mvpShipVO = slot10
 			slot5 = slot11.output
 		end

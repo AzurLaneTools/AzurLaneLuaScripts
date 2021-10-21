@@ -21,12 +21,13 @@ function slot0.InjectPublic(slot0, slot1, slot2)
 			slot0:AddSprite("shiptype" .. slot7, GetSpriteFromAtlas("shiptype", shipType2print(slot10.type)))
 
 			slot3 = string.gsub(slot3, "shipcolor" .. slot7, ShipRarity.Rarity2HexColor(slot10.rarity))
+			slot9 = slot10.name
 
 			if slot2 then
 				slot14 = false
 
 				if PLATFORM_CODE == PLATFORM_JP then
-					slot14, slot9 = contentWrap(slot10.name, 18, 1.65)
+					slot14, slot9 = contentWrap(slot9, 18, 1.65)
 				end
 
 				if slot14 then

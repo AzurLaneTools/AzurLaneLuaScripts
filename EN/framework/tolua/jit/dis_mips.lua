@@ -688,10 +688,10 @@ function slot37(slot0)
 	end
 
 	slot5, slot6 = uv5(slot4, "^([a-z0-9_.]*)(.*)")
-	slot7, slot6 = uv5(slot6, "|([a-z0-9_.|]*)(.*)")
+	slot7, slot8 = uv5(slot6, "|([a-z0-9_.|]*)(.*)")
 
 	if slot7 then
-		-- Nothing
+		slot6 = slot8
 	end
 
 	for slot12 in uv6(slot6, ".") do
@@ -771,9 +771,10 @@ function slot37(slot0)
 				slot3 = slot2[slot14 - 1]
 
 				if slot7 then
-					slot15, slot7 = uv5(slot7, "([^|]*)|(.*)")
+					slot15, slot16 = uv5(slot7, "([^|]*)|(.*)")
 
 					if slot15 then
+						slot7 = slot16
 						slot5 = slot15
 					else
 						slot5 = slot7
@@ -796,10 +797,11 @@ end
 function slot38(slot0, slot1, slot2)
 	slot1 = slot1 or 0
 	slot3 = slot2 and slot1 + slot2 or #slot0.code
+	slot3 = slot3 - slot3 % 4
 	slot0.pos = slot1 - slot1 % 4
 	slot0.rel = nil
 
-	while slot0.pos < slot3 - slot3 % 4 do
+	while slot0.pos < slot3 do
 		uv0(slot0)
 	end
 end

@@ -76,15 +76,21 @@ function slot0.initData(slot0)
 end
 
 function slot0.switchNextPaint(slot0)
-	slot0.frameTimer:Stop()
+	slot1 = slot0.frameTimer
+
+	slot1:Stop()
 
 	slot3 = slot0.paintNamePrefix .. slot0.curPaintIndex % slot0.paintCount + 1
 
 	setImageSprite(slot0.paintBackTF, LoadSprite(slot0.paintPathPrefix .. slot3, slot3))
-	LeanTween.value(go(slot0.paintFrontTF), 1, 0, slot0.paintSwitchTime):setOnUpdate(System.Action_float(function (slot0)
+
+	slot5 = LeanTween.value(go(slot0.paintFrontTF), 1, 0, slot0.paintSwitchTime)
+	slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
 		setImageAlpha(uv0.paintFrontTF, slot0)
 		setImageAlpha(uv0.paintBackTF, 1 - slot0)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot5:setOnComplete(System.Action(function ()
 		setImageFromImage(uv0.paintFrontTF, uv0.paintBackTF)
 		setImageAlpha(uv0.paintFrontTF, 1)
 		setImageAlpha(uv0.paintBackTF, 0)

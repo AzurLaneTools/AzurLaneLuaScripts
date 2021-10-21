@@ -25,8 +25,10 @@ function slot0.Dispose(slot0)
 	slot0:RemoveFleetListener(slot0.fleet)
 	slot0:RemoveMapListener()
 
+	slot1 = PoolMgr.GetInstance()
+
 	for slot5, slot6 in pairs(slot0.emotionTFs) do
-		PoolMgr.GetInstance():ReturnUI(slot5, go(slot6))
+		slot1:ReturnUI(slot5, go(slot6))
 	end
 
 	pg.DelegateInfo.Dispose(slot0)

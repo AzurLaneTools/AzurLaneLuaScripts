@@ -10,7 +10,9 @@ function slot0.Load(slot0)
 	pg.UIMgr.GetInstance():LoadingOn()
 
 	if IsNil(findTF(GameObject.Find("__Pool__"), slot0:getUIName())) then
-		PoolMgr.GetInstance():GetUI(slot0:getUIName(), true, function (slot0)
+		slot3 = PoolMgr.GetInstance()
+
+		slot3:GetUI(slot0:getUIName(), true, function (slot0)
 			uv0:Loaded(slot0)
 			uv0:Init()
 		end)
@@ -47,11 +49,14 @@ end
 
 function slot0.SetPainting(slot0)
 	if slot0.contextData.paintingView.name ~= slot0:GetPaintingName() then
-		slot0.contextData.paintingView:Init(slot1)
+		slot2 = slot0.contextData.paintingView
+
+		slot2:Init(slot1)
 
 		slot2, slot3 = slot0:GetPaintingEnterVoice()
+		slot4 = slot0.contextData.paintingView
 
-		slot0.contextData.paintingView:Chat(slot2, slot3, true)
+		slot4:Chat(slot2, slot3, true)
 		onButton(slot0, slot0.contextData.paintingView.touch, function ()
 			slot0, slot1 = uv0:GetPaintingTouchVoice()
 
@@ -98,21 +103,23 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 		return true
 	end
 
-	if slot1:getConfig("num_limit") == 1 or slot1:getConfig("commodity_type") == 4 then
-		slot0.contextData.singleWindow:ExecuteAction("Open", slot1, function (slot0, slot1, slot2)
-			if slot0:getConfig("commodity_type") == 4 or uv0.shop.type == ShopArgs.ShopActivity then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("pt_reconfirm", slot2 or "??"),
-					onYes = function ()
-						if uv0(uv1, uv2) then
-							uv3(uv1, uv2)
-						end
+	function slot4(slot0, slot1, slot2)
+		if slot0:getConfig("commodity_type") == 4 or uv0.shop.type == ShopArgs.ShopActivity then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("pt_reconfirm", slot2 or "??"),
+				onYes = function ()
+					if uv0(uv1, uv2) then
+						uv3(uv1, uv2)
 					end
-				})
-			elseif uv0:getSpecialRule(slot0) and uv1(slot0, slot1) then
-				uv2(slot0, slot1)
-			end
-		end)
+				end
+			})
+		elseif uv0:getSpecialRule(slot0) and uv1(slot0, slot1) then
+			uv2(slot0, slot1)
+		end
+	end
+
+	if slot1:getConfig("num_limit") == 1 or slot1:getConfig("commodity_type") == 4 then
+		slot0.contextData.singleWindow:ExecuteAction("Open", slot1, slot4)
 	else
 		slot0.contextData.multiWindow:ExecuteAction("Open", slot1, slot4)
 	end
@@ -120,7 +127,9 @@ end
 
 function slot0.getSpecialRule(slot0, slot1)
 	if slot1:getConfig("commodity_type") == 2 and slot0.shop.type == ShopArgs.ShopFragment and pg.item_data_statistics[slot1:getConfig("commodity_id")] and slot3.type == 7 and slot3.shiptrans_id ~= 0 then
-		if getProxy(BagProxy):getItemById(slot2) or getProxy(BayProxy):getConfigShipCount(slot3.shiptrans_id) > 0 then
+		slot5 = getProxy(BayProxy):getConfigShipCount(slot3.shiptrans_id)
+
+		if getProxy(BagProxy):getItemById(slot2) or slot5 > 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("special_transform_limit_reach"))
 
 			return false

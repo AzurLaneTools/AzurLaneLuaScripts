@@ -2,8 +2,9 @@ slot0 = class("GuildGetDonateListCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody().callback
+	slot4 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(62031, {
+	slot4:Send(62031, {
 		type = 0
 	}, 62032, function (slot0)
 		if slot0.result == 0 then

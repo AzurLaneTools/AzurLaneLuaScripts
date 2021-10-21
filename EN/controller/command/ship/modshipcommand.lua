@@ -30,7 +30,9 @@ function slot0.execute(slot0, slot1)
 		table.insert(slot8, slot14)
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(12017, {
+	slot9 = pg.ConnectionMgr.GetInstance()
+
+	slot9:Send(12017, {
 		ship_id = slot3,
 		material_id_list = slot4
 	}, 12018, function (slot0)

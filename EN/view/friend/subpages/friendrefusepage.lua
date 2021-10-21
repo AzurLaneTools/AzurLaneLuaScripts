@@ -9,12 +9,20 @@ end
 
 function slot0.OnInit(slot0)
 	slot0.parent = parent
-	slot0.context = slot0._tf:Find("window/frame/Text"):GetComponent(typeof(Text))
-	slot0.remind = slot0._tf:Find("window/remind")
-	slot0.confirmBtn = slot0._tf:Find("window/confirm_btn")
-	slot0.cancelBtn = slot0._tf:Find("window/cancel_btn")
-	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
-	slot0.checkLabel = slot0.remind:Find("Text"):GetComponent(typeof(Text))
+	slot1 = slot0._tf
+	slot1 = slot1:Find("window/frame/Text")
+	slot0.context = slot1:GetComponent(typeof(Text))
+	slot1 = slot0._tf
+	slot0.remind = slot1:Find("window/remind")
+	slot1 = slot0._tf
+	slot0.confirmBtn = slot1:Find("window/confirm_btn")
+	slot1 = slot0._tf
+	slot0.cancelBtn = slot1:Find("window/cancel_btn")
+	slot1 = slot0._tf
+	slot0.closeBtn = slot1:Find("window/top/btnBack")
+	slot1 = slot0.remind
+	slot1 = slot1:Find("Text")
+	slot0.checkLabel = slot1:GetComponent(typeof(Text))
 
 	onButton(nil, slot0.cancelBtn, function ()
 		uv0:Hide()

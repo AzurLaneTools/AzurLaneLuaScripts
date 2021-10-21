@@ -104,6 +104,8 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.UpdateView(slot0)
+	slot1 = getProxy(TaskProxy)
+
 	for slot5 = 1, #slot0.finalTasks do
 		slot6 = slot0.finalTasks[slot5]
 		slot8 = slot0.items[slot5]
@@ -113,7 +115,7 @@ function slot0.UpdateView(slot0)
 		slot9 = pg.task_data_template[slot6].award_display[1]
 
 		slot0:UpdateIcon(slot0:findTF("icon", slot8), slot9[1], slot9[2])
-		setActive(slot8:Find("active"), getProxy(TaskProxy):getTaskVO(slot6):getTaskStatus() == 0)
+		setActive(slot8:Find("active"), slot1:getTaskVO(slot6):getTaskStatus() == 0)
 		setActive(slot8:Find("finished"), slot11 == 1)
 		setActive(slot8:Find("achieved"), slot11 == 2)
 		setButtonEnabled(slot8, slot11 < 2)
@@ -140,6 +142,7 @@ function slot0.UpdateTab(slot0)
 	slot0.taskList:align(slot2)
 
 	slot3 = getProxy(TaskProxy)
+	slot4 = 0
 
 	for slot8 = 1, slot2 do
 		slot9 = slot0.content:GetChild(slot8 - 1)
@@ -158,7 +161,7 @@ function slot0.UpdateTab(slot0)
 		setText(slot0:findTF("text", slot9), slot11.desc)
 		slot0:UpdateIcon(slot0:findTF("icon", slot9), slot13, tonumber(slot11.target_id))
 
-		slot4 = 0 + (slot15 and slot15:isFinish() and 1 or 0)
+		slot4 = slot4 + (slot15 and slot15:isFinish() and 1 or 0)
 	end
 
 	setText(slot0:findTF("slider/progress", slot0.tab), string.format("[%d/%d]", slot4, slot2))

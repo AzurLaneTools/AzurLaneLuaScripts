@@ -12,11 +12,12 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setFlagShipPaint(slot3.regularFleet:getShipsByTeam(TeamType.Main, true)[1]:getPainting())
 
+	slot5 = {}
 	slot9 = true
 
 	for slot9, slot10 in ipairs(slot3.regularFleet:getShips(slot9)) do
 		if slot10.id ~= slot4.id then
-			table.insert({}, slot10:getPainting())
+			table.insert(slot5, slot10:getPainting())
 		end
 	end
 

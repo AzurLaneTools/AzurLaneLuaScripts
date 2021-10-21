@@ -1,10 +1,15 @@
 slot0 = class("GetGuildRankCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
+	slot3 = slot1:getBody().id
+	slot6 = {}
+
 	if getProxy(GuildProxy):getRawData().memberCount < 1 then
-		slot4:SetRank(slot1:getBody().id, {})
+		slot4:SetRank(slot3, slot6)
 	else
-		pg.ConnectionMgr.GetInstance():Send(62029, {
+		slot7 = pg.ConnectionMgr.GetInstance()
+
+		slot7:Send(62029, {
 			type = slot3
 		}, 62030, function (slot0)
 			for slot4, slot5 in ipairs(slot0.list) do

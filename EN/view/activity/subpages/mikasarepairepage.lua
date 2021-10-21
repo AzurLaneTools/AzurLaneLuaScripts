@@ -26,11 +26,13 @@ function slot0.update_task_list_mikasa_museum(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 
 	slot10, slot11, slot12 = nil
+	slot13 = {}
 	slot14, slot15 = nil
 
 	for slot19 = 1, 4 do
 		slot23 = slot8:Find("Panel/layout_layer/repair_panel" .. slot19 .. "/Panel")
 		slot12 = slot0:findTF("btn_repair", slot23)
+		slot13[slot19] = nil
 
 		for slot23 = 1, 4 do
 			slot0:set_mikasa_btn(slot5[(slot19 - 1) * 4 + slot23], slot0:findTF("repair" .. slot23, slot10), slot23 == 1 and 0 or slot5[(slot19 - 1) * 4 + slot23 - 1], slot23 >= 4)
@@ -71,9 +73,7 @@ function slot0.update_task_list_mikasa_museum(slot0, slot1, slot2, slot3)
 			setText(slot10:Find("gear/test_bg/Text"), slot6:getVirtualItemNumber(tonumber(slot20:getConfig("target_id"))) .. "/" .. slot20:getConfig("target_num"))
 		end
 
-		slot15 = ({
-			[slot19] = nil
-		})[slot19] and (slot4:getTaskById(slot14) or slot4:getFinishTaskById(slot14)) or nil
+		slot15 = slot13[slot19] and (slot4:getTaskById(slot14) or slot4:getFinishTaskById(slot14)) or nil
 
 		setButtonEnabled(slot12, slot15 and slot15:isFinish())
 		setActive(slot12:Find("mask"), slot15 and slot15:isFinish())
@@ -124,10 +124,11 @@ function slot0.set_mikasa_btn(slot0, slot1, slot2, slot3, slot4, slot5)
 	print(tostring(getProxy(TaskProxy):getTaskById(slot1) or slot6:getFinishTaskById(slot1)))
 
 	slot8 = slot2:Find("award")
+	slot9 = slot2:Find("face")
 
 	if slot4 then
 		setActive(slot8, true)
-		setActive(slot2:Find("face"), false)
+		setActive(slot9, false)
 
 		slot11 = pg.task_data_template[slot1].award_display[1]
 
@@ -146,7 +147,12 @@ function slot0.set_mikasa_btn(slot0, slot1, slot2, slot3, slot4, slot5)
 	else
 		setActive(slot8, false)
 		setActive(slot9, true)
-		setActive(slot9:Find("bg_select"), slot3 == 0 or slot6:getFinishTaskById(slot3))
+
+		slot10 = setActive
+		slot11 = slot9:Find("bg_select")
+		slot12 = slot3 == 0 or slot6:getFinishTaskById(slot3)
+
+		slot10(slot11, slot12)
 		setActive(slot9:Find("mask"), slot6:getFinishTaskById(slot1))
 		setActive(slot9:Find("black_block"), slot6:getFinishTaskById(slot1))
 	end

@@ -30,6 +30,13 @@ function slot0.init(slot0)
 	slot0._skipBtn = slot0:findTF("skipLayer", slot0._tf)
 	slot0.UIMain = pg.UIMgr.GetInstance().UIMain
 	slot0.overlay = pg.UIMgr.GetInstance().OverlayMain
+	slot1 = {
+		"d",
+		"c",
+		"b",
+		"a",
+		"s"
+	}
 	slot2 = slot0:findTF("grade/Xyz/bg13")
 	slot3 = slot0:findTF("grade/Xyz/bg14")
 	slot4, slot5, slot6 = nil
@@ -39,13 +46,7 @@ function slot0.init(slot0)
 	setActive(slot0:findTF("jieuan01/BG/bg_fail", slot0._bg), not slot8)
 
 	if slot8 then
-		slot6 = ({
-			"d",
-			"c",
-			"b",
-			"a",
-			"s"
-		})[slot7 + 1]
+		slot6 = slot1[slot7 + 1]
 		slot4 = "battlescore/battle_score_" .. slot6 .. "/letter_" .. slot6
 		slot5 = "battlescore/battle_score_" .. slot6 .. "/label_" .. slot6
 	else
@@ -120,8 +121,9 @@ function slot0.showPainting(slot0)
 	SetActive(slot0._chat, true)
 
 	slot0._chat.transform.localScale = Vector3.New(0, 0, 0)
+	slot4 = LeanTween.moveX(rtf(slot0._painting), 50, 0.1)
 
-	LeanTween.moveX(rtf(slot0._painting), 50, 0.1):setOnComplete(System.Action(function ()
+	slot4:setOnComplete(System.Action(function ()
 		LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(1, 1, 1), 0.1):setEase(LeanTweenType.easeOutBack)
 	end))
 end

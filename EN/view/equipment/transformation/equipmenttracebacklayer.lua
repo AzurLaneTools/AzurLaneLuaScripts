@@ -125,9 +125,10 @@ function slot0.UpdateSort(slot0)
 		end
 
 		slot2 = uv0.contextData.sortType
+		slot3 = uv0.contextData.sortOrder == uv1.SortOrder.Descend and 1 or -1
 
 		if slot0.source.type == DROP_TYPE_ITEM then
-			return (slot0.source.template.id - slot1.source.template.id) * (uv0.contextData.sortOrder == uv1.SortOrder.Descend and 1 or -1) > 0
+			return (slot0.source.template.id - slot1.source.template.id) * slot3 > 0
 		end
 
 		if (slot0.source.template.shipId or -1) ~= (slot1.source.template.shipId or -1) then
@@ -148,7 +149,9 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.sortBarBtn, slot4, SFX_PANEL)
 
 	for slot4 = 1, slot0.sortBar.childCount do
-		onButton(slot0, slot0.sortBar:GetChild(slot4 - 1), function ()
+		slot5 = slot0.sortBar
+
+		onButton(slot0, slot5:GetChild(slot4 - 1), function ()
 			uv0.contextData.sortType = uv1[uv2]
 
 			uv0:UpdateSort()
@@ -244,7 +247,10 @@ function slot0.UpdateSourceListItem(slot0, slot1, slot2)
 		slot0.loader:GetSprite("qicon/" .. getProxy(BayProxy):getShipById(slot4.shipId):getPainting(), "", slot2:Find("EquipShip/Image"))
 	end
 
-	slot2:Find("Mask/NameText"):GetComponent(typeof(ScrollText)):SetText(slot4:getConfig("name"))
+	slot5 = slot2:Find("Mask/NameText")
+	slot5 = slot5:GetComponent(typeof(ScrollText))
+
+	slot5:SetText(slot4:getConfig("name"))
 	onButton(slot0, slot2:Find("Item"), function ()
 		if uv0.type == DROP_TYPE_ITEM and not (uv0.composeCfg.material_num <= uv0.template.count) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_upgrade_feedback_lack_of_fragment", uv0.template:getConfig("name")))
@@ -282,8 +288,10 @@ function slot0.UpdateConsumeComparer(slot0)
 		slot3, slot1, slot2 = EquipmentTransformUtil.CheckTransformEnoughGold(slot0.contextData.sourceEquipmentFormulaList, slot0.contextData.sourceEquipmentInstance)
 	end
 
+	slot4 = setColorStr(slot1, slot3 and COLOR_WHITE or COLOR_RED)
+
 	if slot2 > 0 then
-		slot4 = setColorStr(slot1, slot3 and COLOR_WHITE or COLOR_RED) .. setColorStr(" + " .. slot2, slot3 and COLOR_GREEN or COLOR_RED)
+		slot4 = slot4 .. setColorStr(" + " .. slot2, slot3 and COLOR_GREEN or COLOR_RED)
 	end
 
 	slot0.goldText:GetComponent(typeof(Text)).text = slot4

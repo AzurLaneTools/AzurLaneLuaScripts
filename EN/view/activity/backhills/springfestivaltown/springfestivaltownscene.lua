@@ -29,7 +29,8 @@ function slot0.init(slot0)
 
 	slot0._front = slot0._map:Find("top")
 	slot0._middle = slot0._map:Find("middle")
-	slot0._bottom = slot0._map:Find("bottom")
+	slot1 = slot0._map
+	slot0._bottom = slot1:Find("bottom")
 	slot0.containers = {
 		slot0._front,
 		slot0._middle,
@@ -44,8 +45,10 @@ function slot0.init(slot0)
 	slot0.effectReq = LoadPrefabRequestPackage.New("ui/map_donghuangchunjie", "map_donghuangchunjie", function (slot0)
 		setParent(slot0, uv0._map, false)
 
+		slot2 = GameObject.Find("UICamera/Canvas"):GetComponent(typeof(Canvas)).sortingOrder
+
 		for slot7 = 0, slot0:GetComponentsInChildren(typeof(Renderer)).Length - 1 do
-			slot3[slot7].sortingOrder = GameObject.Find("UICamera/Canvas"):GetComponent(typeof(Canvas)).sortingOrder + 1
+			slot3[slot7].sortingOrder = slot2 + 1
 		end
 
 		uv0.mapeffect = slot0

@@ -235,9 +235,11 @@ function slot0.addListener(slot0)
 				return
 			end
 
+			slot2 = uv0:getCurMetaProgressVO():getShip()
+
 			if uv0.curPageIndex == uv1 and slot0 == false then
 				uv0:enterMenuPage(false)
-				uv0:emit(uv2.PAGES_EVENTS[uv1], uv0:getCurMetaProgressVO():getShip().id, false)
+				uv0:emit(uv2.PAGES_EVENTS[uv1], slot2.id, false)
 			end
 
 			if uv0.curPageIndex ~= uv1 and slot0 == true then
@@ -270,8 +272,9 @@ end
 
 function slot0.initBannerList(slot0)
 	slot0.scrollUIItemList = UIItemList.New(slot0.bannerContainer, slot0.bannerTpl)
+	slot1 = slot0.scrollUIItemList
 
-	slot0.scrollUIItemList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			table.insert(uv0.bannerTFList, slot2)
 			uv0:updateBannerTF(uv0.metaProgressVOList[slot1 + 1], slot2, slot1 + 1)
@@ -334,13 +337,14 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 		setActive(slot8, slot9)
 
 		slot10 = slot1:isPtType()
+		slot11 = slot1:isPassType()
 
 		if not slot9 then
 			slot12 = slot0:findTF("Empty/ActType", slot5)
 			slot13 = slot0:findTF("Empty/BuildType", slot5)
 
 			setActive(slot12, slot10)
-			setActive(slot13, slot1:isPassType())
+			setActive(slot13, slot11)
 
 			slot14, slot15 = slot1:getBannerPathAndName()
 
@@ -410,9 +414,10 @@ end
 
 function slot0.changeBannerOnClick(slot0, slot1, slot2)
 	slot3 = slot1:GetComponent("LayoutElement")
+	slot4 = slot0:findTF("ForScale", slot1)
 
 	if slot2 == true then
-		setLocalScale(slot0:findTF("ForScale", slot1), uv0.SCALE_ON_PITCH)
+		setLocalScale(slot4, uv0.SCALE_ON_PITCH)
 
 		slot3.preferredWidth = 338.3
 		slot3.preferredHeight = 102
@@ -583,7 +588,8 @@ function slot0.updatePTPanel(slot0, slot1)
 
 	if slot3 > 0 and not slot1 then
 		if slot11 == MetaProgress.STATE_CAN_AWARD or slot11 == MetaProgress.STATE_LESS_PT then
-			slot0:managedTween(LeanTween.value, nil, go(slot0.ptPanel), 0, slot3, math.min(slot3, 1)):setOnUpdate(System.Action_float(function (slot0)
+			slot13 = slot0:managedTween(LeanTween.value, nil, go(slot0.ptPanel), 0, slot3, math.min(slot3, 1))
+			slot13 = slot13:setOnUpdate(System.Action_float(function (slot0)
 				setFillAmount(uv0.ptProgressImg, slot0)
 				setActive(uv0.ptProgressScaleLine, slot0 < 1)
 
@@ -597,7 +603,9 @@ function slot0.updatePTPanel(slot0, slot1)
 				setText(uv0.ptProgressWhiteLeftNumText, slot2)
 				setText(uv0.ptProgressRedRightNumText, slot4)
 				setText(uv0.ptProgressWhiteRightNumText, slot4)
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot13:setOnComplete(System.Action(function ()
 				setFillAmount(uv0.ptProgressImg, uv1)
 				setActive(uv0.ptProgressScaleLine, uv1 < 1)
 
@@ -681,7 +689,11 @@ end
 
 function slot0.backFromRepair(slot0)
 	setActive(slot0.menuPanel, false)
-	slot0:managedTween(LeanTween.alpha, nil, slot0.shipImg, 1, 0.3):setFrom(0):setOnComplete(System.Action(function ()
+
+	slot1 = slot0:managedTween(LeanTween.alpha, nil, slot0.shipImg, 1, 0.3)
+	slot1 = slot1:setFrom(0)
+
+	slot1:setOnComplete(System.Action(function ()
 		setActive(uv0.menuPanel, true)
 		setActive(uv0.hidePanel, true)
 	end))
@@ -689,7 +701,11 @@ end
 
 function slot0.backFromNotRepair(slot0)
 	setActive(slot0.menuPanel, false)
-	slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.shipImg), MetaCharacterConst.UIConfig[slot0:getCurMetaProgressVO().id][1], 0.3):setFrom(-250):setOnComplete(System.Action(function ()
+
+	slot5 = slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.shipImg), MetaCharacterConst.UIConfig[slot0:getCurMetaProgressVO().id][1], 0.3)
+	slot5 = slot5:setFrom(-250)
+
+	slot5:setOnComplete(System.Action(function ()
 		setActive(uv0.menuPanel, true)
 		setActive(uv0.hidePanel, true)
 	end))
@@ -697,10 +713,11 @@ end
 
 function slot0.autoOpenFunc(slot0)
 	if slot0.contextData.autoOpenShipConfigID then
+		slot1 = MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot0.contextData.autoOpenShipConfigID)
 		slot3 = 0
 
 		for slot7, slot8 in ipairs(slot0:getMetaProgressListForShow()) do
-			if slot8 and slot8.id == MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot0.contextData.autoOpenShipConfigID) then
+			if slot8 and slot8.id == slot1 then
 				triggerButton(slot0.bannerTFList[slot7])
 
 				slot0.contextData.autoOpenShipConfigID = nil
@@ -757,6 +774,7 @@ end
 
 function slot0.getOneStepPTAwardLevelAndCount(slot0)
 	slot1 = slot0:getCurMetaProgressVO()
+	slot2 = slot1.metaPtData:GetResProgress()
 	slot3 = slot1.metaPtData.targets
 	slot4 = slot1:getStoryIndexList()
 	slot6 = 0
@@ -765,7 +783,7 @@ function slot0.getOneStepPTAwardLevelAndCount(slot0)
 		slot11 = false
 		slot12 = false
 
-		if slot3[slot10] <= slot1.metaPtData:GetResProgress() then
+		if slot3[slot10] <= slot2 then
 			slot11 = true
 		end
 

@@ -42,8 +42,10 @@ function slot0.didEnter(slot0)
 		})
 	end, SFX_PANEL)
 	slot0.goodsItemList:make(function (slot0, slot1, slot2)
+		slot3 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = Goods.Create(uv0.goodsList[slot1 + 1], Goods.TYPE_WORLD)
+			slot4 = Goods.Create(uv0.goodsList[slot3], Goods.TYPE_WORLD)
 
 			GoodsCard.New(slot2):update(slot4)
 
@@ -59,10 +61,12 @@ function slot0.didEnter(slot0)
 					return
 				end
 
+				function slot0(slot0, slot1)
+					uv0:emit(WorldShopMediator.BUY_ITEM, slot0.id, slot1)
+				end
+
 				if uv2 > 1 then
-					uv1.multiWindow:ExecuteAction("Open", uv0, function (slot0, slot1)
-						uv0:emit(WorldShopMediator.BUY_ITEM, slot0.id, slot1)
-					end)
+					uv1.multiWindow:ExecuteAction("Open", uv0, slot0)
 				else
 					uv1.singleWindow:ExecuteAction("Open", uv0, slot0)
 				end

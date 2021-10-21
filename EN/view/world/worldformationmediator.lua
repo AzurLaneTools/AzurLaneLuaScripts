@@ -82,7 +82,9 @@ function slot0.CommitEdit(slot0, slot1)
 	slot2 = nowWorld
 
 	_.each(slot0.contextData.fleets, function (slot0)
-		if slot0:IsValid() and not slot0:FormationEqual(uv0:GetFleet(slot0.id)) then
+		slot1 = uv0:GetFleet(slot0.id)
+
+		if slot0:IsValid() and not slot0:FormationEqual(slot1) then
 			table.insert(uv1, {
 				fleetId = slot0.id,
 				ships = slot0:GetShips(true)

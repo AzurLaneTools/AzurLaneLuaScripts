@@ -1,11 +1,12 @@
 slot0 = class("ChallengeRequestCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
+	slot3 = getProxy(BayProxy):getRawData()
 	slot4 = {}
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot1:getBody().shipIDList) do
-		if getProxy(BayProxy):getRawData()[slot10.id]:getTeamType() == TeamType.Main then
+		if slot3[slot10.id]:getTeamType() == TeamType.Main then
 			slot4[#slot4 + 1] = slot10.id
 		elseif slot12 == TeamType.Vanguard then
 			slot5[#slot5 + 1] = slot10.id
@@ -34,7 +35,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(24002, {
+	slot10 = pg.ConnectionMgr.GetInstance()
+
+	slot10:Send(24002, {
 		elite_fleet_list = {
 			slot6
 		},

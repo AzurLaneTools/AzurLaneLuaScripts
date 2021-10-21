@@ -4,8 +4,9 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.likeCBFunc
 	slot6 = getProxy(AppreciateProxy)
+	slot7 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(17505, {
+	slot7:Send(17505, {
 		id = slot2.picID,
 		action = slot2.isAdd
 	}, 17506, function (slot0)

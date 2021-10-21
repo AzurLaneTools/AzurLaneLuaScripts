@@ -16,6 +16,8 @@ function slot0.Entrance(slot0, slot1)
 	end
 
 	slot5 = getProxy(PlayerProxy)
+	slot6 = getProxy(BayProxy)
+	slot7 = getProxy(FleetProxy)
 	slot8, slot9 = nil
 	rivalVO = getProxy(MilitaryExerciseProxy):getRivalById(slot0.rivalId)
 	slot12 = pg.battle_cost_template[SYSTEM_DUEL].oil_cost > 0
@@ -25,18 +27,22 @@ function slot0.Entrance(slot0, slot1)
 	slot16 = 0
 	slot17 = 0
 
-	for slot23, slot24 in ipairs(getProxy(BayProxy):getSortShipsByFleet(getProxy(FleetProxy):getFleetById(slot2))) do
+	for slot23, slot24 in ipairs(slot6:getSortShipsByFleet(slot7:getFleetById(slot2))) do
 		slot13[#slot13 + 1] = slot24.id
 	end
 
-	if slot12 and slot5:getData().oil < slot17 then
+	slot20 = slot5:getData()
+
+	if slot12 and slot20.oil < slot17 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
 	end
 
+	slot21 = 0
+
 	for slot25, slot26 in ipairs(rivalVO.mainShips) do
-		slot21 = 0 + slot26.level
+		slot21 = slot21 + slot26.level
 	end
 
 	for slot25, slot26 in ipairs(rivalVO.vanguardShips) do
@@ -57,15 +63,18 @@ function slot0.Entrance(slot0, slot1)
 		end
 
 		if uv3.enter_energy_cost > 0 then
+			slot1 = pg.gameset.battle_consume_energy.key_value
+
 			for slot5, slot6 in ipairs(uv4) do
-				slot6:cosumeEnergy(pg.gameset.battle_consume_energy.key_value)
+				slot6:cosumeEnergy(slot1)
 				uv5:updateShip(slot6)
 			end
 		end
 
 		slot1 = ys.Battle.BattleConfig.ARENA_LIST
+		slot3 = uv6
 
-		uv6:updatePlayer(uv1)
+		slot3:updatePlayer(uv1)
 		uv9:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			mainFleetId = uv7,
 			prefabFleet = {},
@@ -82,13 +91,15 @@ end
 
 function slot0.Exit(slot0, slot1)
 	slot2 = pg.battle_cost_template[SYSTEM_DUEL]
+	slot3 = getProxy(FleetProxy)
+	slot4 = getProxy(BayProxy)
 	slot5 = slot0.statistics._battleScore
 	slot6 = 0
 	slot7 = {}
-	slot8 = getProxy(FleetProxy):getFleetById(slot0.mainFleetId)
+	slot8 = slot3:getFleetById(slot0.mainFleetId)
 	slot6 = slot8:getEndCost().oil
 
-	slot1:SendRequest(slot1.GeneralPackage(slot0, getProxy(BayProxy):getShipsByFleet(slot8)), function (slot0)
+	slot1:SendRequest(slot1.GeneralPackage(slot0, slot4:getShipsByFleet(slot8)), function (slot0)
 		if uv0.end_sink_cost > 0 then
 			uv1.DeadShipEnergyCosume(uv2, uv3)
 		end

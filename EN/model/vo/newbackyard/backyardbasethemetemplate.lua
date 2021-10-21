@@ -25,9 +25,17 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.WarpPutInfo2BackYardFurnitrue(slot0, slot1, slot2)
-	for slot6, slot7 in ipairs(slot2 or {}) do
+	slot3 = ipairs
+	slot4 = slot2 or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot8 = {}
+
 		for slot12, slot13 in ipairs(slot7.child) do
-			-- Nothing
+			slot8[tonumber(slot13.id)] = {
+				x = slot13.x,
+				y = slot13.y
+			}
 		end
 
 		table.insert(slot0, BackyardFurnitureVO.New({
@@ -37,12 +45,7 @@ function slot0.WarpPutInfo2BackYardFurnitrue(slot0, slot1, slot2)
 				y = slot7.y
 			},
 			dir = slot7.dir,
-			child = {
-				[tonumber(slot13.id)] = {
-					x = slot13.x,
-					y = slot13.y
-				}
-			},
+			child = slot8,
 			parent = tonumber(slot7.parent),
 			floor = slot1
 		}))
@@ -216,21 +219,20 @@ end
 
 function slot0.GetUsableFurnituresForFloor(slot0, slot1, slot2)
 	slot3 = {}
-	slot4 = {
-		[slot9.id] = slot9
-	}
+	slot4 = {}
 
 	for slot8, slot9 in pairs(slot1) do
 		if slot9.floor ~= slot2 then
-			-- Nothing
+			slot4[slot9.id] = slot9
 		end
 	end
 
+	slot6 = {}
 	slot7 = {}
 
 	for slot11, slot12 in pairs(slot0:GetAllFurniture()) do
 		if slot4[slot12.id] then
-			table.insert({}, slot12.id)
+			table.insert(slot6, slot12.id)
 
 			for slot17, slot18 in pairs(slot12.child) do
 				table.insert(slot6, slot17)

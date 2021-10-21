@@ -175,12 +175,13 @@ end
 
 function slot0.GetCanDisplayComments(slot0)
 	slot1 = {}
+	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.discussList) do
 		if not slot7:ShouldWaitForShow() then
 			table.insert(slot1, slot7)
 
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 

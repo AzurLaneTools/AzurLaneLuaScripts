@@ -39,7 +39,10 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:emit(BaseUI.ON_BACK)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.panelLetter:Find("btn_share"), function ()
+
+	slot3 = slot0.panelLetter
+
+	onButton(slot0, slot3:Find("btn_share"), function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeReflux)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnLetter, function ()
@@ -175,13 +178,29 @@ function slot0.DisplayLetter(slot0, slot1)
 	slot0.onLetterClose = slot1
 	slot2 = pg.TimeMgr.GetInstance()
 	slot3 = slot2:STimeDescS(slot0.offlineTime, "*t")
+	slot5 = slot0.panelLetter
 
-	setText(slot0.panelLetter:Find("billboard/year"), slot3.year % 100)
-	setText(slot0.panelLetter:Find("billboard/month"), slot3.month)
-	setText(slot0.panelLetter:Find("billboard/date"), slot3.day)
-	setText(slot0.panelLetter:Find("billboard/days"), slot2:DiffDay(slot0.offlineTime, slot0.activateTime))
-	setText(slot0.panelLetter:Find("billboard/count"), slot0.activateShipCount)
-	onButton(slot0, slot0.panelLetter:Find("billboard"), function ()
+	setText(slot5:Find("billboard/year"), slot3.year % 100)
+
+	slot5 = slot0.panelLetter
+
+	setText(slot5:Find("billboard/month"), slot3.month)
+
+	slot5 = slot0.panelLetter
+
+	setText(slot5:Find("billboard/date"), slot3.day)
+
+	slot5 = slot0.panelLetter
+
+	setText(slot5:Find("billboard/days"), slot2:DiffDay(slot0.offlineTime, slot0.activateTime))
+
+	slot5 = slot0.panelLetter
+
+	setText(slot5:Find("billboard/count"), slot0.activateShipCount)
+
+	slot6 = slot0.panelLetter
+
+	onButton(slot0, slot6:Find("billboard"), function ()
 		uv0:HideLetter()
 	end, SFX_PANEL)
 	setActive(slot0.panelLetter, true)
@@ -336,7 +355,10 @@ function slot0.UpdatePt(slot0)
 				slot0.ptAchieveTwId = nil
 			end
 
-			slot0.ptAchieveTwId = LeanTween.moveLocalY(go(slot18), 70, 1.5):setEase(LeanTweenType.easeInOutSine):setFrom(90):setLoopPingPong().uniqueId
+			slot19 = LeanTween.moveLocalY(go(slot18), 70, 1.5)
+			slot19 = slot19:setEase(LeanTweenType.easeInOutSine)
+			slot19 = slot19:setFrom(90)
+			slot0.ptAchieveTwId = slot19:setLoopPingPong().uniqueId
 
 			onButton(slot0, slot11, function ()
 				uv0:emit(RefluxMediator.OnBattlePhaseForward, uv0.battlePhase + 1)
@@ -371,11 +393,13 @@ function slot0.ScrollPt(slot0, slot1, slot2, slot3)
 	slot7 = slot6:Find("list")
 	slot8 = slot7:GetComponent(typeof(HorizontalLayoutGroup))
 	slot9 = slot7:GetChild(0):GetComponent(typeof(LayoutElement))
+	slot12 = math.clamp(math.max(slot1 * (slot9.preferredWidth + slot8.spacing) - slot6.rect.width * 0.5 + slot9.preferredWidth, 0) / (slot7.childCount * slot9.preferredWidth + (slot7.childCount - 1) * slot8.spacing - slot6.rect.width), 0, 1)
+	slot13 = slot5:GetComponent(typeof(ScrollRect))
 
 	LeanTween.cancel(go(slot4))
 
 	if slot2 then
-		slot5:GetComponent(typeof(ScrollRect)).horizontalNormalizedPosition = math.clamp(math.max(slot1 * (slot9.preferredWidth + slot8.spacing) - slot6.rect.width * 0.5 + slot9.preferredWidth, 0) / (slot7.childCount * slot9.preferredWidth + (slot7.childCount - 1) * slot8.spacing - slot6.rect.width), 0, 1)
+		slot13.horizontalNormalizedPosition = slot12
 	else
 		LeanTween.value(go(slot4), slot13.horizontalNormalizedPosition, slot12, math.abs(slot13.horizontalNormalizedPosition - slot12) * 1):setOnUpdate(System.Action_float(function (slot0)
 			uv0.horizontalNormalizedPosition = slot0

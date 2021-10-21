@@ -23,7 +23,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(17005, {
+	slot9 = pg.ConnectionMgr.GetInstance()
+
+	slot9:Send(17005, {
 		id = slot3,
 		award_index = slot4
 	}, 17006, function (slot0)

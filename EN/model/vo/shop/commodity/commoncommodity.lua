@@ -27,10 +27,14 @@ function slot0.canPurchase(slot0)
 end
 
 function slot0.isDisCount(slot0)
+	slot1 = uv0.InCommodityDiscountTime(slot0.id)
+
 	if slot0:IsItemDiscountType() then
-		return uv0.InCommodityDiscountTime(slot0.id)
+		return slot1
 	else
-		return slot0:getConfig("discount") ~= 0 and slot1
+		slot2 = slot0:getConfig("discount") ~= 0 and slot1
+
+		return slot2
 	end
 end
 
@@ -75,7 +79,9 @@ function slot0.IsItemDiscountType(slot0)
 end
 
 function slot0.getLimitCount(slot0)
-	for slot5, slot6 in ipairs(slot0:getConfig("limit_args") or {}) do
+	slot1 = slot0:getConfig("limit_args") or {}
+
+	for slot5, slot6 in ipairs(slot1) do
 		if slot6[1] == "time" then
 			return slot6[2]
 		end

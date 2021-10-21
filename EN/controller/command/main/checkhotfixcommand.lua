@@ -13,12 +13,14 @@ function slot0.execute(slot0, slot1)
 
 	if BundleWizard.Inst:GetGroupMgr("DEFAULT_RES").CurrentVersion.Major > 0 and (not slot3.lastRequestVersionTime or Time.realtimeSinceStartup - slot3.lastRequestVersionTime > 1800) then
 		slot3.lastRequestVersionTime = Time.realtimeSinceStartup
+		slot5 = pg.UIMgr.GetInstance()
 
-		pg.UIMgr.GetInstance():LoadingOn()
+		slot5:LoadingOn()
 
 		slot5 = true
+		slot6 = VersionMgr.Inst
 
-		VersionMgr.Inst:FetchVersion(function (slot0)
+		slot6:FetchVersion(function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
 			uv0 = false

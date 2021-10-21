@@ -13,17 +13,18 @@ function slot1.TriggerBuffOnFire(slot0)
 end
 
 function slot1.FilterTarget(slot0)
+	slot2 = {}
+	slot3 = slot0._host:GetIFF()
 	slot4 = 1
 
 	for slot8, slot9 in pairs(slot0._dataProxy:GetAircraftList()) do
-		if slot9:GetIFF() ~= slot0._host:GetIFF() and slot9:IsVisitable() then
+		if slot9:GetIFF() ~= slot3 and slot9:IsVisitable() then
+			slot2[slot4] = slot9
 			slot4 = slot4 + 1
 		end
 	end
 
-	return {
-		[slot4] = slot9
-	}
+	return slot2
 end
 
 function slot1.Spawn(slot0, slot1, slot2)

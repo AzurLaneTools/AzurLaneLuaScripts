@@ -19,7 +19,9 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.LoadScene(slot0, slot1)
-	SceneOpMgr.Inst:LoadSceneAsync("scenes/worldoverview", "WorldOverview", LoadSceneMode.Additive, function (slot0, slot1)
+	slot2 = SceneOpMgr.Inst
+
+	slot2:LoadSceneAsync("scenes/worldoverview", "WorldOverview", LoadSceneMode.Additive, function (slot0, slot1)
 		uv0.transform = tf(slot0:GetRootGameObjects()[0])
 
 		setActive(uv0.transform, false)
@@ -87,7 +89,10 @@ end
 function slot0.UpdateStaticMark(slot0, slot1, slot2)
 	slot0:RemoveExtraMarkPrefab(slot0.tfMarkScene)
 
-	for slot6, slot7 in pairs(slot1 or {}) do
+	slot3 = pairs
+	slot4 = slot1 or {}
+
+	for slot6, slot7 in slot3(slot4) do
 		if slot7 then
 			if slot0.atlas:GetEntrance(slot6):HasPort() and slot2[1] or slot2[2] then
 				slot0:LoadExtraMarkPrefab(slot0.tfMarkScene, slot9, function (slot0)

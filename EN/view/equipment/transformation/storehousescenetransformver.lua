@@ -142,10 +142,16 @@ function slot0.didEnter(slot0)
 			helps = pg.gametip.help_equipment.tip
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0.selectTransformPanel:Find("cancel_button"), function ()
+
+	slot3 = slot0.selectTransformPanel
+
+	onButton(slot0, slot3:Find("cancel_button"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.selectTransformPanel:Find("confirm_button"), function ()
+
+	slot3 = slot0.selectTransformPanel
+
+	onButton(slot0, slot3:Find("confirm_button"), function ()
 		if uv0.contextData.onConfirm(_.map(uv0.selectedIds, function (slot0)
 			return slot0[1]
 		end)) then
@@ -222,8 +228,10 @@ function slot0.ExecuteAnimDoneCallback(slot0)
 end
 
 function slot0.selectCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0.selectedIds) do
-		slot1 = 0 + slot6[2]
+		slot1 = slot1 + slot6[2]
 	end
 
 	return slot1

@@ -75,8 +75,10 @@ function slot1.registerMediator(slot0, slot1)
 	slot0.mediatorMap[slot1:getMediatorName()] = slot1
 
 	if #slot1:listNotificationInterests() > 0 then
+		slot3 = uv0.New(slot1.handleNotification, slot1)
+
 		for slot7, slot8 in pairs(slot2) do
-			slot0:registerObserver(slot8, uv0.New(slot1.handleNotification, slot1))
+			slot0:registerObserver(slot8, slot3)
 		end
 	end
 

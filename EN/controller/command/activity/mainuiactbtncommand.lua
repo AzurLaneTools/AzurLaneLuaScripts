@@ -1,11 +1,12 @@
 slot0 = class("MainUIActBtnCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
+	slot4 = 0
 	slot5 = nil
 
 	for slot9, slot10 in pairs(getProxy(ActivityProxy):getRawData()) do
 		if not slot10:isEnd() and slot0:shouldNotify(slot10) then
-			slot4 = 0 + 1
+			slot4 = slot4 + 1
 
 			if not slot5 or slot5 and slot10.id < slot5.id then
 				slot5 = slot10

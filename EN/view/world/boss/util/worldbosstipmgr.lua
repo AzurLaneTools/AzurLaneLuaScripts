@@ -37,18 +37,20 @@ end
 
 function slot0.Show(slot0, slot1)
 	if uv0 then
-		if not slot0.isInit then
-			slot0:Init(function ()
-				if uv0:IsEnable(uv1:GetType()) then
-					table.insert(uv0.list, uv1)
+		function slot2()
+			if uv0:IsEnable(uv1:GetType()) then
+				table.insert(uv0.list, uv1)
 
-					if #uv0.list == 1 then
-						uv0:Start()
-					end
-				else
-					print("Message intercepted")
+				if #uv0.list == 1 then
+					uv0:Start()
 				end
-			end)
+			else
+				print("Message intercepted")
+			end
+		end
+
+		if not slot0.isInit then
+			slot0:Init(slot2)
 		else
 			slot2()
 		end
@@ -71,22 +73,25 @@ function slot0.Show(slot0, slot1)
 
 		print(slot4, slot5)
 
+		slot8 = {
+			id = 4,
+			timestamp = slot9:GetServerTime(),
+			args = {
+				isDeath = false,
+				supportType = slot5,
+				playerName = slot2,
+				bossName = slot1.config.name,
+				level = slot1.level,
+				wordBossId = slot1.id,
+				lastTime = slot1.lastTime
+			},
+			player = slot1:GetPlayer() or getProxy(PlayerProxy):getData(),
+			uniqueId = slot1.id .. "_" .. slot1.lastTime
+		}
+		slot9 = pg.TimeMgr.GetInstance()
+
 		if slot4 == ChatConst.ChannelGuild then
-			slot0:AddGuildMsg(slot4, {
-				id = 4,
-				timestamp = pg.TimeMgr.GetInstance():GetServerTime(),
-				args = {
-					isDeath = false,
-					supportType = slot5,
-					playerName = slot2,
-					bossName = slot1.config.name,
-					level = slot1.level,
-					wordBossId = slot1.id,
-					lastTime = slot1.lastTime
-				},
-				player = slot1:GetPlayer() or getProxy(PlayerProxy):getData(),
-				uniqueId = slot1.id .. "_" .. slot1.lastTime
-			})
+			slot0:AddGuildMsg(slot4, slot8)
 		else
 			getProxy(ChatProxy):addNewMsg(ChatMsg.New(slot4, slot8))
 		end

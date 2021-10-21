@@ -121,17 +121,25 @@ end
 
 function slot0.GetData(slot0)
 	slot1 = {}
+	slot2 = slot0.dorm
+	slot2 = slot2:GetAllFurniture()
+
+	function slot3(slot0)
+		return not slot0:isNotForSale() and (not slot0:isForActivity() or uv0[slot0.id]) and not not slot0:inTime()
+	end
+
+	function slot4(slot0)
+		return slot0:isMatchSearchKey(getInputText(uv0.searchInput))
+	end
+
+	function slot5(slot0, slot1)
+		return table.contains(slot1, slot0:getConfig("type"))
+	end
 
 	for slot10, slot11 in ipairs(pg.furniture_shop_template.all) do
-		if (function (slot0)
-			return not slot0:isNotForSale() and (not slot0:isForActivity() or uv0[slot0.id]) and not not slot0:inTime()
-		end)(slot0.dorm:GetAllFurniture()[slot11] or Furniture.New({
+		if slot3(slot2[slot11] or Furniture.New({
 			id = slot11
-		})) and (function (slot0, slot1)
-			return table.contains(slot1, slot0:getConfig("type"))
-		end)(slot12, uv0(slot0.pageType)) and (function (slot0)
-			return slot0:isMatchSearchKey(getInputText(uv0.searchInput))
-		end)(slot12) then
+		})) and slot5(slot12, uv0(slot0.pageType)) and slot4(slot12) then
 			table.insert(slot1, slot12)
 		end
 	end

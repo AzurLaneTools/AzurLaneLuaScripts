@@ -10,7 +10,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if not slot5.FectchDropShipListFlags[slot3] then
-		pg.ConnectionMgr.GetInstance():Send(13109, {
+		slot6 = pg.ConnectionMgr.GetInstance()
+
+		slot6:Send(13109, {
 			id = slot3
 		}, 13110, function (slot0)
 			slot1 = {}

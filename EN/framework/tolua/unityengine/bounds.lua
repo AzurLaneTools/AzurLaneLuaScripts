@@ -95,6 +95,7 @@ function slot5.Contains(slot0, slot1)
 end
 
 function slot5.IntersectRay(slot0, slot1)
+	slot2 = -Mathf.Infinity
 	slot3 = Mathf.Infinity
 	slot4, slot5, slot6 = nil
 	slot7 = slot0:GetCenter() - slot1:GetOrigin()
@@ -110,16 +111,17 @@ function slot5.IntersectRay(slot0, slot1)
 		slot7.z
 	}
 	slot7 = slot1:GetDirection()
+	slot10 = {
+		slot7.x,
+		slot7.y,
+		slot7.z
+	}
 
 	for slot14 = 1, 3 do
-		slot6 = 1 / ({
-			slot7.x,
-			slot7.y,
-			slot7.z
-		})[slot14]
+		slot6 = 1 / slot10[slot14]
 
 		if (slot8[slot14] + slot9[slot14]) * slot6 < (slot8[slot14] - slot9[slot14]) * slot6 then
-			if -Mathf.Infinity < slot4 then
+			if slot2 < slot4 then
 				slot2 = slot4
 			end
 
@@ -169,12 +171,13 @@ function slot5.ClosestPoint(slot0, slot1)
 		slot4.y,
 		slot4.z
 	}
+	slot6 = 0
 	slot7 = nil
 
 	for slot11 = 1, 3 do
 		if slot3[slot11] < -slot5[slot11] then
 			slot7 = slot3[slot11] + slot5[slot11]
-			slot6 = 0 + slot7 * slot7
+			slot6 = slot6 + slot7 * slot7
 			slot3[slot11] = -slot5[slot11]
 		elseif slot5[slot11] < slot3[slot11] then
 			slot7 = slot3[slot11] - slot5[slot11]

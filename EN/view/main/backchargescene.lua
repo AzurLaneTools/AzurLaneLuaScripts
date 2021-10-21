@@ -128,10 +128,15 @@ function slot0.sortDamondItems(slot0)
 			return slot6 < slot7
 		end
 
-		if slot3 == slot5 and (slot0:getConfig("tag") == 2 and 1 or 0) == (slot1:getConfig("tag") == 2 and 1 or 0) then
+		slot9 = slot0:getConfig("tag") == 2 and 1 or 0
+		slot10 = slot1:getConfig("tag") == 2 and 1 or 0
+
+		if slot3 == slot5 and slot9 == slot10 then
 			return slot0.id < slot1.id
 		else
-			return slot5 < slot3 or slot3 == slot5 and slot10 < slot9
+			slot11 = slot5 < slot3 or slot3 == slot5 and slot10 < slot9
+
+			return slot11
 		end
 	end)
 

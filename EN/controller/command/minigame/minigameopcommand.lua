@@ -16,15 +16,18 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot7 = slot2.cbFunc
+	slot8 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(26103, {
+	slot8:Send(26103, {
 		hubid = slot3,
 		cmd = slot4,
 		args1 = slot5
 	}, 26104, function (slot0)
 		if slot0.result == 0 then
+			slot1 = getProxy(MiniGameProxy)
+
 			if slot0.hub.id > 0 then
-				getProxy(MiniGameProxy):UpdataHubData(slot0.hub)
+				slot1:UpdataHubData(slot0.hub)
 			end
 
 			if slot0.data.id > 0 then

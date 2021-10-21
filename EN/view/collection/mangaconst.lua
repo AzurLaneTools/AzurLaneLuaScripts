@@ -6,10 +6,11 @@ slot0.NewCount = 0
 function slot0.setVersionAndNewCount()
 	slot0 = #pg.cartoon.all
 	uv0.Version = pg.cartoon[pg.cartoon.all[slot0]].mark
+	slot2 = 0
 
 	for slot6 = slot0, 1, -1 do
 		if pg.cartoon[pg.cartoon.all[slot6]].mark == uv0.Version then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		elseif slot8 < uv0.Version then
 			break
 		end

@@ -53,8 +53,10 @@ function slot0.initPtData(slot0)
 	slot0.subPtDate = {}
 
 	for slot4, slot5 in ipairs(slot0.subActivities) do
+		slot6 = getProxy(ActivityProxy):getActivityById(slot5)
+
 		if slot0.subPtDate[slot5] then
-			slot0.subPtDate[slot5]:Update(getProxy(ActivityProxy):getActivityById(slot5))
+			slot0.subPtDate[slot5]:Update(slot6)
 		else
 			slot0.subPtDate[slot5] = ActivityPtData.New(slot6)
 		end
@@ -66,8 +68,9 @@ end
 function slot0.setPtActIndex(slot0)
 	slot0.curActIndex = slot0.lastSelectIndex
 	slot0.curSubActID = slot0.subActivities[slot0.curActIndex]
+	slot3 = slot0.subPtDate[slot0.subActivities[slot0.curActIndex == 1 and 2 or 1]]:CanGetAward()
 
-	if not slot0.subPtDate[slot0.curSubActID]:CanGetMorePt() or slot0.subPtDate[slot0.subActivities[slot0.curActIndex == 1 and 2 or 1]]:CanGetAward() then
+	if not slot0.subPtDate[slot0.curSubActID]:CanGetMorePt() or slot3 then
 		slot0.curActIndex = slot1
 		slot0.curSubActID = slot0.subActivities[slot0.curActIndex]
 
@@ -133,8 +136,9 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()
 		slot0 = {}
+		slot3 = getProxy(PlayerProxy):getData()
 
-		if uv0.subPtDate[uv0.curSubActID]:GetAward().type == DROP_TYPE_RESOURCE and slot1.id == PlayerConst.ResGold and getProxy(PlayerProxy):getData():GoldMax(slot1.count) then
+		if uv0.subPtDate[uv0.curSubActID]:GetAward().type == DROP_TYPE_RESOURCE and slot1.id == PlayerConst.ResGold and slot3:GoldMax(slot1.count) then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("gold_max_tip_title") .. i18n("award_max_warning"),
@@ -216,11 +220,17 @@ function slot0.OnFirstFlush(slot0)
 		end
 	end, SFX_PANEL)
 
+	slot1 = "ninghai_7"
 	slot2 = "pinghai_7"
 
 	if not slot0.model1 then
-		pg.UIMgr.GetInstance():LoadingOn()
-		PoolMgr.GetInstance():GetSpineChar("ninghai_7", true, function (slot0)
+		slot3 = pg.UIMgr.GetInstance()
+
+		slot3:LoadingOn()
+
+		slot3 = PoolMgr.GetInstance()
+
+		slot3:GetSpineChar(slot1, true, function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
 			uv0.prefab1 = uv1
@@ -233,8 +243,13 @@ function slot0.OnFirstFlush(slot0)
 	end
 
 	if not slot0.model2 then
-		pg.UIMgr.GetInstance():LoadingOn()
-		PoolMgr.GetInstance():GetSpineChar(slot2, true, function (slot0)
+		slot3 = pg.UIMgr.GetInstance()
+
+		slot3:LoadingOn()
+
+		slot3 = PoolMgr.GetInstance()
+
+		slot3:GetSpineChar(slot2, true, function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
 			uv0.prefab2 = uv1
@@ -261,8 +276,10 @@ end
 
 function slot0.OnUpdateFlush(slot0)
 	for slot4, slot5 in ipairs(slot0.subActivities) do
+		slot6 = getProxy(ActivityProxy):getActivityById(slot5)
+
 		if slot0.subPtDate[slot5] then
-			slot0.subPtDate[slot5]:Update(getProxy(ActivityProxy):getActivityById(slot5))
+			slot0.subPtDate[slot5]:Update(slot6)
 		else
 			slot0.subPtDate[slot5] = ActivityPtData.New(slot6)
 		end
@@ -461,15 +478,22 @@ end
 
 function slot0.autoFinishTask(slot0)
 	slot1 = 0.01
+	slot2 = 0.5
 
 	for slot6, slot7 in ipairs(slot0.finishItemList) do
 		slot8 = GetOrAddComponent(slot7, typeof(CanvasGroup))
 
 		slot0:managedTween(LeanTween.delayedCall, function ()
-			uv0:SetAsFirstSibling()
-			LeanTween.value(go(uv0), 1, 0, uv1):setOnUpdate(System.Action_float(function (slot0)
+			slot0 = uv0
+
+			slot0:SetAsFirstSibling()
+
+			slot0 = LeanTween.value(go(uv0), 1, 0, uv1)
+			slot0 = slot0:setOnUpdate(System.Action_float(function (slot0)
 				uv0.alpha = slot0
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot0:setOnComplete(System.Action(function ()
 				uv0.alpha = 1
 
 				setActive(uv1:findTF("finnal", uv2), true)
@@ -477,7 +501,7 @@ function slot0.autoFinishTask(slot0)
 			end))
 		end, slot1, nil)
 
-		slot1 = slot1 + 0.5 + 0.1
+		slot1 = slot1 + slot2 + 0.1
 	end
 
 	slot0:managedTween(LeanTween.delayedCall, function ()
@@ -567,7 +591,9 @@ function slot0.IsShowRed(slot0)
 	if slot0:isFinishAllAct() then
 		return false
 	else
-		return slot0:canFinishTask() or slot0:canGetPtAward() or slot0:canAddProgress() or slot0:isNewTask()
+		slot2 = slot0:canFinishTask() or slot0:canGetPtAward() or slot0:canAddProgress() or slot0:isNewTask()
+
+		return slot2
 	end
 
 	return false

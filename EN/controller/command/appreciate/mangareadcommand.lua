@@ -7,7 +7,10 @@ function slot0.execute(slot0, slot1)
 	slot5 = getProxy(AppreciateProxy)
 
 	print("17509 Send Manga ID", slot3)
-	pg.ConnectionMgr.GetInstance():Send(17509, {
+
+	slot6 = pg.ConnectionMgr.GetInstance()
+
+	slot6:Send(17509, {
 		id = slot3
 	}, 17510, function (slot0)
 		if slot0.result == 0 then

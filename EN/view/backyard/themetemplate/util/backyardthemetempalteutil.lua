@@ -45,7 +45,9 @@ function slot11(slot0, slot1, slot2)
 		return
 	end
 
-	pg.OSSMgr.GetInstance():GetTexture2D(uv2(slot0), uv1(slot0), false, uv3, uv4, function (slot0, slot1)
+	slot5 = pg.OSSMgr.GetInstance()
+
+	slot5:GetTexture2D(uv2(slot0), uv1(slot0), false, uv3, uv4, function (slot0, slot1)
 		if slot0 and slot1 then
 			uv0(slot1)
 		else
@@ -61,7 +63,9 @@ function slot12(slot0, slot1, slot2)
 		return
 	end
 
-	pg.OSSMgr.GetInstance():GetTexture2D(uv2(slot0), uv1(slot0), true, uv3, uv4, function (slot0, slot1)
+	slot5 = pg.OSSMgr.GetInstance()
+
+	slot5:GetTexture2D(uv2(slot0), uv1(slot0), true, uv3, uv4, function (slot0, slot1)
 		if slot0 and slot1 and uv0 == uv1(uv2) then
 			uv3(slot1)
 		else
@@ -147,11 +151,15 @@ function slot17(slot0, slot1, slot2)
 	slot3 = UnityEngine.Texture2D.New(452, 324)
 	slot4 = uv0 / 2 - slot3.width / 2
 	slot7 = uv1 / 2 - slot3.height / 2 + slot3.height
+	slot8 = 0
 	slot9 = 0
 
 	for slot13 = slot4, slot4 + slot3.width do
+		slot8 = slot8 + 1
+		slot9 = 0
+
 		for slot17 = slot5, slot7 do
-			slot3:SetPixel(0 + 1, 0 + 1, slot1:GetPixel(slot13, slot17))
+			slot3:SetPixel(slot8, slot9 + 1, slot1:GetPixel(slot13, slot17))
 		end
 	end
 
@@ -171,7 +179,8 @@ end
 function slot0.TakePhoto(slot0, slot1)
 	uv0()
 
-	slot3 = ScreenShooter.TakePhoto(GameObject.Find("/UICamera"):GetComponent(typeof(Camera)), uv1, uv2)
+	slot2 = GameObject.Find("/UICamera")
+	slot3 = ScreenShooter.TakePhoto(slot2:GetComponent(typeof(Camera)), uv1, uv2)
 
 	uv4(uv3(slot0))
 	uv5()
@@ -218,21 +227,23 @@ function slot19(slot0, slot1, slot2)
 			return
 		end
 
+		function slot1(slot0)
+			uv0.callback(slot0)
+			table.remove(uv1.loader, 1)
+
+			if slot0 then
+				uv1.CheckCache()
+				table.insert(uv1.caches, {
+					name = uv2,
+					asset = slot0
+				})
+			end
+
+			onNextTick(uv3)
+		end
+
 		if not uv0.loader[1].md5 or slot2 == "" then
-			(function (slot0)
-				uv0.callback(slot0)
-				table.remove(uv1.loader, 1)
-
-				if slot0 then
-					uv1.CheckCache()
-					table.insert(uv1.caches, {
-						name = uv2,
-						asset = slot0
-					})
-				end
-
-				onNextTick(uv3)
-			end)(nil)
+			slot1(nil)
 		elseif uv0.FileExists(slot0.name) and slot2 == uv3(uv4(uv1)) then
 			uv5(slot0.name, slot2, slot1)
 		else

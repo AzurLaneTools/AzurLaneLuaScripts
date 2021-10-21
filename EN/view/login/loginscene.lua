@@ -18,7 +18,9 @@ function slot0.preload(slot0, slot1)
 
 	seriesAsync({
 		function (slot0)
-			ResourceMgr.Inst:loadAssetBundleAsync("ui/LoginUI2_atlas", function (slot0)
+			slot1 = ResourceMgr.Inst
+
+			slot1:loadAssetBundleAsync("ui/LoginUI2_atlas", function (slot0)
 				table.insert(uv0.iconSpries, ResourceMgr.Inst:LoadAssetSync(slot0, "statu_green", typeof(Sprite), true, false))
 				table.insert(uv0.iconSpries, ResourceMgr.Inst:LoadAssetSync(slot0, "statu_gray", typeof(Sprite), true, false))
 				table.insert(uv0.iconSpries, ResourceMgr.Inst:LoadAssetSync(slot0, "statu_red", typeof(Sprite), true, false))
@@ -174,10 +176,11 @@ function slot0.init(slot0)
 end
 
 function slot0.setServerAccountData(slot0, slot1)
+	slot2 = slot1.id
 	slot3 = nil
 
 	for slot7 = 1, #slot0.serversDic do
-		if slot0.serversDic[slot7].id == slot1.id then
+		if slot0.serversDic[slot7].id == slot2 then
 			slot3 = slot0.serversDic[slot7]
 
 			break
@@ -309,10 +312,16 @@ function slot0.showUserAgreement(slot0, slot1)
 	end
 
 	setActive(slot0.userAgreenTF, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.userAgreenTF, false, {
+
+	slot4 = pg.UIMgr.GetInstance()
+
+	slot4:BlurPanel(slot0.userAgreenTF, false, {
 		weight = LayerWeightConst.THIRD_LAYER
 	})
-	setText(slot0.userAgreenTF:Find("window/container/scrollrect/content/Text"), require("ShareCfg.UserAgreement").content)
+
+	slot5 = slot0.userAgreenTF
+
+	setText(slot5:Find("window/container/scrollrect/content/Text"), require("ShareCfg.UserAgreement").content)
 	onButton(slot0, slot0.userAgreenConfirmTF, function ()
 		if uv0 then
 			setActive(uv1.userAgreenTF, false)
@@ -325,7 +334,10 @@ function slot0.showUserAgreement(slot0, slot1)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("read_the_user_agreement"))
 		end
 	end)
-	onScroll(slot0, slot0.userAgreenTF:Find("window/container/scrollrect"), function (slot0)
+
+	slot6 = slot0.userAgreenTF
+
+	onScroll(slot0, slot6:Find("window/container/scrollrect"), function (slot0)
 		if slot0.y <= 0.01 and not uv0 then
 			uv0 = true
 
@@ -575,7 +587,8 @@ function slot0.updateServerTF(slot0, slot1, slot2)
 	setText(findTF(slot1, "name"), "-  " .. slot2.name .. "  -")
 	setImageSprite(findTF(slot1, "statu"), slot0.iconSpries[slot2.status + 1], true)
 
-	findTF(slot1, "statu_1"):GetComponent("Image").color = Color.New(uv0[slot2.status + 1][1], uv0[slot2.status + 1][2], uv0[slot2.status + 1][3], uv0[slot2.status + 1][4])
+	slot3 = findTF(slot1, "statu_1")
+	slot3:GetComponent("Image").color = Color.New(uv0[slot2.status + 1][1], uv0[slot2.status + 1][2], uv0[slot2.status + 1][3], uv0[slot2.status + 1][4])
 
 	setActive(findTF(slot1, "mark"), slot2.isLogined)
 	setActive(slot0:findTF("tag_new", slot1), slot2.isNew)
@@ -655,8 +668,11 @@ function slot0.fillterRefundServer(slot0)
 		slot4 = nil
 
 		for slot8, slot9 in pairs(slot0.serverList) do
+			slot10 = slot9.id
+			slot11 = false
+
 			for slot15, slot16 in pairs(slot3) do
-				if slot3[slot15] == slot9.id and not false then
+				if slot3[slot15] == slot10 and not slot11 then
 					slot4 = not slot4 and "\n" .. slot9.name or "\n" .. slot9.name .. "," .. slot9.name
 
 					table.insert(slot2, slot9)
@@ -768,7 +784,9 @@ function slot0.willExit(slot0)
 end
 
 function slot0.playOpening(slot0, slot1)
-	pg.CpkPlayMgr.GetInstance():PlayCpkMovie(function ()
+	slot2 = pg.CpkPlayMgr.GetInstance()
+
+	slot2:PlayCpkMovie(function ()
 		if not uv0.cg then
 			uv0.cg = GetOrAddComponent(uv0._tf, "CanvasGroup")
 		end

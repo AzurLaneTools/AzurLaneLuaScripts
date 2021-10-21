@@ -12,9 +12,10 @@ end
 
 function slot0.setPoint(slot0)
 	slot0._contributionPoint = 0
+	slot1 = pg.guildset.guild_damage_resource.key_value
 
 	for slot5, slot6 in ipairs(slot0.contextData.drops) do
-		if slot6.configId == pg.guildset.guild_damage_resource.key_value then
+		if slot6.configId == slot1 then
 			slot0._contributionPoint = slot6.count
 		end
 	end
@@ -23,12 +24,10 @@ function slot0.setPoint(slot0)
 end
 
 function slot0.displayShips(slot0)
-	slot1 = {
-		[slot7.id] = slot7
-	}
+	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0.shipVOs) do
-		-- Nothing
+		slot1[slot7.id] = slot7
 	end
 
 	slot3 = slot0.contextData.statistics
@@ -116,7 +115,10 @@ function slot0.displayShips(slot0)
 
 				if slot35 then
 					slot0:stopVoice()
-					pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot35, function (slot0)
+
+					slot36 = pg.CriMgr.GetInstance()
+
+					slot36:PlaySoundEffect_V3(slot35, function (slot0)
 						uv0._currentVoice = slot0
 					end)
 				end

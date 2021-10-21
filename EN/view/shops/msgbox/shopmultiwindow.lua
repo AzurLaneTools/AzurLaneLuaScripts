@@ -49,9 +49,10 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		count = slot1:getConfig("num")
 	}
 	slot4, slot5 = getPlayerOwn(slot1:getConfig("resource_category"), slot1:getConfig("resource_type"))
+	slot6 = math.max(math.floor(slot5 / slot1:getConfig("resource_num")), 1)
 
 	if slot1:getConfig("num_limit") ~= 0 then
-		slot6 = math.min(math.max(math.floor(slot5 / slot1:getConfig("resource_num")), 1), math.max(0, slot1:GetPurchasableCnt()))
+		slot6 = math.min(slot6, math.max(0, slot1:GetPurchasableCnt()))
 	end
 
 	(function (slot0)

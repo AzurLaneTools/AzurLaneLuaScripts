@@ -7,7 +7,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(19101, {
+	slot5 = pg.ConnectionMgr.GetInstance()
+
+	slot5:Send(19101, {
 		user_id = slot2
 	}, 19102, function (slot0)
 		if slot0.lv == 0 then
@@ -16,9 +18,7 @@ function slot0.execute(slot0, slot1)
 			return
 		end
 
-		slot1 = {
-			[slot7.id] = slot7
-		}
+		slot1 = {}
 
 		for slot5, slot6 in ipairs(slot0.ship_id_list) do
 			slot7 = Ship.New({
@@ -30,6 +30,8 @@ function slot0.execute(slot0, slot1)
 			slot7.state = slot6.state
 
 			slot7:updateStateInfo34(0, 0)
+
+			slot1[slot7.id] = slot7
 		end
 
 		uv0:sendNotification(GAME.GET_BACKYARD_DATA, {

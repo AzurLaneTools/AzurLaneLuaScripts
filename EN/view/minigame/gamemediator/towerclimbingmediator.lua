@@ -76,6 +76,8 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.SEND_MINI_GAME_OP_DONE then
 		seriesAsync({
 			function (slot0)
@@ -86,7 +88,7 @@ function slot0.handleNotification(slot0, slot1)
 				end
 			end
 		})
-		slot0.viewComponent:OnSendMiniGameOPDone(slot1:getBody())
+		slot0.viewComponent:OnSendMiniGameOPDone(slot3)
 	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == TowerClimbingCollectionMediator then
 		slot0.viewComponent:UpdateTip()
 	end

@@ -30,7 +30,8 @@ function slot0.initBtn(slot0)
 			end)
 		end,
 		shop = function (slot0)
-			slot1 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+			slot2 = getProxy(ActivityProxy)
+			slot1 = _.detect(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
 				return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
 			end)
 

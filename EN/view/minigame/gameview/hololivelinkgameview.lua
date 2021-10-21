@@ -293,8 +293,9 @@ function slot0.GameLoop(slot0)
 	end
 
 	slot3, slot4, slot5 = nil
+	slot6 = slot0.list
 
-	slot0.list:each(function (slot0, slot1)
+	slot6:each(function (slot0, slot1)
 		onButton(uv0, slot1:Find("display/icon"), function ()
 			if uv2.cards[math.floor(uv0 / uv1.MAX_COLUMN)][uv0 % uv1.MAX_COLUMN].state ~= uv1.CARD_STATE_NORMAL then
 				return
@@ -323,18 +324,22 @@ function slot0.GameLoop(slot0)
 			else
 				slot2.state = uv1.CARD_STATE_LINKED
 				uv3.state = uv1.CARD_STATE_LINKED
+				slot5 = uv5
 
-				setActive(uv5:Find("display/selected"), true)
+				setActive(slot5:Find("display/selected"), true)
 				uv7(slot3)
 
 				uv6 = true
 				slot4 = uv5
 				slot5 = uv4
+				slot6 = GetComponent(slot4, typeof(Animator))
+				slot7 = GetComponent(slot5, typeof(Animator))
 				slot8 = GetComponent(slot4, "DftAniEvent")
+				slot9 = GetComponent(slot5, "DftAniEvent")
 
-				GetComponent(slot4, typeof(Animator)):SetBool("AniSwitch", true)
-				GetComponent(slot5, typeof(Animator)):SetBool("AniSwitch", true)
-				GetComponent(slot5, "DftAniEvent"):SetEndEvent(function (slot0)
+				slot6:SetBool("AniSwitch", true)
+				slot7:SetBool("AniSwitch", true)
+				slot9:SetEndEvent(function (slot0)
 					uv0(uv1)
 
 					uv2 = false
@@ -376,10 +381,11 @@ function slot0.GameLoop(slot0)
 							for slot18 = 0, uv2.MAX_COLUMN - 1 do
 								if slot3 ~= slot14 or slot7 ~= slot18 then
 									slot19 = uv3.cards[slot14][slot18]
+									slot21 = uv3.layout:GetChild(slot19.row * uv2.MAX_COLUMN + slot19.column)
 
 									if slot8.id == slot19.id then
 										triggerButton(slot10:Find("display/icon"))
-										triggerButton(uv3.layout:GetChild(slot19.row * uv2.MAX_COLUMN + slot19.column):Find("display/icon"))
+										triggerButton(slot21:Find("display/icon"))
 
 										if uv4 then
 											Timer.New(function ()
@@ -498,15 +504,16 @@ function slot0.LinkLink(slot0, slot1, slot2)
 		row = slot1.row,
 		column = slot1.column
 	}
+	slot4 = {
+		row = slot2.row,
+		column = slot2.column
+	}
 
 	table.insert({}, slot3)
 	table.insert({}, slot3)
 
 	for slot10 = 1, 3 do
-		if slot0:IterateByOneSnap({
-			row = slot2.row,
-			column = slot2.column
-		}, slot1.id, slot5, slot6) then
+		if slot0:IterateByOneSnap(slot4, slot1.id, slot5, slot6) then
 			slot12 = {
 				slot11
 			}
@@ -691,8 +698,10 @@ function slot0.setIconList(slot0)
 			-- Nothing
 		end
 
+		slot13 = uv0.NAME_TO_INDEX[slot11]
+
 		for slot17 = 1, slot12 do
-			table.insert(slot1, uv0.NAME_TO_INDEX[slot11])
+			table.insert(slot1, slot13)
 		end
 	end
 

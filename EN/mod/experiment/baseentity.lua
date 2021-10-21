@@ -100,9 +100,10 @@ function slot0.Clone_Copy(slot0, slot1)
 		return slot3
 	else
 		slot1[slot0] = {}
+		slot3 = type(slot0) == "table" and slot0.__ctype == 2
 
 		for slot7, slot8 in pairs(slot0) do
-			if type(slot0) == "table" and slot0.__ctype == 2 and slot7 == "class" then
+			if slot3 and slot7 == "class" then
 				slot2[slot7] = slot8
 			else
 				slot2[uv0.Clone_Copy(slot7, slot1)] = uv0.Clone_Copy(slot8, slot1)

@@ -23,7 +23,10 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0.isShowMsgBox = true
 
 	setActive(slot0._tf, true)
-	slot0._tf:SetAsLastSibling()
+
+	slot3 = slot0._tf
+
+	slot3:SetAsLastSibling()
 	setInputText(slot0.input, "")
 	onButton(slot0, slot0.confirmBtn, function ()
 		if not getInputText(uv0.input) or slot0 == "" then

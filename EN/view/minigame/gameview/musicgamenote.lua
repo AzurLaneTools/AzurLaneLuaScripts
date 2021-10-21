@@ -236,10 +236,14 @@ function slot0.checkScoreType(slot0, slot1)
 	slot2, slot3 = nil
 
 	if not slot1.longFlag then
+		slot3 = slot1.beginTime
+
 		if slot0.keyDownStepTime and not slot0.keyDownTrigger then
+			slot4 = math.abs(slot0.keyDownStepTime - slot3)
+
 			if slot1.keyType == MusicGameNote.type_pu_both then
 				if slot0.keyBothDown then
-					slot2 = slot0:getScoreType(math.abs(slot0.keyDownStepTime - slot1.beginTime))
+					slot2 = slot0:getScoreType(slot4)
 				end
 			else
 				slot2 = slot0:getScoreType(slot4)
@@ -255,10 +259,14 @@ function slot0.checkScoreType(slot0, slot1)
 			end
 		end
 	elseif not slot1.triggerDown then
+		slot3 = slot1.beginTime
+
 		if slot0.keyDownStepTime and not slot0.keyDownTrigger then
+			slot4 = math.abs(slot0.keyDownStepTime - slot3)
+
 			if slot1.keyType == MusicGameNote.type_pu_both then
 				if slot0.keyBothDown then
-					slot2 = slot0:getScoreType(math.abs(slot0.keyDownStepTime - slot1.beginTime))
+					slot2 = slot0:getScoreType(slot4)
 				end
 			else
 				slot2 = slot0:getScoreType(slot4)
@@ -270,28 +278,34 @@ function slot0.checkScoreType(slot0, slot1)
 				slot0.loopFlag = true
 			end
 		end
-	elseif not slot0.keyDown and slot0.stepTime < slot1.endTime - uv0 then
-		if slot0.loopFlag then
-			slot0.loopFlag = false
-		end
+	else
+		slot4 = slot0.stepTime < slot1.endTime - uv0
 
-		slot2 = uv1
-	elseif slot0.keyUpStepTime and not slot0.keyUpTrigger then
-		if slot1.keyType == MusicGameNote.type_pu_both then
-			if slot0.keyBothUp then
-				slot2 = slot0:getScoreType(math.abs(slot0.keyUpStepTime - slot3))
-			end
-		else
-			slot2 = slot0:getScoreType(slot5)
-		end
-
-		if slot2 then
+		if not slot0.keyDown and slot4 then
 			if slot0.loopFlag then
 				slot0.loopFlag = false
 			end
 
-			slot1.triggerUp = true
-			slot0.keyUpTrigger = true
+			slot2 = uv1
+		elseif slot0.keyUpStepTime and not slot0.keyUpTrigger then
+			slot5 = math.abs(slot0.keyUpStepTime - slot3)
+
+			if slot1.keyType == MusicGameNote.type_pu_both then
+				if slot0.keyBothUp then
+					slot2 = slot0:getScoreType(slot5)
+				end
+			else
+				slot2 = slot0:getScoreType(slot5)
+			end
+
+			if slot2 then
+				if slot0.loopFlag then
+					slot0.loopFlag = false
+				end
+
+				slot1.triggerUp = true
+				slot0.keyUpTrigger = true
+			end
 		end
 	end
 

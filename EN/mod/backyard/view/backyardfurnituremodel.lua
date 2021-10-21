@@ -63,8 +63,9 @@ function slot0.PlayEffect(slot0, slot1)
 		setActive(slot2, true)
 	else
 		slot0.loading = slot1
+		slot3 = PoolMgr.GetInstance()
 
-		PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
+		slot3:GetUI(slot1, true, function (slot0)
 			if IsNil(uv0._tf) or not uv0.loading then
 				return
 			end
@@ -148,9 +149,11 @@ function slot0.SetSelectState(slot0, slot1)
 end
 
 function slot0.FallBackAnim(slot0, slot1, slot2)
-	slot4 = uv0.getLocalPos(slot0.furnitureVO:getPosition())
+	slot3 = slot0.furnitureVO
+	slot4 = uv0.getLocalPos(slot3:getPosition())
+	slot5 = LeanTween.moveLocal(go(slot0._tf), Vector3(slot4.x, slot4.y, 0), 0.1)
 
-	LeanTween.moveLocal(go(slot0._tf), Vector3(slot4.x, slot4.y, 0), 0.1):setOnComplete(System.Action(function ()
+	slot5:setOnComplete(System.Action(function ()
 		if uv0 then
 			slot0 = uv0:getConfig("offset")
 			slot1 = uv1._tf.localPosition
@@ -164,6 +167,7 @@ end
 function slot0.initGrids(slot0)
 	slot1 = slot0.furnitureVO
 	slot3 = slot0.gridsTF
+	slot4 = slot1:isFloor()
 
 	for slot9, slot10 in ipairs(slot1:getOccupyGrid(slot1.position)) do
 		slot11 = slot3:GetChild(0)
@@ -173,7 +177,7 @@ function slot0.initGrids(slot0)
 		slot0.grids[slot9] = slot11
 		slot11.localPosition = uv0.getLocalPos(slot10)
 
-		if not slot1:isFloor() and BackyardFurnitureVO.isRightWall(slot2) then
+		if not slot4 and BackyardFurnitureVO.isRightWall(slot2) then
 			slot11.localScale = Vector3(1, 1, 1)
 		end
 
@@ -226,15 +230,19 @@ end
 function slot0.TouchAnim(slot0)
 	if not LeanTween.isTweening(go(slot0._tf)) then
 		slot1 = slot0._tf.localScale
+		slot2 = LeanTween.scale(slot0._tf, Vector3(slot1.x - 0.05, slot1.y - 0.05, slot1.z - 0.05), 0.01)
 
-		LeanTween.scale(slot0._tf, Vector3(slot1.x - 0.05, slot1.y - 0.05, slot1.z - 0.05), 0.01):setOnComplete(System.Action(function ()
+		slot2:setOnComplete(System.Action(function ()
 			LeanTween.scale(uv0._tf, uv1, 0.1)
 		end))
 	end
 end
 
 function slot0.LoadingAnim(slot0, slot1)
-	LeanTween.scale(rtf(slot0._tf), Vector3(slot0._tf.localScale.x + 0.2, slot0._tf.localScale.y + 0.2, 1), 0.2):setFrom(0):setOnComplete(System.Action(function ()
+	slot4 = LeanTween.scale(rtf(slot0._tf), Vector3(slot0._tf.localScale.x + 0.2, slot0._tf.localScale.y + 0.2, 1), 0.2)
+	slot4 = slot4:setFrom(0)
+
+	slot4:setOnComplete(System.Action(function ()
 		LeanTween.scale(rtf(uv0._tf), Vector3(uv1, uv2, 1), 0.1):setOnComplete(System.Action(uv3))
 	end))
 end
@@ -244,8 +252,9 @@ function slot0.TouchSpineAnim(slot0, slot1, slot2, slot3)
 		return
 	end
 
+	slot4 = slot0.furnitureVO
 	slot5 = slot0.spineAnimUI
-	slot6, slot7, slot8, slot9, slot10 = slot0.furnitureVO:getTouchSpineConfig()
+	slot6, slot7, slot8, slot9, slot10 = slot4:getTouchSpineConfig()
 
 	function slot11()
 		if not uv0 and uv1.touchSwitch then
@@ -268,7 +277,9 @@ function slot0.TouchSpineAnim(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		uv3:SetActionCallBack(function (slot0)
+		slot0 = uv3
+
+		slot0:SetActionCallBack(function (slot0)
 			if slot0 == "finish" and not uv0 then
 				uv1:SetAction("normal", 0)
 
@@ -349,7 +360,9 @@ function slot0.MoveToTarget(slot0, slot1, slot2)
 		LeanTween.cancel(go(slot0._tf))
 	end
 
-	LeanTween.moveLocal(go(slot0._tf), slot3(slot0._tf.localPosition, uv0.getLocalPos(slot4:getPosition())), slot1 / 2):setOnComplete(System.Action(function ()
+	slot8 = LeanTween.moveLocal(go(slot0._tf), slot3(slot0._tf.localPosition, uv0.getLocalPos(slot4:getPosition())), slot1 / 2)
+
+	slot8:setOnComplete(System.Action(function ()
 		uv0()
 		LeanTween.moveLocal(go(uv1._tf), uv2, uv3 / 2)
 	end))
@@ -397,8 +410,12 @@ function slot0.Clear(slot0)
 		LeanTween.cancel(go(slot0._tf))
 	end
 
-	for slot6, slot7 in pairs(slot0.grids or {}) do
-		slot0.poolmgr:Enqueue(slot0.furnitureVO:isFloor() and BackyardPoolMgr.POOL_NAME.GRID or BackyardPoolMgr.POOL_NAME.WALL, slot7.gameObject)
+	slot2 = slot0.furnitureVO:isFloor() and BackyardPoolMgr.POOL_NAME.GRID or BackyardPoolMgr.POOL_NAME.WALL
+	slot3 = pairs
+	slot4 = slot0.grids or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot0.poolmgr:Enqueue(slot2, slot7.gameObject)
 	end
 
 	slot4 = _.flatten({

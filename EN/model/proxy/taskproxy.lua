@@ -110,12 +110,12 @@ function slot0.GetWeekTaskProgressInfo(slot0)
 end
 
 function slot0.getTasksForBluePrint(slot0)
-	slot1 = {
-		[slot6.id] = slot6
-	}
+	slot1 = {}
+	slot2 = pairs
+	slot3 = slot0.data or {}
 
-	for slot5, slot6 in pairs(slot0.data or {}) do
-		-- Nothing
+	for slot5, slot6 in slot2(slot3) do
+		slot1[slot6.id] = slot6
 	end
 
 	for slot5, slot6 in pairs(slot0.finishData) do
@@ -195,11 +195,19 @@ function slot0.getTaskVO(slot0, slot1)
 end
 
 function slot0.getCanReceiveCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6:getConfig("visibility") == 1 and slot6:isFinish() and slot6:isReceive() == false then
+			slot1 = slot1 + 1
+
 			for slot11, slot12 in ipairs(slot6:getConfig("award_display")) do
-				if not LOCK_UR_SHIP and slot12[1] == DROP_TYPE_VITEM and pg.item_data_statistics[slot12[2]].virtual_type == 20 and (not LOCK_UR_SHIP and getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]) or 0) + slot12[3] - (not LOCK_UR_SHIP and pg.gameset.urpt_chapter_max.description[2] or 0) > 0 then
-					slot1 = 0 + 1 - 1
+				slot13 = slot12[1]
+				slot14 = slot12[2]
+				slot15 = slot12[3]
+
+				if not LOCK_UR_SHIP and slot13 == DROP_TYPE_VITEM and pg.item_data_statistics[slot14].virtual_type == 20 and (not LOCK_UR_SHIP and getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]) or 0) + slot15 - (not LOCK_UR_SHIP and pg.gameset.urpt_chapter_max.description[2] or 0) > 0 then
+					slot1 = slot1 - 1
 				end
 			end
 		end
@@ -213,9 +221,12 @@ function slot0.getCanReceiveCount(slot0)
 end
 
 function slot0.getNotFinishCount(slot0, slot1)
+	slot2 = slot1 or 3
+	slot3 = 0
+
 	for slot7, slot8 in pairs(slot0.data) do
-		if slot8:GetRealType() == (slot1 or 3) and slot8:isFinish() == false then
-			slot3 = 0 + 1
+		if slot8:GetRealType() == slot2 and slot8:isFinish() == false then
+			slot3 = slot3 + 1
 		end
 	end
 
@@ -304,7 +315,9 @@ function slot0.mingshiTouchFlagEnabled(slot0)
 end
 
 function slot0.getAcademyTask(slot0, slot1)
-	if _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
+	slot2 = getProxy(ActivityProxy)
+
+	if _.detect(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
 		return slot0:getTaskShip() and slot1.groupId == uv0
 	end) and not slot4:isEnd() then
 		return getActivityTask(slot4, true)

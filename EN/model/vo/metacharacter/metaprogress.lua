@@ -87,11 +87,12 @@ function slot0.isCanGetAward(slot0)
 end
 
 function slot0.getMetaProgressPTState(slot0)
+	slot1 = slot0.metaPtData:CanGetAward()
 	slot2 = slot0:isFinishCurLevelStory()
 	slot3 = slot0:isUnlocked()
 
 	if slot0.metaPtData.level + 1 < slot0.unlockPTLevel then
-		if not slot0.metaPtData:CanGetAward() then
+		if not slot1 then
 			return uv0.STATE_LESS_PT
 		elseif slot2 == false then
 			return uv0.STATE_LESS_STORY

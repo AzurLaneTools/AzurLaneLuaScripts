@@ -46,8 +46,10 @@ function slot0.GetShips(slot0)
 end
 
 function slot0.ToBitCode(slot0, slot1)
+	slot4 = ""
+
 	for slot8 = 1, 7 - string.len(ConvertDec2X(slot1, 2)) do
-		slot4 = "" .. "0"
+		slot4 = slot4 .. "0"
 	end
 
 	return String2Table(slot4 .. slot2)
@@ -78,10 +80,11 @@ function slot0.GetDir(slot0)
 end
 
 function slot0.GetResult(slot0)
+	slot1 = slot0:GetBitEncode()
 	slot2 = ""
 
 	if slot0:GetDir() == uv0.TYPE_POSITIVE then
-		slot2 = table.concat(slot0:GetBitEncode(), "")
+		slot2 = table.concat(slot1, "")
 	else
 		for slot6, slot7 in ipairs(slot1) do
 			if slot7 == "0" then

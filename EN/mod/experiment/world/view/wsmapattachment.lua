@@ -78,7 +78,9 @@ function slot0.LoadAvatar(slot0, slot1, slot2, slot3)
 
 	if slot1 and #slot1 > 0 then
 		table.insert(slot4, function (slot0)
-			uv0:LoadModel(WorldConst.ModelSpine, uv1, nil, true, function ()
+			slot1 = uv0
+
+			slot1:LoadModel(WorldConst.ModelSpine, uv1, nil, true, function ()
 				uv0.model:SetParent(uv1, false)
 				uv2()
 			end)
@@ -93,7 +95,9 @@ function slot0.LoadBoxPrefab(slot0, slot1, slot2, slot3)
 
 	if slot1 and #slot1 > 0 then
 		table.insert(slot4, function (slot0)
-			uv0:LoadModel(WorldConst.ModelPrefab, WorldConst.ResBoxPrefab .. uv1, uv1, true, function ()
+			slot1 = uv0
+
+			slot1:LoadModel(WorldConst.ModelPrefab, WorldConst.ResBoxPrefab .. uv1, uv1, true, function ()
 				uv0.model:SetParent(uv1, false)
 				uv2()
 			end)
@@ -108,7 +112,9 @@ function slot0.LoadChapterPrefab(slot0, slot1, slot2, slot3)
 
 	if slot1 and #slot1 > 0 then
 		table.insert(slot4, function (slot0)
-			uv0:LoadModel(WorldConst.ModelPrefab, WorldConst.ResChapterPrefab .. uv1, uv1, true, function ()
+			slot1 = uv0
+
+			slot1:LoadModel(WorldConst.ModelPrefab, WorldConst.ResChapterPrefab .. uv1, uv1, true, function ()
 				uv0.model:SetParent(uv1, false)
 				uv2()
 			end)
@@ -157,12 +163,13 @@ function slot0.UpdateEvent(slot0, slot1)
 
 		if not slot0.isInit then
 			slot0.isInit = true
+			slot8 = slot4.config
 
 			setActive(slot5:Find("char"), slot7)
 			setActive(slot5:Find("icon"), not slot7)
 
 			if slot7 then
-				slot0:LoadAvatar(slot4.config.icon, slot9:Find("ship"), function ()
+				slot0:LoadAvatar(slot8.icon, slot9:Find("ship"), function ()
 					if #uv0.icon > 0 then
 						setAnchoredPosition(uv1.model, uv2:GetDeviation())
 					end
@@ -218,12 +225,13 @@ function slot0.UpdateEventEnemy(slot0, slot1)
 
 		if not slot0.isInit then
 			slot0.isInit = true
+			slot11 = slot4:GetReplaceDisplayEnemyConfig()
 
 			setActive(slot6:Find("char"), slot10)
 			setActive(slot6:Find("icon"), not slot10)
 
 			if slot10 then
-				slot0:LoadAvatar(slot4:GetReplaceDisplayEnemyConfig().icon, slot12:Find("ship"))
+				slot0:LoadAvatar(slot11.icon, slot12:Find("ship"))
 			else
 				GetImageSpriteFromAtlasAsync("enemies/" .. slot11.icon, "", slot13:Find("pic"))
 				setActive(slot13:Find("size/bg_s"), WorldConst.EnemySize[slot11.type] == 1 or not slot14)
@@ -275,6 +283,7 @@ function slot0.UpdateBox(slot0, slot1)
 
 		if not slot0.isInit then
 			slot0.isInit = true
+			slot8 = slot4.config
 			slot9 = slot5:Find("char")
 			slot10 = slot5:Find("icon")
 
@@ -284,7 +293,7 @@ function slot0.UpdateBox(slot0, slot1)
 			setAnchoredPosition(slot10, uv0.IconBasePos)
 
 			if slot7 then
-				slot0:LoadAvatar(slot4.config.icon, slot9:Find("ship"))
+				slot0:LoadAvatar(slot8.icon, slot9:Find("ship"))
 			else
 				slot0:LoadBoxPrefab(slot8.icon, slot10)
 			end
@@ -314,12 +323,13 @@ function slot0.UpdateEnemy(slot0, slot1)
 
 		if not slot0.isInit then
 			slot0.isInit = true
+			slot11 = slot4.config
 
 			setActive(slot6:Find("char"), slot10)
 			setActive(slot6:Find("icon"), not slot10)
 
 			if slot10 then
-				slot0:LoadAvatar(slot4.config.icon, slot12:Find("ship"))
+				slot0:LoadAvatar(slot11.icon, slot12:Find("ship"))
 			else
 				GetImageSpriteFromAtlasAsync("enemies/" .. slot11.icon, "", slot13:Find("pic"))
 				setActive(slot13:Find("size/bg_s"), WorldConst.EnemySize[slot11.type] == 1 or not slot14)
@@ -379,6 +389,7 @@ function slot0.UpdateTrap(slot0, slot1)
 
 		if not slot0.isInit then
 			slot0.isInit = true
+			slot8 = slot4.config
 			slot9 = slot5:Find("char")
 			slot10 = slot5:Find("icon")
 
@@ -388,7 +399,7 @@ function slot0.UpdateTrap(slot0, slot1)
 			setAnchoredPosition(slot10, uv0.IconBasePos)
 
 			if slot7 then
-				slot0:LoadAvatar(slot4.config.trap_fx, slot9:Find("ship"))
+				slot0:LoadAvatar(slot8.trap_fx, slot9:Find("ship"))
 			else
 				slot0:LoadBoxPrefab(slot8.trap_fx, slot10)
 			end
@@ -405,8 +416,10 @@ function slot0.UpdateBuffList(slot0, slot1, slot2)
 	slot4 = UIItemList.New(slot3, slot3:GetChild(0))
 
 	slot4:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			GetImageSpriteFromAtlasAsync("world/buff/" .. uv0[slot1 + 1].config.icon, "", slot2)
+			GetImageSpriteFromAtlasAsync("world/buff/" .. uv0[slot1].config.icon, "", slot2)
 		end
 	end)
 	slot4:align(#slot2)
@@ -458,7 +471,8 @@ end
 
 function slot0.TrapAnimDisplay(slot0, slot1)
 	slot2 = {}
-	slot3 = slot0.model:GetChild(0)
+	slot3 = slot0.model
+	slot3 = slot3:GetChild(0)
 
 	table.insert(slot2, function (slot0)
 		uv0:GetComponent("DftAniEvent"):SetEndEvent(slot0)

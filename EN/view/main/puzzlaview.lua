@@ -293,8 +293,10 @@ end
 
 function slot0.printTable(slot0)
 	for slot4, slot5 in ipairs(slot0.puzzlaItems) do
+		slot6 = ""
+
 		for slot10, slot11 in ipairs(slot5) do
-			slot6 = "" .. slot4 .. "-" .. slot10 .. "-" .. slot11:getCurrIndex() .. " "
+			slot6 = slot6 .. slot4 .. "-" .. slot10 .. "-" .. slot11:getCurrIndex() .. " "
 		end
 
 		print(slot6)
@@ -327,16 +329,18 @@ function slot0.disorganizePuzzla(slot0, slot1)
 end
 
 function slot0.disorganizeStep(slot0)
+	function slot2(slot0)
+		if uv0.prevDir then
+			return uv0.prevDir == slot0
+		end
+
+		return false
+	end
+
 	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot0:getBlockItem():getSurroundPosition()) do
-		if slot0:isValidPosition(slot9) and not (function (slot0)
-			if uv0.prevDir then
-				return uv0.prevDir == slot0
-			end
-
-			return false
-		end)(slot8) then
+		if slot0:isValidPosition(slot9) and not slot2(slot8) then
 			table.insert(slot4, {
 				pos = slot9,
 				dir = uv0[slot8]
@@ -352,8 +356,12 @@ function slot0.disorganizeStep(slot0)
 end
 
 function slot0.printPaths(slot0)
-	for slot5, slot6 in ipairs(slot0.paths or {}) do
-		slot1 = "" .. uv0[slot6] .. ","
+	slot1 = ""
+	slot2 = ipairs
+	slot3 = slot0.paths or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot1 = slot1 .. uv0[slot6] .. ","
 	end
 
 	print(slot1)
@@ -361,8 +369,10 @@ end
 
 function slot0.decodePuzzla(slot0, slot1)
 	slot2 = {}
+	slot3 = ipairs
+	slot4 = slot1 or {}
 
-	for slot6, slot7 in ipairs(slot1 or {}) do
+	for slot6, slot7 in slot3(slot4) do
 		slot9 = uv1[uv0[slot7]]
 
 		table.insert(slot2, 1, {
@@ -385,8 +395,10 @@ function slot0.aotuDecode(slot0)
 end
 
 function slot0.printDecode(slot0)
+	slot2 = ""
+
 	for slot6, slot7 in ipairs(slot0:decodePuzzla(slot0.paths)) do
-		slot2 = "" .. " - " .. slot7.dir
+		slot2 = slot2 .. " - " .. slot7.dir
 	end
 
 	print(slot2)

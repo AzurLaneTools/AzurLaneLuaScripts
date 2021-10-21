@@ -7,38 +7,49 @@ function slot0.execute(slot0, slot1)
 
 	function slot6(slot0, slot1)
 		if uv0 == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
-			for slot6, slot7 in ipairs(slot0.theme_id_list or {}) do
-				slot8 = nil
+			slot2 = {}
+			slot3 = ipairs
+			slot4 = slot0.theme_id_list or {}
 
-				BackYardThemeTemplate.New({
+			for slot6, slot7 in slot3(slot4) do
+				slot8 = nil
+				slot8 = BackYardThemeTemplate.New({
 					id = slot7
-				}):SetSortIndex(slot6)
+				})
+
+				slot8:SetSortIndex(slot6)
+
+				slot2[slot8.id] = slot8
 			end
 
-			uv1:SetShopThemeTemplates({
-				[slot8.id] = slot8
-			})
+			uv1:SetShopThemeTemplates(slot2)
 		elseif uv0 == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then
-			for slot6, slot7 in ipairs(slot0.theme_list or {}) do
+			slot2 = {}
+			slot3 = ipairs
+			slot4 = slot0.theme_list or {}
+
+			for slot6, slot7 in slot3(slot4) do
 				slot8 = nil
 				slot8 = BackYardSelfThemeTemplate.New(slot7)
+				slot2[slot8.id] = slot8
 			end
 
-			uv1:SetCustomThemeTemplates({
-				[slot8.id] = slot8
-			})
+			uv1:SetCustomThemeTemplates(slot2)
 		elseif uv0 == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION then
-			for slot6, slot7 in ipairs(slot0.theme_profile_list or {}) do
+			slot2 = {}
+			slot3 = ipairs
+			slot4 = slot0.theme_profile_list or {}
+
+			for slot6, slot7 in slot3(slot4) do
 				slot8 = nil
 				slot8 = BackYardThemeTemplate.New({
 					id = slot7.id,
 					upload_time = slot7.upload_time
 				})
+				slot2[slot8.id] = slot8
 			end
 
-			uv1:SetCollectionThemeTemplates({
-				[slot8.id] = slot8
-			})
+			uv1:SetCollectionThemeTemplates(slot2)
 		end
 
 		if slot1 then
@@ -71,7 +82,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot2.type == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then
-		pg.ConnectionMgr.GetInstance():Send(19105, {
+		slot9 = pg.ConnectionMgr.GetInstance()
+
+		slot9:Send(19105, {
 			typ = slot3
 		}, 19106, function (slot0)
 			if slot0.result == 0 then
@@ -86,7 +99,9 @@ function slot0.execute(slot0, slot1)
 			end
 		end)
 	elseif slot3 == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
-		pg.ConnectionMgr.GetInstance():Send(19117, {
+		slot9 = pg.ConnectionMgr.GetInstance()
+
+		slot9:Send(19117, {
 			typ = slot5.TYPE,
 			page = slot5.PAGE,
 			num = BackYardConst.THEME_TEMPLATE_SHOP_REFRSH_CNT
@@ -98,7 +113,9 @@ function slot0.execute(slot0, slot1)
 			end
 		end)
 	elseif slot3 == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION then
-		pg.ConnectionMgr.GetInstance():Send(19115, {
+		slot9 = pg.ConnectionMgr.GetInstance()
+
+		slot9:Send(19115, {
 			typ = 3
 		}, 19116, function (slot0)
 			if slot0.result == 0 then

@@ -17,8 +17,10 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 		uv0:setCurNum(slot0)
 	end)
 	onButton(slot0, slot0._rightBtn, function ()
+		slot0 = uv0._curNum + uv0._addNum
+
 		if uv0._maxNum < 0 then
-			uv0:setCurNum(uv0._curNum + uv0._addNum)
+			uv0:setCurNum(slot0)
 		else
 			if uv0._maxNum < slot0 then
 				slot0 = uv0._maxNum or slot0

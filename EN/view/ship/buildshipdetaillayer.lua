@@ -60,8 +60,9 @@ end
 
 function slot0.didEnter(slot0)
 	slot0.projectTFs = {}
+	slot1 = slot0.multList
 
-	slot0.multList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot2.gameObject.name = "project_" .. slot1 + 1
 			uv0.projectTFs[slot1 + 1] = slot2
@@ -69,7 +70,10 @@ function slot0.didEnter(slot0)
 			uv0:updateProject(slot1 + 1, uv0.projectList[slot1 + 1])
 		end
 	end)
-	slot0.singleList:make(function (slot0, slot1, slot2)
+
+	slot1 = slot0.singleList
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot2.gameObject.name = "project_" .. slot1 + 1
 			uv0.projectTFs[slot1 + 1] = slot2
@@ -80,7 +84,10 @@ function slot0.didEnter(slot0)
 	slot0:initProjectList()
 	slot0:updateItem()
 	slot0:updateListCount()
-	slot0.aniBgTF.transform:SetParent(GameObject.Find("Overlay/UIOverlay").transform, false)
+
+	slot2 = slot0.aniBgTF.transform
+
+	slot2:SetParent(GameObject.Find("Overlay/UIOverlay").transform, false)
 	onButton(slot0, slot0.allLaunch, function ()
 		if uv0:getNeedCount() > 0 and not uv0.isStopSpeedUpRemind then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -113,9 +120,11 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.getNeedCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0.projectList) do
 		if slot6.state ~= BuildShip.FINISH then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -131,7 +140,10 @@ function slot0.updateItem(slot0)
 end
 
 function slot0.initProjectList(slot0)
-	for slot4, slot5 in pairs(slot0.buildTimers or {}) do
+	slot1 = pairs
+	slot2 = slot0.buildTimers or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		pg.TimeMgr.GetInstance():RemoveTimer(slot5)
 	end
 
@@ -172,7 +184,9 @@ function slot0.updateProject(slot0, slot1, slot2)
 
 	if slot2.state == BuildShip.ACTIVE then
 		if not slot0:findTF("shipModelBuliding" .. slot9, slot10) then
-			PoolMgr.GetInstance():GetUI("shipModelBuliding" .. slot9, true, function (slot0)
+			slot12 = PoolMgr.GetInstance()
+
+			slot12:GetUI("shipModelBuliding" .. slot9, true, function (slot0)
 				slot0.transform:SetParent(uv0, false)
 
 				slot0.transform.localPosition = Vector3(1, 1, 1)
@@ -236,7 +250,8 @@ function slot0.updateProject(slot0, slot1, slot2)
 			slot0.buildTimers[slot1] = nil
 		end
 
-		slot0.buildTimers[slot1] = pg.TimeMgr.GetInstance():AddTimer("timer" .. slot1, 0, 1, function ()
+		slot16 = pg.TimeMgr.GetInstance()
+		slot0.buildTimers[slot1] = slot16:AddTimer("timer" .. slot1, 0, 1, function ()
 			if uv0:getLeftTime() <= 0 then
 				uv1()
 			else
@@ -370,14 +385,22 @@ function slot0.willExit(slot0)
 	slot0:stopCV()
 
 	slot0.onLoading = false
+	slot1 = slot0.multList
 
-	slot0.multList:each(function (slot0, slot1)
-		eachChild(uv0:findTF("frame/buiding/ship_modal", slot1), function (slot0)
+	slot1:each(function (slot0, slot1)
+		slot2 = uv0
+
+		eachChild(slot2:findTF("frame/buiding/ship_modal", slot1), function (slot0)
 			PoolMgr.GetInstance():ReturnUI(slot0.name, slot0)
 		end)
 	end)
-	slot0.singleList:each(function (slot0, slot1)
-		eachChild(uv0:findTF("frame/buiding/ship_modal", slot1), function (slot0)
+
+	slot1 = slot0.singleList
+
+	slot1:each(function (slot0, slot1)
+		slot2 = uv0
+
+		eachChild(slot2:findTF("frame/buiding/ship_modal", slot1), function (slot0)
 			PoolMgr.GetInstance():ReturnUI(slot0.name, slot0)
 		end)
 	end)

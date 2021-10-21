@@ -475,15 +475,15 @@ function slot0.RatioIncrease(slot0, slot1, slot2)
 end
 
 function slot0.GetTagAttr(slot0, slot1, slot2)
+	slot4 = {}
+
 	for slot8, slot9 in ipairs(slot1:GetLabelTag()) do
-		-- Nothing
+		slot4[uv0.TAG_EHC_KEY .. slot9] = true
 	end
 
 	slot5 = 1
 
-	for slot9, slot10 in pairs({
-		[uv0.TAG_EHC_KEY .. slot9] = true
-	}) do
+	for slot9, slot10 in pairs(slot4) do
 		if uv0.GetCurrent(slot0, slot9) ~= 0 then
 			if slot2 then
 				slot11 = ys.Battle.BattleDataFunction.GetLimitAttributeRange(slot9, slot11)
@@ -494,8 +494,10 @@ function slot0.GetTagAttr(slot0, slot1, slot2)
 	end
 
 	if uv0.GetCurrent(slot1, uv0.FROM_TAG_EHC_KEY) > 0 then
+		slot8 = uv0.FROM_TAG_EHC_KEY .. slot0:GetWeaponTempData().attack_attribute .. "_"
+
 		for slot13, slot14 in pairs(uv0.GetCurrentTags(slot0)) do
-			if slot14 > 0 and uv0.GetCurrent(slot1, uv0.FROM_TAG_EHC_KEY .. slot0:GetWeaponTempData().attack_attribute .. "_" .. slot13) ~= 0 then
+			if slot14 > 0 and uv0.GetCurrent(slot1, slot8 .. slot13) ~= 0 then
 				slot5 = slot5 * (1 + slot16)
 			end
 		end

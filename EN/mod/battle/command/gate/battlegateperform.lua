@@ -23,15 +23,17 @@ function slot0.Entrance(slot0, slot1)
 		end
 	end
 
+	slot6 = {
+		stageId = slot2,
+		system = SYSTEM_PERFORM,
+		memory = slot0.memory,
+		exitCallback = slot0.exitCallback,
+		prefabFleet = slot4,
+		mainFleetId = slot0.mainFleetId
+	}
+
 	if slot0.memory then
-		slot1:sendNotification(GAME.BEGIN_STAGE_DONE, {
-			stageId = slot2,
-			system = SYSTEM_PERFORM,
-			memory = slot0.memory,
-			exitCallback = slot0.exitCallback,
-			prefabFleet = slot4,
-			mainFleetId = slot0.mainFleetId
-		})
+		slot1:sendNotification(GAME.BEGIN_STAGE_DONE, slot6)
 	else
 		BeginStageCommand.SendRequest(SYSTEM_PERFORM, slot5, {
 			slot2

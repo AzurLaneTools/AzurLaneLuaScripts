@@ -47,25 +47,29 @@ function slot1.Init(slot0, slot1)
 		}
 	}
 
+	function slot2(slot0)
+		if slot0 == nil then
+			return
+		end
+
+		slot0.downsample = 2
+		slot0.blurSize = 4
+		slot0.blurIterations = 2
+	end
+
+	function slot3(slot0)
+		if slot0 == nil then
+			return
+		end
+
+		slot0.downsample = 2
+		slot0.blurSize = 1.5
+		slot0.blurIteration = 4
+	end
+
 	for slot7, slot8 in ipairs(slot0.cameraBlurs) do
-		(function (slot0)
-			if slot0 == nil then
-				return
-			end
-
-			slot0.downsample = 2
-			slot0.blurSize = 4
-			slot0.blurIterations = 2
-		end)(slot8[uv0.OptimizedBlur])
-		(function (slot0)
-			if slot0 == nil then
-				return
-			end
-
-			slot0.downsample = 2
-			slot0.blurSize = 1.5
-			slot0.blurIteration = 4
-		end)(slot8[uv0.PartialBlur])
+		slot2(slot8[uv0.OptimizedBlur])
+		slot3(slot8[uv0.PartialBlur])
 	end
 
 	slot0._debugPanel = DebugPanel.New()
@@ -329,11 +333,12 @@ end
 
 function slot1.BlurCamera(slot0, slot1, slot2)
 	slot3 = slot0.cameraBlurs[slot1][uv0.OptimizedBlur]
+	slot4 = slot0.cameraBlurs[slot1][uv0.StaticBlur]
 
 	if slot2 then
 		slot3.enabled = true
 		slot3.staticBlur = true
-		slot0.cameraBlurs[slot1][uv0.StaticBlur].enabled = false
+		slot4.enabled = false
 	else
 		slot3.enabled = true
 		slot3.staticBlur = false

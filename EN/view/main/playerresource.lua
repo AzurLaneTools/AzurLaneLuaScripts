@@ -4,7 +4,10 @@ slot0.GO_MALL = "PlayerResource:GO_MALL"
 
 function slot0.Ctor(slot0)
 	uv0.super.Ctor(slot0)
-	PoolMgr.GetInstance():GetUI("ResPanel", false, function (slot0)
+
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetUI("ResPanel", false, function (slot0)
 		slot0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
 		uv0:onUILoaded(slot0)
 	end)
@@ -74,20 +77,22 @@ function slot0.init(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.gemAddBtn, function ()
+		function slot0()
+			if not pg.m02:hasMediator(ChargeMediator.__cname) then
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+					wrap = ChargeScene.TYPE_DIAMOND
+				})
+			else
+				pg.m02:sendNotification(uv0.GO_MALL)
+			end
+		end
+
 		if PLATFORM_CODE == PLATFORM_JP then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				fontSize = 23,
 				yesText = "text_buy",
 				content = i18n("word_diamond_tip", uv1.player:getFreeGem(), uv1.player:getChargeGem(), uv1.player:getTotalGem()),
-				onYes = function ()
-					if not pg.m02:hasMediator(ChargeMediator.__cname) then
-						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-							wrap = ChargeScene.TYPE_DIAMOND
-						})
-					else
-						pg.m02:sendNotification(uv0.GO_MALL)
-					end
-				end,
+				onYes = slot0,
 				alignment = TextAnchor.UpperLeft,
 				weight = LayerWeightConst.TOP_LAYER
 			})

@@ -9,9 +9,12 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.rtFrame = slot0._tf:Find("frame")
-	slot0.rtPanel = slot0.rtFrame:Find("buff_panel/buff_bg")
-	slot0.rtInfo = slot0.rtFrame:Find("buff_panel/info")
+	slot1 = slot0._tf
+	slot0.rtFrame = slot1:Find("frame")
+	slot1 = slot0.rtFrame
+	slot0.rtPanel = slot1:Find("buff_panel/buff_bg")
+	slot1 = slot0.rtFrame
+	slot0.rtInfo = slot1:Find("buff_panel/info")
 
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()

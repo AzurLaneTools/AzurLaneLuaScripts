@@ -20,30 +20,32 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
+	function slot10()
+		if uv0 then
+			uv1:sendNotification(GAME.ACT_COLLECTION_EVENT_OP, {
+				arg2 = 0,
+				cmd = ActivityConst.COLLETION_EVENT_OP_JOIN,
+				arg1 = uv2,
+				arg_list = uv3
+			})
+		else
+			pg.ConnectionMgr.GetInstance():Send(13003, {
+				id = uv2,
+				ship_id_list = uv3
+			}, 13004, function (slot0)
+				if slot0.result == 0 then
+					uv0.OnStart(uv1)
+				else
+					pg.TipsMgr.GetInstance():ShowTips(errorTip("event_start_fail", slot0.result))
+				end
+			end)
+		end
+	end
+
 	if slot6:getOilConsume() > 0 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("event_oil_consume", slot11),
-			onYes = function ()
-				if uv0 then
-					uv1:sendNotification(GAME.ACT_COLLECTION_EVENT_OP, {
-						arg2 = 0,
-						cmd = ActivityConst.COLLETION_EVENT_OP_JOIN,
-						arg1 = uv2,
-						arg_list = uv3
-					})
-				else
-					pg.ConnectionMgr.GetInstance():Send(13003, {
-						id = uv2,
-						ship_id_list = uv3
-					}, 13004, function (slot0)
-						if slot0.result == 0 then
-							uv0.OnStart(uv1)
-						else
-							pg.TipsMgr.GetInstance():ShowTips(errorTip("event_start_fail", slot0.result))
-						end
-					end)
-				end
-			end
+			onYes = slot10
 		})
 	else
 		slot10()

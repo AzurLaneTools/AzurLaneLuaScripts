@@ -47,8 +47,10 @@ function slot0.GetType(slot0)
 end
 
 function slot0.GetFasterRefreshTime(slot0)
+	slot1 = {}
+
 	if slot0:ShouldWaitForShow() then
-		table.insert({}, slot0.time)
+		table.insert(slot1, slot0.time)
 	end
 
 	for slot6, slot7 in ipairs(slot0:GetAllReplys()) do
@@ -103,12 +105,13 @@ end
 
 function slot0.GetCanDisplayReply(slot0)
 	slot1 = {}
+	slot2 = 0
 
 	for slot7, slot8 in ipairs(slot0:GetAllReplys()) do
 		if not slot8:ShouldWaitForShow() then
 			table.insert(slot1, slot8)
 
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 
@@ -126,8 +129,10 @@ function slot0.HasReply(slot0)
 end
 
 function slot0.GetContent(slot0)
+	slot1 = slot0:GetName()
+
 	if slot0.isRoot then
-		return string.format("<color=#000000FF>%s.</color>%s", slot0:GetName(), slot0.text)
+		return string.format("<color=#000000FF>%s.</color>%s", slot1, slot0.text)
 	else
 		slot2 = slot0:GetParentCommentName()
 
@@ -136,9 +141,11 @@ function slot0.GetContent(slot0)
 end
 
 function slot0.GetReplyCnt(slot0)
+	slot1 = 0
+
 	for slot6, slot7 in ipairs(slot0:GetAllReplys()) do
 		if not slot7:ShouldWaitForShow() then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 

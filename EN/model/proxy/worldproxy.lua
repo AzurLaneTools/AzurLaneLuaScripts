@@ -42,8 +42,10 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:on(33204, function (slot0)
+		slot1 = nowWorld:GetTaskProxy()
+
 		for slot5, slot6 in ipairs(slot0.delete_list) do
-			nowWorld:GetTaskProxy():deleteTask(slot6)
+			slot1:deleteTask(slot6)
 		end
 	end)
 	slot0:on(33601, function (slot0)
@@ -114,7 +116,9 @@ function slot0.BuildTestFunc(slot0)
 			end
 		end
 
-		pg.UIMgr.GetInstance():AddWorldTestButton("WorldDebug", function ()
+		slot1 = pg.UIMgr.GetInstance()
+
+		slot1:AddWorldTestButton("WorldDebug", function ()
 			WorldConst.Debug = true
 		end)
 	end
@@ -174,7 +178,10 @@ function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
 	end
 
 	slot4:SetPortShips(slot0:NetBuildPortShipList(slot1.ship_in_port))
-	slot4:GetInventoryProxy():Setup(slot1.item_list)
+
+	slot6 = slot4:GetInventoryProxy()
+
+	slot6:Setup(slot1.item_list)
 
 	slot7 = slot4:GetTaskProxy()
 
@@ -455,7 +462,8 @@ function slot0.NetBuildFleetAttachUpdate(slot0, slot1)
 end
 
 function slot0.ApplyFleetAttachUpdate(slot0, slot1, slot2)
-	slot3 = nowWorld:GetMap(slot1)
+	slot3 = nowWorld
+	slot3 = slot3:GetMap(slot1)
 
 	_.each(slot2, function (slot0)
 		uv0:UpdateFleetLocation(slot0.id, slot0.row, slot0.column)
@@ -473,13 +481,16 @@ function slot0.NetBulidTerrainUpdate(slot0, slot1)
 end
 
 function slot0.ApplyTerrainUpdate(slot0, slot1, slot2)
-	slot3 = nowWorld:GetMap(slot1)
+	slot3 = nowWorld
+	slot3 = slot3:GetMap(slot1)
 
 	_.each(slot2, function (slot0)
 		slot1 = uv0:GetCell(slot0.row, slot0.column)
 
 		if uv0:FindFleet(slot1.row, slot1.column) then
-			uv0:CheckFleetUpdateFOV(slot2, function ()
+			slot3 = uv0
+
+			slot3:CheckFleetUpdateFOV(slot2, function ()
 				uv0:UpdateTerrain(uv1:GetTerrain(), uv1.terrainDir, uv1.terrainStrong)
 			end)
 		else
@@ -499,10 +510,14 @@ function slot0.NetBuildFleetUpdate(slot0, slot1)
 end
 
 function slot0.ApplyFleetUpdate(slot0, slot1, slot2)
-	slot3 = nowWorld:GetMap(slot1)
+	slot3 = nowWorld
+	slot3 = slot3:GetMap(slot1)
 
 	_.each(slot2, function (slot0)
-		uv0:CheckFleetUpdateFOV(uv0:GetFleet(slot0.id), function ()
+		slot1 = uv0
+		slot2 = uv0
+
+		slot2:CheckFleetUpdateFOV(slot1:GetFleet(slot0.id), function ()
 			uv0:UpdateBuffs(uv1.buffs)
 		end)
 	end)
@@ -538,7 +553,8 @@ function slot0.NetUpdateWorldShopGoods(slot0, slot1)
 end
 
 function slot0.NetUpdateWorldPressingAward(slot0, slot1)
-	slot2 = nowWorld:GetAtlas()
+	slot2 = nowWorld
+	slot2 = slot2:GetAtlas()
 
 	_.each(slot1, function (slot0)
 		slot2 = {

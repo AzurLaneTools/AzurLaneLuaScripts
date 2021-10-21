@@ -3,12 +3,13 @@ slot0 = class("BuildCommaderCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.callback
+	slot7 = getProxy(PlayerProxy):getData()
 	slot8 = getProxy(BagProxy)
 	slot10 = {}
 
 	for slot14, slot15 in ipairs(getProxy(CommanderProxy):getPoolById(slot2.id):getConsume()) do
 		if slot15[1] == DROP_TYPE_RESOURCE then
-			if getProxy(PlayerProxy):getData():getResById(slot15[2]) < slot15[3] then
+			if slot7:getResById(slot15[2]) < slot15[3] then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 				return
@@ -26,7 +27,9 @@ function slot0.execute(slot0, slot1)
 		}))
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(25002, {
+	slot11 = pg.ConnectionMgr.GetInstance()
+
+	slot11:Send(25002, {
 		boxid = slot3
 	}, 25003, function (slot0)
 		if slot0.result == 0 then

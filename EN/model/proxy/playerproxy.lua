@@ -190,8 +190,10 @@ function slot0.setRefundInfo(slot0, slot1)
 	slot2 = nil
 
 	if slot1 and #slot1 > 0 then
+		slot2 = {}
+
 		for slot6, slot7 in ipairs(slot1) do
-			table.insert({}, {
+			table.insert(slot2, {
 				shopId = slot7.shop_id,
 				buyTime = slot7.buy_time,
 				refundTime = slot7.refund_time

@@ -33,8 +33,10 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.Switch(slot0, slot1)
+	slot2 = slot0.ships[slot1]
+
 	for slot6, slot7 in ipairs(slot0.shipList) do
-		slot0:UpdateShip(slot7, slot0.ships[slot1][slot6])
+		slot0:UpdateShip(slot7, slot2[slot6])
 	end
 end
 

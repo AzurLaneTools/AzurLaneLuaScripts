@@ -34,7 +34,8 @@ function slot0.OnLoaded(slot0)
 	slot0.commanderLevelTxt = slot0.commanderExp:Find("level/Text"):GetComponent(typeof(Text))
 	slot0.commanderExpTxt = slot0.commanderExp:Find("value_bg/Text"):GetComponent(typeof(Text))
 	slot0.commanderExpImg = slot0.commanderExp:Find("exp/Image")
-	slot0.toggleGroup = slot0:findTF("left/tags"):GetComponent(typeof(ToggleGroup))
+	slot1 = slot0:findTF("left/tags")
+	slot0.toggleGroup = slot1:GetComponent(typeof(ToggleGroup))
 	slot0.pagesTF = slot0:findTF("right/pages")
 	slot0.tags = {
 		slot0:findTF("left/tags/commander"),
@@ -145,9 +146,10 @@ end
 
 function slot0.UpdateCatteryStyle(slot0)
 	slot1 = slot0.cattery
+	slot2 = slot1:_GetStyle_()
 
 	if slot1:ExistCommander() then
-		slot0.styleIcon.sprite = GetSpriteFromAtlas("CatteryStyle/" .. slot1:_GetStyle_():GetName(slot1:IsDirty()), "")
+		slot0.styleIcon.sprite = GetSpriteFromAtlas("CatteryStyle/" .. slot2:GetName(slot1:IsDirty()), "")
 	else
 		slot0.styleIcon.sprite = GetSpriteFromAtlas("CatteryStyle/" .. slot2:GetName(false), "")
 	end

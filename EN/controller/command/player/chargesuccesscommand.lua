@@ -7,9 +7,10 @@ function slot0.execute(slot0, slot1)
 	slot7 = Goods.Create({
 		shop_id = slot2.shopId
 	}, Goods.TYPE_CHARGE)
+	slot9 = getProxy(PlayerProxy):getData()
 
 	if slot2.gem > 0 then
-		getProxy(PlayerProxy):getData():addResources({
+		slot9:addResources({
 			chargeGem = slot5
 		})
 	end

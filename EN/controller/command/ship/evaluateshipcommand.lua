@@ -2,8 +2,9 @@ slot0 = class("EvaluateShipCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(17103, {
+	slot5:Send(17103, {
 		ship_group_id = slot2.groupId,
 		context = slot2.content
 	}, 17104, function (slot0)

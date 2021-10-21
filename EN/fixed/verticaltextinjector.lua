@@ -3,11 +3,10 @@ function slot1(slot0)
 end
 
 function slot2(slot0)
-	slot1 = {
-		[slot5] = 0
-	}
+	slot1 = {}
 
 	for slot5 = 0, #slot0 - 1 do
+		slot1[slot5] = 0
 	end
 
 	for slot5, slot6 in ipairs({
@@ -64,13 +63,12 @@ function slot2(slot0)
 		slot9 = string.match(slot0, "</*" .. slot7 .. "[^>]*>")
 	end
 
-	slot3 = {
-		[slot8] = slot4
-	}
+	slot3 = {}
 	slot4 = 0
 
 	for slot8 = 0, #slot0 - 1 do
 		if slot1[slot8] == 0 then
+			slot3[slot8] = slot4
 			slot4 = slot4 + 1
 		else
 			slot3[slot8] = -2
@@ -136,9 +134,10 @@ InjectByName("VerticalText", {
 			})
 
 			for slot11 = 0, ReflectionHelp.RefCallMethod(typeof("UnityEngine.TextGenerator"), "GetLinesArray", slot2.cachedTextGenerator).Length - 1 do
+				slot12 = slot7 > slot11 + 1 and uv0(slot5[slot11 + 1]) or utf8_len(slot2.text)
 				slot13 = 0
 
-				for slot17 = uv0(slot5[slot11]), (slot7 > slot11 + 1 and uv0(slot5[slot11 + 1]) or utf8_len(slot2.text)) - 1 do
+				for slot17 = uv0(slot5[slot11]), slot12 - 1 do
 					if slot6[slot17] >= 0 then
 						ReflectionHelp.RefCallMethod(typeof("VerticalText"), "modifyText", slot0, {
 							typeof("UnityEngine.UI.VertexHelper"),

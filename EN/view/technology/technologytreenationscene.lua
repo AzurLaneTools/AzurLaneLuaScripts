@@ -42,11 +42,14 @@ function slot0.calculateCurBuff(slot0, slot1, slot2)
 	slot6 = {}
 
 	for slot10, slot11 in ipairs(pg.fleet_tech_template[slot3].add) do
+		slot12 = slot11[3]
+		slot13 = slot11[4]
+
 		for slot18, slot19 in ipairs(slot11[2]) do
 			if slot5[slot19] then
 				table.insert(slot5[slot19], {
-					attr = slot11[3],
-					value = slot11[4]
+					attr = slot12,
+					value = slot13
 				})
 			else
 				slot5[slot19] = {
@@ -61,15 +64,19 @@ function slot0.calculateCurBuff(slot0, slot1, slot2)
 	end
 
 	slot7 = {}
+	slot8 = {}
 
 	for slot12, slot13 in pairs(slot5) do
 		if not slot7[slot12] then
 			slot7[slot12] = {}
+			slot8[slot12] = {}
 		end
 
 		for slot17, slot18 in ipairs(slot13) do
+			slot20 = slot18.value
+
 			if not slot7[slot12][slot18.attr] then
-				slot7[slot12][slot19] = slot18.value
+				slot7[slot12][slot19] = slot20
 				slot8[slot12][#slot8[slot12] + 1] = slot19
 			else
 				slot7[slot12][slot19] = slot7[slot12][slot19] + slot20
@@ -81,9 +88,7 @@ function slot0.calculateCurBuff(slot0, slot1, slot2)
 		return slot0 < slot1
 	end)
 
-	for slot12, slot13 in pairs({
-		[slot12] = {}
-	}) do
+	for slot12, slot13 in pairs(slot8) do
 		table.sort(slot13, function (slot0, slot1)
 			return slot0 < slot1
 		end)
@@ -174,15 +179,17 @@ function slot0.updateTecItem(slot0, slot1)
 	setText(slot0:findTF("LevelText/Text", slot4), slot22)
 	setText(slot0:findTF("PointTextBar", slot4), slot24 .. "/" .. slot25)
 
+	function slot26(slot0, slot1, slot2)
+		setActive(uv0, slot0)
+		setActive(uv1, slot1)
+		setActive(uv2, slot1)
+		setActive(uv3, slot1)
+		setActive(uv4, slot2)
+	end
+
 	if not slot0.tecList[slot1] then
 		if slot25 <= slot24 then
-			(function (slot0, slot1, slot2)
-				setActive(uv0, slot0)
-				setActive(uv1, slot1)
-				setActive(uv2, slot1)
-				setActive(uv3, slot1)
-				setActive(uv4, slot2)
-			end)(false, true, false)
+			slot26(false, true, false)
 		else
 			slot26(true, false, false)
 		end
@@ -226,20 +233,27 @@ function slot0.updateTecItem(slot0, slot1)
 	onToggle(slot0, slot0:findTF("BG", slot4), function (slot0)
 		if slot0 then
 			triggerToggle(uv0, false)
-			LeanTween.value(go(uv1), uv2.tecItemTplOriginWidth, uv2.tecItemTplOriginWidth + uv3.rect.width, 0.25):setOnUpdate(System.Action_float(function (slot0)
+
+			slot1 = LeanTween.value(go(uv1), uv2.tecItemTplOriginWidth, uv2.tecItemTplOriginWidth + uv3.rect.width, 0.25)
+			slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 				uv0.preferredWidth = slot0
 
 				if uv1 == #pg.fleet_tech_group.all then
 					uv2.scrollRectCom.horizontalNormalizedPosition = 1
 				end
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot1:setOnComplete(System.Action(function ()
 				if uv0 == #pg.fleet_tech_group.all then
 					uv1.scrollRectCom.horizontalNormalizedPosition = 1
 				end
 			end))
 		else
 			LeanTween.cancel(go(uv1))
-			LeanTween.value(go(uv1), uv4.preferredWidth, uv2.tecItemTplOriginWidth, 0.25):setOnUpdate(System.Action_float(function (slot0)
+
+			slot2 = LeanTween.value(go(uv1), uv4.preferredWidth, uv2.tecItemTplOriginWidth, 0.25)
+
+			slot2:setOnUpdate(System.Action_float(function (slot0)
 				uv0.preferredWidth = slot0
 			end))
 		end
@@ -258,10 +272,11 @@ function slot0.updateDetailPanel(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 
 	function slot9(slot0, slot1, slot2)
+		slot3 = UIItemList.New(uv0, uv1.typeItemTpl)
 		slot4 = nil
 
 		if slot0 == 0 then
-			UIItemList.New(uv0, uv1.typeItemTpl):align(0)
+			slot3:align(0)
 
 			return
 		else
@@ -284,29 +299,30 @@ function slot0.updateDetailPanel(slot0, slot1, slot2, slot3, slot4, slot5)
 
 			for slot23, slot24 in ipairs(slot16[2]) do
 				slot25 = nil
+				slot25 = (not slot2 or (table.indexof(slot5, slot24, 1) or {
+					attr = slot17,
+					value = slot18,
+					attrColor = slot8,
+					valueColor = slot8
+				}) and (table.indexof(slot6[slot24], slot17, 1) or {
+					attr = slot17,
+					value = slot18,
+					attrColor = slot8,
+					valueColor = slot8
+				}) and (slot18 == slot7[slot24][slot17] or {
+					attr = slot17,
+					value = slot18,
+					valueColor = slot8
+				}) and {
+					attr = slot17,
+					value = slot18
+				}) and {
+					attr = slot17,
+					value = slot18
+				}
 
 				if slot10[slot24] then
-					table.insert(slot10[slot24], (not slot2 or (table.indexof(slot5, slot24, 1) or {
-						attr = slot17,
-						value = slot18,
-						attrColor = slot8,
-						valueColor = slot8
-					}) and (table.indexof(slot6[slot24], slot17, 1) or {
-						attr = slot17,
-						value = slot18,
-						attrColor = slot8,
-						valueColor = slot8
-					}) and (slot18 == slot7[slot24][slot17] or {
-						attr = slot17,
-						value = slot18,
-						valueColor = slot8
-					}) and {
-						attr = slot17,
-						value = slot18
-					}) and {
-						attr = slot17,
-						value = slot18
-					})
+					table.insert(slot10[slot24], slot25)
 				else
 					slot10[slot24] = {
 						slot25
@@ -383,10 +399,11 @@ function slot0.updateTecLevelAward(slot0, slot1, slot2)
 	slot10 = slot0:findTF("FinishBtn", slot1)
 	slot12 = pg.fleet_tech_group[slot2]
 	slot15 = table.indexof(slot12.techs, slot0.nationProxy:GetTecItemByGroupID(slot2) and slot11.rewardedID or 0, 1) or 0
+	slot17 = slot15 + 1
 	slot18 = nil
 
 	if slot15 < (table.indexof(slot12.techs, slot11 and slot11.completeID or 0, 1) or 0) then
-		slot18 = slot12.techs[slot15 + 1]
+		slot18 = slot12.techs[slot17]
 	elseif slot15 == slot16 and slot15 < #slot12.techs then
 		slot18 = slot12.techs[slot17]
 	end

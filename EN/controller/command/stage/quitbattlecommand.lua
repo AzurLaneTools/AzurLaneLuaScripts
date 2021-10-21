@@ -1,7 +1,9 @@
 slot0 = class("BeginStageCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(40005, {
+	slot4 = pg.ConnectionMgr.GetInstance()
+
+	slot4:Send(40005, {
 		system = slot1:getBody().system
 	}, 40006, function (slot0)
 		if slot0.result ~= 0 then

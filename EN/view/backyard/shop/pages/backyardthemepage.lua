@@ -28,11 +28,15 @@ end
 
 function slot0.LoadDetail(slot0)
 	slot0.purchaseBtn = slot0:findTF("adpter/descript/btn_goumai")
-	slot0.title = slot0:findTF("adpter/descript/title"):GetComponent(typeof(Text))
-	slot0.desc = slot0:findTF("adpter/descript/desc"):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("adpter/descript/title")
+	slot0.title = slot1:GetComponent(typeof(Text))
+	slot1 = slot0:findTF("adpter/descript/desc")
+	slot0.desc = slot1:GetComponent(typeof(Text))
 	slot0.actualPrice = slot0:findTF("adpter/descript/price/actual_price")
-	slot0.actualPriceTxt = slot0:findTF("adpter/descript/price/actual_price/Text"):GetComponent(typeof(Text))
-	slot0.goldTxt = slot0:findTF("adpter/descript/price/price/Text"):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("adpter/descript/price/actual_price/Text")
+	slot0.actualPriceTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0:findTF("adpter/descript/price/price/Text")
+	slot0.goldTxt = slot1:GetComponent(typeof(Text))
 	slot0.descript = slot0:findTF("adpter/descript")
 	slot0.infoPage = BackYardThemeInfoPage.New(slot0._tf, slot0._event, slot0.contextData)
 
@@ -68,7 +72,9 @@ function slot0.OnInit(slot0)
 		uv0:OnUpdateCard(slot0, slot1)
 	end
 
-	slot0.scrollRect.onValueChanged:AddListener(function (slot0)
+	slot1 = slot0.scrollRect.onValueChanged
+
+	slot1:AddListener(function (slot0)
 		setActive(uv0.arrLeftBtn, slot0.x >= 0)
 		setActive(uv0.arrRightBtn, slot0.x <= 1)
 	end)
@@ -88,19 +94,19 @@ end
 
 function slot0.GetData(slot0)
 	slot1 = {}
+	slot3 = getInputText(slot0.searchInput)
 
 	for slot7, slot8 in ipairs(getProxy(DormProxy):GetSystemThemes()) do
-		if not slot8:IsOverTime() and slot8:MatchSearchKey(getInputText(slot0.searchInput)) then
+		if not slot8:IsOverTime() and slot8:MatchSearchKey(slot3) then
 			table.insert(slot1, slot8)
 		end
 	end
 
-	slot5 = {
-		[slot10.id] = slot10:IsPurchased(slot0.dorm:GetAllFurniture())
-	}
+	slot4 = slot0.dorm:GetAllFurniture()
+	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot1) do
-		-- Nothing
+		slot5[slot10.id] = slot10:IsPurchased(slot4)
 	end
 
 	slot6 = pg.backyard_theme_template
@@ -245,12 +251,15 @@ function slot0.UpdateMainPage(slot0, slot1)
 end
 
 function slot0.CalcThemePrice(slot0, slot1)
+	slot3 = 0
+	slot4 = 0
+
 	for slot8, slot9 in ipairs(slot1:GetFurnitures()) do
 		slot10 = Furniture.New({
 			id = slot9
 		})
-		slot4 = 0 + slot10:getConfig("dorm_icon_price")
-		slot3 = 0 + slot10:getPrice(PlayerConst.ResDormMoney)
+		slot4 = slot4 + slot10:getConfig("dorm_icon_price")
+		slot3 = slot3 + slot10:getPrice(PlayerConst.ResDormMoney)
 	end
 
 	return slot3, slot4
@@ -293,9 +302,11 @@ function slot0.OnSwitchToNextTheme(slot0)
 		return false
 	end
 
-	if not uv0(slot0.cards, slot0.disPlays[slot1 + 1]) or slot3 and (function (slot0)
+	function slot4(slot0)
 		return go(uv0.scrollRect).transform.localPosition.x + uv0.scrollRectWidth / 2 < go(uv0.scrollRect).transform.parent:InverseTransformPoint(slot0._tf.position).x
-	end)(slot3) then
+	end
+
+	if not uv0(slot0.cards, slot0.disPlays[slot1 + 1]) or slot3 and slot4(slot3) then
 		slot0.scrollRect:ScrollTo(slot0.scrollRect.value + uv1(slot0.scrollRect, 1, 2), true)
 
 		slot3 = uv0(slot0.cards, slot2)
@@ -313,9 +324,11 @@ function slot0.OnSwitchToPrevTheme(slot0)
 		return false
 	end
 
-	if not uv0(slot0.cards, slot0.disPlays[slot1 - 1]) or slot3 and (function (slot0)
+	function slot4(slot0)
 		return go(uv0.scrollRect).transform.parent:InverseTransformPoint(slot0._tf.position).x < go(uv0.scrollRect).transform.localPosition.x - uv0.scrollRectWidth / 2
-	end)(slot3) then
+	end
+
+	if not uv0(slot0.cards, slot0.disPlays[slot1 - 1]) or slot3 and slot4(slot3) then
 		slot0.scrollRect:ScrollTo(slot0.scrollRect.value - uv1(slot0.scrollRect, 1, 2), true)
 
 		slot3 = uv0(slot0.cards, slot2)

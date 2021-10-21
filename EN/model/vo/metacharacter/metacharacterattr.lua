@@ -45,24 +45,30 @@ function slot0.isMaxLevel(slot0)
 end
 
 function slot0.getAddition(slot0)
+	slot1 = 0
+
 	for slot5 = 1, slot0.level - 1 do
-		slot1 = 0 + slot0.items[slot5]:getAdditionValue()
+		slot1 = slot1 + slot0.items[slot5]:getAdditionValue()
 	end
 
 	return slot1
 end
 
 function slot0.getMaxAddition(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0.items) do
-		slot1 = 0 + slot6:getAdditionValue()
+		slot1 = slot1 + slot6:getAdditionValue()
 	end
 
 	return slot1
 end
 
 function slot0.getRepairExp(slot0)
+	slot1 = 0
+
 	for slot5 = 1, slot0.level - 1 do
-		slot1 = 0 + slot0.items[slot5]:getRepairExp()
+		slot1 = slot1 + slot0.items[slot5]:getRepairExp()
 	end
 
 	return slot1

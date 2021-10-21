@@ -15,8 +15,10 @@ end
 
 function slot2.DoDataEffect(slot0, slot1, slot2)
 	if slot0._weapon == nil then
+		slot3 = nil
+
 		for slot7, slot8 in ipairs(slot0._supportTargetFilter) do
-			slot3 = uv0.Battle.BattleTargetChoise[slot8](slot1, slot0._supportTargetArgList, nil)
+			slot3 = uv0.Battle.BattleTargetChoise[slot8](slot1, slot0._supportTargetArgList, slot3)
 		end
 
 		slot4 = slot3[1]

@@ -48,10 +48,12 @@ function slot0.SetCurIndex(slot0)
 	slot0.curTaskIndex = 1
 
 	for slot4, slot5 in ipairs(slot0.taskList) do
+		slot8 = slot0.taskProxy:getTaskById(slot0.taskList[slot4 + 1]) or slot0.taskProxy:getFinishTaskById(slot7)
+
 		if (slot0.taskProxy:getTaskById(slot5) or slot0.taskProxy:getFinishTaskById(slot5)) and slot6:getTaskStatus() == 2 then
 			slot0.curTaskIndex = slot0.curTaskIndex + 1
 
-			if not slot7 or not (slot0.taskProxy:getTaskById(slot0.taskList[slot4 + 1]) or slot0.taskProxy:getFinishTaskById(slot7)) then
+			if not slot7 or not slot8 then
 				slot0.curTaskIndex = slot0.curTaskIndex - 1
 			end
 		end

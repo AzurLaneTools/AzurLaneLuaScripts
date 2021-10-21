@@ -2,8 +2,9 @@ slot0 = class("WorldBossGetOtherFormationCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(34519, {
+	slot5:Send(34519, {
 		boss_id = slot2.bossId,
 		userId = slot2.userId
 	}, 34520, function (slot0)

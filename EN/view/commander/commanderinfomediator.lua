@@ -92,10 +92,11 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_SELECT, function (slot0)
 		uv0.contextData.page = CommanderInfoScene.PAGE_PLAY
 		slot1 = getProxy(CommanderProxy):getCommanderById(uv0.contextData.commanderId)
+		slot3 = {}
 
 		for slot7, slot8 in pairs(getProxy(CommanderProxy):getData()) do
 			if slot8:isLocked() then
-				table.insert({}, slot8.id)
+				table.insert(slot3, slot8.id)
 			end
 		end
 
@@ -266,10 +267,12 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if GAME.COMMANDER_FETCH_NOT_LEARNED_TALENT_DONE == slot1:getName() then
 		slot4 = slot0.viewComponent.panels[CommanderInfoScene.PAGE_TALENT]
 
-		slot4:update(slot1:getBody().commander)
+		slot4:update(slot3.commander)
 		slot4:openUseagePanel()
 	elseif slot2 == CommanderProxy.COMMANDER_UPDATED then
 		if slot0.viewComponent.commanderVO.id == slot3.id then
@@ -293,9 +296,11 @@ function slot0.handleNotification(slot0, slot1)
 		end
 
 		slot0.contextData.materialIds = {}
+		slot4 = slot0.viewComponent.panels[CommanderInfoScene.PAGE_PLAY]
+		slot5 = pg.UIMgr.GetInstance()
 
-		pg.UIMgr.GetInstance():LoadingOn(false)
-		slot0.viewComponent.panels[CommanderInfoScene.PAGE_PLAY]:playAnim(slot3.oldCommander, slot3.commander, function ()
+		slot5:LoadingOn(false)
+		slot4:playAnim(slot3.oldCommander, slot3.commander, function ()
 			pg.UIMgr.GetInstance():LoadingOff(false)
 		end)
 	elseif slot2 == GAME.COMMANDER_LOCK_DONE then

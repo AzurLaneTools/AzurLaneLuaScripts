@@ -62,8 +62,10 @@ function slot0.UpdateConsumeComparer(slot0)
 		}, slot0.contextData.sourceEquipmentInstance)
 	end
 
+	slot4 = setColorStr(slot1, slot3 and COLOR_WHITE or COLOR_RED)
+
 	if slot2 > 0 then
-		slot4 = setColorStr(slot1, slot3 and COLOR_WHITE or COLOR_RED) .. setColorStr(" + " .. slot2, slot3 and COLOR_GREEN or COLOR_RED)
+		slot4 = slot4 .. setColorStr(" + " .. slot2, slot3 and COLOR_GREEN or COLOR_RED)
 	end
 
 	slot0.consumePanel:Find("GoldText"):GetComponent(typeof(Text)).text = slot4
@@ -83,10 +85,11 @@ function slot0.UpdateFormula(slot0, slot1)
 
 	slot0:UpdateConsumeComparer()
 
+	slot3 = slot0.env.tracebackHelper:GetEquipmentTransformCandicates(slot0.equipmentSourceId)
 	slot4 = nil
 
 	if slot0.contextData.sourceEquipmentInstance then
-		slot4 = _.detect(slot0.env.tracebackHelper:GetEquipmentTransformCandicates(slot0.equipmentSourceId), function (slot0)
+		slot4 = _.detect(slot3, function (slot0)
 			return EquipmentTransformUtil.SameDrop(slot0, uv0.contextData.sourceEquipmentInstance)
 		end)
 	end
@@ -108,10 +111,12 @@ function slot0.UpdatePage(slot0)
 end
 
 function slot0.UpdateSourceEquipmentPaths(slot0)
-	slot0.hasRoot = _.any(slot0.env.tracebackHelper:GetSortedEquipTraceBack(slot0.equipmentSourceId), function (slot0)
+	slot1 = slot0.env.tracebackHelper
+	slot0.hasRoot = _.any(slot1:GetSortedEquipTraceBack(slot0.equipmentSourceId), function (slot0)
 		return slot0.candicates and #slot1 > 0 and EquipmentTransformUtil.CheckTransformFormulasSucceed(slot0.formulas, slot1[#slot1])
 	end)
-	slot0.childsCanUse = _.any(slot0.env.tracebackHelper:GetEquipmentTransformCandicates(slot0.equipmentSourceId), function (slot0)
+	slot2 = slot0.env.tracebackHelper
+	slot0.childsCanUse = _.any(slot2:GetEquipmentTransformCandicates(slot0.equipmentSourceId), function (slot0)
 		if slot0.type == DROP_TYPE_ITEM then
 			return slot0.composeCfg.material_num <= slot0.template.count
 		elseif slot0.type == DROP_TYPE_EQUIP then
@@ -177,12 +182,13 @@ function slot0.UpdateTargetInfo(slot0)
 	slot0.targetEquipItem:Find("Mask/NameText"):GetComponent("ScrollText"):SetText(pg.equip_data_statistics[slot0.equipmentTarget].name)
 
 	slot2 = slot0.layer:Find("InfoPanel")
+	slot4 = 0
 	slot5 = 0
 
 	for slot9, slot10 in ipairs(slot0.env.tracebackHelper:GetEquipmentTransformCandicates(slot0.equipmentTarget)) do
 		if slot10.type == DROP_TYPE_EQUIP then
 			if slot10.template.shipId then
-				slot4 = 0 + slot10.template.count
+				slot4 = slot4 + slot10.template.count
 			else
 				slot5 = slot5 + slot10.template.count
 			end
@@ -281,7 +287,9 @@ function slot0.didEnter(slot0)
 		uv0:closeView()
 	end)
 	onButton(slot0, slot0.consumePanel:Find("ComposeBtn"), function ()
-		if uv0.equipmentSourceId ~= 0 and not uv0.contextData.sourceEquipmentInstance then
+		slot0 = uv0.contextData.sourceEquipmentInstance
+
+		if uv0.equipmentSourceId ~= 0 and not slot0 then
 			if uv0.childsCanUse then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_upgrade_quick_interface_feedback_source_chosen"))
 
@@ -334,10 +342,11 @@ function slot0.willExit(slot0)
 end
 
 function slot0.Clone2Full(slot0, slot1)
+	slot2 = {}
 	slot3 = slot0:GetChild(0)
 
 	for slot8 = 0, slot0.childCount - 1 do
-		table.insert({}, slot0:GetChild(slot8))
+		table.insert(slot2, slot0:GetChild(slot8))
 	end
 
 	for slot8 = slot4, slot1 - 1 do

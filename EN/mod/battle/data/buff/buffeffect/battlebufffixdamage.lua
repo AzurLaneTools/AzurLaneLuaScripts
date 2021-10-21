@@ -19,8 +19,10 @@ function slot1.onTrigger(slot0, slot1, slot2, slot3)
 		return "chance"
 	end
 
+	slot4 = slot3.damage
+
 	if slot0._rate then
-		slot3.damage = math.max(1, slot3.damage * slot0._rate)
+		slot3.damage = math.max(1, slot4 * slot0._rate)
 	elseif slot0._value < slot4 then
 		slot3.damage = slot0._value
 	end

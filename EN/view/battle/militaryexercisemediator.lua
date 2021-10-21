@@ -58,8 +58,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.REPLACE_RIVALS_DONE then
-		slot0.viewComponent:setRivals(slot1:getBody())
+		slot0.viewComponent:setRivals(slot3)
 		slot0.viewComponent:updateRivals()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("exercise_replace_rivals_ok_tip"))
 	elseif slot2 == GAME.GET_SEASON_INFO_DONE then

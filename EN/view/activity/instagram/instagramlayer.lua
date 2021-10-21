@@ -53,8 +53,10 @@ function slot0.init(slot0)
 end
 
 function slot0.SetImageByUrl(slot0, slot1, slot2, slot3)
+	slot4 = slot2:GetComponent(typeof(Image))
+
 	if not slot1 or slot1 == "" then
-		slot2:GetComponent(typeof(Image)).sprite = LoadSprite("bg/bg_night")
+		slot4.sprite = LoadSprite("bg/bg_night")
 
 		if slot3 then
 			slot3()
@@ -67,8 +69,9 @@ function slot0.SetImageByUrl(slot0, slot1, slot2, slot3)
 		end
 	else
 		slot4.enabled = false
+		slot6 = slot0.downloadmgr
 
-		slot0.downloadmgr:GetSprite("ins", "1", slot1, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
+		slot6:GetSprite("ins", "1", slot1, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
 			if not uv0.sprites then
 				return
 			end

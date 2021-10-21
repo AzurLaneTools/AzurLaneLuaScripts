@@ -59,9 +59,11 @@ return {
 
 		slot6 = uv1(slot4, 120)
 		slot9 = 6 * uv1(slot3, 255)
+		slot11 = uv5("%04d %s %-6s %3s ", slot1, slot2 or "  ", uv3(uv4, slot9 + 1, slot9 + 6), uv1(slot4, 7) == 0 and "" or uv1(uv2(slot3, 8), 255))
+		slot12 = uv2(slot3, 16)
 
 		if uv1(slot4, 1920) == 1664 then
-			return uv5("%s=> %04d\n", uv5("%04d %s %-6s %3s ", slot1, slot2 or "  ", uv3(uv4, slot9 + 1, slot9 + 6), uv1(slot4, 7) == 0 and "" or uv1(uv2(slot3, 8), 255)), slot1 + uv2(slot3, 16) - 32767)
+			return uv5("%s=> %04d\n", slot11, slot1 + slot12 - 32767)
 		end
 
 		if slot6 ~= 0 then
@@ -75,8 +77,10 @@ return {
 		if slot7 == 1280 then
 			slot13 = uv5(#uv6(slot0, -slot12 - 1) > 40 and "\"%.40s\"~" or "\"%s\"", uv7(slot13, "%c", uv8))
 		elseif slot7 == 1152 then
+			slot13 = uv6(slot0, slot12)
+
 			if slot10 == "TSETM " then
-				slot13 = uv6(slot0, slot12) - 4503599627370496.0
+				slot13 = slot13 - 4503599627370496.0
 			end
 		elseif slot7 == 1536 then
 			if uv9(uv6(slot0, -slot12 - 1)).ffid then
@@ -115,8 +119,9 @@ return {
 	end,
 	dump = function (slot0, slot1, slot2)
 		slot1 = slot1 or uv0
+		slot3 = uv1(slot0)
 
-		if slot2 and uv1(slot0).children then
+		if slot2 and slot3.children then
 			for slot7 = -1, -1000000000, -1 do
 				if not uv2(slot0, slot7) then
 					break
@@ -132,8 +137,10 @@ return {
 
 		slot1:write(uv4("-- BYTECODE -- %s-%d\n", slot8, slot3.lastlinedefined))
 
+		slot4 = uv5(slot0)
+
 		for slot8 = 1, 1000000000 do
-			if not uv6(slot0, slot8, uv5(slot0)[slot8] and "=>") then
+			if not uv6(slot0, slot8, slot4[slot8] and "=>") then
 				break
 			end
 

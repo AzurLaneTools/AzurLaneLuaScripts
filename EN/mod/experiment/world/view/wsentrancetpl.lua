@@ -69,10 +69,12 @@ function slot0.Dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:RemoveEntranceListener()
 
+	slot1 = PoolMgr.GetInstance()
+
 	for slot5, slot6 in pairs(slot0.markTFs) do
 		slot6.localPosition = Vector3.zero
 
-		PoolMgr.GetInstance():ReturnPrefab("world/mark/" .. uv0.prefabName[slot5], uv0.prefabName[slot5], go(slot6), true)
+		slot1:ReturnPrefab("world/mark/" .. uv0.prefabName[slot5], uv0.prefabName[slot5], go(slot6), true)
 	end
 
 	Destroy(slot0.transform)
@@ -123,7 +125,9 @@ function slot0.RemoveEntranceListener(slot0)
 end
 
 function slot0.LoadPrefab(slot0, slot1, slot2)
-	PoolMgr.GetInstance():GetPrefab("world/mark/" .. uv0.prefabName[slot1], uv0.prefabName[slot1], true, function (slot0)
+	slot3 = PoolMgr.GetInstance()
+
+	slot3:GetPrefab("world/mark/" .. uv0.prefabName[slot1], uv0.prefabName[slot1], true, function (slot0)
 		if uv0.markTFs and not uv0.markTFs[uv1] then
 			uv0.markTFs[uv1] = tf(slot0)
 

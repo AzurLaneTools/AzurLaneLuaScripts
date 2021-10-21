@@ -551,12 +551,13 @@ function slot35(slot0, slot1, slot2, slot3, slot4)
 			slot0._tplFans = uv3
 			slot0._event = uv4
 			slot0.groups = {}
+			slot1 = slot0:getRandomIdols()
 
 			for slot5 = 1, uv5 do
 				slot6 = tf(Instantiate(slot0._tplGroup))
 
 				SetParent(slot6, slot0._containerTf)
-				table.insert(slot0.groups, uv6(slot0:getRandomIdols()[slot5], slot6, slot5, slot0._event))
+				table.insert(slot0.groups, uv6(slot1[slot5], slot6, slot5, slot0._event))
 			end
 		end,
 		receiveGift = function (slot0, slot1, slot2)
@@ -627,9 +628,10 @@ function slot35(slot0, slot1, slot2, slot3, slot4)
 		end,
 		step = function (slot0, slot1)
 			slot0.lastTime = slot0.lastTime - Time.deltaTime
+			slot2 = slot0:getApearTime()
 
 			if not slot0.createFansTime then
-				slot0.createFansTime = slot1 + slot0:getApearTime() + math.random() * 1
+				slot0.createFansTime = slot1 + slot2 + math.random() * 1
 			elseif slot0.createFansTime < slot1 then
 				slot0.groups[math.random(1, #slot0.groups)]:createFans(tf(instantiate(slot0._tplFans)))
 
@@ -768,10 +770,11 @@ function slot0.initUI(slot0)
 		uv0:readyStart()
 	end, SFX_CANCEL)
 
+	slot2 = findTF(slot0.menuUI, "tplBattleItem")
 	slot0.battleItems = {}
 
 	for slot6 = 1, slot0.totalTimes do
-		slot7 = tf(instantiate(findTF(slot0.menuUI, "tplBattleItem")))
+		slot7 = tf(instantiate(slot2))
 		slot7.name = "battleItem_" .. slot6
 
 		setParent(slot7, findTF(slot0.menuUI, "battList/Viewport/Content"))
@@ -844,6 +847,7 @@ function slot0.AddDebugInput(slot0)
 end
 
 function slot0.updateMenuUI(slot0)
+	slot1 = slot0:getGameUsedTimes()
 	slot2 = slot0:getGameTimes()
 
 	for slot6 = 1, #slot0.battleItems do
@@ -852,7 +856,7 @@ function slot0.updateMenuUI(slot0)
 		setActive(findTF(slot0.battleItems[slot6], "state_clear"), false)
 		setActive(findTF(slot0.battleItems[slot6], "state_current"), false)
 
-		if slot6 <= slot0:getGameUsedTimes() then
+		if slot6 <= slot1 then
 			setActive(findTF(slot0.battleItems[slot6], "state_clear"), true)
 		elseif slot6 == slot1 + 1 and slot2 >= 1 then
 			setActive(findTF(slot0.battleItems[slot6], "state_current"), true)

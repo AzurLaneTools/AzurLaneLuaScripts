@@ -69,6 +69,8 @@ slot13 = {
 }
 
 function slot13.Add(slot0, slot1, slot2)
+	slot1 = (not slot0.keepSafe or uv0(slot1, slot2)) and uv1(uv0(slot1, slot2), slot2)
+
 	if slot0.lock then
 		table.insert(slot0.opList, function ()
 			uv0.list:pushnode(uv1)
@@ -78,7 +80,7 @@ function slot13.Add(slot0, slot1, slot2)
 			_prev = 0,
 			_next = 0,
 			removed = true,
-			value = (not slot0.keepSafe or uv0(slot1, slot2)) and uv1(uv0(slot1, slot2), slot2)
+			value = slot1
 		}
 	else
 		return slot0.list:push(slot1)

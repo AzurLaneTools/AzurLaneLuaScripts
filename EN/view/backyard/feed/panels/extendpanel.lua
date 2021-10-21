@@ -6,11 +6,19 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = tf(slot1)
 	slot0.parent = slot0._tf.parent
 	slot0.overlay = slot2
-	slot0.icon = slot0._tf:Find("frame/tip/icon"):GetComponent(typeof(Image))
-	slot0.consume = slot0._tf:Find("frame/tip/Text"):GetComponent(typeof(Text))
-	slot0.desc = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
-	slot0.addBtn = slot0._tf:Find("frame/ok_btn")
-	slot0.cancelBtn = slot0._tf:Find("frame/cancel_btn")
+	slot3 = slot0._tf
+	slot3 = slot3:Find("frame/tip/icon")
+	slot0.icon = slot3:GetComponent(typeof(Image))
+	slot3 = slot0._tf
+	slot3 = slot3:Find("frame/tip/Text")
+	slot0.consume = slot3:GetComponent(typeof(Text))
+	slot3 = slot0._tf
+	slot3 = slot3:Find("frame/desc")
+	slot0.desc = slot3:GetComponent(typeof(Text))
+	slot3 = slot0._tf
+	slot0.addBtn = slot3:Find("frame/ok_btn")
+	slot3 = slot0._tf
+	slot0.cancelBtn = slot3:Find("frame/cancel_btn")
 
 	onButton(nil, slot0.cancelBtn, function ()
 		uv0:Hide()

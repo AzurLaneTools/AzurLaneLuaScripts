@@ -1,16 +1,20 @@
 slot0 = class("IndexConst")
 
 function slot0.Flags2Bits(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0) do
-		slot1 = bit.bor(0, bit.lshift(1, slot6))
+		slot1 = bit.bor(slot1, bit.lshift(1, slot6))
 	end
 
 	return slot1
 end
 
 function slot0.FlagRange2Bits(slot0, slot1)
+	slot2 = 0
+
 	for slot6 = slot0, slot1 do
-		slot2 = bit.bor(0, bit.lshift(1, slot6))
+		slot2 = bit.bor(slot2, bit.lshift(1, slot6))
 	end
 
 	return slot2
@@ -18,13 +22,14 @@ end
 
 function slot0.ToggleBits(slot0, slot1, slot2, slot3)
 	slot4 = slot0
+	slot5 = bit.lshift(1, slot3)
 
 	if slot2 then
 		slot7 = _.reduce(slot1, 0, function (slot0, slot1)
 			return slot0 + (slot1 ~= uv0 and bit.lshift(1, slot1) or 0)
 		end)
 
-		if bit.lshift(1, slot3) == bit.lshift(1, slot2) then
+		if slot5 == bit.lshift(1, slot2) then
 			slot4 = slot6
 		else
 			if bit.band(slot4, slot6) > 0 then
@@ -220,8 +225,10 @@ slot0.ExtraNames = {
 }
 
 function slot0.BitAll(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0) do
-		slot1 = bit.bor(slot6, 0)
+		slot1 = bit.bor(slot6, slot1)
 	end
 
 	return slot1
@@ -394,8 +401,10 @@ slot0.EquipPropertyNames = {
 }
 
 function slot0.filterEquipByProperty(slot0, slot1)
+	slot2 = {}
+
 	if slot0:getConfig("attribute_1") then
-		table.insert({}, slot0:getConfig("attribute_1"))
+		table.insert(slot2, slot0:getConfig("attribute_1"))
 	end
 
 	if slot0:getConfig("attribute_2") then
@@ -406,14 +415,18 @@ function slot0.filterEquipByProperty(slot0, slot1)
 		table.insert(slot2, slot0:getConfig("attribute_3"))
 	end
 
+	slot3 = 0
+
 	for slot7, slot8 in ipairs(slot1) do
 		if not slot8 or slot8 == uv0.EquipPropertyAll then
-			slot3 = 0 + 1
+			slot3 = slot3 + 1
 		else
 			for slot12 = 2, #EquipmentSortCfg.propertyIndex do
 				if bit.band(bit.lshift(1, slot12 - 2), slot8) > 0 then
+					slot14 = EquipmentSortCfg.propertyIndex[slot12].types
+
 					for slot18 = #slot2, 1, -1 do
-						if table.contains(EquipmentSortCfg.propertyIndex[slot12].types, slot2[slot18]) then
+						if table.contains(slot14, slot2[slot18]) then
 							slot3 = slot3 + 1
 
 							table.remove(slot2, slot18)
@@ -650,10 +663,11 @@ function slot0.filterEquipSkinByTheme(slot0, slot1)
 		return true
 	end
 
+	slot2 = pg.equip_skin_template
 	slot3 = pg.equip_skin_theme_template
 
 	if slot0.count > 0 and slot0.isSkin then
-		slot5 = pg.equip_skin_template[slot0.id].themeid
+		slot5 = slot2[slot0.id].themeid
 		slot6 = nil
 
 		for slot10, slot11 in ipairs(uv0.EquipSkinThemeTypes) do

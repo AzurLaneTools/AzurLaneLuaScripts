@@ -116,7 +116,39 @@ function slot0.getTaskStatus(slot0)
 end
 
 function slot0.onAdded(slot0)
-	if slot0:getConfig("story_id") and slot3 ~= "" and (function ()
+	function slot1()
+		if uv0:getConfig("sub_type") == 29 then
+			if _.any(getProxy(SkirmishProxy):getRawData(), function (slot0)
+				return slot0:getConfig("task_id") == uv0.id
+			end) then
+				return
+			end
+
+			pg.m02:sendNotification(GAME.TASK_GO, {
+				taskVO = uv0
+			})
+		elseif uv0:getConfig("added_tip") > 0 then
+			slot0 = nil
+
+			if getProxy(ContextProxy):getCurrentContext().mediator.__cname ~= TaskMediator.__cname then
+				function slot0()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.TASK, {
+						page = uv0[uv1:GetRealType()]
+					})
+				end
+			end
+
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				noText = "text_iknow",
+				yesText = "text_forward",
+				content = i18n("tip_add_task", HXSet.hxLan(uv0:getConfig("name"))),
+				onYes = slot0,
+				weight = LayerWeightConst.TOP_LAYER
+			})
+		end
+	end
+
+	function slot2()
 		if not table.contains({
 			"LevelScene",
 			"BattleScene",
@@ -128,38 +160,10 @@ function slot0.onAdded(slot0)
 		end
 
 		return false
-	end)() then
-		pg.NewStoryMgr.GetInstance():Play(slot3, function ()
-			if uv0:getConfig("sub_type") == 29 then
-				if _.any(getProxy(SkirmishProxy):getRawData(), function (slot0)
-					return slot0:getConfig("task_id") == uv0.id
-				end) then
-					return
-				end
+	end
 
-				pg.m02:sendNotification(GAME.TASK_GO, {
-					taskVO = uv0
-				})
-			elseif uv0:getConfig("added_tip") > 0 then
-				slot0 = nil
-
-				if getProxy(ContextProxy):getCurrentContext().mediator.__cname ~= TaskMediator.__cname then
-					function slot0()
-						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.TASK, {
-							page = uv0[uv1:GetRealType()]
-						})
-					end
-				end
-
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					noText = "text_iknow",
-					yesText = "text_forward",
-					content = i18n("tip_add_task", HXSet.hxLan(uv0:getConfig("name"))),
-					onYes = slot0,
-					weight = LayerWeightConst.TOP_LAYER
-				})
-			end
-		end, true, true)
+	if slot0:getConfig("story_id") and slot3 ~= "" and slot2() then
+		pg.NewStoryMgr.GetInstance():Play(slot3, slot1, true, true)
 	else
 		slot1()
 	end
@@ -180,8 +184,10 @@ end
 function slot0.StaticJudgeOverflow(slot0, slot1, slot2, slot3, slot4, slot5)
 	if slot3 and slot4 then
 		slot6 = getProxy(PlayerProxy):getData()
+		slot8 = slot0 or slot6.gold
 		slot9 = slot1 or slot6.oil
 		slot10 = slot2 or not LOCK_UR_SHIP and getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]) or 0
+		slot11 = pg.gameset.max_gold.key_value
 		slot12 = pg.gameset.max_oil.key_value
 		slot13 = not LOCK_UR_SHIP and pg.gameset.urpt_chapter_max.description[2] or 0
 		slot14 = false
@@ -192,9 +198,12 @@ function slot0.StaticJudgeOverflow(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot19 = {}
 
 		for slot24, slot25 in ipairs(slot5) do
+			slot27 = slot25[2]
+			slot28 = slot25[3]
+
 			if slot25[1] == DROP_TYPE_RESOURCE then
-				if slot25[2] == PlayerConst.ResGold then
-					if (slot0 or slot6.gold) + slot25[3] - pg.gameset.max_gold.key_value > 0 then
+				if slot27 == PlayerConst.ResGold then
+					if slot8 + slot28 - slot11 > 0 then
 						slot14 = true
 
 						table.insert(slot19, {
@@ -258,12 +267,17 @@ function slot0.GetRealType(slot0)
 end
 
 function slot0.IsOverflowShipExpItem(slot0)
+	function slot1(slot0, slot1)
+		return pg.item_data_statistics[slot0].max_num < getProxy(BagProxy):getItemCountById(slot0) + slot1
+	end
+
+	slot3 = pg.item_data_statistics
+
 	for slot7, slot8 in ipairs(slot0:getConfig("award_display")) do
 		slot10 = slot8[2]
+		slot11 = slot8[3]
 
-		if slot8[1] == DROP_TYPE_ITEM and pg.item_data_statistics[slot10].type == Item.EXP_BOOK_TYPE and (function (slot0, slot1)
-			return pg.item_data_statistics[slot0].max_num < getProxy(BagProxy):getItemCountById(slot0) + slot1
-		end)(slot10, slot8[3]) then
+		if slot8[1] == DROP_TYPE_ITEM and slot3[slot10].type == Item.EXP_BOOK_TYPE and slot1(slot10, slot11) then
 			return true
 		end
 	end

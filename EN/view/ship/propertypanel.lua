@@ -107,17 +107,20 @@ function slot0.getGradeCoordinate(slot0, slot1, slot2)
 end
 
 function slot0.getGradeCoordinate1(slot0, slot1, slot2)
+	slot3 = 0.66 * uv0[slot1]
+
 	if slot2 == uv1 then
-		return Vector3(-(0.66 * uv0[slot1]) * uv2, 0, 0)
+		return Vector3(-slot3 * uv2, 0, 0)
 	elseif slot2 == uv3 then
 		return Vector3(slot3 * uv2, 0, 0)
 	else
 		slot4 = 60
 		slot5 = slot3 * uv2
 		slot6 = math.sin(math.rad(slot4)) * slot5
+		slot7 = math.cos(math.rad(slot4)) * slot5
 
 		if slot2 == uv4 then
-			slot7 = -(math.cos(math.rad(slot4)) * slot5)
+			slot7 = -slot7
 		elseif slot2 == uv5 then
 			slot7 = -slot7
 			slot6 = -slot6
