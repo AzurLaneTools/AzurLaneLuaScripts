@@ -678,7 +678,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "휴…… 이런 곳에 왜 고양이가 있는 거야. 들어올 때부터 너에게만 집줄해서 전혀 눈치채지 못했어.",
+			say = "휴…… 이런 곳에 왜 고양이가 있는 거야. 들어올 때부터 너에게만 집중해서 전혀 눈치채지 못했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
