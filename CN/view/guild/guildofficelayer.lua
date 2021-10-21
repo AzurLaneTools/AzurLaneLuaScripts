@@ -23,8 +23,15 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	pg.GuildPaintingMgr:GetInstance():Update(slot0.guild:GetOfficePainting(), Vector3(-737, -171, 0))
-	slot0.taskPage:ExecuteAction("Update", slot0.guild, slot0.isAdmin, force)
+	slot1 = slot0.guild
+	slot2 = pg.GuildPaintingMgr
+	slot2 = slot2:GetInstance()
+
+	slot2:Update(slot1:GetOfficePainting(), Vector3(-737, -171, 0))
+
+	slot2 = slot0.taskPage
+
+	slot2:ExecuteAction("Update", slot0.guild, slot0.isAdmin, force)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,

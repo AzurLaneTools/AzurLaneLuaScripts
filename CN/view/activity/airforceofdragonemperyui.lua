@@ -51,8 +51,10 @@ function slot0.GetFighterData(slot0, slot1)
 end
 
 function slot0.GetActivityProgress(slot0)
+	slot1 = 0
+
 	for slot6 = 1, slot0.activity:getConfig("config_client")[1] do
-		slot1 = 0 + slot0:GetFighterData(slot6)
+		slot1 = slot1 + slot0:GetFighterData(slot6)
 	end
 
 	slot3 = pg.TimeMgr.GetInstance()
@@ -61,10 +63,15 @@ function slot0.GetActivityProgress(slot0)
 end
 
 function slot0.didEnter(slot0)
-	onButton(slot0, slot0._tf:Find("Back"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("Back"), function ()
 		uv0:closeView()
 	end, SOUND_BACK)
-	onButton(slot0, slot0._tf:Find("Help"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("Help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.fighterplane_help.tip,
@@ -72,19 +79,24 @@ function slot0.didEnter(slot0)
 		})
 	end, SFX_PANEL)
 
+	slot3 = slot0._tf
+
 	function slot4()
 		slot0 = uv0.contextData.index
+		slot1 = uv0
 
-		if uv0:GetFighterData(uv0.contextData.index) >= 3 then
+		function slot2()
+			slot1 = uv0.activity:getConfig("config_client")[2]
+			slot2 = math.floor(#slot1 / uv0.activity:getConfig("config_client")[1])
+			slot3 = slot2 * (uv0.contextData.index - 1) + 1
+
+			uv0:emit(AirForceOfDragonEmperyMediator.ON_BATTLE, slot1[math.random(slot3, math.min(slot3 + slot2 - 1, #slot1))])
+		end
+
+		if slot1:GetFighterData(uv0.contextData.index) >= 3 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("fighterplane_complete_tip"),
-				onYes = function ()
-					slot1 = uv0.activity:getConfig("config_client")[2]
-					slot2 = math.floor(#slot1 / uv0.activity:getConfig("config_client")[1])
-					slot3 = slot2 * (uv0.contextData.index - 1) + 1
-
-					uv0:emit(AirForceOfDragonEmperyMediator.ON_BATTLE, slot1[math.random(slot3, math.min(slot3 + slot2 - 1, #slot1))])
-				end,
+				onYes = slot2,
 				weight = LayerWeightConst.SECOND_LAYER
 			})
 		else
@@ -94,7 +106,7 @@ function slot0.didEnter(slot0)
 
 	slot5 = SFX_FIGHTER_BATTLE
 
-	onButton(slot0, slot0._tf:Find("Battle"), slot4, slot5)
+	onButton(slot0, slot3:Find("Battle"), slot4, slot5)
 
 	for slot4, slot5 in ipairs(slot0.itemList) do
 		onButton(slot0, slot5, function ()
@@ -241,11 +253,13 @@ end
 function slot0.UpdateFighter(slot0, slot1)
 	slot2, slot3 = slot0:GetFighterData(slot1)
 	slot4 = slot0.itemList[slot1]
+	slot7 = slot4:Find("Progress")
 
-	UIItemList.StaticAlign(slot4:Find("Progress"), slot4:Find("Progress"):GetChild(0), slot2)
+	UIItemList.StaticAlign(slot4:Find("Progress"), slot7:GetChild(0), slot2)
 
 	slot5 = slot0.currentFighterDesc
-	slot6 = slot0.activity:getConfig("config_client")[3][slot1]
+	slot6 = slot0.activity
+	slot6 = slot6:getConfig("config_client")[3][slot1]
 
 	updateDrop(slot5:Find("Item"), {
 		type = slot6[1],

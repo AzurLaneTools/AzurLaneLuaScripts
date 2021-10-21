@@ -311,8 +311,8 @@ function slot0.getEquipmentSkins(slot0, slot1, slot2)
 			count = slot0.count
 		}
 	end)
-
-	for slot10, slot11 in ipairs(_.map(getProxy(BayProxy):getEquipmentSkinInShips(slot1, slot1:getSkinTypes(slot2)), function (slot0)
+	slot7 = ipairs
+	slot8 = _.map(getProxy(BayProxy):getEquipmentSkinInShips(slot1, slot1:getSkinTypes(slot2)), function (slot0)
 		return {
 			isSkin = true,
 			count = 1,
@@ -320,7 +320,9 @@ function slot0.getEquipmentSkins(slot0, slot1, slot2)
 			shipId = slot0.shipId,
 			shipPos = slot0.shipPos
 		}
-	end) or {}) do
+	end) or {}
+
+	for slot10, slot11 in slot7(slot8) do
 		table.insert(slot6, slot11)
 	end
 
@@ -565,7 +567,9 @@ function slot0.handleNotification(slot0, slot1)
 			}))
 		end
 	elseif slot2 == GAME.UPGRADE_MAX_LEVEL_DONE then
-		slot0.viewComponent:doUpgradeMaxLeveAnim(slot3.oldShip, slot3.newShip, function ()
+		slot4 = slot0.viewComponent
+
+		slot4:doUpgradeMaxLeveAnim(slot3.oldShip, slot3.newShip, function ()
 			uv0.viewComponent:showAwakenCompleteAni(i18n("upgrade_to_next_maxlevel_succeed", uv1.newShip:getMaxLevel()))
 			uv1.callback()
 		end)

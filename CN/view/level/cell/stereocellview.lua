@@ -16,9 +16,17 @@ function slot0.UpdateGO(slot0, slot1, slot2)
 		return
 	end
 
-	slot0.buffer:Clear()
-	slot0.buffer:SetNotifier(nil)
-	slot0:GetLoader():GetPrefab(slot1, slot2, function (slot0)
+	slot4 = slot0.buffer
+
+	slot4:Clear()
+
+	slot4 = slot0.buffer
+
+	slot4:SetNotifier(nil)
+
+	slot4 = slot0:GetLoader()
+
+	slot4:GetPrefab(slot1, slot2, function (slot0)
 		uv0.go = slot0
 		uv0.tf = uv0.go.transform
 

@@ -3,8 +3,9 @@ slot0 = class("FinishCampTecCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.levelID
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(64003, {
+	slot5:Send(64003, {
 		tech_group_id = slot2.tecID
 	}, 64004, function (slot0)
 		if slot0.result == 0 then

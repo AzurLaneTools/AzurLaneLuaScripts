@@ -89,8 +89,10 @@ function slot0.ShowFilterPanel(slot0, slot1)
 	slot0.contextData.filterPanel:setFilterData(slot0:GetDisplays())
 
 	function slot0.contextData.filterPanel.confirmFunc()
+		slot0 = uv0.contextData.filterPanel.sortTxt
+
 		if uv1 then
-			uv1(uv0.contextData.filterPanel.sortTxt)
+			uv1(slot0)
 		end
 
 		uv0:OnFilterDone(uv0.contextData.filterPanel:GetFilterData())

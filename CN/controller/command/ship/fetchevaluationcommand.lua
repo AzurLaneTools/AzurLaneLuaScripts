@@ -8,7 +8,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if ShipGroup.REQ_INTERVAL < slot3 - slot5.lastReqStamp then
-		pg.ConnectionMgr.GetInstance():Send(17101, {
+		slot6 = pg.ConnectionMgr.GetInstance()
+
+		slot6:Send(17101, {
 			ship_group_id = slot2
 		}, 17102, function (slot0)
 			if slot0.ship_discuss and slot1.ship_group_id == uv0 then

@@ -1,12 +1,20 @@
 slot0 = class("ShipEvaluationMediator", import("..base.ContextMediator"))
 
 function slot0.register(slot0)
+	slot1 = getProxy(CollectionProxy)
 	slot0.showTrans = slot0.contextData.showTrans
 	slot0.groupId = slot0.contextData.groupId
+	slot3 = slot0.viewComponent
 
-	slot0.viewComponent:setShipGroup(getProxy(CollectionProxy):getShipGroup(slot0.groupId))
-	slot0.viewComponent:setShowTrans(slot0.showTrans)
-	slot0.viewComponent:flushAll()
+	slot3:setShipGroup(slot1:getShipGroup(slot0.groupId))
+
+	slot3 = slot0.viewComponent
+
+	slot3:setShowTrans(slot0.showTrans)
+
+	slot3 = slot0.viewComponent
+
+	slot3:flushAll()
 	slot0:bind(ShipEvaluationLayer.EVENT_LIKE, function (slot0)
 		uv0:sendNotification(GAME.LIKE_SHIP, uv0.groupId)
 	end)
@@ -33,8 +41,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == CollectionProxy.GROUP_INFO_UPDATE then
-		if slot0.groupId == slot1:getBody() then
+		if slot0.groupId == slot3 then
 			slot0.viewComponent:setShipGroup(getProxy(CollectionProxy):getShipGroup(slot4))
 			slot0.viewComponent:flushHeart()
 		end

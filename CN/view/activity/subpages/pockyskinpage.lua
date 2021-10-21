@@ -28,13 +28,14 @@ end
 function slot0.OnDataSetting(slot0)
 	slot1 = getProxy(ActivityProxy)
 	slot2 = slot0.activity:getConfig("config_client").linkids
+	slot3 = false
 	slot0.ActSignIn = slot0.activity
 	slot0.taskProxy = getProxy(TaskProxy)
 
 	if slot0.ActSignIn then
 		slot0.nday = 0
 		slot0.taskGroup = slot0.ActSignIn:getConfig("config_data")
-		slot3 = false or updateActivityTaskStatus(slot0.ActSignIn)
+		slot3 = slot3 or updateActivityTaskStatus(slot0.ActSignIn)
 	end
 
 	slot0.ActPT = slot1:getActivityById(slot2[1])
@@ -67,7 +68,9 @@ function slot0.OnDataSetting(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	onButton(slot0, slot0.rightStage:Find("display_btn"), function ()
+	slot3 = slot0.rightStage
+
+	onButton(slot0, slot3:Find("display_btn"), function ()
 		uv0:emit(ActivityMediator.SHOW_AWARD_WINDOW, PtAwardWindow, {
 			type = uv0.ptData.type,
 			dropList = uv0.ptData.dropList,
@@ -77,10 +80,16 @@ function slot0.OnFirstFlush(slot0)
 			resId = uv0.ptData.resId
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0.rightStage:Find("battle_btn"), function ()
+
+	slot3 = slot0.rightStage
+
+	onButton(slot0, slot3:Find("battle_btn"), function ()
 		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
 	end, SFX_PANEL)
-	onButton(slot0, slot0.rightStage:Find("get_btn"), function ()
+
+	slot3 = slot0.rightStage
+
+	onButton(slot0, slot3:Find("get_btn"), function ()
 		slot0, slot1 = uv0.ptData:GetResProgress()
 
 		uv0:emit(ActivityMediator.EVENT_PT_OPERATION, {
@@ -89,7 +98,10 @@ function slot0.OnFirstFlush(slot0)
 			arg1 = slot1
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0.bg:Find("help"), function ()
+
+	slot3 = slot0.bg
+
+	onButton(slot0, slot3:Find("help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.pocky_help.tip
@@ -154,12 +166,13 @@ function slot0.UpdateTaskList(slot0)
 	slot6 = slot0.leftStage:Find("award")
 	slot7 = slot0.leftStage:Find("slider")
 	slot8 = getProxy(TaskProxy)
+	slot15 = slot8:getTaskVO(slot0.taskGroup[slot0.nday][1]):getTaskStatus()
 	slot16 = slot8:getTaskVO(slot0.taskGroup2[slot0.nday2][1]):getTaskStatus()
 	slot17 = slot8:getTaskVO(slot0.taskGroup3[slot0.nday3][1]):getTaskStatus()
 
 	if not slot0.startTaskid then
 		slot0.startTaskid = slot9
-		slot0.startStatus = slot8:getTaskVO(slot0.taskGroup[slot0.nday][1]):getTaskStatus()
+		slot0.startStatus = slot15
 	end
 
 	slot18 = false
@@ -186,8 +199,14 @@ function slot0.UpdateTaskList(slot0)
 		setActive(slot7, false)
 		setActive(slot0.taskDesc, false)
 		setActive(slot0.signDesc, true)
-		setText(slot0.signDesc:Find("title"), i18n("pocky_jiujiu"))
-		setText(slot0.signDesc:Find("desc"), i18n("pocky_jiujiu_desc"))
+
+		slot21 = slot0.signDesc
+
+		setText(slot21:Find("title"), i18n("pocky_jiujiu"))
+
+		slot21 = slot0.signDesc
+
+		setText(slot21:Find("desc"), i18n("pocky_jiujiu_desc"))
 		setActive(slot2, false)
 		setActive(slot4, true)
 		setActive(slot3, false)

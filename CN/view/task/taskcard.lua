@@ -225,11 +225,16 @@ end
 
 function slot0.DoSubmitAnim(slot0, slot1)
 	slot2 = slot0.frame.localPosition
+	slot3 = LeanTween.alphaCanvas(slot0.cg, 0, uv0)
 
-	LeanTween.alphaCanvas(slot0.cg, 0, uv0):setFrom(1)
-	LeanTween.value(go(slot0.frame), slot2.x, slot2.x + slot0._modelWidth, uv0):setOnUpdate(System.Action_float(function (slot0)
+	slot3:setFrom(1)
+
+	slot3 = LeanTween.value(go(slot0.frame), slot2.x, slot2.x + slot0._modelWidth, uv0)
+	slot3 = slot3:setOnUpdate(System.Action_float(function (slot0)
 		uv0.frame.transform.localPosition = Vector3(slot0, uv1.y, uv1.z)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot3:setOnComplete(System.Action(function ()
 		uv0.frame.transform.localPosition = uv1
 
 		setActive(uv0.frame, false)

@@ -1,7 +1,9 @@
 slot0 = class("PermanentYamashiroSkinPage", import(".TemplatePage.SkinTemplatePage"))
 
 function slot0.OnFirstFlush(slot0)
-	slot0.uilist:make(function (slot0, slot1, slot2)
+	slot1 = slot0.uilist
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = uv0:findTF("item", slot2)
 			slot6 = uv0.taskProxy:getTaskById(uv0.taskGroup[uv0.nday][slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot5)

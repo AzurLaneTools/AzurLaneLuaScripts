@@ -175,7 +175,10 @@ function slot0.mainHandler(slot0, slot1)
 		slot26 = slot25.data1KeyValueList[1]
 
 		if pg.activity_event_worldboss[slot25:getConfig("config_id")] then
-			for slot31, slot32 in ipairs(slot27.normal_expedition_drop_num or {}) do
+			slot28 = ipairs
+			slot29 = slot27.normal_expedition_drop_num or {}
+
+			for slot31, slot32 in slot28(slot29) do
 				for slot36, slot37 in ipairs(slot32[1]) do
 					slot26[slot37] = slot32[2] or 0
 				end

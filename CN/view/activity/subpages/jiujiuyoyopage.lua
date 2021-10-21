@@ -242,6 +242,7 @@ end
 
 function slot0.autoFinishTask(slot0)
 	slot1 = 0.01
+	slot2 = 0.5
 
 	for slot6, slot7 in ipairs(slot0.finishItemList) do
 		slot8 = GetOrAddComponent(slot7, typeof(CanvasGroup))
@@ -258,7 +259,7 @@ function slot0.autoFinishTask(slot0)
 			end))
 		end, slot1, nil)
 
-		slot1 = slot1 + 0.5 + 0.1
+		slot1 = slot1 + slot2 + 0.1
 	end
 
 	slot0:managedTween(LeanTween.delayedCall, function ()
@@ -314,11 +315,14 @@ end
 
 function slot0.canFinishTask(slot0)
 	slot1 = pg.activity_template[ActivityConst.JIUJIU_YOYO_ID]
+	slot5 = pg.TimeMgr.GetInstance():DiffDay(pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1.time[2]), pg.TimeMgr.GetInstance():GetServerTime()) + 1
 	slot6 = false
 	slot7 = getProxy(TaskProxy)
 
 	for slot11, slot12 in pairs(pg.activity_template[slot1.config_client.taskActID].config_data) do
-		if (slot7:getTaskById(slot12) or slot7:getFinishTaskById(slot12)):getTaskStatus() == 1 and not (pg.TimeMgr.GetInstance():DiffDay(pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1.time[2]), pg.TimeMgr.GetInstance():GetServerTime()) + 1 < slot11) then
+		slot13 = slot5 < slot11
+
+		if (slot7:getTaskById(slot12) or slot7:getFinishTaskById(slot12)):getTaskStatus() == 1 and not slot13 then
 			slot6 = true
 
 			break

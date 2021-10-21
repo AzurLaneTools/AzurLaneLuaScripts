@@ -52,7 +52,8 @@ function slot0.init(slot0)
 		uv0.sucessCallbacks = {}
 	end)
 
-	slot0.awardCntTF = slot0:findTF("window/main/award"):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("window/main/award")
+	slot0.awardCntTF = slot1:GetComponent(typeof(Text))
 
 	SetActive(slot0.failed, false)
 	SetActive(slot0.sucess, false)
@@ -111,7 +112,9 @@ function slot0.LoadChars(slot0)
 
 	for slot6, slot7 in ipairs(slot0.dirs) do
 		table.insert(slot2, function (slot0)
-			LoadSpriteAsync("shipmodels/" .. uv0.ships[uv1]:getPainting(), function (slot0)
+			slot1 = uv0.ships[uv1]
+
+			LoadSpriteAsync("shipmodels/" .. slot1:getPainting(), function (slot0)
 				uv0(uv1, uv2, slot0)
 				uv3()
 			end)
@@ -149,7 +152,10 @@ end
 function slot0.PlayAnim(slot0, slot1, slot2)
 	if slot1 then
 		setActive(slot0.sucess, true)
-		slot0.sucessAnim:Play("blink")
+
+		slot3 = slot0.sucessAnim
+
+		slot3:Play("blink")
 		table.insert(slot0.sucessCallbacks, function ()
 			setActive(uv0.sucess, false)
 			uv0.sucessAnim:Stop("blink")
@@ -157,7 +163,10 @@ function slot0.PlayAnim(slot0, slot1, slot2)
 		end)
 	else
 		setActive(slot0.failed, true)
-		slot0.failedAnim:Play("blink")
+
+		slot3 = slot0.failedAnim
+
+		slot3:Play("blink")
 		table.insert(slot0.failedCallbacks, function ()
 			uv0.failedAnim:Stop("blink")
 			setActive(uv0.failed, false)

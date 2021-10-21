@@ -2,9 +2,11 @@ slot0 = class("ExtendCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot4 = slot2.count
+	slot6 = getProxy(PlayerProxy):getData()
 
 	if pg.shop_template[slot2.id].effect_args == ShopArgs.EffecetEquipBagSize then
-		getProxy(PlayerProxy):getData():addEquipmentBagCount(slot7.num * slot2.count)
+		slot6:addEquipmentBagCount(slot7.num * slot4)
 	elseif slot7.effect_args == ShopArgs.EffecetShipBagSize then
 		slot6:addShipBagCount(slot7.num * slot4)
 	elseif slot7.effect_args == ShopArgs.EffectDromExpPos then
@@ -27,9 +29,10 @@ function slot0.execute(slot0, slot1)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("refresh_shopStreet_ok"))
 	elseif slot7.effect_args == ShopArgs.EffectTradingPortLevel or slot7.effect_args == ShopArgs.EffectOilFieldLevel or slot7.effect_args == ShopArgs.EffectClassLevel then
 		slot8 = nil
+		slot9 = getProxy(NavalAcademyProxy)
 
 		if slot7.effect_args == ShopArgs.EffectTradingPortLevel then
-			slot8 = getProxy(NavalAcademyProxy)._goldVO
+			slot8 = slot9._goldVO
 		elseif slot7.effect_args == ShopArgs.EffectOilFieldLevel then
 			slot8 = slot9._oilVO
 		elseif slot7.effect_args == ShopArgs.EffectClassLevel then

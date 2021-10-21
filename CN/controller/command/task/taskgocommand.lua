@@ -23,13 +23,14 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot6 = slot3:getConfig("sub_type")
+	slot8 = {
+		chapterId = slot4:getActiveChapter() and slot7.id,
+		mapIdx = slot7 and slot7:getConfig("map")
+	}
 	slot10 = math.fmod(slot6, 10)
 
 	if math.modf(slot6 / 10) == 0 then
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot4:getActiveChapter() and slot7.id,
-			mapIdx = slot7 and slot7:getConfig("map")
-		})
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot8)
 	elseif slot9 == 1 then
 		if slot10 == 9 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.DAILYLEVEL)

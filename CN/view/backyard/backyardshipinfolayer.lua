@@ -173,8 +173,10 @@ function slot0.didEnter(slot0)
 	slot0.cards = {}
 
 	for slot4, slot5 in pairs(slot0.toggles) do
+		slot6 = slot5:GetComponent(typeof(Image))
+
 		if slot4 == uv0.SHIP_TRAIN_TYPE or slot4 == uv0.SHIP_REST_TYPE then
-			slot5:GetComponent(typeof(Image)).color = Color.New(0.5, 0.5, 0.5, 1)
+			slot6.color = Color.New(0.5, 0.5, 0.5, 1)
 		end
 
 		onToggle(slot0, slot5, function (slot0)
@@ -316,10 +318,11 @@ function slot0.getExpAdditionSpeed(slot0)
 			end
 
 			slot1 = pg.dorm_data_template[uv0.dormVO.id]
+			slot3 = 1
 
 			for slot7, slot8 in pairs(BuffHelper.GetBackYardExpBuffs()) do
 				if slot8:isActivate() then
-					slot3 = tonumber(slot8:getConfig("benefit_effect")) / 100 + 1
+					slot3 = tonumber(slot8:getConfig("benefit_effect")) / 100 + slot3
 				end
 			end
 

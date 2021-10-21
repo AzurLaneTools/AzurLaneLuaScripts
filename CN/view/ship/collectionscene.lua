@@ -197,8 +197,9 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 
 	slot1 = slot0:findTF("stamp", slot0.top)
+	slot4 = getProxy(TaskProxy)
 
-	setActive(slot1, getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	setActive(slot1, slot4:mingshiTouchFlagEnabled())
 
 	function slot5()
 		getProxy(TaskProxy):dealMingshiTouchFlag(8)
@@ -302,7 +303,10 @@ function slot0.didEnter(slot0)
 
 	slot0:initIndexPanel()
 	slot0:calFavoriteRate()
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
+
+	slot4 = pg.UIMgr.GetInstance()
+
+	slot4:OverlayPanelPB(slot0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_COLLECTION
 	})
 	onButton(slot0, slot0.bonusPanel, function ()
@@ -515,9 +519,10 @@ function slot0.sortDisplay(slot0)
 	end)
 
 	slot1 = 0
+	slot2 = slot0.contextData.displayGroupId
 
 	for slot6, slot7 in ipairs(slot0.favoriteVOs) do
-		if slot7:containShipGroup(slot0.contextData.displayGroupId) then
+		if slot7:containShipGroup(slot2) then
 			slot1 = slot6
 
 			break
@@ -530,7 +535,8 @@ end
 function slot0.initDisplayPanel(slot0)
 	if not slot0.isInitDisplay then
 		slot0.isInitDisplay = true
-		slot0.displayRect = slot0:findTF("main/list_display"):GetComponent("LScrollRect")
+		slot1 = slot0:findTF("main/list_display")
+		slot0.displayRect = slot1:GetComponent("LScrollRect")
 		slot0.displayRect.decelerationRate = 0.07
 
 		function slot0.displayRect.onInitItem(slot0)
@@ -597,6 +603,7 @@ function slot0.openBonus(slot0, slot1)
 	setActive(slot0.bonusPanel, true)
 
 	slot0.boundName.text = slot1:getConfig("name")
+	slot2 = slot1:getConfig("award_display")
 
 	for slot7, slot8 in ipairs(slot1:getConfig("level")) do
 		slot10 = findTF(slot0.bonusPanel, "frame/awards/award" .. slot7)
@@ -609,7 +616,7 @@ function slot0.openBonus(slot0, slot1)
 		setActive(findTF(slot10, "item_tpl/icon_bg"), slot11 ~= Favorite.STATE_LOCK)
 		setActive(findTF(slot10, "item_tpl/bg"), slot11 ~= Favorite.STATE_LOCK)
 
-		if slot1:getConfig("award_display")[slot7] then
+		if slot2[slot7] then
 			updateDrop(findTF(slot10, "item_tpl"), {
 				count = 0,
 				type = slot9[1],
@@ -713,7 +720,9 @@ function slot0.initMemoryPanel(slot0)
 		slot4 = _.flatten(slot2:getConfig("config_data"))
 
 		if getProxy(TaskProxy):getTaskById(slot4[#slot4]) and not slot7:isFinish() then
-			pg.NewStoryMgr.GetInstance():Play("HOSHO8", function ()
+			slot8 = pg.NewStoryMgr.GetInstance()
+
+			slot8:Play("HOSHO8", function ()
 				uv0:emit(CollectionScene.ACTIVITY_OP, {
 					cmd = 2,
 					activity_id = uv1.id
@@ -798,7 +807,10 @@ function slot0.playMemory(slot0, slot1)
 		end
 
 		setActive(slot0.memoryMask, true)
-		pg.NewStoryMgr.GetInstance():Play(slot1.story, function ()
+
+		slot3 = pg.NewStoryMgr.GetInstance()
+
+		slot3:Play(slot1.story, function ()
 			setActive(uv0.memoryMask, false)
 		end, true)
 	elseif slot1.type == 2 then

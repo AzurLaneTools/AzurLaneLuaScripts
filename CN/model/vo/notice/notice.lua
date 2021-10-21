@@ -21,8 +21,10 @@ function slot0.markAsRead(slot0)
 end
 
 function slot0.getUniqueCode(slot0)
+	slot5 = string.len((slot0.title or "*") .. slot0.id .. (slot0.content or "*"))
+
 	for slot9 = 1, slot2, math.floor(slot2 / math.min(10, slot2)) do
-		slot5 = string.len((slot0.title or "*") .. slot0.id .. (slot0.content or "*")) + string.byte(slot1, slot9)
+		slot5 = slot5 + string.byte(slot1, slot9)
 	end
 
 	return slot5

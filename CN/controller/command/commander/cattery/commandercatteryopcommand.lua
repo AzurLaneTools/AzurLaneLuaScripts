@@ -1,12 +1,16 @@
 slot0 = class("CommanderCatteryOPCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot4 = getProxy(CommanderProxy):GetCommanderHome()
+	slot4 = getProxy(CommanderProxy)
+	slot4 = slot4:GetCommanderHome()
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(25028, {
+	slot5:Send(25028, {
 		type = slot1:getBody().op
 	}, 25029, function (slot0)
 		if slot0.result == 0 then
+			slot1 = {}
+
 			for slot5, slot6 in ipairs(slot0.awards) do
 				slot7 = Item.New({
 					type = slot6.type,
@@ -14,7 +18,7 @@ function slot0.execute(slot0, slot1)
 					count = slot6.number
 				})
 
-				table.insert({}, slot7)
+				table.insert(slot1, slot7)
 				uv0:sendNotification(GAME.ADD_ITEM, slot7)
 			end
 
@@ -59,27 +63,31 @@ end
 
 function slot0.AddCommanderExpByFeed(slot0)
 	slot1 = {}
+
+	function slot2(slot0, slot1)
+		if getProxy(CommanderProxy):getCommanderById(slot0:GetCommanderId()):isMaxLevel() then
+			slot1 = 0
+		end
+
+		slot4:addExp(slot1)
+
+		if not slot5 and slot4:isMaxLevel() then
+			slot1 = slot1 - slot4.exp
+		end
+
+		table.insert(uv0, {
+			id = slot0.id,
+			value = slot1
+		})
+		slot3:updateCommander(slot4)
+	end
+
 	slot3 = getProxy(CommanderProxy):GetCommanderHome()
+	slot5 = slot3:getConfig("feed_level")[2]
 
 	for slot9, slot10 in pairs(slot3:GetCatteries()) do
 		if slot10:ExistCommander() and slot10:ExiseFeedOP() then
-			(function (slot0, slot1)
-				if getProxy(CommanderProxy):getCommanderById(slot0:GetCommanderId()):isMaxLevel() then
-					slot1 = 0
-				end
-
-				slot4:addExp(slot1)
-
-				if not slot5 and slot4:isMaxLevel() then
-					slot1 = slot1 - slot4.exp
-				end
-
-				table.insert(uv0, {
-					id = slot0.id,
-					value = slot1
-				})
-				slot3:updateCommander(slot4)
-			end)(slot10, slot3:getConfig("feed_level")[2])
+			slot2(slot10, slot5)
 		end
 	end
 

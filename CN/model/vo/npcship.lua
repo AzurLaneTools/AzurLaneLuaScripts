@@ -3,9 +3,11 @@ slot0 = class("NpcShip", import(".Ship"))
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
+	slot2 = pg.ship_data_template[slot0.configId]
+
 	for slot6 = 1, 3 do
 		if not slot0.equipments[slot6] then
-			slot0.equipments[slot6] = pg.ship_data_template[slot0.configId]["equip_id_" .. slot6] > 0 and Equipment.New({
+			slot0.equipments[slot6] = slot2["equip_id_" .. slot6] > 0 and Equipment.New({
 				id = slot7
 			}) or false
 		end

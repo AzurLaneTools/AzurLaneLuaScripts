@@ -78,7 +78,10 @@ end
 
 function slot0.updateValue(slot0)
 	setText(slot0.valueText, slot0.count)
-	slot0.ulist:each(function (slot0, slot1)
+
+	slot1 = slot0.ulist
+
+	slot1:each(function (slot0, slot1)
 		setText(slot1:Find("item/bg/icon_bg/count"), uv0.count)
 	end)
 end
@@ -90,8 +93,10 @@ function slot0.update(slot0, slot1)
 	slot0.selectedItem = nil
 
 	slot0.ulist:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
+			slot3 = uv0[slot1]
 			slot4 = {
 				type = slot3[1],
 				id = slot3[2],

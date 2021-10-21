@@ -22,8 +22,9 @@ function slot0.Add(slot0, slot1, slot2, slot3, slot4)
 				slot0.requests[slot1] = {
 					slot4
 				}
+				slot6 = uv0
 
-				uv0:getAssetAsync(slot0.path, slot1, slot3, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				slot6:getAssetAsync(slot0.path, slot1, slot3, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 					if not uv0.stopped then
 						uv0.items[uv1] = slot0
 

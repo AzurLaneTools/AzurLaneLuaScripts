@@ -36,9 +36,10 @@ function slot1.MakeModel(slot0, slot1, slot2)
 
 		if uv0:GetSceneMediator():GetCharacter(slot1):GetUnitData():GetCldData().Active then
 			slot10 = false
+			slot11 = slot9:GetCurrentOxyState()
 
 			for slot15, slot16 in ipairs(slot5) do
-				if slot9:GetCurrentOxyState() == slot16 then
+				if slot11 == slot16 then
 					slot10 = true
 				end
 			end

@@ -9,11 +9,19 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.rtPanel = slot0._tf:Find("window/display_panel")
+	slot1 = slot0._tf
+	slot0.rtPanel = slot1:Find("window/display_panel")
+	slot2 = slot0.rtPanel
 
-	setText(slot0.rtPanel:Find("info/Text"), i18n("world_catsearch_help_1"))
-	setText(slot0.rtPanel:Find("info/items_btn/Text"), i18n("world_catsearch_help_2"))
-	onButton(slot0, slot0.rtPanel:Find("info/items_btn"), function ()
+	setText(slot2:Find("info/Text"), i18n("world_catsearch_help_1"))
+
+	slot2 = slot0.rtPanel
+
+	setText(slot2:Find("info/items_btn/Text"), i18n("world_catsearch_help_2"))
+
+	slot3 = slot0.rtPanel
+
+	onButton(slot0, slot3:Find("info/items_btn"), function ()
 		uv0:emit(BaseUI.ON_DROP_LIST, {
 			item2Row = true,
 			itemList = _.map(pg.gameset.world_catsearchdrop_show.description, function (slot0)
@@ -26,23 +34,29 @@ function slot0.OnInit(slot0)
 			content = i18n("world_catsearch_help_6")
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("bg"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("bg"), function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
 
-	slot0.btnBack = slot0._tf:Find("window/top/btnBack")
+	slot1 = slot0._tf
+	slot0.btnBack = slot1:Find("window/top/btnBack")
 
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
 
-	slot0.btnCanel = slot0._tf:Find("window/button_container/custom_button_2")
+	slot1 = slot0._tf
+	slot0.btnCanel = slot1:Find("window/button_container/custom_button_2")
 
 	onButton(slot0, slot0.btnCanel, function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
 
-	slot0.btnHelp = slot0.rtPanel:Find("info/help")
+	slot1 = slot0.rtPanel
+	slot0.btnHelp = slot1:Find("info/help")
 
 	onButton(slot0, slot0.btnHelp, function ()
 		uv0:Hide()
@@ -56,7 +70,8 @@ function slot0.OnInit(slot0)
 		}))
 	end, SFX_PANEL)
 
-	slot0.btnConfirm = slot0._tf:Find("window/button_container/custom_button_1")
+	slot1 = slot0._tf
+	slot0.btnConfirm = slot1:Find("window/button_container/custom_button_1")
 
 	onButton(slot0, slot0.btnConfirm, function ()
 		uv0:Hide()

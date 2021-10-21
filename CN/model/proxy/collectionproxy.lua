@@ -49,10 +49,13 @@ function slot0.register(slot0)
 
 			if uv0.trophy[slot5.id] then
 				slot8 = uv0.trophy[slot7]
+				slot9 = slot8:canClaimed()
 
 				slot8:update(slot5)
 
-				if not slot8:isHide() and slot8:canClaimed() ~= slot8:canClaimed() then
+				slot10 = slot8:canClaimed()
+
+				if not slot8:isHide() and slot9 ~= slot10 then
 					slot6 = true
 				end
 			else
@@ -239,9 +242,11 @@ function slot0.hiddenTrophyAutoClaim(slot0)
 end
 
 function slot0.unclaimTrophyCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.trophy) do
 		if slot6:getHideType() == Trophy.ALWAYS_SHOW and slot6:canClaimed() and not slot6:isClaimed() then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -277,8 +282,10 @@ function slot0.bindTrophyGroup(slot0)
 				slot0.trophyGroup[slot8] = TrophyGroup.New(slot8)
 			end
 
+			slot9 = slot0.trophyGroup[slot8]
+
 			if slot0.trophy[slot6] then
-				slot0.trophyGroup[slot8]:addTrophy(slot0.trophy[slot6])
+				slot9:addTrophy(slot0.trophy[slot6])
 			else
 				slot9:addDummyTrophy(slot6)
 			end

@@ -81,13 +81,20 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 	}
 
 	updateDropCfg(slot5)
-	slot3:Find("name_bg/Text"):GetComponent("ScrollText"):SetText(HXSet.hxLan(slot5.cfg.name))
 
-	slot8 = slot3:Find("cnt/Text"):GetComponent(typeof(Text))
+	slot6 = slot3:Find("name_bg/Text")
+	slot6 = slot6:GetComponent("ScrollText")
+
+	slot6:SetText(HXSet.hxLan(slot5.cfg.name))
+
+	slot8 = slot3:Find("cnt/Text")
+	slot8 = slot8:GetComponent(typeof(Text))
 
 	onButton(slot0, slot3, function ()
 		uv0.list:each(function (slot0, slot1)
-			if uv1 ~= slot1 and not table.contains(uv0.selectedList, uv0.displays[slot0 + 1]) then
+			slot2 = uv0.displays[slot0 + 1]
+
+			if uv1 ~= slot1 and not table.contains(uv0.selectedList, slot2) then
 				setActive(slot1:Find("cnt"), false)
 				setActive(slot1:Find("selected"), false)
 			end
@@ -121,9 +128,11 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 		uv0:UpdateValue()
 	end, SFX_PANEL)
 	(function ()
+		slot0 = 0
+
 		for slot4, slot5 in ipairs(uv0.selectedList) do
 			if slot5 == uv1 then
-				slot0 = 0 + 1
+				slot0 = slot0 + 1
 			end
 		end
 
@@ -136,7 +145,9 @@ function slot0.Hide(slot0)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	end
 
-	slot0.list:each(function (slot0, slot1)
+	slot1 = slot0.list
+
+	slot1:each(function (slot0, slot1)
 		setActive(slot1:Find("cnt"), false)
 		setActive(slot1:Find("selected"), false)
 	end)

@@ -15,10 +15,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.levelUpTime = slot1.lv_up_time
 	slot0.flashCount = slot1.flash_count
 	slot0.goods = {}
+	slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SHOP_DISCOUNT) and not slot2:isEnd()
 
 	for slot7, slot8 in ipairs(slot1.goods_list) do
 		slot9 = Goods.Create(slot8, Goods.TYPE_SHOPSTREET)
-		slot9.activityDiscount = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SHOP_DISCOUNT) and not slot2:isEnd()
+		slot9.activityDiscount = slot3
 
 		table.insert(slot0.goods, slot9)
 	end

@@ -37,8 +37,10 @@ function slot2.onAttach(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot3) do
 		slot8:AppendReloadFactor(slot2, slot0._value)
 
+		slot10 = 1
+
 		for slot14, slot15 in pairs(slot8:GetReloadFactorList()) do
-			slot10 = 1 + slot15
+			slot10 = slot10 + slot15
 		end
 
 		slot8:FlushReloadMax(slot10)
@@ -52,8 +54,10 @@ function slot2.onRemove(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0._targetWeaponList) do
 		slot7:RemoveReloadFactor(slot2)
 
+		slot9 = 1
+
 		for slot13, slot14 in pairs(slot7:GetReloadFactorList()) do
-			slot9 = 1 + slot14
+			slot9 = slot9 + slot14
 		end
 
 		slot7:FlushReloadMax(slot9)

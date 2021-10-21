@@ -64,7 +64,8 @@ function slot0.InitDetail(slot0)
 
 	slot0.equipmentProxy = getProxy(EquipmentProxy)
 	slot0.recordPanel = slot0.detailPanel:Find("record_panel")
-	slot0.unloadAllBtn = slot0.recordPanel:Find("frame/unload_all")
+	slot1 = slot0.recordPanel
+	slot0.unloadAllBtn = slot1:Find("frame/unload_all")
 	slot0.recordBtns = {
 		slot0.recordPanel:Find("frame/container/record_1/record_btn"),
 		slot0.recordPanel:Find("frame/container/record_2/record_btn"),
@@ -141,7 +142,10 @@ function slot0.InitEvent(slot0)
 			return
 		end
 
-		uv0:emit(ShipMainMediator.PROPOSE, uv0:GetShipVO().id, function ()
+		slot0 = uv0
+		slot3 = uv0
+
+		slot0:emit(ShipMainMediator.PROPOSE, slot3:GetShipVO().id, function ()
 		end)
 	end)
 	onButton(slot0, slot0.equipments, function ()
@@ -154,7 +158,9 @@ function slot0.InitEvent(slot0)
 
 		if not slot1 then
 			if slot0 then
-				pg.TipsMgr.GetInstance():ShowTips(slot2)
+				slot3 = pg.TipsMgr.GetInstance()
+
+				slot3:ShowTips(slot2)
 				onNextTick(function ()
 					triggerToggle(uv0.showRecordBtn, false)
 				end)
@@ -178,7 +184,9 @@ function slot0.InitEvent(slot0)
 
 		if not slot1 then
 			if slot0 then
-				pg.TipsMgr.GetInstance():ShowTips(slot2)
+				slot3 = pg.TipsMgr.GetInstance()
+
+				slot3:ShowTips(slot2)
 				onNextTick(function ()
 					triggerToggle(uv0.showQuickBtn, false)
 				end)
@@ -465,8 +473,10 @@ function slot0.GetShipVO(slot0)
 end
 
 function slot0.OnSelected(slot0, slot1)
+	slot2 = pg.UIMgr.GetInstance()
+
 	if slot1 then
-		pg.UIMgr.GetInstance():OverlayPanelPB(slot0._parentTf, {
+		slot2:OverlayPanelPB(slot0._parentTf, {
 			pbList = {
 				slot0.detailPanel:Find("attrs"),
 				slot0.detailPanel:Find("equipments"),
@@ -525,11 +535,13 @@ function slot0.UpdateEquipments(slot0, slot1)
 	slot0:clearListener()
 	removeAllChildren(slot0.equipmentsGrid)
 
+	slot2 = slot1:getActiveEquipments()
 	slot0.equipItems = {}
 
 	for slot6, slot7 in ipairs(slot1.equipments) do
-		slot8 = slot1:getActiveEquipments()[slot6]
+		slot8 = slot2[slot6]
 		slot9 = nil
+		slot10 = slot6
 		slot11 = nil
 
 		if slot7 then
@@ -538,7 +550,7 @@ function slot0.UpdateEquipments(slot0, slot1)
 			table.insert(slot0.equipItems, {
 				empty = false,
 				tf = slot9,
-				index = slot6
+				index = slot10
 			})
 			updateEquipment(slot0:findTF("IconTpl", slot9), slot7)
 			onButton(slot0, slot9, function ()
@@ -665,10 +677,11 @@ function slot0.setListCount(slot0, slot1, slot2)
 end
 
 function slot0.getEquipments(slot0)
+	slot1 = getProxy(BayProxy)
 	slot2 = slot0:GetShipVO()
 	slot6 = getProxy(EquipmentProxy):getEquipmentsByFillter(slot2:getShipType(), pg.ship_data_template[slot2.configId]["equip_" .. slot0.selectedEquip.index])
 
-	if slot0.equipingFlag and getProxy(BayProxy):getEquipsInShips(slot2, slot0.selectedEquip.index) and #slot7 > 0 then
+	if slot0.equipingFlag and slot1:getEquipsInShips(slot2, slot0.selectedEquip.index) and #slot7 > 0 then
 		for slot11, slot12 in ipairs(slot7) do
 			if not slot2:isForbiddenAtPos(slot12, slot0.selectedEquip.index) then
 				table.insert(slot6, slot12)
@@ -677,12 +690,13 @@ function slot0.getEquipments(slot0)
 	end
 
 	slot7 = {}
+	slot8 = table.mergeArray({}, {
+		slot0.indexData.equipPropertyIndex,
+		slot0.indexData.equipPropertyIndex2
+	}, true)
 
 	for slot12, slot13 in pairs(slot6) do
-		if slot0:checkFillter(slot13, table.mergeArray({}, {
-			slot0.indexData.equipPropertyIndex,
-			slot0.indexData.equipPropertyIndex2
-		}, true)) then
+		if slot0:checkFillter(slot13, slot8) then
 			table.insert(slot7, slot13)
 		end
 	end
@@ -819,9 +833,12 @@ function slot0.CloseQuickPanel(slot0)
 end
 
 function slot0.UpdateRecordEquipments(slot0, slot1)
+	slot2 = slot0.recordEquipmentsTFs[slot1]
+	slot4 = slot0:GetShipVO():getEquipmentRecord(slot0.shareData.player.id)[slot1] or {}
+
 	for slot8 = 1, 5 do
-		slot10 = tonumber((slot0:GetShipVO():getEquipmentRecord(slot0.shareData.player.id)[slot1] or {})[slot8]) and slot9 ~= -1
-		slot11 = slot0.recordEquipmentsTFs[slot1]:Find("equipment_" .. slot8)
+		slot10 = tonumber(slot4[slot8]) and slot9 ~= -1
+		slot11 = slot2:Find("equipment_" .. slot8)
 
 		setActive(slot11:Find("info"), slot10)
 		setActive(slot11:Find("empty"), not slot10)

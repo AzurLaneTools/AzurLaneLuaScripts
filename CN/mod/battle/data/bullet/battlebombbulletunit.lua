@@ -104,10 +104,11 @@ function slot3.SetTemplateData(slot0, slot1)
 		end
 
 		slot6 = math.max(0, (slot2.randomOffsetZ or 0) - slot4)
+		slot7 = slot2.offsetX or 0
 		slot8 = slot2.offsetZ or 0
 
 		if math.max(0, (slot2.randomOffsetX or 0) - slot4) ~= 0 then
-			slot5 = slot5 * (math.random() - 0.5) + (slot2.offsetX or 0)
+			slot5 = slot5 * (math.random() - 0.5) + slot7
 		end
 
 		if slot6 ~= 0 then

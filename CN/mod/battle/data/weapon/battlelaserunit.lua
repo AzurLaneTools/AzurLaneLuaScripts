@@ -92,20 +92,22 @@ function slot4.SetTemplateData(slot0, slot1)
 end
 
 function slot4.initBeamList(slot0)
+	slot1 = slot0._tmpData.barrage_ID
 	slot0._alertList = {}
 	slot0._beamList = {}
 
 	for slot6, slot7 in ipairs(slot0._tmpData.bullet_ID) do
-		slot0._beamList[slot6] = uv0.Battle.BattleBeamUnit.New(slot7, slot0._tmpData.barrage_ID[slot6])
+		slot0._beamList[slot6] = uv0.Battle.BattleBeamUnit.New(slot7, slot1[slot6])
 	end
 end
 
 function slot4.updateBeamList(slot0)
+	slot1 = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._attackStartTime
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0._beamList) do
 		if slot7:GetBeamState() == slot7.BEAM_STATE_READY then
-			if uv0.GetBarrageTmpDataFromID(slot7:GetBeamInfoID()).first_delay < pg.TimeMgr.GetInstance():GetCombatTime() - slot0._attackStartTime then
+			if uv0.GetBarrageTmpDataFromID(slot7:GetBeamInfoID()).first_delay < slot1 then
 				slot0:createBeam(slot7)
 			end
 		elseif slot7:GetBeamState() == slot7.BEAM_STATE_ATTACK then
@@ -133,7 +135,8 @@ end
 
 function slot4.createBeam(slot0, slot1)
 	slot4 = uv0.GetBarrageTmpDataFromID(slot1:GetBeamInfoID())
-	slot13 = slot0._dataProxy:SpawnLastingCubeArea(uv1.AOEField.SURFACE, slot0._host:GetIFF(), Vector3(slot0._hostPos.x + slot4.offset_x, 0, slot0._hostPos.z + slot4.offset_z), slot4.delta_offset_x, slot4.delta_offset_z, slot4.delay, function (slot0)
+	slot11 = slot0._host
+	slot13 = slot0._dataProxy:SpawnLastingCubeArea(uv1.AOEField.SURFACE, slot11:GetIFF(), Vector3(slot0._hostPos.x + slot4.offset_x, 0, slot0._hostPos.z + slot4.offset_z), slot4.delta_offset_x, slot4.delta_offset_z, slot4.delay, function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.Active then
 				uv1:AddCldUnit(uv0._dataProxy:GetUnitList()[slot5.UID])
@@ -168,9 +171,11 @@ end
 function slot4.doBeamDamage(slot0, slot1)
 	slot1:DealDamage()
 
+	slot2 = slot0:Spawn(slot1:GetBulletID())
+
 	for slot7, slot8 in pairs(slot1:GetCldUnitList()) do
 		if slot8:IsAlive() then
-			slot0._dataProxy:HandleDamage(slot0:Spawn(slot1:GetBulletID()), slot8)
+			slot0._dataProxy:HandleDamage(slot2, slot8)
 
 			slot9, slot10 = uv0.Battle.BattleFXPool.GetInstance():GetFX(slot1:GetFXID())
 

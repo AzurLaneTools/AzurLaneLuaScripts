@@ -149,21 +149,26 @@ function slot0.InitEntrances(slot0)
 end
 
 function slot0.ActiveDefaultShop(slot0)
+	slot1 = {
+		"activity",
+		"shopstreet",
+		"supplies",
+		"sham",
+		"fragment",
+		"guild"
+	}
+
 	if type(slot0.contextData.warp or slot0.contextData.activeShop or uv0.TYPE_ACTIVITY) == "string" then
-		slot2 = defaultValue(table.indexof({
-			"activity",
-			"shopstreet",
-			"supplies",
-			"sham",
-			"fragment",
-			"guild"
-		}, slot2), uv0.TYPE_ACTIVITY)
+		slot2 = defaultValue(table.indexof(slot1, slot2), uv0.TYPE_ACTIVITY)
 	end
 
 	slot3 = slot0.contextData.index or 1
 
 	if slot2 == uv0.TYPE_ACTIVITY and slot0.contextData.actId then
-		for slot7, slot8 in ipairs(slot0.shops[slot2] or {}) do
+		slot4 = ipairs
+		slot5 = slot0.shops[slot2] or {}
+
+		for slot7, slot8 in slot4(slot5) do
 			if slot8.activityId == slot0.contextData.actId then
 				slot3 = slot7
 

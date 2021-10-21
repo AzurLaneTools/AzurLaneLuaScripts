@@ -22,7 +22,8 @@ function slot0.init(slot0)
 	setActive(slot0.rtEmptyTpl, false)
 
 	slot0.rtScroll = slot0.rtPanel:Find("bg")
-	slot0.rtContent = slot0.rtScroll:Find("content")
+	slot2 = slot0.rtScroll
+	slot0.rtContent = slot2:Find("content")
 	slot0.rtFleets = {
 		[FleetType.Normal] = slot0.rtContent:Find("fleet"),
 		[FleetType.Submarine] = slot0.rtContent:Find("sub")
@@ -123,12 +124,10 @@ end
 
 function slot0.IsPropertyLimitationSatisfy(slot0)
 	slot1 = getProxy(BayProxy):getRawData()
-	slot3 = {
-		[slot8[1]] = 0
-	}
+	slot3 = {}
 
 	for slot7, slot8 in ipairs(pg.gameset.world_fleet_unlock_level.description) do
-		-- Nothing
+		slot3[slot8[1]] = 0
 	end
 
 	slot4 = 0
@@ -136,16 +135,16 @@ function slot0.IsPropertyLimitationSatisfy(slot0)
 	for slot8, slot9 in ipairs(slot0.contextData.fleets[FleetType.Normal]) do
 		if slot0:GetTeamShipCount(slot9[TeamType.Main]) ~= 0 then
 			if slot0:GetTeamShipCount(slot9[TeamType.Vanguard]) ~= 0 then
-				slot10 = {
-					[slot18] = 0
-				}
+				slot10 = {}
+				slot11 = {}
 				slot12 = 0
 
 				for slot16, slot17 in ipairs(slot2) do
-					slot18, slot19, slot20, ({})[slot18] = unpack(slot17)
+					slot18, slot19, slot20, slot21 = unpack(slot17)
 
 					if string.sub(slot18, 1, 5) == "fleet" then
-						-- Nothing
+						slot10[slot18] = 0
+						slot11[slot18] = slot21
 					end
 				end
 
@@ -266,11 +265,13 @@ function slot0.UpdateFleet(slot0, slot1, slot2, slot3)
 end
 
 function slot0.updateCommanders(slot0, slot1, slot2, slot3)
+	slot5 = Fleet.New({
+		ship_list = {},
+		commanders = slot0.contextData.fleets[slot2][slot3].commanders
+	})
+
 	for slot9 = 1, 2 do
-		slot10 = Fleet.New({
-			ship_list = {},
-			commanders = slot0.contextData.fleets[slot2][slot3].commanders
-		}):getCommanderByPos(slot9)
+		slot10 = slot5:getCommanderByPos(slot9)
 		slot11 = slot1:Find("pos" .. slot9)
 
 		setActive(slot11:Find("add"), not slot10)
@@ -339,8 +340,14 @@ function slot0.UpdateShips(slot0, slot1, slot2, slot3)
 		slot13 = GetOrAddComponent(slot11:Find("icon_bg"), typeof(UILongPressTrigger))
 
 		pg.DelegateInfo.Add(slot0, slot13.onLongPressed)
-		slot13.onLongPressed:RemoveAllListeners()
-		slot13.onLongPressed:AddListener(function ()
+
+		slot14 = slot13.onLongPressed
+
+		slot14:RemoveAllListeners()
+
+		slot14 = slot13.onLongPressed
+
+		slot14:AddListener(function ()
 			if not uv0 then
 				uv1:emit(WorldFleetSelectMediator.OnSelectShip, uv2, uv3, uv4)
 			else
@@ -423,9 +430,10 @@ function slot0.CheckValid(slot0)
 	end
 
 	slot1, slot2 = slot0:IsPropertyLimitationSatisfy()
+	slot3 = 1
 
 	for slot7, slot8 in ipairs(slot1) do
-		slot3 = 1 * slot8
+		slot3 = slot3 * slot8
 	end
 
 	if slot3 ~= 1 then
@@ -436,9 +444,11 @@ function slot0.CheckValid(slot0)
 end
 
 function slot0.GetTeamShipCount(slot0, slot1)
+	slot2 = 0
+
 	for slot6 = 1, 3 do
 		if slot1[slot6] then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 

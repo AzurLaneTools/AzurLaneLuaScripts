@@ -57,7 +57,7 @@ function setText(slot0, slot1)
 		return
 	end
 
-	slot0:GetComponent(typeof(Text)).text = tostring(slot1)
+	slot0.GetComponent(slot0, typeof(Text)).text = tostring(slot1)
 end
 
 function setTextEN(slot0, slot1)
@@ -65,7 +65,7 @@ function setTextEN(slot0, slot1)
 		return
 	end
 
-	slot0:GetComponent(typeof(Text)).text = tostring(splitByWordEN(slot1, slot0))
+	slot0.GetComponent(slot0, typeof(Text)).text = tostring(splitByWordEN(slot1, slot0))
 end
 
 function setBestFitTextEN(slot0, slot1, slot2)
@@ -96,11 +96,11 @@ function setTextFont(slot0, slot1)
 		return
 	end
 
-	slot0:GetComponent(typeof(Text)).font = slot1
+	slot0.GetComponent(slot0, typeof(Text)).font = slot1
 end
 
 function getText(slot0)
-	return slot0:GetComponent(typeof(Text)).text
+	return slot0.GetComponent(slot0, typeof(Text)).text
 end
 
 function setInputText(slot0, slot1)
@@ -108,11 +108,11 @@ function setInputText(slot0, slot1)
 		return
 	end
 
-	slot0:GetComponent(typeof(InputField)).text = slot1
+	slot0.GetComponent(slot0, typeof(InputField)).text = slot1
 end
 
 function getInputText(slot0)
-	return slot0:GetComponent(typeof(InputField)).text
+	return slot0.GetComponent(slot0, typeof(InputField)).text
 end
 
 function onInputEndEdit(slot0, slot1, slot2)
@@ -169,7 +169,7 @@ function onButton(slot0, slot1, slot2, slot3, slot4)
 end
 
 function removeOnButton(slot0)
-	if slot0:GetComponent(typeof(Button)) ~= nil then
+	if slot0.GetComponent(slot0, typeof(Button)) ~= nil then
 		slot1.onClick:RemoveAllListeners()
 	end
 end
@@ -217,7 +217,7 @@ function onToggle(slot0, slot1, slot2, slot3, slot4)
 	end)
 
 	if not IsNil(GetComponent(slot1, typeof(UIToggleEvent))) then
-		slot7:Rebind()
+		slot7.Rebind(slot7)
 	end
 end
 
@@ -250,7 +250,7 @@ end
 
 function eachChild(slot0, slot1)
 	for slot7 = tf(slot0).childCount - 1, 0, -1 do
-		slot1(slot2:GetChild(slot7))
+		slot1(slot2.GetChild(slot2, slot7))
 	end
 end
 
@@ -289,20 +289,20 @@ function onScroll(slot0, slot1, slot2)
 end
 
 function ClearEventTrigger(slot0)
-	slot0:RemovePointClickFunc()
-	slot0:RemovePointDownFunc()
-	slot0:RemovePointEnterFunc()
-	slot0:RemovePointExitFunc()
-	slot0:RemovePointUpFunc()
-	slot0:RemoveCheckDragFunc()
-	slot0:RemoveBeginDragFunc()
-	slot0:RemoveDragFunc()
-	slot0:RemoveDragEndFunc()
-	slot0:RemoveDropFunc()
-	slot0:RemoveScrollFunc()
-	slot0:RemoveSelectFunc()
-	slot0:RemoveUpdateSelectFunc()
-	slot0:RemoveMoveFunc()
+	slot0.RemovePointClickFunc(slot0)
+	slot0.RemovePointDownFunc(slot0)
+	slot0.RemovePointEnterFunc(slot0)
+	slot0.RemovePointExitFunc(slot0)
+	slot0.RemovePointUpFunc(slot0)
+	slot0.RemoveCheckDragFunc(slot0)
+	slot0.RemoveBeginDragFunc(slot0)
+	slot0.RemoveDragFunc(slot0)
+	slot0.RemoveDragEndFunc(slot0)
+	slot0.RemoveDropFunc(slot0)
+	slot0.RemoveScrollFunc(slot0)
+	slot0.RemoveSelectFunc(slot0)
+	slot0.RemoveUpdateSelectFunc(slot0)
+	slot0.RemoveMoveFunc(slot0)
 end
 
 function ClearLScrollrect(slot0)
@@ -313,7 +313,7 @@ function ClearLScrollrect(slot0)
 end
 
 function GetComponent(slot0, slot1)
-	return slot0:GetComponent(slot1)
+	return slot0.GetComponent(slot0, slot1)
 end
 
 function GetOrAddComponent(slot0, slot1)
@@ -323,7 +323,7 @@ function GetOrAddComponent(slot0, slot1)
 		slot2 = typeof(_G[slot1])
 	end
 
-	if slot0:GetComponent(slot2) ~= nil then
+	if slot0.GetComponent(slot0, slot2) ~= nil then
 		return slot3
 	else
 		return go(slot0):AddComponent(slot2)
@@ -331,7 +331,7 @@ function GetOrAddComponent(slot0, slot1)
 end
 
 function RemoveComponent(slot0, slot1)
-	if slot0:GetComponent(slot1) then
+	if slot0.GetComponent(slot0, slot1) then
 		if slot1 == "Button" then
 			RemoveComponent(slot0, "ButtonEventExtend")
 		end
@@ -341,7 +341,7 @@ function RemoveComponent(slot0, slot1)
 end
 
 function SetCompomentEnabled(slot0, slot1, slot2)
-	slot0:GetComponent(slot1).enabled = tobool(slot2)
+	slot0.GetComponent(slot0, slot1).enabled = tobool(slot2)
 end
 
 function GetInChildren(slot0, slot1)
@@ -355,7 +355,7 @@ function GetInChildren(slot0, slot1)
 		end
 
 		for slot5 = 0, slot0.childCount - 1 do
-			if slot1 == slot0:GetChild(slot5).name then
+			if slot1 == slot0.GetChild(slot0, slot5).name then
 				return slot6
 			end
 
@@ -431,18 +431,20 @@ function limitedParallelAsync(slot0, slot1, slot2)
 
 	slot6 = nil
 
+	function slot6()
+		uv0 = uv0 - 1
+
+		if uv0 == 0 then
+			uv1()
+		elseif uv2 + 1 <= uv3 then
+			uv2 = uv2 + 1
+
+			uv4[uv2](uv5)
+		end
+	end
+
 	for slot10 = 1, math.min(slot1, slot3) do
-		slot0[slot10](function ()
-			uv0 = uv0 - 1
-
-			if uv0 == 0 then
-				uv1()
-			elseif uv2 + 1 <= uv3 then
-				uv2 = uv2 + 1
-
-				uv4[uv2](uv5)
-			end
-		end)
+		slot0[slot10](slot6)
 	end
 end
 
@@ -458,7 +460,7 @@ function setImageSprite(slot0, slot1, slot2)
 	slot3.sprite = slot1
 
 	if slot2 then
-		slot3:SetNativeSize()
+		slot3.SetNativeSize(slot3)
 	end
 end
 
@@ -485,7 +487,7 @@ function string2vector3(slot0)
 end
 
 function getToggleState(slot0)
-	return slot0:GetComponent(typeof(Toggle)).isOn
+	return slot0.GetComponent(slot0, typeof(Toggle)).isOn
 end
 
 function setLocalPosition(slot0, slot1)
@@ -710,8 +712,10 @@ function addSlip(slot0, slot1, slot2, slot3, slot4)
 		uv1 = nil
 	end)
 	slot5:AddDragFunc(function (slot0, slot1)
+		slot2 = slot1.position
+
 		if not uv0 then
-			uv0 = slot1.position
+			uv0 = slot2
 		end
 
 		if uv1 == SLIP_TYPE_HRZ then

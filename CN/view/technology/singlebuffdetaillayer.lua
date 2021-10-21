@@ -137,12 +137,14 @@ function slot0.updateDetail(slot0)
 			slot5 = uv0:findTF("TypeText", slot2)
 			slot6 = uv0:findTF("AttrText", slot2)
 			slot7 = uv0:findTF("ValueText", slot2)
+			slot8 = uv0:findTF("BG", slot2)
+			slot9 = uv1[slot1 + 1]
 			slot10 = nil
 
 			if TechnologyConst.SHIP_LEVEL_FOR_BUFF <= uv0.maxLV then
-				slot10 = uv0.typeToColor[uv1[slot1 + 1]]
+				slot10 = uv0.typeToColor[slot9]
 
-				setGray(uv0:findTF("BG", slot2), false)
+				setGray(slot8, false)
 			else
 				slot10 = Color.New(0.6392156862745098, 0.6392156862745098, 0.6392156862745098, 1)
 

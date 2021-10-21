@@ -177,10 +177,11 @@ end
 
 function slot1.filterAssistantEvents(slot0, slot1, slot2)
 	slot3 = {}
+	slot4 = ShipWordHelper.GetMainSceneWordCnt(slot1, slot2 or 0)
 
 	for slot8, slot9 in ipairs(slot0) do
 		if string.split(uv0.assistantEvents[slot9].dialog, "_")[1] == "main" then
-			if tonumber(slot12[2]) <= ShipWordHelper.GetMainSceneWordCnt(slot1, slot2 or 0) then
+			if tonumber(slot12[2]) <= slot4 then
 				table.insert(slot3, slot9)
 			end
 		else

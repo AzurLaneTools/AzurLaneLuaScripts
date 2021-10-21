@@ -13,7 +13,10 @@ function slot0.execute(slot0, slot1)
 	end
 
 	print("63301 meta repair:", slot3, slot9.id)
-	pg.ConnectionMgr.GetInstance():Send(63301, {
+
+	slot14 = pg.ConnectionMgr.GetInstance()
+
+	slot14:Send(63301, {
 		ship_id = slot3,
 		repair_id = slot9.id
 	}, 63302, function (slot0)

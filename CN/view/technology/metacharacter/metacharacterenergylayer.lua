@@ -355,13 +355,14 @@ function slot0.updatePreviewAttrListPanel(slot0)
 
 	slot0.previewAttrUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot5 = uv0:findTF("AddValueText", slot2)
 			slot6 = uv1[slot1 + 1]
 
 			setImageSprite(uv0:findTF("AttrIcon", slot2), LoadSprite("attricon", slot6))
 			setText(uv0:findTF("NameText", slot2), AttributeType.Type2Name(slot6))
 
 			if slot6 == AttributeType.ArmorType then
-				setText(uv0:findTF("AddValueText", slot2), uv2:getShipArmorName())
+				setText(slot5, uv2:getShipArmorName())
 			else
 				setText(slot5, uv3[slot6] or 0)
 			end
@@ -473,13 +474,21 @@ function slot0.getAllWeaponIds(slot0)
 end
 
 function slot0.showBarrage(slot0)
-	slot1 = slot0.bayProxy:getShipById(slot0.curMetaShipID)
+	slot1 = slot0.bayProxy
+	slot1 = slot1:getShipById(slot0.curMetaShipID)
 	slot2 = slot1:getMetaCharacter()
 	slot0.previewer = WeaponPreviewer.New(slot0.rawImage)
+	slot3 = slot0.previewer
 
-	slot0.previewer:configUI(slot0.healTF)
-	slot0.previewer:setDisplayWeapon(slot0:getWaponIdsById(slot0.breakOutId))
-	slot0.previewer:load(40000, slot1, slot0:getAllWeaponIds(), function ()
+	slot3:configUI(slot0.healTF)
+
+	slot3 = slot0.previewer
+
+	slot3:setDisplayWeapon(slot0:getWaponIdsById(slot0.breakOutId))
+
+	slot3 = slot0.previewer
+
+	slot3:load(40000, slot1, slot0:getAllWeaponIds(), function ()
 		uv0:stopLoadingAni()
 	end)
 end

@@ -148,8 +148,10 @@ function slot0.MVC.Facade.ActiveAutoComponentTimer(slot0)
 end
 
 function slot0.MVC.Facade.calcUpdate(slot0)
+	slot1 = uv0.TimeMgr.GetInstance():GetCombatTime()
+
 	for slot5, slot6 in pairs(slot0._proxyList) do
-		slot6:Update(uv0.TimeMgr.GetInstance():GetCombatTime())
+		slot6:Update(slot1)
 	end
 
 	for slot5, slot6 in pairs(slot0._commandList) do

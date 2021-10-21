@@ -7,7 +7,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot3.moneyItem.type == DROP_TYPE_RESOURCE and getProxy(PlayerProxy):getRawData()[id2res(slot5.id)] < slot5.count then
+	slot4 = getProxy(PlayerProxy)
+
+	if slot3.moneyItem.type == DROP_TYPE_RESOURCE and slot4:getRawData()[id2res(slot5.id)] < slot5.count then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", pg.item_data_statistics[id2ItemId(slot5.id)].name))
 	end
 
@@ -17,7 +19,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(33403, {
+	slot9 = pg.ConnectionMgr.GetInstance()
+
+	slot9:Send(33403, {
 		shop_id = slot3.id
 	}, 33404, function (slot0)
 		if slot0.result == 0 then

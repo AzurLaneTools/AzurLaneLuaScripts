@@ -105,7 +105,8 @@ function slot0.didEnter(slot0)
 	slot0.toggleIndex = -1
 
 	for slot4, slot5 in ipairs(uv1) do
-		slot0.toggles[slot4] = slot0.lay:Find("frame/scroll_rect/tagRoot/" .. slot5 .. "_btn")
+		slot7 = slot0.lay
+		slot0.toggles[slot4] = slot7:Find("frame/scroll_rect/tagRoot/" .. slot5 .. "_btn")
 
 		onToggle(slot0, slot0.toggles[slot4], function (slot0)
 			slot1 = uv0.toggleIndex == -1
@@ -228,34 +229,37 @@ function slot0.Flush(slot0, slot1)
 		slot0.labelShipNums.text = slot0.eventProxy.maxFleetNums - slot0.eventProxy.busyFleetNums .. "/" .. slot0.eventProxy.maxFleetNums
 
 		if slot0.eventProxy.selectedEvent then
+			function slot2()
+				slot0 = uv0.eventProxy.selectedEvent.id
+				slot1 = 1
+
+				for slot5, slot6 in ipairs(uv0.eventList) do
+					if slot6.id == slot0 then
+						slot1 = slot5
+
+						break
+					end
+				end
+
+				uv0.scrollRect:ScrollTo(uv0.scrollRect:HeadIndexToValue(slot1 - 1))
+
+				for slot6, slot7 in pairs(uv0.scrollItems) do
+					if slot7.event and slot7.event.id == slot0 then
+						uv0.selectedItem = slot7
+
+						uv0:showDetail()
+
+						break
+					end
+				end
+
+				uv0.eventProxy.selectedEvent = nil
+
+				pg.UIMgr.GetInstance():LoadingOff()
+			end
+
 			if slot0.scrollRect.isStart then
-				(function ()
-					slot1 = 1
-
-					for slot5, slot6 in ipairs(uv0.eventList) do
-						if slot6.id == uv0.eventProxy.selectedEvent.id then
-							slot1 = slot5
-
-							break
-						end
-					end
-
-					uv0.scrollRect:ScrollTo(uv0.scrollRect:HeadIndexToValue(slot1 - 1))
-
-					for slot6, slot7 in pairs(uv0.scrollItems) do
-						if slot7.event and slot7.event.id == slot0 then
-							uv0.selectedItem = slot7
-
-							uv0:showDetail()
-
-							break
-						end
-					end
-
-					uv0.eventProxy.selectedEvent = nil
-
-					pg.UIMgr.GetInstance():LoadingOff()
-				end)()
+				slot2()
 			else
 				slot0.scrollRect.onStart = slot2
 
@@ -386,16 +390,21 @@ end
 
 function slot0.easeInDetail(slot0, slot1)
 	slot3 = 0.3
+	slot4 = slot0.mask.gameObject
 
-	slot0.mask.gameObject:SetActive(true)
+	slot4:SetActive(true)
 
 	slot0.scrollRect.enabled = false
 	slot4 = slot0.scrollRect.transform
 	slot5 = slot0.scrollRect.content
-
-	LeanTween.value(slot5.gameObject, slot0.scrollRect.value, slot0.scrollRect:HeadIndexToValue(slot0.selectedItem.index), 0.3 * math.abs(slot4.rect.yMax - slot5.localPosition.y - slot0.selectedItem.tr.localPosition.y) / slot4.rect.height):setEase(LeanTweenType.easeInOutCirc):setOnUpdate(System.Action_float(function (slot0)
+	slot9 = slot0.scrollRect
+	slot10 = LeanTween.value(slot5.gameObject, slot0.scrollRect.value, slot9:HeadIndexToValue(slot0.selectedItem.index), 0.3 * math.abs(slot4.rect.yMax - slot5.localPosition.y - slot0.selectedItem.tr.localPosition.y) / slot4.rect.height)
+	slot10 = slot10:setEase(LeanTweenType.easeInOutCirc)
+	slot10 = slot10:setOnUpdate(System.Action_float(function (slot0)
 		uv0.scrollRect:SetNormalizedPosition(slot0, 1)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot10:setOnComplete(System.Action(function ()
 		slot0 = uv0.scrollItem.tr.localPosition
 		slot0.y = uv1 + uv2.localPosition.y
 		uv0.scrollItem.tr.localPosition = slot0
@@ -459,7 +468,10 @@ function slot0.easeOutDetail(slot0, slot1)
 		shiftPanel(slot12, nil, slot12.localPosition.y + slot3, slot2, 0, true):setEase(LeanTweenType.easeInOutCirc)
 	end
 
-	shiftPanel(slot0.detailPanel.go, nil, 129, slot2, 0, true):setEase(LeanTweenType.easeInOutCirc):setOnComplete(System.Action(function ()
+	slot8 = shiftPanel(slot0.detailPanel.go, nil, 129, slot2, 0, true)
+	slot8 = slot8:setEase(LeanTweenType.easeInOutCirc)
+
+	slot8:setOnComplete(System.Action(function ()
 		for slot3, slot4 in ipairs(uv0) do
 			slot4:GetComponent(typeof(LayoutElement)).ignoreLayout = uv1.rawLayouts[slot4] or false
 		end
@@ -567,13 +579,12 @@ end
 function slot0.updateBtnTip(slot0)
 	slot1 = {
 		false,
-		[slot6.template.type] = true,
 		slot0.eventProxy:checkNightEvent()
 	}
 
 	for slot5, slot6 in ipairs(slot0.eventProxy.eventList) do
 		if slot6.state == EventInfo.StateFinish then
-			-- Nothing
+			slot1[slot6.template.type] = true
 		end
 	end
 

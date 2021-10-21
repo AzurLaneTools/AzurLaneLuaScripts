@@ -22,11 +22,21 @@ end
 
 function slot0.Setup(slot0, slot1, slot2)
 	slot0.cell = slot1
+	slot3 = slot0.cell
 
-	slot0.cell:AddListener(WorldMapCell.EventUpdateInFov, slot0.onUpdate)
-	slot0.cell:AddListener(WorldMapCell.EventAddAttachment, slot0.onAddAttachment)
-	slot0.cell:AddListener(WorldMapCell.EventRemoveAttachment, slot0.onRemoveAttachment)
-	slot0.cell:AddListener(WorldMapCell.EventUpdateFog, slot0.onUpdate)
+	slot3:AddListener(WorldMapCell.EventUpdateInFov, slot0.onUpdate)
+
+	slot3 = slot0.cell
+
+	slot3:AddListener(WorldMapCell.EventAddAttachment, slot0.onAddAttachment)
+
+	slot3 = slot0.cell
+
+	slot3:AddListener(WorldMapCell.EventRemoveAttachment, slot0.onRemoveAttachment)
+
+	slot3 = slot0.cell
+
+	slot3:AddListener(WorldMapCell.EventUpdateFog, slot0.onUpdate)
 	_.each(slot0.cell.attachments, function (slot0)
 		uv0:OnAddAttachment(nil, uv0.cell, slot0)
 	end)

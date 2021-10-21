@@ -62,9 +62,10 @@ end
 function slot0.metaShip2Res(slot0)
 	slot4 = getProxy(BayProxy):getMetaShipByGroupId(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot0)):getMetaCharacter():getSpecialMaterialInfoToMaxStar()
 	slot9 = nil
+	slot9 = (not (slot4.count <= getProxy(BagProxy):getItemCountById(slot4.itemID)) or pg.ship_transform[slot1].common_item) and pg.ship_transform[slot1].exclusive_item
 	slot10 = {}
 
-	for slot14, slot15 in ipairs((not (slot4.count <= getProxy(BagProxy):getItemCountById(slot4.itemID)) or pg.ship_transform[slot1].common_item) and pg.ship_transform[slot1].exclusive_item) do
+	for slot14, slot15 in ipairs(slot9) do
 		table.insert(slot10, {
 			type = slot15[1],
 			id = slot15[2],
@@ -121,19 +122,31 @@ function slot0.Ctor(slot0, slot1)
 	slot3 = getProxy(AppreciateProxy)
 
 	if slot1.appreciation then
-		for slot7, slot8 in ipairs(slot1.appreciation.gallerys or {}) do
+		slot4 = ipairs
+		slot5 = slot1.appreciation.gallerys or {}
+
+		for slot7, slot8 in slot4(slot5) do
 			slot3:addPicIDToUnlockList(slot8)
 		end
 
-		for slot7, slot8 in ipairs(slot1.appreciation.musics or {}) do
+		slot4 = ipairs
+		slot5 = slot1.appreciation.musics or {}
+
+		for slot7, slot8 in slot4(slot5) do
 			slot3:addMusicIDToUnlockList(slot8)
 		end
 
-		for slot7, slot8 in ipairs(slot1.appreciation.favor_gallerys or {}) do
+		slot4 = ipairs
+		slot5 = slot1.appreciation.favor_gallerys or {}
+
+		for slot7, slot8 in slot4(slot5) do
 			slot3:addPicIDToLikeList(slot8)
 		end
 
-		for slot7, slot8 in ipairs(slot1.appreciation.favor_musics or {}) do
+		slot4 = ipairs
+		slot5 = slot1.appreciation.favor_musics or {}
+
+		for slot7, slot8 in slot4(slot5) do
 			slot3:addMusicIDToLikeList(slot8)
 		end
 
@@ -155,21 +168,27 @@ function slot0.Ctor(slot0, slot1)
 	end
 
 	slot0.cdList = {}
+	slot4 = ipairs
+	slot5 = slot1.cd_list or {}
 
-	for slot7, slot8 in ipairs(slot1.cd_list or {}) do
+	for slot7, slot8 in slot4(slot5) do
 		slot0.cdList[slot8.key] = slot8.timestamp
 	end
 
 	slot0.commonFlagList = {}
+	slot4 = ipairs
+	slot5 = slot1.flag_list or {}
 
-	for slot7, slot8 in ipairs(slot1.flag_list or {}) do
+	for slot7, slot8 in slot4(slot5) do
 		slot0.commonFlagList[slot8] = true
 	end
 
 	slot0.registerTime = slot1.register_time
 	slot0.vipCards = {}
+	slot4 = ipairs
+	slot5 = slot1.card_list or {}
 
-	for slot7, slot8 in ipairs(slot1.card_list or {}) do
+	for slot7, slot8 in slot4(slot5) do
 		slot9 = VipCard.New(slot8)
 		slot0.vipCards[slot9.id] = slot9
 	end
@@ -267,7 +286,10 @@ function slot0.updateResources(slot0, slot1)
 		end
 	end
 
-	for slot5, slot6 in ipairs(slot1 or {}) do
+	slot2 = ipairs
+	slot3 = slot1 or {}
+
+	for slot5, slot6 in slot2(slot3) do
 		if id2res(slot6.type) == "gem" then
 			slot0.chargeGem = slot6.num
 		elseif slot7 == "freeGem" then
@@ -293,10 +315,11 @@ end
 function slot0.getChargeLevel(slot0)
 	slot1 = pg.pay_level_award
 	slot2 = slot1.all[1]
+	slot3 = slot1.all[#slot1.all]
 
 	for slot7, slot8 in ipairs(slot1.all) do
 		if slot1[slot8].exp <= slot0.chargeExp then
-			slot2 = math.min(slot8 + 1, slot1.all[#slot1.all])
+			slot2 = math.min(slot8 + 1, slot3)
 		end
 	end
 

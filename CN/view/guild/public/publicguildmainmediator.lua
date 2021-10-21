@@ -28,8 +28,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.PUBLIC_GUILD_COMMIT_DONATE_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards)
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 		slot0.viewComponent:OnUpdateDonateList()
 	elseif slot2 == GAME.PUBLIC_GUILD_REFRESH_DONATE_LIST_DONE then
 		slot0.viewComponent:OnUpdateDonateList()

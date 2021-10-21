@@ -5,7 +5,9 @@ function slot0.execute(slot0, slot1)
 	slot3 = getProxy(FriendProxy)
 
 	function slot5(slot0)
-		pg.ConnectionMgr.GetInstance():Send(50006, {
+		slot1 = pg.ConnectionMgr.GetInstance()
+
+		slot1:Send(50006, {
 			id = uv0
 		}, 50007, function (slot0)
 			if slot0.result == 0 then

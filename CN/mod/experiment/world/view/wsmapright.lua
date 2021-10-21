@@ -211,7 +211,10 @@ function slot0.UpdateExit(slot0)
 end
 
 function slot0.OnUpdateInfoBtnTip(slot0)
-	setActive(slot0.btnInformation:Find("tip"), _.any(slot0.taskProxy:getTaskVOs(), function (slot0)
+	slot2 = slot0.taskProxy
+	slot3 = slot0.btnInformation
+
+	setActive(slot3:Find("tip"), _.any(slot2:getTaskVOs(), function (slot0)
 		return slot0:getState() == WorldTask.STATE_FINISHED
 	end))
 end

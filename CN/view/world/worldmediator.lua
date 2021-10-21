@@ -26,8 +26,10 @@ function slot0.register(slot0)
 		uv0:addSubLayers(slot1, false, slot2)
 	end)
 	slot0:bind(uv0.OnOpenScene, function (slot0, slot1, ...)
+		slot2 = {}
+
 		if uv0.viewComponent:GetInMap() then
-			table.insert({}, function (slot0)
+			table.insert(slot2, function (slot0)
 				uv0.viewComponent:EaseOutMapUI(slot0)
 			end)
 		else
@@ -48,8 +50,10 @@ function slot0.register(slot0)
 		end)
 	end)
 	slot0:bind(uv0.OnChangeScene, function (slot0, slot1, ...)
+		slot2 = {}
+
 		if uv0.viewComponent:GetInMap() then
-			table.insert({}, function (slot0)
+			table.insert(slot2, function (slot0)
 				uv0.viewComponent:EaseOutMapUI(slot0)
 			end)
 		else
@@ -97,7 +101,9 @@ function slot0.register(slot0)
 end
 
 function slot0.listNotificationInterests(slot0)
-	_.each(WorldGuider.GetInstance():GetWorldGuiderNotifies(), function (slot0)
+	slot2 = WorldGuider.GetInstance()
+
+	_.each(slot2:GetWorldGuiderNotifies(), function (slot0)
 		uv0[#uv0 + 1] = slot0
 	end)
 
@@ -130,8 +136,10 @@ function slot0.handleNotification(slot0, slot1)
 	slot4 = nowWorld
 
 	if slot2 == GAME.WORLD_MAP_OP_DONE then
+		slot6 = slot0.viewComponent:GetCommand(slot3.mapOp.depth)
+
 		if slot3.result ~= 0 then
-			slot0.viewComponent:GetCommand(slot3.mapOp.depth):OpDone()
+			slot6:OpDone()
 
 			if slot3.result == 130 then
 				nowWorld.staminaMgr:Show()
@@ -147,10 +155,12 @@ function slot0.handleNotification(slot0, slot1)
 
 		if #slot5.drops > 0 then
 			if slot5.op == WorldConst.OpReqCatSalvage then
+				slot9 = nowWorld:GetFleet(slot5.id):GetSalvageScoreRarity()
+
 				if nowWorld.isAutoFight then
 					nowWorld:AddAutoInfo("salvage", {
 						drops = slot5.drops,
-						rarity = nowWorld:GetFleet(slot5.id):GetSalvageScoreRarity()
+						rarity = slot9
 					})
 				else
 					table.insert(slot7, function (slot0)
@@ -213,8 +223,10 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.WORLD_TRIGGER_TASK_DONE then
 		pg.WorldToastMgr.GetInstance():ShowToast(slot3.task, false)
 	elseif slot2 == GAME.WORLD_SUMBMIT_TASK_DONE then
+		slot5 = {}
+
 		if #slot3.task.config.task_ed > 0 then
-			table.insert({}, function (slot0)
+			table.insert(slot5, function (slot0)
 				pg.NewStoryMgr.GetInstance():Play(uv0.config.task_ed, slot0, true)
 			end)
 		end
@@ -243,8 +255,10 @@ function slot0.handleNotification(slot0, slot1)
 			pg.WorldToastMgr.GetInstance():ShowToast(uv0, true)
 		end)
 	elseif slot2 == GAME.WORLD_AUTO_SUMBMIT_TASK_DONE then
+		slot5 = {}
+
 		if #slot3.task.config.task_ed > 0 then
-			table.insert({}, function (slot0)
+			table.insert(slot5, function (slot0)
 				pg.NewStoryMgr.GetInstance():Play(uv0.config.task_ed, slot0, true)
 			end)
 		end
@@ -323,8 +337,10 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == uv0.OnTriggerTaskGo then
 		slot0.viewComponent:Op("OpTaskGoto", slot3.taskId)
 	elseif slot2 == GAME.WORLD_MAP_REQ_DONE then
+		slot5 = slot0.viewComponent:GetCommand()
+
 		if slot3.result == 0 then
-			slot0.viewComponent:GetCommand():OpDone("OpFetchMapDone")
+			slot5:OpDone("OpFetchMapDone")
 		else
 			slot5:OpDone()
 		end

@@ -5508,12 +5508,22 @@ _G.pg.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "       机动：角色的回避概率",
+			info = "       机动：影响角色的回避概率和被暴击率",
 			icon = {
 				path = "dodge",
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.6,
+				posX = 0
+			}
+		},
+		{
+			info = "       命中：影响角色攻击的命中概率和暴击率",
+			icon = {
+				path = "hit",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.3,
 				posX = 0
 			}
 		},
@@ -9627,15 +9637,15 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "俾斯麦、英王乔治五世 建造追加！"
+	tip = "加斯科涅（μ兵装）、希佩尔海军上将（μ兵装） 建造追加！"
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "{namecode:147} 建造追加！"
+	tip = "克利夫兰（μ兵装） 建造追加！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
-	tip = "U-96、U-556、U-73 建造追加！"
+	tip = "{namecode:176} 建造追加！"
 }
 
 _G.pg.gametip.open_skill_pos = {
@@ -18004,6 +18014,10 @@ _G.pg.gametip.breakout_tip_ultimatebonus_torpedo = {
 
 _G.pg.gametip.breakout_tip_ultimatebonus_aux = {
 	tip = "设备提供的基础属性额外提高30%"
+}
+
+_G.pg.gametip.map_event_lighthouse_tip_1 = {
+	tip = "灯塔已点亮，后续战斗中将获得灯塔照明效果"
 }
 
 _G.pg.gametip.battlepass_main_tip = {

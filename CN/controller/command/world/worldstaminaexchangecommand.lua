@@ -3,9 +3,11 @@ slot0 = class("WorldStaminaExchangeCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = getProxy(PlayerProxy)
-	slot5, slot6, slot7, slot8 = nowWorld.staminaMgr:GetExchangeData()
+	slot4 = nowWorld.staminaMgr
+	slot5, slot6, slot7, slot8 = slot4:GetExchangeData()
+	slot9 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(33108, {
+	slot9:Send(33108, {
 		type = 1
 	}, 33109, function (slot0)
 		if slot0.result == 0 then

@@ -9,14 +9,21 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.textTitle = slot0._tf:Find("title/Text")
-	slot0.btnBG = slot0._tf:Find("bg")
-	slot0.itemContent = slot0._tf:Find("award_list/content")
-	slot0.itemList = UIItemList.New(slot0.itemContent, slot0.itemContent:Find("item"))
+	slot1 = slot0._tf
+	slot0.textTitle = slot1:Find("title/Text")
+	slot1 = slot0._tf
+	slot0.btnBG = slot1:Find("bg")
+	slot1 = slot0._tf
+	slot0.itemContent = slot1:Find("award_list/content")
+	slot3 = slot0.itemContent
+	slot0.itemList = UIItemList.New(slot0.itemContent, slot3:Find("item"))
+	slot1 = slot0.itemList
 
-	slot0.itemList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0.awards[slot1 + 1]
+			slot3 = uv0.awards[slot1]
 			slot4 = not uv0.nextStar or slot3.star < uv0.nextStar
 			slot5 = uv0.nextStar and slot3.star == uv0.nextStar
 			slot6 = uv0.nextStar and uv0.nextStar < slot3.star

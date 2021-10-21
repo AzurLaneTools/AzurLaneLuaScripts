@@ -6150,7 +6150,9 @@ _G.pg.equip_data_statistics[960] = {
 	},
 	weapon_id = {},
 	skill_id = {},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {
 		2,
 		3,
@@ -6182,80 +6184,70 @@ _G.pg.equip_data_statistics[961] = {
 	id = 961,
 	value_2 = 9,
 	value_1 = "12",
-	base = 960,
-	hidden_skill_id = {}
+	base = 960
 }
 
 _G.pg.equip_data_statistics[962] = {
 	id = 962,
 	value_2 = 10,
 	value_1 = "13",
-	base = 960,
-	hidden_skill_id = {}
+	base = 960
 }
 
 _G.pg.equip_data_statistics[963] = {
 	id = 963,
 	value_2 = 12,
 	value_1 = "15",
-	base = 960,
-	hidden_skill_id = {}
+	base = 960
 }
 
 _G.pg.equip_data_statistics[964] = {
 	id = 964,
 	value_2 = 14,
 	value_1 = "17",
-	base = 960,
-	hidden_skill_id = {}
+	base = 960
 }
 
 _G.pg.equip_data_statistics[965] = {
 	id = 965,
 	value_2 = 16,
 	value_1 = "19",
-	base = 960,
-	hidden_skill_id = {}
+	base = 960
 }
 
 _G.pg.equip_data_statistics[966] = {
 	id = 966,
 	value_2 = 18,
 	value_1 = "21",
-	base = 960,
-	hidden_skill_id = {}
+	base = 960
 }
 
 _G.pg.equip_data_statistics[967] = {
 	id = 967,
 	value_2 = 20,
 	value_1 = "23",
-	base = 960,
-	hidden_skill_id = {}
+	base = 960
 }
 
 _G.pg.equip_data_statistics[968] = {
 	id = 968,
 	value_2 = 22,
 	value_1 = "25",
-	base = 960,
-	hidden_skill_id = {}
+	base = 960
 }
 
 _G.pg.equip_data_statistics[969] = {
 	id = 969,
 	value_2 = 24,
 	value_1 = "27",
-	base = 960,
-	hidden_skill_id = {}
+	base = 960
 }
 
 _G.pg.equip_data_statistics[970] = {
 	id = 970,
 	value_2 = 26,
 	value_1 = "29",
-	base = 960,
-	hidden_skill_id = {}
+	base = 960
 }
 
 _G.pg.equip_data_statistics[971] = {
@@ -6263,8 +6255,7 @@ _G.pg.equip_data_statistics[971] = {
 	anti_siren = 100,
 	base = 960,
 	id = 971,
-	value_1 = "31",
-	hidden_skill_id = {}
+	value_1 = "31"
 }
 
 _G.pg.equip_data_statistics[972] = {
@@ -6272,8 +6263,7 @@ _G.pg.equip_data_statistics[972] = {
 	anti_siren = 200,
 	base = 960,
 	id = 972,
-	value_1 = "33",
-	hidden_skill_id = {}
+	value_1 = "33"
 }
 
 _G.pg.equip_data_statistics[973] = {
@@ -6281,8 +6271,7 @@ _G.pg.equip_data_statistics[973] = {
 	anti_siren = 300,
 	base = 960,
 	id = 973,
-	value_1 = "35",
-	hidden_skill_id = {}
+	value_1 = "35"
 }
 
 _G.pg.equip_data_statistics[1000] = {
@@ -6632,7 +6621,9 @@ _G.pg.equip_data_statistics[1100] = {
 	},
 	weapon_id = {},
 	skill_id = {},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {},
 	part_sub = {},
 	equip_parameters = {},
@@ -6645,22 +6636,19 @@ _G.pg.equip_data_statistics[1100] = {
 _G.pg.equip_data_statistics[1101] = {
 	id = 1101,
 	value_1 = "11",
-	base = 1100,
-	hidden_skill_id = {}
+	base = 1100
 }
 
 _G.pg.equip_data_statistics[1102] = {
 	id = 1102,
 	value_1 = "13",
-	base = 1100,
-	hidden_skill_id = {}
+	base = 1100
 }
 
 _G.pg.equip_data_statistics[1103] = {
 	id = 1103,
 	value_1 = "14",
-	base = 1100,
-	hidden_skill_id = {}
+	base = 1100
 }
 
 _G.pg.equip_data_statistics[1120] = {
@@ -6687,7 +6675,9 @@ _G.pg.equip_data_statistics[1120] = {
 	},
 	weapon_id = {},
 	skill_id = {},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {},
 	part_sub = {},
 	equip_parameters = {},
@@ -6700,43 +6690,37 @@ _G.pg.equip_data_statistics[1120] = {
 _G.pg.equip_data_statistics[1121] = {
 	id = 1121,
 	value_1 = "20",
-	base = 1120,
-	hidden_skill_id = {}
+	base = 1120
 }
 
 _G.pg.equip_data_statistics[1122] = {
 	id = 1122,
 	value_1 = "23",
-	base = 1120,
-	hidden_skill_id = {}
+	base = 1120
 }
 
 _G.pg.equip_data_statistics[1123] = {
 	id = 1123,
 	value_1 = "26",
-	base = 1120,
-	hidden_skill_id = {}
+	base = 1120
 }
 
 _G.pg.equip_data_statistics[1124] = {
 	id = 1124,
 	value_1 = "28",
-	base = 1120,
-	hidden_skill_id = {}
+	base = 1120
 }
 
 _G.pg.equip_data_statistics[1125] = {
 	id = 1125,
 	value_1 = "31",
-	base = 1120,
-	hidden_skill_id = {}
+	base = 1120
 }
 
 _G.pg.equip_data_statistics[1126] = {
 	id = 1126,
 	value_1 = "34",
-	base = 1120,
-	hidden_skill_id = {}
+	base = 1120
 }
 
 _G.pg.equip_data_statistics[1140] = {
@@ -6763,7 +6747,9 @@ _G.pg.equip_data_statistics[1140] = {
 	},
 	weapon_id = {},
 	skill_id = {},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {},
 	part_sub = {},
 	equip_parameters = {},
@@ -6776,79 +6762,68 @@ _G.pg.equip_data_statistics[1140] = {
 _G.pg.equip_data_statistics[1141] = {
 	id = 1141,
 	value_1 = "32",
-	base = 1140,
-	hidden_skill_id = {}
+	base = 1140
 }
 
 _G.pg.equip_data_statistics[1142] = {
 	id = 1142,
 	value_1 = "36",
-	base = 1140,
-	hidden_skill_id = {}
+	base = 1140
 }
 
 _G.pg.equip_data_statistics[1143] = {
 	id = 1143,
 	value_1 = "40",
-	base = 1140,
-	hidden_skill_id = {}
+	base = 1140
 }
 
 _G.pg.equip_data_statistics[1144] = {
 	id = 1144,
 	value_1 = "44",
-	base = 1140,
-	hidden_skill_id = {}
+	base = 1140
 }
 
 _G.pg.equip_data_statistics[1145] = {
 	id = 1145,
 	value_1 = "49",
-	base = 1140,
-	hidden_skill_id = {}
+	base = 1140
 }
 
 _G.pg.equip_data_statistics[1146] = {
 	id = 1146,
 	value_1 = "53",
-	base = 1140,
-	hidden_skill_id = {}
+	base = 1140
 }
 
 _G.pg.equip_data_statistics[1147] = {
 	id = 1147,
 	value_1 = "57",
-	base = 1140,
-	hidden_skill_id = {}
+	base = 1140
 }
 
 _G.pg.equip_data_statistics[1148] = {
 	id = 1148,
 	value_1 = "61",
-	base = 1140,
-	hidden_skill_id = {}
+	base = 1140
 }
 
 _G.pg.equip_data_statistics[1149] = {
 	id = 1149,
 	value_1 = "65",
-	base = 1140,
-	hidden_skill_id = {}
+	base = 1140
 }
 
 _G.pg.equip_data_statistics[1150] = {
 	id = 1150,
 	value_1 = "70",
-	base = 1140,
-	hidden_skill_id = {}
+	base = 1140
 }
 
 _G.pg.equip_data_statistics[1151] = {
 	id = 1151,
 	anti_siren = 100,
 	value_1 = "75",
-	base = 1140,
-	hidden_skill_id = {}
+	base = 1140
 }
 
 _G.pg.equip_data_statistics[1160] = {
@@ -6877,7 +6852,9 @@ _G.pg.equip_data_statistics[1160] = {
 	skill_id = {
 		6280
 	},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {},
 	part_sub = {},
 	equip_parameters = {
@@ -6892,95 +6869,82 @@ _G.pg.equip_data_statistics[1160] = {
 _G.pg.equip_data_statistics[1161] = {
 	id = 1161,
 	value_1 = "46",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1162] = {
 	id = 1162,
 	value_1 = "52",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1163] = {
 	id = 1163,
 	value_1 = "58",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1164] = {
 	id = 1164,
 	value_1 = "64",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1165] = {
 	id = 1165,
 	value_1 = "70",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1166] = {
 	id = 1166,
 	value_1 = "76",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1167] = {
 	id = 1167,
 	value_1 = "82",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1168] = {
 	id = 1168,
 	value_1 = "88",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1169] = {
 	id = 1169,
 	value_1 = "94",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1170] = {
 	id = 1170,
 	value_1 = "100",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1171] = {
 	id = 1171,
 	anti_siren = 100,
 	value_1 = "106",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1172] = {
 	id = 1172,
 	anti_siren = 200,
 	value_1 = "112",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1173] = {
 	id = 1173,
 	anti_siren = 300,
 	value_1 = "118",
-	base = 1160,
-	hidden_skill_id = {}
+	base = 1160
 }
 
 _G.pg.equip_data_statistics[1200] = {
@@ -7008,7 +6972,9 @@ _G.pg.equip_data_statistics[1200] = {
 	},
 	weapon_id = {},
 	skill_id = {},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {
 		3,
 		4,
@@ -7037,23 +7003,20 @@ _G.pg.equip_data_statistics[1200] = {
 _G.pg.equip_data_statistics[1201] = {
 	id = 1201,
 	value_1 = "4",
-	base = 1200,
-	hidden_skill_id = {}
+	base = 1200
 }
 
 _G.pg.equip_data_statistics[1202] = {
 	id = 1202,
 	value_1 = "4",
-	base = 1200,
-	hidden_skill_id = {}
+	base = 1200
 }
 
 _G.pg.equip_data_statistics[1203] = {
 	id = 1203,
 	value_2 = 4,
 	value_1 = "5",
-	base = 1200,
-	hidden_skill_id = {}
+	base = 1200
 }
 
 _G.pg.equip_data_statistics[1220] = {
@@ -7081,7 +7044,9 @@ _G.pg.equip_data_statistics[1220] = {
 	},
 	weapon_id = {},
 	skill_id = {},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {
 		3,
 		4,
@@ -7111,48 +7076,42 @@ _G.pg.equip_data_statistics[1221] = {
 	id = 1221,
 	value_2 = 6,
 	value_1 = "7",
-	base = 1220,
-	hidden_skill_id = {}
+	base = 1220
 }
 
 _G.pg.equip_data_statistics[1222] = {
 	id = 1222,
 	value_2 = 7,
 	value_1 = "8",
-	base = 1220,
-	hidden_skill_id = {}
+	base = 1220
 }
 
 _G.pg.equip_data_statistics[1223] = {
 	id = 1223,
 	value_2 = 7,
 	value_1 = "9",
-	base = 1220,
-	hidden_skill_id = {}
+	base = 1220
 }
 
 _G.pg.equip_data_statistics[1224] = {
 	id = 1224,
 	value_2 = 8,
 	value_1 = "10",
-	base = 1220,
-	hidden_skill_id = {}
+	base = 1220
 }
 
 _G.pg.equip_data_statistics[1225] = {
 	id = 1225,
 	value_2 = 9,
 	value_1 = "11",
-	base = 1220,
-	hidden_skill_id = {}
+	base = 1220
 }
 
 _G.pg.equip_data_statistics[1226] = {
 	id = 1226,
 	value_2 = 10,
 	value_1 = "11",
-	base = 1220,
-	hidden_skill_id = {}
+	base = 1220
 }
 
 _G.pg.equip_data_statistics[1240] = {
@@ -7180,7 +7139,9 @@ _G.pg.equip_data_statistics[1240] = {
 	},
 	weapon_id = {},
 	skill_id = {},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {
 		3,
 		4,
@@ -7210,80 +7171,70 @@ _G.pg.equip_data_statistics[1241] = {
 	id = 1241,
 	value_2 = 9,
 	value_1 = "11",
-	base = 1240,
-	hidden_skill_id = {}
+	base = 1240
 }
 
 _G.pg.equip_data_statistics[1242] = {
 	id = 1242,
 	value_2 = 10,
 	value_1 = "12",
-	base = 1240,
-	hidden_skill_id = {}
+	base = 1240
 }
 
 _G.pg.equip_data_statistics[1243] = {
 	id = 1243,
 	value_2 = 12,
 	value_1 = "14",
-	base = 1240,
-	hidden_skill_id = {}
+	base = 1240
 }
 
 _G.pg.equip_data_statistics[1244] = {
 	id = 1244,
 	value_2 = 13,
 	value_1 = "15",
-	base = 1240,
-	hidden_skill_id = {}
+	base = 1240
 }
 
 _G.pg.equip_data_statistics[1245] = {
 	id = 1245,
 	value_2 = 14,
 	value_1 = "17",
-	base = 1240,
-	hidden_skill_id = {}
+	base = 1240
 }
 
 _G.pg.equip_data_statistics[1246] = {
 	id = 1246,
 	value_2 = 15,
 	value_1 = "18",
-	base = 1240,
-	hidden_skill_id = {}
+	base = 1240
 }
 
 _G.pg.equip_data_statistics[1247] = {
 	id = 1247,
 	value_2 = 17,
 	value_1 = "20",
-	base = 1240,
-	hidden_skill_id = {}
+	base = 1240
 }
 
 _G.pg.equip_data_statistics[1248] = {
 	id = 1248,
 	value_2 = 18,
 	value_1 = "21",
-	base = 1240,
-	hidden_skill_id = {}
+	base = 1240
 }
 
 _G.pg.equip_data_statistics[1249] = {
 	id = 1249,
 	value_2 = 19,
 	value_1 = "23",
-	base = 1240,
-	hidden_skill_id = {}
+	base = 1240
 }
 
 _G.pg.equip_data_statistics[1250] = {
 	id = 1250,
 	value_2 = 21,
 	value_1 = "24",
-	base = 1240,
-	hidden_skill_id = {}
+	base = 1240
 }
 
 _G.pg.equip_data_statistics[1251] = {
@@ -7291,8 +7242,7 @@ _G.pg.equip_data_statistics[1251] = {
 	anti_siren = 100,
 	base = 1240,
 	id = 1251,
-	value_1 = "25",
-	hidden_skill_id = {}
+	value_1 = "25"
 }
 
 _G.pg.equip_data_statistics[1260] = {
@@ -7322,7 +7272,9 @@ _G.pg.equip_data_statistics[1260] = {
 	skill_id = {
 		6260
 	},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {
 		4,
 		5,
@@ -7346,80 +7298,70 @@ _G.pg.equip_data_statistics[1261] = {
 	id = 1261,
 	value_2 = 13,
 	value_1 = "16",
-	base = 1260,
-	hidden_skill_id = {}
+	base = 1260
 }
 
 _G.pg.equip_data_statistics[1262] = {
 	id = 1262,
 	value_2 = 14,
 	value_1 = "18",
-	base = 1260,
-	hidden_skill_id = {}
+	base = 1260
 }
 
 _G.pg.equip_data_statistics[1263] = {
 	id = 1263,
 	value_2 = 16,
 	value_1 = "20",
-	base = 1260,
-	hidden_skill_id = {}
+	base = 1260
 }
 
 _G.pg.equip_data_statistics[1264] = {
 	id = 1264,
 	value_2 = 18,
 	value_1 = "22",
-	base = 1260,
-	hidden_skill_id = {}
+	base = 1260
 }
 
 _G.pg.equip_data_statistics[1265] = {
 	id = 1265,
 	value_2 = 20,
 	value_1 = "24",
-	base = 1260,
-	hidden_skill_id = {}
+	base = 1260
 }
 
 _G.pg.equip_data_statistics[1266] = {
 	id = 1266,
 	value_2 = 22,
 	value_1 = "26",
-	base = 1260,
-	hidden_skill_id = {}
+	base = 1260
 }
 
 _G.pg.equip_data_statistics[1267] = {
 	id = 1267,
 	value_2 = 24,
 	value_1 = "28",
-	base = 1260,
-	hidden_skill_id = {}
+	base = 1260
 }
 
 _G.pg.equip_data_statistics[1268] = {
 	id = 1268,
 	value_2 = 26,
 	value_1 = "30",
-	base = 1260,
-	hidden_skill_id = {}
+	base = 1260
 }
 
 _G.pg.equip_data_statistics[1269] = {
 	id = 1269,
 	value_2 = 28,
 	value_1 = "33",
-	base = 1260,
-	hidden_skill_id = {}
+	base = 1260
 }
 
 _G.pg.equip_data_statistics[1270] = {
 	id = 1270,
 	value_2 = 30,
 	value_1 = "36",
-	base = 1260,
-	hidden_skill_id = {}
+	base = 1260
 }
 
 _G.pg.equip_data_statistics[1271] = {
@@ -7427,8 +7369,7 @@ _G.pg.equip_data_statistics[1271] = {
 	anti_siren = 100,
 	base = 1260,
 	id = 1271,
-	value_1 = "39",
-	hidden_skill_id = {}
+	value_1 = "39"
 }
 
 _G.pg.equip_data_statistics[1272] = {
@@ -7436,8 +7377,7 @@ _G.pg.equip_data_statistics[1272] = {
 	anti_siren = 200,
 	base = 1260,
 	id = 1272,
-	value_1 = "42",
-	hidden_skill_id = {}
+	value_1 = "42"
 }
 
 _G.pg.equip_data_statistics[1273] = {
@@ -7445,8 +7385,7 @@ _G.pg.equip_data_statistics[1273] = {
 	anti_siren = 300,
 	base = 1260,
 	id = 1273,
-	value_1 = "45",
-	hidden_skill_id = {}
+	value_1 = "45"
 }
 
 _G.pg.equip_data_statistics[1300] = {
@@ -8161,7 +8100,9 @@ _G.pg.equip_data_statistics[1500] = {
 	skill_id = {
 		6040
 	},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {
 		1,
 		2,
@@ -8207,48 +8148,42 @@ _G.pg.equip_data_statistics[1501] = {
 	id = 1501,
 	value_2 = 3,
 	value_1 = "7",
-	base = 1500,
-	hidden_skill_id = {}
+	base = 1500
 }
 
 _G.pg.equip_data_statistics[1502] = {
 	id = 1502,
 	value_2 = 3,
 	value_1 = "8",
-	base = 1500,
-	hidden_skill_id = {}
+	base = 1500
 }
 
 _G.pg.equip_data_statistics[1503] = {
 	id = 1503,
 	value_2 = 3,
 	value_1 = "9",
-	base = 1500,
-	hidden_skill_id = {}
+	base = 1500
 }
 
 _G.pg.equip_data_statistics[1504] = {
 	id = 1504,
 	value_2 = 4,
 	value_1 = "10",
-	base = 1500,
-	hidden_skill_id = {}
+	base = 1500
 }
 
 _G.pg.equip_data_statistics[1505] = {
 	id = 1505,
 	value_2 = 4,
 	value_1 = "11",
-	base = 1500,
-	hidden_skill_id = {}
+	base = 1500
 }
 
 _G.pg.equip_data_statistics[1506] = {
 	id = 1506,
 	value_2 = 5,
 	value_1 = "11",
-	base = 1500,
-	hidden_skill_id = {}
+	base = 1500
 }
 
 _G.pg.equip_data_statistics[1520] = {
@@ -8278,7 +8213,9 @@ _G.pg.equip_data_statistics[1520] = {
 	skill_id = {
 		6050
 	},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {
 		1,
 		2,
@@ -8323,80 +8260,70 @@ _G.pg.equip_data_statistics[1520] = {
 _G.pg.equip_data_statistics[1521] = {
 	id = 1521,
 	value_1 = "11",
-	base = 1520,
-	hidden_skill_id = {}
+	base = 1520
 }
 
 _G.pg.equip_data_statistics[1522] = {
 	id = 1522,
 	value_2 = 5,
 	value_1 = "12",
-	base = 1520,
-	hidden_skill_id = {}
+	base = 1520
 }
 
 _G.pg.equip_data_statistics[1523] = {
 	id = 1523,
 	value_2 = 6,
 	value_1 = "14",
-	base = 1520,
-	hidden_skill_id = {}
+	base = 1520
 }
 
 _G.pg.equip_data_statistics[1524] = {
 	id = 1524,
 	value_2 = 6,
 	value_1 = "15",
-	base = 1520,
-	hidden_skill_id = {}
+	base = 1520
 }
 
 _G.pg.equip_data_statistics[1525] = {
 	id = 1525,
 	value_2 = 7,
 	value_1 = "17",
-	base = 1520,
-	hidden_skill_id = {}
+	base = 1520
 }
 
 _G.pg.equip_data_statistics[1526] = {
 	id = 1526,
 	value_2 = 7,
 	value_1 = "18",
-	base = 1520,
-	hidden_skill_id = {}
+	base = 1520
 }
 
 _G.pg.equip_data_statistics[1527] = {
 	id = 1527,
 	value_2 = 8,
 	value_1 = "20",
-	base = 1520,
-	hidden_skill_id = {}
+	base = 1520
 }
 
 _G.pg.equip_data_statistics[1528] = {
 	id = 1528,
 	value_2 = 9,
 	value_1 = "21",
-	base = 1520,
-	hidden_skill_id = {}
+	base = 1520
 }
 
 _G.pg.equip_data_statistics[1529] = {
 	id = 1529,
 	value_2 = 9,
 	value_1 = "23",
-	base = 1520,
-	hidden_skill_id = {}
+	base = 1520
 }
 
 _G.pg.equip_data_statistics[1530] = {
 	id = 1530,
 	value_2 = 10,
 	value_1 = "24",
-	base = 1520,
-	hidden_skill_id = {}
+	base = 1520
 }
 
 _G.pg.equip_data_statistics[1540] = {
@@ -8426,7 +8353,9 @@ _G.pg.equip_data_statistics[1540] = {
 	skill_id = {
 		6060
 	},
-	hidden_skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
 	part_main = {
 		1,
 		2,
@@ -8471,80 +8400,70 @@ _G.pg.equip_data_statistics[1540] = {
 _G.pg.equip_data_statistics[1541] = {
 	id = 1541,
 	value_1 = "16",
-	base = 1540,
-	hidden_skill_id = {}
+	base = 1540
 }
 
 _G.pg.equip_data_statistics[1542] = {
 	id = 1542,
 	value_2 = 7,
 	value_1 = "18",
-	base = 1540,
-	hidden_skill_id = {}
+	base = 1540
 }
 
 _G.pg.equip_data_statistics[1543] = {
 	id = 1543,
 	value_2 = 8,
 	value_1 = "20",
-	base = 1540,
-	hidden_skill_id = {}
+	base = 1540
 }
 
 _G.pg.equip_data_statistics[1544] = {
 	id = 1544,
 	value_2 = 9,
 	value_1 = "22",
-	base = 1540,
-	hidden_skill_id = {}
+	base = 1540
 }
 
 _G.pg.equip_data_statistics[1545] = {
 	id = 1545,
 	value_2 = 10,
 	value_1 = "24",
-	base = 1540,
-	hidden_skill_id = {}
+	base = 1540
 }
 
 _G.pg.equip_data_statistics[1546] = {
 	id = 1546,
 	value_2 = 11,
 	value_1 = "26",
-	base = 1540,
-	hidden_skill_id = {}
+	base = 1540
 }
 
 _G.pg.equip_data_statistics[1547] = {
 	id = 1547,
 	value_2 = 12,
 	value_1 = "28",
-	base = 1540,
-	hidden_skill_id = {}
+	base = 1540
 }
 
 _G.pg.equip_data_statistics[1548] = {
 	id = 1548,
 	value_2 = 13,
 	value_1 = "30",
-	base = 1540,
-	hidden_skill_id = {}
+	base = 1540
 }
 
 _G.pg.equip_data_statistics[1549] = {
 	id = 1549,
 	value_2 = 14,
 	value_1 = "32",
-	base = 1540,
-	hidden_skill_id = {}
+	base = 1540
 }
 
 _G.pg.equip_data_statistics[1550] = {
 	id = 1550,
 	value_2 = 15,
 	value_1 = "35",
-	base = 1540,
-	hidden_skill_id = {}
+	base = 1540
 }
 
 _G.pg.equip_data_statistics[1551] = {
@@ -8552,8 +8471,7 @@ _G.pg.equip_data_statistics[1551] = {
 	anti_siren = 100,
 	base = 1540,
 	id = 1551,
-	value_1 = "38",
-	hidden_skill_id = {}
+	value_1 = "38"
 }
 
 _G.pg.equip_data_statistics[1552] = {
@@ -8561,8 +8479,7 @@ _G.pg.equip_data_statistics[1552] = {
 	anti_siren = 200,
 	base = 1540,
 	id = 1552,
-	value_1 = "41",
-	hidden_skill_id = {}
+	value_1 = "41"
 }
 
 _G.pg.equip_data_statistics[1553] = {
@@ -8570,8 +8487,7 @@ _G.pg.equip_data_statistics[1553] = {
 	anti_siren = 300,
 	base = 1540,
 	id = 1553,
-	value_1 = "44",
-	hidden_skill_id = {}
+	value_1 = "44"
 }
 
 _G.pg.equip_data_statistics[1600] = {

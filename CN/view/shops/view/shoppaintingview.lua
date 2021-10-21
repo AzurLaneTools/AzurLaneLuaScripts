@@ -47,19 +47,30 @@ function slot0.ShowShipWord(slot0, slot1)
 	end
 
 	slot2 = 0.3
+	slot3 = 3
 
-	if slot0._cueInfo and 3 < long2int(slot0._cueInfo.length) / 1000 then
+	if slot0._cueInfo and slot3 < long2int(slot0._cueInfo.length) / 1000 then
 		slot3 = slot4
 	end
 
 	setActive(slot0.chat, true)
 	setText(slot0.chatText, slot1)
-	LeanTween.scale(slot0.chat.gameObject, Vector3.New(1, 1, 1), slot2):setFrom(Vector3.New(0, 0, 0)):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
+
+	slot4 = LeanTween.scale(slot0.chat.gameObject, Vector3.New(1, 1, 1), slot2)
+	slot4 = slot4:setFrom(Vector3.New(0, 0, 0))
+	slot4 = slot4:setEase(LeanTweenType.easeOutBack)
+
+	slot4:setOnComplete(System.Action(function ()
 		if IsNil(uv0.chat) then
 			return
 		end
 
-		LeanTween.scale(uv0.chat.gameObject, Vector3.New(0, 0, 1), uv1):setFrom(Vector3.New(1, 1, 1)):setEase(LeanTweenType.easeInBack):setDelay(uv2):setOnComplete(System.Action(function ()
+		slot0 = LeanTween.scale(uv0.chat.gameObject, Vector3.New(0, 0, 1), uv1)
+		slot0 = slot0:setFrom(Vector3.New(1, 1, 1))
+		slot0 = slot0:setEase(LeanTweenType.easeInBack)
+		slot0 = slot0:setDelay(uv2)
+
+		slot0:setOnComplete(System.Action(function ()
 			if IsNil(uv0.chat) then
 				return
 			end

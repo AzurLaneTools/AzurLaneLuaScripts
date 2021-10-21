@@ -17,8 +17,10 @@ function slot0.IsTip(slot0)
 		return false
 	end
 
+	slot1 = getProxy(CommanderProxy):haveFinishedBox()
+
 	if not LOCK_CATTERY then
-		return getProxy(CommanderProxy):haveFinishedBox() or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse()
+		return slot1 or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse()
 	else
 		return slot1
 	end

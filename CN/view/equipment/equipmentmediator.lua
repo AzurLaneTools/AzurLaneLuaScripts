@@ -117,8 +117,10 @@ function slot0.register(slot0)
 	if slot0.contextData.equipmentVOs then
 		slot3 = slot0.contextData.equipmentVOs
 	else
+		slot3 = slot0.equipmentProxy:getEquipments(true)
+
 		for slot7, slot8 in pairs(slot1:getEquipsInShips()) do
-			table.insert(slot0.equipmentProxy:getEquipments(true), slot8)
+			table.insert(slot3, slot8)
 		end
 
 		for slot7, slot8 in pairs(slot0.equipmentProxy:getEquipmentSkins()) do
@@ -171,9 +173,11 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
 		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
-		slot0.viewComponent:setEquipment(slot1:getBody())
+		slot0.viewComponent:setEquipment(slot3)
 
 		if slot0.canUpdate then
 			slot0.viewComponent:setEquipmentUpdate()

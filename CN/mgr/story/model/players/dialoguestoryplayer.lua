@@ -462,7 +462,9 @@ function slot0.StartMovePrevPaitingToSide(slot0, slot1, slot2, slot3)
 end
 
 function slot0.AddGlitchArtEffectForPating(slot0, slot1, slot2, slot3)
-	if slot3:ShouldAddGlitchArtEffect() and slot3:GetExPression() ~= nil and not slot3:IsNoHeadPainting() then
+	slot5 = slot3:IsNoHeadPainting()
+
+	if slot3:ShouldAddGlitchArtEffect() and slot3:GetExPression() ~= nil and not slot5 then
 		slot6 = slot2:Find("face")
 
 		cloneTplTo(slot6, slot6.parent, "temp_mask"):SetAsFirstSibling()
@@ -539,11 +541,12 @@ function slot0.RecyclePainting(slot0, slot1)
 		if slot0:Find("fitter"):GetChild(0) then
 			for slot6 = 0, slot0:GetComponentsInChildren(typeof(Image)).Length - 1 do
 				slot7 = slot2[slot6]
+				slot8 = Color.white
 
 				if slot7.material ~= slot7.defaultGraphicMaterial then
 					slot7.material = slot7.defaultGraphicMaterial
 
-					slot7.material:SetColor("_Color", Color.white)
+					slot7.material:SetColor("_Color", slot8)
 				end
 			end
 

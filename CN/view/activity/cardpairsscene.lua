@@ -337,7 +337,9 @@ end
 function slot0.tryFirstPlayStory(slot0)
 	if slot0.activityData:getConfig("config_client")[1] then
 		if slot0.activityData:getConfig("config_client")[1][1] ~= nil and not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
-			pg.NewStoryMgr.GetInstance():Play(slot1, function ()
+			slot2 = pg.NewStoryMgr.GetInstance()
+
+			slot2:Play(slot1, function ()
 				triggerButton(uv0.maskBtn)
 			end)
 

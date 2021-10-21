@@ -21,9 +21,12 @@ function slot0.setScore(slot0, slot1, slot2)
 end
 
 function slot0.getAverage(slot0)
+	slot1 = 0
+	slot2 = 0
+
 	for slot6, slot7 in pairs(slot0.scores) do
-		slot1 = 0 + 1
-		slot2 = 0 + slot7
+		slot1 = slot1 + 1
+		slot2 = slot2 + slot7
 	end
 
 	return slot1 > 0 and slot2 / slot1

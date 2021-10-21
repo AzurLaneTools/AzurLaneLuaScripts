@@ -5,13 +5,18 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.scroll = slot0._tf:Find("ScrollRect")
-	slot0.scrollComp = slot0.scroll:GetComponent("LScrollRect")
+	slot1 = slot0._tf
+	slot0.scroll = slot1:Find("ScrollRect")
+	slot1 = slot0.scroll
+	slot0.scrollComp = slot1:GetComponent("LScrollRect")
+	slot2 = slot0.scroll
 
-	setActive(slot0.scroll:Find("Item"), false)
+	setActive(slot2:Find("Item"), false)
 
-	slot0.content = slot0.scroll:Find("Viewport/Content")
-	slot0.progressText = slot0.scroll:Find("ProgressText")
+	slot1 = slot0.scroll
+	slot0.content = slot1:Find("Viewport/Content")
+	slot1 = slot0.scroll
+	slot0.progressText = slot1:Find("ProgressText")
 	slot0.recordTogGroup = slot0:findTF("Toggles", slot0._top)
 	slot0.recordToggles = {
 		slot0:findTF("0", slot0.recordTogGroup),
@@ -29,13 +34,14 @@ function slot0.OnInit(slot0)
 		uv0.recordFilterIndex[pg.world_collection_record_group[slot0].type] = true
 	end)
 
+	slot1 = #slot0.recordFilterIndex
 	slot2 = nil
 
 	for slot6 = 1, #slot0.recordFilterIndex do
 		setActive(slot0.recordToggles[1 + slot6], slot0.recordFilterIndex[slot6])
 
 		if not slot0.recordFilterIndex[slot6] then
-			slot1 = #slot0.recordFilterIndex - 1
+			slot1 = slot1 - 1
 		else
 			slot2 = slot2 or slot6 + 1
 		end

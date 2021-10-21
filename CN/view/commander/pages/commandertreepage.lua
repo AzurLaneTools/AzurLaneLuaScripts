@@ -7,7 +7,9 @@ end
 function slot0.OnInit(slot0)
 	slot0.treePanel = slot0._tf
 	slot0.treeList = UIItemList.New(slot0:findTF("bg/frame/bg/talents", slot0.treePanel), slot0:findTF("bg/frame/bg/talents/telent", slot0.treePanel))
-	slot0.treeTalentDesTxt = slot0.treePanel:Find("bg/frame/bg/desc/Text"):GetComponent(typeof(Text))
+	slot1 = slot0.treePanel
+	slot1 = slot1:Find("bg/frame/bg/desc/Text")
+	slot0.treeTalentDesTxt = slot1:GetComponent(typeof(Text))
 	slot0.treePanelCloseBtn = slot0:findTF("bg/frame/close_btn", slot0.treePanel)
 
 	setActive(slot0.treePanel, false)

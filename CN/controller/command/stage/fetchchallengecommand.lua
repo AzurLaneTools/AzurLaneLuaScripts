@@ -5,7 +5,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(24004, {
+	slot4 = pg.ConnectionMgr.GetInstance()
+
+	slot4:Send(24004, {
 		act = Challenge.FETCH_CHALLENGE,
 		activity_id = slot3.id
 	}, 24005, function (slot0)

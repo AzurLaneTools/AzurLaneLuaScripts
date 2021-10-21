@@ -6,7 +6,10 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	slot0.rtAnim:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+	slot1 = slot0.rtAnim
+	slot1 = slot1:GetComponent(typeof(DftAniEvent))
+
+	slot1:SetEndEvent(function (slot0)
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SHIPBLUEPRINT, {
 			shipGroupId = 39904
 		})

@@ -35,10 +35,11 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.noWaitFade = defaultValue(slot1.noWaitFade, false)
 	slot0.speedData = slot1.speed or getProxy(SettingsProxy):GetStorySpeed() or 0
 	slot0.steps = {}
+	slot5 = 0
 	slot6 = slot3 or {}
 
 	for slot10, slot11 in ipairs(slot1.scripts) do
-		if uv0.GetStoryStepCls(slot11.mode or slot0.mode).New(slot11):ExistOption() and slot6[0 + 1] then
+		if uv0.GetStoryStepCls(slot11.mode or slot0.mode).New(slot11):ExistOption() and slot6[slot5 + 1] then
 			slot14:SetOptionSelCodes(slot6[slot5])
 		end
 

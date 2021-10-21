@@ -19,7 +19,7 @@ return {
 				slot2 = false
 
 				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_GUIDE_TASKS) and not slot0:isEnd() then
-					slot2 = getProxy(ChapterProxy):getChapterById(slot0:getConfig("config_data")[1]) and slot4:isClear()
+					slot2 = getProxy(ChapterProxy):getChapterById(slot0:getConfig("config_data")[1]) and slot4.isClear(slot4)
 				end
 
 				return slot1 and slot2
@@ -66,13 +66,13 @@ return {
 			end,
 			args = function (slot0)
 				if getProxy(ChapterProxy):getActiveChapter() then
-					slot0:emit(LevelMediator2.ON_OP, {
+					slot0.emit(slot0, LevelMediator2.ON_OP, {
 						type = ChapterConst.OpRetreat
 					})
 				end
 
 				if slot0.contextData.map and slot0.contextData.map:isActivity() then
-					slot0:emit(LevelMediator2.ON_SWITCH_NORMAL_MAP)
+					slot0.emit(slot0, LevelMediator2.ON_SWITCH_NORMAL_MAP)
 				end
 
 				return slot0.contextData.entranceStatus and {
@@ -89,7 +89,7 @@ return {
 			end,
 			args = function (slot0)
 				if getProxy(ChapterProxy):getActiveChapter() then
-					slot0:switchToMap()
+					slot0.switchToMap(slot0)
 				end
 
 				return _.any(getProxy(BayProxy):getShips(), function (slot0)

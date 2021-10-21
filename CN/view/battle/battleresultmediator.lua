@@ -13,6 +13,7 @@ slot0.OPEN_FAIL_TIP_LAYER = "BattleResultMediator:OPEN_FAIL_TIP_LAYER"
 slot0.PRE_BATTLE_FAIL_EXIT = "BattleResultMediator:PRE_BATTLE_FAIL_EXIT"
 
 function slot0.register(slot0)
+	slot2 = getProxy(PlayerProxy):getData()
 	slot3 = getProxy(FleetProxy)
 	slot4 = getProxy(BayProxy)
 	slot5 = getProxy(ChapterProxy)
@@ -22,14 +23,16 @@ function slot0.register(slot0)
 		slot8 = getProxy(MilitaryExerciseProxy)
 
 		slot0.viewComponent:setRivalVO(slot8:getPreRivalById(slot0.contextData.rivalId))
-		slot0.viewComponent:setRank(getProxy(PlayerProxy):getData(), slot8:getSeasonInfo())
+		slot0.viewComponent:setRank(slot2, slot8:getSeasonInfo())
 	elseif slot7 == SYSTEM_CHALLENGE then
 		slot8 = getProxy(ChallengeProxy)
 
 		slot0.viewComponent:setChallengeInfo(slot8:getUserChallengeInfo(slot0.contextData.mode), slot8:userSeaonExpire(slot0.contextData.mode))
 	else
 		if slot7 == SYSTEM_SCENARIO or slot7 == SYSTEM_ROUTINE or slot7 == SYSTEM_ACT_BOSS or slot7 == SYSTEM_HP_SHARE_ACT_BOSS or slot7 == SYSTEM_SUB_ROUTINE or slot7 == SYSTEM_WORLD then
-			slot0.viewComponent:setExpBuff(_.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function (slot0)
+			slot10 = slot0.viewComponent
+
+			slot10:setExpBuff(_.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function (slot0)
 				return slot0:getConfig("benefit_type") == "rookie_battle_exp"
 			end), slot6:getBuffShipList())
 		end
@@ -68,11 +71,12 @@ function slot0.register(slot0)
 
 		slot0.viewComponent:SetSkipFlag(slot5:GetChapterAutoFlag(slot9.id) == 1)
 	elseif slot7 == SYSTEM_WORLD then
+		slot8 = {}
 		slot11 = nowWorld:GetActiveMap():GetFleet()
 		slot13 = slot11:GetTeamShipVOs(TeamType.Vanguard, true)
 
 		for slot17, slot18 in ipairs(slot11:GetTeamShipVOs(TeamType.Main, true)) do
-			table.insert({}, slot18)
+			table.insert(slot8, slot18)
 		end
 
 		for slot17, slot18 in ipairs(slot13) do
@@ -126,13 +130,16 @@ function slot0.register(slot0)
 		end
 
 		slot10 = slot3:getActivityFleets()[slot9]
+		slot8 = slot4:getShipsByFleet(slot10[slot0.contextData.mainFleetId])
 
 		for slot17, slot18 in ipairs(slot4:getShipsByFleet(slot10[slot0.contextData.mainFleetId + 10])) do
-			table.insert(slot4:getShipsByFleet(slot10[slot0.contextData.mainFleetId]), slot18)
+			table.insert(slot8, slot18)
 		end
 	elseif slot7 == SYSTEM_GUILD then
+		slot8 = {}
+
 		for slot16, slot17 in ipairs(getProxy(GuildProxy):getData():GetActiveEvent():GetBossMission():GetMainFleet():GetShips()) do
-			table.insert({}, slot17.ship)
+			table.insert(slot8, slot17.ship)
 		end
 
 		for slot17, slot18 in ipairs(slot11:GetSubFleet():GetShips()) do
@@ -142,10 +149,14 @@ function slot0.register(slot0)
 		slot8 = slot4:getShipsByFleet(slot3:getFleetById(slot0.contextData.mainFleetId))
 	end
 
-	slot0.viewComponent:setShips(slot8)
+	slot9 = slot0.viewComponent
+
+	slot9:setShips(slot8)
 	slot0:bind(uv0.ON_BACK_TO_LEVEL_SCENE, function (slot0, slot1)
+		slot2 = getProxy(ContextProxy)
+
 		if uv0 == SYSTEM_ACT_BOSS then
-			slot3, slot4 = getProxy(ContextProxy):getContextByMediator(PreCombatMediator)
+			slot3, slot4 = slot2:getContextByMediator(PreCombatMediator)
 
 			if slot3 then
 				slot4:removeChild(slot3)
@@ -184,15 +195,19 @@ function slot0.register(slot0)
 					mode = slot4
 				})
 			else
+				slot6 = slot5:IsFinish()
+
 				slot5:updateLevelForward()
 
-				if slot5:getMode() == ChallengeProxy.MODE_INFINITE and slot5:IsFinish() then
+				if slot5:getMode() == ChallengeProxy.MODE_INFINITE and slot6 then
 					slot5:setInfiniteDungeonIDListByLevel()
 				end
 			end
 
+			slot6 = slot3:getChallengeInfo()
+
 			if not slot3:userSeaonExpire(slot5:getMode()) then
-				slot3:getChallengeInfo():checkRecord(slot5)
+				slot6:checkRecord(slot5)
 			end
 
 			if not slot1.goToNext and slot2:getContextByMediator(ChallengeMainMediator) then
@@ -296,16 +311,19 @@ function slot0.register(slot0)
 		slot10 = nowWorld.isAutoFight
 	end
 
-	if ys.Battle.BattleState.IsAutoBotActive() and PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0 and not slot10 then
+	slot11 = PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0
+
+	if ys.Battle.BattleState.IsAutoBotActive() and slot11 and not slot10 then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_AUTO_BATTLE)
 		LuaHelper.Vibrate()
 	end
 end
 
 function slot0.showExtraChapterActSocre(slot0)
+	slot2 = getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK)
 	slot5 = getProxy(ChapterProxy):getActiveChapter() and slot3:getMapById(slot4:getConfig("map"))
 
-	for slot9, slot10 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK)) do
+	for slot9, slot10 in ipairs(slot2) do
 		if slot10 and not slot10:isEnd() and slot10:getConfig("config_data")[1] == slot0.contextData.stageId and slot5 and slot5:isActExtra() then
 			slot15, slot16 = ActivityLevelConst.getExtraChapterSocre(slot12, math.floor(slot0.contextData.statistics._totalTime), ActivityLevelConst.getShipsPower(slot0.contextData.prefabFleet or slot0.contextData.oldMainShips), slot10)
 			slot17 = slot16 < slot15 and i18n("extra_chapter_record_updated") or i18n("extra_chapter_record_not_updated")
@@ -334,8 +352,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
-		slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.COMBATLOAD, slot1:getBody())
+		slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.COMBATLOAD, slot3)
 	end
 end
 

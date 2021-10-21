@@ -32,7 +32,9 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(11202, {
+	slot5 = pg.ConnectionMgr.GetInstance()
+
+	slot5:Send(11202, {
 		activity_id = slot2.activity_id,
 		cmd = slot2.cmd,
 		arg1 = slot2.arg1,
@@ -141,7 +143,9 @@ end
 
 function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 	if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD and #slot4 == 1 and slot4[1].type == DROP_TYPE_ITEM then
-		if slot6.type == DROP_TYPE_ITEM and Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[slot4[1].id].type then
+		slot7 = Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[slot4[1].id].type
+
+		if slot6.type == DROP_TYPE_ITEM and slot7 then
 			slot4 = {}
 
 			slot0:sendNotification(GAME.USE_ITEM, {

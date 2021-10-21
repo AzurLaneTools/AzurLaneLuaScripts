@@ -15,7 +15,8 @@ function slot0.OnInit(slot0)
 		slot0:findTF("tip3")
 	}
 	slot0.goBtn = slot0:findTF("go_btn")
-	slot0.rawImage = slot0:findTF("preview_raw"):GetComponent(typeof(RawImage))
+	slot1 = slot0:findTF("preview_raw")
+	slot0.rawImage = slot1:GetComponent(typeof(RawImage))
 	slot0.listRect = slot0:findTF("adpter/list")
 	slot0.sortBg = slot0:findTF("sort_bg")
 
@@ -63,15 +64,20 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.goBtn, function ()
 		uv0:emit(NewBackYardThemeTemplateMediator.GO_DECORATION)
 	end, SFX_PANEL)
-	slot0.scrollRect.onValueChanged:RemoveAllListeners()
+
+	slot3 = slot0.scrollRect.onValueChanged
+
+	slot3:RemoveAllListeners()
 
 	slot0.arrLeftBtnShop = slot0:findTF("adpter/list/zuobian_shop")
 	slot0.arrRightBtnShop = slot0:findTF("adpter/list/youbian_shop")
 
 	onButton(slot0, slot0.arrLeftBtnShop, function ()
 		if uv0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
+			slot1 = getProxy(DormProxy).TYPE
+
 			if getProxy(DormProxy).PAGE > 1 then
-				uv0:SwitchPage(getProxy(DormProxy).TYPE, slot0 - 1, true)
+				uv0:SwitchPage(slot1, slot0 - 1, true)
 			end
 		end
 	end, SFX_PANEL)
@@ -342,13 +348,14 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 		slot5 = getProxy(DormProxy).TYPE
+		slot6 = getProxy(DormProxy).PAGE
 
 		setActive(slot0.btns[slot5]:Find("sel"), true)
 
 		slot0.selectedRefBtn = slot0.btns[slot5]
 
 		if getProxy(DormProxy):NeedRefreshThemeTemplateShop() then
-			slot0:SwitchPage(slot5, getProxy(DormProxy).PAGE, true)
+			slot0:SwitchPage(slot5, slot6, true)
 		end
 	end
 
@@ -418,8 +425,10 @@ function slot0.ForceActiveFirstCard(slot0)
 		return
 	end
 
+	slot3 = slot0.disPlays[1]
+
 	for slot7, slot8 in pairs(slot0.cards) do
-		if slot0.disPlays[1].id == slot8.template.id then
+		if slot3.id == slot8.template.id then
 			triggerButton(slot8._tf)
 
 			break

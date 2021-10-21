@@ -86,10 +86,13 @@ function slot0.PlayClaimAnima(slot0, slot1, slot2, slot3)
 
 	setActive(slot0._reminder, false)
 
-	slot4 = slot0._tf:GetComponent(typeof(Animator))
+	slot4 = slot0._tf
+	slot4 = slot4:GetComponent(typeof(Animator))
 	slot4.enabled = true
+	slot5 = slot0._tf
+	slot5 = slot5:GetComponent(typeof(DftAniEvent))
 
-	slot0._tf:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+	slot5:SetEndEvent(function (slot0)
 		uv0()
 		setActive(uv1._reminder, uv1._progressTrophy:canClaimed() and not uv1._progressTrophy:isClaimed())
 	end)

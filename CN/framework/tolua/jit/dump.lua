@@ -246,8 +246,10 @@ slot46, slot47 = nil
 slot48 = {
 	["SLOAD "] = setmetatable({}, {
 		__index = function (slot0, slot1)
+			slot2 = ""
+
 			if uv0(slot1, 1) ~= 0 then
-				slot2 = "" .. "P"
+				slot2 = slot2 .. "P"
 			end
 
 			if uv0(slot1, 2) ~= 0 then
@@ -287,8 +289,10 @@ slot48 = {
 	},
 	["CONV  "] = setmetatable({}, {
 		__index = function (slot0, slot1)
+			slot2 = uv0[uv1(uv2(slot1, 5), 31)] .. "." .. uv0[uv1(slot1, 31)]
+
 			if uv1(slot1, 2048) ~= 0 then
-				slot2 = uv0[uv1(uv2(slot1, 5), 31)] .. "." .. uv0[uv1(slot1, 31)] .. " sext"
+				slot2 = slot2 .. " sext"
 			end
 
 			if uv2(slot1, 14) == 2 then
@@ -374,8 +378,10 @@ function slot51(slot0, slot1, slot2)
 		slot7 = uv8(slot3)
 	end
 
+	slot7 = uv9(uv3("%-4s", slot7), slot4)
+
 	if slot5 then
-		slot7 = uv3("%s @%d", uv9(uv3("%-4s", slot7), slot4), slot5)
+		slot7 = uv3("%s @%d", slot7, slot5)
 	end
 
 	return slot7
@@ -448,9 +454,10 @@ function slot55(slot0, slot1)
 	slot2 = nil
 
 	if slot1 > 0 then
-		slot3, slot4, slot1, slot6 = uv0(slot0, slot1)
+		slot3, slot4, slot5, slot6 = uv0(slot0, slot1)
 
 		if uv1(slot4, 31) == 0 then
+			slot1 = slot5
 			slot2 = uv2(slot0, slot6)
 		end
 	end
@@ -538,11 +545,12 @@ function slot57(slot0, slot1, slot2)
 			uv1:write(uv4("%s%s %s %s ", (slot21 == 254 or slot21 == 253) and "}" or uv8(slot14, 128) == 0 and " " or ">", uv8(slot14, 64) == 0 and " " or "+", uv11[slot19], slot20))
 
 			slot22 = uv8(slot13, 3)
+			slot23 = uv8(slot13, 12)
 
 			if uv9(slot20, 1, 4) == "CALL" then
 				slot24 = nil
 
-				if uv8(slot13, 12) == 4 then
+				if slot23 == 4 then
 					uv1:write(uv4("%-10s  (", uv2.ircall[slot16]))
 				else
 					slot24 = uv12(slot0, slot16)
@@ -645,9 +653,10 @@ function slot61(slot0, slot1, slot2, slot3, slot4, slot5)
 			uv4:write(" ", uv5(slot2, slot3), " -- ", uv6(slot4, slot5), "\n")
 		else
 			slot6 = uv7(slot1)
+			slot8 = slot6.linktype
 
 			if slot6.link == slot1 or slot7 == 0 then
-				uv4:write(" -> ", slot6.linktype, "\n")
+				uv4:write(" -> ", slot8, "\n")
 			elseif slot8 == "root" then
 				uv4:write(" -> ", slot7, "\n")
 			else
@@ -681,8 +690,10 @@ function slot62(slot0, slot1, slot2, slot3, slot4)
 	slot5 = nil
 
 	if slot2 >= 0 then
+		slot5 = uv3(slot1, slot2, uv1)
+
 		if uv4.H then
-			slot5 = uv5(uv3(slot1, slot2, uv1), "[<>&]", uv6)
+			slot5 = uv5(slot5, "[<>&]", uv6)
 		end
 	else
 		slot5 = "0000 " .. uv1 .. " FUNCC      \n"

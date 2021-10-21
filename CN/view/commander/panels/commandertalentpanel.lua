@@ -235,8 +235,9 @@ function slot0.openUseagePanel(slot0)
 		slot0.parent:emit(CommanderInfoMediator.FETCH_NOT_LEARNED_TALENT, slot1.id)
 	else
 		slot3 = nil
+		slot4 = slot0.usageList
 
-		slot0.usageList:make(function (slot0, slot1, slot2)
+		slot4:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
 				slot3 = uv0[slot1 + 1]
 
@@ -262,7 +263,10 @@ function slot0.openUseagePanel(slot0)
 				end
 			end
 		end)
-		slot0.usageList:align(#slot2)
+
+		slot4 = slot0.usageList
+
+		slot4:align(#slot2)
 		onButton(slot0, slot0.usageConfirmBtn, function ()
 			if uv0 and uv1:fullTalentCnt() and not uv1:hasTalent(uv0) then
 				uv2:openReplacePanel(uv0)

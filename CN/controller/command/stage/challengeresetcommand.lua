@@ -7,7 +7,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(24004, {
+	slot5 = pg.ConnectionMgr.GetInstance()
+
+	slot5:Send(24004, {
 		act = Challenge.CHALLENGE_OP_RESET,
 		activity_id = slot4.id
 	}, 24005, function (slot0)

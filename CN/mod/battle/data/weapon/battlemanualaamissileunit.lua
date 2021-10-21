@@ -29,13 +29,13 @@ function slot4.createMajorEmitter(slot0, slot1, slot2, slot3)
 
 		slot6:setTrackingTarget(slot4)
 
+		slot7 = {}
+
 		for slot11, slot12 in pairs(uv0._strikeModeData) do
-			-- Nothing
+			slot7[slot11] = slot12
 		end
 
-		slot6:SetTrackingFXData({
-			[slot11] = slot12
-		})
+		slot6:SetTrackingFXData(slot7)
 		uv0:DispatchBulletEvent(slot6)
 
 		return slot6
@@ -87,7 +87,9 @@ function slot4.MarkTarget(slot0)
 		return
 	end
 
-	if slot0._strikeModeData.aimingTarget and slot0._strikeModeData.aimingFX and uv0.Battle.BattleState.GetInstance():GetSceneMediator():GetCharacter(slot1:GetUniqueID()) then
+	slot3 = uv0.Battle.BattleState.GetInstance():GetSceneMediator()
+
+	if slot0._strikeModeData.aimingTarget and slot0._strikeModeData.aimingFX and slot3:GetCharacter(slot1:GetUniqueID()) then
 		slot4:RemoveFX(slot0._strikeModeData.aimingFX)
 	end
 
@@ -97,10 +99,11 @@ function slot4.MarkTarget(slot0)
 		return
 	end
 
+	slot4 = slot3:GetCharacter(slot2:GetUniqueID())
 	slot5 = nil
 
 	if slot0._preCastInfo.fx and #slot0._preCastInfo.fx > 0 then
-		slot5 = slot3:GetCharacter(slot2:GetUniqueID()):AddFX(slot0._preCastInfo.fx)
+		slot5 = slot4:AddFX(slot0._preCastInfo.fx)
 	end
 
 	slot0._strikeModeData.aimingTarget = slot2

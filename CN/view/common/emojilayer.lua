@@ -227,6 +227,7 @@ function slot0.emojiIconFliter(slot0)
 		slot11 = slot0:findTF("TitleCommom", slot10)
 		slot12 = slot0:findTF("TitleAll", slot10)
 		slot13 = slot0:findTF("CommomIconContainer", slot10)
+		slot15 = GetComponent(slot0:findTF("AllIconContainer", slot10), "GridLayoutGroup")
 
 		if slot9 == 1 then
 			slot17 = UIItemList.New(slot13, slot0:findTF("Icon", slot13))
@@ -252,7 +253,7 @@ function slot0.emojiIconFliter(slot0)
 			end)
 			slot17:align(#slot2)
 
-			GetComponent(slot0:findTF("AllIconContainer", slot10), "GridLayoutGroup").padding.left = 20
+			slot15.padding.left = 20
 			slot19 = UIItemList.New(slot14, slot0:findTF("Icon", slot14))
 
 			slot19:make(function (slot0, slot1, slot2)

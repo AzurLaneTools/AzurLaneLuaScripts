@@ -17,12 +17,10 @@ end
 function slot0.OnRefreshAll(slot0)
 	slot0:InitData()
 
-	slot1 = {
-		[slot6.ship.id] = slot6
-	}
+	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.displays) do
-		-- Nothing
+		slot1[slot6.ship.id] = slot6
 	end
 
 	for slot5, slot6 in pairs(slot0.cards) do
@@ -49,9 +47,11 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.GetRecommandShipCnt(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0.displays) do
 		if slot6.ship.guildRecommand then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 

@@ -39,10 +39,12 @@ function slot0.init(slot0)
 end
 
 function slot0.openTreePanel(slot0, slot1)
+	function slot2()
+		uv0.treePanel:ActionInvoke("openTreePanel", uv1)
+	end
+
 	if slot0.treePanel:GetLoaded() then
-		(function ()
-			uv0.treePanel:ActionInvoke("openTreePanel", uv1)
-		end)()
+		slot2()
 	else
 		slot0.treePanel:Load()
 		slot0.treePanel:CallbackInvoke(slot2)
@@ -54,13 +56,16 @@ function slot0.closeTreePanel(slot0)
 end
 
 function slot0.onUIAnimEnd(slot0, slot1)
-	slot0.antor:SetBool("play", true)
+	slot2 = slot0.antor
+
+	slot2:SetBool("play", true)
 
 	slot0.isAnim = true
 
 	setActive(slot0.clickTF, slot0.skipAnim)
 
-	slot2 = slot0._tf:GetComponent(typeof(DftAniEvent))
+	slot2 = slot0._tf
+	slot2 = slot2:GetComponent(typeof(DftAniEvent))
 
 	slot2:SetTriggerEvent(function (slot0)
 		if uv0.commanderVO:isSSR() then
@@ -79,7 +84,9 @@ function slot0.onUIAnimEnd(slot0, slot1)
 end
 
 function slot0.playerEffect(slot0)
-	PoolMgr.GetInstance():GetUI("AL_zhihuimiao_zhipian", true, function (slot0)
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetUI("AL_zhihuimiao_zhipian", true, function (slot0)
 		uv0.effect = slot0
 
 		SetParent(slot0, uv0._tf)
@@ -90,10 +97,12 @@ end
 function slot0.openMsgBox(slot0, slot1)
 	slot0.isShowMsgBox = true
 
+	function slot2()
+		uv0.msgbox:ActionInvoke("OnUpdate", uv1)
+	end
+
 	if slot0.msgbox:GetLoaded() then
-		(function ()
-			uv0.msgbox:ActionInvoke("OnUpdate", uv1)
-		end)()
+		slot2()
 	else
 		slot0.msgbox:Load()
 		slot0.msgbox:CallbackInvoke(slot2)
@@ -171,7 +180,8 @@ function slot0.updateInfo(slot0, slot1)
 end
 
 function slot0.updateAbilitys(slot0)
-	slot2 = slot0.commanderVO:getAbilitys()
+	slot1 = slot0.commanderVO
+	slot2 = slot1:getAbilitys()
 
 	eachChild(slot0.abilitysTF, function (slot0)
 		slot2 = uv0[go(slot0).name]

@@ -6,10 +6,14 @@ end
 
 function slot0.OnInit(slot0)
 	slot0._renamePanel = slot0._tf
-	slot0._renameConfirmBtn = slot0._renamePanel:Find("frame/queren")
-	slot0._renameCancelBtn = slot0._renamePanel:Find("frame/cancel")
-	slot0._renameRevert = slot0._renamePanel:Find("frame/revert_button")
-	slot0._renameCloseBtn = slot0._renamePanel:Find("frame/close_btn")
+	slot1 = slot0._renamePanel
+	slot0._renameConfirmBtn = slot1:Find("frame/queren")
+	slot1 = slot0._renamePanel
+	slot0._renameCancelBtn = slot1:Find("frame/cancel")
+	slot1 = slot0._renamePanel
+	slot0._renameRevert = slot1:Find("frame/revert_button")
+	slot1 = slot0._renamePanel
+	slot0._renameCloseBtn = slot1:Find("frame/close_btn")
 
 	onButton(slot0, slot0._renameConfirmBtn, function ()
 		uv0:emit(ShipMainMediator.RENAME_SHIP, uv0:GetShipVO().id, getInputText(findTF(uv0._renamePanel, "frame/name_field")))

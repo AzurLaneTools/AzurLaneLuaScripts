@@ -2,8 +2,9 @@ slot0 = class("WorldItemUseCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot6 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(33301, {
+	slot6:Send(33301, {
 		id = slot2.itemID,
 		count = slot2.count,
 		arg = slot2.args
@@ -17,16 +18,22 @@ function slot0.execute(slot0, slot1)
 				id = uv0,
 				count = uv1
 			}):getWorldItemType() == WorldItem.UsageBuff then
+				slot6 = slot4:getItemBuffID()
+
 				for slot10, slot11 in ipairs(uv2) do
-					slot2:GetShip(slot11):AddBuff(slot4:getItemBuffID(), slot4.count)
+					slot2:GetShip(slot11):AddBuff(slot6, slot4.count)
 				end
 			elseif slot5 == WorldItem.UsageHPRegenerate then
+				slot6 = slot4:getItemRegenerate() * slot4.count
+
 				for slot10, slot11 in ipairs(uv2) do
-					slot2:GetShip(slot11):Regenerate(slot4:getItemRegenerate() * slot4.count)
+					slot2:GetShip(slot11):Regenerate(slot6)
 				end
 			elseif slot5 == WorldItem.UsageHPRegenerateValue then
+				slot6 = slot4:getItemRegenerate() * slot4.count
+
 				for slot10, slot11 in ipairs(uv2) do
-					slot2:GetShip(slot11):RegenerateValue(slot4:getItemRegenerate() * slot4.count)
+					slot2:GetShip(slot11):RegenerateValue(slot6)
 				end
 			elseif slot5 == WorldItem.UsageRecoverAp then
 				slot2.staminaMgr:ExchangeStamina(slot4:getItemStaminaRecover() * slot4.count)

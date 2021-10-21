@@ -79,7 +79,8 @@ end
 
 function slot0.BindEvent(slot0)
 	slot1 = getProxy(FleetProxy)
-	slot2 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2)
+	slot2 = slot0.activityProxy
+	slot2 = slot2:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2)
 
 	slot0:bind(uv0.ON_RANK, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
@@ -141,7 +142,9 @@ function slot0.BindEvent(slot0)
 						return
 					end
 
-					if not getProxy(SettingsProxy):isTipActBossExchangeTicket() and (getProxy(PlayerProxy):getRawData():getResource(uv0.contextData.TicketID) > 0 and (uv0.contextData.stageTickets[uv1] or 0) <= 0) then
+					slot2 = getProxy(PlayerProxy):getRawData():getResource(uv0.contextData.TicketID) > 0 and (uv0.contextData.stageTickets[uv1] or 0) <= 0
+
+					if not getProxy(SettingsProxy):isTipActBossExchangeTicket() and slot2 then
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							hideYes = true,
 							noText = "text_inconsume",
@@ -169,14 +172,18 @@ function slot0.BindEvent(slot0)
 							onClose = function ()
 							end
 						})
-					elseif slot2 and slot1 == 1 then
-						uv0.contextData.ready2battleCb = slot0
-
-						uv0:sendNotification(GAME.ACT_BOSS_EXCHANGE_TICKET, {
-							stageId = uv1
-						})
 					else
-						slot0()
+						slot3 = slot1 == 1
+
+						if slot2 and slot3 then
+							uv0.contextData.ready2battleCb = slot0
+
+							uv0:sendNotification(GAME.ACT_BOSS_EXCHANGE_TICKET, {
+								stageId = uv1
+							})
+						else
+							slot0()
+						end
 					end
 				end
 			}
@@ -207,7 +214,9 @@ function slot0.BindEvent(slot0)
 
 		seriesAsync({
 			function (slot0)
-				if not uv0 and not pg.NewStoryMgr.GetInstance():IsPlayed("NG0017") then
+				slot1 = "NG0017"
+
+				if not uv0 and not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						hideNo = false,
 						showStopRemind = true,
@@ -507,7 +516,9 @@ end
 
 function slot0.getDockCallbackFuncs4ActicityFleet(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
-	slot8 = getProxy(FleetProxy):getActivityFleets()[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id][slot1]
+	slot4 = getProxy(FleetProxy)
+	slot5 = getProxy(ActivityProxy)
+	slot8 = slot4:getActivityFleets()[slot5:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id][slot1]
 
 	return function (slot0, slot1)
 		slot2, slot3 = ShipStatus.ShipStatusCheck("inActivity", slot0, slot1, {

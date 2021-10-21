@@ -129,9 +129,11 @@ function slot0.updateMangaTpl(slot0, slot1, slot2)
 		uv0:openMangaViewLayer(uv1)
 	end, SFX_PANEL)
 
+	slot16 = MangaConst.MANGA_PATH_PREFIX .. pg.cartoon[slot4].resource
+
 	if not IsNil(GetComponent(slot0:findTF("Content/Mask/Pic", slot3), "Image").sprite) then
 		if slot17.name ~= slot15 then
-			slot0.resLoader:LoadSprite(MangaConst.MANGA_PATH_PREFIX .. pg.cartoon[slot4].resource, slot15, slot5, false)
+			slot0.resLoader:LoadSprite(slot16, slot15, slot5, false)
 		end
 	else
 		slot0.resLoader:LoadSprite(slot16, slot15, slot5, false)
@@ -217,8 +219,11 @@ function slot0.getMangaIDListForShow(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(pg.cartoon.all) do
+		slot8 = MangaConst.isMangaEverReadByID(slot7)
+		slot9 = MangaConst.isMangaLikeByID(slot7)
+
 		if slot0.isShowNotRead and slot0.isShowLike then
-			if not MangaConst.isMangaEverReadByID(slot7) and MangaConst.isMangaLikeByID(slot7) then
+			if not slot8 and slot9 then
 				table.insert(slot2, slot7)
 			end
 		elseif slot0.isShowNotRead and not slot0.isShowLike then

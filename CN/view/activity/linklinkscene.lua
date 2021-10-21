@@ -252,8 +252,9 @@ function slot0.GameLoop(slot0)
 	end
 
 	slot3, slot4, slot5 = nil
+	slot6 = slot0.list
 
-	slot0.list:each(function (slot0, slot1)
+	slot6:each(function (slot0, slot1)
 		onButton(uv0, slot1:Find("display/icon"), function ()
 			if uv2.cards[math.floor(uv0 / uv1.MAX_COLUMN)][uv0 % uv1.MAX_COLUMN].state ~= uv1.CARD_STATE_NORMAL then
 				return
@@ -282,18 +283,22 @@ function slot0.GameLoop(slot0)
 			else
 				slot2.state = uv1.CARD_STATE_LINKED
 				uv3.state = uv1.CARD_STATE_LINKED
+				slot5 = uv5
 
-				setActive(uv5:Find("display/selected"), true)
+				setActive(slot5:Find("display/selected"), true)
 				uv7(slot3)
 
 				uv6 = true
 				slot5 = uv4
 				slot10 = 0.3
-
-				LeanTween.value(go(uv5), 1, 0.15, slot10):setEase(LeanTweenType.easeInBack):setOnUpdate(System.Action_float(function (slot0)
+				slot6 = LeanTween.value(go(uv5), 1, 0.15, slot10)
+				slot6 = slot6:setEase(LeanTweenType.easeInBack)
+				slot6 = slot6:setOnUpdate(System.Action_float(function (slot0)
 					uv0.localScale = Vector3(slot0, slot0, 1)
 					uv1.localScale = Vector3(slot0, slot0, 1)
-				end)):setOnComplete(System.Action(function ()
+				end))
+
+				slot6:setOnComplete(System.Action(function ()
 					uv0(uv1)
 					setActive(uv2:Find("display"), false)
 					setActive(uv3:Find("display"), false)
@@ -338,10 +343,11 @@ function slot0.GameLoop(slot0)
 							for slot18 = 0, uv2.MAX_COLUMN - 1 do
 								if slot3 ~= slot14 or slot7 ~= slot18 then
 									slot19 = uv3.cards[slot14][slot18]
+									slot21 = uv3.layout:GetChild(slot19.row * uv2.MAX_COLUMN + slot19.column)
 
 									if slot8.id == slot19.id then
 										triggerButton(slot10:Find("display/icon"))
-										triggerButton(uv3.layout:GetChild(slot19.row * uv2.MAX_COLUMN + slot19.column):Find("display/icon"))
+										triggerButton(slot21:Find("display/icon"))
 
 										if uv4 then
 											Timer.New(function ()
@@ -471,15 +477,16 @@ function slot0.LinkLink(slot0, slot1, slot2)
 		row = slot1.row,
 		column = slot1.column
 	}
+	slot4 = {
+		row = slot2.row,
+		column = slot2.column
+	}
 
 	table.insert({}, slot3)
 	table.insert({}, slot3)
 
 	for slot10 = 1, 3 do
-		if slot0:IterateByOneSnap({
-			row = slot2.row,
-			column = slot2.column
-		}, slot1.id, slot5, slot6) then
+		if slot0:IterateByOneSnap(slot4, slot1.id, slot5, slot6) then
 			slot12 = {
 				slot11
 			}
@@ -535,7 +542,9 @@ function slot0.FindDirectLinkPoint(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	for slot8 = slot2.row - 1, 0, -1 do
-		if slot0.cards[slot8][slot2.column].state == uv0.CARD_STATE_NORMAL and slot10.id ~= slot1 or slot3[slot8 .. "_" .. slot2.column] then
+		slot9 = slot8 .. "_" .. slot2.column
+
+		if slot0.cards[slot8][slot2.column].state == uv0.CARD_STATE_NORMAL and slot10.id ~= slot1 or slot3[slot9] then
 			break
 		end
 
@@ -547,7 +556,9 @@ function slot0.FindDirectLinkPoint(slot0, slot1, slot2, slot3)
 	end
 
 	for slot8 = slot2.row + 1, uv0.MAX_ROW - 1 do
-		if slot0.cards[slot8][slot2.column].state == uv0.CARD_STATE_NORMAL and slot10.id ~= slot1 or slot3[slot8 .. "_" .. slot2.column] then
+		slot9 = slot8 .. "_" .. slot2.column
+
+		if slot0.cards[slot8][slot2.column].state == uv0.CARD_STATE_NORMAL and slot10.id ~= slot1 or slot3[slot9] then
 			break
 		end
 
@@ -559,7 +570,9 @@ function slot0.FindDirectLinkPoint(slot0, slot1, slot2, slot3)
 	end
 
 	for slot8 = slot2.column - 1, 0, -1 do
-		if slot0.cards[slot2.row][slot8].state == uv0.CARD_STATE_NORMAL and slot10.id ~= slot1 or slot3[slot2.row .. "_" .. slot8] then
+		slot9 = slot2.row .. "_" .. slot8
+
+		if slot0.cards[slot2.row][slot8].state == uv0.CARD_STATE_NORMAL and slot10.id ~= slot1 or slot3[slot9] then
 			break
 		end
 
@@ -571,7 +584,9 @@ function slot0.FindDirectLinkPoint(slot0, slot1, slot2, slot3)
 	end
 
 	for slot8 = slot2.column + 1, uv0.MAX_COLUMN - 1 do
-		if slot0.cards[slot2.row][slot8].state == uv0.CARD_STATE_NORMAL and slot10.id ~= slot1 or slot3[slot2.row .. "_" .. slot8] then
+		slot9 = slot2.row .. "_" .. slot8
+
+		if slot0.cards[slot2.row][slot8].state == uv0.CARD_STATE_NORMAL and slot10.id ~= slot1 or slot3[slot9] then
 			break
 		end
 
@@ -643,9 +658,12 @@ function slot0.LinkLink1(slot0, slot1, slot2)
 				return slot0.row == uv0.row and slot0.column == uv0.column
 			end)) and (not slot2 or slot2.state == uv4.CARD_STATE_LINKED or slot2.state == uv4.CARD_STATE_BLANK or slot2.id == uv5.id) and slot0.row >= 0 and slot0.row < uv4.MAX_ROW and slot0.column >= 0 and slot0.column < uv4.MAX_COLUMN then
 				slot3 = uv6[uv0.row .. "_" .. uv0.column]
+				slot4 = slot3.snap
+				slot5 = slot0.row - uv0.row
+				slot6 = slot0.column - uv0.column
 
-				if slot3.rdir ~= 0 and slot3.rdir ~= slot0.row - uv0.row or slot3.cdir ~= 0 and slot3.cdir ~= slot0.column - uv0.column then
-					slot4 = slot3.snap + 1
+				if slot3.rdir ~= 0 and slot3.rdir ~= slot5 or slot3.cdir ~= 0 and slot3.cdir ~= slot6 then
+					slot4 = slot4 + 1
 				end
 
 				if slot4 <= 2 then

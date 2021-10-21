@@ -2,8 +2,9 @@ slot0 = class("CommanderUsePrefabCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot5 = getProxy(FleetProxy):getFleetById(slot2.fleetId)
 
-	if getProxy(CommanderProxy):getPrefabFleetById(slot2.pid):isEmpty() or slot6:isSame(getProxy(FleetProxy):getFleetById(slot2.fleetId):getCommanders()) then
+	if getProxy(CommanderProxy):getPrefabFleetById(slot2.pid):isEmpty() or slot6:isSame(slot5:getCommanders()) then
 		return
 	end
 

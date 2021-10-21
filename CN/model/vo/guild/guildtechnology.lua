@@ -21,8 +21,9 @@ end
 
 function slot0.GetShipAttrAddition(slot0, slot1, slot2)
 	slot3 = slot0:getConfig("effect_args")
+	slot5 = slot3[2]
 
-	if slot3[1] == slot1 and table.contains(slot3[2], slot2) then
+	if slot3[1] == slot1 and table.contains(slot5, slot2) then
 		return slot0:getConfig("num")
 	else
 		return 0
@@ -113,10 +114,13 @@ function slot0.getAddition(slot0)
 end
 
 function slot0.GetConsume(slot0)
+	slot1 = slot0:getConfig("contribution_consume")
+	slot2 = slot0:getConfig("gold_consume")
+
 	if slot0:IsRiseInPrice() then
 		slot3 = slot0:getConfig("contribution_multiple")
 
-		return slot0:getConfig("contribution_consume") * slot3, slot0:getConfig("gold_consume") * slot3
+		return slot1 * slot3, slot2 * slot3
 	else
 		return slot1, slot2
 	end

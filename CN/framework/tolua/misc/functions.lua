@@ -10,12 +10,13 @@ function string.split(slot0, slot1)
 		return false
 	end
 
+	slot2 = 0
 	slot3 = {}
 
 	for slot7, slot8 in function ()
 		return uv0.find(uv1, uv2, uv3, true)
 	end, nil,  do
-		uv1.insert(slot3, uv0.sub(slot0, 0, slot7 - 1))
+		uv1.insert(slot3, uv0.sub(slot0, slot2, slot7 - 1))
 
 		slot2 = slot8 + 1
 	end
@@ -32,8 +33,10 @@ function import(slot0, slot1)
 
 	while true do
 		if uv0.byte(slot0, slot4) ~= 46 then
+			slot3 = uv0.sub(slot0, slot4)
+
 			if slot2 and #slot2 > 0 then
-				slot3 = uv1.concat(slot2, ".") .. "." .. uv0.sub(slot0, slot4)
+				slot3 = uv1.concat(slot2, ".") .. "." .. slot3
 			end
 
 			break

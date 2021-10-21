@@ -18,8 +18,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot8 = slot2.callback
+	slot9 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(61019, {
+	slot9:Send(61019, {
 		ids = slot3
 	}, 61020, function (slot0)
 		if slot0.result == 0 then

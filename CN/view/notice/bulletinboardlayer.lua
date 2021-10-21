@@ -87,9 +87,10 @@ function slot0.setNoticeDetail(slot0, slot1)
 	setActive(slot0._detailTitleLoading, true)
 
 	slot0._loadingFlag[slot1.titleImage] = true
+	slot2 = BulletinBoardMgr.Inst
 	slot5 = slot1.version
 
-	BulletinBoardMgr.Inst:GetSprite(slot1.id, slot5, slot1.titleImage, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
+	slot2:GetSprite(slot1.id, slot5, slot1.titleImage, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
 		uv0._loadingFlag[uv1.titleImage] = nil
 
 		if slot0 ~= nil then
@@ -123,8 +124,9 @@ function slot0.setNoticeDetail(slot0, slot1)
 
 	for slot6, slot7 in ipairs(slot0.loadPic) do
 		slot0._loadingFlag[slot7] = true
+		slot8 = BulletinBoardMgr.Inst
 
-		BulletinBoardMgr.Inst:GetSprite(slot1.id, slot1.version, slot7, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
+		slot8:GetSprite(slot1.id, slot1.version, slot7, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
 			uv0._loadingFlag[uv1] = nil
 
 			if slot0 ~= nil then

@@ -7,12 +7,16 @@ function slot0.register(slot0)
 end
 
 function slot0.requestDataFromServer(slot0)
-	pg.ConnectionMgr.GetInstance():Send(26101, {
+	slot1 = pg.ConnectionMgr.GetInstance()
+
+	slot1:Send(26101, {
 		type = MiniGameRequestCommand.REQUEST_HUB_DATA
 	}, 26102, function (slot0)
+		slot1 = getProxy(MiniGameProxy)
+
 		for slot5, slot6 in ipairs(slot0.hubs) do
 			if slot6.id == uv0.HUB_ID then
-				getProxy(MiniGameProxy):UpdataHubData(slot6)
+				slot1:UpdataHubData(slot6)
 			end
 		end
 	end)
@@ -29,8 +33,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == MiniGameProxy.ON_HUB_DATA_UPDATE then
-		if slot1:getBody().id == HoloLiveLinkLinkSelectScene.HOLOLIVE_LINKGAME_HUB_ID then
+		if slot3.id == HoloLiveLinkLinkSelectScene.HOLOLIVE_LINKGAME_HUB_ID then
 			slot0.viewComponent:updateData()
 			slot0.viewComponent:updateUI()
 		end

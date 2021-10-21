@@ -47,7 +47,9 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.COLORING_CLEAR_DONE then
 		slot0.viewComponent:updateSelectedColoring()
 	elseif slot2 == GAME.COLORING_ACHIEVE_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.drops, function ()
+		slot4 = slot0.viewComponent
+
+		slot4:emit(BaseUI.ON_ACHIEVE, slot3.drops, function ()
 			uv0.viewComponent:updatePage()
 		end)
 	end

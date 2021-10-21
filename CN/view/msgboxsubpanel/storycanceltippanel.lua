@@ -17,13 +17,17 @@ end
 function slot0.OnRefresh(slot0, slot1)
 	slot0:SetWindowSize(Vector2(1000, 640))
 
-	slot3 = slot0._tf:Find("TimeText")
+	slot2 = slot0._tf
+	slot3 = slot0._tf
+	slot3 = slot3:Find("TimeText")
 	slot4 = 5
-
-	LeanTween.value(go(slot0._tf:Find("CircleProgress")), slot4, 0, slot4):setOnUpdate(System.Action_float(function (slot0)
+	slot5 = LeanTween.value(go(slot2:Find("CircleProgress")), slot4, 0, slot4)
+	slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
 		setFillAmount(uv0, slot0 - math.floor(slot0))
 		setText(uv1, math.clamp(math.ceil(slot0), 0, uv2))
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot5:setOnComplete(System.Action(function ()
 		existCall(uv0.onYes)
 		uv1:CloseView()
 	end))

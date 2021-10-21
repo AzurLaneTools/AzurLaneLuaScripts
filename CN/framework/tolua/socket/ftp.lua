@@ -313,8 +313,10 @@ function slot8.genericform(slot0)
 	uv0.try(uv0.try(uv1.parse(slot0, uv2)).scheme == "ftp", "wrong scheme '" .. slot1.scheme .. "'")
 	uv0.try(slot1.host, "missing hostname")
 
+	slot2 = "^type=(.)$"
+
 	if slot1.params then
-		slot1.type = uv0.skip(2, uv3.find(slot1.params, "^type=(.)$"))
+		slot1.type = uv0.skip(2, uv3.find(slot1.params, slot2))
 
 		uv0.try(slot1.type == "a" or slot1.type == "i", "invalid type '" .. slot1.type .. "'")
 	end
@@ -380,10 +382,11 @@ slot8.command = slot4.protect(function (slot0)
 	slot1:login(slot0.user, slot0.password)
 
 	if type(slot0.command) == "table" then
+		slot2 = slot0.argument or {}
 		slot3 = slot0.check or {}
 
 		for slot7, slot8 in ipairs(slot0.command) do
-			slot1.try(slot1.tp:command(slot8, (slot0.argument or {})[slot7]))
+			slot1.try(slot1.tp:command(slot8, slot2[slot7]))
 
 			if slot3[slot7] then
 				slot1.try(slot1.tp:check(slot3[slot7]))

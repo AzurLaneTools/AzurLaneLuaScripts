@@ -16,7 +16,8 @@ function slot0.Init(slot0, slot1)
 		y = 0
 	})
 
-	slot0.blockContainer = slot0.blockPlayCon:Find("blocks")
+	slot2 = slot0.blockPlayCon
+	slot0.blockContainer = slot2:Find("blocks")
 	slot0.hearts = {
 		slot0._tf:Find("prints/score/hearts/1"),
 		slot0._tf:Find("prints/score/hearts/2"),
@@ -49,7 +50,9 @@ function slot0.LoadEffect(slot0, slot1)
 end
 
 function slot0.LoadSingleEffect(slot0, slot1, slot2, slot3)
-	PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
+	slot4 = PoolMgr.GetInstance()
+
+	slot4:GetUI(slot1, true, function (slot0)
 		if not uv0.groundContainer then
 			PoolMgr.GetInstance():ReturnUI(uv1, slot0)
 		else
@@ -97,11 +100,14 @@ function slot0.OnReachAwardScore(slot0)
 
 		uv0.tipTimer = nil
 	end, 3, 1)
+	slot1 = slot0.tipTimer
 
-	slot0.tipTimer:Start()
+	slot1:Start()
 
-	slot1 = slot0.groundContainer:InverseTransformPoint(slot0.npc.position)
-	slot2 = slot0.groundContainer:InverseTransformPoint(slot0.player._tf.position)
+	slot1 = slot0.groundContainer
+	slot1 = slot1:InverseTransformPoint(slot0.npc.position)
+	slot2 = slot0.groundContainer
+	slot2 = slot2:InverseTransformPoint(slot0.player._tf.position)
 
 	function slot3()
 		function slot0()
@@ -115,7 +121,9 @@ function slot0.OnReachAwardScore(slot0)
 		end
 
 		if not uv0.awardEffect1 then
-			uv0:LoadSingleEffect(TowerClimbingGameSettings.AWARDEFFECT1, {
+			slot2 = uv0
+
+			slot2:LoadSingleEffect(TowerClimbingGameSettings.AWARDEFFECT1, {
 				uv1.x,
 				uv1.y
 			}, function (slot0)
@@ -140,7 +148,10 @@ function slot0.OnReachAwardScore(slot0)
 		uv2.awardEffect.transform.localPosition = Vector3(uv1.x, uv1.y, -200)
 
 		setActive(uv2.awardEffect, true)
-		LeanTween.moveLocal(uv2.awardEffect, slot1, 1):setOnComplete(System.Action(function ()
+
+		slot2 = LeanTween.moveLocal(uv2.awardEffect, slot1, 1)
+
+		slot2:setOnComplete(System.Action(function ()
 			setActive(uv0.awardEffect, false)
 			uv1()
 		end))
@@ -216,11 +227,13 @@ function slot0.OnCreateBlock(slot0, slot1, slot2)
 		})
 		uv0:OnActiveBlock(uv1)
 
+		slot5 = math.random(TowerClimbingGameSettings.FIRE_TIME[1], TowerClimbingGameSettings.FIRE_TIME[2])
+
 		if slot0.transform:Find("firer") then
 			slot7 = slot6:GetComponent(typeof(Animation))
 			uv0.timers[uv1.level] = Timer.New(function ()
 				uv0:Play("action")
-			end, math.random(TowerClimbingGameSettings.FIRE_TIME[1], TowerClimbingGameSettings.FIRE_TIME[2]), -1)
+			end, slot5, -1)
 
 			uv0.timers[uv1.level]:Start()
 		end
@@ -288,9 +301,10 @@ function slot0.OnEnableStab(slot0, slot1, slot2)
 	slot3 = _.detect(slot0.blocks, function (slot0)
 		return slot0.block.level == uv0.level
 	end)
+	slot4 = slot3.go:GetComponent(typeof(UnityEngine.Collider2D))
 
 	for slot8, slot9 in ipairs(slot3.colliders) do
-		if slot9 ~= slot3.go:GetComponent(typeof(UnityEngine.Collider2D)) then
+		if slot9 ~= slot4 then
 			slot9.enabled = slot2
 		end
 	end
@@ -353,8 +367,10 @@ function slot0.Dispose(slot0)
 	end
 
 	slot0.tipTimer = nil
+	slot1 = pairs
+	slot2 = slot0.timers or {}
 
-	for slot4, slot5 in pairs(slot0.timers or {}) do
+	for slot4, slot5 in slot1(slot2) do
 		slot5:Stop()
 	end
 

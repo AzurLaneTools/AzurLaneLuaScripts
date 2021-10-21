@@ -51,9 +51,11 @@ function slot0.GetMapSize(slot0)
 end
 
 function slot0.GetPutCntForFurniture(slot0, slot1)
+	slot3 = 0
+
 	for slot7, slot8 in pairs(slot0:getPutFurnis()) do
 		if slot8:getConfig("id") == slot1:getConfig("id") then
-			slot3 = 0 + 1
+			slot3 = slot3 + 1
 		end
 	end
 
@@ -69,15 +71,15 @@ function slot0.setFloorNum(slot0, slot1)
 end
 
 function slot0.getOtherFloorFurnitrues(slot0, slot1)
+	slot2 = {}
+
 	for slot6, slot7 in pairs(slot0.furnitures) do
 		if slot7.floor ~= slot1 and slot7.floor ~= 0 then
-			-- Nothing
+			slot2[slot7.id] = slot7
 		end
 	end
 
-	return {
-		[slot7.id] = slot7
-	}
+	return slot2
 end
 
 function slot0.GetAllFurniture(slot0)
@@ -85,15 +87,15 @@ function slot0.GetAllFurniture(slot0)
 end
 
 function slot0.getFurnitrues(slot0, slot1)
+	slot2 = {}
+
 	for slot6, slot7 in pairs(slot0.furnitures) do
 		if slot7.floor == slot1 then
-			-- Nothing
+			slot2[slot7.id] = slot7
 		end
 	end
 
-	return {
-		[slot7.id] = slot7
-	}
+	return slot2
 end
 
 function slot0.setName(slot0, slot1)
@@ -125,22 +127,23 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.getPutFurnis(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0.furnitures) do
 		if slot6.position then
-			-- Nothing
+			slot1[slot6.id] = slot6
 		end
 	end
 
-	return {
-		[slot6.id] = slot6
-	}
+	return slot1
 end
 
 function slot0.getComfortable(slot0, slot1)
 	slot2 = 0
+	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.furnitures) do
-		table.insert({}, slot8)
+		table.insert(slot3, slot8)
 	end
 
 	if slot1 and table.getCount(slot1) > 0 then
@@ -150,17 +153,24 @@ function slot0.getComfortable(slot0, slot1)
 	end
 
 	for slot8, slot9 in pairs(slot0:getConfig("comfortable_count")) do
-		slot2 = _.reduce(_(Clone(slot3)):chain():filter(function (slot0)
+		slot11 = _(Clone(slot3))
+		slot11 = slot11:chain()
+		slot11 = slot11:filter(function (slot0)
 			return slot0:getTypeForComfortable() == uv0[1]
-		end):sort(function (slot0, slot1)
+		end)
+		slot11 = slot11:sort(function (slot0, slot1)
 			return slot1:getConfig("comfortable") < slot0:getConfig("comfortable")
-		end):slice(1, slot9[2]):value(), 0, function (slot0, slot1)
+		end)
+		slot11 = slot11:slice(1, slot9[2])
+		slot2 = _.reduce(slot11:value(), 0, function (slot0, slot1)
 			return slot0 + slot1:getConfig("comfortable")
 		end) + slot2
 	end
 
+	slot2 = slot2 + (slot0.level - 1) * 10
+
 	if slot0:isUnlockFloor(2) then
-		slot2 = slot2 + (slot0.level - 1) * 10 + uv0.DORM_2_FLOOR_COMFORTABLE_ADDITION
+		slot2 = slot2 + uv0.DORM_2_FLOOR_COMFORTABLE_ADDITION
 	end
 
 	return slot2
@@ -262,12 +272,11 @@ function slot0.addFood(slot0, slot1)
 end
 
 function slot0.getSaveData(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0:getPutFurnis()) do
 		slot7 = slot6.position or {}
-	end
-
-	return {
-		[slot5] = {
+		slot1[slot5] = {
 			id = slot5,
 			x = slot7.x or 0,
 			y = slot7.y or 0,
@@ -277,7 +286,9 @@ function slot0.getSaveData(slot0)
 			parent = slot6.parent or 0,
 			shipId = slot6.shipId or 0
 		}
-	}
+	end
+
+	return slot1
 end
 
 function slot0.checkData(slot0, slot1)
@@ -353,10 +364,15 @@ function slot0.checkFurnitrueData(slot0, slot1, slot2)
 	end
 
 	if table.getCount(slot4.child or {}) ~= 0 then
-		for slot8, slot9 in pairs(slot4.child or {}) do
+		slot5 = pairs
+		slot6 = slot4.child or {}
+
+		for slot8, slot9 in slot5(slot6) do
 			if slot1[slot8] then
+				slot11 = BackyardFurnitureVO.New(slot10)
+
 				for slot15, slot16 in pairs(slot4.child) do
-					if slot15 ~= slot8 and BackyardFurnitureVO.New(slot10):isConflictPos(BackyardFurnitureVO.New(slot1[slot15])) then
+					if slot15 ~= slot8 and slot11:isConflictPos(BackyardFurnitureVO.New(slot1[slot15])) then
 						return false, 12
 					end
 				end
@@ -370,10 +386,12 @@ end
 function slot0.OwnThemeTemplateFurniture(slot0, slot1)
 	slot2 = slot0:GetAllFurniture()
 
+	function slot3(slot0, slot1)
+		return uv0[slot0] and slot1 <= slot2.count
+	end
+
 	for slot8, slot9 in pairs(slot1:GetFurnitureCnt()) do
-		if not (function (slot0, slot1)
-			return uv0[slot0] and slot1 <= slot2.count
-		end)(slot8, slot9) then
+		if not slot3(slot8, slot9) then
 			return false
 		end
 	end
@@ -390,8 +408,10 @@ function slot0.ClearPositionByFloor(slot0, slot1)
 end
 
 function slot0.SetPostionForFloor(slot0, slot1, slot2)
+	slot3 = slot0.furnitures
+
 	for slot7, slot8 in pairs(slot2) do
-		if slot0.furnitures[slot8.id] then
+		if slot3[slot8.id] then
 			slot0.furnitures[slot8.id] = slot8
 		end
 	end

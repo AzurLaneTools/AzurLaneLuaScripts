@@ -157,8 +157,10 @@ function slot0.getAllShipIds(slot0, slot1)
 end
 
 function slot0.getFirstFleetShipCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0.data[1].ships) do
-		slot1 = 0 + 1
+		slot1 = slot1 + 1
 	end
 
 	return slot1
@@ -227,12 +229,13 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 		slot0.activityFleetData[slot1] = {}
 	end
 
+	slot3 = slot0.activityFleetData[slot1]
 	slot4 = getProxy(BayProxy)
 	slot5 = nil
 
 	for slot9, slot10 in ipairs(slot2) do
 		slot11 = Fleet.New(slot10)
-		slot0.activityFleetData[slot1][slot11.id] = slot11
+		slot3[slot11.id] = slot11
 
 		for slot15, slot16 in ipairs(slot10.ship_list) do
 			if not slot4:getShipById(slot16) then

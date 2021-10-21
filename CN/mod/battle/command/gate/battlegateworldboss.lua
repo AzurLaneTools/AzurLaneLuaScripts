@@ -50,8 +50,10 @@ function slot0.Entrance(slot0, slot1)
 		end
 
 		if uv3.enter_energy_cost > 0 and not exFlag then
+			slot1 = pg.gameset.battle_consume_energy.key_value
+
 			for slot5, slot6 in ipairs(ships) do
-				slot6:cosumeEnergy(pg.gameset.battle_consume_energy.key_value)
+				slot6:cosumeEnergy(slot1)
 				uv4:updateShip(slot6)
 			end
 		end
@@ -63,7 +65,9 @@ function slot0.Entrance(slot0, slot1)
 			uv5:LockCacheBoss(uv7)
 		end
 
-		uv8:updatePlayer(uv1)
+		slot1 = uv8
+
+		slot1:updatePlayer(uv1)
 		uv11:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			prefabFleet = {},
 			bossId = uv7,
@@ -75,13 +79,15 @@ function slot0.Entrance(slot0, slot1)
 			bossConfigId = uv6:GetConfigID()
 		})
 	end, function (slot0)
+		function slot1()
+			uv0:UnlockCacheBoss()
+			uv0:RemoveCacheBoss(uv1.id)
+			pg.m02:sendNotification(GAME.WORLD_BOSS_START_BATTLE_FIALED)
+		end
+
 		if slot0.result == 1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_none"))
-			(function ()
-				uv0:UnlockCacheBoss()
-				uv0:RemoveCacheBoss(uv1.id)
-				pg.m02:sendNotification(GAME.WORLD_BOSS_START_BATTLE_FIALED)
-			end)()
+			slot1()
 		elseif slot0.result == 3 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_none"))
 			slot1()
@@ -141,7 +147,10 @@ function slot0.Exit(slot0, slot1)
 		slot5 = slot4:GetBossById(uv2.bossId)
 
 		slot4:ClearRank(slot5.id)
-		pg.m02:sendNotification(GAME.WORLD_BOSS_BATTLE_QUIT, {
+
+		slot7 = pg.m02
+
+		slot7:sendNotification(GAME.WORLD_BOSS_BATTLE_QUIT, {
 			id = uv2.bossId
 		})
 

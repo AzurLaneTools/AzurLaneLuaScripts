@@ -38,13 +38,14 @@ function slot2.UpdateHostileSubmarineCount(slot0, slot1)
 end
 
 function slot2.ActiveWarning(slot0, slot1)
+	slot2 = false
 	slot3 = #slot0._warningRequestTable
 
 	for slot7, slot8 in ipairs(slot0._warningRequestTable) do
 		if slot1 == slot8.type then
 			slot8.flag = true
 
-			if not false then
+			if not slot2 then
 				SetActive(slot8.tf, true)
 
 				slot3 = slot7

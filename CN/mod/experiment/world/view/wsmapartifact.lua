@@ -30,8 +30,9 @@ end
 function slot0.Load(slot0)
 	slot1 = slot0.item_info[3]
 	slot0.prefab = slot1
+	slot2 = PoolMgr.GetInstance()
 
-	PoolMgr.GetInstance():GetPrefab(WorldConst.ResChapterPrefab .. slot1, slot1, true, function (slot0)
+	slot2:GetPrefab(WorldConst.ResChapterPrefab .. slot1, slot1, true, function (slot0)
 		if uv0.prefab then
 			uv0.moduleTF = tf(slot0)
 

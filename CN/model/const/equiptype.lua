@@ -272,8 +272,10 @@ function slot9(slot0)
 end
 
 function slot0.Types2Title(slot0, slot1)
+	slot3 = pg.ship_data_template[slot1]["equip_" .. slot0]
+
 	if slot0 == 1 then
-		return uv0(pg.ship_data_template[slot1]["equip_" .. slot0])
+		return uv0(slot3)
 	elseif slot0 == 2 then
 		return uv1(slot3, slot2.equip_1)
 	elseif slot0 == 3 then

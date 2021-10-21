@@ -18,6 +18,7 @@ function slot0.execute(slot0, slot1)
 		equip_id = slot5
 	}, slot3 and 14003 or 14005, function (slot0)
 		if slot0.result == 0 then
+			slot2 = getProxy(BagProxy)
 			slot4 = getProxy(PlayerProxy)
 			slot5, slot6 = nil
 			slot7 = slot4:getData()
@@ -28,11 +29,13 @@ function slot0.execute(slot0, slot1)
 			slot4:updatePlayer(slot7)
 
 			for slot13, slot14 in ipairs(slot6.config.trans_use_item) do
-				getProxy(BagProxy):removeItemById(slot14[1], slot14[2])
+				slot2:removeItemById(slot14[1], slot14[2])
 			end
 
+			slot10 = slot6:MigrateTo(slot6.config.next)
+
 			if slot5 then
-				slot5:updateEquip(uv1, slot6:MigrateTo(slot6.config.next))
+				slot5:updateEquip(uv1, slot10)
 				slot1:updateShip(slot5)
 			elseif slot6 then
 				slot3:removeEquipmentById(slot6.id, 1)

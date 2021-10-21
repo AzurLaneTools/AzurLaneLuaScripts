@@ -15,7 +15,8 @@ function slot0.OnFirstFlush(slot0)
 	setActive(slot0.item, false)
 
 	for slot4 = 1, 8 do
-		slot5 = cloneTplTo(slot0.item, slot0.items:Find("layout"))
+		slot7 = slot0.items
+		slot5 = cloneTplTo(slot0.item, slot7:Find("layout"))
 		slot7 = slot0.config.front_drops[slot4]
 
 		updateDrop(slot0:findTF("item", slot5), {

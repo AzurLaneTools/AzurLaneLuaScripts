@@ -12,18 +12,28 @@ slot0.ON_CHALLENGE_OPEN_RANK = "DailyLevelMediator:ON_CHALLENGE_OPEN_RANK"
 slot0.ON_QUICK_BATTLE = "DailyLevelMediator:ON_QUICK_BATTLE"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setDailyCounts(getProxy(DailyLevelProxy):getRawData())
+	slot1 = getProxy(DailyLevelProxy)
+	slot2 = slot0.viewComponent
+
+	slot2:setDailyCounts(slot1:getRawData())
 
 	slot2 = getProxy(BayProxy)
 
 	slot2:setSelectShipId(nil)
 
 	slot0.ships = slot2:getRawData()
+	slot3 = slot0.viewComponent
 
-	slot0.viewComponent:setShips(slot0.ships)
-	slot0.viewComponent:updateRes(getProxy(PlayerProxy):getData())
+	slot3:setShips(slot0.ships)
+
+	slot3 = getProxy(PlayerProxy)
+	slot5 = slot0.viewComponent
+
+	slot5:updateRes(slot3:getData())
 	slot0:bind(uv0.ON_QUICK_BATTLE, function (slot0, slot1, slot2, slot3)
-		uv0:CheckShipExpItemOverflow(slot2, function ()
+		slot4 = uv0
+
+		slot4:CheckShipExpItemOverflow(slot2, function ()
 			uv0:sendNotification(GAME.DAILY_LEVEL_QUICK_BATTLE, {
 				dailyLevelId = uv1,
 				stageId = uv2,
@@ -79,8 +89,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:updateRes(slot1:getBody())
+		slot0.viewComponent:updateRes(slot3)
 	elseif slot2 == GAME.DAILY_LEVEL_QUICK_BATTLE_DONE then
 		if #slot3.awards > 0 then
 			slot0:DisplayAwards(slot4)

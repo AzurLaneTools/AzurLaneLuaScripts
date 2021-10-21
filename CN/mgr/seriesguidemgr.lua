@@ -275,16 +275,18 @@ function slot0.compatibleOldPlayer(slot0)
 		return
 	end
 
-	if slot0.player.level >= 5 and slot0.player.guideIndex < uv0 then
-		(function ()
-			slot0 = getProxy(PlayerProxy)
-			slot1 = slot0:getData()
-			slot1.guideIndex = uv0
+	function slot1()
+		slot0 = getProxy(PlayerProxy)
+		slot1 = slot0:getData()
+		slot1.guideIndex = uv0
 
-			slot0:updatePlayer(slot1)
-			uv1:setPlayer(slot1)
-			uv1:updateIndex(slot1.guideIndex)
-		end)()
+		slot0:updatePlayer(slot1)
+		uv1:setPlayer(slot1)
+		uv1:updateIndex(slot1.guideIndex)
+	end
+
+	if slot0.player.level >= 5 and slot0.player.guideIndex < uv0 then
+		slot1()
 
 		return
 	end

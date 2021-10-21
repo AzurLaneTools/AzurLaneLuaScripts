@@ -29,8 +29,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == SnapshotSelectCharMediator.SELECT_CHAR then
-		slot0.viewComponent:setSkin(slot1:getBody())
+		slot0.viewComponent:setSkin(slot3)
 	elseif PERMISSION_GRANTED == slot2 then
 		if slot3 == ANDROID_RECORD_AUDIO_PERMISSION then
 			slot0.viewComponent:changeToTakeVideo()

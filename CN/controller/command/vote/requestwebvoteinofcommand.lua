@@ -2,11 +2,14 @@ slot0 = class("RequestWebVoteInofCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot4 = getProxy(VoteProxy):getVoteGroup()
+	slot3 = getProxy(VoteProxy)
+	slot4 = slot3:getVoteGroup()
 	slot5 = getProxy(ActivityProxy)
 	slot6 = nil
 	slot6 = coroutine.create(function ()
-		if not uv0 or VoteConst.RankExpiredTime < pg.TimeMgr.GetInstance():GetServerTime() - uv1.lastWebRequestTime then
+		slot0 = pg.TimeMgr.GetInstance():GetServerTime()
+
+		if not uv0 or VoteConst.RankExpiredTime < slot0 - uv1.lastWebRequestTime then
 			uv2:sendNotification(GAME.FETCH_VOTE_INFO, {
 				voteId = uv3.configId,
 				callback = function (slot0)

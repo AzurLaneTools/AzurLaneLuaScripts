@@ -38,8 +38,11 @@ function slot2.onStack(slot0, slot1, slot2)
 end
 
 function slot2.getTargetList(slot0, slot1, slot2, slot3)
+	slot4 = nil
+	slot5 = slot1:GetUnitList()[1]
+
 	for slot9, slot10 in ipairs(slot2) do
-		slot4 = uv0.Battle.BattleTargetChoise[slot10](slot1:GetUnitList()[1], slot3, nil)
+		slot4 = uv0.Battle.BattleTargetChoise[slot10](slot5, slot3, slot4)
 	end
 
 	return slot4

@@ -15,8 +15,10 @@ function slot0.SetUI(slot0, slot1)
 	end
 
 	slot0.mainPanel = slot0:findTF("main")
-	slot0.day = slot0:findTF("time/Text"):GetComponent(typeof(Text))
-	slot0:findTF("frame/time", slot0.mainPanel):GetComponent(typeof(Text)).text = i18n("LanternRiddle_wait_time_tip")
+	slot2 = slot0:findTF("time/Text")
+	slot0.day = slot2:GetComponent(typeof(Text))
+	slot2 = slot0:findTF("frame/time", slot0.mainPanel)
+	slot2:GetComponent(typeof(Text)).text = i18n("LanternRiddle_wait_time_tip")
 
 	setActive(slot0.mainPanel, false)
 	onButton(slot0, slot0.mainPanel, function ()
@@ -81,12 +83,14 @@ function slot0.ShowMainPanel(slot0, slot1)
 	slot0:UpdateMainPanelTime()
 
 	slot2 = slot1.answers
+	slot3 = slot0:findTF("frame/answers", slot0.mainPanel)
+	slot4 = slot1.isFinish
 
 	for slot8 = 1, 4 do
-		slot11 = slot0:findTF("frame/answers", slot0.mainPanel):GetChild(slot8 - 1)
+		slot11 = slot3:GetChild(slot8 - 1)
 
 		setText(slot11:Find("Text"), slot2[slot8][1])
-		setActive(slot11:Find("right"), slot1.isFinish and slot8 == slot1.rightIndex)
+		setActive(slot11:Find("right"), slot4 and slot8 == slot1.rightIndex)
 		setActive(slot11:Find("false"), slot2[slot8][2])
 		onButton(slot0, slot11, function ()
 			if uv0.isFinish then

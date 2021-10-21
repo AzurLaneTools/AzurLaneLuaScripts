@@ -133,7 +133,8 @@ function slot0.Update(slot0, slot1, slot2)
 		slot0.selectedID = slot4
 	end
 
-	slot5 = getProxy(FleetProxy):getCommandersInFleet()
+	slot5 = getProxy(FleetProxy)
+	slot5 = slot5:getCommandersInFleet()
 
 	table.sort(slot0.displays, function (slot0, slot1)
 		if (table.contains(uv0, slot0.id) and 1 or 0) == (table.contains(uv0, slot1.id) and 1 or 0) then

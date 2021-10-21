@@ -211,9 +211,10 @@ function slot2.SetSectorAngle(slot0, slot1, slot2)
 	slot0._sectorDir = slot2
 	slot0._upperEdge = math.deg2Rad * slot0._sectorAngle / 2
 	slot0._lowerEdge = -1 * slot0._upperEdge
+	slot4 = 0
 
 	if slot2 == uv0.UnitDir.LEFT then
-		slot0._normalizeOffset = math.pi - 0
+		slot0._normalizeOffset = math.pi - slot4
 	elseif slot2 == uv0.UnitDir.RIGHT then
 		slot0._normalizeOffset = slot4
 	end
@@ -275,11 +276,12 @@ end
 function slot2.UpdateDistanceInfo(slot0)
 	for slot4, slot5 in ipairs(slot0._cldObjList) do
 		slot6 = nil
+		slot8 = slot5.RightBound
 		slot9 = slot5.UpperBound
 		slot10 = slot5.LowerBound
 		slot12, slot13 = nil
 
-		if slot5.LeftBound <= slot0._pos.x and slot11 <= slot5.RightBound then
+		if slot5.LeftBound <= slot0._pos.x and slot11 <= slot8 then
 			slot12 = true
 		elseif slot11 < slot7 then
 			slot13 = slot7

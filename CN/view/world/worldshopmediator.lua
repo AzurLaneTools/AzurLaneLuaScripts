@@ -19,8 +19,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:setPlayer(slot1:getBody())
+		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == GAME.SHOPPING_DONE and #slot3.awards > 0 then
 		slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 			items = slot3.awards

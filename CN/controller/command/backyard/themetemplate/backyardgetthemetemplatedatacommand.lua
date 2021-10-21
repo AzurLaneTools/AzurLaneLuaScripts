@@ -3,29 +3,31 @@ slot0 = class("BackYardGetThemeTemplateDataCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.callback
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(19113, {
+	slot5:Send(19113, {
 		theme_id = slot2.templateId
 	}, 19114, function (slot0)
 		if slot0.result == 0 then
 			slot1 = slot0.theme
+			slot4 = BackYardThemeTemplate.New({
+				is_fetch = true,
+				id = slot1.id,
+				name = slot1.name,
+				furniture_put_list = slot1.furniture_put_list,
+				user_id = slot1.user_id,
+				pos = slot1.pos,
+				like_count = slot1.like_count,
+				fav_count = slot1.fav_count,
+				upload_time = slot1.upload_time,
+				is_collection = slot0.has_fav and 1 or 0,
+				is_like = slot0.has_like and 1 or 0,
+				image_md5 = slot1.image_md5,
+				icon_image_md5 = slot1.icon_image_md5
+			})
 
 			if getProxy(DormProxy):GetShopThemeTemplateById(uv0) then
-				slot5:UpdateShopThemeTemplate(BackYardThemeTemplate.New({
-					is_fetch = true,
-					id = slot1.id,
-					name = slot1.name,
-					furniture_put_list = slot1.furniture_put_list,
-					user_id = slot1.user_id,
-					pos = slot1.pos,
-					like_count = slot1.like_count,
-					fav_count = slot1.fav_count,
-					upload_time = slot1.upload_time,
-					is_collection = slot0.has_fav and 1 or 0,
-					is_like = slot0.has_like and 1 or 0,
-					image_md5 = slot1.image_md5,
-					icon_image_md5 = slot1.icon_image_md5
-				}))
+				slot5:UpdateShopThemeTemplate(slot4)
 			end
 
 			if slot5:GetCollectionThemeTemplateById(uv0) then

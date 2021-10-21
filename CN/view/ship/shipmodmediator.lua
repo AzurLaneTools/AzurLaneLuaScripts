@@ -7,9 +7,13 @@ slot0.LOADEND = "ShipModMediator:LOADEND"
 
 function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
+	slot3 = slot0.viewComponent
 
-	slot0.viewComponent:setShipVOs(slot1:getRawData())
-	slot0.viewComponent:setShip(slot1:getShipById(slot0.contextData.shipId))
+	slot3:setShipVOs(slot1:getRawData())
+
+	slot4 = slot0.viewComponent
+
+	slot4:setShip(slot1:getShipById(slot0.contextData.shipId))
 	slot0:bind(uv0.ON_SELECT_MATERIAL_SHIPS, function (slot0)
 		slot1 = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_1)
 

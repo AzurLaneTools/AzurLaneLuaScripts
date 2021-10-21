@@ -521,20 +521,24 @@ function slot0.didEnter(slot0)
 		triggerButton(uv0.BatchDisposeBtn)
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0.selectPanel, "confirm_button"), function ()
-		if not _.all(uv0:hasEliteEquips(uv0.selectedIds, uv0.equipmentVOByIds), function (slot0)
+		function slot0()
+			uv0.destroyConfirmView = DestroyConfirmView.New(uv0.topItems, uv0.event)
+
+			uv0.destroyConfirmView:Load()
+			uv0.destroyConfirmView:ActionInvoke("DisplayDestroyBonus", uv0.selectedIds)
+			uv0.destroyConfirmView:ActionInvoke("SetConfirmBtnCB", function ()
+				uv0:unselecteAllEquips()
+			end)
+		end
+
+		slot1 = uv0
+
+		if not _.all(slot1:hasEliteEquips(uv0.selectedIds, uv0.equipmentVOByIds), function (slot0)
 			return slot0 == ""
 		end) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("destroy_eliteequipment_tip", string.gsub(table.concat(slot1, ""), "$1", slot1[1] == "" and "" or ",")),
-				onYes = function ()
-					uv0.destroyConfirmView = DestroyConfirmView.New(uv0.topItems, uv0.event)
-
-					uv0.destroyConfirmView:Load()
-					uv0.destroyConfirmView:ActionInvoke("DisplayDestroyBonus", uv0.selectedIds)
-					uv0.destroyConfirmView:ActionInvoke("SetConfirmBtnCB", function ()
-						uv0:unselecteAllEquips()
-					end)
-				end
+				onYes = slot0
 			})
 		else
 			slot0()
@@ -696,7 +700,8 @@ end
 
 function slot0.initEquipments(slot0)
 	slot0.isInitWeapons = true
-	slot0.equipmentRect = slot0.equipmentView:GetComponent("LScrollRect")
+	slot1 = slot0.equipmentView
+	slot0.equipmentRect = slot1:GetComponent("LScrollRect")
 
 	function slot0.equipmentRect.onInitItem(slot0)
 		uv0:initEquipment(slot0)
@@ -846,11 +851,13 @@ function slot0.filterEquipment(slot0)
 		end
 	end
 
+	slot5 = table.mergeArray({}, {
+		slot0.contextData.indexDatas.equipPropertyIndex,
+		slot0.contextData.indexDatas.equipPropertyIndex2
+	}, true)
+
 	for slot9, slot10 in pairs(slot4) do
-		if (slot10.count > 0 or slot10.shipId) and slot0:checkFitBusyCondition(slot10) and IndexConst.filterEquipByType(slot10, slot0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(slot10, table.mergeArray({}, {
-			slot0.contextData.indexDatas.equipPropertyIndex,
-			slot0.contextData.indexDatas.equipPropertyIndex2
-		}, true)) and IndexConst.filterEquipAmmo1(slot10, slot0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot10, slot0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot10, slot0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(slot10, slot0.contextData.indexDatas.rarityIndex) and IndexConst.filterEquipByExtra(slot10, slot0.contextData.indexDatas.extraIndex, slot0:GetShowBusyFlag()) then
+		if (slot10.count > 0 or slot10.shipId) and slot0:checkFitBusyCondition(slot10) and IndexConst.filterEquipByType(slot10, slot0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(slot10, slot5) and IndexConst.filterEquipAmmo1(slot10, slot0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot10, slot0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot10, slot0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(slot10, slot0.contextData.indexDatas.rarityIndex) and IndexConst.filterEquipByExtra(slot10, slot0.contextData.indexDatas.extraIndex, slot0:GetShowBusyFlag()) then
 			table.insert(slot0.loadEquipmentVOs, slot10)
 		end
 	end
@@ -987,7 +994,8 @@ end
 
 function slot0.initItems(slot0)
 	slot0.isInitItems = true
-	slot0.itemRect = slot0.itemView:GetComponent("LScrollRect")
+	slot1 = slot0.itemView
+	slot0.itemRect = slot1:GetComponent("LScrollRect")
 
 	function slot0.itemRect.onInitItem(slot0)
 		uv0:initItem(slot0)
@@ -1061,8 +1069,10 @@ function slot0.returnItem(slot0, slot1, slot2)
 end
 
 function slot0.selectCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0.selectedIds) do
-		slot1 = 0 + slot6[2]
+		slot1 = slot1 + slot6[2]
 	end
 
 	return slot1
@@ -1137,11 +1147,14 @@ function slot0.unselecteAllEquips(slot0)
 end
 
 function slot0.checkDestroyGold(slot0, slot1, slot2)
+	slot3 = 0
 	slot4 = false
 
 	for slot8, slot9 in pairs(slot0.selectedIds) do
+		slot10 = slot9[2]
+
 		if pg.equip_data_template[slot9[1]] then
-			slot3 = 0 + (slot11.destory_gold or 0) * slot9[2]
+			slot3 = slot3 + (slot11.destory_gold or 0) * slot10
 		end
 
 		if slot1 and slot9[1] == slot1.configId then
@@ -1182,8 +1195,10 @@ function slot0.updateSelected(slot0)
 	end
 
 	if slot0.mode == StoreHouseConst.DESTROY then
+		slot1 = slot0:selectCount()
+
 		if slot0.selectedMax == 0 then
-			setText(findTF(slot0.selectPanel, "bottom_info/bg_input/count"), slot0:selectCount())
+			setText(findTF(slot0.selectPanel, "bottom_info/bg_input/count"), slot1)
 		else
 			setText(findTF(slot0.selectPanel, "bottom_info/bg_input/count"), slot1 .. "/" .. slot0.selectedMax)
 		end

@@ -20,7 +20,8 @@ function slot0.init(slot0)
 		slot0["map_" .. go(slot5).name] = slot5
 	end
 
-	slot0._shipTpl = slot0._map:Find("ship")
+	slot1 = slot0._map
+	slot0._shipTpl = slot1:Find("ship")
 	slot0.containers = {
 		slot0.map_middle
 	}
@@ -57,7 +58,9 @@ function slot0.RegisterDataResponse(slot0)
 	slot0.Respones:SetRawData("view", slot0)
 
 	for slot5, slot6 in ipairs(_.values(slot0.Buildings)) do
-		slot0.Respones:AddRawListener({
+		slot7 = slot0.Respones
+
+		slot7:AddRawListener({
 			"view",
 			slot6
 		}, function (slot0, slot1)
@@ -82,7 +85,9 @@ function slot0.RegisterDataResponse(slot0)
 	table.insertto(slot2, slot1)
 
 	for slot6, slot7 in ipairs(slot2) do
-		slot0.Respones:AddRawListener({
+		slot8 = slot0.Respones
+
+		slot8:AddRawListener({
 			"view",
 			slot7 .. "Tip"
 		}, function (slot0, slot1)
@@ -95,8 +100,9 @@ function slot0.RegisterDataResponse(slot0)
 	end
 
 	slot0.Respones.hubData = {}
+	slot3 = slot0.Respones
 
-	slot0.Respones:AddRawListener({
+	slot3:AddRawListener({
 		"view",
 		"hubData"
 	}, function (slot0, slot1)
@@ -104,7 +110,10 @@ function slot0.RegisterDataResponse(slot0)
 	end, {
 		strict = true
 	})
-	slot0.Respones:AddRawListener({
+
+	slot3 = slot0.Respones
+
+	slot3:AddRawListener({
 		"view",
 		"materialCount"
 	}, function (slot0, slot1)
@@ -113,19 +122,28 @@ function slot0.RegisterDataResponse(slot0)
 end
 
 function slot0.didEnter(slot0)
-	onButton(slot0, slot0.top:Find("Back"), function ()
+	slot3 = slot0.top
+
+	onButton(slot0, slot3:Find("Back"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end)
-	onButton(slot0, slot0.top:Find("Home"), function ()
+
+	slot3 = slot0.top
+
+	onButton(slot0, slot3:Find("Home"), function ()
 		uv0:emit(uv1.ON_HOME)
 	end)
-	onButton(slot0, slot0.top:Find("Help"), function ()
+
+	slot3 = slot0.top
+
+	onButton(slot0, slot3:Find("Help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.activity_event_building.tip
 		})
 	end)
 
+	slot3 = slot0.top
 	slot5 = "Invitation"
 
 	function slot4()
@@ -136,7 +154,7 @@ function slot0.didEnter(slot0)
 		end
 	end
 
-	onButton(slot0, slot0.top:Find(slot5), slot4)
+	onButton(slot0, slot3:Find(slot5), slot4)
 
 	for slot4, slot5 in pairs(slot0.Buildings) do
 		slot0:InitFacilityCross(slot0._map, slot0._upper, slot5, function ()

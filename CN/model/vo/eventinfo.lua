@@ -99,8 +99,10 @@ function slot0.getTypesStr(slot0)
 	if slot3 then
 		return i18n("event_type_unlimit")
 	else
+		slot4 = ""
+
 		for slot8, slot9 in ipairs(slot2) do
-			slot4 = "" .. slot1[slot9].type_name .. (slot8 == #slot0.template.ship_type and "" or "、")
+			slot4 = slot4 .. slot1[slot9].type_name .. (slot8 == #slot0.template.ship_type and "" or "、")
 		end
 
 		return i18n("event_condition_ship_type", slot4)
@@ -114,7 +116,9 @@ function slot0.ExistPrevFormation(slot0)
 end
 
 function slot0.GetPrevFormation(slot0)
-	return _.map(string.split(PlayerPrefs.GetString(uv0 .. getProxy(PlayerProxy):getRawData().id), "#"), function (slot0)
+	slot1 = getProxy(PlayerProxy)
+
+	return _.map(string.split(PlayerPrefs.GetString(uv0 .. slot1:getRawData().id), "#"), function (slot0)
 		return tonumber(slot0)
 	end)
 end

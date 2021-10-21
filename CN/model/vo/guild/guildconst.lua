@@ -130,8 +130,10 @@ function slot0.GET_TECHNOLOGY_GROUP_DESC(slot0, slot1, slot2)
 end
 
 function slot0.GET_TECHNOLOGY_DESC(slot0, slot1)
+	slot1 = "<color=" .. COLOR_GREEN .. ">" .. slot1 .. "</color>"
+
 	if slot0[1] == GuildConst.TYPE_GOLD_MAX then
-		return i18n("guild_tech_gold_desc", "<color=" .. COLOR_GREEN .. ">" .. slot1 .. "</color>")
+		return i18n("guild_tech_gold_desc", slot1)
 	elseif slot2 == GuildConst.TYPE_OIL_MAX then
 		return i18n("guild_tech_oil_desc", slot1)
 	elseif slot2 == GuildConst.TYPE_SHIP_BAG then

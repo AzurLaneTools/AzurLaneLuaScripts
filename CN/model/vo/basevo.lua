@@ -11,11 +11,17 @@ function slot0.display(slot0, slot1, slot2)
 		return
 	end
 
+	slot3 = slot0.__cname .. " id: " .. tostring(slot0.id) .. " " .. (slot1 or ".")
+
 	for slot7, slot8 in pairs(slot0) do
 		if slot7 ~= "class" then
+			slot3 = slot3 .. "\n" .. slot7 .. ":" .. tostring(slot8)
+
 			if type(slot8) == "table" then
+				slot3 = slot3 .. " ["
+
 				for slot13, slot14 in pairs(slot8) do
-					slot3 = slot0.__cname .. " id: " .. tostring(slot0.id) .. " " .. (slot1 or ".") .. "\n" .. slot7 .. ":" .. tostring(slot8) .. " [" .. tostring(slot14) .. ", "
+					slot3 = slot3 .. tostring(slot14) .. ", "
 				end
 
 				slot3 = slot3 .. "]"

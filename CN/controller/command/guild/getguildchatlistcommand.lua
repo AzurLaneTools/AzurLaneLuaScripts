@@ -8,13 +8,17 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(60100, {
+	slot6 = pg.ConnectionMgr.GetInstance()
+
+	slot6:Send(60100, {
 		count = slot3
 	}, 60101, function (slot0)
 		uv0.isGetChatMsg = true
 		slot1 = {}
+		slot2 = ipairs
+		slot3 = slot0.chat_list or {}
 
-		for slot5, slot6 in ipairs(slot0.chat_list or {}) do
+		for slot5, slot6 in slot2(slot3) do
 			uv0:addMsg(uv1:warpChatInfo(slot6))
 		end
 

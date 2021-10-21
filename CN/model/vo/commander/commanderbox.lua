@@ -64,8 +64,10 @@ function slot0.getPrefab(slot0)
 	end
 
 	if slot0.pool then
+		slot1 = slot0.rarity2Str[slot0.pool:getRarity()]
+
 		if slot0:getState() == uv0.STATE_WAITING then
-			return slot0.rarity2Str[slot0.pool:getRarity()] .. "NekoBox1"
+			return slot1 .. "NekoBox1"
 		elseif slot2 == uv0.STATE_STARTING then
 			return slot1 .. "NekoBox2"
 		elseif slot2 == uv0.STATE_FINISHED then

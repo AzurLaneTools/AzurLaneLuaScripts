@@ -7,7 +7,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(25026, {
+	slot4 = pg.ConnectionMgr.GetInstance()
+
+	slot4:Send(25026, {
 		type = 0
 	}, 25027, function (slot0)
 		uv0:AddCommanderHome(CommanderHome.New(slot0))

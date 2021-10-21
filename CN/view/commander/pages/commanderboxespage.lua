@@ -28,9 +28,11 @@ function slot0.OnInit(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.startBtn, function ()
+		slot0 = 0
+
 		for slot4, slot5 in ipairs(uv0.boxes) do
 			if slot5:getState() == CommanderBox.STATE_EMPTY then
-				slot0 = 0 + 1
+				slot0 = slot0 + 1
 			end
 		end
 
@@ -160,7 +162,10 @@ end
 function slot0.OnDestroy(slot0)
 	slot0:Hide()
 
-	for slot4, slot5 in pairs(slot0.boxCards or {}) do
+	slot1 = pairs
+	slot2 = slot0.boxCards or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:Destroy()
 	end
 

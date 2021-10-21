@@ -37,8 +37,10 @@ function slot0.init(slot0)
 	table.insert(slot0._loadingRequest, LoadPrefabRequestPackage.New("ui/" .. slot1, slot1, function (slot0)
 		setParent(slot0, uv0._map)
 
+		slot2 = GameObject.Find("UICamera/Canvas"):GetComponent(typeof(Canvas)).sortingOrder
+
 		for slot7 = 0, slot0:GetComponentsInChildren(typeof(Renderer)).Length - 1 do
-			slot3[slot7].sortingOrder = GameObject.Find("UICamera/Canvas"):GetComponent(typeof(Canvas)).sortingOrder + 1
+			slot3[slot7].sortingOrder = slot2 + 1
 		end
 	end):Start())
 end
@@ -148,8 +150,10 @@ function slot0.InitFacility(slot0, slot1, slot2)
 end
 
 function slot0.getStudents(slot0)
+	slot1 = {}
+
 	if not getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID) then
-		return {}
+		return slot1
 	end
 
 	if slot3:getConfig("config_client") and slot4.stage_off_ship then
@@ -282,10 +286,11 @@ function slot0.clearStudents(slot0)
 end
 
 function slot0.Clone2Full(slot0, slot1, slot2)
+	slot3 = {}
 	slot4 = slot1:GetChild(0)
 
 	for slot9 = 0, slot1.childCount - 1 do
-		table.insert({}, slot1:GetChild(slot9))
+		table.insert(slot3, slot1:GetChild(slot9))
 	end
 
 	for slot9 = slot5, slot2 - 1 do

@@ -127,9 +127,10 @@ end
 
 function slot4.createBox(slot0, slot1)
 	slot2, slot3, slot4 = nil
+	slot3 = slot1:GetIFF() == 1 and "_friendly" or "_foe"
 
 	if slot1:GetBoxSize().range then
-		slot2 = slot0._sceneMediator:InstantiateCharacterComponent("Cylinder" .. (slot1:GetIFF() == 1 and "_friendly" or "_foe"))
+		slot2 = slot0._sceneMediator:InstantiateCharacterComponent("Cylinder" .. slot3)
 	else
 		slot2 = slot0._sceneMediator:InstantiateCharacterComponent("Cube" .. slot3)
 		slot5 = slot5 * 2

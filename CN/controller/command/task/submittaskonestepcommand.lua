@@ -33,7 +33,9 @@ function slot0.execute(slot0, slot1)
 		table.insert(slot6, slot14)
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(20011, {
+	slot9 = pg.ConnectionMgr.GetInstance()
+
+	slot9:Send(20011, {
 		id_list = slot6
 	}, 20012, function (slot0)
 		for slot5, slot6 in ipairs(slot0.id_list) do
@@ -69,7 +71,9 @@ function slot0.execute(slot0, slot1)
 		uv1 = PlayerConst.addTranDrop(slot0.award_list)
 
 		if not uv2 then
-			uv3:sendNotification(GAME.SUBMIT_TASK_DONE, uv1, _.map(uv4, function (slot0)
+			slot2 = uv3
+
+			slot2:sendNotification(GAME.SUBMIT_TASK_DONE, uv1, _.map(uv4, function (slot0)
 				return slot0.id
 			end))
 		end

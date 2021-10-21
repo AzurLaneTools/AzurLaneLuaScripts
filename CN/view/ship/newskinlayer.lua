@@ -108,9 +108,12 @@ function slot0.setSkinPri(slot0, slot1)
 	slot0._skinConfig = pg.ship_skin_template[slot1]
 	slot3 = pg.ship_skin_template[slot1].ship_group
 	slot4 = pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1]
+	slot5 = nil
 
 	if (not slot0._skinConfig.bg_sp or slot0._skinConfig.bg_sp == "" or slot0._skinConfig.bg_sp) and (slot0._skinConfig.bg and #slot0._skinConfig.bg > 0 and slot0._skinConfig.bg or slot0._skinConfig.rarity_bg and #slot0._skinConfig.rarity_bg > 0 and slot0._skinConfig.rarity_bg) then
-		pg.DynamicBgMgr.GetInstance():LoadBg(slot0, nil, slot0._bg, slot0._staticBg, function (slot0)
+		slot6 = pg.DynamicBgMgr.GetInstance()
+
+		slot6:LoadBg(slot0, slot5, slot0._bg, slot0._staticBg, function (slot0)
 			uv0.isLoadBg = true
 		end, function (slot0)
 			uv0.isLoadBg = true
@@ -142,7 +145,10 @@ function slot0.setSkinPri(slot0, slot1)
 
 	SetActive(slot0._dialogue, false)
 	SetActive(slot0._dialogue, true)
-	LeanTween.scale(slot0._dialogue, Vector3(1, 1, 1), 0.1):setOnComplete(System.Action(function ()
+
+	slot9 = LeanTween.scale(slot0._dialogue, Vector3(1, 1, 1), 0.1)
+
+	slot9:setOnComplete(System.Action(function ()
 		setActive(uv0._shade, false)
 		setActive(uv0.clickTF, true)
 		uv0:voice(uv1)
@@ -218,22 +224,24 @@ function slot0.onSwitch(slot0, slot1, slot2)
 end
 
 function slot0.getSameGroupShips(slot0)
+	slot1 = {}
+	slot3 = pg.ship_skin_template[slot0.contextData.skinId].ship_group
+
 	for slot7, slot8 in pairs(slot0.shipVOs) do
-		if slot8.groupId == pg.ship_skin_template[slot0.contextData.skinId].ship_group then
-			-- Nothing
+		if slot8.groupId == slot3 then
+			slot1[slot8.id] = slot8
 		end
 	end
 
-	return {
-		[slot8.id] = slot8
-	}
+	return slot1
 end
 
 function slot0.paintView(slot0)
 	slot1 = {}
+	slot2 = slot0._shake.childCount
 	slot3 = 0
 
-	while slot0._shake.childCount > slot3 do
+	while slot2 > slot3 do
 		if slot0._shake:GetChild(slot3).gameObject.activeSelf and slot4 ~= slot0._paintingTF and slot4 ~= slot0._bg then
 			slot1[#slot1 + 1] = slot4
 
@@ -409,7 +417,10 @@ function slot0.openSelectPanel(slot0)
 end
 
 function slot0.updateShipCards(slot0)
-	for slot4, slot5 in pairs(slot0.shipCards or {}) do
+	slot1 = pairs
+	slot2 = slot0.shipCards or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		if slot0.sameShipVOs[slot4] then
 			slot5:update(slot6, slot0.contextData.skinId)
 		end
@@ -426,7 +437,9 @@ function slot0.closeSelectPanel(slot0)
 end
 
 function slot0.playOpening(slot0, slot1, slot2)
-	pg.CpkPlayMgr.GetInstance():PlayCpkMovie(function ()
+	slot3 = pg.CpkPlayMgr.GetInstance()
+
+	slot3:PlayCpkMovie(function ()
 	end, function ()
 		if uv0 then
 			uv0()

@@ -3,11 +3,12 @@ slot0 = class("UpdateExerciseFleetCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.fleet
+	slot4 = slot3.vanguardShips
 	slot6 = slot2.callback
 	slot9 = Clone(getProxy(MilitaryExerciseProxy):getExerciseFleet())
 	slot11 = getProxy(FleetProxy):getFleetById(1)
 
-	if table.getCount(slot3.mainShips) == 0 or table.getCount(slot3.vanguardShips) == 0 then
+	if table.getCount(slot3.mainShips) == 0 or table.getCount(slot4) == 0 then
 		slot4 = slot11.vanguardShips
 		slot5 = slot11.mainShips
 		slot0.resetFleet = true
@@ -17,7 +18,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(18008, {
+	slot12 = pg.ConnectionMgr.GetInstance()
+
+	slot12:Send(18008, {
 		vanguard_ship_id_list = slot4,
 		main_ship_id_list = slot5
 	}, 18009, function (slot0)

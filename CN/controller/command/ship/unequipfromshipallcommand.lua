@@ -8,10 +8,11 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot6 = #slot5.equipments
+	slot7 = 0
 
 	for slot11, slot12 in pairs(slot5.equipments) do
 		if slot12 then
-			slot7 = 0 + 1
+			slot7 = slot7 + 1
 		end
 	end
 
@@ -40,7 +41,9 @@ function slot0.fun(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(12006, {
+	slot6 = pg.ConnectionMgr.GetInstance()
+
+	slot6:Send(12006, {
 		equip_id = 0,
 		type = 0,
 		ship_id = slot1.id,

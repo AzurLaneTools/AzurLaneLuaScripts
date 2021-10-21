@@ -44,7 +44,8 @@ function slot0.init(slot0)
 	slot2 = slot0.layer:Find("bossname")
 	slot0.bossnameText = slot2:Find("name"):GetComponent(typeof(Text))
 	slot0.bossNameBanner = slot2:Find("name/banner")
-	slot0.bosslevel = slot0.bossNameBanner:Find("level")
+	slot3 = slot0.bossNameBanner
+	slot0.bosslevel = slot3:Find("level")
 	slot0.bosslogos = {
 		slot2:Find("name/bosslogo_01"),
 		slot2:Find("name/bosslogo_02")
@@ -276,10 +277,12 @@ function slot0.updateStageView(slot0)
 		y = slot0.attributeRootAnchorY - (slot10 == nil and uv1 or 0)
 	})
 
+	slot13 = _.filter(table.mergeArray(slot1:GetBuffList(), nowWorld:GetActiveMap():GetBuffList(WorldMap.FactionEnemy, slot1)), function (slot0)
+		return slot0.id ~= uv0
+	end)
+
 	for slot17 = 1, #slot0.buffs do
-		slot18 = _.filter(table.mergeArray(slot1:GetBuffList(), nowWorld:GetActiveMap():GetBuffList(WorldMap.FactionEnemy, slot1)), function (slot0)
-			return slot0.id ~= uv0
-		end)[slot17]
+		slot18 = slot13[slot17]
 
 		setActive(slot0.buffs[slot17], slot18)
 
@@ -387,9 +390,11 @@ function slot0.updateStageView(slot0)
 		if slot4.icon_type == 1 then
 			slot0.loader:GetSprite("enemies/" .. slot4.icon, nil, slot0.bosssprite)
 		elseif slot29 == 2 then
-			slot0.bosssprite:GetComponent(typeof(Image)).enabled = false
+			slot30 = slot0.bosssprite
+			slot30:GetComponent(typeof(Image)).enabled = false
+			slot30 = slot0.loader
 
-			slot0.loader:GetSpine(slot4.icon, function (slot0)
+			slot30:GetSpine(slot4.icon, function (slot0)
 				slot1 = uv0.battle_spine_size * 0.01
 				slot0.transform.localScale = Vector3(slot1, slot1, 1)
 				slot0.transform.anchoredPosition = Vector3.New(0, -150, 0)
@@ -423,10 +428,11 @@ function slot0.willExit(slot0)
 end
 
 function slot0.Clone2Full(slot0, slot1)
+	slot2 = {}
 	slot3 = slot0:GetChild(0)
 
 	for slot8 = 0, slot0.childCount - 1 do
-		table.insert({}, slot0:GetChild(slot8))
+		table.insert(slot2, slot0:GetChild(slot8))
 	end
 
 	for slot8 = slot4, slot1 - 1 do

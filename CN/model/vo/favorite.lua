@@ -15,11 +15,12 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.getStarCount(slot0, slot1)
+	slot2 = 0
 	slot6 = "char_list"
 
 	for slot6, slot7 in pairs(slot0:getConfig(slot6)) do
 		if slot1[slot7] then
-			slot2 = 0 + slot1[slot7].star
+			slot2 = slot2 + slot1[slot7].star
 		end
 	end
 
@@ -41,12 +42,13 @@ function slot0.isFetchAll(slot0, slot1)
 end
 
 function slot0.canGetRes(slot0, slot1, slot2)
+	slot5 = slot0:getStarCount(slot1)
 	slot6 = false
 
 	if slot0:getNextAwardIndex(slot2) <= #slot0:getConfig("award_display") then
 		slot6 = true
 
-		if slot0:getConfig("level")[slot3] <= slot0:getStarCount(slot1) then
+		if slot0:getConfig("level")[slot3] <= slot5 then
 			return true
 		end
 	end
@@ -69,8 +71,11 @@ function slot0.getState(slot0, slot1, slot2)
 end
 
 function slot0.getAwardState(slot0, slot1, slot2, slot3)
+	slot4 = slot2[slot0.id] or 0
+	slot6 = slot0:getConfig("award_display")
+
 	if slot0:getConfig("level")[slot3] <= slot0:getStarCount(slot1) then
-		return (slot2[slot0.id] or 0) < slot3 and (slot0:getConfig("award_display")[slot3] and uv0.STATE_AWARD or uv0.STATE_LOCK) or uv0.STATE_FETCHED
+		return slot4 < slot3 and (slot6[slot3] and uv0.STATE_AWARD or uv0.STATE_LOCK) or uv0.STATE_FETCHED
 	else
 		return slot6[slot3] and uv0.STATE_WAIT or uv0.STATE_LOCK
 	end

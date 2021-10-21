@@ -19,10 +19,11 @@ function slot3.CalculateRandTargetPosition(slot0, slot1, slot2)
 	end
 
 	slot8 = math.max(0, (slot4.randomOffsetZ or 0) - slot6)
+	slot9 = slot4.offsetX or 0
 	slot10 = slot4.offsetZ or 0
 
 	if math.max(0, (slot4.randomOffsetX or 0) - slot6) ~= 0 then
-		slot7 = slot7 * (math.random() - 0.5) + (slot4.offsetX or 0)
+		slot7 = slot7 * (math.random() - 0.5) + slot9
 	end
 
 	if slot8 ~= 0 then

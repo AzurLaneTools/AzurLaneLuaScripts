@@ -2,26 +2,37 @@ slot0 = class("CommanderPlayPanel", import("...base.BasePanel"))
 
 function slot0.init(slot0)
 	slot0.skillTF = slot0:findTF("skill/frame")
-	slot0.skillNameTxt = slot0:findTF("name", slot0.skillTF):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("name", slot0.skillTF)
+	slot0.skillNameTxt = slot1:GetComponent(typeof(Text))
 	slot0.skillIcon = slot0:findTF("icon/Image", slot0.skillTF)
-	slot0.skilllvTxt = slot0:findTF("level_container/level", slot0.skillTF):GetComponent(typeof(Text))
-	slot0.skillAdditionTxt = slot0:findTF("level_container/addition", slot0.skillTF):GetComponent(typeof(Text))
-	slot0.expTxt = slot0:findTF("exp/Text", slot0.skillTF):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("level_container/level", slot0.skillTF)
+	slot0.skilllvTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0:findTF("level_container/addition", slot0.skillTF)
+	slot0.skillAdditionTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0:findTF("exp/Text", slot0.skillTF)
+	slot0.expTxt = slot1:GetComponent(typeof(Text))
 	slot0.descBtn = slot0:findTF("skill/frame/desc")
 	slot0.descPage = slot0:findTF("skill_desc")
 	slot0.descToggle = slot0:findTF("tags", slot0.descPage)
-	slot0.descToggleMark = slot0.descToggle:Find("sel")
+	slot1 = slot0.descToggle
+	slot0.descToggleMark = slot1:Find("sel")
 	slot0.skillDescList = UIItemList.New(slot0:findTF("content/list", slot0.descPage), slot0:findTF("content/list/tpl", slot0.descPage))
 
 	setActive(slot0.descPage, false)
 
-	slot0.commanderLvTxt = slot0:findTF("select_panel/exp_bg/level_bg/Text"):GetComponent(typeof(Text))
-	slot0.levelAdditonTxt = slot0:findTF("select_panel/exp_bg/level_bg/addition"):GetComponent(typeof(Text))
-	slot0.preExpSlider = slot0:findTF("select_panel/exp_bg/slider"):GetComponent(typeof(Slider))
-	slot0.expSlider = slot0:findTF("select_panel/exp_bg/slider/exp"):GetComponent(typeof(Slider))
-	slot0.sliderExpTxt = slot0:findTF("select_panel/exp_bg/slider/Text"):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("select_panel/exp_bg/level_bg/Text")
+	slot0.commanderLvTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0:findTF("select_panel/exp_bg/level_bg/addition")
+	slot0.levelAdditonTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0:findTF("select_panel/exp_bg/slider")
+	slot0.preExpSlider = slot1:GetComponent(typeof(Slider))
+	slot1 = slot0:findTF("select_panel/exp_bg/slider/exp")
+	slot0.expSlider = slot1:GetComponent(typeof(Slider))
+	slot1 = slot0:findTF("select_panel/exp_bg/slider/Text")
+	slot0.sliderExpTxt = slot1:GetComponent(typeof(Text))
 	slot0.uilist = UIItemList.New(slot0:findTF("select_panel/frame/list"), slot0:findTF("select_panel/frame/list/commandeTF"))
-	slot0.consumeTxt = slot0:findTF("select_panel/consume/Text"):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("select_panel/consume/Text")
+	slot0.consumeTxt = slot1:GetComponent(typeof(Text))
 	slot0.confirmBtn = slot0:findTF("select_panel/confirm_btn")
 
 	onButton(nil, slot0.descBtn, function ()
@@ -38,7 +49,10 @@ function slot0.init(slot0)
 
 		setActive(uv0.descBtn:Find("sel"), uv0.isOpenDescPage)
 	end, SFX_PANEL)
-	setActive(slot0.descBtn:Find("sel"), false)
+
+	slot2 = slot0.descBtn
+
+	setActive(slot2:Find("sel"), false)
 
 	slot0.commonFlag = true
 
@@ -106,11 +120,14 @@ end
 
 function slot0.getSkillExpAndCommanderExp(slot0, slot1)
 	slot2 = slot0
+	slot3 = 0
+	slot4 = 0
+	slot5 = getProxy(CommanderProxy)
 
 	for slot9, slot10 in pairs(slot1) do
-		slot11 = getProxy(CommanderProxy):getCommanderById(slot10)
-		slot4 = 0 + slot11:getDestoryedExp(slot2.groupId)
-		slot3 = 0 + slot11:getDestoryedSkillExp(slot2.groupId)
+		slot11 = slot5:getCommanderById(slot10)
+		slot4 = slot4 + slot11:getDestoryedExp(slot2.groupId)
+		slot3 = slot3 + slot11:getDestoryedSkillExp(slot2.groupId)
 	end
 
 	return math.floor(slot4), math.floor(slot3)
@@ -234,8 +251,10 @@ function slot0.updateConsume(slot0, slot1)
 	end
 
 	function slot5()
+		slot0 = {}
+
 		if uv0() then
-			table.insert({}, i18n("commander_material_is_rarity"))
+			table.insert(slot0, i18n("commander_material_is_rarity"))
 		end
 
 		if uv1.expOverflow then
@@ -270,8 +289,11 @@ function slot0.updateConsume(slot0, slot1)
 end
 
 function slot0.calcConsume(slot0, slot1)
+	slot2 = getProxy(CommanderProxy)
+	slot3 = 0
+
 	for slot7, slot8 in ipairs(slot1) do
-		slot3 = 0 + getProxy(CommanderProxy):getCommanderById(slot8):getUpgradeConsume()
+		slot3 = slot3 + slot2:getCommanderById(slot8):getUpgradeConsume()
 	end
 
 	return slot3
@@ -283,7 +305,8 @@ function slot0.playAnim(slot0, slot1, slot2, slot3)
 	slot0.preExpSlider.value = 0
 
 	function slot5()
-		slot0 = uv0:getNextLevelExp()
+		slot0 = uv0
+		slot0 = slot0:getNextLevelExp()
 
 		TweenValue(go(uv1.expSlider), 0, uv0.exp, uv2, 0, function (slot0)
 			uv0.expSlider.value = slot0 / uv1

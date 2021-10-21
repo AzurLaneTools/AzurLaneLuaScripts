@@ -25,8 +25,10 @@ function slot0.CheaterVertify()
 end
 
 function slot0.GeneralPackage(slot0, slot1)
+	slot2 = 0
 	slot3 = {}
 	slot5 = nil
+	slot7 = slot0.system + ((slot0.system ~= SYSTEM_DUEL or slot0.rivalId) and (slot0.system ~= SYSTEM_WORLD_BOSS or slot0.bossId) and slot0.stageId) + slot0.statistics._battleScore
 
 	for slot11, slot12 in ipairs(slot1) do
 		if slot0.statistics[slot12.id] then
@@ -44,8 +46,8 @@ function slot0.GeneralPackage(slot0, slot1)
 				ship_gear_score = math.floor(slot13.gearScore)
 			})
 
-			slot7 = slot0.system + ((slot0.system ~= SYSTEM_DUEL or slot0.rivalId) and (slot0.system ~= SYSTEM_WORLD_BOSS or slot0.bossId) and slot0.stageId) + slot0.statistics._battleScore + slot14 + slot15 + slot16 + slot18
-			slot2 = 0 + slot12:getShipCombatPower()
+			slot7 = slot7 + slot14 + slot15 + slot16 + slot18
+			slot2 = slot2 + slot12:getShipCombatPower()
 		end
 	end
 
@@ -69,7 +71,9 @@ function slot0.GeneralPackage(slot0, slot1)
 end
 
 function slot0.SendRequest(slot0, slot1, slot2)
-	pg.ConnectionMgr.GetInstance():Send(40003, slot1, 40004, function (slot0)
+	slot3 = pg.ConnectionMgr.GetInstance()
+
+	slot3:Send(40003, slot1, 40004, function (slot0)
 		if slot0.result == 0 or slot0.result == 1030 then
 			uv0(slot0)
 		else
@@ -115,13 +119,14 @@ function slot0.addShipsExp(slot0, slot1, slot2)
 end
 
 function slot0.DeadShipEnergyCosume(slot0, slot1)
+	slot2 = pg.gameset.battle_dead_energy.key_value
 	slot3 = getProxy(BayProxy)
 
 	for slot7, slot8 in ipairs(slot1) do
 		if slot0.statistics[slot8.id] and slot9.bp == 0 then
 			slot10 = slot3:getShipById(slot8.id)
 
-			slot10:cosumeEnergy(pg.gameset.battle_dead_energy.key_value)
+			slot10:cosumeEnergy(slot2)
 			slot3:updateShip(slot10)
 		end
 	end
@@ -183,18 +188,20 @@ end
 function slot0.GenerateCommanderExp(slot0, slot1)
 	slot3 = getProxy(CommanderProxy)
 	slot4 = slot1:getCommanders()
+	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot0.commander_exp) do
 		slot13 = slot3:getCommanderById(slot10.commander_id)
+		slot14 = slot13.exp
 
 		slot13:addExp(slot10.exp)
 		slot3:updateCommander(slot13)
 
 		if slot13:isMaxLevel() then
-			table.insert({}, {
+			table.insert(slot5, {
 				exp = 0,
 				commander_id = slot11,
-				curExp = slot13.exp
+				curExp = slot14
 			})
 		else
 			table.insert(slot5, {
@@ -207,9 +214,10 @@ function slot0.GenerateCommanderExp(slot0, slot1)
 
 	slot6 = {}
 	slot7 = {}
+	slot8 = {}
 
 	for slot12, slot13 in pairs(slot4) do
-		table.insert({}, slot13.id)
+		table.insert(slot8, slot13.id)
 	end
 
 	for slot12, slot13 in ipairs(slot5) do

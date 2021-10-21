@@ -75,7 +75,9 @@ function slot1.cancelAll(slot0)
 end
 
 function slot1.PushAll(slot0)
-	if PLATFORM_CODE == PLATFORM_US and uv0.SdkMgr.GetInstance():GetChannelUID() == "0" and CSharpVersion == 45 then
+	slot1 = uv0.SdkMgr.GetInstance():GetChannelUID() == "0"
+
+	if PLATFORM_CODE == PLATFORM_US and slot1 and CSharpVersion == 45 then
 		return
 	end
 
@@ -132,10 +134,12 @@ function slot1.PushGold(slot0)
 	slot1 = getProxy(NavalAcademyProxy):GetGoldVO()
 	slot2 = slot1:bindConfigTable()
 	slot3 = slot1:GetLevel()
+	slot5 = slot2[slot3].production
 	slot6 = slot2[slot3].hour_time
 	slot7 = getProxy(PlayerProxy).data
+	slot8 = slot7.resUpdateTm
 
-	if slot7.goldField < slot2[slot3].store and uv0.TimeMgr.GetInstance():GetServerTime() < slot7.resUpdateTm + (slot4 - slot9) / slot2[slot3].production * 60 * 60 / 3 then
+	if slot7.goldField < slot2[slot3].store and uv0.TimeMgr.GetInstance():GetServerTime() < slot8 + (slot4 - slot9) / slot5 * 60 * 60 / 3 then
 		slot11 = uv0.push_data_template[slot0.PUSH_TYPE_GOLD]
 
 		slot0:Push(slot11.title, slot11.content, slot10)
@@ -146,10 +150,12 @@ function slot1.PushOil(slot0)
 	slot1 = getProxy(NavalAcademyProxy):GetOilVO()
 	slot2 = slot1:bindConfigTable()
 	slot3 = slot1:GetLevel()
+	slot5 = slot2[slot3].production
 	slot6 = slot2[slot3].hour_time
 	slot7 = getProxy(PlayerProxy).data
+	slot8 = slot7.resUpdateTm
 
-	if slot7.oilField < slot2[slot3].store and uv0.TimeMgr.GetInstance():GetServerTime() < slot7.resUpdateTm + (slot4 - slot9) / slot2[slot3].production * 60 * 60 / 3 then
+	if slot7.oilField < slot2[slot3].store and uv0.TimeMgr.GetInstance():GetServerTime() < slot8 + (slot4 - slot9) / slot5 * 60 * 60 / 3 then
 		slot11 = uv0.push_data_template[slot0.PUSH_TYPE_OIL]
 
 		slot0:Push(slot11.title, slot11.content, slot10)
@@ -166,10 +172,11 @@ end
 
 function slot1.PushSchool(slot0)
 	slot2 = uv0.push_data_template[slot0.PUSH_TYPE_SCHOOL]
+	slot4 = getProxy(BayProxy):getData()
 
 	for slot8, slot9 in ipairs(getProxy(NavalAcademyProxy):getStudents()) do
 		if uv0.TimeMgr.GetInstance():GetServerTime() < slot9.finishTime then
-			slot10 = getProxy(BayProxy):getData()[slot9.shipId]
+			slot10 = slot4[slot9.shipId]
 			slot12 = slot10.skills[slot9:getSkillId(slot10)]
 
 			slot0:Push(slot2.title, string.gsub(string.gsub(slot2.content, "$1", slot10:getName()), "$2", getSkillName(slot9:getSkillId(slot10))), slot9.finishTime)
@@ -193,11 +200,14 @@ end
 
 function slot1.PushBluePrint(slot0)
 	slot2 = getProxy(TechnologyProxy)
+	slot3 = getProxy(TaskProxy)
 
-	if uv0.push_data_template[uv1.PUSH_TYPE_BLUEPRINT] and slot2 and getProxy(TaskProxy) and slot2:getBuildingBluePrint() then
+	if uv0.push_data_template[uv1.PUSH_TYPE_BLUEPRINT] and slot2 and slot3 and slot2:getBuildingBluePrint() then
 		for slot9, slot10 in ipairs(slot4:getTaskIds()) do
 			if uv0.TimeMgr.GetInstance():GetServerTime() < slot4:getTaskOpenTimeStamp(slot10) then
-				if not (slot3:getTaskById(slot10) or slot3:getFinishTaskById(slot10)) and slot3:isFinishPrevTasks(slot10) then
+				slot13 = slot3:isFinishPrevTasks(slot10)
+
+				if not (slot3:getTaskById(slot10) or slot3:getFinishTaskById(slot10)) and slot13 then
 					slot0:Push(slot1.title, string.gsub(slot1.content, "$1", slot4:getShipVO():getConfig("name")), slot11)
 				end
 			end

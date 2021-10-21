@@ -24,7 +24,8 @@ end
 
 function slot0.init(slot0)
 	slot0.buttonsPanel = slot0:findTF("buttons_panel")
-	slot0.toggleGroup = slot0:findTF("buttons_panel"):GetComponent(typeof(ToggleGroup))
+	slot1 = slot0:findTF("buttons_panel")
+	slot0.toggleGroup = slot1:GetComponent(typeof(ToggleGroup))
 	slot0.chatPanel = slot0:findTF("chat")
 
 	setActive(slot0.chatPanel, false)
@@ -72,8 +73,11 @@ function slot0.didEnter(slot0)
 				return
 			end
 
-			pg.UIMgr.GetInstance():LoadingOn()
-			uv1.pages[uv0]:ExecuteAction("Show", uv1.guildVO, uv1.playerVO, uv1.memberVO, function ()
+			slot0 = uv1.pages[uv0]
+			slot1 = pg.UIMgr.GetInstance()
+
+			slot1:LoadingOn()
+			slot0:ExecuteAction("Show", uv1.guildVO, uv1.playerVO, uv1.memberVO, function ()
 				if uv0.page then
 					uv0.page:Hide()
 				end
@@ -86,7 +90,10 @@ function slot0.didEnter(slot0)
 				pg.UIMgr.GetInstance():LoadingOff()
 			end)
 		end, SFX_PANEL)
-		slot0.pages[slot5]:SetCallBack(function (slot0)
+
+		slot7 = slot0.pages[slot5]
+
+		slot7:SetCallBack(function (slot0)
 			uv0.buttonsPanel.localPosition = slot0
 
 			setParent(uv0.buttonsPanel, pg.UIMgr:GetInstance().OverlayMain)

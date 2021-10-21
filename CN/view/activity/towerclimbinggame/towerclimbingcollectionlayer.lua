@@ -25,7 +25,9 @@ slot3 = 1
 slot4 = 2
 
 function slot0.IsGotAward(slot0, slot1)
-	for slot7, slot8 in ipairs(slot0.miniGameData:GetRuntimeData("kvpElements")[1] or {}) do
+	slot3 = slot0.miniGameData:GetRuntimeData("kvpElements")[1] or {}
+
+	for slot7, slot8 in ipairs(slot3) do
 		if slot8.key == slot1 and slot8.value == 1 then
 			return true
 		end

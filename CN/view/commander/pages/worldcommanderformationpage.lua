@@ -9,20 +9,26 @@ function slot0.OnInit(slot0)
 
 	setActive(slot0.samllTF, true)
 
-	slot0.pos1 = slot0.samllTF:Find("commander1")
-	slot0.pos2 = slot0.samllTF:Find("commander2")
-	slot0.smallSalvageMask = slot0.samllTF:Find("salvage_mask")
+	slot1 = slot0.samllTF
+	slot0.pos1 = slot1:Find("commander1")
+	slot1 = slot0.samllTF
+	slot0.pos2 = slot1:Find("commander2")
+	slot1 = slot0.samllTF
+	slot0.smallSalvageMask = slot1:Find("salvage_mask")
+	slot2 = slot0.smallSalvageMask
 
-	setText(slot0.smallSalvageMask:Find("text_bg/Text"), i18n("world_catsearch_help_4"))
+	setText(slot2:Find("text_bg/Text"), i18n("world_catsearch_help_4"))
 
 	slot0.descPanel = slot0:findTF("desc")
 
 	setActive(slot0.descPanel, false)
 
 	slot0.descFrameTF = slot0:findTF("desc/frame")
-	slot0.descSalvageMask = slot0.descFrameTF:Find("salvage_mask")
+	slot1 = slot0.descFrameTF
+	slot0.descSalvageMask = slot1:Find("salvage_mask")
+	slot2 = slot0.descSalvageMask
 
-	setText(slot0.descSalvageMask:Find("text_bg/Text"), i18n("world_catsearch_help_5"))
+	setText(slot2:Find("text_bg/Text"), i18n("world_catsearch_help_5"))
 
 	slot0.descPos1 = slot0:findTF("commander1/frame/info", slot0.descFrameTF)
 	slot0.descPos2 = slot0:findTF("commander2/frame/info", slot0.descFrameTF)
@@ -49,9 +55,10 @@ end
 
 function slot0.Update(slot0, slot1)
 	slot0.fleet = slot1
+	slot2 = slot0.fleet:getCommanders()
 
 	for slot6 = 1, CommanderConst.MAX_FORMATION_POS do
-		slot0:updateCommander(slot0["pos" .. slot6], slot6, slot0.fleet:getCommanders()[slot6])
+		slot0:updateCommander(slot0["pos" .. slot6], slot6, slot2[slot6])
 	end
 
 	slot0:updateDesc()
@@ -93,7 +100,10 @@ function slot0.closeDescPanel(slot0, slot1)
 	setAnchoredPosition(slot0.descFrameTF, {
 		x = 0
 	})
-	LeanTween.moveX(slot0.descFrameTF, 800, slot2):setOnComplete(System.Action(function ()
+
+	slot3 = LeanTween.moveX(slot0.descFrameTF, 800, slot2)
+
+	slot3:setOnComplete(System.Action(function ()
 		setActive(uv0.descPanel, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0._tf, uv0._parentTf)
 		setAnchoredPosition(uv0.samllTF, {
@@ -106,8 +116,10 @@ function slot0.closeDescPanel(slot0, slot1)
 end
 
 function slot0.updateDesc(slot0)
+	slot1 = slot0.fleet:getCommanders()
+
 	for slot5 = 1, CommanderConst.MAX_FORMATION_POS do
-		slot6 = slot0.fleet:getCommanders()[slot5]
+		slot6 = slot1[slot5]
 
 		slot0:updateCommander(slot0["descPos" .. slot5], slot5, slot6, true)
 		slot0:updateSkillTF(slot6, slot0["skillTFPos" .. slot5])

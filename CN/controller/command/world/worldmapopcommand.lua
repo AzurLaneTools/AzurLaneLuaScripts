@@ -2,8 +2,9 @@ slot0 = class("WorldMapOpCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(33103, {
+	slot3:Send(33103, {
 		act = slot2.op,
 		group_id = slot2.id or 0,
 		act_arg_1 = slot2.arg1,
@@ -95,11 +96,13 @@ function slot0.BuildTransfer(slot0, slot1, slot2)
 end
 
 function slot0.BuildFleetMove(slot0, slot1, slot2)
+	slot3 = {}
+
 	if #slot1 > 0 then
 		slot4 = nowWorld:GetActiveMap()
 		slot5 = slot4:GetFleet()
 		slot2.updateAttachmentCells = {}
-		slot3 = table.mergeArray({}, slot0:BuildFleetMoveAction(slot1, slot4, slot5.id, slot5.row, slot5.column, slot2.updateAttachmentCells, true))
+		slot3 = table.mergeArray(slot3, slot0:BuildFleetMoveAction(slot1, slot4, slot5.id, slot5.row, slot5.column, slot2.updateAttachmentCells, true))
 	elseif slot2.trap == WorldBuff.TrapVortex then
 		slot4 = WBank:Fetch(WorldMapOp)
 		slot4.op = WorldConst.OpActionFleetAnim
@@ -115,12 +118,16 @@ function slot0.BuildFleetMove(slot0, slot1, slot2)
 end
 
 function slot0.BuildFleetPath(slot0, slot1, slot2, slot3, slot4)
+	slot5 = nowWorld
+	slot5 = slot5:GetActiveMap()
+	slot6 = slot5:GetFleet(slot3.id)
+
 	_.each(slot1, function (slot0)
 		slot0.duration = slot0.duration * uv0:GetStepDurationRate()
 	end)
 
 	slot8 = {}
-	slot11 = _.map(nowWorld:GetActiveMap():GetFleet(slot3.id):GetCarries(), function (slot0)
+	slot11 = _.map(slot6:GetCarries(), function (slot0)
 		return uv0:BuildCarryPath(slot0, uv1, uv2)
 	end)
 
@@ -199,10 +206,11 @@ end
 
 function slot0.BuildFleetAction(slot0, slot1)
 	slot3 = nowWorld:GetActiveMap():FindFleet(slot1.ai_pos.row, slot1.ai_pos.column)
+	slot4 = getProxy(WorldProxy):NetBuildMapAttachmentCells(slot1.pos_list)
 	slot5 = nil
 
 	if #slot1.move_path > 0 then
-		slot5 = slot0:BuildFleetMoveAction(slot1.move_path, slot2, slot3.id, slot3.row, slot3.column, getProxy(WorldProxy):NetBuildMapAttachmentCells(slot1.pos_list))
+		slot5 = slot0:BuildFleetMoveAction(slot1.move_path, slot2, slot3.id, slot3.row, slot3.column, slot4)
 	else
 		slot6 = WBank:Fetch(WorldMapOp)
 		slot6.op = WorldConst.OpActionUpdate
@@ -218,10 +226,12 @@ end
 function slot0.BuildFleetMoveAction(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot8 = {}
 	slot9 = slot7 and WorldMapCell.TerrainNone or slot2:GetCell(slot4, slot5):GetTerrain()
+	slot10 = slot2:GetCell(slot4, slot5).terrainStrong
 	slot11 = {
 		row = slot4,
 		column = slot5
 	}
+	slot12 = 0
 	slot13 = {}
 
 	for slot17, slot18 in ipairs(slot1) do
@@ -236,7 +246,7 @@ function slot0.BuildFleetMoveAction(slot0, slot1, slot2, slot3, slot4, slot5, sl
 
 		slot21, slot22, slot23 = nil
 
-		if slot9 == WorldMapCell.TerrainWind and 0 + slot2:GetCell(slot4, slot5).terrainStrong > #slot13 then
+		if slot9 == WorldMapCell.TerrainWind and slot12 + slot10 > #slot13 then
 			slot21 = true
 		elseif slot9 ~= slot20 then
 			slot22 = true
@@ -302,7 +312,8 @@ function slot0.BuildAttachmentAction(slot0, slot1)
 end
 
 function slot0.BuildAttachmentActionPath(slot0, slot1, slot2)
-	slot3 = nowWorld:GetActiveMap()
+	slot3 = nowWorld
+	slot3 = slot3:GetActiveMap()
 	slot2.path = underscore.map(slot1, function (slot0)
 		return {
 			row = slot0.row,
@@ -351,7 +362,8 @@ function slot0.BuildBlinkAction(slot0, slot1, slot2)
 	end
 
 	if slot4 == WorldMapAttachment.SpEventHaibao then
-		slot7 = WBank:Fetch(WorldMapOp)
+		slot7 = WBank
+		slot7 = slot7:Fetch(WorldMapOp)
 		slot7.op = WorldConst.OpActionAttachmentAnim
 		slot7.attachment = slot1
 		slot7.anim = WorldConst.ActionVanish
@@ -364,7 +376,8 @@ function slot0.BuildBlinkAction(slot0, slot1, slot2)
 
 		table.insert(slot3, slot7)
 
-		slot8 = WBank:Fetch(WorldMapOp)
+		slot8 = WBank
+		slot8 = slot8:Fetch(WorldMapOp)
 		slot8.op = WorldConst.OpActionAttachmentAnim
 		slot8.attachment = _.detect(slot6.attachmentList, function (slot0)
 			return slot0.type == uv0.type and slot0.id == uv0.id

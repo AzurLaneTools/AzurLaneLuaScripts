@@ -200,15 +200,17 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
 	slot4 = slot1:getType()
 
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:PlayerUpdated(slot1:getBody())
+		slot0.viewComponent:PlayerUpdated(slot3)
 	elseif slot2 == DormProxy.THEME_TEMPLATE_UPDATED then
 		slot5 = getProxy(DormProxy)
+		slot7 = slot3.template
 
 		if slot3.type == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
-			slot0.viewComponent:ShopThemeTemplateUpdate(slot3.template)
+			slot0.viewComponent:ShopThemeTemplateUpdate(slot7)
 		elseif slot6 == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION then
 			slot0.viewComponent:CollectionThemeTemplateUpdate(slot7)
 		elseif slot6 == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then

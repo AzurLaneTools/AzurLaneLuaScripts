@@ -28,7 +28,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if not slot6 and getProxy(PlayerProxy):getData():getMaxShipBag() <= #getProxy(BayProxy):getShips() then
+	slot12 = getProxy(BayProxy)
+
+	if not slot6 and getProxy(PlayerProxy):getData():getMaxShipBag() <= #slot12:getShips() then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 
 		if slot5 then
@@ -38,44 +40,50 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(12025, {
+	slot13 = pg.ConnectionMgr.GetInstance()
+
+	slot13:Send(12025, {
 		type = slot3,
 		pos = slot4
 	}, 12026, function (slot0)
 		if slot0.result == 0 then
+			function slot1()
+				uv0:removeBuildShipByIndex(uv1)
+
+				if Ship.New(uv2.ship):isMetaShip() and not slot0.virgin and Player.isMetaShipNeedToTrans(slot0.configId) then
+					if MetaCharacterConst.addReMetaTransItem(slot0) then
+						slot0:setReMetaSpecialItemVO(slot1)
+					end
+				else
+					uv3:addShip(slot0)
+				end
+
+				uv0:setBuildShipState()
+
+				slot2 = getProxy(PlayerProxy):getData()
+
+				if slot0:getRarity() >= 4 and not slot2:GetCommonFlag(GAME_RESTOREVIEW_ALREADY) then
+					pg.SdkMgr.GetInstance():StoreReview()
+					uv4:sendNotification(GAME.COMMON_FLAG, {
+						flagID = GAME_RESTOREVIEW_ALREADY
+					})
+				end
+
+				if uv5 and not slot0.virgin and slot0:getRarity() < 4 then
+					uv4:sendNotification(GAME.SKIP_SHIP_DONE)
+					uv6(slot0)
+				else
+					uv4:sendNotification(GAME.GET_SHIP_DONE, {
+						ship = slot0,
+						quitCallBack = uv6,
+						canSkipBatch = uv7,
+						isBatch = uv8
+					})
+				end
+			end
+
 			if uv8 then
-				uv8(function ()
-					uv0:removeBuildShipByIndex(uv1)
-
-					if Ship.New(uv2.ship):isMetaShip() and not slot0.virgin and Player.isMetaShipNeedToTrans(slot0.configId) then
-						if MetaCharacterConst.addReMetaTransItem(slot0) then
-							slot0:setReMetaSpecialItemVO(slot1)
-						end
-					else
-						uv3:addShip(slot0)
-					end
-
-					uv0:setBuildShipState()
-
-					if slot0:getRarity() >= 4 and not getProxy(PlayerProxy):getData():GetCommonFlag(GAME_RESTOREVIEW_ALREADY) then
-						pg.SdkMgr.GetInstance():StoreReview()
-						uv4:sendNotification(GAME.COMMON_FLAG, {
-							flagID = GAME_RESTOREVIEW_ALREADY
-						})
-					end
-
-					if uv5 and not slot0.virgin and slot0:getRarity() < 4 then
-						uv4:sendNotification(GAME.SKIP_SHIP_DONE)
-						uv6(slot0)
-					else
-						uv4:sendNotification(GAME.GET_SHIP_DONE, {
-							ship = slot0,
-							quitCallBack = uv6,
-							canSkipBatch = uv7,
-							isBatch = uv8
-						})
-					end
-				end, uv9.type)
+				uv8(slot1, uv9.type)
 			else
 				slot1()
 			end

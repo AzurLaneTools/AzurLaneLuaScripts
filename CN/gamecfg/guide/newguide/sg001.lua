@@ -197,7 +197,7 @@ return {
 				2
 			},
 			func = function (slot0)
-				if slot0:getEquip(2) then
+				if slot0.getEquip(slot0, 2) then
 					return pg.SeriesGuideMgr.CODES.MAINUI, 15
 				end
 
@@ -253,8 +253,10 @@ return {
 			}
 		},
 		getSegment = function ()
+			slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1) and not slot0:isEnd()
+
 			if not BuildShipScene.projectName then
-				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1) and not slot0:isEnd() then
+				if slot1 then
 					return 1
 				else
 					return 2

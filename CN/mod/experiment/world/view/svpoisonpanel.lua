@@ -8,12 +8,18 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.rtName = slot0._tf:Find("window/content/name_mask/name")
-	slot0.rtDesc = slot0._tf:Find("window/content/intro_view/Viewport/Content/intro")
-	slot0.rtPoisonRate = slot0._tf:Find("window/content/poison_rate")
-	slot0.rtBg = slot0._tf:Find("bg")
-	slot0.btnClose = slot0._tf:Find("window/top/btnBack")
-	slot0.btnConfirm = slot0._tf:Find("window/button_container/confirm_btn")
+	slot1 = slot0._tf
+	slot0.rtName = slot1:Find("window/content/name_mask/name")
+	slot1 = slot0._tf
+	slot0.rtDesc = slot1:Find("window/content/intro_view/Viewport/Content/intro")
+	slot1 = slot0._tf
+	slot0.rtPoisonRate = slot1:Find("window/content/poison_rate")
+	slot1 = slot0._tf
+	slot0.rtBg = slot1:Find("bg")
+	slot1 = slot0._tf
+	slot0.btnClose = slot1:Find("window/top/btnBack")
+	slot1 = slot0._tf
+	slot0.btnConfirm = slot1:Find("window/button_container/confirm_btn")
 
 	onButton(slot0, slot0.rtBg, function ()
 		uv0:Hide()
@@ -46,7 +52,10 @@ function slot0.Setup(slot0, slot1)
 
 	table.insert(slot2, 1, 0)
 	table.insert(slot2, 999)
-	eachChild(slot0.rtPoisonRate:Find("bg/ring"), function (slot0)
+
+	slot4 = slot0.rtPoisonRate
+
+	eachChild(slot4:Find("bg/ring"), function (slot0)
 		if uv1[slot0:GetSiblingIndex() + 1] <= uv0 and uv0 < uv1[slot1 + 1] then
 			setActive(slot0, true)
 

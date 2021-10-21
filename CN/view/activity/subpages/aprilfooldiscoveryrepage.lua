@@ -77,7 +77,9 @@ function slot0.OnFirstFlush(slot0)
 			return
 		end
 
-		uv0:emit(ActivityMediator.ON_SIMULATION_COMBAT, {
+		slot0 = uv0
+
+		slot0:emit(ActivityMediator.ON_SIMULATION_COMBAT, {
 			warnMsg = "bulin_tip_other3",
 			stageId = uv0.puzzleConfig.chapter
 		}, function ()
@@ -100,9 +102,12 @@ function slot0.OnFirstFlush(slot0)
 					})
 				end,
 				function (slot0)
-					uv0:emit(ActivityMediator.ON_SIMULATION_COMBAT, {
+					slot1 = uv0
+					slot5 = uv0
+
+					slot1:emit(ActivityMediator.ON_SIMULATION_COMBAT, {
 						warnMsg = "bulin_tip_other3",
-						stageId = uv0:GetLinkStage()
+						stageId = slot5:GetLinkStage()
 					}, function ()
 						if getProxy(ActivityProxy):getActivityById(uv0).data1 == 2 then
 							return
@@ -117,7 +122,8 @@ function slot0.OnFirstFlush(slot0)
 		end
 	end)
 
-	slot3 = slot0.activity:getConfig("config_client").guideName
+	slot3 = slot0.activity
+	slot3 = slot3:getConfig("config_client").guideName
 
 	slot0:AddFunc(function (slot0)
 		pg.SystemGuideMgr.GetInstance():PlayByGuideId(uv0, nil, slot0)
@@ -140,8 +146,11 @@ function slot0.OnUpdateFlush(slot0)
 		slot0.bgName = slot3
 	end
 
+	slot4 = slot0.activity.data2_list
+	slot5 = slot0.activity.data3_list
+
 	for slot9, slot10 in ipairs(slot0.items) do
-		slot12 = table.contains(slot0.activity.data2_list, slot0.keyList[slot9]) and 3 or table.contains(slot0.activity.data3_list, slot11) and 2 or 1
+		slot12 = table.contains(slot4, slot0.keyList[slot9]) and 3 or table.contains(slot5, slot11) and 2 or 1
 
 		onButton(slot0, slot10, function ()
 			if uv0 >= 3 then
@@ -185,7 +194,8 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0.bulin, slot1)
 
 	if slot0.activity.data1 == 1 then
-		slot6 = slot0.activity:getConfig("config_client").popStory
+		slot6 = slot0.activity
+		slot6 = slot6:getConfig("config_client").popStory
 
 		slot0:AddFunc(function (slot0)
 			pg.NewStoryMgr.GetInstance():Play(uv0, slot0)

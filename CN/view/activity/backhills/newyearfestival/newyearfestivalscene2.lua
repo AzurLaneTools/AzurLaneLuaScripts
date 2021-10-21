@@ -34,9 +34,10 @@ function slot0.init(slot0)
 	}
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.NewyearFestivalGraph2"))
 	slot0._map:GetComponent(typeof(UnityEngine.Canvas)).sortingOrder = (slot0._tf:GetComponentInParent(typeof(UnityEngine.Canvas)) and slot1.sortingOrder or 0) - 2
+	slot3 = GetComponent(slot0._map, "ItemList")
 
 	for slot7 = 1, 1 do
-		if not IsNil(GetComponent(slot0._map, "ItemList").prefabItem[slot7 - 1]) then
+		if not IsNil(slot3.prefabItem[slot7 - 1]) then
 			slot9 = tf(Instantiate(slot8))
 
 			setParent(slot9, slot0._map)

@@ -45,7 +45,10 @@ function slot0.InitEquipment(slot0)
 	slot0.equipSkinLogicPanel = ShipEquipSkinLogicPanel.New(slot0._tf.gameObject)
 
 	slot0.equipSkinLogicPanel:attach(slot0)
-	slot0.equipSkinLogicPanel:setLabelResource(slot0.resource)
+
+	slot1 = slot0.equipSkinLogicPanel
+
+	slot1:setLabelResource(slot0.resource)
 	setActive(slot0.equipSkinLogicPanel._go, true)
 	setParent(slot0.equipmentR, slot0.equipRCon)
 	setParent(slot0.equipmentL, slot0.equipLCon)
@@ -122,8 +125,10 @@ function slot0.OnSelected(slot0, slot1)
 end
 
 function slot0.UpdateEquipments(slot0, slot1)
+	slot2 = slot1:getActiveEquipments()
+
 	for slot6, slot7 in ipairs(slot1.equipments) do
-		slot0:UpdateEquipmentPanel(slot6, slot7, slot1:getActiveEquipments()[slot6])
+		slot0:UpdateEquipmentPanel(slot6, slot7, slot2[slot6])
 	end
 
 	if slot0.equipSkinLogicPanel then
@@ -132,10 +137,11 @@ function slot0.UpdateEquipments(slot0, slot1)
 
 	if slot0.contextData.openEquipUpgrade == true then
 		slot0.contextData.openEquipUpgrade = false
+		slot3 = 0
 
 		for slot9, slot10 in ipairs(slot0:GetShipVO().equipments) do
 			if slot10 then
-				slot3 = 0 + 1
+				slot3 = slot3 + 1
 			end
 		end
 
@@ -210,8 +216,7 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 		slot17 = underscore.filter(slot2:GetPropertiesInfo().attrs, function (slot0)
 			return not slot0.type or slot0.type ~= AttributeType.AntiSiren
 		end)
-
-		for slot23, slot24 in ipairs(slot2.config.skill_id[1] and slot2:isDevice() and {
+		slot19 = slot2.config.skill_id[1] and slot2:isDevice() and {
 			1,
 			2,
 			5
@@ -220,18 +225,23 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 			4,
 			2,
 			3
-		}) do
+		}
+
+		for slot23, slot24 in ipairs(slot19) do
 			slot25 = slot16:Find("attr_" .. slot24)
 			slot26 = findTF(slot25, "panel")
+			slot27 = findTF(slot25, "lock")
 
 			setActive(slot25, true)
 
 			if slot24 == 5 then
 				setText(slot26:Find("values/value"), "")
 				setText(slot26:Find("values/value_1"), getSkillName(slot18))
-				setActive(findTF(slot25, "lock"), false)
+				setActive(slot27, false)
 			elseif #slot17 > 0 then
-				if slot2:isAircraft() and table.remove(slot17, 1).type == AttributeType.CD then
+				slot28 = table.remove(slot17, 1)
+
+				if slot2:isAircraft() and slot28.type == AttributeType.CD then
 					slot28 = slot8:getAircraftReloadCD()
 				end
 
@@ -286,16 +296,18 @@ function slot0.equipmentCheck(slot0, slot1)
 	end
 
 	slot3 = slot1.check_indexList
+	slot4 = slot1.check_label
 
-	if not slot1.check_type and not slot3 and not slot1.check_label then
+	if not slot1.check_type and not slot3 and not slot4 then
 		return true
 	end
 
 	slot5 = false
 	slot6 = {}
+	slot7 = Clone(slot0:GetShipVO().equipments)
 
 	if slot3 then
-		slot8 = #Clone(slot0:GetShipVO().equipments)
+		slot8 = #slot7
 
 		while slot8 > 0 do
 			if not table.contains(slot3, slot8) then
@@ -323,9 +335,11 @@ function slot0.equipmentCheck(slot0, slot1)
 
 		while slot8 > 0 do
 			if slot7[slot8] then
+				slot10 = 1
+
 				for slot14, slot15 in ipairs(slot4) do
 					if not table.contains(slot9.config.label, slot15) then
-						slot10 = 1 * 0
+						slot10 = slot10 * 0
 					end
 				end
 

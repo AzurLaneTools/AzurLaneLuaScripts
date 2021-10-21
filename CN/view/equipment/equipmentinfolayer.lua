@@ -385,11 +385,13 @@ function slot0.updateDestroyCount(slot0)
 	setText(slot0.destroyValue, slot0.destroyCount)
 
 	slot2 = {}
+	slot3 = 0
 
 	if pg.equip_data_template[slot0.equipmentVO.config.id] then
-		slot3 = 0 + (slot4.destory_gold or 0) * slot1
+		slot5 = slot4.destory_item or {}
+		slot3 = slot3 + (slot4.destory_gold or 0) * slot1
 
-		for slot10, slot11 in ipairs(slot4.destory_item or {}) do
+		for slot10, slot11 in ipairs(slot5) do
 			table.insert(slot2, {
 				type = DROP_TYPE_ITEM,
 				id = slot11[1],
@@ -521,8 +523,10 @@ function slot0.UpdateTransformTipBar(slot0, slot1)
 
 	if isActive(slot0.defaultTransformTipBar) then
 		slot4 = pg.equip_upgrade_data
+		slot6 = slot0.defaultTransformTipBar
+		slot7 = slot0.defaultTransformTipBar
 
-		UIItemList.StaticAlign(slot0.defaultTransformTipBar:Find("list"), slot0.defaultTransformTipBar:Find("list/transformTarget"), #slot3, function (slot0, slot1, slot2)
+		UIItemList.StaticAlign(slot6:Find("list"), slot7:Find("list/transformTarget"), #slot3, function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
 				setActive(slot2:Find("link"), slot1 > 0)
 

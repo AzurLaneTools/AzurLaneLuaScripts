@@ -45,8 +45,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GuildProxy.GUILD_UPDATED then
-		slot0.viewComponent:setGuildVO(slot1:getBody())
+		slot0.viewComponent:setGuildVO(slot3)
 		slot0.viewComponent:RefreshMembers()
 	elseif slot2 == GAME.SET_GUILD_DUTY_DONE then
 		slot0.viewComponent:LoadPainting(slot3)

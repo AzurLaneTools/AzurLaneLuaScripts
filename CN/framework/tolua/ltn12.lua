@@ -338,8 +338,10 @@ end
 function slot8.all(slot0, slot1, slot2)
 	uv0.assert(slot0 and slot1)
 
+	slot2 = slot2 or uv1.step
+
 	while true do
-		slot3, slot4 = slot2 or uv1.step(slot0, slot1)
+		slot3, slot4 = slot2(slot0, slot1)
 
 		if not slot3 then
 			if slot4 then

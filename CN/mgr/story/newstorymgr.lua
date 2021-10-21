@@ -107,13 +107,13 @@ function slot0.IsPlayed(slot0, slot1, slot2)
 end
 
 function slot11(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0) do
-		-- Nothing
+		slot1[slot6] = slot5
 	end
 
-	return {
-		[slot6] = slot5
-	}
+	return slot1
 end
 
 function slot0.StoryName2StoryId(slot0, slot1)
@@ -273,16 +273,18 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 
 	slot5 = 1
 
-	if not LoadStory(slot1) then
-		(function (slot0, slot1)
-			uv0 = uv0 - 1
+	function slot6(slot0, slot1)
+		uv0 = uv0 - 1
 
-			if uv1 and uv0 == 0 then
-				onNextTick(function ()
-					uv0(uv1, uv2)
-				end)
-			end
-		end)(false)
+		if uv1 and uv0 == 0 then
+			onNextTick(function ()
+				uv0(uv1, uv2)
+			end)
+		end
+	end
+
+	if not LoadStory(slot1) then
+		slot6(false)
 		uv0("not exist story file")
 
 		return nil
@@ -483,10 +485,11 @@ function slot0.OnEnd(slot0, slot1)
 
 			slot0:Play(slot2, slot1)
 		else
+			slot3 = slot0.storyScript:GetBranchCode()
 			slot0.storyScript = nil
 
 			if slot1 then
-				slot1(true, slot0.storyScript:GetBranchCode())
+				slot1(true, slot3)
 			end
 		end
 	else
@@ -545,6 +548,17 @@ function slot0.Quit(slot0)
 end
 
 function slot0.Fix(slot0)
+	slot4 = {
+		10020,
+		10021,
+		10022,
+		10023,
+		10024,
+		10025,
+		10026,
+		10027
+	}
+
 	if getProxy(PlayerProxy):getRawData():GetRegisterTime() <= pg.TimeMgr.GetInstance():parseTimeFromConfig({
 		{
 			2021,
@@ -557,16 +571,7 @@ function slot0.Fix(slot0)
 			0
 		}
 	}) then
-		_.each({
-			10020,
-			10021,
-			10022,
-			10023,
-			10024,
-			10025,
-			10026,
-			10027
-		}, function (slot0)
+		_.each(slot4, function (slot0)
 			uv0.playedList[slot0] = true
 		end)
 	end
@@ -589,10 +594,14 @@ function slot0.Fix(slot0)
 	end
 
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.JYHZ_ACTIVITY_ID) and not slot9:isEnd() then
+		slot11 = nil
+
 		for slot15 = #_.flatten(slot9:getConfig("config_data")), 1, -1 do
 			if pg.task_data_template[slot10[slot15]].story_id and #slot16 > 0 then
-				if nil then
-					if not slot0:IsPlayed(slot16) then
+				slot17 = slot0:IsPlayed(slot16)
+
+				if slot11 then
+					if not slot17 then
 						slot0.playedList[slot16] = true
 					end
 				elseif slot17 then

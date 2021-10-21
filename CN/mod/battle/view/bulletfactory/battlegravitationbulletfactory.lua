@@ -53,9 +53,10 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 		for slot5, slot6 in ipairs(slot0) do
 			if slot6.Active then
 				slot8 = false
+				slot9 = uv1:GetSceneMediator():GetCharacter(slot6.UID):GetUnitData():GetCurrentOxyState()
 
 				for slot13, slot14 in ipairs(uv2) do
-					if uv1:GetSceneMediator():GetCharacter(slot6.UID):GetUnitData():GetCurrentOxyState() == slot14 then
+					if slot9 == slot14 then
 						slot8 = true
 					end
 				end

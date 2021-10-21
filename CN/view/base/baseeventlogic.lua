@@ -46,9 +46,11 @@ function slot0.managedTween(slot0, slot1, slot2, ...)
 end
 
 function slot0.cleanManagedTween(slot0, slot1)
+	slot1 = defaultValue(slot1, false)
+
 	for slot5, slot6 in ipairs(slot0.tweenIdList) do
 		if LeanTween.isTweening(slot6) then
-			LeanTween.cancel(slot6, defaultValue(slot1, false))
+			LeanTween.cancel(slot6, slot1)
 		end
 	end
 

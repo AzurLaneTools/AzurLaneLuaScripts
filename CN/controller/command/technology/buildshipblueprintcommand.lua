@@ -41,21 +41,25 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
+	function slot10()
+		slot0 = pg.ConnectionMgr.GetInstance()
+
+		slot0:Send(63200, {
+			blueprint_id = uv0
+		}, 63201, function (slot0)
+			if slot0.result == 0 then
+				uv0:updateColdTime()
+				uv1:start(slot0.time)
+				uv0:updateBluePrint(uv1)
+				uv2:sendNotification(GAME.BUILD_SHIP_BLUEPRINT_DONE)
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("printblue_build_erro") .. slot0.result)
+			end
+		end)
+	end
+
 	if slot4 then
-		(function ()
-			pg.ConnectionMgr.GetInstance():Send(63200, {
-				blueprint_id = uv0
-			}, 63201, function (slot0)
-				if slot0.result == 0 then
-					uv0:updateColdTime()
-					uv1:start(slot0.time)
-					uv0:updateBluePrint(uv1)
-					uv2:sendNotification(GAME.BUILD_SHIP_BLUEPRINT_DONE)
-				else
-					pg.TipsMgr.GetInstance():ShowTips(i18n("printblue_build_erro") .. slot0.result)
-				end
-			end)
-		end)()
+		slot10()
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("blueprint_build_time_tip"),

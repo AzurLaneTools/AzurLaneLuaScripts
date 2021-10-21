@@ -28,9 +28,10 @@ function slot0.ShortenString(slot0, slot1, slot2)
 
 	while slot3 <= slot6 do
 		slot9, slot10 = GetPerceptualSize(string.byte(slot1, slot3))
+		slot3 = slot3 + slot9
 
 		if math.ceil(slot4 + slot10) == slot2 - 1 then
-			slot5 = slot3 + slot9
+			slot5 = slot3
 		elseif slot2 < slot11 then
 			slot7 = true
 

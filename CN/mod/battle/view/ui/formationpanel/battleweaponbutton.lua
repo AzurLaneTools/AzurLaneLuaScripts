@@ -213,7 +213,10 @@ function slot1.SetControllerActive(slot0, slot1)
 end
 
 function slot1.Update(slot0)
-	if slot0._progressInfo:GetTotal() > 0 and slot0._progressInfo:GetCurrent() < slot0._progressInfo:GetMax() then
+	slot1 = slot0._progressInfo:GetCurrent()
+	slot2 = slot0._progressInfo:GetMax()
+
+	if slot0._progressInfo:GetTotal() > 0 and slot1 < slot2 then
 		slot0:updateProgressBar()
 	end
 end

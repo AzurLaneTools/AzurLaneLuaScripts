@@ -35,8 +35,9 @@ end
 
 function slot0.addDownCallback(slot0, slot1)
 	slot0.dragDelegate = GetOrAddComponent(slot0._tf, "EventTriggerListener")
+	slot2 = slot0.dragDelegate
 
-	slot0.dragDelegate:AddPointDownFunc(function ()
+	slot2:AddPointDownFunc(function ()
 		if uv0.eventActive then
 			uv1()
 		end
@@ -45,8 +46,9 @@ end
 
 function slot0.addUpCallback(slot0, slot1)
 	slot0.dragDelegate = GetOrAddComponent(slot0._tf, "EventTriggerListener")
+	slot2 = slot0.dragDelegate
 
-	slot0.dragDelegate:AddPointUpFunc(function ()
+	slot2:AddPointUpFunc(function ()
 		if uv0.eventActive then
 			uv1()
 		end
@@ -55,8 +57,9 @@ end
 
 function slot0.addBeginDragCallback(slot0, slot1)
 	slot0.dragDelegate = GetOrAddComponent(slot0._tf, "EventTriggerListener")
+	slot2 = slot0.dragDelegate
 
-	slot0.dragDelegate:AddBeginDragFunc(function (slot0, slot1)
+	slot2:AddBeginDragFunc(function (slot0, slot1)
 		if uv0.eventActive then
 			uv1(slot0, slot1)
 		end
@@ -65,8 +68,9 @@ end
 
 function slot0.addDragCallback(slot0, slot1)
 	slot0.dragDelegate = GetOrAddComponent(slot0._tf, "EventTriggerListener")
+	slot2 = slot0.dragDelegate
 
-	slot0.dragDelegate:AddDragFunc(function (slot0, slot1)
+	slot2:AddDragFunc(function (slot0, slot1)
 		if uv0.eventActive then
 			uv1(slot0, slot1)
 		end

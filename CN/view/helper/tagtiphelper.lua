@@ -18,8 +18,9 @@ function slot0.FuDaiTagTip(slot0)
 			end)
 
 			slot3 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1.time[1])
+			slot4 = PlayerPrefs.GetInt("Ever_Enter_Mall_", 0)
 
-			if not (slot0[uv0[1].id] ~= nil) and PlayerPrefs.GetInt("Ever_Enter_Mall_", 0) < slot3 then
+			if not (slot0[uv0[1].id] ~= nil) and slot4 < slot3 then
 				uv1.FudaiTime = slot3
 
 				triggerToggle(uv2, true)

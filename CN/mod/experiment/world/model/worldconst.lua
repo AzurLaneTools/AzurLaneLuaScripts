@@ -225,8 +225,10 @@ end
 slot0.PoisonEffect = "san_low"
 
 function slot0.ArrayEffectOrder(slot0, slot1)
+	slot2 = {}
+
 	for slot7 = 0, slot0:GetComponentsInChildren(typeof(Renderer), true).Length - 1 do
-		table.insert({}, slot3[slot7])
+		table.insert(slot2, slot3[slot7])
 	end
 
 	for slot8 = 0, slot0:GetComponentsInChildren(typeof(Canvas), true).Length - 1 do
@@ -350,8 +352,10 @@ function slot0.CalcRelativeRectPos(slot0, slot1, slot2, slot3)
 	slot10 = Quaternion.Euler(0, 0, 10)
 
 	for slot14 = slot3, 0, -50 do
+		slot15 = Vector3(slot14, 0, 0)
+
 		for slot19 = 360 / slot9, 1, -1 do
-			if slot8(slot0 + slot10 * Vector3(slot14, 0, 0)) then
+			if slot8(slot0 + slot10 * slot15) then
 				return slot0 + slot15
 			end
 		end
@@ -546,10 +550,12 @@ function slot0.ParsingBuffs(slot0)
 end
 
 function slot0.CompareBuffs(slot0, slot1)
+	slot3 = {}
 	slot4 = _.extend({}, slot1)
 
 	for slot8, slot9 in pairs(_.extend({}, slot0)) do
 		if slot4[slot8] then
+			slot3[slot8] = slot2[slot8]
 			slot2[slot8] = nil
 			slot4[slot8] = nil
 		end
@@ -557,9 +563,7 @@ function slot0.CompareBuffs(slot0, slot1)
 
 	return {
 		remove = slot2,
-		continue = {
-			[slot8] = slot2[slot8]
-		},
+		continue = slot3,
 		add = slot4
 	}
 end
@@ -581,7 +585,9 @@ function slot0.ReqWorldCheck(slot0)
 
 	if nowWorld.type == World.TypeBase then
 		table.insert(slot1, function (slot0)
-			pg.ConnectionMgr.GetInstance():Send(33000, {
+			slot1 = pg.ConnectionMgr.GetInstance()
+
+			slot1:Send(33000, {
 				type = 0
 			}, 33001, function (slot0)
 				slot1 = getProxy(WorldProxy)
@@ -597,7 +603,9 @@ function slot0.ReqWorldCheck(slot0)
 end
 
 function slot0.ReqWorldForServer()
-	pg.ConnectionMgr.GetInstance():Send(33000, {
+	slot0 = pg.ConnectionMgr.GetInstance()
+
+	slot0:Send(33000, {
 		type = 1
 	}, 33001, function (slot0)
 	end)

@@ -16,14 +16,20 @@ function slot0.Update(slot0)
 
 		parallelAsync({
 			function (slot0)
-				uv0:GetLoader():GetPrefab("boxprefab/" .. uv1.icon, uv1.icon, function (slot0)
+				slot1 = uv0
+				slot1 = slot1:GetLoader()
+
+				slot1:GetPrefab("boxprefab/" .. uv1.icon, uv1.icon, function (slot0)
 					uv0 = slot0
 
 					uv1()
 				end)
 			end,
 			function (slot0)
-				uv0:GetLoader():GetPrefab("leveluiview/tpl_box", "tpl_box", function (slot0)
+				slot1 = uv0
+				slot1 = slot1:GetLoader()
+
+				slot1:GetPrefab("leveluiview/tpl_box", "tpl_box", function (slot0)
 					uv0 = slot0
 
 					setParent(tf(uv0), uv1.tf)

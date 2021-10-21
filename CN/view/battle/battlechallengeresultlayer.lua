@@ -63,14 +63,22 @@ function slot0.setStageName(slot0)
 end
 
 function slot0.rankAnimaFinish(slot0)
+	slot1 = slot0:findTF("main/conditions")
+
 	if slot0.challenge:getMode() == ChallengeProxy.MODE_INFINITE then
-		SetActive(slot0:findTF("main/conditions"), false)
+		SetActive(slot1, false)
 
 		slot0._stateFlag = uv0.STATE_REPORTED
 	else
 		SetActive(slot1, true)
-		slot0:setCondition(i18n("challenge_combat_score", slot0.challenge:getLastScore()), true)
-		slot0:setCondition(i18n("challenge_current_score", slot0.challenge:getScore()), true)
+
+		slot6 = slot0.challenge
+
+		slot0:setCondition(i18n("challenge_combat_score", slot6:getLastScore()), true)
+
+		slot6 = slot0.challenge
+
+		slot0:setCondition(i18n("challenge_current_score", slot6:getScore()), true)
 		table.insert(slot0._delayLeanList, LeanTween.delayedCall(1, System.Action(function ()
 			uv0._stateFlag = uv1.STATE_REPORTED
 
@@ -82,12 +90,14 @@ function slot0.rankAnimaFinish(slot0)
 end
 
 function slot0.displayDefeat(slot0)
+	function slot1()
+		uv0:skip()
+	end
+
 	if slot0:isFail() then
 		slot0._stateFlag = uv0.STATE_QUIT
 
-		(function ()
-			uv0:skip()
-		end)()
+		slot1()
 	else
 		slot0:emit(BattleResultMediator.ON_CHALLENGE_DEFEAT_SCENE, {
 			callback = slot1

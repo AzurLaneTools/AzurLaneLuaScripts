@@ -101,7 +101,8 @@ function slot0.registerFootEvent(slot0)
 	slot0.footTFs = {}
 
 	for slot4 = 1, #slot0.pages do
-		slot5 = slot0.pageFootContainer:Find("dot_" .. slot4)
+		slot5 = slot0.pageFootContainer
+		slot5 = slot5:Find("dot_" .. slot4)
 
 		table.insert(slot0.footTFs, slot5)
 		onToggle(slot0, slot5, function (slot0)

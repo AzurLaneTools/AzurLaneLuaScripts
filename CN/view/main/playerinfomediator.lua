@@ -17,24 +17,36 @@ function slot0.register(slot0)
 		})
 	end)
 
-	slot2 = getProxy(PlayerProxy):getData()
+	slot1 = getProxy(PlayerProxy)
+	slot2 = slot1:getData()
+	slot3 = slot0.viewComponent
 
-	slot0.viewComponent:setPlayer(slot2)
+	slot3:setPlayer(slot2)
 
 	slot3 = getProxy(BayProxy)
+	slot4 = slot0.viewComponent
 
-	slot0.viewComponent:setShipCount(slot3:getShipCount())
+	slot4:setShipCount(slot3:getShipCount())
 
 	slot4 = slot3:getShipById(slot2.character)
 	slot0.shipVO = slot4
+	slot5 = slot0.viewComponent
 
-	slot0.viewComponent:setCurrentFlagship(slot4)
+	slot5:setCurrentFlagship(slot4)
 
 	slot5 = getProxy(CollectionProxy)
+	slot6 = slot0.viewComponent
 
-	slot0.viewComponent:setCollectionRate(slot5:getCollectionRate())
-	slot0.viewComponent:setTrophyList(slot5:getTrophys())
-	slot0.viewComponent:setMilitaryExercise(getProxy(MilitaryExerciseProxy):getSeasonInfo())
+	slot6:setCollectionRate(slot5:getCollectionRate())
+
+	slot6 = slot0.viewComponent
+
+	slot6:setTrophyList(slot5:getTrophys())
+
+	slot6 = getProxy(MilitaryExerciseProxy)
+	slot7 = slot0.viewComponent
+
+	slot7:setMilitaryExercise(slot6:getSeasonInfo())
 	slot0:bind(uv0.CHANGE_PAINT, function (slot0, slot1)
 		slot2 = {}
 		uv0.contextData.showSelectCharacters = true
@@ -91,14 +103,25 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_ATTIRE, function ()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.ATTIRE)
 	end)
-	slot0.viewComponent:setFleetGearScore(math.floor(getProxy(BayProxy):getBayPowerRooted()))
-	slot0.viewComponent:updateFleetGSView()
+
+	slot8 = getProxy(BayProxy)
+	slot8 = slot0.viewComponent
+
+	slot8:setFleetGearScore(math.floor(slot8:getBayPowerRooted()))
+
+	slot8 = slot0.viewComponent
+
+	slot8:updateFleetGSView()
 	slot0:bind(uv0.ON_CHANGE_MEDAL_DISPLAY, function (slot0, slot1)
 		uv0:sendNotification(GAME.CHANGE_PLAYER_MEDAL_DISPLAY, {
 			medalList = slot1
 		})
 	end)
-	slot0.viewComponent:updateAttireBtn(_.any(getProxy(AttireProxy):needTip(), function (slot0)
+
+	slot8 = slot0.viewComponent
+	slot11 = getProxy(AttireProxy)
+
+	slot8:updateAttireBtn(_.any(slot11:needTip(), function (slot0)
 		return slot0 == true
 	end))
 
@@ -123,8 +146,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:setPlayer(slot1:getBody())
+		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == SetShipSkinCommand.SKIN_UPDATED then
 		slot0.shipVO = slot3.ship
 

@@ -119,19 +119,23 @@ function slot0.OnUpdateFileGroup(slot0, slot1, slot2)
 
 	slot0.loader:GetSprite("CollectionFileTitle/" .. slot3.name_abbreviate, "", slot4:Find(slot11), true)
 
+	slot5 = nowWorld:GetCollectionProxy()
+	slot6 = 0
 	slot7 = #slot3.child
 
 	for slot11, slot12 in ipairs(slot3.child) do
-		if nowWorld:GetCollectionProxy():IsUnlock(slot12) then
-			slot6 = 0 + 1
+		if slot5:IsUnlock(slot12) then
+			slot6 = slot6 + 1
 		end
 	end
 
 	setText(slot4:Find("FileProgress"), slot6 .. "/" .. slot7)
 
 	slot8 = slot0.scroll.rect.width
-	slot9 = slot0.scroll:Find("Item").rect.width
-	slot10 = slot0.content:GetComponent(typeof(HorizontalLayoutGroup))
+	slot9 = slot0.scroll
+	slot9 = slot9:Find("Item").rect.width
+	slot10 = slot0.content
+	slot10 = slot10:GetComponent(typeof(HorizontalLayoutGroup))
 	slot11 = slot10.padding.left
 	slot12 = slot10.spacing
 

@@ -122,8 +122,10 @@ function slot0.startUpBackyard(slot0, slot1)
 	slot5, slot6 = nil
 
 	if (slot0.contextData.mode or BackYardConst.MODE_DEFAULT) == BackYardConst.MODE_VISIT then
+		slot7 = slot1 == 1 and Ship.STATE_TRAIN or Ship.STATE_REST
+
 		for slot11, slot12 in pairs(slot0.contextData.ships) do
-			if slot12.state == (slot1 == 1 and Ship.STATE_TRAIN or Ship.STATE_REST) then
+			if slot12.state == slot7 then
 				slot3[slot12.id] = slot12
 			end
 		end
@@ -133,15 +135,15 @@ function slot0.startUpBackyard(slot0, slot1)
 	elseif slot2 == BackYardConst.MODE_DEFAULT then
 		slot0.dormProxy = getProxy(DormProxy)
 		slot5 = slot0.dormProxy:getData()
+		slot9 = {}
+		slot10 = slot1 == 1 and slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN) or slot0.dormProxy:getShipsByState(Ship.STATE_REST)
 
-		for slot14, slot15 in pairs(slot1 == 1 and slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN) or slot0.dormProxy:getShipsByState(Ship.STATE_REST)) do
-			-- Nothing
+		for slot14, slot15 in pairs(slot10) do
+			slot9[slot15.id] = slot15
 		end
 
 		slot6 = getProxy(PlayerProxy):getData()
-		slot3 = {
-			[slot15.id] = slot15
-		}
+		slot3 = slot9
 		slot11 = getProxy(PlayerProxy)
 
 		slot0.viewComponent:setShipIds(slot7, slot8)
@@ -166,24 +168,26 @@ function slot0.startUpBackyard(slot0, slot1)
 	slot0.viewComponent.isLoadedMainUI = false
 	slot8 = nil
 
-	if not IsNil(slot0.viewComponent._tf:Find(BackYardConst.MAIN_UI_NAME)) then
-		(function (slot0)
-			if pg.backyard and not IsNil(uv0.viewComponent._tf) then
-				uv0.viewComponent.isLoadedMainUI = true
-				slot0.name = BackYardConst.MAIN_UI_NAME
-				uv1 = BackYardView.New(slot0, uv2, uv0.backyardPoolMgr, uv0.viewComponent:getBGM())
+	function slot9(slot0)
+		if pg.backyard and not IsNil(uv0.viewComponent._tf) then
+			uv0.viewComponent.isLoadedMainUI = true
+			slot0.name = BackYardConst.MAIN_UI_NAME
+			uv1 = BackYardView.New(slot0, uv2, uv0.backyardPoolMgr, uv0.viewComponent:getBGM())
 
-				uv1:RegisterLoadedCallback(function ()
-					uv0.viewComponent:OnLoaded()
-				end)
-				uv0.viewComponent:setBlackyardView(uv1)
-				setActive(slot0, true)
-				setParent(slot0, uv0.viewComponent._tf)
-				tf(slot0):SetSiblingIndex(1)
-				pg.backyard:registerMediator(BackyardMainMediator.New(uv1))
-				uv1:init(uv0.contextData)
-			end
-		end)(slot10)
+			uv1:RegisterLoadedCallback(function ()
+				uv0.viewComponent:OnLoaded()
+			end)
+			uv0.viewComponent:setBlackyardView(uv1)
+			setActive(slot0, true)
+			setParent(slot0, uv0.viewComponent._tf)
+			tf(slot0):SetSiblingIndex(1)
+			pg.backyard:registerMediator(BackyardMainMediator.New(uv1))
+			uv1:init(uv0.contextData)
+		end
+	end
+
+	if not IsNil(slot0.viewComponent._tf:Find(BackYardConst.MAIN_UI_NAME)) then
+		slot9(slot10)
 	else
 		PoolMgr.GetInstance():GetUI(BackYardConst.MAIN_UI_NAME, true, slot9)
 	end
@@ -267,8 +271,9 @@ function slot0.handleNotification(slot0, slot1)
 		if not BackYardMediator.isInitAddExpPanel then
 			BackYardMediator.isInitAddExpPanel = true
 			slot5 = table.getCount(slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN))
+			slot7 = slot0.dormProxy:getData().load_exp * slot5
 
-			if slot5 ~= 0 and (slot0.dormProxy:getData().load_exp * slot5 ~= 0 or slot6.food ~= 0) then
+			if slot5 ~= 0 and (slot7 ~= 0 or slot6.food ~= 0) then
 				slot0.viewComponent:closeNofoodBox(true)
 				slot0:addSubLayers(Context.New({
 					mediator = BackYardSettlementMediator,

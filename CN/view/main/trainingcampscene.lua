@@ -215,13 +215,20 @@ function slot0.updateNormalProgressPanel(slot0, slot1, slot2, slot3)
 		setText(slot10, math.min(slot4.progress, slot4:getConfig("target_num")) .. "/" .. slot4:getConfig("target_num"))
 	end
 
-	slot0.normalProgressPanel:Find("Slider"):GetComponent(typeof(Slider)).value = slot4.progress / slot4:getConfig("target_num")
-	slot0.normalProgressPanel:Find("Icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/trainingcampui_atlas", "panel_phase_award_" .. slot1)
+	slot11 = slot0.normalProgressPanel
+	slot11 = slot11:Find("Slider")
+	slot11:GetComponent(typeof(Slider)).value = slot4.progress / slot4:getConfig("target_num")
+	slot11 = slot0.normalProgressPanel
+	slot11 = slot11:Find("Icon")
+	slot11:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/trainingcampui_atlas", "panel_phase_award_" .. slot1)
+	slot12 = slot0.normalProgressPanel
 
-	setText(slot0.normalProgressPanel:Find("TipText"), i18n("newplayer_notice_" .. 3 + slot1))
+	setText(slot12:Find("TipText"), i18n("newplayer_notice_" .. 3 + slot1))
 	onButton(slot0, slot5, function ()
 		if uv0:isSelectable() then
-			uv1:openMsgbox(function (slot0)
+			slot0 = uv1
+
+			slot0:openMsgbox(function (slot0)
 				uv0:emit(TrainingCampMediator.ON_SELECTABLE_GET, uv1, slot0)
 			end)
 		else
@@ -326,8 +333,11 @@ function slot0.updateTecProgressPanel(slot0, slot1, slot2, slot3)
 		setText(slot12, math.min(slot6.progress, slot6:getConfig("target_num")) .. "/" .. slot6:getConfig("target_num"))
 	end
 
-	slot0.tecProgressPanel:Find("Slider"):GetComponent(typeof(Slider)).value = slot6.progress / slot6:getConfig("target_num")
-	slot13 = slot0.tecProgressPanel:Find("Icon/Item")
+	slot13 = slot0.tecProgressPanel
+	slot13 = slot13:Find("Slider")
+	slot13:GetComponent(typeof(Slider)).value = slot6.progress / slot6:getConfig("target_num")
+	slot13 = slot0.tecProgressPanel
+	slot13 = slot13:Find("Icon/Item")
 	slot14 = slot6:getConfig("award_display")[1]
 
 	updateDrop(slot13, {
@@ -338,10 +348,15 @@ function slot0.updateTecProgressPanel(slot0, slot1, slot2, slot3)
 	onButton(slot0, slot13, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setActive(slot0.tecProgressPanel:Find("TipText"), false)
+
+	slot17 = slot0.tecProgressPanel
+
+	setActive(slot17:Find("TipText"), false)
 	onButton(slot0, slot7, function ()
 		if uv0:isSelectable() then
-			uv1:openMsgbox(function (slot0)
+			slot0 = uv1
+
+			slot0:openMsgbox(function (slot0)
 				uv0:emit(TrainingCampMediator.ON_SELECTABLE_GET, uv1, slot0)
 			end)
 		else
@@ -482,14 +497,16 @@ function slot0.setPhrase(slot0)
 	slot1 = 1
 	slot2 = slot0.activity
 
+	function slot4(slot0)
+		if slot0 > 1 then
+			return uv1.taskProxy:getFinishTaskById(uv0[slot0 - 1][2]) ~= nil
+		end
+	end
+
 	for slot8 = #slot2:getConfig("config_data")[3], 1, -1 do
 		if _.all(slot2[slot8][1], function (slot0)
 			return uv0.taskProxy:getTaskVO(slot0) ~= nil
-		end) or (function (slot0)
-			if slot0 > 1 then
-				return uv1.taskProxy:getFinishTaskById(uv0[slot0 - 1][2]) ~= nil
-			end
-		end)(slot8) then
+		end) or slot4(slot8) then
 			slot1 = slot8
 
 			break
@@ -571,7 +588,10 @@ function slot0.aniOnSwitch(slot0, slot1, slot2)
 
 	slot1:SetAsLastSibling()
 	setActive(slot1, true)
-	GetOrAddComponent(slot1, "DftAniEvent"):SetEndEvent(function ()
+
+	slot3 = GetOrAddComponent(slot1, "DftAniEvent")
+
+	slot3:SetEndEvent(function ()
 		uv0.isOnSwitchAni = false
 
 		setActive(uv1, false)
@@ -594,7 +614,9 @@ function slot0.openMsgbox(slot0, slot1)
 		end, SFX_PANEL)
 	end
 
-	onButton(slot0, slot0.awardMsg:Find("confirm_btn"), function ()
+	slot6 = slot0.awardMsg
+
+	onButton(slot0, slot6:Find("confirm_btn"), function ()
 		if uv0 then
 			if uv1 then
 				uv1(uv0)
@@ -614,8 +636,9 @@ end
 function slot0.tryShowTecFixTip(slot0)
 	if slot0.isSubmitTecFirstTaskTag == true then
 		slot0.isSubmitTecFirstTaskTag = false
+		slot1 = slot0.tecTaskActivity
 
-		if _.all(slot0.tecTaskActivity:getConfig("config_data")[3][1][1], function (slot0)
+		if _.all(slot1:getConfig("config_data")[3][1][1], function (slot0)
 			return uv0.taskProxy:getTaskById(slot0) ~= nil
 		end) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({

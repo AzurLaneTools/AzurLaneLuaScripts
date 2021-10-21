@@ -37,12 +37,15 @@ function slot0.CheckIntruduce(slot0)
 end
 
 function slot0.CheckUseStaminaItem(slot0)
+	slot2 = nowWorld:GetInventoryProxy()
+	slot3 = 0
+
 	for slot7, slot8 in ipairs({
 		251,
 		252,
 		253
 	}) do
-		slot3 = 0 + nowWorld:GetInventoryProxy():GetItemCount(slot8)
+		slot3 = slot3 + slot2:GetItemCount(slot8)
 	end
 
 	if slot3 > 0 then
