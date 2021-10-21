@@ -7062,7 +7062,7 @@ _G.pg.gametip.level_ammo_supply_p1 = {
 }
 
 _G.pg.gametip.level_flare_supply = {
-	tip = "获得照明弹补给，为舰队下$1次战斗照明"
+	tip = "You've retrieved a supply of flares. The fleet that retrieved them will be able to fire flares during the next $1 battle(s). "
 }
 
 _G.pg.gametip.chat_level_not_enough = {
@@ -9725,11 +9725,11 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "Nagato and Suzuya are added to standard build pool! "
+	tip = "Tosa,Amagi, and more added to standard build pool! "
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "{namecode:147} is added to standard build pool! "
+	tip = "Hanazuki,Naganami, and more added to standard build pool! "
 }
 
 _G.pg.gametip.buildship_special_tip = {
@@ -18141,6 +18141,10 @@ _G.pg.gametip.breakout_tip_ultimatebonus_aux = {
 	tip = "+30% stats gained from auxiliary gear "
 }
 
+_G.pg.gametip.map_event_lighthouse_tip_1 = {
+	tip = "Lighthouse controlled. Searchlight support may activate during combat."
+}
+
 _G.pg.gametip.battlepass_main_tip = {
 	tip = "During the campaign season (10/1 - 11/30), complete Cruise Missions to get great rewards, including Fusou META! "
 }
@@ -18335,4 +18339,64 @@ _G.pg.gametip.formationScene_use_oil_limit_flagship = {
 
 _G.pg.gametip.formationScene_use_oil_limit_submarine = {
 	tip = "Subs"
+}
+
+_G.pg.gametip.attr_durability = {
+	tip = "HP"
+}
+
+_G.pg.gametip.attr_armor = {
+	tip = "Armor"
+}
+
+_G.pg.gametip.attr_reload = {
+	tip = "RLD"
+}
+
+_G.pg.gametip.attr_cannon = {
+	tip = "FP"
+}
+
+_G.pg.gametip.attr_torpedo = {
+	tip = "TRP"
+}
+
+_G.pg.gametip.attr_motion = {
+	tip = "EVA"
+}
+
+_G.pg.gametip.attr_antiaircraft = {
+	tip = "AA"
+}
+
+_G.pg.gametip.attr_air = {
+	tip = "AVI"
+}
+
+_G.pg.gametip.attr_hit = {
+	tip = "ACC"
+}
+
+_G.pg.gametip.attr_antisub = {
+	tip = "ASW"
+}
+
+_G.pg.gametip.attr_oxy_max = {
+	tip = "OXY"
+}
+
+_G.pg.gametip.attr_ammo = {
+	tip = "AMO"
+}
+
+_G.pg.gametip.attr_hunting_range = {
+	tip = "ASR"
+}
+
+_G.pg.gametip.attr_luck = {
+	tip = "LCK"
+}
+
+_G.pg.gametip.attr_consume = {
+	tip = "Cost"
 }

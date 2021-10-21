@@ -4255,6 +4255,72 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[209] = {
+		effect = "",
+		name = "AzuNavi! Radio Booth",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/guangbo",
+		is_get_time_note = 0,
+		themeId = 1,
+		deblocking = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "guangboicon",
+		spine_extra = "",
+		level = 1,
+		describe = "Who'll be today's special surprise guest?",
+		rarity = 1,
+		advice = 0,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 209,
+		can_rotate = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-126,
+					-7
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/guangbo_using"
+			},
+			{
+				"sit",
+				{
+					110,
+					-133
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interaction_bgm = {
+			1,
+			"guangbo"
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -79225,7 +79291,7 @@ pg.furniture_data_template = {
 		themeId = 79,
 		is_get_time_note = 0,
 		picture = "idom/15idom",
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "It's a pain keeping this many records organized.",
 		tag = 1,
@@ -83422,6 +83488,7 @@ pg.furniture_data_template = {
 		205,
 		206,
 		208,
+		209,
 		100002,
 		100003,
 		100004,

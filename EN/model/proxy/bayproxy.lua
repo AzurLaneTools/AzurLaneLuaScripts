@@ -48,22 +48,14 @@ function slot0.register(slot0)
 		uv0.newShipList = {}
 
 		for slot7, slot8 in ipairs(slot0.ship_list) do
-			if Ship.New(slot8):getConfigTable() then
-				if slot9:isMetaShip() and not slot9.virgin and Player.isMetaShipNeedToTrans(slot9.configId) then
-					if MetaCharacterConst.addReMetaTransItem(slot9) then
-						slot9:setReMetaSpecialItemVO(slot10)
-					end
+			if Ship.New(slot8):getConfigTable() and slot9.id > 0 then
+				uv0:addShip(slot9, false)
 
-					uv0.newShipList[#uv0.newShipList + 1] = slot9
-				else
-					uv0:addShip(slot9, false)
-
-					if slot2 then
-						slot3 = slot3 + 1
-					end
-
-					uv0.newShipList[#uv0.newShipList + 1] = slot9
+				if slot2 then
+					slot3 = slot3 + 1
 				end
+
+				uv0.newShipList[#uv0.newShipList + 1] = slot9
 			else
 				warning("不存在的角色: " .. slot9.id)
 			end
@@ -72,6 +64,8 @@ function slot0.register(slot0)
 		if slot3 > 0 then
 			uv0:countShip(slot3)
 		end
+
+		uv0.metaTransItemMap = {}
 	end)
 
 	slot1 = getProxy(PlayerProxy)
@@ -217,11 +211,31 @@ end
 function slot0.getNewShip(slot0, slot1)
 	slot2 = slot0.newShipList or {}
 
-	if slot1 or true then
+	if slot1 then
 		slot0.newShipList = nil
 	end
 
 	return slot2
+end
+
+function slot0.getMetaTransItemMap(slot0, slot1)
+	slot2 = nil
+
+	if slot0.metaTransItemMap and slot0.metaTransItemMap[slot1] and #slot0.metaTransItemMap[slot1] > 0 then
+		slot2 = slot0.metaTransItemMap[slot1][1]
+
+		table.remove(slot0.metaTransItemMap[slot1], 1)
+	end
+
+	return slot2
+end
+
+function slot0.addMetaTransItemMap(slot0, slot1, slot2)
+	if not slot0.metaTransItemMap[slot1] then
+		slot0.metaTransItemMap[slot1] = {}
+	end
+
+	table.insert(slot0.metaTransItemMap[slot1], slot2)
 end
 
 function slot0.getShipsByFleet(slot0, slot1)
@@ -235,8 +249,10 @@ function slot0.getShipsByFleet(slot0, slot1)
 end
 
 function slot0.getSortShipsByFleet(slot0, slot1)
+	slot2 = {}
+
 	for slot6, slot7 in ipairs(slot1.mainShips) do
-		table.insert({}, slot0.data[slot7])
+		table.insert(slot2, slot0.data[slot7])
 	end
 
 	for slot6, slot7 in ipairs(slot1.vanguardShips) do
@@ -303,9 +319,11 @@ function slot0.getShipsByTeamType(slot0, slot1)
 end
 
 function slot0.getConfigShipCount(slot0, slot1)
+	slot2 = 0
+
 	for slot6, slot7 in pairs(slot0.data) do
 		if slot7.configId == slot1 then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 
@@ -418,9 +436,11 @@ function slot0.findShipsByGroup(slot0, slot1)
 end
 
 function slot0.getSameGroupShipCount(slot0, slot1)
+	slot2 = 0
+
 	for slot6, slot7 in pairs(slot0.data) do
 		if slot7.groupId == slot1 then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 
@@ -428,10 +448,12 @@ function slot0.getSameGroupShipCount(slot0, slot1)
 end
 
 function slot0.getUpgradeShips(slot0, slot1)
+	slot2 = slot1:getConfig("rarity")
+	slot3 = slot1.groupId
 	slot4 = {}
 
 	for slot8, slot9 in pairs(slot0.data) do
-		if slot9.groupId == slot1.groupId or slot9:isTestShip() and slot9:canUseTestShip(slot1:getConfig("rarity")) then
+		if slot9.groupId == slot3 or slot9:isTestShip() and slot9:canUseTestShip(slot2) then
 			table.insert(slot4, slot9)
 		end
 	end
@@ -441,6 +463,7 @@ end
 
 function slot0.getBayPower(slot0)
 	slot1 = {}
+	slot2 = 0
 
 	for slot6, slot7 in pairs(slot0.data) do
 		slot8 = slot7.configId
@@ -448,7 +471,7 @@ function slot0.getBayPower(slot0)
 
 		if defaultValue(slot0.handbookTypeAssign[slot7:getGroupId()], 0) ~= 1 and (not slot1[slot8] or slot1[slot8] < slot9) then
 			slot1[slot8] = slot9
-			slot2 = 0 - defaultValue(slot1[slot8], 0) + slot9
+			slot2 = slot2 - defaultValue(slot1[slot8], 0) + slot9
 		end
 	end
 
@@ -522,7 +545,9 @@ function slot0.getEquipmentSkinInShips(slot0, slot1, slot2)
 	for slot8, slot9 in pairs(slot0.data) do
 		if not slot1 or slot1.id ~= slot9.id then
 			for slot13, slot14 in pairs(slot9:getEquipSkins()) do
-				if slot14 and slot3(slot14) then
+				slot15 = slot3(slot14)
+
+				if slot14 and slot15 then
 					table.insert(slot4, {
 						id = slot14,
 						shipId = slot9.id,
@@ -541,24 +566,22 @@ function slot0.setSelectShipId(slot0, slot1)
 end
 
 function slot0.getProposeGroupList(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6.propose then
-			-- Nothing
+			slot1[slot6.groupId] = true
 		end
 	end
 
-	return {
-		[slot6.groupId] = true
-	}
+	return slot1
 end
 
 function slot0.getEliteRecommendShip(slot0, slot1, slot2, slot3)
-	slot5 = {
-		[slot10] = slot10:getShipCombatPower()
-	}
+	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot0:getShipsByTypes(slot1)) do
-		-- Nothing
+		slot5[slot10] = slot10:getShipCombatPower()
 	end
 
 	table.sort(slot4, function (slot0, slot1)
@@ -576,8 +599,9 @@ function slot0.getEliteRecommendShip(slot0, slot1, slot2, slot3)
 
 	while slot7 > 0 do
 		slot9 = slot4[slot7]
+		slot11 = slot9:getGroupId()
 
-		if not table.contains(slot2, slot9.id) and not table.contains(slot6, slot9:getGroupId()) and ShipStatus.ShipStatusCheck("inElite", slot9, nil, {
+		if not table.contains(slot2, slot9.id) and not table.contains(slot6, slot11) and ShipStatus.ShipStatusCheck("inElite", slot9, nil, {
 			inElite = slot3
 		}) then
 			slot8 = slot9
@@ -637,12 +661,10 @@ function slot0.getChallengeRecommendShip(slot0, slot1, slot2, slot3)
 end
 
 function slot0.getActivityRecommendShips(slot0, slot1, slot2, slot3, slot4)
-	slot6 = {
-		[slot11] = slot11:getShipCombatPower()
-	}
+	slot6 = {}
 
 	for slot10, slot11 in ipairs(slot0:getShipsByTypes(slot1)) do
-		-- Nothing
+		slot6[slot11] = slot11:getShipCombatPower()
 	end
 
 	table.sort(slot5, function (slot0, slot1)
@@ -679,6 +701,7 @@ end
 
 function slot0.getDelegationRecommendShips(slot0, slot1)
 	slot2 = 6 - #slot1.shipIds
+	slot4 = math.max(slot1.template.ship_lv, 2)
 
 	table.sort(slot0:getShipsByTypes(slot1.template.ship_type), function (slot0, slot1)
 		return slot1.level < slot0.level
@@ -688,7 +711,7 @@ function slot0.getDelegationRecommendShips(slot0, slot1)
 	slot8 = false
 
 	for slot12, slot13 in ipairs(Clone(slot1.shipIds)) do
-		if math.max(slot1.template.ship_lv, 2) <= slot0.data[slot13].level then
+		if slot4 <= slot0.data[slot13].level then
 			slot8 = true
 		end
 
@@ -731,12 +754,10 @@ function slot0.getDelegationRecommendShips(slot0, slot1)
 end
 
 function slot0.getWorldRecommendShip(slot0, slot1, slot2)
-	slot4 = {
-		[slot9] = slot9:getShipCombatPower()
-	}
+	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot0:getShipsByTeamType(slot1)) do
-		-- Nothing
+		slot4[slot9] = slot9:getShipCombatPower()
 	end
 
 	table.sort(slot3, function (slot0, slot1)
@@ -754,8 +775,9 @@ function slot0.getWorldRecommendShip(slot0, slot1, slot2)
 
 	while slot6 > 0 do
 		slot8 = slot3[slot6]
+		slot10 = slot8:getGroupId()
 
-		if not table.contains(slot2, slot8.id) and not table.contains(slot5, slot8:getGroupId()) and ShipStatus.ShipStatusCheck("inWorld", slot8) then
+		if not table.contains(slot2, slot8.id) and not table.contains(slot5, slot10) and ShipStatus.ShipStatusCheck("inWorld", slot8) then
 			slot7 = slot8
 
 			break
@@ -768,13 +790,17 @@ function slot0.getWorldRecommendShip(slot0, slot1, slot2)
 end
 
 function slot0.getModRecommendShip(slot0, slot1, slot2)
-	slot3 = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_2, underscore.keys(slot0.data))
+	slot3 = pg.ShipFlagMgr.GetInstance()
+	slot3 = slot3:FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_2, underscore.keys(slot0.data))
+
+	function slot4(slot0)
+		return slot0.level == 1 and slot0:getRarity() <= ShipRarity.Gray and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
+	end
+
 	slot5 = {}
 
 	for slot9, slot10 in pairs(slot0.data) do
-		if (function (slot0)
-			return slot0.level == 1 and slot0:getRarity() <= ShipRarity.Gray and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
-		end)(slot10) then
+		if slot4(slot10) then
 			table.insert(slot5, slot10)
 		end
 	end
@@ -793,8 +819,10 @@ function slot0.getModRecommendShip(slot0, slot1, slot2)
 		return CompareFuncs(slot0, slot1, uv0)
 	end)
 
+	slot10 = {}
+
 	for slot14, slot15 in pairs(slot2) do
-		table.insert({}, slot0.data[slot15])
+		table.insert(slot10, slot0.data[slot15])
 	end
 
 	for slot14, slot15 in ipairs(slot5) do
@@ -832,13 +860,17 @@ function slot0.getModRecommendShip(slot0, slot1, slot2)
 end
 
 function slot0.getUpgradeRecommendShip(slot0, slot1, slot2, slot3)
-	slot5 = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_4, underscore.keys(slot0.data))
+	slot5 = pg.ShipFlagMgr.GetInstance()
+	slot5 = slot5:FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_4, underscore.keys(slot0.data))
+
+	function slot6(slot0)
+		return slot0.level == 1 and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
+	end
+
 	slot7 = {}
 
 	for slot11, slot12 in ipairs(slot0:getUpgradeShips(slot1)) do
-		if (function (slot0)
-			return slot0.level == 1 and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
-		end)(slot12) then
+		if slot6(slot12) then
 			table.insert(slot7, slot12)
 		end
 	end
@@ -853,8 +885,10 @@ function slot0.getUpgradeRecommendShip(slot0, slot1, slot2, slot3)
 		return CompareFuncs(slot0, slot1, uv0)
 	end)
 
+	slot9 = {}
+
 	for slot13, slot14 in pairs(slot2) do
-		table.insert({}, slot0.data[slot14])
+		table.insert(slot9, slot0.data[slot14])
 	end
 
 	for slot13, slot14 in ipairs(slot7) do

@@ -350,7 +350,15 @@ function slot8(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
 		-- Nothing
 	elseif slot1.drop.type == DROP_TYPE_STRATEGY then
-		setText(slot2, HXSet.hxLan(slot1.drop.cfg.desc))
+		slot10 = slot1.drop.cfg.desc
+
+		for slot14, slot15 in ipairs({
+			slot1.drop.count
+		}) do
+			slot10 = string.gsub(slot10, "$" .. slot14, slot15)
+		end
+
+		setText(slot2, HXSet.hxLan(slot10))
 
 		if slot1.extendDesc then
 			slot0._singleItemIntros[slot4] = slot0._singleItemIntros[slot4 + 1] or cloneTplTo(slot0.singleItemIntro, slot0.singleItemIntro.parent)
@@ -536,10 +544,11 @@ function slot10(slot0, slot1)
 
 	slot5 = getProxy(SecondaryPWDProxy):getRawData()
 	slot6 = slot2:Find("showresttime")
+	slot7 = slot2:Find("settips")
 
 	if slot1.mode == "showresttime" then
 		setActive(slot6, true)
-		setActive(slot2:Find("settips"), false)
+		setActive(slot7, false)
 
 		slot8 = slot6:Find("desc"):GetComponent(typeof(Text))
 
@@ -557,8 +566,10 @@ function slot10(slot0, slot1)
 			elseif math.floor(slot1 / 3600) > 0 then
 				uv2.text = string.format(i18n("tips_fail_secondarypwd_much_times"), slot3 .. i18n("word_hour"))
 			else
+				slot4 = ""
+
 				if math.floor(slot1 / 60) > 0 then
-					slot4 = "" .. slot5 .. i18n("word_minute")
+					slot4 = slot4 .. slot5 .. i18n("word_minute")
 				end
 
 				uv2.text = string.format(i18n("tips_fail_secondarypwd_much_times"), slot4 .. math.max(slot1 - slot5 * 60, 0) .. i18n("word_second"))
@@ -665,16 +676,17 @@ function slot11(slot0, slot1)
 
 								return
 							else
+								slot4 = {
+									mapIdx = slot2:getConfig("map")
+								}
+
 								if slot2.active then
-									-- Nothing
+									slot4.chapterId = slot2.id
 								else
 									slot4.openChapterId = slot0
 								end
 
-								uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-									mapIdx = slot2:getConfig("map"),
-									chapterId = slot2.id
-								})
+								uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot4)
 							end
 						else
 							uv1.TipsMgr.GetInstance():ShowTips(i18n("acquisitionmode_is_not_open"))
@@ -786,16 +798,17 @@ function slot13(slot0, slot1)
 
 								return
 							else
+								slot4 = {
+									mapIdx = slot2:getConfig("map")
+								}
+
 								if slot2.active then
-									-- Nothing
+									slot4.chapterId = slot2.id
 								else
 									slot4.openChapterId = slot0
 								end
 
-								uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-									mapIdx = slot2:getConfig("map"),
-									chapterId = slot2.id
-								})
+								uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot4)
 							end
 						else
 							uv1.TipsMgr.GetInstance():ShowTips(i18n("acquisitionmode_is_not_open"))
@@ -1030,8 +1043,9 @@ function slot1.commonSetting(slot0, slot1)
 
 	slot14 = slot0.settings.title or uv1.TITLE_INFORMATION
 	slot15 = 0
+	slot16 = slot0._titleList.transform.childCount
 
-	while slot15 < slot0._titleList.transform.childCount do
+	while slot15 < slot16 do
 		slot17 = slot0._titleList.transform:GetChild(slot15)
 
 		SetActive(slot17, slot17.name == slot14)

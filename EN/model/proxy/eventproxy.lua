@@ -88,9 +88,11 @@ function slot0.findInfoById(slot0, slot1)
 end
 
 function slot0.countByState(slot0, slot1)
+	slot2 = 0
+
 	for slot6, slot7 in ipairs(slot0.eventList) do
 		if slot7.state == slot1 then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 
@@ -104,9 +106,11 @@ function slot0.hasFinishState(slot0)
 end
 
 function slot0.countBusyFleetNums(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0.eventList) do
 		if not slot6:IsActivityType() and slot6.state ~= EventInfo.StateNone then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -246,6 +250,36 @@ function slot0.GetEventByActivityId(slot0, slot1)
 			return slot6, slot5
 		end
 	end
+end
+
+function slot0.GetEventListForCommossionInfo(slot0)
+	slot2 = 0
+	slot3 = 0
+	slot4 = 0
+
+	_.each(slot0:getEventList(), function (slot0)
+		if slot0:IsActivityType() then
+			if slot0.state == EventInfo.StateNone then
+				uv0 = uv0 + 1
+			elseif slot0.state == EventInfo.StateActive then
+				uv1 = uv1 + 1
+			elseif slot0.state == EventInfo.StateFinish then
+				uv2 = uv2 + 1
+			end
+		elseif slot0.state == EventInfo.StateNone then
+			-- Nothing
+		elseif slot0.state == EventInfo.StateActive then
+			uv3 = uv3 + 1
+
+			table.insert(uv4, slot0)
+		elseif slot0.state == EventInfo.StateFinish then
+			uv5 = uv5 + 1
+
+			table.insert(uv4, slot0)
+		end
+	end)
+
+	return {}, slot2 + 0, slot3 + 0, slot0.maxFleetNums - (slot2 + slot3) + 0
 end
 
 return slot0

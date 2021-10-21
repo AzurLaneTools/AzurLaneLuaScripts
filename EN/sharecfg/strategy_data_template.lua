@@ -84,6 +84,42 @@ pg.strategy_data_template = {
 			area_scout
 		}
 	},
+	[13] = {
+		buff_id = 9670,
+		name = "Flare Shell",
+		type = 6,
+		id = 13,
+		icon = "yezhan_zhaomingdan",
+		desc = "You currently have flares. The fleet that retrieved them will be able to fire flares during the next $1 battle(s).",
+		arg = {}
+	},
+	[14] = {
+		buff_id = 9600,
+		name = "Lighthouse",
+		type = 10,
+		id = 14,
+		icon = "yezhan_dengta",
+		desc = "You are in control of a lighthouse. Your fleets may receive searchlight support during combat.",
+		arg = {}
+	},
+	[16] = {
+		buff_id = 0,
+		name = "Poor Visibility",
+		type = 6,
+		id = 16,
+		icon = "weather_101",
+		desc = "The turbulent sea at night obscures your visibility. Both your vanguard fleet and the enemies will have Concealment Zones, making it harder to land hits.",
+		arg = {}
+	},
+	[17] = {
+		buff_id = 0,
+		name = "Dense Fog",
+		type = 6,
+		id = 17,
+		icon = "Weather_102",
+		desc = "Thick fog blankets the battlefield, reducing the rate at which Concealment Zones shrink for both your fleets and enemies.",
+		arg = {}
+	},
 	[47] = {
 		buff_id = 0,
 		name = "High-Efficiency Operation",
@@ -823,6 +859,10 @@ pg.strategy_data_template = {
 		10,
 		11,
 		12,
+		13,
+		14,
+		16,
+		17,
 		47,
 		90,
 		91,

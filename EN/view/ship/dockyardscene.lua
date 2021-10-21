@@ -434,7 +434,12 @@ function slot0.showEnergyDesc(slot0, slot1, slot2)
 	slot0.energyDescTF.position = slot1
 
 	setActive(slot0.energyDescTF, true)
-	LeanTween.scale(slot0.energyDescTF, Vector3.zero, 0.2):setDelay(1):setFrom(Vector3.one):setOnComplete(System.Action(function ()
+
+	slot3 = LeanTween.scale(slot0.energyDescTF, Vector3.zero, 0.2)
+	slot3 = slot3:setDelay(1)
+	slot3 = slot3:setFrom(Vector3.one)
+
+	slot3:setOnComplete(System.Action(function ()
 		uv0.energyDescTF.localScale = Vector3.one
 
 		setActive(uv0.energyDescTF, false)
@@ -448,8 +453,10 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 		slot3 = slot0.scrollItems[slot2]
 	end
 
+	slot4 = slot0.shipVOs[slot1 + 1]
+
 	if slot0.contextData.selectFriend then
-		slot3:update(slot0.shipVOs[slot1 + 1], slot0.friends)
+		slot3:update(slot4, slot0.friends)
 	else
 		slot3:update(slot4)
 	end
@@ -494,7 +501,9 @@ function slot0.initIndexPanel(slot0)
 			uv0.indexPanel = findTF(uv0._tf, "index_panel")
 
 			if not uv0.indexPanel then
-				PoolMgr.GetInstance():GetPrefab("ui/indexui", "", false, function (slot0)
+				slot0 = PoolMgr.GetInstance()
+
+				slot0:GetPrefab("ui/indexui", "", false, function (slot0)
 					uv0.indexPanelParent = slot0
 					uv0.indexPanel = findTF(slot0, "index_panel")
 					slot1 = uv0:findTF("layout", uv0.indexPanel)
@@ -523,37 +532,67 @@ function slot0.initIndexPanel(slot0)
 				end)
 			end
 
-			uv0.greySprite = uv0:findTF("resource/grey", uv0.indexPanel):GetComponent(typeof(Image)).sprite
-			uv0.blueSprite = uv0:findTF("resource/blue", uv0.indexPanel):GetComponent(typeof(Image)).sprite
-			uv0.yellowSprite = uv0:findTF("resource/yellow", uv0.indexPanel):GetComponent(typeof(Image)).sprite
+			slot1 = uv0
+			slot1 = slot1:findTF("resource/grey", uv0.indexPanel)
+			uv0.greySprite = slot1:GetComponent(typeof(Image)).sprite
+			slot1 = uv0
+			slot1 = slot1:findTF("resource/blue", uv0.indexPanel)
+			uv0.blueSprite = slot1:GetComponent(typeof(Image)).sprite
+			slot1 = uv0
+			slot1 = slot1:findTF("resource/yellow", uv0.indexPanel)
+			uv0.yellowSprite = slot1:GetComponent(typeof(Image)).sprite
+			slot0 = uv0
 
-			uv0:initIndex()
-			uv0:initSort()
-			uv0:animationOut()
+			slot0:initIndex()
+
+			slot0 = uv0
+
+			slot0:initSort()
+
+			slot0 = uv0
+
+			slot0:animationOut()
 			setActive(uv0.indexPanel, true)
 
 			uv0.indexPanel.localScale = Vector3.zero
 
 			LeanTween.scale(uv0.indexPanel, Vector3(1, 1, 1), 0.2)
-			uv0:updateIndex()
-			uv0.UIMgr:BlurPanel(uv0.indexPanel)
+
+			slot0 = uv0
+
+			slot0:updateIndex()
+
+			slot0 = uv0.UIMgr
+
+			slot0:BlurPanel(uv0.indexPanel)
 			onButton(uv0, findTF(uv0.indexPanel, "layout/btns/ok"), function ()
 				uv0.selectAsc = uv0.tmpAsc
 				uv0.selectedSort = uv0.tmpSort
+				slot0 = ipairs
+				slot1 = uv0.tmpIndexFlag or {}
 
-				for slot3, slot4 in ipairs(uv0.tmpIndexFlag or {}) do
+				for slot3, slot4 in slot0(slot1) do
 					uv0.indexFlag[slot3] = slot4
 				end
 
-				for slot3, slot4 in ipairs(uv0.tmpIndexFlag2 or {}) do
+				slot0 = ipairs
+				slot1 = uv0.tmpIndexFlag2 or {}
+
+				for slot3, slot4 in slot0(slot1) do
 					uv0.indexFlag2[slot3] = slot4
 				end
 
-				for slot3, slot4 in ipairs(uv0.tmpIndexFlag3 or {}) do
+				slot0 = ipairs
+				slot1 = uv0.tmpIndexFlag3 or {}
+
+				for slot3, slot4 in slot0(slot1) do
 					uv0.indexFlag3[slot3] = slot4
 				end
 
-				for slot3, slot4 in ipairs(uv0.tmpIndexFlag4 or {}) do
+				slot0 = ipairs
+				slot1 = uv0.tmpIndexFlag4 or {}
+
+				for slot3, slot4 in slot0(slot1) do
 					uv0.indexFlag4[slot3] = slot4
 				end
 
@@ -963,12 +1002,13 @@ function slot0.initWorldPanel(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.worldPanel:Find("btn_repair_all"), function ()
 		slot0 = {}
+		slot1 = 0
 
 		for slot5, slot6 in pairs(uv0.shipVOsById) do
 			if WorldConst.FetchWorldShip(slot6.id):IsBroken() or not slot7:IsHpFull() then
 				table.insert(slot0, slot7.id)
 
-				slot1 = 0 + nowWorld:CalcRepairCost(slot7)
+				slot1 = slot1 + nowWorld:CalcRepairCost(slot7)
 			end
 		end
 
@@ -988,10 +1028,11 @@ end
 
 function slot0.repairWorldShip(slot0, slot1)
 	slot2 = WorldConst.FetchWorldShip(slot1.id)
+	slot3 = nowWorld:CalcRepairCost(slot2)
 
 	if slot2:IsBroken() then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("world_ship_repair_2", slot1:getName(), nowWorld:CalcRepairCost(slot2)),
+			content = i18n("world_ship_repair_2", slot1:getName(), slot3),
 			onYes = function ()
 				uv0:emit(DockyardMediator.ON_SHIP_REPAIR, {
 					uv1.id
@@ -1043,17 +1084,17 @@ function slot0.filter(slot0)
 		slot0:filterCommon()
 	end
 
+	slot2 = 0
+
 	if slot0.contextData.quitTeam then
-		table.insert(slot0.shipVOs, 0 + 1, false)
+		table.insert(slot0.shipVOs, slot2 + 1, false)
 	end
 
 	if slot0.contextData.priorEquipUpShipIDList then
-		slot3 = {
-			[slot8] = true
-		}
+		slot3 = {}
 
 		for slot7, slot8 in ipairs(slot0.contextData.priorEquipUpShipIDList) do
-			-- Nothing
+			slot3[slot8] = true
 		end
 
 		for slot7 = #slot0.shipVOs, 1, -1 do
@@ -1083,27 +1124,32 @@ function slot0.filterForRemouldAndUpgrade(slot0)
 	slot1 = slot0.isFilterLockForMod
 	slot2 = slot0.isFilterLevelForMod
 
+	function slot3(slot0)
+		slot1 = true
+
+		if not uv0 and slot0.lockState == Ship.LOCK_STATE_LOCK then
+			slot1 = false
+		end
+
+		if not uv1 and slot0.level > 1 then
+			slot1 = false
+		end
+
+		return slot1
+	end
+
 	for slot7, slot8 in pairs(slot0.shipVOsById) do
-		if (function (slot0)
-			slot1 = true
-
-			if not uv0 and slot0.lockState == Ship.LOCK_STATE_LOCK then
-				slot1 = false
-			end
-
-			if not uv1 and slot0.level > 1 then
-				slot1 = false
-			end
-
-			return slot1
-		end)(slot8) then
+		if slot3(slot8) then
 			table.insert(slot0.shipVOs, slot8)
 		end
 	end
 
 	table.sort(slot0.shipVOs, function (slot0, slot1)
+		slot2 = slot0:isTestShip() and 1 or 0
+		slot3 = slot1:isTestShip() and 1 or 0
+
 		if slot0.level == slot1.level then
-			return (slot1:isTestShip() and 1 or 0) < (slot0:isTestShip() and 1 or 0)
+			return slot2 < slot3
 		else
 			return slot0.level < slot1.level
 		end
@@ -1144,10 +1190,11 @@ function slot0.filterCommon(slot0)
 		end
 	end
 
+	slot3 = nil
 	slot4 = false
 
 	if (slot1 == 3 and true or slot1 == 1 and true or (slot1 == 2 or slot1 == 4) and true or slot1 == 5 and (slot0.selectAsc and IndexConst.sortByIntimacyAsc or IndexConst.sortByIntimacy) or true) and not defaultValue((slot0.contextData.hideTagFlags or {}).inFleet, ShipStatus.TAG_HIDE_BASE.inFleet) then
-		slot5 = nil
+		slot5 = slot3
 
 		function slot3(slot0, slot1)
 			return sortCompare({
@@ -1219,8 +1266,9 @@ function slot0.didEnter(slot0)
 		triggerToggle(slot0.assultBtn, true)
 
 		slot0.guildShipEquipmentsPage = GuildShipEquipmentsPage.New(slot0._tf, slot0.event)
+		slot1 = slot0.guildShipEquipmentsPage
 
-		slot0.guildShipEquipmentsPage:SetCallBack(function ()
+		slot1:SetCallBack(function ()
 			uv0:TriggerCard(-1)
 		end, function ()
 			uv0:TriggerCard(1)
@@ -1241,10 +1289,12 @@ function slot0.didEnter(slot0)
 	end)
 
 	slot0.isFormTactics = slot0.contextData.prevPage == "NavalTacticsMediator"
+	slot2 = slot0:findTF("off", slot1):GetComponent("Image")
+	slot3 = slot0:findTF("on", slot1):GetComponent("Image")
 
 	if slot0.isFormTactics then
-		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_off", slot0:findTF("off", slot1):GetComponent("Image"))
-		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_on", slot0:findTF("on", slot1):GetComponent("Image"))
+		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_off", slot2)
+		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_on", slot3)
 	else
 		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "attr_off", slot2)
 		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "attr_on", slot3)
@@ -1394,17 +1444,17 @@ function slot0.didEnter(slot0)
 			end
 		end
 
-		slot4 = {
-			[slot10:getGroupId()] = true
-		}
+		slot4 = {}
 		slot5 = {}
 
 		for slot9, slot10 in pairs(getProxy(BayProxy):getShips()) do
 			if slot10:isMaxStar() then
-				-- Nothing
+				slot4[slot10:getGroupId()] = true
 			else
+				slot11 = slot10:getMaxStar() - slot10:getStar() + 1
+
 				if slot10:GetLockState() == Ship.LOCK_STATE_UNLOCK then
-					slot11 = slot10:getMaxStar() - slot10:getStar() + 1 + 1
+					slot11 = slot11 + 1
 				end
 
 				slot5[slot10:getGroupId()] = slot5[slot10:getGroupId()] and slot12 < slot11 and slot12 or slot11
@@ -1487,10 +1537,13 @@ function slot0.didEnter(slot0)
 
 		for slot16 = 1, uv0.selectedMax - #uv0.selectedIds do
 			if slot6[slot16] then
+				slot17 = 0
+				slot18 = 0
+
 				for slot22, slot23 in ipairs(uv0.selectedIds) do
 					slot25, slot26 = uv0.shipVOsById[slot23]:calReturnRes()
-					slot17 = 0 + slot25
-					slot18 = 0 + slot26
+					slot17 = slot17 + slot25
+					slot18 = slot18 + slot26
 				end
 
 				slot19, slot20 = slot6[slot16]:calReturnRes()
@@ -1698,10 +1751,13 @@ function slot0.updateShipStatusById(slot0, slot1)
 end
 
 function slot0.checkDestroyGold(slot0, slot1)
+	slot2 = 0
+	slot3 = 0
+
 	for slot7, slot8 in ipairs(slot0.selectedIds) do
 		slot10, slot11 = slot0.shipVOsById[slot8]:calReturnRes()
-		slot2 = 0 + slot10
-		slot3 = 0 + slot11
+		slot2 = slot2 + slot10
+		slot3 = slot3 + slot11
 	end
 
 	if slot1 then
@@ -1888,6 +1944,7 @@ function slot0.updateDestroyRes(slot0)
 	slot2, slot3, slot4 = ShipCalcHelper.CalcDestoryRes(_.map(slot0.selectedIds, function (slot0)
 		return uv0.shipVOsById[slot0]
 	end))
+	slot5 = slot3 == 0
 
 	if slot0.destroyResList then
 		slot0.destroyResList:make(function (slot0, slot1, slot2)
@@ -1917,7 +1974,7 @@ function slot0.updateDestroyRes(slot0)
 				setText(slot2:Find("Text"), "X" .. slot4)
 			end
 		end)
-		slot0.destroyResList:align((slot3 == 0 and 1 or 2) + #slot4)
+		slot0.destroyResList:align((slot5 and 1 or 2) + #slot4)
 	end
 
 	if slot0.destroyPage and slot0.destroyPage:GetLoaded() and slot0.destroyPage:isShowing() then
@@ -1944,11 +2001,13 @@ function slot0.updateModAttr(slot0)
 		table.insert(slot2, slot0.shipVOsById[slot7])
 	end
 
+	slot3 = ShipModLayer.getModExpAdditions(slot0.modShip, slot2)
+
 	for slot7, slot8 in pairs(ShipModAttr.ID_TO_ATTR) do
 		if slot7 ~= ShipModLayer.IGNORE_ID then
 			slot9 = slot0.modAttrContainer:Find("attr_" .. slot7)
 
-			setText(slot9:Find("value"), ShipModLayer.getModExpAdditions(slot0.modShip, slot2)[slot8])
+			setText(slot9:Find("value"), slot3[slot8])
 			setText(slot9:Find("name"), ShipModAttr.id2Name(slot7))
 		end
 	end
@@ -2087,11 +2146,13 @@ end
 
 function slot0.uiStartAnimating(slot0)
 	slot1 = slot0:findTF("back", slot0.topPanel)
+	slot2 = 0
+	slot3 = 0.3
 
 	if slot0.contextData.mode ~= uv0.MODE_OVERVIEW then
 		slot0.onSelect = true
 
-		shiftPanel(slot0.selectPanel, nil, 0, 0.3, 0, true, true)
+		shiftPanel(slot0.selectPanel, nil, 0, slot3, slot2, true, true)
 	end
 
 	if not slot0.contextData.leftTopInfo and not slot0.contextData.mode == uv0.MODE_WORLD then
@@ -2153,8 +2214,9 @@ end
 function slot0.displayDestroyPanel(slot0)
 	if not slot0.destroyPage then
 		slot0.destroyPage = ShipDestoryPage.New(slot0._tf, slot0.event)
+		slot1 = slot0.destroyPage
 
-		slot0.destroyPage:SetCardClickCallBack(function (slot0)
+		slot1:SetCardClickCallBack(function (slot0)
 			uv0.blacklist[slot0.shipVO:getGroupId()] = true
 
 			if table.indexof(uv0.selectedIds, slot0.shipVO.id) and slot1 > 0 then
@@ -2164,11 +2226,15 @@ function slot0.displayDestroyPanel(slot0)
 			uv0:updateDestroyRes()
 			uv0:updateSelected()
 		end)
-		slot0.destroyPage:SetConfirmCallBack(function ()
+
+		slot1 = slot0.destroyPage
+
+		slot1:SetConfirmCallBack(function ()
+			slot0 = {}
 			slot1, slot2 = uv0:checkDestroyGold()
 
 			if not slot2 then
-				table.insert({}, function (slot0)
+				table.insert(slot0, function (slot0)
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
 						onYes = slot0

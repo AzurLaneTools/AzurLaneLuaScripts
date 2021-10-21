@@ -170,13 +170,24 @@ return {
 					}
 				},
 				{
+					triggerType = 1,
+					waveIndex = 301,
+					conditionType = 1,
+					preWaves = {
+						101,
+						202
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
 					triggerType = 0,
 					key = true,
 					waveIndex = 102,
 					conditionType = 1,
 					preWaves = {
-						101,
-						202
+						301
 					},
 					triggerParam = {},
 					spawn = {
@@ -273,13 +284,24 @@ return {
 					}
 				},
 				{
+					triggerType = 1,
+					waveIndex = 302,
+					conditionType = 1,
+					preWaves = {
+						102,
+						203
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
 					triggerType = 0,
 					key = true,
 					waveIndex = 103,
 					conditionType = 1,
 					preWaves = {
-						102,
-						203
+						302
 					},
 					triggerParam = {},
 					spawn = {
@@ -380,7 +402,7 @@ return {
 							moveCast = true,
 							delay = 2,
 							corrdinate = {
-								10,
+								5,
 								0,
 								55
 							},
@@ -420,14 +442,25 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
-					key = true,
-					waveIndex = 104,
+					triggerType = 1,
+					waveIndex = 303,
 					conditionType = 0,
 					preWaves = {
 						103,
 						102,
 						101
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 104,
+					conditionType = 0,
+					preWaves = {
+						303
 					},
 					triggerParam = {},
 					spawn = {
@@ -548,6 +581,20 @@ return {
 								8001,
 								8002
 							}
+						},
+						{
+							monsterTemplateID = 14004,
+							moveCast = true,
+							delay = 2,
+							corrdinate = {
+								5,
+								0,
+								55
+							},
+							buffList = {
+								8001,
+								8007
+							}
 						}
 					},
 					airFighter = {
@@ -573,7 +620,7 @@ return {
 					triggerType = 8,
 					waveIndex = 900,
 					preWaves = {
-						103
+						104
 					},
 					triggerParams = {}
 				},
@@ -608,7 +655,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 23,
+							delay = 20,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {
@@ -624,7 +671,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 38,
+							delay = 34,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {

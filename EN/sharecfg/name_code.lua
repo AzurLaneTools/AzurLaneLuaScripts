@@ -1050,6 +1050,16 @@ pg.name_code = {
 		name = "Fusou META",
 		code = "Fusou META"
 	},
+	{
+		id = 211,
+		name = "Fuso Retrofit",
+		code = "Fuso Retrofit"
+	},
+	{
+		id = 212,
+		name = "Mogami Retrofit",
+		code = "Mogami Retrofit"
+	},
 	[250] = {
 		id = 250,
 		name = "I-9",

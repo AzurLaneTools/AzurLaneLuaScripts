@@ -120,7 +120,7 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.LOAD_LAYERS then
 		slot0.viewComponent:OnAddLayer()
 	elseif slot2 == GAME.REMOVE_LAYERS then
-		slot0.viewComponent:OnRemoveLayer()
+		slot0.viewComponent:OnRemoveLayer(slot3)
 	elseif slot2 == GAME.HARVEST_RES_DONE then
 		slot0.viewComponent:OnGetRes(slot3.type, slot3.outPut)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelMediator_ok_takeResource"))

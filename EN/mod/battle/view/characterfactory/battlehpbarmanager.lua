@@ -54,6 +54,10 @@ function slot2.GetHPBar(slot0, slot1)
 		SetActive(slot7, false)
 	end
 
+	if slot4:Find("biasBar") then
+		SetActive(slot8, false)
+	end
+
 	return slot3
 end
 

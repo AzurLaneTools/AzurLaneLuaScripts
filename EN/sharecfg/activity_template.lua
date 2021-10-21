@@ -4552,7 +4552,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 15,
+		is_show = 13,
 		id = 4136,
 		config_data = {
 			{
@@ -4601,6 +4601,157 @@ pg.activity_template = {
 			ui_name = "LevelOpenActPage"
 		}
 	},
+	[4140] = {
+		mark = 20211021,
+		id = 4140,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 11,
+		is_show = 16,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "GascogneTecCatchupPage",
+			ui_name = "GascogneTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42016
+		}
+	},
+	[4141] = {
+		mark = 20211021,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		config_client = "",
+		id = 4141,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4142] = {
+		mark = 20211021,
+		id = 4142,
+		title_res_tag = "france_framev2",
+		type = 74,
+		login_pop = 0,
+		config_id = 4142,
+		is_show = 17,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FranceIconTaskPage",
+			ui_name = "FranceIconTaskPage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		config_client = "",
@@ -4608,7 +4759,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 16,
+		is_show = 14,
 		id = 7001,
 		config_data = {
 			1,
@@ -22425,6 +22576,135 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30830] = {
+		mark = 20211021,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 30830,
+		config_data = {
+			14679
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30831] = {
+		mark = 20211021,
+		title_res_tag = "",
+		page_info = "",
+		type = 24,
+		login_pop = 0,
+		config_id = 30832,
+		is_show = 0,
+		config_client = "",
+		id = 30831,
+		config_data = {
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					10,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			1,
+			1,
+			{
+				times,
+				13
+			}
+		}
+	},
+	[30832] = {
+		mark = 20211021,
+		title_res_tag = "",
+		page_info = "",
+		type = 37,
+		login_pop = 0,
+		config_id = 9,
+		is_show = 0,
+		config_client = "",
+		id = 30832,
+		config_data = {
+			30830
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -22551,6 +22831,9 @@ pg.activity_template = {
 		4132,
 		4135,
 		4136,
+		4140,
+		4141,
+		4142,
 		7001,
 		1040,
 		1041,
@@ -23189,6 +23472,9 @@ pg.activity_template = {
 		30826,
 		30827,
 		30828,
-		30829
+		30829,
+		30830,
+		30831,
+		30832
 	}
 }

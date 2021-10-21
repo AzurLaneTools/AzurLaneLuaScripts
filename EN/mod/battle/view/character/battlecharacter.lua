@@ -237,8 +237,6 @@ end
 function slot5.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.SPAWN_CACHE_BULLET, slot0.onSpawnCacheBullet)
 	slot0._unitData:RegisterEventListener(slot0, uv0.CREATE_TEMPORARY_WEAPON, slot0.onNewWeapon)
-	slot0._unitData:RegisterEventListener(slot0, uv0.ADD_TAG, slot0.onAddTag)
-	slot0._unitData:RegisterEventListener(slot0, uv0.REMOVE_TAG, slot0.onRemoveTag)
 	slot0._unitData:RegisterEventListener(slot0, uv0.POP_UP, slot0.onPopup)
 	slot0._unitData:RegisterEventListener(slot0, uv0.VOICE, slot0.onVoice)
 	slot0._unitData:RegisterEventListener(slot0, uv0.PLAY_FX, slot0.onPlayFX)
@@ -275,8 +273,6 @@ function slot5.RemoveUnitEvent(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.CREATE_TEMPORARY_WEAPON)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.CHANGE_ACTION)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.SPAWN_CACHE_BULLET)
-	slot0._unitData:UnregisterEventListener(slot0, uv0.ADD_TAG)
-	slot0._unitData:UnregisterEventListener(slot0, uv0.REMOVE_TAG)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.POP_UP)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.VOICE)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.PLAY_FX)
@@ -389,23 +385,6 @@ function slot5.onNewWeapon(slot0, slot1)
 	slot0:RegisterWeaponListener(slot2)
 end
 
-function slot5.onAddTag(slot0, slot1)
-	slot2 = slot1.Data
-	slot3 = slot0:GetFactory():MakeTag(slot2.tagID)
-
-	slot3:SetTagCount(slot0._unitData:GetAllTagCount())
-	slot3:Mark(slot2.requiredTime)
-
-	slot0._tagFXList[slot2.tagID] = slot3
-end
-
-function slot5.onRemoveTag(slot0, slot1)
-	slot2 = slot1.Data
-	slot0._tagFXList[slot2.tagID] = nil
-
-	slot0._tagFXList[slot2.tagID]:Dispose()
-end
-
 function slot5.onPopup(slot0, slot1)
 	slot2 = slot1.Data
 
@@ -419,8 +398,10 @@ function slot5.onVoice(slot0, slot1)
 end
 
 function slot5.onPlayFX(slot0, slot1)
+	slot2 = slot1.Data.fxName
+
 	if slot1.Data.notAttach then
-		slot0:PlayFX(slot1.Data.fxName)
+		slot0:PlayFX(slot2)
 	else
 		slot0:AddFX(slot2)
 	end
@@ -560,8 +541,10 @@ function slot5.spineSemiTransparentFade(slot0, slot1, slot2, slot3)
 			return
 		end
 
+		slot0 = uv0._go:GetComponent(typeof(Renderer)).material
+
 		if not uv1 or uv1 == 0 then
-			uv0._go:GetComponent(typeof(Renderer)).material:SetFloat("_Invisible", uv2)
+			slot0:SetFloat("_Invisible", uv2)
 		else
 			LeanTween.value(uv0._go, uv3, uv2, uv1):setOnUpdate(System.Action_float(function (slot0)
 				uv0:SetFloat("_Invisible", slot0)
@@ -1044,8 +1027,10 @@ function slot5.onChangeSize(slot0, slot1)
 end
 
 function slot5.updateSomkeFX(slot0)
+	slot1 = slot0._unitData:GetHPRate()
+
 	for slot5, slot6 in ipairs(slot0._smokeList) do
-		if slot0._unitData:GetHPRate() < slot6.rate then
+		if slot1 < slot6.rate then
 			if slot6.active == false then
 				slot6.active = true
 
@@ -1088,9 +1073,11 @@ function slot5.UpdateAniEffect(slot0, slot1)
 end
 
 function slot5.UpdateTagEffect(slot0, slot1)
+	slot2 = slot0._unitData:GetBoxSize().y * 0.5
+
 	for slot6, slot7 in pairs(slot0._tagFXList) do
 		slot7:Update(slot1)
-		slot7:SetPosition(slot0._referenceVector + Vector3(0, slot0._unitData:GetBoxSize().y * 0.5, 0))
+		slot7:SetPosition(slot0._referenceVector + Vector3(0, slot2, 0))
 	end
 end
 
@@ -1164,8 +1151,10 @@ end
 function slot5.SwitchShader(slot0, slot1, slot2)
 	LeanTween.cancel(slot0._go)
 
+	slot2 = slot2 or Color.New(0, 0, 0, 0)
+
 	if slot1 then
-		slot0._animator:ShiftShader(slot1, slot2 or Color.New(0, 0, 0, 0))
+		slot0._animator:ShiftShader(slot1, slot2)
 	else
 		slot0._animator:ClearOverrideMaterial()
 	end

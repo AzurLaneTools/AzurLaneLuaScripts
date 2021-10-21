@@ -1004,6 +1004,30 @@ pg.skill_data_display = {
 		id = 9308,
 		name = "Ryugu's Shadow"
 	},
+	[9601] = {
+		id = 9601,
+		name = "Lighthouse"
+	},
+	[9602] = {
+		id = 9602,
+		name = "Lighthouse"
+	},
+	[9651] = {
+		id = 9651,
+		name = "Flare Shell"
+	},
+	[9652] = {
+		id = 9652,
+		name = "Flare Shell"
+	},
+	[9672] = {
+		id = 9672,
+		name = "Flare Shell"
+	},
+	[9673] = {
+		id = 9673,
+		name = "Flare Shell"
+	},
 	[10010] = {
 		id = 10010,
 		name = "Baptismal Flames"
@@ -4260,6 +4284,14 @@ pg.skill_data_display = {
 		id = 14901,
 		name = "All Out Assault III"
 	},
+	[14912] = {
+		id = 14912,
+		name = "Crescent City Bonds"
+	},
+	[14920] = {
+		id = 14920,
+		name = "Nola Finale"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -7048,6 +7080,12 @@ pg.skill_data_display = {
 		9306,
 		9307,
 		9308,
+		9601,
+		9602,
+		9651,
+		9652,
+		9672,
+		9673,
 		10010,
 		10020,
 		10030,
@@ -7862,6 +7900,8 @@ pg.skill_data_display = {
 		14890,
 		14900,
 		14901,
+		14912,
+		14920,
 		18010,
 		18040,
 		18041,

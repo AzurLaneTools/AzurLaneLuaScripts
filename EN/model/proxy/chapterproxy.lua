@@ -64,34 +64,37 @@ function slot0.register(slot0)
 
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inChapter")
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
+		uv0:AddSubInfoTimer()
 	end)
 	slot0:on(13105, function (slot0)
 		if uv0:getActiveChapter() then
 			slot2 = 0
 
+			function slot3()
+				if not getProxy(ContextProxy) then
+					return
+				end
+
+				if slot0:getCurrentContext().mediator == LevelMediator2 then
+					uv0 = bit.bor(uv0, ChapterConst.DirtyAttachment, ChapterConst.DirtyStrategy)
+
+					uv1:SetChapterAutoFlag(uv2.id, false)
+
+					return
+				end
+
+				if not slot0:getContextByMediator(LevelMediator2) then
+					return
+				end
+
+				slot2.data.StopAutoFightFlag = true
+			end
+
 			if _.any(slot0.ai_list, function (slot0)
 				return slot0.item_type == ChapterConst.AttachOni
 			end) then
 				slot1:onOniEnter()
-				(function ()
-					if not getProxy(ContextProxy) then
-						return
-					end
-
-					if slot0:getCurrentContext().mediator == LevelMediator2 then
-						uv0 = bit.bor(uv0, ChapterConst.DirtyAttachment, ChapterConst.DirtyStrategy)
-
-						uv1:SetChapterAutoFlag(uv2.id, false)
-
-						return
-					end
-
-					if not slot0:getContextByMediator(LevelMediator2) then
-						return
-					end
-
-					slot2.data.StopAutoFightFlag = true
-				end)()
+				slot3()
 			end
 
 			if _.any(slot0.map_update, function (slot0)
@@ -202,12 +205,14 @@ end
 function slot0.buildBaseMaps(slot0)
 	uv0.ActToMaps = {}
 	uv0.TypeToMaps = {}
+	slot1 = {}
 
 	for slot5, slot6 in ipairs(pg.expedition_data_by_map.all) do
 		slot7 = Map.New({
 			id = slot6,
 			chapterIds = uv0.MapToChapters[slot6]
 		})
+		slot1[slot6] = slot7
 
 		if slot7:getConfig("on_activity") ~= 0 then
 			uv0.ActToMaps[slot8] = uv0.ActToMaps[slot8] or {}
@@ -220,9 +225,7 @@ function slot0.buildBaseMaps(slot0)
 		table.insert(uv0.TypeToMaps[slot9], slot7.id)
 	end
 
-	slot0.baseMaps = {
-		[slot6] = slot7
-	}
+	slot0.baseMaps = slot1
 end
 
 function slot0.buildRemasterMaps(slot0)
@@ -275,6 +278,8 @@ function slot0.addChapterListener(slot0, slot1)
 		slot0.timers[slot1.id] = nil
 	end
 
+	slot3 = pg.TimeMgr.GetInstance()
+
 	function slot3()
 		uv0.data[uv1.id].dueTime = nil
 
@@ -286,7 +291,7 @@ function slot0.addChapterListener(slot0, slot1)
 		uv0:sendNotification(uv2.CHAPTER_TIMESUP)
 	end
 
-	if slot1.dueTime - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
+	if slot1.dueTime - slot3:GetServerTime() > 0 then
 		slot0.timers[slot1.id] = Timer.New(function ()
 			uv0()
 			uv1.timers[uv2.id]:Stop()
@@ -314,6 +319,38 @@ function slot0.remove(slot0)
 	end
 
 	slot0.timers = nil
+
+	slot0:StopSubInfoTimer()
+end
+
+function slot0.AddSubInfoTimer(slot0)
+	slot0:StopSubInfoTimer()
+
+	slot2 = pg.TimeMgr.GetInstance()
+
+	function slot2()
+		if not LOCK_SUBMARINE then
+			uv0:sendNotification(GAME.SUB_CHAPTER_FETCH)
+		end
+	end
+
+	if slot0.subNextReqTime - slot2:GetServerTime() > 0 then
+		slot0.subInfoTimer = Timer.New(slot2, slot1, 1)
+
+		slot0.subInfoTimer:Start()
+	else
+		slot2()
+	end
+end
+
+function slot0.StopSubInfoTimer(slot0)
+	if not slot0.subInfoTimer then
+		return
+	end
+
+	slot0.subInfoTimer:Stop()
+
+	slot0.subInfoTimer = nil
 end
 
 function slot0.GetRawChapterById(slot0, slot1)
@@ -382,8 +419,6 @@ function slot0.getNormalMaps(slot0)
 end
 
 function slot0.getMapsByType(slot0, slot1)
-	slot2 = {}
-
 	if uv0.TypeToMaps[slot1] then
 		return _.map(uv0.TypeToMaps[slot1], function (slot0)
 			return uv0:getMapById(slot0)
@@ -391,8 +426,6 @@ function slot0.getMapsByType(slot0, slot1)
 	else
 		return {}
 	end
-
-	return slot2
 end
 
 function slot0.getMapsByActId(slot0, slot1)
@@ -416,7 +449,9 @@ function slot0.getRemasterMaps(slot0, slot1)
 end
 
 function slot0.getMapsByActivities(slot0)
-	underscore.each(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT), function (slot0)
+	slot2 = getProxy(ActivityProxy)
+
+	underscore.each(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT), function (slot0)
 		if not slot0:isEnd() then
 			uv0 = table.mergeArray(uv0, uv1:getMapsByActId(slot0.id))
 		end
@@ -440,7 +475,9 @@ function slot0.getLastUnlockMap(slot0)
 end
 
 function slot0.updateExtraFlag(slot0, slot1, slot2, slot3, slot4)
-	if not slot4 and not slot1:updateExtraFlags(slot2, slot3) then
+	slot5 = slot1:updateExtraFlags(slot2, slot3)
+
+	if not slot4 and not slot5 then
 		return
 	end
 
@@ -450,9 +487,7 @@ function slot0.updateExtraFlag(slot0, slot1, slot2, slot3, slot4)
 		table.insert(slot6, slot11)
 	end
 
-	slot0.chaptersExtend[slot1.id] = slot0.chaptersExtend[slot1.id] or {}
-	slot0.chaptersExtend[slot1.id].extraFlagUpdate = slot6
-
+	slot0:SetExtendChapterData(slot1.id, "extraFlagUpdate", slot6)
 	slot0.facade:sendNotification(uv0.CHAPTER_EXTAR_FLAG_UPDATED, slot6)
 
 	return true
@@ -871,13 +906,14 @@ function slot0.getSubAidFlag(slot0, slot1)
 		slot7 = getProxy(PlayerProxy):getRawData()
 		slot8, slot9 = slot0:getFleetCost(slot3, slot1)
 		slot10, slot11 = slot0:getFleetAmmo(slot5)
+		slot12 = 0
 		slot16 = slot0
 		slot17 = slot5
 
 		for slot16, slot17 in ipairs({
 			slot0.getFleetCost(slot16, slot17, slot1)
 		}) do
-			slot12 = 0 + slot17.oil
+			slot12 = slot12 + slot17.oil
 		end
 
 		if slot11 <= 0 then

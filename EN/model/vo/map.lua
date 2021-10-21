@@ -114,11 +114,12 @@ function slot0.getChapterTimeLimit(slot0)
 	end
 
 	slot1 = pg.TimeMgr.GetInstance()
+	slot2 = 0
 	slot6 = true
 
 	for slot6, slot7 in ipairs(slot0:getChapters(slot6)) do
 		if pg.activity_template[slot7:getConfig("act_id")] and slot8.time and #slot8.time == 3 and slot1:parseTimeFromConfig(slot8.time[2]) - slot1:GetServerTime() > 0 then
-			slot2 = 0 == 0 and slot9 or math.min(slot9, slot9)
+			slot2 = slot2 == 0 and slot9 or math.min(slot9, slot9)
 		end
 	end
 
@@ -214,6 +215,10 @@ function slot0.getLastUnlockChapterName(slot0)
 	end
 
 	return slot1:getConfig("chapter_name")
+end
+
+function slot0.GetChapterList(slot0)
+	return slot0.chapterIds
 end
 
 function slot0.isActivity(slot0)

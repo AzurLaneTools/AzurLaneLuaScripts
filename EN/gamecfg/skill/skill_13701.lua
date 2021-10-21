@@ -7,7 +7,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 65051,
+					weapon_id = 65041,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -31,7 +31,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 65052,
+					weapon_id = 65042,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -55,7 +55,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 65053,
+					weapon_id = 65043,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -79,7 +79,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 65054,
+					weapon_id = 65044,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -103,7 +103,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 65055,
+					weapon_id = 65045,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -127,7 +127,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 65056,
+					weapon_id = 65046,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -151,7 +151,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 65057,
+					weapon_id = 65047,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -175,7 +175,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 65058,
+					weapon_id = 65048,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -199,7 +199,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 65059,
+					weapon_id = 65049,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",
@@ -223,7 +223,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 65060,
+					weapon_id = 65050,
 					supportTarget = {
 						targetChoice = {
 							"TargetPlayerAidUnit",

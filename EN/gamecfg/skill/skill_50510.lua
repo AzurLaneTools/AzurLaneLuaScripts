@@ -70,10 +70,32 @@ return {
 		}
 	},
 	{
-		effect_list = {}
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetNil",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 1101055,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
 	},
 	{
-		effect_list = {}
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetNil",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 1101056,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
 	},
 	{
 		effect_list = {}

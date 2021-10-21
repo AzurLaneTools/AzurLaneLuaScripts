@@ -99,9 +99,17 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 
 	seriesAsync({
 		function (slot0)
-			uv0:Reset(uv1, uv2)
-			uv0:UpdateBg(uv1)
-			uv0:PlayBgm(uv1)
+			slot1 = uv0
+
+			slot1:Reset(uv1, uv2)
+
+			slot1 = uv0
+
+			slot1:UpdateBg(uv1)
+
+			slot1 = uv0
+
+			slot1:PlayBgm(uv1)
 			parallelAsync({
 				function (slot0)
 					uv0:LoadEffects(uv1, slot0)
@@ -126,22 +134,24 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			}, slot0)
 		end,
 		function (slot0)
+			function slot1()
+				uv0.isRegisterEvent = true
+
+				if uv0.pause or uv0.stop then
+					return
+				end
+
+				if uv0.autoNext then
+					uv0.autoNext = nil
+
+					uv0:UnscaleDelayCall(uv1:GetTriggerDelayTime(), function ()
+						uv0:TriggerEventAuto()
+					end)
+				end
+			end
+
 			if uv2:ExistOption() then
-				uv0:InitBranches(uv1, uv2, slot0, function ()
-					uv0.isRegisterEvent = true
-
-					if uv0.pause or uv0.stop then
-						return
-					end
-
-					if uv0.autoNext then
-						uv0.autoNext = nil
-
-						uv0:UnscaleDelayCall(uv1:GetTriggerDelayTime(), function ()
-							uv0:TriggerEventAuto()
-						end)
-					end
-				end)
+				uv0:InitBranches(uv1, uv2, slot0, slot1)
 			else
 				uv0:RegisetEvent(slot0)
 				slot1()
@@ -213,8 +223,9 @@ end
 
 function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 	slot5 = false
+	slot7 = slot0.optionUIlist
 
-	slot0.optionUIlist:make(function (slot0, slot1, slot2)
+	slot7:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = slot2:Find("content")
 			slot5 = uv0[slot1 + 1][2]
@@ -235,7 +246,10 @@ function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 			setActive(slot3, false)
 		end
 	end)
-	slot0.optionUIlist:align(#slot2:GetOptions())
+
+	slot7 = slot0.optionUIlist
+
+	slot7:align(#slot2:GetOptions())
 	slot0:ShowOrHideBranches(true, function ()
 		uv0 = true
 
@@ -297,8 +311,10 @@ function slot0.FadeOutStory(slot0, slot1, slot2)
 		return
 	end
 
+	slot3 = slot1:GetFadeoutTime()
+
 	if not slot1:ShouldWaitFadeout() then
-		slot0:fadeTransform(slot0._go, 1, 0.3, slot1:GetFadeoutTime(), true)
+		slot0:fadeTransform(slot0._go, 1, 0.3, slot3, true)
 		slot2()
 	else
 		slot0:fadeTransform(slot0._go, 1, 0.3, slot3, true, slot2)
@@ -336,13 +352,16 @@ function slot0.fadeTransform(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		table.insert(slot7, slot14.material)
 	end
 
-	LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
+	slot10 = LeanTween.value(go(slot1), slot2, slot3, slot4)
+	slot10 = slot10:setOnUpdate(System.Action_float(function (slot0)
 		for slot4, slot5 in ipairs(uv0) do
 			if not IsNil(slot5) then
 				slot5:SetColor(uv1[slot4].name, uv1[slot4].color * Color.New(slot0, slot0, slot0))
 			end
 		end
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot10:setOnComplete(System.Action(function ()
 		if uv0 then
 			for slot3, slot4 in ipairs(uv1) do
 				if not IsNil(slot4) then
@@ -506,8 +525,10 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot3) do
+		slot11 = slot9.active
+
 		if slot0.effectPanel:Find(slot9.name) then
-			setActive(slot12, slot9.active)
+			setActive(slot12, slot11)
 		else
 			slot13 = ""
 
@@ -579,7 +600,9 @@ function slot0.PlayVoice(slot0, slot1)
 			uv1.voiceDelayTimer = nil
 		end
 
-		pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv2, function (slot0)
+		slot0 = pg.CriMgr.GetInstance()
+
+		slot0:PlaySoundEffect_V3(uv2, function (slot0)
 			if slot0 then
 				uv0.currentVoice = slot0.playback
 			end
@@ -608,6 +631,7 @@ function slot0.Clear(slot0, slot1)
 	slot0.callback = nil
 	slot0.autoNext = nil
 	slot0.script = nil
+	slot0.bgImage.sprite = nil
 
 	slot0:OnClear()
 
@@ -678,6 +702,7 @@ end
 function slot0.StartBlinkAnimation(slot0, slot1, slot2)
 	if slot1:ShouldBlink() then
 		slot3 = slot1:GetBlinkData()
+		slot5 = slot3.number
 		slot6 = slot3.dur
 		slot7 = slot3.delay
 		slot8 = slot3.alpha[1]
@@ -689,9 +714,11 @@ function slot0.StartBlinkAnimation(slot0, slot1, slot2)
 
 		slot11 = {}
 
-		for slot15 = 1, slot3.number do
+		for slot15 = 1, slot5 do
 			table.insert(slot11, function (slot0)
-				uv0:TweenAlpha(uv0.flash, uv1, uv2, uv3 / 2, 0, function ()
+				slot1 = uv0
+
+				slot1:TweenAlpha(uv0.flash, uv1, uv2, uv3 / 2, 0, function ()
 					uv0:TweenAlpha(uv0.flash, uv1, uv2, uv3 / 2, uv4, uv5)
 				end)
 			end)
@@ -724,7 +751,9 @@ function slot0.StartBlinkWithColorAnimation(slot0, slot1, slot2)
 			slot15 = slot11[4]
 
 			table.insert(slot6, function (slot0)
-				uv0:TweenValue(uv0.flash, uv1, uv2, uv3, uv4, function (slot0)
+				slot1 = uv0
+
+				slot1:TweenValue(uv0.flash, uv1, uv2, uv3, uv4, function (slot0)
 					uv0.flashCg.alpha = slot0
 				end, slot0)
 			end)

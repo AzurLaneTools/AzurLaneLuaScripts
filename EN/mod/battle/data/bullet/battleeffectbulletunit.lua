@@ -39,12 +39,12 @@ function slot1.spawnArea(slot0, slot1)
 	slot8 = slot0._battleProxy:SpawnLastingColumnArea(slot0:GetEffectField(), slot0:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot3.range, time, function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.Active then
-				uv0._battleProxy:GetUnitList()[slot5.UID]:AddBuff(uv1.Battle.BattleBuffUnit.New(uv2))
+				uv0._battleProxy:GetUnitList()[slot5.UID]:AddBuff(uv1.Battle.BattleBuffUnit.New(uv2), true)
 			end
 		end
 	end, function (slot0)
 		if slot0.Active then
-			uv0._battleProxy:GetUnitList()[slot0.UID]:RemoveBuff(uv1)
+			uv0._battleProxy:GetUnitList()[slot0.UID]:RemoveBuff(uv1, true)
 		end
 	end, slot4.friendly, slot4.effect_id)
 

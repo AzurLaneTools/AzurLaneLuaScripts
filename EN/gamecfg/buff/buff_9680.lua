@@ -24,6 +24,15 @@ return {
 					"TargetAllHarm"
 				}
 			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				skill_id = 9678
+			}
 		}
 	}
 }

@@ -649,7 +649,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[542] = {
 		cannon = 0,
-		name = "满潮",
+		name = "Michishio",
 		type = 1,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -800,7 +800,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[543] = {
 		cannon = 0,
-		name = "扶桑改",
+		name = "Fusou Retrofit",
 		type = 10,
 		speed_growth = 0,
 		battle_unit_type = 49,

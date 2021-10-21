@@ -38557,6 +38557,502 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[103121] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "New Orlean",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 103120,
+		english_name = "USS New Orlean",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 103121,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			848,
+			45,
+			0,
+			50,
+			0,
+			67,
+			0,
+			45,
+			10,
+			26.16,
+			76,
+			0
+		},
+		attrs_growth = {
+			21386,
+			621,
+			0,
+			1076,
+			0,
+			467,
+			0,
+			701,
+			384,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.65,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103122] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "New Orlean",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 103120,
+		english_name = "USS New Orlean",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 103122,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1055,
+			56,
+			0,
+			62,
+			0,
+			67,
+			0,
+			45,
+			10,
+			26.16,
+			76,
+			0
+		},
+		attrs_growth = {
+			21386,
+			621,
+			0,
+			1076,
+			0,
+			467,
+			0,
+			701,
+			384,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.65,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103123] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "New Orlean",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 103120,
+		english_name = "USS New Orlean",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 103123,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1469,
+			78,
+			0,
+			86,
+			0,
+			67,
+			0,
+			45,
+			10,
+			26.16,
+			76,
+			0
+		},
+		attrs_growth = {
+			21386,
+			621,
+			0,
+			1076,
+			0,
+			467,
+			0,
+			701,
+			384,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.65,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103124] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "New Orlean",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 103120,
+		english_name = "USS New Orlean",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 103124,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2089,
+			112,
+			0,
+			123,
+			0,
+			67,
+			0,
+			45,
+			10,
+			26.16,
+			76,
+			0
+		},
+		attrs_growth = {
+			21386,
+			621,
+			0,
+			1076,
+			0,
+			467,
+			0,
+			701,
+			384,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			0.7,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
 	[103131] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -296780,6 +297276,10 @@ pg.ship_data_statistics = {
 		103112,
 		103113,
 		103114,
+		103121,
+		103122,
+		103123,
+		103124,
 		103131,
 		103132,
 		103133,

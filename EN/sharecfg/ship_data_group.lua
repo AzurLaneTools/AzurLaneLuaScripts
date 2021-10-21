@@ -657,17 +657,6 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Guild shop exchange",
 				{
 					"SHOP",
@@ -764,17 +753,6 @@ pg.ship_data_group = {
 			5001
 		},
 		description = {
-			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
 			{
 				"Guild shop exchange",
 				{
@@ -2324,11 +2302,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light/Heavy/Special Construction",
+				"Heavy/Special Construction",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
+						projectName = "heavy",
 						page = 1
 					}
 				},
@@ -2681,11 +2659,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Light/Heavy/Special Construction",
+				"Heavy/Special Construction",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
+						projectName = "heavy",
 						page = 1
 					}
 				},
@@ -3321,6 +3299,40 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[521] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 1,
+		handbook_type = 0,
+		index_id = 76,
+		code = 521,
+		group_type = 10312,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Explore Stage13-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 1404
 					}
 				},
 				0
@@ -9744,6 +9756,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11515,6 +11538,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11766,6 +11800,17 @@ pg.ship_data_group = {
 				"Event: Crimson Echoes",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12148,6 +12193,17 @@ pg.ship_data_group = {
 				"Event: Crimson Echoes",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12667,6 +12723,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13071,6 +13138,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13466,6 +13544,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13495,6 +13584,17 @@ pg.ship_data_group = {
 				"Event: Crimson Echoes",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -20402,6 +20502,7 @@ pg.ship_data_group = {
 		43,
 		44,
 		45,
+		521,
 		46,
 		364,
 		512,

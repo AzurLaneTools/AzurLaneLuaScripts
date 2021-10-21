@@ -6988,6 +6988,81 @@ _G.pg.ship_skin_words[103112] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[103120] = {
+	feeling1 = "You're like a little kid, Commander.",
+	feeling3 = "What do I do off-duty? Hmm. I hang out with my sisters, I go fishing, I take naps... Things like that.",
+	lose = "Neither will alone... nor strength alone... is enough.",
+	propose = "Is this your proposal? Or are you asking for more help than ever? Hehe, whichever it is, I'll oblige. As long as you want to be with me, I'll do everything you ask of me, Commander.",
+	expedition = "The commission girls are back. Have you decided on what to give them yet?",
+	win_mvp = "War is about always thinking two or three steps ahead of the enemy.",
+	home = "I held the fort while you were away on your sortie. Here's a list of things you should review.",
+	mission = "You've still not finished these missions, Commander. Do you need my assistance?",
+	touch2 = "Hehehe. You wouldn't stand a chance against me in a real fight.",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Lock on... Fire!",
+	mail = "You've got new mail. I've added \"check the mailbox\" to today's task list.",
+	touch = "Whether you want close contact, or hand-to-hand combat, I'll oblige.",
+	profile = "I'm New Orleans, nameship of my class. I used to fight for the Eagle Union. I had a frighteningly close call once in a battle, but fortunately, I lived to see another day. But the past is the past – treat me no different from how you would anyone else in the fleet.",
+	mission_complete = "I compiled a list of all the mission rewards. Have a look.",
+	feeling4 = "I like it when you ask me for help. It's... soothing, in a way. Hehehe, maybe that's a strange thing to say.",
+	unlock = "Heavy cruiser New Orleans, reporting in. Hehe, you'll be sure to receive a medal for finding me. Anyway... Do you have any urgent tasks for me?",
+	feeling5 = "If you ever need help, or want someone to talk to, just say my name. I'll always be there to support you, Commander.",
+	main = "Being focused is a good thing, but overworking yourself will only burn you out in the end.|I suppose rigging rocket boosters are still a way's off... Oh, just talking to myself.|My sisters are all very eccentric. Hehe, rest assured, they're good people all the same.",
+	battle = "I'll bring victory to you, Commander!",
+	upgrade = "You think I can handle this power? Thank you. I'll trust you.",
+	voice_key = 10312,
+	headtouch = "Even my sisters haven't touched me like that. Hehehe~",
+	feeling2 = "Weapons are extensions of our own bodies. They need regular care, too.",
+	login = "Welcome back, Commander. I'm counting on you today.",
+	vote = "",
+	hp_warning = "I can't go down as long as they can't hit me...!",
+	id = 103120,
+	detail = "A rigging inspection? Hehe, go ahead, Commander.",
+	couple_encourage = {
+		{
+			{
+				10308
+			},
+			1,
+			"We've both got to set examples for our little sisters.",
+			0
+		},
+		{
+			{
+				10309
+			},
+			1,
+			" I'm here. No need to push yourself too far.",
+			0
+		},
+		{
+			{
+				10310
+			},
+			1,
+			"Stay sharp, Vincennes!",
+			0
+		},
+		{
+			{
+				10313
+			},
+			1,
+			"Be careful so the hunter doesn't become the hunted.",
+			0
+		},
+		{
+			{
+				10314
+			},
+			1,
+			"Don't take it too easy now, okay?",
+			0
+		}
+	}
+}
+
 _G.pg.ship_skin_words[103130] = {
 	feeling1 = "It’s kinda boring talking to you...",
 	feeling3 = "There’s actually a few places in port that I am interested in investigating. Let’s go and explore them now! ...Work? We can still make it on time even if we wait a bit longer!",

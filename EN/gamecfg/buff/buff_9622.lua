@@ -1,6 +1,6 @@
 return {
 	desc_get = "",
-	name = "海雾我方生效buff",
+	name = "海雾buff",
 	init_effect = "",
 	time = 0,
 	color = "yellow",
@@ -9,7 +9,7 @@ return {
 	stack = 1,
 	id = 9622,
 	icon = 9622,
-	last_effect = "Darkness",
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -18,7 +18,7 @@ return {
 			},
 			arg_list = {
 				attr = "aimBiasDecaySpeed",
-				number = -3
+				number = -0.15
 			}
 		}
 	}

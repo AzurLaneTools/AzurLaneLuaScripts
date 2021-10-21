@@ -70,6 +70,10 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.descMode then
+			if LeanTween.isTweening(go(uv0.stageContain)) or LeanTween.isTweening(go(uv0.selQuicklyTF)) then
+				return
+			end
+
 			uv0:enableDescMode(false)
 		else
 			uv0:emit(uv1.ON_BACK)
@@ -131,7 +135,9 @@ function slot0.displayDailyLevels(slot0)
 	slot0.centerCardId = nil
 	slot0.checkAniTimer = Timer.New(function ()
 		for slot3, slot4 in pairs(uv0.dailyLevelTFs) do
-			if uv0.centerAniItem == slot4 and slot4.localScale.x >= 0.98 then
+			slot6 = slot4.localScale.x >= 0.98
+
+			if uv0.centerAniItem == slot4 and slot6 then
 				return
 			else
 				if slot6 then
@@ -174,8 +180,10 @@ function slot0.CanOpenDailyLevel(slot0)
 end
 
 function slot0.getNextCardId(slot0, slot1)
+	slot2 = table.indexof(slot0.dailyList, slot0.centerCardId)
+
 	if slot1 then
-		if table.indexof(slot0.dailyList, slot0.centerCardId) - 1 <= 0 then
+		if slot2 - 1 <= 0 then
 			slot2 = #slot0.dailyList or slot2
 		end
 	elseif slot2 + 1 > #slot0.dailyList then
@@ -211,10 +219,11 @@ function slot0.initDailyLevel(slot0, slot1)
 end
 
 function slot0.UpdateDailyLevelCnt(slot0, slot1)
+	slot4 = findTF(slot0.dailyLevelTFs[slot1], "count")
 	slot5 = slot0.dailyCounts[slot1] or 0
 
 	if pg.expedition_daily_template[slot1].limit_time == 0 then
-		setText(findTF(slot0.dailyLevelTFs[slot1], "count"), "N/A")
+		setText(slot4, "N/A")
 	else
 		setText(slot4, string.format("%d/%d", slot2.limit_time - slot5, slot2.limit_time))
 	end
@@ -270,12 +279,13 @@ function slot0.displayStageList(slot0, slot1)
 	end)) do
 		slot9 = slot8[1]
 		slot0.stageTFs[slot9] = cloneTplTo(slot0.stageTpl, slot0.stageContain)
+		slot11 = {
+			id = slot9,
+			level = slot8[2]
+		}
 
 		if slot1 == CHALLENGE_CARD_ID then
-			slot0:updateChallenge({
-				id = slot9,
-				level = slot8[2]
-			})
+			slot0:updateChallenge(slot11)
 		else
 			slot0:updateStage(slot11)
 		end
@@ -288,10 +298,14 @@ function slot0.updateStageTF(slot0, slot1, slot2)
 	setActive(slot0:findTF("mask", slot1), slot0.player.level < slot2.level)
 
 	if slot0.player.level < slot2.level then
-		slot5 = slot0:findTF("msg/msg_contain/Text", slot4)
+		if PLATFORM_CODE == PLATFORM_US then
+			slot5 = slot0:findTF("msg/msg_contain/Text", slot4)
 
-		setText(slot5, "Lv." .. slot2.level .. " ")
-		slot5:SetAsLastSibling()
+			setText(slot5, "Lv." .. slot2.level .. " ")
+			slot5:SetAsLastSibling()
+		else
+			setText(slot0:findTF("msg/msg_contain/Text", slot4), "Lv." .. slot2.level .. " ")
+		end
 	end
 
 	slot5 = UIItemList.New(slot0:findTF("scrollView/right_panel", slot1), slot0.itemTpl)
@@ -316,7 +330,8 @@ function slot0.updateStageTF(slot0, slot1, slot2)
 end
 
 function slot0.updateStage(slot0, slot1)
-	slot2 = slot0.stageTFs[slot1.id]:Find("info")
+	slot2 = slot0.stageTFs[slot1.id]
+	slot2 = slot2:Find("info")
 
 	slot0:updateStageTF(slot2, slot1)
 	onButton(slot0, slot2, function ()
@@ -324,6 +339,10 @@ function slot0.updateStage(slot0, slot1)
 			if pg.expedition_daily_template[uv1.dailyLevelId].limit_time <= (uv1.dailyCounts[uv1.dailyLevelId] or 0) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
 
+				return
+			end
+
+			if LeanTween.isTweening(go(uv1.descMain)) or LeanTween.isTweening(go(uv1.listPanel)) then
 				return
 			end
 
@@ -362,10 +381,12 @@ function slot0.EnableOrDisable(slot0, slot1, slot2)
 		return
 	end
 
+	slot6 = -1 * slot0.stageContain:GetComponent(typeof(VerticalLayoutGroup)).padding.top - slot0.stageContain.parent:InverseTransformPoint(slot3.parent.position).y
+
 	if slot2 then
 		slot0:updateStageTF(slot0.selStageTF, slot1)
 		slot0:UpdateBattleBtn(slot1)
-		slot0:DoSelectedAnimation(slot3, -1 * slot0.stageContain:GetComponent(typeof(VerticalLayoutGroup)).padding.top - slot0.stageContain.parent:InverseTransformPoint(slot3.parent.position).y, function ()
+		slot0:DoSelectedAnimation(slot3, slot6, function ()
 			uv0.selectedStage = uv1
 		end)
 	else
@@ -501,47 +522,60 @@ function slot0.enableDescMode(slot0, slot1, slot2)
 
 	setActive(slot0:findTF("help_btn"), not slot1)
 
+	function slot3(slot0, slot1, slot2)
+		if LeanTween.isTweening(go(slot0)) then
+			LeanTween.cancel(go(slot0))
+		end
+
+		slot3 = LeanTween.moveX(rtf(slot0), slot1, 0.3)
+		slot3 = slot3:setEase(LeanTweenType.linear)
+
+		slot3:setOnComplete(System.Action(function ()
+			if uv0 then
+				uv0()
+			end
+		end))
+	end
+
+	function slot4()
+		for slot3, slot4 in pairs(uv0.dailyLevelTFs) do
+			setButtonEnabled(slot4, not uv1)
+
+			if slot3 ~= uv0.curId then
+				if LeanTween.isTweening(go(slot4)) then
+					LeanTween.cancel(go(slot4))
+				end
+
+				slot5 = GetComponent(slot4, typeof(CanvasGroup))
+
+				if uv1 then
+					slot6 = LeanTween.value(go(slot4), 1, 0, 0.3)
+
+					slot6:setOnUpdate(System.Action_float(function (slot0)
+						uv0.alpha = slot0
+					end))
+				else
+					slot6 = LeanTween.value(go(slot4), 0, 1, 0.3)
+
+					slot6:setOnUpdate(System.Action_float(function (slot0)
+						uv0.alpha = slot0
+					end))
+				end
+			end
+		end
+	end
+
+	function slot5()
+		setActive(uv0.listPanel, true)
+		setActive(uv0.content, true)
+		setActive(uv0.descPanel, uv1)
+		setActive(uv0.arrows, not uv1)
+	end
+
 	if slot1 then
-		(function ()
-			setActive(uv0.listPanel, true)
-			setActive(uv0.content, true)
-			setActive(uv0.descPanel, uv1)
-			setActive(uv0.arrows, not uv1)
-		end)()
-		(function ()
-			for slot3, slot4 in pairs(uv0.dailyLevelTFs) do
-				setButtonEnabled(slot4, not uv1)
-
-				if slot3 ~= uv0.curId then
-					if LeanTween.isTweening(go(slot4)) then
-						LeanTween.cancel(go(slot4))
-					end
-
-					slot5 = GetComponent(slot4, typeof(CanvasGroup))
-
-					if uv1 then
-						LeanTween.value(go(slot4), 1, 0, 0.3):setOnUpdate(System.Action_float(function (slot0)
-							uv0.alpha = slot0
-						end))
-					else
-						LeanTween.value(go(slot4), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
-							uv0.alpha = slot0
-						end))
-					end
-				end
-			end
-		end)()
-		(function (slot0, slot1, slot2)
-			if LeanTween.isTweening(go(slot0)) then
-				LeanTween.cancel(go(slot0))
-			end
-
-			LeanTween.moveX(rtf(slot0), slot1, 0.3):setEase(LeanTweenType.linear):setOnComplete(System.Action(function ()
-				if uv0 then
-					uv0()
-				end
-			end))
-		end)(slot0.listPanel, -622, function ()
+		slot5()
+		slot4()
+		slot3(slot0.listPanel, -622, function ()
 			uv0(uv1.descMain, 0, uv2)
 		end)
 	else
@@ -557,15 +591,19 @@ function slot0.enableDescMode(slot0, slot1, slot2)
 end
 
 function slot0.flipToSpecificCard(slot0, slot1)
+	slot2 = slot0.content:GetComponent(typeof(EnhancelScrollView))
+
 	for slot6, slot7 in pairs(slot0.dailyLevelTFs) do
 		if slot1 == slot6 then
-			slot0.content:GetComponent(typeof(EnhancelScrollView)):SetHorizontalTargetItemIndex(slot7:GetComponent(typeof(EnhanceItem)).scrollViewItemIndex)
+			slot2:SetHorizontalTargetItemIndex(slot7:GetComponent(typeof(EnhanceItem)).scrollViewItemIndex)
 		end
 	end
 end
 
 function slot0.tryPlayGuide(slot0)
-	pg.SystemGuideMgr.GetInstance():PlayDailyLevel(function ()
+	slot1 = pg.SystemGuideMgr.GetInstance()
+
+	slot1:PlayDailyLevel(function ()
 		triggerButton(uv0:findTF("help_btn"))
 	end)
 end

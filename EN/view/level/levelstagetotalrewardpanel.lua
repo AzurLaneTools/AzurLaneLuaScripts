@@ -34,7 +34,9 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:UpdateView()
 
-	if slot0.contextData.isAutoFight and PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0 then
+	slot2 = PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0
+
+	if slot0.contextData.isAutoFight and slot2 then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_AUTO_BATTLE)
 		LuaHelper.Vibrate()
 	end
@@ -108,7 +110,7 @@ function slot0.UpdateView(slot0)
 					uv0.CheckOilCost(uv1, uv2, slot0)
 				end,
 				function (slot0)
-					uv0:emit(LevelMediator2.ON_ELITE_TRACKING, uv1.id, 1, uv2, uv3, uv4)
+					uv0:emit(LevelMediator2.ON_ELITE_TRACKING, uv1.id, uv1.loopFlag, uv2, uv3, uv4)
 					uv0:closeView()
 				end
 			})
@@ -123,7 +125,7 @@ function slot0.UpdateView(slot0)
 					uv0.CheckOilCost(uv1, uv2, slot0)
 				end,
 				function (slot0)
-					uv0:emit(LevelMediator2.ON_TRACKING, uv1.id, uv2, 1, uv3, uv4, uv5)
+					uv0:emit(LevelMediator2.ON_TRACKING, uv1.id, uv2, uv1.loopFlag, uv3, uv4, uv5)
 					uv0:closeView()
 				end
 			})
@@ -149,6 +151,7 @@ function slot0.UpdateView(slot0)
 	slot10 = slot5 and table.getCount(slot5) > 0
 	slot11 = slot6 and table.getCount(slot6) > 0
 	slot12 = true
+	slot13 = {}
 
 	setActive(slot0.boxView:Find("Content/Title"), false)
 	setActive(slot0.itemList, false)
@@ -157,7 +160,7 @@ function slot0.UpdateView(slot0)
 		slot12 = false
 		slot0.hasRewards = true
 
-		table.insert({}, function (slot0)
+		table.insert(slot13, function (slot0)
 			setActive(uv0.boxView:Find("Content/Title"), true)
 			setActive(uv0.itemList, true)
 			slot0()
@@ -259,8 +262,9 @@ function slot0.UpdateView(slot0)
 	if #slot14 > 0 then
 		slot12 = false
 		slot0.hasEventMsg = true
+		slot16 = slot0.boxView
 
-		setText(slot0.boxView:Find("Content/TextArea/Text"), table.concat(slot14, "\n"))
+		setText(slot16:Find("Content/TextArea/Text"), table.concat(slot14, "\n"))
 		table.insert(slot13, function (slot0)
 			setActive(uv0.boxView:Find("Content/TextArea"), true)
 			slot0()
@@ -297,7 +301,9 @@ function slot0.UpdateSPItem(slot0)
 		return
 	end
 
-	UIItemList.StaticAlign(slot0.spList, slot0.spList:GetChild(0), slot5, function (slot0, slot1, slot2)
+	slot8 = slot0.spList
+
+	UIItemList.StaticAlign(slot0.spList, slot8:GetChild(0), slot5, function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
 			return
 		end
