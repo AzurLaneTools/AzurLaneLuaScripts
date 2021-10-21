@@ -24,6 +24,9 @@ function slot0.InitDetail(slot0)
 	slot0.mainPanel = slot0._parentTf.parent
 	slot0.detailPanel = slot0._tf
 	slot0.attrs = slot0.detailPanel:Find("attrs")
+
+	setActive(slot0.attrs, false)
+
 	slot0.shipDetailLogicPanel = ShipDetailLogicPanel.New(slot0.attrs)
 
 	slot0.shipDetailLogicPanel:attach(slot0)

@@ -143,19 +143,19 @@ function slot0.onRegister(slot0)
 			if slot0.type == DROP_TYPE_NPC_SHIP then
 				table.insert(uv0, uv1:getShipById(slot0.id))
 			elseif slot0.type == DROP_TYPE_SHIP then
-				if Ship.isMetaShipByConfigID(slot0.configId) then
-					if table.indexof(uv2, slot0.configId) then
-						table.remove(uv2, slot1)
+				if Ship.isMetaShipByConfigID(slot0.configId or slot0.id) then
+					if table.indexof(uv2, slot1) then
+						table.remove(uv2, slot2)
 
 						uv3 = uv3 - 1
 					else
 						if getProxy(BayProxy):getMetaTransItemMap(Ship.New({
-							configId = slot0.configId
+							configId = slot1
 						}).configId) then
-							slot2:setReMetaSpecialItemVO(slot3)
+							slot3:setReMetaSpecialItemVO(slot4)
 						end
 
-						table.insert(uv0, slot2)
+						table.insert(uv0, slot3)
 					end
 				else
 					uv3 = uv3 - 1
