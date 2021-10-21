@@ -82,6 +82,15 @@ function slot0.RecordCanvasOrder(slot0, slot1)
 	end
 end
 
+function slot0.RefreshLinePosition(slot0, slot1, slot2)
+	if slot2 then
+		slot0:SetLine(slot2)
+		slot0:ResetCanvasOrder()
+	end
+
+	slot0.tf.anchoredPosition = slot1.theme:GetLinePosition(slot0.line.row, slot0.line.column)
+end
+
 function slot0.Clear(slot0)
 	for slot4, slot5 in pairs(slot0.orderTable) do
 		if not IsNil(slot4) then

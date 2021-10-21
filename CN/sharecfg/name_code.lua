@@ -658,7 +658,7 @@ pg.name_code = {
 	{
 		id = 132,
 		name = "山城改",
-		code = "鲼改"
+		code = "鲼.改"
 	},
 	{
 		id = 133,
@@ -1049,6 +1049,16 @@ pg.name_code = {
 		id = 210,
 		name = "扶桑·META",
 		code = "魟·META"
+	},
+	{
+		id = 211,
+		name = "扶桑改",
+		code = "魟.改"
+	},
+	{
+		id = 212,
+		name = "最上改",
+		code = "猨.改"
 	},
 	[250] = {
 		id = 250,

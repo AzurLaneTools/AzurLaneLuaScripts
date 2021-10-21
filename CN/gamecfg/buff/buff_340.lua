@@ -18,6 +18,16 @@ return {
 				buff_id = 341,
 				target = "TargetSelf"
 			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onChargeWeaponFire"
+			},
+			arg_list = {
+				buff_id = 341,
+				target = "TargetSelf"
+			}
 		}
 	}
 }

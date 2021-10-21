@@ -331,6 +331,16 @@ function slot0.ClearRequests(slot0)
 	table.clear(slot0._keyInstDict)
 end
 
+function slot0.RegisterLoaded(slot0, slot1, slot2)
+	slot0._instKeyDict[slot2] = slot1
+	slot0._keyInstDict[slot1] = slot2
+	slot0._returnRequest[slot1] = {
+		Start = function ()
+			Destroy(uv0)
+		end
+	}
+end
+
 function slot0.Clear(slot0)
 	slot0:ClearRequests()
 end

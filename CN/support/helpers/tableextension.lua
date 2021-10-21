@@ -1,5 +1,7 @@
 function table.indexof(slot0, slot1, slot2)
-	for slot6 = slot2 or 1, #slot0 do
+	slot3 = slot2 or 1
+
+	for slot6 = slot3, #slot0 do
 		if slot0[slot6] == slot1 then
 			return slot6
 		end
@@ -21,8 +23,9 @@ end
 function table.removebyvalue(slot0, slot1, slot2)
 	slot3 = 0
 	slot4 = 1
+	slot5 = #slot0
 
-	while slot4 <= #slot0 do
+	while slot4 <= slot5 do
 		if slot0[slot4] == slot1 then
 			table.remove(slot0, slot4)
 
@@ -129,7 +132,7 @@ function table.containsData(slot0, slot1)
 	return false
 end
 
-function table.eachAsync(slot0, slot1, slot2)
+function table.SerialForeachArray(slot0, slot1, slot2)
 	if type(slot0) ~= "table" then
 		return
 	end
@@ -141,28 +144,31 @@ function table.eachAsync(slot0, slot1, slot2)
 	(function ()
 		uv0 = uv1(uv2, uv0)
 
-		if uv2[uv0] == nil then
+		if uv0 == nil then
 			if uv3 then
 				uv3()
 			end
 		else
-			uv4(uv0, slot0, uv5)
+			uv4(uv0, uv2[uv0], uv5)
 		end
 	end)()
 end
 
-function table.eachParallel(slot0, slot1, slot2)
+function table.ParallelForeachArray(slot0, slot1, slot2)
 	if type(slot0) ~= "table" then
 		return
 	end
 
-	slot3, slot4, slot5 = nil
-	slot3, slot5, slot4 = ipairs(slot0)
-	slot6 = 0
-	slot7 = 0
-	slot8 = false
+	slot3, slot4 = nil
+	slot3, slot6, slot4 = ipairs(slot0)
 
-	function slot9()
+	if 0 >= #slot6 then
+		existCall(slot2)
+
+		return
+	end
+
+	function slot8()
 		if uv0 then
 			return
 		end
@@ -175,33 +181,23 @@ function table.eachParallel(slot0, slot1, slot2)
 
 		uv0 = true
 
-		if uv3 then
-			uv3()
-		end
+		existCall(uv3)
 	end
 
 	while true do
-		if slot5[slot3(slot5, slot4)] == nil then
+		if slot3(slot0, slot4) == nil then
 			break
 		end
 
-		slot7 = slot7 + 1
-	end
-
-	slot3, slot5, slot4 = ipairs(slot0)
-
-	while true do
-		if slot5[slot3(slot5, slot4)] == nil then
-			break
-		end
-
-		slot1(slot4, slot10, slot9)
+		slot1(slot4, slot0[slot4], slot8)
 	end
 end
 
 function table.getCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0) do
-		slot1 = 0 + 1
+		slot1 = slot1 + 1
 	end
 
 	return slot1
@@ -249,11 +245,11 @@ function table.shallowCopy(slot0)
 		return slot0
 	end
 
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0) do
-		-- Nothing
+		slot1[slot5] = slot6
 	end
 
-	return {
-		[slot5] = slot6
-	}
+	return slot1
 end

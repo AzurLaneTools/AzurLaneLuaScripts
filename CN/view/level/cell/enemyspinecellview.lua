@@ -4,8 +4,6 @@ function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-slot0.buffheight = 220
-
 function slot0.Update(slot0)
 	slot2 = slot0.config
 	slot3 = slot0.info.trait ~= ChapterConst.TraitLurk
@@ -22,48 +20,59 @@ function slot0.Update(slot0)
 		return
 	end
 
-	slot4 = slot1.row
-	slot5 = slot1.column
+	if IsNil(slot0.go) then
+		slot4 = slot0:GetLoader()
 
-	if slot1.attachment == ChapterConst.AttachAmbush and slot1.flag == ChapterConst.CellFlagAmbush then
-		-- Nothing
-	elseif slot1.flag == ChapterConst.CellFlagActive then
-		if slot0:UpdateGO(slot0._aliveTpl) then
-			slot0.tf.anchoredPosition = Vector2(0, 0)
+		slot4:GetPrefab("leveluiview/Tpl_Enemy", "Tpl_Enemy", function (slot0)
+			slot0.name = "enemy_" .. uv0.attachmentId
+			uv1.go = slot0
+			uv1.tf = tf(slot0)
 
-			SetActive(findTF(slot0.tf, "icon"), false)
+			setParent(slot0, uv1.parent)
+			uv1:OverrideCanvas()
+			uv1:ResetCanvasOrder()
 
-			slot7 = findTF(slot0.tf, "titleContain/bg_boss")
-			slot7.localScale = Vector3(0.5, 0.5, 1)
-			slot7.anchoredPosition = Vector2(61.1, -30.6)
+			tf(slot0).localEulerAngles = Vector3(-uv1.chapter.theme.angle, 0, 0)
 
-			slot0:GetLoader():GetSpine(slot2.icon, function (slot0)
+			uv1:RefreshLinePosition(uv1.chapter)
+			SetActive(findTF(uv1.tf, "icon"), false)
+
+			slot2 = findTF(uv1.tf, "titleContain/bg_boss")
+			slot2.localScale = Vector3(0.5, 0.5, 1)
+			slot2.anchoredPosition = Vector2(61.1, -30.6)
+
+			uv1:GetLoader():GetSpine(uv2.icon, function (slot0)
 				slot1 = uv0.scale * 0.01
-				slot0.transform.localScale = Vector3(0.4 * slot1, 0.4 * slot1, 1)
+				tf(slot0).localScale = Vector3(0.4 * slot1, 0.4 * slot1, 1)
 
-				slot0.transform:GetComponent("SpineAnimUI"):SetAction(ChapterConst.ShipIdleAction, 0)
+				tf(slot0):GetComponent("SpineAnimUI"):SetAction(ChapterConst.ShipIdleAction, 0)
 
-				slot0.transform:GetComponent("SkeletonGraphic").raycastTarget = false
+				tf(slot0):GetComponent("SkeletonGraphic").raycastTarget = false
 
-				slot0.transform:SetParent(uv1.tf, false)
-				slot0.transform:SetAsFirstSibling()
+				tf(slot0):SetParent(uv1.tf, false)
+				tf(slot0):SetAsFirstSibling()
 			end, "LoadedSpine")
-			slot0:ExtraUpdate(slot2)
-		end
+			uv1:ExtraUpdate(uv2)
+			uv1.buffer:SetNotifier(uv1)
+			uv1.buffer:ExcuteAll()
+			uv1:Update()
+		end, "Main")
 
-		setActive(findTF(slot0.tf, slot1.attachment == ChapterConst.AttachBoss and "effect_found_boss" or "effect_found"), slot1.trait == ChapterConst.TraitVirgin)
-
-		if slot1.trait == ChapterConst.TraitVirgin then
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
-		end
-
-		setActive(findTF(slot0.tf, "fighting"), slot0.chapter:existFleet(FleetType.Normal, slot4, slot5))
-		setActive(findTF(slot0.tf, "damage_count"), slot1.data > 0)
-	elseif slot1.flag == ChapterConst.CellFlagDisabled and slot0:UpdateGO(slot0._deadTpl) and slot1.attachment ~= ChapterConst.AttachAmbush then
-		setActive(slot0.tf:Find("huoqiubaozha"), slot0._live2death)
-
-		slot0._live2death = nil
+		return
 	end
+
+	setActive(findTF(slot0.tf, slot1.attachment == ChapterConst.AttachBoss and "effect_found_boss" or "effect_found"), slot1.trait == ChapterConst.TraitVirgin)
+
+	if slot1.trait == ChapterConst.TraitVirgin then
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
+	end
+
+	EnemyEggCellView.RefreshEnemyTplIcons(slot0, slot0.chapter)
+	setActive(findTF(slot0.go, "fighting"), slot0.chapter:existFleet(FleetType.Normal, slot1.row, slot1.column))
+
+	slot0.go:GetComponent("Animator").enabled = false
+
+	setActive(findTF(slot0.go, "damage_count"), slot1.data > 0)
 end
 
 function slot0.ReturnSpine(slot0)
@@ -78,7 +87,8 @@ function slot0.DestroyGO(slot0)
 end
 
 function slot0.Clear(slot0)
-	if not IsNil(findTF(slot0.tf, "titleContain/bg_boss")) then
+	if not IsNil(slot0.tf) then
+		slot1 = findTF(slot0.tf, "titleContain/bg_boss")
 		slot1.localScale = Vector3.one
 		slot1.anchoredPosition = Vector2(39.5, -23.2)
 	end

@@ -7,6 +7,8 @@ function slot0.Create(slot0)
 		return BeatMonterNianActivity.New(slot0)
 	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT then
 		return CollectionEventActivity.New(slot0)
+	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
+		return ReturnerActivity.New(slot0)
 	else
 		return Activity.New(slot0)
 	end
@@ -39,11 +41,15 @@ function slot0.Ctor(slot0, slot1)
 	end
 
 	slot0.data1KeyValueList = {}
+	slot2 = ipairs
+	slot3 = slot1.date1_key_value_list or {}
 
-	for slot5, slot6 in ipairs(slot1.date1_key_value_list or {}) do
+	for slot5, slot6 in slot2(slot3) do
 		slot0.data1KeyValueList[slot6.key] = {}
+		slot7 = ipairs
+		slot8 = slot6.value_list or {}
 
-		for slot10, slot11 in ipairs(slot6.value_list or {}) do
+		for slot10, slot11 in slot7(slot8) do
 			slot0.data1KeyValueList[slot6.key][slot11.key] = slot11.value
 		end
 	end
@@ -97,8 +103,10 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.getDataConfigTable(slot0)
+	slot2 = slot0:getConfig("config_id")
+
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
-		return pg.activity_event_monopoly[tonumber(slot0:getConfig("config_id"))]
+		return pg.activity_event_monopoly[tonumber(slot2)]
 	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
 		return pg.activity_event_pt[tonumber(slot2)]
 	elseif slot1 == ActivityConst.ACTIVITY_TYPE_VOTE then
@@ -131,11 +139,12 @@ function slot0.readyToAchieve(slot0)
 
 		slot3:UpdateSkirmishProgress()
 
+		slot5 = 0
 		slot6 = 0
 
 		for slot10, slot11 in ipairs(slot3:getRawData()) do
 			if SkirmishVO.StateInactive < slot11:GetState() then
-				slot5 = 0 + 1
+				slot5 = slot5 + 1
 			end
 
 			if slot12 == SkirmishVO.StateClear then
@@ -193,8 +202,10 @@ function slot0.readyToAchieve(slot0)
 	if slot2 == ActivityConst.ACTIVITY_TYPE_CARD_PAIRS then
 		return slot0.data2 < math.ceil(os.difftime(pg.TimeMgr.GetInstance():GetServerTime(), slot0.data3) / 86400) and slot0.data2 < slot0:getConfig("config_data")[4]
 	elseif slot2 == ActivityConst.ACTIVITY_TYPE_LEVELAWARD then
+		slot3 = getProxy(PlayerProxy):getRawData()
+
 		for slot8 = 1, #pg.activity_level_award[slot0:getConfig("config_id")].front_drops do
-			if slot4.front_drops[slot8][1] <= getProxy(PlayerProxy):getRawData().level and not _.include(slot0.data1_list, slot10) then
+			if slot4.front_drops[slot8][1] <= slot3.level and not _.include(slot0.data1_list, slot10) then
 				slot1 = true
 
 				break
@@ -257,9 +268,10 @@ function slot0.readyToAchieve(slot0)
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
 			if slot0.data1 == 1 then
 				slot5 = pg.activity_template_headhunting[slot0.id].target
+				slot6 = 0
 
 				for slot10, slot11 in ipairs(slot0:getClientList()) do
-					slot6 = 0 + slot11:getPt()
+					slot6 = slot6 + slot11:getPt()
 				end
 
 				slot7 = 0
@@ -321,8 +333,11 @@ function slot0.readyToAchieve(slot0)
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD then
 			return slot0.data2 <= 0
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_SHRINE then
+			slot7 = pg.NewStoryMgr.GetInstance()
+			slot8 = math.clamp(slot0.data2, 0, slot0:getConfig("config_client").story and #slot3 or 7)
+
 			for slot12 = 1, math.clamp(pg.TimeMgr.GetInstance():DiffDay(slot0.data3, pg.TimeMgr.GetInstance():GetServerTime()) + 1, 1, slot4) do
-				if slot3[slot12][1] and slot12 <= math.clamp(slot0.data2, 0, slot0:getConfig("config_client").story and #slot3 or 7) and not pg.NewStoryMgr.GetInstance():IsPlayed(slot13) then
+				if slot3[slot12][1] and slot12 <= slot8 and not slot7:IsPlayed(slot13) then
 					return true
 				end
 			end
@@ -498,12 +513,10 @@ end
 function slot0.GetCrusingUnreceiveAward(slot0)
 	slot1 = pg.battlepass_event_pt[slot0.id]
 	slot2 = {}
-	slot3 = {
-		[slot8] = true
-	}
+	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0.data1_list) do
-		-- Nothing
+		slot3[slot8] = true
 	end
 
 	for slot7, slot8 in ipairs(slot1.target) do
@@ -522,12 +535,10 @@ function slot0.GetCrusingUnreceiveAward(slot0)
 		return PlayerConst.MergePassItemDrop(slot2)
 	end
 
-	slot4 = {
-		[slot9] = true
-	}
+	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot0.data2_list) do
-		-- Nothing
+		slot4[slot9] = true
 	end
 
 	for slot8, slot9 in ipairs(slot1.target) do
@@ -543,6 +554,61 @@ function slot0.GetCrusingUnreceiveAward(slot0)
 	end
 
 	return PlayerConst.MergePassItemDrop(slot2)
+end
+
+function slot0.GetCrusingInfo(slot0)
+	slot1 = pg.battlepass_event_pt[slot0.id]
+	slot2 = slot1.pt
+	slot3 = {}
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot1.key_point_display) do
+		slot4[slot9] = true
+	end
+
+	for slot8, slot9 in ipairs(slot1.target) do
+		table.insert(slot3, {
+			id = slot8,
+			pt = slot9,
+			award = slot1.drop_client[slot8],
+			award_pay = slot1.drop_client_pay[slot8],
+			isImportent = slot4[slot8]
+		})
+	end
+
+	slot5 = slot0.data1
+	slot6 = slot0.data2 == 1
+	slot7 = {}
+
+	for slot11, slot12 in ipairs(slot0.data1_list) do
+		slot7[slot12] = true
+	end
+
+	slot8 = {}
+
+	for slot12, slot13 in ipairs(slot0.data2_list) do
+		slot8[slot13] = true
+	end
+
+	slot9 = 0
+
+	for slot13, slot14 in ipairs(slot3) do
+		if slot5 < slot14.pt then
+			break
+		else
+			slot9 = slot13
+		end
+	end
+
+	return {
+		ptId = slot2,
+		awardList = slot3,
+		pt = slot5,
+		isPay = slot6,
+		awardDic = slot7,
+		awardPayDic = slot8,
+		phase = slot9
+	}
 end
 
 return slot0

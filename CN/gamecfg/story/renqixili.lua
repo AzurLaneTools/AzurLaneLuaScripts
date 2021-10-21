@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也来要来一串吗？喏，给你~",
+			say = "指挥官也要来一串吗？喏，给你~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

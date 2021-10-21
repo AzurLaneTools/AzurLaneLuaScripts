@@ -2920,6 +2920,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3267,6 +3278,40 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[521] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 1,
+		handbook_type = 0,
+		index_id = 76,
+		code = 521,
+		group_type = 10312,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推荐探索关卡14-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 1404
 					}
 				},
 				0
@@ -7437,6 +7482,16 @@ pg.ship_data_group = {
 				"限时活动：激奏的Polaris",
 				{
 					""
+				},
+				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -13787,6 +13842,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"限时活动：激奏的Polaris",
 				{
 					""
@@ -15419,6 +15485,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"限时活动：激奏的Polaris",
 				{
@@ -18209,6 +18286,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"限时活动：激奏的Polaris",
 				{
 					""
@@ -20482,6 +20570,7 @@ pg.ship_data_group = {
 		43,
 		44,
 		45,
+		521,
 		46,
 		364,
 		512,

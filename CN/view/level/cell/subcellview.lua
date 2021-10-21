@@ -18,8 +18,9 @@ end
 
 function slot0.LoadEffectShuihua(slot0)
 	slot1 = "qianting_01"
+	slot2 = slot0.shuihuaLoader
 
-	slot0.shuihuaLoader:GetPrefab("Effect/" .. slot1, slot1, function (slot0)
+	slot2:GetPrefab("Effect/" .. slot1, slot1, function (slot0)
 		uv0.effect_shuihua = slot0
 
 		tf(slot0):SetParent(uv0.tf)
@@ -40,14 +41,10 @@ function slot0.PlayShuiHua(slot0)
 end
 
 function slot0.SetActive(slot0, slot1)
-	slot0.showFlag = slot1
-
 	slot0:SetActiveModel(slot1)
 end
 
 function slot0.SetActiveModel(slot0, slot1)
-	slot1 = slot1 and slot0.showFlag
-
 	setActive(slot0.tfShadow, slot1)
 	slot0:SetSpineVisible(slot1)
 end

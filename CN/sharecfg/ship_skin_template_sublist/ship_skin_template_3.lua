@@ -4278,6 +4278,111 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[103120] = {
+		ship_group = 10312,
+		name = "新奥尔良",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 103120,
+		group_index = 0,
+		prefab = "xinaoerliang",
+		painting = "xinaoerliang",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "新奥尔良级重巡洋舰——新奥尔良，舷号CA-32",
+		voice_actor = 289,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.5,
+					1.22,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.4,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.155,
+					0.084,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.59,
+							2.3,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[103130] = {
 		ship_group = 10313,
 		name = "明尼阿波利斯",
@@ -8072,120 +8177,6 @@ pg.ship_skin_template_3 = {
 						{
 							0.453,
 							0.524,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[105141] = {
-		ship_group = 10514,
-		name = "剧场上的独奏",
-		bullet_skin_secondary = "",
-		hand_id = 3,
-		bgm = "",
-		illustrator2 = 19,
-		bg = "107",
-		id = 105141,
-		group_index = 1,
-		prefab = "nandaketa_2",
-		painting = "nandaketa_2",
-		shop_id = 70103,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "为了在战场之外也能派上用场，马萨诸塞建议我学习了钢琴。虽然一开始觉得自己不是这块料，实际上手之后意外地有挑战的价值……",
-		voice_actor = 19,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.22,
-					0.74,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.41,
-					0.84,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.11,
-					0.12,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.25,
-					0.96,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.34,
 							0
 						}
 					}

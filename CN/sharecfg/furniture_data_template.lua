@@ -5220,6 +5220,72 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[209] = {
+		rarity = 1,
+		describe = "今天的主题和嘉宾是……？！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		themeId = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "啾啾演播厅",
+		tag = 6,
+		icon = "guangboicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "chuanmo/guangbo",
+		canputon = 0,
+		id = 209,
+		can_rotate = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-126,
+					-7
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/guangbo_using"
+			},
+			{
+				"sit",
+				{
+					110,
+					-133
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interaction_bgm = {
+			1,
+			"guangbo"
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		belong = 1,
 		describe = "本ID禁用",
@@ -95566,7 +95632,7 @@ pg.furniture_data_template = {
 		themeId = 79,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "15idomicon",
 		deblocking = 1,
@@ -99781,6 +99847,7 @@ pg.furniture_data_template = {
 		206,
 		207,
 		208,
+		209,
 		100001,
 		100002,
 		100003,

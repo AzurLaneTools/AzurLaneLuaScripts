@@ -159,13 +159,24 @@ return {
 					}
 				},
 				{
+					triggerType = 1,
+					waveIndex = 301,
+					conditionType = 1,
+					preWaves = {
+						101,
+						202
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
 					triggerType = 0,
 					key = true,
 					waveIndex = 102,
 					conditionType = 1,
 					preWaves = {
-						101,
-						202
+						301
 					},
 					triggerParam = {},
 					spawn = {
@@ -243,13 +254,24 @@ return {
 					}
 				},
 				{
+					triggerType = 1,
+					waveIndex = 302,
+					conditionType = 0,
+					preWaves = {
+						102,
+						101
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
 					triggerType = 0,
 					key = true,
 					waveIndex = 103,
 					conditionType = 0,
 					preWaves = {
-						102,
-						101
+						302
 					},
 					triggerParam = {},
 					spawn = {
@@ -365,7 +387,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 8,
+							delay = 11,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {
@@ -381,7 +403,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 23,
+							delay = 26,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {
@@ -397,7 +419,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 38,
+							delay = 37,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {

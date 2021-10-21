@@ -19,7 +19,7 @@ return {
 			},
 			arg_list = {
 				attr = "aimBiasDecaySpeedRatio",
-				number = -0.4
+				number = -0.25
 			}
 		}
 	}

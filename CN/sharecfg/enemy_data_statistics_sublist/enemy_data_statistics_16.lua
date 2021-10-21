@@ -771,7 +771,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[346] = {
 		cannon = 0,
-		name = "最上",
+		name = "最上改",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 49,

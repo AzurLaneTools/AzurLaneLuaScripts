@@ -112,7 +112,7 @@ return {
 							corrdinate = {
 								18,
 								0,
-								75
+								68
 							},
 							buffList = {
 								8001,
@@ -142,7 +142,7 @@ return {
 							corrdinate = {
 								18,
 								0,
-								35
+								42
 							},
 							buffList = {
 								8001,
@@ -199,11 +199,94 @@ return {
 				{
 					triggerType = 0,
 					key = true,
-					waveIndex = 102,
+					waveIndex = 2001,
+					conditionType = 1,
+					preWaves = {
+						100
+					},
+					triggerParam = {},
+					spawn = {
+						{
+							monsterTemplateID = 14020,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								10,
+								0,
+								75
+							},
+							buffList = {
+								8001
+							},
+							phase = {
+								{
+									switchParam = 20,
+									dive = "STATE_RAID",
+									switchTo = 1,
+									index = 0,
+									switchType = 1,
+									setAI = 20009
+								},
+								{
+									index = 1,
+									switchType = 1,
+									switchTo = 1,
+									switchParam = 180
+								}
+							}
+						},
+						{
+							monsterTemplateID = 14020,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								10,
+								0,
+								35
+							},
+							buffList = {
+								8001
+							},
+							phase = {
+								{
+									switchParam = 20,
+									dive = "STATE_RAID",
+									switchTo = 1,
+									index = 0,
+									switchType = 1,
+									setAI = 20009
+								},
+								{
+									index = 1,
+									switchType = 1,
+									switchTo = 1,
+									switchParam = 180
+								}
+							}
+						}
+					}
+				},
+				{
+					triggerType = 1,
+					waveIndex = 301,
 					conditionType = 1,
 					preWaves = {
 						101,
 						202
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 102,
+					conditionType = 1,
+					preWaves = {
+						301
 					},
 					triggerParam = {},
 					spawn = {
@@ -219,8 +302,7 @@ return {
 							},
 							buffList = {
 								8001,
-								8007,
-								9678
+								8007
 							}
 						},
 						{
@@ -292,14 +374,112 @@ return {
 				{
 					triggerType = 0,
 					key = true,
-					waveIndex = 103,
+					waveIndex = 2002,
+					conditionType = 1,
+					preWaves = {
+						301
+					},
+					triggerParam = {},
+					spawn = {
+						{
+							monsterTemplateID = 14020,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								10,
+								0,
+								35
+							},
+							buffList = {
+								8001
+							},
+							phase = {
+								{
+									switchParam = 20,
+									dive = "STATE_RAID",
+									switchTo = 1,
+									index = 0,
+									switchType = 1,
+									setAI = 20009
+								},
+								{
+									index = 1,
+									switchType = 1,
+									switchTo = 1,
+									switchParam = 180
+								}
+							}
+						},
+						{
+							monsterTemplateID = 14020,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								10,
+								0,
+								75
+							},
+							buffList = {
+								8001
+							},
+							phase = {
+								{
+									switchParam = 20,
+									dive = "STATE_RAID",
+									switchTo = 1,
+									index = 0,
+									switchType = 1,
+									setAI = 20009
+								},
+								{
+									index = 1,
+									switchType = 1,
+									switchTo = 1,
+									switchParam = 180
+								}
+							}
+						}
+					}
+				},
+				{
+					triggerType = 1,
+					waveIndex = 302,
 					conditionType = 1,
 					preWaves = {
 						102,
 						203
 					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 103,
+					conditionType = 1,
+					preWaves = {
+						302
+					},
 					triggerParam = {},
 					spawn = {
+						{
+							monsterTemplateID = 14021,
+							moveCast = true,
+							delay = 0,
+							score = 10,
+							corrdinate = {
+								5,
+								0,
+								55
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
 						{
 							monsterTemplateID = 14025,
 							reinforceDelay = 6,
@@ -313,8 +493,7 @@ return {
 							},
 							buffList = {
 								8050,
-								8051,
-								9678
+								8051
 							}
 						},
 						{
@@ -339,7 +518,7 @@ return {
 						{
 							monsterTemplateID = 14005,
 							moveCast = true,
-							delay = 0,
+							delay = 4,
 							score = 0,
 							corrdinate = {
 								-15,
@@ -353,7 +532,7 @@ return {
 						{
 							monsterTemplateID = 14005,
 							moveCast = true,
-							delay = 0,
+							delay = 4,
 							score = 0,
 							corrdinate = {
 								-15,
@@ -408,7 +587,7 @@ return {
 							corrdinate = {
 								15,
 								0,
-								75
+								68
 							},
 							buffList = {
 								8001,
@@ -423,7 +602,7 @@ return {
 							corrdinate = {
 								15,
 								0,
-								35
+								42
 							},
 							buffList = {
 								8001,
@@ -477,11 +656,94 @@ return {
 				{
 					triggerType = 0,
 					key = true,
-					waveIndex = 104,
+					waveIndex = 2003,
+					conditionType = 1,
+					preWaves = {
+						302
+					},
+					triggerParam = {},
+					spawn = {
+						{
+							monsterTemplateID = 14020,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								10,
+								0,
+								35
+							},
+							buffList = {
+								8001
+							},
+							phase = {
+								{
+									switchParam = 20,
+									dive = "STATE_RAID",
+									switchTo = 1,
+									index = 0,
+									switchType = 1,
+									setAI = 20009
+								},
+								{
+									index = 1,
+									switchType = 1,
+									switchTo = 1,
+									switchParam = 180
+								}
+							}
+						},
+						{
+							monsterTemplateID = 14020,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								10,
+								0,
+								75
+							},
+							buffList = {
+								8001
+							},
+							phase = {
+								{
+									switchParam = 20,
+									dive = "STATE_RAID",
+									switchTo = 1,
+									index = 0,
+									switchType = 1,
+									setAI = 20009
+								},
+								{
+									index = 1,
+									switchType = 1,
+									switchTo = 1,
+									switchParam = 180
+								}
+							}
+						}
+					}
+				},
+				{
+					triggerType = 1,
+					waveIndex = 303,
 					conditionType = 1,
 					preWaves = {
 						103,
 						204
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 104,
+					conditionType = 1,
+					preWaves = {
+						303
 					},
 					triggerParam = {},
 					spawn = {
@@ -496,19 +758,18 @@ return {
 								55
 							},
 							buffList = {
-								9651,
-								9678
+								9651
 							}
 						},
 						{
 							monsterTemplateID = 14005,
 							moveCast = true,
-							delay = 0,
+							delay = 4,
 							score = 0,
 							corrdinate = {
 								-15,
 								0,
-								75
+								55
 							},
 							buffList = {
 								9674
@@ -522,7 +783,7 @@ return {
 							corrdinate = {
 								5,
 								0,
-								75
+								68
 							},
 							buffList = {
 								8001,
@@ -537,7 +798,7 @@ return {
 							corrdinate = {
 								5,
 								0,
-								35
+								42
 							},
 							buffList = {
 								8001,
@@ -643,13 +904,96 @@ return {
 				{
 					triggerType = 0,
 					key = true,
-					waveIndex = 105,
+					waveIndex = 2004,
+					conditionType = 1,
+					preWaves = {
+						303
+					},
+					triggerParam = {},
+					spawn = {
+						{
+							monsterTemplateID = 14020,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								10,
+								0,
+								35
+							},
+							buffList = {
+								8001
+							},
+							phase = {
+								{
+									switchParam = 20,
+									dive = "STATE_RAID",
+									switchTo = 1,
+									index = 0,
+									switchType = 1,
+									setAI = 20009
+								},
+								{
+									index = 1,
+									switchType = 1,
+									switchTo = 1,
+									switchParam = 180
+								}
+							}
+						},
+						{
+							monsterTemplateID = 14020,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								10,
+								0,
+								75
+							},
+							buffList = {
+								8001
+							},
+							phase = {
+								{
+									switchParam = 20,
+									dive = "STATE_RAID",
+									switchTo = 1,
+									index = 0,
+									switchType = 1,
+									setAI = 20009
+								},
+								{
+									index = 1,
+									switchType = 1,
+									switchTo = 1,
+									switchParam = 180
+								}
+							}
+						}
+					}
+				},
+				{
+					triggerType = 1,
+					waveIndex = 304,
 					conditionType = 0,
 					preWaves = {
 						104,
 						103,
 						102,
 						101
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 105,
+					conditionType = 0,
+					preWaves = {
+						304
 					},
 					triggerParam = {},
 					spawn = {
@@ -666,8 +1010,7 @@ return {
 							},
 							buffList = {
 								8050,
-								8051,
-								9678
+								8051
 							}
 						},
 						{
@@ -688,14 +1031,29 @@ return {
 					},
 					reinforcement = {
 						{
+							monsterTemplateID = 14021,
+							moveCast = true,
+							delay = 1,
+							score = 10,
+							corrdinate = {
+								5,
+								0,
+								55
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
+						{
 							monsterTemplateID = 14005,
 							moveCast = true,
-							delay = 0,
+							delay = 3,
 							score = 0,
 							corrdinate = {
 								-15,
 								0,
-								70
+								75
 							},
 							buffList = {
 								9674
@@ -722,7 +1080,7 @@ return {
 						{
 							monsterTemplateID = 14005,
 							moveCast = true,
-							delay = 0,
+							delay = 3,
 							score = 0,
 							corrdinate = {
 								-15,
@@ -797,6 +1155,78 @@ return {
 					}
 				},
 				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 2005,
+					conditionType = 1,
+					preWaves = {
+						304
+					},
+					triggerParam = {},
+					spawn = {
+						{
+							monsterTemplateID = 14020,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								10,
+								0,
+								35
+							},
+							buffList = {
+								8001
+							},
+							phase = {
+								{
+									switchParam = 20,
+									dive = "STATE_RAID",
+									switchTo = 1,
+									index = 0,
+									switchType = 1,
+									setAI = 20009
+								},
+								{
+									index = 1,
+									switchType = 1,
+									switchTo = 1,
+									switchParam = 180
+								}
+							}
+						},
+						{
+							monsterTemplateID = 14020,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								10,
+								0,
+								75
+							},
+							buffList = {
+								8001
+							},
+							phase = {
+								{
+									switchParam = 20,
+									dive = "STATE_RAID",
+									switchTo = 1,
+									index = 0,
+									switchType = 1,
+									setAI = 20009
+								},
+								{
+									index = 1,
+									switchType = 1,
+									switchTo = 1,
+									switchParam = 180
+								}
+							}
+						}
+					}
+				},
+				{
 					triggerType = 8,
 					waveIndex = 900,
 					preWaves = {
@@ -835,7 +1265,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 23,
+							delay = 20,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {
@@ -851,7 +1281,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 38,
+							delay = 34,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {

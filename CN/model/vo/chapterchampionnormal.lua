@@ -24,7 +24,7 @@ function slot0.getFleetType(slot0)
 end
 
 function slot0.getPoolType(slot0)
-	return slot0:getConfig("icon_type") == 1 and "enemy" or "common"
+	return slot0:getConfig("icon_type") == 1 and ChapterConst.TemplateEnemy or ChapterConst.TemplateChampion
 end
 
 function slot0.getScale(slot0)

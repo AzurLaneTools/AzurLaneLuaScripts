@@ -84,6 +84,42 @@ pg.strategy_data_template = {
 			area_scout
 		}
 	},
+	[13] = {
+		buff_id = 9670,
+		name = "照明弹",
+		type = 6,
+		id = 13,
+		icon = "yezhan_zhaomingdan",
+		desc = "获得照明弹补给，此舰队在后续的$1场战斗中将会获得额外照明弹支援。",
+		arg = {}
+	},
+	[14] = {
+		buff_id = 9600,
+		name = "灯塔",
+		type = 10,
+		id = 14,
+		icon = "yezhan_dengta",
+		desc = "拥有灯塔控制权，舰队在战斗中将会获得来自灯塔的照明支援。",
+		arg = {}
+	},
+	[16] = {
+		buff_id = 0,
+		name = "夜战",
+		type = 6,
+		id = 16,
+		icon = "weather_101",
+		desc = "苏丽高海峡被黑夜和雷雨笼罩，己方先锋舰队与敌方舰队均获得「夜战隐蔽」状态。被攻击时，舰队会依据当前隐蔽强度获得额外的规避能力。",
+		arg = {}
+	},
+	[17] = {
+		buff_id = 0,
+		name = "海雾",
+		type = 6,
+		id = 17,
+		icon = "Weather_102",
+		desc = "处于海雾区域中，战斗时己方和敌方的隐蔽强度降低速率减慢。",
+		arg = {}
+	},
 	[47] = {
 		buff_id = 0,
 		name = "高效作战",
@@ -823,6 +859,10 @@ pg.strategy_data_template = {
 		10,
 		11,
 		12,
+		13,
+		14,
+		16,
+		17,
 		47,
 		90,
 		91,

@@ -21,7 +21,7 @@ return {
 			target_choise = "TargetHarmNearest",
 			targetAniEffect = "",
 			arg_list = {
-				weapon_id = 350001
+				weapon_id = 350002
 			}
 		}
 	}
