@@ -192,13 +192,15 @@ end
 function slot1.RemoveItem(slot0, slot1)
 	slot2 = slot1.posX
 	slot3 = slot1.posY
+	slot4 = slot1.maxX
+	slot5 = slot1.maxY
 
 	table.removebyvalue(slot0.allItems, slot1)
 
 	slot0.dependInfo[slot1] = nil
 
 	for slot10, slot11 in ipairs(slot0.allItems) do
-		if slot11.posX <= slot1.maxX and slot11.posY <= slot1.maxY then
+		if slot11.posX <= slot4 and slot11.posY <= slot5 then
 			table.removebyvalue(slot6[slot11], slot1)
 		end
 	end

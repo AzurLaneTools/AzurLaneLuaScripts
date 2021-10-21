@@ -140,12 +140,15 @@ function slot0.playAnim(slot0, slot1, slot2)
 	if slot0.skip then
 		slot0:endAnim()
 	else
-		slot0.animtion:Play("reserve")
+		slot3 = slot0.animtion
+
+		slot3:Play("reserve")
 
 		slot3 = 0
 		slot4 = 0
+		slot5 = slot0.aniEvt
 
-		slot0.aniEvt:SetTriggerEvent(function (slot0)
+		slot5:SetTriggerEvent(function (slot0)
 			for slot4, slot5 in ipairs(uv0) do
 				uv1 = uv1 + slot4
 			end
@@ -179,15 +182,19 @@ function slot0.Show(slot0)
 end
 
 function slot0.playBoxMove(slot0, slot1)
+	slot2 = cloneTplTo(slot0.boxTF, slot0.boxMove)
+
 	if slot1.id == 20011 then
-		cloneTplTo(slot0.boxTF, slot0.boxMove):GetComponent(typeof(Image)).sprite = slot0.box1.sprite
+		slot2:GetComponent(typeof(Image)).sprite = slot0.box1.sprite
 	elseif slot1.id == 20012 then
 		slot2:GetComponent(typeof(Image)).sprite = slot0.box2.sprite
 	elseif slot1.id == 20013 then
 		slot2:GetComponent(typeof(Image)).sprite = slot0.box3.sprite
 	end
 
-	slot2:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+	slot3 = slot2:GetComponent(typeof(DftAniEvent))
+
+	slot3:SetEndEvent(function ()
 		Destroy(go(uv0))
 	end)
 end

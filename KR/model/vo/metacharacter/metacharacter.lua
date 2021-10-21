@@ -24,8 +24,10 @@ function slot0.Ctor(slot0, slot1, slot2)
 			progress = slot0[1]
 		})
 	end)
+	slot3 = ipairs
+	slot4 = slot1.repair_attr_info or {}
 
-	for slot6, slot7 in ipairs(slot1.repair_attr_info or {}) do
+	for slot6, slot7 in slot3(slot4) do
 		for slot11, slot12 in pairs(slot0.attrs) do
 			if slot12:hasItemId(slot7) then
 				slot12:updateCount(slot12:getLevelByItemId(slot7))
@@ -47,12 +49,15 @@ function slot0.getBreakOutInfo(slot0)
 end
 
 function slot0.getSpecialMaterialInfoToMaxStar(slot0)
+	slot1 = slot0:getBreakOutInfo()
+	slot2 = {
+		count = 0,
+		itemID = slot0.beakOutInfo:getConfig("item1")
+	}
+
 	while true do
-		if not slot0:getBreakOutInfo():hasNextInfo() then
-			return {
-				count = 0,
-				itemID = slot0.beakOutInfo:getConfig("item1")
-			}
+		if not slot1:hasNextInfo() then
+			return slot2
 		else
 			slot2.count = slot2.count + slot1:getConfig("item1_num")
 			slot1 = slot1:getNextInfo()
@@ -61,8 +66,10 @@ function slot0.getSpecialMaterialInfoToMaxStar(slot0)
 end
 
 function slot0.getCurRepairExp(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.attrs) do
-		slot1 = 0 + slot6:getRepairExp()
+		slot1 = slot1 + slot6:getRepairExp()
 	end
 
 	return slot1
@@ -85,9 +92,12 @@ function slot0.getAttrAddition(slot0, slot1)
 end
 
 function slot0.getPercentageAddition(slot0, slot1)
+	slot2 = 0
+	slot3 = slot0:getRepairRate() * 100
+
 	for slot7, slot8 in ipairs(slot0.effects) do
-		if slot8.progress <= slot0:getRepairRate() * 100 then
-			slot2 = 0 + slot8:getAttrAddition(slot1)
+		if slot8.progress <= slot3 then
+			slot2 = slot2 + slot8:getAttrAddition(slot1)
 		end
 	end
 
@@ -132,8 +142,10 @@ function slot0.getTotalMaxAddition(slot0)
 
 	for slot5, slot6 in ipairs(slot0.effects) do
 		for slot11, slot12 in ipairs(slot6:getAttrAdditionList()) do
+			slot14 = slot12[2]
+
 			if slot1[slot12[1]] then
-				slot1[slot13] = slot1[slot13] + slot12[2]
+				slot1[slot13] = slot1[slot13] + slot14
 			else
 				slot1[slot13] = slot14
 			end
@@ -144,8 +156,10 @@ function slot0.getTotalMaxAddition(slot0)
 end
 
 function slot0.getFinalAddition(slot0, slot1)
+	slot3 = slot0:getTotalMaxAddition()
+
 	for slot7, slot8 in pairs(slot1:getBaseProperties()) do
-		slot2[slot7] = slot2[slot7] + (slot0:getTotalMaxAddition()[slot7] or 0)
+		slot2[slot7] = slot2[slot7] + (slot3[slot7] or 0)
 	end
 
 	return slot2
@@ -164,10 +178,11 @@ function slot0.getEffects(slot0)
 end
 
 function slot0.getUnlockedVoiceList(slot0)
+	slot2 = slot0:getRepairRate() * 100
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0:getEffects()) do
-		if slot8.progress <= slot0:getRepairRate() * 100 and slot8.words ~= "" then
+		if slot8.progress <= slot2 and slot8.words ~= "" then
 			for slot13, slot14 in ipairs(slot8.words) do
 				table.insert(slot3, slot14)
 			end

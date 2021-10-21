@@ -22,7 +22,7 @@ function slot1(slot0, slot1)
 			"icon_bg/npc"
 		}
 	}) do
-		slot8 = slot0:Find(slot7[1])
+		slot8 = slot0.Find(slot0, slot7[1])
 
 		if type ~= slot7[2] and not IsNil(slot8) then
 			setActive(slot8, false)

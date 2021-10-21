@@ -5,11 +5,13 @@ slot0.WARP_TO_META_TACTICS = "SkillInfoMediator:WARP_TO_METATASK"
 function slot0.register(slot0)
 	slot0:bind(uv0.WARP_TO_TACTIC, function (slot0)
 		slot1 = getProxy(NavalAcademyProxy)
+		slot2 = slot1:getStudents()
+		slot3 = 0
 		slot4 = 0
 
 		for slot9 = 1, slot1.MAX_SKILL_CLASS_NUM do
-			if slot1:getStudents()[slot9] then
-				slot3 = 0 + 1
+			if slot2[slot9] then
+				slot3 = slot3 + 1
 			else
 				slot4 = slot9
 

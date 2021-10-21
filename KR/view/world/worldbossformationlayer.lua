@@ -105,12 +105,16 @@ function slot0.SetStageID(slot0, slot1)
 		})
 	end
 
+	slot7 = findTF(slot0._goals, "goal_tpl")
+	slot8 = findTF(slot0._goals, "goal_sink")
+	slot9 = findTF(slot0._goals, "goal_time")
+
 	if slot3 == 1 then
 		slot10 = nil
 
-		setWidgetText(findTF(slot0._goals, "goal_tpl"), i18n("battle_preCombatLayer_victory"))
-		setWidgetText(findTF(slot0._goals, "goal_sink"), (slot5 >= 2 or i18n("battle_preCombatLayer_undefeated")) and i18n("battle_preCombatLayer_sink_limit", slot5))
-		setWidgetText(findTF(slot0._goals, "goal_time"), i18n("battle_preCombatLayer_time_limit", slot4))
+		setWidgetText(slot7, i18n("battle_preCombatLayer_victory"))
+		setWidgetText(slot8, (slot5 >= 2 or i18n("battle_preCombatLayer_undefeated")) and i18n("battle_preCombatLayer_sink_limit", slot5))
+		setWidgetText(slot9, i18n("battle_preCombatLayer_time_limit", slot4))
 	elseif slot3 == 2 then
 		setActive(slot8, false)
 		setActive(slot9, false)
@@ -267,7 +271,9 @@ function slot0.didEnter(slot0)
 	end)
 
 	if slot0.contextData.system == SYSTEM_ACT_BOSS then
-		PoolMgr.GetInstance():GetUI("al_bg01", true, function (slot0)
+		slot1 = PoolMgr.GetInstance()
+
+		slot1:GetUI("al_bg01", true, function (slot0)
 			slot0:SetActive(true)
 			setParent(slot0, uv0._tf)
 			slot0.transform:SetAsFirstSibling()
@@ -353,7 +359,9 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 		if slot8 ~= slot1 then
 			LeanTween.moveLocalY(go(slot8), slot0._gridTFs[slot2][slot7].localPosition.y - 80, 0.5)
 
-			slot10 = tf(slot8):Find("mouseChild"):GetComponent("EventTriggerListener")
+			slot10 = tf(slot8)
+			slot10 = slot10:Find("mouseChild")
+			slot10 = slot10:GetComponent("EventTriggerListener")
 			slot0.eventTriggers[slot10] = true
 
 			slot10:AddPointEnterFunc(function ()
@@ -397,7 +405,9 @@ function slot0.loadAllCharacter(slot0)
 
 		for slot10, slot11 in pairs(slot4:getAttachmentPrefab()) do
 			if slot11.attachment_combat_ui[1] ~= "" then
-				ResourceMgr.Inst:getAssetAsync("Effect/" .. slot12, slot12, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				slot14 = ResourceMgr.Inst
+
+				slot14:getAssetAsync("Effect/" .. slot12, slot12, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 					if not uv0.exited then
 						slot1 = Object.Instantiate(slot0)
 						uv0._attachmentList[#uv0._attachmentList + 1] = slot1
@@ -469,10 +479,13 @@ function slot0.loadAllCharacter(slot0)
 		slot5 = 3
 
 		for slot5 = 1, math.min(#slot0, slot5) do
-			slot7 = uv0._shipVOs[slot0[slot5]]:getPrefab()
+			slot7 = uv0._shipVOs[slot0[slot5]]
+			slot7 = slot7:getPrefab()
 
 			table.insert(uv1, function (slot0)
-				PoolMgr.GetInstance():GetSpineChar(uv0, true, function (slot0)
+				slot1 = PoolMgr.GetInstance()
+
+				slot1:GetSpineChar(uv0, true, function (slot0)
 					uv0(slot0, uv1, uv2, uv3)
 					uv4()
 				end)
@@ -482,7 +495,10 @@ function slot0.loadAllCharacter(slot0)
 
 	slot3(slot0._currentFleetVO.vanguardShips, TeamType.Vanguard)
 	slot3(slot0._currentFleetVO.mainShips, TeamType.Main)
-	pg.UIMgr.GetInstance():LoadingOn()
+
+	slot4 = pg.UIMgr.GetInstance()
+
+	slot4:LoadingOn()
 	parallelAsync({}, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
@@ -529,8 +545,10 @@ function slot0.resetGrid(slot0, slot1)
 end
 
 function slot0.EnableAddGrid(slot0, slot1)
+	slot3 = slot0._gridTFs[slot1]
+
 	if #slot0._currentFleetVO:getTeamByName(slot1) < 3 then
-		slot6 = slot0._gridTFs[slot1][slot4 + 1]:Find("tip")
+		slot6 = slot3[slot4 + 1]:Find("tip")
 		slot6:GetComponent("Button").enabled = true
 
 		onButton(slot0, slot6, function ()
@@ -588,8 +606,10 @@ function slot0.sortSiblingIndex(slot0)
 end
 
 function slot0.enabledTeamCharacter(slot0, slot1, slot2)
+	slot4 = slot0._currentFleetVO:getTeamByName(slot1)
+
 	for slot8, slot9 in ipairs(slot0._characterList[slot1]) do
-		slot0:enabledCharacter(slot9, slot2, slot0._shipVOs[slot0._currentFleetVO:getTeamByName(slot1)[slot8]], slot1)
+		slot0:enabledCharacter(slot9, slot2, slot0._shipVOs[slot4[slot8]], slot1)
 	end
 end
 
@@ -601,8 +621,9 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 			SetActive(slot5, true)
 		else
 			slot5 = GameObject("mouseChild")
+			slot9 = tf(slot5)
 
-			tf(slot5):SetParent(tf(slot1))
+			slot9:SetParent(tf(slot1))
 
 			tf(slot5).localPosition = Vector3.zero
 			slot6 = GetOrAddComponent(slot5, "ModelDrag")
@@ -619,11 +640,17 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 			slot7.longPressThreshold = 1
 
 			pg.DelegateInfo.Add(slot0, slot7.onLongPressed)
-			slot7.onLongPressed:AddListener(function ()
+
+			slot10 = slot7.onLongPressed
+
+			slot10:AddListener(function ()
 				uv0:emit(WorldBossFormationMediator.OPEN_SHIP_INFO, uv1.id, uv0._currentFleetVO)
 			end)
 			pg.DelegateInfo.Add(slot0, slot6.onModelClick)
-			slot6.onModelClick:AddListener(function ()
+
+			slot10 = slot6.onModelClick
+
+			slot10:AddListener(function ()
 				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
 				uv0:emit(WorldBossFormationMediator.CHANGE_FLEET_SHIP, uv1, uv0._currentFleetVO, uv2)
 			end)
@@ -643,19 +670,24 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 				rtf(uv0).anchoredPosition = Vector2((slot1.position.x - screenWidth / 2) * widthRate + 20, (slot1.position.y - screenHeight / 2) * heightRate - 20)
 			end)
 			slot8:AddDragEndFunc(function (slot0, slot1)
-				uv0:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
+				slot2 = uv0
+				slot2 = slot2:GetComponent("SpineAnimUI")
+
+				slot2:SetAction("tuozhuai", 0)
+
+				function slot2()
+					tf(uv0):SetParent(uv1._heroContainer, false)
+					uv1:emit(WorldBossFormationMediator.CHANGE_FLEET_SHIPS_ORDER)
+					uv1:switchToEditMode()
+					uv1:sortSiblingIndex()
+				end
 
 				if slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25 then
 					if not uv1._currentFleetVO:canRemove(uv2) then
 						slot3, slot4 = uv1._currentFleetVO:getShipPos(uv2)
 
 						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", uv2:getConfigTable().name, uv1._currentFleetVO.name, Fleet.C_TEAM_NAME[slot4]))
-						(function ()
-							tf(uv0):SetParent(uv1._heroContainer, false)
-							uv1:emit(WorldBossFormationMediator.CHANGE_FLEET_SHIPS_ORDER)
-							uv1:switchToEditMode()
-							uv1:sortSiblingIndex()
-						end)()
+						slot2()
 					else
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							zIndex = -100,
@@ -738,7 +770,9 @@ function slot0.UpdateBuffContainer(slot0)
 		return
 	end
 
-	UIItemList.StaticAlign(slot0._buffContainer, slot0._buffContainer:GetChild(0), #slot1, function (slot0, slot1, slot2)
+	slot5 = slot0._buffContainer
+
+	UIItemList.StaticAlign(slot0._buffContainer, slot5:GetChild(0), #slot1, function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
 			return
 		end

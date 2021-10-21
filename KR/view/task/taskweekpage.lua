@@ -19,16 +19,22 @@ function slot0.OnLoaded(slot0)
 	setText(slot1:Find("title"), i18n("week_task_title_label"))
 
 	slot0.awardPreviewBtn = slot1:Find("award_preview")
+	slot3 = slot0.awardPreviewBtn
 
-	setText(slot0.awardPreviewBtn:Find("Text"), i18n("week_task_award_preview_label"))
+	setText(slot3:Find("Text"), i18n("week_task_award_preview_label"))
 
-	slot0.phaseTxt = slot1:Find("phase/Text"):GetComponent(typeof(Text))
-	slot0.progressSlider = slot1:Find("slider"):GetComponent(typeof(Slider))
-	slot0.progressTxt = slot1:Find("slider/Text"):GetComponent(typeof(Text))
+	slot2 = slot1:Find("phase/Text")
+	slot0.phaseTxt = slot2:GetComponent(typeof(Text))
+	slot2 = slot1:Find("slider")
+	slot0.progressSlider = slot2:GetComponent(typeof(Slider))
+	slot2 = slot1:Find("slider/Text")
+	slot0.progressTxt = slot2:GetComponent(typeof(Text))
 	slot0.awardList = UIItemList.New(slot1:Find("awards"), slot1:Find("awards/itemtpl"))
 	slot0.getBtn = slot1:Find("get_btn")
-	slot0.getBtnEnableTF = slot0.getBtn:Find("enable")
-	slot0.getBtnDisableTF = slot0.getBtn:Find("disable")
+	slot2 = slot0.getBtn
+	slot0.getBtnEnableTF = slot2:Find("enable")
+	slot2 = slot0.getBtn
+	slot0.getBtnDisableTF = slot2:Find("disable")
 	slot0.tip = slot1:Find("tip")
 
 	onButton(slot0, slot0.awardPreviewBtn, function ()
@@ -37,8 +43,9 @@ function slot0.OnLoaded(slot0)
 
 	slot0.topTF = slot0._scrllPanel.parent
 	slot0.topPosy = slot0._scrllPanel.localPosition.y + slot0._scrllPanel.rect.height * 0.5
+	slot2 = slot0._scrollView.onValueChanged
 
-	slot0._scrollView.onValueChanged:AddListener(function (slot0)
+	slot2:AddListener(function (slot0)
 		uv0:UpdateCardTip()
 	end)
 end
@@ -59,7 +66,9 @@ end
 
 function slot0.Update(slot0, slot1, slot2, slot3)
 	if slot0.contextData.weekTaskProgressInfo:ReachMaxPt() and slot0:isShowing() then
-		pg.UIMgr.GetInstance():LoadingOn(false)
+		slot5 = pg.UIMgr.GetInstance()
+
+		slot5:LoadingOn(false)
 		slot0:DoDisablePtTaskAnim(function ()
 			pg.UIMgr.GetInstance():LoadingOff()
 			uv0:Flush(uv1)
@@ -185,7 +194,9 @@ function slot0.UpdateWeekProgressGetBtn(slot0, slot1)
 	setActive(slot0.tip, slot2)
 	onButton(slot0, slot0.getBtn, function ()
 		if uv0 then
-			uv1:JudgeOverflow(uv2, function ()
+			slot0 = uv1
+
+			slot0:JudgeOverflow(uv2, function ()
 				uv0:emit(TaskMediator.ON_SUBMIT_WEEK_PROGREE)
 			end)
 		end

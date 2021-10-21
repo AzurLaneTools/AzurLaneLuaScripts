@@ -8,7 +8,8 @@ slot0.TipWords = {
 
 function slot0.setItemVO(slot0, slot1)
 	slot0.itemVO = slot1
-	slot2 = slot0.itemVO:getTempCfgTable()
+	slot2 = slot0.itemVO
+	slot2 = slot2:getTempCfgTable()
 	slot0.idList = slot2.usage_arg
 	slot0.shipIdList = underscore.map(slot0.idList, function (slot0)
 		return pg.item_usage_invitation[slot0].ship_id
@@ -19,16 +20,19 @@ function slot0.setItemVO(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot1 = slot0._tf:Find("layer")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("layer")
 	slot0.backBtn = slot1:Find("back")
 	slot0.confirmBtn = slot1:Find("confirm")
 	slot0.print = slot1:Find("print")
 	slot0.rtName = slot1:Find("name")
 	slot0.rtTitle = slot1:Find("title")
 	slot0.selectPanel = slot1:Find("select_panel/layout")
-	slot0.itemList = UIItemList.New(slot0.selectPanel, slot0.selectPanel:Find("item"))
+	slot4 = slot0.selectPanel
+	slot0.itemList = UIItemList.New(slot0.selectPanel, slot4:Find("item"))
+	slot2 = slot0.itemList
 
-	slot0.itemList:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
 		slot3 = uv0.shipIdList[slot1 + 1]
 
 		if slot0 == UIItemList.EventUpdate then
@@ -92,7 +96,9 @@ end
 
 function slot0.changeShowCharacter(slot0, slot1, slot2, slot3)
 	if slot3 then
-		LeanTween.alpha(rtf(slot2), 0, 0.3):setOnComplete(System.Action(function ()
+		slot4 = LeanTween.alpha(rtf(slot2), 0, 0.3)
+
+		slot4:setOnComplete(System.Action(function ()
 			uv0:GetComponent(typeof(Image)).enabled = false
 			uv1.afterAnima[uv2] = true
 

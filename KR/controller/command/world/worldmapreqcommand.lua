@@ -1,7 +1,9 @@
 slot0 = class("WorldMapReqCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(33106, {
+	slot3 = pg.ConnectionMgr.GetInstance()
+
+	slot3:Send(33106, {
 		id = slot1:getBody().mapId
 	}, 33107, function (slot0)
 		if slot0.result == 0 then

@@ -2,8 +2,9 @@ slot0 = class("TriggerTaskCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot3 = slot1:getType()
+	slot4 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(20007, {
+	slot4:Send(20007, {
 		id = slot1:getBody()
 	}, 20008, function (slot0)
 		if slot0.result == 0 then

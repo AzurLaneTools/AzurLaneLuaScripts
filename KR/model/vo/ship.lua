@@ -125,11 +125,13 @@ function slot0.getTransformShipId(slot0)
 end
 
 function slot0.getAircraftCount(slot0)
+	slot1 = slot0:getConfigTable().base_list
+	slot2 = slot0:getConfigTable().default_equip_list
 	slot3 = {}
 
 	for slot7 = 1, 3 do
-		if table.contains(EquipType.AirDomainEquip, pg.equip_data_statistics[slot0:getEquip(slot7) and slot0:getEquip(slot7).configId or slot0:getConfigTable().default_equip_list[slot7]].type) then
-			slot3[slot9] = defaultValue(slot3[slot9], 0) + slot0:getConfigTable().base_list[slot7]
+		if table.contains(EquipType.AirDomainEquip, pg.equip_data_statistics[slot0:getEquip(slot7) and slot0:getEquip(slot7).configId or slot2[slot7]].type) then
+			slot3[slot9] = defaultValue(slot3[slot9], 0) + slot1[slot7]
 		end
 	end
 
@@ -259,8 +261,10 @@ function slot0.getNation(slot0)
 end
 
 function slot0.getPaintingName(slot0)
+	slot2 = pg.ship_skin_template[pg.ship_data_statistics[slot0].skin_id]
+
 	if not HXSet.isHx() then
-		return pg.ship_skin_template[pg.ship_data_statistics[slot0].skin_id].painting
+		return slot2.painting
 	else
 		return slot2.painting_hx ~= "" and slot2.painting_hx or slot2.painting
 	end
@@ -313,8 +317,10 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0.bluePrintFlag = slot1.blue_print_flag or 0
 	slot0.strengthList = {}
+	slot2 = ipairs
+	slot3 = slot1.strength_list or {}
 
-	for slot5, slot6 in ipairs(slot1.strength_list or {}) do
+	for slot5, slot6 in slot2(slot3) do
 		if not slot0:isBluePrintShip() then
 			slot0.strengthList[ShipModAttr.ID_TO_ATTR[slot6.id]] = slot6.exp
 		else
@@ -335,7 +341,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0.equipments = {}
 
 	if slot1.equip_info_list then
-		for slot6, slot7 in ipairs(slot1.equip_info_list or {}) do
+		slot3 = ipairs
+		slot4 = slot1.equip_info_list or {}
+
+		for slot6, slot7 in slot3(slot4) do
 			slot0.equipments[slot6] = slot7.id > 0 and Equipment.New({
 				count = 1,
 				id = slot7.id,
@@ -349,16 +358,19 @@ function slot0.Ctor(slot0, slot1)
 	end
 
 	slot0.skills = {}
+	slot3 = ipairs
+	slot4 = slot1.skill_id_list or {}
 
-	for slot6, slot7 in ipairs(slot1.skill_id_list or {}) do
+	for slot6, slot7 in slot3(slot4) do
 		slot0:updateSkill(slot7)
 	end
 
 	slot0.star = slot0:getConfig("rarity")
 	slot0.transforms = {}
 	slot3 = ipairs
+	slot4 = slot1.transform_list or {}
 
-	for slot6, slot7 in slot3(slot1.transform_list or {}) do
+	for slot6, slot7 in slot3(slot4) do
 		slot0.transforms[slot7.id] = {
 			id = slot7.id,
 			level = slot7.level
@@ -549,8 +561,10 @@ function slot0.getAttachmentPrefab(slot0)
 end
 
 function slot0.getPainting(slot0)
+	slot1 = pg.ship_skin_template[slot0.skinId]
+
 	if not HXSet.isHx() then
-		return pg.ship_skin_template[slot0.skinId].painting
+		return slot1.painting
 	else
 		return slot1.painting_hx ~= "" and slot1.painting_hx or slot1.painting
 	end
@@ -561,8 +575,10 @@ function slot0.GetSkinConfig(slot0)
 end
 
 function slot0.getRemouldPainting(slot0)
+	slot1 = pg.ship_skin_template[slot0:getRemouldSkinId()]
+
 	if not HXSet.isHx() then
-		return pg.ship_skin_template[slot0:getRemouldSkinId()].painting
+		return slot1.painting
 	else
 		return slot1.painting_hx ~= "" and slot1.painting_hx or slot1.painting
 	end
@@ -679,8 +695,10 @@ function slot0.checkCanEquipSkin(slot0, slot1, slot2)
 		return
 	end
 
+	slot4 = pg.equip_skin_template[slot2].equip_type
+
 	for slot8, slot9 in ipairs(slot0:getSkinTypes(slot1)) do
-		if table.contains(pg.equip_skin_template[slot2].equip_type, slot9) then
+		if table.contains(slot4, slot9) then
 			return true
 		end
 	end
@@ -727,12 +745,14 @@ function slot0.addSkillExp(slot0, slot1, slot2)
 end
 
 function slot0.upSkillLevelForMeta(slot0, slot1)
+	slot4 = (slot0.skills[slot1] or {
+		exp = 0,
+		level = 0,
+		id = slot1
+	}).level
+
 	if not slot0:isSkillLevelMax(slot1) then
-		slot4 = (slot0.skills[slot1] or {
-			exp = 0,
-			level = 0,
-			id = slot1
-		}).level + 1
+		slot4 = slot4 + 1
 	end
 
 	slot0:updateSkill({
@@ -848,9 +868,11 @@ slot0.SONAR_PROPERTIES = {
 }
 
 function slot0.intimacyAdditions(slot0, slot1)
+	slot2 = pg.intimacy_template[slot0:getIntimacyLevel()].attr_bonus * 0.0001
+
 	for slot6, slot7 in pairs(slot1) do
 		if slot6 == AttributeType.Durability or slot6 == AttributeType.Cannon or slot6 == AttributeType.Torpedo or slot6 == AttributeType.AntiAircraft or slot6 == AttributeType.AntiSub or slot6 == AttributeType.Air or slot6 == AttributeType.Reload or slot6 == AttributeType.Hit or slot6 == AttributeType.Dodge then
-			slot1[slot6] = slot1[slot6] * (pg.intimacy_template[slot0:getIntimacyLevel()].attr_bonus * 0.0001 + 1)
+			slot1[slot6] = slot1[slot6] * (slot2 + 1)
 		end
 	end
 end
@@ -881,8 +903,10 @@ function slot0.getShipProperties(slot0)
 		slot0:intimacyAdditions(slot1)
 
 		for slot7, slot8 in pairs(slot0.transforms) do
+			slot9 = pg.transform_data_template[slot8.id].effect
+
 			for slot13 = 1, slot8.level do
-				slot14 = pg.transform_data_template[slot8.id].effect[slot13] or {}
+				slot14 = slot9[slot13] or {}
 
 				for slot18, slot19 in pairs(slot1) do
 					if slot14[slot18] then
@@ -914,8 +938,10 @@ function slot0.getEquipProficiencyList(slot0)
 			slot8 = 0
 
 			for slot12, slot13 in pairs(slot0.transforms) do
+				slot14 = pg.transform_data_template[slot13.id].effect
+
 				for slot18 = 1, slot13.level do
-					if (pg.transform_data_template[slot13.id].effect[slot18] or {})["equipment_proficiency_" .. slot6] then
+					if (slot14[slot18] or {})["equipment_proficiency_" .. slot6] then
 						slot8 = slot8 + slot19["equipment_proficiency_" .. slot6]
 					end
 				end
@@ -930,14 +956,12 @@ end
 
 function slot0.getBaseProperties(slot0)
 	slot1 = slot0:getConfigTable()
-	slot3 = {
-		[slot8] = ({
-			[slot8] = slot0:getGrowthForAttr(slot8)
-		})[slot8]
-	}
+	slot2 = {}
+	slot3 = {}
 
 	for slot7, slot8 in ipairs(uv0.PROPERTIES) do
-		-- Nothing
+		slot2[slot8] = slot0:getGrowthForAttr(slot8)
+		slot3[slot8] = slot2[slot8]
 	end
 
 	slot7 = "lock"
@@ -960,9 +984,10 @@ end
 function slot0.getGrowthForAttr(slot0, slot1)
 	slot2 = slot0:getConfigTable()
 	slot3 = table.indexof(uv0.PROPERTIES, slot1)
+	slot5 = slot2.attrs[slot3] + (slot0.level - 1) * slot2.attrs_growth[slot3] / 1000
 
 	if pg.gameset.extra_attr_level_limit.key_value < slot0.level then
-		slot5 = slot2.attrs[slot3] + (slot0.level - 1) * slot2.attrs_growth[slot3] / 1000 + (slot0.level - slot4) * slot2.attrs_growth_extra[slot3] / 1000
+		slot5 = slot5 + (slot0.level - slot4) * slot2.attrs_growth_extra[slot3] / 1000
 	end
 
 	return slot5
@@ -1009,13 +1034,11 @@ function slot0.attrVertify(slot0)
 end
 
 function slot0.getEquipmentProperties(slot0)
-	slot1 = {
-		[slot7] = 0
-	}
+	slot1 = {}
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(uv0.PROPERTIES) do
-		-- Nothing
+		slot1[slot7] = 0
 	end
 
 	for slot6, slot7 in ipairs(uv0.DIVE_PROPERTIES) do
@@ -1079,11 +1102,13 @@ function slot0.getShipSkillEffects(slot0)
 		if require("GameCfg.buff.buff_" .. slot7) and slot8.const_effect_list then
 			for slot12 = 1, #slot8.const_effect_list do
 				slot13 = slot8.const_effect_list[slot12]
+				slot14 = slot13.trigger
+				slot15 = slot13.arg_list
 				slot16 = 1
 
 				if slot0.skills[slot7] and slot8[slot0.skills[slot7].level].const_effect_list and slot17[slot12] then
-					slot14 = slot17[slot12].trigger or slot13.trigger
-					slot15 = slot17[slot12].arg_list or slot13.arg_list
+					slot14 = slot17[slot12].trigger or slot14
+					slot15 = slot17[slot12].arg_list or slot15
 				end
 
 				slot17 = true
@@ -1147,9 +1172,11 @@ function slot0.getEquipmentSkillEffects(slot0)
 end
 
 function slot0.getEquipmentGearScore(slot0)
+	slot1 = 0
+
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
 		if slot7 then
-			slot1 = 0 + slot7:GetGearScore()
+			slot1 = slot1 + slot7:GetGearScore()
 		end
 	end
 
@@ -1171,13 +1198,20 @@ function slot0.getProperties(slot0, slot1, slot2, slot3)
 	end
 
 	for slot16, slot17 in ipairs(uv0.PROPERTIES) do
+		slot18 = 0
+		slot19 = 0
+
 		for slot23, slot24 in pairs(slot4) do
-			slot18 = 0 + slot24:getAttrRatioAddition(slot17, slot5, slot6) / 100
-			slot19 = 0 + slot24:getAttrValueAddition(slot17, slot5, slot6)
+			slot18 = slot18 + slot24:getAttrRatioAddition(slot17, slot5, slot6) / 100
+			slot19 = slot19 + slot24:getAttrValueAddition(slot17, slot5, slot6)
 		end
 
+		slot20 = slot18 + (slot9[slot17] or 1)
+		slot21 = slot11 and slot11[slot17] or 1
+		slot22 = slot10 and slot10[slot17] or 0
+
 		if slot17 == AttributeType.Speed then
-			slot7[slot17] = slot7[slot17] * (slot18 + (slot9[slot17] or 1)) * (slot11 and slot11[slot17] or 1) + slot19 + slot8[slot17] + (slot10 and slot10[slot17] or 0)
+			slot7[slot17] = slot7[slot17] * slot20 * slot21 + slot19 + slot8[slot17] + slot22
 		else
 			slot7[slot17] = calcFloor(calcFloor(slot7[slot17]) * slot20 * slot21) + slot19 + slot8[slot17] + slot22
 		end
@@ -1368,11 +1402,12 @@ function slot0.canUpgradeMaxLevel(slot0)
 	if not slot0:isReachNextMaxLevel() then
 		return false, i18n("upgrade_to_next_maxlevel_failed")
 	else
+		slot1 = getProxy(PlayerProxy):getData()
 		slot2 = getProxy(BagProxy)
 
 		for slot7, slot8 in pairs(slot0:getNextMaxLevelConsume()) do
 			if slot8.type == DROP_TYPE_RESOURCE then
-				if getProxy(PlayerProxy):getData():getResById(slot8.id) < slot8.count then
+				if slot1:getResById(slot8.id) < slot8.count then
 					return false, i18n("common_no_resource")
 				end
 			elseif slot8.type == DROP_TYPE_ITEM and slot2:getItemCountById(slot8.id) < slot8.count then
@@ -1409,9 +1444,11 @@ function slot0.getBattleTotalExpend(slot0)
 end
 
 function slot0.getShipAmmo(slot0)
+	slot1 = slot0:getConfig(AttributeType.Ammo)
+
 	for slot5, slot6 in pairs(slot0:getAllSkills()) do
 		if pg.skill_benefit_template[tonumber(slot5 .. string.format("%.2d", slot6.level))] and slot0:IsBenefitSkillActive(slot8) and (slot8.type == uv0.BENEFIT_EQUIP or slot8.type == uv0.BENEFIT_SKILL) then
-			slot1 = slot0:getConfig(AttributeType.Ammo) + defaultValue(slot8.effect[1], 0)
+			slot1 = slot1 + defaultValue(slot8.effect[1], 0)
 		end
 	end
 
@@ -1425,9 +1462,11 @@ function slot0.getShipAmmo(slot0)
 end
 
 function slot0.getHuntingLv(slot0)
+	slot1 = slot0:getConfig("huntingrange_level")
+
 	for slot5, slot6 in pairs(slot0:getAllSkills()) do
 		if pg.skill_benefit_template[tonumber(slot5 .. string.format("%.2d", slot6.level))] and slot0:IsBenefitSkillActive(slot8) and (slot8.type == uv0.BENEFIT_EQUIP or slot8.type == uv0.BENEFIT_SKILL) then
-			slot1 = slot0:getConfig("huntingrange_level") + defaultValue(slot8.effect[2], 0)
+			slot1 = slot1 + defaultValue(slot8.effect[2], 0)
 		end
 	end
 
@@ -1483,8 +1522,10 @@ function slot0.IsBenefitSkillActive(slot0, slot1)
 			slot2 = true
 		end
 	elseif slot1.type == uv0.BENEFIT_EQUIP then
+		slot3 = slot1.limit
+
 		for slot8, slot9 in ipairs(slot0:getAllEquipments()) do
-			if slot9 and table.contains(slot1.limit, slot9.config.id) then
+			if slot9 and table.contains(slot3, slot9.config.id) then
 				slot2 = true
 
 				break
@@ -1507,9 +1548,10 @@ end
 
 function slot0.getHuntingRange(slot0, slot1)
 	slot3 = Clone(slot0:getConfig("hunting_range")[1])
+	slot4 = slot1 or slot0:getHuntingLv()
 	slot8 = slot0
 
-	for slot8 = 2, math.min(slot1 or slot0:getHuntingLv(), slot0.getMaxHuntingLv(slot8)) do
+	for slot8 = 2, math.min(slot4, slot0.getMaxHuntingLv(slot8)) do
 		_.each(slot2[slot8], function (slot0)
 			table.insert(uv0, {
 				slot0[1],
@@ -1536,23 +1578,25 @@ function slot0.getTriggerSkills(slot0)
 end
 
 function slot0.GetEquipmentSkills(slot0)
+	slot1 = {}
+
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
 		if slot7 and slot7.config.skill_id[1] then
-			-- Nothing
+			slot1[slot8] = {
+				level = 1,
+				id = slot8
+			}
 		end
 	end
 
-	return {
-		[slot8] = {
-			level = 1,
-			id = slot8
-		}
-	}
+	return slot1
 end
 
 function slot0.getAllSkills(slot0)
+	slot1 = Clone(slot0.skills)
+
 	for slot5, slot6 in pairs(slot0:GetEquipmentSkills()) do
-		Clone(slot0.skills)[slot5] = slot6
+		slot1[slot5] = slot6
 	end
 
 	for slot5, slot6 in pairs(slot0:getTriggerSkills()) do
@@ -1589,8 +1633,10 @@ function slot0.calReturnRes(slot0)
 end
 
 function slot0.getRarity(slot0)
+	slot1 = slot0:getConfig("rarity")
+
 	if slot0:isRemoulded() then
-		slot1 = slot0:getConfig("rarity") + 1
+		slot1 = slot1 + 1
 	end
 
 	return slot1
@@ -1661,10 +1707,11 @@ function slot0.getFleetName(slot0)
 end
 
 function slot0.getMaxConfigId(slot0)
+	slot1 = pg.ship_data_template
 	slot2 = nil
 
 	for slot6 = 4, 1, -1 do
-		if pg.ship_data_template[tonumber(slot0.groupId .. slot6)] then
+		if slot1[tonumber(slot0.groupId .. slot6)] then
 			slot2 = slot7
 
 			break
@@ -1705,6 +1752,7 @@ end
 function slot0.getSkillList(slot0)
 	slot1 = pg.ship_data_template[slot0.configId]
 	slot2 = Clone(slot1.buff_list_display)
+	slot3 = Clone(slot1.buff_list)
 	slot5 = 0
 
 	if pg.ship_data_trans[slot0.groupId] and slot4.skill_id ~= 0 then
@@ -1712,7 +1760,7 @@ function slot0.getSkillList(slot0)
 		slot7 = pg.transform_data_template[slot6]
 
 		if slot0.transforms[slot6] and slot7.skill_id ~= 0 then
-			table.insert(Clone(slot1.buff_list), slot7.skill_id)
+			table.insert(slot3, slot7.skill_id)
 		end
 	end
 
@@ -1772,8 +1820,10 @@ function slot0.getDisplaySkillIds(slot0)
 end
 
 function slot0.isFullSkillLevel(slot0)
+	slot1 = pg.skill_data_template
+
 	for slot5, slot6 in pairs(slot0.skills) do
-		if pg.skill_data_template[slot6.id].max_level ~= slot6.level then
+		if slot1[slot6.id].max_level ~= slot6.level then
 			return false
 		end
 	end
@@ -1788,14 +1838,16 @@ end
 
 function slot0.getEquipmentRecord(slot0, slot1)
 	if not slot0.equipmentRecords then
-		for slot8 = 1, 3 do
-		end
+		slot3 = string.split(PlayerPrefs.GetString("equipment_record" .. "_" .. slot1 .. "_" .. slot0.id) or "", ":")
+		slot4 = {}
 
-		slot0.equipmentRecords = {
-			[slot8] = _.map(_.slice(string.split(PlayerPrefs.GetString("equipment_record" .. "_" .. slot1 .. "_" .. slot0.id) or "", ":"), 5 * slot8 - 4, 5), function (slot0)
+		for slot8 = 1, 3 do
+			slot4[slot8] = _.map(_.slice(slot3, 5 * slot8 - 4, 5), function (slot0)
 				return tonumber(slot0)
 			end)
-		}
+		end
+
+		slot0.equipmentRecords = slot4
 	end
 
 	return slot0.equipmentRecords
@@ -1868,7 +1920,9 @@ end
 function slot0.isAllRemouldFinish(slot0)
 	for slot5, slot6 in ipairs(pg.ship_data_trans[slot0.groupId].transform_list) do
 		for slot10, slot11 in ipairs(slot6) do
-			if not slot0.transforms[slot11[2]] or slot0.transforms[slot11[2]].level < pg.transform_data_template[slot11[2]].max_level then
+			slot12 = pg.transform_data_template[slot11[2]]
+
+			if not slot0.transforms[slot11[2]] or slot0.transforms[slot11[2]].level < slot12.max_level then
 				return false
 			end
 		end
@@ -1889,10 +1943,12 @@ end
 
 function slot0.hasAvailiableSkin(slot0)
 	slot1 = getProxy(ShipSkinProxy)
+	slot3 = slot1:getRawData()
+	slot4 = 0
 
 	for slot8, slot9 in ipairs(slot1:GetAllSkinForShip(slot0)) do
-		if slot0:proposeSkinOwned(slot9) or slot1:getRawData()[slot9.id] then
-			slot4 = 0 + 1
+		if slot0:proposeSkinOwned(slot9) or slot3[slot9.id] then
+			slot4 = slot4 + 1
 		end
 	end
 
@@ -1911,15 +1967,18 @@ end
 
 function slot0.getAircraftReloadCD(slot0)
 	slot1 = slot0:getConfigTable().base_list
+	slot2 = slot0:getConfigTable().default_equip_list
+	slot3 = 0
+	slot4 = 0
 
 	for slot8 = 1, 3 do
-		slot11 = pg.equip_data_statistics[slot0:getEquip(slot8) and slot9.configId or slot0:getConfigTable().default_equip_list[slot8]].type
+		slot11 = pg.equip_data_statistics[slot0:getEquip(slot8) and slot9.configId or slot2[slot8]].type
 
 		if underscore.any(EquipType.AirEquipTypes, function (slot0)
 			return uv0 == slot0
 		end) then
-			slot3 = 0 + Equipment.GetEquipReloadStatic(slot10) * slot1[slot8]
-			slot4 = 0 + slot1[slot8]
+			slot3 = slot3 + Equipment.GetEquipReloadStatic(slot10) * slot1[slot8]
+			slot4 = slot4 + slot1[slot8]
 		end
 	end
 

@@ -87,12 +87,14 @@ function slot4.HSVToRGB(slot0, slot1, slot2, slot3)
 	slot7 = slot0 * 6
 	slot8 = uv1.Floor(slot7)
 	slot9 = slot7 - slot8
+	slot10 = slot6 * (1 - slot5)
+	slot11 = slot6 * (1 - slot5 * slot9)
 	slot12 = slot6 * (1 - slot5 * (1 - slot9))
 
 	if slot8 + 1 == 0 then
 		slot4.r = slot6
-		slot4.g = slot6 * (1 - slot5)
-		slot4.b = slot6 * (1 - slot5 * slot9)
+		slot4.g = slot10
+		slot4.b = slot11
 	elseif slot14 == 1 then
 		slot4.r = slot6
 		slot4.g = slot12

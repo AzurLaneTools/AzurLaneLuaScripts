@@ -17,16 +17,20 @@ function slot1.SetArgs(slot0, slot1, slot2)
 end
 
 function slot1.onAttach(slot0, slot1, slot2)
+	slot3 = uv0.Battle.BattleVariable
+
 	if slot0._key then
-		uv0.Battle.BattleVariable.AppendIFFFactor(slot0._key, slot0._speedFactorName, slot0._number)
+		slot3.AppendIFFFactor(slot0._key, slot0._speedFactorName, slot0._number)
 	else
 		slot3.AppendMapFactor(slot0._speedFactorName, slot0._number)
 	end
 end
 
 function slot1.onRemove(slot0, slot1, slot2)
+	slot3 = uv0.Battle.BattleVariable
+
 	if slot0._key then
-		uv0.Battle.BattleVariable.RemoveIFFFactor(slot0._key, slot0._speedFactorName)
+		slot3.RemoveIFFFactor(slot0._key, slot0._speedFactorName)
 	else
 		slot3.RemoveMapFactor(slot0._speedFactorName)
 	end

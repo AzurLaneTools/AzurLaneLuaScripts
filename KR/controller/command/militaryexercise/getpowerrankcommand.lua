@@ -19,7 +19,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot2.type == PowerRank.TYPE_MILITARY_RANK then
-		pg.ConnectionMgr.GetInstance():Send(18006, {
+		slot7 = pg.ConnectionMgr.GetInstance()
+
+		slot7:Send(18006, {
 			type = 0
 		}, 18007, function (slot0)
 			slot1 = {}
@@ -59,7 +61,9 @@ function slot0.execute(slot0, slot1)
 				return
 			end
 
-			pg.ConnectionMgr.GetInstance():Send(18201, {
+			slot2 = pg.ConnectionMgr.GetInstance()
+
+			slot2:Send(18201, {
 				page = slot0,
 				type = uv3,
 				act_id = uv4 or 0
@@ -75,7 +79,9 @@ function slot0.execute(slot0, slot1)
 		slot9 = nil
 
 		function slot10(slot0)
-			pg.ConnectionMgr.GetInstance():Send(18203, {
+			slot1 = pg.ConnectionMgr.GetInstance()
+
+			slot1:Send(18203, {
 				type = uv0,
 				act_id = uv1 or 0
 			}, 18204, function (slot0)
@@ -132,9 +138,12 @@ function slot0.execute(slot0, slot1)
 		end)
 		seriesAsync(slot11, function ()
 			if #uv0 > 0 and uv1 then
+				slot0 = 0
+				slot1 = 1
+
 				for slot5, slot6 in ipairs(uv0) do
-					if slot6.power < 0 then
-						slot1 = 1 + 1
+					if slot6.power < slot0 then
+						slot1 = slot1 + 1
 					end
 
 					slot6:setRank(slot1)

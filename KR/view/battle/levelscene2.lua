@@ -30,7 +30,9 @@ function slot0.preload(slot0, slot1)
 	if slot2[slot0:selectMap(slot2)]:getConfig("bg") and #slot5 > 0 then
 		GetSpriteFromAtlasAsync("levelmap/" .. slot4:getConfig("bg"), "", slot1)
 	elseif slot4:getConfig("animtor") == 1 then
-		PoolMgr.GetInstance():GetUI(slot4:getConfig("ani_name"), true, function (slot0)
+		slot7 = PoolMgr.GetInstance()
+
+		slot7:GetUI(slot4:getConfig("ani_name"), true, function (slot0)
 			slot0:SetActive(false)
 
 			uv0.tornadoTF = slot0
@@ -275,7 +277,7 @@ end
 function slot0.updatePtActivity(slot0, slot1)
 	slot0.ptActivity = slot1
 
-	slot0:updateActivityRes()
+	slot0.updateActivityRes(slot0)
 end
 
 function slot0.updateActivityRes(slot0)
@@ -552,11 +554,13 @@ function slot0.didEnter(slot0)
 			}, 11018, function (slot0)
 			end)
 			pg.StoryMgr:GetInstance():Play(slot6[slot7], function ()
+				slot1 = pg.StoryMgr:GetInstance():getSelectedOptions() and (slot0[1] or 1) or 1
+
 				if uv0.flag == 0 then
 					uv1:emit(LevelMediator2.ON_OP, {
 						type = ChapterConst.OpStory,
 						id = uv2.id,
-						arg1 = pg.StoryMgr:GetInstance():getSelectedOptions() and (slot0[1] or 1) or 1
+						arg1 = slot1
 					})
 				end
 
@@ -741,7 +745,7 @@ function slot0.didEnter(slot0)
 	setActive(slot0.shamBtn, slot6)
 
 	if slot6 then
-		setText(slot0:findTF("day", slot0.shamBtn), slot5:getRestDays())
+		setText(slot0.findTF(slot0, "day", slot0.shamBtn), slot5.getRestDays(slot5))
 	end
 
 	slot7 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "ShamPreCombatMediator")
@@ -751,7 +755,7 @@ function slot0.didEnter(slot0)
 	slot0:emit(LevelMediator2.ON_EVENT_LIST_UPDATE)
 
 	if slot0.contextData.editEliteChapter then
-		slot0:displayFleetEdit(slot0.contextData.editEliteChapter)
+		slot0.displayFleetEdit(slot0, slot0.contextData.editEliteChapter)
 
 		slot0.contextData.editEliteChapter = nil
 	end
@@ -763,19 +767,19 @@ function slot0.didEnter(slot0)
 	end
 
 	if #slot9.children > 0 then
-		slot0:onSubLayerOpen()
+		slot0.onSubLayerOpen(slot0)
 	else
-		slot0:onSubLayerClose()
+		slot0.onSubLayerClose(slot0)
 	end
 
 	if not LOCK_SUBMARINE and not slot0.contextData.isSwitchToChapter then
-		slot0:tryPlaySubGuide()
+		slot0.tryPlaySubGuide(slot0)
 	end
 
-	slot0:triggerCommanderPanel()
+	slot0.triggerCommanderPanel(slot0)
 
 	if slot0.contextData.selectedChapterVO then
-		slot0:displayFleetSelect(slot0.contextData.selectedChapterVO)
+		slot0.displayFleetSelect(slot0, slot0.contextData.selectedChapterVO)
 	end
 
 	if slot4:ifShowRemasterTip() then
@@ -789,15 +793,17 @@ function slot0.tryPlaySubGuide(slot0)
 	slot1 = false
 
 	if slot0.subRefreshCount > 0 and slot0.player.level >= 20 then
-		if not pg.StoryMgr:GetInstance():IsPlayed("NG001") and getProxy(ChapterProxy):getChapterById(304):isClear() then
+		slot3 = getProxy(ChapterProxy):getChapterById(304)
+
+		if not pg.StoryMgr:GetInstance():IsPlayed("NG001") and slot3.isClear(slot3) then
 			if slot2:getActiveChapter() then
-				slot0:emit(LevelMediator2.ON_OP, {
+				slot0.emit(slot0, LevelMediator2.ON_OP, {
 					type = ChapterConst.OpRetreat
 				})
 			end
 
 			if slot0.contextData.map:isActivity() then
-				slot0:emit(LevelMediator2.ON_SWITCH_NORMAL_MAP)
+				slot0.emit(slot0, LevelMediator2.ON_SWITCH_NORMAL_MAP)
 			end
 
 			slot1 = true
@@ -807,12 +813,16 @@ function slot0.tryPlaySubGuide(slot0)
 	end
 
 	if not slot1 and not pg.StoryMgr:GetInstance():IsPlayed("NG002") then
-		if getProxy(TaskProxy):getTaskById(10302) and slot2:isFinish() and not slot2:isReceive() and getProxy(FleetProxy):getFleetById(11):isEmpty() then
+		slot3 = getProxy(FleetProxy):getFleetById(11)
+
+		if getProxy(TaskProxy):getTaskById(10302) and slot2.isFinish(slot2) and not slot2.isReceive(slot2) and slot3.isEmpty(slot3) then
 			if getProxy(ChapterProxy):getActiveChapter() then
-				slot0:switchToMap()
+				slot0.switchToMap(slot0)
 			end
 
-			pg.StoryMgr:GetInstance():PlayGuide("NG002", _.any(getProxy(BayProxy):getShips(), function (slot0)
+			slot6 = pg.StoryMgr:GetInstance()
+
+			slot6:PlayGuide("NG002", _.any(getProxy(BayProxy):getShips(), function (slot0)
 				return slot0 and slot0.configId == 308031
 			end) and {
 				2
@@ -827,7 +837,7 @@ function slot0.tryPlaySubGuide(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	if slot0:isfrozen() or isActive(slot0.ambushInfo) then
+	if slot0.isfrozen(slot0) or isActive(slot0.ambushInfo) then
 		return
 	end
 
@@ -842,14 +852,14 @@ function slot0.onBackPressed(slot0)
 		repairPanel = "hideRepairWindow"
 	}) do
 		if slot0[slot5] and slot0[slot5]._go and isActive(slot0[slot5]._go) then
-			slot0:__slot6_None__()
+			slot0[slot6](slot0)
 
 			return
 		end
 	end
 
 	if isActive(slot0.fleetEdit) then
-		slot0:hideFleetEdit()
+		slot0.hideFleetEdit(slot0)
 
 		return
 	end
@@ -860,13 +870,13 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	if slot0.contextData.chapterVO and slot2:getDataType() ~= ChapterConst.TypeGuild then
-		slot0:switchToMap()
+	if slot0.contextData.chapterVO and slot2.getDataType(slot2) ~= ChapterConst.TypeGuild then
+		slot0.switchToMap(slot0)
 
 		return
 	end
 
-	triggerButton(slot0:findTF("back_button", slot0.topChapter))
+	triggerButton(slot0.findTF(slot0, "back_button", slot0.topChapter))
 end
 
 function slot0.selectMap(slot0, slot1)
@@ -875,7 +885,7 @@ function slot0.selectMap(slot0, slot1)
 			slot2 = Map.lastMap
 		else
 			for slot6, slot7 in pairs(slot1) do
-				if slot7:isUnlock() and slot7:getMapType() == Map.SCENARIO then
+				if slot7.isUnlock(slot7) and slot7.getMapType(slot7) == Map.SCENARIO then
 					slot2 = slot7.id
 				end
 			end
@@ -888,9 +898,9 @@ end
 function slot0.setMaps(slot0, slot1)
 	slot0.maps = slot1
 
-	slot0:initMapBtn(slot0.btnPrev, -1)
-	slot0:initMapBtn(slot0.btnNext, 1)
-	slot0:setMap(slot0:selectMap(slot1))
+	slot0.initMapBtn(slot0, slot0.btnPrev, -1)
+	slot0.initMapBtn(slot0, slot0.btnNext, 1)
+	slot0.setMap(slot0, slot0.selectMap(slot0, slot1))
 end
 
 function slot0.setShipGroups(slot0, slot1)
@@ -910,9 +920,10 @@ end
 
 function slot0.setEliteQuota(slot0, slot1, slot2)
 	slot3 = slot2 - slot1
+	slot5 = slot0:findTF("bg/Text", slot0.eliteQuota):GetComponent(typeof(Text))
 
 	if slot1 == slot2 then
-		slot0:findTF("bg/Text", slot0.eliteQuota):GetComponent(typeof(Text)).color = Color.red
+		slot5.color = Color.red
 	else
 		slot5.color = Color.New(0.47, 0.89, 0.27)
 	end
@@ -932,7 +943,7 @@ function slot0.updateLastFleet(slot0, slot1)
 end
 
 function slot0.updateEvent(slot0, slot1)
-	setActive(slot0:findTF("tip", slot0.btnSpecial), slot1:hasFinishState())
+	setActive(slot0.findTF(slot0, "tip", slot0.btnSpecial), slot1.hasFinishState(slot1))
 end
 
 function slot0.updateFleet(slot0, slot1)
@@ -940,7 +951,7 @@ function slot0.updateFleet(slot0, slot1)
 end
 
 function slot0.updateChapterVO(slot0, slot1, slot2)
-	if slot1:getDataType() == ChapterConst.TypeNone then
+	if slot1.getDataType(slot1) == ChapterConst.TypeNone then
 		slot4 = slot1:getConfig("map")
 		slot5 = slot0.maps[slot4]
 
@@ -949,7 +960,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 
 		if not slot0.contextData.chapterVO then
 			if slot0.contextData.mapIdx == slot4 then
-				slot0:updateMapItems()
+				slot0.updateMapItems(slot0)
 			end
 
 			if slot0.signalPanel and isActive(slot0.signalPanel._tf) then
@@ -959,14 +970,14 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 	end
 
 	if slot0.contextData.chapterVO and slot0.contextData.chapterVO:getDataType() == slot3 and slot0.contextData.chapterVO.id == slot1.id and slot1.active then
-		slot0:setChapter(slot1)
+		slot0.setChapter(slot0, slot1)
 
 		slot4 = false
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyFleet) > 0 then
-			slot0:updateStageFleet()
-			slot0:updateAmbushRate(slot1.fleet.line, true)
-			slot0:updateFleetBuff()
+			slot0.updateStageFleet(slot0)
+			slot0.updateAmbushRate(slot0, slot1.fleet.line, true)
+			slot0.updateFleetBuff(slot0)
 
 			if slot0.grid then
 				slot0.grid:clearFleets()
@@ -985,14 +996,14 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 		end
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyAchieve) > 0 then
-			slot0:updateStageAchieve()
+			slot0.updateStageAchieve(slot0)
 		end
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyAttachment) > 0 then
-			slot0:updateAmbushRate(slot1.fleet.line, true)
+			slot0.updateAmbushRate(slot0, slot1.fleet.line, true)
 
 			if slot3 == ChapterConst.TypeSham then
-				slot0:updateShamProgress()
+				slot0.updateShamProgress(slot0)
 			end
 
 			if slot0.grid then
@@ -1011,13 +1022,13 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 		end
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyStrategy) > 0 then
-			slot0:updateStageStrategy()
-			slot0:updateFleetBuff()
-			slot0:updateStageBarrier()
+			slot0.updateStageStrategy(slot0)
+			slot0.updateFleetBuff(slot0)
+			slot0.updateStageBarrier(slot0)
 		end
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyAutoAction) > 0 then
-			slot0:tryAutoAction()
+			slot0.tryAutoAction(slot0)
 		elseif slot4 then
 			slot0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 		end
@@ -1036,7 +1047,7 @@ function slot0.updateClouds(slot0)
 		table.insert(slot0.cloudRects, slot6.rect.width)
 	end
 
-	slot0:initCloudsPos()
+	slot0.initCloudsPos(slot0)
 
 	for slot4, slot5 in ipairs(slot0.cloudRTFs) do
 		slot9 = (slot0.mapWidth + slot0.cloudRects[slot4]) / (30 - (slot0.initPositions[slot4] or Vector2(0, 0)).y / 20)
@@ -1054,8 +1065,10 @@ end
 
 function slot0.updateCouldAnimator(slot0)
 	if slot0.contextData.map:getConfig("animtor") == 1 then
-		if slot0.tornadoTF and slot0.aniName ~= slot0.contextData.map:getConfig("ani_name") then
-			slot0:destroyCloudAnimator()
+		slot1 = slot0.contextData.map:getConfig("ani_name")
+
+		if slot0.tornadoTF and slot0.aniName ~= slot1 then
+			slot0.destroyCloudAnimator(slot0)
 		end
 
 		function slot2()
@@ -1068,8 +1081,9 @@ function slot0.updateCouldAnimator(slot0)
 			end
 
 			slot0.animtorLoading = slot1
+			slot3 = PoolMgr.GetInstance()
 
-			PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
+			slot3:GetUI(slot1, true, function (slot0)
 				if not uv0.contextData then
 					return
 				end
@@ -1123,7 +1137,11 @@ function slot0.updateActivityBtns(slot0)
 	if LOCK_SOS then
 		setActive(slot0.signalBtn, false)
 	else
-		setActive(slot0.signalBtn, slot6 and slot6:isClear() and (slot3 == Map.SCENARIO or slot3 == Map.ELITE))
+		slot7 = setActive
+		slot8 = slot0.signalBtn
+		slot9 = slot6 and slot6.isClear(slot6) and (slot3 == Map.SCENARIO or slot3 == Map.ELITE)
+
+		slot7(slot8, slot9)
 	end
 
 	slot7 = false
@@ -1156,7 +1174,7 @@ function slot0.updateActivityBtns(slot0)
 
 	if slot1 then
 		setActive(slot0.eliteQuota, false)
-		slot0:updateActivityRes()
+		slot0.updateActivityRes(slot0)
 	end
 
 	setActive(tf(slot0.ptTotalTxt.gameObject).parent, not LOCK_PT_VALUE and slot0.ptActivity and not slot0.ptActivity:isEnd() and isActivityMap)
@@ -1177,14 +1195,16 @@ function slot0.updateActivityBtns(slot0)
 		setActive(tf(slot0.ptTotalTxt.gameObject).parent, false)
 	end
 
-	if slot7 and slot1 and not slot10 and (slot11 and slot14 or not slot11 and slot13) then
+	slot15 = slot11 and slot14 or not slot11 and slot13
+
+	if slot7 and slot1 and not slot10 and slot15 then
 		setActive(slot0.actExtraBtnAnim, true)
 	else
 		setActive(slot0.actExtraBtnAnim, false)
 	end
 
-	slot0:updateCountDown()
-	slot0:registerActBtn()
+	slot0.updateCountDown(slot0)
+	slot0.registerActBtn(slot0)
 
 	if slot1 and not slot10 then
 		Map.lastMapForActivity = slot0.contextData.mapIdx
@@ -1265,8 +1285,9 @@ function slot0.updateEscortInfo(slot0)
 	if slot1:isEscort() then
 		slot2 = getProxy(ChapterProxy)
 		slot3 = slot2:getMaxEscortChallengeTimes()
+		slot5 = slot0.escortBar
 
-		setText(slot0.escortBar:Find("times/text"), slot3 - slot2.escortChallengeTimes .. "/" .. slot3)
+		setText(slot5:Find("times/text"), slot3 - slot2.escortChallengeTimes .. "/" .. slot3)
 		onButton(slot0, slot0.mapHelpBtn, function ()
 			uv0:HandleShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
@@ -1329,8 +1350,8 @@ function slot0.registerActBtn(slot0)
 		slot0 = nil
 
 		for slot4, slot5 in pairs(uv0.maps) do
-			if slot5:getActiveChapter() then
-				slot0 = slot6:getConfig("name")
+			if slot5.getActiveChapter(slot5) then
+				slot0 = slot6.getConfig(slot6, "name")
 
 				break
 			end
@@ -1350,7 +1371,7 @@ function slot0.registerActBtn(slot0)
 	end
 
 	function slot2(slot0, slot1)
-		if ActivityLevelConst.getMapsByType(uv0.maps, slot0, slot1)[1] and uv0.maps[slot3.id - 1] and not slot4:isClearForActivity() then
+		if ActivityLevelConst.getMapsByType(uv0.maps, slot0, slot1)[1] and uv0.maps[slot3.id - 1] and not slot4.isClearForActivity(slot4) then
 			return false
 		end
 
@@ -1363,7 +1384,7 @@ function slot0.registerActBtn(slot0)
 		end
 
 		if uv0.contextData.map:isRemaster() then
-			if uv0.maps[slot0:getBindMap() - 1] and not slot2:isClearForActivity() then
+			if uv0.maps[slot0:getBindMap() - 1] and not slot2.isClearForActivity(slot2) then
 				pg.TipsMgr:GetInstance():ShowTips(i18n("battle_levelScene_lock"))
 
 				return
@@ -1423,9 +1444,10 @@ end
 
 function slot0.initCloudsPos(slot0, slot1)
 	slot0.initPositions = {}
+	slot3 = pg.expedition_data_by_map[slot1 or 1].clouds_pos
 
 	for slot7, slot8 in ipairs(slot0.cloudRTFs) do
-		if pg.expedition_data_by_map[slot1 or 1].clouds_pos[slot7] then
+		if slot3[slot7] then
 			slot8.anchoredPosition = Vector2(slot9[1], slot9[2])
 
 			table.insert(slot0.initPositions, slot8.anchoredPosition)
@@ -1442,29 +1464,29 @@ function slot0.initMapBtn(slot0, slot1, slot2)
 		end
 
 		if uv0.maps[uv0.contextData.mapIdx + uv1] then
-			if slot1:getMapType() == Map.ELITE and not slot1:isEliteEnabled() then
+			if slot1.getMapType(slot1) == Map.ELITE and not slot1.isEliteEnabled(slot1) then
 				slot0 = uv0.maps[slot1:getBindMap()].id
 
 				pg.TipsMgr:GetInstance():ShowTips(i18n("elite_disable_unusable"))
 			end
 
 			if slot2 == Map.ACTIVITY_EASY or slot2 == Map.ACTIVITY_HARD then
-				if uv0.maps[slot0 - 1] and not slot3:isClearForActivity() then
+				if uv0.maps[slot0 - 1] and not slot3.isClearForActivity(slot3) then
 					pg.TipsMgr:GetInstance():ShowTips(i18n("levelScene_map_lock"))
 
 					return
-				elseif not slot1:isUnlock() then
+				elseif not slot1.isUnlock(slot1) then
 					pg.TipsMgr:GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
 
 					return
 				end
 			end
 
-			if not slot1:isUnlock() then
+			if not slot1.isUnlock(slot1) then
 				slot3 = i18n("levelScene_map_lock")
 
-				if uv0.maps[slot0 - 1] and slot4:isClear() then
-					slot3 = i18n("levelScene_chapter_unlock_tip", slot1:getConfig("level_limit"))
+				if uv0.maps[slot0 - 1] and slot4.isClear(slot4) then
+					slot3 = i18n("levelScene_chapter_unlock_tip", slot1.getConfig(slot1, "level_limit"))
 				end
 
 				pg.TipsMgr:GetInstance():ShowTips(slot3)
@@ -1481,9 +1503,9 @@ function slot0.setMap(slot0, slot1)
 	slot0.contextData.mapIdx = slot1
 	slot0.contextData.map = slot0.maps[slot1]
 
-	slot0:updateBattleActivity(slot1)
-	slot0:updateMap()
-	slot0:tryPlayMapStory()
+	slot0.updateBattleActivity(slot0, slot1)
+	slot0.updateMap(slot0)
+	slot0.tryPlayMapStory(slot0)
 end
 
 function slot0.updateMap(slot0)
@@ -1504,7 +1526,7 @@ function slot0.updateMap(slot0)
 		GetComponent(slot0.map, "Image").enabled = true
 	else
 		setImageSprite(slot0.map, nil)
-		slot0:updateCouldAnimator()
+		slot0.updateCouldAnimator(slot0)
 	end
 
 	slot3 = slot0.maps[slot1.id - 1]
@@ -1529,10 +1551,10 @@ function slot0.updateMap(slot0)
 	slot0:updateEscortInfo()
 
 	if not slot0.contextData.chapterVO or not slot7.active then
-		slot0:updateMapItems()
-		slot0:switchDifficulty()
-		slot0:updateActivityBtns()
-		slot0:updateCouldAnimator()
+		slot0.updateMapItems(slot0)
+		slot0.switchDifficulty(slot0)
+		slot0.updateActivityBtns(slot0)
+		slot0.updateCouldAnimator(slot0)
 	end
 
 	if slot0.contextData.openChapterId then
@@ -1559,7 +1581,8 @@ function slot0.updateMapItems(slot0)
 		slot6 = "clouds_pos"
 
 		for slot6, slot7 in ipairs(slot1:getConfig(slot6)) do
-			slot0.cloudRTFs[slot6]:GetComponent(typeof(Image)).enabled = false
+			slot8 = slot0.cloudRTFs[slot6]
+			slot8:GetComponent(typeof(Image)).enabled = false
 
 			GetSpriteFromAtlasAsync("clouds/cloud_" .. slot6 .. "_" .. slot2, "", function (slot0)
 				if not uv0.exited and not IsNil(uv1) and uv2 == uv0.contextData.map then
@@ -1648,7 +1671,7 @@ function slot0.updateEscortItem(slot0, slot1, slot2, slot3)
 		Color.red
 	})[table.indexof(pg.gameset.gardroad_count.description[1], slot2) or 1]
 
-	for slot17 = 0, slot9:GetComponentsInChildren(typeof(Image)).Length - 1 do
+	for slot17 = 0, slot9.GetComponentsInChildren(slot9, typeof(Image)).Length - 1 do
 		slot13[slot17].color = slot12
 	end
 
@@ -1672,7 +1695,7 @@ function slot0.updateChapterTF(slot0, slot1)
 	slot3 = slot0.contextData.map:getChapter(slot1)
 
 	if slot0.chapterTFsById[slot1] and slot3 then
-		slot0:updateMapItem(slot2, slot3)
+		slot0.updateMapItem(slot0, slot2, slot3)
 	end
 end
 
@@ -1690,10 +1713,11 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 		slot0.mapItemTimer[slot1] = nil
 	end
 
+	slot5 = findTF(slot1, "main")
 	slot6 = findTF(slot1, "sub")
 
-	if slot2:getPlayType() == ChapterConst.TypeMainSub then
-		setActive(findTF(slot1, "main"), false)
+	if slot2.getPlayType(slot2) == ChapterConst.TypeMainSub then
+		setActive(slot5, false)
 		setActive(slot6, true)
 
 		slot7 = findTF(slot6, "mask/count_down")
@@ -1710,8 +1734,9 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 		end
 
 		slot0.mapItemTimer[slot1] = Timer.New(slot8, 1, -1)
+		slot9 = slot0.mapItemTimer[slot1]
 
-		slot0.mapItemTimer[slot1]:Start()
+		slot9:Start()
 		slot8()
 
 		slot9 = findTF(slot6, "fighting")
@@ -1728,8 +1753,9 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 		slot0:DeleteTween("fighting" .. slot2.id)
 
 		slot6:GetComponent("Animator").enabled = true
+		slot14 = slot6:GetComponent("DftAniEvent")
 
-		slot6:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+		slot14:SetEndEvent(function (slot0)
 			uv0.enabled = false
 
 			if uv1.active then
@@ -1771,7 +1797,7 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 
 		if slot2:existAchieve() then
 			for slot19, slot20 in ipairs(slot2.achieves) do
-				setActive(slot14:Find("star" .. slot19 .. "/light"), ChapterConst.IsAchieved(slot20))
+				setActive(slot14.Find(slot14, "star" .. slot19 .. "/light"), ChapterConst.IsAchieved(slot20))
 			end
 		end
 
@@ -1781,13 +1807,13 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 		setActive(slot7, false)
 		setActive(slot13, true)
 
-		if not slot2:isUnlock() and not slot2:activeAlways() then
+		if not slot2:isUnlock() and not slot2.activeAlways(slot2) then
 			setActive(slot5, false)
 		else
 			setActive(slot5, true)
 
 			if slot2.active then
-				if slot2:existOni() then
+				if slot2.existOni(slot2) then
 					slot8 = slot10
 					slot9 = slot11
 				end
@@ -1797,7 +1823,7 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 				slot9.alpha = 1
 
 				slot0:RecordTween("fighting" .. slot2.id, LeanTween.alphaCanvas(slot9, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
-			elseif slot2:isClear() then
+			elseif slot2.isClear(slot2) then
 				setActive(slot7, true)
 				setActive(slot13, false)
 			end
@@ -1887,14 +1913,16 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 end
 
 function slot0.tryPlayChapterInfoGuide(slot0, slot1)
-	if slot1:existLoop() then
+	if slot1.existLoop(slot1) then
 		pg.GuideMgr:GetInstance():play("NG0013", {})
 	end
 end
 
 function slot0.tryPlayMapStory(slot0)
 	if slot0.contextData.map:getConfig("enter_story") and slot1 ~= "" and not pg.SystemOpenMgr:GetInstance().active then
-		pg.StoryMgr.GetInstance():Play(slot1, function (slot0)
+		slot2 = pg.StoryMgr.GetInstance()
+
+		slot2:Play(slot1, function (slot0)
 			if not slot0 then
 				if uv0.contextData.map:getConfig("guide_id") and slot1 ~= "" then
 					pg.StoryMgr.GetInstance():PlayGuide(slot1)
@@ -1964,7 +1992,7 @@ end
 
 function slot0.displayBombResult(slot0, slot1)
 	setActive(slot0.spResult, true)
-	slot0:doPlayAnim("SpBombRet", function (slot0)
+	slot0.doPlayAnim(slot0, "SpBombRet", function (slot0)
 		onButton(uv0, slot0, function ()
 			removeOnButton(uv0)
 			setActive(uv0, false)
@@ -2054,20 +2082,22 @@ function slot0.displayFleetSelect(slot0, slot1)
 			end
 		end
 
+		function slot4()
+			uv0:hideFleetSelect()
+
+			if not uv1:isValid() then
+				return
+			end
+
+			uv0:trackChapter(uv1, function ()
+				uv0:emit(LevelMediator2.ON_TRACKING, uv1.id, uv2, uv1.loopFlag)
+			end)
+		end
+
 		if slot2 then
 			uv1:HandleShowMsgBox({
 				content = slot3,
-				onYes = function ()
-					uv0:hideFleetSelect()
-
-					if not uv1:isValid() then
-						return
-					end
-
-					uv0:trackChapter(uv1, function ()
-						uv0:emit(LevelMediator2.ON_TRACKING, uv1.id, uv2, uv1.loopFlag)
-					end)
-				end
+				onYes = slot4
 			})
 		else
 			slot4()
@@ -2116,7 +2146,7 @@ function slot0.switchDifficulty(slot0)
 	slot2 = slot1:getConfig("type")
 
 	if slot1:getConfig("uifx") ~= "" then
-		setActive(slot0:findTF(slot3, slot0.UIFXList), true)
+		setActive(slot0.findTF(slot0, slot3, slot0.UIFXList), true)
 	end
 
 	setActive(slot0.scenario, false)
@@ -2131,8 +2161,11 @@ function slot0.switchDifficulty(slot0)
 		setActive(slot0.eliteBtn:Find("bg/pic_activity"), getProxy(ActivityProxy):getActivityById(ActivityConst.ELITE_AWARD_ACTIVITY_ID) and not slot5:isEnd())
 	end
 
-	for slot7, slot8 in pairs(slot0.chapterTFsById or {}) do
-		if slot1:getChapter(slot7) and (slot9:isUnlock() or slot9:activeAlways()) then
+	slot4 = pairs
+	slot5 = slot0.chapterTFsById or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		if slot1.getChapter(slot1, slot7) and (slot9.isUnlock(slot9) or slot9.activeAlways(slot9)) then
 			setActive(slot8, true)
 		else
 			setActive(slot8, false)
@@ -2153,7 +2186,7 @@ function slot0.flushFleetEditButton(slot0, slot1)
 	removeAllChildren(findTF(slot0.fleetEdit, "panel/limit_elite/limit_list"))
 
 	if slot8 ~= 0 then
-		slot10, slot11 = slot1:IsPropertyLimitationSatisfy()
+		slot10, slot11 = slot1.IsPropertyLimitationSatisfy(slot1)
 
 		setActive(findTF(slot0.fleetEdit, "panel/limit_elite/condition"), false)
 
@@ -2170,16 +2203,17 @@ function slot0.flushFleetEditButton(slot0, slot1)
 		setActive(slot7:Find("sub"), slot1:getConfig("submarine_num") > 0)
 	end
 
-	slot10 = slot1:getEliteFleetList()
+	slot10 = slot1.getEliteFleetList(slot1)
 
 	function slot11(slot0, slot1, slot2, slot3)
-		slot5 = {
-			[uv1.shipVOs[slot11]] = true
-		}
+		slot5 = {}
+		slot6 = {}
 
 		for slot10, slot11 in ipairs(uv0[slot3]) do
+			slot5[uv1.shipVOs[slot11]] = true
+
 			if slot1 == uv1.shipVOs[slot11]:getTeamType() then
-				table.insert({}, slot11)
+				table.insert(slot6, slot11)
 			end
 		end
 
@@ -2208,7 +2242,7 @@ function slot0.flushFleetEditButton(slot0, slot1)
 			if slot6[slot16] and uv1.shipVOs[slot6[slot16]] or nil then
 				for slot24, slot25 in ipairs(slot2) do
 					if type(slot25) == "number" then
-						if slot25 == 0 or slot20:getShipType() == slot25 then
+						if slot25 == 0 or slot20.getShipType(slot20) == slot25 then
 							slot18 = slot20
 							slot19 = slot25
 
@@ -2219,7 +2253,7 @@ function slot0.flushFleetEditButton(slot0, slot1)
 
 							break
 						end
-					elseif type(slot25) == "string" and table.contains(Clone(ShipType.BundleList[slot25]), slot20:getShipType()) then
+					elseif type(slot25) == "string" and table.contains(Clone(ShipType.BundleList[slot25]), slot20.getShipType(slot20)) then
 						slot18 = slot20
 						slot19 = slot25
 
@@ -2290,12 +2324,23 @@ function slot0.flushFleetEditButton(slot0, slot1)
 				})
 			end
 
-			slot23.onReleased:RemoveAllListeners()
-			slot23.onLongPressed:RemoveAllListeners()
-			slot23.onReleased:AddListener(function ()
+			slot25 = slot23.onReleased
+
+			slot25:RemoveAllListeners()
+
+			slot25 = slot23.onLongPressed
+
+			slot25:RemoveAllListeners()
+
+			slot25 = slot23.onReleased
+
+			slot25:AddListener(function ()
 				uv0()
 			end)
-			slot23.onLongPressed:AddListener(function ()
+
+			slot25 = slot23.onLongPressed
+
+			slot25:AddListener(function ()
 				if not uv0 then
 					uv1()
 				else
@@ -2316,6 +2361,39 @@ function slot0.flushFleetEditButton(slot0, slot1)
 		end
 	end
 
+	function slot12(slot0, slot1, slot2)
+		slot4 = slot2.getEliteFleetCommanders(slot2)[slot0]
+
+		for slot8 = 1, 2 do
+			slot10 = nil
+
+			if slot4[slot8] then
+				slot10 = getProxy(CommanderProxy):getCommanderById(slot9)
+			end
+
+			slot11 = slot1:Find("pos" .. slot8)
+
+			setActive(slot11:Find("add"), not slot10)
+			setActive(slot11:Find("info"), slot10)
+
+			if slot10 then
+				setImageSprite(slot13.Find(slot13, "frame"), GetSpriteFromAtlas("weaponframes", "commander_" .. Commander.rarity2Frame(slot10.getRarity(slot10))))
+				GetImageSpriteFromAtlasAsync("CommanderHrz/" .. slot10.getPainting(slot10), "", slot13.Find(slot13, "mask/icon"))
+			end
+
+			slot14 = slot2.wrapEliteFleet(slot2, slot0)
+
+			onButton(uv0, slot12, function ()
+				uv0:openCommanderPanel(uv1, uv2.id, uv3)
+			end, SFX_PANEL)
+			onButton(uv0, slot13, function ()
+				uv0:openCommanderPanel(uv1, uv2.id, uv3)
+			end, SFX_PANEL)
+		end
+	end
+
+	slot13 = slot1.getConfig(slot1, "limitation")
+
 	for slot17 = 1, 2 do
 		slot18 = slot2:GetChild(slot17 - 1)
 
@@ -2333,38 +2411,12 @@ function slot0.flushFleetEditButton(slot0, slot1)
 		setText(slot0:findTF("bg/name", slot18), slot24 and Fleet.DEFAULT_NAME[slot17] or "")
 
 		if slot24 then
-			slot25 = slot1:getConfig("limitation")[slot17]
+			slot25 = slot13[slot17]
+			slot29 = slot11(slot18, TeamType.Vanguard, slot25[2], slot17)
 
-			(function (slot0, slot1, slot2)
-				for slot8 = 1, 2 do
-					slot10 = nil
+			slot12(slot17, slot23, slot1)
 
-					if slot2:getEliteFleetCommanders()[slot0][slot8] then
-						slot10 = getProxy(CommanderProxy):getCommanderById(slot9)
-					end
-
-					slot11 = slot1:Find("pos" .. slot8)
-
-					setActive(slot11:Find("add"), not slot10)
-					setActive(slot11:Find("info"), slot10)
-
-					if slot10 then
-						setImageSprite(slot13:Find("frame"), GetSpriteFromAtlas("weaponframes", "commander_" .. Commander.rarity2Frame(slot10:getRarity())))
-						GetImageSpriteFromAtlasAsync("CommanderHrz/" .. slot10:getPainting(), "", slot13:Find("mask/icon"))
-					end
-
-					slot14 = slot2:wrapEliteFleet(slot0)
-
-					onButton(uv0, slot12, function ()
-						uv0:openCommanderPanel(uv1, uv2.id, uv3)
-					end, SFX_PANEL)
-					onButton(uv0, slot13, function ()
-						uv0:openCommanderPanel(uv1, uv2.id, uv3)
-					end, SFX_PANEL)
-				end
-			end)(slot17, slot23, slot1)
-
-			if slot11(slot18, TeamType.Main, slot25[1], slot17) and slot11(slot18, TeamType.Vanguard, slot25[2], slot17) then
+			if slot11(slot18, TeamType.Main, slot25[1], slot17) and slot29 then
 				setActive(slot0:findTF("selected", slot18), true)
 			end
 
@@ -2498,17 +2550,19 @@ function slot0.displayFleetEdit(slot0, slot1)
 		slot0, slot1 = uv0:IsEliteFleetLegal()
 
 		if slot0 then
+			function slot2()
+				uv0:hideFleetEdit()
+				uv0:trackChapter(uv1, function ()
+					uv0:emit(LevelMediator2.ON_ELITE_TRACKING, uv1.id, uv1.loopFlag)
+				end)
+				playSoundEffect(SFX_UI_WEIGHANCHOR_BATTLE)
+			end
+
 			if slot1 then
 				uv1:HandleShowMsgBox({
 					modal = true,
 					content = i18n("elite_fleet_confirm", Fleet.DEFAULT_NAME[slot1]),
-					onYes = function ()
-						uv0:hideFleetEdit()
-						uv0:trackChapter(uv1, function ()
-							uv0:emit(LevelMediator2.ON_ELITE_TRACKING, uv1.id, uv1.loopFlag)
-						end)
-						playSoundEffect(SFX_UI_WEIGHANCHOR_BATTLE)
-					end
+					onYes = slot2
 				})
 			else
 				slot2()
@@ -2527,7 +2581,7 @@ end
 
 function slot0.hideFleetEdit(slot0, slot1, slot2)
 	if slot1 then
-		slot0:emit(LevelMediator2.ON_UPDATE_CUSTOM_FLEET, slot1.id, slot2)
+		slot0.emit(slot0, LevelMediator2.ON_UPDATE_CUSTOM_FLEET, slot1.id, slot2)
 	end
 
 	setActive(slot0.fleetEdit, false)
@@ -2556,14 +2610,20 @@ function slot0.trackChapter(slot0, slot1, slot2)
 				return
 			end
 
-			uv0:emit(LevelMediator2.ON_ACTIVATE_REMASTER, slot0.remasterId, function ()
+			slot2 = uv0
+
+			slot2:emit(LevelMediator2.ON_ACTIVATE_REMASTER, slot0.remasterId, function ()
 				onNextTick(uv0)
 			end)
 			coroutine.yield()
 		end
 
-		if uv2:getConfig("enter_story") and slot2 ~= "" and uv0:isCrossStoryLimit(uv2:getConfig("enter_story_limit")) then
-			pg.StoryMgr.GetInstance():Play(slot2, function ()
+		slot3 = uv2:getConfig("enter_story_limit")
+
+		if uv2:getConfig("enter_story") and slot2 ~= "" and uv0:isCrossStoryLimit(slot3) then
+			slot4 = pg.StoryMgr.GetInstance()
+
+			slot4:Play(slot2, function ()
 				onNextTick(uv0)
 			end)
 			coroutine.yield()
@@ -2579,8 +2639,10 @@ function slot0.setChapter(slot0, slot1)
 	slot2 = nil
 
 	if slot1 then
-		if slot1:getDataType() == ChapterConst.TypeNone then
-			slot1 = slot0.maps[slot0.contextData.mapIdx]:getChapter(slot1.id)
+		slot2 = slot1.id
+
+		if slot1.getDataType(slot1) == ChapterConst.TypeNone then
+			slot1 = slot0.maps[slot0.contextData.mapIdx]:getChapter(slot2)
 		end
 	end
 
@@ -2594,7 +2656,8 @@ function slot0.updateStageBarrier(slot0)
 	setActive(slot0.panelBarrier, slot1:existOni())
 
 	if slot1:existOni() then
-		slot2 = slot0.panelBarrier:Find("btn_barrier")
+		slot2 = slot0.panelBarrier
+		slot2 = slot2:Find("btn_barrier")
 
 		setText(slot2:Find("nums"), slot1.modelCount)
 		onButton(slot0, slot2, function ()
@@ -2609,8 +2672,9 @@ function slot0.updateStageBarrier(slot0)
 			end
 
 			slot0 = uv0.contextData.chapterVO
+			slot1 = uv0
 
-			uv0:selectSquareBarrieredCell(1, function (slot0, slot1)
+			slot1:selectSquareBarrieredCell(1, function (slot0, slot1)
 				if not uv0:existBarrier(slot0, slot1) and uv0.modelCount <= 0 then
 					return
 				end
@@ -2637,8 +2701,8 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 		slot0.contextData.chapterMapIdx = slot0.contextData.mapIdx
 	end
 
-	if slot0.contextData.mapIdx ~= slot1:getConfig("map") then
-		slot0:setMap(slot1:getConfig("map"))
+	if slot0.contextData.mapIdx ~= slot1.getConfig(slot1, "map") then
+		slot0.setMap(slot0, slot1.getConfig(slot1, "map"))
 	end
 
 	slot0:setChapter(slot1)
@@ -2772,22 +2836,22 @@ function slot0.switchToMap(slot0)
 	slot2 = ChapterConst.TypeNone
 
 	if slot0.contextData.chapterVO then
-		slot2 = slot1:getDataType()
+		slot2 = slot1.getDataType(slot1)
 	end
 
 	slot3 = getProxy(ChapterProxy)
 
 	if not LOCK_SOS then
-		if slot1:getMapType() == Map.ESCORT and (#slot3.escortMaps == 0 or _.any(slot4, function (slot0)
-			return slot0:shouldFetch()
+		if slot1.getMapType(slot1) == Map.ESCORT and (#slot3.escortMaps == 0 or _.any(slot4, function (slot0)
+			return slot0.shouldFetch(slot0)
 		end)) then
-			slot0:emit(LevelMediator2.ON_FETCH_ESCORT)
+			slot0.emit(slot0, LevelMediator2.ON_FETCH_ESCORT)
 
 			return
 		end
 
 		if slot3.subNextReqTime < pg.TimeMgr.GetInstance():GetServerTime() then
-			slot0:emit(LevelMediator2.ON_FETCH_SUB_CHAPTER)
+			slot0.emit(slot0, LevelMediator2.ON_FETCH_SUB_CHAPTER)
 
 			return
 		end
@@ -2842,20 +2906,20 @@ function slot0.switchToMap(slot0)
 		slot0:unfrozen()
 	end
 
-	slot0:onSubLayerContextChange()
-	slot0:setChapter(nil)
-	slot0:updateEscortInfo()
+	slot0.onSubLayerContextChange(slot0)
+	slot0.setChapter(slot0, nil)
+	slot0.updateEscortInfo(slot0)
 
 	if slot2 == ChapterConst.TypeSham then
 		slot0.contextData.mapIdx = slot0.contextData.chapterMapIdx
 		slot0.contextData.chapterMapIdx = nil
 
-		slot0:setMap(slot0:selectMap(slot0.maps))
+		slot0.setMap(slot0, slot0.selectMap(slot0, slot0.maps))
 	elseif slot2 == ChapterConst.TypeNone then
-		slot0:updateMapItems()
-		slot0:switchDifficulty()
-		slot0:updateActivityBtns()
-		slot0:updateCouldAnimator()
+		slot0.updateMapItems(slot0)
+		slot0.switchDifficulty(slot0)
+		slot0.updateActivityBtns(slot0)
+		slot0.updateCouldAnimator(slot0)
 	end
 end
 
@@ -3206,10 +3270,12 @@ function slot0.displayStrategyInfo(slot0, slot1)
 			return
 		end
 
+		slot4 = slot2:getNextStgUser(uv1.id)
+
 		if slot3.type == ChapterConst.StgTypeForm then
 			uv0:emit(LevelMediator2.ON_OP, {
 				type = ChapterConst.OpStrategy,
-				id = slot2:getNextStgUser(uv1.id),
+				id = slot4,
 				arg1 = uv1.id
 			})
 		elseif slot3.type == ChapterConst.StgTypeConsume then
@@ -3233,9 +3299,9 @@ function slot0.selectStrategyTarget(slot0, slot1, slot2)
 	slot6 = {}
 
 	if slot1.id == ChapterConst.StrategyAirStrike then
-		slot6 = slot3:calcAreaCells(slot5.row, slot5.column, slot1.arg[2], slot1.arg[3])
+		slot6 = slot3.calcAreaCells(slot3, slot5.row, slot5.column, slot1.arg[2], slot1.arg[3])
 	elseif slot1.id == ChapterConst.StrategyCannon then
-		slot6 = slot3:calcAreaCells(slot5.row, slot5.column, 0, slot1.arg[2])
+		slot6 = slot3.calcAreaCells(slot3, slot5.row, slot5.column, 0, slot1.arg[2])
 	end
 
 	slot6 = _.filter(slot6, function (slot0)
@@ -3245,7 +3311,10 @@ function slot0.selectStrategyTarget(slot0, slot1, slot2)
 	_.each(slot6, function (slot0)
 		uv0.grid:shiningTarget(slot0.row, slot0.column, true)
 	end)
-	slot0.grid:updateQuadCells(ChapterConst.QuadStateStrategy, slot6, function (slot0)
+
+	slot7 = slot0.grid
+
+	slot7:updateQuadCells(ChapterConst.QuadStateStrategy, slot6, function (slot0)
 		_.each(uv0, function (slot0)
 			uv0.grid:shiningTarget(slot0.row, slot0.column, false)
 		end)
@@ -3263,8 +3332,9 @@ end
 function slot0.selectSquareBarrieredCell(slot0, slot1, slot2)
 	slot3 = slot0.contextData.chapterVO
 	slot5 = slot3.fleet.line
+	slot7 = slot0.grid
 
-	slot0.grid:updateQuadCells(ChapterConst.QuadStateStrategy, slot3:calcSquareBarrierCells(slot5.row, slot5.column, slot1), function (slot0)
+	slot7:updateQuadCells(ChapterConst.QuadStateStrategy, slot3:calcSquareBarrierCells(slot5.row, slot5.column, slot1), function (slot0)
 		if slot0 and _.any(uv0, function (slot0)
 			return slot0.row == uv0.row and slot0.column == uv0.column
 		end) then
@@ -3305,17 +3375,19 @@ function slot0.updateStageFleet(slot0)
 				setActive(findTF(slot7, "heal"), false)
 				setActive(findTF(slot7, "normal"), false)
 
+				function slot8(slot0, slot1)
+					setActive(slot0, true)
+					setText(findTF(slot0, "text"), slot1)
+					setTextAlpha(findTF(slot0, "text"), 0)
+					LeanTween.moveY(slot0, 60, 1)
+					LeanTween.textAlpha(findTF(slot0, "text"), 1, 0.3)
+					LeanTween.textAlpha(findTF(slot0, "text"), 0, 0.5):setDelay(0.7):setOnComplete(System.Action(function ()
+						uv0.localPosition = Vector3(0, 0, 0)
+					end))
+				end
+
 				if math.floor(slot7 / 10000 * slot3:getShipProperties()[AttributeType.Durability]) > 0 then
-					(function (slot0, slot1)
-						setActive(slot0, true)
-						setText(findTF(slot0, "text"), slot1)
-						setTextAlpha(findTF(slot0, "text"), 0)
-						LeanTween.moveY(slot0, 60, 1)
-						LeanTween.textAlpha(findTF(slot0, "text"), 1, 0.3)
-						LeanTween.textAlpha(findTF(slot0, "text"), 0, 0.5):setDelay(0.7):setOnComplete(System.Action(function ()
-							uv0.localPosition = Vector3(0, 0, 0)
-						end))
-					end)(findTF(slot7, "heal"), slot6)
+					slot8(findTF(slot7, "heal"), slot6)
 				elseif slot6 < 0 then
 					LeanTween.delayedCall(0.6, System.Action(function ()
 						LeanTween.moveX(uv0, uv0.transform.localPosition.x, 0.05):setEase(LeanTweenType.easeInOutSine):setLoopPingPong(4)
@@ -3449,9 +3521,13 @@ function slot0.initGrid(slot0)
 
 	slot0.levelGrid.localEulerAngles = Vector3(slot1.theme.angle, 0, 0)
 	slot0.grid = LevelGrid.New(slot0.dragLayer)
+	slot3 = slot0.grid
 
-	slot0.grid:attach(slot0)
-	slot0.grid:setItems(slot0.shipTpl, slot0.subTpl, slot0.transportTpl, slot0.transportTargetTpl, slot0.enemyTpl, slot0.deadTpl, slot0.boxTpl, slot0.supplyTpl, slot0.rivalTpl, slot0.championTpl, slot0.spineTpl, slot0.oniTpl, slot0.oniTargetTpl, slot0.bombEnemyTpl, slot0.arrowTarget)
+	slot3:attach(slot0)
+
+	slot3 = slot0.grid
+
+	slot3:setItems(slot0.shipTpl, slot0.subTpl, slot0.transportTpl, slot0.transportTargetTpl, slot0.enemyTpl, slot0.deadTpl, slot0.boxTpl, slot0.supplyTpl, slot0.rivalTpl, slot0.championTpl, slot0.spineTpl, slot0.oniTpl, slot0.oniTargetTpl, slot0.bombEnemyTpl, slot0.arrowTarget)
 
 	function slot0.grid.onCellClick(slot0)
 		uv0:clickGridCell(slot0)
@@ -3486,15 +3562,16 @@ function slot0.destroyGrid(slot0)
 end
 
 function slot0.clickGridCell(slot0, slot1)
-	if not slot0:isfrozen() then
+	if not slot0.isfrozen(slot0) then
 		slot2 = slot0.contextData.chapterVO
+		slot3 = slot2:getDataType()
 		slot4 = slot2.fleet
 		slot5 = slot2:getChapterCell(slot4.line.row, slot4.line.column)
 
 		if _.detect(slot2.fleets, function (slot0)
 			return slot0:getFleetType() == FleetType.Normal and slot0.line.row == uv0.row and slot0.line.column == uv0.column
-		end) and slot2:getDataType() == ChapterConst.TypeNone and slot6:isValid() and slot6.id ~= slot4.id then
-			slot0:emit(LevelMediator2.ON_OP, {
+		end) and slot3 == ChapterConst.TypeNone and slot6.isValid(slot6) and slot6.id ~= slot4.id then
+			slot0.emit(slot0, LevelMediator2.ON_OP, {
 				type = ChapterConst.OpSwitch,
 				id = slot6.id
 			})
@@ -3505,11 +3582,11 @@ function slot0.clickGridCell(slot0, slot1)
 		if slot2:checkAnyInteractive() then
 			triggerButton(slot0.funcBtn)
 		elseif slot2:getRound() == ChapterConst.RoundEnemy then
-			slot0:emit(LevelMediator2.ON_OP, {
+			slot0.emit(slot0, LevelMediator2.ON_OP, {
 				type = ChapterConst.OpEnemyRound
 			})
 		elseif slot6 and slot3 == ChapterConst.TypeSham then
-			slot0:emit(LevelMediator2.ON_OPEN_SHAM_PRE_COMABT)
+			slot0.emit(slot0, LevelMediator2.ON_OPEN_SHAM_PRE_COMABT)
 		elseif slot1.row ~= slot4.line.row or slot1.column ~= slot4.line.column then
 			if slot2:getChapterCell(slot1.row, slot1.column).attachment == ChapterConst.AttachStory and slot8.data == ChapterConst.StoryObstacle and slot8.flag == 3 then
 				pg.TipsMgr:GetInstance():ShowTips(i18n("map_event_stop_tip"))
@@ -3545,11 +3622,11 @@ function slot0.clickGridCell(slot0, slot1)
 end
 
 function slot0.tryAutoTrigger(slot0)
-	if not slot0:doSafeCheck() then
+	if not slot0.doSafeCheck(slot0) then
 		if slot0.contextData.chapterVO:checkAnyInteractive() then
 			triggerButton(slot0.funcBtn)
 		elseif slot2:getRound() == ChapterConst.RoundEnemy then
-			slot0:emit(LevelMediator2.ON_OP, {
+			slot0.emit(slot0, LevelMediator2.ON_OP, {
 				type = ChapterConst.OpEnemyRound
 			})
 		elseif slot2:existMoveLimit() and slot2:getRound() == ChapterConst.RoundPlayer then
@@ -3616,7 +3693,9 @@ function slot0.tryAutoAction(slot0)
 				end
 
 				if slot4 then
-					uv1:doPlayAnim(slot4, function (slot0)
+					slot5 = uv1
+
+					slot5:doPlayAnim(slot4, function (slot0)
 						setActive(slot0, false)
 						uv0()
 					end)
@@ -3624,7 +3703,9 @@ function slot0.tryAutoAction(slot0)
 				end
 
 				if uv0:getSpAppearStory() and #slot5 > 0 then
-					pg.StoryMgr.GetInstance():Play(slot5, function ()
+					slot6 = pg.StoryMgr.GetInstance()
+
+					slot6:Play(slot5, function ()
 						if uv0:getSpAppearGuide() and #slot0 > 0 then
 							pg.SystemGuideMgr:GetInstance():PlayByGuideId(slot0, {}, onNextTick(uv1))
 						else
@@ -3704,14 +3785,14 @@ function slot0.doSafeCheck(slot0)
 
 	if slot1:existOni() then
 		if slot1:checkOniState() == 1 then
-			slot0:emit(LevelMediator2.ON_OP, {
+			slot0.emit(slot0, LevelMediator2.ON_OP, {
 				win = true,
 				type = ChapterConst.OpRetreat
 			})
 
 			return true
 		elseif slot5 == 2 then
-			slot0:emit(LevelMediator2.ON_OP, {
+			slot0.emit(slot0, LevelMediator2.ON_OP, {
 				type = ChapterConst.OpRetreat
 			})
 
@@ -3719,7 +3800,7 @@ function slot0.doSafeCheck(slot0)
 		end
 	elseif slot1:isPlayingWithBombEnemy() then
 		if slot1:getBombChapterInfo().action_times * 2 <= slot1.roundIndex then
-			slot0:emit(LevelMediator2.ON_OP, {
+			slot0.emit(slot0, LevelMediator2.ON_OP, {
 				type = ChapterConst.OpRetreat
 			})
 
@@ -3739,13 +3820,15 @@ function slot0.doSafeCheck(slot0)
 
 		pg.TipsMgr:GetInstance():ShowTips(i18n("levelScene_chapter_win"))
 
-		if slot1.id == 103 and not getProxy(PlayerProxy):getData():GetCommonFlag(BATTLE_AUTO_ENABLED) then
-			slot0:HandleShowMsgBox({
+		slot7 = getProxy(PlayerProxy):getData()
+
+		if slot1.id == 103 and not slot7.GetCommonFlag(slot7, BATTLE_AUTO_ENABLED) then
+			slot0.HandleShowMsgBox(slot0, {
 				modal = true,
 				hideNo = true,
 				content = i18n("battle_autobot_unlock")
 			})
-			slot0:emit(LevelMediator2.NOTICE_AUTOBOT_ENABLED, {})
+			slot0.emit(slot0, LevelMediator2.NOTICE_AUTOBOT_ENABLED, {})
 		end
 
 		return true
@@ -3753,7 +3836,7 @@ function slot0.doSafeCheck(slot0)
 
 	if slot2 == ChapterConst.TypeSham and ChapterConst.ShamEnemyLimit <= slot1.progress then
 		if slot1.shamResetCount < ChapterConst.ShamResetCountLimit then
-			slot0:HandleShowMsgBox({
+			slot0.HandleShowMsgBox(slot0, {
 				modal = true,
 				content = i18n("sham_count_reset"),
 				onYes = function ()
@@ -3766,7 +3849,7 @@ function slot0.doSafeCheck(slot0)
 				end
 			})
 		else
-			slot0:HandleShowMsgBox({
+			slot0.HandleShowMsgBox(slot0, {
 				modal = true,
 				hideNo = true,
 				content = i18n("sham_count_limit"),
@@ -3783,15 +3866,15 @@ function slot0.doSafeCheck(slot0)
 	end
 
 	if not slot1:inWartime() then
-		slot0:emit(LevelMediator2.ON_TIME_UP)
+		slot0.emit(slot0, LevelMediator2.ON_TIME_UP)
 
 		return true
 	end
 
-	if not slot3:isValid() then
+	if not slot3.isValid(slot3) then
 		if slot2 == ChapterConst.TypeSham then
 			if not (getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot6:getContextByMediator(ShamPreCombatMediator)) then
-				slot0:HandleShowMsgBox({
+				slot0.HandleShowMsgBox(slot0, {
 					modal = true,
 					content = i18n("formation_reform_tip"),
 					onYes = function ()
@@ -3839,8 +3922,8 @@ function slot0.doSafeCheck(slot0)
 
 	slot5 = slot1:getConfig("act_id")
 
-	if not slot0.contextData.map:isRemaster() and slot5 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot5) or slot7:isEnd()) then
-		slot0:emit(LevelMediator2.ON_OP, {
+	if not slot0.contextData.map:isRemaster() and slot5 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot5) or slot7.isEnd(slot7)) then
+		slot0.emit(slot0, LevelMediator2.ON_OP, {
 			type = ChapterConst.OpRetreat
 		})
 
@@ -3862,7 +3945,9 @@ function slot0.tryPlayChapterStory(slot0)
 
 		if slot1:getConfig("story_refresh") and slot3[slot4] and slot3[slot4] ~= "" then
 			if slot4 == 1 and pg.map_event_list[slot1.id] and pg.map_event_list[slot1.id].help_open == 1 then
-				pg.StoryMgr.GetInstance():Play(slot3[slot4], function ()
+				slot5 = pg.StoryMgr.GetInstance()
+
+				slot5:Play(slot3[slot4], function ()
 					if PlayerPrefs.GetInt("help_displayed_on_" .. uv0.id, 0) == 0 then
 						triggerButton(GameObject.Find("OverlayCamera/Overlay/UIMain/top/bottom_stage/help_button"))
 						PlayerPrefs.SetInt("help_displayed_on_" .. uv0.id, 1)
@@ -3891,16 +3976,21 @@ function slot0.tryPlayChapterStory(slot0)
 end
 
 function slot0.doTracking(slot0, slot1)
-	slot0:frozen()
+	slot0.frozen(slot0)
 
 	function slot2()
-		uv0.radar:SetActive(true)
+		slot0 = uv0.radar
+
+		slot0:SetActive(true)
 
 		slot0 = tf(uv0.radar)
 
 		slot0:SetParent(uv0.topPanel, false)
 		slot0:SetSiblingIndex(1)
-		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+
+		slot1 = slot0:GetComponent("DftAniEvent")
+
+		slot1:SetEndEvent(function (slot0)
 			uv0.radar:SetActive(false)
 			uv0:unfrozen()
 			uv1()
@@ -3909,7 +3999,9 @@ function slot0.doTracking(slot0, slot1)
 	end
 
 	if not slot0.radar then
-		PoolMgr.GetInstance():GetUI("RadarEffectUI", true, function (slot0)
+		slot3 = PoolMgr.GetInstance()
+
+		slot3:GetUI("RadarEffectUI", true, function (slot0)
 			slot0:SetActive(true)
 
 			uv0.radar = slot0
@@ -3930,7 +4022,7 @@ function slot0.destroyTracking(slot0)
 end
 
 function slot0.doAmbushWarning(slot0, slot1)
-	slot0:frozen()
+	slot0.frozen(slot0)
 
 	function slot2()
 		uv0.ambushWarning:SetActive(true)
@@ -3956,7 +4048,9 @@ function slot0.doAmbushWarning(slot0, slot1)
 	end
 
 	if not slot0.ambushWarning then
-		PoolMgr.GetInstance():GetUI("ambushwarnui", true, function (slot0)
+		slot3 = PoolMgr.GetInstance()
+
+		slot3:GetUI("ambushwarnui", true, function (slot0)
 			slot0:SetActive(true)
 
 			uv0.ambushWarning = slot0
@@ -4011,7 +4105,9 @@ function slot0.doPlayAirStrike(slot0, slot1, slot2, slot3)
 	end
 
 	if not slot0.airStrike then
-		PoolMgr.GetInstance():GetUI("AirStrike", true, function (slot0)
+		slot5 = PoolMgr.GetInstance()
+
+		slot5:GetUI("AirStrike", true, function (slot0)
 			slot0:SetActive(true)
 
 			uv0.airStrike = slot0
@@ -4060,7 +4156,9 @@ function slot0.doPlayAnim(slot0, slot1, slot2, slot3)
 	end
 
 	if not slot0.uiAnims[slot1] then
-		PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
+		slot6 = PoolMgr.GetInstance()
+
+		slot6:GetUI(slot1, true, function (slot0)
 			slot0:SetActive(true)
 
 			uv0.uiAnims[uv1] = slot0
@@ -4087,15 +4185,22 @@ end
 function slot0.doPlayTorpedo(slot0, slot1)
 	function slot2()
 		uv0.playing = true
+		slot0 = uv0
 
-		uv0:frozen()
-		uv0.torpetoAni:SetActive(true)
+		slot0:frozen()
+
+		slot0 = uv0.torpetoAni
+
+		slot0:SetActive(true)
 
 		slot0 = tf(uv0.torpetoAni)
 
 		slot0:SetParent(uv0.topPanel, false)
 		slot0:SetAsLastSibling()
-		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+
+		slot1 = slot0:GetComponent("DftAniEvent")
+
+		slot1:SetEndEvent(function (slot0)
 			uv0.playing = false
 
 			SetActive(uv0.torpetoAni, false)
@@ -4110,7 +4215,9 @@ function slot0.doPlayTorpedo(slot0, slot1)
 	end
 
 	if not slot0.torpetoAni then
-		PoolMgr.GetInstance():GetUI("Torpeto", true, function (slot0)
+		slot3 = PoolMgr.GetInstance()
+
+		slot3:GetUI("Torpeto", true, function (slot0)
 			slot0:SetActive(true)
 
 			uv0.torpetoAni = slot0
@@ -4221,7 +4328,9 @@ function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
 	end)
 
 	if not slot0.strikeAnims[slot2] then
-		PoolMgr.GetInstance():GetUI(slot2, true, function (slot0)
+		slot9 = PoolMgr.GetInstance()
+
+		slot9:GetUI(slot2, true, function (slot0)
 			uv0.strikeAnims[uv1] = slot0
 
 			uv2()
@@ -4241,18 +4350,22 @@ function slot0.destroyStrikeAnim(slot0)
 end
 
 function slot0.doSignalSearch(slot0, slot1)
-	slot0:frozen()
+	slot0.frozen(slot0)
 
 	function slot2()
 		uv0.playing = true
+		slot0 = uv0.signalAni
 
-		uv0.signalAni:SetActive(true)
+		slot0:SetActive(true)
 
 		slot0 = tf(uv0.signalAni)
 
 		slot0:SetParent(uv0.topPanel, false)
 		slot0:SetAsLastSibling()
-		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+
+		slot1 = slot0:GetComponent("DftAniEvent")
+
+		slot1:SetEndEvent(function (slot0)
 			uv0.playing = false
 
 			SetActive(uv0.signalAni, false)
@@ -4267,7 +4380,9 @@ function slot0.doSignalSearch(slot0, slot1)
 	end
 
 	if not slot0.signalAni then
-		PoolMgr.GetInstance():GetUI("SignalUI", true, function (slot0)
+		slot3 = PoolMgr.GetInstance()
+
+		slot3:GetUI("SignalUI", true, function (slot0)
 			slot0:SetActive(true)
 
 			uv0.signalAni = slot0
@@ -4320,7 +4435,10 @@ end
 function slot0.strikeEnemy(slot0, slot1, slot2, slot3)
 	slot0:frozen()
 
-	slot0.damageText.position = slot0.uiCam:ScreenToWorldPoint(slot0.levelCam:WorldToScreenPoint(slot0.grid:shakeCell(slot1).position))
+	slot4 = slot0.grid
+	slot5 = slot0.levelCam
+	slot7 = slot0.uiCam
+	slot0.damageText.position = slot7:ScreenToWorldPoint(slot5:WorldToScreenPoint(slot4:shakeCell(slot1).position))
 	slot6 = slot0.damageText.localPosition
 	slot6.y = slot6.y + 40
 	slot6.z = 0
@@ -4337,14 +4455,16 @@ function slot0.easeDamage(slot0, slot1, slot2, slot3)
 	setActive(slot0.damageText, true)
 
 	slot0.damageText.localPosition = slot1
-
-	LeanTween.value(go(slot0.damageText), 0, 1, 1):setOnUpdate(System.Action_float(function (slot0)
+	slot4 = LeanTween.value(go(slot0.damageText), 0, 1, 1)
+	slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
 		slot1 = uv0.damageText.localPosition
 		slot1.y = uv1.y + 60 * slot0
 		uv0.damageText.localPosition = slot1
 
 		setTextAlpha(uv0.damageText, 1 - slot0)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot4:setOnComplete(System.Action(function ()
 		setActive(uv0.damageText, false)
 		uv0:unfrozen()
 
@@ -4357,23 +4477,28 @@ end
 function slot0.easeAvoid(slot0, slot1, slot2)
 	slot0:frozen()
 
-	slot0.avoidText.position = slot0.uiCam:ScreenToWorldPoint(slot0.levelCam:WorldToScreenPoint(slot1))
+	slot3 = slot0.levelCam
+	slot5 = slot0.uiCam
+	slot0.avoidText.position = slot5:ScreenToWorldPoint(slot3:WorldToScreenPoint(slot1))
 	slot4 = slot0.avoidText.localPosition
 	slot4.z = 0
 	slot0.avoidText.localPosition = slot4
 
 	setActive(slot0.avoidText, true)
 
-	slot5 = slot0.avoidText:Find("avoid")
-
-	LeanTween.value(go(slot0.avoidText), 0, 1, 1):setOnUpdate(System.Action_float(function (slot0)
+	slot5 = slot0.avoidText
+	slot5 = slot5:Find("avoid")
+	slot6 = LeanTween.value(go(slot0.avoidText), 0, 1, 1)
+	slot6 = slot6:setOnUpdate(System.Action_float(function (slot0)
 		slot1 = uv0.avoidText.localPosition
 		slot1.y = uv1.y + 100 * slot0
 		uv0.avoidText.localPosition = slot1
 
 		setImageAlpha(uv0.avoidText, 1 - slot0)
 		setImageAlpha(uv2, 1 - slot0)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot6:setOnComplete(System.Action(function ()
 		setActive(uv0.avoidText, false)
 		uv0:unfrozen()
 
@@ -4386,20 +4511,26 @@ end
 function slot0.easeMoveDown(slot0, slot1, slot2)
 	slot0:frozen()
 
-	slot0.moveDownText.position = slot0.uiCam:ScreenToWorldPoint(slot0.levelCam:WorldToScreenPoint(slot1))
+	slot3 = slot0.levelCam
+	slot5 = slot0.uiCam
+	slot0.moveDownText.position = slot5:ScreenToWorldPoint(slot3:WorldToScreenPoint(slot1))
 	slot4 = slot0.moveDownText.localPosition
 	slot4.y = slot4.y + 100
 	slot4.z = 0
 	slot0.moveDownText.localPosition = slot4
 
 	setActive(slot0.moveDownText, true)
-	LeanTween.value(go(slot0.moveDownText), 0, 1, 1):setOnUpdate(System.Action_float(function (slot0)
+
+	slot5 = LeanTween.value(go(slot0.moveDownText), 0, 1, 1)
+	slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
 		slot1 = uv0.moveDownText.localPosition
 		slot1.y = uv1.y - 100 * slot0
 		uv0.moveDownText.localPosition = slot1
 
 		setImageAlpha(uv0.moveDownText, 1 - slot0)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot5:setOnComplete(System.Action(function ()
 		setActive(uv0.moveDownText, false)
 		uv0:unfrozen()
 
@@ -4424,12 +4555,12 @@ function slot0.updateTrait(slot0, slot1)
 end
 
 function slot0.overrideChapter(slot0)
-	slot0:emit(LevelMediator2.ON_OVERRIDE_CHAPTER)
+	slot0.emit(slot0, LevelMediator2.ON_OVERRIDE_CHAPTER)
 end
 
 function slot0.onSubLayerOpen(slot0)
 	setActive(slot0.topPanel, false)
-	slot0:disableLevelCamera()
+	slot0.disableLevelCamera(slot0)
 
 	slot0.visibilityForPreCombat = {
 		leftChapter = isActive(slot0.leftChapter),
@@ -4480,7 +4611,7 @@ function slot0.onSubLayerContextChange(slot0)
 end
 
 function slot0.popStageStrategy(slot0)
-	if slot0:findTF("event/collapse", slot0.rightStage).anchoredPosition.x <= 1 then
+	if slot0.findTF(slot0, "event/collapse", slot0.rightStage).anchoredPosition.x <= 1 then
 		triggerButton(slot1)
 	end
 end
@@ -4647,27 +4778,27 @@ function slot0.willExit(slot0)
 		end
 	end
 
-	slot0:hideChapterPanel()
-	slot0:hideFleetSelect()
-	slot0:hideFleetEdit()
-	slot0:hideRepairWindow()
-	slot0:hideStrategyInfo()
-	slot0:hideSignalPanel()
-	slot0:hideRemasterPanel()
-	slot0:hideSpResult()
-	slot0:hideBombResult()
-	slot0:destroyGrid()
-	slot0:destroyAmbushWarn()
-	slot0:destroyAirStrike()
-	slot0:destroyTorpedo()
-	slot0:destroyStrikeAnim()
-	slot0:destroyTracking()
-	slot0:destroyCloudAnimator()
-	slot0:destroyUIAnims()
+	slot0.hideChapterPanel(slot0)
+	slot0.hideFleetSelect(slot0)
+	slot0.hideFleetEdit(slot0)
+	slot0.hideRepairWindow(slot0)
+	slot0.hideStrategyInfo(slot0)
+	slot0.hideSignalPanel(slot0)
+	slot0.hideRemasterPanel(slot0)
+	slot0.hideSpResult(slot0)
+	slot0.hideBombResult(slot0)
+	slot0.destroyGrid(slot0)
+	slot0.destroyAmbushWarn(slot0)
+	slot0.destroyAirStrike(slot0)
+	slot0.destroyTorpedo(slot0)
+	slot0.destroyStrikeAnim(slot0)
+	slot0.destroyTracking(slot0)
+	slot0.destroyCloudAnimator(slot0)
+	slot0.destroyUIAnims(slot0)
 
 	for slot4, slot5 in pairs(slot0.mapItemTimer) do
 		if slot5 then
-			slot5:Stop()
+			slot5.Stop(slot5)
 		end
 	end
 
@@ -4727,12 +4858,14 @@ function slot0.willExit(slot0)
 		clearImageSprite(slot0)
 	end)
 
+	slot1 = getProxy(ChapterProxy)
+
 	if not slot0.contextData.map:isActivity() and not slot2:isSham() and not slot2:isGuildBoss() and not slot2:isEscort() then
-		getProxy(ChapterProxy):recordLastMap(ChapterProxy.LAST_MAP, slot2.id)
+		slot1:recordLastMap(ChapterProxy.LAST_MAP, slot2.id)
 	end
 
 	if Map.lastMapForActivity then
-		slot1:recordLastMap(ChapterProxy.LAST_MAP_FOR_ACTIVITY, Map.lastMapForActivity)
+		slot1.recordLastMap(slot1, ChapterProxy.LAST_MAP_FOR_ACTIVITY, Map.lastMapForActivity)
 	end
 end
 

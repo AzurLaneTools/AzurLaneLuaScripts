@@ -191,17 +191,21 @@ function slot4.getHeightAdjust(slot0, slot1)
 		slot4 = 0
 
 		if slot2.dropOffset then
+			slot4 = math.sqrt(math.abs(slot2.offsetY * 2 / slot0._bulletData._gravity)) * slot0._bulletData:GetConvertedVelocity()
+
 			if slot0._bulletData:GetSpeed().x < 0 then
-				slot4 = math.sqrt(math.abs(slot2.offsetY * 2 / slot0._bulletData._gravity)) * slot0._bulletData:GetConvertedVelocity() * -1
+				slot4 = slot4 * -1
 			end
 		end
 
 		return Vector3(slot3.x - slot4, slot2.offsetY or slot1.y, slot3.z), 0
 	else
 		slot3, slot4 = slot0._bulletData:GetOffset()
+		slot3 = slot1.x + slot3
+		slot4 = slot1.z + slot4
 
 		if slot0._bulletData:IsGravitate() then
-			return Vector3(slot1.x + slot3, slot1.y, slot1.z + slot4), 0
+			return Vector3(slot3, slot1.y, slot4), 0
 		else
 			slot5 = 0
 			slot6 = nil

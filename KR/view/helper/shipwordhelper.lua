@@ -90,12 +90,13 @@ function slot13(slot0, slot1, slot2, slot3)
 end
 
 function slot14(slot0, slot1, slot2)
+	slot1 = slot1 or 0
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot0) do
 		slot10 = slot8[2]
 
-		if slot8[1] <= (slot1 or 0) then
+		if slot8[1] <= slot1 then
 			slot3 = slot8
 
 			break
@@ -130,8 +131,10 @@ function slot16(slot0)
 end
 
 function slot17(slot0, slot1, slot2)
+	slot3 = "event:/cv/" .. slot1 .. "/" .. slot0
+
 	if slot2 then
-		slot3 = "event:/cv/" .. slot1 .. "/" .. slot0 .. "_" .. slot2
+		slot3 = slot3 .. "_" .. slot2
 	end
 
 	return slot3

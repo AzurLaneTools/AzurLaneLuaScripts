@@ -6,17 +6,20 @@ function slot0.didEnter(slot0)
 	slot3 = rtf(slot0._grade)
 	slot0._gradeUpperLeftPos = slot3.localPosition
 	slot3.localPosition = Vector3(0, 25, 0)
+	slot4 = pg.UIMgr.GetInstance()
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	slot4:BlurPanel(slot0._tf)
 
 	slot0._grade.transform.localScale = Vector3(1.5, 1.5, 0)
+	slot4 = LeanTween.scale(slot0._grade, Vector3(0.88, 0.88, 1), uv0.DURATION_WIN_SCALE)
 
-	LeanTween.scale(slot0._grade, Vector3(0.88, 0.88, 1), uv0.DURATION_WIN_SCALE):setOnComplete(System.Action(function ()
+	slot4:setOnComplete(System.Action(function ()
 		SetActive(uv0._levelText, true)
 		uv0:rankAnimaFinish()
 	end))
 
-	slot0._tf:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 0.5)
+	slot4 = slot0._tf
+	slot4:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 0.5)
 	slot0._stateFlag = BattleResultLayer.STATE_RANK_ANIMA
 
 	onButton(slot0, slot0._skipBtn, function ()

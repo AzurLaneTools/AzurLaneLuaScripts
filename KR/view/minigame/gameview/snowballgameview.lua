@@ -857,8 +857,10 @@ function slot32(slot0, slot1)
 					end
 				end
 
+				slot2 = math.random(0, slot0.charactorSubWeight)
+
 				for slot6 = #slot0.charactorWeight - 1, 1, -1 do
-					if slot0.charactorWeight[slot6] < math.random(0, slot0.charactorSubWeight) then
+					if slot0.charactorWeight[slot6] < slot2 then
 						return slot1[slot6 + 1]
 					end
 				end
@@ -869,13 +871,17 @@ function slot32(slot0, slot1)
 			return nil
 		end,
 		getAbleRandomDatas = function (slot0)
+			slot1 = {}
+
 			if #slot0:getEmptyIndex() == 0 then
-				return {}
+				return slot1
 			end
 
 			for slot6 = 1, #uv0 do
+				slot8 = nil
+
 				for slot12, slot13 in ipairs(uv0[slot6].indexs) do
-					if table.contains(slot2, slot13) and not nil then
+					if table.contains(slot2, slot13) and not slot8 then
 						table.insert(slot1, uv0[slot6])
 
 						slot8 = true
@@ -941,8 +947,10 @@ function slot32(slot0, slot1)
 				table.insert(slot4, slot3 + slot2[slot8])
 			end
 
+			slot5 = math.random(0, slot3)
+
 			for slot9 = #slot4 - 1, 1, -1 do
-				if slot4[slot9] < math.random(0, slot3) then
+				if slot4[slot9] < slot5 then
 					return slot9 + 1
 				end
 			end
@@ -1048,8 +1056,9 @@ function slot0.initUI(slot0)
 	slot0.tplScore = findTF(slot0._tf, "tplScore")
 	slot0.specialTf = findTF(slot0._tf, "scene_front/special")
 	slot0.specialAniamtor = GetComponent(slot0.specialTf, typeof(Animator))
+	slot1 = GetComponent(slot0.specialTf, typeof(DftAniEvent))
 
-	GetComponent(slot0.specialTf, typeof(DftAniEvent)):SetTriggerEvent(function ()
+	slot1:SetTriggerEvent(function ()
 		uv0:specialComplete()
 	end)
 
@@ -1079,18 +1088,20 @@ function slot0.initUI(slot0)
 		uv0:onHitEnemy(slot2, slot3)
 	end
 
+	slot3 = findTF(slot0._tf, "scene/moveCollider")
 	slot0.playerMoveVecs = {}
 
 	for slot7 = 1, uv6 do
-		table.insert(slot0.playerMoveVecs, findTF(findTF(slot0._tf, "scene/moveCollider"), slot7).anchoredPosition)
+		table.insert(slot0.playerMoveVecs, findTF(slot3, slot7).anchoredPosition)
 	end
 
 	slot0.lockTf = findTF(slot0._tf, "scene_front/lock")
+	slot4 = findTF(slot0._tf, "scene/throwCollider")
 
 	for slot8 = 1, uv7 do
 		slot10 = slot8
 
-		onButton(slot0, findTF(findTF(slot0._tf, "scene/throwCollider"), slot8), function ()
+		onButton(slot0, findTF(slot4, slot8), function ()
 			if uv0.charactorController:getCharactorByIndex(uv1) and slot0 ~= 0 then
 				slot1 = findTF(uv2, "target").position
 
@@ -1168,10 +1179,11 @@ function slot0.initUI(slot0)
 		uv0:readyStart()
 	end, SFX_CANCEL)
 
+	slot6 = findTF(slot0.menuUI, "tplBattleItem")
 	slot0.battleItems = {}
 
 	for slot10 = 1, slot0.totalTimes do
-		slot11 = tf(instantiate(findTF(slot0.menuUI, "tplBattleItem")))
+		slot11 = tf(instantiate(slot6))
 		slot11.name = "battleItem_" .. slot10
 
 		setParent(slot11, findTF(slot0.menuUI, "battList/Viewport/Content"))
@@ -1273,6 +1285,7 @@ function slot0.getCurrentDiff(slot0)
 end
 
 function slot0.updateMenuUI(slot0)
+	slot1 = slot0:getGameUsedTimes()
 	slot2 = slot0:getGameTimes()
 
 	for slot6 = 1, #slot0.battleItems do
@@ -1281,7 +1294,7 @@ function slot0.updateMenuUI(slot0)
 		setActive(findTF(slot0.battleItems[slot6], "state_clear"), false)
 		setActive(findTF(slot0.battleItems[slot6], "state_current"), false)
 
-		if slot6 <= slot0:getGameUsedTimes() then
+		if slot6 <= slot1 then
 			setActive(findTF(slot0.battleItems[slot6], "state_clear"), true)
 		elseif slot6 == slot1 + 1 and slot2 >= 1 then
 			setActive(findTF(slot0.battleItems[slot6], "state_current"), true)

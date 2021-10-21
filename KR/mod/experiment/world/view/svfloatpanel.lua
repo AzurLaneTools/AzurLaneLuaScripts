@@ -11,13 +11,20 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.rtBasePoint = slot0._tf:Find("point")
-	slot0.rtInfoPanel = slot0.rtBasePoint:Find("line/bg")
-	slot0.rtMarking = slot0.rtInfoPanel:Find("icon/marking")
-	slot0.rtRes = slot0._tf:Find("res")
-	slot0.awardItemList = UIItemList.New(slot0.rtInfoPanel:Find("pressing_award"), slot0.rtInfoPanel:Find("pressing_award/award_tpl"))
+	slot1 = slot0._tf
+	slot0.rtBasePoint = slot1:Find("point")
+	slot1 = slot0.rtBasePoint
+	slot0.rtInfoPanel = slot1:Find("line/bg")
+	slot1 = slot0.rtInfoPanel
+	slot0.rtMarking = slot1:Find("icon/marking")
+	slot1 = slot0._tf
+	slot0.rtRes = slot1:Find("res")
+	slot2 = slot0.rtInfoPanel
+	slot3 = slot0.rtInfoPanel
+	slot0.awardItemList = UIItemList.New(slot2:Find("pressing_award"), slot3:Find("pressing_award/award_tpl"))
+	slot1 = slot0.awardItemList
 
-	slot0.awardItemList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.awardConfig[slot1 + 1]
 
@@ -37,20 +44,24 @@ function slot0.OnInit(slot0)
 		end
 	end)
 
-	slot0.btnBack = slot0.rtInfoPanel:Find("back")
+	slot1 = slot0.rtInfoPanel
+	slot0.btnBack = slot1:Find("back")
 
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:emit(WorldScene.SceneOp, "OpSetInMap", true)
 	end, SFX_CONFIRM)
 
-	slot0.btnEnter = slot0.rtInfoPanel:Find("enter")
+	slot1 = slot0.rtInfoPanel
+	slot0.btnEnter = slot1:Find("enter")
 
 	onButton(slot0, slot0.btnEnter, function ()
 		slot0 = {}
 
 		if WorldConst.HasDangerConfirm(uv0.mapList[uv0.destIndex].config.entrance_ui) then
 			table.insert(slot0, function (slot0)
-				uv0:emit(WorldScene.SceneOp, "OpCall", function (slot0)
+				slot1 = uv0
+
+				slot1:emit(WorldScene.SceneOp, "OpCall", function (slot0)
 					slot0()
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("world_map_dangerous_confirm"),
@@ -69,14 +80,17 @@ function slot0.OnInit(slot0)
 		end)
 	end, SFX_CONFIRM)
 
-	slot0.btnLock = slot0.rtInfoPanel:Find("lock")
-	slot0.btnReturn = slot0.rtInfoPanel:Find("return")
+	slot1 = slot0.rtInfoPanel
+	slot0.btnLock = slot1:Find("lock")
+	slot1 = slot0.rtInfoPanel
+	slot0.btnReturn = slot1:Find("return")
 
 	onButton(slot0, slot0.btnReturn, function ()
 		uv0:emit(uv1.ReturnCall, uv0.entrance)
 	end, SFX_CONFIRM)
 
-	slot0.btnSwitch = slot0.rtInfoPanel:Find("switch")
+	slot1 = slot0.rtInfoPanel
+	slot0.btnSwitch = slot1:Find("switch")
 
 	onButton(slot0, slot0.btnSwitch, function ()
 		if uv0.isTweening then
@@ -86,9 +100,11 @@ function slot0.OnInit(slot0)
 		uv0:ShowToggleMask()
 	end, SFX_PANEL)
 
-	slot0.rtSelectMask = slot0._tf:Find("select_mask")
+	slot1 = slot0._tf
+	slot0.rtSelectMask = slot1:Find("select_mask")
+	slot3 = slot0.rtSelectMask
 
-	onButton(slot0, slot0.rtSelectMask:Find("bg"), function ()
+	onButton(slot0, slot3:Find("bg"), function ()
 		if uv0.isTweening then
 			return
 		end
@@ -96,13 +112,19 @@ function slot0.OnInit(slot0)
 		uv0:HideToggleMask()
 	end, SFX_PANEL)
 
-	slot0.rtMaskMarking = slot0.rtSelectMask:Find("marking")
-	slot0.rtToggles = slot0.rtMaskMarking:Find("toggles")
-	slot0.toggleItemList = UIItemList.New(slot0.rtToggles, slot0.rtToggles:Find("toggle"))
+	slot1 = slot0.rtSelectMask
+	slot0.rtMaskMarking = slot1:Find("marking")
+	slot1 = slot0.rtMaskMarking
+	slot0.rtToggles = slot1:Find("toggles")
+	slot3 = slot0.rtToggles
+	slot0.toggleItemList = UIItemList.New(slot0.rtToggles, slot3:Find("toggle"))
+	slot1 = slot0.toggleItemList
 
-	slot0.toggleItemList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			slot4, slot5 = World.ReplacementMapType(uv0.entrance, uv0.mapList[slot1 + 1])
+			slot4, slot5 = World.ReplacementMapType(uv0.entrance, uv0.mapList[slot1])
 
 			setText(slot2:Find("Text"), slot5)
 			onToggle(uv0, slot2, function (slot0)
@@ -132,13 +154,21 @@ end
 
 function slot0.Setup(slot0, slot1, slot2, slot3, slot4)
 	slot0.entrance = slot1
+	slot8 = slot0._tf
+	slot10 = GameObject.Find("OverlayCamera")
+	slot10 = slot10:GetComponent(typeof(Camera))
 
-	setAnchoredPosition(slot0.rtBasePoint, slot0._tf:InverseTransformPoint(GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera)):ScreenToWorldPoint(slot4:GetMapScreenPos(Vector2(slot1.config.area_pos[1], slot1.config.area_pos[2])))))
+	setAnchoredPosition(slot0.rtBasePoint, slot8:InverseTransformPoint(slot10:ScreenToWorldPoint(slot4:GetMapScreenPos(Vector2(slot1.config.area_pos[1], slot1.config.area_pos[2])))))
 
-	slot0.mapList = nowWorld:EntranceToReplacementMapList(slot1)
+	slot6 = nowWorld
+	slot0.mapList = slot6:EntranceToReplacementMapList(slot1)
+	slot7 = slot0.toggleItemList
 
-	slot0.toggleItemList:align(#slot0.mapList)
-	triggerToggle(slot0.rtToggles:GetChild((function ()
+	slot7:align(#slot0.mapList)
+
+	slot8 = slot0.rtToggles
+
+	triggerToggle(slot8:GetChild((function ()
 		if uv0 then
 			for slot3, slot4 in ipairs(uv1.mapList) do
 				if slot4.id == uv0 then
@@ -246,8 +276,9 @@ function slot0.ShowToggleMask(slot0)
 	setActive(slot0.rtToggles, false)
 
 	slot0.rtMaskMarking.position = slot0.rtMarking.position
+	slot1 = LeanTween.moveY(slot0.rtMaskMarking, slot0.rtMaskMarking.anchoredPosition.y + 150, 0.2)
 
-	LeanTween.moveY(slot0.rtMaskMarking, slot0.rtMaskMarking.anchoredPosition.y + 150, 0.2):setOnComplete(System.Action(function ()
+	slot1:setOnComplete(System.Action(function ()
 		setActive(uv0.rtToggles, true)
 
 		uv0.isTweening = false
@@ -265,7 +296,10 @@ function slot0.HideToggleMask(slot0)
 	setAnchoredPosition(slot0.rtMaskMarking, {
 		y = slot0.rtMaskMarking.anchoredPosition.y + 150
 	})
-	LeanTween.moveY(slot0.rtMaskMarking, slot0.rtMaskMarking.anchoredPosition.y - 150, 0.2):setOnComplete(System.Action(function ()
+
+	slot1 = LeanTween.moveY(slot0.rtMaskMarking, slot0.rtMaskMarking.anchoredPosition.y - 150, 0.2)
+
+	slot1:setOnComplete(System.Action(function ()
 		setActive(uv0.rtSelectMask, false)
 		setActive(uv0.rtMarking, true)
 

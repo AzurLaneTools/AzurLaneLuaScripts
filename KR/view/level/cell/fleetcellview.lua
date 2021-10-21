@@ -17,8 +17,9 @@ end
 function slot0.showPoisonDamage(slot0, slot1)
 	slot2 = "banai_dian01"
 	slot3 = slot0.tfShip.localPosition
+	slot4 = slot0:GetLoader()
 
-	slot0:GetLoader():GetPrefab("ui/" .. slot2, slot2, function (slot0)
+	slot4:GetPrefab("ui/" .. slot2, slot2, function (slot0)
 		setParent(slot0.transform, uv0.tf, false)
 
 		slot1 = LeanTween.moveY(uv0.tfShip, uv1.y - 10, 0.1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
@@ -39,8 +40,10 @@ function slot0.showPoisonDamage(slot0, slot1)
 end
 
 function slot0.SetActiveNoPassIcon(slot0, slot1)
+	slot2 = "NoPassIcon"
+
 	if not slot1 then
-		slot0.loader:ClearRequest("NoPassIcon")
+		slot0.loader:ClearRequest(slot2)
 	else
 		slot4 = "event_task_small"
 
@@ -48,7 +51,9 @@ function slot0.SetActiveNoPassIcon(slot0, slot1)
 			return
 		end
 
-		slot0:GetLoader():GetPrefabBYStopLoading("boxprefab/" .. slot4, slot4, function (slot0)
+		slot5 = slot0:GetLoader()
+
+		slot5:GetPrefabBYStopLoading("boxprefab/" .. slot4, slot4, function (slot0)
 			setParent(slot0.transform, uv0.tf, false)
 
 			slot1 = 150

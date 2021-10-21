@@ -498,9 +498,10 @@ function slot24(slot0, slot1, slot2, slot3)
 
 			for slot4 = 1, #uv2.enemy_amounts do
 				slot5 = {}
+				slot6 = 0
 
 				for slot11 = 1, #uv2.enemy_amounts[slot4] do
-					table.insert(slot5, 0 + slot7[slot11])
+					table.insert(slot5, slot6 + slot7[slot11])
 				end
 
 				table.insert(slot0.countsWeight, slot5)
@@ -516,9 +517,10 @@ function slot24(slot0, slot1, slot2, slot3)
 			slot0.cakeLife = uv5
 			slot0.cakeTf = findTF(slot0.sceneTf, "enemyPos/cake")
 			slot0.cakeAniamtor = GetComponent(findTF(slot0.cakeTf, "image"), typeof(Animator))
+			slot1 = slot0.cakeAniamtor
 			slot4 = slot0.getCakeLifeIndex
 
-			slot0.cakeAniamtor:SetInteger("life", slot4(slot0))
+			slot1:SetInteger("life", slot4(slot0))
 
 			slot0.cakeBox = GetComponent(slot0.cakeTf, "BoxCollider2D")
 			slot0.cakeBoundsLength = {
@@ -562,9 +564,11 @@ function slot24(slot0, slot1, slot2, slot3)
 				return slot1:getPosition().y < slot0:getPosition().y
 			end)
 
+			slot1 = 0
+
 			for slot5 = #slot0.enemys, 1, -1 do
 				if slot0.cakeTf.localPosition.y <= slot0.enemys[slot5]:getPosition().y then
-					slot1 = 0 + 1
+					slot1 = slot1 + 1
 				end
 
 				slot6:SetSiblingIndex(slot5)
@@ -597,9 +601,10 @@ function slot24(slot0, slot1, slot2, slot3)
 		end,
 		getCreateCounts = function (slot0)
 			slot1 = slot0.countsWeight[slot0.level]
+			slot2 = math.random(1, slot1[#slot1])
 
 			for slot6 = 1, #slot1 do
-				if math.random(1, slot1[#slot1]) <= slot1[slot6] then
+				if slot2 <= slot1[slot6] then
 					return slot6
 				end
 			end
@@ -614,9 +619,10 @@ function slot24(slot0, slot1, slot2, slot3)
 			slot7 = slot3.width
 			slot8 = slot3.height
 			slot10 = slot2.y
+			slot11 = slot4.width
 			slot12 = slot4.height
 
-			if slot2.x <= slot1.x and slot5 >= slot9 + slot4.width then
+			if slot2.x <= slot1.x and slot5 >= slot9 + slot11 then
 				return false
 			elseif slot5 <= slot9 and slot9 >= slot5 + slot7 then
 				return false
@@ -686,14 +692,20 @@ function slot24(slot0, slot1, slot2, slot3)
 			end
 		end,
 		playerActAttake = function (slot0, slot1)
-			for slot10 = 1, #slot0.enemys do
-				if slot0.enemys[slot10]:getAttakeAble() and slot0:checkRectCollider(slot11:getBounds().min, slot1.pos, slot11:getBoundLength(), slot1.boundsLength) then
-					slot11:damage(slot1.damage)
+			slot2 = slot1.pos
+			slot3 = slot1.boundsLength
+			slot4 = slot1.damage
+			slot5 = 0
+			slot6 = 0
 
-					slot5 = 0 + 1
+			for slot10 = 1, #slot0.enemys do
+				if slot0.enemys[slot10]:getAttakeAble() and slot0:checkRectCollider(slot11:getBounds().min, slot2, slot11:getBoundLength(), slot3) then
+					slot11:damage(slot4)
+
+					slot5 = slot5 + 1
 
 					if slot11:getLife() == 0 then
-						slot6 = 0 + 1
+						slot6 = slot6 + 1
 					end
 				end
 			end
@@ -777,21 +789,22 @@ function slot28(slot0, slot1)
 			slot0.roleDatas = {}
 
 			for slot4 = 1, #slot0.roleTfs do
+				slot5 = {
+					animator = GetComponent(slot0.roleTfs[slot4], typeof(Animator))
+				}
+
 				if slot4 == 2 or slot4 == 3 then
-					-- Nothing
+					slot5.type = uv2
+					slot5.loop_time = {
+						3,
+						3
+					}
+					slot5.time = 0
 				else
 					slot5.type = uv3
 				end
 
-				table.insert(slot0.roleDatas, {
-					animator = GetComponent(slot0.roleTfs[slot4], typeof(Animator)),
-					type = uv2,
-					loop_time = {
-						3,
-						3
-					},
-					time = 0
-				})
+				table.insert(slot0.roleDatas, slot5)
 			end
 		end,
 		step = function (slot0)
@@ -871,10 +884,14 @@ function slot0.initUI(slot0)
 	slot0.countUI = findTF(slot0._tf, "pop/CountUI")
 	slot0.countAnimator = GetComponent(findTF(slot0.countUI, "count"), typeof(Animator))
 	slot0.countDft = GetComponent(findTF(slot0.countUI, "count"), typeof(DftAniEvent))
+	slot1 = slot0.countDft
 
-	slot0.countDft:SetTriggerEvent(function ()
+	slot1:SetTriggerEvent(function ()
 	end)
-	slot0.countDft:SetEndEvent(function ()
+
+	slot1 = slot0.countDft
+
+	slot1:SetEndEvent(function ()
 		setActive(uv0.countUI, false)
 		uv0:gameStart()
 	end)

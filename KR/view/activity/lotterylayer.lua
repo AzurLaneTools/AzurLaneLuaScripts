@@ -32,7 +32,9 @@ end
 
 function slot0.initActivityPools(slot0)
 	slot0.activityPools = {}
-	slot1 = slot0.activityVO:getConfig("config_data")
+	slot1 = slot0.activityVO
+	slot1 = slot1:getConfig("config_data")
+	slot3 = nil
 
 	for slot7, slot8 in ipairs(_.select(uv0.all, function (slot0)
 		return table.contains(uv0, slot0)
@@ -40,7 +42,7 @@ function slot0.initActivityPools(slot0)
 		slot9 = ActivityItemPool.New({
 			id = slot8,
 			awards = slot0.awardInfos[slot8],
-			prevId = nil,
+			prevId = slot3,
 			index = slot7
 		})
 		slot3 = slot8
@@ -179,7 +181,8 @@ function slot0.initPoolTFs(slot0)
 	slot0.activityPoolTFs = {}
 
 	for slot4, slot5 in pairs(slot0.activityPools) do
-		slot6 = slot0.lotteryPoolContainer:GetChild(slot5.index - 1)
+		slot6 = slot0.lotteryPoolContainer
+		slot6 = slot6:GetChild(slot5.index - 1)
 		slot0.activityPoolTFs[slot5.id] = slot6
 
 		onToggle(slot0, slot6, function (slot0)

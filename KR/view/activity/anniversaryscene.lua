@@ -74,9 +74,12 @@ function slot0.initScrollRect(slot0)
 
 	for slot6 = 0, slot0:getRow(#slot0.configData) - 1 do
 		for slot10 = 0, uv0 - 1 do
+			slot11 = slot0.offset.x * slot10
+			slot12 = slot0.offset.y * slot6 * -1
+
 			if slot6 % 2 == 0 == (slot10 % 2 == 0) then
 				slot15 = cloneTplTo(slot0.taskGorupTpl, slot0.taskGorupContainer)
-				slot15.localPosition = Vector2(slot0.offset.x * slot10, slot0.offset.y * slot6 * -1)
+				slot15.localPosition = Vector2(slot11, slot12)
 
 				table.insert(slot0.taskGroupTFs, slot15)
 			end
@@ -117,7 +120,8 @@ end
 function slot0.updateBottomTaskGroup(slot0, slot1)
 	slot2 = slot0.bottomTaskGroupTFs[slot1]
 	slot2:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/anniversaryui_atlas", "part" .. slot1)
-	slot2:Find("Image"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/anniversaryui_atlas", "h_part" .. slot1)
+	slot5 = slot2:Find("Image")
+	slot5:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/anniversaryui_atlas", "h_part" .. slot1)
 
 	triggerToggle(slot2, _.all(slot0.configData[slot1], function (slot0)
 		return uv0:getTaskById(slot0) and slot1:isReceive()
@@ -133,6 +137,7 @@ function slot0.updateTaskGroups(slot0)
 end
 
 function slot0.updateTaskGroup(slot0, slot1, slot2, slot3)
+	slot4 = slot1:Find("mask_lock")
 	slot5 = slot1:Find("mask_prev_unfinish")
 	slot1:Find("icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/anniversaryui_atlas", "lihui" .. slot2)
 	slot8 = false
@@ -141,7 +146,7 @@ function slot0.updateTaskGroup(slot0, slot1, slot2, slot3)
 	if slot0.date < slot2 then
 		slot9 = slot0.activityVO.data1 + (slot2 - 1) * 86400 <= pg.TimeMgr.GetInstance():GetServerTime()
 
-		setText(slot1:Find("mask_lock"):Find("Text"), pg.TimeMgr.GetInstance():STimeDescC(slot11, "%m/%d"))
+		setText(slot4:Find("Text"), pg.TimeMgr.GetInstance():STimeDescC(slot11, "%m/%d"))
 	else
 		slot8 = _.all(slot3, function (slot0)
 			return uv0:getTaskById(slot0) and slot1:isReceive()
@@ -225,10 +230,12 @@ function slot0.moveToTaskGroup(slot0, slot1, slot2, slot3)
 		return
 	end
 
+	function slot4()
+		uv0.dateIndex = uv1
+	end
+
 	if slot0.date < slot1 then
-		LeanTween.moveLocal(go(slot0.taskGorupContainer), Vector3(slot0.taskGorupContainer.localPosition.x, slot0.startPosition.y + (slot0:getRow(slot1) - 1) * slot0.offset.y, 0), 0.2):setOnComplete(System.Action(function ()
-			uv0.dateIndex = uv1
-		end))
+		LeanTween.moveLocal(go(slot0.taskGorupContainer), Vector3(slot0.taskGorupContainer.localPosition.x, slot0.startPosition.y + (slot0:getRow(slot1) - 1) * slot0.offset.y, 0), 0.2):setOnComplete(System.Action(slot4))
 
 		slot0.taskGroupDesc.localScale = Vector3(0, 1, 1)
 		slot0.overStep = true

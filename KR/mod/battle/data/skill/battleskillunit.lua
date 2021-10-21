@@ -33,8 +33,10 @@ function slot3.GetSkillEffectList(slot0)
 end
 
 function slot3.Cast(slot0, slot1, slot2)
+	slot4 = uv0.Battle.BattleState.GetInstance():GetUIMediator()
+
 	if slot0._tempData.focus_duration then
-		uv0.Battle.BattleState.GetInstance():GetUIMediator():ShowSkillPainting(slot1, slot0._tempData)
+		slot4:ShowSkillPainting(slot1, slot0._tempData)
 	end
 
 	if slot0._tempData.painting == 1 then
@@ -55,12 +57,14 @@ function slot3.Cast(slot0, slot1, slot2)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot7)
 	end
 
+	slot6 = slot0._attachData
+
 	for slot10, slot11 in ipairs(slot0._effectList) do
 		slot12 = slot11:GetTarget(slot1, slot0)
 		slot0._lastEffectTarget = slot12
 
 		slot11:SetCommander(slot2)
-		slot11:Effect(slot1, slot12, slot0._attachData)
+		slot11:Effect(slot1, slot12, slot6)
 	end
 
 	if slot0._tempData.aniEffect and slot7 ~= "" then
@@ -95,8 +99,10 @@ function slot3.Clear(slot0)
 end
 
 function slot3.GetDamageSum(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0._effectList) do
-		slot1 = slot6:GetDamageSum() + 0
+		slot1 = slot6:GetDamageSum() + slot1
 	end
 
 	return slot1

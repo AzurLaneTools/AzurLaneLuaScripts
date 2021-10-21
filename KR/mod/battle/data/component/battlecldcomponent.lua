@@ -53,15 +53,20 @@ function slot2.FixSpeed(slot0, slot1)
 end
 
 function slot2.HandleDynamicCld(slot0, slot1)
+	slot2 = false
 	slot3 = false
 
 	for slot7, slot8 in ipairs(slot0._cldData.distList) do
-		if not false and slot8.x * math.abs(slot1.x) / slot1.x < 0 then
+		slot9 = slot8.x
+
+		if not slot2 and slot9 * math.abs(slot1.x) / slot1.x < 0 then
 			slot1.x = 0
 			slot2 = true
 		end
 
-		if not slot3 and slot8.z * math.abs(slot1.z) / slot1.z < 0 then
+		slot10 = slot8.z
+
+		if not slot3 and slot10 * math.abs(slot1.z) / slot1.z < 0 then
 			slot1.z = 0
 			slot3 = true
 		end

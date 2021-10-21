@@ -128,8 +128,9 @@ end
 
 function LoadAndInstantiateAsync(slot0, slot1, slot2, slot3, slot4)
 	slot5, slot1 = HXSet.autoHxShift(slot0 .. "/", slot1)
+	slot5 = ResourceMgr.Inst
 
-	ResourceMgr.Inst:getAssetAsync(slot5 .. slot1, slot1, uv0.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot5:getAssetAsync(slot5 .. slot1, slot1, uv0.Events.UnityAction_UnityEngine_Object(function (slot0)
 		uv0(Instantiate(slot0))
 	end), defaultValue(slot3, true), defaultValue(slot4, true))
 end
@@ -150,8 +151,9 @@ end
 
 function LoadSpriteAtlasAsync(slot0, slot1, slot2)
 	slot3, slot4 = HXSet.autoHxShiftPath(slot0, slot1)
+	slot3 = ResourceMgr.Inst
 
-	ResourceMgr.Inst:getAssetAsync(slot3, slot4 or "", typeof(Sprite), uv0.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot3:getAssetAsync(slot3, slot4 or "", typeof(Sprite), uv0.Events.UnityAction_UnityEngine_Object(function (slot0)
 		uv0(slot0)
 	end), true, false)
 end
@@ -196,8 +198,9 @@ end
 
 function GetSpriteFromAtlas(slot0, slot1)
 	slot3, slot4 = HXSet.autoHxShiftPath(slot0, slot1)
+	slot3 = PoolMgr.GetInstance()
 
-	PoolMgr.GetInstance():GetSprite(slot3, slot4, false, function (slot0)
+	slot3:GetSprite(slot3, slot4, false, function (slot0)
 		uv0 = slot0
 	end)
 
@@ -206,8 +209,9 @@ end
 
 function GetSpriteFromAtlasAsync(slot0, slot1, slot2)
 	slot3, slot4 = HXSet.autoHxShiftPath(slot0, slot1)
+	slot3 = PoolMgr.GetInstance()
 
-	PoolMgr.GetInstance():GetSprite(slot3, slot4, true, function (slot0)
+	slot3:GetSprite(slot3, slot4, true, function (slot0)
 		uv0(slot0)
 	end)
 end
@@ -281,7 +285,9 @@ function setPaintingPrefab(slot0, slot1, slot2, slot3)
 		slot1 = slot1 .. "_n"
 	end
 
-	PoolMgr.GetInstance():GetPainting(slot1, false, function (slot0)
+	slot7 = PoolMgr.GetInstance()
+
+	slot7:GetPainting(slot1, false, function (slot0)
 		setParent(slot0, uv0, false)
 
 		if not IsNil(findTF(slot0, "Touch")) then
@@ -313,8 +319,9 @@ function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	uv0[slot0] = slot1
+	slot8 = PoolMgr.GetInstance()
 
-	PoolMgr.GetInstance():GetPainting(slot1, true, function (slot0)
+	slot8:GetPainting(slot1, true, function (slot0)
 		if IsNil(uv0) or uv1[uv0] ~= uv2 then
 			PoolMgr.GetInstance():ReturnPainting(uv2, slot0)
 		else
@@ -341,10 +348,10 @@ end
 
 function retPaintingPrefab(slot0, slot1)
 	if slot0 and slot1 then
-		if findTF(slot0, "fitter") and slot2.childCount > 0 and not IsNil(slot2:GetChild(0)) then
+		if findTF(slot0, "fitter") and slot2.childCount > 0 and not IsNil(slot2.GetChild(slot2, 0)) then
 			if not IsNil(findTF(slot3, "Touch")) then
 				eachChild(slot4, function (slot0)
-					if not IsNil(slot0:GetComponent(typeof(Button))) then
+					if not IsNil(slot0.GetComponent(slot0, typeof(Button))) then
 						removeOnButton(slot0)
 					end
 				end)
@@ -393,9 +400,10 @@ end
 
 function errorTip(slot0, slot1, ...)
 	slot3 = nil
+	slot3 = (not pg.gametip[slot0 .. "_error"] or slot2.tip) and pg.gametip.common_error.tip
 
 	if pg.gametip[slot0 .. "_error_" .. slot1] then
-		return ((not pg.gametip[slot0 .. "_error"] or slot2.tip) and pg.gametip.common_error.tip) .. i18n(slot4, ...)
+		return slot3 .. i18n(slot4, ...)
 	elseif pg.gametip["common_error_" .. slot1] then
 		return slot3 .. i18n(slot4, ...)
 	else
@@ -404,16 +412,19 @@ function errorTip(slot0, slot1, ...)
 end
 
 function colorNumber(slot0, slot1)
+	slot2 = "@COLOR_SCOPE"
+	slot0 = string.gsub(string.gsub(slot0, "<color=#%x+>", function (slot0)
+		table.insert(uv0, slot0)
+
+		return uv1
+	end), "%d+%.?%d*%%*", function (slot0)
+		return "<color=" .. uv0 .. ">" .. slot0 .. "</color>"
+	end)
+
 	if #{} > 0 then
 		slot4 = 0
 
-		return string.gsub(string.gsub(string.gsub(slot0, "<color=#%x+>", function (slot0)
-			table.insert(uv0, slot0)
-
-			return uv1
-		end), "%d+%.?%d*%%*", function (slot0)
-			return "<color=" .. uv0 .. ">" .. slot0 .. "</color>"
-		end), "@COLOR_SCOPE", function (slot0)
+		return string.gsub(slot0, slot2, function (slot0)
 			uv0 = uv0 + 1
 
 			return uv1[uv0]
@@ -554,12 +565,14 @@ function slot5(slot0, slot1, slot2, slot3)
 			}
 		}
 	else
-		slot6 = {
-			[6] = {
-				name = "IconColorful",
-				active = not slot2.noIconColorful and slot1 == 6
-			}
+		slot7 = {}
+		slot8 = {
+			name = "IconColorful"
 		}
+		slot9 = not slot2.noIconColorful and slot1 == 6
+		slot8.active = slot9
+		slot7[6] = slot8
+		slot6 = slot7
 	end
 
 	for slot10, slot11 in pairs(slot6) do
@@ -710,7 +723,7 @@ function updateShip(slot0, slot1, slot2)
 
 	if findTF(slot0, "icon_bg/new") then
 		if slot2.isSkin then
-			setActive(slot6, not slot5:hasOldNonLimitSkin(slot1.skinId))
+			setActive(slot6, not slot5.hasOldNonLimitSkin(slot5, slot1.skinId))
 		else
 			setActive(slot6, slot1.virgin)
 		end
@@ -724,7 +737,7 @@ function updateShip(slot0, slot1, slot2)
 	if slot1.isNpc then
 		slot9 = "frame_npc"
 	elseif slot1.propose then
-		if slot1:isMetaShip() then
+		if slot1.isMetaShip(slot1) then
 			slot9 = "frame_prop_meta"
 		else
 			slot9 = "frame_prop"
@@ -751,14 +764,14 @@ function updateShip(slot0, slot1, slot2)
 
 	if findTF(slot0, "ship_type") then
 		setActive(slot12, true)
-		setImageSprite(slot12, GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())))
+		setImageSprite(slot12, GetSpriteFromAtlas("shiptype", shipType2print(slot1.getShipType(slot1))))
 	end
 
-	if not IsNil(slot7:Find("npc")) then
+	if not IsNil(slot7.Find(slot7, "npc")) then
 		if slot6 and go(slot6).activeSelf then
 			setActive(slot13, false)
 		else
-			setActive(slot13, slot1:isActivityNpc())
+			setActive(slot13, slot1.isActivityNpc(slot1))
 		end
 	end
 
@@ -793,8 +806,8 @@ function updateCommander(slot0, slot1, slot2)
 		end
 	end
 
-	uv0(slot0, slot2.initStar, slot1:getStar())
-	uv1(slot0, slot1:getName(), slot2)
+	uv0(slot0, slot2.initStar, slot1.getStar(slot1))
+	uv1(slot0, slot1.getName(slot1), slot2)
 end
 
 function updateStrategy(slot0, slot1, slot2)
@@ -829,8 +842,10 @@ function findCullAndClipWorldRect(slot0)
 		return false
 	end
 
+	slot1 = slot0[1].canvasRect
+
 	for slot5 = 1, #slot0 do
-		slot1 = rectIntersect(slot0[1].canvasRect, slot0[slot5].canvasRect)
+		slot1 = rectIntersect(slot1, slot0[slot5].canvasRect)
 	end
 
 	if slot1.width <= 0 or slot1.height <= 0 then
@@ -859,10 +874,13 @@ function getDropInfo(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0) do
+		slot8 = slot6[2]
+		slot9 = slot6[3] or 1
+
 		if slot6[1] == DROP_TYPE_SHIP then
 			table.insert(slot1, Ship.New({
-				configId = slot6[2]
-			}):getConfig("name") .. "x" .. (slot6[3] or 1))
+				configId = slot8
+			}):getConfig("name") .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_EQUIP then
 			table.insert(slot1, Equipment.New({
 				id = slot8
@@ -923,7 +941,7 @@ function updateDrop(slot0, slot1, slot2)
 			DROP_TYPE_SHIP
 		}
 	}) do
-		slot8 = slot0:Find(slot13[1])
+		slot8 = slot0.Find(slot0, slot13[1])
 
 		if slot4 ~= slot13[2] and not IsNil(slot8) then
 			setActive(slot8, false)
@@ -1185,9 +1203,10 @@ end
 
 function NoPosMsgBox(slot0, slot1, slot2, slot3)
 	slot4 = nil
+	slot5 = {}
 
 	if slot1 then
-		table.insert({}, {
+		table.insert(slot5, {
 			text = "text_noPos_clear",
 			atuoClose = true,
 			onCallback = slot1
@@ -1267,9 +1286,13 @@ end
 
 function GoShoppingMsgBox(slot0, slot1, slot2)
 	if slot2 then
+		slot3 = ""
+
 		for slot7, slot8 in ipairs(slot2) do
+			slot3 = slot3 .. i18n(slot8[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", pg.item_data_statistics[slot8[1]].name, slot8[2])
+
 			if slot7 < #slot2 then
-				slot3 = "" .. i18n(slot8[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", pg.item_data_statistics[slot8[1]].name, slot8[2]) .. i18n("text_noRes_info_tip_link")
+				slot3 = slot3 .. i18n("text_noRes_info_tip_link")
 			end
 		end
 
@@ -1370,11 +1393,13 @@ slot11 = {
 
 function updateSkill(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot0, "skill")
+	slot5 = findTF(slot0, "lock")
+	slot6 = findTF(slot0, "unknown")
 
 	if slot1 then
 		setActive(slot4, true)
-		setActive(findTF(slot0, "unknown"), false)
-		setActive(findTF(slot0, "lock"), not slot2)
+		setActive(slot6, false)
+		setActive(slot5, not slot2)
 		LoadImageSpriteAsync("skillicon/" .. slot1.icon, findTF(slot4, "icon"))
 		setText(findTF(slot4, "name"), shortenString(getSkillName(slot1.id), slot3 or 8))
 		setText(findTF(slot4, "level"), "LEVEL: " .. (slot2 and slot2.level or "??"))
@@ -1438,29 +1463,32 @@ function GetNextHour(slot0)
 end
 
 function GetPerceptualSize(slot0)
+	function slot1(slot0)
+		if not slot0 then
+			return 0, 1
+		elseif slot0 > 240 then
+			return 4, 1
+		elseif slot0 > 225 then
+			return 3, 1
+		elseif slot0 > 192 then
+			return 2, 1
+		elseif slot0 < 126 then
+			return 1, 0.5
+		else
+			return 1, 1
+		end
+	end
+
 	if type(slot0) == "number" then
-		return (function (slot0)
-			if not slot0 then
-				return 0, 1
-			elseif slot0 > 240 then
-				return 4, 1
-			elseif slot0 > 225 then
-				return 3, 1
-			elseif slot0 > 192 then
-				return 2, 1
-			elseif slot0 < 126 then
-				return 1, 0.5
-			else
-				return 1, 1
-			end
-		end)(slot0)
+		return slot1(slot0)
 	end
 
 	slot2 = 1
 	slot3 = 0
 	slot4 = 0
+	slot5 = #slot0
 
-	while slot2 <= #slot0 do
+	while slot2 <= slot5 do
 		slot7, slot8 = slot1(string.byte(slot0, slot2))
 		slot2 = slot2 + slot7
 		slot3 = slot3 + slot8
@@ -1477,9 +1505,10 @@ function shortenString(slot0, slot1)
 
 	while slot2 <= slot5 do
 		slot7, slot8 = GetPerceptualSize(string.byte(slot0, slot2))
+		slot2 = slot2 + slot7
 
 		if slot1 <= math.ceil(slot3 + slot8) then
-			slot4 = slot2 + slot7
+			slot4 = slot2
 
 			break
 		end
@@ -1610,14 +1639,14 @@ function shiftPanel(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot
 	LeanTween.move(slot9, Vector3(slot1 or slot9.anchoredPosition.x, slot2 or slot9.anchoredPosition.y, 0), slot3):setEase(slot7 or LeanTweenType.easeInOutSine)
 
 	if slot4 then
-		slot10:setDelay(slot4)
+		slot10.setDelay(slot10, slot4)
 	end
 
 	if slot6 then
 		GetOrAddComponent(slot0, "CanvasGroup").blocksRaycasts = false
 	end
 
-	slot10:setOnComplete(System.Action(function ()
+	slot10.setOnComplete(slot10, System.Action(function ()
 		if uv0 then
 			uv0()
 		end
@@ -1642,7 +1671,7 @@ function TweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	end)):setDelay(slot4 or 0)
 
 	if slot7 and slot7 > 0 then
-		slot8:setRepeat(slot7)
+		slot8.setRepeat(slot8, slot7)
 	end
 
 	return slot8
@@ -1683,12 +1712,14 @@ function tostring(slot0)
 end
 
 function wordVer(slot0, slot1)
-	if slot0:match(ChatConst.EmojiCodeMatch) then
+	if slot0.match(slot0, ChatConst.EmojiCodeMatch) then
 		return 0, slot0
 	end
 
+	slot1 = slot1 or {}
+
 	if #filterEgyUnicode(slot0) ~= #slot0 then
-		if (slot1 or {}).isReplace then
+		if slot1.isReplace then
 			slot0 = slot2
 		else
 			return 1
@@ -1699,19 +1730,22 @@ function wordVer(slot0, slot1)
 	slot5 = pg.word_legal_template
 	slot1.isReplace = slot1.isReplace or false
 	slot1.replaceWord = slot1.replaceWord or "*"
+	slot6 = #wordSplit(slot0)
 	slot7 = 1
 	slot8 = ""
 	slot9 = 0
 
-	while slot7 <= #wordSplit(slot0) do
-		slot10, slot7, slot12 = wordLegalMatch(slot3, slot5, slot7)
+	while slot7 <= slot6 do
+		slot10, slot11, slot12 = wordLegalMatch(slot3, slot5, slot7)
 
 		if slot10 then
+			slot7 = slot11
 			slot8 = slot8 .. slot12
 		else
-			slot13, slot7, slot15 = wordVerMatch(slot3, slot4, slot1, slot7, "", false, slot7, "")
+			slot13, slot14, slot15 = wordVerMatch(slot3, slot4, slot1, slot7, "", false, slot7, "")
 
 			if slot13 then
+				slot7 = slot14
 				slot9 = slot9 + 1
 
 				if slot1.isReplace then
@@ -1809,7 +1843,7 @@ end
 function wordSplit(slot0)
 	slot1 = {}
 
-	for slot5 in slot0:gmatch("[-\\xc2-\\xf4][\\x80-\\xbf]*") do
+	for slot5 in slot0.gmatch(slot0, "[-\\xc2-\\xf4][\\x80-\\xbf]*") do
 		slot1[#slot1 + 1] = slot5
 	end
 
@@ -1879,8 +1913,10 @@ function getSkillDescGet(slot0, slot1)
 	slot3 = slot2.desc_get ~= "" and slot2.desc_get or slot2.desc
 
 	for slot7, slot8 in pairs(slot2.desc_get_add) do
+		slot9 = setColorStr(slot8[1], COLOR_GREEN)
+
 		if slot8[2] then
-			slot9 = setColorStr(slot8[1], COLOR_GREEN) .. specialGSub(i18n("word_skill_desc_get"), "$1", setColorStr(slot8[2], COLOR_GREEN))
+			slot9 = slot9 .. specialGSub(i18n("word_skill_desc_get"), "$1", setColorStr(slot8[2], COLOR_GREEN))
 		end
 
 		slot3 = specialGSub(slot3, "$" .. slot7, slot9)
@@ -1898,13 +1934,17 @@ function getSkillDescLearn(slot0, slot1, slot2)
 		return ""
 	end
 
+	slot4 = slot3.desc
+
 	if not slot3.desc_add then
-		return HXSet.hxLan(slot3.desc)
+		return HXSet.hxLan(slot4)
 	end
 
 	for slot8, slot9 in pairs(slot3.desc_add) do
+		slot10 = slot9[slot1][1]
+
 		if slot9[slot1][2] then
-			slot10 = slot9[slot1][1] .. specialGSub(i18n("word_skill_desc_learn"), "$1", slot9[slot1][2])
+			slot10 = slot10 .. specialGSub(i18n("word_skill_desc_learn"), "$1", slot9[slot1][2])
 		end
 
 		slot4 = specialGSub(slot4, "$" .. slot8, setColorStr(slot10, COLOR_YELLOW))
@@ -1922,8 +1962,10 @@ function getSkillDesc(slot0, slot1, slot2)
 		return ""
 	end
 
+	slot4 = slot3.desc
+
 	if not slot3.desc_add then
-		return HXSet.hxLan(slot3.desc)
+		return HXSet.hxLan(slot4)
 	end
 
 	for slot8, slot9 in pairs(slot3.desc_add) do
@@ -1939,6 +1981,7 @@ end
 
 function topAnimation(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = {}
+	slot4 = slot4 or 0.27
 	slot7 = 0.05
 
 	if slot0 then
@@ -1947,7 +1990,7 @@ function topAnimation(slot0, slot1, slot2, slot3, slot4, slot5)
 		setAnchoredPosition(slot0, {
 			x = slot8 - 500
 		})
-		shiftPanel(slot0, slot8, nil, 0.05, slot4 or 0.27, true, true)
+		shiftPanel(slot0, slot8, nil, 0.05, slot4, true, true)
 		setActive(slot0, true)
 	end
 
@@ -1997,8 +2040,13 @@ end
 
 function playMovie(slot0, slot1, slot2)
 	if not IsNil(GameObject.Find("OverlayCamera/Overlay/UITop/MoviePanel")) then
-		pg.UIMgr.GetInstance():LoadingOn()
-		WWWLoader.Inst:LoadStreamingAsset(slot0, function (slot0)
+		slot4 = pg.UIMgr.GetInstance()
+
+		slot4:LoadingOn()
+
+		slot4 = WWWLoader.Inst
+
+		slot4:LoadStreamingAsset(slot0, function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
 			slot1 = GCHandle.Alloc(slot0, GCHandleType.Pinned)
@@ -2117,9 +2165,9 @@ function enableNotch(slot0, slot1)
 		return
 	end
 
-	slot0:GetComponent("NotchAdapt").enabled = slot1
+	slot0.GetComponent(slot0, "NotchAdapt").enabled = slot1
 
-	if slot0:GetComponent("AspectRatioFitter") then
+	if slot0.GetComponent(slot0, "AspectRatioFitter") then
 		if slot1 then
 			slot3.enabled = preNotchFitterEnabled
 		else
@@ -2137,9 +2185,13 @@ function numberFormat(slot0, slot1)
 		slot1 = ","
 	end
 
+	slot1 = tostring(slot1)
+
 	for slot8 = 1, slot4 do
+		slot2 = string.char(string.byte(slot3, slot4 + 1 - slot8)) .. slot2
+
 		if slot8 % 3 == 0 and slot4 - slot8 ~= 0 then
-			slot2 = tostring(slot1) .. (string.char(string.byte(slot3, slot4 + 1 - slot8)) .. slot2)
+			slot2 = slot1 .. slot2
 		end
 	end
 
@@ -2147,10 +2199,11 @@ function numberFormat(slot0, slot1)
 end
 
 function comma_value(slot0)
+	slot1 = slot0
 	slot2 = 0
 
 	while true do
-		slot1, slot4 = string.gsub(slot0, "^(-?%d+)(%d%d%d)", "%1,%2")
+		slot1, slot4 = string.gsub(slot1, "^(-?%d+)(%d%d%d)", "%1,%2")
 
 		if slot4 == 0 then
 			break
@@ -2167,8 +2220,10 @@ function SwitchPanel(slot0, slot1, slot2, slot3, slot4, slot5)
 		LeanTween.cancel(go(slot0))
 	end
 
+	slot6 = Vector3.New(tf(slot0).localPosition.x, tf(slot0).localPosition.y, tf(slot0).localPosition.z)
+
 	if slot1 then
-		Vector3.New(tf(slot0).localPosition.x, tf(slot0).localPosition.y, tf(slot0).localPosition.z).x = slot1
+		slot6.x = slot1
 	end
 
 	if slot2 then
@@ -2178,7 +2233,7 @@ function SwitchPanel(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = LeanTween.move(rtf(slot0), slot6, slot3):setEase(LeanTweenType.easeInOutSine)
 
 	if slot4 then
-		slot7:setDelay(slot4)
+		slot7.setDelay(slot7, slot4)
 	end
 
 	return slot7
@@ -2204,10 +2259,11 @@ end
 
 function updateCrusingActivityTask(slot0)
 	slot1 = getProxy(TaskProxy)
+	slot2 = math.floor((pg.TimeMgr.GetInstance():GetServerTime() - slot0:getStartTime()) / 86400) + 1
 	slot6 = "config_data"
 
 	for slot6, slot7 in ipairs(slot0:getConfig(slot6)) do
-		if pg.battlepass_task_group[slot7].time <= math.floor((pg.TimeMgr.GetInstance():GetServerTime() - slot0:getStartTime()) / 86400) + 1 and underscore.any(underscore.flatten(slot8.task_group), function (slot0)
+		if pg.battlepass_task_group[slot7].time <= slot2 and underscore.any(underscore.flatten(slot8.task_group), function (slot0)
 			return uv0:getTaskVO(slot0) == nil
 		end) then
 			pg.m02:sendNotification(GAME.CRUSING_CMD, {
@@ -2280,10 +2336,11 @@ function flushShipCard(slot0, slot1)
 
 	setActive(slot10, true)
 
+	slot11 = findTF(slot10, "star_tpl")
 	slot13 = slot1:getStar()
 
 	for slot18 = slot10.childCount, slot1:getMaxStar() - 1 do
-		cloneTplTo(findTF(slot10, "star_tpl"), slot10)
+		cloneTplTo(slot11, slot10)
 	end
 
 	for slot18 = 0, slot10.childCount - 1 do
@@ -2297,14 +2354,14 @@ function flushShipCard(slot0, slot1)
 	slot17 = false
 
 	if slot1.propose then
-		if slot1:isMetaShip() then
+		if slot1.isMetaShip(slot1) then
 			slot16 = "duang_meta_jiehun"
 		else
 			slot16 = "duang_6_jiehun" .. (slot1:isBluePrintShip() and "_tuzhi" or "")
 		end
-	elseif slot1:isMetaShip() then
+	elseif slot1.isMetaShip(slot1) then
 		slot16 = "duang_meta_" .. slot2
-	elseif slot1:getRarity() == 6 then
+	elseif slot1.getRarity(slot1) == 6 then
 		slot16 = "duang_6"
 	end
 
@@ -2427,12 +2484,12 @@ function getActivityTask(slot0, slot1)
 		for slot17, slot18 in ipairs(_.flatten({
 			slot3[slot12]
 		})) do
-			if slot2:getTaskById(slot18) then
+			if slot2.getTaskById(slot2, slot18) then
 				return slot6.id, slot6
 			end
 
 			if slot7 then
-				if slot2:getFinishTaskById(slot18) then
+				if slot2.getFinishTaskById(slot2, slot18) then
 					slot7 = slot8
 				elseif slot1 then
 					return slot18
@@ -2440,7 +2497,7 @@ function getActivityTask(slot0, slot1)
 					return slot7.id, slot7
 				end
 			else
-				slot7 = slot2:getFinishTaskById(slot18)
+				slot7 = slot2.getFinishTaskById(slot2, slot18)
 				slot8 = slot8 or slot18
 			end
 		end
@@ -2457,7 +2514,7 @@ function setImageFromImage(slot0, slot1, slot2)
 	GetComponent(slot0, "Image").sprite = GetComponent(slot1, "Image").sprite
 
 	if slot2 then
-		slot3:SetNativeSize()
+		slot3.SetNativeSize(slot3)
 	end
 end
 
@@ -2607,8 +2664,9 @@ function resourceVerify(slot0, slot1)
 		end
 
 		slot1 = string.split(uv3[slot0], ",")
+		slot3 = slot1[3]
 
-		if PathMgr.FileExists(PathMgr.getAssetBundle(slot1[1])) and slot1[3] == HashUtil.CalcMD5(PathMgr.ReadAllBytes(PathMgr.getAssetBundle(slot2))) then
+		if PathMgr.FileExists(PathMgr.getAssetBundle(slot1[1])) and slot3 == HashUtil.CalcMD5(PathMgr.ReadAllBytes(PathMgr.getAssetBundle(slot2))) then
 			onNextTick(function ()
 				uv0(uv1 - 1)
 			end)
@@ -2625,13 +2683,15 @@ end
 function splitByWordEN(slot0, slot1)
 	slot3 = ""
 	slot4 = ""
+	slot6 = slot1.GetComponent(slot1, typeof(Text))
+	slot7 = slot1.GetComponent(slot1, typeof(RectTransform)).rect.width
 
 	for slot11, slot12 in ipairs(string.split(slot0, " ")) do
 		slot13 = slot4
 
 		setText(slot1, slot4 == "" and slot12 or slot4 .. " " .. slot12)
 
-		if slot1:GetComponent(typeof(RectTransform)).rect.width < slot1:GetComponent(typeof(Text)).preferredWidth then
+		if slot7 < slot6.preferredWidth then
 			slot3 = slot3 == "" and slot13 or slot3 .. "\n" .. slot13
 			slot4 = slot12
 		end
@@ -2650,8 +2710,9 @@ function checkBirthFormat(slot0)
 	end
 
 	slot1 = 0
+	slot2 = #slot0
 
-	while slot1 < #slot0 do
+	while slot1 < slot2 do
 		if string.byte(slot0, slot1 + 1) < 48 or slot3 > 57 then
 			return false
 		end
@@ -2692,8 +2753,9 @@ function GetServerState(slot0)
 	slot2 = 0
 	slot3 = 1
 	slot4 = 2
+	slot5 = VersionMgr.Inst
 
-	VersionMgr.Inst:WebRequest(NetConst.GetServerStateUrl(), function (slot0, slot1)
+	slot5:WebRequest(NetConst.GetServerStateUrl(), function (slot0, slot1)
 		slot2 = true
 		slot3 = false
 
@@ -2724,16 +2786,16 @@ function changeToScrollText(slot0, slot1)
 
 	if slot0.childCount == 0 then
 		slot3 = cloneTplTo(slot0, slot0)
-		slot0:GetComponent(typeof(Text)).enabled = false
+		slot0.GetComponent(slot0, typeof(Text)).enabled = false
 	end
 
-	setScrollText(slot0:GetChild(0), slot1)
+	setScrollText(slot0.GetChild(slot0, 0), slot1)
 end
 
 slot20, slot21, slot22 = nil
 
 function slot20(slot0, slot1, slot2)
-	slot3 = slot0:Find("base")
+	slot3 = slot0.Find(slot0, "base")
 	slot4, slot5, slot6 = Equipment.GetInfoTrans(slot1, slot2)
 
 	if slot1.nextValue then
@@ -2745,12 +2807,12 @@ function slot20(slot0, slot1, slot2)
 		slot5 = slot5 .. setColorStr("   >   " .. slot9, COLOR_GREEN)
 	end
 
-	setText(slot3:Find("name"), slot4)
+	setText(slot3.Find(slot3, "name"), slot4)
 
 	if slot6 then
-		setText(slot3:Find("value"), slot5 .. ("<color=#afff72>(+" .. ys.Battle.BattleConst.UltimateBonus.AuxBoostValue * 100 .. "%)</color>"))
+		setText(slot3.Find(slot3, "value"), slot5 .. ("<color=#afff72>(+" .. ys.Battle.BattleConst.UltimateBonus.AuxBoostValue * 100 .. "%)</color>"))
 	else
-		setText(slot3:Find("value"), slot5)
+		setText(slot3.Find(slot3, "value"), slot5)
 	end
 
 	setActive(slot3:Find("value/up"), slot1.compare and slot1.compare > 0)
@@ -2760,8 +2822,8 @@ function slot20(slot0, slot1, slot2)
 	if not slot1.lock_open and slot1.sub and #slot1.sub > 0 then
 		GetComponent(slot3, typeof(Toggle)).enabled = true
 	else
-		setActive(slot3:Find("name/close"), false)
-		setActive(slot3:Find("name/open"), false)
+		setActive(slot3.Find(slot3, "name/close"), false)
+		setActive(slot3.Find(slot3, "name/open"), false)
 
 		GetComponent(slot3, typeof(Toggle)).enabled = false
 	end
@@ -2774,7 +2836,7 @@ function slot21(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	uv1(slot0:Find("subs"), slot1, slot2.sub, slot3)
+	uv1(slot0.Find(slot0, "subs"), slot1, slot2.sub, slot3)
 end
 
 function slot22(slot0, slot1, slot2, slot3)
@@ -2786,21 +2848,21 @@ function slot22(slot0, slot1, slot2, slot3)
 end
 
 function updateEquipInfo(slot0, slot1, slot2, slot3)
-	uv0(slot0:Find("attrs"), slot0:Find("attr_tpl"), slot1.attrs, slot3)
-	setActive(slot0:Find("skill"), slot2)
+	uv0(slot0.Find(slot0, "attrs"), slot0.Find(slot0, "attr_tpl"), slot1.attrs, slot3)
+	setActive(slot0.Find(slot0, "skill"), slot2)
 
 	if slot2 then
-		uv1(slot0:Find("skill/attr"), slot4, {
+		uv1(slot0.Find(slot0, "skill/attr"), slot4, {
 			name = i18n("skill"),
 			value = setColorStr(slot2.name, "#FFDE00FF")
 		}, slot3)
-		setText(slot0:Find("skill/value/Text"), getSkillDescGet(slot2.id))
+		setText(slot0.Find(slot0, "skill/value/Text"), getSkillDescGet(slot2.id))
 	end
 
 	setActive(slot0:Find("weapon"), #slot1.weapon.sub > 0)
 
 	if #slot1.weapon.sub > 0 then
-		uv0(slot0:Find("weapon"), slot4, {
+		uv0(slot0.Find(slot0, "weapon"), slot4, {
 			slot1.weapon
 		}, slot3)
 	end
@@ -2808,7 +2870,7 @@ function updateEquipInfo(slot0, slot1, slot2, slot3)
 	setActive(slot0:Find("equip_info"), #slot1.equipInfo.sub > 0)
 
 	if #slot1.equipInfo.sub > 0 then
-		uv0(slot0:Find("equip_info"), slot4, {
+		uv0(slot0.Find(slot0, "equip_info"), slot4, {
 			slot1.equipInfo
 		}, slot3)
 	end
@@ -2818,14 +2880,16 @@ function updateEquipInfo(slot0, slot1, slot2, slot3)
 	}, slot3)
 
 	slot6 = slot0:Find("part/value"):Find("label")
+	slot7 = {}
+	slot8 = {}
 
 	if #slot1.part[1] == 0 and #slot1.part[2] == 0 then
-		setmetatable({}, {
+		setmetatable(slot7, {
 			__index = function (slot0, slot1)
 				return true
 			end
 		})
-		setmetatable({}, {
+		setmetatable(slot8, {
 			__index = function (slot0, slot1)
 				return true
 			end
@@ -2855,7 +2919,7 @@ function updateEquipUpgradeInfo(slot0, slot1, slot2)
 	setActive(slot0:Find("weapon"), #slot1.weapon.sub > 0)
 
 	if #slot1.weapon.sub > 0 then
-		uv0(slot0:Find("weapon"), slot3, {
+		uv0(slot0.Find(slot0, "weapon"), slot3, {
 			slot1.weapon
 		}, slot2)
 	end
@@ -2863,19 +2927,19 @@ function updateEquipUpgradeInfo(slot0, slot1, slot2)
 	setActive(slot0:Find("equip_info"), #slot1.equipInfo.sub > 0)
 
 	if #slot1.equipInfo.sub > 0 then
-		uv0(slot0:Find("equip_info"), slot3, {
+		uv0(slot0.Find(slot0, "equip_info"), slot3, {
 			slot1.equipInfo
 		}, slot2)
 	end
 end
 
 function setCanvasOverrideSorting(slot0, slot1)
-	slot0:SetParent(pg.LayerWeightMgr.GetInstance().uiOrigin, false)
+	slot0.SetParent(slot0, pg.LayerWeightMgr.GetInstance().uiOrigin, false)
 	setActive(slot0, true)
 
 	GetOrAddComponent(slot0, typeof(Canvas)).overrideSorting = slot1
 
-	slot0:SetParent(slot0.parent, false)
+	slot0.SetParent(slot0, slot0.parent, false)
 	setActive(slot0, isActive(slot0))
 end
 
@@ -2902,9 +2966,11 @@ function CreateShell(slot0)
 end
 
 function CameraFittingSettin(slot0)
+	slot1 = GetComponent(slot0, typeof(Camera))
+
 	if 1.7777777777777777 > Screen.width / Screen.height then
 		slot4 = slot3 / slot2
-		GetComponent(slot0, typeof(Camera)).rect = uv0.Rect.New(0, (1 - slot4) / 2, 1, slot4)
+		slot1.rect = uv0.Rect.New(0, (1 - slot4) / 2, 1, slot4)
 	end
 end
 
@@ -2914,19 +2980,17 @@ function SwitchSpecialChar(slot0, slot1)
 	end
 
 	if not slot1 then
-		slot0 = slot0:gsub("\n", " ")
+		slot0 = slot0.gsub(slot0, "\n", " ")
 	end
 
 	return slot0
 end
 
 function AfterCheck(slot0, slot1)
-	slot2 = {
-		[slot6] = slot7[1]()
-	}
+	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0) do
-		-- Nothing
+		slot2[slot6] = slot7[1]()
 	end
 
 	slot1()
@@ -3031,7 +3095,9 @@ function getLoginConfig()
 
 	for slot5, slot6 in ipairs(pg.login.all) do
 		if pg.login[slot6].date ~= "stop" then
-			if pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.login[slot6].date[2]) < slot0 and slot0 < pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.login[slot6].date[3]) then
+			slot8 = pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.login[slot6].date[3])
+
+			if pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.login[slot6].date[2]) < slot0 and slot0 < slot8 then
 				slot1 = slot6
 			end
 		end
@@ -3047,7 +3113,7 @@ function setIntimacyIcon(slot0, slot1, slot2)
 	slot4 = nil
 
 	if slot0.childCount > 0 then
-		slot4 = slot0:GetChild(0)
+		slot4 = slot0.GetChild(slot0, 0)
 	else
 		setParent(LoadAndInstantiateSync("template", "intimacytpl").transform, slot0)
 	end
@@ -3058,7 +3124,7 @@ function setIntimacyIcon(slot0, slot1, slot2)
 	end)
 
 	if slot2 then
-		if not slot4:Find(slot2 .. "(Clone)") then
+		if not slot4.Find(slot4, slot2 .. "(Clone)") then
 			setParent(LoadAndInstantiateSync("ui", slot2), slot4)
 		end
 

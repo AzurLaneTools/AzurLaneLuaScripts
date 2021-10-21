@@ -103,9 +103,10 @@ function slot0.selectFaction(slot0, slot1, slot2)
 	slot5 = slot0.factionPanel:Find("panel")
 	slot6 = slot5:Find("blhx")
 	slot7 = slot5:Find("cszz")
+	slot8 = slot5:Find("bg")
 
 	if not slot0.isInitFaction then
-		setImageSprite(slot5:Find("bg"), GetSpriteFromAtlas("commonbg/camp_bg", ""))
+		setImageSprite(slot8, GetSpriteFromAtlas("commonbg/camp_bg", ""))
 		setImageSprite(slot6:Find("bg"), GetSpriteFromAtlas("clutter/blhx_icon", ""))
 		setImageSprite(slot7:Find("bg"), GetSpriteFromAtlas("clutter/cszz_icon", ""))
 		setActive(slot6:Find("bg"), false)
@@ -182,7 +183,9 @@ function slot0.setDescInfo(slot0, slot1)
 		uv0.mainPage:Hide()
 	end
 
-	slot0.mainPage:ExecuteAction("Show", slot1, slot0.playerVO, function ()
+	slot4 = slot0.mainPage
+
+	slot4:ExecuteAction("Show", slot1, slot0.playerVO, function ()
 		setActive(uv0.factionPanel, false)
 	end, slot3)
 	onButton(slot0, slot0.backBtn, slot3, SFX_CANCEL)

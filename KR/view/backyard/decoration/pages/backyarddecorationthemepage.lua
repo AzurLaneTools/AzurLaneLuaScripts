@@ -16,9 +16,10 @@ end
 
 function slot0.InitList(slot0)
 	slot0.displays = {}
+	slot1 = slot0.dorm:GetAllFurniture()
 
 	for slot6, slot7 in ipairs(getProxy(DormProxy):GetSystemThemes()) do
-		if slot7:IsPurchased(slot0.dorm:GetAllFurniture()) then
+		if slot7:IsPurchased(slot1) then
 			table.insert(slot0.displays, slot7)
 		end
 	end

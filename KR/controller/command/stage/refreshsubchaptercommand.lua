@@ -1,7 +1,9 @@
 slot0 = class("RefreshSubChapterCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(13403, {
+	slot4 = pg.ConnectionMgr.GetInstance()
+
+	slot4:Send(13403, {
 		type = slot1:getBody()
 	}, 13404, function (slot0)
 		if slot0.result == 0 then

@@ -156,10 +156,12 @@ function slot0.initFilterPanel(slot0)
 	end
 
 	slot0.otherTF = cloneTplTo(slot0.filterTpl, slot0.filterContainer)
+	slot3 = slot0.otherTF
 
-	setText(slot0.otherTF:Find("Text"), i18n("backyard_filter_tag_other"))
+	setText(slot3:Find("Text"), i18n("backyard_filter_tag_other"))
 
-	slot0.otherTFToggle = slot0.otherTF:GetComponent(typeof(Toggle))
+	slot2 = slot0.otherTF
+	slot0.otherTFToggle = slot2:GetComponent(typeof(Toggle))
 	slot0.selectedOther = false
 
 	slot0:onSwitch(slot0.otherTF, function (slot0)
@@ -227,7 +229,9 @@ function slot0.filter(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.filterData) do
-		for slot11, slot12 in ipairs(slot0.themes[slot6] or {}) do
+		slot7 = slot0.themes[slot6] or {}
+
+		for slot11, slot12 in ipairs(slot7) do
 			table.insert(slot1, slot12)
 		end
 	end
@@ -276,8 +280,10 @@ function slot0.SORT_BY_CONFIG(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.SortForDecorate(slot0, slot1, slot2)
+	slot3 = slot2[1]
 	slot4 = slot2[2]
 	slot5 = slot2[3]
+	slot6 = slot2[4]
 	slot7 = slot2[5]
 
 	function uv0.SortByDefault1(slot0, slot1)
@@ -289,8 +295,8 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 	end
 
 	if ((slot2[6][slot0.configId] or 0) == slot0.count and 1 or 0) == ((slot8[slot1.configId] or 0) == slot1.count and 1 or 0) then
-		if slot2[1] == uv0.SORT_MODE.BY_DEFAULT then
-			return uv0["SortByDefault" .. slot2[4]](slot0, slot1)
+		if slot3 == uv0.SORT_MODE.BY_DEFAULT then
+			return uv0["SortByDefault" .. slot6](slot0, slot1)
 		elseif slot3 == uv0.SORT_MODE.BY_FUNC then
 			return uv0.SORT_BY_FUNC(slot0, slot1, slot4, slot6, function ()
 				return uv0["SortByDefault" .. uv1](uv2, uv3)

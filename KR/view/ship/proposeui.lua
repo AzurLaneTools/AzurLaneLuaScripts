@@ -84,16 +84,27 @@ function slot0.init(slot0)
 		end, SFX_PANEl)
 	end
 
-	onButton(slot0, slot0.exchangePanel:Find("bg"), function ()
+	slot5 = slot0.exchangePanel
+
+	onButton(slot0, slot5:Find("bg"), function ()
 		uv0:hideExchangePanel()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.exchangePanel:Find("window/top/btnBack"), function ()
+
+	slot5 = slot0.exchangePanel
+
+	onButton(slot0, slot5:Find("window/top/btnBack"), function ()
 		uv0:hideExchangePanel()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.exchangePanel:Find("window/button_container/cancel"), function ()
+
+	slot5 = slot0.exchangePanel
+
+	onButton(slot0, slot5:Find("window/button_container/cancel"), function ()
 		uv0:hideExchangePanel()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.exchangePanel:Find("window/button_container/confirm"), function ()
+
+	slot5 = slot0.exchangePanel
+
+	onButton(slot0, slot5:Find("window/button_container/confirm"), function ()
 		if getProxy(BagProxy):getItemCountById(ITEM_ID_FOR_PROPOSE) > 0 then
 			uv0:emit(ProposeMediator.EXCHANGE_TIARA)
 		else
@@ -465,7 +476,11 @@ slot0.Live2DProposeDelayTime = 2
 function slot0.showLive2D(slot0, slot1)
 	setActive(slot0:findTF("fitter", slot0.targetActorTF), false)
 	setActive(slot0:findTF("live2d", slot0.targetActorTF), true)
-	table.insert(slot0.tweenList, LeanTween.alphaCanvas(GetOrAddComponent(slot0.targetActorTF, typeof(CanvasGroup)), 1, uv0.Live2DProposeDelayTime):setFrom(0):setOnComplete(System.Action(function ()
+
+	slot5 = LeanTween.alphaCanvas(GetOrAddComponent(slot0.targetActorTF, typeof(CanvasGroup)), 1, uv0.Live2DProposeDelayTime)
+	slot5 = slot5:setFrom(0)
+
+	table.insert(slot0.tweenList, slot5:setOnComplete(System.Action(function ()
 		uv0.l2dChar:SetAction(pg.AssistantInfo.action2Id[uv1])
 	end)).uniqueId)
 end
@@ -473,8 +488,10 @@ end
 function slot0.hideWindow(slot0)
 	slot1 = GetOrAddComponent(slot0.window, typeof(CanvasGroup))
 	slot1.interactable = false
+	slot4 = LeanTween.alphaCanvas(slot1, 0, 0.2)
+	slot4 = slot4:setFrom(1)
 
-	table.insert(slot0.tweenList, LeanTween.alphaCanvas(slot1, 0, 0.2):setFrom(1):setOnComplete(System.Action(function ()
+	table.insert(slot0.tweenList, slot4:setOnComplete(System.Action(function ()
 		uv0.interactable = true
 	end)).uniqueId)
 end
@@ -516,8 +533,9 @@ function slot0.stampWindow(slot0)
 	slot1.alpha = 0
 	slot2 = GetOrAddComponent(slot0.window, typeof(CanvasGroup))
 	slot2.interactable = false
+	slot5 = LeanTween.alphaCanvas(slot2, 1, 0.8)
 
-	table.insert(slot0.tweenList, LeanTween.alphaCanvas(slot2, 1, 0.8):setFrom(0).uniqueId)
+	table.insert(slot0.tweenList, slot5:setFrom(0).uniqueId)
 	table.insert(slot0.tweenList, LeanTween.delayedCall(1.5, System.Action(function ()
 		table.insert(uv0.tweenList, LeanTween.alphaCanvas(uv1, 1, 2):setFrom(0).uniqueId)
 	end)).uniqueId)
@@ -551,7 +569,9 @@ function slot0.showProposePanel(slot0)
 
 	if not slot0.proposePanel then
 		table.insert(slot1, function (slot0)
-			PoolMgr.GetInstance():GetUI("ProposeRingUI", true, function (slot0)
+			slot2 = PoolMgr.GetInstance()
+
+			slot2:GetUI("ProposeRingUI", true, function (slot0)
 				if uv0.exited then
 					PoolMgr.GetInstance():ReturnUI(uv1, slot0)
 
@@ -593,8 +613,9 @@ function slot0.showProposePanel(slot0)
 
 				uv0.storybg.localScale = Vector3(1.2, 1.2, 1.2)
 				uv0.handId = pg.ship_skin_template[uv0.weddingReview and uv0.reviewSkinID or uv0.shipVO.skinId].hand_id
+				slot2 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y%m%d", true)
 
-				if SPECIAL_PROPOSE and SPECIAL_PROPOSE[1] == pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y%m%d", true) then
+				if SPECIAL_PROPOSE and SPECIAL_PROPOSE[1] == slot2 then
 					for slot6, slot7 in ipairs(SPECIAL_PROPOSE[2]) do
 						if slot7[1] == slot1 then
 							uv0.handId = slot7[2]
@@ -608,8 +629,9 @@ function slot0.showProposePanel(slot0)
 					imas = "Imas_"
 				})[uv0.proposeType] .. "ProposeHand_" .. uv0.handId
 				uv0.handName = slot4
+				slot5 = PoolMgr.GetInstance()
 
-				PoolMgr.GetInstance():GetUI(slot4, true, function (slot0)
+				slot5:GetUI(slot4, true, function (slot0)
 					if uv0.exited then
 						PoolMgr.GetInstance():ReturnUI(uv1, slot0)
 
@@ -655,11 +677,15 @@ function slot0.showProposePanel(slot0)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_DOOR)
 	end)
 	table.insert(slot1, function (slot0)
-		uv0.handTF:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, 0)
+		slot1 = uv0.handTF
+		slot1:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, 0)
+		slot1 = uv0
 
-		uv0:bgAddAnimation(2)
+		slot1:bgAddAnimation(2)
 		table.insert(uv0.tweenList, LeanTween.delayedCall(2, System.Action(function ()
-			uv0:showPainting(true, 1.5, function ()
+			slot0 = uv0
+
+			slot0:showPainting(true, 1.5, function ()
 				table.insert(uv0.tweenList, LeanTween.delayedCall(1.5, System.Action(uv1)).uniqueId)
 			end)
 		end)).uniqueId)
@@ -689,7 +715,10 @@ function slot0.showProposePanel(slot0)
 	if slot0.proposeType ~= "imas" then
 		table.insert(slot1, function (slot0)
 			table.insert(uv0.tweenList, LeanTween.alpha(rtf(uv0.handTF), 1, 1.2).uniqueId)
-			table.insert(uv0.tweenList, LeanTween.moveY(rtf(uv0.handTF), 0, 2):setOnComplete(System.Action(function ()
+
+			slot3 = LeanTween.moveY(rtf(uv0.handTF), 0, 2)
+
+			table.insert(uv0.tweenList, slot3:setOnComplete(System.Action(function ()
 				table.insert(uv0.tweenList, LeanTween.alphaCanvas(uv0.ringBoxCG, 1, 1.5):setFrom(0):setOnComplete(System.Action(uv1)).uniqueId)
 			end)).uniqueId)
 		end)
@@ -712,8 +741,14 @@ function slot0.showProposePanel(slot0)
 		table.insert(uv0.tweenList, LeanTween.delayedCall(uv0.proposeType == "imas" and 1 or 0.5, System.Action(slot0)).uniqueId)
 	end)
 	seriesAsync(slot1, function ()
-		uv0.ringAnim:Play("blink")
-		table.insert(uv0.tweenList, LeanTween.alphaCanvas(uv0.ringTipCG, 1, 1.5):setFrom(0):setOnComplete(System.Action(function ()
+		slot0 = uv0.ringAnim
+
+		slot0:Play("blink")
+
+		slot2 = LeanTween.alphaCanvas(uv0.ringTipCG, 1, 1.5)
+		slot2 = slot2:setFrom(0)
+
+		table.insert(uv0.tweenList, slot2:setOnComplete(System.Action(function ()
 			setActive(uv0:findTF("finger", uv0.ringTipTF), true)
 			uv0:enableRingDrag(true)
 		end)).uniqueId)
@@ -760,10 +795,14 @@ end
 function slot0.addRingDragListenter(slot0)
 	slot0.press = GetOrAddComponent(slot0.proposePanel, "EventTriggerListener")
 	slot1 = nil
+	slot2 = slot0.press
 
-	slot0.press:AddBeginDragFunc(function ()
+	slot2:AddBeginDragFunc(function ()
 	end)
-	slot0.press:AddDragFunc(function (slot0, slot1)
+
+	slot2 = slot0.press
+
+	slot2:AddDragFunc(function (slot0, slot1)
 		slot2 = slot1.position
 
 		if not uv0 then
@@ -776,14 +815,21 @@ function slot0.addRingDragListenter(slot0)
 			uv1:enableRingDrag(false)
 		end
 	end)
-	slot0.press:AddDragEndFunc(function (slot0, slot1)
+
+	slot2 = slot0.press
+
+	slot2:AddDragEndFunc(function (slot0, slot1)
 	end)
 end
 
 function slot0.RingFadeout(slot0)
+	slot1 = {}
+
 	if slot0.proposeType == "imas" then
-		table.insert({}, function (slot0)
-			setActive(uv0.ringLight:GetChild(0), true)
+		table.insert(slot1, function (slot0)
+			slot1 = uv0.ringLight
+
+			setActive(slot1:GetChild(0), true)
 			table.insert(uv0.tweenList, LeanTween.delayedCall(3.5, System.Action(function ()
 				setActive(uv0, false)
 				uv1()
@@ -859,7 +905,9 @@ function slot0.showStoryUI(slot0, slot1)
 
 	if not slot0.storyTF then
 		table.insert(slot2, function (slot0)
-			PoolMgr.GetInstance():GetUI("ProposeStoryUI", true, function (slot0)
+			slot2 = PoolMgr.GetInstance()
+
+			slot2:GetUI("ProposeStoryUI", true, function (slot0)
 				if uv0.exited then
 					PoolMgr.GetInstance():ReturnUI(uv1, slot0)
 
@@ -867,14 +915,19 @@ function slot0.showStoryUI(slot0, slot1)
 				end
 
 				uv0.storyTF = tf(slot0)
+				slot3 = uv0
 
-				setParent(tf(slot0), uv0:findTF("contain"))
+				setParent(tf(slot0), slot3:findTF("contain"))
 
 				uv0.storyCG = GetOrAddComponent(uv0.storyTF, typeof(CanvasGroup))
-				uv0.storyContent = uv0:findTF("dialogue/main/content", uv0.storyTF)
-				uv0.typeWriter = uv0.storyContent:GetComponent(typeof(Typewriter))
-				uv0.targetNameTF = uv0:findTF("dialogue/main/name_left", uv0.storyTF)
-				uv0._renamePanel = uv0:findTF("changeName_panel", uv0.storyTF)
+				slot2 = uv0
+				uv0.storyContent = slot2:findTF("dialogue/main/content", uv0.storyTF)
+				slot2 = uv0.storyContent
+				uv0.typeWriter = slot2:GetComponent(typeof(Typewriter))
+				slot2 = uv0
+				uv0.targetNameTF = slot2:findTF("dialogue/main/name_left", uv0.storyTF)
+				slot2 = uv0
+				uv0._renamePanel = slot2:findTF("changeName_panel", uv0.storyTF)
 
 				setActive(uv0._renamePanel, false)
 				onButton(uv0, uv0.storyTF, function ()
@@ -888,7 +941,10 @@ function slot0.showStoryUI(slot0, slot1)
 						return
 					end
 
-					table.insert(uv0.tweenList, LeanTween.alphaCanvas(uv0.storyCG, 0, 1):setFrom(1):setOnComplete(System.Action(function ()
+					slot2 = LeanTween.alphaCanvas(uv0.storyCG, 0, 1)
+					slot2 = slot2:setFrom(1)
+
+					table.insert(uv0.tweenList, slot2:setOnComplete(System.Action(function ()
 						setActive(uv0.storyTF, false)
 					end)).uniqueId)
 
@@ -897,8 +953,9 @@ function slot0.showStoryUI(slot0, slot1)
 					end
 
 					uv0._currentVoice = nil
+					slot0 = uv0
 
-					uv0:setMask(true)
+					slot0:setMask(true)
 					table.insert(uv0.tweenList, LeanTween.delayedCall(0.5, System.Action(function ()
 						if uv0.weddingReview then
 							uv0:close()
@@ -920,7 +977,9 @@ function slot0.showStoryUI(slot0, slot1)
 			uv0:showPainting(true, 2)
 		end
 
-		setText(uv0.targetNameTF:Find("Text"), ShipGroup.getDefaultShipNameByGroupID(uv0.shipGroupID))
+		slot2 = uv0.targetNameTF
+
+		setText(slot2:Find("Text"), ShipGroup.getDefaultShipNameByGroupID(uv0.shipGroupID))
 		setText(uv0.storyContent, "")
 
 		uv0.storyCG.alpha = 0
@@ -928,8 +987,11 @@ function slot0.showStoryUI(slot0, slot1)
 		setActive(uv0.storyTF, true)
 
 		uv0.initStory = false
+		slot3 = LeanTween.alphaCanvas(uv0.storyCG, 1, 1)
+		slot3 = slot3:setFrom(0)
+		slot3 = slot3:setDelay(1)
 
-		table.insert(uv0.tweenList, LeanTween.alphaCanvas(uv0.storyCG, 1, 1):setFrom(0):setDelay(1):setOnComplete(System.Action(function ()
+		table.insert(uv0.tweenList, slot3:setOnComplete(System.Action(function ()
 			if findTF(uv0.targetActorTF, "fitter").childCount > 0 then
 				ShipExpressionHelper.SetExpression(findTF(uv0.targetActorTF, "fitter"):GetChild(0), uv0.paintingName, "propose")
 			end
@@ -954,9 +1016,13 @@ end
 function slot0.TypeWriter(slot0)
 	slot0.inTypeWritter = true
 	slot0.typeWritterSpeedUp = 0.01
+	slot2 = slot0.typeWriter
 
-	slot0.typeWriter:setSpeed(0.1)
-	slot0.typeWriter:Play()
+	slot2:setSpeed(0.1)
+
+	slot2 = slot0.typeWriter
+
+	slot2:Play()
 
 	function slot0.typeWriter.endFunc()
 		uv0.inTypeWritter = false
@@ -987,7 +1053,9 @@ function slot0.loadChar(slot0, slot1, slot2, slot3)
 				slot1 = slot1 .. "_n"
 			end
 
-			PoolMgr.GetInstance():GetPainting(slot1, true, function (slot0)
+			slot2 = PoolMgr.GetInstance()
+
+			slot2:GetPainting(slot1, true, function (slot0)
 				if not IsNil(findTF(slot0, "Touch")) then
 					setActive(slot1, false)
 				end
@@ -1021,7 +1089,9 @@ function slot0.loadChar(slot0, slot1, slot2, slot3)
 end
 
 function slot0.createLive2D(slot0, slot1)
-	pg.Live2DMgr.GetInstance():GetLive2DModelAsync(slot1, function (slot0)
+	slot2 = pg.Live2DMgr.GetInstance()
+
+	slot2:GetLive2DModelAsync(slot1, function (slot0)
 		if uv0.exited then
 			Destroy(slot0)
 
@@ -1076,15 +1146,29 @@ function slot0.showTip(slot0)
 end
 
 function slot0.initChangeNamePanel(slot0)
-	setText(slot0._renamePanel:Find("frame/border/title"), i18n("word_propose_changename_title", slot0.shipVO:getName()))
-	setText(slot0._renamePanel:Find("frame/setting_ship_name/text"), i18n("word_propose_changename_tip1"))
-	setText(slot0._renamePanel:Find("frame/text"), i18n("word_propose_changename_tip2"))
+	slot2 = slot0._renamePanel
+	slot5 = slot0.shipVO
 
-	slot0._renameConfirmBtn = slot0._renamePanel:Find("frame/queren")
-	slot0._renameCancelBtn = slot0._renamePanel:Find("frame/cancel")
-	slot0._renameToggle = findTF(slot0._renamePanel, "frame/setting_ship_name"):GetComponent(typeof(Toggle))
-	slot0._renameRevert = slot0._renamePanel:Find("frame/revert_button")
-	slot0._closeBtn = slot0._renamePanel:Find("frame/close_btn")
+	setText(slot2:Find("frame/border/title"), i18n("word_propose_changename_title", slot5:getName()))
+
+	slot2 = slot0._renamePanel
+
+	setText(slot2:Find("frame/setting_ship_name/text"), i18n("word_propose_changename_tip1"))
+
+	slot2 = slot0._renamePanel
+
+	setText(slot2:Find("frame/text"), i18n("word_propose_changename_tip2"))
+
+	slot1 = slot0._renamePanel
+	slot0._renameConfirmBtn = slot1:Find("frame/queren")
+	slot1 = slot0._renamePanel
+	slot0._renameCancelBtn = slot1:Find("frame/cancel")
+	slot1 = findTF(slot0._renamePanel, "frame/setting_ship_name")
+	slot0._renameToggle = slot1:GetComponent(typeof(Toggle))
+	slot1 = slot0._renamePanel
+	slot0._renameRevert = slot1:Find("frame/revert_button")
+	slot1 = slot0._renamePanel
+	slot0._closeBtn = slot1:Find("frame/close_btn")
 
 	onButton(slot0, slot0._renameConfirmBtn, function ()
 		pg.PushNotificationMgr.GetInstance():setSwitchShipName(uv0._renameToggle.isOn)

@@ -134,9 +134,13 @@ end
 
 function slot0.AdditionAnim(slot0, slot1, slot2)
 	setActive(slot0.addition, true)
-	LeanTween.value(go(slot0.addition), slot0.animRiseH, slot0.animRiseH + 25, slot1):setOnUpdate(System.Action_float(function (slot0)
+
+	slot3 = LeanTween.value(go(slot0.addition), slot0.animRiseH, slot0.animRiseH + 25, slot1)
+	slot3 = slot3:setOnUpdate(System.Action_float(function (slot0)
 		uv0.addition.localPosition = Vector3(uv0.addition.localPosition.x, slot0, 0)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot3:setOnComplete(System.Action(function ()
 		setActive(uv0.addition, false)
 		uv1()
 

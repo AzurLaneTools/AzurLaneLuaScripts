@@ -23,7 +23,9 @@ function slot0.execute(slot0, slot1)
 		table.insert(slot8, slot13)
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(17401, {
+	slot9 = pg.ConnectionMgr.GetInstance()
+
+	slot9:Send(17401, {
 		fixed_const = 1,
 		medal_id = slot8
 	}, 17402, function (slot0)

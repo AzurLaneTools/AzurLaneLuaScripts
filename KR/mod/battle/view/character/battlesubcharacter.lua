@@ -36,9 +36,11 @@ end
 function slot4.onTorpedoWeaponFire(slot0, slot1)
 	uv0.super.onTorpedoWeaponFire(slot0, slot1)
 
+	slot2 = 0
+
 	for slot6, slot7 in ipairs(slot0._unitData:GetTorpedoList()) do
 		if slot7:GetCurrentState() == slot7.STATE_READY then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 

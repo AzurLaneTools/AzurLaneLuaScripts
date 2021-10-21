@@ -190,8 +190,10 @@ function slot1.BuffAttachDataCondition(slot0, slot1)
 		for slot12, slot13 in ipairs(slot0._effectAttachData) do
 			if slot8.__name == slot13.type then
 				slot14 = slot13.type
+				slot15 = slot13.value
+				slot17 = slot8:GetEffectAttachData()
 
-				if slot13.op == "equal" and slot8:GetEffectAttachData() ~= slot13.value then
+				if slot13.op == "equal" and slot17 ~= slot15 then
 					slot2 = false
 				elseif slot16 == "notequal" and slot17 == slot15 then
 					slot2 = false
@@ -220,13 +222,13 @@ function slot1.GetDungeonType(slot0)
 end
 
 function slot1.GetEquipmentList(slot0, slot1)
+	slot3 = {}
+
 	for slot7, slot8 in ipairs(slot0:GetEquipment()) do
-		-- Nothing
+		slot3[slot7] = slot8
 	end
 
-	slot4 = #{
-		[slot7] = slot8
-	}
+	slot4 = #slot3
 
 	while slot4 > 0 do
 		slot6 = true
@@ -234,7 +236,9 @@ function slot1.GetEquipmentList(slot0, slot1)
 		if not slot3[slot4].equipment then
 			slot6 = false
 		else
-			if slot1.weapon_group and not table.contains(slot1.weapon_group, uv0.Battle.BattleDataFunction.GetEquipDataTemplate(slot5.id).group) then
+			slot7 = uv0.Battle.BattleDataFunction.GetEquipDataTemplate(slot5.id)
+
+			if slot1.weapon_group and not table.contains(slot1.weapon_group, slot7.group) then
 				slot6 = false
 			end
 
@@ -247,8 +251,10 @@ function slot1.GetEquipmentList(slot0, slot1)
 			end
 
 			if slot1.label then
+				slot8 = uv0.Battle.BattleDataFunction.GetWeaponDataFromID(slot5.id).label
+
 				for slot12, slot13 in ipairs(slot1.label) do
-					if not table.contains(uv0.Battle.BattleDataFunction.GetWeaponDataFromID(slot5.id).label, slot13) then
+					if not table.contains(slot8, slot13) then
 						slot6 = false
 
 						break

@@ -39,9 +39,11 @@ function slot0.execute(slot0, slot1)
 		table.insert(slot11, slot17)
 	end
 
-	slot13 = getProxy(CollectionProxy):getShipGroup(slot10.groupId)
+	slot12 = getProxy(CollectionProxy)
+	slot13 = slot12:getShipGroup(slot10.groupId)
+	slot14 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(12027, {
+	slot14:Send(12027, {
 		ship_id = slot3,
 		material_id_list = slot4
 	}, 12028, function (slot0)
@@ -88,8 +90,10 @@ function slot0.execute(slot0, slot1)
 				uv1:updateShip(uv2)
 			end
 
+			slot3 = getProxy(BagProxy)
+
 			for slot7, slot8 in ipairs(slot2.use_item) do
-				getProxy(BagProxy):removeItemById(slot8[1], slot8[2])
+				slot3:removeItemById(slot8[1], slot8[2])
 			end
 
 			slot4 = getProxy(PlayerProxy)

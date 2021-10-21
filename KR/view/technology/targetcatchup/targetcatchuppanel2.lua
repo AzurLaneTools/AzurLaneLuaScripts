@@ -8,7 +8,10 @@ slot0.SELECT_CHAR_LIGHT_FADE_TIME = 0.3
 
 function slot0.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0)
-	PoolMgr.GetInstance():GetUI("TargetCatchupPanel2", true, function (slot0)
+
+	slot3 = PoolMgr.GetInstance()
+
+	slot3:GetUI("TargetCatchupPanel2", true, function (slot0)
 		slot0.transform:SetParent(uv0, false)
 		uv1:onUILoaded(slot0)
 
@@ -40,8 +43,9 @@ end
 function slot0.initUI(slot0)
 	slot0.choosePanel = slot0:findTF("ChoosePanel")
 	slot0.selectedImgUIItemList = UIItemList.New(slot0:findTF("SelectedImgList", slot0.choosePanel), slot0:findTF("SelectedImgTpl", slot0.choosePanel))
+	slot3 = slot0.selectedImgUIItemList
 
-	slot0.selectedImgUIItemList:make(function (slot0, slot1, slot2)
+	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setActive(uv0:findTF("Selected", slot2), slot1 + 1 == uv0.curSelectedIndex)
 
@@ -52,13 +56,19 @@ function slot0.initUI(slot0)
 			end
 		end
 	end)
-	slot0.selectedImgUIItemList:align(#slot0.charIDList)
+
+	slot3 = slot0.selectedImgUIItemList
+
+	slot3:align(#slot0.charIDList)
 
 	slot0.charUIItemList = UIItemList.New(slot0:findTF("CharList", slot0.choosePanel), slot0:findTF("CharTpl", slot0.choosePanel))
+	slot5 = slot0.charUIItemList
 
-	slot0.charUIItemList:make(function (slot0, slot1, slot2)
+	slot5:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0:updateCharTpl(slot1 + 1, slot2)
+			slot3 = uv0
+
+			slot3:updateCharTpl(slot1 + 1, slot2)
 			onButton(uv0, slot2, function ()
 				if uv0 ~= uv1.curSelectedIndex then
 					uv1.curSelectedIndex = uv0
@@ -68,7 +78,10 @@ function slot0.initUI(slot0)
 			end, SFX_PANEL)
 		end
 	end)
-	slot0.charUIItemList:align(#slot0.charIDList)
+
+	slot5 = slot0.charUIItemList
+
+	slot5:align(#slot0.charIDList)
 
 	slot0.confirmBtn = slot0:findTF("ConfirmBtn", slot0.choosePanel)
 
@@ -206,10 +219,13 @@ end
 function slot0.updateProgress(slot0, slot1)
 	setActive(slot0:findTF("ProgressTitle", slot0.choosePanel), true)
 
+	slot3 = slot0.technologyProxy:getCatchupData(uv0.TEC_ID):getTargetNum(slot1)
+	slot4 = slot0:getMaxNum(slot1)
+
 	if slot0:isUR(slot1) then
 		setActive(slot0.urProgress, true)
 		setActive(slot0.ssrProgress, false)
-		setText(slot0:findTF("Text", slot0.urProgress), slot0.technologyProxy:getCatchupData(uv0.TEC_ID):getTargetNum(slot1) .. "/" .. slot0:getMaxNum(slot1))
+		setText(slot0:findTF("Text", slot0.urProgress), slot3 .. "/" .. slot4)
 	else
 		setActive(slot0.urProgress, false)
 		setActive(slot0.ssrProgress, true)
@@ -237,10 +253,12 @@ end
 
 function slot0.getShipBluePrintCurExp(slot0, slot1)
 	slot3 = slot1.fateLevel
+	slot5 = slot1:getConfig("strengthen_effect")
 	slot6 = slot1:getConfig("fate_strengthen")
+	slot7 = 0 + slot1.exp
 
 	for slot11 = 1, slot1.level do
-		slot7 = 0 + slot1.exp + pg.ship_strengthen_blueprint[slot1:getConfig("strengthen_effect")[slot11]].need_exp
+		slot7 = slot7 + pg.ship_strengthen_blueprint[slot5[slot11]].need_exp
 	end
 
 	for slot11 = 1, slot3 do

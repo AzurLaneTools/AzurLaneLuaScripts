@@ -236,13 +236,11 @@ function slot0.UpdateProgress(slot0, slot1, slot2)
 
 	slot0:DispatchEvent(uv0.EventUpdateProgress, slot3)
 
-	slot3 = {
-		[slot7] = 1
-	}
+	slot3 = {}
 	slot7 = slot2
 
 	for slot7 in pairs(slot0:GetStepDic(slot7)) do
-		-- Nothing
+		slot3[slot7] = 1
 	end
 
 	slot7 = slot1
@@ -287,8 +285,10 @@ function slot0.UpdateTreasure(slot0, slot1)
 	slot0.treasureMarkDic[slot1] = slot4 > 0
 
 	if (nowWorld:GetInventoryProxy():GetItemCount(slot1) > 0 and 1 or 0) - (slot0.treasureMarkDic[slot1] and 1 or 0) ~= 0 then
+		slot6 = slot2:FindTreasureEntrance(slot1)
+
 		if pg.world_item_data_template[slot1].usage_arg[1] == 1 then
-			slot2:FindTreasureEntrance(slot1):UpdateDisplayMarks("treasure_sairen", slot5 > 0)
+			slot6:UpdateDisplayMarks("treasure_sairen", slot5 > 0)
 		else
 			slot6:UpdateDisplayMarks("treasure", slot5 > 0)
 		end
@@ -350,18 +350,19 @@ function slot0.AddPressingMap(slot0, slot1)
 		table.insert(slot0.pressingMapList, slot1)
 
 		if slot0.mapEntrance[slot1] then
+			slot3 = {
+				[slot2.id] = true
+			}
 			slot0.transportDic[slot2.id] = true
 
 			for slot7 in pairs(slot2.transportDic) do
 				if not slot0.transportDic[slot7] then
 					slot0.transportDic[slot7] = true
+					slot3[slot7] = true
 				end
 			end
 
-			slot0:DispatchEvent(uv0.EventAddPressingEntrance, {
-				[slot2.id] = true,
-				[slot7] = true
-			})
+			slot0:DispatchEvent(uv0.EventAddPressingEntrance, slot3)
 		end
 
 		slot0:DispatchEvent(uv0.EventAddPressingMap, slot1)
@@ -426,14 +427,13 @@ end
 function slot0.UpdatePortTaskMark(slot0, slot1, slot2)
 	if tobool(slot0.taskPortDic[slot1]) ~= slot2 then
 		slot0.taskPortDic[slot1] = slot2
+		slot3 = {}
 
 		for slot7, slot8 in ipairs(slot0.portEntranceList[slot1]) do
-			-- Nothing
+			slot3[slot8] = true
 		end
 
-		slot0:DispatchEvent(uv0.EventUpdatePortTaskMark, {
-			[slot8] = true
-		})
+		slot0:DispatchEvent(uv0.EventUpdatePortTaskMark, slot3)
 	end
 end
 

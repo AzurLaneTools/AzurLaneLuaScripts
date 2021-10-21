@@ -19,11 +19,10 @@ end
 
 function slot2.InitSize(slot0, slot1)
 	slot1 = slot1 or slot0.min
-	slot2 = {
-		[slot6] = slot0:GetObject()
-	}
+	slot2 = {}
 
 	for slot6 = 1, slot1 do
+		slot2[slot6] = slot0:GetObject()
 	end
 
 	for slot6 = 1, slot1 do
@@ -75,9 +74,10 @@ end
 
 function slot2.GetObject(slot0)
 	slot1 = nil
+	slot2 = slot0.usedEnd
 
 	if not slot0:IsEmpty() then
-		slot2 = (slot0.usedEnd ~= nil or slot0.list.Head) and slot0.usedEnd.Next
+		slot2 = (slot2 ~= nil or slot0.list.Head) and slot0.usedEnd.Next
 		slot0.usedEnd = slot2
 		slot1 = slot2.Data
 		slot0.map[slot1] = slot2
@@ -88,8 +88,10 @@ function slot2.GetObject(slot0)
 			slot1:SetActive(true)
 		end
 	else
+		slot1 = Object.Instantiate(slot0.template)
+
 		if not slot0.templateActive then
-			Object.Instantiate(slot0.template):SetActive(true)
+			slot1:SetActive(true)
 		end
 
 		if slot0.keepParent then

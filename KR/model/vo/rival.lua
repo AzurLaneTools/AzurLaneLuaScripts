@@ -11,17 +11,19 @@ function slot0.Ctor(slot0, slot1)
 	slot0.vanguardShips = {}
 	slot0.mainShips = {}
 
+	function slot2(slot0)
+		if slot0:getTeamType() == TeamType.Vanguard then
+			table.insert(uv0.vanguardShips, slot0)
+		elseif slot0:getTeamType() == TeamType.Main then
+			table.insert(uv0.mainShips, slot0)
+		end
+	end
+
 	for slot6, slot7 in ipairs(slot1.vanguard_ship_list) do
 		slot8 = Ship.New(slot7)
 		slot8.isRival = true
 
-		(function (slot0)
-			if slot0:getTeamType() == TeamType.Vanguard then
-				table.insert(uv0.vanguardShips, slot0)
-			elseif slot0:getTeamType() == TeamType.Main then
-				table.insert(uv0.mainShips, slot0)
-			end
-		end)(slot8)
+		slot2(slot8)
 	end
 
 	for slot6, slot7 in ipairs(slot1.main_ship_list) do
@@ -45,8 +47,10 @@ function slot0.getPainting(slot0)
 end
 
 function slot0.getShips(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in ipairs(slot0.vanguardShips) do
-		table.insert({}, slot6)
+		table.insert(slot1, slot6)
 	end
 
 	for slot5, slot6 in ipairs(slot0.mainShips) do
@@ -65,8 +69,10 @@ function slot0.GetGearScoreSum(slot0, slot1)
 		slot2 = slot0.vanguardShips
 	end
 
+	slot3 = 0
+
 	for slot7, slot8 in ipairs(slot2) do
-		slot3 = 0 + slot8:getShipCombatPower()
+		slot3 = slot3 + slot8:getShipCombatPower()
 	end
 
 	return slot3

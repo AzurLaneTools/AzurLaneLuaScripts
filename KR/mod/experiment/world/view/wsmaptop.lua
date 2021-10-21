@@ -89,25 +89,31 @@ function slot0.Init(slot0)
 	setText(slot0.rtMapName, "")
 	setText(slot0.rtTime, "")
 
-	slot0.globalBuffItemList = UIItemList.New(slot0.rtGlobalBuffs, slot0.rtGlobalBuffs:GetChild(0))
+	slot4 = slot0.rtGlobalBuffs
+	slot0.globalBuffItemList = UIItemList.New(slot0.rtGlobalBuffs, slot4:GetChild(0))
+	slot2 = slot0.globalBuffItemList
 
-	slot0.globalBuffItemList:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0(slot2, uv1.globalBuffs[slot1 + 1])
 		end
 	end)
 
-	slot0.fleetBuffItemList = UIItemList.New(slot0.rtFleetBuffs, slot0.rtFleetBuffs:GetChild(0))
+	slot4 = slot0.rtFleetBuffs
+	slot0.fleetBuffItemList = UIItemList.New(slot0.rtFleetBuffs, slot4:GetChild(0))
+	slot2 = slot0.fleetBuffItemList
 
-	slot0.fleetBuffItemList:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0(slot2, uv1.fleetBuffs[slot1 + 1])
 		end
 	end)
 
-	slot0.cmdSkillItemList = UIItemList.New(slot0.rtCmdSkills, slot0.rtCmdSkills:GetChild(0))
+	slot4 = slot0.rtCmdSkills
+	slot0.cmdSkillItemList = UIItemList.New(slot0.rtCmdSkills, slot4:GetChild(0))
+	slot2 = slot0.cmdSkillItemList
 
-	slot0.cmdSkillItemList:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.cmdSkills[slot1 + 1]
 
@@ -216,7 +222,10 @@ function slot0.OnUpdatePoison(slot0)
 
 		table.insert(slot4, 1, 0)
 		table.insert(slot4, 999)
-		eachChild(slot0.rtPoisonRate:Find("bg/ring"), function (slot0)
+
+		slot6 = slot0.rtPoisonRate
+
+		eachChild(slot6:Find("bg/ring"), function (slot0)
 			if uv1[slot0:GetSiblingIndex() + 1] <= uv0 and uv0 < uv1[slot1 + 1] then
 				setActive(slot0, true)
 
@@ -248,7 +257,8 @@ function slot0.OnUpdateCmdSkill(slot0)
 	if slot0.fleet:IsCatSalvage() then
 		slot0.cmdSkills = {}
 	else
-		slot0.cmdSkills = _.map(_.values(slot0.fleet:getCommanders()), function (slot0)
+		slot3 = slot0.fleet
+		slot0.cmdSkills = _.map(_.values(slot3:getCommanders()), function (slot0)
 			return slot0:getSkills()[1]
 		end)
 	end

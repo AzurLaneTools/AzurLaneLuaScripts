@@ -16,10 +16,11 @@ slot13 = slot4.AMMO_DAMAGE_REDUCE
 slot14 = slot4.SHIP_TYPE_ACCURACY_ENHANCE
 
 function slot0.GetFleetTotalHP(slot0)
+	slot1 = slot0:GetFlagShip()
 	slot3 = uv0.NUM0
 
 	for slot7, slot8 in ipairs(slot0:GetUnitList()) do
-		slot3 = slot8 == slot0:GetFlagShip() and slot3 + uv1.GetCurrent(slot8, "maxHP") * uv0.HP_CONST or slot3 + uv1.GetCurrent(slot8, "maxHP")
+		slot3 = slot8 == slot1 and slot3 + uv1.GetCurrent(slot8, "maxHP") * uv0.HP_CONST or slot3 + uv1.GetCurrent(slot8, "maxHP")
 	end
 
 	return slot3
@@ -30,26 +31,31 @@ function slot0.GetFleetVelocity(slot0)
 		return slot2 * uv1.PERCENT
 	end
 
+	slot2 = uv1.NUM0
 	slot3 = #slot0
 
 	for slot7, slot8 in ipairs(slot0) do
-		slot2 = uv1.NUM0 + slot8:GetAttrByName("velocity")
+		slot2 = slot2 + slot8:GetAttrByName("velocity")
 	end
 
 	return slot2 / slot3 * (uv1.NUM1 - uv1.SPEED_CONST * (slot3 - uv1.NUM1))
 end
 
 function slot0.GetFleetReload(slot0)
+	slot1 = uv0.NUM0
+
 	for slot5, slot6 in ipairs(slot0) do
-		slot1 = uv0.NUM0 + slot6:GetReload()
+		slot1 = slot1 + slot6:GetReload()
 	end
 
 	return slot1
 end
 
 function slot0.GetFleetTorpedoPower(slot0)
+	slot1 = uv0.NUM0
+
 	for slot5, slot6 in ipairs(slot0) do
-		slot1 = uv0.NUM0 + slot6:GetTorpedoPower()
+		slot1 = slot1 + slot6:GetTorpedoPower()
 	end
 
 	return slot1
@@ -145,9 +151,10 @@ function slot0.CreateContextCalculateDamage(slot0)
 		end
 
 		slot30 = uv0.NUM1
+		slot25 = math.max(slot30, math.floor(slot25 * slot19 * (slot30 - slot2) * ((slot10:GetFixAmmo() or slot16[slot20] or slot30) + uv2.GetCurrent(slot0, uv5.AGAINST_ARMOR_ENHANCE[slot20])) * slot22 * (slot30 + uv2.GetCurrent(slot0, "damageRatioBullet")) * uv2.GetTagAttr(slot0, slot1) * (slot30 + uv2.GetCurrent(slot1, "injureRatio")) * (slot30 + uv2.GetCurrent(slot0, uv6[slot15.ammo_type]) - uv2.GetCurrent(slot1, uv7[slot15.ammo_type])) * (slot30 + uv2.GetCurrent(slot1, uv2.GetCurrent(slot0, "comboTag"))) * (slot30 + math.min(slot7[1], math.max(-slot7[1], slot21)) * slot7[2])))
 
 		if slot1:GetCurrentOxyState() == uv1.OXY_STATE.DIVE then
-			slot25 = math.floor(math.max(slot30, math.floor(slot25 * slot19 * (slot30 - slot2) * ((slot10:GetFixAmmo() or slot16[slot20] or slot30) + uv2.GetCurrent(slot0, uv5.AGAINST_ARMOR_ENHANCE[slot20])) * slot22 * (slot30 + uv2.GetCurrent(slot0, "damageRatioBullet")) * uv2.GetTagAttr(slot0, slot1) * (slot30 + uv2.GetCurrent(slot1, "injureRatio")) * (slot30 + uv2.GetCurrent(slot0, uv6[slot15.ammo_type]) - uv2.GetCurrent(slot1, uv7[slot15.ammo_type])) * (slot30 + uv2.GetCurrent(slot1, uv2.GetCurrent(slot0, "comboTag"))) * (slot30 + math.min(slot7[1], math.max(-slot7[1], slot21)) * slot7[2]))) * slot15.antisub_enhancement)
+			slot25 = math.floor(slot25 * slot15.antisub_enhancement)
 		end
 
 		slot39 = {
@@ -160,12 +167,16 @@ function slot0.CreateContextCalculateDamage(slot0)
 			slot25 = math.floor(slot25 * slot40)
 		end
 
+		slot25 = slot25 * slot18.repressReduce
+
 		if slot17 ~= 0 then
-			slot25 = slot25 * slot18.repressReduce * (Mathf.RandomFloat(slot17) + 1)
+			slot25 = slot25 * (Mathf.RandomFloat(slot17) + 1)
 		end
 
+		slot25 = math.max(0, slot25 + uv2.GetCurrent(slot0, "damageEnhanceProjectile"))
+
 		if uv8 then
-			slot25 = math.max(0, slot25 + uv2.GetCurrent(slot0, "damageEnhanceProjectile")) * (uv0.NUM1 + uv2.GetCurrent(slot0, "worldBuffResistance"))
+			slot25 = slot25 * (uv0.NUM1 + uv2.GetCurrent(slot0, "worldBuffResistance"))
 		end
 
 		slot25 = math.floor(slot25)
@@ -223,8 +234,10 @@ function slot0.CalculateFleetAntiAirTotalDamage(slot0)
 	slot2 = 0
 
 	for slot6, slot7 in pairs(slot0:GetCrewUnitList()) do
+		slot8 = uv0.GetCurrent(slot6, "antiAirPower")
+
 		for slot12, slot13 in ipairs(slot7) do
-			slot2 = slot2 + math.max(1, (uv0.GetCurrent(slot6, "antiAirPower") * slot13:GetConvertedAtkAttr() + 1) * slot13:GetCorrectedDMG())
+			slot2 = slot2 + math.max(1, (slot8 * slot13:GetConvertedAtkAttr() + 1) * slot13:GetCorrectedDMG())
 		end
 	end
 
@@ -313,8 +326,10 @@ function slot0.CaclulateReloadAttr(slot0, slot1)
 end
 
 function slot0.CaclulateAirAssistReloadMax(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0) do
-		slot1 = 0 + slot6:GetTemplateData().reload_max
+		slot1 = slot1 + slot6:GetTemplateData().reload_max
 	end
 
 	return slot1 / #slot0 * uv0
@@ -339,11 +354,12 @@ function slot0.CaclulateDOTDamageEnhanceRate(slot0, slot1, slot2)
 end
 
 function slot0.CalculateMaxAimBiasRange(slot0)
+	slot1 = uv0.AIM_BIAS_FLEET_RANGE_MOD
 	slot2 = nil
 
 	if #slot0 == 1 then
 		slot3 = slot0[1]
-		slot2 = uv1.GetCurrent(slot0[1], "dodgeRate") * uv0.AIM_BIAS_FLEET_RANGE_MOD
+		slot2 = uv1.GetCurrent(slot0[1], "dodgeRate") * slot1
 	else
 		slot3 = {}
 
@@ -496,25 +512,27 @@ function slot0.WeightListRandom(slot0, slot1)
 	slot2 = math.random(0, slot1)
 
 	for slot6, slot7 in pairs(slot0) do
-		if slot6.min <= slot2 and slot2 <= slot6.max then
+		slot9 = slot6.max
+
+		if slot6.min <= slot2 and slot2 <= slot9 then
 			return slot7
 		end
 	end
 end
 
 function slot0.GenerateWeightList(slot0)
+	slot1 = {}
 	slot2 = -1
 
 	for slot6, slot7 in ipairs(slot0) do
 		slot11 = nil
-	end
-
-	return {
-		[{
+		slot1[{
 			min = slot2 + 1,
 			max = slot2 + slot7.weight
 		}] = slot7.rst
-	}, slot2
+	end
+
+	return slot1, slot2
 end
 
 function slot0.IsListHappen(slot0)
@@ -532,16 +550,18 @@ function slot0.BulletYAngle(slot0, slot1)
 end
 
 function slot0.RandomPosNull(slot0, slot1)
+	slot1 = slot1 or 10
 	slot2 = slot0.distance or 10
 	slot2 = slot2 * slot2
 	slot3 = ys.Battle.BattleTargetChoise.TargetAll()
 	slot4, slot5 = nil
 
-	for slot9 = 1, slot1 or 10 do
+	for slot9 = 1, slot1 do
 		slot5 = true
+		slot4 = uv0.RandomPos(slot0)
 
 		for slot13, slot14 in pairs(slot3) do
-			if Vector3.SqrDistance(uv0.RandomPos(slot0), slot14:GetPosition()) < slot2 then
+			if Vector3.SqrDistance(slot4, slot14:GetPosition()) < slot2 then
 				slot5 = false
 
 				break
@@ -557,8 +577,12 @@ function slot0.RandomPosNull(slot0, slot1)
 end
 
 function slot0.RandomPos(slot0)
+	slot1 = slot0[1] or 0
+	slot2 = slot0[2] or 0
+	slot3 = slot0[3] or 0
+
 	if slot0.rangeX or slot0.rangeY or slot0.rangeZ then
-		return Vector3((slot0[1] or 0) + uv0.RandomDelta(slot0.rangeX), (slot0[2] or 0) + uv0.RandomDelta(slot0.rangeY), (slot0[3] or 0) + uv0.RandomDelta(slot0.rangeZ))
+		return Vector3(slot1 + uv0.RandomDelta(slot0.rangeX), slot2 + uv0.RandomDelta(slot0.rangeY), slot3 + uv0.RandomDelta(slot0.rangeZ))
 	else
 		return Vector3(slot1 + uv0.RandomPosXYZ(slot0, "X1", "X2"), slot2 + uv0.RandomPosXYZ(slot0, "Y1", "Y2"), slot3 + uv0.RandomPosXYZ(slot0, "Z1", "Z2"))
 	end

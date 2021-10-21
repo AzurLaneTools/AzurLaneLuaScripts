@@ -47,7 +47,9 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
 		if uv0.contextData.editBossFleet then
-			uv0:emit(GuildEventMediator.ON_SAVE_FORMATION, function ()
+			slot0 = uv0
+
+			slot0:emit(GuildEventMediator.ON_SAVE_FORMATION, function ()
 				uv0:Hide()
 			end)
 		else
@@ -152,12 +154,13 @@ function slot0.UpdateShips(slot0, slot1)
 	slot0:ClearShips()
 
 	slot3 = {}
+	slot4 = {}
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot1:GetShips()) do
 		if slot10 and slot10.ship then
 			if slot10.ship:getTeamType() == TeamType.Vanguard then
-				table.insert({}, slot10)
+				table.insert(slot4, slot10)
 			elseif slot11 == TeamType.Main then
 				table.insert(slot3, slot10)
 			elseif slot11 == TeamType.Submarine then
@@ -198,7 +201,10 @@ function slot0.UpdateShip(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot2:Find("Image")
 
 	if slot4 then
-		PoolMgr.GetInstance():GetSpineChar(slot4.ship:getPrefab(), true, function (slot0)
+		slot6 = slot4.ship
+		slot8 = PoolMgr.GetInstance()
+
+		slot8:GetSpineChar(slot6:getPrefab(), true, function (slot0)
 			slot0.name = uv0
 
 			SetParent(slot0, uv1.parent)

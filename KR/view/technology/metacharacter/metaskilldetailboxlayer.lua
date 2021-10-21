@@ -71,11 +71,12 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 	setText(slot0:findTF("name_contain/level_contain/Text", slot5), getProxy(BayProxy):getShipById(slot0.metaShipID):getMetaSkillLevelBySkillID(slot2))
 
 	slot18 = slot2 == slot0.metaProxy:getMetaTacticsInfoByShipID(slot0.metaShipID).curSkillID
+	slot19 = slot15 > 0
 	slot20 = slot14:isSkillLevelMax(slot2)
 	slot21 = slot17:getSkillExp(slot2)
 
 	if not (pg.skill_data_template[slot2].max_level <= slot15) then
-		if slot15 > 0 then
+		if slot19 then
 			slot25 = MetaCharacterConst.getMetaSkillTacticsConfig(slot2, slot15).need_exp
 
 			setText(slot9, slot21 .. "/" .. slot25)

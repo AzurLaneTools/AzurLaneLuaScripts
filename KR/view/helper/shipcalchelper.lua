@@ -1,20 +1,25 @@
 slot0 = class("ShipCalcHelper")
 
 function slot0.CalcDestoryRes(slot0)
+	slot1 = 0
+	slot2 = 0
 	slot3 = {}
 	slot4 = false
 
 	for slot8, slot9 in ipairs(slot0) do
 		slot10, slot11, slot12 = slot9:calReturnRes()
-		slot1 = 0 + slot10
-		slot2 = 0 + slot11
+		slot1 = slot1 + slot10
+		slot2 = slot2 + slot11
 
 		for slot16, slot17 in ipairs(slot12) do
+			slot18 = slot17[1]
+			slot20 = slot17[3]
+
 			if not slot3[slot17[2]] then
 				slot3[slot19] = {
-					type = slot17[1],
+					type = slot18,
 					id = slot19,
-					count = slot17[3]
+					count = slot20
 				}
 			else
 				slot3[slot19].count = slot3[slot19].count + slot20
@@ -23,7 +28,9 @@ function slot0.CalcDestoryRes(slot0)
 	end
 
 	for slot8, slot9 in pairs(slot3) do
-		if slot9.count > 0 and slot9.type == DROP_TYPE_VITEM and pg.item_data_statistics[slot9.id].virtual_type == 20 then
+		slot10 = pg.item_data_statistics[slot9.id]
+
+		if slot9.count > 0 and slot9.type == DROP_TYPE_VITEM and slot10.virtual_type == 20 then
 			slot11 = slot9.count
 			slot12 = pg.gameset.urpt_chapter_max.description
 			slot4 = math.min(slot12[2] - getProxy(BagProxy):GetLimitCntById(slot12[1]), slot11) < slot11

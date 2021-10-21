@@ -9,7 +9,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(22009, {
+	slot6 = pg.ConnectionMgr.GetInstance()
+
+	slot6:Send(22009, {
 		type = 0
 	}, 22010, function (slot0)
 		if slot0.result == 0 then

@@ -8,26 +8,46 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.view = slot2
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
-	slot0._content = slot0._tf:Find("ship/content")
-	slot0._mask = slot0._tf:Find("ship/mask")
-	slot0._icon = slot0._tf:Find("ship/content/main/bg/icon"):GetComponent(typeof(Image))
-	slot0._priceTF = slot0._tf:Find("ship/content/main/bg/price")
+	slot3 = slot0._tf
+	slot0._content = slot3:Find("ship/content")
+	slot3 = slot0._tf
+	slot0._mask = slot3:Find("ship/mask")
+	slot3 = slot0._tf
+	slot3 = slot3:Find("ship/content/main/bg/icon")
+	slot0._icon = slot3:GetComponent(typeof(Image))
+	slot3 = slot0._tf
+	slot0._priceTF = slot3:Find("ship/content/main/bg/price")
 
 	setActive(slot0._priceTF, false)
 
-	slot0._priceIcon = slot0._priceTF:Find("gem"):GetComponent(typeof(Image))
-	slot0._priceTxt = slot0._priceTF:Find("gem/Text"):GetComponent(typeof(Text))
-	slot0._opriceTxt = slot0._priceTF:Find("originalprice"):GetComponent(typeof(Text))
+	slot3 = slot0._priceTF
+	slot3 = slot3:Find("gem")
+	slot0._priceIcon = slot3:GetComponent(typeof(Image))
+	slot3 = slot0._priceTF
+	slot3 = slot3:Find("gem/Text")
+	slot0._priceTxt = slot3:GetComponent(typeof(Text))
+	slot3 = slot0._priceTF
+	slot3 = slot3:Find("originalprice")
+	slot0._opriceTxt = slot3:GetComponent(typeof(Text))
+	slot4 = slot0._tf
+	slot4 = slot0._tf
+	slot4 = slot0._tf
+	slot4 = slot0._tf
+	slot4 = slot0._tf
+	slot4 = slot0._tf
+	slot4 = slot0._tf
+	slot4 = slot0._tf
+	slot4 = slot0._tf
 	slot0._tagTFs = {
-		slot0._tf:Find("ship/content/top/tags/tag_hot"),
-		slot0._tf:Find("ship/content/top/tags/tag_new"),
-		slot0._tf:Find("ship/content/top/tags/tag_advice"),
-		slot0._tf:Find("ship/content/top/tags/tag_activity"),
-		slot0._tf:Find("ship/content/top/tags/tag_discount"),
-		slot0._tf:Find("ship/content/top/tags/tag_nothing"),
-		slot0._tf:Find("ship/content/top/tags/tag_bought"),
-		slot0._tf:Find("ship/content/top/tags/tag_limit"),
-		slot0._tf:Find("ship/content/top/tags/tag_timelimit")
+		slot4:Find("ship/content/top/tags/tag_hot"),
+		slot4:Find("ship/content/top/tags/tag_new"),
+		slot4:Find("ship/content/top/tags/tag_advice"),
+		slot4:Find("ship/content/top/tags/tag_activity"),
+		slot4:Find("ship/content/top/tags/tag_discount"),
+		slot4:Find("ship/content/top/tags/tag_nothing"),
+		slot4:Find("ship/content/top/tags/tag_bought"),
+		slot4:Find("ship/content/top/tags/tag_limit"),
+		slot4:Find("ship/content/top/tags/tag_timelimit")
 	}
 
 	onButton(nil, slot0._go, function ()
@@ -67,7 +87,9 @@ function slot0.update(slot0, slot1)
 		if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 			setActive(slot0._tagTFs[9], true)
 		elseif slot12 then
-			if slot9 or slot0.goodsVO:getConfig("tag") == 5 then
+			slot14 = slot0.goodsVO:getConfig("tag")
+
+			if slot9 or slot14 == 5 then
 				setText(slot0._tagTFs[5]:Find("Text"), slot11 .. "%")
 				setActive(slot0._tagTFs[5], true)
 			elseif slot0._tagTFs[slot14] then

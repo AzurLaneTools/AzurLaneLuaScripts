@@ -5,8 +5,10 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.updateView(slot0)
+	slot1 = slot0:calculateEXValue()
+
 	if slot0.contextData.countTime > 0 then
-		setText(slot0.timeText, slot0.contextData.countTime .. "s   + " .. setColorStr(slot0:calculateEXValue() .. "s", "#3068E6FF"))
+		setText(slot0.timeText, slot0.contextData.countTime .. "s   + " .. setColorStr(slot1 .. "s", "#3068E6FF"))
 	else
 		setText(slot0.timeText, slot0.contextData.countTime .. "s")
 	end

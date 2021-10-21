@@ -34,31 +34,53 @@ function slot0.OnInit(slot0)
 	slot0.wsCompass = WSCompass.New()
 	slot0.wsCompass.tf = slot1:Find("bg/ring/compass")
 	slot0.wsCompass.pool = slot0.contextData.wsPool
+	slot3 = slot0.wsCompass
 
-	slot0.wsCompass:Setup(true)
+	slot3:Setup(true)
 
 	slot0.rtMsgbox = slot1:Find("Msgbox")
 
 	setActive(slot0.rtMsgbox, false)
-	onButton(slot0, slot0.rtMsgbox:Find("bg"), function ()
+
+	slot5 = slot0.rtMsgbox
+
+	onButton(slot0, slot5:Find("bg"), function ()
 		uv0:HideMsgbox()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.rtMsgbox:Find("window/top/btnBack"), function ()
+
+	slot5 = slot0.rtMsgbox
+
+	onButton(slot0, slot5:Find("window/top/btnBack"), function ()
 		uv0:HideMsgbox()
 	end, SFX_CANCEL)
 
-	slot0.rtMsgStamina = slot0.rtMsgbox:Find("window/top/bg/stamina")
+	slot3 = slot0.rtMsgbox
+	slot0.rtMsgStamina = slot3:Find("window/top/bg/stamina")
+	slot4 = slot0.rtMsgStamina
 
-	setText(slot0.rtMsgStamina:Find("name"), i18n("world_ap"))
+	setText(slot4:Find("name"), i18n("world_ap"))
 
-	slot0.rtMsgBase = slot0.rtMsgbox:Find("window/msg_panel/base")
-	slot0.rtMsgExtra = slot0.rtMsgbox:Find("window/msg_panel/extra")
-	slot0.rtMsgBtns = slot0.rtMsgbox:Find("window/button_container")
+	slot3 = slot0.rtMsgbox
+	slot0.rtMsgBase = slot3:Find("window/msg_panel/base")
+	slot3 = slot0.rtMsgbox
+	slot0.rtMsgExtra = slot3:Find("window/msg_panel/extra")
+	slot3 = slot0.rtMsgbox
+	slot0.rtMsgBtns = slot3:Find("window/button_container")
+	slot4 = slot0.rtMsgBtns
 
-	setText(slot0.rtMsgBtns:Find("btn_setting/pic"), i18n("msgbox_text_save"))
-	setText(slot0.rtMsgBtns:Find("btn_confirm/pic"), i18n("text_confirm"))
-	setText(slot0.rtMsgBtns:Find("btn_cancel/pic"), i18n("text_cancel"))
-	onButton(slot0, slot0.rtMsgBtns:Find("btn_cancel"), function ()
+	setText(slot4:Find("btn_setting/pic"), i18n("msgbox_text_save"))
+
+	slot4 = slot0.rtMsgBtns
+
+	setText(slot4:Find("btn_confirm/pic"), i18n("text_confirm"))
+
+	slot4 = slot0.rtMsgBtns
+
+	setText(slot4:Find("btn_cancel/pic"), i18n("text_cancel"))
+
+	slot5 = slot0.rtMsgBtns
+
+	onButton(slot0, slot5:Find("btn_cancel"), function ()
 		uv0:HideMsgbox()
 	end, SFX_CANCEL)
 end

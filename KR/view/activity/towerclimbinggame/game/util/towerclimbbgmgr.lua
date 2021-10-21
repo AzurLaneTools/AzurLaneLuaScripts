@@ -184,9 +184,11 @@ function slot0.Init(slot0, slot1, slot2)
 	end
 
 	seriesAsync(slot3, function ()
+		slot0 = 0
+
 		for slot4, slot5 in ipairs(uv0.list) do
 			if uv0.list[slot4 - 1] then
-				slot0 = 0 + slot6.rect.height
+				slot0 = slot0 + slot6.rect.height
 			end
 
 			setAnchoredPosition(slot5, {
@@ -202,10 +204,11 @@ end
 
 function slot0.DoMove(slot0, slot1, slot2)
 	slot3 = {}
+	slot4 = nil
 
 	for slot8, slot9 in ipairs(slot0.list) do
 		if slot9 then
-			slot4 = nil or slot8
+			slot4 = slot4 or slot8
 
 			table.insert(slot3, function (slot0)
 				LeanTween.value(uv0.gameObject, uv0.anchoredPosition.y, getAnchoredPosition(uv0).y - uv1 * 0.8, 0.2):setOnUpdate(System.Action_float(function (slot0)
@@ -274,8 +277,9 @@ function slot0.LoadEffect(slot0, slot1, slot2)
 	if uv0.effects[tonumber(slot1)] then
 		for slot7, slot8 in ipairs(slot3) do
 			slot10 = slot8[2]
+			slot11 = PoolMgr.GetInstance()
 
-			PoolMgr.GetInstance():GetUI(slot8[1], true, function (slot0)
+			slot11:GetUI(slot8[1], true, function (slot0)
 				if not uv0.list then
 					PoolMgr.GetInstance():ReturnUI(uv1, slot0)
 				else

@@ -43,19 +43,27 @@ end
 
 function slot0.showToggleMask(slot0)
 	setActive(slot0.toggleMask, true)
+
+	slot1 = slot0.chapter
+	slot1 = slot1:getOperationList()
+
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0._callback(0)
 		uv0:hideToggleMask()
 		uv0:setButtonView(0)
 	end)
 
+	slot2 = 0
+
 	for slot6, slot7 in pairs(slot0.itemList) do
-		slot8 = slot0.toggles[0 + 1]
+		slot8 = slot0.toggles[slot2 + 1]
 
 		setActive(slot8, true)
 
-		if table.contains(slot0.chapter:getOperationList(), slot6) then
-			setActive(slot8:Find("lock"), false)
+		slot9 = slot8:Find("lock")
+
+		if table.contains(slot1, slot6) then
+			setActive(slot9, false)
 			setButtonEnabled(slot8, true)
 			onButton(slot0, slot8, function ()
 				uv0._callback(uv1)

@@ -17,15 +17,15 @@ function slot0.InitUI(slot0)
 		empty = 0,
 		r = 3
 	}
-	slot3 = {
-		[slot7] = {}
-	}
+	slot3 = {}
 
 	for slot7 = 1, #{
 		findTF(slot0._tf, "window/notifications/options/notify_tpl_1"),
 		findTF(slot0._tf, "window/notifications/options/notify_tpl_2"),
 		findTF(slot0._tf, "window/notifications/options/notify_tpl_3")
 	} do
+		slot3[slot7] = {}
+
 		for slot11, slot12 in pairs(slot2) do
 			slot3[slot7][slot11] = findTF(slot1[slot7], slot11)
 		end

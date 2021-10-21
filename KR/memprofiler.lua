@@ -9,8 +9,10 @@ function slot3(slot0, slot1)
 		return
 	end
 
+	slot3 = debug.getinfo(2, "S").source
+
 	if uv1 then
-		slot3 = string.format("%s__%d", debug.getinfo(2, "S").source, slot1 - 1)
+		slot3 = string.format("%s__%d", slot3, slot1 - 1)
 	end
 
 	if not uv2[slot3] then
@@ -64,13 +66,13 @@ return {
 			return
 		end
 
-		slot2:write("fileLine, count, mem K, avg K\n")
+		slot2.write(slot2, "fileLine, count, mem K, avg K\n")
 
 		for slot6, slot7 in ipairs(slot1) do
-			slot2:write(string.format("%s, %d, %f, %f\n", slot7[1], slot7[2], slot7[3], slot7[3] / slot7[2]))
+			slot2.write(slot2, string.format("%s, %d, %f, %f\n", slot7[1], slot7[2], slot7[3], slot7[3] / slot7[2]))
 		end
 
-		slot2:close()
+		slot2.close(slot2)
 
 		uv0 = nil
 	end

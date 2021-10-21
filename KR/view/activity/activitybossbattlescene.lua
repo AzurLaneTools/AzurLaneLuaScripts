@@ -115,6 +115,8 @@ function slot0.updateMain(slot0)
 
 	slot0.stageList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0.stages[slot1 + 1]
+
 			onButton(uv0, slot2, function ()
 				if not uv0 and uv1.useageCount == uv1.count then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_count_noenough"))
@@ -130,7 +132,7 @@ function slot0.updateMain(slot0)
 			end, SFX_PANEL)
 
 			if slot2:Find("bonusTip") then
-				setActive(slot2:Find("bonusTip"), uv0.stages[slot1 + 1].useageCount < (slot1 < 2 and 20 or 40))
+				setActive(slot2:Find("bonusTip"), slot3.useageCount < (slot1 < 2 and 20 or 40))
 			end
 		end
 	end)
@@ -161,12 +163,17 @@ function slot0.showAwards(slot0)
 	setActive(slot0.bonusWindow, true)
 
 	if not slot0.awardList then
-		slot0.awardList = UIItemList.New(slot0.bonusWindow:Find("window/scrollview/list"), slot0.bonusWindow:Find("window/scrollview/list/item"))
+		slot2 = slot0.bonusWindow
+		slot3 = slot0.bonusWindow
+		slot0.awardList = UIItemList.New(slot2:Find("window/scrollview/list"), slot3:Find("window/scrollview/list/item"))
 
 		onButton(slot0, slot0.bonusWindow, function ()
 			uv0:closeAwards()
 		end, SFX_PANEL)
-		onButton(slot0, slot0.bonusWindow:Find("window/top/btnBack"), function ()
+
+		slot3 = slot0.bonusWindow
+
+		onButton(slot0, slot3:Find("window/top/btnBack"), function ()
 			uv0:closeAwards()
 		end, SFX_PANEL)
 	end

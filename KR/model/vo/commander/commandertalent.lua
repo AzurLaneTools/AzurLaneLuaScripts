@@ -79,9 +79,11 @@ function slot0.getBuffsAddition(slot0)
 end
 
 function slot0.getDestoryExpValue(slot0)
+	slot1 = 0
+
 	for slot6, slot7 in ipairs(slot0:getConfig("add")) do
 		if slot7[1] == CommanderConst.TALENT_ADDITION_NUMBER and slot7[4] == CommanderConst.DESTROY_ATTR_ID then
-			slot1 = 0 + slot7[5]
+			slot1 = slot1 + slot7[5]
 		end
 	end
 
@@ -89,9 +91,11 @@ function slot0.getDestoryExpValue(slot0)
 end
 
 function slot0.getDestoryExpRetio(slot0)
+	slot1 = 0
+
 	for slot6, slot7 in ipairs(slot0:getConfig("add")) do
 		if slot7[1] == CommanderConst.TALENT_ADDITION_RATIO and slot7[4] == CommanderConst.DESTROY_ATTR_ID then
-			slot1 = 0 + slot7[5]
+			slot1 = slot1 + slot7[5]
 		end
 	end
 

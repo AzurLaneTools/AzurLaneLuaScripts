@@ -33,10 +33,16 @@ function slot0.initUI(slot0)
 	onButton(slot0, slot0.bg, function ()
 		uv0:Destroy()
 	end, SFX_CANCEL)
-	slot0.dft:SetStartEvent(function ()
+
+	slot1 = slot0.dft
+
+	slot1:SetStartEvent(function ()
 		setButtonEnabled(uv0.bg, false)
 	end)
-	slot0.dft:SetEndEvent(function ()
+
+	slot1 = slot0.dft
+
+	slot1:SetEndEvent(function ()
 		setButtonEnabled(uv0.bg, true)
 	end)
 end

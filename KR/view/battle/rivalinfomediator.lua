@@ -2,7 +2,9 @@ slot0 = class("RivalInfoMediator", import("..base.ContextMediator"))
 slot0.START_BATTLE = "RivalInfoMediator:START_BATTLE"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setRival(slot0.contextData.rival)
+	slot1 = slot0.viewComponent
+
+	slot1:setRival(slot0.contextData.rival)
 	slot0:bind(uv0.START_BATTLE, function (slot0)
 		slot1 = nil
 

@@ -7,7 +7,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(30006, {
+	slot5 = pg.ConnectionMgr.GetInstance()
+
+	slot5:Send(30006, {
 		id = slot2
 	}, 30007, function (slot0)
 		for slot4, slot5 in ipairs(slot0.id_list) do

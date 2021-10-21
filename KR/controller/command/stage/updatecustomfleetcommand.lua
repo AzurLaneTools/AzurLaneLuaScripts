@@ -29,7 +29,9 @@ function slot0.execute(slot0, slot1)
 		slot11[#slot11 + 1] = slot17
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(13107, {
+	slot12 = pg.ConnectionMgr.GetInstance()
+
+	slot12:Send(13107, {
 		id = slot8,
 		elite_fleet_list = slot11
 	}, 13108, function (slot0)

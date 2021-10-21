@@ -345,8 +345,9 @@ function slot0.updateBg(slot0)
 
 	slot0.bgName = "musicgamebg" .. slot0.musicBg
 	slot0.isLoading = true
+	slot2 = PoolMgr.GetInstance()
 
-	PoolMgr.GetInstance():GetUI(slot0.bgName, true, function (slot0)
+	slot2:GetUI(slot0.bgName, true, function (slot0)
 		uv0.bgGo = slot0
 
 		if uv0.isLoading == false then
@@ -567,8 +568,10 @@ function slot0.game_before(slot0)
 
 	setImageColor(slot0.top:Find("ScoreSlider/House"), Color(1, slot5, 1, 1))
 
+	slot1 = slot0.game_content:Find("evaluate")
+
 	for slot5 = 1, 3 do
-		setActive(slot0.game_content:Find("evaluate"):GetChild(slot5 - 1), false)
+		setActive(slot1:GetChild(slot5 - 1), false)
 	end
 
 	slot0:clearSDModel()
@@ -609,18 +612,35 @@ function slot0.game_before(slot0)
 		slot0.gameNoteRight = MusicGameNote.New(findTF(slot0.game_content, "MusicPieceRight"), MusicGameNote.type_right)
 	end
 
-	slot0.gameNoteLeft:setStartData(slot0.leftPu, slot0.game_speed, slot0.game_dgree)
-	slot0.gameNoteLeft:setStateCallback(function (slot0)
+	slot3 = slot0.gameNoteLeft
+
+	slot3:setStartData(slot0.leftPu, slot0.game_speed, slot0.game_dgree)
+
+	slot3 = slot0.gameNoteLeft
+
+	slot3:setStateCallback(function (slot0)
 		uv0:onStateCallback(slot0)
 	end)
-	slot0.gameNoteLeft:setLongTimeCallback(function (slot0)
+
+	slot3 = slot0.gameNoteLeft
+
+	slot3:setLongTimeCallback(function (slot0)
 		uv0:onLongTimeCallback(slot0)
 	end)
-	slot0.gameNoteRight:setStartData(slot0.rightPu, slot0.game_speed, slot0.game_dgree)
-	slot0.gameNoteRight:setStateCallback(function (slot0)
+
+	slot3 = slot0.gameNoteRight
+
+	slot3:setStartData(slot0.rightPu, slot0.game_speed, slot0.game_dgree)
+
+	slot3 = slot0.gameNoteRight
+
+	slot3:setStateCallback(function (slot0)
 		uv0:onStateCallback(slot0)
 	end)
-	slot0.gameNoteRight:setLongTimeCallback(function (slot0)
+
+	slot3 = slot0.gameNoteRight
+
+	slot3:setLongTimeCallback(function (slot0)
 		uv0:onLongTimeCallback(slot0)
 	end)
 
@@ -693,7 +713,9 @@ function slot0.loadSDModel(slot0, slot1)
 		setActive(findTF(slot0._tf, "lightList/" .. slot1 .. "/" .. slot5), slot5 == slot0.musicLight)
 	end
 
-	PoolMgr.GetInstance():GetSpineChar(slot0.SDname[slot1], true, function (slot0)
+	slot2 = PoolMgr.GetInstance()
+
+	slot2:GetSpineChar(slot0.SDname[slot1], true, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.SDmodel[uv1] = slot0
@@ -729,9 +751,11 @@ function slot0.SDmodeljump_btnup(slot0)
 end
 
 function slot0.setActionSDmodel(slot0, slot1, slot2)
+	slot2 = slot2 or 0
+
 	for slot6 = 1, #slot0.SDmodel do
 		if slot0.SDmodel[slot6] then
-			slot0.SDmodel[slot6]:GetComponent("SpineAnimUI"):SetAction(slot1, slot2 or 0)
+			slot0.SDmodel[slot6]:GetComponent("SpineAnimUI"):SetAction(slot1, slot2)
 		end
 	end
 end
@@ -739,8 +763,9 @@ end
 function slot0.loadAndPlayMusic(slot0, slot1, slot2)
 	slot3 = nil
 	MusicGameView.loadMusicFlag = MusicGameView.loadMusicFlag + 1
+	slot5 = CriWareMgr.Inst
 
-	CriWareMgr.Inst:PlayBGM("bgm-song" .. slot0.musicData.bgm, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+	slot5:PlayBGM("bgm-song" .. slot0.musicData.bgm, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
 		if slot0 == nil then
 			warning("Missing BGM :" .. (uv0 or "NIL"))
 		else
@@ -953,9 +978,11 @@ function slot0.score_update(slot0, slot1)
 		pg.CriMgr.GetInstance():PlaySE_V3("ui-maoudamashii")
 	end
 
+	slot3 = 0
+
 	for slot7 = 1, #slot0.combo_interval do
 		if slot0.combo_interval[slot7] < slot0.combo_link then
-			slot3 = 0 + 1
+			slot3 = slot3 + 1
 		else
 			break
 		end
@@ -1189,18 +1216,16 @@ end
 function slot0.changeLocalpos(slot0, slot1)
 	slot3 = slot0.music_amount_middle - slot1
 	slot4 = 0.5
-	slot5 = {
-		[slot9] = slot0.song_btns[slot9].localPosition
-	}
+	slot5 = {}
 
 	for slot9 = 1, slot0.music_amount do
+		slot5[slot9] = slot0.song_btns[slot9].localPosition
 	end
 
-	slot6 = {
-		[slot10] = slot0.song_btns[slot10].localScale
-	}
+	slot6 = {}
 
 	for slot10 = 1, slot0.music_amount do
+		slot6[slot10] = slot0.song_btns[slot10].localScale
 	end
 
 	slot0.changeLocalpos_timer = Timer.New(function ()
@@ -1482,22 +1507,23 @@ function slot0.locadScoreView(slot0)
 		end,
 		function (slot0)
 			slot1 = nil
+			slot1 = (uv0.score_number >= uv0.score_blist[uv1][uv2] or function ()
+				uv0:setScoceview_pj("c")
+			end) and (uv0.score_blist[uv1][uv2] > uv0.score_number or uv0.score_number >= uv0.score_alist[uv1][uv2] or function ()
+				uv0:setScoceview_pj("b")
+				uv0:emit(BaseMiniGameMediator.MINI_GAME_SUCCESS, 0)
+			end) and (uv0.score_alist[uv1][uv2] > uv0.score_number or uv0.score_number >= uv0.score_slist[uv1][uv2] or function ()
+				uv0:setScoceview_pj("a")
+				uv0:emit(BaseMiniGameMediator.MINI_GAME_SUCCESS, 0)
+			end) and function ()
+				uv0:setScoceview_pj("s")
+				uv0:emit(BaseMiniGameMediator.MINI_GAME_SUCCESS, 0)
+			end
 			slot3 = pg.NewStoryMgr.GetInstance()
 			slot5 = uv0:GetMGData():getConfig("simple_config_data").story[uv0:GetMGHubData().usedtime + 1] and slot4[slot2.usedtime + 1][1] or nil
 
 			if slot2.count > 0 and slot5 and not slot3:IsPlayed(slot5) and uv0.score_blist[uv1][uv2] <= uv0.score_number then
-				slot3:Play(slot5, (uv0.score_number >= uv0.score_blist[uv1][uv2] or function ()
-					uv0:setScoceview_pj("c")
-				end) and (uv0.score_blist[uv1][uv2] > uv0.score_number or uv0.score_number >= uv0.score_alist[uv1][uv2] or function ()
-					uv0:setScoceview_pj("b")
-					uv0:emit(BaseMiniGameMediator.MINI_GAME_SUCCESS, 0)
-				end) and (uv0.score_alist[uv1][uv2] > uv0.score_number or uv0.score_number >= uv0.score_slist[uv1][uv2] or function ()
-					uv0:setScoceview_pj("a")
-					uv0:emit(BaseMiniGameMediator.MINI_GAME_SUCCESS, 0)
-				end) and function ()
-					uv0:setScoceview_pj("s")
-					uv0:emit(BaseMiniGameMediator.MINI_GAME_SUCCESS, 0)
-				end)
+				slot3:Play(slot5, slot1)
 			else
 				slot1()
 			end
@@ -1622,8 +1648,9 @@ function slot0.gameStart(slot0)
 	slot0.aheadtime_count = 0
 	slot1 = 2
 	slot0.ahead_timerPauseFlag = false
+	slot3 = CriWareMgr.Inst
 
-	CriWareMgr.Inst:UnloadCueSheet("bgm-song" .. slot0.musicData.bgm)
+	slot3:UnloadCueSheet("bgm-song" .. slot0.musicData.bgm)
 
 	slot0.ahead_timer = Timer.New(function ()
 		uv0.ahead_timeflag = true
@@ -1639,9 +1666,13 @@ function slot0.gameStart(slot0)
 				uv0.aheadtime_count = nil
 				uv0.ahead_timeflag = false
 				uv0.gotspecialcombo_flag = false
+				slot0 = uv0.ahead_timer
 
-				uv0.ahead_timer:Stop()
-				uv0:loadAndPlayMusic(function ()
+				slot0:Stop()
+
+				slot0 = uv0
+
+				slot0:loadAndPlayMusic(function ()
 				end)
 			end
 		end
@@ -1653,12 +1684,13 @@ function slot0.gameStart(slot0)
 end
 
 function slot0.gameStepNew(slot0)
+	slot1 = slot0.game_dgree
 	slot0.gameStepTime = slot0:getStampTime()
 	slot0.downingright_lastflag = slot0.downingright_flag
 	slot0.downingleft_lastflag = slot0.downingleft_flag
 
 	if Application.isEditor then
-		if slot0.game_dgree == 2 then
+		if slot1 == 2 then
 			slot0.downingright_flag = Input.GetKey(KeyCode.J)
 			slot0.downingleft_flag = Input.GetKey(KeyCode.F)
 		elseif slot1 == 1 then
@@ -1813,9 +1845,10 @@ end
 function slot0.gameStep(slot0)
 	slot0.downingright_lastflag = slot0.downingright_flag
 	slot0.downingleft_lastflag = slot0.downingleft_flag
+	slot1 = slot0.game_dgree
 
 	if Application.isEditor then
-		if slot0.game_dgree == 2 then
+		if slot1 == 2 then
 			slot0.downingright_flag = Input.GetKey(KeyCode.J)
 			slot0.downingleft_flag = Input.GetKey(KeyCode.F)
 		elseif slot1 == 1 then
@@ -1867,7 +1900,12 @@ function slot0.gameStep(slot0)
 			end
 
 			slot0:locadScoreView()
-			slot0.game_content:Find("yinyue20_Fullcombo"):GetComponent(typeof(ParticleSystemEvent)):SetEndEvent(function ()
+
+			slot6 = slot0.game_content
+			slot6 = slot6:Find("yinyue20_Fullcombo")
+			slot6 = slot6:GetComponent(typeof(ParticleSystemEvent))
+
+			slot6:SetEndEvent(function ()
 			end)
 		elseif (slot0.good_number > 0 or slot0.perfect_number > 0) and slot0.miss_number <= 0 then
 			setActive(slot0.game_content:Find("yinyue20_Fullcombo"), true)
@@ -1877,7 +1915,11 @@ function slot0.gameStep(slot0)
 				slot0.gotspecialcombo_flag = true
 			end
 
-			slot0.game_content:Find("yinyue20_Fullcombo"):GetComponent(typeof(ParticleSystemEvent)):SetEndEvent(function ()
+			slot6 = slot0.game_content
+			slot6 = slot6:Find("yinyue20_Fullcombo")
+			slot6 = slot6:GetComponent(typeof(ParticleSystemEvent))
+
+			slot6:SetEndEvent(function ()
 				uv0:locadScoreView()
 			end)
 		else
@@ -1952,10 +1994,12 @@ function slot0.gameStep(slot0)
 
 				slot5:Find(slot7 .. "/notelong_2/note_above/below"):GetComponent(typeof(Image)).color = Color.New(1, 1, 1, 1)
 				slot5:Find(slot7 .. "/notelong_2/note_above/above"):GetComponent(typeof(Image)).color = Color.New(1, 1, 1, 1)
+				slot8 = slot5:Find(slot7 .. "/notelong_2/note_above"):GetComponent(typeof(RectTransform)).offsetMin
 				slot9 = slot5:Find(slot7 .. "/notelong_2/note_above"):GetComponent(typeof(RectTransform)).offsetMax
+				slot10 = 274 - 1142 / uv1 * (slot1.end_time - slot1.begin_time) < 274 and slot10 or 274
 
 				if slot0 == "left" then
-					slot5:Find(slot7 .. "/notelong_2/note_above"):GetComponent(typeof(RectTransform)).offsetMin = Vector2(274 - 1142 / uv1 * (slot1.end_time - slot1.begin_time) < 274 and slot10 or 274, slot5:Find(slot7 .. "/notelong_2/note_above"):GetComponent(typeof(RectTransform)).offsetMin.y)
+					slot5:Find(slot7 .. "/notelong_2/note_above"):GetComponent(typeof(RectTransform)).offsetMin = Vector2(slot10, slot8.y)
 				elseif slot0 == "right" then
 					slot5:Find(slot7 .. "/notelong_2/note_above"):GetComponent(typeof(RectTransform)).offsetMax = Vector2(-slot10, slot9.y)
 				end
@@ -1967,10 +2011,12 @@ function slot0.gameStep(slot0)
 
 				slot5:Find(slot7 .. "/notelong_1/note_above/below"):GetComponent(typeof(Image)).color = Color.New(1, 1, 1, 1)
 				slot5:Find(slot7 .. "/notelong_1/note_above/above"):GetComponent(typeof(Image)).color = Color.New(1, 1, 1, 1)
+				slot8 = slot5:Find(slot7 .. "/notelong_1/note_above"):GetComponent(typeof(RectTransform)).offsetMin
 				slot9 = slot5:Find(slot7 .. "/notelong_1/note_above"):GetComponent(typeof(RectTransform)).offsetMax
+				slot10 = 274 - 1142 / uv1 * (slot1.end_time - slot1.begin_time) < 274 and slot10 or 274
 
 				if slot0 == "left" then
-					slot5:Find(slot7 .. "/notelong_1/note_above"):GetComponent(typeof(RectTransform)).offsetMin = Vector2(274 - 1142 / uv1 * (slot1.end_time - slot1.begin_time) < 274 and slot10 or 274, slot5:Find(slot7 .. "/notelong_1/note_above"):GetComponent(typeof(RectTransform)).offsetMin.y)
+					slot5:Find(slot7 .. "/notelong_1/note_above"):GetComponent(typeof(RectTransform)).offsetMin = Vector2(slot10, slot8.y)
 				elseif slot0 == "right" then
 					slot5:Find(slot7 .. "/notelong_1/note_above"):GetComponent(typeof(RectTransform)).offsetMax = Vector2(-slot10, slot9.y)
 				end
@@ -2128,6 +2174,22 @@ function slot0.gameStep(slot0)
 		end
 
 		if uv0.game_dgree == 2 then
+			function slot4()
+				if uv0.musicgame_nowtime - uv0.piece_nowl.begin_time < uv0.time_laterperfect then
+					uv0:score_update(2)
+				elseif uv0.musicgame_nowtime - uv0.piece_nowl.begin_time < uv0.time_latergood then
+					uv0:score_update(1)
+				end
+
+				uv0.piece_nowl.ob.localPosition = uv0.pieceinit_xyz.left
+
+				setActive(uv0.piece_nowl.ob, false)
+				uv0:list_push(uv0.piecelist_lf, uv0.piece_nowl.ob)
+
+				uv0.piece_nowl.ob = false
+				uv0.piece_nowl_aloneflag = true
+			end
+
 			function slot5()
 				if uv0.musicgame_nowtime - uv0.piece_nowr.begin_time < uv0.time_laterperfect then
 					uv0:score_update(2)
@@ -2390,21 +2452,7 @@ function slot0.gameStep(slot0)
 
 			if slot0 == "left" and uv0.piece_nowl.ob and uv0.piece_nowl.begin_time == uv0.piece_nowl.end_time and uv0.downingleft_flag and not uv0.downingleft_lastflag then
 				if uv0.piece_nowl.key_flag ~= "K_BOTH" and not uv0.piece_nowl_downflag and not uv0.piece_nowl_aloneflag then
-					(function ()
-						if uv0.musicgame_nowtime - uv0.piece_nowl.begin_time < uv0.time_laterperfect then
-							uv0:score_update(2)
-						elseif uv0.musicgame_nowtime - uv0.piece_nowl.begin_time < uv0.time_latergood then
-							uv0:score_update(1)
-						end
-
-						uv0.piece_nowl.ob.localPosition = uv0.pieceinit_xyz.left
-
-						setActive(uv0.piece_nowl.ob, false)
-						uv0:list_push(uv0.piecelist_lf, uv0.piece_nowl.ob)
-
-						uv0.piece_nowl.ob = false
-						uv0.piece_nowl_aloneflag = true
-					end)()
+					slot4()
 				elseif uv0.piece_nowr.key_flag == "K_BOTH" and uv0.piece_nowr.ob and uv0.downingright_flag and not uv0.piece_nowl_downflag and not uv0.piece_nowl_aloneflag and not uv0.piece_nowr_downflag and not uv0.piece_nowr_aloneflag then
 					slot4()
 					slot5()
@@ -2530,9 +2578,10 @@ function slot0.gameStep(slot0)
 		for slot8 = 1, slot2[0] do
 			slot9 = uv0:list_pop(slot2)
 			slot10 = slot9.ob.localPosition
+			slot11 = (uv0.musicgame_nowtime - slot9.begin_time + slot1) * uv1
 
 			if slot0 == "left" then
-				slot9.ob.localPosition = Vector3(uv0.pieceinit_xyz[slot0].x + (uv0.musicgame_nowtime - slot9.begin_time + slot1) * uv1, slot10.y, slot10.z)
+				slot9.ob.localPosition = Vector3(uv0.pieceinit_xyz[slot0].x + slot11, slot10.y, slot10.z)
 
 				if slot9.ob.localPosition.x < 0 then
 					uv0:list_push(slot2, slot9)

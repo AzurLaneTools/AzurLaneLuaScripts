@@ -14,8 +14,15 @@ function slot0.register(slot0)
 	slot0:bind(uv0.GET_CHARGE_LIST, function (slot0)
 		uv0:sendNotification(GAME.GET_CHARGE_LIST)
 	end)
-	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
-	slot0.viewComponent:checkFreeGiftTag()
+
+	slot1 = getProxy(PlayerProxy)
+	slot3 = slot0.viewComponent
+
+	slot3:setPlayer(slot1:getData())
+
+	slot3 = slot0.viewComponent
+
+	slot3:checkFreeGiftTag()
 	slot0:bind(uv0.SWITCH_TO_SHOP, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1)
 	end)
@@ -57,8 +64,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:setPlayer(slot1:getBody())
+		slot0.viewComponent:setPlayer(slot3)
 		slot0.viewComponent:updateNoRes()
 	elseif slot2 == ShopsProxy.FIRST_CHARGE_IDS_UPDATED then
 		slot0.viewComponent:setFirstChargeIds(slot3)
@@ -127,7 +136,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot7[slot3.id].group > 0 and _.detect(slot0.viewComponent.itemVOs, function (slot0)
 			return slot0.id == uv0.id
 		end) then
-			if slot11:IsGroupSale() and (not slot11:IsShowWhenGroupSale(slot12) or slot0.viewComponent:getGroupLimit(slot11:getConfig("group")) == slot11:getConfig("group_limit")) then
+			slot13 = slot0.viewComponent:getGroupLimit(slot11:getConfig("group")) == slot11:getConfig("group_limit")
+
+			if slot11:IsGroupSale() and (not slot11:IsShowWhenGroupSale(slot12) or slot13) then
 				slot0.viewComponent:setItemVOs()
 				slot0.viewComponent:sortItems()
 			end

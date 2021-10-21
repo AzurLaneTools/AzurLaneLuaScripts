@@ -135,8 +135,10 @@ function slot0.DebugPrint(slot0)
 			slot4 = {}
 
 			for slot8 = #slot2, 1, -1 do
+				slot10 = slot2[slot8]
+
 				if not slot0.effects[#slot0.effects - #slot2 + slot8] then
-					table.insert(slot4, 1, setColorStr(slot2[slot8], COLOR_GREEN))
+					table.insert(slot4, 1, setColorStr(slot10, COLOR_GREEN))
 				elseif slot9 ~= slot10 then
 					if pg.world_effect_data[slot10].effect_type == 27 or slot11 == 35 or slot11 == 36 then
 						table.insert(slot4, 1, setColorStr(slot9, COLOR_BLUE))
@@ -229,8 +231,10 @@ function slot0.IsAlive(slot0)
 end
 
 function slot0.IsVisible(slot0)
+	slot1 = not slot0.lurk
+
 	if slot0.type == uv0.TypeEvent then
-		slot1 = not slot0.lurk and slot0.config.discover_type == 2
+		slot1 = slot1 and slot0.config.discover_type == 2
 	elseif uv0.IsEnemyType(slot0.type) then
 		slot1 = slot1 and slot0:IsAlive()
 	end
@@ -390,6 +394,7 @@ function slot0.GetWeaknessBuffId(slot0)
 		return
 	end
 
+	slot1 = {}
 	slot6 = slot0
 	slot5 = slot0.GetBattleStageId(slot6)
 
@@ -398,7 +403,7 @@ function slot0.GetWeaknessBuffId(slot0)
 	end)
 
 	for slot5, slot6 in ipairs(slot0.buffList) do
-		if ({})[slot6] then
+		if slot1[slot6] then
 			return slot6
 		end
 	end

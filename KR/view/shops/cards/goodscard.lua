@@ -5,19 +5,31 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0.go = slot1
 	slot0.tr = tf(slot1)
-	slot0.mask = slot0.tr:Find("mask")
-	slot0.selloutTag = slot0.tr:Find("mask/tag/sellout_tag")
-	slot0.levelTag = slot0.tr:Find("mask/tag/level_tag")
-	slot0.levelTagText = slot0.tr:Find("mask/tag/level_tag/Text")
-	slot0.stars = slot0.tr:Find("item/icon_bg/stars")
+	slot2 = slot0.tr
+	slot0.mask = slot2:Find("mask")
+	slot2 = slot0.tr
+	slot0.selloutTag = slot2:Find("mask/tag/sellout_tag")
+	slot2 = slot0.tr
+	slot0.levelTag = slot2:Find("mask/tag/level_tag")
+	slot2 = slot0.tr
+	slot0.levelTagText = slot2:Find("mask/tag/level_tag/Text")
+	slot2 = slot0.tr
+	slot0.stars = slot2:Find("item/icon_bg/stars")
 	slot0.itemTF = findTF(slot0.tr, "item")
 	slot0.nameTxt = findTF(slot0.tr, "item/name_mask/name")
 	slot0.discountTF = findTF(slot0.tr, "item/discount")
-	slot0.discountTextTF = findTF(slot0.discountTF, "Text"):GetComponent(typeof(Text))
-	slot0.countTF = findTF(slot0.tr, "item/consume/contain/Text"):GetComponent(typeof(Text))
-	slot0.resIconTF = findTF(slot0.tr, "item/consume/contain/icon"):GetComponent(typeof(Image))
-	slot0.itemIconTF = slot0.itemTF:Find("icon_bg/icon"):GetComponent(typeof(Image))
-	slot0.itemCountTF = slot0.itemTF:Find("icon_bg/count"):GetComponent(typeof(Text))
+	slot2 = findTF(slot0.discountTF, "Text")
+	slot0.discountTextTF = slot2:GetComponent(typeof(Text))
+	slot2 = findTF(slot0.tr, "item/consume/contain/Text")
+	slot0.countTF = slot2:GetComponent(typeof(Text))
+	slot2 = findTF(slot0.tr, "item/consume/contain/icon")
+	slot0.resIconTF = slot2:GetComponent(typeof(Image))
+	slot2 = slot0.itemTF
+	slot2 = slot2:Find("icon_bg/icon")
+	slot0.itemIconTF = slot2:GetComponent(typeof(Image))
+	slot2 = slot0.itemTF
+	slot2 = slot2:Find("icon_bg/count")
+	slot0.itemCountTF = slot2:GetComponent(typeof(Text))
 	slot0.maskTip = i18n("buy_countLimit")
 
 	onButton(slot0, slot0.mask, function ()
@@ -109,10 +121,11 @@ function slot0.update(slot0, slot1)
 	setText(slot0.nameTxt, shortenString(slot5, 6))
 
 	slot6 = ""
+	slot7 = slot1:getConfig("resource_num")
 
 	if slot1:getConfig("genre") == ShopArgs.ShoppingStreetLimit then
 		slot6 = 100 - slot1.discount .. "%OFF"
-		slot7 = slot1:getConfig("resource_num") * slot1.discount / 100
+		slot7 = slot7 * slot1.discount / 100
 	end
 
 	setActive(slot0.discountTF, false)

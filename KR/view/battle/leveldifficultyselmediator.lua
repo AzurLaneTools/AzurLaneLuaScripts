@@ -2,8 +2,15 @@ slot0 = class("LevelDifficultySelMediator", import("..base.ContextMediator"))
 slot0.GO_LEVEL_SENCE = "LevelDifficultySelMediator:GO_LEVEL_SENCE"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setMaps(getProxy(ChapterProxy):getMaps())
-	slot0.viewComponent:setPlayerVO(getProxy(PlayerProxy):getData())
+	slot1 = getProxy(ChapterProxy)
+	slot2 = slot0.viewComponent
+
+	slot2:setMaps(slot1:getMaps())
+
+	slot2 = getProxy(PlayerProxy)
+	slot4 = slot0.viewComponent
+
+	slot4:setPlayerVO(slot2:getData())
 
 	slot0.activityProxy = getProxy(ActivityProxy)
 
@@ -36,8 +43,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == ActivityProxy.ACTIVITY_OPERATION_DONE then
-		slot5 = slot0.activityProxy:getActivityById(slot1:getBody())
+		slot5 = slot0.activityProxy:getActivityById(slot3)
 		slot6 = getProxy(ChapterProxy):getUnlockActMapBytype(slot5.data1, slot5.id)
 
 		if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then

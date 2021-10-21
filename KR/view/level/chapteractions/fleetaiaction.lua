@@ -126,13 +126,18 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 				slot7 = "-" .. slot6.data / 100 .. "%"
 				slot8 = slot0.commanderSkillEffectId
 				slot9 = slot5:getSkill(slot8)
+				slot11 = slot2.viewComponent
 
-				slot2.viewComponent:doPlayCommander(slot5:findCommanderBySkillId(slot8), function ()
+				slot11:doPlayCommander(slot5:findCommanderBySkillId(slot8), function ()
 					if uv0:GetType() == FleetSkill.TypeAttack then
-						if uv0:GetArgs()[1] == "airfight" then
-							uv1.viewComponent:doPlayStrikeAnim(uv5:getCVship(uv6), "AirStrikeUI", function ()
-								uv0.viewComponent:strikeEnemy(uv1.target, uv2, uv3)
-							end)
+						slot0 = uv0
+
+						function slot1()
+							uv0.viewComponent:strikeEnemy(uv1.target, uv2, uv3)
+						end
+
+						if slot0:GetArgs()[1] == "airfight" then
+							uv1.viewComponent:doPlayStrikeAnim(uv5:getCVship(uv6), "AirStrikeUI", slot1)
 						elseif slot0[1] == "torpedo" then
 							uv1.viewComponent:doPlayStrikeAnim(uv5:getTorpedoShip(uv6), "SubTorpedoUI", slot1)
 						elseif slot0[1] == "cannon" then

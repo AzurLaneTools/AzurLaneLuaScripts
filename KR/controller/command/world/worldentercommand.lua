@@ -21,10 +21,13 @@ end
 function slot0.AfterReq(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = getProxy(WorldProxy)
+	slot4 = {}
 
 	if nowWorld:CheckReset(true) then
-		table.insert({}, function (slot0)
-			pg.ConnectionMgr.GetInstance():Send(33112, {
+		table.insert(slot4, function (slot0)
+			slot1 = pg.ConnectionMgr.GetInstance()
+
+			slot1:Send(33112, {
 				type = 1
 			}, 33113, function (slot0)
 				if slot0.result == 0 then
@@ -46,7 +49,9 @@ function slot0.AfterReq(slot0, slot1)
 		end)
 	elseif nowWorld:CheckResetProgress() then
 		table.insert(slot4, function (slot0)
-			pg.ConnectionMgr.GetInstance():Send(33112, {
+			slot1 = pg.ConnectionMgr.GetInstance()
+
+			slot1:Send(33112, {
 				type = 2
 			}, 33113, function (slot0)
 				if slot0.result == 0 then

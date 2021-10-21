@@ -31,18 +31,20 @@ function slot0.SetData(slot0, slot1)
 end
 
 function slot0.BuildMapIndexs(slot0)
+	function slot2(slot0)
+		for slot4, slot5 in ipairs(DecodeGameConst.MAPS_PASSWORD) do
+			if _.any(slot5, function (slot0)
+				return slot0[1] == uv0[1] and slot0[2] == uv0[2]
+			end) then
+				return slot4
+			end
+		end
+	end
+
 	for slot6 = 1, #DecodeGameConst.PASSWORD do
 		slot7 = slot1[slot6]
 
-		table.insert(slot0.mapIndexs, DecodeGameConst.Vect2Index(slot7[1], slot7[2]) + ((function (slot0)
-			for slot4, slot5 in ipairs(DecodeGameConst.MAPS_PASSWORD) do
-				if _.any(slot5, function (slot0)
-					return slot0[1] == uv0[1] and slot0[2] == uv0[2]
-				end) then
-					return slot4
-				end
-			end
-		end)(slot7) - 1) * DecodeGameConst.MAP_ROW * DecodeGameConst.MAP_COLUMN)
+		table.insert(slot0.mapIndexs, DecodeGameConst.Vect2Index(slot7[1], slot7[2]) + (slot2(slot7) - 1) * DecodeGameConst.MAP_ROW * DecodeGameConst.MAP_COLUMN)
 	end
 end
 
@@ -135,9 +137,11 @@ function slot0.IsUnlockMap(slot0, slot1)
 end
 
 function slot0.GetUnlockMapCnt(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0.maps) do
 		if slot6.isUnlock then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -223,12 +227,13 @@ end
 function slot0.GetPassWordProgress(slot0)
 	slot1 = 1
 	slot2 = {}
+	slot3 = 0
 
 	for slot7 = 1, #DecodeGameConst.PASSWORD, DecodeGameConst.MAX_MAP_COUNT do
 		if _.all(_.slice(slot0.mapIndexs, slot7, 3), function (slot0)
 			return slot0 ~= false
 		end) == true then
-			slot3 = 0 + 1
+			slot3 = slot3 + 1
 		end
 
 		table.insert(slot2, slot8)

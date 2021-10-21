@@ -218,9 +218,10 @@ end
 
 function slot2.filterTagCount(slot0, slot1)
 	slot2 = {}
+	slot3 = slot0._maxLock
 
 	for slot7, slot8 in ipairs(slot1) do
-		if slot8:GetSingleWeaponTagCount(slot0) < slot0._maxLock then
+		if slot8:GetSingleWeaponTagCount(slot0) < slot3 then
 			slot3 = slot9
 			slot2 = {
 				[#slot2 + 1] = slot8

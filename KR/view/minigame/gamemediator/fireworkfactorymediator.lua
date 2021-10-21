@@ -1,8 +1,10 @@
 slot0 = class("FireworkFactoryMediator", import(".MiniHubMediator"))
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == MiniGameProxy.ON_HUB_DATA_UPDATE then
-		slot0.viewComponent:SetMGHubData(slot1:getBody())
+		slot0.viewComponent:SetMGHubData(slot3)
 	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE and slot3.cmd == MiniGameOPCommand.CMD_COMPLETE then
 		slot4 = slot3.argList
 		slot5 = slot3.cmd

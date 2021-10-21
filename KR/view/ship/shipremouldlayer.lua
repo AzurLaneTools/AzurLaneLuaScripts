@@ -100,6 +100,9 @@ function slot0.initTranformInfo(slot0)
 	slot2 = slot0:getShipTranformData()
 
 	for slot6 = 1, uv0 do
+		slot7 = {}
+		slot8 = {}
+
 		for slot12 = 1, uv1 do
 			slot13, slot14 = slot1(slot2[slot6], slot12)
 
@@ -107,21 +110,20 @@ function slot0.initTranformInfo(slot0)
 				slot16 = cloneTplTo(slot0.gridTF, slot0.gridContainer)
 				go(slot16).name = slot6 .. "/" .. slot12
 				slot16.localPosition = Vector2(slot0.startPos.x + slot0.width * (slot6 - 1), slot0.startPos.y - slot0.height * (slot12 - 1))
+				slot7[slot12] = slot16
 
 				onToggle(slot0, slot16, function (slot0)
 					if slot0 and uv0.curTranformId ~= uv1 then
 						uv0:updateInfo(uv1)
 					end
 				end, SFX_PANEL)
+
+				slot8[slot12] = slot2[slot6][slot14][2]
 			end
 		end
 
-		slot0.transformIds[slot6] = {
-			[slot12] = slot2[slot6][slot14][2]
-		}
-		slot0.grids[slot6] = {
-			[slot12] = slot16
-		}
+		slot0.transformIds[slot6] = slot8
+		slot0.grids[slot6] = slot7
 	end
 
 	slot0.lineTFs = {}
@@ -186,7 +188,10 @@ function slot0.updateLines(slot0)
 			slot0:updateGridTF(slot10)
 
 			if slot0:canRemould(slot10) or slot0:isFinished(slot10) then
-				for slot14, slot15 in ipairs(slot0.lineTFs[slot10] or {}) do
+				slot11 = ipairs
+				slot12 = slot0.lineTFs[slot10] or {}
+
+				for slot14, slot15 in slot11(slot12) do
 					slot15.hrz:GetComponent("UIGrayScale").enabled = false
 					slot15.vec:GetComponent("UIGrayScale").enabled = false
 				end
@@ -253,8 +258,10 @@ function slot0.updateGridTF(slot0, slot1)
 	setActive(slot2:Find("tags/ongoing"), slot10 == uv0.STATE_ACTIVE)
 	setActive(slot2:Find("tags/lock"), slot10 == uv0.STATE_LOCK)
 
+	slot12 = slot2:Find("icon/progress")
+
 	if slot10 == uv0.STATE_FINISHED then
-		setText(slot2:Find("icon/progress"), slot5 .. "/" .. slot4.max_level)
+		setText(slot12, slot5 .. "/" .. slot4.max_level)
 	elseif slot10 == uv0.STATE_ACTIVE then
 		setText(slot12, slot5 .. "/" .. slot4.max_level)
 	elseif slot10 == uv0.STATE_LOCK then
@@ -296,7 +303,9 @@ function slot0.initShipModel(slot0)
 		end
 	end
 
-	PoolMgr.GetInstance():GetSpineChar(slot1, true, function (slot0)
+	slot3 = PoolMgr.GetInstance()
+
+	slot3:GetSpineChar(slot1, true, function (slot0)
 		uv0(slot0)
 	end)
 end
@@ -408,10 +417,12 @@ function slot0.updateFinished(slot0, slot1)
 			end
 		end
 
+		slot10 = pg.ship_data_template[slot0.shipVO.configId]
+
 		for slot14 = 1, 3 do
 			if slot8["equipment_proficiency_" .. slot14] then
 				slot0:updateAttrTF_D(cloneTplTo(slot0.attrTplD, slot0.attrContainer), {
-					attrName = EquipType.type2Title(slot14, pg.ship_data_template[slot0.shipVO.configId]["equip_" .. slot14][1]) .. i18n("common_proficiency"),
+					attrName = EquipType.type2Title(slot14, slot10["equip_" .. slot14][1]) .. i18n("common_proficiency"),
 					value = slot0.shipVO:getEquipProficiencyByPos(slot14) * 100,
 					addition = slot8["equipment_proficiency_" .. slot14] * 100
 				}, true)
@@ -542,8 +553,10 @@ function slot0.updateProgress(slot0, slot1)
 		setText(slot11:Find("value"), ShipType.Type2Name(slot10))
 		setActive(slot11:Find("addtion"), false)
 
+		slot12 = slot11:Find("quest")
+
 		if slot9 then
-			setActive(slot11:Find("quest"), true)
+			setActive(slot12, true)
 			onButton(slot0, slot11, function ()
 				uv0:showToolTip(uv1)
 			end)
@@ -561,10 +574,12 @@ function slot0.updateProgress(slot0, slot1)
 			end
 		end
 
+		slot12 = pg.ship_data_template[slot0.shipVO.configId]
+
 		for slot16 = 1, 3 do
 			if slot6["equipment_proficiency_" .. slot16] then
 				slot0:updateAttrTF(cloneTplTo(slot0.attrTpl, slot0.attrContainer), {
-					attrName = EquipType.type2Title(slot16, pg.ship_data_template[slot0.shipVO.configId]["equip_" .. slot16][1]) .. i18n("common_proficiency"),
+					attrName = EquipType.type2Title(slot16, slot12["equip_" .. slot16][1]) .. i18n("common_proficiency"),
 					value = slot0.shipVO:getEquipProficiencyByPos(slot16) * 100,
 					addition = slot6["equipment_proficiency_" .. slot16] * 100
 				}, true)
@@ -687,7 +702,9 @@ end
 
 function slot0.isUnLockPrev(slot0, slot1)
 	for slot6, slot7 in pairs(pg.transform_data_template[slot1].condition_id) do
-		if not slot0.transforms[slot7] or slot0.transforms[slot7].level ~= pg.transform_data_template[slot7].max_level then
+		slot8 = pg.transform_data_template[slot7]
+
+		if not slot0.transforms[slot7] or slot0.transforms[slot7].level ~= slot8.max_level then
 			return false
 		end
 	end
@@ -703,7 +720,10 @@ function slot0.isEnoughResource(slot0, slot1)
 		slot3 = slot0.transforms[slot1].level
 	end
 
-	for slot7, slot8 in ipairs(slot2.use_item[slot3 + 1] or {}) do
+	slot4 = ipairs
+	slot5 = slot2.use_item[slot3 + 1] or {}
+
+	for slot7, slot8 in slot4(slot5) do
 		if not slot0.itemsVO[slot8[1]] or slot0.itemsVO[slot8[1]].count < slot8[2] then
 			return false, i18n("ship_remould_no_item")
 		end
@@ -784,14 +804,12 @@ function slot0.showToolTip(slot0, slot1)
 			AttributeType.Dodge,
 			AttributeType.AntiSub
 		}) do
-			slot14 = {
-				name = AttributeType.Type2Name(slot13),
-				from = slot0.shipVO:getBattleTotalExpend(),
-				to = slot4:getBattleTotalExpend()
-			}
+			slot14 = {}
 
 			if slot13 == AttributeType.Expend then
-				-- Nothing
+				slot14.name = AttributeType.Type2Name(slot13)
+				slot14.from = slot0.shipVO:getBattleTotalExpend()
+				slot14.to = slot4:getBattleTotalExpend()
 			else
 				slot14.name = AttributeType.Type2Name(slot13)
 				slot14.from = math.floor(slot7[slot13])

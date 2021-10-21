@@ -34,12 +34,14 @@ end
 function slot0.GetMilitaryShop(slot0, slot1)
 	slot0.shopList[NewShopsScene.TYPE_MILITARY_SHOP] = {}
 
+	function slot2(slot0)
+		table.insert(uv0.shopList[NewShopsScene.TYPE_MILITARY_SHOP], slot0)
+		uv1()
+	end
+
 	if not slot0.shopsProxy:getMeritorousShop() then
 		slot0:sendNotification(GAME.GET_MILITARY_SHOP, {
-			callback = function (slot0)
-				table.insert(uv0.shopList[NewShopsScene.TYPE_MILITARY_SHOP], slot0)
-				uv1()
-			end
+			callback = slot2
 		})
 	else
 		slot2(slot3)
@@ -49,12 +51,14 @@ end
 function slot0.GetStressShop(slot0, slot1)
 	slot0.shopList[NewShopsScene.TYPE_SHOP_STREET] = {}
 
+	function slot2(slot0)
+		table.insert(uv0.shopList[NewShopsScene.TYPE_SHOP_STREET], slot0)
+		uv1()
+	end
+
 	if not slot0.shopsProxy:getShopStreet() then
 		slot0:sendNotification(GAME.GET_SHOPSTREET, {
-			callback = function (slot0)
-				table.insert(uv0.shopList[NewShopsScene.TYPE_SHOP_STREET], slot0)
-				uv1()
-			end
+			callback = slot2
 		})
 	else
 		slot2(slot3)
@@ -62,19 +66,21 @@ function slot0.GetStressShop(slot0, slot1)
 end
 
 function slot0.GetGuildShop(slot0, slot1)
+	function slot2(slot0)
+		if slot0 then
+			table.insert(uv0.shopList[NewShopsScene.TYPE_GUILD], slot0)
+		end
+
+		uv1()
+	end
+
 	if not LOCK_GUILD_SHOP then
 		slot0.shopList[NewShopsScene.TYPE_GUILD] = {}
 
 		if not slot0.shopsProxy:getGuildShop() then
 			slot0:sendNotification(GAME.GET_GUILD_SHOP, {
 				type = GuildConst.GET_SHOP,
-				callback = function (slot0)
-					if slot0 then
-						table.insert(uv0.shopList[NewShopsScene.TYPE_GUILD], slot0)
-					end
-
-					uv1()
-				end
+				callback = slot2
 			})
 		else
 			slot2(slot3)
@@ -107,25 +113,27 @@ function slot0.GetFragmentShop(slot0, slot1)
 end
 
 function slot0.GetActivityShops(slot0, slot1)
+	function slot2(slot0)
+		if slot0 and table.getCount(slot0) > 0 then
+			uv0.shopList[NewShopsScene.TYPE_ACTIVITY] = {}
+
+			for slot4, slot5 in pairs(slot0) do
+				table.insert(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], slot5)
+			end
+
+			slot1 = getProxy(ActivityProxy):getRawData()
+
+			table.sort(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], function (slot0, slot1)
+				return uv0[slot1.activityId]:getStartTime() < uv0[slot0.activityId]:getStartTime()
+			end)
+		end
+
+		uv1()
+	end
+
 	if not slot0.shopsProxy:getActivityShops() or #slot3 == 0 then
 		slot0:sendNotification(GAME.GET_ACTIVITY_SHOP, {
-			callback = function (slot0)
-				if slot0 and table.getCount(slot0) > 0 then
-					uv0.shopList[NewShopsScene.TYPE_ACTIVITY] = {}
-
-					for slot4, slot5 in pairs(slot0) do
-						table.insert(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], slot5)
-					end
-
-					slot1 = getProxy(ActivityProxy):getRawData()
-
-					table.sort(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], function (slot0, slot1)
-						return uv0[slot1.activityId]:getStartTime() < uv0[slot0.activityId]:getStartTime()
-					end)
-				end
-
-				uv1()
-			end
+			callback = slot2
 		})
 	else
 		slot2(slot3)

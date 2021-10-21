@@ -33,8 +33,10 @@ end
 
 function slot0.CheckAaward(slot0)
 	slot1 = slot0:GetMGHubData()
+	slot3 = slot1.usedtime
+	slot4 = slot1:getConfig("reward_need")
 
-	if slot1.ultimate == 0 and slot1:getConfig("reward_need") <= slot1.usedtime then
+	if slot1.ultimate == 0 and slot4 <= slot3 then
 		pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
 			hubid = slot1.id,
 			cmd = MiniGameOPCommand.CMD_ULTIMATE,

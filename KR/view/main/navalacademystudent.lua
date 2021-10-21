@@ -55,12 +55,15 @@ function slot0.updateStudent(slot0, slot1, slot2)
 		end
 
 		slot0.prefab = slot1:getPrefab()
-		slot0.currentPoint = slot0.pathFinder:getRandomPoint()
+		slot3 = slot0.pathFinder
+		slot0.currentPoint = slot3:getRandomPoint()
 		slot3 = slot0.currentPoint.nexts
-		slot0.targetPoint = slot0.pathFinder:getPoint(slot3[math.random(1, #slot3)])
+		slot5 = slot0.pathFinder
+		slot0.targetPoint = slot5:getPoint(slot3[math.random(1, #slot3)])
 		slot0._tf.anchoredPosition = Vector2.New(slot0.currentPoint.x, slot0.currentPoint.y)
+		slot6 = PoolMgr.GetInstance()
 
-		PoolMgr.GetInstance():GetSpineChar(slot0.prefab, true, function (slot0)
+		slot6:GetSpineChar(slot0.prefab, true, function (slot0)
 			if uv0 ~= uv1.prefab then
 				PoolMgr.GetInstance():ReturnSpineChar(uv0, slot0)
 
@@ -70,13 +73,19 @@ function slot0.updateStudent(slot0, slot1, slot2)
 			uv1.model = slot0
 			uv1.model.transform.localScale = Vector3(0.5, 0.5, 1)
 			uv1.model.transform.localPosition = Vector3.zero
+			slot1 = uv1.model.transform
 
-			uv1.model.transform:SetParent(uv1._tf, false)
-			uv1.model.transform:SetSiblingIndex(1)
+			slot1:SetParent(uv1._tf, false)
 
-			uv1.anim = uv1.model:GetComponent(typeof(SpineAnimUI))
+			slot1 = uv1.model.transform
 
-			uv1:updateState(uv2.ShipState.Idle)
+			slot1:SetSiblingIndex(1)
+
+			slot2 = uv1.model
+			uv1.anim = slot2:GetComponent(typeof(SpineAnimUI))
+			slot1 = uv1
+
+			slot1:updateState(uv2.ShipState.Idle)
 			onButton(uv1, uv1.chat, function ()
 				uv0:onClickShip()
 			end)
@@ -127,8 +136,13 @@ function slot0.updateAction(slot0)
 		elseif slot0.state == uv0.ShipState.Idle then
 			slot0.anim:SetAction("stand2", 0)
 		elseif slot0.state == uv0.ShipState.Touch then
-			slot0.anim:SetAction("touch", 0)
-			slot0.anim:SetActionCallBack(function (slot0)
+			slot1 = slot0.anim
+
+			slot1:SetAction("touch", 0)
+
+			slot1 = slot0.anim
+
+			slot1:SetActionCallBack(function (slot0)
 				uv0:updateState(uv1.ShipState.Idle)
 			end)
 		end
@@ -139,7 +153,8 @@ function slot0.updateLogic(slot0)
 	slot0:clearLogic()
 
 	if slot0.state == uv0.ShipState.Walk then
-		LeanTween.value(slot0._go, 0, 1, Vector3.Distance(Vector3(slot0._tf.anchoredPosition.x, slot0._tf.anchoredPosition.y, 0), Vector3(slot0.targetPoint.x, slot0.targetPoint.y, 0)) / slot0.normalSpeed):setOnUpdate(System.Action_float(function (slot0)
+		slot5 = LeanTween.value(slot0._go, 0, 1, Vector3.Distance(Vector3(slot0._tf.anchoredPosition.x, slot0._tf.anchoredPosition.y, 0), Vector3(slot0.targetPoint.x, slot0.targetPoint.y, 0)) / slot0.normalSpeed)
+		slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
 			uv0._tf.anchoredPosition3D = Vector3.Lerp(uv1, uv2, slot0)
 			slot1 = uv0._tf.localScale
 			slot2 = uv0.currentPoint.x < uv0.targetPoint.x and 1 or -1
@@ -151,7 +166,9 @@ function slot0.updateLogic(slot0)
 			slot4 = uv0.chat.anchoredPosition
 			slot4.x = slot2 * math.abs(slot4.x)
 			uv0.chat.anchoredPosition = slot4
-		end)):setOnComplete(System.Action(function ()
+		end))
+
+		slot5:setOnComplete(System.Action(function ()
 			uv0.currentPoint = uv0.targetPoint
 			slot0 = uv0.currentPoint.nexts
 			uv0.targetPoint = uv0.pathFinder:getPoint(slot0[math.random(1, #slot0)])

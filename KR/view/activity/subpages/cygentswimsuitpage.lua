@@ -2,7 +2,10 @@ slot0 = class("CygentSwimsuitPage", import(".TemplatePage.SkinTemplatePage"))
 
 function slot0.OnFirstFlush(slot0)
 	uv0.super.OnFirstFlush(slot0)
-	PoolMgr.GetInstance():GetSpineChar("xiaotiane_2", false, function (slot0)
+
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetSpineChar("xiaotiane_2", false, function (slot0)
 		slot0.transform.localScale = Vector3(0.7, 0.7, 1)
 
 		slot0.transform:SetParent(uv0:findTF("char", uv0.bg), false)

@@ -6,9 +6,10 @@ function slot0.setServers(slot0, slot1, slot2)
 	slot0.lastServer = nil
 	slot0.firstServer = nil
 	slot3 = {}
+	slot4 = slot0:getLoginedServer(slot2)
 
 	for slot8, slot9 in ipairs(slot1) do
-		if table.contains(slot0:getLoginedServer(slot2), tostring(slot9.id)) then
+		if table.contains(slot4, tostring(slot9.id)) then
 			slot9.isLogined = true
 		end
 

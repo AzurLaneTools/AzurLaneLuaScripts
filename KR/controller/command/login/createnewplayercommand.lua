@@ -8,10 +8,13 @@ function slot0.execute(slot0, slot1)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("login_createNewPlayer_error_nameNull"))
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(10024, {
+	slot5 = pg.ConnectionMgr.GetInstance()
+	slot9 = pg.SdkMgr.GetInstance()
+
+	slot5:Send(10024, {
 		nick_name = slot3,
 		ship_id = slot4,
-		device_id = pg.SdkMgr.GetInstance():GetDeviceId()
+		device_id = slot9:GetDeviceId()
 	}, 10025, function (slot0)
 		if slot0.result == 0 then
 			print("created new player: " .. slot0.user_id)

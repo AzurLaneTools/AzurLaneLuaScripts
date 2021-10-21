@@ -185,9 +185,10 @@ end
 function slot1.onData(slot0)
 	if uv0[slot0.cmd] then
 		slot5 = slot0
+		slot1 = uv1.Packer.GetInstance():Unpack(slot0.cmd, slot0.getLuaStringBuffer(slot5))
 
 		for slot5, slot6 in ipairs(uv0[slot0.cmd]) do
-			slot6(uv1.Packer.GetInstance():Unpack(slot0.cmd, slot0.getLuaStringBuffer(slot5)))
+			slot6(slot1)
 		end
 	end
 end

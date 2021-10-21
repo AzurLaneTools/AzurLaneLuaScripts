@@ -7,11 +7,15 @@ slot0.NewYearShrineGameID = 20
 function slot0.DataCreateFunc(slot0, slot1, slot2, slot3)
 	if slot0 == MiniGameOPCommand.CMD_SPECIAL_GAME then
 		slot4 = slot1[1]
+		slot5 = slot1[2]
 		slot7 = getProxy(MiniGameProxy):GetMiniGameData(slot4)
+		slot8 = {}
 
 		if slot4 == uv0.ShrineGameID or slot4 == uv0.NewYearShrineGameID then
-			if slot1[2] == 1 then
-				-- Nothing
+			if slot5 == 1 then
+				slot8.count = slot2[1]
+				slot8.serverGold = slot2[2]
+				slot8.isInited = true
 			elseif slot5 == 2 then
 				slot8.count = slot7:GetRuntimeData("count") - 1
 				slot8.serverGold = slot2[1]
@@ -23,11 +27,10 @@ function slot0.DataCreateFunc(slot0, slot1, slot2, slot3)
 		end
 
 		if slot7:getConfig("type") == MiniGameConst.MG_TYPE_2 and slot5 == 1 or slot9 == MiniGameConst.MG_TYPE_4 then
-			slot10 = {
-				[slot14] = slot2[slot14]
-			}
+			slot10 = {}
 
 			for slot14 = 1, #slot2 do
+				slot10[slot14] = slot2[slot14]
 			end
 
 			slot11 = {}
@@ -50,11 +53,7 @@ function slot0.DataCreateFunc(slot0, slot1, slot2, slot3)
 			slot8.kvpElements = slot11
 		end
 
-		for slot13, slot14 in pairs({
-			count = slot2[1],
-			serverGold = slot2[2],
-			isInited = true
-		}) do
+		for slot13, slot14 in pairs(slot8) do
 			slot7:SetRuntimeData(slot13, slot14)
 		end
 	end

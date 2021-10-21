@@ -114,7 +114,9 @@ function slot0.ExtraUpdate(slot0, slot1)
 	setActive(findTF(slot0.tf, "titleContain/bg_boss"), ChapterConst.EnemySize[slot1.type] == 99)
 
 	if slot1.effect_prefab and #slot2 > 0 then
-		slot0:GetLoader():LoadPrefab("effect/" .. slot2, slot2, function (slot0)
+		slot3 = slot0:GetLoader()
+
+		slot3:LoadPrefab("effect/" .. slot2, slot2, function (slot0)
 			slot0.transform:SetParent(uv0.tf, false)
 
 			slot0.transform.localScale = slot0.transform.localScale

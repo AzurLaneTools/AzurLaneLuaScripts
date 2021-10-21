@@ -2,19 +2,25 @@ slot0 = class("GetGuildShopCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot4 = slot2.callback
+	slot5 = getProxy(PlayerProxy)
+	slot6 = getProxy(ShopsProxy)
 
-	if (slot1:getBody().type or 1) == GuildConst.MANUAL_REFRESH and getProxy(PlayerProxy):getData():getResource(PlayerConst.ResGuildCoin) < getProxy(ShopsProxy):getGuildShop():GetResetConsume() then
+	if (slot1:getBody().type or 1) == GuildConst.MANUAL_REFRESH and slot5:getData():getResource(PlayerConst.ResGuildCoin) < slot6:getGuildShop():GetResetConsume() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(60033, {
+	slot7 = pg.ConnectionMgr.GetInstance()
+
+	slot7:Send(60033, {
 		type = slot3
 	}, 60034, function (slot0)
 		if slot0.result == 0 then
+			slot1 = GuildShop.New(slot0.info)
+
 			if uv0.guildShop then
-				uv0:updateGuildShop(GuildShop.New(slot0.info), true)
+				uv0:updateGuildShop(slot1, true)
 			else
 				uv0:setGuildShop(slot1)
 			end

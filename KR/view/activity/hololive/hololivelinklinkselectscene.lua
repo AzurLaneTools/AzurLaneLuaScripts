@@ -133,14 +133,18 @@ function slot0.updateAwardPanel(slot0)
 end
 
 function slot0.updateEntranceList(slot0)
+	slot1 = slot0.linkGameHub.usedtime
+
 	for slot5 = 1, 8 do
 		slot6 = slot0.entranceTFList[slot5]
+		slot7 = slot0:findTF("Mask", slot6)
+		slot8 = slot0:findTF("GotImg", slot6)
 
 		setText(slot0:findTF("LockText", slot6), slot0.linkGameData:GetConfigCsvLine(slot5).unlock_txt)
 
-		if slot5 <= slot0.linkGameHub.usedtime then
-			setActive(slot0:findTF("Mask", slot6), false)
-			setActive(slot0:findTF("GotImg", slot6), true)
+		if slot5 <= slot1 then
+			setActive(slot7, false)
+			setActive(slot8, true)
 			setActive(slot9, false)
 		elseif slot5 == slot1 + 1 then
 			if slot0.linkGameHub.count == 0 then

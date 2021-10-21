@@ -8,10 +8,11 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot0.commanderExps = {}
+	slot7 = slot4:getConfig("exp_number")
 
 	for slot11, slot12 in pairs(slot4:GetCatteries()) do
 		if slot12:ExistCommander() then
-			slot0:CalcExp(slot12, slot4:getConfig("exp_number"), slot5)
+			slot0:CalcExp(slot12, slot7, slot5)
 		end
 	end
 
@@ -21,12 +22,13 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.CalcExp(slot0, slot1, slot2, slot3)
+	slot4 = slot2 / 3600
 	slot6 = nil
 
 	if (not slot3 and pg.TimeMgr.GetInstance():GetServerTime() - slot1:GetCalcExpTime() or 3600) > 0 then
 		table.insert(slot0.commanderExps, {
 			id = slot1.id,
-			value = slot0:AddCommanderExp(slot1:GetCommanderId(), math.floor(slot2 / 3600 * slot6))
+			value = slot0:AddCommanderExp(slot1:GetCommanderId(), math.floor(slot4 * slot6))
 		})
 		slot1:UpdateCalcExpTime(slot5)
 

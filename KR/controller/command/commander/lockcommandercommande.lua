@@ -8,26 +8,30 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
+	function slot7()
+		slot0 = pg.ConnectionMgr.GetInstance()
+
+		slot0:Send(25016, {
+			commanderid = uv0,
+			flag = uv1
+		}, 25017, function (slot0)
+			if slot0.result == 0 then
+				uv0:setLock(uv1)
+				uv2:updateCommander(uv0)
+				uv3:sendNotification(GAME.COMMANDER_LOCK_DONE, {
+					commander = uv0,
+					flag = uv1
+				})
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("commander_lock_erro", slot0.result))
+			end
+		end)
+	end
+
 	if slot4 == 0 then
 		slot8 = pg.SecondaryPWDMgr.GetInstance()
 
-		slot8:LimitedOperation(slot8.UNLOCK_COMMANDER, slot3, function ()
-			pg.ConnectionMgr.GetInstance():Send(25016, {
-				commanderid = uv0,
-				flag = uv1
-			}, 25017, function (slot0)
-				if slot0.result == 0 then
-					uv0:setLock(uv1)
-					uv2:updateCommander(uv0)
-					uv3:sendNotification(GAME.COMMANDER_LOCK_DONE, {
-						commander = uv0,
-						flag = uv1
-					})
-				else
-					pg.TipsMgr.GetInstance():ShowTips(i18n("commander_lock_erro", slot0.result))
-				end
-			end)
-		end)
+		slot8:LimitedOperation(slot8.UNLOCK_COMMANDER, slot3, slot7)
 	else
 		slot7()
 	end

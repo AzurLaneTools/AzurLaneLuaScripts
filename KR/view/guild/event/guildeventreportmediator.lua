@@ -22,8 +22,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.SUBMIT_GUILD_REPORT_DONE then
-		slot0.viewComponent:UpdateReports(slot1:getBody().list)
+		slot0.viewComponent:UpdateReports(slot3.list)
 	end
 end
 

@@ -112,9 +112,10 @@ function slot0.updateLimit(slot0)
 
 		for slot6, slot7 in ipairs(slot0.propetyLimitation) do
 			slot8, slot9, slot10, slot11 = unpack(slot7)
+			slot12 = cloneTplTo(slot0.tfLimitTpl, slot0.tfLimitContainer)
 
 			if slot1[slot6] == 1 then
-				slot0:findTF("Text", cloneTplTo(slot0.tfLimitTpl, slot0.tfLimitContainer)):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
+				slot0:findTF("Text", slot12):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
 			else
 				slot0:findTF("Text", slot12):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
 			end
@@ -132,12 +133,10 @@ function slot0.updateFleetPanelADValue(slot0)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.eliteFleetList) do
-		slot8 = {
-			[slot12] = getProxy(CommanderProxy):getCommanderById(slot13)
-		}
+		slot8 = {}
 
 		for slot12, slot13 in pairs(slot0.eliteCommanderList[slot6]) do
-			-- Nothing
+			slot8[slot12] = getProxy(CommanderProxy):getCommanderById(slot13)
 		end
 
 		for slot12, slot13 in ipairs(slot7) do
@@ -154,13 +153,14 @@ function slot0.updateFleetPanelADValue(slot0)
 end
 
 function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
-	slot6 = {
-		[slot0.parent.shipVOs[slot12]] = true
-	}
+	slot6 = {}
+	slot7 = {}
 
 	for slot11, slot12 in ipairs(slot0.eliteFleetList[slot4]) do
+		slot6[slot0.parent.shipVOs[slot12]] = true
+
 		if slot2 == slot0.parent.shipVOs[slot12]:getTeamType() then
-			table.insert({}, slot12)
+			table.insert(slot7, slot12)
 		end
 	end
 
@@ -304,10 +304,12 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.initCommander(slot0, slot1, slot2, slot3)
+	slot5 = slot3:getEliteFleetCommanders()[slot1]
+
 	for slot9 = 1, 2 do
 		slot11 = nil
 
-		if slot3:getEliteFleetCommanders()[slot1][slot9] then
+		if slot5[slot9] then
 			slot11 = getProxy(CommanderProxy):getCommanderById(slot10)
 		end
 
@@ -349,10 +351,11 @@ function slot0.updateFleets(slot0)
 
 		if slot11 then
 			slot12 = slot0.typeLimitations[slot4]
+			slot16 = slot0:initAddButton(slot5, TeamType.Vanguard, slot12[2], slot4)
 
 			slot0:initCommander(slot4, slot10, slot0.chapter)
 
-			if slot0:initAddButton(slot5, TeamType.Main, slot12[1], slot4) and slot0:initAddButton(slot5, TeamType.Vanguard, slot12[2], slot4) then
+			if slot0:initAddButton(slot5, TeamType.Main, slot12[1], slot4) and slot16 then
 				setActive(slot0:findTF("selected", slot5), true)
 			end
 

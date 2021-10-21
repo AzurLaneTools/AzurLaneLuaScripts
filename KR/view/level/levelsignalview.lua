@@ -84,8 +84,9 @@ function slot0.flush(slot0)
 	setText(slot0.intensity, slot2)
 
 	slot3 = {}
+	slot5 = getProxy(ChapterProxy)
 
-	_.each(getProxy(ChapterProxy):getNormalMaps(), function (slot0)
+	_.each(slot5:getNormalMaps(), function (slot0)
 		for slot4, slot5 in ipairs(slot0:getChapters()) do
 			if slot5:getPlayType() == ChapterConst.TypeMainSub and slot5:isValid() then
 				uv0[slot5:getConfig("map")] = slot5

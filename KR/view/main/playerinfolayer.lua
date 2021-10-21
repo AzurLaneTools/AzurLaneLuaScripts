@@ -7,7 +7,9 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.GetBGM(slot0)
-	if slot0.flagShip:IsBgmSkin() and getProxy(SettingsProxy):IsBGMEnable() then
+	slot2 = getProxy(SettingsProxy):IsBGMEnable()
+
+	if slot0.flagShip:IsBgmSkin() and slot2 then
 		return slot1:GetSkinBgm()
 	else
 		return "main"
@@ -56,9 +58,10 @@ end
 function slot0.OffsetSource(slot0, slot1, slot2)
 	slot4 = GetComponent(GetComponent(GetComponent(slot0:findTF("Image", slot0.rightPanel), "RectTransform"), "Image").canvas, "RectTransform")
 	slot5 = slot4.rect.width
+	slot6 = slot4.rect.height
 	slot8 = 0
 
-	if GetComponent(slot0.rightPanel.parent, "AspectRatioFitter") and slot5 > slot7.aspectRatio * slot4.rect.height then
+	if GetComponent(slot0.rightPanel.parent, "AspectRatioFitter") and slot5 > slot7.aspectRatio * slot6 then
 		slot8 = (slot5 - slot10) / slot9
 	end
 
@@ -179,12 +182,13 @@ end
 
 function slot0.updateSecretaryMax(slot0)
 	slot0.secretary_max = 1
+	slot1 = getProxy(ChapterProxy)
 
 	for slot5, slot6 in pairs(pg.gameset.secretary_group_unlock.description) do
 		if pg.chapter_template[slot6[1]] then
 			uv0.SECRETARY_MAX = slot6[2]
 
-			if getProxy(ChapterProxy):isClear(slot6[1]) then
+			if slot1:isClear(slot6[1]) then
 				slot0.secretary_max = slot6[2]
 			end
 		end
@@ -251,17 +255,24 @@ function slot0.hideCharacters(slot0)
 end
 
 function slot0.initChangePlayerNamePanel(slot0, slot1)
-	PoolMgr.GetInstance():GetUI("AdmiralUIChangeNamePanel", true, function (slot0)
+	slot2 = PoolMgr.GetInstance()
+
+	slot2:GetUI("AdmiralUIChangeNamePanel", true, function (slot0)
 		slot0.name = "changeName_panel"
 		uv0.changeNamePanel = rtf(slot0)
 
 		setParent(uv0.changeNamePanel, uv0._tf)
 		setActive(uv0.changeNamePanel, false)
 
-		uv0.changeNameTip = uv0:findTF("frame/border/tip", uv0.changeNamePanel):GetComponent(typeof(Text))
-		uv0.changeNameConfirmBtn = uv0:findTF("frame/queren", uv0.changeNamePanel)
-		uv0.changeNameCancelBtn = uv0:findTF("frame/cancel", uv0.changeNamePanel)
-		uv0.changeNameInputField = uv0:findTF("frame/name_field", uv0.changeNamePanel)
+		slot2 = uv0
+		slot2 = slot2:findTF("frame/border/tip", uv0.changeNamePanel)
+		uv0.changeNameTip = slot2:GetComponent(typeof(Text))
+		slot2 = uv0
+		uv0.changeNameConfirmBtn = slot2:findTF("frame/queren", uv0.changeNamePanel)
+		slot2 = uv0
+		uv0.changeNameCancelBtn = slot2:findTF("frame/cancel", uv0.changeNamePanel)
+		slot2 = uv0
+		uv0.changeNameInputField = slot2:findTF("frame/name_field", uv0.changeNamePanel)
 
 		SetActive(uv0.changeNamePanel, false)
 		onButton(uv0, uv0.changeNameConfirmBtn, function ()
@@ -282,33 +293,35 @@ function slot0.initChangePlayerNamePanel(slot0, slot1)
 end
 
 function slot0.openChangePlayerNamePanel(slot0)
+	function slot1()
+		uv0.isOpenChangeNamePanel = true
+
+		SetActive(uv0.changeNamePanel, true)
+
+		slot1 = nil
+		slot2 = 0
+
+		if uv0.player:getModifyNameComsume()[1] == DROP_TYPE_RESOURCE then
+			slot1 = Item.New({
+				id = id2ItemId(slot0[2]),
+				type = DROP_TYPE_ITEM,
+				count = slot0[3]
+			})
+			slot2 = uv0.player:getResById(slot0[2])
+		elseif slot0[1] == DROP_TYPE_ITEM then
+			slot1 = Item.New({
+				id = slot0[2],
+				type = DROP_TYPE_ITEM,
+				count = slot0[3]
+			})
+			slot2 = getProxy(BagProxy):getItemCountById(slot0[2])
+		end
+
+		uv0.changeNameTip.text = i18n("player_name_change_windows_tip", slot1:getConfig("name"), slot2 .. "/" .. slot0[3])
+	end
+
 	if not slot0.changeNamePanel then
-		slot0:initChangePlayerNamePanel(function ()
-			uv0.isOpenChangeNamePanel = true
-
-			SetActive(uv0.changeNamePanel, true)
-
-			slot1 = nil
-			slot2 = 0
-
-			if uv0.player:getModifyNameComsume()[1] == DROP_TYPE_RESOURCE then
-				slot1 = Item.New({
-					id = id2ItemId(slot0[2]),
-					type = DROP_TYPE_ITEM,
-					count = slot0[3]
-				})
-				slot2 = uv0.player:getResById(slot0[2])
-			elseif slot0[1] == DROP_TYPE_ITEM then
-				slot1 = Item.New({
-					id = slot0[2],
-					type = DROP_TYPE_ITEM,
-					count = slot0[3]
-				})
-				slot2 = getProxy(BagProxy):getItemCountById(slot0[2])
-			end
-
-			uv0.changeNameTip.text = i18n("player_name_change_windows_tip", slot1:getConfig("name"), slot2 .. "/" .. slot0[3])
-		end)
+		slot0:initChangePlayerNamePanel(slot1)
 	else
 		slot1()
 	end
@@ -432,8 +445,14 @@ function slot0.updateLive2DState(slot0)
 		setActive(slot0.live2dBtn, true)
 		setActive(slot0.live2dState, false)
 		setActive(slot0.live2dToggle, true)
-		setActive(slot0.live2dToggle:Find("on"), false)
-		setActive(slot0.live2dToggle:Find("off"), true)
+
+		slot8 = slot0.live2dToggle
+
+		setActive(slot8:Find("on"), false)
+
+		slot8 = slot0.live2dToggle
+
+		setActive(slot8:Find("off"), true)
 		onButton(slot0, slot0.live2dBtn, function ()
 			VersionMgr.Inst:RequestUIForUpdateF("L2D", uv0, true)
 		end, SFX_PANEL)
@@ -452,9 +471,13 @@ function slot0.updateLive2DState(slot0)
 			setActive(slot0.live2dToggle, true)
 
 			slot8 = slot3
+			slot10 = slot0.live2dToggle
 
-			setActive(slot0.live2dToggle:Find("on"), slot8)
-			setActive(slot0.live2dToggle:Find("off"), not slot8)
+			setActive(slot10:Find("on"), slot8)
+
+			slot10 = slot0.live2dToggle
+
+			setActive(slot10:Find("off"), not slot8)
 			onButton(slot0, slot0.live2dBtn, function ()
 				uv0:setCharacterSetting(uv1.flagShip.id, SHIP_FLAG_L2D, not uv2)
 				uv1:updateLive2DState()
@@ -510,8 +533,14 @@ function slot0.updateSpinePaintingState(slot0)
 
 	if PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot0.flagShip:getPainting()))) then
 		setActive(slot0.spinePaintingBtn, true)
-		setActive(slot0.spinePaintingToggle:Find("on"), slot2)
-		setActive(slot0.spinePaintingToggle:Find("off"), not slot2)
+
+		slot6 = slot0.spinePaintingToggle
+
+		setActive(slot6:Find("on"), slot2)
+
+		slot6 = slot0.spinePaintingToggle
+
+		setActive(slot6:Find("off"), not slot2)
 		removeOnButton(slot0.spinePaintingBtn)
 		onButton(slot0, slot0.spinePaintingBtn, function ()
 			uv0 = not uv0
@@ -530,8 +559,14 @@ function slot0.updateBGState(slot0)
 
 	if slot0.flagShip:getShipBgPrint() ~= slot0.flagShip:rarity2bgPrintForGet() then
 		setActive(slot0.showBgBtn, true)
-		setActive(slot0.showBgToggle:Find("on"), slot2)
-		setActive(slot0.showBgToggle:Find("off"), not slot2)
+
+		slot5 = slot0.showBgToggle
+
+		setActive(slot5:Find("on"), slot2)
+
+		slot5 = slot0.showBgToggle
+
+		setActive(slot5:Find("off"), not slot2)
 		removeOnButton(slot0.showBgBtn)
 		onButton(slot0, slot0.showBgBtn, function ()
 			uv0 = not uv0
@@ -573,12 +608,14 @@ function slot0.initPlayerInfo(slot0)
 
 	setText(findTF(slot7, "title/exp"), slot0.player.exp .. "/" .. slot14)
 
+	slot10 = slot0:findTF("basic/info_list", slot0.rightPanel)
+
 	for slot14, slot15 in ipairs({
 		i18n("friend_resume_title_metal") .. pg.arena_data_rank[slot2].name,
 		slot0.fleetGS,
 		slot0.collectionRate * 100 .. "%"
 	}) do
-		setText(findTF(slot0:findTF("basic/info_list", slot0.rightPanel):GetChild(slot14 - 1), "value"), slot15 or 0)
+		setText(findTF(slot10:GetChild(slot14 - 1), "value"), slot15 or 0)
 	end
 
 	slot13 = SeasonInfo.getEmblem(slot0.seasonInfo.score, slot0.seasonInfo.rank)
@@ -835,7 +872,8 @@ function slot0.attachOnCardButton(slot0, slot1)
 
 	if slot1.shipVO then
 		slot3 = slot0.cards
-		slot4 = slot1.tr.parent:GetComponent("HorizontalLayoutGroup")
+		slot4 = slot1.tr.parent
+		slot4 = slot4:GetComponent("HorizontalLayoutGroup")
 		slot5 = slot1.tr.rect.width * 0.5
 		slot6 = nil
 		slot7 = 0
@@ -925,13 +963,15 @@ function slot0.attachOnCardButton(slot0, slot1)
 
 				uv3:Stop()
 
+				slot0 = {}
+
 				for slot4 = 1, #uv2.cards do
 					uv2.cards[slot4].tr:SetSiblingIndex(slot4 - 1)
+
+					slot0[slot4] = uv4[slot4].shipVO and uv4[slot4].shipVO.id
 				end
 
-				uv2:emit(PlayerInfoMediator.CHANGE_PAINTS, {
-					[slot4] = uv4[slot4].shipVO and uv4[slot4].shipVO.id
-				})
+				uv2:emit(PlayerInfoMediator.CHANGE_PAINTS, slot0)
 
 				uv5.enabled = true
 				uv2.carddrag = nil
@@ -946,11 +986,15 @@ function slot0.attachOnCardButton(slot0, slot1)
 
 				uv1.paintingTr.localScale = Vector3(1, 1, 0)
 			else
-				LeanTween.value(uv1.go, uv1.tr.anchoredPosition.x, uv7[uv0._shiftIndex].x, math.min(math.abs(uv1.tr.anchoredPosition.x - uv7[uv0._shiftIndex].x) / 200, 1) * 0.3):setEase(LeanTweenType.easeOutCubic):setOnUpdate(System.Action_float(function (slot0)
+				slot4 = LeanTween.value(uv1.go, uv1.tr.anchoredPosition.x, uv7[uv0._shiftIndex].x, math.min(math.abs(uv1.tr.anchoredPosition.x - uv7[uv0._shiftIndex].x) / 200, 1) * 0.3)
+				slot4 = slot4:setEase(LeanTweenType.easeOutCubic)
+				slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
 					slot1 = uv0.tr.anchoredPosition
 					slot1.x = slot0
 					uv0.tr.anchoredPosition = slot1
-				end)):setOnComplete(System.Action(function ()
+				end))
+
+				slot4:setOnComplete(System.Action(function ()
 					resetCard()
 					LeanTween.scale(uv0.paintingTr, Vector3(1, 1, 0), 0.3)
 				end))

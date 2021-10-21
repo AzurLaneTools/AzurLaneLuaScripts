@@ -21,10 +21,11 @@ return {
 		slot14 = 1
 
 		while slot7 > 0 do
+			slot15 = slot5[slot7].f
 			slot14 = slot7
 
 			for slot19 = slot7, 1, -1 do
-				if slot5[slot19].f < slot5[slot7].f then
+				if slot5[slot19].f < slot15 then
 					slot15 = slot5[slot19].f
 					slot14 = slot19
 				end

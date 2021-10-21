@@ -99,8 +99,10 @@ function slot0.Update(slot0, slot1)
 end
 
 function slot0.getTotalPt(slot0, slot1)
+	slot2 = 0
+
 	for slot6, slot7 in ipairs(slot0.returners) do
-		slot2 = 0 + slot7:getPt()
+		slot2 = slot2 + slot7:getPt()
 	end
 
 	return slot2 + slot1

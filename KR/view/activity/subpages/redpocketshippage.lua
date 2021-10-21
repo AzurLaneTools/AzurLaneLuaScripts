@@ -57,7 +57,10 @@ function slot0.OnFirstFlush(slot0)
 	onButton(slot0, slot0.itemIcon, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	slot0.uilist:make(function (slot0, slot1, slot2)
+
+	slot6 = slot0.uilist
+
+	slot6:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			if LeanTween.isTweening(slot2) then
 				LeanTween.cancel(slot2)

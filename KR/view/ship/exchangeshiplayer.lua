@@ -129,7 +129,8 @@ end
 
 function slot0.updateItem(slot0, slot1, slot2)
 	slot3 = slot0.itemExchangeCfg[slot2.id]
-	slot4 = slot0.itemContainer:GetChild(slot1 - 1)
+	slot4 = slot0.itemContainer
+	slot4 = slot4:GetChild(slot1 - 1)
 
 	updateDrop(slot4:Find("icon"), {
 		type = DROP_TYPE_ITEM,

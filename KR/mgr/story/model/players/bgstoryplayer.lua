@@ -41,8 +41,10 @@ function slot0.OnEnter(slot0, slot1, slot2, slot3)
 			triggerButton(uv0._go)
 		end)
 	else
+		slot4 = slot1:GetUnscaleDelay()
+
 		if slot0.autoNext then
-			slot4 = slot1:GetUnscaleDelay() - slot0.script:GetTriggerDelayTime()
+			slot4 = slot4 - slot0.script:GetTriggerDelayTime()
 		end
 
 		slot0:UnscaleDelayCall(slot4, function ()

@@ -15,8 +15,9 @@ function slot0.didEnter(slot0)
 	uv0.super.didEnter(slot0)
 
 	slot1 = 0
+	slot4 = slot0.mainTF
 
-	onButton(slot0, slot0.mainTF:Find("logo"), function ()
+	onButton(slot0, slot4:Find("logo"), function ()
 		uv0 = uv0 + 1
 
 		if uv0 >= 10 then
@@ -36,29 +37,35 @@ function slot0.UpdatePage(slot0)
 end
 
 function slot0.EnterAnim(slot0)
+	function slot1()
+		uv0.super.EnterAnim(uv1)
+
+		slot0 = uv1.loader
+
+		slot0:GetPrefab("ui/ASKS_Loop", "", function (slot0)
+			setParent(slot0, uv0.mainTF)
+			setAnchoredPosition(slot0, {
+				x = -154.7,
+				y = -120.9
+			})
+			tf(slot0):SetAsFirstSibling()
+
+			uv0.raidarAnim = slot0
+
+			setActive(slot0, true)
+		end)
+	end
+
 	if not slot0.contextData.showAni then
-		(function ()
-			uv0.super.EnterAnim(uv1)
-			uv1.loader:GetPrefab("ui/ASKS_Loop", "", function (slot0)
-				setParent(slot0, uv0.mainTF)
-				setAnchoredPosition(slot0, {
-					x = -154.7,
-					y = -120.9
-				})
-				tf(slot0):SetAsFirstSibling()
-
-				uv0.raidarAnim = slot0
-
-				setActive(slot0, true)
-			end)
-		end)()
+		slot1()
 
 		return
 	end
 
 	slot0.contextData.showAni = nil
+	slot2 = slot0.mainTF
 
-	setActive(slot0.mainTF:Find("logo"), false)
+	setActive(slot2:Find("logo"), false)
 
 	slot3 = nil
 
@@ -68,7 +75,9 @@ function slot0.EnterAnim(slot0)
 		uv2.loader:ReturnPrefab(uv1)
 	end
 
-	slot0.loader:GetPrefab("ui/asks", "asks", function (slot0)
+	slot5 = slot0.loader
+
+	slot5:GetPrefab("ui/asks", "asks", function (slot0)
 		setParent(slot0, uv0._tf)
 
 		uv1 = slot0
@@ -99,7 +108,10 @@ function slot0.RemasterSuffering(slot0)
 	slot3.raycastTarget = false
 
 	slot2:SetParent(slot0._tf)
-	pg.NewStoryMgr.GetInstance():Play("AISAIKESICAIDAN", function ()
+
+	slot4 = pg.NewStoryMgr.GetInstance()
+
+	slot4:Play("AISAIKESICAIDAN", function ()
 		uv0:emit(uv0.contextData.mediatorClass.ON_PERFORM_COMBAT, uv0.ASKSRemasterStage)
 	end)
 end

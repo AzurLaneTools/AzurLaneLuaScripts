@@ -28,8 +28,10 @@ function slot0.getShipBagAddition(slot0)
 end
 
 function slot0.getShipAddition(slot0, slot1, slot2)
+	slot3 = 0
+
 	for slot8, slot9 in pairs(slot0:GetTechnologys()) do
-		slot3 = 0 + slot9:GetShipAttrAddition(slot1, slot2)
+		slot3 = slot3 + slot9:GetShipAttrAddition(slot1, slot2)
 	end
 
 	return slot3

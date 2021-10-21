@@ -2,8 +2,9 @@ slot0 = class("ChangeRefreshTechnologysTendencyCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(63009, {
+	slot5:Send(63009, {
 		id = slot2.pool_id,
 		target = slot2.tendency
 	}, 63010, function (slot0)

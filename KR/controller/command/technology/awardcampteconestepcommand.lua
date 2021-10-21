@@ -4,7 +4,10 @@ function slot0.execute(slot0, slot1)
 	slot2 = 1
 
 	print("64007 Get TecCamp Award OneStep", slot2)
-	pg.ConnectionMgr.GetInstance():Send(64007, {
+
+	slot4 = pg.ConnectionMgr.GetInstance()
+
+	slot4:Send(64007, {
 		type = slot2
 	}, 64008, function (slot0)
 		if slot0.result == 0 then

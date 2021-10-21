@@ -21,14 +21,16 @@ function slot0.TryFetchNewTask(slot0)
 end
 
 function slot0.UpdateSkirmishProgress(slot0)
+	slot1 = getProxy(TaskProxy)
 	slot3 = slot0.data
+	slot5 = math.min(getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_ID_US_SKIRMISH_RE):getDayIndex(), #slot3)
 	slot6 = false
 
 	for slot10 = #slot3, 1, -1 do
-		slot13 = getProxy(TaskProxy):getTaskVO(slot3[slot10]:getConfig("task_id"))
+		slot13 = slot1:getTaskVO(slot3[slot10]:getConfig("task_id"))
 		slot14 = nil
 
-		if math.min(getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_ID_US_SKIRMISH_RE):getDayIndex(), #slot3) < slot10 then
+		if slot5 < slot10 then
 			slot14 = SkirmishVO.StateInactive
 		elseif slot13 then
 			if slot13:isReceive() then

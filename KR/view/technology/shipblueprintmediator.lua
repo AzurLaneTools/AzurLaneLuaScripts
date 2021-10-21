@@ -13,8 +13,10 @@ slot0.SET_TECHNOLOGY_VERSION = "ShipBluePrintMediator:SET_TECHNOLOGY_VERSION"
 slot0.SIMULATION_BATTLE = "ShipBluePrintMediator:SIMULATION_BATTLE"
 
 function slot0.register(slot0)
+	slot1 = getProxy(TechnologyProxy)
+
 	if slot0.contextData.shipId then
-		slot0.contextData.shipBluePrintVO = getProxy(TechnologyProxy):getBluePrintById(getProxy(BayProxy):getShipById(slot0.contextData.shipId).groupId)
+		slot0.contextData.shipBluePrintVO = slot1:getBluePrintById(getProxy(BayProxy):getShipById(slot0.contextData.shipId).groupId)
 	elseif slot0.contextData.shipGroupId then
 		slot0.contextData.shipBluePrintVO = slot1:getBluePrintById(slot0.contextData.shipGroupId)
 	end
@@ -146,8 +148,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == TechnologyProxy.BLUEPRINT_UPDATED then
-		slot0.viewComponent:updateShipBluePrintVO(slot1:getBody())
+		slot0.viewComponent:updateShipBluePrintVO(slot3)
 	elseif slot2 == GAME.EXCHANG_BLUEPRINT_DONE then
 		slot0.viewComponent:clearSelected()
 		slot0.viewComponent:updateExchangeItems()

@@ -57,10 +57,11 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.AddAttachment(slot0, slot1)
+	slot2 = WorldMapAttachment.SortOrder[slot1.type]
 	slot3 = #slot0.attachments + 1
 
 	for slot7, slot8 in ipairs(slot0.attachments) do
-		if WorldMapAttachment.SortOrder[slot8.type] < WorldMapAttachment.SortOrder[slot1.type] then
+		if WorldMapAttachment.SortOrder[slot8.type] < slot2 then
 			slot3 = slot7
 
 			break
@@ -104,7 +105,9 @@ function slot0.GetInFOV(slot0)
 	if slot0.fog then
 		return slot0.fogLight
 	else
-		return slot0.infov > 0 or slot0.inLight > 0
+		slot1 = slot0.infov > 0 or slot0.inLight > 0
+
+		return slot1
 	end
 end
 
@@ -353,8 +356,10 @@ function slot0.GetEmotion(slot0)
 end
 
 function slot0.GetScannerAttachment(slot0)
+	slot2, slot3 = nil
+
 	for slot7, slot8 in ipairs(slot0:GetAliveAttachments()) do
-		if slot8:IsScannerAttachment() and (not nil or nil < slot9) then
+		if slot8:IsScannerAttachment() and (not slot2 or slot3 < slot9) then
 			slot2 = slot8
 			slot3 = slot9
 		end

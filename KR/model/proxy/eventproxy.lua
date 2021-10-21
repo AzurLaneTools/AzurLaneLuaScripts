@@ -88,9 +88,11 @@ function slot0.findInfoById(slot0, slot1)
 end
 
 function slot0.countByState(slot0, slot1)
+	slot2 = 0
+
 	for slot6, slot7 in ipairs(slot0.eventList) do
 		if slot7.state == slot1 then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 
@@ -104,9 +106,11 @@ function slot0.hasFinishState(slot0)
 end
 
 function slot0.countBusyFleetNums(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0.eventList) do
 		if not slot6:IsActivityType() and slot6.state ~= EventInfo.StateNone then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 

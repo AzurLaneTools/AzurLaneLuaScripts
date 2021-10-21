@@ -169,9 +169,10 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.GetWaitToCheckList(slot0)
+	slot1 = slot0.taskVOs or {}
 	slot2 = {}
 
-	for slot6, slot7 in pairs(slot0.taskVOs or {}) do
+	for slot6, slot7 in pairs(slot1) do
 		if slot7:getTaskStatus() == 1 and slot7:getConfig("visibility") == 1 then
 			table.insert(slot2, slot7)
 		end
@@ -205,13 +206,16 @@ end
 function slot0.filterOverflowTaskVOList(slot0, slot1)
 	slot2 = {}
 	slot3 = getProxy(PlayerProxy):getData()
+	slot5 = slot3.gold
+	slot6 = slot3.oil
+	slot7 = not LOCK_UR_SHIP and getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]) or 0
 	slot8 = pg.gameset.max_gold.key_value
 	slot9 = pg.gameset.max_oil.key_value
 	slot10 = not LOCK_UR_SHIP and pg.gameset.urpt_chapter_max.description[2] or 0
 	slot11 = false
 
 	for slot15, slot16 in pairs(slot1) do
-		if not slot16:judgeOverflow(slot3.gold, slot3.oil, not LOCK_UR_SHIP and getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]) or 0) then
+		if not slot16:judgeOverflow(slot5, slot6, slot7) then
 			table.insert(slot2, slot16)
 		end
 

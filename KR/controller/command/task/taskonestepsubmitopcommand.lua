@@ -3,10 +3,11 @@ slot0 = class("TaskOneStepSubmitOPCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	if #slot1:getBody().resultList > 0 then
 		slot4 = {}
+		slot5 = {}
 
 		for slot9, slot10 in ipairs(slot3) do
 			if slot10.isWeekTask then
-				table.insert({}, slot10.id)
+				table.insert(slot5, slot10.id)
 			else
 				table.insert(slot4, slot10)
 			end

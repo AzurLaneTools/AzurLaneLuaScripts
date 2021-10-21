@@ -23,26 +23,28 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("ok_btn", slot0.mainPanel), function ()
+		function slot0()
+			slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0.shipVO)
+
+			if not slot0 then
+				pg.TipsMgr.GetInstance():ShowTips(slot1)
+
+				return
+			end
+
+			if not uv0.contextData.materialShipIds or #uv0.contextData.materialShipIds == 0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("word_materal_no_enough"))
+
+				return
+			else
+				uv0:startModShip()
+			end
+		end
+
 		if uv0.shipVO:isActivityNpc() then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("npc_strength_tip"),
-				onYes = function ()
-					slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0.shipVO)
-
-					if not slot0 then
-						pg.TipsMgr.GetInstance():ShowTips(slot1)
-
-						return
-					end
-
-					if not uv0.contextData.materialShipIds or #uv0.contextData.materialShipIds == 0 then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("word_materal_no_enough"))
-
-						return
-					else
-						uv0:startModShip()
-					end
-				end
+				onYes = slot0
 			})
 		else
 			slot0()
@@ -67,8 +69,10 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.blurPanel(slot0, slot1)
+	slot2 = pg.UIMgr.GetInstance()
+
 	if slot1 then
-		pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanelTF, {
+		slot2:OverlayPanelPB(slot0.blurPanelTF, {
 			pbList = {
 				slot0.mainPanel:Find("bg")
 			},
@@ -109,7 +113,8 @@ end
 
 function slot0.clearAllShip(slot0)
 	for slot4 = 1, uv0 do
-		slot5 = slot0.shipContainer:GetChild(slot4 - 1)
+		slot5 = slot0.shipContainer
+		slot5 = slot5:GetChild(slot4 - 1)
 
 		setActive(slot5:Find("IconTpl"), false)
 		onButton(slot0, slot5:Find("add"), function ()
@@ -126,8 +131,10 @@ function slot0.initSelectedShips(slot0)
 	slot2 = table.getCount(slot0.contextData.materialShipIds or {})
 
 	for slot6 = 1, uv0 do
+		slot7 = slot0.shipContainer:GetChild(slot6 - 1)
+
 		if slot6 <= slot2 then
-			slot0:updateShip(slot0.shipContainer:GetChild(slot6 - 1), slot1[slot6])
+			slot0:updateShip(slot7, slot1[slot6])
 		else
 			onButton(slot0, slot7:Find("add"), function ()
 				uv0:emit(ShipModMediator.ON_SELECT_MATERIAL_SHIPS)
@@ -232,11 +239,13 @@ function slot0.modAttrAnim(slot0, slot1, slot2, slot3)
 			slot15 = slot0.attrTFs[slot10]
 			slot16 = slot0:findTF("info", slot15)
 			slot17 = slot0:findTF("info_container/value", slot16)
-			slot22 = slot0:findTF("cur_slider", slot16):GetComponent(typeof(Slider))
+			slot20 = slot0:findTF("cur_slider", slot16)
+			slot21 = slot0:findTF("prev_slider", slot16)
+			slot22 = slot20:GetComponent(typeof(Slider))
 			slot25 = slot0:findTF("info_container/addition", slot16)
 			slot26 = slot0:findTF("exp_container/Text", slot15)
 
-			slot0:setSliderValue(slot0:findTF("prev_slider", slot16):GetComponent(typeof(Slider)), 0)
+			slot0:setSliderValue(slot21:GetComponent(typeof(Slider)), 0)
 			setText(slot0:findTF("exp_container/Text", slot15), slot0.getRemainExp(slot1, slot12) .. "/" .. math.max(slot1:getModExpRatio(slot12), 1))
 
 			function slot27(slot0, slot1)
@@ -257,7 +266,9 @@ function slot0.modAttrAnim(slot0, slot1, slot2, slot3)
 					uv1(uv0, uv2[uv3] - uv0)
 
 					if uv2[uv3] - uv0 > 0 then
-						uv4:tweenValue(uv5, 0, 1, uv6, nil, function (slot0)
+						slot1 = uv4
+
+						slot1:tweenValue(uv5, 0, 1, uv6, nil, function (slot0)
 							uv0:setSliderValue(uv1, slot0)
 						end, function ()
 							pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BREAK_OUT_FULL)
@@ -267,7 +278,9 @@ function slot0.modAttrAnim(slot0, slot1, slot2, slot3)
 							uv1(uv0, uv2[uv3] - uv0)
 
 							if uv0 == uv2[uv3] then
-								uv4:tweenValue(uv5, 0, uv6 / uv7, uv8, nil, function (slot0)
+								slot0 = uv4
+
+								slot0:tweenValue(uv5, 0, uv6 / uv7, uv8, nil, function (slot0)
 									uv0:setSliderValue(uv1, slot0)
 								end, function ()
 									if uv0 == uv1[uv2] then
@@ -278,7 +291,9 @@ function slot0.modAttrAnim(slot0, slot1, slot2, slot3)
 							end
 						end, slot0)
 					else
-						uv4:tweenValue(uv5, 0, uv7 / uv8, uv6, nil, function (slot0)
+						slot1 = uv4
+
+						slot1:tweenValue(uv5, 0, uv7 / uv8, uv6, nil, function (slot0)
 							uv0:setSliderValue(uv1, slot0)
 						end, function ()
 							if uv0 == uv1[uv2] then
@@ -304,17 +319,19 @@ end
 
 function slot0.tweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
 	slot0.tweens[slot1] = slot1
+	slot9 = LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
+		if uv0 then
+			uv0(slot0)
+		end
+	end))
+	slot9 = slot9:setDelay(slot5 or 0):setOnComplete(System.Action(function ()
+		if uv0 then
+			uv0()
+		end
+	end))
 
 	if slot8 and slot8 > 0 then
-		LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
-			if uv0 then
-				uv0(slot0)
-			end
-		end)):setDelay(slot5 or 0):setOnComplete(System.Action(function ()
-			if uv0 then
-				uv0()
-			end
-		end)):setRepeat(slot8)
+		slot9:setRepeat(slot8)
 	end
 end
 
@@ -329,9 +346,10 @@ function slot0.getModExpAdditions(slot0, slot1)
 		if slot9 ~= ShipModLayer.IGNORE_ID then
 			for slot15, slot16 in pairs(slot1) do
 				slot17 = slot2[slot16.configId]
+				slot19 = slot4[slot17.strengthen_id].attr_exp[slot9 - 1]
 
 				if slot17.group_type == slot3 then
-					slot19 = slot4[slot17.strengthen_id].attr_exp[slot9 - 1] * 2
+					slot19 = slot19 * 2
 				end
 
 				slot11 = slot11 + slot19
@@ -346,8 +364,10 @@ end
 
 function slot0.getMaterialShips(slot0, slot1)
 	slot2 = {}
+	slot3 = ipairs
+	slot4 = slot1 or {}
 
-	for slot6, slot7 in ipairs(slot1 or {}) do
+	for slot6, slot7 in slot3(slot4) do
 		table.insert(slot2, slot0.shipVOs[slot7])
 	end
 
@@ -379,7 +399,10 @@ end
 function slot0.willExit(slot0)
 	slot0:blurPanel(false)
 
-	for slot4, slot5 in pairs(slot0.tweens or {}) do
+	slot1 = pairs
+	slot2 = slot0.tweens or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		if LeanTween.isTweening(go(slot5)) then
 			LeanTween.cancel(go(slot5))
 		end

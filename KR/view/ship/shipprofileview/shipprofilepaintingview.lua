@@ -20,9 +20,10 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 end
 
 function slot0.SetHideObject(slot0)
+	slot1 = slot0.prefab.childCount
 	slot2 = 0
 
-	while slot0.prefab.childCount > slot2 do
+	while slot1 > slot2 do
 		if slot0.prefab:GetChild(slot2).gameObject.activeSelf and slot3 ~= slot0.painting and slot3 ~= slot0.bg then
 			slot0.hideObjList[#slot0.hideObjList + 1] = slot3
 		end
@@ -40,7 +41,11 @@ function slot0.Start(slot0)
 
 	slot0:EnableObjects(false)
 	slot0:RecodObjectInfo()
-	LeanTween.moveX(slot0.painting, 0, 0.3):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(function ()
+
+	slot1 = LeanTween.moveX(slot0.painting, 0, 0.3)
+	slot1 = slot1:setEase(LeanTweenType.easeInOutSine)
+
+	slot1:setOnComplete(System.Action(function ()
 		uv0:TweenObjects()
 	end))
 
@@ -61,8 +66,9 @@ function slot0.TweenObjects(slot0)
 	slot1 = true
 	slot0.exitFlag = false
 	slot2, slot3 = nil
+	slot4 = slot0.zoomDelegate
 
-	slot0.zoomDelegate:SetZoomTarget(slot0.painting)
+	slot4:SetZoomTarget(slot0.painting)
 
 	slot0.zoomDelegate.enabled = true
 	slot4 = slot0.dragTrigger

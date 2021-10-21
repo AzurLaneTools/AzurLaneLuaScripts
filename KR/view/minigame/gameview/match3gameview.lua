@@ -69,7 +69,8 @@ function slot0.init(slot0)
 
 	slot0.tilesRoot = slot0:findTF("game/tiles")
 	slot0.gameListener = slot0.tilesRoot:GetComponent("EventTriggerListener")
-	slot0.longPressListener = slot0.tilesRoot:GetComponent("UILongPressTrigger")
+	slot1 = slot0.tilesRoot
+	slot0.longPressListener = slot1:GetComponent("UILongPressTrigger")
 	slot0.endPage = slot0:findTF("end")
 	slot0.endBtn = slot0:findTF("end/end_btn")
 	slot0.endScore = slot0:findTF("end/score/Text")
@@ -414,12 +415,15 @@ slot30 = {
 function slot0.isConnected(slot0, slot1)
 	for slot5, slot6 in pairs(uv0) do
 		slot7, slot8, slot9 = nil
+		slot9 = slot0.tileIndicies[slot1.i + slot6[2][1]][slot1.j + slot6[2][2]]
 
-		if slot0.tileIndicies[slot1.i][slot1.j] == slot0.tileIndicies[slot1.i + slot6[1][1]][slot1.j + slot6[1][2]] and slot7 == slot0.tileIndicies[slot1.i + slot6[2][1]][slot1.j + slot6[2][2]] then
+		if slot0.tileIndicies[slot1.i][slot1.j] == slot0.tileIndicies[slot1.i + slot6[1][1]][slot1.j + slot6[1][2]] and slot7 == slot9 then
 			return true
 		end
 
-		if slot7 == slot0.tileIndicies[slot1.i + slot6[1][2]][slot1.j + slot6[1][1]] and slot7 == slot0.tileIndicies[slot1.i + slot6[2][2]][slot1.j + slot6[2][1]] then
+		slot9 = slot0.tileIndicies[slot1.i + slot6[2][2]][slot1.j + slot6[2][1]]
+
+		if slot7 == slot0.tileIndicies[slot1.i + slot6[1][2]][slot1.j + slot6[1][1]] and slot7 == slot9 then
 			return true
 		end
 	end
@@ -580,11 +584,11 @@ function slot0.resumeGame(slot0)
 end
 
 function slot0.fillTileIndicies(slot0)
-	slot1 = {
-		[slot5] = {}
-	}
+	slot1 = {}
 
 	for slot5 = -1, uv0 + 2 do
+		slot1[slot5] = {}
+
 		for slot9 = 1, uv1 do
 			slot1[slot5][slot9] = slot0.tileIndicies[slot5][slot9]
 		end
@@ -641,9 +645,11 @@ function slot0.fillTiles(slot0, slot1)
 	slot2 = 0
 
 	for slot6 = 1, uv0 do
+		slot7 = 0
+
 		for slot11 = uv1, 1, -1 do
 			if not slot0.tileTfs[slot11][slot6] then
-				slot7 = 0 + 1
+				slot7 = slot7 + 1
 			end
 		end
 
@@ -651,8 +657,10 @@ function slot0.fillTiles(slot0, slot1)
 
 		for slot11 = 1, uv1 do
 			if not slot0.tileTfs[slot11][slot6] then
+				slot12 = rtf(cloneTplTo(slot0.tiles[slot0.tileIndicies[slot11][slot6]], slot0.tilesRoot))
+
 				if slot1 then
-					rtf(cloneTplTo(slot0.tiles[slot0.tileIndicies[slot11][slot6]], slot0.tilesRoot)).anchoredPosition = slot0:index2pos(slot11, slot6)
+					slot12.anchoredPosition = slot0:index2pos(slot11, slot6)
 				else
 					slot12.anchoredPosition = slot0:index2pos(slot11 + slot7, slot6)
 
@@ -712,28 +720,36 @@ function slot0.findMove(slot0)
 			slot10, slot11 = nil
 
 			for slot15, slot16 in pairs(uv2) do
-				if slot9 == slot0.tileIndicies[slot4 + slot16[1][1]][slot8 + slot16[1][2]] and slot9 == slot0.tileIndicies[slot4 + slot16[2][1]][slot8 + slot16[2][2]] then
+				slot11 = slot0.tileIndicies[slot4 + slot16[2][1]][slot8 + slot16[2][2]]
+
+				if slot9 == slot0.tileIndicies[slot4 + slot16[1][1]][slot8 + slot16[1][2]] and slot9 == slot11 then
 					return slot4, slot8, {
 						-1,
 						0
 					}
 				end
 
-				if slot9 == slot0.tileIndicies[slot4 - slot16[1][1]][slot8 - slot16[1][2]] and slot9 == slot0.tileIndicies[slot4 - slot16[2][1]][slot8 - slot16[2][2]] then
+				slot11 = slot0.tileIndicies[slot4 - slot16[2][1]][slot8 - slot16[2][2]]
+
+				if slot9 == slot0.tileIndicies[slot4 - slot16[1][1]][slot8 - slot16[1][2]] and slot9 == slot11 then
 					return slot4, slot8, {
 						1,
 						0
 					}
 				end
 
-				if slot9 == slot0.tileIndicies[slot4 - slot16[1][2]][slot8 + slot16[1][1]] and slot9 == slot0.tileIndicies[slot4 - slot16[2][2]][slot8 + slot16[2][1]] then
+				slot11 = slot0.tileIndicies[slot4 - slot16[2][2]][slot8 + slot16[2][1]]
+
+				if slot9 == slot0.tileIndicies[slot4 - slot16[1][2]][slot8 + slot16[1][1]] and slot9 == slot11 then
 					return slot4, slot8, {
 						0,
 						-1
 					}
 				end
 
-				if slot9 == slot0.tileIndicies[slot4 + slot16[1][2]][slot8 - slot16[1][1]] and slot9 == slot0.tileIndicies[slot4 + slot16[2][2]][slot8 - slot16[2][1]] then
+				slot11 = slot0.tileIndicies[slot4 + slot16[2][2]][slot8 - slot16[2][1]]
+
+				if slot9 == slot0.tileIndicies[slot4 + slot16[1][2]][slot8 - slot16[1][1]] and slot9 == slot11 then
 					return slot4, slot8, {
 						0,
 						1
@@ -927,7 +943,9 @@ function slot0.update(slot0)
 
 			uv0:fillTileIndicies()
 
-			if uv0.combo > 1 and next(uv0:tryMatch()) == nil then
+			slot1 = uv0:tryMatch()
+
+			if uv0.combo > 1 and next(slot1) == nil then
 				slot2 = nil
 				slot3 = Vector3.New(0, 0, -50)
 
@@ -946,19 +964,23 @@ function slot0.update(slot0)
 				end
 
 				slot2.localPosition = slot3
+				slot4 = uv0
 
-				uv0:managedTween(LeanTween.delayedCall, function ()
+				slot4:managedTween(LeanTween.delayedCall, function ()
 					Destroy(uv0)
 				end, uv5, nil)
 			end
 
-			uv0:managedTween(LeanTween.delayedCall, function ()
+			slot3 = uv0
+			slot2 = uv0
+
+			slot2:managedTween(LeanTween.delayedCall, function ()
 				if not uv0.inGame then
 					return
 				end
 
 				uv0:update()
-			end, math.max(uv5, uv0.dropTime(math.max(uv0:fillTiles(), slot0))), nil)
+			end, math.max(uv5, uv0.dropTime(math.max(slot3:fillTiles(), slot0))), nil)
 		end, uv1, nil)
 	end
 
@@ -971,12 +993,13 @@ function slot0.update(slot0)
 end
 
 function slot0.tryMatch(slot0)
+	slot1 = {}
+
 	for slot5 = 1, uv0 do
+		slot1[slot5] = {}
 	end
 
-	return slot0:bfs({
-		[slot5] = {}
-	})
+	return slot0:bfs(slot1)
 end
 
 function slot0.bfs(slot0, slot1)

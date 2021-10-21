@@ -29,10 +29,12 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.CREATE_NEW_PLAYER_DONE then
 		slot0.facade:sendNotification(GAME.LOAD_PLAYER_DATA, {
 			isNewPlayer = true,
-			id = slot1:getBody()
+			id = slot3
 		})
 	elseif slot2 == GAME.LOAD_PLAYER_DATA_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI)

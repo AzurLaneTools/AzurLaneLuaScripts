@@ -207,11 +207,12 @@ function slot0.commitEdit(slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("ship_formationMediaror_trash_warning", slot2.defaultName),
 			onYes = function ()
+				slot1 = getProxy(BayProxy):getRawData()
 				slot2 = uv0.ships
 				slot3 = #slot2
 
 				for slot7 = #slot2, 1, -1 do
-					uv0:removeShip(getProxy(BayProxy):getRawData()[slot2[slot7]])
+					uv0:removeShip(slot1[slot2[slot7]])
 				end
 
 				uv1:commitEdittingFleet(uv2)

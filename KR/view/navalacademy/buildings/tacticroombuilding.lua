@@ -17,8 +17,10 @@ function slot0.IsTip(slot0)
 		return false
 	end
 
+	slot2 = pg.TimeMgr.GetInstance():GetServerTime()
+
 	for slot6, slot7 in pairs(slot1) do
-		if slot7:getFinishTime() <= pg.TimeMgr.GetInstance():GetServerTime() then
+		if slot7:getFinishTime() <= slot2 then
 			return true
 		end
 	end

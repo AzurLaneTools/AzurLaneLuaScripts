@@ -48,10 +48,11 @@ end
 
 function slot0.updateProgress(slot0)
 	slot1 = #slot0.taskIDList
+	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.taskVOList) do
 		if slot7:getTaskStatus() >= 1 then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 

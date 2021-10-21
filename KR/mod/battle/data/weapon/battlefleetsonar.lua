@@ -61,13 +61,17 @@ function slot9.flush(slot0)
 	slot0._duration = 0
 	slot0._interval = 0
 	slot0._range = 0
+	slot1 = 0
+	slot2 = 0
+	slot3 = 0
+	slot4 = 0
 
 	for slot8, slot9 in pairs(slot0._crewUnitList) do
 		if slot9:GetAttrByName("sonarRange") > 0 then
-			slot1 = 0 + 1
-			slot2 = math.max(0, slot10)
-			slot3 = slot9:GetAttrByName("sonarInterval") + 0
-			slot4 = math.max(0, slot9:GetAttrByName("sonarDuration"))
+			slot1 = slot1 + 1
+			slot2 = math.max(slot2, slot10)
+			slot3 = slot9:GetAttrByName("sonarInterval") + slot3
+			slot4 = math.max(slot4, slot9:GetAttrByName("sonarDuration"))
 		end
 	end
 

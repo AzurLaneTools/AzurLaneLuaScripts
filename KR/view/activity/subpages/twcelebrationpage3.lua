@@ -41,7 +41,9 @@ function slot0.share(slot0)
 end
 
 function slot0.initShare(slot0)
-	PoolMgr.GetInstance():GetUI("TWCelebrationShare", false, function (slot0)
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetUI("TWCelebrationShare", false, function (slot0)
 		SetParent(slot0, GameObject.Find("UICamera"):GetComponent(typeof(Camera)).transform:GetChild(0), false)
 	end)
 end

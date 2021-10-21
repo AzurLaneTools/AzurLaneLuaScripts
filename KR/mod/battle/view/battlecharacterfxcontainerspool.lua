@@ -42,9 +42,7 @@ function slot2.Pop(slot0, slot1, slot2)
 	slot4 = nil
 
 	if #slot0._pool == 0 then
-		slot4 = {
-			[slot8] = slot10
-		}
+		slot4 = {}
 
 		for slot8, slot9 in ipairs(uv0.Battle.BattleConst.FXContainerIndex) do
 			slot10 = GameObject()
@@ -56,6 +54,7 @@ function slot2.Pop(slot0, slot1, slot2)
 			slot11.localPosition = Vector3(slot12[1], slot12[2], slot12[3])
 			slot11.localEulerAngles = Vector3(slot3.x * -1, slot3.y, slot3.z)
 			slot10.name = "fxContainer_" .. slot9
+			slot4[slot8] = slot10
 		end
 	else
 		slot0._pool[#slot0._pool] = nil

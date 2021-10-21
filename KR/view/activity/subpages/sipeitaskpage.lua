@@ -13,11 +13,12 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDataSetting(slot0)
+	slot1 = getProxy(TaskProxy)
 	slot0.taskList = slot0.taskList or slot0.activity:getConfig("config_data")
 
 	for slot5, slot6 in ipairs(slot0.taskList) do
 		slot0.taskIndex = slot5
-		slot0.taskVO = getProxy(TaskProxy):getTaskVO(slot6)
+		slot0.taskVO = slot1:getTaskVO(slot6)
 
 		if not slot0.taskVO:isReceive() then
 			break
@@ -35,7 +36,8 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot1 = slot0.taskVO:getConfig("award_display")[1]
+	slot1 = slot0.taskVO
+	slot1 = slot1:getConfig("award_display")[1]
 
 	updateDrop(slot0.awardTF, {
 		type = slot1[1],

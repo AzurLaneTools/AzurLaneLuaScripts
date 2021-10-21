@@ -4,10 +4,11 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.shipIds
 	slot4 = slot2.destroyEquipment or false
+	slot5 = getProxy(BayProxy)
 	slot6 = {}
 
 	for slot10, slot11 in ipairs(slot3) do
-		if getProxy(BayProxy):getShipById(slot11) == nil then
+		if slot5:getShipById(slot11) == nil then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot11))
 
 			return
@@ -16,7 +17,9 @@ function slot0.execute(slot0, slot1)
 		table.insert(slot6, slot12)
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(12004, {
+	slot7 = pg.ConnectionMgr.GetInstance()
+
+	slot7:Send(12004, {
 		ship_id_list = slot3
 	}, 12005, function (slot0)
 		if slot0.result == 0 then
@@ -54,14 +57,16 @@ function slot0.execute(slot0, slot1)
 				oil = slot5
 			})
 
+			slot9 = {
+				{
+					id = 1,
+					type = DROP_TYPE_RESOURCE,
+					count = slot4
+				}
+			}
+
 			if slot5 > 0 then
-				table.insert({
-					{
-						id = 1,
-						type = DROP_TYPE_RESOURCE,
-						count = slot4
-					}
-				}, {
+				table.insert(slot9, {
 					id = 2,
 					type = DROP_TYPE_RESOURCE,
 					count = slot5

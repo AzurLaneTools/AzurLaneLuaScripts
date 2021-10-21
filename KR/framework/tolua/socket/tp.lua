@@ -75,8 +75,10 @@ function slot6.__index.check(slot0, slot1)
 end
 
 function slot6.__index.command(slot0, slot1, slot2)
+	slot1 = uv0.upper(slot1)
+
 	if slot2 then
-		return slot0.c:send(uv0.upper(slot1) .. " " .. slot2 .. "\r\n")
+		return slot0.c:send(slot1 .. " " .. slot2 .. "\r\n")
 	else
 		return slot0.c:send(slot1 .. "\r\n")
 	end

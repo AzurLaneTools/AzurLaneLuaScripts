@@ -163,9 +163,10 @@ function slot0.loadAllCharacter(slot0)
 
 		slot6 = slot4:getConfigTable()
 		slot7 = pg.ship_data_template[slot4.configId]
+		slot9 = findTF(findTF(slot5, "info"), "stars")
 
 		for slot14 = 1, slot4:getStar() do
-			cloneTplTo(uv0._starTpl, findTF(findTF(slot5, "info"), "stars"))
+			cloneTplTo(uv0._starTpl, slot9)
 		end
 
 		if not GetSpriteFromAtlas("shiptype", shipType2print(slot4:getShipType())) then
@@ -249,6 +250,12 @@ function slot0.loadAllCharacter(slot0)
 			SetAction(uv1, "stand")
 			SetActive(uv2, true)
 
+			function slot2()
+				uv0:switchToDisplayMode()
+				uv0:sortSiblingIndex()
+				uv0:emit(DefenseFormationMedator.CHANGE_FLEET_SHIPS_ORDER, uv0._currentFleetVO)
+			end
+
 			function slot3()
 				for slot3, slot4 in ipairs(uv0) do
 					if slot4 == uv1 then
@@ -273,11 +280,7 @@ function slot0.loadAllCharacter(slot0)
 			if slot1.position.x < UnityEngine.Screen.width * 0.15 or slot1.position.x > UnityEngine.Screen.width * 0.87 or slot1.position.y < UnityEngine.Screen.height * 0.18 or slot1.position.y > UnityEngine.Screen.height * 0.7 then
 				if not uv0._currentFleetVO:canRemove(uv5) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", uv5:getName(), "", Fleet.C_TEAM_NAME[slot5]))
-					(function ()
-						uv0:switchToDisplayMode()
-						uv0:sortSiblingIndex()
-						uv0:emit(DefenseFormationMedator.CHANGE_FLEET_SHIPS_ORDER, uv0._currentFleetVO)
-					end)()
+					slot2()
 				elseif table.getCount(uv0._currentFleetVO.mainShips) == 1 and slot5 == TeamType.Main or table.getCount(uv0._currentFleetVO.vanguardShips) == 1 and slot5 == TeamType.Vanguard then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("exercise_clear_fleet_tip"),
@@ -302,10 +305,13 @@ function slot0.loadAllCharacter(slot0)
 
 	function slot3(slot0, slot1)
 		for slot5, slot6 in ipairs(slot0) do
-			slot7 = uv0.shipVOs[slot6]:getPrefab()
+			slot7 = uv0.shipVOs[slot6]
+			slot7 = slot7:getPrefab()
 
 			table.insert(uv1, function (slot0)
-				PoolMgr.GetInstance():GetSpineChar(uv0, true, function (slot0)
+				slot1 = PoolMgr.GetInstance()
+
+				slot1:GetSpineChar(uv0, true, function (slot0)
 					uv0(slot0, uv1, uv2, uv3)
 					uv4()
 				end)
@@ -315,7 +321,10 @@ function slot0.loadAllCharacter(slot0)
 
 	slot3(slot0._currentFleetVO.vanguardShips, TeamType.Vanguard)
 	slot3(slot0._currentFleetVO.mainShips, TeamType.Main)
-	pg.UIMgr.GetInstance():LoadingOn()
+
+	slot4 = pg.UIMgr.GetInstance()
+
+	slot4:LoadingOn()
 	parallelAsync({}, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
@@ -412,7 +421,9 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 		if slot8 ~= slot1 then
 			LeanTween.moveY(rtf(slot9), slot9.localPosition.y + 20, 0.5)
 
-			slot10 = tf(slot9):Find("mouseChild"):GetComponent("EventTriggerListener")
+			slot10 = tf(slot9)
+			slot10 = slot10:Find("mouseChild")
+			slot10 = slot10:GetComponent("EventTriggerListener")
 			slot0.eventTriggers[slot10] = true
 
 			slot10:AddPointEnterFunc(function ()
@@ -545,6 +556,10 @@ function slot0.displayAttrFrame(slot0)
 end
 
 function slot0.initAttrFrame(slot0)
+	slot1 = {
+		[TeamType.Main] = "main",
+		[TeamType.Vanguard] = "vanguard"
+	}
 	slot3 = false
 
 	for slot7, slot8 in pairs({
@@ -552,11 +567,10 @@ function slot0.initAttrFrame(slot0)
 		[TeamType.Vanguard] = slot0._currentFleetVO.vanguardShips
 	}) do
 		if #slot0._cards[slot7] == 0 then
+			slot10 = slot0:findTF(slot1[slot7] .. "/list", slot0._attrFrame)
+
 			for slot14 = 1, 3 do
-				table.insert(slot9, FormationCard.New(cloneTplTo(slot0._cardTpl, slot0:findTF(({
-					[TeamType.Main] = "main",
-					[TeamType.Vanguard] = "vanguard"
-				})[slot7] .. "/list", slot0._attrFrame)).gameObject))
+				table.insert(slot9, FormationCard.New(cloneTplTo(slot0._cardTpl, slot10).gameObject))
 			end
 
 			slot3 = true
@@ -646,8 +660,10 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 
 	if slot1.shipVO then
 		slot4 = slot0._cards[slot2]
-		slot5 = slot1.tr.parent:GetComponent("ContentSizeFitter")
-		slot6 = slot1.tr.parent:GetComponent("HorizontalLayoutGroup")
+		slot5 = slot1.tr.parent
+		slot5 = slot5:GetComponent("ContentSizeFitter")
+		slot6 = slot1.tr.parent
+		slot6 = slot6:GetComponent("HorizontalLayoutGroup")
 		slot7 = slot1.tr.rect.width * 0.5
 		slot8 = nil
 		slot9 = 0
@@ -732,12 +748,15 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 
 			uv0._currentDragDelegate = nil
 			uv2.enabled = false
-
-			LeanTween.value(uv1.go, uv1.tr.anchoredPosition.x, uv3[uv0._shiftIndex].x, math.min(math.abs(uv1.tr.anchoredPosition.x - uv3[uv0._shiftIndex].x) / 200, 1) * 0.3):setEase(LeanTweenType.easeOutCubic):setOnUpdate(System.Action_float(function (slot0)
+			slot3 = LeanTween.value(uv1.go, uv1.tr.anchoredPosition.x, uv3[uv0._shiftIndex].x, math.min(math.abs(uv1.tr.anchoredPosition.x - uv3[uv0._shiftIndex].x) / 200, 1) * 0.3)
+			slot3 = slot3:setEase(LeanTweenType.easeOutCubic)
+			slot3 = slot3:setOnUpdate(System.Action_float(function (slot0)
 				slot1 = uv0.tr.anchoredPosition
 				slot1.x = slot0
 				uv0.tr.anchoredPosition = slot1
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot3:setOnComplete(System.Action(function ()
 				uv0()
 
 				uv1.enabled = true

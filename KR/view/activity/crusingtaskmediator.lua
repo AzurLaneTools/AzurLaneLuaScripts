@@ -64,12 +64,10 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:updateItemInfo()
 		end
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then
-		slot5 = {
-			[slot10] = true
-		}
+		slot5 = {}
 
 		for slot9, slot10 in ipairs(slot4) do
-			-- Nothing
+			slot5[slot10] = true
 		end
 
 		if underscore.any(slot0.viewComponent.tempTaskGroup, function (slot0)

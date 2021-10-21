@@ -43,9 +43,10 @@ function slot0.OnInit(slot0)
 			slot8 = slot7._tf
 			slot9 = slot8.localPosition.x
 			slot10 = slot8.localPosition.y
+			slot11 = Vector2(slot9 + slot8.rect.width / 2, slot10 + slot8.rect.height / 2)
 			slot12 = Vector2(slot9 + slot8.rect.width / 2, slot10 - slot8.rect.height / 2)
 
-			if Vector2(slot9 - slot8.rect.width / 2, slot10 - slot8.rect.height / 2).x < slot1.x and slot1.x < slot12.x and slot12.y < slot1.y and slot1.y < Vector2(slot9 + slot8.rect.width / 2, slot10 + slot8.rect.height / 2).y then
+			if Vector2(slot9 - slot8.rect.width / 2, slot10 - slot8.rect.height / 2).x < slot1.x and slot1.x < slot12.x and slot12.y < slot1.y and slot1.y < slot11.y then
 				slot2 = slot7
 
 				break
@@ -73,7 +74,9 @@ function slot0.OnInit(slot0)
 		uv0()
 
 		if uv1.lock then
-			uv1.contextData.furnitureDescMsgBox:ExecuteAction("Hide")
+			slot2 = uv1.contextData.furnitureDescMsgBox
+
+			slot2:ExecuteAction("Hide")
 			onNextTick(function ()
 				uv0.lock = false
 			end)
@@ -109,9 +112,10 @@ end
 
 function slot0.OnDisplayList(slot0)
 	slot0.displays = {}
+	slot2 = getProxy(DormProxy).floor
 
 	for slot6, slot7 in pairs(slot0.dorm:getPutFurnis()) do
-		if slot7.floor == getProxy(DormProxy).floor then
+		if slot7.floor == slot2 then
 			table.insert(slot0.displays, slot7)
 		end
 	end
@@ -125,11 +129,15 @@ end
 
 function slot0.Show(slot0)
 	uv0.super.Show(slot0)
-	LeanTween.value(slot0._bg.gameObject, slot0._bg.anchoredPosition.x, 0, 0.4):setOnUpdate(System.Action_float(function (slot0)
+
+	slot2 = LeanTween.value(slot0._bg.gameObject, slot0._bg.anchoredPosition.x, 0, 0.4)
+	slot2 = slot2:setOnUpdate(System.Action_float(function (slot0)
 		setAnchoredPosition(uv0._bg, {
 			x = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot2:setOnComplete(System.Action(function ()
 		if uv0.OnShow then
 			uv0.OnShow(true)
 		end
@@ -141,11 +149,14 @@ function slot0.Show(slot0)
 end
 
 function slot0.Hide(slot0)
-	LeanTween.value(slot0._bg.gameObject, 0, -slot0._bg.rect.width, 0.4):setOnUpdate(System.Action_float(function (slot0)
+	slot2 = LeanTween.value(slot0._bg.gameObject, 0, -slot0._bg.rect.width, 0.4)
+	slot2 = slot2:setOnUpdate(System.Action_float(function (slot0)
 		setAnchoredPosition(uv0._bg, {
 			x = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot2:setOnComplete(System.Action(function ()
 		uv0.super.Hide(uv1)
 
 		if uv1.OnShow then

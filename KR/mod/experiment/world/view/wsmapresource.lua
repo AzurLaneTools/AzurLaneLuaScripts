@@ -18,7 +18,9 @@ function slot0.Load(slot0, slot1)
 	slot3 = slot0.map
 
 	table.insert(slot2, function (slot0)
-		PoolMgr.GetInstance():GetUI("darkfog", true, function (slot0)
+		slot1 = PoolMgr.GetInstance()
+
+		slot1:GetUI("darkfog", true, function (slot0)
 			setParent(slot0, GameObject.Find("__Pool__").transform)
 
 			uv0.rtDarkFog = slot0.transform
@@ -28,7 +30,9 @@ function slot0.Load(slot0, slot1)
 		end)
 	end)
 	table.insert(slot2, function (slot0)
-		PoolMgr.GetInstance():GetUI("sairenfog", true, function (slot0)
+		slot1 = PoolMgr.GetInstance()
+
+		slot1:GetUI("sairenfog", true, function (slot0)
 			setParent(slot0, GameObject.Find("__Pool__").transform)
 
 			uv0.rtSairenFog = slot0.transform

@@ -77,10 +77,12 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	parallelAsync({
 		function (slot0)
-			slot2, slot3 = HXSet.autoHxShift("spinepainting/", uv0._spinePaintingData:GetShipName())
+			slot1 = uv0._spinePaintingData
+			slot2, slot3 = HXSet.autoHxShift("spinepainting/", slot1:GetShipName())
 			slot4 = slot2 .. slot3
+			slot5 = uv0._loader
 
-			uv0._loader:LoadPrefab(slot4, nil, slot4, function (slot0)
+			slot5:LoadPrefab(slot4, nil, slot4, function (slot0)
 				uv0(uv1, slot0)
 				uv2()
 			end)
@@ -88,8 +90,9 @@ function slot0.Ctor(slot0, slot1, slot2)
 		function (slot0)
 			slot1 = uv0._spinePaintingData.bgEffectName
 			slot2 = "ui/" .. slot1
+			slot3 = uv0._loader
 
-			uv0._loader:LoadPrefab(slot2, slot1, slot2, function (slot0)
+			slot3:LoadPrefab(slot2, slot1, slot2, function (slot0)
 				uv0(uv1, slot0)
 				uv2()
 			end)

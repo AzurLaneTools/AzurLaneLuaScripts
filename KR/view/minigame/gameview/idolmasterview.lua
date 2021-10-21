@@ -617,12 +617,13 @@ function slot41(slot0, slot1, slot2, slot3, slot4)
 		end,
 		receiveGift = function (slot0, slot1, slot2)
 			slot3 = false
+			slot4, slot5 = nil
 
 			for slot9 = 1, #slot0.groups do
 				if slot0.groups[slot9]:checkGifts(slot1) then
 					slot3 = true
 
-					if not nil then
+					if not slot4 then
 						slot4 = slot0.groups[slot9]
 						slot5 = slot9
 					elseif slot0.groups[slot9]:getGiftTime() < slot4:getGiftTime() then
@@ -672,8 +673,10 @@ function slot41(slot0, slot1, slot2, slot3, slot4)
 			return uv0[#uv0][2]
 		end,
 		getFansAmount = function (slot0)
+			slot1 = 0
+
 			for slot5 = 1, #slot0.groups do
-				slot1 = 0 + slot0.groups[slot5]:getFansAmount()
+				slot1 = slot1 + slot0.groups[slot5]:getFansAmount()
 			end
 
 			return slot1
@@ -842,10 +845,11 @@ function slot0.initUI(slot0)
 		end
 	end, SFX_CANCEL)
 
+	slot2 = findTF(slot0.menuUI, "tplBattleItem")
 	slot0.battleItems = {}
 
 	for slot6 = 1, slot0.totalTimes do
-		slot7 = tf(instantiate(findTF(slot0.menuUI, "tplBattleItem")))
+		slot7 = tf(instantiate(slot2))
 		slot7.name = "battleItem_" .. slot6
 
 		setParent(slot7, findTF(slot0.menuUI, "battList/Viewport/Content"))
@@ -940,6 +944,7 @@ function slot0.AddDebugInput(slot0)
 end
 
 function slot0.updateMenuUI(slot0)
+	slot1 = slot0:getGameUsedTimes()
 	slot2 = slot0:getGameTimes()
 
 	for slot6 = 1, #slot0.battleItems do
@@ -948,7 +953,7 @@ function slot0.updateMenuUI(slot0)
 		setActive(findTF(slot0.battleItems[slot6], "state_clear"), false)
 		setActive(findTF(slot0.battleItems[slot6], "state_current"), false)
 
-		if slot6 <= slot0:getGameUsedTimes() then
+		if slot6 <= slot1 then
 			setActive(findTF(slot0.battleItems[slot6], "state_clear"), true)
 		elseif slot6 == slot1 + 1 and slot2 >= 1 then
 			setActive(findTF(slot0.battleItems[slot6], "state_current"), true)
@@ -999,7 +1004,9 @@ function slot0.openMenuUI(slot0)
 	setActive(slot0.menuUI, true)
 
 	if slot0.storyIndex and uv0[slot0.storyIndex] ~= "" and slot0:getGameUsedTimes() == slot0.storyIndex then
-		pg.NewStoryMgr.GetInstance():Play(uv0[slot0.storyIndex], function ()
+		slot1 = pg.NewStoryMgr.GetInstance()
+
+		slot1:Play(uv0[slot0.storyIndex], function ()
 		end, true)
 
 		slot0.storyIndex = nil

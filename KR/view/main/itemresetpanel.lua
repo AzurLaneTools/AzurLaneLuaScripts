@@ -10,25 +10,34 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._parent = slot2
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
+	slot5 = slot0._tf
 
-	onButton(slot0, slot0._tf:Find("bg"), function ()
+	onButton(slot0, slot5:Find("bg"), function ()
 		uv0:Close()
 	end, SFX_PANEL)
 	setActive(slot0._go, false)
 
-	slot0.backBtn = slot0._tf:Find("window/top/btnBack")
+	slot3 = slot0._tf
+	slot0.backBtn = slot3:Find("window/top/btnBack")
 
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Close()
 	end, SFX_PANEL)
 
-	slot0.infoPanel = slot0._tf:Find("window/panel/info")
-	slot0.fromListPanel = slot0._tf:Find("window/panel/list")
-	slot0.fromItemList = UIItemList.New(slot0.fromListPanel:Find("view/content"), slot0.fromListPanel:Find("view/content/item"))
+	slot3 = slot0._tf
+	slot0.infoPanel = slot3:Find("window/panel/info")
+	slot3 = slot0._tf
+	slot0.fromListPanel = slot3:Find("window/panel/list")
+	slot4 = slot0.fromListPanel
+	slot5 = slot0.fromListPanel
+	slot0.fromItemList = UIItemList.New(slot4:Find("view/content"), slot5:Find("view/content/item"))
+	slot3 = slot0.fromItemList
 
-	slot0.fromItemList:make(function (slot0, slot1, slot2)
+	slot3:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0.infoList[slot1 + 1]
+			slot3 = uv0.infoList[slot1]
 
 			setActive(slot2:Find("from"), slot3)
 			setActive(slot2:Find("nothing"), not slot3)

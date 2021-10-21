@@ -4,15 +4,20 @@ function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody().callback
 
 	if not getProxy(GuildProxy):ShouldRequestReport() then
+		slot5 = slot4:GetReports()
+
 		if slot3 then
-			slot3(slot4:GetReports())
+			slot3(slot5)
 		end
 
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(61017, {
-		index = getProxy(GuildProxy):GetMaxReportId()
+	slot5 = getProxy(GuildProxy)
+	slot6 = pg.ConnectionMgr.GetInstance()
+
+	slot6:Send(61017, {
+		index = slot5:GetMaxReportId()
 	}, 61018, function (slot0)
 		slot1 = {}
 

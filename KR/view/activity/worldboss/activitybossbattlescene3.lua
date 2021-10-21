@@ -115,7 +115,10 @@ function slot0.didEnter(slot0)
 		})
 	end, SFX_PANEL)
 
-	for slot4, slot5 in ipairs(slot0.contextData.DisplayItems or {}) do
+	slot1 = ipairs
+	slot2 = slot0.contextData.DisplayItems or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot6 = slot0:findTF("milestone/item", slot0.barList[slot4])
 
 		updateDrop(slot6, {
@@ -159,8 +162,9 @@ end
 
 function slot0.CheckStory(slot0)
 	slot1 = pg.NewStoryMgr.GetInstance()
+	slot2 = slot0.contextData.activity
 
-	table.eachAsync(slot0.contextData.activity:getConfig("config_client").story, function (slot0, slot1, slot2)
+	table.eachAsync(slot2:getConfig("config_client").story, function (slot0, slot1, slot2)
 		if uv0.contextData.bossHP < slot1[1] + ((slot0 == 1 or slot1[1] == 0) and 1 or 0) then
 			uv1:Play(slot1[2], slot2)
 		else
@@ -178,6 +182,8 @@ function slot0.UpdatePage(slot0)
 
 	setText(slot0.digitsmall, string.format("%02d", slot6))
 
+	slot2 = pg.TimeMgr.GetInstance()
+
 	for slot6 = 1, 4 do
 		slot7 = slot0.barList[slot6]
 
@@ -189,7 +195,7 @@ function slot0.UpdatePage(slot0)
 		setActive(slot0:findTF("milestone/time", slot7), slot8)
 
 		if slot8 then
-			setText(slot0:findTF("milestone/time/Text", slot7), pg.TimeMgr.GetInstance():CTimeDescC(slot0.contextData.mileStones[5 - slot6], "%m/%d/%H:%M"))
+			setText(slot0:findTF("milestone/time/Text", slot7), slot2:CTimeDescC(slot0.contextData.mileStones[5 - slot6], "%m/%d/%H:%M"))
 		end
 	end
 
@@ -232,7 +238,9 @@ function slot0.ShowNormalFleet(slot0, slot1)
 		slot0.contextData.actFleets[slot1 + 10] = slot0:CreateNewFleet(slot1 + 10)
 	end
 
-	if slot0.contextData.manulOpen and #slot0.contextData.actFleets[slot1].ships <= 0 then
+	slot2 = slot0.contextData.actFleets[slot1]
+
+	if slot0.contextData.manulOpen and #slot2.ships <= 0 then
 		for slot6 = #slot0.contextData.normalStageIDs, 1, -1 do
 			slot7 = slot0.contextData.actFleets[slot6]
 
@@ -308,9 +316,12 @@ end
 
 function slot0.openShipInfo(slot0, slot1, slot2)
 	slot4 = {}
+	slot5 = getProxy(BayProxy)
+	slot6 = ipairs
+	slot7 = slot0.contextData.actFleets[slot2] and slot3.ships or {}
 
-	for slot9, slot10 in ipairs(slot0.contextData.actFleets[slot2] and slot3.ships or {}) do
-		table.insert(slot4, getProxy(BayProxy):getShipById(slot10))
+	for slot9, slot10 in slot6(slot7) do
+		table.insert(slot4, slot5:getShipById(slot10))
 	end
 
 	slot0:emit(ActivityBossBattleMediator3.ON_FLEET_SHIPINFO, {
@@ -381,10 +392,11 @@ function slot0.UpdateRank(slot0, slot1)
 end
 
 function slot0.Clone2Full(slot0, slot1, slot2)
+	slot3 = {}
 	slot4 = slot1:GetChild(0)
 
 	for slot9 = 0, slot1.childCount - 1 do
-		table.insert({}, slot1:GetChild(slot9))
+		table.insert(slot3, slot1:GetChild(slot9))
 	end
 
 	for slot9 = slot5, slot2 - 1 do

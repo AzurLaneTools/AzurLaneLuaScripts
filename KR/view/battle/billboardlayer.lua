@@ -170,9 +170,10 @@ function slot0.init(slot0)
 	slot0.pageTpl = slot0:findTF("page_tpl", slot0.mainPanel)
 	slot0.militaryPage = slot0:findTF("military_page", slot0.mainPanel)
 	slot0.collectCountAll = getProxy(CollectionProxy):getCollectionTotal()
+	slot1 = slot0:findTF("title/frame", slot0.militaryPage)
 
 	for slot5 = 1, 4 do
-		setText(slot0:findTF("title/frame", slot0.militaryPage):GetChild(slot5 - 1), i18n("ranking_word_" .. slot0.tpye2titleWord.military[slot5]))
+		setText(slot1:GetChild(slot5 - 1), i18n("ranking_word_" .. slot0.tpye2titleWord.military[slot5]))
 	end
 
 	setActive(slot0.tableTpl, false)
@@ -185,15 +186,18 @@ function slot0.init(slot0)
 
 		setActive(slot0.rtPage[slot7], false)
 
+		slot9 = slot0:findTF("title/frame", slot0.rtPage[slot7])
+
 		for slot13 = 1, 4 do
-			setText(slot0:findTF("title/frame", slot0.rtPage[slot7]):GetChild(slot13 - 1), i18n("ranking_word_" .. slot0.tpye2titleWord[slot8.type][slot13]))
+			setText(slot9:GetChild(slot13 - 1), i18n("ranking_word_" .. slot0.tpye2titleWord[slot8.type][slot13]))
 		end
 
 		if slot8.type == 3 then
 			setText(slot9:GetChild(3), pg.gameset.activity_res_id.description)
 		end
 
-		slot0.scroll[slot7] = slot0:findTF("content/rank_list", slot0.rtPage[slot7]):GetComponent("LScrollRect")
+		slot11 = slot0:findTF("content/rank_list", slot0.rtPage[slot7])
+		slot0.scroll[slot7] = slot11:GetComponent("LScrollRect")
 		slot0.rankItems[slot7] = {}
 
 		slot0.scroll[slot7].onInitItem = function (slot0)
@@ -239,9 +243,11 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
 
+	slot1 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "BillboardMediator")
+
 	for slot6, slot7 in ipairs(slot0:getRankMsgList()) do
 		if slot0.rankMsgInfo[slot7].type == 1 or slot8.type == 2 then
-			setActive(slot0.sortBtns:GetChild(slot6), pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "BillboardMediator"))
+			setActive(slot0.sortBtns:GetChild(slot6), slot1)
 		end
 	end
 
@@ -350,6 +356,7 @@ end
 
 function slot0.updatePlayerMilitaryRankInfo(slot0)
 	slot1 = slot0:findTF("military_page/content/player_info", slot0.mainPanel)
+	slot6 = slot0.playerShip
 
 	slot0:updateRankTF(slot1, {
 		rank = slot0.seasonInfo.rank,
@@ -358,7 +365,7 @@ function slot0.updatePlayerMilitaryRankInfo(slot0)
 		icon = slot0.playerShip.configId,
 		skinId = slot0.playerShip.skinId,
 		level = slot0.player.level,
-		remoulded = slot0.playerShip:isRemoulded(),
+		remoulded = slot6:isRemoulded(),
 		proposeTime = slot0.playerShip.proposeTime
 	})
 	onButton(slot0, slot1, function ()
@@ -492,8 +499,10 @@ function slot0.updateRankCount(slot0, slot1)
 end
 
 function slot0.getRankCount(slot0, slot1)
+	slot2 = 0
+
 	for slot6 = 1, #slot0.rankList[slot1] do
-		slot2 = 0 + #slot0.rankList[slot1][slot6]
+		slot2 = slot2 + #slot0.rankList[slot1][slot6]
 	end
 
 	return slot2

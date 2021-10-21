@@ -17,9 +17,13 @@ function slot0.handleNotification(slot0, slot1)
 				slot0()
 			end
 		}
+		slot5 = slot0.viewComponent
 
-		slot0.viewComponent:updateAfterFinish()
-		slot0.viewComponent:showResultPanel(slot3.awards, function ()
+		slot5:updateAfterFinish()
+
+		slot5 = slot0.viewComponent
+
+		slot5:showResultPanel(slot3.awards, function ()
 			seriesAsync(uv0)
 			uv1.viewComponent:OnSendMiniGameOPDone(uv2)
 		end)

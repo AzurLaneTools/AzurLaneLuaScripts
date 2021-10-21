@@ -50,9 +50,13 @@ if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_KR then
 end
 
 GetComponent(tf(GameObject.Find("OverlayCamera/Overlay/UIDebug/logs")), "Text").supportRichText = false
+slot0 = pg.TimeMgr.GetInstance()
 
-pg.TimeMgr.GetInstance():Init()
-pg.PushNotificationMgr.GetInstance():Init()
+slot0:Init()
+
+slot0 = pg.PushNotificationMgr.GetInstance()
+
+slot0:Init()
 
 function OnApplicationPause(slot0)
 	print("OnApplicationPause: " .. tostring(slot0))
@@ -270,12 +274,16 @@ seriesAsync({
 	pg.SdkMgr.GetInstance():GoSDkLoginScene()
 
 	if Application.isEditor then
-		pg.UIMgr.GetInstance():AddDebugButton("QATool", function ()
+		slot2 = pg.UIMgr.GetInstance()
+
+		slot2:AddDebugButton("QATool", function ()
 			DebugMgr.Inst:Switch2QATool()
 		end)
 	end
 
-	pg.UIMgr.GetInstance():AddDebugButton("Print", function ()
+	slot2 = pg.UIMgr.GetInstance()
+
+	slot2:AddDebugButton("Print", function ()
 		getProxy(TechnologyNationProxy):printNationPointLog()
 	end)
 end)

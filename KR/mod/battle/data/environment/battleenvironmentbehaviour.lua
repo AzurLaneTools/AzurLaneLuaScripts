@@ -40,8 +40,10 @@ function slot3.UpdateCollideUnitList(slot0, slot1)
 		slot2 = #slot1
 
 		while slot2 > 0 do
+			slot3 = slot1[slot2]:GetCurrentOxyState()
+
 			for slot7, slot8 in ipairs(slot0._diveFilter) do
-				if slot1[slot2]:GetCurrentOxyState() == slot8 then
+				if slot3 == slot8 then
 					table.remove(slot1, slot2)
 
 					break

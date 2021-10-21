@@ -18,12 +18,14 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot4 == LevelUIConst.FLEET_TYPE_SELECT then
+		slot9 = slot8.id
+		slot10 = slot3.fleetId
 		slot11 = slot3.chapterId
 
 		if slot8.type == LevelUIConst.COMMANDER_OP_RECORD_PREFAB then
 			slot0:sendNotification(GAME.SET_COMMANDER_PREFAB, {
-				id = slot8.id,
-				commanders = slot7:getFleetById(slot3.fleetId):getCommanders()
+				id = slot9,
+				commanders = slot7:getFleetById(slot10):getCommanders()
 			})
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_USE_PREFAB then
 			slot0:sendNotification(GAME.USE_COMMANDER_PREFBA, {
@@ -57,23 +59,24 @@ function slot0.execute(slot0, slot1)
 	if slot4 == LevelUIConst.FLEET_TYPE_EDIT then
 		slot10 = slot5:getPrefabFleetById(slot8.id)
 		slot11 = slot3.index
+		slot12 = slot3.chapterId
 
 		if slot8.type == LevelUIConst.COMMANDER_OP_RECORD_PREFAB then
-			if table.getCount(slot6:getChapterById(slot3.chapterId):getEliteFleetCommanders()[slot11]) == 0 then
+			if table.getCount(slot6:getChapterById(slot12):getEliteFleetCommanders()[slot11]) == 0 then
 				return
 			end
 
+			slot16 = {}
+
 			for slot20 = 1, 2 do
 				if slot5:getCommanderById(slot15[slot20]) then
-					-- Nothing
+					slot16[slot20] = slot22
 				end
 			end
 
 			slot0:sendNotification(GAME.SET_COMMANDER_PREFAB, {
 				id = slot9,
-				commanders = {
-					[slot20] = slot22
-				}
+				commanders = slot16
 			})
 			slot6:updateChapter(slot13)
 			slot0:sendNotification(GAME.COMMANDER_ELIT_FORMATION_OP_DONE, {
@@ -138,38 +141,42 @@ function slot0.execute(slot0, slot1)
 		end
 	elseif slot4 == LevelUIConst.FLEET_TYPE_ACTIVITY then
 		slot10 = slot5:getPrefabFleetById(slot8.id)
+		slot11 = slot3.fleetId
+		slot12 = slot3.actId
 
 		if slot8.type == LevelUIConst.COMMANDER_OP_RECORD_PREFAB then
 			slot0:sendNotification(GAME.SET_COMMANDER_PREFAB, {
 				id = slot9,
-				commanders = slot7:getActivityFleets()[slot3.actId][slot3.fleetId]:getCommanders()
+				commanders = slot7:getActivityFleets()[slot12][slot11]:getCommanders()
 			})
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_USE_PREFAB then
 			slot13 = {}
 			slot14 = slot7:getActivityFleets()[slot12]
 			slot16 = pg.activity_template[slot12] and slot15.type or 0
 
-			for slot21 = 1, 2 do
-				if slot10:getCommanderByPos(slot21) then
-					slot23, slot24 = (function (slot0)
-						for slot4, slot5 in pairs(uv0) do
-							slot6 = uv1 ~= slot4
+			function slot17(slot0)
+				for slot4, slot5 in pairs(uv0) do
+					slot6 = uv1 ~= slot4
 
-							if uv2 == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
-								slot6 = slot4 == ActivityBossMediatorTemplate.GetPairedFleetIndex(uv1)
-							end
+					if uv2 == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+						slot6 = slot4 == ActivityBossMediatorTemplate.GetPairedFleetIndex(uv1)
+					end
 
-							if slot6 then
-								for slot11, slot12 in pairs(slot5:getCommanders()) do
-									if slot0 == slot12.id then
-										return slot4, slot11
-									end
-								end
+					if slot6 then
+						for slot11, slot12 in pairs(slot5:getCommanders()) do
+							if slot0 == slot12.id then
+								return slot4, slot11
 							end
 						end
+					end
+				end
 
-						return nil
-					end)(slot22.id)
+				return nil
+			end
+
+			for slot21 = 1, 2 do
+				if slot10:getCommanderByPos(slot21) then
+					slot23, slot24 = slot17(slot22.id)
 
 					if slot23 and slot24 then
 						table.insert(slot13, function (slot0)
@@ -231,35 +238,38 @@ function slot0.execute(slot0, slot1)
 		end
 	elseif slot4 == LevelUIConst.FLEET_TYPE_WORLD then
 		slot10 = slot5:getPrefabFleetById(slot8.id)
+		slot15 = Fleet.New({
+			ship_list = {},
+			commanders = slot3.fleets[slot3.fleetType][slot3.fleetIndex].commanders
+		})
 
 		if slot8.type == LevelUIConst.COMMANDER_OP_RECORD_PREFAB then
 			slot0:sendNotification(GAME.SET_COMMANDER_PREFAB, {
 				id = slot9,
-				commanders = Fleet.New({
-					ship_list = {},
-					commanders = slot3.fleets[slot3.fleetType][slot3.fleetIndex].commanders
-				}):getCommanders()
+				commanders = slot15:getCommanders()
 			})
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_USE_PREFAB then
 			slot16 = {}
 
-			for slot21 = 1, 2 do
-				if slot10:getCommanderByPos(slot21) then
-					slot23, slot24, slot25 = (function (slot0)
-						for slot4, slot5 in pairs(uv0) do
-							for slot9, slot10 in pairs(slot5) do
-								if uv1 ~= slot10 then
-									for slot14, slot15 in ipairs(slot10.commanders) do
-										if slot15.id == slot0 then
-											return slot4, slot9, slot15.pos
-										end
-									end
+			function slot17(slot0)
+				for slot4, slot5 in pairs(uv0) do
+					for slot9, slot10 in pairs(slot5) do
+						if uv1 ~= slot10 then
+							for slot14, slot15 in ipairs(slot10.commanders) do
+								if slot15.id == slot0 then
+									return slot4, slot9, slot15.pos
 								end
 							end
 						end
+					end
+				end
 
-						return nil
-					end)(slot22.id)
+				return nil
+			end
+
+			for slot21 = 1, 2 do
+				if slot10:getCommanderByPos(slot21) then
+					slot23, slot24, slot25 = slot17(slot22.id)
 
 					if slot23 and slot24 and slot25 then
 						table.insert(slot16, function (slot0)

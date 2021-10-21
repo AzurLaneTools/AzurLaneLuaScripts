@@ -90,15 +90,19 @@ function slot0.aniShowBack(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.cardTf.localScale = Vector3(1, 1, 1)
+	slot4 = LeanTween.scale(go(slot0.cardTf), Vector3(0, 1, 1), slot0.ANI_TIME)
+	slot4 = slot4:setDelay(defaultValue(slot3, 0))
 
-	LeanTween.scale(go(slot0.cardTf), Vector3(0, 1, 1), slot0.ANI_TIME):setDelay(defaultValue(slot3, 0)):setOnComplete(System.Action(function ()
+	slot4:setOnComplete(System.Action(function ()
 		if uv0 then
 			uv1:showFront()
 		else
 			uv1:showBack()
 		end
 
-		LeanTween.scale(go(uv1.cardTf), Vector3(1, 1, 1), uv1.ANI_TIME):setOnComplete(System.Action(function ()
+		slot0 = LeanTween.scale(go(uv1.cardTf), Vector3(1, 1, 1), uv1.ANI_TIME)
+
+		slot0:setOnComplete(System.Action(function ()
 			uv0.canClick = true
 
 			if not uv1 then

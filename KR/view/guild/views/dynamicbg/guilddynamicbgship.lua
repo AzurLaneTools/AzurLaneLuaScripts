@@ -91,7 +91,9 @@ function slot0.IsCanWalkPonit(slot0, slot1)
 end
 
 function slot0.StartMove(slot0)
-	if not _.select(slot0.grid:GetAroundGrids(), function (slot0)
+	slot1 = slot0.grid
+
+	if not _.select(slot1:GetAroundGrids(), function (slot0)
 		return uv0:IsCanWalkPonit(slot0)
 	end) or #slot2 == 0 then
 		slot0:AddRandomMove()
@@ -381,13 +383,14 @@ function slot0.CanInterAction(slot0, slot1)
 		return false
 	end
 
+	slot7 = 999999
 	slot8 = nil
 	slot9 = slot0.grid.position
 
 	for slot13, slot14 in ipairs(slot3[math.random(1, #slot3)]:GetOccupyGrid()) do
 		slot15 = slot14.position
 
-		if 999999 > math.abs(slot9.x - slot15.x) + math.abs(slot9.y - slot15.y) then
+		if slot7 > math.abs(slot9.x - slot15.x) + math.abs(slot9.y - slot15.y) then
 			slot7 = slot16
 			slot8 = slot15
 		end

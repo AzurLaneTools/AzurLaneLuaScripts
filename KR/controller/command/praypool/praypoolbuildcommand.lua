@@ -3,8 +3,9 @@ slot0 = class("PrayPoolBuildCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.shipIDList
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(11202, {
+	slot5:Send(11202, {
 		cmd = 1,
 		activity_id = ActivityConst.ACTIVITY_PRAY_POOL,
 		arg1 = slot2.pooltype,

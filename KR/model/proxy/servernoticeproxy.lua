@@ -60,9 +60,10 @@ function slot0.needAutoOpen(slot0)
 	slot1 = true
 
 	if PlayerPrefs.HasKey(uv0.KEY_STOP_REMIND) then
+		slot2 = PlayerPrefs.GetInt(uv0.KEY_STOP_REMIND)
 		slot3 = pg.TimeMgr.GetInstance()
 
-		if not slot0:hasNewNotice() and slot3:IsSameDay(PlayerPrefs.GetInt(uv0.KEY_STOP_REMIND), slot3:GetServerTime()) then
+		if not slot0:hasNewNotice() and slot3:IsSameDay(slot2, slot3:GetServerTime()) then
 			slot1 = false
 		end
 	elseif slot0.runtimeUniqueCode and slot0.runtimeUniqueCode == slot0:getUniqueCode() then

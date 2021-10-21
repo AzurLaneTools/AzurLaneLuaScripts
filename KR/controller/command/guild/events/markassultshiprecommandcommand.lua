@@ -21,14 +21,19 @@ function slot0.execute(slot0, slot1)
 	slot9 = GuildAssaultFleet.GetRealId(slot3)
 
 	print(slot8, slot9, slot4)
-	pg.ConnectionMgr.GetInstance():Send(61033, {
+
+	slot10 = pg.ConnectionMgr.GetInstance()
+
+	slot10:Send(61033, {
 		recommend_uid = slot8,
 		recommend_shipid = slot9,
 		cmd = slot4
 	}, 61034, function (slot0)
 		if slot0.result == 0 then
+			slot3 = uv0:getData():getMemberById(uv1):GetAssaultFleet()
+
 			if uv2 == GuildConst.RECOMMAND_SHIP then
-				uv0:getData():getMemberById(uv1):GetAssaultFleet():SetShipBeRecommanded(uv3, true)
+				slot3:SetShipBeRecommanded(uv3, true)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_assult_ship_recommend"))
 			elseif uv2 == GuildConst.CANCEL_RECOMMAND_SHIP then
 				slot3:SetShipBeRecommanded(uv3, false)

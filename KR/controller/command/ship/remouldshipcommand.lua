@@ -23,8 +23,11 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	for slot19, slot20 in ipairs(slot8.use_item[slot13 + 1] or {}) do
-		if getProxy(BagProxy):getItemCountById(slot20[1]) < slot20[2] then
+	slot14 = slot8.use_item[slot13 + 1] or {}
+	slot15 = getProxy(BagProxy)
+
+	for slot19, slot20 in ipairs(slot14) do
+		if slot15:getItemCountById(slot20[1]) < slot20[2] then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 			return
@@ -62,7 +65,9 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(12011, {
+	slot16 = pg.ConnectionMgr.GetInstance()
+
+	slot16:Send(12011, {
 		ship_id = slot3,
 		remould_id = slot4,
 		material_id = slot5
@@ -83,6 +88,7 @@ function slot0.execute(slot0, slot1)
 
 			_.each(uv4.ship_id, function (slot0)
 				if slot0[1] == uv0.configId then
+					slot1 = pg.ship_data_template[uv0.configId].buff_list
 					slot2 = uv0.skills
 					uv0.configId = slot0[2]
 					uv0.skills = {}
@@ -90,7 +96,7 @@ function slot0.execute(slot0, slot1)
 
 					if uv1 then
 						slot4 = uv1:getSkillId(uv0)
-						slot6 = slot3[table.indexof(pg.ship_data_template[uv0.configId].buff_list, slot4)]
+						slot6 = slot3[table.indexof(slot1, slot4)]
 
 						if not table.contains(slot3, slot4) and slot6 ~= slot4 then
 							uv1:updateSkillId(slot6)
@@ -103,13 +109,12 @@ function slot0.execute(slot0, slot1)
 							slot9 = {
 								exp = 0,
 								level = 1,
-								id = slot8,
-								level = slot10.level,
-								exp = slot10.exp
+								id = slot8
 							}
 
 							if slot2[slot1[slot7]] then
-								-- Nothing
+								slot9.level = slot10.level
+								slot9.exp = slot10.exp
 							end
 
 							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[slot8].name)))
@@ -128,7 +133,10 @@ function slot0.execute(slot0, slot1)
 				end
 			end)
 
-			for slot6, slot7 in pairs(uv4.use_item[uv5] or {}) do
+			slot3 = pairs
+			slot4 = uv4.use_item[uv5] or {}
+
+			for slot6, slot7 in slot3(slot4) do
 				uv6:removeItemById(slot7[1], slot7[2])
 			end
 
@@ -140,9 +148,11 @@ function slot0.execute(slot0, slot1)
 			})
 			slot3:updatePlayer(slot4)
 
+			slot5 = {}
+
 			if uv4.skin_id ~= 0 then
 				uv0:updateSkinId(uv4.skin_id)
-				table.insert({}, {
+				table.insert(slot5, {
 					count = 1,
 					type = DROP_TYPE_SKIN,
 					id = uv4.skin_id
@@ -169,8 +179,10 @@ function slot0.execute(slot0, slot1)
 			uv7:updateShip(uv0)
 
 			slot6 = getProxy(EquipmentProxy)
+			slot7 = ipairs
+			slot8 = uv8 or {}
 
-			for slot10, slot11 in ipairs(uv8 or {}) do
+			for slot10, slot11 in slot7(slot8) do
 				for slot16, slot17 in ipairs(uv7:getShipById(slot11).equipments) do
 					if slot17 then
 						slot6:addEquipment(slot17)

@@ -1,11 +1,12 @@
 slot0 = class("SummaryPage4", import(".SummaryAnimationPage"))
 
 function slot0.OnInit(slot0)
+	slot2 = slot0.summaryInfoVO.furnitures
 	slot3 = {}
 
 	for slot7 = 1, findTF(slot0._go, "content").childCount do
 		slot8 = slot1:GetChild(slot7 - 1)
-		slot11 = slot0.summaryInfoVO.furnitures[tonumber(go(slot8).name)]
+		slot11 = slot2[tonumber(go(slot8).name)]
 
 		triggerToggle(findTF(slot8, "info"), slot11)
 

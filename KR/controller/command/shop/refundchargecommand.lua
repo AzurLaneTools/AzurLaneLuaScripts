@@ -17,9 +17,13 @@ function slot0.execute(slot0, slot1)
 	slot7 = Goods.Create({
 		shop_id = slot3
 	}, Goods.TYPE_CHARGE)
+	slot8 = pg.TrackerMgr.GetInstance()
 
-	pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE_CLICK, slot3)
-	pg.ConnectionMgr.GetInstance():Send(11513, {
+	slot8:Tracking(TRACKING_PURCHASE_CLICK, slot3)
+
+	slot8 = pg.ConnectionMgr.GetInstance()
+
+	slot8:Send(11513, {
 		shop_id = slot3,
 		device = PLATFORM
 	}, 11514, function (slot0)

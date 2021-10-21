@@ -17,13 +17,14 @@ end
 function slot0.OnFirstFlush(slot0)
 	for slot4 = 1, #slot0.chapterIDList do
 		slot7 = cloneTplTo(slot0.taskItemTpl, slot0.container, "TaskItem" .. tostring(slot4))
+		slot9 = slot0:findTF("ItemListContainer", slot7)
 		slot10 = slot0:findTF("GotTag", slot7)
 		slot11 = slot0:findTF("GetBtn", slot7)
 
 		setText(slot0:findTF("TaskTitle/LevelBum", slot7), pg.chapter_template[slot0.chapterIDList[slot4]].chapter_name)
 
 		for slot15 = 1, #slot0.config.award_display[slot4] do
-			slot16 = cloneTplTo(slot0.itemTpl, slot0:findTF("ItemListContainer", slot7))
+			slot16 = cloneTplTo(slot0.itemTpl, slot9)
 			slot17 = slot0.config.award_display[slot4][slot15]
 
 			updateDrop(slot16, {

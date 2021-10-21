@@ -4,9 +4,20 @@ slot0.ON_SELECT_SHIP = "ShipUpgradeMediator2:ON_SELECT_SHIP"
 slot0.NEXTSHIP = "ShipUpgradeMediator2:NEXTSHIP"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
-	slot0.viewComponent:setItems(getProxy(BagProxy):getData())
-	slot0.viewComponent:setShip(getProxy(BayProxy):getShipById(slot0.contextData.shipId))
+	slot1 = getProxy(PlayerProxy)
+	slot3 = slot0.viewComponent
+
+	slot3:setPlayer(slot1:getData())
+
+	slot3 = getProxy(BagProxy)
+	slot4 = slot0.viewComponent
+
+	slot4:setItems(slot3:getData())
+
+	slot4 = getProxy(BayProxy)
+	slot6 = slot0.viewComponent
+
+	slot6:setShip(slot4:getShipById(slot0.contextData.shipId))
 	slot0:bind(uv0.UPGRADE_SHIP, function (slot0, slot1)
 		uv0:sendNotification(GAME.UPGRADE_STAR, {
 			shipId = uv0.contextData.shipId,
@@ -71,8 +82,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:setPlayer(slot1:getBody())
+		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == GAME.UPGRADE_STAR_DONE then
 		slot0.contextData.materialShipIds = nil
 

@@ -18,9 +18,10 @@ end
 function slot0.bindEvent(slot0)
 	slot0:bind(uv0.CHAPTER_RETREAT, function (slot0, slot1)
 		slot4 = nil
+		slot4 = (not getProxy(ChapterProxy):getActiveChapter() or slot3:getShips()) and uv0.mainShips
 		slot5 = {}
 
-		for slot9, slot10 in ipairs((not getProxy(ChapterProxy):getActiveChapter() or slot3:getShips()) and uv0.mainShips) do
+		for slot9, slot10 in ipairs(slot4) do
 			slot5[#slot5 + 1] = slot10.id
 		end
 
@@ -192,8 +193,10 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.removeContextBeforeGO(slot0)
+	slot1 = getProxy(ContextProxy)
+
 	if slot0.battleSystem == SYSTEM_SCENARIO then
-		if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
+		if slot1:getContextByMediator(LevelMediator2) then
 			if slot3:getContextByMediator(ChapterPreCombatMediator) then
 				slot3:removeChild(slot4)
 			end

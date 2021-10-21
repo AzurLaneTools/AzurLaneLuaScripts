@@ -149,7 +149,9 @@ function slot0.NeedMarkAsLurk(slot0)
 
 		return slot0.flag == ChapterConst.CellFlagActive and (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxSupply or slot1.type == uv0.BoxEnemy)
 	else
-		return slot0.flag == ChapterConst.CellFlagActive and (slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite or slot0.attachment == uv0.AttachBoss or slot0.attachment == uv0.AttachStory or slot0.attachment == uv0.AttachBomb_Enemy)
+		slot1 = slot0.flag == ChapterConst.CellFlagActive and (slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite or slot0.attachment == uv0.AttachBoss or slot0.attachment == uv0.AttachStory or slot0.attachment == uv0.AttachBomb_Enemy)
+
+		return slot1
 	end
 end
 

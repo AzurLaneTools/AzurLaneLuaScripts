@@ -9,11 +9,13 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot1 = slot0._tf:Find("display")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("display")
 	slot2 = slot0._tf.rect.width / slot1.rect.width
 	slot1.localScale = Vector3.New(slot2, slot2, 0)
 	slot0.rtDesc = slot1:Find("desc")
-	slot0.rtStar = slot0.rtDesc:Find("star")
+	slot3 = slot0.rtDesc
+	slot0.rtStar = slot3:Find("star")
 
 	onButton(slot0, slot0._tf, function ()
 		if uv0.isClosing then
@@ -36,7 +38,8 @@ end
 
 function slot0.Hide(slot0)
 	slot0.isClosing = true
-	slot1 = slot0.rtDesc:InverseTransformPoint(slot0.starWorldPos)
+	slot1 = slot0.rtDesc
+	slot1 = slot1:InverseTransformPoint(slot0.starWorldPos)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)

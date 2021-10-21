@@ -150,7 +150,9 @@ function slot3.onWillDie(slot0, slot1)
 
 	slot0._dataProxy:CalcBattleScoreWhenDead(slot2)
 
-	if slot2:IsBoss() and not slot0._dataProxy:IsThereBoss() then
+	slot3 = slot0._dataProxy:IsThereBoss()
+
+	if slot2:IsBoss() and not slot3 then
 		slot0._dataProxy:KillAllEnemy()
 	end
 end

@@ -15,10 +15,11 @@ function slot0.execute(slot0, slot1)
 	slot8 = math.min(slot8, slot7 and slot7.count or 0)
 	slot12 = table.getCount(getProxy(BayProxy):getData())
 	slot13 = {}
+	slot14 = 0
 
 	for slot18, slot19 in ipairs(slot3) do
 		if slot19.state ~= BuildShip.FINISH then
-			slot14 = 0 + 1
+			slot14 = slot14 + 1
 
 			table.insert(slot13, function (slot0)
 				uv0:sendNotification(GAME.BUILD_SHIP_IMMEDIATELY, {
@@ -77,34 +78,36 @@ function slot0.execute(slot0, slot1)
 			uv3 = uv3 + 1
 		end
 
+		function slot5()
+			seriesAsync(uv0, function ()
+				slot0 = {}
+
+				if uv0 then
+					uv1:setSkipBatchBuildFlag(false)
+
+					for slot4, slot5 in ipairs(uv2) do
+						slot0[#slot0 + 1] = {
+							type = DROP_TYPE_SHIP,
+							id = slot5.configId,
+							count = 1,
+							virgin = slot5.virgin,
+							reMetaSpecialItemVO = slot5:getReMetaSpecialItemVO()
+						}
+					end
+				end
+
+				uv3:sendNotification(GAME.SKIP_BATCH_DONE, slot0)
+
+				uv4 = uv1:getFinishCount()
+
+				if uv4 > 0 then
+					NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
+				end
+			end)
+		end
+
 		if #slot1 > 0 and uv5 then
-			uv5(function ()
-				seriesAsync(uv0, function ()
-					slot0 = {}
-
-					if uv0 then
-						uv1:setSkipBatchBuildFlag(false)
-
-						for slot4, slot5 in ipairs(uv2) do
-							slot0[#slot0 + 1] = {
-								type = DROP_TYPE_SHIP,
-								id = slot5.configId,
-								count = 1,
-								virgin = slot5.virgin,
-								reMetaSpecialItemVO = slot5:getReMetaSpecialItemVO()
-							}
-						end
-					end
-
-					uv3:sendNotification(GAME.SKIP_BATCH_DONE, slot0)
-
-					uv4 = uv1:getFinishCount()
-
-					if uv4 > 0 then
-						NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
-					end
-				end)
-			end, slot4)
+			uv5(slot5, slot4)
 		else
 			slot5()
 		end

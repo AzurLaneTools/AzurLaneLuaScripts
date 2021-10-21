@@ -16,15 +16,21 @@ function slot3.GetStrategyType(slot0)
 end
 
 function slot3.generateTargetPoint(slot0)
+	slot1 = slot0._upperBound
+	slot2 = slot0._lowerBound
+
 	for slot6, slot7 in pairs(slot0._foeShipList) do
 		slot8 = slot7:GetPosition().z
-		slot1 = math.min(slot8, slot0._upperBound)
-		slot2 = math.max(slot8, slot0._lowerBound)
+		slot1 = math.min(slot8, slot1)
+		slot2 = math.max(slot8, slot2)
 	end
 
+	slot4 = uv0.FIX_FRONT
+	slot5 = slot0._fleetVO:GetLeaderPersonality().rear_rate
+
 	if slot0._fleetVO:GetIFF() == uv1.FRIENDLY_CODE then
-		slot4 = 1 - uv0.FIX_FRONT
-		slot5 = 1 - slot0._fleetVO:GetLeaderPersonality().rear_rate
+		slot4 = 1 - slot4
+		slot5 = 1 - slot5
 	end
 
 	slot10 = nil

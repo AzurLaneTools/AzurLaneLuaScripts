@@ -52,7 +52,9 @@ function slot0.StartMoveShips(slot0, slot1)
 end
 
 function slot0.LoadShip(slot0, slot1, slot2)
-	slot0.factory:MakeBoat(slot1, function (slot0)
+	slot3 = slot0.factory
+
+	slot3:MakeBoat(slot1, function (slot0)
 		slot1 = BackYardShipModel.New(slot0, uv0)
 		uv1.shipModels[uv0.id] = slot1
 
@@ -72,7 +74,9 @@ function slot0.ExitShip(slot0, slot1)
 end
 
 function slot0.StopAllBoatMove(slot0, slot1)
-	pg.UIMgr.GetInstance():LoadingOn()
+	slot2 = pg.UIMgr.GetInstance()
+
+	slot2:LoadingOn()
 
 	slot2 = {}
 	slot3 = _.values(slot0.shipModels)
@@ -115,7 +119,10 @@ function slot0.StopAllBoatMove(slot0, slot1)
 end
 
 function slot0.EnableTouch(slot0, slot1)
-	for slot5, slot6 in pairs(slot0.shipModels or {}) do
+	slot2 = pairs
+	slot3 = slot0.shipModels or {}
+
+	for slot5, slot6 in slot2(slot3) do
 		if not IsNil(slot6.go) then
 			slot6:enableTouch(slot1)
 		end
@@ -173,8 +180,10 @@ function slot0.SetInterAction(slot0, slot1, slot2, slot3, slot4)
 	if slot0.shipModels[slot2] then
 		slot5:updateBoatVO(slot0.boatVOs[slot2])
 
+		slot6 = slot0.furnitureVOs[slot3]
+
 		if slot1 then
-			slot5:updateSpineInterAction(slot0.furnitureVOs[slot3])
+			slot5:updateSpineInterAction(slot6)
 		else
 			slot5:updateInterActionPos(slot6, slot4)
 			slot5:InterActionSortSibling(slot3)
@@ -224,8 +233,10 @@ function slot0.AddSpineExtra(slot0, slot1, slot2, slot3)
 			slot0.shipModels[slot5:getSpineId()]:pauseAnim()
 
 			for slot11, slot12 in ipairs(slot5:getShipExtra()) do
+				slot13 = slot0.shipModels[slot12]
+
 				if slot12 == slot2 then
-					slot0.shipModels[slot12]:addSpineExtra(slot1, slot11)
+					slot13:addSpineExtra(slot1, slot11)
 					slot7:registerActionCB(slot12, function (slot0)
 						uv0:setAction(slot0, 0)
 					end, function ()

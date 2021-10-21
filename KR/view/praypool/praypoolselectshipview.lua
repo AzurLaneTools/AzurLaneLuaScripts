@@ -118,6 +118,7 @@ function slot0.updateSelectedShipList(slot0)
 	for slot5 = 1, 2 do
 		slot7 = slot0.selectedShipTF[slot5]
 		slot8 = slot0:findTF("Paint", slot7)
+		slot9 = slot0:findTF("Tip", slot7)
 		slot10 = slot0:findTF("Info", slot7)
 		slot11 = slot0:findTF("Btn", slot7)
 		slot12 = slot0:findTF("Name/Text", slot10)
@@ -127,7 +128,7 @@ function slot0.updateSelectedShipList(slot0)
 		if slot1[slot5] then
 			setActive(slot8, true)
 			setPaintingPrefabAsync(slot8, Ship.getPaintingName(slot6), "biandui")
-			setActive(slot0:findTF("Tip", slot7), false)
+			setActive(slot9, false)
 			setActive(slot10, true)
 
 			slot15 = pg.ship_data_statistics[slot6].name
@@ -208,8 +209,10 @@ function slot0.updateShipList(slot0, slot1)
 		setImageSprite(uv1:findTF("BG", slot1), GetSpriteFromAtlas("weaponframes", "bg" .. slot6))
 		setText(uv1:findTF("NameBG/NameText", slot1), shortenString(pg.ship_data_statistics[slot2].name, 6))
 
+		slot10 = uv1:findTF("BG/SelectedImg", slot1)
+
 		if table.indexof(uv2, slot2, 1) then
-			SetActive(uv1:findTF("BG/SelectedImg", slot1), true)
+			SetActive(slot10, true)
 		else
 			SetActive(slot10, false)
 		end

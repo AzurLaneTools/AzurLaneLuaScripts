@@ -44,10 +44,11 @@ function slot0.initData(slot0)
 	slot0.pageIDList = {}
 
 	for slot4 = 1, uv0.PAGE_NUM do
+		slot5 = uv0.INDEX_CONVERT[slot4]
 		slot0.pageIDList[slot4] = {}
 
 		for slot9 = 1, uv0.MEDAL_NUM_PER_PAGE do
-			slot0.pageIDList[slot4][slot9] = slot0.allIDList[(uv0.INDEX_CONVERT[slot4] - 1) * uv0.MEDAL_NUM_PER_PAGE + slot9]
+			slot0.pageIDList[slot4][slot9] = slot0.allIDList[(slot5 - 1) * uv0.MEDAL_NUM_PER_PAGE + slot9]
 		end
 	end
 
@@ -147,9 +148,10 @@ function slot0.updatePhotoNode(slot0, slot1, slot2)
 	slot3 = slot0:findTF("task", slot0.photoNode)
 	slot4 = slot0:findTF("get", slot0.photoNode)
 	slot5 = slot0:findTF("got", slot0.photoNode)
+	slot7 = (slot0.curPage - 1) * uv0.MEDAL_NUM_PER_PAGE + 1
 
 	if slot0:getMedalStatus(slot1) == uv0.MEDAL_STATUS_UNACTIVATED then
-		LoadSpriteAtlasAsync("ui/idolmastermedalcollectionui_atlas", "task" .. (slot0.curPage - 1) * uv0.MEDAL_NUM_PER_PAGE + 1, function (slot0)
+		LoadSpriteAtlasAsync("ui/idolmastermedalcollectionui_atlas", "task" .. slot7, function (slot0)
 			setImageSprite(uv0, slot0, true)
 			setActive(uv0, true)
 		end)
@@ -168,8 +170,9 @@ function slot0.updatePhotoNode(slot0, slot1, slot2)
 				end
 
 				GetComponent(uv0.photo, typeof(CanvasGroup)).alpha = 0
+				slot1 = LeanTween.value(go(uv0.photo), 0, 1, 0.3)
 
-				LeanTween.value(go(uv0.photo), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
+				slot1:setOnUpdate(System.Action_float(function (slot0)
 					GetComponent(uv0.photo, typeof(CanvasGroup)).alpha = slot0
 				end))
 				setActive(uv0.photo, true)
@@ -200,9 +203,10 @@ function slot0.updateInfoNode(slot0, slot1)
 	slot2 = slot0:findTF("task", slot0.infoNode)
 	slot3 = slot0:findTF("get", slot0.infoNode)
 	slot4 = slot0:findTF("got", slot0.infoNode)
+	slot6 = (slot0.curPage - 1) * uv0.MEDAL_NUM_PER_PAGE + 2
 
 	if slot0:getMedalStatus(slot1) == uv0.MEDAL_STATUS_UNACTIVATED then
-		LoadSpriteAtlasAsync("ui/idolmastermedalcollectionui_atlas", "task" .. (slot0.curPage - 1) * uv0.MEDAL_NUM_PER_PAGE + 2, function (slot0)
+		LoadSpriteAtlasAsync("ui/idolmastermedalcollectionui_atlas", "task" .. slot6, function (slot0)
 			setImageSprite(uv0, slot0, true)
 			setActive(uv0, true)
 		end)
@@ -233,8 +237,10 @@ end
 
 function slot0.updateSwitchBtnTF(slot0)
 	for slot4, slot5 in ipairs(slot0.switchBtnList) do
+		slot6 = slot0:findTF("tip", slot5)
+
 		if slot0:caculateActivatable(slot4) == 0 or slot4 == slot0.curPage then
-			setActive(slot0:findTF("tip", slot5), false)
+			setActive(slot6, false)
 		end
 
 		if slot7 > 0 and slot4 ~= slot0.curPage then
@@ -265,8 +271,13 @@ function slot0.isHaveActivableMedal()
 		return
 	end
 
+	slot1 = slot0.data1_list
+	slot2 = slot0.data2_list
+
 	for slot7, slot8 in ipairs(slot0:getConfig("config_data")) do
-		if not table.contains(slot0.data2_list, slot8) and table.contains(slot0.data1_list, slot8) then
+		slot10 = table.contains(slot1, slot8)
+
+		if not table.contains(slot2, slot8) and slot10 then
 			return true
 		end
 	end
@@ -275,9 +286,13 @@ function slot0.isHaveActivableMedal()
 end
 
 function slot0.caculateActivatable(slot0, slot1)
+	slot3 = 0
+
 	for slot7, slot8 in ipairs(slot0.pageIDList[slot1]) do
-		if not table.contains(slot0.activeIDList, slot8) and table.contains(slot0.activatableIDList, slot8) then
-			slot3 = 0 + 1
+		slot10 = table.contains(slot0.activatableIDList, slot8)
+
+		if not table.contains(slot0.activeIDList, slot8) and slot10 then
+			slot3 = slot3 + 1
 		end
 	end
 

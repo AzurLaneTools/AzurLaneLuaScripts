@@ -25,12 +25,13 @@ end
 
 function slot12(slot0, slot1)
 	slot2 = slot0.__index
+	slot3 = {}
 
 	for slot7, slot8 in uv0(slot1) do
 		slot9, slot10 = slot8()
 
 		if slot10 == LuaInterface.InjectType.Replace or slot10 == LuaInterface.InjectType.ReplaceWithPostInvokeBase or slot10 == LuaInterface.InjectType.ReplaceWithPreInvokeBase then
-			uv1({}, slot7, slot9)
+			uv1(slot3, slot7, slot9)
 		end
 	end
 
@@ -72,7 +73,7 @@ function InjectByName(slot0, slot1)
 			uv3(uv4.format("Function %s Doesn't Exist In Module %s", slot6, slot0))
 		end
 
-		uv6.CacheInjectFunction(slot10, slot9:ToInt(), slot8)
+		uv6.CacheInjectFunction(slot10, slot9.ToInt(slot9), slot8)
 	end
 end
 

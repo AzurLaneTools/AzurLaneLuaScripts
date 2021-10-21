@@ -205,7 +205,9 @@ function slot0.updateTotalConsume(slot0, slot1)
 end
 
 function slot0.openFoodShop(slot0, slot1)
-	slot0.foodMsgBox:Show(slot1, function (slot0)
+	slot2 = slot0.foodMsgBox
+
+	slot2:Show(slot1, function (slot0)
 		if uv0.playerVO[id2res(slot0.resourceType)] < slot0.resourceNum * slot0.count then
 			if slot0.resourceType == 4 then
 				GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
@@ -230,7 +232,9 @@ function slot0.openExtendPanel(slot0)
 		return
 	end
 
-	slot0.extendPanel:Show(slot1, slot0.capacity, function (slot0)
+	slot2 = slot0.extendPanel
+
+	slot2:Show(slot1, slot0.capacity, function (slot0)
 		if uv0.playerVO[id2res(slot0.resType)] < slot0.resCount then
 			if slot0.resType == 4 then
 				GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
@@ -265,13 +269,15 @@ function slot0.calFoodLeftTime(slot0, slot1)
 
 	slot2 = table.getCount(slot0.addExpShipVOs)
 
+	function slot3(slot0)
+		SetActive(uv0.leftTimeTF, true)
+		SetActive(uv0.chatContain, false)
+		SetActive(uv0.bottomText, false)
+		setText(uv0.leftTimeTF, slot0)
+	end
+
 	if slot1.food <= 0 then
-		(function (slot0)
-			SetActive(uv0.leftTimeTF, true)
-			SetActive(uv0.chatContain, false)
-			SetActive(uv0.bottomText, false)
-			setText(uv0.leftTimeTF, slot0)
-		end)(i18n("backyard_backyardGranaryLayer_word"))
+		slot3(i18n("backyard_backyardGranaryLayer_word"))
 
 		return
 	end

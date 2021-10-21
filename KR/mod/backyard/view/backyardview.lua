@@ -56,10 +56,11 @@ function slot0.OnInit(slot0)
 	slot0.furnitureDescWindow = FurnitureDescWindow.New(slot0:findTF("desc_panel"))
 
 	slot0.furnitureDescWindow:SetUp(function (slot0, slot1, slot2)
+		slot3 = uv0.furnitureModals[slot0]
 		slot5 = slot2.effect
 
 		if slot2.action then
-			uv0.furnitureModals[slot0]:PlayAnim(slot4)
+			slot3:PlayAnim(slot4)
 		end
 
 		if slot1 then
@@ -95,7 +96,10 @@ function slot0.enableDecorateMode(slot0, slot1)
 
 	slot0.shipsView:EnableTouch(slot1)
 
-	for slot6, slot7 in pairs(slot0.furnitureModals or {}) do
+	slot3 = pairs
+	slot4 = slot0.furnitureModals or {}
+
+	for slot6, slot7 in slot3(slot4) do
 		if not slot0.furnitureVOs[slot6]:canBeTouch() then
 			slot7:EnableTouch(slot1)
 		end
@@ -261,15 +265,14 @@ function slot0.updateHouseArea(slot0, slot1)
 			end
 		end
 
+		slot6 = {}
 		slot10 = "||"
 
 		for slot10, slot11 in ipairs(string.split(i18n("backyard_extendArea_tip", 1, uv1.itemVO.count), slot10)) do
-			-- Nothing
+			slot6["text" .. slot10] = slot11
 		end
 
-		uv1.msgBoxWindow:Show({
-			["text" .. slot10] = slot11
-		}, uv1.itemVO, slot4)
+		uv1.msgBoxWindow:Show(slot6, uv1.itemVO, slot4)
 	end, SFX_PANEL)
 	slot0:loadWallPaper(slot0.wallPaperVO, Furniture.TYPE_WALLPAPER)
 	slot0:loadWallPaper(slot0.floorPaperVO, Furniture.TYPE_FLOORPAPER)
@@ -305,9 +308,10 @@ end
 
 function slot0.removeItem(slot0, slot1)
 	slot2 = nil
+	slot2 = (slot1:hasParent() or slot0.map) and slot0.maps[slot1.parent]
 
 	if slot0.furnitureModals[slot1.id] then
-		slot3:RemoveItem((slot1:hasParent() or slot0.map) and slot0.maps[slot1.parent])
+		slot3:RemoveItem(slot2)
 	end
 end
 
@@ -414,7 +418,9 @@ function slot0.LoadVisitorShip(slot0, slot1)
 			uv0(slot0)
 		end,
 		function (slot0)
-			if uv0:GetVisitorShip() and getProxy(PlayerProxy):getData():GetCommonFlag(SHOW_FIREND_BACKYARD_SHIP_FLAG) then
+			slot3 = getProxy(PlayerProxy):getData():GetCommonFlag(SHOW_FIREND_BACKYARD_SHIP_FLAG)
+
+			if uv0:GetVisitorShip() and slot3 then
 				slot1.isVisitor = true
 
 				uv1:emit(BackyardMainMediator.ADD_VISITOR_SHIP, slot1)
@@ -435,7 +441,9 @@ function slot0.loadWallPaper(slot0, slot1, slot2)
 end
 
 function slot0.loadFurnitureModel(slot0, slot1, slot2, slot3)
-	slot0.factory:Make(slot1, function (slot0)
+	slot5 = slot0.factory
+
+	slot5:Make(slot1, function (slot0)
 		if uv0.isExist then
 			if uv1 then
 				uv1()
@@ -627,7 +635,10 @@ function slot0.removeFurn(slot0, slot1)
 	end
 
 	if slot1:hasStageShip() then
-		for slot6, slot7 in pairs(slot1:getStageShip() or {}) do
+		slot3 = pairs
+		slot4 = slot1:getStageShip() or {}
+
+		for slot6, slot7 in slot3(slot4) do
 			slot0.shipsView:CancelInterAction(slot7)
 			slot0.shipsView:ClearStageInterAction(slot7)
 		end
@@ -709,9 +720,11 @@ function slot0.furnitureEndDrag(slot0, slot1, slot2)
 		return
 	end
 
+	slot4 = slot0.houseVO:limitWallFurnWidth(slot1, slot2)
+
 	slot0.furnitureModals[slot2.id]:changeGridColor({})
 
-	if not slot2:isFloor() and not slot0.houseVO:isLimitWallBound(slot2, slot0.houseVO:limitWallFurnWidth(slot1, slot2)) then
+	if not slot2:isFloor() and not slot0.houseVO:isLimitWallBound(slot2, slot4) then
 		slot4 = slot0.houseVO:getWallBound(slot1, slot2)
 	end
 
@@ -752,20 +765,24 @@ function slot0.furnitureEndDrag(slot0, slot1, slot2)
 		end, slot3)
 	end
 
+	function slot8()
+		uv0:emit(BackyardMainMediator.FURNITURE_POS_CHNAGE, uv1.id, uv2, uv0.houseVO:isLocaledAndPutOn() and slot0.id or slot0)
+		uv3()
+	end
+
 	if (function (slot0, slot1)
 		return uv0.houseVO:isLegalPos(slot0, slot1)
 	end)(slot2, slot4) then
-		(function ()
-			uv0:emit(BackyardMainMediator.FURNITURE_POS_CHNAGE, uv1.id, uv2, uv0.houseVO:isLocaledAndPutOn() and slot0.id or slot0)
-			uv3()
-		end)()
+		slot8()
 	else
 		slot7(slot2)
 	end
 end
 
 function slot0.sortAllMat(slot0)
-	_.each(slot0.houseVO:getMats(), function (slot0)
+	slot1 = slot0.houseVO
+
+	_.each(slot1:getMats(), function (slot0)
 		if uv0.furnitureModals[slot0.id] then
 			slot1:SetAsLastSibling()
 		end
@@ -916,7 +933,9 @@ function slot0.clearSpineExtra(slot0, slot1, slot2, slot3)
 end
 
 function slot0.StartFolloweInterAction(slot0, slot1, slot2)
-	slot0.factory:Make(BackyardFurnitureVO.New({
+	slot5 = slot0.factory
+
+	slot5:Make(BackyardFurnitureVO.New({
 		id = slot2
 	}), function (slot0)
 		uv0.followeModals[uv1] = BackYardFurnitureModel.New(slot0, uv2, uv0.backyardPoolMgr)

@@ -82,17 +82,23 @@ function slot0.Show(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.Flush(slot0, slot1)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	slot2 = pg.UIMgr.GetInstance()
+
+	slot2:BlurPanel(slot0._tf)
 	setActive(slot0._tf, true)
-	slot0._tf:SetAsLastSibling()
+
+	slot2 = slot0._tf
+
+	slot2:SetAsLastSibling()
 	slot0.onShowCallBack(slot0.buttonPos)
 
 	slot2 = slot0.guildVO
 	slot3 = slot0.memberVO
 	slot0.infonameTF.text = slot3.name
 	slot4 = AttireFrame.attireFrameRes(slot3, isSelf, AttireConst.TYPE_ICON_FRAME, slot3.propose)
+	slot5 = PoolMgr.GetInstance()
 
-	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot4, slot4, true, function (slot0)
+	slot5:GetPrefab("IconFrame/" .. slot4, slot4, true, function (slot0)
 		if IsNil(uv0._tf) then
 			return
 		end
@@ -106,10 +112,13 @@ function slot0.Flush(slot0, slot1)
 			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. uv1, uv1, slot0)
 		end
 	end)
-	LoadSpriteAsync("qicon/" .. Ship.New({
+
+	slot6 = Ship.New({
 		configId = slot3.icon,
 		skin_id = slot3.skinId
-	}):getPainting(), function (slot0)
+	})
+
+	LoadSpriteAsync("qicon/" .. slot6:getPainting(), function (slot0)
 		if not IsNil(uv0.infoiconTF) then
 			uv0.infoiconTF.sprite = slot0
 		end
@@ -132,8 +141,10 @@ function slot0.Flush(slot0, slot1)
 
 		setText(slot14:Find("tag"), slot13.tag)
 
+		slot15 = slot14:Find("tag (1)")
+
 		if slot13.type == 1 then
-			setText(slot14:Find("tag (1)"), slot1[slot13.value])
+			setText(slot15, slot1[slot13.value])
 		elseif slot13.type == 2 then
 			setText(slot15, string.format("%0.2f", math.max(slot1[slot13.value[2]], 0) / math.max(slot1[slot13.value[1]], 1) * 100) .. "%")
 		elseif slot13.type == 3 then

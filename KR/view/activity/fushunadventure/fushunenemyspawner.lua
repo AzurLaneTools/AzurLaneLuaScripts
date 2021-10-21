@@ -60,8 +60,9 @@ function slot0.Spawn(slot0)
 	slot0.index = slot0.index + 1
 	slot2 = slot0.index
 	slot3 = slot0:GetConfigByScore(slot0.score)
+	slot4 = pg.fushunLoader
 
-	pg.fushunLoader:GetPrefab("FushunAdventure/" .. slot3.name, "", function (slot0)
+	slot4:GetPrefab("FushunAdventure/" .. slot3.name, "", function (slot0)
 		slot0.transform:SetParent(uv0.parent, false)
 
 		if uv0.OnSpawn then
@@ -79,7 +80,9 @@ function slot0.GetConfigByScore(slot0, slot1)
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(FushunAdventureGameConst.PROPABILITES) do
-		if slot8[1][1] <= slot1 and slot1 <= slot8[1][2] then
+		slot10 = slot8[1][2]
+
+		if slot8[1][1] <= slot1 and slot1 <= slot10 then
 			slot3 = slot8
 
 			break
@@ -119,7 +122,9 @@ function slot0.CalcTime(slot0, slot1)
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(FushunAdventureGameConst.ENEMY_SPAWN_TIME_ADDITION) do
-		if slot8[1][1] <= slot1 and slot1 <= slot8[1][2] then
+		slot10 = slot8[1][2]
+
+		if slot8[1][1] <= slot1 and slot1 <= slot10 then
 			slot3 = slot8
 
 			break

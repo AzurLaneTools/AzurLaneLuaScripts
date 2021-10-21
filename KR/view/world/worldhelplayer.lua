@@ -5,18 +5,25 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.rtTitle = slot0._tf:Find("title")
-	slot0.btnBack = slot0.rtTitle:Find("btn_back")
+	slot1 = slot0._tf
+	slot0.rtTitle = slot1:Find("title")
+	slot1 = slot0.rtTitle
+	slot0.btnBack = slot1:Find("btn_back")
 
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	slot0.groupList = UIItemList.New(slot0.rtTitle:Find("toggles"), slot0.rtTitle:Find("toggles/toggle"))
+	slot2 = slot0.rtTitle
+	slot3 = slot0.rtTitle
+	slot0.groupList = UIItemList.New(slot2:Find("toggles"), slot3:Find("toggles/toggle"))
+	slot1 = slot0.groupList
 
-	slot0.groupList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			setText(slot2:Find("Text"), pg.world_help_data[uv0.titles[slot1 + 1]].name)
+			setText(slot2:Find("Text"), pg.world_help_data[uv0.titles[slot1]].name)
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
 					if uv0.curGroupId ~= uv1 then
@@ -30,10 +37,13 @@ function slot0.init(slot0)
 		end
 	end)
 
-	slot0.rtMain = slot0._tf:Find("main")
-	slot0.rtScroll = slot0.rtMain:Find("Scroll")
+	slot1 = slot0._tf
+	slot0.rtMain = slot1:Find("main")
+	slot1 = slot0.rtMain
+	slot0.rtScroll = slot1:Find("Scroll")
+	slot3 = slot0.rtMain
 
-	onButton(slot0, slot0.rtMain:Find("left"), function ()
+	onButton(slot0, slot3:Find("left"), function ()
 		if LeanTween.isTweening(go(uv0.rtScroll)) then
 			return
 		end
@@ -55,7 +65,10 @@ function slot0.init(slot0)
 			end)
 		end
 	end)
-	onButton(slot0, slot0.rtMain:Find("right"), function ()
+
+	slot3 = slot0.rtMain
+
+	onButton(slot0, slot3:Find("right"), function ()
 		if LeanTween.isTweening(go(uv0.rtScroll)) then
 			return
 		end
@@ -92,9 +105,10 @@ function slot0.setCurGroup(slot0, slot1)
 
 	table.insert(slot2, function (slot0)
 		uv0.pageList = {}
+		slot2 = nowWorld:GetProgress()
 
 		for slot6, slot7 in ipairs(pg.world_help_data[uv0.curGroupId].stage_help) do
-			if slot7[1] <= nowWorld:GetProgress() then
+			if slot7[1] <= slot2 then
 				table.insert(uv0.pageList, {
 					id = slot6,
 					path = slot7[2]
@@ -115,9 +129,14 @@ end
 
 function slot0.setCurPage(slot0, slot1)
 	slot0.curPageIndex = slot1
+	slot3 = slot0.rtMain
 
-	setText(slot0.rtMain:Find("page/Text"), slot0.curPageIndex .. "/" .. #slot0.pageList)
-	setImageAlpha(slot0.rtScroll:Find("Card"):Find("Image"), 0)
+	setText(slot3:Find("page/Text"), slot0.curPageIndex .. "/" .. #slot0.pageList)
+
+	slot2 = slot0.rtScroll
+	slot2 = slot2:Find("Card")
+
+	setImageAlpha(slot2:Find("Image"), 0)
 	GetSpriteFromAtlasAsync(slot0.pageList[slot1].path, "", function (slot0)
 		if uv0.curPageIndex == uv1 then
 			setImageSprite(uv2:Find("Image"), slot0)
@@ -150,15 +169,23 @@ end
 function slot0.toggleAnim(slot0, slot1, slot2)
 	LeanTween.cancel(slot1.gameObject)
 
+	slot3 = GetComponent(slot1, typeof(LayoutElement))
+
 	if slot2 then
-		LeanTween.value(slot1.gameObject, GetComponent(slot1, typeof(LayoutElement)).preferredWidth, 238, 0.15):setOnUpdate(System.Action_float(function (slot0)
+		slot4 = LeanTween.value(slot1.gameObject, slot3.preferredWidth, 238, 0.15)
+		slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
 			uv0.preferredWidth = slot0
-		end)):setOnComplete(System.Action(function ()
+		end))
+
+		slot4:setOnComplete(System.Action(function ()
 			setActive(uv0:Find("selected"), uv1)
 		end))
 	else
 		setActive(slot1:Find("selected"), slot2)
-		LeanTween.value(slot1.gameObject, slot3.preferredWidth, 176, 0.15):setOnUpdate(System.Action_float(function (slot0)
+
+		slot4 = LeanTween.value(slot1.gameObject, slot3.preferredWidth, 176, 0.15)
+
+		slot4:setOnUpdate(System.Action_float(function (slot0)
 			uv0.preferredWidth = slot0
 		end))
 	end
@@ -169,9 +196,10 @@ function slot0.didEnter(slot0)
 
 	slot1 = nil
 	slot0.titles = {}
+	slot2 = nowWorld:GetProgress()
 
 	for slot6, slot7 in ipairs(pg.world_help_data.all) do
-		if pg.world_help_data[slot7].stage <= nowWorld:GetProgress() then
+		if pg.world_help_data[slot7].stage <= slot2 then
 			table.insert(slot0.titles, slot7)
 
 			if slot0.contextData.titleId == slot7 then

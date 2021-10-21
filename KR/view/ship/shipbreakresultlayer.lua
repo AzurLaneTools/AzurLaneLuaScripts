@@ -47,8 +47,10 @@ function slot0.updateStatistics(slot0)
 		setText(slot11:Find("value"), slot4[slot10])
 		setText(slot11:Find("value1"), slot3[slot10])
 
+		slot12 = slot11:Find("addition")
+
 		if slot3[slot10] - slot4[slot10] == 0 then
-			setActive(slot11:Find("addition"), false)
+			setActive(slot12, false)
 		else
 			setText(slot12, "+" .. slot13)
 		end
@@ -62,17 +64,20 @@ function slot0.updateStatistics(slot0)
 	setText(slot6:Find("value"), slot7)
 	setText(slot6:Find("value1"), slot8)
 
+	slot9 = slot6:Find("addition")
+
 	if math.abs(slot8 - slot7) == 0 then
-		setActive(slot6:Find("addition"), false)
+		setActive(slot9, false)
 	else
 		setText(slot9, "+" .. slot10)
 	end
 
 	slot11 = slot1:getStar()
+	slot13 = slot0.rarePanel:Find("stars_from")
 	slot14 = slot0.rarePanel:Find("stars_to")
 
 	for slot18 = 1, slot2:getStar() do
-		setActive(slot0.rarePanel:Find("stars_from"):GetChild(slot18 - 1), true)
+		setActive(slot13:GetChild(slot18 - 1), true)
 	end
 
 	for slot18 = 1, slot11 do
@@ -128,7 +133,9 @@ function slot0.updateStatistics(slot0)
 		end
 
 		if not slot0.designBg then
-			PoolMgr.GetInstance():GetUI("raritydesign" .. slot22:getRarity(), true, function (slot0)
+			slot25 = PoolMgr.GetInstance()
+
+			slot25:GetUI("raritydesign" .. slot22:getRarity(), true, function (slot0)
 				uv0.designBg = slot0
 				uv0.designName = "raritydesign" .. uv1:getRarity()
 
@@ -155,7 +162,9 @@ function slot0.updateStatistics(slot0)
 		end
 
 		if not slot0.metaBg then
-			PoolMgr.GetInstance():GetUI("raritymeta" .. slot22:getRarity(), true, function (slot0)
+			slot25 = PoolMgr.GetInstance()
+
+			slot25:GetUI("raritymeta" .. slot22:getRarity(), true, function (slot0)
 				uv0.metaBg = slot0
 				uv0.metaName = "raritymeta" .. uv1:getRarity()
 
@@ -189,7 +198,10 @@ function slot0.updateStatistics(slot0)
 		slot0.transform:SetSiblingIndex(4)
 		setActive(slot0, true)
 	end)
-	PoolMgr.GetInstance():GetUI(slot22:isMetaShip() and "tupo_meta" or "tupo", true, function (slot0)
+
+	slot25 = PoolMgr.GetInstance()
+
+	slot25:GetUI(slot22:isMetaShip() and "tupo_meta" or "tupo", true, function (slot0)
 		slot0.transform:SetParent(uv0._tf, false)
 
 		slot0.transform.localPosition = Vector3(1, 1, 1)

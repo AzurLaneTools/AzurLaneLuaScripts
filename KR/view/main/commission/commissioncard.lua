@@ -182,11 +182,15 @@ function slot0.updateForTechnology(slot0)
 		return
 	end
 
-	if #_.select(slot0._proxy:getTechnologys(), function (slot0)
+	slot2 = slot0._proxy
+
+	if #_.select(slot2:getTechnologys(), function (slot0)
 		return slot0.state == Technology.STATE_STARTING and slot0:canFinish()
 	end) > 0 then
 		for slot7, slot8 in pairs(slot3) do
-			slot0._viewComponent:emit(CommissionInfoMediator.ON_TECH_TIME_OVER, slot8.id, function ()
+			slot9 = slot0._viewComponent
+
+			slot9:emit(CommissionInfoMediator.ON_TECH_TIME_OVER, slot8.id, function ()
 				uv0:updateForTechnology()
 			end)
 		end

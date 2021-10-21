@@ -26,13 +26,17 @@ function slot25(slot0, slot1, slot2)
 	end
 
 	if uv4 then
+		slot3 = uv5.dumpstack(slot0, uv4, uv6)
+		slot3 = slot3:gsub("%[builtin#(%d+)%]", function (slot0)
+			return uv0.ffnames[uv1(slot0)]
+		end)
+
 		if uv9 == 2 then
-			slot3, slot7 = uv5.dumpstack(slot0, uv4, uv6):gsub("%[builtin#(%d+)%]", function (slot0)
-				return uv0.ffnames[uv1(slot0)]
-			end):match("(.-) [<>] (.*)")
+			slot6, slot7 = slot3.match(slot3, "(.-) [<>] (.*)")
 
 			if slot7 then
 				slot4 = slot7
+				slot3 = slot6
 			end
 		elseif uv9 == 3 then
 			slot4 = uv5.dumpstack(slot0, "l", 1)
@@ -77,15 +81,14 @@ function slot25(slot0, slot1, slot2)
 end
 
 function slot26(slot0, slot1, slot2, slot3)
+	slot4 = {}
 	slot5 = 0
 
 	for slot9 in uv0(slot0) do
-		-- Nothing
+		slot4[slot5 + 1] = slot9
 	end
 
-	uv1({
-		[slot5 + 1] = slot9
-	}, function (slot0, slot1)
+	uv1(slot4, function (slot0, slot1)
 		return uv0[slot1] < uv0[slot0]
 	end)
 
@@ -110,12 +113,13 @@ end
 
 function slot27(slot0, slot1)
 	slot2 = {}
+	slot3 = 0
 
 	for slot7, slot8 in uv0(slot0) do
-		slot3 = uv2.max(0, slot8)
+		slot3 = uv2.max(slot3, slot8)
 
 		if uv3 <= uv1(slot8 * 100 / slot1 + 0.5) then
-			slot10, slot11 = slot7:match("^(.*):(%d+)$")
+			slot10, slot11 = slot7.match(slot7, "^(.*):(%d+)$")
 
 			if not slot10 then
 				slot10 = slot7
@@ -145,7 +149,7 @@ function slot27(slot0, slot1)
 	slot6 = uv7
 
 	for slot10, slot11 in uv8(slot2) do
-		if slot11:byte() == 40 or slot12 == 91 then
+		if slot11.byte(slot11) == 40 or slot12 == 91 then
 			uv9:write(uv10([[
 
 ====== %s ======
@@ -181,8 +185,8 @@ function slot27(slot0, slot1)
 			end
 		end
 
-		for slot21 in slot13:lines() do
-			if slot21:byte() == 27 then
+		for slot21 in slot13.lines(slot13) do
+			if slot21.byte(slot21) == 27 then
 				uv9:write("[Cannot annotate bytecode file]\n")
 
 				break
@@ -191,8 +195,10 @@ function slot27(slot0, slot1)
 			slot22 = slot15[slot16]
 
 			if slot6 ~= 0 then
+				slot23 = slot15[slot16 + slot6]
+
 				if slot17 then
-					if slot15[slot16 + slot6] then
+					if slot23 then
 						slot17 = slot16 + slot6
 					elseif slot22 then
 						slot17 = slot16
@@ -217,7 +223,7 @@ function slot27(slot0, slot1)
 			slot16 = slot16 + 1
 		end
 
-		slot13:close()
+		slot13.close(slot13)
 	end
 end
 
@@ -225,9 +231,7 @@ function slot29(slot0)
 	slot1 = ""
 	uv0 = 3
 	uv2 = 1
-	slot2 = {
-		[slot6] = slot6
-	}
+	slot2 = {}
 
 	for slot6 in slot0:gsub("i%d*", function (slot0)
 		uv0 = slot0
@@ -242,7 +246,7 @@ function slot29(slot0)
 
 		return ""
 	end):gmatch(".") do
-		-- Nothing
+		slot2[slot6] = slot6
 	end
 
 	uv3 = slot2.z or slot2.v
@@ -267,7 +271,8 @@ function slot29(slot0)
 		slot3 = "l"
 		uv6 = 3
 	else
-		uv6 = (slot3 == "" or slot0:find("[zv].*[lfF]")) and 1 or 0
+		slot5 = (slot3 == "" or slot0:find("[zv].*[lfF]")) and 1 or 0
+		uv6 = slot5
 	end
 
 	uv7 = slot2.A and 0 or slot2.a and 3
@@ -285,14 +290,15 @@ function slot29(slot0)
 	elseif slot3 == "" then
 		uv8 = false
 	else
-		uv8 = slot4 .. (uv6 == 3 and slot2.f or slot2.F or slot3) .. (uv2 >= 0 and "Z < " or "Z > ")
+		slot5 = uv6 == 3 and slot2.f or slot2.F or slot3
+		uv8 = slot4 .. slot5 .. (uv2 >= 0 and "Z < " or "Z > ")
 	end
 
 	uv9 = {}
 	uv10 = {}
 	uv11 = 0
 
-	uv12.start(slot3:lower() .. slot1, uv13)
+	uv12.start(slot3.lower(slot3) .. slot1, uv13)
 
 	uv14 = newproxy(true)
 	getmetatable(uv14).__gc = uv15

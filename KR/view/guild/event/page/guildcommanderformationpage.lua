@@ -68,9 +68,10 @@ end
 function slot0.Update(slot0, slot1, slot2)
 	slot0.fleet = slot1
 	slot0.prefabFleets = slot2
+	slot3 = slot0.fleet:getCommanders()
 
 	for slot7 = 1, CommanderConst.MAX_FORMATION_POS do
-		slot0:updateCommander(slot0["pos" .. slot7], slot7, slot0.fleet:getCommanders()[slot7])
+		slot0:updateCommander(slot0["pos" .. slot7], slot7, slot3[slot7])
 	end
 
 	slot0:updateDesc()
@@ -110,7 +111,10 @@ function slot0.closeDescPanel(slot0, slot1)
 	setAnchoredPosition(slot0.descFrameTF, {
 		x = -108
 	})
-	LeanTween.moveX(slot0.descFrameTF, 1500, slot2):setOnComplete(System.Action(function ()
+
+	slot3 = LeanTween.moveX(slot0.descFrameTF, 1500, slot2)
+
+	slot3:setOnComplete(System.Action(function ()
 		setActive(uv0.descPanel, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0._tf, uv0._parentTf)
 		setAnchoredPosition(uv0.samllTF, {
@@ -123,8 +127,10 @@ function slot0.closeDescPanel(slot0, slot1)
 end
 
 function slot0.updateDesc(slot0)
+	slot1 = slot0.fleet:getCommanders()
+
 	for slot5 = 1, CommanderConst.MAX_FORMATION_POS do
-		slot6 = slot0.fleet:getCommanders()[slot5]
+		slot6 = slot1[slot5]
 
 		slot0:updateCommander(slot0["descPos" .. slot5], slot5, slot6, true)
 		slot0:updateSkillTF(slot6, slot0["skillTFPos" .. slot5])
@@ -217,8 +223,10 @@ function slot0.OpenRecordPanel(slot0)
 end
 
 function slot0.updateRecordPanel(slot0)
+	slot1 = slot0.fleet:getCommanders()
+
 	for slot5, slot6 in ipairs(slot0.recordCommanders) do
-		slot7 = slot0.fleet:getCommanders()[slot5]
+		slot7 = slot1[slot5]
 
 		slot0:updateCommander(slot6, slot5, slot7)
 		slot0:updateSkillTF(slot7, slot0.reocrdSkills[slot5])
@@ -272,6 +280,11 @@ function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
 		})
 	end, SFX_PANEL)
 
+	slot7 = {
+		slot2:Find("commander1/skill_info"),
+		slot2:Find("commander2/skill_info")
+	}
+
 	for slot11, slot12 in ipairs({
 		slot2:Find("commander1/frame/info"),
 		slot2:Find("commander2/frame/info")
@@ -279,10 +292,7 @@ function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
 		slot13 = slot1:getCommanderByPos(slot11)
 
 		slot0:updateCommander(slot12, slot11, slot13)
-		slot0:updateSkillTF(slot13, ({
-			slot2:Find("commander1/skill_info"),
-			slot2:Find("commander2/skill_info")
-		})[slot11])
+		slot0:updateSkillTF(slot13, slot7[slot11])
 	end
 end
 

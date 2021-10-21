@@ -54,8 +54,14 @@ end
 
 function slot0.loadChar(slot0)
 	if not slot0.shipPrefab then
-		pg.UIMgr.GetInstance():LoadingOn()
-		PoolMgr.GetInstance():GetSpineChar(slot0.shipVO:getPrefab(), true, function (slot0)
+		slot1 = slot0.shipVO
+		slot2 = pg.UIMgr.GetInstance()
+
+		slot2:LoadingOn()
+
+		slot2 = PoolMgr.GetInstance()
+
+		slot2:GetSpineChar(slot1:getPrefab(), true, function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
 			uv0.shipPrefab = uv1
@@ -256,9 +262,10 @@ end
 
 function slot0.getStages(slot0)
 	slot1 = {}
+	slot2 = math.floor(slot0.shipVO.configId / 10)
 
 	for slot6 = 1, 4 do
-		table.insert(slot1, tonumber(math.floor(slot0.shipVO.configId / 10) .. slot6))
+		table.insert(slot1, tonumber(slot2 .. slot6))
 	end
 
 	return slot1
@@ -286,8 +293,10 @@ function slot0.updateBattleView(slot0)
 
 		onToggle(slot0, slot0:findTF("stage" .. slot4, slot0.stages), function (slot0)
 			if slot0 then
+				slot1 = uv0.breakout_view
+
 				for slot5, slot6 in ipairs(uv0.ultimate_bonus) do
-					slot1 = uv0.breakout_view .. "/" .. i18n(uv1[slot6])
+					slot1 = slot1 .. "/" .. i18n(uv1[slot6])
 				end
 
 				changeToScrollText(uv2.breakView, slot1)
@@ -315,10 +324,17 @@ slot3 = {
 
 function slot0.showBarrage(slot0)
 	slot0.previewer = WeaponPreviewer.New(slot0.rawImage)
+	slot1 = slot0.previewer
 
-	slot0.previewer:configUI(slot0.healTF)
-	slot0.previewer:setDisplayWeapon(slot0:getWaponIdsById(slot0.breakOutId))
-	slot0.previewer:load(40000, slot0.shipVO, slot0:getAllWeaponIds(), function ()
+	slot1:configUI(slot0.healTF)
+
+	slot1 = slot0.previewer
+
+	slot1:setDisplayWeapon(slot0:getWaponIdsById(slot0.breakOutId))
+
+	slot1 = slot0.previewer
+
+	slot1:load(40000, slot0.shipVO, slot0:getAllWeaponIds(), function ()
 		uv0:stopLoadingAni()
 	end)
 end
@@ -371,6 +387,7 @@ function slot0.updateBreakOutView(slot0, slot1)
 	slot1:getShipProperties().level = slot1:getMaxLevel()
 	Clone(slot1).configId = slot0.breakCfg.breakout_id
 	slot4 = {}
+	slot6 = slot1:getBattleTotalExpend()
 	slot7, slot8 = nil
 
 	setText(slot0.tipDeactive:Find("values/label"), "")
@@ -378,7 +395,7 @@ function slot0.updateBreakOutView(slot0, slot1)
 
 	if slot0.breakCfg.breakout_id == 0 then
 		slot4 = slot2
-		slot7 = slot1:getBattleTotalExpend()
+		slot7 = slot6
 
 		setText(slot9, i18n("word_level_upperLimit"))
 	else
@@ -462,6 +479,7 @@ end
 
 function slot0.initMaterialShips(slot0)
 	slot1 = slot0.breakCfg.use_char_num
+	slot2 = getProxy(BayProxy)
 
 	for slot6 = 1, 3 do
 		SetActive(slot0.itemTFs[slot6], slot6 <= slot1)
@@ -470,7 +488,7 @@ function slot0.initMaterialShips(slot0)
 		slot8 = slot0.contextData.materialShipIds
 
 		if slot6 <= slot1 and slot8 and slot8[slot6] then
-			updateShip(slot7, getProxy(BayProxy):getShipById(slot8[slot6]), {
+			updateShip(slot7, slot2:getShipById(slot8[slot6]), {
 				initStar = true
 			})
 			SetActive(slot7, true)

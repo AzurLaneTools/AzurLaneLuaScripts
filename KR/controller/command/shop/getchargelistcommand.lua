@@ -2,28 +2,31 @@ slot0 = class("GetChargeListCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(16104, {
+	slot3:Send(16104, {
 		type = 0
 	}, 16105, function (slot0)
-		slot1 = {
-			[slot7.id] = slot7
-		}
+		slot1 = {}
 
 		for slot5, slot6 in ipairs(slot0.pay_list) do
 			slot7 = Goods.Create(slot6, Goods.TYPE_CHARGE)
+			slot1[slot7.id] = slot7
 		end
 
+		slot2 = {}
+
 		for slot6, slot7 in ipairs(slot0.first_pay_list) do
-			table.insert({}, slot7)
+			table.insert(slot2, slot7)
 		end
+
+		slot3 = {}
 
 		for slot7, slot8 in ipairs(slot0.normal_list) do
 			slot9 = Goods.Create(slot8, Goods.TYPE_GIFT_PACKAGE)
+			slot3[slot9.id] = slot9
 
-			table.insert({
-				[slot9.id] = slot9
-			}, slot8)
+			table.insert(slot3, slot8)
 		end
 
 		slot4 = {}

@@ -35,7 +35,8 @@ function slot15(slot0, slot1)
 				slot7 = nil
 
 				while slot1 < slot6 do
-					slot5[#slot5 + 1], slot1 = uv4(slot0, slot1)
+					slot8, slot1 = uv4(slot0, slot1)
+					slot5[#slot5 + 1] = slot8
 				end
 
 				if slot6 < slot1 then

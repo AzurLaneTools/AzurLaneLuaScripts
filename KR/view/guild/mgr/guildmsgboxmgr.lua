@@ -142,7 +142,9 @@ function slot0.OnFinishBattle(slot0, slot1)
 	end
 
 	if getProxy(GuildProxy):getRawData() and slot1 and SYSTEM_SCENARIO <= slot1.system and slot1.system <= SYSTEM_WORLD then
-		if not slot0.taskFinished and (slot2:GetActiveWeeklyTask() and slot3:PrivateBeFinished() and slot3:SamePrivateTaskType(GuildTask.PRIVATE_TASK_TYPE_BATTLE)) then
+		slot4 = slot2:GetActiveWeeklyTask() and slot3:PrivateBeFinished() and slot3:SamePrivateTaskType(GuildTask.PRIVATE_TASK_TYPE_BATTLE)
+
+		if not slot0.taskFinished and slot4 then
 			slot0.shouldShowBattleTip = true
 		end
 	end
@@ -347,9 +349,11 @@ function slot0.CancelShouldShowBattleTip(slot0)
 end
 
 function slot0.SubmitTask(slot0, slot1)
+	slot1 = slot1 or function ()
+	end
+
 	if not getProxy(GuildProxy):getRawData() then
-		slot1 or function ()
-		end()
+		slot1()
 
 		return
 	end

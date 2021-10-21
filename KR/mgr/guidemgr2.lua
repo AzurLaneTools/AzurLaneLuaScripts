@@ -481,7 +481,10 @@ function slot0.finishCurrEvent(slot0, slot1, slot2)
 	end
 
 	if not slot1.retain then
-		for slot6, slot7 in pairs(slot0.curEvents or {}) do
+		slot3 = pairs
+		slot4 = slot0.curEvents or {}
+
+		for slot6, slot7 in slot3(slot4) do
 			if slot7 == slot1 then
 				uv0("event remove......" .. slot6)
 
@@ -538,8 +541,10 @@ function slot0.updateContent(slot0, slot1, slot2)
 end
 
 function slot0.checkTextAlign(slot0, slot1)
+	slot3 = slot1:GetComponent(typeof(Text))
+
 	if slot0:getTextRowNum(slot1) > 1 then
-		slot1:GetComponent(typeof(Text)).alignment = TextAnchor.MiddleLeft
+		slot3.alignment = TextAnchor.MiddleLeft
 	else
 		slot3.alignment = TextAnchor.MiddleCenter
 	end
@@ -958,8 +963,10 @@ function slot0.GetFlagShipId(slot0)
 end
 
 function slot0.getDailyId(slot0)
+	slot1 = pg.TimeMgr.GetInstance():GetServerWeek()
+
 	for slot6, slot7 in pairs(pg.expedition_daily_template.all) do
-		if table.contains(slot2[slot7].weekday, tonumber(pg.TimeMgr.GetInstance():GetServerWeek())) then
+		if table.contains(slot2[slot7].weekday, tonumber(slot1)) then
 			uv0("daily id >>>" .. slot7)
 
 			return slot7

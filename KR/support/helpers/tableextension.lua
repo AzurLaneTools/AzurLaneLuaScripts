@@ -1,5 +1,7 @@
 function table.indexof(slot0, slot1, slot2)
-	for slot6 = slot2 or 1, #slot0 do
+	slot3 = slot2 or 1
+
+	for slot6 = slot3, #slot0 do
 		if slot0[slot6] == slot1 then
 			return slot6
 		end
@@ -21,8 +23,9 @@ end
 function table.removebyvalue(slot0, slot1, slot2)
 	slot3 = 0
 	slot4 = 1
+	slot5 = #slot0
 
-	while slot4 <= #slot0 do
+	while slot4 <= slot5 do
 		if slot0[slot4] == slot1 then
 			table.remove(slot0, slot4)
 
@@ -200,8 +203,10 @@ function table.eachParallel(slot0, slot1, slot2)
 end
 
 function table.getCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0) do
-		slot1 = 0 + 1
+		slot1 = slot1 + 1
 	end
 
 	return slot1
@@ -249,11 +254,11 @@ function table.shallowCopy(slot0)
 		return slot0
 	end
 
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0) do
-		-- Nothing
+		slot1[slot5] = slot6
 	end
 
-	return {
-		[slot5] = slot6
-	}
+	return slot1
 end

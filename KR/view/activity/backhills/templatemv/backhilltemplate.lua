@@ -23,8 +23,10 @@ function slot0.InitFacilityCross(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.getStudents(slot0, slot1, slot2)
+	slot3 = {}
+
 	if not getProxy(ActivityProxy):getActivityById(slot0) then
-		return {}
+		return slot3
 	end
 
 	if slot5:getConfig("config_client") and slot6.ships then
@@ -55,6 +57,7 @@ function slot0.InitStudents(slot0, slot1, slot2, slot3)
 		end
 	end
 
+	slot6 = #slot5
 	slot0.academyStudents = {}
 
 	for slot10, slot11 in pairs(slot4) do
@@ -65,7 +68,7 @@ function slot0.InitStudents(slot0, slot1, slot2, slot3)
 
 			slot14:attach()
 			slot14:setPathFinder(slot0.graphPath)
-			slot14:setCurrentIndex(slot0.ChooseRandomPos(slot5, (#slot5 - 2) % #slot5 + 1) and slot13.id)
+			slot14:setCurrentIndex(slot0.ChooseRandomPos(slot5, (slot6 - 2) % #slot5 + 1) and slot13.id)
 			slot14:SetOnTransEdge(function (slot0, slot1, slot2)
 				slot0._tf:SetParent(uv0[uv0.edge2area[math.min(slot1, slot2) .. "_" .. math.max(slot1, slot2)] or uv0.edge2area.default])
 			end)
@@ -166,10 +169,11 @@ function slot0.IsMiniActNeedTip(slot0)
 end
 
 function slot0.Clone2Full(slot0, slot1, slot2)
+	slot3 = {}
 	slot4 = slot1:GetChild(0)
 
 	for slot9 = 0, slot1.childCount - 1 do
-		table.insert({}, slot1:GetChild(slot9))
+		table.insert(slot3, slot1:GetChild(slot9))
 	end
 
 	for slot9 = slot5, slot2 - 1 do

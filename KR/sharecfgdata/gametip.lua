@@ -10389,12 +10389,13 @@ _G.pg.gametip.levelScene_loop_help_tip = {
 해역 <color=#92fc63>100%</color> 달성 후 <color=#92fc63>주회 모드</color>를 오픈할 수 있습니다.
 
 "주회 모드"의 특징은 아래와 같습니다:
-1. 메인 스테이지의 어려움 모드 스테이지에서, 적 호위함대가<color=#92fc63>출현하지 않게 됩니다</color>.
-2. 이벤트 스테이지의 적 배치 및 행동 로직이 변화합니다.
-3. 이벤트 스테이지에서 아군의<color=#92fc63> 이동 제한이 해제되며</color>, 해역 지도에서 자유롭게 이동할 수 있습니다.
-4. 메인 스테이지 중 <color=#92fc63>매복과 공습은 취소됩니다.</color>
-5. 스테이지 내에서는 <color=#92fc63>편대 고정</color> 모드가 오픈됩니다.
-6. 스테이지 내 <color=#92fc63>자동 공략</color> 모드가 오픈됩니다.
+1. 일부 메인 해역에  <color=#92fc63>소모량 상한</color>이 설정됩니다. 이 상태에서, 함대 작전에 필요한 연료 중 <color=#92fc63>상한을 초과한 부분</color>은 감면됩니다.
+2. 메인 스테이지의 어려움 모드 스테이지에서, 적 호위함대가<color=#92fc63>출현하지 않게 됩니다</color>.
+3. 이벤트 스테이지의 적 배치 및 행동 로직이 변화합니다.
+4. 이벤트 스테이지에서 아군의<color=#92fc63> 이동 제한이 해제되며</color>, 해역 지도에서 자유롭게 이동할 수 있습니다.
+5. 메인 스테이지 중 <color=#92fc63>매복과 공습은 취소됩니다.</color>
+6. 스테이지 내에서는 <color=#92fc63>편대 고정</color> 모드가 오픈됩니다.
+7. 스테이지 내 <color=#92fc63>자동 공략</color> 모드가 오픈됩니다.
 
 <color=#92fc63>자동 공략</color> 모드:
 1. <color=#92fc63>자동 공략</color>은 주회 모드에서만 오픈되며, 주회 모드 첫 설정 시,자동 공략 모드가 자동 설정됩니다.
@@ -11837,6 +11838,88 @@ _G.pg.gametip.paint_hide_other_obj_tip = {
 	tip = "배경 숨기기"
 }
 
+_G.pg.gametip.help_vote = {
+	tip = {
+		{
+			info = [[
+<color=#FFDD00>2021 인기 투표 이벤트 규칙 설명</color>
+
+이벤트 설명:
+· 2021년 10월 21일부터 2021년 12월 30일까지 2021 인기 투표 이벤트가 진행됩니다.
+· 이번 인기 투표 이벤트에서 서버 합계 투표 상황이 나타납니다.
+· 2017, 2019년 투표 이벤트에서 결승 단계에 진출한 <color=#92fc63>상위 3명</color>의 캐릭터들은 <color=#92fc63>투표 전당</color>에 가입하며 인기 투표에 참여하지 않습니다.
+· 전당 캐릭터 6명을 제외한 <color=#92fc63>2021년 10월 21일 전</color>까지 게임에 등장한 캐릭터들이 투표에 참여합니다. (스페셜 프로젝트 함선 캐릭터는 투표에 참여하며, 콜라보, μ장비, META 캐릭터는 참여하지 않습니다.)
+
+
+투표권 획득 방법:
+지휘관 레벨 25 달성 시, 아래 방법을 통하여 <color=#92fc63>투표권</color>을 획득할 수 있습니다.
+· 이벤트 기간 동안, <color=#92fc63>투표 이벤트 임무</color>를 완성하여 <color=#92fc63>투표권</color> 획득
+· 이벤트 기간 동안, 출격하여 <color=#92fc63>응원 자격</color>을 얻고, 응원 자격으로<color=#92fc63>응원봉</color>을 획득. <color=#92fc63>응원봉</color> 누적 시 이벤트 화면에서 <color=#92fc63>투표권</color> 수령 가능
+
+<color=#92fc63>응원 자격</color> 획득 후, <color=#92fc63>유효 기간</color> 내 완성하지 않을 경우 사라집니다.
+
+※<color=#92fc63>메인 일반 스테이지</color> 및 <color=#92fc63>한정 이벤트 스테이지</color>에서 <color=#92fc63>응원 자격</color>을 획득할 수 있습니다.
+각 스테이지마다 획득한 <color=#92fc63>응원 자격</color>으로 산출되는 <color=#92fc63>응원봉</color> 수량은 상이합니다.
+　제3장……120
+　제4장……150
+　제5장……180
+　제6장……220
+　제7장……270
+　제8장……350
+　제9장……450
+　제10장……550
+　제11장……700
+　제12장……850
+　제13장……1000
+　제14장……1150
+
+매일 1~2번째 <color=#92fc63>응원 자격</color>은 스테이지 완료 시 자동 획득하며, <color=#92fc63>응원 자격</color> 만기 시 횟수에 포함되지 않습니다. 작전 문서 및 메인 어려움 스테이지에서는 <color=#92fc63>응원 자격</color>을 획득할 수 없습니다.
+· 매 라운드 투표 종료 시, 남은 <color=#92fc63>응원봉</color>, <color=#92fc63>투표권</color>, <color=#92fc63>응원봉 누적 진도</color>는 <color=#92fc63>초기화</color>됩니다.
+
+일정:
+이번 투표는 9단계로 나뉘어집니다.
+<color=#92fc63>예선전</color>：2021년 10월 21일 업데이트 후 ~ 11월 01일 23:59
+<color=#92fc63>예선 부활전</color>: 2021년 11월 4일 00:00 ~ 11월 08일 23:59
+<color=#92fc63>조별 경기 A조</color>: 2021년 11월 11일 00:00-11월 15일 23:59
+<color=#92fc63>조별 경기 B조</color>: 2021년 11월 18일 00:00-11월 22일 23:59
+<color=#92fc63>조별 경기 C조</color>: 2021년 11월 25일 00:00-11월 29일 23:59
+<color=#92fc63>조별 경기 D조</color>: 2021년 12월 02일 00:00-12월 06일 23:59
+<color=#92fc63>조별 경기 E조</color>: 2021년 12월 09일 00:00-12월 13일 23:59
+<color=#92fc63>결승 부활전</color>：2021년 12월 16일 00:00-12월 19일 23:59
+<color=#92fc63>결승전</color>: 2021년 12월 24일 00:00-12월 30일 23:59
+
+매 라운드 투표가 종료된 다음날 오후 12시에 해당 라운드 투표의 통계 결과가 공개됩니다.
+
+각 단계 규칙:
+<color=#92fc63>예선전</color>
+<color=#92fc63>예선전</color> 투표 결과는 캐릭터 득표 순위만 공개되며, 득표 수량은 공개되지 않습니다.
+<color=#92fc63>예선전</color>은 전당, 콜라보, μ장비, META 캐릭터 이외의 캐릭터들이 참가합니다.
+<color=#92fc63>예선전</color>에서 득표 순위 상위 200위 이내의 캐릭터들은 순위에 따라 자동으로 5개 조로 나뉘어 집니다.
+각 조는 40명으로 이루어져 <color=#92fc63>조별 경기</color>를 진행합니다.
+(순위 1의 자리 숫자가 1 또는 0이면 A조, 2 또는 9: B조, 3 또는 8: C조, 4 또는 7: D조, 5 또는 6 :E조)
+
+<color=#92fc63>예선 부활전</color>
+<color=#92fc63>예선 부활전</color>은 <color=#92fc63>예선전</color>에 진출하지 못한 <color=#92fc63>조별 경기</color> 캐릭터들이 참가합니다. 최종 득표 순위 상위 15위 이내의 캐릭터들은 <color=#92fc63>결승 부활전</color>에 진출하며, 나머지 캐릭터들은 탈락합니다.
+
+<color=#92fc63>조별 경기</color>
+<color=#92fc63>조별 경기</color>는 <color=#92fc63>예선전</color> 상위 200위 이내의 캐릭터들이 자동으로 각각 40명씩 총 5개의 조를 나누어 이루어집니다.
+각 조별로 상위 4명의 캐릭터들은 <color=#92fc63>결승전</color>에 바로 진출합니다. 5~15위는 <color=#92fc63>결승 부활전</color>에 참가합니다.
+나머지 캐릭터들은 탈락합니다.
+
+<color=#92fc63>결승 부활전</color>
+<color=#92fc63>결승 부활전</color>은 <color=#92fc63>예선 부활전</color>을 통과한 캐릭터 및 <color=#92fc63>조별 경기</color>의 각 조별 5~15위 캐릭터들이 참가합니다.
+<color=#92fc63>결승 부활전</color>에서는 상위 12명의 캐릭터들이 <color=#92fc63>결승전</color>에 진출하며, 나머지 캐릭터들은 탈락합니다.
+
+<color=#92fc63>결승전</color>
+<color=#92fc63>결승전</color>은 <color=#92fc63>조별 경기</color>의 각 조별 상위 4명의 캐릭터 및 <color=#92fc63>결승 부활전</color>의 상위 12명 캐릭터들, 총 32명의 캐릭터가 참가합니다.
+
+동표 규칙:
+<color=#92fc63>예선전</color>에서 득표 수가 동일한 상황이 발생할 경우, 먼저 해당 득표 수에 도달한 순서대로 순위가 정해집니다.
+<color=#92fc63>예선 부활전</color>, <color=#92fc63>조별 경기</color>, <color=#92fc63>결승전</color>에서 득표 수가 동일한 상황이 발생할 경우, <color=#92fc63>예선전</color>의 순위에 따라 순위가 정해집니다.]]
+		}
+	}
+}
+
 _G.pg.gametip.tips_firework_exit = {
 	tip = "불꽃 제작이 완료되지 않았습니다. 떠나시겠습니까?"
 }
@@ -11847,6 +11930,18 @@ _G.pg.gametip.result_firework_produce = {
 
 _G.pg.gametip.tag_level_narrative = {
 	tip = "스토리 "
+}
+
+_G.pg.gametip.vote_get_book = {
+	tip = "응원 자격 획득"
+}
+
+_G.pg.gametip.vote_book_is_over = {
+	tip = "이번 라운드 투표가 종료되었습니다. 응원 자격 획득 불가"
+}
+
+_G.pg.gametip.vote_fame_tip = {
+	tip = "※전당 캐릭터의 스페셜 스토리 관람 후, 캐릭터 전용 테두리가 해제됩니다: $1,$2,$3"
 }
 
 _G.pg.gametip.change_skin_secretary_ship_success = {
@@ -17678,4 +17773,68 @@ _G.pg.gametip.battlepass_complete = {
 
 _G.pg.gametip.shop_free_tag = {
 	tip = "무료"
+}
+
+_G.pg.gametip.quick_equip_tip1 = {
+	tip = "착용 중"
+}
+
+_G.pg.gametip.quick_equip_tip2 = {
+	tip = "필터"
+}
+
+_G.pg.gametip.quick_equip_tip3 = {
+	tip = "창고"
+}
+
+_G.pg.gametip.quick_equip_tip4 = {
+	tip = "조건에 맞는 장비 없음"
+}
+
+_G.pg.gametip.quick_equip_tip5 = {
+	tip = "장비 슬롯에서 변경할 장비를 선택하세요."
+}
+
+_G.pg.gametip.quick_equip_tip6 = {
+	tip = "<color=#22ff22> $1</color>에게서 <color=#22ff22>$2</color> 장비를 <color=#FF2222>해제</color>하시겠습니까?"
+}
+
+_G.pg.gametip.retire_importantequipment_tips = {
+	tip = "중요 장비는 일괄 해체할 수 없습니다. 창고에서 수동으로 해체해 주세요."
+}
+
+_G.pg.gametip.settle_rewards_title = {
+	tip = "결산 보상 획득"
+}
+
+_G.pg.gametip.settle_rewards_subtitle = {
+	tip = "SETTLE REWARDS"
+}
+
+_G.pg.gametip.total_rewards_subtitle = {
+	tip = "TOTAL REWARDS"
+}
+
+_G.pg.gametip.settle_rewards_text = {
+	tip = "결산 보상"
+}
+
+_G.pg.gametip.use_oil_limit_help = {
+	tip = "현재 함대의 연료 소모량은 <icon name=oil w=0.7 h=0.7/>으로 상한을 초과하여, 이번 전투 소모량이 <icon name=oil w=0.7 h=0.7/>$1에서 <icon name=oil w=0.7 h=0.7/>$2로 감소합니다."
+}
+
+_G.pg.gametip.formationScene_use_oil_limit_tip = {
+	tip = "주회 모드 소모량 상한:"
+}
+
+_G.pg.gametip.formationScene_use_oil_limit_enemy = {
+	tip = "도중"
+}
+
+_G.pg.gametip.formationScene_use_oil_limit_flagship = {
+	tip = "기함"
+}
+
+_G.pg.gametip.formationScene_use_oil_limit_submarine = {
+	tip = "잠수함"
 }

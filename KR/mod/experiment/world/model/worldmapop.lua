@@ -77,8 +77,10 @@ function slot0.Apply(slot0)
 		elseif slot6 == WorldMapAttachment.EffectEventProgress then
 			slot2:UpdateProgress(math.max(slot2:GetProgress(), slot7[1]))
 		elseif slot6 == WorldMapAttachment.EffectEventDeleteTask then
+			slot8 = slot2:GetTaskProxy()
+
 			for slot12, slot13 in ipairs(slot7) do
-				slot2:GetTaskProxy():deleteTask(slot13)
+				slot8:deleteTask(slot13)
 			end
 		elseif slot6 == WorldMapAttachment.EffectEventGlobalBuff then
 			slot2:AddGlobalBuff(slot7[1], slot7[2])
@@ -226,10 +228,13 @@ function slot0.Apply(slot0)
 end
 
 function slot0.ApplyAttachmentUpdate(slot0)
+	slot1 = getProxy(WorldProxy)
+	slot3 = nowWorld:GetActiveMap()
+
 	if slot0.updateAttachmentCells then
 		slot7 = slot0.updateAttachmentCells
 
-		getProxy(WorldProxy):UpdateMapAttachmentCells(nowWorld:GetActiveMap().id, slot7)
+		slot1:UpdateMapAttachmentCells(slot3.id, slot7)
 
 		for slot7, slot8 in pairs(slot0.updateAttachmentCells) do
 			slot9 = slot3:GetCell(slot8.pos.row, slot8.pos.column)

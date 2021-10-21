@@ -203,10 +203,11 @@ function slot6.updateSecondaryAttr(slot0, slot1, slot2)
 	end
 
 	slot3 = slot0._secondaryAttrList[slot1].tf
+	slot4 = slot0._unit:GetAttrByName(slot1)
 
 	if slot0._secondaryAttrList[slot1].value ~= slot2 then
 		setText(slot3:Find("current"), slot2)
-		uv0.setDeltaText(slot3:Find("delta"), slot0._unit:GetAttrByName(slot1) - slot5)
+		uv0.setDeltaText(slot3:Find("delta"), slot4 - slot5)
 	end
 end
 
@@ -258,8 +259,10 @@ function slot6.updateWeaponList(slot0)
 			setText(slot9:Find("common/index"), slot7:GetEquipmentIndex())
 			setText(slot9:Find("common/templateID"), slot7:GetTemplateData().id)
 
+			slot11 = slot9:Find("common/icon")
+
 			if slot7:GetSrcEquipmentID() then
-				GetImageSpriteFromAtlasAsync("equips/" .. uv1.GetWeaponDataFromID(slot10).icon, "", slot9:Find("common/icon"))
+				GetImageSpriteFromAtlasAsync("equips/" .. uv1.GetWeaponDataFromID(slot10).icon, "", slot11)
 			else
 				setActive(slot11, false)
 			end
@@ -312,12 +315,10 @@ function slot6.updateBulletAttrBuff(slot0, slot1)
 	slot3 = slot2.tf
 	slot5 = slot3:Find("weapon_attr_tpl")
 	slot6 = slot3:Find("weapon_attr_container")
-	slot7 = {
-		[slot11] = true
-	}
+	slot7 = {}
 
 	for slot11, slot12 in pairs(slot2.data) do
-		-- Nothing
+		slot7[slot11] = true
 	end
 
 	for slot11, slot12 in pairs(slot0._unit:GetBuffList()) do
@@ -396,10 +397,12 @@ end
 function slot6.updateCastEffectTpl(slot0, slot1)
 	slot2 = slot0._skillList[slot1]
 	slot3 = slot2.tf
+	slot5 = 0
+	slot6 = 0
 
 	for slot10, slot11 in ipairs(slot2.effectList) do
-		slot5 = 0 + slot11:GetCastCount()
-		slot6 = 0 + slot11:GetSkillFireDamageSum()
+		slot5 = slot5 + slot11:GetCastCount()
+		slot6 = slot6 + slot11:GetSkillFireDamageSum()
 	end
 
 	slot7 = slot3:Find("common")

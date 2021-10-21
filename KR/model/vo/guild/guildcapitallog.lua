@@ -16,10 +16,12 @@ end
 
 function slot0.buildText(slot0)
 	slot1 = ""
+	slot2 = pg.TimeMgr:GetInstance():STimeDescC(slot0.time)
+	slot3 = slot0.eventTarget[1]
 
 	if slot0.eventType == GuildConst.TYPE_DONATE then
 		slot5 = nil
-		slot1 = i18n("guild_donate_log", pg.TimeMgr:GetInstance():STimeDescC(slot0.time), slot0.name, slot4.consume, (pg.guild_contribution_template[slot0.eventTarget[1]].type ~= DROP_TYPE_RESOURCE or Item.New({
+		slot1 = i18n("guild_donate_log", slot2, slot0.name, slot4.consume, (pg.guild_contribution_template[slot3].type ~= DROP_TYPE_RESOURCE or Item.New({
 			id = id2ItemId(slot4.type_id)
 		}):getConfig("name")) and Item.New({
 			id = slot4.type_id

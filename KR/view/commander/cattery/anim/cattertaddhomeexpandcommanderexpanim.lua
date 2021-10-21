@@ -2,15 +2,21 @@ slot0 = class("CattertAddHomeExpAndCommanderExpAnim", import(".CatteryAddHomeExp
 
 function slot0.Ctor(slot0, slot1)
 	slot0._tf = slot1
-	slot0.expSlider = findTF(slot0._tf, "home/slider"):GetComponent(typeof(Slider))
-	slot0.levelTxt = findTF(slot0._tf, "home/level"):GetComponent(typeof(Text))
-	slot0.expTxt = findTF(slot0._tf, "home/exp"):GetComponent(typeof(Text))
+	slot2 = findTF(slot0._tf, "home/slider")
+	slot0.expSlider = slot2:GetComponent(typeof(Slider))
+	slot2 = findTF(slot0._tf, "home/level")
+	slot0.levelTxt = slot2:GetComponent(typeof(Text))
+	slot2 = findTF(slot0._tf, "home/exp")
+	slot0.expTxt = slot2:GetComponent(typeof(Text))
 	slot0.addition = findTF(slot0._tf, "home/addition")
-	slot0.additionExpTxt = slot0.addition:Find("Text"):GetComponent(typeof(Text))
+	slot2 = slot0.addition
+	slot2 = slot2:Find("Text")
+	slot0.additionExpTxt = slot2:GetComponent(typeof(Text))
 	slot0.uilist = UIItemList.New(findTF(slot0._tf, "commanders"), findTF(slot0._tf, "commanders/tpl"))
 	slot0.cards = {}
+	slot2 = slot0.uilist
 
-	slot0.uilist:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateCommander(slot2, uv0.displays[slot1 + 1])
 		end

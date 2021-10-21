@@ -4,16 +4,22 @@ slot0.OPEN_EQUIPMENTDESIGN_INDEX = "EquipmentDesignMediator:OPEN_EQUIPMENTDESIGN
 
 function slot0.register(slot0)
 	slot0.bagProxy = getProxy(BagProxy)
+	slot1 = slot0.viewComponent
+	slot3 = slot0.bagProxy
 
-	slot0.viewComponent:setItems(slot0.bagProxy:getData())
+	slot1:setItems(slot3:getData())
 
 	slot0.equipmentProxy = getProxy(EquipmentProxy)
+	slot1 = slot0.equipmentProxy
+	slot2 = slot0.viewComponent
 
-	slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
+	slot2:setCapacity(slot1:getCapacity())
 
 	slot0.playerProxy = getProxy(PlayerProxy)
+	slot2 = slot0.playerProxy
+	slot3 = slot0.viewComponent
 
-	slot0.viewComponent:setPlayer(slot0.playerProxy:getData())
+	slot3:setPlayer(slot2:getData())
 	slot0:bind(uv0.MAKE_EQUIPMENT, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.COMPOSITE_EQUIPMENT, {
 			id = slot1,

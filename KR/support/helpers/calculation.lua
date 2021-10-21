@@ -16,8 +16,10 @@ function calcAirDominanceValue(slot0, slot1)
 end
 
 function calcAirDominanceStatus(slot0, slot1, slot2)
+	slot1 = slot1 * uv0.a / (slot2 + uv0.a)
+
 	if slot0 == 0 then
-		if slot1 * uv0.a / (slot2 + uv0.a) <= uv0.x then
+		if slot1 <= uv0.x then
 			return 0
 		elseif slot1 <= uv0.y then
 			return 2

@@ -7,7 +7,9 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.Switch(slot0, slot1, slot2, slot3)
-	if slot1 and (slot0.prefab and slot0.prefab.name or "") ~= slot2 then
+	slot4 = slot0.prefab and slot0.prefab.name or ""
+
+	if slot1 and slot4 ~= slot2 then
 		if slot0.trigger then
 			triggerButton(slot0.trigger)
 
@@ -27,7 +29,9 @@ function slot0.Switch(slot0, slot1, slot2, slot3)
 end
 
 function slot0.LoadBG(slot0, slot1)
-	PoolMgr.GetInstance():GetPrefab("BackyardBG/" .. slot1, slot1, true, function (slot0)
+	slot2 = PoolMgr.GetInstance()
+
+	slot2:GetPrefab("BackyardBG/" .. slot1, slot1, true, function (slot0)
 		if uv0.exited then
 			PoolMgr.GetInstance():ReturnPrefab("BackyardBG/" .. uv1, uv1, slot0)
 		end

@@ -16,9 +16,10 @@ end
 
 function slot0.OnUpdateFlush(slot0)
 	slot0.nday = slot0.activity.data3
+	slot1 = #slot0.activity:getConfig("config_data")
 
 	if slot0.dayTF then
-		setText(slot0.dayTF, slot0.nday .. "/" .. #slot0.activity:getConfig("config_data"))
+		setText(slot0.dayTF, slot0.nday .. "/" .. slot1)
 	end
 
 	if checkExist(slot0.activity:getConfig("config_client").story, {

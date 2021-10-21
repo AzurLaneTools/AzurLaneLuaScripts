@@ -40,17 +40,20 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.OnGO, function (slot0)
 		slot1 = nowWorld
+		slot2 = uv0.contextData.fleets
 
 		if uv0.contextData.mapId then
 			uv0:sendNotification(GAME.WORLD_ACTIVATE, {
 				id = uv0.contextData.mapId,
 				enter_map_id = uv0.contextData.entranceId,
-				elite_fleet_list = slot1:FormationIds2NetIds(uv0.contextData.fleets),
+				elite_fleet_list = slot1:FormationIds2NetIds(slot2),
 				camp = slot1:GetRealm()
 			})
 		else
+			slot3 = {}
+
 			if not slot1:CompareRedeploy(slot2) then
-				table.insert({}, function (slot0)
+				table.insert(slot3, function (slot0)
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("world_redeploy_not_change"),
 						onYes = slot0
@@ -179,8 +182,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.WORLD_ACTIVATE_DONE then
-		if slot1:getBody().result == 0 then
+		if slot3.result == 0 then
 			slot0:SetFleetSuccess()
 		end
 	elseif slot2 == GAME.WORLD_FLEET_REDEPLOY_DONE then

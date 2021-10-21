@@ -14,16 +14,15 @@ function slot0.execute(slot0, slot1)
 		end
 
 		slot2 = uv0:getData()
+		slot3 = {}
 
 		for slot7, slot8 in ipairs(slot0) do
-			-- Nothing
+			slot3[slot8.id] = slot8
 		end
 
 		pg.m02:sendNotification(GAME.PUT_FURNITURE, {
 			furnsPos = StartUpBackYardCommand.GetHouseByDorm({
-				furnitures = {
-					[slot8.id] = slot8
-				}
+				furnitures = slot3
 			}):getSaveData(),
 			floor = slot1,
 			callback = function (slot0, slot1)
@@ -37,11 +36,12 @@ function slot0.execute(slot0, slot1)
 		})
 	end
 
+	slot7 = 1
 	slot9 = slot3:GetAllFurniture()
 	slot11 = {}
 
 	if slot3:IsOccupyed(uv0.GetAllFloorFurnitures(), 1) then
-		slot11 = slot3:GetUsableFurnituresForFloor(slot8, 1)
+		slot11 = slot3:GetUsableFurnituresForFloor(slot8, slot7)
 	else
 		for slot15, slot16 in pairs(slot9) do
 			table.insert(slot11, slot16)
@@ -76,12 +76,16 @@ end
 function slot0.WarpList(slot0)
 	slot1 = getProxy(DormProxy):getData()
 	slot2, slot3, slot4, slot5 = slot1:GetMapSize()
+
+	function slot6(slot0)
+		return not slot0:isPaper() and (slot0.position.x < uv0 or slot0.position.y < uv1)
+	end
+
 	slot7 = slot1.level
+	slot8 = slot1:GetAllFurniture()
 
 	for slot12 = #slot0, 1, -1 do
-		if not slot0[slot12].position or not slot1:GetAllFurniture()[slot13.id] or (function (slot0)
-			return not slot0:isPaper() and (slot0.position.x < uv0 or slot0.position.y < uv1)
-		end)(slot13) then
+		if not slot0[slot12].position or not slot8[slot13.id] or slot6(slot13) then
 			table.remove(slot0, slot12)
 		end
 	end
@@ -94,12 +98,10 @@ function slot0.WarpList(slot0)
 		end
 	end)
 
-	slot9 = {
-		[slot14.id] = slot14
-	}
+	slot9 = {}
 
 	for slot13, slot14 in ipairs(slot0) do
-		-- Nothing
+		slot9[slot14.id] = slot14
 	end
 
 	slot10 = {}
@@ -109,7 +111,10 @@ function slot0.WarpList(slot0)
 		slot17, slot18 = Dorm.checkFurnitrueData(slot16, slot9, slot7)
 
 		if not slot17 and not table.contains(slot10, slot16.id) then
-			for slot22, slot23 in pairs(slot16.child or {}) do
+			slot19 = pairs
+			slot20 = slot16.child or {}
+
+			for slot22, slot23 in slot19(slot20) do
 				table.insert(slot10, slot22)
 			end
 
@@ -129,7 +134,10 @@ function slot0.WarpList(slot0)
 		if table.contains(slot10, slot0[slot15].id) then
 			table.remove(slot0, slot15)
 		elseif slot11[slot16.id] then
-			for slot21, slot22 in pairs(slot16.child or {}) do
+			slot18 = pairs
+			slot19 = slot16.child or {}
+
+			for slot21, slot22 in slot18(slot19) do
 				if table.contains(slot17, slot21) then
 					slot16.child[slot21] = nil
 				end

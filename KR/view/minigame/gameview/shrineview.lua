@@ -29,9 +29,10 @@ end
 
 function slot0.OnSendMiniGameOPDone(slot0, slot1)
 	slot2 = slot1.argList
+	slot4 = slot2[2]
 
 	if slot2[1] == slot0.miniGameId then
-		if slot2[2] == 1 then
+		if slot4 == 1 then
 			slot0:updateView()
 			slot0:updateWitchImg()
 		elseif slot4 == 2 then
@@ -185,10 +186,16 @@ function slot0.addListener(slot0)
 	onButton(slot0, slot0.buffImg, function ()
 		uv0:updateBuffDesc()
 	end, SFX_PANEL)
-	slot0.buffDftAniEvent:SetStartEvent(function ()
+
+	slot1 = slot0.buffDftAniEvent
+
+	slot1:SetStartEvent(function ()
 		setButtonEnabled(uv0.rope, false)
 	end)
-	slot0.buffDftAniEvent:SetEndEvent(function ()
+
+	slot1 = slot0.buffDftAniEvent
+
+	slot1:SetEndEvent(function ()
 		setButtonEnabled(uv0.rope, true)
 	end)
 end
@@ -199,8 +206,13 @@ function slot0.playAnime(slot0, slot1, slot2)
 	slot0.ringSE = pg.CriMgr.GetInstance():PlaySE_V3("ui-shensheling")
 
 	if slot0.spineAnim then
-		slot0.spineAnim:SetAction("action", 0)
-		slot0.spineAnim:SetActionCallBack(function (slot0)
+		slot3 = slot0.spineAnim
+
+		slot3:SetAction("action", 0)
+
+		slot3 = slot0.spineAnim
+
+		slot3:SetActionCallBack(function (slot0)
 			if slot0 == "finish" then
 				uv0.spineAnim:SetActionCallBack(nil)
 
@@ -240,10 +252,11 @@ function slot0.updateBuff(slot0, slot1)
 		setImageSprite(slot0.buffImg, GetSpriteFromAtlas("ui/shrineui_atlas", "buff_type_" .. slot1, true))
 		setActive(slot0.buffImg, true)
 	else
+		slot3 = slot0:GetMGData():getConfig("config_data")[2]
 		slot4 = nil
 
 		for slot8, slot9 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
-			if table.indexof(slot0:GetMGData():getConfig("config_data")[2], slot9.id, 1) then
+			if table.indexof(slot3, slot9.id, 1) then
 				if pg.TimeMgr.GetInstance():GetServerTime() < slot9.timestamp then
 					setImageSprite(slot0.buffImg, GetSpriteFromAtlas("ui/shrineui_atlas", "buff_type_" .. slot4, true))
 					setActive(slot0.buffImg, true)
@@ -267,8 +280,10 @@ function slot0.updateBuffDesc(slot0)
 	slot1 = nil
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot2:isEnd() then
+		slot3 = slot0:GetMGData():getConfig("config_data")[2]
+
 		for slot8, slot9 in pairs(getProxy(PlayerProxy):getData().buff_list) do
-			if table.contains(slot0:GetMGData():getConfig("config_data")[2], slot9.id) then
+			if table.contains(slot3, slot9.id) then
 				slot1 = ActivityBuff.New(slot2.id, slot9.id, slot9.timestamp)
 
 				break
@@ -284,9 +299,13 @@ function slot0.updateBuffDesc(slot0)
 		slot0._buffTextTimer:Stop()
 	end
 
+	slot3 = slot1:getConfig("desc")
+
 	if slot1:getConfig("max_time") > 0 then
+		slot5 = pg.TimeMgr.GetInstance():GetServerTime()
+
 		if slot1.timestamp then
-			setText(slot0.buffText:Find("Text"), string.gsub(slot1:getConfig("desc"), "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(slot6 - pg.TimeMgr.GetInstance():GetServerTime())))
+			setText(slot0.buffText:Find("Text"), string.gsub(slot3, "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(slot6 - slot5)))
 
 			slot0._buffTimeCountDownTimer = Timer.New(function ()
 				if uv0 > 0 then

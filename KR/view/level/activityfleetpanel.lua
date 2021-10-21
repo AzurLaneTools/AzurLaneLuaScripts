@@ -93,6 +93,8 @@ end
 function slot0.updateFleet(slot0, slot1, slot2)
 	slot0:updateCommanderBtn(slot1, slot2)
 
+	slot3 = slot0.fleets[slot1][slot2]
+	slot4 = slot2 <= slot0:getLimitNums(slot1)
 	slot5 = slot0.tfFleets[slot1][slot2]
 	slot8 = slot0:findTF(TeamType.Vanguard, slot5)
 	slot9 = slot0:findTF(TeamType.Submarine, slot5)
@@ -106,7 +108,7 @@ function slot0.updateFleet(slot0, slot1, slot2)
 	setText(findTF(slot5, "bg/name"), "")
 
 	if slot0:findTF(TeamType.Main, slot5) then
-		setActive(slot7, slot2 <= slot0:getLimitNums(slot1) and slot0.fleets[slot1][slot2])
+		setActive(slot7, slot4 and slot3)
 	end
 
 	if slot8 then
@@ -214,10 +216,12 @@ end
 function slot0.showToggleMask(slot0, slot1, slot2)
 	setActive(slot0.toggleMask, true)
 
+	slot3 = _.filter(slot0.fleets, function (slot0)
+		return slot0:getFleetType() == uv0
+	end)
+
 	for slot7, slot8 in ipairs(slot0.toggles) do
-		slot9 = _.filter(slot0.fleets, function (slot0)
-			return slot0:getFleetType() == uv0
-		end)[slot7]
+		slot9 = slot3[slot7]
 
 		setActive(slot8, slot9)
 

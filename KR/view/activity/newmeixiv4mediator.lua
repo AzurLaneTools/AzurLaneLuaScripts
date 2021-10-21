@@ -31,14 +31,18 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then
-		if slot1:getBody().id == ActivityConst.NEWMEIXIV4_SKIRMISH_ID then
+		if slot3.id == ActivityConst.NEWMEIXIV4_SKIRMISH_ID then
 			slot0.viewComponent:onUpdateTask()
 		end
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:onUpdateRes(slot3)
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+		slot4 = slot0.viewComponent
+
+		slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 			uv0.viewComponent:onUpdateTask()
 		end)
 	end

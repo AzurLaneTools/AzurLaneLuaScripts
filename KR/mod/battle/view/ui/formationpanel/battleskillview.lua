@@ -176,8 +176,10 @@ function slot2.InitBtns(slot0)
 	slot0._shiftBtn:SetTextActive(true)
 	slot0._shiftBtn:SetProgressInfo(slot0._fleetVO:GetSubShiftVO())
 
+	slot42 = slot0._ui:findTF("Skill_4")
+
 	if not slot0._fleetVO._submarineVO:GetUseable() or slot43:GetCount() <= 0 then
-		SetActive(slot0._ui:findTF("Skill_4"), false)
+		SetActive(slot42, false)
 	else
 		slot0._subStriveBtn = uv0.Battle.BattleSubmarineButton.New()
 
@@ -282,10 +284,12 @@ function slot2.SubRoutineButton(slot0)
 end
 
 function slot2.AirFightButton(slot0)
+	slot1 = {
+		9
+	}
+
 	for slot5, slot6 in ipairs(slot0._skillBtnList) do
-		slot7 = table.indexof({
-			9
-		}, slot5)
+		slot7 = table.indexof(slot1, slot5)
 
 		slot6:SetActive(slot7)
 

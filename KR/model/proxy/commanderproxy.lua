@@ -48,19 +48,18 @@ function slot0.register(slot0)
 
 		for slot4, slot5 in ipairs(slot0.presets) do
 			slot6 = slot5.id
+			slot8 = {}
 
 			for slot12, slot13 in ipairs(slot5.commandersid) do
 				if uv0:getCommanderById(slot13.id) then
-					-- Nothing
+					slot8[slot13.pos] = slot14
 				end
 			end
 
 			uv0.prefabFleet[slot6]:Update({
 				id = slot6,
 				name = slot0.name,
-				commanders = {
-					[slot13.pos] = slot14
-				}
+				commanders = slot8
 			})
 		end
 

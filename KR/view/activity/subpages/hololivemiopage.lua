@@ -15,8 +15,9 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 
 	slot0.heartUIItemList = UIItemList.New(slot0.heartContainer, slot0.heartTpl)
+	slot1 = slot0.heartUIItemList
 
-	slot0.heartUIItemList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setActive(uv0:findTF("Full", slot2), uv0.ptData:GetLevelProgress() >= slot1 + 1)
 		end

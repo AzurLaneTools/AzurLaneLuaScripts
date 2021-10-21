@@ -8,8 +8,10 @@ function slot0.execute(slot0, slot1)
 	slot9 = slot7:getCommanders()
 
 	if not slot7:getCommanderByPos(slot2.pos) or slot8.id ~= slot5 then
+		slot10 = getProxy(CommanderProxy):getCommanderById(slot5)
+
 		for slot14, slot15 in pairs(slot9) do
-			if slot15.groupId == getProxy(CommanderProxy):getCommanderById(slot5).groupId and slot14 ~= slot4 and slot5 ~= slot15.id then
+			if slot15.groupId == slot10.groupId and slot14 ~= slot4 and slot5 ~= slot15.id then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("commander_can_not_select_same_group"))
 
 				return
@@ -25,6 +27,7 @@ function slot0.execute(slot0, slot1)
 		return false
 	end
 
+	slot12 = {}
 	slot13 = true
 	slot14, slot15 = (function (slot0)
 		for slot5, slot6 in ipairs(getProxy(FleetProxy):getCommanders()) do
@@ -37,7 +40,7 @@ function slot0.execute(slot0, slot1)
 	end)(slot5)
 
 	if slot14 then
-		table.insert({}, function (slot0)
+		table.insert(slot12, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("comander_repalce_tip", Fleet.DEFAULT_NAME[uv0.fleetId], uv0.pos == 1 and i18n("commander_main_pos") or i18n("commander_assistant_pos")),
 				onYes = function ()

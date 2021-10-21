@@ -117,13 +117,18 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	setSlider(slot0.soundDownloadProgress, 0, 1, 0)
 	setActive(slot0.soundDownloadDot, false)
 	setActive(slot0.soundDownloadLoading, false)
-	BundleWizard.Inst:GetGroupMgr("CV"):CheckD()
+
+	slot7 = BundleWizard.Inst
+	slot7 = slot7:GetGroupMgr("CV")
+
+	slot7:CheckD()
 
 	slot0.soundDownloadTimer = Timer.New(function ()
 		uv0:updateSoundDownloadState()
 	end, 0.5, -1)
+	slot8 = slot0.soundDownloadTimer
 
-	slot0.soundDownloadTimer:Start()
+	slot8:Start()
 	slot0:updateSoundDownloadState()
 	onButton(slot0, slot0.soundDownloadBtn, function ()
 		if uv0.state == DownloadState.CheckFailure then
@@ -145,13 +150,18 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	setSlider(slot0.galleryDownloadProgress, 0, 1, 0)
 	setActive(slot0.galleryDownloadDot, false)
 	setActive(slot0.galleryDownloadLoading, false)
-	BundleWizard.Inst:GetGroupMgr("GALLERY_PIC"):CheckD()
+
+	slot8 = BundleWizard.Inst
+	slot8 = slot8:GetGroupMgr("GALLERY_PIC")
+
+	slot8:CheckD()
 
 	slot0.galleryDownloadTimer = Timer.New(function ()
 		uv0:updateGalleryDownloadState()
 	end, 0.5, -1)
+	slot9 = slot0.galleryDownloadTimer
 
-	slot0.galleryDownloadTimer:Start()
+	slot9:Start()
 	slot0:updateGalleryDownloadState()
 	onButton(slot0, slot0.galleryDownloadBtn, function ()
 		if uv0.state == DownloadState.CheckFailure then
@@ -173,13 +183,18 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	setSlider(slot0.musicDownloadProgress, 0, 1, 0)
 	setActive(slot0.musicDownloadDot, false)
 	setActive(slot0.musicDownloadLoading, false)
-	BundleWizard.Inst:GetGroupMgr("GALLERY_BGM"):CheckD()
+
+	slot9 = BundleWizard.Inst
+	slot9 = slot9:GetGroupMgr("GALLERY_BGM")
+
+	slot9:CheckD()
 
 	slot0.musicDownloadTimer = Timer.New(function ()
 		uv0:updateMusicDownloadState()
 	end, 0.5, -1)
+	slot10 = slot0.musicDownloadTimer
 
-	slot0.musicDownloadTimer:Start()
+	slot10:Start()
 	slot0:updateMusicDownloadState()
 	onButton(slot0, slot0.musicDownloadBtn, function ()
 		if uv0.state == DownloadState.CheckFailure then
@@ -300,10 +315,14 @@ end
 
 function slot0.initSoundSlider(slot0, slot1, slot2)
 	slot3 = slot1:GetComponent("Slider")
+	slot4 = slot3.onValueChanged
 
-	slot3.onValueChanged:RemoveAllListeners()
+	slot4:RemoveAllListeners()
 	pg.DelegateInfo.Add(slot0, slot3.onValueChanged)
-	slot3.onValueChanged:AddListener(slot2)
+
+	slot4 = slot3.onValueChanged
+
+	slot4:AddListener(slot2)
 
 	slot4 = (slot3.maxValue - slot3.minValue) * 0.1
 
@@ -436,9 +455,10 @@ function slot0.initOptionsPanel(slot0, slot1)
 	triggerToggle(slot4, slot5 == 60)
 
 	slot7 = slot0:findTF("scroll_view/Viewport/content/other_settings/options", slot1)
+	slot8 = slot0:findTF("scroll_view/Viewport/content/notifications/options", slot1):Find("notify_tpl")
 
 	for slot13, slot14 in ipairs(pg.push_data_template) do
-		slot15 = cloneTplTo(slot0:findTF("scroll_view/Viewport/content/notifications/options", slot1):Find("notify_tpl"), slot6)
+		slot15 = cloneTplTo(slot8, slot6)
 
 		setText(slot0:findTF("Text", slot15), slot14.title)
 		onButton(slot0, slot0:findTF("Text", slot15), function ()
@@ -454,8 +474,10 @@ function slot0.initOptionsPanel(slot0, slot1)
 		triggerToggle(slot15:Find("off"), not slot16)
 	end
 
+	slot8 = slot7:Find("notify_tpl")
+
 	for slot13, slot14 in pairs(uv0) do
-		slot15 = cloneTplTo(slot7:Find("notify_tpl"), slot7)
+		slot15 = cloneTplTo(slot8, slot7)
 
 		setText(slot0:findTF("Text", slot15), slot14.title)
 		onButton(slot0, slot0:findTF("Text", slot15), function ()
@@ -551,6 +573,7 @@ function slot0.InitStorySpeedPanel(slot0, slot1)
 	setText(slot1:Find("scroll_view/Viewport/content/story_speed_setting/title/title_text"), i18n1("/AUTO SPEED"))
 
 	slot3 = slot1:Find("scroll_view/Viewport/content/story_speed_setting/speeds")
+	slot5 = table.indexof(Story.STORY_AUTO_SPEED, getProxy(SettingsProxy):GetStorySpeed()) or 2
 
 	for slot9 = 1, slot3.childCount do
 		slot10 = slot3:GetChild(slot9 - 1)
@@ -562,7 +585,7 @@ function slot0.InitStorySpeedPanel(slot0, slot1)
 		end, SFX_PANEL)
 		setText(slot10:Find("Text"), i18n("setting_story_speed_" .. slot9))
 
-		if slot9 == (table.indexof(Story.STORY_AUTO_SPEED, getProxy(SettingsProxy):GetStorySpeed()) or 2) then
+		if slot9 == slot5 then
 			triggerToggle(slot10, true)
 		end
 	end
@@ -571,6 +594,8 @@ end
 function slot0.InitStoryAutoPlayPanel(slot0, slot1)
 	setText(slot1:Find("scroll_view/Viewport/content/story_autoplay_setting/title"), i18n("story_autoplay_setting_label"))
 	setText(slot1:Find("scroll_view/Viewport/content/story_autoplay_setting/title/title_text"), i18n1("/AUTO"))
+
+	slot2 = getProxy(SettingsProxy):GetStoryAutoPlayFlag() and 2 or 1
 
 	for slot7, slot8 in ipairs({
 		slot1:Find("scroll_view/Viewport/content/story_autoplay_setting/speeds/1"),
@@ -583,7 +608,7 @@ function slot0.InitStoryAutoPlayPanel(slot0, slot1)
 		end, SFX_PANEL)
 		setText(slot8:Find("Text"), i18n("story_autoplay_setting_" .. slot7))
 
-		if slot7 == (getProxy(SettingsProxy):GetStoryAutoPlayFlag() and 2 or 1) then
+		if slot7 == slot2 then
 			triggerToggle(slot8, true)
 		end
 	end
@@ -628,12 +653,14 @@ function slot0.InitOptionByPlayerFlag(slot0, slot1, slot2)
 end
 
 function slot0.InitWorldBossPanel(slot0, slot1)
+	slot3 = slot0:findTF("scroll_view/Viewport/content/world_boss_notifications/options", slot1):Find("notify_tpl")
+
 	for slot8, slot9 in ipairs({
 		i18n("world_word_world"),
 		i18n("world_word_friend"),
 		i18n("world_word_guild")
 	}) do
-		slot10 = cloneTplTo(slot0:findTF("scroll_view/Viewport/content/world_boss_notifications/options", slot1):Find("notify_tpl"), slot2)
+		slot10 = cloneTplTo(slot3, slot2)
 		slot11 = getProxy(SettingsProxy):GetWorldBossFlag(slot8)
 
 		setText(slot10:Find("Text"), slot9)
@@ -650,6 +677,8 @@ function slot0.InitWorldBossPanel(slot0, slot1)
 end
 
 function slot0.InitWorldPanel(slot0, slot1)
+	slot3 = slot1:Find("scroll_view/Viewport/content/world_settings/options"):Find("notify_tpl")
+
 	for slot8, slot9 in pairs({
 		{
 			key = "story_tips",
@@ -662,7 +691,7 @@ function slot0.InitWorldPanel(slot0, slot1)
 			desc = i18n("world_setting_submititemtip")
 		}
 	}) do
-		slot10 = cloneTplTo(slot1:Find("scroll_view/Viewport/content/world_settings/options"):Find("notify_tpl"), slot2)
+		slot10 = cloneTplTo(slot3, slot2)
 		slot11 = getProxy(SettingsProxy):GetWorldFlag(slot9.key)
 
 		setText(slot10:Find("Text"), slot9.title)
@@ -743,6 +772,7 @@ function slot0.initInterfacePreference(slot0, slot1)
 		slot8 = rtf(slot1).sizeDelta.y - (slot4 - slot3 * slot6 / slot5)
 	end
 
+	slot7 = Vector3.New(slot0.scale, slot0.scale, 1)
 	slot0.stick = findTF(slot0.interface, "Stick")
 	slot0.skillBtn1 = findTF(slot0.interface, "Skill_1")
 	slot0.skillBtn2 = findTF(slot0.interface, "Skill_2")
@@ -772,7 +802,7 @@ function slot0.initInterfacePreference(slot0, slot1)
 	}
 
 	for slot14 = 2, #slot0.components do
-		setLocalScale(slot0.components[slot14], Vector3.New(slot0.scale, slot0.scale, 1))
+		setLocalScale(slot0.components[slot14], slot7)
 	end
 
 	slot0:editModeEnabled(false)
@@ -868,13 +898,11 @@ end
 function slot0.checkInterfaceIntersect(slot0)
 	slot1 = {}
 	slot2 = false
-	slot3 = {
-		[slot9] = uv0(slot9:Find("rect"))
-	}
+	slot3 = {}
 	slot4 = uv0(slot0.interface)
 
 	for slot8, slot9 in ipairs(slot0.components) do
-		-- Nothing
+		slot3[slot9] = uv0(slot9:Find("rect"))
 	end
 
 	for slot8, slot9 in ipairs(slot0.components) do
@@ -885,15 +913,19 @@ function slot0.checkInterfaceIntersect(slot0)
 		end
 
 		if slot8 > 1 then
-			if not slot4:Contains(Vector2.New(slot3[slot9].xMin, slot3[slot9].yMin)) or not slot4:Contains(Vector2.New(slot3[slot9].xMax, slot3[slot9].yMax)) then
+			slot11 = Vector2.New(slot3[slot9].xMax, slot3[slot9].yMax)
+
+			if not slot4:Contains(Vector2.New(slot3[slot9].xMin, slot3[slot9].yMin)) or not slot4:Contains(slot11) then
 				slot1[slot9] = true
 			end
 		end
 	end
 
 	for slot8, slot9 in ipairs(slot0.components) do
+		slot10 = findTF(slot9, "rect"):GetComponent(typeof(Image))
+
 		if slot1[slot9] then
-			findTF(slot9, "rect"):GetComponent(typeof(Image)).color = uv1.CLD_RED
+			slot10.color = uv1.CLD_RED
 			slot2 = true
 		else
 			slot10.color = uv1.DEFAULT_GREY
@@ -1308,11 +1340,13 @@ function slot0.initOtherPanel(slot0)
 	slot0.notchPanel = slot0:findTF("main/options/scroll_view/Viewport/content/notch_setting")
 
 	if ADAPT_NOTICE < Screen.width / Screen.height - 0.001 then
+		slot3 = getProxy(SettingsProxy)
+
 		setActive(slot0.notchPanel, true)
 
 		slot0.notchSlider = slot0:findTF("slider", slot0.notchPanel)
 
-		setSlider(slot0.notchSlider, ADAPT_MIN, slot2, getProxy(SettingsProxy):GetScreenRatio())
+		setSlider(slot0.notchSlider, ADAPT_MIN, slot2, slot3:GetScreenRatio())
 		slot0:initSoundSlider(slot0.notchSlider, function (slot0)
 			uv0:SetScreenRatio(slot0)
 
@@ -1332,6 +1366,7 @@ function slot0.initOtherPanel(slot0)
 	end)
 
 	slot4 = slot0:findTF("secondpwd", slot0.otherContent)
+	slot7 = pg.SecondaryPWDMgr.GetInstance()
 	slot9 = getProxy(SecondaryPWDProxy):getRawData()
 
 	onButton(slot0, slot4:Find("options/close"), function ()
@@ -1364,11 +1399,13 @@ function slot0.initOtherPanel(slot0)
 		end
 	end, SFX_UI_TAG)
 
+	slot10 = slot0:findTF("limited_operations/options", slot0.otherContent)
+	slot11 = slot0:findTF("notify_tpl")
 	slot0.secPwdOpts = {}
 
 	for slot15, slot16 in ipairs(uv0()) do
-		if table.contains(pg.SecondaryPWDMgr.GetInstance().LIMITED_OPERATION, slot15) then
-			slot17 = cloneTplTo(slot0:findTF("notify_tpl"), slot0:findTF("limited_operations/options", slot0.otherContent))
+		if table.contains(slot7.LIMITED_OPERATION, slot15) then
+			slot17 = cloneTplTo(slot11, slot10)
 			slot0.secPwdOpts[slot15] = slot17
 
 			setText(slot0:findTF("Text", slot17), slot16.title)
@@ -1390,7 +1427,9 @@ function slot0.initOtherPanel(slot0)
 					end
 				end
 
-				uv2:ChangeSetting(slot1, function ()
+				slot2 = uv2
+
+				slot2:ChangeSetting(slot1, function ()
 					uv0:updateOtherPanel()
 				end)
 			end, SFX_UI_TAG)
@@ -1911,6 +1950,12 @@ function slot0.UpdateTwAccountPanel(slot0)
 	end
 
 	slot2 = pg.SdkMgr.GetInstance()
+	slot7 = {
+		slot2:IsBindFaceBook(),
+		slot2:IsBindGoogle(),
+		slot2:IsBindPhone(),
+		slot2:IsBindGameCenter()
+	}
 
 	for slot11, slot12 in ipairs({
 		slot0.accountTw:Find("page1/bind_facebook"),
@@ -1918,12 +1963,7 @@ function slot0.UpdateTwAccountPanel(slot0)
 		slot0.accountTw:Find("page1/bind_phone"),
 		slot0.accountTw:Find("page1/bind_gamecenter")
 	}) do
-		slot13 = ({
-			slot2:IsBindFaceBook(),
-			slot2:IsBindGoogle(),
-			slot2:IsBindPhone(),
-			slot2:IsBindGameCenter()
-		})[slot11]
+		slot13 = slot7[slot11]
 
 		setActive(slot12:Find("unbind"), not slot13)
 		setActive(slot12:Find("bind"), slot13)

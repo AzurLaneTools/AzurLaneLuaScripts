@@ -143,8 +143,10 @@ function slot0.display(slot0, slot1)
 
 		setText(slot14:Find("tag"), slot13.tag)
 
+		slot15 = slot14:Find("value")
+
 		if slot13.type == 1 then
-			setText(slot14:Find("value"), slot0.player[slot13.value])
+			setText(slot15, slot0.player[slot13.value])
 		elseif slot13.type == 2 then
 			setText(slot15, string.format("%0.2f", math.max(slot0.player[slot13.value[2]], 0) / math.max(slot0.player[slot13.value[1]], 1) * 100) .. "%")
 		elseif slot13.type == 3 then

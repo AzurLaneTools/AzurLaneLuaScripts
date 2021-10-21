@@ -11,7 +11,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(34517, {
+	slot8 = pg.ConnectionMgr.GetInstance()
+
+	slot8:Send(34517, {
 		boss_id = _.map(slot6, function (slot0)
 			return slot0.id
 		end)

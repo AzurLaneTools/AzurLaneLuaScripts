@@ -138,8 +138,11 @@ function slot12.__index.sendrequestline(slot0, slot1, slot2)
 end
 
 function slot12.__index.sendheaders(slot0, slot1)
+	slot2 = uv0.canonic
+	slot3 = "\r\n"
+
 	for slot7, slot8 in uv1.pairs(slot1) do
-		slot3 = (uv0.canonic[slot7] or slot7) .. ": " .. slot8 .. "\r\n" .. "\r\n"
+		slot3 = (slot2[slot7] or slot7) .. ": " .. slot8 .. "\r\n" .. slot3
 	end
 
 	slot0.try(slot0.c:send(slot3))
@@ -230,19 +233,21 @@ function slot15(slot0)
 		connection = "close, TE",
 		te = "trailers",
 		["user-agent"] = uv1.USERAGENT,
-		host = uv0.gsub(slot0.authority, "^.-@", ""),
-		authorization = "Basic " .. uv2.b64(slot0.user .. ":" .. slot0.password)
+		host = uv0.gsub(slot0.authority, "^.-@", "")
 	}
 
 	if slot0.user and slot0.password then
-		-- Nothing
+		slot2.authorization = "Basic " .. uv2.b64(slot0.user .. ":" .. slot0.password)
 	end
 
 	if (slot0.proxy or uv1.PROXY) and uv3.parse(slot3).user and slot3.password then
 		slot2["proxy-authorization"] = "Basic " .. uv2.b64(slot3.user .. ":" .. slot3.password)
 	end
 
-	for slot7, slot8 in uv4.pairs(slot0.headers or slot2) do
+	slot4 = uv4.pairs
+	slot5 = slot0.headers or slot2
+
+	for slot7, slot8 in slot4(slot5) do
 		slot2[uv0.lower(slot7)] = slot8
 	end
 
@@ -371,22 +376,22 @@ end
 
 function slot8.genericform(slot0, slot1)
 	slot2 = {}
-
-	if slot1 then
-		-- Nothing
-	end
-
-	return {
+	slot3 = {
 		url = slot0,
 		sink = uv0.sink.table(slot2),
-		target = slot2,
-		source = uv0.source.string(slot1),
-		headers = {
+		target = slot2
+	}
+
+	if slot1 then
+		slot3.source = uv0.source.string(slot1)
+		slot3.headers = {
 			["content-type"] = "application/x-www-form-urlencoded",
 			["content-length"] = uv1.len(slot1)
-		},
-		method = "POST"
-	}
+		}
+		slot3.method = "POST"
+	end
+
+	return slot3
 end
 
 function slot23(slot0, slot1)

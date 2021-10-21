@@ -26,7 +26,8 @@ end
 
 function slot0.loginProcessHandler(slot0)
 	slot1 = getProxy(SettingsProxy)
-	slot2 = pg.SdkMgr.GetInstance():GetLoginType()
+	slot2 = pg.SdkMgr.GetInstance()
+	slot2 = slot2:GetLoginType()
 	slot0.process = coroutine.wrap(function ()
 		uv0.viewComponent:switchSubView({})
 
@@ -153,15 +154,19 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == ServerProxy.SERVERS_UPDATED then
-		slot0.viewComponent:updateServerList(slot1:getBody())
+		slot0.viewComponent:updateServerList(slot3)
 	elseif slot2 == GAME.USER_LOGIN_SUCCESS then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("login_loginMediator_loginSuccess"))
 		slot0.viewComponent:setLastLoginServer(getProxy(ServerProxy):getLastServer(slot3.id))
 		slot0.viewComponent:switchToServer()
 
+		slot6 = getProxy(UserProxy)
+
 		if PLATFORM_CODE == PLATFORM_JP then
-			slot0.viewComponent:setUserData(getProxy(UserProxy).getLastLoginUser())
+			slot0.viewComponent:setUserData(slot6.getLastLoginUser())
 		end
 
 		if #getProxy(GatewayNoticeProxy):getGatewayNotices(false) > 0 then

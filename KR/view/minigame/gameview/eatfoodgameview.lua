@@ -224,9 +224,10 @@ function slot33(slot0, slot1)
 		end,
 		getSubScore = function (slot0, slot1)
 			slot2 = nil
+			slot2 = slot1 <= 100 and slot1 or uv0[2] - slot1
 
 			for slot6 = 1, #uv1 do
-				if (slot1 <= 100 and slot1 or uv0[2] - slot1) < uv1[slot6] then
+				if slot2 < uv1[slot6] then
 					return uv2[slot6]
 				end
 			end
@@ -438,9 +439,10 @@ function slot34(slot0, slot1, slot2, slot3)
 		end,
 		onTimeOut = function (slot0)
 			slot1 = slot0.player
+			slot2 = slot0.player.stepIndex or 0
 
 			for slot6 = 1, #slot0.chars do
-				if (slot0.player.stepIndex or 0) < slot0.chars[slot6].stepIndex then
+				if slot2 < slot0.chars[slot6].stepIndex then
 					slot1 = slot0.chars[slot6]
 					slot2 = slot0.chars[slot6].stepIndex
 				end
@@ -526,10 +528,14 @@ function slot0.initUI(slot0)
 	slot0.countUI = findTF(slot0._tf, "pop/CountUI")
 	slot0.countAnimator = GetComponent(findTF(slot0.countUI, "count"), typeof(Animator))
 	slot0.countDft = GetOrAddComponent(findTF(slot0.countUI, "count"), typeof(DftAniEvent))
+	slot1 = slot0.countDft
 
-	slot0.countDft:SetTriggerEvent(function ()
+	slot1:SetTriggerEvent(function ()
 	end)
-	slot0.countDft:SetEndEvent(function ()
+
+	slot1 = slot0.countDft
+
+	slot1:SetEndEvent(function ()
 		setActive(uv0.countUI, false)
 
 		uv0.readyStart = false
@@ -593,8 +599,9 @@ function slot0.initGameUI(slot0)
 
 	slot0.dragDelegate = GetOrAddComponent(slot0.sceneTf, "EventTriggerListener")
 	slot0.dragDelegate.enabled = true
+	slot1 = slot0.dragDelegate
 
-	slot0.dragDelegate:AddPointDownFunc(function (slot0, slot1)
+	slot1:AddPointDownFunc(function (slot0, slot1)
 		if uv0.sliderController then
 			uv0.sliderController:touch(true)
 		end

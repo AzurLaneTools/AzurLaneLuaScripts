@@ -74,8 +74,9 @@ function slot0.loadSpine(slot0, slot1)
 	slot0:unloadSpine()
 
 	slot2 = slot0:getPrefab()
+	slot3 = slot0:GetLoader()
 
-	slot0:GetLoader():GetSpine(slot2, function (slot0)
+	slot3:GetSpine(slot2, function (slot0)
 		uv0:setModel(slot0)
 
 		if uv1 then
@@ -99,7 +100,9 @@ function slot0.LoadAttachments(slot0)
 	if slot0._attachmentInfo then
 		for slot4, slot5 in pairs(slot0._attachmentInfo) do
 			if slot5.attachment_combat_ui[1] ~= "" then
-				slot0:GetLoader():LoadPrefab("Effect/" .. slot6, slot6, function (slot0)
+				slot8 = slot0:GetLoader()
+
+				slot8:LoadPrefab("Effect/" .. slot6, slot6, function (slot0)
 					uv0._attachmentList[uv1] = slot0
 
 					tf(slot0):SetParent(tf(uv0.model))
@@ -112,8 +115,9 @@ function slot0.LoadAttachments(slot0)
 
 	if slot0._extraEffect and #slot0._extraEffect > 0 then
 		slot1 = slot0._extraEffect
+		slot3 = slot0:GetLoader()
 
-		slot0:GetLoader():LoadPrefab("effect/" .. slot1, slot1, function (slot0)
+		slot3:LoadPrefab("effect/" .. slot1, slot1, function (slot0)
 			uv0._attachmentList[uv1] = slot0
 
 			tf(slot0):SetParent(tf(uv0.model), false)

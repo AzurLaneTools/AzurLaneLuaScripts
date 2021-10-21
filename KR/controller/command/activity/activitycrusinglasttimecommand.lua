@@ -2,6 +2,7 @@ slot0 = class("ActivityCrusingLastTimeCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.awards
 	slot5 = slot2.closeFunc
 
 	if slot2.time < 86400 then
@@ -9,7 +10,7 @@ function slot0.execute(slot0, slot1)
 			hideNo = true,
 			type = MSGBOX_TYPE_ITEM_BOX,
 			content = i18n("battlepass_acquire_attention", math.floor(slot4 / 86400), math.floor(slot4 % 86400 / 3600)),
-			items = slot2.awards,
+			items = slot3,
 			onYes = function ()
 				uv0:sendNotification(GAME.GO_SCENE, SCENE.CRUSING)
 			end,

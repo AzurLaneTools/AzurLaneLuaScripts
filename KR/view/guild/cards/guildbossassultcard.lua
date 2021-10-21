@@ -67,8 +67,9 @@ function slot0.LoadMetaEffect(slot0, slot1)
 
 	if slot1 and not slot0.metaEffect then
 		slot0.loading = true
+		slot2 = PoolMgr.GetInstance()
 
-		PoolMgr.GetInstance():GetUI(uv0, true, function (slot0)
+		slot2:GetUI(uv0, true, function (slot0)
 			uv0.loading = nil
 
 			if uv0.destoryMetaEffect then

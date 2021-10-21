@@ -69,9 +69,11 @@ function slot0.execute(slot0, slot1)
 	elseif slot3 == BACKYARD.CLEAR_SPINE_EXTRA then
 		slot4:clearSpineExtraInterAction(slot2.shipId, slot2.furnitureId)
 	elseif slot3 == BACKYARD.SHIP_ADDED then
+		slot5 = slot2.id
+
 		if not slot0.house:getSingleByRamdom() then
 			pg.m02:sendNotification(GAME.EXIT_SHIP, {
-				shipId = slot2.id,
+				shipId = slot5,
 				callback = function ()
 					pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
 				end

@@ -6,10 +6,12 @@ end
 
 function i18n(slot0, ...)
 	if pg.gametip[slot0] then
+		slot2 = slot1.tip
+
 		for slot6, slot7 in ipairs({
 			...
 		}) do
-			slot2 = string.gsub(slot1.tip, "$" .. slot6, slot7)
+			slot2 = string.gsub(slot2, "$" .. slot6, slot7)
 		end
 
 		return slot2
@@ -28,10 +30,12 @@ end
 
 function i18n2(slot0, ...)
 	if pg.gameset_language_client[slot0] then
+		slot2 = slot1.value
+
 		for slot6, slot7 in ipairs({
 			...
 		}) do
-			slot2 = string.gsub(slot1.value, "$" .. slot6, slot7)
+			slot2 = string.gsub(slot2, "$" .. slot6, slot7)
 		end
 
 		return slot2

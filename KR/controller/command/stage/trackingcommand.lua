@@ -5,13 +5,16 @@ function slot0.execute(slot0, slot1)
 	slot3 = slot2.chapterId
 	slot4 = slot2.fleetIds
 	slot5 = slot2.operationItem or 0
+	slot6 = slot2.loopFlag or 0
 
-	if not slot2.duties or (slot2.loopFlag or 0) == 0 then
+	if not slot2.duties or slot6 == 0 then
 		slot7 = {}
 	end
 
+	slot8 = {}
+
 	for slot12, slot13 in ipairs(slot7) do
-		table.insert({}, {
+		table.insert(slot8, {
 			key = slot12,
 			value = slot13
 		})
@@ -45,7 +48,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot11:getMapType() == Map.ELITE and not getProxy(DailyLevelProxy):IsEliteEnabled() then
+	slot17 = getProxy(DailyLevelProxy)
+
+	if slot11:getMapType() == Map.ELITE and not slot17:IsEliteEnabled() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
 
 		return
@@ -84,7 +89,9 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(13101, {
+	slot22 = pg.ConnectionMgr.GetInstance()
+
+	slot22:Send(13101, {
 		id = slot3,
 		group_id_list = slot4,
 		elite_fleet_list = slot21,
@@ -126,7 +133,9 @@ function slot0.execute(slot0, slot1)
 			uv7:sendNotification(GAME.TRACKING_DONE, uv0)
 			getProxy(ChapterProxy):updateExtraFlag(uv0, uv0.extraFlagList, {}, true)
 
-			if uv9 ~= 0 and uv8.autoFightFlag then
+			slot1 = uv8.autoFightFlag
+
+			if uv9 ~= 0 and slot1 then
 				getProxy(ChapterProxy):SetChapterAutoFlag(uv10, true)
 			end
 		elseif slot0.result == 1 then
@@ -143,8 +152,10 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.CalculateSpItemMoreCostRate(slot0)
+	slot1 = 1
+
 	if not slot0 or slot0 == 0 then
-		return 1
+		return slot1
 	end
 
 	slot8 = 2

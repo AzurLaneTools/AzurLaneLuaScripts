@@ -135,9 +135,10 @@ end
 
 function slot0.GetBattleTarget(slot0)
 	slot2 = slot0:GetAttrAcc()
+	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0:GetAttrCntAcc()) do
-		table.insert({}, uv0.AttrCnt2Desc(slot7, slot8))
+		table.insert(slot3, uv0.AttrCnt2Desc(slot7, slot8))
 	end
 
 	for slot7, slot8 in pairs(slot2) do
@@ -150,6 +151,7 @@ end
 function slot0.UpdateNodes(slot0)
 	slot0.nodes = {}
 	slot1 = slot0.mission
+	slot2 = slot1:GetNodes()
 	slot3 = 1
 
 	if not slot1:IsFinish() then
@@ -168,7 +170,7 @@ function slot0.UpdateNodes(slot0)
 				table.insert(uv1.nodes, slot2)
 			end
 		end)
-		slot0.nodesUIlist:align(#slot1:GetNodes())
+		slot0.nodesUIlist:align(#slot2)
 
 		slot3 = slot1:GetProgress()
 	end
@@ -182,12 +184,14 @@ function slot0.InitBattleSea(slot0)
 	end
 
 	slot0.loading = true
+	slot1 = {}
 
 	if not slot0.battleView then
 		slot0.battleView = GuildMissionBattleView.New(slot0.sea)
+		slot2 = slot0.battleView
 
-		slot0.battleView:configUI(slot0.healTF, slot0.nameTF)
-		table.insert({}, function (slot0)
+		slot2:configUI(slot0.healTF, slot0.nameTF)
+		table.insert(slot1, function (slot0)
 			uv0.battleView:load(uv1, slot0)
 		end)
 	end
@@ -197,11 +201,15 @@ function slot0.InitBattleSea(slot0)
 	slot6 = ""
 
 	if slot0.mission:GetMyFlagShip() then
+		slot7 = math.floor((getProxy(BayProxy):getShipById(slot3) or Ship.New({
+			id = 9999,
+			configId = 101171
+		})).configId / 10)
+
 		for slot11 = 1, 4 do
-			for slot17, slot18 in ipairs(pg.ship_data_breakout[tonumber(math.floor((getProxy(BayProxy):getShipById(slot3) or Ship.New({
-				id = 9999,
-				configId = 101171
-			})).configId / 10) .. slot11)] and slot12.weapon_ids or {}) do
+			slot13 = pg.ship_data_breakout[tonumber(slot7 .. slot11)] and slot12.weapon_ids or {}
+
+			for slot17, slot18 in ipairs(slot13) do
 				if not table.contains(slot5, slot18) then
 					table.insert(slot5, slot18)
 				end
@@ -212,7 +220,9 @@ function slot0.InitBattleSea(slot0)
 	end
 
 	table.insert(slot1, function (slot0)
-		uv0.battleView:LoadShip(uv1, uv2, uv3, function ()
+		slot1 = uv0.battleView
+
+		slot1:LoadShip(uv1, uv2, uv3, function ()
 			if uv0 then
 				uv1:CheckNodesState()
 			end
@@ -227,8 +237,10 @@ end
 
 function slot0.AddOtherShipMoveTimer(slot0)
 	function slot1(slot0)
+		slot1 = {}
+
 		if #uv0.mission:GetOtherShips() == 0 then
-			return {}
+			return slot1
 		end
 
 		if slot0 >= #slot3 then
@@ -262,14 +274,16 @@ function slot0.AddOtherShipMoveTimer(slot0)
 end
 
 function slot0.CheckNodesState(slot0)
+	function slot1(slot0)
+		if slot0:IsItemType() then
+			uv0.battleView:PlayItemAnim()
+		elseif slot0:IsBattleType() then
+			uv0.battleView:PlayAttackAnim()
+		end
+	end
+
 	if slot0.mission:GetNewestSuccessNode() and slot2:GetNodeAnimPosistion() < slot3:GetPosition() then
-		(function (slot0)
-			if slot0:IsItemType() then
-				uv0.battleView:PlayItemAnim()
-			elseif slot0:IsBattleType() then
-				uv0.battleView:PlayAttackAnim()
-			end
-		end)(slot3)
+		slot1(slot3)
 		slot0:emit(GuildEventMediator.ON_UPDATE_NODE_ANIM_FLAG, slot2.id, slot5)
 	end
 end

@@ -12,24 +12,37 @@ function slot0.init(slot0)
 	end
 
 	slot0.rtLeftPanel = slot0:findTF("adapt/left_panel")
+	slot2 = slot0.rtLeftPanel
 
-	setText(slot0.rtLeftPanel:Find("title/Text"), i18n("world_map_title_tips"))
-	setText(slot0.rtLeftPanel:Find("title/Text_en"), i18n("world_map_title_tips_en"))
+	setText(slot2:Find("title/Text"), i18n("world_map_title_tips"))
+
+	slot2 = slot0.rtLeftPanel
+
+	setText(slot2:Find("title/Text_en"), i18n("world_map_title_tips_en"))
 
 	slot0.wsWorldInfo = WSWorldInfo.New()
-	slot0.wsWorldInfo.transform = slot0.rtLeftPanel:Find("world_info")
+	slot2 = slot0.rtLeftPanel
+	slot0.wsWorldInfo.transform = slot2:Find("world_info")
+	slot1 = slot0.wsWorldInfo
 
-	slot0.wsWorldInfo:Setup()
+	slot1:Setup()
 
 	slot0.rtRightPanel = slot0:findTF("adapt/right_panel")
-	slot0.rtNothingTip = slot0.rtRightPanel:Find("nothing_tip")
-	slot0.btnClose = slot0.rtRightPanel:Find("title/close_btn")
-	slot0.toggleAll = slot0.rtRightPanel:Find("title/task_all")
-	slot0.toggleMain = slot0.rtRightPanel:Find("title/task_main")
-	slot0.rtContainer = slot0.rtRightPanel:Find("main/viewport/content")
-	slot0.taskItemList = UIItemList.New(slot0.rtContainer, slot0.rtContainer:Find("task_tpl"))
+	slot1 = slot0.rtRightPanel
+	slot0.rtNothingTip = slot1:Find("nothing_tip")
+	slot1 = slot0.rtRightPanel
+	slot0.btnClose = slot1:Find("title/close_btn")
+	slot1 = slot0.rtRightPanel
+	slot0.toggleAll = slot1:Find("title/task_all")
+	slot1 = slot0.rtRightPanel
+	slot0.toggleMain = slot1:Find("title/task_main")
+	slot1 = slot0.rtRightPanel
+	slot0.rtContainer = slot1:Find("main/viewport/content")
+	slot3 = slot0.rtContainer
+	slot0.taskItemList = UIItemList.New(slot0.rtContainer, slot3:Find("task_tpl"))
+	slot1 = slot0.taskItemList
 
-	slot0.taskItemList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateTaskTpl(slot2, uv0.filterTaskList[slot1 + 1])
 		end
@@ -141,8 +154,10 @@ function slot0.UpdateTaskTpl(slot0, slot1, slot2)
 	setActive(slot7, slot2:getState() == WorldTask.STATE_ONGOING)
 	setActive(slot8, slot9 == WorldTask.STATE_FINISHED)
 
+	slot10 = slot1:Find("extend_panel")
+
 	if #slot2.config.rare_task_icon > 0 then
-		GetImageSpriteFromAtlasAsync("shipyardicon/" .. slot11, "", slot1:Find("extend_panel"):Find("card"), true)
+		GetImageSpriteFromAtlasAsync("shipyardicon/" .. slot11, "", slot10:Find("card"), true)
 	else
 		GetImageSpriteFromAtlasAsync("ui/worldinformationui_atlas", "nobody", slot10:Find("card"), true)
 	end

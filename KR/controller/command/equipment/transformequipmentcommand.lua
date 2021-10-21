@@ -60,7 +60,9 @@ function slot0.execute(slot0, slot1)
 				return
 			end
 
-			pg.ConnectionMgr.GetInstance():Send(14006, {
+			slot11 = pg.ConnectionMgr.GetInstance()
+
+			slot11:Send(14006, {
 				id = slot1,
 				num = slot2
 			}, 14007, function (slot0)
@@ -96,12 +98,13 @@ end
 function slot0.ExecuteEquipTransform(slot0, slot1)
 	slot2 = slot1.shipId
 	slot3 = slot2
+	slot4 = slot1.pos
 	slot5 = slot1.equipmentId
 	slot6 = slot1.formulaIds
 	slot7 = nil
 
 	if slot2 then
-		slot5 = getProxy(BayProxy):getShipById(slot2):getEquip(slot1.pos).id
+		slot5 = getProxy(BayProxy):getShipById(slot2):getEquip(slot4).id
 	elseif slot5 ~= 0 then
 		slot5 = getProxy(EquipmentProxy):getEquipmentById(slot5).id
 	end
@@ -124,11 +127,12 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 		for slot5, slot6 in pairs(uv0) do
 			if slot5 == "gold" then
 				slot7 = slot1:getData()
+				slot8 = {
+					gold = math.abs(slot6)
+				}
 
 				if slot6 > 0 then
-					slot7:consume({
-						gold = math.abs(slot6)
-					})
+					slot7:consume(slot8)
 					slot1:updatePlayer(slot7)
 				elseif slot6 < 0 then
 					slot7:addResources(slot8)
@@ -223,7 +227,9 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_upgrade_equipped_unavailable", getProxy(BayProxy):getShipById(uv1):getName(), uv2.config.name))
 		end
 
-		uv5:sendNotification(GAME.TRANSFORM_EQUIPMENT_DONE, {
+		slot1 = uv5
+
+		slot1:sendNotification(GAME.TRANSFORM_EQUIPMENT_DONE, {
 			ship = uv3,
 			equip = uv4,
 			newEquip = uv2
@@ -239,7 +245,9 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 					pg.m02:retrieveMediator(slot2.mediator.__cname):getViewComponent():closeView()
 				end
 
-				slot4 = pg.m02:retrieveMediator(slot1.mediator.__cname):getViewComponent()
+				slot3 = pg.m02
+				slot3 = slot3:retrieveMediator(slot1.mediator.__cname)
+				slot4 = slot3:getViewComponent()
 
 				seriesAsync({
 					function (slot0)

@@ -29,7 +29,10 @@ function slot0.Init(slot0)
 	onButton(slot0, slot0.maxFrame, function ()
 		uv0:Close()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.maxPanel:Find("ok_btn"), function ()
+
+	slot3 = slot0.maxPanel
+
+	onButton(slot0, slot3:Find("ok_btn"), function ()
 		uv0:Close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.descPanelVoiceBtn, function ()

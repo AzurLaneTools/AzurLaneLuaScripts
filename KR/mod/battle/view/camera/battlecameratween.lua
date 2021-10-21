@@ -13,10 +13,12 @@ end
 function slot3.SetFromTo(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot0._point:Set(slot2.x, slot2.y, slot2.z)
 
+	slot8 = LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdateVector3(System.Action_UnityEngine_Vector3(function (slot0)
+		uv0._point:Set(slot0.x, slot0.y, slot0.z)
+	end))
+
 	if slot5 and slot5 ~= 0 then
-		LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdateVector3(System.Action_UnityEngine_Vector3(function (slot0)
-			uv0._point:Set(slot0.x, slot0.y, slot0.z)
-		end)):setDelay(slot5)
+		slot8:setDelay(slot5)
 	end
 
 	if slot6 then

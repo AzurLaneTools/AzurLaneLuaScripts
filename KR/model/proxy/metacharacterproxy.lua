@@ -32,8 +32,10 @@ function slot0.register(slot0)
 	slot0:on(63315, function (slot0)
 		print("63315 get red tag info")
 
+		slot1 = {}
+
 		for slot5, slot6 in ipairs(slot0.arg1) do
-			table.insert({}, MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot6))
+			table.insert(slot1, MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot6))
 		end
 
 		if slot0.type == 1 then
@@ -52,22 +54,26 @@ function slot0.register(slot0)
 		print("63316 get meta skill exp info")
 
 		slot1 = {}
+		slot2 = {}
 		slot3 = uv0.metaSkillLevelMaxInfoList or {}
 
 		for slot7, slot8 in ipairs(slot0.skill_info_list) do
 			print("shipID", slot8.ship_id)
 
 			slot12 = slot8.skill_exp
+			slot14 = slot8.add_exp
 
 			uv0:addExpToMetaTacticsInfo(slot8)
-			uv0:setLastMetaSkillExpInfo({}, slot8)
+			uv0:setLastMetaSkillExpInfo(slot2, slot8)
 			uv0:setMetaSkillLevelMaxInfo(slot3, slot8)
 
-			if pg.gameset.meta_skill_exp_max.key_value <= slot8.day_exp or getProxy(BayProxy):getShipById(slot8.ship_id):getMetaSkillLevelBySkillID(slot8.skill_id) < slot8.skill_level then
+			slot19 = getProxy(BayProxy):getShipById(slot8.ship_id):getMetaSkillLevelBySkillID(slot8.skill_id) < slot8.skill_level
+
+			if pg.gameset.meta_skill_exp_max.key_value <= slot8.day_exp or slot19 then
 				pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_META, {
 					metaShipVO = slot15,
 					newDayExp = slot13,
-					addDayExp = slot8.add_exp,
+					addDayExp = slot14,
 					curSkillID = slot10,
 					newSkillLevel = slot11,
 					oldSkillLevel = slot17
@@ -140,9 +146,10 @@ end
 
 function slot0.setMetaTacticsInfo(slot0, slot1)
 	slot0.metaTacticsInfoTable = slot0.metaTacticsInfoTable or {}
+	slot2 = slot1.ship_id
 
 	if MetaTacticsInfo.New(slot1) then
-		slot0.metaTacticsInfoTable[slot1.ship_id] = slot3
+		slot0.metaTacticsInfoTable[slot2] = slot3
 
 		slot3:printInfo()
 	else
@@ -249,21 +256,29 @@ function slot0.getMetaTacticsInfoOnEnd(slot0)
 	end
 
 	slot1 = {}
+	slot3 = slot0.metaTacticsInfoTableOnStart
 
 	for slot7, slot8 in pairs(slot0.metaTacticsInfoTable) do
 		slot9 = slot8.shipID
-		slot11 = slot0.metaTacticsInfoTableOnStart[slot9] or MetaTacticsInfo.New()
+		slot11 = slot3[slot9] or MetaTacticsInfo.New()
+		slot13 = getProxy(BayProxy):getShipById(slot9):isAllMetaSkillLevelMax()
+		slot14 = slot11 and slot11:isExpMaxPerDay() or false
 
-		if slot2[slot9]:isAnyLearning() and slot11:isAnyLearning() and not getProxy(BayProxy):getShipById(slot9):isAllMetaSkillLevelMax() and not (slot11 and slot11:isExpMaxPerDay() or false) then
+		if slot2[slot9]:isAnyLearning() and slot11:isAnyLearning() and not slot13 and not slot14 then
+			slot18 = slot10.curDayExp - slot11.curDayExp > 0 and getProxy(BayProxy):getShipById(slot9):isSkillLevelMax(slot10.curSkillID)
+			slot19 = slot10:isExpMaxPerDay()
+			slot20 = slot11.curDayExp / pg.gameset.meta_skill_exp_max.key_value
+			slot21 = slot10.curDayExp / pg.gameset.meta_skill_exp_max.key_value
+
 			if slot16 > 0 then
 				table.insert(slot1, {
 					shipID = slot9,
 					addDayExp = slot16,
-					isUpLevel = slot10.curDayExp - slot11.curDayExp > 0 and getProxy(BayProxy):getShipById(slot9):isSkillLevelMax(slot10.curSkillID),
+					isUpLevel = slot18,
 					isMaxLevel = slot17,
-					isExpMax = slot10:isExpMaxPerDay(),
-					progressOld = slot11.curDayExp / pg.gameset.meta_skill_exp_max.key_value,
-					progressNew = slot10.curDayExp / pg.gameset.meta_skill_exp_max.key_value
+					isExpMax = slot19,
+					progressOld = slot20,
+					progressNew = slot21
 				})
 			end
 		end
@@ -284,15 +299,17 @@ function slot0.setMetaSkillLevelMaxInfo(slot0, slot1, slot2)
 	slot6 = slot2.skill_exp
 	slot7 = slot2.day_exp
 	slot8 = slot2.add_exp
+	slot13 = pg.skill_data_template[slot4].max_level <= slot5
 
-	if getProxy(BayProxy):getShipById(slot2.ship_id):getMetaSkillLevelBySkillID(slot4) < slot2.skill_level and pg.skill_data_template[slot4].max_level <= slot5 then
+	if getProxy(BayProxy):getShipById(slot2.ship_id):getMetaSkillLevelBySkillID(slot4) < slot2.skill_level and slot13 then
+		slot14 = {
+			metaShipVO = slot9,
+			metaSkillID = slot4
+		}
 		slot15 = false
 
 		for slot19, slot20 in pairs(slot1) do
-			if slot20.metaShipVO.configId == ({
-				metaShipVO = slot9,
-				metaSkillID = slot4
-			}).metaShipVO.configId then
+			if slot20.metaShipVO.configId == slot14.metaShipVO.configId then
 				slot15 = true
 
 				break
@@ -319,8 +336,9 @@ function slot0.tryRemoveMetaSkillLevelMaxInfo(slot0, slot1, slot2)
 
 		for slot7, slot8 in ipairs(slot0.metaSkillLevelMaxInfoList) do
 			slot9 = slot8.metaShipVO
+			slot11 = slot9.metaSkillID
 
-			if slot1 == slot9.id and slot2 ~= slot9.metaSkillID then
+			if slot1 == slot9.id and slot2 ~= slot11 then
 				slot3 = slot7
 
 				break

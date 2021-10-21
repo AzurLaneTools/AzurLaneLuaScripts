@@ -34,10 +34,12 @@ function slot0.OnDataSetting(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
+	slot1 = pg.TimeMgr.GetInstance()
+	slot1 = slot1:GetServerTime()
 	slot0.list = UIItemList.New(slot0.items, slot0.item)
+	slot2 = slot0.list
 
-	slot0.list:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = slot1 + 1
 
@@ -64,8 +66,10 @@ function slot0.OnFirstFlush(slot0)
 			setActive(slot2:Find("today"), slot3 == #uv0.activity.data1_list)
 
 			if uv0.specialTag and slot3 == uv0.specialDay then
+				slot5 = uv0:findTF("icon_bg/SpecialFrame", slot2)
+
 				if uv0.isShowFrame == 1 then
-					setActive(uv0:findTF("icon_bg/SpecialFrame", slot2), false)
+					setActive(slot5, false)
 				else
 					setActive(slot5, true)
 				end

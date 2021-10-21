@@ -27,10 +27,12 @@ slot1 = {
 System.Reflection.BindingFlags = slot1
 
 function System.Reflection.BindingFlags.GetMask(...)
+	slot1 = 0
+
 	for slot5 = 1, #{
 		...
 	} do
-		slot1 = 0 + slot0[slot5]
+		slot1 = slot1 + slot0[slot5]
 	end
 
 	return slot1

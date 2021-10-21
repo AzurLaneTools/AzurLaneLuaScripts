@@ -13,8 +13,9 @@ end
 function slot0.updateEventItems(slot0, slot1, slot2)
 	slot3 = slot2.maxFleetNums
 	slot4 = pairs
+	slot5 = slot0.timers or {}
 
-	for slot7, slot8 in slot4(slot0.timers or {}) do
+	for slot7, slot8 in slot4(slot5) do
 		slot8:Stop()
 	end
 
@@ -142,16 +143,20 @@ function slot0.getChapterByCount(slot0, slot1)
 end
 
 function slot0.updateClassItems(slot0, slot1, slot2)
-	for slot6, slot7 in pairs(slot0.timers or {}) do
+	slot3 = pairs
+	slot4 = slot0.timers or {}
+
+	for slot6, slot7 in slot3(slot4) do
 		slot7:Stop()
 	end
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = false
+			slot5 = slot2:Find("unlock/name_bg")
 
 			if uv0[slot1 + 1] then
-				slot2:Find("unlock/name_bg").sizeDelta = Vector2(267, 45)
+				slot5.sizeDelta = Vector2(267, 45)
 				slot8 = slot2:Find("unlock/ongoging/time"):GetComponent(typeof(Text))
 				slot9 = slot4:getShipVO()
 				slot10 = nil
@@ -209,7 +214,10 @@ function slot0.updateClassItems(slot0, slot1, slot2)
 end
 
 function slot0.updateTechItems(slot0, slot1, slot2)
-	for slot6, slot7 in pairs(slot0.timers or {}) do
+	slot3 = pairs
+	slot4 = slot0.timers or {}
+
+	for slot6, slot7 in slot3(slot4) do
 		slot7:Stop()
 	end
 
@@ -281,7 +289,10 @@ function slot0.updateTechItems(slot0, slot1, slot2)
 end
 
 function slot0.clear(slot0)
-	for slot4, slot5 in pairs(slot0.timers or {}) do
+	slot1 = pairs
+	slot2 = slot0.timers or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:Stop()
 	end
 

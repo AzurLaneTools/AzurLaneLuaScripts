@@ -16,8 +16,10 @@ function slot0.getExtraChapterSocre(slot0, slot1, slot2, slot3)
 end
 
 function slot0.getShipsPower(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0) do
-		slot1 = 0 + slot6:getShipCombatPower()
+		slot1 = slot1 + slot6:getShipCombatPower()
 	end
 
 	return slot1

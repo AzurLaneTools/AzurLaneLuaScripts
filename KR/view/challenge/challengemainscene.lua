@@ -299,8 +299,9 @@ function slot0.updateData(slot0)
 
 	if slot0.curMode == ChallengeProxy.MODE_INFINITE then
 		slot1 = nil
+		slot1 = (not slot0.curModeInfo or slot0.curModeInfo:getNextInfiniteDungeonIDList()) and (not pg.activity_event_challenge[slot0.challengeInfo:getActivityIndex()].infinite_stage[slot0.challengeInfo:getSeasonID()][2] or pg.activity_event_challenge[slot3].infinite_stage[slot2][2]) and pg.activity_event_challenge[slot3].infinite_stage[slot2][1]
 
-		for slot5, slot6 in ipairs((not slot0.curModeInfo or slot0.curModeInfo:getNextInfiniteDungeonIDList()) and (not pg.activity_event_challenge[slot0.challengeInfo:getActivityIndex()].infinite_stage[slot0.challengeInfo:getSeasonID()][2] or pg.activity_event_challenge[slot3].infinite_stage[slot2][2]) and pg.activity_event_challenge[slot3].infinite_stage[slot2][1]) do
+		for slot5, slot6 in ipairs(slot1) do
 			slot0.nextNameList[slot5 + ChallengeConst.BOSS_NUM] = pg.expedition_challenge_template[slot6].char_icon[1]
 		end
 	end
@@ -319,10 +320,19 @@ function slot0.updatePaintingList(slot0, slot1, slot2)
 	end
 
 	function slot6(slot0)
-		slot0.material:SetFloat("_LineGray", 0.3)
-		slot0.material:SetFloat("_TearDistance", 0)
+		slot1 = slot0.material
+
+		slot1:SetFloat("_LineGray", 0.3)
+
+		slot1 = slot0.material
+
+		slot1:SetFloat("_TearDistance", 0)
 		LeanTween.cancel(slot0.gameObject)
-		LeanTween.value(slot0.gameObject, 0, 2, 2):setLoopClamp():setOnUpdate(System.Action_float(function (slot0)
+
+		slot1 = LeanTween.value(slot0.gameObject, 0, 2, 2)
+		slot1 = slot1:setLoopClamp()
+
+		slot1:setOnUpdate(System.Action_float(function (slot0)
 			if slot0 >= 1.2 then
 				uv0.material:SetFloat("_LineGray", 0.3)
 			elseif slot0 >= 1.1 then
@@ -467,6 +477,12 @@ function slot0.updateSlider(slot0, slot1)
 		slot5 = uv0:findTF("Challengeing", slot2)
 		slot6 = uv0:findTF("Arrow", slot2)
 
+		function slot7()
+			setActive(uv0, true)
+			setActive(uv1, false)
+			setActive(uv2, false)
+		end
+
 		function slot8()
 			setActive(uv0, false)
 			setActive(uv1, true)
@@ -481,11 +497,7 @@ function slot0.updateSlider(slot0, slot1)
 
 		if slot0 == UIItemList.EventUpdate then
 			if slot1 + 1 < uv1 then
-				(function ()
-					setActive(uv0, true)
-					setActive(uv1, false)
-					setActive(uv2, false)
-				end)()
+				slot7()
 			elseif slot1 + 1 == uv1 then
 				slot9()
 			elseif uv1 < slot1 + 1 then
@@ -765,9 +777,11 @@ function slot0.isFinishedCasualMode(slot0)
 	if slot0.userChallengeInfoList[ChallengeProxy.MODE_INFINITE] then
 		slot1 = true
 	elseif not slot2 then
+		slot4 = slot0.challengeInfo:getGradeList().seasonMaxLevel
+
 		if slot3 then
 			if slot3:getSeasonID() == slot0.challengeInfo:getSeasonID() then
-				if ChallengeConst.BOSS_NUM <= slot0.challengeInfo:getGradeList().seasonMaxLevel then
+				if ChallengeConst.BOSS_NUM <= slot4 then
 					slot1 = true
 				else
 					slot1 = false

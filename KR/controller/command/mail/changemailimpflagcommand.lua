@@ -2,8 +2,9 @@ slot0 = class("ChangeMailImpFlagCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(30010, {
+	slot3:Send(30010, {
 		id = slot2.id,
 		flag = slot2.flag
 	}, 30011, function (slot0)

@@ -140,6 +140,9 @@ function slot0.updateLockStudentPos(slot0, slot1, slot2)
 			slot5, slot6 = nil
 
 			if slot2.discount ~= 0 and type(slot2.discount_time) == "table" and (table.getCount(slot2.discount_time) == 0 or pg.TimeMgr.GetInstance():inTime(slot2.discount_time)) then
+				slot5 = {
+					discount = slot2.discount
+				}
 				slot7, slot8 = unpack(slot2.discount_time)
 				slot11, slot12, slot13 = unpack(slot7[1])
 				slot14, slot15, slot16 = unpack(slot8[1])
@@ -152,7 +155,7 @@ function slot0.updateLockStudentPos(slot0, slot1, slot2)
 					min = slot8[2][2],
 					sec = slot8[2][3]
 				}) - pg.TimeMgr.GetInstance():GetServerTime() >= 86400 then
-					-- Nothing
+					slot5.date = i18n("discount_time", math.floor((slot18 - slot17) / 86400)) .. i18n("word_date")
 				elseif slot19 >= 3600 then
 					slot5.date = i18n("discount_time", math.floor((slot18 - slot17) / 3600)) .. i18n("word_hour")
 				else
@@ -174,22 +177,21 @@ function slot0.updateLockStudentPos(slot0, slot1, slot2)
 
 					uv0:emit(NavalTacticsMediator.ON_SHOPPING, uv3)
 				end,
-				discount = {
-					discount = slot2.discount,
-					date = i18n("discount_time", math.floor((slot18 - slot17) / 86400)) .. i18n("word_date")
-				}
+				discount = slot5
 			})
 		end, SFX_PANEL)
 	end
 end
 
 function slot0.addStudent(slot0, slot1, slot2, slot3)
+	slot4 = Student.New({
+		id = slot2,
+		ship_id = slot1,
+		state = Student.WAIT
+	})
+
 	if slot3 then
-		Student.New({
-			id = slot2,
-			ship_id = slot1,
-			state = Student.WAIT
-		}):setSkillIndex(slot3)
+		slot4:setSkillIndex(slot3)
 	end
 
 	slot0.select = coroutine.wrap(function ()
@@ -199,7 +201,9 @@ function slot0.addStudent(slot0, slot1, slot2, slot3)
 		end
 
 		if #uv1.itemVOs > 0 then
-			uv1:showLessonSel(uv2, uv1.select, function ()
+			slot1 = uv1
+
+			slot1:showLessonSel(uv2, uv1.select, function ()
 				uv0.select = nil
 
 				uv0:addStudent(uv1, uv2, uv3)
@@ -230,32 +234,34 @@ function slot0.startLesson(slot0, slot1, slot2)
 	slot8 = slot3:getName()
 	slot9 = getSkillName(slot1:getSkillId(slot3))
 
+	function slot10()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("tactics_lesson_start_tip", uv0, uv1, uv2),
+			onYes = function ()
+				if uv0.level == uv1 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_max_level"))
+
+					return
+				end
+
+				if uv2 then
+					uv2()
+				end
+
+				uv3:emit(NavalTacticsMediator.ON_START, {
+					shipId = uv4.shipId,
+					skillPos = uv4:getSkillId(uv5),
+					lessonId = uv4.lessonId,
+					roomId = uv4.id
+				})
+			end
+		})
+	end
+
 	if slot3:isActivityNpc() then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("npc_learn_skill_tip"),
-			onYes = function ()
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("tactics_lesson_start_tip", uv0, uv1, uv2),
-					onYes = function ()
-						if uv0.level == uv1 then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_max_level"))
-
-							return
-						end
-
-						if uv2 then
-							uv2()
-						end
-
-						uv3:emit(NavalTacticsMediator.ON_START, {
-							shipId = uv4.shipId,
-							skillPos = uv4:getSkillId(uv5),
-							lessonId = uv4.lessonId,
-							roomId = uv4.id
-						})
-					end
-				})
-			end
+			onYes = slot10
 		})
 	else
 		slot10()
@@ -360,11 +366,13 @@ function slot0.deleteStudentVO(slot0, slot1, slot2, slot3, slot4)
 	slot12 = slot11:Find("infoPanel/skill_info/exp")
 	slot13 = slot11:Find("infoPanel/skill_info")
 	slot14 = slot11:Find("infoPanel/skill_info/level_contain/level")
+	slot16 = slot12:GetComponent(typeof(Slider))
 
 	setButtonEnabled(slot11:Find("infoPanel/cancel_btn"), false)
 
 	function slot17()
 		slot0 = nil
+		slot0 = uv1.level < uv0.level and i18n("tactics_end_to_learn", uv2:getName(), getSkillName(uv3), uv4) .. i18n("tactics_skill_level_up", uv1.level, uv0.level) or i18n("tactics_end_to_learn", uv2:getName(), getSkillName(uv3), uv4)
 
 		function slot1()
 			uv0.flag = nil
@@ -384,7 +392,7 @@ function slot0.deleteStudentVO(slot0, slot1, slot2, slot3, slot4)
 				modal = true,
 				hideNo = true,
 				hideClose = true,
-				content = uv1.level < uv0.level and i18n("tactics_end_to_learn", uv2:getName(), getSkillName(uv3), uv4) .. i18n("tactics_skill_level_up", uv1.level, uv0.level) or i18n("tactics_end_to_learn", uv2:getName(), getSkillName(uv3), uv4),
+				content = slot0,
 				onYes = function ()
 					uv0()
 
@@ -413,25 +421,33 @@ function slot0.deleteStudentVO(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
+	function slot18(slot0, slot1, slot2)
+		uv0:updateSkillDesc(uv1, {
+			id = uv2,
+			name = getSkillName(uv2),
+			level = slot0,
+			icon = uv3.icon,
+			exp = slot1 and slot1 or getConfigFromLevel1(pg.skill_need_exp, slot0).exp
+		}, true, slot2)
+	end
+
+	slot19 = slot3.level
+
+	function slot20(slot0)
+		uv0.value = slot0
+	end
+
 	if slot3.level < slot4.level then
-		(function (slot0, slot1, slot2)
-			uv0:updateSkillDesc(uv1, {
-				id = uv2,
-				name = getSkillName(uv2),
-				level = slot0,
-				icon = uv3.icon,
-				exp = slot1 and slot1 or getConfigFromLevel1(pg.skill_need_exp, slot0).exp
-			}, true, slot2)
-		end)(slot3.level, nil, true)
-		slot0:leanTweenValue(slot12, slot12:GetComponent(typeof(Slider)).value, 1, uv0, 0, function (slot0)
-			uv0.value = slot0
-		end, function ()
+		slot18(slot19, nil, true)
+		slot0:leanTweenValue(slot12, slot16.value, 1, uv0, 0, slot20, function ()
 			uv0 = uv0 + 1
 
 			uv1(uv0)
 
 			if uv2.level - uv0 > 0 then
-				uv3:leanTweenValue(uv4, 0, 1, uv5, 0, uv6, function ()
+				slot1 = uv3
+
+				slot1:leanTweenValue(uv4, 0, 1, uv5, 0, uv6, function ()
 					uv0 = uv0 + 1
 
 					if uv0 == uv1.level then
@@ -455,16 +471,18 @@ function slot0.deleteStudentVO(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.leanTweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
+	slot9 = LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
+		if uv0 then
+			uv0(slot0)
+		end
+	end)):setOnComplete(System.Action(function ()
+		if uv0 then
+			uv0()
+		end
+	end)):setDelay(slot5 or 0)
+
 	if slot8 and slot8 > 0 then
-		LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
-			if uv0 then
-				uv0(slot0)
-			end
-		end)):setOnComplete(System.Action(function ()
-			if uv0 then
-				uv0()
-			end
-		end)):setDelay(slot5 or 0):setRepeat(slot8)
+		slot9:setRepeat(slot8)
 	end
 end
 
@@ -477,15 +495,15 @@ function slot0.goDockYard(slot0, slot1, slot2)
 		return
 	end
 
+	slot3 = {}
+
 	for slot7, slot8 in pairs(slot0.studentVOs) do
 		if slot8:getState() == Student.WAIT then
-			-- Nothing
+			slot3[slot7] = slot8
 		end
 	end
 
-	slot0:emit(NavalTacticsMediator.OPEN_DOCKYARD, slot2, {
-		[slot7] = slot8
-	}, slot1)
+	slot0:emit(NavalTacticsMediator.OPEN_DOCKYARD, slot2, slot3, slot1)
 end
 
 function slot0.addLeasonOverTimer(slot0, slot1)
@@ -523,10 +541,11 @@ function slot0.updateSkillDesc(slot0, slot1, slot2, slot3, slot4)
 	setText(findTF(slot1, "level_contain/level"), slot2.level)
 	LoadImageSpriteAsync("skillicon/" .. slot2.icon, findTF(slot1, "icon"))
 
+	slot6 = slot0:findTF("next_contain/Text", slot1)
 	slot7 = getConfigFromLevel1(pg.skill_need_exp, slot2.level)
 
 	if slot2.level == pg.skill_data_template[slot2.id].max_level then
-		setText(slot0:findTF("next_contain/Text", slot1), "MAX")
+		setText(slot6, "MAX")
 	elseif slot3 then
 		slot0:leanTweenValue(slot6, slot4 and tonumber(string.sub(getText(slot6), 1, string.find(getText(slot6), "/") - 1)) or 0, slot2.exp, uv0, 0, function (slot0)
 			setText(uv0, math.floor(slot0) .. "/" .. uv1.exp)
@@ -568,8 +587,10 @@ function slot0.updateSkillInfo(slot0, slot1, slot2)
 end
 
 function slot0.updateShipInfo(slot0, slot1, slot2)
+	slot3 = slot0:findTF("ShipCardTpl", slot1)
+
 	if not slot0.shipCards[slot0.shipVOs[slot2.shipId].id] then
-		slot0.shipCards[slot4.id] = TacticsShipItem.New(slot0:findTF("ShipCardTpl", slot1), ShipStatus.TAG_HIDE_ALL)
+		slot0.shipCards[slot4.id] = TacticsShipItem.New(slot3, ShipStatus.TAG_HIDE_ALL)
 	end
 
 	slot0.shipCards[slot4.id]:update(slot4)
@@ -582,19 +603,24 @@ function slot0.showSkillSel(slot0, slot1, slot2)
 
 	setActive(slot0.skillsMask, true)
 
+	slot5 = 0
+
 	for slot9, slot10 in pairs(slot0.shipVOs[slot1.shipId]:getSkillList()) do
+		slot11 = slot0.skillContent:GetChild(slot9 - 1)
+		slot12 = getSkillConfig(slot10)
+
 		if slot3.skills[slot10] then
-			slot0:updateSkill(slot9, slot0.skillContent:GetChild(slot9 - 1), {
+			slot0:updateSkill(slot9, slot11, {
 				isLearn = true,
 				id = slot10,
 				name = getSkillName(slot10),
-				icon = getSkillConfig(slot10).icon,
+				icon = slot12.icon,
 				desc = getSkillDesc(slot10, slot3.skills[slot10].level),
 				level = slot3.skills[slot10].level,
 				exp = slot3.skills[slot10].exp
 			})
 
-			slot5 = 0 + 1
+			slot5 = slot5 + 1
 		end
 	end
 
@@ -657,9 +683,10 @@ function slot0.updateSkill(slot0, slot1, slot2, slot3, slot4)
 
 		if slot3.isLearn then
 			slot9 = getConfigFromLevel1(pg.skill_need_exp, slot3.level)
+			slot10 = findTF(slot5, "next_contain/Text")
 
 			if slot3.level == pg.skill_data_template[slot3.id].max_level then
-				setText(findTF(slot5, "next_contain/Text"), "MAX")
+				setText(slot10, "MAX")
 			else
 				setText(slot10, "<color=#A9F548FF>" .. slot3.exp .. "</color>/" .. slot9.exp)
 			end
@@ -755,9 +782,10 @@ function slot0.showLessonSel(slot0, slot1, slot2, slot3)
 	slot6 = slot0.shipVOs[slot1.shipId].configId
 	slot7 = slot1:getSkillId(slot0.shipVOs[slot1.shipId])
 	slot8 = slot0.shipVOs[slot1.shipId]
+	slot9 = slot0:findTF("skill/skilltpl_1", slot0.lessonMask)
 
 	if slot3 then
-		onButton(slot0, slot0:findTF("skill/skilltpl_1", slot0.lessonMask), function ()
+		onButton(slot0, slot9, function ()
 			uv0:closeLessonSel()
 
 			uv0.selectedLessonId = nil
@@ -840,9 +868,17 @@ function slot0.showLessonSel(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		uv1:setLesson(uv0.selectedLessonId)
-		uv1:setTime(uv0.lessonTime)
-		uv0:startLesson(uv1, function ()
+		slot0 = uv1
+
+		slot0:setLesson(uv0.selectedLessonId)
+
+		slot0 = uv1
+
+		slot0:setTime(uv0.lessonTime)
+
+		slot0 = uv0
+
+		slot0:startLesson(uv1, function ()
 			uv0:closeLessonSel()
 
 			if uv1 then

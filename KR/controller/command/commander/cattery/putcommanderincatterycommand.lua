@@ -25,7 +25,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(25030, {
+	slot9 = pg.ConnectionMgr.GetInstance()
+
+	slot9:Send(25030, {
 		slotidx = slot3,
 		commander_id = slot4
 	}, 25031, function (slot0)
@@ -57,8 +59,10 @@ function slot0.execute(slot0, slot1)
 					uv1:ResetPlayOP()
 				end
 
+				slot5 = {}
+
 				if not slot2 then
-					table.insert({}, i18n("common_clean"))
+					table.insert(slot5, i18n("common_clean"))
 				end
 
 				if not slot3 then
@@ -86,11 +90,13 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.UpdateCommanderLevelAndExp(slot0, slot1, slot2)
+	slot4 = slot2.commander_exp
+
 	if slot2.commander_level > 0 then
 		slot5 = getProxy(CommanderProxy)
 		slot6 = slot5:getCommanderById(slot1)
 
-		slot6:UpdateLevelAndExp(slot3, slot2.commander_exp)
+		slot6:UpdateLevelAndExp(slot3, slot4)
 		slot5:updateCommander(slot6)
 	end
 end

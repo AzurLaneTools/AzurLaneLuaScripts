@@ -32,8 +32,9 @@ function slot0.OnInit(slot0)
 	slot0.pointTpl = slot0:findTF("Point")
 	slot0.pointContainer = slot0:findTF("PointList")
 	slot0.pointUIItemList = UIItemList.New(slot0.pointContainer, slot0.pointTpl)
+	slot1 = slot0.pointUIItemList
 
-	slot0.pointUIItemList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0:findTF("Selected", slot2)
 

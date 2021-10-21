@@ -168,8 +168,11 @@ function slot0.CalcSingleDungeonScoreAtEnd(slot0, slot1)
 		slot0._statistics._deadUnit = false
 	end
 
+	slot6 = slot1:GetFlagShip()
+	slot7 = slot1:GetScoutList()
+
 	if slot3 == 2 then
-		if not slot1:GetFlagShip():IsAlive() or #slot1:GetScoutList() <= 0 then
+		if not slot6:IsAlive() or #slot7 <= 0 then
 			slot0._statistics._battleScore = uv0.BattleScore.D
 			slot0._statistics._boss_destruct = 1
 		else
@@ -186,8 +189,10 @@ function slot0.CalcSingleDungeonScoreAtEnd(slot0, slot1)
 		slot0._statistics._battleScore = uv0.BattleScore.D
 		slot0._statistics._boss_destruct = 1
 	else
+		slot8 = 0
+
 		if slot0._statistics._deadUnit then
-			slot8 = 0 + 1
+			slot8 = slot8 + 1
 		end
 
 		if slot5 < slot2 then
@@ -338,10 +343,12 @@ function slot0.CalcChallengeScore(slot0, slot1)
 end
 
 function slot0.CalcDodgemCount(slot0, slot1)
+	slot3 = slot1:GetTemplate().type
+
 	if slot1:GetDeathReason() == ys.Battle.BattleConst.UnitDeathReason.CRUSH then
 		slot0._dodgemStatistics.kill = slot0._dodgemStatistics.kill + 1
 
-		if slot1:GetTemplate().type == ShipType.JinBi then
+		if slot3 == ShipType.JinBi then
 			slot0._dodgemStatistics.combo = slot0._dodgemStatistics.combo + 1
 			slot0._dodgemStatistics.maxCombo = math.max(slot0._dodgemStatistics.maxCombo, slot0._dodgemStatistics.combo)
 			slot4 = slot0._dodgemStatistics.score + slot0:GetScorePoint()

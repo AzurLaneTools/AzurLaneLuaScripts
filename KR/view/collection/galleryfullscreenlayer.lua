@@ -53,10 +53,12 @@ function slot0.updatePicImg(slot0)
 	setImageSprite(slot0.picImg, LoadSprite(GalleryConst.PIC_PATH_PREFIX .. slot2, slot2))
 
 	slot0.isShowing = true
-
-	LeanTween.value(go(slot0.picImg), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
+	slot4 = LeanTween.value(go(slot0.picImg), 0, 1, 0.3)
+	slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
 		setImageAlpha(uv0.picImg, slot0)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot4:setOnComplete(System.Action(function ()
 		uv0.isShowing = false
 
 		setImageAlpha(uv0.picImg, 1)

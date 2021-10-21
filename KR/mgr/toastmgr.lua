@@ -75,6 +75,8 @@ function slot0.ResetUIDandHistory(slot0)
 end
 
 function slot0.ShowToast(slot0, slot1, slot2)
+	slot3 = #slot0.buffer
+
 	table.insert(slot0.buffer, {
 		state = 0,
 		type = slot1,
@@ -82,7 +84,7 @@ function slot0.ShowToast(slot0, slot1, slot2)
 	})
 	setActive(slot0._tf, true)
 
-	if #slot0.buffer == 1 or slot0.buffer[#slot0.buffer].state >= 2 then
+	if #slot0.buffer == 1 or slot0.buffer[slot3].state >= 2 then
 		slot0:Toast()
 	end
 end
@@ -254,7 +256,9 @@ function slot0.UpdateTecpoint(slot0, slot1, slot2, slot3)
 end
 
 function slot0.UpdateTrophy(slot0, slot1, slot2, slot3)
-	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1.info.sound or SFX_UI_TIP)
+	slot4 = pg.CriMgr.GetInstance()
+
+	slot4:PlaySoundEffect_V3(slot1.info.sound or SFX_UI_TIP)
 
 	slot4 = slot0:GetAndSet(slot1.type, slot0.container)
 	slot5 = pg.medal_template[slot1.info.id]
@@ -295,10 +299,12 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 
 	slot17 = slot4.curSkillID
 	slot20 = slot4.oldSkillLevel < slot4.newSkillLevel
+	slot21 = slot7.transform:Find("ExpFull")
+	slot22 = slot7.transform:Find("ExpAdd")
 
 	if pg.gameset.meta_skill_exp_max.key_value <= slot4.newDayExp then
-		setActive(slot7.transform:Find("ExpFull"), true)
-		setActive(slot7.transform:Find("ExpAdd"), false)
+		setActive(slot21, true)
+		setActive(slot22, false)
 	else
 		setText(slot7.transform:Find("ExpAdd/Value"), string.format("+%d", slot15))
 		setActive(slot21, false)
@@ -308,9 +314,12 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 	if slot20 then
 		setImageSprite(slot8.transform:Find("Skill/Icon"), LoadSprite("skillicon/" .. getSkillConfig(slot17).icon))
 
+		slot25 = slot8.transform:Find("LevelUp")
+		slot26 = slot8.transform:Find("LevelMax")
+
 		if pg.skill_data_template[slot17].max_level <= slot19 then
-			setActive(slot8.transform:Find("LevelUp"), false)
-			setActive(slot8.transform:Find("LevelMax"), true)
+			setActive(slot25, false)
+			setActive(slot26, true)
 		else
 			setText(slot8.transform:Find("LevelUp/Value"), string.format("+%d", slot19 - slot18))
 			setActive(slot25, true)
@@ -377,8 +386,9 @@ end
 function slot0.UpdateCrusing(slot0, slot1, slot2, slot3)
 	slot4 = slot1.info
 	slot5 = slot4.ptId
+	slot7 = pg.CriMgr.GetInstance()
 
-	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1.info.sound or SFX_UI_TIP)
+	slot7:PlaySoundEffect_V3(slot1.info.sound or SFX_UI_TIP)
 
 	slot7 = tf(slot0:GetAndSet(slot1.type, slot0.container))
 

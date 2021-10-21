@@ -2,15 +2,19 @@ slot0 = class("ModifyGuildInfoCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot4 = getProxy(PlayerProxy):getData()
+	slot5 = pg.gameset.modify_guild_cost.key_value
 
-	if type == 1 and getProxy(PlayerProxy):getData():getTotalGem() < pg.gameset.modify_guild_cost.key_value then
+	if type == 1 and slot4:getTotalGem() < slot5 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_rmb"))
 
 		return
 	end
 
 	function slot6()
-		pg.ConnectionMgr.GetInstance():Send(60026, {
+		slot0 = pg.ConnectionMgr.GetInstance()
+
+		slot0:Send(60026, {
 			type = uv0.type,
 			int = uv0.int,
 			str = uv0.string

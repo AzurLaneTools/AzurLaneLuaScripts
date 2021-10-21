@@ -54,11 +54,13 @@ function slot5.Destroy(slot0)
 end
 
 function slot5.GetMask(...)
+	slot1 = 0
+
 	for slot5 = 1, #{
 		...
 	} do
 		if (uv0[slot0[slot5]] or 0) ~= 0 then
-			slot1 = 0 + slot6
+			slot1 = slot1 + slot6
 		end
 	end
 

@@ -20,7 +20,9 @@ function slot0.Update(slot0, slot1)
 			slot0.weatherPrefabs[slot6] = true
 
 			if pg.weather_data_template[slot6].icon and #slot8 > 0 then
-				slot0:GetLoader():GetPrefab("ui/" .. slot8, slot8, function (slot0)
+				slot9 = slot0:GetLoader()
+
+				slot9:GetPrefab("ui/" .. slot8, slot8, function (slot0)
 					setParent(slot0, uv0.tf)
 					setActive(slot0, true)
 					uv0:OnLoadedPrefab(slot0, uv1)

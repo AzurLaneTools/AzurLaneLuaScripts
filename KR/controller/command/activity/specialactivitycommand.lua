@@ -27,10 +27,12 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.unloadEquipments(slot0, slot1)
+	slot2 = getProxy(EquipmentProxy)
+
 	for slot7, slot8 in pairs(slot1.equipments) do
 		if slot8 then
 			slot1:updateEquip(slot7, nil)
-			getProxy(EquipmentProxy):addEquipmentById(slot8.id, 1)
+			slot2:addEquipmentById(slot8.id, 1)
 		end
 
 		if slot1:getEquipSkin(slot7) ~= 0 then

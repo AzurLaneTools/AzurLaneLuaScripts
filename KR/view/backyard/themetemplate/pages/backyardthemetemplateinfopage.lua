@@ -40,10 +40,11 @@ end
 
 function slot0.InitFurnitureList(slot0)
 	slot0.displays = {}
+	slot2 = slot0.dorm:GetAllFurniture()
 
 	for slot6, slot7 in pairs(slot0.template:GetFurnitureCnt()) do
 		if pg.furniture_data_template[slot6] then
-			table.insert(slot0.displays, slot0.dorm:GetAllFurniture()[slot6] or Furniture.New({
+			table.insert(slot0.displays, slot2[slot6] or Furniture.New({
 				id = slot6
 			}))
 		end

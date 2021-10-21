@@ -69,10 +69,13 @@ function slot0.Input(slot0, slot1)
 	end
 
 	slot0.inputTimer = Timer.New(function ()
+		slot0 = uv0.model:GetMatchAction()
+		slot1 = uv0.model:GetMonsterAction()
+
 		uv0:UpdateActionStr("")
 
 		if uv1 then
-			uv0:StartAction(uv0.model:GetMatchAction(), uv0.model:GetMonsterAction())
+			uv0:StartAction(slot0, slot1)
 		end
 	end, slot3, 1)
 
@@ -86,7 +89,9 @@ function slot0.StartAction(slot0, slot1, slot2)
 
 	seriesAsync({
 		function (slot0)
-			uv0:SendRequestToServer(function (slot0)
+			slot1 = uv0
+
+			slot1:SendRequestToServer(function (slot0)
 				uv0 = slot0
 
 				uv1()

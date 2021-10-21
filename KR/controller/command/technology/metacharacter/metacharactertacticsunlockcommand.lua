@@ -8,7 +8,10 @@ function slot0.execute(slot0, slot1)
 	slot6 = slot2.materialInfo
 
 	print("63311 unlock skill", tostring(slot3), tostring(slot4), tostring(slot5))
-	pg.ConnectionMgr.GetInstance():Send(63311, {
+
+	slot7 = pg.ConnectionMgr.GetInstance()
+
+	slot7:Send(63311, {
 		ship_id = slot3,
 		skill_id = slot4,
 		index = slot5

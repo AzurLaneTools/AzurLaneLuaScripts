@@ -64,23 +64,25 @@ function slot0.Flush(slot0, slot1, slot2)
 		})
 	end
 
-	for slot7, slot8 in ipairs(slot1.personship or {}) do
+	slot3 = {}
+	slot4 = ipairs
+	slot5 = slot1.personship or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		slot3[slot8.page_id] = {}
+
 		for slot12, slot13 in ipairs(slot8.ship_ids) do
 			table.insert(slot3[slot8.page_id], slot13)
 		end
 	end
 
-	slot0:UpdateMyFleets({
-		[slot8.page_id] = {}
-	})
+	slot0:UpdateMyFleets(slot3)
 
 	slot0.attrAccList = {}
-	slot4 = {
-		[slot9.key] = slot9.value
-	}
+	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot1.attr_acc_list) do
-		-- Nothing
+		slot4[slot9.key] = slot9.value
 	end
 
 	for slot9, slot10 in ipairs(slot0:getConfig("event_attr_acc_effect")) do
@@ -93,12 +95,10 @@ function slot0.Flush(slot0, slot1, slot2)
 	end
 
 	slot0.attrCntList = {}
-	slot6 = {
-		[slot11.key] = slot11.value
-	}
+	slot6 = {}
 
 	for slot10, slot11 in ipairs(slot1.attr_count_list) do
-		-- Nothing
+		slot6[slot11.key] = slot11.value
 	end
 
 	for slot11, slot12 in ipairs(slot0:getConfig("event_attr_count_effect")) do
@@ -177,14 +177,16 @@ function slot0.CanFormation(slot0)
 end
 
 function slot0.GetNextFormationTime(slot0)
+	slot1 = slot0.formationTime
 	slot2 = GetZeroTime()
+	slot3 = GetZeroTime() - 86400
 
 	if _.detect(_.map(pg.guildset.operation_member_dispatch_reset.key_args, function (slot0)
 		return uv0 + slot0 * 3600
 	end), function (slot0)
 		return uv0 < slot0
 	end) then
-		if slot0.formationTime < GetZeroTime() - 86400 - 86400 + slot4[4] * 3600 then
+		if slot1 < slot3 - 86400 + slot4[4] * 3600 then
 			return pg.TimeMgr.GetInstance():GetServerTime()
 		else
 			return slot6
@@ -340,7 +342,8 @@ end
 
 function slot0.GetLogs(slot0)
 	if slot0:GetMyFlagShip() then
-		slot2 = getProxy(BayProxy):getShipById(slot1)
+		slot2 = getProxy(BayProxy)
+		slot2 = slot2:getShipById(slot1)
 
 		return _.map(slot0.nodeLogs, function (slot0)
 			return string.gsub(slot0, "$2", "<color=#92FC63FF>" .. uv0:getName() .. "</color>")
@@ -367,10 +370,14 @@ function slot0.CalcMyEffect(slot0)
 		return 0
 	end
 
+	slot1 = getProxy(BayProxy)
+	slot2 = 0
+	slot3 = 0
+
 	for slot7, slot8 in ipairs(slot0) do
-		if getProxy(BayProxy):getShipById(slot8) then
-			slot2 = slot9.level + 0
-			slot3 = 0 + slot9:getShipCombatPower({})
+		if slot1:getShipById(slot8) then
+			slot2 = slot9.level + slot2
+			slot3 = slot3 + slot9:getShipCombatPower({})
 		end
 	end
 
@@ -406,10 +413,11 @@ function slot0.GetSquadronRatio(slot0)
 end
 
 function slot0.GetOtherShips(slot0)
+	slot1 = getProxy(GuildProxy):getRawData()
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.ships) do
-		if getProxy(GuildProxy):getRawData():getMemberById(slot7.userId) then
+		if slot1:getMemberById(slot7.userId) then
 			if slot7.skin == 0 then
 				slot9 = pg.ship_data_statistics[slot7.configId].skin_id
 			end
@@ -510,9 +518,10 @@ end
 function slot0.MatchAttr(slot0, slot1)
 	if slot0:IsEliteType() then
 		slot2, slot3 = slot0:GetEffectAttr()
+		slot5 = slot1.attrs[slot2] or 0
 
 		if slot3 then
-			return slot3 <= (slot1.attrs[slot2] or 0)
+			return slot3 <= slot5
 		else
 			return slot5 > 0
 		end

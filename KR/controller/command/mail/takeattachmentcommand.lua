@@ -64,7 +64,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	seriesAsync(slot16, function ()
-		pg.ConnectionMgr.GetInstance():Send(30004, {
+		slot0 = pg.ConnectionMgr.GetInstance()
+
+		slot0:Send(30004, {
 			id = {
 				uv0.id
 			}

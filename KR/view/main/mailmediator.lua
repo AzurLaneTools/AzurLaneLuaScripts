@@ -74,7 +74,8 @@ end
 
 function slot0.getAllAttachment(slot0)
 	slot1 = {}
-	slot1 = _.map(getProxy(MailProxy):getAllAttachment(), function (slot0)
+	slot2 = getProxy(MailProxy)
+	slot1 = _.map(slot2:getAllAttachment(), function (slot0)
 		return {
 			type = slot0.dropType,
 			id = slot0.id,
@@ -112,8 +113,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == MailProxy.MAIL_ADDED then
-		slot0.viewComponent:addMail(slot1:getBody())
+		slot0.viewComponent:addMail(slot3)
 	elseif slot2 == MailProxy.MAIL_UPDATED then
 		slot0.viewComponent:updateMail(slot3)
 	elseif slot2 == MailProxy.MAIL_REMOVED then

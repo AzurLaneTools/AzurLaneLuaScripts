@@ -37,14 +37,18 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == ActivityProxy.ACTIVITY_ADDED or slot2 == ActivityProxy.ACTIVITY_UPDATED then
-		slot0.viewComponent:updateActivity(slot1:getBody())
+		slot0.viewComponent:updateActivity(slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then
 		-- Nothing
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS or slot2 == GAME.ACT_NEW_PT_DONE or slot2 == GAME.RETURN_AWARD_OP_DONE or slot2 == GAME.MONOPOLY_AWARD_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+		slot4 = slot0.viewComponent
+
+		slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 			uv0.viewComponent:updateTaskLayers()
 		end)
 	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE then

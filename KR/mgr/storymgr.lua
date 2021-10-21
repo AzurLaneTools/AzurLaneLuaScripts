@@ -29,12 +29,16 @@ slot10 = {
 }
 
 function slot0.GetStoryByName(slot0, slot1)
+	slot2 = uv0[PLATFORM_CODE]
+
 	if slot1 == "index" then
-		slot1 = slot1 .. uv0[PLATFORM_CODE]
+		slot1 = slot1 .. slot2
 	end
 
+	slot3 = "GameCfg.story" .. "." .. slot1
+
 	if Application.isEditor then
-		print("Story Path:", "GameCfg.story" .. "." .. slot1)
+		print("Story Path:", slot3)
 	end
 
 	slot4, slot5 = pcall(function ()
@@ -67,7 +71,10 @@ slot14 = 1
 
 function slot0.Init(slot0, slot1)
 	print("initializing story manager...")
-	PoolMgr.GetInstance():GetUI("StoryUI", true, function (slot0)
+
+	slot2 = PoolMgr.GetInstance()
+
+	slot2:GetUI("StoryUI", true, function (slot0)
 		uv0._go = slot0
 
 		uv0:Load()
@@ -85,8 +92,9 @@ function slot0.Load(slot0)
 	slot0._curtain = findTF(slot0._go, "curtain")
 	slot0._curtainCG = slot0._curtain:GetComponent(typeof(CanvasGroup))
 	slot0._option_tpl = findTF(slot0._go, "options_panel/options/option_tpl")
+	slot1 = slot0._option_tpl
 
-	slot0._option_tpl:SetParent(tf(slot0._go), false)
+	slot1:SetParent(tf(slot0._go), false)
 	SetActive(slot0._option_tpl, false)
 
 	slot0._dialogue = findTF(slot0._go, "dialogue")
@@ -163,7 +171,7 @@ slot15 = {
 
 function slot0.PlayOnTaskAdded(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not table.contains(uv0, getProxy(ContextProxy):getCurrentContext().viewComponent.__cname) then
-		slot0:Play(slot1, slot2, slot3, slot4, slot5)
+		slot0.Play(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
@@ -174,7 +182,7 @@ function slot16()
 end
 
 function slot0.Play(slot0, slot1, slot2, slot3, slot4, slot5)
-	if not slot0:GetStoryByName(slot1) then
+	if not slot0.GetStoryByName(slot0, slot1) then
 		return slot2 and slot2()
 	end
 
@@ -182,14 +190,14 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = getProxy(ChapterProxy)
 	slot7 = false
 
-	if uv0() and slot6 and slot6:getActiveChapter() and PlayerPrefs.GetInt("skip_events_on_" .. slot8.id, 1) == 0 then
+	if uv0() and slot6 and slot6.getActiveChapter(slot6) and PlayerPrefs.GetInt("skip_events_on_" .. slot8.id, 1) == 0 then
 		slot7 = true
 	end
 
 	slot0.force = slot3 or slot7
 
 	if slot0.storyId then
-		slot0:addQuery(slot1, slot2)
+		slot0.addQuery(slot0, slot1, slot2)
 
 		return false
 	end
@@ -198,31 +206,31 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	uv1(slot0:GetStoryByName(slot1))
 
-	if (uv3 and true or uv2[slot1].type ~= uv4) and not slot0.ENABLE and slot0:IsPlayed(slot1) then
+	if (uv3 and true or uv2[slot1].type ~= uv4) and not slot0.ENABLE and slot0.IsPlayed(slot0, slot1) then
 		if slot2 then
 			slot2(true)
 		end
 
 		slot0.storyId = nil
 
-		slot0:popQuery()
+		slot0.popQuery(slot0)
 
 		return false
 	end
 
-	if not slot3 and slot8.once and slot0:IsPlayed(slot1) then
+	if not slot3 and slot8.once and slot0.IsPlayed(slot0, slot1) then
 		if slot2 then
 			slot2(true)
 		end
 
 		slot0.storyId = nil
 
-		slot0:popQuery()
+		slot0.popQuery(slot0)
 
 		return false
 	end
 
-	slot0:StartStory(slot8, function ()
+	slot0.StartStory(slot0, slot8, function ()
 		uv0.keepSeletedOptions = true
 
 		if uv0.nextEpisode and not uv0:isRecall() then
@@ -244,7 +252,7 @@ function slot0.getSelectedOptions(slot0)
 end
 
 function slot0.storyLog(slot0, slot1)
-	uv0(slot0:GetStoryByName(slot1))
+	uv0(slot0.GetStoryByName(slot0, slot1))
 
 	if not uv1[slot1] then
 		print("no story:" .. slot1 .. "|" .. #uv1)
@@ -267,7 +275,7 @@ function slot0.storyLog(slot0, slot1)
 			if not slot9.actorName and not slot9.actor then
 				slot10 = "背景音\n"
 			elseif slot9.actor > 0 then
-				slot10, slot8 = slot0:getNameAndPainting(slot9)
+				slot10, slot8 = slot0.getNameAndPainting(slot0, slot9)
 			elseif slot9.actor == 0 then
 				return "指挥官"
 			elseif slot9.actor == -1 then
@@ -350,8 +358,10 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 			})
 		end
 
+		slot9 = math.random(1, slot7)
+
 		for slot13, slot14 in ipairs(slot8) do
-			if math.random(1, slot7) <= slot14[2] then
+			if slot9 <= slot14[2] then
 				slot0.optionFlag = slot14[1]
 
 				break
@@ -360,28 +370,31 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot7 = nil
+	slot8 = slot0._go.transform
 
-	slot0._go.transform:SetAsLastSibling()
+	slot8:SetAsLastSibling()
 	SetActive(slot0._go, true)
 	onButton(slot0, slot0.skipBtn, function ()
 		if (not uv0.interactive or uv1) and not uv0.blackSkip then
 			return
 		end
 
+		function slot0()
+			if uv0.inTypeWritter then
+				uv0.typeWriter:setSpeed(uv0.typeWritterSpeedUp * Time.timeScale)
+			end
+
+			for slot4 = 0, go(uv0._go):GetComponentsInChildren(typeof(Transform)).Length - 1 do
+				LeanTween.cancel(go(slot0[slot4]), true)
+			end
+
+			uv1 = true
+
+			uv2()
+		end
+
 		if uv3 then
-			(function ()
-				if uv0.inTypeWritter then
-					uv0.typeWriter:setSpeed(uv0.typeWritterSpeedUp * Time.timeScale)
-				end
-
-				for slot4 = 0, go(uv0._go):GetComponentsInChildren(typeof(Transform)).Length - 1 do
-					LeanTween.cancel(go(slot0[slot4]), true)
-				end
-
-				uv1 = true
-
-				uv2()
-			end)()
+			slot0()
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				parent = rtf(uv0._go),
@@ -458,7 +471,9 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 
 				if (slot4.mode or uv0.mode) == uv3.ASIDE then
 					if slot4.flashout then
-						uv1:flashout(slot4, function ()
+						slot7 = uv1
+
+						slot7:flashout(slot4, function ()
 							uv0:initAside(uv1)
 
 							if table.getCount(uv1.sequence or {}) == 0 then
@@ -474,7 +489,9 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 					end
 				elseif slot6 == uv3.DIALOG then
 					if slot4.flashout then
-						uv1:flashout(slot4, function ()
+						slot7 = uv1
+
+						slot7:flashout(slot4, function ()
 							uv0:initDialog(uv1)
 						end)
 					else
@@ -482,7 +499,9 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 					end
 				elseif slot6 == uv3.BG then
 					if slot4.flashout then
-						uv1:flashout(slot4, function ()
+						slot7 = uv1
+
+						slot7:flashout(slot4, function ()
 							uv0:initBg(uv1)
 						end)
 					else
@@ -494,7 +513,9 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 					uv1.skipBtn:GetComponent(typeof(Button)).interactable = false
 
 					if not slot4.typewriter then
-						uv1:initOptions(slot4, function ()
+						slot7 = uv1
+
+						slot7:initOptions(slot4, function ()
 							uv0()
 						end)
 					else
@@ -504,8 +525,9 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 							end
 
 							uv0.typeWriteCallback = nil
+							slot0 = uv0
 
-							uv0:initOptions(uv1, function ()
+							slot0:initOptions(uv1, function ()
 								uv0()
 							end)
 						end
@@ -520,7 +542,9 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 
 				if slot4.bgm then
 					if slot4.bgmDelay then
-						pg.CriMgr.GetInstance():StopBGM(true)
+						slot7 = pg.CriMgr.GetInstance()
+
+						slot7:StopBGM(true)
 
 						uv1.stopBGM = true
 
@@ -567,7 +591,9 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 					setActive(uv1._flash, true)
 
 					for slot11, slot12 in ipairs(slot4.flashN.alpha) do
-						LeanTween.value(go(uv1._flash), slot12[1], slot12[2], slot12[3]):setDelay(slot12[4] or 0):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
+						slot13 = LeanTween.value(go(uv1._flash), slot12[1], slot12[2], slot12[3])
+
+						slot13:setDelay(slot12[4] or 0):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
 							uv0._flashCG.alpha = slot0
 						end))
 					end
@@ -575,8 +601,9 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 
 				if slot4.dialogShake then
 					uv1.interactive = false
+					slot7 = LeanTween.moveX(uv1._dialogue, slot4.dialogShake.x, slot4.dialogShake.speed)
 
-					LeanTween.moveX(uv1._dialogue, slot4.dialogShake.x, slot4.dialogShake.speed):setDelay(slot4.dialogShake.delay or 0):setLoopPingPong(slot4.dialogShake.number):setOnComplete(System.Action(function ()
+					slot7:setDelay(slot4.dialogShake.delay or 0):setLoopPingPong(slot4.dialogShake.number):setOnComplete(System.Action(function ()
 						uv0.interactive = true
 					end))
 				end
@@ -595,7 +622,9 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 				end
 
 				if slot4.movie then
-					pg.CriMgr.GetInstance():StopBGM()
+					slot7 = pg.CriMgr.GetInstance()
+
+					slot7:StopBGM()
 					playMovie(slot4.movie, function ()
 						onNextTick(function ()
 							if not uv0.stopBGM then
@@ -719,12 +748,15 @@ function slot0.initAside(slot0, slot1)
 	removeAllChildren(slot2)
 	setActive(slot0._subBg, false)
 
+	slot4 = slot1.bgSpeed or 0.5
+
 	if slot1.bgFade and slot0.preBg then
 		slot0.interactive = false
-
-		LeanTween.value(go(slot0._bg), 1, 0, slot1.bgSpeed or 0.5):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
+		slot5 = LeanTween.value(go(slot0._bg), 1, 0, slot4):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
 			uv0._bgCG.alpha = slot0
-		end)):setDelay(delay or 0):setOnComplete(System.Action(function ()
+		end))
+
+		slot5:setDelay(delay or 0):setOnComplete(System.Action(function ()
 			uv0.interactive = true
 			uv0.preBg = nil
 
@@ -739,7 +771,7 @@ function slot0.initAside(slot0, slot1)
 	if slot0.preStep and slot1.paintingFadeOut then
 		slot0.interactive = false
 
-		slot0:paintingFadeOut(slot0.preStep, slot1, function ()
+		slot0.paintingFadeOut(slot0, slot0.preStep, slot1, function ()
 			uv0.interactive = true
 
 			SetActive(uv0._dialogue, false)
@@ -751,8 +783,10 @@ function slot0.initAside(slot0, slot1)
 	function slot5()
 		slot0 = 0
 		slot1 = nil
+		slot2 = ipairs
+		slot3 = uv0.sequence or {}
 
-		for slot5, slot6 in ipairs(uv0.sequence or {}) do
+		for slot5, slot6 in slot2(slot3) do
 			slot7 = cloneTplTo(uv1, uv2)
 
 			setActive(slot7, true)
@@ -776,7 +810,7 @@ function slot0.initAside(slot0, slot1)
 		end
 
 		if slot1 then
-			slot1:setOnComplete(System.Action(function ()
+			slot1.setOnComplete(slot1, System.Action(function ()
 				uv0.interactive = true
 
 				if uv1.autoComplete then
@@ -787,7 +821,7 @@ function slot0.initAside(slot0, slot1)
 	end
 
 	if slot1.flashin then
-		slot0:flashin(slot1, function ()
+		slot0.flashin(slot0, slot1, function ()
 			uv0()
 		end)
 	else
@@ -834,13 +868,15 @@ function slot0.initDialog(slot0, slot1)
 	slot0.actorLeft.localPosition = slot0.posActorLeft
 	slot0.actorRight.localPosition = slot0.posActorRight
 	slot0.actorMiddle.localPosition = slot0.posActorMiddle
+	slot2 = slot1.bgSpeed or 0.5
 
 	if slot1.bgFade and slot0.preBg then
 		slot0.interactive = false
-
-		LeanTween.value(go(slot0._bg), 1, 0, slot1.bgSpeed or 0.5):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
+		slot3 = LeanTween.value(go(slot0._bg), 1, 0, slot2):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
 			uv0._bgCG.alpha = slot0
-		end)):setDelay(delay or 0):setOnComplete(System.Action(function ()
+		end))
+
+		slot3:setDelay(delay or 0):setOnComplete(System.Action(function ()
 			uv0.interactive = true
 			uv0.preBg = nil
 
@@ -883,7 +919,7 @@ function slot0.initDialog(slot0, slot1)
 		slot4.localPosition = Vector3(slot4.localPosition.x + (slot1.actorPosition.x or 0), slot4.localPosition.y + (slot1.actorPosition.y or 0), 0)
 	end
 
-	slot4:SetAsLastSibling()
+	slot4.SetAsLastSibling(slot4)
 
 	if slot1.actor then
 		slot6, slot7 = slot0:getNameAndPainting(slot1)
@@ -897,7 +933,7 @@ function slot0.initDialog(slot0, slot1)
 
 				setActive(slot4, false)
 				setActive(slot0._main, false)
-				slot0:paintingFadeOut(slot0.preStep, slot1, function ()
+				slot0.paintingFadeOut(slot0, slot0.preStep, slot1, function ()
 					setActive(uv0, true)
 					setActive(uv1._main, true)
 
@@ -909,9 +945,10 @@ function slot0.initDialog(slot0, slot1)
 			slot0:setSubActors(slot4, slot1.subActors)
 			(function (slot0)
 				slot1 = findTF(slot0, "face")
+				slot2 = ShipExpressionHelper.SetExpression(slot0, uv0, "default")
 
 				if uv1.expression then
-					setActive(slot1, ShipExpressionHelper.SetExpression(slot0, uv0, "default") or uv1.expression)
+					setActive(slot1, slot2 or uv1.expression)
 					setImageSprite(slot1, GetSpriteFromAtlas("paintingface/" .. uv0, uv1.expression))
 				end
 
@@ -999,12 +1036,12 @@ function slot0.initDialog(slot0, slot1)
 				end))
 			end
 		else
-			removeAllChildren(slot4:Find("fitter"))
-			removeAllChildren(slot4:Find("actor_sub"))
+			removeAllChildren(slot4.Find(slot4, "fitter"))
+			removeAllChildren(slot4.Find(slot4, "actor_sub"))
 		end
 	else
-		removeAllChildren(slot4:Find("fitter"))
-		removeAllChildren(slot4:Find("actor_sub"))
+		removeAllChildren(slot4.Find(slot4, "fitter"))
+		removeAllChildren(slot4.Find(slot4, "actor_sub"))
 
 		if slot1.actorName then
 			setText(slot5:Find("Text"), HXSet.hxLan(HXSet.hxLan(slot1.nameColor and setColorStr(slot1.actorName, slot1.nameColor) or setColorStr(slot1.actorName, COLOR_WHITE))))
@@ -1020,7 +1057,7 @@ function slot0.initDialog(slot0, slot1)
 	end
 
 	if slot1.flashin then
-		slot0:flashin(slot1, function ()
+		slot0.flashin(slot0, slot1, function ()
 			uv0()
 		end)
 	else
@@ -1158,7 +1195,10 @@ function slot0.setCurtainFade(slot0, slot1)
 		return
 	end
 
-	LeanTween.value(go(target), 1, 0, slot1):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
+	slot2 = LeanTween.value(go(target), 1, 0, slot1)
+	slot2 = slot2:setUseEstimatedTime(true)
+
+	slot2:setOnUpdate(System.Action_float(function (slot0)
 		uv0._curtainCG.alpha = slot0
 	end))
 end
@@ -1167,50 +1207,52 @@ function slot0.setFade(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 	slot6 = {}
 
+	function slot7(slot0)
+		if IsNil(slot0.GetComponent(slot0, typeof(Image))) then
+			return
+		end
+
+		table.insert(uv0, slot1.material.shader.name == "UI/GrayScale" and {
+			name = "_GrayScale",
+			color = Color.New(0.21176470588235294, 0.7137254901960784, 0.07058823529411765)
+		} or slot1.material.shader.name == "UI/Line_Add_Blue" and {
+			name = "_GrayScale",
+			color = Color.New(1, 1, 1, 0.5882352941176471)
+		} or {
+			name = "_Color",
+			color = Color.white
+		})
+
+		if slot1.material == slot1.defaultGraphicMaterial then
+			slot1.material = Material.Instantiate(slot1.defaultGraphicMaterial)
+			findTF(slot0, "face"):GetComponent(typeof(Image)).material = slot1.material
+
+			if findTF(slot0, "shadow") then
+				slot4:GetComponent(typeof(Image)):GetComponent(typeof(Image)).material = slot1.material
+			end
+
+			if findTF(slot0, "layers") then
+				for slot9 = 0, slot5.childCount - 1 do
+					if slot5.GetChild(slot5, slot9) and slot10.GetComponent(slot10, typeof(Image)) then
+						slot11.GetComponent(slot11, typeof(Image)).material = slot1.material
+					end
+				end
+			end
+
+			if findTF(slot0, "hx") then
+				for slot10 = 0, slot6.childCount - 1 do
+					if slot6.GetChild(slot6, slot10) and slot11.GetComponent(slot11, typeof(Image)) then
+						slot12.GetComponent(slot12, typeof(Image)).material = slot1.material
+					end
+				end
+			end
+		end
+
+		table.insert(uv1, slot1.material)
+	end
+
 	if findTF(slot1, "fitter").childCount > 0 then
-		(function (slot0)
-			if IsNil(slot0:GetComponent(typeof(Image))) then
-				return
-			end
-
-			table.insert(uv0, slot1.material.shader.name == "UI/GrayScale" and {
-				name = "_GrayScale",
-				color = Color.New(0.21176470588235294, 0.7137254901960784, 0.07058823529411765)
-			} or slot1.material.shader.name == "UI/Line_Add_Blue" and {
-				name = "_GrayScale",
-				color = Color.New(1, 1, 1, 0.5882352941176471)
-			} or {
-				name = "_Color",
-				color = Color.white
-			})
-
-			if slot1.material == slot1.defaultGraphicMaterial then
-				slot1.material = Material.Instantiate(slot1.defaultGraphicMaterial)
-				findTF(slot0, "face"):GetComponent(typeof(Image)).material = slot1.material
-
-				if findTF(slot0, "shadow") then
-					slot4:GetComponent(typeof(Image)):GetComponent(typeof(Image)).material = slot1.material
-				end
-
-				if findTF(slot0, "layers") then
-					for slot9 = 0, slot5.childCount - 1 do
-						if slot5:GetChild(slot9) and slot10:GetComponent(typeof(Image)) then
-							slot11:GetComponent(typeof(Image)).material = slot1.material
-						end
-					end
-				end
-
-				if findTF(slot0, "hx") then
-					for slot10 = 0, slot6.childCount - 1 do
-						if slot6:GetChild(slot10) and slot11:GetComponent(typeof(Image)) then
-							slot12:GetComponent(typeof(Image)).material = slot1.material
-						end
-					end
-				end
-			end
-
-			table.insert(uv1, slot1.material)
-		end)(slot8:GetChild(0))
+		slot7(slot8.GetChild(slot8, 0))
 	end
 
 	if findTF(slot1, "actor_sub") and slot9.childCount > 0 then
@@ -1220,14 +1262,16 @@ function slot0.setFade(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0.interactive = false
-
-	LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
+	slot10 = LeanTween.value(go(slot1), slot2, slot3, slot4)
+	slot10 = slot10:setOnUpdate(System.Action_float(function (slot0)
 		for slot4, slot5 in ipairs(uv0) do
 			if not IsNil(slot5) then
 				slot5:SetColor(uv1[slot4].name, uv1[slot4].color * Color.New(slot0, slot0, slot0))
 			end
 		end
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot10:setOnComplete(System.Action(function ()
 		uv0.interactive = true
 	end))
 end
@@ -1250,13 +1294,25 @@ function slot0.initBg(slot0, slot1)
 	end
 
 	if slot1.flashin then
-		slot0:flashin(slot1)
+		slot0.flashin(slot0, slot1)
 	end
 
 	slot2 = slot1.side or 0
 
 	setActive(slot0.nameRight, slot1.side == 1)
 	setActive(slot0.nameLeft, slot1.side == 0)
+
+	function slot3(slot0, slot1, slot2, slot3, slot4)
+		LeanTween.value(go(uv0._bg), slot0, slot1, slot2):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
+			uv0._bgCG.alpha = slot0
+		end)):setDelay(slot3 or 0):setOnComplete(System.Action(function ()
+			if uv0 then
+				uv0()
+			end
+		end))
+	end
+
+	slot4 = slot1.bgSpeed or 0.5
 
 	if slot1.bgName then
 		slot0._bgCG.alpha = 1
@@ -1276,15 +1332,7 @@ function slot0.initBg(slot0, slot1)
 		if slot0.preBg and slot0.preBg ~= slot1.bgName then
 			slot0.interactive = false
 
-			(function (slot0, slot1, slot2, slot3, slot4)
-				LeanTween.value(go(uv0._bg), slot0, slot1, slot2):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
-					uv0._bgCG.alpha = slot0
-				end)):setDelay(slot3 or 0):setOnComplete(System.Action(function ()
-					if uv0 then
-						uv0()
-					end
-				end))
-			end)(1, 0, slot1.bgSpeed or 0.5, 0, function ()
+			slot3(1, 0, slot4, 0, function ()
 				setImageSprite(uv0, uv1)
 				uv2(0, 1, uv3, 0, function ()
 					uv0.interactive = true
@@ -1353,11 +1401,13 @@ function slot0.initBg(slot0, slot1)
 	setActive(slot0._dialogue, slot1.say)
 
 	if slot1.typewriter then
-		slot0:TypeWriter(slot1)
+		slot0.TypeWriter(slot0, slot1)
 	end
 
+	slot5 = slot0.getNameAndPainting(slot0, slot1)
+
 	if slot2 == 0 then
-		setText(slot0.nameLeft:Find("Text"), slot0:getNameAndPainting(slot1))
+		setText(slot0.nameLeft:Find("Text"), slot5)
 	else
 		setText(slot0.nameRight:Find("Text"), slot5)
 	end
@@ -1399,7 +1449,7 @@ function slot0.initOptions(slot0, slot1, slot2)
 		slot0.optionItems = {}
 	end
 
-	slot0:removeOptBtns()
+	slot0.removeOptBtns(slot0)
 
 	for slot6, slot7 in ipairs(slot1.options) do
 		if not slot0.optionItems[slot6] then
@@ -1412,7 +1462,9 @@ function slot0.initOptions(slot0, slot1, slot2)
 		setActive(slot8, true)
 		setButtonText(slot9, HXSet.hxLan(slot7.content))
 		onButton(slot0, slot9, function ()
-			uv0:hideOptions(uv1, function ()
+			slot0 = uv0
+
+			slot0:hideOptions(uv1, function ()
 				uv0.optionFlag = uv1.flag
 
 				table.insert(uv0.selectedOptions, uv0.optionFlag)
@@ -1424,7 +1476,7 @@ function slot0.initOptions(slot0, slot1, slot2)
 		end)
 	end
 
-	slot0:showOptions()
+	slot0.showOptions(slot0)
 end
 
 function slot0.showOptions(slot0)
@@ -1448,8 +1500,9 @@ function slot0.showOptions(slot0)
 	end
 
 	slot0.optionsCg.interactable = false
+	slot2 = LeanTween.value(go(slot0.options), 0, 1, 0.2)
 
-	LeanTween.value(go(slot0.options), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
+	slot2:setOnUpdate(System.Action_float(function (slot0)
 		uv0.optionsCg.alpha = slot0
 	end))
 	LeanTween.delayedCall(slot1 * 0.1, System.Action(function ()
@@ -1476,10 +1529,12 @@ function slot0.hideOptions(slot0, slot1, slot2)
 	end
 
 	slot0.optionsCg.interactable = false
-
-	LeanTween.value(go(slot0.options), 1, 0, 0.2):setOnUpdate(System.Action_float(function (slot0)
+	slot4 = LeanTween.value(go(slot0.options), 1, 0, 0.2)
+	slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
 		uv0.optionsCg.alpha = slot0
-	end)):setDelay(slot3 * 0.1 + 0.8)
+	end))
+
+	slot4:setDelay(slot3 * 0.1 + 0.8)
 	LeanTween.delayedCall(slot3 * 0.1 + 1, System.Action(function ()
 		uv0.skipBtn:GetComponent(typeof(Button)).interactable = true
 		uv0.optionsCg.interactable = true
@@ -1591,7 +1646,7 @@ function slot0.EndStory(slot0, slot1)
 		slot1()
 	end
 
-	slot0:popQuery()
+	slot0.popQuery(slot0)
 end
 
 function slot0.setSubActors(slot0, slot1, slot2)
@@ -1605,19 +1660,22 @@ function slot0.setSubActors(slot0, slot1, slot2)
 		return
 	end
 
+	slot4 = findTF(slot1, "tpl")
+
 	for slot8, slot9 in ipairs(slot2) do
 		slot10, slot11 = slot0:getNameAndPainting({
 			actor = slot9.actor
 		})
-		slot12 = cloneTplTo(findTF(slot1, "tpl"), slot3)
+		slot12 = cloneTplTo(slot4, slot3)
 
 		setPaintingPrefab(slot12, slot11, "duihua")
 
 		slot13 = findTF(slot12, "fitter"):GetChild(0)
 		slot14 = findTF(slot13, "face")
+		slot15 = ShipExpressionHelper.SetExpression(slot13, slot11, "default")
 
 		if slot9.expression then
-			setActive(slot14, ShipExpressionHelper.SetExpression(slot13, slot11, "default") or slot9.expression)
+			setActive(slot14, slot15 or slot9.expression)
 			setImageSprite(slot14, GetSpriteFromAtlas("paintingface/" .. slot11, slot9.expression))
 		end
 
@@ -1639,7 +1697,7 @@ function slot0.popQuery(slot0)
 		table.remove(uv0, 1)
 
 		if uv0[1] then
-			slot0:Play(slot1[1], slot1[2])
+			slot0.Play(slot0, slot1[1], slot1[2])
 		end
 	end
 end
@@ -1721,7 +1779,7 @@ function slot0.updatePainting(slot0, slot1, slot2)
 
 		if findTF(slot4, "layers") and isActive(slot7) then
 			for slot11 = 0, slot7.childCount - 1 do
-				slot13 = GetComponent(slot7:GetChild(slot11), "Image")
+				slot13 = GetComponent(slot7.GetChild(slot7, slot11), "Image")
 
 				if slot2 then
 					slot13.material = slot0.material1

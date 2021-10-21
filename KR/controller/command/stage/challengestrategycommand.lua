@@ -8,7 +8,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(24004, {
+	slot7 = pg.ConnectionMgr.GetInstance()
+
+	slot7:Send(24004, {
 		act = Challenge.CHALLENGE_OP_STRATEGY,
 		act_arg1 = {
 			slot4

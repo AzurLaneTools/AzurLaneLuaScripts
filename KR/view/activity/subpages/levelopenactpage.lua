@@ -1,10 +1,12 @@
 slot0 = class("LevelOpenActPage", import("view.base.BaseActivityPage"))
 
 function slot0.OnInit(slot0)
-	slot1 = slot0._tf:Find("AD/task_list/content")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("AD/task_list/content")
 	slot0.uiList = UIItemList.New(slot1, slot1:Find("tpl"))
+	slot2 = slot0.uiList
 
-	slot0.uiList:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateTask(slot2, uv0.taskVOs[slot1 + 1])
 		end
@@ -76,8 +78,10 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 	slot7 = UIItemList.New(slot4:Find("items"), slot4:Find("items/IconTpl"))
 
 	slot7:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
+			slot3 = uv0[slot1]
 
 			updateDrop(slot2, {
 				type = slot3[1],

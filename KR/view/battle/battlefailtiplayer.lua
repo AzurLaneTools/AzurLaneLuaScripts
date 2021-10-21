@@ -108,8 +108,9 @@ end
 
 function slot0.aniBeforeEnter(slot0)
 	slot1 = GetComponent(slot0._tf, "CanvasGroup")
+	slot2 = LeanTween.value(go(slot0._tf), 0, 1, 0.6)
 
-	LeanTween.value(go(slot0._tf), 0, 1, 0.6):setOnUpdate(System.Action_float(function (slot0)
+	slot2:setOnUpdate(System.Action_float(function (slot0)
 		uv0.alpha = slot0
 	end))
 end

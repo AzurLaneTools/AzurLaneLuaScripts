@@ -75,8 +75,10 @@ function slot0.GetCacheShips(slot0)
 end
 
 function slot0.SavaCacheShips(slot0, slot1)
+	slot3 = ""
+
 	for slot7, slot8 in ipairs(slot1:getShipIds()) do
-		slot3 = "" .. slot8 .. "|"
+		slot3 = slot3 .. slot8 .. "|"
 	end
 
 	PlayerPrefs.SetString(uv0.CacheKey .. getProxy(PlayerProxy):getRawData().id, slot3)
@@ -114,12 +116,13 @@ function slot0.BalanceMaxBossCnt(slot0)
 	slot2 = {}
 	slot3 = {}
 	slot4 = {}
+	slot5 = {}
 
 	for slot9, slot10 in pairs(slot0.cacheBosses) do
 		slot11 = slot10:GetType()
 
 		if slot10:isDeath() or slot10:IsExpired() then
-			table.insert({}, slot10)
+			table.insert(slot5, slot10)
 		elseif slot11 == WorldBoss.BOSS_TYPE_FRIEND then
 			table.insert(slot4, slot10)
 		elseif slot11 == WorldBoss.BOSS_TYPE_GUILD then
@@ -354,7 +357,10 @@ end
 function slot0.Dispose(slot0)
 	uv0.super.Dispose(slot0)
 
-	for slot4, slot5 in pairs(slot0.timers or {}) do
+	slot1 = pairs
+	slot2 = slot0.timers or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:Stop()
 	end
 

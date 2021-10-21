@@ -22,7 +22,9 @@ end
 function slot0.handleNotification(slot0, slot1)
 	uv0.super.handleNotification(slot0, slot1)
 
-	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED and slot1:getBody():getConfig("type") == ActivityConst.ACTIVITY_TYPE_EXPEDITION then
+	slot3 = slot1:getBody()
+
+	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_EXPEDITION then
 		slot0.viewComponent:activityUpdate()
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)

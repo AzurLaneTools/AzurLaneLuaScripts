@@ -40,8 +40,12 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.GetGateWayByServer(slot0, slot1, slot2)
-	pg.ConnectionMgr.GetInstance():Connect(NetConst.GATEWAY_HOST, NetConst.GATEWAY_PORT, function ()
-		pg.ConnectionMgr.GetInstance():Send(10802, {
+	slot3 = pg.ConnectionMgr.GetInstance()
+
+	slot3:Connect(NetConst.GATEWAY_HOST, NetConst.GATEWAY_PORT, function ()
+		slot0 = pg.ConnectionMgr.GetInstance()
+
+		slot0:Send(10802, {
 			platform = uv0,
 			state = NetConst.GatewayState
 		}, 10803, function (slot0)

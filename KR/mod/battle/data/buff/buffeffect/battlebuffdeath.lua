@@ -24,18 +24,22 @@ function slot1.onUpdate(slot0, slot1, slot2, slot3)
 	if slot0._time and slot0._time < slot3 then
 		slot1:SetDeathReason(uv0.Battle.BattleConst.UnitDeathReason.DESTRUCT)
 		slot0:DoDead(slot1)
-	elseif slot0._maxX and slot0._maxX <= slot1:GetPosition().x then
-		slot1:SetDeathReason(uv0.Battle.BattleConst.UnitDeathReason.LEAVE)
-		slot0:DoDead(slot1)
-	elseif slot0._minX and slot4.x <= slot0._minX then
-		slot1:SetDeathReason(uv0.Battle.BattleConst.UnitDeathReason.LEAVE)
-		slot0:DoDead(slot1)
-	elseif slot0._maxY and slot0._maxY <= slot4.z then
-		slot1:SetDeathReason(uv0.Battle.BattleConst.UnitDeathReason.LEAVE)
-		slot0:DoDead(slot1)
-	elseif slot0._minY and slot4.z <= slot0._minY then
-		slot1:SetDeathReason(uv0.Battle.BattleConst.UnitDeathReason.LEAVE)
-		slot0:DoDead(slot1)
+	else
+		slot4 = slot1:GetPosition()
+
+		if slot0._maxX and slot0._maxX <= slot4.x then
+			slot1:SetDeathReason(uv0.Battle.BattleConst.UnitDeathReason.LEAVE)
+			slot0:DoDead(slot1)
+		elseif slot0._minX and slot4.x <= slot0._minX then
+			slot1:SetDeathReason(uv0.Battle.BattleConst.UnitDeathReason.LEAVE)
+			slot0:DoDead(slot1)
+		elseif slot0._maxY and slot0._maxY <= slot4.z then
+			slot1:SetDeathReason(uv0.Battle.BattleConst.UnitDeathReason.LEAVE)
+			slot0:DoDead(slot1)
+		elseif slot0._minY and slot4.z <= slot0._minY then
+			slot1:SetDeathReason(uv0.Battle.BattleConst.UnitDeathReason.LEAVE)
+			slot0:DoDead(slot1)
+		end
 	end
 end
 

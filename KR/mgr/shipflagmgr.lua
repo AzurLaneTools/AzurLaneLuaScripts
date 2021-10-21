@@ -25,29 +25,26 @@ slot2 = {
 		return getProxy(FleetProxy):getAllShipIds(true)
 	end,
 	inElite = function ()
-		slot0 = {
-			[slot6] = _.flatten(slot7)
-		}
+		slot0 = {}
+		slot2 = getProxy(ActivityProxy)
 
 		for slot6, slot7 in pairs(getProxy(ChapterProxy).mapEliteFleetCache) do
-			if uv0.expedition_data_by_map[slot6].on_activity == 0 or checkExist(getProxy(ActivityProxy):getActivityById(slot8), {
+			if uv0.expedition_data_by_map[slot6].on_activity == 0 or checkExist(slot2:getActivityById(slot8), {
 				"isEnd"
 			}) == false then
-				-- Nothing
+				slot0[slot6] = _.flatten(slot7)
 			end
 		end
 
 		return _.flatten(_.values(slot0)), slot0
 	end,
 	inActivity = function ()
-		slot0 = {
-			[slot6] = _.flatten(_.map(_.values(slot7), function (slot0)
-				return slot0.ships
-			end))
-		}
+		slot0 = {}
 
 		for slot6, slot7 in pairs(_.values(getProxy(FleetProxy):getActivityFleets())) do
-			-- Nothing
+			slot0[slot6] = _.flatten(_.map(_.values(slot7), function (slot0)
+				return slot0.ships
+			end))
 		end
 
 		return _.flatten(_.values(slot0)), slot0
@@ -130,9 +127,10 @@ function slot1.GetShipFlag(slot0, slot1, slot2, slot3)
 end
 
 function slot1.FilterShips(slot0, slot1, slot2)
+	slot2 = slot2 or underscore.keys(getProxy(BayProxy):getRawData())
 	slot3 = {}
 
-	for slot7, slot8 in ipairs(slot2 or underscore.keys(getProxy(BayProxy):getRawData())) do
+	for slot7, slot8 in ipairs(slot2) do
 		for slot12, slot13 in pairs(slot1) do
 			if slot13 and slot0:GetShipFlag(slot8, slot12, slot13) then
 				slot3[slot8] = true

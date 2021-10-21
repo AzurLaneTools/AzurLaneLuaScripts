@@ -6,7 +6,8 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	slot1 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+	slot2 = getProxy(ActivityProxy)
+	slot1 = _.detect(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
 		return slot0:getConfig("config_client").pt_id == uv0.activity:getConfig("config_client").pt_id
 	end)
 

@@ -52,8 +52,10 @@ function print_r(slot0)
 		slot3 = {}
 
 		for slot7, slot8 in uv0(slot0) do
+			slot9 = uv1(slot7)
+
 			if uv2[slot8] then
-				uv3(slot3, "+" .. uv1(slot7) .. " {" .. uv2[slot8] .. "}")
+				uv3(slot3, "+" .. slot9 .. " {" .. uv2[slot8] .. "}")
 			elseif uv4(slot8) == "table" then
 				uv2[slot8] = slot2 .. "." .. slot9
 

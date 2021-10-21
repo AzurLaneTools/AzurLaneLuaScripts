@@ -4256,6 +4256,32 @@ _G.pg.shop_template[43014] = {
 	}
 }
 
+_G.pg.shop_template[43015] = {
+	is_auto_use = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "8000功勋兑换谢菲尔德(μ兵装)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 4,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43015,
+	resource_num = 8000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		202251
+	}
+}
+
 _G.pg.shop_template[50002] = {
 	is_auto_use = 0,
 	resource_type = 14,
@@ -4572,6 +4598,7 @@ _G.pg.shop_template[60000] = {
 	limit_args2 = "",
 	time_second = 0,
 	order = 0,
+	time = "always",
 	group = 7,
 	num = 1,
 	discount = 100,
@@ -4582,32 +4609,6 @@ _G.pg.shop_template[60000] = {
 	limit_args = {},
 	effect_args = {
 		40000
-	},
-	time = {
-		{
-			{
-				2021,
-				10,
-				4
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2030,
-				12,
-				31
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -24416,10 +24417,11 @@ _G.pg.shop_template[70259] = {
 	desc = "购买皮肤：埃尔德里奇偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
 	order = 360,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24430,32 +24432,6 @@ _G.pg.shop_template[70259] = {
 	limit_args = {},
 	effect_args = {
 		101264
-	},
-	time = {
-		{
-			{
-				2021,
-				3,
-				25
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				4,
-				14
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -24467,10 +24443,11 @@ _G.pg.shop_template[70260] = {
 	desc = "购买皮肤：斯佩伯爵偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
 	order = 360,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24481,32 +24458,6 @@ _G.pg.shop_template[70260] = {
 	limit_args = {},
 	effect_args = {
 		403054
-	},
-	time = {
-		{
-			{
-				2021,
-				3,
-				25
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				4,
-				14
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -24518,10 +24469,11 @@ _G.pg.shop_template[70261] = {
 	desc = "购买皮肤：平海偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
 	order = 360,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24532,32 +24484,6 @@ _G.pg.shop_template[70261] = {
 	limit_args = {},
 	effect_args = {
 		502033
-	},
-	time = {
-		{
-			{
-				2021,
-				3,
-				25
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				4,
-				14
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -24569,10 +24495,11 @@ _G.pg.shop_template[70262] = {
 	desc = "购买皮肤：宁海偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
 	order = 360,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24583,32 +24510,6 @@ _G.pg.shop_template[70262] = {
 	limit_args = {},
 	effect_args = {
 		502023
-	},
-	time = {
-		{
-			{
-				2021,
-				3,
-				25
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				4,
-				14
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -24620,10 +24521,11 @@ _G.pg.shop_template[70263] = {
 	desc = "购买皮肤：绫波偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
 	order = 510,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24634,32 +24536,6 @@ _G.pg.shop_template[70263] = {
 	limit_args = {},
 	effect_args = {
 		301057
-	},
-	time = {
-		{
-			{
-				2021,
-				3,
-				25
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				4,
-				14
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -24671,10 +24547,11 @@ _G.pg.shop_template[70264] = {
 	desc = "购买皮肤：拉菲偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
 	order = 510,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24685,32 +24562,6 @@ _G.pg.shop_template[70264] = {
 	limit_args = {},
 	effect_args = {
 		101176
-	},
-	time = {
-		{
-			{
-				2021,
-				3,
-				25
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				4,
-				14
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -24722,10 +24573,11 @@ _G.pg.shop_template[70265] = {
 	desc = "购买皮肤：Z23偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
 	order = 510,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24736,32 +24588,6 @@ _G.pg.shop_template[70265] = {
 	limit_args = {},
 	effect_args = {
 		401236
-	},
-	time = {
-		{
-			{
-				2021,
-				3,
-				25
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				4,
-				14
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 

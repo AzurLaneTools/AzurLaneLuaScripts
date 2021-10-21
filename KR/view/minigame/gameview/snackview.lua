@@ -174,7 +174,9 @@ function slot0.addListener(slot0)
 	onButton(slot0, slot0.startBtn, slot4, SFX_PANEL)
 
 	for slot4 = 1, uv0.Snack_Num do
-		onButton(slot0, slot0.snackContainer:GetChild(slot4 - 1), function ()
+		slot5 = slot0.snackContainer
+
+		onButton(slot0, slot5:GetChild(slot4 - 1), function ()
 			slot0 = uv0.snackIDList[uv1]
 
 			if isActive(uv0:findTF("SelectedTag", uv2)) == true then
@@ -204,8 +206,16 @@ function slot0.addListener(slot0)
 end
 
 function slot0.updateSDModel(slot0)
-	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetSpineChar(getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().character):getPrefab(), true, function (slot0)
+	slot1 = getProxy(PlayerProxy)
+	slot3 = getProxy(BayProxy)
+	slot4 = slot3:getShipById(slot1:getData().character)
+	slot6 = pg.UIMgr.GetInstance()
+
+	slot6:LoadingOn()
+
+	slot6 = PoolMgr.GetInstance()
+
+	slot6:GetSpineChar(slot4:getPrefab(), true, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.prefab = uv1
@@ -218,17 +228,20 @@ function slot0.updateSDModel(slot0)
 end
 
 function slot0.updateSelectedList(slot0, slot1)
+	slot1 = slot1 or {}
+
 	for slot5 = 1, uv0.Order_Num do
 		slot6 = slot0.selectedContainer:GetChild(slot5 - 1)
 		slot8 = slot0:findTF("Full", slot6)
+		slot9 = slot0:findTF("SnackImg", slot8)
 		slot0.selectedTFList[slot5] = slot6
-		slot10 = (slot1 or {})[slot5]
+		slot10 = slot1[slot5]
 
 		setActive(slot8, slot10)
 		setActive(slot0:findTF("Empty", slot6), not slot10)
 
 		if slot10 then
-			setImageSprite(slot0:findTF("SnackImg", slot8), GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. slot10, true))
+			setImageSprite(slot9, GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. slot10, true))
 		end
 	end
 end
@@ -251,8 +264,10 @@ end
 
 function slot0.updateSelectedOrderTag(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.selectedSnackTFList) do
+		slot7 = slot0:findTF("SelectedTag", slot6)
+
 		if slot1 then
-			setActive(slot0:findTF("SelectedTag", slot6), false)
+			setActive(slot7, false)
 		else
 			setImageSprite(slot7, GetSpriteFromAtlas("ui/snackui_atlas", "order_" .. table.indexof(slot0.selectedIDList, slot5, 1), true))
 		end
@@ -298,9 +313,12 @@ function slot0.onStateChange(slot0)
 				end
 			end
 
-			LeanTween.value(go(slot0.selectedContainer), 0, 1, uv0.Bubble_Fade_Time):setOnUpdate(System.Action_float(function (slot0)
+			slot2 = LeanTween.value(go(slot0.selectedContainer), 0, 1, uv0.Bubble_Fade_Time)
+			slot2 = slot2:setOnUpdate(System.Action_float(function (slot0)
 				uv0.selectedContainerCG.alpha = slot0
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot2:setOnComplete(System.Action(function ()
 				setActive(uv0.considerTipTF, true)
 				setActive(uv0.selectTipTF, false)
 				uv0:initTimer(uv1)
@@ -328,9 +346,13 @@ function slot0.onStateChange(slot0)
 			setText(slot0.selectTimeText, slot0.countTime)
 		elseif slot0.state == uv0.States_Finished then
 			slot0:updateSnackInteractable(false)
-			LeanTween.value(go(slot0.selectedContainer), 1, 0, uv0.Bubble_Fade_Time):setOnUpdate(System.Action_float(function (slot0)
+
+			slot1 = LeanTween.value(go(slot0.selectedContainer), 1, 0, uv0.Bubble_Fade_Time)
+			slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 				uv0.selectedContainerCG.alpha = slot0
-			end)):setOnComplete(System.Action(function ()
+			end))
+
+			slot1:setOnComplete(System.Action(function ()
 				uv0:openResultView()
 			end))
 		end

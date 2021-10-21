@@ -1,9 +1,11 @@
 slot0 = class("ChangeManifestoCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot5 = getProxy(PlayerProxy):getData()
+	slot4 = getProxy(PlayerProxy)
+	slot5 = slot4:getData()
+	slot6 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(11009, {
+	slot6:Send(11009, {
 		adv = slot1:getBody().manifesto
 	}, 11010, function (slot0)
 		if slot0.result == 0 then

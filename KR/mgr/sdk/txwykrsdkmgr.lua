@@ -97,7 +97,7 @@ return {
 		slot1 = "未登入"
 
 		if getProxy(PlayerProxy) then
-			slot1 = slot0:getData().name
+			slot1 = slot0.getData(slot0).name
 		end
 
 		uv0:UserCenter(slot1, BundleWizard.Inst:GetGroupMgr("DEFAULT_RES").CurrentVersion:ToString(), "1")
@@ -107,7 +107,7 @@ return {
 		slot5 = ""
 
 		if getProxy(PlayerProxy) then
-			slot5 = slot4:getData().name
+			slot5 = slot4.getData(slot4).name
 		end
 
 		uv0:BugReport(slot5, BundleWizard.Inst:GetGroupMgr("DEFAULT_RES").CurrentVersion:ToString(), slot3.id)
@@ -136,9 +136,13 @@ return {
 			end
 		end
 
-		uv0:QueryWithProduct((function ()
+		slot2 = uv0
+
+		slot2:QueryWithProduct((function ()
+			slot0 = ""
+
 			for slot4, slot5 in ipairs(pg.pay_data_display.all) do
-				slot0 = "" .. pg.pay_data_display[slot5].id_str .. ";"
+				slot0 = slot0 .. pg.pay_data_display[slot5].id_str .. ";"
 			end
 
 			return slot0

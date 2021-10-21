@@ -153,8 +153,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot1:getBody())
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == GAME.WORLD_BOSS_START_BATTLE_FIALED then
 		slot0.viewComponent:emit(BaseUI.ON_CLOSE)
 	elseif slot2 == PlayerProxy.UPDATED then

@@ -121,9 +121,10 @@ function slot3.SetArgs(slot0, slot1)
 end
 
 function slot3.Trigger(slot0, slot1, slot2)
+	slot3 = slot0:GetBuffList() or {}
 	slot4 = {}
 
-	for slot8, slot9 in pairs(slot0:GetBuffList() or {}) do
+	for slot8, slot9 in pairs(slot3) do
 		if slot9._triggerSearchTable[slot1] ~= nil and #slot10 > 0 then
 			slot4[#slot4 + 1] = slot9
 		end
@@ -135,7 +136,9 @@ function slot3.Trigger(slot0, slot1, slot2)
 end
 
 function slot3.IsSubmarineSpecial(slot0)
-	for slot5, slot6 in ipairs(slot0._triggerSearchTable[uv0.Battle.BattleConst.BuffEffectType.ON_SUBMARINE_FREE_SPECIAL] or {}) do
+	slot1 = slot0._triggerSearchTable[uv0.Battle.BattleConst.BuffEffectType.ON_SUBMARINE_FREE_SPECIAL] or {}
+
+	for slot5, slot6 in ipairs(slot1) do
 		if slot6:HaveQuota() then
 			return true
 		end

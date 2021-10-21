@@ -134,8 +134,10 @@ function slot0.getPowerTxt(slot0)
 end
 
 function slot0.getTitleWord(slot0, slot1, slot2)
+	slot3 = {}
+
 	for slot7 = 1, 4 do
-		table.insert({}, i18n("ranking_word_" .. uv0.typeInfo[slot1].title_word[slot7]))
+		table.insert(slot3, i18n("ranking_word_" .. uv0.typeInfo[slot1].title_word[slot7]))
 	end
 
 	if slot1 == uv0.TYPE_PT then
@@ -154,7 +156,9 @@ function slot0.getActivityByRankType(slot0, slot1)
 		return nil
 	end
 
-	return _.detect(getProxy(ActivityProxy):getActivitiesByType(uv0.typeInfo[slot1].act_type), function (slot0)
+	slot3 = getProxy(ActivityProxy)
+
+	return _.detect(slot3:getActivitiesByType(uv0.typeInfo[slot1].act_type), function (slot0)
 		return not slot0:isEnd() and (uv0 ~= uv1.TYPE_PT or tonumber(slot0:getConfig("config_data")) > 0)
 	end)
 end
