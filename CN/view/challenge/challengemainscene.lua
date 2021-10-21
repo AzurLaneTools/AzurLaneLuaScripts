@@ -131,7 +131,7 @@ function slot0.findUI(slot0)
 	slot0.modTipTF = slot0:findTF("TipText", slot0.northTF)
 	slot0.modTipText = slot0:findTF("Text", slot0.modTipTF)
 
-	setActive(slot0.modTipText, false)
+	setActive(slot0.modTipTF, false)
 
 	slot0.fleetSelect = slot0:findTF("LevelFleetSelectView")
 	slot0.fleetEditPanel = ActivityFleetPanel.New(slot0.fleetSelect.gameObject)
@@ -754,12 +754,14 @@ function slot0.showTipText(slot0)
 
 	setText(slot0.modTipText, i18n(slot0.curMode == ChallengeProxy.MODE_CASUAL and "challenge_normal_tip" or "challenge_unlimited_tip"))
 
-	if slot0.modTipText:GetComponent(typeof(DftAniEvent)) then
+	if slot0.modTipTF:GetComponent(typeof(DftAniEvent)) then
 		slot2:SetEndEvent(function (slot0)
 			setActive(uv0.modTipText, false)
+			setActive(uv0.modTipTF, false)
 		end)
 	end
 
+	setActive(slot0.modTipTF, true)
 	setActive(slot0.modTipText, true)
 end
 

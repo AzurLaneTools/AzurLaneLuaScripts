@@ -843,8 +843,10 @@ return {
 				{
 					triggerType = 8,
 					waveIndex = 900,
+					conditionType = 0,
 					preWaves = {
-						103
+						104,
+						2003
 					},
 					triggerParams = {}
 				},
