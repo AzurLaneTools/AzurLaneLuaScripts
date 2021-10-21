@@ -26,6 +26,8 @@ function slot6.init(slot0)
 	slot0._currentBiasRange = 0
 	slot0._biasAttr = 0
 	slot0._decaySpeed = 0
+	slot0._ratioSpeed = 0
+	slot0._combinedSpeed = 0
 	slot0._pos = Vector3.zero
 end
 
@@ -34,6 +36,10 @@ function slot6.ConfigRangeFormula(slot0, slot1, slot2)
 	slot0._decayFormulaFunc = slot2
 
 	slot0:init()
+end
+
+function slot6.ConfigMinRange(slot0, slot1)
+	slot0._minBiasRange = slot1
 end
 
 function slot6.Active(slot0, slot1)
@@ -49,21 +55,24 @@ end
 
 function slot6.Update(slot0, slot1)
 	slot0._pos = slot0._host:GetPosition()
+	slot3 = uv0.GetCurrent(slot0._host, "aimBiasDecaySpeedRatio") * slot0._maxBiasRange
+	slot0._ratioSpeed = slot3
+	slot0._combinedSpeed = slot0._decaySpeed + uv0.GetCurrent(slot0._host, "aimBiasDecaySpeed") + slot3
 
-	if slot0._state == uv0.STATE_SUMMON_SICKNESS then
-		if uv1.AIM_BIAS_ENEMY_INIT_TIME < slot1 - slot0._activeTimeStamp then
-			slot0:ChangeState(uv0.STATE_ACTIVITING)
+	if slot0._state == uv1.STATE_SUMMON_SICKNESS then
+		if uv2.AIM_BIAS_ENEMY_INIT_TIME < slot1 - slot0._activeTimeStamp then
+			slot0:ChangeState(uv1.STATE_ACTIVITING)
 		end
-	elseif slot0._state == uv0.STATE_SKILL_EXPOSE then
+	elseif slot0._state == uv1.STATE_SKILL_EXPOSE then
 		slot0._biasAttr = 0
 	else
-		slot0._currentBiasRange = Mathf.Clamp(slot0._currentBiasRange - (slot0._decaySpeed + uv2.GetCurrent(slot0._host, "aimBiasDecaySpeed") + uv2.GetCurrent(slot0._host, "aimBiasDecaySpeedRatio") * slot0._maxBiasRange) * (slot1 - slot0._lastUpdateTimeStamp), slot0._minBiasRange, slot0._maxBiasRange)
+		slot0._currentBiasRange = Mathf.Clamp(slot0._currentBiasRange - slot0._combinedSpeed * (slot1 - slot0._lastUpdateTimeStamp), slot0._minBiasRange, slot0._maxBiasRange)
 		slot0._biasAttr = slot0._currentBiasRange
 
 		if slot0._currentBiasRange <= slot0._minBiasRange then
-			slot0:ChangeState(uv0.STATE_TOTAL_EXPOSE)
+			slot0:ChangeState(uv1.STATE_TOTAL_EXPOSE)
 		else
-			slot0:ChangeState(uv0.STATE_ACTIVITING)
+			slot0:ChangeState(uv1.STATE_ACTIVITING)
 		end
 	end
 
@@ -74,6 +83,10 @@ end
 
 function slot6.GetCurrentRate(slot0)
 	return (slot0._currentBiasRange - slot0._minBiasRange) / slot0._progressLength
+end
+
+function slot6.GetDecayRatioSpeed(slot0)
+	return slot0._ratioSpeed
 end
 
 function slot6.GetCurrentState(slot0)
@@ -88,6 +101,10 @@ function slot6.GetPosition(slot0)
 	return slot0._pos
 end
 
+function slot6.GetCrewCount(slot0)
+	return #slot0._crewList
+end
+
 function slot6.GetRange(slot0)
 	slot1 = nil
 
@@ -100,6 +117,10 @@ function slot6.GetDecayFactorType(slot0)
 	else
 		return uv1.NORMAL
 	end
+end
+
+function slot6.IsHostile(slot0)
+	return slot0._hostile
 end
 
 function slot6.SetDecayFactor(slot0, slot1, slot2)
@@ -170,6 +191,10 @@ function slot6.ChangeState(slot0, slot1)
 	slot0._state = slot1
 end
 
+function slot6.SetHostile(slot0)
+	slot0._hostile = true
+end
+
 function slot6.switchHost(slot0)
 	slot0._host = slot0._crewList[1]
 
@@ -177,9 +202,8 @@ function slot6.switchHost(slot0)
 end
 
 function slot6.flush(slot0)
-	slot0._maxBiasRange = slot0._rangeFormulaFunc(slot0._crewList)
+	slot0._maxBiasRange = math.max(slot0._rangeFormulaFunc(slot0._crewList), slot0._minBiasRange)
 	slot1 = slot0._host:GetTemplate().cld_box
-	slot0._minBiasRange = math.sqrt((slot1[1] * 0.5)^2 + (slot1[3] * 0.5)^2)
 	slot0._progressLength = slot0._maxBiasRange - slot0._minBiasRange
 end
 

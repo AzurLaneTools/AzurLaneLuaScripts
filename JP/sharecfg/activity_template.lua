@@ -5679,7 +5679,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 15,
+		is_show = 13,
 		id = 4136,
 		config_data = {
 			{
@@ -5735,7 +5735,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 17,
+		is_show = 15,
 		config_data = {
 			{
 				17130,
@@ -5813,21 +5813,96 @@ pg.activity_template = {
 	},
 	[4139] = {
 		mark = 20211014,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
 		config_data = "activity_drop_4139",
+		title_res_tag = "",
 		id = 4139,
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "加斯科涅(μ兵装)、{namecode:176}等角色建造概率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有舰船</color>：7%",
+				"<color=#d797ff>精锐舰船</color>：12%",
+				"<color=#3dc6ff>稀有舰船</color>：51%",
+				"普通舰船：30%",
+				"<color=#ffde38>加斯科涅(μ兵装)</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>{namecode:176}</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>克利夫兰(μ兵装)</color>：2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>希佩尔海军上将(μ兵装)</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[4140] = {
+		mark = 20211021,
+		id = 4140,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 11,
+		is_show = 16,
+		config_data = {},
 		time = {
 			timer,
 			{
 				{
 					2021,
 					10,
-					14
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "GascogneTecCatchupPage",
+			ui_name = "GascogneTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42016
+		}
+	},
+	[4141] = {
+		mark = 20211021,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		config_client = "",
+		id = 4141,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					21
 				},
 				{
 					0,
@@ -5839,7 +5914,44 @@ pg.activity_template = {
 				{
 					2021,
 					10,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4142] = {
+		mark = 20211021,
+		id = 4142,
+		title_res_tag = "france_framev2",
+		type = 74,
+		login_pop = 0,
+		config_id = 4142,
+		is_show = 17,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
 					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
 				},
 				{
 					23,
@@ -5848,22 +5960,158 @@ pg.activity_template = {
 				}
 			}
 		},
+		page_info = {
+			class_name = "FranceIconTaskPage",
+			ui_name = "FranceIconTaskPage"
+		},
 		config_client = {
-			id = 3,
-			bg = "loadingbg/bg_build_3_act",
-			buildship_tip = "ガスコーニュ(μ兵装)、赤城(μ兵装)などピックアップで復刻中！",
-			rate_tip = {
-				"<color=#ffde38>SSレア</color>：7%",
-				"<color=#d797ff>Sレア</color>：12%",
-				"<color=#3dc6ff>レア</color>：51%",
-				"ノーマル：30%",
-				"<color=#ffde38>ガスコーニュ(μ兵装)</color>：2.0%<color=#92FC63>(up!)</color>",
-				" ",
-				"<color=#ffde38>赤城(μ兵装)</color>：2.0%<color=#92FC63>(up!)</color>",
-				" ",
-				"<color=#d797ff>クリーブランド(μ兵装)</color>：2.5%<color=#92FC63>(up!)</color>",
-				" ",
-				"<color=#d797ff>アドミラル・ヒッパー(μ兵装)</color>：2.5%<color=#92FC63>(up!)</color>"
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4145] = {
+		mark = 20211021,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4145,
+		config_data = {
+			14680
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4146] = {
+		mark = 20211021,
+		title_res_tag = "",
+		page_info = "",
+		type = 24,
+		login_pop = 0,
+		config_id = 4147,
+		is_show = 0,
+		config_client = "",
+		id = 4146,
+		config_data = {
+			11
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4147] = {
+		mark = 20211021,
+		title_res_tag = "",
+		page_info = "",
+		type = 37,
+		login_pop = 0,
+		config_id = 11,
+		is_show = 0,
+		config_client = "",
+		id = 4147,
+		config_data = {
+			4145
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -5874,7 +6122,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 16,
+		is_show = 14,
 		id = 7001,
 		config_data = {
 			1,
@@ -9027,6 +9275,12 @@ pg.activity_template = {
 		4136,
 		4138,
 		4139,
+		4140,
+		4141,
+		4142,
+		4145,
+		4146,
+		4147,
 		7001,
 		10006,
 		10056,

@@ -351,7 +351,9 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GET_SEASON_INFO)
 	end
 
-	pg.SystemOpenMgr.GetInstance():notification(slot4.level)
+	slot9 = pg.SystemOpenMgr.GetInstance()
+
+	slot9:notification(slot4.level)
 	slot0:bind(uv0.MINIGAME_OPERATION, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.SEND_MINI_GAME_OP, {
 			hubid = slot1,
@@ -399,7 +401,10 @@ function slot0.register(slot0)
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_COLLECTION)
 		end)
 	end)
-	slot0.viewComponent:ResetActivityBtns()
+
+	slot9 = slot0.viewComponent
+
+	slot9:ResetActivityBtns()
 	slot0:bind(uv0.LOG_OUT, function (slot0, slot1)
 		uv0:sendNotification(GAME.LOGOUT, {
 			code = 0
@@ -413,7 +418,9 @@ function slot0.onBluePrintNotify(slot0)
 
 		for slot8, slot9 in ipairs(slot2:getTaskIds()) do
 			if slot2:getTaskOpenTimeStamp(slot9) <= pg.TimeMgr.GetInstance():GetServerTime() then
-				if not (getProxy(TaskProxy):getTaskById(slot9) or getProxy(TaskProxy):getFinishTaskById(slot9)) and getProxy(TaskProxy):isFinishPrevTasks(slot9) then
+				slot12 = getProxy(TaskProxy):isFinishPrevTasks(slot9)
+
+				if not (getProxy(TaskProxy):getTaskById(slot9) or getProxy(TaskProxy):getFinishTaskById(slot9)) and slot12 then
 					slot4 = true
 
 					slot0.viewComponent:emit(uv0.ON_TASK_OPEN, slot9)
@@ -476,7 +483,10 @@ function slot0.updateBanner(slot0)
 end
 
 function slot0.updateExSkinNotice(slot0)
-	slot0.viewComponent:updateExSkinBtn(_.select(_.values(getProxy(ShipSkinProxy):getRawData()), function (slot0)
+	slot1 = getProxy(ShipSkinProxy)
+	slot4 = slot0.viewComponent
+
+	slot4:updateExSkinBtn(_.select(_.values(slot1:getRawData()), function (slot0)
 		return slot0:isExpireType() and not slot0:isExpired()
 	end))
 end
@@ -574,7 +584,10 @@ function slot0.handleNotification(slot0, slot1)
 
 			if not pg.NewStoryMgr.GetInstance():IsPlayed("FANGAN1") then
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
-				pg.NewStoryMgr.GetInstance():Play("FANGAN1", function ()
+
+				slot4 = pg.NewStoryMgr.GetInstance()
+
+				slot4:Play("FANGAN1", function ()
 				end, true)
 			else
 				slot0:handleEnterMainUI()
@@ -765,8 +778,9 @@ function slot0.handleEnterMainUI(slot0)
 			end
 
 			slot6 = false
+			slot8 = uv0
 
-			uv0:onChapterTimeUp(function ()
+			slot8:onChapterTimeUp(function ()
 				if not uv0 then
 					uv0 = false
 					uv1 = false
@@ -781,19 +795,41 @@ function slot0.handleEnterMainUI(slot0)
 				coroutine.yield()
 			end
 
-			if not LOCK_SUBMARINE then
-				uv0:tryRequestMainSub()
-			end
+			slot8 = uv0
 
-			uv0:checkCV()
-			uv0:onBluePrintNotify()
-			getProxy(TaskProxy):pushAutoSubmitTask()
-			uv0:handlingSpecialActs()
-			uv0:checkTimeLimitEquip()
-			uv0:handlingActivityBtn()
-			uv0:handleOverdueAttire()
-			uv0:updateExSkinOverDue()
-			pg.GuildMsgBoxMgr.GetInstance():NotificationForMain()
+			slot8:checkCV()
+
+			slot8 = uv0
+
+			slot8:onBluePrintNotify()
+
+			slot8 = getProxy(TaskProxy)
+
+			slot8:pushAutoSubmitTask()
+
+			slot9 = uv0
+
+			slot9:handlingSpecialActs()
+
+			slot9 = uv0
+
+			slot9:checkTimeLimitEquip()
+
+			slot9 = uv0
+
+			slot9:handlingActivityBtn()
+
+			slot9 = uv0
+
+			slot9:handleOverdueAttire()
+
+			slot9 = uv0
+
+			slot9:updateExSkinOverDue()
+
+			slot9 = pg.GuildMsgBoxMgr.GetInstance()
+
+			slot9:NotificationForMain()
 			MonthCardOutDateTipPanel.TryShowMonthCardTipPanel(function ()
 				uv0 = false
 
@@ -812,9 +848,10 @@ function slot0.handleEnterMainUI(slot0)
 			end
 
 			if slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot11:isEnd() then
+				slot12 = PlayerPrefs.GetInt(string.format("crusing_%d_last_time", slot11.id), 3)
 				slot13 = slot11.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 
-				if #slot11:GetCrusingUnreceiveAward() > 0 and math.floor(slot13 / 86400) < PlayerPrefs.GetInt(string.format("crusing_%d_last_time", slot11.id), 3) then
+				if #slot11:GetCrusingUnreceiveAward() > 0 and math.floor(slot13 / 86400) < slot12 then
 					PlayerPrefs.SetInt(string.format("crusing_%d_last_time", slot11.id), math.floor(slot13 / 86400))
 					uv0:sendNotification(GAME.CRUSING_LAST_TIME_MSGBOX, {
 						awards = slot14,
@@ -831,11 +868,12 @@ function slot0.handleEnterMainUI(slot0)
 end
 
 function slot0.playStroys(slot0, slot1)
+	slot3 = {}
 	slot4 = pg.NewStoryMgr.GetInstance()
 
 	for slot8, slot9 in pairs(getProxy(TaskProxy):getRawData()) do
 		if slot9:getConfig("story_id") and slot10 ~= "" and not slot4:IsPlayed(slot10) then
-			table.insert({}, function (slot0)
+			table.insert(slot3, function (slot0)
 				uv0:Play(uv1, slot0, true, true)
 			end)
 		end
@@ -905,12 +943,6 @@ end
 
 function slot0.tryPlayGuide(slot0)
 	pg.SystemGuideMgr.GetInstance():Play(slot0)
-end
-
-function slot0.tryRequestMainSub(slot0)
-	if getProxy(ChapterProxy).subNextReqTime < pg.TimeMgr.GetInstance():GetServerTime() then
-		slot0:sendNotification(GAME.SUB_CHAPTER_FETCH)
-	end
 end
 
 function slot0.checkCV(slot0)

@@ -166,12 +166,22 @@ function slot0.set(slot0, slot1, slot2)
 		end
 
 		setWidgetText(slot0.progress, i18n("levelScene_threat_to_rule_out", "："))
-		table.insert(slot0.delayTween, LeanTween.value(go(slot0.progress), 0, slot0.chapter.progress, 0.5):setDelay(0.15):setOnUpdate(System.Action_float(function (slot0)
+
+		slot12 = LeanTween.value(go(slot0.progress), 0, slot0.chapter.progress, 0.5)
+		slot12 = slot12:setDelay(0.15)
+
+		table.insert(slot0.delayTween, slot12:setOnUpdate(System.Action_float(function (slot0)
 			setSlider(uv0.progress, 0, 100, slot0)
 			setText(uv0.txProgress, math.floor(slot0) .. "%")
 		end)).uniqueId)
-		slot0.achieveList:align(#slot0.chapter.achieves)
-		slot0.achieveList:each(function (slot0, slot1)
+
+		slot10 = slot0.achieveList
+
+		slot10:align(#slot0.chapter.achieves)
+
+		slot10 = slot0.achieveList
+
+		slot10:each(function (slot0, slot1)
 			slot3 = ChapterConst.IsAchieved(uv0.chapter.achieves[slot0 + 1])
 
 			table.insert(uv0.delayTween, LeanTween.delayedCall(0.15 + (slot0 + 1) * 0.15, System.Action(function ()
@@ -207,7 +217,7 @@ function slot0.set(slot0, slot1, slot2)
 
 		setActive(slot0.loopOn, slot13)
 		setActive(slot0.loopOff, not slot13)
-		setActive(slot0.costLimitTip, #pg.chapter_template_loop[slot1.id].use_oil_limit > 0)
+		setActive(slot0.costLimitTip, #slot1:getConfig("use_oil_limit") > 0)
 		onNextTick(function ()
 			Canvas.ForceUpdateCanvases()
 
@@ -287,8 +297,10 @@ function slot0.set(slot0, slot1, slot2)
 			return
 		end
 
+		slot0 = i18n("level_risk_level_desc", uv0:getChapterState()) .. i18n("level_risk_level_mitigation_rate", uv0:getRemainPassCount(), uv0:getMitigationRate())
+
 		if uv1:getMapType() == Map.ELITE then
-			slot0 = i18n("level_risk_level_desc", uv0:getChapterState()) .. i18n("level_risk_level_mitigation_rate", uv0:getRemainPassCount(), uv0:getMitigationRate()) .. "\n" .. i18n("level_diffcult_chapter_state_safety")
+			slot0 = slot0 .. "\n" .. i18n("level_diffcult_chapter_state_safety")
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -356,10 +368,14 @@ function slot0.updateDrop(slot0, slot1, slot2, slot3)
 			count = slot4[3]
 		})
 		onButton(slot0, slot3, function ()
-			if pg.item_data_statistics[uv0[2]] and ({
+			slot1 = {
 				[99.0] = true
-			})[slot0.type] then
-				uv1:emit(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, uv1.chapter.id, function (slot0)
+			}
+
+			if pg.item_data_statistics[uv0[2]] and slot1[slot0.type] then
+				slot3 = uv1
+
+				slot3:emit(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, uv1.chapter.id, function (slot0)
 					slot2 = {}
 
 					for slot6, slot7 in ipairs(uv0.display_icon) do

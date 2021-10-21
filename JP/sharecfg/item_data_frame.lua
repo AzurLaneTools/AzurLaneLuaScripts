@@ -144,6 +144,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモード第十期で入手可能（21.07.22-21.10.17）",
 		scene = {}
 	},
+	[211] = {
+		time_limit_type = 0,
+		name = "チャレンジャーXI",
+		gain_by = "",
+		id = 211,
+		time_second = 0,
+		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモード第十一期で入手可能（21.10.21-22.01.16）",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "カリスマ指揮官",
@@ -368,6 +377,7 @@ pg.item_data_frame = {
 		208,
 		209,
 		210,
+		211,
 		300,
 		301,
 		302,

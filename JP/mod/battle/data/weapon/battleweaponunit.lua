@@ -133,9 +133,10 @@ end
 function slot8.cacheSectorData(slot0)
 	slot0._upperEdge = math.deg2Rad * slot0:GetAttackAngle() / 2
 	slot0._lowerEdge = -1 * slot0._upperEdge
+	slot2 = math.deg2Rad * slot0._tmpData.axis_angle
 
 	if slot0:GetDirection() == uv0.UnitDir.LEFT then
-		slot0._normalizeOffset = math.pi - math.deg2Rad * slot0._tmpData.axis_angle
+		slot0._normalizeOffset = math.pi - slot2
 	elseif slot0:GetDirection() == uv0.UnitDir.RIGHT then
 		slot0._normalizeOffset = slot2
 	end
@@ -313,8 +314,10 @@ end
 
 function slot8.ChangeDiveState(slot0)
 	if slot0._host:GetOxyState() then
+		slot1 = slot0._host:GetOxyState():GetWeaponType()
+
 		for slot5, slot6 in ipairs(slot0._oxyList) do
-			if table.contains(slot0._host:GetOxyState():GetWeaponType(), slot6) then
+			if table.contains(slot1, slot6) then
 				slot0._diveEnabled = true
 
 				return
@@ -341,8 +344,10 @@ function slot8.Tracking(slot0)
 end
 
 function slot8.GetFilteredList(slot0)
+	slot1 = slot0:FilterTarget()
+
 	if slot0._tmpData.search_type == uv0.SECTOR then
-		slot1 = slot0:FilterAngle(slot0:FilterRange(slot0:FilterTarget()))
+		slot1 = slot0:FilterAngle(slot0:FilterRange(slot1))
 	elseif slot0._tmpData.search_type == uv0.SQUARE then
 		slot1 = slot0:FilterSquare(slot1)
 	end
@@ -362,10 +367,11 @@ function slot8.GetFixBulletRange(slot0)
 end
 
 function slot8.TrackingNearest(slot0, slot1)
+	slot2 = slot0._maxRangeSqr
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot1) do
-		if slot0:getTrackingHost():GetDistance(slot8) <= slot0._maxRangeSqr then
+		if slot0:getTrackingHost():GetDistance(slot8) <= slot2 then
 			slot2 = slot9
 			slot3 = slot8
 		end
@@ -375,10 +381,11 @@ function slot8.TrackingNearest(slot0, slot1)
 end
 
 function slot8.TrackingFarthest(slot0, slot1)
+	slot2 = 0
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot1) do
-		if 0 < slot0:getTrackingHost():GetDistance(slot8) then
+		if slot2 < slot0:getTrackingHost():GetDistance(slot8) then
 			slot2 = slot9
 			slot3 = slot8
 		end
@@ -388,10 +395,11 @@ function slot8.TrackingFarthest(slot0, slot1)
 end
 
 function slot8.TrackingLeastHP(slot0, slot1)
+	slot2 = math.huge
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot1) do
-		if slot8:GetCurrentHP() < math.huge then
+		if slot8:GetCurrentHP() < slot2 then
 			slot3 = slot8
 			slot2 = slot9
 		end
@@ -436,11 +444,12 @@ end
 
 function slot8.FilterTarget(slot0)
 	slot1 = nil
+	slot1 = (slot0._hostIFF ~= slot0._dataProxy:GetFriendlyCode() or slot0._dataProxy:GetFoeShipList()) and slot0._dataProxy:GetFriendlyShipList()
 	slot2 = {}
 	slot3 = 1
 	slot4 = slot0._tmpData.search_condition
 
-	for slot8, slot9 in pairs((slot0._hostIFF ~= slot0._dataProxy:GetFriendlyCode() or slot0._dataProxy:GetFoeShipList()) and slot0._dataProxy:GetFriendlyShipList()) do
+	for slot8, slot9 in pairs(slot1) do
 		slot10 = slot9:GetCurrentOxyState()
 
 		if uv0.IsCloak(slot9) then
@@ -555,18 +564,6 @@ function slot8.IsOutOfSquare(slot0, slot1)
 	end
 end
 
-function slot8.LockUnit(slot0, slot1)
-	slot1:Tag(slot0)
-end
-
-function slot8.UnlockUnit(slot0, slot1)
-	slot1:UnTag(slot0)
-end
-
-function slot8.GetLockRequiredTime(slot0)
-	return 0
-end
-
 function slot8.PreCast(slot0)
 	slot0._currentState = slot0.STATE_PRECAST
 
@@ -642,9 +639,11 @@ function slot8.UpdateCombo(slot0, slot1)
 	end
 
 	if #slot1 > 0 then
+		slot2 = 0
+
 		for slot6, slot7 in ipairs(slot1) do
 			if table.contains(slot0._comboIDList, slot7) then
-				slot2 = 0 + 1
+				slot2 = slot2 + 1
 			end
 
 			slot0._host:TriggerBuff(uv0.BuffEffectType.ON_COMBO, {
@@ -666,8 +665,10 @@ function slot8.SingleFire(slot0, slot1, slot2, slot3, slot4)
 		slot1 = nil
 	end
 
+	slot2 = slot2 or uv0.EMITTER_NORMAL
+
 	for slot9, slot10 in ipairs(slot0._barrageList) do
-		slot5[#slot5 + 1] = uv1.Battle[slot2 or uv0.EMITTER_NORMAL].New(function (slot0, slot1, slot2, slot3)
+		slot5[#slot5 + 1] = uv1.Battle[slot2].New(function (slot0, slot1, slot2, slot3)
 			slot6 = uv1:Spawn((uv0 and uv1._tmpData.bullet_ID or uv1._bulletList)[uv2], uv3, uv4.EXTERNAL)
 
 			slot6:SetOffsetPriority(slot3)
@@ -858,12 +859,13 @@ function slot8.GetFixAmmo(slot0)
 end
 
 function slot8.ShiftBullet(slot0, slot1)
+	slot2 = {}
+
 	for slot6 = 1, #slot0._bulletList do
+		slot2[slot6] = slot1
 	end
 
-	slot0._bulletList = {
-		[slot6] = slot1
-	}
+	slot0._bulletList = slot2
 end
 
 function slot8.RevertBullet(slot0)
@@ -882,12 +884,13 @@ function slot8.ShiftBarrage(slot0, slot1)
 	slot0._majorEmitterList = {}
 
 	if type(slot1) == "number" then
+		slot2 = {}
+
 		for slot6 = 1, #slot0._barrageList do
+			slot2[slot6] = slot1
 		end
 
-		slot0._barrageList = {
-			[slot6] = slot1
-		}
+		slot0._barrageList = slot2
 	elseif type(slot1) == "table" then
 		slot0._barrageList = slot1
 	end
@@ -985,8 +988,10 @@ function slot8.GetReloadTime(slot0)
 end
 
 function slot8.GetReloadFinishTimeStamp(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0._reloadBoostList) do
-		slot1 = 0 + slot6
+		slot1 = slot1 + slot6
 	end
 
 	if slot1 ~= 0 then

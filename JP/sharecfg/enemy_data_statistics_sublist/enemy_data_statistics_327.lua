@@ -1,5 +1,183 @@
 pg = pg or {}
 pg.enemy_data_statistics_327 = {
+	[14701303] = {
+		cannon = 170,
+		name = "テスター-？？？",
+		type = 5,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 160,
+		friendly_cld = 0,
+		rarity = 6,
+		icon_type = 5,
+		armor = 0,
+		antisub = 0,
+		reload = 150,
+		dodge_growth = 156,
+		luck_growth = 0,
+		star = 6,
+		battle_unit_type = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 247,
+		durability = 8000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 16,
+		luck = 8,
+		id = 14701303,
+		scale = 100,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70148,
+		fog_fx = "",
+		dodge = 18,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 150,
+		durability_growth = 0,
+		antiaircraft = 240,
+		hit_growth = 210,
+		bound_bone = {
+			cannon = {
+				{
+					-0.27,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.13,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					4.3,
+					0
+				}
+			}
+		},
+		specific_fx_scale = {
+			dianliu_unknown1 = 1.5
+		},
+		appear_fx = {
+			"appearQ",
+			"dianliu_unknown1"
+		},
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 2
+			}
+		}
+	},
+	[14701304] = {
+		cannon = 170,
+		name = "テスター-？？？",
+		type = 5,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 160,
+		friendly_cld = 0,
+		rarity = 6,
+		icon_type = 5,
+		armor = 0,
+		antisub = 0,
+		reload = 150,
+		dodge_growth = 156,
+		luck_growth = 0,
+		star = 6,
+		battle_unit_type = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 247,
+		durability = 8000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 16,
+		luck = 8,
+		id = 14701304,
+		scale = 100,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70148,
+		fog_fx = "",
+		dodge = 18,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 150,
+		durability_growth = 0,
+		antiaircraft = 240,
+		hit_growth = 210,
+		bound_bone = {
+			cannon = {
+				{
+					-0.27,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.13,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					4.3,
+					0
+				}
+			}
+		},
+		specific_fx_scale = {
+			dianliu_unknown1 = 1.5
+		},
+		appear_fx = {
+			"appearQ",
+			"dianliu_unknown1"
+		},
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 2
+			}
+		}
+	},
 	[14701305] = {
 		cannon = 170,
 		name = "テスター-？？？",
@@ -689,91 +867,5 @@ pg.enemy_data_statistics_327 = {
 			1001068,
 			1001073
 		}
-	},
-	[14702016] = {
-		cannon = 60,
-		battle_unit_type = 15,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 80000,
-		air = 0,
-		speed = 30,
-		dodge = 0,
-		id = 14702016,
-		cannon_growth = 0,
-		rarity = 1,
-		reload_growth = 0,
-		dodge_growth = 0,
-		armor = 0,
-		star = 1,
-		hit = 81,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 437,
-		durability = 80,
-		armor_growth = 0,
-		torpedo_growth = 900,
-		luck_growth = 0,
-		hit_growth = 1200,
-		luck = 0,
-		torpedo = 120,
-		durability_growth = 2550,
-		antisub = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			1000867,
-			1000872
-		}
-	},
-	[14702017] = {
-		cannon = 5,
-		hit_growth = 120,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10002,
-		air = 0,
-		luck = 0,
-		dodge = 0,
-		cannon_growth = 300,
-		speed = 12,
-		reload = 150,
-		reload_growth = 0,
-		dodge_growth = 0,
-		id = 14702017,
-		torpedo = 24,
-		hit = 8,
-		antisub_growth = 0,
-		air_growth = 0,
-		durability_growth = 4000,
-		base = 457,
-		durability = 200,
-		armor_growth = 0,
-		torpedo_growth = 2200,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		armor = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		specific_fx_scale = {},
-		equipment_list = {
-			1001093,
-			1001098
-		},
-		buff_list = {}
 	}
 }

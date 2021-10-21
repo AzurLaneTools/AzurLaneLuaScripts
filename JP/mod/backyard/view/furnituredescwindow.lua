@@ -1,6 +1,8 @@
 slot0 = class("FurnitureDescWindow")
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
+	slot0.viewComponent = slot2
+
 	pg.DelegateInfo.New(slot0)
 
 	slot0._go = slot1
@@ -29,7 +31,10 @@ function slot0.Init(slot0)
 	onButton(slot0, slot0.maxFrame, function ()
 		uv0:Close()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.maxPanel:Find("ok_btn"), function ()
+
+	slot3 = slot0.maxPanel
+
+	onButton(slot0, slot3:Find("ok_btn"), function ()
 		uv0:Close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.descPanelVoiceBtn, function ()
@@ -39,8 +44,6 @@ function slot0.Init(slot0)
 
 		uv0.curVoiceKey = slot0
 
-		print(slot0, slot1.action)
-
 		if uv0.onPlaySound then
 			uv0.onPlaySound(uv0.furnitureVO.id, true, slot1)
 		end
@@ -49,7 +52,7 @@ function slot0.Init(slot0)
 		function slot0()
 			slot0, slot1 = uv0.furnitureVO:getVoice()
 
-			playBGM(slot0)
+			uv0.viewComponent:playBGM(slot0)
 
 			if uv0.onPlaySound then
 				uv0.onPlaySound(uv0.furnitureVO.id, true, slot1)
@@ -64,7 +67,7 @@ function slot0.Init(slot0)
 		end
 
 		if uv0.playData and uv0.playData.id == uv0.furnitureVO.id then
-			playBGM("backyard")
+			uv0.viewComponent:playBGM(uv0.viewComponent:GetDefaultBgm())
 
 			if uv0.onPlaySound then
 				uv0.onPlaySound(uv0.furnitureVO.id, false, {

@@ -2920,6 +2920,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3298,6 +3309,40 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[521] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 1,
+		handbook_type = 0,
+		index_id = 76,
+		code = 521,
+		group_type = 10312,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推奨入手海域14-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 1404
 					}
 				},
 				0
@@ -7512,6 +7557,16 @@ pg.ship_data_group = {
 				"イベント：激奏のポラリス",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -14100,6 +14155,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15732,6 +15798,17 @@ pg.ship_data_group = {
 				"イベント：激奏のポラリス",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -18560,6 +18637,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -20766,6 +20854,7 @@ pg.ship_data_group = {
 		43,
 		44,
 		45,
+		521,
 		46,
 		364,
 		512,

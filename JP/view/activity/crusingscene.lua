@@ -9,10 +9,11 @@ slot0.PhaseFrame = setmetatable({
 	[95.0] = 1185
 }, {
 	__index = function (slot0, slot1)
+		slot2 = 0
 		slot3 = 100
 
 		for slot7, slot8 in pairs(slot0) do
-			if slot7 < slot1 and 0 < slot7 then
+			if slot7 < slot1 and slot2 < slot7 then
 				slot2 = slot7
 			end
 
@@ -36,7 +37,8 @@ end
 function slot0.init(slot0)
 	slot0.rtBg = slot0._tf:Find("bg")
 	slot0.scrollMap = slot0.rtBg:Find("map_scroll")
-	slot0.rtMap = slot0.scrollMap:Find("map")
+	slot1 = slot0.scrollMap
+	slot0.rtMap = slot1:Find("map")
 	slot0.maps = {
 		slot0.rtMap
 	}
@@ -135,12 +137,20 @@ function slot0.didEnter(slot0)
 			helps = i18n("battlepass_main_help")
 		})
 	end, SFX_PANEl)
-	onButton(slot0, slot0.rtWindow:Find("bg"), function ()
+
+	slot3 = slot0.rtWindow
+
+	onButton(slot0, slot3:Find("bg"), function ()
 		uv0:hideWindow()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.rtWindow:Find("panel/btn_back"), function ()
+
+	slot3 = slot0.rtWindow
+
+	onButton(slot0, slot3:Find("panel/btn_back"), function ()
 		uv0:hideWindow()
 	end, SFX_CANCEL)
+
+	slot3 = slot0.rtWindow
 
 	function slot4()
 		uv0:hideWindow()
@@ -149,10 +159,12 @@ function slot0.didEnter(slot0)
 
 	slot5 = SFX_CONFIRM
 
-	onButton(slot0, slot0.rtWindow:Find("panel/btn_unlock"), slot4, slot5)
+	onButton(slot0, slot3:Find("panel/btn_unlock"), slot4, slot5)
 
 	for slot4, slot5 in ipairs(slot0.maps) do
-		PoolMgr.GetInstance():GetSpineChar("chess_hude", true, function (slot0)
+		slot6 = PoolMgr.GetInstance()
+
+		slot6:GetSpineChar("chess_hude", true, function (slot0)
 			setParent(slot0, uv0:Find("icon/model"))
 			SetAction(slot0, uv1.isMoving and "move" or "normal")
 			SetCompomentEnabled(uv0:Find("icon"), typeof(Image), false)
@@ -223,50 +235,9 @@ end
 
 function slot0.setActivity(slot0, slot1)
 	slot0.activity = slot1
-	slot0.pt = slot1.data1
-	slot0.isPay = slot1.data2 == 1
-	slot0.awardDic = {}
 
-	for slot5, slot6 in ipairs(slot1.data1_list) do
-		slot0.awardDic[slot6] = true
-	end
-
-	slot0.awardPayDic = {}
-
-	for slot5, slot6 in ipairs(slot1.data2_list) do
-		slot0.awardPayDic[slot6] = true
-	end
-
-	slot0.phase = 0
-
-	for slot5, slot6 in ipairs(slot0.awardList) do
-		if slot0.pt < slot6.pt then
-			break
-		else
-			slot0.phase = slot5
-		end
-	end
-end
-
-function slot0.setConfigData(slot0, slot1)
-	slot0.ptId = slot1.pt
-	slot0.awardList = {}
-	slot2 = {
-		[slot7] = true
-	}
-
-	for slot6, slot7 in ipairs(slot1.key_point_display) do
-		-- Nothing
-	end
-
-	for slot6, slot7 in ipairs(slot1.target) do
-		table.insert(slot0.awardList, {
-			id = slot6,
-			pt = slot7,
-			award = slot1.drop_client[slot6],
-			award_pay = slot1.drop_client_pay[slot6],
-			isImportent = slot2[slot6]
-		})
+	for slot5, slot6 in pairs(slot1:GetCrusingInfo()) do
+		slot0[slot5] = slot6
 	end
 end
 
@@ -289,6 +260,7 @@ function slot0.updateAwardInfo(slot0, slot1, slot2)
 	})
 	setActive(slot1:Find("award/get"), slot3 and not slot0.awardDic[slot2.pt])
 	setActive(slot1:Find("award/got"), slot0.awardDic[slot2.pt])
+	setActive(slot1:Find("award/mask"), slot0.awardDic[slot2.pt])
 	onButton(slot0, slot1:Find("award"), function ()
 		uv0:emit(uv1.ON_DROP, uv2)
 	end, SFX_CONFIRM)
@@ -298,9 +270,9 @@ function slot0.updateAwardInfo(slot0, slot1, slot2)
 		count = slot2.award_pay[3]
 	})
 	setActive(slot1:Find("award_pay/lock"), not slot0.isPay)
-	setActive(slot1:Find("award_pay/mask"), not slot0.isPay)
 	setActive(slot1:Find("award_pay/get"), slot0.isPay and slot3 and not slot0.awardPayDic[slot2.pt])
 	setActive(slot1:Find("award_pay/got"), slot0.awardPayDic[slot2.pt])
+	setActive(slot1:Find("award_pay/mask"), not slot0.isPay or slot0.awardPayDic[slot2.pt])
 	onButton(slot0, slot1:Find("award_pay"), function ()
 		uv0:emit(uv1.ON_DROP, uv2)
 	end, SFX_CONFIRM)
@@ -367,7 +339,31 @@ function slot0.updateMapStatus(slot0)
 				setActive(slot0, true)
 			end
 
-			setGray(slot0, slot1 <= uv0.phase)
+			slot2 = uv0.phase < slot1
+
+			setGray(slot0, not slot2, false)
+			setImageAlpha(slot0, slot2 and 1 or 0.9)
+
+			if isActive(slot0) then
+				slot3 = nil
+
+				function slot3(slot0, slot1)
+					if getImageSprite(slot0) then
+						setImageSprite(slot1, slot2)
+					end
+
+					eachChild(slot0, function (slot0)
+						uv0(slot0, uv1:Find(slot0.name))
+					end)
+				end
+
+				slot4 = uv3
+				slot4 = slot4:Find(slot2 and "simple/active" or "simple/gray")
+
+				eachChild(slot0, function (slot0)
+					uv0(uv1:Find(slot0.name), slot0)
+				end)
+			end
 		end)
 	end
 end
@@ -436,8 +432,12 @@ function slot0.updateNextAward(slot0, slot1)
 		return
 	end
 
+	slot2 = slot0.phasePos[#slot0.phasePos] - 1
+
 	for slot7 = #slot0.awardList - 1, 1, -1 do
-		if slot0.phasePos[slot7] < slot1 + slot0.phasePos[#slot0.phasePos] - 1 or slot0.awardList[slot7].pt <= slot0.pt then
+		slot8 = slot0.awardList[slot7]
+
+		if slot0.phasePos[slot7] < slot1 + slot2 or slot8.pt <= slot0.pt then
 			break
 		elseif slot8.isImportent then
 			slot3 = slot7
@@ -463,10 +463,12 @@ function slot0.hideWindow(slot0)
 end
 
 function slot0.checkLimitMax(slot0, slot1)
+	slot2 = slot0.player
+
 	for slot6, slot7 in ipairs(slot1) do
 		if slot7.type == DROP_TYPE_RESOURCE then
 			if slot7.id == 1 then
-				if slot0.player:GoldMax(slot7.count) then
+				if slot2:GoldMax(slot7.count) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title"))
 
 					return true

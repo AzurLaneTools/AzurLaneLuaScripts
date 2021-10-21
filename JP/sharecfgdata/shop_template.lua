@@ -24881,10 +24881,11 @@ _G.pg.shop_template[70265] = {
 	desc = "购买皮肤：Z23偶像",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
 	order = 11,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -24895,32 +24896,6 @@ _G.pg.shop_template[70265] = {
 	limit_args = {},
 	effect_args = {
 		401236
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				16
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				13
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 

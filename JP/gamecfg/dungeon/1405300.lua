@@ -83,12 +83,12 @@ return {
 						{
 							monsterTemplateID = 14005,
 							moveCast = true,
-							delay = 0,
+							delay = 3,
 							score = 0,
 							corrdinate = {
+								-15,
 								0,
-								0,
-								75
+								36
 							},
 							buffList = {
 								9674
@@ -129,20 +129,6 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 14005,
-							moveCast = true,
-							delay = 0,
-							score = 0,
-							corrdinate = {
-								0,
-								0,
-								35
-							},
-							buffList = {
-								9674
-							}
-						},
-						{
 							monsterTemplateID = 14023,
 							moveCast = true,
 							delay = 0,
@@ -150,7 +136,7 @@ return {
 							corrdinate = {
 								20,
 								0,
-								35
+								36
 							},
 							buffList = {
 								8001,
@@ -163,12 +149,23 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
-					waveIndex = 102,
+					triggerType = 1,
+					waveIndex = 301,
 					conditionType = 1,
 					preWaves = {
 						101,
 						202
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					waveIndex = 102,
+					conditionType = 1,
+					preWaves = {
+						301
 					},
 					triggerParam = {},
 					spawn = {
@@ -205,9 +202,9 @@ return {
 							delay = 0,
 							score = 0,
 							corrdinate = {
+								5,
 								0,
-								0,
-								70
+								36
 							},
 							buffList = {
 								8001,
@@ -224,7 +221,7 @@ return {
 							corrdinate = {
 								0,
 								0,
-								40
+								70
 							},
 							buffList = {
 								8001,
@@ -239,7 +236,7 @@ return {
 							delay = 0,
 							score = 0,
 							corrdinate = {
-								0,
+								-15,
 								0,
 								65
 							},
@@ -269,12 +266,23 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
-					waveIndex = 103,
+					triggerType = 1,
+					waveIndex = 302,
 					conditionType = 1,
 					preWaves = {
 						102,
 						203
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					waveIndex = 103,
+					conditionType = 1,
+					preWaves = {
+						302
 					},
 					triggerParam = {},
 					spawn = {
@@ -319,7 +327,7 @@ return {
 							corrdinate = {
 								0,
 								0,
-								35
+								36
 							},
 							buffList = {
 								8001,
@@ -328,37 +336,26 @@ return {
 								8630,
 								9700
 							}
+						},
+						{
+							monsterTemplateID = 14021,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								5,
+								0,
+								55
+							},
+							buffList = {
+								8001,
+								8007,
+								50220,
+								8631
+							}
 						}
 					},
 					reinforcement = {
-						{
-							monsterTemplateID = 14005,
-							moveCast = true,
-							delay = 0,
-							score = 10,
-							corrdinate = {
-								-15,
-								0,
-								80
-							},
-							buffList = {
-								9674
-							}
-						},
-						{
-							monsterTemplateID = 14005,
-							moveCast = true,
-							delay = 0,
-							score = 10,
-							corrdinate = {
-								-15,
-								0,
-								30
-							},
-							buffList = {
-								9674
-							}
-						},
 						{
 							monsterTemplateID = 14019,
 							moveCast = true,
@@ -402,15 +399,26 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
-					key = true,
-					waveIndex = 105,
+					triggerType = 1,
+					waveIndex = 304,
 					conditionType = 0,
 					preWaves = {
 						101,
 						102,
 						103,
 						104
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 105,
+					conditionType = 0,
+					preWaves = {
+						304
 					},
 					triggerParam = {},
 					spawn = {
@@ -450,23 +458,6 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 14021,
-							moveCast = true,
-							delay = 0,
-							score = 0,
-							corrdinate = {
-								15,
-								0,
-								75
-							},
-							buffList = {
-								8001,
-								8007,
-								50220,
-								8631
-							}
-						},
-						{
 							monsterTemplateID = 14022,
 							moveCast = true,
 							delay = 0,
@@ -474,7 +465,7 @@ return {
 							corrdinate = {
 								15,
 								0,
-								35
+								36
 							},
 							buffList = {
 								8001,
@@ -490,23 +481,69 @@ return {
 							corrdinate = {
 								-15,
 								0,
-								55
+								36
 							},
 							buffList = {
 								9674
+							}
+						},
+						{
+							monsterTemplateID = 14005,
+							moveCast = true,
+							delay = 0,
+							score = 10,
+							corrdinate = {
+								-15,
+								0,
+								75
+							},
+							buffList = {
+								9674
+							}
+						},
+						{
+							monsterTemplateID = 14021,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								5,
+								0,
+								36
+							},
+							buffList = {
+								8001,
+								8007,
+								50220,
+								8631
 							}
 						}
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 14024,
+							monsterTemplateID = 14004,
 							moveCast = true,
 							delay = 0,
 							score = 0,
 							corrdinate = {
+								5,
+								0,
+								75
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
+						{
+							monsterTemplateID = 14024,
+							moveCast = true,
+							delay = 3,
+							score = 0,
+							corrdinate = {
 								0,
 								0,
-								80
+								60
 							},
 							buffList = {
 								8001,
@@ -529,6 +566,34 @@ return {
 							buffList = {
 								8001,
 								8007
+							}
+						},
+						{
+							monsterTemplateID = 14019,
+							moveCast = true,
+							delay = 2,
+							corrdinate = {
+								30,
+								0,
+								40
+							},
+							buffList = {
+								8001,
+								8002
+							}
+						},
+						{
+							monsterTemplateID = 14019,
+							moveCast = true,
+							delay = 2,
+							corrdinate = {
+								30,
+								0,
+								70
+							},
+							buffList = {
+								8001,
+								8002
 							}
 						}
 					}
@@ -556,7 +621,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 8,
+							delay = 11,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {
@@ -572,7 +637,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 23,
+							delay = 26,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {
@@ -588,7 +653,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 38,
+							delay = 37,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {

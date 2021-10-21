@@ -73,6 +73,42 @@ pg.strategy_data_template = {
 			1.1
 		}
 	},
+	[13] = {
+		buff_id = 9670,
+		name = "照明弾発射用意",
+		type = 6,
+		id = 13,
+		icon = "yezhan_zhaomingdan",
+		desc = "照明弾補給を入手した。入手した艦隊は今後$1回の戦闘中に照明弾を発射する事が可能",
+		arg = {}
+	},
+	[14] = {
+		buff_id = 9600,
+		name = "探照灯照射用意",
+		type = 10,
+		id = 14,
+		icon = "yezhan_dengta",
+		desc = "灯台を占拠した。戦闘中味方の探照灯支援が行われることがある",
+		arg = {}
+	},
+	[16] = {
+		buff_id = 0,
+		name = "悪天候",
+		type = 6,
+		id = 16,
+		icon = "weather_101",
+		desc = "夜の海は悪天候に見舞われている。味方前衛艦隊・敵が「隠蔽範囲」が獲得し、攻撃から狙われにくくなる",
+		arg = {}
+	},
+	[17] = {
+		buff_id = 0,
+		name = "海霧",
+		type = 6,
+		id = 17,
+		icon = "Weather_102",
+		desc = "艦隊はスコールに覆われている。戦闘中、味方・敵の隠蔽範囲縮小速度が遅くなる",
+		arg = {}
+	},
 	[47] = {
 		buff_id = 0,
 		name = "作戦効率化",
@@ -811,6 +847,10 @@ pg.strategy_data_template = {
 		9,
 		10,
 		11,
+		13,
+		14,
+		16,
+		17,
 		47,
 		90,
 		91,

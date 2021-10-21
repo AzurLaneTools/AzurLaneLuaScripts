@@ -1050,6 +1050,16 @@ pg.name_code = {
 		name = "扶桑(META)",
 		code = "扶桑(META)"
 	},
+	{
+		id = 211,
+		name = "扶桑改",
+		code = "扶桑改"
+	},
+	{
+		id = 212,
+		name = "最上改",
+		code = "最上改"
+	},
 	[250] = {
 		id = 250,
 		name = "伊9",

@@ -7007,7 +7007,7 @@ _G.pg.gametip.level_ammo_supply_p1 = {
 }
 
 _G.pg.gametip.level_flare_supply = {
-	tip = "获得照明弹补给，为舰队下$1次战斗照明"
+	tip = "照明弾補給を入手しました。入手艦隊は今後$1回の戦闘中照明弾支援が行われます"
 }
 
 _G.pg.gametip.chat_level_not_enough = {
@@ -9630,15 +9630,15 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "「ビスマルク」「キング・ジョージ5世」などが常設実装！"
+	tip = "「ガスコーニュ(μ兵装)」「アドミラル・ヒッパー(μ兵装)」などが常設実装！"
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "「満潮」常設実装！"
+	tip = "「クリーブランド(μ兵装)」常設実装！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
-	tip = "「U-96」「U-556」「U-73」などが常設実装！"
+	tip = "「赤城(μ兵装)」常設実装！"
 }
 
 _G.pg.gametip.open_skill_pos = {
@@ -18176,6 +18176,10 @@ _G.pg.gametip.breakout_tip_ultimatebonus_torpedo = {
 
 _G.pg.gametip.breakout_tip_ultimatebonus_aux = {
 	tip = "設備によるステータス増加+30%"
+}
+
+_G.pg.gametip.map_event_lighthouse_tip_1 = {
+	tip = "灯台を占拠しました。戦闘中，探照灯支援が行われます"
 }
 
 _G.pg.gametip.battlepass_main_tip = {

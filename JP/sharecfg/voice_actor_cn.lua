@@ -1131,5 +1131,9 @@ pg.voice_actor_CN = {
 	[288] = {
 		code = 288,
 		actor_name = "芹澤優"
+	},
+	[289] = {
+		code = 289,
+		actor_name = "藤原夏海"
 	}
 }

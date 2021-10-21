@@ -18,7 +18,8 @@ return {
 			arg_list = {
 				buff_id = 9675,
 				time = 4.5,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				quota = 1
 			}
 		},
 		{
@@ -28,8 +29,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 9700,
-				time = 4.5,
-				target = "TargetSelf"
+				time = 2,
+				target = "TargetSelf",
+				quota = 1
 			}
 		},
 		{

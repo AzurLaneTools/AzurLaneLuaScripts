@@ -15,8 +15,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.tfDamageCount = slot0.tf:Find("damage_count")
 	slot0.tfBufficons = slot0.tf:Find("random_buff_container")
 	slot0.tfEffectFound.transform.localPosition = Vector2(0, -12)
-	slot0.level = 0
-	slot0.enemyType = 1
 
 	slot0:OverrideCanvas()
 end
@@ -26,7 +24,7 @@ function slot0.GetOrder(slot0)
 end
 
 function slot0.SetActive(slot0, slot1)
-	slot0.go:SetActive(slot1)
+	setActive(slot0.go, slot1)
 end
 
 function slot0.getPrefab(slot0)
@@ -37,26 +35,10 @@ function slot0.setPrefab(slot0, slot1)
 	slot0.prefab = slot1
 end
 
-function slot0.setLevel(slot0, slot1)
-	if not slot1 or slot1 <= 0 then
-		return
-	end
-
-	slot0.level = slot1
+function slot0.getAction()
 end
 
-function slot0.setEnemyType(slot0, slot1)
-	if not slot1 or slot1 <= 0 then
-		return
-	end
-
-	slot0.enemyType = slot1
-end
-
-function slot0.getAction(slot0)
-end
-
-function slot0.setAction(slot0)
+function slot0.setAction()
 end
 
 function slot0.getModel(slot0)
@@ -72,7 +54,7 @@ function slot0.setModel(slot0, slot1)
 	slot0.model = slot1
 end
 
-function slot0.loadSpine(slot0, slot1)
+function slot0.LoadSpine(slot0, slot1)
 	if slot0.lastPrefab == slot0:getPrefab() then
 		if slot1 then
 			slot1()
@@ -84,11 +66,8 @@ function slot0.loadSpine(slot0, slot1)
 	slot3 = slot0.tf
 
 	GetImageSpriteFromAtlasAsync("enemies/" .. slot0:getPrefab(), "", findTF(slot3, "icon"))
-	setText(findTF(slot3, "lv/Text"), slot0.level)
-	setActive(findTF(slot3, "titleContain/bg_s"), ChapterConst.EnemySize[slot0.enemyType] == 1)
-	setActive(findTF(slot3, "titleContain/bg_m"), ChapterConst.EnemySize[slot0.enemyType] == 2)
-	setActive(findTF(slot3, "titleContain/bg_h"), ChapterConst.EnemySize[slot0.enemyType] == 3)
-	setActive(findTF(slot3, "titleContain/bg_boss"), ChapterConst.EnemySize[slot0.enemyType] == 99)
+	setText(findTF(slot3, "lv/Text"), slot0.config.level)
+	setActive(findTF(slot3, "titleContain/bg_boss"), ChapterConst.EnemySize[slot0.config.type] == 99)
 	slot0:setModel(slot4)
 
 	slot0.lastPrefab = slot2
@@ -96,6 +75,31 @@ function slot0.loadSpine(slot0, slot1)
 	if slot1 then
 		slot1()
 	end
+end
+
+function slot0.SetConfig(slot0, slot1)
+	slot0.config = slot1
+end
+
+function slot0.UpdateChampionCell(slot0, slot1, slot2, slot3)
+	slot4 = slot2.trait ~= ChapterConst.TraitLurk and slot1:getChampionVisibility(slot2) and not slot1:existFleet(FleetType.Transport, slot2.row, slot2.column)
+
+	setActive(slot0.tfFighting, slot4 and slot1:existEnemy(ChapterConst.SubjectChampion, slot2.row, slot2.column))
+	setActive(slot0.tfEffectFound, slot4 and slot2.trait == ChapterConst.TraitVirgin)
+	setActive(slot0.tfDamageCount, slot4 and slot2.data > 0)
+	setActive(slot0.tf:Find("huoqiubaozha"), false)
+
+	if slot2.trait == ChapterConst.TraitVirgin then
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
+	end
+
+	if slot4 then
+		EnemyEggCellView.RefreshEnemyTplIcons(slot0, slot1)
+	end
+
+	slot0:RefreshLinePosition(slot1, slot2)
+	slot0:SetActive(slot4)
+	existCall(slot3)
 end
 
 function slot0.Clear(slot0)

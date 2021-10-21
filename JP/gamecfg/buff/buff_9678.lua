@@ -1,6 +1,6 @@
 return {
 	init_effect = "",
-	name = "WaveTag",
+	name = "",
 	time = 0,
 	color = "yellow",
 	picture = "",
@@ -17,7 +17,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				tag = "14_NewWave"
+				tag = "C14_1"
 			}
 		}
 	}

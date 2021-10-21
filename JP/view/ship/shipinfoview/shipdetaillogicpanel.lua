@@ -8,16 +8,111 @@ slot1 = {
 	motion = AttributeType.Dodge,
 	antiaircraft = AttributeType.AntiAircraft,
 	air = AttributeType.Air,
-	consume = AttributeType.Expend,
+	hit = AttributeType.Hit,
 	antisub = AttributeType.AntiSub,
 	oxy_max = AttributeType.OxyMax,
 	ammo = AttributeType.Ammo,
 	hunting_range = AttributeType.HuntingRange,
-	luck = AttributeType.Luck
+	luck = AttributeType.Luck,
+	consume = AttributeType.Expend
 }
-slot2 = 0.5
-slot3 = Vector3(1, 1, 1)
-slot4 = Vector3(1.3, 1.3, 1.3)
+slot2 = {
+	us = {
+		prop_ignore = {
+			luck = {
+				137,
+				-260,
+				151,
+				-260
+			}
+		},
+		sort_index = {
+			"durability",
+			"armor",
+			"reload",
+			"cannon",
+			"torpedo",
+			"motion",
+			"antiaircraft",
+			"air",
+			"consume",
+			"antisub",
+			"oxy_max",
+			"ammo",
+			"hunting_range",
+			"luck"
+		},
+		hide = {
+			"hit"
+		}
+	},
+	jp = {
+		prop_ignore = {
+			luck = {
+				137,
+				-260,
+				151,
+				-260
+			}
+		},
+		sort_index = {
+			"durability",
+			"armor",
+			"reload",
+			"cannon",
+			"torpedo",
+			"motion",
+			"antiaircraft",
+			"air",
+			"consume",
+			"antisub",
+			"oxy_max",
+			"ammo",
+			"hunting_range",
+			"luck"
+		},
+		hide = {
+			"hit"
+		}
+	},
+	defaut = {
+		prop_ignore = {
+			luck = {
+				137,
+				-260,
+				151,
+				-260
+			},
+			consume = {
+				417,
+				-260,
+				431,
+				-260
+			}
+		},
+		sort_index = {
+			"durability",
+			"armor",
+			"reload",
+			"cannon",
+			"torpedo",
+			"motion",
+			"antiaircraft",
+			"air",
+			"hit",
+			"antisub",
+			"oxy_max",
+			"ammo",
+			"hunting_range",
+			"luck",
+			"consume"
+		},
+		hide = {}
+	}
+}
+slot3 = 0.5
+slot4 = Vector3(1, 1, 1)
+slot5 = Vector3(1.3, 1.3, 1.3)
 slot0.EQUIPMENT_ADDITION = 0
 slot0.TECHNOLOGY_ADDITION = 1
 slot0.CORE_ADDITION = 2
@@ -43,7 +138,8 @@ end
 function slot0.attach(slot0, slot1)
 	uv0.super.attach(slot0, slot1)
 
-	slot0.evalueToggle = slot0.attrs:Find("evalue_toggle")
+	slot2 = slot0.attrs
+	slot0.evalueToggle = slot2:Find("evalue_toggle")
 	slot0.evalueIndex = uv0.EQUIPMENT_ADDITION
 
 	onToggle(slot0.viewComponent, slot0.evalueToggle, function ()
@@ -77,8 +173,10 @@ function slot0.updateEvalues(slot0)
 		return
 	end
 
+	slot1 = table.contains(TeamType.SubShipType, slot0.shipVO:getShipType())
+
 	for slot5, slot6 in pairs(slot0.additionValues.transforms) do
-		if slot5 == AttributeType.Armor or slot5 == AttributeType.Expend or slot5 == AttributeType.HuntingRange and table.contains(TeamType.SubShipType, slot0.shipVO:getShipType()) then
+		if slot5 == AttributeType.Armor or slot5 == AttributeType.Expend or slot5 == AttributeType.HuntingRange and slot1 then
 			setText(slot6, "")
 			setActive(slot6, false)
 		else
@@ -98,19 +196,22 @@ function slot0.updateShipAttrs(slot0)
 	}
 	slot1 = slot0.shipVO
 	slot2 = table.contains(TeamType.SubShipType, slot1:getShipType())
+	slot3 = intProperties(slot1:isBluePrintShip() and slot1:getBluePrint():getShipProperties(slot1) or slot1:getShipProperties())
 	slot4, slot5 = slot1:getEquipmentProperties()
+	slot4 = intProperties(slot4)
+	slot5 = intProperties(slot5)
 
 	FormationUI.tweenNumText(slot0.powerTxt, slot1:getShipCombatPower())
 
 	for slot10, slot11 in pairs(uv1) do
 		slot12 = findTF(slot0.attrs, "props/" .. slot10)
 		slot13 = findTF(slot0.attrs, "icons/" .. slot10)
-		slot16 = intProperties(slot1:isBluePrintShip() and slot1:getBluePrint():getShipProperties(slot1) or slot1:getShipProperties())[slot11] or 0
+		slot16 = slot3[slot11] or 0
 
 		setText(findTF(slot12, "value"), slot16)
 
 		slot0.additionValues.transforms[slot11] = findTF(slot12, "add")
-		slot0.additionValues[0][slot11] = calcFloor(((intProperties(slot4)[slot11] or 0) + slot16) * (intProperties(slot5)[slot11] or 1)) - slot16
+		slot0.additionValues[0][slot11] = calcFloor(((slot4[slot11] or 0) + slot16) * (slot5[slot11] or 1)) - slot16
 		slot0.additionValues[1][slot11] = slot1:getTechNationAddition(slot11)
 
 		if slot11 == AttributeType.Armor then
@@ -139,6 +240,32 @@ function slot0.updateShipAttrs(slot0)
 				setText(slot14, slot1:getShipAmmo())
 			end
 		end
+	end
+
+	slot7 = nil
+	slot7 = (PLATFORM_CODE ~= PLATFORM_JP or uv2.jp) and (PLATFORM_CODE ~= PLATFORM_US or uv2.us) and uv2.defaut
+
+	for slot12 = 1, #slot7.sort_index do
+		slot13 = slot8[slot12]
+
+		findTF(slot0.attrs, "props/" .. slot13):SetSiblingIndex(slot12 - 1)
+		findTF(slot0.attrs, "icons/" .. slot13):SetSiblingIndex(slot12 - 1)
+	end
+
+	for slot13, slot14 in pairs(slot7.prop_ignore) do
+		slot15 = findTF(slot0.attrs, "props/" .. slot13)
+		slot16 = findTF(slot0.attrs, "icons/" .. slot13)
+		GetOrAddComponent(slot15, typeof(LayoutElement)).ignoreLayout = true
+		GetOrAddComponent(slot16, typeof(LayoutElement)).ignoreLayout = true
+		slot15.anchoredPosition = Vector2(slot14[3], slot14[4])
+		slot16.anchoredPosition = Vector2(slot14[1], slot14[2])
+	end
+
+	for slot14 = 1, #slot7.hide do
+		slot15 = slot10[slot14]
+
+		setActive(findTF(slot0.attrs, "props/" .. slot15), false)
+		setActive(findTF(slot0.attrs, "icons/" .. slot15), false)
 	end
 
 	slot0:updateEvalues()
@@ -186,11 +313,13 @@ end
 
 function slot0.updateSkillTF(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot1, "skill")
+	slot5 = findTF(slot1, "lock")
+	slot6 = findTF(slot1, "unknown")
 
 	if slot2 then
 		setActive(slot4, true)
-		setActive(findTF(slot1, "unknown"), false)
-		setActive(findTF(slot1, "lock"), not slot3)
+		setActive(slot6, false)
+		setActive(slot5, not slot3)
 		LoadImageSpriteAsync("skillicon/" .. slot2.icon, findTF(slot4, "icon"))
 		setScrollText(findTF(slot4, "mask/name"), getSkillName(slot2.id))
 		setText(findTF(slot4, "level"), "LEVEL: " .. (slot3 and slot3.level or "??"))
@@ -240,8 +369,14 @@ function slot0.updateMaxLevel(slot0, slot1)
 	if slot1:isReachNextMaxLevel() then
 		SetActive(slot0.outline, true)
 		setActive(slot0.levelTip, true)
-		blinkAni(slot0.outline, 1.5, -1, 0.1):setFrom(1)
-		blinkAni(slot0.levelTip, 1.5, -1, 0.1):setFrom(1)
+
+		slot3 = blinkAni(slot0.outline, 1.5, -1, 0.1)
+
+		slot3:setFrom(1)
+
+		slot3 = blinkAni(slot0.levelTip, 1.5, -1, 0.1)
+
+		slot3:setFrom(1)
 
 		slot3 = slot1:getNextMaxLevelConsume()
 		slot4 = slot1:getMaxLevel()
@@ -309,11 +444,15 @@ function slot0.doLeveUpAnim(slot0, slot1, slot2, slot3)
 				end, function ()
 					slot0 = Clone(uv0)
 					uv0.level = uv0.level + 1
-					uv1 = uv0:getLevelExpConfig()
+					slot1 = uv0
+					uv1 = slot1:getLevelExpConfig()
+					slot1 = uv2
 
-					uv2:scaleAnim(uv2.levelTxt, uv3, uv4, uv5 / 2, function ()
+					slot1:scaleAnim(uv2.levelTxt, uv3, uv4, uv5 / 2, function ()
 						if uv0.level == uv1.level then
-							uv2:doAttrAnim(uv3, uv1, function ()
+							slot0 = uv2
+
+							slot0:doAttrAnim(uv3, uv1, function ()
 								TweenValue(uv0.levelSlider, 0, uv1.exp, uv2, 0, function (slot0)
 									setSlider(uv0.levelSlider, 0, uv1.exp_interval, slot0)
 									setText(uv0.expInfo, math.floor(slot0) .. "/" .. uv1.exp_interval)
@@ -359,9 +498,10 @@ function slot0.doAttrAnim(slot0, slot1, slot2, slot3)
 	slot6 = intProperties(slot6)
 	slot8 = intProperties(slot8)
 	slot9 = intProperties(slot9)
+	slot10 = {}
 
 	if slot1:getShipCombatPower() ~= slot2:getShipCombatPower() then
-		table.insert({}, function (slot0)
+		table.insert(slot10, function (slot0)
 			TweenValue(uv0.powerTxt, uv1, uv2, uv3, 0, function (slot0)
 				setText(uv0.powerTxt, math.floor(slot0))
 			end, slot0)
@@ -374,12 +514,14 @@ function slot0.doAttrAnim(slot0, slot1, slot2, slot3)
 		slot20 = findTF(slot18, "value")
 		slot21 = findTF(slot18, "add")
 		slot22 = slot4[slot17] or 0
+		slot23 = slot6[slot17] or 1
 		slot24 = slot7[slot17] or 0
+		slot25 = slot9[slot17] or 1
 		slot26, slot27 = nil
 
 		if slot0.evalueIndex == uv2.EQUIPMENT_ADDITION then
-			slot26 = calcFloor(((slot5[slot17] or 0) + slot22) * (slot6[slot17] or 1)) - slot22
-			slot27 = calcFloor(((slot8[slot17] or 0) + slot24) * (slot9[slot17] or 1)) - slot24
+			slot26 = calcFloor(((slot5[slot17] or 0) + slot22) * slot23) - slot22
+			slot27 = calcFloor(((slot8[slot17] or 0) + slot24) * slot25) - slot24
 		elseif slot0.evalueIndex == uv2.TECHNOLOGY_ADDITION then
 			slot26 = slot1:getTechNationAddition(slot17)
 			slot27 = slot2:getTechNationAddition(slot17)
@@ -448,7 +590,10 @@ function slot0.doAttrAnim(slot0, slot1, slot2, slot3)
 end
 
 function slot0.scaleAnim(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	LeanTween.scale(go(slot1), slot3, slot4):setFrom(slot2):setOnComplete(System.Action(function ()
+	slot7 = LeanTween.scale(go(slot1), slot3, slot4)
+	slot7 = slot7:setFrom(slot2)
+
+	slot7:setOnComplete(System.Action(function ()
 		if uv0 then
 			uv0()
 		end

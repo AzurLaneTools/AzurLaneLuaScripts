@@ -1,8 +1,109 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		param = "4142",
 		id = 1,
 		pic = "temp1",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4140",
+		id = 2,
+		pic = "temp2",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 3,
+		pic = "temp3",
+		type = 2,
+		param = {
+			"scene level",
+			{
+				mapIdx = 14
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 4,
+		pic = "temp4",
 		type = 2,
 		param = {
 			"scene level",
@@ -39,8 +140,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 2,
-		pic = "temp2",
+		id = 5,
+		pic = "temp5",
 		type = 2,
 		param = {
 			"scene skinshop",
@@ -75,8 +176,8 @@ pg.activity_banner = {
 	},
 	{
 		param = "4138",
-		id = 3,
-		pic = "temp3",
+		id = 6,
+		pic = "temp6",
 		type = 3,
 		time = {
 			{
@@ -96,82 +197,6 @@ pg.activity_banner = {
 					2021,
 					10,
 					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "7001",
-		id = 4,
-		pic = "temp4",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					10,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 5,
-		pic = "temp5",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene level",
-			{
-				mapIdx = 14
-			}
-		}
-	},
-	{
-		param = "4104",
-		id = 6,
-		pic = "temp6",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					9,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					3
 				},
 				{
 					23,

@@ -2468,11 +2468,191 @@ pg.task_data_template = {
 		quick_finish = 0,
 		level = 1,
 		priority_type = 0,
-		next_task = "3052",
+		next_task = "[56,3052]",
 		auto_commit = 0,
 		scene = "",
 		target_id_for_client = 1304,
 		id = 55,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				150
+			}
+		}
+	},
+	{
+		name = "第十四章1图",
+		guild_coin_award = 0,
+		award = 56,
+		type = 1,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "14-1クリア",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1401",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "[57,3053]",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1401,
+		id = 56,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		name = "第十四章2图",
+		guild_coin_award = 0,
+		award = 57,
+		type = 1,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "14-2クリア",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1402",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "[58,3054]",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1402,
+		id = 57,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		name = "第十四章3图",
+		guild_coin_award = 0,
+		award = 58,
+		type = 1,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "14-3クリア",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1403",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "[59,3055]",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1403,
+		id = 58,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		name = "第十四章4图",
+		guild_coin_award = 0,
+		award = 59,
+		type = 1,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "14-4クリア",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1404",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "3056",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1404,
+		id = 59,
 		target_num = 1,
 		fix_task = 0,
 		added_tip = 0,
@@ -4977,6 +5157,186 @@ pg.task_data_template = {
 				2,
 				15008,
 				550
+			}
+		}
+	},
+	[3053] = {
+		name = "第十四章1图",
+		guild_coin_award = 0,
+		award = 3053,
+		type = 2,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "14-1の作戦目標（星3つ）をすべて達成せよ！",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1401",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1401,
+		id = 3053,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54034,
+				1
+			},
+			{
+				2,
+				51001,
+				1
+			}
+		}
+	},
+	[3054] = {
+		name = "第十四章2图",
+		guild_coin_award = 0,
+		award = 3054,
+		type = 2,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "14-2の作戦目標（星3つ）をすべて達成せよ！",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1402",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1402,
+		id = 3054,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				51002,
+				1
+			}
+		}
+	},
+	[3055] = {
+		name = "第十四章3图",
+		guild_coin_award = 0,
+		award = 3055,
+		type = 2,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "14-3の作戦目標（星3つ）をすべて達成せよ！",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1403",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1403,
+		id = 3055,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54035,
+				1
+			},
+			{
+				2,
+				51003,
+				1
+			}
+		}
+	},
+	[3056] = {
+		name = "第十四章4图",
+		guild_coin_award = 0,
+		award = 3056,
+		type = 2,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "14-4の作戦目標（星3つ）をすべて達成せよ！",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1404",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1404,
+		id = 3056,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				100
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				51004,
+				1
 			}
 		}
 	},
@@ -73720,6 +74080,41 @@ pg.task_data_template = {
 			{
 				14,
 				210,
+				1
+			}
+		}
+	},
+	[14680] = {
+		name = "『限界挑战11』-积分任务",
+		guild_coin_award = 0,
+		award = 91200,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 103,
+		desc = "PT",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 14680,
+		target_num = 8800,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				211,
 				1
 			}
 		}
@@ -160669,6 +161064,10 @@ pg.task_data_template = {
 		53,
 		54,
 		55,
+		56,
+		57,
+		58,
+		59,
 		1401,
 		1402,
 		1403,
@@ -160729,6 +161128,10 @@ pg.task_data_template = {
 		3050,
 		3051,
 		3052,
+		3053,
+		3054,
+		3055,
+		3056,
 		5001,
 		5002,
 		5003,
@@ -162559,6 +162962,7 @@ pg.task_data_template = {
 		14677,
 		14678,
 		14679,
+		14680,
 		14730,
 		14731,
 		14732,
