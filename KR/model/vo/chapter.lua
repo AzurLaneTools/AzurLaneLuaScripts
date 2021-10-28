@@ -950,7 +950,7 @@ function slot0.getFleetStates(slot0, slot1)
 		return slot0.id
 	end
 
-	table.insertto(slot2, _.map(_.filter(slot1:getStrategies(), function (slot0)
+	table.insertto(slot2, underscore.map(underscore.filter(slot1:getStrategies(), function (slot0)
 		return pg.strategy_data_template[slot0.id] and slot1.type == ChapterConst.StgTypeBindFleetPassive and slot0.count > 0
 	end), slot10))
 	table.insertto(slot2, slot1.stgIds)
@@ -1271,14 +1271,13 @@ function slot0.IsEliteFleetLegal(slot0)
 		return false, slot5
 	end
 
-	slot7, slot8 = slot0:IsPropertyLimitationSatisfy()
-	slot9 = 1
+	slot8 = 1
 
-	for slot13, slot14 in ipairs(slot7) do
-		slot9 = slot9 * slot14
+	for slot12, slot13 in ipairs(slot0:IsPropertyLimitationSatisfy()) do
+		slot8 = slot8 * slot13
 	end
 
-	if slot9 ~= 1 then
+	if slot8 ~= 1 then
 		return false, i18n("elite_disable_property_unsatisfied")
 	end
 
@@ -1299,37 +1298,36 @@ function slot0.IsPropertyLimitationSatisfy(slot0)
 		if slot0:singleEliteFleetVertify(slot8) then
 			slot9 = {}
 			slot10 = {}
-			slot11 = 0
 
-			for slot15, slot16 in ipairs(slot2) do
-				slot17, slot18, slot19, slot20 = unpack(slot16)
+			for slot14, slot15 in ipairs(slot2) do
+				slot16, slot17, slot18, slot19 = unpack(slot15)
 
-				if string.sub(slot17, 1, 5) == "fleet" then
-					slot9[slot17] = 0
-					slot10[slot17] = slot20
+				if string.sub(slot16, 1, 5) == "fleet" then
+					slot9[slot16] = 0
+					slot10[slot16] = slot19
 				end
 			end
 
-			for slot16, slot17 in ipairs(slot0.eliteFleetList[slot8]) do
+			for slot15, slot16 in ipairs(slot0.eliteFleetList[slot8]) do
 				slot4 = slot4 + 1
-				slot19 = intProperties(slot1[slot17]:getProperties())
+				slot18 = intProperties(slot1[slot16]:getProperties())
 
-				for slot23, slot24 in pairs(slot3) do
-					if string.sub(slot23, 1, 5) == "fleet" then
-						if slot23 == "fleet_totle_level" then
-							slot9[slot23] = slot9[slot23] + slot18.level
+				for slot22, slot23 in pairs(slot3) do
+					if string.sub(slot22, 1, 5) == "fleet" then
+						if slot22 == "fleet_totle_level" then
+							slot9[slot22] = slot9[slot22] + slot17.level
 						end
-					elseif slot23 == "level" then
-						slot3[slot23] = slot24 + slot18.level
+					elseif slot22 == "level" then
+						slot3[slot22] = slot23 + slot17.level
 					else
-						slot3[slot23] = slot24 + slot19[slot23]
+						slot3[slot22] = slot23 + slot18[slot22]
 					end
 				end
 			end
 
-			for slot16, slot17 in pairs(slot9) do
-				if slot16 == "fleet_totle_level" and slot10[slot16] < slot17 then
-					slot3[slot16] = slot3[slot16] + 1
+			for slot15, slot16 in pairs(slot9) do
+				if slot15 == "fleet_totle_level" and slot10[slot15] < slot16 then
+					slot3[slot15] = slot3[slot15] + 1
 				end
 			end
 		end
@@ -1338,7 +1336,7 @@ function slot0.IsPropertyLimitationSatisfy(slot0)
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot2) do
-		slot11, slot12, slot13, slot14 = unpack(slot10)
+		slot11, slot12, slot13 = unpack(slot10)
 
 		if slot11 == "level" and slot4 > 0 then
 			slot3[slot11] = math.ceil(slot3[slot11] / slot4)
@@ -2134,29 +2132,6 @@ function slot0.checkAnyInteractive(slot0)
 	return slot3
 end
 
-function slot0.calcAttachmenArea(slot0, slot1)
-	slot2 = slot0.theme
-	slot3 = ChapterConst.MaxRow + 1
-	slot4 = -1
-	slot5 = ChapterConst.MaxColumn + 1
-	slot6 = -1
-
-	for slot10, slot11 in pairs(slot0.cells) do
-		if slot11.attachment == slot1 then
-			slot3 = math.min(slot3, slot11.row)
-			slot4 = math.max(slot4, slot11.row)
-			slot5 = math.min(slot5, slot11.column)
-			slot6 = math.max(slot6, slot11.column)
-		end
-	end
-
-	slot8 = Vector2(slot6 - slot5 + 1, slot4 - slot3 + 1)
-	slot8.x = slot8.x * (slot2.cellSize.x + slot2.cellSpace.x) - slot2.cellSpace.x
-	slot8.y = slot8.y * (slot2.cellSize.y + slot2.cellSpace.y) - slot2.cellSpace.y
-
-	return slot3, slot4, slot5, slot6, Vector2((slot5 - slot6) * 0.5 * (slot2.cellSize.x + slot2.cellSpace.x), (slot4 - slot3) * 0.5 * (slot2.cellSize.y + slot2.cellSpace.y)), slot8
-end
-
 function slot0.getQuadCellPic(slot0, slot1)
 	slot2 = nil
 
@@ -2702,9 +2677,7 @@ function slot0.CheckChapterWillWin(slot0)
 		return true
 	end
 
-	slot1, slot2 = slot0:CheckChapterWin()
-
-	if slot1 then
+	if slot0:CheckChapterWin() then
 		return true
 	end
 end
@@ -3254,9 +3227,13 @@ function slot0.GetChapterLastFleetCache(slot0)
 end
 
 function slot0.GetLimitOilCost(slot0, slot1, slot2)
+	if not slot0:isLoop() then
+		return 9999
+	end
+
 	slot3 = nil
 
-	return (slot0:getConfig("use_oil_limit") or {})[slot1 and 3 or underscore.any(slot0:getConfig("boss_expedition_id"), function (slot0)
+	return slot0:getConfig("use_oil_limit")[slot1 and 3 or underscore.any(slot0:getConfig("boss_expedition_id"), function (slot0)
 		return uv0 == slot0
 	end) and 2 or 1] or 9999
 end

@@ -6,9 +6,9 @@ slot2 = createLog("ConnectionMgr", LOG_CONNECTION)
 slot3, slot4, slot5, slot6 = nil
 slot7 = false
 slot8 = {}
-slot9, slot10, slot11, slot12 = nil
+slot9, slot10, slot11, slot12, slot13 = nil
 slot1.needStartSend = false
-slot13, slot14 = nil
+slot14, slot15 = nil
 
 function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 	uv0.erroCode = slot4
@@ -19,7 +19,6 @@ function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 	uv2.onConnected:AddListener(function ()
 		uv0.UIMgr.GetInstance():LoadingOff()
 		uv1("Network Connected.")
-		print("connect success.")
 
 		uv2 = uv3
 		uv4 = uv5
@@ -79,10 +78,16 @@ function slot1.Reconnect(slot0, slot1)
 		return
 	end
 
-	uv3 = slot1
+	if uv3 and uv4 ~= nil then
+		warning("Network is connected.")
+
+		return
+	end
+
+	uv5 = slot1
 
 	slot0:stopHBTimer()
-	uv4:stopTimer()
+	uv6:stopTimer()
 	print("reconnect --> " .. slot0:GetLastHost() .. ":" .. slot0:GetLastPort())
 	slot0:Connect(slot0:GetLastHost(), slot0:GetLastPort(), function ()
 		slot1 = getProxy(UserProxy):getData()
@@ -195,11 +200,7 @@ end
 
 function slot1.onError(slot0)
 	uv0.UIMgr.GetInstance():LoadingOff()
-
-	slot0 = tostring(slot0)
-
-	uv1("Network Error: " .. slot0)
-	print("connect error: " .. slot0)
+	uv1("Network Error: " .. tostring(slot0))
 
 	if uv2 then
 		uv2:Dispose()
@@ -343,17 +344,27 @@ function slot1.resetHBTimer(slot0)
 	slot0:stopHBTimer()
 
 	uv0 = Timer.New(function ()
-		uv0:Send(10100, {
-			need_request = 0
-		})
+		uv0 = TimeUtil.GetSystemTime()
+
+		uv1:Send(10100, {
+			need_request = 1
+		}, 10101, function (slot0)
+			slot1 = TimeUtil.GetSystemTime() - uv0
+
+			if pingDelay == -1 then
+				pingDelay = slot1
+			else
+				pingDelay = (slot1 + pingDelay) / 2
+			end
+		end, false)
 	end, HEART_BEAT_TIMEOUT, -1, true)
 
 	uv0:Start()
 end
 
-slot15 = 0
-slot16 = 2
-slot17, slot18 = nil
+slot16 = 0
+slot17 = 2
+slot18, slot19 = nil
 
 function slot1.SetProxyHost(slot0, slot1, slot2)
 	uv0 = slot1

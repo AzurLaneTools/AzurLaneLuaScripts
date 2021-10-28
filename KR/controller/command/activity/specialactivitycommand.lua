@@ -24,6 +24,20 @@ function slot0.execute(slot0, slot1)
 		slot5.name = slot6[1]
 		slot5.display = slot6[2]
 	end
+
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RETURN_AWARD) and not slot5:isEnd() then
+		if slot5:ShouldAcceptTasks() and slot5:IsInviter() then
+			slot0:sendNotification(GAME.RETURN_AWARD_OP, {
+				activity_id = slot5.id,
+				cmd = ActivityConst.RETURN_AWARD_OP_ACCEPT_TASK
+			})
+		elseif slot6 and slot5:IsReturner() then
+			slot0:sendNotification(GAME.RETURN_AWARD_OP, {
+				activity_id = slot5.id,
+				cmd = ActivityConst.RETURN_AWARD_OP_RETURNER_GET_AWARD
+			})
+		end
+	end
 end
 
 function slot0.unloadEquipments(slot0, slot1)

@@ -110,7 +110,7 @@ function slot0.UpdateView(slot0)
 					uv0.CheckOilCost(uv1, uv2, slot0)
 				end,
 				function (slot0)
-					uv0:emit(LevelMediator2.ON_ELITE_TRACKING, uv1.id, 1, uv2, uv3, uv4)
+					uv0:emit(LevelMediator2.ON_ELITE_TRACKING, uv1.id, uv1.loopFlag, uv2, uv3, uv4)
 					uv0:closeView()
 				end
 			})
@@ -125,7 +125,7 @@ function slot0.UpdateView(slot0)
 					uv0.CheckOilCost(uv1, uv2, slot0)
 				end,
 				function (slot0)
-					uv0:emit(LevelMediator2.ON_TRACKING, uv1.id, uv2, 1, uv3, uv4, uv5)
+					uv0:emit(LevelMediator2.ON_TRACKING, uv1.id, uv2, uv1.loopFlag, uv3, uv4, uv5)
 					uv0:closeView()
 				end
 			})

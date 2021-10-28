@@ -7,6 +7,8 @@ function slot0.Create(slot0)
 		return BeatMonterNianActivity.New(slot0)
 	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT then
 		return CollectionEventActivity.New(slot0)
+	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
+		return ReturnerActivity.New(slot0)
 	else
 		return Activity.New(slot0)
 	end
@@ -552,6 +554,61 @@ function slot0.GetCrusingUnreceiveAward(slot0)
 	end
 
 	return PlayerConst.MergePassItemDrop(slot2)
+end
+
+function slot0.GetCrusingInfo(slot0)
+	slot1 = pg.battlepass_event_pt[slot0.id]
+	slot2 = slot1.pt
+	slot3 = {}
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot1.key_point_display) do
+		slot4[slot9] = true
+	end
+
+	for slot8, slot9 in ipairs(slot1.target) do
+		table.insert(slot3, {
+			id = slot8,
+			pt = slot9,
+			award = slot1.drop_client[slot8],
+			award_pay = slot1.drop_client_pay[slot8],
+			isImportent = slot4[slot8]
+		})
+	end
+
+	slot5 = slot0.data1
+	slot6 = slot0.data2 == 1
+	slot7 = {}
+
+	for slot11, slot12 in ipairs(slot0.data1_list) do
+		slot7[slot12] = true
+	end
+
+	slot8 = {}
+
+	for slot12, slot13 in ipairs(slot0.data2_list) do
+		slot8[slot13] = true
+	end
+
+	slot9 = 0
+
+	for slot13, slot14 in ipairs(slot3) do
+		if slot5 < slot14.pt then
+			break
+		else
+			slot9 = slot13
+		end
+	end
+
+	return {
+		ptId = slot2,
+		awardList = slot3,
+		pt = slot5,
+		isPay = slot6,
+		awardDic = slot7,
+		awardPayDic = slot8,
+		phase = slot9
+	}
 end
 
 return slot0

@@ -30,7 +30,6 @@ function slot0.register(slot0)
 
 	slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
 
-	slot0.viewComponent:setConfigData(pg.battlepass_event_pt[slot1.id])
 	slot0.viewComponent:setActivity(slot1)
 	updateCrusingActivityTask(slot1)
 end

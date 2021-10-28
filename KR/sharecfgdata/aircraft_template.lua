@@ -73221,10 +73221,10 @@ _G.pg.aircraft_template[350064] = {
 	dodge_limit = 0,
 	hp_growth = 0,
 	speed = 35,
-	max_hp = 860,
+	max_hp = 980,
 	scale = 0.75,
 	weapon_ID = {
-		350059
+		350065
 	},
 	position_offset = {
 		0,
@@ -73296,10 +73296,10 @@ _G.pg.aircraft_template[350070] = {
 	dodge_limit = 0,
 	hp_growth = 0,
 	speed = 35,
-	max_hp = 860,
+	max_hp = 980,
 	scale = 0.75,
 	weapon_ID = {
-		350065
+		350071
 	},
 	position_offset = {
 		0,

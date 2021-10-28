@@ -35,6 +35,7 @@ slot0.SubmarineMax = 3
 slot0.TeamPos = {
 	FLAG_SHIP = "FlagShip",
 	LEADER = "Leader",
+	CENTER = "Center",
 	REAR = "Rear",
 	CONSORT = "Consort",
 	SUB_LEADER = "SubLeader",

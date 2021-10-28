@@ -37,9 +37,9 @@ function slot0.init(slot0)
 		CanteenBuiding.New(slot0),
 		ClassRoomBuilding.New(slot0),
 		FountainBuiding.New(slot0),
+		TacticRoomBuilding.New(slot0),
 		CommanderBuilding.New(slot0),
-		SupplyShopBuilding.New(slot0),
-		TacticRoomBuilding.New(slot0)
+		SupplyShopBuilding.New(slot0)
 	}
 	slot0.shipsView = NavalAcademyShipsView.New(slot0)
 	slot0.resPage = ResourcePage.New(slot0._tf, slot0.event)
@@ -126,13 +126,17 @@ function slot0.OnAddLayer(slot0)
 	end
 end
 
-function slot0.OnRemoveLayer(slot0)
+function slot0.OnRemoveLayer(slot0, slot1)
 	slot0.layerCnt = (slot0.layerCnt or 0) - 1
 
 	if slot0.layerCnt <= 0 then
 		slot0.layerCnt = 0
 
 		slot0:EnableEffects(true)
+	end
+
+	if slot1.context.mediator == NavalTacticsMediator then
+		slot0.buildings[5]:RefreshTip()
 	end
 end
 

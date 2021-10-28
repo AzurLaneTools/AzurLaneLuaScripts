@@ -58,11 +58,19 @@ end
 
 function slot0.addTranDrop(slot0, slot1)
 	slot2 = {}
-	slot3 = pg.item_data_statistics
-	slot4 = pg.ship_skin_template
-	slot5 = pg.item_data_frame
+	slot4 = {}
 
-	function slot6(slot0)
+	for slot8, slot9 in pairs(getProxy(BayProxy):getNewShip(false)) do
+		if slot9:isMetaShip() then
+			table.insert(slot4, slot9.configId)
+		end
+	end
+
+	slot5 = pg.item_data_statistics
+	slot6 = pg.ship_skin_template
+	slot7 = pg.item_data_frame
+
+	function slot8(slot0)
 		if slot0.type == DROP_TYPE_RESOURCE then
 			slot4 = ActivityConst.ACTIVITY_TYPE_PT_CRUSING
 
@@ -161,6 +169,26 @@ function slot0.addTranDrop(slot0, slot1)
 
 				return nil, slot1
 			end
+		elseif slot0.type == DROP_TYPE_SHIP and Ship.isMetaShipByConfigID(slot0.id) then
+			if table.indexof(uv4, slot0.id, 1) then
+				table.remove(uv4, slot1)
+			else
+				slot2 = Player.metaShip2Res(slot0.id)
+				slot3 = Item.New({
+					type = slot0.type,
+					id = slot0.id,
+					count = slot0.number or slot0.count
+				})
+				slot4 = Item.New({
+					type = slot2[1].type,
+					id = slot2[1].id,
+					count = slot2[1].count
+				})
+
+				getProxy(BayProxy):addMetaTransItemMap(slot3.id, slot4)
+
+				return slot3, slot4
+			end
 		end
 
 		return Item.New({
@@ -170,16 +198,16 @@ function slot0.addTranDrop(slot0, slot1)
 		})
 	end
 
-	for slot10, slot11 in ipairs(slot0) do
-		slot12, slot13 = slot6(slot11)
+	for slot12, slot13 in ipairs(slot0) do
+		slot14, slot15 = slot8(slot13)
 
-		if slot12 then
-			table.insert(slot2, slot12)
-			pg.m02:sendNotification(GAME.ADD_ITEM, slot12)
+		if slot14 then
+			table.insert(slot2, slot14)
+			pg.m02:sendNotification(GAME.ADD_ITEM, slot14)
 		end
 
-		if slot13 then
-			pg.m02:sendNotification(GAME.ADD_ITEM, slot13)
+		if slot15 then
+			pg.m02:sendNotification(GAME.ADD_ITEM, slot15)
 		end
 	end
 

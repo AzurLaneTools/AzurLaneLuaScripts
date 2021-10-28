@@ -564,18 +564,6 @@ function slot8.IsOutOfSquare(slot0, slot1)
 	end
 end
 
-function slot8.LockUnit(slot0, slot1)
-	slot1:Tag(slot0)
-end
-
-function slot8.UnlockUnit(slot0, slot1)
-	slot1:UnTag(slot0)
-end
-
-function slot8.GetLockRequiredTime(slot0)
-	return 0
-end
-
 function slot8.PreCast(slot0)
 	slot0._currentState = slot0.STATE_PRECAST
 

@@ -1151,5 +1151,9 @@ pg.voice_actor_CN = {
 	{
 		code = 288,
 		actor_name = "Serizawa Yu"
+	},
+	{
+		code = 289,
+		actor_name = "Fujiwara Natsumi"
 	}
 }

@@ -27,6 +27,27 @@ return {
 				attr = "dodgeRateExtra",
 				number = -0.25
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "C14_highlight"
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				attr = "lockAimBias",
+				number = 1
+			}
 		}
 	}
 }

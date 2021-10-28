@@ -352,7 +352,15 @@ function slot8(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
 		-- Nothing
 	elseif slot1.drop.type == DROP_TYPE_STRATEGY then
-		setText(slot2, HXSet.hxLan(slot1.drop.cfg.desc))
+		slot9 = slot1.drop.cfg.desc
+
+		for slot13, slot14 in ipairs({
+			slot1.drop.count
+		}) do
+			slot9 = string.gsub(slot9, "$" .. slot13, slot14)
+		end
+
+		setText(slot2, HXSet.hxLan(slot9))
 
 		if slot1.extendDesc then
 			slot0._singleItemIntros[slot4] = slot0._singleItemIntros[slot4 + 1] or cloneTplTo(slot0.singleItemIntro, slot0.singleItemIntro.parent)

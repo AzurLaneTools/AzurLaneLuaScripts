@@ -6319,6 +6319,81 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100030] = {
+		spine_extra = "",
+		describe = "살금살금… 아무도 나의 완벽한 위장을 알아차릴 수 없다!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "종이박스(잠입용)",
+		themeId = 0,
+		icon = "yinmizhixiangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100030,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinmizhixiangB",
+				"normal"
+			},
+			{
+				"yinmizhixiangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		spine_extra = "",
 		describe = "닿는 곳이 너덜너덜하게 닳은 플로링. 발밑 주의.",
@@ -86180,7 +86255,7 @@ pg.furniture_data_template = {
 		themeId = 79,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "15idomicon",
 		deblocking = 1,
@@ -90404,6 +90479,7 @@ pg.furniture_data_template = {
 		100027,
 		100028,
 		100029,
+		100030,
 		1001,
 		1002,
 		1101,

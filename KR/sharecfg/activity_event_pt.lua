@@ -15091,6 +15091,35 @@ pg.activity_event_pt = {
 			0
 		}
 	},
+	[20880] = {
+		convert_resource_type = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 1,
+		buff_group = "",
+		pt_list = "",
+		drop_display = "",
+		pic_list = "",
+		buff_time = "",
+		id_2 = 20880,
+		link_id = 0,
+		id = 20880,
+		pt = 222,
+		target = {
+			3000
+		},
+		drop_client = {
+			{
+				14,
+				308,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			0
+		}
+	},
 	[29019] = {
 		convert_resource_type = 0,
 		unlock_story = "",
@@ -18205,6 +18234,7 @@ pg.activity_event_pt = {
 		20842,
 		20854,
 		20874,
+		20880,
 		29019,
 		29020,
 		29021,

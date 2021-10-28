@@ -235,48 +235,9 @@ end
 
 function slot0.setActivity(slot0, slot1)
 	slot0.activity = slot1
-	slot0.pt = slot1.data1
-	slot0.isPay = slot1.data2 == 1
-	slot0.awardDic = {}
 
-	for slot5, slot6 in ipairs(slot1.data1_list) do
-		slot0.awardDic[slot6] = true
-	end
-
-	slot0.awardPayDic = {}
-
-	for slot5, slot6 in ipairs(slot1.data2_list) do
-		slot0.awardPayDic[slot6] = true
-	end
-
-	slot0.phase = 0
-
-	for slot5, slot6 in ipairs(slot0.awardList) do
-		if slot0.pt < slot6.pt then
-			break
-		else
-			slot0.phase = slot5
-		end
-	end
-end
-
-function slot0.setConfigData(slot0, slot1)
-	slot0.ptId = slot1.pt
-	slot0.awardList = {}
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(slot1.key_point_display) do
-		slot2[slot7] = true
-	end
-
-	for slot6, slot7 in ipairs(slot1.target) do
-		table.insert(slot0.awardList, {
-			id = slot6,
-			pt = slot7,
-			award = slot1.drop_client[slot6],
-			award_pay = slot1.drop_client_pay[slot6],
-			isImportent = slot2[slot6]
-		})
+	for slot5, slot6 in pairs(slot1:GetCrusingInfo()) do
+		slot0[slot5] = slot6
 	end
 end
 
@@ -299,6 +260,7 @@ function slot0.updateAwardInfo(slot0, slot1, slot2)
 	})
 	setActive(slot1:Find("award/get"), slot3 and not slot0.awardDic[slot2.pt])
 	setActive(slot1:Find("award/got"), slot0.awardDic[slot2.pt])
+	setActive(slot1:Find("award/mask"), slot0.awardDic[slot2.pt])
 	onButton(slot0, slot1:Find("award"), function ()
 		uv0:emit(uv1.ON_DROP, uv2)
 	end, SFX_CONFIRM)
@@ -308,9 +270,9 @@ function slot0.updateAwardInfo(slot0, slot1, slot2)
 		count = slot2.award_pay[3]
 	})
 	setActive(slot1:Find("award_pay/lock"), not slot0.isPay)
-	setActive(slot1:Find("award_pay/mask"), not slot0.isPay)
 	setActive(slot1:Find("award_pay/get"), slot0.isPay and slot3 and not slot0.awardPayDic[slot2.pt])
 	setActive(slot1:Find("award_pay/got"), slot0.awardPayDic[slot2.pt])
+	setActive(slot1:Find("award_pay/mask"), not slot0.isPay or slot0.awardPayDic[slot2.pt])
 	onButton(slot0, slot1:Find("award_pay"), function ()
 		uv0:emit(uv1.ON_DROP, uv2)
 	end, SFX_CONFIRM)
@@ -377,7 +339,31 @@ function slot0.updateMapStatus(slot0)
 				setActive(slot0, true)
 			end
 
-			setGray(slot0, slot1 <= uv0.phase)
+			slot2 = uv0.phase < slot1
+
+			setGray(slot0, not slot2, false)
+			setImageAlpha(slot0, slot2 and 1 or 0.9)
+
+			if isActive(slot0) then
+				slot3 = nil
+
+				function slot3(slot0, slot1)
+					if getImageSprite(slot0) then
+						setImageSprite(slot1, slot2)
+					end
+
+					eachChild(slot0, function (slot0)
+						uv0(slot0, uv1:Find(slot0.name))
+					end)
+				end
+
+				slot4 = uv3
+				slot4 = slot4:Find(slot2 and "simple/active" or "simple/gray")
+
+				eachChild(slot0, function (slot0)
+					uv0(uv1:Find(slot0.name), slot0)
+				end)
+			end
 		end)
 	end
 end

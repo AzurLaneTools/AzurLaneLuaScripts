@@ -14,7 +14,6 @@ slot0.ON_CRUSING = "CommanderInfoMediator.ON_CRUSING"
 slot0.GET_CLASS_RES = "CommanderInfoMediator:GET_CLASS_RES"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setProxies(getProxy(EventProxy), getProxy(NavalAcademyProxy), getProxy(TechnologyProxy))
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 	slot0:bind(uv0.ON_UR_ACTIVITY, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
@@ -43,7 +42,8 @@ function slot0.register(slot0)
 			pool_id = slot1.pool_id
 		})
 	end)
-	slot0:bind(uv0.FINISH_EVENT, function (slot0, slot1, slot2)
+	slot0:bind(uv0.FINISH_EVENT, function (slot0, slot1, slot2, slot3)
+		uv0.contextData.oneStepFinishEventCount = slot2
 		uv0.contextData.inFinished = true
 
 		uv0:sendNotification(GAME.EVENT_FINISH, {
@@ -150,7 +150,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.EVENT_LIST_UPDATE then
 		slot4 = getProxy(EventProxy)
 
-		slot0.viewComponent:updateProject(CommissionCard.TYPE_EVENT)
+		slot0.viewComponent:OnUpdateEventInfo()
 	else
 		if slot2 == GAME.EVENT_SHOW_AWARDS then
 			slot4 = nil
@@ -179,7 +179,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 
 		if slot2 == GAME.CANCEL_LEARN_TACTICS_DONE then
-			slot0.viewComponent:updateProject(CommissionCard.TYPE_CLASS)
+			slot0.viewComponent:OnUpdateClass()
 
 			slot4 = slot3.totalExp
 			slot6 = slot3.newSkill
@@ -221,7 +221,7 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot2 == GAME.FINISH_TECHNOLOGY_DONE then
 			slot4 = slot0.viewComponent
 
-			slot4:updateProject(CommissionCard.TYPE_TECHNOLOGY)
+			slot4:OnUpdateTechnology()
 			_.each(slot3.items, function (slot0)
 				slot0.riraty = true
 

@@ -9369,15 +9369,15 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "장 바르, 매사추세츠, 됭케르크 건조 추가!"
+	tip = "가스코뉴(μ장비)、아드미랄 히퍼(μ장비) 건조추가！"
 }
 
 _G.pg.gametip.buildship_light_tip = {
-	tip = "{namecode:147} 건조 추가!"
+	tip = "클리블랜드(μ장비) 건조추가！"
 }
 
 _G.pg.gametip.buildship_special_tip = {
-	tip = "쉬르쿠프 건조 추가!"
+	tip = "아카기(μ장비) 건조추가！"
 }
 
 _G.pg.gametip.open_skill_pos = {
@@ -17634,6 +17634,10 @@ _G.pg.gametip.breakout_tip_ultimatebonus_aux = {
 	tip = "설비가 제공하는 기본 속성 30% 추가 상승"
 }
 
+_G.pg.gametip.map_event_lighthouse_tip_1 = {
+	tip = "등대 통제. 이어지는 전투에서 등대 조명 효과를 획득합니다."
+}
+
 _G.pg.gametip.battlepass_main_tip = {
 	tip = "2021.10.1-2021.11.30까지, 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, 「후소·META」가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
@@ -17845,4 +17849,64 @@ _G.pg.gametip.formationScene_use_oil_limit_flagship = {
 
 _G.pg.gametip.formationScene_use_oil_limit_submarine = {
 	tip = "잠수함"
+}
+
+_G.pg.gametip.attr_durability = {
+	tip = "내구"
+}
+
+_G.pg.gametip.attr_armor = {
+	tip = "장갑"
+}
+
+_G.pg.gametip.attr_reload = {
+	tip = "장전"
+}
+
+_G.pg.gametip.attr_cannon = {
+	tip = "포격"
+}
+
+_G.pg.gametip.attr_torpedo = {
+	tip = "뇌장"
+}
+
+_G.pg.gametip.attr_motion = {
+	tip = "기동"
+}
+
+_G.pg.gametip.attr_antiaircraft = {
+	tip = "대공"
+}
+
+_G.pg.gametip.attr_air = {
+	tip = "항공"
+}
+
+_G.pg.gametip.attr_hit = {
+	tip = "명중"
+}
+
+_G.pg.gametip.attr_antisub = {
+	tip = "대잠"
+}
+
+_G.pg.gametip.attr_oxy_max = {
+	tip = "잠항력"
+}
+
+_G.pg.gametip.attr_ammo = {
+	tip = "탄약량"
+}
+
+_G.pg.gametip.attr_hunting_range = {
+	tip = "지원 범위"
+}
+
+_G.pg.gametip.attr_luck = {
+	tip = "행운"
+}
+
+_G.pg.gametip.attr_consume = {
+	tip = "소모"
 }

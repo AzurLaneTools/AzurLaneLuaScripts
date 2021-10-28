@@ -124,6 +124,12 @@ function slot0.didEnter(slot0)
 
 	for slot6, slot7 in ipairs(slot0.taskGroupList) do
 		SetCompomentEnabled(slot0.rtWeekToggles:Find(slot6), typeof(Toggle), not slot7.isLock)
+
+		if not slot7.isLock then
+			setGray(slot8, underscore.all(underscore.flatten(slot7.task_group), function (slot0)
+				return uv0:getTaskVO(slot0) and slot1:isReceive()
+			end))
+		end
 	end
 
 	slot0:updatePhaseInfo()
@@ -151,28 +157,9 @@ end
 
 function slot0.setActivity(slot0, slot1)
 	slot0.activity = slot1
-	slot0.pt = slot1.data1
-	slot0.isPay = slot1.data2 == 1
-	slot0.awardDic = {}
 
-	for slot5, slot6 in ipairs(slot1.data1_list) do
-		slot0.awardDic[slot6] = true
-	end
-
-	slot0.awardPayDic = {}
-
-	for slot5, slot6 in ipairs(slot1.data2_list) do
-		slot0.awardPayDic[slot6] = true
-	end
-
-	slot0.phase = 0
-
-	for slot5, slot6 in ipairs(slot0.awardList) do
-		if slot0.pt < slot6.pt then
-			break
-		else
-			slot0.phase = slot5
-		end
+	for slot5, slot6 in pairs(slot1:GetCrusingInfo()) do
+		slot0[slot5] = slot6
 	end
 
 	slot0.taskGroupList = {}
@@ -185,21 +172,6 @@ function slot0.setActivity(slot0, slot1)
 			task_group = slot8.task_group,
 			isLock = slot2 < slot8.time
 		}
-	end
-end
-
-function slot0.setConfigData(slot0, slot1)
-	slot0.ptId = slot1.pt
-	slot0.awardList = {}
-
-	for slot5, slot6 in ipairs(slot1.target) do
-		table.insert(slot0.awardList, {
-			isImportent = true,
-			id = slot5,
-			pt = slot6,
-			award = slot1.drop_client[slot5],
-			award_pay = slot1.drop_client_pay[slot5]
-		})
 	end
 end
 

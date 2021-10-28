@@ -64,6 +64,7 @@ function slot9.Init(slot0)
 	slot0._extraInfo = {}
 	slot0._GCDTimerList = {}
 	slot0._buffList = {}
+	slot0._buffStockList = {}
 	slot0._labelTagList = {}
 	slot0._exposedToSnoar = false
 	slot0._moveCast = true
@@ -139,51 +140,6 @@ function slot9.RemoveSummonSickness(slot0)
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._sicknessTimer)
 
 	slot0._sicknessTimer = nil
-end
-
-function slot9.Tag(slot0, slot1)
-	slot0._tagCount = slot0._tagCount + 1
-	slot0._tagIndex = slot0._tagIndex + 1
-
-	if slot0._tagList[slot1] == nil then
-		slot0._tagList[slot1] = {}
-	end
-
-	slot2 = slot0._tagList[slot1]
-	slot2[#slot2 + 1] = slot0._tagIndex
-
-	slot0:DispatchEvent(uv0.Event.New(uv1.ADD_TAG, {
-		tagID = slot0._tagIndex,
-		requiredTime = slot1:GetLockRequiredTime()
-	}))
-end
-
-function slot9.UnTag(slot0, slot1)
-	if slot0._tagList[slot1] ~= nil and #slot2 > 0 then
-		slot0._tagCount = slot0._tagCount - 1
-
-		slot0:DispatchEvent(uv0.Event.New(uv1.REMOVE_TAG, {
-			tagID = slot2[#slot2]
-		}))
-
-		slot2[#slot2] = nil
-
-		if #slot2 == 0 then
-			slot0._tagList[slot1] = nil
-		end
-	end
-end
-
-function slot9.GetAllTagCount(slot0)
-	return slot0._tagCount
-end
-
-function slot9.GetSingleWeaponTagCount(slot0, slot1)
-	if slot0._tagList[slot1] == nil then
-		return 0
-	else
-		return #slot0._tagList[slot1]
-	end
 end
 
 function slot9.GetTargetedPriority(slot0)
@@ -321,17 +277,6 @@ function slot9.DeacActionClear(slot0)
 	uv0.Spirit(slot0)
 	uv0.Whosyourdaddy(slot0)
 	slot0:ClearWeapon()
-
-	for slot4, slot5 in pairs(slot0._tagList) do
-		slot6 = #slot5
-
-		while slot6 > 0 do
-			slot4:UnlockUnit(slot0)
-
-			slot6 = slot6 - 1
-		end
-	end
-
 	slot0:DeadActionEvent()
 end
 
@@ -911,41 +856,50 @@ function slot9.UpdateMoveLimit(slot0)
 	slot0._move:SetStaticState(not slot0:IsMoveAble())
 end
 
-function slot9.AddBuff(slot0, slot1)
-	slot2 = slot1:GetID()
-	slot3 = {
+function slot9.AddBuff(slot0, slot1, slot2)
+	slot3 = slot1:GetID()
+	slot4 = {
 		unit_id = slot0._uniqueID,
-		buff_id = slot2
+		buff_id = slot3
 	}
 
-	if slot0:GetBuff(slot2) then
-		slot5 = slot4:GetLv()
-		slot6 = slot1:GetLv()
-		slot3.buff_level = math.max(slot5, slot6)
+	if slot0:GetBuff(slot3) then
+		slot6 = slot5:GetLv()
+		slot7 = slot1:GetLv()
 
-		if slot6 <= slot5 then
-			slot4:Stack(slot0)
-			slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_STACK, slot3))
+		if slot2 then
+			slot8 = slot0._buffStockList[slot3] or {}
+
+			table.insert(slot8, slot1)
+
+			slot0._buffStockList[slot3] = slot8
 		else
-			slot0:RemoveBuff(slot2)
+			slot4.buff_level = math.max(slot6, slot7)
 
-			slot0._buffList[slot2] = slot1
+			if slot7 <= slot6 then
+				slot5:Stack(slot0)
+				slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_STACK, slot4))
+			else
+				slot0:RemoveBuff(slot3)
 
-			slot1:Attach(slot0)
-			slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_ATTACH, slot3))
+				slot0._buffList[slot3] = slot1
+
+				slot1:Attach(slot0)
+				slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_ATTACH, slot4))
+			end
 		end
 	else
-		slot0._buffList[slot2] = slot1
+		slot0._buffList[slot3] = slot1
 
 		slot1:Attach(slot0)
 
-		slot3.buff_level = slot1:GetLv()
+		slot4.buff_level = slot1:GetLv()
 
-		slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_ATTACH, slot3))
+		slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_ATTACH, slot4))
 	end
 
 	slot0:TriggerBuff(uv2.BuffEffectType.ON_BUFF_ADDED, {
-		buffID = slot2
+		buffID = slot3
 	})
 end
 
@@ -976,9 +930,15 @@ function slot9.UpdateBuff(slot0, slot1)
 	end
 end
 
-function slot9.RemoveBuff(slot0, slot1)
+function slot9.RemoveBuff(slot0, slot1, slot2)
+	if slot2 and slot0._buffStockList[slot1] and table.remove(slot0._buffStockList[slot1]) then
+		slot3:Clear()
+
+		return
+	end
+
 	if slot0:GetBuff(slot1) then
-		slot2:Remove()
+		slot3:Remove()
 	end
 
 	slot0:TriggerBuff(uv0.BuffEffectType.ON_BUFF_REMOVED, {
@@ -989,6 +949,12 @@ end
 function slot9.ClearBuff(slot0)
 	for slot5, slot6 in pairs(slot0._buffList) do
 		slot6:Clear()
+	end
+
+	for slot6, slot7 in pairs(slot0._buffStockList) do
+		for slot11, slot12 in pairs(slot7) do
+			slot12:Clear()
+		end
 	end
 end
 
@@ -1242,8 +1208,15 @@ function slot9.Dispose(slot0)
 		slot7:Dispose()
 	end
 
+	for slot7, slot8 in pairs(slot0._buffStockList) do
+		for slot12, slot13 in pairs(slot8) do
+			slot13:Clear()
+		end
+	end
+
 	slot0._aimBias = nil
 	slot0._buffList = nil
+	slot0._buffStockList = nil
 	slot0._cldZCenterCache = nil
 
 	slot0:RemoveSummonSickness()

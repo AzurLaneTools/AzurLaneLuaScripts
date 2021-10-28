@@ -725,7 +725,6 @@ function slot9.QuickTagChrageWeapon(slot0, slot1)
 
 	if slot0._chargeWeaponVO:GetCurrentWeapon() ~= nil and slot2:GetCurrentState() == slot2.STATE_READY then
 		slot2:QuickTag()
-		slot2:UpdateLockList()
 
 		if #slot2:GetLockList() <= 0 then
 			slot2:CancelQuickTag()
@@ -852,14 +851,14 @@ function slot9.CoupleEncourage(slot0)
 		for slot14, slot15 in ipairs(slot10) do
 			slot16 = slot15[1]
 			slot17 = slot15[2]
-			slot19 = nil
+			slot19 = uv2.Battle.BattleTargetChoise.TargetAllHelp(slot9)
 
 			if type(slot15[4] or slot3.GROUP_ID) == "table" then
 				for slot23, slot24 in ipairs(slot18) do
 					slot19 = uv2.Battle.BattleTargetChoise[slot4[slot24]](slot9, slot5(slot24, slot16[slot23]), slot19)
 				end
 			elseif type(slot18) == "number" then
-				slot19 = uv2.Battle.BattleTargetChoise[slot4[slot18]](slot9, slot5(slot18, slot16))
+				slot19 = uv2.Battle.BattleTargetChoise[slot4[slot18]](slot9, slot5(slot18, slot16), slot19)
 			end
 
 			if slot17 <= #slot19 then

@@ -1,13 +1,42 @@
 pg = pg or {}
 pg.map_event_list = {
 	[1401] = {
-		help_open = 0,
+		help_open = 1,
 		chapter_id = 1401,
 		event_list = {
 			561
 		},
 		event_list_loop = {},
-		help_pictures = {}
+		help_pictures = {
+			"helpbg/battle_suligao_1",
+			"helpbg/battle_suligao_2",
+			"helpbg/battle_suligao_3",
+			"helpbg/battle_suligao_4",
+			"helpbg/battle_suligao_5",
+			"helpbg/battle_suligao_6",
+			"helpbg/battle_suligao_7",
+			"helpbg/battle_suligao_8",
+			"helpbg/battle_suligao_9",
+			"helpbg/battle_suligao_10"
+		}
+	},
+	[1402] = {
+		help_open = 0,
+		chapter_id = 1402,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_suligao_1",
+			"helpbg/battle_suligao_2",
+			"helpbg/battle_suligao_3",
+			"helpbg/battle_suligao_4",
+			"helpbg/battle_suligao_5",
+			"helpbg/battle_suligao_6",
+			"helpbg/battle_suligao_7",
+			"helpbg/battle_suligao_8",
+			"helpbg/battle_suligao_9",
+			"helpbg/battle_suligao_10"
+		}
 	},
 	[1403] = {
 		help_open = 0,
@@ -17,17 +46,40 @@ pg.map_event_list = {
 			563
 		},
 		event_list_loop = {},
-		help_pictures = {}
+		help_pictures = {
+			"helpbg/battle_suligao_1",
+			"helpbg/battle_suligao_2",
+			"helpbg/battle_suligao_3",
+			"helpbg/battle_suligao_4",
+			"helpbg/battle_suligao_5",
+			"helpbg/battle_suligao_6",
+			"helpbg/battle_suligao_7",
+			"helpbg/battle_suligao_8",
+			"helpbg/battle_suligao_9",
+			"helpbg/battle_suligao_10"
+		}
 	},
 	[1404] = {
-		help_open = 0,
+		help_open = 1,
 		chapter_id = 1404,
 		event_list = {
 			564,
 			565
 		},
 		event_list_loop = {},
-		help_pictures = {}
+		help_pictures = {
+			"helpbg/battle_suligao_11",
+			"helpbg/battle_suligao_1",
+			"helpbg/battle_suligao_2",
+			"helpbg/battle_suligao_3",
+			"helpbg/battle_suligao_4",
+			"helpbg/battle_suligao_5",
+			"helpbg/battle_suligao_6",
+			"helpbg/battle_suligao_7",
+			"helpbg/battle_suligao_8",
+			"helpbg/battle_suligao_9",
+			"helpbg/battle_suligao_10"
+		}
 	},
 	[1160001] = {
 		help_open = 0,
@@ -1998,6 +2050,7 @@ pg.map_event_list = {
 	},
 	all = {
 		1401,
+		1402,
 		1403,
 		1404,
 		1160001,

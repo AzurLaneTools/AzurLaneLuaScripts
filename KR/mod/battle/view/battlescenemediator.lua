@@ -513,12 +513,18 @@ function slot5.UpdateAimBiasArea(slot0)
 	for slot4, slot5 in pairs(slot0._aimBiasTFList) do
 		slot6 = slot5.tf
 		slot7 = slot5.vector
-		slot8 = slot4:GetRange() * 2
+		slot9 = slot4:GetRange() * 2
 
-		slot7:Set(slot8, 0, slot8)
+		slot7:Set(slot9, 0, slot9)
 
 		slot6.position = slot4:GetPosition()
 		slot6.localScale = slot7
+
+		if slot4:GetCurrentState() ~= slot5.cacheState then
+			setActive(slot6:Find("suofang/Quad"), slot10 ~= slot4.STATE_SKILL_EXPOSE)
+		end
+
+		slot5.cacheState = slot10
 	end
 end
 

@@ -217,6 +217,10 @@ function slot0.getLastUnlockChapterName(slot0)
 	return slot1:getConfig("chapter_name")
 end
 
+function slot0.GetChapterList(slot0)
+	return slot0.chapterIds
+end
+
 function slot0.isActivity(slot0)
 	if slot0:getMapType() == Map.EVENT then
 		return true, false

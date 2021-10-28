@@ -522,7 +522,7 @@ end
 function slot0.TryPlayStory(slot0)
 	slot2 = slot0.selectedIndex
 
-	table.eachAsync({}, function (slot0, slot1, slot2)
+	table.SerialForeachArray({}, function (slot0, slot1, slot2)
 		if slot0 <= uv0 and slot1 then
 			pg.NewStoryMgr.GetInstance():Play(slot1, slot2)
 		else

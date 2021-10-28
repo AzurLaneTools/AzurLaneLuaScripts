@@ -53,7 +53,7 @@ function slot0.OnInit(slot0)
 	slot0.baseWallPaperModel = BackYardPaperModel.New(slot0:findTF("bg/wall_base"), BackYardPaperModel.PAPER_TYPE_BASEWALL)
 	slot0.floorPaperModel = BackYardPaperModel.New(slot0:findTF("bg/floor"), BackYardPaperModel.PAPER_TYPE_FLOOR)
 	slot0.msgBoxWindow = BackYardMsgBox.New(slot0:findTF("msg_box"))
-	slot0.furnitureDescWindow = FurnitureDescWindow.New(slot0:findTF("desc_panel"))
+	slot0.furnitureDescWindow = FurnitureDescWindow.New(slot0:findTF("desc_panel"), slot0)
 
 	slot0.furnitureDescWindow:SetUp(function (slot0, slot1, slot2)
 		slot3 = uv0.furnitureModals[slot0]
@@ -658,6 +658,12 @@ function slot0.removeFurn(slot0, slot1)
 
 	slot0.furnitureModals[slot1.id]:Clear()
 
+	if slot0.furnitureDescWindow.playData and slot0.furnitureDescWindow.playData.id == slot1.id then
+		slot0.furnitureDescWindow.playData = nil
+
+		slot0:playBGM(slot0:GetDefaultBgm())
+	end
+
 	slot0.curFurnModal = nil
 	slot0.furnitureModals[slot1.id] = nil
 	slot0.furnitureVOs[slot1.id] = nil
@@ -1060,11 +1066,70 @@ function slot0.OnWillExit(slot0)
 	end
 
 	setButtonEnabled(slot0.decorationBtn, true)
+	slot0:RemoveStopBgmTimer()
 	slot0.wallPaperModel:dispose()
 	slot0.floorPaperModel:dispose()
 	slot0.msgBoxWindow:Destroy()
 	slot0.furnitureDescWindow:Destroy()
 	pg.BackYardSortMgr.GetInstance():Dispose()
+end
+
+function slot0.playBGM(slot0, slot1, slot2)
+	if slot2 then
+		slot0:PlayBgmOnce(slot1)
+	else
+		playBGM(slot1)
+	end
+
+	slot0.bgmName = slot1
+end
+
+function slot0.IsDefaultBgm(slot0)
+	return slot0.bgmName == slot0.bgm
+end
+
+function slot0.IsSameBgm(slot0, slot1)
+	return slot0.bgmName == slot1
+end
+
+function slot0.GetDefaultBgm(slot0)
+	return slot0.bgm
+end
+
+function slot0.PlayBgmOnce(slot0, slot1)
+	slot3 = CriWareMgr.Inst
+
+	slot3:PlayBGM("bgm-" .. slot1, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+		if slot0 ~= nil then
+			uv0:AddTimerToStopBgm(uv1, long2int(slot0.cueInfo.length) * 0.001 - 1)
+		end
+	end)
+end
+
+function slot0.AddTimerToStopBgm(slot0, slot1, slot2)
+	slot0:RemoveStopBgmTimer()
+
+	slot0.bgmTimer = Timer.New(function ()
+		if uv0:IsSameBgm(uv1) then
+			pg.CriMgr.GetInstance():StopBGM()
+
+			slot0 = uv0:GetDefaultBgm()
+
+			pg.CriMgr.GetInstance():PlayBGM(slot0)
+
+			uv0.bgmName = slot0
+		end
+	end, slot2, 1)
+
+	slot0.bgmTimer:Start()
+end
+
+function slot0.RemoveStopBgmTimer(slot0)
+	if slot0.bgmTimer then
+		slot0.bgmTimer:Stop()
+
+		slot0.bgmTimer = nil
+	end
 end
 
 return slot0

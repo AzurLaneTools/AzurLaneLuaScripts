@@ -795,10 +795,6 @@ function slot0.handleEnterMainUI(slot0)
 				coroutine.yield()
 			end
 
-			if not LOCK_SUBMARINE then
-				uv0:tryRequestMainSub()
-			end
-
 			slot8 = uv0
 
 			slot8:checkCV()
@@ -947,12 +943,6 @@ end
 
 function slot0.tryPlayGuide(slot0)
 	pg.SystemGuideMgr.GetInstance():Play(slot0)
-end
-
-function slot0.tryRequestMainSub(slot0)
-	if getProxy(ChapterProxy).subNextReqTime < pg.TimeMgr.GetInstance():GetServerTime() then
-		slot0:sendNotification(GAME.SUB_CHAPTER_FETCH)
-	end
 end
 
 function slot0.checkCV(slot0)

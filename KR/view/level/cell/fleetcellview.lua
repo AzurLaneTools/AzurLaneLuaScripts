@@ -21,11 +21,10 @@ function slot0.showPoisonDamage(slot0, slot1)
 
 	slot4:GetPrefab("ui/" .. slot2, slot2, function (slot0)
 		setParent(slot0.transform, uv0.tf, false)
-
-		slot1 = LeanTween.moveY(uv0.tfShip, uv1.y - 10, 0.1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
+		LeanTween.moveY(uv0.tfShip, uv1.y - 10, 0.1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 
 		if not IsNil(slot0:GetComponent(typeof(ParticleSystemEvent))) then
-			slot2:AddEndEvent(function (slot0)
+			slot1:AddEndEvent(function ()
 				uv0.tfShip.localPosition = uv1
 
 				uv0.loader:ClearRequest("PoisonDamage")
@@ -59,8 +58,7 @@ function slot0.SetActiveNoPassIcon(slot0, slot1)
 			slot1 = 150
 
 			setLocalPosition(slot0, Vector3(0, slot1, 0))
-
-			slot2 = LeanTween.moveY(rtf(slot0), slot1 - 10, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
+			LeanTween.moveY(rtf(slot0), slot1 - 10, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 		end, slot2)
 	end
 end

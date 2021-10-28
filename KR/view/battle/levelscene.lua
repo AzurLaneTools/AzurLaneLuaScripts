@@ -43,12 +43,8 @@ slot0.optionsPath = {
 function slot0.preload(slot0, slot1)
 	slot2 = getProxy(ChapterProxy)
 
-	if slot0.contextData.mapIdx and slot0.contextData.chapterId then
-		slot3 = slot2:getMapById(slot0.contextData.mapIdx)
-
-		if slot2:getChapterById(slot0.contextData.chapterId):getConfig("map") == slot0.contextData.mapIdx then
-			slot0.contextData.chapterVO = slot4
-		end
+	if slot0.contextData.mapIdx and slot0.contextData.chapterId and slot2:getChapterById(slot0.contextData.chapterId):getConfig("map") == slot0.contextData.mapIdx then
+		slot0.contextData.chapterVO = slot3
 	end
 
 	slot3, slot4 = slot0:GetInitializeMap()
@@ -67,29 +63,41 @@ function slot0.preload(slot0, slot1)
 end
 
 function slot0.GetInitializeMap(slot0)
-	return (function ()
+	if (function ()
 		if uv0.contextData.chapterVO and slot0.active then
 			return slot0:getConfig("map")
 		end
 
 		if uv0.contextData.mapIdx then
-			return uv0.contextData.mapIdx
+			return slot1
 		end
 
-		slot1 = nil
+		slot2 = nil
 
 		if uv0.contextData.targetChapter and uv0.contextData.targetMap then
 			uv0.contextData.openChapterId = uv0.contextData.targetChapter
-			slot1 = uv0.contextData.targetMap.id
+			slot2 = uv0.contextData.targetMap.id
 			uv0.contextData.targetChapter = nil
 			uv0.contextData.targetMap = nil
 		elseif uv0.contextData.eliteDefault then
-			slot1 = getProxy(ChapterProxy):getUseableMaxEliteMap() and slot2.id or nil
+			slot2 = getProxy(ChapterProxy):getUseableMaxEliteMap() and slot3.id or nil
 			uv0.contextData.eliteDefault = nil
 		end
 
-		return slot1
-	end)() or slot0:selectMap(), tobool(slot2)
+		return slot2
+	end)() and getProxy(ChapterProxy):getMapById(slot2) then
+		slot4, slot5 = slot3:isUnlock()
+
+		if not slot4 then
+			pg.TipsMgr.GetInstance():ShowTips(slot5)
+
+			slot0.contextData.mapIdx = getProxy(ChapterProxy):getLastUnlockMap().id
+		end
+	else
+		slot2 = nil
+	end
+
+	return slot2 or slot0:selectMap(), tobool(slot2)
 end
 
 function slot0.init(slot0)
@@ -825,7 +833,7 @@ function slot0.PreloadLevelMainUI(slot0, slot1, slot2)
 	slot4 = slot4 + 1
 	slot8 = getProxy(ChapterProxy)
 
-	table.eachParallel(slot0:GetMapBG(slot8:getMapById(slot1)), function (slot0, slot1, slot2)
+	table.ParallelForeachArray(slot0:GetMapBG(slot8:getMapById(slot1)), function (slot0, slot1, slot2)
 		GetSpriteFromAtlasAsync("levelmap/" .. slot1.BG, "", slot2)
 	end, slot5)
 end
@@ -927,7 +935,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 			slot6 = true
 
 			if slot0.grid then
-				slot0.grid:updateFleets()
+				slot0.grid:UpdateFleets()
 				slot0.grid:clearChampions()
 				slot0.grid:initChampions()
 
@@ -937,7 +945,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 			slot6 = true
 
 			if slot0.grid then
-				slot0.grid:updateFleets()
+				slot0.grid:UpdateFleets()
 				slot0.grid:updateChampions()
 
 				slot5 = true
@@ -1451,7 +1459,6 @@ end
 
 function slot0.updateMap(slot0)
 	slot1 = slot0.contextData.map
-	slot2 = slot0.contextData.chapterVO
 
 	seriesAsync({
 		function (slot0)
@@ -1470,8 +1477,6 @@ function slot0.updateMap(slot0)
 			uv0:SwitchMapBuilder(uv0:JudgeMapBuilderType(), slot0)
 		end,
 		function (slot0)
-			slot1 = getProxy(ChapterProxy)
-
 			uv0.mapBuilder:Update(uv1)
 			uv0:UpdateSwitchMapButton()
 			uv0:updateMapItems()
@@ -1797,8 +1802,6 @@ end
 
 function slot0.updateFleetEdit(slot0, slot1, slot2)
 	if slot0.levelFleetView then
-		slot3 = slot0.contextData.map
-
 		if slot1 and slot0.levelFleetView.chapter.id == slot1.id then
 			slot0.levelFleetView:ActionInvoke("setOnHard", slot1)
 		end
@@ -1982,10 +1985,17 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 						uv1.levelStageView:ShiftStagePanelIn()
 					end,
 					function (slot0)
-						uv1:SwitchBG({
-							BG = uv0:getConfig("bg")
-						}, slot0)
-						uv1:PlayBGM()
+						uv0:PlayBGM()
+
+						slot1 = {}
+
+						if uv1:getConfig("bg") and #slot2 > 0 then
+							slot1:insert({
+								BG = slot2
+							})
+						end
+
+						uv0:SwitchBG(slot1, slot0)
 					end
 				}, function ()
 					onNextTick(uv0)
@@ -2060,17 +2070,9 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 end
 
 function slot0.switchToMap(slot0, slot1)
-	slot3 = getProxy(ChapterProxy)
-	slot4 = slot0.contextData.chapterVO and slot3:getMapById(slot2:getConfig("map"))
-
-	if slot3.subNextReqTime < pg.TimeMgr.GetInstance():GetServerTime() then
-		slot0:emit(LevelMediator2.ON_FETCH_SUB_CHAPTER)
-
-		return
-	end
-
 	slot0:frozen()
 	slot0:destroyGrid()
+	LeanTween.cancel(go(slot0.map))
 	slot0:RecordTween("mapScale", LeanTween.value(go(slot0.map), slot0.map.localScale, Vector3.one, uv0):setOnUpdateVector3(function (slot0)
 		uv0.map.localScale = slot0
 		uv0.float.localScale = slot0
@@ -2082,19 +2084,16 @@ function slot0.switchToMap(slot0, slot1)
 		uv0.mapBuilder.buffer:UpdateButtons()
 		uv0.mapBuilder.buffer:PostUpdateMap(uv0.contextData.map)
 		uv0:unfrozen()
-
-		if uv1 then
-			uv1()
-		end
+		existCall(uv1)
 	end)):setEase(LeanTweenType.easeOutSine).uniqueId)
 
-	slot7 = LeanTween.value(go(slot0.map), slot0.map.pivot, slot0.lastRecordPivot or Vector2.zero, uv0)
+	slot4 = LeanTween.value(go(slot0.map), slot0.map.pivot, slot0.lastRecordPivot or Vector2.zero, uv0)
 
-	slot7:setOnUpdateVector2(function (slot0)
+	slot4:setOnUpdateVector2(function (slot0)
 		uv0.map.pivot = slot0
 		uv0.float.pivot = slot0
 	end):setEase(LeanTweenType.easeOutSine)
-	slot0:RecordTween("mapPivot", slot7.uniqueId)
+	slot0:RecordTween("mapPivot", slot4.uniqueId)
 	setActive(slot0.topChapter, true)
 	setActive(slot0.leftChapter, true)
 	setActive(slot0.rightChapter, true)
@@ -2124,9 +2123,9 @@ end
 
 function slot0.SwitchBG(slot0, slot1, slot2)
 	if not slot1 or #slot1 <= 0 then
-		if slot2 then
-			slot2()
-		end
+		existCall(slot2)
+
+		return
 	elseif table.equal(slot0.currentBG, slot1) then
 		return
 	end
@@ -2134,7 +2133,7 @@ function slot0.SwitchBG(slot0, slot1, slot2)
 	slot0.currentBG = slot1
 	slot3 = {}
 
-	table.eachParallel(slot1, function (slot0, slot1, slot2)
+	table.ParallelForeachArray(slot1, function (slot0, slot1, slot2)
 		table.insert(uv0.mapGroup, uv0.loader:GetSpriteDirect("levelmap/" .. slot1.BG, "", function (slot0)
 			uv0[uv1] = slot0
 
@@ -2454,41 +2453,6 @@ function slot0.displayStrategyInfo(slot0, slot1)
 	end)
 end
 
-function slot0.selectStrategyTarget(slot0, slot1, slot2)
-	slot5 = slot0.contextData.chapterVO.fleet.line
-	slot6 = {}
-
-	if slot1.id == ChapterConst.StrategyAirStrike then
-		slot6 = slot3:calcAreaCells(slot5.row, slot5.column, slot1.arg[2], slot1.arg[3])
-	elseif slot1.id == ChapterConst.StrategyCannon then
-		slot6 = slot3:calcAreaCells(slot5.row, slot5.column, 0, slot1.arg[2])
-	end
-
-	slot6 = _.filter(slot6, function (slot0)
-		return not uv0:existFleet(nil, slot0.row, slot0.column)
-	end)
-
-	_.each(slot6, function (slot0)
-		uv0.grid:shiningTarget(slot0.row, slot0.column, true)
-	end)
-
-	slot7 = slot0.grid
-
-	slot7:updateQuadCells(ChapterConst.QuadStateStrategy, slot6, function (slot0)
-		_.each(uv0, function (slot0)
-			uv0.grid:shiningTarget(slot0.row, slot0.column, false)
-		end)
-
-		if slot0 and _.any(uv0, function (slot0)
-			return slot0.row == uv0.row and slot0.column == uv0.column
-		end) and uv2:existEnemy(ChapterConst.SubjectPlayer, slot0.row, slot0.column) then
-			uv3(slot0.row, slot0.column)
-		else
-			uv1.grid:updateQuadCells(ChapterConst.QuadStateNormal)
-		end
-	end)
-end
-
 function slot0.hideStrategyInfo(slot0)
 	if slot0.levelStrategyView then
 		slot0.levelStrategyView:Destroy()
@@ -2541,10 +2505,9 @@ end
 function slot0.displayRemasterPanel(slot0, slot1)
 	slot2 = getProxy(ChapterProxy)
 	slot3 = {}
-	slot4 = pg.TimeMgr.GetInstance()
 
-	for slot8, slot9 in ipairs(pg.re_map_template.all) do
-		table.insert(slot3, pg.re_map_template[slot9])
+	for slot7, slot8 in ipairs(pg.re_map_template.all) do
+		table.insert(slot3, pg.re_map_template[slot8])
 	end
 
 	table.sort(slot3, function (slot0, slot1)
@@ -2552,17 +2515,17 @@ function slot0.displayRemasterPanel(slot0, slot1)
 	end)
 
 	slot0.levelRemasterView = LevelRemasterView.New(slot0.topPanel, slot0.event, slot0.contextData)
-	slot5 = slot0.levelRemasterView
+	slot4 = slot0.levelRemasterView
 
-	slot5:Load()
+	slot4:Load()
 
-	slot5 = slot0.levelRemasterView
+	slot4 = slot0.levelRemasterView
 
-	slot5:ActionInvoke("set", slot3, slot2.remasterTickets, slot1)
+	slot4:ActionInvoke("set", slot3, slot2.remasterTickets, slot1)
 
-	slot7 = slot0.levelRemasterView
+	slot6 = slot0.levelRemasterView
 
-	slot7:ActionInvoke("setCBFunc", function (slot0)
+	slot6:ActionInvoke("setCBFunc", function (slot0)
 		if not (PlayerPrefs.HasKey("remaster_lastmap_" .. slot0.id) and PlayerPrefs.GetInt("remaster_lastmap_" .. slot0.id) or pg.chapter_template[slot0.config_data[1]].map) then
 			return
 		end
@@ -2601,7 +2564,6 @@ function slot0.initGrid(slot0, slot1)
 	slot0.grid:ExtendItem("subTpl", slot0.subTpl)
 	slot0.grid:ExtendItem("transportTpl", slot0.transportTpl)
 	slot0.grid:ExtendItem("enemyTpl", slot0.enemyTpl)
-	slot0.grid:ExtendItem("deadTpl", slot0.deadTpl)
 	slot0.grid:ExtendItem("championTpl", slot0.championTpl)
 	slot0.grid:ExtendItem("oniTpl", slot0.oniTpl)
 	slot0.grid:ExtendItem("arrowTpl", slot0.arrowTarget)
@@ -3218,10 +3180,6 @@ function slot0.easeAvoid(slot0, slot1, slot2)
 			uv1()
 		end
 	end))
-end
-
-function slot0.overrideChapter(slot0)
-	slot0:emit(LevelMediator2.ON_OVERRIDE_CHAPTER)
 end
 
 function slot0.onSubLayerOpen(slot0)

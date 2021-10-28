@@ -70,6 +70,10 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.descMode then
+			if LeanTween.isTweening(go(uv0.stageContain)) or LeanTween.isTweening(go(uv0.selQuicklyTF)) then
+				return
+			end
+
 			uv0:enableDescMode(false)
 		else
 			uv0:emit(uv1.ON_BACK)
@@ -294,7 +298,14 @@ function slot0.updateStageTF(slot0, slot1, slot2)
 	setActive(slot0:findTF("mask", slot1), slot0.player.level < slot2.level)
 
 	if slot0.player.level < slot2.level then
-		setText(slot0:findTF("msg/msg_contain/Text", slot4), "Lv." .. slot2.level .. " ")
+		if PLATFORM_CODE == PLATFORM_US then
+			slot5 = slot0:findTF("msg/msg_contain/Text", slot4)
+
+			setText(slot5, "Lv." .. slot2.level .. " ")
+			slot5:SetAsLastSibling()
+		else
+			setText(slot0:findTF("msg/msg_contain/Text", slot4), "Lv." .. slot2.level .. " ")
+		end
 	end
 
 	slot5 = UIItemList.New(slot0:findTF("scrollView/right_panel", slot1), slot0.itemTpl)
@@ -328,6 +339,10 @@ function slot0.updateStage(slot0, slot1)
 			if pg.expedition_daily_template[uv1.dailyLevelId].limit_time <= (uv1.dailyCounts[uv1.dailyLevelId] or 0) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
 
+				return
+			end
+
+			if LeanTween.isTweening(go(uv1.descMain)) or LeanTween.isTweening(go(uv1.listPanel)) then
 				return
 			end
 

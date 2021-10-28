@@ -1148,7 +1148,7 @@ function GetOwnedpropCount(slot0)
 	elseif slot3 == DROP_TYPE_FURNITURE then
 		slot1 = getProxy(DormProxy):getFurnitrueCount(slot0.id)
 	elseif slot3 == DROP_TYPE_STRATEGY then
-		slot2 = tobool(slot0.strategyCount)
+		slot2 = tobool(slot0.count)
 	elseif slot3 == DROP_TYPE_SKIN then
 		slot1 = getProxy(ShipSkinProxy):getSkinCountById(slot0.id)
 	elseif slot3 == DROP_TYPE_VITEM then

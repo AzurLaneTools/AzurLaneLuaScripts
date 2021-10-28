@@ -49,7 +49,6 @@ if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_KR then
 	setActive(slot0:Find("DragLayer"), true)
 end
 
-GetComponent(tf(GameObject.Find("OverlayCamera/Overlay/UIDebug/logs")), "Text").supportRichText = false
 slot0 = pg.TimeMgr.GetInstance()
 
 slot0:Init()

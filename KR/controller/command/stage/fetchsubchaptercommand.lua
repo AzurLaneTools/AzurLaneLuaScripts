@@ -19,6 +19,7 @@ function slot0.execute(slot0, slot1)
 		for slot7, slot8 in pairs(slot1:getRawData()) do
 			if slot8:getPlayType() == ChapterConst.TypeMainSub and not slot8.active and not slot2[slot7] then
 				slot8:clearSubChapter()
+				slot1:updateChapter(slot8)
 			end
 		end
 
@@ -30,6 +31,7 @@ function slot0.execute(slot0, slot1)
 			uv0:updateChapter(slot1)
 		end)
 		uv0:sendNotification(GAME.SUB_CHAPTER_FETCH_DONE)
+		slot1:AddSubInfoTimer()
 	end)
 end
 

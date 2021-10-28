@@ -351,7 +351,7 @@ function slot0.set(slot0, slot1, slot2, slot3)
 	setActive(slot0.tfLimitTips, false)
 	setActive(slot0.tfLimit, true)
 
-	slot5 = slot0.chapter:getConfig("use_oil_limit") or {}
+	slot5 = slot0.chapter:isLoop() and slot0.chapter:getConfig("use_oil_limit") or {}
 
 	setActive(slot0.rtCostLimit, #slot5 > 0)
 	setText(slot0.rtCostLimit:Find("text"), i18n("formationScene_use_oil_limit_tip"))
@@ -1105,7 +1105,7 @@ function slot0.updateEliteLimit(slot0)
 		setActive(slot0.tfLimitElite:Find("sub"), slot0.chapter:getConfig("submarine_num") > 0)
 	end
 
-	slot1 = slot0.chapter:getConfig("use_oil_limit") or {}
+	slot1 = slot0.chapter:isLoop() and slot0.chapter:getConfig("use_oil_limit") or {}
 
 	setActive(slot0.rtCostLimit, #slot1 > 0)
 	setText(slot0.rtCostLimit:Find("text"), i18n("formationScene_use_oil_limit_tip"))

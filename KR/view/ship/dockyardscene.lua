@@ -1149,7 +1149,7 @@ function slot0.filterForRemouldAndUpgrade(slot0)
 		slot3 = slot1:isTestShip() and 1 or 0
 
 		if slot0.level == slot1.level then
-			return slot3 < slot2
+			return slot2 < slot3
 		else
 			return slot0.level < slot1.level
 		end

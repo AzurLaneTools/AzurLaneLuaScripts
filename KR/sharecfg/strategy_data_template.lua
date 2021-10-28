@@ -73,6 +73,42 @@ pg.strategy_data_template = {
 			1.1
 		}
 	},
+	[13] = {
+		buff_id = 9670,
+		name = "조명탄",
+		type = 6,
+		id = 13,
+		icon = "yezhan_zhaomingdan",
+		desc = "조명탄 보급 획득 후, 해당 함대는 전투 중 조명탄 지원을 추가 획득합니다.",
+		arg = {}
+	},
+	[14] = {
+		buff_id = 9600,
+		name = "등대",
+		type = 10,
+		id = 14,
+		icon = "yezhan_dengta",
+		desc = "등대 통제권 획득 후 아군 함대는 전투 중 등대의 조명 지원을 받습니다.",
+		arg = {}
+	},
+	[16] = {
+		buff_id = 0,
+		name = "야전",
+		type = 6,
+		id = 16,
+		icon = "weather_101",
+		desc = "수리가오 해협은 흑야과 뇌우로 뒤덮여 있어, 아군 선봉함대와 적 함대는 모두 「야전 은폐」 상태입니다. 공격 받을 시, 함대는 현재 은폐 게이지에 따라 추가 회피 능력을 획득합니다.",
+		arg = {}
+	},
+	[17] = {
+		buff_id = 0,
+		name = "해무",
+		type = 6,
+		id = 17,
+		icon = "Weather_102",
+		desc = "해무 구역에서, 전투 시 아군과 적의 은페 게이지가 감소하며, 속도가 감소합니다.",
+		arg = {}
+	},
 	[47] = {
 		buff_id = 0,
 		name = "고효율 작전",
@@ -811,6 +847,10 @@ pg.strategy_data_template = {
 		9,
 		10,
 		11,
+		13,
+		14,
+		16,
+		17,
 		47,
 		90,
 		91,

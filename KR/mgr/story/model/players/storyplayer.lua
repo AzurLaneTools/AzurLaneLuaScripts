@@ -631,6 +631,7 @@ function slot0.Clear(slot0, slot1)
 	slot0.callback = nil
 	slot0.autoNext = nil
 	slot0.script = nil
+	slot0.bgImage.sprite = nil
 
 	slot0:OnClear()
 

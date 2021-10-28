@@ -48,22 +48,14 @@ function slot0.register(slot0)
 		uv0.newShipList = {}
 
 		for slot7, slot8 in ipairs(slot0.ship_list) do
-			if Ship.New(slot8):getConfigTable() then
-				if slot9:isMetaShip() and not slot9.virgin and Player.isMetaShipNeedToTrans(slot9.configId) then
-					if MetaCharacterConst.addReMetaTransItem(slot9) then
-						slot9:setReMetaSpecialItemVO(slot10)
-					end
+			if Ship.New(slot8):getConfigTable() and slot9.id > 0 then
+				uv0:addShip(slot9, false)
 
-					uv0.newShipList[#uv0.newShipList + 1] = slot9
-				else
-					uv0:addShip(slot9, false)
-
-					if slot2 then
-						slot3 = slot3 + 1
-					end
-
-					uv0.newShipList[#uv0.newShipList + 1] = slot9
+				if slot2 then
+					slot3 = slot3 + 1
 				end
+
+				uv0.newShipList[#uv0.newShipList + 1] = slot9
 			else
 				warning("不存在的角色: " .. slot9.id)
 			end
@@ -72,6 +64,8 @@ function slot0.register(slot0)
 		if slot3 > 0 then
 			uv0:countShip(slot3)
 		end
+
+		uv0.metaTransItemMap = {}
 	end)
 
 	slot1 = getProxy(PlayerProxy)
@@ -217,11 +211,31 @@ end
 function slot0.getNewShip(slot0, slot1)
 	slot2 = slot0.newShipList or {}
 
-	if slot1 or true then
+	if slot1 then
 		slot0.newShipList = nil
 	end
 
 	return slot2
+end
+
+function slot0.getMetaTransItemMap(slot0, slot1)
+	slot2 = nil
+
+	if slot0.metaTransItemMap and slot0.metaTransItemMap[slot1] and #slot0.metaTransItemMap[slot1] > 0 then
+		slot2 = slot0.metaTransItemMap[slot1][1]
+
+		table.remove(slot0.metaTransItemMap[slot1], 1)
+	end
+
+	return slot2
+end
+
+function slot0.addMetaTransItemMap(slot0, slot1, slot2)
+	if not slot0.metaTransItemMap[slot1] then
+		slot0.metaTransItemMap[slot1] = {}
+	end
+
+	table.insert(slot0.metaTransItemMap[slot1], slot2)
 end
 
 function slot0.getShipsByFleet(slot0, slot1)

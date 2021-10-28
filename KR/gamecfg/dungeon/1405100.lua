@@ -153,7 +153,7 @@ return {
 							corrdinate = {
 								10,
 								0,
-								35
+								36
 							},
 							buffList = {
 								8001,
@@ -163,12 +163,23 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
-					waveIndex = 102,
+					triggerType = 1,
+					waveIndex = 301,
 					conditionType = 1,
 					preWaves = {
 						101,
 						202
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					waveIndex = 102,
+					conditionType = 1,
+					preWaves = {
+						301
 					},
 					triggerParam = {},
 					spawn = {
@@ -223,7 +234,7 @@ return {
 							delay = 0,
 							score = 0,
 							corrdinate = {
-								0,
+								5,
 								0,
 								45
 							},
@@ -300,12 +311,23 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
-					waveIndex = 103,
+					triggerType = 1,
+					waveIndex = 302,
 					conditionType = 1,
 					preWaves = {
 						102,
 						203
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					waveIndex = 103,
+					conditionType = 1,
+					preWaves = {
+						302
 					},
 					triggerParam = {},
 					spawn = {
@@ -344,7 +366,7 @@ return {
 							delay = 0,
 							score = 10,
 							corrdinate = {
-								0,
+								5,
 								0,
 								55
 							},
@@ -368,14 +390,25 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
-					key = true,
-					waveIndex = 105,
+					triggerType = 1,
+					waveIndex = 304,
 					conditionType = 0,
 					preWaves = {
 						101,
 						102,
 						103
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 105,
+					conditionType = 0,
+					preWaves = {
+						304
 					},
 					triggerParam = {},
 					spawn = {
@@ -403,7 +436,7 @@ return {
 							delay = 0,
 							score = 0,
 							corrdinate = {
-								15,
+								5,
 								0,
 								75
 							},
@@ -422,7 +455,7 @@ return {
 							corrdinate = {
 								15,
 								0,
-								35
+								36
 							},
 							buffList = {
 								8001,
@@ -521,7 +554,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 8,
+							delay = 11,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {
@@ -537,7 +570,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 23,
+							delay = 26,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {
@@ -553,7 +586,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 38,
+							delay = 37,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {

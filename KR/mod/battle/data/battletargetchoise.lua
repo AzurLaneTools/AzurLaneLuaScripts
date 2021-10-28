@@ -625,29 +625,33 @@ function slot2.TargetAllHarmTorpedoBullet(slot0)
 end
 
 function slot2.TargetFleetIndex(slot0, slot1)
+	slot2 = ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF())
 	slot3 = TeamType.TeamPos
 	slot4 = slot1.fleetPos
 	slot5 = {}
+	slot7 = slot2:GetScoutList()
 
-	for slot10, slot11 in ipairs(ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF()):GetUnitList()) do
-		if slot4 == slot3.FLAG_SHIP and slot11 == slot2:GetFlagShip() then
-			table.insert(slot5, slot11)
-		elseif slot4 == slot3.LEADER and slot11 == slot2:GetScoutList()[1] then
-			table.insert(slot5, slot11)
-		elseif slot4 == slot3.REAR and slot11 == slot2:GetScoutList()[#slot2:GetScoutList()] then
-			table.insert(slot5, slot11)
+	for slot11, slot12 in ipairs(slot2:GetUnitList()) do
+		if slot4 == slot3.FLAG_SHIP and slot12 == slot2:GetFlagShip() then
+			table.insert(slot5, slot12)
+		elseif slot4 == slot3.LEADER and slot12 == slot7[1] then
+			table.insert(slot5, slot12)
+		elseif slot4 == slot3.CENTER and #slot7 == 3 and slot12 == slot7[2] then
+			table.insert(slot5, slot12)
+		elseif slot4 == slot3.REAR and slot12 == slot7[#slot7] then
+			table.insert(slot5, slot12)
 		elseif slot4 == slot3.CONSORT then
-			table.insert(slot5, slot11)
+			table.insert(slot5, slot12)
 		end
 	end
 
-	slot7 = slot2:GetSubList()
+	slot8 = slot2:GetSubList()
 
-	for slot11, slot12 in ipairs(slot6) do
-		if slot4 == slot3.SUB_LEADER and slot11 == 1 then
-			table.insert(slot5, slot12)
+	for slot12, slot13 in ipairs(slot6) do
+		if slot4 == slot3.SUB_LEADER and slot12 == 1 then
+			table.insert(slot5, slot13)
 		elseif slot4 == slot3.SUB_CONSORT then
-			table.insert(slot5, slot12)
+			table.insert(slot5, slot13)
 		end
 	end
 

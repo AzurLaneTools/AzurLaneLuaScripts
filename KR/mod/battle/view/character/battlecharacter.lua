@@ -237,8 +237,6 @@ end
 function slot5.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.SPAWN_CACHE_BULLET, slot0.onSpawnCacheBullet)
 	slot0._unitData:RegisterEventListener(slot0, uv0.CREATE_TEMPORARY_WEAPON, slot0.onNewWeapon)
-	slot0._unitData:RegisterEventListener(slot0, uv0.ADD_TAG, slot0.onAddTag)
-	slot0._unitData:RegisterEventListener(slot0, uv0.REMOVE_TAG, slot0.onRemoveTag)
 	slot0._unitData:RegisterEventListener(slot0, uv0.POP_UP, slot0.onPopup)
 	slot0._unitData:RegisterEventListener(slot0, uv0.VOICE, slot0.onVoice)
 	slot0._unitData:RegisterEventListener(slot0, uv0.PLAY_FX, slot0.onPlayFX)
@@ -275,8 +273,6 @@ function slot5.RemoveUnitEvent(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.CREATE_TEMPORARY_WEAPON)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.CHANGE_ACTION)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.SPAWN_CACHE_BULLET)
-	slot0._unitData:UnregisterEventListener(slot0, uv0.ADD_TAG)
-	slot0._unitData:UnregisterEventListener(slot0, uv0.REMOVE_TAG)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.POP_UP)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.VOICE)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.PLAY_FX)
@@ -387,23 +383,6 @@ function slot5.onNewWeapon(slot0, slot1)
 
 	table.insert(slot0._attachWeaponList, slot2)
 	slot0:RegisterWeaponListener(slot2)
-end
-
-function slot5.onAddTag(slot0, slot1)
-	slot2 = slot1.Data
-	slot3 = slot0:GetFactory():MakeTag(slot2.tagID)
-
-	slot3:SetTagCount(slot0._unitData:GetAllTagCount())
-	slot3:Mark(slot2.requiredTime)
-
-	slot0._tagFXList[slot2.tagID] = slot3
-end
-
-function slot5.onRemoveTag(slot0, slot1)
-	slot2 = slot1.Data
-	slot0._tagFXList[slot2.tagID] = nil
-
-	slot0._tagFXList[slot2.tagID]:Dispose()
 end
 
 function slot5.onPopup(slot0, slot1)

@@ -508,14 +508,9 @@ function slot0.displayShips(slot0)
 				SetActive(findTF(slot30, "mvp"), true)
 
 				slot39, slot40, slot41 = nil
+				slot39, slot43, slot40 = ShipWordHelper.GetWordAndCV(slot0.mvpShipVO.skinId, ShipWordHelper.WORD_TYPE_MVP)
 
-				if slot0.contextData.score > 1 then
-					slot39, slot41, slot40 = ShipWordHelper.GetWordAndCV(slot0.mvpShipVO.skinId, ShipWordHelper.WORD_TYPE_MVP)
-				else
-					slot39, slot41, slot40 = ShipWordHelper.GetWordAndCV(slot0.mvpShipVO.skinId, ShipWordHelper.WORD_TYPE_LOSE)
-				end
-
-				if slot41 then
+				if slot43 then
 					slot0._currentVoice = slot41
 
 					pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot0._currentVoice)

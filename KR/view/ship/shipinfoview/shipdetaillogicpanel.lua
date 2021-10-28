@@ -8,16 +8,140 @@ slot1 = {
 	motion = AttributeType.Dodge,
 	antiaircraft = AttributeType.AntiAircraft,
 	air = AttributeType.Air,
-	consume = AttributeType.Expend,
+	hit = AttributeType.Hit,
 	antisub = AttributeType.AntiSub,
 	oxy_max = AttributeType.OxyMax,
 	ammo = AttributeType.Ammo,
 	hunting_range = AttributeType.HuntingRange,
-	luck = AttributeType.Luck
+	luck = AttributeType.Luck,
+	consume = AttributeType.Expend
 }
-slot2 = 0.5
-slot3 = Vector3(1, 1, 1)
-slot4 = Vector3(1.3, 1.3, 1.3)
+slot2 = {
+	us = {
+		prop_ignore = {
+			luck = {
+				134,
+				-260,
+				147,
+				-260
+			}
+		},
+		sort_index = {
+			"durability",
+			"armor",
+			"reload",
+			"cannon",
+			"torpedo",
+			"motion",
+			"antiaircraft",
+			"air",
+			"consume",
+			"antisub",
+			"oxy_max",
+			"ammo",
+			"hunting_range",
+			"luck"
+		},
+		hide = {
+			"hit"
+		}
+	},
+	jp = {
+		prop_ignore = {
+			luck = {
+				137,
+				-260,
+				151,
+				-260
+			}
+		},
+		sort_index = {
+			"durability",
+			"armor",
+			"reload",
+			"cannon",
+			"torpedo",
+			"motion",
+			"antiaircraft",
+			"air",
+			"consume",
+			"antisub",
+			"oxy_max",
+			"ammo",
+			"hunting_range",
+			"luck"
+		},
+		hide = {
+			"hit"
+		}
+	},
+	kr = {
+		prop_ignore = {
+			luck = {
+				137,
+				-260,
+				151,
+				-260
+			}
+		},
+		sort_index = {
+			"durability",
+			"armor",
+			"reload",
+			"cannon",
+			"torpedo",
+			"motion",
+			"antiaircraft",
+			"air",
+			"consume",
+			"antisub",
+			"oxy_max",
+			"ammo",
+			"hunting_range",
+			"luck"
+		},
+		hide = {
+			"hit"
+		}
+	},
+	defaut = {
+		prop_ignore = {
+			luck = {
+				137,
+				-260,
+				151,
+				-260
+			},
+			consume = {
+				417,
+				-260,
+				431,
+				-260
+			}
+		},
+		sort_index = {
+			"durability",
+			"armor",
+			"reload",
+			"cannon",
+			"torpedo",
+			"motion",
+			"antiaircraft",
+			"air",
+			"hit",
+			"antisub",
+			"oxy_max",
+			"ammo",
+			"hunting_range",
+			"luck",
+			"consume"
+		},
+		hide = {}
+	}
+}
+slot3 = 0.5
+slot4 = Vector3(1, 1, 1)
+slot5 = Vector3(1.3, 1.3, 1.3)
 slot0.EQUIPMENT_ADDITION = 0
 slot0.TECHNOLOGY_ADDITION = 1
 slot0.CORE_ADDITION = 2
@@ -145,6 +269,38 @@ function slot0.updateShipAttrs(slot0)
 				setText(slot14, slot1:getShipAmmo())
 			end
 		end
+	end
+
+	slot7 = nil
+	slot7 = (PLATFORM_CODE ~= PLATFORM_JP or uv2.jp) and (PLATFORM_CODE ~= PLATFORM_KR or uv2.kr) and (PLATFORM_CODE ~= PLATFORM_US or uv2.us) and uv2.defaut
+
+	for slot12 = 1, #slot7.sort_index do
+		slot13 = slot8[slot12]
+		slot14 = findTF(slot0.attrs, "props/" .. slot13)
+		slot15 = findTF(slot0.attrs, "icons/" .. slot13)
+
+		if pg.gametip["attr_" .. slot13].tip and string.len(slot16) > 0 and slot13 ~= "armor" then
+			setText(findTF(slot15, "name"), slot16)
+		end
+
+		slot14:SetSiblingIndex(slot12 - 1)
+		slot15:SetSiblingIndex(slot12 - 1)
+	end
+
+	for slot13 = 1, #slot7.hide do
+		slot14 = slot9[slot13]
+
+		setActive(findTF(slot0.attrs, "props/" .. slot14), false)
+		setActive(findTF(slot0.attrs, "icons/" .. slot14), false)
+	end
+
+	for slot14, slot15 in pairs(slot7.prop_ignore) do
+		slot16 = findTF(slot0.attrs, "props/" .. slot14)
+		slot17 = findTF(slot0.attrs, "icons/" .. slot14)
+		GetOrAddComponent(slot16, typeof(LayoutElement)).ignoreLayout = true
+		GetOrAddComponent(slot17, typeof(LayoutElement)).ignoreLayout = true
+		Vector2(slot16.anchoredPosition.x, slot16.anchoredPosition.y).anchoredPosition = Vector2(slot15[3], slot15[4])
+		Vector2(slot17.anchoredPosition.x, slot17.anchoredPosition.y).anchoredPosition = Vector2(slot15[1], slot15[2])
 	end
 
 	slot0:updateEvalues()

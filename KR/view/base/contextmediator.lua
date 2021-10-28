@@ -131,18 +131,40 @@ function slot0.onRegister(slot0)
 	end)
 
 	function slot1(slot0, slot1)
-		slot3 = getProxy(BayProxy):getNewShip(true)
+		slot4 = {}
+
+		for slot8, slot9 in pairs(getProxy(BayProxy):getNewShip(true)) do
+			if slot9:isMetaShip() then
+				table.insert(slot4, slot9.configId)
+			end
+		end
 
 		underscore.each(slot0, function (slot0)
 			if slot0.type == DROP_TYPE_NPC_SHIP then
 				table.insert(uv0, uv1:getShipById(slot0.id))
 			elseif slot0.type == DROP_TYPE_SHIP then
-				uv2 = uv2 - 1
+				if Ship.isMetaShipByConfigID(slot0.configId or slot0.id) then
+					if table.indexof(uv2, slot1) then
+						table.remove(uv2, slot2)
+
+						uv3 = uv3 - 1
+					else
+						if getProxy(BayProxy):getMetaTransItemMap(Ship.New({
+							configId = slot1
+						}).configId) then
+							slot3:setReMetaSpecialItemVO(slot4)
+						end
+
+						table.insert(uv0, slot3)
+					end
+				else
+					uv3 = uv3 - 1
+				end
 			end
 		end)
 
 		if (pg.gameset.award_ship_limit and pg.gameset.award_ship_limit.key_value or 20) >= #underscore.rest(slot3, #slot3 + 1) then
-			for slot9, slot10 in ipairs(slot3) do
+			for slot10, slot11 in ipairs(slot3) do
 				table.insert(slot1, function (slot0)
 					uv0:addSubLayers(Context.New({
 						mediator = NewShipMediator,

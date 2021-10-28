@@ -217,7 +217,7 @@ function slot0.set(slot0, slot1, slot2)
 
 		setActive(slot0.loopOn, slot13)
 		setActive(slot0.loopOff, not slot13)
-		setActive(slot0.costLimitTip, #pg.chapter_template_loop[slot1.id].use_oil_limit > 0)
+		setActive(slot0.costLimitTip, #slot1:getConfig("use_oil_limit") > 0)
 		onNextTick(function ()
 			Canvas.ForceUpdateCanvases()
 

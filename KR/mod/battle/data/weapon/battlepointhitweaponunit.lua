@@ -23,24 +23,7 @@ function slot4.DispatchBlink(slot0, slot1)
 end
 
 function slot4.RemoveAllLock(slot0)
-	for slot4, slot5 in ipairs(slot0._lockList) do
-		slot0:UnlockUnit(slot5)
-	end
-
 	slot0._lockList = {}
-
-	if slot0._currentLockUnit ~= nil then
-		slot0:UnlockUnit(slot0._currentLockUnit)
-	end
-
-	slot0._currentLockUnit = nil
-end
-
-function slot4.SetTemplateData(slot0, slot1)
-	uv0.super.SetTemplateData(slot0, slot1)
-
-	slot0._maxLock = slot0._tmpData.charge_param.maxLock
-	slot0._lockRequiredTime = slot0._tmpData.charge_param.lockTime
 end
 
 function slot4.createMajorEmitter(slot0, slot1, slot2)
@@ -52,16 +35,9 @@ function slot4.createMajorEmitter(slot0, slot1, slot2)
 			slot5 = uv0._strikePoint
 			slot4 = uv0:SpawnPointBullet(slot6, uv0._strikePoint)
 		else
-			uv0._lockList[#uv0._lockList] = nil
-
-			if uv0._lockList[#uv0._lockList] == nil then
-				return
-			end
-
+			slot7 = uv0._lockList[1]
 			slot4 = uv0:Spawn(slot6, slot7, uv0.INTERNAL)
 			slot5 = slot7:GetBeenAimedPosition() or slot7:GetPosition()
-
-			uv0:UnlockUnit(slot7)
 		end
 
 		slot4:SetOffsetPriority(slot3)
@@ -109,12 +85,7 @@ function slot4.QuickTag(slot0)
 
 	slot0:updateMovementInfo()
 
-	slot1 = slot0:Tracking()
-
-	while #slot0._lockList < slot0._maxLock and slot1 ~= nil do
-		slot0._lockList[#slot0._lockList + 1] = slot1
-		slot1 = slot0:Tracking()
-	end
+	slot0._lockList[#slot0._lockList + 1] = slot0:Tracking()
 end
 
 function slot4.CancelQuickTag(slot0)
@@ -124,15 +95,6 @@ end
 
 function slot4.Update(slot0, slot1)
 	slot0:UpdateReload()
-end
-
-function slot4.UpdateLockList(slot0)
-	for slot4, slot5 in ipairs(slot0._lockList) do
-		if not slot5:IsAlive() then
-			slot0:UnlockUnit(slot5)
-			uv0.Battle.BattlePlayerWeaponVO.deleteElementFromArray(slot5, slot0._lockList)
-		end
-	end
 end
 
 function slot4.Fire(slot0, slot1)
@@ -155,27 +117,16 @@ function slot4.DoAttack(slot0, slot1)
 	slot0:DispatchEvent(uv0.Event.New(uv1.CHARGE_WEAPON_FIRE, {
 		weapon = slot0
 	}))
-
-	slot3 = {}
-	slot4 = #slot0._lockList
-
-	while slot4 > 0 do
-		slot3[#slot3 + 1] = slot0._lockList[slot4]
-		slot4 = slot4 - 1
-	end
-
-	slot0._lockList = slot3
-
 	slot0:cacheBulletID()
 	slot0:TriggerBuffOnSteday()
 
-	for slot8, slot9 in ipairs(slot0._majorEmitterList) do
-		slot9:Ready()
+	for slot6, slot7 in ipairs(slot0._majorEmitterList) do
+		slot7:Ready()
 	end
 
-	for slot8, slot9 in ipairs(slot0._majorEmitterList) do
-		slot9:Fire(slot1, slot0:GetDirection(), slot0:GetAttackAngle())
-		slot9:SetTimeScale(false)
+	for slot6, slot7 in ipairs(slot0._majorEmitterList) do
+		slot7:Fire(slot1, slot0:GetDirection(), slot0:GetAttackAngle())
+		slot7:SetTimeScale(false)
 	end
 
 	slot0:DispatchEvent(uv0.Event.New(uv1.MANUAL_WEAPON_FIRE, {}))
@@ -248,10 +199,6 @@ function slot4.OverHeat(slot0)
 	slot0._playerChargeWeaponVo:Deduct(slot0)
 end
 
-function slot4.GetLockRequiredTime(slot0)
-	return slot0._lockRequiredTime
-end
-
 function slot4.GetMinAngle(slot0)
 	return slot0:GetAttackAngle()
 end
@@ -261,25 +208,7 @@ function slot4.GetLockList(slot0)
 end
 
 function slot4.GetFilteredList(slot0)
-	return slot0:filterEnemyUnitType(slot0:filterTagCount(uv0.super.GetFilteredList(slot0)))
-end
-
-function slot4.filterTagCount(slot0, slot1)
-	slot2 = {}
-	slot3 = slot0._maxLock
-
-	for slot7, slot8 in ipairs(slot1) do
-		if slot8:GetSingleWeaponTagCount(slot0) < slot3 then
-			slot3 = slot9
-			slot2 = {
-				[#slot2 + 1] = slot8
-			}
-		elseif slot9 == slot3 then
-			slot2[#slot2 + 1] = slot8
-		end
-	end
-
-	return slot2
+	return slot0:filterEnemyUnitType(uv0.super.GetFilteredList(slot0))
 end
 
 function slot4.filterEnemyUnitType(slot0, slot1)

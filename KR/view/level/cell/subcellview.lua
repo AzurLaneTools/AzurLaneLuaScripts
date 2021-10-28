@@ -41,14 +41,10 @@ function slot0.PlayShuiHua(slot0)
 end
 
 function slot0.SetActive(slot0, slot1)
-	slot0.showFlag = slot1
-
 	slot0:SetActiveModel(slot1)
 end
 
 function slot0.SetActiveModel(slot0, slot1)
-	slot1 = slot1 and slot0.showFlag
-
 	setActive(slot0.tfShadow, slot1)
 	slot0:SetSpineVisible(slot1)
 end

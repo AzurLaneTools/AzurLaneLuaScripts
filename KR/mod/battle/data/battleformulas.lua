@@ -374,27 +374,27 @@ function slot0.CalculateMaxAimBiasRange(slot0)
 		slot2 = (slot3[1] + slot3[2] * 0.6 + (slot3[3] or 0) * 0.3) / #slot3 * slot1
 	end
 
-	return slot2
+	return math.min(slot2, uv0.AIM_BIAS_MAX_RANGE_SCOUT)
 end
 
 function slot0.CalculateMaxAimBiasRangeSub(slot0)
-	return uv0.GetCurrent(slot0[1], "dodgeRate") * uv1.AIM_BIAS_SUB_RANGE_MOD
+	return math.min(uv0.GetCurrent(slot0[1], "dodgeRate") * uv1.AIM_BIAS_SUB_RANGE_MOD, uv1.AIM_BIAS_MAX_RANGE_SUB)
 end
 
 function slot0.CalculateMaxAimBiasRangeMonster(slot0)
-	return uv0.GetCurrent(slot0[1], "dodgeRate") * uv1.AIM_BIAS_MONSTER_RANGE_MOD
+	return math.min(uv0.GetCurrent(slot0[1], "dodgeRate") * uv1.AIM_BIAS_MONSTER_RANGE_MOD, uv1.AIM_BIAS_MAX_RANGE_MONSTER)
 end
 
 function slot0.CalculateBiasDecay(slot0)
-	return slot0 * uv0.AIM_BIAS_DECAY_MOD_MONSTER
+	return math.min(slot0 * uv0.AIM_BIAS_DECAY_MOD_MONSTER, uv0.AIM_BIAS_DECAY_SPEED_MAX_SCOUT)
 end
 
 function slot0.CalculateBiasDecayMonster(slot0)
-	return slot0 * uv0.AIM_BIAS_DECAY_MOD + uv0.AIM_BIAS_DECAY_BASE
+	return math.min(slot0 * uv0.AIM_BIAS_DECAY_MOD + uv0.AIM_BIAS_DECAY_BASE, uv0.AIM_BIAS_DECAY_SPEED_MAX_MONSTER)
 end
 
 function slot0.CalculateBiasDecayDiving(slot0)
-	return math.max(0, slot0 - uv0.AIM_BIAS_DECAY_SUB_CONST) * uv0.AIM_BIAS_DECAY_MOD
+	return math.min(math.max(0, slot0 - uv0.AIM_BIAS_DECAY_SUB_CONST) * uv0.AIM_BIAS_DECAY_MOD, uv0.AIM_BIAS_DECAY_SPEED_MAX_SUB)
 end
 
 function slot0.WorldEnemyAttrEnhance(slot0, slot1)

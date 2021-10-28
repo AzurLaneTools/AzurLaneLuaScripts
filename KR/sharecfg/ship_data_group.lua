@@ -2918,6 +2918,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3296,6 +3307,40 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[521] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 1,
+		handbook_type = 0,
+		index_id = 76,
+		code = 521,
+		group_type = 10312,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"메인 스테이지 해역14-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 1404
 					}
 				},
 				0
@@ -7485,6 +7530,16 @@ pg.ship_data_group = {
 				"한정 이벤트：격주의 폴라리스",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특별 보급 (공훈치 소비)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -13982,6 +14037,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15621,6 +15687,17 @@ pg.ship_data_group = {
 				"한정 이벤트：격주의 폴라리스",
 				{
 					""
+				},
+				0
+			},
+			{
+				"중형함 건조、특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -18436,6 +18513,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"중형함 건조、특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -20642,6 +20730,7 @@ pg.ship_data_group = {
 		43,
 		44,
 		45,
+		521,
 		46,
 		364,
 		512,

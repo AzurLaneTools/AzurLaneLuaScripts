@@ -288,7 +288,6 @@ function slot0.onRemove(slot0)
 		slot0.viewComponent.event:disconnect(slot5.event, slot5.callback)
 	end
 
-	slot0:RemoveStopBgmTimer()
 	slot0.viewComponent:willExit()
 end
 
@@ -440,23 +439,21 @@ function slot0.handleNotification(slot0, slot1)
 
 			slot6, slot7 = slot5:getBgm()
 
-			if slot6 and slot7 == 0 and slot0.bgmName ~= slot0.viewComponent.bgm then
-				playBGM(slot0.viewComponent.bgm)
-
-				slot0.bgmName = slot0.viewComponent.bgm
+			if slot6 and slot7 == 0 and slot0.viewComponent:IsSameBgm(slot6) then
+				slot0.viewComponent:playBGM(slot0.viewComponent:GetDefaultBgm())
 			end
 		end
 	elseif slot2 == BackYardHouseProxy.CHANGE_BGM then
 		slot6, slot7 = getBackYardProxy(BackYardHouseProxy):getFurnitureById(slot3.furnitureId):getBgm()
 
 		if slot7 == 0 then
-			if slot6 and slot6 ~= slot0.bgmName then
-				playBGM(slot6)
+			if slot6 and not slot0.viewComponent:IsSameBgm(slot6) then
+				slot0.viewComponent:playBGM(slot6)
 
-				slot0.bgmName = slot6
+				slot0.viewComponent.furnitureDescWindow.playData = nil
 			end
 		elseif slot7 == 1 then
-			slot0:PlayBgmOnce(slot6)
+			slot0.viewComponent:playBGM(slot6, true)
 		end
 	elseif slot2 == BackYardHouseProxy.ADD_ARCH_INTERACTION then
 		slot0.viewComponent:updateArchInteraction(slot3.shipId, slot3.furnitureId)
@@ -490,41 +487,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:StartFolloweInterAction(slot3.id, slot3.furnitureId)
 	elseif slot2 == BackYardHouseProxy.ON_CANCEL_FOLLOWER_INTERACTION then
 		slot0.viewComponent:CancelFolloweInterAction(slot3.id, slot3.furnitureId)
-	end
-end
-
-function slot0.PlayBgmOnce(slot0, slot1)
-	slot3 = CriWareMgr.Inst
-
-	slot3:PlayBGM("bgm-" .. slot1, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
-		if slot0 ~= nil then
-			uv0:AddTimerToStopBgm(uv1, long2int(slot0.cueInfo.length) * 0.001)
-		end
-	end)
-
-	slot0.bgmName = slot1
-end
-
-function slot0.AddTimerToStopBgm(slot0, slot1, slot2)
-	slot0:RemoveStopBgmTimer()
-
-	slot0.bgmTimer = Timer.New(function ()
-		if uv0.bgmName == uv1 then
-			pg.CriMgr.GetInstance():StopBGM()
-			pg.CriMgr.GetInstance():PlayBGM(uv0.viewComponent.bgm)
-
-			uv0.bgmName = uv0.viewComponent.bgm
-		end
-	end, slot2, 1)
-
-	slot0.bgmTimer:Start()
-end
-
-function slot0.RemoveStopBgmTimer(slot0)
-	if slot0.bgmTimer then
-		slot0.bgmTimer:Stop()
-
-		slot0.bgmTimer = nil
 	end
 end
 

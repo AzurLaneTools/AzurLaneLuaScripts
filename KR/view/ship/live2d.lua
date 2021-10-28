@@ -162,6 +162,7 @@ function slot0.Dispose(slot0)
 		Destroy(slot0._go)
 
 		slot0.liveCom.FinishAction = nil
+		slot0.liveCom.EventAction = nil
 	end
 
 	slot0.state = uv0.STATE_DISPOSE
