@@ -33,7 +33,9 @@ function slot0.register(slot0)
 					return
 				end
 
-				uv0.viewComponent:PlayOpenBox(slot3:getTempConfig("display_effect"), function ()
+				slot4 = uv0.viewComponent
+
+				slot4:PlayOpenBox(slot3:getTempConfig("display_effect"), function ()
 					if table.contains(ITEM_ID_FUDAIS, uv0) then
 						uv1:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
 							items = {
@@ -83,7 +85,9 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.FRAG_SELL_DONE then
 		slot0.viewComponent:SetOperateCount(1)
 	elseif slot2 == GAME.OPEN_MAIL_ATTACHMENT_DONE and slot3.items and #slot4 > 0 then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot4, function ()
+		slot5 = slot0.viewComponent
+
+		slot5:emit(BaseUI.ON_ACHIEVE, slot4, function ()
 			if uv0.callback then
 				uv0.callback()
 			end

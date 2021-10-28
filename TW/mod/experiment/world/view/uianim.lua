@@ -20,7 +20,9 @@ function slot0.Dispose(slot0)
 end
 
 function slot0.Load(slot0)
-	PoolMgr.GetInstance():GetUI(slot0.prefab, true, function (slot0)
+	slot2 = PoolMgr.GetInstance()
+
+	slot2:GetUI(slot0.prefab, true, function (slot0)
 		if uv0 == uv1.prefab then
 			uv1.transform = slot0.transform
 
@@ -69,17 +71,25 @@ function slot0.Update(slot0)
 		setActive(slot0.transform, slot0.playing)
 
 		if slot0.playing then
-			slot0.aniEvent:SetStartEvent(function ()
+			slot1 = slot0.aniEvent
+
+			slot1:SetStartEvent(function ()
 				if uv0.onStart then
 					uv0.onStart()
 				end
 			end)
-			slot0.aniEvent:SetTriggerEvent(function ()
+
+			slot1 = slot0.aniEvent
+
+			slot1:SetTriggerEvent(function ()
 				if uv0.onTrigger then
 					uv0.onTrigger()
 				end
 			end)
-			slot0.aniEvent:SetEndEvent(function (slot0)
+
+			slot1 = slot0.aniEvent
+
+			slot1:SetEndEvent(function (slot0)
 				uv0:Stop()
 
 				if uv0.onEnd then

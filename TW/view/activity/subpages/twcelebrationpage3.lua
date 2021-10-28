@@ -37,7 +37,9 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.share(slot0, slot1)
-	PoolMgr.GetInstance():GetUI("TWCelebrationShare", false, function (slot0)
+	slot2 = PoolMgr.GetInstance()
+
+	slot2:GetUI("TWCelebrationShare", false, function (slot0)
 		SetParent(slot0, GameObject.Find("UICamera"):GetComponent(typeof(Camera)).transform:GetChild(0), false)
 
 		uv0.shareGo = slot0
@@ -54,8 +56,10 @@ function slot0.share(slot0, slot1)
 		setPaintingPrefabAsync(uv0:findTF("paint", slot0), slot12:getPainting(), "kanban", function ()
 			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeTWCelebrationShare)
 
+			slot0 = uv0.activity:getConfig("config_data")[1]
+
 			if not uv1 then
-				uv0:emit(ActivityMediator.SHARE_TASK_DONE, uv0.activity:getConfig("config_data")[1])
+				uv0:emit(ActivityMediator.SHARE_TASK_DONE, slot0)
 			end
 		end)
 	end)

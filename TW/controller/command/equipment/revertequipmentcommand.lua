@@ -1,7 +1,9 @@
 slot0 = class("RevertEquipmentCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(14010, {
+	slot4 = pg.ConnectionMgr.GetInstance()
+
+	slot4:Send(14010, {
 		equip_id = slot1:getBody().id
 	}, 14011, function (slot0)
 		if slot0.result == 0 then
@@ -16,8 +18,10 @@ function slot0.execute(slot0, slot1)
 			getProxy(BagProxy):removeItemById(Item.REVERT_EQUIPMENT_ID, 1)
 
 			slot6 = {}
+			slot7 = pairs
+			slot8 = slot2:getRevertAwards() or {}
 
-			for slot10, slot11 in pairs(slot2:getRevertAwards() or {}) do
+			for slot10, slot11 in slot7(slot8) do
 				uv1:sendNotification(GAME.ADD_ITEM, Item.New(slot11))
 				table.insert(slot6, slot11)
 			end

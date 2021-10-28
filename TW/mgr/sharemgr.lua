@@ -83,7 +83,9 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if PLATFORM_CODE == PLATFORM_CH and LuaHelper.GetCHPackageType() ~= PACKAGE_TYPE_BILI then
+	slot4 = LuaHelper.GetCHPackageType()
+
+	if PLATFORM_CODE == PLATFORM_CH and slot4 ~= PACKAGE_TYPE_BILI then
 		uv0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持分享功能哦")
 
 		return

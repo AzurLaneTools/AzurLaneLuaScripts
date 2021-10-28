@@ -69,8 +69,10 @@ function slot0.getSubmarineFleet(slot0)
 end
 
 function slot0.getShipUIDList(slot0)
+	slot1 = {}
+
 	for slot6, slot7 in ipairs(slot0._fleet:getShips(false)) do
-		table.insert({}, slot7.id)
+		table.insert(slot1, slot7.id)
 	end
 
 	for slot6, slot7 in ipairs(slot0._submarineFleet:getShips(false)) do

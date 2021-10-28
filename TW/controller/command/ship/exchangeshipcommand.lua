@@ -18,7 +18,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(16102, {
+	slot15 = pg.ConnectionMgr.GetInstance()
+
+	slot15:Send(16102, {
 		index = slot3,
 		flash_time = slot4:getExchangeFlashTime()
 	}, 16103, function (slot0)

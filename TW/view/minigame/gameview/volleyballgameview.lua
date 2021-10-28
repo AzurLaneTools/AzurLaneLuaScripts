@@ -315,6 +315,7 @@ function slot0.initMainUI(slot0)
 	eachChild(slot0.progressContent, function (slot0)
 		slot1 = ""
 		slot2 = tonumber(slot0.name)
+		slot3 = uv0[uv1.mgData:GetSimpleValue("mainChar")[slot2]]
 
 		setActive(uv1:findTF("char_bg/mask", slot0), false)
 		setActive(uv1:findTF("name_bg/mask", slot0), false)
@@ -323,7 +324,7 @@ function slot0.initMainUI(slot0)
 		if slot2 == uv1.curDay and uv1.hubData.count > 0 then
 			slot1 = "red"
 
-			setImageSprite(uv1:findTF("char_bg/icon", slot0), uv1.icons:Find(uv1:getCharIndex(uv0[uv1.mgData:GetSimpleValue("mainChar")[slot2]])):GetComponent(typeof(Image)).sprite, true)
+			setImageSprite(uv1:findTF("char_bg/icon", slot0), uv1.icons:Find(uv1:getCharIndex(slot3)):GetComponent(typeof(Image)).sprite, true)
 		elseif slot2 < uv1.curDay or slot2 == uv1.curDay and uv1.hubData.count == 0 then
 			slot1 = "grey"
 
@@ -493,7 +494,10 @@ end
 
 function slot0.firstShow(slot0, slot1)
 	setActive(slot0.helpUI, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.helpUI)
+
+	slot2 = pg.UIMgr.GetInstance()
+
+	slot2:BlurPanel(slot0.helpUI)
 	onButton(slot0, slot0.helpUI, function ()
 		PlayerPrefs.SetInt("volleyballgame_first_" .. getProxy(PlayerProxy):getData().id, 1)
 		setActive(uv0.helpUI, false)
@@ -508,26 +512,36 @@ end
 function slot0.startCountTimer(slot0)
 	slot0:setBtnAvailable(false)
 	setActive(slot0.countTimeUI, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.countTimeUI)
+
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:BlurPanel(slot0.countTimeUI)
 
 	slot0.countTime = 3
+	slot1 = pg.CriMgr.GetInstance()
 
-	pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
-	setImageSprite(slot0.countTimeImage, slot0.countTimeNumImage:Find(slot0.countTime):GetComponent(typeof(Image)).sprite)
+	slot1:PlaySoundEffect_V3(uv0)
+
+	slot3 = slot0.countTimeNumImage
+	slot3 = slot3:Find(slot0.countTime)
+
+	setImageSprite(slot0.countTimeImage, slot3:GetComponent(typeof(Image)).sprite)
+
+	function slot1()
+		uv0.countTime = uv0.countTime - 1
+
+		if uv0.countTime <= 0 then
+			setActive(uv0.countTimeUI, false)
+			pg.UIMgr.GetInstance():UnblurPanel(uv0.countTimeUI, uv0._tf)
+			uv0:resetGameAni()
+			uv0:startGame()
+		else
+			setImageSprite(uv0.countTimeImage, uv0.countTimeNumImage:Find(uv0.countTime):GetComponent(typeof(Image)).sprite)
+		end
+	end
 
 	if slot0.countTimer then
-		slot0.countTimer:Reset(function ()
-			uv0.countTime = uv0.countTime - 1
-
-			if uv0.countTime <= 0 then
-				setActive(uv0.countTimeUI, false)
-				pg.UIMgr.GetInstance():UnblurPanel(uv0.countTimeUI, uv0._tf)
-				uv0:resetGameAni()
-				uv0:startGame()
-			else
-				setImageSprite(uv0.countTimeImage, uv0.countTimeNumImage:Find(uv0.countTime):GetComponent(typeof(Image)).sprite)
-			end
-		end, 1, -1)
+		slot0.countTimer:Reset(slot1, 1, -1)
 	else
 		slot0.countTimer = Timer.New(slot1, 1, -1)
 	end
@@ -551,9 +565,15 @@ function slot0.startGame(slot0)
 
 	if slot0.beginTeam == uv0 then
 		slot0:ourServe(function ()
-			uv0:enemyUp2Up(function ()
-				uv0:enemyUp2Hit(function ()
-					uv0:enemyThrow(function ()
+			slot0 = uv0
+
+			slot0:enemyUp2Up(function ()
+				slot0 = uv0
+
+				slot0:enemyUp2Hit(function ()
+					slot0 = uv0
+
+					slot0:enemyThrow(function ()
 						uv0:enterLoop()
 					end)
 				end)
@@ -568,11 +588,21 @@ end
 
 function slot0.enterLoop(slot0)
 	slot0:ourUp2Up(function ()
-		uv0:ourUp2Hit(function ()
-			uv0:ourThrow(function ()
-				uv0:enemyUp2Up(function ()
-					uv0:enemyUp2Hit(function ()
-						uv0:enemyThrow(function ()
+		slot0 = uv0
+
+		slot0:ourUp2Hit(function ()
+			slot0 = uv0
+
+			slot0:ourThrow(function ()
+				slot0 = uv0
+
+				slot0:enemyUp2Up(function ()
+					slot0 = uv0
+
+					slot0:enemyUp2Hit(function ()
+						slot0 = uv0
+
+						slot0:enemyThrow(function ()
 							uv0:enterLoop()
 						end)
 					end)
@@ -590,14 +620,19 @@ function slot0.ourServe(slot0, slot1)
 	slot0:managedTween(LeanTween.delayedCall, function ()
 		slot0 = "enemy" .. math.random(2)
 		uv0.ballPosTag = slot0
-		uv0.anchoredPos[uv0.ballPosTag] = uv0:getRandomPos(uv0.ballPosTag)
+		slot3 = uv0
+		uv0.anchoredPos[uv0.ballPosTag] = slot3:getRandomPos(uv0.ballPosTag)
+		slot1 = uv0
 
-		uv0:ballServe(uv0.ball, uv1, uv0.anchoredPos[slot0], function ()
+		slot1:ballServe(uv0.ball, uv1, uv0.anchoredPos[slot0], function ()
 			if uv0 then
 				uv0()
 			end
 		end)
-		uv0:managedTween(LeanTween.delayedCall, function ()
+
+		slot1 = uv0
+
+		slot1:managedTween(LeanTween.delayedCall, function ()
 			uv0:charUpBall()
 		end, uv1 - uv3, nil)
 	end, uv2 + 0.5, nil)
@@ -611,14 +646,19 @@ function slot0.enemyServe(slot0, slot1)
 	slot0:managedTween(LeanTween.delayedCall, function ()
 		slot0 = "our" .. math.random(2)
 		uv0.ballPosTag = slot0
-		uv0.anchoredPos[uv0.ballPosTag] = uv0:getRandomPos(uv0.ballPosTag)
+		slot3 = uv0
+		uv0.anchoredPos[uv0.ballPosTag] = slot3:getRandomPos(uv0.ballPosTag)
+		slot1 = uv0
 
-		uv0:ballServe(uv0.ball, uv1, uv0.anchoredPos[slot0], function ()
+		slot1:ballServe(uv0.ball, uv1, uv0.anchoredPos[slot0], function ()
 			if uv0 then
 				uv0()
 			end
 		end)
-		uv0:managedTween(LeanTween.delayedCall, function ()
+
+		slot1 = uv0
+
+		slot1:managedTween(LeanTween.delayedCall, function ()
 			uv0:charUpBall()
 		end, uv1 - uv3, nil)
 	end, uv2 + 0.5, nil)
@@ -839,12 +879,13 @@ function slot0.ballParabolaMove(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end
 
 	slot15 = math.sqrt(2 * math.abs(uv0) * slot13)
-
-	slot0:managedTween(LeanTween.value, function ()
+	slot16 = slot0:managedTween(LeanTween.value, function ()
 		if uv0 then
 			uv0()
 		end
-	end, go(slot1), 0, slot2, slot2):setOnUpdate(System.Action_float(function (slot0)
+	end, go(slot1), 0, slot2, slot2)
+
+	slot16:setOnUpdate(System.Action_float(function (slot0)
 		uv5.anchoredPosition = Vector2(uv6.x + uv0 * slot0 / uv1, uv6.y + uv2 * slot0 / uv1 + uv7 + uv3 * slot0 + 0.5 * uv4 * slot0 * slot0)
 	end))
 end
@@ -921,12 +962,17 @@ function slot0.startQTE(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot0.qteCircles, true)
 	setActive(slot0.result, false)
 	setLocalScale(slot0.qteCircle, Vector3(1, 1, 1))
-	slot0.result:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+
+	slot5 = slot0.result
+	slot5 = slot5:GetComponent(typeof(DftAniEvent))
+
+	slot5:SetEndEvent(function (slot0)
 		setActive(uv0.result, false)
 	end)
 
 	slot0.qteCallback = slot4
-	slot0.qteTween = LeanTween.scale(slot0.qteCircle, Vector3(0, 0, 1), slot1):setOnComplete(System.Action(function ()
+	slot6 = LeanTween.scale(slot0.qteCircle, Vector3(0, 0, 1), slot1)
+	slot0.qteTween = slot6:setOnComplete(System.Action(function ()
 		uv0:changeQTEBtnStatus(uv1)
 		setImageSprite(uv0.result, uv0.resultTxt:Find("miss"):GetComponent(typeof(Image)).sprite, true)
 		setActive(uv0.result, true)
@@ -1091,8 +1137,13 @@ function slot0.loadOneSpineChar(slot0, slot1, slot2)
 		return
 	end
 
-	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetSpineChar(slot0.charNames[slot1], true, function (slot0)
+	slot3 = pg.UIMgr.GetInstance()
+
+	slot3:LoadingOn()
+
+	slot3 = PoolMgr.GetInstance()
+
+	slot3:GetSpineChar(slot0.charNames[slot1], true, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		slot1 = ""
@@ -1238,7 +1289,9 @@ function slot0.charUpBall(slot0, slot1)
 end
 
 function slot0.charHitBall(slot0)
-	slot0.charactor[slot0.hitChar]:move(0.5, slot0.ballPosTag, nil, function ()
+	slot1 = slot0.charactor[slot0.hitChar]
+
+	slot1:move(0.5, slot0.ballPosTag, nil, function ()
 		uv0:setActionOnce("kouqiu")
 	end)
 end
@@ -1257,16 +1310,29 @@ function slot0.showcutin(slot0, slot1)
 	end
 
 	slot3, slot4, slot5 = ShipWordHelper.GetWordAndCV(uv0[slot0:getCharIndex(slot2)], "skill")
+	slot6 = pg.CriMgr.GetInstance()
 
-	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot4)
+	slot6:PlaySoundEffect_V3(slot4)
 	setActive(slot0:findTF("line", slot0.gameUI), true)
 	setActive(slot0:findTF("shatanpaiqiu_cutin", slot0.cutin), false)
 	setActive(slot0:findTF("shatanpaiqiu_cutin", slot0.cutin), true)
-	setImageSprite(slot0.cutinPaint, slot0.cutinPaints:Find(slot0:getCharIndex(slot2)):GetComponent(typeof(Image)).sprite, true)
-	LeanTween.moveX(slot0.cutin, 0, 0.3):setOnComplete(System.Action(function ()
+
+	slot8 = slot0.cutinPaints
+	slot8 = slot8:Find(slot0:getCharIndex(slot2))
+
+	setImageSprite(slot0.cutinPaint, slot8:GetComponent(typeof(Image)).sprite, true)
+
+	slot6 = LeanTween.moveX(slot0.cutin, 0, 0.3)
+
+	slot6:setOnComplete(System.Action(function ()
 		LeanTween.delayedCall(1, System.Action(function ()
-			setActive(uv0:findTF("line", uv0.gameUI), false)
-			LeanTween.moveX(uv0.cutin, -567, 0.3):setOnComplete(System.Action(function ()
+			slot1 = uv0
+
+			setActive(slot1:findTF("line", uv0.gameUI), false)
+
+			slot0 = LeanTween.moveX(uv0.cutin, -567, 0.3)
+
+			slot0:setOnComplete(System.Action(function ()
 				setActive(uv0.cutin, false)
 				uv0:setBtnAvailable(true)
 				uv0:resumeGame()
@@ -1282,14 +1348,29 @@ end
 function slot0.showScoreCutin(slot0, slot1)
 	slot0:setBtnAvailable(false)
 	slot0:pauseGame()
-	setImageSprite(slot0.ourScoreCutin, slot0.scoreCutinNums:Find(slot0.ourScoreNum):GetComponent(typeof(Image)).sprite, true)
-	setImageSprite(slot0.enemyScoreCutin, slot0.scoreCutinNums:Find(slot0.enemyScoreNum):GetComponent(typeof(Image)).sprite, true)
+
+	slot4 = slot0.scoreCutinNums
+	slot4 = slot4:Find(slot0.ourScoreNum)
+
+	setImageSprite(slot0.ourScoreCutin, slot4:GetComponent(typeof(Image)).sprite, true)
+
+	slot4 = slot0.scoreCutinNums
+	slot4 = slot4:Find(slot0.enemyScoreNum)
+
+	setImageSprite(slot0.enemyScoreCutin, slot4:GetComponent(typeof(Image)).sprite, true)
 	setActive(slot0.scoreCutin, true)
 	setLocalScale(slot0.scoreCutin, Vector3(1, 0, 1))
-	LeanTween.scale(slot0.scoreCutin, Vector3(1, 1, 1), 0.2):setOnComplete(System.Action(function ()
-		uv0:resetChar()
+
+	slot2 = LeanTween.scale(slot0.scoreCutin, Vector3(1, 1, 1), 0.2)
+
+	slot2:setOnComplete(System.Action(function ()
+		slot0 = uv0
+
+		slot0:resetChar()
 		LeanTween.delayedCall(0.6, System.Action(function ()
-			LeanTween.scale(uv0.scoreCutin, Vector3(1, 0, 1), 0.2):setOnComplete(System.Action(function ()
+			slot0 = LeanTween.scale(uv0.scoreCutin, Vector3(1, 0, 1), 0.2)
+
+			slot0:setOnComplete(System.Action(function ()
 				setActive(uv0.scoreCutin, false)
 				uv0:setBtnAvailable(true)
 				uv0:resumeGame()
@@ -1341,10 +1422,18 @@ function slot0.endGame(slot0)
 		slot1 = 20
 	end
 
-	setActive(slot0.winTag:GetChild(0), false)
-	setActive(slot0.winTag:GetChild(0), true)
+	slot3 = slot0.winTag
+
+	setActive(slot3:GetChild(0), false)
+
+	slot3 = slot0.winTag
+
+	setActive(slot3:GetChild(0), true)
 	setLocalRotation(slot0.loseTag, Vector3(0, 0, 0))
-	LeanTween.rotateZ(go(slot0.loseTag), slot1, 0.2):setOnComplete(System.Action(function ()
+
+	slot2 = LeanTween.rotateZ(go(slot0.loseTag), slot1, 0.2)
+
+	slot2:setOnComplete(System.Action(function ()
 		if uv0:GetMGHubData().count > 0 then
 			uv0:emit(BaseMiniGameMediator.MINI_GAME_SUCCESS, 0)
 		end

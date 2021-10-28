@@ -20,10 +20,11 @@ function slot7.setWeapon(slot0, slot1)
 	slot3 = slot0._tmpData.base_list
 	slot4 = slot0._proficiencyList
 	slot5 = slot0._tmpData.preload_count
+	slot6 = 0
 
 	for slot10, slot11 in ipairs(slot1) do
 		if Ship.WEAPON_COUNT < slot10 and slot11 then
-			slot6 = 0 + slot11.torpedoAmmo
+			slot6 = slot6 + slot11.torpedoAmmo
 		end
 	end
 

@@ -59,8 +59,10 @@ function slot0.canBuildShipByBuildId(slot0, slot1)
 		return false, i18n("ship_buildShip_not_position")
 	end
 
+	slot5 = {}
+
 	if getProxy(PlayerProxy):getData().gold < slot2.use_gold * slot1 then
-		table.insert({}, {
+		table.insert(slot5, {
 			59001,
 			slot2.use_gold * slot1 - slot7.gold,
 			slot2.use_gold * slot1

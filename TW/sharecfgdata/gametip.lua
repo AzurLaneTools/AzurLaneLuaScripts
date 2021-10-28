@@ -11211,7 +11211,7 @@ _G.pg.gametip.text_inconsume = {
 }
 
 _G.pg.gametip.pt_ship_now = {
-	tip = "当前击沉："
+	tip = "當前擊沉："
 }
 
 _G.pg.gametip.pt_ship_goal = {

@@ -8,12 +8,25 @@ function slot0.OnInit(slot0)
 	slot0.netBtn = slot0:findTF("net_btn")
 	slot0.goBattleBtn = slot0:findTF("go_battle")
 	slot0.timerTF = slot0:findTF("timer")
-	slot0.timerTxt = slot0:findTF("timer/Text"):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("timer/Text")
+	slot0.timerTxt = slot1:GetComponent(typeof(Text))
 	slot0.helpBtn = slot0:findTF("help_btn")
 	slot0.getLabel = slot0:findTF("get")
-	slot0.title = slot0:findTF("AD/title"):GetComponent(typeof(Text))
-	slot0.subTitle = slot0:findTF("AD/title/Text"):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("AD/title")
+	slot0.title = slot1:GetComponent(typeof(Text))
+	slot1 = slot0:findTF("AD/title/Text")
+	slot0.subTitle = slot1:GetComponent(typeof(Text))
 	slot0.isInit = true
+
+	function slot2(slot0)
+		slot1 = VoteGroup.New({
+			id = slot0,
+			list = {}
+		})
+
+		return slot1:getTimeDesc() .. "\n" .. slot1:getConfig("desc")
+	end
+
 	slot3 = false
 	slot4 = ""
 
@@ -23,14 +36,7 @@ function slot0.OnInit(slot0)
 		slot3 = pg.activity_vote[slot1].is_on_web == 1
 		slot0.voteTime = slot5.time_vote
 		slot0.title.text = slot5.name
-		slot4 = (function (slot0)
-			slot1 = VoteGroup.New({
-				id = slot0,
-				list = {}
-			})
-
-			return slot1:getTimeDesc() .. "\n" .. slot1:getConfig("desc")
-		end)(slot1)
+		slot4 = slot2(slot1)
 	elseif _.detect(pg.activity_vote.all, function (slot0)
 		return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_show)
 	end) then

@@ -162,7 +162,9 @@ function slot0.UpdateAttaches(slot0)
 end
 
 function slot0.ClearAttaches(slot0)
-	WPool:ReturnArray(slot0.attaches)
+	slot2 = WPool
+
+	slot2:ReturnArray(slot0.attaches)
 
 	for slot5, slot6 in ipairs(_.map(slot0.attaches, function (slot0)
 		return slot0.transform

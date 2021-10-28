@@ -102,7 +102,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "40460",
+		param = "40459",
 		id = 4,
 		pic = "temp4",
 		type = 3,

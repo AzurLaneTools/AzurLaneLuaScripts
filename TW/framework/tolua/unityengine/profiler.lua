@@ -162,8 +162,10 @@ return {
 		for slot6, slot7 in pairs(slot1) do
 			if type(slot6) == "string" then
 				if type(slot7) == "function" then
+					slot8 = slot6
+
 					if slot2 then
-						slot8 = slot2 .. "." .. slot6
+						slot8 = slot2 .. "." .. slot8
 					end
 
 					if not uv0[slot8] and slot6 ~= "__index" and slot6 ~= "__newindex" then

@@ -33,8 +33,10 @@ function slot0.Update(slot0)
 		return
 	end
 
+	slot1 = uv0.deltaTime
+
 	for slot5, slot6 in pairs(slot0.childs) do
-		slot6:Update(uv0.deltaTime)
+		slot6:Update(slot1)
 	end
 end
 

@@ -1,7 +1,9 @@
 slot0 = class("ActivityPermanentStartCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(11206, {
+	slot4 = pg.ConnectionMgr.GetInstance()
+
+	slot4:Send(11206, {
 		activity_id = slot1:getBody().activity_id
 	}, 11207, function (slot0)
 		if slot0.result == 0 then

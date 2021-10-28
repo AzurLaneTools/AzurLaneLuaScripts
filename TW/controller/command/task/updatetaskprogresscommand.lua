@@ -28,11 +28,14 @@ function slot0.execute(slot0, slot1)
 	elseif slot9 == 2002 then
 		slot5 = Task.TASK_PROGRESS_UPDATE
 		slot11 = slot4.target_id
+		slot12 = slot11[1]
+		slot13 = slot11[2]
 		slot14 = slot4.target_num
+		slot17 = 0
 
 		for slot21, slot22 in pairs(getProxy(FleetProxy):getData()) do
-			if slot22:getShipCount() == slot11[2] and slot11[1] <= slot22:avgLevel() then
-				slot17 = 0 + 1
+			if slot22:getShipCount() == slot13 and slot12 <= slot22:avgLevel() then
+				slot17 = slot17 + 1
 			end
 		end
 
@@ -54,7 +57,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(20009, {
+	slot12 = pg.ConnectionMgr.GetInstance()
+
+	slot12:Send(20009, {
 		progressinfo = {
 			{
 				id = slot3,

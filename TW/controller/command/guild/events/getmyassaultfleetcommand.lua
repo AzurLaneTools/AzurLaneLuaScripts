@@ -2,8 +2,9 @@ slot0 = class("GetMyAssaultFleetCommand", import(".GuildEventBaseCommand"))
 
 function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody().callback
+	slot4 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(61009, {
+	slot4:Send(61009, {
 		type = 0
 	}, 61010, function (slot0)
 		if slot0.result == 0 then

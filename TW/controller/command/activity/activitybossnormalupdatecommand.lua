@@ -14,8 +14,10 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot6 = {}
+	slot7 = pairs
+	slot8 = slot5.normal_expedition_drop_num or {}
 
-	for slot10, slot11 in pairs(slot5.normal_expedition_drop_num or {}) do
+	for slot10, slot11 in slot7(slot8) do
 		for slot15, slot16 in pairs(slot11[1]) do
 			if slot16 == slot3 then
 				for slot20, slot21 in pairs(slot11[1]) do

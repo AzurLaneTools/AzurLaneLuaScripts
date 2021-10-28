@@ -59,10 +59,11 @@ function slot3.DoPrologue(slot0)
 	if #slot0._rivalFleet:GetScoutList() == 0 then
 		slot0:rivalMainUnitPhase()
 	elseif slot2 > 0 then
+		slot4 = uv0.Battle.BattleConfig.SIMULATION_ADVANTAGE_BUFF
 		slot0._rivalDisadvatage = false
 
 		for slot8, slot9 in ipairs(slot3) do
-			slot9:AddBuff(uv0.Battle.BattleBuffUnit.New(uv0.Battle.BattleConfig.SIMULATION_ADVANTAGE_BUFF))
+			slot9:AddBuff(uv0.Battle.BattleBuffUnit.New(slot4))
 		end
 	end
 
@@ -226,8 +227,10 @@ function slot3.rivalMainUnitPhase(slot0)
 end
 
 function slot3.onUpdateCountDown(slot0, slot1)
+	slot2 = slot0._dataProxy:GetCountDown()
+
 	if slot0._buffStartTime then
-		if uv0.Battle.BattleConfig.SIMULATION_RIVAL_RAGE_TOTAL_COUNT - (slot0._buffStartTime - slot0._dataProxy:GetCountDown()) <= 0 then
+		if uv0.Battle.BattleConfig.SIMULATION_RIVAL_RAGE_TOTAL_COUNT - (slot0._buffStartTime - slot2) <= 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("simulation_enhancing"))
 
 			slot0._buffStartTime = nil

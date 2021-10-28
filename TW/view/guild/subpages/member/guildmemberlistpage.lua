@@ -15,7 +15,10 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.rankBtn, function ()
 		uv0.contextData.rankPage:ExecuteAction("Flush", uv0.ranks)
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0._tf, {
+
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:OverlayPanelPB(slot0._tf, {
 		pbList = {
 			slot0.blurBg
 		},

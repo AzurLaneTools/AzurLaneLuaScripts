@@ -32,7 +32,9 @@ function slot0.execute(slot0, slot1)
 			return
 		end
 
-		pg.ConnectionMgr.GetInstance():Send(12036, {
+		slot1 = pg.ConnectionMgr.GetInstance()
+
+		slot1:Send(12036, {
 			ship_id = uv2,
 			equip_skin_id = uv1,
 			pos = uv3
@@ -54,7 +56,9 @@ function slot0.execute(slot0, slot1)
 		end)
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(12036, {
+	slot13 = pg.ConnectionMgr.GetInstance()
+
+	slot13:Send(12036, {
 		equip_skin_id = 0,
 		ship_id = slot3,
 		pos = slot4

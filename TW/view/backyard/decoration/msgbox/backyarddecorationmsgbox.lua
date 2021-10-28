@@ -33,7 +33,9 @@ function slot0.OnInit(slot0)
 	end)
 	onButton(slot0, slot0.deleteBtn, function ()
 		if uv0.theme:IsPushed() then
-			uv0:ShowInnerMsgBox(i18n("backyard_decoration_theme_template_delete_tip"), function ()
+			slot0 = uv0
+
+			slot0:ShowInnerMsgBox(i18n("backyard_decoration_theme_template_delete_tip"), function ()
 				uv0:emit(BackYardDecorationMediator.DELETE_THEME, uv0.theme.id)
 				uv0:Hide()
 			end, true)
@@ -56,7 +58,9 @@ function slot0.OnInit(slot0)
 		function slot0(slot0)
 		end
 
-		uv0:emit(BackYardDecorationMediator.APPLY_THEME, uv0.theme, function (slot0, slot1)
+		slot1 = uv0
+
+		slot1:emit(BackYardDecorationMediator.APPLY_THEME, uv0.theme, function (slot0, slot1)
 			uv0.contextData.applyCnt = ((uv0.contextData.applyCnt or 0) + 1) % 5
 
 			gcAll(uv0.contextData.applyCnt == 0)
@@ -65,7 +69,10 @@ function slot0.OnInit(slot0)
 				uv0:emit(BackYardDecorationMediator.ADD_FURNITURES, uv0.theme.id, slot1, uv1)
 				uv0:Hide()
 			else
-				uv0:ShowInnerMsgBox(i18n("backyarad_theme_replace", uv0.theme:getName()), function ()
+				slot2 = uv0
+				slot6 = uv0.theme
+
+				slot2:ShowInnerMsgBox(i18n("backyarad_theme_replace", slot6:getName()), function ()
 					uv0:emit(BackYardDecorationMediator.ADD_FURNITURES, uv0.theme.id, uv1, uv2)
 					uv0:HideInnerMsgBox()
 					uv0:Hide()

@@ -2,8 +2,9 @@ slot0 = class("UpdateShipPreferenceTagCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(12040, {
+	slot5:Send(12040, {
 		ship_id = slot2.shipId,
 		flag = slot2.tag
 	}, 12041, function (slot0)

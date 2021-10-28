@@ -312,7 +312,10 @@ slot23 = {
 		mask = -1
 	}, {
 		__index = function (slot0, slot1)
-			if uv0(uv1(slot1, 6), 31) == 0 and uv0(uv1(slot1, 1), 31) == 31 - uv0(uv1(slot1, 11), 31) then
+			slot2 = uv0(uv1(slot1, 11), 31)
+			slot4 = uv0(uv1(slot1, 1), 31)
+
+			if uv0(uv1(slot1, 6), 31) == 0 and slot4 == 31 - slot2 then
 				return "slwiRR~A."
 			elseif slot4 == 31 and slot3 == 32 - slot2 then
 				return "srwiRR~-A."
@@ -761,10 +764,10 @@ function slot29(slot0)
 	end
 
 	slot11, slot12 = uv8(slot10, "^([a-z0-9_.]*)(.*)")
-	slot13, slot12 = uv8(slot12, "|([a-z0-9_.]*)(.*)")
+	slot13, slot14 = uv8(slot12, "|([a-z0-9_.]*)(.*)")
 
 	if slot13 then
-		-- Nothing
+		slot12 = slot14
 	end
 
 	for slot18 in uv9(slot12, ".") do
@@ -787,8 +790,10 @@ function slot29(slot0)
 		elseif slot18 == "U" then
 			slot19 = uv7(slot6, 65535)
 		elseif slot18 == "D" or slot18 == "E" then
+			slot20 = uv11(uv2(slot6, 16), 16)
+
 			if slot18 == "E" then
-				slot20 = uv7(uv11(uv2(slot6, 16), 16), -4)
+				slot20 = uv7(slot20, -4)
 			end
 
 			if slot8 == "r0" then
@@ -818,8 +823,10 @@ function slot29(slot0)
 			slot9 = slot9 - 10
 
 			if uv7(uv4(slot6, 21), 4) == 0 then
+				slot22 = uv7(slot20, 2) == 0 and "dnz" or "dz"
+
 				if uv7(slot20, 16) == 0 then
-					slot22 = (uv7(slot20, 2) == 0 and "dnz" or "dz") .. (uv7(slot20, 8) == 0 and "f" or "t")
+					slot22 = slot22 .. (uv7(slot20, 8) == 0 and "f" or "t")
 				end
 
 				if uv7(slot20, 16) == 0 then
@@ -839,8 +846,10 @@ function slot29(slot0)
 
 			slot11 = uv15(slot11, "_", slot22)
 		elseif slot18 == "J" then
+			slot19 = uv11(uv2(slot6, 27 - slot9), 29 - slot9) * 4
+
 			if uv7(slot6, 2) == 0 then
-				slot19 = slot0.addr + slot1 + uv11(uv2(slot6, 27 - slot9), 29 - slot9) * 4
+				slot19 = slot0.addr + slot1 + slot19
 			end
 
 			slot0.rel = slot19
@@ -914,10 +923,11 @@ end
 function slot30(slot0, slot1, slot2)
 	slot1 = slot1 or 0
 	slot3 = slot2 and slot1 + slot2 or #slot0.code
+	slot3 = slot3 - slot3 % 4
 	slot0.pos = slot1 - slot1 % 4
 	slot0.rel = nil
 
-	while slot0.pos < slot3 - slot3 % 4 do
+	while slot0.pos < slot3 do
 		uv0(slot0)
 	end
 end

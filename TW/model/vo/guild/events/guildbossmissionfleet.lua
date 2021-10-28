@@ -27,17 +27,18 @@ function slot0.Flush(slot0, slot1)
 		end
 	end
 
+	slot2 = getProxy(CommanderProxy):getData()
+	slot3 = {}
+
 	for slot7, slot8 in pairs(slot1.commanders) do
-		if getProxy(CommanderProxy):getData()[slot8.id] and slot8.pos then
-			-- Nothing
+		if slot2[slot8.id] and slot8.pos then
+			slot3[slot8.pos] = slot9
 		else
 			table.insert(slot0.invaildCommanders, slot8.id)
 		end
 	end
 
-	slot0:UpdateCommander({
-		[slot8.pos] = slot9
-	})
+	slot0:UpdateCommander(slot3)
 end
 
 function slot0.GetName(slot0)
@@ -92,9 +93,10 @@ end
 
 function slot0.GetMyShipIds(slot0)
 	slot1 = {}
+	slot2 = getProxy(PlayerProxy):getRawData().id
 
 	for slot6, slot7 in ipairs(slot0.userShips) do
-		if slot7.uid == getProxy(PlayerProxy):getRawData().id then
+		if slot7.uid == slot2 then
 			table.insert(slot1, slot7.id)
 		end
 	end
@@ -109,11 +111,12 @@ end
 function slot0.GetShips(slot0)
 	slot1 = getProxy(PlayerProxy):getData()
 	slot2 = getProxy(GuildProxy):getData()
+	slot3 = getProxy(BayProxy)
 	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot0.userShips) do
 		if slot1.id == slot9.uid then
-			if getProxy(BayProxy):getShipById(slot9.id) then
+			if slot3:getShipById(slot9.id) then
 				slot10.id = GuildAssaultFleet.GetVirtualId(slot1.id, slot10.id)
 
 				table.insert(slot4, {
@@ -181,9 +184,11 @@ function slot0.AddUserShip(slot0, slot1, slot2, slot3)
 end
 
 function slot0.GetOtherMemberShipCnt(slot0, slot1)
+	slot2 = 0
+
 	for slot6, slot7 in ipairs(slot0.userShips) do
 		if slot7.uid ~= slot1 then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 
@@ -201,17 +206,20 @@ function slot0.ExistSameKindShip(slot0, slot1)
 end
 
 function slot0.IsLegal(slot0)
+	slot2 = 0
 	slot3 = 0
 	slot4 = 0
+	slot5 = 0
 	slot6 = 0
 	slot7 = 0
+	slot8 = getProxy(PlayerProxy):getRawData().id
 
 	for slot12, slot13 in ipairs(slot0:GetShips()) do
 		if slot13 and slot13.ship:getTeamType() == TeamType.Main then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 
-			if slot13.member.id == getProxy(PlayerProxy):getRawData().id then
-				slot5 = 0 + 1
+			if slot13.member.id == slot8 then
+				slot5 = slot5 + 1
 			end
 		elseif slot13 and slot13.ship:getTeamType() == TeamType.Vanguard then
 			slot3 = slot3 + 1
@@ -237,9 +245,10 @@ function slot0.IsLegal(slot0)
 	end
 
 	slot10 = nil
+	slot10 = (slot2 <= 0 or slot3 <= 0 or slot6 > 0 and slot5 > 0 or i18n("guild_boss_formation_not_exist_self_ship")) and i18n("guild_fleet_is_legal")
 
 	if slot0:IsMainFleet() then
-		return slot2 > 0 and slot3 > 0 and slot9, (slot2 <= 0 or slot3 <= 0 or slot6 > 0 and slot5 > 0 or i18n("guild_boss_formation_not_exist_self_ship")) and i18n("guild_fleet_is_legal")
+		return slot2 > 0 and slot3 > 0 and slot9, slot10
 	else
 		return true
 	end
@@ -247,8 +256,10 @@ end
 
 function slot0.ResortShips(slot0, slot1)
 	function slot2(slot0)
+		slot1 = GuildAssaultFleet.GetVirtualId(slot0.uid, slot0.id)
+
 		for slot5, slot6 in ipairs(uv0) do
-			if GuildAssaultFleet.GetVirtualId(slot0.uid, slot0.id) == slot6.shipId then
+			if slot1 == slot6.shipId then
 				return slot5
 			end
 		end
@@ -418,8 +429,10 @@ function slot0.ExistInvaildCommanders(slot0)
 		return true
 	end
 
+	slot2 = getProxy(CommanderProxy)
+
 	for slot6, slot7 in pairs(slot0:getCommanders()) do
-		if not getProxy(CommanderProxy):getCommanderById(slot7.id) then
+		if not slot2:getCommanderById(slot7.id) then
 			return true
 		end
 	end
@@ -428,8 +441,10 @@ function slot0.ExistInvaildCommanders(slot0)
 end
 
 function slot0.RemoveInvaildCommanders(slot0)
+	slot2 = getProxy(CommanderProxy)
+
 	for slot6, slot7 in pairs(slot0:getCommanders()) do
-		if not getProxy(CommanderProxy):getCommanderById(slot7.id) then
+		if not slot2:getCommanderById(slot7.id) then
 			slot0:RemoveCommander(slot6)
 		end
 	end
@@ -441,8 +456,10 @@ function slot0.getCommandersAddition(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(CommanderConst.PROPERTIES) do
+		slot7 = 0
+
 		for slot11, slot12 in pairs(slot0:getCommanders()) do
-			slot7 = 0 + slot12:getAbilitysAddition()[slot6]
+			slot7 = slot7 + slot12:getAbilitysAddition()[slot6]
 		end
 
 		if slot7 > 0 then

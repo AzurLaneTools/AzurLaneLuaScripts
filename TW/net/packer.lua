@@ -47,13 +47,14 @@ function slot1.GetProtocolWithName(slot0, slot1)
 	end
 
 	slot3 = "Net/Protocol/"
+	slot4 = "p" .. string.sub(string.sub(slot1, 4, #slot1), 1, 2) .. "_pb"
 
 	pcall(function ()
 		uv0 = require(uv1 .. uv2)
 	end)
 
 	if nil then
-		slot6 = uv0.Protocol.New(slot2, slot1, package.loaded["p" .. string.sub(string.sub(slot1, 4, #slot1), 1, 2) .. "_pb"])
+		slot6 = uv0.Protocol.New(slot2, slot1, package.loaded[slot4])
 		slot0._protocols[slot1] = slot6
 
 		return slot6

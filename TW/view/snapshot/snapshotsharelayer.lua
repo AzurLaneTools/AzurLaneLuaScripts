@@ -25,7 +25,9 @@ end
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.shareBtnTrans, function ()
 		if not PlayerPrefs.GetInt("snapshotAgress") or slot0 <= 0 then
-			uv0:showUserAgreement(function ()
+			slot1 = uv0
+
+			slot1:showUserAgreement(function ()
 				PlayerPrefs.SetInt("snapshotAgress", 1)
 				pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypePhoto)
 			end)
@@ -53,10 +55,14 @@ function slot0.showUserAgreement(slot0, slot1)
 
 	slot2 = nil
 	slot0.userAgreenTitleTF = slot0:findTF("UserAgreement/window/title")
-	slot0.userAgreenTitleTF:GetComponent("Text").text = i18n("word_snapshot_share_title")
+	slot3 = slot0.userAgreenTitleTF
+	slot3:GetComponent("Text").text = i18n("word_snapshot_share_title")
 
 	setActive(slot0.userAgreenTF, true)
-	setText(slot0.userAgreenTF:Find("window/container/scrollrect/content/Text"), i18n("word_snapshot_share_agreement"))
+
+	slot4 = slot0.userAgreenTF
+
+	setText(slot4:Find("window/container/scrollrect/content/Text"), i18n("word_snapshot_share_agreement"))
 	onButton(slot0, slot0.userRefuseConfirmTF, function ()
 		setActive(uv0.userAgreenTF, false)
 	end)

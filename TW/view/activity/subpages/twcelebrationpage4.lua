@@ -39,10 +39,12 @@ function slot0.OnUpdateFlush(slot0)
 
 	slot7 = pg.task_data_template[slot1].target_id
 	slot8 = slot7[1]
+	slot9 = slot7[2]
+	slot10 = 0
 
 	for slot16, slot17 in pairs(getProxy(FleetProxy):getData()) do
-		if slot17:getShipCount() == slot7[2] then
-			slot10 = math.max(0, slot17:avgLevel())
+		if slot17:getShipCount() == slot9 then
+			slot10 = math.max(slot10, slot17:avgLevel())
 		end
 	end
 

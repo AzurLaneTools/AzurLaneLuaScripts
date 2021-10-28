@@ -25,12 +25,13 @@ function slot2.SetArgs(slot0, slot1, slot2)
 		return uv0:onWallCld(slot0)
 	end
 
+	slot5 = slot1:GetTemplate().scale / 50
 	slot6 = slot3.cld_list[1]
 	slot7 = slot6.box
 	slot8 = Clone(slot6.offset)
 
 	if slot1:GetDirection() == uv0.Battle.BattleConst.UnitDir.LEFT then
-		slot8[1] = -slot8[1] * slot1:GetTemplate().scale / 50
+		slot8[1] = -slot8[1] * slot5
 	else
 		slot8[1] = slot8[1] * slot5
 	end
@@ -87,9 +88,12 @@ function slot2.onStack(slot0, slot1, slot2)
 end
 
 function slot2.onUpdate(slot0, slot1, slot2, slot3)
+	slot4 = slot1:GetPosition()
+	slot5 = slot1:GetTemplate().scale * 0.02
+
 	if slot0._centerPosFun then
 		slot0._currentTimeCount = slot3 - slot0._startTime
-		slot4 = slot0._centerPosFun(slot0._currentTimeCount):Mul(slot1:GetTemplate().scale * 0.02):Add(slot1:GetPosition())
+		slot4 = slot0._centerPosFun(slot0._currentTimeCount):Mul(slot5):Add(slot4)
 	end
 
 	slot0._centerPos = slot4

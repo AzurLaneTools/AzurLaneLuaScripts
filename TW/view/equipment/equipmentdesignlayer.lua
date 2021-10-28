@@ -258,7 +258,8 @@ function slot0.initTags(slot0)
 end
 
 function slot0.initDesigns(slot0)
-	slot0.scollRect = slot0.designScrollView:GetComponent("LScrollRect")
+	slot1 = slot0.designScrollView
+	slot0.scollRect = slot1:GetComponent("LScrollRect")
 	slot0.scollRect.decelerationRate = 0.07
 
 	function slot0.scollRect.onInitItem(slot0)
@@ -287,8 +288,7 @@ function slot2(slot0, slot1)
 	slot4 = underscore.filter(slot1:GetPropertiesInfo().attrs, function (slot0)
 		return not slot0.type or slot0.type ~= AttributeType.AntiSiren
 	end)
-
-	for slot10, slot11 in ipairs(slot3.skill_id[1] and slot1:isDevice() and {
+	slot6 = slot3.skill_id[1] and slot1:isDevice() and {
 		1,
 		2,
 		5
@@ -297,7 +297,9 @@ function slot2(slot0, slot1)
 		4,
 		2,
 		3
-	}) do
+	}
+
+	for slot10, slot11 in ipairs(slot6) do
 		setActive(slot2:Find("attr_" .. slot11), true)
 
 		if slot11 == 5 then
@@ -368,8 +370,9 @@ end
 
 function slot0.initDesign(slot0, slot1)
 	slot2 = slot0:createDesign(slot1)
+	slot5 = tf(slot2.go)
 
-	onButton(slot0, tf(slot2.go):Find("info/make_btn"), function ()
+	onButton(slot0, slot5:Find("info/make_btn"), function ()
 		uv0:showDesignDesc(uv1.designId)
 	end)
 
@@ -446,12 +449,15 @@ function slot0.filter(slot0, slot1)
 		end
 	end
 
+	slot6 = {}
+	slot7 = table.mergeArray({}, {
+		slot0.contextData.indexDatas.equipPropertyIndex,
+		slot0.contextData.indexDatas.equipPropertyIndex2
+	}, true)
+
 	for slot11, slot12 in pairs(slot4) do
-		if IndexConst.filterEquipByType(slot0:getDesignVO(slot12), slot0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(slot13, table.mergeArray({}, {
-			slot0.contextData.indexDatas.equipPropertyIndex,
-			slot0.contextData.indexDatas.equipPropertyIndex2
-		}, true)) and IndexConst.filterEquipAmmo1(slot13, slot0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot13, slot0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot13, slot0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(slot13, slot0.contextData.indexDatas.rarityIndex) then
-			table.insert({}, slot12)
+		if IndexConst.filterEquipByType(slot0:getDesignVO(slot12), slot0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(slot13, slot7) and IndexConst.filterEquipAmmo1(slot13, slot0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot13, slot0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot13, slot0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(slot13, slot0.contextData.indexDatas.rarityIndex) then
+			table.insert(slot6, slot12)
 		end
 	end
 
@@ -560,9 +566,10 @@ function slot0.showDesignDesc(slot0, slot1)
 
 	slot2:Find("bg/frame"):GetComponent(typeof(Image)).sprite = LoadSprite("bg/equipment_bg_" .. slot5.config.rarity)
 	slot9 = findTF(slot2, "bg/frame/numbers")
+	slot10 = slot5.config.tech or 1
 
 	for slot14 = 0, slot9.childCount - 1 do
-		setActive(slot9:GetChild(slot14), slot14 == (slot5.config.tech or 1))
+		setActive(slot9:GetChild(slot14), slot14 == slot10)
 	end
 
 	slot12 = math.floor(slot0:getItemById(slot3.material_id).count / slot3.material_num)
@@ -614,9 +621,12 @@ function slot0.showDesignDesc(slot0, slot1)
 end
 
 function slot3(slot0, slot1, slot2)
+	slot3 = findTF(slot0, "name")
+	slot4 = findTF(slot0, "value")
+
 	if not EquipType.isDevice(slot2.configId) and slot1.type == AttributeType.Reload then
-		setText(findTF(slot0, "name"), i18n("word_attr_cd"))
-		setText(findTF(slot0, "value"), setColorStr(string.format("%0.2f", slot2:getWeaponCD()) .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
+		setText(slot3, i18n("word_attr_cd"))
+		setText(slot4, setColorStr(string.format("%0.2f", slot2:getWeaponCD()) .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
 	else
 		setText(slot3, AttributeType.Type2Name(slot1.type))
 		setText(slot4, slot1.value)
@@ -641,12 +651,14 @@ function slot0.updateDescAttrs(slot0, slot1, slot2)
 		setText(findTF(slot7, "value/Text"), getSkillDescGet(slot9.id))
 	end
 
+	slot12 = 0
+
 	eachChild(slot5, function (slot0)
 		setActive(slot0, false)
 	end)
 
 	for slot16, slot17 in pairs(slot8) do
-		setActive(0 + 1 <= slot5.childCount and slot5:GetChild(slot12 - 1) or cloneTplTo(slot6, slot5), slot17)
+		setActive(slot12 + 1 <= slot5.childCount and slot5:GetChild(slot12 - 1) or cloneTplTo(slot6, slot5), slot17)
 
 		if slot17 then
 			uv0(slot18, slot17, slot2)

@@ -85,6 +85,7 @@ function slot10.flush(slot0)
 end
 
 function slot10.calcSonarRange(slot0)
+	slot1 = 0
 	slot2 = 0
 	slot3 = 0
 
@@ -92,7 +93,7 @@ function slot10.calcSonarRange(slot0)
 		slot9, slot10, slot11 = slot0.getSonarProperty(slot8)
 
 		if slot9 > 0 then
-			slot1 = math.max(slot9, 0)
+			slot1 = math.max(slot9, slot1)
 		end
 
 		slot2 = slot2 + slot10
@@ -105,9 +106,11 @@ function slot10.calcSonarRange(slot0)
 end
 
 function slot10.updateSonarState(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0._crewUnitList) do
 		if slot0.getSonarProperty(slot6) > 0 then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -161,8 +164,10 @@ function slot10.updateDetectedList(slot0)
 	slot3 = slot0:FilterRange(slot2)
 
 	for slot7, slot8 in ipairs(slot2) do
+		slot9 = table.contains(slot3, slot8)
+
 		if table.contains(slot0._detectedList, slot8) then
-			if not table.contains(slot3, slot8) then
+			if not slot9 then
 				slot8:Undetected()
 			end
 		elseif not slot10 and slot9 then

@@ -19,7 +19,10 @@ end
 
 function slot0.Show(slot0, slot1, slot2, slot3)
 	setActive(slot0.msgBoxPanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.msgBoxPanel)
+
+	slot4 = pg.UIMgr.GetInstance()
+
+	slot4:BlurPanel(slot0.msgBoxPanel)
 	setText(slot0.text1, slot1.text1)
 	setText(slot0.text2, setColorStr(slot1.text2, COLOR_GREEN))
 	setText(slot0.text3, slot1.text3)

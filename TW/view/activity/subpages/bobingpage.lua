@@ -11,11 +11,15 @@ function slot0.OnInit(slot0)
 
 	slot0:bind(ActivityMediator.ON_BOBING_RESULT, function (slot0, slot1, slot2)
 		if PLATFORM_CODE == PLATFORM_CHT or PLATFORM_CODE == PLATFORM_CH then
-			uv0:displayBBResult(slot1.awards, slot1.numbers, function ()
+			slot3 = uv0
+
+			slot3:displayBBResult(slot1.awards, slot1.numbers, function ()
 				uv0.callback()
 			end)
 		else
-			uv0:displayLotteryAni(slot1.awards, slot1.numbers, function ()
+			slot3 = uv0
+
+			slot3:displayLotteryAni(slot1.awards, slot1.numbers, function ()
 				uv0.callback()
 			end)
 		end
@@ -54,7 +58,9 @@ function slot0.lotteryUpdate(slot0)
 	end
 
 	if slot1.data2 < 1 then
-		LeanTween.alpha(slot3.btnLotteryBtn, 1, 1):setLoopPingPong()
+		slot5 = LeanTween.alpha(slot3.btnLotteryBtn, 1, 1)
+
+		slot5:setLoopPingPong()
 		setActive(findTF(slot3.btnLotteryBtn, "mask"), false)
 		onButton(slot0, slot3.btnLotteryBtn, function ()
 			if uv0.activity.data2 < 1 then
@@ -101,7 +107,8 @@ end
 
 function slot0.displayLotteryAni(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getIndexByNumbers(slot2)
-	slot6 = slot0:findTF("omikuji_anim", findTF(slot0._tf, "lottery")):GetComponent(typeof(DftAniEvent))
+	slot6 = slot0:findTF("omikuji_anim", findTF(slot0._tf, "lottery"))
+	slot6 = slot6:GetComponent(typeof(DftAniEvent))
 
 	slot6:SetEndEvent(function (slot0)
 		setActive(uv0.gameObject, false)
@@ -137,7 +144,9 @@ function slot0.displayLotteryAni(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		uv1._event:emit(ActivityMainScene.LOCK_ACT_MAIN, false)
+		slot8 = uv1._event
+
+		slot8:emit(ActivityMainScene.LOCK_ACT_MAIN, false)
 		onButton(uv1, slot1, function ()
 			setActive(uv0, false)
 			uv1()
@@ -219,8 +228,13 @@ function slot0.bobingUpdate(slot0)
 			setActive(uv0.layerRule, false)
 		end, SFX_CANCEL)
 		onButton(slot0, slot3.bowlEnable, function ()
-			uv0._event:emit(ActivityMainScene.LOCK_ACT_MAIN, true)
-			uv0:displayBBAnim(function ()
+			slot0 = uv0._event
+
+			slot0:emit(ActivityMainScene.LOCK_ACT_MAIN, true)
+
+			slot0 = uv0
+
+			slot0:displayBBAnim(function ()
 				uv0:emit(ActivityMediator.EVENT_OPERATION, {
 					cmd = 1,
 					activity_id = uv1.id
@@ -250,12 +264,17 @@ end
 function slot0.displayBBAnim(slot0, slot1)
 	slot2 = slot0:findTF("bobing/bb_anim")
 	slot3 = slot0:findTF("ship", slot2)
+	slot4 = slot0:findTF("bowl", slot2)
 
 	if not slot0.animBowl then
-		slot0.animBowl = slot0:findTF("bowl", slot2):GetComponent(typeof(SpineAnimUI))
+		slot0.animBowl = slot4:GetComponent(typeof(SpineAnimUI))
+		slot5 = slot0.animBowl
 
-		slot0.animBowl:SetAction("bobing", 0)
-		slot0.animBowl:SetActionCallBack(function (slot0)
+		slot5:SetAction("bobing", 0)
+
+		slot5 = slot0.animBowl
+
+		slot5:SetActionCallBack(function (slot0)
 			if slot0 == "finsih" then
 				setActive(uv0, false)
 				setActive(uv1, false)
@@ -271,7 +290,12 @@ function slot0.displayBBAnim(slot0, slot1)
 	end
 
 	if not slot0.model then
-		PoolMgr.GetInstance():GetSpineChar(getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character):getPrefab(), false, function (slot0)
+		slot6 = getProxy(PlayerProxy)
+		slot8 = getProxy(BayProxy)
+		slot9 = slot8:getShipById(slot6:getRawData().character)
+		slot10 = PoolMgr.GetInstance()
+
+		slot10:GetSpineChar(slot9:getPrefab(), false, function (slot0)
 			uv0.model = slot0
 			uv0.model.transform.localScale = Vector3(0.5, 0.5, 1)
 
@@ -332,13 +356,17 @@ function slot0.displayBBResult(slot0, slot1, slot2, slot3)
 	end
 
 	slot13 = false
+	slot14 = LeanTween.value(go(slot5), 0, 1, 1)
+	slot14 = slot14:setOnUpdate(System.Action_float(function (slot0)
+		slot1 = uv0
+
+		slot1:each(function (slot0, slot1)
+			setImageAlpha(slot1, uv0)
+		end)
+	end))
 
 	if slot12 == 7 then
-		LeanTween.value(go(slot5), 0, 1, 1):setOnUpdate(System.Action_float(function (slot0)
-			uv0:each(function (slot0, slot1)
-				setImageAlpha(slot1, uv0)
-			end)
-		end)):setOnComplete(System.Action(function ()
+		slot14:setOnComplete(System.Action(function ()
 			uv0._event:emit(ActivityMainScene.LOCK_ACT_MAIN, false)
 
 			uv1 = true

@@ -24,15 +24,18 @@ function slot1.onRemove(slot0, slot1, slot2)
 end
 
 function slot1.calcEnhancement(slot0, slot1, slot2)
+	slot3 = slot0._number
+
 	if not slot2 then
-		slot3 = slot0._number * -1
+		slot3 = slot3 * -1
 	end
 
 	for slot7, slot8 in ipairs(slot1) do
 		slot9 = 1
+		slot10 = slot8:GetEquipmentLabel()
 
 		for slot14, slot15 in ipairs(slot0._weaponLabelList) do
-			if not table.contains(slot8:GetEquipmentLabel(), slot15) then
+			if not table.contains(slot10, slot15) then
 				slot9 = 0
 
 				break

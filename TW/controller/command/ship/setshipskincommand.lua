@@ -4,8 +4,9 @@ slot0.SKIN_UPDATED = "skin updated"
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.hideTip
+	slot6 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(12202, {
+	slot6:Send(12202, {
 		ship_id = slot2.shipId,
 		skin_id = slot2.skinId
 	}, 12203, function (slot0)

@@ -3,7 +3,11 @@ slot0 = class("GuildEventBasePage", import("....base.BaseSubView"))
 function slot0.Show(slot0, slot1, slot2, slot3)
 	slot0:UpdateData(slot1, slot2, slot3)
 	uv0.super.Show(slot0)
-	pg.UIMgr:GetInstance():BlurPanel(slot0._tf)
+
+	slot4 = pg.UIMgr
+	slot4 = slot4:GetInstance()
+
+	slot4:BlurPanel(slot0._tf)
 	slot0:OnShow()
 
 	slot0.inAnim = true
@@ -24,19 +28,21 @@ function slot0.UpdateData(slot0, slot1, slot2, slot3)
 end
 
 function slot0.Hide(slot0, slot1)
+	function slot2()
+		uv0.inAnim = false
+
+		uv1.super.Hide(uv0)
+		pg.UIMgr:GetInstance():UnblurPanel(uv0._tf, uv0._parentTf)
+
+		if not uv2 and uv0.exitCallback then
+			uv0.exitCallback()
+		end
+	end
+
 	if not slot1 then
 		slot0.inAnim = true
 
-		slot0:ExistAnim(function ()
-			uv0.inAnim = false
-
-			uv1.super.Hide(uv0)
-			pg.UIMgr:GetInstance():UnblurPanel(uv0._tf, uv0._parentTf)
-
-			if not uv2 and uv0.exitCallback then
-				uv0.exitCallback()
-			end
-		end)
+		slot0:ExistAnim(slot2)
 	else
 		slot2()
 	end

@@ -45,7 +45,7 @@ return {
 				setActive(slot1:Find("Tip"), slot11)
 
 				if slot11 then
-					slot12 = slot1:Find("Tip/Text")
+					slot12 = slot1.Find(slot1, "Tip/Text")
 					slot13 = nil
 
 					if slot8 then
@@ -93,7 +93,7 @@ return {
 				slot4 = false
 				slot5 = false
 
-				if pg.activity_event_worldboss[slot2:getConfig("config_id")] then
+				if pg.activity_event_worldboss[slot2.getConfig(slot2, "config_id")] then
 					slot8 = slot7.time ~= "stop" and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot7.time[2])
 					slot5 = not (slot8 and pg.TimeMgr.GetInstance():GetServerTime() <= slot8)
 				end
@@ -104,7 +104,7 @@ return {
 					slot4 = ActivityBossPtData.New(slot8):CanGetAward()
 				end
 
-				setActive(slot1:Find("Tip"), slot4)
+				setActive(slot1.Find(slot1, "Tip"), slot4)
 				onButton(slot0, slot1, function ()
 					uv0:emit(MainUIMediator.GO_SCENE, {
 						SCENE.ACT_BOSS_BATTLE,
@@ -128,8 +128,10 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				slot4 = getProxy(InstagramProxy):ShouldShowTip()
-				slot1:Find("icon"):GetComponent(typeof(Animator)).enabled = slot4
+				slot4 = getProxy(InstagramProxy)
+				slot4 = slot4:ShouldShowTip()
+				slot5 = slot1:Find("icon")
+				slot5:GetComponent(typeof(Animator)).enabled = slot4
 
 				setActive(slot1:Find("Tip"), slot4)
 				onButton(slot0, slot1, function ()
@@ -215,7 +217,7 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				setActive(slot1:Find("Tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
+				setActive(slot1.Find(slot1, "Tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE)
 				end, SFX_PANEL)
@@ -232,9 +234,9 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				slot4 = slot2:getAwardInfos()
+				slot4 = slot2.getAwardInfos(slot2)
 
-				setActive(slot1:Find("Tip"), _.any(slot2:getConfig("config_data"), function (slot0)
+				setActive(slot1.Find(slot1, "Tip"), _.any(slot2.getConfig(slot2, "config_data"), function (slot0)
 					slot2 = ActivityItemPool.New({
 						id = slot0,
 						awards = uv0[slot0]
@@ -285,7 +287,7 @@ return {
 			if slot3 then
 				slot4 = pg.activity_event_picturepuzzle[slot2.id]
 
-				setActive(slot1:Find("Tip"), slot2:readyToAchieve())
+				setActive(slot1.Find(slot1, "Tip"), slot2.readyToAchieve(slot2))
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 						id = uv0.id
@@ -346,7 +348,7 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				setActive(slot1:Find("Tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
+				setActive(slot1.Find(slot1, "Tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE2)
 				end, SFX_PANEL)
@@ -387,7 +389,7 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				setActive(slot1:Find("Tip"), DoaMedalCollectionView.isHaveActivableMedal())
+				setActive(slot1.Find(slot1, "Tip"), DoaMedalCollectionView.isHaveActivableMedal())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.DOA_MEDAL_COLLECTION_SCENE)
 				end, SFX_PANEL)
@@ -405,7 +407,7 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				setActive(slot1:Find("Tip"), AmusementParkShopPage.GetActivityShopTip())
+				setActive(slot1.Find(slot1, "Tip"), AmusementParkShopPage.GetActivityShopTip())
 				onButton(slot0, slot1, function ()
 					uv0:emit(MainUIMediator.GO_SUBLAYER, Context.New({
 						mediator = AmusementParkShopMediator,
@@ -444,7 +446,7 @@ return {
 				setActive(slot1, slot4)
 
 				if slot4 then
-					setActive(slot1:Find("Tip"), IdolMasterMedalCollectionView.isHaveActivableMedal())
+					setActive(slot1.Find(slot1, "Tip"), IdolMasterMedalCollectionView.isHaveActivableMedal())
 					onButton(slot0, slot1, function ()
 						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IDOLMASTER_MEDAL_COLLECTION_SCENE)
 					end, SFX_PANEL)
@@ -469,11 +471,11 @@ return {
 
 				slot6 = getProxy(MiniGameProxy):GetHubByGameId(28).count and slot5.count > 0 or false
 
-				if slot5.ultimate == 0 and slot5.usedtime == slot5:getConfig("reward_need") then
+				if slot5.ultimate == 0 and slot5.usedtime == slot5.getConfig(slot5, "reward_need") then
 					slot6 = true
 				end
 
-				setActive(slot1:Find("Tip"), slot6)
+				setActive(slot1.Find(slot1, "Tip"), slot6)
 			end
 		end
 	},
@@ -514,11 +516,11 @@ return {
 
 				slot6 = getProxy(MiniGameProxy):GetHubByGameId(30).count and slot5.count > 0 or false
 
-				if slot5.ultimate == 0 and slot5.usedtime == slot5:getConfig("reward_need") then
+				if slot5.ultimate == 0 and slot5.usedtime == slot5.getConfig(slot5, "reward_need") then
 					slot6 = true
 				end
 
-				setActive(slot1:Find("Tip"), slot6)
+				setActive(slot1.Find(slot1, "Tip"), slot6)
 			end
 		end
 	},

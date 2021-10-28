@@ -137,9 +137,10 @@ function slot0.CheckTodayTip(slot0)
 		slot3 = pg.TimeMgr.GetInstance()
 		slot9 = slot3
 		slot8 = slot3.GetServerTime
+		slot4 = math.min(slot3:DiffDay(slot0.startTime, slot8(slot9)) + 1, #slot0.colorGroups)
 
 		for slot8, slot9 in ipairs(slot0.colorGroups) do
-			if slot8 <= math.min(slot3:DiffDay(slot0.startTime, slot8(slot9)) + 1, #slot0.colorGroups) and slot9:getState() ~= ColorGroup.StateAchieved and not slot9:canBeCustomised() then
+			if slot8 <= slot4 and slot9:getState() ~= ColorGroup.StateAchieved and not slot9:canBeCustomised() then
 				return true
 			end
 		end

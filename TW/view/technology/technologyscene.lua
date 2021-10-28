@@ -205,8 +205,9 @@ function slot0.initTechnologys(slot0)
 
 	if not slot0.itemList then
 		slot0.itemList = UIItemList.New(slot0.srcollView, slot0.cardTpl)
+		slot1 = slot0.itemList
 
-		slot0.itemList:make(function (slot0, slot1, slot2)
+		slot1:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
 				slot2.name = slot1 + 1
 				uv0.technologCards[uv0.technologyVOs[slot1 + 1].id] = slot2
@@ -214,8 +215,10 @@ function slot0.initTechnologys(slot0)
 				uv0:updateTechnologyTF(slot2, uv0.technologyVOs[slot1 + 1])
 				uv0:updateTimer(uv0.technologyVOs[slot1 + 1])
 
+				slot3 = GetOrAddComponent(slot2, typeof(Button)).onClick
+
 				if uv0.lastButtonListener[slot2] then
-					GetOrAddComponent(slot2, typeof(Button)).onClick:RemoveListener(uv0.lastButtonListener[slot2])
+					slot3:RemoveListener(uv0.lastButtonListener[slot2])
 				end
 
 				if uv0.technologyVOs[slot1 + 1]:isStart() then
@@ -272,15 +275,15 @@ function slot0.onSelected(slot0, slot1)
 	end)
 
 	function slot5(slot0, slot1)
+		slot2 = {}
 		slot3 = slot0
+		slot4 = uv0[slot0].localPosition.x
 
 		for slot8, slot9 in ipairs(uv0) do
-			-- Nothing
+			slot2[slot8] = uv0[slot8].localPosition.x - slot4
 		end
 
-		for slot8, slot9 in ipairs({
-			[slot8] = uv0[slot8].localPosition.x - uv0[slot0].localPosition.x
-		}) do
+		for slot8, slot9 in ipairs(slot2) do
 			if slot9 ~= 0 and (slot2[slot3] == 0 or slot1 and (slot9 > 0 and slot2[slot3] > 0 and slot2[slot3] < slot9 or slot9 < 0 and (slot2[slot3] > 0 or slot2[slot3] < slot9)) or not slot1 and (slot9 < 0 and slot2[slot3] < 0 and slot9 < slot2[slot3] or slot9 > 0 and (slot2[slot3] < 0 or slot9 < slot2[slot3]))) then
 				slot3 = slot8
 			end

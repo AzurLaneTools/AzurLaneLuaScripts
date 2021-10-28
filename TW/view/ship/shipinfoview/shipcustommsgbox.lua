@@ -6,17 +6,28 @@ end
 
 function slot0.OnInit(slot0)
 	slot0.customMsgbox = slot0._tf
-	slot0.msgBoxItemPanel = slot0.customMsgbox:Find("frame/bg/item_panel")
-	slot0.msgboxItemContains = slot0.customMsgbox:Find("frame/bg/item_panel/items")
-	slot0.msgBoxItemTpl = slot0.msgboxItemContains:Find("equipmenttpl")
-	slot0.msgBoxItemContent = slot0.customMsgbox:Find("frame/bg/item_panel/content")
-	slot0.msgBoxItemContent1 = slot0.customMsgbox:Find("frame/bg/item_panel/content_num")
-	slot0.msgBoxCancelBtn = slot0.customMsgbox:Find("frame/btns/cancel_btn")
-	slot0.msgBoxConfirmBtn = slot0.customMsgbox:Find("frame/btns/confirm_btn")
-	slot0.msgBoxContent = slot0.customMsgbox:Find("frame/bg/content")
-	slot0.msgBtnBack = slot0.customMsgbox:Find("frame/top/btnBack")
-	slot0.msgBoxTitle = slot0.customMsgbox:Find("frame/top/title_list/infomation/title")
-	slot0.msgBoxTitleEn = slot0.customMsgbox:Find("frame/top/title_list/infomation/title_en")
+	slot1 = slot0.customMsgbox
+	slot0.msgBoxItemPanel = slot1:Find("frame/bg/item_panel")
+	slot1 = slot0.customMsgbox
+	slot0.msgboxItemContains = slot1:Find("frame/bg/item_panel/items")
+	slot1 = slot0.msgboxItemContains
+	slot0.msgBoxItemTpl = slot1:Find("equipmenttpl")
+	slot1 = slot0.customMsgbox
+	slot0.msgBoxItemContent = slot1:Find("frame/bg/item_panel/content")
+	slot1 = slot0.customMsgbox
+	slot0.msgBoxItemContent1 = slot1:Find("frame/bg/item_panel/content_num")
+	slot1 = slot0.customMsgbox
+	slot0.msgBoxCancelBtn = slot1:Find("frame/btns/cancel_btn")
+	slot1 = slot0.customMsgbox
+	slot0.msgBoxConfirmBtn = slot1:Find("frame/btns/confirm_btn")
+	slot1 = slot0.customMsgbox
+	slot0.msgBoxContent = slot1:Find("frame/bg/content")
+	slot1 = slot0.customMsgbox
+	slot0.msgBtnBack = slot1:Find("frame/top/btnBack")
+	slot1 = slot0.customMsgbox
+	slot0.msgBoxTitle = slot1:Find("frame/top/title_list/infomation/title")
+	slot1 = slot0.customMsgbox
+	slot0.msgBoxTitleEn = slot1:Find("frame/top/title_list/infomation/title_en")
 
 	SetActive(slot0.customMsgbox, false)
 

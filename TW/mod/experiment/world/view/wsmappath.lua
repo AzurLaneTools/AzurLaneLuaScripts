@@ -53,11 +53,13 @@ end
 
 function slot0.MoveStep(slot0)
 	slot2 = slot0.path
+	slot3 = slot0.step > 0 and slot2[slot0.step] or slot0.startPos
+	slot4 = slot2[slot0.step + 1]
 	slot5 = slot2[#slot2]
 	slot6 = slot0.wsObject:GetModelAngles()
 
 	if slot0.dirType == WorldConst.DirType4 then
-		if slot2[slot0.step + 1].column < (slot0.step > 0 and slot2[slot0.step] or slot0.startPos).column then
+		if slot4.column < slot3.column then
 			slot6.z = 180
 		elseif slot3.column < slot4.column then
 			slot6.z = 0

@@ -344,7 +344,9 @@ return {
 	end,
 	ON_AIRI_LOADING = false,
 	SetAiriTimeout = function ()
-		pg.UIMgr.GetInstance():LoadingOn()
+		slot0 = pg.UIMgr.GetInstance()
+
+		slot0:LoadingOn()
 
 		uv0.ON_AIRI_LOADING = true
 

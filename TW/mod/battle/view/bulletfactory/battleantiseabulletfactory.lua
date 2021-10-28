@@ -20,9 +20,10 @@ end
 
 function slot1.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = slot2:GetTemplate().hit_type
+	slot8 = slot0:GetDataProxy()
 
 	if not slot2:GetDirectHitUnit() then
-		slot0:GetDataProxy():RemoveBulletUnit(slot2:GetUniqueID())
+		slot8:RemoveBulletUnit(slot2:GetUniqueID())
 
 		return
 	end

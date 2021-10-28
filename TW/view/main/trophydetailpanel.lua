@@ -10,10 +10,13 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	slot0._medalIcon = findTF(slot0._tf, "center/medalBG/icon")
 	slot0._nameLabel = findTF(slot0._tf, "center/name")
-	slot0._timeStamp = findTF(slot0._tf, "center/timeStamp/Text"):GetComponent(typeof(Text))
-	slot0._desc = findTF(slot0._tf, "center/desc/Text"):GetComponent(typeof(Text))
+	slot3 = findTF(slot0._tf, "center/timeStamp/Text")
+	slot0._timeStamp = slot3:GetComponent(typeof(Text))
+	slot3 = findTF(slot0._tf, "center/desc/Text")
+	slot0._desc = slot3:GetComponent(typeof(Text))
 	slot0._progressBar = findTF(slot0._tf, "center/progress_bar/progress")
-	slot0._rank = findTF(slot0._tf, "center/rank/Text"):GetComponent(typeof(Text))
+	slot3 = findTF(slot0._tf, "center/rank/Text")
+	slot0._rank = slot3:GetComponent(typeof(Text))
 	slot0._lock = findTF(slot0._tf, "center/medalBG/lock")
 	slot0._conditionList = findTF(slot0._tf, "center/conditions/container")
 	slot0._conditionTpl = findTF(slot0._tf, "center/conditions/condition_tpl")
@@ -62,18 +65,20 @@ function slot0.UpdateTrophy(slot0, slot1)
 	SetActive(slot0._lock, not slot1:isClaimed())
 	LoadImageSpriteAsync("medal/" .. slot1:getConfig("label"), slot0._nameLabel, true)
 
+	function slot2(slot0, slot1)
+		setText(findTF(slot0, "desc"), slot1:getConfig("condition"))
+
+		slot2, slot3 = slot1:getProgress()
+
+		if slot1:getTargetType() == Trophy.INTAMACT_TYPE then
+			setText(findTF(slot0, "progress"), slot1:isDummy() and "" or "[" .. math.modf(slot2 / 100) .. "/" .. math.modf(slot3 / 100) .. "]")
+		else
+			setText(findTF(slot0, "progress"), slot1:isDummy() and "" or "[" .. slot2 .. "/" .. slot3 .. "]")
+		end
+	end
+
 	if not slot1:isComplexTrophy() then
-		(function (slot0, slot1)
-			setText(findTF(slot0, "desc"), slot1:getConfig("condition"))
-
-			slot2, slot3 = slot1:getProgress()
-
-			if slot1:getTargetType() == Trophy.INTAMACT_TYPE then
-				setText(findTF(slot0, "progress"), slot1:isDummy() and "" or "[" .. math.modf(slot2 / 100) .. "/" .. math.modf(slot3 / 100) .. "]")
-			else
-				setText(findTF(slot0, "progress"), slot1:isDummy() and "" or "[" .. slot2 .. "/" .. slot3 .. "]")
-			end
-		end)(cloneTplTo(slot0._conditionTpl, slot0._conditionList), slot1)
+		slot2(cloneTplTo(slot0._conditionTpl, slot0._conditionList), slot1)
 	else
 		for slot6, slot7 in pairs(slot1:getSubTrophy()) do
 			slot2(cloneTplTo(slot0._conditionTpl, slot0._conditionList), slot7)

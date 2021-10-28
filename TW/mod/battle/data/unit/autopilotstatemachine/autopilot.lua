@@ -52,11 +52,12 @@ function slot2.generateList(slot0)
 
 	for slot4, slot5 in ipairs(slot0._aiCfg.list) do
 		slot6 = nil
+		slot7 = slot5.index
 		slot8 = slot5.to
 		slot10 = slot5.param
 
 		if slot5.type == uv0.STAY then
-			slot6 = uv1.Battle.AutoPilotStay.New(slot5.index, slot0)
+			slot6 = uv1.Battle.AutoPilotStay.New(slot7, slot0)
 		elseif slot9 == uv0.MOVE_TO then
 			slot6 = uv1.Battle.AutoPilotMoveTo.New(slot7, slot0)
 		elseif slot9 == uv0.MOVE then

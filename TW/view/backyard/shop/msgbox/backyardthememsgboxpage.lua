@@ -55,9 +55,10 @@ end
 
 function slot0.GetAddList(slot0)
 	slot1 = {}
+	slot3 = slot0.dorm:GetAllFurniture()
 
 	for slot7, slot8 in ipairs(slot0.themeVO:GetFurnitures()) do
-		if not slot0.dorm:GetAllFurniture()[slot8] then
+		if not slot3[slot8] then
 			table.insert(slot1, Furniture.New({
 				id = slot8
 			}))

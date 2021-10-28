@@ -4,8 +4,9 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.shipId
 	slot4 = slot2.pos
+	slot6 = getProxy(EquipmentProxy)
 
-	if slot2.equipmentSkinId and slot5 ~= 0 and (not getProxy(EquipmentProxy):getEquipmnentSkinById(slot5) or slot7.count == 0) then
+	if slot2.equipmentSkinId and slot5 ~= 0 and (not slot6:getEquipmnentSkinById(slot5) or slot7.count == 0) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_count_noenough"))
 
 		return
@@ -17,7 +18,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(12036, {
+	slot9 = pg.ConnectionMgr.GetInstance()
+
+	slot9:Send(12036, {
 		ship_id = slot3,
 		equip_skin_id = slot5,
 		pos = slot4

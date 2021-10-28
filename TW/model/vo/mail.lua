@@ -37,10 +37,12 @@ end
 function slot0.OverflowShipExpAttachment(slot0)
 	slot1 = getProxy(BagProxy)
 
+	function slot2(slot0)
+		return slot0:getConfig("max_num") < uv0:getItemCountById(slot0.id) + slot0.count
+	end
+
 	for slot6, slot7 in pairs(slot0.attachments) do
-		if slot7.type == DROP_TYPE_ITEM and slot7:IsShipExpType() and (function (slot0)
-			return slot0:getConfig("max_num") < uv0:getItemCountById(slot0.id) + slot0.count
-		end)(slot7) then
+		if slot7.type == DROP_TYPE_ITEM and slot7:IsShipExpType() and slot2(slot7) then
 			return true
 		end
 	end
@@ -49,9 +51,11 @@ function slot0.OverflowShipExpAttachment(slot0)
 end
 
 function slot0.getAttatchmentsCount(slot0, slot1, slot2)
+	slot3 = 0
+
 	for slot7, slot8 in pairs(slot0.attachments) do
 		if slot1 == slot8.type and slot2 == slot8.id then
-			slot3 = 0 + slot8.count
+			slot3 = slot3 + slot8.count
 		end
 	end
 
@@ -100,11 +104,15 @@ function slot0.IsFudaiAndFullCapcity(slot0)
 		return false, i18n("gold_max_tip_title")
 	end
 
-	if slot4 > 0 and slot6:getMaxEquipmentBag() < slot4 + getProxy(EquipmentProxy):getCapacity() then
+	slot7 = getProxy(EquipmentProxy):getCapacity()
+
+	if slot4 > 0 and slot6:getMaxEquipmentBag() < slot4 + slot7 then
 		return false, i18n("mail_takeAttachment_error_magazine_full")
 	end
 
-	if slot5 > 0 and slot6:getMaxShipBag() < slot5 + getProxy(BayProxy):getShipCount() then
+	slot8 = getProxy(BayProxy):getShipCount()
+
+	if slot5 > 0 and slot6:getMaxShipBag() < slot5 + slot8 then
 		return false, i18n("mail_takeAttachment_error_dockYrad_full")
 	end
 

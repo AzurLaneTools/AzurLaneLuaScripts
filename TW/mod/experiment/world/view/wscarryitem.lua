@@ -53,12 +53,13 @@ function slot0.Init(slot0)
 end
 
 function slot0.Update(slot0, slot1)
+	slot2 = slot0.transform
 	slot3 = slot0.fleet
 	slot4 = slot0.carryItem
 	slot5, slot6 = slot0:GetLocation()
 
 	if not slot0.isMoving and (slot1 == nil or slot1 == WorldMapFleet.EventUpdateLocation or slot1 == WorldCarryItem.EventUpdateOffset) then
-		slot0.transform.anchoredPosition3D = slot0.theme:GetLinePosition(slot5, slot6)
+		slot2.anchoredPosition3D = slot0.theme:GetLinePosition(slot5, slot6)
 	end
 
 	if slot1 == nil or slot1 == WorldMapFleet.EventUpdateLocation or slot1 == WorldCarryItem.EventUpdateOffset then

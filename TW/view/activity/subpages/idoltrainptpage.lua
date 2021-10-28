@@ -60,8 +60,9 @@ function slot0.OnFirstFlush(slot0)
 	removeOnButton(slot0.getBtn)
 	onButton(slot0, slot0.getBtn, function ()
 		slot0 = {}
+		slot3 = getProxy(PlayerProxy):getData()
 
-		if uv0.ptData:GetAward().type == DROP_TYPE_RESOURCE and slot1.id == PlayerConst.ResGold and getProxy(PlayerProxy):getData():GoldMax(slot1.count) then
+		if uv0.ptData:GetAward().type == DROP_TYPE_RESOURCE and slot1.id == PlayerConst.ResGold and slot3:GoldMax(slot1.count) then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("gold_max_tip_title") .. i18n("award_max_warning"),
@@ -123,9 +124,13 @@ function slot0.OnFirstFlush(slot0)
 	end
 
 	slot1, slot2 = slot0:getRandomName()
+	slot3 = pg.UIMgr.GetInstance()
 
-	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetSpineChar(slot1, true, function (slot0)
+	slot3:LoadingOn()
+
+	slot3 = PoolMgr.GetInstance()
+
+	slot3:GetSpineChar(slot1, true, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.prefab1 = uv1
@@ -135,8 +140,14 @@ function slot0.OnFirstFlush(slot0)
 		slot0:GetComponent("SpineAnimUI"):SetAction("stand2", 0)
 		setParent(slot0, uv0.idol1)
 	end)
-	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetSpineChar(slot2, true, function (slot0)
+
+	slot3 = pg.UIMgr.GetInstance()
+
+	slot3:LoadingOn()
+
+	slot3 = PoolMgr.GetInstance()
+
+	slot3:GetSpineChar(slot2, true, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.prefab2 = uv1

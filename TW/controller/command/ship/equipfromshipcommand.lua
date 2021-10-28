@@ -52,9 +52,11 @@ function slot0.execute(slot0, slot1)
 					pos = slot3
 				}, 12007, function (slot0)
 					if slot0.result == 0 then
+						slot2 = pg.equip_skin_template
+
 						if uv0:getEquip(uv1) then
 							if slot1:hasSkin() then
-								if not _.any(pg.equip_skin_template[slot1.skinId].equip_type, function (slot0)
+								if not _.any(slot2[slot1.skinId].equip_type, function (slot0)
 									return uv0.config.type == slot0
 								end) then
 									uv3:addEquipmentSkin(slot1.skinId, 1)

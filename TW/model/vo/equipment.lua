@@ -31,19 +31,19 @@ function slot0.BuildConfig(slot0)
 end
 
 function slot0.GetAttributes(slot0)
+	slot1 = {}
 	slot2 = slot0.config
 
 	for slot6 = 1, 3 do
 		slot8 = slot2["value_" .. slot6]
-	end
-
-	return {
-		[slot6] = slot2["attribute_" .. slot6] ~= nil and {
+		slot1[slot6] = slot2["attribute_" .. slot6] ~= nil and {
 			type = slot7,
 			value = string.match(slot8, "^[%d|\\.]+$") and tonumber(slot8) or slot8,
 			auxBoost = slot0:isDevice()
 		} or false
-	}
+	end
+
+	return slot1
 end
 
 function slot0.GetPropertyRate(slot0)
@@ -65,12 +65,13 @@ function slot0.CalcWeanponCD(slot0, slot1)
 end
 
 function slot0.GetInfoTrans(slot0, slot1)
+	slot2 = slot0.name
 	slot3 = slot0.value
 	slot4 = slot0.auxBoost
 
 	if slot0.type == AttributeType.CD then
 		if not slot1 then
-			slot2 = slot0.name or i18n("cd_normal")
+			slot2 = slot2 or i18n("cd_normal")
 		end
 
 		slot3 = uv0.CalcWeanponCD(slot3, slot1) .. "s" .. i18n("word_secondseach")
@@ -169,10 +170,12 @@ function slot0.InsertAttrsCompare(slot0, slot1, slot2)
 end
 
 function slot0.GetPropertiesInfo(slot0)
+	slot2 = {
+		attrs = {}
+	}
+
 	if slot0.config[AttributeType.Damage] then
-		table.insert(({
-			attrs = {}
-		}).attrs, {
+		table.insert(slot2.attrs, {
 			type = AttributeType.Damage,
 			value = slot1[AttributeType.Damage]
 		})
@@ -237,9 +240,10 @@ function slot0.GetWeaponPageInfo(slot0, slot1, slot2)
 	slot3 = {
 		sub = {}
 	}
+	slot5 = pg.equip_bullet_type[slot1].exhibition_type == 2
 
 	for slot9, slot10 in ipairs(slot4.exhibition_list) do
-		table.insert(slot3.sub, slot0:GetWeaponInfo(slot10, slot2, pg.equip_bullet_type[slot1].exhibition_type == 2))
+		table.insert(slot3.sub, slot0:GetWeaponInfo(slot10, slot2, slot5))
 	end
 
 	slot6 = table.remove(slot3.sub, 1)
@@ -489,8 +493,10 @@ function slot0.getRevertAwards(slot0)
 		for slot9, slot10 in ipairs(pg.equip_data_template[Equipment.New({
 			id = slot4.prev
 		}).configId].trans_use_item) do
+			slot12 = slot10[2]
+
 			if slot1[slot10[1]] then
-				slot1[slot11].count = slot1[slot11].count + slot10[2]
+				slot1[slot11].count = slot1[slot11].count + slot12
 			else
 				slot1[slot11] = {
 					type = DROP_TYPE_ITEM,
@@ -638,8 +644,11 @@ end
 
 function slot0.GetEquipComposeCfgStatic(slot0)
 	for slot5, slot6 in ipairs(pg.compose_data_template.all) do
+		slot7 = slot1[slot6]
+		slot8 = true
+
 		for slot12, slot13 in pairs(slot0) do
-			slot8 = true and slot1[slot6][slot12] == slot13
+			slot8 = slot8 and slot7[slot12] == slot13
 		end
 
 		if slot8 then

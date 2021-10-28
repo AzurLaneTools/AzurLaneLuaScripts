@@ -92,10 +92,12 @@ function slot0.opeRenamePanel(slot0, slot1)
 		})
 	end
 
+	function slot3()
+		uv0.renamePanel:ActionInvoke("Show", uv1, uv2)
+	end
+
 	if slot0.renamePanel:GetLoaded() then
-		(function ()
-			uv0.renamePanel:ActionInvoke("Show", uv1, uv2)
-		end)()
+		slot3()
 	else
 		slot0.renamePanel:Load()
 		slot0.renamePanel:CallbackInvoke(slot3)
@@ -107,12 +109,14 @@ function slot0.closeRenamePanel(slot0)
 end
 
 function slot0.openMsgBox(slot0, slot1)
+	function slot2()
+		uv0.msgboxPage:ActionInvoke("OnUpdate", uv1)
+	end
+
 	slot0.isShowMsgBox = true
 
 	if slot0.msgboxPage:GetLoaded() then
-		(function ()
-			uv0.msgboxPage:ActionInvoke("OnUpdate", uv1)
-		end)()
+		slot2()
 	else
 		slot0.msgboxPage:Load()
 		slot0.msgboxPage:CallbackInvoke(slot2)
@@ -278,10 +282,12 @@ function slot0.updateCommander(slot0)
 end
 
 function slot0.openTreePanel(slot0, slot1)
+	function slot2()
+		uv0.treePanel:ActionInvoke("openTreePanel", uv1)
+	end
+
 	if slot0.treePanel:GetLoaded() then
-		(function ()
-			uv0.treePanel:ActionInvoke("openTreePanel", uv1)
-		end)()
+		slot2()
 	else
 		slot0.treePanel:Load()
 		slot0.treePanel:CallbackInvoke(slot2)

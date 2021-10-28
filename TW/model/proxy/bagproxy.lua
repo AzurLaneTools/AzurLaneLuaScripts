@@ -60,10 +60,11 @@ function slot0.getItems(slot0)
 end
 
 function slot0.getItemsByExclude(slot0)
+	slot1 = Item.INVISIBLE_TYPE
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.data) do
-		if not table.contains(Item.INVISIBLE_TYPE, slot7:getConfig("type")) and slot7.count ~= 0 then
+		if not table.contains(slot1, slot7:getConfig("type")) and slot7.count ~= 0 then
 			table.insert(slot2, slot7)
 		end
 	end
@@ -108,13 +109,11 @@ function slot0.GetItemsByCondition(slot0, slot1)
 end
 
 function slot0.getTempItemByType(slot0, slot1)
-	slot2 = {
-		[slot7] = true
-	}
+	slot2 = {}
 
 	for slot6, slot7 in ipairs(pg.item_data_statistics.all) do
 		if pg.item_data_statistics[slot7].type == slot1 then
-			-- Nothing
+			slot2[slot7] = true
 		end
 	end
 
@@ -144,9 +143,13 @@ function slot0.getBoxCount(slot0)
 end
 
 function slot0.getCanComposeCount(slot0)
+	slot1 = 0
+
 	for slot6, slot7 in pairs(pg.compose_data_template.all) do
-		if slot0:getItemById(slot2[slot7].material_id) and slot2[slot7].material_num <= slot10.count then
-			slot1 = 0 + 1
+		slot9 = slot2[slot7].material_num
+
+		if slot0:getItemById(slot2[slot7].material_id) and slot9 <= slot10.count then
+			slot1 = slot1 + 1
 		end
 	end
 

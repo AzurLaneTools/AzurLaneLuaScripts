@@ -2,12 +2,21 @@ slot0 = class("ShipProfileMediator", import("...base.ContextMediator"))
 slot0.CLICK_ROTATE_BTN = "ShipProfileMediator:CLICK_ROTATE_BTN"
 
 function slot0.register(slot0)
+	slot1 = getProxy(CollectionProxy)
+	slot2 = getProxy(ShipSkinProxy)
 	slot0.showTrans = slot0.contextData.showTrans
 	slot0.groupId = slot0.contextData.groupId
+	slot4 = slot0.viewComponent
 
-	slot0.viewComponent:setShipGroup(getProxy(CollectionProxy):getShipGroup(slot0.groupId))
-	slot0.viewComponent:setShowTrans(slot0.showTrans)
-	slot0.viewComponent:setOwnedSkinList(getProxy(ShipSkinProxy):getSkinList())
+	slot4:setShipGroup(slot1:getShipGroup(slot0.groupId))
+
+	slot4 = slot0.viewComponent
+
+	slot4:setShowTrans(slot0.showTrans)
+
+	slot4 = slot0.viewComponent
+
+	slot4:setOwnedSkinList(slot2:getSkinList())
 	slot0:bind(uv0.CLICK_ROTATE_BTN, function (slot0, slot1, slot2, slot3)
 		uv0:addSubLayers(Context.New({
 			mediator = ShipRotateMediator,
@@ -57,12 +66,14 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.FETCH_EVALUATION_DONE then
 		slot0:addSubLayers(Context.New({
 			mediator = ShipEvaluationMediator,
 			viewComponent = ShipEvaluationLayer,
 			data = {
-				groupId = slot1:getBody(),
+				groupId = slot3,
 				showTrans = slot0.showTrans
 			}
 		}))

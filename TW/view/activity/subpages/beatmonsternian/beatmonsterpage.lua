@@ -10,11 +10,17 @@ end
 function slot0.OnUpdateFlush(slot0)
 	slot0:Show()
 
+	slot2 = slot0:PacketData(slot0.activity)
+
 	if not slot0.controller then
 		slot0.controller = BeatMonsterController.New()
+		slot3 = slot0.controller.mediator
 
-		slot0.controller.mediator:SetUI(slot0._go)
-		slot0.controller:SetUp(slot0:PacketData(slot0.activity), function (slot0)
+		slot3:SetUI(slot0._go)
+
+		slot3 = slot0.controller
+
+		slot3:SetUp(slot2, function (slot0)
 			uv0:emit(ActivityMainScene.LOCK_ACT_MAIN, slot0)
 		end)
 	else

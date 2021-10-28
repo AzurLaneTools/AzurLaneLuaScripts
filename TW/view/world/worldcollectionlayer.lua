@@ -9,13 +9,19 @@ function slot0.setCollectionProxy(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.top = slot0._tf:Find("top")
-	slot0.backBtn = slot0.top:Find("back_btn")
-	slot0.rtMain = slot0._tf:Find("main")
-	slot0.entranceContainer = slot0.rtMain:Find("list_bg/map_list/content")
-	slot0.entranceItemList = UIItemList.New(slot0.entranceContainer, slot0.entranceContainer:Find("item"))
+	slot1 = slot0._tf
+	slot0.top = slot1:Find("top")
+	slot1 = slot0.top
+	slot0.backBtn = slot1:Find("back_btn")
+	slot1 = slot0._tf
+	slot0.rtMain = slot1:Find("main")
+	slot1 = slot0.rtMain
+	slot0.entranceContainer = slot1:Find("list_bg/map_list/content")
+	slot3 = slot0.entranceContainer
+	slot0.entranceItemList = UIItemList.New(slot0.entranceContainer, slot3:Find("item"))
+	slot1 = slot0.entranceItemList
 
-	slot0.entranceItemList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -44,16 +50,25 @@ function slot0.init(slot0)
 			end
 		end
 	end)
-	slot0.entranceContainer:GetComponent(typeof(ScrollRect)).onValueChanged:AddListener(function (slot0)
+
+	slot1 = slot0.entranceContainer
+	slot1 = slot1:GetComponent(typeof(ScrollRect)).onValueChanged
+
+	slot1:AddListener(function (slot0)
 		uv0:UpdateJumpBtn()
 	end)
 
-	slot0.entrancePanel = slot0.rtMain:Find("map")
-	slot0.entranceTitle = slot0.entrancePanel:Find("target_rect/title")
-	slot0.targetContainer = slot0.entrancePanel:Find("target_rect/target_list/content")
-	slot0.targetItemList = UIItemList.New(slot0.targetContainer, slot0.targetContainer:Find("item"))
+	slot1 = slot0.rtMain
+	slot0.entrancePanel = slot1:Find("map")
+	slot1 = slot0.entrancePanel
+	slot0.entranceTitle = slot1:Find("target_rect/title")
+	slot1 = slot0.entrancePanel
+	slot0.targetContainer = slot1:Find("target_rect/target_list/content")
+	slot3 = slot0.targetContainer
+	slot0.targetItemList = UIItemList.New(slot0.targetContainer, slot3:Find("item"))
+	slot1 = slot0.targetItemList
 
-	slot0.targetItemList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -102,9 +117,12 @@ function slot0.init(slot0)
 		end
 	end)
 
-	slot0.achAwardRect = slot0.entrancePanel:Find("award_rect")
-	slot0.achAchieveBtn = slot0.achAwardRect:Find("btn_achieve")
-	slot0.overviewBtn = slot0.entrancePanel:Find("btn_overview")
+	slot1 = slot0.entrancePanel
+	slot0.achAwardRect = slot1:Find("award_rect")
+	slot1 = slot0.achAwardRect
+	slot0.achAchieveBtn = slot1:Find("btn_achieve")
+	slot1 = slot0.entrancePanel
+	slot0.overviewBtn = slot1:Find("btn_overview")
 	slot0.subviewAchAward = WorldAchAwardSubview.New(slot0._tf, slot0.event)
 
 	slot0:bind(WorldAchAwardSubview.ShowDrop, function (slot0, slot1)
@@ -204,8 +222,10 @@ function slot0.UpdateAchievement(slot0, slot1)
 end
 
 function slot0.GetAwardIndex(slot0, slot1)
+	slot3 = #slot0.achEntranceList - 1 - slot0.rtMain:Find("list_bg/map_list").rect.width / slot0.entranceContainer:Find("item"):GetComponent(typeof(LayoutElement)).preferredWidth
+
 	if slot1 then
-		if not dichotomy(math.ceil(slot0.entranceContainer:GetComponent(typeof(ScrollRect)).normalizedPosition.x * (#slot0.achEntranceList - 1 - slot0.rtMain:Find("list_bg/map_list").rect.width / slot0.entranceContainer:Find("item"):GetComponent(typeof(LayoutElement)).preferredWidth) + 1 + slot2), slot0.achAwardIndexList) then
+		if not dichotomy(math.ceil(slot0.entranceContainer:GetComponent(typeof(ScrollRect)).normalizedPosition.x * slot3 + 1 + slot2), slot0.achAwardIndexList) then
 			return
 		elseif slot0.achAwardIndexList[slot5] <= slot4 then
 			return slot0.achAwardIndexList[slot5 + 1]

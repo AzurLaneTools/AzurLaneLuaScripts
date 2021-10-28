@@ -168,8 +168,9 @@ function slot0.addListener(slot0)
 			uv0:openMainPanel(slot3)
 		else
 			slot4 = {}
+			slot7 = getProxy(PlayerProxy):getData()
 
-			if uv0.ptData:GetAward().type == DROP_TYPE_RESOURCE and slot5.id == PlayerConst.ResGold and getProxy(PlayerProxy):getData():GoldMax(slot5.count) then
+			if uv0.ptData:GetAward().type == DROP_TYPE_RESOURCE and slot5.id == PlayerConst.ResGold and slot7:GoldMax(slot5.count) then
 				table.insert(slot4, function (slot0)
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("gold_max_tip_title") .. i18n("award_max_warning"),
@@ -242,17 +243,19 @@ function slot0.initMainPanel(slot0)
 					slot2 = uv0.iconTable[tostring(uv1)]
 				end
 
-				slot3 = {
-					[slot7] = uv0.secondPanel:GetChild(slot7 - 1)
-				}
+				slot3 = {}
 
 				for slot7 = 1, 3 do
+					slot3[slot7] = uv0.secondPanel:GetChild(slot7 - 1)
 				end
 
 				if #slot2 == 1 then
 					setActive(slot3[2], false)
 					setActive(slot3[3], false)
-					setImageSprite(uv0:findTF("icon", slot3[1]), getImageSprite(slot2[1]), true)
+
+					slot6 = uv0
+
+					setImageSprite(slot6:findTF("icon", slot3[1]), getImageSprite(slot2[1]), true)
 					onToggle(uv0, slot3[1], function (slot0)
 						if slot0 == true then
 							uv0:openSelectBtn()
@@ -266,7 +269,9 @@ function slot0.initMainPanel(slot0)
 					setActive(slot3[3], true)
 
 					for slot7 = 1, 3 do
-						setImageSprite(uv0:findTF("icon", slot3[slot7]), getImageSprite(slot2[slot7]), true)
+						slot10 = uv0
+
+						setImageSprite(slot10:findTF("icon", slot3[slot7]), getImageSprite(slot2[slot7]), true)
 						onToggle(uv0, slot3[slot7], function (slot0)
 							if slot0 == true then
 								uv0:openSelectBtn()
@@ -334,16 +339,24 @@ function slot0.openMainPanel(slot0, slot1)
 
 	slot0:updateMainSelectPanel()
 	setActive(slot0.specialTF, true)
-	LeanTween.value(go(slot0.mainPanel), 0, 1, uv0.Menu_Ani_Open_Time):setOnUpdate(System.Action_float(function (slot0)
+
+	slot2 = LeanTween.value(go(slot0.mainPanel), 0, 1, uv0.Menu_Ani_Open_Time)
+	slot2 = slot2:setOnUpdate(System.Action_float(function (slot0)
 		uv0.mainPanelCG.alpha = slot0
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot2:setOnComplete(System.Action(function ()
 		uv0.mainPanelCG.alpha = 1
 	end))
-	LeanTween.value(go(slot0.mainPanel), -640, 0, uv0.Menu_Ani_Open_Time):setOnUpdate(System.Action_float(function (slot0)
+
+	slot2 = LeanTween.value(go(slot0.mainPanel), -640, 0, uv0.Menu_Ani_Open_Time)
+	slot2 = slot2:setOnUpdate(System.Action_float(function (slot0)
 		setLocalPosition(uv0.mainPanel, {
 			x = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot2:setOnComplete(System.Action(function ()
 		setLocalPosition(uv0.mainPanel, {
 			x = 0
 		})
@@ -355,18 +368,25 @@ function slot0.openMainPanel(slot0, slot1)
 end
 
 function slot0.closeMainPanel(slot0)
-	LeanTween.value(go(slot0.mainPanel), 1, 0, uv0.Menu_Ani_Close_Time):setOnUpdate(System.Action_float(function (slot0)
+	slot1 = LeanTween.value(go(slot0.mainPanel), 1, 0, uv0.Menu_Ani_Close_Time)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		uv0.mainPanelCG.alpha = slot0
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		uv0.mainPanelCG.alpha = 0
 
 		setActive(uv0.specialTF, false)
 	end))
-	LeanTween.value(go(slot0.mainPanel), 0, -640, uv0.Menu_Ani_Close_Time):setOnUpdate(System.Action_float(function (slot0)
+
+	slot1 = LeanTween.value(go(slot0.mainPanel), 0, -640, uv0.Menu_Ani_Close_Time)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setLocalPosition(uv0.mainPanel, {
 			x = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		setLocalPosition(uv0.mainPanel, {
 			x = -640
 		})
@@ -376,16 +396,24 @@ end
 
 function slot0.openSecondPanel(slot0)
 	setActive(slot0.secondPanel, true)
-	LeanTween.value(go(slot0.secondPanel), 0, 1, uv0.Menu_Ani_Open_Time):setOnUpdate(System.Action_float(function (slot0)
+
+	slot1 = LeanTween.value(go(slot0.secondPanel), 0, 1, uv0.Menu_Ani_Open_Time)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		uv0.secondPanelCG.alpha = slot0
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		uv0.secondPanelCG.alpha = 1
 	end))
-	LeanTween.value(go(slot0.secondPanel), -530, -60, uv0.Menu_Ani_Open_Time):setOnUpdate(System.Action_float(function (slot0)
+
+	slot1 = LeanTween.value(go(slot0.secondPanel), -530, -60, uv0.Menu_Ani_Open_Time)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setLocalPosition(uv0.secondPanel, {
 			y = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		setLocalPosition(uv0.secondPanel, {
 			y = -60
 		})
@@ -393,18 +421,25 @@ function slot0.openSecondPanel(slot0)
 end
 
 function slot0.closeSecondPanel(slot0)
-	LeanTween.value(go(slot0.secondPanel), 1, 0, uv0.Menu_Ani_Close_Time):setOnUpdate(System.Action_float(function (slot0)
+	slot1 = LeanTween.value(go(slot0.secondPanel), 1, 0, uv0.Menu_Ani_Close_Time)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		uv0.secondPanelCG.alpha = slot0
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		uv0.secondPanelCG.alpha = 0
 
 		setActive(uv0.secondPanel, false)
 	end))
-	LeanTween.value(go(slot0.secondPanel), -60, -530, uv0.Menu_Ani_Close_Time):setOnUpdate(System.Action_float(function (slot0)
+
+	slot1 = LeanTween.value(go(slot0.secondPanel), -60, -530, uv0.Menu_Ani_Close_Time)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setLocalPosition(uv0.secondPanel, {
 			y = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		setLocalPosition(uv0.secondPanel, {
 			y = -530
 		})
@@ -415,16 +450,24 @@ end
 
 function slot0.openSelectBtn(slot0)
 	setActive(slot0.selectBtn, true)
-	LeanTween.value(go(slot0.selectBtn), 0, 1, uv0.Menu_Ani_Open_Time):setOnUpdate(System.Action_float(function (slot0)
+
+	slot1 = LeanTween.value(go(slot0.selectBtn), 0, 1, uv0.Menu_Ani_Open_Time)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setImageAlpha(uv0.selectBtn, slot0)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		setImageAlpha(uv0.selectBtn, 1)
 	end))
-	LeanTween.value(go(slot0.selectBtn), -145, -210, uv0.Menu_Ani_Open_Time):setOnUpdate(System.Action_float(function (slot0)
+
+	slot1 = LeanTween.value(go(slot0.selectBtn), -145, -210, uv0.Menu_Ani_Open_Time)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setLocalPosition(uv0.selectBtn, {
 			y = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		setLocalPosition(uv0.selectBtn, {
 			y = -210
 		})
@@ -432,17 +475,24 @@ function slot0.openSelectBtn(slot0)
 end
 
 function slot0.closeSelectBtn(slot0)
-	LeanTween.value(go(slot0.selectBtn), 1, 0, uv0.Menu_Ani_Close_Time):setOnUpdate(System.Action_float(function (slot0)
+	slot1 = LeanTween.value(go(slot0.selectBtn), 1, 0, uv0.Menu_Ani_Close_Time)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setImageAlpha(uv0.selectBtn, slot0)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		setImageAlpha(uv0.selectBtn, 0)
 		setActive(uv0.selectBtn, false)
 	end))
-	LeanTween.value(go(slot0.selectBtn), -210, -145, uv0.Menu_Ani_Close_Time):setOnUpdate(System.Action_float(function (slot0)
+
+	slot1 = LeanTween.value(go(slot0.selectBtn), -210, -145, uv0.Menu_Ani_Close_Time)
+	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setLocalPosition(uv0.selectBtn, {
 			y = slot0
 		})
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot1:setOnComplete(System.Action(function ()
 		setLocalPosition(uv0.selectBtn, {
 			y = -145
 		})
@@ -566,7 +616,9 @@ function slot0.saveSelectedList(slot0)
 end
 
 function slot0.share(slot0)
-	PoolMgr.GetInstance():GetUI("PizzahutSharePage", false, function (slot0)
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetUI("PizzahutSharePage", false, function (slot0)
 		SetParent(slot0, GameObject.Find("UICamera/Canvas/UIMain"), false)
 
 		uv0.shareGo = slot0
@@ -638,18 +690,25 @@ function slot0.showBubble(slot0, slot1)
 	setText(slot0.bubbleText, slot2)
 
 	function slot4()
-		LeanTween.value(go(uv0.bubble), 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
+		slot0 = LeanTween.value(go(uv0.bubble), 1, 0, uv1.FADE_OUT_TIME)
+		slot0 = slot0:setOnUpdate(System.Action_float(uv2))
+
+		slot0:setOnComplete(System.Action(function ()
 			setActive(uv0.bubble, false)
 		end))
 	end
 
 	LeanTween.cancel(go(slot0.bubble))
 	setActive(slot0.bubble, true)
-	LeanTween.value(go(slot0.bubble), 0, 1, uv0.FADE_TIME):setOnUpdate(System.Action_float(function (slot0)
+
+	slot5 = LeanTween.value(go(slot0.bubble), 0, 1, uv0.FADE_TIME)
+	slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
 		uv0.bubbleCG.alpha = slot0
 
 		setLocalScale(uv0.bubble, Vector3.one * slot0)
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot5:setOnComplete(System.Action(function ()
 		LeanTween.delayedCall(go(uv0.bubble), uv1.SHOW_TIME, System.Action(uv2))
 	end))
 end

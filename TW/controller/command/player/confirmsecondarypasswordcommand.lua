@@ -1,8 +1,13 @@
 slot0 = class("ConfirmSecondaryPasswordCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.UIMgr.GetInstance():LoadingOn()
-	pg.ConnectionMgr.GetInstance():Send(11609, {
+	slot3 = pg.UIMgr.GetInstance()
+
+	slot3:LoadingOn()
+
+	slot3 = pg.ConnectionMgr.GetInstance()
+
+	slot3:Send(11609, {
 		password = slot1:getBody().pwd
 	}, 11610, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()

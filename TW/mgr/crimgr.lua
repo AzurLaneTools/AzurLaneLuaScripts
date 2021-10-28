@@ -203,7 +203,9 @@ end
 
 function slot1.PlaySE_V3(slot0, slot1, slot2)
 	if CriAtom.GetCueSheet("se-ui") and slot3.acb and slot3.acb:Exists(slot1) then
-		CriWareMgr.Inst:PlaySE(slot1, nil, function (slot0)
+		slot4 = CriWareMgr.Inst
+
+		slot4:PlaySE(slot1, nil, function (slot0)
 			if uv0 ~= nil then
 				uv0(slot0)
 			end

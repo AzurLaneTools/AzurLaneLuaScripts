@@ -47,8 +47,10 @@ function slot0.close(slot0)
 end
 
 function slot0.updateDesc(slot0)
+	slot1 = slot0.fleet:getCommanders()
+
 	for slot5 = 1, CommanderConst.MAX_FORMATION_POS do
-		slot6 = slot0.fleet:getCommanders()[slot5]
+		slot6 = slot1[slot5]
 
 		slot0:updateCommander(slot0["descPos" .. slot5], slot5, slot6)
 		slot0:updateSkillTF(slot6, slot0["skillTFPos" .. slot5])

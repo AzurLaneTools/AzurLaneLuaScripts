@@ -43,33 +43,57 @@ function slot0.PlayerUpdated(slot0, slot1)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.icon = slot0:findTF("icon/icon"):GetComponent(typeof(Image))
-	slot0.idTxt = slot0:findTF("ID"):GetComponent(typeof(Text))
-	slot0.idLabel = slot0:findTF("ID_label"):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("icon/icon")
+	slot0.icon = slot1:GetComponent(typeof(Image))
+	slot1 = slot0:findTF("ID")
+	slot0.idTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0:findTF("ID_label")
+	slot0.idLabel = slot1:GetComponent(typeof(Text))
 	slot0.copyBtn = slot0:findTF("copy")
-	slot0.nameTxt = slot0:findTF("name/Text"):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("name/Text")
+	slot0.nameTxt = slot1:GetComponent(typeof(Text))
 	slot0.sortBtn = slot0:findTF("sort")
 	slot0.sortArr = slot0:findTF("sort/arr")
-	slot0.sortTxt = slot0:findTF("sort/Text"):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("sort/Text")
+	slot0.sortTxt = slot1:GetComponent(typeof(Text))
 	slot0.filterBtn = slot0:findTF("filter")
-	slot0.filterTxt = slot0:findTF("filter/Text"):GetComponent(typeof(Text))
+	slot1 = slot0:findTF("filter/Text")
+	slot0.filterTxt = slot1:GetComponent(typeof(Text))
 
 	setActive(slot0.sortBtn, false)
 	setActive(slot0.filterBtn, false)
 
 	slot0.mainPanel = slot0:findTF("main")
-	slot0.timeTxt = slot0.mainPanel:Find("time"):GetComponent(typeof(Text))
-	slot0.btn1 = slot0.mainPanel:Find("desc_btn")
-	slot0.btn1Txt = slot0.mainPanel:Find("desc_btn/btn_word2"):GetComponent(typeof(Image))
-	slot0.btn2 = slot0.mainPanel:Find("push_btn")
-	slot0.btn2Txt = slot0.mainPanel:Find("push_btn/btn_word1"):GetComponent(typeof(Image))
-	slot0.heart = slot0.mainPanel:Find("heart")
-	slot0.heartSel = slot0.mainPanel:Find("heart/sel")
-	slot0.heartTxt = slot0.mainPanel:Find("heart/Text"):GetComponent(typeof(Text))
-	slot0.collection = slot0.mainPanel:Find("collection")
-	slot0.collectionSel = slot0.mainPanel:Find("collection/sel")
-	slot0.collectionTxt = slot0.mainPanel:Find("collection/Text"):GetComponent(typeof(Text))
-	slot0.label1 = slot0.mainPanel:Find("search1"):GetComponent(typeof(Text))
+	slot1 = slot0.mainPanel
+	slot1 = slot1:Find("time")
+	slot0.timeTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0.mainPanel
+	slot0.btn1 = slot1:Find("desc_btn")
+	slot1 = slot0.mainPanel
+	slot1 = slot1:Find("desc_btn/btn_word2")
+	slot0.btn1Txt = slot1:GetComponent(typeof(Image))
+	slot1 = slot0.mainPanel
+	slot0.btn2 = slot1:Find("push_btn")
+	slot1 = slot0.mainPanel
+	slot1 = slot1:Find("push_btn/btn_word1")
+	slot0.btn2Txt = slot1:GetComponent(typeof(Image))
+	slot1 = slot0.mainPanel
+	slot0.heart = slot1:Find("heart")
+	slot1 = slot0.mainPanel
+	slot0.heartSel = slot1:Find("heart/sel")
+	slot1 = slot0.mainPanel
+	slot1 = slot1:Find("heart/Text")
+	slot0.heartTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0.mainPanel
+	slot0.collection = slot1:Find("collection")
+	slot1 = slot0.mainPanel
+	slot0.collectionSel = slot1:Find("collection/sel")
+	slot1 = slot0.mainPanel
+	slot1 = slot1:Find("collection/Text")
+	slot0.collectionTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0.mainPanel
+	slot1 = slot1:Find("search1")
+	slot0.label1 = slot1:GetComponent(typeof(Text))
 
 	setActive(slot0.label1.gameObject, false)
 
@@ -158,6 +182,8 @@ function slot0.Update1(slot0)
 end
 
 function slot0.Update2(slot0)
+	slot1 = slot0.template
+
 	onButton(slot0, slot0.btn1, function ()
 		uv0:emit(NewBackYardThemeTemplateMediator.ON_DELETE_TEMPLATE, uv1)
 	end, SFX_PANEL)
@@ -169,7 +195,7 @@ function slot0.Update2(slot0)
 		end
 	end, SFX_PANEL)
 
-	if not slot0.template:IsPushed() then
+	if not slot1:IsPushed() then
 		slot0.timeTxt.text = i18n("backyard_theme_upload_cnt", getProxy(DormProxy):GetUploadThemeTemplateCnt(), BackYardConst.MAX_UPLOAD_THEME_CNT)
 	end
 end
@@ -188,7 +214,8 @@ function slot0.UpdatePlayer(slot0)
 		slot0.player = slot1
 		slot0.nameTxt.text = slot1.name
 		slot0.idTxt.text = slot0.template.id
-		slot0.timeTxt.text = i18n("backyard_theme_upload_time") .. slot0.template:GetUploadTime()
+		slot4 = slot0.template
+		slot0.timeTxt.text = i18n("backyard_theme_upload_time") .. slot4:GetUploadTime()
 
 		LoadSpriteAsync("qicon/" .. slot1:getPainting(), function (slot0)
 			if IsNil(uv0.icon) then
@@ -205,8 +232,9 @@ function slot0.UpdatePlayer(slot0)
 		end
 
 		slot2 = AttireFrame.attireFrameRes(slot1, false, AttireConst.TYPE_ICON_FRAME, slot1.propose)
+		slot3 = PoolMgr.GetInstance()
 
-		PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot2, slot2, true, function (slot0)
+		slot3:GetPrefab("IconFrame/" .. slot2, slot2, true, function (slot0)
 			if uv0.icon then
 				slot0.name = uv1
 				findTF(slot0.transform, "icon"):GetComponent(typeof(Image)).raycastTarget = false
@@ -264,52 +292,54 @@ function slot0.UpdateLikeInfo(slot0)
 end
 
 function slot0.UpdateWindow(slot0)
+	function slot1(slot0)
+		slot1 = -224
+		slot2 = -314
+		slot3 = 0
+		slot4 = 0
+
+		if slot0 == uv0 then
+			slot4 = 338
+			slot3 = 580
+		elseif slot0 == uv1 then
+			slot4 = 265
+			slot3 = 505
+			slot1 = -153
+			slot2 = -230
+		elseif slot0 == uv2 then
+			slot4 = 196
+			slot3 = 436
+			slot1 = -145
+			slot2 = -237
+		end
+
+		setAnchoredPosition(uv3.btn1, {
+			y = slot1
+		})
+		setAnchoredPosition(uv3.btn2, {
+			y = slot1
+		})
+
+		uv3._tf.sizeDelta = Vector2(uv3._tf.sizeDelta.x, slot3)
+		uv3.mainPanel.sizeDelta = Vector2(uv3.mainPanel.sizeDelta.x, slot4)
+
+		setActive(uv3.heart, slot0 ~= uv2)
+		setActive(uv3.collection, slot0 ~= uv2)
+		setAnchoredPosition(uv3.heart, {
+			y = slot2
+		})
+		setAnchoredPosition(uv3.collection, {
+			y = slot2
+		})
+	end
+
 	slot2, slot3 = nil
 	slot4 = uv3(slot0.pageType)
 
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then
 		slot5 = slot0.template:IsPushed() and uv1 or uv2
 
-		(function (slot0)
-			slot1 = -224
-			slot2 = -314
-			slot3 = 0
-			slot4 = 0
-
-			if slot0 == uv0 then
-				slot4 = 338
-				slot3 = 580
-			elseif slot0 == uv1 then
-				slot4 = 265
-				slot3 = 505
-				slot1 = -153
-				slot2 = -230
-			elseif slot0 == uv2 then
-				slot4 = 196
-				slot3 = 436
-				slot1 = -145
-				slot2 = -237
-			end
-
-			setAnchoredPosition(uv3.btn1, {
-				y = slot1
-			})
-			setAnchoredPosition(uv3.btn2, {
-				y = slot1
-			})
-
-			uv3._tf.sizeDelta = Vector2(uv3._tf.sizeDelta.x, slot3)
-			uv3.mainPanel.sizeDelta = Vector2(uv3.mainPanel.sizeDelta.x, slot4)
-
-			setActive(uv3.heart, slot0 ~= uv2)
-			setActive(uv3.collection, slot0 ~= uv2)
-			setAnchoredPosition(uv3.heart, {
-				y = slot2
-			})
-			setAnchoredPosition(uv3.collection, {
-				y = slot2
-			})
-		end)(slot5)
+		slot1(slot5)
 
 		slot2 = slot4[1]
 		slot3 = slot5 == uv1 and slot4[3] or slot4[2]

@@ -835,8 +835,10 @@ function slot43(slot0, slot1, slot2)
 	slot4, slot5 = nil
 
 	if not (uv1(slot1, 67108864) == 0) and uv1(slot1, 33554432) == 0 then
+		slot5 = uv1(slot1, 4095)
+
 		if uv1(slot1, 8388608) == 0 then
-			slot5 = -uv1(slot1, 4095)
+			slot5 = -slot5
 		end
 
 		if slot3 == "pc" then
@@ -845,8 +847,10 @@ function slot43(slot0, slot1, slot2)
 
 		slot5 = "#" .. slot5
 	elseif slot6 and uv1(slot1, 4194304) ~= 0 then
+		slot5 = uv1(slot1, 15) + uv1(uv2(slot1, 4), 240)
+
 		if uv1(slot1, 8388608) == 0 then
-			slot5 = -(uv1(slot1, 15) + uv1(uv2(slot1, 4), 240))
+			slot5 = -slot5
 		end
 
 		if slot3 == "pc" then
@@ -876,8 +880,10 @@ function slot43(slot0, slot1, slot2)
 		end
 	end
 
+	slot4 = (slot5 ~= "#0" or uv3("[%s]", slot3)) and (uv1(slot1, 16777216) ~= 0 or uv3("[%s], %s", slot3, slot5)) and uv3("[%s, %s]", slot3, slot5)
+
 	if uv1(slot1, 18874368) == 18874368 then
-		slot4 = ((slot5 ~= "#0" or uv3("[%s]", slot3)) and (uv1(slot1, 16777216) ~= 0 or uv3("[%s], %s", slot3, slot5)) and uv3("[%s, %s]", slot3, slot5)) .. "!"
+		slot4 = slot4 .. "!"
 	end
 
 	return slot4
@@ -885,9 +891,10 @@ end
 
 function slot44(slot0, slot1, slot2)
 	slot3 = uv0[uv1(uv2(slot1, 16), 15)]
+	slot4 = uv1(slot1, 255) * 4
 
 	if uv1(slot1, 8388608) == 0 then
-		slot4 = -(uv1(slot1, 255) * 4)
+		slot4 = -slot4
 	end
 
 	if slot3 == "pc" then
@@ -965,27 +972,32 @@ function slot46(slot0)
 		elseif slot18 == "P" then
 			if uv5(slot6, 33554432) ~= 0 then
 				slot19 = uv15(uv5(slot6, 255), 2 * uv5(uv3(slot6, 8), 15))
-			elseif uv5(slot6, 4080) ~= 0 then
-				slot7[#slot7 + 1] = uv13[uv5(slot6, 15)]
-				slot21 = nil
+			else
+				slot19 = uv13[uv5(slot6, 15)]
 
-				if uv5(slot6, 3984) == 0 then
-					if uv16[uv5(uv3(slot6, 5), 3)] == "ror" then
-						slot20 = "rrx"
+				if uv5(slot6, 4080) ~= 0 then
+					slot7[#slot7 + 1] = slot19
+					slot20 = uv16[uv5(uv3(slot6, 5), 3)]
+					slot21 = nil
+
+					if uv5(slot6, 3984) == 0 then
+						if slot20 == "ror" then
+							slot20 = "rrx"
+						else
+							slot21 = "#32"
+						end
 					else
-						slot21 = "#32"
+						slot21 = uv5(slot6, 16) == 0 and "#" .. uv5(uv3(slot6, 7), 31) or uv13[uv5(uv3(slot6, 8), 15)]
 					end
-				else
-					slot21 = uv5(slot6, 16) == 0 and "#" .. uv5(uv3(slot6, 7), 31) or uv13[uv5(uv3(slot6, 8), 15)]
-				end
 
-				if slot10 == "mov" then
-					slot10 = slot20
-					slot19 = slot21
-				elseif slot21 then
-					slot19 = uv17("%s %s", slot20, slot21)
-				else
-					slot19 = slot20
+					if slot10 == "mov" then
+						slot10 = slot20
+						slot19 = slot21
+					elseif slot21 then
+						slot19 = uv17("%s %s", slot20, slot21)
+					else
+						slot19 = slot20
+					end
 				end
 			end
 		elseif slot18 == "L" then
@@ -993,8 +1005,10 @@ function slot46(slot0)
 		elseif slot18 == "l" then
 			slot19 = uv19(slot0, slot6, slot1)
 		elseif slot18 == "B" then
+			slot20 = slot0.addr + slot1 + 8 + uv20(uv2(slot6, 8), 6)
+
 			if slot13 == 15 then
-				slot20 = slot0.addr + slot1 + 8 + uv20(uv2(slot6, 8), 6) + uv5(uv3(slot6, 23), 2)
+				slot20 = slot20 + uv5(uv3(slot6, 23), 2)
 			end
 
 			slot0.rel = slot20
@@ -1025,9 +1039,10 @@ function slot46(slot0)
 			end
 
 			slot20 = tonumber(uv11(slot9, 2))
+			slot21 = uv5(slot6, 255)
 
 			if slot12 == "d" then
-				slot21 = uv3(uv5(slot6, 255), 1)
+				slot21 = uv3(slot21, 1)
 			end
 
 			slot7[#slot7] = uv17("{%s-%s%d}", slot9, slot12, slot20 + slot21 - 1)
@@ -1040,8 +1055,10 @@ function slot46(slot0)
 				slot19 = nil
 			end
 		elseif slot18 == "u" then
+			slot19 = uv5(uv3(slot6, 7), 31)
+
 			if uv5(slot6, 64) == 0 then
-				if uv5(uv3(slot6, 7), 31) == 0 then
+				if slot19 == 0 then
 					slot19 = nil
 				else
 					slot19 = "lsl #" .. slot19
@@ -1083,10 +1100,11 @@ end
 
 function slot47(slot0, slot1, slot2)
 	slot1 = slot1 or 0
+	slot3 = slot2 and slot1 + slot2 or #slot0.code
 	slot0.pos = slot1
 	slot0.rel = nil
 
-	while slot0.pos < (slot2 and slot1 + slot2 or #slot0.code) do
+	while slot0.pos < slot3 do
 		uv0(slot0)
 	end
 end

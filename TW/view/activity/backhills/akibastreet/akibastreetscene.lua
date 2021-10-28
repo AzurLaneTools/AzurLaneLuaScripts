@@ -25,7 +25,8 @@ function slot0.init(slot0)
 
 	slot0._front = slot0._map:Find("top")
 	slot0._middle = slot0._map:Find("middle")
-	slot0._bottom = slot0._map:Find("bottom")
+	slot1 = slot0._map
+	slot0._bottom = slot1:Find("bottom")
 	slot0.containers = {
 		slot0._front,
 		slot0._middle,
@@ -61,7 +62,9 @@ function slot0.RegisterDataResponse(slot0)
 		"moxingdian",
 		"kafeiting"
 	}) do
-		slot0.Respones:AddRawListener({
+		slot7 = slot0.Respones
+
+		slot7:AddRawListener({
 			"view",
 			slot6
 		}, function (slot0, slot1)
@@ -89,7 +92,9 @@ function slot0.RegisterDataResponse(slot0)
 		"shujvhuigu",
 		"xianshijianzao"
 	}) do
-		slot0.Respones:AddRawListener({
+		slot8 = slot0.Respones
+
+		slot8:AddRawListener({
 			"view",
 			slot7 .. "Tip"
 		}, function (slot0, slot1)
@@ -102,8 +107,9 @@ function slot0.RegisterDataResponse(slot0)
 	end
 
 	slot0.Respones.hubData = {}
+	slot3 = slot0.Respones
 
-	slot0.Respones:AddRawListener({
+	slot3:AddRawListener({
 		"view",
 		"hubData"
 	}, function (slot0, slot1)
@@ -111,7 +117,10 @@ function slot0.RegisterDataResponse(slot0)
 	end, {
 		strict = true
 	})
-	slot0.Respones:AddRawListener({
+
+	slot3 = slot0.Respones
+
+	slot3:AddRawListener({
 		"view",
 		"materialCount"
 	}, function (slot0, slot1)

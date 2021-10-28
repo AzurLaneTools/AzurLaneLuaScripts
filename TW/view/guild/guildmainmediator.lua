@@ -185,8 +185,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GuildProxy.GUILD_UPDATED then
-		slot0.viewComponent:setGuildVO(slot1:getBody())
+		slot0.viewComponent:setGuildVO(slot3)
 	elseif slot2 == GuildProxy.EXIT_GUILD then
 		slot0.viewComponent:emit(uv0.ON_BACK)
 	elseif slot2 == GAME.MODIFY_GUILD_INFO_DONE then

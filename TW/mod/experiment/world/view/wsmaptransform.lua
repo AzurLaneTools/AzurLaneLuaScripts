@@ -15,8 +15,10 @@ function slot0.SetModelOrder(slot0, slot1, slot2)
 		setCanvasOverrideSorting(slot0.transform, true)
 	end
 
+	slot3 = 0
+
 	if slot0.modelOrder then
-		slot3 = 0 - slot0.modelOrder
+		slot3 = slot3 - slot0.modelOrder
 	end
 
 	slot0.modelOrder = slot1 + defaultValue(slot2, 0) * 10

@@ -90,7 +90,10 @@ end
 
 function slot0.updateValue(slot0)
 	setText(slot0.valueText, slot0.count)
-	slot0.ulist:each(function (slot0, slot1)
+
+	slot1 = slot0.ulist
+
+	slot1:each(function (slot0, slot1)
 		setText(slot1:Find("item/bg/icon_bg/count"), uv0.count)
 	end)
 end

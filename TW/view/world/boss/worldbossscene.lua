@@ -139,8 +139,13 @@ end
 
 function slot0.LoadEffect(slot0, slot1)
 	if (slot1 == uv0.PAGE_SELF and slot0.boss or slot1 == uv0.PAGE_OTHER and slot0.bossProxy:ExistCacheBoss()) and not slot0.fireEffect then
-		pg.UIMgr.GetInstance():LoadingOn()
-		PoolMgr.GetInstance():GetUI("gondouBoss_huoxing", true, function (slot0)
+		slot3 = pg.UIMgr.GetInstance()
+
+		slot3:LoadingOn()
+
+		slot3 = PoolMgr.GetInstance()
+
+		slot3:GetUI("gondouBoss_huoxing", true, function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
 			uv0.fireEffect = slot0

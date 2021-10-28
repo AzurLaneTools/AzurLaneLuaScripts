@@ -14,7 +14,8 @@ function slot0.init(slot0)
 		slot0["map_" .. go(slot5).name] = slot5
 	end
 
-	slot0._shipTpl = slot0._map:Find("ship")
+	slot1 = slot0._map
+	slot0._shipTpl = slot1:Find("ship")
 	slot0.containers = {
 		slot0.map_middle,
 		slot0.map_top
@@ -53,7 +54,9 @@ function slot0.RegisterDataResponse(slot0)
 		"xuanzhuanmuma",
 		"tiaolouji"
 	}) do
-		slot0.Respones:AddRawListener({
+		slot7 = slot0.Respones
+
+		slot7:AddRawListener({
 			"view",
 			slot6
 		}, function (slot0, slot1)
@@ -79,7 +82,9 @@ function slot0.RegisterDataResponse(slot0)
 		"dangaobaoweizhan",
 		"jiujiuduihuanwu"
 	}) do
-		slot0.Respones:AddRawListener({
+		slot8 = slot0.Respones
+
+		slot8:AddRawListener({
 			"view",
 			slot7 .. "Tip"
 		}, function (slot0, slot1)
@@ -92,8 +97,9 @@ function slot0.RegisterDataResponse(slot0)
 	end
 
 	slot0.Respones.hubData = {}
+	slot3 = slot0.Respones
 
-	slot0.Respones:AddRawListener({
+	slot3:AddRawListener({
 		"view",
 		"hubData"
 	}, function (slot0, slot1)
@@ -101,7 +107,10 @@ function slot0.RegisterDataResponse(slot0)
 	end, {
 		strict = true
 	})
-	slot0.Respones:AddRawListener({
+
+	slot3 = slot0.Respones
+
+	slot3:AddRawListener({
 		"view",
 		"materialCount"
 	}, function (slot0, slot1)

@@ -75,10 +75,12 @@ function slot0.execute(slot0, slot1)
 
 			slot5:updateRemasterTicketsNum(math.min(slot5.remasterTickets + slot2.count, pg.gameset.reactivity_ticket_max.key_value))
 		elseif slot4 == 9 then
+			slot5 = getProxy(ActivityProxy)
+
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) then
 				slot6.data1_list[1] = slot6.data1_list[1] + slot2.count
 
-				getProxy(ActivityProxy):updateActivity(slot6)
+				slot5:updateActivity(slot6)
 			end
 		elseif slot4 == 10 then
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot6:isEnd() then

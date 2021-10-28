@@ -165,9 +165,11 @@ function slot2.Clear(slot0)
 end
 
 function slot2.GetUnfinishedWaveCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0._waveInfoList) do
 		if not slot6:IsFinish() then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 

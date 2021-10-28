@@ -36,7 +36,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	function slot8()
-		pg.ConnectionMgr.GetInstance():Send(12034, {
+		slot0 = pg.ConnectionMgr.GetInstance()
+
+		slot0:Send(12034, {
 			ship_id = uv0,
 			name = uv1 == uv2 and "" or uv1
 		}, 12035, function (slot0)

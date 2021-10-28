@@ -43,7 +43,9 @@ function slot0.selectedAnim(slot0)
 		LeanTween.cancel(slot0.infoTF)
 	end
 
-	LeanTween.moveY(rtf(slot0.infoTF), 20, 0.1):setOnComplete(System.Action(function ()
+	slot2 = LeanTween.moveY(rtf(slot0.infoTF), 20, 0.1)
+
+	slot2:setOnComplete(System.Action(function ()
 		LeanTween.moveY(rtf(uv0.infoTF), 0, 0.1)
 	end))
 end

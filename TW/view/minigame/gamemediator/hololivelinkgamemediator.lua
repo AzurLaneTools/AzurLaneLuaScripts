@@ -1,7 +1,9 @@
 slot0 = class("HoloLiveLinkGameMediator", import(".MiniHubMediator"))
 
 function slot0.handleNotification(slot0, slot1)
-	if slot1:getName() == GAME.SEND_MINI_GAME_OP_DONE and slot1:getBody().cmd == MiniGameOPCommand.CMD_COMPLETE then
+	slot3 = slot1:getBody()
+
+	if slot1:getName() == GAME.SEND_MINI_GAME_OP_DONE and slot3.cmd == MiniGameOPCommand.CMD_COMPLETE then
 		seriesAsync({
 			function (slot0)
 				if #uv0.awards > 0 then

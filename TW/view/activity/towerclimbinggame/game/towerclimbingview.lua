@@ -135,7 +135,9 @@ end
 
 function slot0.OnSlip(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = GetOrAddComponent(slot1, "EventTriggerListener")
-	slot8 = GameObject.Find("UICamera"):GetComponent("Camera"):WorldToScreenPoint(slot0.leftLayout.position)
+	slot7 = GameObject.Find("UICamera")
+	slot7 = slot7:GetComponent("Camera")
+	slot8 = slot7:WorldToScreenPoint(slot0.leftLayout.position)
 	slot9 = 0
 	slot10 = 10
 

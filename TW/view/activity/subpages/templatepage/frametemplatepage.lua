@@ -33,8 +33,9 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()
 		slot0 = {}
+		slot3 = getProxy(PlayerProxy):getData()
 
-		if uv0.ptData:GetAward().type == DROP_TYPE_RESOURCE and slot1.id == PlayerConst.ResGold and getProxy(PlayerProxy):getData():GoldMax(slot1.count) then
+		if uv0.ptData:GetAward().type == DROP_TYPE_RESOURCE and slot1.id == PlayerConst.ResGold and slot3:GoldMax(slot1.count) then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("gold_max_tip_title") .. i18n("award_max_warning"),

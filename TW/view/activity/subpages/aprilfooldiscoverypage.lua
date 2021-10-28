@@ -96,8 +96,11 @@ function slot0.OnUpdateFlush(slot0)
 		slot0.bgName = slot3
 	end
 
+	slot4 = slot0.activity.data2_list
+	slot5 = slot0.activity.data3_list
+
 	for slot9, slot10 in ipairs(slot0.items) do
-		slot12 = table.contains(slot0.activity.data2_list, slot0.keyList[slot9]) and 3 or table.contains(slot0.activity.data3_list, slot11) and 2 or 1
+		slot12 = table.contains(slot4, slot0.keyList[slot9]) and 3 or table.contains(slot5, slot11) and 2 or 1
 
 		onButton(slot0, slot10, function ()
 			if uv0 >= 3 then
@@ -192,10 +195,11 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.Clone2Full(slot0, slot1)
+	slot2 = {}
 	slot3 = slot0:GetChild(0)
 
 	for slot8 = 0, slot0.childCount - 1 do
-		table.insert({}, slot0:GetChild(slot8))
+		table.insert(slot2, slot0:GetChild(slot8))
 	end
 
 	for slot8 = slot4, slot1 - 1 do

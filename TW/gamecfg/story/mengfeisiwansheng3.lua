@@ -101,7 +101,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			hideOther = true,
-			actorName = "斯莫利&弗莱彻",
+			actorName = "斯莫利&弗萊契爾",
 			say = "嗚哇！？",
 			effects = {
 				{

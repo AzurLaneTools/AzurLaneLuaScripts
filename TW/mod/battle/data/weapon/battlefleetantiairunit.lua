@@ -128,17 +128,18 @@ function slot8.RemovePrecastTimer(slot0)
 end
 
 function slot8.FilterTarget(slot0)
+	slot2 = {}
+	slot3 = slot0._host:GetIFF()
 	slot4 = 1
 
 	for slot8, slot9 in pairs(slot0._dataProxy:GetAircraftList()) do
-		if slot9:GetIFF() ~= slot0._host:GetIFF() and slot9:IsVisitable() then
+		if slot9:GetIFF() ~= slot3 and slot9:IsVisitable() then
+			slot2[slot4] = slot9
 			slot4 = slot4 + 1
 		end
 	end
 
-	return {
-		[slot4] = slot9
-	}
+	return slot2
 end
 
 function slot8.FilterRange(slot0, slot1)
@@ -169,15 +170,19 @@ function slot8.Fire(slot0)
 
 	slot0._dataProxy:SpawnColumnArea(uv1.AOEField.AIR, slot5, slot6, slot0._range * 2, -1, function (slot0)
 		slot1 = {}
+		slot2 = uv0._dataProxy:GetAircraftList()
 
 		for slot6, slot7 in ipairs(slot0) do
-			if slot7.Active and uv0._dataProxy:GetAircraftList()[slot7.UID] and slot8:IsVisitable() then
+			if slot7.Active and slot2[slot7.UID] and slot8:IsVisitable() then
 				slot1[#slot1 + 1] = slot8
 			end
 		end
 
+		slot3 = uv1.CalculateFleetAntiAirTotalDamage(uv0)
+		slot4 = uv1.GetMeteoDamageRatio(#slot1)
+
 		for slot8, slot9 in ipairs(slot1) do
-			uv0._dataProxy:HandleDirectDamage(slot9, math.max(1, math.floor(uv1.CalculateFleetAntiAirTotalDamage(uv0) * uv1.GetMeteoDamageRatio(#slot1)[slot8])), uv1.WeightListRandom(uv0._weightList, uv0._totalWeight))
+			uv0._dataProxy:HandleDirectDamage(slot9, math.max(1, math.floor(slot3 * slot4[slot8])), uv1.WeightListRandom(uv0._weightList, uv0._totalWeight))
 		end
 	end)
 	slot0:EnterCoolDown()

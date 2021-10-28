@@ -36,7 +36,9 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(61003, {
+	slot13 = pg.ConnectionMgr.GetInstance()
+
+	slot13:Send(61003, {
 		shipIds = slot11
 	}, 61004, function (slot0)
 		if slot0.result == 0 then

@@ -17,13 +17,15 @@ function slot0.IsSameUserId(slot0, slot1)
 end
 
 function slot0.Ctor(slot0, slot1)
-	for slot6, slot7 in ipairs(slot1.ships or {}) do
-		-- Nothing
+	slot2 = {}
+	slot3 = ipairs
+	slot4 = slot1.ships or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot2[slot6] = Ship.New(slot7)
 	end
 
-	slot0:InitShips(slot1.user_id, {
-		[slot6] = Ship.New(slot7)
-	})
+	slot0:InitShips(slot1.user_id, slot2)
 end
 
 function slot0.InitShips(slot0, slot1, slot2)
@@ -121,8 +123,10 @@ function slot0.GetShipById(slot0, slot1)
 end
 
 function slot0.GetShipByRealId(slot0, slot1, slot2)
+	slot3 = uv0.GetVirtualId(slot1, slot2)
+
 	for slot7, slot8 in pairs(slot0.ships) do
-		if slot8.id == uv0.GetVirtualId(slot1, slot2) then
+		if slot8.id == slot3 then
 			return slot8
 		end
 	end
@@ -148,9 +152,7 @@ function slot0.AnyShipChanged(slot0, slot1)
 end
 
 function slot0.PositionIsChanged(slot0, slot1, slot2)
-	slot5 = slot0:GetShipByPos(slot2)
-
-	if (slot1:GetShipByPos(slot2) and slot4.id or 0) ~= (slot5 and slot5.id or 0) or (function (slot0, slot1)
+	function slot3(slot0, slot1)
 		if slot0 and slot1 and slot0.id == slot1.id then
 			for slot5, slot6 in ipairs(slot0.equipments) do
 				if (slot6 and 1 or 0) ~= (slot1.equipments[slot5] and 1 or 0) or slot8 == slot9 and slot8 == 1 and slot6.id ~= slot7.id then
@@ -160,7 +162,11 @@ function slot0.PositionIsChanged(slot0, slot1, slot2)
 		end
 
 		return false
-	end)(slot4, slot5) then
+	end
+
+	slot5 = slot0:GetShipByPos(slot2)
+
+	if (slot1:GetShipByPos(slot2) and slot4.id or 0) ~= (slot5 and slot5.id or 0) or slot3(slot4, slot5) then
 		return true
 	end
 

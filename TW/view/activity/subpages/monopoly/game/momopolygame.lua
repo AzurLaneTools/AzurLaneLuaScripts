@@ -54,9 +54,11 @@ function slot9(slot0)
 		}),
 		state = uv1(),
 		Move = function (slot0, slot1, slot2, slot3)
+			slot2 = slot2 or function ()
+			end
+
 			if #slot1 == 0 then
-				slot2 or function ()
-				end()
+				slot2()
 
 				return
 			end
@@ -70,7 +72,9 @@ function slot9(slot0)
 
 				uv0.onMove(uv2, function ()
 					if uv0:GetAction(uv1[#uv1]) then
-						uv0.state:ChangeState(slot0, function ()
+						slot1 = uv0.state
+
+						slot1:ChangeState(slot0, function ()
 							uv0.state:ChangeState(uv1.stateStand)
 							uv2()
 						end)
@@ -88,9 +92,11 @@ function slot9(slot0)
 			end
 		end,
 		Jump = function (slot0, slot1, slot2)
+			slot2 = slot2 or function ()
+			end
+
 			if #slot1 == 0 then
-				slot2 or function ()
-				end()
+				slot2()
 
 				return
 			end
@@ -99,7 +105,9 @@ function slot9(slot0)
 
 			for slot7, slot8 in pairs(slot1) do
 				table.insert(slot3, function (slot0)
-					uv0.state:ChangeState(uv1.stateJump)
+					slot1 = uv0.state
+
+					slot1:ChangeState(uv1.stateJump)
 					uv0.onJump(uv2, function ()
 						uv0.state:ChangeState(uv1.stateStand)
 						uv2()
@@ -109,7 +117,9 @@ function slot9(slot0)
 
 			seriesAsync(slot3, function ()
 				if uv0:GetAction(uv1[#uv1]) then
-					uv0.state:ChangeState(slot0, function ()
+					slot1 = uv0.state
+
+					slot1:ChangeState(slot0, function ()
 						uv0.state:ChangeState(uv1.stateStand)
 						uv2()
 					end)
@@ -121,7 +131,9 @@ function slot9(slot0)
 		end,
 		Touch = function (slot0)
 			if slot0.state:IsStandState() then
-				slot0.state:ChangeState(uv0.stateTouch, function ()
+				slot1 = slot0.state
+
+				slot1:ChangeState(uv0.stateTouch, function ()
 					uv0.state:ChangeState(uv1.stateStand)
 				end)
 			end
@@ -222,32 +234,41 @@ function slot12(slot0, slot1)
 		onCreateChar = function (slot0)
 		end,
 		Init = function (slot0)
+			slot1 = 0
+
 			for slot5 = 0, uv0.ROW - 1 do
 				uv0:CeateCell({
-					0,
+					slot1,
 					slot5
 				}, 0)
 			end
 
+			slot1 = uv0.ROW - 1
+
 			for slot5 = 1, uv0.COLUMN do
 				uv0:CeateCell({
 					slot5,
-					uv0.ROW - 1
+					slot1
 				}, #slot0.path)
 			end
 
+			slot1 = uv0.COLUMN + 1
+
 			for slot5 = uv0.ROW - 1, 0, -1 do
 				uv0:CeateCell({
-					uv0.COLUMN + 1,
+					slot1,
 					slot5
 				}, #slot0.path)
 			end
 
+			slot1 = 0
+			slot2 = #slot0.path - 1
+
 			for slot6 = uv0.COLUMN, 1, -1 do
 				uv0:CeateCell({
 					slot6,
-					0
-				}, #slot0.path - 1)
+					slot1
+				}, slot2)
 			end
 
 			slot0:CreateChar(uv1)
@@ -345,8 +366,9 @@ function slot14(slot0, slot1)
 	slot3 = slot0:GetChild(0)
 	tf(slot3).localScale = Vector3(0.5, 0.5, 0.5)
 	slot4 = GameObject("mouseChild")
+	slot5 = tf(slot4)
 
-	tf(slot4):SetParent(tf(slot3))
+	slot5:SetParent(tf(slot3))
 
 	tf(slot4).localPosition = Vector3.zero
 
@@ -377,7 +399,9 @@ function slot14(slot0, slot1)
 					if uv0._tf.localPosition == uv1:GetGenPos() then
 						slot0()
 					else
-						LeanTween.moveLocal(go(uv0._tf), slot1, uv2):setOnComplete(System.Action(function ()
+						slot2 = LeanTween.moveLocal(go(uv0._tf), slot1, uv2)
+
+						slot2:setOnComplete(System.Action(function ()
 							uv0.preCellTF = uv1
 
 							uv2()
@@ -423,9 +447,17 @@ function slot14(slot0, slot1)
 			slot0._tf.localScale = Vector3(slot2, 1, 1)
 		end,
 		ChangeAction = function (slot0, slot1, slot2)
-			slot0.SpineAnimUI:SetActionCallBack(nil)
-			slot0.SpineAnimUI:SetAction(slot1, 0)
-			slot0.SpineAnimUI:SetActionCallBack(function (slot0)
+			slot3 = slot0.SpineAnimUI
+
+			slot3:SetActionCallBack(nil)
+
+			slot3 = slot0.SpineAnimUI
+
+			slot3:SetAction(slot1, 0)
+
+			slot3 = slot0.SpineAnimUI
+
+			slot3:SetActionCallBack(function (slot0)
 				if slot0 == "finish" then
 					uv0.SpineAnimUI:SetActionCallBack(nil)
 					uv1()
@@ -458,10 +490,13 @@ function slot0.SetUp(slot0, slot1, slot2)
 
 	parallelAsync({
 		function (slot0)
-			PoolMgr.GetInstance():GetSpineChar(Ship.New({
+			slot1 = Ship.New({
 				configId = uv0,
 				skin_id = uv1
-			}):getPrefab(), true, function (slot0)
+			})
+			slot3 = PoolMgr.GetInstance()
+
+			slot3:GetSpineChar(slot1:getPrefab(), true, function (slot0)
 				uv0.models[uv1.configId] = slot0
 
 				uv2()
@@ -597,7 +632,9 @@ function slot0.blockAllEvent(slot0, slot1)
 end
 
 function slot0.triggerEvent(slot0, slot1, slot2, slot3)
-	slot5 = slot0.mapVO:GetCell(slot1):GetEvent(slot2)
+	slot4 = slot0.mapVO
+	slot4 = slot4:GetCell(slot1)
+	slot5 = slot4:GetEvent(slot2)
 
 	function slot6(slot0, slot1)
 		if slot0 and slot0:ExistStory() then
@@ -621,14 +658,18 @@ function slot0.triggerEvent(slot0, slot1, slot2, slot3)
 					return
 				end
 
-				uv2:emit(MonopolyPage.ON_TRIGGER, uv2.activity.id, function (slot0, slot1)
+				slot0 = uv2
+
+				slot0:emit(MonopolyPage.ON_TRIGGER, uv2.activity.id, function (slot0, slot1)
 					if not slot0 or #slot0 == 0 then
 						uv0()
 
 						return
 					end
 
-					uv1.mapVO:UpdateCharPos(slot0, function ()
+					slot2 = uv1.mapVO
+
+					slot2:UpdateCharPos(slot0, function ()
 						uv2 = uv1.mapVO:GetCell(uv0[#uv0]):GetEvent(uv3)
 
 						uv4(uv2, uv5)
@@ -640,10 +681,12 @@ function slot0.triggerEvent(slot0, slot1, slot2, slot3)
 end
 
 function slot0.checkState(slot0)
+	slot1 = {}
+
 	slot0:blockAllEvent(true)
 
 	if slot0:getStrory() then
-		table.insert({}, function (slot0)
+		table.insert(slot1, function (slot0)
 			pg.NewStoryMgr.GetInstance():Play(uv0, slot0)
 		end)
 	end
@@ -656,14 +699,18 @@ function slot0.checkState(slot0)
 
 	if slot0.step ~= 0 then
 		table.insert(slot1, function (slot0)
-			uv0:emit(MonopolyPage.ON_MOVE, uv0.activity.id, function (slot0, slot1, slot2)
+			slot1 = uv0
+
+			slot1:emit(MonopolyPage.ON_MOVE, uv0.activity.id, function (slot0, slot1, slot2)
 				if not slot1 or #slot1 == 0 then
 					uv0()
 
 					return
 				end
 
-				uv1.mapVO:UpdateCharPos(slot1, function ()
+				slot3 = uv1.mapVO
+
+				slot3:UpdateCharPos(slot1, function ()
 					uv1:triggerEvent(uv0[#uv0], uv2, uv3)
 				end)
 			end)
@@ -686,7 +733,9 @@ function slot0.startAction(slot0)
 			return
 		end
 
-		uv1:emit(MonopolyPage.ON_MOVE, uv2, function (slot0, slot1, slot2)
+		slot1 = uv1
+
+		slot1:emit(MonopolyPage.ON_MOVE, uv2, function (slot0, slot1, slot2)
 			if not slot1 or #slot1 == 0 then
 				uv0()
 
@@ -694,8 +743,9 @@ function slot0.startAction(slot0)
 			end
 
 			uv1 = slot0
+			slot3 = uv2.mapVO
 
-			uv2.mapVO:UpdateCharPos(slot1, function ()
+			slot3:UpdateCharPos(slot1, function ()
 				uv1:triggerEvent(uv0[#uv0], uv2, uv3)
 			end)
 		end)
@@ -708,7 +758,9 @@ function slot0.startAction(slot0)
 			uv0:playerAnim(slot0)
 		end,
 		function (slot0)
-			uv0:emit(MonopolyPage.ON_START, uv1, function (slot0)
+			slot1 = uv0
+
+			slot1:emit(MonopolyPage.ON_START, uv1, function (slot0)
 				uv0 = slot0
 
 				uv1:updateValue(slot0)
@@ -769,7 +821,9 @@ function slot0.createMap(slot0, slot1)
 		uv0.charCard = uv1(slot1, slot0)
 
 		function slot0.onMove(slot0, slot1)
-			uv0.charCard:Move(_.map(slot0, function (slot0)
+			slot3 = uv0.charCard
+
+			slot3:Move(_.map(slot0, function (slot0)
 				return uv0.cellTFs[slot0.index]
 			end), slot1)
 		end

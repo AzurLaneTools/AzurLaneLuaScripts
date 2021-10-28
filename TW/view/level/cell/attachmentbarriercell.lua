@@ -9,7 +9,10 @@ function slot0.Update(slot0)
 
 	if IsNil(slot0.go) then
 		slot0:PrepareBase("zulanwangheng")
-		slot0:GetLoader():GetPrefab("chapter/zulanwangheng", "zulanwangheng", function (slot0)
+
+		slot2 = slot0:GetLoader()
+
+		slot2:GetPrefab("chapter/zulanwangheng", "zulanwangheng", function (slot0)
 			setParent(slot0, uv0.tf)
 			setActive(slot0, true)
 

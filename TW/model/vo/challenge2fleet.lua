@@ -6,8 +6,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0:updateShips(slot1.ships)
 
 	slot0.commanderList = {}
+	slot2 = ipairs
+	slot3 = slot1.commanders or {}
 
-	for slot5, slot6 in ipairs(slot1.commanders or {}) do
+	for slot5, slot6 in slot2(slot3) do
 		slot0.commanderList[slot6.pos] = Commander.New(slot6.commanderinfo)
 	end
 

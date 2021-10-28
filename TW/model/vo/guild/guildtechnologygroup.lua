@@ -89,9 +89,10 @@ end
 
 function slot0.GetDesc(slot0)
 	slot1 = slot0:bindConfigTable()
+	slot3 = slot1[slot0.pid].effect_args
 
 	if slot1[slot0.pid].next_tech == 0 then
-		return GuildConst.GET_TECHNOLOGY_GROUP_DESC(slot1[slot0.pid].effect_args, slot1[slot0.pid].num, slot1[slot0.pid].num)
+		return GuildConst.GET_TECHNOLOGY_GROUP_DESC(slot3, slot1[slot0.pid].num, slot1[slot0.pid].num)
 	else
 		return GuildConst.GET_TECHNOLOGY_GROUP_DESC(slot3, slot1[slot0.pid].num, slot1[slot2].num)
 	end

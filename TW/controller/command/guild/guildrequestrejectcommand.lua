@@ -1,7 +1,9 @@
 slot0 = class("GuildRequestRejectCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(60022, {
+	slot3 = pg.ConnectionMgr.GetInstance()
+
+	slot3:Send(60022, {
 		player_id = slot1:getBody()
 	}, 60023, function (slot0)
 		if slot0.result == 0 then

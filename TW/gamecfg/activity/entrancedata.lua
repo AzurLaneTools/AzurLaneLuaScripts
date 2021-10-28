@@ -207,7 +207,7 @@ return {
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot0:isEnd()
 		end,
 		isTip = function ()
-			if getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot0:isEnd() then
+			if getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot0.isEnd(slot0) then
 				return getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")).count > 0 and slot2.usedtime < 7
 			end
 		end
@@ -224,9 +224,11 @@ return {
 			end) and not slot1:isEnd()
 		end,
 		isTip = function ()
-			if _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_MINIGAME), function (slot0)
+			slot0 = getProxy(ActivityProxy)
+
+			if _.detect(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_MINIGAME), function (slot0)
 				return slot0:getConfig("config_id") == 7
-			end) and not slot1:isEnd() then
+			end) and not slot1.isEnd(slot1) then
 				return getProxy(MiniGameProxy):GetHubByHubId(slot1:getConfig("config_id")) and slot3.id == 7 and slot3.count > 0
 			end
 		end
@@ -251,9 +253,11 @@ return {
 			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE) and not slot0:isEnd()
 		end,
 		isTip = function ()
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE) and not slot0:isEnd() then
-				for slot6 = 1, slot0:getConfig("config_client")[1] do
-					slot1 = 0 + (slot0:getKVPList(1, slot6) or 0)
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE) and not slot0.isEnd(slot0) then
+				slot1 = 0
+
+				for slot6 = 1, slot0.getConfig(slot0, "config_client")[1] do
+					slot1 = slot1 + (slot0:getKVPList(1, slot6) or 0)
 				end
 
 				slot3 = pg.TimeMgr.GetInstance()
@@ -345,7 +349,7 @@ return {
 			slot1 = false
 			slot2 = false
 
-			if pg.activity_event_worldboss[slot0:getConfig("config_id")] then
+			if pg.activity_event_worldboss[slot0.getConfig(slot0, "config_id")] then
 				slot5 = slot4.time ~= "stop" and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4.time[2])
 				slot2 = not (slot5 and pg.TimeMgr.GetInstance():GetServerTime() <= slot5)
 			end

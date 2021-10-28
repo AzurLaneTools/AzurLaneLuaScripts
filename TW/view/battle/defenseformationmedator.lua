@@ -14,12 +14,16 @@ function slot0.register(slot0)
 	slot1:setSelectShipId(nil)
 
 	slot0.ships = slot1:getRawData()
+	slot2 = slot0.viewComponent
 
-	slot0.viewComponent:setShips(slot0.ships)
+	slot2:setShips(slot0.ships)
 
-	slot5 = getProxy(FleetProxy):getFleetById(1)
+	slot2 = getProxy(MilitaryExerciseProxy)
+	slot4 = getProxy(FleetProxy)
+	slot5 = slot4:getFleetById(1)
+	slot6 = slot0.viewComponent
 
-	slot0.viewComponent:SetFleet(getProxy(MilitaryExerciseProxy):getExerciseFleet())
+	slot6:SetFleet(slot2:getExerciseFleet())
 	slot0:bind(uv0.OPEN_SHIP_INFO, function (slot0, slot1, slot2, slot3)
 		uv0.contextData.number = slot2.id
 		uv0.contextData.toggle = slot3
@@ -105,6 +109,30 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 	return function (slot0, slot1)
 		slot2 = {}
 
+		function slot3(slot0)
+			if not uv0 then
+				for slot4, slot5 in ipairs(_.reverse(slot0)) do
+					if not table.contains(uv1, slot5) then
+						table.insert(uv1, 1, slot5)
+					end
+				end
+			elseif uv0 and table.getCount(uv1) == 0 then
+				for slot4, slot5 in ipairs(slot0) do
+					if slot5 ~= uv0 and not table.contains(uv1, slot5) then
+						table.insert(uv1, slot5)
+					end
+				end
+			elseif uv0 then
+				for slot4, slot5 in ipairs(slot0) do
+					if slot5 == uv0 then
+						slot0[slot4] = uv1[1]
+					end
+				end
+
+				uv1 = slot0
+			end
+		end
+
 		function slot4(slot0)
 			if uv0 == TeamType.Main then
 				uv1.mainShips = slot0 and uv2 or uv3
@@ -120,29 +148,7 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 
 		if uv1 == TeamType.Main then
-			(function (slot0)
-				if not uv0 then
-					for slot4, slot5 in ipairs(_.reverse(slot0)) do
-						if not table.contains(uv1, slot5) then
-							table.insert(uv1, 1, slot5)
-						end
-					end
-				elseif uv0 and table.getCount(uv1) == 0 then
-					for slot4, slot5 in ipairs(slot0) do
-						if slot5 ~= uv0 and not table.contains(uv1, slot5) then
-							table.insert(uv1, slot5)
-						end
-					end
-				elseif uv0 then
-					for slot4, slot5 in ipairs(slot0) do
-						if slot5 == uv0 then
-							slot0[slot4] = uv1[1]
-						end
-					end
-
-					uv1 = slot0
-				end
-			end)(uv2)
+			slot3(uv2)
 		elseif uv1 == TeamType.Vanguard then
 			slot3(uv3)
 		end
@@ -163,18 +169,20 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 	end, function (slot0, slot1, slot2)
 		slot3 = pg.ship_data_template[slot0.configId].group_type
 
-		if uv2 == TeamType.Main then
-			if not (function (slot0)
-				for slot4, slot5 in ipairs(slot0) do
-					slot6 = pg.ship_data_template[uv0[slot5].configId].group_type
+		function slot4(slot0)
+			for slot4, slot5 in ipairs(slot0) do
+				slot6 = pg.ship_data_template[uv0[slot5].configId].group_type
 
-					if (not uv1 or uv1 ~= slot5 or slot6 ~= uv2) and slot6 == uv2 then
-						return false
-					end
+				if (not uv1 or uv1 ~= slot5 or slot6 ~= uv2) and slot6 == uv2 then
+					return false
 				end
+			end
 
-				return true
-			end)(uv3) then
+			return true
+		end
+
+		if uv2 == TeamType.Main then
+			if not slot4(uv3) then
 				return false, i18n("ship_vo_mainFleet_exist_same_ship")
 			end
 		elseif uv2 == TeamType.Vanguard and not slot4(uv4) then
@@ -192,8 +200,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if GAME.EXERCISE_FLEET_RESET == slot1:getName() then
-		slot0.viewComponent:SetFleet(slot1:getBody())
+		slot0.viewComponent:SetFleet(slot3)
 		slot0.viewComponent:UpdateFleetView(true)
 	end
 end

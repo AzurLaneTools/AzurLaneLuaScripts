@@ -245,22 +245,26 @@ function slot0.updateAbilitys(slot0)
 	slot1 = pg.gameset.commander_grow_form_a.key_value
 	slot2 = pg.gameset.commander_grow_form_b.key_value
 
+	function slot3(slot0)
+		slot1 = uv0:getConfig(slot0 .. "_value")
+
+		return math.floor(slot1 + slot1 * (uv0.level - 1) * uv1 / uv2)
+	end
+
+	slot5 = {
+		101,
+		102,
+		103
+	}
+
 	for slot9, slot10 in ipairs({
 		"command",
 		"tactic",
 		"support"
 	}) do
 		slot0.abilitys[slot10] = {
-			value = (function (slot0)
-				slot1 = uv0:getConfig(slot0 .. "_value")
-
-				return math.floor(slot1 + slot1 * (uv0.level - 1) * uv1 / uv2)
-			end)(slot10),
-			id = ({
-				101,
-				102,
-				103
-			})[slot9]
+			value = slot3(slot10),
+			id = slot5[slot9]
 		}
 	end
 end
@@ -271,32 +275,36 @@ function slot0.getAbilitysAddition(slot0)
 	slot3 = pg.gameset.commander_form_c.key_value
 	slot4 = pg.gameset.commander_form_n.key_value
 
-	for slot10, slot11 in ipairs(CommanderConst.PROPERTIES) do
-		-- Nothing
+	function slot5(slot0)
+		slot1 = 0
+
+		for slot5, slot6 in pairs(uv0.abilitys) do
+			if uv1[slot6.id]["rate_" .. slot0] and slot7["rate_" .. slot0] / 10000 > 0 then
+				slot1 = slot1 + slot6.value * slot8
+			end
+		end
+
+		return tonumber(string.format("%0.3f", (uv2 - uv3 / (slot1 + uv4)) * uv5))
 	end
 
-	return {
-		[slot11] = (function (slot0)
-			for slot5, slot6 in pairs(uv0.abilitys) do
-				if uv1[slot6.id]["rate_" .. slot0] and slot7["rate_" .. slot0] / 10000 > 0 then
-					slot1 = 0 + slot6.value * slot8
-				end
-			end
+	slot6 = {}
 
-			return tonumber(string.format("%0.3f", (uv2 - uv3 / (slot1 + uv4)) * uv5))
-		end)(slot11)
-	}
+	for slot10, slot11 in ipairs(CommanderConst.PROPERTIES) do
+		slot6[slot11] = slot5(slot11)
+	end
+
+	return slot6
 end
 
 function slot0.getTalentsAddition(slot0, slot1, slot2, slot3, slot4)
 	slot5 = 0
 
 	for slot10, slot11 in pairs(slot0:getTalents()) do
-		slot14, slot13 = slot11:getAttrsAddition()
+		slot12, slot13 = slot11:getAttrsAddition()
 		slot14 = nil
 
 		if slot1 == CommanderConst.TALENT_ADDITION_NUMBER then
-			-- Nothing
+			slot14 = slot12
 		elseif slot1 == CommanderConst.TALENT_ADDITION_RATIO then
 			slot14 = slot13
 		end
@@ -422,14 +430,19 @@ function slot0.getLevel(slot0)
 end
 
 function slot0.getDestoryedExp(slot0, slot1)
+	slot2 = 0
+
 	for slot6 = 1, slot0.level - 1 do
-		slot2 = 0 + slot0:getConfigExp(slot6)
+		slot2 = slot2 + slot0:getConfigExp(slot6)
 	end
 
 	slot7, slot8 = (function ()
+		slot0 = 0
+		slot1 = 0
+
 		for slot6, slot7 in ipairs(uv0:getTalents()) do
-			slot0 = 0 + slot7:getDestoryExpValue()
-			slot1 = 0 + slot7:getDestoryExpRetio()
+			slot0 = slot0 + slot7:getDestoryExpValue()
+			slot1 = slot1 + slot7:getDestoryExpRetio()
 		end
 
 		return slot0, slot1 / 10000

@@ -8,8 +8,10 @@ function slot0.execute(slot0, slot1)
 	}, 22102, function (slot0)
 		uv0:sendNotification(GAME.GET_SHOPSTREET_DONE)
 
+		slot1 = getProxy(ShopsProxy):getShopStreet()
+
 		if uv1 then
-			uv1(getProxy(ShopsProxy):getShopStreet())
+			uv1(slot1)
 		end
 	end)
 end

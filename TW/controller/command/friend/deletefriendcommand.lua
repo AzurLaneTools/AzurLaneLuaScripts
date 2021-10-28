@@ -2,9 +2,11 @@ slot0 = class("DeleteFriendCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot3 = getProxy(FriendProxy):getFriend(slot2)
+	slot3 = getProxy(FriendProxy)
+	slot3 = slot3:getFriend(slot2)
+	slot4 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(50011, {
+	slot4:Send(50011, {
 		id = slot2
 	}, 50012, function (slot0)
 		if slot0.result == 0 then

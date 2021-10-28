@@ -41,8 +41,14 @@ function slot0.init(slot0)
 	setActive(slot0.tab, false)
 	setActive(slot0.lockAll, false)
 	setActive(slot0.permanentFinshMask, false)
-	setText(slot0.permanentFinshMask:Find("piece/Text"), i18n("activity_permanent_tips2"))
-	onButton(slot0, slot0.permanentFinshMask:Find("piece/arrow/Image"), function ()
+
+	slot2 = slot0.permanentFinshMask
+
+	setText(slot2:Find("piece/Text"), i18n("activity_permanent_tips2"))
+
+	slot3 = slot0.permanentFinshMask
+
+	onButton(slot0, slot3:Find("piece/arrow/Image"), function ()
 		uv0:emit(ActivityMediator.FINISH_ACTIVITY_PERMANENT)
 	end, SFX_PANEL)
 end
@@ -212,8 +218,9 @@ end
 function slot0.flushTabs(slot0)
 	if not slot0.tabsList then
 		slot0.tabsList = UIItemList.New(slot0.tabs, slot0.tab)
+		slot1 = slot0.tabsList
 
-		slot0.tabsList:make(function (slot0, slot1, slot2)
+		slot1:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
 				if uv0.pageDic[uv0.activities[slot1 + 1].id] ~= nil then
 					if slot3:getConfig("title_res_tag") then
@@ -283,7 +290,9 @@ end
 
 function slot0.getBonusWindow(slot0, slot1, slot2)
 	if not slot0:findTF(slot1) then
-		PoolMgr.GetInstance():GetUI("ActivitybonusWindow", true, function (slot0)
+		slot4 = PoolMgr.GetInstance()
+
+		slot4:GetUI("ActivitybonusWindow", true, function (slot0)
 			SetParent(slot0, uv0._tf, false)
 
 			slot0.name = uv1

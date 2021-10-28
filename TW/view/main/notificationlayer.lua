@@ -73,7 +73,8 @@ function slot0.init(slot0)
 	slot0.bottomChannelSelectedSprite = slot0:findTF("channel_selected", slot0.resource):GetComponent(typeof(Image)).sprite
 	slot0.switchTpl = slot0:findTF("switch_tpl", slot0.resource)
 	slot0.switchNormalSprite = slot0:findTF("switch_normal", slot0.resource):GetComponent(typeof(Image)).sprite
-	slot0.switchSelectedSprite = slot0:findTF("switch_selected", slot0.resource):GetComponent(typeof(Image)).sprite
+	slot2 = slot0:findTF("switch_selected", slot0.resource)
+	slot0.switchSelectedSprite = slot2:GetComponent(typeof(Image)).sprite
 	slot0.textSprites = {}
 	slot0.textSelectedSprites = {}
 	slot0.bottomChannelTextSprites = {}
@@ -98,7 +99,10 @@ function slot0.init(slot0)
 
 	slot0.prefabSelf:SetActive(false)
 	slot0.prefabOthers:SetActive(false)
-	slot0.prefabPublic:SetActive(false)
+
+	slot3 = slot0.prefabPublic
+
+	slot3:SetActive(false)
 
 	slot0.bubbleCards = {}
 	slot0.worldBossCards = {}
@@ -214,11 +218,18 @@ function slot0.didEnter(slot0)
 		})
 	end
 
-	LeanTween.moveX(slot0._tf, slot0._tf.localPosition.x, 0.3):setFrom(700):setEase(LeanTweenType.easeInOutQuad):setUseEstimatedTime(true)
+	slot1 = LeanTween.moveX(slot0._tf, slot0._tf.localPosition.x, 0.3)
+	slot1 = slot1:setFrom(700)
+	slot1 = slot1:setEase(LeanTweenType.easeInOutQuad)
 
-	slot1 = slot0._tf:GetComponent(typeof(CanvasGroup))
+	slot1:setUseEstimatedTime(true)
 
-	LeanTween.value(go(slot0._tf), 0, 1, 0.3):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
+	slot1 = slot0._tf
+	slot1 = slot1:GetComponent(typeof(CanvasGroup))
+	slot2 = LeanTween.value(go(slot0._tf), 0, 1, 0.3)
+	slot2 = slot2:setUseEstimatedTime(true)
+
+	slot2:setOnUpdate(System.Action_float(function (slot0)
 		uv0.alpha = slot0
 	end))
 	LeanTween.delayedCall(go(slot0._tf), 0.2, System.Action(function ()
@@ -263,8 +274,9 @@ end
 
 function slot0.updateFilter(slot0)
 	slot1 = ChatConst.RecvChannels
+	slot2 = slot0.recvTypes
 
-	slot0.recvTypes:each(function (slot0, slot1)
+	slot2:each(function (slot0, slot1)
 		if uv0[slot0 + 1] == ChatConst.ChannelGuild and not uv1.inGuild then
 			setButtonEnabled(slot1, false)
 		end
@@ -291,7 +303,8 @@ function slot0.updateChatChannel(slot0)
 end
 
 function slot0.updateChannelSendPop(slot0)
-	slot2 = UIItemList.New(slot0.channelSendPop:Find("type_send"), slot0.bottomChannelTpl)
+	slot3 = slot0.channelSendPop
+	slot2 = UIItemList.New(slot3:Find("type_send"), slot0.bottomChannelTpl)
 
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -308,7 +321,9 @@ function slot0.updateChannelSendPop(slot0)
 	end)
 	slot2:align(#ChatConst.SendChannels)
 	(function ()
-		uv0:each(function (slot0, slot1)
+		slot0 = uv0
+
+		slot0:each(function (slot0, slot1)
 			if uv0[slot0 + 1] == ChatConst.ChannelGuild and not uv1.inGuild then
 				setButtonEnabled(slot1, false)
 			end
@@ -329,8 +344,13 @@ function slot0.updateRoom(slot0)
 end
 
 function slot0.showChangeRoomPanel(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.changeRoomPanel)
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:UnblurPanel(slot0._tf)
+
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:BlurPanel(slot0.changeRoomPanel)
 
 	slot0.inputTF.text = tostring(slot0.player.chatRoomId)
 	slot0.tempRoomSendBits = uv0.ChannelBits.send
@@ -348,7 +368,9 @@ function slot0.showChangeRoomPanel(slot0)
 	end)
 	slot2:align(#ChatConst.SendChannels)
 	(function ()
-		uv0:each(function (slot0, slot1)
+		slot0 = uv0
+
+		slot0:each(function (slot0, slot1)
 			if uv0[slot0 + 1] == ChatConst.ChannelGuild and not uv1.inGuild then
 				setButtonEnabled(slot1, false)
 			end
@@ -378,7 +400,9 @@ function slot0.showChangeRoomPanel(slot0)
 	end)
 	slot5:align(#ChatConst.RecvChannels)
 	(function ()
-		uv0:each(function (slot0, slot1)
+		slot0 = uv0
+
+		slot0:each(function (slot0, slot1)
 			if uv0[slot0 + 1] == ChatConst.ChannelGuild and not uv1.inGuild then
 				setButtonEnabled(slot1, false)
 			end
@@ -408,7 +432,10 @@ function slot0.closeChangeRoomPanel(slot0)
 end
 
 function slot0.removeAllBubble(slot0)
-	for slot4, slot5 in ipairs(slot0.bubbleCards or {}) do
+	slot1 = ipairs
+	slot2 = slot0.bubbleCards or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		setActive(slot5.tf, false)
 
 		slot6 = slot0.poolBubble.others
@@ -497,7 +524,9 @@ function slot0.appendOthers(slot0, slot1, slot2)
 		slot6 = ChatBubble.New(cloneTplTo(slot5, slot0.content))
 	end
 
-	slot6.tf:SetSiblingIndex(slot2)
+	slot7 = slot6.tf
+
+	slot7:SetSiblingIndex(slot2)
 	table.insert(slot0.bubbleCards, slot6)
 	slot6:update(slot1)
 	removeOnButton(slot6.headTF)
@@ -596,11 +625,17 @@ function slot0.willExit(slot0)
 		slot0._topTimer = nil
 	end
 
-	for slot4, slot5 in ipairs(slot0.bubbleCards or {}) do
+	slot1 = ipairs
+	slot2 = slot0.bubbleCards or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:dispose()
 	end
 
-	for slot4, slot5 in ipairs(slot0.worldBossCards or {}) do
+	slot1 = ipairs
+	slot2 = slot0.worldBossCards or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:dispose()
 	end
 

@@ -37,8 +37,14 @@ function slot0.OnFirstFlush(slot0)
 	LoadSpriteAtlasAsync("ui/activityuipage/hololiveptpage", "jiaobiao_" .. slot2, function (slot0)
 		setImageSprite(uv0.chapterImg, slot0)
 	end)
-	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetSpineChar("vtuber_shion", true, function (slot0)
+
+	slot5 = pg.UIMgr.GetInstance()
+
+	slot5:LoadingOn()
+
+	slot5 = PoolMgr.GetInstance()
+
+	slot5:GetSpineChar("vtuber_shion", true, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.prefab = uv1

@@ -60,12 +60,10 @@ function slot0.display(slot0)
 	slot0._expTFs = {}
 	slot0._skipExp = {}
 	slot0._maxRightDelay = 0
-	slot2 = {
-		[slot7.id] = slot7
-	}
+	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.contextData.newShips) do
-		-- Nothing
+		slot2[slot7.id] = slot7
 	end
 
 	slot4 = 0.5
@@ -97,8 +95,10 @@ function slot0.display(slot0)
 			uv3:GetComponent(typeof(Image)).fillAmount = uv1.exp / uv1:getLevelExpConfig().exp
 
 			if uv1.level < uv2.level then
+				slot2 = 0
+
 				for slot6 = uv1.level, uv2.level - 1 do
-					slot2 = 0 + uv1:getLevelExpConfig(slot6).exp
+					slot2 = slot2 + uv1:getLevelExpConfig(slot6).exp
 				end
 
 				uv4:PlayAnimation(uv5, 0, slot2 + uv2.exp - uv1.exp, 1, 0, function (slot0)
@@ -189,8 +189,10 @@ function slot0.display(slot0)
 				uv7:GetComponent(typeof(Image)).fillAmount = 1
 			else
 				if uv5.level < uv4.level then
+					slot0 = 0
+
 					for slot4 = uv5.level, uv4.level - 1 do
-						slot0 = 0 + uv5:getLevelExpConfig(slot4).exp
+						slot0 = slot0 + uv5:getLevelExpConfig(slot4).exp
 					end
 
 					setText(uv6, "+" .. slot0 + uv4.exp - uv5.exp)
@@ -239,7 +241,10 @@ function slot0.skip(slot0)
 end
 
 function slot0.PlayAnimation(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	LeanTween.value(slot1.gameObject, slot2, slot3, slot4):setDelay(slot5):setOnUpdate(System.Action_float(function (slot0)
+	slot7 = LeanTween.value(slot1.gameObject, slot2, slot3, slot4)
+	slot7 = slot7:setDelay(slot5)
+
+	slot7:setOnUpdate(System.Action_float(function (slot0)
 		uv0(slot0)
 	end))
 	table.insert(slot0.tweenTFs, slot1)

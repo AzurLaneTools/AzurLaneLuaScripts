@@ -54,15 +54,17 @@ function slot0.initAddExpInfo(slot0)
 	setActive(slot0:findTF("ship_word/text_contain2"), slot0.dormVO.food ~= 0)
 	setActive(slot0:findTF("ship_word/Text"), slot0.dormVO.food == 0)
 
+	slot5 = slot0:getTpl("ship_tpl", slot0:findTF("container", slot0.frame))
 	slot0.shipDescTF = {}
+	slot6 = table.getCount(slot0.newShipVOs)
 
 	for slot10, slot11 in pairs(slot0.newShipVOs) do
-		slot0.shipDescTF[slot11.id] = cloneTplTo(slot0:getTpl("ship_tpl", slot0:findTF("container", slot0.frame)), slot4)
+		slot0.shipDescTF[slot11.id] = cloneTplTo(slot5, slot4)
 
 		slot0:updateShip(slot11)
 
 		if slot11.level == slot11:getMaxLevel() then
-			slot6 = table.getCount(slot0.newShipVOs) - 1
+			slot6 = slot6 - 1
 		end
 	end
 
@@ -108,6 +110,8 @@ function slot0.updateShip(slot0, slot1)
 
 	slot5.text = "LEVEL" .. slot3.level
 	slot8 = math.max(slot1:getLevelExpConfig().exp, 0.001)
+	slot9 = findTF(slot2, "exp/value")
+	slot9 = slot9:GetComponent(typeof(Slider))
 	slot10 = slot1.level - slot3.level
 
 	TweenValue(slot4, 0, slot7, uv0 * (slot10 + 1), 0, function (slot0)
@@ -116,7 +120,7 @@ function slot0.updateShip(slot0, slot1)
 	table.insert(slot0.tweens, slot4)
 
 	if slot10 > 0 then
-		TweenValue(findTF(slot2, "exp/value"):GetComponent(typeof(Slider)), slot3.exp, math.max(slot3:getLevelExpConfig().exp, 0.001), uv0, 0, function (slot0)
+		TweenValue(slot9, slot3.exp, math.max(slot3:getLevelExpConfig().exp, 0.001), uv0, 0, function (slot0)
 			uv0:setSliderValue(uv1, slot0 / uv2)
 		end, function ()
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_LEVEL_UP)
@@ -169,7 +173,10 @@ end
 function slot0.willExit(slot0)
 	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMgr.UIMain)
 
-	for slot4, slot5 in ipairs(slot0.tweens or {}) do
+	slot1 = ipairs
+	slot2 = slot0.tweens or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		if LeanTween.isTweening(go(slot5)) then
 			LeanTween.cancel(go(slot5))
 		end

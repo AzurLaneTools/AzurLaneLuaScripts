@@ -52,8 +52,10 @@ function slot0.UpdateUI(slot0)
 end
 
 function slot0.OnSelected(slot0, slot1)
+	slot2 = pg.UIMgr.GetInstance()
+
 	if slot1 then
-		pg.UIMgr.GetInstance():OverlayPanelPB(slot0._parentTf, {
+		slot2:OverlayPanelPB(slot0._parentTf, {
 			pbList = {
 				slot0.stylePanel:Find("style_desc"),
 				slot0.stylePanel:Find("frame")
@@ -200,8 +202,9 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 		end
 
 		slot2.prefab = slot1.prefab
+		slot6 = PoolMgr.GetInstance()
 
-		PoolMgr.GetInstance():GetSpineChar(slot2.prefab, true, function (slot0)
+		slot6:GetSpineChar(slot2.prefab, true, function (slot0)
 			if uv0.prefab ~= uv1 then
 				PoolMgr.GetInstance():ReturnSpineChar(uv1, slot0)
 			else

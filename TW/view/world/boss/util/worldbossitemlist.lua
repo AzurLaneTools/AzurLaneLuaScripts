@@ -119,7 +119,9 @@ function slot0.AddListener(slot0)
 		end
 	end
 
-	slot0.trigger:AddBeginDragFunc(function (slot0, slot1)
+	slot7 = slot0.trigger
+
+	slot7:AddBeginDragFunc(function (slot0, slot1)
 		if uv0.animFlag then
 			return
 		end
@@ -130,7 +132,10 @@ function slot0.AddListener(slot0)
 		uv4 = uv3.y
 		uv5 = true
 	end)
-	slot0.trigger:AddDragFunc(function (slot0, slot1)
+
+	slot7 = slot0.trigger
+
+	slot7:AddDragFunc(function (slot0, slot1)
 		if uv0.animFlag then
 			return
 		end
@@ -165,7 +170,10 @@ function slot0.AddListener(slot0)
 
 		uv1 = uv3.y
 	end)
-	slot0.trigger:AddDragEndFunc(function (slot0, slot1)
+
+	slot7 = slot0.trigger
+
+	slot7:AddDragEndFunc(function (slot0, slot1)
 		if not uv0 then
 			return
 		end
@@ -206,7 +214,10 @@ function slot0.RefreshChildPos(slot0, slot1)
 		end
 
 		table.insert(slot0.tweens, slot7.gameObject)
-		LeanTween.moveLocal(slot7.gameObject, slot11, slot0.animTime):setOnComplete(System.Action(function ()
+
+		slot12 = LeanTween.moveLocal(slot7.gameObject, slot11, slot0.animTime)
+
+		slot12:setOnComplete(System.Action(function ()
 			uv0.localPosition = uv1
 			uv2.animFlag = false
 		end))

@@ -44,7 +44,9 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 		columns = 9999
 	}) then
 		if pg.land_based_template[slot4.attachmentId].type == ChapterConst.LBCoastalGun then
-			slot2.viewComponent:doPlayAnim("coastalgun", function (slot0)
+			slot6 = slot2.viewComponent
+
+			slot6:doPlayAnim("coastalgun", function (slot0)
 				setActive(slot0, false)
 				uv0()
 			end)
@@ -58,7 +60,9 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 		elseif slot5.type == ChapterConst.LBDock then
 			slot3()
 		elseif slot5.type == ChapterConst.LBAntiAir then
-			slot2.viewComponent:doPlayAnim("AntiAirFire", function (slot0)
+			slot6 = slot2.viewComponent
+
+			slot6:doPlayAnim("AntiAirFire", function (slot0)
 				setActive(slot0, false)
 				uv0.viewComponent.grid:PlayChampionInsideEffect(uv1.stgTarget.row, uv1.stgTarget.column, "huoqiubaozha", uv2)
 			end)

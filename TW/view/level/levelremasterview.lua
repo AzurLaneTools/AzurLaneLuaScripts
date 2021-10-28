@@ -46,8 +46,9 @@ end
 
 function slot0.flush(slot0, slot1)
 	slot2 = pg.TimeMgr.GetInstance()
+	slot3 = UIItemList.New(slot0.content, slot0.item)
 
-	UIItemList.New(slot0.content, slot0.item):make(function (slot0, slot1, slot2)
+	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setActive(slot2:Find("right"), slot1 % 2 == 0)
 			setActive(slot2:Find("bg/icon"), false)

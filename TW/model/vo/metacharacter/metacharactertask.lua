@@ -40,8 +40,10 @@ function slot0.GetTask(slot0)
 end
 
 function slot0.GetDesc(slot0)
+	slot1 = pg.skill_data_template[slot0.skillId]
+
 	if slot0.isLearned then
-		return i18n("meta_learn_skill", pg.skill_data_template[slot0.skillId].name)
+		return i18n("meta_learn_skill", slot1.name)
 	else
 		return i18n1(slot1.name .. "Lv+1")
 	end
@@ -54,12 +56,16 @@ function slot0.GetState(slot0)
 		else
 			return MetaCharacterTask.STATE_EMPTY
 		end
-	elseif slot1:isFinish() and slot1:isReceive() then
-		return MetaCharacterTask.STATE_SUBMITED
-	elseif slot2 and not slot3 then
-		return MetaCharacterTask.STATE_FINISHED
 	else
-		return MetaCharacterTask.STATE_START
+		slot3 = slot1:isReceive()
+
+		if slot1:isFinish() and slot3 then
+			return MetaCharacterTask.STATE_SUBMITED
+		elseif slot2 and not slot3 then
+			return MetaCharacterTask.STATE_FINISHED
+		else
+			return MetaCharacterTask.STATE_START
+		end
 	end
 end
 

@@ -13,9 +13,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0.resetTime = slot1.fight_count_reset_time
 	slot0.flashTargetCount = slot1.flash_target_count + 1
 	slot0.score = slot0.score + uv0.INIT_POINT
+	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1.vanguard_ship_id_list) do
-		table.insert({}, slot7)
+		table.insert(slot2, slot7)
 	end
 
 	for slot6, slot7 in ipairs(slot1.main_ship_id_list) do
@@ -96,9 +97,11 @@ function slot0.getMilitaryRank(slot0, slot1)
 
 	for slot7 = #pg.arena_data_rank.all, 1, -1 do
 		slot8 = slot3.all[slot7]
+		slot9 = slot3[slot8].point
+		slot10 = slot3[slot8].order
 
 		if slot3[slot8].order ~= 0 then
-			if slot1 <= slot3[slot8].order and slot3[slot8].point <= slot0 then
+			if slot1 <= slot10 and slot9 <= slot0 then
 				slot2 = slot3[slot8]
 
 				break

@@ -33,7 +33,9 @@ function slot0.execute(slot0, slot1)
 		})
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(19109, {
+	slot8 = pg.ConnectionMgr.GetInstance()
+
+	slot8:Send(19109, {
 		pos = slot2.id,
 		name = slot2.name,
 		furniture_put_list = slot6,

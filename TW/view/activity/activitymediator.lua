@@ -372,13 +372,19 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT then
 		slot0.viewComponent:emit(ActivityMediator.ON_SHAKE_BEADS_RESULT, slot3)
 	elseif slot2 == GAME.COLORING_ACHIEVE_DONE then
-		slot0.viewComponent:playBonusAnim(function ()
-			uv0.viewComponent:emit(BaseUI.ON_ACHIEVE, uv1.drops, function ()
+		slot4 = slot0.viewComponent
+
+		slot4:playBonusAnim(function ()
+			slot0 = uv0.viewComponent
+
+			slot0:emit(BaseUI.ON_ACHIEVE, uv1.drops, function ()
 				uv0.viewComponent:flush_coloring()
 			end)
 		end)
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+		slot4 = slot0.viewComponent
+
+		slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 			uv0.viewComponent:updateTaskLayers()
 		end)
 	elseif slot2 == GAME.SHARE_TASK_FINISHED then

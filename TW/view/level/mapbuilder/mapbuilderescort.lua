@@ -41,8 +41,9 @@ end
 function slot1.UpdateEscortInfo(slot0)
 	slot1 = getProxy(ChapterProxy)
 	slot2 = slot1:getMaxEscortChallengeTimes()
+	slot4 = slot0.sceneParent.escortBar
 
-	setText(slot0.sceneParent.escortBar:Find("times/text"), slot2 - slot1.escortChallengeTimes .. "/" .. slot2)
+	setText(slot4:Find("times/text"), slot2 - slot1.escortChallengeTimes .. "/" .. slot2)
 	onButton(slot0.sceneParent, slot0.sceneParent.mapHelpBtn, function ()
 		uv0:InvokeParent("HandleShowMsgBox", {
 			type = MSGBOX_TYPE_HELP,
@@ -54,11 +55,15 @@ end
 function slot1.UpdateMapItems(slot0)
 	uv0.super.UpdateMapItems(slot0)
 	slot0:UpdateEscortInfo()
+
+	slot1 = slot0.data
+
 	setActive(slot0.sceneParent.escortBar, true)
 	setActive(slot0.sceneParent.mapHelpBtn, true)
 
 	slot2 = getProxy(ChapterProxy)
-	slot3 = getProxy(ChapterProxy):getEscortChapterIds()
+	slot3 = getProxy(ChapterProxy)
+	slot3 = slot3:getEscortChapterIds()
 	slot5 = UIItemList.New(slot0.itemHolder, slot0.tpl)
 
 	slot5:make(function (slot0, slot1, slot2)
@@ -66,7 +71,7 @@ function slot1.UpdateMapItems(slot0)
 			uv0:UpdateEscortItem(slot2, uv1[slot1 + 1].id, uv1[slot1 + 1])
 		end
 	end)
-	slot5:align(#_.filter(slot0.data:getChapters(), function (slot0)
+	slot5:align(#_.filter(slot1:getChapters(), function (slot0)
 		return table.contains(uv0, slot0.id)
 	end))
 end
@@ -88,13 +93,14 @@ function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
 
 	GetImageSpriteFromAtlasAsync("levelmap/mapquad/" .. slot4.pic, "", slot1, true)
 
+	slot9 = slot1:Find("anim")
 	slot13 = ({
 		Color.green,
 		Color.yellow,
 		Color.red
 	})[table.indexof(getProxy(ChapterProxy):getEscortChapterIds(), slot2) or 1]
 
-	for slot18 = 0, slot1:Find("anim"):GetComponentsInChildren(typeof(Image)).Length - 1 do
+	for slot18 = 0, slot9:GetComponentsInChildren(typeof(Image)).Length - 1 do
 		slot14[slot18].color = slot13
 	end
 

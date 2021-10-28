@@ -46,9 +46,10 @@ function slot0.Exit(slot0, slot1)
 	slot3 = slot0.statistics._battleScore
 	slot4 = pg.guildset.use_oil.key_value
 	slot5 = {}
+	slot8 = {}
 
 	for slot12, slot13 in pairs(uv0.GetGuildBossMission():GetMainFleet():getCommanders()) do
-		table.insert({}, slot13.id)
+		table.insert(slot8, slot13.id)
 	end
 
 	for slot13, slot14 in ipairs(slot7:GetShips()) do
@@ -71,10 +72,11 @@ function slot0.Exit(slot0, slot1)
 		end
 	end
 
+	slot10 = 0
 	slot11 = 0
 
 	for slot15, slot16 in ipairs(slot5) do
-		if 0 < slot0.statistics[slot16.id].output then
+		if slot10 < slot0.statistics[slot16.id].output then
 			slot11 = slot16.id
 			slot10 = slot17.output
 		end
@@ -102,7 +104,9 @@ function slot0.Exit(slot0, slot1)
 end
 
 function slot0.SendRequest(slot0, slot1, slot2)
-	pg.ConnectionMgr.GetInstance():Send(40003, slot1, 40004, function (slot0)
+	slot3 = pg.ConnectionMgr.GetInstance()
+
+	slot3:Send(40003, slot1, 40004, function (slot0)
 		if slot0.result == 0 or slot0.result == 1030 then
 			uv0(slot0)
 		elseif slot0.result == 20 then
@@ -148,6 +152,12 @@ function slot0.GeneralPlayerCosume(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.GeneralPackage(slot0, slot1)
+	slot2 = 0
+	slot3 = {}
+	slot4 = {}
+	slot8 = slot0.system + slot0.stageId + slot0.statistics._battleScore
+	slot9 = getProxy(PlayerProxy):getRawData().id
+
 	for slot13, slot14 in ipairs(slot1) do
 		if slot0.statistics[slot14.id] then
 			slot16 = GuildAssaultFleet.GetRealId(slot15.id)
@@ -155,7 +165,7 @@ function slot0.GeneralPackage(slot0, slot1)
 			slot19 = math.floor(slot15.output)
 			slot21 = math.floor(slot15.maxDamageOnce)
 
-			table.insert(GuildAssaultFleet.GetUserId(slot15.id) ~= getProxy(PlayerProxy):getRawData().id and {} or {}, {
+			table.insert(GuildAssaultFleet.GetUserId(slot15.id) ~= slot9 and slot4 or slot3, {
 				ship_id = slot16,
 				hp_rest = slot18,
 				damage_cause = slot19,
@@ -164,8 +174,8 @@ function slot0.GeneralPackage(slot0, slot1)
 				ship_gear_score = math.floor(slot15.gearScore)
 			})
 
-			slot8 = slot0.system + slot0.stageId + slot0.statistics._battleScore + slot16 + slot18 + slot19 + slot21
-			slot2 = 0 + slot14:getShipCombatPower()
+			slot8 = slot8 + slot16 + slot18 + slot19 + slot21
+			slot2 = slot2 + slot14:getShipCombatPower()
 		end
 	end
 

@@ -74,11 +74,12 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0.home = slot1
 	slot0.cattery = slot2
 	slot0.displays = {}
+	slot3 = slot1:GetOwnStyles()
 
 	for slot7, slot8 in ipairs(pg.commander_home_style.all) do
 		table.insert(slot0.displays, CatteryStyle.New({
 			id = slot8,
-			own = table.contains(slot1:GetOwnStyles(), slot8)
+			own = table.contains(slot3, slot8)
 		}))
 	end
 

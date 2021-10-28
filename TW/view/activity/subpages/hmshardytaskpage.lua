@@ -27,7 +27,8 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot1 = slot0.taskVO:getConfig("award_display")[1]
+	slot1 = slot0.taskVO
+	slot1 = slot1:getConfig("award_display")[1]
 
 	updateDrop(slot0.awardTF, {
 		type = slot1[1],

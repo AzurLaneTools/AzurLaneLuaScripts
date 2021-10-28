@@ -17,20 +17,26 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.bg = slot0._tf:Find("bg_back")
+	slot1 = slot0._tf
+	slot0.bg = slot1:Find("bg_back")
 
 	onButton(slot0, slot0.bg, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	slot0.btnBack = slot0._tf:Find("window/inner/top/back")
+	slot1 = slot0._tf
+	slot0.btnBack = slot1:Find("window/inner/top/back")
 
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
-	setText(slot0._tf:Find("window/inner/top/back/Text"), i18n("activity_permanent_total"))
 
-	slot0.btnHelp = slot0._tf:Find("window/inner/top/help")
+	slot2 = slot0._tf
+
+	setText(slot2:Find("window/inner/top/back/Text"), i18n("activity_permanent_total"))
+
+	slot1 = slot0._tf
+	slot0.btnHelp = slot1:Find("window/inner/top/help")
 
 	onButton(slot0, slot0.btnHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -39,13 +45,18 @@ function slot0.init(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot0.content = slot0._tf:Find("window/inner/content/scroll_rect")
-	slot0.itemList = UIItemList.New(slot0.content, slot0.content:Find("item"))
+	slot1 = slot0._tf
+	slot0.content = slot1:Find("window/inner/content/scroll_rect")
+	slot3 = slot0.content
+	slot0.itemList = UIItemList.New(slot0.content, slot3:Find("item"))
 	slot1 = getProxy(ActivityPermanentProxy)
+	slot2 = slot0.itemList
 
-	slot0.itemList:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0.ids[slot1 + 1]
+			slot3 = uv0.ids[slot1]
 			slot4 = pg.activity_task_permanent[slot3]
 
 			setText(slot2:Find("main/word/Text"), slot4.gametip)
@@ -55,9 +66,11 @@ function slot0.init(slot0)
 				uv0:showMsgbox(uv1)
 			end, SFX_PANEL)
 
+			slot6 = GetOrAddComponent(slot2:Find("finish"), typeof(CanvasGroup))
+
 			if slot3 == uv0.contextData.finishId then
 				uv0.childFinish = slot2
-				GetOrAddComponent(slot2:Find("finish"), typeof(CanvasGroup)).alpha = 0
+				slot6.alpha = 0
 			else
 				slot6.alpha = 1
 			end
@@ -67,15 +80,23 @@ function slot0.init(slot0)
 		end
 	end)
 
-	slot0.rtMsgbox = slot0._tf:Find("Msgbox")
+	slot2 = slot0._tf
+	slot0.rtMsgbox = slot2:Find("Msgbox")
+	slot4 = slot0.rtMsgbox
 
-	onButton(slot0, slot0.rtMsgbox:Find("bg"), function ()
+	onButton(slot0, slot4:Find("bg"), function ()
 		uv0:hideMsgbox()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.rtMsgbox:Find("window/top/btnBack"), function ()
+
+	slot4 = slot0.rtMsgbox
+
+	onButton(slot0, slot4:Find("window/top/btnBack"), function ()
 		uv0:hideMsgbox()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.rtMsgbox:Find("window/button_container/custom_button_2"), function ()
+
+	slot4 = slot0.rtMsgbox
+
+	onButton(slot0, slot4:Find("window/button_container/custom_button_2"), function ()
 		uv0:hideMsgbox()
 	end, SFX_CANCEL)
 end

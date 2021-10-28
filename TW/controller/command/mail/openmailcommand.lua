@@ -13,7 +13,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(30008, {
+	slot5 = pg.ConnectionMgr.GetInstance()
+
+	slot5:Send(30008, {
 		id = slot4.id
 	}, 30009, function (slot0)
 		if uv0.readFlag ~= 0 then

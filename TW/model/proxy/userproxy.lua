@@ -39,6 +39,7 @@ end
 function slot0.getLastLoginUser(slot0)
 	slot1 = tonumber(PlayerPrefs.GetString("user.type"))
 	slot3 = PlayerPrefs.GetString("user.arg2")
+	slot4 = PlayerPrefs.GetString("user.arg3")
 
 	print("last login:", slot1, " arg1:", PlayerPrefs.GetString("user.arg1"))
 
@@ -47,7 +48,7 @@ function slot0.getLastLoginUser(slot0)
 			type = slot1,
 			arg1 = slot2,
 			arg2 = slot3,
-			arg3 = PlayerPrefs.GetString("user.arg3")
+			arg3 = slot4
 		})
 	end
 

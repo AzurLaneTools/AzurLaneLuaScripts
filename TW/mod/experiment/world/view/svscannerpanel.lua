@@ -11,7 +11,8 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.camera = GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera))
+	slot1 = GameObject.Find("OverlayCamera")
+	slot0.camera = slot1:GetComponent(typeof(Camera))
 	slot1 = slot0._tf
 	slot0.canvas = GetOrAddComponent(slot1, "CanvasGroup")
 	slot0.rtExit = slot1:Find("adapt/exit")
@@ -19,21 +20,34 @@ function slot0.OnInit(slot0)
 
 	setActive(slot0.rtPanel, false)
 
-	slot0.rtWindow = slot0.rtPanel:Find("window")
-	slot0.rtTitle = slot0.rtWindow:Find("base_info/title")
-	slot0.rtMark = slot0.rtWindow:Find("base_info/mark")
-	slot0.rtBuffContent = slot0.rtWindow:Find("base_info/content")
-	slot0.rtMapBuffContent = slot0.rtWindow:Find("base_info/map_buffs")
-	slot0.rtInfo = slot0.rtWindow:Find("base_info/info")
-	slot0.rtWeaknessContent = slot0.rtWindow:Find("weakness_info/content")
-	slot0.rtRadiation = slot0.rtWindow:Find("radiation_info")
+	slot2 = slot0.rtPanel
+	slot0.rtWindow = slot2:Find("window")
+	slot2 = slot0.rtWindow
+	slot0.rtTitle = slot2:Find("base_info/title")
+	slot2 = slot0.rtWindow
+	slot0.rtMark = slot2:Find("base_info/mark")
+	slot2 = slot0.rtWindow
+	slot0.rtBuffContent = slot2:Find("base_info/content")
+	slot2 = slot0.rtWindow
+	slot0.rtMapBuffContent = slot2:Find("base_info/map_buffs")
+	slot2 = slot0.rtWindow
+	slot0.rtInfo = slot2:Find("base_info/info")
+	slot2 = slot0.rtWindow
+	slot0.rtWeaknessContent = slot2:Find("weakness_info/content")
+	slot2 = slot0.rtWindow
+	slot0.rtRadiation = slot2:Find("radiation_info")
 	slot0.rtAnim = slot1:Find("adapt/anim")
-	slot0.rtClick = slot0.rtPanel:Find("click")
-	slot0.buffUIItemList = UIItemList.New(slot0.rtBuffContent, slot0.rtBuffContent:Find("buff"))
+	slot2 = slot0.rtPanel
+	slot0.rtClick = slot2:Find("click")
+	slot4 = slot0.rtBuffContent
+	slot0.buffUIItemList = UIItemList.New(slot0.rtBuffContent, slot4:Find("buff"))
+	slot2 = slot0.buffUIItemList
 
-	slot0.buffUIItemList:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			if #uv0.buffList[slot1 + 1].config.icon > 0 then
+			if #uv0.buffList[slot1].config.icon > 0 then
 				GetImageSpriteFromAtlasAsync("world/buff/" .. slot3.config.icon, "", slot2:Find("icon"))
 			else
 				setImageSprite(slot2:Find("icon"), nil)
@@ -43,11 +57,15 @@ function slot0.OnInit(slot0)
 		end
 	end)
 
-	slot0.mapBuffItemList = UIItemList.New(slot0.rtMapBuffContent, slot0.rtMapBuffContent:Find("buff"))
+	slot4 = slot0.rtMapBuffContent
+	slot0.mapBuffItemList = UIItemList.New(slot0.rtMapBuffContent, slot4:Find("buff"))
+	slot2 = slot0.mapBuffItemList
 
-	slot0.mapBuffItemList:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			if #uv0.mapBuffList[slot1 + 1].config.icon > 0 then
+			if #uv0.mapBuffList[slot1].config.icon > 0 then
 				GetImageSpriteFromAtlasAsync("world/buff/" .. slot3.config.icon, "", slot2:Find("icon"))
 			else
 				setImageSprite(slot2:Find("icon"), nil)
@@ -57,20 +75,30 @@ function slot0.OnInit(slot0)
 		end
 	end)
 
-	slot0.weaknessUIItemList = UIItemList.New(slot0.rtWeaknessContent, slot0.rtWeaknessContent:Find("buff"))
+	slot4 = slot0.rtWeaknessContent
+	slot0.weaknessUIItemList = UIItemList.New(slot0.rtWeaknessContent, slot4:Find("buff"))
+	slot2 = slot0.weaknessUIItemList
 
-	slot0.weaknessUIItemList:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			setText(slot2:Find("Text"), uv0.weaknessList[slot1 + 1].config.desc)
+			setText(slot2:Find("Text"), uv0.weaknessList[slot1].config.desc)
 		end
 	end)
 	onButton(slot0, slot0.rtExit, function ()
 		uv0:Hide()
 	end, SFX_UI_CANCEL)
-	onButton(slot0, slot0.rtClick:Find("enemy"), function ()
+
+	slot4 = slot0.rtClick
+
+	onButton(slot0, slot4:Find("enemy"), function ()
 		uv0:Hide(true)
 	end, SFX_CONFIRM)
-	onButton(slot0, slot0.rtClick:Find("other"), function ()
+
+	slot4 = slot0.rtClick
+
+	onButton(slot0, slot4:Find("other"), function ()
 		uv0:Hide(true)
 	end, SFX_CONFIRM)
 end
@@ -186,6 +214,7 @@ function slot0.OnUpdate(slot0)
 	slot5 = {}
 	slot6 = false
 	slot7 = false
+	slot8 = slot0.attachment.config.name or ""
 
 	if WorldMapAttachment.IsEnemyType(slot2.type) then
 		slot6 = true
@@ -194,7 +223,7 @@ function slot0.OnUpdate(slot0)
 		slot5 = slot1:GetBuffList(WorldMap.FactionEnemy, slot2)
 
 		if slot2.config.difficulty == ys.Battle.BattleConst.Difficulty.WORLD then
-			slot8 = (slot0.attachment.config.name or "") .. " LV." .. WorldConst.WorldLevelCorrect(slot1.config.expedition_level, slot2.config.type)
+			slot8 = slot8 .. " LV." .. WorldConst.WorldLevelCorrect(slot1.config.expedition_level, slot2.config.type)
 		else
 			slot8 = slot8 .. " LV." .. slot2.config.level
 		end
@@ -233,11 +262,12 @@ function slot0.OnUpdate(slot0)
 
 	setText(slot3, HXSet.hxLan(slot8))
 
+	slot9 = slot2:GetWeaknessBuffId()
 	slot0.buffList = {}
 	slot0.weaknessList = {}
 
 	for slot13, slot14 in ipairs(slot4) do
-		if slot14.id == slot2:GetWeaknessBuffId() then
+		if slot14.id == slot9 then
 			table.insert(slot0.weaknessList, slot14)
 		else
 			table.insert(slot0.buffList, slot14)

@@ -10,6 +10,20 @@ function slot4(...)
 end
 
 function slot5(slot0, slot1, slot2, slot3)
+	function slot5()
+		slot1 = nil
+
+		if uv0[uv1] and slot0 ~= "" then
+			for slot5, slot6 in ipairs(slot0) do
+				if slot6[1] <= uv2 then
+					slot1 = slot6[2]
+				end
+			end
+		end
+
+		return slot1
+	end
+
 	function slot6(slot0)
 		if uv0.main_ex and slot1 ~= "" then
 			slot2 = nil
@@ -28,32 +42,22 @@ function slot5(slot0, slot1, slot2, slot3)
 		return nil
 	end
 
+	function slot7()
+		if not string.split(uv0, "_")[2] then
+			return nil
+		end
+
+		if tonumber(slot1) - ShipWordHelper.GetMainSceneWordCnt(uv1) > 0 then
+			return uv2(slot3)
+		else
+			return uv3()
+		end
+	end
+
 	slot8 = nil
 
 	if uv0[slot0] then
-		slot8 = (not slot3 or not string.find(slot1, "main") or (function ()
-			if not string.split(uv0, "_")[2] then
-				return nil
-			end
-
-			if tonumber(slot1) - ShipWordHelper.GetMainSceneWordCnt(uv1) > 0 then
-				return uv2(slot3)
-			else
-				return uv3()
-			end
-		end)()) and (function ()
-			slot1 = nil
-
-			if uv0[uv1] and slot0 ~= "" then
-				for slot5, slot6 in ipairs(slot0) do
-					if slot6[1] <= uv2 then
-						slot1 = slot6[2]
-					end
-				end
-			end
-
-			return slot1
-		end)()
+		slot8 = (not slot3 or not string.find(slot1, "main") or slot7()) and slot5()
 	end
 
 	return slot8

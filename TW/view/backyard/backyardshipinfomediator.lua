@@ -55,100 +55,104 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 		slot7 = Clone(slot9)
 	end
 
-	for slot15, slot16 in pairs(slot0.viewComponent.trainShipVOs) do
-		table.insert(({
-			callbackQuit = true,
-			selectedMin = slot4,
-			selectedMax = slot2,
-			quitTeam = slot3 ~= nil,
-			shipVOs = slot6,
-			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
-				isActivityNpc = true
-			}),
-			selectedIds = slot7,
-			preView = slot0.viewComponent.__cname,
-			hideTagFlags = ShipStatus.TAG_HIDE_BACKYARD,
-			blockTagFlags = ShipStatus.TAG_BLOCK_BACKYARD,
-			onShip = function (slot0, slot1, slot2)
-				slot3 = "inBackyard"
+	slot11 = {
+		callbackQuit = true,
+		selectedMin = slot4,
+		selectedMax = slot2,
+		quitTeam = slot3 ~= nil,
+		shipVOs = slot6,
+		ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
+			isActivityNpc = true
+		}),
+		selectedIds = slot7,
+		preView = slot0.viewComponent.__cname,
+		hideTagFlags = ShipStatus.TAG_HIDE_BACKYARD,
+		blockTagFlags = ShipStatus.TAG_BLOCK_BACKYARD,
+		onShip = function (slot0, slot1, slot2)
+			slot3 = "inBackyard"
 
-				if uv0 < #slot2 + 1 then
-					return false, i18n("backyard_no_pos_for_ship")
-				end
+			if uv0 < #slot2 + 1 then
+				return false, i18n("backyard_no_pos_for_ship")
+			end
 
-				if table.contains(uv1, slot0.id) then
-					return false, i18n("backyard_backyardShipInfoMediator_shipState_rest")
-				end
+			if table.contains(uv1, slot0.id) then
+				return false, i18n("backyard_backyardShipInfoMediator_shipState_rest")
+			end
 
-				slot4, slot5 = ShipStatus.ShipStatusCheck(slot3, slot0, function (slot0)
-					uv0()
-				end)
+			slot4, slot5 = ShipStatus.ShipStatusCheck(slot3, slot0, function (slot0)
+				uv0()
+			end)
 
-				return slot4, slot5
-			end,
-			onSelected = function (slot0, slot1)
-				slot2 = uv0.dormProxy:GetShipIdsByType(uv1)
+			return slot4, slot5
+		end,
+		onSelected = function (slot0, slot1)
+			slot2 = uv0.dormProxy:GetShipIdsByType(uv1)
 
-				pg.UIMgr.GetInstance():LoadingOn()
+			pg.UIMgr.GetInstance():LoadingOn()
 
-				if slot0 == nil or #slot0 == 0 then
-					uv0:sendNotification(GAME.EXIT_SHIP, {
-						shipId = uv2.id,
-						callback = slot1
-					})
-					pg.UIMgr.GetInstance():LoadingOff()
+			if slot0 == nil or #slot0 == 0 then
+				uv0:sendNotification(GAME.EXIT_SHIP, {
+					shipId = uv2.id,
+					callback = slot1
+				})
+				pg.UIMgr.GetInstance():LoadingOff()
 
-					return
-				end
+				return
+			end
 
-				for slot7, slot8 in ipairs(slot2) do
-					if not table.contains(slot0, slot8) then
-						table.insert({}, function (slot0)
-							uv0:sendNotification(GAME.EXIT_SHIP, {
-								shipId = uv1,
-								callback = slot0
-							})
-						end)
-					end
-				end
+			slot3 = {}
 
-				uv0.contextData.shipIdToAdd = {}
-
-				for slot7, slot8 in ipairs(slot0) do
-					if not table.contains(slot2, slot8) then
-						table.insert(uv0.contextData.shipIdToAdd, {
-							slot8,
-							uv1
+			for slot7, slot8 in ipairs(slot2) do
+				if not table.contains(slot0, slot8) then
+					table.insert(slot3, function (slot0)
+						uv0:sendNotification(GAME.EXIT_SHIP, {
+							shipId = uv1,
+							callback = slot0
 						})
-					end
-				end
-
-				if uv0.contextData.shipIdToAdd and #uv0.contextData.shipIdToAdd > 0 then
-					for slot7, slot8 in ipairs(uv0.contextData.shipIdToAdd) do
-						table.insert(slot3, function (slot0)
-							uv0:sendNotification(GAME.ADD_SHIP, {
-								id = uv1[1],
-								type = uv1[2],
-								callBack = slot0
-							})
-						end)
-					end
-				end
-
-				if #slot3 > 0 then
-					seriesAsync(slot3, function ()
-						uv0.contextData.shipIdToAdd = nil
-
-						pg.UIMgr.GetInstance():LoadingOff()
-						uv1()
 					end)
-				else
-					pg.UIMgr.GetInstance():LoadingOff()
-					slot1()
 				end
-			end,
-			priorEquipUpShipIDList = {}
-		}).priorEquipUpShipIDList, slot15)
+			end
+
+			uv0.contextData.shipIdToAdd = {}
+
+			for slot7, slot8 in ipairs(slot0) do
+				if not table.contains(slot2, slot8) then
+					table.insert(uv0.contextData.shipIdToAdd, {
+						slot8,
+						uv1
+					})
+				end
+			end
+
+			if uv0.contextData.shipIdToAdd and #uv0.contextData.shipIdToAdd > 0 then
+				for slot7, slot8 in ipairs(uv0.contextData.shipIdToAdd) do
+					table.insert(slot3, function (slot0)
+						uv0:sendNotification(GAME.ADD_SHIP, {
+							id = uv1[1],
+							type = uv1[2],
+							callBack = slot0
+						})
+					end)
+				end
+			end
+
+			if #slot3 > 0 then
+				seriesAsync(slot3, function ()
+					uv0.contextData.shipIdToAdd = nil
+
+					pg.UIMgr.GetInstance():LoadingOff()
+					uv1()
+				end)
+			else
+				pg.UIMgr.GetInstance():LoadingOff()
+				slot1()
+			end
+		end,
+		priorEquipUpShipIDList = {}
+	}
+
+	for slot15, slot16 in pairs(slot0.viewComponent.trainShipVOs) do
+		table.insert(slot11.priorEquipUpShipIDList, slot15)
 	end
 
 	for slot15, slot16 in pairs(slot0.viewComponent.restShipVOs) do

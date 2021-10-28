@@ -3,8 +3,9 @@ slot0 = class("RefreshCommanderBoxesCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = getProxy(CommanderProxy)
+	slot4 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(25034, {
+	slot4:Send(25034, {
 		type = 0
 	}, 25035, function (slot0)
 		for slot4, slot5 in ipairs(slot0.box_list) do

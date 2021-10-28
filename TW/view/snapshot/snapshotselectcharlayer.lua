@@ -175,6 +175,8 @@ function slot0.updateCardList(slot0)
 	else
 		for slot6, slot7 in ipairs(slot2) do
 			if pg.ship_data_group[slot7] then
+				slot10 = slot0.shipGroups[slot8.group_type]
+
 				if ShipGroup.New({
 					id = slot8.group_type
 				}) and IndexConst.filterByIndex(slot9, uv0.ShipIndex.index) and IndexConst.filterByRarity(slot9, uv0.ShipIndex.rarity) then
@@ -184,7 +186,7 @@ function slot0.updateCardList(slot0)
 						slot1[#slot1 + 1] = {
 							showTrans = false,
 							code = uv1(slot0.toggleType, slot11, slot7),
-							group = slot0.shipGroups[slot8.group_type]
+							group = slot10
 						}
 					elseif slot0.toggleType == uv0.TOGGLE_LINK and slot11 then
 						slot1[#slot1 + 1] = {

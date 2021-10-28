@@ -8,9 +8,10 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	uv0.super.Ctor(slot0, slot1, slot2, slot9, slot10)
 
 	slot0.configId = slot0.id
+	slot5 = slot0.level + 1
 
 	for slot9, slot10 in ipairs(slot1.npc_reply) do
-		table.insert(slot0.replyList, InstagramNpcComment.New(slot0.allReply[slot10], slot2, slot0.level + 1, slot0))
+		table.insert(slot0.replyList, InstagramNpcComment.New(slot0.allReply[slot10], slot2, slot5, slot0))
 	end
 
 	slot0.config = uv1[slot0:getConfig("ship_group")]

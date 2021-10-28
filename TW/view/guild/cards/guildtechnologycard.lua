@@ -32,10 +32,11 @@ end
 function slot0.Update(slot0, slot1, slot2)
 	slot0.titleImg.text = slot1:getConfig("name")
 	slot0.iconImag.sprite = GetSpriteFromAtlas("GuildTechnology", slot1.group.id)
+	slot6 = slot1:GetLevel()
 	slot8 = math.max(slot1:GetMaxLevel(), slot1.group:GetFakeLevel())
 
 	if slot1:IsGuildMember() then
-		slot0.levelTxt.text = "Lv." .. slot1:GetLevel()
+		slot0.levelTxt.text = "Lv." .. slot6
 	else
 		slot0.levelTxt.text = "Lv." .. slot6 .. "/" .. slot8 .. string.format(" [%s+%s]", slot5, math.max(0, slot7 - slot5))
 	end

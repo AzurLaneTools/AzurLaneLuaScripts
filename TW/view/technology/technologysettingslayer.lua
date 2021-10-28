@@ -221,6 +221,7 @@ end
 
 function slot0.initTendencyPage(slot0)
 	slot0.tendencyItemList = {}
+	slot2 = "tec_tendency_"
 	slot4 = getProxy(TechnologyProxy):getConfigMaxVersion()
 
 	for slot8 = 1, slot0:findTF("TecItemList", slot0.tendencyPanel).childCount do
@@ -229,7 +230,7 @@ function slot0.initTendencyPage(slot0)
 		if slot4 >= slot8 - 1 then
 			table.insert(slot0.tendencyItemList, slot9)
 
-			slot12 = "tec_tendency_" .. slot8 - 1
+			slot12 = slot2 .. slot8 - 1
 
 			setText(slot0:findTF("UnSelect/Text", slot9), i18n(slot12))
 			setText(slot0:findTF("Selected/Text", slot9), i18n(slot12))
@@ -290,6 +291,8 @@ function slot0.updateTargetCatchupBtns(slot0)
 	for slot4, slot5 in pairs(slot0.catchupBtns) do
 		if slot4 <= uv0.CATCHUP_VERSION then
 			slot7 = slot0.technologyProxy:getCatchupState(slot4) == TechnologyCatchup.STATE_CATCHUPING
+			slot8 = slot0:findTF("UnSelect/Text", slot5)
+			slot9 = slot0:findTF("Selected/Text", slot5)
 			slot10 = slot0:findTF("UnSelect/CharImg", slot5)
 			slot11 = slot0:findTF("Selected/CharImg", slot5)
 			slot12 = slot0:findTF("ProgressText", slot10)
@@ -299,8 +302,8 @@ function slot0.updateTargetCatchupBtns(slot0)
 			setActive(slot11, slot7)
 
 			if slot7 then
-				setText(slot0:findTF("UnSelect/Text", slot5), i18n("tec_target_catchup_selected_" .. slot4))
-				setText(slot0:findTF("Selected/Text", slot5), i18n("tec_target_catchup_selected_" .. slot4))
+				setText(slot8, i18n("tec_target_catchup_selected_" .. slot4))
+				setText(slot9, i18n("tec_target_catchup_selected_" .. slot4))
 
 				slot14 = slot0.technologyProxy:getCurCatchupTecInfo()
 				slot16 = slot14.groupID
@@ -330,7 +333,10 @@ end
 
 function slot0.initActCatchupPage(slot0)
 	if slot0.isShowActCatchup then
-		slot0.loader:GetPrefab("ui/" .. slot0.actCatchup:getConfig("page_info").ui_name, "", function (slot0)
+		slot1 = slot0.actCatchup
+		slot2 = slot0.loader
+
+		slot2:GetPrefab("ui/" .. slot1:getConfig("page_info").ui_name, "", function (slot0)
 			setParent(slot0, uv0.actCatchupPanel)
 			setLocalScale(slot0, {
 				x = 0.925,
@@ -352,11 +358,13 @@ function slot0.initActCatchupPage(slot0)
 			end
 
 			slot3 = uv0.actCatchup.data1
-			slot5 = pg.activity_event_blueprint_catchup[uv0.actCatchup:getConfig("config_id")].obtain_max
+			slot4 = uv0.actCatchup
+			slot5 = pg.activity_event_blueprint_catchup[slot4:getConfig("config_id")].obtain_max
+			slot6 = uv0.actCatchup
 
 			updateDrop(uv0.actCatchupItemTF, {
 				type = DROP_TYPE_ITEM,
-				id = uv0.actCatchup:getConfig("config_client").itemid
+				id = slot6:getConfig("config_client").itemid
 			})
 			onButton(uv0, uv0.actCatchupItemTF, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
@@ -375,6 +383,8 @@ function slot0.updateActCatchupBtn(slot0)
 	setText(slot0:findTF("UnSelect/Text", slot0.actCatchupBtn), i18n("tec_act_catchup_btn_word"))
 	setText(slot0:findTF("Selected/Text", slot0.actCatchupBtn), i18n("tec_act_catchup_btn_word"))
 
+	slot5 = slot0:findTF("ProgressText", slot0:findTF("UnSelect/CharImg", slot0.actCatchupBtn))
+	slot6 = slot0:findTF("ProgressText", slot0:findTF("Selected/CharImg", slot0.actCatchupBtn))
 	slot7 = false
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot8:isEnd() then
@@ -385,8 +395,8 @@ function slot0.updateActCatchupBtn(slot0)
 
 		setImageSprite(slot3, LoadSprite("TecCatchup/QChar" .. slot11, tostring(slot11)))
 		setImageSprite(slot4, LoadSprite("TecCatchup/QChar" .. slot11, tostring(slot11)))
-		setText(slot0:findTF("ProgressText", slot0:findTF("UnSelect/CharImg", slot0.actCatchupBtn)), slot9 .. "/" .. slot12)
-		setText(slot0:findTF("ProgressText", slot0:findTF("Selected/CharImg", slot0.actCatchupBtn)), slot9 .. "/" .. slot12)
+		setText(slot5, slot9 .. "/" .. slot12)
+		setText(slot6, slot9 .. "/" .. slot12)
 
 		slot13 = slot8.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 
@@ -439,11 +449,16 @@ function slot0.updateActCatchupBtn(slot0)
 end
 
 function slot0.initGiveUpMsgBox(slot0)
-	slot0.giveupMsgboxIntro = slot0.giveupMsgBox:Find("window/info/intro")
-	slot0.giveupMsgBoxConfirmBtn = slot0.giveupMsgBox:Find("window/button_container/confirm_btn")
-	slot0.giveupMsgBoxCancelBtn = slot0.giveupMsgBox:Find("window/button_container/cancel_btn")
-	slot0.giveupMsgBoxInput = slot0.giveupMsgBox:Find("window/info/InputField")
-	slot0.giveupMsgboxBackBtn = slot0.giveupMsgBox:Find("window/top/btnBack")
+	slot1 = slot0.giveupMsgBox
+	slot0.giveupMsgboxIntro = slot1:Find("window/info/intro")
+	slot1 = slot0.giveupMsgBox
+	slot0.giveupMsgBoxConfirmBtn = slot1:Find("window/button_container/confirm_btn")
+	slot1 = slot0.giveupMsgBox
+	slot0.giveupMsgBoxCancelBtn = slot1:Find("window/button_container/cancel_btn")
+	slot1 = slot0.giveupMsgBox
+	slot0.giveupMsgBoxInput = slot1:Find("window/info/InputField")
+	slot1 = slot0.giveupMsgBox
+	slot0.giveupMsgboxBackBtn = slot1:Find("window/top/btnBack")
 
 	onButton(slot0, slot0.giveupMsgBoxConfirmBtn, function ()
 		if not getInputText(uv0.giveupMsgBoxInput) or slot0 == "" then

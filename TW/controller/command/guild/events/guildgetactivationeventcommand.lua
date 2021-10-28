@@ -2,9 +2,10 @@ slot0 = class("GuildGetActivationEventCommand", import(".GuildEventBaseCommand")
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.force
 	slot4 = slot2.callback
 
-	if not getProxy(GuildProxy):ShouldFetchActivationEvent() and not slot2.force then
+	if not getProxy(GuildProxy):ShouldFetchActivationEvent() and not slot3 then
 		if slot4 then
 			slot4()
 		end
@@ -12,7 +13,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(61005, {
+	slot6 = pg.ConnectionMgr.GetInstance()
+
+	slot6:Send(61005, {
 		type = 0
 	}, 61006, function (slot0)
 		if slot0.result == 0 then

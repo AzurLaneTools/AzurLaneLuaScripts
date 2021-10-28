@@ -22,6 +22,7 @@ end
 
 function slot0.InitData(slot0)
 	slot0.displays = {}
+	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.voteData) do
 		slot8 = slot0:findTF("btns/btn_" .. slot5)
@@ -40,7 +41,7 @@ function slot0.InitData(slot0)
 			end
 		end, SFX_PANEL)
 
-		if 0 + 1 == 1 then
+		if slot1 + 1 == 1 then
 			triggerToggle(slot8, true)
 		end
 	end
@@ -74,6 +75,7 @@ function slot0.UpdateTips(slot0, slot1)
 		return
 	end
 
+	slot3 = getProxy(AttireProxy)
 	slot4 = {
 		{
 			"",
@@ -96,7 +98,7 @@ function slot0.UpdateTips(slot0, slot1)
 
 		setActive(findTF(slot2.ui, slot10.rank .. "/title/tip"), slot14 and slot14:isFinish() and not slot14:isReceive())
 
-		slot4[slot8][2] = getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_ICON_FRAME, pg.task_data_template[slot12].award_display[1][2]) ~= nil and slot17:isOwned()
+		slot4[slot8][2] = slot3:getAttireFrame(AttireConst.TYPE_ICON_FRAME, pg.task_data_template[slot12].award_display[1][2]) ~= nil and slot17:isOwned()
 		slot4[slot8][1] = HXSet.hxLan(ShipGroup.getDefaultShipConfig(slot10.ship_group).name)
 	end
 
@@ -110,7 +112,9 @@ function slot0.UpdateBtnsTip(slot0)
 	slot1 = getProxy(TaskProxy)
 
 	for slot5, slot6 in pairs(slot0.displays) do
-		setActive(slot6.btn:Find("tip"), _.any(slot6.data, function (slot0)
+		slot9 = slot6.btn
+
+		setActive(slot9:Find("tip"), _.any(slot6.data, function (slot0)
 			slot3 = uv0:getTaskById(pg.vote_champion[slot0].task) or uv0:getFinishTaskById(slot2)
 
 			return slot3 and slot3:isFinish() and not slot3:isReceive()

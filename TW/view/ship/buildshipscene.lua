@@ -56,8 +56,10 @@ function slot2(slot0)
 	slot1.minusBtn = findTF(slot1._go, "window/content/calc_panel/minus")
 	slot1.addBtn = findTF(slot1._go, "window/content/calc_panel/add")
 	slot1.maxBtn = findTF(slot1._go, "window/content/max")
-	slot1.valueTxt = findTF(slot1._go, "window/content/calc_panel/Text"):GetComponent(typeof(Text))
-	slot1.text = findTF(slot1._go, "window/content/Text"):GetComponent(typeof(Text))
+	slot2 = findTF(slot1._go, "window/content/calc_panel/Text")
+	slot1.valueTxt = slot2:GetComponent(typeof(Text))
+	slot2 = findTF(slot1._go, "window/content/Text")
+	slot1.text = slot2:GetComponent(typeof(Text))
 	slot1.buildUI = slot0.parent
 	slot1.active = false
 
@@ -260,7 +262,9 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:OverlayPanel(slot0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
 	})
 	onButton(slot0, slot0.quickCount, function ()
@@ -273,8 +277,9 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 
 	slot1 = slot0:findTF("adapt/left_length/stamp", slot0.blurPanel)
+	slot4 = getProxy(TaskProxy)
 
-	setActive(slot1, getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	setActive(slot1, slot4:mingshiTouchFlagEnabled())
 
 	function slot5()
 		getProxy(TaskProxy):dealMingshiTouchFlag(11)
@@ -497,7 +502,9 @@ function slot0.switchProject(slot0, slot1)
 	slot0:UpdateTestBtn(slot1)
 	slot0:UpdateBuildPoolPaiting(slot2)
 	onButton(slot0, slot0:findTF("gallery/start_btn", slot0.mainTF), function ()
-		uv0.msgbox:show(math.max(1, _.min({
+		slot2 = uv0.msgbox
+
+		slot2:show(math.max(1, _.min({
 			math.floor(uv0.player.gold / uv1.use_gold),
 			math.floor(uv0.itemVO.count / uv1.number_1),
 			MAX_BUILD_WORK_COUNT - uv0.startCount
@@ -523,7 +530,10 @@ function slot0.UpdateBuildPoolPaiting(slot0, slot1)
 	slot2 = nil
 
 	if slot0.painting ~= ((not slot1.exchange_ship_id or slot1.exchange_ship_id <= 0 or pg.ship_skin_template[pg.ship_data_statistics[slot1.exchange_ship_id].skin_id].painting) and slot0.falgShip:getPainting()) then
-		pg.UIMgr:GetInstance():LoadingOn()
+		slot3 = pg.UIMgr
+		slot3 = slot3:GetInstance()
+
+		slot3:LoadingOn()
 		setPaintingPrefabAsync(slot0.patingTF, slot2, "build", function ()
 			uv0.painting = uv1
 
@@ -534,6 +544,7 @@ end
 
 function slot0.UpdateBuildPoolExchange(slot0, slot1)
 	slot3 = slot1.exchange_available_times
+	slot4 = slot1.exchange_ship_id
 
 	if slot1.exchange_request and slot2 > 0 and slot3 and slot3 > 0 and slot0:isExActBuild() then
 		slot7 = slot0.activity.data2
@@ -543,7 +554,7 @@ function slot0.UpdateBuildPoolExchange(slot0, slot1)
 		setActive(slot0.buildPoolExchangeGetBtnMark, slot9)
 
 		slot0.buildPoolExchangeGetTxt.text = slot7 .. "/" .. slot3
-		slot0.buildPoolExchangeName.text = pg.ship_data_statistics[slot1.exchange_ship_id].name
+		slot0.buildPoolExchangeName.text = pg.ship_data_statistics[slot4].name
 
 		onButton(slot0, slot0.buildPoolExchangeTF, function ()
 			if uv0 then

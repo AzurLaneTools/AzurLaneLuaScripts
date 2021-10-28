@@ -139,9 +139,11 @@ function slot0.SetupGrid(slot0, slot1)
 	slot0.top = 999999
 
 	for slot5 = 0, WorldConst.MaxRow do
+		slot6, slot7 = nil
+
 		for slot11 = 0, WorldConst.MaxColumn do
 			if slot0:GetCell(slot5, slot11) then
-				if not nil then
+				if not slot6 then
 					slot6 = slot11
 					slot12.dir = bit.bor(slot12.dir, bit.lshift(1, WorldConst.DirLeft))
 				end
@@ -165,9 +167,11 @@ function slot0.SetupGrid(slot0, slot1)
 	end
 
 	for slot5 = 0, WorldConst.MaxColumn do
+		slot6, slot7 = nil
+
 		for slot11 = 0, WorldConst.MaxRow do
 			if slot0:GetCell(slot11, slot5) then
-				if not nil then
+				if not slot6 then
 					slot6 = slot11
 					slot12.dir = bit.bor(slot12.dir, bit.lshift(1, WorldConst.DirUp))
 				end
@@ -254,6 +258,7 @@ function slot0.SetValid(slot0, slot1)
 					end
 				end)
 			elseif slot0.findex == slot5 then
+				slot7 = {}
 				slot12 = slot6
 
 				WorldConst.RangeCheck(slot6, slot0:GetFOVRange(slot12), function (slot0, slot1)
@@ -262,8 +267,10 @@ function slot0.SetValid(slot0, slot1)
 					end
 				end)
 
+				slot8 = slot0:IsFleetTerrainSairenFog(slot6)
+
 				for slot12, slot13 in pairs(slot0.cells) do
-					slot13:UpdateFog(true, ({})[slot12], slot0:IsFleetTerrainSairenFog(slot6))
+					slot13:UpdateFog(true, slot7[slot12], slot8)
 				end
 			end
 		end
@@ -396,14 +403,18 @@ function slot0.canExit(slot0)
 end
 
 function slot0.CheckAttachmentTransport(slot0)
+	slot1 = WorldConst.GetTransportBlockEvent()
+
 	for slot6, slot7 in ipairs(slot0:FindAttachments(WorldMapAttachment.TypeEvent)) do
-		if slot7:IsAlive() and WorldConst.GetTransportBlockEvent()[slot7.id] then
+		if slot7:IsAlive() and slot1[slot7.id] then
 			return "block"
 		end
 	end
 
+	slot3 = WorldConst.GetTransportStoryEvent()
+
 	for slot7, slot8 in ipairs(slot2) do
-		if slot8:IsAlive() and WorldConst.GetTransportStoryEvent()[slot8.id] then
+		if slot8:IsAlive() and slot3[slot8.id] then
 			return "story"
 		end
 	end
@@ -448,10 +459,11 @@ function slot0.CalcTransportPos(slot0, slot1, slot2)
 		column = (slot0.left + slot0.right) / 2
 	}
 	slot6 = nil
+	slot7 = 4294967295.0
 	slot8 = nil
 
 	for slot12 = slot0.left + 1, slot0.right - 1 do
-		if math.abs(calcPositionAngle(slot12 - slot5.column, slot5.row - slot0.top) - slot3) < 4294967295.0 then
+		if math.abs(calcPositionAngle(slot12 - slot5.column, slot5.row - slot0.top) - slot3) < slot7 then
 			slot6 = {
 				row = slot0.top,
 				column = slot12
@@ -584,8 +596,10 @@ function slot0.ExistFleet(slot0, slot1, slot2)
 end
 
 function slot0.CalcFleetSpeed(slot0, slot1)
+	slot2 = slot1:GetSpeed()
+
 	if slot0:GetCell(slot1.row, slot1.column):GetTerrain() == WorldMapCell.TerrainFog then
-		slot2 = math.min(slot1:GetSpeed(), 1)
+		slot2 = math.min(slot2, 1)
 	end
 
 	return slot2
@@ -829,7 +843,9 @@ function slot0.GetLongMoveRange(slot0, slot1)
 		end)
 
 		repeat
-			slot10(table.remove(slot7, 1))
+			slot11 = table.remove(slot7, 1)
+
+			slot10(slot11)
 		until slot11 and not slot11.isObstacle
 	end
 
@@ -931,7 +947,10 @@ function slot0.ConstructFormationData(slot0)
 			table.insert(uv0, slot0)
 		end)
 	end)
-	_.each(nowWorld:GetPortShipVOs(), function (slot0)
+
+	slot4 = nowWorld
+
+	_.each(slot4:GetPortShipVOs(), function (slot0)
 		table.insert(uv0, slot0)
 	end)
 
@@ -942,10 +961,11 @@ function slot0.ConstructFormationData(slot0)
 end
 
 function slot0.WriteBack(slot0, slot1, slot2)
+	slot4 = {}
 	slot8 = true
 
 	for slot8, slot9 in ipairs(slot0:GetFleet():GetShips(slot8)) do
-		table.insert({}, slot9)
+		table.insert(slot4, slot9)
 	end
 
 	if slot2.statistics.submarineAid then
@@ -1044,9 +1064,11 @@ function slot0.FindAttachments(slot0, slot1, slot2)
 end
 
 function slot0.FindEnemys(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0.typeAttachments) do
 		if WorldMapAttachment.IsEnemyType(slot5) then
-			slot1 = table.mergeArray({}, slot6)
+			slot1 = table.mergeArray(slot1, slot6)
 		end
 	end
 
@@ -1078,9 +1100,11 @@ function slot0.GetMapSize(slot0)
 end
 
 function slot0.CountEventEffectKeys(slot0, slot1)
+	slot2 = 0
+
 	for slot6, slot7 in ipairs(slot0:GetNormalFleets()) do
 		if slot0:GetCell(slot7.row, slot7.column):GetAliveAttachment() and slot9.type == WorldMapAttachment.TypeEvent and slot9:GetEventEffect() == slot1 then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 
@@ -1134,6 +1158,7 @@ end
 
 function slot0.GetMaxDistanceCell(slot0, slot1, slot2)
 	slot3 = nil
+	slot4 = 0
 
 	for slot9, slot10 in pairs({
 		{
@@ -1153,7 +1178,7 @@ function slot0.GetMaxDistanceCell(slot0, slot1, slot2)
 			column = slot0.right
 		}
 	}) do
-		if 0 < (slot10.row - slot1) * (slot10.row - slot1) + (slot10.column - slot2) * (slot10.column - slot2) then
+		if slot4 < (slot10.row - slot1) * (slot10.row - slot1) + (slot10.column - slot2) * (slot10.column - slot2) then
 			slot3 = slot10
 			slot4 = slot11
 		end
@@ -1180,11 +1205,12 @@ end
 
 function slot0.GetEventTipWord(slot0)
 	slot2 = ""
+	slot3 = 0
 
 	for slot7, slot8 in ipairs(slot0:FindAttachments(WorldMapAttachment.TypeEvent)) do
 		slot9 = pg.world_event_desc[slot8.id]
 
-		if slot8:IsAlive() and slot9 and 0 < slot9.hint_pri then
+		if slot8:IsAlive() and slot9 and slot3 < slot9.hint_pri then
 			slot3 = slot9.hint_pri
 			slot2 = HXSet.hxLan(slot9.hint)
 		end
@@ -1194,9 +1220,11 @@ function slot0.GetEventTipWord(slot0)
 end
 
 function slot0.GetEventPoisonRate(slot0)
+	slot2 = 0
+
 	for slot6, slot7 in ipairs(slot0:FindAttachments(WorldMapAttachment.TypeEvent)) do
 		if slot7:IsAlive() then
-			slot2 = 0 + slot7.config.infection_value
+			slot2 = slot2 + slot7.config.infection_value
 		end
 	end
 
@@ -1342,8 +1370,10 @@ function slot0.triggerSkill(slot0, slot1, slot2)
 	end)
 
 	return _.reduce(slot3, nil, function (slot0, slot1)
+		slot3 = slot1:GetArgs()
+
 		if slot1:GetType() == FleetSkill.TypeMoveSpeed or slot2 == FleetSkill.TypeHuntingLv or slot2 == FleetSkill.TypeTorpedoPowerUp then
-			return (slot0 or 0) + slot1:GetArgs()[1]
+			return (slot0 or 0) + slot3[1]
 		elseif slot2 == FleetSkill.TypeAmbushDodge or slot2 == FleetSkill.TypeAirStrikeDodge then
 			return math.max(slot0 or 0, slot3[1])
 		elseif slot2 == FleetSkill.TypeAttack or slot2 == FleetSkill.TypeStrategy then
@@ -1397,8 +1427,10 @@ function slot0.triggerCheck(slot0, slot1, slot2, slot3)
 			return type(uv0[3]) == "number" and uv0[3] == slot1 or type(uv0[3]) == "table" and table.contains(uv0[3], slot1)
 		end)
 	elseif slot4 == FleetSkill.TriggerNekoPos then
+		slot5 = slot1:findCommanderBySkillId(slot2.id)
+
 		for slot9, slot10 in pairs(slot1:getCommanders()) do
-			if slot1:findCommanderBySkillId(slot2.id).id == slot10.id and slot9 == slot3[2] then
+			if slot5.id == slot10.id and slot9 == slot3[2] then
 				return true
 			end
 		end
@@ -1447,8 +1479,10 @@ function slot0.OnUpdateAttachmentExist(slot0, slot1, slot2, slot3)
 	end
 
 	if slot3:GetVisionRadius() > 0 then
+		slot6 = 0
+
 		if slot1 == WorldMapCell.EventAddAttachment then
-			slot6 = 0 + 1
+			slot6 = slot6 + 1
 		elseif slot1 == WorldMapCell.EventRemoveAttachment then
 			slot6 = slot6 - 1
 		end
@@ -1468,10 +1502,14 @@ function slot0.OnUpdateAttachmentExist(slot0, slot1, slot2, slot3)
 	end
 
 	if #slot3:GetMapBuffs() > 0 then
+		slot7 = {}
+
 		for slot11, slot12 in ipairs(slot6) do
 			slot13, slot14, slot15 = unpack(slot12)
 
 			if slot1 == WorldMapCell.EventAddAttachment then
+				slot7[slot13] = true
+
 				slot0:AddBuff(slot13, slot14, slot15)
 			elseif slot1 == WorldMapCell.EventRemoveAttachment then
 				slot7[slot13] = true
@@ -1480,9 +1518,7 @@ function slot0.OnUpdateAttachmentExist(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		for slot11, slot12 in pairs({
-			[slot13] = true
-		}) do
+		for slot11, slot12 in pairs(slot7) do
 			if slot12 then
 				slot0:FlushFaction(slot11)
 			end
@@ -1518,8 +1554,10 @@ function slot0.AddBuff(slot0, slot1, slot2, slot3)
 end
 
 function slot0.RemoveBuff(slot0, slot1, slot2, slot3)
+	slot4 = slot0:GetBuff(slot1, slot2)
+
 	if slot3 then
-		slot0:GetBuff(slot1, slot2):AddFloor(slot3 * -1)
+		slot4:AddFloor(slot3 * -1)
 	else
 		slot0.factionBuffs[slot1][slot2] = nil
 	end

@@ -83,7 +83,9 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	slot0.uilist:make(function (slot0, slot1, slot2)
+	slot1 = slot0.uilist
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = uv0:findTF("item", slot2)
 			slot6 = uv0.taskProxy:getTaskById(uv0.taskGroup[uv0.nday][slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot5)
@@ -130,8 +132,10 @@ function slot0.OnUpdateFlush(slot0)
 		setActive(slot0.finishContainer:GetChild(slot4 - 1), slot4 <= slot0.nday)
 	end
 
+	slot3 = slot0.taskProxy:getTaskVO(slot0.taskGroup[slot0.nday][1]):getTaskStatus()
+
 	if not slot0.showBubbleTag then
-		if slot0.taskProxy:getTaskVO(slot0.taskGroup[slot0.nday][1]):getTaskStatus() == 0 then
+		if slot3 == 0 then
 			slot0:showBubble(i18n(slot0.bubbleTextTable[slot0.sdName][1]))
 
 			slot0.showBubbleTag = true

@@ -1,9 +1,11 @@
 slot0 = class("SubmitWBAwardCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot5 = nowWorld:GetBossProxy()
+	slot4 = nowWorld
+	slot5 = slot4:GetBossProxy()
+	slot6 = pg.ConnectionMgr.GetInstance()
 
-	pg.ConnectionMgr.GetInstance():Send(34511, {
+	slot6:Send(34511, {
 		boss_id = slot1:getBody().bossId
 	}, 34512, function (slot0)
 		if slot0.result == 0 then

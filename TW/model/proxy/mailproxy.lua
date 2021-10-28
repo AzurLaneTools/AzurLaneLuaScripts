@@ -144,9 +144,11 @@ function slot0.OverflowShipExpAttachment(slot0)
 end
 
 function slot0.getAttatchmentsCount(slot0, slot1, slot2)
+	slot3 = 0
+
 	for slot8, slot9 in ipairs(slot0:getMails()) do
 		if slot9.attachFlag == Mail.ATTACHMENT_EXIST then
-			slot3 = 0 + slot9:getAttatchmentsCount(slot1, slot2)
+			slot3 = slot3 + slot9:getAttatchmentsCount(slot1, slot2)
 		end
 	end
 

@@ -5,7 +5,9 @@ function slot0.__call(slot0)
 		return
 	end
 
-	PoolMgr.GetInstance():GetPrefab(slot0.path, slot0.name, true, function (slot0)
+	slot3 = PoolMgr.GetInstance()
+
+	slot3:GetPrefab(slot0.path, slot0.name, true, function (slot0)
 		if not uv0.stopped then
 			if uv0.onLoaded then
 				uv0.onLoaded(slot0)

@@ -20,9 +20,11 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_BACK)
 	end)
 
-	slot0._boxRig.position = slot0._tf:TransformPoint(Vector3(-578, -390))
+	slot1 = slot0._tf
+	slot0._boxRig.position = slot1:TransformPoint(Vector3(-578, -390))
+	slot2 = slot0._boxPhyItem.CollisionEnter
 
-	slot0._boxPhyItem.CollisionEnter:AddListener(function (slot0)
+	slot2:AddListener(function (slot0)
 		if Physics2D.autoSimulation then
 			print("=========================")
 			print(slot0.collider.gameObject.name)
@@ -47,7 +49,9 @@ function slot0.jump(slot0)
 end
 
 function slot0.simulateDrawPath(slot0)
-	Physics2DMgr.Inst:DoPrediction(0.1, 50, function ()
+	slot1 = Physics2DMgr.Inst
+
+	slot1:DoPrediction(0.1, 50, function ()
 		uv0:jump()
 	end, function ()
 		slot0 = instantiate(uv0._gizmos)

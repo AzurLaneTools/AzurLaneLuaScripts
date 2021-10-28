@@ -32,8 +32,10 @@ function slot1.UpdateVigilantProgress(slot0)
 end
 
 function slot1.UpdateVigilantMark(slot0)
+	slot1 = slot0._vigilantState:GetVigilantMark()
+
 	for slot5, slot6 in ipairs(slot0._markList) do
-		SetActive(slot6, slot0._vigilantState:GetVigilantMark() == slot5)
+		SetActive(slot6, slot1 == slot5)
 	end
 end
 

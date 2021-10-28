@@ -7,9 +7,13 @@ end
 function slot0.OnInit(slot0)
 	setText(slot0:findTF("window/bg/text"), i18n("desc_defense_reward"))
 
-	slot0.UIlist = UIItemList.New(slot0._tf:Find("window/bg/panel/list"), slot0._tf:Find("window/bg/panel/list/item"))
-	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
-	slot0.confirmBtn = slot0._tf:Find("window/btn_confirm")
+	slot2 = slot0._tf
+	slot3 = slot0._tf
+	slot0.UIlist = UIItemList.New(slot2:Find("window/bg/panel/list"), slot3:Find("window/bg/panel/list/item"))
+	slot1 = slot0._tf
+	slot0.closeBtn = slot1:Find("window/top/btnBack")
+	slot1 = slot0._tf
+	slot0.confirmBtn = slot1:Find("window/btn_confirm")
 
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
@@ -33,8 +37,10 @@ function slot2(slot0, slot1, slot2, slot3)
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2:Find("title/Text"), "PHASE " .. slot1 + 1)
 
+			slot3 = tostring(uv0[slot1 + 1] - 1)
+
 			if uv0[slot1 + 1] - 1 ~= uv0[slot1 + 2] then
-				slot3 = tostring(uv0[slot1 + 2]) .. "-" .. tostring(uv0[slot1 + 1] - 1)
+				slot3 = tostring(uv0[slot1 + 2]) .. "-" .. slot3
 			end
 
 			setText(slot2:Find("target/title"), i18n("text_rest_HP") .. "：")

@@ -178,9 +178,10 @@ end
 
 function slot0.UpdateShips(slot0)
 	slot2 = slot0.highLevelShips
+	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0.eliteShips) do
-		table.insert({}, slot8)
+		table.insert(slot3, slot8)
 	end
 
 	for slot7, slot8 in ipairs(slot2) do

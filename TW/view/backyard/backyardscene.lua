@@ -165,11 +165,14 @@ function slot0.switch2View(slot0, slot1)
 	end
 
 	function slot2(slot0, slot1, slot2)
-		LeanTween[slot0](slot1, slot2, uv0):setOnComplete(System.Action(function ()
+		slot3 = LeanTween[slot0](slot1, slot2, uv0)
+		slot3 = slot3:setOnComplete(System.Action(function ()
 			if uv0 then
 				setActive(uv1, false)
 			end
-		end)):setOnStart(System.Action(function ()
+		end))
+
+		slot3:setOnStart(System.Action(function ()
 			if not uv0 then
 				setActive(uv1, true)
 			end
@@ -201,7 +204,12 @@ function slot0.UpdateThemetemplateBtn(slot0)
 		setActive(slot0.themeTemplateBtn, false)
 	else
 		pg.SystemGuideMgr.GetInstance():PlayBackYardThemeTemplate()
-		setActive(slot0.themeTemplateBtn, not slot0.isVisitMode and slot0.dormVO:IsMaxLevel())
+
+		slot1 = setActive
+		slot2 = slot0.themeTemplateBtn
+		slot3 = not slot0.isVisitMode and slot0.dormVO:IsMaxLevel()
+
+		slot1(slot2, slot3)
 	end
 end
 
@@ -293,7 +301,10 @@ function slot0.showFloorSel(slot0)
 		slot6 = slot5:Find("mask")
 
 		setText(slot5:Find("name"), slot4 .. "F")
-		setActive(slot6, not slot0.dormVO:isUnlockFloor(slot4))
+
+		slot9 = slot0.dormVO
+
+		setActive(slot6, not slot9:isUnlockFloor(slot4))
 		onButton(slot0, slot5, function ()
 			if uv0.view and uv0.view.inInitFurnitrues then
 				return
@@ -319,7 +330,10 @@ function slot0.showFloorSel(slot0)
 	onButton(slot0, slot0.msgBox, function ()
 		uv0:closeFloorSel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.msgBox:Find("floor_panel/cancel_btn"), function ()
+
+	slot3 = slot0.msgBox
+
+	onButton(slot0, slot3:Find("floor_panel/cancel_btn"), function ()
 		uv0:closeFloorSel()
 	end, SFX_PANEL)
 end
@@ -412,7 +426,9 @@ function slot0.initLoading(slot0, slot1)
 
 	LoadImageSpriteAsync("helpbg/" .. slot2[math.clamp(math.random(#slot2) + 1, 1, #slot2)], slot0.loadingHelp)
 
-	while pg.server_language[math.random(#pg.server_language)].limitation ~= -1 do
+	slot3 = pg.server_language[math.random(#pg.server_language)]
+
+	while slot3.limitation ~= -1 do
 		slot3 = pg.server_language[math.random(#pg.server_language)]
 	end
 
@@ -510,9 +526,13 @@ function slot0.updateBuff(slot0, slot1)
 		LeanTween.cancel(uv0.buffTip.gameObject)
 
 		rtf(uv0.buffTip).anchoredPosition = rtf(uv1).anchoredPosition
+		slot1 = uv0
 
-		setText(uv0:findTF("Text", uv0.buffTip), uv2.desc)
-		LeanTween.scale(rtf(uv0.buffTip), Vector3(1, 1, 1), 0.3):setOnComplete(System.Action(function ()
+		setText(slot1:findTF("Text", uv0.buffTip), uv2.desc)
+
+		slot0 = LeanTween.scale(rtf(uv0.buffTip), Vector3(1, 1, 1), 0.3)
+
+		slot0:setOnComplete(System.Action(function ()
 			if not IsNil(uv0.buffTip) then
 				LeanTween.scale(rtf(uv0.buffTip), Vector3(0, 0, 0), 0.3):setDelay(2)
 			end
@@ -573,7 +593,8 @@ function slot0.calFoodLeftTime(slot0)
 		return
 	end
 
-	slot1 = slot0.dormVO:getFoodLeftTime()
+	slot1 = slot0.dormVO
+	slot1 = slot1:getFoodLeftTime()
 
 	function slot2()
 		pg.TimeMgr.GetInstance():RemoveTimer(uv0.calFoodTimer)
@@ -585,7 +606,8 @@ function slot0.calFoodLeftTime(slot0)
 
 	setActive(slot0.leftTimeTF, true)
 
-	slot0.calFoodTimer = pg.TimeMgr.GetInstance():AddTimer("calFoodTimer", 0, 1, function ()
+	slot3 = pg.TimeMgr.GetInstance()
+	slot0.calFoodTimer = slot3:AddTimer("calFoodTimer", 0, 1, function ()
 		slot0 = math.floor(uv0) - pg.TimeMgr.GetInstance():GetServerTime()
 
 		setText(uv1.leftTimeTF, i18n("backyard_backyardScene_timeRest", " " .. pg.TimeMgr.GetInstance():DescCDTime(slot0)))

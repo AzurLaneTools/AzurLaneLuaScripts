@@ -72,13 +72,19 @@ function slot1.CorpsAreaLimit(slot0, slot1)
 		return slot1
 	end
 
+	slot3 = slot0._corpsLimitSpeed
+
 	if slot0._pos.x < slot0._leftCorpsBound then
+		slot3 = math.max(slot3, 0.1)
+
 		if slot1.x < 0 then
-			slot3 = math.min(10, math.max(slot0._corpsLimitSpeed, 0.1) * 1.04)
+			slot3 = math.min(10, slot3 * 1.04)
 		end
 	elseif slot0._rightCorpsBound < slot2 then
+		slot3 = math.min(slot3, -0.1)
+
 		if slot1.x > 0 then
-			slot3 = math.max(-10, math.min(slot3, -0.1) * 1.04)
+			slot3 = math.max(-10, slot3 * 1.04)
 		end
 	else
 		slot3 = slot3 < 0.1 and slot3 > -0.1 and 0 or slot3 * 0.8

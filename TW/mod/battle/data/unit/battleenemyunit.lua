@@ -56,8 +56,11 @@ function slot8.SetTemplate(slot0, slot1, slot2)
 	slot0:InitCldComponent()
 	slot0:SetAttr()
 
-	for slot7, slot8 in pairs(slot2 or {}) do
-		slot0:GetExtraInfo()[slot7] = slot8
+	slot2 = slot2 or {}
+	slot3 = slot0:GetExtraInfo()
+
+	for slot7, slot8 in pairs(slot2) do
+		slot3[slot7] = slot8
 	end
 
 	slot0:setStandardLabelTag()

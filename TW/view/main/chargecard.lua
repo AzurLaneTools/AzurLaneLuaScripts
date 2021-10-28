@@ -333,8 +333,10 @@ end
 function slot0.updateImport(slot0, slot1, slot2)
 	setActive(slot0.important, true)
 
+	slot3 = {}
+
 	for slot7, slot8 in ipairs(slot1) do
-		table.insert({}, {
+		table.insert(slot3, {
 			type = slot8[1],
 			id = slot8[2],
 			count = slot8[3]

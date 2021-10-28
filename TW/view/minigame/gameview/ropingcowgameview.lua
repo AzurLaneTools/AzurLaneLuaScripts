@@ -252,9 +252,10 @@ function slot32(slot0, slot1, slot2)
 
 			for slot4 = 1, #uv3 do
 				slot0.cowWeights[slot4] = {}
+				slot6 = 0
 
 				for slot10, slot11 in ipairs(uv3[slot4][2]) do
-					table.insert(slot0.cowWeights[slot4], 0 + slot11)
+					table.insert(slot0.cowWeights[slot4], slot6 + slot11)
 				end
 			end
 		end,
@@ -277,8 +278,9 @@ function slot32(slot0, slot1, slot2)
 				slot6 = slot0.cows[slot5].tf
 				slot8 = slot6.anchoredPosition
 				slot8.x = slot8.x - slot0.cows[slot5].data.speed * Time.deltaTime
+				slot9 = slot8.x
 
-				if slot6.anchoredPosition.x >= 0 and slot8.x <= 0 then
+				if slot6.anchoredPosition.x >= 0 and slot9 <= 0 then
 					slot0:setCowAniamtion(slot6, uv0)
 				end
 
@@ -295,12 +297,14 @@ function slot32(slot0, slot1, slot2)
 			end
 		end,
 		captureCow = function (slot0, slot1)
+			slot2 = nil
+
 			for slot6 = #slot0.cows, 1, -1 do
 				slot7 = slot0.cows[slot6].tf
 				slot8 = slot7.anchoredPosition
 
 				if uv0[1] <= slot7.anchoredPosition.x and slot7.anchoredPosition.x <= uv0[2] then
-					if not nil then
+					if not slot2 then
 						slot2 = slot6
 					elseif slot0.cows[slot2].tf.anchoredPosition.x - slot7.anchoredPosition.x >= 0 then
 						slot2 = slot6
@@ -333,10 +337,11 @@ function slot32(slot0, slot1, slot2)
 		end,
 		createCow = function (slot0)
 			slot2 = slot0.cowWeights[slot0:getCowWeightIndex()]
+			slot3 = math.random(0, slot2[#slot2])
 			slot4 = nil
 
 			for slot8 = 1, #slot2 do
-				if math.random(0, slot2[#slot2]) < slot2[slot8] then
+				if slot3 < slot2[slot8] then
 					slot4 = slot8
 
 					break
@@ -515,8 +520,10 @@ function slot34(slot0)
 			end
 		end,
 		changeSceneItemAnim = function (slot0, slot1, slot2, slot3)
+			slot4 = GetComponent(slot3, typeof(Animator))
+
 			if slot1 == uv0 then
-				GetComponent(slot3, typeof(Animator)):SetInteger("state", slot2)
+				slot4:SetInteger("state", slot2)
 			elseif slot1 == uv1 then
 				slot4:SetTrigger("trigger")
 			end
@@ -656,11 +663,12 @@ function slot0.initUI(slot0)
 		uv0:readyStart()
 	end, SFX_CANCEL)
 
+	slot2 = findTF(slot0.menuUI, "tplBattleItem")
 	slot0.battleItems = {}
 	slot0.dropItems = {}
 
 	for slot6 = 1, #uv0 do
-		slot7 = tf(instantiate(findTF(slot0.menuUI, "tplBattleItem")))
+		slot7 = tf(instantiate(slot2))
 		slot7.name = "battleItem_" .. slot6
 
 		setParent(slot7, findTF(slot0.menuUI, "battList/Viewport/Content"))
@@ -709,8 +717,9 @@ function slot0.initGameUI(slot0)
 	slot0.scoreTf = findTF(slot0.gameUI, "top/score")
 	slot0.btnCapture = findTF(slot0.gameUI, "btnCapture")
 	slot0.captureButton = GetOrAddComponent(slot0.btnCapture, "EventTriggerListener")
+	slot1 = slot0.captureButton
 
-	slot0.captureButton:AddPointDownFunc(function (slot0, slot1)
+	slot1:AddPointDownFunc(function (slot0, slot1)
 		if uv0._playerController then
 			uv0._playerController:throw()
 		end
@@ -744,6 +753,7 @@ function slot0.AddDebugInput(slot0)
 end
 
 function slot0.updateMenuUI(slot0)
+	slot1 = slot0:getGameUsedTimes()
 	slot2 = slot0:getGameTimes()
 
 	for slot6 = 1, #slot0.battleItems do
@@ -752,7 +762,7 @@ function slot0.updateMenuUI(slot0)
 		setActive(findTF(slot0.battleItems[slot6], "state_clear"), false)
 		setActive(findTF(slot0.battleItems[slot6], "state_current"), false)
 
-		if slot6 <= slot0:getGameUsedTimes() then
+		if slot6 <= slot1 then
 			SetParent(slot0.dropItems[slot6], findTF(slot0.battleItems[slot6], "state_clear/icon"))
 			setActive(slot0.dropItems[slot6], true)
 			setActive(findTF(slot0.battleItems[slot6], "state_clear"), true)

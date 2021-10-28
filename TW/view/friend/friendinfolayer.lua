@@ -78,10 +78,11 @@ function slot0.Init(slot0)
 	setActive(slot0:findTF("frame"), not slot1)
 
 	slot2 = nil
+	slot2 = (not slot1 or slot0:findTF("frame_for_backyard/right_bg")) and slot0:findTF("frame/right_bg")
 	slot0.btnTFs = {}
 
 	for slot6, slot7 in ipairs(uv0) do
-		slot8 = ((not slot1 or slot0:findTF("frame_for_backyard/right_bg")) and slot0:findTF("frame/right_bg")):GetChild(slot6 - 1)
+		slot8 = slot2:GetChild(slot6 - 1)
 
 		setActive(slot8, true)
 		onButton(slot0, slot8, function ()
@@ -139,7 +140,8 @@ function slot0.initInform(slot0)
 
 		for slot6, slot7 in ipairs(require("ShareCfg.InformForBackYardThemeTemplateCfg")) do
 			slot8 = cloneTplTo(slot0.buttonTpl, slot0.toggleContainer)
-			slot8:Find("Label"):GetComponent("Text").text = slot7.content
+			slot9 = slot8:Find("Label")
+			slot9:GetComponent("Text").text = slot7.content
 			slot9 = false
 
 			onButton(slot0, slot8, function ()
@@ -160,7 +162,8 @@ function slot0.initInform(slot0)
 
 		for slot6, slot7 in ipairs(require("ShareCfg.informCfg")) do
 			slot8 = cloneTplTo(slot0.toggleTpl, slot0.toggleContainer)
-			slot8:Find("Label"):GetComponent("Text").text = slot7.content
+			slot9 = slot8:Find("Label")
+			slot9:GetComponent("Text").text = slot7.content
 
 			onToggle(slot0, slot8, function (slot0)
 				if slot0 then

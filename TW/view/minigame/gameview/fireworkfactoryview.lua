@@ -128,7 +128,9 @@ function slot0.SetSprite(slot0, slot1, slot2)
 end
 
 function slot0.SetImageSprite(slot0, slot1, slot2)
-	pg.PoolMgr.GetInstance():GetSprite("ui/fireworkfactoryui_atlas", slot2, false, function (slot0)
+	slot3 = pg.PoolMgr.GetInstance()
+
+	slot3:GetSprite("ui/fireworkfactoryui_atlas", slot2, false, function (slot0)
 		uv0.sprite = slot0
 	end)
 end
@@ -237,13 +239,12 @@ function slot0.didEnter(slot0)
 	})
 
 	slot3 = {
-		0,
-		[#slot2 - slot7 + 2] = slot8[1],
-		[#slot2 + slot7 + 1] = slot8[2]
+		0
 	}
 
 	for slot7, slot8 in ipairs(slot0:GetMGData():GetSimpleValue("score_reference")) do
-		-- Nothing
+		slot3[#slot2 - slot7 + 2] = slot8[1]
+		slot3[#slot2 + slot7 + 1] = slot8[2]
 	end
 
 	slot3[#slot3] = 300
@@ -295,19 +296,24 @@ function slot0.FindandStopProgress(slot0)
 	setActive(slot0.effect_light, true)
 
 	slot0.progressDispense = #slot0.result_digits >= 3 and 4 or 0
+	slot1 = 0
 
 	for slot5 = 1, 3 do
 		if slot0.result_digits[slot5] then
-			slot1 = 0 + slot6
+			slot1 = slot1 + slot6
 		end
 	end
 
+	slot2 = 0
+
 	for slot6 = 1, #slot0.result_digits - 1 do
 		if slot0.result_digits[slot6] then
+			slot2 = slot2 + slot7
+
 			if slot6 == 1 then
 				setActive(slot0.progress_sub_mark_1, true)
 
-				slot0.progress_sub_mark_1.anchoredPosition = Vector2(slot0.progress_width * (0 + slot7) / 300, 27)
+				slot0.progress_sub_mark_1.anchoredPosition = Vector2(slot0.progress_width * slot2 / 300, 27)
 			elseif slot6 == 2 then
 				setActive(slot0.progress_sub_mark_2, true)
 
@@ -319,7 +325,9 @@ function slot0.FindandStopProgress(slot0)
 	slot3 = slot0.slider_bubble.transform.position
 	slot4 = slot0.slider_progress.transform.position
 	slot5 = slot0.slider_progress.value
-	slot0.progressAnim = LeanTween.value(slot0.slider_progress.gameObject, 0, 1, 1.5):setEase(LeanTweenType.linear):setOnUpdate(System.Action_float(function (slot0)
+	slot6 = LeanTween.value(slot0.slider_progress.gameObject, 0, 1, 1.5)
+	slot6 = slot6:setEase(LeanTweenType.linear)
+	slot6 = slot6:setOnUpdate(System.Action_float(function (slot0)
 		uv0.slider_progress.value = uv1.Lerp(uv2, uv3 / 300, slot0)
 
 		if uv0.effect_light then
@@ -329,7 +337,8 @@ function slot0.FindandStopProgress(slot0)
 				setActive(uv0.effect_light, false)
 			end
 		end
-	end)):setOnComplete(System.Action(function ()
+	end))
+	slot0.progressAnim = slot6:setOnComplete(System.Action(function ()
 		setButtonEnabled(uv0.btn_hammer, true)
 		setButtonEnabled(uv0.btn_dispenseBG, true)
 
@@ -357,9 +366,10 @@ function slot0.ShowResultWindow(slot0)
 	setActive(slot0.resultWindow, true)
 
 	slot2 = slot0:GetMGData():GetSimpleValue("score_reference")
+	slot3 = 0
 
 	for slot7 = 1, 3 do
-		slot3 = 0 + slot0.result_digits[slot7]
+		slot3 = slot3 + slot0.result_digits[slot7]
 	end
 
 	slot4 = 4
@@ -390,14 +400,18 @@ function slot0.ShowResult(slot0)
 end
 
 function slot0.OnGetAwardDone(slot0, slot1)
-	if slot1.cmd == MiniGameOPCommand.CMD_COMPLETE and (slot0:GetMGHubData().ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime) then
+	slot3 = slot0:GetMGHubData().ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime
+
+	if slot1.cmd == MiniGameOPCommand.CMD_COMPLETE and slot3 then
 		pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
 			hubid = slot2.id,
 			cmd = MiniGameOPCommand.CMD_ULTIMATE,
 			args1 = {}
 		})
 	elseif slot1.cmd == MiniGameOPCommand.CMD_ULTIMATE then
-		pg.NewStoryMgr.GetInstance():Play("TIANHOUYUYI2", function ()
+		slot4 = pg.NewStoryMgr.GetInstance()
+
+		slot4:Play("TIANHOUYUYI2", function ()
 			uv0:AfterResult()
 		end)
 	else
@@ -434,9 +448,10 @@ function slot0.GetReward(slot0)
 	end
 
 	slot2 = slot0:GetMGData():GetSimpleValue("score_reference")
+	slot3 = 0
 
 	for slot7 = 1, 3 do
-		slot3 = 0 + slot0.result_digits[slot7]
+		slot3 = slot3 + slot0.result_digits[slot7]
 	end
 
 	slot4 = 4
@@ -481,12 +496,15 @@ end
 function slot0.UpdateContainer(slot0)
 	slot0:SetSprite(slot0.btn_hammer_text, uv0[slot0.progressDispense + 1])
 
+	slot1 = 0
+	slot2 = true
+
 	for slot6 = 1, 3 do
 		slot7 = slot0.result_digits[slot6]
-		slot2 = true and slot7 ~= nil
+		slot2 = slot2 and slot7 ~= nil
 
 		if slot7 then
-			slot1 = 0 + slot7
+			slot1 = slot1 + slot7
 		end
 	end
 
@@ -587,10 +605,11 @@ function slot0.UdpateSelectedBall(slot0, slot1)
 end
 
 function slot0.Clone2Full(slot0, slot1, slot2)
+	slot3 = {}
 	slot4 = slot1:GetChild(0)
 
 	for slot9 = 0, slot1.childCount - 1 do
-		table.insert({}, slot1:GetChild(slot9))
+		table.insert(slot3, slot1:GetChild(slot9))
 	end
 
 	for slot9 = slot5, slot2 - 1 do

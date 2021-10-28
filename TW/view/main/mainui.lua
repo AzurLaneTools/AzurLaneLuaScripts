@@ -106,7 +106,9 @@ function slot0.setShips(slot0, slot1)
 end
 
 function slot0.setBG(slot0)
-	PoolMgr.GetInstance():GetSprite("commonbg/" .. slot0:getDiffTimeInfo()[2], "", false, function (slot0)
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetSprite("commonbg/" .. slot0:getDiffTimeInfo()[2], "", false, function (slot0)
 		uv0.bgLoading = false
 
 		uv0:setChangeBtnInteractable()
@@ -965,8 +967,10 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.ResetActivityBtns(slot0)
+	slot2 = slot0._ActivityBtns:GetComponent(typeof(GridLayoutGroup))
+
 	if import("GameCfg.activity.MainUIEntranceData").LayoutProperty.CellSize then
-		slot0._ActivityBtns:GetComponent(typeof(GridLayoutGroup)).cellSize = slot1.LayoutProperty.CellSize
+		slot2.cellSize = slot1.LayoutProperty.CellSize
 	end
 
 	if slot1.LayoutProperty.Spacing then
@@ -977,9 +981,11 @@ function slot0.ResetActivityBtns(slot0)
 		slot2.padding = slot2.padding.New(unpack(slot1.LayoutProperty.Padding))
 	end
 
+	slot3 = slot0._ActivityBtnTpl
+
 	for slot7, slot8 in ipairs(slot1.CurrentEntrancesList) do
 		if IsNil(tf(slot2):Find(slot1[slot8].ButtonName)) then
-			slot10 = cloneTplTo(slot0._ActivityBtnTpl, slot2, slot9.ButtonName)
+			slot10 = cloneTplTo(slot3, slot2, slot9.ButtonName)
 
 			slot10:SetSiblingIndex(slot7 - 1)
 			slot0:RefreshBtn(slot10, slot9)
@@ -1211,7 +1217,11 @@ function slot0.paintClimax(slot0, slot1, slot2, slot3)
 
 	if (slot3 or math.random(3) - 1) ~= 0 then
 		LeanTween.cancel(go(slot0._paintingTF))
-		LeanTween.moveY(rtf(slot0._paintingTF), slot7, slot2):setLoopPingPong(slot3):setOnComplete(System.Action(function ()
+
+		slot8 = LeanTween.moveY(rtf(slot0._paintingTF), slot7, slot2)
+		slot8 = slot8:setLoopPingPong(slot3)
+
+		slot8:setOnComplete(System.Action(function ()
 			uv0:paintBreath()
 		end))
 	end
@@ -1276,10 +1286,11 @@ function slot0.getCvData(slot0, slot1)
 		return nil
 	end
 
+	slot2 = slot0.flagShip:getCVIntimacy()
 	slot4, slot5, slot6, slot7, slot8, slot9 = nil
 
 	if string.split(slot1, "_")[1] == "main" then
-		slot4, slot6, slot5 = ShipWordHelper.GetWordAndCV(slot0.flagShip.skinId, slot3[1], tonumber(slot3[2]), nil, slot0.flagShip:getCVIntimacy())
+		slot4, slot6, slot5 = ShipWordHelper.GetWordAndCV(slot0.flagShip.skinId, slot3[1], tonumber(slot3[2]), nil, slot2)
 		slot7 = ShipWordHelper.GetL2dCvCalibrate(slot0.flagShip.skinId, slot3[1], tonumber(slot3[2]))
 		slot8 = ShipWordHelper.GetL2dSoundEffect(slot0.flagShip.skinId, slot3[1], tonumber(slot3[2]))
 	else
@@ -1343,18 +1354,23 @@ function slot0.displayShipWord(slot0, slot1)
 	end
 
 	function slot13()
-		if not uv0.showWord then
-			(function ()
-				uv0._lastChatTween = nil
-				uv0.chatFlag = nil
+		function slot0()
+			uv0._lastChatTween = nil
+			uv0.chatFlag = nil
 
-				uv0:startChatTimer()
-			end)()
+			uv0:startChatTimer()
+		end
+
+		if not uv0.showWord then
+			slot0()
 
 			return
 		end
 
-		LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(1, 1, 1), uv0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
+		slot1 = LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(1, 1, 1), uv0.CHAT_ANIMATION_TIME)
+		slot1 = slot1:setEase(LeanTweenType.easeOutBack)
+
+		slot1:setOnComplete(System.Action(function ()
 			uv0._lastChatTween = LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(0, 0, 1), uv0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(uv0.CHAT_ANIMATION_TIME + uv1):setOnComplete(System.Action(uv2))
 		end))
 	end
@@ -1384,7 +1400,9 @@ function slot0.displayShipWord(slot0, slot1)
 			end
 
 			function slot0()
-				pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0, function (slot0)
+				slot0 = pg.CriMgr.GetInstance()
+
+				slot0:PlaySoundEffect_V3(uv0, function (slot0)
 					if slot0 then
 						uv0._currentVoice = slot0.playback
 						uv1 = slot0:GetLength() * 0.001
@@ -1411,8 +1429,9 @@ function slot0.displayShipWord(slot0, slot1)
 		end
 
 		slot17 = pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.flagShip.skinId))
+		slot18 = pg.CriMgr.GetInstance()
 
-		pg.CriMgr.GetInstance():LoadCueSheet(slot17, function (slot0)
+		slot18:LoadCueSheet(slot17, function (slot0)
 			if slot0 then
 				uv0()
 			else
@@ -1465,8 +1484,10 @@ function slot0.startChatTimer(slot0)
 	slot0.chatTimer = Timer.New(function ()
 		uv0:paintClimax(uv1.CHAT_HEIGHT, uv1.CHAT_DURATION)
 
+		slot0 = {}
+
 		if getProxy(EventProxy):hasFinishState() and uv0.lastChatEvent ~= "event_complete" then
-			table.insert({}, "event_complete")
+			table.insert(slot0, "event_complete")
 		else
 			if go(uv0._taskBtn:Find("tip")).activeSelf and uv0.lastChatEvent ~= "mission_complete" then
 				table.insert(slot0, "mission_complete")
@@ -1477,8 +1498,10 @@ function slot0.startChatTimer(slot0)
 			end
 
 			if #slot0 == 0 then
+				slot0 = uv2.filterAssistantEvents(Clone(uv2.IdleEvents), uv0.flagShip.skinId, uv0.flagShip:getCVIntimacy())
+
 				if getProxy(TaskProxy):getNotFinishCount() and getProxy(TaskProxy):getNotFinishCount() > 0 and uv0.lastChatEvent ~= "mission" then
-					table.insert(uv2.filterAssistantEvents(Clone(uv2.IdleEvents), uv0.flagShip.skinId, uv0.flagShip:getCVIntimacy()), "mission")
+					table.insert(slot0, "mission")
 				end
 			end
 		end
@@ -1539,9 +1562,10 @@ function slot0.ShowAssistInfo(slot0, slot1, slot2)
 		slot0._paintingBgTf.localScale = Vector3.one
 	end
 
+	slot11 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot1)))
 	slot13 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. slot1)))
 
-	if slot6:getCharacterSetting(slot2.id, SHIP_FLAG_SP) and PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot1))) then
+	if slot6:getCharacterSetting(slot2.id, SHIP_FLAG_SP) and slot11 then
 		LeanTween.cancel(go(slot0._paintingTF))
 
 		slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
@@ -1634,8 +1658,9 @@ function slot0.AssistantEventEffect(slot0, slot1)
 			slot0.live2dChar:TriggerAction(slot2.action)
 		else
 			slot9 = true
+			slot10 = slot0.live2dChar
 
-			slot0.live2dChar:TriggerAction(slot2.action, nil, , function ()
+			slot10:TriggerAction(slot2.action, nil, , function ()
 				uv0:displayShipWord(uv1.dialog)
 			end)
 		end
@@ -1689,10 +1714,12 @@ function slot0.concealGimmick(slot0, slot1, slot2, slot3)
 end
 
 function slot0.generateGimmickLean(slot0, slot1, slot2, slot3)
+	slot3 = slot3 or uv0.EJECT_DURATION
+	slot4 = slot1:GetComponent("RectTransform").rect
 	slot5 = nil
 
 	if slot2 == uv0.DIRECTION_RIGHT then
-		slot5 = LeanTween.moveX(rtf(slot1), slot1:GetComponent("RectTransform").rect.width, slot3 or uv0.EJECT_DURATION)
+		slot5 = LeanTween.moveX(rtf(slot1), slot4.width, slot3)
 	elseif slot2 == uv0.DIRECTION_LEFT then
 		slot5 = LeanTween.moveX(rtf(slot1), slot4.width * -1, slot3)
 	elseif slot2 == uv0.DIRECTION_UP then
@@ -1758,9 +1785,13 @@ function slot0.updateBuffList(slot0, slot1)
 
 					setActive(uv0._buffText, true)
 
+					slot0 = uv1:getConfig("desc")
+
 					if uv1:getConfig("max_time") > 0 then
+						slot2 = pg.TimeMgr:GetInstance():GetServerTime()
+
 						if uv1.timestamp then
-							setText(uv0._buffText:Find("Text"), string.gsub(uv1:getConfig("desc"), "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(slot3 - pg.TimeMgr:GetInstance():GetServerTime())))
+							setText(uv0._buffText:Find("Text"), string.gsub(slot0, "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(slot3 - slot2)))
 
 							uv0._buffTimeCountDownTimer = Timer.New(function ()
 								if uv0 > 0 then
@@ -1838,7 +1869,9 @@ function slot0.updateFlagShip(slot0, slot1)
 	end
 
 	if slot4 then
-		PoolMgr.GetInstance():GetPrefab("Effect/" .. slot4, slot4, true, function (slot0)
+		slot6 = PoolMgr.GetInstance()
+
+		slot6:GetPrefab("Effect/" .. slot4, slot4, true, function (slot0)
 			if not uv0.exited then
 				uv0._paintingFX = {
 					name = uv1,
@@ -1857,8 +1890,13 @@ function slot0.updateFlagShip(slot0, slot1)
 	end
 
 	if slot0.flagShip then
-		if slot0.flagShip:getShipBgPrint() ~= slot0.flagShip:rarity2bgPrintForGet() and getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, SHIP_FLAG_BG) then
-			pg.DynamicBgMgr.GetInstance():LoadBg(slot0, slot7, slot0._bg, slot0._bg:Find("bg"), function (slot0)
+		slot6 = getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, SHIP_FLAG_BG)
+		slot8 = slot0._bg:Find("bg")
+
+		if slot0.flagShip:getShipBgPrint() ~= slot0.flagShip:rarity2bgPrintForGet() and slot6 then
+			slot9 = pg.DynamicBgMgr.GetInstance()
+
+			slot9:LoadBg(slot0, slot7, slot0._bg, slot8, function (slot0)
 				uv0.bgLoading = false
 
 				uv0:setChangeBtnInteractable()
@@ -2208,9 +2246,13 @@ end
 function slot0.loadChar(slot0, slot1)
 	if not slot0.shipPrefab then
 		slot0.shipPrefab = slot1
+		slot2 = pg.UIMgr.GetInstance()
 
-		pg.UIMgr.GetInstance():LoadingOn()
-		PoolMgr.GetInstance():GetSpineChar(slot1, true, function (slot0)
+		slot2:LoadingOn()
+
+		slot2 = PoolMgr.GetInstance()
+
+		slot2:GetSpineChar(slot1, true, function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
 			uv0.shipModel = slot0

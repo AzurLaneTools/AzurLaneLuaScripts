@@ -16,8 +16,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GAME.MEMORYBOOK_UNLOCK_DONE then
-		slot0.viewComponent:updateAfterSubmit(slot1:getBody())
+		slot0.viewComponent:updateAfterSubmit(slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
 		-- Nothing
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
@@ -42,7 +44,9 @@ function slot0.isHaveActivableMedal()
 	end
 
 	for slot7, slot8 in ipairs(slot3) do
-		if not table.contains(slot2, slot8) and table.contains(slot1, slot8) then
+		slot10 = table.contains(slot1, slot8)
+
+		if not table.contains(slot2, slot8) and slot10 then
 			return true
 		end
 	end

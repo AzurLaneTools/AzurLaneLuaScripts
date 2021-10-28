@@ -95,7 +95,9 @@ function slot0.findUI(slot0)
 		setAnchoredPosition(slot8, slot7)
 	end
 
-	setText(slot0.pageModified:Find("TextTip"), i18n("collect_idol_tip"))
+	slot4 = slot0.pageModified
+
+	setText(slot4:Find("TextTip"), i18n("collect_idol_tip"))
 	slot0:AddLeanTween(function ()
 		return LeanTween.alphaText(rtf(uv0.pageModified:Find("TextTip")), 1, 2):setFrom(0):setLoopPingPong()
 	end)

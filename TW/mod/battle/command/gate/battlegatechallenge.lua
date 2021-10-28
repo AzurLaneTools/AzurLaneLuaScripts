@@ -18,7 +18,9 @@ function slot0.Entrance(slot0, slot1)
 		slot9[#slot9 + 1] = slot20.id
 	end
 
-	if slot8 and slot4:getData().oil < slot13 then
+	slot16 = slot4:getData()
+
+	if slot8 and slot16.oil < slot13 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
@@ -40,13 +42,17 @@ function slot0.Entrance(slot0, slot1)
 		end
 
 		if uv3.enter_energy_cost > 0 then
+			slot1 = pg.gameset.battle_consume_energy.key_value
+
 			for slot5, slot6 in ipairs(ships) do
-				slot6:cosumeEnergy(pg.gameset.battle_consume_energy.key_value)
+				slot6:cosumeEnergy(slot1)
 				uv4:updateShip(slot6)
 			end
 		end
 
-		uv5:updatePlayer(uv1)
+		slot1 = uv5
+
+		slot1:updatePlayer(uv1)
 		uv9:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			prefabFleet = {},
 			stageId = uv6,
@@ -100,12 +106,16 @@ function slot0.Exit(slot0, slot1)
 			extraDrops = slot2
 		})
 
-		for slot10, slot11 in pairs(uv6:getShipUIDList()) do
-			(function (slot0)
-				if uv0.statistics[slot0] then
-					uv1:updateShipHP(slot0, slot1.bp)
-				end
-			end)(slot11)
+		slot5 = uv6
+
+		function slot6(slot0)
+			if uv0.statistics[slot0] then
+				uv1:updateShipHP(slot0, slot1.bp)
+			end
+		end
+
+		for slot10, slot11 in pairs(slot5:getShipUIDList()) do
+			slot6(slot11)
 		end
 	end)
 end

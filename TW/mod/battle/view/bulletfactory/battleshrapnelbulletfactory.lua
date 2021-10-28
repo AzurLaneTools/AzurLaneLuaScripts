@@ -70,8 +70,10 @@ function slot2.onBulletHitFunc(slot0, slot1, slot2)
 			slot9 = uv0.GetSceneMediator():GetCharacter(slot1)
 		end
 
+		slot11 = slot9:AddFX(slot0:GetFXID())
+
 		if slot9:GetUnitData():GetIFF() == slot3:GetFoeCode() then
-			slot12 = slot9:AddFX(slot0:GetFXID()).transform
+			slot12 = slot11.transform
 			slot13 = slot12.localRotation
 			slot12.localRotation = Vector3(slot13.x, 180, slot13.z)
 		end

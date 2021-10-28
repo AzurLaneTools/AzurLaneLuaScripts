@@ -34,16 +34,20 @@ function slot0.init(slot0)
 	end
 
 	if slot0.title == uv0.TITLE.COMMANDER then
-		eachChild(slot0._itemsWindow:Find("titles/title_commander"), function (slot0)
+		slot2 = slot0._itemsWindow
+
+		eachChild(slot2:Find("titles/title_commander"), function (slot0)
 			setActive(slot0, slot0.name == uv0.contextData.titleExtra)
 		end)
 	end
 
+	slot1 = {
+		items_scroll = slot0._itemsWindow:Find("items_scroll/content"),
+		ships = slot0._itemsWindow:Find("ships")
+	}
+
 	if slot0.title == uv0.TITLE.SHIP then
-		slot0.container = ({
-			items_scroll = slot0._itemsWindow:Find("items_scroll/content"),
-			ships = slot0._itemsWindow:Find("ships")
-		}).ships
+		slot0.container = slot1.ships
 	else
 		slot0.container = slot1.items_scroll
 
@@ -67,9 +71,10 @@ function slot0.init(slot0)
 	setActive(slot0.extraBouns, slot0.contextData.extraBonus)
 
 	slot0.continueBtn = slot0:findTF("items/close")
+	slot2 = slot0._tf:Find("decorations")
 
 	if slot0.title == uv0.TITLE.SHIP then
-		setLocalScale(slot0._tf:Find("decorations"), Vector3.New(1.25, 1.25, 1))
+		setLocalScale(slot2, Vector3.New(1.25, 1.25, 1))
 	else
 		setLocalScale(slot2, Vector3.one)
 	end
@@ -84,7 +89,10 @@ function slot0.init(slot0)
 end
 
 function slot0.doAnim(slot0, slot1)
-	LeanTween.scale(rtf(slot0._itemsWindow), Vector3(1, 1, 1), 0.15):setEase(LeanTweenType.linear):setOnComplete(System.Action(function ()
+	slot2 = LeanTween.scale(rtf(slot0._itemsWindow), Vector3(1, 1, 1), 0.15)
+	slot2 = slot2:setEase(LeanTweenType.linear)
+
+	slot2:setOnComplete(System.Action(function ()
 		if uv0.exited then
 			return
 		end
@@ -257,12 +265,16 @@ function slot0.displayAwards(slot0)
 				setLocalScale(slot8, Vector3.zero)
 				updateDrop(slot0:findTF("item_tpl/bg", slot8), slot7)
 				slot0:managedTween(LeanTween.delayedCall, function ()
-					uv0:managedTween(LeanTween.value, nil, go(uv1), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
+					slot0 = uv0
+					slot0 = slot0:managedTween(LeanTween.value, nil, go(uv1), 0, 1, 0.3)
+					slot0 = slot0:setOnUpdate(System.Action_float(function (slot0)
 						setLocalScale(uv0, {
 							x = slot0,
 							y = slot0
 						})
-					end)):setOnComplete(System.Action(function ()
+					end))
+
+					slot0:setOnComplete(System.Action(function ()
 						setLocalScale(uv0, Vector3.one)
 					end))
 				end, 0.3, nil)

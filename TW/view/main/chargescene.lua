@@ -12,31 +12,33 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.preload(slot0, slot1)
+	function slot3()
+		slot1 = uv0:getChargedList()
+		slot2 = uv0:GetNormalList()
+		slot3 = uv0:GetNormalGroupList()
+
+		if uv0:getFirstChargeList() then
+			uv1:setFirstChargeIds(slot0)
+		end
+
+		if slot1 then
+			uv1:setChargedList(slot1)
+		end
+
+		if slot2 then
+			uv1:setNormalList(slot2)
+		end
+
+		if slot3 then
+			uv1:setNormalGroupList(slot3)
+		end
+
+		uv2()
+	end
+
 	if getProxy(ShopsProxy):ShouldRefreshChargeList() then
 		pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
-			callback = function ()
-				slot1 = uv0:getChargedList()
-				slot2 = uv0:GetNormalList()
-				slot3 = uv0:GetNormalGroupList()
-
-				if uv0:getFirstChargeList() then
-					uv1:setFirstChargeIds(slot0)
-				end
-
-				if slot1 then
-					uv1:setChargedList(slot1)
-				end
-
-				if slot2 then
-					uv1:setNormalList(slot2)
-				end
-
-				if slot3 then
-					uv1:setNormalGroupList(slot3)
-				end
-
-				uv2()
-			end
+			callback = slot3
 		})
 	else
 		slot3()
@@ -86,8 +88,9 @@ function slot0.init(slot0)
 	slot0.manuGiftTip = slot0:findTF("tip", slot0.giftShop)
 	slot0.giftTip = slot0:findTF("tip", slot0.giftToggle)
 	slot0.resPanel = PlayerResource.New()
+	slot1 = slot0.resPanel
 
-	slot0.resPanel:setParent(slot0:findTF("res", slot0.top), false)
+	slot1:setParent(slot0:findTF("res", slot0.top), false)
 
 	slot0.linkPage = {
 		1,
@@ -130,8 +133,10 @@ function slot0.didEnter(slot0)
 	TagTipHelper.SetFuDaiTagMark()
 	TagTipHelper.SetSkinTagMark()
 
+	slot1 = slot0:findTF("skin_shop", slot0.menu)
+
 	if getProxy(ActivityProxy):getActiveBannerByType(GAMEUI_BANNER_9) ~= nil then
-		LoadImageSpriteAsync("activitybanner/" .. slot3.pic, slot0:findTF("skin_shop", slot0.menu))
+		LoadImageSpriteAsync("activitybanner/" .. slot3.pic, slot1)
 	end
 
 	setActive(slot0.chat, false)
@@ -207,7 +212,8 @@ function slot0.didEnter(slot0)
 	setActive(slot0:findTF("dimond_shop/monthcard_tag", slot0.menu), slot4)
 
 	if slot4 then
-		slot5 = getProxy(ContextProxy):getCurrentContext()
+		slot5 = getProxy(ContextProxy)
+		slot5 = slot5:getCurrentContext()
 		slot6 = slot5.onRemoved
 
 		function slot5.onRemoved()
@@ -362,9 +368,12 @@ function slot0.initDamonds(slot0)
 	slot0:initDamondsData()
 
 	slot0.damondItems = {}
-	slot0.diamondUIItemList = slot0:initDiamondList(slot0.viewContainer:Find("diamondPanel"))
-	slot0.giftRect = slot0:initRect(slot0.viewContainer:Find("giftPanel"), function (slot0)
-		slot1 = uv0:createGoods(slot0)
+	slot5 = slot0.viewContainer
+	slot0.diamondUIItemList = slot0:initDiamondList(slot5:Find("diamondPanel"))
+	slot5 = slot0.viewContainer
+	slot0.giftRect = slot0:initRect(slot5:Find("giftPanel"), function (slot0)
+		slot1 = uv0
+		slot1 = slot1:createGoods(slot0)
 
 		onButton(uv0, slot1.tr, function ()
 			if uv0.isAlphaTest == 1 then
@@ -393,9 +402,10 @@ end
 function slot0.initDiamondList(slot0, slot1)
 	slot2 = slot0:findTF("content/ItemList", slot1)
 	slot3 = slot0:findTF("ItemTpl", slot1)
+	slot4 = slot0:findTF("content/ItemMonth", slot1)
 
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SdkMgr.GetInstance():CheckAudit() then
-		setActive(slot0:findTF("content/ItemMonth", slot1), false)
+		setActive(slot4, false)
 	else
 		setActive(slot4, true)
 	end
@@ -471,13 +481,14 @@ function slot0.confirm(slot0, slot1)
 				end))
 			end
 
+			slot7 = slot1:getConfig("gem") + slot1:getConfig("extra_gem")
 			slot8 = nil
 
 			if slot1:isMonthCard() then
 				slot8 = {
 					id = 4,
 					type = 1,
-					count = slot1:getConfig("gem") + slot1:getConfig("extra_gem")
+					count = slot7
 				}
 			elseif slot7 > 0 then
 				table.insert(slot5, {
@@ -488,10 +499,11 @@ function slot0.confirm(slot0, slot1)
 			end
 
 			slot9, slot10 = nil
+			slot11 = slot1:getConfig("name")
 
 			if slot1:isPassItem() then
 				slot9 = i18n("battlepass_pay_tip")
-				slot11 = slot1:getConfig("name") .. "\n" .. slot1:getConfig("subject_extra")
+				slot11 = slot11 .. "\n" .. slot1:getConfig("subject_extra")
 			elseif slot1:isMonthCard() then
 				slot9 = i18n("charge_title_getitem_month")
 				slot10 = i18n("charge_title_getitem_soon")
@@ -648,10 +660,15 @@ function slot0.sortDamondItems(slot0, slot1)
 			return slot6 < slot7
 		end
 
-		if slot3 == slot5 and (slot0:getConfig("tag") == 2 and 1 or 0) == (slot1:getConfig("tag") == 2 and 1 or 0) then
+		slot9 = slot0:getConfig("tag") == 2 and 1 or 0
+		slot10 = slot1:getConfig("tag") == 2 and 1 or 0
+
+		if slot3 == slot5 and slot9 == slot10 then
 			return slot0.id < slot1.id
 		else
-			return slot5 < slot3 or slot3 == slot5 and slot10 < slot9
+			slot11 = slot5 < slot3 or slot3 == slot5 and slot10 < slot9
+
+			return slot11
 		end
 	end)
 
@@ -1083,8 +1100,10 @@ function slot0.updateNoRes(slot0, slot1)
 	end
 
 	for slot8, slot9 in ipairs(slot0.contextData.noRes) do
+		slot4 = slot4 .. i18n(slot9[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", pg.item_data_statistics[slot9[1]].name, slot9[2])
+
 		if slot8 < #slot0.contextData.noRes then
-			slot4 = slot4 .. i18n(slot9[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", pg.item_data_statistics[slot9[1]].name, slot9[2]) .. i18n("text_noRes_info_tip_link")
+			slot4 = slot4 .. i18n("text_noRes_info_tip_link")
 		end
 	end
 
@@ -1125,10 +1144,17 @@ function slot0.displayShipWord(slot0, slot1, slot2, slot3)
 
 		(function ()
 			slot0 = 3
+			slot2 = LeanTween.scale(rtf(uv0.chat.gameObject), Vector3.New(1, 1, 1), 0.3)
+			slot2 = slot2:setFrom(Vector3.New(0, 0, 0))
+			slot2 = slot2:setEase(LeanTweenType.easeOutBack)
 
-			LeanTween.scale(rtf(uv0.chat.gameObject), Vector3.New(1, 1, 1), 0.3):setFrom(Vector3.New(0, 0, 0)):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
+			slot2:setOnComplete(System.Action(function ()
 				if not uv0 then
-					LeanTween.scale(rtf(uv1.chat.gameObject), Vector3.New(0, 0, 1), uv2):setEase(LeanTweenType.easeInBack):setDelay(uv2 + uv3):setOnComplete(System.Action(function ()
+					slot0 = LeanTween.scale(rtf(uv1.chat.gameObject), Vector3.New(0, 0, 1), uv2)
+					slot0 = slot0:setEase(LeanTweenType.easeInBack)
+					slot0 = slot0:setDelay(uv2 + uv3)
+
+					slot0:setOnComplete(System.Action(function ()
 						uv0.chatFlag = nil
 
 						setActive(uv0.chat, false)
@@ -1182,7 +1208,9 @@ function slot0.addRefreshTimer(slot0, slot1)
 end
 
 function slot0.addUpdateTimer(slot0, slot1)
-	if slot0.refreshTime and slot2:Table2ServerTime(slot0.refreshTime) < pg.TimeMgr.GetInstance():Table2ServerTime(slot1) then
+	slot3 = pg.TimeMgr.GetInstance():Table2ServerTime(slot1)
+
+	if slot0.refreshTime and slot2:Table2ServerTime(slot0.refreshTime) < slot3 then
 		return
 	end
 
@@ -1324,7 +1352,10 @@ function slot0.willExit(slot0)
 		slot0.resPanel = nil
 	end
 
-	for slot4, slot5 in pairs(slot0.damondItems or {}) do
+	slot1 = pairs
+	slot2 = slot0.damondItems or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		if slot5.skinPainting then
 			retPaintingPrefab(slot5.painting, slot5.skinPainting)
 

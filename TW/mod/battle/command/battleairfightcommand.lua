@@ -93,8 +93,9 @@ slot3.BeenHitDecreasePoint = 10
 
 function slot3.onWillDie(slot0, slot1)
 	slot2 = slot1.Dispatcher
+	slot4 = slot2:GetTemplate().type
 
-	if (slot2:GetDeathReason() == uv0.Battle.BattleConst.UnitDeathReason.CRUSH or slot3 == uv0.Battle.BattleConst.UnitDeathReason.KILLED) and uv1.ShipType2Point[slot2:GetTemplate().type] and slot5 > 0 then
+	if (slot2:GetDeathReason() == uv0.Battle.BattleConst.UnitDeathReason.CRUSH or slot3 == uv0.Battle.BattleConst.UnitDeathReason.KILLED) and uv1.ShipType2Point[slot4] and slot5 > 0 then
 		slot0._dataProxy:AddAirFightScore(slot5)
 	end
 end

@@ -27,8 +27,9 @@ function slot0.Entrance(slot0, slot1)
 	slot8 = slot15.oil
 	slot9 = slot15.gold + slot16.gold
 	slot10 = slot15.oil + slot16.oil
+	slot17 = slot2:getData()
 
-	if slot5 and slot2:getData().oil < slot10 then
+	if slot5 and slot17.oil < slot10 then
 		getProxy(ChapterProxy):StopAutoFight()
 
 		if not ItemTipPanel.ShowOilBuyTip(slot10) then
@@ -61,15 +62,19 @@ function slot0.Entrance(slot0, slot1)
 		end
 
 		if uv3.enter_energy_cost > 0 and not uv4 then
+			slot1 = pg.gameset.battle_consume_energy.key_value * uv5
+
 			for slot5, slot6 in ipairs(uv6) do
 				if uv7:getShipById(slot6) then
-					slot7:cosumeEnergy(pg.gameset.battle_consume_energy.key_value * uv5)
+					slot7:cosumeEnergy(slot1)
 					uv7:updateShip(slot7)
 				end
 			end
 		end
 
-		uv8:updatePlayer(uv1)
+		slot1 = uv8
+
+		slot1:updatePlayer(uv1)
 		uv11:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			prefabFleet = uv9,
 			stageId = uv10,
@@ -93,9 +98,10 @@ function slot0.Exit(slot0, slot1)
 	slot5 = slot0.statistics._battleScore
 	slot6 = 0
 	slot7 = 0
+	slot8 = {}
 
 	for slot15, slot16 in ipairs(getProxy(ChapterProxy):getActiveChapter().fleet:getShips(true)) do
-		table.insert({}, slot16)
+		table.insert(slot8, slot16)
 	end
 
 	slot13, slot14 = slot9:getFleetCost(slot10, slot0.stageId)
@@ -105,6 +111,7 @@ function slot0.Exit(slot0, slot1)
 
 	if slot0.statistics.submarineAid then
 		if slot9:GetSubmarineFleet() then
+			slot17 = 0
 			slot21 = TeamType.Submarine
 			slot22 = true
 
@@ -112,7 +119,7 @@ function slot0.Exit(slot0, slot1)
 				if slot0.statistics[slot22.id] then
 					table.insert(slot8, slot22)
 
-					slot17 = 0 + slot22:getEndBattleExpend()
+					slot17 = slot17 + slot22:getEndBattleExpend()
 				end
 			end
 

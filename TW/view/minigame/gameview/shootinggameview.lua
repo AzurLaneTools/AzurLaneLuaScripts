@@ -63,8 +63,10 @@ function slot0.addTimer(slot0, slot1, slot2, slot3)
 end
 
 function slot0.updateTimers(slot0)
+	slot1 = Time.realtimeSinceStartup
+
 	for slot5, slot6 in pairs(slot0.timerList) do
-		if slot6.timeMark < Time.realtimeSinceStartup then
+		if slot6.timeMark < slot1 then
 			slot0.timerList[slot5] = nil
 
 			slot6.func()
@@ -74,17 +76,19 @@ end
 
 function slot0.stopTimers(slot0)
 	slot0.isStopped = true
+	slot1 = Time.realtimeSinceStartup
 
 	for slot5, slot6 in pairs(slot0.timerList) do
-		slot6.timeMark = slot6.timeMark - Time.realtimeSinceStartup
+		slot6.timeMark = slot6.timeMark - slot1
 	end
 end
 
 function slot0.restartTimers(slot0)
 	slot0.isStopped = false
+	slot1 = Time.realtimeSinceStartup
 
 	for slot5, slot6 in pairs(slot0.timerList) do
-		slot6.timeMark = slot6.timeMark + Time.realtimeSinceStartup
+		slot6.timeMark = slot6.timeMark + slot1
 	end
 end
 
@@ -168,13 +172,19 @@ end
 
 function slot0.gameStart(slot0)
 	slot0.isPlaying = true
+	slot1 = UpdateBeat
 
-	UpdateBeat:Add(slot0.update, slot0)
+	slot1:Add(slot0.update, slot0)
 	setActive(slot0.countdownTF, true)
-	setActive(slot0.startMaskTF:Find("word"), false)
+
+	slot2 = slot0.startMaskTF
+
+	setActive(slot2:Find("word"), false)
 
 	function slot1(slot0)
-		uv0:addTimer("start countdown", 1, function ()
+		slot1 = uv0
+
+		slot1:addTimer("start countdown", 1, function ()
 			uv0.countdown = uv0.countdown - 1
 
 			setText(uv0.countdownTF, uv0.countdown)
@@ -192,8 +202,9 @@ end
 
 function slot0.afterCountDown(slot0)
 	slot0.isAfterCount = true
+	slot1 = slot0.uiMGR
 
-	slot0.uiMGR:AttachStickOb(slot0.joyStrickTF)
+	slot1:AttachStickOb(slot0.joyStrickTF)
 	setActive(slot0.sightTF, true)
 	setAnchoredPosition(slot0.sightTF, Vector2.zero)
 	slot0:setFireLink(true)
@@ -204,7 +215,9 @@ function slot0.afterCountDown(slot0)
 	slot0:flushTarget(true)
 
 	function slot1(slot0)
-		uv0:addTimer("gamefinish", 1, function ()
+		slot1 = uv0
+
+		slot1:addTimer("gamefinish", 1, function ()
 			uv0.lastTime = uv0.lastTime - 1
 
 			setText(uv0.lastTimeTF, uv0.lastTime)
@@ -287,11 +300,13 @@ function slot0.showResultPanel(slot0, slot1, slot2)
 	onButton(slot0, slot0.resultPanel:Find("bg"), slot3)
 	onButton(slot0, slot0.resultPanel:Find("main/btn_confirm"), slot3)
 
+	slot4 = slot0.resultPanel:Find("main")
+
 	if slot0.bestScore < slot0.score then
 		slot0:StoreDataToServer({
 			slot0.score
 		})
-		GetImageSpriteFromAtlasAsync("ui/shootinggameui_atlas", "new_recode", slot0.resultPanel:Find("main"):Find("success"), true)
+		GetImageSpriteFromAtlasAsync("ui/shootinggameui_atlas", "new_recode", slot4:Find("success"), true)
 	else
 		GetImageSpriteFromAtlasAsync("ui/shootinggameui_atlas", "success", slot4:Find("success"), true)
 	end
@@ -353,13 +368,18 @@ end
 function slot0.initFireFunc(slot0)
 	slot1 = pg.TipsMgr.GetInstance()
 	slot2 = pg.TimeMgr.GetInstance()
+	slot3 = slot0.sightTF
+	slot4 = slot0.sightTF
 
-	setImageAlpha(slot0.sightTF:Find("sight_base"), 1)
-	setImageAlpha(slot0.sightTF:Find("sight_ready"), 0)
+	setImageAlpha(slot3:Find("sight_base"), 1)
+	setImageAlpha(slot4:Find("sight_ready"), 0)
 
 	function slot5()
 		setActive(uv0.corners, true)
-		LeanTween.scale(uv1, Vector3(1.95, 1.95, 1), 0.1):setOnComplete(System.Action(function ()
+
+		slot0 = LeanTween.scale(uv1, Vector3(1.95, 1.95, 1), 0.1)
+
+		slot0:setOnComplete(System.Action(function ()
 			LeanTween.alpha(uv0, 0, 0.1)
 			LeanTween.alpha(uv1, 1, 0.1)
 		end))
@@ -368,7 +388,10 @@ function slot0.initFireFunc(slot0)
 	function slot6()
 		setActive(uv0.corners, false)
 		LeanTween.alpha(uv1, 1, 0.1)
-		LeanTween.alpha(uv2, 0, 0.1):setOnComplete(System.Action(function ()
+
+		slot0 = LeanTween.alpha(uv2, 0, 0.1)
+
+		slot0:setOnComplete(System.Action(function ()
 			LeanTween.scale(uv0, Vector3.one, 0.1)
 		end))
 	end
@@ -394,8 +417,18 @@ function slot0.initFireFunc(slot0)
 			uv2.lastTime = uv2.lastTime + uv2.tempConfig.bonusTime
 
 			setText(uv2.lastTimeTF, uv2.lastTime)
-			uv2.targetPanel:Find("line_" .. slot1):GetChild(slot2 - 1):GetChild(0):GetComponent(typeof(Animator)):Play("targetDown")
-			uv2:addTimer("flush call", 0.2 + uv3.animTime, function ()
+
+			slot4 = uv2.targetPanel
+			slot4 = slot4:Find("line_" .. slot1)
+			slot4 = slot4:GetChild(slot2 - 1)
+			slot4 = slot4:GetChild(0)
+			slot4 = slot4:GetComponent(typeof(Animator))
+
+			slot4:Play("targetDown")
+
+			slot5 = uv2
+
+			slot5:addTimer("flush call", 0.2 + uv3.animTime, function ()
 				uv0:flushTarget()
 			end)
 
@@ -406,8 +439,13 @@ function slot0.initFireFunc(slot0)
 			end
 		end
 
-		uv2:setFireLink(false)
-		uv2:addTimer("fire cd", uv2.tempConfig.fireCD, function ()
+		slot3 = uv2
+
+		slot3:setFireLink(false)
+
+		slot3 = uv2
+
+		slot3:addTimer("fire cd", uv2.tempConfig.fireCD, function ()
 			uv0:setFireLink(true)
 		end)
 	end
@@ -424,7 +462,9 @@ function slot0.setFireLink(slot0, slot1)
 		setButtonEnabled(slot0.fireBtn, true)
 
 		if slot0._downFunc ~= nil then
-			slot0.fireBtnDelegate:AddPointDownFunc(function ()
+			slot2 = slot0.fireBtnDelegate
+
+			slot2:AddPointDownFunc(function ()
 				uv0.isDown = true
 
 				if uv0._main_cannon_sound then
@@ -438,7 +478,9 @@ function slot0.setFireLink(slot0, slot1)
 		end
 
 		if slot0._upFunc ~= nil then
-			slot0.fireBtnDelegate:AddPointUpFunc(function ()
+			slot2 = slot0.fireBtnDelegate
+
+			slot2:AddPointUpFunc(function ()
 				if uv0.isDown then
 					if uv0._main_cannon_sound then
 						uv0._main_cannon_sound:Stop(true)
@@ -454,7 +496,9 @@ function slot0.setFireLink(slot0, slot1)
 		end
 
 		if slot0._cancelFunc ~= nil then
-			slot0.fireBtnDelegate:AddPointExitFunc(function ()
+			slot2 = slot0.fireBtnDelegate
+
+			slot2:AddPointExitFunc(function ()
 				if uv0.isDown then
 					if uv0._main_cannon_sound then
 						uv0._main_cannon_sound:Stop(true)
@@ -509,8 +553,9 @@ function slot0.flushTarget(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.targetCount) do
 		for slot11 = 1, slot7 do
 			slot12 = math.random(3)
+			slot13 = math.random(6)
 
-			while slot0.cell[slot12][math.random(6)] or slot1 and slot2[slot12] >= 4 do
+			while slot0.cell[slot12][slot13] or slot1 and slot2[slot12] >= 4 do
 				slot13 = math.random(6)
 				slot12 = math.random(3)
 			end

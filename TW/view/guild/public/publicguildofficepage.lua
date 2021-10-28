@@ -11,8 +11,9 @@ end
 
 function slot0.OnInit(slot0)
 	slot0.cards = {}
+	slot1 = slot0.itemList
 
-	slot0.itemList:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateDonateTask(slot2, uv0.displays[slot1 + 1])
 		end

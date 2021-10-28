@@ -65,8 +65,10 @@ function slot1.MakeCharacter(slot0)
 end
 
 function slot1.MakeBloodBar(slot0, slot1)
+	slot3 = slot0:GetHPBarPool():GetHPBar(slot0.HP_BAR_NAME).transform
+
 	if slot1:GetHPColor() then
-		slot0:GetHPBarPool():GetHPBar(slot0.HP_BAR_NAME).transform:Find("blood"):GetComponent(typeof(Image)).color = slot4
+		slot3:Find("blood"):GetComponent(typeof(Image)).color = slot4
 	end
 
 	slot1:AddHPBar(slot2)

@@ -61,26 +61,29 @@ function slot0.SetVisitorShip(slot0, slot1)
 end
 
 function slot0.getBackYardShips(slot0)
+	slot1 = {}
+	slot2 = getProxy(BayProxy)
+
 	for slot6, slot7 in ipairs(slot0.data.shipIds) do
-		if getProxy(BayProxy):getShipById(slot7) then
-			-- Nothing
+		if slot2:getShipById(slot7) then
+			slot1[slot8.id] = slot8
 		else
 			print("not found ship >>>", slot7)
 		end
 	end
 
-	return {
-		[slot8.id] = slot8
-	}
+	return slot1
 end
 
 function slot0.GetShipIdsByType(slot0, slot1)
+	slot2 = slot0:getTrainShipIds()
+	slot3 = slot0:getRestShipIds()
 	slot4 = {}
 	slot5 = {}
 
 	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE then
-		slot4 = slot0:getTrainShipIds()
-		slot5 = slot0:getRestShipIds()
+		slot4 = slot2
+		slot5 = slot3
 	elseif slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
 		slot4 = slot3
 		slot5 = slot2
@@ -108,15 +111,15 @@ function slot0.getShipById(slot0, slot1)
 end
 
 function slot0.getShipsByState(slot0, slot1)
+	slot3 = {}
+
 	for slot7, slot8 in pairs(slot0:getBackYardShips()) do
 		if slot8.state == slot1 then
-			-- Nothing
+			slot3[slot8.id] = slot8
 		end
 	end
 
-	return {
-		[slot8.id] = slot8
-	}
+	return slot3
 end
 
 function slot0.getTrainShipIds(slot0)
@@ -153,8 +156,10 @@ function slot0.isLackOfFood(slot0)
 		return false
 	end
 
+	slot2 = slot0:getRestFood()
+
 	if not slot0.isLoadExp then
-		slot2 = slot0:getRestFood() - slot0.data.load_food
+		slot2 = slot2 - slot0.data.load_food
 	end
 
 	return slot2 <= 0
@@ -175,9 +180,11 @@ function slot0.getFurnitrues(slot0)
 end
 
 function slot0.getFurnitrueCount(slot0, slot1)
+	slot3 = 0
+
 	for slot7, slot8 in pairs(slot0:getFurnitrues()) do
 		if slot8.configId == slot1 then
-			slot3 = 0 + 1
+			slot3 = slot3 + 1
 		end
 	end
 
@@ -185,21 +192,23 @@ function slot0.getFurnitrueCount(slot0, slot1)
 end
 
 function slot0.getTempFurnitrues(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0.data.furnitures) do
 		if pg.furniture_data_template[slot6.id] then
-			-- Nothing
+			slot1[slot6.id] = slot6:clone()
 		end
 	end
 
-	return {
-		[slot6.id] = slot6:clone()
-	}
+	return slot1
 end
 
 function slot0.getFurnitureCountByType(slot0, slot1)
+	slot2 = 0
+
 	for slot6, slot7 in pairs(slot0:getFurnitrues()) do
 		if slot7:getConfig("type") == slot1 then
-			slot2 = 0 + 1
+			slot2 = slot2 + 1
 		end
 	end
 
@@ -267,7 +276,9 @@ end
 
 function slot0.getWallPaper(slot0, slot1)
 	for slot5, slot6 in pairs(slot0:getFurnitrues()) do
-		if slot6.position and slot1 == slot6:getConfig("type") then
+		slot7 = slot6:getConfig("type")
+
+		if slot6.position and slot1 == slot7 then
 			return slot6:clone()
 		end
 	end
@@ -344,9 +355,11 @@ function slot0.AddCustomThemeTemplate(slot0, slot1)
 end
 
 function slot0.GetUploadThemeTemplateCnt(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.customThemeTemplates) do
 		if slot6:IsPushed() then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -428,10 +441,12 @@ function slot0.UpdateCollectionThemeTemplate(slot0, slot1)
 end
 
 function slot0.GetTemplateNewID(slot0)
+	slot1 = _.map(_.values(slot0.customThemeTemplates or {}), function (slot0)
+		return slot0:GetPos()
+	end)
+
 	for slot5 = 1, 10 do
-		if not table.contains(_.map(_.values(slot0.customThemeTemplates or {}), function (slot0)
-			return slot0:GetPos()
-		end), slot5) then
+		if not table.contains(slot1, slot5) then
 			return slot5
 		end
 	end

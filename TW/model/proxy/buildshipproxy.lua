@@ -124,9 +124,12 @@ function slot0.setBuildShipState(slot0)
 
 	slot0.buildIndex = 0
 	slot0.buildTimers = {}
+	slot1 = 0
+	slot2 = ipairs
+	slot3 = slot0.data or {}
 
-	for slot5, slot6 in ipairs(slot0.data or {}) do
-		if 0 == slot0:getMaxWorkCount() then
+	for slot5, slot6 in slot2(slot3) do
+		if slot1 == slot0:getMaxWorkCount() then
 			break
 		end
 
@@ -198,7 +201,10 @@ function slot0.getBuildShipCount(slot0)
 end
 
 function slot0.removeBuildTimer(slot0)
-	for slot4, slot5 in pairs(slot0.buildTimers or {}) do
+	slot1 = pairs
+	slot2 = slot0.buildTimers or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:Stop()
 	end
 
@@ -220,9 +226,11 @@ function slot0.getBuildShip(slot0, slot1)
 end
 
 function slot0.getFinishCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6.state == BuildShip.FINISH then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -234,9 +242,11 @@ function slot0.getNeedFinishCount(slot0)
 end
 
 function slot0.getActiveCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6.state == BuildShip.ACTIVE then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -252,15 +262,19 @@ function slot0.getFinishedIndex(slot0)
 end
 
 function slot0.canBuildShip(slot0, slot1)
+	slot2 = slot0:getActiveCount()
+
 	if getProxy(BagProxy):getItemById(pg.ship_data_create_material[slot1].use_item) and slot3.number_1 <= slot5.count then
-		return slot3.use_gold <= getProxy(PlayerProxy):getData().gold and slot0:getActiveCount() == 0
+		return slot3.use_gold <= getProxy(PlayerProxy):getData().gold and slot2 == 0
 	end
 end
 
 function slot0.getActiveOrFinishedCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6.state == BuildShip.ACTIVE or slot6.state == BuildShip.FINISH then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 

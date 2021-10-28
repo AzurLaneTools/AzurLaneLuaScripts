@@ -22,8 +22,9 @@ end
 function slot0.acceptTask(slot0, slot1)
 	slot2 = getProxy(TaskProxy)
 	slot4 = pg.TimeMgr.GetInstance()
+	slot5 = math.clamp(slot4:DiffDay(slot1.data1, slot4:GetServerTime()) + 1, 1, #slot1:getConfig("config_data"))
 
-	if slot1.data3 == 0 or slot6 < math.clamp(slot4:DiffDay(slot1.data1, slot4:GetServerTime()) + 1, 1, #slot1:getConfig("config_data")) and _.all(_.flatten({
+	if slot1.data3 == 0 or slot6 < slot5 and _.all(_.flatten({
 		slot3[slot6]
 	}), function (slot0)
 		return uv0:getFinishTaskById(slot0) ~= nil
@@ -36,12 +37,10 @@ function slot0.acceptTask(slot0, slot1)
 end
 
 function slot0.getTaskByIds(slot0)
-	slot1 = {
-		[slot8.id] = slot8
-	}
+	slot1 = {}
 
 	for slot7, slot8 in pairs(getProxy(TaskProxy):getData()) do
-		-- Nothing
+		slot1[slot8.id] = slot8
 	end
 
 	for slot8, slot9 in pairs(slot2.finishData) do

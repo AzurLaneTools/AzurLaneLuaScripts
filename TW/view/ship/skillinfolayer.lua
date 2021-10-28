@@ -95,11 +95,12 @@ end
 
 function slot0.showInfo(slot0, slot1)
 	slot0.isWorld = slot1
+	slot2 = slot0.contextData.skillId
 
 	setText(slot0.skillInfoLv, "Lv." .. (slot0.contextData.skillOnShip and slot3.level or 1))
 
 	if slot0.contextData.fromNewShip then
-		setText(slot0.skillInfoIntro, getSkillDescGet(slot0.contextData.skillId, slot1))
+		setText(slot0.skillInfoIntro, getSkillDescGet(slot2, slot1))
 	else
 		setText(slot0.skillInfoIntro, getSkillDesc(slot2, slot4, slot1))
 	end

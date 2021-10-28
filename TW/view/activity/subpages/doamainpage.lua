@@ -24,8 +24,10 @@ function slot0.OnUpdateFlush(slot0)
 		slot0.charactorTf = findTF(slot0.bg, "charactor")
 	end
 
+	slot1 = math.random(1, 7)
+
 	for slot5 = 1, 7 do
-		setActive(findTF(slot0.charactorTf, "charactor" .. slot5), math.random(1, 7) == slot5)
+		setActive(findTF(slot0.charactorTf, "charactor" .. slot5), slot1 == slot5)
 	end
 end
 

@@ -57,9 +57,13 @@ function slot0.Load(slot0)
 	end
 
 	slot0._state = uv0.STATES.LOADING
+	slot1 = pg.UIMgr.GetInstance()
 
-	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetUI(slot0:GetUIName(), slot0.NeedAsyncLoading, function (slot0)
+	slot1:LoadingOn()
+
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetUI(slot0:GetUIName(), slot0.NeedAsyncLoading, function (slot0)
 		uv0:Loaded(slot0)
 		uv0:Init()
 	end)
@@ -160,8 +164,10 @@ function slot0.Destroy(slot0)
 end
 
 function slot0.DisposeGO(slot0, slot1, slot2)
+	slot3 = PoolMgr.GetInstance()
+
 	if not IsNil(slot2) then
-		PoolMgr.GetInstance():ReturnUI(slot1, slot2)
+		slot3:ReturnUI(slot1, slot2)
 	end
 end
 

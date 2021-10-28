@@ -76,7 +76,9 @@ function slot0.LoadModel(slot0, slot1)
 
 	if not slot0.tfModel then
 		table.insert(slot2, function (slot0)
-			PoolMgr.GetInstance():GetPrefab("model/worldmapmodel", "WorldMapModel", true, function (slot0)
+			slot1 = PoolMgr.GetInstance()
+
+			slot1:GetPrefab("model/worldmapmodel", "WorldMapModel", true, function (slot0)
 				if uv0.transform then
 					uv0.tfModel = tf(slot0)
 
@@ -102,26 +104,43 @@ function slot0.ReturnModel(slot0)
 end
 
 function slot0.LoadScene(slot0, slot1)
-	SceneOpMgr.Inst:LoadSceneAsync("scenes/worldmap3d", "WorldMap3D", LoadSceneMode.Additive, function (slot0, slot1)
+	slot2 = SceneOpMgr.Inst
+
+	slot2:LoadSceneAsync("scenes/worldmap3d", "WorldMap3D", LoadSceneMode.Additive, function (slot0, slot1)
 		uv0.transform = tf(slot0:GetRootGameObjects()[0])
 
 		setActive(uv0.transform, false)
 
-		uv0.tfEntity = uv0.transform:Find("entity")
-		uv0.tfAreaScene = uv0.tfEntity:Find("area_scene")
-		uv0.tfMapScene = uv0.tfEntity:Find("map_scene")
-		uv0.tfMapModel = uv0.tfEntity:Find("model")
-		uv0.tfMapSelect = uv0.tfMapScene:Find("selected_layer")
-		uv0.tfSpriteScene = uv0.tfEntity:Find("sprite_scene")
-		uv0.tfCamera = uv0.transform:Find("Main Camera")
-		uv0.tfCamera:GetComponent("Camera").depthTextureMode = UnityEngine.DepthTextureMode.Depth
-		uv0.defaultSprite = uv0.tfEntity:Find("decolation_layer/edge"):GetComponent("SpriteRenderer").material
-		uv0.addSprite = uv0.tfEntity:Find("map_scene/mask_layer"):GetComponent("SpriteRenderer").material
-		uv0.dragTrigger = uv0.tfEntity:Find("Plane"):GetComponent("EventTriggerListener")
+		slot3 = uv0.transform
+		uv0.tfEntity = slot3:Find("entity")
+		slot3 = uv0.tfEntity
+		uv0.tfAreaScene = slot3:Find("area_scene")
+		slot3 = uv0.tfEntity
+		uv0.tfMapScene = slot3:Find("map_scene")
+		slot3 = uv0.tfEntity
+		uv0.tfMapModel = slot3:Find("model")
+		slot3 = uv0.tfMapScene
+		uv0.tfMapSelect = slot3:Find("selected_layer")
+		slot3 = uv0.tfEntity
+		uv0.tfSpriteScene = slot3:Find("sprite_scene")
+		slot3 = uv0.transform
+		uv0.tfCamera = slot3:Find("Main Camera")
+		slot2 = uv0.tfCamera
+		slot2:GetComponent("Camera").depthTextureMode = UnityEngine.DepthTextureMode.Depth
+		slot3 = uv0.tfEntity
+		slot3 = slot3:Find("decolation_layer/edge")
+		uv0.defaultSprite = slot3:GetComponent("SpriteRenderer").material
+		slot3 = uv0.tfEntity
+		slot3 = slot3:Find("map_scene/mask_layer")
+		uv0.addSprite = slot3:GetComponent("SpriteRenderer").material
+		slot3 = uv0.tfEntity
+		slot3 = slot3:Find("Plane")
+		uv0.dragTrigger = slot3:GetComponent("EventTriggerListener")
 		slot2 = uv0.tfCamera.localEulerAngles.x / 180 * math.pi
 		slot3 = Vector2(0.2, 0.2) * uv0.frontDistance / uv0.baseDistance
+		slot4 = uv0.dragTrigger
 
-		uv0.dragTrigger:AddDragFunc(function (slot0, slot1)
+		slot4:AddDragFunc(function (slot0, slot1)
 			uv0.isDragging = true
 
 			if not uv0.nowArea or uv0:CheckIsTweening() then
@@ -143,16 +162,28 @@ function slot0.LoadScene(slot0, slot1)
 				warning(Vector2(slot3.x, slot3.z) * PIXEL_PER_UNIT + uv3.spriteBaseSize / 2)
 			end
 		end)
-		uv0.dragTrigger:AddDragEndFunc(function (slot0, slot1)
+
+		slot4 = uv0.dragTrigger
+
+		slot4:AddDragEndFunc(function (slot0, slot1)
 			uv0.isDragging = false
 		end)
-		uv0:UpdateCenterEffectDisplay()
-		uv0:BuildActiveMark()
+
+		slot4 = uv0
+
+		slot4:UpdateCenterEffectDisplay()
+
+		slot4 = uv0
+
+		slot4:BuildActiveMark()
 
 		slot4 = nowWorld
-		uv0.cmPointer = uv0.tfEntity:Find("Plane"):GetComponent(typeof(PointerInfo))
+		slot6 = uv0.tfEntity
+		slot6 = slot6:Find("Plane")
+		uv0.cmPointer = slot6:GetComponent(typeof(PointerInfo))
+		slot5 = uv0.cmPointer
 
-		uv0.cmPointer:AddColorMaskClickListener(function (slot0, slot1)
+		slot5:AddColorMaskClickListener(function (slot0, slot1)
 			if uv0.isDragging then
 				return
 			end
@@ -222,8 +253,10 @@ function slot0.UpdateModelMask(slot0)
 end
 
 function slot0.UpdateEntranceMask(slot0, slot1)
+	slot2 = slot0.entranceTplDic[slot1.id]
+
 	if slot1:HasPort() then
-		slot0.entranceTplDic[slot1.id]:UpdatePort(slot0.atlas.transportDic[slot1.id], slot0.atlas.taskPortDic[slot1:GetPortId()])
+		slot2:UpdatePort(slot0.atlas.transportDic[slot1.id], slot0.atlas.taskPortDic[slot1:GetPortId()])
 	end
 
 	uv0.super.UpdateEntranceMask(slot0, slot1)
@@ -431,6 +464,99 @@ function slot0.SwitchArea(slot0, slot1, slot2, slot3)
 end
 
 function slot0.SwitchMode(slot0, slot1, slot2, slot3)
+	function slot4(slot0)
+		setActive(uv0.tfAreaScene, true)
+		uv0.tfAreaScene:GetComponent("FMultiSpriteRenderCtrl"):Init()
+
+		slot1.alpha = uv1 and 1 or 0
+
+		slot1:UpdateAlpha()
+
+		slot2 = LeanTween.value(go(uv0.tfAreaScene), uv1 and 1 or 0, uv1 and 0 or 1, uv2.baseDuration):setOnUpdate(System.Action_float(function (slot0)
+			uv0.alpha = slot0
+		end)):setOnComplete(System.Action(function ()
+			uv0.alpha = 1
+
+			uv0:UpdateAlpha()
+			setActive(uv1.tfAreaScene, not uv2)
+
+			return uv3()
+		end)).uniqueId
+
+		table.insert(uv0.twFocusIds, slot2)
+		uv0.wsTimer:AddTween(slot2)
+	end
+
+	function slot5(slot0)
+		setActive(uv0.tfMapScene, true)
+		uv0.tfMapScene:GetComponent("FMultiSpriteRenderCtrl"):Init()
+
+		slot1.alpha = uv1 and 0 or 1
+
+		slot1:UpdateAlpha()
+
+		slot2 = LeanTween.value(go(uv0.tfMapScene), uv1 and 0 or 1, uv1 and 1 or 0, uv2.baseDuration):setOnUpdate(System.Action_float(function (slot0)
+			uv0.alpha = slot0
+		end)):setOnComplete(System.Action(function ()
+			uv0.alpha = 1
+
+			uv0:UpdateAlpha()
+			setActive(uv1.tfMapScene, uv2)
+
+			return uv3()
+		end)).uniqueId
+
+		table.insert(uv0.twFocusIds, slot2)
+		uv0.wsTimer:AddTween(slot2)
+	end
+
+	function slot6(slot0)
+		setActive(uv0.tfMapModel, true)
+
+		slot1 = {}
+		slot2 = uv1.baseDuration
+
+		table.insert(slot1, function (slot0)
+			slot2 = uv0.tfModel:Find("Terrain_LOD9_perfect"):GetComponent("MeshRenderer").material
+
+			slot2:SetFloat("_Invisible", uv1 and 1 or 0)
+
+			slot3 = LeanTween.value(go(slot1), uv1 and 1 or 0, uv1 and 0 or 1, uv2):setOnUpdate(System.Action_float(function (slot0)
+				uv0:SetFloat("_Invisible", slot0)
+			end)):setOnComplete(System.Action(function ()
+				uv0:SetFloat("_Invisible", uv1 and 0 or 1)
+				uv2()
+			end)).uniqueId
+
+			table.insert(uv0.twFocusIds, slot3)
+			uv0.wsTimer:AddTween(slot3)
+		end)
+		table.insert(slot1, function (slot0)
+			uv0.tfModel:Find("decolation_model"):GetComponent("FMultiSpriteRenderCtrl"):Init()
+
+			slot2.alpha = uv1 and 1 or 0
+
+			slot2:UpdateAlpha()
+
+			slot3 = LeanTween.value(go(slot1), uv1 and 1 or 0, uv1 and 0 or 1, uv2):setOnUpdate(System.Action_float(function (slot0)
+				uv0.alpha = slot0
+			end)):setOnComplete(System.Action(function ()
+				uv0.alpha = 1
+
+				uv0:UpdateAlpha()
+				uv1()
+			end)).uniqueId
+
+			table.insert(uv0.twFocusIds, slot3)
+			uv0.wsTimer:AddTween(slot3)
+		end)
+		parallelAsync(slot1, function ()
+			setActive(uv0.tfMapModel, not uv1)
+
+			return uv2()
+		end)
+	end
+
 	function slot7()
 		uv0:BreathRotate(not uv1)
 
@@ -439,94 +565,9 @@ function slot0.SwitchMode(slot0, slot1, slot2, slot3)
 
 	if slot2 then
 		parallelAsync({
-			function (slot0)
-				setActive(uv0.tfAreaScene, true)
-				uv0.tfAreaScene:GetComponent("FMultiSpriteRenderCtrl"):Init()
-
-				slot1.alpha = uv1 and 1 or 0
-
-				slot1:UpdateAlpha()
-
-				slot2 = LeanTween.value(go(uv0.tfAreaScene), uv1 and 1 or 0, uv1 and 0 or 1, uv2.baseDuration):setOnUpdate(System.Action_float(function (slot0)
-					uv0.alpha = slot0
-				end)):setOnComplete(System.Action(function ()
-					uv0.alpha = 1
-
-					uv0:UpdateAlpha()
-					setActive(uv1.tfAreaScene, not uv2)
-
-					return uv3()
-				end)).uniqueId
-
-				table.insert(uv0.twFocusIds, slot2)
-				uv0.wsTimer:AddTween(slot2)
-			end,
-			function (slot0)
-				setActive(uv0.tfMapScene, true)
-				uv0.tfMapScene:GetComponent("FMultiSpriteRenderCtrl"):Init()
-
-				slot1.alpha = uv1 and 0 or 1
-
-				slot1:UpdateAlpha()
-
-				slot2 = LeanTween.value(go(uv0.tfMapScene), uv1 and 0 or 1, uv1 and 1 or 0, uv2.baseDuration):setOnUpdate(System.Action_float(function (slot0)
-					uv0.alpha = slot0
-				end)):setOnComplete(System.Action(function ()
-					uv0.alpha = 1
-
-					uv0:UpdateAlpha()
-					setActive(uv1.tfMapScene, uv2)
-
-					return uv3()
-				end)).uniqueId
-
-				table.insert(uv0.twFocusIds, slot2)
-				uv0.wsTimer:AddTween(slot2)
-			end,
-			function (slot0)
-				setActive(uv0.tfMapModel, true)
-
-				slot1 = {}
-				slot2 = uv1.baseDuration
-
-				table.insert(slot1, function (slot0)
-					uv0.tfModel:Find("Terrain_LOD9_perfect"):GetComponent("MeshRenderer").material:SetFloat("_Invisible", uv1 and 1 or 0)
-
-					slot3 = LeanTween.value(go(slot1), uv1 and 1 or 0, uv1 and 0 or 1, uv2):setOnUpdate(System.Action_float(function (slot0)
-						uv0:SetFloat("_Invisible", slot0)
-					end)):setOnComplete(System.Action(function ()
-						uv0:SetFloat("_Invisible", uv1 and 0 or 1)
-						uv2()
-					end)).uniqueId
-
-					table.insert(uv0.twFocusIds, slot3)
-					uv0.wsTimer:AddTween(slot3)
-				end)
-				table.insert(slot1, function (slot0)
-					uv0.tfModel:Find("decolation_model"):GetComponent("FMultiSpriteRenderCtrl"):Init()
-
-					slot2.alpha = uv1 and 1 or 0
-
-					slot2:UpdateAlpha()
-
-					slot3 = LeanTween.value(go(slot1), uv1 and 1 or 0, uv1 and 0 or 1, uv2):setOnUpdate(System.Action_float(function (slot0)
-						uv0.alpha = slot0
-					end)):setOnComplete(System.Action(function ()
-						uv0.alpha = 1
-
-						uv0:UpdateAlpha()
-						uv1()
-					end)).uniqueId
-
-					table.insert(uv0.twFocusIds, slot3)
-					uv0.wsTimer:AddTween(slot3)
-				end)
-				parallelAsync(slot1, function ()
-					setActive(uv0.tfMapModel, not uv1)
-
-					return uv2()
-				end)
-			end
+			slot4,
+			slot5,
+			slot6
 		}, function ()
 			return uv0()
 		end)
@@ -574,16 +615,21 @@ end
 
 function slot0.ActiveTrans(slot0, slot1)
 	if not slot0.entranceTplDic[slot1.id].portCamp then
-		slot3 = slot0.tfMapSelect:Find("A" .. slot1:GetColormaskUniqueID() .. "_2")
+		slot3 = slot0.tfMapSelect
+		slot3 = slot3:Find("A" .. slot1:GetColormaskUniqueID() .. "_2")
 
 		setActive(slot3, true)
 
 		slot4 = slot3:GetComponent("SpriteRenderer").color
 		slot4.a = 0
 		slot3:GetComponent("SpriteRenderer").color = slot4
+		slot5 = LeanTween.alpha(go(slot3), 1, 0.3)
 
-		LeanTween.alpha(go(slot3), 1, 0.3):setOnComplete(System.Action(function ()
-			LeanTween.alpha(go(uv0), 0, 0.2):setDelay(0.1):setOnComplete(System.Action(function ()
+		slot5:setOnComplete(System.Action(function ()
+			slot0 = LeanTween.alpha(go(uv0), 0, 0.2)
+			slot0 = slot0:setDelay(0.1)
+
+			slot0:setOnComplete(System.Action(function ()
 				setActive(uv0, uv1.selectEntrance == uv2)
 
 				uv3.a = 1
@@ -594,15 +640,15 @@ function slot0.ActiveTrans(slot0, slot1)
 end
 
 function slot0.DisplayTransport(slot0, slot1, slot2)
+	slot3 = {}
+
 	for slot7, slot8 in pairs(slot0.atlas.transportDic) do
 		if slot8 and not slot1[slot7] then
-			-- Nothing
+			slot3[slot7] = true
 		end
 	end
 
-	slot0:UpdateTransMark({
-		[slot7] = true
-	}, slot2)
+	slot0:UpdateTransMark(slot3, slot2)
 end
 
 function slot0.UpdateTransMark(slot0, slot1, slot2)
@@ -626,7 +672,9 @@ function slot0.UpdateTransMark(slot0, slot1, slot2)
 end
 
 function slot0.UpdateActiveMark(slot0)
-	slot1 = nowWorld:GetActiveMap():CkeckTransport()
+	slot1 = nowWorld
+	slot1 = slot1:GetActiveMap()
+	slot1 = slot1:CkeckTransport()
 
 	eachChild(slot0.tfActiveMark, function (slot0)
 		setActive(slot0:Find("base"), uv0)

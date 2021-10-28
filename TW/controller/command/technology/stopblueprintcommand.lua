@@ -12,7 +12,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(63206, {
+	slot7 = pg.ConnectionMgr.GetInstance()
+
+	slot7:Send(63206, {
 		blueprint_id = slot3
 	}, 63207, function (slot0)
 		if slot0.result == 0 then

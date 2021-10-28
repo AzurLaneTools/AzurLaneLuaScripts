@@ -77,8 +77,10 @@ function slot0.BindConditions(slot0)
 			return false
 		end
 
+		slot0 = getProxy(CommanderProxy):haveFinishedBox()
+
 		if not LOCK_CATTERY then
-			return getProxy(CommanderProxy):haveFinishedBox() or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse()
+			return slot0 or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse()
 		else
 			return slot0
 		end
@@ -154,7 +156,10 @@ function slot0.UnRegisterRedDotNode(slot0, slot1)
 end
 
 function slot0.NotifyAll(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.nodeList[slot1] or {}) do
+	slot2 = ipairs
+	slot3 = slot0.nodeList[slot1] or {}
+
+	for slot5, slot6 in slot2(slot3) do
 		slot6:SetData(slot0:CheckConditions(slot6:GetTypes()))
 	end
 end

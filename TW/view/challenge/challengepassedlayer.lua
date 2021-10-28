@@ -27,7 +27,11 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
-	slot0._tf:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+
+	slot1 = slot0._tf
+	slot1 = slot1:GetComponent("DftAniEvent")
+
+	slot1:SetEndEvent(function (slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 end
@@ -94,6 +98,32 @@ function slot0.addListener(slot0)
 end
 
 function slot0.updatePainting(slot0, slot1, slot2, slot3, slot4)
+	function slot5(slot0)
+		slot0.material:SetFloat("_LineGray", 0.3)
+		slot0.material:SetFloat("_TearDistance", 0)
+		LeanTween.cancel(slot0.gameObject)
+		table.insert(uv0.tweenObjs, slot0.gameObject)
+		LeanTween.value(slot0.gameObject, 0, 2, 2):setLoopClamp():setOnUpdate(System.Action_float(function (slot0)
+			if slot0 >= 1.2 then
+				uv0.material:SetFloat("_LineGray", 0.3)
+			elseif slot0 >= 1.1 then
+				uv0.material:SetFloat("_LineGray", 0.45)
+			elseif slot0 >= 1.03 then
+				uv0.material:SetFloat("_TearDistance", 0)
+			elseif slot0 >= 1 then
+				uv0.material:SetFloat("_TearDistance", 0.3)
+			elseif slot0 >= 0.35 then
+				uv0.material:SetFloat("_LineGray", 0.3)
+			elseif slot0 >= 0.3 then
+				uv0.material:SetFloat("_LineGray", 0.4)
+			elseif slot0 >= 0.25 then
+				uv0.material:SetFloat("_LineGray", 0.3)
+			elseif slot0 >= 0.2 then
+				uv0.material:SetFloat("_LineGray", 0.4)
+			end
+		end))
+	end
+
 	setPaintingPrefab(slot2, slot1, "chuanwu")
 
 	if slot0:findTF("fitter", slot2):GetChild(0) then
@@ -103,31 +133,7 @@ function slot0.updatePainting(slot0, slot1, slot2, slot3, slot4)
 			slot7.material = slot0.material1
 
 			slot7.material:SetFloat("_LineDensity", 7)
-			(function (slot0)
-				slot0.material:SetFloat("_LineGray", 0.3)
-				slot0.material:SetFloat("_TearDistance", 0)
-				LeanTween.cancel(slot0.gameObject)
-				table.insert(uv0.tweenObjs, slot0.gameObject)
-				LeanTween.value(slot0.gameObject, 0, 2, 2):setLoopClamp():setOnUpdate(System.Action_float(function (slot0)
-					if slot0 >= 1.2 then
-						uv0.material:SetFloat("_LineGray", 0.3)
-					elseif slot0 >= 1.1 then
-						uv0.material:SetFloat("_LineGray", 0.45)
-					elseif slot0 >= 1.03 then
-						uv0.material:SetFloat("_TearDistance", 0)
-					elseif slot0 >= 1 then
-						uv0.material:SetFloat("_TearDistance", 0.3)
-					elseif slot0 >= 0.35 then
-						uv0.material:SetFloat("_LineGray", 0.3)
-					elseif slot0 >= 0.3 then
-						uv0.material:SetFloat("_LineGray", 0.4)
-					elseif slot0 >= 0.25 then
-						uv0.material:SetFloat("_LineGray", 0.3)
-					elseif slot0 >= 0.2 then
-						uv0.material:SetFloat("_LineGray", 0.4)
-					end
-				end))
-			end)(slot7)
+			slot5(slot7)
 		end
 	end
 
@@ -151,6 +157,13 @@ function slot0.updateSlider(slot0, slot1)
 		slot3 = uv0:findTF("UnFinished", slot2)
 		slot4 = uv0:findTF("Finished", slot2)
 		slot5 = uv0:findTF("Challengeing", slot2)
+		slot6 = uv0:findTF("Arrow", slot2)
+
+		function slot7()
+			setActive(uv0, true)
+			setActive(uv1, false)
+			setActive(uv2, false)
+		end
 
 		function slot8()
 			setActive(uv0, false)
@@ -166,12 +179,8 @@ function slot0.updateSlider(slot0, slot1)
 
 		if slot0 == UIItemList.EventUpdate then
 			if slot1 + 1 < uv1 then
-				setActive(uv0:findTF("Arrow", slot2), false)
-				(function ()
-					setActive(uv0, true)
-					setActive(uv1, false)
-					setActive(uv2, false)
-				end)()
+				setActive(slot6, false)
+				slot7()
 			elseif slot1 + 1 == uv1 then
 				setActive(slot6, true)
 				slot9()
@@ -190,10 +199,13 @@ function slot0.moveSlider(slot0, slot1)
 	end
 
 	slot3 = 1 / (ChallengeConst.BOSS_NUM - 1)
-
-	LeanTween.value(go(slot0.slider), (slot2 - 1) * slot3, slot2 * slot3, uv0.GROW_TIME):setDelay(1.4):setOnUpdate(System.Action_float(function (slot0)
+	slot6 = LeanTween.value(go(slot0.slider), (slot2 - 1) * slot3, slot2 * slot3, uv0.GROW_TIME)
+	slot6 = slot6:setDelay(1.4)
+	slot6 = slot6:setOnUpdate(System.Action_float(function (slot0)
 		uv0.sliderSC.value = slot0
-	end)):setOnComplete(System.Action(function ()
+	end))
+
+	slot6:setOnComplete(System.Action(function ()
 		uv0:updateSlider(uv1 + 1)
 	end))
 end

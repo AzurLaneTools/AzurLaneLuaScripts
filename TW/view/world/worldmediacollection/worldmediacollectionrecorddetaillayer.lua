@@ -90,7 +90,10 @@ function slot0.PlayMemory(slot0, slot1)
 	end
 
 	setActive(slot0.memoryMask, true)
-	pg.NewStoryMgr.GetInstance():Play(slot1.story, function ()
+
+	slot3 = pg.NewStoryMgr.GetInstance()
+
+	slot3:Play(slot1.story, function ()
 		setActive(uv0.memoryMask, false)
 	end, true)
 end
@@ -100,9 +103,13 @@ function slot0.ShowRecordGroup(slot0, slot1)
 	slot0.records = _.map(WorldCollectionProxy.GetCollectionRecordGroupTemplate(slot1).child, function (slot0)
 		return WorldCollectionProxy.GetCollectionTemplate(slot0)
 	end)
+	slot3 = slot0.recordItemList
 
-	slot0.recordItemList:SetTotalCount(#slot0.records, 0)
-	setText(slot0._tf:Find("ItemRect/ProgressText"), _.reduce(slot0.records, 0, function (slot0, slot1)
+	slot3:SetTotalCount(#slot0.records, 0)
+
+	slot6 = slot0._tf
+
+	setText(slot6:Find("ItemRect/ProgressText"), _.reduce(slot0.records, 0, function (slot0, slot1)
 		if uv0.CheckRecordIsUnlock(slot1) then
 			slot0 = slot0 + 1
 		end

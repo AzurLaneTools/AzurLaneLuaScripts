@@ -6,23 +6,29 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.Make(slot0, slot1, slot2)
+	slot3 = slot0.poolMgr:Dequeue(BackyardPoolMgr.POOL_NAME.FURNITURE)
+
+	function slot4(slot0)
+		if uv0.isExist then
+			return
+		end
+
+		slot2 = uv1:isFloor()
+
+		for slot6, slot7 in ipairs(uv1:getOccupyGrid(Vector2(0, 0))) do
+			slot9 = uv0.poolMgr:Dequeue(slot2 and BackyardPoolMgr.POOL_NAME.GRID or BackyardPoolMgr.POOL_NAME.WALL)
+
+			SetParent(slot9, uv2:Find("grids"))
+			setActive(slot9, false)
+		end
+
+		uv2.sizeDelta = Vector2(slot0.rect.width, slot0.rect.height)
+
+		uv3(uv2)
+	end
+
 	if not slot1:isSpine() then
-		slot0:loadImageFurniture(slot1, slot0.poolMgr:Dequeue(BackyardPoolMgr.POOL_NAME.FURNITURE), function (slot0)
-			if uv0.isExist then
-				return
-			end
-
-			for slot6, slot7 in ipairs(uv1:getOccupyGrid(Vector2(0, 0))) do
-				slot9 = uv0.poolMgr:Dequeue(uv1:isFloor() and BackyardPoolMgr.POOL_NAME.GRID or BackyardPoolMgr.POOL_NAME.WALL)
-
-				SetParent(slot9, uv2:Find("grids"))
-				setActive(slot9, false)
-			end
-
-			uv2.sizeDelta = Vector2(slot0.rect.width, slot0.rect.height)
-
-			uv3(uv2)
-		end)
+		slot0:loadImageFurniture(slot1, slot3, slot4)
 	else
 		slot0:loadSpineFurnitureModel(slot1, slot3, slot4)
 	end
@@ -46,8 +52,10 @@ function slot0.loadImageFurniture(slot0, slot1, slot2, slot3)
 			go(slot1):AddComponent(typeof(AlphaCheck))
 		end
 
+		slot2 = {}
+
 		if uv4:hasInterActionMask() then
-			table.insert({}, function (slot0)
+			table.insert(slot2, function (slot0)
 				uv0:loadFurnituresMasks(uv1, uv2, slot0)
 			end)
 		end
@@ -65,7 +73,9 @@ function slot0.loadImageFurniture(slot0, slot1, slot2, slot3)
 end
 
 function slot0.loadArchMask(slot0, slot1, slot2, slot3)
-	ResourceMgr.Inst:getAssetAsync("furniture/" .. slot1:getArchMask(), "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot5 = ResourceMgr.Inst
+
+	slot5:getAssetAsync("furniture/" .. slot1:getArchMask(), "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		if uv0.isExist then
 			if uv1 then
 				uv1()
@@ -90,7 +100,9 @@ function slot0.loadFurnituresMasks(slot0, slot1, slot2, slot3)
 
 	for slot9, slot10 in pairs(slot1:getInterActionMaskNames()) do
 		table.insert(slot5, function (slot0)
-			ResourceMgr.Inst:getAssetAsync("furniture/" .. uv0, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			slot1 = ResourceMgr.Inst
+
+			slot1:getAssetAsync("furniture/" .. uv0, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if uv0.isExist then
 					if uv1 then
 						uv1()
@@ -147,7 +159,8 @@ function slot0.loadSpineFurnitureModel(slot0, slot1, slot2, slot3)
 		end)(slot1, "icon", 1, uv3)
 
 		if uv4:hasSpineMask() then
-			slot4, slot5 = uv4:getSpineMaskName()
+			slot4 = uv4
+			slot4, slot5 = slot4:getSpineMaskName()
 
 			LoadAndInstantiateAsync("sfurniture", slot4, function (slot0)
 				if uv0.isExist then
@@ -160,12 +173,17 @@ function slot0.loadSpineFurnitureModel(slot0, slot1, slot2, slot3)
 
 				setActive(slot0, false)
 				uv2(rtf(slot0), BackYardConst.FURNITRUE_MASK_NAME, 2)
-				uv0:loadSpineAnimator(uv3, uv4, function ()
+
+				slot1 = uv0
+
+				slot1:loadSpineAnimator(uv3, uv4, function ()
 					uv0(uv1)
 				end)
 			end, true, true)
 		else
-			uv0:loadSpineAnimator(uv4, uv2, function ()
+			slot4 = uv0
+
+			slot4:loadSpineAnimator(uv4, uv2, function ()
 				uv0(uv1)
 			end)
 		end
@@ -209,7 +227,9 @@ function slot0.loadSpineAnimator(slot0, slot1, slot2, slot3)
 end
 
 function slot0.MakeBoat(slot0, slot1, slot2)
-	PoolMgr.GetInstance():GetSpineChar(slot1:getPrefab(), true, function (slot0)
+	slot3 = PoolMgr.GetInstance()
+
+	slot3:GetSpineChar(slot1:getPrefab(), true, function (slot0)
 		if not uv0.isExist then
 			slot0.name = "model"
 			rtf(slot0).sizeDelta = Vector2.New(200, 500)
@@ -257,7 +277,9 @@ function slot0.LoadBoatEffect(slot0, slot1, slot2, slot3)
 	for slot10, slot11 in pairs(slot2:getAttachmentPrefab()) do
 		if slot11.attachment_cusual[1] ~= "" then
 			table.insert(slot5, function (slot0)
-				ResourceMgr.Inst:getAssetAsync("Effect/" .. uv0, uv0, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				slot1 = ResourceMgr.Inst
+
+				slot1:getAssetAsync("Effect/" .. uv0, uv0, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 					if not uv0.isExist then
 						slot1 = Object.Instantiate(slot0)
 
@@ -315,8 +337,10 @@ function slot0.LoadBoatPart(slot0, slot1, slot2, slot3)
 	}
 
 	function slot5(slot0)
+		slot1 = tf(slot0)
+
 		for slot5, slot6 in ipairs(uv0) do
-			slot7 = cloneTplTo(tf(slot0):Find(slot6[1]), uv1)
+			slot7 = cloneTplTo(slot1:Find(slot6[1]), uv1)
 			slot7.gameObject.name = slot6[1]
 			slot7.localPosition = slot6[2]
 			slot7.localScale = slot6[3]
@@ -324,7 +348,9 @@ function slot0.LoadBoatPart(slot0, slot1, slot2, slot3)
 	end
 
 	if not slot0.backyardresui then
-		PoolMgr.GetInstance():GetUI("backyardresui", true, function (slot0)
+		slot6 = PoolMgr.GetInstance()
+
+		slot6:GetUI("backyardresui", true, function (slot0)
 			uv0.backyardresui = slot0
 
 			uv1(slot0)

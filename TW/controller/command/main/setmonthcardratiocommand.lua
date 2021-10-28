@@ -1,7 +1,9 @@
 slot0 = class("SetMonthCardRatioCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	pg.ConnectionMgr.GetInstance():Send(11601, {
+	slot3 = pg.ConnectionMgr.GetInstance()
+
+	slot3:Send(11601, {
 		ratio = slot1:getBody()
 	}, 11602, function (slot0)
 		if slot0.result == 0 then

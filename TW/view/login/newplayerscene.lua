@@ -215,8 +215,14 @@ function slot0.selectCharacterByIdx(slot0, slot1, slot2)
 	end
 
 	slot0:recycleSpineChar()
-	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetSpineChar(slot5, true, function (slot0)
+
+	slot6 = pg.UIMgr.GetInstance()
+
+	slot6:LoadingOn()
+
+	slot6 = PoolMgr.GetInstance()
+
+	slot6:GetSpineChar(slot5, true, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.shipPrefab = uv1

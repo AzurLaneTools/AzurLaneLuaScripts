@@ -51,11 +51,15 @@ function slot0.initUI(slot0)
 
 	onButton(slot0, slot0.buildBtn, function ()
 		slot2 = pg.ship_data_create_material[pg.activity_ship_create[uv0.poolType].create_id]
+		slot3 = uv0.playerProxy
+		slot4 = uv0.bagProxy
+		slot5 = uv0.buildShipProxy
+		slot9 = uv0.buildMsgBox
 
-		uv0.buildMsgBox:show(math.max(1, _.min({
-			math.floor(uv0.playerProxy:getData().gold / slot2.use_gold),
-			math.floor(uv0.bagProxy:getItemCountById(uv0.useItem) / slot2.number_1),
-			MAX_BUILD_WORK_COUNT - table.getCount(uv0.buildShipProxy:getRawData())
+		slot9:show(math.max(1, _.min({
+			math.floor(slot3:getData().gold / slot2.use_gold),
+			math.floor(slot4:getItemCountById(uv0.useItem) / slot2.number_1),
+			MAX_BUILD_WORK_COUNT - table.getCount(slot5:getRawData())
 		})), function (slot0)
 			if uv0 < slot0 or uv1.gold < slot0 * uv2.use_gold or uv3 < slot0 * uv2.number_1 then
 				return false
@@ -126,8 +130,10 @@ function slot0.MsgBox(slot0)
 	slot1.minusBtn = findTF(slot1._go, "window/content/calc_panel/minus")
 	slot1.addBtn = findTF(slot1._go, "window/content/calc_panel/add")
 	slot1.maxBtn = findTF(slot1._go, "window/content/max")
-	slot1.valueTxt = findTF(slot1._go, "window/content/calc_panel/Text"):GetComponent(typeof(Text))
-	slot1.text = findTF(slot1._go, "window/content/Text"):GetComponent(typeof(Text))
+	slot2 = findTF(slot1._go, "window/content/calc_panel/Text")
+	slot1.valueTxt = slot2:GetComponent(typeof(Text))
+	slot2 = findTF(slot1._go, "window/content/Text")
+	slot1.text = slot2:GetComponent(typeof(Text))
 	slot1.buildUI = slot0.parent
 	slot1.active = false
 

@@ -76,7 +76,7 @@ return {
 			actor = 102162,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "想要糖果的伙伴，以及想發糖果又沒準備的同伴，都可以找愛丁堡領取哦~",
+			say = "想要糖果的夥伴，以及想發糖果又沒準備的同伴，都可以找愛丁堡領取哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，從聽到愛丁堡她們聊天開始就籌備的計劃，能順利執行真是太好了~請叫我”萬聖夜的惡作劇之王“！哈哈哈",
+			say = "嘿嘿嘿，從聽到愛丁堡她們聊天開始就籌備的計劃，能順利執行真是太好了~請叫我“萬聖夜的惡作劇之王”！哈哈哈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "干得不错嘛，“恶作剧之王”？",
+			say = "幹得不錯嘛，“惡作劇之王”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

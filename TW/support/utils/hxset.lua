@@ -41,10 +41,12 @@ function slot0.init()
 				uv0.codeMode = true
 			end
 
+			slot2 = "Localization_skin = false"
+
 			if slot1.Length <= 1 then
 				System.IO.File.WriteAllLines(slot0, {
 					slot1[0],
-					"Localization_skin = false"
+					slot2
 				})
 			else
 				slot2 = slot1[1]
@@ -61,15 +63,19 @@ end
 
 function slot0.calcLocalizationUse()
 	if PLATFORM_CODE == PLATFORM_CH then
-		if uv0.codeMode and not (function ()
+		function slot0()
 			return PlayerPrefs.GetInt("localization_use", 0) > 0
-		end)() then
+		end
+
+		function slot1(slot0)
+			PlayerPrefs.SetInt("localization_use", slot0 and 1 or 0)
+		end
+
+		if uv0.codeMode and not slot0() then
 			pg.m02:sendNotification(GAME.CHEATER_MARK, {
 				reason = CC_TYPE_99
 			})
-			(function (slot0)
-				PlayerPrefs.SetInt("localization_use", slot0 and 1 or 0)
-			end)(true)
+			slot1(true)
 		end
 	end
 end
@@ -158,10 +164,14 @@ end
 
 function slot0.hxLan(slot0, slot1)
 	return string.gsub(slot0 or "", "{namecode:(%d+)}", function (slot0)
+		slot1 = pg.name_code[tonumber(slot0)]
+
 		if PLATFORM_CODE == PLATFORM_CH then
-			return pg.name_code[tonumber(slot0)].code
+			return slot1.code
 		else
-			return slot1 and ((uv0.codeMode or uv1) and slot1.name or slot1.code)
+			slot2 = slot1 and ((uv0.codeMode or uv1) and slot1.name or slot1.code)
+
+			return slot2
 		end
 	end)
 end
@@ -247,7 +257,7 @@ function slot0.autoHxShiftPath(slot0, slot1, slot2)
 		if uv0.needShift(slot0) and PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. "_hx")) then
 			if uv0.isFolderBundle(slot0) then
 				return slot0 .. "_hx", slot1
-			elseif slot1 then
+			elseif slot1 and #slot1 > 0 then
 				return slot0 .. "_hx", slot1 .. "_hx"
 			else
 				return slot0 .. "_hx", slot1

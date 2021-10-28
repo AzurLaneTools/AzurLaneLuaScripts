@@ -153,9 +153,10 @@ function math.atan16(slot0)
 	if uv0(slot0) > 1 then
 		slot0 = 1 / slot0
 		slot1 = slot0 * slot0
+		slot1 = -((((((((0.0028662257 * slot1 - 0.0161657367) * slot1 + 0.0429096138) * slot1 - 0.07528964) * slot1 + 0.1065626393) * slot1 - 0.1420889944) * slot1 + 0.1999355085) * slot1 - 0.3333314528) * slot1 + 1) * slot0
 
 		if FLOATSIGNBITSET(slot0) then
-			return -((((((((0.0028662257 * slot1 - 0.0161657367) * slot1 + 0.0429096138) * slot1 - 0.07528964) * slot1 + 0.1065626393) * slot1 - 0.1420889944) * slot1 + 0.1999355085) * slot1 - 0.3333314528) * slot1 + 1) * slot0 - uv1
+			return slot1 - uv1
 		else
 			return slot1 + uv1
 		end

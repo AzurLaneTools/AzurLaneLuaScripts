@@ -7,7 +7,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(34501, {
+	slot5 = pg.ConnectionMgr.GetInstance()
+
+	slot5:Send(34501, {
 		type = 0
 	}, 34502, function (slot0)
 		slot1 = uv0.worldBossProxy
@@ -17,7 +19,10 @@ function slot0.execute(slot0, slot1)
 
 		if not slot1:IsOpen() and slot1:GetSelfBoss() ~= nil then
 			print("Notification : boss is overtime")
-			pg.ConnectionMgr.GetInstance():Send(34513, {
+
+			slot2 = pg.ConnectionMgr.GetInstance()
+
+			slot2:Send(34513, {
 				type = 0
 			}, 34514, function (slot0)
 			end)

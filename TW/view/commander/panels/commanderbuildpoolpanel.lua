@@ -10,7 +10,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.posListBottom = UIItemList.New(slot0._tf:Find("frame/bg/content/queue/list2"), slot3)
 	slot0.autoBtn = slot0._tf:Find("frame/bg/auto_btn")
 	slot0.startBtn = slot0._tf:Find("frame/bg/start_btn")
-	slot0.selectedTxt = slot0._tf:Find("statistics/Text"):GetComponent(typeof(Text))
+	slot4 = slot0._tf:Find("statistics/Text")
+	slot0.selectedTxt = slot4:GetComponent(typeof(Text))
 
 	setActive(slot0._tf, false)
 	onButton(slot0.parent, slot0._tf, function ()
@@ -51,18 +52,20 @@ end
 function slot0.AutoSelect(slot0)
 	slot1 = slot0.pools
 
-	for slot7 = 1, uv0 - #slot0.selected do
-		if (function ()
-			slot0 = nil
+	function slot2()
+		slot0 = nil
 
-			for slot4, slot5 in pairs(uv0.counts) do
-				if slot5 > 0 then
-					slot0 = slot4
-				end
+		for slot4, slot5 in pairs(uv0.counts) do
+			if slot5 > 0 then
+				slot0 = slot4
 			end
+		end
 
-			return slot0
-		end)() then
+		return slot0
+	end
+
+	for slot7 = 1, uv0 - #slot0.selected do
+		if slot2() then
 			slot0:ReduceCount(slot8, -1)
 		end
 	end

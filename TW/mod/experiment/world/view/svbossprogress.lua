@@ -9,9 +9,12 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.rtFrame = slot0._tf:Find("frame")
-	slot0.rtPanel = slot0.rtFrame:Find("buff_panel/buff_bg")
-	slot0.rtInfo = slot0.rtFrame:Find("buff_panel/info")
+	slot1 = slot0._tf
+	slot0.rtFrame = slot1:Find("frame")
+	slot1 = slot0.rtFrame
+	slot0.rtPanel = slot1:Find("buff_panel/buff_bg")
+	slot1 = slot0.rtFrame
+	slot0.rtInfo = slot1:Find("buff_panel/info")
 
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
@@ -38,10 +41,11 @@ end
 
 function slot0.Setup(slot0, slot1, slot2)
 	slot0.callback = slot2
+	slot4 = 0
 	slot5 = slot1.total
 
 	for slot9, slot10 in ipairs(slot1.drops) do
-		slot4 = 0 + slot10.count
+		slot4 = slot4 + slot10.count
 	end
 
 	setText(slot0._tf:Find("frame/buff_panel/info/name"), i18n("world_boss_drop_title"))

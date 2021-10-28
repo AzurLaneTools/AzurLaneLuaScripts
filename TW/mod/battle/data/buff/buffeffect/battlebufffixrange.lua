@@ -27,7 +27,9 @@ end
 
 function slot1.updateBulletRange(slot0, slot1, slot2, slot3, slot4, slot5)
 	for slot10, slot11 in ipairs(slot1:GetAllWeapon()) do
-		if slot0._indexRequire == nil or table.contains(slot0._indexRequire, slot11:GetEquipmentIndex()) then
+		slot12 = slot11:GetEquipmentIndex()
+
+		if slot0._indexRequire == nil or table.contains(slot0._indexRequire, slot12) then
 			slot11:FixWeaponRange(slot2, slot3, slot4, slot5)
 		end
 	end

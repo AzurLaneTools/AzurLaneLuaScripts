@@ -72,10 +72,13 @@ function slot0.addRandomStage(slot0, slot1)
 end
 
 function slot0.listenerRandomStage(slot0)
-	slot0.timerId = pg.TimeMgr.GetInstance():AddTimer("listenerRandomStage", 0, 1, function ()
+	slot1 = pg.TimeMgr.GetInstance()
+	slot0.timerId = slot1:AddTimer("listenerRandomStage", 0, 1, function ()
 		if uv0.data.randomexpeditions and table.getCount(uv0.data.randomexpeditions) > 0 then
+			slot0 = pg.TimeMgr.GetInstance():GetServerTime()
+
 			for slot4, slot5 in pairs(uv0.data.randomexpeditions) do
-				if slot5.out_time == pg.TimeMgr.GetInstance():GetServerTime() then
+				if slot5.out_time == slot0 then
 					uv0:removeRandomStageById(slot5.id)
 				end
 			end

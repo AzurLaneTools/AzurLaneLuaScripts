@@ -5,14 +5,18 @@ function slot0.__call(slot0)
 		return
 	end
 
-	PoolMgr.GetInstance():GetPrefab(slot0.path, slot0.name, true, function (slot0)
+	slot3 = PoolMgr.GetInstance()
+
+	slot3:GetPrefab(slot0.path, slot0.name, true, function (slot0)
 		if not uv0.stopped then
 			if uv0.onLoaded[1] then
 				uv0.onLoaded[1](slot0)
 				table.remove(uv0.onLoaded, 1)
 
 				for slot4, slot5 in ipairs(uv0.onLoaded) do
-					PoolMgr.GetInstance():GetPrefab(uv1, uv2, false, function (slot0)
+					slot6 = PoolMgr.GetInstance()
+
+					slot6:GetPrefab(uv1, uv2, false, function (slot0)
 						uv0(slot0)
 					end)
 				end

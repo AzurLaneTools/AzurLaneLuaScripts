@@ -5,9 +5,10 @@ function slot0.Update(slot0, slot1)
 	slot0.titleImg.text = slot1:getConfig("name")
 	slot0.iconImag.sprite = GetSpriteFromAtlas("GuildTechnology", slot1.group.id)
 	slot5 = slot1:GetMaxLevel()
+	slot6 = slot1:GetLevel()
 
 	if slot1:IsGuildMember() then
-		slot0.levelTxt.text = "Lv." .. slot1:GetLevel()
+		slot0.levelTxt.text = "Lv." .. slot6
 	else
 		slot0.levelTxt.text = "Lv." .. slot6 .. "/" .. slot5
 	end

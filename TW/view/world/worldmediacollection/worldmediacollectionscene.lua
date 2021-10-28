@@ -30,18 +30,25 @@ function slot0.GetCurrentPage(slot0)
 end
 
 function slot0.didEnter(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.top, {
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:OverlayPanel(slot0.top, {
 		groupName = LayerWeightConst.GROUP_COLLECTION
 	})
-	onButton(slot0, slot0.top:Find("blur_panel/adapt/top/option"), function ()
+
+	slot3 = slot0.top
+
+	onButton(slot0, slot3:Find("blur_panel/adapt/top/option"), function ()
 		uv0:quickExitFunc()
 	end, SFX_PANEL)
+
+	slot3 = slot0.top
 
 	function slot4()
 		uv0:Backward()
 	end
 
-	onButton(slot0, slot0.top:Find("blur_panel/adapt/top/back_btn"), slot4, SFX_UI_CANCEL)
+	onButton(slot0, slot3:Find("blur_panel/adapt/top/back_btn"), slot4, SFX_UI_CANCEL)
 
 	for slot4 = 1, #slot0.toggles do
 		onToggle(slot0, slot0.toggles[slot4], function (slot0)

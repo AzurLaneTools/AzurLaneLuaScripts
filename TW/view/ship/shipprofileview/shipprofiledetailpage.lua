@@ -18,7 +18,10 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.EnterAnim(slot0, slot1, slot2)
-	LeanTween.moveX(rtf(slot0._tf), 0, slot1):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(function ()
+	slot3 = LeanTween.moveX(rtf(slot0._tf), 0, slot1)
+	slot3 = slot3:setEase(LeanTweenType.easeInOutSine)
+
+	slot3:setOnComplete(System.Action(function ()
 		if uv0 then
 			uv0()
 		end
@@ -26,7 +29,10 @@ function slot0.EnterAnim(slot0, slot1, slot2)
 end
 
 function slot0.ExistAnim(slot0, slot1, slot2)
-	LeanTween.moveX(rtf(slot0._tf), 1000, slot1):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(function ()
+	slot3 = LeanTween.moveX(rtf(slot0._tf), 1000, slot1)
+	slot3 = slot3:setEase(LeanTweenType.easeInOutSine)
+
+	slot3:setOnComplete(System.Action(function ()
 		if uv0 then
 			uv0()
 		end
@@ -69,13 +75,18 @@ function slot0.InitSkills(slot0)
 		end)
 	end
 
-	for slot9 = slot0.skillPanel.childCount + 1, #slot3 < 3 and 3 or #slot3 do
+	slot4 = slot0.skillPanel.childCount
+	slot5 = #slot3 < 3 and 3 or #slot3
+
+	for slot9 = slot4 + 1, slot5 do
 		cloneTplTo(slot0.skillTpl, slot0.skillPanel)
 	end
 
 	for slot9 = 1, slot0.skillPanel.childCount do
+		slot10 = slot0.skillPanel:GetChild(slot9 - 1)
+
 		if slot9 <= #slot3 then
-			slot0:UpdateSkill(slot0.skillPanel:GetChild(slot9 - 1), slot3[slot9])
+			slot0:UpdateSkill(slot10, slot3[slot9])
 		else
 			setActive(slot0:findTF("icon", slot10), false)
 			setActive(slot0:findTF("add", slot10), true)

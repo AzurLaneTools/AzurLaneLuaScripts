@@ -89,7 +89,9 @@ function slot0.getSortGoods(slot0)
 	end
 
 	table.sort(slot1, function (slot0, slot1)
+		slot2 = 100
 		slot3 = 1000
+		slot4 = slot0:getConfig("order") + slot0.id / 100000
 		slot5 = slot1:getConfig("order") + slot1.id / 100000
 		slot6 = getProxy(CollectionProxy)
 
@@ -100,7 +102,7 @@ function slot0.getSortGoods(slot0)
 		if (function (slot0)
 			return slot0:isSham() and slot0:checkCommodityType(DROP_TYPE_SHIP) and uv0:getShipGroup(uv1(slot0:getConfig("commodity_id")))
 		end)(slot0) and not slot8(slot0) then
-			slot4 = slot0:getConfig("order") + slot0.id / 100000 + 100
+			slot4 = slot4 + slot2
 		end
 
 		if slot7(slot1) and not slot8(slot1) then
