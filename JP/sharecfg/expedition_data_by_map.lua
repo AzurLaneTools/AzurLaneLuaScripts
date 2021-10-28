@@ -10260,6 +10260,258 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1570001] = {
+		map = 1570001,
+		name = "神穹を衝く聖歌·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "SHENGYONGQU1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		ani_name = "map_1320001",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1570011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1570002] = {
+		map = 1570002,
+		name = "神穹を衝く聖歌·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "SHENGYONGQU16",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		ani_name = "map_1320002",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1570012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1570011] = {
+		map = 1570011,
+		name = "神穹を衝く聖歌·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "SHENGYONGQU1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		ani_name = "map_1320003",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1570001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1570012] = {
+		map = 1570012,
+		name = "神穹を衝く聖歌·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "SHENGYONGQU16",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		ani_name = "map_1320004",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1570002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1570025] = {
+		map = 1570025,
+		name = "神穹を衝く聖歌·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level-french2",
+		ani_name = "map_1320004",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1570012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1570026] = {
+		map = 1570026,
+		name = "神穹を衝く聖歌·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level-french2",
+		ani_name = "map_1320004",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1570012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染の来訪者』-前編|| ||CHAPTER EX||E.X.",
@@ -11977,6 +12229,12 @@ pg.expedition_data_by_map = {
 		1560012,
 		1560025,
 		1560026,
+		1570001,
+		1570002,
+		1570011,
+		1570012,
+		1570025,
+		1570026,
 		2100000,
 		2100001,
 		2100010,

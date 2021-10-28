@@ -223,6 +223,10 @@ function slot0.addBoatDragListenter(slot0)
 			return
 		end
 
+		if uv0.viewComponent:IsVisitMode() then
+			return
+		end
+
 		if Input.touchCount > 1 then
 			return
 		end

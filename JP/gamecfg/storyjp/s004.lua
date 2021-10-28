@@ -26,23 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			say = "この力…！やっぱりあなたたちは、「あの力」を……！",
-			subBgName = {
-				name = "bg_story_1_sub",
-				anchors = {
-					0,
-					0.5,
-					0,
-					0.5
-				},
-				pivot = {
-					0,
-					0.415
-				},
-				pos = {
-					0,
-					0
-				}
-			},
+			subBgName = "bg_story_1_sub",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

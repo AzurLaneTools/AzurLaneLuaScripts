@@ -235,7 +235,6 @@ function slot6.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_UNIT, slot0.onAddUnit)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_UNIT, slot0.onRemoveUnit)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.HIT_ENEMY, slot0.onEnemyHit)
-	slot0._dataProxy:RegisterEventListener(slot0, uv0.CAST_SKILL, slot0.onCastSkill)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_AIR_FIGHTER_ICON, slot0.onAddAirStrike)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_AIR_FIGHTER_ICON, slot0.onRemoveAirStrike)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE, slot0.onUpdateHostileSubmarine)
@@ -252,7 +251,6 @@ function slot6.RemoveUIEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_UNIT)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_UNIT)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.HIT_ENEMY)
-	slot0._dataProxy:UnregisterEventListener(slot0, uv0.CAST_SKILL)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_COUNT_DOWN)
 	slot0._cameraUtil:UnregisterEventListener(slot0, uv0.SHOW_PAINTING)
 	slot0._cameraUtil:UnregisterEventListener(slot0, uv0.CAMERA_FOCUS)
@@ -362,16 +360,16 @@ function slot6.onPlayerMainUnitHpUpdate(slot0, slot1)
 	end
 end
 
-function slot6.onCastSkill(slot0, slot1)
+function slot6.onSkillFloat(slot0, slot1)
 	slot2 = slot1.Data
-	slot4 = slot2.caster
+	slot4 = slot2.commander
+	slot5 = slot2.skillName
+	slot6 = slot1.Dispatcher
 
-	if uv0.Battle.BattleDataFunction.GetSkillTemplate(slot2.skillID).uiEffect ~= "" then
-		pg.EffectMgr.GetInstance():BattleUIEffect(slot6, function (slot0)
-			slot0:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
-				Destroy(uv0)
-			end)
-		end)
+	if slot2.coverHrzIcon then
+		slot0:ShowSkillFloatCover(slot6, slot5, slot3)
+	else
+		slot0:ShowSkillFloat(slot6, slot5, slot4)
 	end
 end
 
@@ -410,14 +408,16 @@ function slot6.SetFleetCloakLine(slot0, slot1)
 end
 
 function slot6.onAddUnit(slot0, slot1)
-	slot2 = slot1.Data.type
+	slot3 = slot1.Data.unit
 
-	if slot1.Data.unit:IsBoss() and slot0._dataProxy:GetActiveBossCount() == 1 then
+	if slot1.Data.type == uv0.UnitType.PLAYER_UNIT or slot2 == uv0.UnitType.ENEMY_UNIT then
+		slot0:registerUnitEvent(slot3)
+	end
+
+	if slot3:IsBoss() and slot0._dataProxy:GetActiveBossCount() == 1 then
 		slot0:AddBossWarningUI()
 	elseif slot2 == uv0.UnitType.ENEMY_UNIT then
-		slot0:registerUnitEvent(slot3)
-	elseif slot2 == uv0.UnitType.NPC_UNIT and slot3:GetIFF() == uv1.FOE_CODE then
-		slot0:registerUnitEvent(slot3)
+		slot0:registerNPCUnitEvent(slot3)
 	elseif slot2 == uv0.UnitType.PLAYER_UNIT and slot3:IsMainFleetUnit() and slot3:GetIFF() == uv1.FRIENDLY_CODE then
 		slot0:registerPlayerMainUnitEvent(slot3)
 	end
@@ -434,8 +434,12 @@ end
 function slot6.onRemoveUnit(slot0, slot1)
 	slot2 = slot1.Data.unit
 
-	if slot1.Data.type == uv0.UnitType.ENEMY_UNIT and not slot2:IsBoss() then
+	if slot1.Data.type == uv0.UnitType.PLAYER_UNIT or slot3 == uv0.UnitType.ENEMY_UNIT then
 		slot0:unregisterUnitEvent(slot2)
+	end
+
+	if slot3 == uv0.UnitType.ENEMY_UNIT and not slot2:IsBoss() then
+		slot0:unregisterNPCUnitEvent(slot2)
 	elseif slot2:GetIFF() == uv1.FRIENDLY_CODE and slot2:IsMainFleetUnit() then
 		slot0:unregisterPlayerMainUnitEvent(slot2)
 	end
@@ -605,6 +609,10 @@ function slot6.AddBossWarningUI(slot0)
 end
 
 function slot6.registerUnitEvent(slot0, slot1)
+	slot1:RegisterEventListener(slot0, uv0.SKILL_FLOAT, slot0.onSkillFloat)
+end
+
+function slot6.registerNPCUnitEvent(slot0, slot1)
 	slot1:RegisterEventListener(slot0, uv0.UPDATE_HP, slot0.onEnemyHpUpdate)
 
 	if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
@@ -617,6 +625,11 @@ function slot6.registerPlayerMainUnitEvent(slot0, slot1)
 end
 
 function slot6.unregisterUnitEvent(slot0, slot1)
+	slot1:UnregisterEventListener(slot0, uv0.SKILL_FLOAT)
+end
+
+function slot6.unregisterNPCUnitEvent(slot0, slot1)
+	slot1:UnregisterEventListener(slot0, uv0.SKILL_FLOAT)
 	slot1:UnregisterEventListener(slot0, uv0.UPDATE_HP)
 
 	if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then

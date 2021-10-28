@@ -154,12 +154,24 @@ pg.activity_task_permanent = {
 			35081
 		}
 	},
+	[6006] = {
+		gametip = "「メンフィス」の着せ替えをGET!",
+		banner_route = "permanent_mengfeisi",
+		gametip_extra = "最速7日間で入手",
+		over_pt = 0,
+		task_extra = "",
+		id = 6006,
+		activity_name = "カオティック ハロウィンナイト",
+		over_task_id = "",
+		eliminate_task_id = {}
+	},
 	all = {
 		6000,
 		6001,
 		6002,
 		6003,
 		6004,
-		6005
+		6005,
+		6006
 	}
 }

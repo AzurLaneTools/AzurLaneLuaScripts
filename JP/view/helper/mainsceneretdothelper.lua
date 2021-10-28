@@ -100,7 +100,8 @@ function slot0.GetNotifyType(slot0)
 			},
 			[pg.RedDotMgr.TYPES.COMMISSION] = {
 				PlayerProxy.UPDATED,
-				GAME.EVENT_LIST_UPDATE
+				GAME.EVENT_LIST_UPDATE,
+				GAME.CANCEL_LEARN_TACTICS_DONE
 			},
 			[pg.RedDotMgr.TYPES.SETTTING] = {
 				"CVupdate"

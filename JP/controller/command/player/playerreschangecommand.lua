@@ -67,9 +67,11 @@ function slot0.UpdateActivies(slot0, slot1, slot2)
 	slot7 = ActivityConst.ACTIVITY_TYPE_PT_BUFF
 
 	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
-		slot3[slot9] = slot3[slot8:getDataConfig("pt")] or slot2:getResource(slot9) - slot1:getResource(slot9)
+		if slot8:getDataConfig("pt") > 0 then
+			slot3[slot9] = slot3[slot9] or slot2:getResource(slot9) - slot1:getResource(slot9)
 
-		uv0.UpdateActivity(slot8, slot3[slot9])
+			uv0.UpdateActivity(slot8, slot3[slot9])
+		end
 	end
 end
 

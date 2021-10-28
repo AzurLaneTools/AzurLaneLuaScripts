@@ -302,6 +302,10 @@ function slot0.ReturnUI(slot0, slot1, slot2)
 			slot2:GetComponent(typeof(UIArchiver)):Clear()
 			slot0.pools_plural[slot4]:Enqueue(slot2)
 		else
+			if slot1 == "LevelMainScene" then
+				print("Return LevelMainScene UI\n", debug.traceback())
+			end
+
 			slot0.pools_plural[slot4]:Enqueue(slot2, true)
 
 			if slot0.pools_plural[slot4]:AllReturned() and (not slot0.callbacks[slot4] or #slot0.callbacks[slot4] == 0) then

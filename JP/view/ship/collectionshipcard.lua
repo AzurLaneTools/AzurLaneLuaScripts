@@ -65,14 +65,18 @@ function slot0.flush(slot0)
 		slot0.labelHeartIcon.color = slot1.iheart and Color.New(1, 0.6, 0.6) or Color.New(1, 1, 1)
 		slot0.labelHeartPlus.color = slot1.iheart and Color.New(1, 0.6, 0.6) or Color.New(1, 1, 1)
 
-		slot0:loadImage(slot0.shipGroup)
+		slot0:loadImage(slot0.shipGroup, true)
 	elseif slot0.state == ShipGroup.STATE_NOTGET then
 		slot0.shipGroup = ShipGroup.New({
 			id = slot0.config.group_type
 		})
 		slot0.shipGroup.trans = true
 
-		slot0:loadImage(slot0.shipGroup)
+		if PLATFORM_CODE == PLATFORM_CH and HXSet.isHx() then
+			slot0:loadImage(slot0.shipGroup, false)
+		else
+			slot0:loadImage(slot0.shipGroup, true)
+		end
 	elseif slot0.state == ShipGroup.STATE_LOCK then
 		-- Nothing
 	end
@@ -92,14 +96,15 @@ function slot0.flush(slot0)
 	end
 end
 
-function slot0.loadImage(slot0, slot1)
-	slot3 = shipRarity2bgPrint(slot1:getRarity(slot0.showTrans), nil, slot1:isBluePrintGroup(), slot1:isMetaGroup())
-	slot4 = slot1:getPainting(slot0.showTrans)
-	slot0.imageBg.sprite = GetSpriteFromAtlas("bg/star_level_card_" .. slot3, "")
-	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
-	slot0.loadingPaintingName = slot4
+function slot0.loadImage(slot0, slot1, slot2)
+	slot4 = shipRarity2bgPrint(slot1:getRarity(slot0.showTrans), nil, slot1:isBluePrintGroup(), slot1:isMetaGroup())
+	slot5 = slot2 and slot1:getPainting(slot0.showTrans) or "unknown"
 
-	LoadSpriteAsync("shipYardIcon/" .. slot4, function (slot0)
+	GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", slot0.imageBg)
+
+	slot0.loadingPaintingName = slot5
+
+	GetSpriteFromAtlasAsync("shipYardIcon/" .. slot5, "", function (slot0)
 		if not IsNil(uv0.go) and uv0.loadingPaintingName == uv1 then
 			uv0.iconShip.sprite = slot0
 		end
@@ -108,7 +113,7 @@ function slot0.loadImage(slot0, slot1)
 	slot0.iconType.sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType(slot0.showTrans)))
 
 	setScrollText(slot0.labelName, slot1:getName(slot0.showTrans))
-	setShipCardFrame(slot0.shipFrameImg, slot3)
+	setShipCardFrame(slot0.shipFrameImg, slot4)
 end
 
 function slot0.clear(slot0)

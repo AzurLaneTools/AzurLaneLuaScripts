@@ -722,6 +722,10 @@ function updateShip(slot0, slot1, slot2)
 		slot4 = "unknown"
 	end
 
+	if slot2.unknown_small then
+		slot4 = "unknown_small"
+	end
+
 	if findTF(slot0, "icon_bg/new") then
 		if slot2.isSkin then
 			setActive(slot6, not slot5.hasOldNonLimitSkin(slot5, slot1.skinId))

@@ -121,17 +121,14 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot5 = pg.Live2DMgr.GetInstance()
 
 	slot5:GetLive2DModelAsync(slot3:GetShipName(), function (slot0)
-		if uv0.state == uv1.STATE_DISPOSE then
-			Destroy(slot0)
-			pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(uv2)
-
+		if slot0 == nil then
 			return
 		end
 
-		uv3(uv0, slot0)
+		uv0(uv1, slot0)
 
-		if uv4 then
-			uv4()
+		if uv2 then
+			uv2()
 		end
 	end)
 end

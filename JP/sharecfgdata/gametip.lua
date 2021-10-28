@@ -9626,7 +9626,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「島風」を確定で入手可能！（最大4隻まで）"
+	tip = "「リシュリュー」、「アルジェリー」、「ル・テリブル」 などの出現率UP！"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -18442,4 +18442,8 @@ _G.pg.gametip.attr_luck = {
 
 _G.pg.gametip.attr_consume = {
 	tip = "消費"
+}
+
+_G.pg.gametip.shopping_error_time_limit = {
+	tip = "現在はこのお得パックを購入できません"
 }

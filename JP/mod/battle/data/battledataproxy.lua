@@ -1149,7 +1149,7 @@ function slot8.KillUnit(slot0, slot1)
 	elseif slot4 == uv2.FOE_CODE then
 		slot0._foeShipList[slot1] = nil
 
-		if slot3 == uv3.UnitType.ENEMY_UNIT or slot3 == uv3.UnitType.BOSS_UNIT or slot3 == uv3.UnitType.NPC_UNIT then
+		if slot3 == uv3.UnitType.ENEMY_UNIT or slot3 == uv3.UnitType.BOSS_UNIT then
 			if slot2:GetTeam() then
 				slot2:GetTeam():RemoveUnit(slot2)
 			end

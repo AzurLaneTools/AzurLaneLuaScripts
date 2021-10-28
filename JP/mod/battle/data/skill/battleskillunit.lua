@@ -41,12 +41,12 @@ function slot3.Cast(slot0, slot1, slot2)
 
 	if slot0._tempData.painting == 1 then
 		if slot2 then
-			slot4:ShowSkillFloat(slot1, slot2:getSkills()[1]:getConfig("name"), slot2:getPainting())
+			slot1:DispatchSkillFloat(slot2:getSkills()[1]:getConfig("name"), slot2:getPainting())
 		else
-			slot4:ShowSkillFloat(slot1, slot0._tempData.name)
+			slot1:DispatchSkillFloat(slot0._tempData.name)
 		end
 	elseif type(slot0._tempData.painting) == "string" then
-		slot4:ShowSkillFloatCover(slot1, slot0._tempData.name, slot0._tempData.painting)
+		slot1:DispatchSkillFloat(slot0._tempData.name, nil, slot0._tempData.painting)
 	end
 
 	if type(slot0._tempData.castCV) == "string" then
@@ -75,11 +75,6 @@ function slot3.Cast(slot0, slot1, slot2)
 			posFun = slot7.posFun
 		}))
 	end
-
-	slot0._dataProxy:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.CAST_SKILL, {
-		skillID = slot0._id,
-		caster = slot1
-	}))
 end
 
 function slot3.SetTarget(slot0, slot1)

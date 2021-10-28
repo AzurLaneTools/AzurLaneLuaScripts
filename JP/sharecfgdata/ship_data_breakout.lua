@@ -30867,6 +30867,144 @@ _G.pg.ship_data_breakout[801044] = {
 	ultimate_bonus = {}
 }
 
+_G.pg.ship_data_breakout[801071] = {
+	use_gold = 1000,
+	breakout_view = "特殊弾幕スキル習得/主砲補正+5%",
+	use_char_num = 1,
+	use_char = 80107,
+	breakout_id = 801072,
+	level = 10,
+	id = 801071,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		79781
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[801072] = {
+	use_gold = 3000,
+	breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
+	use_char_num = 1,
+	use_char = 80107,
+	breakout_id = 801073,
+	level = 30,
+	id = 801072,
+	icon = "10001",
+	pre_id = 801071,
+	use_item = {},
+	weapon_ids = {
+		106,
+		106
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[801073] = {
+	use_gold = 10000,
+	breakout_view = "特殊弾幕強化/武器補正+5%",
+	use_char_num = 2,
+	use_char = 80107,
+	breakout_id = 801074,
+	level = 70,
+	id = 801073,
+	icon = "10001",
+	pre_id = 801072,
+	use_item = {},
+	weapon_ids = {
+		79782
+	},
+	ultimate_bonus = {
+		"GNR"
+	}
+}
+
+_G.pg.ship_data_breakout[801074] = {
+	use_gold = 0,
+	breakout_view = "なし",
+	use_char_num = 0,
+	use_char = 80107,
+	breakout_id = 0,
+	level = 0,
+	id = 801074,
+	icon = "10001",
+	pre_id = 801073,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[801081] = {
+	use_gold = 500,
+	breakout_view = "全弾発射スキル習得/主砲補正+5%",
+	use_char_num = 1,
+	use_char = 80108,
+	breakout_id = 801082,
+	level = 10,
+	id = 801081,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		78031
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[801082] = {
+	use_gold = 1500,
+	breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
+	use_char_num = 1,
+	use_char = 80108,
+	breakout_id = 801083,
+	level = 30,
+	id = 801082,
+	icon = "10001",
+	pre_id = 801081,
+	use_item = {},
+	weapon_ids = {
+		106,
+		106
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[801083] = {
+	use_gold = 2500,
+	breakout_view = "全弾発射弾幕強化/武器補正+5%",
+	use_char_num = 2,
+	use_char = 80108,
+	breakout_id = 801084,
+	level = 70,
+	id = 801083,
+	icon = "10001",
+	pre_id = 801082,
+	use_item = {},
+	weapon_ids = {
+		78032
+	},
+	ultimate_bonus = {
+		"GNR"
+	}
+}
+
+_G.pg.ship_data_breakout[801084] = {
+	use_gold = 0,
+	breakout_view = "なし",
+	use_char_num = 0,
+	use_char = 80108,
+	breakout_id = 0,
+	level = 0,
+	id = 801084,
+	icon = "10001",
+	pre_id = 801083,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
 _G.pg.ship_data_breakout[802011] = {
 	use_gold = 500,
 	breakout_view = "全弾発射スキル習得/武器補正+2%",

@@ -493,14 +493,18 @@ end
 
 function slot0.canPermanentFinish(slot0)
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
-		slot1 = slot0:getConfig("config_data")
-		slot2 = getProxy(TaskProxy)
+		slot2 = slot0:getConfig("config_data")
+		slot3 = getProxy(TaskProxy)
 
 		return underscore.all(underscore.flatten({
-			slot1[#slot1]
+			slot2[#slot2]
 		}), function (slot0)
 			return uv0:getFinishTaskById(slot0) ~= nil
 		end)
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
+		slot2 = ActivityPtData.New(slot0)
+
+		return slot2.level >= #slot2.targets
 	end
 
 	return false

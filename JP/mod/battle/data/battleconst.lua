@@ -32,7 +32,6 @@ slot0.UnitType = {
 	BOSS_UNIT = 3,
 	AIRCRAFT_UNIT = 4,
 	AIRFIGHTER_UNIT = 5,
-	NPC_UNIT = 6,
 	MAIN_UNIT = 7,
 	FUNNEL_UNIT = 8,
 	UAV_UNIT = 9,
