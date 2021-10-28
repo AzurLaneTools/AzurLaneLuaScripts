@@ -1810,32 +1810,32 @@ _G.pg.ship_skin_words[101265] = {
 	feeling3 = "",
 	lose = "",
 	propose = "",
-	expedition = "",
-	win_mvp = "",
-	home = "",
-	mission = "",
-	touch2 = "",
+	expedition = "Back... (The look in Eldridge's eyes indicates the commission team has returned to port.)",
+	win_mvp = "Peace sign, from the moon.",
+	home = "Commander, hug. (Eldridge floats in from nowhere with her arms stretched out.)",
+	mission = "Missions...",
+	touch2 = "Hmm...?",
 	voice_key_2 = -1,
-	skill = "",
+	skill = "Eldridge, arriving at designated altitude... Moon, mooncake, and Manjuus spotted...",
 	drop_descrip = "Eldridge, arriving at designated altitude... Moon, mooncake, and Manjuus spotted...",
 	mail = "",
 	touch = "",
 	profile = "",
 	mission_complete = "",
 	feeling4 = "",
-	unlock = "",
+	unlock = "Eldridge, arriving at designated altitude... Moon, mooncake, and Manjuus spotted...",
 	feeling5 = "",
-	main = "nil|nil|nil",
+	main = "Dragon Empery festival... Mooncake... Eldridge wants a bite...|Using sparks, bad... Eldridge knows...|This moon, not the real moon... Simply a prop... Only Eldridge is weightless...",
 	battle = "",
 	upgrade = "",
 	voice_key = 0,
 	headtouch = "",
 	feeling2 = "",
-	login = "",
+	login = "Whooa... (Eldridge is floating around weightlessly in the air.)",
 	vote = "",
 	hp_warning = "",
 	id = 101265,
-	detail = "",
+	detail = "Commander, want mooncake?",
 	couple_encourage = {}
 }
 
@@ -6169,6 +6169,40 @@ _G.pg.ship_skin_words[102291] = {
 	hp_warning = "",
 	id = 102291,
 	detail = "Huff...... Puff...... (It looks like Boise has fallen asleep)",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[102292] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "W-was that a will-o'-wisp just now...?",
+	mission = "",
+	touch2 = "(Huff... Puff... Huff... Puff...) Y-You scared me...!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Um, I decided to try on a costume, since it's Halloween and all... Do you think I got that witchy look down...?",
+	mail = "",
+	touch = "Commander, would you like to try trick-or-treating? I've still got a fair bit of candy left, if you'd like...",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Um, I decided to try on a costume, since it's Halloween and all... Do you think I got that witchy look down...?",
+	feeling5 = "",
+	main = "Witches won't stand out much compared to zombies and Frankenstein's monsters... or so I thought.|Phoenix, um... I'm planning on watching the parade from here, so I can't really participate in it with you...|Commander, why don't you try putting on this pumpkin mask? Pfft... I-I'm sorry... I just couldn't hold it in...",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "What do you think... about this witch's hat...?",
+	feeling2 = "",
+	login = "Huff... Puff... Commander, these pumpkin lanterns are so nice and warm... Would you like to come sit by me...?",
+	vote = "",
+	hp_warning = "",
+	id = 102292,
+	detail = "A long, long time ago, in a castle far away from here, there once was a witch who could grant people's wishes... Um, I'll tell you the rest of the story later. It's quite a long story.",
 	couple_encourage = {}
 }
 
@@ -28527,6 +28561,40 @@ _G.pg.ship_skin_words[302213] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[302214] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "",
+	mail = "",
+	touch = "",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "",
+	feeling5 = "",
+	main = "nil|nil|nil",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 302214,
+	detail = "",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[302218] = {
 	feeling1 = "",
 	feeling3 = "",
@@ -29704,6 +29772,40 @@ _G.pg.ship_skin_words[303181] = {
 	hp_warning = "",
 	id = 303181,
 	detail = "This is too revealing? Meh, not really~? I've seen submarines wearing more risqué stuff than this.",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[303182] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Ahah~ Back where we left off, Commander! So, which card are you gonna pick?",
+	mission = "",
+	touch2 = "You jelly, Suzuya? 'Cause you sure look it! Haha~",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Now it's your turn, Commander! Which one's it gonna be~? You suuuure you wanna pick this card? ...I hear you, Suzuya! Stop tellin' the Commander what the cards are!",
+	mail = "",
+	touch = "Ahah! Is that your final answer?",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Now it's your turn, Commander! Which one's it gonna be~? You suuuure you wanna pick this card? ...I hear you, Suzuya! Stop tellin' the Commander what the cards are!",
+	feeling5 = "",
+	main = "Hungry, Suzuya? Wanna order home delivery?|Whatcha lookin' at, Commander? You more interested in me than the cards, or what?|Taking your sweet time, huh. Mmh... Meh... *yaaawn*...",
+	battle = "Now I'm PISSED! I'm gonna beat the crap outta you!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Psst, Suzuya! Commander's here! Hahah! Let's see you try to beat me this time, man!",
+	vote = "",
+	hp_warning = "",
+	id = 303182,
+	detail = "Aw, for real?! You lucked out and chose the best possible card! Hrmm... Hang on, are you cheating, Commander? You ALWAYS pick out the good cards!",
 	couple_encourage = {}
 }
 
@@ -35311,30 +35413,30 @@ _G.pg.ship_skin_words[401022] = {
 	propose = "",
 	expedition = "",
 	win_mvp = "",
-	home = "",
+	home = "Good work on your sortie. Would you like to recharge with some sweets? For the time being, I set these aside for your enjoyment.",
 	mission = "",
-	touch2 = "",
+	touch2 = "Commander, I'm not going to accept an excuse as flimsy as \"I needed to fix your clothes.\"",
 	voice_key_2 = -1,
 	skill = "",
-	drop_descrip = "Being able to see you all flabbergasted makes changing into this outfit worth it. Are you going to keep standing there like a scarecrow? Come over here~ Who knows, we might even be able to see the fireworks from this spot. ",
+	drop_descrip = "Being able to see you all flabbergasted makes changing into this outfit worth it. Are you going to keep standing there like a scarecrow? Come over here~ Who knows, we might even be able to see the fireworks from this spot.",
 	mail = "",
-	touch = "",
+	touch = "If you wanted to talk to me, wouldn't it be better if you at least had a topic in mind? Heh.",
 	profile = "",
 	mission_complete = "",
 	feeling4 = "",
-	unlock = "",
+	unlock = "Being able to see you all flabbergasted makes changing into this outfit worth it. Are you going to keep standing there like a scarecrow? Come over here~ Who knows, we might even be able to see the fireworks from this spot.",
 	feeling5 = "",
-	main = "nil|nil|nil",
+	main = "Lebe, I know festivals are fun, but I think you're having a bit too much fun...|\"A carp becoming a dragon?\" ...Lebe, do you want me to teach you what that means?|Festivals, delicious food, and wondrous scenery... Yes, I finally understand the miraculous \"summer\" that my Sakura Empire friends spoke of.",
 	battle = "",
 	upgrade = "",
 	voice_key = 0,
 	headtouch = "",
 	feeling2 = "",
-	login = "",
+	login = "Commander, keeping young maidens waiting isn't something you should be proud of.",
 	vote = "",
 	hp_warning = "",
 	id = 401022,
-	detail = "",
+	detail = "When we're together like this... Yes, it does undeniably look like a \"date.\"",
 	couple_encourage = {}
 }
 
@@ -41253,6 +41355,40 @@ _G.pg.ship_skin_words[605022] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[605023] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Look who's back. Hang up your coat and make yourself at home. Then I can may get comfortable too.",
+	mission = "",
+	touch2 = "When put before a stunning treasure, few could be satisfied with only watching from afar.",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Hello there. You'll have to forgive the loungewear; I have scarcely any reason to wear extravagant clothes in my private space away from the public eye.",
+	mail = "",
+	touch = "My cardigan is made of woven silk. You can appreciate its quality just from touching it, no?",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Hello there. You'll have to forgive the loungewear; I have scarcely any reason to wear extravagant clothes in my private space away from the public eye.",
+	feeling5 = "",
+	main = "Come on now, stop and smell the roses. Care for a cup of cappuccino? Actually, no, it would keep you awake through naptime.|Hmm? Tired, are we, Commander? A bath in the thermae would rejuvenate you splendidly. I could go for one myself, in fact.|Veneto is a tad too formal, wouldn't you agree? She really ought to do like me and take time to unwind more often.",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "You certainly took your sweet time... It's not every day I let a person see the casual side of me, you know.",
+	vote = "",
+	hp_warning = "",
+	id = 605023,
+	detail = "As a leader, part of my duty to my people is to make the decisions that lead to tranquil days where everyone may rest easy.",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[605050] = {
 	feeling1 = "You will eventually pay the price for your arrogance.",
 	feeling3 = "Commander, what do you think about when you gaze up into the night sky? I always think back to that night... when the skies were ablaze with what looked like countless meteors.",
@@ -43628,6 +43764,192 @@ _G.pg.ship_skin_words[801041] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[801070] = {
+	feeling1 = "If you wish to make a confession, better to turn to the Cardinal rather than to me.",
+	feeling3 = "You'd like to have a chat? Let's see then... Between life, freedom, and love, which is most important to you, Commander? Hehe, don't be alarmed that I suddenly sprang that question on you. I simply wanted to see how you'd react~",
+	lose = "The warriors of Iris Libre must not falter.",
+	propose = "Sorry to make you buy a ring for me, but I can't deny these feelings any longer–– Heh, heheh... Ahahaha~♪ Yes, with this sacred ritual, no longer will I be teasing you. Indeed, from now on, I pledge myself to you, fully and forever.",
+	expedition = "Coins, oil, and supplies... I wonder if the rewards for this commission will also be abundant.",
+	win_mvp = "Do not deny yourself the pride that you righteously deserve. The path to victory has been paved by God, but it is you who shall lead us down that path, Commander.",
+	home = "Here are the materials you've requested, as well as the tea and light meal. Please note that the tea may be a bit hot. Hmm? It's cooled down?",
+	mission = "Commander, have you come across a mission so difficult that it's even making you furrow your brow? ...My my, I see~♪ Ahem, I mean, I would be more than glad to lend my assistance, should you desire it––",
+	touch2 = "I do say, Commander, how generous of you to reveal your weaknesses to me one after another~",
+	voice_key_2 = -1,
+	skill = "Bloom forth, hallowed Iris!",
+	drop_descrip = "Le Fantasque-class large destroyer - Le Terrible.",
+	mail = "Commander, if you're unable to locate your mail... it's because I've already brought it over here. Heh heh~♪",
+	touch = "You may pray to the Holy Iris, or offer me a confession in person. Speak your piece.",
+	profile = "As a part of the 10th Scout Division of the Brest Fleet, I carried out escort missions as well as participated in the withdrawal from Strasbourg. As one who served the Iris Orthodoxy, I was finally shown the light of victory. Ah, how blessed I must be.",
+	mission_complete = "Are you sure you're able to sort out all these rewards yourself, Commander? Heh heh... Perhaps you could look for another person to work with you~?",
+	feeling4 = "Now then, moving on to the next question. Commander, do you prefer to be bound by someone else, or would you rather be the one doing the binding? Hehe, assume there are no other options~",
+	unlock = "I am Le Terrible, the elegant large destroyer who protects the teachings of Iris Libre. I have come in pursuit of your ideals. Commander, please show me the reason for which you fight.",
+	feeling5 = "If I was to cross the threshold of death's door one day, would you pull me back–– Hmm, I suppose that question's a bit too easy. I'm not trying to toy around with you, I simply wanted to hear how you feel. Heheh~",
+	main = "That little incident I had with Le Malin? Yes, I've already apologized to her, but her mind seemed to be on something else...|My, Commander, look at you over there with that derpy face–– Ahem, what I meant was, it's not good to slack off. You should try to learn a thing or two from Le Triomphant.|Those who seek to spread the wings of hope are too often shackled by trivial matters. Commander, do you have the ambition to break your chains?",
+	battle = "What is it that you are fighting for?",
+	upgrade = "To claim to be the strongest... is not something that should be stated haphazardly. Don't you agree, Commander?",
+	voice_key = 80107,
+	headtouch = "Please refrain from touching my hat.",
+	feeling2 = "You're here neither for prayers nor confessions? I see. In that case, I'll also have to find something else to do to pass the time... Hmm, hmm...",
+	login = "My, you seem to be in high spirits today, Commander. Do you have any orders for me?",
+	vote = "",
+	hp_warning = "The Holy Iris will protect us!",
+	id = 801070,
+	detail = "I have no interest in fighting pointless battles, but there seem to be some individuals here who place excessive pride in their speed... Of course, I was more than glad to put them in their place. More importantly, I made quite a few friends in the process. Not too bad, right?",
+	couple_encourage = {
+		{
+			{
+				90111
+			},
+			1,
+			" If you keep slacking off... I'll have to inform Le Triomphant~ Heh heh.",
+			0
+		},
+		{
+			{
+				80101
+			},
+			1,
+			"Let us do battle together, my beloved sister!",
+			0
+		},
+		{
+			{
+				80502
+			},
+			1,
+			"Your orders, Cardinal?",
+			0
+		}
+	}
+}
+
+_G.pg.ship_skin_words[801071] = {
+	feeling1 = "Zzzzz",
+	feeling3 = "Zzzzz",
+	lose = "I knew it, I'm just not good enough... Unlike some of those Eagle Union destroyers...",
+	propose = "",
+	expedition = "Our commission went wonderfully... I saw that in my dream...",
+	win_mvp = "*Yawn*... I'm still a bit sleepy... I can't even properly savor the aftertaste of victory like this... Zzzzz...",
+	home = "Zzzz... Black tea... should be left until it's a bit cooler than room temperature...",
+	mission = "The missions... We haven't finished them all yet...",
+	touch2 = "Nngh... Mmh...",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Zzz... Commander...? Sorry... for showing you this unsightly side of mine... I'm just, not a morning person... Zzzzz...",
+	mail = "Please remember... to check your mail...",
+	touch = "But if you could stop at scribbling on my face... that'd be nice...",
+	profile = "",
+	mission_complete = "We have mission rewards... waiting for us...",
+	feeling4 = "Zzzzz",
+	unlock = "Zzz... Commander...? Sorry... for showing you this unsightly side of mine... I'm just, not a morning person... Zzzzz...",
+	feeling5 = "Commander's derpy face... Ehehe... I've always wanted to see this... Just let me rest a while... at your side... Zzzzz...",
+	main = "Le Triomphant... You're not the most photogenic sleeper...|Commander... Give me another couple hours... And then...|Nooo, I'm going to get pranked... Ehehe... I won't hold it against you though, so please...",
+	battle = "Well then... I guess I'll fight...",
+	upgrade = "It'd be nice... if I could get stronger after waking up...",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "Zzzzz",
+	login = "Le Malin... It's time to get to work... Make sure you don't drag the Commander down... Zzzzz...",
+	vote = "",
+	hp_warning = "",
+	id = 801071,
+	detail = "Le Malin, Le Triomphant... We'll be together forever...... Zzzzz...",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[801080] = {
+	feeling1 = "We both have goals to work towards! I'll strive to be a full Templar Knight, and thou should strive to be a half-decent commander!",
+	feeling3 = "Lord Commander, if you ever feel anxious before a battle, simply put your hands together and pray, like... \"Iris, watch over our souls,\" and you'll be fine!",
+	lose = "Th-thou may crush my body, but my spirit will live on...! Wait, that doesn't sound right...",
+	propose = "To whom do I deliver this ring, Lord Commander? ...I-it's for me?! You're serious?! I-I accept. I just worried for a bit whether you truly wanted me...",
+	expedition = "The commission team hath returned! Heheh. The rewards would've been greater if you'd entrusted the job to a Templar Knight like me...",
+	win_mvp = "There you have it! That was a display of a Templar Knight's might!",
+	home = "Exemplary work, Lord Commander! Although I guess it would have been a cakewalk for the Cardinal!",
+	mission = "What about these unfinished missions? You'd better do them before the Cardinal scoldeth you.",
+	touch2 = "Are you that enamored by my sheer magnificence?",
+	voice_key_2 = -1,
+	skill = "Feel my holy might!",
+	drop_descrip = "Vauquelin-class destroyer – Maillé Brézé.",
+	mail = "New mail... The information inside is sure to be of paramount significance!",
+	touch = "It won't be long before I'm dubbed a full-fledged Templar Knight!",
+	profile = "I am Maillé Brézé, Vauquelin-class destroyer! I am renowned for my ability to escort, patrol, transport, and to fight off submarines! ...Ultimately, though, it didn't save me from sinking... Aww...",
+	mission_complete = "Mission complete! It's time to reap the rewards, Lord Commander!",
+	feeling4 = "It's not enough to protect just my Iris comrades. I must fight for all my friends here at port too... Oh, the burden on my shoulders doth grow ever bigger... Cardinal, Lord Commander, how will I carry this weight...?",
+	unlock = "Destroyer Maillé Brézé, Templar Knight of the Iris Libre, has arrived! Thou there, plebeian, thou may now sleep soundly knowing I'll defend thy lanes! ...What? Y-you're the Lord Commander?! F-f-forgive my grave disrespect just now!",
+	feeling5 = "If we share the burden of protecting everyone, then we can manage this feat together! The Cardinal told me that! On my sword, I vow to work harder than ever!",
+	main = "Our next battle is important, and I will not neglect my training in preparation for it!|Vauquelin! Thou must eat thy veggies! ...G-green peppers, however... Yes, it's a bad vegetable! Thou may pass on that one!|The Cardinal herself will be spectating our next exercise?! Oh goodness, oh dear... I must practice more!",
+	battle = "Onwards, girls! Holy is the war that we wage!",
+	upgrade = "Another step on my journey to full knighthood!",
+	voice_key = 80108,
+	headtouch = "Stunning hair ornament, am I right?",
+	feeling2 = "I may still be a way's off from full knighthood, but I would still give my life for our holy crusade! Give me orders, and I will execute them, Lord Commander!",
+	login = "Sound the trumpets, for I am here! ...Ah, morning salutations, Lord Commander!",
+	vote = "",
+	hp_warning = "I cannot and will not succumb...!",
+	id = 801080,
+	detail = "Do you understand, Lord Commander? The Cardinal herself is with us in this war. Therefore, it's a holy war! You should feel honored to be part of it!",
+	couple_encourage = {
+		{
+			{
+				90103
+			},
+			1,
+			"On me, Vauquelin!",
+			0
+		},
+		{
+			{
+				90302
+			},
+			1,
+			"Why, it's you, Algérie!",
+			0
+		},
+		{
+			{
+				80501
+			},
+			1,
+			" I-it's an unimaginable honor fighting alongside you, Cardinal!",
+			0
+		}
+	}
+}
+
+_G.pg.ship_skin_words[801081] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "S-see?! No monster can scare me as long as I have the Iris' protection!",
+	home = "You're back! You're finally back! I was sooooo scared, Lord Commandeeeer...!",
+	mission = "",
+	touch2 = "Could you stay here until I fall asleep...?",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "H-h-halt, intruder! Thou art intruding in the domain of an Iris Libre Templar Knight, a crime punishable by... Eek! I'm begging you, spare my life! ...It's you, Lord Commander?!",
+	mail = "G-g-go check your mail, right now!",
+	touch = "I-I was merely pretending to be spooked!",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "H-h-halt, intruder! Thou art intruding in the domain of an Iris Libre Templar Knight, a crime punishable by... Eek! I'm begging you, spare my life! ...It's you, Lord Commander?!",
+	feeling5 = "",
+	main = "Why am I afraid of monsters under the bed...? I-I-I'm not!|Eek! I heard a weird noise coming from outside! I'm sure of it! Help meeee, Lord Commander!|It's times like these when I envy Tartu so much...!",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "I can't t-take this anymore!",
+	feeling2 = "",
+	login = "Wh-what is it, Lord Commander? As you see, I'm simply guarding my room...",
+	vote = "",
+	hp_warning = "",
+	id = 801081,
+	detail = "Those things in the dark were just... Manjuus? N-n-no, impossible! Those little creatures could never frighten me so!",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[802010] = {
 	feeling1 = "I can't feel any passion coming from you, Commander...",
 	feeling3 = "Because we focus on the details, we can see the beauty of everyday things. I believe a true romanticist values even the smallest of life's beautiful things.",
@@ -44892,6 +45214,40 @@ _G.pg.ship_skin_words[902012] = {
 	hp_warning = "",
 	id = 902012,
 	detail = "I dig the design of this Dragon Empery outfit. Uh, that's NOT an invitation for you to ogle me all you want, okay?",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[902013] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Trick or treat! ...Only kids go trick-or-treating? Who cares! Shut up and gimme candy!",
+	mission = "",
+	touch2 = "This lingerie won't stop me from gettin' my hands dirty if I need to, y'know.",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "If you ignore me, I'll use my black cat magic to turn you into a pumpkin! Is that Halloweeny enough? Ahahaha! I'm just messing! C'mon, let's go do somethin' fun tonight, Commander!",
+	mail = "",
+	touch = "Am I supposed to go \"meeoow?\"",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "If you ignore me, I'll use my black cat magic to turn you into a pumpkin! Is that Halloweeny enough? Ahahaha! I'm just messing! C'mon, let's go do somethin' fun tonight, Commander!",
+	feeling5 = "",
+	main = "Uhh, Commander? If you're just gonna sit around, then I'll find someone else to hang out with.|Let's see what candy we're giving out! Hmm... You mind settin' this, this, and some of this aside just for me?|Putting on a costume and scaring people sounds pretty fun... So that's what Halloween's all about, huh? Makes my costume choice seem kinda out-of-place though...",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "You're back? Thought up a good spooky trick yet?",
+	vote = "",
+	hp_warning = "",
+	id = 902013,
+	detail = "Sure are a lot of cat lovers around here. Algérie, Richelieu... Are you one too, Commander?",
 	couple_encourage = {}
 }
 
@@ -51885,6 +52241,40 @@ _G.pg.ship_skin_words[399013] = {
 	hp_warning = "",
 	id = 399013,
 	detail = "Hmm, I'm a lot more outgoing than usual? Maybe the festive atmosphere is rubbing off on me. Milord, do you think... I'm acting strange...?",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[399014] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "Milord?! H-have I done something to displease you...?",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "I'm glad you've returned, Milord. I've changed my attire in order to better carry out your order–for us to \"relax together.\" Now then... could you please instruct me on how to proceed?",
+	mail = "Milord, you have new mail. Um... Shall I read it aloud for you?",
+	touch = "Milord, what would you have me do...?",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "I'm glad you've returned, Milord. I've changed my attire in order to better carry out your order–for us to \"relax together.\" Now then... could you please instruct me on how to proceed?",
+	feeling5 = "Milord, I've prepared your tea. Phew... Even though we're spending all this time together doing nothing, I... still feel fulfilled. Mm, this overflowing emotion... Milord, is this what \"love\" is...?",
+	main = "nil|Milord, I shall now continue my meditation... Oh, y-you'd like to talk to me?|Milord, could you please arrange some work for me? I'm... feeling a little fidgety...",
+	battle = "Milord, I'll protect you!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "Milord...?",
+	feeling2 = "",
+	login = "*Yaaawn*... Milord, please relax and make yourself at home.",
+	vote = "",
+	hp_warning = "",
+	id = 399014,
+	detail = "Milord, is the tea I prepared to your liking?",
 	couple_encourage = {}
 }
 

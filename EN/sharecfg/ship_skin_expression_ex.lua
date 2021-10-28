@@ -5354,5 +5354,68 @@ pg.ship_skin_expression_ex = {
 				"5"
 			}
 		}
+	},
+	mayebuleize = {
+		feeling1 = "",
+		feeling3 = "",
+		main_1 = "",
+		main_2 = "",
+		expedition = "",
+		lose = "",
+		feeling4 = "",
+		mission = "",
+		skill = "",
+		profile = "",
+		painting = "mayebuleize",
+		mail = "",
+		touch = "",
+		main_3 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"3"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"7"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"3|5|4"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"3"
+			}
+		}
 	}
 }

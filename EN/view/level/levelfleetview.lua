@@ -208,7 +208,6 @@ function slot0.InitUI(slot0)
 	slot0.tfLimitTips = slot0:findTF("panel/limit_list/limit_tip")
 	slot0.tfLimitElite = slot0:findTF("panel/limit_list/limit_elite")
 	slot0.tfLimitContainer = slot0:findTF("panel/limit_list/limit_elite/limit_list")
-	slot0.tfLimitTpl = slot0:findTF("panel/limit_list/limit_elite/condition")
 	slot0.rtCostLimit = slot0._tf:Find("panel/limit_list/cost_limit")
 	slot0.btnBack = slot0:findTF("panel/btnBack")
 	slot0.btnGo = slot0:findTF("panel/start_button")
@@ -253,7 +252,6 @@ function slot0.InitUI(slot0)
 
 	setActive(slot0.tfShipTpl, false)
 	setActive(slot0.tfEmptyTpl, false)
-	setActive(slot0.tfLimitTpl, false)
 	setActive(slot0.toggleMask, false)
 	setActive(slot0.btnSp, false)
 	setActive(slot0.spMask, false)
@@ -789,7 +787,7 @@ end
 
 function slot0.UpdateInvestigationComparision(slot0, slot1, slot2)
 	slot3 = slot0.dropDown:Find("Investigation")
-	slot4 = slot2 < math.floor(slot1)
+	slot4 = slot2 <= math.floor(slot1)
 
 	setText(slot3:Find("Value1"), setColorStr(slot1, slot4 and "#51FF55" or COLOR_WHITE))
 	setText(slot3:Find("Value2"), slot2)
@@ -1084,25 +1082,28 @@ function slot0.updateEliteLimit(slot0)
 	setActive(slot0.tfLimit, false)
 	setActive(slot0.tfLimitTips, #slot0.propetyLimitation == 0)
 	setActive(slot0.tfLimitElite, #slot0.propetyLimitation > 0)
-	removeAllChildren(slot0.tfLimitContainer)
 
 	if #slot0.propetyLimitation > 0 then
 		slot1, slot2 = slot0.chapter:IsPropertyLimitationSatisfy()
+		slot3 = UIItemList.New(slot0.tfLimitContainer, slot0.tfLimitContainer:GetChild(0))
 
-		for slot6, slot7 in ipairs(slot0.propetyLimitation) do
-			slot8, slot9, slot10, slot11 = unpack(slot7)
-			slot12 = cloneTplTo(slot0.tfLimitTpl, slot0.tfLimitContainer)
+		slot3:make(function (slot0, slot1, slot2)
+			slot1 = slot1 + 1
 
-			if slot1[slot6] == 1 then
-				slot0:findTF("Text", slot12):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
-			else
-				slot0:findTF("Text", slot12):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
+			if slot0 == UIItemList.EventUpdate then
+				slot4, slot5, slot6, slot7 = unpack(uv0.propetyLimitation[slot1])
+
+				if uv1[slot1] == 1 then
+					uv0:findTF("Text", slot2):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
+				else
+					uv0:findTF("Text", slot2):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
+				end
+
+				setActive(slot2, true)
+				setText(uv0:findTF("Text", slot2), AttributeType.EliteCondition2Name(slot4, slot7) .. AttributeType.eliteConditionCompareTip[slot5] .. slot6 .. "（" .. uv2[slot4] .. "）")
 			end
-
-			setActive(slot12, true)
-			setText(slot0:findTF("Text", slot12), AttributeType.EliteCondition2Name(slot8, slot11) .. AttributeType.eliteConditionCompareTip[slot9] .. slot10 .. "（" .. slot2[slot8] .. "）")
-		end
-
+		end)
+		slot3:align(#slot0.propetyLimitation)
 		setActive(slot0.tfLimitElite:Find("sub"), slot0.chapter:getConfig("submarine_num") > 0)
 	end
 

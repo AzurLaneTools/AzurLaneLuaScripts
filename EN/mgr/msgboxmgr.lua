@@ -86,6 +86,9 @@ function slot1.Init(slot0, slot1)
 		uv0.singleItemIntroTF:AddSprite("world_money", uv0._res:Find("world_money"):GetComponent(typeof(Image)).sprite)
 		uv0.singleItemIntroTF:AddSprite("port_money", uv0._res:Find("port_money"):GetComponent(typeof(Image)).sprite)
 		uv0.singleItemIntroTF:AddSprite("world_boss", uv0._res:Find("world_boss"):GetComponent(typeof(Image)).sprite)
+
+		uv0._singleItemSubIntroTF = uv0._sigleItemPanel:Find("intro_view/Text")
+
 		table.insert(uv0._singleItemIntros, uv0.singleItemIntro)
 
 		uv0._inputPanel = uv0._window:Find("input_panel")
@@ -284,7 +287,7 @@ function slot8(slot0, slot1)
 		slot0._window.sizeDelta = Vector2(slot1.windowSize.x or slot0._defaultSize.x, slot1.windowSize.y or slot0._defaultSize.y)
 	end
 
-	slot3 = slot0._sigleItemPanel:Find("intro_view/Text")
+	slot3 = slot0._singleItemSubIntroTF
 	slot4 = 1
 
 	SetActive(slot0._sigleItemPanel:Find("intro_view/Viewport/Content/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN)
@@ -760,7 +763,7 @@ function slot13(slot0, slot1)
 	updateDrop(slot0._obtainPanel, {
 		type = DROP_TYPE_SHIP,
 		id = slot1.shipId
-	})
+	}, slot1)
 
 	slot0.obtainSkipList = slot0.obtainSkipList or UIItemList.New(slot0._obtainPanel:Find("skipable_list"), slot0._obtainPanel:Find("skipable_list/tpl"))
 
@@ -1173,6 +1176,7 @@ function slot1.Clear(slot0)
 	slot5 = "icon_bg/own"
 
 	setActive(findTF(slot0._sigleItemPanel, slot5), false)
+	setText(slot0._singleItemSubIntroTF, "")
 
 	for slot5, slot6 in ipairs(slot0._singleItemIntros) do
 		setActive(slot6, false)

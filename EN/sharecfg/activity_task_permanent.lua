@@ -154,12 +154,24 @@ pg.activity_task_permanent = {
 			35081
 		}
 	},
+	[6006] = {
+		gametip = "Get an outfit for Memphis!",
+		banner_route = "permanent_mengfeisi",
+		gametip_extra = "Takes at least 7 days to complete",
+		over_pt = 0,
+		task_extra = "",
+		id = 6006,
+		activity_name = "Halloween Chaos ",
+		over_task_id = "",
+		eliminate_task_id = {}
+	},
 	all = {
 		6000,
 		6001,
 		6002,
 		6003,
 		6004,
-		6005
+		6005,
+		6006
 	}
 }

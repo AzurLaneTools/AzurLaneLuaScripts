@@ -54,8 +54,6 @@ function slot31.CreateBattleUnitData(slot0, slot1, slot2, slot3, slot4, slot5, s
 		uv1.Battle.BattleEnemyUnit.New(slot0, slot2):SetOverrideLevel(slot11)
 	elseif slot1 == uv0.UnitType.BOSS_UNIT then
 		uv1.Battle.BattleBossUnit.New(slot0, slot2):SetOverrideLevel(slot11)
-	elseif slot1 == uv0.UnitType.NPC_UNIT then
-		slot12 = uv1.Battle.BattleNPCUnit.New(slot0, slot2)
 	elseif slot1 == uv0.UnitType.CONST_UNIT then
 		slot12 = uv1.Battle.BattleConstPlayerUnit.New(slot0, slot2)
 

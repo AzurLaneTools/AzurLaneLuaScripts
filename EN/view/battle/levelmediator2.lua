@@ -1234,9 +1234,8 @@ function slot0.OnEventUpdate(slot0, slot1)
 				hideNo = true,
 				content = i18n("event_special_update", pg.collection_template[slot4] and pg.collection_template[slot4].title or ""),
 				weight = LayerWeightConst.SECOND_LAYER,
-				onYes = function ()
-					existCall(uv0)
-				end
+				onYes = slot1,
+				onNo = slot1
 			})
 		end
 

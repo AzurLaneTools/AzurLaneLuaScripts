@@ -9721,7 +9721,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "Receive an extra copy of {namecode:18} after doing a total of 200 builds! (Limit of 4 times) "
+	tip = "Rate UP for Richelieu, Algérie, Le Terrible, and more!"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -18399,4 +18399,8 @@ _G.pg.gametip.attr_luck = {
 
 _G.pg.gametip.attr_consume = {
 	tip = "Cost"
+}
+
+_G.pg.gametip.shopping_error_time_limit = {
+	tip = "This pack is currently unavailable for purchase."
 }

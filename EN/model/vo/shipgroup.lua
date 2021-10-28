@@ -40,53 +40,45 @@ slot0.ENABLE_SKIP_TO_CHAPTER = true
 slot1 = pg.ship_data_group
 
 function slot0.getState(slot0, slot1, slot2)
-	slot4 = (function ()
-		if uv0.ENABLE_SKIP_TO_CHAPTER then
-			if uv1 and not uv2 then
-				return uv0.STATE_NOTGET
-			end
-
-			if uv3[uv4] then
-				if not uv3[uv4].hide then
-					return uv0.STATE_LOCK
-				end
-
-				if slot0.hide == 1 then
-					return uv0.STATE_LOCK
-				elseif slot0.hide ~= 0 then
-					return uv0.STATE_LOCK
-				end
-			end
-
-			if uv2 then
-				return uv0.STATE_UNLOCK
-			else
-				if not uv3[uv4] then
-					return uv0.STATE_LOCK
-				end
-
-				slot2 = getProxy(ChapterProxy)
-				slot3 = nil
-
-				if slot0.redirect_id ~= 0 then
-					slot3 = slot2:getChapterById(slot1)
-				end
-
-				if slot1 == 0 or slot3 and slot3:isClear() then
-					return uv0.STATE_NOTGET
-				else
-					return uv0.STATE_LOCK
-				end
-			end
-		else
-			return uv2 and uv0.STATE_UNLOCK or uv0.STATE_LOCK
+	if uv0.ENABLE_SKIP_TO_CHAPTER then
+		if slot2 and not slot1 then
+			return uv0.STATE_NOTGET
 		end
-	end)()
 
-	if HXSet.isHx() and slot4 == uv0.STATE_NOTGET then
-		return uv0.STATE_LOCK
+		if uv1[slot0] then
+			if not uv1[slot0].hide then
+				return uv0.STATE_LOCK
+			end
+
+			if slot3.hide == 1 then
+				return uv0.STATE_LOCK
+			elseif slot3.hide ~= 0 then
+				return uv0.STATE_LOCK
+			end
+		end
+
+		if slot1 then
+			return uv0.STATE_UNLOCK
+		else
+			if not uv1[slot0] then
+				return uv0.STATE_LOCK
+			end
+
+			slot5 = getProxy(ChapterProxy)
+			slot6 = nil
+
+			if slot3.redirect_id ~= 0 then
+				slot6 = slot5:getChapterById(slot4)
+			end
+
+			if slot4 == 0 or slot6 and slot6:isClear() then
+				return uv0.STATE_NOTGET
+			else
+				return uv0.STATE_LOCK
+			end
+		end
 	else
-		return slot4
+		return slot1 and uv0.STATE_UNLOCK or uv0.STATE_LOCK
 	end
 end
 

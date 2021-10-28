@@ -82,7 +82,6 @@ function slot5.InitCharacterFactory(slot0)
 		[uv1.UnitType.PLAYER_UNIT] = uv0.Battle.BattlePlayerCharacterFactory.GetInstance(),
 		[uv1.UnitType.ENEMY_UNIT] = uv0.Battle.BattleEnemyCharacterFactory.GetInstance(),
 		[uv1.UnitType.BOSS_UNIT] = uv0.Battle.BattleBossCharacterFactory.GetInstance(),
-		[uv1.UnitType.NPC_UNIT] = uv0.Battle.BattleNPCCharacterFactory.GetInstance(),
 		[uv1.UnitType.AIRCRAFT_UNIT] = uv0.Battle.BattleAircraftCharacterFactory.GetInstance(),
 		[uv1.UnitType.AIRFIGHTER_UNIT] = uv0.Battle.BattleAirFighterCharacterFactory.GetInstance(),
 		[uv1.UnitType.SUB_UNIT] = uv0.Battle.BattleSubCharacterFactory.GetInstance()

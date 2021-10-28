@@ -95,7 +95,7 @@ function slot0.flushShip(slot0)
 	slot4 = shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), nil, slot0.shipGroup:isBluePrintGroup(), slot0.shipGroup:isMetaGroup())
 
 	setShipCardFrame(slot0.imageFrame, slot4, nil)
-	LoadImageSpriteAsync("bg/star_level_card_" .. slot4, slot0.imageBg)
+	GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", slot0.imageBg)
 
 	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
 

@@ -256,7 +256,12 @@ function slot0.execute(slot0, slot1)
 				})
 			else
 				print(slot0.result)
-				pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
+
+				if slot0.result == 4400 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("shopping_error_time_limit"))
+				else
+					pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
+				end
 			end
 		end)
 	end

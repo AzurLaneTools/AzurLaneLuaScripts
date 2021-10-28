@@ -4552,7 +4552,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 13,
+		is_show = 11,
 		id = 4136,
 		config_data = {
 			{
@@ -4608,7 +4608,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 11,
-		is_show = 16,
+		is_show = 14,
 		config_data = {},
 		time = {
 			timer,
@@ -4691,7 +4691,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4142,
-		is_show = 17,
+		is_show = 15,
 		config_data = {},
 		time = {
 			timer,
@@ -4752,6 +4752,583 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4143] = {
+		mark = 20211021,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4143,
+		config_data = {
+			17160,
+			17161,
+			17162,
+			17163,
+			17164,
+			17165,
+			17166,
+			17167,
+			17168,
+			17169
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4148] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4148,
+		config_data = {
+			17170,
+			17171,
+			17172,
+			17173,
+			17174,
+			17175,
+			17176,
+			17177,
+			17178,
+			17179,
+			17180,
+			17181,
+			17182,
+			17183,
+			17184,
+			17185,
+			17186
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4149] = {
+		mark = 20211028,
+		id = 4149,
+		title_res_tag = "francev2_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 18,
+		config_data = {
+			1570001,
+			1570002,
+			1570003,
+			1570021,
+			1570022,
+			1570023
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FranceMainPage",
+			ui_name = "FranceMainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4150] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4150,
+		config_data = {
+			1570004,
+			1570005,
+			1570006,
+			1570024,
+			1570025,
+			1570026,
+			1570041,
+			1570051
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4151] = {
+		mark = 20211028,
+		id = 4151,
+		title_res_tag = "francev2_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4151,
+		is_show = 17,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FrancePTPage",
+			ui_name = "FrancePTPage"
+		},
+		config_client = {
+			linkActID = 4149
+		}
+	},
+	[4152] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4152,
+		config_data = {
+			1395001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4153] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 223,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4153,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4154] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4154,
+		config_data = {
+			1544,
+			1545,
+			1546,
+			1547,
+			1548,
+			1549,
+			1550,
+			1551,
+			1552,
+			1553,
+			1554,
+			1555,
+			1556,
+			1557,
+			1558,
+			1559,
+			1560,
+			1561,
+			1562,
+			1563,
+			1564,
+			1565,
+			1566
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_shengyongqu2",
+			{
+				1,
+				0.97,
+				0.89,
+				1
+			},
+			pt_id = 223,
+			painting = "jialisuoniye_pt",
+			outline = {
+				0,
+				0,
+				0,
+				0.8
+			}
+		}
+	},
+	[4155] = {
+		mark = 20211028,
+		config_client = "",
+		title_res_tag = "sign_halloween",
+		type = 57,
+		login_pop = 0,
+		config_id = 25,
+		is_show = 16,
+		id = 4155,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SignHalloweenPage",
+			ui_name = "SignHalloweenPage"
+		}
+	},
+	[4157] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4157,
+		config_data = {
+			17187
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4158] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31982,100}]",
+		config_client = "",
+		id = 4158,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4159] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 4159,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		config_client = "",
@@ -4759,7 +5336,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 14,
+		is_show = 12,
 		id = 7001,
 		config_data = {
 			1,
@@ -5204,7 +5781,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 1050,
-		is_show = 1,
+		is_show = 13,
 		id = 1050,
 		config_data = {},
 		time = {
@@ -6629,6 +7206,42 @@ pg.activity_template = {
 				},
 				{
 					"SHANCHENGLIFU6"
+				}
+			}
+		}
+	},
+	[6006] = {
+		mark = 20211028,
+		title_res_tag = "mengfeisipifu_permanent",
+		time = "stop",
+		type = 74,
+		login_pop = 0,
+		config_id = 6006,
+		is_show = 10,
+		id = 6006,
+		config_data = {},
+		page_info = {
+			class_name = "MemphisHalloweenPage",
+			ui_name = "memphishalloweenpage"
+		},
+		config_client = {
+			story = {
+				{
+					"MENGFEISIWANSHENG1"
+				},
+				{
+					"MENGFEISIWANSHENG2"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG3"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG4"
+				},
+				{
+					"MENGFEISIWANSHENG5"
 				}
 			}
 		}
@@ -22834,6 +23447,18 @@ pg.activity_template = {
 		4140,
 		4141,
 		4142,
+		4143,
+		4148,
+		4149,
+		4150,
+		4151,
+		4152,
+		4153,
+		4154,
+		4155,
+		4157,
+		4158,
+		4159,
 		7001,
 		1040,
 		1041,
@@ -22884,6 +23509,7 @@ pg.activity_template = {
 		6003,
 		6004,
 		6005,
+		6006,
 		100001,
 		30001,
 		30002,

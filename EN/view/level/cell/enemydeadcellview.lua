@@ -27,14 +27,13 @@ function slot0.Update(slot0)
 			setParent(slot0, uv1.parent)
 			uv1:OverrideCanvas()
 			uv1:ResetCanvasOrder()
+			setAnchoredPosition(uv1.tf, Vector2.zero)
 
-			tf(slot0).localEulerAngles = Vector3(-uv1.chapter.theme.angle, 0, 0)
+			if uv2.icon_type == 1 then
+				setAnchoredPosition(uv1.tf, Vector2(0, 10))
+				uv1:GetLoader():LoadSprite("enemies/" .. uv2.icon .. "_d_blue", "", tf(slot0):Find("icon"))
+			end
 
-			uv1:RefreshLinePosition(uv1.chapter)
-
-			tf(slot0).anchoredPosition = tf(slot0).anchoredPosition + Vector2(0, 10)
-
-			uv1:GetLoader():LoadSprite("enemies/" .. uv2.icon .. "_d_blue", "", tf(slot0):Find("icon"))
 			setActive(findTF(uv1.tf, "effect_not_open"), false)
 			setActive(findTF(uv1.tf, "effect_open"), false)
 			setActive(findTF(uv1.tf, "huoqiubaozha"), false)

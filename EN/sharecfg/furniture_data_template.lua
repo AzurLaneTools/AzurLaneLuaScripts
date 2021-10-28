@@ -5076,6 +5076,57 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100011] = {
+		effect = "",
+		name = "Weather Projector (Winter)",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Instantly fill your room with holiday cheer with just the flip of a switch!",
+		tag = 6,
+		icon = "xuehuadengicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100011,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"SnowBox",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"Houzhai_snow01",
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100014] = {
 		effect = "",
 		name = "Weather Projector (Spring) ",
@@ -83498,6 +83549,7 @@ pg.furniture_data_template = {
 		100008,
 		100009,
 		100010,
+		100011,
 		100014,
 		100016,
 		100018,

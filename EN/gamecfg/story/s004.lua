@@ -26,23 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			say = "Ah... This power... extraordinary... Incredible that you've found this strength…",
-			subBgName = {
-				name = "bg_story_1_sub",
-				anchors = {
-					0,
-					0.5,
-					0,
-					0.5
-				},
-				pivot = {
-					0,
-					0.415
-				},
-				pos = {
-					0,
-					0
-				}
-			},
+			subBgName = "bg_story_1_sub",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

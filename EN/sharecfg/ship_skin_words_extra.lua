@@ -6188,6 +6188,68 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[801080] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		feeling1 = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 801080,
+		login = {
+			{
+				1100,
+				"Good morning, Lord Commander! Early as always, I see! Hehehe~"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"We did it! We are victorious, Lord Commander! Hehehe! The Cardinal will surely honor me for this!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Outstanding performance, Lord Commander! If you brought gifts for the Cardinal, I may deliver them for you!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"You went shopping with Algérie?! N-no, I'm not envious in the slightest, not at all! ...Though I wish you'd have taken me along..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I will protect you with my life, as your sworn knight, Lord Commander! Hehehe~|Mayhaps I should ask Émile for dancing lessons... N-nothing! Just thinking out loud!|Anything you require, I can do no problem! Simply give the order, Lord Commander!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Is this... what falling in love feels like?!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Lord Commander! When is the next sortie? I must know so I can prepare for our holy battle, and also to relax and repose! Most of all, I'd love to spend a day off together with you~"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -6287,6 +6349,7 @@ pg.ship_skin_words_extra = {
 		301470,
 		301480,
 		302070,
-		303060
+		303060,
+		801080
 	}
 }

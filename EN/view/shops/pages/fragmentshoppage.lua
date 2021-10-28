@@ -12,7 +12,7 @@ function slot0.CanOpen(slot0, slot1, slot2)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.uilist = UIItemList.New(slot0:findTF("scrollView/view"), slot0:findTF("tpl"))
+	slot0.scrollrect = slot0:findTF("scrollView"):GetComponent("LScrollRect")
 	slot0.dayTxt = slot0:findTF("time/day"):GetComponent(typeof(Text))
 	slot0.fragment = slot0:findTF("res_fragment/count"):GetComponent(typeof(Text))
 	slot0.resolveBtn = slot0:findTF("res_fragment/resolve")
@@ -65,19 +65,50 @@ function slot0.OnUpdateItems(slot0)
 end
 
 function slot0.OnUpdateCommodity(slot0, slot1)
-	slot2 = slot0.cards[slot1.id]
-	slot2.goodsVO = slot1
+	slot2 = nil
 
-	ActivityGoodsCard.StaticUpdate(slot2.tr, slot1, uv0.TYPE_FRAGMENT)
+	for slot6, slot7 in pairs(slot0.cards) do
+		if slot7.goodsVO.id == slot1.id then
+			slot2 = slot7
+
+			break
+		end
+	end
+
+	if slot2 then
+		slot2.goodsVO = slot1
+
+		ActivityGoodsCard.StaticUpdate(slot2.tr, slot1, uv0.TYPE_FRAGMENT)
+	end
 end
 
-function slot0.AddCard(slot0, slot1, slot2)
-	ActivityGoodsCard.StaticUpdate(slot2, slot1, uv0.TYPE_FRAGMENT)
-
-	return {
-		goodsVO = slot1,
-		tr = slot2
+function slot0.OnInitItem(slot0, slot1)
+	slot2 = {
+		tr = slot1.transform
 	}
+
+	onButton(slot0, slot2.tr, function ()
+		slot0 = uv0
+
+		slot0:OnClickCommodity(uv1.goodsVO, function (slot0, slot1)
+			uv0:OnPurchase(slot0, slot1)
+		end)
+	end, SFX_PANEL)
+
+	slot0.cards[slot1] = slot2
+end
+
+function slot0.OnUpdateItem(slot0, slot1, slot2)
+	if not slot0.cards[slot2] then
+		slot0:OnInitItem(slot2)
+
+		slot3 = slot0.cards[slot2]
+	end
+
+	slot4 = slot0.displays[slot1 + 1]
+	slot3.goodsVO = slot4
+
+	ActivityGoodsCard.StaticUpdate(slot3.tr, slot4, uv0.TYPE_FRAGMENT)
 end
 
 function slot0.OnPurchase(slot0, slot1, slot2)

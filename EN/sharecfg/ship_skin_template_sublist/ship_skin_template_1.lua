@@ -8120,5 +8120,113 @@ pg.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[101371] = {
+		ship_group = 10137,
+		name = "Snow Fairy Schoolgirl",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 101371,
+		group_index = 1,
+		prefab = "keerke_2",
+		painting = "keerke_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70112,
+		shop_type_id = 4,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Kalk, reporting in once again, now with a new outfit! Hehe... Commander, will you walk me to school?",
+		voice_actor = 151,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.229,
+					0.944,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.217,
+					0.982,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.149,
+					0.047,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

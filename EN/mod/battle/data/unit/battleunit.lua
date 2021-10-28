@@ -972,6 +972,14 @@ function slot9.GetBuff(slot0, slot1)
 	return slot0._buffList[slot1]
 end
 
+function slot9.DispatchSkillFloat(slot0, slot1, slot2, slot3)
+	slot0:DispatchEvent(uv0.Event.New(uv1.SKILL_FLOAT, {
+		coverHrzIcon = slot3,
+		commander = slot2,
+		skillName = slot1
+	}))
+end
+
 function slot9.SetAI(slot0, slot1)
 	slot0._move:CancelFormationCtrl()
 

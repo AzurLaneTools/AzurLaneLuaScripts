@@ -55,13 +55,13 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/LevelSignalView(Clone)/panel/start_button"
+				path = "/OverlayCamera/Overlay/UIMain/LevelSignalView(Clone)/panel/list/content/item(Clone)/Info/start"
 			}
 		},
 		{
 			ui = {
 				notfoundSkip = true,
-				path = "/OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)"
+				path = "/OverlayCamera/Overlay/UIMain/LevelSignalView(Clone)/panel/list/content/item(Clone)/Info/go"
 			}
 		},
 		{

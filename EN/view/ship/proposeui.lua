@@ -1088,9 +1088,7 @@ function slot0.createLive2D(slot0, slot1)
 	slot2 = pg.Live2DMgr.GetInstance()
 
 	slot2:GetLive2DModelAsync(slot1, function (slot0)
-		if uv0.exited then
-			Destroy(slot0)
-
+		if slot0 == nil then
 			return
 		end
 

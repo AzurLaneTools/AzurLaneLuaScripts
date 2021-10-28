@@ -54396,6 +54396,396 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	},
+	[14930] = {
+		desc_get = "",
+		name = "Terrific Terror",
+		id = 14930,
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: fires a $1 special barrage (DMG is based on the skill's level). When this ship lands 5 consecutive Main Gun hits on the same enemy: increases this ship's FP by $2 (can be stacked up to 4 times; upon reaching 4 stacks: also increases this ship's TRP by $3 and fires her special barrage).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv1",
+				"Lv10"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[14940] = {
+		desc_get = "",
+		name = "I'll Give You A Head Start~",
+		id = 14940,
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's SPD by $1. When the battle starts, if there is 1 or more other DDs in your Vanguard: increases this ship's SPD by a further $1 and increases her EVA and AA by $2; if this ship is the sole DD: increases this ship's RLD by $2 and decreases her DMG taken by $3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1",
+				"7"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"4"
+				},
+				{
+					"5"
+				},
+				{
+					"6"
+				},
+				{
+					"7"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[14950] = {
+		desc_get = "",
+		name = "Templar's Holy Advance",
+		id = 14950,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's AA and ASW by $1; If sortied in the same fleet as Richelieu or either 3 or more Iris Libre or Vichya Dominion ships: increases this ship's FP, TRP, and RLD by $2. When this ship is attacked: 15.0% chance to deploy a shield that lasts up to 12s and can block up to 10 shots, and decreases this ship's SPD by 3 (this effect can only activate once every 12s).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -65974,6 +66364,34 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[29761] = {
+		desc_get = "",
+		name = "All-Out Assault: I",
+		id = 29761,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I : Le Terrible once every 15  times the Main Guns are fired; when the battle starts, if there are no other DDs in the same fleet: fires once every 12  shots instead.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29762] = {
+		desc_get = "",
+		name = "All-Out Assault: II",
+		id = 29762,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Le Terrible once every 10 times the Main Guns are fired; when the battle starts, if there are no other DDs in the same fleet: fires once every 8 shots instead.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[101010] = {
 		desc_get = "",
 		name = "Protagonist Aura",
@@ -74802,6 +75220,9 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		14900,
 		14910,
 		14920,
+		14930,
+		14940,
+		14950,
 		18010,
 		18040,
 		18050,
@@ -75228,6 +75649,8 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 		29742,
 		29751,
 		29752,
+		29761,
+		29762,
 		101010,
 		101020,
 		101030,
