@@ -6352,7 +6352,7 @@ pg.activity_template = {
 		config_client = "",
 		id = 4152,
 		config_data = {
-			1575001,
+			1395001,
 			5000,
 			50,
 			0.36,
