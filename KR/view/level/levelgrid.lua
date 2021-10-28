@@ -1363,7 +1363,6 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 
 	if slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachBoss then
 		slot10 = pg.expedition_data_template[slot4.attachmentId]
-		slot7 = slot0.cellRoot
 
 		if slot4.flag == ChapterConst.CellFlagDisabled then
 			if slot4.attachment ~= ChapterConst.AttachAmbush then

@@ -41,10 +41,7 @@ function slot0.Update(slot0)
 			setParent(slot0, uv1.parent)
 			uv1:OverrideCanvas()
 			uv1:ResetCanvasOrder()
-
-			tf(slot0).localEulerAngles = Vector3(-uv1.chapter.theme.angle, 0, 0)
-
-			uv1:RefreshLinePosition(uv1.chapter)
+			setAnchoredPosition(uv1.tf, Vector2.zero)
 			uv1:GetLoader():GetSprite("enemies/" .. uv2.icon, "", findTF(slot0, "icon"))
 			uv1:ExtraUpdate(uv2)
 			uv1.buffer:SetNotifier(uv1)
