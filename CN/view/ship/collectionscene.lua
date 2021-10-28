@@ -412,14 +412,20 @@ function slot0.onInitCard(slot0, slot1)
 end
 
 function slot0.showObtain(slot0, slot1, slot2)
-	slot0.contextData.cardScrollValue = slot0.cardList.value
-
-	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+	slot3 = {
 		type = MSGBOX_TYPE_OBTAIN,
 		shipId = slot2,
 		list = slot1,
 		mediatorName = CollectionMediator.__cname
-	})
+	}
+
+	if PLATFORM_CODE == PLATFORM_CH and HXSet.isHx() then
+		slot3.unknown_small = true
+	end
+
+	slot0.contextData.cardScrollValue = slot0.cardList.value
+
+	pg.MsgboxMgr.GetInstance():ShowMsgBox(slot3)
 end
 
 function slot0.skipIn(slot0, slot1, slot2)

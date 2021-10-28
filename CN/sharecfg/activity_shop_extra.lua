@@ -2345,7 +2345,7 @@ pg.activity_shop_extra = {
 		id = 77,
 		num = 1,
 		num_limit = 1,
-		order = 4,
+		order = 6,
 		scene = {
 			"crusing",
 			{}
@@ -2404,6 +2404,42 @@ pg.activity_shop_extra = {
 					2021,
 					10,
 					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[79] = {
+		commodity_type = 7,
+		activity = 4156,
+		commodity_id = 101291,
+		scene = "",
+		id = 79,
+		num = 1,
+		num_limit = 1,
+		order = 5,
+		time = {
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					11
 				},
 				{
 					23,
@@ -2487,6 +2523,7 @@ pg.activity_shop_extra = {
 		75,
 		76,
 		77,
-		78
+		78,
+		79
 	}
 }

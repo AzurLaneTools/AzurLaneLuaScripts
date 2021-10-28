@@ -257,7 +257,7 @@ function slot0.autoHxShiftPath(slot0, slot1, slot2)
 		if uv0.needShift(slot0) and PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. "_hx")) then
 			if uv0.isFolderBundle(slot0) then
 				return slot0 .. "_hx", slot1
-			elseif slot1 then
+			elseif slot1 and #slot1 > 0 then
 				return slot0 .. "_hx", slot1 .. "_hx"
 			else
 				return slot0 .. "_hx", slot1

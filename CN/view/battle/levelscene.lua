@@ -771,6 +771,15 @@ function slot0.PreloadLevelMainUI(slot0, slot1, slot2)
 
 	slot3 = 0
 	slot5 = nil
+	slot6 = {
+		{
+			"Tpl_Destination_Mark",
+			"leveluiview",
+			"destinationMarkTpl"
+		}
+	}
+	slot7 = getProxy(ChapterProxy)
+	slot4 = 0 + 5 + #slot6 + #slot0:GetMapBG(slot7:getMapById(slot1))
 
 	GetSpriteFromAtlasAsync("chapter/pic/cellgrid", "cell_grid", function ()
 		uv0 = uv0 + 1
@@ -784,42 +793,33 @@ function slot0.PreloadLevelMainUI(slot0, slot1, slot2)
 		end
 	end)
 
-	slot6 = PoolMgr.GetInstance()
+	slot9 = PoolMgr.GetInstance()
 
-	slot6:GetPrefab("chapter/cell_quad", "", true, function (slot0)
+	slot9:GetPrefab("chapter/cell_quad", "", true, function (slot0)
 		uv0:ReturnPrefab("chapter/cell_quad", "", slot0)
 		uv1()
 	end)
-	slot6:GetPrefab("chapter/cell_quad_mark", "", true, function (slot0)
+	slot9:GetPrefab("chapter/cell_quad_mark", "", true, function (slot0)
 		uv0:ReturnPrefab("chapter/cell_quad_mark", "", slot0)
 		uv1()
 	end)
-	slot6:GetPrefab("chapter/cell", "", true, function (slot0)
+	slot9:GetPrefab("chapter/cell", "", true, function (slot0)
 		uv0:ReturnPrefab("chapter/cell", "", slot0)
 		uv1()
 	end)
 
-	slot11 = true
+	slot13 = ""
+	slot14 = true
 
-	function slot12(slot0)
+	slot9:GetPrefab("chapter/plane", slot13, slot14, function (slot0)
 		uv0:ReturnPrefab("chapter/plane", "", slot0)
 		uv1()
-	end
+	end)
 
-	slot6:GetPrefab("chapter/plane", "", slot11, slot12)
-
-	slot7 = {
-		{
-			"Tpl_Destination_Mark",
-			"leveluiview",
-			"destinationMarkTpl"
-		}
-	}
 	slot0.loadedTpls = {}
-	slot4 = 0 + 5 + #slot7
 
-	for slot11, slot12 in pairs(slot7) do
-		LoadAndInstantiateAsync(slot12[2], slot12[1], function (slot0)
+	for slot13, slot14 in pairs(slot6) do
+		LoadAndInstantiateAsync(slot14[2], slot14[1], function (slot0)
 			slot0:SetActive(false)
 
 			slot0.name = uv0[3]
@@ -830,10 +830,7 @@ function slot0.PreloadLevelMainUI(slot0, slot1, slot2)
 		end, true)
 	end
 
-	slot4 = slot4 + 1
-	slot8 = getProxy(ChapterProxy)
-
-	table.ParallelForeachArray(slot0:GetMapBG(slot8:getMapById(slot1)), function (slot0, slot1, slot2)
+	table.ParallelForeachArray(slot8, function (slot0, slot1, slot2)
 		GetSpriteFromAtlasAsync("levelmap/" .. slot1.BG, "", slot2)
 	end, slot5)
 end

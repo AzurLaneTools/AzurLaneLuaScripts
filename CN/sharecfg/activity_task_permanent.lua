@@ -154,12 +154,24 @@ pg.activity_task_permanent = {
 			35081
 		}
 	},
+	[6006] = {
+		gametip = "可获得孟菲斯限定换装「Mystical Night」",
+		banner_route = "permanent_mengfeisi",
+		gametip_extra = "最快7日获得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6006,
+		activity_name = "混沌的万圣之夜",
+		over_task_id = "",
+		eliminate_task_id = {}
+	},
 	all = {
 		6000,
 		6001,
 		6002,
 		6003,
 		6004,
-		6005
+		6005,
+		6006
 	}
 }

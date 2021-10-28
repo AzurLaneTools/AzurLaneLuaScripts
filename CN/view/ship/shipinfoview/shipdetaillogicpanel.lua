@@ -75,6 +75,35 @@ slot2 = {
 			"hit"
 		}
 	},
+	kr = {
+		prop_ignore = {
+			luck = {
+				137,
+				-260,
+				151,
+				-260
+			}
+		},
+		sort_index = {
+			"durability",
+			"armor",
+			"reload",
+			"cannon",
+			"torpedo",
+			"motion",
+			"antiaircraft",
+			"air",
+			"consume",
+			"antisub",
+			"oxy_max",
+			"ammo",
+			"hunting_range",
+			"luck"
+		},
+		hide = {
+			"hit"
+		}
+	},
 	defaut = {
 		prop_ignore = {
 			luck = {
@@ -243,7 +272,7 @@ function slot0.updateShipAttrs(slot0)
 	end
 
 	slot7 = nil
-	slot7 = (PLATFORM_CODE ~= PLATFORM_JP or uv2.jp) and (PLATFORM_CODE ~= PLATFORM_US or uv2.us) and uv2.defaut
+	slot7 = (PLATFORM_CODE ~= PLATFORM_JP or uv2.jp) and (PLATFORM_CODE ~= PLATFORM_KR or uv2.kr) and (PLATFORM_CODE ~= PLATFORM_US or uv2.us) and uv2.defaut
 
 	for slot12 = 1, #slot7.sort_index do
 		slot13 = slot8[slot12]

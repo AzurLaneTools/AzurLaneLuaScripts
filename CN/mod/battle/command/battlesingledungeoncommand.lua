@@ -126,7 +126,7 @@ function slot3.onAddUnit(slot0, slot1)
 
 	slot0._unitDataList[slot3:GetUniqueID()] = slot3
 
-	if slot1.Data.type == uv0.Battle.BattleConst.UnitType.ENEMY_UNIT or slot2 == uv0.Battle.BattleConst.UnitType.BOSS_UNIT or slot2 == uv0.Battle.BattleConst.UnitType.NPC_UNIT then
+	if slot1.Data.type == uv0.Battle.BattleConst.UnitType.ENEMY_UNIT or slot2 == uv0.Battle.BattleConst.UnitType.BOSS_UNIT then
 		slot0._waveUpdater:AddMonster(slot3)
 	end
 end

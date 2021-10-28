@@ -17736,6 +17736,68 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[522] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 8,
+		handbook_type = 0,
+		index_id = 444,
+		code = 522,
+		group_type = 80107,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：穹顶下的圣咏曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[523] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 8,
+		handbook_type = 0,
+		index_id = 443,
+		code = 523,
+		group_type = 80108,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：穹顶下的圣咏曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[349] = {
 		trans_skin = 802019,
 		redirect_id = 101,
@@ -20929,6 +20991,8 @@ pg.ship_data_group = {
 		359,
 		395,
 		347,
+		522,
+		523,
 		349,
 		454,
 		453,

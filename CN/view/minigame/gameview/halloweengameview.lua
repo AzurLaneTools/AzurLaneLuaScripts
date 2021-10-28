@@ -1,4 +1,4 @@
-slot0 = class("RollingBallGameView", import("..BaseMiniGameView"))
+slot0 = class("HalloweenGameView", import("..BaseMiniGameView"))
 slot1 = 1
 slot2 = 2
 slot3 = 1
@@ -1202,6 +1202,10 @@ function slot43(slot0, slot1, slot2)
 		gameOver = function (slot0)
 			slot0.startFlag = false
 
+			if not slot0.ghostChilds then
+				return
+			end
+
 			for slot4 = #slot0.ghostChilds, 1, -1 do
 				slot0:removeChild(slot0.ghostChilds[slot4])
 			end
@@ -1402,7 +1406,8 @@ function slot0.initUI(slot0)
 	slot0.leaveUI = findTF(slot0._tf, "pop/LeaveUI")
 
 	onButton(slot0, findTF(slot0.leaveUI, "ad/btnOk"), function ()
-		uv0:closeView()
+		setActive(uv0.leaveUI, false)
+		uv0:gameOver()
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0.leaveUI, "ad/btnCancel"), function ()
 		setActive(uv0.leaveUI, false)

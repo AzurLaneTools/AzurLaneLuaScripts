@@ -1,112 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101371] = {
-		ship_group = 10137,
-		name = "学园的雪之妖精",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "103",
-		id = 101371,
-		group_index = 1,
-		prefab = "keerke_2",
-		painting = "keerke_2",
-		shop_id = 70112,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 4,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "重新向您报到一次，科尔克换好校服啦，嘿嘿……指挥官，陪我一起上学去吧。",
-		voice_actor = 151,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.229,
-					0.944,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.217,
-					0.982,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.149,
-					0.047,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101380] = {
 		ship_group = 10138,
 		name = "金伯利",
@@ -8282,6 +8175,218 @@ pg.ship_skin_template_2 = {
 							-0.49,
 							2.183,
 							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102232] = {
+		ship_group = 10223,
+		name = "瑞雪丰年",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "144",
+		id = 102232,
+		group_index = 2,
+		prefab = "bominghan_4",
+		painting = "bominghan_4",
+		shop_id = 70492,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指挥官，新年好。嗯…换上了东煌风格的服饰还是有些不太习惯…那个，雪渐渐下大了，要不要来我的伞下避一避呢？",
+		voice_actor = 203,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.993,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.002,
+					1.007,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.375,
+							2.506,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102240] = {
+		ship_group = 10224,
+		name = "克利夫兰(μ兵装)",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "121",
+		id = 102240,
+		group_index = 0,
+		prefab = "kelifulan_idol",
+		painting = "kelifulan_idol",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "轻巡洋舰克利夫兰前来报到！虽然对这块不是很熟悉，但是既然要做了自然会全力配合大家！指挥官，应援也拜托啦！",
+		voice_actor = 40,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.13,
+					1.088,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.14,
+					1.04,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.114,
+					1.107,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.369,
+							2.43,
+							0
 						}
 					}
 				}

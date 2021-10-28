@@ -16,7 +16,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageGetRatioByAir",
+				attr = "injureRatioByAir",
 				number = 0.025
 			}
 		}

@@ -457,10 +457,7 @@ function slot0.updateSkin(slot0)
 		slot4 = pg.Live2DMgr.GetInstance()
 
 		slot4:GetLive2DModelAsync(slot0.paintSkin, function (slot0)
-			if uv0.exited then
-				Destory(slot0)
-				pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(uv0.paintSkin)
-
+			if slot0 == nil then
 				return
 			end
 

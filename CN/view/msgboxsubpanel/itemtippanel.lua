@@ -173,9 +173,11 @@ function slot0.OnRefresh(slot0, slot1)
 
 							for slot8, slot9 in ipairs(slot4) do
 								if slot9:isUnlock() and (uv2.mapType ~= Map.ELITE or slot9:isEliteEnabled()) and slot3 < slot9.id then
-									for slot13, slot14 in pairs(slot9.chapters) do
-										if math.fmod(slot13, 10) == uv2.lastDigit and slot14:isUnlock() and slot14:getConfig("unlocklevel") <= slot2.level then
-											slot0.chapterId = slot13
+									slot13 = true
+
+									for slot13, slot14 in pairs(slot9:getChapters(slot13)) do
+										if math.fmod(slot14.id, 10) == uv2.lastDigit and slot14:isUnlock() and slot14:getConfig("unlocklevel") <= slot2.level then
+											slot0.chapterId = slot14.id
 											slot3 = slot9.id
 											slot0.mapIdx = slot9.id
 

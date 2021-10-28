@@ -455,7 +455,7 @@ pg.mini_game = {
 		config_data = "",
 		config_csv = "",
 		id = 15,
-		hub_id = 11,
+		hub_id = 25,
 		request_data = 1
 	},
 	{
