@@ -14688,6 +14688,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[395] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 8,
+		handbook_type = 0,
+		index_id = 434,
+		code = 395,
+		group_type = 80104,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"A",
+			"B",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：光與影的鳶尾之華",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[347] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -14720,7 +14751,7 @@ pg.ship_data_group = {
 		}
 	},
 	[349] = {
-		trans_skin = 0,
+		trans_skin = 802019,
 		redirect_id = 101,
 		hide = 0,
 		type = 2,
@@ -14738,8 +14769,17 @@ pg.ship_data_group = {
 			"B",
 			"C"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			12360
+		},
 		description = {
 			{
 				"限時活動：光與影的鳶尾之華",
@@ -14969,6 +15009,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：穹頂下的聖詠曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[394] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 9,
+		handbook_type = 0,
+		index_id = 444,
+		code = 394,
+		group_type = 90111,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：光與影的鳶尾之華",
 				{
 					""
 				},
@@ -16510,6 +16581,7 @@ pg.ship_data_group = {
 		437,
 		441,
 		348,
+		395,
 		347,
 		349,
 		454,
@@ -16519,6 +16591,7 @@ pg.ship_data_group = {
 		351,
 		452,
 		457,
+		394,
 		456,
 		455,
 		352,

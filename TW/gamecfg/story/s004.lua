@@ -26,23 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			say = "啊———這股不尋常的力量是…果然妳們也染指了……",
-			subBgName = {
-				name = "bg_story_1_sub",
-				anchors = {
-					0,
-					0.5,
-					0,
-					0.5
-				},
-				pivot = {
-					0,
-					0.415
-				},
-				pos = {
-					0,
-					0
-				}
-			},
+			subBgName = "bg_story_1_sub",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

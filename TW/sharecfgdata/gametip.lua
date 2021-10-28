@@ -4872,7 +4872,7 @@ _G.pg.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "       防空：提高防空炮武器的傷害",
+			info = "       防空：提高防空砲武器的傷害",
 			icon = {
 				path = "antiaircraft",
 				atlas = "attricon",
@@ -4882,7 +4882,7 @@ _G.pg.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "       裝甲類型：共分三種，裝甲型號越高，傷害減免越明\n 顯，被小口徑火炮擊中越容易規避傷害\n （傷害減免效率：重型裝甲>中型裝甲>輕型裝甲）",
+			info = "       裝甲類型：共分三種，裝甲型號越高，傷害減免越明\n       顯，被小口徑火砲擊中越容易迴避傷害\n      （傷害減免效率：重型裝甲>中型裝甲>輕型裝甲）",
 			icon = {
 				path = "armor",
 				atlas = "attricon",
@@ -4922,12 +4922,22 @@ _G.pg.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "       機動：角色的迴避機率",
+			info = "       機動：影響角色的迴避機率和被暴擊率",
 			icon = {
 				path = "dodge",
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.6,
+				posX = 0
+			}
+		},
+		{
+			info = "       命中：影響角色攻擊的命中機率和暴擊率",
+			icon = {
+				path = "hit",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.3,
 				posX = 0
 			}
 		},
@@ -4952,7 +4962,7 @@ _G.pg.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "       氧氣：潛艇角色的氧氣存量，下潛作戰時會不斷損失\n 氧氣含量為0時，潛艇將上浮",
+			info = "       氧氣：潛艇角色的氧氣存量，下潛作戰時會不斷損失\n       氧氣含量為0時，潛艇將上浮",
 			icon = {
 				path = "oxy_max",
 				atlas = "attricon",
@@ -4962,7 +4972,7 @@ _G.pg.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "       彈藥量：潛艇編隊進行作戰、對地圖上的敵人進行打\n 擊、需要消耗彈藥",
+			info = "       彈藥量：潛艇編隊進行作戰、對地圖上的敵人進行打\n       擊、需要消耗彈藥",
 			icon = {
 				path = "ammo",
 				atlas = "attricon",
@@ -4973,11 +4983,11 @@ _G.pg.gametip.help_shipinfo_attr = {
 		},
 		{
 			info = [[
-       狩獵範圍：與潛艇作戰範圍內的敵人戰鬥時，可以
- 耗潛艇編隊的彈藥，請求潛艇編隊進行協助戰鬥；
- 潛艇編隊可在待機模式與自主尋敵模式之間切換，處
- 於自主尋敵模式下的潛艇編隊會自行尋找狩獵範圍內
- 的敵人進行魚雷打擊]],
+       狩獵範圍：與潛艇作戰範圍內的敵人戰鬥時，可以消
+       耗潛艇編隊的彈藥，請求潛艇編隊進行協助戰鬥；
+       潛艇編隊可在待機模式與自主尋敵模式之間切換，處
+       於自主尋敵模式下的潛艇編隊會自行尋找狩獵範圍內
+       的敵人進行魚雷打擊]],
 			icon = {
 				path = "hunt_range",
 				atlas = "attricon",
@@ -4987,7 +4997,7 @@ _G.pg.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "       幸運：角色由過去的模因產生的屬性，在戰鬥中產生\n 細微的影響",
+			info = "       幸運：角色由過去的模因產生的屬性，在戰鬥中產生\n       細微的影響",
 			icon = {
 				path = "luck",
 				atlas = "attricon",
@@ -4997,7 +5007,7 @@ _G.pg.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "3.角色心情:\n 心情好的角色在出戰時可以享受經驗加成效果\n 心情值過低的角色出戰會減少好感度"
+			info = "3.角色心情:\n       心情好的角色在出戰時可以享受經驗加成效果\n       心情值過低的角色出戰會減少好感度"
 		}
 	}
 }
@@ -8195,7 +8205,7 @@ _G.pg.gametip.levelScene_tracking_error_pre = {
 }
 
 _G.pg.gametip.ship_limit_notice = {
-	tip = "不計算潛艇艦隊的數據."
+	tip = "*不計算潛艇艦隊的數據"
 }
 
 _G.pg.gametip.idle = {
@@ -8660,7 +8670,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "信濃、涼月、千歲、千代田、樫野 出現機率UP！"
+	tip = "惡毒、讓·巴爾、麻薩諸塞、倔強、敦克爾克、速科夫、福爾班 出現機率UP！"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -11205,7 +11215,7 @@ _G.pg.gametip.pt_ship_now = {
 }
 
 _G.pg.gametip.pt_ship_goal = {
-	tip = "目标击沉："
+	tip = "目標擊沉："
 }
 
 _G.pg.gametip.option_desc1 = {
@@ -14196,6 +14206,32 @@ _G.pg.gametip.fleet_antisub_range_tip = {
 	}
 }
 
+_G.pg.gametip.help_candymagic = {
+	tip = {
+		{
+			info = [[
+活動規則：
+活動期間每日可獲得一次可用次數，可用次數最多可以疊加7次
+1.在有可用次數的情況下參與並結束糖果與魔法之夜會消
+耗掉可用次數並獲得簽到次數，集齊7次簽到次數可以獲
+得「拉德福特」限定換裝
+2.在沒有可用次數的情況下進行糖果與魔法之夜不會獲得
+簽到次數
+3.因為其他原因中途退出小遊戲不會消耗可用次數，同時
+也不會獲得任何獎勵
+小遊戲玩法：
+1.指揮官控制拉德福特左右移動接取天上掉下的糖果，接
+到糖果可以獲得分數，漏接糖果會扣除一顆生命值
+2.指揮官需要特別注意掉下的南瓜炸彈，接到南瓜炸彈也
+會扣除一顆生命值
+3.拉德福特一共有三顆生命值，全部扣除後遊戲結束並進
+行結算
+4.遊戲中會出現幽靈啾啾，拉德福特被附身後會降低移動
+速度，當幽靈啾啾靠近時點擊畫面右側手電可以驅逐幽靈啾啾]]
+		}
+	}
+}
+
 _G.pg.gametip.award_overflow_tip = {
 	tip = "部分的獎勵將超出資源上限，請手動領取。"
 }
@@ -16008,4 +16044,68 @@ _G.pg.gametip.formationScene_use_oil_limit_flagship = {
 
 _G.pg.gametip.formationScene_use_oil_limit_submarine = {
 	tip = "潛艇"
+}
+
+_G.pg.gametip.attr_durability = {
+	tip = "耐久"
+}
+
+_G.pg.gametip.attr_armor = {
+	tip = "裝甲"
+}
+
+_G.pg.gametip.attr_reload = {
+	tip = "裝填"
+}
+
+_G.pg.gametip.attr_cannon = {
+	tip = "炮擊"
+}
+
+_G.pg.gametip.attr_torpedo = {
+	tip = "雷擊"
+}
+
+_G.pg.gametip.attr_motion = {
+	tip = "機動"
+}
+
+_G.pg.gametip.attr_antiaircraft = {
+	tip = "防空"
+}
+
+_G.pg.gametip.attr_air = {
+	tip = "航空"
+}
+
+_G.pg.gametip.attr_hit = {
+	tip = "命中"
+}
+
+_G.pg.gametip.attr_antisub = {
+	tip = "反潛"
+}
+
+_G.pg.gametip.attr_oxy_max = {
+	tip = "氧氣"
+}
+
+_G.pg.gametip.attr_ammo = {
+	tip = "彈藥量"
+}
+
+_G.pg.gametip.attr_hunting_range = {
+	tip = "狩獵範圍"
+}
+
+_G.pg.gametip.attr_luck = {
+	tip = "幸運"
+}
+
+_G.pg.gametip.attr_consume = {
+	tip = "消耗"
+}
+
+_G.pg.gametip.shopping_error_time_limit = {
+	tip = "由於禮包內容調整，此禮包將在本週四維護後恢復購買"
 }

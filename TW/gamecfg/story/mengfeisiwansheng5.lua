@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"混沌的万圣之夜\n\n<size=45>五 混沌的狂欢</size>",
+					"混沌的萬聖之夜\n\n<size=45>五 混沌的狂歡</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 102162,
 			nameColor = "#a9f548",
-			say = "嗯哼，很好，我已经感受到大家对于万圣夜的热情了！今晚的特别活动能顺利展开，还要感谢大家的协力合作——",
+			say = "嗯哼，很好，我已經感受到大家對於萬聖夜的熱情了！今晚的特別活動能順利展開，還要感謝大家的協力合作——",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			actor = 102162,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯…废话我就不多说了，尽情享受吧！南瓜派等各种美食可以尽情享用~恶作剧要适可而止！",
+			say = "嗯…廢話我就不多說了，盡情享受吧！南瓜派等各種美食可以盡情享用~惡作劇要適可而止！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 102162,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "想要糖果的夥伴，以及想发糖果又没准备的同伴，都可以找爱丁堡领取哦~",
+			say = "想要糖果的伙伴，以及想發糖果又沒準備的同伴，都可以找愛丁堡領取哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 202112,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今晚的糖果大使就是我爱丁堡啦~嘿嘿~欢迎来找我要糖果哦~",
+			say = "今晚的糖果大使就是我愛丁堡啦~嘿嘿~歡迎來找我要糖果哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "眾人",
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -131,7 +131,7 @@ return {
 			actor = 101421,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然也没有那么想要糖果，不过还是…treat or trick",
+			say = "雖然也沒有那麼想要糖果，不過還是…treat or trick",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 202112,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好，糖果给妳~嘿嘿，前面辛苦妳啦，斯莫利~",
+			say = "好，糖果給妳~嘿嘿，前面辛苦妳啦，斯莫利~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是做了魔女快递应该做的事情，没什么",
+			say = "只是做了魔女快遞應該做的事情，沒什麼",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我跳~我跳~treat or trick！{namecode:126}可以要鲷鱼烧吗",
+			say = "我跳~我跳~treat or trick！三日月可以要鯛魚燒嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 202112,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈…可惜我只有糖果呢，给妳~",
+			say = "啊哈哈…可惜我只有糖果呢，給妳~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…糖果的话…一会给{namecode:33}好了",
+			say = "唔…糖果的話…一會給睦月好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也能给我一些糖果吗",
+			say = "也能給我一些糖果嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好好，是准备要分给孩子们的吗~我给妳装一袋哦~——噗！格、格奈森瑙！？",
+			say = "好好，是準備要分給孩子們的嗎~我給妳裝一袋哦~——噗！格、格奈森瑙！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 404021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，看妳的反应。今晚选择这套变装算是选对了",
+			say = "嗯，看妳的反應。今晚選擇這套變裝算是選對了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好、好厉害啊！这是…梦魔吗！？",
+			say = "好、好厲害啊！這是…夢魔嗎！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说到万圣夜，总是魔女魔女的，再多一个魔女，也没什么意思不是吗？",
+			say = "說到萬聖夜，總是魔女魔女的，再多一個魔女，也沒什麼意思不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 202112,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…总觉得好像输了…又没办法反驳啊……",
+			say = "唔…總覺得好像輸了…又沒辦法反駁啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_119",
-			say = "此时，在活动会场的另一边——",
+			say = "此時，在活動會場的另一邊——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -368,7 +368,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这就是驱逐妹妹们糖果的味道吗，这么充满爆炸性的与杀伤力的……呜咕——",
+			say = "這、這就是驅逐妹妹們糖果的味道嗎，這麼充滿爆炸性的與殺傷力的……嗚咕——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…皇家方舟…？啊…皇家方舟，好像死掉了…？会变成僵尸吗？",
+			say = "唔…皇家方舟…？啊…皇家方舟，好像死掉了…？會變成殭屍嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…还是觉得这些糖果里…混着不太一样的……我试试……呜哇！？",
+			say = "唔…還是覺得這些糖果裡…混著不太一樣的味道！我試試……嗚哇！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇啊啊啊啊啊——好辣呜呜呜呜呜",
+			say = "嗚哇啊啊啊啊啊——好辣嗚嗚嗚嗚嗚",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_119",
-			say = "不知不觉间，哀嚎声在会场上此起彼伏起来",
+			say = "不知不覺間，哀嚎聲在會場上此起彼伏起來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 202112,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这、这是怎么回事…？应、应该都是我亲自选的，没有问题才对啊…",
+			say = "這、這是怎麼回事…難道說糖果過期了？應、應該都是我親自選的，沒有問題才對啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 404021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…好像糖果里混着一些包装不太一样的——",
+			say = "…好像糖果裡混著一些包裝不太一樣的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哈，哇哈哈，哇哈哈哈哈哈！！！万圣夜恶作剧作战！大！成！功！怎么样！！阿贝克隆比特制，万圣节限定超级芥末糖果的味道！！",
+			say = "哇哈，哇哈哈，哇哈哈哈哈哈！！！萬聖夜惡作劇作戰！大！成！功！怎麼樣！！阿貝克隆比特製，萬聖節限定超級芥末糖果的味味道！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难、难道说——",
+			say = "難、難道說——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，从听到爱丁堡她们聊天开始就筹备的计划，能顺利执行真实太好了~请叫我“万圣夜的恶作剧之王”！哈哈哈",
+			say = "嘿嘿嘿，從聽到愛丁堡她們聊天開始就籌備的計劃，能順利執行真是太好了~請叫我”萬聖夜的惡作劇之王“！哈哈哈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "竟、竟然从那时候就开始准备了吗…",
+			say = "竟、竟然從那時候就開始準備了嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特别制作的糖果包装也是特别制作的，不过想要分辨出来嘛~就看大家的眼力啦~祝混沌的万圣之夜愉快，我撤退啦~拜拜~",
+			say = "特別製作的糖果包裝也是特別製作的，不過想要分辨出來嘛~就看大家的眼力啦~祝混沌的萬聖之夜愉快，我撤退啦~拜拜~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这，这声音是…",
+			say = "這，這聲音是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…都说了多少遍了，要·叫·胡·德·姐·姐！！…咳咳，快把特殊糖果的包装外观告诉大家，不能再增加受害者了。",
+			say = "…都說了多少遍了，要·叫·胡·德·姐·姐！！…咳咳，快把特殊糖果的包裝外觀告訴大家，不能再增加受害者了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是不好意思了各位，这孩子我会带回去好·好·教·育的！",
+			say = "真是不好意思了各位，這孩子我會帶回去好·好·教·育的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜…我、我再也不敢了啦！胡德阿、姐姐，所以不要扯着我的耳朵了，要掉了要掉了——",
+			say = "嗚嗚…我、我再也不敢了啦！胡德阿、姐姐，所以不要扯著我的耳朵了，要掉了要掉了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			bgName = "star_level_bg_119",
 			dir = 1,
 			blackBg = true,
-			say = "“恶作剧之王”的悲鸣，响彻万圣之夜——",
+			say = "“惡作劇之王”的悲鳴，響徹萬聖之夜——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

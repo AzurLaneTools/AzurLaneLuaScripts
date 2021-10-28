@@ -33,18 +33,20 @@ function slot3.GetSkillEffectList(slot0)
 end
 
 function slot3.Cast(slot0, slot1, slot2)
+	slot4 = uv0.Battle.BattleState.GetInstance():GetUIMediator()
+
 	if slot0._tempData.focus_duration then
-		uv0.Battle.BattleState.GetInstance():GetUIMediator():ShowSkillPainting(slot1, slot0._tempData)
+		slot4:ShowSkillPainting(slot1, slot0._tempData)
 	end
 
 	if slot0._tempData.painting == 1 then
 		if slot2 then
-			slot4:ShowSkillFloat(slot1, slot2:getSkills()[1]:getConfig("name"), slot2:getPainting())
+			slot1:DispatchSkillFloat(slot2:getSkills()[1]:getConfig("name"), slot2:getPainting())
 		else
-			slot4:ShowSkillFloat(slot1, slot0._tempData.name)
+			slot1:DispatchSkillFloat(slot0._tempData.name)
 		end
 	elseif type(slot0._tempData.painting) == "string" then
-		slot4:ShowSkillFloatCover(slot1, slot0._tempData.name, slot0._tempData.painting)
+		slot1:DispatchSkillFloat(slot0._tempData.name, nil, slot0._tempData.painting)
 	end
 
 	if type(slot0._tempData.castCV) == "string" then
@@ -55,12 +57,14 @@ function slot3.Cast(slot0, slot1, slot2)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot7)
 	end
 
+	slot6 = slot0._attachData
+
 	for slot10, slot11 in ipairs(slot0._effectList) do
 		slot12 = slot11:GetTarget(slot1, slot0)
 		slot0._lastEffectTarget = slot12
 
 		slot11:SetCommander(slot2)
-		slot11:Effect(slot1, slot12, slot0._attachData)
+		slot11:Effect(slot1, slot12, slot6)
 	end
 
 	if slot0._tempData.aniEffect and slot7 ~= "" then
@@ -71,11 +75,6 @@ function slot3.Cast(slot0, slot1, slot2)
 			posFun = slot7.posFun
 		}))
 	end
-
-	slot0._dataProxy:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.CAST_SKILL, {
-		skillID = slot0._id,
-		caster = slot1
-	}))
 end
 
 function slot3.SetTarget(slot0, slot1)
@@ -95,8 +94,10 @@ function slot3.Clear(slot0)
 end
 
 function slot3.GetDamageSum(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in ipairs(slot0._effectList) do
-		slot1 = slot6:GetDamageSum() + 0
+		slot1 = slot6:GetDamageSum() + slot1
 	end
 
 	return slot1

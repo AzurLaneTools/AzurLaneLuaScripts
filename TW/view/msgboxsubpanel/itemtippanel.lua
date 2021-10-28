@@ -95,9 +95,9 @@ function slot0.GetUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.list = slot0:findTF("skipable_list")
-	slot0.tpl = slot0:findTF("tpl", slot0.list)
-	slot0.title = slot0:findTF("name")
+	slot0.list = slot0.findTF(slot0, "skipable_list")
+	slot0.tpl = slot0.findTF(slot0, "tpl", slot0.list)
+	slot0.title = slot0.findTF(slot0, "name")
 end
 
 function slot0.OnRefresh(slot0, slot1)
@@ -113,17 +113,20 @@ function slot0.OnRefresh(slot0, slot1)
 			slot5 = slot3[2]
 			slot8 = slot5[3]
 			slot9 = slot2:Find("skip_btn")
+			slot10 = #slot5[1] > 0
 
 			if slot3[3] and slot6 ~= 0 then
 				slot11 = getProxy(ActivityProxy):getActivityById(slot6)
-				slot10 = #slot5[1] > 0 and slot11 and not slot11:isEnd()
+				slot10 = slot10 and slot11 and not slot11:isEnd()
 			end
 
 			setActive(slot9, slot10)
 
 			if #slot7 > 0 then
 				onButton(uv1, slot9, function ()
-					if uv1 == SCENE.SHOP and (Clone(uv0[2]) or {}).warp == "supplies" and not pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "MilitaryExerciseMediator") then
+					slot0 = Clone(uv0[2]) or {}
+
+					if uv1 == SCENE.SHOP and slot0.warp == "supplies" and not pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "MilitaryExerciseMediator") then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("military_shop_no_open_tip"))
 
 						return
@@ -170,9 +173,11 @@ function slot0.OnRefresh(slot0, slot1)
 
 							for slot8, slot9 in ipairs(slot4) do
 								if slot9:isUnlock() and (uv2.mapType ~= Map.ELITE or slot9:isEliteEnabled()) and slot3 < slot9.id then
-									for slot13, slot14 in pairs(slot9.chapters) do
-										if math.fmod(slot13, 10) == uv2.lastDigit and slot14:isUnlock() and slot14:getConfig("unlocklevel") <= slot2.level then
-											slot0.chapterId = slot13
+									slot13 = true
+
+									for slot13, slot14 in pairs(slot9:getChapters(slot13)) do
+										if math.fmod(slot14.id, 10) == uv2.lastDigit and slot14:isUnlock() and slot14:getConfig("unlocklevel") <= slot2.level then
+											slot0.chapterId = slot14.id
 											slot3 = slot9.id
 											slot0.mapIdx = slot9.id
 
@@ -213,15 +218,15 @@ function slot0.OnRefresh(slot0, slot1)
 							end
 						end
 					elseif uv1 == SCENE.TASK and uv2 and uv2.awards then
+						slot1 = {}
+
 						for slot5, slot6 in ipairs(uv2.awards) do
-							-- Nothing
+							slot1[slot6] = true
 						end
 
 						slot2 = nil
 
-						if next({
-							[slot6] = true
-						}) then
+						if next(slot1) then
 							for slot8, slot9 in pairs(getProxy(TaskProxy):getRawData()) do
 								slot10 = false
 								slot14 = "award_display"

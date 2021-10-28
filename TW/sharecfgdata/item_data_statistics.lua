@@ -46288,6 +46288,599 @@ _G.pg.item_data_statistics[56052] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[56053] = {
+	display = "目前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	display_icon = "",
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	rarity = 1,
+	link_id = 0,
+	shiptrans_id = 0,
+	is_world = 0,
+	virtual_type = 0,
+	id = 56053,
+	icon = {
+		{
+			4,
+			303091,
+			1
+		},
+		{
+			4,
+			102051,
+			1
+		},
+		{
+			4,
+			101171,
+			1
+		},
+		{
+			4,
+			201211,
+			1
+		},
+		{
+			4,
+			301051,
+			1
+		},
+		{
+			4,
+			303081,
+			1
+		},
+		{
+			4,
+			303071,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			301371,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[56054] = {
+	display = "目前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	display_icon = "",
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	rarity = 1,
+	link_id = 0,
+	shiptrans_id = 0,
+	is_world = 0,
+	virtual_type = 0,
+	id = 56054,
+	icon = {
+		{
+			4,
+			102151,
+			1
+		},
+		{
+			4,
+			105111,
+			1
+		},
+		{
+			4,
+			101171,
+			1
+		},
+		{
+			4,
+			201211,
+			1
+		},
+		{
+			4,
+			301051,
+			1
+		},
+		{
+			4,
+			305021,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			301111,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			301371,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[56055] = {
+	display = "目前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	display_icon = "",
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	rarity = 1,
+	link_id = 0,
+	shiptrans_id = 0,
+	is_world = 0,
+	virtual_type = 0,
+	id = 56055,
+	icon = {
+		{
+			4,
+			102101,
+			1
+		},
+		{
+			4,
+			301151,
+			1
+		},
+		{
+			4,
+			101171,
+			1
+		},
+		{
+			4,
+			201211,
+			1
+		},
+		{
+			4,
+			301051,
+			1
+		},
+		{
+			4,
+			105081,
+			1
+		},
+		{
+			4,
+			301651,
+			1
+		},
+		{
+			4,
+			301121,
+			1
+		},
+		{
+			4,
+			102061,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			301371,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[56056] = {
+	display = "目前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	display_icon = "",
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	rarity = 1,
+	link_id = 0,
+	shiptrans_id = 0,
+	is_world = 0,
+	virtual_type = 0,
+	id = 56056,
+	icon = {
+		{
+			4,
+			103121,
+			1
+		},
+		{
+			4,
+			302101,
+			1
+		},
+		{
+			4,
+			102091,
+			1
+		},
+		{
+			4,
+			101171,
+			1
+		},
+		{
+			4,
+			201211,
+			1
+		},
+		{
+			4,
+			301051,
+			1
+		},
+		{
+			4,
+			105031,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			102071,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			301371,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[56500] = {
 	display = "有機率獲得精銳或精銳以下的角色",
 	name = "未知角色",
@@ -106300,6 +106893,27 @@ _G.pg.item_data_statistics[59130] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59133] = {
+	display = "用於『光與影的鳶尾之華』活動兌換，活動結束後將會消失",
+	name = "愛麗絲之徽",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/faxipt",
+	id = 59133,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59134] = {
 	display = "用於『箱庭療法』活動兌換，活動結束後將會消失",
 	name = "戰鬥之星·黑",
@@ -107014,6 +107628,27 @@ _G.pg.item_data_statistics[59183] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59184] = {
+	display = "收集7次後，可以得到限定換裝「Candy Magic！」",
+	name = "魔法棒棒糖",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/candymagic",
+	id = 59184,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59186] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝，2021年3月11日後將無法使用 ",
 	name = "換裝體驗券",
@@ -107404,7 +108039,7 @@ _G.pg.item_data_statistics[59219] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 40335,
-	virtual_type = 15,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/AmusementparkshopPT",
 	id = 59219,
@@ -107450,6 +108085,27 @@ _G.pg.item_data_statistics[59222] = {
 	is_world = 0,
 	icon = "Props/TWkaifuPT",
 	id = 59222,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59227] = {
+	display = "完成祭典小遊戲可以獲得的印花，收集印花並在印花冊蓋章，可以獲得特別獎勵哦！",
+	name = "夏日祭典印花",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59227,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -107560,22 +108216,22 @@ _G.pg.item_data_statistics[59239] = {
 	index = {}
 }
 
-_G.pg.item_data_statistics[59227] = {
-	display = "完成祭典小遊戲可以獲得的印花，收集印花並在印花冊蓋章，可以獲得特別獎勵哦！",
-	name = "夏日祭典印花",
+_G.pg.item_data_statistics[59245] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
 	max_num = 0,
-	type = 0,
+	type = 98,
 	drop_oil_max = 0,
-	rarity = 2,
-	shop_id = -1,
+	rarity = 4,
+	shop_id = 1,
 	replace_item = 0,
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
 	virtual_type = 0,
 	is_world = 0,
-	icon = "props/summer_stamp",
-	id = 59227,
+	icon = "Props/skinTicket",
+	id = 59245,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -108349,7 +109005,7 @@ _G.pg.item_data_statistics[59708] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 10046,
-	virtual_type = 1,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "props/red_packet",
 	id = 59708,
@@ -111927,7 +112583,7 @@ _G.pg.item_data_statistics[60129] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
-	virtual_type = 4,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
@@ -111948,7 +112604,7 @@ _G.pg.item_data_statistics[60130] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
-	virtual_type = 4,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
@@ -111980,7 +112636,7 @@ _G.pg.item_data_statistics[60131] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
-	virtual_type = 4,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
@@ -112012,7 +112668,7 @@ _G.pg.item_data_statistics[60132] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
-	virtual_type = 4,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
@@ -112044,7 +112700,7 @@ _G.pg.item_data_statistics[60133] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
-	virtual_type = 4,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
@@ -112076,7 +112732,7 @@ _G.pg.item_data_statistics[60134] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
-	virtual_type = 4,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
@@ -112108,7 +112764,7 @@ _G.pg.item_data_statistics[60135] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
-	virtual_type = 4,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
@@ -112129,7 +112785,7 @@ _G.pg.item_data_statistics[60136] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
-	virtual_type = 4,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
@@ -112150,7 +112806,7 @@ _G.pg.item_data_statistics[60137] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
-	virtual_type = 4,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
@@ -112171,7 +112827,7 @@ _G.pg.item_data_statistics[60138] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
-	virtual_type = 4,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
@@ -112192,7 +112848,7 @@ _G.pg.item_data_statistics[60139] = {
 	drop_gold_max = 0,
 	shiptrans_id = 0,
 	link_id = 0,
-	virtual_type = 4,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/henianka",
 	price = "",

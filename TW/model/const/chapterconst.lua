@@ -149,7 +149,9 @@ function slot0.NeedMarkAsLurk(slot0)
 
 		return slot0.flag == ChapterConst.CellFlagActive and (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxSupply or slot1.type == uv0.BoxEnemy)
 	else
-		return slot0.flag == ChapterConst.CellFlagActive and (slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite or slot0.attachment == uv0.AttachBoss or slot0.attachment == uv0.AttachStory or slot0.attachment == uv0.AttachBomb_Enemy)
+		slot1 = slot0.flag == ChapterConst.CellFlagActive and (slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite or slot0.attachment == uv0.AttachBoss or slot0.attachment == uv0.AttachStory or slot0.attachment == uv0.AttachBomb_Enemy)
+
+		return slot1
 	end
 end
 
@@ -420,6 +422,12 @@ slot0.CellPriorityTopMark = 6 + slot0.PriorityMin
 slot0.PriorityMax = 10000 + slot0.PriorityMin
 slot0.LayerWeightMap = -1000
 slot0.LayerWeightMapAnimation = slot0.LayerWeightMap + 1
+slot0.TemplateChampion = "tpl_champion"
+slot0.TemplateEnemy = "tpl_enemy"
+slot0.TemplateOni = "tpl_oni"
+slot0.TemplateFleet = "tpl_ship"
+slot0.TemplateSub = "tpl_sub"
+slot0.TemplateTransport = "tpl_transport"
 slot0.AirDominance = {
 	[0] = {
 		name = pg.gametip.no_airspace_competition.tip,

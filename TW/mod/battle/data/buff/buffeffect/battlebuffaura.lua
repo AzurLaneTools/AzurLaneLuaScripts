@@ -24,7 +24,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 			if slot6.Active then
 				for slot10, slot11 in ipairs(slot1) do
 					if slot11:GetUniqueID() == slot6.UID then
-						slot11:AddBuff(uv2.Battle.BattleBuffUnit.New(uv0._buffID, uv0._buffLevel, uv0._caster))
+						slot11:AddBuff(uv2.Battle.BattleBuffUnit.New(uv0._buffID, uv0._buffLevel, uv0._caster), true)
 
 						break
 					end
@@ -37,7 +37,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 				"TargetAllHarm"
 			})) do
 				if slot6:GetUniqueID() == slot0.UID then
-					slot6:RemoveBuff(uv0._buffID)
+					slot6:RemoveBuff(uv0._buffID, true)
 
 					break
 				end
@@ -49,7 +49,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 				"TargetAllHarm"
 			})) do
 				if slot6:GetUniqueID() == slot0.UID then
-					slot6:RemoveBuff(uv0._buffID)
+					slot6:RemoveBuff(uv0._buffID, true)
 
 					break
 				end

@@ -25,19 +25,23 @@ function slot0.execute(slot0, slot1)
 		slot3:updateChapter(slot4)
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(13103, {
+	slot3 = pg.ConnectionMgr.GetInstance()
+
+	slot3:Send(13103, {
 		act = slot2.type,
 		group_id = defaultValue(slot2.id, 0),
 		act_arg_1 = slot2.arg1,
 		act_arg_2 = slot2.arg2
 	}, 13104, function (slot0)
 		if slot0.result == 0 then
-			slot1 = false
+			slot3 = nil
 
 			uv0:initData(uv1, slot0, getProxy(ChapterProxy):getActiveChapter())
 			uv0:doDropUpdate()
 
 			if uv0.chapter then
+				slot4 = uv0.items
+
 				if uv1.type == ChapterConst.OpMove then
 					uv0:doCollectCommonAction()
 					uv0:doCollectAI()
@@ -59,22 +63,39 @@ function slot0.execute(slot0, slot1)
 								uv0.chapter:UpdateProgressOnRetreat()
 							end
 
-							slot4 = pg.TimeMgr.GetInstance()
+							slot5 = pg.TimeMgr.GetInstance()
+							slot6 = slot1:getMapById(slot2:getConfig("map"))
 
-							if uv1.win and slot2:getMapById(slot3:getConfig("map")):getMapType() == Map.ELITE and slot4:IsSameDay(slot3:getStartTime(), slot4:GetServerTime()) then
+							if uv1.win and slot6:getMapType() == Map.ELITE and slot5:IsSameDay(slot2:getStartTime(), slot5:GetServerTime()) then
 								getProxy(DailyLevelProxy):EliteCountPlus()
 							end
 
-							if slot3:getPlayType() == ChapterConst.TypeMainSub and (uv1.win or not slot3:isValid()) then
-								slot3:retreat(uv1.win)
-								slot3:clearSubChapter()
-								slot2:updateChapter(slot3, ChapterConst.DirtyMapItems)
+							if slot2:getPlayType() == ChapterConst.TypeMainSub and (uv1.win or not slot2:isValid()) then
+								slot2:retreat(uv1.win)
+								slot2:clearSubChapter()
+								slot1:updateChapter(slot2, ChapterConst.DirtyMapItems)
 								uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
 									type = uv1.type,
 									win = uv1.win
 								})
 
 								return
+							end
+
+							if slot4 and #slot4 > 0 then
+								getProxy(ChapterProxy):AddExtendChapterDataArray(uv0.chapter.id, "ResultDrops", slot4)
+
+								slot4 = nil
+							end
+
+							slot7 = slot1:GetExtendChapter(slot2.id) and slot3.AutoFightFlag
+
+							slot1:RecordLastDefeatedEnemy(slot2.id, nil)
+							slot1:SetChapterAutoFlag(slot2.id, false)
+							slot1:RemoveExtendChapter(slot2.id)
+
+							if slot3 then
+								slot3.AutoFightFlag = slot7
 							end
 						end
 
@@ -112,19 +133,11 @@ function slot0.execute(slot0, slot1)
 				end
 
 				if uv1.type == ChapterConst.OpEnemyRound or uv1.type == ChapterConst.OpMove then
-					slot2:updateChapter(uv0.chapter, uv0.flag)
+					slot1:updateChapter(uv0.chapter, uv0.flag)
 				else
 					uv0.flag = bit.bor(uv0.flag, uv0.extraFlag)
 
-					slot2:updateChapter(uv0.chapter, uv0.flag)
-				end
-
-				slot4 = uv0.items
-
-				if uv1.type == ChapterConst.OpRetreat and slot4 and #slot4 > 0 then
-					getProxy(ChapterProxy):AddExtendChapterDataArray(uv0.chapter.id, "ResultDrops", slot4)
-
-					slot4 = nil
+					slot1:updateChapter(uv0.chapter, uv0.flag)
 				end
 
 				uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
@@ -141,7 +154,8 @@ function slot0.execute(slot0, slot1)
 					oldLine = uv1.ordLine,
 					win = uv1.win,
 					teleportPaths = uv0.teleportPaths,
-					chapterVO = uv0.chapter
+					chapterVO = uv0.chapter,
+					extendData = slot3
 				})
 			end
 		else
@@ -167,7 +181,7 @@ function slot0.PrepareChapterRetreat(slot0)
 				slot3 = slot1:getConfig("defeat_story")
 				slot4 = false
 
-				table.eachAsync(slot1:getConfig("defeat_story_count"), function (slot0, slot1, slot2)
+				table.SerialForeachArray(slot1:getConfig("defeat_story_count"), function (slot0, slot1, slot2)
 					if uv0.defeatCount < slot1 then
 						slot2()
 

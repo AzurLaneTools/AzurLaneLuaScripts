@@ -4413,8 +4413,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
@@ -4423,8 +4423,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
@@ -4433,8 +4433,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
@@ -4443,8 +4443,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
@@ -4453,8 +4453,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
@@ -4463,68 +4463,68 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
 	[4000613] = {
 		id = 4000613,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
 	[4000713] = {
 		id = 4000713,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
 	[4000813] = {
 		id = 4000813,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
 	[4000913] = {
 		id = 4000913,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
 	[4001013] = {
 		id = 4001013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
 	[4001113] = {
 		id = 4001113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},
@@ -4533,8 +4533,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				40121,
-				111
+				40450,
+				130
 			}
 		}
 	},

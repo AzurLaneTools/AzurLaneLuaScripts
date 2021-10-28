@@ -86,6 +86,9 @@ function slot1.Init(slot0, slot1)
 		uv0.singleItemIntroTF:AddSprite("world_money", uv0._res:Find("world_money"):GetComponent(typeof(Image)).sprite)
 		uv0.singleItemIntroTF:AddSprite("port_money", uv0._res:Find("port_money"):GetComponent(typeof(Image)).sprite)
 		uv0.singleItemIntroTF:AddSprite("world_boss", uv0._res:Find("world_boss"):GetComponent(typeof(Image)).sprite)
+
+		uv0._singleItemSubIntroTF = uv0._sigleItemPanel:Find("intro_view/Text")
+
 		table.insert(uv0._singleItemIntros, uv0.singleItemIntro)
 
 		uv0._inputPanel = uv0._window:Find("input_panel")
@@ -286,7 +289,7 @@ function slot8(slot0, slot1)
 		slot0._window.sizeDelta = Vector2(slot1.windowSize.x or slot0._defaultSize.x, slot1.windowSize.y or slot0._defaultSize.y)
 	end
 
-	slot3 = slot0._sigleItemPanel:Find("intro_view/Text")
+	slot3 = slot0._singleItemSubIntroTF
 	slot4 = 1
 
 	SetActive(slot0._sigleItemPanel:Find("intro_view/Viewport/Content/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN)
@@ -352,7 +355,15 @@ function slot8(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
 		-- Nothing
 	elseif slot1.drop.type == DROP_TYPE_STRATEGY then
-		setText(slot2, HXSet.hxLan(slot1.drop.cfg.desc))
+		slot9 = slot1.drop.cfg.desc
+
+		for slot13, slot14 in ipairs({
+			slot1.drop.count
+		}) do
+			slot9 = string.gsub(slot9, "$" .. slot13, slot14)
+		end
+
+		setText(slot2, HXSet.hxLan(slot9))
 
 		if slot1.extendDesc then
 			slot0._singleItemIntros[slot4] = slot0._singleItemIntros[slot4 + 1] or cloneTplTo(slot0.singleItemIntro, slot0.singleItemIntro.parent)
@@ -538,10 +549,11 @@ function slot10(slot0, slot1)
 
 	slot5 = getProxy(SecondaryPWDProxy):getRawData()
 	slot6 = slot2:Find("showresttime")
+	slot7 = slot2:Find("settips")
 
 	if slot1.mode == "showresttime" then
 		setActive(slot6, true)
-		setActive(slot2:Find("settips"), false)
+		setActive(slot7, false)
 
 		slot8 = slot6:Find("desc"):GetComponent(typeof(Text))
 
@@ -559,8 +571,10 @@ function slot10(slot0, slot1)
 			elseif math.floor(slot1 / 3600) > 0 then
 				uv2.text = string.format(i18n("tips_fail_secondarypwd_much_times"), slot3 .. i18n("word_hour"))
 			else
+				slot4 = ""
+
 				if math.floor(slot1 / 60) > 0 then
-					slot4 = "" .. slot5 .. i18n("word_minute")
+					slot4 = slot4 .. slot5 .. i18n("word_minute")
 				end
 
 				uv2.text = string.format(i18n("tips_fail_secondarypwd_much_times"), slot4 .. math.max(slot1 - slot5 * 60, 0) .. i18n("word_second"))
@@ -667,16 +681,17 @@ function slot11(slot0, slot1)
 
 								return
 							else
+								slot4 = {
+									mapIdx = slot2:getConfig("map")
+								}
+
 								if slot2.active then
-									-- Nothing
+									slot4.chapterId = slot2.id
 								else
 									slot4.openChapterId = slot0
 								end
 
-								uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-									mapIdx = slot2:getConfig("map"),
-									chapterId = slot2.id
-								})
+								uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot4)
 							end
 						else
 							uv1.TipsMgr.GetInstance():ShowTips(i18n("acquisitionmode_is_not_open"))
@@ -750,7 +765,7 @@ function slot13(slot0, slot1)
 	updateDrop(slot0._obtainPanel, {
 		type = DROP_TYPE_SHIP,
 		id = slot1.shipId
-	})
+	}, slot1)
 
 	slot0.obtainSkipList = slot0.obtainSkipList or UIItemList.New(slot0._obtainPanel:Find("skipable_list"), slot0._obtainPanel:Find("skipable_list/tpl"))
 
@@ -788,16 +803,17 @@ function slot13(slot0, slot1)
 
 								return
 							else
+								slot4 = {
+									mapIdx = slot2:getConfig("map")
+								}
+
 								if slot2.active then
-									-- Nothing
+									slot4.chapterId = slot2.id
 								else
 									slot4.openChapterId = slot0
 								end
 
-								uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-									mapIdx = slot2:getConfig("map"),
-									chapterId = slot2.id
-								})
+								uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot4)
 							end
 						else
 							uv1.TipsMgr.GetInstance():ShowTips(i18n("acquisitionmode_is_not_open"))
@@ -1032,8 +1048,9 @@ function slot1.commonSetting(slot0, slot1)
 
 	slot14 = slot0.settings.title or uv1.TITLE_INFORMATION
 	slot15 = 0
+	slot16 = slot0._titleList.transform.childCount
 
-	while slot15 < slot0._titleList.transform.childCount do
+	while slot15 < slot16 do
 		slot17 = slot0._titleList.transform:GetChild(slot15)
 
 		SetActive(slot17, slot17.name == slot14)
@@ -1161,6 +1178,7 @@ function slot1.Clear(slot0)
 	slot5 = "icon_bg/own"
 
 	setActive(findTF(slot0._sigleItemPanel, slot5), false)
+	setText(slot0._singleItemSubIntroTF, "")
 
 	for slot5, slot6 in ipairs(slot0._singleItemIntros) do
 		setActive(slot6, false)

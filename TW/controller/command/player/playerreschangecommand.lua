@@ -2,12 +2,14 @@ slot0 = class("PlayerResChangeCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.oldPlayer
+	slot4 = slot2.newPlayer
 	slot5 = false
 
 	for slot10 = #pg.player_resource.all, 11, -1 do
 		slot11 = slot6[slot10]
 
-		if slot2.oldPlayer:getResource(slot11) ~= slot2.newPlayer:getResource(slot11) then
+		if slot3:getResource(slot11) ~= slot4:getResource(slot11) then
 			slot5 = true
 
 			break
@@ -65,9 +67,11 @@ function slot0.UpdateActivies(slot0, slot1, slot2)
 	slot7 = ActivityConst.ACTIVITY_TYPE_PT_BUFF
 
 	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
-		slot3[slot9] = slot3[slot8:getDataConfig("pt")] or slot2:getResource(slot9) - slot1:getResource(slot9)
+		if slot8:getDataConfig("pt") > 0 then
+			slot3[slot9] = slot3[slot9] or slot2:getResource(slot9) - slot1:getResource(slot9)
 
-		uv0.UpdateActivity(slot8, slot3[slot9])
+			uv0.UpdateActivity(slot8, slot3[slot9])
+		end
 	end
 end
 

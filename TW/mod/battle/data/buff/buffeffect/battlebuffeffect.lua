@@ -32,6 +32,10 @@ function slot2.GetEffectType(slot0)
 	return uv0.FX_TYPE_NOR
 end
 
+function slot2.GetPopConfig(slot0)
+	return slot0._tempData.pop
+end
+
 function slot2.HaveQuota(slot0)
 	if slot0._quota == 0 then
 		return false
@@ -152,9 +156,10 @@ function slot2.onCombo(slot0, slot1, slot2, slot3)
 		return
 	end
 
+	slot4 = slot3.matchUnitCount
 	slot6 = slot0._tempData.arg_list.lowerBound
 
-	if slot0._tempData.arg_list.upperBound and slot3.matchUnitCount <= slot5 then
+	if slot0._tempData.arg_list.upperBound and slot4 <= slot5 then
 		slot0:onTrigger(slot1, slot2)
 	elseif slot6 and slot6 <= slot4 then
 		slot0:onTrigger(slot1, slot2)
@@ -586,8 +591,10 @@ function slot2.getTargetList(slot0, slot1, slot2, slot3, slot4)
 		Clone(slot3).damageSourceID = slot4.damageSrc
 	end
 
+	slot6 = nil
+
 	for slot10, slot11 in ipairs(slot2) do
-		slot6 = uv0.Battle.BattleTargetChoise[slot11](slot1, slot5, nil)
+		slot6 = uv0.Battle.BattleTargetChoise[slot11](slot1, slot5, slot6)
 	end
 
 	return slot6
@@ -597,10 +604,12 @@ function slot2.commanderRequire(slot0, slot1)
 	if slot0._tempData.arg_list.CMDBuff_id then
 		slot2, slot3 = uv0.Battle.BattleDataProxy.GetInstance():GetCommanderBuff()
 		slot4 = nil
+		slot4 = table.contains(TeamType.SubShipType, slot1:GetTemplate().type) and slot3 or slot2
 		slot6 = {}
+		slot7 = slot0._tempData.arg_list.CMDBuff_id
 
-		for slot11, slot12 in ipairs(table.contains(TeamType.SubShipType, slot1:GetTemplate().type) and slot3 or slot2) do
-			if slot12.id == slot0._tempData.arg_list.CMDBuff_id then
+		for slot11, slot12 in ipairs(slot4) do
+			if slot12.id == slot7 then
 				table.insert(slot6, slot12)
 			end
 		end

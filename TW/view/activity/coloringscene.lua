@@ -164,7 +164,9 @@ function slot0.initInteractive(slot0)
 		slot7 = slot0.colorGroups[slot4]
 
 		onButton(slot0, slot5, function ()
-			if uv1.selectedIndex ~= uv2 and uv0:getState() ~= ColorGroup.StateLock then
+			slot0 = uv0:getState()
+
+			if uv1.selectedIndex ~= uv2 and slot0 ~= ColorGroup.StateLock then
 				if uv1.paintsgroup[uv1.selectedIndex] then
 					slot1:SetParent(uv1.colorgroupbehind)
 				end
@@ -242,7 +244,9 @@ function slot0.updatePage(slot0)
 	end
 
 	if getProxy(ColoringProxy):IsALLAchieve() then
-		slot0.loader:GetSpriteDirect("ui/coloring_atlas", "painting_got", function (slot0)
+		slot4 = slot0.loader
+
+		slot4:GetSpriteDirect("ui/coloring_atlas", "painting_got", function (slot0)
 			if not slot0 then
 				return
 			end
@@ -256,10 +260,11 @@ end
 
 function slot0.updateSelectedColoring(slot0)
 	slot1 = slot0.colorGroups[slot0.selectedIndex]
+	slot2 = slot1:getConfig("color_id_list")
 	slot3 = slot1.colors
 
 	for slot7 = 1, #slot0.colorPlates do
-		setText(slot0.colorPlates[slot7]:Find("icon/x/nums"), slot0.colorItems[slot1:getConfig("color_id_list")[slot7]] or 0)
+		setText(slot0.colorPlates[slot7]:Find("icon/x/nums"), slot0.colorItems[slot2[slot7]] or 0)
 	end
 
 	slot4 = slot1:getConfig("name")
@@ -291,7 +296,8 @@ function slot0.updateCells(slot0)
 		end
 	end
 
-	slot4 = slot0.bg:GetComponent("EventTriggerListener")
+	slot4 = slot0.bg
+	slot4 = slot4:GetComponent("EventTriggerListener")
 
 	slot4:RemovePointClickFunc()
 	slot4:RemoveBeginDragFunc()
@@ -362,14 +368,17 @@ function slot0.updateCell(slot0, slot1, slot2)
 		slot5 = slot4
 	end
 
+	slot8 = slot0.cells:Find(slot1 .. "_" .. slot2)
+
 	if slot4 or slot5 then
-		slot8 = slot0.cells:Find(slot1 .. "_" .. slot2) or cloneTplTo(slot0.cell, slot0.cells, slot7)
+		slot8 = slot8 or cloneTplTo(slot0.cell, slot0.cells, slot7)
 		slot8.sizeDelta = slot0.cellSize
 		slot8.anchoredPosition = Vector2((slot5 or slot4).column * slot0.cellSize.x, -((slot5 or slot4).row * slot0.cellSize.y))
+		slot9 = slot8:Find("image")
 		slot10 = slot8:Find("text")
 
 		if slot5 then
-			setImageColor(slot8:Find("image"), slot3.colors[slot5.type])
+			setImageColor(slot9, slot3.colors[slot5.type])
 		else
 			setText(slot10, string.char(string.byte("A") + slot4.type - 1))
 		end
@@ -406,15 +415,18 @@ function slot0.updateLines(slot0)
 end
 
 function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
+	slot5 = {
+		row = slot2,
+		column = slot3,
+		color = slot4
+	}
+
 	if slot1:canBeCustomised() then
 		return {
-			{
-				row = slot2,
-				column = slot3,
-				color = slot4
-			}
+			slot5
 		}
 	else
+		slot7 = slot0.colorItems[slot1:getConfig("color_id_list")[slot4]]
 		slot8 = {}
 		slot9 = {}
 		slot10 = {
@@ -455,7 +467,7 @@ function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
 			}
 		}
 
-		while #slot10 > 0 and slot0.colorItems[slot1:getConfig("color_id_list")[slot4]] > 0 do
+		while #slot10 > 0 and slot7 > 0 do
 			slot12 = table.remove(slot10, 1)
 
 			if not slot1:hasFill(slot12.row, slot12.column) and slot12.color == slot4 then
@@ -486,8 +498,10 @@ function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.SearchValidDiagonalColoringCells(slot0, slot1, slot2, slot3)
+	slot4 = {}
+
 	if slot1:getState() ~= ColorGroup.StateColoring or slot1:canBeCustomised() or slot3 == 0 then
-		return {}
+		return slot4
 	else
 		slot5, slot6 = slot1:GetAABB()
 		slot7 = slot6.x - slot5.x
@@ -520,7 +534,7 @@ end
 function slot0.TryPlayStory(slot0)
 	slot2 = slot0.selectedIndex
 
-	table.eachAsync({}, function (slot0, slot1, slot2)
+	table.SerialForeachArray({}, function (slot0, slot1, slot2)
 		if slot0 <= uv0 and slot1 then
 			pg.NewStoryMgr.GetInstance():Play(slot1, slot2)
 		else
@@ -540,10 +554,11 @@ function slot0.willExit(slot0)
 end
 
 function slot0.Clone2Full(slot0, slot1, slot2)
+	slot3 = {}
 	slot4 = slot1:GetChild(0)
 
 	for slot9 = 0, slot1.childCount - 1 do
-		table.insert({}, slot1:GetChild(slot9))
+		table.insert(slot3, slot1:GetChild(slot9))
 	end
 
 	for slot9 = slot5, slot2 - 1 do

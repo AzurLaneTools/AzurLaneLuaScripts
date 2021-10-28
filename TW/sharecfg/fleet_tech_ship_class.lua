@@ -2056,6 +2056,17 @@ pg.fleet_tech_ship_class = {
 			80101
 		}
 	},
+	[80102] = {
+		shiptype = 1,
+		name = "大膽級",
+		nation = 8,
+		id = 80102,
+		t_level_1 = 133,
+		t_level = 6,
+		ships = {
+			80104
+		}
+	},
 	[80103] = {
 		shiptype = 1,
 		name = "靈巧級",
@@ -2142,6 +2153,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			80801
+		}
+	},
+	[90101] = {
+		shiptype = 1,
+		name = "空想級",
+		nation = 9,
+		id = 90101,
+		t_level_1 = 132,
+		t_level = 8,
+		ships = {
+			90111
 		}
 	},
 	[90103] = {
@@ -2382,6 +2404,7 @@ pg.fleet_tech_ship_class = {
 		70501,
 		70502,
 		80101,
+		80102,
 		80103,
 		80201,
 		80202,
@@ -2390,6 +2413,7 @@ pg.fleet_tech_ship_class = {
 		80502,
 		80701,
 		80801,
+		90101,
 		90103,
 		90104,
 		90201,

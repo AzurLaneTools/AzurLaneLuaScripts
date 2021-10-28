@@ -37,9 +37,10 @@ end
 function GetLocalTimeZone()
 	if PLATFORM_CODE == PLATFORM_US then
 		slot0 = os.time()
+		slot2 = os.difftime(slot0, os.time(os.date("!*t", slot0)))
 
 		if os.date("*t", slot0).isdst then
-			return os.difftime(slot0, os.time(os.date("!*t", slot0))) + 3600
+			return slot2 + 3600
 		else
 			return slot2
 		end
@@ -70,7 +71,7 @@ LOG_TICK = false
 LOG_FMOD = false
 LOG_STORY = false
 LOG_GUIDE2 = false
-LOG_CONNECTION = false
+LOG_CONNECTION = true
 BATTLE_AUTO_ENABLED = 1000001
 GAME_RESTOREVIEW_ALREADY = 1000002
 ALLOW_FIREND_VISIT_BACKYARD_FLAG = 1000003

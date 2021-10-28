@@ -128,6 +128,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -421,6 +422,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -810,6 +812,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -1283,6 +1286,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -1833,6 +1837,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -2414,6 +2419,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -3045,6 +3051,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -3657,6 +3664,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -4239,6 +4247,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -4840,6 +4849,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -5465,6 +5475,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -6085,6 +6096,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -6691,6 +6703,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -7245,6 +7258,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -7770,6 +7784,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -8288,6 +8303,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -8752,6 +8768,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -9352,6 +9369,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -10003,6 +10021,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -10608,6 +10627,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -11151,6 +11171,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -11664,6 +11685,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -12202,6 +12224,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -12791,6 +12814,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -13367,6 +13391,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -13999,6 +14024,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -14555,6 +14581,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -15155,6 +15182,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -15739,6 +15767,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -16162,6 +16191,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -16688,6 +16718,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -17285,6 +17316,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -17866,6 +17898,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -18450,6 +18483,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -18895,6 +18929,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -19426,6 +19461,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -20020,6 +20056,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -20677,6 +20714,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -21325,6 +21363,11 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {
+			27,
+			37,
+			15
+		},
 		win_condition = {
 			{
 				1,
@@ -21860,6 +21903,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			28,
+			38,
+			15
 		},
 		win_condition = {
 			{
@@ -22434,6 +22482,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			29,
+			39,
+			15
 		},
 		win_condition = {
 			{
@@ -23032,6 +23085,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			30,
+			40,
+			15
 		},
 		win_condition = {
 			{
@@ -23653,6 +23711,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -24285,6 +24344,11 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {
+			31,
+			42,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -24839,6 +24903,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			32,
+			43,
+			16
 		},
 		win_condition = {
 			{
@@ -25451,6 +25520,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			33,
+			44,
+			16
 		},
 		win_condition = {
 			{
@@ -26080,6 +26154,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			34,
+			45,
+			16
 		},
 		win_condition = {
 			{
@@ -26723,6 +26802,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -27354,6 +27434,11 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {
+			35,
+			47,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -27958,6 +28043,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			36,
+			48,
+			16
 		},
 		win_condition = {
 			{
@@ -28679,6 +28769,11 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {
+			37,
+			49,
+			16
+		},
 		win_condition = {
 			{
 				1,
@@ -29368,6 +29463,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			38,
+			50,
+			16
 		},
 		win_condition = {
 			{
@@ -30164,6 +30264,11 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {
+			39,
+			52,
+			17
+		},
 		win_condition = {
 			{
 				1,
@@ -30746,6 +30851,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			40,
+			53,
+			17
 		},
 		win_condition = {
 			{
@@ -31442,6 +31552,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			41,
+			54,
+			17
 		},
 		win_condition = {
 			{
@@ -32174,6 +32289,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			42,
+			55,
+			17
 		},
 		win_condition = {
 			{
@@ -33033,6 +33153,11 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {
+			43,
+			57,
+			18
+		},
 		win_condition = {
 			{
 				1,
@@ -33623,6 +33748,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			44,
+			58,
+			18
 		},
 		win_condition = {
 			{
@@ -34319,6 +34449,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			45,
+			59,
+			18
 		},
 		win_condition = {
 			{
@@ -35060,6 +35195,11 @@ slot0.chapter_template = {}
 		},
 		submarine_refresh = {
 			0
+		},
+		use_oil_limit = {
+			46,
+			60,
+			18
 		},
 		win_condition = {
 			{
@@ -35865,6 +36005,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -36298,6 +36439,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -36786,6 +36928,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -37306,6 +37449,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -37635,6 +37779,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -38058,6 +38203,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -38567,6 +38713,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -39161,6 +39308,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -39786,6 +39934,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -40463,6 +40612,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -41117,6 +41267,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -41743,6 +41894,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -42388,6 +42540,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -43057,6 +43210,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -43721,6 +43875,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -44245,6 +44400,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -44812,6 +44968,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -45372,6 +45529,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -45878,6 +46036,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -46520,6 +46679,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -47167,6 +47327,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -47752,6 +47913,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -48307,6 +48469,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -48887,6 +49050,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -49506,6 +49670,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -50181,6 +50346,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -50780,6 +50946,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -51410,6 +51577,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -51878,6 +52046,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -52449,6 +52618,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -53091,6 +53261,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -53717,6 +53888,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -54207,6 +54379,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -54783,6 +54956,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -55422,6 +55596,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -56126,6 +56301,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -56710,6 +56886,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -57332,6 +57509,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -57978,6 +58156,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -58645,6 +58824,7 @@ slot0.chapter_template = {}
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -59250,6 +59430,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -59910,6 +60091,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -60587,6 +60769,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -61274,6 +61457,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -61927,6 +62111,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -62695,6 +62880,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -63433,6 +63619,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -64230,6 +64417,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				3,
@@ -64709,6 +64897,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				3,
@@ -65233,6 +65422,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				3,
@@ -65845,6 +66035,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				3,
@@ -66351,6 +66542,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				3,
@@ -66901,6 +67093,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				3,
@@ -67503,6 +67696,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -68060,6 +68254,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -68759,6 +68954,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -69423,6 +69619,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -70205,6 +70402,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -70782,6 +70980,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -71367,6 +71566,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -72007,6 +72207,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -72842,6 +73043,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -73442,6 +73644,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -74182,6 +74385,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -74887,6 +75091,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -75710,6 +75915,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -76328,6 +76534,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -76954,6 +77161,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -77635,6 +77843,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -78427,6 +78636,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -79032,6 +79242,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -79638,6 +79849,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -80366,6 +80578,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -80953,6 +81166,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -81640,6 +81854,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -82429,6 +82644,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -83252,6 +83468,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -83800,6 +84017,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -84403,6 +84621,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -85076,6 +85295,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -85699,6 +85919,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -86422,6 +86643,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -87181,6 +87403,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -87771,6 +87994,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -88417,6 +88641,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -89132,6 +89357,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -89797,6 +90023,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -90561,6 +90788,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -91302,6 +91530,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -92029,6 +92258,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -92586,6 +92816,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -93285,6 +93516,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -93949,6 +94181,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -94731,6 +94964,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -95308,6 +95542,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -95893,6 +96128,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -96533,6 +96769,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -97368,6 +97605,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -97968,6 +98206,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -98708,6 +98947,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -99413,6 +99653,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -100236,6 +100477,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -100854,6 +101096,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -101480,6 +101723,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -102161,6 +102405,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -102908,6 +103153,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -103365,6 +103611,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -103879,6 +104126,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -104456,6 +104704,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -105091,6 +105340,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -105684,6 +105934,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -106335,6 +106586,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -107075,6 +107327,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -107754,6 +108007,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -108576,6 +108830,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -109610,6 +109865,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -110244,6 +110500,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -110936,6 +111193,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -111717,6 +111975,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -112437,6 +112696,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -113300,6 +113560,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -114282,6 +114543,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -114882,6 +115144,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -115453,6 +115716,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -116118,6 +116382,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -116787,6 +117052,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -117499,6 +117765,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -118223,6 +118490,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -118865,6 +119133,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -119478,6 +119747,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -120185,6 +120455,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -120898,6 +121169,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -121654,6 +121926,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -122300,6 +122573,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -122754,6 +123028,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -123255,6 +123530,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -123817,6 +124093,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -124467,6 +124744,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -125143,6 +125421,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -125837,6 +126116,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -126741,6 +127021,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -127283,6 +127564,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -127886,6 +128168,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -128577,6 +128860,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -129294,6 +129578,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -130029,6 +130314,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -130878,6 +131164,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -131413,6 +131700,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -132027,6 +132315,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -132768,6 +133057,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -133526,6 +133816,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -134311,6 +134602,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -134916,6 +135208,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -135486,6 +135779,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -136151,6 +136445,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -136817,6 +137112,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -137534,6 +137830,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -138349,6 +138646,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -138997,6 +139295,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -139609,6 +139908,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -140316,6 +140616,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -141026,6 +141327,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -141787,6 +142089,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -142524,6 +142827,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -142976,6 +143280,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -143547,6 +143852,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -144120,6 +144426,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -144775,6 +145082,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -145442,6 +145750,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -146152,6 +146461,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -146873,6 +147183,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -147486,6 +147797,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -148101,6 +148413,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -148798,6 +149111,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -149509,6 +149823,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -150263,6 +150578,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -150963,6 +151279,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -151575,6 +151892,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -151862,6 +152180,9333 @@ end)()
 		alarm_cell = {},
 		weather_grids = {}
 	}
+	uv0.chapter_template[1240001] = {
+		special_operation_list = "",
+		name = "暴雨前夕",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.402083333",
+		pre_chapter = 0,
+		progress_boss = 50,
+		model = 2,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "A1",
+		type = 1,
+		bg = "",
+		bgm = "",
+		enter_story = "",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240001,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240001,
+		pos_x = "0.1625",
+		formation = 1240001,
+		mitigation_level = 5,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 155,
+		investigation_ratio = 0,
+		profiles = "前往搜索攻擊維希教廷的皇家H艦隊，在途中遭遇了塞壬艦隊前鋒，一場遭遇戰即將打響…",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 15,
+		star_require_2 = 2,
+		avoid_ratio = 8,
+		time = 43200,
+		difficulty = 3,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 120,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000001,
+				15,
+				0
+			},
+			{
+				4000002,
+				20,
+				0
+			},
+			{
+				4000003,
+				30,
+				1
+			},
+			{
+				4000004,
+				15,
+				0
+			},
+			{
+				4000005,
+				20,
+				0
+			},
+			{
+				4000006,
+				30,
+				1
+			},
+			{
+				4000007,
+				15,
+				0
+			},
+			{
+				4000008,
+				20,
+				0
+			},
+			{
+				4000009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000010,
+			4000011,
+			4000012
+		},
+		elite_expedition_list = {
+			4000005,
+			4000008
+		},
+		ai_expedition_list = {
+			4000221
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenquzhu_i"
+		},
+		awards = {
+			{
+				2,
+				57421
+			},
+			{
+				2,
+				57401
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				9,
+				true,
+				8
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				16
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				5,
+				5,
+				"1x2_2faxihuodong_easy",
+				-27,
+				-36
+			},
+			{
+				2,
+				8,
+				"3x2_1faxihuodong_easy",
+				-51,
+				-39
+			},
+			{
+				2,
+				3,
+				"1x1_2faxihuodong_easy",
+				2,
+				5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodongeasy",
+			45,
+			22,
+			50,
+			-50,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240003] = {
+		special_operation_list = "",
+		name = "突破",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.379166667",
+		pre_chapter = 1240001,
+		progress_boss = 34,
+		model = 2,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "A2",
+		type = 1,
+		bg = "",
+		bgm = "",
+		enter_story = "FAXI02",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240003,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240001,
+		pos_x = "0.62109375",
+		formation = 1240001,
+		mitigation_level = 5,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 215,
+		investigation_ratio = 0,
+		profiles = "偵察機報告：塞壬的艦隊嚴密守衛著凱比爾港，我們必須突破塞壬的防衛線，打開入港的航道！",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 20,
+		star_require_2 = 2,
+		avoid_ratio = 9,
+		time = 43200,
+		difficulty = 4,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 165,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.66,
+			0.45,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000101,
+				15,
+				0
+			},
+			{
+				4000102,
+				20,
+				0
+			},
+			{
+				4000103,
+				30,
+				1
+			},
+			{
+				4000104,
+				15,
+				0
+			},
+			{
+				4000105,
+				20,
+				0
+			},
+			{
+				4000106,
+				30,
+				1
+			},
+			{
+				4000107,
+				15,
+				0
+			},
+			{
+				4000108,
+				20,
+				0
+			},
+			{
+				4000109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000110,
+			4000111,
+			4000112
+		},
+		elite_expedition_list = {
+			4000105,
+			4000108
+		},
+		ai_expedition_list = {
+			4000231,
+			4000232
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhongxun_i"
+		},
+		awards = {
+			{
+				2,
+				57422
+			},
+			{
+				2,
+				57402
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				10,
+				true,
+				8
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				2
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				4
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				16
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				8
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"1x1_2faxihuodong_easy",
+				3,
+				9
+			},
+			{
+				7,
+				1,
+				"1x1_1faxihuodong_easy",
+				3,
+				21
+			},
+			{
+				4,
+				10,
+				"1x1_3faxihuodong_easy",
+				8,
+				8
+			},
+			{
+				4,
+				7,
+				"1x2_2faxihuodong_easy",
+				-39,
+				42
+			},
+			{
+				4,
+				2,
+				"1x3_2faxihuodong_easy",
+				-3,
+				17
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodongeasy",
+			45,
+			22,
+			50,
+			-55,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240004] = {
+		special_operation_list = "",
+		name = "弩炮行動",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.1739",
+		pre_chapter = 1240003,
+		progress_boss = 25,
+		model = 2,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "A3",
+		type = 1,
+		bg = "",
+		bgm = "",
+		enter_story = "FAXI03",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240004,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240001,
+		pos_x = "0.3813",
+		formation = 1240001,
+		mitigation_level = 5,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 280,
+		investigation_ratio = 0,
+		profiles = "面對拒絕了最後通牒的敦克爾克，皇家艦隊已別無選擇…全艦隊戰鬥準備！",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 25,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		difficulty = 5,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 215,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.52,
+			0.36,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000201,
+				15,
+				0
+			},
+			{
+				4000202,
+				20,
+				0
+			},
+			{
+				4000203,
+				30,
+				1
+			},
+			{
+				4000204,
+				15,
+				0
+			},
+			{
+				4000205,
+				20,
+				0
+			},
+			{
+				4000206,
+				30,
+				1
+			},
+			{
+				4000207,
+				15,
+				0
+			},
+			{
+				4000208,
+				20,
+				0
+			},
+			{
+				4000209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000210,
+			4000211,
+			4000212
+		},
+		elite_expedition_list = {
+			4000205,
+			4000208
+		},
+		ai_expedition_list = {
+			4000241,
+			4000242,
+			4000243
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"dunkeerke"
+		},
+		awards = {
+			{
+				2,
+				57423
+			},
+			{
+				2,
+				57403
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				11,
+				true,
+				2
+			},
+			{
+				7,
+				10,
+				true,
+				4
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				11,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				11,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				11,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				8
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				16
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				11,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				11,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				11,
+				true,
+				2
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				6,
+				10,
+				"1x3_2faxihuodong_easy",
+				10,
+				17
+			},
+			{
+				6,
+				3,
+				"4x4_2faxihuodong_easy",
+				-34,
+				-12
+			},
+			{
+				4,
+				6,
+				"1x1_3faxihuodong_easy",
+				6,
+				11
+			},
+			{
+				3,
+				9,
+				"3x2_1faxihuodong_easy",
+				56,
+				-30
+			},
+			{
+				3,
+				3,
+				"1x1_1faxihuodong_easy",
+				0,
+				15
+			},
+			{
+				1,
+				3,
+				"1x3_1faxihuodong_easy",
+				-2,
+				16
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodongeasy",
+			42,
+			16,
+			50,
+			0,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240005] = {
+		special_operation_list = "",
+		name = "合流",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.3875",
+		pre_chapter = 1240004,
+		progress_boss = 25,
+		model = 2,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "B1",
+		type = 1,
+		bg = "",
+		bgm = "",
+		enter_story = "FAXI06",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240005,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240002,
+		pos_x = "0.228125",
+		formation = 1240002,
+		mitigation_level = 5,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 345,
+		investigation_ratio = 0,
+		profiles = "皇家和白鷹的聯合登陸作戰行動開始，在打擊陸上目標之前，先試著突破塞壬的防禦吧",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 25,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		difficulty = 5,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 265,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000301,
+				15,
+				0
+			},
+			{
+				4000302,
+				20,
+				0
+			},
+			{
+				4000303,
+				30,
+				1
+			},
+			{
+				4000304,
+				15,
+				0
+			},
+			{
+				4000305,
+				20,
+				0
+			},
+			{
+				4000306,
+				30,
+				1
+			},
+			{
+				4000307,
+				15,
+				0
+			},
+			{
+				4000308,
+				20,
+				0
+			},
+			{
+				4000309,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000310,
+			4000311,
+			4000312
+		},
+		elite_expedition_list = {
+			4000305,
+			4000308
+		},
+		ai_expedition_list = {
+			4000521,
+			4000522
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000313
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lemaer",
+			"sairenquzhu_i"
+		},
+		awards = {
+			{
+				2,
+				57424
+			},
+			{
+				2,
+				57404
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				true,
+				8
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				12
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				16
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				8
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				3,
+				7,
+				"4x4_2faxihuodong_easy",
+				-133,
+				-7
+			},
+			{
+				1,
+				4,
+				"1x3_2faxihuodong_easy",
+				-5,
+				15
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodongnormal",
+			45,
+			22,
+			-150,
+			-50,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240007] = {
+		special_operation_list = "",
+		name = "正義的怒吼",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.076041667",
+		pre_chapter = 1240005,
+		progress_boss = 20,
+		model = 2,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "B2",
+		type = 1,
+		bg = "",
+		bgm = "",
+		enter_story = "FAXI07",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240007,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240002,
+		pos_x = "0.31640625",
+		formation = 1240002,
+		mitigation_level = 5,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 450,
+		investigation_ratio = 0,
+		profiles = "登陸行動受到來自維希教廷和塞壬航空艦隊的反抗，是時候讓他們知道“正義”的重量了！",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 30,
+		star_require_2 = 2,
+		avoid_ratio = 11,
+		time = 43200,
+		difficulty = 6,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 345,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.66,
+			0.45,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000401,
+				15,
+				0
+			},
+			{
+				4000402,
+				20,
+				0
+			},
+			{
+				4000403,
+				30,
+				1
+			},
+			{
+				4000404,
+				15,
+				0
+			},
+			{
+				4000405,
+				20,
+				0
+			},
+			{
+				4000406,
+				30,
+				1
+			},
+			{
+				4000407,
+				15,
+				0
+			},
+			{
+				4000408,
+				20,
+				0
+			},
+			{
+				4000409,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000410,
+			4000411,
+			4000412
+		},
+		elite_expedition_list = {
+			4000405,
+			4000408
+		},
+		ai_expedition_list = {
+			4000531,
+			4000532,
+			4000533
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000413
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu_i"
+		},
+		awards = {
+			{
+				2,
+				57425
+			},
+			{
+				2,
+				57405
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				8
+			},
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				6
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				1
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				12
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				12
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				16
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				8
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				8,
+				9,
+				"1x2_1faxihuodong_normal",
+				0,
+				44
+			},
+			{
+				6,
+				6,
+				"1x3_1faxihuodong_normao",
+				5,
+				24
+			},
+			{
+				4,
+				6,
+				"1x3_2faxihuodong_normal",
+				-2,
+				23
+			},
+			{
+				3,
+				9,
+				"1x2_2faxihuodong_normal",
+				-34,
+				47
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodongnormal",
+			45,
+			20,
+			-20,
+			110,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240008] = {
+		special_operation_list = "",
+		name = "火炬行動",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.254166667",
+		pre_chapter = 1240007,
+		progress_boss = 20,
+		model = 2,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "B3",
+		type = 1,
+		bg = "",
+		bgm = "",
+		enter_story = "FAXI08",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240008,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240002,
+		pos_x = "0.55625",
+		formation = 1240002,
+		mitigation_level = 5,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 555,
+		investigation_ratio = 0,
+		profiles = "大洋彼岸“最強”的兩艘戰艦，為了各自的正義與信仰，在這個宿命的舞台上展開了對決…",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 35,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		difficulty = 7,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		submarine_num = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 425,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.52,
+			0.36,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000501,
+				15,
+				0
+			},
+			{
+				4000502,
+				20,
+				0
+			},
+			{
+				4000503,
+				30,
+				1
+			},
+			{
+				4000504,
+				15,
+				0
+			},
+			{
+				4000505,
+				20,
+				0
+			},
+			{
+				4000506,
+				30,
+				1
+			},
+			{
+				4000507,
+				15,
+				0
+			},
+			{
+				4000508,
+				20,
+				0
+			},
+			{
+				4000509,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000510,
+			4000511,
+			4000512
+		},
+		elite_expedition_list = {
+			4000505,
+			4000508
+		},
+		ai_expedition_list = {
+			4000541,
+			4000542,
+			4000543,
+			4000544
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000513
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"rangbaer"
+		},
+		awards = {
+			{
+				2,
+				57426
+			},
+			{
+				2,
+				57406
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				true,
+				6
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				12
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				1
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				6
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				8
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				8,
+				5,
+				"1x2_1faxihuodong_normal",
+				7,
+				45
+			},
+			{
+				6,
+				8,
+				"1x3_1faxihuodong_normao",
+				2,
+				18
+			},
+			{
+				6,
+				3,
+				"1x2_2faxihuodong_normal",
+				-28,
+				42
+			},
+			{
+				4,
+				9,
+				"3x2_1faxihuodong_normal",
+				-44,
+				-38
+			},
+			{
+				4,
+				7,
+				"1x1_3faxihuodong_normal",
+				13,
+				8
+			},
+			{
+				1,
+				4,
+				"4x4_2faxihuodong_normal",
+				-57,
+				-4
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodongnormal",
+			38,
+			17,
+			60,
+			220,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"FAXI11"
+		},
+		defeat_story_count = {
+			6
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240011] = {
+		special_operation_list = "",
+		name = "暴雨前夕",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.402083333",
+		pre_chapter = 0,
+		progress_boss = 34,
+		model = 2,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "C1",
+		type = 2,
+		bg = "",
+		bgm = "",
+		enter_story = "",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240011,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240011,
+		pos_x = "0.1625",
+		formation = 1240011,
+		mitigation_level = 8,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 550,
+		investigation_ratio = 0,
+		profiles = "前往搜索攻擊維希教廷的皇家H艦隊，在途中遭遇了塞壬艦隊前鋒，一場遭遇戰即將打響…",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 25,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		difficulty = 6,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 425,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				60
+			},
+			{
+				"cannon",
+				1,
+				500
+			},
+			{
+				"torpedo",
+				1,
+				400
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4000601,
+				15,
+				0
+			},
+			{
+				4000602,
+				20,
+				0
+			},
+			{
+				4000603,
+				30,
+				1
+			},
+			{
+				4000604,
+				15,
+				0
+			},
+			{
+				4000605,
+				20,
+				0
+			},
+			{
+				4000606,
+				30,
+				1
+			},
+			{
+				4000607,
+				15,
+				0
+			},
+			{
+				4000608,
+				20,
+				0
+			},
+			{
+				4000609,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000610,
+			4000611,
+			4000612
+		},
+		elite_expedition_list = {
+			4000605,
+			4000608
+		},
+		ai_expedition_list = {
+			4000821
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000613
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenquzhu_i"
+		},
+		awards = {
+			{
+				2,
+				57451
+			},
+			{
+				2,
+				57431
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				9,
+				true,
+				8
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				16
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				6,
+				5,
+				"1x2_2faxihuodong_normal",
+				-25,
+				45
+			},
+			{
+				2,
+				8,
+				"3x2_1faxihuodong_normal",
+				-49,
+				-36
+			},
+			{
+				2,
+				3,
+				"1x1_2faxihuodong_normal",
+				1,
+				5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodongnormal",
+			45,
+			22,
+			50,
+			-50,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240013] = {
+		special_operation_list = "",
+		name = "突破",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.379166667",
+		pre_chapter = 1240011,
+		progress_boss = 25,
+		model = 2,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "C2",
+		type = 2,
+		bg = "",
+		bgm = "",
+		enter_story = "FAXI02",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240013,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240011,
+		pos_x = "0.62109375",
+		formation = 1240011,
+		mitigation_level = 8,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 630,
+		investigation_ratio = 0,
+		profiles = "偵察機報告：塞壬的艦隊嚴密守衛著凱比爾港，我們必須突破塞壬的防衛線，打開入港的航道！",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 30,
+		star_require_2 = 2,
+		avoid_ratio = 13,
+		time = 43200,
+		difficulty = 7,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 485,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.66,
+			0.45,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				66
+			},
+			{
+				"cannon",
+				1,
+				650
+			},
+			{
+				"dodge",
+				1,
+				350
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4000701,
+				15,
+				0
+			},
+			{
+				4000702,
+				20,
+				0
+			},
+			{
+				4000703,
+				30,
+				1
+			},
+			{
+				4000704,
+				15,
+				0
+			},
+			{
+				4000705,
+				20,
+				0
+			},
+			{
+				4000706,
+				30,
+				1
+			},
+			{
+				4000707,
+				15,
+				0
+			},
+			{
+				4000708,
+				20,
+				0
+			},
+			{
+				4000709,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000710,
+			4000711,
+			4000712
+		},
+		elite_expedition_list = {
+			4000705,
+			4000708
+		},
+		ai_expedition_list = {
+			4000831,
+			4000832
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000713
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhongxun_i"
+		},
+		awards = {
+			{
+				2,
+				57452
+			},
+			{
+				2,
+				57432
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				10,
+				true,
+				8
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				2
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				4
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				16
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				8
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"1x1_2faxihuodong_normal",
+				0,
+				0
+			},
+			{
+				7,
+				1,
+				"1x1_1faxihuodong_normal",
+				5,
+				19
+			},
+			{
+				4,
+				10,
+				"1x1_3faxihuodong_normal",
+				5,
+				9
+			},
+			{
+				4,
+				7,
+				"1x2_2faxihuodong_normal",
+				-37,
+				47
+			},
+			{
+				4,
+				2,
+				"1x3_2faxihuodong_normal",
+				-6,
+				7
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodongnormal",
+			45,
+			20,
+			50,
+			-55,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240014] = {
+		special_operation_list = "",
+		name = "弩炮行動",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.1739",
+		pre_chapter = 1240013,
+		progress_boss = 25,
+		model = 2,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "C3",
+		type = 2,
+		bg = "",
+		bgm = "",
+		enter_story = "FAXI03",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240014,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240011,
+		pos_x = "0.3813",
+		formation = 1240011,
+		mitigation_level = 8,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 710,
+		investigation_ratio = 0,
+		profiles = "面對拒絕了最後通牒的敦克爾克，皇家艦隊已別無選擇…全艦隊戰鬥準備！",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 35,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		difficulty = 8,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 545,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.52,
+			0.36,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				72
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4000801,
+				15,
+				0
+			},
+			{
+				4000802,
+				20,
+				0
+			},
+			{
+				4000803,
+				30,
+				1
+			},
+			{
+				4000804,
+				15,
+				0
+			},
+			{
+				4000805,
+				20,
+				0
+			},
+			{
+				4000806,
+				30,
+				1
+			},
+			{
+				4000807,
+				15,
+				0
+			},
+			{
+				4000808,
+				20,
+				0
+			},
+			{
+				4000809,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000810,
+			4000811,
+			4000812
+		},
+		elite_expedition_list = {
+			4000805,
+			4000808
+		},
+		ai_expedition_list = {
+			4000841,
+			4000842,
+			4000843
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000813
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"dunkeerke"
+		},
+		awards = {
+			{
+				2,
+				57453
+			},
+			{
+				2,
+				57433
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				11,
+				true,
+				2
+			},
+			{
+				7,
+				10,
+				true,
+				4
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				11,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				11,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				11,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				8
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				16
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				11,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				11,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				11,
+				true,
+				2
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				12
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				7,
+				4,
+				"4x4_2faxihuodong_normal",
+				-51,
+				76
+			},
+			{
+				6,
+				10,
+				"1x3_2faxihuodong_normal",
+				0,
+				16
+			},
+			{
+				4,
+				6,
+				"1x1_3faxihuodong_normal",
+				5,
+				11
+			},
+			{
+				3,
+				10,
+				"3x2_1faxihuodong_normal",
+				-47,
+				-42
+			},
+			{
+				3,
+				3,
+				"1x1_1faxihuodong_normal",
+				0,
+				14
+			},
+			{
+				1,
+				3,
+				"1x3_1faxihuodong_normao",
+				-4,
+				15
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodongnormal",
+			42,
+			16,
+			50,
+			0,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240015] = {
+		special_operation_list = "",
+		name = "合流",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.3875",
+		pre_chapter = 1240014,
+		progress_boss = 20,
+		model = 2,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "D1",
+		type = 2,
+		bg = "",
+		bgm = "",
+		enter_story = "FAXI06",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240015,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240012,
+		pos_x = "0.228125",
+		formation = 1240012,
+		mitigation_level = 8,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 845,
+		investigation_ratio = 0,
+		profiles = "皇家和白鷹的聯合登陸作戰行動開始，在打擊陸上目標之前，先試著突破塞壬的防禦吧",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 30,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		difficulty = 8,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 650,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					1,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				78
+			},
+			{
+				"cannon",
+				1,
+				950
+			},
+			{
+				"dodge",
+				1,
+				600
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4000901,
+				15,
+				0
+			},
+			{
+				4000902,
+				20,
+				0
+			},
+			{
+				4000903,
+				30,
+				1
+			},
+			{
+				4000904,
+				15,
+				0
+			},
+			{
+				4000905,
+				20,
+				0
+			},
+			{
+				4000906,
+				30,
+				1
+			},
+			{
+				4000907,
+				15,
+				0
+			},
+			{
+				4000908,
+				20,
+				0
+			},
+			{
+				4000909,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000910,
+			4000911,
+			4000912
+		},
+		elite_expedition_list = {
+			4000905,
+			4000908
+		},
+		ai_expedition_list = {
+			4001121,
+			4001122
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000913
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lemaer",
+			"sairenquzhu_i"
+		},
+		awards = {
+			{
+				2,
+				57454
+			},
+			{
+				2,
+				57434
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				true,
+				8
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				12
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				12
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				16
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				1,
+				10,
+				true,
+				8
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				6,
+				"4x4_2faxihuodong_hard",
+				54,
+				77
+			},
+			{
+				1,
+				4,
+				"1x3_2faxihuodong_hard",
+				5,
+				12
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodonghard",
+			45,
+			22,
+			-150,
+			-50,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240017] = {
+		special_operation_list = "",
+		name = "正義的怒吼",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.076041667",
+		pre_chapter = 1240015,
+		progress_boss = 20,
+		model = 2,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "D2",
+		type = 2,
+		bg = "",
+		bgm = "",
+		enter_story = "FAXI07",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240017,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240012,
+		pos_x = "0.31640625",
+		formation = 1240012,
+		mitigation_level = 8,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1000,
+		investigation_ratio = 0,
+		profiles = "登陸行動受到來自維希教廷和塞壬航空艦隊的反抗，是時候讓他們知道“正義”的重量了！",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 35,
+		star_require_2 = 2,
+		avoid_ratio = 15,
+		time = 43200,
+		difficulty = 9,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 770,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.66,
+			0.45,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					1,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				84
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"antiaircraft",
+				1,
+				1600
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4001001,
+				15,
+				0
+			},
+			{
+				4001002,
+				20,
+				0
+			},
+			{
+				4001003,
+				30,
+				1
+			},
+			{
+				4001004,
+				15,
+				0
+			},
+			{
+				4001005,
+				20,
+				0
+			},
+			{
+				4001006,
+				30,
+				1
+			},
+			{
+				4001007,
+				15,
+				0
+			},
+			{
+				4001008,
+				20,
+				0
+			},
+			{
+				4001009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4001010,
+			4001011,
+			4001012
+		},
+		elite_expedition_list = {
+			4001005,
+			4001008
+		},
+		ai_expedition_list = {
+			4001131,
+			4001132,
+			4001133
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4001013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu_i"
+		},
+		awards = {
+			{
+				2,
+				57455
+			},
+			{
+				2,
+				57435
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				8
+			},
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				6
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				1
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				12
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				12
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				16
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				12
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				8
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				8,
+				9,
+				"1x2_1faxihuodong_normal",
+				6,
+				49
+			},
+			{
+				6,
+				5,
+				"1x3_1faxihuodong_hard",
+				99,
+				19
+			},
+			{
+				4,
+				5,
+				"1x3_2faxihuodong_hard",
+				98,
+				15
+			},
+			{
+				2,
+				9,
+				"1x2_2faxihuodong_hard",
+				-28,
+				-26
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodonghard",
+			45,
+			20,
+			-20,
+			110,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240018] = {
+		special_operation_list = "",
+		name = "火炬行動",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.254166667",
+		pre_chapter = 1240017,
+		progress_boss = 17,
+		model = 2,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "D3",
+		type = 2,
+		bg = "",
+		bgm = "",
+		enter_story = "FAXI08",
+		is_ai = 1,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240018,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240012,
+		pos_x = "0.55625",
+		formation = 1240012,
+		mitigation_level = 8,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1175,
+		investigation_ratio = 0,
+		profiles = "大洋彼岸“最強”的兩艘戰艦，為了各自的正義與信仰，在這個宿命的舞台上展開了對決…",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 40,
+		star_require_2 = 2,
+		avoid_ratio = 16,
+		time = 43200,
+		difficulty = 10,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 905,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.52,
+			0.36,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					1,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1300
+			},
+			{
+				"torpedo",
+				1,
+				1500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4001101,
+				15,
+				0
+			},
+			{
+				4001102,
+				20,
+				0
+			},
+			{
+				4001103,
+				30,
+				1
+			},
+			{
+				4001104,
+				15,
+				0
+			},
+			{
+				4001105,
+				20,
+				0
+			},
+			{
+				4001106,
+				30,
+				1
+			},
+			{
+				4001107,
+				15,
+				0
+			},
+			{
+				4001108,
+				20,
+				0
+			},
+			{
+				4001109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4001110,
+			4001111,
+			4001112
+		},
+		elite_expedition_list = {
+			4001105,
+			4001108
+		},
+		ai_expedition_list = {
+			4001141,
+			4001142,
+			4001143,
+			4001144
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4001113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"rangbaer"
+		},
+		awards = {
+			{
+				2,
+				57456
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				true,
+				6
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				12
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				1
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				6
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				8
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				4
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				12
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				8,
+				5,
+				"1x2_1faxihuodong_hard",
+				-1,
+				47
+			},
+			{
+				6,
+				8,
+				"1x3_1faxihuodong_hard",
+				3,
+				21
+			},
+			{
+				6,
+				3,
+				"1x2_2faxihuodong_hard",
+				-25,
+				49
+			},
+			{
+				4,
+				9,
+				"3x2_1faxihuodong_hard",
+				-55,
+				-34
+			},
+			{
+				4,
+				7,
+				"1x1_3faxihuodong_hard",
+				8,
+				14
+			},
+			{
+				1,
+				3,
+				"4x4_2faxihuodong_hard",
+				46,
+				-1
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodonghard",
+			38,
+			17,
+			60,
+			220,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"FAXI11"
+		},
+		defeat_story_count = {
+			6
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240019] = {
+		special_operation_list = "",
+		name = "鳶尾之華",
+		count = 1,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.2979",
+		pre_chapter = 1240018,
+		progress_boss = 20,
+		model = 2,
+		boss_refresh = 7,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "SP",
+		type = 2,
+		bg = "",
+		bgm = "",
+		enter_story = "",
+		is_ai = 1,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240019,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240020,
+		pos_x = "0.479",
+		formation = 1240020,
+		mitigation_level = 0,
+		is_air_attack = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1370,
+		investigation_ratio = 0,
+		profiles = "綻放之光，凋零之影。冰冷的大洋之上，炮火仍在轟鳴。戰鬥、尚未結束——",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 8,
+		star_require_2 = 4,
+		avoid_ratio = 16,
+		time = 43200,
+		difficulty = 10,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		submarine_num = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1055,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4001301,
+				15,
+				0
+			},
+			{
+				4001302,
+				20,
+				0
+			},
+			{
+				4001303,
+				30,
+				1
+			},
+			{
+				4001304,
+				15,
+				0
+			},
+			{
+				4001305,
+				20,
+				0
+			},
+			{
+				4001306,
+				30,
+				1
+			},
+			{
+				4001307,
+				15,
+				0
+			},
+			{
+				4001308,
+				20,
+				0
+			},
+			{
+				4001309,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4001310,
+			4001311,
+			4001312
+		},
+		elite_expedition_list = {
+			4001305,
+			4001308
+		},
+		ai_expedition_list = {
+			4001151,
+			4001152,
+			4001153,
+			4001154
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4001313
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"rangbaer"
+		},
+		awards = {
+			{
+				2,
+				57456
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				6
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				8
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				4
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				1
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				8
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				12
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"1x1_1faxihuodong_hard",
+				0,
+				17
+			},
+			{
+				6,
+				1,
+				"1x3_1faxihuodong_hard",
+				0,
+				12
+			},
+			{
+				4,
+				0,
+				"1x3_2faxihuodong_hard",
+				89,
+				10
+			},
+			{
+				2,
+				5,
+				"1x2_1faxihuodong_hard",
+				0,
+				-23
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodonghard",
+			45,
+			20,
+			-128,
+			98,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+	uv0.chapter_template[1240021] = {
+		special_operation_list = "",
+		name = "光與影",
+		count = 0,
+		pop_pic = "",
+		act_id = 40450,
+		pos_y = "0.2979",
+		pre_chapter = 1240018,
+		progress_boss = 100,
+		model = 5,
+		boss_refresh = 0,
+		is_limit_move = 0,
+		oil = 0,
+		chapter_tag = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		icon_outline = 0,
+		chapter_name = "EXTRA",
+		type = 2,
+		bg = "",
+		bgm = "",
+		enter_story = "",
+		is_ai = 0,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		id = 1240021,
+		ammo_total = 5,
+		friendly_id = 0,
+		event_skip = 0,
+		map = 1240021,
+		pos_x = "0.479",
+		formation = 1240021,
+		mitigation_level = 0,
+		is_air_attack = 0,
+		group_num = 1,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 810,
+		investigation_ratio = 0,
+		profiles = "「光立於聖堂，影坐落階下。挑戰者哦，若你想追隨那光，就先跨過我這影吧。」",
+		star_require_3 = 3,
+		wall_prefab = "",
+		num_2 = 4,
+		star_require_2 = 4,
+		avoid_ratio = 17,
+		time = 43200,
+		difficulty = 10,
+		land_based = "",
+		num_3 = 1,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		unlocklevel = 0,
+		avoid_require = 0,
+		air_dominance = 620,
+		mine_id = 2001,
+		uifx = "",
+		ammo_cost = 1,
+		scale = {
+			0.52,
+			0.36,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					5,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4001110,
+			4001111,
+			4001112
+		},
+		elite_expedition_list = {
+			4001105,
+			4001108
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4001201
+		},
+		enemy_refresh = {
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"rangbaer",
+			"dunkeerke"
+		},
+		awards = {},
+		grids = {
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				8
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				3,
+				"1x2_2faxihuodong_hard",
+				-21,
+				49
+			},
+			{
+				7,
+				5,
+				"1x3_1faxihuodong_hard",
+				3,
+				15
+			},
+			{
+				5,
+				5,
+				"1x3_1faxihuodong_hard",
+				6,
+				20
+			},
+			{
+				4,
+				3,
+				"1x2_2faxihuodong_hard",
+				-17,
+				-29
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_faxihuodonghard",
+			38,
+			21,
+			100,
+			80,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		chapter_buff = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
 	uv0.chapter_template[1250001] = {
 		special_operation_list = "",
 		name = "不受歡迎的訪客",
@@ -152024,6 +161669,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -152612,6 +162258,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -153248,6 +162895,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -153979,6 +163627,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -154605,6 +164254,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -155274,6 +164924,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -155911,6 +165562,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -156452,6 +166104,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -157048,6 +166701,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -157638,6 +167292,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -158324,6 +167979,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -158954,6 +168610,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -159627,6 +169284,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -160400,6 +170058,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -161070,6 +170729,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -161783,6 +171443,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -162436,6 +172097,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				5,
@@ -163246,6 +172908,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -163737,6 +173400,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -164320,6 +173984,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -164958,6 +174623,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -165592,6 +175258,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -166234,6 +175901,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				3,
@@ -166807,6 +176475,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -167349,6 +177018,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -167896,6 +177566,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -168537,6 +178208,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -169109,6 +178781,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -169711,6 +179384,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -170399,6 +180073,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -170939,6 +180614,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -171520,6 +181196,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -172126,6 +181803,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -172775,6 +182453,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -173444,6 +183123,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -174056,6 +183736,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -174699,6 +184380,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -175429,6 +185111,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -176012,6 +185695,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -176634,6 +186318,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -177284,6 +186969,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -177976,6 +187662,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -178623,6 +188310,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -179232,6 +188920,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -179683,6 +189372,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -180258,6 +189948,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -180934,6 +190625,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -181586,6 +191278,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -182011,6 +191704,8 @@ end)()
 		alarm_cell = {},
 		weather_grids = {}
 	}
+end)()
+(function ()
 	uv0.chapter_template[1280002] = {
 		special_operation_list = "",
 		name = "熱唱的Heatup",
@@ -182188,6 +191883,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -182880,6 +192576,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -183576,6 +193273,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -184271,6 +193969,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -184999,6 +194698,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -185622,6 +195322,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -186073,6 +195774,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -186645,6 +196347,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -187234,6 +196937,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -187847,6 +197551,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -188475,6 +198180,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -189150,6 +198856,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -189827,6 +199534,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -190442,6 +200150,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -190869,8 +200578,6 @@ end)()
 		alarm_cell = {},
 		weather_grids = {}
 	}
-end)()
-(function ()
 	uv0.chapter_template[1300023] = {
 		special_operation_list = "",
 		name = "鐵血之謀",
@@ -191076,6 +200783,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -191731,6 +201439,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -192403,6 +202112,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -193122,6 +202832,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -193793,6 +203504,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -194408,6 +204120,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -194856,6 +204569,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -195445,6 +205159,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -196020,6 +205735,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -196640,6 +206356,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -197272,6 +206989,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -197852,6 +207570,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -198536,6 +208255,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -199168,6 +208888,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -199785,6 +209506,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -200447,6 +210169,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -201123,6 +210846,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -201747,6 +211471,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -202424,6 +212149,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -203037,6 +212763,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -203502,6 +213229,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -204037,6 +213765,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -204632,6 +214361,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -205267,6 +214997,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -205819,6 +215550,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -206399,6 +216131,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -207001,6 +216734,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -207638,6 +217372,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -208265,6 +218000,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -209004,6 +218740,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -209598,6 +219335,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -210221,6 +219959,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -210865,6 +220604,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -211546,6 +221286,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -212217,6 +221958,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -212950,6 +222692,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -213487,6 +223230,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -213926,6 +223670,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -214540,6 +224285,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -215216,6 +224962,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -215903,6 +225650,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -216486,6 +226234,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -217100,6 +226849,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -217809,6 +227559,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -218506,6 +228257,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -219521,6 +229273,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -221328,6 +231081,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -221953,6 +231707,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -222610,6 +232365,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -223360,6 +233116,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -224100,6 +233857,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -225158,6 +234916,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -226959,6 +236718,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -228194,6 +237954,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -228663,6 +238424,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -229349,6 +239111,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -230015,6 +239778,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -230703,6 +240467,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -231451,6 +241216,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -232223,6 +241989,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -233127,6 +242894,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -233852,6 +243620,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -234557,6 +244326,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -235285,6 +245055,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -236075,6 +245846,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -236890,6 +246662,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -237790,6 +247563,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -238859,6 +248633,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -239339,6 +249114,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -240126,6 +249902,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -240796,6 +250573,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -241648,6 +251426,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -242655,6 +252434,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -243566,6 +253346,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -244541,6 +254322,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -245052,6 +254834,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				6,
@@ -245803,6 +255586,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -246632,6 +256416,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -247344,6 +257129,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -248237,6 +258023,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -249287,6 +259074,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -250242,6 +260030,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -251217,6 +261006,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -251728,6 +261518,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				6,
@@ -252452,6 +262243,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -253418,6 +263210,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -253748,6 +263541,8 @@ end)()
 		alarm_cell = {},
 		weather_grids = {}
 	}
+end)()
+(function ()
 	uv0.chapter_template[1420001] = {
 		special_operation_list = "",
 		name = "分流",
@@ -253895,6 +263690,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -254500,6 +264296,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -255119,6 +264916,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -255737,6 +265535,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -256358,6 +266157,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -257034,6 +266834,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -257712,6 +267513,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -258494,6 +268296,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -259078,6 +268881,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -259575,6 +269379,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -260205,6 +270010,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -260891,6 +270697,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -261583,6 +271390,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -262371,6 +272179,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -262877,8 +272686,6 @@ end)()
 		alarm_cell = {},
 		weather_grids = {}
 	}
-end)()
-(function ()
 	uv0.chapter_template[1540051] = {
 		special_operation_list = "",
 		name = "最後的EX舞台？ ！",
@@ -262991,6 +272798,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -263508,6 +273316,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -264053,6 +273862,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -264655,6 +274465,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -265324,6 +275135,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -265943,6 +275755,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -266665,6 +276478,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -267421,6 +277235,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -268007,6 +277822,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -268651,6 +278467,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -269362,6 +279179,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -270023,6 +279841,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -270786,6 +280605,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -271495,6 +281315,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -271993,6 +281814,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -272552,6 +282374,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -273199,6 +283022,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -273872,6 +283696,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -274563,6 +284388,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -275462,6 +285288,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -276001,6 +285828,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -276601,6 +286429,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -277289,6 +287118,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -278003,6 +287833,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -278735,6 +288566,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -279599,6 +289431,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -280191,6 +290024,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -280838,6 +290672,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -281574,6 +291409,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -282249,6 +292085,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -283067,6 +292904,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -284097,6 +293935,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -284730,6 +294569,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -285418,6 +295258,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -286195,6 +296036,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -286911,6 +296753,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -287770,6 +297613,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -288724,6 +298568,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -289151,6 +298996,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -289639,6 +299485,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -290171,6 +300018,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -290869,6 +300717,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -291579,6 +301428,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -292301,6 +302151,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -292849,6 +302700,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -293452,6 +303304,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -294125,6 +303978,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -294748,6 +304602,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -295471,6 +305326,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -296230,6 +306086,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -296820,6 +306677,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -297466,6 +307324,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -298181,6 +308040,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -298846,6 +308706,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -299610,6 +309471,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -300351,6 +310213,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -301070,6 +310933,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -301620,6 +311484,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -302276,6 +312141,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -303042,6 +312908,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -303605,6 +313472,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -304272,6 +314140,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -305105,6 +314974,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -305696,6 +315566,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -306393,6 +316264,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -307202,6 +317074,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -307808,6 +317681,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -308519,6 +318393,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -309315,6 +319190,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -309902,6 +319778,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -310589,6 +320466,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -311327,6 +321205,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -311932,6 +321811,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -312502,6 +322382,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -313167,6 +323048,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -313833,6 +323715,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -314550,6 +324433,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -315365,6 +325249,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -316013,6 +325898,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -316625,6 +326511,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -317332,6 +327219,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -318042,6 +327930,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -318803,6 +328692,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -319540,6 +329430,7 @@ end)()
 		submarine_refresh = {
 			0
 		},
+		use_oil_limit = {},
 		win_condition = {
 			{
 				1,
@@ -320071,6 +329962,20 @@ slot0.chapter_template.all = {
 	1230016,
 	1230017,
 	1230021,
+	1240001,
+	1240003,
+	1240004,
+	1240005,
+	1240007,
+	1240008,
+	1240011,
+	1240013,
+	1240014,
+	1240015,
+	1240017,
+	1240018,
+	1240019,
+	1240021,
 	1250001,
 	1250002,
 	1250003,

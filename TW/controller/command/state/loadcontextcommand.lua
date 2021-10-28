@@ -15,15 +15,17 @@ end
 
 function slot0.loadNext(slot0)
 	if #uv0.queue > 0 then
-		if uv0.queue[1].type == LOAD_TYPE_SCENE then
-			slot0:loadScene(slot1.context, slot1.prevContext, function ()
-				if uv0.callback then
-					uv0.callback()
-				end
+		function slot2()
+			if uv0.callback then
+				uv0.callback()
+			end
 
-				table.remove(uv1.queue, 1)
-				uv2:loadNext()
-			end)
+			table.remove(uv1.queue, 1)
+			uv2:loadNext()
+		end
+
+		if uv0.queue[1].type == LOAD_TYPE_SCENE then
+			slot0:loadScene(slot1.context, slot1.prevContext, slot2)
 		elseif slot1.type == LOAD_TYPE_LAYER then
 			slot0:loadLayer(slot1.context, slot1.parentContext, slot2)
 		end
@@ -77,7 +79,7 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 		end,
 		function (slot0)
 			if uv0 then
-				table.eachAsync(uv0, function (slot0, slot1, slot2)
+				table.SerialForeachArray(uv0, function (slot0, slot1, slot2)
 					uv0:remove(slot1.mediator:getViewComponent(), function ()
 						uv0.context:onContextRemoved()
 						uv1()
@@ -112,8 +114,13 @@ function slot0.loadLayer(slot0, slot1, slot2, slot3)
 
 	seriesAsync({
 		function (slot0)
-			pg.UIMgr.GetInstance():LoadingOn()
-			uv0:prepareLayer(uv1.facade, uv2, uv3, function (slot0)
+			slot1 = pg.UIMgr.GetInstance()
+
+			slot1:LoadingOn()
+
+			slot1 = uv0
+
+			slot1:prepareLayer(uv1.facade, uv2, uv3, function (slot0)
 				for slot4, slot5 in ipairs(slot0) do
 					table.insert(uv0, slot5)
 				end

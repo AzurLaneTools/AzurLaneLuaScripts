@@ -82,7 +82,6 @@ function slot5.InitCharacterFactory(slot0)
 		[uv1.UnitType.PLAYER_UNIT] = uv0.Battle.BattlePlayerCharacterFactory.GetInstance(),
 		[uv1.UnitType.ENEMY_UNIT] = uv0.Battle.BattleEnemyCharacterFactory.GetInstance(),
 		[uv1.UnitType.BOSS_UNIT] = uv0.Battle.BattleBossCharacterFactory.GetInstance(),
-		[uv1.UnitType.NPC_UNIT] = uv0.Battle.BattleNPCCharacterFactory.GetInstance(),
 		[uv1.UnitType.AIRCRAFT_UNIT] = uv0.Battle.BattleAircraftCharacterFactory.GetInstance(),
 		[uv1.UnitType.AIRFIGHTER_UNIT] = uv0.Battle.BattleAirFighterCharacterFactory.GetInstance(),
 		[uv1.UnitType.SUB_UNIT] = uv0.Battle.BattleSubCharacterFactory.GetInstance()
@@ -189,8 +188,10 @@ function slot5.onAddUnit(slot0, slot1)
 end
 
 function slot5.onRemoveUnit(slot0, slot1)
+	slot3 = slot1.Data.deadReason
+
 	if slot0._characterList[slot1.Data.UID] then
-		slot4:GetFactory():RemoveCharacter(slot4, slot1.Data.deadReason)
+		slot4:GetFactory():RemoveCharacter(slot4, slot3)
 
 		slot0._characterList[slot2] = nil
 	end
@@ -264,8 +265,10 @@ function slot5.onAntiAirArea(slot0, slot1)
 end
 
 function slot5.onAntiAirOverload(slot0, slot1)
+	slot3 = slot0._antiAirAreaTF:Find("Quad"):GetComponent(typeof(Animator))
+
 	if slot1.Dispatcher:IsOverLoad() then
-		slot0._antiAirAreaTF:Find("Quad"):GetComponent(typeof(Animator)).enabled = false
+		slot3.enabled = false
 	else
 		slot3.enabled = true
 	end
@@ -457,6 +460,8 @@ function slot5.onBulletTime(slot0, slot1)
 	slot3 = slot2.key
 
 	if slot2.speed then
+		slot5 = slot2.exemptUnit:GetUniqueID()
+
 		uv0.AppendIFFFactor(uv1.FOE_CODE, slot3, slot4)
 
 		slot9 = slot4
@@ -464,7 +469,7 @@ function slot5.onBulletTime(slot0, slot1)
 		uv0.AppendIFFFactor(uv1.FRIENDLY_CODE, slot3, slot9)
 
 		for slot9, slot10 in pairs(slot0._characterList) do
-			if slot9 == slot2.exemptUnit:GetUniqueID() then
+			if slot9 == slot5 then
 				slot10:SetAnimaSpeed(1 / slot4)
 
 				break
@@ -507,12 +512,18 @@ function slot5.UpdateAimBiasArea(slot0)
 	for slot4, slot5 in pairs(slot0._aimBiasTFList) do
 		slot6 = slot5.tf
 		slot7 = slot5.vector
-		slot8 = slot4:GetRange() * 2
+		slot9 = slot4:GetRange() * 2
 
-		slot7:Set(slot8, 0, slot8)
+		slot7:Set(slot9, 0, slot9)
 
 		slot6.position = slot4:GetPosition()
 		slot6.localScale = slot7
+
+		if slot4:GetCurrentState() ~= slot5.cacheState then
+			setActive(slot6:Find("suofang/Quad"), slot10 ~= slot4.STATE_SKILL_EXPOSE)
+		end
+
+		slot5.cacheState = slot10
 	end
 end
 

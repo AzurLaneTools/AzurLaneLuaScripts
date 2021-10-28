@@ -48,6 +48,27 @@ return {
 			arg_list = {
 				tag = "C14_highlight"
 			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				buff_id = 9654,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCleanse",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				buff_id_list = {
+					9654
+				}
+			}
 		}
 	}
 }

@@ -126,7 +126,7 @@ function slot3.onAddUnit(slot0, slot1)
 
 	slot0._unitDataList[slot3:GetUniqueID()] = slot3
 
-	if slot1.Data.type == uv0.Battle.BattleConst.UnitType.ENEMY_UNIT or slot2 == uv0.Battle.BattleConst.UnitType.BOSS_UNIT or slot2 == uv0.Battle.BattleConst.UnitType.NPC_UNIT then
+	if slot1.Data.type == uv0.Battle.BattleConst.UnitType.ENEMY_UNIT or slot2 == uv0.Battle.BattleConst.UnitType.BOSS_UNIT then
 		slot0._waveUpdater:AddMonster(slot3)
 	end
 end
@@ -208,7 +208,9 @@ function slot3.onWillDie(slot0, slot1)
 		slot0._dataProxy:CalcBattleScoreWhenDead(slot2)
 	end
 
-	if slot2:IsBoss() and not slot0._dataProxy:IsThereBoss() then
+	slot5 = slot0._dataProxy:IsThereBoss()
+
+	if slot2:IsBoss() and not slot5 then
 		slot0._dataProxy:KillAllEnemy()
 	end
 end
@@ -224,9 +226,11 @@ function slot3.GetMaxRestHPRateBossRate(slot0)
 		end
 	end
 
+	slot2 = 0
+
 	for slot6, slot7 in pairs(slot0._dataProxy:GetUnitList()) do
 		if slot7:IsBoss() and slot7:IsAlive() then
-			slot2 = math.max(0, slot7:GetHPRate())
+			slot2 = math.max(slot2, slot7:GetHPRate())
 		end
 	end
 

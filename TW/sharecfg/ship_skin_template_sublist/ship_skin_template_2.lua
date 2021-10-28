@@ -1,5 +1,111 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
+	[101350] = {
+		ship_group = 10135,
+		name = "貝奇",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 101350,
+		group_index = 0,
+		prefab = "beiqi",
+		painting = "beiqi",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "弗萊徹級驅逐艦—貝奇，舷號DD-470",
+		voice_actor = 204,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.085,
+					0.859,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.088,
+					0.969,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.032,
+					0.025,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.25,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101351] = {
 		ship_group = 10135,
 		name = "華麗的速度之星",
@@ -1476,6 +1582,114 @@ pg.ship_skin_template_2 = {
 				{
 					-0.008,
 					0.008,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101421] = {
+		ship_group = 10142,
+		name = "魔女快遞",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "119",
+		id = 101421,
+		group_index = 1,
+		prefab = "simoli_3",
+		painting = "simoli_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70257,
+		shop_type_id = 8,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "現在的我是夜晚的魔女，任務是把東西送到指定的地方。指揮官，給，同伴送給你的南瓜燈。",
+		voice_actor = 180,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.834,
+					1.348,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.841,
+					1.371,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.068,
+					-0.05,
 					0
 				}
 			}
@@ -6298,128 +6512,22 @@ pg.ship_skin_template_2 = {
 			}
 		}
 	},
-	[102180] = {
-		ship_group = 10218,
-		name = "康克德",
+	[102162] = {
+		ship_group = 10216,
+		name = "Mystical Night",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
 		illustrator2 = -1,
-		bg = "",
-		id = 102180,
-		group_index = 0,
-		prefab = "kangkede",
-		painting = "kangkede",
+		bg = "119",
+		id = 102162,
+		group_index = 2,
+		prefab = "mengfeisi_3",
+		painting = "mengfeisi_3",
 		aircraft_skin = "",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "奧馬哈級輕巡洋艦—康克德，舷號CL-10",
-		voice_actor = 42,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.97,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.06,
-					0.82,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.23,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[102181] = {
-		ship_group = 10218,
-		name = "紅色蘋果糖",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "101",
-		id = 102181,
-		group_index = 1,
-		prefab = "kangkede_2",
-		painting = "kangkede_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70117,
-		shop_type_id = 2,
+		shop_type_id = 8,
 		air_bomb_skin = "",
 		lip_smoothing = 0,
 		l2d_animations = "",
@@ -6433,8 +6541,8 @@ pg.ship_skin_template_2 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "蘋果糖、鯛魚燒、炒麵～重櫻的“廟會”還真是不錯呢～嘻嘻，指揮官也要舔一口蘋果糖嗎？喏，給你～",
-		voice_actor = 42,
+		desc = "就算是狂歡，也要拿出幹勁，全力以赴才行呢~指揮官，準備好了嗎？愉快的萬聖之夜現在才要開始呢~",
+		voice_actor = 159,
 		spine_offset = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -6476,35 +6584,35 @@ pg.ship_skin_template_2 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.16,
-					0.89,
+					0.982,
+					1.074,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.15,
-					0.1,
+					-0.006,
+					-0.018,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					0.18,
-					0.84,
+					1.003,
+					1.096,
 					0
 				}
 			}
 		},
 		smoke = {
 			{
-				40,
+				50,
 				{
 					{
 						"smoke",
 						{
-							-0.49,
-							2.23,
+							-0.35,
+							2.53,
 							-0.16
 						}
 					}

@@ -48,7 +48,9 @@ end
 function slot0.flush(slot0)
 	if slot0.shipGroup then
 		slot2 = slot1.shipConfig
-		slot0.imageBg.sprite = GetSpriteFromAtlas("bg/star_level_card_" .. shipRarity2bgPrint(slot1:getRarity(slot0.showTrans), nil, slot1:isBluePrintGroup(), slot1:isMetaGroup()), "")
+
+		GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. shipRarity2bgPrint(slot1:getRarity(slot0.showTrans), nil, slot1:isBluePrintGroup(), slot1:isMetaGroup()), "", slot0.imageBg)
+
 		slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
 
 		LoadSpriteAsync("shipYardIcon/" .. slot1:getPainting(slot0.showTrans), function (slot0)

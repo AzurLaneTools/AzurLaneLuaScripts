@@ -64,6 +64,7 @@ function slot9.Init(slot0)
 	slot0._extraInfo = {}
 	slot0._GCDTimerList = {}
 	slot0._buffList = {}
+	slot0._buffStockList = {}
 	slot0._labelTagList = {}
 	slot0._exposedToSnoar = false
 	slot0._moveCast = true
@@ -141,51 +142,6 @@ function slot9.RemoveSummonSickness(slot0)
 	slot0._sicknessTimer = nil
 end
 
-function slot9.Tag(slot0, slot1)
-	slot0._tagCount = slot0._tagCount + 1
-	slot0._tagIndex = slot0._tagIndex + 1
-
-	if slot0._tagList[slot1] == nil then
-		slot0._tagList[slot1] = {}
-	end
-
-	slot2 = slot0._tagList[slot1]
-	slot2[#slot2 + 1] = slot0._tagIndex
-
-	slot0:DispatchEvent(uv0.Event.New(uv1.ADD_TAG, {
-		tagID = slot0._tagIndex,
-		requiredTime = slot1:GetLockRequiredTime()
-	}))
-end
-
-function slot9.UnTag(slot0, slot1)
-	if slot0._tagList[slot1] ~= nil and #slot2 > 0 then
-		slot0._tagCount = slot0._tagCount - 1
-
-		slot0:DispatchEvent(uv0.Event.New(uv1.REMOVE_TAG, {
-			tagID = slot2[#slot2]
-		}))
-
-		slot2[#slot2] = nil
-
-		if #slot2 == 0 then
-			slot0._tagList[slot1] = nil
-		end
-	end
-end
-
-function slot9.GetAllTagCount(slot0)
-	return slot0._tagCount
-end
-
-function slot9.GetSingleWeaponTagCount(slot0, slot1)
-	if slot0._tagList[slot1] == nil then
-		return 0
-	else
-		return #slot0._tagList[slot1]
-	end
-end
-
 function slot9.GetTargetedPriority(slot0)
 	slot1 = nil
 
@@ -228,6 +184,10 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 		return
 	end
 
+	slot5 = slot2.isMiss
+	slot6 = slot2.isCri
+	slot8 = slot2.isShare
+	slot9 = slot2.attr
 	slot10 = slot2.font
 	slot11 = slot2.cldPos
 	slot12 = slot1
@@ -235,11 +195,11 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 	if not slot2.isHeal then
 		slot13 = {
 			damage = -slot1,
-			isShare = slot2.isShare,
-			miss = slot2.isMiss,
-			cri = slot2.isCri,
+			isShare = slot8,
+			miss = slot5,
+			cri = slot6,
 			damageSrc = slot2.srcID,
-			damageAttr = slot2.attr
+			damageAttr = slot9
 		}
 
 		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_DAMAGE, slot13)
@@ -269,23 +229,25 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 
 	slot0:SetCurrentHP(slot13)
 
-	if slot11 and not slot11:EqualZero() then
-		slot16 = slot0:GetPosition()
-		slot17 = slot0:GetBoxSize().x
-		slot20 = slot11:Clone()
-		slot20.x = Mathf.Clamp(slot20.x, slot16.x - slot17, slot16.x + slot17)
-	end
-
-	slot0:UpdateHPAction({
+	slot15 = {
 		preShieldHP = slot12,
 		dHP = slot1,
 		validDHP = slot13 - slot0._currentHP,
 		isMiss = slot5,
 		isCri = slot6,
 		isHeal = slot7,
-		font = slot10,
-		posOffset = slot16 - slot20
-	})
+		font = slot10
+	}
+
+	if slot11 and not slot11:EqualZero() then
+		slot16 = slot0:GetPosition()
+		slot17 = slot0:GetBoxSize().x
+		slot20 = slot11:Clone()
+		slot20.x = Mathf.Clamp(slot20.x, slot16.x - slot17, slot16.x + slot17)
+		slot15.posOffset = slot16 - slot20
+	end
+
+	slot0:UpdateHPAction(slot15)
 
 	if not slot0:IsAlive() and slot4 then
 		slot0:SetDeathReason(slot2.damageReason)
@@ -315,17 +277,6 @@ function slot9.DeacActionClear(slot0)
 	uv0.Spirit(slot0)
 	uv0.Whosyourdaddy(slot0)
 	slot0:ClearWeapon()
-
-	for slot4, slot5 in pairs(slot0._tagList) do
-		slot6 = #slot5
-
-		while slot6 > 0 do
-			slot4:UnlockUnit(slot0)
-
-			slot6 = slot6 - 1
-		end
-	end
-
 	slot0:DeadActionEvent()
 end
 
@@ -475,8 +426,10 @@ function slot9.IsCrash(slot0)
 end
 
 function slot9.UpdateAction(slot0)
+	slot1 = slot0:GetSpeed().x * slot0._IFF
+
 	if slot0._oxyState and slot0._oxyState:GetCurrentDiveState() == uv0.OXY_STATE.DIVE then
-		if slot0:GetSpeed().x * slot0._IFF >= 0 then
+		if slot1 >= 0 then
 			slot0._unitState:ChangeState(uv1.STATE_DIVE)
 		else
 			slot0._unitState:ChangeState(uv1.STATE_DIVELEFT)
@@ -584,8 +537,9 @@ function slot9.RemoveAutoWeapon(slot0, slot1)
 	slot0._weaponQueue:RemoveWeapon(slot1)
 
 	slot2 = 1
+	slot3 = #slot0._autoWeaponList
 
-	while slot2 <= #slot0._autoWeaponList do
+	while slot2 <= slot3 do
 		if slot0._autoWeaponList[slot2] == slot1 then
 			slot0:DispatchEvent(uv0.Event.New(uv1.REMOVE_WEAPON, {
 				weapon = slot1
@@ -902,40 +856,50 @@ function slot9.UpdateMoveLimit(slot0)
 	slot0._move:SetStaticState(not slot0:IsMoveAble())
 end
 
-function slot9.AddBuff(slot0, slot1)
-	slot2 = slot1:GetID()
+function slot9.AddBuff(slot0, slot1, slot2)
+	slot3 = slot1:GetID()
+	slot4 = {
+		unit_id = slot0._uniqueID,
+		buff_id = slot3
+	}
 
-	if slot0:GetBuff(slot2) then
-		slot5 = slot4:GetLv()
-		slot6 = slot1:GetLv()
+	if slot0:GetBuff(slot3) then
+		slot6 = slot5:GetLv()
+		slot7 = slot1:GetLv()
 
-		if slot6 <= slot5 then
-			slot4:Stack(slot0)
-			slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_STACK, {
-				unit_id = slot0._uniqueID,
-				buff_id = slot2,
-				buff_level = math.max(slot5, slot6)
-			}))
+		if slot2 then
+			slot8 = slot0._buffStockList[slot3] or {}
+
+			table.insert(slot8, slot1)
+
+			slot0._buffStockList[slot3] = slot8
 		else
-			slot0:RemoveBuff(slot2)
+			slot4.buff_level = math.max(slot6, slot7)
 
-			slot0._buffList[slot2] = slot1
+			if slot7 <= slot6 then
+				slot5:Stack(slot0)
+				slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_STACK, slot4))
+			else
+				slot0:RemoveBuff(slot3)
 
-			slot1:Attach(slot0)
-			slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_ATTACH, slot3))
+				slot0._buffList[slot3] = slot1
+
+				slot1:Attach(slot0)
+				slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_ATTACH, slot4))
+			end
 		end
 	else
-		slot0._buffList[slot2] = slot1
+		slot0._buffList[slot3] = slot1
 
 		slot1:Attach(slot0)
 
-		slot3.buff_level = slot1:GetLv()
+		slot4.buff_level = slot1:GetLv()
 
-		slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_ATTACH, slot3))
+		slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_ATTACH, slot4))
 	end
 
 	slot0:TriggerBuff(uv2.BuffEffectType.ON_BUFF_ADDED, {
-		buffID = slot2
+		buffID = slot3
 	})
 end
 
@@ -966,9 +930,15 @@ function slot9.UpdateBuff(slot0, slot1)
 	end
 end
 
-function slot9.RemoveBuff(slot0, slot1)
+function slot9.RemoveBuff(slot0, slot1, slot2)
+	if slot2 and slot0._buffStockList[slot1] and table.remove(slot0._buffStockList[slot1]) then
+		slot3:Clear()
+
+		return
+	end
+
 	if slot0:GetBuff(slot1) then
-		slot2:Remove()
+		slot3:Remove()
 	end
 
 	slot0:TriggerBuff(uv0.BuffEffectType.ON_BUFF_REMOVED, {
@@ -979,6 +949,12 @@ end
 function slot9.ClearBuff(slot0)
 	for slot5, slot6 in pairs(slot0._buffList) do
 		slot6:Clear()
+	end
+
+	for slot6, slot7 in pairs(slot0._buffStockList) do
+		for slot11, slot12 in pairs(slot7) do
+			slot12:Clear()
+		end
 	end
 end
 
@@ -994,6 +970,14 @@ function slot9.GetBuff(slot0, slot1)
 	slot0._buffList = slot0._buffList
 
 	return slot0._buffList[slot1]
+end
+
+function slot9.DispatchSkillFloat(slot0, slot1, slot2, slot3)
+	slot0:DispatchEvent(uv0.Event.New(uv1.SKILL_FLOAT, {
+		coverHrzIcon = slot3,
+		commander = slot2,
+		skillName = slot1
+	}))
 end
 
 function slot9.SetAI(slot0, slot1)
@@ -1232,8 +1216,15 @@ function slot9.Dispose(slot0)
 		slot7:Dispose()
 	end
 
+	for slot7, slot8 in pairs(slot0._buffStockList) do
+		for slot12, slot13 in pairs(slot8) do
+			slot13:Clear()
+		end
+	end
+
 	slot0._aimBias = nil
 	slot0._buffList = nil
+	slot0._buffStockList = nil
 	slot0._cldZCenterCache = nil
 
 	slot0:RemoveSummonSickness()
@@ -1242,9 +1233,10 @@ end
 
 function slot9.InitCldComponent(slot0)
 	slot1 = slot0:GetTemplate().cld_box
+	slot3 = slot0:GetTemplate().cld_offset[1]
 
 	if slot0:GetDirection() == uv0.UnitDir.LEFT then
-		slot3 = slot0:GetTemplate().cld_offset[1] * -1
+		slot3 = slot3 * -1
 	end
 
 	slot0._cldComponent = uv1.Battle.BattleCubeCldComponent.New(slot1[1], slot1[2], slot1[3], slot3, slot2[3] + slot1[3] / 2)

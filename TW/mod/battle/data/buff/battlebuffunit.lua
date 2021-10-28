@@ -5,6 +5,14 @@ slot2 = slot0.Battle.BattleConst.BuffEffectType
 slot3 = class("BattleBuffUnit")
 slot0.Battle.BattleBuffUnit = slot3
 slot3.__name = "BattleBuffUnit"
+slot3.DEFAULT_ANI_FX_CONFIG = {
+	effect = "jineng",
+	offset = {
+		0,
+		-2,
+		0
+	}
+}
 
 function slot3.Ctor(slot0, slot1, slot2, slot3)
 	slot2 = slot2 or 1
@@ -121,9 +129,10 @@ function slot3.SetArgs(slot0, slot1)
 end
 
 function slot3.Trigger(slot0, slot1, slot2)
+	slot3 = slot0:GetBuffList() or {}
 	slot4 = {}
 
-	for slot8, slot9 in pairs(slot0:GetBuffList() or {}) do
+	for slot8, slot9 in pairs(slot3) do
 		if slot9._triggerSearchTable[slot1] ~= nil and #slot10 > 0 then
 			slot4[#slot4 + 1] = slot9
 		end
@@ -134,8 +143,37 @@ function slot3.Trigger(slot0, slot1, slot2)
 	end
 end
 
+function slot3.DisptachSkillFloat(slot0, slot1, slot2, slot3)
+	if slot3.trigger == nil or table.contains(slot3.trigger, slot2) then
+		slot4 = nil
+
+		if slot3.painting and type(slot3.painting) == "string" then
+			slot4 = slot3
+		end
+
+		slot1:DispatchSkillFloat(getSkillName(slot3.displayID or slot0._id), nil, slot4)
+
+		if type(slot3.castCV or "skill") == "string" then
+			slot1:DispatchVoice(slot6)
+		elseif slot7 == "table" then
+			slot8, slot9, slot10 = ShipWordHelper.GetWordAndCV(slot6.skinID, slot6.key)
+
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot9)
+		end
+
+		slot8 = slot3.aniEffect or uv0.DEFAULT_ANI_FX_CONFIG
+
+		slot1:DispatchEvent(uv1.Event.New(uv1.Battle.BattleUnitEvent.ADD_EFFECT, {
+			effect = slot8.effect,
+			offset = slot8.offset
+		}))
+	end
+end
+
 function slot3.IsSubmarineSpecial(slot0)
-	for slot5, slot6 in ipairs(slot0._triggerSearchTable[uv0.Battle.BattleConst.BuffEffectType.ON_SUBMARINE_FREE_SPECIAL] or {}) do
+	slot1 = slot0._triggerSearchTable[uv0.Battle.BattleConst.BuffEffectType.ON_SUBMARINE_FREE_SPECIAL] or {}
+
+	for slot5, slot6 in ipairs(slot1) do
 		if slot6:HaveQuota() then
 			return true
 		end
@@ -153,6 +191,11 @@ function slot3.onTrigger(slot0, slot1, slot2, slot3)
 		if slot9:HaveQuota() and slot9:IsActive() then
 			slot9:NotActive()
 			slot9:Trigger(slot1, slot2, slot0, slot3)
+
+			if slot9:GetPopConfig() then
+				slot0:DisptachSkillFloat(slot2, slot1, slot10)
+			end
+
 			slot9:SetActive()
 		end
 

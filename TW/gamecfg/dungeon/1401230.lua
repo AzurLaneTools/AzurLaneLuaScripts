@@ -160,13 +160,24 @@ return {
 					}
 				},
 				{
+					triggerType = 1,
+					waveIndex = 301,
+					conditionType = 1,
+					preWaves = {
+						101,
+						202
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
 					triggerType = 0,
 					key = true,
 					waveIndex = 102,
 					conditionType = 1,
 					preWaves = {
-						101,
-						202
+						301
 					},
 					triggerParam = {},
 					spawn = {
@@ -307,13 +318,24 @@ return {
 					}
 				},
 				{
+					triggerType = 1,
+					waveIndex = 302,
+					conditionType = 1,
+					preWaves = {
+						102,
+						203
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
 					triggerType = 0,
 					key = true,
 					waveIndex = 103,
 					conditionType = 1,
 					preWaves = {
-						102,
-						203
+						302
 					},
 					triggerParam = {},
 					spawn = {
@@ -418,14 +440,25 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
-					key = true,
-					waveIndex = 104,
+					triggerType = 1,
+					waveIndex = 303,
 					conditionType = 0,
 					preWaves = {
 						103,
 						102,
 						101
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 104,
+					conditionType = 0,
+					preWaves = {
+						303
 					},
 					triggerParam = {},
 					spawn = {
@@ -532,15 +565,26 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
-					key = true,
-					waveIndex = 105,
+					triggerType = 1,
+					waveIndex = 304,
 					conditionType = 0,
 					preWaves = {
 						104,
 						103,
 						102,
 						101
+					},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 105,
+					conditionType = 0,
+					preWaves = {
+						304
 					},
 					triggerParam = {},
 					spawn = {
@@ -637,7 +681,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 8,
+							delay = 13,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {
@@ -653,7 +697,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 23,
+							delay = 28,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {
@@ -669,7 +713,7 @@ return {
 						{
 							life_time = 5,
 							prefab = "suligao_dengta_stg",
-							delay = 38,
+							delay = 43,
 							behaviours = 10024,
 							IFF = 1,
 							coordinate = {

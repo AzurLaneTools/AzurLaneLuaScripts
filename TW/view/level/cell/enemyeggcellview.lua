@@ -5,17 +5,12 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0.config = nil
 	slot0.chapter = nil
-	slot0._live2death = nil
-	slot0._loadedSpineName = nil
+	slot0.tweenId = nil
+	slot0.buffer = FuncBuffer.New()
 end
 
 function slot0.GetOrder(slot0)
-	return slot0.info and slot0.info.flag == ChapterConst.CellFlagDisabled and ChapterConst.CellPriorityLittle or ChapterConst.CellPriorityEnemy
-end
-
-function slot0.SetTpl(slot0, slot1, slot2)
-	slot0._aliveTpl = slot1
-	slot0._deadTpl = slot2
+	return ChapterConst.CellPriorityEnemy
 end
 
 function slot0.Update(slot0)
@@ -34,87 +29,59 @@ function slot0.Update(slot0)
 		return
 	end
 
-	slot4 = slot1.row
-	slot5 = slot1.column
+	if IsNil(slot0.go) then
+		slot4 = slot0:GetLoader()
 
-	if slot1.attachment == ChapterConst.AttachAmbush and slot1.flag == ChapterConst.CellFlagAmbush then
-		-- Nothing
-	elseif slot1.flag == ChapterConst.CellFlagActive then
-		if slot0:UpdateGO(slot0._aliveTpl) then
-			slot0.tf.anchoredPosition = Vector2(0, 0)
+		slot4:GetPrefab("leveluiview/Tpl_Enemy", "Tpl_Enemy", function (slot0)
+			slot0.name = "enemy_" .. uv0.attachmentId
+			uv1.go = slot0
+			uv1.tf = tf(slot0)
 
-			slot0:GetLoader():LoadSprite("enemies/" .. slot2.icon, nil, slot0.tf:Find("icon"))
-			slot0:ExtraUpdate(slot2)
-		end
+			setText(findTF(uv1.tf, "fighting/Text"), i18n("ui_word_levelui2_inevent"))
+			setParent(slot0, uv1.parent)
+			uv1:OverrideCanvas()
+			uv1:ResetCanvasOrder()
+			setAnchoredPosition(uv1.tf, Vector2.zero)
+			uv1:GetLoader():GetSprite("enemies/" .. uv2.icon, "", findTF(slot0, "icon"))
+			uv1:ExtraUpdate(uv2)
+			uv1.buffer:SetNotifier(uv1)
+			uv1.buffer:ExcuteAll()
+			uv1:Update()
+		end, "Main")
 
-		setActive(findTF(slot0.tf, slot1.attachment == ChapterConst.AttachBoss and "effect_found_boss" or "effect_found"), slot1.trait == ChapterConst.TraitVirgin)
-
-		if slot1.trait == ChapterConst.TraitVirgin then
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
-		end
-
-		setActive(findTF(slot0.tf, "fighting"), slot0.chapter:existFleet(FleetType.Normal, slot4, slot5))
-
-		slot0.tf:GetComponent("Animator").enabled = slot1.data > 0
-
-		setActive(findTF(slot0.tf, "damage_count"), slot1.data > 0)
-	elseif slot1.flag == ChapterConst.CellFlagDisabled and slot0:UpdateGO(slot0._deadTpl) and slot1.attachment ~= ChapterConst.AttachAmbush then
-		if slot2.icon_type == 1 then
-			slot0.tf.anchoredPosition = Vector2(0, 10)
-
-			slot0:GetLoader():LoadSprite("enemies/" .. slot2.icon .. "_d_" .. "blue", "", slot0.tf:Find("icon"))
-			setActive(slot0.tf:Find("effect_not_open"), false)
-			setActive(slot0.tf:Find("effect_open"), false)
-		end
-
-		setActive(slot0.tf:Find("huoqiubaozha"), slot0._live2death)
-
-		slot0._live2death = nil
-	end
-end
-
-function slot0.UpdateGO(slot0, slot1)
-	if slot1 and slot0._currentTpl ~= slot1 then
-		if slot0._currentTpl == slot0._aliveTpl and slot1 == slot0._deadTpl then
-			slot0._live2death = true
-		end
-
-		slot0:DestroyGO()
-
-		slot0._currentTpl = slot1
-
-		if slot1 == slot0._deadTpl and (slot0.info.attachment == ChapterConst.AttachAmbush or slot0.info.icon_type == 2) then
-			return true
-		end
-
-		slot0.go = Instantiate(slot1)
-		slot0.go.name = "enemy_" .. slot0.info.attachmentId
-
-		setActive(slot0.go, true)
-		setParent(slot0.go, slot0.parent)
-
-		slot0.tf = slot0.go.transform
-
-		slot0:OverrideCanvas()
-		slot0:ResetCanvasOrder()
-
-		return true
+		return
 	end
 
-	return false
-end
+	setActive(findTF(slot0.go, slot1.attachment == ChapterConst.AttachBoss and "effect_found_boss" or "effect_found"), slot1.trait == ChapterConst.TraitVirgin)
 
-slot0.buffheight = 100
+	if slot1.trait == ChapterConst.TraitVirgin then
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
+	end
+
+	EnemyEggCellView.RefreshEnemyTplIcons(slot0, slot0.chapter)
+	setActive(findTF(slot0.go, "fighting"), slot0.chapter:existFleet(FleetType.Normal, slot1.row, slot1.column))
+
+	slot0.go:GetComponent("Animator").enabled = slot1.data > 0
+
+	setActive(findTF(slot0.go, "damage_count"), slot1.data > 0)
+
+	if slot0.viewParent:isHuntingRangeVisible() and _.any(slot0.chapter.fleets, function (slot0)
+		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid() and slot0:inHuntingRange(uv0.row, uv0.column)
+	end) then
+		slot0:TweenBlink()
+	else
+		slot0:StopTween()
+	end
+end
 
 function slot0.ExtraUpdate(slot0, slot1)
 	setText(findTF(slot0.tf, "lv/Text"), slot1.level)
-	setActive(findTF(slot0.tf, "titleContain/bg_s"), ChapterConst.EnemySize[slot1.type] == 1 or not ChapterConst.EnemySize[slot1.type])
-	setActive(findTF(slot0.tf, "titleContain/bg_m"), ChapterConst.EnemySize[slot1.type] == 2)
-	setActive(findTF(slot0.tf, "titleContain/bg_h"), ChapterConst.EnemySize[slot1.type] == 3)
 	setActive(findTF(slot0.tf, "titleContain/bg_boss"), ChapterConst.EnemySize[slot1.type] == 99)
 
 	if slot1.effect_prefab and #slot2 > 0 then
-		slot0:GetLoader():LoadPrefab("effect/" .. slot2, slot2, function (slot0)
+		slot3 = slot0:GetLoader()
+
+		slot3:LoadPrefab("effect/" .. slot2, slot2, function (slot0)
 			slot0.transform:SetParent(uv0.tf, false)
 
 			slot0.transform.localScale = slot0.transform.localScale
@@ -122,44 +89,91 @@ function slot0.ExtraUpdate(slot0, slot1)
 			uv0:ResetCanvasOrder()
 		end)
 	end
+end
 
-	if findTF(slot0.tf, "random_buff_container") and slot1 and #slot1.bufficon > 0 then
-		setActive(slot3, true)
-		slot0:AlignListContainer(slot3, #slot1.bufficon)
+function slot0.RefreshEnemyTplIcons(slot0, slot1)
+	if not findTF(slot0.tf, "random_buff_container") then
+		return
+	end
 
-		slot3.sizeDelta = Vector2(100, slot0.buffheight)
-		slot4 = 1
+	slot3 = {}
 
-		for slot8, slot9 in ipairs(slot1.bufficon) do
-			if #slot9 > 0 then
-				GetImageSpriteFromAtlasAsync("ui/levelmainscene_atlas", slot9, slot3:GetChild(slot4 - 1))
-
-				slot4 = slot4 + 1
-			end
+	if slot0.config.icon_type == 1 then
+		if ChapterConst.EnemySize[slot0.config.type] == 1 or not ChapterConst.EnemySize[slot5] then
+			table.insert(slot3, "xiao")
+		elseif ChapterConst.EnemySize[slot5] == 2 then
+			table.insert(slot3, "zhong")
+		elseif ChapterConst.EnemySize[slot5] == 3 then
+			table.insert(slot3, "da")
 		end
-	elseif slot3 then
-		setActive(slot3, false)
+	end
+
+	if slot0.config.bufficon and #slot5.bufficon > 0 then
+		table.insertto(slot3, slot5.bufficon)
+	end
+
+	_.each(_.filter(slot1:GetWeather(slot0.line.row, slot0.line.column), function (slot0)
+		return slot0 == ChapterConst.FlagWeatherFog
+	end), function (slot0)
+		table.insert(uv0, pg.weather_data_template[slot0].buff_icon)
+	end)
+
+	if #slot3 == 0 then
+		setActive(slot2, false)
+	end
+
+	setActive(slot2, true)
+	LevelGrid.AlignListContainer(slot2, #slot3)
+
+	for slot9, slot10 in ipairs(slot3) do
+		if #slot10 > 0 then
+			GetImageSpriteFromAtlasAsync("ui/share/ship_gizmos_atlas", slot10, slot2:GetChild(slot9 - 1))
+		end
 	end
 end
 
-function slot0.AlignListContainer(slot0, slot1, slot2)
-	for slot7 = slot2, slot1.childCount - 1 do
-		setActive(slot1:GetChild(slot7), false)
+function slot0.TweenBlink(slot0)
+	slot0:StopTween()
+
+	slot0.tweenId = LeanTween.color(findTF(slot0.go, "icon"), Color.New(1, 0.6, 0.6), 1):setFromColor(Color.white):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId
+end
+
+function slot0.TweenShining(slot0)
+	slot0:StopTween()
+
+	slot1 = findTF(slot0.go, "icon")
+	slot1:GetComponent("Image").material = Material.New(Shader.Find("Spine/SkeletonGraphic (Additive)"))
+	slot5 = LeanTween.value(slot1.gameObject, 0, 1, 1)
+	slot5 = slot5:setEase(LeanTweenType.easeInOutSine)
+	slot5 = slot5:setLoopPingPong()
+	slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
+		uv0:SetColor("_Color", Color.Lerp(Color.black, Color.gray, slot0))
+	end))
+	slot0.tweenId = slot5:setOnComplete(System.Action(function ()
+		if IsNil(uv0) then
+			return
+		end
+
+		uv0.material = nil
+	end)).uniqueId
+end
+
+function slot0.StopTween(slot0)
+	if not slot0.tweenId then
+		return
 	end
 
-	for slot7 = slot3, slot2 - 1 do
-		slot8 = cloneTplTo(slot1:GetChild(0), slot1)
-	end
+	LeanTween.cancel(slot0.tweenId, true)
 
-	for slot7 = 0, slot2 - 1 do
-		setActive(slot1:GetChild(slot7), true)
-	end
+	slot0.tweenId = nil
+
+	setImageColor(findTF(slot0.go, "icon"), Color.white)
 end
 
 function slot0.Clear(slot0)
-	slot0._aliveTpl = nil
-	slot0._deadTpl = nil
-	slot0._live2death = nil
+	slot0:StopTween()
+	slot0.buffer:Clear()
+
 	slot0.chapter = nil
 
 	uv0.super.Clear(slot0)

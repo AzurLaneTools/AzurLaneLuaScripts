@@ -439,8 +439,9 @@ function slot0.updateSkin(slot0)
 	slot1 = slot0.paint:GetComponent(typeof(Zoom))
 	slot2 = 0
 	slot3 = 0
-	slot1.minZoom, slot3 = uv1(slot0.showType)
+	slot4, slot3 = uv1(slot0.showType)
 	slot1.maxZoom = slot3
+	slot1.minZoom = slot4
 
 	if slot3 < slot0.paint.localScale.x then
 		slot0.paint.localScale = Vector3(slot3, slot3, slot3)
@@ -449,12 +450,14 @@ function slot0.updateSkin(slot0)
 	end
 
 	if slot0.showType == uv0.SHOW_LIVE2D then
-		pg.UIMgr.GetInstance():LoadingOn()
-		pg.Live2DMgr.GetInstance():GetLive2DModelAsync(slot0.paintSkin, function (slot0)
-			if uv0.exited then
-				Destory(slot0)
-				pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(uv0.paintSkin)
+		slot4 = pg.UIMgr.GetInstance()
 
+		slot4:LoadingOn()
+
+		slot4 = pg.Live2DMgr.GetInstance()
+
+		slot4:GetLive2DModelAsync(slot0.paintSkin, function (slot0)
+			if slot0 == nil then
 				return
 			end
 
@@ -503,7 +506,10 @@ function slot0.updateSkin(slot0)
 	elseif slot0.showType == uv0.SHOW_SPINE then
 		SetActive(slot0.live2d, false)
 		SetActive(slot0.spine, true)
-		PoolMgr.GetInstance():GetSpineChar(slot0.spineSkin, true, function (slot0)
+
+		slot4 = PoolMgr.GetInstance()
+
+		slot4:GetSpineChar(slot0.spineSkin, true, function (slot0)
 			slot0.name = "model"
 			slot1 = slot0.transform
 
@@ -702,8 +708,10 @@ function slot0.SetDummyForIOS(slot0, slot1)
 		return
 	end
 
+	slot2 = pg.UIMgr.GetInstance():GetMainCamera():GetComponent(typeof(Camera))
+
 	if slot1 then
-		pg.UIMgr.GetInstance():GetMainCamera():GetComponent(typeof(Camera)).nearClipPlane = 0
+		slot2.nearClipPlane = 0
 
 		slot0.dummy:SetParent(pg.UIMgr.GetInstance():GetMainCamera().transform)
 

@@ -40,50 +40,45 @@ slot0.ENABLE_SKIP_TO_CHAPTER = true
 slot1 = pg.ship_data_group
 
 function slot0.getState(slot0, slot1, slot2)
-	if HXSet.isHx() and (function ()
-		if uv0.ENABLE_SKIP_TO_CHAPTER then
-			if uv1 and not uv2 then
-				return uv0.STATE_NOTGET
-			end
-
-			if uv3[uv4] then
-				if not uv3[uv4].hide then
-					return uv0.STATE_LOCK
-				end
-
-				if slot0.hide == 1 then
-					return uv0.STATE_LOCK
-				elseif slot0.hide ~= 0 then
-					return uv0.STATE_LOCK
-				end
-			end
-
-			if uv2 then
-				return uv0.STATE_UNLOCK
-			else
-				if not uv3[uv4] then
-					return uv0.STATE_LOCK
-				end
-
-				slot3 = nil
-
-				if slot0.redirect_id ~= 0 then
-					slot3 = getProxy(ChapterProxy):getChapterById(slot1)
-				end
-
-				if slot1 == 0 or slot3 and slot3:isClear() then
-					return uv0.STATE_NOTGET
-				else
-					return uv0.STATE_LOCK
-				end
-			end
-		else
-			return uv2 and uv0.STATE_UNLOCK or uv0.STATE_LOCK
+	if uv0.ENABLE_SKIP_TO_CHAPTER then
+		if slot2 and not slot1 then
+			return uv0.STATE_NOTGET
 		end
-	end)() == uv0.STATE_NOTGET then
-		return uv0.STATE_LOCK
+
+		if uv1[slot0] then
+			if not uv1[slot0].hide then
+				return uv0.STATE_LOCK
+			end
+
+			if slot3.hide == 1 then
+				return uv0.STATE_LOCK
+			elseif slot3.hide ~= 0 then
+				return uv0.STATE_LOCK
+			end
+		end
+
+		if slot1 then
+			return uv0.STATE_UNLOCK
+		else
+			if not uv1[slot0] then
+				return uv0.STATE_LOCK
+			end
+
+			slot5 = getProxy(ChapterProxy)
+			slot6 = nil
+
+			if slot3.redirect_id ~= 0 then
+				slot6 = slot5:getChapterById(slot4)
+			end
+
+			if slot4 == 0 or slot6 and slot6:isClear() then
+				return uv0.STATE_NOTGET
+			else
+				return uv0.STATE_LOCK
+			end
+		end
 	else
-		return slot4
+		return slot1 and uv0.STATE_UNLOCK or uv0.STATE_LOCK
 	end
 end
 
@@ -128,8 +123,10 @@ function slot0.getNation(slot0)
 end
 
 function slot0.getRarity(slot0, slot1)
+	slot2 = slot0.shipConfig.rarity
+
 	if slot1 and slot0.trans then
-		slot2 = slot0.shipConfig.rarity + 1
+		slot2 = slot2 + 1
 	end
 
 	return slot2
@@ -176,12 +173,16 @@ end
 function slot0.getDisplayableSkinList(slot0)
 	slot1 = {}
 
+	function slot2(slot0)
+		return slot0.skin_type == ShipSkin.SKIN_TYPE_OLD or slot0.skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not getProxy(ShipSkinProxy):hasSkin(slot0.id)
+	end
+
+	function slot3(slot0)
+		return getProxy(ShipSkinProxy):InShowTime(slot0)
+	end
+
 	for slot7, slot8 in ipairs(pg.ship_skin_template.all) do
-		if pg.ship_skin_template[slot8].ship_group == slot0.id and slot9.no_showing ~= "1" and not (function (slot0)
-			return slot0.skin_type == ShipSkin.SKIN_TYPE_OLD or slot0.skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not getProxy(ShipSkinProxy):hasSkin(slot0.id)
-		end)(slot9) and (function (slot0)
-			return getProxy(ShipSkinProxy):InShowTime(slot0)
-		end)(slot9.id) then
+		if pg.ship_skin_template[slot8].ship_group == slot0.id and slot9.no_showing ~= "1" and not slot2(slot9) and slot3(slot9.id) then
 			table.insert(slot1, slot9)
 		end
 	end

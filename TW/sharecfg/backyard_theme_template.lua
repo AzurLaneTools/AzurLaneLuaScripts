@@ -1128,7 +1128,7 @@ pg.backyard_theme_template = {
 	[35] = {
 		Cfg_1 = 5,
 		name = "萬聖鬼夜",
-		hot = 1,
+		hot = 0,
 		is_view = 1,
 		id = 35,
 		comfortable = 0,
@@ -2250,6 +2250,42 @@ pg.backyard_theme_template = {
 			69309
 		}
 	},
+	[71] = {
+		Cfg_1 = 5,
+		name = "萬聖驚魂",
+		hot = 1,
+		is_view = 1,
+		id = 71,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "準備好“享受”萬聖之夜了嗎~？",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "hl4themeicon",
+		deblocking = 1,
+		order = 70,
+		ids = {
+			71001,
+			71002,
+			71101,
+			71102,
+			71103,
+			71104,
+			71105,
+			71106,
+			71107,
+			71108,
+			71109,
+			71110,
+			71111,
+			71112,
+			71113,
+			71114,
+			71115,
+			71301
+		}
+	},
 	[72] = {
 		Cfg_1 = 5,
 		name = "女神假期 ",
@@ -2440,6 +2476,7 @@ pg.backyard_theme_template = {
 		63,
 		65,
 		69,
+		71,
 		72,
 		76,
 		79

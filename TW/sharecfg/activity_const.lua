@@ -280,22 +280,22 @@ pg.activity_const = {
 		act_id = 303
 	},
 	FRANCE_RE_BUILD = {
-		act_id = 335
+		act_id = 40457
 	},
 	ACTIVITY_ID_US_SKIRMISH = {
 		act_id = 337
 	},
 	FRANCE_RE_MAIN = {
-		act_id = 40121
+		act_id = 40450
 	},
 	FRANCE_RE_PT = {
-		act_id = 40127
+		act_id = 40455
 	},
 	FRANCE_RE_PT_SHOP = {
-		act_id = 40128
+		act_id = 40456
 	},
 	FRANCE_RE_OIL = {
-		act_id = 40126
+		act_id = 40454
 	},
 	JAVELIN_COMIC_NINE_DAY_TASK = {
 		act_id = 40304
@@ -382,7 +382,7 @@ pg.activity_const = {
 		act_id = 40167
 	},
 	MEMPHIS_HALLOWEEN = {
-		act_id = 399
+		act_id = 40458
 	},
 	ANIME_LOGIN = {
 		act_id = 40026
@@ -616,7 +616,7 @@ pg.activity_const = {
 		act_id = 40284
 	},
 	LEMARS_RE_OIL_PAGE = {
-		act_id = 582
+		act_id = 40454
 	},
 	TOWERCLIMBING_SIGN = {
 		act_id = 603

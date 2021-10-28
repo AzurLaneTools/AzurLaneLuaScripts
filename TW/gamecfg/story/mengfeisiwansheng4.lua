@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"混沌的万圣之夜\n\n<size=45>四 狂欢前的换装</size>",
+					"混沌的萬聖之夜\n\n<size=45>四 狂歡前的換裝</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "恐怖…换好装备了。姐姐好了吗？",
+			say = "恐怖…換好裝備了，輕鬆。姐姐好了嗎？",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…真的要去吗……",
+			say = "嗯…真的要去嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 213021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "恐怖…想和姐姐一起参加万圣节的派对…",
+			say = "恐怖…想和姐姐一起參加萬聖節的派對…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…嗯，恐怖，再等我一会",
+			say = "…嗯，恐怖，再等我一會",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 213012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样…就可以了吧",
+			say = "這樣…就可以了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 213021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦…万圣节的魔女…很合适",
+			say = "哦哦…萬聖節的魔女…很合適",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 213021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于可以和姐姐一起参加万圣节派对了，恐怖，很开心",
+			say = "終於可以和姐姐一起參加萬聖節派對了，恐怖，很開心",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 213012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…恐怖觉得开心就好。",
+			say = "…恐怖覺得開心就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 404021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐…真的不一起参加吗",
+			say = "姐姐…真的不一起參加嗎",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，这种软绵绵的聚会有什么意思！如果有用主炮击碎南瓜的比赛之类的活动再喊我吧！",
+			say = "哼，這種軟綿綿的聚會有什麼意思！如果有用主炮擊碎南瓜的比賽之類的活動再喊我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，妳这是万圣节的鬼怪装扮吗？哼哼，还真是大胆啊！就用这身让她们都吓一跳吧！作为我们姐妹的代表…呢！",
+			say = "不過，妳這是萬聖節的鬼怪裝扮嗎？哼哼，還真是大膽啊！就用這身讓她們都嚇一跳吧！作為我們姐妹的代表…呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我跳~我跳~万圣夜活动的会场是在…",
+			say = "我跳~我跳~萬聖夜活動的會場是在…",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…糖果！在那边！嗯…？总觉得好像混着什么不太一样的……",
+			say = "唔…糖果的香味！是從那邊傳來的！嗯…雖然好像還混著什麼…不太一樣的味道……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿~马上就要开始啦！今年的恶作剧之王，非我莫属啦！",
+			say = "嘿嘿嘿~馬上就要開始啦！今年的惡作劇之王，非我莫屬啦！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿贝克隆比…笑得这么开心，又在想什么恶作剧了吧？当心做太过火又被胡德教训哦？",
+			say = "阿貝克隆比…笑得這麼開心，又在想什麼惡作劇了吧？當心做太過火又被胡德教訓哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "怀着各自的思绪，狂欢的万圣之夜，即将开始——",
+			say = "懷著各自的思緒，狂歡的萬聖之夜，即將開始——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

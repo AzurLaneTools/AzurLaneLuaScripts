@@ -30,15 +30,17 @@ end
 function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("blur_container/adapt/top/title/back")
 	slot0._blurLayer = slot0:findTF("blur_container")
-	slot0._topPanel = slot0._blurLayer:Find("adapt/top")
+	slot1 = slot0._blurLayer
+	slot0._topPanel = slot1:Find("adapt/top")
+	slot0.bg = slot0:findTF("academyMap/map")
 	slot0.buildings = {
 		ShopBuiding.New(slot0),
 		CanteenBuiding.New(slot0),
 		ClassRoomBuilding.New(slot0),
 		FountainBuiding.New(slot0),
+		TacticRoomBuilding.New(slot0),
 		CommanderBuilding.New(slot0),
-		SupplyShopBuilding.New(slot0),
-		TacticRoomBuilding.New(slot0)
+		SupplyShopBuilding.New(slot0)
 	}
 	slot0.shipsView = NavalAcademyShipsView.New(slot0)
 	slot0.resPage = ResourcePage.New(slot0._tf, slot0.event)
@@ -96,7 +98,7 @@ end
 
 function slot0.LoadWaveEffect(slot0)
 	slot0:GetEffect("xueyuan02", function (slot0)
-		setParent(slot0, uv0._tf)
+		setParent(slot0, uv0.bg)
 
 		uv0.waveEffect = slot0
 	end)
@@ -125,13 +127,17 @@ function slot0.OnAddLayer(slot0)
 	end
 end
 
-function slot0.OnRemoveLayer(slot0)
+function slot0.OnRemoveLayer(slot0, slot1)
 	slot0.layerCnt = (slot0.layerCnt or 0) - 1
 
 	if slot0.layerCnt <= 0 then
 		slot0.layerCnt = 0
 
 		slot0:EnableEffects(true)
+	end
+
+	if slot1.context.mediator == NavalTacticsMediator then
+		slot0.buildings[5]:RefreshTip()
 	end
 end
 
@@ -230,7 +236,9 @@ function slot0.willExit(slot0)
 end
 
 function slot0.GetEffect(slot0, slot1, slot2)
-	ResourceMgr.Inst:getAssetAsync("ui/" .. slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot3 = ResourceMgr.Inst
+
+	slot3:getAssetAsync("ui/" .. slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		if uv0.exited then
 			return
 		end

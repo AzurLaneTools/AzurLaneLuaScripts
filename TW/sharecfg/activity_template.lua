@@ -10474,7 +10474,7 @@ pg.activity_template = {
 	},
 	[40447] = {
 		mark = 20211014,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 46,
 		login_pop = 0,
@@ -10482,34 +10482,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 40447,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 40447
 	},
 	[40448] = {
 		mark = 20211014,
@@ -10552,12 +10526,13 @@ pg.activity_template = {
 	},
 	[40449] = {
 		mark = 20211014,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40449,
 		config_data = {
@@ -10566,6 +10541,31 @@ pg.activity_template = {
 			15028,
 			15029,
 			15030
+		}
+	},
+	[40450] = {
+		mark = 20211028,
+		id = 40450,
+		title_res_tag = "france_re_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 15,
+		config_data = {
+			1240001,
+			1240003,
+			1240004,
+			1240011,
+			1240013,
+			1240014,
+			1240005,
+			1240007,
+			1240008,
+			1240015,
+			1240017,
+			1240018,
+			1240019,
+			1240021
 		},
 		time = {
 			timer,
@@ -10573,7 +10573,7 @@ pg.activity_template = {
 				{
 					2021,
 					10,
-					14
+					28
 				},
 				{
 					0,
@@ -10584,8 +10584,622 @@ pg.activity_template = {
 			{
 				{
 					2021,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FranceRestartMainPage",
+			ui_name = "francerestartmainpage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp15"
+		}
+	},
+	[40451] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40451,
+		config_data = {
+			4001201,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
 					10,
 					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40452] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 130,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 40452,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40453] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40453,
+		config_data = {
+			14730,
+			14731,
+			14732,
+			14733,
+			14734,
+			14735,
+			14736,
+			14737,
+			14738,
+			14739,
+			14740,
+			14741,
+			14742,
+			14743,
+			14744,
+			14745,
+			14746
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40454] = {
+		mark = 20211028,
+		config_client = "",
+		title_res_tag = "france_re2_oil",
+		type = 74,
+		login_pop = 0,
+		config_id = 40454,
+		is_show = 13,
+		id = 40454,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LeMarsReOilPage",
+			ui_name = "LeMarsReOilPage"
+		}
+	},
+	[40455] = {
+		mark = 20211028,
+		config_client = "",
+		title_res_tag = "france_re_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 40455,
+		is_show = 14,
+		id = 40455,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FranceRestartPtPage",
+			ui_name = "francerestartptpage"
+		}
+	},
+	[40456] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 40456,
+		config_data = {
+			850,
+			851,
+			852,
+			853,
+			854,
+			855,
+			856,
+			857,
+			858,
+			859,
+			860,
+			861,
+			862,
+			863,
+			864,
+			865,
+			866,
+			867,
+			868,
+			869,
+			870,
+			871
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_faxi",
+			{
+				0.176,
+				0.164,
+				0.274,
+				1
+			},
+			pt_id = 130,
+			painting = "kaixuan_pt"
+		}
+	},
+	[40457] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 40457,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40458] = {
+		mark = 20211028,
+		id = 40458,
+		title_res_tag = "mengfeisipifu",
+		type = 74,
+		login_pop = 0,
+		config_id = 40458,
+		is_show = 12,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MemphisHalloweenPage",
+			ui_name = "memphishalloweenpage"
+		},
+		config_client = {
+			story = {
+				{
+					"MENGFEISIWANSHENG1"
+				},
+				{
+					"MENGFEISIWANSHENG2"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG3"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG4"
+				},
+				{
+					"MENGFEISIWANSHENG5"
+				}
+			}
+		}
+	},
+	[40459] = {
+		mark = 20211028,
+		id = 40459,
+		title_res_tag = "sign_halloween",
+		type = 57,
+		login_pop = 0,
+		config_id = 11,
+		is_show = 11,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SignHalloweenPage",
+			ui_name = "SignHalloweenPage"
+		},
+		config_client = {
+			linkGameHubID = 11
+		}
+	},
+	[40461] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40461,
+		config_data = {
+			80204
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40462] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40462,
+		config_data = {
+			14674
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40463] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 24,
+		login_pop = 0,
+		config_id = 40464,
+		is_show = 0,
+		config_client = "",
+		id = 40463,
+		config_data = {
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40464] = {
+		mark = 20211028,
+		title_res_tag = "",
+		page_info = "",
+		type = 37,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		config_client = "",
+		id = 40464,
+		config_data = {
+			40462
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					23
 				},
 				{
 					23,
@@ -11930,6 +12544,20 @@ pg.activity_template = {
 		40447,
 		40448,
 		40449,
+		40450,
+		40451,
+		40452,
+		40453,
+		40454,
+		40455,
+		40456,
+		40457,
+		40458,
+		40459,
+		40461,
+		40462,
+		40463,
+		40464,
 		45000,
 		45001,
 		45002,

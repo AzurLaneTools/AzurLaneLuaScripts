@@ -1050,6 +1050,20 @@ pg.memory_group = {
 			949
 		}
 	},
+	[171] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 171,
+		title = "混沌的萬聖之夜",
+		memories = {
+			950,
+			951,
+			952,
+			953,
+			954
+		}
+	},
 	[172] = {
 		icon = "title_event",
 		subtype = 2,
@@ -2510,6 +2524,7 @@ pg.memory_group = {
 		167,
 		169,
 		170,
+		171,
 		172,
 		173,
 		177,

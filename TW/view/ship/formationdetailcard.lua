@@ -74,9 +74,7 @@ function slot0.flush(slot0)
 		slot6 = nil
 
 		setRectShipCardFrame(slot0.frame, slot5, slot2.propose and "prop" .. (slot2:isBluePrintShip() and slot5 or slot2:isMetaShip() and "14" or "") or nil)
-		GetSpriteFromAtlasAsync("bg/star_level_card_" .. slot5, "", function (slot0)
-			uv0.bgImage.sprite = slot0
-		end)
+		GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot5, "", slot0.bgImage)
 		setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))
 
 		slot8 = nil
@@ -102,7 +100,9 @@ function slot0.flush(slot0)
 			end)
 
 			if not slot9 then
-				PoolMgr.GetInstance():GetPrefab("effect/" .. slot8, "", true, function (slot0)
+				slot10 = PoolMgr.GetInstance()
+
+				slot10:GetPrefab("effect/" .. slot8, "", true, function (slot0)
 					setParent(slot0, uv0.otherBg)
 				end)
 			end

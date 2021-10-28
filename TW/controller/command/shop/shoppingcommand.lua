@@ -66,9 +66,11 @@ function slot0.execute(slot0, slot1)
 	slot11 = false
 
 	if slot5.resource_num ~= -1 then
+		slot12 = slot5.resource_num * slot4
+
 		if slot10 and slot5.genre == ShopArgs.ShoppingStreetLimit then
 			slot11 = true
-			slot12 = math.ceil(slot10:getGoodsById(slot3).discount / 100 * slot5.resource_num * slot4)
+			slot12 = math.ceil(slot10:getGoodsById(slot3).discount / 100 * slot12)
 		end
 	elseif slot12 == -1 and slot5.effect_args == ShopArgs.EffectShopStreetLevel then
 		slot12 = pg.navalacademy_shoppingstreet_template[slot10.level].lv_up_cost[2] * slot4
@@ -254,7 +256,12 @@ function slot0.execute(slot0, slot1)
 				})
 			else
 				print(slot0.result)
-				pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
+
+				if slot0.result == 4400 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("shopping_error_time_limit"))
+				else
+					pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
+				end
 			end
 		end)
 	end
@@ -280,32 +287,40 @@ slot0.GIFT_CHECK_PASS = 1
 slot0.GIFT_CHECK_USER = 2
 
 function slot0.CheckGiftPackage(slot0, slot1)
-	if slot1.genre == ShopArgs.GiftPackage then
-		slot6, slot7, slot8, slot9, slot10 = (function (slot0)
-			slot1 = 0
-			slot3 = 0
-			slot4 = 0
-			slot5 = 0
-			slot6 = false
+	slot2 = pg.item_data_statistics
 
-			for slot10, slot11 in ipairs(slot0) do
-				if DROP_TYPE_RESOURCE == slot11[1] then
-					if slot11[2] == 1 then
-						slot2 = 0 + slot11[3]
-					elseif slot13 == 2 then
-						slot1 = slot1 + slot14
-					end
-				elseif DROP_TYPE_EQUIP == slot12 then
-					slot3 = slot3 + slot14
-				elseif DROP_TYPE_SHIP == slot12 then
-					slot4 = slot4 + slot14
-				elseif DROP_TYPE_ITEM == slot12 and uv0[slot13].type == Item.EXP_BOOK_TYPE then
-					slot6 = pg.item_data_statistics[slot13].max_num < getProxy(BagProxy):getItemCountById(slot13) + slot5 + slot14
+	function slot3(slot0)
+		slot1 = 0
+		slot2 = 0
+		slot3 = 0
+		slot4 = 0
+		slot5 = 0
+		slot6 = false
+
+		for slot10, slot11 in ipairs(slot0) do
+			slot13 = slot11[2]
+			slot14 = slot11[3]
+
+			if DROP_TYPE_RESOURCE == slot11[1] then
+				if slot13 == 1 then
+					slot2 = slot2 + slot14
+				elseif slot13 == 2 then
+					slot1 = slot1 + slot14
 				end
+			elseif DROP_TYPE_EQUIP == slot12 then
+				slot3 = slot3 + slot14
+			elseif DROP_TYPE_SHIP == slot12 then
+				slot4 = slot4 + slot14
+			elseif DROP_TYPE_ITEM == slot12 and uv0[slot13].type == Item.EXP_BOOK_TYPE then
+				slot6 = pg.item_data_statistics[slot13].max_num < getProxy(BagProxy):getItemCountById(slot13) + slot5 + slot14
 			end
+		end
 
-			return slot1, slot2, slot3, slot4, slot6
-		end)(pg.item_data_statistics[slot1.effect_args[1]].display_icon)
+		return slot1, slot2, slot3, slot4, slot6
+	end
+
+	if slot1.genre == ShopArgs.GiftPackage then
+		slot6, slot7, slot8, slot9, slot10 = slot3(slot2[slot1.effect_args[1]].display_icon)
 		slot11 = getProxy(PlayerProxy):getRawData()
 
 		if slot6 > 0 and slot11:OilMax(slot6) then
@@ -320,13 +335,17 @@ function slot0.CheckGiftPackage(slot0, slot1)
 			end
 		end
 
-		if slot8 > 0 and slot11:getMaxEquipmentBag() < getProxy(EquipmentProxy):getCapacity() + slot8 then
+		slot12 = getProxy(EquipmentProxy):getCapacity()
+
+		if slot8 > 0 and slot11:getMaxEquipmentBag() < slot12 + slot8 then
 			return uv0.GIFT_CHECK_FAIL, function ()
 				NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
 			end
 		end
 
-		if slot9 > 0 and slot11:getMaxShipBag() < getProxy(BayProxy):getShipCount() + slot9 then
+		slot13 = getProxy(BayProxy):getShipCount()
+
+		if slot9 > 0 and slot11:getMaxShipBag() < slot13 + slot9 then
 			return uv0.GIFT_CHECK_FAIL, function ()
 				NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 			end
@@ -343,12 +362,17 @@ function slot0.CheckGiftPackage(slot0, slot1)
 end
 
 function slot0.IsOverflowShipExpItem(slot0)
+	function slot1(slot0, slot1)
+		return pg.item_data_statistics[slot0].max_num < getProxy(BagProxy):getItemCountById(slot0) + slot1
+	end
+
+	slot3 = pg.item_data_statistics
+
 	for slot7, slot8 in ipairs(slot0:getConfig("award_display")) do
 		slot10 = slot8[2]
+		slot11 = slot8[3]
 
-		if slot8[1] == DROP_TYPE_ITEM and pg.item_data_statistics[slot10].type == Item.EXP_BOOK_TYPE and (function (slot0, slot1)
-			return pg.item_data_statistics[slot0].max_num < getProxy(BagProxy):getItemCountById(slot0) + slot1
-		end)(slot10, slot8[3]) then
+		if slot8[1] == DROP_TYPE_ITEM and slot3[slot10].type == Item.EXP_BOOK_TYPE and slot1(slot10, slot11) then
 			return true
 		end
 	end

@@ -122,12 +122,15 @@ end
 
 function slot1.UpdateMapItems(slot0)
 	uv0.super.UpdateMapItems(slot0)
+
+	slot2 = getProxy(ChapterProxy)
+
 	table.clear(slot0.chapterTFsById)
 
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0.data:getChapters()) do
-		if (slot8:isUnlock() or slot8:activeAlways()) and slot8:isValid() and (not slot8:ifNeedHide() or getProxy(ChapterProxy):GetJustClearChapters(slot8.id)) then
+		if (slot8:isUnlock() or slot8:activeAlways()) and slot8:isValid() and (not slot8:ifNeedHide() or slot2:GetJustClearChapters(slot8.id)) then
 			table.insert(slot3, slot8)
 		end
 	end
@@ -163,12 +166,17 @@ function slot1.UpdateMapItems(slot0)
 
 			seriesAsync({
 				function (slot0)
+					slot1 = 0
+
 					for slot5, slot6 in pairs(uv0) do
 						if slot6:ifNeedHide() and uv1:GetJustClearChapters(slot6.id) then
-							slot1 = 0 + 1
+							slot1 = slot1 + 1
 
 							setActive(uv2.chapterTFsById[slot6.id], true)
-							uv2:PlayChapterItemAnimationBackward(uv2.chapterTFsById[slot6.id], slot6, function ()
+
+							slot7 = uv2
+
+							slot7:PlayChapterItemAnimationBackward(uv2.chapterTFsById[slot6.id], slot6, function ()
 								uv0 = uv0 - 1
 
 								setActive(uv1.chapterTFsById[uv2.id], false)
@@ -190,12 +198,17 @@ function slot1.UpdateMapItems(slot0)
 					end
 				end,
 				function (slot0)
+					slot1 = 0
+
 					for slot5, slot6 in pairs(uv0) do
 						if not uv1[slot6.id] then
-							slot1 = 0 + 1
+							slot1 = slot1 + 1
 
 							setActive(uv2.chapterTFsById[slot6.id], true)
-							uv2:PlayChapterItemAnimation(uv2.chapterTFsById[slot6.id], slot6, function ()
+
+							slot7 = uv2
+
+							slot7:PlayChapterItemAnimation(uv2.chapterTFsById[slot6.id], slot6, function ()
 								uv0 = uv0 - 1
 
 								if uv0 <= 0 then
@@ -218,10 +231,11 @@ function slot1.UpdateMapItem(slot0, slot1, slot2)
 		y = slot0.mapHeight * slot3.pos_y
 	})
 
+	slot4 = findTF(slot1, "main")
 	slot5 = findTF(slot1, "sub")
 
 	if slot2:getPlayType() == ChapterConst.TypeMainSub then
-		setActive(findTF(slot1, "main"), false)
+		setActive(slot4, false)
 		setActive(slot5, true)
 
 		slot6 = findTF(slot5, "mask/count_down")
@@ -423,8 +437,9 @@ function slot1.PlayChapterItemAnimation(slot0, slot1, slot2, slot3)
 
 	if slot2:getPlayType() == ChapterConst.TypeMainSub then
 		slot5:GetComponent("Animator").enabled = true
+		slot7 = slot5:GetComponent("DftAniEvent")
 
-		slot5:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+		slot7:SetEndEvent(function (slot0)
 			uv0.enabled = false
 
 			if uv1 then
@@ -441,8 +456,9 @@ function slot1.PlayChapterItemAnimation(slot0, slot1, slot2, slot3)
 	LeanTween.cancel(go(slot7))
 
 	slot7.localScale = Vector3.zero
+	slot9 = LeanTween.scale(slot7, Vector3.one, 0.3)
 
-	slot0:RecordTween(LeanTween.scale(slot7, Vector3.one, 0.3):setDelay(0.3).uniqueId)
+	slot0:RecordTween(slot9:setDelay(0.3).uniqueId)
 	LeanTween.cancel(go(slot8))
 	setAnchoredPosition(slot8, {
 		x = -1 * slot4:Find("info").rect.width
@@ -460,29 +476,28 @@ end
 
 function slot1.PlayChapterItemAnimationBackward(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot1, "main")
-	slot5 = findTF(slot1, "sub")
 
 	if slot2:getPlayType() == ChapterConst.TypeMainSub then
 		if slot3 then
 			slot3()
 		end
 	else
-		slot7 = findTF(slot4, "circle")
-		slot8 = findTF(slot4, "info/bk")
+		slot6 = findTF(slot4, "circle")
+		slot7 = findTF(slot4, "info/bk")
 
-		LeanTween.cancel(go(slot7))
+		LeanTween.cancel(go(slot6))
 
-		slot7.localScale = Vector3.one
+		slot6.localScale = Vector3.one
 
-		slot0:RecordTween(LeanTween.scale(go(slot7), Vector3.zero, 0.3):setDelay(0.3).uniqueId)
+		slot0:RecordTween(LeanTween.scale(go(slot6), Vector3.zero, 0.3):setDelay(0.3).uniqueId)
 
 		slot0.chaptersInBackAnimating[slot2.id] = true
 
-		LeanTween.cancel(go(slot8))
-		setAnchoredPosition(slot8, {
+		LeanTween.cancel(go(slot7))
+		setAnchoredPosition(slot7, {
 			x = 0
 		})
-		shiftPanel(slot8, -1 * slot4:Find("info").rect.width, nil, 0.4, 0.4, true, true, nil, function ()
+		shiftPanel(slot7, -1 * slot4:Find("info").rect.width, nil, 0.4, 0.4, true, true, nil, function ()
 			uv0.chaptersInBackAnimating[uv1.id] = nil
 
 			if uv2 then
@@ -502,6 +517,29 @@ function slot1.UpdateChapterTF(slot0, slot1)
 
 		slot0:UpdateMapItem(slot2, slot3)
 		slot0:PlayChapterItemAnimation(slot2, slot3)
+	end
+end
+
+function slot1.AddChapterTF(slot0, slot1)
+	slot2 = slot0.data
+
+	if slot0.chapterTFsById[slot1] then
+		slot0:UpdateChapterTF(slot1)
+	elseif _.contains(slot2:GetChapterList(), function (slot0)
+		if slot0 ~= uv0 then
+			return false
+		end
+
+		return (getProxy(ChapterProxy):getChapterById(uv0, true):isUnlock() or slot1:activeAlways()) and slot1:isValid() and not slot1:ifNeedHide()
+	end) then
+		slot4 = getProxy(ChapterProxy):getChapterById(slot1, true)
+		slot3 = cloneTplTo(slot0.tpl, slot0.itemHolder, "Chapter_" .. slot4.id)
+
+		slot0:UpdateMapItem(slot3, slot4)
+
+		slot0.chapterTFsById[slot4.id] = slot3
+
+		slot0:PlayChapterItemAnimation(slot3)
 	end
 end
 

@@ -192353,6 +192353,502 @@ pg.ship_data_statistics = {
 			"L'Adroit-Class"
 		}
 	},
+	[801041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "倔強",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801040,
+		english_name = "FFNF L'Opiniâtre",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			286,
+			19,
+			70,
+			38,
+			0,
+			72,
+			0,
+			71,
+			66,
+			42,
+			45,
+			47
+		},
+		attrs_growth = {
+			8136,
+			263,
+			894,
+			830,
+			0,
+			503,
+			0,
+			1093,
+			1223,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	},
+	[801042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "倔強",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801040,
+		english_name = "FFNF L'Opiniâtre",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			356,
+			24,
+			87,
+			47,
+			0,
+			72,
+			0,
+			71,
+			66,
+			42,
+			45,
+			59
+		},
+		attrs_growth = {
+			8136,
+			263,
+			894,
+			830,
+			0,
+			503,
+			0,
+			1093,
+			1223,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	},
+	[801043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "倔強",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801040,
+		english_name = "FFNF L'Opiniâtre",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			495,
+			33,
+			122,
+			66,
+			0,
+			72,
+			0,
+			71,
+			66,
+			42,
+			45,
+			82
+		},
+		attrs_growth = {
+			8136,
+			263,
+			894,
+			830,
+			0,
+			503,
+			0,
+			1093,
+			1223,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	},
+	[801044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "倔強",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801040,
+		english_name = "FFNF L'Opiniâtre",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			704,
+			47,
+			174,
+			94,
+			0,
+			72,
+			0,
+			71,
+			66,
+			42,
+			45,
+			118
+		},
+		attrs_growth = {
+			8136,
+			263,
+			894,
+			830,
+			0,
+			503,
+			0,
+			1093,
+			1223,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.35,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	},
 	[802011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -193482,7 +193978,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Richelieu-Class"
+			"Richelieu-Class",
+			"Richelieu"
 		}
 	},
 	[805012] = {
@@ -193606,7 +194103,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Richelieu-Class"
+			"Richelieu-Class",
+			"Richelieu"
 		}
 	},
 	[805013] = {
@@ -193730,7 +194228,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Richelieu-Class"
+			"Richelieu-Class",
+			"Richelieu"
 		}
 	},
 	[805014] = {
@@ -193854,7 +194353,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Richelieu-Class"
+			"Richelieu-Class",
+			"Richelieu"
 		}
 	},
 	[807011] = {
@@ -196811,6 +197311,502 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		}
+	},
+	[901111] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "惡毒",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 901110,
+		english_name = "MNF Le Malin",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 901111,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			326,
+			25,
+			51,
+			26,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			47
+		},
+		attrs_growth = {
+			9281,
+			350,
+			688,
+			562,
+			0,
+			526,
+			0,
+			1045,
+			1448,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Fantasque-Class"
+		}
+	},
+	[901112] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "惡毒",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 901110,
+		english_name = "MNF Le Malin",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 901112,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			405,
+			31,
+			64,
+			32,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			59
+		},
+		attrs_growth = {
+			9281,
+			350,
+			688,
+			562,
+			0,
+			526,
+			0,
+			1045,
+			1448,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Fantasque-Class"
+		}
+	},
+	[901113] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "惡毒",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 901110,
+		english_name = "MNF Le Malin",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 901113,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			564,
+			44,
+			89,
+			45,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			82
+		},
+		attrs_growth = {
+			9281,
+			350,
+			688,
+			562,
+			0,
+			526,
+			0,
+			1045,
+			1448,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Fantasque-Class"
+		}
+	},
+	[901114] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "惡毒",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 901110,
+		english_name = "MNF Le Malin",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 901114,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			803,
+			63,
+			126,
+			64,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			117
+		},
+		attrs_growth = {
+			9281,
+			350,
+			688,
+			562,
+			0,
+			526,
+			0,
+			1045,
+			1448,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.25,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Fantasque-Class"
 		}
 	},
 	[902011] = {
@@ -247883,6 +248879,10 @@ pg.ship_data_statistics = {
 		801022,
 		801023,
 		801024,
+		801041,
+		801042,
+		801043,
+		801044,
 		802011,
 		802012,
 		802013,
@@ -247915,6 +248915,10 @@ pg.ship_data_statistics = {
 		901032,
 		901033,
 		901034,
+		901111,
+		901112,
+		901113,
+		901114,
 		902011,
 		902012,
 		902013,

@@ -4,12 +4,6 @@ function slot0.getUIName(slot0)
 	return "CommissionInfoUI"
 end
 
-function slot0.setProxies(slot0, slot1, slot2, slot3)
-	slot0.eventProxy = slot1
-	slot0.navalAcademyProxy = slot2
-	slot0.technologyProxy = slot3
-end
-
 function slot0.init(slot0)
 	slot0.frame = slot0:findTF("frame")
 	slot0.resourcesTF = slot0:findTF("resources", slot0.frame)
@@ -19,8 +13,14 @@ function slot0.init(slot0)
 	slot0.oilbubbleTF = slot0:findTF("canteen/bubble", slot0.resourcesTF)
 	slot0.goldbubbleTF = slot0:findTF("merchant/bubble", slot0.resourcesTF)
 	slot0.classbubbleTF = slot0:findTF("class/bubble", slot0.resourcesTF)
-	slot0.classbubbleTF:Find("icon"):GetComponent(typeof(Image)).sprite = LoadSprite(pg.item_data_statistics[getProxy(NavalAcademyProxy):GetClassVO():GetResourceType()].icon)
+	slot3 = slot0.classbubbleTF:Find("icon")
+	slot3:GetComponent(typeof(Image)).sprite = LoadSprite(pg.item_data_statistics[getProxy(NavalAcademyProxy):GetClassVO():GetResourceType()].icon)
 	slot0.projectContainer = slot0:findTF("main/content", slot0.frame)
+	slot0.items = {
+		CommissionInfoEventItem.New(slot0:findTF("frame/main/content/event"), slot0),
+		CommissionInfoClassItem.New(slot0:findTF("frame/main/content/class"), slot0),
+		CommissionInfoTechnologyItem.New(slot0:findTF("frame/main/content/technology"), slot0)
+	}
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.SECOND_LAYER
@@ -55,6 +55,10 @@ end
 function slot0.updateCrusingEntrance(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot1:isEnd() then
 		setActive(slot0.activityCrusingBtn, true)
+
+		slot2 = slot1:GetCrusingInfo()
+
+		setText(slot0.activityCrusingBtn:Find("Text"), slot2.phase .. "/" .. #slot2.awardList)
 		setActive(slot0.activityCrusingBtn:Find("tip"), slot1:readyToAchieve())
 	else
 		setActive(slot0.activityCrusingBtn, false)
@@ -120,73 +124,27 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.classbubbleTF, function ()
 		uv0:emit(CommissionInfoMediator.GET_CLASS_RES)
 	end, SFX_PANEL)
-	slot0:initProjects()
+	slot0:InitItems()
 	slot0:UpdateUrItemEntrance()
 	slot0:updateCrusingEntrance()
 end
 
-function slot0.initProjects(slot0)
-	slot5 = "main/content/technology"
-	slot6 = slot0.frame
-	slot0.projectCards = {}
-
-	for slot5, slot6 in ipairs({
-		{
-			CommissionCard.TYPE_EVENT,
-			slot0:findTF("main/content/event", slot0.frame),
-			slot0.eventProxy
-		},
-		{
-			CommissionCard.TYPE_CLASS,
-			slot0:findTF("main/content/class", slot0.frame),
-			slot0.navalAcademyProxy
-		},
-		{
-			CommissionCard.TYPE_TECHNOLOGY,
-			slot0:findTF(slot5, slot6),
-			slot0.technologyProxy
-		}
-	}) do
-		slot7 = CommissionCard.New(slot0, slot6)
-		slot0.projectCards[slot6[1]] = slot7
-
-		slot7:update()
-		onToggle(slot0, slot7.toggle, function (slot0)
-			uv0:updateTips(slot0)
-
-			if slot0 then
-				slot1, slot2 = nil
-
-				if uv0._type == CommissionCard.TYPE_TECHNOLOGY then
-					slot1, slot2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator")
-				else
-					slot1 = true
-				end
-
-				if not slot1 then
-					pg.TipsMgr.GetInstance():ShowTips(slot2)
-					triggerToggle(uv0.toggle)
-
-					return
-				end
-
-				uv1.projectContainer.localPosition = Vector3(uv1.projectContainer.localPosition.x, math.abs(uv0._tf.localPosition.y), 0)
-			end
-		end, SFX_PANEL)
-		onButton(slot0, slot7.goBtn, function ()
-			if uv0._type == CommissionCard.TYPE_EVENT then
-				uv1:emit(CommissionInfoMediator.ON_ACTIVE_EVENT)
-			elseif uv0._type == CommissionCard.TYPE_CLASS then
-				uv1:emit(CommissionInfoMediator.ON_ACTIVE_CLASS)
-			elseif uv0._type == CommissionCard.TYPE_TECHNOLOGY then
-				uv1:emit(CommissionInfoMediator.ON_ACTIVE_TECH)
-			end
-		end, SFX_PANEL)
+function slot0.InitItems(slot0)
+	for slot4, slot5 in ipairs(slot0.items) do
+		slot5:Init()
 	end
 end
 
-function slot0.updateProject(slot0, slot1)
-	slot0.projectCards[slot1]:update()
+function slot0.OnUpdateEventInfo(slot0)
+	slot0.items[1]:Update()
+end
+
+function slot0.OnUpdateClass(slot0)
+	slot0.items[2]:Update()
+end
+
+function slot0.OnUpdateTechnology(slot0)
+	slot0.items[3]:Update()
 end
 
 function slot0.setPlayer(slot0, slot1)
@@ -215,9 +173,11 @@ end
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 
-	for slot4, slot5 in pairs(slot0.projectCards) do
-		slot5:dispose()
+	for slot4, slot5 in ipairs(slot0.items) do
+		slot5:Dispose()
 	end
+
+	slot0.items = nil
 end
 
 return slot0

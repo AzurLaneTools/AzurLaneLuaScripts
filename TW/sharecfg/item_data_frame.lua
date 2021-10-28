@@ -33,7 +33,7 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 201,
 		time_second = 0,
-		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得 （2020.10.15-2020.12.06）",
+		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得（2020.10.15-2020.12.06）",
 		scene = {}
 	},
 	[202] = {
@@ -42,7 +42,7 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 202,
 		time_second = 0,
-		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得 （2020.12.10-2021.01.27）",
+		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得（2020.12.10-2021.01.27）",
 		scene = {}
 	},
 	[203] = {
@@ -51,7 +51,7 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 203,
 		time_second = 0,
-		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「 限界挑戰」獲得 （2021.4.15-2021.6.13）",
+		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得（2021.4.15-2021.6.13）",
 		scene = {}
 	},
 	[204] = {
@@ -60,7 +60,16 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 204,
 		time_second = 0,
-		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「 限界挑戰」獲得  （2021.7.22-2021.10.17）",
+		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得（2021.7.22-2021.10.17）",
+		scene = {}
+	},
+	[205] = {
+		time_limit_type = 0,
+		name = "限界的挑戰者V",
+		gain_by = "",
+		id = 205,
+		time_second = 0,
+		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得（2021.10.28-2022.1.23）",
 		scene = {}
 	},
 	[300] = {
@@ -188,6 +197,7 @@ pg.item_data_frame = {
 		202,
 		203,
 		204,
+		205,
 		300,
 		301,
 		302,

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"混沌的万圣之夜\n\n<size=45>二 魔女快递、绝赞开张中</size>",
+					"混沌的萬聖之夜\n\n<size=45>二 魔女快遞、絕讚開張中</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "正义的夥伴，小海狸分队，查尔斯奥斯本参上！今天又有什么样的不正义之事在等着我们解决呢~",
+			say = "正義的伙伴，小海狸分隊，查爾斯奧斯本參上！今天又有什麼樣的不正義之事在等著我們解決呢~",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，奥斯本。走路这么闹腾当心撞到人什么的啊……",
+			say = "哎，奧斯本。走路這麼浮躁當心撞到人甚麼的啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不这样的话，就不是奥斯本了吧~嗯？那是…",
+			say = "不這樣的話，就不是奧斯本了吧~嗯？那是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀！斯莫利！妳在做什么呢！",
+			say = "呀！斯莫利！妳在做什麼呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔？是奥斯本吗…哦，还有弗莱彻和撒切尔",
+			say = "唔？是奧斯本嗎…哦，還有佛萊契爾姐姐和柴契爾",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万圣节，魔女快递。",
+			say = "萬聖節，魔女快遞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？魔女？快递？",
+			say = "欸？魔女？快遞？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原、原来如此…在帮爱丁堡运送糖果吗…",
+			say = "原、原來如此…在幫愛丁堡運送糖果嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，魔女快递，绝赞开张中",
+			say = "嗯，魔女快遞，絕讚開張中…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为期待万圣节的孩子们带去希望！多么正义的行为！既然如此，让我们也来帮忙吧！",
+			say = "為期待萬聖節的孩子們帶去希望！多麼正義的行為！既然如此，讓我們也來幫忙吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，又擅自揽下了奇怪的事情…算了，同为弗莱彻的一员，就帮点忙好了",
+			say = "嘖，又擅自攬下了奇怪的事情…算了，同為佛萊契爾的一員，就幫點忙好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 101421,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦…妳们也要一起加入魔女快递的行列吗！",
+			say = "哦哦…妳們也要一起加入魔女快遞的行列嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈…斯莫利，似乎很乐在其中呢，嗯，大家一起来吧，“魔女快递，绝赞开张！”，对吧~",
+			say = "哈哈…斯莫利，似乎很樂在其中呢，嗯，大家一起來吧，“魔女快遞，絕讚開張！“，對吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 101421,
-			actorName = "众人",
+			actorName = "眾人",
 			say = "哦——",
 			effects = {
 				{
@@ -387,7 +387,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "在全新组成的“魔女快递”面前突然出现的，是一个巨大的黄色南瓜——",
+			say = "在全新組成的“魔女快遞”面前突然出現的，是一個巨大的黃色南瓜——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

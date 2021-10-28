@@ -2,18 +2,10 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 1,
+	painting = 0,
 	id = 9677,
 	picture = "0",
 	desc = "",
-	aniEffect = {
-		effect = "jineng",
-		offset = {
-			0,
-			-2,
-			0
-		}
-	},
 	effect_list = {
 		{
 			type = "BattleSkillAddBuff",
@@ -25,15 +17,18 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillEditTag",
+			type = "BattleSkillAddBuff",
 			casterAniEffect = "",
-			target_choise = "TargetShipTag",
 			targetAniEffect = "",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetShipTypeFriendly"
+			},
 			arg_list = {
-				tag = "14_NewWave",
-				operation = -1,
-				ship_tag_list = {
-					"14_NewWave"
+				buff_id = 9679,
+				ship_type_list = {
+					8,
+					17
 				}
 			}
 		}
