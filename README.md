@@ -9,3 +9,5 @@
 Extracted lua scripts from game AzurLane.
 
 Will update automatically.
+
+Check [AzurLaneTools/AzurLaneData](https://github.com/AzurLaneTools/AzurLaneData) for extracted data in json format.
