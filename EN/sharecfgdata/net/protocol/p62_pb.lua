@@ -1,0 +1,774 @@
+slot0 = require("protobuf")
+slot2 = require("guild_pb")
+
+module("p62_pb")
+
+slot3 = {
+	CS_62002_ID_FIELD = slot0.FieldDescriptor(),
+	SC_62003_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_62003_DONATE_TASKS_FIELD = slot0.FieldDescriptor(),
+	SC_62004_THIS_WEEKLY_TASKS_FIELD = slot0.FieldDescriptor(),
+	SC_62005_BENEFIT_FINISH_TIME_FIELD = slot0.FieldDescriptor(),
+	SC_62006_PROGRESS_FIELD = slot0.FieldDescriptor(),
+	CS_62007_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_62008_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_62009_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_62010_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_62010_DROP_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_62011_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_62012_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_62012_LOG_FIELD = slot0.FieldDescriptor(),
+	CS_62013_ID_FIELD = slot0.FieldDescriptor(),
+	SC_62014_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_62015_ID_FIELD = slot0.FieldDescriptor(),
+	SC_62016_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_62017_ID_FIELD = slot0.FieldDescriptor(),
+	SC_62018_ID_FIELD = slot0.FieldDescriptor(),
+	SC_62019_ID_FIELD = slot0.FieldDescriptor(),
+	SC_62019_USER_ID_FIELD = slot0.FieldDescriptor(),
+	SC_62019_HAS_CAPITAL_FIELD = slot0.FieldDescriptor(),
+	SC_62019_HAS_TECH_POINT_FIELD = slot0.FieldDescriptor(),
+	CS_62020_ID_FIELD = slot0.FieldDescriptor(),
+	SC_62021_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_62022_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_62023_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_62023_PROGRESS_FIELD = slot0.FieldDescriptor(),
+	CS_62024_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_62025_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_62025_CAPITAL_FIELD = slot0.FieldDescriptor(),
+	CS_62029_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_62030_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_62031_DONATE_TASKS_FIELD = slot0.FieldDescriptor(),
+	CS_62100_TYPE_FIELD = slot0.FieldDescriptor(),
+	SC_62101_TECHNOLOGYS_FIELD = slot0.FieldDescriptor(),
+	RANK_INFO_PERIOD_FIELD = slot0.FieldDescriptor(),
+	RANK_INFO_RANKUSERINFO_FIELD = slot0.FieldDescriptor(),
+	RANK_USER_INFO_USER_ID_FIELD = slot0.FieldDescriptor(),
+	RANK_USER_INFO_COUNT_FIELD = slot0.FieldDescriptor()
+}
+CS_62002 = slot0.Descriptor()
+SC_62003 = slot0.Descriptor()
+SC_62004 = slot0.Descriptor()
+SC_62005 = slot0.Descriptor()
+SC_62006 = slot0.Descriptor()
+CS_62007 = slot0.Descriptor()
+SC_62008 = slot0.Descriptor()
+CS_62009 = slot0.Descriptor()
+SC_62010 = slot0.Descriptor()
+CS_62011 = slot0.Descriptor()
+SC_62012 = slot0.Descriptor()
+CS_62013 = slot0.Descriptor()
+SC_62014 = slot0.Descriptor()
+CS_62015 = slot0.Descriptor()
+SC_62016 = slot0.Descriptor()
+SC_62017 = slot0.Descriptor()
+SC_62018 = slot0.Descriptor()
+SC_62019 = slot0.Descriptor()
+CS_62020 = slot0.Descriptor()
+SC_62021 = slot0.Descriptor()
+CS_62022 = slot0.Descriptor()
+SC_62023 = slot0.Descriptor()
+CS_62024 = slot0.Descriptor()
+SC_62025 = slot0.Descriptor()
+CS_62029 = slot0.Descriptor()
+SC_62030 = slot0.Descriptor()
+SC_62031 = slot0.Descriptor()
+CS_62100 = slot0.Descriptor()
+SC_62101 = slot0.Descriptor()
+RANK_INFO = slot0.Descriptor()
+RANK_USER_INFO = slot0.Descriptor()
+slot3.CS_62002_ID_FIELD.name = "id"
+slot3.CS_62002_ID_FIELD.full_name = "p62.cs_62002.id"
+slot3.CS_62002_ID_FIELD.number = 1
+slot3.CS_62002_ID_FIELD.index = 0
+slot3.CS_62002_ID_FIELD.label = 2
+slot3.CS_62002_ID_FIELD.has_default_value = false
+slot3.CS_62002_ID_FIELD.default_value = 0
+slot3.CS_62002_ID_FIELD.type = 13
+slot3.CS_62002_ID_FIELD.cpp_type = 3
+CS_62002.name = "cs_62002"
+CS_62002.full_name = "p62.cs_62002"
+CS_62002.nested_types = {}
+CS_62002.enum_types = {}
+CS_62002.fields = {
+	slot3.CS_62002_ID_FIELD
+}
+CS_62002.is_extendable = false
+CS_62002.extensions = {}
+slot3.SC_62003_RESULT_FIELD.name = "result"
+slot3.SC_62003_RESULT_FIELD.full_name = "p62.sc_62003.result"
+slot3.SC_62003_RESULT_FIELD.number = 1
+slot3.SC_62003_RESULT_FIELD.index = 0
+slot3.SC_62003_RESULT_FIELD.label = 2
+slot3.SC_62003_RESULT_FIELD.has_default_value = false
+slot3.SC_62003_RESULT_FIELD.default_value = 0
+slot3.SC_62003_RESULT_FIELD.type = 13
+slot3.SC_62003_RESULT_FIELD.cpp_type = 3
+slot3.SC_62003_DONATE_TASKS_FIELD.name = "donate_tasks"
+slot3.SC_62003_DONATE_TASKS_FIELD.full_name = "p62.sc_62003.donate_tasks"
+slot3.SC_62003_DONATE_TASKS_FIELD.number = 2
+slot3.SC_62003_DONATE_TASKS_FIELD.index = 1
+slot3.SC_62003_DONATE_TASKS_FIELD.label = 3
+slot3.SC_62003_DONATE_TASKS_FIELD.has_default_value = false
+slot3.SC_62003_DONATE_TASKS_FIELD.default_value = {}
+slot3.SC_62003_DONATE_TASKS_FIELD.type = 13
+slot3.SC_62003_DONATE_TASKS_FIELD.cpp_type = 3
+SC_62003.name = "sc_62003"
+SC_62003.full_name = "p62.sc_62003"
+SC_62003.nested_types = {}
+SC_62003.enum_types = {}
+SC_62003.fields = {
+	slot3.SC_62003_RESULT_FIELD,
+	slot3.SC_62003_DONATE_TASKS_FIELD
+}
+SC_62003.is_extendable = false
+SC_62003.extensions = {}
+slot3.SC_62004_THIS_WEEKLY_TASKS_FIELD.name = "this_weekly_tasks"
+slot3.SC_62004_THIS_WEEKLY_TASKS_FIELD.full_name = "p62.sc_62004.this_weekly_tasks"
+slot3.SC_62004_THIS_WEEKLY_TASKS_FIELD.number = 1
+slot3.SC_62004_THIS_WEEKLY_TASKS_FIELD.index = 0
+slot3.SC_62004_THIS_WEEKLY_TASKS_FIELD.label = 2
+slot3.SC_62004_THIS_WEEKLY_TASKS_FIELD.has_default_value = false
+slot3.SC_62004_THIS_WEEKLY_TASKS_FIELD.default_value = nil
+slot3.SC_62004_THIS_WEEKLY_TASKS_FIELD.message_type = slot2.WEEKLY_TASK
+slot3.SC_62004_THIS_WEEKLY_TASKS_FIELD.type = 11
+slot3.SC_62004_THIS_WEEKLY_TASKS_FIELD.cpp_type = 10
+SC_62004.name = "sc_62004"
+SC_62004.full_name = "p62.sc_62004"
+SC_62004.nested_types = {}
+SC_62004.enum_types = {}
+SC_62004.fields = {
+	slot3.SC_62004_THIS_WEEKLY_TASKS_FIELD
+}
+SC_62004.is_extendable = false
+SC_62004.extensions = {}
+slot3.SC_62005_BENEFIT_FINISH_TIME_FIELD.name = "benefit_finish_time"
+slot3.SC_62005_BENEFIT_FINISH_TIME_FIELD.full_name = "p62.sc_62005.benefit_finish_time"
+slot3.SC_62005_BENEFIT_FINISH_TIME_FIELD.number = 1
+slot3.SC_62005_BENEFIT_FINISH_TIME_FIELD.index = 0
+slot3.SC_62005_BENEFIT_FINISH_TIME_FIELD.label = 2
+slot3.SC_62005_BENEFIT_FINISH_TIME_FIELD.has_default_value = false
+slot3.SC_62005_BENEFIT_FINISH_TIME_FIELD.default_value = 0
+slot3.SC_62005_BENEFIT_FINISH_TIME_FIELD.type = 13
+slot3.SC_62005_BENEFIT_FINISH_TIME_FIELD.cpp_type = 3
+SC_62005.name = "sc_62005"
+SC_62005.full_name = "p62.sc_62005"
+SC_62005.nested_types = {}
+SC_62005.enum_types = {}
+SC_62005.fields = {
+	slot3.SC_62005_BENEFIT_FINISH_TIME_FIELD
+}
+SC_62005.is_extendable = false
+SC_62005.extensions = {}
+slot3.SC_62006_PROGRESS_FIELD.name = "progress"
+slot3.SC_62006_PROGRESS_FIELD.full_name = "p62.sc_62006.progress"
+slot3.SC_62006_PROGRESS_FIELD.number = 1
+slot3.SC_62006_PROGRESS_FIELD.index = 0
+slot3.SC_62006_PROGRESS_FIELD.label = 2
+slot3.SC_62006_PROGRESS_FIELD.has_default_value = false
+slot3.SC_62006_PROGRESS_FIELD.default_value = 0
+slot3.SC_62006_PROGRESS_FIELD.type = 13
+slot3.SC_62006_PROGRESS_FIELD.cpp_type = 3
+SC_62006.name = "sc_62006"
+SC_62006.full_name = "p62.sc_62006"
+SC_62006.nested_types = {}
+SC_62006.enum_types = {}
+SC_62006.fields = {
+	slot3.SC_62006_PROGRESS_FIELD
+}
+SC_62006.is_extendable = false
+SC_62006.extensions = {}
+slot3.CS_62007_TYPE_FIELD.name = "type"
+slot3.CS_62007_TYPE_FIELD.full_name = "p62.cs_62007.type"
+slot3.CS_62007_TYPE_FIELD.number = 1
+slot3.CS_62007_TYPE_FIELD.index = 0
+slot3.CS_62007_TYPE_FIELD.label = 2
+slot3.CS_62007_TYPE_FIELD.has_default_value = false
+slot3.CS_62007_TYPE_FIELD.default_value = 0
+slot3.CS_62007_TYPE_FIELD.type = 13
+slot3.CS_62007_TYPE_FIELD.cpp_type = 3
+CS_62007.name = "cs_62007"
+CS_62007.full_name = "p62.cs_62007"
+CS_62007.nested_types = {}
+CS_62007.enum_types = {}
+CS_62007.fields = {
+	slot3.CS_62007_TYPE_FIELD
+}
+CS_62007.is_extendable = false
+CS_62007.extensions = {}
+slot3.SC_62008_RESULT_FIELD.name = "result"
+slot3.SC_62008_RESULT_FIELD.full_name = "p62.sc_62008.result"
+slot3.SC_62008_RESULT_FIELD.number = 1
+slot3.SC_62008_RESULT_FIELD.index = 0
+slot3.SC_62008_RESULT_FIELD.label = 2
+slot3.SC_62008_RESULT_FIELD.has_default_value = false
+slot3.SC_62008_RESULT_FIELD.default_value = 0
+slot3.SC_62008_RESULT_FIELD.type = 13
+slot3.SC_62008_RESULT_FIELD.cpp_type = 3
+SC_62008.name = "sc_62008"
+SC_62008.full_name = "p62.sc_62008"
+SC_62008.nested_types = {}
+SC_62008.enum_types = {}
+SC_62008.fields = {
+	slot3.SC_62008_RESULT_FIELD
+}
+SC_62008.is_extendable = false
+SC_62008.extensions = {}
+slot3.CS_62009_TYPE_FIELD.name = "type"
+slot3.CS_62009_TYPE_FIELD.full_name = "p62.cs_62009.type"
+slot3.CS_62009_TYPE_FIELD.number = 1
+slot3.CS_62009_TYPE_FIELD.index = 0
+slot3.CS_62009_TYPE_FIELD.label = 2
+slot3.CS_62009_TYPE_FIELD.has_default_value = false
+slot3.CS_62009_TYPE_FIELD.default_value = 0
+slot3.CS_62009_TYPE_FIELD.type = 13
+slot3.CS_62009_TYPE_FIELD.cpp_type = 3
+CS_62009.name = "cs_62009"
+CS_62009.full_name = "p62.cs_62009"
+CS_62009.nested_types = {}
+CS_62009.enum_types = {}
+CS_62009.fields = {
+	slot3.CS_62009_TYPE_FIELD
+}
+CS_62009.is_extendable = false
+CS_62009.extensions = {}
+slot3.SC_62010_RESULT_FIELD.name = "result"
+slot3.SC_62010_RESULT_FIELD.full_name = "p62.sc_62010.result"
+slot3.SC_62010_RESULT_FIELD.number = 1
+slot3.SC_62010_RESULT_FIELD.index = 0
+slot3.SC_62010_RESULT_FIELD.label = 2
+slot3.SC_62010_RESULT_FIELD.has_default_value = false
+slot3.SC_62010_RESULT_FIELD.default_value = 0
+slot3.SC_62010_RESULT_FIELD.type = 13
+slot3.SC_62010_RESULT_FIELD.cpp_type = 3
+slot3.SC_62010_DROP_LIST_FIELD.name = "drop_list"
+slot3.SC_62010_DROP_LIST_FIELD.full_name = "p62.sc_62010.drop_list"
+slot3.SC_62010_DROP_LIST_FIELD.number = 2
+slot3.SC_62010_DROP_LIST_FIELD.index = 1
+slot3.SC_62010_DROP_LIST_FIELD.label = 3
+slot3.SC_62010_DROP_LIST_FIELD.has_default_value = false
+slot3.SC_62010_DROP_LIST_FIELD.default_value = {}
+slot3.SC_62010_DROP_LIST_FIELD.message_type = require("common_pb").DROPINFO
+slot3.SC_62010_DROP_LIST_FIELD.type = 11
+slot3.SC_62010_DROP_LIST_FIELD.cpp_type = 10
+SC_62010.name = "sc_62010"
+SC_62010.full_name = "p62.sc_62010"
+SC_62010.nested_types = {}
+SC_62010.enum_types = {}
+SC_62010.fields = {
+	slot3.SC_62010_RESULT_FIELD,
+	slot3.SC_62010_DROP_LIST_FIELD
+}
+SC_62010.is_extendable = false
+SC_62010.extensions = {}
+slot3.CS_62011_TYPE_FIELD.name = "type"
+slot3.CS_62011_TYPE_FIELD.full_name = "p62.cs_62011.type"
+slot3.CS_62011_TYPE_FIELD.number = 1
+slot3.CS_62011_TYPE_FIELD.index = 0
+slot3.CS_62011_TYPE_FIELD.label = 2
+slot3.CS_62011_TYPE_FIELD.has_default_value = false
+slot3.CS_62011_TYPE_FIELD.default_value = 0
+slot3.CS_62011_TYPE_FIELD.type = 13
+slot3.CS_62011_TYPE_FIELD.cpp_type = 3
+CS_62011.name = "cs_62011"
+CS_62011.full_name = "p62.cs_62011"
+CS_62011.nested_types = {}
+CS_62011.enum_types = {}
+CS_62011.fields = {
+	slot3.CS_62011_TYPE_FIELD
+}
+CS_62011.is_extendable = false
+CS_62011.extensions = {}
+slot3.SC_62012_RESULT_FIELD.name = "result"
+slot3.SC_62012_RESULT_FIELD.full_name = "p62.sc_62012.result"
+slot3.SC_62012_RESULT_FIELD.number = 1
+slot3.SC_62012_RESULT_FIELD.index = 0
+slot3.SC_62012_RESULT_FIELD.label = 2
+slot3.SC_62012_RESULT_FIELD.has_default_value = false
+slot3.SC_62012_RESULT_FIELD.default_value = 0
+slot3.SC_62012_RESULT_FIELD.type = 13
+slot3.SC_62012_RESULT_FIELD.cpp_type = 3
+slot3.SC_62012_LOG_FIELD.name = "log"
+slot3.SC_62012_LOG_FIELD.full_name = "p62.sc_62012.log"
+slot3.SC_62012_LOG_FIELD.number = 2
+slot3.SC_62012_LOG_FIELD.index = 1
+slot3.SC_62012_LOG_FIELD.label = 3
+slot3.SC_62012_LOG_FIELD.has_default_value = false
+slot3.SC_62012_LOG_FIELD.default_value = {}
+slot3.SC_62012_LOG_FIELD.message_type = slot2.CAPITAL_LOG
+slot3.SC_62012_LOG_FIELD.type = 11
+slot3.SC_62012_LOG_FIELD.cpp_type = 10
+SC_62012.name = "sc_62012"
+SC_62012.full_name = "p62.sc_62012"
+SC_62012.nested_types = {}
+SC_62012.enum_types = {}
+SC_62012.fields = {
+	slot3.SC_62012_RESULT_FIELD,
+	slot3.SC_62012_LOG_FIELD
+}
+SC_62012.is_extendable = false
+SC_62012.extensions = {}
+slot3.CS_62013_ID_FIELD.name = "id"
+slot3.CS_62013_ID_FIELD.full_name = "p62.cs_62013.id"
+slot3.CS_62013_ID_FIELD.number = 1
+slot3.CS_62013_ID_FIELD.index = 0
+slot3.CS_62013_ID_FIELD.label = 2
+slot3.CS_62013_ID_FIELD.has_default_value = false
+slot3.CS_62013_ID_FIELD.default_value = 0
+slot3.CS_62013_ID_FIELD.type = 13
+slot3.CS_62013_ID_FIELD.cpp_type = 3
+CS_62013.name = "cs_62013"
+CS_62013.full_name = "p62.cs_62013"
+CS_62013.nested_types = {}
+CS_62013.enum_types = {}
+CS_62013.fields = {
+	slot3.CS_62013_ID_FIELD
+}
+CS_62013.is_extendable = false
+CS_62013.extensions = {}
+slot3.SC_62014_RESULT_FIELD.name = "result"
+slot3.SC_62014_RESULT_FIELD.full_name = "p62.sc_62014.result"
+slot3.SC_62014_RESULT_FIELD.number = 1
+slot3.SC_62014_RESULT_FIELD.index = 0
+slot3.SC_62014_RESULT_FIELD.label = 2
+slot3.SC_62014_RESULT_FIELD.has_default_value = false
+slot3.SC_62014_RESULT_FIELD.default_value = 0
+slot3.SC_62014_RESULT_FIELD.type = 13
+slot3.SC_62014_RESULT_FIELD.cpp_type = 3
+SC_62014.name = "sc_62014"
+SC_62014.full_name = "p62.sc_62014"
+SC_62014.nested_types = {}
+SC_62014.enum_types = {}
+SC_62014.fields = {
+	slot3.SC_62014_RESULT_FIELD
+}
+SC_62014.is_extendable = false
+SC_62014.extensions = {}
+slot3.CS_62015_ID_FIELD.name = "id"
+slot3.CS_62015_ID_FIELD.full_name = "p62.cs_62015.id"
+slot3.CS_62015_ID_FIELD.number = 1
+slot3.CS_62015_ID_FIELD.index = 0
+slot3.CS_62015_ID_FIELD.label = 2
+slot3.CS_62015_ID_FIELD.has_default_value = false
+slot3.CS_62015_ID_FIELD.default_value = 0
+slot3.CS_62015_ID_FIELD.type = 13
+slot3.CS_62015_ID_FIELD.cpp_type = 3
+CS_62015.name = "cs_62015"
+CS_62015.full_name = "p62.cs_62015"
+CS_62015.nested_types = {}
+CS_62015.enum_types = {}
+CS_62015.fields = {
+	slot3.CS_62015_ID_FIELD
+}
+CS_62015.is_extendable = false
+CS_62015.extensions = {}
+slot3.SC_62016_RESULT_FIELD.name = "result"
+slot3.SC_62016_RESULT_FIELD.full_name = "p62.sc_62016.result"
+slot3.SC_62016_RESULT_FIELD.number = 1
+slot3.SC_62016_RESULT_FIELD.index = 0
+slot3.SC_62016_RESULT_FIELD.label = 2
+slot3.SC_62016_RESULT_FIELD.has_default_value = false
+slot3.SC_62016_RESULT_FIELD.default_value = 0
+slot3.SC_62016_RESULT_FIELD.type = 13
+slot3.SC_62016_RESULT_FIELD.cpp_type = 3
+SC_62016.name = "sc_62016"
+SC_62016.full_name = "p62.sc_62016"
+SC_62016.nested_types = {}
+SC_62016.enum_types = {}
+SC_62016.fields = {
+	slot3.SC_62016_RESULT_FIELD
+}
+SC_62016.is_extendable = false
+SC_62016.extensions = {}
+slot3.SC_62017_ID_FIELD.name = "id"
+slot3.SC_62017_ID_FIELD.full_name = "p62.sc_62017.id"
+slot3.SC_62017_ID_FIELD.number = 1
+slot3.SC_62017_ID_FIELD.index = 0
+slot3.SC_62017_ID_FIELD.label = 2
+slot3.SC_62017_ID_FIELD.has_default_value = false
+slot3.SC_62017_ID_FIELD.default_value = 0
+slot3.SC_62017_ID_FIELD.type = 13
+slot3.SC_62017_ID_FIELD.cpp_type = 3
+SC_62017.name = "sc_62017"
+SC_62017.full_name = "p62.sc_62017"
+SC_62017.nested_types = {}
+SC_62017.enum_types = {}
+SC_62017.fields = {
+	slot3.SC_62017_ID_FIELD
+}
+SC_62017.is_extendable = false
+SC_62017.extensions = {}
+slot3.SC_62018_ID_FIELD.name = "id"
+slot3.SC_62018_ID_FIELD.full_name = "p62.sc_62018.id"
+slot3.SC_62018_ID_FIELD.number = 1
+slot3.SC_62018_ID_FIELD.index = 0
+slot3.SC_62018_ID_FIELD.label = 2
+slot3.SC_62018_ID_FIELD.has_default_value = false
+slot3.SC_62018_ID_FIELD.default_value = 0
+slot3.SC_62018_ID_FIELD.type = 13
+slot3.SC_62018_ID_FIELD.cpp_type = 3
+SC_62018.name = "sc_62018"
+SC_62018.full_name = "p62.sc_62018"
+SC_62018.nested_types = {}
+SC_62018.enum_types = {}
+SC_62018.fields = {
+	slot3.SC_62018_ID_FIELD
+}
+SC_62018.is_extendable = false
+SC_62018.extensions = {}
+slot3.SC_62019_ID_FIELD.name = "id"
+slot3.SC_62019_ID_FIELD.full_name = "p62.sc_62019.id"
+slot3.SC_62019_ID_FIELD.number = 1
+slot3.SC_62019_ID_FIELD.index = 0
+slot3.SC_62019_ID_FIELD.label = 2
+slot3.SC_62019_ID_FIELD.has_default_value = false
+slot3.SC_62019_ID_FIELD.default_value = 0
+slot3.SC_62019_ID_FIELD.type = 13
+slot3.SC_62019_ID_FIELD.cpp_type = 3
+slot3.SC_62019_USER_ID_FIELD.name = "user_id"
+slot3.SC_62019_USER_ID_FIELD.full_name = "p62.sc_62019.user_id"
+slot3.SC_62019_USER_ID_FIELD.number = 2
+slot3.SC_62019_USER_ID_FIELD.index = 1
+slot3.SC_62019_USER_ID_FIELD.label = 2
+slot3.SC_62019_USER_ID_FIELD.has_default_value = false
+slot3.SC_62019_USER_ID_FIELD.default_value = 0
+slot3.SC_62019_USER_ID_FIELD.type = 13
+slot3.SC_62019_USER_ID_FIELD.cpp_type = 3
+slot3.SC_62019_HAS_CAPITAL_FIELD.name = "has_capital"
+slot3.SC_62019_HAS_CAPITAL_FIELD.full_name = "p62.sc_62019.has_capital"
+slot3.SC_62019_HAS_CAPITAL_FIELD.number = 3
+slot3.SC_62019_HAS_CAPITAL_FIELD.index = 2
+slot3.SC_62019_HAS_CAPITAL_FIELD.label = 2
+slot3.SC_62019_HAS_CAPITAL_FIELD.has_default_value = false
+slot3.SC_62019_HAS_CAPITAL_FIELD.default_value = 0
+slot3.SC_62019_HAS_CAPITAL_FIELD.type = 13
+slot3.SC_62019_HAS_CAPITAL_FIELD.cpp_type = 3
+slot3.SC_62019_HAS_TECH_POINT_FIELD.name = "has_tech_point"
+slot3.SC_62019_HAS_TECH_POINT_FIELD.full_name = "p62.sc_62019.has_tech_point"
+slot3.SC_62019_HAS_TECH_POINT_FIELD.number = 4
+slot3.SC_62019_HAS_TECH_POINT_FIELD.index = 3
+slot3.SC_62019_HAS_TECH_POINT_FIELD.label = 2
+slot3.SC_62019_HAS_TECH_POINT_FIELD.has_default_value = false
+slot3.SC_62019_HAS_TECH_POINT_FIELD.default_value = 0
+slot3.SC_62019_HAS_TECH_POINT_FIELD.type = 13
+slot3.SC_62019_HAS_TECH_POINT_FIELD.cpp_type = 3
+SC_62019.name = "sc_62019"
+SC_62019.full_name = "p62.sc_62019"
+SC_62019.nested_types = {}
+SC_62019.enum_types = {}
+SC_62019.fields = {
+	slot3.SC_62019_ID_FIELD,
+	slot3.SC_62019_USER_ID_FIELD,
+	slot3.SC_62019_HAS_CAPITAL_FIELD,
+	slot3.SC_62019_HAS_TECH_POINT_FIELD
+}
+SC_62019.is_extendable = false
+SC_62019.extensions = {}
+slot3.CS_62020_ID_FIELD.name = "id"
+slot3.CS_62020_ID_FIELD.full_name = "p62.cs_62020.id"
+slot3.CS_62020_ID_FIELD.number = 1
+slot3.CS_62020_ID_FIELD.index = 0
+slot3.CS_62020_ID_FIELD.label = 2
+slot3.CS_62020_ID_FIELD.has_default_value = false
+slot3.CS_62020_ID_FIELD.default_value = 0
+slot3.CS_62020_ID_FIELD.type = 13
+slot3.CS_62020_ID_FIELD.cpp_type = 3
+CS_62020.name = "cs_62020"
+CS_62020.full_name = "p62.cs_62020"
+CS_62020.nested_types = {}
+CS_62020.enum_types = {}
+CS_62020.fields = {
+	slot3.CS_62020_ID_FIELD
+}
+CS_62020.is_extendable = false
+CS_62020.extensions = {}
+slot3.SC_62021_RESULT_FIELD.name = "result"
+slot3.SC_62021_RESULT_FIELD.full_name = "p62.sc_62021.result"
+slot3.SC_62021_RESULT_FIELD.number = 1
+slot3.SC_62021_RESULT_FIELD.index = 0
+slot3.SC_62021_RESULT_FIELD.label = 2
+slot3.SC_62021_RESULT_FIELD.has_default_value = false
+slot3.SC_62021_RESULT_FIELD.default_value = 0
+slot3.SC_62021_RESULT_FIELD.type = 13
+slot3.SC_62021_RESULT_FIELD.cpp_type = 3
+SC_62021.name = "sc_62021"
+SC_62021.full_name = "p62.sc_62021"
+SC_62021.nested_types = {}
+SC_62021.enum_types = {}
+SC_62021.fields = {
+	slot3.SC_62021_RESULT_FIELD
+}
+SC_62021.is_extendable = false
+SC_62021.extensions = {}
+slot3.CS_62022_TYPE_FIELD.name = "type"
+slot3.CS_62022_TYPE_FIELD.full_name = "p62.cs_62022.type"
+slot3.CS_62022_TYPE_FIELD.number = 1
+slot3.CS_62022_TYPE_FIELD.index = 0
+slot3.CS_62022_TYPE_FIELD.label = 2
+slot3.CS_62022_TYPE_FIELD.has_default_value = false
+slot3.CS_62022_TYPE_FIELD.default_value = 0
+slot3.CS_62022_TYPE_FIELD.type = 13
+slot3.CS_62022_TYPE_FIELD.cpp_type = 3
+CS_62022.name = "cs_62022"
+CS_62022.full_name = "p62.cs_62022"
+CS_62022.nested_types = {}
+CS_62022.enum_types = {}
+CS_62022.fields = {
+	slot3.CS_62022_TYPE_FIELD
+}
+CS_62022.is_extendable = false
+CS_62022.extensions = {}
+slot3.SC_62023_RESULT_FIELD.name = "result"
+slot3.SC_62023_RESULT_FIELD.full_name = "p62.sc_62023.result"
+slot3.SC_62023_RESULT_FIELD.number = 1
+slot3.SC_62023_RESULT_FIELD.index = 0
+slot3.SC_62023_RESULT_FIELD.label = 2
+slot3.SC_62023_RESULT_FIELD.has_default_value = false
+slot3.SC_62023_RESULT_FIELD.default_value = 0
+slot3.SC_62023_RESULT_FIELD.type = 13
+slot3.SC_62023_RESULT_FIELD.cpp_type = 3
+slot3.SC_62023_PROGRESS_FIELD.name = "progress"
+slot3.SC_62023_PROGRESS_FIELD.full_name = "p62.sc_62023.progress"
+slot3.SC_62023_PROGRESS_FIELD.number = 2
+slot3.SC_62023_PROGRESS_FIELD.index = 1
+slot3.SC_62023_PROGRESS_FIELD.label = 2
+slot3.SC_62023_PROGRESS_FIELD.has_default_value = false
+slot3.SC_62023_PROGRESS_FIELD.default_value = 0
+slot3.SC_62023_PROGRESS_FIELD.type = 13
+slot3.SC_62023_PROGRESS_FIELD.cpp_type = 3
+SC_62023.name = "sc_62023"
+SC_62023.full_name = "p62.sc_62023"
+SC_62023.nested_types = {}
+SC_62023.enum_types = {}
+SC_62023.fields = {
+	slot3.SC_62023_RESULT_FIELD,
+	slot3.SC_62023_PROGRESS_FIELD
+}
+SC_62023.is_extendable = false
+SC_62023.extensions = {}
+slot3.CS_62024_TYPE_FIELD.name = "type"
+slot3.CS_62024_TYPE_FIELD.full_name = "p62.cs_62024.type"
+slot3.CS_62024_TYPE_FIELD.number = 1
+slot3.CS_62024_TYPE_FIELD.index = 0
+slot3.CS_62024_TYPE_FIELD.label = 2
+slot3.CS_62024_TYPE_FIELD.has_default_value = false
+slot3.CS_62024_TYPE_FIELD.default_value = 0
+slot3.CS_62024_TYPE_FIELD.type = 13
+slot3.CS_62024_TYPE_FIELD.cpp_type = 3
+CS_62024.name = "cs_62024"
+CS_62024.full_name = "p62.cs_62024"
+CS_62024.nested_types = {}
+CS_62024.enum_types = {}
+CS_62024.fields = {
+	slot3.CS_62024_TYPE_FIELD
+}
+CS_62024.is_extendable = false
+CS_62024.extensions = {}
+slot3.SC_62025_RESULT_FIELD.name = "result"
+slot3.SC_62025_RESULT_FIELD.full_name = "p62.sc_62025.result"
+slot3.SC_62025_RESULT_FIELD.number = 1
+slot3.SC_62025_RESULT_FIELD.index = 0
+slot3.SC_62025_RESULT_FIELD.label = 2
+slot3.SC_62025_RESULT_FIELD.has_default_value = false
+slot3.SC_62025_RESULT_FIELD.default_value = 0
+slot3.SC_62025_RESULT_FIELD.type = 13
+slot3.SC_62025_RESULT_FIELD.cpp_type = 3
+slot3.SC_62025_CAPITAL_FIELD.name = "capital"
+slot3.SC_62025_CAPITAL_FIELD.full_name = "p62.sc_62025.capital"
+slot3.SC_62025_CAPITAL_FIELD.number = 2
+slot3.SC_62025_CAPITAL_FIELD.index = 1
+slot3.SC_62025_CAPITAL_FIELD.label = 2
+slot3.SC_62025_CAPITAL_FIELD.has_default_value = false
+slot3.SC_62025_CAPITAL_FIELD.default_value = 0
+slot3.SC_62025_CAPITAL_FIELD.type = 13
+slot3.SC_62025_CAPITAL_FIELD.cpp_type = 3
+SC_62025.name = "sc_62025"
+SC_62025.full_name = "p62.sc_62025"
+SC_62025.nested_types = {}
+SC_62025.enum_types = {}
+SC_62025.fields = {
+	slot3.SC_62025_RESULT_FIELD,
+	slot3.SC_62025_CAPITAL_FIELD
+}
+SC_62025.is_extendable = false
+SC_62025.extensions = {}
+slot3.CS_62029_TYPE_FIELD.name = "type"
+slot3.CS_62029_TYPE_FIELD.full_name = "p62.cs_62029.type"
+slot3.CS_62029_TYPE_FIELD.number = 1
+slot3.CS_62029_TYPE_FIELD.index = 0
+slot3.CS_62029_TYPE_FIELD.label = 2
+slot3.CS_62029_TYPE_FIELD.has_default_value = false
+slot3.CS_62029_TYPE_FIELD.default_value = 0
+slot3.CS_62029_TYPE_FIELD.type = 13
+slot3.CS_62029_TYPE_FIELD.cpp_type = 3
+CS_62029.name = "cs_62029"
+CS_62029.full_name = "p62.cs_62029"
+CS_62029.nested_types = {}
+CS_62029.enum_types = {}
+CS_62029.fields = {
+	slot3.CS_62029_TYPE_FIELD
+}
+CS_62029.is_extendable = false
+CS_62029.extensions = {}
+slot3.SC_62030_LIST_FIELD.name = "list"
+slot3.SC_62030_LIST_FIELD.full_name = "p62.sc_62030.list"
+slot3.SC_62030_LIST_FIELD.number = 1
+slot3.SC_62030_LIST_FIELD.index = 0
+slot3.SC_62030_LIST_FIELD.label = 3
+slot3.SC_62030_LIST_FIELD.has_default_value = false
+slot3.SC_62030_LIST_FIELD.default_value = {}
+slot3.SC_62030_LIST_FIELD.message_type = RANK_INFO
+slot3.SC_62030_LIST_FIELD.type = 11
+slot3.SC_62030_LIST_FIELD.cpp_type = 10
+SC_62030.name = "sc_62030"
+SC_62030.full_name = "p62.sc_62030"
+SC_62030.nested_types = {}
+SC_62030.enum_types = {}
+SC_62030.fields = {
+	slot3.SC_62030_LIST_FIELD
+}
+SC_62030.is_extendable = false
+SC_62030.extensions = {}
+slot3.SC_62031_DONATE_TASKS_FIELD.name = "donate_tasks"
+slot3.SC_62031_DONATE_TASKS_FIELD.full_name = "p62.sc_62031.donate_tasks"
+slot3.SC_62031_DONATE_TASKS_FIELD.number = 1
+slot3.SC_62031_DONATE_TASKS_FIELD.index = 0
+slot3.SC_62031_DONATE_TASKS_FIELD.label = 3
+slot3.SC_62031_DONATE_TASKS_FIELD.has_default_value = false
+slot3.SC_62031_DONATE_TASKS_FIELD.default_value = {}
+slot3.SC_62031_DONATE_TASKS_FIELD.type = 13
+slot3.SC_62031_DONATE_TASKS_FIELD.cpp_type = 3
+SC_62031.name = "sc_62031"
+SC_62031.full_name = "p62.sc_62031"
+SC_62031.nested_types = {}
+SC_62031.enum_types = {}
+SC_62031.fields = {
+	slot3.SC_62031_DONATE_TASKS_FIELD
+}
+SC_62031.is_extendable = false
+SC_62031.extensions = {}
+slot3.CS_62100_TYPE_FIELD.name = "type"
+slot3.CS_62100_TYPE_FIELD.full_name = "p62.cs_62100.type"
+slot3.CS_62100_TYPE_FIELD.number = 1
+slot3.CS_62100_TYPE_FIELD.index = 0
+slot3.CS_62100_TYPE_FIELD.label = 2
+slot3.CS_62100_TYPE_FIELD.has_default_value = false
+slot3.CS_62100_TYPE_FIELD.default_value = 0
+slot3.CS_62100_TYPE_FIELD.type = 13
+slot3.CS_62100_TYPE_FIELD.cpp_type = 3
+CS_62100.name = "cs_62100"
+CS_62100.full_name = "p62.cs_62100"
+CS_62100.nested_types = {}
+CS_62100.enum_types = {}
+CS_62100.fields = {
+	slot3.CS_62100_TYPE_FIELD
+}
+CS_62100.is_extendable = false
+CS_62100.extensions = {}
+slot3.SC_62101_TECHNOLOGYS_FIELD.name = "technologys"
+slot3.SC_62101_TECHNOLOGYS_FIELD.full_name = "p62.sc_62101.technologys"
+slot3.SC_62101_TECHNOLOGYS_FIELD.number = 1
+slot3.SC_62101_TECHNOLOGYS_FIELD.index = 0
+slot3.SC_62101_TECHNOLOGYS_FIELD.label = 3
+slot3.SC_62101_TECHNOLOGYS_FIELD.has_default_value = false
+slot3.SC_62101_TECHNOLOGYS_FIELD.default_value = {}
+slot3.SC_62101_TECHNOLOGYS_FIELD.message_type = slot2.GUILD_TECHNOLOGY
+slot3.SC_62101_TECHNOLOGYS_FIELD.type = 11
+slot3.SC_62101_TECHNOLOGYS_FIELD.cpp_type = 10
+SC_62101.name = "sc_62101"
+SC_62101.full_name = "p62.sc_62101"
+SC_62101.nested_types = {}
+SC_62101.enum_types = {}
+SC_62101.fields = {
+	slot3.SC_62101_TECHNOLOGYS_FIELD
+}
+SC_62101.is_extendable = false
+SC_62101.extensions = {}
+slot3.RANK_INFO_PERIOD_FIELD.name = "period"
+slot3.RANK_INFO_PERIOD_FIELD.full_name = "p62.rank_info.period"
+slot3.RANK_INFO_PERIOD_FIELD.number = 1
+slot3.RANK_INFO_PERIOD_FIELD.index = 0
+slot3.RANK_INFO_PERIOD_FIELD.label = 2
+slot3.RANK_INFO_PERIOD_FIELD.has_default_value = false
+slot3.RANK_INFO_PERIOD_FIELD.default_value = 0
+slot3.RANK_INFO_PERIOD_FIELD.type = 13
+slot3.RANK_INFO_PERIOD_FIELD.cpp_type = 3
+slot3.RANK_INFO_RANKUSERINFO_FIELD.name = "rankuserinfo"
+slot3.RANK_INFO_RANKUSERINFO_FIELD.full_name = "p62.rank_info.rankuserinfo"
+slot3.RANK_INFO_RANKUSERINFO_FIELD.number = 2
+slot3.RANK_INFO_RANKUSERINFO_FIELD.index = 1
+slot3.RANK_INFO_RANKUSERINFO_FIELD.label = 3
+slot3.RANK_INFO_RANKUSERINFO_FIELD.has_default_value = false
+slot3.RANK_INFO_RANKUSERINFO_FIELD.default_value = {}
+slot3.RANK_INFO_RANKUSERINFO_FIELD.message_type = RANK_USER_INFO
+slot3.RANK_INFO_RANKUSERINFO_FIELD.type = 11
+slot3.RANK_INFO_RANKUSERINFO_FIELD.cpp_type = 10
+RANK_INFO.name = "rank_info"
+RANK_INFO.full_name = "p62.rank_info"
+RANK_INFO.nested_types = {}
+RANK_INFO.enum_types = {}
+RANK_INFO.fields = {
+	slot3.RANK_INFO_PERIOD_FIELD,
+	slot3.RANK_INFO_RANKUSERINFO_FIELD
+}
+RANK_INFO.is_extendable = false
+RANK_INFO.extensions = {}
+slot3.RANK_USER_INFO_USER_ID_FIELD.name = "user_id"
+slot3.RANK_USER_INFO_USER_ID_FIELD.full_name = "p62.rank_user_info.user_id"
+slot3.RANK_USER_INFO_USER_ID_FIELD.number = 1
+slot3.RANK_USER_INFO_USER_ID_FIELD.index = 0
+slot3.RANK_USER_INFO_USER_ID_FIELD.label = 2
+slot3.RANK_USER_INFO_USER_ID_FIELD.has_default_value = false
+slot3.RANK_USER_INFO_USER_ID_FIELD.default_value = 0
+slot3.RANK_USER_INFO_USER_ID_FIELD.type = 13
+slot3.RANK_USER_INFO_USER_ID_FIELD.cpp_type = 3
+slot3.RANK_USER_INFO_COUNT_FIELD.name = "count"
+slot3.RANK_USER_INFO_COUNT_FIELD.full_name = "p62.rank_user_info.count"
+slot3.RANK_USER_INFO_COUNT_FIELD.number = 2
+slot3.RANK_USER_INFO_COUNT_FIELD.index = 1
+slot3.RANK_USER_INFO_COUNT_FIELD.label = 2
+slot3.RANK_USER_INFO_COUNT_FIELD.has_default_value = false
+slot3.RANK_USER_INFO_COUNT_FIELD.default_value = 0
+slot3.RANK_USER_INFO_COUNT_FIELD.type = 13
+slot3.RANK_USER_INFO_COUNT_FIELD.cpp_type = 3
+RANK_USER_INFO.name = "rank_user_info"
+RANK_USER_INFO.full_name = "p62.rank_user_info"
+RANK_USER_INFO.nested_types = {}
+RANK_USER_INFO.enum_types = {}
+RANK_USER_INFO.fields = {
+	slot3.RANK_USER_INFO_USER_ID_FIELD,
+	slot3.RANK_USER_INFO_COUNT_FIELD
+}
+RANK_USER_INFO.is_extendable = false
+RANK_USER_INFO.extensions = {}
+cs_62002 = slot0.Message(CS_62002)
+cs_62007 = slot0.Message(CS_62007)
+cs_62009 = slot0.Message(CS_62009)
+cs_62011 = slot0.Message(CS_62011)
+cs_62013 = slot0.Message(CS_62013)
+cs_62015 = slot0.Message(CS_62015)
+cs_62020 = slot0.Message(CS_62020)
+cs_62022 = slot0.Message(CS_62022)
+cs_62024 = slot0.Message(CS_62024)
+cs_62029 = slot0.Message(CS_62029)
+cs_62100 = slot0.Message(CS_62100)
+rank_info = slot0.Message(RANK_INFO)
+rank_user_info = slot0.Message(RANK_USER_INFO)
+sc_62003 = slot0.Message(SC_62003)
+sc_62004 = slot0.Message(SC_62004)
+sc_62005 = slot0.Message(SC_62005)
+sc_62006 = slot0.Message(SC_62006)
+sc_62008 = slot0.Message(SC_62008)
+sc_62010 = slot0.Message(SC_62010)
+sc_62012 = slot0.Message(SC_62012)
+sc_62014 = slot0.Message(SC_62014)
+sc_62016 = slot0.Message(SC_62016)
+sc_62017 = slot0.Message(SC_62017)
+sc_62018 = slot0.Message(SC_62018)
+sc_62019 = slot0.Message(SC_62019)
+sc_62021 = slot0.Message(SC_62021)
+sc_62023 = slot0.Message(SC_62023)
+sc_62025 = slot0.Message(SC_62025)
+sc_62030 = slot0.Message(SC_62030)
+sc_62031 = slot0.Message(SC_62031)
+sc_62101 = slot0.Message(SC_62101)

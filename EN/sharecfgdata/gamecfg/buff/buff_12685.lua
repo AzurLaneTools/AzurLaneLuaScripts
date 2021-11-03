@@ -1,0 +1,23 @@
+return {
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	init_effect = "",
+	name = "时雨改造",
+	time = 3,
+	color = "yellow",
+	picture = "",
+	desc = "触发器",
+	stack = 1,
+	id = 12685,
+	icon = 12680,
+	last_effect = "Health",
+	effect_list = {}
+}
