@@ -1,0 +1,4 @@
+return {
+	id = "FixGuide",
+	events = {}
+}
