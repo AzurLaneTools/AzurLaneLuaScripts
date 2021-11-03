@@ -1,0 +1,1 @@
+return class("WorldMediaCollectionFilePreviewMediator", ContextMediator)
