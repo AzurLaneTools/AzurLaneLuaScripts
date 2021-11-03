@@ -1,0 +1,1 @@
+require("Fixed.VerticalTextInjector")
