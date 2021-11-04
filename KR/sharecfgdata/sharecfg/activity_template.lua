@@ -7312,7 +7312,7 @@ pg.activity_template = {
 			ui_name = "FrancePTPage"
 		},
 		config_client = {
-			linkActID = 4149
+			linkActID = 20883
 		}
 	},
 	[20886] = {
