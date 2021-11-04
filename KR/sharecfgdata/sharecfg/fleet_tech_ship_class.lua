@@ -2361,7 +2361,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 132,
 		t_level = 8,
 		ships = {
-			80101
+			80101,
+			80107
 		}
 	},
 	[80102] = {
@@ -2385,6 +2386,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 4,
 		ships = {
 			80102
+		}
+	},
+	[80104] = {
+		shiptype = 1,
+		name = "보클랭급 ",
+		nation = 8,
+		id = 80104,
+		t_level_1 = 131,
+		t_level = 7,
+		ships = {
+			80108
 		}
 	},
 	[80201] = {
@@ -2740,6 +2752,7 @@ pg.fleet_tech_ship_class = {
 		80101,
 		80102,
 		80103,
+		80104,
 		80201,
 		80202,
 		80301,

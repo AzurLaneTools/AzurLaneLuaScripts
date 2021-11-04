@@ -3854,8 +3854,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20464,
-				159
+				20883,
+				223
 			}
 		}
 	},
@@ -3864,8 +3864,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20464,
-				159
+				20883,
+				223
 			}
 		}
 	},
@@ -3874,8 +3874,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20464,
-				159
+				20883,
+				223
 			}
 		}
 	},
@@ -3884,8 +3884,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20465,
-				159
+				20884,
+				223
 			}
 		}
 	},
@@ -3894,8 +3894,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20465,
-				159
+				20884,
+				223
 			}
 		}
 	},
@@ -3904,68 +3904,68 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20465,
-				159
+				20884,
+				223
 			}
 		}
 	},
 	[1392013] = {
 		id = 1392013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20464,
-				159
+				20883,
+				223
 			}
 		}
 	},
 	[1392113] = {
 		id = 1392113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20464,
-				159
+				20883,
+				223
 			}
 		}
 	},
 	[1392213] = {
 		id = 1392213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20464,
-				159
+				20883,
+				223
 			}
 		}
 	},
 	[1393013] = {
 		id = 1393013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20465,
-				159
+				20884,
+				223
 			}
 		}
 	},
 	[1393113] = {
 		id = 1393113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20465,
-				159
+				20884,
+				223
 			}
 		}
 	},
 	[1393213] = {
 		id = 1393213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20465,
-				159
+				20884,
+				223
 			}
 		}
 	},
@@ -3974,8 +3974,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				20465,
-				159
+				20884,
+				223
 			}
 		}
 	},

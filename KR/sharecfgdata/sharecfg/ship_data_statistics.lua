@@ -229293,6 +229293,1002 @@ pg.ship_data_statistics = {
 			"Le Hardi-Class"
 		}
 	},
+	[801071] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "르 테리블",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801070,
+		english_name = "FFNF Le Terrible",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801071,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			341,
+			26,
+			50,
+			25,
+			0,
+			73,
+			0,
+			67,
+			93,
+			54,
+			75,
+			48
+		},
+		attrs_growth = {
+			9717,
+			361,
+			683,
+			539,
+			0,
+			510,
+			0,
+			1026,
+			1641,
+			0,
+			0,
+			550
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Fantasque-Class",
+			"Le Terrible"
+		}
+	},
+	[801072] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "르 테리블",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801070,
+		english_name = "FFNF Le Terrible",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801072,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			424,
+			32,
+			62,
+			31,
+			0,
+			73,
+			0,
+			67,
+			93,
+			54,
+			75,
+			60
+		},
+		attrs_growth = {
+			9717,
+			361,
+			683,
+			539,
+			0,
+			510,
+			0,
+			1026,
+			1641,
+			0,
+			0,
+			550
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Fantasque-Class",
+			"Le Terrible"
+		}
+	},
+	[801073] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "르 테리블",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801070,
+		english_name = "FFNF Le Terrible",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801073,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			591,
+			45,
+			87,
+			43,
+			0,
+			73,
+			0,
+			67,
+			93,
+			54,
+			75,
+			84
+		},
+		attrs_growth = {
+			9717,
+			361,
+			683,
+			539,
+			0,
+			510,
+			0,
+			1026,
+			1641,
+			0,
+			0,
+			550
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Fantasque-Class",
+			"Le Terrible"
+		}
+	},
+	[801074] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "르 테리블",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801070,
+		english_name = "FFNF Le Terrible",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801074,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			840,
+			65,
+			124,
+			61,
+			0,
+			73,
+			0,
+			67,
+			93,
+			54,
+			75,
+			119
+		},
+		attrs_growth = {
+			9717,
+			361,
+			683,
+			539,
+			0,
+			510,
+			0,
+			1026,
+			1641,
+			0,
+			0,
+			550
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.25,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Fantasque-Class",
+			"Le Terrible"
+		}
+	},
+	[801081] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "마이예 브레제",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801080,
+		english_name = "FFNF Maillé Brézé",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801081,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			301,
+			20,
+			50,
+			29,
+			0,
+			76,
+			0,
+			69,
+			78,
+			43.2,
+			35,
+			52
+		},
+		attrs_growth = {
+			8580,
+			279,
+			683,
+			629,
+			0,
+			526,
+			0,
+			1062,
+			1445,
+			0,
+			0,
+			589
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Vauquelin-Class"
+		}
+	},
+	[801082] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "마이예 브레제",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801080,
+		english_name = "FFNF Maillé Brézé",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801082,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			374,
+			25,
+			62,
+			36,
+			0,
+			76,
+			0,
+			69,
+			78,
+			43.2,
+			35,
+			65
+		},
+		attrs_growth = {
+			8580,
+			279,
+			683,
+			629,
+			0,
+			526,
+			0,
+			1062,
+			1445,
+			0,
+			0,
+			589
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Vauquelin-Class"
+		}
+	},
+	[801083] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "마이예 브레제",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801080,
+		english_name = "FFNF Maillé Brézé",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801083,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			521,
+			35,
+			87,
+			50,
+			0,
+			76,
+			0,
+			69,
+			78,
+			43.2,
+			35,
+			91
+		},
+		attrs_growth = {
+			8580,
+			279,
+			683,
+			629,
+			0,
+			526,
+			0,
+			1062,
+			1445,
+			0,
+			0,
+			589
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Vauquelin-Class"
+		}
+	},
+	[801084] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "마이예 브레제",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801080,
+		english_name = "FFNF Maillé Brézé",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801084,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			742,
+			50,
+			124,
+			71,
+			0,
+			76,
+			0,
+			69,
+			78,
+			43.2,
+			35,
+			129
+		},
+		attrs_growth = {
+			8580,
+			279,
+			683,
+			629,
+			0,
+			526,
+			0,
+			1062,
+			1445,
+			0,
+			0,
+			589
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Vauquelin-Class"
+		}
+	},
 	[802011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -230422,7 +231418,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Richelieu-Class"
+			"Richelieu-Class",
+			"Richelieu"
 		}
 	},
 	[805012] = {
@@ -230546,7 +231543,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Richelieu-Class"
+			"Richelieu-Class",
+			"Richelieu"
 		}
 	},
 	[805013] = {
@@ -230670,7 +231668,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Richelieu-Class"
+			"Richelieu-Class",
+			"Richelieu"
 		}
 	},
 	[805014] = {
@@ -230794,7 +231793,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Richelieu-Class"
+			"Richelieu-Class",
+			"Richelieu"
 		}
 	},
 	[807011] = {
@@ -306048,6 +307048,14 @@ pg.ship_data_statistics = {
 		801042,
 		801043,
 		801044,
+		801071,
+		801072,
+		801073,
+		801074,
+		801081,
+		801082,
+		801083,
+		801084,
 		802011,
 		802012,
 		802013,

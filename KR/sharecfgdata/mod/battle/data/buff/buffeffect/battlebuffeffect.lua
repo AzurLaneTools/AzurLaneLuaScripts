@@ -32,6 +32,10 @@ function slot2.GetEffectType(slot0)
 	return uv0.FX_TYPE_NOR
 end
 
+function slot2.GetPopConfig(slot0)
+	return slot0._tempData.pop
+end
+
 function slot2.HaveQuota(slot0)
 	if slot0._quota == 0 then
 		return false

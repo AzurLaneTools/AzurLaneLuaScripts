@@ -386,7 +386,7 @@ function seriesAsync(slot0, slot1)
 
 		if uv0 <= uv1 then
 			uv2[uv0](uv3, ...)
-		elseif uv4 then
+		elseif uv0 == uv1 + 1 and uv4 then
 			uv4(...)
 		end
 	end)()

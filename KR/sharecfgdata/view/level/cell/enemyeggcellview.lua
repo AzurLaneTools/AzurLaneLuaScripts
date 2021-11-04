@@ -174,7 +174,6 @@ function slot0.Clear(slot0)
 	slot0:StopTween()
 	slot0.buffer:Clear()
 
-	slot0._live2death = nil
 	slot0.chapter = nil
 
 	uv0.super.Clear(slot0)

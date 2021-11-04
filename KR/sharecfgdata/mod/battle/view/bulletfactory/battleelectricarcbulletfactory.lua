@@ -25,8 +25,6 @@ function slot2.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot9 = slot0:GetSceneMediator():GetCharacter(slot7)
 	elseif slot8 == uv0.Battle.BattleConst.UnitType.ENEMY_UNIT then
 		slot9 = slot0:GetSceneMediator():GetCharacter(slot7)
-	elseif slot8 == uv0.Battle.BattleConst.UnitType.NPC_UNIT then
-		slot9 = slot0:GetSceneMediator():GetCharacter(slot7)
 	end
 
 	if slot9 then

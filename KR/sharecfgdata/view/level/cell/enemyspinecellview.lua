@@ -28,6 +28,7 @@ function slot0.Update(slot0)
 			uv1.go = slot0
 			uv1.tf = tf(slot0)
 
+			setText(findTF(uv1.tf, "fighting/Text"), i18n("ui_word_levelui2_inevent"))
 			setParent(slot0, uv1.parent)
 			uv1:OverrideCanvas()
 			uv1:ResetCanvasOrder()

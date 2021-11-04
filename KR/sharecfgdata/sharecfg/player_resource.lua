@@ -630,6 +630,16 @@ pg.player_resource = {
 		name = "faxiv2_frame_pt",
 		itemid = 59243
 	},
+	[223] = {
+		id = 223,
+		name = "faxiv2_pt2",
+		itemid = 59246
+	},
+	[224] = {
+		id = 224,
+		name = "skinTicket23",
+		itemid = 59248
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1139,6 +1149,12 @@ pg.player_resource = {
 		faxiv2_frame_pt = {
 			222
 		},
+		faxiv2_pt2 = {
+			223
+		},
+		skinTicket23 = {
+			224
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1345,6 +1361,8 @@ pg.player_resource = {
 		220,
 		221,
 		222,
+		223,
+		224,
 		950,
 		951,
 		952,
