@@ -55,6 +55,8 @@ function slot1.Init(slot0, slot1)
 		uv0._titleList = uv0._top:Find("bg")
 		uv0._closeBtn = uv0._top:Find("btnBack")
 
+		setText(uv0._titleList:Find("infomation/title"), i18n("words_information"))
+		setActive(uv0._titleList:Find("infomation/title_en"), PLATFORM_CODE ~= PLATFORM_US)
 		setText(uv0._titleList:Find("cadpa/title"), i18n("cadpa_tip1"))
 
 		uv0._res = uv0._tf:Find("res")

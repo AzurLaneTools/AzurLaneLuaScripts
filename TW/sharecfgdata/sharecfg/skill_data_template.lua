@@ -40056,6 +40056,22 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[13700] = {
+		desc_get = "",
+		name = "守護之櫻",
+		id = 13700,
+		type = 2,
+		max_level = 10,
+		desc = "守护之樱全图支援效果",
+		system_transform = {
+			[51.0] = 13705
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[13710] = {
 		desc_get = "",
 		name = "遁入雨雲",
@@ -56210,6 +56226,7 @@ pg.skill_data_template = {
 		13670,
 		13680,
 		13690,
+		13700,
 		13710,
 		13720,
 		14500,
