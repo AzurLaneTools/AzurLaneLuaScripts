@@ -272,7 +272,7 @@ return {
 			actor = 404021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "응, 네 반응을 보니까. 오늘 변장 제대로 한 것 같네.",
+			say = "네, 반응을 보니까. 오늘 변장을 제대로 한 것 같군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "핼러윈 나이트하면 다 마녀만 하잖아. 그런데 나도 마녀하면 너무 의미 없잖아, 안 그래?",
+			say = "핼러윈 나이트하면 다 마녀만 하는데, 저도 마녀를 하면 너무 의미 없잖아요, 안 그래요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 404021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "...사탕 속에 포장이 좀 다른 게 섞여있어——",
+			say = "...사탕 속에 포장이 좀 다른 게 섞여있어요——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...몇 번이나 말했지. 후. 드. 언. 니.라.고!!",
+			say = "...몇 번이나 말했죠. 후.드.언.니. 라고요!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "다들 정말 미안해. 이 녀석은 내가 데리고 돌아가서 제.대.로.혼.내.줄.게!",
+			say = "다들 정말 미안해요. 이 녀석은 제가 데리고 돌아가서 제.대.로. 혼내 줄게요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

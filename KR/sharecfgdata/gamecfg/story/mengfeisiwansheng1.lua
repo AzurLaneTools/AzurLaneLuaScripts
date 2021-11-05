@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "필요한 물자, 음식 그리고 다른 재료 목록은 내가 다 맞춰봤어. 바로 아카시한테 주문하면 돼.",
+			say = "필요한 물자, 음식 그리고 다른 재료 목록은 제가 다 맞춰봤어요. 바로 아카시한테 주문하면 돼요.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "아니야. 멤피스 같은 사람이랑 같이 일하는 건 정말 즐거운 일이거든.",
+			say = "아니에요. 멤피스 같은 분이랑 같이 일하는 건 정말 즐거운 일이거든요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "에든버러, 너 옷차림이... 마녀야?",
+			say = "에든버러, 옷차림이... 마녀인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "핼러윈 변장 대회야?... 재미있겠는걸.",
+			say = "핼러윈 변장 대회인가요?... 재미있겠는걸요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "고맙지만 괜찮아. 나한테 생각이 있거든...",
+			say = "고맙지만 괜찮아요. 저한테 생각이 있거든요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
