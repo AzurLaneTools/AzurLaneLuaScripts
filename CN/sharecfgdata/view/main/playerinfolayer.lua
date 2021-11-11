@@ -807,9 +807,10 @@ end
 function slot0.initCharacters(slot0)
 	if not slot0.cards then
 		slot0.cards = {}
+		slot1 = slot0.characters:Find("1")
 
-		for slot4 = 1, 5 do
-			table.insert(slot0.cards, FormationDetailCard.New(slot0.characters:GetChild(slot4 - 1).gameObject))
+		for slot5 = 1, 5 do
+			table.insert(slot0.cards, FormationDetailCard.New(go(slot0.characters:Find(tostring(slot5)) or cloneTplTo(slot1, slot0.characters, slot5))))
 		end
 	end
 
@@ -873,19 +874,21 @@ function slot0.attachOnCardButton(slot0, slot1)
 	if slot1.shipVO then
 		slot3 = slot0.cards
 		slot4 = slot1.tr.parent
-		slot4 = slot4:GetComponent("HorizontalLayoutGroup")
-		slot5 = slot1.tr.rect.width * 0.5
-		slot6 = nil
-		slot7 = 0
-		slot8 = {}
+		slot4 = slot4:GetComponent("ContentSizeFitter")
+		slot5 = slot1.tr.parent
+		slot5 = slot5:GetComponent("HorizontalLayoutGroup")
+		slot6 = slot1.tr.rect.width * 0.5
+		slot7 = nil
+		slot8 = 0
+		slot9 = {}
 
-		function slot10()
+		function slot11()
 			for slot3 = 1, #uv0 do
 				uv0[slot3].tr.anchoredPosition = uv1[slot3]
 			end
 		end
 
-		slot11 = Timer.New(function ()
+		slot12 = Timer.New(function ()
 			for slot3 = 1, #uv0 do
 				if uv0[slot3] and uv0[slot3] ~= uv1 then
 					uv0[slot3].tr.anchoredPosition = uv0[slot3].tr.anchoredPosition * 0.5 + Vector2(uv2[slot3].x, uv2[slot3].y) * 0.5
@@ -907,18 +910,19 @@ function slot0.attachOnCardButton(slot0, slot1)
 			uv0._currentDragDelegate = uv1
 			uv0.carddrag = uv2
 			uv3.enabled = false
+			uv4.enabled = false
 
-			uv2.tr:SetSiblingIndex(#uv4 - 1)
+			uv2.tr:SetSiblingIndex(#uv5 - 1)
 
-			for slot3 = 1, #uv4 do
-				if uv4[slot3] == uv2 then
+			for slot3 = 1, #uv5 do
+				if uv5[slot3] == uv2 then
 					uv0._shiftIndex = slot3
 				end
 
-				uv5[slot3] = uv4[slot3].tr.anchoredPosition
+				uv6[slot3] = uv5[slot3].tr.anchoredPosition
 			end
 
-			uv6:Start()
+			uv7:Start()
 			LeanTween.scale(uv2.paintingTr, Vector3(1.1, 1.1, 0), 0.3)
 		end)
 		slot2:AddDragFunc(function (slot0, slot1)
@@ -959,34 +963,35 @@ function slot0.attachOnCardButton(slot0, slot1)
 				uv0()
 
 				uv1.enabled = true
-				uv2._shiftIndex = nil
+				uv2.enabled = true
+				uv3._shiftIndex = nil
 
-				uv3:Stop()
+				uv4:Stop()
 
 				slot0 = {}
 
-				for slot4 = 1, #uv2.cards do
-					uv2.cards[slot4].tr:SetSiblingIndex(slot4 - 1)
+				for slot4 = 1, #uv3.cards do
+					uv3.cards[slot4].tr:SetSiblingIndex(slot4 - 1)
 
-					slot0[slot4] = uv4[slot4].shipVO and uv4[slot4].shipVO.id
+					slot0[slot4] = uv5[slot4].shipVO and uv5[slot4].shipVO.id
 				end
 
-				uv2:emit(PlayerInfoMediator.CHANGE_PAINTS, slot0)
+				uv3:emit(PlayerInfoMediator.CHANGE_PAINTS, slot0)
 
-				uv5.enabled = true
-				uv2.carddrag = nil
+				uv6.enabled = true
+				uv3.carddrag = nil
 			end
 
 			uv0._forceDropCharacter = nil
 			uv0._currentDragDelegate = nil
-			uv6.enabled = false
+			uv7.enabled = false
 
 			if uv0._forceDropCharacter then
 				resetCard()
 
 				uv1.paintingTr.localScale = Vector3(1, 1, 0)
 			else
-				slot4 = LeanTween.value(uv1.go, uv1.tr.anchoredPosition.x, uv7[uv0._shiftIndex].x, math.min(math.abs(uv1.tr.anchoredPosition.x - uv7[uv0._shiftIndex].x) / 200, 1) * 0.3)
+				slot4 = LeanTween.value(uv1.go, uv1.tr.anchoredPosition.x, uv8[uv0._shiftIndex].x, math.min(math.abs(uv1.tr.anchoredPosition.x - uv8[uv0._shiftIndex].x) / 200, 1) * 0.3)
 				slot4 = slot4:setEase(LeanTweenType.easeOutCubic)
 				slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
 					slot1 = uv0.tr.anchoredPosition

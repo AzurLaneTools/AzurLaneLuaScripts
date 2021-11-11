@@ -5700,12 +5700,13 @@ pg.activity_template = {
 	},
 	[4136] = {
 		mark = 20210930,
-		config_client = "",
 		title_res_tag = "LevelOpenAct",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 11,
+		is_show = 0,
+		config_client = "",
 		id = 4136,
 		config_data = {
 			{
@@ -5720,33 +5721,6 @@ pg.activity_template = {
 				17108,
 				17109,
 				17110
-			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					9,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -6141,12 +6115,13 @@ pg.activity_template = {
 	},
 	[4148] = {
 		mark = 20211028,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4148,
 		config_data = {
@@ -6167,43 +6142,17 @@ pg.activity_template = {
 			17184,
 			17185,
 			17186
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4149] = {
 		mark = 20211028,
-		id = 4149,
 		title_res_tag = "francev2_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 18,
+		is_show = 0,
+		id = 4149,
 		config_data = {
 			1570001,
 			1570002,
@@ -6211,33 +6160,6 @@ pg.activity_template = {
 			1570021,
 			1570022,
 			1570023
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "FranceMainPage",
@@ -6249,12 +6171,13 @@ pg.activity_template = {
 	},
 	[4150] = {
 		mark = 20211028,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4150,
 		config_data = {
 			1570004,
@@ -6265,33 +6188,6 @@ pg.activity_template = {
 			1570026,
 			1570041,
 			1570051
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -6304,7 +6200,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4151,
-		is_show = 17,
+		is_show = 16,
 		config_data = {},
 		time = {
 			timer,
@@ -6389,7 +6285,7 @@ pg.activity_template = {
 	},
 	[4153] = {
 		mark = 20211028,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 16,
 		login_pop = 0,
@@ -6397,34 +6293,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 4153,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 4153
 	},
 	[4154] = {
 		mark = 20211028,
@@ -6507,21 +6377,86 @@ pg.activity_template = {
 	},
 	[4155] = {
 		mark = 20211028,
-		config_client = "",
 		title_res_tag = "sign_halloween",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 25,
-		is_show = 16,
+		is_show = 0,
+		config_client = "",
 		id = 4155,
 		config_data = {},
+		page_info = {
+			class_name = "SignHalloweenPage",
+			ui_name = "SignHalloweenPage"
+		}
+	},
+	[4157] = {
+		mark = 20211028,
+		time = "stop",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 4157,
+		config_data = {
+			17187
+		}
+	},
+	[4158] = {
+		mark = 20211028,
+		time = "stop",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31982,100}]",
+		config_client = "",
+		title_res_tag = "",
+		id = 4158
+	},
+	[4159] = {
+		mark = 20211028,
+		time = "stop",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 4159,
+		config_data = {}
+	},
+	[4160] = {
+		mark = 20211111,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4160,
+		config_data = {
+			17189,
+			17190,
+			17191,
+			17192,
+			17193,
+			17194
+		},
 		time = {
 			timer,
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -6533,7 +6468,45 @@ pg.activity_template = {
 				{
 					2021,
 					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4161] = {
+		mark = 20211111,
+		config_client = "",
+		title_res_tag = "fuxu_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4161,
+		is_show = 18,
+		id = 4161,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					11,
 					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					25
 				},
 				{
 					23,
@@ -6543,12 +6516,12 @@ pg.activity_template = {
 			}
 		},
 		page_info = {
-			class_name = "SignHalloweenPage",
-			ui_name = "SignHalloweenPage"
+			class_name = "FuxuPtPage",
+			ui_name = "FuxuPtPage"
 		}
 	},
-	[4157] = {
-		mark = 20211028,
+	[4162] = {
+		mark = 20211111,
 		title_res_tag = "",
 		page_info = "",
 		type = 13,
@@ -6556,102 +6529,12 @@ pg.activity_template = {
 		config_id = 0,
 		is_show = 0,
 		config_client = "",
-		id = 4157,
+		id = 4162,
 		config_data = {
-			17187
+			17188
 		},
 		time = {
 			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[4158] = {
-		mark = 20211028,
-		title_res_tag = "",
-		page_info = "",
-		type = 27,
-		login_pop = 0,
-		config_id = 1,
-		is_show = 0,
-		config_data = "[{31982,100}]",
-		config_client = "",
-		id = 4158,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[4159] = {
-		mark = 20211028,
-		title_res_tag = "",
-		page_info = "",
-		type = 1,
-		login_pop = 0,
-		config_id = 4,
-		is_show = 0,
-		config_client = "",
-		id = 4159,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2021,
@@ -6659,10 +6542,198 @@ pg.activity_template = {
 					11
 				},
 				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					24
+				},
+				{
 					23,
 					59,
 					59
 				}
+			}
+		}
+	},
+	[4163] = {
+		mark = 20211111,
+		config_client = "",
+		title_res_tag = "monopoly_car",
+		type = 51,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 17,
+		id = 4163,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MonopolyCar.MonopolyCarPage",
+			ui_name = "MonopolyCarPage"
+		}
+	},
+	[4164] = {
+		mark = 20211111,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 226,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4164,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4165] = {
+		mark = 20211111,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4165,
+		config_data = {
+			1580001,
+			1580002,
+			1580003
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4166] = {
+		mark = 20211111,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_4166",
+		id = 4166,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "福煦 限时加入重型建造！",
+			rate_tip = {
+				"<color=#ffde38>超稀有舰船</color>：7%",
+				"<color=#d797ff>精锐舰船</color>：12%",
+				"<color=#3dc6ff>稀有舰船</color>：51%",
+				"普通舰船：30%",
+				"<color=#d797ff>福煦</color>：1.4%<color=#92FC63>(up!)</color>"
 			}
 		}
 	},
@@ -7160,7 +7231,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 1051,
-		is_show = 1,
+		is_show = 13,
 		id = 1051,
 		config_data = {},
 		time = {
@@ -7202,7 +7273,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 1052,
-		is_show = 1,
+		is_show = 13,
 		id = 1052,
 		config_data = {},
 		time = {
@@ -7244,7 +7315,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 1053,
-		is_show = 1,
+		is_show = 13,
 		id = 1053,
 		config_data = {},
 		time = {
@@ -7286,7 +7357,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 1054,
-		is_show = 1,
+		is_show = 13,
 		id = 1054,
 		config_data = {},
 		time = {
@@ -7328,7 +7399,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 1055,
-		is_show = 1,
+		is_show = 13,
 		id = 1055,
 		config_data = {},
 		time = {
@@ -7370,7 +7441,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 1056,
-		is_show = 1,
+		is_show = 13,
 		id = 1056,
 		config_data = {},
 		time = {
@@ -7412,7 +7483,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 1057,
-		is_show = 1,
+		is_show = 13,
 		id = 1057,
 		config_data = {},
 		time = {
@@ -9671,6 +9742,13 @@ pg.activity_template = {
 		4157,
 		4158,
 		4159,
+		4160,
+		4161,
+		4162,
+		4163,
+		4164,
+		4165,
+		4166,
 		7001,
 		1040,
 		1041,
