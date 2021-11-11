@@ -3837,7 +3837,7 @@ _G.pg.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境暢通</color>
 
 6.火力支援
-隨著信標·META挑戰的進行，從第31天開始，即2021.12.12~2022.2.10期間，艦隊挑戰「飛龍·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。 
+隨著信標·META挑戰的進行，從第31天開始，即2021.12.11~2022.2.10期間，艦隊挑戰「飛龍·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。 
 ※此支援只會在指揮官自己發現的信標·META戰鬥中出現，每次挑戰均會觸發。 ]]
 		}
 	}
@@ -14340,7 +14340,7 @@ _G.pg.gametip.guild_exist_report_award_when_exit = {
 }
 
 _G.pg.gametip.guild_report_tooltip = {
-	tip = "※最多可以存儲20個事件的獎勵,超出後最早的獎勵將被移除,請及時領取"
+	tip = "※最多可以存儲20個事件獎勵,超出後最早的獎勵將被移除,請及時領取"
 }
 
 _G.pg.gametip.word_guildgold = {
@@ -14600,7 +14600,7 @@ _G.pg.gametip.guild_event_help_tip = {
 			info = "4.所有主線事件完成後，將會出現首領敵人。 "
 		},
 		{
-			info = "5.首領敵人的血量由<color=#92fc63>當次作戰參與事件的成員數量</color>決定。 "
+			info = "5.首領敵人的血量由<color=#92fc63>當次作戰參與事件的成員數量</color>決定。"
 		},
 		{
 			info = "6.每個成員每天只能挑戰<color=#92fc63>1</color>次首領戰。 "
@@ -17075,7 +17075,7 @@ _G.pg.gametip.equipment_info_change_name_b = {
 }
 
 _G.pg.gametip.equipment_info_change_text_before = {
-	tip = "变更前"
+	tip = "變更前"
 }
 
 _G.pg.gametip.equipment_info_change_text_after = {

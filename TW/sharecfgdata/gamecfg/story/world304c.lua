@@ -401,7 +401,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本地數據庫中沒有搜索到任何相關信息，正在嘗試與主機進行同步————",
+			say = "本地數據庫中沒有搜索到任何相關訊息，正在嘗試與主機進行同步————",
 			voice = "event:/tb/7/tb-7",
 			typewriter = {
 				speed = 0.05,

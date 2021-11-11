@@ -604,7 +604,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，我絕對沒這個意圖。真奇怪啊.........對了，妳們見到其他人了麼？",
+			say = "不，我絕對沒這個意圖。真奇怪啊.........對了，妳們見到其他人了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:22}你一个人脱离了这片海雾么...？",
+			say = "{namecode:22}妳一個人脫離了這片海霧嗎...？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -190,7 +190,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "現在，也存在於你的心裡了。",
+			say = "現在，也存在於妳的心裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

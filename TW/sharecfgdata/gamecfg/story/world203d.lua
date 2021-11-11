@@ -365,7 +365,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至於魯莽和倔強...你們想知道的話就回去問黎胥留吧！",
+			say = "至於魯莽和倔強...妳們想知道的話就回去問黎胥留吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

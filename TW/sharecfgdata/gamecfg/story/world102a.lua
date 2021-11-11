@@ -334,7 +334,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，你們過獎了。指揮官，本次作戰中指揮部新引入的輔助AI用的還習慣麼？",
+			say = "呵呵，你們過獎了。指揮官，本次作戰中指揮部新引入的輔助AI用的還習慣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

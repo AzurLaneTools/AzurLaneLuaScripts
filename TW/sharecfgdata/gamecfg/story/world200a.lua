@@ -71,7 +71,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼......戰役終於要正式開始了麼。",
+			say = "呼......戰役終於要正式開始了嗎。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -307,7 +307,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 205020,
-			actorName = "厌战&胡德",
+			actorName = "厭戰&胡德",
 			say = "遵命！",
 			subActors = {
 				{

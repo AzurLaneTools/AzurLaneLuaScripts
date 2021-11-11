@@ -72,7 +72,7 @@ return {
 			side = 2,
 			actor = 801030,
 			dir = 1,
-			say = "偵察任務是麼！了解~！驅逐艦魯莽，全速出發！",
+			say = "偵察任務是嗎！了解~！驅逐艦魯莽，全速出發！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

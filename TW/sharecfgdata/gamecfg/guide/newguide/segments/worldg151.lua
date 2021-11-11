@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "點擊進入儲物倉。",
+				text = "點擊進入儲物艙。",
 				mode = 2,
 				posY = -249.82,
 				char = "1",

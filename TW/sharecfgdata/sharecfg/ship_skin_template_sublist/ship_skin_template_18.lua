@@ -3624,7 +3624,7 @@ pg.ship_skin_template_18 = {
 	},
 	[900230] = {
 		ship_group = 900230,
-		name = "构建者",
+		name = "構建者",
 		bullet_skin_secondary = "",
 		hand_id = 0,
 		bgm = "",
@@ -3651,7 +3651,7 @@ pg.ship_skin_template_18 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "构建者",
+		desc = "構建者",
 		voice_actor = 31,
 		spine_offset = "",
 		illustrator = 8,

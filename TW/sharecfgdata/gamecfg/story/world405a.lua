@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不用著急！你才剛從幻覺中回復過來，先稍微休息一下吧。",
+			say = "啊，不用著急！妳才剛從幻覺中回復過來，先稍微休息一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意安全，陷入幻覺的神通可能會和加賀前輩一樣突然對你發動攻擊。",
+			say = "注意安全，陷入幻覺的神通可能會和加賀前輩一樣突然對妳發動攻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "這種反應不太像鐵血艦隊的作風啊，難道和之前一樣又是乾擾裝置的把戲？",
+			say = "這種反應不太像鐵血艦隊的作風啊，難道和之前一樣又是干擾裝置的把戲？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
