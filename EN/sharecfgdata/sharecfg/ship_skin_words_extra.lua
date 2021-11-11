@@ -6322,6 +6322,83 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[903010] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		feeling4 = "",
+		upgrade = "",
+		profile = "",
+		mission = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		battle = "",
+		id = 903010,
+		feeling1 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, the documents for you to take care of today are on your desk. ...No need to look so down, Commander~ I'll help you with anything!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Yep~ Feel free to keep relying on me~♪"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"What a miscalculation... I'm sorry, Commander..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Do you need some help with the reports? Leave them to me, and go take a break. I'll find you if I need anything from you."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Algérie invited you to a cat café? Haha, then let's go there after we're done with work.|I'll help you out so you don't need to work extra hours.|If someone wants to disturb the peace that we've built... Well, it's our job to stop them, isn't it?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"If you want me to pamper you, just say the word~♪"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Our supplies have arrived. Don't worry, I've already checked up on them myself!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"I've gone and collected the mission rewards for you. This favor's on the house~♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander? What might you be thinking about?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, did you have any plans for the evening? Ahaha, it's nothing special. I was just thinking that I'd like to eat dinner with you tonight. The reason is... Well, isn't wanting to spend more time with you reason enough? Haha~♪"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -6423,6 +6500,7 @@ pg.ship_skin_words_extra = {
 		302070,
 		303060,
 		801070,
-		801080
+		801080,
+		903010
 	}
 }

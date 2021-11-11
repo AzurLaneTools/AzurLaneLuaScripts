@@ -172,7 +172,7 @@ function slot0.ReturnSpineChar(slot0, slot1, slot2)
 	slot4 = "char/" .. slot1 .. slot1
 
 	if IsNil(slot2) then
-		Debugger.LogError("empty go: " .. slot1)
+		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot4] then
 		UIUtil.ClearChildren(slot2)
 		slot2:SetActive(false)
@@ -288,7 +288,7 @@ function slot0.ReturnUI(slot0, slot1, slot2)
 	slot4 = "ui/" .. slot1 .. slot1
 
 	if IsNil(slot2) then
-		Debugger.LogError("empty go: " .. slot1)
+		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot4] then
 		if table.indexof(uv0, slot1) then
 			slot2.transform:SetParent(slot0.root, false)
@@ -302,10 +302,6 @@ function slot0.ReturnUI(slot0, slot1, slot2)
 			slot2:GetComponent(typeof(UIArchiver)):Clear()
 			slot0.pools_plural[slot4]:Enqueue(slot2)
 		else
-			if slot1 == "LevelMainScene" then
-				print("Return LevelMainScene UI\n", debug.traceback())
-			end
-
 			slot0.pools_plural[slot4]:Enqueue(slot2, true)
 
 			if slot0.pools_plural[slot4]:AllReturned() and (not slot0.callbacks[slot4] or #slot0.callbacks[slot4] == 0) then
@@ -383,7 +379,7 @@ function slot0.ReturnPainting(slot0, slot1, slot2)
 	slot4 = "painting/" .. slot1 .. slot1
 
 	if IsNil(slot2) then
-		Debugger.LogError("empty go: " .. resName)
+		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot4] then
 		if tf(slot2):Find("face") then
 			setActive(slot5, false)
@@ -575,7 +571,7 @@ function slot0.ReturnPrefab(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1 .. slot2
 
 	if IsNil(slot3) then
-		Debugger.LogError("empty go: " .. slot2)
+		Debugger.LogError(debug.traceback("empty go: " .. slot2))
 	elseif slot0.pools_plural[slot5] then
 		if string.find(slot1, "emoji/") == 1 and slot3:GetComponent(typeof(CriManaEffectUI)) then
 			slot6:Pause(true)
@@ -641,6 +637,22 @@ function slot0.DisplayPluralPools(slot0)
 	end
 
 	warning(slot1)
+end
+
+function slot0.GetPluralStatus(slot0, slot1)
+	if not slot0.pools_plural[slot1] then
+		return "NIL"
+	end
+
+	slot2 = slot0.pools_plural[slot1]
+
+	return table.concat(_.map({
+		slot1,
+		"balance",
+		slot2.balance,
+		"currentItmes",
+		#slot2.items
+	}, tostring), " ")
 end
 
 function slot0.FromPlural(slot0, slot1, slot2, slot3, slot4, slot5, slot6)

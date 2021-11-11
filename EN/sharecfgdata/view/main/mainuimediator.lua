@@ -710,6 +710,37 @@ function slot0.onChapterTimeUp(slot0, slot1)
 	end
 end
 
+function slot0.tryShowItemIconChnageNotice(slot0, slot1)
+	if ItemShowPanel.ConfigData.isOpen == true then
+		slot3 = slot2.equipID
+
+		if PlayerPrefs.GetInt("ItemIconChange_" .. slot2.equipID, 0) == 0 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				modal = true,
+				hideNo = true,
+				hideClose = true,
+				type = MSGBOX_TYPE_JUST_FOR_SHOW,
+				title = pg.MsgboxMgr.TITLE_INFORMATION,
+				weight = LayerWeightConst.TOP_LAYER,
+				onClose = function ()
+					uv0()
+					PlayerPrefs.SetInt("ItemIconChange_" .. uv1, 1)
+				end,
+				onYes = function ()
+					PlayerPrefs.SetInt("ItemIconChange_" .. uv0, 1)
+					uv1()
+				end
+			})
+		else
+			slot1()
+		end
+
+		return
+	end
+
+	slot1()
+end
+
 function slot0.handleEnterMainUI(slot0)
 	if pg.SeriesGuideMgr.GetInstance():isEnd() then
 		slot1 = nil
@@ -755,6 +786,11 @@ function slot0.handleEnterMainUI(slot0)
 
 				return
 			end
+
+			uv0:tryShowItemIconChnageNotice(function ()
+				onNextTick(uv0)
+			end)
+			coroutine.yield()
 
 			slot5 = getProxy(ServerNoticeProxy):getServerNotices(false)
 

@@ -16687,99 +16687,154 @@ cs.gametip = {
 		111,
 		true
 	},
-	formationScene_use_oil_limit_enemy = {
+	index_awakening2 = {
 		565682,
+		84,
+		true
+	},
+	index_upgrade = {
+		565766,
+		82,
+		true
+	},
+	formationScene_use_oil_limit_enemy = {
+		565848,
 		95,
 		true
 	},
 	formationScene_use_oil_limit_flagship = {
-		565777,
+		565943,
 		100,
 		true
 	},
 	formationScene_use_oil_limit_submarine = {
-		565877,
+		566043,
 		97,
 		true
 	},
 	attr_durability = {
-		565974,
+		566140,
 		72,
 		true
 	},
 	attr_armor = {
-		566046,
+		566212,
 		70,
 		true
 	},
 	attr_reload = {
-		566116,
+		566282,
 		69,
 		true
 	},
 	attr_cannon = {
-		566185,
+		566351,
 		68,
 		true
 	},
 	attr_torpedo = {
-		566253,
+		566419,
 		70,
 		true
 	},
 	attr_motion = {
-		566323,
+		566489,
 		69,
 		true
 	},
 	attr_antiaircraft = {
-		566392,
+		566558,
 		74,
 		true
 	},
 	attr_air = {
-		566466,
+		566632,
 		66,
 		true
 	},
 	attr_hit = {
-		566532,
+		566698,
 		66,
 		true
 	},
 	attr_antisub = {
-		566598,
+		566764,
 		70,
 		true
 	},
 	attr_oxy_max = {
-		566668,
+		566834,
 		70,
 		true
 	},
 	attr_ammo = {
-		566738,
+		566904,
 		67,
 		true
 	},
 	attr_hunting_range = {
-		566805,
+		566971,
 		76,
 		true
 	},
 	attr_luck = {
-		566881,
+		567047,
 		67,
 		true
 	},
 	attr_consume = {
-		566948,
+		567114,
+		71,
+		true
+	},
+	monthly_card_tip = {
+		567185,
 		71,
 		true
 	},
 	shopping_error_time_limit = {
-		567019,
+		567256,
 		128,
+		true
+	},
+	world_total_power = {
+		567384,
+		92,
+		true
+	},
+	world_mileage = {
+		567476,
+		82,
+		true
+	},
+	world_pressing = {
+		567558,
+		82,
+		true
+	},
+	equipment_info_change_tip = {
+		567640,
+		128,
+		true
+	},
+	equipment_info_change_name_a = {
+		567768,
+		117,
+		true
+	},
+	equipment_info_change_name_b = {
+		567885,
+		117,
+		true
+	},
+	equipment_info_change_text_before = {
+		568002,
+		94,
+		true
+	},
+	equipment_info_change_text_after = {
+		568096,
+		92,
 		true
 	}
 }

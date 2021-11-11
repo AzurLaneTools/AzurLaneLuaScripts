@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4149",
+		param = "4161",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -9,8 +9,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					10
+					24
 				},
 				{
 					23,
@@ -39,15 +39,15 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectName = "new"
+				projectName = "heavy"
 			}
 		},
 		time = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -59,7 +59,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					10
+					24
 				},
 				{
 					23,
@@ -81,8 +81,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -94,7 +94,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					10
+					24
 				},
 				{
 					23,
@@ -109,14 +109,17 @@ pg.activity_banner = {
 		pic = "temp4",
 		type = 2,
 		param = {
-			"scene back yard"
+			"scene charge",
+			{
+				wrap = 4
+			}
 		},
 		time = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -128,7 +131,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					10
+					24
 				},
 				{
 					23,
@@ -143,17 +146,14 @@ pg.activity_banner = {
 		pic = "temp5",
 		type = 2,
 		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
+			"scene back yard"
 		},
 		time = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -165,7 +165,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					10
+					24
 				},
 				{
 					23,
@@ -176,21 +176,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4163",
 		id = 6,
 		pic = "temp6",
-		type = 2,
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -202,7 +197,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					10
+					24
 				},
 				{
 					23,
@@ -285,8 +280,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -298,7 +293,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					10
+					24
 				},
 				{
 					23,

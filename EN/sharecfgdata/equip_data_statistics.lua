@@ -105784,7 +105784,7 @@ _G.pg.equip_data_statistics[78031] = {
 	rarity = 1,
 	ammo = 10,
 	nationality = 0,
-	descrip = "技能弹幕",
+	descrip = "Barrage",
 	id = 78031,
 	value_3 = 0,
 	value_2 = 0,
@@ -105886,7 +105886,7 @@ _G.pg.equip_data_statistics[78121] = {
 	rarity = 1,
 	ammo = 10,
 	nationality = 0,
-	descrip = "技能弹幕",
+	descrip = "Barrage",
 	id = 78121,
 	value_3 = 0,
 	value_2 = 0,
@@ -105937,7 +105937,7 @@ _G.pg.equip_data_statistics[78211] = {
 	rarity = 1,
 	ammo = 10,
 	nationality = 0,
-	descrip = "技能弹幕",
+	descrip = "Barrage",
 	id = 78211,
 	value_3 = 0,
 	value_2 = 0,
@@ -105976,6 +105976,57 @@ _G.pg.equip_data_statistics[78212] = {
 	base = 78211,
 	weapon_id = {
 		78212
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[78221] = {
+	type = 1,
+	name = "全弹发射-絮弗伦级I",
+	speciality = "N/A",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 78221,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		78221
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[78222] = {
+	id = 78222,
+	name = "全弹发射-絮弗伦级II",
+	base = 78221,
+	weapon_id = {
+		78222
 	},
 	hidden_skill_id = {}
 }
@@ -117886,7 +117937,7 @@ _G.pg.equip_data_statistics[90847] = {
 
 _G.pg.equip_data_statistics[90860] = {
 	tech = 1,
-	name = "Twin 203mm Mle 1924 Main Gun Mount",
+	name = "Twin 203mm Mle 1931 Main Gun Mount",
 	speciality = "Lock",
 	type = 3,
 	descrip = "No description",
@@ -118007,7 +118058,7 @@ _G.pg.equip_data_statistics[90866] = {
 
 _G.pg.equip_data_statistics[90880] = {
 	tech = 2,
-	name = "Twin 203mm Mle 1924 Main Gun Mount",
+	name = "Twin 203mm Mle 1931 Main Gun Mount",
 	speciality = "Lock",
 	type = 3,
 	descrip = "No description",
@@ -118168,7 +118219,7 @@ _G.pg.equip_data_statistics[90890] = {
 
 _G.pg.equip_data_statistics[90900] = {
 	tech = 3,
-	name = "Twin 203mm Mle 1924 Main Gun Mount",
+	name = "Twin 203mm Mle 1931 Main Gun Mount",
 	speciality = "Lock",
 	type = 3,
 	descrip = "No description",
@@ -118544,6 +118595,390 @@ _G.pg.equip_data_statistics[91013] = {
 	base = 91000,
 	weapon_id = {
 		91013
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91100] = {
+	tech = 1,
+	name = "Twin 203mm Mle 1924 Main Gun Mount",
+	speciality = "Lock",
+	type = 3,
+	descrip = "No description",
+	ammo = 2,
+	damage = "24 x 4",
+	nationality = 8,
+	rarity = 2,
+	id = 91100,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 5,
+	icon = "51100",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1416
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1416
+		},
+		{
+			4,
+			1205
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		91100
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"CA",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.equip_data_statistics[91101] = {
+	id = 91101,
+	damage = "26 x 4",
+	base = 91100,
+	weapon_id = {
+		91101
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91102] = {
+	id = 91102,
+	damage = "28 x 4",
+	base = 91100,
+	weapon_id = {
+		91102
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91103] = {
+	id = 91103,
+	damage = "30 x 4",
+	base = 91100,
+	weapon_id = {
+		91103
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91120] = {
+	tech = 2,
+	name = "Twin 203mm Mle 1924 Main Gun Mount",
+	speciality = "Lock",
+	type = 3,
+	descrip = "No description",
+	ammo = 2,
+	damage = "26 x 4",
+	nationality = 8,
+	rarity = 3,
+	id = 91120,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 12,
+	icon = "51100",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1416
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1416
+		},
+		{
+			4,
+			1205
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		91120
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"CA",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.equip_data_statistics[91121] = {
+	id = 91121,
+	damage = "28 x 4",
+	base = 91120,
+	weapon_id = {
+		91121
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91122] = {
+	id = 91122,
+	damage = "30 x 4",
+	base = 91120,
+	weapon_id = {
+		91122
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91123] = {
+	id = 91123,
+	damage = "32 x 4",
+	base = 91120,
+	weapon_id = {
+		91123
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91124] = {
+	id = 91124,
+	damage = "34 x 4",
+	base = 91120,
+	weapon_id = {
+		91124
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91125] = {
+	id = 91125,
+	damage = "36 x 4",
+	base = 91120,
+	weapon_id = {
+		91125
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91126] = {
+	id = 91126,
+	damage = "38 x 4",
+	base = 91120,
+	weapon_id = {
+		91126
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91140] = {
+	tech = 3,
+	name = "Twin 203mm Mle 1924 Main Gun Mount",
+	speciality = "Lock",
+	type = 3,
+	descrip = "No description",
+	ammo = 2,
+	damage = "28 x 4",
+	nationality = 8,
+	rarity = 4,
+	id = 91140,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 25,
+	icon = "51100",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1416
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1416
+		},
+		{
+			4,
+			1205
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		91140
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"CA",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.equip_data_statistics[91141] = {
+	id = 91141,
+	damage = "30 x 4",
+	base = 91140,
+	weapon_id = {
+		91141
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91142] = {
+	id = 91142,
+	damage = "32 x 4",
+	base = 91140,
+	weapon_id = {
+		91142
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91143] = {
+	id = 91143,
+	damage = "34 x 4",
+	base = 91140,
+	weapon_id = {
+		91143
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91144] = {
+	id = 91144,
+	damage = "36 x 4",
+	base = 91140,
+	weapon_id = {
+		91144
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91145] = {
+	id = 91145,
+	damage = "38 x 4",
+	base = 91140,
+	weapon_id = {
+		91145
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91146] = {
+	id = 91146,
+	damage = "40 x 4",
+	base = 91140,
+	weapon_id = {
+		91146
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91147] = {
+	id = 91147,
+	damage = "42 x 4",
+	base = 91140,
+	weapon_id = {
+		91147
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91148] = {
+	id = 91148,
+	damage = "44 x 4",
+	base = 91140,
+	weapon_id = {
+		91148
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91149] = {
+	id = 91149,
+	damage = "46 x 4",
+	base = 91140,
+	weapon_id = {
+		91149
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91150] = {
+	id = 91150,
+	damage = "48 x 4",
+	base = 91140,
+	weapon_id = {
+		91150
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91151] = {
+	id = 91151,
+	anti_siren = 100,
+	damage = "48 x 4",
+	base = 91140,
+	weapon_id = {
+		91151
 	},
 	hidden_skill_id = {}
 }

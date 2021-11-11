@@ -18329,6 +18329,14 @@ _G.pg.gametip.formationScene_use_oil_limit_tip = {
 	tip = "Clearing Mode Cost Limit"
 }
 
+_G.pg.gametip.index_awakening2 = {
+	tip = "Can Cog. AW+ "
+}
+
+_G.pg.gametip.index_upgrade = {
+	tip = "Can Lim. Brk. "
+}
+
 _G.pg.gametip.formationScene_use_oil_limit_enemy = {
 	tip = "Escort"
 }
@@ -18401,6 +18409,42 @@ _G.pg.gametip.attr_consume = {
 	tip = "Cost"
 }
 
+_G.pg.gametip.monthly_card_tip = {
+	tip = ""
+}
+
 _G.pg.gametip.shopping_error_time_limit = {
 	tip = "This pack is currently unavailable for purchase."
+}
+
+_G.pg.gametip.world_total_power = {
+	tip = "Combat Effectiveness"
+}
+
+_G.pg.gametip.world_mileage = {
+	tip = "Total Distance"
+}
+
+_G.pg.gametip.world_pressing = {
+	tip = "Zones Cleared"
+}
+
+_G.pg.gametip.equipment_info_change_tip = {
+	tip = "The name of the following equipment has changed."
+}
+
+_G.pg.gametip.equipment_info_change_name_a = {
+	tip = "Twin 203mm Mle 1924 Main Gun Mount"
+}
+
+_G.pg.gametip.equipment_info_change_name_b = {
+	tip = "Twin 203mm Mle 1931 Main Gun Mount"
+}
+
+_G.pg.gametip.equipment_info_change_text_before = {
+	tip = "Before"
+}
+
+_G.pg.gametip.equipment_info_change_text_after = {
+	tip = "After"
 }

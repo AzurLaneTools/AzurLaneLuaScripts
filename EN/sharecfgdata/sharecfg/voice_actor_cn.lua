@@ -1162,6 +1162,10 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 291,
-		actor_name = "Kaori Maeda"
+		actor_name = "Maeda Kaori"
+	},
+	{
+		code = 292,
+		actor_name = "Shimada Aino"
 	}
 }

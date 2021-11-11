@@ -7033,8 +7033,8 @@ _G.pg.ship_skin_words[103120] = {
 	mission = "You've still not finished these missions, Commander. Do you need my assistance?",
 	touch2 = "Hehehe. You wouldn't stand a chance against me in a real fight.",
 	voice_key_2 = -1,
-	skill = "",
-	drop_descrip = "Lock on... Fire!",
+	skill = "Lock on... Fire!",
+	drop_descrip = "Heavy cruiser New Orleans, reporting in. Hehe, you'll be sure to receive a medal for finding me. Anyway... Do you have any urgent tasks for me?",
 	mail = "You've got new mail. I've added \"check the mailbox\" to today's task list.",
 	touch = "Whether you want close contact, or hand-to-hand combat, I'll oblige.",
 	profile = "I'm New Orleans, nameship of my class. I used to fight for the Eagle Union. I had a frighteningly close call once in a battle, but fortunately, I lived to see another day. But the past is the past – treat me no different from how you would anyone else in the fleet.",
@@ -9956,6 +9956,40 @@ _G.pg.ship_skin_words[107065] = {
 	hp_warning = "",
 	id = 107065,
 	detail = "Right, I didn't get to ask you earlier since you were in a hurry, but what do you think about my outfit? I value your input just as much as I value that of Hornet and the others.",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[107066] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "The commission fleet has returned. Sorry, but could you welcome them back in my place?",
+	win_mvp = "First place, huh? Normally not much of a reason to celebrate, but since we're at a race, let's uncork the champagne.",
+	home = "Good work, Commander. Go ahead and take a break, I'll handle the follow-up work for the others.",
+	mission = "",
+	touch2 = "That's against the rules, Commander.",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Commander, did you come to watch the race? You know... I'd rather be down there competing than standing around over here. That feeling of being able to seize the wind... Don't you think that racing and sailing share the same essence?",
+	mail = "",
+	touch = "A photo op? Sure, but what kind of pose should I make?",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Commander, did you come to watch the race? You know... I'd rather be down there competing than standing around over here. That feeling of being able to seize the wind... Don't you think that racing and sailing share the same essence?",
+	feeling5 = "",
+	main = "Is that... Zuikaku? That's a pretty showy outfit... though I'm not exactly in a position to talk myself.|Essex, be careful when you're charging ahead! ...Oh, um, I didn't mean to patronize, I just can't help but get a bit worried...|You'd like to help me with the maintenance? Sure. To be honest, you might be better suited for this job. Ahaha~",
+	battle = "Come, spread your wings and fly!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Let's do our best today. I'll be cheering you on.",
+	vote = "",
+	hp_warning = "",
+	id = 107066,
+	detail = "Ah, Commander, there's something I wanted to ask you about... What do you think about this pose? I want to do what I can so I don't sully your reputation.",
 	couple_encourage = {}
 }
 
@@ -37113,6 +37147,40 @@ _G.pg.ship_skin_words[403033] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[403034] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "",
+	mail = "",
+	touch = "",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "",
+	feeling5 = "",
+	main = "nil|nil|nil",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 403034,
+	detail = "",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[403038] = {
 	feeling1 = "",
 	feeling3 = "",
@@ -43912,6 +43980,14 @@ _G.pg.ship_skin_words[801080] = {
 			1,
 			" I-it's an unimaginable honor fighting alongside you, Cardinal!",
 			0
+		},
+		{
+			{
+				90301
+			},
+			1,
+			"Wouldst thou try and take this seriously, Foch?!",
+			0
 		}
 	}
 }
@@ -45248,6 +45324,91 @@ _G.pg.ship_skin_words[902013] = {
 	hp_warning = "",
 	id = 902013,
 	detail = "Sure are a lot of cat lovers around here. Algérie, Richelieu... Are you one too, Commander?",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[903010] = {
+	feeling1 = "If you're truly planning on leading everyone to victory, you'll need to put more heart into it, instead of being this tepid.",
+	feeling3 = "Don't tense up like that, Commander, relax! ...And quietly accept your fate... Letting yourself be taken care of is for your own benefit, you know~♪",
+	lose = "Even with these enhancements, I'm still not strong enough...",
+	propose = "Well, of course I'm nervous, but... when I look at your face, all of my worries just melt away~ Ahaha, well, I guess I'll reveal my true feelings to you... \"Sure, I'd love to♪\"",
+	expedition = "We've gotten a new shipment of supplies. Are you going to check on them yourself?",
+	win_mvp = "How was that! The true power of the Foch class! Ahaha, feel free to depend on me as much as you'd like~♪",
+	home = "Oh Commander, welcome back! Now now, don't focus so hard on your work that you forget to eat! I can even whip something up for you if you'd like!",
+	mission = "An indicator of a commander's capability is being able to take care of things in a timely manner. You should try a bit harder in that regard.",
+	touch2 = "Eek?! ...Jeez, I didn't know you were into this kind of thing.",
+	voice_key_2 = -1,
+	skill = "You're not getting away! Main guns, fire!",
+	drop_descrip = "Suffren-class Heavy Cruiser—Foch",
+	mail = "You've got some mail... Would you like me to cut the seal off for you, Commander?",
+	touch = "Is there something you're concerned about? Aha, well, if you don't mind opening up to me, an extra head can't hurt.Is there something you're concerned about? Aha, well, if you don't mind opening up to me, an extra head can't hurt.",
+	profile = "I'm the third ship of the Suffren class, Foch. My design was different enough from those of my sister ships that I've even been called a member of the Foch class. As for what I'm good at... Nothing in particular, because I'm good at just about everything!",
+	mission_complete = "Commander, I've collected the mission rewards for you. I guess you owe me one now~",
+	feeling4 = "Commander... did you stay up all night again? It doesn't look like you've been eating properly, either... This is unacceptable... I guess it's time for me to look after you!",
+	unlock = "Hey there~ So you're the Commander? I'm Foch, from the Suffren class. I consider myself quite an experienced strategist, so I hope you'll find me useful~ Ahaha, anyway, it's a pleasure to meet you~",
+	feeling5 = "Commander, you did remember our dinner date tonight, right? You know, back when I told you I would look after you? I mean, I won't force you, but... you're not cruel enough to refuse me, right? Ahaha...",
+	main = "It's important to keep your guard up while doing work. To put it as a strategist would, \"This is not peace. It is an armistice for a long while.\"|Maintaining a regular schedule is the key to efficiency, so no pulling all-nighters, okay?|How to get along with Algérie...? Well, for starters, she'll open up to you naturally if you have a cat with you.",
+	battle = "Victory can only be attained with the will to conquer! Foch, heading out!",
+	upgrade = "Feel free to make me even stronger~♪",
+	voice_key = 90301,
+	headtouch = "My hair's ruined now! ...Just kidding, I'm not angry at all~♪",
+	feeling2 = "The knife-thrower who never misses, Foch! ...at least, I wish I were that skilled.",
+	login = "Commander, I've placed your work for the day on your desk. ...Don't look at me like that, I'm here for you too!",
+	vote = "",
+	hp_warning = "There's nothing to fear! I'm still here!",
+	id = 903010,
+	detail = "Commander, mind playing along with one of my whims? Stay still while I put this apple on top of your head... Wait, I'm just messing with you~ You don't have to run away♪",
+	couple_encourage = {
+		{
+			{
+				90302
+			},
+			1,
+			"We'll be fine, just follow the plan.",
+			0
+		},
+		{
+			{
+				40305
+			},
+			1,
+			"Graf Spee) Ease up, we're on the same side now.",
+			0
+		}
+	}
+}
+
+_G.pg.ship_skin_words[903011] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "What are you planning on presenting me with as a reward?",
+	home = "You've kept me waiting for a while, Commander! Just kidding~ good work on your mission♪ Do you want to take a short break somewhere before we head out?",
+	mission = "",
+	touch2 = "Aren't... you in too much of a rush...?",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Yo, Commander, did I keep you waiting? Sorry 'bout that. You know how it goes, sometimes it's really hard for a girl to pick out the right thing to wear. Anyway, let's get going~♪",
+	mail = "",
+	touch = "Hmm... What do you think about the scenery over here?",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Yo, Commander, did I keep you waiting? Sorry 'bout that. You know how it goes, sometimes it's really hard for a girl to pick out the right thing to wear. Anyway, let's get going~♪",
+	feeling5 = "",
+	main = "In exchange for having made you wait, I promise that today will be a super fun day, Commander~♪|I had Algérie tell me what stores to go to, so I'll lead the way! I guarantee that you'll have a good time as well!|I've got one for self-defense. Hehe, sorry about that! Guess you won't have a chance to look cool in front of me.",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "You're letting me plan out our date? ...What a mistake on my part... I was hoping you would escort me to your heart's content...",
+	vote = "",
+	hp_warning = "",
+	id = 903011,
+	detail = "Of course I like to dress up in pretty clothes. Did you never see me as a lady? Hmph. ...Ahaha, don't be down on yourself, I was just toying with you♪",
 	couple_encourage = {}
 }
 
