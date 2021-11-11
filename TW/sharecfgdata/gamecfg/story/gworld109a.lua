@@ -16,7 +16,7 @@ return {
 			voice = "event:/tb/26/tb-26",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官，欢迎来到作战指挥室。下面由我向您说明一下余烬信标与对余烬作战的相关事宜。",
+			say = "指揮官，歡迎來到對餘燼作戰指揮室。下面由我向您說明一下餘燼信標與對餘燼作戰的相關事宜。",
 			flashin = {
 				delay = 1,
 				stopbgm = true,
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "余烬舰队的舰装内部拥有独特结构，因此可以长期躲避在我方的雷达显示之外。",
+			say = "餘燼艦隊的艦裝內部擁有獨特結構，因此可以長期躲避在我方的雷達顯示之外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "科研部门在最近的一次测试中，解析出一种在余烬战斗过程中舰装释放出的独特信号特征。",
+			say = "科研部門在最近的一次測試中，解析出一種在餘燼戰鬥過程中艦裝釋放出的獨特訊號特徵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥部将其称呼为余烬信标。通过对收集到的信标进行解析，舰队就可以在第一时间发现海域中正处于交战状态的余烬成员。",
+			say = "指揮部將其稱呼為餘燼信標。通過對收集到的餘燼信標進行解析，艦隊就可以在第一時間發現海域中正處於交戰狀態的餘燼成員。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥部判断，虽然余烬在现阶段尚未对作战造成严重危害，但余烬的存在本身就是影响作战成功的不稳定因素。",
+			say = "指挥部判断，雖然餘燼在現階段尚未對作戰造成嚴重危害，但餘燼的存在本身就是影響作戰成功的不穩定因素。",
 			voice = "event:/tb/11/tb-11",
 			typewriter = {
 				speed = 0.05,
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "看来必须要和余烬交战了啊......",
+			say = "看來必須要和餘燼交戰了啊......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥部从来没说要以一方消灭另一方的形式消除余烬的威胁哦。",
+			say = "指揮官，指揮部從來沒說要以一方消滅另一方的形式消除餘燼的威脅哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "只是她们从来没有回应过我们的联络请求，现在除了战斗之外也没有别的方式了吧。",
+			say = "只是她們從來沒有回應過我們的聯絡請求，現在除了戰鬥之外也沒有別的方式了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "如果余烬真有成为友军的潜质的话，就用战斗来探明她们的本心吧。不是也有不打不相识的说法嘛~",
+			say = "如果餘燼真有成為友軍的潛質的話，就用戰鬥來探明她們的本心吧。不是也有不打不相識的說法嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "原来如此...如果真的能增进彼此的了解就好了。",
+			say = "原來如此...如果真的能增進彼此的了解就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "希望她们不是我们真正的敌人......",
+			say = "希望她們不是我們真正的敵人......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "至少需要两个舰队同时进行激活……",
+			say = "至少需要兩個艦隊同時進行啟動……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

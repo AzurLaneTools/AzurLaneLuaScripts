@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "前方就是达咯尔港.......？听说这里是维希教廷在阿非利加的一处重要军事港口，怎么会如此冷清......",
+			say = "前方就是達卡港.......？聽說這裡是維希教廷在非洲的一處重要軍事港口，怎麼會如此冷清......",
 			bgm = "bsm-7",
 			flashin = {
 				delay = 1,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不但没有看到铁血为作战而集结的舰队，连维希教廷的驻港舰队都没有看到。",
+			say = "不但沒有看到鐵血為作戰而集結的艦隊，連維希教廷的駐港艦隊的都沒有看到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔...好吧，也不是完全没有。前方有一艘驱逐舰正在向我们接近.......应该是铁血派来迎接我们的吧。",
+			say = "唔...好吧，也不是完全沒有。前方有一艘驅逐艦正在向我們接近.......應該是鐵血派來迎接我們的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢迎来到达咯尔港，我是驱逐舰Z2，根据铁血司令部的命令在此等候各位的到来。",
+			say = "歡迎來到達卡港，我是驅逐艦Z2，根據鐵血司令部的命令在此等候各位的到來。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？达喀尔港只有你一个人在吗？",
+			say = "欸？達卡港只有妳一個人在嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，目前停留在港口中的只有我，不过各位来这里也不是为了检阅铁血舰队吧。",
+			say = "嗯，目前停留在港口中的只有我，不過各位來這裡也不是為了檢閱鐵血艦隊吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们就简洁高效一些，直奔正题好了。各位请跟我来。",
+			say = "我們就簡潔高效一些，直奔正題好了。各位請跟我來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，不愧是铁血的效率，那我就稍微期待一下了~",
+			say = "呵呵，不愧是鐵血的效率，那我就稍微期待一下了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "铁血正在进行的实验路线，居然与我们完全不一样.......",
+			say = "鐵血正在進行的實驗路線，居然與我們完全不一樣.......",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然是这样么....铁血对于心智魔方的研究确实非常有趣。",
+			say = "果然是這樣嗎....鐵血對於心智魔方的研究確實非常有趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "模块式要塞的心智魔方供能化尝试，生物学和机械相结合的舰装技术，以及全新的设备升级方向......",
+			say = "模組式要塞的心智魔方供能化嘗試，生物學和機械相結合的艦裝技術，以及全新的設備升級方向......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "甚至还有试图解析镜面海域的实验.....呵呵，回去之后我们也根据铁血提供的资料改善我们的研究吧。",
+			say = "甚至還有試圖解析鏡面海域的實驗.....呵呵，回去之後我們也根據鐵血提供的資料改善我們的研究吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题。利用这些资料，我们很快就能开始设计类似的实验了。",
+			say = "沒問題。利用這些資料，我們很快就能開始設計類似的實驗了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（铁血看来从塞壬那边收获颇丰....可是重樱这边.....）",
+			say = "（鐵血看來從塞壬那邊收穫頗豐....可是重櫻這邊.....）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（呵，果然要取得真正有用的东西还是要靠自己的行动......）",
+			say = "（呵，果然要取得真正有用的東西還是要靠自己的行動......）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

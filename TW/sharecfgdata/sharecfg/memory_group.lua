@@ -2447,6 +2447,22 @@ pg.memory_group = {
 			1677
 		}
 	},
+	[562] = {
+		icon = "title_chara_naerxun",
+		subtype = 0,
+		type = 3,
+		id = 562,
+		title = "無法坦率的心意",
+		memories = {
+			1716,
+			1717,
+			1718,
+			1719,
+			1720,
+			1721,
+			1722
+		}
+	},
 	[570] = {
 		icon = "title_chara_junhe",
 		subtype = 0,
@@ -2599,6 +2615,7 @@ pg.memory_group = {
 		557,
 		559,
 		561,
+		562,
 		570
 	}
 }

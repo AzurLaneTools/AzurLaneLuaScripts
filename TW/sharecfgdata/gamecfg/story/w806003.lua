@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "部分海雾与巨型浮冰消失，可以继续寻找海豹了！",
+			say = "部分海霧與巨型浮冰消失，可以繼續尋找海豹了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里似乎是..塞壬通道的深层空间？",
+			say = "這裡似乎是..塞壬通道的深層空間？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里视野严重受限，请指挥官谨慎前行，寻找线索",
+			say = "這裡視野嚴重受限，請指揮官謹慎前行，尋找線索",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

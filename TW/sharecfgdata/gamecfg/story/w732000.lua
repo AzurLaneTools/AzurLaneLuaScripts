@@ -8,7 +8,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "要将圆盘往那个方向倾斜？（选择了方向后，地图上所有未归位的能源矩阵都会往那个方向滑动）",
+			say = "要將圓盤往那個方向傾斜？ （選擇了方向後，地圖上所有未歸位的能源矩陣都會往那個方向滑動）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 					flag = 4
 				},
 				{
-					content = "离开",
+					content = "離開",
 					flag = 5
 				}
 			}

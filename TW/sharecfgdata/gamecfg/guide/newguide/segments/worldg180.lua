@@ -12,7 +12,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "可以在此购买战役信息记录仪。",
+				text = "可以在此購買戰役訊息記錄儀。",
 				mode = 2,
 				posY = 84.9,
 				char = "1",

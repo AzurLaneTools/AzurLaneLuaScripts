@@ -13,7 +13,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前方就是塔兰托港了，嗯？这些在港口里飘荡的旗帜......皇家的舰队居然已经先到了么。",
+			say = "前方就是塔蘭托港了，嗯？這些在港口裡飄蕩的旗幟......皇家的艦隊居然已經先到了嗎。",
 			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这还真是...没想到女王陛下已经先到了，接待不周还请恕罪。",
+			say = "這還真是...沒想到女王陛下已經先到了，接待不周還請恕罪。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "没事，没事~陆间海我可是很熟的，就算闭着眼睛都能带着舰队开到塔兰托，不需要有什么多余的担心。",
+			say = "沒事，沒事~地中海我可是很熟的，就算閉著眼睛都能帶著艦隊開到塔蘭托，不需要有什麼多餘的擔心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下您的心情好像不是很好啊，路上发生什么不愉快的事了么？",
+			say = "陛下您的心情好像不是很好啊，路上發生什麼不愉快的事了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "发生了什么不愉快的事么...........？！你还真问得出来啊！我可是从皇家本岛出发之后，一路先到了圣彼得伯格，然后到了霍尔斯坦，然后到了土伦港，最后才来到你们塔兰托港的！",
+			say = "發生了什麼不愉快的事嗎...........？！妳還真問得出來啊！我可是從皇家本島出發之後，一路先到了聖彼得堡，然後到了基爾港，然後到了土倫港，最後才來到妳們塔蘭托港的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈......这还真是趟辛苦的旅程啊~不过重樱舰队也是经历了漫长的旅途才到这里的哟。",
+			say = "啊哈哈哈......這還真是趟辛苦的旅程啊~不過重櫻艦隊也是經歷了漫長的旅途才到這裡的喲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "重樱舰队也已经到了么....领头的是......嗯？",
+			say = "重櫻艦隊也已經到了嗎....領頭的是......嗯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "原来是{namecode:161}的妹妹{namecode:91}啊。本以为机会难得，能见一见你们那艘神秘的总旗舰{namecode:83}呢，或者至少也是{namecode:74}、{namecode:82}之类的。",
+			say = "原來是天城的妹妹赤城啊。本以為機會難得，能見一見妳們那艘神秘的總旗艦大和呢，或者至少也是長門、三笠之類的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "签订停火协议这么重要的事，你能做这个决定么？",
+			say = "簽訂停火協議這麼重要的事，妳能做這個決定嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像听到一阵吵得要命的噪音，究竟是从哪里发出来的......",
+			say = "好像聽到一陣吵得要命的噪音，究竟是從哪裡發出來的......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，原来如此，是皇家的小不点女王啊，没能在第一时间注意到您的存在是我的疏忽，实在抱歉。",
+			say = "啊，原來如此，是皇家的小不點女王啊，沒能在第一時間注意到您的存在是我的疏忽，實在抱歉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于您刚才问出来的问题，也难怪皇家之前被铁血整的那么惨，你们的情报能力真是下降了不少啊。",
+			say = "至於您剛才問出來的問題，也難怪皇家之前被鐵血整的那麼慘，妳們的情報能力真是下降了不少啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "你......！",
+			say = "妳......！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "感谢{namecode:91}阁下指出我们的不足之处，我们一定会着手进行改进，争取让类似白鹰获悉AF详情那样精彩的情报战再发生几次。",
+			say = "感謝赤城閣下指出我們的不足之處，我們一定會著手進行改進，爭取讓類似白鷹獲悉AF詳情那樣精彩的情報戰再發生幾次。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唉...你们都冷静一点~这次大家不是都抱有和平的意愿才会齐聚塔兰托的嘛，就不要像这样针锋相对了。",
+			say = "唉...妳們都冷靜一點~這次大家不是都抱有和平的意願才會齊聚塔蘭托的嘛，就不要像這樣針鋒相對了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "腓特烈大帝的也在赶来这里的路上，在那之前请各位放宽身心，尽情享受一下撒丁风情吧~",
+			say = "腓特烈大帝也在趕來這裡的路上，在那之前請各位放寬身心，盡情享受一下薩丁風情吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

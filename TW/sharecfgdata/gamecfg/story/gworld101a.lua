@@ -11,7 +11,7 @@ return {
 			actor = 107070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "STOP！指挥官，到这里为止就不能继续前进了！",
+			say = "STOP！指揮官，到這裡為止就不能繼續前進了！",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -23,11 +23,11 @@ return {
 			},
 			options = {
 				{
-					content = "「......大黄蜂？」",
+					content = "「......大黃蜂？」",
 					flag = 1
 				},
 				{
-					content = "「没想到这么快就遇到敌人了...」",
+					content = "「沒想到這麼快就遇到敵人了...」",
 					flag = 2
 				}
 			}
@@ -39,7 +39,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "嘿嘿，好久不见了指挥官~",
+			say = "嘿嘿，好久不見了指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 2,
-			say = "全舰队准备————",
+			say = "全艦隊準備————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "哇啊啊啊啊！等、等一下！突然和你开玩笑是我不对，我是真正的大黄蜂啦！",
+			say = "哇啊啊啊啊！等、等一下！突然和你開玩笑是我不對，我是真正的大黃蜂啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			actor = 107070,
 			dir = 1,
-			say = "是这样的，因为海域中心的异常区域影响，整片NA海域的海况都发生了不少变化。",
+			say = "是這樣的，因為海域中心的異常區域影響，整片NA海域的海況都發生了不少變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			actor = 107070,
 			dir = 1,
-			say = "为了安全起见，指挥部为每支参与作战的舰队都准备了一场特别演习，以帮助大家更好的进入战役状态。",
+			say = "為了安全起見，指揮部為每支參與作戰的艦隊都準備了一場特別演習，以幫助大家更好的進入戰役狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 107070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我觉得指挥官肯定没问题啦，不过命令就是命令，首先来找到我的位置吧！",
+			say = "雖然我覺得指揮官肯定沒問題啦，不過命令就是命令，首先來找到我的位置吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "演习指令已确认：请寻找海域中大黄蜂的位置。",
+			say = "演習指令已確認：請尋找海域中大黃蜂的位置。",
 			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,

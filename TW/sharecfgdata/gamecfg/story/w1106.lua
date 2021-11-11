@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "是否召唤一个测试用塞壬感染者",
+			say = "是否召喚一個測試用塞壬感染者",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "再见",
+					content = "再見",
 					flag = 2
 				}
 			}

@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结果已确认：搜寻作业获得了大成功。指挥喵收集到了部分稀有资源，现在已结束搜寻并返回了舰队。",
+			say = "結果已確認：搜尋作業獲得了大成功。指揮喵收集到了部分稀有資源，現在已結束搜尋並返回了艦隊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -23,7 +23,7 @@ return {
 			},
 			options = {
 				{
-					content = "确定",
+					content = "確定",
 					flag = 0
 				}
 			}

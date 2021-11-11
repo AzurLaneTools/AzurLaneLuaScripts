@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "使用舰队指令模块-舰队部署，可以部署潜艇编队进入NA海域。",
+			say = "使用艦隊指令模組-艦隊部署，可以部署潛艇編隊進入NA海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

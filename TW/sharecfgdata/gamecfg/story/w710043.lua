@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这是...黑方舟的意识消散了么...",
+			say = "這是...黑方舟的意識消散了嗎...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "再尝试一次吧......",
+			say = "再嘗試一次吧......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,18 +10,18 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，水面之下依然存在有物资信号，是否继续进行打捞作业？",
+			say = "分析模組同步中：指揮官，水面之下依然存在有物資訊號，是否繼續進行打撈作業？",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "打捞",
+					content = "打撈",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "離開",
 					flag = 2
 				}
 			}

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：指挥官，舰队进入了漩涡之中，行动能力受到限制。",
+			say = "警告：指揮官，艦隊進入了漩渦之中，行動能力受到限制。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

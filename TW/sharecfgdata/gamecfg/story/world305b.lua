@@ -36,7 +36,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊......我之前也只是见过设计图而已，居然真的这么快就建立完成了.....",
+			say = "哇啊......我之前也只是見過設計圖而已，居然真的這麼快就建立完成了.....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~这处前哨站的建立工作也有我出的一份力哦~不过一切的辛苦都是值得的！",
+			say = "哼哼~這處前哨站的建立工作也有我出的一份力哦~不過一切的辛苦都是值得的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 107090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "萨拉托加......已经完全成为沙发的俘虏了.......",
+			say = "薩拉托加......已經完全成為沙發的俘虜了.......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可不只是有休息室而已哦！前哨站里设置有完整的休闲模块，不但有提供各类饮料点心的饮食区，还有设施齐全的休闲娱乐区。",
+			say = "可不只是有休息室而已哦！前哨站裡設置有完整的休閒模組，不但有提供各類飲料點心的飲食區，還有設施齊全的休閒娛樂區。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如这里就恰好摆着一个咖啡机，大家要来杯咖啡么~？",
+			say = "比如這裡就恰好擺著一個咖啡機，大家要來杯咖啡嗎~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是太厉害了........请给我来一杯！",
+			say = "真是太厲害了........請給我來一杯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题~埃塞克斯不来一杯么？",
+			say = "沒問題~艾塞克斯不來一杯嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 107090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就......也请给我一杯。",
+			say = "那就......也請給我一杯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就对了，休息放松可是很重要的，这一点千万不要向你的企业前辈学习哦~",
+			say = "這就對了，休息放鬆可是很重要的，這一點千萬不要向妳的企業前輩學習哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "除了休闲模块之外，前哨站还设置有动力模块、居住模块、补给模块、维修模块、防御模块以及指挥模块。",
+			say = "除了休閒模組之外，前哨站還設置有動力模組、居住模組、補給模組、維修模組、防禦模組以及指揮模組。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为采用模块化结构设计，可以很方便的进行运输和组装。",
+			say = "因為採用模組化結構設計，可以很方便的進行運輸和組裝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果后续有需求的话也可以对前哨站进行进一步改装，要变成大洋中的半永久据点也不是不可能。",
+			say = "如果後續有需求的話也可以對前哨站進行進一步改裝，要變成大洋中的半永久據點也不是不可能。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "除了厉害之外，我已经找不到其他的形容词了......",
+			say = "除了厲害之外，我已經找不到其他的形容詞了......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼哼~被塞壬打压了这么久，也该让塞壬见识一下我们的技术进步了。",
+			say = "哼哼哼~被塞壬打壓了這麼久，也該讓塞壬見識一下我們的技術進步了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "在总攻开始之前，大家就在这里尽情的休整一番吧~！",
+			say = "在總攻開始之前，大家就在這裡盡情的休整一番吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

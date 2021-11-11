@@ -6,7 +6,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "路过的蛮啾",
+			actorName = "路過的蠻啾",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "啾啾！是椰子汁！",
@@ -22,7 +22,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "巨大的蛮啾喝着椰子汁，满意地离开了。",
+			say = "巨大的蠻啾喝著椰子汁，滿意地離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18,113 +18,6 @@ slot0.TITLE_EN_UPGRADE = "modernization"
 slot0.TITLE_EN_DESTROY = "retirement"
 slot0.PRIOR_MODE_EQUIP_UP = 1
 slot0.PRIOR_MODE_SHIP_UP = 2
-slot4 = {
-	"index_all",
-	"index_fleetfront",
-	"index_fleetrear",
-	"index_shipType_quZhu",
-	"index_shipType_qinXun",
-	"index_shipType_zhongXun",
-	"index_shipType_zhanLie",
-	"index_shipType_hangMu",
-	"index_shipType_weiXiu",
-	"index_shipType_qianTing",
-	"index_other"
-}
-slot5 = {
-	"word_shipNation_all",
-	"word_shipNation_baiYing",
-	"word_shipNation_huangJia",
-	"word_shipNation_chongYing",
-	"word_shipNation_tieXue",
-	"word_shipNation_dongHuang",
-	"word_shipNation_saDing",
-	"word_shipNation_beiLian",
-	"word_shipNation_ziyou",
-	"word_shipNation_weixi",
-	"word_shipNation_other"
-}
-slot6 = {
-	"index_all",
-	"index_rare2",
-	"index_rare3",
-	"index_rare4",
-	"index_rare5",
-	"index_rare6"
-}
-slot7 = {
-	"index_no_limit",
-	"index_skin",
-	"index_reform_cw",
-	"index_strengthen",
-	"index_awakening",
-	"index_not_lvmax",
-	"index_special",
-	"index_propose_skin"
-}
-slot8 = {
-	i18n("word_rarity"),
-	i18n("word_lv"),
-	i18n("word_synthesize_power"),
-	i18n("word_achieved_item"),
-	i18n("attribute_intimacy")
-}
-slot9 = i18n("sort_attribute")
-slot10 = {
-	i18n("word_attr_cannon"),
-	i18n("word_attr_air"),
-	i18n("word_attr_dodge"),
-	i18n("word_attr_antiaircraft"),
-	i18n("word_attr_torpedo"),
-	i18n("word_attr_reload"),
-	i18n("word_attr_durability"),
-	i18n("word_attr_antisub")
-}
-slot11 = {
-	1,
-	2,
-	3,
-	4,
-	4,
-	5,
-	5,
-	7,
-	8,
-	8,
-	8,
-	6,
-	8,
-	nil,
-	nil,
-	nil,
-	7,
-	3,
-	8
-}
-slot12 = {
-	1,
-	2,
-	3,
-	4,
-	5,
-	6,
-	7,
-	8,
-	9
-}
-slot13 = {
-	0,
-	1,
-	2,
-	3,
-	4,
-	5,
-	6
-}
-slot14 = {
-	vanguard = 1,
-	main = 2
-}
 
 function slot0.getUIName(slot0)
 	return "DockyardUI"
@@ -263,60 +156,33 @@ function slot0.init(slot0)
 	slot0.scrollItems = {}
 
 	if _G[slot0.contextData.preView] then
-		slot0.selectedSort = slot2.dockSort and slot2.dockSort or 2
+		slot0.sortIndex = slot2.sortIndex and slot2.sortIndex or ShipIndexConst.SortLevel
 		slot0.selectAsc = slot2.selectAsc and slot2.selectAsc or false
-		slot0.indexFlag = slot2.dockIndexFlag and slot2.dockIndexFlag or {}
-		slot0.indexFlag2 = slot2.dockIndexFlag2 and slot2.dockIndexFlag2 or {}
-		slot0.indexFlag3 = slot2.dockIndexFlag3 and slot2.dockIndexFlag3 or {}
-		slot0.indexFlag4 = slot2.dockIndexFlag4 and slot2.dockIndexFlag4 or {}
-		slot0.filterTag = slot2.filterTag or Ship.PREFERENCE_TAG_NONE
+		slot0.typeIndex = slot2.typeIndex and slot2.typeIndex
+		slot0.campIndex = slot2.campIndex and slot2.campIndex
+		slot0.rarityIndex = slot2.rarityIndex and slot2.rarityIndex
+		slot0.extraIndex = slot2.extraIndex and slot2.extraIndex
+		slot0.commonTag = slot2.commonTag or Ship.PREFERENCE_TAG_NONE
 	elseif slot0.contextData.sortData then
-		slot0.selectedSort = slot0.contextData.sortData.sort or 2
+		slot0.sortIndex = slot0.contextData.sortData.sort or ShipIndexConst.SortLevel
 		slot0.selectAsc = slot3.Asc or false
-		slot0.indexFlag = slot3.indexFlag or {}
-		slot0.indexFlag2 = slot3.indexFlag2 or {}
-		slot0.indexFlag3 = slot3.indexFlag3 or {}
-		slot0.indexFlag4 = slot3.indexFlag4 or {}
-		slot0.filterTag = slot3.filterTag or Ship.PREFERENCE_TAG_NONE
+		slot0.typeIndex = slot3.typeIndex
+		slot0.campIndex = slot3.campIndex
+		slot0.rarityIndex = slot3.rarityIndex
+		slot0.extraIndex = slot3.extraIndex
+		slot0.commonTag = slot3.commonTag or Ship.PREFERENCE_TAG_NONE
 	else
 		slot0.selectAsc = DockyardScene.selectAsc or false
-		slot0.selectedSort = DockyardScene.selectedSort or 2
-		slot0.indexFlag = DockyardScene.indexFlag and DockyardScene.indexFlag or {}
-		slot0.indexFlag2 = DockyardScene.indexFlag2 and DockyardScene.indexFlag2 or {}
-		slot0.indexFlag3 = DockyardScene.indexFlag3 and DockyardScene.indexFlag3 or {}
-		slot0.indexFlag4 = DockyardScene.indexFlag4 and DockyardScene.indexFlag4 or {}
-		slot0.filterTag = DockyardScene.filterTag or Ship.PREFERENCE_TAG_NONE
+		slot0.sortIndex = DockyardScene.sortIndex or ShipIndexConst.SortLevel
+		slot0.typeIndex = DockyardScene.typeIndex and DockyardScene.typeIndex
+		slot0.campIndex = DockyardScene.campIndex and DockyardScene.campIndex
+		slot0.rarityIndex = DockyardScene.rarityIndex and DockyardScene.rarityIndex
+		slot0.extraIndex = DockyardScene.extraIndex and DockyardScene.extraIndex
+		slot0.commonTag = DockyardScene.commonTag or Ship.PREFERENCE_TAG_NONE
 	end
 
-	triggerToggle(findTF(slot0.topPanel, "preference_toggle"), slot0.filterTag == Ship.PREFERENCE_TAG_COMMON)
-
-	slot0.tmpSort = 2
-	slot0.tmpAsc = false
-	slot0.tmpIndexFlag = {}
-	slot0.tmpIndexFlag2 = {}
-	slot0.tmpIndexFlag3 = {}
-	slot0.tmpIndexFlag4 = {}
-
-	for slot6 = 1, #uv1 - 1 do
-		slot0.tmpIndexFlag[slot6] = false
-		slot0.indexFlag[slot6] = slot0.indexFlag[slot6] and true or false
-	end
-
-	for slot6 = 1, #uv2 - 1 do
-		slot0.tmpIndexFlag2[slot6] = false
-		slot0.indexFlag2[slot6] = slot0.indexFlag2[slot6] and true or false
-	end
-
-	for slot6 = 1, #uv3 - 1 do
-		slot0.tmpIndexFlag3[slot6] = false
-		slot0.indexFlag3[slot6] = slot0.indexFlag3[slot6] and true or false
-	end
-
-	for slot6 = 1, #uv4 - 1 do
-		slot0.tmpIndexFlag4[slot6] = false
-		slot0.indexFlag4[slot6] = slot0.indexFlag4[slot6] and true or false
-	end
-
+	slot0:updateIndexDatas()
+	triggerToggle(findTF(slot0.topPanel, "preference_toggle"), slot0.commonTag == Ship.PREFERENCE_TAG_COMMON)
 	slot0:initIndexPanel()
 
 	slot0.itemDetailType = -1
@@ -343,25 +209,7 @@ function slot0.init(slot0)
 end
 
 function slot0.isDefaultStatus(slot0)
-	slot1, slot2, slot3, slot4, slot5 = nil
-
-	if slot0:selectAll(slot0.indexFlag, #uv0 - 1) or slot0:selectNone(slot0.indexFlag, #uv0 - 1) then
-		slot1 = true
-	end
-
-	if slot0:selectAll(slot0.indexFlag2, #uv1 - 1) or slot0:selectNone(slot0.indexFlag2, #uv1 - 1) then
-		slot2 = true
-	end
-
-	if slot0:selectAll(slot0.indexFlag3, #uv2 - 1) or slot0:selectNone(slot0.indexFlag3, #uv2 - 1) then
-		slot3 = true
-	end
-
-	if slot0:selectAll(slot0.indexFlag4, #uv3 - 1) or slot0:selectNone(slot0.indexFlag4, #uv3 - 1) then
-		slot4 = true
-	end
-
-	return slot1 and slot2 and slot3 and slot4 and slot0.selectedSort == 2
+	return slot0.sortIndex == ShipIndexConst.SortLevel and (not slot0.typeIndex or slot0.typeIndex == ShipIndexConst.TypeAll) and (not slot0.campIndex or slot0.campIndex == ShipIndexConst.CampAll) and (not slot0.rarityIndex or slot0.rarityIndex == ShipIndexConst.RarityAll) and (not slot0.extraIndex or slot0.extraIndex == ShipIndexConst.ExtraAll)
 end
 
 function slot0.setShipsCount(slot0, slot1)
@@ -483,7 +331,7 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 
 	slot3.isLoading = false
 
-	slot3:updateIntimacy(slot0.selectedSort == 5 and slot0.contextData.mode ~= DockyardScene.MODE_UPGRADE)
+	slot3:updateIntimacy(slot0.sortIndex == ShipIndexConst.SortIntimacy and slot0.contextData.mode ~= DockyardScene.MODE_UPGRADE)
 end
 
 function slot0.onReturnItem(slot0, slot1, slot2)
@@ -496,460 +344,124 @@ function slot0.onReturnItem(slot0, slot1, slot2)
 	end
 end
 
+function slot0.updateIndexDatas(slot0)
+	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
+	slot0.contextData.indexDatas.sortIndex = slot0.sortIndex
+	slot0.contextData.indexDatas.typeIndex = slot0.typeIndex
+	slot0.contextData.indexDatas.campIndex = slot0.campIndex
+	slot0.contextData.indexDatas.rarityIndex = slot0.rarityIndex
+	slot0.contextData.indexDatas.extraIndex = slot0.extraIndex
+end
+
 function slot0.initIndexPanel(slot0)
 	onButton(slot0, slot0.indexBtn, function ()
-		if not uv0.indexPanel then
-			uv0.indexPanel = findTF(uv0._tf, "index_panel")
-
-			if not uv0.indexPanel then
-				slot0 = PoolMgr.GetInstance()
-
-				slot0:GetPrefab("ui/indexui", "", false, function (slot0)
-					uv0.indexPanelParent = slot0
-					uv0.indexPanel = findTF(slot0, "index_panel")
-					slot1 = uv0:findTF("layout", uv0.indexPanel)
-					slot2 = {
-						uv0:findTF("sort", slot1),
-						uv0:findTF("index", slot1),
-						uv0:findTF("camp", slot1),
-						uv0:findTF("rarity", slot1),
-						uv0:findTF("extra", slot1),
-						uv0:findTF("EquipSkinSort", slot1),
-						uv0:findTF("EquipSkinIndex", slot1),
-						uv0:findTF("EquipSkinTheme", slot6)
+		uv0:emit(DockyardMediator.OPEN_DOCKYARD_INDEX, {
+			indexDatas = Clone(uv0.contextData.indexDatas),
+			customPanels = {
+				minHeight = 650,
+				sortIndex = {
+					mode = CustomIndexLayer.Mode.OR,
+					options = ShipIndexConst.SortIndexs,
+					names = ShipIndexConst.SortNames
+				},
+				sortPropertyIndex = {
+					blueSeleted = true,
+					mode = CustomIndexLayer.Mode.OR,
+					options = ShipIndexConst.SortPropertyIndexs,
+					names = ShipIndexConst.SortPropertyNames
+				},
+				typeIndex = {
+					blueSeleted = true,
+					mode = CustomIndexLayer.Mode.AND,
+					options = ShipIndexConst.TypeIndexs,
+					names = ShipIndexConst.TypeNames
+				},
+				campIndex = {
+					blueSeleted = true,
+					mode = CustomIndexLayer.Mode.AND,
+					options = ShipIndexConst.CampIndexs,
+					names = ShipIndexConst.CampNames
+				},
+				rarityIndex = {
+					blueSeleted = true,
+					mode = CustomIndexLayer.Mode.AND,
+					options = ShipIndexConst.RarityIndexs,
+					names = ShipIndexConst.RarityNames
+				},
+				extraIndex = {
+					blueSeleted = true,
+					mode = CustomIndexLayer.Mode.OR,
+					options = ShipIndexConst.ExtraIndexs,
+					names = ShipIndexConst.ExtraNames
+				},
+				layoutPos = Vector2(0, -25)
+			},
+			groupList = {
+				{
+					dropdown = false,
+					titleTxt = "indexsort_sort",
+					titleENTxt = "indexsort_sorteng",
+					tags = {
+						"sortIndex"
+					},
+					simpleDropdown = {
+						"sortPropertyIndex"
 					}
-					slot6 = slot1
+				},
+				{
+					dropdown = false,
+					titleTxt = "indexsort_index",
+					titleENTxt = "indexsort_indexeng",
+					tags = {
+						"typeIndex"
+					}
+				},
+				{
+					dropdown = false,
+					titleTxt = "indexsort_camp",
+					titleENTxt = "indexsort_campeng",
+					tags = {
+						"campIndex"
+					}
+				},
+				{
+					dropdown = false,
+					titleTxt = "indexsort_rarity",
+					titleENTxt = "indexsort_rarityeng",
+					tags = {
+						"rarityIndex"
+					}
+				},
+				{
+					dropdown = false,
+					titleTxt = "indexsort_extraindex",
+					titleENTxt = "indexsort_indexeng",
+					tags = {
+						"extraIndex"
+					}
+				}
+			},
+			callback = function (slot0)
+				uv0.sortIndex = slot0.sortIndex
+				uv0.typeIndex = slot0.typeIndex
+				uv0.campIndex = slot0.campIndex
+				uv0.rarityIndex = slot0.rarityIndex
+				uv0.extraIndex = slot0.extraIndex
 
-					for slot6 = 1, #IndexLayer.panelNames do
-						setText(uv0:findTF("title1/Image", slot2[slot6]), i18n(IndexLayer.panelNames[slot6][1]))
-						setText(uv0:findTF("title1/Image_en", slot2[slot6]), i18n(IndexLayer.panelNames[slot6][2]))
-					end
-
-					setActive(uv0:findTF("EquipSkinSort", slot1), false)
-					setActive(uv0:findTF("EquipSkinIndex", slot1), false)
-					setActive(uv0:findTF("EquipSkinTheme", slot1), false)
-					setParent(slot0, uv0._tf, false)
-					setActive(uv0.indexPanelParent, false)
-				end)
-			end
-
-			slot1 = uv0
-			slot1 = slot1:findTF("resource/grey", uv0.indexPanel)
-			uv0.greySprite = slot1:GetComponent(typeof(Image)).sprite
-			slot1 = uv0
-			slot1 = slot1:findTF("resource/blue", uv0.indexPanel)
-			uv0.blueSprite = slot1:GetComponent(typeof(Image)).sprite
-			slot1 = uv0
-			slot1 = slot1:findTF("resource/yellow", uv0.indexPanel)
-			uv0.yellowSprite = slot1:GetComponent(typeof(Image)).sprite
-			slot0 = uv0
-
-			slot0:initIndex()
-
-			slot0 = uv0
-
-			slot0:initSort()
-
-			slot0 = uv0
-
-			slot0:animationOut()
-			setActive(uv0.indexPanel, true)
-
-			uv0.indexPanel.localScale = Vector3.zero
-
-			LeanTween.scale(uv0.indexPanel, Vector3(1, 1, 1), 0.2)
-
-			slot0 = uv0
-
-			slot0:updateIndex()
-
-			slot0 = uv0.UIMgr
-
-			slot0:BlurPanel(uv0.indexPanel)
-			onButton(uv0, findTF(uv0.indexPanel, "layout/btns/ok"), function ()
-				uv0.selectAsc = uv0.tmpAsc
-				uv0.selectedSort = uv0.tmpSort
-				slot0 = ipairs
-				slot1 = uv0.tmpIndexFlag or {}
-
-				for slot3, slot4 in slot0(slot1) do
-					uv0.indexFlag[slot3] = slot4
-				end
-
-				slot0 = ipairs
-				slot1 = uv0.tmpIndexFlag2 or {}
-
-				for slot3, slot4 in slot0(slot1) do
-					uv0.indexFlag2[slot3] = slot4
-				end
-
-				slot0 = ipairs
-				slot1 = uv0.tmpIndexFlag3 or {}
-
-				for slot3, slot4 in slot0(slot1) do
-					uv0.indexFlag3[slot3] = slot4
-				end
-
-				slot0 = ipairs
-				slot1 = uv0.tmpIndexFlag4 or {}
-
-				for slot3, slot4 in slot0(slot1) do
-					uv0.indexFlag4[slot3] = slot4
-				end
-
+				uv0:updateIndexDatas()
 				uv0:filter()
-				triggerButton(uv0.indexBtn)
-				uv0.UIMgr:UnblurPanel(uv0.indexPanel, uv0._tf)
-			end, SFX_CONFIRM)
-			onButton(uv0, findTF(uv0.indexPanel, "layout/btns/cancel"), function ()
-				triggerButton(uv0.indexBtn)
-			end, SFX_CANCEL)
-			onButton(uv0, findTF(uv0.indexPanel, "btn"), function ()
-				triggerButton(uv0.indexBtn)
-			end, SFX_CANCEL)
-		elseif uv0.indexPanel.gameObject.activeSelf then
-			LeanTween.scale(uv0.indexPanel, Vector3(0, 0, 0), 0.2):setOnComplete(System.Action(function ()
-				setActive(uv0.indexPanel, false)
-			end))
-			uv0:animationIn()
-			uv0.UIMgr:UnblurPanel(uv0.indexPanel, uv0._tf)
-		else
-			uv0:animationOut()
-			setActive(uv0.indexPanel, true)
-
-			uv0.indexPanel.localScale = Vector3.zero
-
-			LeanTween.scale(uv0.indexPanel, Vector3(1, 1, 1), 0.2)
-			uv0:updateIndex()
-			uv0.UIMgr:BlurPanel(uv0.indexPanel)
-		end
+			end
+		})
 	end, SFX_PANEL)
 	onToggle(slot0, findTF(slot0.topPanel, "preference_toggle"), function (slot0)
 		if slot0 then
-			uv0.filterTag = Ship.PREFERENCE_TAG_COMMON
+			uv0.commonTag = Ship.PREFERENCE_TAG_COMMON
 		else
-			uv0.filterTag = Ship.PREFERENCE_TAG_NONE
+			uv0.commonTag = Ship.PREFERENCE_TAG_NONE
 		end
 
 		uv0:filter()
 	end)
-end
-
-function slot0.updateIndex(slot0)
-	for slot4, slot5 in ipairs(slot0.indexTFs) do
-		triggerToggle(slot0.indexTFs[slot4], slot0.indexFlag[slot4])
-	end
-
-	for slot4, slot5 in ipairs(slot0.indexTFs2) do
-		triggerToggle(slot0.indexTFs2[slot4], slot0.indexFlag2[slot4])
-	end
-
-	for slot4, slot5 in ipairs(slot0.indexTFs3) do
-		triggerToggle(slot0.indexTFs3[slot4], slot0.indexFlag3[slot4])
-	end
-
-	for slot4, slot5 in ipairs(slot0.indexTFs4) do
-		triggerToggle(slot0.indexTFs4[slot4], slot0.indexFlag4[slot4])
-	end
-
-	if slot0:selectNone(slot0.indexFlag, #uv0 - 1) then
-		triggerButton(slot0.indexTFAll)
-	end
-
-	if slot0:selectNone(slot0.indexFlag2, #uv1 - 1) then
-		triggerButton(slot0.indexTFAll2)
-	end
-
-	if slot0:selectNone(slot0.indexFlag3, #uv2 - 1) then
-		triggerButton(slot0.indexTFAll3)
-	end
-
-	if slot0:selectNone(slot0.indexFlag4, #uv3 - 1) then
-		triggerButton(slot0.indexTFAll4)
-	end
-
-	triggerToggle(slot0.sortTFs[slot0.selectedSort], true)
-end
-
-function slot0.initIndex(slot0)
-	slot0.indexs = findTF(slot0.indexPanel, "layout/index/panel")
-	slot4 = slot0.indexs
-	slot0.indexTpl = slot0:findTF("tpl", slot4)
-
-	setActive(slot0.indexTpl, false)
-
-	slot0.indexTFs = {}
-
-	for slot4, slot5 in ipairs(uv0) do
-		if slot4 == 1 then
-			slot0.indexTFAll = slot0:findTF("all", slot0.indexs)
-
-			setText(findTF(slot0.indexTFAll, "Image"), i18n(uv0[slot4]))
-			onButton(slot0, slot0.indexTFAll, function ()
-				for slot3, slot4 in pairs(uv0.indexTFs) do
-					if getToggleState(slot4) then
-						triggerToggle(slot4, false)
-						setImageSprite(uv0.indexTFs[slot3], uv0.greySprite)
-					end
-				end
-
-				setImageSprite(uv0.indexTFAll, uv0.blueSprite)
-			end, SFX_UI_TAG)
-		else
-			slot7 = slot0.indexs:Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl, slot0.indexs, slot6)
-
-			setText(findTF(slot7, "Image"), i18n(uv0[slot4]))
-			GetOrAddComponent(slot7, typeof(Toggle))
-			onToggle(slot0, slot7, function (slot0)
-				uv0.tmpIndexFlag[uv1 - 1] = slot0
-
-				setImageSprite(uv2, slot0 and uv0.blueSprite or uv0.greySprite)
-
-				if uv0:selectAll(uv0.tmpIndexFlag, #uv3 - 1) or uv0:selectNone(uv0.tmpIndexFlag, #uv3 - 1) then
-					triggerButton(uv0.indexTFAll)
-				elseif slot0 then
-					setImageSprite(uv0.indexTFAll, uv0.greySprite)
-				end
-			end, SFX_UI_TAG, SFX_UI_TAG)
-
-			slot0.indexTFs[slot4 - 1] = slot7
-		end
-	end
-
-	slot0.indexs2 = findTF(slot0.indexPanel, "layout/camp/panel")
-	slot4 = slot0.indexs2
-	slot0.indexTpl2 = slot0:findTF("tpl", slot4)
-
-	setActive(slot0.indexTpl2, false)
-
-	slot0.indexTFs2 = {}
-
-	for slot4, slot5 in ipairs(uv1) do
-		if slot4 == 1 then
-			slot0.indexTFAll2 = slot0:findTF("all", slot0.indexs2)
-
-			setText(findTF(slot0.indexTFAll2, "Image"), i18n(uv1[slot4]))
-			onButton(slot0, slot0.indexTFAll2, function ()
-				for slot3, slot4 in pairs(uv0.indexTFs2) do
-					if getToggleState(slot4) then
-						triggerToggle(slot4, false)
-						setImageSprite(uv0.indexTFs2[slot3], uv0.greySprite)
-					end
-				end
-
-				setImageSprite(uv0.indexTFAll2, uv0.blueSprite)
-			end, SFX_UI_TAG)
-		else
-			slot7 = slot0.indexs2:Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl2, slot0.indexs2, slot6)
-
-			setText(findTF(slot7, "Image"), i18n(uv1[slot4]))
-			GetOrAddComponent(slot7, typeof(Toggle))
-			onToggle(slot0, slot7, function (slot0)
-				uv0.tmpIndexFlag2[uv1 - 1] = slot0
-
-				setImageSprite(uv2, slot0 and uv0.blueSprite or uv0.greySprite)
-
-				if uv0:selectAll(uv0.tmpIndexFlag2, #uv3 - 1) or uv0:selectNone(uv0.tmpIndexFlag2, #uv3 - 1) then
-					triggerButton(uv0.indexTFAll2)
-				elseif slot0 then
-					setImageSprite(uv0.indexTFAll2, uv0.greySprite)
-				end
-			end, SFX_UI_TAG, SFX_UI_TAG)
-
-			slot0.indexTFs2[slot4 - 1] = slot7
-		end
-	end
-
-	slot0.indexs3 = findTF(slot0.indexPanel, "layout/rarity/panel")
-	slot4 = slot0.indexs3
-	slot0.indexTpl3 = slot0:findTF("tpl", slot4)
-
-	setActive(slot0.indexTpl3, false)
-
-	slot0.indexTFs3 = {}
-
-	for slot4, slot5 in ipairs(uv2) do
-		if slot4 == 1 then
-			slot0.indexTFAll3 = slot0:findTF("all", slot0.indexs3)
-
-			setText(findTF(slot0.indexTFAll3, "Image"), i18n(uv2[slot4]))
-			onButton(slot0, slot0.indexTFAll3, function ()
-				for slot3, slot4 in pairs(uv0.indexTFs3) do
-					if getToggleState(slot4) then
-						triggerToggle(slot4, false)
-						setImageSprite(uv0.indexTFs3[slot3], uv0.greySprite)
-					end
-				end
-
-				setImageSprite(uv0.indexTFAll3, uv0.blueSprite)
-			end, SFX_UI_TAG)
-		else
-			slot7 = slot0.indexs3:Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl3, slot0.indexs3, slot6)
-
-			setText(findTF(slot7, "Image"), i18n(uv2[slot4]))
-			GetOrAddComponent(slot7, typeof(Toggle))
-			onToggle(slot0, slot7, function (slot0)
-				uv0.tmpIndexFlag3[uv1 - 1] = slot0
-
-				setImageSprite(uv2, slot0 and uv0.blueSprite or uv0.greySprite)
-
-				if uv0:selectAll(uv0.tmpIndexFlag3, #uv3 - 1) or uv0:selectNone(uv0.tmpIndexFlag3, #uv3 - 1) then
-					triggerButton(uv0.indexTFAll3)
-				elseif slot0 then
-					setImageSprite(uv0.indexTFAll3, uv0.greySprite)
-				end
-			end, SFX_UI_TAG, SFX_UI_TAG)
-
-			slot0.indexTFs3[slot4 - 1] = slot7
-		end
-	end
-
-	slot0.indexs4 = findTF(slot0.indexPanel, "layout/extra/panel")
-	slot4 = slot0.indexs4
-	slot0.indexTpl4 = slot0:findTF("tpl", slot4)
-
-	setActive(slot0.indexTpl4, false)
-
-	slot0.indexTFs4 = {}
-
-	for slot4, slot5 in ipairs(uv3) do
-		if slot4 == 1 then
-			slot0.indexTFAll4 = slot0:findTF("all", slot0.indexs4)
-
-			setText(findTF(slot0.indexTFAll4, "Image"), i18n(uv3[slot4]))
-			onButton(slot0, slot0.indexTFAll4, function ()
-				for slot3, slot4 in pairs(uv0.indexTFs4) do
-					if getToggleState(slot4) then
-						triggerToggle(slot4, false)
-						setImageSprite(uv0.indexTFs4[slot3], uv0.greySprite)
-					end
-				end
-
-				setImageSprite(uv0.indexTFAll4, uv0.blueSprite)
-			end, SFX_UI_TAG)
-		else
-			slot7 = slot0.indexs4:Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl4, slot0.indexs4, slot6)
-
-			setText(findTF(slot7, "Image"), i18n(uv3[slot4]))
-			GetOrAddComponent(slot7, typeof(Toggle))
-			onToggle(slot0, slot7, function (slot0)
-				uv0.tmpIndexFlag4[uv1 - 1] = slot0
-
-				setImageSprite(uv2, slot0 and uv0.blueSprite or uv0.greySprite)
-
-				if uv0:selectNone(uv0.tmpIndexFlag4, #uv3 - 1) then
-					triggerButton(uv0.indexTFAll4)
-				elseif slot0 then
-					setImageSprite(uv0.indexTFAll4, uv0.greySprite)
-
-					for slot4, slot5 in pairs(uv0.indexTFs4) do
-						if getToggleState(slot5) and uv1 - 1 ~= slot4 then
-							triggerToggle(slot5, false)
-							setImageSprite(uv0.indexTFs4[slot4], uv0.greySprite)
-						end
-					end
-				end
-			end, SFX_UI_TAG, SFX_UI_TAG)
-
-			slot0.indexTFs4[slot4 - 1] = slot7
-		end
-	end
-end
-
-function slot0.initSort(slot0)
-	slot0.sorts = findTF(slot0.indexPanel, "layout/sort/panel")
-	slot0.sortTpl = slot0:findTF("tpl", slot0.sorts)
-
-	setActive(slot0.sortTpl, false)
-
-	slot4 = ToggleGroup
-	slot0.sortsToggleGroup = GetOrAddComponent(slot0.sorts, typeof(slot4))
-	slot0.sortTFs = {}
-
-	for slot4, slot5 in ipairs(uv0) do
-		slot7 = slot0.sorts:Find(slot5) or cloneTplTo(slot0.sortTpl, slot0.sorts, slot6)
-
-		setText(findTF(slot7, "Image"), slot5)
-
-		GetOrAddComponent(slot7, typeof(Toggle)).group = slot0.sortsToggleGroup
-
-		onToggle(slot0, slot7, function (slot0)
-			if slot0 then
-				uv0.tmpSort = uv1
-
-				setImageSprite(uv2, uv0.yellowSprite)
-			else
-				setImageSprite(uv2, uv0.greySprite)
-			end
-		end, SFX_UI_TAG, SFX_UI_TAG)
-
-		slot0.sortTFs[slot4] = slot7
-	end
-
-	slot1 = slot0.sorts:Find(uv1) or cloneTplTo(slot0.sortTpl, slot0.sorts, uv1)
-	slot2 = slot1:Find("dropdown")
-
-	setActive(slot2, true)
-
-	slot2.localEulerAngles = Vector3.New(0, 0, 90)
-
-	setText(findTF(slot1, "Image"), uv1)
-
-	slot3 = slot0.indexPanel:Find("extra")
-	slot4 = slot3:Find("Attrs")
-	slot5 = slot3:Find("mask")
-
-	function slot6()
-		if isActive(uv0) then
-			setParent(uv1, uv2.sorts)
-			setActive(uv0, false)
-
-			uv3.anchoredPosition = Vector2.New(10000, 10000)
-			uv4.localEulerAngles = Vector3.New(0, 0, 90)
-
-			if getText(findTF(uv1, "Image")) == uv5 then
-				setImageSprite(uv1, uv2.greySprite)
-			end
-		else
-			setParent(uv1, uv6, true)
-			setActive(uv0, true)
-
-			uv3.anchoredPosition = uv1.anchoredPosition + Vector2.New(0, -45)
-			uv4.localEulerAngles = Vector3.New(0, 0, 0)
-
-			setImageSprite(uv1, uv2.yellowSprite)
-		end
-	end
-
-	for slot10, slot11 in ipairs(uv2) do
-		slot13 = slot4:Find(slot11) or cloneTplTo(slot0.sortTpl, slot4, slot12)
-
-		setText(findTF(slot13, "Image"), slot11)
-
-		GetOrAddComponent(slot13, typeof(Toggle)).group = slot0.sortsToggleGroup
-
-		onToggle(slot0, slot13, function (slot0)
-			if slot0 then
-				uv0.tmpSort = uv1 + #uv2
-
-				setImageSprite(uv3, uv0.yellowSprite)
-				setText(findTF(uv4, "Image"), uv5)
-				setImageSprite(uv4, uv0.yellowSprite)
-			else
-				setImageSprite(uv3, uv0.greySprite)
-				setText(findTF(uv4, "Image"), uv6)
-				setImageSprite(uv4, uv0.greySprite)
-			end
-		end, SFX_UI_TAG, SFX_UI_TAG)
-
-		slot0.sortTFs[slot10 + #uv0] = slot13
-	end
-
-	onButton(slot0, slot1, slot6)
-	onButton(slot0, slot5, slot6)
-	setActive(slot5, false)
-
-	slot4.anchoredPosition = Vector2.New(10000, 10000)
 end
 
 function slot0.setShips(slot0, slot1)
@@ -1054,26 +566,6 @@ function slot0.repairWorldShip(slot0, slot1)
 	end
 end
 
-function slot0.selectNone(slot0, slot1, slot2)
-	for slot6 = 1, slot2 do
-		if slot1[slot6] then
-			return false
-		end
-	end
-
-	return true
-end
-
-function slot0.selectAll(slot0, slot1, slot2)
-	for slot6 = 1, slot2 do
-		if not slot1[slot6] then
-			return false
-		end
-	end
-
-	return true
-end
-
 function slot0.filter(slot0)
 	GetSpriteFromAtlasAsync("ui/dockyardui_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
 		setImageSprite(uv0.indexBtn, slot0, true)
@@ -1159,7 +651,7 @@ end
 
 function slot0.filterCommon(slot0)
 	slot0.shipVOs = {}
-	slot1 = slot0.selectedSort
+	slot1 = slot0.sortIndex
 
 	function slot2(slot0)
 		if uv0.contextData.mode ~= uv1.MODE_GUILD_BOSS then
@@ -1186,16 +678,15 @@ function slot0.filterCommon(slot0)
 			-- Nothing
 		elseif slot0.teamTypeFilter and slot7:getTeamType() ~= slot0.teamTypeFilter then
 			-- Nothing
-		elseif (slot0:selectNone(slot0.indexFlag, #uv1 - 1) or slot0.indexFlag[uv2[slot7:getShipType()] + 2] or slot0.indexFlag[uv3[slot7:getTeamType()]]) and (slot0:selectNone(slot0.indexFlag2, #uv4 - 1) or slot0.indexFlag2[uv5[slot7:getConfig("nationality")]] or slot0.indexFlag2[#slot0.indexFlag2] and uv5[slot7:getConfig("nationality")] == nil) and (slot0:selectNone(slot0.indexFlag3, #uv6 - 1) or slot0.indexFlag3[uv7[slot7:getRarity()]]) and (not slot0.indexFlag4[1] or slot7:hasAvailiableSkin()) and (not slot0.indexFlag4[2] or slot7:isRemouldable() and not slot7:isAllRemouldFinish()) and (not slot0.indexFlag4[3] or not slot7:isMetaShip() and not slot7:isIntensifyMax()) and (not slot0.indexFlag4[4] or slot7:isReachNextMaxLevel()) and (not slot0.indexFlag4[5] or not slot7:isConfigMaxLevel()) and (not slot0.indexFlag4[6] or slot7:isSpecialFilter()) and (not slot0.indexFlag4[7] or slot7:hasProposeSkin()) and (slot0.filterTag == Ship.PREFERENCE_TAG_NONE or slot0.filterTag == slot7:GetPreferenceTag()) and slot2(slot7) then
+		elseif ShipIndexConst.filterByType(slot7, slot0.typeIndex) and ShipIndexConst.filterByCamp(slot7, slot0.campIndex) and ShipIndexConst.filterByRarity(slot7, slot0.rarityIndex) and ShipIndexConst.filterByExtra(slot7, slot0.extraIndex) and (slot0.commonTag == Ship.PREFERENCE_TAG_NONE or slot0.commonTag == slot7:GetPreferenceTag()) and slot2(slot7) then
 			table.insert(slot0.shipVOs, slot7)
 		end
 	end
 
-	slot3 = nil
-	slot4 = false
+	slot3, slot4 = ShipIndexConst.getSortFuncAndName(slot1, slot0.selectAsc)
 
-	if (slot1 == 3 and true or slot1 == 1 and true or (slot1 == 2 or slot1 == 4) and true or slot1 == 5 and (slot0.selectAsc and IndexConst.sortByIntimacyAsc or IndexConst.sortByIntimacy) or true) and not defaultValue((slot0.contextData.hideTagFlags or {}).inFleet, ShipStatus.TAG_HIDE_BASE.inFleet) then
-		slot5 = slot3
+	if (slot1 ~= ShipIndexConst.SortIntimacy and true or false) and not defaultValue((slot0.contextData.hideTagFlags or {}).inFleet, ShipStatus.TAG_HIDE_BASE.inFleet) then
+		slot6 = slot3
 
 		function slot3(slot0, slot1)
 			return sortCompare({
@@ -1232,7 +723,7 @@ function slot0.filterCommon(slot0)
 	slot0:updateSelected()
 	setActive(slot0.sortImgAsc, slot0.selectAsc)
 	setActive(slot0.sortImgDesc, not slot0.selectAsc)
-	setText(slot0:findTF("Image", slot0.sortBtn), uv8[slot1] or uv9[slot1 - #uv8])
+	setText(slot0:findTF("Image", slot0.sortBtn), i18n(slot4))
 end
 
 function slot0.UpdateGuildViewEquipmentsBtn(slot0)
@@ -2085,21 +1576,21 @@ function slot0.willExit(slot0)
 		-- Nothing
 	elseif not slot0.contextData.sortData then
 		if _G[slot0.contextData.preView] then
-			_G[slot0.contextData.preView].dockSort = slot0.selectedSort
-			_G[slot0.contextData.preView].dockAsc = slot0.selectAsc
-			_G[slot0.contextData.preView].dockIndexFlag = slot0.indexFlag
-			_G[slot0.contextData.preView].dockIndexFlag2 = slot0.indexFlag2
-			_G[slot0.contextData.preView].dockIndexFlag3 = slot0.indexFlag3
-			_G[slot0.contextData.preView].dockIndexFlag4 = slot0.indexFlag4
-			_G[slot0.contextData.preView].filterTag = slot0.filterTag
+			_G[slot0.contextData.preView].sortIndex = slot0.sortIndex
+			_G[slot0.contextData.preView].selectAsc = slot0.selectAsc
+			_G[slot0.contextData.preView].typeIndex = slot0.typeIndex
+			_G[slot0.contextData.preView].campIndex = slot0.campIndex
+			_G[slot0.contextData.preView].rarityIndex = slot0.rarityIndex
+			_G[slot0.contextData.preView].extraIndex = slot0.extraIndex
+			_G[slot0.contextData.preView].commonTag = slot0.commonTag
 		else
-			DockyardScene.selectedSort = slot0.selectedSort
+			DockyardScene.sortIndex = slot0.sortIndex
 			DockyardScene.selectAsc = slot0.selectAsc
-			DockyardScene.indexFlag = slot0.indexFlag
-			DockyardScene.indexFlag2 = slot0.indexFlag2
-			DockyardScene.indexFlag3 = slot0.indexFlag3
-			DockyardScene.indexFlag4 = slot0.indexFlag4
-			DockyardScene.filterTag = slot0.filterTag
+			DockyardScene.typeIndex = slot0.typeIndex
+			DockyardScene.campIndex = slot0.campIndex
+			DockyardScene.rarityIndex = slot0.rarityIndex
+			DockyardScene.extraIndex = slot0.extraIndex
+			DockyardScene.commonTag = slot0.commonTag
 		end
 	end
 

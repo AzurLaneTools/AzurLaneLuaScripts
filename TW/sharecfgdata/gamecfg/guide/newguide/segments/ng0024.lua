@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "META研究室中拥有<color=#ff5c5c>能量激活</color>、<color=#ff5c5c>舰装强化</color>、<color=#ff5c5c>战术研习</color>、<color=#ff5c5c>资讯同步</color>四个系统模块。",
+				text = "META研究室中擁有<color=#ff5c5c>能量啟動</color>、<color=#ff5c5c>艦裝強化</color>、<color=#ff5c5c>戰術研習</color>、<color=#ff5c5c>資訊同步</color>四個系統模組。",
 				mode = 2,
 				posY = -230.2,
 				dir = 1,
@@ -14,7 +14,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "来看看META角色的战术研习吧。",
+				text = "來看看META角色的戰術研習吧。",
 				mode = 2,
 				posY = -186.8,
 				dir = 1,
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "META角色的技能在进行升级之前首先需要解锁。",
+				text = "META角色的技能在進行升級之前首先需要解鎖。",
 				mode = 2,
 				posY = -133,
 				dir = 1,
@@ -61,7 +61,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "需要消耗一定数量与技能类型相同的技能书进行解锁操作。",
+				text = "需要消耗一定數量與技能類型相同的技能書進行解鎖操作。",
 				mode = 2,
 				posY = 0,
 				dir = -1,

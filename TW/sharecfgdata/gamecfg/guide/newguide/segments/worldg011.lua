@@ -16,7 +16,7 @@ return {
 				"introduceStamina"
 			},
 			style = {
-				text = "请随时关注自己的行动力哦",
+				text = "請隨時關注自己的行動力哦",
 				mode = 2,
 				posY = 186.01,
 				dir = -1,

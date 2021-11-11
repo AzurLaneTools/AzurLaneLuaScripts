@@ -9,7 +9,7 @@ return {
 			actor = 107070,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "大家快看，前方那个是新形成的火山岛么？",
+			say = "大家快看，前方那個是新形成的火山島嗎？",
 			dir = 1,
 			bgm = "bsm-1",
 			typewriter = {
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "岛上居然覆盖了还没完全融化的雪...？！这里可是百慕大海域哦！",
+			say = "島上居然覆蓋了還沒完全融化的雪...？！這裡可是百慕達海域哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			expression = 1,
 			side = 2,
 			dir = 1,
-			say = "反常的现象.....继续探索吧。",
+			say = "反常的現象.....繼續探索吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

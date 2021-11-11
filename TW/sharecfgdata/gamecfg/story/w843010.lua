@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：基于不明原因，海域中出现了大量浮冰，请注意前进航线。",
+			say = "警告：基於不明原因，海域中出現了大量浮冰，請注意前進航線。",
 			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,

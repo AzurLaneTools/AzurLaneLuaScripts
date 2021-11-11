@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：遭遇到塞壬舰队伏击。",
+			say = "警告：遭遇到塞壬艦隊伏擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，正在进行物资搜寻的指挥喵好像找到了某些稀有资源，正在进一步确认中……",
+			say = "指揮官，正在進行物資搜尋的指揮喵好像找到了某些稀有資源，正在進一步確認中……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -23,7 +23,7 @@ return {
 			},
 			options = {
 				{
-					content = "确定",
+					content = "確定",
 					flag = 0
 				}
 			}

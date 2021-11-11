@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "电力方阵，通过底框的颜色可以判断是否被激活。",
+			say = "電力方陣，通過底框的顏色可以判斷是否被啟動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

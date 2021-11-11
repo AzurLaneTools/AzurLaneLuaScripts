@@ -21,7 +21,7 @@ return {
 				"showTransportTip"
 			},
 			style = {
-				text = "舰队访问地图边缘的虚拟单元格就可以跨地图移动",
+				text = "艦隊前往地圖邊緣的虛擬單元格就可以跨地圖移動",
 				mode = 2,
 				posY = 296.05,
 				dir = -1,
@@ -80,7 +80,7 @@ return {
 				"showDangerousTip"
 			},
 			style = {
-				text = "红色的虚拟单元格意味着当前的海域过于危险",
+				text = "紅色的虛擬單元格意味著當前的海域過於危險",
 				mode = 2,
 				posY = 296.05,
 				dir = -1,
@@ -139,7 +139,7 @@ return {
 				"showForbiddenTip"
 			},
 			style = {
-				text = "禁止标记则意味着当前海域无法进行边缘传送",
+				text = "禁止標記則意味著當前海域無法進行邊緣傳送",
 				mode = 2,
 				posY = 296.05,
 				dir = -1,
@@ -197,7 +197,7 @@ return {
 				"showForbiddenTip"
 			},
 			style = {
-				text = "好的，现在请按照罗经指示的方向开始移动到新水域吧",
+				text = "好的，現在請按照羅經指示的方向開始移動到新水域吧",
 				mode = 2,
 				posY = 296.05,
 				dir = -1,

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "仲裁者的精神世界极其不稳定，开始逐渐崩坏了。",
+			say = "仲裁者的精神世界極其不穩定，開始逐漸崩壞了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.03

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "受到不明影响，电路断开了。",
+			say = "受到不明影響，電路斷開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

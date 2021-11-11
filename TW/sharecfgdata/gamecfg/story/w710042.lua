@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "沿着洋流，前往黑方舟意识的中枢吧",
+			say = "沿著洋流，前往黑方舟意識的中樞吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

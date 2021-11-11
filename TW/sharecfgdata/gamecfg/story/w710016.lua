@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "记忆一片混乱",
+			say = "記憶一片混亂",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "是否放入黑方舟的记忆体尝试修复？",
+			say = "是否放入黑方舟的記憶體嘗試修復？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,11 +44,11 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "確認",
 					flag = 0
 				},
 				{
-					content = "离开",
+					content = "離開",
 					flag = 1
 				}
 			}

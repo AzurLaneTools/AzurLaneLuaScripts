@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：发现疑似铁血舰载机群正在向我们接近，请做好对空作战准备。",
+			say = "分析模組同步中：發現疑似鐵血艦載機群正在向我們接近，請做好對空作戰準備。",
 			voice = "event:/tb/41/tb-41",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我也注意到了，是铁血量产型航母的机群么，还是说...",
+			say = "嗯，我也注意到了，是鐵血量產型航母的機群嗎，還是說...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大黄蜂，再在对铁血舰队进行一次侦查，重点搜索铁血航母，看一看齐柏林伯爵有没有藏在铁血舰队中。",
+			say = "大黃蜂，再對鐵血艦隊進行一次偵查，重點搜索鐵血航母，看一看齊柏林伯爵有沒有藏在鐵血艦隊中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "交给我吧~！",
+			say = "交給我吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			soundeffect = "event:/battle/plane",
 			dir = 1,
-			say = "战斗机群升空，准备迎战！",
+			say = "戰鬥機群升空，準備迎戰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

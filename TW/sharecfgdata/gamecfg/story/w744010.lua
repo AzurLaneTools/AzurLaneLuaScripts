@@ -8,7 +8,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "选择光柱颜色 与 扩散强度",
+			say = "選擇光柱顏色 與 擴散強度",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,15 +19,15 @@ return {
 			},
 			options = {
 				{
-					content = "黄 扩散4次",
+					content = "黃 擴散4次",
 					flag = 1
 				},
 				{
-					content = "黄 扩散3次",
+					content = "黃 擴散3次",
 					flag = 2
 				},
 				{
-					content = "红 扩散4次",
+					content = "紅 擴散4次",
 					flag = 3
 				},
 				{
@@ -35,7 +35,7 @@ return {
 					flag = 4
 				},
 				{
-					content = "离开",
+					content = "離開",
 					flag = 5
 				}
 			}

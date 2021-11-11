@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actorName = "神秘商人",
 			dir = 1,
-			say = "喵？你问我是谁喵！？我只是一个冒着危险向一线作战人员提供补给售卖的神秘商人喵！",
+			say = "喵？你問我是誰喵！？我只是一個冒著危險向一線作戰人員提供補給售賣的神秘商人喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actorName = "神秘商人",
 			dir = 1,
-			say = "所以要不要来买点东西喵？",
+			say = "所以要不要來買點東西喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,11 +37,11 @@ return {
 			},
 			options = {
 				{
-					content = "进入商店",
+					content = "進入商店",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "離開",
 					flag = 2
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			actorName = "神秘商人",
 			dir = 1,
 			optionFlag = 2,
-			say = "偶尔也会有这种时候喵…欢迎再次光临喵~！",
+			say = "偶爾也會有這種時候喵…歡迎再次光臨喵~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "系统界面中的黄色区域代表海域中可进行进一步情报分析的地方，点击对应区域即可执行分析进程。",
+			say = "系統介面中的黃色區域代表海域中可進行進一步情報分析的地方，點擊對應區域即可執行分析程序。",
 			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "敌人的详细信息、隐藏的物资点、或者海域中隐藏的其他秘密，分析模块将会整合战役级的侦查力量获取最大限度的情报。",
+			say = "敵人的詳細訊息、隱藏的物資點、或者海域中隱藏的其他秘密，分析模組將會整合戰役級的偵查力量獲取最大限度的情報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "引导指令已确认：指挥官，请对敌方舰队使用分析模块吧。",
+			say = "引導指令已確認：指揮官，請對敵方艦隊使用分析模組吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

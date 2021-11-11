@@ -10,14 +10,14 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "结果已确认：搜寻作业结束，指挥喵现在已结束搜寻并返回了舰队。",
+			say = "結果已確認：搜尋作業結束，指揮喵現在已結束搜尋並返回了艦隊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "确定",
+					content = "確定",
 					flag = 0
 				}
 			}

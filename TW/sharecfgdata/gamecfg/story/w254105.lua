@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，发生了什么？偏移指令...是什么意思？",
+			say = "咦，發生了什麼？偏移指令...是什麼意思？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来有些物体的实际位置已经发生了变化，请指挥官小心探索。",
+			say = "看起來有些物體的實際位置已經發生了變化，請指揮官小心探索。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

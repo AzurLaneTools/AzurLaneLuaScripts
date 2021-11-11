@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "设备能量耗尽，这里已经没有任何有价值的东西了。",
+			say = "設備能量耗盡，這裡已經沒有任何有價值的東西了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			},
 			options = {
 				{
-					content = "离开",
+					content = "離開",
 					flag = 1
 				}
 			}

@@ -9,7 +9,7 @@ return {
 			actor = 302010,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "感谢各位的搭救.....这片海雾中绝对存在有某种致幻成分，才会让误入其中的我们全都陷入幻觉中。",
+			say = "感謝各位的搭救.....這片海霧中絕對存在有某種致幻成分，才會讓誤入其中的我們全都陷入幻覺中。",
 			dir = 1,
 			bgm = "battle-boss-italy",
 			effects = {
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于为什么对于{namecode:22}和你们都没有生效，也许只是因为{namecode:22}运气好尽快离开了海雾，而在你们驶入的时候海雾的浓度又有所减弱吧......",
+			say = "至於為什麼對於雪風和妳們都沒有生效，也許只是因為雪風運氣好盡快離開了海霧，而在妳們駛入的時候海霧的濃度又有所減弱吧......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析仪应该还能用...我立刻开始分析海雾的成分......",
+			say = "分析儀應該還能用...我立刻開始分析海霧的成分......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不用着急！你才刚从幻觉中回复过来，先稍微休息一下吧。",
+			say = "啊，不用著急！你才剛從幻覺中回復過來，先稍微休息一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家注意~前方海域发现了{namecode:39}，{namecode:22}大人这去叫醒她！",
+			say = "大家注意~前方海域發現了神通，雪風大人這去叫醒她！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意安全，陷入幻觉的{namecode:39}可能会和{namecode:92}前辈一样突然对你发动攻击。",
+			say = "注意安全，陷入幻覺的神通可能會和加賀前輩一樣突然對你發動攻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~放心交给{namecode:22}大人吧！",
+			say = "哼哼~放心交給雪風大人吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "..........{namecode:81}她现在还..........现在时机还不成熟......",
+			say = "..........土佐她現在還..........現在時機還不成熟......",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行，我无法这么做.......！",
+			say = "不行，我無法這麼做.......！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是您这么说也........",
+			say = "就算是您這麼說也........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".......果然{namecode:39}也陷入奇怪的状态了。",
+			say = ".......果然神通也陷入奇怪的狀態了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在贸然靠过去可能会被{namecode:39}攻击......不如我来主动进攻过去！",
+			say = "現在貿然靠過去可能會被神通攻擊......不如我來主動進攻過去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行不行...！万一误伤了{namecode:39}怎么办.......",
+			say = "不行不行...！萬一誤傷了神通怎麼辦.......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔...要不然就打歪一点，用声音提醒一下{namecode:39}？不过这样的话不如直接用广播喊话......",
+			say = "唔...要不然就打歪一點，用聲音提醒一下神通？不過這樣的話不如直接用廣播喊話......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "信号弹好像也不错....啊不行，使用信号弹不就等于告诉塞壬{namecode:22}大人就在这里么......",
+			say = "信號彈好像也不錯....啊不行，使用信號彈不就等於告訴塞壬雪風大人就在這裡嗎......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔唔...决定了！就用广播喊话好了！",
+			say = "唔唔唔...決定了！就用廣播喊話好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...............{namecode:22}，你一个人在这里转圈做什么？",
+			say = "...............雪風，妳一個人在這裡轉圈做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:39}———！你醒了么？！",
+			say = "神通———！妳醒了嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然刚刚发生的事都是幻觉啊......呜，头好疼.....怎么只有你在这里，其他人呢？",
+			say = "果然剛剛發生的事都是幻覺啊......嗚，頭好疼.....怎麼只有妳在這裡，其他人呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在除了{namecode:91}大人，其他同伴都已经和五航战的舰队成功汇合，我们也赶紧回去吧！",
+			say = "現在除了赤城大人，其他同伴都已經和五航戰的艦隊成功匯合，我們也趕緊回去吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

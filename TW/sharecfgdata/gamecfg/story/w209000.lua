@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前剧情章节剧情已结束。",
+			say = "當前劇情章節劇情已結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在开启下一章节剧情之前，指挥官首先需要在该片区域压制8处通常海域。",
+			say = "在開啟下一章節劇情之前，指揮官首先需要在該片區域壓制8處通常海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

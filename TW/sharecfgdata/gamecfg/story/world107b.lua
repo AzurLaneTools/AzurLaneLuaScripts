@@ -11,7 +11,7 @@ return {
 			actor = 107070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等、大家稍等一下！侦察机发现了一支行踪异常的舰队！",
+			say = "等、大家稍等一下！偵察機發現了一支行蹤異常的艦隊！",
 			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "........不会吧，侦察机在舰队中发现了提尔比茨的身影，是日前袭击了斯卡帕湾并突破皇家封锁的铁血主力舰队！",
+			say = "........不會吧，偵察機在艦隊中發現了鐵必制的身影，是日前襲擊了斯卡帕灣並突破皇家封鎖的鐵血主力艦隊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			actor = 107070,
 			dir = 1,
-			say = "与我们航线相反，正在向着百慕大海域方向前进。她们应该还没有注意到我们的存在。",
+			say = "與我們航線相反，正在向著百慕達海域方向前進。她們應該還沒有注意到我們的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			actor = 103160,
 			dir = 1,
-			say = "毕竟航空力量薄弱可是铁血舰队的特色之一呢。",
+			say = "畢竟航空力量薄弱可是鐵血艦隊的特色之一呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到袭击了皇家之后，现在又鬼鬼祟祟的向着我们的海岸线靠拢，意图已经再明显不过了......",
+			say = "沒想到襲擊了皇家之後，現在又鬼鬼祟祟的向著我們的海岸線靠攏，意圖已經在明顯不過了......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？指挥部不是正在与赤色中轴协商停火协议么！",
+			say = "咦？指揮部不是正在與赤色中軸協商停火協議嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "问题就在这里。也许以停火协议为幌子的突然袭击，或者是想在停火协议的谈判桌上争取更多的利益么。",
+			say = "問題就在這裡。也許以停火協議為幌子的突然襲擊，或者是想在停火協議的談判桌上爭取更多的利益嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论是哪种情况，指挥部现在应该还蒙在鼓里吧......",
+			say = "不論是哪種情況，指揮部現在應該還蒙在鼓裡吧......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			},
 			options = {
 				{
-					content = "立刻向指挥部进行汇报",
+					content = "立刻向指揮部進行匯報",
 					flag = 1
 				}
 			}
@@ -166,7 +166,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指令已确认：正在向指挥部发送情报中。",
+			say = "指令已確認：正在向指揮部發送情報中。",
 			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来怎么办，指挥官？反正停火协议还没有正式签署，趁着铁血舰队还没发现我们先下手为强？",
+			say = "接下來怎麼辦，指揮官？反正停火協議還沒有正式簽署，趁著鐵血艦隊還沒發現我們先下手為強？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "NA海域中的局势已经非常复杂了，现在让冲突进一步升级和整体战役的方针相违背。",
+			say = "NA海域中的局勢已經非常複雜了，現在讓衝突進一步升級和整體戰役的方針相違背。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,22 +208,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "百慕大海域中确实存在着异常现象，铁血舰队的目标也许只是在那里也说不定......",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "赞成，指挥部在作战之前也再三强调过不要与赤色中轴发生无谓的战斗。",
+			say = "百慕達海域中確實存在著異常現象，鐵血艦隊的目標也許只是在那裡也說不定......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +223,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是...也不能就这样放着铁血舰队畅通无阻的向白鹰的海岸前进...",
+			say = "贊成，指揮部在作戰之前也再三強調過不要與赤色中軸發生無謂的戰鬥。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107060,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "但是...也不能就這樣放著鐵血艦隊暢通無阻的向白鷹的海岸前進...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			actor = 107070,
 			dir = 1,
-			say = "用舰载机掠过铁血舰队上空示警一下怎么样？",
+			say = "用艦載機掠過鐵血艦隊上空示警一下怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "舰队调整航向，同时从空中对铁血舰队发出警告。",
+			say = "艦隊調整航向，同時從空中對鐵血艦隊發出警告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指令已确认：目标设定为铁血舰队，正在规划最佳的交战航线————",
+			say = "指令已確認：目標設定為鐵血艦隊，正在規劃最佳的交戰航線————",
 			voice = "event:/tb/21/tb-21",
 			typewriter = {
 				speed = 0.05,
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，空中的事包在我身上~让我们给偷偷乱跑的铁血舰队一点小小的警告吧！",
+			say = "嘿嘿，空中的事包在我身上~讓我們給偷偷亂跑的鐵血艦隊一點小小的警告吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

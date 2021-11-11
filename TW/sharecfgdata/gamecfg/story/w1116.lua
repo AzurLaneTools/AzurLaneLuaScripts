@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "需要将塞壬能源矩阵带到此处……",
+			say = "需要將塞壬能源矩陣帶到此處……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

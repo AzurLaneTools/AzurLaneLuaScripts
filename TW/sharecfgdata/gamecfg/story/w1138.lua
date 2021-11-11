@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：发现伪装成资源点的塞壬伏击舰队，即将发生战斗。",
+			say = "警告：發現偽裝成資源點的塞壬伏擊艦隊，即將發生戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

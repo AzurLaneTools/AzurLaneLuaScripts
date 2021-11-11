@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "出现了新的传送门！",
+			say = "出現了新的傳送門！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

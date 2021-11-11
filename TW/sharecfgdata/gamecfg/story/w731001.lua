@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海域周围出现了塞壬精英敌人！",
+			say = "海域周圍出現了塞壬精英敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在精神世界中也能遭遇敌人吗..指挥官，请小心应战！",
+			say = "在精神世界中也能遭遇敵人嗎..指揮官，請小心應戰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

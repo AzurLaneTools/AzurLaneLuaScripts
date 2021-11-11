@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "能源模块已就位，设备启动成功，正在分析中……",
+			say = "能源模組已就位，設備啟動成功，正在分析中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析成功。已解析的情报能够为舰队的后续作战提供帮助。",
+			say = "分析成功。已解析的情報能夠為艦隊的後續作戰提供幫助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请选择需要提升的适应性类型：",
+			say = "請選擇需要提升的適應性類型：",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,19 +53,19 @@ return {
 			},
 			options = {
 				{
-					content = "[适应性·攻击]提升",
+					content = "[適應性·攻擊]提升",
 					flag = 0
 				},
 				{
-					content = "[适应性·耐久]提升",
+					content = "[適應性·耐久]提升",
 					flag = 1
 				},
 				{
-					content = "[适应性·效能]提升",
+					content = "[適應性·效能]提升",
 					flag = 2
 				},
 				{
-					content = "不做选择",
+					content = "不做選擇",
 					flag = 3
 				}
 			}

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "得到了黑方舟的的记忆碎片。",
+			say = "得到了黑方舟的的記憶碎片。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "周围涌动的暗流停息了下来，敌舰也消失了……",
+			say = "周圍湧動的暗流停息了下來，敵艦也消失了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

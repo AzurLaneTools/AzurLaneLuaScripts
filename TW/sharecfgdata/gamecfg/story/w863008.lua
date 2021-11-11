@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "能源矩阵放置完毕，所有电力方阵都重新开始运转了！",
+			say = "能源矩陣放置完畢，所有電力方陣都重新開始運轉了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

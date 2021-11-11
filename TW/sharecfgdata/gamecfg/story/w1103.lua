@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "破坏控制器后海雾散去了。海面上似乎有些新发现……",
+			say = "破壞控制器後海霧散去了。海面上似乎有些新發現……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "离开",
+					content = "離開",
 					flag = 1
 				}
 			}

@@ -8,7 +8,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "使用验场气候调节装置可以消除5x5区域内的所有浮冰，是否确认使用？",
+			say = "使用驗場氣候調節裝置可以消除5x5區域內的所有浮冰，是否確認使用？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

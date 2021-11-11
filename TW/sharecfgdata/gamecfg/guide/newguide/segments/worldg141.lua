@@ -7,7 +7,7 @@ return {
 				"ClickOrder"
 			},
 			style = {
-				text = "点击G.M系统右下角的按钮可以进入分析模式。",
+				text = "點擊G.M系統右下角的按鈕可以進入分析模式。",
 				mode = 2,
 				posY = -126,
 				char = "1",
@@ -163,7 +163,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击左上角按钮可以退出分析模式。",
+				text = "點擊左上角按鈕可以退出分析模式。",
 				mode = 2,
 				posY = 223.43,
 				char = "1",

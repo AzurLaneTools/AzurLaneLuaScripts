@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "在这里转了这么久，铁血舰队也没有一点要来汇合的迹象。这究竟是怎么回事，腓特烈叫我们来的时候说的可是联合行动哟？",
+			say = "在這裡轉了這麼久，鐵血艦隊也沒有一點要來匯合的跡象。這究竟是怎麼回事，腓特烈叫我們來的時候說的可是聯合行動喲？",
 			bgm = "bsm-7",
 			flashin = {
 				delay = 1,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "腓特烈的计划我不是很清楚...不过现在我们的主力舰队也在NA海域中，大家在同一片海域中行动的话，应该也能叫做联合行动...?",
+			say = "腓特烈的計劃我不是很清楚...不過現在我們的主力艦隊也在NA海域中，大家在同一片海域中行動的話，應該也能叫做聯合行動...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那你们的主力舰队现在的具体位置在哪里，接下来的计划是什么？",
+			say = "那妳們的主力艦隊現在的具體位置在哪裡，接下來的計劃是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如你们所见，我只是一艘被孤零零的派遣到这里留守驱逐舰，主力舰队的作战计划我一点都不知道哦。",
+			say = "如妳們所見，我只是一艘被孤零零的派遣到這裡留守的驅逐艦，主力艦隊的作戰計劃我一點都不知道哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果欧根在的话倒是也许能问出点什么来...",
+			say = "如果歐根在的話倒是也許能問出點什麼來...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不然你们直接去问腓特烈吧，她之前好像提到过要去撒丁参加宴会之类的，这段时间应该都会停在陆间海。",
+			say = "不然妳們直接去問腓特烈吧，她之前好像提到過要去薩丁參加宴會之類的，這段時間應該都會停在地中海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".........我们就是刚刚从塔兰托港过来的，难道现在让我们绕回去么？",
+			say = ".........我們就是剛剛從塔蘭托港過來的，難道現在讓我們繞回去嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊抱歉，当然，用通讯联络也行，这边的联络很通畅。我这就向铁血司令部发电报。",
+			say = "啊抱歉，當然，用通訊聯絡也行，這邊的聯絡很通暢。我這就向鐵血司令部發電報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了！作战行动依靠重樱本身的舰队足够了，既然你们不配合我的行动，我也对你们的行动没兴趣。",
+			say = "算了！作戰行動依靠重櫻本身的艦隊足夠了，既然妳們不配合我的行動，我也對妳們的行動沒興趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请立刻提供补给，在补给完毕之后我们就出发。",
+			say = "請立刻提供補給，在補給完畢之後我們就出發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家同为赤色中轴的盟友，这些小事当然没问题。不过真的要这么着急的走么？原本明日还有预定一些浏览行程之类的...",
+			say = "大家同為赤色中軸的盟友，這些小事當然沒問題。不過真的要這麼著急的走妳？原本明日還有預定一些瀏覽行程之類的...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢铁血的好意，不过无需劳烦，我们不是来这里旅游的。",
+			say = "感謝鐵血的好意，不過無需勞煩，我們不是來這裡旅遊的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样啊...NA海域的情况复杂多变，我们又一直处于皇家的长期封锁中，因此无法为你们提供有效的情报支援。",
+			say = "這樣啊...NA海域的情況復雜多變，我們又一直處於皇家長期封鎖中，因此無法為妳們提供有效的情報支援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过我会立刻把你们出发的消息向司令部汇报，如果上面有任何安排，或者主力舰队有联合作战的目标分享，我会第一时间联络你们。",
+			say = "不過我會立刻把妳們出發的消息向司令部匯報，如果上面有任何安排，或者主力艦隊有聯合作戰的目標分享，我會第一時間聯絡妳們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了，说到联络......在稍后补给的时候，请一起收下为你们准备的铁血最新型通讯设备。",
+			say = "對了，說到聯絡......在稍後補給的時候，請一起收下為妳們準備的鐵血最新型通訊設備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新型设备着重增强了在海域中对抗塞壬干扰的能力，应该会对你们有所帮助。",
+			say = "新型設備著重增強了在海域中對抗塞壬干擾的能力，應該會對妳們有所幫助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总算还是有点好消息，进入镜面海域就会立刻通讯中断的情况终于得到改善了么。",
+			say = "總算還是有點好消息，進入鏡面海域就會立刻通訊中斷的情況終於得到改善了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些设备我们之后可以直接带回重樱么？",
+			say = "這些設備我們之後可以直接帶回重櫻嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然没问题，这些就是专门为你们准备的礼物。",
+			say = "當然沒問題，這些就是專門為妳們準備的禮物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常感谢。",
+			say = "非常感謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "补给维修区域在这个方向，各位请跟我来。",
+			say = "補給維修區域在這個方向，各位請跟我來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

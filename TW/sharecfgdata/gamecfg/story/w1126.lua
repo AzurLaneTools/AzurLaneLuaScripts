@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "已成功使得塞壬增援装置停止运行。",
+			say = "已成功使得塞壬增援裝置停止運行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "请先找到前置的灯塔！",
+			say = "請先找到前置的燈塔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

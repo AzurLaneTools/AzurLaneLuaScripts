@@ -9,7 +9,7 @@ return {
 			actor = 301160,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "周边区域的敌人已经肃清完毕啦！",
+			say = "周邊區域的敵人已經肅清完畢啦！",
 			dir = 1,
 			bgm = "battle-boss-italy",
 			typewriter = {
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "NA海域的塞壬战斗力也没有资料里记载的那么强呢。",
+			say = "NA海域的塞壬戰鬥力也沒有資料裡記載的那麼強呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒不如说弱的离谱......我们现在已经驶入了海域的中部区域，却还没遇到什么像样的抵抗。",
+			say = "倒不如說弱的離譜......我們現在已經駛入了海域的中部區域，卻還沒遇到什麼像樣的抵抗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊是啊，地图上明明还标注着这里非常危险，特意画了一个红叉呢！",
+			say = "是啊是啊，地圖上明明還標註著這裡非常危險，特意畫了一個紅叉呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，一定是{namecode:22}大人的强运带领大家绕过了危险吧~",
+			say = "哼哼，一定是雪風大人的強運帶領大家繞過了危險吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬实验设施倒是很难得能一次性见到这么多......",
+			say = "塞壬實驗設施倒是很難得能一次性見到這麼多......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且这里避开了碧蓝航线的作战范围，设施基本都完好无损，这次确实选了一条好的航线呢。",
+			say = "而且這裡避開了碧藍航線的作戰範圍，設施基本都完好無損，這次確實選了一條好的航線呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，那是当然的。{namecode:37}，先抓紧时间回收所有能回收的东西，等回去之后我们有的是时间解析。",
+			say = "呵呵呵，那是當然的。夕張，先抓緊時間回收所有能回收的東西，等回去之後我們有的是時間解析。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰队不要在这里耽误太多的时间，前方还有更多有价值的收获在等着我们哦~",
+			say = "艦隊不要在這裡耽誤太多的時間，前方還有更多有價值的收穫在等著我們哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

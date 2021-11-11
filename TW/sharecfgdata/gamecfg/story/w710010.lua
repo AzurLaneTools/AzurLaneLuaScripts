@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……这是……",
+			say = "……這是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……这股熟悉的破坏感……这是黑方舟的内心世界？",
+			say = "……這股熟悉的破壞感……這是黑方舟的內心世界？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……看起来周围环境杂乱无序，可能离开这个奇怪的地方和这里有所关系……",
+			say = "……看起來周圍環境雜亂無序，可能離開這個奇怪的地方和這裡有所關係……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

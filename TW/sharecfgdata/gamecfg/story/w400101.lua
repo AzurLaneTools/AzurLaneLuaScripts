@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "面前的石柱上有两个符号。",
+			say = "面前的石柱上有兩個符號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "请进行选择——————",
+			say = "請進行選擇——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

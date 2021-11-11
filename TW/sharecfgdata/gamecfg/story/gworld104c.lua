@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，在大型作战过程中获得的材料都被放置在储物仓中。",
+			say = "指揮官，在大型作戰過程中獲得的材料都被放置在儲物倉中。",
 			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "引导指令已确认：指挥官，请查看一下储物仓吧。",
+			say = "引導指令已確認：指揮官，請查看一下儲物倉吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

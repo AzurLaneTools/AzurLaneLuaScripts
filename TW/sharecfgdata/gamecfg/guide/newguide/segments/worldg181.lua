@@ -7,7 +7,7 @@ return {
 				"clickBtn"
 			},
 			style = {
-				text = "点击打开储物仓。",
+				text = "點擊打開儲物倉。",
 				mode = 2,
 				posY = -229.8,
 				char = "1",
@@ -35,7 +35,7 @@ return {
 				"openBox"
 			},
 			style = {
-				text = "点击战役信息记录仪。",
+				text = "點擊戰役訊息記錄儀。",
 				mode = 2,
 				posY = -229.8,
 				char = "1",
@@ -63,7 +63,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击使用。",
+				text = "點擊使用。",
 				mode = 2,
 				posY = -229.8,
 				char = "1",

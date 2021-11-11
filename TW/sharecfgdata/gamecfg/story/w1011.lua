@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "现在暂时不能离开当前海域……",
+			say = "現在暫時不能離開當前海域……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

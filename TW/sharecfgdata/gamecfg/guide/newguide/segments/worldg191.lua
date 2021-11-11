@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "信标·META作战已开启。在这个系统中指挥官可以与其他指挥官一同战斗",
+				text = "信標·META作戰已開啟。在這個系統中指揮官可以與其他指揮官一同戰鬥",
 				mode = 2,
 				posY = -279.2,
 				char = "1",
@@ -38,7 +38,7 @@ return {
 			alpha = 0.4,
 			waitScene = "WorldBossScene",
 			style = {
-				text = "信标·META作战将会周期性开启，这里显示的是当前信标·META作战的持续时间",
+				text = "信標·META作戰將會周期性開啟，這裡顯示的是當前信標·META作戰的持續時間",
 				mode = 2,
 				posY = 294,
 				char = "1",
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			style = {
-				text = "时间结束后未解析的信标将会消失，也无法在大型作战中继续获得新的信标数据",
+				text = "時間結束後未解析的信標將會消失，也無法在大型作戰中繼續獲得新的信標數據",
 				mode = 2,
 				posY = 1.5,
 				char = "1",
@@ -64,7 +64,7 @@ return {
 		},
 		{
 			style = {
-				text = "点击情报解析按钮，以解析获取的信标数据",
+				text = "點擊情報解析按鈕，以解析獲取的信標數據",
 				mode = 2,
 				posY = -284,
 				char = "1",

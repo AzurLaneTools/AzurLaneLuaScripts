@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "虫洞看起来依然疑云重重，等待司令部后续的任务吧",
+			say = "蟲洞看起來依然疑雲重重，等待司令部後續的任務吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

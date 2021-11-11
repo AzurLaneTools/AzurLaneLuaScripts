@@ -6,7 +6,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "路过的蛮啾",
+			actorName = "路過的蠻啾",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "啾啾，好想喝美味的椰子汁..",

@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "舰队受到黑色潮汐影响，回过神来竟然回到了出发点？",
+			say = "艦隊受到黑色潮汐影響，回過神來竟然回到了出發點？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -130,7 +130,7 @@ pg.open_systems_limited = {
 	},
 	[18] = {
 		scene = "MAINUI",
-		name = "装备改造",
+		name = "裝備改造",
 		story_id = "",
 		id = 18,
 		mediator = "EquipmentTransformTreeMediator",
@@ -138,7 +138,7 @@ pg.open_systems_limited = {
 	},
 	[19] = {
 		scene = "MAINUI",
-		name = "大型作战",
+		name = "大型作戰",
 		story_id = "",
 		id = 19,
 		mediator = "WorldMediator",

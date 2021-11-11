@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "xinnong-3",
 			dir = 1,
-			say = "......科研舰队？！",
+			say = "......科研艦隊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯...在收到克利夫兰的报告后，司令部决定派遣一支科研舰队立刻前往被摧毁的塞壬实验场进行深入调查。",
+			say = "嗯...在收到克里夫蘭的報告後，司令部決定派遣一支科研艦隊立刻前往被摧毀的塞壬實驗場進行深入調查。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "克利夫兰舰队也因此需要暂时留在那里进行科研舰队的护卫工作。",
+			say = "克里夫蘭艦隊也因此需要暫時留在那裡進行科研艦隊的護衛工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "........现在可是在进行大型作战中啊，塞壬的威胁还没有被完全排除，这时候派遣科研舰队来前线实在是太危险了！",
+			say = "........現在可是在進行大型作戰中啊，塞壬的威脅還沒有被完全排除，這時候派遣科研艦隊來前線實在是太危險了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且克利夫兰舰队不能参与行动的话，我们接下来的作战部署都要受到影响了......",
+			say = "而且克里夫蘭艦隊不能參與行動的話，我們接下來的作戰部署都要受到影響了......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果之前的皇家方舟是电子干扰产生的虚假信号，那么被摧毁的实验场很可能是一处诱导我们进行调查的陷阱。",
+			say = "如果之前的皇家方舟是電子干擾產生的虛假訊號，那麼被摧毀的實驗場很可能是一處誘導我們進行調查的陷阱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "我也觉得现在的部署非常不合适...埃塞克斯，作为C战区的舰队指挥你有权对这项命令提出异议。",
+			say = "我也覺得現在的部署非常不合適...艾塞克斯，作為C戰區的艦隊指揮妳有權對這項命令提出異議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,38 +128,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉，算了......司令部的考量也不是完全没有道理。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#a9f548",
-			side = 2,
-			actor = 107090,
-			dir = 1,
-			say = "不论是被摧毁的塞壬实验室，还是意图极其明显的电子干扰，我们现在对于这片战场的了解太少了，哪怕能多获取一些情报对于整个战局来说也是有利的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107090,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "而且克利夫兰舰队只是暂时执行护卫任务而已，应该很快就能返回作战行动了。",
+			say = "唉，算了......司令部的考量也不是完全沒有道理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +144,38 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "领航员小姐，你现在感觉怎么样？",
+			say = "不論是被摧毀的塞壬實驗室，還是意圖極其明顯的電子干擾，我們現在對於這片戰場的了解太少了，哪怕能多獲取一些情報對於整個戰局來說也是有利的。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107090,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "而且克里夫蘭艦隊只是暫時執行護衛任務而已，應該很快就能返回作戰行動了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#a9f548",
+			side = 2,
+			actor = 107090,
+			dir = 1,
+			say = "領航員小姐，妳現在感覺怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指令已确认：与主机连接已经恢复，系统修复进度90%，目前未发现异常情况。",
+			say = "指令已確認：與主機連接已經恢復，系統修復進度90%，目前未發現異常情況。",
 			voice = "event:/tb/44/tb-44",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "修复速度好快......很好，那我们也打起精神来继续出发吧，作战任务还远远没有结束呢！",
+			say = "修復速度好快......很好，那我們也打起精神來繼續出發吧，作戰任務還遠遠沒有結束呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

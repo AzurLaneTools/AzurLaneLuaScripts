@@ -172,6 +172,26 @@ pg.guild_store = {
 			17043
 		}
 	},
+	[113] = {
+		goods_rarity = 4,
+		goods_purchase_limit = 5,
+		ensure = 1,
+		type = 2,
+		price = 60,
+		num = 1,
+		weight = 0,
+		goods_name = "強化部件T4",
+		goods_type = 2,
+		id = 113,
+		goods_icon = "Props/54014",
+		goods = {
+			17004,
+			17014,
+			17024,
+			17034,
+			17044
+		}
+	},
 	[121] = {
 		goods_rarity = 3,
 		goods_purchase_limit = 2,
@@ -291,6 +311,31 @@ pg.guild_store = {
 			306051
 		}
 	},
+	[203] = {
+		goods_rarity = 2,
+		goods_purchase_limit = 1,
+		ensure = 1,
+		type = 4,
+		price = 2000,
+		num = 1,
+		weight = 0,
+		goods_name = "月簽到艦船",
+		goods_type = 2,
+		id = 203,
+		goods_icon = "Props/54000",
+		goods = {
+			101161,
+			101271,
+			301261,
+			301211,
+			201241,
+			201251,
+			301311,
+			301231,
+			301591,
+			301601
+		}
+	},
 	[301] = {
 		goods_rarity = 4,
 		goods_purchase_limit = 1,
@@ -342,12 +387,14 @@ pg.guild_store = {
 		102,
 		111,
 		112,
+		113,
 		121,
 		122,
 		131,
 		132,
 		201,
 		202,
+		203,
 		301,
 		302
 	}

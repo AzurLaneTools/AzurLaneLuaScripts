@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：指挥官，前方海域发现多处敌方信号，推测为塞壬拦截舰队。",
+			say = "分析模組同步中：指揮官，前方海域發現多處敵方訊號，推測為塞壬攔截艦隊。",
 			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇！居然还有预警功能，这是直接连接了舰队的雷达系统么？",
+			say = "哇！居然還有預警功能，這是直接連接了艦隊的雷達系統嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，我可以通过整合各舰的情报数据，对于战场情况提供实时分析。",
+			say = "是的，我可以通過整合各艦的情報數據，對於戰場情況提供實時分析。",
 			voice = "event:/tb/15/tb-15",
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是便利的辅助系统呢......",
+			say = "真是便利的輔助系統呢......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "舰队调整队形，准备迎敌。",
+			say = "艦隊調整隊形，準備迎敵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "成功将能源矩阵归位",
+			say = "成功將能源矩陣歸位",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			actor = 801030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，头都要绕晕了啦！",
+			say = "唔，頭都要繞暈了啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

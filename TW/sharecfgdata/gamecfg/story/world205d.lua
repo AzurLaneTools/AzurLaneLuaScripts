@@ -11,7 +11,7 @@ return {
 			actor = 203040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于......最后一艘敌人也被打倒了！",
+			say = "終於......最後一艘敵人也被打倒了！",
 			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯特选手，快要燃尽了.......",
+			say = "肯特選手，快要燃盡了.......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的......这些到底是什么东西啊，战斗力虽然一般，但是防御力真是夸张，再加上重力变化的干扰，真是！从来！没遇到过这么难缠的敌人！",
+			say = "真是的......這些到底是什麼東西啊，戰鬥力雖然一般，但是防禦力真是誇張，再加上重力變化的干擾，真是！從來！沒遇到過這麼難纏的敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "围绕身体的异常感正在消失，重力好像开始恢复正常了。",
+			say = "圍繞身體的異常感正在消失，重力好像開始恢復正常了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已，已经安全了吗…？",
+			say = "已，已經安全了嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "千钧一发......是我们胜利了。刚刚的战斗十分精彩，诸位辛苦了。",
+			say = "千鈞一髮......是我們勝利了。剛剛的戰鬥十分精彩，諸位辛苦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡，刚刚你在担心报告怎么写对吧，我听到了哦。",
+			say = "愛丁堡，剛剛妳在擔心報告怎麼寫對吧，我聽到了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！额...哎嘿嘿.........",
+			say = "哎？！呃...哎嘿嘿.........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你把今天遭遇的一切如实写下来就好，之后的事就交给陛下定夺。",
+			say = "妳把今天遭遇的一切如實寫下來就好，之後的事就交給陛下定奪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于刚才遭遇到的异常塞壬，如果有了进一步调查结论的话，我一定第一时间向大家告知。",
+			say = "關於剛才遭遇到的異常塞壬，如果有了進一步調查結論的話，我一定第一時間向大家告知。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在海域清理完毕，第二处前哨站也能继续进行部署作业了。",
+			say = "現在海域清理完畢，第二處前哨站也能繼續進行部署作業了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡随我返回主力舰队向陛下报告。其他人留在这里护卫前哨站的部署工作，然后驻扎在此处进行修整，等待总攻命令。",
+			say = "愛丁堡隨我返回主力艦隊向陛下報告。其他人留在這裡護衛前哨站的部署工作，然後駐紮在此處進行修整，等待總攻命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "眾人",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "是！",
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "情况远比预想中的要复杂，接下来的作战会变成什么样呢，能一切顺利就好了......",
+			say = "情況遠比預想中的要復雜，接下來的作戰會變成什麼樣呢，能一切順利就好了......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

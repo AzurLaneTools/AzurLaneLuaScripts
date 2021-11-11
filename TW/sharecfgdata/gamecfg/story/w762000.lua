@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "秋高气爽，海域中刮起了风。",
+			say = "秋高氣爽，海域中刮起了風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

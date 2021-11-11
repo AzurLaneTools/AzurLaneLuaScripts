@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "区域封锁没有被解除，选择错误了么……",
+			say = "區域封鎖沒有被解除，選擇錯誤了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：指挥官，区域中的机关状态被重置了。",
+			say = "警告：指揮官，區域中的機關狀態被重置了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

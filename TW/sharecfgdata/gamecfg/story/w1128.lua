@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "提示：使用分析模块探索在海域中的隐藏资源吧。",
+			say = "提示：使用分析模組探索在海域中的隱藏資源吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "洋流并没有贯通……",
+			say = "洋流並沒有貫通……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "黑色的潮汐出现了！",
+			say = "黑色的潮汐出現了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

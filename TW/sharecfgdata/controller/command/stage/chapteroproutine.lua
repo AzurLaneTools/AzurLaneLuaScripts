@@ -348,7 +348,7 @@ function slot0.doBarrier(slot0)
 end
 
 function slot0.doRequest(slot0)
-	slot2 = slot0.flag
+	slot2 = -1
 	slot4 = slot0.chapter.fleet
 
 	if #slot0.data.move_path > 0 then
@@ -357,7 +357,6 @@ function slot0.doRequest(slot0)
 			row = slot5.row,
 			column = slot5.column
 		}
-		slot2 = bit.bor(slot2, ChapterConst.DirtyFleet)
 	end
 
 	slot0.flag = slot2

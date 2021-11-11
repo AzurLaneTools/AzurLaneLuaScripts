@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这是...最后一块塞壬记忆碎片了吧...",
+			say = "這是...最後一塊塞壬記憶碎片了吧...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "借助地形避开潮汐暗流吧",
+			say = "借助地形避開潮汐暗流吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

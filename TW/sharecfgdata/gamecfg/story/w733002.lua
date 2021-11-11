@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "将能源矩阵带到新的归位点。",
+			say = "將能源矩陣帶到新的歸位點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.03

@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：战斗结果已确认：敌方舰队肃清，但是在远方区域发现塞壬舰队的增援迹象，请不要放松警惕。",
+			say = "分析模組同步中：敵方艦隊肅清，但是在遠方區域發現塞壬艦隊的增援跡象，請不要放鬆警惕。",
 			voice = "event:/tb/41/tb-41",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			actor = 107070,
 			dir = 1,
-			say = "唔，确实有种不同寻常的气息啊。这才刚进入百慕大海域边缘，塞壬就派舰队热情迎接我们了。",
+			say = "唔，確實有種不同尋常的氣息啊。這才剛進入百慕達海域邊緣，塞壬就派艦隊熱情迎接我們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与整片NA海域外围塞壬普遍异常的行为模式不同，这里的塞壬舰队明显进行着有组织的反击。",
+			say = "與整片NA海域外圍塞壬普遍異常的行為模式不同，這裡的塞壬艦隊明顯進行著有組織的反擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，敌人进攻的越猛烈，越说明我们前往百慕大深处一探究竟的必要性。想必海域里隐藏着不想被我们发现的秘密吧！",
+			say = "哼，敵人進攻的越猛烈，越說明我們前往百慕達深處一探究竟的必要性。想必海域裡隱藏著不想被我們發現的秘密吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "百慕大中的秘密......",
+			say = "百慕達中的秘密......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgm = "hunhe-level",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "这些幻影，究竟是什么东西…？",
+			say = "這些幻影，究竟是什麼東西…？",
 			effects = {
 				{
 					active = true,
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "记录。",
+			say = "記錄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么地方，什么时候的记录？",
+			say = "什麼地方，什麼時候的記錄？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "存在于彼方，又存在于此处。既是过去的刻印，又是未来的预兆。",
+			say = "存在於彼方，又存在於此處。既是過去的刻印，又是未來的預兆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "现在，也存在于你的心里了。",
+			say = "現在，也存在於你的心裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "记录是不会说谎的。",
+			say = "記錄是不會說謊的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 103160,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "企业？你是想到了什么事情吗？",
+			say = "企業？妳是想到什麼了嗎？",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "story-richang",
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么，大家继续前进吧。",
+			say = "沒什麼，大家繼續前進吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

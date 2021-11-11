@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "击破敌方舰队，突破塞壬防线。",
+			say = "擊破敵方艦隊，突破塞壬防線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

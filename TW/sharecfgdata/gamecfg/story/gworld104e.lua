@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在材料分页中存放着用于装备研发系统的材料，刚才司令部提供的物资也包含在内。",
+			say = "在材料分頁中存放著用於裝備研發系統的材料，剛才司令部提供的物資也包含在內。",
 			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "在大型作战过程中，我们还可以获取更多用于装备研发的材料。",
+			say = "在大型作戰過程中，我們還可以獲取更多用於裝備研發的材料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

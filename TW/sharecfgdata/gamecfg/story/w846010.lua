@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "为了避免遭受陷阱区域伤害，舰队已返回起始点。",
+			say = "為了避免遭受陷阱區域傷害，艦隊已返回起始點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "建议：规避陷阱区域，谨慎前行。",
+			say = "建議：規避陷阱區域，謹慎前行。",
 			voice = "event:/tb/11/tb-11",
 			typewriter = {
 				speed = 0.05,

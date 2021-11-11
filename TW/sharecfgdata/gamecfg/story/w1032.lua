@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在海域里发现了行踪诡异的塞壬个体！",
+			say = "在海域裡發現了行踪詭異的塞壬個體！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

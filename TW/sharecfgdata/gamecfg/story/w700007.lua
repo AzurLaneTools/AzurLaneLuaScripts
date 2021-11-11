@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "本次调查取得了重要进展，这是司令部提供的后续调查材料",
+			say = "本次調查取得了重要進展，這是司令部提供的後續調查材料",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

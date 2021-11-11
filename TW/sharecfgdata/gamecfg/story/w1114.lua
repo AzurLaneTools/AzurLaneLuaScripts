@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海面上出现了塞壬隐藏的资源！",
+			say = "海面上出現了塞壬隱藏的資源！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
