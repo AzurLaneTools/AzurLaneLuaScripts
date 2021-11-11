@@ -1679,8 +1679,8 @@ _G.pg.item_data_statistics[82] = {
 }
 
 _G.pg.item_data_statistics[83] = {
-	display = "双联装203mm主炮Mle1924T1设计图",
-	name = "双联装203mm主炮Mle1924T1设计图",
+	display = "双联装203mm主炮Mle1931T1设计图",
+	name = "双联装203mm主炮Mle1931T1设计图",
 	max_num = 0,
 	type = 9,
 	drop_oil_max = 0,
@@ -4409,8 +4409,8 @@ _G.pg.item_data_statistics[10119] = {
 }
 
 _G.pg.item_data_statistics[10120] = {
-	display = "双联装203mm主炮Mle1924T2设计图",
-	name = "双联装203mm主炮Mle1924T2设计图",
+	display = "双联装203mm主炮Mle1931T2设计图",
+	name = "双联装203mm主炮Mle1931T2设计图",
 	max_num = 0,
 	type = 9,
 	drop_oil_max = 0,
@@ -5417,8 +5417,8 @@ _G.pg.item_data_statistics[11043] = {
 }
 
 _G.pg.item_data_statistics[11046] = {
-	display = "双联装203mm主炮Mle1924T3设计图",
-	name = "双联装203mm主炮Mle1924T3设计图",
+	display = "双联装203mm主炮Mle1931T3设计图",
+	name = "双联装203mm主炮Mle1931T3设计图",
 	max_num = 0,
 	type = 9,
 	drop_oil_max = 0,

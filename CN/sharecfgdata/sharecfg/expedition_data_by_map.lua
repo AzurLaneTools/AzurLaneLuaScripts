@@ -10896,7 +10896,7 @@ pg.expedition_data_by_map = {
 	},
 	[1580001] = {
 		map = 1580001,
-		name = "「杰诺瓦的焰火」|| ||CHAPTER SP||S.P.",
+		name = "杰诺瓦的焰火|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		enter_story = "",
