@@ -2533,6 +2533,17 @@ pg.fleet_tech_ship_class = {
 			90302
 		}
 	},
+	[90302] = {
+		shiptype = 3,
+		name = "シュフラン級",
+		nation = 9,
+		id = 90302,
+		t_level_1 = 137,
+		t_level = 5,
+		ships = {
+			90301
+		}
+	},
 	[90401] = {
 		shiptype = 4,
 		name = "ダンケルク級",
@@ -2766,6 +2777,7 @@ pg.fleet_tech_ship_class = {
 		90104,
 		90201,
 		90301,
+		90302,
 		90401,
 		90501
 	}

@@ -68,6 +68,7 @@ function slot0.InitGroup(slot0)
 	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
 	slot0.dropdownDic = {}
 	slot0.updateList = {}
+	slot0.simpleDropdownDic = {}
 
 	for slot4, slot5 in ipairs(slot0.contextData.groupList) do
 		if slot5.dropdown then
@@ -83,6 +84,10 @@ function slot0.InitGroup(slot0)
 
 	if slot0.contextData.customPanels.minHeight then
 		slot0.layout:GetComponent(typeof(LayoutElement)).preferredHeight = slot0.contextData.customPanels.minHeight
+	end
+
+	if slot0.contextData.customPanels.layoutPos then
+		setLocalPosition(slot0.layout, slot0.contextData.customPanels.layoutPos)
 	end
 
 	slot0.onInit = false
@@ -145,20 +150,21 @@ function slot0.InitCustoms(slot0, slot1)
 	slot6 = slot3.options
 	slot7 = slot3.mode or uv0.Mode.OR
 	slot8 = 0
+	slot9 = slot3.blueSeleted and slot0.blueSprite or slot0.yellowSprite
 
-	for slot12, slot13 in ipairs(slot6) do
-		slot8 = bit.bor(slot13, slot8)
+	for slot13, slot14 in ipairs(slot6) do
+		slot8 = bit.bor(slot14, slot8)
 	end
 
 	slot0.contextData.indexDatas[slot2] = slot0.contextData.indexDatas[slot2] or slot6[1]
-	slot9 = nil
+	slot10 = nil
 
-	for slot14, slot15 in ipairs(uv0.Clone2Full(slot4:Find("bg/panel"), #slot6)) do
-		slot16 = slot6[slot14]
+	for slot15, slot16 in ipairs(uv0.Clone2Full(slot4:Find("bg/panel"), #slot6)) do
+		slot17 = slot6[slot15]
 
-		setText(findTF(slot15, "Image"), i18n(slot3.names[slot14]))
-		setImageSprite(slot15, slot0.greySprite)
-		onButton(slot0, slot15, function ()
+		setText(findTF(slot16, "Image"), i18n(slot3.names[slot15]))
+		setImageSprite(slot16, slot0.greySprite)
+		onButton(slot0, slot16, function ()
 			if uv0 == uv1.Mode.AND then
 				if uv2 == 1 or uv3.contextData.indexDatas[uv4] == uv5[1] then
 					uv3.contextData.indexDatas[uv4] = uv6
@@ -183,25 +189,54 @@ function slot0.InitCustoms(slot0, slot1)
 				for slot3, slot4 in ipairs(uv5) do
 					slot6 = findTF(slot4, "Image")
 
-					setImageSprite(slot4, uv4[slot3] == uv4[1] and uv2.yellowSprite or uv2.greySprite)
+					setImageSprite(slot4, uv4[slot3] == uv4[1] and uv6 or uv2.greySprite)
 				end
 			else
 				for slot3, slot4 in ipairs(uv5) do
 					slot6 = findTF(slot4, "Image")
 
-					setImageSprite(slot4, uv4[slot3] ~= uv4[1] and bit.band(uv2.contextData.indexDatas[uv3], uv4[slot3]) > 0 and uv2.yellowSprite or uv2.greySprite)
+					setImageSprite(slot4, uv4[slot3] ~= uv4[1] and bit.band(uv2.contextData.indexDatas[uv3], uv4[slot3]) > 0 and uv6 or uv2.greySprite)
 				end
 			end
 		elseif uv0 == uv1.Mode.OR then
 			for slot3, slot4 in ipairs(uv5) do
 				slot6 = findTF(slot4, "Image")
 
-				setImageSprite(slot4, uv4[slot3] == uv2.contextData.indexDatas[uv3] and uv2.yellowSprite or uv2.greySprite)
+				setImageSprite(slot4, uv4[slot3] == uv2.contextData.indexDatas[uv3] and uv6 or uv2.greySprite)
 			end
 		end
 
 		uv2:OnDatasChange(uv3)
+
+		if uv2.simpleDropdownDic[uv3] then
+			for slot3, slot4 in pairs(uv2.simpleDropdownDic[uv3]) do
+				slot4:UpdateVirtualBtn()
+			end
+		end
 	end)
+
+	if slot1.simpleDropdown then
+		slot12 = slot4:Find("bg/panel"):GetChild(0)
+
+		for slot16, slot17 in ipairs(slot1.simpleDropdown) do
+			slot19 = cloneTplTo(slot12, slot4:Find("bg/panel"))
+			slot19.name = slot17 .. "_simple"
+
+			setActive(slot0:findTF("dropdown", slot19), true)
+			onButton(slot0, slot19, function ()
+				slot0 = uv0.panel:InverseTransformPoint(uv1.position)
+
+				if not uv2:GetLoaded() then
+					uv2:Load()
+				end
+
+				uv2:ActionInvoke("Show", slot0)
+			end)
+
+			slot0.simpleDropdownDic[slot2] = slot0.simpleDropdownDic[slot2] or {}
+			slot0.simpleDropdownDic[slot2][slot17] = SimpleDropdown.New(slot0.panel, slot0.event, slot0.contextData, slot2, slot19, slot0.contextData.customPanels[slot17], slot10, slot0.greySprite, slot0.yellowSprite)
+		end
+	end
 end
 
 function slot0.OnDatasChange(slot0, slot1)
@@ -239,6 +274,12 @@ function slot0.willExit(slot0)
 
 	for slot4, slot5 in pairs(slot0.dropdownDic) do
 		slot5:Destroy()
+	end
+
+	for slot4, slot5 in pairs(slot0.simpleDropdownDic) do
+		for slot9, slot10 in pairs(slot5) do
+			slot10:Destroy()
+		end
 	end
 
 	slot0.updateList = nil

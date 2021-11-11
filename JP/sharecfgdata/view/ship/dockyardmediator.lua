@@ -3,6 +3,7 @@ slot0.ON_DESTROY_SHIPS = "DockyardMediator:ON_DESTROY_SHIPS"
 slot0.ON_SHIP_DETAIL = "DockyardMediator:ON_SHIP_DETAIL"
 slot0.ON_WORLD_FORMATION = "DockyardMediator:ON_WORLD_FORMATION"
 slot0.ON_SHIP_REPAIR = "DockyardMediator:ON_SHIP_REPAIR"
+slot0.OPEN_DOCKYARD_INDEX = "DockyardMediator:OPEN_DOCKYARD_INDEX"
 
 function slot0.register(slot0)
 	if slot0.contextData.selectFriend then
@@ -81,6 +82,13 @@ function slot0.register(slot0)
 			shipIds = slot1,
 			totalCost = slot2
 		})
+	end)
+	slot0:bind(uv0.OPEN_DOCKYARD_INDEX, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			viewComponent = CustomIndexLayer,
+			mediator = CustomIndexMediator,
+			data = slot1
+		}))
 	end)
 end
 

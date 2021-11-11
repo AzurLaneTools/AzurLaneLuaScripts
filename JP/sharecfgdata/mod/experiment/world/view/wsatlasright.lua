@@ -32,6 +32,11 @@ function slot0.Init(slot0)
 	slot0.rtDisplayPanel = slot1:Find("line/display_panel")
 	slot0.rtWorldInfo = slot0.rtDisplayPanel:Find("world_info")
 	slot0.btnSettings = slot0.rtDisplayPanel:Find("settings_btn")
+
+	setText(slot0.rtWorldInfo:Find("power/bg/Word"), i18n("world_total_power"))
+	setText(slot0.rtWorldInfo:Find("explore/mileage/Text"), i18n("world_mileage"))
+	setText(slot0.rtWorldInfo:Find("explore/pressing/Text"), i18n("world_pressing"))
+
 	slot0.wsWorldInfo = WSWorldInfo.New()
 	slot0.wsWorldInfo.transform = slot0.rtWorldInfo
 

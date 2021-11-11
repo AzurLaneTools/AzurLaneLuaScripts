@@ -2231,14 +2231,14 @@ pg.activity_vote = {
 		}
 	},
 	[21] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "予選復活戦",
 		help_text = "",
 		type = 6,
 		is_in_game = 1,
 		banner = 0,
 		activity_bg = 0,
-		desc = "予選で後ろから266までの順位の艦船が参加する投票戦になります。予選復活戦のTOP15の艦船は決勝戦に参加します",
+		desc = "予選で後ろから251までの順位の艦船が参加する投票戦になります。予選復活戦のTOP15の艦船は決勝戦に参加します",
 		id = 21,
 		is_on_web = 0,
 		time_vote = {
@@ -2344,7 +2344,7 @@ pg.activity_vote = {
 		}
 	},
 	[22] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "グループA",
 		help_text = "",
 		type = 3,
@@ -2459,7 +2459,7 @@ pg.activity_vote = {
 		}
 	},
 	[23] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "グループB",
 		help_text = "",
 		type = 3,
@@ -2574,7 +2574,7 @@ pg.activity_vote = {
 		}
 	},
 	[24] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "グループC",
 		help_text = "",
 		type = 3,
@@ -2689,7 +2689,7 @@ pg.activity_vote = {
 		}
 	},
 	[25] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "グループD",
 		help_text = "",
 		type = 3,
@@ -2804,7 +2804,7 @@ pg.activity_vote = {
 		}
 	},
 	[26] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "グループE",
 		help_text = "",
 		type = 3,
@@ -2919,7 +2919,7 @@ pg.activity_vote = {
 		}
 	},
 	[27] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "決勝復活戦",
 		help_text = "",
 		type = 4,
@@ -3010,7 +3010,7 @@ pg.activity_vote = {
 		group_data = {},
 		rank_to_next = {
 			{
-				27,
+				28,
 				{
 					1,
 					2,
@@ -3029,7 +3029,7 @@ pg.activity_vote = {
 		}
 	},
 	[28] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "決勝戦",
 		help_text = "",
 		type = 5,

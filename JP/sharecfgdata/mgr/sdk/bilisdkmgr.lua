@@ -1,10 +1,10 @@
 slot1 = BilibiliSdkMgr.inst
 slot2 = "BLHX24V20210713"
 slot3 = "FTBLHX20190524WW"
-slot4 = 1
-slot5 = 2
-slot6 = 3
-slot7 = 4
+PACKAGE_TYPE_BILI = 1
+PACKAGE_TYPE_SHAJOY = 2
+PACKAGE_TYPE_UNION = 3
+PACKAGE_TYPE_YYX = 4
 
 function StartSdkLogin()
 	Timer.New(function ()
@@ -38,7 +38,7 @@ function SDKLogined(slot0, slot1, slot2, slot3)
 		arg4 = slot3
 	})
 
-	if LuaHelper.GetCHPackageType() == uv0 then
+	if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_UNION then
 		pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
 			user = slot4
 		})
@@ -93,7 +93,9 @@ function PayFailed(slot0, slot1)
 		code = slot1
 	})
 
-	if slot1 == -5 then
+	if PLATFORM == PLATFORM_IPHONEPLAYER then
+		pg.TipsMgr.GetInstance():ShowTips(i18n1("支付失败" .. slot1))
+	elseif slot1 == -5 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n1("订单签名异常" .. slot1))
 	elseif slot1 > 0 then
 		if slot1 > 1000 and slot1 < 2000 then
@@ -151,6 +153,12 @@ function OnShowLicenceFailed()
 end
 
 function OnShowPrivateFailed()
+end
+
+function OnShareSuccess()
+end
+
+function OnShareFailed()
 end
 
 function CloseAgreementView()
@@ -224,7 +232,7 @@ return {
 	BindCPU = function ()
 	end,
 	OnAndoridBackPress = function ()
-		if LuaHelper.GetCHPackageType() == uv0 or slot0 == uv1 then
+		if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_BILI or slot0 == PACKAGE_TYPE_SHAJOY then
 			if not IsNil(pg.MsgboxMgr.GetInstance()._go) then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("confirm_app_exit"),
@@ -233,28 +241,28 @@ return {
 					end
 				})
 			else
-				uv2:onBackPressed()
+				uv0:onBackPressed()
 			end
 		else
-			uv2:onBackPressed()
+			uv0:onBackPressed()
 		end
 	end,
 	ShowPrivate = function ()
-		if LuaHelper.GetCHPackageType() == uv0 then
+		if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_UNION then
 			pg.UserAgreementMgr.GetInstance():ShowForBiliPrivate()
-		elseif slot0 == uv1 then
+		elseif slot0 == PACKAGE_TYPE_SHAJOY then
 			Application.OpenURL("https://game.bilibili.com/uosdk_privacy/h5?game_id=209&privacyProtocol=1")
-		elseif slot0 ~= uv2 then
-			uv3:ShowPrivate()
+		elseif slot0 ~= PACKAGE_TYPE_YYX then
+			uv0:ShowPrivate()
 		end
 	end,
 	ShowLicence = function ()
-		if LuaHelper.GetCHPackageType() == uv0 then
+		if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_UNION then
 			pg.UserAgreementMgr.GetInstance():ShowForBiliLicence()
-		elseif slot0 == uv1 then
+		elseif slot0 == PACKAGE_TYPE_SHAJOY then
 			Application.OpenURL("https://game.bilibili.com/uosdk_privacy/h5?game_id=209&userProtocol=1")
-		elseif slot0 ~= uv2 then
-			uv3:ShowLicence()
+		elseif slot0 ~= PACKAGE_TYPE_YYX then
+			uv0:ShowLicence()
 		end
 	end,
 	GetBiliServerId = function ()

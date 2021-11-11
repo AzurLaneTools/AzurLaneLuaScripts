@@ -13,14 +13,14 @@ slot0.Fields = {
 	rtItems = "userdata",
 	rtEffectA = "userdata",
 	wsTerrainEffects = "table",
+	wsPool = "table",
 	rtEffectB = "userdata",
-	taskQueue = "table",
 	twTimerId = "number",
 	wsMapArtifacts = "table",
-	rangeVisible = "boolean",
+	displayRangeTimer = "table",
 	wsMapFleets = "table",
 	transform = "userdata",
-	wsPool = "table",
+	wsMapResource = "table",
 	twTimer = "userdata",
 	rtCells = "userdata",
 	displayRangeLines = "table",
@@ -28,9 +28,8 @@ slot0.Fields = {
 	wsMapItems = "table",
 	transportDisplay = "number",
 	wsCarryItems = "table",
-	wsMapResource = "table",
+	rangeVisible = "boolean",
 	wsMapTransports = "table",
-	displayRangeTimer = "table",
 	rtEffectC = "userdata"
 }
 slot0.Listeners = {
@@ -64,7 +63,6 @@ function slot0.Setup(slot0, slot1)
 
 	slot0.wsMapResource:Setup(slot0.map)
 
-	slot0.taskQueue = TSTaskQueue.New(0.025)
 	slot0.transportDisplay = WorldConst.TransportDisplayNormal
 
 	pg.DelegateInfo.New(slot0)
@@ -72,7 +70,6 @@ end
 
 function slot0.Dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
-	slot0.taskQueue:Clear()
 	slot0.wsMapPath:Dispose()
 	slot0:ClearTargetArrow()
 	slot0:Unload()
@@ -89,7 +86,7 @@ function slot0.Load(slot0, slot1)
 	table.insert(slot2, function (slot0)
 		uv0:InitClutter()
 		uv0:InitMap()
-		uv0.taskQueue:Enqueue(slot0)
+		slot0()
 	end)
 	seriesAsync(slot2, slot1)
 end
@@ -214,67 +211,52 @@ end
 function slot0.InitMap(slot0)
 	slot1 = slot0.map
 	slot2 = slot1.theme
-	slot3 = slot0.taskQueue
-	slot4 = _.values(slot1.cells)
+	slot3 = _.values(slot1.cells)
 
-	table.sort(slot4, function (slot0, slot1)
+	table.sort(slot3, function (slot0, slot1)
 		return slot0.row < slot1.row or slot0.row == slot1.row and slot0.column < slot1.column
 	end)
 
-	for slot8, slot9 in ipairs(slot4) do
-		slot3:Enqueue(function ()
-			uv0.wsMapQuads[WSMapQuad.GetName(uv1.row, uv1.column)] = uv0:NewQuad(uv1)
-		end)
-		slot3:Enqueue(function ()
-			uv0.wsMapCells[WSMapCell.GetName(uv1.row, uv1.column)] = uv0:NewCell(uv1)
-		end)
+	for slot7, slot8 in ipairs(slot3) do
+		slot0.wsMapQuads[WSMapQuad.GetName(slot8.row, slot8.column)] = slot0:NewQuad(slot8)
+		slot0.wsMapCells[WSMapCell.GetName(slot8.row, slot8.column)] = slot0:NewCell(slot8)
 	end
 
-	for slot8, slot9 in ipairs(slot1.config.float_items) do
-		slot3:Enqueue(function ()
-			if uv1:GetCell(uv0[1], uv0[2]) then
-				if not uv2:GetItem(slot0, slot1) then
-					uv2.wsMapItems[WSMapItem.GetName(slot2.row, slot2.column)] = uv2:NewItem(slot2)
-				end
-
-				table.insert(uv2.wsMapArtifacts, uv2:NewArtifact(slot3, uv0))
+	for slot7, slot8 in ipairs(slot1.config.float_items) do
+		if slot1:GetCell(slot8[1], slot8[2]) then
+			if not slot0:GetItem(slot9, slot10) then
+				slot0.wsMapItems[WSMapItem.GetName(slot11.row, slot11.column)] = slot0:NewItem(slot11)
 			end
-		end)
+
+			table.insert(slot0.wsMapArtifacts, slot0:NewArtifact(slot12, slot8))
+		end
 	end
 
-	for slot8, slot9 in ipairs(slot4) do
-		for slot13, slot14 in ipairs(slot9.attachments) do
-			slot3:Enqueue(function ()
-				slot0 = uv0:GetCell(uv1.row, uv1.column)
+	for slot7, slot8 in ipairs(slot3) do
+		for slot12, slot13 in ipairs(slot8.attachments) do
+			slot14 = slot0:GetCell(slot13.row, slot13.column)
 
-				if uv1.type == WorldMapAttachment.TypeArtifact then
-					if not uv0:GetItem(uv2.row, uv2.column) then
-						uv0.wsMapItems[WSMapItem.GetName(uv2.row, uv2.column)] = uv0:NewItem(uv2)
-					end
-
-					table.insert(uv0.wsMapArtifactsFA, uv0:NewArtifact(slot1, uv1:GetArtifaceInfo(), uv1))
-				else
-					table.insert(uv0.wsMapAttachments, uv0:NewAttachment(slot0, uv1))
+			if slot13.type == WorldMapAttachment.TypeArtifact then
+				if not slot0:GetItem(slot8.row, slot8.column) then
+					slot0.wsMapItems[WSMapItem.GetName(slot8.row, slot8.column)] = slot0:NewItem(slot8)
 				end
-			end)
+
+				table.insert(slot0.wsMapArtifactsFA, slot0:NewArtifact(slot15, slot13:GetArtifaceInfo(), slot13))
+			else
+				table.insert(slot0.wsMapAttachments, slot0:NewAttachment(slot14, slot13))
+			end
 		end
 	end
 
-	for slot8, slot9 in ipairs(slot1:GetNormalFleets()) do
-		slot3:Enqueue(function ()
-			table.insert(uv0.wsMapFleets, uv0:NewFleet(uv1))
-		end)
+	for slot7, slot8 in ipairs(slot1:GetNormalFleets()) do
+		table.insert(slot0.wsMapFleets, slot0:NewFleet(slot8))
 
-		for slot13, slot14 in ipairs(slot9:GetCarries()) do
-			slot3:Enqueue(function ()
-				table.insert(uv0.wsCarryItems, uv0:NewCarryItem(uv1, uv2))
-			end)
+		for slot13, slot14 in ipairs(slot8:GetCarries()) do
+			table.insert(slot0.wsCarryItems, slot0:NewCarryItem(slot8, slot14))
 		end
 	end
 
-	slot3:Enqueue(function ()
-		uv0:FlushFleets()
-	end)
+	slot0:FlushFleets()
 	slot1:AddListener(WorldMap.EventUpdateFleetFOV, slot0.onUpdateFleetFOV)
 end
 

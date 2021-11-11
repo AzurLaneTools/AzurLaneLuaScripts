@@ -47,7 +47,7 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:display()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		groupName = slot0:getGroupNameFromData()
 	})
 end
@@ -90,7 +90,6 @@ function slot0.display(slot0)
 end
 
 function slot0.filter(slot0, slot1)
-	slot0.etype = slot1
 	slot2 = _.map(pg.emoji_template.all, function (slot0)
 		if pg.emoji_template[slot0].achieve == 0 then
 			return pg.emoji_template[slot0]
@@ -179,8 +178,8 @@ function slot0.filter(slot0, slot1)
 
 			if slot0 == UIItemList.EventUpdate then
 				PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
-					if uv0.etype == uv1 and uv2 then
-						slot0.name = uv3.pic
+					if uv0 then
+						slot0.name = uv1.pic
 
 						if slot0:GetComponent("Animator") then
 							slot1.enabled = false
@@ -190,17 +189,17 @@ function slot0.filter(slot0, slot1)
 							slot1:Pause(true)
 						end
 
-						setParent(slot0, uv2, false)
+						setParent(slot0, uv0, false)
 
-						if table.contains(uv4, uv3.id) then
-							cloneTplTo(uv0.newTag, uv2, "newtag")
-							uv0.emojiProxy:removeNewEmojiID(uv3.id)
+						if table.contains(uv2, uv1.id) then
+							cloneTplTo(uv3.newTag, uv0, "newtag")
+							uv3.emojiProxy:removeNewEmojiID(uv1.id)
 						end
 					else
-						PoolMgr.GetInstance():ReturnPrefab("emoji/" .. uv3.pic, uv3.pic, slot0)
+						PoolMgr.GetInstance():ReturnPrefab("emoji/" .. uv1.pic, uv1.pic, slot0)
 					end
 				end)
-				onButton(uv1, slot2, function ()
+				onButton(uv2, slot2, function ()
 					getProxy(ChatProxy):addUsedEmoji(uv0.id)
 					uv1.contextData.callback(uv0.id)
 					triggerButton(uv1._tf)
@@ -338,8 +337,7 @@ function slot0.willExit(slot0)
 	_.each(slot0.tplCaches, function (slot0)
 		uv0:clearItem(slot0)
 	end)
-
-	slot0.etype = nil
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
 return slot0

@@ -2761,6 +2761,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[11049] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 11049,
+		compose_number = 0,
+		target_id = 0
+	},
 	[13000] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -23370,6 +23381,7 @@ pg.item_data_template = {
 		11046,
 		11047,
 		11048,
+		11049,
 		13000,
 		13001,
 		13002,
