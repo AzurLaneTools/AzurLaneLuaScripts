@@ -8,12 +8,12 @@ pg.attribute_info_by_type = {
 	{
 		id = 2,
 		name = "cannon",
-		condition = "炮击"
+		condition = "炮擊"
 	},
 	{
 		id = 3,
 		name = "torpedo",
-		condition = "雷击"
+		condition = "雷擊"
 	},
 	{
 		id = 4,
@@ -28,12 +28,12 @@ pg.attribute_info_by_type = {
 	{
 		id = 6,
 		name = "reload",
-		condition = "装填"
+		condition = "裝填"
 	},
 	{
 		id = 7,
 		name = "armor",
-		condition = "装甲"
+		condition = "裝甲"
 	},
 	{
 		id = 8,
@@ -43,7 +43,7 @@ pg.attribute_info_by_type = {
 	{
 		id = 9,
 		name = "dodge",
-		condition = "机动"
+		condition = "機動"
 	},
 	{
 		id = 10,
@@ -53,12 +53,12 @@ pg.attribute_info_by_type = {
 	{
 		id = 11,
 		name = "luck",
-		condition = "幸运"
+		condition = "幸運"
 	},
 	{
 		id = 12,
 		name = "antisub",
-		condition = "反潜"
+		condition = "反潛 "
 	},
 	all = {
 		1,

@@ -222,7 +222,7 @@ pg.world_collection_record_template = {
 		mask = "bg/bg_memory",
 		group_ID = 1,
 		icon = "memory_dashijie",
-		condition = "進入第二章-第一節內的利維浦港",
+		condition = "進入第二章-第一節內的利物浦港",
 		story = "WORLD200A"
 	},
 	[100026] = {
