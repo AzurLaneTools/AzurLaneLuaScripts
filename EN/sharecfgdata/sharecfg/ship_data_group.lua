@@ -2302,17 +2302,6 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy/Special Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"Guild shop exchange",
 				{
 					"SHOP",
@@ -2654,17 +2643,6 @@ pg.ship_data_group = {
 					"LEVEL",
 					{
 						chapterid = 503
-					}
-				},
-				0
-			},
-			{
-				"Heavy/Special Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
 					}
 				},
 				0
