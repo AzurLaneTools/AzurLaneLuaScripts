@@ -76,7 +76,7 @@ return {
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 15200302,
+							monsterTemplateID = 15200301,
 							moveCast = true,
 							delay = 2,
 							score = 0,
@@ -91,7 +91,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 15200304,
+							monsterTemplateID = 15200305,
 							moveCast = true,
 							delay = 2,
 							score = 0,
@@ -106,7 +106,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 15200302,
+							monsterTemplateID = 15200301,
 							moveCast = true,
 							delay = 2,
 							score = 0,

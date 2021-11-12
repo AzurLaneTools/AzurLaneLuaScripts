@@ -4084,8 +4084,7 @@ pg.buffCfg = {
 	buff_99996 = require("GameCfg.buff.buff_99996"),
 	buff_99997 = require("GameCfg.buff.buff_99997"),
 	buff_99998 = require("GameCfg.buff.buff_99998"),
-	buff_99999 = require("GameCfg.buff.buff_99999"),
-	skill_28221 = require("GameCfg.buff.skill_28221")
+	buff_99999 = require("GameCfg.buff.buff_99999")
 }
 
 ys.Battle.BattleDataFunction.ConvertBuffTemplate()
