@@ -11903,11 +11903,11 @@ _G.pg.gametip.help_vote = {
 
 <color=#92fc63>조별 경기</color>
 <color=#92fc63>조별 경기</color>는 <color=#92fc63>예선전</color> 상위 200위 이내의 캐릭터들이 자동으로 각각 40명씩 총 5개의 조를 나누어 이루어집니다.
-각 조별로 상위 4명의 캐릭터들은 <color=#92fc63>결승전</color>에 바로 진출합니다. 5~15위는 <color=#92fc63>결승 부활전</color>에 참가합니다.
+각 조별로 상위 4명의 캐릭터들은 <color=#92fc63>결승전</color>에 바로 진출합니다. 5~12위는 <color=#92fc63>결승 부활전</color>에 참가합니다.
 나머지 캐릭터들은 탈락합니다.
 
 <color=#92fc63>결승 부활전</color>
-<color=#92fc63>결승 부활전</color>은 <color=#92fc63>예선 부활전</color>을 통과한 캐릭터 및 <color=#92fc63>조별 경기</color>의 각 조별 5~15위 캐릭터들이 참가합니다.
+<color=#92fc63>결승 부활전</color>은 <color=#92fc63>예선 부활전</color>을 통과한 캐릭터 및 <color=#92fc63>조별 경기</color>의 각 조별 5~12위 캐릭터들이 참가합니다.
 <color=#92fc63>결승 부활전</color>에서는 상위 12명의 캐릭터들이 <color=#92fc63>결승전</color>에 진출하며, 나머지 캐릭터들은 탈락합니다.
 
 <color=#92fc63>결승전</color>
