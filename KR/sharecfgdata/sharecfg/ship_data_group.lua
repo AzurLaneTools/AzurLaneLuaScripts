@@ -18432,7 +18432,7 @@ pg.ship_data_group = {
 			}
 		}
 	},
-	[455] = {
+	[524] = {
 		trans_skin = 0,
 		redirect_id = 101,
 		hide = 0,
@@ -18440,6 +18440,37 @@ pg.ship_data_group = {
 		nationality = 9,
 		handbook_type = 0,
 		index_id = 447,
+		code = 524,
+		group_type = 90301,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 제노바의 화염",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[455] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 9,
+		handbook_type = 0,
+		index_id = 448,
 		code = 455,
 		group_type = 90302,
 		trans_type = 0,
@@ -18470,7 +18501,7 @@ pg.ship_data_group = {
 		type = 4,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 448,
+		index_id = 449,
 		code = 352,
 		group_type = 90401,
 		trans_type = 0,
@@ -18512,7 +18543,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 449,
+		index_id = 450,
 		code = 353,
 		group_type = 90501,
 		trans_type = 0,
@@ -18554,7 +18585,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 450,
+		index_id = 451,
 		code = 418,
 		group_type = 90503,
 		trans_type = 0,
@@ -21163,6 +21194,7 @@ pg.ship_data_group = {
 		394,
 		481,
 		456,
+		524,
 		455,
 		352,
 		353,

@@ -38,6 +38,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot4 = slot0._tf
 	slot4 = slot0._tf
 	slot4 = slot0._tf
+	slot4 = slot0._tf
 	slot0._tagTFs = {
 		slot4:Find("ship/content/top/tags/tag_hot"),
 		slot4:Find("ship/content/top/tags/tag_new"),
@@ -47,7 +48,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 		slot4:Find("ship/content/top/tags/tag_nothing"),
 		slot4:Find("ship/content/top/tags/tag_bought"),
 		slot4:Find("ship/content/top/tags/tag_limit"),
-		slot4:Find("ship/content/top/tags/tag_timelimit")
+		slot4:Find("ship/content/top/tags/tag_timelimit"),
+		slot4:Find("ship/content/top/tags/tag_return")
 	}
 
 	onButton(nil, slot0._go, function ()
@@ -83,17 +85,20 @@ function slot0.update(slot0, slot1)
 		setActive(go(slot0._opriceTxt), slot1:isDisCount() and slot11 > 0)
 
 		slot12 = slot1.buyCount == 0
+		slot13 = slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit
 
-		if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
+		if slot0.view.encoreSkinMap[slot1.id] then
+			setActive(slot0._tagTFs[10], true)
+		elseif slot13 then
 			setActive(slot0._tagTFs[9], true)
 		elseif slot12 then
-			slot14 = slot0.goodsVO:getConfig("tag")
+			slot15 = slot0.goodsVO:getConfig("tag")
 
-			if slot9 or slot14 == 5 then
+			if slot9 or slot15 == 5 then
 				setText(slot0._tagTFs[5]:Find("Text"), slot11 .. "%")
 				setActive(slot0._tagTFs[5], true)
-			elseif slot0._tagTFs[slot14] then
-				setActive(slot0._tagTFs[slot14], true)
+			elseif slot0._tagTFs[slot15] then
+				setActive(slot0._tagTFs[slot15], true)
 			else
 				setActive(slot0._tagTFs[6], true)
 			end

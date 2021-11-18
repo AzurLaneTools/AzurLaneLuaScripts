@@ -13104,7 +13104,7 @@ _G.pg.gametip.index_no_limit = {
 }
 
 _G.pg.gametip.index_awakening = {
-	tip = "각성 가능"
+	tip = "<size=36>각성 가능</size>"
 }
 
 _G.pg.gametip.index_not_lvmax = {
@@ -17839,6 +17839,14 @@ _G.pg.gametip.formationScene_use_oil_limit_tip = {
 	tip = "주회 모드 소모량 상한:"
 }
 
+_G.pg.gametip.index_awakening2 = {
+	tip = "인식 각성II 가능"
+}
+
+_G.pg.gametip.index_upgrade = {
+	tip = "한계돌파 가능"
+}
+
 _G.pg.gametip.formationScene_use_oil_limit_enemy = {
 	tip = "도중"
 }
@@ -17911,6 +17919,42 @@ _G.pg.gametip.attr_consume = {
 	tip = "소모"
 }
 
+_G.pg.gametip.monthly_card_tip = {
+	tip = "30일간 매일 획득 자원"
+}
+
 _G.pg.gametip.shopping_error_time_limit = {
 	tip = "현재 해당 아이템을 구매할 수 없습니다. 인게임 공지를 참고해 주세요."
+}
+
+_G.pg.gametip.world_total_power = {
+	tip = "총전력"
+}
+
+_G.pg.gametip.world_mileage = {
+	tip = "항행 거리"
+}
+
+_G.pg.gametip.world_pressing = {
+	tip = "제압통계"
+}
+
+_G.pg.gametip.equipment_info_change_tip = {
+	tip = "아래 장비의 명칭이 변경되었습니다."
+}
+
+_G.pg.gametip.equipment_info_change_name_a = {
+	tip = "연장 203mm 주포 Mle1924"
+}
+
+_G.pg.gametip.equipment_info_change_name_b = {
+	tip = "연장 203mm 주포 Mle1931"
+}
+
+_G.pg.gametip.equipment_info_change_text_before = {
+	tip = "변경 전"
+}
+
+_G.pg.gametip.equipment_info_change_text_after = {
+	tip = "변경 후"
 }

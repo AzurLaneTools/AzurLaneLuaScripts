@@ -10470,6 +10470,48 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1580001] = {
+		map = 1580001,
+		name = "제노바의 화염|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		enter_story = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "story-french1",
+		ani_name = "Map_1580001",
+		cloud_suffix = "",
+		guide_id = "",
+		uifx = "",
+		on_activity = 20898,
+		ui_type = 1,
+		bg = "Map_1580001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
@@ -12338,6 +12380,7 @@ pg.expedition_data_by_map = {
 		1570012,
 		1570025,
 		1570026,
+		1580001,
 		2100000,
 		2100001,
 		2100010,

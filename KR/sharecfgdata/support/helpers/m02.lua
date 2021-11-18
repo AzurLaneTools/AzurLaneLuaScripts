@@ -920,8 +920,7 @@ end
 function updateDrop(slot0, slot1, slot2)
 	slot2 = slot2 or {}
 	slot3 = type
-	slot4 = slot1.type or slot1.dropType
-	slot5 = ""
+	slot5 = Item.GetConfig(slot1.type or slot1.dropType, slot1.id)
 	slot6 = ""
 	slot8 = nil
 
@@ -963,26 +962,25 @@ function updateDrop(slot0, slot1, slot2)
 	})
 
 	if slot4 == DROP_TYPE_RESOURCE then
-		slot9 = id2ItemId(slot1.id)
-		slot6 = pg.item_data_statistics[slot9].display
+		slot6 = slot5.display
 
 		updateItem(slot0, Item.New({
-			id = slot9
+			id = id2ItemId(slot1.id)
 		}), slot2)
 	elseif slot4 == DROP_TYPE_ITEM then
-		slot6 = pg.item_data_statistics[slot1.id].display
+		slot6 = slot5.display
 
 		updateItem(slot0, Item.New({
 			id = slot1.id
 		}), slot2)
 	elseif slot4 == DROP_TYPE_EQUIP then
-		slot6 = pg.equip_data_statistics[slot1.id].descrip
+		slot6 = slot5.descrip
 
 		updateEquipment(slot0, Equipment.New({
 			id = slot1.id
 		}), slot2)
 	elseif slot4 == DROP_TYPE_SHIP then
-		slot9, slot10, slot11 = ShipWordHelper.GetWordAndCV(pg.ship_data_statistics[slot1.id].skin_id, ShipWordHelper.WORD_TYPE_DROP)
+		slot9, slot10, slot11 = ShipWordHelper.GetWordAndCV(slot5.skin_id, ShipWordHelper.WORD_TYPE_DROP)
 		slot6 = slot11 or i18n("ship_drop_desc_default")
 		slot12 = Ship.New({
 			configId = slot1.id,
@@ -994,12 +992,12 @@ function updateDrop(slot0, slot1, slot2)
 
 		updateShip(slot0, slot12, slot2)
 	elseif slot4 == DROP_TYPE_NPC_SHIP then
-		slot10, slot11, slot12 = ShipWordHelper.GetWordAndCV(pg.ship_data_statistics[getProxy(BayProxy):getShipById(slot1.id).configId].skin_id, ShipWordHelper.WORD_TYPE_DROP)
+		slot10, slot11, slot12 = ShipWordHelper.GetWordAndCV(Item.GetConfig(DROP_TYPE_SHIP, getProxy(BayProxy):getShipById(slot1.id).configId).skin_id, ShipWordHelper.WORD_TYPE_DROP)
 		slot6 = slot12 or i18n("ship_drop_desc_default")
 
 		updateShip(slot0, slot9, slot2)
 	elseif slot4 == DROP_TYPE_FURNITURE then
-		slot6 = pg.furniture_data_template[slot1.id].describe
+		slot6 = slot5.describe
 
 		updateFurniture(slot0, slot1.id, slot2)
 	elseif slot4 == DROP_TYPE_STRATEGY then
@@ -1014,12 +1012,10 @@ function updateDrop(slot0, slot1, slot2)
 		slot2.isSkin = true
 
 		updateShip(slot0, Ship.New({
-			configId = tonumber(pg.ship_skin_template[slot1.id].ship_group .. "1"),
+			configId = tonumber(slot5.ship_group .. "1"),
 			skin_id = slot1.id
 		}), slot2)
 	elseif slot4 == DROP_TYPE_EQUIPMENT_SKIN then
-		slot5 = pg.equip_skin_template[slot1.id]
-
 		updateEquipmentSkin(slot0, {
 			rarity = slot5.rarity,
 			icon = slot5.icon,
@@ -1027,13 +1023,13 @@ function updateDrop(slot0, slot1, slot2)
 			count = slot1.count
 		}, slot2)
 	elseif slot4 == DROP_TYPE_VITEM then
-		slot6 = pg.item_data_statistics[slot1.id].display
+		slot6 = slot5.display
 
 		updateItem(slot0, Item.New({
 			id = slot1.id
 		}), slot2)
 	elseif slot4 == DROP_TYPE_WORLD_ITEM then
-		slot6 = pg.world_item_data_template[slot1.id].display
+		slot6 = slot5.display
 
 		updateWorldItem(slot0, WorldItem.New({
 			id = slot1.id
@@ -1043,9 +1039,9 @@ function updateDrop(slot0, slot1, slot2)
 
 		updateWorldCollection(slot0, slot1, slot2)
 	elseif slot4 == DROP_TYPE_CHAT_FRAME then
-		updateAttire(slot0, AttireConst.TYPE_CHAT_FRAME, pg.item_data_chat[slot1.id], slot2)
+		updateAttire(slot0, AttireConst.TYPE_CHAT_FRAME, slot5, slot2)
 	elseif slot4 == DROP_TYPE_ICON_FRAME then
-		updateAttire(slot0, AttireConst.TYPE_ICON_FRAME, pg.item_data_frame[slot1.id], slot2)
+		updateAttire(slot0, AttireConst.TYPE_ICON_FRAME, slot5, slot2)
 	elseif slot4 == DROP_TYPE_EMOJI then
 		slot5 = pg.emoji_template[slot1.id]
 		slot6 = slot5.item_desc

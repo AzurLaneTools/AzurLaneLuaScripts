@@ -1679,8 +1679,8 @@ _G.pg.item_data_statistics[82] = {
 }
 
 _G.pg.item_data_statistics[83] = {
-	display = "2연장 203mm 주포 Mle1924 T1 설계도",
-	name = "2연장 203mm 주포 Mle1924 T1 설계도",
+	display = "2연장 203mm 주포 Mle1931 T1 설계도",
+	name = "2연장 203mm 주포 Mle1931 T1 설계도",
 	max_num = 0,
 	type = 9,
 	drop_oil_max = 0,
@@ -4430,8 +4430,8 @@ _G.pg.item_data_statistics[10119] = {
 }
 
 _G.pg.item_data_statistics[10120] = {
-	display = "2연장 203mm 주포 Mle1924 T2 설계도",
-	name = "2연장 203mm 주포 Mle1924 T2 설계도",
+	display = "2연장 203mm 주포 Mle1931 T2 설계도",
+	name = "2연장 203mm 주포 Mle1931 T2 설계도",
 	max_num = 0,
 	type = 9,
 	drop_oil_max = 0,
@@ -5438,8 +5438,8 @@ _G.pg.item_data_statistics[11043] = {
 }
 
 _G.pg.item_data_statistics[11046] = {
-	display = "2연장 203mm 주포 Mle1924 T3 설계도 ",
-	name = "2연장 203mm 주포 Mle1924 T3 설계도 ",
+	display = "2연장 203mm 주포 Mle1931 T3 설계도 ",
+	name = "2연장 203mm 주포 Mle1931 T3 설계도 ",
 	max_num = 0,
 	type = 9,
 	drop_oil_max = 0,
@@ -5495,6 +5495,27 @@ _G.pg.item_data_statistics[11048] = {
 	is_world = 0,
 	icon = "Equips/55600",
 	id = 11048,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[11049] = {
+	display = "3연장 381mm 주포 Model 1934 T3 설계도",
+	name = "3연장 381mm 주포 Model 1934 T3 설계도",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/55000",
+	id = 11049,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -137755,6 +137776,679 @@ _G.pg.item_data_statistics[58298] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[58300] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58300,
+	display_icon = {
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			66,
+			1
+		},
+		{
+			2,
+			64,
+			1
+		},
+		{
+			2,
+			10108,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58301] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58301,
+	display_icon = {
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58302] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58302,
+	display_icon = {
+		{
+			2,
+			10000,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		},
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			11049,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58303] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58303,
+	display_icon = {
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			66,
+			1
+		},
+		{
+			2,
+			64,
+			1
+		},
+		{
+			2,
+			10108,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58304] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58304,
+	display_icon = {
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58305] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58305,
+	display_icon = {
+		{
+			2,
+			10000,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		},
+		{
+			2,
+			10108,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58306] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58306,
+	display_icon = {
+		{
+			4,
+			103071,
+			1
+		},
+		{
+			4,
+			103051,
+			1
+		},
+		{
+			4,
+			204021,
+			1
+		},
+		{
+			4,
+			103041,
+			1
+		},
+		{
+			4,
+			103031,
+			1
+		},
+		{
+			4,
+			201121,
+			1
+		},
+		{
+			4,
+			201221,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			102011,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			201111,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58307] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58307,
+	display_icon = {
+		{
+			4,
+			203071,
+			1
+		},
+		{
+			4,
+			801041,
+			1
+		},
+		{
+			4,
+			204021,
+			1
+		},
+		{
+			4,
+			103041,
+			1
+		},
+		{
+			4,
+			103031,
+			1
+		},
+		{
+			4,
+			201121,
+			1
+		},
+		{
+			4,
+			201221,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			102011,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			201111,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[58308] = {
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58308,
+	display_icon = {
+		{
+			4,
+			205011,
+			1
+		},
+		{
+			4,
+			801031,
+			1
+		},
+		{
+			4,
+			204021,
+			1
+		},
+		{
+			4,
+			103041,
+			1
+		},
+		{
+			4,
+			103031,
+			1
+		},
+		{
+			4,
+			201121,
+			1
+		},
+		{
+			4,
+			201221,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			102011,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			201111,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59000] = {
 	display = "참가한 캐릭터는 경험치를 획득할 수 있습니다.",
 	name = "경험치",
@@ -140858,6 +141552,48 @@ _G.pg.item_data_statistics[59248] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59248,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59249] = {
+	display = "『한정 체험 상점』에서 캐릭터 한정 스킨과 교환 가능",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59249,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59250] = {
+	display = "『제노바의 화염』 이벤트용 누적 보상. 이벤트 종료 후 사라짐.",
+	name = "아이리스의 칼날",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fuxu_pt",
+	id = 59250,
 	display_icon = {},
 	price = {},
 	index = {}

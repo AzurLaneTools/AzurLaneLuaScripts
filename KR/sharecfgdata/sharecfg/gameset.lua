@@ -334,8 +334,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "岛风活动PT",
-		key_value = 223
+		description = "福煦活动PT",
+		key_value = 226
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1473,7 +1473,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 224
+		key_value = 225
 	},
 	order_pt_max = {
 		key_value = 0,

@@ -60,6 +60,9 @@ function slot0.init(slot0)
 	slot0.wsWorldInfo:Setup()
 	setText(slot0.rtTopRight:Find("display_panel/title/title"), i18n("world_map_title_tips"))
 	setText(slot0.rtTopRight:Find("display_panel/title/title_en"), i18n("world_map_title_tips_en"))
+	setText(slot0.wsWorldInfo.transform:Find("power/bg/Word"), i18n("world_total_power"))
+	setText(slot0.wsWorldInfo.transform:Find("explore/mileage/Text"), i18n("world_mileage"))
+	setText(slot0.wsWorldInfo.transform:Find("explore/pressing/Text"), i18n("world_pressing"))
 
 	slot1 = slot0.rtTop
 	slot0.rtTopBottom = slot1:Find("bottom_stage")

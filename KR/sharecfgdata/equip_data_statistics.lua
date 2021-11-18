@@ -106184,6 +106184,57 @@ _G.pg.equip_data_statistics[78212] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.equip_data_statistics[78221] = {
+	type = 1,
+	name = "全弹发射-絮弗伦级I",
+	speciality = "없음",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 78221,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		78221
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.equip_data_statistics[78222] = {
+	id = 78222,
+	name = "全弹发射-絮弗伦级II",
+	base = 78221,
+	weapon_id = {
+		78222
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.equip_data_statistics[79011] = {
 	type = 1,
 	name = "0",
@@ -118098,7 +118149,7 @@ _G.pg.equip_data_statistics[90847] = {
 
 _G.pg.equip_data_statistics[90860] = {
 	tech = 1,
-	name = "2연장 203mm 주포 Mle1924",
+	name = "2연장 203mm 주포 Mle1931",
 	speciality = "추적",
 	type = 3,
 	descrip = "说明未填写",
@@ -118219,7 +118270,7 @@ _G.pg.equip_data_statistics[90866] = {
 
 _G.pg.equip_data_statistics[90880] = {
 	tech = 2,
-	name = "2연장 203mm 주포 Mle1924",
+	name = "2연장 203mm 주포 Mle1931",
 	speciality = "추적",
 	type = 3,
 	descrip = "说明未填写",
@@ -118380,7 +118431,7 @@ _G.pg.equip_data_statistics[90890] = {
 
 _G.pg.equip_data_statistics[90900] = {
 	tech = 3,
-	name = "2연장 203mm 주포 Mle1924",
+	name = "2연장 203mm 주포 Mle1931",
 	speciality = "추적",
 	type = 3,
 	descrip = "说明未填写",
@@ -118756,6 +118807,97 @@ _G.pg.equip_data_statistics[91013] = {
 	base = 91000,
 	weapon_id = {
 		91013
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91100] = {
+	tech = 1,
+	name = "2연장 203mm 주포 Mle1924",
+	speciality = "추적",
+	type = 3,
+	descrip = "说明未填写",
+	ammo = 2,
+	damage = "24 x 4",
+	nationality = 8,
+	rarity = 2,
+	id = 91100,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 5,
+	icon = "51100",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1416
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1416
+		},
+		{
+			4,
+			1205
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		91100
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"CA",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.equip_data_statistics[91101] = {
+	id = 91101,
+	damage = "26 x 4",
+	base = 91100,
+	weapon_id = {
+		91101
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91102] = {
+	id = 91102,
+	damage = "28 x 4",
+	base = 91100,
+	weapon_id = {
+		91102
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.equip_data_statistics[91103] = {
+	id = 91103,
+	damage = "30 x 4",
+	base = 91100,
+	weapon_id = {
+		91103
 	},
 	hidden_skill_id = {}
 }
