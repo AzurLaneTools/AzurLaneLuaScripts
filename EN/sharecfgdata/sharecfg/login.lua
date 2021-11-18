@@ -167,8 +167,8 @@ pg.login = {
 	},
 	{
 		id = 6,
-		login_static = "login",
-		login_cri = "",
+		login_static = "login_20211118",
+		login_cri = "loginbg_20211118",
 		bgm = "",
 		date = {
 			timer,

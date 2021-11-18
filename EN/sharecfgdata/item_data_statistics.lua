@@ -15824,6 +15824,63 @@ _G.pg.item_data_statistics[40975] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[40976] = {
+	display = "Contains 1 Random Outfit, 2021 Gems, 50 Cognitive Chips, 35 Wisdom Cubes, 2 Special General Blueprints - Series 4, 12 Quick Finishers, and 100 Decor Tokens ",
+	name = "Black Friday Lucky Music Box",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai72",
+	id = 40976,
+	display_icon = {
+		{
+			2,
+			69971,
+			1
+		},
+		{
+			1,
+			4,
+			2021
+		},
+		{
+			2,
+			42036,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			35
+		},
+		{
+			2,
+			15003,
+			12
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[41201] = {
 	display = "A Valentine Gift from UniversalBulin",
 	name = "Valentine Gift ",
@@ -150079,6 +150136,41 @@ The available outfits and their rarities are as follows:
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69970,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[69971] = {
+	display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
+The available outfits and their rarities are as follows:
+（<color=#92fc63>8.0%</color>）Surcouf - Loisirs Balnéaires<color=#92fc63> Live2D</color>;
+（<color=#92fc64>8.0%</color>）Kashino - Hot Springs Relaxation<color=#92fc63> Live2D</color>;
+（<color=#92fc65>8.4%</color>）Hermione  - Pure White Holiday<color=#92fc63> Live2D</color>;
+（<color=#92fc66>8.6%</color>）Peter Strasser - Chronos's Kalendae<color=#92fc63> Live2D</color>;
+（<color=#92fc67>8.4%</color>）Jean Bart - First Snow Upon the Cutlass's Edge<color=#92fc63> Live2D</color>;
+（<color=#92fc68>8.4%</color>）Richelieu - Evergreen Prophecy<color=#92fc63> Live2D</color>;
+（<color=#92fc69>8.6%</color>）Cheshire - Cait Sith Crooner<color=#92fc63> Live2D</color>;
+（<color=#92fc70>8.1%</color>）Glorious - Pungent Plum<color=#92fc63> Live2D</color>;
+（<color=#92fc71>8.6%</color>）Bremerton - Kung Fu Cruiser<color=#92fc63> Live2D</color>;
+（<color=#92fc72>8.1%</color>）La Galissonnière - Lush Spring Dreams<color=#92fc63> Live2D</color>;
+（<color=#92fc73>8.4%</color>）Vittorio Veneto - The Flower of La Spezia<color=#92fc63> Live2D</color>;
+（<color=#92fc74>8.4%</color>）Pola  - Seaside Coincidence<color=#92fc63> Live2D</color>]],
+	name = "Random Ship skin ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69971,
 	display_icon = {},
 	price = {},
 	index = {}
