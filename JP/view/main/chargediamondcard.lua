@@ -64,6 +64,7 @@ function slot0.updateForMonthTF(slot0, slot1, slot2)
 	slot8 = slot0.monthTF:Find("Mask")
 	slot9 = slot0.monthTF:Find("Mask/LimitText")
 
+	setText(slot0.monthTF:Find("Tip/Text"), i18n("monthly_card_tip"))
 	setText(slot0.monthTF:Find("ResCountText"), "x" .. slot1:getConfig("gem"))
 	setText(slot0.monthTF:Find("Price/Text"), slot1:getConfig("money"))
 

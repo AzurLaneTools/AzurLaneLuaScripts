@@ -1,5 +1,250 @@
 pg = pg or {}
 pg.ship_skin_template_15 = {
+	[502023] = {
+		ship_group = 50202,
+		name = "東煌シスターズ！・N",
+		bullet_skin_secondary = "",
+		hand_id = 15,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "120",
+		id = 502023,
+		group_index = 3,
+		prefab = "ninghai_4",
+		painting = "ninghai_4",
+		shop_id = 70262,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 11,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "艦隊に着任してから家計がだいぶ楽になったけど、気を緩めたりしてはダメよ！…というわけで、「東煌シスターズ」、姉の寧海よ！よろしく頼むわ！",
+		voice_actor = 22,
+		spine_offset = "",
+		illustrator = 5,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			130,
+			-150,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.125,
+					1.019,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.058,
+					0.986,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					-0.012,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.074,
+					1.019,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.23,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			login = 10.33,
+			home = 4
+		}
+	},
+	[502024] = {
+		ship_group = 50202,
+		name = "新年旅行in重桜",
+		bullet_skin_secondary = "",
+		hand_id = 15,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "129",
+		id = 502024,
+		group_index = 4,
+		prefab = "ninghai_5",
+		painting = "ninghai_5",
+		shop_id = 70289,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官、なにぼさっとしてるの？こっちよ！これ、揺らしたら金運も良くなるって！",
+		voice_actor = 22,
+		spine_offset = "",
+		illustrator = 5,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.2,
+					1.22,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.2,
+					1.22,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.13
+				}
+			},
+			antiaircraft = {
+				{
+					1.2,
+					1.22,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.23,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[502025] = {
 		ship_group = 50202,
 		name = "ゴージャス・ヴァイオレット",
@@ -8141,234 +8386,6 @@ pg.ship_skin_template_15 = {
 						{
 							-0.513,
 							2.157,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[702031] = {
-		ship_group = 70203,
-		name = "縛られし白騎兵",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "130",
-		id = 702031,
-		group_index = 1,
-		prefab = "qiabayefu_2",
-		painting = "qiabayefu_2",
-		shop_id = 70321,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 12,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指揮官、これは一体どういうこと？まさか私、何か悪いことでもしたの…？これってただの演習なの…？",
-		voice_actor = 223,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.953,
-					0.92,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.961,
-					0.95,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.016,
-					0.032,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.942,
-					0.95,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.486,
-							2.35,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[702032] = {
-		ship_group = 70203,
-		name = "白騎兵の休日",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "109",
-		id = 702032,
-		group_index = 2,
-		prefab = "qiabayefu_3",
-		painting = "qiabayefu_3",
-		shop_id = 70514,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1101",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ふは…あら指揮官、ごめんなさい出迎えそびれちゃったわ。そこまでかしこまらなくていいわよ、あなたなら変なことをしないってことはもう分かっているわ。ふふ",
-		voice_actor = 223,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.008,
-					0.995,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.005,
-					1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.001,
-					1,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.486,
-							2.35,
 							0
 						}
 					}

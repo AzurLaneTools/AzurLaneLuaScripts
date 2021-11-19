@@ -2232,7 +2232,7 @@ pg.activity_shop_extra = {
 		id = 77,
 		num = 1,
 		num_limit = 1,
-		order = 6,
+		order = 15,
 		scene = {
 			"crusing",
 			{}
