@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这里是？……",
+			say = "這裡是？……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "看起来进入了未知的海域，深蓝色的海水上漂浮着紫灰色的暗云，空气里充斥着浓郁的海盐气息，以及阵阵铁锈的味道……",
+			say = "看起來進入了未知的海域，深藍色的海水上漂浮著紫灰色的暗雲，空氣裡充斥著濃郁的海鹽氣息，以及陣陣鐵鏽的味道……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谨慎调查周围异常海域，找到未知海域的出口。",
+			say = "謹慎調查周圍異常海域，找到未知海域的出口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

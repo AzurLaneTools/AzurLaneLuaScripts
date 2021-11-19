@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "不稳定空间即将破碎，指挥官请立刻撤离回到安全海域！",
+			say = "不穩定空間即將破碎，指揮官請立刻撤離回到安全海域！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

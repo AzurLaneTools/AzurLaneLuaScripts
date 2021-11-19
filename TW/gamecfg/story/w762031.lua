@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "无法从此处通过..有什么办法能解开机关吗？",
+			say = "無法從此處通過..有什麼辦法能解開機關嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1

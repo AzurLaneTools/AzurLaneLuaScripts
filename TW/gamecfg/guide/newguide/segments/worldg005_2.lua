@@ -7,7 +7,7 @@ return {
 				"ForceClick"
 			},
 			style = {
-				text = "您已经到达大型作战海域，请点击出发区域",
+				text = "您已經到達大型作戰海域，請點擊出發區域",
 				mode = 2,
 				posY = -260,
 				dir = -1,

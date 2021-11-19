@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "火焰在飞快的缩小，要停留在这里么？",
+			say = "火焰在飛快的縮小，要停留在這裡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 					flag = 0
 				},
 				{
-					content = "离开",
+					content = "離開",
 					flag = 1
 				}
 			}
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 0,
-			say = "脚下洋流开始涌动……",
+			say = "腳下洋流開始湧動……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

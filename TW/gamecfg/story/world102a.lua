@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_story_newyork",
 			dir = 1,
-			say = "NY港·近海 舰队集结地",
+			say = "NY港·近海 艦隊集結地",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诸位，感谢你们响应指挥部的号召从各地远道而来。",
+			say = "諸位，感謝你們響應指揮部的號召從各地遠道而來。",
 			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
@@ -55,7 +55,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "自从塞壬出现后，我们已经很久没有享受过这么舒爽的海风，我们的舰队也很久没有这样自由地驰骋在这片大海上了。",
+			say = "自從塞壬出現後，我們已經很久沒有享受過這麼舒爽的海風，我們的艦隊也很久沒有這樣自由的馳騁在這片大海上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的战斗有过黑暗的时刻，我们失去了海洋，失去了至亲，失去了几乎所有的一切......",
+			say = "我們的戰鬥有過黑暗的時刻，我們失去了海洋，失去了至親，失去了幾乎我們的一切……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是，多亏先烈们在至暗之时没有放弃希望，在至暗之时没有停止抵抗————",
+			say = "但是，多虧先烈們在至暗之時沒有放棄希望，在至暗之時沒有停止抵抗————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们才得以迎来今天这反击的时刻！",
+			say = "我們才得以贏來迎來了今天這反擊的時刻！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在，我们最强大的舰队集结于这片海面之上，而这支强大的舰队只有一个目标————",
+			say = "現在，我們最強大的艦隊集結於這片海面之上，而這支強大的艦隊只有一個目標————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "夺回这片，属于我们的大海！",
+			say = "奪回這片，屬於我們的大海！",
 			effects = {
 				{
 					active = true,
@@ -163,7 +163,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们已经沉寂太久，忍耐太久了————今天，就是我们对塞壬清算的开始！",
+			say = "我們已經沉寂太久，忍耐太久了————今天，就是我們對塞壬清算的開始！",
 			effects = {
 				{
 					active = false,
@@ -186,7 +186,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗吧！不论前路多么漫长、多么艰苦，我们都要取得胜利。唯有胜利，才能让我们赢得继续生存下去的权利！",
+			say = "戰鬥吧！不論前路多麼漫長、多麼艱苦，我們都要取得勝利。唯有勝利，才能讓我們贏得繼續生存下去的權利！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我知道诸位对于赤色中轴的看法，也知道我们与赤色中轴的恩怨。",
+			say = "我知道諸位對於赤色中軸的看法，也知道我們與赤色中軸的恩怨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但归根结底，塞壬才是我们真正的敌人。请诸位一定要避免无谓的冲突，严格按照作战计划执行。",
+			say = "但歸根結底，塞壬才是我們真正的敵人。請諸位一定要避免無謂的衝突，嚴格按照作戰計劃執行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我谨代表碧蓝航线指挥部宣布，本次NA海域战役正式开始！",
+			say = "我謹代表碧藍航線指揮部宣布，本次NA海域戰役正式開始！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "祝诸位攻无不克，凯旋而归！",
+			say = "祝諸位攻無不克，凱旋而歸！",
 			effects = {
 				{
 					active = true,
@@ -287,7 +287,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "真是精彩的演说啊，胡德。我也感觉热血沸腾了...",
+			say = "真是精彩的演說啊，胡德。我也感覺熱血沸騰了...",
 			bgm = "story-richang",
 			flashout = {
 				black = true,
@@ -322,7 +322,7 @@ return {
 			},
 			options = {
 				{
-					content = "赞同企业的看法",
+					content = "贊同企業的看法",
 					flag = 1
 				}
 			}
@@ -334,7 +334,7 @@ return {
 			actor = 204030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，你们都过奖了。指挥官，本次作战中指挥部新引入的辅助AI用的还习惯么？",
+			say = "呵呵，你們過獎了。指揮官，本次作戰中指揮部新引入的輔助AI用的還習慣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			say = "是指那个名字叫领航员-TB的联络官么————",
+			say = "是指那個名字叫領航員-TB的聯絡官嗎————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,11 +359,11 @@ return {
 			},
 			options = {
 				{
-					content = "「看起来有种熟悉的感觉」",
+					content = "「看起來有種熟悉的感覺」",
 					flag = 1
 				},
 				{
-					content = "「稍微有些不太习惯」",
+					content = "「稍微有些不太習慣」",
 					flag = 2
 				}
 			}
@@ -375,7 +375,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "毕竟TB造型设计上是可爱的女孩子嘛，指挥官有种熟悉的感觉也是正常的~",
+			say = "畢竟TB造型設計上是可愛的女孩子嘛，指揮官有種熟悉的感覺也是正常的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "果然会这样么...毕竟是一个全新的作战系统。指挥部也是考虑到这一点才将系统的虚拟形象设计成亲和力比较强的少女吧。",
+			say = "果然會這樣嗎...畢竟是一個全新的作戰系統。指揮部也是考慮到這一點才將系統的虛擬形象設計成親和力比較強的少女吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本次作战中我将作为副官协助您更好的进行作战，请多关照。",
+			say = "本次作戰中我將作為副官協助您更好的進行作戰，請多關照。",
 			voice = "event:/tb/6/tb-6",
 			typewriter = {
 				speed = 0.05,
@@ -418,7 +418,7 @@ return {
 			},
 			options = {
 				{
-					content = "「请多关照」",
+					content = "「請多關照」",
 					flag = 1
 				}
 			}
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			say = "（AI，也就是机械编程设计出来的辅助程序么......不过这个形象和声音，果然还是很难单纯当成机械对待啊...）",
+			say = "（AI，也就是機械程式設計出來的輔助程序嗎......不過這個形象和聲音，果然還是很難單純當成機械對待啊...）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作战计划和海域地图等众多情报已经记录在领航员小姐那里了，如果作战中有什么不清楚的地方，不用害羞，尽管向她提问吧~",
+			say = "作戰計劃和海域地圖等眾多情報已經記錄在領航員小姐那裡了，如果作戰中有什麼不清楚的地方，儘管向她提問吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "领航员小姐也会作为前线舰队和司令部之间的中转和联络官。这次我们加强了通讯系统，塞壬肯定没法像以前那样轻易干扰我们了！.........大概。",
+			say = "領航員小姐也會作為前線艦隊和司令部之間的中轉和聯絡官。這次我們加強了通訊系統，塞壬肯定沒法像以前那樣輕易干擾我們了！ .........大概。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以要和领航员小姐好好相处哦~",
+			say = "所以要和領航員小姐好好相處哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那么指挥官，企业，胡德，我也要先返回司令部了，希望我们所有人的作战都能顺利进行！",
+			say = "那麼指揮官，企業，胡德，我也要先返回司令部了，希望我們所有人的作戰都能順利進行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "是否开始运输能源矩阵？",
+			say = "是否開始運輸能源矩陣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

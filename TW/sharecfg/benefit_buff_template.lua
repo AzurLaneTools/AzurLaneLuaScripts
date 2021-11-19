@@ -48,7 +48,62 @@ pg.benefit_buff_template = {
 			60
 		}
 	},
-	[10] = {
+	{
+		name = "石油消耗增加",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "普通關卡、困難關卡、活動關卡的油耗增加200%",
+		benefit_effect = "100",
+		id = 5,
+		icon = "Props/xinshou",
+		benefit_type = "more_oil"
+	},
+	{
+		name = "指揮官經驗加成",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "普通關卡、困難關卡、活動關卡的指揮官經驗獲取提高200%",
+		benefit_effect = "100",
+		id = 6,
+		icon = "Props/xinshou",
+		benefit_type = "user_battle_exp"
+	},
+	{
+		name = "艦娘經驗加成",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "普通關卡、困難關卡、活動關卡的角色經驗獲取提高200%",
+		benefit_effect = "100",
+		id = 7,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp"
+	},
+	{
+		name = "掉落加成",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "普通關卡、困難關卡、活動關卡額外掉落一次",
+		benefit_effect = "1",
+		id = 8,
+		icon = "Props/xinshou",
+		benefit_type = "extra_drop"
+	},
+	{
+		name = "活動掉落加成",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "活動掉落額外掉落一次，不與每日首次掉落疊加",
+		benefit_effect = "1",
+		id = 9,
+		icon = "Props/xinshou",
+		benefit_type = "extra_activity_drop"
+	},
+	{
 		name = "學業",
 		hide = 0,
 		max_time = 86400,
@@ -59,7 +114,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_minigame_10",
 		benefit_type = "skill_learncost_up"
 	},
-	[11] = {
+	{
 		name = "事業",
 		hide = 0,
 		max_time = 86400,
@@ -70,7 +125,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_minigame_11",
 		benefit_type = "battle_buff"
 	},
-	[12] = {
+	{
 		name = "姻緣",
 		hide = 0,
 		max_time = 86400,
@@ -81,7 +136,7 @@ pg.benefit_buff_template = {
 		icon = "Props/buff_minigame_12",
 		benefit_type = "intimacy_up_extra"
 	},
-	[13] = {
+	{
 		benefit_effect = "3",
 		name = "艦娘經驗加成1",
 		hide = 0,
@@ -99,7 +154,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[14] = {
+	{
 		benefit_effect = "4",
 		name = "艦娘經驗加成2",
 		hide = 0,
@@ -117,7 +172,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[15] = {
+	{
 		benefit_effect = "5",
 		name = "艦娘經驗加成3",
 		hide = 0,
@@ -135,7 +190,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[16] = {
+	{
 		benefit_effect = "500",
 		name = "戰鬥傷害加成1",
 		hide = 0,
@@ -153,7 +208,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[17] = {
+	{
 		benefit_effect = "502",
 		name = "戰鬥傷害加成2",
 		hide = 0,
@@ -171,7 +226,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[18] = {
+	{
 		benefit_effect = "504",
 		name = "戰鬥傷害加成3",
 		hide = 0,
@@ -189,7 +244,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[19] = {
+	{
 		benefit_effect = "300",
 		name = "戰術學院學習時間縮短1",
 		hide = 0,
@@ -207,7 +262,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[20] = {
+	{
 		benefit_effect = "400",
 		name = "戰術學院學習時間縮短2",
 		hide = 0,
@@ -225,7 +280,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[21] = {
+	{
 		benefit_effect = "500",
 		name = "戰術學院學習時間縮短3",
 		hide = 0,
@@ -243,7 +298,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[22] = {
+	{
 		benefit_effect = "3",
 		name = "後宅經驗加成1",
 		hide = 0,
@@ -261,7 +316,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[23] = {
+	{
 		benefit_effect = "4",
 		name = "後宅經驗加成2",
 		hide = 0,
@@ -279,7 +334,7 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[24] = {
+	{
 		benefit_effect = "5",
 		name = "後宅經驗加成3",
 		hide = 0,
@@ -297,12 +352,12 @@ pg.benefit_buff_template = {
 			}
 		}
 	},
-	[25] = {
-		name = "活動關卡特裝原型掉落加成",
+	{
+		name = "活动关卡特装原型掉落加成",
 		hide = 0,
 		max_time = 0,
 		benefit_condition = "",
-		desc = "通過「蝶海夢花」活動關卡獲得的特裝原型數量翻倍",
+		desc = "通过「蝶海梦花」活动关卡获得的特装原型数量翻倍",
 		benefit_effect = "0",
 		id = 25,
 		icon = "Props/buff_urptup",
@@ -488,11 +543,38 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
+	[47] = {
+		name = "特殊作戰加成描述",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "61001",
+		desc = "消耗2倍石油\n結算收益2倍",
+		benefit_effect = "0",
+		id = 47,
+		icon = "Props/xinshou",
+		benefit_type = "desc"
+	},
+	[48] = {
+		name = "特殊作戰加成",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "好感度、心情值、指揮官經驗、指揮喵經驗、艦船經驗加成",
+		benefit_effect = "100",
+		id = 48,
+		icon = "Props/xinshou",
+		benefit_type = "chapter_up"
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
+		5,
+		6,
+		7,
+		8,
+		9,
 		10,
 		11,
 		12,
@@ -520,6 +602,8 @@ pg.benefit_buff_template = {
 		43,
 		44,
 		45,
-		46
+		46,
+		47,
+		48
 	}
 }

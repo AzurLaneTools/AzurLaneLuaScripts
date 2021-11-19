@@ -9,7 +9,7 @@ return {
 			actor = 307010,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "空气中有硝烟的味道......这个无比熟悉的感觉……这里是AF作战的战场？",
+			say = "空氣中有硝煙的味道......這個無比熟悉的感覺……這裡是AF作戰的戰場？",
 			dir = 1,
 			bgm = "battle-boss-italy",
 			effects = {
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对........没错，没错！现在就是在AF作战的战场上！！！那个灰色幽灵就在这里！！！！",
+			say = "對........沒錯，沒錯！現在就是在AF作戰的戰場上！！！那個灰色幽靈就在這裡！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶......如果AF作战顺利的话，白鹰原本会彻底失去在帕克菲克洋与我们交手的实力...都是那个灰色幽灵.........！",
+			say = "可惡......如果AF作戰順利的話，白鷹原本會徹底失去在太平洋與我們交手的實力...都是那個灰色幽靈.........！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这场由我亲自带领的作战，居然会以惨败而结束.........",
+			say = "這場由我親自帶領的作戰，居然會以慘敗而結束.........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就连姐姐的护符也在最后..........................",
+			say = "就連姐姐的護符也在最後..........................",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个可是姐姐留给我的.........",
+			say = "那個可是姐姐留給我的.........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能原谅，不能原谅，不能原谅......只有那个灰色幽灵，绝对不能原谅！",
+			say = "不能原諒，不能原諒，不能原諒......只有那個灰色幽靈，絕對不能原諒！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,8 +143,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "企业？",
-			say = "能让重樱的{namecode:91}大人记到现在，还真是我的荣幸啊。",
+			actorName = "企業？",
+			say = "能讓重櫻的赤城大人記到現在，還真是我的榮幸啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,8 +160,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "大黄蜂？",
-			say = "那次可真是一场畅快的战斗，你的指挥非常的出色哦~",
+			actorName = "大黃蜂？",
+			say = "那次可真是一場暢快的戰鬥，妳的指揮非常的出色哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,8 +177,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "约克城？",
-			say = "呵呵，如果想要复仇的话，我们随时随地，都可以与你再来一场AF作战哦。",
+			actorName = "約克城？",
+			say = "呵呵，如果想要復仇的話，我們隨時隨地，都可以與妳再來一場AF作戰哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,8 +194,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "企业？",
-			say = "回去之后你们好像将那次失败归结于命运的五分钟吧，其实就算再给你五十分钟你又能做到些什么呢？",
+			actorName = "企業？",
+			say = "回去之後妳們好像將那次失敗歸結於命運的五分鐘吧，其實就算再給妳五十分鐘妳又能做到些什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,8 +211,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "大黄蜂？",
-			say = "啊，上次你好像连{namecode:161}姐姐留给你的护符都弄坏了吧，明明已经再也不能拿到新的了，真是可惜~",
+			actorName = "大黃蜂？",
+			say = "啊，上次妳好像連天城姐姐留給妳的護符都弄壞了吧，明明已經再也不能拿到新的了，真是可惜~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都给我闭嘴.............呵呵呵呵呵，我本来正要找你们呢，你们反而自己送上门来了！",
+			say = "都給我閉嘴.............呵呵呵呵呵，我本來正要找妳們呢，妳們反而自己送上門來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,8 +253,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "企业？",
-			say = "上次是因为塞壬的搅局才让你们侥幸逃生的，要是想再打一场的话，我们随时奉陪哦。",
+			actorName = "企業？",
+			say = "上次是因為塞壬的攪局才讓妳們僥倖逃生的，要是想再打一場的話，我們隨時奉陪哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".................呵，求之不得！你们以为我是没有任何成长就能走到今天这一步的么？以为我是什么准备都没做就来到这里的么！",
+			say = ".................呵，求之不得！妳們以為我是沒有任何成長就能走到今天這一步的嗎？以為我是什麼準備都沒做就來到這裡的嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "弱肉强食，优胜劣汰，此乃世间万物之理......",
+			say = "弱肉強食，優勝劣汰，此乃世間萬物之理......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "我已经不是曾经那个只能躲在姐姐身后的{namecode:91}了！！！！！",
+			say = "我已經不是曾經那個只能躲在姐姐身後的赤城了！！！！！",
 			effects = {
 				{
 					active = true,

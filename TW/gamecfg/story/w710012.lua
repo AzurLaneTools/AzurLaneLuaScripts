@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "洋流流动了起来！",
+			say = "洋流流動了起來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "大部分海域看起来还是处于封锁状态……洋流并没有贯通……",
+			say = "大部分海域看起來還是處於封鎖狀態……洋流並沒有貫通……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

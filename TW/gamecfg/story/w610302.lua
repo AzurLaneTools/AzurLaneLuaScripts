@@ -10,18 +10,18 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，已到达指定区域。是否开始进行打捞作业？",
+			say = "分析模組同步中：指揮官，已到達指定區域。是否開始進行打撈作業？",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "打捞",
+					content = "打撈",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "離開",
 					flag = 2
 				}
 			}

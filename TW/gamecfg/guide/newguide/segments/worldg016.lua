@@ -32,7 +32,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "长按对象可以切换分析模式",
+				text = "長按對象可以切換分析模式",
 				mode = 2,
 				posY = -320,
 				dir = -1,
@@ -87,7 +87,7 @@ return {
 				"explainDetail"
 			},
 			style = {
-				text = "玩家可以在分析仪模式下查看战斗对象的情报或者调查点的信息.",
+				text = "玩家可以在分析儀模式下查看戰鬥對象的情報或者調查點的訊息.",
 				mode = 2,
 				posY = -200,
 				dir = 1,

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海域中央的石柱越来越拥挤了。",
+			say = "海域中央的石柱越來越擁擠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "将能源矩阵归位！",
+			say = "將能源矩陣歸位！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：周围海域出现了异常海况，请小心行动。",
+			say = "警告：周圍海域出現了異常海況，請小心行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析模块同步中：指挥官，前往海豹出现区域的航线被巨型浮冰挡住了。",
+			say = "分析模組同步中：指揮官，前往海豹出現區域的航線被巨型浮冰擋住了。",
 			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "建议：在海雾中寻找实验场气候调节装置可以消除巨型浮冰的影响。",
+			say = "建議：在海霧中尋找實驗場氣候調節裝置可以消除巨型浮冰的影響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

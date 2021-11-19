@@ -9,7 +9,7 @@ return {
 			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "喂————{namecode:91}、{namecode:37}！{namecode:39}、{namecode:22}！你们都去哪儿了？！",
+			say = "喂————赤城、夕張！神通、雪風！妳們都去哪兒了？！",
 			dir = 1,
 			bgm = "battle-boss-italy",
 			effects = {
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			actor = 305070,
 			dir = 1,
-			say = "奇怪.......怎么突然所有人都消失了。",
+			say = "奇怪.......怎麼突然所有人都消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			actor = 305070,
 			dir = 1,
-			say = "没有塞壬趁机袭击过来总算是万幸，不过.......仪器大半失灵，海雾又这么浓厚，这是要迷航了啊。",
+			say = "沒有塞壬趁機襲擊過來總算是萬幸，不過.......儀器大半失靈，海霧又這麼濃厚，這是要迷航了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 305070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？等等，我的舰装怎么变回战列舰了.......？",
+			say = "嗯？等等，我的艦裝怎麼變回戰列艦了.......？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:161}？",
-			say = "好久不见啊，{namecode:92}。看来你现在过得不错，已经能带领舰队前往远海作战了么？",
+			say = "好久不見啊，加賀。看來妳現在過得不錯，已經能帶領艦隊前往遠海作戰了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:161}？",
-			say = "我的妹妹怎么样了，我曾经拜托你替我照顾好她，她现在还好么？",
+			say = "我的妹妹怎麼樣了，我曾經拜託妳替我照顧好她，她現在還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她现在......",
+			say = "她現在......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:161}？",
-			say = "原本能有机会继续服役，与妹妹在一起的人是我，而不是你，{namecode:92}。",
+			say = "原本能有機會繼續服役，與妹妹在一起的人是我，而不是妳，加賀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:161}？",
-			say = "变成今天这个样子并非我的本意。如果现在带领舰队的人是我而不是你，我的妹妹，以及整个重樱都会变得截然不同吧。",
+			say = "變成今天這個樣子並非我的本意。如果現在帶領艦隊的人是我而不是妳，我的妹妹，以及整個重櫻都會變得截然不同吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:161}？",
-			say = "你真是太令我失望了，{namecode:92}。",
+			say = "妳真是太令我失望了，加賀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:161}？",
-			say = "我要在这里消灭你，然后与我的妹妹团聚。",
+			say = "我要在這裡消滅妳，然後與我的妹妹團聚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:161}？",
-			say = "曾经那个不可一世实力至上的{namecode:92}怎么不见了，你在舰装上的主炮都是装饰物么？",
+			say = "曾經那個不可一世實力至上的加賀怎麼不見了，妳在艦裝上的主炮都是裝飾物嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 305070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".........不要太过分了！真正的{namecode:161}是不可能说出这种话来的！虽然不知道你是什么东西，但是我要在这里轰碎你！",
+			say = ".........不要太過分了！真正的天城是不可能說出這種話來的！雖然不知道妳是什麼東西，但是我要在這裡轟碎妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊啊啊啊！！！！！怎么突然就打过来了？！！",
+			say = "哇啊啊啊啊啊啊！！！！！怎麼突然就打過來了？！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好危险，还好{namecode:22}大人没有跑的太靠前......",
+			say = "好危險，還好雪風大人沒有跑的太靠前......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			side = 2,
 			actor = 307020,
 			dir = 1,
-			say = "哎？五航战......？",
+			say = "哎？五航戰......？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:161}怎么不见了......你们见到{namecode:161}了么！我明明刚刚对她开火......",
+			say = "天城怎麼不見了......妳們見到天城了嗎！我明明剛剛對她開火......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开火......？不对...我早就进行了航母化的舰装改造，{namecode:161}也早就已经......究竟是怎么回事？",
+			say = "開火......？不對...我早就進行了航母化的艦裝改造，天城也早就已經......究竟是怎麼回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "究竟是怎么回事是我们想问的才对！",
+			say = "究竟是怎麼回事是我們想問的才對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么{namecode:161}啊.....我们靠近的时候就看到你一个人在对着迷雾手舞足蹈。我们正想靠近你，你的舰载机就突然对我们开火了！",
+			say = "什麼天城啊.....我們靠近的時候就看到妳一個人在對著迷霧手舞足蹈。我們正想靠近妳，妳的艦載機就突然對我們開火了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道是想把我们骗到远洋，再用“意外事故”这样的理由解决掉我们么......这样的玩笑可不好笑哦，前辈。",
+			say = "難道是想把我們騙到遠洋，再用“意外事故”這樣的理由解決掉我們嗎......這樣的玩笑可不好笑哦，前輩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，我绝对没这个意图。真奇怪啊.........对了，你们见到其他人了么？",
+			say = "不，我絕對沒這個意圖。真奇怪啊.........對了，妳們見到其他人了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们是在收到了{namecode:39}发来的联络之后火速赶来的。",
+			say = "我們是在收到了神通發來的聯絡之後火速趕來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是在接近联络中给出的目标海域的时，发现整片海域已经被厚重的海雾覆盖了。",
+			say = "可是在接近聯絡中給出的目標海域時，發現整片海域已經被厚重的海霧覆蓋了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "直觉告诉我，这片海雾肯定超级不妙啦...与你们又一直无法取得联络。",
+			say = "直覺告訴我，這片海霧肯定超級不妙啦...與妳們又一直無法取得聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在犹豫的时候，就看到{namecode:22}从海雾中驶出来了！",
+			say = "正在猶豫的時候，就看到雪風從海霧中駛出來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:22}你一个人脱离了这片海雾么...？",
+			say = "{namecode:22}妳一個人脫離了這片海霧嗎...？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:22}大人也不知道是怎么回事哦...本来大家正在列队行驶，可是你们都突然分头加速驶入了海雾之中！",
+			say = "雪風大人也不知道是怎麼回事哦...本來大家正在列隊行駛，可是妳們都突然分頭加速駛入了海霧之中！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想追上你们问问情况，结果不知不觉就驶出了海雾，还和{namecode:95}{namecode:96}的舰队汇合了......",
+			say = "我想追上妳們問問情況，結果不知不覺就駛出了海霧，還和翔鶴瑞鶴的艦隊匯合了......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们觉得这件事很奇怪，等了很久又没有见到其他人，所以我们才决定驶入海雾一探究竟。",
+			say = "我們覺得這件事很奇怪，等了很久又沒有見到其他人，所以我們才決定駛入海霧一探究竟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			side = 2,
 			actor = 304010,
 			dir = 1,
-			say = "刚才看到你一个人在海面上游荡，本来想去和你打个招呼，结果你就突然对我们发动攻击了哦。",
+			say = "剛才看到妳一個人在海面上游盪，本來想去和妳打個招呼，結果妳就突然對我們發動攻擊了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常抱歉.....我完全没有袭击你们的记忆。我只记得好像变回了战列舰，然后遇到了一个很像{namecode:161}的人..........",
+			say = "非常抱歉.....我完全沒有襲擊妳們的記憶。我只記得好像變回了戰列艦，然後遇到了一個很像天城的人..........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔.......陷入了幻觉，与不存在的幻影战斗......难道这片海雾具有致幻的效果么？",
+			say = "唔.......陷入了幻覺，與不存在的幻影戰鬥......難道這片海霧具有致幻的效果嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			side = 2,
 			actor = 304010,
 			dir = 1,
-			say = "而且还连带有干扰电子效果......绝对不是单纯的自然现象呢。",
+			say = "而且還連帶有干擾電子效果......絕對不是單純的自然現象呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，海面上虽然说常有迷雾，但是附加了这么多奇怪特性的海雾就另当别论了。",
+			say = "嗯，海面上雖然說常有迷霧，但是附加了這麼多奇怪特性的海霧就另當別論了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +841,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "糟糕......！恐怕大家都陷入和{namecode:92}大人一样的奇怪状态了，得赶紧找到大家才行！",
+			say = "糟糕......！恐怕大家都陷入和加賀大人一樣的奇怪狀態了，得趕緊找到大家才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

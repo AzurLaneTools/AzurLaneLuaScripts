@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "战斗结束，敌人没有更多伏击舰队的迹象了。",
+			say = "戰鬥結束，敵人沒有更多伏擊艦隊的跡象了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

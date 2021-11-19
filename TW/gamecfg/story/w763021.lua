@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "岛上的椰子树已经临近枯萎，看不到椰子了。",
+			say = "島上的椰子樹已經臨近枯萎，看不到椰子了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "空间变得稳定了！",
+			say = "空間變得穩定了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "洋流流向了深处......",
+			say = "洋流流向了深處......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

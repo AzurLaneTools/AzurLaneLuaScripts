@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "离开后将无法再次返回该处海域，是否确认离开？",
+			say = "離開後將無法再次返回該處海域，是否確認離開？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,7 +19,7 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "确认",
+					content = "確認",
 					autochoice = 1
 				},
 				{

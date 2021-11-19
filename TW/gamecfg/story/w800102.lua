@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析模块同步中：已经彻底破解了塞壬实验场中的谜题。",
+			say = "分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。",
 			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,

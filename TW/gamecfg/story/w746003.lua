@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "仲裁者出现",
+			say = "仲裁者出現",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

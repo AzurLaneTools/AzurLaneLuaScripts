@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "一只巨大的蛮啾拦住了去路。",
+			say = "一隻巨大的蠻啾攔住了去路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,7 +19,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "路过的蛮啾",
+			actorName = "路過的蠻啾",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "啾啾，好想喝美味的椰子汁..",
@@ -34,7 +34,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "路过的蛮啾",
+			actorName = "路過的蠻啾",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "可是这个季节根本找不到新鲜的椰子啾..",
@@ -49,7 +49,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "路过的蛮啾",
+			actorName = "路過的蠻啾",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "..！",
@@ -67,7 +67,7 @@ return {
 			actorName = "路过的蛮啾",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那边的指挥官！能帮个忙吗啾~？",
+			say = "那邊的指揮官！能幫個忙嗎啾~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,10 +79,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "路过的蛮啾",
+			actorName = "路過的蠻啾",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想和美味的椰子汁，但是这里只有几颗被冻住的椰树种子啾，是从旁边小岛上找到的..",
+			say = "想和美味的椰子汁，但是這裡只有幾顆被凍住的椰子樹種子啾，是從旁邊小島上找到的..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,10 +94,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "路过的蛮啾",
+			actorName = "路過的蠻啾",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能想想办法让它们变成椰子汁吗..",
+			say = "能想想辦法讓它們變成椰子汁嗎..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

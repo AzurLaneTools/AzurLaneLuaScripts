@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "春天播下的种子已经发芽，长出了椰子树！",
+			say = "春天播下的種子已經發芽，長出了椰子樹！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -16,7 +16,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "或许在<color=#92fc63>收获的季节</color>就能喝到美味的椰子水了。",
+			say = "或許在<color=#92fc63>收穫的季節</color>就能喝到美味的椰子水了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "结果确认中：指挥官，能源矩阵已经成功安装至预定位置。",
+			say = "結果確認中：指揮官，能源矩陣已經成功安裝至預定位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "迅速封锁塞壬通道！压制不稳定海域！",
+			say = "迅速封鎖塞壬通道！壓制不穩定海域！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

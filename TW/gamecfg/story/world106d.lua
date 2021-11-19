@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "bsm-1",
-			say = "空气中，漂浮着一些黑色的粒子...？",
+			say = "空氣中，漂浮著一些黑色的粒子...？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "仿佛具有磁性一样...啊，用手一碰就落在海面上了。",
+			say = "彷彿具有磁性一樣...啊，用手一碰就落在海面上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "收集一些样本好了。",
+			say = "收集一些樣本好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

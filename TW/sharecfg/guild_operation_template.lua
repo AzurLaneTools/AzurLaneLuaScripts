@@ -2,12 +2,12 @@ pg = pg or {}
 pg.guild_operation_template = {
 	{
 		consume = 1000,
-		name = "米德维岛哨卫作战",
+		name = "太平洋基地巡邏作戰",
 		unlock_guild_level = 1,
 		theme = "midway",
 		id = 1,
-		profile = "近期米德维岛附近的塞壬反应异常强烈，敌人也许正在酝酿新的攻击，请加强戒备！",
-		scale = "小型远征：1~5人(推荐)",
+		profile = "近期中途島附近的塞壬反應異常強烈，敵人也許正在醞釀新的攻擊，請加強戒備！",
+		scale = "小型遠征：1~5人(推薦)",
 		difficulty = 1,
 		event_type_list = {
 			1,
@@ -33,12 +33,12 @@ pg.guild_operation_template = {
 	},
 	{
 		consume = 2000,
-		name = "北方商路护航作战",
+		name = "北方商路護航作戰",
 		unlock_guild_level = 3,
 		theme = "northern",
 		id = 2,
-		profile = "NA海域中的商路航线最近频繁遭遇塞壬规模不等舰队的袭扰，请带领舰队确保航线通畅，注意安全！",
-		scale = "中型远征：3~8人(推荐)",
+		profile = "NA海域中的商路航線最近頻繁遭遇塞壬規模不等艦隊的襲擾，請帶領艦隊確保航線通暢，注意安全！",
+		scale = "中型遠征：3~8人(推薦)",
 		difficulty = 2,
 		event_type_list = {
 			1,
@@ -63,12 +63,12 @@ pg.guild_operation_template = {
 	},
 	{
 		consume = 3000,
-		name = "半岛攻略战",
+		name = "半島攻略戰",
 		unlock_guild_level = 5,
 		theme = "norskehavet",
 		id = 3,
-		profile = "为了确保重要物资，指挥部需要取得北地半岛的完全控制权。请集结舰队，准备战斗！",
-		scale = "大型远征：6~14人(推荐)",
+		profile = "為了確保重要物資，指揮部需要取得北地半島的完全控制權。請集結艦隊，準備戰鬥！",
+		scale = "大型遠征：6~14人(推薦)",
 		difficulty = 3,
 		event_type_list = {
 			1,
@@ -95,12 +95,12 @@ pg.guild_operation_template = {
 	},
 	{
 		consume = 5000,
-		name = "达古康纳尔岛海空战",
+		name = "瓜達康納爾島海空戰",
 		unlock_guild_level = 7,
 		theme = "guadalcanal",
 		id = 4,
-		profile = "达古康纳尔岛处于群岛争夺作战中的关键位置，敌人航空力量强大，但我们绝对不能失去它！",
-		scale = "大型远征：8~20人(推荐)",
+		profile = "瓜達康納爾島處於群島爭奪作戰中的關鍵位置，敵人航空力量強大，但我們絕對不能失去它！",
+		scale = "大型遠征：8~20人(推薦)",
 		difficulty = 3,
 		event_type_list = {
 			1,
@@ -125,42 +125,10 @@ pg.guild_operation_template = {
 			}
 		}
 	},
-	{
-		consume = 8000,
-		name = "SA海域攻防战",
-		unlock_guild_level = 9,
-		theme = "southatlantic",
-		id = 5,
-		profile = "SA海域中仅有的数个岛屿近日发现了异常的信号源，也许与塞壬实验场有关。请在圣海伦娜集结舰队，前往探查！",
-		scale = "大型远征：10~25人(推荐)",
-		difficulty = 3,
-		event_type_list = {
-			1,
-			2,
-			6,
-			7,
-			8
-		},
-		award_display = {
-			{
-				2,
-				59008
-			},
-			{
-				2,
-				54018
-			},
-			{
-				2,
-				54017
-			}
-		}
-	},
 	all = {
 		1,
 		2,
 		3,
-		4,
-		5
+		4
 	}
 }

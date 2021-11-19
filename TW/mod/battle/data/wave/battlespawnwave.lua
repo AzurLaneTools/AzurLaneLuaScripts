@@ -70,11 +70,7 @@ function slot1.DoWave(slot0)
 		end
 	end
 
-	slot1 = 0
-
-	if PLATFORM_CODE == PLATFORM_CH then
-		slot1 = 0.03
-	end
+	slot1 = 0.03
 
 	for slot5, slot6 in ipairs(slot0._airStrike) do
 		if slot6.delay + slot5 * slot1 <= 0 then

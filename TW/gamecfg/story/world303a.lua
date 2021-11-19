@@ -11,7 +11,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇......这些漂浮在水面上的残骸全都是塞壬的吧......",
+			say = "嗚哇......這些漂浮在水面上的殘骸全都是塞壬的吧......",
 			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			actor = 102090,
 			dir = 1,
-			say = "看来在我们来晚了，错过了一场盛大的战斗呢。",
+			say = "看來我們來晚了，錯過了一場盛大的戰鬥呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大姐头，不光是船体的残骸，塞壬设施可是连带岛礁一起被炸碎了啊！",
+			say = "大姐頭，不光是船體的殘骸，塞壬設施可是連帶島礁被一起被炸碎了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么看都不是皇家方舟一个人能造成的破坏力......",
+			say = "怎麼看都不是皇家方舟一個人能造成的破壞力......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			actor = 102090,
 			dir = 1,
-			say = "埃塞克斯给出的侦察情报应该不会有错，不过现在的情况确实很奇怪。",
+			say = "艾塞克斯給出的偵察情報應該不會有錯，不過現在的情況確實很奇怪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家提高警惕，继续搜索皇家方舟的位置。",
+			say = "大家提高警惕，繼續搜索皇家方舟的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

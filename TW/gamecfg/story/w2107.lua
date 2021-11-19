@@ -7,14 +7,14 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "离开后将无法再次返回该处海域，是否确认离开？",
+			say = "離開後將無法再次返回該處海域，是否確認離開？",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "确认",
+					content = "確認",
 					flag = 1
 				},
 				{

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这是......最后的棋子么......",
+			say = "這是......最後的棋子嗎......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

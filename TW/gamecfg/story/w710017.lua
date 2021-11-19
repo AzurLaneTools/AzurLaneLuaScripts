@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "并没有获得对应的记忆碎片……",
+			say = "並沒有獲得對應的記憶碎片……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：指挥官，我无法通过侦察模块获取前方海域的任何信息。海域之中存在未知强敌的概率接近100%。",
+			say = "警告：指揮官，我無法通過偵察模組獲取前方海域的任何訊息。海域之中存在未知強敵的機率接近100%。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请确认是否解除塞壬区域封锁装置进入海域的深处？",
+			say = "請確認是否解除塞壬區域封鎖裝置進入海域的深處？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,15 +38,15 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "确认",
+					content = "確認",
 					autochoice = 1
 				},
 				{
-					content = "查阅作战说明",
+					content = "查閱作戰說明",
 					flag = 2
 				},
 				{
-					content = "离开",
+					content = "離開",
 					flag = 3
 				}
 			}
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "指令已确认：正在尝试解除塞壬区域封锁装置——————",
+			say = "指令已確認：正在嘗試解除塞壬區域封鎖裝置——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

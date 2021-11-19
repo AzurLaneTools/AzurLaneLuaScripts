@@ -7,7 +7,7 @@ return {
 				"ClickOrder"
 			},
 			style = {
-				text = "点击G.M系统右下角的按钮可以进入分析仪面板。",
+				text = "點擊G.M系統右下角的按鈕可以進入分析儀面板。",
 				mode = 1,
 				posY = 192.3,
 				char = "1",

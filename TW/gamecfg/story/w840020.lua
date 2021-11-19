@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析模块同步中：指挥官，海域中的洋流正在变得愈发湍急。",
+			say = "分析模組同步中：指揮官，海域中的洋流正在變得愈發湍急。",
 			voice = "event:/tb/11/tb-11",
 			typewriter = {
 				speed = 0.05,

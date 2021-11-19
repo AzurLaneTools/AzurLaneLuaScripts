@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "将能源矩阵搬运到目标点！",
+			say = "將能源矩陣搬運到目標點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意海域中央的敌方侦查塔，其警戒范围每回合都会顺时针转动90度，进入警戒范围则任务失败！！",
+			say = "注意海域中央的敵方偵查塔，其警戒範圍每回合都會順時針轉動90度，進入警戒範圍則任務失敗！ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

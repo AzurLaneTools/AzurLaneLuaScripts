@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "进入科研界面",
+				text = "進入科研介面",
 				mode = 2,
 				posY = -308.7,
 				dir = 1,
@@ -27,7 +27,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "现在解锁了META研究室功能",
+				text = "現在解鎖了META研究室功能",
 				mode = 1,
 				posY = 0,
 				dir = 1,
@@ -51,7 +51,7 @@ return {
 			alpha = 0.4,
 			waitScene = "MetaCharacterScene",
 			style = {
-				text = "通过与信标作战可以获取其同步值,累计同步值获取丰厚奖励",
+				text = "通過與信標作戰可以獲取其同步值,累計同步值獲取豐厚獎勵",
 				mode = 1,
 				posY = -236.99,
 				dir = 1,
@@ -61,7 +61,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "奖励领取存在时间限制，过期后将消失，请指挥官注意时间",
+				text = "獎勵領取存在時間限制，過期後將消失，請指揮官注意時間",
 				mode = 2,
 				posY = -236.99,
 				dir = 1,

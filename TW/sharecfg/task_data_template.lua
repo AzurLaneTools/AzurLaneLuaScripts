@@ -20577,6 +20577,283 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5641] = {
+		name = "對你很期待哦！",
+		guild_coin_award = 0,
+		award = 5464,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1000,
+		desc = "提交3個《魚雷天婦羅》",
+		story_icon = "naerxun",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "50003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5642",
+		auto_commit = 0,
+		story_id = "NAERXUN1",
+		target_id_for_client = 50003,
+		id = 5641,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5642] = {
+		name = "別看穿我啊！",
+		guild_coin_award = 0,
+		award = 5465,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "強化任意角色10次",
+		story_icon = "naerxun",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "NAERXUN2",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5643",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 5642,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5643] = {
+		name = "別問我！",
+		guild_coin_award = 0,
+		award = 5466,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 18,
+		desc = "納爾遜上陣出擊(關卡)勝利20次",
+		story_icon = "naerxun",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "NAERXUN3",
+		target_id = "20503",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5644",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 20503,
+		id = 5643,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5644] = {
+		name = "這個話題到此為止！",
+		guild_coin_award = 0,
+		award = 5467,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 19,
+		desc = "納爾遜上陣完成3次每日挑戰",
+		story_icon = "naerxun",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "NAERXUN4",
+		target_id = "20503",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5645",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 20503,
+		id = 5644,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5645] = {
+		name = "給我點反應啊！",
+		guild_coin_award = 0,
+		award = 5468,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1012,
+		desc = "納爾遜好感度達到100",
+		story_icon = "naerxun",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "NAERXUN5",
+		target_id = "20503",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5646",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 20503,
+		id = 5645,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5646] = {
+		name = "想說的只有一件事",
+		guild_coin_award = 0,
+		award = 5469,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 35,
+		desc = "納爾遜突破至滿星",
+		story_icon = "naerxun",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "NAERXUN6",
+		target_id = "205034",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5647",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 205034,
+		id = 5646,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[5647] = {
+		name = "我對你永遠保持期待！",
+		guild_coin_award = 0,
+		award = 5470,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1013,
+		desc = "納爾遜等級達到100",
+		story_icon = "naerxun",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "NAERXUN7",
+		target_id = "20503",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 20503,
+		id = 5647,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				2
+			}
+		}
+	},
 	[5671] = {
 		name = "非常事態？！",
 		guild_coin_award = 0,
@@ -23166,6 +23443,46 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[7210] = {
+		name = "大世界戰鬥一次",
+		guild_coin_award = 0,
+		award = 7210,
+		type = 3,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 304,
+		desc = "艦隊出征，大型作戰中任意海域戰鬥1次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 60,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 7210,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				12,
+				100,
+				300
+			},
+			{
+				2,
+				150000,
+				1
+			}
+		}
+	},
 	[7301] = {
 		name = "軍事委託-獎勵任務",
 		guild_coin_award = 0,
@@ -23203,6 +23520,11 @@ pg.task_data_template = {
 				1,
 				2,
 				200
+			},
+			{
+				2,
+				54018,
+				2
 			}
 		}
 	},
@@ -23243,6 +23565,11 @@ pg.task_data_template = {
 				1,
 				2,
 				200
+			},
+			{
+				2,
+				54018,
+				2
 			}
 		}
 	},
@@ -23283,6 +23610,11 @@ pg.task_data_template = {
 				1,
 				2,
 				200
+			},
+			{
+				2,
+				54018,
+				2
 			}
 		}
 	},
@@ -23323,6 +23655,56 @@ pg.task_data_template = {
 				1,
 				2,
 				200
+			},
+			{
+				2,
+				54018,
+				2
+			}
+		}
+	},
+	[7305] = {
+		name = "大世界戰鬥一次-獎勵任務",
+		guild_coin_award = 0,
+		award = 7300,
+		type = 13,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 304,
+		desc = "艦隊出征，大型作戰中任意海域戰鬥1次。",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 60,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 7305,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				54018,
+				2
 			}
 		}
 	},
@@ -23363,6 +23745,11 @@ pg.task_data_template = {
 				1,
 				2,
 				200
+			},
+			{
+				2,
+				54018,
+				2
 			}
 		}
 	},
@@ -23403,6 +23790,11 @@ pg.task_data_template = {
 				1,
 				2,
 				200
+			},
+			{
+				2,
+				54018,
+				2
 			}
 		}
 	},
@@ -23443,6 +23835,11 @@ pg.task_data_template = {
 				1,
 				2,
 				200
+			},
+			{
+				2,
+				54018,
+				2
 			}
 		}
 	},
@@ -23483,6 +23880,11 @@ pg.task_data_template = {
 				1,
 				2,
 				200
+			},
+			{
+				2,
+				54018,
+				2
 			}
 		}
 	},
@@ -23523,6 +23925,11 @@ pg.task_data_template = {
 				1,
 				2,
 				200
+			},
+			{
+				2,
+				54018,
+				2
 			}
 		}
 	},
@@ -97347,6 +97754,13 @@ pg.task_data_template = {
 		5635,
 		5636,
 		5637,
+		5641,
+		5642,
+		5643,
+		5644,
+		5645,
+		5646,
+		5647,
 		5671,
 		5672,
 		5673,
@@ -97414,10 +97828,12 @@ pg.task_data_template = {
 		7207,
 		7208,
 		7209,
+		7210,
 		7301,
 		7302,
 		7303,
 		7304,
+		7305,
 		7306,
 		7307,
 		7308,

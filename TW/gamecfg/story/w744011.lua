@@ -8,7 +8,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "选择扩散次数？",
+			say = "選擇擴散次數？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

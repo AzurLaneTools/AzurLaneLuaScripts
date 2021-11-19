@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "将能源矩阵归位",
+			say = "將能源矩陣歸位",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "感染区域会不断扩散，注意避让。",
+			say = "感染區域會不斷擴散，注意避讓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

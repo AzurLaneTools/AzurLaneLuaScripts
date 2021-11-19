@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：指挥官，前方海域出现未知强敌，塞壬区域封锁装置正在自动解除中。",
+			say = "警告：指揮官，前方海域出現未知強敵，塞壬區域封鎖裝置正在自動解除中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "准备战斗",
+					content = "準備戰鬥",
 					autochoice = 1
 				}
 			}

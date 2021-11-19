@@ -14,7 +14,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "线路接通，加密通讯已接入。",
+			say = "線路接通，加密通訊已接入。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +40,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "初次见面，指挥官。",
+			say = "初次見面，指揮官。",
 			voice = "event:/tb/1/tb-1",
 			typewriter = {
 				speed = 0.05,
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我的名字是“领航员-TB”，是指挥部于「The Bridge」计划中设计的最新型辅助用智能人格。",
+			say = "我的名字是“領航員-TB”，是指揮部於「The Bridge」計劃中設計的最新型輔助用人工智慧。",
 			voice = "event:/tb/2/tb-2",
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "在与主机的连接正常时，我可以通过舰队的雷达系统、声呐系统进行各类情报整理与战术分析任务。",
+			say = "在與主機的連接正常時，我可以通過艦隊的雷達系統、聲納系統進行各類情報整理與戰術分析任務。",
 			voice = "event:/tb/3/tb-3",
 			typewriter = {
 				speed = 0.05,
@@ -94,7 +94,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "当连接遭受干扰时，我会进入离线模式，该模式下运算能力受到限制，但是依然可以执行火控校准，数据整合以及航路规划等任务。",
+			say = "當連線遭受干擾時，我會進入離線模式，該模式下運算能力受到限制，但是依然可以執行火控校準，數據整合以及航路規劃等任務。",
 			voice = "event:/tb/4/tb-4",
 			typewriter = {
 				speed = 0.05,
@@ -112,7 +112,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "接下来的行动中，我将作为您的副官协助您的战斗指挥",
+			say = "接下來的行動中，我將作為您的副官協助您的戰鬥指揮",
 			voice = "event:/tb/5/tb-5",
 			typewriter = {
 				speed = 0.05,
@@ -130,7 +130,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，现在向您转达指挥部下达的机密指令：",
+			say = "指揮官，現在向您轉達指揮部下達的機密指令：",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "近期，经过反复侦查，指挥部确信NA海域中塞壬部署于近海的作战舰队正在向海域深处撤离。",
+			say = "近期，經過反復偵查，指揮部確信NA海域中塞壬部署於近海的作戰艦隊正在向海域深處撤離。",
 			bgm = "hunhe-story",
 			typewriter = {
 				speed = 0.05,
@@ -165,7 +165,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "发生这一异常现象的原因尚不明确，相关调查工作仍然在进行中。",
+			say = "發生這一異常現象的原因尚不明確，相關調查工作仍然在進行中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "就结果而言，塞壬舰队的撤离使得近海区域威胁等级大幅下降，我方的行动范围也获得了相当程度扩展。",
+			say = "就結果而言，塞壬艦隊的撤離使得近海區域威脅等級大幅下降，我方的行動範圍也獲得了相當程度擴展。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "因此指挥部认为战役时机已经成熟。各辖区除保留必要的防御舰队之外，调动所有机动力量应当立刻前往NA海域集结，准备执行对塞壬大型作战。",
+			say = "因此指揮部認為戰役時機已經成熟。各轄區除保留必要的防禦艦隊之外，所有調動機動力量應當立刻前往NA海域集結，準備執行對塞壬大型作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "本次战役各项行动将由NY司令部与LD司令部共同负责。战役目标为清理塞壬控制区域，突破塞壬防线，攻破海域中心的异常能量区域，最终夺回整片海域的控制权。",
+			say = "本次戰役各項行動將由NY司令部與LD司令部共同負責。戰役目標為清理塞壬控制區域，突破塞壬防線，攻破海域中心的異常能量區域，最終奪回整片海域的控制權。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥部将NA海域分为了四个战区，D战区因为赤色中轴的关系，很遗憾并不在我们的掌控范围之内。",
+			say = "指揮部將NA海域分為了四個戰區，D戰區因為赤色中軸的關係，很遺憾並不在我們的掌控範圍之內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "除了D战区之外，战役行动将从其余三个战区同时开始。在舰队集结完毕后，您将作为A战区的战区指挥带领舰队从NY港开始作战。",
+			say = "除了D戰區之外，戰役行動將從其餘三個戰區同時開始。在艦隊集結完畢後，您將作為A戰區的戰區指揮帶領艦隊從NY港開始作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，您的任务是首先带领舰队夺回被塞壬重新控制的百慕大海域，然后进军至中心区域外建立两处海上前进基地。就地补给，等待后续总攻的命令。",
+			say = "指揮官，您的任務是首先帶領艦隊奪回被塞壬重新控制的百慕達海域，然後進軍至中心區域外建立兩處海上前進基地。就地補給，等待後續總攻的命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "预祝您战斗顺利，加密通讯结束，线路即将中断。",
+			say = "預祝您戰鬥順利，加密通訊結束，線路即將中斷。",
 			voice = "event:/tb/9/tb-9",
 			typewriter = {
 				speed = 0.05,

@@ -2054,7 +2054,7 @@ pg.ship_data_group = {
 		}
 	},
 	[33] = {
-		trans_skin = 0,
+		trans_skin = 102059,
 		redirect_id = 101,
 		hide = 0,
 		type = 2,
@@ -2072,8 +2072,17 @@ pg.ship_data_group = {
 			"B",
 			"C"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		trans_skill = {
+			13380
+		},
 		description = {
 			{
 				"榮譽勳章兌換（機率刷新）",
@@ -9241,7 +9250,7 @@ pg.ship_data_group = {
 		}
 	},
 	[171] = {
-		trans_skin = 0,
+		trans_skin = 301219,
 		redirect_id = 101,
 		hide = 0,
 		type = 1,
@@ -9259,8 +9268,17 @@ pg.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			1011
+		},
 		description = {
 			{
 				"進行輕型艦建造",
@@ -15085,7 +15103,7 @@ pg.ship_data_group = {
 		type = 3,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 447,
+		index_id = 448,
 		code = 455,
 		group_type = 90302,
 		trans_type = 0,
@@ -15116,7 +15134,7 @@ pg.ship_data_group = {
 		type = 4,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 448,
+		index_id = 449,
 		code = 352,
 		group_type = 90401,
 		trans_type = 0,
@@ -15147,7 +15165,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 449,
+		index_id = 450,
 		code = 353,
 		group_type = 90501,
 		trans_type = 0,
@@ -15178,7 +15196,7 @@ pg.ship_data_group = {
 		type = 5,
 		nationality = 9,
 		handbook_type = 0,
-		index_id = 450,
+		index_id = 451,
 		code = 418,
 		group_type = 90503,
 		trans_type = 0,
@@ -16214,6 +16232,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30001] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 7,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30001,
+		code = 30001,
+		group_type = 970701,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"A",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9707011
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -16627,6 +16679,7 @@ pg.ship_data_group = {
 		20014,
 		20015,
 		20016,
-		20017
+		20017,
+		30001
 	}
 }

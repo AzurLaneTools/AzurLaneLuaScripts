@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同时，己方港口也可以提供补给购买、舰队维修的功能服务。",
+			say = "同時，己方港口也可以提供補給購買、艦隊維修的功能服務。",
 			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "司令部有时也会在港口中发布一些可选的任务委托，您也可以留意一下。",
+			say = "司令部有時也會在港口中發布一些可選的任務委託，您也可以留意一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "引导指令已确认：指挥官，NY司令部为作战准备了一批特别补给物资，请您带领舰队前去领取吧。",
+			say = "引導指令已確認：指揮官，NY司令部為作戰準備了一批特別補給物資，請您帶領艦隊前去領取吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "暂时无法进入港口，请先前往附近海域的舰队集合点。",
+			say = "暫時無法進入港口，請先前往附近海域的艦隊集合點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

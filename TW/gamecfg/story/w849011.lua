@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "因为黄色区域没有全部触发，舰队回到了起始点。",
+			say = "因為黃色區域沒有全部觸發，艦隊回到了起始點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

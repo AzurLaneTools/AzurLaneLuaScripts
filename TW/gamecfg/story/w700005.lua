@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "司令部将委派指挥官对虫洞奇点进行调查",
+			say = "司令部將委派指揮官對蟲洞奇點進行調查",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

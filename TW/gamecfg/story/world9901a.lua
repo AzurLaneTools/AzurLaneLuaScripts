@@ -8,12 +8,12 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "分析仪",
+			actorName = "分析儀",
 			stopbgm = true,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "数据解析中————————————",
+			say = "數據解析中————————————",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -33,11 +33,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "分析仪",
+			actorName = "分析儀",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "数据解析完毕————————————",
+			say = "數據解析完畢————————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,11 +49,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "分析仪",
+			actorName = "分析儀",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "正在播放纪录————————————",
+			say = "正在播放紀錄————————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "会议开始，本日我们来探讨一下颇具争议的现象：「META」",
+			say = "會議開始，本日我們來探討一下頗具爭議的現象：「META」",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -121,7 +121,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "根据我们的了解，META是一种趋势，也是一种性质。是变化的过程，也是变化的结果。",
+			say = "根據我們的了解，META是一種趨勢，也是一種性質。是變化的過程，也是變化的結果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "当事物的性质向着META进行变化时，这一过程被称为META化。",
+			say = "當事物的性質向著META進行變化時，這一過程被稱為META化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "心智魔方可以META化。基于META化的心智魔方可以诞生出META化的舰船。",
+			say = "心智魔方可以META化。基於META化的心智魔方可以誕生出META化的艦船。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "舰船亦可以META化，基于自身心智魔方的META化转变为META化的舰船。",
+			say = "艦船亦可以META化，基於自身心智魔方的META化轉變為META化的艦船。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "基于META化心智魔方建造出的META化舰船，其META化程度是不可逆的，至少目前没有发现任何逆转的方式。",
+			say = "基於META化心智魔方建造出的META化艦船，其META化程度是不可逆的，至少目前沒有發現任何逆轉的方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "基于舰船转化为的META化舰船，其META化在一定限度内是可逆的，目前拥有多种成熟的处理方式。",
+			say = "基於艦船轉化為的META化艦船，其META化在一定限度內是可逆的，目前擁有多種成熟的處理方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "心智魔方META化的尽头，就是「元魔方」。",
+			say = "心智魔方META化的盡頭，就是「元魔方」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "而舰船META化的尽头，则是————",
+			say = "而艦船META化的盡頭，則是————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "嗯？外部干扰又出现了，这里应该是地下————",
+			say = "嗯？外部干擾又出現了，這裡應該是地下————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,10 +270,10 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "分析仪",
+			actorName = "分析儀",
 			dir = 1,
 			blackBg = true,
-			say = "数据解析异常————————————",
+			say = "數據解析異常————————————",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -302,11 +302,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "分析仪",
+			actorName = "分析儀",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "播放中断————————————",
+			say = "播放中斷————————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

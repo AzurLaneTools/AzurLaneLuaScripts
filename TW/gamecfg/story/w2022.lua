@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "进行维护后所有舰队的耐久值将会恢复至100%。",
+			say = "進行維護後所有艦隊的耐久值將會恢復至100%。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,11 +18,11 @@ return {
 			},
 			options = {
 				{
-					content = "进行维护",
+					content = "進行維護",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "離開",
 					flag = 2
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "本次行动期间我会一直带领舰队停留在这里。如果有需要请随时前来哦~",
+			say = "本次行動期間我會一直帶領艦隊停留在這裡。如果有需要請隨時前來哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

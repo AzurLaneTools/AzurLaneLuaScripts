@@ -55,6 +55,8 @@ function slot1.Init(slot0, slot1)
 		uv0._titleList = uv0._top:Find("bg")
 		uv0._closeBtn = uv0._top:Find("btnBack")
 
+		setText(uv0._titleList:Find("infomation/title"), i18n("words_information"))
+		setActive(uv0._titleList:Find("infomation/title_en"), PLATFORM_CODE ~= PLATFORM_US)
 		setText(uv0._titleList:Find("cadpa/title"), i18n("cadpa_tip1"))
 
 		uv0._res = uv0._tf:Find("res")
@@ -123,6 +125,7 @@ function slot1.Init(slot0, slot1)
 		uv0.pools = {}
 		uv0.panelDict = {}
 		uv0.timers = {}
+		uv0.settingStack = {}
 
 		uv2()
 	end)
@@ -946,7 +949,9 @@ function slot1.commonSetting(slot0, slot1)
 
 	slot7 = slot0.settings.hideNo or false
 	slot8 = slot0.settings.hideYes or false
-	slot10 = slot0.settings.onNo or function ()
+	slot10 = slot0.settings.onYes or function ()
+	end
+	slot11 = slot0.settings.onNo or function ()
 	end
 
 	if not (slot0.settings.modal or false) then
@@ -963,39 +968,38 @@ function slot1.commonSetting(slot0, slot1)
 		removeOnButton(slot0._go)
 	end
 
-	slot11, slot12 = nil
+	slot12, slot13 = nil
 
 	if not slot7 then
-		slot11 = slot0:createBtn({
+		slot12 = slot0:createBtn({
 			text = slot0.settings.noText or uv1.TEXT_CANCEL,
 			btnType = slot0.settings.noBtnType or uv1.BUTTON_GRAY,
-			onCallback = slot10,
+			onCallback = slot11,
 			sound = slot1.noSound or SFX_CANCEL
 		})
 	end
 
 	if not slot8 then
-		slot12 = slot0:createBtn({
+		slot13 = slot0:createBtn({
 			text = slot0.settings.yesText or uv1.TEXT_CONFIRM,
 			btnType = slot0.settings.yesBtnType or uv1.BUTTON_BLUE,
-			onCallback = slot0.settings.onYes or function ()
-			end,
+			onCallback = slot10,
 			sound = slot1.yesSound or SFX_CONFIRM,
 			alignment = slot0.settings.yesSize and TextAnchor.MiddleCenter
 		})
 
 		if slot0.settings.yesSize then
-			slot12.sizeDelta = slot0.settings.yesSize
+			slot13.sizeDelta = slot0.settings.yesSize
 		end
 
-		setGray(slot12, slot0.settings.yesGray, true)
+		setGray(slot13, slot0.settings.yesGray, true)
 	end
 
 	if slot0.settings.yseBtnLetf then
-		slot12:SetAsFirstSibling()
+		slot13:SetAsFirstSibling()
 	end
 
-	slot13 = nil
+	slot14 = nil
 
 	if slot0.settings.type == MSGBOX_TYPE_HELP and slot0.settings.helps.pageMode and #slot0.settings.helps > 1 then
 		slot0:createBtn({
@@ -1007,18 +1011,18 @@ function slot1.commonSetting(slot0, slot1)
 			sound = SFX_CANCEL
 		})
 
-		slot13 = #slot0.settings.helps
+		slot14 = #slot0.settings.helps
 	end
 
 	if slot0.settings.custom ~= nil then
-		for slot17, slot18 in ipairs(slot0.settings.custom) do
-			slot0:createBtn(slot18)
+		for slot18, slot19 in ipairs(slot0.settings.custom) do
+			slot0:createBtn(slot19)
 		end
 	end
 
-	if not slot13 then
+	if not slot14 then
 		-- Nothing
-	elseif slot13 > 1 then
+	elseif slot14 > 1 then
 		slot0:createBtn({
 			noQuit = true,
 			btnType = uv1.BUTTON_NEXTPAGE,
@@ -1046,20 +1050,20 @@ function slot1.commonSetting(slot0, slot1)
 		end
 	end, SFX_CANCEL)
 
-	slot14 = slot0.settings.title or uv1.TITLE_INFORMATION
-	slot15 = 0
-	slot16 = slot0._titleList.transform.childCount
+	slot15 = slot0.settings.title or uv1.TITLE_INFORMATION
+	slot16 = 0
+	slot17 = slot0._titleList.transform.childCount
 
-	while slot15 < slot16 do
-		slot17 = slot0._titleList.transform:GetChild(slot15)
+	while slot16 < slot17 do
+		slot18 = slot0._titleList.transform:GetChild(slot16)
 
-		SetActive(slot17, slot17.name == slot14)
+		SetActive(slot18, slot18.name == slot15)
 
-		slot15 = slot15 + 1
+		slot16 = slot16 + 1
 	end
 
-	slot17 = slot0._go.transform.localPosition
-	slot0._go.transform.localPosition = Vector3(slot17.x, slot17.y, slot0.settings.zIndex or 0)
+	slot18 = slot0._go.transform.localPosition
+	slot0._go.transform.localPosition = Vector3(slot18.x, slot18.y, slot0.settings.zIndex or 0)
 	slot0.locked = slot0.settings.locked or false
 end
 
@@ -1093,12 +1097,10 @@ function slot1.createBtn(slot0, slot1)
 				if uv0() then
 					return
 				else
-					SetActive(uv1._go, false)
-					uv1:Clear()
+					uv1:hide()
 				end
 			elseif not uv0 then
-				SetActive(uv1._go, false)
-				uv1:Clear()
+				uv1:hide()
 			end
 
 			return existCall(uv2.onCallback)
@@ -1206,6 +1208,7 @@ function slot1.Clear(slot0)
 	removeAllChildren(slot0._btnContainer)
 	uv0.UIMgr.GetInstance():UnblurPanel(slot0._tf, uv0.UIMgr.GetInstance().OverlayMain)
 	slot0.contentText:RemoveAllListeners()
+	table.removebyvalue(slot0.settingStack, slot0.settings)
 
 	slot0.settings = nil
 	slot0.enable = false
@@ -1215,6 +1218,10 @@ end
 function slot1.ShowMsgBox(slot0, slot1)
 	if slot0.locked then
 		return
+	end
+
+	if slot1.keepSettings and not table.contains(slot0.settingStack, slot1) then
+		table.insert(slot0.settingStack, slot1)
 	end
 
 	if (slot1.type or MSGBOX_TYPE_NORMAL) == MSGBOX_TYPE_NORMAL then
@@ -1284,5 +1291,10 @@ function slot1.hide(slot0)
 
 	slot0._go:SetActive(false)
 	slot0:Clear()
-	uv0.m02:sendNotification(GAME.CLOSE_MSGBOX_DONE)
+
+	if #slot0.settingStack > 0 then
+		slot0:ShowMsgBox(slot0.settingStack[#slot0.settingStack])
+	else
+		uv0.m02:sendNotification(GAME.CLOSE_MSGBOX_DONE)
+	end
 end

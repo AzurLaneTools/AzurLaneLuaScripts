@@ -13,7 +13,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "NA海域被指挥部根据海况和危险程度划分为数十个作战海域。",
+			say = "NA海域被指揮部根據海況和危險程度劃分為數十個作戰海域。",
 			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "通过不断探索和压制危险海域，可探索的区域也将进一步扩大。",
+			say = "通過不斷探索和壓制危險海域，可探索的區域也將進一步擴大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "G.M系统中搭载有区域移动模式，可以帮助您快速规划舰队航线。",
+			say = "G.M系統中搭載有區域移動模式，可以幫助您快速規劃艦隊航線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "作战指令已确认：指挥官，大型作战海域已经正式向您开放，请前往司令部提供的第一处任务海域吧。",
+			say = "作戰指令已確認：指揮官，大型作戰海域已經正式向您開放，請前往司令部提供的第一處任務海域吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

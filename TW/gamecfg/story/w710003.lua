@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "舰队进入了调查点，周围的黑色暗流退却了！",
+			say = "艦隊進入了調查點，周圍的黑色暗流退卻了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

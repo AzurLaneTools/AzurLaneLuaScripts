@@ -16,7 +16,7 @@ return {
 				"action"
 			},
 			style = {
-				text = "任务种类已更新完毕，请指挥官进行确认。",
+				text = "任務種類已更新完畢，請指揮官進行確認。",
 				mode = 2,
 				posY = 191.87,
 				dir = -1,
@@ -41,7 +41,7 @@ return {
 				"accept"
 			},
 			style = {
-				text = "请点击接受按钮，接受任务",
+				text = "請點擊接受按鈕，接受任務",
 				mode = 2,
 				posY = 191.87,
 				dir = -1,

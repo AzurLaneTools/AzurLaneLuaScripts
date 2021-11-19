@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.433,
 			style = {
-				text = "攻坚队可以协助大舰队成员进行首领战",
+				text = "攻堅隊可以協助大艦隊成員進行首領戰",
 				mode = 2,
 				posY = -223,
 				dir = 1,
@@ -14,7 +14,7 @@ return {
 		{
 			alpha = 0.433,
 			style = {
-				text = "让我们试着派遣一名角色前往攻坚队吧！",
+				text = "讓我們試著派遣一名角色前往攻堅隊吧！",
 				mode = 2,
 				posY = -223,
 				dir = 1,
@@ -24,7 +24,7 @@ return {
 		{
 			alpha = 0.433,
 			style = {
-				text = "点击此处编辑攻坚队",
+				text = "點擊此處編輯攻堅隊",
 				mode = 2,
 				posY = -223,
 				dir = 1,
@@ -47,7 +47,7 @@ return {
 		{
 			alpha = 0.383,
 			style = {
-				text = "点击添加前往攻坚队的角色",
+				text = "點擊添加前往攻堅隊的角色",
 				mode = 2,
 				posY = 267.65,
 				dir = 1,

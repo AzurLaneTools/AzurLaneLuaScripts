@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"无法坦率的心意\n\n<size=45>二  别看穿我啊！</size>",
+					"無法坦率的心意\n\n<size=45>二  別看穿我啊！</size>",
 					1
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（昨天晚上，指挥官似乎真的把工作都做完了…不过那副憔悴的样子…）",
+			say = "（昨天晚上，指揮官似乎真的把工作都做完了…不過那副憔悴的樣子…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…这可不是在担心那家伙，只是…唔，那时候要稍微说些慰劳的话就好了…）",
+			say = "（…這可不是在擔心那傢伙，只是…唔，那時候要稍微說些慰勞的話就好了…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "走路的时候想事情可是很危险的哦？",
+			say = "走路的時候想事情可是很危險的哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——罗、罗德尼！？像你这样突然搭话吓人才更危险一点吧！",
+			say = "——羅、羅德尼！？像妳這樣突然搭話嚇人才更危險一點吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 205040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既没有突然，也没打算吓人哦。我只是在跟指挥官汇报结束之后路过这里而已。",
+			say = "既沒有突然，也沒打算嚇人哦。我只是在跟指揮官匯報結束之後路過這裡而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这，这样…向指挥官汇报任务…么……",
+			say = "這，這樣…向指揮官匯報任務…嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为指挥官看起来非常疲劳的样子，所以我顺便给稍微按摩了一下。",
+			say = "因為指揮官看起來非常疲勞的樣子，所以我順便給稍微按摩了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按、按摩……？",
+			say = "按、按摩……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 205040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，只是简单的肩部按摩而已。",
+			say = "嗯，只是簡單的肩部按摩而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（呼……原来只是普通的按摩而已嘛……）",
+			say = "（呼……原來只是普通的按摩而已嘛……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，指挥官要是因为那点工作量就受不了的话，我可是会很困扰的！",
+			say = "哼，指揮官要是因為那點工作量就受不了的話，我可是會很困擾的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了港区的未来，指挥官必须发挥领导才能兢兢业业的工作才行，我可不允许那家伙被宠坏了！",
+			say = "為了港區的未來，指揮官必須發揮領導才能兢兢業業的工作才行，我可不允許那傢伙被寵壞了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有，有什么好笑的啊……",
+			say = "有，有什麼好笑的啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为纳尔逊太容易看穿，一下子没忍住~虽然你嘴上这么说，内心其实担心的不得了吧？",
+			say = "因為納爾遜太容易看穿，一下子沒忍住~雖然你嘴上這麼說，內心其實擔心的不得了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绝对不可能好吧？！",
+			say = "絕對不可能好吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真、真是的……一直站在这里聊天也太摸鱼了，我该走了，回头见！",
+			say = "真、真是的……一直站在這裡聊天也太摸魚了，我該走了，回頭見！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,23 +338,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "不等罗德尼回复，纳尔逊就快步离开了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205030,
-			side = 2,
-			bgName = "bg_main_day",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "（……真是的！罗德尼总是给人一副成熟而且无懈可击的感觉，和她聊天的时候老是被她带走节奏！）",
+			say = "不等羅德尼回覆，納爾遜就快步離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +354,23 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（但就是因为这样…她才能将内心的想法轻松说出口，相比之下我就……）",
+			say = "（……真是的！羅德尼總是給人一副成熟而且無懈可擊的感覺，和她聊天的時候老是被她帶走節奏！）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205030,
+			side = 2,
+			bgName = "bg_main_day",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "（但就是因為這樣…她才能將內心的想法輕鬆說出口，相比之下我就……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "唔……那就试着对那家伙说一下“一直以来辛苦你了”好了……？",
+			say = "唔……那就試著對那傢伙說一下“一直以來辛苦你了”好了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

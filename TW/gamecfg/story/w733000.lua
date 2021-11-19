@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "数 据 错 误",
+			say = "數 據 錯 誤",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.03

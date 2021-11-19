@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指令已确认：指挥官，舰队已到达NA海域核心区域外围。",
+			say = "指令已確認：指揮官，艦隊已到達NA海域核心區域外圍。",
 			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了确保前哨站的顺利部署，首先需要彻底清理这片海域中的敌人。",
+			say = "為了確保前哨站的順利部署，首先需要徹底清理這片海域中的敵人。",
 			voice = "event:/tb/41/tb-41",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "终于到总攻前的最后一步了......各舰注意，准备战斗！",
+			say = "終於到總攻前的最後一步了......各艦注意，準備戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

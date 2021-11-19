@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海域中央似乎有异常，请指挥官前往调查。",
+			say = "海域中央似乎有異常，請指揮官前往調查。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

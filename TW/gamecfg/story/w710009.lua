@@ -33,7 +33,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "看起来只是一个黑方舟的不稳定投影……投影的另一端是一片完全陌生的海域，是否深入调查？",
+			say = "看起來只是一個黑方舟的不穩定投影……投影的另一端是一片完全陌生的海域，是否深入調查？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,11 +44,11 @@ return {
 			},
 			options = {
 				{
-					content = "调查",
+					content = "調查",
 					flag = 0
 				},
 				{
-					content = "离开",
+					content = "離開",
 					flag = 1
 				}
 			}

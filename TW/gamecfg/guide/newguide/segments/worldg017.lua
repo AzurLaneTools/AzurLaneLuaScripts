@@ -58,7 +58,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击撤退",
+				text = "點擊撤退",
 				mode = 2,
 				posY = -239.55,
 				char = "1",

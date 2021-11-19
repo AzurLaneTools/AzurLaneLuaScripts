@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "通过左下方的传送门可以回到春天的海域。",
+			say = "通過左下方的傳送門可以回到春天的海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

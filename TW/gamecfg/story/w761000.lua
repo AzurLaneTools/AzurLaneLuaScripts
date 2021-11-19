@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海域中十分炎热，洋流也比之前更强了！",
+			say = "海域中十分炎熱，洋流也比之前更強了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

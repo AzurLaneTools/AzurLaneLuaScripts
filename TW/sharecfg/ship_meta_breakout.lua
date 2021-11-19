@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.ship_meta_breakout = {
 	[9702011] = {
-		breakout_view = "习得技能【破敌之炬·海伦娜】/主炮效率提高5%",
+		breakout_view = "習得技能【破敵之炬·海倫娜】/主炮效率提高5%",
 		gold = 1000,
 		breakout_id = 9702012,
 		repair = 0,
@@ -34,7 +34,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9702013] = {
-		breakout_view = "【破敌之炬·海伦娜】升级/主炮效率提高15%",
+		breakout_view = "【破敵之炬·海倫娜】升級/主炮效率提高15%",
 		gold = 10000,
 		breakout_id = 9702014,
 		repair = 0,
@@ -50,7 +50,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9702014] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -131,7 +131,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707011] = {
-		breakout_view = "习得技能【破敌之炬·{namecode:94}】/所有鱼雷机+1/鱼雷机效率提高5%",
+		breakout_view = "習得技能【破敵之炬·{namecode:94}】/所有魚雷機+1/魚雷機效率提高5%",
 		gold = 1000,
 		breakout_id = 9707012,
 		repair = 0,
@@ -148,7 +148,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707012] = {
-		breakout_view = "机库容量+1/所有战斗机+1/鱼雷机效率提高10%",
+		breakout_view = "機庫容量+1/所有戰鬥機+1/魚雷機效率提高10%",
 		gold = 3000,
 		breakout_id = 9707013,
 		repair = 0,
@@ -167,7 +167,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707013] = {
-		breakout_view = "【破敌之炬·{namecode:94}】升级/所有舰载机+1/鱼雷机效率提高15%",
+		breakout_view = "【破敵之炬·{namecode:94}】升級/所有艦載機+1/魚雷機效率提高15%",
 		gold = 10000,
 		breakout_id = 9707014,
 		repair = 0,
@@ -186,7 +186,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707014] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -200,7 +200,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707021] = {
-		breakout_view = "习得技能【破敌之炬·皇家方舟】/所有鱼雷机+1/鱼雷机效率提高3%",
+		breakout_view = "習得技能【破敵之炬·皇家方舟】/所有魚雷機+1/魚雷機效率提高3%",
 		gold = 1000,
 		breakout_id = 9707022,
 		repair = 0,
@@ -217,7 +217,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707022] = {
-		breakout_view = "机库容量+1/所有轰炸机+1/鱼雷机效率提高5%",
+		breakout_view = "機庫容量+1/所有轟炸機+1/魚雷機效率提高5%",
 		gold = 3000,
 		breakout_id = 9707023,
 		repair = 0,
@@ -236,7 +236,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707023] = {
-		breakout_view = "【破敌之炬·皇家方舟】升级/所有鱼雷机+1/鱼雷机效率提高7%",
+		breakout_view = "【破敵之炬·皇家方舟】升級/所有魚雷機+1/魚雷機效率提高7%",
 		gold = 10000,
 		breakout_id = 9707024,
 		repair = 0,
@@ -255,7 +255,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9707024] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,

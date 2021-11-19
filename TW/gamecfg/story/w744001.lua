@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "找到了海域中的目标方阵！",
+			say = "找到了海域中的目標方陣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "目标方阵中没有任何光柱..",
+			say = "目標方陣中沒有任何光柱..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "通过四周的控制台，可以选择该侧光柱的颜色与扩散次数，将方阵还原到与初始方阵一致，即可解开谜题。",
+			say = "通過四周的控制台，可以選擇該側光柱的顏色與擴散次數，將方陣還原到與初始方陣一致，即可解開謎題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "指令释放：偏移",
+			say = "指令釋放：偏移",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

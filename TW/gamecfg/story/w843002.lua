@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析模块同步中：指挥官，海域中的部分区域重新凝结为了浮冰。",
+			say = "分析模組同步中：指揮官，海域中的部分區域重新凝結為了浮冰。",
 			voice = "event:/tb/39/tb-39",
 			typewriter = {
 				speed = 0.05,

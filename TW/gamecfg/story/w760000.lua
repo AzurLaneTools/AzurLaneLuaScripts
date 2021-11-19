@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "进入了仲裁者所构建的季节幻境。",
+			say = "進入了仲裁者所構建的季節幻境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "找到海域内的能源矩阵，并将其放置到海域中央以解开谜题。",
+			say = "找到海域內的能源矩陣，並將其放置到海域中央以解開謎題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

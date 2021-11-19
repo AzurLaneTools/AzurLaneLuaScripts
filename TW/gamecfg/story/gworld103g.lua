@@ -13,7 +13,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "G.M系统的详细使用方式已经整合进帮助模块中，如果您有不清楚的地方可以随时进行查看。",
+			say = "G.M系統的詳細使用方式已經整合進幫助模組中，如果您有不清楚的地方可以隨時進行查看。",
 			voice = "event:/tb/34/tb-34",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "引导指令已确认：指挥官，在正式出海作战之前，先返回NY港进行一下舰队补给吧。",
+			say = "引導指令已確認：指揮官，在正式出海作戰之前，先返回NY港進行一下艦隊補給吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

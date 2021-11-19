@@ -338,4 +338,24 @@ function slot0.HasFashion(slot0, slot1)
 	return #slot2 > 1
 end
 
+function slot0.GetEncoreSkins(slot0)
+	slot1 = getProxy(ActivityProxy)
+
+	function slot2(slot0)
+		if type(slot0:getConfig("config_client")) == "table" then
+			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1) <= pg.TimeMgr.GetInstance():GetServerTime()
+		else
+			return slot0:isEnd()
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot1:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)) do
+		if slot7:getDataConfig("type") == 5 and not slot2(slot7) then
+			return slot7:getConfig("config_data")
+		end
+	end
+
+	return {}
+end
+
 return slot0

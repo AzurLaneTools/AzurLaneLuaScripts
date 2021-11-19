@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "普通的热带小岛，不过夏天可不适合播种呢。",
+			say = "普通的熱帶小島，不過夏天可不適合播種呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "打捞到了沉入海中的物资！",
+			say = "打撈到了沉入海中的物資！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

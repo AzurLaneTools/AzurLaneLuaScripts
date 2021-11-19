@@ -21,7 +21,7 @@ return {
 				"clickMemo"
 			},
 			style = {
-				text = "这边可以查看战斗日志哟~",
+				text = "這邊可以查看戰鬥日誌喲~",
 				mode = 2,
 				posY = 115.27,
 				dir = 1,
@@ -77,7 +77,7 @@ return {
 			delay = 2,
 			alpha = 0,
 			style = {
-				text = "点击模糊区域退出",
+				text = "點擊模糊區域退出",
 				mode = 2,
 				posY = 191.87,
 				dir = -1,

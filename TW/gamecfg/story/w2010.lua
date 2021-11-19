@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "无法继续前进……",
+			say = "無法繼續前進……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

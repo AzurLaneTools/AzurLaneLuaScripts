@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这是？谜题空间？",
+			say = "這是？謎題空間？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在NY港等隶属于碧蓝航线的己方港口中，您可以使用G.M系统的舰队指令模块对参战舰队进行快捷管理。",
+			say = "在NY港等隸屬於碧藍航線的己方港口中，您可以使用G.M系統的艦隊指令模組對參戰艦隊進行快捷管理。",
 			voice = "event:/tb/34/tb-34",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "比如，您可以使用舰队部署指令在港口中对参与大型作战的舰队成员进行调整。",
+			say = "比如，您可以使用艦隊部署指令在港口中對參與大型作戰的艦隊成員進行調整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

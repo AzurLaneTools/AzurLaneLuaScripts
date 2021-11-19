@@ -2804,6 +2804,21 @@ function temp()
 	uv0["肺"] = {
 		["炎"] = {
 			this = true
+		},
+		["0"] = {
+			["炎"] = {
+				this = true
+			}
+		},
+		o = {
+			["炎"] = {
+				this = true
+			}
+		},
+		["."] = {
+			["炎"] = {
+				this = true
+			}
 		}
 	}
 end

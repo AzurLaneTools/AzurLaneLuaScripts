@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：触发了塞壬实验场的防御系统，当前区域的洋流变得湍急起来，同时在海面上发现了大量浮冰。",
+			say = "警告：觸發了塞壬實驗場的防禦系統，當前區域的洋流變得湍急起來，同時在海面上發現了大量浮冰。",
 			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "建议：寻找实验场气候调节装置，改变浮冰的状态。",
+			say = "建議：尋找實驗場氣候調節裝置，改變浮冰的狀態。",
 			voice = "event:/tb/22/tb-22",
 			typewriter = {
 				speed = 0.05,

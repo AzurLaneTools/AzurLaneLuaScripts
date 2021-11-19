@@ -2046,7 +2046,8 @@ pg.gameset = {
 			7206,
 			7207,
 			7208,
-			7209
+			7209,
+			7210
 		}
 	},
 	main_normal_chapter_list = {

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "也许是因为能源耗尽，塞壬增援装置停止运行了……",
+			say = "也許是因為能源耗盡，塞壬增援裝置停止運行了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

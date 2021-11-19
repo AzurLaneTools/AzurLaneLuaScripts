@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "将能源矩阵归位！",
+			say = "將能源矩陣歸位！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "注意：海域中存在隐形石柱，靠近了才会显形！",
+			say = "注意：海域中存在隱形石柱，靠近了才會顯形！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

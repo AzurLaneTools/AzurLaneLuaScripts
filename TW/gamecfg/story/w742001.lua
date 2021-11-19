@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "其他舰队暂时无法移动，请指挥官谨慎探索。",
+			say = "其他艦隊暫時無法移動，請指揮官謹慎探索。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

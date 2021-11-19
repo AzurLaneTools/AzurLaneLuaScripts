@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "将能源矩阵归位后，可以解除区域封锁。",
+			say = "將能源矩陣歸位後，可以解除區域封鎖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

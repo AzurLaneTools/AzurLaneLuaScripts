@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"无法坦率的心意\n\n<size=45>五  给我点反应啊！</size>",
+					"無法坦率的心意\n\n<size=45>五  給我點反應啊！</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·白鹰生活区",
+			say = "港區·白鷹生活區",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比预定时间到的要早嘛，还以为皇家的BIG SEVEN会稍微摆一下谱呢。",
+			say = "比預定時間到的要早嘛，還以為皇家的BIG SEVEN會稍微擺一下譜呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也跟皇家的人一起来了啊，欢迎。",
+			say = "指揮官也跟皇家的人一起來了啊，歡迎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个，我从皇家宿舍带来了一些茶叶，不介意的话，让我来给大家泡些冰红茶吧~？",
+			say = "那個，我從皇家宿舍帶來了一些茶葉，不介意的話，讓我來給大家泡些冰紅茶吧~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 105100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然没问题！天气这么热，会议还没开始就感觉口渴得不行了！",
+			say = "當然沒問題！天氣這麼熱，會議還沒開始就感覺口渴得不行了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "靠着罗德尼的冰红茶稍稍平复了燥热与口渴后，演习前的作战会议正式开始了。",
+			say = "靠著羅德尼的冰紅茶稍稍平復了燥熱與口渴後，演習前的作戰會議正式開始了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰的各位，因为本次演习需要跨阵营紧密合作，所以在开始之前，我希望能够充分交换彼此的意见。",
+			say = "白鷹的各位，因為本次演習需要跨陣營緊密合作，所以在開始之前，我希望能夠充分交換彼此的意見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 105110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还真是开门见山啊…不过，这种积极讨论的态度，我并不讨厌。",
+			say = "還真是開門見山啊…不過，這種積極討論的態度，我並不討厭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，应该说，我们科罗拉多级也是这样的风格。",
+			say = "嗯，應該說，我們科羅拉多級也是這樣的風格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样么？看来我们很合得来嘛~那就继续这个话题吧——",
+			say = "這樣嗎？看來我們很合得來嘛~那就繼續這個話題吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "BIG SEVEN的讨论一开始就十分热烈，仿佛让室温都升高了几度。",
+			say = "BIG SEVEN的討論一開始就十分熱烈，彷彿讓室溫都升高了幾度。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "罗德尼会前准备的冰红茶真是帮大忙了…",
+			say = "羅德尼會前準備的冰紅茶真是幫大忙了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——万一出现大量敌方舰队袭来，我们在人数上将会处于压倒性的不利，为此…我有一个想法。",
+			say = "——萬一出現大量敵方艦隊襲來，我們在人數上將會處於壓倒性的不利，為此…我有一個想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本次演习的目标，说到底也只是成功抵达指定海域……",
+			say = "本次演習的目標，說到底也只是成功抵達指定海域……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们五人就算不组队，彼此分开也都是强大的单独战力。要是遇到无法突围的情况，就分散行动，并借机撕裂敌方封锁线怎么样？",
+			say = "我們五人就算不組隊，彼此分開也都是強大的單獨戰力。要是遇到無法突圍的情況，就分散行動，並藉機撕裂敵方封鎖線怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "面对大量敌人时反而分散舰队么…确实是一个大胆的想法。指挥官觉得呢？",
+			say = "面對大量敵人時反而分散艦隊嗎…確實是一個大膽的想法。指揮官覺得呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,37 +306,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不算泛用性特别高的战术。但强大的战列舰编队在特定场合下，也确实可以作为突破局面的方案…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哼~我就是这种风格哦，指挥官你是知道的~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "既然是作战方案，就需要一个名字。",
+			say = "不算泛用性特別高的戰術。但強大的戰列艦編隊在特定場合下，也確實可以作為突破局面的方案…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我当然想过了，作战名字的话就叫——",
+			say = "哼~我就是這種風格哦，指揮官你是知道的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +336,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "纳尔逊突然伸出手指——",
+			say = "既然是作戰方案，就需要一個名字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +352,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“纳尔逊之触”，大家觉得怎么样？",
+			say = "我當然想過了，作戰名字的話就叫——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "納爾遜突然伸出手指——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "“納爾遜之觸”，大家覺得怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎……？喂、喂！大家给我点反应啊！难得我亲自给作战命名一次呢！",
+			say = "哎……？喂、喂！大家給我點反應啊！難得我親自給作戰命名一次呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“纳尔逊之触”么。没问题，是个好名字。",
+			say = "“納爾遜之觸”嗎。沒問題，是個好名字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "像五根手指一样分别突出撕裂敌人的战术，是不是叫“纳尔逊之爪”会更加贴切呢……",
+			say = "像五根手指一樣分別突出撕裂敵人的戰術，是不是叫“納爾遜之爪”會更加貼切呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "——看着激动的纳尔逊，一边想着这些不着边际的事，一边将杯中的冰红茶一饮而尽……",
+			say = "——看著激動的納爾遜，一邊想著這些不著邊際的事，一邊將杯中的冰紅茶一飲而盡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

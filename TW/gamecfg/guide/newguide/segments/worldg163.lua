@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "部分任务满足完成条件后需要手动提交。",
+				text = "部分任務滿足完成條件後需要手動提交。",
 				mode = 2,
 				posY = -196.73,
 				char = "1",
@@ -28,7 +28,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击提交任务道具，领取奖励。",
+				text = "點擊提交任務道具，領取獎勵。",
 				mode = 2,
 				posY = 0,
 				char = "1",

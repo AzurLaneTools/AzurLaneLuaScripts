@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即将消耗一个时空道标，对未知空间进行探索。",
+			say = "即將消耗一個時空道標，對未知空間進行探索。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "確認",
 					flag = 1
 				},
 				{

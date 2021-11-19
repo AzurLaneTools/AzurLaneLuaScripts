@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击进入储物仓。",
+				text = "點擊進入儲物艙。",
 				mode = 2,
 				posY = -249.82,
 				char = "1",
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击材料分页，查看在大型作战中获得的装备研发材料。",
+				text = "點擊材料分頁，查看在大型作戰中獲得的裝備研發材料。",
 				mode = 2,
 				posY = -230.76,
 				char = "1",
@@ -70,7 +70,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击装备分页，查看仓库中的装备。",
+				text = "點擊裝備分頁，查看倉庫中的裝備。",
 				mode = 2,
 				posY = -283.25,
 				char = "1",
@@ -95,7 +95,7 @@ return {
 			alpha = 0.3,
 			delay = 1,
 			style = {
-				text = "点击进行筛选。",
+				text = "點擊進行篩選。",
 				mode = 2,
 				posY = 302.77,
 				char = "1",

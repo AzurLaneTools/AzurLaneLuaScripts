@@ -33,6 +33,9 @@ function slot0.Init(slot0)
 	slot0.txName = slot1:Find("item/name_mask/name")
 	slot0.rtResIcon = slot1:Find("item/consume/contain/icon")
 	slot0.rtResCount = slot1:Find("item/consume/contain/Text")
+
+	setText(slot1:Find("item/count_contain/label"), i18n("activity_shop_exchange_count"))
+
 	slot3 = slot0.goods.moneyItem
 
 	setText(slot0.txName, shortenString(slot0.goods.item:getConfig("name"), 6))

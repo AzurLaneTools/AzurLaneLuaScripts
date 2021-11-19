@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "部分海雾与巨型浮冰消失了。",
+			say = "部分海霧與巨型浮冰消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10545,12 +10545,13 @@ pg.activity_template = {
 	},
 	[40450] = {
 		mark = 20211028,
-		id = 40450,
 		title_res_tag = "france_re_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 15,
+		id = 40450,
 		config_data = {
 			1240001,
 			1240003,
@@ -10566,33 +10567,6 @@ pg.activity_template = {
 			1240018,
 			1240019,
 			1240021
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "FranceRestartMainPage",
@@ -10689,12 +10663,13 @@ pg.activity_template = {
 	},
 	[40453] = {
 		mark = 20211028,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40453,
 		config_data = {
@@ -10715,72 +10690,19 @@ pg.activity_template = {
 			14744,
 			14745,
 			14746
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40454] = {
 		mark = 20211028,
-		config_client = "",
 		title_res_tag = "france_re2_oil",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 40454,
 		is_show = 13,
+		config_client = "",
 		id = 40454,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "LeMarsReOilPage",
 			ui_name = "LeMarsReOilPage"
@@ -10902,79 +10824,27 @@ pg.activity_template = {
 	},
 	[40457] = {
 		mark = 20211028,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40457,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[40458] = {
 		mark = 20211028,
-		id = 40458,
 		title_res_tag = "mengfeisipifu",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 40458,
 		is_show = 12,
+		id = 40458,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MemphisHalloweenPage",
 			ui_name = "memphishalloweenpage"
@@ -11003,40 +10873,14 @@ pg.activity_template = {
 	},
 	[40459] = {
 		mark = 20211028,
-		id = 40459,
 		title_res_tag = "sign_halloween",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 11,
 		is_show = 11,
+		id = 40459,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					10,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "SignHalloweenPage",
 			ui_name = "SignHalloweenPage"
@@ -11207,6 +11051,88 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[40500] = {
+		mark = 20211111,
+		title_res_tag = "",
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 40500,
+		is_show = 0,
+		config_client = "",
+		id = 40500,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40501] = {
+		mark = 20211111,
+		title_res_tag = "",
+		page_info = "",
+		type = 34,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 40501,
+		config_data = {
+			1
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					11,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 970701
 		}
 	},
 	[45000] = {
@@ -12558,6 +12484,8 @@ pg.activity_template = {
 		40462,
 		40463,
 		40464,
+		40500,
+		40501,
 		45000,
 		45001,
 		45002,

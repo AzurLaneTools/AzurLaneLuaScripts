@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "story-6",
 			dir = 1,
-			say = "嗯？这些塞壬的残骸...这片区域除了我们之外还有其他舰队么？",
+			say = "嗯？這些塞壬的殘骸...這片區域除了我們之外還有其他艦隊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "资料查询中：没有发现其他舰队在这片区域的作战记录，也没有发现其他舰队前来作战的规划。",
+			say = "資料查詢中：沒有發現其他艦隊在這片區域的作戰記錄，也沒有發現其他艦隊前來作戰的規劃。",
 			voice = "event:/tb/49/tb-49",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 107070,
 			dir = 1,
-			say = "大家快看雷达，我发现了一些有趣的事哦。",
+			say = "大家快看雷達，我發現了一些有趣的事哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "雷达上密密麻麻的小点，代表着附近海域的敌方分布情况。然后每次刷新，小点的数量都会突然减少一些。",
+			say = "雷達上密密麻麻的小點，代表著附近海域的敵方分佈情況。然後每次刷新，小點的數量都會突然減少一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前方的塞壬舰队在，消失......?",
+			say = "前方的塞壬艦隊在，消失......?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "........难道真的是，「她们」。",
+			say = "........難道真的是，「她們」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我去前方侦查一下！",
+			say = "指揮官，我去前方偵查一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等、「她们」是谁啊？现在情况不明，你自己一个人冲过去太危险了！",
+			say = "等等、「她們」是誰啊？現在情況不明，妳自己一個人衝過去太危險了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，企业！",
+			say = "喂，企業！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			actor = 107070,
 			dir = 1,
-			say = "唔...雷达上侦测不到信号，还能让企业姐这么激动...难道前方和塞壬战斗的是余烬？",
+			say = "唔...雷達上偵測不到訊號，還能讓企業姐怎麼激動...難道前方和塞壬戰鬥的是餘燼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "......舰队调整队形，保持警戒跟随企业前进。但是没有命令，不要主动向余烬开火。",
+			say = "......艦隊調整隊形，保持警戒跟隨企業前進。但是沒有命令，不要主動向餘燼開火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

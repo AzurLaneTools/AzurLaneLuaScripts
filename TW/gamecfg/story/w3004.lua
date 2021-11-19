@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "要把设备放置在这里吗",
+			say = "要把設備放置在這裡嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

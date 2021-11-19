@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你好~需要治疗的时候，请来到我身边就可以了哦",
+			say = "指揮官你好~需要治療的時候，請來到我身邊就可以了哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

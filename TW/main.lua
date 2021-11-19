@@ -39,15 +39,8 @@ if (PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT) and PLATFORM 
 	pg.SdkMgr.GetInstance():InitSDK()
 end
 
-if PLATFORM_CODE == PLATFORM_JP then
-	slot0 = tf(GameObject.Find("LevelCamera/Canvas/UIMain/LevelGrid"))
-
-	RemoveComponent(slot0, typeof(Image))
-
-	slot0.offsetMin = Vector2(-200, -200)
-	slot0.offsetMax = Vector2(200, 200)
-
-	setActive(slot0:Find("DragLayer"), true)
+if PLATFORM_CODE == PLATFORM_CHT then
+	setActive(tf(GameObject.Find("LevelCamera/Canvas/UIMain/LevelGrid")):Find("DragLayer"), true)
 end
 
 slot0 = pg.TimeMgr.GetInstance()

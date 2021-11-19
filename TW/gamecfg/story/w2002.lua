@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，此处塞壬增援点已被成功摧毁。",
+			say = "分析模組同步中：指揮官，此處塞壬增援點已被成功摧毀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

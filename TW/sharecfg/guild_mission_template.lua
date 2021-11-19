@@ -32,7 +32,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 15,
-		name = "海域清掃I-艦隊累計完成【艦隊出征，獲得15次戰鬥勝利】任務100次",
+		name = "海域清掃I-艦隊累計完成【艦隊出擊，獲得15次戰鬥勝利】任務100次",
 		max_num = 100,
 		task_scale = 1,
 		id = 4,
@@ -42,7 +42,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 25,
-		name = "海域清掃II-艦隊累計完成【艦隊出征，獲得45次戰鬥勝利】任務100次",
+		name = "海域清掃II-艦隊累計完成【艦隊出擊，獲得45次戰鬥勝利】任務100次",
 		max_num = 100,
 		task_scale = 2,
 		id = 5,
@@ -52,7 +52,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 35,
-		name = "海域清掃III-艦隊累計完成【艦隊出征，獲得75次戰鬥勝利】任務100次",
+		name = "海域清掃III-艦隊累計完成【艦隊出擊，獲得75次戰鬥勝利】任務100次",
 		max_num = 100,
 		task_scale = 3,
 		id = 6,
@@ -90,6 +90,36 @@ pg.guild_mission_template = {
 		guild_active = 5,
 		award_display = 400
 	},
+	{
+		award_capital_display = 15,
+		name = "大艦隊作戰I-艦隊累計完成【參與1次大艦隊作戰任意事件】任務100次",
+		max_num = 100,
+		task_scale = 1,
+		id = 10,
+		task_id = 70031,
+		guild_active = 5,
+		award_display = 80
+	},
+	{
+		award_capital_display = 25,
+		name = "大艦隊作戰II-艦隊累計完成【參與3次大艦隊作戰任意事件】任務100次",
+		max_num = 100,
+		task_scale = 2,
+		id = 11,
+		task_id = 70032,
+		guild_active = 5,
+		award_display = 240
+	},
+	{
+		award_capital_display = 35,
+		name = "大艦隊作戰III-艦隊累計完成【參與5次大艦隊作戰任意事件】任務100次",
+		max_num = 100,
+		task_scale = 3,
+		id = 12,
+		task_id = 70033,
+		guild_active = 5,
+		award_display = 400
+	},
 	all = {
 		1,
 		2,
@@ -99,6 +129,9 @@ pg.guild_mission_template = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10,
+		11,
+		12
 	}
 }

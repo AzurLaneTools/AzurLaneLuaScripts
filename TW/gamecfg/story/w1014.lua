@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析模块同步中：指挥官，海域中存在尚未回收的压制奖励，建议进行回收作业后再离开。",
+			say = "分析模組同步中：指揮官，海域中存在尚未回收的壓制獎勵，建議進行回收作業後再離開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,11 +21,11 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "確定",
 					flag = 0
 				},
 				{
-					content = "暂时离开(压制奖励不会消失)",
+					content = "暫時離開(壓制獎勵不會消失)",
 					flag = 1
 				}
 			}

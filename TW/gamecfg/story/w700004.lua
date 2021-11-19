@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "欢迎光临，此处出售特别战备商品",
+			say = "歡迎光臨，此處出售特別戰備商品",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
