@@ -1159,5 +1159,13 @@ pg.voice_actor_CN = {
 	{
 		code = 290,
 		actor_name = "藤井美波"
+	},
+	{
+		code = 291,
+		actor_name = "前田佳织里"
+	},
+	{
+		code = 292,
+		actor_name = "岛田爱野"
 	}
 }

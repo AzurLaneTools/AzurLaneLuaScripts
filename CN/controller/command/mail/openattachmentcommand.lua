@@ -1,35 +1,32 @@
 slot0 = class("OpenAttachmentCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot4 = pg.drop_data_restore
-	slot5 = pg.ship_skin_template
-	slot6 = pg.item_data_statistics
-	slot7 = _.any(slot1:getBody().items or {}, function (slot0)
+	slot4 = _.any(slot1:getBody().items or {}, function (slot0)
 		return slot0.type == DROP_TYPE_SHIP
 	end)
+	slot5 = {}
+
+	for slot9 = #slot3, 1, -1 do
+		if slot3[slot9].type == DROP_TYPE_ITEM and table.contains(ITEM_ID_FUDAIS, slot10.id) then
+			table.insert(slot5, slot10)
+			table.remove(slot3, slot9)
+		end
+	end
+
+	slot6 = {}
+
+	for slot10 = #slot3, 1, -1 do
+		if slot3[slot10].type == DROP_TYPE_ITEM and table.contains(ITEM_ID_MULTI_NORMAL, slot11.id) then
+			table.insert(slot6, slot11)
+			table.remove(slot3, slot10)
+		end
+	end
+
+	slot7 = getProxy(BayProxy)
 	slot8 = {}
 
-	for slot12 = #slot3, 1, -1 do
-		if slot3[slot12].type == DROP_TYPE_ITEM and table.contains(ITEM_ID_FUDAIS, slot13.id) then
-			table.insert(slot8, slot13)
-			table.remove(slot3, slot12)
-		end
-	end
-
-	slot9 = {}
-
-	for slot13 = #slot3, 1, -1 do
-		if slot3[slot13].type == DROP_TYPE_ITEM and table.contains(ITEM_ID_MULTI_NORMAL, slot14.id) then
-			table.insert(slot9, slot14)
-			table.remove(slot3, slot13)
-		end
-	end
-
-	slot10 = getProxy(BayProxy)
-	slot11 = {}
-
 	if #slot3 > 0 then
-		table.insert(slot11, function (slot0)
+		table.insert(slot8, function (slot0)
 			uv0:sendNotification(GAME.OPEN_MAIL_ATTACHMENT_DONE, {
 				items = uv1,
 				callback = slot0
@@ -37,10 +34,10 @@ function slot0.execute(slot0, slot1)
 		end)
 	end
 
-	if #slot8 > 0 then
-		for slot15, slot16 in ipairs(slot8) do
-			for slot20 = 1, slot16.count do
-				table.insert(slot11, function (slot0)
+	if #slot5 > 0 then
+		for slot12, slot13 in ipairs(slot5) do
+			for slot17 = 1, slot13.count do
+				table.insert(slot8, function (slot0)
 					uv0:sendNotification(GAME.USE_FUDAI_ITEM, {
 						count = 1,
 						id = uv1.id,
@@ -60,9 +57,9 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	if #slot9 > 0 then
-		for slot15, slot16 in ipairs(slot9) do
-			table.insert(slot11, function (slot0)
+	if #slot6 > 0 then
+		for slot12, slot13 in ipairs(slot6) do
+			table.insert(slot8, function (slot0)
 				uv0:sendNotification(GAME.USE_ITEM, {
 					id = uv1.id,
 					count = uv1.count,
@@ -72,7 +69,7 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	seriesAsync(slot11)
+	seriesAsync(slot8)
 end
 
 return slot0

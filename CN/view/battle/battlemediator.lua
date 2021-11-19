@@ -989,7 +989,6 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.FINISH_STAGE_DONE then
 		pg.MsgboxMgr.GetInstance():hide()
-		gcAll(true)
 
 		if slot3.system == SYSTEM_PROLOGUE then
 			ys.Battle.BattleState.GetInstance():Deactive()

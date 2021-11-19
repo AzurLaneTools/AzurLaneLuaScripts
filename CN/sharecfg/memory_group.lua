@@ -2228,6 +2228,27 @@ pg.memory_group = {
 			1835
 		}
 	},
+	[203] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 203,
+		title = "杰诺瓦的焰火",
+		memories = {
+			1881,
+			1882,
+			1883,
+			1884,
+			1885,
+			1886,
+			1887,
+			1888,
+			1889,
+			1890,
+			1891,
+			1892
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -3437,6 +3458,7 @@ pg.memory_group = {
 		199,
 		200,
 		202,
+		203,
 		501,
 		502,
 		503,

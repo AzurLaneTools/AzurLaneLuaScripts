@@ -1,5 +1,130 @@
 pg = pg or {}
 pg.ship_skin_template_6 = {
+	[202020] = {
+		ship_group = 20202,
+		name = "阿基里斯",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202020,
+		group_index = 0,
+		prefab = "ajilisi",
+		painting = "ajilisi",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "利安得级轻巡洋舰—阿基里斯，舷号70",
+		voice_actor = 61,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.348,
+					1.082,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.81,
+					0.756,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.552,
+					0.703,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.81,
+					0.756,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.575,
+							0.382,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.448,
+							0.577,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202029] = {
 		ship_group = 20202,
 		name = "阿基里斯.改",
@@ -8473,131 +8598,6 @@ pg.ship_skin_template_6 = {
 							-0.671,
 							2.082,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[203020] = {
-		ship_group = 20302,
-		name = "什罗普郡",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 203020,
-		group_index = 0,
-		prefab = "shiluopujun",
-		painting = "shiluopujun",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "伦敦级重巡洋舰—什罗普郡，舷号73",
-		voice_actor = 66,
-		spine_offset = "",
-		illustrator = 15,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.96,
-					0.66,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.96,
-					0.66,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.47,
-					0.24,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.96,
-					0.66,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.559,
-							0.272,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.293,
-							2.52,
-							-0.98
 						}
 					}
 				}

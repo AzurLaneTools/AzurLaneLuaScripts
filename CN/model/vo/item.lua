@@ -26,16 +26,44 @@ function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon
 end
 
-function slot0.GetIcon(slot0, slot1)
-	if slot0 == DROP_TYPE_RESOURCE then
-		return itemId2icon(id2ItemId(slot1))
-	elseif slot0 == DROP_TYPE_ITEM then
-		return itemId2icon(slot1)
-	elseif slot0 == DROP_TYPE_WORLD_RESOURCE then
-		-- Nothing
-	elseif slot0 == DROP_TYPE_WORLD_ITEM or slot0 == DROP_TYPE_VITEM then
-		return pg.world_item_data_template[slot1].icon
+function slot0.GetConfig(slot0, slot1)
+	function slot2(slot0)
+		if slot0 then
+			return slot0
+		else
+			Debugger.LogError(string.format("without drop_type_%d config from id_%d", uv0, uv1))
+		end
 	end
+
+	if slot0 == DROP_TYPE_RESOURCE then
+		return slot2(pg.item_data_statistics[id2ItemId(slot1)])
+	elseif slot0 == DROP_TYPE_ITEM or slot0 == DROP_TYPE_VITEM then
+		return slot2(pg.item_data_statistics[slot1])
+	elseif slot0 == DROP_TYPE_EQUIP then
+		return slot2(pg.equip_data_statistics[slot1])
+	elseif slot0 == DROP_TYPE_SHIP then
+		return slot2(pg.ship_data_statistics[slot1])
+	elseif slot0 == DROP_TYPE_FURNITURE then
+		return slot2(pg.furniture_data_template[slot1])
+	elseif slot0 == DROP_TYPE_SKIN then
+		return slot2(pg.ship_skin_template[slot1])
+	elseif slot0 == DROP_TYPE_EQUIPMENT_SKIN then
+		return slot2(pg.equip_skin_template[slot1])
+	elseif slot0 == DROP_TYPE_WORLD_ITEM then
+		return slot2(pg.world_item_data_template[slot1])
+	elseif slot0 == DROP_TYPE_ICON_FRAME then
+		return slot2(pg.item_data_frame[slot1])
+	elseif slot0 == DROP_TYPE_CHAT_FRAME then
+		return slot2(pg.item_data_chat[slot1])
+	end
+end
+
+function slot0.GetIcon(slot0, slot1)
+	return uv0.GetConfig(slot0, slot1).icon
+end
+
+function slot0.GetName(slot0, slot1)
+	return uv0.GetConfig(slot0, slot1).name
 end
 
 function slot0.Ctor(slot0, slot1)

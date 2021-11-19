@@ -37,6 +37,8 @@ function slot0.register(slot0)
 	if slot0.contextData.type == SkinShopScene.SHOP_TYPE_TIMELIMIT then
 		getProxy(SettingsProxy):SetNextTipTimeLimitSkinShop()
 	end
+
+	slot0.viewComponent:SetEncoreSkins(getProxy(ShipSkinProxy):GetEncoreSkins())
 end
 
 function slot0.listNotificationInterests(slot0)

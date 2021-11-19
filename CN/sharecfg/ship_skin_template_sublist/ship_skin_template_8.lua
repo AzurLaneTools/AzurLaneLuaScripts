@@ -1,5 +1,116 @@
 pg = pg or {}
 pg.ship_skin_template_8 = {
+	[207020] = {
+		ship_group = 20702,
+		name = "皇家方舟",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 207020,
+		group_index = 0,
+		prefab = "huangjiafangzhou",
+		painting = "huangjiafangzhou",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "皇家方舟号航空母舰，舷号91",
+		voice_actor = 5,
+		spine_offset = "",
+		illustrator = 18,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.333,
+					1.037,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.81,
+					0.757,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.469,
+							0.402,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.34,
+							0.854,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[207021] = {
 		ship_group = 20702,
 		name = "沙滩守望者",
@@ -6073,7 +6184,7 @@ pg.ship_skin_template_8 = {
 	},
 	[301113] = {
 		ship_group = 30111,
-		name = "晨曦精灵Ikatuchi",
+		name = "晨曦精灵Ikazuchi",
 		bullet_skin_secondary = "",
 		hand_id = 14,
 		bgm = "",
@@ -6424,7 +6535,7 @@ pg.ship_skin_template_8 = {
 	},
 	[301122] = {
 		ship_group = 30112,
-		name = "花火Inatuma",
+		name = "花火Inazuma",
 		bullet_skin_secondary = "",
 		hand_id = 14,
 		bgm = "",
@@ -6538,7 +6649,7 @@ pg.ship_skin_template_8 = {
 	},
 	[301123] = {
 		ship_group = 30112,
-		name = "月下妖精Inatuma",
+		name = "月下妖精Inazuma",
 		bullet_skin_secondary = "",
 		hand_id = 14,
 		bgm = "",
@@ -8122,126 +8233,6 @@ pg.ship_skin_template_8 = {
 					}
 				}
 			}
-		}
-	},
-	[301160] = {
-		ship_group = 30116,
-		name = "{namecode:22}",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301160,
-		group_index = 0,
-		prefab = "xuefeng",
-		painting = "xuefeng",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "{namecode:19}级驱逐舰八番舰—{namecode:22}",
-		voice_actor = 42,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.31,
-					0.62,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.19,
-					0.08,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.39,
-					0.71,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.36,
-							2.32,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5
 		}
 	}
 }

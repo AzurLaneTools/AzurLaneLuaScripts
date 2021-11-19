@@ -76,7 +76,23 @@ end
 
 function slot0.ExtraUpdate(slot0, slot1)
 	setText(findTF(slot0.tf, "lv/Text"), slot1.level)
-	setActive(findTF(slot0.tf, "titleContain/bg_boss"), ChapterConst.EnemySize[slot1.type] == 99)
+
+	if ChapterConst.EnemySize[slot1.type] == 99 or ChapterConst.EnemySize[slot1.type] == 98 then
+		slot2 = nil
+
+		if ChapterConst.EnemySize[slot1.type] == 99 then
+			slot2 = "enemy_boss"
+		elseif ChapterConst.EnemySize[slot1.type] == 98 then
+			slot2 = "enemy_elite"
+		end
+
+		slot3 = findTF(slot0.tf, "titleContain/bg_boss")
+
+		setActive(slot3, true)
+		GetImageSpriteFromAtlasAsync("ui/share/ship_gizmos_atlas", slot2, slot3)
+	else
+		setActive(findTF(slot0.tf, "titleContain/bg_boss"), false)
+	end
 
 	if slot1.effect_prefab and #slot2 > 0 then
 		slot3 = slot0:GetLoader()
