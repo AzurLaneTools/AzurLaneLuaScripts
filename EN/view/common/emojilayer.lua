@@ -47,7 +47,7 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:display()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		groupName = slot0:getGroupNameFromData()
 	})
 end
@@ -337,6 +337,7 @@ function slot0.willExit(slot0)
 	_.each(slot0.tplCaches, function (slot0)
 		uv0:clearItem(slot0)
 	end)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
 return slot0

@@ -1,5 +1,146 @@
 pg = pg or {}
 pg.enemy_data_statistics_34 = {
+	[840] = {
+		cannon = 65,
+		name = "Ace Corvette",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		reload = 150,
+		air = 0,
+		fog_fx = "",
+		dodge = 0,
+		speed = 15,
+		luck = 0,
+		id = 840,
+		reload_growth = 0,
+		dodge_growth = 0,
+		air_growth = 0,
+		star = 2,
+		hit = 80,
+		antisub_growth = 0,
+		rarity = 1,
+		cannon_growth = 0,
+		base = 123,
+		durability = 1350,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 50,
+		hit_growth = 0,
+		armor = 0,
+		torpedo = 220,
+		durability_growth = 0,
+		antisub = 140,
+		luck_growth = 0,
+		scale = 150,
+		battle_unit_type = 30,
+		cld_box = {
+			9.75,
+			5.625,
+			6.75
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				2.6,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuazhong3 = 0.75
+		},
+		equipment_list = {
+			300180,
+			300181,
+			300182
+		}
+	},
+	[841] = {
+		cannon = 95,
+		name = "Ace Frigate",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		reload = 150,
+		air = 0,
+		fog_fx = "",
+		dodge = 0,
+		speed = 15,
+		luck = 0,
+		id = 841,
+		reload_growth = 0,
+		dodge_growth = 0,
+		air_growth = 0,
+		star = 2,
+		hit = 80,
+		antisub_growth = 0,
+		rarity = 2,
+		cannon_growth = 0,
+		base = 124,
+		durability = 2350,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 50,
+		hit_growth = 0,
+		armor = 0,
+		torpedo = 120,
+		durability_growth = 0,
+		antisub = 100,
+		luck_growth = 0,
+		scale = 150,
+		battle_unit_type = 30,
+		cld_box = {
+			9.75,
+			5.625,
+			6.75
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.66,
+				-0.19,
+				-0.02
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuazhong2 = 0.75
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			300180,
+			300183,
+			300184
+		}
+	},
 	[842] = {
 		cannon = 0,
 		name = "Cargo Ship",
@@ -628,53 +769,6 @@ pg.enemy_data_statistics_34 = {
 			473021,
 			473022,
 			473023
-		}
-	},
-	[904] = {
-		cannon = 30,
-		reload = 150,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 6000,
-		air = 0,
-		base = 126,
-		dodge = 0,
-		speed = 15,
-		armor = 0,
-		antiaircraft = 150,
-		battle_unit_type = 4,
-		id = 904,
-		luck = 0,
-		antisub = 0,
-		hit = 0,
-		equipment_list = {
-			473031,
-			473032,
-			473033
-		}
-	},
-	[905] = {
-		cannon = 0,
-		reload = 150,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 5000,
-		air = 50,
-		base = 127,
-		dodge = 0,
-		speed = 15,
-		armor = 0,
-		antiaircraft = 150,
-		battle_unit_type = 4,
-		id = 905,
-		luck = 0,
-		antisub = 0,
-		hit = 0,
-		equipment_list = {
-			473041,
-			473042,
-			473043,
-			473044
 		}
 	}
 }

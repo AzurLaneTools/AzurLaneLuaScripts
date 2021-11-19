@@ -1,16 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4149",
+		param = "100004",
 		id = 1,
-		pic = "temp1",
+		pic = "temp7",
 		type = 3,
 		time = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					18
 				},
 				{
 					0,
@@ -21,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					11,
-					10
+					12,
+					1
 				},
 				{
 					23,
@@ -34,20 +34,20 @@ pg.activity_banner = {
 	},
 	{
 		id = 2,
-		pic = "temp2",
+		pic = "temp4",
 		type = 2,
 		param = {
-			"scene get boat",
+			"scene charge",
 			{
-				projectName = "new"
+				wrap = 4
 			}
 		},
 		time = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					18
 				},
 				{
 					0,
@@ -58,8 +58,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					11,
-					10
+					12,
+					1
 				},
 				{
 					23,
@@ -75,14 +75,16 @@ pg.activity_banner = {
 		type = 2,
 		param = {
 			"scene skinshop",
-			{}
+			{
+				warp = -3
+			}
 		},
 		time = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					18
 				},
 				{
 					0,
@@ -93,8 +95,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					11,
-					10
+					12,
+					1
 				},
 				{
 					23,
@@ -105,18 +107,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4161",
 		id = 4,
-		pic = "temp4",
-		type = 2,
-		param = {
-			"scene back yard"
-		},
+		pic = "temp1",
+		type = 3,
 		time = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -128,7 +128,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					10
+					24
 				},
 				{
 					23,
@@ -140,20 +140,20 @@ pg.activity_banner = {
 	},
 	{
 		id = 5,
-		pic = "temp5",
+		pic = "temp2",
 		type = 2,
 		param = {
-			"scene charge",
+			"scene get boat",
 			{
-				wrap = 4
+				projectName = "heavy"
 			}
 		},
 		time = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -165,7 +165,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					10
+					24
 				},
 				{
 					23,
@@ -177,20 +177,17 @@ pg.activity_banner = {
 	},
 	{
 		id = 6,
-		pic = "temp6",
+		pic = "temp5",
 		type = 2,
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"scene back yard"
 		},
 		time = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -202,7 +199,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					10
+					24
 				},
 				{
 					23,
@@ -213,16 +210,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4142",
+		param = "4163",
 		id = 7,
-		pic = "temp7",
+		pic = "temp6",
 		type = 3,
 		time = {
 			{
 				{
 					2021,
-					10,
-					21
+					11,
+					11
 				},
 				{
 					0,
@@ -234,7 +231,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					17
+					24
 				},
 				{
 					23,
@@ -244,39 +241,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		param = "4140",
-		id = 8,
-		pic = "temp8",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					10,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
+	[9] = {
 		param = "",
 		id = 9,
 		pic = "temp99",
@@ -285,8 +250,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					10,
-					28
+					11,
+					11
 				},
 				{
 					0,
@@ -298,7 +263,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					10
+					24
 				},
 				{
 					23,
@@ -308,7 +273,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
+	[10] = {
 		param = "Naval Curry|Sweet Curry or Hot Curry that is the question <color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
 		id = 10,
 		pic = "haijungali",
@@ -348,7 +313,6 @@ pg.activity_banner = {
 		5,
 		6,
 		7,
-		8,
 		9,
 		10
 	}

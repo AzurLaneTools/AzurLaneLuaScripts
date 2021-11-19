@@ -66,12 +66,17 @@ function slot0.addTranDrop(slot0, slot1)
 		end
 	end
 
-	slot5 = pg.item_data_statistics
-	slot6 = pg.ship_skin_template
-	slot7 = pg.item_data_frame
+	function slot5(slot0)
+		if slot0.type == DROP_TYPE_TRANS_ITEM then
+			slot1 = pg.drop_data_restore[slot0.id]
 
-	function slot8(slot0)
-		if slot0.type == DROP_TYPE_RESOURCE then
+			return Item.New({
+				type = DROP_TYPE_RESOURCE,
+				id = slot1.resource_type,
+				count = slot1.resource_num * (slot0.number or slot0.count),
+				name = Item.GetName(DROP_TYPE_RESOURCE, slot1.resource_type) .. "(" .. Item.GetName(slot1.target_type, slot1.target_id) .. ")"
+			})
+		elseif slot0.type == DROP_TYPE_RESOURCE then
 			slot4 = ActivityConst.ACTIVITY_TYPE_PT_CRUSING
 
 			for slot4, slot5 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot4)) do
@@ -82,44 +87,6 @@ function slot0.addTranDrop(slot0, slot1)
 						count = slot0.number or slot0.count
 					})
 				end
-			end
-		elseif slot0.type == DROP_TYPE_SKIN then
-			if (slot0.number or slot0.count) == 0 then
-				return Item.New({
-					count = 1,
-					type = slot0.type,
-					id = slot0.id
-				})
-			else
-				slot2, slot3 = Player.skin2Res(slot0.id, slot1)
-
-				return Item.New({
-					type = DROP_TYPE_RESOURCE,
-					id = slot2,
-					count = slot3,
-					name = uv0[id2ItemId(slot2)].name .. "(" .. uv1[slot0.id].name .. ")"
-				})
-			end
-		elseif slot0.type == DROP_TYPE_ICON_FRAME then
-			if (slot0.number or slot0.count) == 0 then
-				return Item.New({
-					count = 1,
-					type = slot0.type,
-					id = slot0.id
-				})
-			else
-				slot2, slot3 = Player.headFrame2Res(slot0.id, slot1)
-
-				if slot3 <= 0 then
-					return nil
-				end
-
-				return Item.New({
-					type = DROP_TYPE_RESOURCE,
-					id = slot2,
-					count = slot3,
-					name = uv0[id2ItemId(slot2)].name .. "(" .. uv2[slot0.id].name .. ")"
-				})
 			end
 		elseif slot0.type == DROP_TYPE_NPC_SHIP then
 			return Item.New({
@@ -133,32 +100,35 @@ function slot0.addTranDrop(slot0, slot1)
 				id = slot0.id,
 				count = slot0.number or slot0.count
 			}):getConfig("virtual_type") == 13 then
-				slot4 = Item.VItem2SkinCouponShopId(slot0.id)
+				slot4 = Item.GetName(slot0.type, slot0.id)
+				slot5 = Item.VItem2SkinCouponShopId(slot0.id)
 
 				if not getProxy(ActivityProxy):ExistSkinCouponActivity() then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_timeout_tip", uv0[slot0.id].name))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_timeout_tip", slot4))
 
 					return
-				elseif slot3:ExistSkinCouponActivityAndShopId(slot4) then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", uv0[slot0.id].name))
+				elseif slot3:ExistSkinCouponActivityAndShopId(slot5) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", slot4))
 
 					return
-				elseif getProxy(ShipSkinProxy):hasSkin(pg.shop_template[slot4].effect_args[1]) then
+				elseif getProxy(ShipSkinProxy):hasSkin(pg.shop_template[slot5].effect_args[1]) then
 					if slot1.count > 1 then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", uv0[slot0.id].name))
+						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", slot4))
 					end
 
+					slot6 = 14
+
 					return Item.New({
-						id = 14,
 						type = DROP_TYPE_RESOURCE,
-						count = pg.shop_discount_coupon_template[slot4].change,
-						name = uv0[id2ItemId(14)].name .. "(" .. uv0[slot0.id].name .. ")"
+						id = slot6,
+						count = pg.shop_discount_coupon_template[slot5].change,
+						name = Item.GetName(DROP_TYPE_RESOURCE, slot6) .. "(" .. slot4 .. ")"
 					}), slot1
 				end
 			elseif slot2 == 21 then
 				return nil, slot1
 			elseif slot2 == 6 then
-				slot3 = uv3.taskId
+				slot3 = uv0.taskId
 
 				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then
 					slot6 = slot5.data1KeyValueList[1]
@@ -170,8 +140,8 @@ function slot0.addTranDrop(slot0, slot1)
 				return nil, slot1
 			end
 		elseif slot0.type == DROP_TYPE_SHIP and Ship.isMetaShipByConfigID(slot0.id) then
-			if table.indexof(uv4, slot0.id, 1) then
-				table.remove(uv4, slot1)
+			if table.indexof(uv1, slot0.id, 1) then
+				table.remove(uv1, slot1)
 			else
 				slot2 = Player.metaShip2Res(slot0.id)
 				slot3 = Item.New({
@@ -198,16 +168,16 @@ function slot0.addTranDrop(slot0, slot1)
 		})
 	end
 
-	for slot12, slot13 in ipairs(slot0) do
-		slot14, slot15 = slot8(slot13)
+	for slot9, slot10 in ipairs(slot0) do
+		slot11, slot12 = slot5(slot10)
 
-		if slot14 then
-			table.insert(slot2, slot14)
-			pg.m02:sendNotification(GAME.ADD_ITEM, slot14)
+		if slot11 then
+			table.insert(slot2, slot11)
+			pg.m02:sendNotification(GAME.ADD_ITEM, slot11)
 		end
 
-		if slot15 then
-			pg.m02:sendNotification(GAME.ADD_ITEM, slot15)
+		if slot12 then
+			pg.m02:sendNotification(GAME.ADD_ITEM, slot12)
 		end
 	end
 

@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I'm also working as the secretary now, remember?. I've got huge amounts of work to do today and tomorrow. I don't have the energy for a no-holds-barred duel.",
+			say = "I'm also working as the secretary now, remember? I've got huge amounts of work to do today and tomorrow. I don't have the energy for a no-holds-barred duel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

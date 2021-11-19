@@ -1159,5 +1159,13 @@ pg.voice_actor_CN = {
 	{
 		code = 290,
 		actor_name = "Minami Fujii "
+	},
+	{
+		code = 291,
+		actor_name = "Maeda Kaori"
+	},
+	{
+		code = 292,
+		actor_name = "Shimada Aino"
 	}
 }

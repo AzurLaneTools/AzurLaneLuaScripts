@@ -4312,6 +4312,14 @@ pg.skill_data_display = {
 		id = 14951,
 		name = "Templar's Holy Advance"
 	},
+	[14960] = {
+		id = 14960,
+		name = "The Flawless Knife-Thrower"
+	},
+	[14970] = {
+		id = 14970,
+		name = "Circumspect Vigilance"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -7927,6 +7935,8 @@ pg.skill_data_display = {
 		14940,
 		14950,
 		14951,
+		14960,
+		14970,
 		18010,
 		18040,
 		18041,

@@ -126817,6 +126817,281 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[17188] = {
+		name = "『福煦SP』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 96369,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1011,
+		desc = "Log in to the game.",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17188,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				225,
+				2
+			}
+		}
+	},
+	[17189] = {
+		name = "『福熙SP』通关SP1",
+		guild_coin_award = 0,
+		award = 96374,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear SP1.",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1580001",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17190",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1580001,
+		id = 17189,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[17190] = {
+		name = "『福熙SP』通关SP2",
+		guild_coin_award = 0,
+		award = 96375,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear SP2.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1580002",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17191",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1580002,
+		id = 17190,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[17191] = {
+		name = "『福熙SP』通关SP3",
+		guild_coin_award = 0,
+		award = 96376,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "Clear SP3.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1580003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1580003,
+		id = 17191,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
+	[17192] = {
+		name = "『福熙SP』SP1三星",
+		guild_coin_award = 0,
+		award = 96377,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete SP1 with 3 stars.",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1580001",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17193",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1580001,
+		id = 17192,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[17193] = {
+		name = "『福熙SP』SP2三星",
+		guild_coin_award = 0,
+		award = 96378,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete SP2 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1580002",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "17194",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1580002,
+		id = 17193,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[17194] = {
+		name = "『福熙SP』SP3三星",
+		guild_coin_award = 0,
+		award = 96379,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "Complete SP3 with 3 stars.",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1580003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1580003,
+		id = 17194,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
 	[31013] = {
 		name = "投票日常建造",
 		guild_coin_award = 0,
@@ -152467,6 +152742,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		17185,
 		17186,
 		17187,
+		17188,
+		17189,
+		17190,
+		17191,
+		17192,
+		17193,
+		17194,
 		31013,
 		31014,
 		31015,

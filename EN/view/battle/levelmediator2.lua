@@ -551,8 +551,9 @@ end
 function slot0.NoticeVoteBook(slot0, slot1)
 	if getProxy(VoteProxy):IsNewOrderBook() then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			noText = "text_iknow",
 			yesText = "text_forward",
+			noText = "text_iknow",
+			keepSettings = true,
 			content = i18n("vote_get_book"),
 			onYes = function ()
 				if getProxy(VoteProxy):GetOrderBook() and not slot0:IsExpired() then
@@ -1232,6 +1233,7 @@ function slot0.OnEventUpdate(slot0, slot1)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = false,
 				hideNo = true,
+				keepSettings = true,
 				content = i18n("event_special_update", pg.collection_template[slot4] and pg.collection_template[slot4].title or ""),
 				weight = LayerWeightConst.SECOND_LAYER,
 				onYes = slot1,

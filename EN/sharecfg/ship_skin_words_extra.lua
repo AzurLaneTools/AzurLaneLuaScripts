@@ -6188,6 +6188,78 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[801070] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		expedition = "",
+		profile = "",
+		home = "",
+		mission = "",
+		feeling2 = "",
+		feeling1 = "",
+		skill = "",
+		headtouch = "",
+		id = 801070,
+		lose = "",
+		feeling4 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"You look to be in high spirits today. So, what do you need me to do next?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"How's that? Look what I, in all my grace and elegance, have done in your name."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Accept your divine punishment!"
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"Ahaha! Thanks to you, Commander, I feel even stronger."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"A tea party with my sisters? ...I don't know about that... H-hey, it's not that I don't want to go... But what if the tea is too hot...|If you have a mission that requires speed, just leave it to me. That's one of my fortes, after all.|Want to head to somewhere high up after you're done with work? I'd like to understand... what it feels like to be a bird, soaring freely through the skies."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"If you could talk to me about your concerns, Commander, I'd be really happy~♪"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"The mission rewards are right here. Heh heh~ I love the way you look when you're pushing yourself to the limit~♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"This... is also one of my weaknesses."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, have some spare time to have a chat? No no, I didn't have anything special in mind. You know, I get anxious if I don't get to see your face for even a day. Whether you're having a good day or a not-so-good day, I just want to see more of you~"
+			}
+		}
+	},
 	[801080] = {
 		unlock = "",
 		feeling3 = "",
@@ -6247,6 +6319,83 @@ pg.ship_skin_words_extra = {
 			{
 				1100,
 				"Lord Commander! When is the next sortie? I must know so I can prepare for our holy battle, and also to relax and repose! Most of all, I'd love to spend a day off together with you~"
+			}
+		}
+	},
+	[903010] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		feeling4 = "",
+		upgrade = "",
+		profile = "",
+		mission = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		battle = "",
+		id = 903010,
+		feeling1 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, the documents for you to take care of today are on your desk. ...No need to look so down, Commander~ I'll help you with anything!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Yep~ Feel free to keep relying on me~♪"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"What a miscalculation... I'm sorry, Commander..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Do you need some help with the reports? Leave them to me, and go take a break. I'll find you if I need anything from you."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Algérie invited you to a cat café? Haha, then let's go there after we're done with work.|I'll help you out so you don't need to work extra hours.|If someone wants to disturb the peace that we've built... Well, it's our job to stop them, isn't it?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"If you want me to pamper you, just say the word~♪"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Our supplies have arrived. Don't worry, I've already checked up on them myself!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"I've gone and collected the mission rewards for you. This favor's on the house~♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander? What might you be thinking about?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, did you have any plans for the evening? Ahaha, it's nothing special. I was just thinking that I'd like to eat dinner with you tonight. The reason is... Well, isn't wanting to spend more time with you reason enough? Haha~♪"
 			}
 		}
 	},
@@ -6350,6 +6499,8 @@ pg.ship_skin_words_extra = {
 		301480,
 		302070,
 		303060,
-		801080
+		801070,
+		801080,
+		903010
 	}
 }

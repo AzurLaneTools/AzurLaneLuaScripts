@@ -50,6 +50,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.filterData = _.select(slot0.filterConfig.all, function (slot0)
 		return uv0.filterConfig[slot0].is_view == 1
 	end)
+	slot0.totalThemeCnt = #slot0.filterData
 	slot0.themes = slot0:GetThemes()
 end
 
@@ -238,8 +239,13 @@ function slot0.filter(slot0)
 
 	function slot2(slot0)
 		slot1 = slot0.id
+		slot3 = uv0.selectedOther and slot0:getConfig("themeId") == 0
 
-		if uv0.selectedOther and slot0:getConfig("themeId") == 0 then
+		if #uv0.filterData == uv0.totalThemeCnt and slot2 then
+			return false
+		end
+
+		if slot3 then
 			return false
 		end
 

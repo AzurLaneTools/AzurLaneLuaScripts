@@ -2205,7 +2205,7 @@ pg.activity_vote = {
 		}
 	},
 	[21] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "Qualifiers Comeback",
 		help_text = "",
 		type = 6,
@@ -2318,14 +2318,14 @@ pg.activity_vote = {
 		}
 	},
 	[22] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "Group A",
 		help_text = "",
 		type = 3,
 		is_in_game = 1,
 		banner = 0,
 		activity_bg = 0,
-		desc = "The top 3 characters with the most votes within each group advances to the Finals while the top 4 to 10 characters from each group are sent to the Finals Comeback round. ",
+		desc = "The top 4 characters with the most votes within each group advances to the Finals while the top 5 to 12 characters from each group are sent to the Finals Comeback round. ",
 		id = 22,
 		is_on_web = 0,
 		time_vote = {
@@ -2433,14 +2433,14 @@ pg.activity_vote = {
 		}
 	},
 	[23] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "Group B",
 		help_text = "",
 		type = 3,
 		is_in_game = 1,
 		banner = 0,
 		activity_bg = 0,
-		desc = "The top 3 characters with the most votes within each group advances to the Finals while the top 4 to 10 characters from each group are sent to the Finals Comeback round. ",
+		desc = "The top 4 characters with the most votes within each group advances to the Finals while the top 5 to 12 characters from each group are sent to the Finals Comeback round. ",
 		id = 23,
 		is_on_web = 0,
 		time_vote = {
@@ -2548,14 +2548,14 @@ pg.activity_vote = {
 		}
 	},
 	[24] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "Group C",
 		help_text = "",
 		type = 3,
 		is_in_game = 1,
 		banner = 0,
 		activity_bg = 0,
-		desc = "The top 3 characters with the most votes within each group advances to the Finals while the top 4 to 10 characters from each group are sent to the Finals Comeback round. ",
+		desc = "The top 4 characters with the most votes within each group advances to the Finals while the top 5 to 12 characters from each group are sent to the Finals Comeback round. ",
 		id = 24,
 		is_on_web = 0,
 		time_vote = {
@@ -2663,14 +2663,14 @@ pg.activity_vote = {
 		}
 	},
 	[25] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "Group D",
 		help_text = "",
 		type = 3,
 		is_in_game = 1,
 		banner = 0,
 		activity_bg = 0,
-		desc = "The top 3 characters with the most votes within each group advances to the Finals while the top 4 to 10 characters from each group are sent to the Finals Comeback round. ",
+		desc = "The top 4 characters with the most votes within each group advances to the Finals while the top 5 to 12 characters from each group are sent to the Finals Comeback round. ",
 		id = 25,
 		is_on_web = 0,
 		time_vote = {
@@ -2778,14 +2778,14 @@ pg.activity_vote = {
 		}
 	},
 	[26] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "Group E",
 		help_text = "",
 		type = 3,
 		is_in_game = 1,
 		banner = 0,
 		activity_bg = 0,
-		desc = "The top 3 characters with the most votes within each group advances to the Finals while the top 4 to 10 characters from each group are sent to the Finals Comeback round. ",
+		desc = "The top 4 characters with the most votes within each group advances to the Finals while the top 5 to 12 characters from each group are sent to the Finals Comeback round. ",
 		id = 26,
 		is_on_web = 0,
 		time_vote = {
@@ -2893,14 +2893,14 @@ pg.activity_vote = {
 		}
 	},
 	[27] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "Finals Comeback",
 		help_text = "",
 		type = 4,
 		is_in_game = 1,
 		banner = 0,
 		activity_bg = 0,
-		desc = "The top 9 characters who receive the most votes in the Finals Comeback round will advance to the Finals. ",
+		desc = "The top 12 characters who receive the most votes in the Finals Comeback round will advance to the Finals. ",
 		id = 27,
 		is_on_web = 0,
 		time_vote = {
@@ -2984,7 +2984,7 @@ pg.activity_vote = {
 		group_data = {},
 		rank_to_next = {
 			{
-				27,
+				28,
 				{
 					1,
 					2,
@@ -3003,14 +3003,14 @@ pg.activity_vote = {
 		}
 	},
 	[28] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "Finals",
 		help_text = "",
 		type = 5,
 		is_in_game = 1,
 		banner = 0,
 		activity_bg = 0,
-		desc = "The 24 characters that advance to the Finals will take part in a vote that lasts 7 days. ",
+		desc = "The 32 characters that advance to the Finals will take part in a vote that lasts 7 days. ",
 		id = 28,
 		is_on_web = 0,
 		time_vote = {

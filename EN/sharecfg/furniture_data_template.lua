@@ -4321,6 +4321,57 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[211] = {
+		effect = "",
+		name = "Shopping Frenzy ",
+		gain_by = "nono",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Load up your cart with sweet deals!",
+		tag = 1,
+		icon = "gouwucheicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 211,
+		can_rotate = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gouwuche",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -66398,7 +66449,7 @@ pg.furniture_data_template = {
 		themeId = 66,
 		is_get_time_note = 0,
 		deblocking = 1,
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "It burns its brightest on streets of fire.",
 		tag = 1,
@@ -83540,6 +83591,7 @@ pg.furniture_data_template = {
 		206,
 		208,
 		209,
+		211,
 		100002,
 		100003,
 		100004,
