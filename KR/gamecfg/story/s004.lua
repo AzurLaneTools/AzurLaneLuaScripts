@@ -26,23 +26,7 @@ return {
 			side = 0,
 			nameColor = "#92fc63",
 			say = "이 힘은...! 역시 당신들은 그 \"힘\"을...!",
-			subBgName = {
-				name = "bg_story_1_sub",
-				anchors = {
-					0,
-					0.5,
-					0,
-					0.5
-				},
-				pivot = {
-					0,
-					0.415
-				},
-				pos = {
-					0,
-					0
-				}
-			},
+			subBgName = "bg_story_1_sub",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

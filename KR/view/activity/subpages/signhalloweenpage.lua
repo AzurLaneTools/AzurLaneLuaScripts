@@ -1,6 +1,5 @@
 slot0 = class("SignHalloweenPage", import("...base.BaseActivityPage"))
-slot1 = 11
-slot2 = 15
+slot1 = 15
 
 function slot0.OnInit(slot0)
 	slot0.icons = {
@@ -26,7 +25,8 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.SetData(slot0)
-	slot2 = getProxy(MiniGameProxy):GetHubByHubId(uv0)
+	slot0.hubId = slot0.activity:getConfig("config_id")
+	slot2 = getProxy(MiniGameProxy):GetHubByHubId(slot0.hubId)
 	slot0.data = slot2
 	slot0.ultimate = slot2.ultimate
 	slot0.usedtime = slot2.usedtime
@@ -74,7 +74,7 @@ function slot0.CheckGet(slot0)
 		end
 
 		pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
-			hubid = uv0,
+			hubid = slot0.hubId,
 			cmd = MiniGameOPCommand.CMD_ULTIMATE,
 			args1 = {}
 		})

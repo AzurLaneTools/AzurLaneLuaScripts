@@ -217,10 +217,45 @@ function slot0.getRefundInfo(slot0)
 end
 
 function slot0.IsShowCommssionTip(slot0)
+	slot2 = getProxy(EventProxy):hasFinishState()
 	slot3 = getProxy(NavalAcademyProxy)
 	slot4 = slot0:getRawData()
+	slot7 = slot3:GetClassVO()
+	slot8 = slot3:GetOilVO():isCommissionNotify(slot4.oilField)
+	slot9 = slot3:GetGoldVO():isCommissionNotify(slot4.goldField)
+	slot10 = slot7:GetGenResCnt()
+	slot12 = 0
 
-	return getProxy(EventProxy):hasFinishState() or slot3:GetOilVO():isCommissionNotify(slot4.oilField) or slot3:GetGoldVO():isCommissionNotify(slot4.goldField) or NotifyTipHelper.ShouldShowUrTip()
+	for slot16, slot17 in ipairs(slot7:GetEffectAttrs()) do
+		if slot17.attrName == "stock" then
+			slot12 = slot17.value
+		end
+	end
+
+	slot13 = NotifyTipHelper.ShouldShowUrTip()
+	slot15 = 0
+
+	_.each(_.values(slot3:getStudents()), function (slot0)
+		if slot0:getFinishTime() <= pg.TimeMgr.GetInstance():GetServerTime() then
+			uv0 = uv0 + 1
+		end
+	end)
+
+	slot17 = 0
+
+	_.each(getProxy(TechnologyProxy):getTechnologys(), function (slot0)
+		if slot0.state == Technology.STATE_FINISHED then
+			uv0 = uv0 + 1
+		end
+	end)
+
+	slot19 = false
+
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot18:isEnd() then
+		slot19 = slot18:readyToAchieve()
+	end
+
+	return slot2 or slot8 or slot9 or slot12 ~= 0 and slot10 > slot12 - 10 or slot13 or slot15 > 0 or slot17 > 0 or slot19
 end
 
 return slot0

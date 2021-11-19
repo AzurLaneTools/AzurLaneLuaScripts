@@ -16,7 +16,7 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 800087,
+				skill_id = 800207,
 				dungeonTypeList = {
 					98,
 					99

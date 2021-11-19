@@ -165,10 +165,6 @@ function slot2.EnterBattle(slot0, slot1, slot2)
 		slot0:ChangeState(uv1.BATTLE_STATE_OPENING)
 		UpdateBeat:Add(slot0.Update, slot0)
 	end
-
-	if PLATFORM_CODE ~= PLATFORM_CH then
-		GCThread.GetInstance():StartWatch(110)
-	end
 end
 
 function slot2.GetSceneMediator(slot0)
@@ -303,10 +299,6 @@ function slot2.ExitBattle(slot0)
 	uv0.Battle.BattleBulletFactory.DestroyFactory()
 	UpdateBeat:Remove(slot0.Update, slot0)
 	pg.EffectMgr.GetInstance():ClearBattleEffectMap()
-
-	if PLATFORM_CODE ~= PLATFORM_CH then
-		GCThread.GetInstance():StopWatch()
-	end
 
 	slot0._timeScale = nil
 	slot0._timescalerCache = nil

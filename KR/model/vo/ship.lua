@@ -23,9 +23,12 @@ slot0.STATE_CLASS = 3
 slot0.STATE_COLLECT = 4
 slot0.STATE_TRAIN = 5
 slot2 = 4
-slot3 = pg.ship_data_strengthen
-slot4 = pg.ship_level
-slot5 = pg.equip_skin_template
+slot3 = 100
+slot4 = 120
+slot5 = pg.ship_data_strengthen
+slot6 = pg.ship_level
+slot7 = pg.equip_skin_template
+slot8 = pg.ship_data_breakout
 
 function nation2print(slot0)
 	return Nation.Nation2Print(slot0)
@@ -1384,8 +1387,37 @@ function slot0.getNextMaxLevel(slot0)
 	end
 end
 
+function slot0.canUpgrade(slot0)
+	if slot0:isMetaShip() or slot0:isBluePrintShip() then
+		return false
+	else
+		slot1 = uv0[slot0.configId]
+		slot2 = not slot0:isMaxStar() and slot1.level <= slot0.level
+
+		return slot2
+	end
+end
+
 function slot0.isReachNextMaxLevel(slot0)
 	return slot0.level == slot0:getMaxLevel() and slot0:CanAccumulateExp() and slot0:getNextMaxLevel() ~= nil
+end
+
+function slot0.isAwakening(slot0)
+	return slot0:isReachNextMaxLevel() and slot0.level < uv0
+end
+
+function slot0.isAwakening2(slot0)
+	return slot0:isReachNextMaxLevel() and uv0 <= slot0.level
+end
+
+function slot0.notMaxLevelForFilter(slot0)
+	if slot0.level == uv0 and not slot0:isMaxStar() then
+		return false
+	else
+		slot1 = not slot0:isConfigMaxLevel() and not slot0:isReachNextMaxLevel()
+
+		return slot1
+	end
 end
 
 function slot0.getNextMaxLevelConsume(slot0)

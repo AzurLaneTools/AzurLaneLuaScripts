@@ -238,7 +238,7 @@ return {
 			actor = 404021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "언니... 정말 같이 안 갈 거야?",
+			say = "언니... 정말 같이 안 갈 거에요?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -288,7 +288,7 @@ return {
 			actor = 404021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "...알겠어.",
+			say = "...알겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

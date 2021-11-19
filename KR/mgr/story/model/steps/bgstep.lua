@@ -6,6 +6,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.bgSpeed = slot1.bgSpeed
 	slot0.blankScreenTime = slot1.blankScreen
 	slot0.unscaleDelay = slot1.unscaleDelay or 0
+	slot0.subBg = slot1.subBgName
 end
 
 function slot0.GetMode(slot0)
@@ -14,6 +15,10 @@ end
 
 function slot0.GetFadeSpeed(slot0)
 	return slot0.bgSpeed or 0.5
+end
+
+function slot0.GetSubBg(slot0)
+	return slot0.subBg
 end
 
 function slot0.GetPainting(slot0)

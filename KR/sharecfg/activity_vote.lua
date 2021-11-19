@@ -2233,7 +2233,7 @@ pg.activity_vote = {
 		}
 	},
 	[21] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "예선 부활전",
 		help_text = "",
 		type = 6,
@@ -2346,7 +2346,7 @@ pg.activity_vote = {
 		}
 	},
 	[22] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "조별 경기 A",
 		help_text = "",
 		type = 3,
@@ -2461,7 +2461,7 @@ pg.activity_vote = {
 		}
 	},
 	[23] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "조별 경기 B",
 		help_text = "",
 		type = 3,
@@ -2576,7 +2576,7 @@ pg.activity_vote = {
 		}
 	},
 	[24] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "조별 경기 C",
 		help_text = "",
 		type = 3,
@@ -2691,7 +2691,7 @@ pg.activity_vote = {
 		}
 	},
 	[25] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "조별 경기 D",
 		help_text = "",
 		type = 3,
@@ -2806,7 +2806,7 @@ pg.activity_vote = {
 		}
 	},
 	[26] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "조별 경기 E",
 		help_text = "",
 		type = 3,
@@ -2921,7 +2921,7 @@ pg.activity_vote = {
 		}
 	},
 	[27] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "결승 부활전",
 		help_text = "",
 		type = 4,
@@ -3012,7 +3012,7 @@ pg.activity_vote = {
 		group_data = {},
 		rank_to_next = {
 			{
-				27,
+				28,
 				{
 					1,
 					2,
@@ -3031,7 +3031,7 @@ pg.activity_vote = {
 		}
 	},
 	[28] = {
-		same_rank_by_id = 5,
+		same_rank_by_id = 20,
 		name = "결승전",
 		help_text = "",
 		type = 5,

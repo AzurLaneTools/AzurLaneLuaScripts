@@ -154,12 +154,24 @@ pg.activity_task_permanent = {
 			35081
 		}
 	},
+	[6006] = {
+		gametip = "멤피스 한정 스킨 「Mystical Night」 획득 가능",
+		banner_route = "permanent_mengfeisi",
+		gametip_extra = "7일만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6006,
+		activity_name = "혼돈의 핼러윈 나이트",
+		over_task_id = "",
+		eliminate_task_id = {}
+	},
 	all = {
 		6000,
 		6001,
 		6002,
 		6003,
 		6004,
-		6005
+		6005,
+		6006
 	}
 }

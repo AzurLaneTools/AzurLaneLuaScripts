@@ -45,6 +45,26 @@ function slot0.register(slot0)
 	slot0:on(12010, function (slot0)
 		slot2 = getProxy(PlayerProxy):getInited()
 		slot3 = 0
+
+		for slot7, slot8 in ipairs(slot0.ship_list) do
+			if Ship.New(slot8):getConfigTable() and slot9.id > 0 then
+				uv0:addShip(slot9, false)
+
+				if slot2 then
+					slot3 = slot3 + 1
+				end
+			else
+				warning("不存在的角色: " .. slot9.id)
+			end
+		end
+
+		if slot3 > 0 then
+			uv0:countShip(slot3)
+		end
+	end)
+	slot0:on(12042, function (slot0)
+		slot2 = getProxy(PlayerProxy):getInited()
+		slot3 = 0
 		uv0.newShipList = {}
 
 		for slot7, slot8 in ipairs(slot0.ship_list) do
@@ -231,6 +251,10 @@ function slot0.getMetaTransItemMap(slot0, slot1)
 end
 
 function slot0.addMetaTransItemMap(slot0, slot1, slot2)
+	if not slot0.metaTransItemMap then
+		slot0.metaTransItemMap = {}
+	end
+
 	if not slot0.metaTransItemMap[slot1] then
 		slot0.metaTransItemMap[slot1] = {}
 	end

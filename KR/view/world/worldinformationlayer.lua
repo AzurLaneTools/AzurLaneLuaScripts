@@ -27,6 +27,18 @@ function slot0.init(slot0)
 
 	slot1:Setup()
 
+	slot2 = slot0.wsWorldInfo.transform
+
+	setText(slot2:Find("power/bg/Word"), i18n("world_total_power"))
+
+	slot2 = slot0.wsWorldInfo.transform
+
+	setText(slot2:Find("explore/mileage/Text"), i18n("world_mileage"))
+
+	slot2 = slot0.wsWorldInfo.transform
+
+	setText(slot2:Find("explore/pressing/Text"), i18n("world_pressing"))
+
 	slot0.rtRightPanel = slot0:findTF("adapt/right_panel")
 	slot1 = slot0.rtRightPanel
 	slot0.rtNothingTip = slot1:Find("nothing_tip")

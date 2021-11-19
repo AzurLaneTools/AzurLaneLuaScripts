@@ -36,16 +36,22 @@ end
 
 function slot0.OnFlush(slot0)
 	slot1 = getProxy(TechnologyProxy)
+	slot0.list = slot1:getTechnologys()
 
-	if #_.select(slot1:getTechnologys(), function (slot0)
+	if #_.select(slot0.list, function (slot0)
 		return slot0.state == Technology.STATE_STARTING and slot0:canFinish()
 	end) > 0 then
-		for slot6, slot7 in pairs(slot2) do
-			slot0:emit(CommissionInfoMediator.ON_TECH_TIME_OVER, slot7.id, function ()
-				uv0:OnFlush()
-				uv0:UpdateList()
+		slot3 = {}
+
+		for slot7, slot8 in pairs(slot2) do
+			table.insert(slot3, function (slot0)
+				uv0:emit(CommissionInfoMediator.ON_TECH_TIME_OVER, uv1.id, slot0)
 			end)
 		end
+
+		seriesAsync(slot3, function ()
+			uv0:OnFlush()
+		end)
 	else
 		slot3 = 1
 		slot5 = 0
@@ -70,8 +76,6 @@ function slot0.OnFlush(slot0)
 		setActive(slot0.ongoingCounterContainer, slot5 > 0)
 		setActive(slot0.leisureCounterContainer, ((slot4 > 0 or slot5 > 0) and 0 or 1) > 0)
 	end
-
-	slot0.list = slot1
 end
 
 function slot0.UpdateListItem(slot0, slot1, slot2, slot3)
