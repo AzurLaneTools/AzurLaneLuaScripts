@@ -42,6 +42,9 @@ return {
 			trigger = {
 				"onAttach"
 			},
+			pop = {
+				displayID = 108020
+			},
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 108023,

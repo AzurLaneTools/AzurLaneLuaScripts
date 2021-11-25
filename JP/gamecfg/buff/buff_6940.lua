@@ -30,6 +30,46 @@ return {
 			}
 		},
 		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				buff_id = 6942,
+				quota = 1,
+				check_target = {
+					"TargetSelf",
+					"TargetShipType"
+				},
+				ship_type_list = {
+					1,
+					2,
+					3,
+					18,
+					19
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				buff_id = 6942,
+				quota = 1,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"SSSS"
+				}
+			}
+		},
+		{
 			type = "BattleBuffDiva",
 			trigger = {
 				"onInitGame"

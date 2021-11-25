@@ -78,7 +78,7 @@ function slot0.UpdateView(slot0)
 	slot2 = nil
 
 	setActive(slot0.upper_xiaoyouxi:Find("tip"), uv0.IsMiniActNeedTip(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and slot3.id))
-	setActive(slot0.upper_huodongye:Find("tip"), slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and slot5:readyToAchieve())
+	setActive(slot0.upper_huodongye:Find("tip"), slot1:getActivityById(ActivityConst.SSSS_PT) and slot5:readyToAchieve())
 	setActive(slot0.upper_jinianzhang:Find("tip"), Activity.isHaveActivableMedal())
 	setActive(slot0.upper_huoyuehuodong:Find("tip"), slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) and slot8:readyToAchieve())
 end

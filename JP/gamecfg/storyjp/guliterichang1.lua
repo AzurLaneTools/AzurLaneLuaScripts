@@ -733,7 +733,7 @@ return {
 			actor = 106010,
 			side = 0,
 			bgName = "star_level_bg_148",
-			actorName = "アイランド&明石",
+			actorName = "ロング・アイランド&明石",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",

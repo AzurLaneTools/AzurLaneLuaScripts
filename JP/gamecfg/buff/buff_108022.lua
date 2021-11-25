@@ -42,6 +42,7 @@ return {
 			trigger = {
 				"onAttach"
 			},
+			pop = {},
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 108023,
