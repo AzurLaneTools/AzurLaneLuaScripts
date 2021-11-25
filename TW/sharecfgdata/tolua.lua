@@ -1,1 +1,0 @@
-require("Framework.toLua.tolua")
