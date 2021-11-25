@@ -4764,6 +4764,52 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[210] = {
+		spine_extra = "",
+		describe = "ホログラムの町の上空に浮かぶプライマルアクセプターのモデル。日常に終わりを告げ、夢の同盟を結成しよう！アクセスフラッシュ！ーーコラボイベント「弧光交わる世界にて」参加記念",
+		gain_by = "弧光交わる世界にて",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "gulitexunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "SSSS記念章",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 210,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"ssss-az-pv"
+			}
+		},
+		spine = {
+			{
+				"gulitexunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -6861,6 +6907,57 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100031] = {
+		spine_extra = "",
+		describe = "秋の天気はオータムスカイハイピョ",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "autumnboxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "饅頭天気箱（秋）",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100031,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"autumnbox",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"Houzhai_shuye",
+					"action1"
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -92419,6 +92516,2152 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[84001] = {
+		spine_extra = "",
+		describe = "「緊急事態発生！巨大怪獣が町に接近中！」",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "ジオラマ町の床",
+		effect = "",
+		advice = 0,
+		icon = "dibanglticon",
+		spine_action_replace = "",
+		picture = "glt/dibanglt",
+		comfortable = 4,
+		canputon = 0,
+		id = 84001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84002] = {
+		spine_extra = "",
+		describe = "「緊急事態発生！巨大怪獣が町に接近中！」",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "ジオラマ町の壁",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiglticon",
+		spine_action_replace = "",
+		picture = "glt/qiangbiglt",
+		comfortable = 4,
+		canputon = 0,
+		id = 84002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84101] = {
+		spine_extra = "",
+		describe = "ご注意ください。電車が通過しまーす",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diancheglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "鉄道ミニチュア",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/diancheglt",
+		canputon = 0,
+		id = 84101,
+		can_rotate = 0,
+		size = {
+			9,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84102] = {
+		spine_extra = "",
+		describe = "襲撃でもされない限り、いつもオンタイムさ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dianchezhanglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "駅ミニチュア",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/dianchezhanglt",
+		canputon = 0,
+		id = 84102,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84103] = {
+		spine_extra = "",
+		describe = "インフラの命綱",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dianlitietaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "送電塔ミニチュア",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/dianlitietaglt",
+		canputon = 0,
+		id = 84103,
+		can_rotate = 0,
+		size = {
+			1,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84104] = {
+		spine_extra = "",
+		describe = "本日は営業しておりません",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "dianmianglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "商店街ミニチュア",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/dianmianglt",
+		canputon = 0,
+		id = 84104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84106] = {
+		spine_extra = "",
+		describe = "堅牢に建っているオフィスビル？座るにはちょうどいい高さ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dudongdalouglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "オフィスビルチェア",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/dudongdalouglt",
+		canputon = 0,
+		id = 84106,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0.6,
+					115.6
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84107] = {
+		spine_extra = "",
+		describe = "普通の開けた公園。思いっきり戦える場所",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gongyuanglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "公園ミニチュア",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/gongyuanglt",
+		canputon = 0,
+		id = 84107,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"attack",
+				{
+					-28.3,
+					24.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84108] = {
+		spine_extra = "",
+		describe = "ここまで壊れたら出社は…え？テレワーク？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "huailouqunglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "マンション廃墟",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/huailouqunglt",
+		canputon = 0,
+		id = 84108,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84111] = {
+		spine_extra = "",
+		describe = "激しい戦闘を物語っている",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 6,
+		tag = 1,
+		icon = "huaizhuzhaiaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "マンション廃墟·オレンジ",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/huaizhuzhaiaglt",
+		canputon = 0,
+		id = 84111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84117] = {
+		spine_extra = "",
+		describe = "激しい戦闘を物語っている",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 6,
+		tag = 1,
+		icon = "huaizhuzhaibglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "マンション廃墟·ブルー",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/huaizhuzhaibglt",
+		canputon = 0,
+		id = 84117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84123] = {
+		spine_extra = "",
+		describe = "水深の変化に注意",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "huglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "湖のバスタブ",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/huglt",
+		canputon = 0,
+		id = 84123,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-72.1,
+					-44.2
+				},
+				{
+					1,
+					1
+				},
+				"glt/huglt_using",
+				0,
+				{
+					{
+						217,
+						221
+					},
+					{
+						835,
+						636
+					},
+					"glt/huglt_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					21.1,
+					-58.1
+				},
+				{
+					-1,
+					1
+				},
+				"glt/huglt_using",
+				0,
+				{
+					{
+						33,
+						241
+					},
+					{
+						835,
+						636
+					},
+					"glt/huglt_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84124] = {
+		spine_extra = "",
+		describe = "愛する街を守った証",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "kengaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "戦いの跡C",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengaglt",
+		canputon = 0,
+		id = 84124,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84127] = {
+		spine_extra = "",
+		describe = "愛する街を守った証",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "kengbglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "戦いの跡A",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengbglt",
+		canputon = 0,
+		id = 84127,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84129] = {
+		spine_extra = "",
+		describe = "愛する街を守った証",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "kengcglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "戦いの跡B",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengcglt",
+		canputon = 0,
+		id = 84129,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84132] = {
+		spine_extra = "",
+		describe = "愛する街を守った証",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "kengdglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "戦いの跡D",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengdglt",
+		canputon = 0,
+		id = 84132,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84135] = {
+		spine_extra = "",
+		describe = "愛する街を守った証",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kengeglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "戦いの跡F",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengeglt",
+		canputon = 0,
+		id = 84135,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84136] = {
+		spine_extra = "",
+		describe = "愛する街を守った証",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kengfglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "戦いの跡E",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengfglt",
+		canputon = 0,
+		id = 84136,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84137] = {
+		spine_extra = "",
+		describe = "愛する街を守った証",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kenggglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "派手な戦いの跡G",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kenggglt",
+		canputon = 0,
+		id = 84137,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84138] = {
+		spine_extra = "",
+		describe = "都会といえばこれ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 8,
+		tag = 1,
+		icon = "louqunglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "マンションミニチュア",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/louqunglt",
+		canputon = 0,
+		id = 84138,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84146] = {
+		spine_extra = "",
+		describe = "軽々と踏み越えられる",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "maluaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "車道の模型A",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/maluaglt",
+		canputon = 0,
+		id = 84146,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84149] = {
+		spine_extra = "",
+		describe = "軽々と踏み越えられる",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "malubglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "車道の模型B",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/malubglt",
+		canputon = 0,
+		id = 84149,
+		can_rotate = 0,
+		size = {
+			10,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84152] = {
+		spine_extra = "",
+		describe = "軽々と踏み越えられる",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "malucglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "車道の模型C",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/malucglt",
+		canputon = 0,
+		id = 84152,
+		can_rotate = 0,
+		size = {
+			12,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84155] = {
+		spine_extra = "",
+		describe = "軽々と踏み越えられる",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "maluzhuanjiaoaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "車道の模型D",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/maluzhuanjiaoaglt",
+		canputon = 0,
+		id = 84155,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84158] = {
+		spine_extra = "",
+		describe = "軽々と踏み越えられる",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "maluzhuanjiaobglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "車道の模型E",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/maluzhuanjiaobglt",
+		canputon = 0,
+		id = 84158,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84161] = {
+		spine_extra = "",
+		describe = "軽々と踏み越えられる",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "maluzhuanjiaocglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "車道の模型F",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/maluzhuanjiaocglt",
+		canputon = 0,
+		id = 84161,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84164] = {
+		spine_extra = "",
+		describe = "ハリボテとはいえ、見た目はとても壮観な山々",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shanglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ハリボテの山",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/shanglt",
+		canputon = 0,
+		id = 84164,
+		can_rotate = 0,
+		size = {
+			9,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84165] = {
+		spine_extra = "",
+		describe = "ウォーターパークの建物を再現したミニチュア",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuishangleyuanglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ウォーターパークミニチュア",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/shuishangleyuanglt",
+		canputon = 0,
+		id = 84165,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84166] = {
+		spine_extra = "",
+		describe = "椅子としても使える水門の模型",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuizhaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "水門の椅子",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/shuizhaglt",
+		canputon = 0,
+		id = 84166,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0.6,
+					72.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84167] = {
+		spine_extra = "",
+		describe = "田んぼに見えるふわふわのベッド。落下防止の街路樹のおまけ付き！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tianglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "田んぼのベッド",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/tianglt",
+		canputon = 0,
+		id = 84167,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					60.7,
+					27.7
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					-24,
+					-24.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84168] = {
+		spine_extra = "",
+		describe = "学園のミニチュアにしか見えないが…なんと！休憩や就寝も可能だ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xuexiaoglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "多機能学園ミニチュア",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/xuexiaoglt",
+		canputon = 0,
+		id = 84168,
+		can_rotate = 0,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-135.7,
+					81.7
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					36.3,
+					-42.4
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-10.2,
+					152.7
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84169] = {
+		spine_extra = "",
+		describe = "説明不要な、ジオラマ町の欠かせないパーツ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "zhuzhaiaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "オレンジ色の住宅街",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/zhuzhaiaglt",
+		canputon = 0,
+		id = 84169,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84171] = {
+		spine_extra = "",
+		describe = "説明不要な、ジオラマ町の欠かせないパーツ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "zhuzhaibglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "青色の住宅街",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/zhuzhaibglt",
+		canputon = 0,
+		id = 84171,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84173] = {
+		spine_extra = "",
+		describe = "今日は何を撮りたい？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "ドリー·レール",
+		themeId = 84,
+		icon = "paisheguidaoglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84173,
+		can_rotate = 1,
+		size = {
+			24,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paisheguidao",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[84174] = {
+		belong = 1,
+		describe = "「3、2、1！バッチリ！」",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 84,
+		count = 1,
+		is_3d_obj = 0,
+		name = "グリーンバックスタジオ",
+		tag = 1,
+		icon = "lvmuglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84174,
+		can_rotate = 1,
+		size = {
+			9,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lvmuB",
+				"normal"
+			},
+			{
+				"lvmuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						"lvmuCharcontrol",
+						"dance"
+					},
+					{
+						"action2",
+						"lvmuCharcontrol",
+						"dance"
+					},
+					{
+						"action3",
+						"lvmuCharcontrol",
+						"dance"
+					},
+					{
+						"action4",
+						"lvmuCharcontrol",
+						"dance"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"lvmuCharcontrol"
+			}
+		},
+		interAction_group = {}
+	},
+	[84175] = {
+		spine_extra = "",
+		describe = "アクセスコード、グリッドマンキャリバー！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shengjianglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "レプリカ：グリッドマンキャリバー",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/shengjianglt",
+		canputon = 0,
+		id = 84175,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84176] = {
+		spine_extra = "",
+		describe = "アクセスコード、バトルトラクトマックス！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tankeglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "レプリカ：バトルトラクトマックス",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/tankeglt",
+		canputon = 0,
+		id = 84176,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84177] = {
+		spine_extra = "",
+		describe = "アクセスコード、バスターボラー！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zuantouglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "レプリカ：バスターボラー",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/zuantouglt",
+		canputon = 0,
+		id = 84177,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84178] = {
+		spine_extra = "",
+		describe = "アクセスコード、スカイヴィッター！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "feijiglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "レプリカ：スカイヴィッター",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/feijiglt",
+		canputon = 0,
+		id = 84178,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84179] = {
+		spine_extra = "",
+		describe = "アクセスモード·ダイナソルジャー！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhanlongglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "レプリカ：ダイナソルジャー",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/zhanlongglt",
+		canputon = 0,
+		id = 84179,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84180] = {
+		spine_extra = "",
+		describe = "アクセスモード·ダイナウイング！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "feiyiglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "レプリカ：ダイナウイング",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/feiyiglt",
+		canputon = 0,
+		id = 84180,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84181] = {
+		spine_extra = "",
+		describe = "アクセスモード·ダイナダイバー！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "qianzhouglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "レプリカ：ダイナダイバー",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/qianzhouglt",
+		canputon = 0,
+		id = 84181,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84182] = {
+		spine_extra = "",
+		describe = "合体強竜·ダイナレックス！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "rexglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "レプリカ：ダイナレックス",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/rexglt",
+		canputon = 0,
+		id = 84182,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84183] = {
+		spine_extra = "",
+		describe = "アクセスモード·ダイナストライカー！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jicheglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "レプリカ：ダイナストライカー",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/jicheglt",
+		canputon = 0,
+		id = 84183,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84184] = {
+		spine_extra = "",
+		describe = "アシストウェポンをフル装備した合体超人饅頭の着ぐるみ。着込めば貴方も世界を救うヒーローだ！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "フルパワーグリッドマン饅頭着ぐるみ",
+		themeId = 84,
+		icon = "hetiglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84184,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"quannenggltB",
+				"normal"
+			},
+			{
+				"quannenggltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					2.4,
+					45
+				},
+				{
+					100,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84185] = {
+		spine_extra = "",
+		describe = "「最強」の感じを知りたいのか？",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "カイゼルグリッドナイト饅頭着ぐるみ",
+		themeId = 84,
+		icon = "diwangglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84185,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diwanggltB",
+				"normal"
+			},
+			{
+				"diwanggltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						nil,
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-2,
+					45
+				},
+				{
+					100,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84186] = {
+		spine_extra = "",
+		describe = "たまには敵役をやるのも面白いね！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "怪獣饅頭着ぐるみ",
+		themeId = 84,
+		icon = "guaishouglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84186,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guaishougltB",
+				"normal"
+			},
+			{
+				"guaishougltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					4.6,
+					36.3
+				},
+				{
+					100,
+					80
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84301] = {
+		spine_extra = "",
+		describe = "グリッド饅頭VS怪獣饅頭の激しい戦いが描かれている",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuangglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "壁絵「町での戦い！」",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "glt/chuangglt",
+		canputon = 0,
+		id = 84301,
+		can_rotate = 0,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -92519,6 +94762,7 @@ pg.furniture_data_template = {
 		206,
 		208,
 		209,
+		210,
 		100002,
 		100003,
 		100004,
@@ -92548,6 +94792,7 @@ pg.furniture_data_template = {
 		100028,
 		100029,
 		100030,
+		100031,
 		1001,
 		1002,
 		1101,
@@ -94500,6 +96745,54 @@ pg.furniture_data_template = {
 		83116,
 		83117,
 		83118,
-		83119
+		83119,
+		84001,
+		84002,
+		84101,
+		84102,
+		84103,
+		84104,
+		84106,
+		84107,
+		84108,
+		84111,
+		84117,
+		84123,
+		84124,
+		84127,
+		84129,
+		84132,
+		84135,
+		84136,
+		84137,
+		84138,
+		84146,
+		84149,
+		84152,
+		84155,
+		84158,
+		84161,
+		84164,
+		84165,
+		84166,
+		84167,
+		84168,
+		84169,
+		84171,
+		84173,
+		84174,
+		84175,
+		84176,
+		84177,
+		84178,
+		84179,
+		84180,
+		84181,
+		84182,
+		84183,
+		84184,
+		84185,
+		84186,
+		84301
 	}
 }

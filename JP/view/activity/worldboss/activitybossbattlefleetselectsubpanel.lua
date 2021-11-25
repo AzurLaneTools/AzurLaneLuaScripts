@@ -21,7 +21,7 @@ slot2 = {
 	"ship_formationUI_fleetName_extra_ss"
 }
 
-function slot0.GetUIName(slot0)
+function slot0.getUIName(slot0)
 	return "ActivityBossFleetSelectView"
 end
 

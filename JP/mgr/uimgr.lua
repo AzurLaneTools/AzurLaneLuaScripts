@@ -108,6 +108,9 @@ function slot1.Init(slot0, slot1)
 				SetActive(uv0.OverlayEffect, PlayerPrefs.GetInt(SHOW_TOUCH_EFFECT, 1) > 0)
 				uv1()
 			end)
+		end,
+		function (slot0)
+			uv0:InitBgmCfg(slot0)
 		end
 	}, slot1)
 end
@@ -383,4 +386,76 @@ end
 
 function slot1.GetMainCamera(slot0)
 	return slot0.mainCamera
+end
+
+function slot1.InitBgmCfg(slot0, slot1)
+	slot0.isDefaultBGM = false
+
+	if OPEN_SPECIAL_IP_BGM and PLATFORM_CODE == PLATFORM_US then
+		if Application.isEditor then
+			if slot1 then
+				slot1()
+			end
+
+			return
+		end
+
+		slot2 = {
+			"Malaysia",
+			"Indonesia"
+		}
+		slot4 = ""
+
+		function slot5(slot0)
+			slot2 = "\","
+			slot3, slot4 = string.find(slot0, "\"country\":\"")
+
+			if slot4 then
+				slot0 = string.sub(slot0, slot4 + 1)
+			end
+
+			if string.find(slot0, slot2) then
+				slot0 = string.sub(slot0, 1, slot5 - 1)
+			end
+
+			return slot0
+		end
+
+		function slot6(slot0)
+			slot1 = false
+
+			for slot5, slot6 in ipairs(uv0) do
+				if slot6 == slot0 then
+					slot1 = true
+				end
+			end
+
+			return slot1
+		end
+
+		VersionMgr.Inst:WebRequest("https://pro.ip-api.com/json/?key=TShzQlq7O9KuthI", function (slot0, slot1)
+			slot2 = uv0(slot1)
+
+			print("content: " .. slot1)
+			print("country is: " .. slot2)
+
+			uv1.isDefaultBGM = uv2(slot2)
+
+			print("IP limit: " .. tostring(uv1.isDefaultBGM))
+
+			if uv3 then
+				uv3()
+			end
+		end)
+
+		return
+	end
+
+	if slot1 then
+		slot1()
+	end
+end
+
+function slot1.IsDefaultBGM(slot0)
+	return slot0.isDefaultBGM
 end

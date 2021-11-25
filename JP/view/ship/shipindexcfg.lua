@@ -25,7 +25,8 @@ return {
 		},
 		{
 			types = {
-				ShipType.ZhongXun
+				ShipType.ZhongXun,
+				ShipType.ChaoXun
 			}
 		},
 		{

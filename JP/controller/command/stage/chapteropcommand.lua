@@ -47,6 +47,7 @@ function slot0.execute(slot0, slot1)
 					uv0:doCollectAI()
 					uv0:doMove()
 					uv0:doTeleportByPortal()
+					getProxy(ChapterProxy):SetExtendChapterData(slot2.id, "FleetMoveDistance", #slot0.move_path)
 				else
 					uv0:doMapUpdate()
 					uv0:doAIUpdate()
@@ -90,7 +91,6 @@ function slot0.execute(slot0, slot1)
 
 							slot7 = slot1:GetExtendChapter(slot2.id) and slot3.AutoFightFlag
 
-							slot1:RecordLastDefeatedEnemy(slot2.id, nil)
 							slot1:SetChapterAutoFlag(slot2.id, false)
 							slot1:RemoveExtendChapter(slot2.id)
 
@@ -181,7 +181,7 @@ function slot0.PrepareChapterRetreat(slot0)
 				slot3 = slot1:getConfig("defeat_story")
 				slot4 = false
 
-				table.SerialForeachArray(slot1:getConfig("defeat_story_count"), function (slot0, slot1, slot2)
+				table.SerialIpairsAsync(slot1:getConfig("defeat_story_count"), function (slot0, slot1, slot2)
 					if uv0.defeatCount < slot1 then
 						slot2()
 

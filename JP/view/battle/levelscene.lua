@@ -272,6 +272,7 @@ function slot0.initUI(slot0)
 
 	slot0.resources = slot0:findTF("resources"):GetComponent("ItemList")
 	slot0.arrowTarget = slot0.resources.prefabItem[0]
+	slot0.destinationMarkTpl = slot0.resources.prefabItem[1]
 	slot0.championTpl = slot0.resources.prefabItem[3]
 	slot0.deadTpl = slot0.resources.prefabItem[4]
 	slot0.enemyTpl = slot0.resources.prefabItem[5]
@@ -762,77 +763,32 @@ end
 
 function slot0.PreloadLevelMainUI(slot0, slot1, slot2)
 	if slot0.preloadLevelDone then
-		if slot2 then
-			slot2()
-		end
+		existCall(slot2)
 
 		return
 	end
 
 	slot3 = 0
 	slot5 = nil
-	slot6 = {
-		{
-			"Tpl_Destination_Mark",
-			"leveluiview",
-			"destinationMarkTpl"
-		}
-	}
-	slot7 = getProxy(ChapterProxy)
-	slot4 = 0 + 5 + #slot6 + #slot0:GetMapBG(slot7:getMapById(slot1))
 
-	GetSpriteFromAtlasAsync("chapter/pic/cellgrid", "cell_grid", function ()
+	function slot5()
 		uv0 = uv0 + 1
 
 		if uv0 == uv1 and not uv2.exited then
 			uv2.preloadLevelDone = true
 
-			if uv3 then
-				uv3()
-			end
+			existCall(uv3)
 		end
-	end)
-
-	slot9 = PoolMgr.GetInstance()
-
-	slot9:GetPrefab("chapter/cell_quad", "", true, function (slot0)
-		uv0:ReturnPrefab("chapter/cell_quad", "", slot0)
-		uv1()
-	end)
-	slot9:GetPrefab("chapter/cell_quad_mark", "", true, function (slot0)
-		uv0:ReturnPrefab("chapter/cell_quad_mark", "", slot0)
-		uv1()
-	end)
-	slot9:GetPrefab("chapter/cell", "", true, function (slot0)
-		uv0:ReturnPrefab("chapter/cell", "", slot0)
-		uv1()
-	end)
-
-	slot13 = ""
-	slot14 = true
-
-	slot9:GetPrefab("chapter/plane", slot13, slot14, function (slot0)
-		uv0:ReturnPrefab("chapter/plane", "", slot0)
-		uv1()
-	end)
-
-	slot0.loadedTpls = {}
-
-	for slot13, slot14 in pairs(slot6) do
-		LoadAndInstantiateAsync(slot14[2], slot14[1], function (slot0)
-			slot0:SetActive(false)
-
-			slot0.name = uv0[3]
-			uv1[uv0[3]] = slot0
-
-			table.insert(uv1.loadedTpls, slot0)
-			uv2()
-		end, true)
 	end
 
-	table.ParallelForeachArray(slot8, function (slot0, slot1, slot2)
+	slot6 = getProxy(ChapterProxy)
+	slot7 = slot0:GetMapBG(slot6:getMapById(slot1))
+	slot4 = 1 + #slot7
+
+	table.ParallelIpairsAsync(slot7, function (slot0, slot1, slot2)
 		GetSpriteFromAtlasAsync("levelmap/" .. slot1.BG, "", slot2)
 	end, slot5)
+	slot5()
 end
 
 function slot0.selectMap(slot0)
@@ -1000,10 +956,6 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyFloatItems) > 0 then
 			slot0.grid:UpdateItemCells()
-		end
-
-		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyStrategyComboPanel) > 0 then
-			slot0.levelStageView:UpdateDOALinkFeverPanel()
 		end
 
 		if slot6 then
@@ -1462,12 +1414,14 @@ function slot0.updateMap(slot0)
 			uv0:SwitchMapBG(uv1, uv0.lastMapIdx)
 
 			uv0.lastMapIdx = nil
-			slot1 = uv1:getConfig("uifx")
+			slot2 = nil
+			uv0.map.pivot = (uv1:getConfig("anchor") ~= "" or Vector2.zero) and Vector2(unpack(slot1))
+			slot3 = uv1:getConfig("uifx")
 
-			for slot5 = 1, uv0.UIFXList.childCount do
-				slot6 = uv0.UIFXList:GetChild(slot5 - 1)
+			for slot7 = 1, uv0.UIFXList.childCount do
+				slot8 = uv0.UIFXList:GetChild(slot7 - 1)
 
-				setActive(slot6, slot6.name == slot1)
+				setActive(slot8, slot8.name == slot3)
 			end
 
 			uv0:PlayBGM()
@@ -1934,7 +1888,6 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				uv0.levelStageView:updateStageBarrier()
 				uv0.levelStageView:updateBombPanel()
 				uv0.levelStageView:UpdateDefenseStatus()
-				uv0.levelStageView:PopBar()
 				onNextTick(slot0)
 			end,
 			function (slot0)
@@ -1968,7 +1921,6 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 							uv0.float.localScale = slot0
 						end):setOnComplete(System.Action(slot0)):setEase(LeanTweenType.easeOutSine).uniqueId)
 
-						uv1.lastRecordPivot = uv1.map.pivot
 						slot3 = LeanTween.value(go(uv1.map), uv1.map.pivot, Vector2.New(math.clamp(slot1[1] - 0.5, 0, 1), math.clamp(slot1[2] - 0.5, 0, 1)), uv2)
 
 						slot3:setOnUpdateVector2(function (slot0)
@@ -2040,12 +1992,6 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				end
 			end,
 			function (slot0)
-				slot1 = getProxy(ChapterProxy)
-
-				uv0.levelStageView:UpdateComboPanel()
-				slot1:RecordComboHistory(uv1.id, nil)
-				uv0.levelStageView:UpdateDOALinkFeverPanel()
-				slot1:RecordLastDefeatedEnemy(uv1.id, nil)
 				uv0.levelStageView:tryAutoAction(slot0)
 			end,
 			function (slot0)
@@ -2084,13 +2030,14 @@ function slot0.switchToMap(slot0, slot1)
 		existCall(uv1)
 	end)):setEase(LeanTweenType.easeOutSine).uniqueId)
 
-	slot4 = LeanTween.value(go(slot0.map), slot0.map.pivot, slot0.lastRecordPivot or Vector2.zero, uv0)
+	slot4 = nil
+	slot5 = LeanTween.value(go(slot0.map), slot0.map.pivot, (slot0.contextData.map:getConfig("anchor") ~= "" or Vector2.zero) and Vector2(unpack(slot3)), uv0)
 
-	slot4:setOnUpdateVector2(function (slot0)
+	slot5:setOnUpdateVector2(function (slot0)
 		uv0.map.pivot = slot0
 		uv0.float.pivot = slot0
 	end):setEase(LeanTweenType.easeOutSine)
-	slot0:RecordTween("mapPivot", slot4.uniqueId)
+	slot0:RecordTween("mapPivot", slot5.uniqueId)
 	setActive(slot0.topChapter, true)
 	setActive(slot0.leftChapter, true)
 	setActive(slot0.rightChapter, true)
@@ -2130,7 +2077,7 @@ function slot0.SwitchBG(slot0, slot1, slot2)
 	slot0.currentBG = slot1
 	slot3 = {}
 
-	table.ParallelForeachArray(slot1, function (slot0, slot1, slot2)
+	table.ParallelIpairsAsync(slot1, function (slot0, slot1, slot2)
 		table.insert(uv0.mapGroup, uv0.loader:GetSpriteDirect("levelmap/" .. slot1.BG, "", function (slot0)
 			uv0[uv1] = slot0
 
@@ -3441,6 +3388,8 @@ function slot0.RecordLastMapOnExit(slot0)
 end
 
 function slot0.willExit(slot0)
+	slot1 = not IsNil(slot0._tf)
+
 	slot0:ClearMapTransitions()
 	slot0.loader:Clear()
 	slot0:RemoveVoteBookTimer()
@@ -3454,9 +3403,9 @@ function slot0.willExit(slot0)
 	if slot0.levelFleetView and slot0.levelFleetView.selectIds then
 		slot0.contextData.selectedFleetIDs = {}
 
-		for slot4, slot5 in pairs(slot0.levelFleetView.selectIds) do
-			for slot9, slot10 in pairs(slot5) do
-				slot0.contextData.selectedFleetIDs[#slot0.contextData.selectedFleetIDs + 1] = slot10
+		for slot5, slot6 in pairs(slot0.levelFleetView.selectIds) do
+			for slot10, slot11 in pairs(slot6) do
+				slot0.contextData.selectedFleetIDs[#slot0.contextData.selectedFleetIDs + 1] = slot11
 			end
 		end
 	end
@@ -3477,22 +3426,26 @@ function slot0.willExit(slot0)
 	slot0:destroyStrikeAnim()
 	slot0:destroyTracking()
 	slot0:destroyUIAnims()
+
+	slot2 = not IsNil(slot0._tf)
+
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad_mark", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell", "")
 
-	slot4 = ""
+	slot6 = ""
 
-	PoolMgr.GetInstance():DestroyPrefab("chapter/plane", slot4)
+	PoolMgr.GetInstance():DestroyPrefab("chapter/plane", slot6)
 
-	for slot4, slot5 in pairs(slot0.mbDict) do
-		slot5:Destroy()
+	for slot6, slot7 in pairs(slot0.mbDict) do
+		slot7:Destroy()
 	end
 
 	slot0.mbDict = nil
+	slot3 = not IsNil(slot0._tf)
 
-	for slot4, slot5 in pairs(slot0.tweens) do
-		LeanTween.cancel(slot5)
+	for slot7, slot8 in pairs(slot0.tweens) do
+		LeanTween.cancel(slot8)
 	end
 
 	slot0.tweens = nil
@@ -3523,17 +3476,22 @@ function slot0.willExit(slot0)
 	slot0.map.localScale = Vector3.one
 	slot0.map.pivot = Vector2(0.5, 0.5)
 	slot0.float.localScale = Vector3.one
-	slot4 = 0.5
-	slot0.float.pivot = Vector2(0.5, slot4)
+	slot7 = 0.5
+	slot0.float.pivot = Vector2(0.5, slot7)
 
-	for slot4, slot5 in ipairs(slot0.mapTFs) do
-		clearImageSprite(slot5)
+	for slot7, slot8 in ipairs(slot0.mapTFs) do
+		clearImageSprite(slot8)
 	end
 
 	_.each(slot0.cloudRTFs, function (slot0)
 		clearImageSprite(slot0)
 	end)
 	PoolMgr.GetInstance():DestroyAllSprite()
+
+	if not (slot1 and slot2 and slot3 and not IsNil(slot0._tf)) then
+		warning("On willExit", tostring(slot1), tostring(slot2), tostring(slot3), tostring(slot4))
+	end
+
 	slot0:RecordLastMapOnExit()
 end
 

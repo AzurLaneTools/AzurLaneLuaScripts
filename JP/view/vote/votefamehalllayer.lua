@@ -14,6 +14,7 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)
@@ -138,6 +139,7 @@ function slot0.GetAward(slot0, slot1, slot2)
 end
 
 function slot0.willExit(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
 return slot0

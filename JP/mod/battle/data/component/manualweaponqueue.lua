@@ -30,6 +30,26 @@ function slot3.AppendWeapon(slot0, slot1)
 	end
 end
 
+function slot3.RemoveWeapon(slot0, slot1)
+	slot0._weaponList[slot1] = nil
+
+	slot0:removeWeaponEvent(slot1)
+
+	for slot5, slot6 in ipairs(slot0._overheatQueue) do
+		if slot6 == slot1 then
+			table.remove(slot0._overheatQueue, slot5)
+
+			break
+		end
+	end
+
+	for slot5, slot6 in ipairs(slot0._cooldownList) do
+		if slot6 == slot1 then
+			table.remove(slot0._cooldownList, slot5)
+		end
+	end
+end
+
 function slot3.Containers(slot0, slot1)
 	return slot0._weaponList[slot1]
 end

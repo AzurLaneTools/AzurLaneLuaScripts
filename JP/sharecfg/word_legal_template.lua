@@ -4034,6 +4034,15 @@ function temp()
 	uv0["新"] = {
 		["月"] = {
 			this = true
+		},
+		["条"] = {
+			["ア"] = {
+				["カ"] = {
+					["ネ"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -4650,7 +4659,20 @@ temp()
 function temp()
 	uv0["飛"] = {
 		["鷹"] = {
-			this = true
+			this = true,
+			["("] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								[")"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
 		},
 		["龍"] = {
 			this = true,
@@ -4664,6 +4686,15 @@ function temp()
 								}
 							}
 						}
+					}
+				}
+			}
+		},
+		["鳥"] = {
+			["川"] = {
+				["ち"] = {
+					["せ"] = {
+						this = true
 					}
 				}
 			}
@@ -5136,6 +5167,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["ジ"] = {
+			["ナ"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -5347,6 +5383,11 @@ function temp()
 			["さ"] = {
 				this = true
 			}
+		},
+		["み"] = {
+			["こ"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -5422,6 +5463,54 @@ function temp()
 	uv0["吾"] = {
 		["妻"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["&"] = {
+		["&"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["宝"] = {
+		["多"] = {
+			["六"] = {
+				["花"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["は"] = {
+		["っ"] = {
+			["す"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["南"] = {
+		["夢"] = {
+			["芽"] = {
+				this = true
+			}
 		}
 	}
 end

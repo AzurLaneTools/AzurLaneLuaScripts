@@ -11074,6 +11074,507 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[480] = {
+		name = "ビーム弾・緑",
+		bullet_name = "zidan_lvsejiguang",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "ビームチャージ完了！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93311",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 480,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[481] = {
+		name = "ビーム弾・赤",
+		bullet_name = "zidan_hongsejiguang",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "ビームチャージ完了！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93312",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 481,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[482] = {
+		name = "ビーム弾・紫",
+		bullet_name = "zidan_zisejiguang",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "ビームチャージ完了！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93313",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 482,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[483] = {
+		name = "ダイバーミサイル",
+		bullet_name = "paodan_baoliefeidan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "一斉射撃！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93314",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 483,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[484] = {
+		name = "フォレスター消火弾",
+		bullet_name = "paodan_hulinmiehuodan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "これがあれば山火事も怖くない！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93315",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 484,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[485] = {
+		name = "ファイヤー砲弾",
+		bullet_name = "paodan_nengliangdan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "破壊力の強いエネルギー弾！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93316",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 485,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[486] = {
+		name = "キャリバー魚雷",
+		bullet_name = "yulei_shengjian",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "必殺、キャリバーエンド！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93321",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 486,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[487] = {
+		name = "ドリル魚雷",
+		bullet_name = "yulei_zuantou",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "ドリルはただの飾りじゃないよ！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93322",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 487,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[488] = {
+		name = "アンテナ魚雷",
+		bullet_name = "yulei_tianxianyulei",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "これ食らったらひとたまりもないだろう…",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93323",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 488,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[489] = {
+		name = "ゴルドバーン（攻撃）",
+		bullet_name = "feiji_huangyiyanlong",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "ゴルドバーンをモチーフにして作られた飛行機",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93331",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 489,
+		derivate_torpedo = "yulei_shengjian",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[490] = {
+		name = "ゴルドバーン（戦闘）",
+		bullet_name = "feiji_huangyiyanlong",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "ゴルドバーンをモチーフにして作られた飛行機",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nengliangdan",
+		icon = "93331",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 490,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[491] = {
+		name = "ゴルドバーン（爆撃）",
+		bullet_name = "feiji_huangyiyanlong",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "ゴルドバーンをモチーフにして作られた飛行機",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nengliangdan",
+		icon = "93331",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 491,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[492] = {
+		name = "スカイヴィッター（攻撃）",
+		bullet_name = "feiji_cangqiongpenqiji",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "スカイヴィッターをモチーフにして作られた飛行機",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93332",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 492,
+		derivate_torpedo = "yulei_zuantou",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[493] = {
+		name = "スカイヴィッター（戦闘）",
+		bullet_name = "feiji_cangqiongpenqiji",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "スカイヴィッターをモチーフにして作られた飛行機",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_hulinmiehuodan",
+		icon = "93332",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 493,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[494] = {
+		name = "スカイヴィッター（爆撃）",
+		bullet_name = "feiji_cangqiongpenqiji",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "スカイヴィッターをモチーフにして作られた飛行機",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_hulinmiehuodan",
+		icon = "93332",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 494,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[495] = {
+		name = "ダイナウイング（攻撃）",
+		bullet_name = "feiji_dainafeiyi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "ダイナウィングをモチーフにして作られた飛行機",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93333",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 495,
+		derivate_torpedo = "yulei_tianxianyulei",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[496] = {
+		name = "ダイナウイング（戦闘）",
+		bullet_name = "feiji_dainafeiyi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "ダイナウィングをモチーフにして作られた飛行機",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_baoliefeidan",
+		icon = "93333",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 496,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[497] = {
+		name = "ダイナウイング（爆撃）",
+		bullet_name = "feiji_dainafeiyi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "ダイナウィングをモチーフにして作られた飛行機",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_baoliefeidan",
+		icon = "93333",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 497,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "十字キー砲弾（P）",
 		bullet_name = "Nep_bullet_shizi",
@@ -12925,6 +13426,24 @@ pg.equip_skin_template = {
 		475,
 		476,
 		477,
+		480,
+		481,
+		482,
+		483,
+		484,
+		485,
+		486,
+		487,
+		488,
+		489,
+		490,
+		491,
+		492,
+		493,
+		494,
+		495,
+		496,
+		497,
 		1001,
 		1002,
 		1003,

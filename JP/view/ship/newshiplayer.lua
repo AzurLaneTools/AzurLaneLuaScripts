@@ -802,7 +802,9 @@ function slot0.starsAnimation(slot0)
 end
 
 function slot0.playOpening(slot0, slot1)
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. ("star_level_unlock_anim_" .. ShipGroup.getDefaultSkin(slot0._shipVO:getGroupId()).id))) then
+	slot2 = nil
+
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. ("star_level_unlock_anim_" .. ((not slot0._shipVO:isRemoulded() or ShipGroup.GetGroupConfig(slot0._shipVO:getGroupId()).trans_skin) and ShipGroup.getDefaultSkin(slot0._shipVO:getGroupId()).id)))) then
 		slot5 = pg.CpkPlayMgr.GetInstance()
 
 		slot5:PlayCpkMovie(function ()

@@ -1018,6 +1018,19 @@ pg.mini_game = {
 		hub_id = 24,
 		request_data = 0
 	},
+	{
+		view_name = "GridGameView",
+		name = "古立特小游戏",
+		simple_config_data = "",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 32,
+		hub_id = 26,
+		request_data = 0
+	},
 	all = {
 		1,
 		2,
@@ -1049,6 +1062,7 @@ pg.mini_game = {
 		28,
 		29,
 		30,
-		31
+		31,
+		32
 	}
 }

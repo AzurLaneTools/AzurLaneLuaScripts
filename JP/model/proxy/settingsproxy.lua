@@ -485,4 +485,31 @@ function slot0.SetNextTipTimeLimitSkinShop(slot0)
 	end
 end
 
+function slot0.GetChatFlag(slot0)
+	if not slot0.chatFlag then
+		slot1 = {
+			ChatConst.ChannelWorld,
+			ChatConst.ChannelPublic,
+			ChatConst.ChannelFriend
+		}
+
+		if getProxy(GuildProxy):getRawData() then
+			table.insert(slot1, ChatConst.ChannelGuild)
+		end
+
+		slot0.chatFlag = PlayerPrefs.GetInt("chat__setting", IndexConst.Flags2Bits(slot1))
+	end
+
+	return slot0.chatFlag
+end
+
+function slot0.SetChatFlag(slot0, slot1)
+	if slot0.chatFlag ~= slot1 then
+		slot0.chatFlag = slot1
+
+		PlayerPrefs.SetInt("chat__setting", slot1)
+		PlayerPrefs.Save()
+	end
+end
+
 return slot0

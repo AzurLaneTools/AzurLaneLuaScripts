@@ -86,7 +86,18 @@ function slot0.updateStatistics(slot0)
 
 	setPaintingPrefabAsync(slot0.paintContain, slot1:getPainting(), "chuanwu")
 	setPaintingPrefabAsync(slot0._paintingShadowTF, slot1:getPainting(), "chuanwu", function ()
-		findTF(uv0._paintingShadowTF, "fitter"):GetChild(0):GetComponent("Image").color = Color.New(0, 0, 0)
+		slot0 = findTF(uv0._paintingShadowTF, "fitter"):GetChild(0)
+		slot0:GetComponent("Image").color = Color.New(0, 0, 0)
+
+		if not IsNil(findTF(slot0, "layers")) then
+			for slot7 = 0, slot2.childCount - 1 do
+				slot2:GetChild(slot7):GetComponent("Image").color = Color.New(0, 0, 0)
+			end
+		end
+
+		if not IsNil(findTF(slot0, "face")) then
+			slot3:GetComponent("Image").color = Color.New(0, 0, 0)
+		end
 	end)
 	pg.UIMgr.GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetSpineChar(slot1:getPrefab(), true, function (slot0)

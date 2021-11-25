@@ -11,7 +11,7 @@ slot0.ConfigData = {
 	name_old = "equipment_info_change_name_a"
 }
 
-function slot0.GetUIName(slot0)
+function slot0.getUIName(slot0)
 	return "ItemChangeNoticeBox"
 end
 

@@ -483,6 +483,10 @@ function slot0.updateQueueTip(slot0, slot1)
 end
 
 function slot0.switchProject(slot0, slot1)
+	if slot0.curProjectName == slot1 then
+		return
+	end
+
 	slot0.curProjectName = slot1
 	BuildShipScene.projectName = slot1
 

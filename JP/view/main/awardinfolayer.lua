@@ -14,9 +14,6 @@ function slot0.getUIName(slot0)
 	return "AwardInfoUI"
 end
 
-function slot0.setAwards(slot0, slot1)
-end
-
 function slot0.init(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.THIRD_LAYER
@@ -310,6 +307,8 @@ function slot0.willExit(slot0)
 
 	if slot0.contextData.removeFunc then
 		slot0.contextData.removeFunc()
+
+		slot0.contextData.removeFunc = nil
 	end
 end
 

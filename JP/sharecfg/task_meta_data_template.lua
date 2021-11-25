@@ -256,6 +256,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[126] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "飛鷹(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 126,
+		target_num = 1,
+		target_id = "0"
+	},
+	[127] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "飛鷹(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 127,
+		target_num = 1,
+		target_id = "30"
+	},
+	[128] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "飛鷹(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 128,
+		target_num = 1,
+		target_id = "55"
+	},
+	[129] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "飛鷹(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 129,
+		target_num = 1,
+		target_id = "80"
+	},
+	[130] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "飛鷹(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 130,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -416,6 +456,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[220] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊で1回勝利する",
+		id = 220,
+		target_num = 1,
+		target_id = "0"
+	},
+	[221] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 221,
+		target_num = 1,
+		target_id = "70"
+	},
+	[222] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 222,
+		target_num = 1,
+		target_id = "90"
+	},
+	[223] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv100+の敵を撃破 ",
+		id = 223,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -465,6 +537,11 @@ pg.task_meta_data_template = {
 		123,
 		124,
 		125,
+		126,
+		127,
+		128,
+		129,
+		130,
 		200,
 		201,
 		202,
@@ -485,6 +562,10 @@ pg.task_meta_data_template = {
 		217,
 		218,
 		219,
+		220,
+		221,
+		222,
+		223,
 		301,
 		302
 	}

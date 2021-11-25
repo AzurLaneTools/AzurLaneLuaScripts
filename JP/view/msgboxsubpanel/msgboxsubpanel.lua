@@ -1,5 +1,27 @@
 slot0 = class("MsgboxSubPanel", BaseSubPanel)
-slot0.NeedAsyncLoading = false
+
+function slot0.Load(slot0)
+	if slot0._state ~= uv0.STATES.NONE then
+		return
+	end
+
+	slot0._state = uv0.STATES.LOADING
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:LoadingOn()
+
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetUI(slot0:getUIName(), false, function (slot0)
+		if uv0._state == uv1.STATES.DESTROY then
+			pg.UIMgr.GetInstance():LoadingOff()
+			uv2:ReturnUI(uv0:getUIName(), slot0)
+		else
+			uv0:Loaded(slot0)
+			uv0:Init()
+		end
+	end)
+end
 
 function slot0.SetWindowSize(slot0, slot1)
 	setSizeDelta(slot0.viewParent._window, slot1)

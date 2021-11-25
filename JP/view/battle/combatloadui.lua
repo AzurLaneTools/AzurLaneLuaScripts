@@ -75,22 +75,24 @@ function slot0.Preload(slot0)
 				slot14 = ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot12)
 
 				for slot18, slot19 in ipairs(slot13:getActiveEquipments()) do
-					if slot18 <= Ship.WEAPON_COUNT then
-						slot20, slot21 = nil
-						slot22 = 0
+					slot20, slot21 = nil
+					slot22 = 0
 
-						if not slot19 then
-							slot20 = slot14.default_equip_list[slot18]
+					if not slot19 then
+						slot20 = slot14.default_equip_list[slot18]
+					else
+						slot20 = slot19.configId
+						slot22 = slot19.skinId
+					end
+
+					if slot20 then
+						if #ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot20).weapon_id > 0 then
+							for slot27, slot28 in ipairs(slot23) do
+								slot1:AddPreloadResource(slot1.GetWeaponResource(slot28, slot22))
+							end
 						else
-							slot20 = slot19.configId
-							slot22 = slot19.skinId
+							slot1:AddPreloadResource(slot1.GetEquipResource(slot20, slot22, slot0.contextData.system))
 						end
-
-						for slot27, slot28 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot20).weapon_id) do
-							slot1:AddPreloadResource(slot1.GetWeaponResource(slot28, slot22))
-						end
-					elseif slot19 then
-						slot1:AddPreloadResource(slot1.GetEquipResource(slot19.configId, slot19.skinId, slot0.contextData.system))
 					end
 				end
 
@@ -355,22 +357,24 @@ function slot0.Preload(slot0)
 			slot10 = ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot9.configId)
 
 			for slot14, slot15 in ipairs(slot9:getActiveEquipments()) do
-				if slot14 <= Ship.WEAPON_COUNT then
-					slot16, slot17 = nil
-					slot18 = 0
+				slot16, slot17 = nil
+				slot18 = 0
 
-					if not slot15 then
-						slot16 = slot10.default_equip_list[slot14]
+				if not slot15 then
+					slot16 = slot10.default_equip_list[slot14]
+				else
+					slot16 = slot15.configId
+					slot18 = slot15.skinId
+				end
+
+				if slot16 then
+					if #ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot16).weapon_id > 0 then
+						for slot23, slot24 in ipairs(slot19) do
+							slot1:AddPreloadResource(slot1.GetWeaponResource(slot24, slot18))
+						end
 					else
-						slot16 = slot15.configId
-						slot18 = slot15.skinId
+						slot1:AddPreloadResource(slot1.GetEquipResource(slot16, slot18, slot0.contextData.system))
 					end
-
-					for slot23, slot24 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot16).weapon_id) do
-						slot1:AddPreloadResource(slot1.GetWeaponResource(slot24, slot18))
-					end
-				elseif slot15 then
-					slot1:AddPreloadResource(slot1.GetEquipResource(slot15.configId, slot15.skinId, slot0.contextData.system))
 				end
 			end
 

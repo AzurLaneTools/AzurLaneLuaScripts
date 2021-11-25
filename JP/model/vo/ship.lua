@@ -791,14 +791,6 @@ function slot0.isAllMetaSkillLock(slot0)
 	return slot2
 end
 
-function slot0.canAddAttr(slot0, slot1)
-	return slot0:getAttrValue(slot1) < slot0:getMaxAddAttr(slot1), slot2 / slot3
-end
-
-function slot0.getMaxAddAttr(slot0, slot1)
-	return pg.ship_data_lesson[slot0.configId][pg.attribute_info_by_type[slot1].name]
-end
-
 function slot0.bindConfigTable(slot0)
 	return pg.ship_data_statistics
 end

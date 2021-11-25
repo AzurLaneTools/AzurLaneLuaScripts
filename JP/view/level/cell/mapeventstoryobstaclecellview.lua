@@ -6,28 +6,34 @@ end
 
 function slot0.Update(slot0)
 	slot1 = slot0.info
-	slot2 = slot1.row
-	slot3 = slot1.column
-	slot4 = slot1.data
-	slot6 = pg.map_event_template[slot1.attachmentId].icon
 
 	if IsNil(slot0.go) then
-		slot0:PrepareBase("story_" .. slot2 .. "_" .. slot3 .. "_" .. slot1.attachmentId)
-
-		slot8 = slot0:GetLoader()
-
-		slot8:GetPrefab("ui/" .. slot6 .. "_2", slot6 .. "_2", function (slot0)
-			slot0.transform:SetParent(uv0.tf, false)
-			uv0:ResetCanvasOrder()
-		end)
+		slot0:PrepareBase("story_" .. slot1.row .. "_" .. slot1.column .. "_" .. slot1.attachmentId)
 	end
 
-	slot8 = pg.map_event_template[slot1.attachmentId]
+	if slot0.assetName ~= ItemCell.TransformItemAsset(slot0.chapter, pg.map_event_template[slot1.attachmentId].icon and #slot3 > 0 and slot3 .. "_2" or nil) then
+		if slot3 == nil then
+			slot0:GetLoader():ClearRequest("ItemAsset")
 
-	if not (slot1.flag == ChapterConst.CellFlagTriggerActive) and slot8 and slot8.animation and not slot0.disappearAnim and slot8.animation and #slot9 > 0 then
-		slot10 = slot0:GetLoader()
+			slot0.assetName = slot3
+		else
+			slot4 = slot0:GetLoader()
 
-		slot10:GetPrefab("ui/" .. slot9, slot9, function (slot0)
+			slot4:GetPrefab("ui/" .. slot3, slot3, function (slot0)
+				setParent(slot0, uv0.tf)
+				uv0:ResetCanvasOrder()
+
+				uv0.assetName = uv1
+			end, "ItemAsset")
+		end
+	end
+
+	slot5 = pg.map_event_template[slot1.attachmentId]
+
+	if not (slot1.flag == ChapterConst.CellFlagTriggerActive) and slot5 and slot5.animation and not slot0.disappearAnim and slot5.animation and #slot6 > 0 then
+		slot7 = slot0:GetLoader()
+
+		slot7:GetPrefab("ui/" .. slot6, slot6, function (slot0)
 			setParent(slot0.transform, uv0.tf, false)
 			uv0:ResetCanvasOrder()
 
@@ -46,7 +52,7 @@ function slot0.Update(slot0)
 		slot0.playingAnim = true
 	end
 
-	setActive(slot0.tf, slot7 or slot0.playingAnim)
+	setActive(slot0.tf, slot4 or slot0.playingAnim)
 end
 
 return slot0

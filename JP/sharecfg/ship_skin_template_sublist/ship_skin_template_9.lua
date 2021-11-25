@@ -1,583 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_9 = {
-	[301152] = {
-		ship_group = 30115,
-		name = "イブニングラッキースター",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "115",
-		id = 301152,
-		group_index = 2,
-		prefab = "shiyu_3",
-		painting = "shiyu_3",
-		shop_id = 70192,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "あら、こんなところで私と出会うなんて、指揮官は運がいいのね～ふふん、じゃあこの幸運の時雨様が少し付き合ってやるわ！感謝しなさいな♪",
-		voice_actor = 13,
-		spine_offset = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.01,
-					0.8,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.02,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.96,
-					0.76,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.327,
-							2.24,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301159] = {
-		ship_group = 30115,
-		name = "時雨改",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301159,
-		group_index = 9,
-		prefab = "shiyu_g",
-		painting = "shiyu_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ふふん、この時雨様を近代化改修するのはいい選択ね！これからはもっと私の力と運を頼りなさいな、この幸せ者のバカ指揮官♪",
-		voice_actor = 13,
-		spine_offset = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.065,
-					1.181,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.069,
-					1.196,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.327,
-							2.24,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301160] = {
-		ship_group = 30116,
-		name = "雪風",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301160,
-		group_index = 0,
-		prefab = "xuefeng",
-		painting = "xuefeng",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "陽炎型駆逐艦八番艦・雪風",
-		voice_actor = 42,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.31,
-					0.62,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.19,
-					0.08,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.39,
-					0.71,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.36,
-							2.32,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5
-		}
-	},
-	[301161] = {
-		ship_group = 30116,
-		name = "ブランコ様",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301161,
-		group_index = 1,
-		prefab = "xuefeng_2",
-		painting = "xuefeng_2",
-		shop_id = 70057,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "あーはっはっは！「どこでも使えるブランコ」がついに完成したのだ！指揮官、羨ましいのか？座りたいのか？でもざーんねーん！これは高貴なる雪風様専用なのだ♪ ",
-		voice_actor = 42,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.02,
-					0.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.02,
-					0.6,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.02,
-					0.6,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.266,
-							0.329,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.436,
-							2.45,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[301162] = {
-		ship_group = 30116,
-		name = "冬のユキカゼ",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "127",
-		id = 301162,
-		group_index = 2,
-		prefab = "xuefeng_3",
-		painting = "xuefeng_3",
-		shop_id = 70301,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 3,
-		lip_smoothing = 0,
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "はっはっはー！雪風様の麗しい姿に見惚れたのか？むっ、あっちで東煌の子たちが爆竹を鳴らしているのだな…一緒に様子を見に行くのだ！ほら、雪風様の手をしっかり握るのだ！",
-		voice_actor = 42,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			-19.9,
-			-52.5,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.12,
-					1.18,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.02,
-					0.049,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.17,
-					1.34,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							2.29,
-							-0.16
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			mail = 0.3,
-			touch_special = 0.33,
-			mission_complete = 0.26,
-			complete = 0.3
-		}
-	},
 	[301168] = {
 		ship_group = 30116,
 		name = "ポカポカ春模様",
@@ -8216,6 +7638,684 @@ pg.ship_skin_template_9 = {
 						{
 							-0.46,
 							2.322,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301600] = {
+		ship_group = 30160,
+		name = "磯風",
+		bullet_skin_secondary = "",
+		hand_id = 6,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301600,
+		group_index = 0,
+		prefab = "jifeng",
+		painting = "jifeng",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "陽炎型駆逐艦十二番艦・磯風",
+		voice_actor = 147,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.23,
+					1.14,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.16,
+					1.21,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.41,
+					3.33,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301601] = {
+		ship_group = 30160,
+		name = "新年大合戦",
+		bullet_skin_secondary = "",
+		hand_id = 6,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "101",
+		id = 301601,
+		group_index = 1,
+		prefab = "jifeng_2",
+		painting = "jifeng_2",
+		shop_id = 70135,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "大将大将！見て見て！お正月の服！浦風さまが作ってくれた！今年も一緒にセンゴクごっこをよろしく！",
+		voice_actor = 147,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.92,
+					0.954,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.897,
+					0.977,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.868,
+					0.988,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301602] = {
+		ship_group = 30160,
+		name = "センゴク☆ユニット！",
+		bullet_skin_secondary = "",
+		hand_id = 6,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 301602,
+		group_index = 2,
+		prefab = "jifeng_3",
+		painting = "jifeng_3",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "大将！磯風、頑張って機材を揃えたよ！あとは浦風様さえいれば「センゴク☆ユニット」は完璧だ！大将ももちろん参加していいぞ！",
+		voice_actor = 147,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.92,
+					0.954,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.897,
+					0.977,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.868,
+					0.988,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301610] = {
+		ship_group = 30161,
+		name = "浜風",
+		bullet_skin_secondary = "",
+		hand_id = 6,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301610,
+		group_index = 0,
+		prefab = "bangfeng",
+		painting = "bangfeng",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "陽炎型駆逐艦十三番艦・浜風",
+		voice_actor = 112,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.06,
+					1.12,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.06,
+					1.12,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.42,
+					3.31,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.22,
+							2.61,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301611] = {
+		ship_group = 30161,
+		name = "ザ・優等生",
+		bullet_skin_secondary = "",
+		hand_id = 6,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 301611,
+		group_index = 1,
+		prefab = "bangfeng_2",
+		painting = "bangfeng_2",
+		shop_id = 70092,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "勉強は面白い。新しい知識を得た時の喜び、難しい問題を解けた時の達成感…一度やったらわかるよ。だから指揮官、一緒に勉強しよ？",
+		voice_actor = 112,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.17,
+					0.62,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.19,
+					0.61,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.2,
+					0.64,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.19,
+					0.61,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301619] = {
+		ship_group = 30161,
+		name = "浜風改",
+		bullet_skin_secondary = "",
+		hand_id = 6,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301619,
+		group_index = 9,
+		prefab = "bangfeng_g",
+		painting = "bangfeng_g",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官、私が来てから楽しくなった？ーーそう？…よかった！えへへ…浜風、「てんしょんあっぷ」！",
+		voice_actor = 112,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.28,
+					0.99,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.28,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.21,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.28,
+					0.99,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.34,
+							2.43,
 							0
 						}
 					}
