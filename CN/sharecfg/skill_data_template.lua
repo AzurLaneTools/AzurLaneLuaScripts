@@ -8888,7 +8888,7 @@ pg.skill_data_template = {
 		id = 6940,
 		type = 0,
 		max_level = 0,
-		desc = "装备后，可以改变战斗的BGM；若舰队旗舰为正航、轻航角色，战斗开始后25秒，进行一次支援攻击",
+		desc = "装备后，可以改变战斗的BGM；先锋舰队或SSSS联动角色装备时，获得38点装填；若舰队旗舰为正航、轻航角色，战斗开始后25秒，进行一次支援攻击",
 		system_transform = {},
 		world_death_mark = {
 			1

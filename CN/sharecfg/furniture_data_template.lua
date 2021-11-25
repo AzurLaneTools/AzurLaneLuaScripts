@@ -7570,7 +7570,7 @@ pg.furniture_data_template = {
 	},
 	[100032] = {
 		spine_extra = "",
-		describe = "",
+		describe = "看我完美的烧烤技术啾！",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -7587,7 +7587,7 @@ pg.furniture_data_template = {
 		level = 1,
 		advice = 0,
 		effect = "",
-		name = "啾啾烤鱼",
+		name = "啾啾烧烤架",
 		comfortable = 0,
 		spine_action_replace = "",
 		picture = "",

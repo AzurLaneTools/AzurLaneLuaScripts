@@ -116381,18 +116381,17 @@ _G.pg.equip_data_statistics[89400] = {
 	name = "煌翼炎龙",
 	speciality = "无",
 	tech = 0,
-	value_2 = 12,
+	value_2 = 0,
 	ammo = 10,
-	nationality = 108,
 	descrip = "说明占坑",
+	nationality = 108,
 	rarity = 5,
-	attribute_1 = "durability",
-	value_3 = 0,
-	torpedo_ammo = 0,
 	id = 89400,
+	value_3 = 0,
+	attribute_1 = "durability",
 	icon = "89400",
 	value_1 = "250",
-	attribute_2 = "reload",
+	torpedo_ammo = 0,
 	property_rate = {},
 	ammo_icon = {},
 	ammo_info = {},
@@ -116414,7 +116413,6 @@ _G.pg.equip_data_statistics[89400] = {
 
 _G.pg.equip_data_statistics[89401] = {
 	id = 89401,
-	value_2 = 13,
 	value_1 = "280",
 	base = 89400,
 	hidden_skill_id = {}
@@ -116422,7 +116420,6 @@ _G.pg.equip_data_statistics[89401] = {
 
 _G.pg.equip_data_statistics[89402] = {
 	id = 89402,
-	value_2 = 14,
 	value_1 = "310",
 	base = 89400,
 	hidden_skill_id = {}
@@ -116430,7 +116427,6 @@ _G.pg.equip_data_statistics[89402] = {
 
 _G.pg.equip_data_statistics[89403] = {
 	id = 89403,
-	value_2 = 16,
 	value_1 = "340",
 	base = 89400,
 	hidden_skill_id = {}
@@ -116438,7 +116434,6 @@ _G.pg.equip_data_statistics[89403] = {
 
 _G.pg.equip_data_statistics[89404] = {
 	id = 89404,
-	value_2 = 18,
 	value_1 = "370",
 	base = 89400,
 	hidden_skill_id = {}
@@ -116446,7 +116441,6 @@ _G.pg.equip_data_statistics[89404] = {
 
 _G.pg.equip_data_statistics[89405] = {
 	id = 89405,
-	value_2 = 20,
 	value_1 = "400",
 	base = 89400,
 	hidden_skill_id = {}
@@ -116454,7 +116448,6 @@ _G.pg.equip_data_statistics[89405] = {
 
 _G.pg.equip_data_statistics[89406] = {
 	id = 89406,
-	value_2 = 22,
 	value_1 = "430",
 	base = 89400,
 	hidden_skill_id = {}
@@ -116462,7 +116455,6 @@ _G.pg.equip_data_statistics[89406] = {
 
 _G.pg.equip_data_statistics[89407] = {
 	id = 89407,
-	value_2 = 24,
 	value_1 = "460",
 	base = 89400,
 	hidden_skill_id = {}
@@ -116470,7 +116462,6 @@ _G.pg.equip_data_statistics[89407] = {
 
 _G.pg.equip_data_statistics[89408] = {
 	id = 89408,
-	value_2 = 26,
 	value_1 = "490",
 	base = 89400,
 	hidden_skill_id = {}
@@ -116478,7 +116469,6 @@ _G.pg.equip_data_statistics[89408] = {
 
 _G.pg.equip_data_statistics[89409] = {
 	id = 89409,
-	value_2 = 28,
 	value_1 = "520",
 	base = 89400,
 	hidden_skill_id = {}
@@ -116486,36 +116476,32 @@ _G.pg.equip_data_statistics[89409] = {
 
 _G.pg.equip_data_statistics[89410] = {
 	id = 89410,
-	value_2 = 30,
 	value_1 = "550",
 	base = 89400,
 	hidden_skill_id = {}
 }
 
 _G.pg.equip_data_statistics[89411] = {
-	value_2 = 32,
-	anti_siren = 100,
-	base = 89400,
 	id = 89411,
+	anti_siren = 100,
 	value_1 = "580",
+	base = 89400,
 	hidden_skill_id = {}
 }
 
 _G.pg.equip_data_statistics[89412] = {
-	value_2 = 35,
-	anti_siren = 200,
-	base = 89400,
 	id = 89412,
+	anti_siren = 200,
 	value_1 = "610",
+	base = 89400,
 	hidden_skill_id = {}
 }
 
 _G.pg.equip_data_statistics[89413] = {
-	value_2 = 38,
-	anti_siren = 300,
-	base = 89400,
 	id = 89413,
+	anti_siren = 300,
 	value_1 = "640",
+	base = 89400,
 	hidden_skill_id = {}
 }
 
