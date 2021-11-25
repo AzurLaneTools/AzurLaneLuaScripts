@@ -73,7 +73,7 @@ function slot0.UpdateView(slot0)
 
 	setActive(slot0.upper_jiujiuwoshouhui:Find("tip"), slot5 and slot5.count > 0 or slot5:getConfig("reward_need") <= slot5.usedtime and slot5.ultimate == 0)
 	setActive(slot0.upper_leijijiangli:Find("tip"), slot1:getActivityById(ActivityConst.IDOL_MASTER_PT_ID) and slot7:readyToAchieve())
-	setActive(slot0.upper_jinianzhang:Find("tip"), IdolMasterMedalCollectionMediator.isHaveActivableMedal())
+	setActive(slot0.upper_jinianzhang:Find("tip"), Activity.isHaveActivableMedal())
 end
 
 function slot0.willExit(slot0)

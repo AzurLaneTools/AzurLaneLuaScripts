@@ -53,7 +53,7 @@ function slot0.UpdateUrItemEntrance(slot0)
 end
 
 function slot0.updateCrusingEntrance(slot0)
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot1:isEnd() then
+	if getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot1:isEnd() then
 		setActive(slot0.activityCrusingBtn, true)
 
 		slot2 = slot1:GetCrusingInfo()

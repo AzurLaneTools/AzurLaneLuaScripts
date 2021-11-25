@@ -1,6 +1,6 @@
 slot0 = class("SunsetBar", import(".LevelStageStatusBarTemplate"))
 
-function slot0.GetUIName(slot0)
+function slot0.getUIName(slot0)
 	return "SunsetBar"
 end
 

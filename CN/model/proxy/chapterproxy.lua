@@ -2,7 +2,6 @@ slot0 = class("ChapterProxy", import(".NetProxy"))
 slot0.CHAPTER_UPDATED = "ChapterProxy:CHAPTER_UPDATED"
 slot0.CHAPTER_TIMESUP = "ChapterProxy:CHAPTER_TIMESUP"
 slot0.CHAPTER_CELL_UPDATED = "ChapterProxy:CHAPTER_CELL_UPDATED"
-slot0.CHAPTER_EXTAR_FLAG_UPDATED = "ChapterProxy:CHAPTER_EXTAR_FLAG_UPDATED"
 slot0.CHAPTER_AUTO_FIGHT_FLAG_UPDATED = "CHAPTERPROXY:CHAPTER_AUTO_FIGHT_FLAG_UPDATED"
 slot0.CHAPTER_SKIP_PRECOMBAT_UPDATED = "CHAPTERPROXY:CHAPTER_SKIP_PRECOMBAT_UPDATED"
 slot0.LAST_MAP_FOR_ACTIVITY = "last_map_for_activity"
@@ -136,14 +135,12 @@ function slot0.register(slot0)
 			end
 
 			if #slot0.add_flag_list > 0 or #slot0.del_flag_list > 0 then
-				slot2 = bit.bor(slot2, ChapterConst.DirtyFleet, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems)
+				slot2 = bit.bor(slot2, ChapterConst.DirtyFleet, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems, ChapterConst.DirtyAttachment)
 
 				uv0:updateExtraFlag(slot1, slot0.add_flag_list, slot0.del_flag_list)
 			end
 
 			if #slot0.buff_list > 0 then
-				slot2 = bit.bor(slot2, ChapterConst.DirtyStrategyComboPanel)
-
 				slot1:UpdateBuffList(slot0.buff_list)
 			end
 
@@ -170,9 +167,6 @@ function slot0.register(slot0)
 	slot0.subNextReqTime = 0
 	slot0.subRefreshCount = 0
 	slot0.subProgress = 1
-	slot0.defeatedEnemiesBuffer = {}
-	slot0.comboHistoryBuffer = {}
-	slot0.justClearChapters = {}
 	slot0.chaptersExtend = {}
 
 	slot0:buildMaps()
@@ -488,31 +482,16 @@ function slot0.updateExtraFlag(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0:SetExtendChapterData(slot1.id, "extraFlagUpdate", slot6)
-	slot0.facade:sendNotification(uv0.CHAPTER_EXTAR_FLAG_UPDATED, slot6)
 
 	return true
 end
 
 function slot0.extraFlagUpdated(slot0, slot1)
-	slot0:removeExtendChapterData(slot1, "extraFlagUpdate")
-end
-
-function slot0.removeExtendChapterData(slot0, slot1, slot2)
-	if not slot0.chaptersExtend[slot1] then
-		return
-	end
-
-	slot0.chaptersExtend[slot1][slot2] = nil
-
-	if next(slot0.chaptersExtend[slot1]) then
-		return
-	end
-
-	slot0.chaptersExtend[slot1] = nil
+	slot0:RemoveExtendChapterData(slot1, "extraFlagUpdate")
 end
 
 function slot0.getUpdatedExtraFlags(slot0, slot1)
-	return slot0.chaptersExtend[slot1] and slot0.chaptersExtend[slot1].extraFlagUpdate
+	return slot0:GetExtendChapterData(slot1, "extraFlagUpdate")
 end
 
 function slot0.SetExtendChapterData(slot0, slot1, slot2, slot3)
@@ -955,39 +934,39 @@ function slot0.GetChapterAidBuffs(slot0)
 end
 
 function slot0.RecordComboHistory(slot0, slot1, slot2)
-	if not slot1 or slot1 <= 0 then
-		return
+	if slot2 ~= nil then
+		slot0:SetExtendChapterData(slot1, "comboHistoryBuffer", slot2)
+	else
+		slot0:RemoveExtendChapterData(slot1, "comboHistoryBuffer")
 	end
-
-	slot0.comboHistoryBuffer[slot1] = slot2
 end
 
 function slot0.GetComboHistory(slot0, slot1)
-	return slot0.comboHistoryBuffer[slot1]
+	return slot0:GetExtendChapterData(slot1, "comboHistoryBuffer")
 end
 
 function slot0.RecordJustClearChapters(slot0, slot1, slot2)
-	if not slot1 or slot1 <= 0 then
-		return
+	if slot2 ~= nil then
+		slot0:SetExtendChapterData(slot1, "justClearChapters", slot2)
+	else
+		slot0:RemoveExtendChapterData(slot1, "justClearChapters")
 	end
-
-	slot0.justClearChapters[slot1] = slot2
 end
 
 function slot0.GetJustClearChapters(slot0, slot1)
-	return slot0.justClearChapters[slot1]
+	return slot0:GetExtendChapterData(slot1, "justClearChapters")
 end
 
 function slot0.RecordLastDefeatedEnemy(slot0, slot1, slot2)
-	if not slot1 or slot1 <= 0 then
-		return
+	if slot2 ~= nil then
+		slot0:SetExtendChapterData(slot1, "defeatedEnemiesBuffer", slot2)
+	else
+		slot0:RemoveExtendChapterData(slot1, "defeatedEnemiesBuffer")
 	end
-
-	slot0.defeatedEnemiesBuffer[slot1] = slot2
 end
 
 function slot0.GetLastDefeatedEnemy(slot0, slot1)
-	return slot0.defeatedEnemiesBuffer[slot1]
+	return slot0:GetExtendChapterData(slot1, "defeatedEnemiesBuffer")
 end
 
 function slot0.ifShowRemasterTip(slot0)

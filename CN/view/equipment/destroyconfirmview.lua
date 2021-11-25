@@ -5,12 +5,6 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0:InitUI()
-	setActive(slot0._tf, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
-end
-
-function slot0.InitUI(slot0)
 	slot1 = slot0._tf
 	slot0.destroyBonusList = slot1:Find("frame/bg/scrollview/list")
 	slot1 = slot0.destroyBonusList
@@ -21,26 +15,29 @@ function slot0.InitUI(slot0)
 	setText(slot0:findTF("frame/title_text/Text"), i18n("equipment_select_device_destroy_bonus_tip"))
 	setText(slot0.destroyNoGotTip, i18n("equipment_select_device_destroy_nobonus_tip"))
 	onButton(slot0, slot0:findTF("frame/actions/cancel_btn"), function ()
-		uv0:Destroy()
+		uv0:Hide()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._tf, function ()
-		uv0:Destroy()
+		uv0:Hide()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("frame/top/btnBack"), function ()
-		uv0:Destroy()
+		uv0:Hide()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("frame/actions/confirm_btn"), function ()
 		uv0:emit(EquipmentMediator.ON_DESTROY, uv0.selectedIds)
 		uv0.confirmBtnCB()
-		uv0:Destroy()
+		uv0:Hide()
 	end, SFX_UI_EQUIPMENT_RESOLVE)
 end
 
-function slot0.OnDestroy(slot0)
-	slot0.confirmBtnCB = nil
-	slot0.selectedIds = nil
+function slot0.Show(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	setActive(slot0._tf, true)
+end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
+function slot0.Hide(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	setActive(slot0._tf, false)
 end
 
 function slot0.SetConfirmBtnCB(slot0, slot1)

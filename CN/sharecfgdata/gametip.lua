@@ -4675,6 +4675,10 @@ _G.pg.gametip.word_shipNation_link = {
 	tip = "联动"
 }
 
+_G.pg.gametip.word_shipNation_ssss = {
+	tip = "SSSS"
+}
+
 _G.pg.gametip.word_reset = {
 	tip = "重置"
 }
@@ -9633,7 +9637,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "黎塞留、阿尔及利亚、可怖等角色建造概率UP！"
+	tip = "宝多六花、新条茜、南梦芽等角色建造概率UP！"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -18009,7 +18013,7 @@ _G.pg.gametip.map_event_lighthouse_tip_1 = {
 	tip = "灯塔已点亮，后续战斗中将获得灯塔照明效果"
 }
 
-_G.pg.gametip.battlepass_main_tip = {
+_G.pg.gametip.battlepass_main_tip_2110 = {
 	tip = "2021.10.1-2021.11.30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「魟·META」</color>在内的丰富奖励"
 }
 
@@ -18017,11 +18021,11 @@ _G.pg.gametip.battlepass_main_time = {
 	tip = "$1天$2时"
 }
 
-_G.pg.gametip.battlepass_main_help = {
+_G.pg.gametip.battlepass_main_help_2110 = {
 	tip = {
 		{
 			info = [[
-世界巡游(2021.10.1~11.30)
+世界巡游(2021.10.1-2021.11.30)
 
 ·<color=#92fc63>开放时间</color>
     2021.10.1 0点 ~ 2021.11.30 23:59:59
@@ -18036,7 +18040,7 @@ _G.pg.gametip.battlepass_main_help = {
 巡游进度奖励分为两种：
 （1）基础巡游奖励：包含<color=#ff5c5c>「魟·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·四期</color>等奖励；
     当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
-（2）特许巡游奖励：包含<color=#ff5c5c>约克城换装「圣者之翼</color>」、<color=#ff5c5c>钻石</color>等奖励；
+（2）特许巡游奖励：包含<color=#ff5c5c>约克城换装「旅途的旋律</color>」、<color=#ff5c5c>钻石</color>等奖励；
     购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
     注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
 
@@ -18065,7 +18069,7 @@ _G.pg.gametip.battlepass_main_help = {
 	}
 }
 
-_G.pg.gametip.cruise_task_help = {
+_G.pg.gametip.cruise_task_help_2110 = {
 	tip = {
 		{
 			info = [[
@@ -18328,4 +18332,334 @@ _G.pg.gametip.equipment_info_change_text_before = {
 
 _G.pg.gametip.equipment_info_change_text_after = {
 	tip = "变更后"
+}
+
+_G.pg.gametip.ssss_main_help = {
+	tip = {
+		{
+			info = [[
+活动规则：
+<color=#92fc63>11.25-12.09</color>期间开启限时活动「交汇世界的弧光」
+1.通过特别作战获取「弧光结晶」，在「怪兽养成」和
+「补给商店」处兑换丰厚奖励
+2.完成「激战！古立特啾VS怪兽啾！」第七回可获得
+限定家具<color=#92fc63>挂画「都市激战！」</color>
+注意：每日开放1回新游戏，总计7回
+3.参与「梦芽的环游之旅」可获得限定家具、「弧光结晶」在内的丰富奖励
+详细奖励及获取条件可在「环游之旅」界面中查看
+4.完成活动任务，收集12个「塞壬情报」后，可在
+「手办台」处获取<color=#92fc63>「SSSS纪念章」</color>
+详细获取条件可在「手办台」界面中查看
+5.点击「限时建造」可以前往建造界面
+6.点击「换装商店」可以前往换装商店界面
+]]
+		}
+	}
+}
+
+_G.pg.gametip.mini_game_time = {
+	tip = "倒计时:"
+}
+
+_G.pg.gametip.mini_game_score = {
+	tip = "分数:"
+}
+
+_G.pg.gametip.mini_game_leave = {
+	tip = "是否退出游戏?"
+}
+
+_G.pg.gametip.mini_game_pause = {
+	tip = "是否继续游戏?"
+}
+
+_G.pg.gametip.mini_game_cur_score = {
+	tip = "本次得分:"
+}
+
+_G.pg.gametip.mini_game_high_score = {
+	tip = "最高得分:"
+}
+
+_G.pg.gametip.monopoly_world_tip1 = {
+	tip = "※点击进行移动"
+}
+
+_G.pg.gametip.monopoly_world_tip2 = {
+	tip = "活动期间，每天获得$1次行动机会。\n操作控制盘，在探索中获取丰富奖励！\n再移动一圈，可获得:"
+}
+
+_G.pg.gametip.monopoly_world_tip3 = {
+	tip = "活动期间，每天获得$1次行动机会。\n操作控制盘，在探索中获取丰富奖励！"
+}
+
+_G.pg.gametip.help_monopoly_world = {
+	tip = {
+		{
+			info = "活动说明："
+		},
+		{
+			info = "1.活动期间，玩家首日可获得5次行动机会，此后每日24点可获得5次，行动机会次数可累积；"
+		},
+		{
+			info = "2.游戏中，根据玩家停留的格子可获得不同奖励，每次经过起点可获得200物资，前五次经过起点可获得包含限定家具和 「弧光结晶」在内的额外奖励；"
+		},
+		{
+			info = "    ：获得一定数量物资；",
+			icon = {
+				path = "jinbiworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：获得一定数量石油；",
+			icon = {
+				path = "shiyouworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：触发随机事件；",
+			icon = {
+				path = "mingyunworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：触发随机奖励；",
+			icon = {
+				path = "daojuworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：触发随机移动事件；",
+			icon = {
+				path = "saicheteshu",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = [[
+额外奖励：
+第一次:「戴拿飞翼模型」、「弧光结晶」×150；
+第二次:「戴拿潜舟模型」、「弧光结晶」×150；
+第三次:「戴拿击车模型」、「弧光结晶」×200；
+第四次:「戴拿战龙模型」、「弧光结晶」×250；
+第五次:「戴拿暴龙模型」、「弧光结晶」×300；]]
+		}
+	}
+}
+
+_G.pg.gametip.ssssmedal_tip = {
+	tip = "收集<color=#9D46FF>「$1/12」</color> 个塞壬情报可获得<color=#9D46FF>「SSSS纪念章」</color>"
+}
+
+_G.pg.gametip.ssssmedal_name = {
+	tip = "<color=#946EFF>名字：</color> "
+}
+
+_G.pg.gametip.ssssmedal_belonging = {
+	tip = "<color=#946EFF>所属：</color> "
+}
+
+_G.pg.gametip.ssssmedal_name1 = {
+	tip = "探索者武装:「漫游」"
+}
+
+_G.pg.gametip.ssssmedal_name2 = {
+	tip = "追迹者武装:「铁卫」"
+}
+
+_G.pg.gametip.ssssmedal_name3 = {
+	tip = "领洋者武装:「侵袭」"
+}
+
+_G.pg.gametip.ssssmedal_name4 = {
+	tip = "破局者武装:「毁灭」"
+}
+
+_G.pg.gametip.ssssmedal_name5 = {
+	tip = "执棋者武装:「宿主」"
+}
+
+_G.pg.gametip.ssssmedal_name6 = {
+	tip = "净化亲"
+}
+
+_G.pg.gametip.ssssmedal_belonging1 = {
+	tip = "塞壬-执行者系列"
+}
+
+_G.pg.gametip.ssssmedal_belonging2 = {
+	tip = "塞壬-大概很高级"
+}
+
+_G.pg.gametip.ssssmedal_desc1 = {
+	tip = "名为「漫游」的探索者特化武装，行动迅捷，是海洋竞速达人"
+}
+
+_G.pg.gametip.ssssmedal_desc2 = {
+	tip = "名为「铁卫」的追迹者特化武装，平衡了火力与机动能力，泛用性较强"
+}
+
+_G.pg.gametip.ssssmedal_desc3 = {
+	tip = "名为「侵袭」的领洋者特化武装，机动性较差但坚如磐石，火力也不容小觑"
+}
+
+_G.pg.gametip.ssssmedal_desc4 = {
+	tip = "名为「毁灭」的破局者特化武装，进一步强化了本就强劲的火力，压迫感十足"
+}
+
+_G.pg.gametip.ssssmedal_desc5 = {
+	tip = "名为「宿主」的执棋者特化武装，使用的舰载机也是特殊型号，头上的是防空炮"
+}
+
+_G.pg.gametip.ssssmedal_desc6 = {
+	tip = "可爱与实力兼备的净化亲，这是她第几次失去记忆了呢？"
+}
+
+_G.pg.gametip.show_fate_demand_count = {
+	tip = "显示<color=#92fc63>天运拟合</color>所需数量"
+}
+
+_G.pg.gametip.show_design_demand_count = {
+	tip = "显示<color=#92fc63>科研等级30</color>所需数量"
+}
+
+_G.pg.gametip.blueprint_select_overflow = {
+	tip = "超出所需数量"
+}
+
+_G.pg.gametip.blueprint_select_overflow_tip = {
+	tip = "兑换的<color=#22ff22>$1</color>超出所需数量<color=#ff5c5c> $2张</color>"
+}
+
+_G.pg.gametip.blueprint_exchange_empty_tip = {
+	tip = "当前没有可以兑换的图纸"
+}
+
+_G.pg.gametip.blueprint_exchange_select_display = {
+	tip = "已选数量 / 所需数量"
+}
+
+_G.pg.gametip.ssss_game_tip = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.<color=#92fc63>12月1日</color>为止每日0点开放<color=#92fc63>1</color>回新的游戏，总计<color=#92fc63>7</color>回，可累计。第1回至第7回完成后可以获得外观装备箱（SSSS）*1及弧光结晶*150，第七回还可以获得限定家具<color=#92fc63>「挂画「都市激战！」」</color>
+游戏规则：
+1.指挥官可以点击屏幕下方的方块进行消除：消除单格方块我方角色不会进行攻击，也不会增加技能槽及ENERGY METER；消除大于等于两格同色方块我方角色会进行普通攻击，同时会增加技能槽及ENERGY METER
+2.我方角色进行攻击时会获得积分
+3.技能槽充满时我方角色会释放特殊技能并融合未释放攻击获得积分；ENERGY METER充满时我方角色将会变身，变身状态下连续消除三格及以上方块会获得额外积分
+4.游戏时间结束或点击游戏内退出按钮均视为游戏完成。因其他原因导致游戏中途退出则视为游戏未完成]]
+		}
+	}
+}
+
+_G.pg.gametip.ssss_medal_tip = {
+	tip = {
+		{
+			info = "活动时间：<color=#92fc63>11.25-12.9</color>\n1.活动期间，参与活动收集「塞壬情报」，收集全部<color=#92fc63>12</color>个「塞壬情报」后可获得限定家具<color=#92fc63>「SSSS纪念章」</color>"
+		},
+		{
+			info = "2.塞壬情报的获取条件可以从茜的手办台活动界面中查看"
+		},
+		{
+			info = "3.领取时间截止12月15日23点59分"
+		}
+	}
+}
+
+_G.pg.gametip.battlepass_main_tip_2112 = {
+	tip = "2021.12.1-2022.1.31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「鸱·META」</color>在内的丰富奖励"
+}
+
+_G.pg.gametip.battlepass_main_help_2112 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2021.12.1-2022.1.31)
+
+·<color=#92fc63>开放时间</color>
+    2021.12.1 0点 ~ 2022.1.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「鸱·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·四期</color>等奖励；
+    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>科罗拉多换装「旅途的旋律</color>」、<color=#ff5c5c>钻石</color>等奖励；
+    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+_G.pg.gametip.cruise_task_help_2112 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+    2021.12.1 0点 ~ 2022.1.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
 }

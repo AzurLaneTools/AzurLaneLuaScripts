@@ -27,11 +27,11 @@ function slot3.Init(slot0)
 
 	if slot0._aoeData:GetIFF() == uv1.FOE_CODE then
 		function slot0.GetAngle()
-			return uv0._aoeData:GetAngle() * -1
+			return uv0._aoeData:GetAngle() * -1 + 180
 		end
 	else
 		function slot0.GetAngle()
-			return uv0._aoeData:GetAngle()
+			return uv0._aoeData:GetAngle() * -1
 		end
 	end
 
@@ -49,11 +49,11 @@ function slot3.updateCubeScale(slot0)
 	slot2 = 1
 
 	if not slot0._aoeData:GetFXStatic() then
-		slot1 = slot0._aoeData:GetWidth()
+		slot1 = slot0._aoeData:GetWidth() * slot0._aoeData:GetIFF()
 		slot2 = slot0._aoeData:GetHeight()
 	end
 
-	if slot1 * slot0._aoeData:GetIFF() == slot0._preWidth and slot2 == slot0._preHeight then
+	if slot1 == slot0._preWidth and slot2 == slot0._preHeight then
 		return
 	end
 

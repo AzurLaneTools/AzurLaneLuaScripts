@@ -1590,6 +1590,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["梦"] = {
+			["芽"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -1608,6 +1613,11 @@ function temp()
 				["良"] = {
 					this = true
 				}
+			}
+		},
+		["条"] = {
+			["茜"] = {
+				this = true
 			}
 		}
 	}
@@ -3794,6 +3804,17 @@ function temp()
 	uv0["鸱"] = {
 		this = {
 			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -5238,6 +5259,48 @@ function temp()
 	uv0["鹫"] = {
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["宝"] = {
+		["多"] = {
+			["六"] = {
+				["花"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["奈"] = {
+		["美"] = {
+			["子"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["飞"] = {
+		["鸟"] = {
+			["川"] = {
+				["千"] = {
+					["濑"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

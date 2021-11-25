@@ -258,7 +258,6 @@ slot0.DirtyBase = 128
 slot0.DirtyChampionPosition = 256
 slot0.DirtyFloatItems = 512
 slot0.DirtyMapItems = 1024
-slot0.DirtyStrategyComboPanel = 2048
 slot0.KizunaJammingEngage = 1
 slot0.KizunaJammingDodge = 2
 slot0.StatusDay = 3
@@ -279,25 +278,35 @@ slot0.StatusDPM_MRD_FRIEND = 17
 slot0.StatusDPM_VITA_FOE = 18
 slot0.StatusDPM_VITA_FRIEND = 19
 slot0.StatusLIGHTHOUSEACTIVE = 20
-slot0.Status2Stg = {
-	[slot0.KizunaJammingEngage] = 90,
-	[slot0.KizunaJammingDodge] = 91,
-	[slot0.StatusDay] = 93,
-	[slot0.StatusNight] = 92,
-	[slot0.StatusAirportOutControl] = 8801,
-	[slot0.StatusAirportUnderControl] = 8802,
-	[slot0.StatusSunrise] = 8841,
-	[slot0.StatusSunset] = 8842,
-	[slot0.StatusDPM_KASTHA_FOE] = 9211,
-	[slot0.StatusDPM_KASTHA_FRIEND] = 9212,
-	[slot0.StatusDPM_PANYIA_FOE] = 9231,
-	[slot0.StatusDPM_PANYIA_FRIEND] = 9232,
-	[slot0.StatusDPM_MRD_FOE] = 9251,
-	[slot0.StatusDPM_MRD_FRIEND] = 9252,
-	[slot0.StatusDPM_VITA_FOE] = 9271,
-	[slot0.StatusDPM_VITA_FRIEND] = 9272,
-	[slot0.StatusLIGHTHOUSEACTIVE] = 14
-}
+slot0.StatusSSSSSyberSquadSupportIdle = 21
+slot0.StatusSSSSSyberSquadSupportActive = 22
+slot0.StatusSSSSKaijuSupportIdle = 23
+slot0.StatusSSSSKaijuSupportActive = 24
+slot0.Status2Stg = setmetatable({}, {
+	__index = function (slot0, slot1)
+		slot3 = pg.chapter_status_effect[slot1] and slot2.strategy or 0
+
+		return slot3 ~= 0 and slot3 or nil
+	end
+})
+slot0.Buff2Stg = {}
+
+function slot1(slot0, slot1)
+	if slot0 == "all" then
+		return
+	end
+
+	if slot1.buff_id == 0 then
+		return
+	end
+
+	uv0.Buff2Stg[slot1.buff_id] = slot0
+end
+
+for slot5, slot6 in pairs(pg.strategy_data_template) do
+	slot1(slot5, slot6)
+end
+
 slot0.HpGreen = 3000
 
 function slot0.GetAmbushDisplay(slot0)

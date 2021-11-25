@@ -176,10 +176,14 @@ function slot0.InitCustoms(slot0, slot1)
 					uv3.contextData.indexDatas[uv4] = uv5[1]
 				end
 			elseif uv0 == uv1.Mode.OR then
-				uv3.contextData.indexDatas[uv4] = uv6
+				if uv8.isSort then
+					uv3.contextData.indexDatas[uv4] = uv6
+				else
+					uv3.contextData.indexDatas[uv4] = uv6 == uv3.contextData.indexDatas[uv4] and uv5[1] or uv6
+				end
 			end
 
-			uv8()
+			uv9()
 		end, SFX_UI_TAG)
 	end
 

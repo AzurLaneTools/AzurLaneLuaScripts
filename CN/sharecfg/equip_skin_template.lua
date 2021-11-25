@@ -11074,6 +11074,507 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[480] = {
+		name = "绿色激光子弹",
+		bullet_name = "zidan_lvsejiguang",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "绿色激光充能完毕！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93311",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 480,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[481] = {
+		name = "红色激光子弹",
+		bullet_name = "zidan_hongsejiguang",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "红色激光充能完毕！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93312",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 481,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[482] = {
+		name = "紫色激光子弹",
+		bullet_name = "zidan_zisejiguang",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "紫色激光充能完毕！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93313",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 482,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[483] = {
+		name = "潜舟爆裂飞弹?",
+		bullet_name = "paodan_baoliefeidan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "全弹发射！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93314",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 483,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[484] = {
+		name = "护林灭火弹",
+		bullet_name = "paodan_hulinmiehuodan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "能扑灭森林大火的神奇炮弹！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93315",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 484,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[485] = {
+		name = "火焰炮弹",
+		bullet_name = "paodan_nengliangdan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "拥有强大破坏力的能量弹！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93316",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 485,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[486] = {
+		name = "圣剑鱼雷",
+		bullet_name = "yulei_shengjian",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "必杀技——古立特圣剑终结斩！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93321",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 486,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[487] = {
+		name = "钻头鱼雷",
+		bullet_name = "yulei_zuantou",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "钻头可不是装饰而已！",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93322",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 487,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[488] = {
+		name = "天线鱼雷",
+		bullet_name = "yulei_tianxianyulei",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "被这个打到估计不好受吧……",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93323",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 488,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[489] = {
+		name = "煌翼炎龙(鱼雷)",
+		bullet_name = "feiji_huangyiyanlong",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "仿照煌翼炎龙的外观制造的飞机",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93331",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 489,
+		derivate_torpedo = "yulei_shengjian",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[490] = {
+		name = "煌翼炎龙(战斗)",
+		bullet_name = "feiji_huangyiyanlong",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "仿照煌翼炎龙的外观制造的飞机",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nengliangdan",
+		icon = "93331",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 490,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[491] = {
+		name = "煌翼炎龙(轰炸)",
+		bullet_name = "feiji_huangyiyanlong",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "仿照煌翼炎龙的外观制造的飞机",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nengliangdan",
+		icon = "93331",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 491,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[492] = {
+		name = "苍穹喷气机(鱼雷)",
+		bullet_name = "feiji_cangqiongpenqiji",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "仿照苍穹喷气机的外观制造的飞机",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93332",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 492,
+		derivate_torpedo = "yulei_zuantou",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[493] = {
+		name = "苍穹喷气机(战斗)",
+		bullet_name = "feiji_cangqiongpenqiji",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "仿照苍穹喷气机的外观制造的飞机",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_hulinmiehuodan",
+		icon = "93332",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 493,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[494] = {
+		name = "苍穹喷气机(轰炸)",
+		bullet_name = "feiji_cangqiongpenqiji",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "仿照苍穹喷气机的外观制造的飞机",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_hulinmiehuodan",
+		icon = "93332",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 494,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[495] = {
+		name = "戴拿飞翼(鱼雷)",
+		bullet_name = "feiji_dainafeiyi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "仿照戴拿飞翼的外观制造的飞机",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93333",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 495,
+		derivate_torpedo = "yulei_tianxianyulei",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[496] = {
+		name = "戴拿飞翼(战斗)",
+		bullet_name = "feiji_dainafeiyi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "仿照戴拿飞翼的外观制造的飞机",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_baoliefeidan",
+		icon = "93333",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 496,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[497] = {
+		name = "戴拿飞翼(轰炸)",
+		bullet_name = "feiji_dainafeiyi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "仿照戴拿飞翼的外观制造的飞机",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_baoliefeidan",
+		icon = "93333",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 497,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "十字炮弹(紫)",
 		bullet_name = "Nep_bullet_shizi",
@@ -12963,6 +13464,24 @@ pg.equip_skin_template = {
 		475,
 		476,
 		477,
+		480,
+		481,
+		482,
+		483,
+		484,
+		485,
+		486,
+		487,
+		488,
+		489,
+		490,
+		491,
+		492,
+		493,
+		494,
+		495,
+		496,
+		497,
 		1001,
 		1002,
 		1003,

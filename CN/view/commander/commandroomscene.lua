@@ -171,9 +171,7 @@ function slot0.UpdateBoxesBtn(slot0)
 		setText(slot1, #_.select(slot0.boxes, function (slot0)
 			return slot0:getState() == CommanderBox.STATE_FINISHED
 		end) .. "/" .. #slot0.boxes)
-		setActive(slot0:findTF("boxes_btn/tip", slot0.boxTF), _.any(slot0.boxes, function (slot0)
-			return slot0:getState() == CommanderBox.STATE_FINISHED or slot0:getState() == CommanderBox.STATE_EMPTY
-		end))
+		setActive(slot0:findTF("boxes_btn/tip", slot0.boxTF), getProxy(CommanderProxy):AnyPoolIsWaiting())
 	end
 end
 

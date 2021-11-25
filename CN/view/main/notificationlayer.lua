@@ -112,6 +112,7 @@ function slot0.init(slot0)
 		public = {},
 		others = {}
 	}
+	uv0.ChannelBits.recv = getProxy(SettingsProxy):GetChatFlag()
 end
 
 function slot0.adjustMsgListPanel(slot0)
@@ -267,6 +268,7 @@ function slot0.initFilter(slot0)
 
 				uv1:updateFilter()
 				uv1:updateAll()
+				getProxy(SettingsProxy):SetChatFlag(uv2.ChannelBits.recv)
 			end, SFX_UI_TAG)
 		end
 	end)

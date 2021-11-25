@@ -31,32 +31,4 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.isHaveActivableMedal()
-	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) or slot0:isEnd() then
-		return
-	end
-
-	slot1 = slot0.data1_list
-	slot2 = slot0.data2_list
-
-	for slot7, slot8 in ipairs(uv0.GetPicturePuzzleIds(slot0.id)) do
-		slot10 = table.contains(slot1, slot8)
-
-		if not table.contains(slot2, slot8) and slot10 then
-			return true
-		end
-	end
-
-	return false
-end
-
-function slot0.GetPicturePuzzleIds(slot0)
-	slot1 = pg.activity_event_picturepuzzle[slot0]
-	slot2 = Clone(slot1.pickup_picturepuzzle)
-
-	table.insertto(slot2, slot1.drop_picturepuzzle)
-
-	return slot2
-end
-
 return slot0

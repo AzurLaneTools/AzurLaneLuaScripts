@@ -68,4 +68,22 @@ function slot0.Clear(slot0)
 	uv0.super.Clear(slot0)
 end
 
+function slot0.TransformItemAsset(slot0, slot1)
+	if type(slot1) ~= "string" then
+		return
+	end
+
+	if type(slot0:getConfig("ItemTransformPattern")) ~= "table" then
+		return slot1
+	end
+
+	_.each(slot0:getExtraFlags(), function (slot0)
+		if uv0[slot0] then
+			uv1 = string.gsub(uv1, uv0[slot0][1], uv0[slot0][2])
+		end
+	end)
+
+	return slot1
+end
+
 return slot0

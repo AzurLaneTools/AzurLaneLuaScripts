@@ -494,11 +494,9 @@ function slot0.confirm(slot0, slot1)
 			end
 
 			slot9, slot10 = nil
-			slot11 = slot1:getConfig("name")
 
 			if slot1:isPassItem() then
 				slot9 = i18n("battlepass_pay_tip")
-				slot11 = slot11 .. "\n" .. slot1:getConfig("subject_extra")
 			elseif slot1:isMonthCard() then
 				slot9 = i18n("charge_title_getitem_month")
 				slot10 = i18n("charge_title_getitem_soon")
@@ -509,7 +507,7 @@ function slot0.confirm(slot0, slot1)
 			slot0:showItemDetail({
 				isChargeType = true,
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
-				name = slot11,
+				name = slot1:getConfig("name_display"),
 				tipExtra = slot9,
 				extraItems = slot5,
 				price = slot1:getConfig("money"),
@@ -533,7 +531,7 @@ function slot0.confirm(slot0, slot1)
 			slot0:showItemDetail({
 				isChargeType = true,
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
-				name = slot1:getConfig("name"),
+				name = slot1:getConfig("name_display"),
 				price = slot1:getConfig("money"),
 				tagType = slot4,
 				normalTip = i18n("charge_start_tip", slot1:getConfig("money"), slot3 and slot6 + slot1:getConfig("gem") or slot6 + slot1:getConfig("extra_gem")),

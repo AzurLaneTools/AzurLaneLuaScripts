@@ -1,5 +1,9 @@
 slot0 = class("WeaponPreviewer")
 slot1 = Vector3(0, 1, 40)
+slot2 = Vector3(40, 1, 40)
+slot3 = Vector3(30, 0, 0)
+slot4 = Vector3(0.1, 0.1, 0.1)
+slot5 = Vector3(330, 0, 0)
 
 function slot0.Ctor(slot0, slot1)
 	slot0.rawImage = slot1
@@ -75,52 +79,54 @@ function slot0.load(slot0, slot1, slot2, slot3, slot4)
 
 			uv0.seaCharacter = slot0
 			slot1 = uv1:getConfig("scale") / 50
-			slot0.transform.localScale = Vector3(slot1, slot1, slot1)
-			slot0.transform.localPosition = uv2
-			slot0.transform.localEulerAngles = Vector3(30, 0, 0)
-			uv0.seaAnimator = slot0.transform:GetComponent("SpineAnim")
+			slot2 = slot0.transform
+			slot2.localScale = Vector3(slot1, slot1, slot1)
+			slot2.localPosition = uv2
+			slot2.localEulerAngles = uv3
+			uv0.seaAnimator = slot2:GetComponent("SpineAnim")
 			uv0.characterAction = ys.Battle.BattleConst.ActionName.MOVE
 
 			uv0.seaAnimator:SetAction(uv0.characterAction, 0, true)
 
 			uv0.seaFXList = {}
 			uv0._FXAttachPoint = GameObject()
-			slot2 = uv0._FXAttachPoint.transform
+			slot3 = uv0._FXAttachPoint.transform
 
-			slot2:SetParent(slot0.transform, false)
+			slot3:SetParent(slot2, false)
 
-			slot2.localPosition = Vector3.zero
-			slot2.localEulerAngles = Vector3(330, 0, 0)
-			slot4 = pg.ship_skin_template[uv1.skinId].fx_container
-			slot5 = {}
+			slot3.localPosition = Vector3.zero
+			slot3.localEulerAngles = uv4
+			slot5 = pg.ship_skin_template[uv1.skinId].fx_container
+			slot6 = {}
 
-			for slot9, slot10 in ipairs(ys.Battle.BattleConst.FXContainerIndex) do
-				slot11 = slot4[slot9]
-				slot5[slot9] = Vector3(slot11[1], slot11[2], slot11[3])
+			for slot10, slot11 in ipairs(ys.Battle.BattleConst.FXContainerIndex) do
+				slot12 = slot5[slot10]
+				slot6[slot10] = Vector3(slot12[1], slot12[2], slot12[3])
 			end
 
-			uv0._FXOffset = slot5
-			slot6 = ys.Battle.BattleFXPool.GetInstance()
+			uv0._FXOffset = slot6
+			slot7 = ys.Battle.BattleFXPool.GetInstance()
 
-			pg.EffectMgr.GetInstance():PlayBattleEffect(slot6:GetCharacterFX("movewave", uv0), Vector3(0, 0, 0), true)
+			pg.EffectMgr.GetInstance():PlayBattleEffect(slot7:GetCharacterFX("movewave", uv0), Vector3.zero, true)
 
-			uv0.seaFXPool = slot6
+			uv0.seaFXPool = slot7
 
 			if uv1:getShipType() ~= ShipType.WeiXiu then
 				uv0.boneList = {}
+				slot9 = slot2.localToWorldMatrix
 
-				for slot12, slot13 in pairs(pg.ship_skin_template[uv1.skinId].bound_bone) do
-					slot14 = {}
+				for slot14, slot15 in pairs(pg.ship_skin_template[uv1.skinId].bound_bone) do
+					slot16 = {}
 
-					for slot18, slot19 in ipairs(slot13) do
-						if type(slot19) == "table" then
-							slot14[#slot14 + 1] = Vector3(slot19[1], slot19[2], slot19[3])
+					for slot20, slot21 in ipairs(slot15) do
+						if type(slot21) == "table" then
+							slot16[#slot16 + 1] = Vector3(slot21[1], slot21[2], slot21[3])
 						else
-							slot14[#slot14 + 1] = Vector3.zero
+							slot16[#slot16 + 1] = Vector3.zero
 						end
 					end
 
-					uv0.boneList[slot12] = slot14[1]
+					uv0.boneList[slot14] = slot9:MultiplyPoint3x4(slot16[1])
 				end
 
 				uv0:SeaUpdate()
@@ -130,10 +136,10 @@ function slot0.load(slot0, slot1, slot2, slot3, slot4)
 			uv0.mainCameraGO:SetActive(false)
 			pg.TimeMgr.GetInstance():ResumeBattleTimer()
 			uv0:onWeaponUpdate()
-			uv3()
+			uv5()
 		end
 
-		uv5:InstCharacter(uv2:getPrefab(), function (slot0)
+		uv7:InstCharacter(uv2:getPrefab(), function (slot0)
 			uv0(slot0)
 		end)
 	end, nil)
@@ -390,11 +396,11 @@ function slot0.getEmitterHost(slot0)
 	return slot0._emitterHost
 end
 
-function slot0.createEmitterCannon(slot0, slot1, slot2)
-	slot3 = slot0:getEmitterHost()
+function slot0.createEmitterCannon(slot0, slot1, slot2, slot3)
+	slot4 = slot0:getEmitterHost()
 
 	return ys.Battle.BattleBulletEmitter.New(function (slot0, slot1, slot2, slot3, slot4)
-		slot6 = ys.Battle.BattleDataFunction.CreateBattleBulletData(uv0, uv0, uv1, nil, uv2 + Vector3(40, 0, 0))
+		slot6 = ys.Battle.BattleDataFunction.CreateBattleBulletData(uv0, uv0, uv1, nil, uv2)
 
 		slot6:SetOffsetPriority(slot3)
 		slot6:SetShiftInfo(slot0, slot1)
@@ -437,10 +443,10 @@ function slot0.createEmitterCannon(slot0, slot1, slot2)
 				tf(slot0).parent = nil
 			end
 
-			uv0:SetSpawn(uv1)
+			uv0:SetSpawn(uv1.boneList[uv2])
 
-			if uv2.bulletList then
-				table.insert(uv2.bulletList, uv0)
+			if uv1.bulletList then
+				table.insert(uv1.bulletList, uv0)
 			end
 		end
 
@@ -464,24 +470,24 @@ function slot0.createEmitterAir(slot0, slot1, slot2, slot3)
 		function slot9(slot0)
 			slot1 = uv0 + Vector3(uv1.position_offset[1] + uv2, uv1.position_offset[2], uv1.position_offset[3] + uv3)
 			slot0.transform.localPosition = slot1
-			slot0.transform.localScale = Vector3(0.1, 0.1, 0.1)
-			uv4.obj = slot0
-			uv4.tf = slot0.transform
-			uv4.pos = slot1
-			uv4.baseVelocity = ys.Battle.BattleFormulas.ConvertAircraftSpeed(uv4.tmpData.speed)
-			uv4.speed = uv5 * uv4.baseVelocity
-			uv4.speedZ = (math.random() - 0.5) * 0.5
-			uv4.targetZ = uv0.z
+			slot0.transform.localScale = uv4
+			uv5.obj = slot0
+			uv5.tf = slot0.transform
+			uv5.pos = slot1
+			uv5.baseVelocity = ys.Battle.BattleFormulas.ConvertAircraftSpeed(uv5.tmpData.speed)
+			uv5.speed = uv6 * uv5.baseVelocity
+			uv5.speedZ = (math.random() - 0.5) * 0.5
+			uv5.targetZ = uv0.z
 
-			if uv6.aircraftList then
-				table.insert(uv6.aircraftList, uv4)
+			if uv7.aircraftList then
+				table.insert(uv7.aircraftList, uv5)
 			end
 		end
 
 		slot10 = slot6.model_ID
 
-		if uv2.equipSkinId > 0 and table.contains(pg.equip_skin_template[uv2.equipSkinId].equip_type, EquipType.AirProtoEquipTypes[slot6.type]) then
-			slot10 = ys.Battle.BattleDataFunction.GetEquipSkin(uv2.equipSkinId)
+		if uv3.equipSkinId > 0 and table.contains(pg.equip_skin_template[uv3.equipSkinId].equip_type, EquipType.AirProtoEquipTypes[slot6.type]) then
+			slot10 = ys.Battle.BattleDataFunction.GetEquipSkin(uv3.equipSkinId)
 		end
 
 		slot11 = ys.Battle.BattleResourceManager.GetInstance()

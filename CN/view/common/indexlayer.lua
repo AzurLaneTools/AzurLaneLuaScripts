@@ -430,7 +430,7 @@ function slot0.initEquipSkinTheme(slot0)
 	slot1 = {}
 
 	_.each(IndexConst.EquipSkinThemeTypes, function (slot0)
-		if bit.band(uv0.contextData.display.equipSkinTheme, bit.lshift(1, slot0)) > 0 then
+		if string.find(IndexConst.StrAnd(uv0.contextData.display.equipSkinTheme, IndexConst.StrLShift("1", slot0)), "1") ~= nil then
 			table.insert(uv1, slot0)
 		end
 	end)
@@ -445,7 +445,7 @@ function slot0.initEquipSkinTheme(slot0)
 			setImageSprite(slot2, uv1.greySprite)
 			GetOrAddComponent(slot2, typeof(Button))
 			onButton(uv1, slot2, function ()
-				uv0.contextData.equipSkinTheme = IndexConst.ToggleBits(uv0.contextData.equipSkinTheme, uv1, IndexConst.EquipSkinThemeAll, uv2)
+				uv0.contextData.equipSkinTheme = IndexConst.ToggleStr(uv0.contextData.equipSkinTheme, uv1, IndexConst.EquipSkinThemeAll, uv2)
 
 				uv0:updateEquipSkinTheme()
 			end, SFX_UI_TAG)
@@ -461,9 +461,9 @@ function slot0.updateEquipSkinTheme(slot0)
 	slot2 = slot0.typeList[IndexConst.DisplayEquipSkinTheme]
 
 	slot1:each(function (slot0, slot1)
-		slot4 = findTF(slot1, "Image")
+		slot5 = findTF(slot1, "Image")
 
-		setImageSprite(slot1, bit.band(uv1.contextData.equipSkinTheme, bit.lshift(1, uv0[slot0 + 1])) > 0 and uv1.yellowSprite or uv1.greySprite)
+		setImageSprite(slot1, string.find(IndexConst.StrAnd(uv1.contextData.equipSkinTheme, IndexConst.StrLShift("1", uv0[slot0 + 1])), "1") ~= nil and uv1.yellowSprite or uv1.greySprite)
 	end)
 end
 

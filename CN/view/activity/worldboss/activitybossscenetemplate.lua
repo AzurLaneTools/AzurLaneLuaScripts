@@ -174,7 +174,7 @@ function slot0.CheckStory(slot0)
 	slot1 = pg.NewStoryMgr.GetInstance()
 	slot2 = slot0.contextData.activity
 
-	table.SerialForeachArray(slot2:getConfig("config_client").story, function (slot0, slot1, slot2)
+	table.SerialIpairsAsync(slot2:getConfig("config_client").story, function (slot0, slot1, slot2)
 		if uv0.contextData.bossHP < slot1[1] + ((slot0 == 1 or slot1[1] == 0) and 1 or 0) then
 			uv1:Play(slot1[2], slot2)
 		else

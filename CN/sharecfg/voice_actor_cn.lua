@@ -1167,5 +1167,21 @@ pg.voice_actor_CN = {
 	{
 		code = 292,
 		actor_name = "岛田爱野"
+	},
+	{
+		code = 293,
+		actor_name = "宫本侑芽"
+	},
+	{
+		code = 294,
+		actor_name = "三森铃子"
+	},
+	{
+		code = 295,
+		actor_name = "若山诗音"
+	},
+	{
+		code = 296,
+		actor_name = "安济知佳"
 	}
 }
