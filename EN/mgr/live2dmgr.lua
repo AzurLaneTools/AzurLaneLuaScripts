@@ -10,8 +10,6 @@ slot0 = {
 		slot0.loadingState = slot0.loadingState or {}
 
 		if (slot0.loadingState[slot1] == slot0.LOADING or slot0.loadingState[slot1] == slot0.CLEAR_ON_LOADING) and slot2 == slot0.EMPTY then
-			print(slot1 .. "-----标记为CLEAR_ON_LOADING这个状态之后，在加载完成的时候，会再执行一次release")
-
 			slot0.loadingState[slot1] = slot0.CLEAR_ON_LOADING
 
 			return false
@@ -63,11 +61,9 @@ function this.GetLive2DModelAsync(slot0, slot1, slot2)
 	uv0:AddRefCount(slot4)
 	uv0:MarkLoadingState(slot1, uv0.LOADING)
 	LoadAndInstantiateAsync("live2d", slot1, function (slot0)
-		print(uv1 .. "标记加载完成")
 		uv0:MarkLoadingState(uv1, uv0.LOADED)
 
 		if uv0:CheckClearOnLoading(uv1) then
-			print(uv1 .. "提前销毁了，现在加载完成了，再执行一次释放")
 			Destroy(slot0)
 			uv2:TryReleaseLive2dRes(uv1)
 			uv3(nil)
@@ -79,8 +75,6 @@ end
 
 function this.TryReleaseLive2dRes(slot0, slot1)
 	if uv0:MarkLoadingState(slot1, uv0.EMPTY) then
-		print(slot1 .. "可以正常释放了")
-
 		slot2, slot3 = HXSet.autoHxShift("live2d/", slot1)
 
 		if uv0:SubRefCount(slot3) then

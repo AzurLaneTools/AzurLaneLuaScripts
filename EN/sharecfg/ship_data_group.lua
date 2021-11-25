@@ -19589,6 +19589,223 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[10081] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 108,
+		handbook_type = 1,
+		index_id = 10081,
+		code = 10081,
+		group_type = 1080001,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: World-Spanning Arclight",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10082] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 5,
+		nationality = 108,
+		handbook_type = 1,
+		index_id = 10082,
+		code = 10082,
+		group_type = 1080002,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: World-Spanning Arclight",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10083] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 2,
+		nationality = 108,
+		handbook_type = 1,
+		index_id = 10083,
+		code = 10083,
+		group_type = 1080003,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: World-Spanning Arclight",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10084] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 108,
+		handbook_type = 1,
+		index_id = 10084,
+		code = 10084,
+		group_type = 1080004,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: World-Spanning Arclight",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10085] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 3,
+		nationality = 108,
+		handbook_type = 1,
+		index_id = 10085,
+		code = 10085,
+		group_type = 1080005,
+		trans_type = 0,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: World-Spanning Arclight",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10086] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 7,
+		nationality = 108,
+		handbook_type = 1,
+		index_id = 10086,
+		code = 10086,
+		group_type = 1080006,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: World-Spanning Arclight",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10087] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 5,
+		nationality = 108,
+		handbook_type = 1,
+		index_id = 10087,
+		code = 10087,
+		group_type = 1080007,
+		trans_type = 0,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: World-Spanning Arclight",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[20001] = {
 		trans_skin = 0,
 		redirect_id = 101,
@@ -20507,6 +20724,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30006] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 6,
+		nationality = 97,
+		handbook_type = 3,
+		index_id = 30006,
+		code = 30006,
+		group_type = 970601,
+		trans_type = 0,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：世界巡游",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9706011
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -20993,6 +21244,13 @@ pg.ship_data_group = {
 		10075,
 		10076,
 		10077,
+		10081,
+		10082,
+		10083,
+		10084,
+		10085,
+		10086,
+		10087,
 		20001,
 		20002,
 		20003,
@@ -21019,6 +21277,7 @@ pg.ship_data_group = {
 		30002,
 		30003,
 		30004,
-		30005
+		30005,
+		30006
 	}
 }

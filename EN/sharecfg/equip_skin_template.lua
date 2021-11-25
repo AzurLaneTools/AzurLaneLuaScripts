@@ -11074,6 +11074,507 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[480] = {
+		name = "Green Beam Shell",
+		bullet_name = "zidan_lvsejiguang",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Here is half of your daily dose.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93311",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 480,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[481] = {
+		name = "Red Beam Shell",
+		bullet_name = "zidan_hongsejiguang",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Red, but not infrared.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93312",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 481,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[482] = {
+		name = "Purple Beam Shell",
+		bullet_name = "zidan_zisejiguang",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Tastes like death grape.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93313",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 482,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[483] = {
+		name = "Diver Missile Shell",
+		bullet_name = "paodan_baoliefeidan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Soon regular shipgirls will be launching these too.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93314",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 483,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[484] = {
+		name = "Forest Extinguisher Shell",
+		bullet_name = "paodan_hulinmiehuodan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Sometimes, fighting fire with fire just works.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93315",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 484,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[485] = {
+		name = "Fireball Shell",
+		bullet_name = "paodan_nengliangdan",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Much more devastating than your typical hadouken.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93316",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 485,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[486] = {
+		name = "Calibur Torpedo",
+		bullet_name = "yulei_shengjian",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Sadly, pulling it out doesn't bestow royalty status upon you.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93321",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 486,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[487] = {
+		name = "Drill Head Torpedo",
+		bullet_name = "yulei_zuantou",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "There's never a bore when you have a drill.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93322",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 487,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[488] = {
+		name = "Antenna Torpedo",
+		bullet_name = "yulei_tianxianyulei",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Seems more suited for impalement than radio wave reception...",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93323",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 488,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[489] = {
+		name = "Goldburn(Torpedo)",
+		bullet_name = "feiji_huangyiyanlong",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Its eyes of red are feared.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93331",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 489,
+		derivate_torpedo = "yulei_shengjian",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[490] = {
+		name = "Goldburn(Fighter)",
+		bullet_name = "feiji_huangyiyanlong",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Its eyes of red are feared.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nengliangdan",
+		icon = "93331",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 490,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[491] = {
+		name = "Goldburn(Bomber)",
+		bullet_name = "feiji_huangyiyanlong",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Its eyes of red are feared.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_nengliangdan",
+		icon = "93331",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 491,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[492] = {
+		name = "Sky Vitter(Torpedo)",
+		bullet_name = "feiji_cangqiongpenqiji",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Raining devastation from up high.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93332",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 492,
+		derivate_torpedo = "yulei_zuantou",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[493] = {
+		name = "Sky Vitter(Fighter)",
+		bullet_name = "feiji_cangqiongpenqiji",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Raining devastation from up high.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_hulinmiehuodan",
+		icon = "93332",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 493,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[494] = {
+		name = "Sky Vitter(Bomber)",
+		bullet_name = "feiji_cangqiongpenqiji",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Raining devastation from up high.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_hulinmiehuodan",
+		icon = "93332",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 494,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[495] = {
+		name = "Dyna Wing(Torpedo)",
+		bullet_name = "feiji_dainafeiyi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Its firepower truly blows you away.",
+		attachment_combat_scene = "",
+		derivate_boom = "",
+		icon = "93333",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 495,
+		derivate_torpedo = "yulei_tianxianyulei",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[496] = {
+		name = "Dyna Wing(Fighter)",
+		bullet_name = "feiji_dainafeiyi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Its firepower truly blows you away.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_baoliefeidan",
+		icon = "93333",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 496,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[497] = {
+		name = "Dyna Wing(Bomber)",
+		bullet_name = "feiji_dainafeiyi",
+		attachment_combat_ui = "",
+		type = 1,
+		attachment_cusual = "",
+		ship_config_id = 100011,
+		themeid = 30,
+		desc = "Its firepower truly blows you away.",
+		attachment_combat_scene = "",
+		derivate_boom = "paodan_baoliefeidan",
+		icon = "93333",
+		mirror = 0,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 497,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		name = "Joypad Shell (P)",
 		bullet_name = "Nep_bullet_shizi",
@@ -12424,6 +12925,24 @@ pg.equip_skin_template = {
 		475,
 		476,
 		477,
+		480,
+		481,
+		482,
+		483,
+		484,
+		485,
+		486,
+		487,
+		488,
+		489,
+		490,
+		491,
+		492,
+		493,
+		494,
+		495,
+		496,
+		497,
 		1001,
 		1002,
 		1003,

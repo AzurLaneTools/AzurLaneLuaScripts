@@ -2260,6 +2260,86 @@ pg.map_event_list = {
 			"helpbg/battle_faxiv2_1"
 		}
 	},
+	[1590002] = {
+		help_open = 1,
+		chapter_id = 1590002,
+		event_list = {
+			570,
+			571,
+			572,
+			573
+		},
+		event_list_loop = {
+			596,
+			597
+		},
+		help_pictures = {
+			"helpbg/battle_gulite_1",
+			"helpbg/battle_gulite_2"
+		}
+	},
+	[1590003] = {
+		help_open = 0,
+		chapter_id = 1590003,
+		event_list = {
+			574,
+			575,
+			576,
+			577
+		},
+		event_list_loop = {
+			598,
+			599
+		},
+		help_pictures = {
+			"helpbg/battle_gulite_1",
+			"helpbg/battle_gulite_2"
+		}
+	},
+	[1590004] = {
+		help_open = 1,
+		chapter_id = 1590004,
+		event_list = {
+			578,
+			579,
+			580,
+			581,
+			590,
+			591,
+			592,
+			593,
+			594,
+			595
+		},
+		event_list_loop = {
+			600,
+			601,
+			602,
+			603,
+			604,
+			605
+		},
+		help_pictures = {
+			"helpbg/battle_gulite_3",
+			"helpbg/battle_gulite_1",
+			"helpbg/battle_gulite_2"
+		}
+	},
+	[1590041] = {
+		help_open = 0,
+		chapter_id = 1590041,
+		event_list = {
+			582,
+			583,
+			584,
+			585
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_gulite_1",
+			"helpbg/battle_gulite_2"
+		}
+	},
 	all = {
 		1401,
 		1402,
@@ -2395,6 +2475,10 @@ pg.map_event_list = {
 		1570024,
 		1570025,
 		1570026,
-		1570041
+		1570041,
+		1590002,
+		1590003,
+		1590004,
+		1590041
 	}
 }

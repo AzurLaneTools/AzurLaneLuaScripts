@@ -1948,6 +1948,81 @@ _G.pg.aircraft_template[151] = {
 	}
 }
 
+_G.pg.aircraft_template[444] = {
+	attack_power = 2,
+	name = "支援武器煌翼炎龙",
+	type = 3,
+	accuracy = 23,
+	model_ID = "feiji_huangyiyanlong",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 444,
+	icon = "feiji_huangyiyanlong",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 2,
+	weapon_ID = {
+		445
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.aircraft_template[4200] = {
 	attack_power = 2,
 	name = "剑鱼Mark.II-ASV",
@@ -27142,6 +27217,525 @@ _G.pg.aircraft_template[63060] = {
 	}
 }
 
+_G.pg.aircraft_template[63391] = {
+	attack_power = 2,
+	name = "貉-实例化-塞壬浮游炮-LV1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao3",
+	ACC_growth = 0,
+	crash_DMG = 293,
+	dodge = 1,
+	nationality = 3,
+	id = 63391,
+	icon = "fuyoupao3",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 4600,
+	speed = 70,
+	max_hp = 298,
+	scale = 0.75,
+	funnel_behavior = {
+		rear = -40,
+		exist = 10,
+		stay = 2,
+		front = -40
+	},
+	weapon_ID = {
+		63401,
+		63411
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[63392] = {
+	id = 63392,
+	name = "貉-实例化-塞壬浮游炮-LV2",
+	base = 63391,
+	weapon_ID = {
+		63402,
+		63412
+	}
+}
+
+_G.pg.aircraft_template[63393] = {
+	id = 63393,
+	name = "貉-实例化-塞壬浮游炮-LV3",
+	base = 63391,
+	weapon_ID = {
+		63403,
+		63413
+	}
+}
+
+_G.pg.aircraft_template[63394] = {
+	id = 63394,
+	name = "貉-实例化-塞壬浮游炮-LV4",
+	base = 63391,
+	weapon_ID = {
+		63404,
+		63414
+	}
+}
+
+_G.pg.aircraft_template[63395] = {
+	id = 63395,
+	name = "貉-实例化-塞壬浮游炮-LV5",
+	base = 63391,
+	weapon_ID = {
+		63405,
+		63415
+	}
+}
+
+_G.pg.aircraft_template[63396] = {
+	id = 63396,
+	name = "貉-实例化-塞壬浮游炮-LV6",
+	base = 63391,
+	weapon_ID = {
+		63406,
+		63416
+	}
+}
+
+_G.pg.aircraft_template[63397] = {
+	id = 63397,
+	name = "貉-实例化-塞壬浮游炮-LV7",
+	base = 63391,
+	weapon_ID = {
+		63407,
+		63417
+	}
+}
+
+_G.pg.aircraft_template[63398] = {
+	id = 63398,
+	name = "貉-实例化-塞壬浮游炮-LV8",
+	base = 63391,
+	weapon_ID = {
+		63408,
+		63418
+	}
+}
+
+_G.pg.aircraft_template[63399] = {
+	id = 63399,
+	name = "貉-实例化-塞壬浮游炮-LV9",
+	base = 63391,
+	weapon_ID = {
+		63409,
+		63419
+	}
+}
+
+_G.pg.aircraft_template[63400] = {
+	id = 63400,
+	name = "貉-实例化-塞壬浮游炮-LV10",
+	base = 63391,
+	weapon_ID = {
+		63410,
+		63420
+	}
+}
+
+_G.pg.aircraft_template[63421] = {
+	attack_power = 2,
+	name = "新条茜-instance-特殊飞机 Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 188,
+	dodge = 1.05,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 63421,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 5,
+	hp_growth = 1386,
+	speed = 52,
+	max_hp = 36,
+	scale = 1,
+	weapon_ID = {
+		63431
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[63422] = {
+	id = 63422,
+	name = "新条茜-instance-特殊飞机 Lv2",
+	base = 63421,
+	max_hp = 41,
+	hp_growth = 1594,
+	weapon_ID = {
+		63432
+	}
+}
+
+_G.pg.aircraft_template[63423] = {
+	id = 63423,
+	name = "新条茜-instance-特殊飞机 Lv3",
+	base = 63421,
+	max_hp = 47,
+	hp_growth = 1802,
+	weapon_ID = {
+		63433
+	}
+}
+
+_G.pg.aircraft_template[63424] = {
+	id = 63424,
+	name = "新条茜-instance-特殊飞机 Lv4",
+	base = 63421,
+	max_hp = 52,
+	hp_growth = 2010,
+	weapon_ID = {
+		63434
+	}
+}
+
+_G.pg.aircraft_template[63425] = {
+	id = 63425,
+	name = "新条茜-instance-特殊飞机 Lv5",
+	base = 63421,
+	max_hp = 58,
+	hp_growth = 2218,
+	weapon_ID = {
+		63435
+	}
+}
+
+_G.pg.aircraft_template[63426] = {
+	id = 63426,
+	name = "新条茜-instance-特殊飞机 Lv6",
+	base = 63421,
+	max_hp = 63,
+	hp_growth = 2426,
+	weapon_ID = {
+		63436
+	}
+}
+
+_G.pg.aircraft_template[63427] = {
+	id = 63427,
+	name = "新条茜-instance-特殊飞机 Lv7",
+	base = 63421,
+	max_hp = 68,
+	hp_growth = 2634,
+	weapon_ID = {
+		63437
+	}
+}
+
+_G.pg.aircraft_template[63428] = {
+	id = 63428,
+	name = "新条茜-instance-特殊飞机 Lv8",
+	base = 63421,
+	max_hp = 74,
+	hp_growth = 2842,
+	weapon_ID = {
+		63438
+	}
+}
+
+_G.pg.aircraft_template[63429] = {
+	id = 63429,
+	name = "新条茜-instance-特殊飞机 Lv9",
+	base = 63421,
+	max_hp = 79,
+	hp_growth = 3050,
+	weapon_ID = {
+		63439
+	}
+}
+
+_G.pg.aircraft_template[63430] = {
+	id = 63430,
+	name = "新条茜-instance-特殊飞机 Lv10",
+	base = 63421,
+	max_hp = 85,
+	hp_growth = 3258,
+	weapon_ID = {
+		63440
+	}
+}
+
+_G.pg.aircraft_template[63441] = {
+	attack_power = 2,
+	name = "千濑集束飞机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "97jiangong",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 107,
+	id = 63441,
+	icon = "97jiangong",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1846,
+	speed = 50,
+	max_hp = 48,
+	scale = 1,
+	weapon_ID = {
+		63451
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[63442] = {
+	id = 63442,
+	name = "千濑集束飞机Lv2",
+	base = 63441,
+	max_hp = 54,
+	hp_growth = 2087,
+	weapon_ID = {
+		63452
+	}
+}
+
+_G.pg.aircraft_template[63443] = {
+	id = 63443,
+	name = "千濑集束飞机Lv3",
+	base = 63441,
+	max_hp = 61,
+	hp_growth = 2327,
+	weapon_ID = {
+		63453
+	}
+}
+
+_G.pg.aircraft_template[63444] = {
+	id = 63444,
+	name = "千濑集束飞机Lv4",
+	base = 63441,
+	max_hp = 67,
+	hp_growth = 2568,
+	weapon_ID = {
+		63454
+	}
+}
+
+_G.pg.aircraft_template[63445] = {
+	id = 63445,
+	name = "千濑集束飞机Lv5",
+	base = 63441,
+	max_hp = 73,
+	hp_growth = 2809,
+	weapon_ID = {
+		63455
+	}
+}
+
+_G.pg.aircraft_template[63446] = {
+	id = 63446,
+	name = "千濑集束飞机Lv6",
+	base = 63441,
+	max_hp = 79,
+	hp_growth = 3050,
+	weapon_ID = {
+		63456
+	}
+}
+
+_G.pg.aircraft_template[63447] = {
+	id = 63447,
+	name = "千濑集束飞机Lv7",
+	base = 63441,
+	max_hp = 86,
+	hp_growth = 3290,
+	weapon_ID = {
+		63457
+	}
+}
+
+_G.pg.aircraft_template[63448] = {
+	id = 63448,
+	name = "千濑集束飞机Lv8",
+	base = 63441,
+	max_hp = 92,
+	hp_growth = 3531,
+	weapon_ID = {
+		63458
+	}
+}
+
+_G.pg.aircraft_template[63449] = {
+	id = 63449,
+	name = "千濑集束飞机Lv9",
+	base = 63441,
+	max_hp = 98,
+	hp_growth = 3772,
+	weapon_ID = {
+		63459
+	}
+}
+
+_G.pg.aircraft_template[63450] = {
+	id = 63450,
+	name = "千濑集束飞机Lv10",
+	base = 63441,
+	max_hp = 104,
+	hp_growth = 4013,
+	weapon_ID = {
+		63460
+	}
+}
+
 _G.pg.aircraft_template[64121] = {
 	attack_power = 2,
 	name = "提康德罗加战斗机LV1",
@@ -29065,6 +29659,180 @@ _G.pg.aircraft_template[64740] = {
 		50550,
 		50850,
 		51470
+	}
+}
+
+_G.pg.aircraft_template[64771] = {
+	attack_power = 2,
+	name = "飞鹰META鱼雷机Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "97jiangong",
+	ACC_growth = 0,
+	crash_DMG = 148,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 64771,
+	icon = "97jiangong",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1051,
+	speed = 48,
+	max_hp = 27,
+	scale = 1,
+	weapon_ID = {
+		64781
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[64772] = {
+	id = 64772,
+	name = "飞鹰META鱼雷机Lv2",
+	base = 64771,
+	max_hp = 30,
+	hp_growth = 1178,
+	weapon_ID = {
+		64782
+	}
+}
+
+_G.pg.aircraft_template[64773] = {
+	id = 64773,
+	name = "飞鹰META鱼雷机Lv3",
+	base = 64771,
+	max_hp = 33,
+	hp_growth = 1305,
+	weapon_ID = {
+		64783
+	}
+}
+
+_G.pg.aircraft_template[64774] = {
+	id = 64774,
+	name = "飞鹰META鱼雷机Lv4",
+	base = 64771,
+	max_hp = 37,
+	hp_growth = 1432,
+	weapon_ID = {
+		64784
+	}
+}
+
+_G.pg.aircraft_template[64775] = {
+	id = 64775,
+	name = "飞鹰META鱼雷机Lv5",
+	base = 64771,
+	max_hp = 40,
+	hp_growth = 1559,
+	weapon_ID = {
+		64785
+	}
+}
+
+_G.pg.aircraft_template[64776] = {
+	id = 64776,
+	name = "飞鹰META鱼雷机Lv6",
+	base = 64771,
+	max_hp = 43,
+	hp_growth = 1686,
+	weapon_ID = {
+		64786
+	}
+}
+
+_G.pg.aircraft_template[64777] = {
+	id = 64777,
+	name = "飞鹰META鱼雷机Lv7",
+	base = 64771,
+	max_hp = 47,
+	hp_growth = 1813,
+	weapon_ID = {
+		64787
+	}
+}
+
+_G.pg.aircraft_template[64778] = {
+	id = 64778,
+	name = "飞鹰META鱼雷机Lv8",
+	base = 64771,
+	max_hp = 50,
+	hp_growth = 1940,
+	weapon_ID = {
+		64788
+	}
+}
+
+_G.pg.aircraft_template[64779] = {
+	id = 64779,
+	name = "飞鹰META鱼雷机Lv9",
+	base = 64771,
+	max_hp = 53,
+	hp_growth = 2067,
+	weapon_ID = {
+		64789
+	}
+}
+
+_G.pg.aircraft_template[64780] = {
+	id = 64780,
+	name = "飞鹰META鱼雷机Lv10",
+	base = 64771,
+	max_hp = 57,
+	hp_growth = 2195,
+	weapon_ID = {
+		64790
 	}
 }
 
@@ -136889,6 +137657,3532 @@ _G.pg.aircraft_template[820860] = {
 		},
 		{
 			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840001] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】宝多六花支援武器-苍穹喷气飞机LV1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_cangqiongpenqiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840001,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 2,
+	weapon_ID = {
+		840026
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840002] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】宝多六花支援武器-苍穹喷气飞机LV2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_cangqiongpenqiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840002,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 2,
+	weapon_ID = {
+		840027
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840003] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】宝多六花支援武器-苍穹喷气飞机LV3",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_cangqiongpenqiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840003,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 2,
+	weapon_ID = {
+		840028
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840004] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】宝多六花支援武器-苍穹喷气飞机LV4",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_cangqiongpenqiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840004,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 2,
+	weapon_ID = {
+		840029
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840005] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】宝多六花支援武器-苍穹喷气飞机LV5",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_cangqiongpenqiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840005,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 2,
+	weapon_ID = {
+		840030
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840006] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】梦芽支援武器-戴拿飞翼LV1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_dainafeiyi",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840006,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 1.25,
+	weapon_ID = {
+		840031
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840007] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】梦芽支援武器-戴拿飞翼LV2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_dainafeiyi",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840007,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 1.25,
+	weapon_ID = {
+		840032
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840008] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】梦芽支援武器-戴拿飞翼LV3",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_dainafeiyi",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840008,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 1.25,
+	weapon_ID = {
+		840033
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840009] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】梦芽支援武器-戴拿飞翼LV4",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_dainafeiyi",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840009,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 1.25,
+	weapon_ID = {
+		840034
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840010] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】梦芽支援武器-戴拿飞翼LV5",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_dainafeiyi",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840010,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 1.25,
+	weapon_ID = {
+		840035
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840011] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】千濑支援武器-煌翼炎龙LV1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "feiji_huangyiyanlong",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840011,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 2,
+	weapon_ID = {
+		840036
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840012] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】千濑支援武器-煌翼炎龙LV2",
+	type = 3,
+	accuracy = 23,
+	model_ID = "feiji_huangyiyanlong",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840012,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 2,
+	weapon_ID = {
+		840037
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840013] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】千濑支援武器-煌翼炎龙LV3",
+	type = 3,
+	accuracy = 23,
+	model_ID = "feiji_huangyiyanlong",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840013,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 2,
+	weapon_ID = {
+		840038
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840014] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】千濑支援武器-煌翼炎龙LV4",
+	type = 3,
+	accuracy = 23,
+	model_ID = "feiji_huangyiyanlong",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840014,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 2,
+	weapon_ID = {
+		840039
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840015] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】千濑支援武器-煌翼炎龙LV5",
+	type = 3,
+	accuracy = 23,
+	model_ID = "feiji_huangyiyanlong",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840015,
+	icon = "feiji_cangqiongpenqiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 48,
+	max_hp = 9999,
+	scale = 2,
+	weapon_ID = {
+		840040
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840050] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载战斗机I",
+	type = 1,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840050,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 33,
+	max_hp = 64,
+	scale = 0.75,
+	weapon_ID = {
+		1100745,
+		1100750
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840051] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载战斗机II",
+	type = 1,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840051,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 88,
+	scale = 0.75,
+	weapon_ID = {
+		1100746,
+		1100751
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840052] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载战斗机III",
+	type = 1,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840052,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 33,
+	max_hp = 112,
+	scale = 0.75,
+	weapon_ID = {
+		1100747,
+		1100752
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840053] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载战斗机IV",
+	type = 1,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840053,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 33,
+	max_hp = 136,
+	scale = 0.75,
+	weapon_ID = {
+		1100748,
+		1100753
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840054] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载战斗机V",
+	type = 1,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840054,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 33,
+	max_hp = 160,
+	scale = 0.75,
+	weapon_ID = {
+		1100749,
+		1100754
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840055] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载鱼雷机I",
+	type = 2,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 52,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840055,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2040,
+	speed = 30,
+	max_hp = 72,
+	scale = 0.75,
+	weapon_ID = {
+		1100755
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840056] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载鱼雷机II",
+	type = 2,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 70,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840056,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 30,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		1100756
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840057] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载鱼雷机III",
+	type = 2,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 90,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840057,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2720,
+	speed = 30,
+	max_hp = 126,
+	scale = 0.75,
+	weapon_ID = {
+		1100757
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840058] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载鱼雷机IV",
+	type = 2,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 112,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840058,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3060,
+	speed = 30,
+	max_hp = 153,
+	scale = 0.75,
+	weapon_ID = {
+		1100758
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840059] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载鱼雷机V",
+	type = 2,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 136,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840059,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3400,
+	speed = 30,
+	max_hp = 180,
+	scale = 0.75,
+	weapon_ID = {
+		1100759
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840060] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载轰炸机I",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840060,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 80,
+	scale = 0.75,
+	weapon_ID = {
+		1101035
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840061] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载轰炸机II",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840061,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		1101036
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840062] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载轰炸机III",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840062,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3040,
+	speed = 30,
+	max_hp = 140,
+	scale = 0.75,
+	weapon_ID = {
+		1101037
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840063] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载轰炸机IV",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840063,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3420,
+	speed = 30,
+	max_hp = 170,
+	scale = 0.75,
+	weapon_ID = {
+		1101038
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840064] = {
+	attack_power = 2,
+	name = "【2021古立特联动】舰载轰炸机V",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840064,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3800,
+	speed = 30,
+	max_hp = 200,
+	scale = 0.75,
+	weapon_ID = {
+		1101039
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840180] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】执棋者I型 轰炸机T3 I",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840180,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 80,
+	scale = 0.75,
+	weapon_ID = {
+		840190
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840181] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】执棋者I型 轰炸机T3 II",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840181,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		840191
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840182] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】执棋者I型 轰炸机T3 III",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840182,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3040,
+	speed = 30,
+	max_hp = 140,
+	scale = 0.75,
+	weapon_ID = {
+		840192
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840183] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】执棋者I型 轰炸机T3 IV",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840183,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3420,
+	speed = 30,
+	max_hp = 170,
+	scale = 0.75,
+	weapon_ID = {
+		840193
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840184] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】执棋者I型 轰炸机T3 V",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840184,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3800,
+	speed = 30,
+	max_hp = 200,
+	scale = 0.75,
+	weapon_ID = {
+		840194
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840185] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】执棋者I型 鱼雷机T3 I",
+	type = 2,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 52,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840185,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2040,
+	speed = 33,
+	max_hp = 72,
+	scale = 0.75,
+	weapon_ID = {
+		840195
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840186] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】执棋者I型 鱼雷机T3 II",
+	type = 2,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 70,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840186,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		840196
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840187] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】执棋者I型 鱼雷机T3 III",
+	type = 2,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 90,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840187,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2720,
+	speed = 33,
+	max_hp = 126,
+	scale = 0.75,
+	weapon_ID = {
+		840197
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840188] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】执棋者I型 鱼雷机T3 IV",
+	type = 2,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 112,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840188,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3060,
+	speed = 33,
+	max_hp = 153,
+	scale = 0.75,
+	weapon_ID = {
+		840198
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840189] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动】执棋者I型 鱼雷机T3 V",
+	type = 2,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 136,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840189,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3400,
+	speed = 33,
+	max_hp = 180,
+	scale = 0.75,
+	weapon_ID = {
+		840199
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840317] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动T2】BOSS 机械怪兽 第五波 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840317,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 500,
+	scale = 0.75,
+	weapon_ID = {
+		840318
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840337] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动T4】BOSS 机械怪兽 第五波 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 130,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840337,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 240,
+	scale = 0.75,
+	weapon_ID = {
+		840338
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840339] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动T4】BOSS 机械怪兽 第五波 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 130,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840339,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 180,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840347] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动SSSS.SP】BOSS 机械怪兽 第五波 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 160,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840347,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 360,
+	scale = 0.75,
+	weapon_ID = {
+		840348
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840349] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动SSSS.SP】BOSS 机械怪兽 第五波 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 160,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840349,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 240,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840404] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动EX】BOSS 机械怪兽 第三波 战斗机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840404,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 9999,
+	scale = 0.75,
+	weapon_ID = {
+		840406
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[840405] = {
+	attack_power = 2,
+	name = "【2021古立特联动活动EX】BOSS 机械怪兽 第三波 鱼雷机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "gulite_feiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 840405,
+	icon = "gulite_feiji",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 9999,
+	scale = 0.75,
+	weapon_ID = {
+		840407
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
 			0,
 			0
 		},

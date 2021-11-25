@@ -580,7 +580,7 @@ function slot0.initFleets(slot0, slot1)
 
 	slot0.cellFleets = {}
 
-	table.ParallelForeachArray(slot0.contextData.chapterVO.fleets, function (slot0, slot1, slot2)
+	table.ParallelIpairsAsync(slot0.contextData.chapterVO.fleets, function (slot0, slot1, slot2)
 		uv0:InitFleetCell(slot1.id, slot2)
 	end, slot1)
 end
@@ -631,7 +631,7 @@ function slot0.RefreshFleetCells(slot0, slot1)
 		slot0:ClearFleetCell(slot8)
 	end
 
-	table.ParallelForeachArray(slot2.fleets, function (slot0, slot1, slot2)
+	table.ParallelIpairsAsync(slot2.fleets, function (slot0, slot1, slot2)
 		if not uv0.cellFleets[slot1.id] then
 			uv0:InitFleetCell(slot1.id, slot2)
 		else
@@ -703,7 +703,7 @@ function slot0.ClearFleetCell(slot0, slot1)
 end
 
 function slot0.UpdateFleets(slot0, slot1)
-	table.ParallelForeachArray(slot0.contextData.chapterVO.fleets, function (slot0, slot1, slot2)
+	table.ParallelIpairsAsync(slot0.contextData.chapterVO.fleets, function (slot0, slot1, slot2)
 		uv0:updateFleet(slot1.id, slot2)
 	end, slot1)
 end
@@ -1010,7 +1010,7 @@ function slot0.initChampions(slot0, slot1)
 
 	slot0.cellChampions = {}
 
-	table.ParallelForeachArray(slot0.contextData.chapterVO.champions, function (slot0, slot1, slot2)
+	table.ParallelIpairsAsync(slot0.contextData.chapterVO.champions, function (slot0, slot1, slot2)
 		uv0.cellChampions[slot0] = false
 
 		if slot1.flag ~= 1 then
@@ -1082,7 +1082,7 @@ function slot0.InitChampion(slot0, slot1, slot2)
 end
 
 function slot0.updateChampions(slot0, slot1)
-	table.ParallelForeachArray(slot0.cellChampions, function (slot0, slot1, slot2)
+	table.ParallelIpairsAsync(slot0.cellChampions, function (slot0, slot1, slot2)
 		uv0:updateChampion(slot0, slot2)
 	end, slot1)
 end
@@ -1218,14 +1218,7 @@ function slot0.UpdateItemCells(slot0)
 	end
 
 	for slot5, slot6 in pairs(slot0.itemCells) do
-		slot9 = slot1:getConfig("ItemTransformPattern")
-		slot10 = slot1:getExtraFlags()[1] or 0
-
-		if slot6:GetOriginalInfo() and slot7.item and type(slot9) == "table" and slot9[slot10] then
-			slot8 = string.gsub(slot8, slot9[slot10][1], slot9[slot10][2])
-		end
-
-		slot6:UpdateAsset(slot8)
+		slot6:UpdateAsset(ItemCell.TransformItemAsset(slot1, slot6:GetOriginalInfo() and slot7.item))
 	end
 end
 
@@ -1388,6 +1381,7 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 			slot8 = MapEventStoryCellView
 		elseif slot4.data == ChapterConst.StoryObstacle then
 			slot8 = MapEventStoryObstacleCellView
+			slot9.chapter = slot3
 		end
 	elseif slot4.attachment == ChapterConst.AttachBomb_Enemy then
 		slot8 = AttachmentBombEnemyCell

@@ -28,11 +28,13 @@ slot2 = {
 		slot0 = {}
 		slot2 = getProxy(ActivityProxy)
 
-		for slot6, slot7 in pairs(getProxy(ChapterProxy).mapEliteFleetCache) do
-			if uv0.expedition_data_by_map[slot6].on_activity == 0 or checkExist(slot2:getActivityById(slot8), {
-				"isEnd"
-			}) == false then
-				slot0[slot6] = _.flatten(slot7)
+		if getProxy(ChapterProxy).mapEliteFleetCache then
+			for slot6, slot7 in pairs(slot1.mapEliteFleetCache) do
+				if uv0.expedition_data_by_map[slot6].on_activity == 0 or checkExist(slot2:getActivityById(slot8), {
+					"isEnd"
+				}) == false then
+					slot0[slot6] = _.flatten(slot7)
+				end
 			end
 		end
 

@@ -1,9 +1,7 @@
 pg = pg or {}
 pg.class_upgrade_group = {
 	{
-		name = "Today's class:\nDestroyers and Torpedoes - Torpedo Techniques",
 		id = 201011,
-		icon = "Props/DD",
 		name_show = "Destroyer Torpedo Class",
 		day = 1,
 		type = {
@@ -16,9 +14,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "Today's class:\nCruiser Firepower - Choosing the Right Ammo",
-		id = 302041,
-		icon = "Props/CLCA",
+		id = 302011,
 		name_show = "Cruiser Firepower Class",
 		day = 2,
 		type = {
@@ -32,9 +28,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "Today's class:\nBattleship Theory - Analyzing Power on the Seas",
 		id = 105031,
-		icon = "Props/BB",
 		name_show = "Battleship Theory Class",
 		day = 3,
 		type = {
@@ -45,9 +39,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "Today's class:\nAircraft Carrier Theory - Integrating Sea and Air",
 		id = 107011,
-		icon = "Props/CV",
 		name_show = "Carrier Theory Class",
 		day = 4,
 		type = {
@@ -57,9 +49,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "Today's class:\nDestroyer Combat - Learning Practical Formations",
 		id = 201011,
-		icon = "Props/DD",
 		name_show = "Destroyer Combat Class",
 		day = 5,
 		type = {
@@ -72,9 +62,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "Today's class:\nCruiser Combat - Maximizing Firepower",
-		id = 302041,
-		icon = "Props/CLCA",
+		id = 302011,
 		name_show = "Cruiser Combat Class",
 		day = 6,
 		type = {
@@ -88,9 +76,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "Self-study in progress. Double Proficiency gained from sorties.",
 		id = 105031,
-		icon = "Props/BB",
 		name_show = "Self-Study ",
 		day = 7,
 		type = {

@@ -410,6 +410,7 @@ function slot0.update(slot0, slot1)
 		end)
 	end
 
+	slot0.moveStep = slot1.move_step_count or 0
 	slot0.activateAmbush = not slot0:isLoop() and slot0:GetWillActiveAmbush()
 end
 
@@ -955,7 +956,7 @@ function slot0.getFleetStates(slot0, slot1)
 	end), slot10))
 	table.insertto(slot2, slot1.stgIds)
 
-	for slot10, slot11 in ipairs(slot0:getConfig("chapter_buff")) do
+	for slot10, slot11 in ipairs(slot0:getConfig("chapter_strategy")) do
 		table.insert(slot2, slot11)
 	end
 
@@ -974,8 +975,14 @@ function slot0.getFleetStates(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetShowingStartegies(slot0)
+function slot0.GetShowingStrategies(slot0)
 	slot2 = slot0:getFleetStates(slot0.fleet)
+
+	_.each(slot0.buff_list, function (slot0)
+		if ChapterConst.Buff2Stg[slot0] then
+			table.insert(uv0, ChapterConst.Buff2Stg[slot0])
+		end
+	end)
 
 	if slot0:getPlayType() == ChapterConst.TypeDOALink and slot0:GetBuffOfLinkAct() then
 		table.insert(slot2, pg.gameset.doa_fever_strategy.description[table.indexof(pg.gameset.doa_fever_buff.description, slot3)])

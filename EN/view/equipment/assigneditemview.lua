@@ -5,18 +5,6 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0:InitData()
-	slot0:InitUI()
-	setActive(slot0._tf, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
-end
-
-function slot0.InitData(slot0)
-	slot0.selectedVO = nil
-	slot0.count = 1
-end
-
-function slot0.InitUI(slot0)
 	slot0.ulist = UIItemList.New(slot0:findTF("got/bottom/scroll/list"), slot0:findTF("got/bottom/scroll/list/tpl"))
 	slot0.confirmBtn = slot0:findTF("calc/confirm")
 	slot0.rightArr = slot0:findTF("calc/value_bg/add")
@@ -28,7 +16,7 @@ function slot0.InitUI(slot0)
 	slot0.descTF = slot0:findTF("item/bottom/desc_con/desc")
 
 	onButton(slot0, slot0._tf, function ()
-		uv0:Destroy()
+		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.rightArr, function ()
 		if not uv0.itemVO then
@@ -58,71 +46,71 @@ function slot0.InitUI(slot0)
 		uv0:updateValue()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if not uv0.selectedVO or not uv0.itemVO or uv0.count <= 0 then
+		if not uv0.selectedIndex or not uv0.itemVO or uv0.count <= 0 then
 			return
 		end
 
-		uv0:emit(EquipmentMediator.ON_USE_ITEM, uv0.itemVO.id, uv0.count, uv0.selectedVO)
-		uv0:Destroy()
+		uv0:emit(EquipmentMediator.ON_USE_ITEM, uv0.itemVO.id, uv0.count, uv0.itemVO:getTempCfgTable().usage_arg[uv0.selectedIndex])
+		uv0:Hide()
 	end, SFX_PANEL)
+end
+
+function slot0.Show(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	setActive(slot0._tf, true)
+end
+
+function slot0.Hide(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	setActive(slot0._tf, false)
 end
 
 function slot0.updateValue(slot0)
 	setText(slot0.valueText, slot0.count)
 
-	slot1 = slot0.itemVO
-	slot1 = slot1:getConfig("display_icon")
-	slot2 = slot0.ulist
+	slot1 = slot0.ulist
 
-	slot2:each(function (slot0, slot1)
-		setText(slot1:Find("item/bg/icon_bg/count"), uv1.count * uv0[slot0 + 1][3])
+	slot1:each(function (slot0, slot1)
+		if not isActive(slot1) then
+			return
+		end
+
+		setText(slot1:Find("item/bg/icon_bg/count"), uv0.count * uv0.displayDrops[slot0 + 1].count)
 	end)
-end
-
-function slot0.OnDestroy(slot0)
-	slot0.selectedVO = nil
-	slot0.itemVO = nil
-	slot0.count = 1
-
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
-
-	if slot0.selectedItem then
-		triggerToggle(slot0.selectedItem, false)
-	end
-
-	slot0.selectedItem = nil
 end
 
 function slot0.update(slot0, slot1)
-	slot0.itemVO = slot1
+	slot0.count = 1
+	slot0.selectedIndex = nil
 	slot0.selectedItem = nil
+	slot0.itemVO = slot1
+	slot0.displayDrops = underscore.map(slot1:getConfig("display_icon"), function (slot0)
+		return {
+			type = slot0[1],
+			id = slot0[2],
+			count = slot0[3]
+		}
+	end)
 
 	slot0.ulist:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
-			slot4 = {
-				type = slot3[1],
-				id = slot3[2],
-				count = slot3[3]
-			}
-
-			updateDrop(slot2:Find("item/bg"), slot4)
-
-			slot5 = slot2:Find("item/bg/icon_bg/count")
-
-			onToggle(uv1, slot2, function (slot0)
+			updateDrop(slot2:Find("item/bg"), uv0.displayDrops[slot1])
+			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
-					uv0.selectedVO = uv1:getTempCfgTable().usage_arg[uv2 + 1]
-
-					setText(uv3, uv0.count * uv4[3])
-
-					uv0.selectedItem = uv5
+					uv0.selectedIndex = uv1
+					uv0.selectedItem = uv2
 				end
 			end, SFX_PANEL)
-			setScrollText(slot2:Find("name_bg/Text"), HXSet.hxLan(slot4.cfg.name))
+			triggerToggle(slot2, false)
+			setScrollText(slot2:Find("name_bg/Text"), HXSet.hxLan(uv0.displayDrops[slot1].cfg.name))
+
+			uv0.selectedItem = uv0.selectedItem or slot2
 		end
 	end)
-	slot0.ulist:align(#slot1:getConfig("display_icon"))
+	slot0.ulist:align(#slot0.displayDrops)
+	triggerToggle(slot0.selectedItem, true)
 	slot0:updateValue()
 	updateDrop(slot0.itemTF:Find("bg"), {
 		type = DROP_TYPE_ITEM,

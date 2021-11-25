@@ -162700,7 +162700,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Hiyo-class"
+			"Hiyo-class",
+			"Jun'yō"
 		}
 	},
 	[306022] = {
@@ -162824,7 +162825,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Hiyo-class"
+			"Hiyo-class",
+			"Jun'yō"
 		}
 	},
 	[306023] = {
@@ -162948,7 +162950,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Hiyo-class"
+			"Hiyo-class",
+			"Jun'yō"
 		}
 	},
 	[306024] = {
@@ -163072,7 +163075,8 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {
-			"Hiyo-class"
+			"Hiyo-class",
+			"Jun'yō"
 		}
 	},
 	[306031] = {
@@ -270221,6 +270225,506 @@ pg.ship_data_statistics = {
 			"Fuso"
 		}
 	},
+	[9706011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Hiyou META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706010,
+		english_name = "Hiyou META",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1128,
+			0,
+			0,
+			48,
+			61,
+			71,
+			0,
+			26,
+			17,
+			26,
+			43,
+			17
+		},
+		attrs_growth = {
+			19422,
+			0,
+			0,
+			643,
+			804,
+			491,
+			0,
+			378,
+			308,
+			0,
+			0,
+			247
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.05,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiyoMETA",
+			"Hiyo-class"
+		}
+	},
+	[9706012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Hiyou META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706010,
+		english_name = "Hiyou META",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1403,
+			0,
+			0,
+			60,
+			76,
+			71,
+			0,
+			26,
+			17,
+			26,
+			43,
+			21
+		},
+		attrs_growth = {
+			19422,
+			0,
+			0,
+			643,
+			804,
+			491,
+			0,
+			378,
+			308,
+			0,
+			0,
+			247
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.88,
+			1.08,
+			0.98
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiyoMETA",
+			"Hiyo-class"
+		}
+	},
+	[9706013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Hiyou META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706010,
+		english_name = "Hiyou META",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1953,
+			0,
+			0,
+			83,
+			106,
+			71,
+			0,
+			26,
+			17,
+			26,
+			43,
+			30
+		},
+		attrs_growth = {
+			19422,
+			0,
+			0,
+			643,
+			804,
+			491,
+			0,
+			378,
+			308,
+			0,
+			0,
+			247
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.93,
+			1.13,
+			1.03
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiyoMETA",
+			"Hiyo-class"
+		}
+	},
+	[9706014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Hiyou META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706010,
+		english_name = "Hiyou META",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2779,
+			0,
+			0,
+			118,
+			152,
+			71,
+			0,
+			26,
+			17,
+			26,
+			43,
+			43
+		},
+		attrs_growth = {
+			19422,
+			0,
+			0,
+			643,
+			804,
+			491,
+			0,
+			378,
+			308,
+			0,
+			0,
+			247
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.2,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"HiyoMETA",
+			"Hiyo-class"
+		}
+	},
 	[9707011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -289629,6 +290133,3542 @@ pg.ship_data_statistics = {
 			"IMAS"
 		}
 	},
+	[10800011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Rikka Takarada",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10800010,
+		english_name = "Rikka Takarada",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10800011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			758,
+			33,
+			70,
+			74,
+			0,
+			71,
+			0,
+			55,
+			30,
+			35,
+			55,
+			40
+		},
+		attrs_growth = {
+			20353,
+			454,
+			891,
+			1530,
+			0,
+			488,
+			0,
+			799,
+			681,
+			0,
+			0,
+			463
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS",
+			"RIKKA"
+		}
+	},
+	[10800012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Rikka Takarada",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10800010,
+		english_name = "Rikka Takarada",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10800012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			943,
+			41,
+			87,
+			92,
+			0,
+			71,
+			0,
+			55,
+			30,
+			35,
+			55,
+			50
+		},
+		attrs_growth = {
+			20353,
+			454,
+			891,
+			1530,
+			0,
+			488,
+			0,
+			799,
+			681,
+			0,
+			0,
+			463
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.5,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS",
+			"RIKKA"
+		}
+	},
+	[10800013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Rikka Takarada",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10800010,
+		english_name = "Rikka Takarada",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10800013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1313,
+			58,
+			122,
+			128,
+			0,
+			71,
+			0,
+			55,
+			30,
+			35,
+			55,
+			70
+		},
+		attrs_growth = {
+			20353,
+			454,
+			891,
+			1530,
+			0,
+			488,
+			0,
+			799,
+			681,
+			0,
+			0,
+			463
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.6,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS",
+			"RIKKA"
+		}
+	},
+	[10800014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Rikka Takarada",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10800010,
+		english_name = "Rikka Takarada",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10800014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1868,
+			82,
+			174,
+			183,
+			0,
+			71,
+			0,
+			55,
+			30,
+			35,
+			55,
+			99
+		},
+		attrs_growth = {
+			20353,
+			454,
+			891,
+			1530,
+			0,
+			488,
+			0,
+			799,
+			681,
+			0,
+			0,
+			463
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.6,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS",
+			"RIKKA"
+		}
+	},
+	[10800021] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Akane Shinjo",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10800020,
+		english_name = "Akane Shinjo",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10800021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1274,
+			82,
+			0,
+			67,
+			0,
+			57,
+			0,
+			22,
+			6,
+			26,
+			55,
+			0
+		},
+		attrs_growth = {
+			34194,
+			1009,
+			0,
+			1404,
+			0,
+			395,
+			0,
+			328,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800022] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Akane Shinjo",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10800020,
+		english_name = "Akane Shinjo",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10800022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1585,
+			102,
+			0,
+			84,
+			0,
+			57,
+			0,
+			22,
+			6,
+			26,
+			55,
+			0
+		},
+		attrs_growth = {
+			34194,
+			1009,
+			0,
+			1404,
+			0,
+			395,
+			0,
+			328,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800023] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Akane Shinjo",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10800020,
+		english_name = "Akane Shinjo",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10800023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2206,
+			143,
+			0,
+			117,
+			0,
+			57,
+			0,
+			22,
+			6,
+			26,
+			55,
+			0
+		},
+		attrs_growth = {
+			34194,
+			1009,
+			0,
+			1404,
+			0,
+			395,
+			0,
+			328,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800024] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Akane Shinjo",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10800020,
+		english_name = "Akane Shinjo",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10800024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3138,
+			204,
+			0,
+			166,
+			0,
+			57,
+			0,
+			22,
+			6,
+			26,
+			55,
+			0
+		},
+		attrs_growth = {
+			34194,
+			1009,
+			0,
+			1404,
+			0,
+			395,
+			0,
+			328,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800031] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Hass",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10800030,
+		english_name = "Hass",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10800031,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			595,
+			26,
+			53,
+			65,
+			0,
+			66,
+			0,
+			56,
+			30,
+			33,
+			55,
+			35
+		},
+		attrs_growth = {
+			15975,
+			353,
+			715,
+			1362,
+			0,
+			454,
+			0,
+			816,
+			673,
+			0,
+			0,
+			404
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.5,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800032] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Hass",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10800030,
+		english_name = "Hass",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10800032,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			740,
+			32,
+			66,
+			81,
+			0,
+			66,
+			0,
+			56,
+			30,
+			33,
+			55,
+			44
+		},
+		attrs_growth = {
+			15975,
+			353,
+			715,
+			1362,
+			0,
+			454,
+			0,
+			816,
+			673,
+			0,
+			0,
+			404
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800033] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Hass",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10800030,
+		english_name = "Hass",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10800033,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1030,
+			45,
+			92,
+			113,
+			0,
+			66,
+			0,
+			56,
+			30,
+			33,
+			55,
+			61
+		},
+		attrs_growth = {
+			15975,
+			353,
+			715,
+			1362,
+			0,
+			454,
+			0,
+			816,
+			673,
+			0,
+			0,
+			404
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.6,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800034] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Hass",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10800030,
+		english_name = "Hass",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10800034,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1466,
+			65,
+			132,
+			160,
+			0,
+			66,
+			0,
+			56,
+			30,
+			33,
+			55,
+			86
+		},
+		attrs_growth = {
+			15975,
+			353,
+			715,
+			1362,
+			0,
+			454,
+			0,
+			816,
+			673,
+			0,
+			0,
+			404
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.6,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Namiko",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10800040,
+		english_name = "Namiko",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			670,
+			44,
+			40,
+			39,
+			0,
+			66,
+			0,
+			44,
+			8,
+			24,
+			55,
+			0
+		},
+		attrs_growth = {
+			17975,
+			606,
+			547,
+			849,
+			0,
+			454,
+			0,
+			648,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			439
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Namiko",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10800040,
+		english_name = "Namiko",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			833,
+			55,
+			50,
+			49,
+			0,
+			66,
+			0,
+			44,
+			8,
+			24,
+			55,
+			0
+		},
+		attrs_growth = {
+			17975,
+			606,
+			547,
+			849,
+			0,
+			454,
+			0,
+			648,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			439
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.3,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Namiko",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10800040,
+		english_name = "Namiko",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1160,
+			77,
+			69,
+			68,
+			0,
+			66,
+			0,
+			44,
+			8,
+			24,
+			55,
+			0
+		},
+		attrs_growth = {
+			17975,
+			606,
+			547,
+			849,
+			0,
+			454,
+			0,
+			648,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			439
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.4,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Namiko",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10800040,
+		english_name = "Namiko",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1650,
+			109,
+			99,
+			96,
+			0,
+			66,
+			0,
+			44,
+			8,
+			24,
+			55,
+			0
+		},
+		attrs_growth = {
+			17975,
+			606,
+			547,
+			849,
+			0,
+			454,
+			0,
+			648,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			439
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.55,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800051] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yume Minami",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10800050,
+		english_name = "Yume Minami",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800051,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			873,
+			46,
+			0,
+			46,
+			0,
+			69,
+			0,
+			52,
+			20,
+			25.6,
+			55,
+			0
+		},
+		attrs_growth = {
+			23446,
+			631,
+			0,
+			1000,
+			0,
+			471,
+			0,
+			757,
+			421,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.5,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800052] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yume Minami",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10800050,
+		english_name = "Yume Minami",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800052,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1086,
+			57,
+			0,
+			57,
+			0,
+			69,
+			0,
+			52,
+			20,
+			25.6,
+			55,
+			0
+		},
+		attrs_growth = {
+			23446,
+			631,
+			0,
+			1000,
+			0,
+			471,
+			0,
+			757,
+			421,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.6,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800053] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yume Minami",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10800050,
+		english_name = "Yume Minami",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800053,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1512,
+			80,
+			0,
+			80,
+			0,
+			69,
+			0,
+			52,
+			20,
+			25.6,
+			55,
+			0
+		},
+		attrs_growth = {
+			23446,
+			631,
+			0,
+			1000,
+			0,
+			471,
+			0,
+			757,
+			421,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.6,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800054] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yume Minami",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10800050,
+		english_name = "Yume Minami",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800054,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2151,
+			114,
+			0,
+			114,
+			0,
+			69,
+			0,
+			52,
+			20,
+			25.6,
+			55,
+			0
+		},
+		attrs_growth = {
+			23446,
+			631,
+			0,
+			1000,
+			0,
+			471,
+			0,
+			757,
+			421,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.65,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800061] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Chise Asukagawa",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10800060,
+		english_name = "Chise Asukagawa",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800061,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1169,
+			0,
+			0,
+			58,
+			77,
+			53,
+			0,
+			30,
+			11,
+			28,
+			55,
+			0
+		},
+		attrs_growth = {
+			31370,
+			0,
+			0,
+			1244,
+			958,
+			362,
+			0,
+			446,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800062] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Chise Asukagawa",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10800060,
+		english_name = "Chise Asukagawa",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800062,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1454,
+			0,
+			0,
+			72,
+			96,
+			53,
+			0,
+			30,
+			11,
+			28,
+			55,
+			0
+		},
+		attrs_growth = {
+			31370,
+			0,
+			0,
+			1244,
+			958,
+			362,
+			0,
+			446,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800063] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Chise Asukagawa",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10800060,
+		english_name = "Chise Asukagawa",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800063,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2024,
+			0,
+			0,
+			101,
+			134,
+			53,
+			0,
+			30,
+			11,
+			28,
+			55,
+			0
+		},
+		attrs_growth = {
+			31370,
+			0,
+			0,
+			1244,
+			958,
+			362,
+			0,
+			446,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800064] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Chise Asukagawa",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10800060,
+		english_name = "Chise Asukagawa",
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10800064,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2879,
+			0,
+			0,
+			144,
+			191,
+			53,
+			0,
+			30,
+			11,
+			28,
+			55,
+			0
+		},
+		attrs_growth = {
+			31370,
+			0,
+			0,
+			1244,
+			958,
+			362,
+			0,
+			446,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800071] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Mujina",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10800070,
+		english_name = "Mujina",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10800071,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1265,
+			75,
+			0,
+			36,
+			0,
+			50,
+			0,
+			21,
+			8,
+			30,
+			55,
+			0
+		},
+		attrs_growth = {
+			33958,
+			942,
+			0,
+			782,
+			0,
+			345,
+			0,
+			303,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800072] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Mujina",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10800070,
+		english_name = "Mujina",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10800072,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1574,
+			94,
+			0,
+			45,
+			0,
+			50,
+			0,
+			21,
+			8,
+			30,
+			55,
+			0
+		},
+		attrs_growth = {
+			33958,
+			942,
+			0,
+			782,
+			0,
+			345,
+			0,
+			303,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800073] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Mujina",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10800070,
+		english_name = "Mujina",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10800073,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2191,
+			131,
+			0,
+			62,
+			0,
+			50,
+			0,
+			21,
+			8,
+			30,
+			55,
+			0
+		},
+		attrs_growth = {
+			33958,
+			942,
+			0,
+			782,
+			0,
+			345,
+			0,
+			303,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
+	[10800074] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Mujina",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10800070,
+		english_name = "Mujina",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 108,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10800074,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3116,
+			186,
+			0,
+			89,
+			0,
+			50,
+			0,
+			21,
+			8,
+			30,
+			55,
+			0
+		},
+		attrs_growth = {
+			33958,
+			942,
+			0,
+			782,
+			0,
+			345,
+			0,
+			303,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SSSS"
+		}
+	},
 	[299011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -302791,6 +306831,10 @@ pg.ship_data_statistics = {
 		9705012,
 		9705013,
 		9705014,
+		9706011,
+		9706012,
+		9706013,
+		9706014,
 		9707011,
 		9707012,
 		9707013,
@@ -302935,6 +306979,34 @@ pg.ship_data_statistics = {
 		10700072,
 		10700073,
 		10700074,
+		10800011,
+		10800012,
+		10800013,
+		10800014,
+		10800021,
+		10800022,
+		10800023,
+		10800024,
+		10800031,
+		10800032,
+		10800033,
+		10800034,
+		10800041,
+		10800042,
+		10800043,
+		10800044,
+		10800051,
+		10800052,
+		10800053,
+		10800054,
+		10800061,
+		10800062,
+		10800063,
+		10800064,
+		10800071,
+		10800072,
+		10800073,
+		10800074,
 		299011,
 		299012,
 		299013,

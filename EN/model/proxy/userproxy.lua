@@ -108,6 +108,10 @@ function slot0.GetCacheGatewayFlag(slot0, slot1)
 	return slot0.cachePlatform
 end
 
+function slot0.GetCacheGatewayInServerLogined(slot0)
+	return slot0.cachePlatform or PLATFORM
+end
+
 function slot0.SetCacheGatewayFlag(slot0, slot1)
 	if slot0.cachePlatform ~= slot1 then
 		slot0.cachePlatform = slot1

@@ -270,4 +270,26 @@ function slot0.InCommanderScene(slot0)
 	return slot0.openCommanderScene
 end
 
+function slot0.AnyPoolIsWaiting(slot0)
+	slot1 = _.any(slot0.pools, function (slot0)
+		return slot0:getItemCount() > 0
+	end)
+	slot2 = 0
+	slot3 = 0
+
+	for slot7, slot8 in pairs(slot0.boxes) do
+		if slot8:getState() == CommanderBox.STATE_EMPTY then
+			slot2 = slot2 + 1
+		elseif slot9 == CommanderBox.STATE_FINISHED then
+			slot3 = slot3 + 1
+		end
+	end
+
+	if slot1 and slot2 > 0 then
+		return true
+	else
+		return slot3 > 0
+	end
+end
+
 return slot0

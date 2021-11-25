@@ -156,28 +156,28 @@ function slot0.init(slot0)
 	slot0.scrollItems = {}
 
 	if _G[slot0.contextData.preView] then
-		slot0.sortIndex = slot2.sortIndex and slot2.sortIndex or ShipIndexConst.SortLevel
-		slot0.selectAsc = slot2.selectAsc and slot2.selectAsc or false
-		slot0.typeIndex = slot2.typeIndex and slot2.typeIndex
-		slot0.campIndex = slot2.campIndex and slot2.campIndex
-		slot0.rarityIndex = slot2.rarityIndex and slot2.rarityIndex
-		slot0.extraIndex = slot2.extraIndex and slot2.extraIndex
+		slot0.sortIndex = slot2.sortIndex or ShipIndexConst.SortLevel
+		slot0.selectAsc = slot2.selectAsc or false
+		slot0.typeIndex = slot2.typeIndex or ShipIndexConst.TypeAll
+		slot0.campIndex = slot2.campIndex or ShipIndexConst.CampAll
+		slot0.rarityIndex = slot2.rarityIndex or ShipIndexConst.RarityAll
+		slot0.extraIndex = slot2.extraIndex or ShipIndexConst.ExtraAll
 		slot0.commonTag = slot2.commonTag or Ship.PREFERENCE_TAG_NONE
 	elseif slot0.contextData.sortData then
 		slot0.sortIndex = slot0.contextData.sortData.sort or ShipIndexConst.SortLevel
 		slot0.selectAsc = slot3.Asc or false
-		slot0.typeIndex = slot3.typeIndex
-		slot0.campIndex = slot3.campIndex
-		slot0.rarityIndex = slot3.rarityIndex
-		slot0.extraIndex = slot3.extraIndex
+		slot0.typeIndex = slot3.typeIndex or ShipIndexConst.TypeAll
+		slot0.campIndex = slot3.campIndex or ShipIndexConst.CampAll
+		slot0.rarityIndex = slot3.rarityIndex or ShipIndexConst.RarityAll
+		slot0.extraIndex = slot3.extraIndex or ShipIndexConst.ExtraAll
 		slot0.commonTag = slot3.commonTag or Ship.PREFERENCE_TAG_NONE
 	else
 		slot0.selectAsc = DockyardScene.selectAsc or false
 		slot0.sortIndex = DockyardScene.sortIndex or ShipIndexConst.SortLevel
-		slot0.typeIndex = DockyardScene.typeIndex and DockyardScene.typeIndex
-		slot0.campIndex = DockyardScene.campIndex and DockyardScene.campIndex
-		slot0.rarityIndex = DockyardScene.rarityIndex and DockyardScene.rarityIndex
-		slot0.extraIndex = DockyardScene.extraIndex and DockyardScene.extraIndex
+		slot0.typeIndex = DockyardScene.typeIndex or ShipIndexConst.TypeAll
+		slot0.campIndex = DockyardScene.campIndex or ShipIndexConst.CampAll
+		slot0.rarityIndex = DockyardScene.rarityIndex or ShipIndexConst.RarityAll
+		slot0.extraIndex = DockyardScene.extraIndex or ShipIndexConst.ExtraAll
 		slot0.commonTag = DockyardScene.commonTag or Ship.PREFERENCE_TAG_NONE
 	end
 
@@ -360,6 +360,7 @@ function slot0.initIndexPanel(slot0)
 			customPanels = {
 				minHeight = 650,
 				sortIndex = {
+					isSort = true,
 					mode = CustomIndexLayer.Mode.OR,
 					options = ShipIndexConst.SortIndexs,
 					names = ShipIndexConst.SortNames

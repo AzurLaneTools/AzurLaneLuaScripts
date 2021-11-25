@@ -5,6 +5,7 @@ slot3 = pg.ship_data_breakout
 slot4 = 3
 slot5 = -10
 slot6 = 2.3
+slot7 = 0.3
 
 function slot0.getUIName(slot0)
 	return "ShipBluePrintUI"
@@ -45,20 +46,11 @@ function slot0.setShipBluePrints(slot0, slot1)
 end
 
 function slot0.updateShipBluePrintVO(slot0, slot1)
-	slot0.bluePrintByIds[slot1.id] = slot1
+	if slot1 then
+		slot0.bluePrintByIds[slot1.id] = slot1
+	end
 
-	slot0:filterBlueprints()
-	setActive(slot0.shipContainer, false)
-
-	slot2 = slot0.itemList
-
-	slot2:align(#slot0.filterBlueprintVOs)
-	setActive(slot0.shipContainer, true)
-	eachChild(slot0.shipContainer, function (slot0)
-		if uv0.contextData.shipBluePrintVO.id == uv0.bluePrintItems[slot0].shipBluePrintVO.id then
-			triggerToggle(slot0, true)
-		end
-	end)
+	slot0:initShips()
 end
 
 function slot0.init(slot0)
@@ -123,9 +115,10 @@ function slot0.init(slot0)
 	slot0.modLevel = slot0:findTF("title/level_bg/Text", slot0.modPanel):GetComponent(typeof(Text))
 	slot0.needLevelTxt = slot0:findTF("title/Text", slot0.modPanel):GetComponent(typeof(Text))
 	slot0.calcPanel = slot0.modPanel:Find("desc/calc_panel")
-	slot0.calcMinBtn = slot0.calcPanel:Find("min")
-	slot0.calcMaxBtn = slot0.calcPanel:Find("max")
-	slot0.calcTxt = slot0.calcPanel:Find("count/Text")
+	slot0.calcMinusBtn = slot0.calcPanel:Find("calc/base/minus")
+	slot0.calcPlusBtn = slot0.calcPanel:Find("calc/base/plus")
+	slot0.calcTxt = slot0.calcPanel:Find("calc/base/count/Text")
+	slot0.calcMaxBtn = slot0.calcPanel:Find("calc/max")
 	slot0.itemInfo = slot0.calcPanel:Find("item_bg")
 	slot0.itemInfoIcon = slot0.itemInfo:Find("icon")
 	slot0.itemInfoCount = slot0.itemInfo:Find("kc")
@@ -143,9 +136,10 @@ function slot0.init(slot0)
 	slot0.prePhaseSlider = slot0:findTF("desc/top/pre_slider", slot0.fittingPanel):GetComponent(typeof(Slider))
 	slot0.fittingNeedMask = slot0:findTF("desc/top/mask", slot0.fittingPanel)
 	slot0.fittingCalcPanel = slot0:findTF("desc/bottom", slot0.fittingPanel)
-	slot0.fittingCalcMinBtn = slot0:findTF("calc/min", slot0.fittingCalcPanel)
+	slot0.fittingCalcMinusBtn = slot0:findTF("calc/base/minus", slot0.fittingCalcPanel)
+	slot0.fittingCalcPlusBtn = slot0:findTF("calc/base/plus", slot0.fittingCalcPanel)
+	slot0.fittingCalcTxt = slot0:findTF("calc/base/count/Text", slot0.fittingCalcPanel)
 	slot0.fittingCalcMaxBtn = slot0:findTF("calc/max", slot0.fittingCalcPanel)
-	slot0.fittingCalcTxt = slot0:findTF("calc/count/Text", slot0.fittingCalcPanel)
 	slot0.fittingItemInfo = slot0:findTF("item_bg", slot0.fittingCalcPanel)
 	slot0.fittingItemInfoIcon = slot0:findTF("icon", slot0.fittingItemInfo)
 	slot0.fittingItemInfoCount = slot0:findTF("kc", slot0.fittingItemInfo)
@@ -180,10 +174,12 @@ function slot0.init(slot0)
 	slot0.previewAttrPanel = slot0:findTF("preview/attrs_panel/attr_panel")
 	slot0.previewAttrContainer = slot0:findTF("content", slot0.previewAttrPanel)
 	slot0.helpBtn = slot0:findTF("helpBtn", slot0.top)
+	slot0.exchangeBtn = slot0:findTF("exchangeBtn", slot0.top)
 	slot0.bottomWidth = slot0.bottomPanel.rect.height
 	slot0.topWidth = slot0.topPanel.rect.height * 2
 	slot0.taskTFs = {}
 	slot0.leanTweens = {}
+	slot0.svQuickExchange = BlueprintQuickExchangeView.New(slot0._tf, slot0.event)
 end
 
 function slot0.didEnter(slot0)
@@ -197,7 +193,7 @@ function slot0.didEnter(slot0)
 		end
 
 		for slot6, slot7 in pairs(slot0.bluePrintByIds) do
-			slot2[slot7.version] = slot2[slot7.version] + (slot7.state == ShipBluePrint.STATE_UNLOCK and 1 or 0)
+			slot2[slot8] = slot2[slot7:getConfig("blueprint_version")] + (slot7.state == ShipBluePrint.STATE_UNLOCK and 1 or 0)
 
 			if slot7.state == ShipBluePrint.STATE_DEV then
 				slot0.contextData.shipBluePrintVO = slot0.contextData.shipBluePrintVO or slot7
@@ -219,6 +215,7 @@ function slot0.didEnter(slot0)
 		end
 	end
 
+	slot0:switchHide()
 	slot0:initShips()
 	onButton(slot0, slot0.speedupBtn, function ()
 		uv0:emit(ShipBluePrintMediator.ON_CLICK_SPEEDUP_BTN)
@@ -252,11 +249,21 @@ function slot0.didEnter(slot0)
 		uv0:closePreview()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.eyeTF, function ()
-		uv0:hideUI()
+		if uv0.isSwitchAnim then
+			return
+		end
+
+		uv0:switchHide()
+		uv0:switchState(uv1, not uv0.flag)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.main, function ()
-		if uv0.flag then
-			uv0:hideUI()
+		if uv0.isSwitchAnim then
+			return
+		end
+
+		if not uv0.flag then
+			uv0:switchHide()
+			uv0:switchState(uv1, not uv0.flag)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
@@ -265,6 +272,11 @@ function slot0.didEnter(slot0)
 			helps = pg.gametip[isActive(uv0.fittingPanel) and "help_shipblueprintui_luck" or "help_shipblueprintui"].tip
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot0.exchangeBtn, function ()
+		uv0.svQuickExchange:Load()
+		uv0.svQuickExchange:ActionInvoke("Show")
+		uv0.svQuickExchange:ActionInvoke("UpdateBlueprint", uv0.contextData.shipBluePrintVO)
+	end)
 
 	slot2 = pg.UIMgr.GetInstance()
 	slot7 = slot0.rightPanel
@@ -297,6 +309,10 @@ function slot0.didEnter(slot0)
 
 	if slot1 > 1 then
 		onButton(slot0, slot0.versionBtn, function ()
+			if uv0.cbTimer then
+				return
+			end
+
 			setActive(uv0.versionPanel, true)
 			pg.UIMgr.GetInstance():BlurPanel(uv0.versionPanel)
 		end, SFX_PANEL)
@@ -332,56 +348,73 @@ function slot0.didEnter(slot0)
 	LeanTween.alpha(rtf(slot0.skillArrRight), 0.25, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 end
 
-slot7 = 0.5
-
-function slot0.hideUI(slot0)
+function slot0.switchHide(slot0)
 	LeanTween.cancel(slot0.bottomPanel)
 	LeanTween.cancel(slot0.topPanel)
 	LeanTween.cancel(slot0.topBg)
-	slot0:switchUI(uv0, slot0.flag)
 
-	slot0.flag = not slot0.flag
-
-	if slot0.flag then
-		LeanTween.moveY(slot0.bottomPanel, -slot0.bottomWidth, uv0)
-		LeanTween.moveY(slot0.topPanel, slot0.topWidth, uv0)
-		LeanTween.moveY(slot0.topBg, slot0.topWidth, uv0)
-	else
+	if not slot0.flag then
 		LeanTween.moveY(slot0.bottomPanel, 0, uv0)
 		LeanTween.moveY(slot0.topPanel, 0, uv0)
 		LeanTween.moveY(slot0.topBg, 0, uv0)
+	else
+		LeanTween.moveY(slot0.bottomPanel, -slot0.bottomWidth, uv0)
+		LeanTween.moveY(slot0.topPanel, slot0.topWidth, uv0)
+		LeanTween.moveY(slot0.topBg, slot0.topWidth, uv0)
 	end
 
-	setActive(slot0.nameTF, not slot0.flag)
-	setActive(slot0.stateInfo, not slot0.flag)
-	setActive(slot0.helpBtn, not slot0.flag)
+	setActive(slot0.nameTF, slot1)
+	setActive(slot0.stateInfo, slot1)
+	setActive(slot0.helpBtn, slot1)
 end
 
-function slot0.switchUI(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot6 = nil
-	slot6 = (slot2 or {
-		-slot0.leftPanle.rect.width - 400,
-		slot0.rightPanel.rect.width + 400,
-		0
-	}) and (slot3 or {
-		0,
-		0,
-		0
-	}) and {
-		-slot0.leftPanle.rect.width - 400,
-		0,
-		-slot0.rightPanel.rect.width / 2
-	}
+function slot0.switchState(slot0, slot1, slot2, slot3, slot4)
+	slot5 = {}
 
+	if slot0.flag then
+		table.insert(slot5, function (slot0)
+			uv0.flag = false
+
+			uv0:switchUI(uv1, {
+				-uv0.leftPanle.rect.width - 400,
+				uv0.rightPanel.rect.width + 400
+			}, slot0)
+		end)
+	end
+
+	table.insert(slot5, function (slot0)
+		existCall(uv0)
+
+		return slot0()
+	end)
+
+	if slot2 then
+		table.insert(slot5, function (slot0)
+			uv0.flag = true
+
+			if uv0.isFate then
+				uv0:switchUI(uv1, {
+					-uv0.leftPanle.rect.width - 400,
+					0,
+					-uv0.rightPanel.rect.width / 2
+				}, slot0)
+			else
+				uv0:switchUI(uv1, {
+					0,
+					0,
+					0
+				}, slot0)
+			end
+		end)
+	end
+
+	seriesAsync(slot5, slot4)
+end
+
+function slot0.switchUI(slot0, slot1, slot2, slot3)
 	LeanTween.cancel(slot0.leftPanle)
 	LeanTween.cancel(slot0.rightPanel)
 	LeanTween.cancel(slot0.centerPanel)
-
-	if slot0.cbTimer then
-		slot0.cbTimer:Stop()
-
-		slot0.cbTimer = nil
-	end
 
 	slot0.isSwitchAnim = true
 
@@ -393,23 +426,16 @@ function slot0.switchUI(slot0, slot1, slot2, slot3, slot4, slot5)
 			LeanTween.moveX(uv0.rightPanel, uv1[2], uv2):setOnComplete(System.Action(slot0))
 		end,
 		function (slot0)
-			LeanTween.moveX(uv0.centerPanel, uv1[3], uv2):setOnComplete(System.Action(slot0))
+			if uv0[3] then
+				LeanTween.moveX(uv1.centerPanel, uv0[3], uv2):setOnComplete(System.Action(slot0))
+			else
+				slot0()
+			end
 		end
 	}, function ()
-		if uv0 then
-			uv1.cbTimer = Timer.New(function ()
-				uv0.cbTimer = nil
-				uv0.isSwitchAnim = false
+		uv0.isSwitchAnim = false
 
-				return existCall(uv1)
-			end, uv0)
-
-			uv1.cbTimer:Start()
-		else
-			uv1.isSwitchAnim = false
-
-			return existCall(uv2)
-		end
+		return uv1()
 	end)
 end
 
@@ -431,6 +457,10 @@ function slot0.createShipItem(slot0, slot1)
 	slot2.toggle = slot3:GetComponent("Toggle")
 	slot2.lvTF = findTF(slot2.tf, "dev_lv")
 	slot2.lvTextTF = findTF(slot2.tf, "dev_lv/Text")
+	slot3 = slot2.tf
+	slot2.fateTF = slot3:Find("fate_lv")
+	slot3 = slot2.tf
+	slot2.fateImageTF = slot3:Find("fate_lv/Image")
 
 	function slot2.update(slot0, slot1, slot2)
 		slot0.toggle.enabled = slot1.id > 0
@@ -442,6 +472,7 @@ function slot0.createShipItem(slot0, slot1)
 			setActive(slot0.maskDev, false)
 			setActive(slot0.tip, false)
 			setActive(slot0.lvTF, false)
+			setActive(slot0.fateTF, false)
 			setActive(slot0.countTxt, false)
 			LoadSpriteAsync("shipdesignicon/empty", function (slot0)
 				if uv0.shipBluePrintVO.id < 0 then
@@ -471,11 +502,20 @@ function slot0.createShipItem(slot0, slot1)
 			setActive(slot0.maskLock, slot1:isLock())
 			setActive(slot0.maskDev, slot1:isDeving())
 			setActive(slot0.tip, slot1:isFinished())
-			setActive(slot0.lvTF, not slot1:isLock() and not slot1:isDeving())
+
+			slot4 = slot1:canFateSimulation()
+
+			setActive(slot0.lvTF, not slot1:isLock() and not slot1:isDeving() and not slot4)
+			setActive(slot0.fateTF, not slot1:isLock() and not slot1:isDeving() and slot4)
+
+			if slot4 then
+				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "icon_phase_" .. slot0.shipBluePrintVO.fateLevel, slot0.fateImageTF, true)
+			end
 		end
 	end
 
 	function slot2.updateSelectedStyle(slot0, slot1)
+		LeanTween.cancel(slot0.iconTF)
 		LeanTween.moveY(slot0.iconTF, slot1 and 0 or -25, 0.1)
 	end
 
@@ -498,36 +538,25 @@ function slot0.initShips(slot0)
 
 				onToggle(uv0, slot2, function (slot0)
 					if slot0 then
-						slot1 = uv0
+						if uv0.cbTimer then
+							uv0.cbTimer:Stop()
 
-						slot1:clearLeanTween()
+							uv0.cbTimer = nil
+						end
+
+						uv0:clearLeanTween()
 
 						uv0.contextData.shipBluePrintVO = uv0.bluePrintItems[uv1].shipBluePrintVO
 
-						function slot1()
-							uv0:setSelectedBluePrint()
-
+						if uv0.nowShipId ~= uv0.contextData.shipBluePrintVO.id then
 							uv0.nowShipId = uv0.contextData.shipBluePrintVO.id
-						end
+							slot1 = uv0
 
-						if uv0.inFlag then
-							if uv0.nowShipId ~= uv0.contextData.shipBluePrintVO.id then
-								slot3 = uv0
-
-								slot3:switchUI(0.3, false, false, function ()
-									uv0()
-									uv1:switchUI(uv2, true, false)
-								end, 0.1)
-							else
-								slot1()
-							end
+							slot1:switchState(uv2, true, function ()
+								uv0:setSelectedBluePrint()
+							end)
 						else
-							slot1()
-
-							uv0.inFlag = true
-							uv0.flag = true
-
-							uv0:hideUI()
+							uv0:setSelectedBluePrint()
 						end
 					end
 
@@ -577,7 +606,7 @@ function slot0.filterBlueprints(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.bluePrintByIds) do
-		if slot6.version == slot0.version then
+		if slot6:getConfig("blueprint_version") == slot0.version then
 			table.insert(slot0.filterBlueprintVOs, slot6)
 
 			slot1 = slot1 + 1
@@ -611,16 +640,27 @@ function slot0.setSelectedBluePrint(slot0)
 	slot2 = slot0.contextData.shipBluePrintVO:isUnlock()
 
 	setActive(slot0.taskListPanel, not slot2)
-	setActive(slot0.fittingPanel, slot2 and isActive(slot0.fittingPanel) and slot0.noUpdateMod)
-	setActive(slot0.modPanel, slot2 and not isActive(slot0.fittingPanel))
 	setActive(slot0.attrDisableBtn, not slot2)
 
 	if slot2 then
+		if not slot1:canFateSimulation() or not pg.NewStoryMgr.GetInstance():IsPlayed(slot1:getConfig("luck_story")) then
+			slot0.isFate = false
+		elseif slot0.isFate == nil then
+			slot0.isFate = true
+		end
+
 		slot0:updateMod()
+		setActive(slot0.taskListPanel, false)
+		setActive(slot0.attrDisableBtn, false)
 	else
+		slot0.isFate = false
+
 		slot0:updateTaskList()
 		triggerToggle(slot0.initBtn, true)
 	end
+
+	setActive(slot0.fittingPanel, slot2 and slot0.isFate)
+	setActive(slot0.modPanel, slot2 and not slot0.isFate)
 
 	if slot1:isDeving() then
 		slot0:emit(ShipBluePrintMediator.ON_CHECK_TAKES, slot1.id)
@@ -993,7 +1033,20 @@ function slot0.updateModPanel(slot0)
 	end
 
 	slot8(slot6)
-	pressPersistTrigger(slot0.calcMinBtn, 0.5, function (slot0)
+
+	slot9 = 0
+	slot10 = Clone(slot1)
+	slot11 = slot1:getItemExp()
+
+	while slot10.level < slot10:getMaxLevel() and slot10:getStrengthenConfig(math.min(slot10.level + 1, slot10:getMaxLevel())).need_lv <= slot2.level do
+		slot9 = slot9 + 1
+
+		slot10:addExp(slot11)
+	end
+
+	slot7 = math.min(slot7, slot9)
+
+	pressPersistTrigger(slot0.calcMinusBtn, 0.5, function (slot0)
 		if uv0:inModAnim() or uv1:isMaxLevel() or uv2 == 0 then
 			if slot0 then
 				slot0()
@@ -1002,12 +1055,12 @@ function slot0.updateModPanel(slot0)
 			return
 		end
 
-		uv2 = math.max(uv2 - 1, 0)
+		uv2 = uv2 - 1
 
 		uv3(uv2)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	pressPersistTrigger(slot0.calcMaxBtn, 0.5, function (slot0)
-		if uv0:inModAnim() or uv1:isMaxLevel() then
+	pressPersistTrigger(slot0.calcPlusBtn, 0.5, function (slot0)
+		if uv0:inModAnim() or uv1:isMaxLevel() or uv2 == uv3 then
 			if slot0 then
 				slot0()
 			end
@@ -1015,35 +1068,20 @@ function slot0.updateModPanel(slot0)
 			return
 		end
 
-		slot4 = Clone(uv1)
+		uv2 = uv2 + 1
 
-		slot4:addExp((uv2 + 1) * uv1:getItemExp())
-
-		if uv3.level < slot4:getStrengthenConfig(math.min(slot4.level + 1, slot4:getMaxLevel())).need_lv and slot2 <= slot4.exp then
-			if slot0 then
-				slot0()
-			end
-
-			return
-		end
-
-		if slot4.level == slot4:getMaxLevel() and slot2 <= slot4.exp then
-			if slot0 then
-				slot0()
-			end
-
-			return
-		end
-
-		uv2 = math.max(math.min(uv2 + 1, uv4), 0)
-
-		uv5(uv2)
+		uv4(uv2)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	(function (slot0)
-		setActive(uv0.calcPanel, not slot0)
-		setActive(uv0.fittingBtn, slot0)
-		setActive(uv0.fittingBtnEffect, false)
-	end)(false)
+	onButton(slot0, slot0.calcMaxBtn, function ()
+		if uv0:inModAnim() or uv1:isMaxLevel() or uv2 == uv3 then
+			return
+		end
+
+		uv2 = uv3
+
+		uv4(uv2)
+	end, SFX_PANEL)
+	setActive(slot0.calcMaxBtn, not slot5)
 
 	if slot1:canFateSimulation() then
 		onButton(slot0, slot0.fittingBtn, function ()
@@ -1051,44 +1089,46 @@ function slot0.updateModPanel(slot0)
 				return
 			end
 
-			slot0 = 0.3
-
 			setActive(uv0.fittingBtnEffect, true)
 
 			uv0.cbTimer = Timer.New(function ()
 				uv0.cbTimer = nil
 
-				uv0:switchUI(uv1, false, true, function ()
-					setActive(uv0.modPanel, false)
-					setActive(uv0.fittingPanel, true)
-					setActive(uv0.fittingBtnEffect, false)
+				setActive(uv0.fittingBtnEffect, false)
+				uv0:switchState(uv1, true, function ()
+					uv0.isFate = true
+
+					setActive(uv0.fittingPanel, uv0.isFate)
+					setActive(uv0.modPanel, not uv0.isFate)
 
 					if not PlayerPrefs.HasKey("first_fate") then
 						triggerButton(uv0.helpBtn)
 						PlayerPrefs.SetInt("first_fate", 1)
 						PlayerPrefs.Save()
 					end
-
-					uv0:switchUI(uv1, true, true)
-				end, 0.1)
+				end)
 			end, 0.6)
 
 			uv0.cbTimer:Start()
 		end, SFX_PANEL)
 		slot0:updateFittingPanel()
 
-		slot10 = pg.NewStoryMgr.GetInstance()
+		slot13 = pg.NewStoryMgr.GetInstance()
 
-		slot10:Play(slot1:getConfig("luck_story"), function (slot0)
-			seriesAsync(slot0 and {
-				function (slot0)
-					uv0:buildStartAni("fateStartWindow", slot0)
-				end
-			} or {}, function ()
-				uv0(true)
-			end)
+		slot13:Play(slot1:getConfig("luck_story"), function (slot0)
+			if slot0 then
+				slot1 = uv0
+
+				slot1:buildStartAni("fateStartWindow", function ()
+					triggerButton(uv0.fittingBtn)
+				end)
+			end
 		end)
 	end
+
+	setActive(slot0.calcPanel, not slot12)
+	setActive(slot0.fittingBtn, slot12)
+	setActive(slot0.fittingBtnEffect, false)
 end
 
 function slot0.updateFittingPanel(slot0)
@@ -1212,13 +1252,27 @@ function slot0.updateFittingPanel(slot0)
 	setText(slot0.fittingAttrPanel:Find("attr/name"), AttributeType.Type2Name(AttributeType.Luck))
 	setText(slot0.fittingPanel:Find("desc/top/text/Text"), i18n("fate_phase_word"))
 	onButton(slot0, slot0.fittingCancelBtn, function ()
-		uv0:switchUI(0.3, false, false, function ()
-			setActive(uv0.modPanel, true)
-			setActive(uv0.fittingPanel, false)
-			uv0:switchUI(uv1, true, false)
-		end, 0.1)
+		uv0:switchState(uv1, true, function ()
+			uv0.isFate = false
+
+			setActive(uv0.fittingPanel, uv0.isFate)
+			setActive(uv0.modPanel, not uv0.isFate)
+		end)
 	end, SFX_PANEL)
-	pressPersistTrigger(slot0.fittingCalcMinBtn, 0.5, function (slot0)
+
+	slot9 = 0
+	slot10 = Clone(slot1)
+	slot11 = slot1:getItemExp()
+
+	while slot10.fateLevel < slot10:getMaxFateLevel() and slot10:getFateStrengthenConfig(math.min(slot10.fateLevel + 1, slot10:getMaxFateLevel())).need_lv <= slot2.level do
+		slot9 = slot9 + 1
+
+		slot10:addExp(slot11)
+	end
+
+	slot7 = math.min(slot7, slot9)
+
+	pressPersistTrigger(slot0.fittingCalcMinusBtn, 0.5, function (slot0)
 		if uv0:inModAnim() or uv1:isMaxFateLevel() or uv2 == 0 then
 			if slot0 then
 				slot0()
@@ -1232,10 +1286,10 @@ function slot0.updateFittingPanel(slot0)
 		uv3(uv2)
 	end, nil, true, true, 0.1, SFX_PANEL)
 
-	slot16 = 0.1
+	slot19 = 0.1
 
-	pressPersistTrigger(slot0.fittingCalcMaxBtn, 0.5, function (slot0)
-		if uv0:inModAnim() or uv1:isMaxFateLevel() then
+	pressPersistTrigger(slot0.fittingCalcPlusBtn, 0.5, function (slot0)
+		if uv0:inModAnim() or uv1:isMaxFateLevel() or uv2 == uv3 then
 			if slot0 then
 				slot0()
 			end
@@ -1243,103 +1297,93 @@ function slot0.updateFittingPanel(slot0)
 			return
 		end
 
-		slot4 = Clone(uv1)
+		uv2 = math.max(math.min(uv2 + 1, uv3), 0)
 
-		slot4:addExp((uv2 + 1) * uv1:getItemExp())
-
-		if uv3.level < slot4:getFateStrengthenConfig(math.min(slot4.fateLevel + 1, slot4:getMaxFateLevel())).need_lv and slot2 <= slot4.exp then
-			if slot0 then
-				slot0()
-			end
-
+		uv4(uv2)
+	end, nil, true, true, slot19, SFX_PANEL)
+	onButton(slot0, slot0.fittingCalcMaxBtn, function ()
+		if uv0:inModAnim() or uv1:isMaxFateLevel() or uv2 == uv3 then
 			return
 		end
 
-		if slot4.fateLevel == slot4:getMaxFateLevel() and slot2 <= slot4.exp then
-			if slot0 then
-				slot0()
-			end
+		uv2 = uv3
 
-			return
-		end
-
-		uv2 = math.max(math.min(uv2 + 1, uv4), 0)
-
-		uv5(uv2)
-	end, nil, true, true, slot16, SFX_PANEL)
+		uv4(uv2)
+	end, SFX_PANEL)
+	setActive(slot0.fittingCalcMaxBtn, not slot5)
 	setActive(slot0.fittingAttrPanel:Find("phase_panel"):Find("phase_tpl"), false)
 
-	slot11 = {
+	slot14 = {
 		0,
 		-60,
 		0,
 		60
 	}
-	slot12 = {}
+	slot15 = {}
 
-	for slot16 = 1, slot1:getMaxFateLevel() do
-		slot17 = slot9:Find("phase_" .. slot16) or cloneTplTo(slot10, slot9, "phase_" .. slot16)
-		slot20 = nil
+	for slot19 = 1, slot1:getMaxFateLevel() do
+		slot20 = slot12:Find("phase_" .. slot19) or cloneTplTo(slot13, slot12, "phase_" .. slot19)
+		slot23 = nil
 
-		for slot24, slot25 in ipairs(slot1:getFateStrengthenConfig(slot16).special_effect) do
-			if slot25[1] == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
-				slot20 = slot25[2][2]
+		for slot27, slot28 in ipairs(slot1:getFateStrengthenConfig(slot19).special_effect) do
+			if slot28[1] == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
+				slot23 = slot28[2][2]
 
 				break
 			end
 		end
 
-		for slot24, slot25 in ipairs({
+		for slot27, slot28 in ipairs({
 			"off",
 			"on"
 		}) do
-			setActive(slot17:Find(slot25 .. "/icon"), not slot20)
-			setActive(slot17:Find(slot25 .. "/skill"), slot20)
-			setActive(slot17:Find(slot25 .. "/icon/line"), slot11[slot16])
-			setActive(slot17:Find(slot25 .. "/skill/line"), slot11[slot16])
+			setActive(slot20:Find(slot28 .. "/icon"), not slot23)
+			setActive(slot20:Find(slot28 .. "/skill"), slot23)
+			setActive(slot20:Find(slot28 .. "/icon/line"), slot14[slot19])
+			setActive(slot20:Find(slot28 .. "/skill/line"), slot14[slot19])
 
-			if slot11[slot16] then
-				slot17:Find(slot25 .. "/icon/line").localEulerAngles = Vector3(0, 0, slot11[slot16])
-				slot17:Find(slot25 .. "/skill/line").localEulerAngles = Vector3(0, 0, slot11[slot16])
+			if slot14[slot19] then
+				slot20:Find(slot28 .. "/icon/line").localEulerAngles = Vector3(0, 0, slot14[slot19])
+				slot20:Find(slot28 .. "/skill/line").localEulerAngles = Vector3(0, 0, slot14[slot19])
 
-				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", slot16 .. "_" .. slot25, slot17:Find(slot25 .. "/icon/icon"), true)
+				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", slot19 .. "_" .. slot28, slot20:Find(slot28 .. "/icon/icon"), true)
 			end
 		end
 
-		if slot20 then
-			GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_" .. slot20, "", slot17:Find("off/skill/icon"), true)
-			GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_on_" .. slot20, "", slot17:Find("on/skill/icon"), true)
+		if slot23 then
+			GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_" .. slot23, "", slot20:Find("off/skill/icon"), true)
+			GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_on_" .. slot23, "", slot20:Find("on/skill/icon"), true)
 
-			slot12[slot16] = 55
+			slot15[slot19] = 55
 		else
-			slot12[slot16] = 40
+			slot15[slot19] = 40
 		end
 
-		onButton(slot0, slot17, function ()
+		onButton(slot0, slot20, function ()
 			uv0:showFittingMsgPanel(uv1)
 		end, SFX_PANEL)
 	end
 
-	slot13 = Vector2.zero
-	slot14 = Vector2.zero
-	slot15 = Vector2.zero
+	slot16 = Vector2.zero
+	slot17 = Vector2.zero
+	slot18 = Vector2.zero
 
-	for slot19 = 1, slot1:getMaxFateLevel() do
-		setAnchoredPosition(slot9:Find("phase_" .. slot19), slot13)
+	for slot22 = 1, slot1:getMaxFateLevel() do
+		setAnchoredPosition(slot12:Find("phase_" .. slot22), slot16)
 
-		slot14.x = math.min(slot14.x, slot13.x)
-		slot14.y = math.min(slot14.y, slot13.y)
-		slot15.x = math.max(slot15.x, slot13.x)
-		slot15.y = math.max(slot15.y, slot13.y)
+		slot17.x = math.min(slot17.x, slot16.x)
+		slot17.y = math.min(slot17.y, slot16.y)
+		slot18.x = math.max(slot18.x, slot16.x)
+		slot18.y = math.max(slot18.y, slot16.y)
 
-		if slot11[slot19] then
-			slot13 = slot13 + (slot12[slot19] + slot12[slot19 + 1]) * Vector2(math.cos(math.pi * slot11[slot19] / 180), math.sin(math.pi * slot11[slot19] / 180))
+		if slot14[slot22] then
+			slot16 = slot16 + (slot15[slot22] + slot15[slot22 + 1]) * Vector2(math.cos(math.pi * slot14[slot22] / 180), math.sin(math.pi * slot14[slot22] / 180))
 		end
 	end
 
-	setSizeDelta(slot9, slot15 - slot14)
-	setAnchoredPosition(slot9, {
-		y = -slot15.y
+	setSizeDelta(slot12, slot18 - slot17)
+	setAnchoredPosition(slot12, {
+		y = -slot18.y
 	})
 	slot8(slot6)
 end
@@ -2122,21 +2166,15 @@ end
 function slot0.onBackPressed(slot0)
 	if isActive(slot0.versionPanel) then
 		triggerButton(slot0.versionPanel:Find("bg"))
-
-		return
-	end
-
-	if slot0.isShowPreview then
+	elseif slot0.isShowPreview then
 		slot0:closePreview(true)
-
-		return
+	elseif slot0.svQuickExchange:isShowing() then
+		slot0.svQuickExchange:Hide()
+	elseif not slot0.awakenPlay then
+		if not slot0:inModAnim() then
+			slot0:emit(uv0.ON_BACK_PRESSED)
+		end
 	end
-
-	if slot0.awakenPlay or slot0:inModAnim() then
-		return
-	end
-
-	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
 function slot0.willExit(slot0)
@@ -2167,6 +2205,14 @@ function slot0.willExit(slot0)
 
 		slot0.previewer = nil
 	end
+
+	if slot0.cbTimer then
+		slot0.cbTimer:Stop()
+
+		slot0.cbTimer = nil
+	end
+
+	slot0.svQuickExchange:Destroy()
 end
 
 function slot0.paintBreath(slot0)

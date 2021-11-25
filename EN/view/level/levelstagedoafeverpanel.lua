@@ -1,6 +1,6 @@
 slot0 = class("LevelStageDOAFeverPanel", import("view.base.BaseSubPanel"))
 
-function slot0.GetUIName(slot0)
+function slot0.getUIName(slot0)
 	return "LevelStageDOAFeverPanel"
 end
 
@@ -25,10 +25,11 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.UpdateView(slot0, slot1, slot2)
-	slot3 = slot1.defeatEnemies
-	slot4 = pg.gameset.doa_fever_count.key_value
-	slot5 = slot3 / slot4
-	slot6 = slot4 <= slot3
+	slot3 = getProxy(ChapterProxy):GetLastDefeatedEnemy(slot1.id)
+	slot4 = slot1.defeatEnemies
+	slot5 = pg.gameset.doa_fever_count.key_value
+	slot6 = slot4 / slot5
+	slot7 = slot5 <= slot4
 
 	seriesAsync({
 		function (slot0)
@@ -89,6 +90,7 @@ function slot0.UpdateView(slot0, slot1, slot2)
 					pg.UIMgr.GetInstance():UnOverlayPanel(uv1.banner, uv1._tf)
 					setActive(uv1.banner, false)
 					uv1.viewParent:emit(LevelUIConst.UN_FROZEN)
+					existCall(uv2)
 				end
 
 				uv0.banner:GetComponent(typeof(DftAniEvent)):SetEndEvent(slot4)

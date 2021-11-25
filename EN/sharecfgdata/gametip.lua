@@ -5067,6 +5067,10 @@ _G.pg.gametip.word_shipNation_link = {
 	tip = "Collab "
 }
 
+_G.pg.gametip.word_shipNation_ssss = {
+	tip = "SSSS"
+}
+
 _G.pg.gametip.word_reset = {
 	tip = "Reset"
 }
@@ -9721,7 +9725,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "Rate UP for Richelieu, Algérie, Le Terrible, and more!"
+	tip = "Rate UP for Rikka Takarada, Akane Shinjo, Yume Minami, and more!"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -17403,7 +17407,6 @@ Once a day, you may perform the following actions once each with Meowfficers ass
 - Feed
 The benefits of whichever action is chosen is then applied to all Meowfficers in all Comf-Forts.
 Putting a new Meowfficer in a Comf-Fort which was the target for one of these actions will not let you redo the actions, nor can you do them again if you take a Meowfficer that was the target for one of these actions and put it into a Comf-Fort that went unused.The benefits of the action you chose will then be applied to the Comf-Fort with the Meowfficer assigned, and that action will become unavailable for the rest of the day.
-Putting a new Meowfficer in a Comf-Fort which was the target for one of these actions will not let you repeat the action, nor can you do it again if you take a Meowfficer that was the target for one of these actions and put it into a Comf-Fort that went unused.
 
 2. The benefits of these actions are as follows:
 - Clean: grants upgrade points for your Comf-Forts.
@@ -18145,15 +18148,15 @@ _G.pg.gametip.map_event_lighthouse_tip_1 = {
 	tip = "Lighthouse controlled. Searchlight support may activate during combat."
 }
 
-_G.pg.gametip.battlepass_main_tip = {
-	tip = "During the campaign season (10/1 - 11/30), complete Cruise Missions to get great rewards, including Fusou META! "
+_G.pg.gametip.battlepass_main_tip_2110 = {
+	tip = "During the campaign season (10/1 – 11/30), complete Cruise Missions to get great rewards, including Fuso META! "
 }
 
 _G.pg.gametip.battlepass_main_time = {
 	tip = "$1 d $2 hr"
 }
 
-_G.pg.gametip.battlepass_main_help = {
+_G.pg.gametip.battlepass_main_help_2110 = {
 	tip = {
 		{
 			info = [[
@@ -18191,7 +18194,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
-_G.pg.gametip.cruise_task_help = {
+_G.pg.gametip.cruise_task_help_2110 = {
 	tip = {
 		{
 			info = [[
@@ -18447,4 +18450,334 @@ _G.pg.gametip.equipment_info_change_text_before = {
 
 _G.pg.gametip.equipment_info_change_text_after = {
 	tip = "After"
+}
+
+_G.pg.gametip.ssss_main_help = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The Grid Academy campaign encompasses the following:
+· A button to jump to the World-Spanning Arclight event stages.
+· A button to jump to the reward banner for collecting Arclight Crystals.
+· An event-exclusive build banner.
+· New outfits in the Shop.
+· The Yume's Journey login reward game.
+· The Grid-juu VS Kai-juu minigame.
+· The SSSS Commemoration furniture piece.
+
+- New Collab Event -
+· This new event will be available between November 25th and December 8th. New event stages will be available during this period. Clearing these stages will reward you with Arclight Crystals.
+· Collecting Arclight Crystals will grant you incremental rewards from the dedicated event banner. They can also be spent on items in the event shop.
+· Clearing certain event stages has a chance of rewarding you with collab-exclusive gear skins, as well the SR aircraft carrier Chise Asukagawa.
+
+- Yume's Journey Info -
+· This minigame will be playable between November 25th and December 8th. Every day upon login in, you'll receive 5 board moves.
+· On the Yume's Journey screen, simply tap the controller on the bottom right corner to make Yume move around the board. You will receive rewards based on the type of tile you land on.
+· Playing this minigame will award you with both Arclight Crystals as well as exclusive furniture.
+
+- Grid-juu VS Kai-juu Info -
+· A new stage of this minigame will be unlocked every day up to December 1st.
+· Completing all 7 stages will give you a new piece of exclusive gear, the Glimmering Bracelet. You can also receive event-exclusive furniture through playing this minigame.
+
+- SSSS Commemoration Info -
+· Complete the assignments on the commemoration page to unlock Siren Data Files.
+· After unlocking every Data File, you'll receive the event-exclusive SSSS Commemoration furniture piece.]]
+		}
+	}
+}
+
+_G.pg.gametip.mini_game_time = {
+	tip = "Time Left:"
+}
+
+_G.pg.gametip.mini_game_score = {
+	tip = "Score:"
+}
+
+_G.pg.gametip.mini_game_leave = {
+	tip = "Quit the game?"
+}
+
+_G.pg.gametip.mini_game_pause = {
+	tip = "Unpause the game?"
+}
+
+_G.pg.gametip.mini_game_cur_score = {
+	tip = "Current Score:"
+}
+
+_G.pg.gametip.mini_game_high_score = {
+	tip = "High Score:"
+}
+
+_G.pg.gametip.monopoly_world_tip1 = {
+	tip = "* Tap to move"
+}
+
+_G.pg.gametip.monopoly_world_tip2 = {
+	tip = "During the event period, you'll receive $1 moves every day.\nTap on the controller to move around the board and collect rewards!\nClear 1 more lap to get:"
+}
+
+_G.pg.gametip.monopoly_world_tip3 = {
+	tip = "During the event period, you'll receive $1 moves every day.\nTap on the controller to move around the board and collect rewards!"
+}
+
+_G.pg.gametip.help_monopoly_world = {
+	tip = {
+		{
+			info = "Rules:"
+		},
+		{
+			info = "1. During this special login campaign, you'll earn 5 chances to move around the game board each day. Landing on different spaces will give different rewards."
+		},
+		{
+			info = "2. In addition to those rewards, you'll get an extra 200 Coins for each lap you complete. Play the event to get limited event furniture and Arclight Crystals."
+		},
+		{
+			info = "    : Awards Coins;",
+			icon = {
+				path = "jinbiworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    : Awards Oil;",
+			icon = {
+				path = "shiyouworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    : Triggers a random board event;",
+			icon = {
+				path = "mingyunworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    : Grants a random reward；",
+			icon = {
+				path = "daojuworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    : Randomly moves your piece forward;",
+			icon = {
+				path = "saicheteshu",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = [[
+Bonus Rewards:
+Lap 1: "Replica Dyna Wing" Furniture, 150 Arclight Crystals;
+Lap 2: "Replica Dyna Diver" Furniture, 150 Arclight Crystals;
+Lap 3: "Replica Dyna Striker" Furniture, 200 Arclight Crystals；
+Lap 4: "Replica Dyna Soldier" Furniture, 250 Arclight Crystals；
+Lap 5: "Replica Dyna Rex" Furniture, 300 Arclight Crystals.]]
+		}
+	}
+}
+
+_G.pg.gametip.ssssmedal_tip = {
+	tip = "Collect Siren data files ($1/12) to earn the SSSS Commemoration!"
+}
+
+_G.pg.gametip.ssssmedal_name = {
+	tip = "<color=#946EFF>Name:</color> "
+}
+
+_G.pg.gametip.ssssmedal_belonging = {
+	tip = "<color=#946EFF>Type:</color> "
+}
+
+_G.pg.gametip.ssssmedal_name1 = {
+	tip = "Augmented Scavenger: Wanderer"
+}
+
+_G.pg.gametip.ssssmedal_name2 = {
+	tip = "Augmented Chaser: Guardian"
+}
+
+_G.pg.gametip.ssssmedal_name3 = {
+	tip = "Augmented Navigator: Invader"
+}
+
+_G.pg.gametip.ssssmedal_name4 = {
+	tip = "Augmented Smasher: Annihilator"
+}
+
+_G.pg.gametip.ssssmedal_name5 = {
+	tip = "Augmented Conductor: Moderator"
+}
+
+_G.pg.gametip.ssssmedal_name6 = {
+	tip = "Purity"
+}
+
+_G.pg.gametip.ssssmedal_belonging1 = {
+	tip = "Enforcer"
+}
+
+_G.pg.gametip.ssssmedal_belonging2 = {
+	tip = "Some higher-up?"
+}
+
+_G.pg.gametip.ssssmedal_desc1 = {
+	tip = "An augmented Scavenger-type Siren, capable of coursing through the waves at high speeds."
+}
+
+_G.pg.gametip.ssssmedal_desc2 = {
+	tip = "An augmented Chaser-type Siren, versatile and boasting well-rounded firepower."
+}
+
+_G.pg.gametip.ssssmedal_desc3 = {
+	tip = "An augmented Navigator-type Siren, sturdier but at the expense of lower maneuverability."
+}
+
+_G.pg.gametip.ssssmedal_desc4 = {
+	tip = "An augmented Smasher-type Siren, equipped with extremely powerful firearms."
+}
+
+_G.pg.gametip.ssssmedal_desc5 = {
+	tip = "An augmented Conductor-type Siren, enhanced with dedicated carrier-based aircraft and anti-air guns."
+}
+
+_G.pg.gametip.ssssmedal_desc6 = {
+	tip = "How many times are you going to lose your memory..."
+}
+
+_G.pg.gametip.show_fate_demand_count = {
+	tip = "Display number required for <color=#92fc63>Fate Simulation</color>."
+}
+
+_G.pg.gametip.show_design_demand_count = {
+	tip = "Display number required for <color=#92fc63>Dev Lv. 30</color>."
+}
+
+_G.pg.gametip.blueprint_select_overflow = {
+	tip = "You already have enough blueprints."
+}
+
+_G.pg.gametip.blueprint_select_overflow_tip = {
+	tip = "You are exchanging for <color=#ff5c5c>$2</color> more <color=#22ff22>$1</color> than you need."
+}
+
+_G.pg.gametip.blueprint_exchange_empty_tip = {
+	tip = "No exchange items currently available."
+}
+
+_G.pg.gametip.blueprint_exchange_select_display = {
+	tip = "Number Selected / Number Needed"
+}
+
+_G.pg.gametip.ssss_game_tip = {
+	tip = {
+		{
+			info = [[
+- Overview -
+
+· In this minigame, you will tap on blocks at the bottom of the screen to make combos and earn as many points as possible within the time limit.
+· A new round will be unlocked every day at midnight until 12/1. Complete them all to obtain rewards such as Gear Skin Boxes, Arclight Crystals, and limited furniture.
+
+- How to Play -
+
+· Tap on a block at the bottom of the screen to erase it, as well as all other blocks of the same color adjacent to it. The remaining blocks will fall to fill in the game space, and if three or more blocks of the same color are adjacent after this, they will all be erased as well.
+· Every time two or more blocks are erased in one move, you will gain points, and the character you control above will attack, have their Special Move gauge fill up, and gain Transformation Gauge corresponding to that color.
+· When the Special Move is fully charged, your character can unleash their Special Move, awarding points.
+· When the Transformation Gauge is fully charged, your character will power up, changing the Special Move and points earned.
+· Erasing blocks while in a Powered-Up state will not fill the Transformation Gauge. The Transformation Gauge will continue to deplete while Powered-Up, and the Powered-Up state will end when the Gauge hits 0.
+· The game ends when the timer reaches 0. You may play the minigame as many times as you want.]]
+		}
+	}
+}
+
+_G.pg.gametip.ssss_medal_tip = {
+	tip = {
+		{
+			info = [[
+- Overview -
+
+· "Akane's Collection" is a special campaign in which you can unlock data files about Siren foes by completing certain achievements. Unlock all the data files to get the exclusive "SSSS Commemoration" furniture.
+
+· You must collect the SSSS Commemoration before 12/15 23:59.]]
+		}
+	}
+}
+
+_G.pg.gametip.battlepass_main_tip_2112 = {
+	tip = "During the campaign season (12/1/2021 - 1/31/2022), complete Cruise Missions to get great rewards, including <color=#854747>Hiyou META</color>."
+}
+
+_G.pg.gametip.battlepass_main_help_2112 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+12/1/2021 0:00 - 1/31/2022 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Hiyou META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Colorado, "Traveling Melody."
+
+- How to Play -
+· Two types of missions will be released simultaneously at the start of the campaign season:
+a) Weekly Missions - Missions are unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions doable for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1,500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts. will reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one sitting. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1,500 Progress Pts. and gain access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because it costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.gametip.cruise_task_help_2112 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released simultaneously at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions doable for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because it costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
 }

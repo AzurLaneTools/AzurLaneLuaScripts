@@ -111,6 +111,22 @@ function slot0.GetVoteBookActivty(slot0)
 	return getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_1) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_2) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_3) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_4) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_5) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_6) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_7) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_8) or slot1:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_9)
 end
 
+function slot0.IsVoteBookAct(slot0, slot1)
+	return _.any({
+		ActivityConst.VOTE_ORDER_BOOK_PHASE_1,
+		ActivityConst.VOTE_ORDER_BOOK_PHASE_2,
+		ActivityConst.VOTE_ORDER_BOOK_PHASE_3,
+		ActivityConst.VOTE_ORDER_BOOK_PHASE_4,
+		ActivityConst.VOTE_ORDER_BOOK_PHASE_5,
+		ActivityConst.VOTE_ORDER_BOOK_PHASE_6,
+		ActivityConst.VOTE_ORDER_BOOK_PHASE_7,
+		ActivityConst.VOTE_ORDER_BOOK_PHASE_8,
+		ActivityConst.VOTE_ORDER_BOOK_PHASE_9
+	}, function (slot0)
+		return uv0 == slot0
+	end)
+end
+
 function slot0.GetVoteActivity(slot0)
 	for slot6, slot7 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_VOTE)) do
 		if slot7:getDataConfig("is_in_game") == 1 then

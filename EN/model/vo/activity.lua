@@ -249,7 +249,7 @@ function slot0.readyToAchieve(slot0)
 			slot4 = ActivityPtData.New(slot0):CanGetAward()
 			slot5 = true
 
-			if slot0.id >= 1020 and slot0.id <= 1027 then
+			if getProxy(VoteProxy):IsVoteBookAct(slot0.id) then
 				slot7 = nil
 
 				if _.detect(pg.activity_vote.all, function (slot0)
@@ -295,13 +295,7 @@ function slot0.readyToAchieve(slot0)
 				end)
 			end
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_MINIGAME then
-			slot4 = getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id"))
-			slot5 = slot4.usedtime
-			slot1 = slot4.count > 0
-
-			if slot0.id == ActivityConst.MUSIC_FESTIVAL_ID or slot0.id == ActivityConst.MUSIC_FESTIVAL_ID_2 then
-				slot1 = (slot4.count ~= 0 or slot4.usedtime == slot4:getConfig("reward_need")) and slot4.ultimate == 0
-			end
+			slot1 = getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")).count > 0 or slot3:getConfig("reward_need") <= slot3.usedtime and slot3.ultimate == 0
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_TURNTABLE then
 			slot3 = pg.activity_event_turning[slot0:getConfig("config_id")]
 
@@ -385,6 +379,12 @@ function slot0.readyToAchieve(slot0)
 				return true
 			end
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_PUZZLA then
+			slot3 = slot0.data1_list
+			slot4 = slot0.data2_list
+			slot1 = _.any(uv0.GetPicturePuzzleIds(slot0.id), function (slot0)
+				return not table.contains(uv0, slot0) and table.contains(uv1, slot0)
+			end)
+
 			if slot0.id == ActivityConst.APRILFOOL_DISCOVERY then
 				slot1 = slot1 or slot0.data1 < 1
 			elseif slot0.id == ActivityConst.APRILFOOL_DISCOVERY_RE then
@@ -613,6 +613,23 @@ function slot0.GetCrusingInfo(slot0)
 		awardPayDic = slot8,
 		phase = slot9
 	}
+end
+
+function slot0.IsActivityReady(slot0)
+	return slot0 and not slot0:isEnd() and slot0:readyToAchieve()
+end
+
+function slot0.isHaveActivableMedal()
+	return uv0.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
+end
+
+function slot0.GetPicturePuzzleIds(slot0)
+	slot1 = pg.activity_event_picturepuzzle[slot0]
+	slot2 = Clone(slot1.pickup_picturepuzzle)
+
+	table.insertto(slot2, slot1.drop_picturepuzzle)
+
+	return slot2
 end
 
 return slot0

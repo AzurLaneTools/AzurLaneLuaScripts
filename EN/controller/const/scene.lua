@@ -14,23 +14,23 @@ SCENE = {
 	SPRING_TOWN = "springfestival town",
 	PLAYER_INFO = "scene player info",
 	SETTINGS = "scene settings",
-	ACT_BOSS_SPF = "act boss spf",
+	BACKYARD_THEME_TEMPLATE = "backyard theme template",
 	CHUZHENG = "scene chuzheng",
 	GETBOAT = "scene get boat",
-	BACKYARD_THEME_TEMPLATE = "backyard theme template",
 	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
+	COLLECTSHIP = "scene collect ship",
 	NAVALACADEMYSCENE = "naval academy scene",
 	ANSWER = "answer",
 	CHARGE = "scene charge",
 	SKINSHOP = "scene skinshop",
 	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	LEVEL = "scene level",
-	COLLECTSHIP = "scene collect ship",
 	CRUSING = "crusing",
-	NEWYEAR_SQUARE = "newyear square",
 	CLASS = "scene class",
-	MUSIC_FESTIVAL = "music festival",
+	NEWYEAR_SQUARE = "newyear square",
 	TECHNOLOGY_TREE_SCENE = "technology tree scene",
+	MUSIC_FESTIVAL = "music festival",
+	MONOPOLY_WORLD = "MONOPOLY WORLD",
 	DAILYLEVEL = "scene dailylevel",
 	MAINUI = "scene mainUI",
 	SHIP_PROFILE = "ship profile",
@@ -38,50 +38,53 @@ SCENE = {
 	DOALINK_ISLAND = "scene DOALink Island",
 	TECHNOLOGY = "technology",
 	TRAININGCAMP = "trainingcamp",
-	REDPACKEY = "scene RED PACKEY",
+	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
 	LINK_LINK = "link link",
 	EQUIPSYNTHESIS = "scene equip synthesis",
-	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
+	ATTIRE = "scene attire",
 	EVENT = "scene event",
 	REFLUX = "reflux",
 	FRIEND = "scene friend",
-	ATTIRE = "scene attire",
+	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
 	BATTLE = "scene battle",
 	PROPINFO = "scene prop info",
-	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
+	AMUSEMENT_PARK = "amusement park",
 	THIRD_ANNIVERSARY_AKIBA = "third anniversary Akiba",
 	VOTE = "scene vote",
 	LOGIN = "scene login",
 	PHYSICS2D_TEST = "physics2d test",
 	NEWGUILD = "scene newguild",
 	MUSIC_FESTIVAL2 = "music festival 2",
-	AMUSEMENT_PARK = "amusement park",
+	GUILD = "scene guild",
 	ACTIVITY = "scene activity",
 	SUMMER_FEAST = "summer feast",
 	BULLETINBOARD = "scene bulletinboard",
-	GUILD = "scene guild",
+	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
 	COMMANDROOM = "scene command room",
 	BACKYARD = "scene back yard",
-	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
-	PUBLIC_GUILD = "public guild",
+	SSSS_ACADEMY = "SSSS ACADEMY",
+	REDPACKEY = "scene RED PACKEY",
 	BIANDUI = "scene biandui",
+	PUBLIC_GUILD = "public guild",
 	RESOLVEEQUIP = "scene resolve equip",
-	CARD_PAIRS = "card pairs",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
-	CREATE_PLAYER = "scene create player",
+	CARD_PAIRS = "card pairs",
 	WORLD_FLEET_SELECT = "world fleet select",
-	SHIPINFO = "scene shipinfo",
-	WORLD_FORMATION = "scene world formation",
+	ACT_BOSS_SPF = "act boss spf",
+	CREATE_PLAYER = "scene create player",
 	COLORING = "scene coloring",
+	SHIPINFO = "scene shipinfo",
 	NAVALTACTICS = "naval tactics",
 	ACT_BOSS_BATTLE = "act boss battle",
 	TRANSITION = "scene transition",
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
 	JIUJIU_EXPEDITION = "jiujiu expedition ",
+	WORLD_FORMATION = "scene world formation",
 	CHALLENGE_MAIN_SCENE = "challenge main scene",
 	BACK_CHARGE = "back charge",
+	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
 	WORLD_COLLECTION = "world collection",
 	SNAPSHOT = "snapshot",
 	SELTECHNOLOGY = "seltechnology",
@@ -381,60 +384,38 @@ function SCENE.SetSceneInfo(slot0, slot1)
 	elseif slot1 == SCENE.CRUSING then
 		slot0.mediator = CrusingMediator
 		slot0.viewComponent = CrusingScene
+	elseif slot1 == SCENE.SSSS_ACADEMY then
+		slot0.mediator = BackHillMediatorTemplate
+		slot0.viewComponent = SSSSLinkAcademyScene
+	elseif slot1 == SCENE.SSSS_ACADEMY then
+		slot0.mediator = BackHillMediatorTemplate
+		slot0.viewComponent = SSSSLinkAcademyScene
+	elseif slot1 == SCENE.MONOPOLY_WORLD then
+		slot0.mediator = MonopolyWorldMediator
+		slot0.viewComponent = MonopolyWorldScene
+	elseif slot1 == SCENE.SSSS_MEDAL_COLLECTION then
+		slot0.mediator = MedalCollectionTemplateMediator
+		slot0.viewComponent = SSSSMedalCollectionView
 	end
 
 	slot0.scene = slot1
 end
 
-slot0 = {
-	login_year = "AssignedShipUI",
-	login_santa = "AssignedShipUI2",
-	shrine_year = "AssignedShipUI3",
-	greeting_year = "AssignedShipUI6"
-}
-
 function SCENE.GetInvitationPage(slot0)
-	slot1 = slot0:getTempCfgTable().open_ui[1]
-	slot2 = uv0[slot1]
+	slot2 = nil
 
-	class("TempAssignedShipScene", import("view.activity.AssignedShipScene")).getUIName = function (slot0)
-		return uv0
-	end
-
-	if slot1 == "greeting_year" then
-		function slot3.init(slot0)
-			uv0.super.init(slot0)
-
-			slot1 = slot0._tf
-			slot0.backBtn = slot1:Find("layer/top/back")
-			slot1 = slot0._tf
-			slot0.rtTitle = slot1:Find("layer/top/title")
-			slot1 = slot0.itemList
-
-			slot1:make(function (slot0, slot1, slot2)
-				slot3 = uv0.shipIdList[slot1 + 1]
-
-				if slot0 == UIItemList.EventUpdate then
-					GetImageSpriteFromAtlasAsync("extra_page/" .. uv0.style .. "/i_" .. slot3, "", slot2:Find("unselected/icon"))
-					GetImageSpriteFromAtlasAsync("extra_page/" .. uv0.style .. "/i_" .. slot3, "", slot2:Find("selected/icon"))
-					onToggle(uv0, slot2, function (slot0)
-						if slot0 and uv0.selectTarget ~= uv1 then
-							LeanTween.cancel(uv0.print)
-
-							if uv0.rtName then
-								LeanTween.cancel(uv0.rtName)
-							end
-
-							uv0:setSelectTarget(uv1)
-						end
-					end, SFX_PANEL)
-				end
-			end)
-		end
+	if slot0.getTempCfgTable(slot0).open_ui[1] == "login_year" then
+		slot2 = AssignedShipScene
+	elseif slot1 == "login_santa" then
+		slot2 = AssignedShipForChristmasScene
+	elseif slot1 == "shrine_year" then
+		slot2 = AssignedShipForShrineScene
+	elseif slot1 == "greeting_year" then
+		slot2 = AssignedShipForGreetingScene
 	end
 
 	return {
 		mediator = AssignedShipMediator,
-		viewComponent = slot3
+		viewComponent = slot2
 	}
 end

@@ -6,7 +6,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.pieceID = slot2
 end
 
-function slot0.GetUIName(slot0)
+function slot0.getUIName(slot0)
 	return "AprilFoolBulinSubView"
 end
 

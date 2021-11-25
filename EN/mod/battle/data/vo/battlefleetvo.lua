@@ -262,12 +262,7 @@ function slot9.RemovePlayerUnit(slot0, slot1)
 			slot0._fleetStaticSonar:RemoveCrewUnit(slot1)
 
 			for slot13, slot14 in ipairs(slot7:GetTorpedoList()) do
-				if slot14:IsAttacking() then
-					slot0:CancelTorpedo()
-				end
-
-				slot0._torpedoWeaponVO:RemoveWeapon(slot14)
-				slot14:Clear()
+				slot0:RemoveManunalTorpedo(slot14)
 			end
 
 			if slot7:GetAirAssistList() then
@@ -812,6 +807,15 @@ function slot9.QuickCastTorpedo(slot0)
 	if slot0._torpedoWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_READY then
 		slot1:Fire(true)
 	end
+end
+
+function slot9.RemoveManunalTorpedo(slot0, slot1)
+	if slot1:IsAttacking() then
+		slot0:CancelTorpedo()
+	end
+
+	slot0._torpedoWeaponVO:RemoveWeapon(slot1)
+	slot1:Clear()
 end
 
 function slot9.CoupleEncourage(slot0)

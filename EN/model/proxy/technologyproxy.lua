@@ -22,10 +22,9 @@ function slot0.register(slot0)
 
 	_.each(pg.ship_data_blueprint.all, function (slot0)
 		slot1 = ShipBluePrint.New({
-			id = slot0,
-			version = pg.ship_data_blueprint[slot0].blueprint_version
+			id = slot0
 		})
-		uv0.maxConfigVersion = math.max(uv0.maxConfigVersion, slot1.version)
+		uv0.maxConfigVersion = math.max(uv0.maxConfigVersion, slot1:getConfig("blueprint_version"))
 		uv0.bluePrintData[slot1.id] = slot1
 		uv0.item2blueprint[slot1:getItemId()] = slot1.id
 	end)

@@ -7014,6 +7014,97 @@ pg.activity_ins_template = {
 			2270
 		}
 	},
+	{
+		ship_group = 1080001,
+		name = "Rikka",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "baoduoliuhua",
+		id = 257,
+		group_id = 257,
+		order = 22,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1080002,
+		name = "Akane",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "qian",
+		id = 258,
+		group_id = 258,
+		order = 22,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1080004,
+		name = "Namiko",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "naimeizi",
+		id = 259,
+		group_id = 259,
+		order = 22,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1080003,
+		name = "Hass",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "lian",
+		id = 260,
+		group_id = 260,
+		order = 22,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1080005,
+		name = "Yume",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "mengya",
+		id = 261,
+		group_id = 261,
+		order = 22,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1080006,
+		name = "Chise",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "qianlai",
+		id = 262,
+		group_id = 262,
+		order = 22,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 1080007,
+		name = "Mujina",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "he",
+		id = 263,
+		group_id = 263,
+		order = 22,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -7270,6 +7361,13 @@ pg.activity_ins_template = {
 		253,
 		254,
 		255,
-		256
+		256,
+		257,
+		258,
+		259,
+		260,
+		261,
+		262,
+		263
 	}
 }

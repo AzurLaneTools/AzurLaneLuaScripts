@@ -133,6 +133,10 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end)
 end
 
+function slot0.IsLoaded(slot0)
+	return slot0.state == uv0.STATE_INITED
+end
+
 function slot0.GetTouchPart(slot0)
 	return slot0.liveCom:GetTouchPart()
 end

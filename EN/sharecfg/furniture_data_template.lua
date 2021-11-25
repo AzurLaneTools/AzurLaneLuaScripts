@@ -4321,6 +4321,52 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[210] = {
+		effect = "",
+		name = "SSSS Commemoration ",
+		gain_by = "World-Spanning Arclight ",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A hologram of the Primal Acceptor floating above a city. Forget about your mundane life and join the union of dreams! Access Slash! – Given to Commanders who participated in the World-Spanning Arclight collab event. ",
+		tag = 6,
+		icon = "gulitexunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 210,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"ssss-az-pv"
+			}
+		},
+		spine = {
+			{
+				"gulitexunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[211] = {
 		effect = "",
 		name = "Shopping Frenzy ",
@@ -5225,6 +5271,89 @@ pg.furniture_data_template = {
 					"Houzhai_yinghua",
 					"action1"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100015] = {
+		effect = "",
+		name = "Box of Surprises",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "What's in it? It's a surprise, obviously!",
+		tag = 6,
+		icon = "yurenheicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		comfortable = 0,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100015,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yurenheB",
+				"normal"
+			},
+			{
+				"yurenheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						"yurenheCharControl",
+						"sit"
+					},
+					{
+						"action2",
+						"yurenheCharControl2",
+						"sit"
+					},
+					{
+						"action3",
+						"yurenheCharControl",
+						"sit"
+					}
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"yurenheCharControl",
+				"yurenheCharControl2"
 			}
 		},
 		interAction_group = {}
@@ -83499,6 +83628,2152 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[84001] = {
+		icon = "dibanglticon",
+		name = "Model City Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 84,
+		picture = "glt/dibanglt",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "It's just a bit fat plane of concrete.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 84001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84002] = {
+		icon = "qiangbiglticon",
+		name = "Model City Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 84,
+		picture = "glt/qiangbiglt",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "The most large-scale wallpaper the port has seen yet.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 84002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84101] = {
+		effect = "",
+		name = "Miniature Railroad",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/diancheglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Not quite the same scale as model enthusiasts are used to.",
+		tag = 1,
+		icon = "diancheglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84101,
+		can_rotate = 0,
+		size = {
+			9,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84102] = {
+		effect = "",
+		name = "Miniature Train Station",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/dianchezhanglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The train is arriving in 5 minutes. The kaiju, in about 10.",
+		tag = 1,
+		icon = "dianchezhanglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84102,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84103] = {
+		effect = "",
+		name = "Miniature Transmission Tower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/dianlitietaglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The arteries of a city's infrastructure.",
+		tag = 1,
+		icon = "dianlitietaglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84103,
+		can_rotate = 0,
+		size = {
+			1,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84104] = {
+		effect = "",
+		name = "Miniature Stores",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/dianmianglt",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Currently closed due to existential threats to the city.",
+		tag = 1,
+		icon = "dianmianglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84106] = {
+		effect = "",
+		name = "Miniature Office Building",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "glt/dudongdalouglt",
+		is_get_time_note = 0,
+		themeId = 84,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The perfect place for a giantess to have a seat.",
+		tag = 1,
+		icon = "dudongdalouglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84106,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0.6,
+					115.6
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84107] = {
+		effect = "",
+		name = "Miniature Public Park",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "glt/gongyuanglt",
+		is_get_time_note = 0,
+		themeId = 84,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Seems like a good place for a final showdown.",
+		tag = 1,
+		icon = "gongyuanglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84107,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"attack",
+				{
+					-28.3,
+					24.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84108] = {
+		effect = "",
+		name = "Ruined Apartment Complexes",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/huailouqunglt",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "♪ Desolation, devastation ♪",
+		tag = 1,
+		icon = "huailouqunglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84108,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84111] = {
+		effect = "",
+		name = "Ruined Houses (Orange)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/huaizhuzhaiaglt",
+		count = 6,
+		is_3d_obj = 0,
+		describe = "♪ What a mess we made ♪",
+		tag = 1,
+		icon = "huaizhuzhaiaglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84117] = {
+		effect = "",
+		name = "Ruined Houses (Blue)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/huaizhuzhaibglt",
+		count = 6,
+		is_3d_obj = 0,
+		describe = "♪ When it all went wrong ♪",
+		tag = 1,
+		icon = "huaizhuzhaibglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84123] = {
+		effect = "",
+		name = "Miniature Lake",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "glt/huglt",
+		is_get_time_note = 0,
+		themeId = 84,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "One man's lake is another shipgirl's swimming pool.",
+		tag = 1,
+		icon = "huglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84123,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-72.1,
+					-44.2
+				},
+				{
+					1,
+					1
+				},
+				"glt/huglt_using",
+				0,
+				{
+					{
+						217,
+						221
+					},
+					{
+						835,
+						636
+					},
+					"glt/huglt_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					21.1,
+					-58.1
+				},
+				{
+					-1,
+					1
+				},
+				"glt/huglt_using",
+				0,
+				{
+					{
+						33,
+						241
+					},
+					{
+						835,
+						636
+					},
+					"glt/huglt_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84124] = {
+		effect = "",
+		name = "Battle Aftermath 3",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/kengaglt",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "A shadow of mass destruction.",
+		tag = 1,
+		icon = "kengaglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84124,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84127] = {
+		effect = "",
+		name = "Battle Aftermath 1",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/kengbglt",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "A shadow of mass destruction.",
+		tag = 1,
+		icon = "kengbglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84127,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84129] = {
+		effect = "",
+		name = "Battle Aftermath 2",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/kengcglt",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "A shadow of mass destruction.",
+		tag = 1,
+		icon = "kengcglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84129,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84132] = {
+		effect = "",
+		name = "Battle Aftermath 4",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/kengdglt",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "A shadow of mass destruction.",
+		tag = 1,
+		icon = "kengdglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84132,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84135] = {
+		effect = "",
+		name = "Battle Aftermath 6",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/kengeglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A shadow of mass destruction.",
+		tag = 1,
+		icon = "kengeglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84135,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84136] = {
+		effect = "",
+		name = "Battle Aftermath 5",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/kengfglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A shadow of mass destruction.",
+		tag = 1,
+		icon = "kengfglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84136,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84137] = {
+		effect = "",
+		name = "Epic Battle Aftermath",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/kenggglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "What happens when a meteor smash goes horribly wrong.",
+		tag = 1,
+		icon = "kenggglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84137,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84138] = {
+		effect = "",
+		name = "Intact Apartment Complexes",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/louqunglt",
+		count = 8,
+		is_3d_obj = 0,
+		describe = "\"I think they're quite simple.\"",
+		tag = 1,
+		icon = "louqunglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84138,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84146] = {
+		effect = "",
+		name = "Short Miniature Road",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/maluaglt",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Look both ways before you crush.",
+		tag = 1,
+		icon = "maluaglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84146,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84149] = {
+		effect = "",
+		name = "Medium Miniature Road",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/malubglt",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Look both ways before you crush.",
+		tag = 1,
+		icon = "malubglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84149,
+		can_rotate = 0,
+		size = {
+			10,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84152] = {
+		effect = "",
+		name = "Long Miniature Road",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/malucglt",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Look both ways before you crush.",
+		tag = 1,
+		icon = "malucglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84152,
+		can_rotate = 0,
+		size = {
+			12,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84155] = {
+		effect = "",
+		name = "Miniature Road Curve 1",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/maluzhuanjiaoaglt",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Look both ways before you crush.",
+		tag = 1,
+		icon = "maluzhuanjiaoaglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84155,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84158] = {
+		effect = "",
+		name = "Miniature Road Curve 2",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/maluzhuanjiaobglt",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Look both ways before you crush.",
+		tag = 1,
+		icon = "maluzhuanjiaobglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84158,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84161] = {
+		effect = "",
+		name = "Miniature Road Curve 3",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/maluzhuanjiaocglt",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Look both ways before you crush.",
+		tag = 1,
+		icon = "maluzhuanjiaocglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84161,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84164] = {
+		effect = "",
+		name = "Papier Mache Hills",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/shanglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Running for these won't get you to safety.",
+		tag = 1,
+		icon = "shanglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84164,
+		can_rotate = 0,
+		size = {
+			9,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84165] = {
+		effect = "",
+		name = "Miniature Swimming Hall",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/shuishangleyuanglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Make a splash while it's still standing.",
+		tag = 1,
+		icon = "shuishangleyuanglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84165,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84166] = {
+		effect = "",
+		name = "Flood Gate Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "glt/shuizhaglt",
+		is_get_time_note = 0,
+		themeId = 84,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "What a nice piece of infrastructure. It'd be a shame if someone sat on it.",
+		tag = 1,
+		icon = "shuizhaglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84166,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0.6,
+					72.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84167] = {
+		effect = "",
+		name = "Farmland Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "glt/tianglt",
+		is_get_time_note = 0,
+		themeId = 84,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Usually you'd sleep IN the fields, not ON them.",
+		tag = 1,
+		icon = "tianglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84167,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					60.7,
+					27.7
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					-24,
+					-24.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84168] = {
+		effect = "",
+		name = "Miniature Campus",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "glt/xuexiaoglt",
+		is_get_time_note = 0,
+		themeId = 84,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Some people certainly wouldn't mind if this was destroyed.",
+		tag = 1,
+		icon = "xuexiaoglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84168,
+		can_rotate = 0,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-135.7,
+					81.7
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					36.3,
+					-42.4
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-10.2,
+					152.7
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84169] = {
+		effect = "",
+		name = "Intact Houses (Orange)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/zhuzhaiaglt",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "This neighborhood is all right... for now.",
+		tag = 1,
+		icon = "zhuzhaiaglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84169,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84171] = {
+		effect = "",
+		name = "Intact Houses (Blue)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/zhuzhaibglt",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "This neighborhood is all right... for now.",
+		tag = 1,
+		icon = "zhuzhaibglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84171,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84173] = {
+		effect = "",
+		name = "Dolly Rail",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "On-rails action.",
+		themeId = 84,
+		icon = "paisheguidaoglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84173,
+		can_rotate = 1,
+		size = {
+			24,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paisheguidao",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[84174] = {
+		effect = "",
+		name = "Greenscreen",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Hopefully they won't rely on it too much.",
+		tag = 1,
+		icon = "lvmuglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		comfortable = 4,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84174,
+		can_rotate = 1,
+		size = {
+			9,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lvmuB",
+				"normal"
+			},
+			{
+				"lvmuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						"lvmuCharcontrol",
+						"dance"
+					},
+					{
+						"action2",
+						"lvmuCharcontrol",
+						"dance"
+					},
+					{
+						"action3",
+						"lvmuCharcontrol",
+						"dance"
+					},
+					{
+						"action4",
+						"lvmuCharcontrol",
+						"dance"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"lvmuCharcontrol"
+			}
+		},
+		interAction_group = {}
+	},
+	[84175] = {
+		effect = "",
+		name = "Replica Gridman Calibur",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/shengjianglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Access Code: Gridman Calibur!\"",
+		tag = 1,
+		icon = "shengjianglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84175,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84176] = {
+		effect = "",
+		name = "Replica Battle Tracto Max",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/tankeglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Access Code: Battle Tracto Max!\"",
+		tag = 1,
+		icon = "tankeglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84176,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84177] = {
+		effect = "",
+		name = "Replica Buster Borr",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/zuantouglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Access Code: Buster Borr!\"",
+		tag = 1,
+		icon = "zuantouglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84177,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84178] = {
+		effect = "",
+		name = "Replica Sky Vitter",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/feijiglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Access Code: Sky Vitter!\"",
+		tag = 1,
+		icon = "feijiglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84178,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84179] = {
+		effect = "",
+		name = "Replica Dyna Soldier",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/zhanlongglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Access Mode: Dyna Soldier!\"",
+		tag = 1,
+		icon = "zhanlongglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84179,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84180] = {
+		effect = "",
+		name = "Replica Dyna Wing",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/feiyiglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Access Mode: Dyna Wing!\"",
+		tag = 1,
+		icon = "feiyiglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84180,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84181] = {
+		effect = "",
+		name = "Replica Dyna Diver",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/qianzhouglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Access Mode: Dyna Diver!\"",
+		tag = 1,
+		icon = "qianzhouglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84181,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84182] = {
+		effect = "",
+		name = "Replica Dyna Rex",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/rexglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Access Mode: Dyna Rex!\"",
+		tag = 1,
+		icon = "rexglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84182,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84183] = {
+		effect = "",
+		name = "Replica Dyna Striker",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/jicheglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Access Mode: Dyna Striker!\"",
+		tag = 1,
+		icon = "jicheglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84183,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84184] = {
+		effect = "",
+		name = "Max Potential Grid-juu Model",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Get in the damn mech. Peep.",
+		themeId = 84,
+		icon = "hetiglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84184,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"quannenggltB",
+				"normal"
+			},
+			{
+				"quannenggltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					2.4,
+					45
+				},
+				{
+					100,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84185] = {
+		effect = "",
+		name = "Kaiser Gridknight Manjuu Model",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You want to know how ultimate power feels like?",
+		themeId = 84,
+		icon = "diwangglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84185,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diwanggltB",
+				"normal"
+			},
+			{
+				"diwanggltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						nil,
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-2,
+					45
+				},
+				{
+					100,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84186] = {
+		effect = "",
+		name = "Kai-juu Model",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Oh god, this one has feet...",
+		themeId = 84,
+		icon = "guaishouglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84186,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guaishougltB",
+				"normal"
+			},
+			{
+				"guaishougltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					4.6,
+					36.3
+				},
+				{
+					100,
+					80
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84301] = {
+		effect = "",
+		name = "\"Epic Battle\" Painting",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 84,
+		is_get_time_note = 0,
+		picture = "glt/chuangglt",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Grid-juu versus Kai-juu. Who will win?",
+		tag = 5,
+		icon = "chuangglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 84301,
+		can_rotate = 0,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -83591,6 +85866,7 @@ pg.furniture_data_template = {
 		206,
 		208,
 		209,
+		210,
 		211,
 		100002,
 		100003,
@@ -83603,6 +85879,7 @@ pg.furniture_data_template = {
 		100010,
 		100011,
 		100014,
+		100015,
 		100016,
 		100018,
 		100019,
@@ -85392,6 +87669,54 @@ pg.furniture_data_template = {
 		83116,
 		83117,
 		83118,
-		83119
+		83119,
+		84001,
+		84002,
+		84101,
+		84102,
+		84103,
+		84104,
+		84106,
+		84107,
+		84108,
+		84111,
+		84117,
+		84123,
+		84124,
+		84127,
+		84129,
+		84132,
+		84135,
+		84136,
+		84137,
+		84138,
+		84146,
+		84149,
+		84152,
+		84155,
+		84158,
+		84161,
+		84164,
+		84165,
+		84166,
+		84167,
+		84168,
+		84169,
+		84171,
+		84173,
+		84174,
+		84175,
+		84176,
+		84177,
+		84178,
+		84179,
+		84180,
+		84181,
+		84182,
+		84183,
+		84184,
+		84185,
+		84186,
+		84301
 	}
 }

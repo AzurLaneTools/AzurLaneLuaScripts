@@ -111,7 +111,7 @@ function slot0.TryShowMonthCardTipPanel(slot0)
 	slot1()
 end
 
-function slot0.GetUIName(slot0)
+function slot0.getUIName(slot0)
 	return "Msgbox4MonthCardTip"
 end
 

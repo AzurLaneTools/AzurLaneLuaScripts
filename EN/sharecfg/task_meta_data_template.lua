@@ -219,7 +219,7 @@ pg.task_meta_data_template = {
 	[121] = {
 		target_id_2 = "970501",
 		sub_type = 180,
-		desc = "Win 1 battle with Fusou META in your fleet.",
+		desc = "Win 1 battle with Fuso META in your fleet.",
 		id = 121,
 		target_num = 1,
 		target_id = "0"
@@ -227,7 +227,7 @@ pg.task_meta_data_template = {
 	[122] = {
 		target_id_2 = "970501",
 		sub_type = 180,
-		desc = "Defeat a Lv. 30+ fleet with Fusou META in your fleet.",
+		desc = "Defeat a Lv. 30+ fleet with Fuso META in your fleet.",
 		id = 122,
 		target_num = 1,
 		target_id = "30"
@@ -235,7 +235,7 @@ pg.task_meta_data_template = {
 	[123] = {
 		target_id_2 = "970501",
 		sub_type = 180,
-		desc = "Defeat a Lv. 55+ fleet with Fusou META in your fleet.",
+		desc = "Defeat a Lv. 55+ fleet with Fuso META in your fleet.",
 		id = 123,
 		target_num = 1,
 		target_id = "55"
@@ -243,7 +243,7 @@ pg.task_meta_data_template = {
 	[124] = {
 		target_id_2 = "970501",
 		sub_type = 180,
-		desc = "Defeat a Lv. 80+ fleet with Fusou META in your fleet.",
+		desc = "Defeat a Lv. 80+ fleet with Fuso META in your fleet.",
 		id = 124,
 		target_num = 1,
 		target_id = "80"
@@ -251,8 +251,48 @@ pg.task_meta_data_template = {
 	[125] = {
 		target_id_2 = "970501",
 		sub_type = 180,
-		desc = "Defeat a Lv. 100+ fleet with Fusou META in your fleet.",
+		desc = "Defeat a Lv. 100+ fleet with Fuso META in your fleet.",
 		id = 125,
+		target_num = 1,
+		target_id = "100"
+	},
+	[126] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "Win 1 battle with Hiyou META in your fleet.",
+		id = 126,
+		target_num = 1,
+		target_id = "0"
+	},
+	[127] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Hiyou META in your fleet.",
+		id = 127,
+		target_num = 1,
+		target_id = "30"
+	},
+	[128] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Hiyou META in your fleet.",
+		id = 128,
+		target_num = 1,
+		target_id = "55"
+	},
+	[129] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Hiyou META in your fleet.",
+		id = 129,
+		target_num = 1,
+		target_id = "80"
+	},
+	[130] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Hiyou META in your fleet.",
+		id = 130,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -387,7 +427,7 @@ pg.task_meta_data_template = {
 	[216] = {
 		target_id_2 = "970501",
 		sub_type = 302,
-		desc = "Win 1 Operation Siren battle with Fusou META in your fleet.",
+		desc = "Win 1 Operation Siren battle with Fuso META in your fleet.",
 		id = 216,
 		target_num = 1,
 		target_id = "0"
@@ -395,7 +435,7 @@ pg.task_meta_data_template = {
 	[217] = {
 		target_id_2 = "970501",
 		sub_type = 302,
-		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Fusou META in your fleet.",
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Fuso META in your fleet.",
 		id = 217,
 		target_num = 1,
 		target_id = "70"
@@ -403,7 +443,7 @@ pg.task_meta_data_template = {
 	[218] = {
 		target_id_2 = "970501",
 		sub_type = 302,
-		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Fusou META in your fleet.",
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Fuso META in your fleet.",
 		id = 218,
 		target_num = 1,
 		target_id = "90"
@@ -411,8 +451,40 @@ pg.task_meta_data_template = {
 	[219] = {
 		target_id_2 = "970501",
 		sub_type = 302,
-		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Fusou META in your fleet.",
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Fuso META in your fleet.",
 		id = 219,
+		target_num = 1,
+		target_id = "100"
+	},
+	[220] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Hiyou META in your fleet.",
+		id = 220,
+		target_num = 1,
+		target_id = "0"
+	},
+	[221] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Hiyou META in your fleet.",
+		id = 221,
+		target_num = 1,
+		target_id = "70"
+	},
+	[222] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Hiyou META in your fleet.",
+		id = 222,
+		target_num = 1,
+		target_id = "90"
+	},
+	[223] = {
+		target_id_2 = "970501",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Hiyou META in your fleet.",
+		id = 223,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -465,6 +537,11 @@ pg.task_meta_data_template = {
 		123,
 		124,
 		125,
+		126,
+		127,
+		128,
+		129,
+		130,
 		200,
 		201,
 		202,
@@ -485,6 +562,10 @@ pg.task_meta_data_template = {
 		217,
 		218,
 		219,
+		220,
+		221,
+		222,
+		223,
 		301,
 		302
 	}

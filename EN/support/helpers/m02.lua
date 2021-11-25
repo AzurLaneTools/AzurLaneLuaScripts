@@ -324,6 +324,8 @@ function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
 	slot8:GetPainting(slot1, true, function (slot0)
 		if IsNil(uv0) or uv1[uv0] ~= uv2 then
 			PoolMgr.GetInstance():ReturnPainting(uv2, slot0)
+
+			return
 		else
 			setParent(slot0, uv3, false)
 

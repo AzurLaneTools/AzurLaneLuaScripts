@@ -1167,5 +1167,21 @@ pg.voice_actor_CN = {
 	{
 		code = 292,
 		actor_name = "Shimada Aino"
+	},
+	{
+		code = 293,
+		actor_name = "Miyamoto Yume "
+	},
+	{
+		code = 294,
+		actor_name = "Mimori Suzuko "
+	},
+	{
+		code = 295,
+		actor_name = "Wakayama Shion"
+	},
+	{
+		code = 296,
+		actor_name = "Anzai Chika "
 	}
 }
