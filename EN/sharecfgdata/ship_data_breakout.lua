@@ -34730,7 +34730,7 @@ _G.pg.ship_data_breakout[10800054] = {
 
 _G.pg.ship_data_breakout[10800061] = {
 	use_gold = 1000,
-	breakout_view = "s",
+	breakout_view = "All Dive Bombers +1/Torpedo Bomber efficiency +5%",
 	use_char_num = 1,
 	use_char = 1080006,
 	breakout_id = 10800062,

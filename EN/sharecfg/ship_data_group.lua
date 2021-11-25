@@ -20747,7 +20747,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"Event: Cruise Missions",
 				{
 					"METACHARACTER",
 					{
