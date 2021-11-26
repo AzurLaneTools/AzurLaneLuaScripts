@@ -1627,6 +1627,11 @@ function slot57(slot0, slot1, slot2)
 			slot0._bgBackCanvas.alpha = 1
 			slot0._bgFrontCanvas.alpha = 1
 			slot0._bgBeamCanvas.alpha = 0
+
+			setActive(slot0._box, true)
+			setActive(slot0._specialPower, true)
+			setActive(slot0._successPower, true)
+			setActive(slot0._top, true)
 		end,
 		clear = function (slot0)
 			if LeanTween.isTweening(go(slot0._sceneTf)) then
