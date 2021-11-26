@@ -84,7 +84,7 @@ return {
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等等，你们把本净化亲置于何地啊！现在已经开始上课了，给我快乖乖回座位上去！",
+			say = "等等，你们把本净化亲置于何地啊！现在已经开始上课了，快给我乖乖回座位上去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

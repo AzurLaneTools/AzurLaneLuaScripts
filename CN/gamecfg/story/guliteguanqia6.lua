@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "关于这一点的，你们那边也有明白情况的人，就让她替你们说明好了。",
+			say = "关于这一点，你们那边也有明白情况的人，就让她替你们说明好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "现在的状况和一个提案有关，虽然结果而言我好像也被它们摆了一道呢，嘿嘿~",
+			say = "现在的状况和一个提案有关，虽然就结果而言我好像也被它们摆了一道呢，嘿嘿~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,

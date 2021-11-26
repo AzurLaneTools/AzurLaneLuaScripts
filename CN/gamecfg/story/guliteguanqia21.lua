@@ -177,7 +177,7 @@ return {
 			actor = 900233,
 			actorName = "净化亲（巨大）",
 			hidePaintObj = true,
-			say = "噢~茜也能体会到这幅巨大身躯带来的魅力啊！",
+			say = "噢~茜也能体会到这副巨大身躯带来的魅力啊！",
 			actorPosition = {
 				x = 150,
 				y = -400

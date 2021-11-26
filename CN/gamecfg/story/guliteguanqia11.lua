@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "竟是些奇奇怪怪的设定啊……分给我的居然是劣等生，怎么看都不像吧！",
+			say = "尽是些奇奇怪怪的设定啊……分给我的居然是劣等生，怎么看都不像吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "所以才能加工的速度如此之快……除了这些资料之外你还看到什么了？",
+			say = "所以加工的速度才能如此之快……除了这些资料之外你还看到什么了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

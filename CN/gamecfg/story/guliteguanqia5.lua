@@ -305,7 +305,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "听到了么，这就是近距离开火炮的声音！",
+			say = "听到了么，这就是近距离开火的声音！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "用敌人的力量增强我们的战力，这倒是个好注意啊！",
+			say = "用敌人的力量增强我们的战力，这倒是个好主意啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "剩下的就没看那么仔细啦！看到被大怪兽列成第一优消灭目标的时候已经够恐怖了！",
+			say = "剩下的就没看那么仔细啦！看到被大怪兽列成第一优消灭目标的时候就已经够恐怖了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

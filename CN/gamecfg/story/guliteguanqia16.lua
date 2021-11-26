@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "失去了突袭的优势，接下来的战斗可能会对出现本应避免的损伤，这种情况要怎么算？",
+			say = "失去了突袭的优势，接下来的战斗可能会出现本应避免的损伤，这种情况要怎么算？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

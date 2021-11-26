@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "长岛扫货太勤快了……不过今天刚好来了一批新货。这次进货量很充足，肯定有你会想要的喵！",
+			say = "长岛扫货太勤快了……不过今天刚好来了一批新货。这次进货量很充足，肯定会有你想要的喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -940,7 +940,7 @@ return {
 			bgName = "star_level_bg_148",
 			dir = 1,
 			blackBg = true,
-			say = "经历了愉快的小插曲后，茜与六花采购之旅顺利结束了。",
+			say = "经历了愉快的小插曲后，茜与的六花采购之旅顺利结束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
