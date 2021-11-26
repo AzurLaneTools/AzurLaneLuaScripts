@@ -6394,6 +6394,57 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100031] = {
+		spine_extra = "",
+		describe = "천고마비의 계절, 단풍 구경하기 딱 좋아요~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "autumnboxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "쥬쥬 날씨 상자(가을)",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100031,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"autumnbox",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"Houzhai_shuye",
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		spine_extra = "",
 		describe = "닿는 곳이 너덜너덜하게 닳은 플로링. 발밑 주의.",
@@ -90480,6 +90531,7 @@ pg.furniture_data_template = {
 		100028,
 		100029,
 		100030,
+		100031,
 		1001,
 		1002,
 		1101,
