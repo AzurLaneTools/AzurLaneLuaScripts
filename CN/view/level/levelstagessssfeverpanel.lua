@@ -168,7 +168,7 @@ function slot0.UpdateKaijuBar(slot0, slot1)
 		slot10 = slot0.PanelAnimations
 
 		slot10:Insert(function (slot0)
-			uv0:ShowPanel(uv1, "Kaiju", slot0)
+			uv0:ShowPanel(uv1, "Kaiju", slot0, uv1 == "he" and "" or "2")
 		end)
 	end
 end
@@ -217,33 +217,35 @@ function slot0.UpdateSyberSquadBar(slot0, slot1)
 	end
 end
 
-function slot0.ShowPanel(slot0, slot1, slot2, slot3)
+function slot0.ShowPanel(slot0, slot1, slot2, slot3, slot4)
 	slot0:emit(LevelUIConst.FROZEN)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.banner)
 
-	slot4 = pg.UIMgr.GetInstance()
+	slot5 = slot0.banner:Find(slot2)
+	slot6 = slot5:Find("Character")
 
-	slot4:BlurPanel(slot0.banner)
-
-	slot4 = slot0.banner
-	slot4 = slot4:Find(slot2)
-	slot5 = slot4:Find("Character")
-	slot7 = slot0.loader
-
-	slot7:GetSprite("ui/LevelStageSSSSFeverPanel_atlas", slot1, slot5, true)
+	slot0.loader:GetSprite("ui/LevelStageSSSSFeverPanel_atlas", slot1, slot6, true)
 	setActive(slot0.banner, true)
-	setActive(slot4, true)
+	setActive(slot5, true)
 
-	slot5:GetComponent(typeof(Image)).enabled = true
-	slot7 = slot4:GetComponent(typeof(DftAniEvent))
-	slot8 = nil
+	slot6:GetComponent(typeof(Image)).enabled = true
 
-	function slot9()
+	if slot4 ~= nil then
+		setActive(slot5:Find("Word"), false)
+		setActive(slot5:Find("Word2"), false)
+		setActive(slot5:Find("Word" .. slot4), true)
+	end
+
+	slot8 = slot5:GetComponent(typeof(DftAniEvent))
+	slot9 = nil
+
+	function slot10()
 		uv0()
 		existCall(uv1)
 	end
 
-	slot7:SetEndEvent(slot9)
-	onButton(slot0, slot0.banner, slot9)
+	slot8:SetEndEvent(slot10)
+	onButton(slot0, slot0.banner, slot10)
 	table.insert(slot0.cleanActions, function ()
 		table.removebyvalue(uv0.cleanActions, uv1)
 		uv2:SetEndEvent(nil)

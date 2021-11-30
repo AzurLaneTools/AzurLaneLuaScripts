@@ -126,7 +126,7 @@ function slot0.PlayBGM(slot0)
 end
 
 function slot0.SwitchToDefaultBGM(slot0)
-	slot1 = slot0:getBGM() or pg.voice_bgm.MainUI.bgm
+	slot1 = slot0:getBGM() or (not pg.UIMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.MainUI.default_bgm) and pg.voice_bgm.MainUI.bgm
 
 	playBGM(slot1)
 

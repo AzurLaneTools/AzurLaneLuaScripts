@@ -115567,7 +115567,7 @@ _G.pg.equip_data_statistics[89293] = {
 
 _G.pg.equip_data_statistics[89300] = {
 	type = 10,
-	name = "征战巨坦 ",
+	name = "征战巨坦",
 	speciality = "无",
 	tech = 0,
 	value_2 = 6,
@@ -115885,7 +115885,7 @@ _G.pg.equip_data_statistics[89333] = {
 
 _G.pg.equip_data_statistics[89340] = {
 	type = 10,
-	name = "爆裂钻孔机 ",
+	name = "爆裂钻孔机",
 	speciality = "无",
 	tech = 0,
 	value_2 = 0,

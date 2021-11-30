@@ -2558,7 +2558,7 @@ function slot0.openMenuUI(slot0)
 	setActive(slot0.selectedUI, false)
 	slot0:updateMenuUI()
 
-	if slot0.bgm ~= (slot0:getBGM() or pg.voice_bgm.MainUI.bgm) then
+	if slot0.bgm ~= (slot0:getBGM() or (not pg.UIMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.MainUI.default_bgm) and pg.voice_bgm.MainUI.bgm) then
 		slot0.bgm = slot1
 
 		playBGM(slot1)
