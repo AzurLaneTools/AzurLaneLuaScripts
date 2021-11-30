@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔………誒………我這是在…教室？",
+			say = "唔………欸………我這是在…教室？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			actorName = "像教師的人",
 			side = 2,
-			say = "回答正確……？難道是昨晚熬夜學習才這麼睏的嬤，不論如何，也不要上課睡覺哦，快請坐下吧。",
+			say = "回答正確……？難道是昨晚熬夜學習才這麼睏的嗎，不論如何，也不要上課睡覺哦，快請坐下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

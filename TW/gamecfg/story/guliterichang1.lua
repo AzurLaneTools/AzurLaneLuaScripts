@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我不是很懂粘土啦，不過這麼多應該有妳想買的那種吧？",
+			say = "我不是很懂黏土啦，不過這麼多應該有妳想買的那種吧？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "嗯~這裡的粘土種類很多，真是太好了~",
+			say = "嗯~這裡的黏土種類很多，真是太好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

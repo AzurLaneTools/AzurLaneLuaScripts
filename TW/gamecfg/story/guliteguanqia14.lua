@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你們在原先的世界不是在和怪獸戰鬥嗎，卻也能和怪獸成為同伴？",
+			say = "妳們在原先的世界不是在和怪獸戰鬥嗎，卻也能和怪獸成為同伴？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

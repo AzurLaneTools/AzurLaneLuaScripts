@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是正常的玩法，夢芽小姐放心啦~而且也不是在海面上，你看前面~",
+			say = "就是正常的玩法，夢芽小姐放心啦~而且也不是在海面上，妳看前面~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原來你們想玩一二三木頭人是因為……總之也太突然了吧！還以為真的要回不去了……",
+			say = "原來妳們想玩一二三木頭人是因為……總之也太突然了吧！還以為真的要回不去了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

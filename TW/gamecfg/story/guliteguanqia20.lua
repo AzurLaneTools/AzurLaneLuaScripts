@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "這次你妹妹不在，不正好是展現你自己的時候？",
+			say = "這次妳妹妹不在，不正好是展現妳自己的時候？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

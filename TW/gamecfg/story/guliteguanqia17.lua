@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "貉，投降吧，你已經被我們包圍了！",
+			say = "貉，投降吧，妳已經被我們包圍了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

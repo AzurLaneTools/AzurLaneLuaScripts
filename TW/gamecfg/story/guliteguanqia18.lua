@@ -802,7 +802,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "切……你們說的對，不能跟底細不明的敵人硬拼，準備撤退吧！",
+			say = "切……妳們說的對，不能跟底細不明的敵人硬拼，準備撤退吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

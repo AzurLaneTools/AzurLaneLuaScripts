@@ -439,7 +439,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是，如果真的是那麼厲害的淨化者，為什麼她在被抓之後會老老實實呆在這裡不反抗呢。",
+			say = "可是，如果真的是那麼厲害的淨化者，為什麼她在被抓之後會老老實實待在這裡不反抗呢。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,

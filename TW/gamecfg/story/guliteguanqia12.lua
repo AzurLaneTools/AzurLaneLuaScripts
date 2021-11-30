@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你們猜是誰！",
+			say = "妳們猜是誰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放她一個人在外面也許會出危險。現在我們的戰鬥力充足，就在城市裏分頭搜索吧。",
+			say = "放她一個人在外面也許會出危險。現在我們的戰鬥力充足，就在城市裡分頭搜索吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
