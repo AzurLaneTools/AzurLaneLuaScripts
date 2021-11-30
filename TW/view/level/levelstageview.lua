@@ -660,7 +660,7 @@ end
 function slot0.updateFleetBuff(slot0)
 	slot1 = slot0.contextData.chapterVO
 	slot2 = slot1.fleet
-	slot3 = slot1:GetShowingStartegies()
+	slot3 = slot1:GetShowingStrategies()
 	slot4 = {}
 
 	if slot1:GetSubmarineFleet() and _.filter(slot5:getStrategies(), function (slot0)
@@ -693,24 +693,34 @@ function slot0.updateFleetBuff(slot0)
 		setActive(findTF(slot2, "times"), false)
 
 		if slot0 == UIItemList.EventUpdate then
+			slot3 = GetComponent(slot2, typeof(LayoutElement))
+			slot3.preferredWidth = 64
+			slot3.preferredHeight = 64
+
 			if slot1 + 1 <= #uv0 then
-				slot4 = pg.strategy_data_template[uv0[slot1 + 1]]
+				slot5 = pg.strategy_data_template[uv0[slot1 + 1]]
 
-				GetImageSpriteFromAtlasAsync("strategyicon/" .. slot4.icon, "", slot2)
+				GetImageSpriteFromAtlasAsync("strategyicon/" .. slot5.icon, "", slot2)
 
-				slot5 = nil
+				slot6 = nil
 
-				if slot4.type == ChapterConst.StgTypeBindFleetPassive then
+				if slot5.type == ChapterConst.StgTypeBindFleetPassive then
 					setActive(findTF(slot2, "times"), true)
-					setText(findTF(slot2, "times"), uv1:GetStrategyCount(slot3))
+					setText(findTF(slot2, "times"), uv1:GetStrategyCount(slot4))
+				end
+
+				if slot5.iconSize ~= "" then
+					slot3.preferredWidth = slot7[1]
+					slot3.preferredHeight = slot7[2]
 				end
 
 				onButton(uv2, slot2, function ()
 					uv0:HandleShowMsgBox({
 						showOwned = true,
+						yesText = "text_confirm",
+						iconPreservedAspect = true,
 						hideNo = true,
 						content = "",
-						yesText = "text_confirm",
 						type = MSGBOX_TYPE_SINGLE_ITEM,
 						drop = {
 							type = DROP_TYPE_STRATEGY,
@@ -743,13 +753,14 @@ function slot0.updateFleetBuff(slot0)
 			end
 
 			if slot1 - #uv3 + 1 <= #uv4 then
-				slot3 = uv4[slot1 + 1]
+				slot4 = uv4[slot1 + 1]
 
-				GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot3.id].icon, "", slot2)
+				GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot4.id].icon, "", slot2)
 				setActive(findTF(slot2, "times"), true)
-				setText(findTF(slot2, "times"), slot3.count)
+				setText(findTF(slot2, "times"), slot4.count)
 				onButton(uv2, slot2, function ()
 					uv0:HandleShowMsgBox({
+						iconPreservedAspect = true,
 						hideNo = true,
 						content = "",
 						yesText = "text_confirm",
@@ -784,10 +795,10 @@ function slot0.updateFleetBuff(slot0)
 				return
 			end
 
-			slot3 = uv6[slot1 - uv5 + 1]
+			slot4 = uv6[slot1 - uv5 + 1]
 
-			GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot3:getConfig("icon"), "", slot2)
-			setText(findTF(slot2, "Text"), "Lv." .. slot3:getConfig("lv"))
+			GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot4:getConfig("icon"), "", slot2)
+			setText(findTF(slot2, "Text"), "Lv." .. slot4:getConfig("lv"))
 			setActive(findTF(slot2, "Text"), true)
 			setActive(findTF(slot2, "frame"), true)
 			onButton(uv2, slot2, function ()
@@ -923,23 +934,26 @@ function slot0.UpdateComboPanel(slot0)
 end
 
 slot2 = {
-	[777.0] = "LevelStageDOAFeverPanel",
-	[40385.0] = "LevelStageIMasFeverPanel"
+	[ActivityConst.DOA_MAP_ACT_ID] = "LevelStageDOAFeverPanel",
+	[ActivityConst.IDOL_MASTER_CHAPTER_ID] = "LevelStageIMasFeverPanel",
+	[ActivityConst.SSSS_MAP_ACT_ID] = "LevelStageSSSSFeverPanel"
 }
 
-function slot0.UpdateDOALinkFeverPanel(slot0)
-	if slot0.contextData.chapterVO:getPlayType() ~= ChapterConst.TypeDOALink then
+function slot0.UpdateDOALinkFeverPanel(slot0, slot1)
+	if not uv0[slot0.contextData.chapterVO:getConfig("act_id")] then
+		existCall(slot1)
+
 		return
 	end
 
-	slot4, slot5 = slot0:GetSubView(uv0[slot1:getConfig("act_id")])
+	slot5, slot6 = slot0:GetSubView(slot4)
 
-	if slot5 then
-		slot4:Load()
-		slot4.buffer:SetParent(slot0._tf, false)
+	if slot6 then
+		slot5:Load()
+		slot5.buffer:SetParent(slot0._tf, false)
 	end
 
-	slot4.buffer:UpdateView(slot1, getProxy(ChapterProxy):GetLastDefeatedEnemy(slot1.id))
+	slot5.buffer:UpdateView(slot2, slot1)
 end
 
 slot3 = Vector2(396, 128)
@@ -1278,124 +1292,138 @@ function slot0.tryAutoAction(slot0, slot1)
 	slot0.doingAutoAction = true
 
 	if not slot0.contextData.chapterVO then
-		if slot1 then
-			slot1()
-		end
+		existCall(slot1)
 
 		return
 	end
 
 	if slot0:SafeCheck() then
-		if slot1 then
-			slot1()
-		end
+		existCall(slot1)
 
 		return
 	end
 
-	slot4 = false
+	slot4 = {}
+	slot5 = false
 
-	for slot8, slot9 in pairs(slot2.cells) do
-		if slot9.trait == ChapterConst.TraitLurk then
-			slot4 = true
-
-			break
-		end
-	end
-
-	for slot8, slot9 in ipairs(slot2.champions) do
-		if slot9.trait == ChapterConst.TraitLurk then
-			slot4 = true
+	for slot9, slot10 in pairs(slot2.cells) do
+		if slot10.trait == ChapterConst.TraitLurk then
+			slot5 = true
 
 			break
 		end
 	end
 
-	slot5 = slot2:existOni()
-	slot6 = slot2:isPlayingWithBombEnemy()
+	if not slot5 then
+		for slot9, slot10 in ipairs(slot2.champions) do
+			if slot10.trait == ChapterConst.TraitLurk then
+				slot5 = true
 
-	seriesAsync({
-		function (slot0)
-			uv0:emit(LevelUIConst.FROZEN)
+				break
+			end
+		end
+	end
 
-			if not uv1 then
-				slot0()
-			elseif uv2 or uv3 then
-				slot1 = nil
+	if slot5 then
+		slot7 = slot2:isPlayingWithBombEnemy()
 
-				if uv2 then
-					slot1 = "SpUnit"
-				end
+		if not slot2:existOni() and not slot7 then
+			table.insert(slot4, function (slot0)
+				uv0:emit(LevelUIConst.DO_TRACKING, slot0)
+			end)
+		else
+			table.insertto(slot4, {
+				function (slot0)
+					slot1 = nil
 
-				if uv3 then
-					slot1 = "SpBomb"
-				end
+					if uv0 then
+						slot1 = "SpUnit"
+					elseif uv1 then
+						slot1 = "SpBomb"
+					end
 
-				if slot1 then
-					uv0:emit(LevelUIConst.DO_PLAY_ANIM, {
+					uv2:emit(LevelUIConst.DO_PLAY_ANIM, {
 						name = slot1,
 						callback = function (slot0)
 							setActive(slot0, false)
 							uv0()
 						end
 					})
-				end
-			else
-				uv0:emit(LevelUIConst.DO_TRACKING, slot0)
-			end
-		end,
-		function (slot0)
-			if uv0 and (uv1 or uv2) and uv3:getSpAppearStory() and #slot1 > 0 then
-				pg.NewStoryMgr.GetInstance():Play(slot1, slot0)
-
-				return
-			end
-
-			slot0()
-		end,
-		function (slot0)
-			if uv0 and (uv1 or uv2) and uv3:getSpAppearGuide() and #slot1 > 0 then
-				slot2 = pg.SystemGuideMgr.GetInstance()
-
-				slot2:PlayByGuideId(slot1, nil, function ()
-					onNextTick(uv0)
-				end)
-
-				return
-			end
-
-			slot0()
-		end,
-		function (slot0)
-			if not uv0 then
-				return slot0()
-			end
-
-			parallelAsync({
-				function (slot0)
-					uv0:tryPlayChapterStory(slot0)
 				end,
 				function (slot0)
-					if uv0:findChapterCell(ChapterConst.AttachBoss) and slot1.trait == ChapterConst.TraitLurk then
-						uv1.grid:focusOnCell(slot1, slot0)
+					if uv0:getSpAppearStory() and #slot1 > 0 then
+						pg.NewStoryMgr.GetInstance():Play(slot1, slot0)
+
+						return
+					end
+
+					slot0()
+				end,
+				function (slot0)
+					if uv0:getSpAppearGuide() and #slot1 > 0 then
+						pg.SystemGuideMgr.GetInstance():PlayByGuideId(slot1, nil, slot0)
 
 						return
 					end
 
 					slot0()
 				end
-			}, slot0)
+			})
+		end
+
+		table.insertto(slot4, {
+			function (slot0)
+				parallelAsync({
+					function (slot0)
+						uv0:tryPlayChapterStory(slot0)
+					end,
+					function (slot0)
+						if uv0:findChapterCell(ChapterConst.AttachBoss) and slot1.trait == ChapterConst.TraitLurk then
+							uv1.grid:focusOnCell(slot1, slot0)
+
+							return
+						end
+
+						slot0()
+					end
+				}, slot0)
+			end,
+			function (slot0)
+				uv0:updateTrait(ChapterConst.TraitVirgin)
+				uv0.grid:updateAttachments()
+				uv0.grid:updateChampions()
+				uv0:updateTrait(ChapterConst.TraitNone)
+				uv0:emit(LevelMediator2.ON_OVERRIDE_CHAPTER)
+				Timer.New(slot0, 0.5, 1):Start()
+			end
+		})
+	end
+
+	seriesAsync({
+		function (slot0)
+			uv0:emit(LevelUIConst.FROZEN)
+			uv0:PopBar()
+			uv0:UpdateComboPanel()
+			slot0()
+		end,
+		function (slot0)
+			uv0:UpdateDOALinkFeverPanel(slot0)
+		end,
+		function (slot0)
+			seriesAsync(uv0, slot0)
 		end,
 		function (slot0)
 			slot1, slot2 = uv0:GetAttachmentStories()
 
 			if slot1 then
-				table.SerialForeachArray(slot1, function (slot0, slot1, slot2)
-					if slot0 <= uv0 and slot1 and (type(slot1) ~= "string" or #slot1 > 0) then
-						ChapterOpCommand.PlayChapterStory(pg.NewStoryMgr:StoryId2StoryName(tonumber(slot1)), slot2, uv1:IsAutoFight())
-					else
-						slot2()
+				table.SerialIpairsAsync(slot1, function (slot0, slot1, slot2)
+					if slot0 <= uv0 and slot1 and type(slot1) == "number" and slot1 > 0 then
+						ChapterOpCommand.PlayChapterStory(pg.NewStoryMgr:StoryId2StoryName(slot1), slot2, uv1:IsAutoFight())
+
+						return
 					end
+
+					slot2()
 				end, slot0)
 
 				return
@@ -1404,22 +1432,23 @@ function slot0.tryAutoAction(slot0, slot1)
 			slot0()
 		end,
 		function (slot0)
-			if uv0 then
-				uv1:updateTrait(ChapterConst.TraitVirgin)
-				uv1.grid:updateAttachments()
-				uv1.grid:updateChampions()
-				uv1:updateTrait(ChapterConst.TraitNone)
-				uv1:emit(LevelMediator2.ON_OVERRIDE_CHAPTER)
-			end
+			if not getProxy(ChapterProxy):getUpdatedExtraFlags(uv0.contextData.chapterVO.id) or #slot2 < 1 then
+				slot0()
 
-			Timer.New(slot0, 0.5, 1):Start()
-		end,
-		function (slot0)
-			if uv0.exited then
 				return
 			end
 
-			uv0:emit(LevelUIConst.UN_FROZEN)
+			for slot6, slot7 in ipairs(slot2) do
+				if type(pg.chapter_status_effect[slot7] and slot8.camera_focus or "") == "table" then
+					uv0.grid:focusOnCell({
+						row = slot9[1],
+						column = slot9[2]
+					}, slot0)
+
+					return
+				end
+			end
+
 			slot0()
 		end,
 		function (slot0)
@@ -1427,9 +1456,29 @@ function slot0.tryAutoAction(slot0, slot1)
 				return
 			end
 
-			if uv1 then
-				uv1()
+			slot1 = uv0
+
+			slot1:emit(LevelUIConst.UN_FROZEN)
+			(function ()
+				if not getProxy(ChapterProxy):getActiveChapter(true) then
+					return
+				end
+
+				slot2 = slot1.id
+
+				slot0:RecordComboHistory(slot2, nil)
+				slot0:RecordLastDefeatedEnemy(slot2, nil)
+				slot0:extraFlagUpdated(slot2)
+				slot0:RemoveExtendChapterData(slot2, "FleetMoveDistance")
+			end)()
+			slot0()
+		end,
+		function (slot0)
+			if uv0.exited then
+				return
 			end
+
+			existCall(uv1)
 
 			uv0.doingAutoAction = nil
 
@@ -1521,13 +1570,7 @@ slot5 = {
 }
 
 function slot0.PopBar(slot0)
-	if not getProxy(ChapterProxy):getUpdatedExtraFlags(slot0.contextData.chapterVO.id) then
-		return
-	end
-
-	getProxy(ChapterProxy):extraFlagUpdated(slot1)
-
-	if #slot2 < 1 then
+	if not getProxy(ChapterProxy):getUpdatedExtraFlags(slot0.contextData.chapterVO.id) or #slot2 < 1 then
 		return
 	end
 

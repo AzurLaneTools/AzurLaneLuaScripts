@@ -276,7 +276,7 @@ return {
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.DOA_MEDAL_ACT_ID) and not slot0:isEnd()
 		end,
 		isTip = function ()
-			return DoaMedalCollectionView.isHaveActivableMedal()
+			return Activity.isHaveActivableMedal()
 		end
 	},
 	{

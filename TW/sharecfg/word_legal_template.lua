@@ -446,6 +446,19 @@ function temp()
 					}
 				}
 			}
+		},
+		u = {
+			r = {
+				c = {
+					o = {
+						u = {
+							f = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -465,6 +478,19 @@ function temp()
 										this = true
 									}
 								}
+							}
+						}
+					}
+				}
+			}
+		},
+		u = {
+			r = {
+				c = {
+					o = {
+						u = {
+							f = {
+								this = true
 							}
 						}
 					}
@@ -866,6 +892,9 @@ temp()
 function temp()
 	uv0["哈"] = {
 		["曼"] = {
+			this = true
+		},
+		["絲"] = {
 			this = true
 		}
 	}
@@ -1801,6 +1830,11 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["夢"] = {
+			["芽"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -2127,6 +2161,11 @@ function temp()
 	uv0["新"] = {
 		["月"] = {
 			this = true
+		},
+		["條"] = {
+			["茜"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -3473,6 +3512,15 @@ function temp()
 					}
 				}
 			}
+		},
+		["鳥"] = {
+			["川"] = {
+				["千"] = {
+					["瀨"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -4415,6 +4463,42 @@ temp()
 function temp()
 	uv0["清"] = {
 		["波"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["寶"] = {
+		["多"] = {
+			["六"] = {
+				["花"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["奈"] = {
+		["美"] = {
+			["子"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["貉"] = {
+		this = {
 			this = true
 		}
 	}

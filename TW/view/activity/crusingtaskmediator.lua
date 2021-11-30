@@ -28,7 +28,7 @@ function slot0.register(slot0)
 		uv0:sendNotification(CrusingMediator.UNFROZEN_MAP_UPDATE)
 	end)
 
-	slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
+	slot1 = getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
 
 	slot0.viewComponent:setActivity(slot1)
 	updateCrusingActivityTask(slot1)

@@ -540,38 +540,40 @@ function slot0.OnCVBtnClick(slot0, slot1)
 		}
 
 		if uv0.live2DBtn.isOn and uv0.l2dChar then
-			uv0.l2dActioning = true
+			if uv0.l2dChar:IsLoaded() then
+				uv0.l2dActioning = true
 
-			if not uv1:L2dHasEvent() then
-				parallelAsync({
-					function (slot0)
-						uv0:RemoveLive2DTimer()
-						uv0.l2dChar:TriggerAction(uv1.l2d_action, slot0)
-					end,
-					function (slot0)
-						uv0:PlayVoice(uv1, uv2)
-						uv0:ShowDailogue(uv1, uv2, slot0)
-					end
-				}, function ()
-					uv0.l2dActioning = false
-				end)
-			else
-				seriesAsync({
-					function (slot0)
-						slot1 = uv0
-
-						slot1:RemoveLive2DTimer()
-
-						slot1 = uv0.l2dChar
-
-						slot1:TriggerAction(uv1.l2d_action, slot0, nil, function (slot0)
+				if not uv1:L2dHasEvent() then
+					parallelAsync({
+						function (slot0)
+							uv0:RemoveLive2DTimer()
+							uv0.l2dChar:TriggerAction(uv1.l2d_action, slot0)
+						end,
+						function (slot0)
 							uv0:PlayVoice(uv1, uv2)
-							uv0:ShowDailogue(uv1, uv2, uv3)
-						end)
-					end
-				}, function ()
-					uv0.l2dActioning = false
-				end)
+							uv0:ShowDailogue(uv1, uv2, slot0)
+						end
+					}, function ()
+						uv0.l2dActioning = false
+					end)
+				else
+					seriesAsync({
+						function (slot0)
+							slot1 = uv0
+
+							slot1:RemoveLive2DTimer()
+
+							slot1 = uv0.l2dChar
+
+							slot1:TriggerAction(uv1.l2d_action, slot0, nil, function (slot0)
+								uv0:PlayVoice(uv1, uv2)
+								uv0:ShowDailogue(uv1, uv2, uv3)
+							end)
+						end
+					}, function ()
+						uv0.l2dActioning = false
+					end)
+				end
 			end
 		else
 			uv0:PlayVoice(uv1, slot0)

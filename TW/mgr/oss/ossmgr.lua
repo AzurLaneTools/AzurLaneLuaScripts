@@ -16,13 +16,15 @@ function slot0.InitConfig(slot0)
 		OSSBUCKETNAME = "blhx-dorm-oss"
 		slot2 = pg.SdkMgr.GetInstance():GetChannelUID() == "cps" or slot1 == "yun" or slot1 == "0"
 
-		if PLATFORM == 8 then
+		if getProxy(UserProxy):GetCacheGatewayInServerLogined() == PLATFORM_IPHONEPLAYER then
 			FOLDERNAME = "dorm_ios/"
 		elseif slot2 then
 			FOLDERNAME = "dorm_bili/"
 		else
 			FOLDERNAME = "dorm_uo/"
 		end
+
+		print("FOLDERNAME: ", FOLDERNAME)
 	elseif PLATFORM_CODE == PLATFORM_US then
 		OSS_STS_URL = ""
 		OSS_ENDPOINT = "oss-us-east-1.aliyuncs.com"

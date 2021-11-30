@@ -40,7 +40,7 @@ end
 function slot0.initData(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.activityData = slot0.activityProxy:getActivityById(ActivityConst.IDOL_MASTER_MEDAL_ID)
-	slot0.allIDList = IdolMasterMedalCollectionMediator.GetPicturePuzzleIds(slot0.activityData.id)
+	slot0.allIDList = Activity.GetPicturePuzzleIds(slot0.activityData.id)
 	slot0.pageIDList = {}
 
 	for slot4 = 1, uv0.PAGE_NUM do
@@ -264,25 +264,6 @@ function slot0.updateAfterSubmit(slot0, slot1)
 	triggerToggle(slot0.switchBtnList[slot0.curPage], true)
 	setText(slot0.progressText, setColorStr(tostring(#slot0.activeIDList), COLOR_WHITE) .. "/" .. #slot0.allIDList)
 	slot0:checkAward()
-end
-
-function slot0.isHaveActivableMedal()
-	if not getProxy(ActivityProxy):getActivityById(ActivityConst.IDOL_MASTER_MEDAL_ID) or slot0:isEnd() then
-		return
-	end
-
-	slot1 = slot0.data1_list
-	slot2 = slot0.data2_list
-
-	for slot7, slot8 in ipairs(slot0:getConfig("config_data")) do
-		slot10 = table.contains(slot1, slot8)
-
-		if not table.contains(slot2, slot8) and slot10 then
-			return true
-		end
-	end
-
-	return false
 end
 
 function slot0.caculateActivatable(slot0, slot1)

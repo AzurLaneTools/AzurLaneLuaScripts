@@ -1,6 +1,6 @@
 slot0 = class("LevelStageIMasFeverPanel", import("view.base.BaseSubPanel"))
 
-function slot0.GetUIName(slot0)
+function slot0.getUIName(slot0)
 	return "LevelStageIMasFeverPanel"
 end
 
@@ -25,10 +25,9 @@ slot2 = {
 }
 
 function slot0.UpdateView(slot0, slot1, slot2)
-	slot3 = slot1.defeatEnemies
-	slot4 = pg.gameset.doa_fever_count.key_value
-	slot5 = uv0[Mathf.Min(slot4, slot3)]
-	slot6 = slot4 <= slot3
+	slot3 = getProxy(ChapterProxy)
+	slot3 = slot3:GetLastDefeatedEnemy(slot1.id)
+	slot6 = uv0[Mathf.Min(pg.gameset.doa_fever_count.key_value, slot1.defeatEnemies)]
 
 	seriesAsync({
 		function (slot0)
@@ -53,6 +52,8 @@ function slot0.UpdateView(slot0, slot1, slot2)
 			if uv2 and uv3 == uv4 then
 				uv0:ShowPanel(uv5)
 			end
+
+			existCall(uv6)
 		end
 	})
 end

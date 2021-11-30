@@ -1,801 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_15 = {
-	[408021] = {
-		ship_group = 40802,
-		name = "新晉騎行達人？",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "105",
-		id = 408021,
-		group_index = 1,
-		prefab = "U47_2",
-		painting = "U47_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70079,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "陸地上的風景我還沒怎麼留意過……指揮官，要一起去逛一下嗎？",
-		voice_actor = 160,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.05,
-					0.31,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.99,
-					0.23,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[408022] = {
-		ship_group = 40802,
-		name = "靜謐一隅",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "115",
-		id = 408022,
-		group_index = 2,
-		prefab = "U47_3",
-		painting = "U47_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70235,
-		shop_type_id = 7,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "呼…比起喧囂的宴會場，還是這種安靜的地方更讓人沉得下心…指揮官難道也這麼覺得？不介意的話，一起在這坐會吧",
-		voice_actor = 160,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.406,
-					-0.166,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.098,
-					-0.332,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[408030] = {
-		ship_group = 40803,
-		name = "U-557",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 408030,
-		group_index = 0,
-		prefab = "U557",
-		painting = "U557",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "鐵血VIIC型潛艇U-557",
-		voice_actor = 160,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.84,
-					0.58,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.8,
-					0.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.18,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[408040] = {
-		ship_group = 40804,
-		name = "U-556",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 408040,
-		group_index = 0,
-		prefab = "U556",
-		painting = "U556",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "鐵血VIIC型潛艇U-556",
-		voice_actor = 38,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.84,
-					0.58,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.8,
-					0.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.25,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[408041] = {
-		ship_group = 40804,
-		name = "嬉鬧之夜！",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 408041,
-		group_index = 1,
-		prefab = "U556_2",
-		painting = "U556_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "U-556華麗變身！嘿嘿，今天的晚會一定要玩個痛快！指揮官也一起來吧！",
-		voice_actor = 38,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.84,
-					0.58,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.8,
-					0.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.18,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[408050] = {
-		ship_group = 40805,
-		name = "U-73",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 408050,
-		group_index = 0,
-		prefab = "U73",
-		painting = "U73",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "鐵血VIIB型潛艇U-73",
-		voice_actor = 200,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.84,
-					0.58,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.8,
-					0.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.35,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[408051] = {
-		ship_group = 40805,
-		name = "理科實驗時間！",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 408051,
-		group_index = 1,
-		prefab = "U73_3",
-		painting = "U73_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "好～U-73的理科實驗時間要開始囉～指揮官，一起來進行快樂又有趣的科學實驗吧！",
-		voice_actor = 200,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.643,
-					0.58,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.18,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[408060] = {
-		ship_group = 40806,
-		name = "U-101",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 408060,
-		group_index = 0,
-		prefab = "U101",
-		painting = "U101",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "鐵血VIIB型潛艇U-101 ",
-		voice_actor = 189,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.287,
-					0.619,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.997,
-					0.302,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.541,
-							2.497,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[408061] = {
 		ship_group = 40806,
 		name = "學園的Posaunist",
@@ -1189,6 +393,105 @@ pg.ship_skin_template_15 = {
 						{
 							-0.48,
 							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408100] = {
+		ship_group = 40810,
+		name = "U-37",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 408100,
+		group_index = 0,
+		prefab = "U37",
+		painting = "U37",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "1",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "铁血IXA型潜艇U-37",
+		voice_actor = 256,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.319,
+					1.023,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.008,
+					0.016,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.534,
 							0
 						}
 					}
@@ -6587,6 +5890,918 @@ pg.ship_skin_template_15 = {
 						{
 							-0.498,
 							2.041,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[702020] = {
+		ship_group = 70202,
+		name = "水星紀念",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 702020,
+		group_index = 0,
+		prefab = "shuixingjinian",
+		painting = "shuixingjinian",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "博加特里級輕巡洋艦—水星紀念",
+		voice_actor = 219,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.385,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.392,
+					0.95,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					-0.007,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.402,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.196,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[702021] = {
+		ship_group = 70202,
+		name = "囚牢與誘惑",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "130",
+		id = 702021,
+		group_index = 1,
+		prefab = "shuixingjinian_2",
+		painting = "shuixingjinian_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70326,
+		shop_type_id = 12,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "嗚…這演習算什麼啦！我可沒聽說還有這種演出啊！喂，快給我解開啦！",
+		voice_actor = 219,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.038,
+					1.026,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.074,
+					0.969,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					0.013,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.152,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.225,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[702030] = {
+		ship_group = 70203,
+		name = "恰巴耶夫",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 702030,
+		group_index = 0,
+		prefab = "qiabayefu",
+		painting = "qiabayefu",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "恰巴耶夫級輕巡洋艦—恰巴耶夫",
+		voice_actor = 223,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.451,
+					1.429,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.467,
+					1.436,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.423,
+					1.511,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.513,
+							2.157,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[702031] = {
+		ship_group = 70203,
+		name = "拘束的白騎兵",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "130",
+		id = 702031,
+		group_index = 1,
+		prefab = "qiabayefu_2",
+		painting = "qiabayefu_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70321,
+		shop_type_id = 12,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官，這究竟是要做什麼？難道…我做錯了什麼嗎…？這應該…只是單純的演習吧？",
+		voice_actor = 223,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.953,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.961,
+					0.95,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.016,
+					0.032,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.942,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.486,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[705010] = {
+		ship_group = 70501,
+		name = "甘古特",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 705010,
+		group_index = 0,
+		prefab = "gangute",
+		painting = "gangute",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "甘古特級戰列艦—甘古特",
+		voice_actor = 222,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.558,
+					1.084,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.623,
+					1.027,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					0.022,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.595,
+					1.143,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.611,
+							2.1,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[705011] = {
+		ship_group = 70501,
+		name = "堅定的執行者",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "131",
+		id = 705011,
+		group_index = 1,
+		prefab = "gangute_2",
+		painting = "gangute_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70325,
+		shop_type_id = 12,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "同志啊，我要感謝這次安排的演習！這份制裁罪惡，給予懲罰，助人再造重生的重責大任，我很樂意接下！",
+		voice_actor = 222,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.519,
+					1.122,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.556,
+					1.143,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.013,
+					0.022,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.566,
+					1.085,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.679,
+							2.128,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[705050] = {
+		ship_group = 70505,
+		name = "蘇維埃俄羅斯",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 705050,
+		group_index = 0,
+		prefab = "suweiailuoxiya",
+		painting = "suweiailuoxiya",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "蘇維埃同盟級戰列艦—蘇維埃俄羅斯",
+		voice_actor = 85,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.702,
+					1.074,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.691,
+					1.094,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.013,
+					0.032,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.643,
+					1.075,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.186,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[705051] = {
+		ship_group = 70505,
+		name = "怠惰的監視者",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "130",
+		id = 705051,
+		group_index = 1,
+		prefab = "suweiailuoxiya_2",
+		painting = "suweiailuoxiya_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70320,
+		shop_type_id = 12,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "“設施各區域未發現異常”——哦，是你啊。我剛在和明斯克進行日常聯絡。有什麼事？",
+		voice_actor = 85,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.722,
+					1.026,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.729,
+					1.056,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.016,
+					0.032,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.72,
+					1.056,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.553,
+							2.35,
 							0
 						}
 					}

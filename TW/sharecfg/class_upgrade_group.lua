@@ -1,9 +1,7 @@
 pg = pg or {}
 pg.class_upgrade_group = {
 	{
-		name = "今日課程：\n《驅逐雷擊教學—魚雷發射技巧分析》",
 		id = 201011,
-		icon = "Props/DD",
 		name_show = "《驅逐雷擊教學》",
 		day = 1,
 		type = {
@@ -16,9 +14,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "今日課程：\n《巡洋炮擊教學—如何正確地選擇彈藥》",
 		id = 302011,
-		icon = "Props/CLCA",
 		name_show = "《巡洋炮擊教學》",
 		day = 2,
 		type = {
@@ -32,9 +28,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "今日課程：\n《戰列理論教學—大炮巨艦的優勢分析》",
 		id = 105031,
-		icon = "Props/BB",
 		name_show = "《戰列理論教學》",
 		day = 3,
 		type = {
@@ -45,9 +39,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "今日課程：\n《航母理論教學—論海空綜合作戰的重要性》",
 		id = 107011,
-		icon = "Props/CV",
 		name_show = "《航母理論教學》",
 		day = 4,
 		type = {
@@ -57,9 +49,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "今日課程：\n《驅逐實戰教學—實用陣型技巧分析》",
 		id = 201011,
-		icon = "Props/DD",
 		name_show = "《驅逐實戰教學》",
 		day = 5,
 		type = {
@@ -72,9 +62,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "今日課程：\n《巡洋實戰教學—火力最大化手段分析》",
 		id = 302011,
-		icon = "Props/CLCA",
 		name_show = "《巡洋實戰教學》",
 		day = 6,
 		type = {
@@ -88,9 +76,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "學生自主學習，出擊熟練度獲取比例翻倍",
 		id = 105031,
-		icon = "Props/BB",
 		name_show = "自主學習",
 		day = 7,
 		type = {

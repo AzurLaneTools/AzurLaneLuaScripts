@@ -261,6 +261,14 @@ function slot8.GetSrcEquipmentID(slot0)
 	return slot0._srcEquipID
 end
 
+function slot8.SetFixedFlag(slot0)
+	slot0._isFixedWeapon = true
+end
+
+function slot8.IsFixedWeapon(slot0)
+	return slot0._isFixedWeapon
+end
+
 function slot8.IsAttacking(slot0)
 	return slot0._currentState == uv0.STATE_ATTACK or slot0._currentState == slot0.STATE_PRECAST
 end

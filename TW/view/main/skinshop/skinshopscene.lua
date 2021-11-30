@@ -95,7 +95,6 @@ function slot0.init(slot0)
 	slot0._resPanel = PlayerResource.New()
 
 	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
-	setActive(slot0.mainPanel, false)
 
 	Input.multiTouchEnabled = false
 	slot0.viewMode = slot0.contextData.type or uv0.SHOP_TYPE_COMMON
@@ -111,7 +110,6 @@ function slot0.didEnter(slot0)
 	slot0:bind(uv0.EVENT_ON_CARD_CLICK, function (slot0, slot1)
 		uv0:OnCardClick(slot1)
 	end)
-	setActive(slot0.mainPanel, true)
 	slot0:initShips()
 	slot0:initSkinPage()
 
@@ -766,10 +764,6 @@ function slot0.initShips(slot0)
 
 			triggerButton(slot2._tf)
 		end
-
-		if slot0 == 0 then
-			setActive(uv0.mainPanel, true)
-		end
 	end
 end
 
@@ -909,7 +903,6 @@ function slot0.updateShipRect(slot0, slot1)
 				return slot3 < slot2
 			end
 		end)
-		setActive(slot0.mainPanel, false)
 
 		if slot1 then
 			slot0.shipRect:SetTotalCount(#slot0.displays, slot1)

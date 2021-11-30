@@ -46,11 +46,11 @@ function slot0.OnInit(slot0)
 		uv0:updateValue()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if not uv0.selectedVO or not uv0.itemVO or uv0.count <= 0 then
+		if not uv0.selectedIndex or not uv0.itemVO or uv0.count <= 0 then
 			return
 		end
 
-		uv0:emit(WorldInventoryMediator.OnUseItem, uv0.itemVO.id, uv0.count, uv0.selectedVO)
+		uv0:emit(WorldInventoryMediator.OnUseItem, uv0.itemVO.id, uv0.count, uv0.itemVO:getConfig("usage_arg")[uv0.selectedIndex])
 		uv0:Hide()
 	end, SFX_PANEL)
 end
@@ -65,61 +65,54 @@ function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
 end
 
-function slot0.ClearData(slot0)
-	slot0.selectedVO = nil
-	slot0.count = 1
-
-	if slot0.selectedItem then
-		triggerToggle(slot0.selectedItem, false)
-	end
-
-	slot0.selectedItem = nil
-end
-
 function slot0.updateValue(slot0)
 	setText(slot0.valueText, slot0.count)
 
 	slot1 = slot0.ulist
 
 	slot1:each(function (slot0, slot1)
+		if not isActive(slot1) then
+			return
+		end
+
 		setText(slot1:Find("item/bg/icon_bg/count"), uv0.count)
 	end)
 end
 
 function slot0.update(slot0, slot1)
-	slot0:ClearData()
-
-	slot0.itemVO = slot1
+	slot0.count = 1
+	slot0.selectedIndex = nil
 	slot0.selectedItem = nil
+	slot0.itemVO = slot1
+	slot0.displayDrops = underscore.map(slot1:getConfig("usage_arg"), function (slot0)
+		return {
+			type = slot0[1],
+			id = slot0[2],
+			count = slot0[3]
+		}
+	end)
 
 	slot0.ulist:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1]
-			slot4 = {
-				type = slot3[1],
-				id = slot3[2],
-				count = slot3[3]
-			}
+			updateDrop(slot2:Find("item/bg"), uv0.displayDrops[slot1])
 
-			updateDrop(slot2:Find("item/bg"), slot4)
+			slot3 = slot2:Find("item/bg/icon_bg/count")
 
-			slot5 = slot2:Find("item/bg/icon_bg/count")
-
-			onToggle(uv1, slot2, function (slot0)
+			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
-					uv0.selectedVO = uv1:getConfig("usage_arg")[uv2]
-
-					setText(uv3, uv0.count * uv4[3])
-
-					uv0.selectedItem = uv5
+					uv0.selectedIndex = uv1
+					uv0.selectedItem = uv2
 				end
 			end, SFX_PANEL)
-			setScrollText(slot2:Find("name_bg/Text"), slot4.cfg.name)
+			setScrollText(slot2:Find("name_bg/Text"), HXSet.hxLan(uv0.displayDrops[slot1].cfg.name))
+
+			uv0.selectedItem = uv0.selectedItem or slot2
 		end
 	end)
-	slot0.ulist:align(#slot1:getConfig("usage_arg"))
+	slot0.ulist:align(#displays)
+	triggerToggle(slot0.selectedItem, true)
 	slot0:updateValue()
 	updateDrop(slot0.itemTF:Find("bg"), {
 		type = slot1.type,

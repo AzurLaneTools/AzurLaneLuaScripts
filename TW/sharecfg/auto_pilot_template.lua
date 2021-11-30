@@ -9082,6 +9082,27 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[90036] = {
+		id = 90036,
+		name = "古立特EX铁锤轰击 靠前方随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 35,
+					Z2 = 75,
+					X2 = -15,
+					moveCount = 240,
+					duration = -1,
+					X1 = -10,
+					stopCount = 90
+				}
+			}
+		}
+	},
 	[99990] = {
 		id = 99990,
 		name = "13章后撤释放地毯空袭",

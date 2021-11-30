@@ -79,7 +79,7 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 		end,
 		function (slot0)
 			if uv0 then
-				table.SerialForeachArray(uv0, function (slot0, slot1, slot2)
+				table.SerialIpairsAsync(uv0, function (slot0, slot1, slot2)
 					uv0:remove(slot1.mediator:getViewComponent(), function ()
 						uv0.context:onContextRemoved()
 						uv1()

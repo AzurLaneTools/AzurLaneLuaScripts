@@ -4475,6 +4475,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[30104] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "300220",
+		id = 30104,
+		compose_number = 0,
+		target_id = 0
+	},
 	[30112] = {
 		usage = "usage_drop_appointed",
 		display_effect = "",
@@ -4994,6 +5005,17 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "30327",
 		id = 30327,
+		compose_number = 0,
+		target_id = 0
+	},
+	[30330] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30330",
+		id = 30330,
 		compose_number = 0,
 		target_id = 0
 	},
@@ -14924,6 +14946,7 @@ pg.item_data_template = {
 		30044,
 		30045,
 		30103,
+		30104,
 		30112,
 		30113,
 		30114,
@@ -14951,6 +14974,7 @@ pg.item_data_template = {
 		30321,
 		30323,
 		30327,
+		30330,
 		30900,
 		30911,
 		30912,

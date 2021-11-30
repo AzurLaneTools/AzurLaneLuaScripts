@@ -20,7 +20,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot5:ShouldSwitchGateway(slot2.platform or PLATFORM, slot2.user.arg2) then
-		if not slot5:GetGateWayByPlatform(slot4 or slot5:GetCacheGatewayFlag()) then
+		if not slot5:GetGateWayByPlatform(slot4 or slot5:GetCacheGatewayFlag(slot3.arg2)) then
 			slot0:GetGateWayByServer(slot7, function (slot0)
 				uv0:SetGatewayForPlatform(uv1, slot0)
 				uv0:SetCacheGatewayFlag(uv1)

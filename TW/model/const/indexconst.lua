@@ -59,6 +59,95 @@ function slot0.SingleToggleBits(slot0, slot1, slot2, slot3)
 	return (slot0 ~= bit.lshift(1, slot3) or bit.lshift(1, slot2)) and slot5
 end
 
+function slot0.StrLShift(slot0, slot1)
+	slot2 = ""
+
+	for slot6 = 1, slot1 do
+		slot0 = slot0 .. "0"
+	end
+
+	return slot0 .. slot2
+end
+
+function slot0.StrAnd(slot0, slot1)
+	slot2 = ""
+	slot3 = string.len(slot1) < string.len(slot0) and slot0 or slot1
+	slot4 = slot3 == slot0 and slot1 or slot0
+	slot5 = string.len(slot3)
+
+	for slot10 = 1, string.len(slot4) do
+		slot2 = string.sub(slot4, slot10, slot10) == "1" and string.sub(slot3, slot5 - slot6 + slot10, slot5 - slot6 + slot10) == "1" and slot2 .. "1" or slot2 .. "1" .. "0"
+	end
+
+	slot7 = ""
+
+	for slot11 = 1, slot5 - slot6 do
+		slot7 = slot7 .. "0"
+	end
+
+	return slot7 .. slot2
+end
+
+function slot0.StrOr(slot0, slot1)
+	slot2 = ""
+	slot3 = string.len(slot1) < string.len(slot0) and slot0 or slot1
+	slot4 = slot3 == slot0 and slot1 or slot0
+	slot5 = string.len(slot3)
+
+	for slot10 = 1, string.len(slot4) do
+		slot2 = (string.sub(slot4, slot10, slot10) == "1" or string.sub(slot3, slot5 - slot6 + slot10, slot5 - slot6 + slot10) == "1") and slot2 .. "1" or slot2 .. "1" .. "0"
+	end
+
+	return string.sub(slot3, 1, slot5 - slot6) .. slot2
+end
+
+function slot0.Flags2Str(slot0)
+	slot1 = ""
+
+	for slot5, slot6 in ipairs(slot0) do
+		slot1 = uv0.StrOr(slot1, uv0.StrLShift("1", slot6))
+	end
+
+	return slot1
+end
+
+function slot0.FlagRange2Str(slot0, slot1)
+	slot2 = ""
+
+	for slot6 = slot0, slot1 do
+		slot2 = uv0.StrOr(slot2, uv0.StrLShift("1", slot6))
+	end
+
+	return slot2
+end
+
+function slot0.ToggleStr(slot0, slot1, slot2, slot3)
+	slot4 = slot0
+	slot5 = uv0.StrLShift("1", slot3)
+
+	if slot2 then
+		slot6 = uv0.StrLShift("1", slot2)
+		slot7 = ""
+
+		for slot11, slot12 in ipairs(slot1) do
+			if slot12 ~= slot2 then
+				slot7 = uv0.StrOr(slot7, uv0.StrLShift("1", slot12))
+			end
+		end
+
+		if slot5 == slot6 or slot4 == slot7 then
+			slot4 = slot6
+		elseif (string.find(uv0.StrAnd(slot4, slot6), "1") ~= nil and slot5 or string.sub(slot8, 1, slot9 - 1) .. (string.find(uv0.StrAnd(slot4, slot5), "1") ~= nil and "0" or "1") .. string.sub(slot8, slot9 + 1)) == slot7 or string.find(slot4, "1") == nil then
+			slot4 = slot6
+		end
+	else
+		slot7 = string.len(uv0.StrOr(slot4, slot5)) - slot3
+		slot4 = string.sub(slot6, 1, slot7 - 1) .. (string.find(uv0.StrAnd(slot4, slot5), "1") ~= nil and "0" or "1") .. string.sub(slot6, slot7 + 1)
+	end
+
+	return slot4
+end
+
 slot0.DisplaySort = 1
 slot0.DisplayIndex = 2
 slot0.DisplayCamp = 3
@@ -659,7 +748,7 @@ function slot0.filterEquipSkinByTheme(slot0, slot1)
 		return true
 	end
 
-	if bit.band(slot1, bit.lshift(1, uv0.EquipSkinThemeAll)) > 0 then
+	if string.find(uv0.StrAnd(slot1, uv0.StrLShift("1", uv0.EquipSkinThemeAll)), "1") ~= nil then
 		return true
 	end
 
@@ -671,7 +760,7 @@ function slot0.filterEquipSkinByTheme(slot0, slot1)
 		slot6 = nil
 
 		for slot10, slot11 in ipairs(uv0.EquipSkinThemeTypes) do
-			if bit.band(slot1, bit.lshift(1, slot10)) > 0 and table.contains(slot3[slot3[pg.equip_skin_theme_template.all[slot11 - 1]].id].ids, slot4) then
+			if string.find(uv0.StrAnd(slot1, uv0.StrLShift("1", slot10)), "1") ~= nil and table.contains(slot3[slot3[pg.equip_skin_theme_template.all[slot11 - 1]].id].ids, slot4) then
 				return true
 			end
 		end

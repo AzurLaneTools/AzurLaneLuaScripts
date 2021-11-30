@@ -571,7 +571,6 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		ChapterProxy.CHAPTER_UPDATED,
 		ChapterProxy.CHAPTER_TIMESUP,
-		ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED,
 		PlayerProxy.UPDATED,
 		DailyLevelProxy.ELITE_QUOTA_UPDATE,
 		GAME.TRACKING_DONE,
@@ -623,10 +622,6 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.contextData.commanderOPChapter.eliteCommanderList = getProxy(ChapterProxy):getChapterById(slot3.chapterId).eliteCommanderList
 
 			slot0.viewComponent:updateFleetEdit(slot0.contextData.commanderOPChapter, slot3.index)
-		end
-	elseif slot2 == ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED then
-		if slot0.viewComponent.levelStageView then
-			slot0.viewComponent.levelStageView:ActionInvoke("PopBar", slot3)
 		end
 	else
 		if slot2 == GAME.CHAPTER_OP_DONE then
@@ -791,11 +786,7 @@ function slot0.handleNotification(slot0, slot1)
 							uv2:getViewComponent().grid:TeleportCellByPortalWithCameraMove(slot3, uv2:getViewComponent().grid:GetCellFleet(slot3.id), uv0.teleportPaths, slot0)
 						end,
 						function (slot0)
-							if uv0.aiActs then
-								uv1:playAIActions(uv0.aiActs, uv0.extraFlag, slot0)
-							else
-								slot0()
-							end
+							uv0:playAIActions(uv1.aiActs, uv1.extraFlag, slot0)
 						end
 					}, function ()
 						uv0 = uv1.contextData.chapterVO
@@ -1357,25 +1348,9 @@ function slot0.playAIActions(slot0, slot1, slot2, slot3)
 				end
 			end,
 			function (slot0)
-				if #uv0 > 0 then
-					slot1 = 0
-
-					for slot5 = 1, #uv0 do
-						slot6 = uv1.viewComponent.grid
-
-						slot6:showFleetPoisonDamage(uv0[slot5], function ()
-							uv0 = uv0 + 1
-
-							if uv0 >= #uv1 then
-								uv2()
-							end
-						end)
-					end
-
-					return
-				end
-
-				slot0()
+				table.ParallelIpairsAsync(uv0, function (slot0, slot1, slot2)
+					uv0.viewComponent.grid:showFleetPoisonDamage(slot1, slot2)
+				end, slot0)
 			end,
 			function (slot0)
 				uv0()

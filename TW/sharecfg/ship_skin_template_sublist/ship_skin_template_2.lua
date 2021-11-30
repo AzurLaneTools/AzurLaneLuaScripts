@@ -1,113 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101351] = {
-		ship_group = 10135,
-		name = "華麗的速度之星",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "118",
-		id = 101351,
-		group_index = 1,
-		prefab = "beiqi_2",
-		painting = "beiqi_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70246,
-		shop_type_id = 9,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "哼哼，看到了嗎指揮官！這令人安心的厚重感，和華麗時髦的塗裝！還有貝奇專門為此搭配的特別裝備！呼呼呼…現在的貝奇就是港區最華麗的速度之星！",
-		voice_actor = 204,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.018,
-					0.921,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.993,
-					0.918,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.25,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101352] = {
 		ship_group = 10135,
 		name = "炫目的賽場之星",
@@ -6620,6 +6512,114 @@ pg.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102163] = {
+		ship_group = 10216,
+		name = "课间的微风",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 102163,
+		group_index = 3,
+		prefab = "mengfeisi_4",
+		painting = "mengfeisi_4",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70568,
+		shop_type_id = 4,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "1",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "呼~真舒服~果然还是应该趁着课间开窗透透气…指挥官，在那杵着作什么？给你准备了好位置，坐下来一起休息会吧。",
+		voice_actor = 159,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.103,
+					0.996,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.103,
+					0.996,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.452,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[102180] = {
 		ship_group = 10218,
 		name = "康克德",
@@ -6706,6 +6706,114 @@ pg.ship_skin_template_2 = {
 				{
 					1.06,
 					0.82,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.23,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102181] = {
+		ship_group = 10218,
+		name = "紅色蘋果糖",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "101",
+		id = 102181,
+		group_index = 1,
+		prefab = "kangkede_2",
+		painting = "kangkede_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70117,
+		shop_type_id = 2,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "蘋果糖、鯛魚燒、炒麵～重櫻的“廟會”還真是不錯呢～嘻嘻，指揮官也要舔一口蘋果糖嗎？喏，給你～",
+		voice_actor = 42,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.16,
+					0.89,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.18,
+					0.84,
 					0
 				}
 			}

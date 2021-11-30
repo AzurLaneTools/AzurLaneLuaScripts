@@ -90,7 +90,7 @@ function slot0.ShowOilBuyTip(slot0)
 	return true
 end
 
-function slot0.GetUIName(slot0)
+function slot0.getUIName(slot0)
 	return "Msgbox4ItemGo"
 end
 

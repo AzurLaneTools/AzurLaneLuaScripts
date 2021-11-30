@@ -1,6 +1,6 @@
 slot0 = class("PtAwardSubPanel", import("view.base.BaseSubPanel"))
 
-function slot0.GetUIName(slot0)
+function slot0.getUIName(slot0)
 	return "ActivitybonusWindow_btnVer"
 end
 

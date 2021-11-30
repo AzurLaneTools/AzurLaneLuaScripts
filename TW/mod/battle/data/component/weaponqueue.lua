@@ -78,6 +78,16 @@ function slot2.AppendChargeWeapon(slot0, slot1)
 	slot0._chargeQueue:AppendWeapon(slot1)
 end
 
+function slot2.RemoveManualTorpedo(slot0, slot1)
+	slot0:RemoveWeapon(slot1)
+	slot0._torpedoQueue:RemoveWeapon(slot1)
+end
+
+function slot2.RemoveManualChargeWeapon(slot0, slot1)
+	slot0:RemoveWeapon(slot1)
+	slot0._chargeQueue:RemoveWeapon(slot1)
+end
+
 function slot2.QueueEnterGCD(slot0, slot1, slot2)
 	slot0:addGCDTimer(slot2, slot1)
 end

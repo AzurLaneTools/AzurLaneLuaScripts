@@ -45,7 +45,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = i18n("cruise_task_help")
+			helps = i18n(uv0.activity:getConfig("config_client").tips[3])
 		})
 	end, slot5)
 

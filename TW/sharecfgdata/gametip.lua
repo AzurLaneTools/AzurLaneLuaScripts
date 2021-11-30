@@ -4656,6 +4656,10 @@ _G.pg.gametip.word_shipNation_link = {
 	tip = "聯動"
 }
 
+_G.pg.gametip.word_shipNation_ssss = {
+	tip = "SSSS"
+}
+
 _G.pg.gametip.word_reset = {
 	tip = "重置"
 }
@@ -8041,11 +8045,11 @@ _G.pg.gametip.activity_switch_award_pool_failed = {
 }
 
 _G.pg.gametip.shop_street_activity_tip = {
-	tip = "*活動期間(<color=#A1E400FF>21.9.23-21.10.7</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>"
+	tip = "*活動期間(<color=#A1E400FF>$1</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>"
 }
 
 _G.pg.gametip.shop_street_Equipment_skin_box_help = {
-	tip = "$1 出現時間為：$2"
+	tip = "<color=#A1E400FF>$1</COLOR> 出現時間為：<color=#A1E400FF>$2</COLOR>"
 }
 
 _G.pg.gametip.twitter_link_title = {
@@ -8783,7 +8787,7 @@ _G.pg.gametip.ai_change_2 = {
 }
 
 _G.pg.gametip.activity_shop_lable = {
-	tip = "*兌換開放時間:$1"
+	tip = "*兌換開放時間:<color=#FFCF81>$1</color>"
 }
 
 _G.pg.gametip.word_bilibili = {
@@ -9260,7 +9264,7 @@ _G.pg.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.gametip.buildship_new_tip = {
-	tip = "惡毒、讓·巴爾、麻薩諸塞、倔強、敦克爾克、速科夫、福爾班 出現機率UP！"
+	tip = "寶多六花、新條茜、南夢芽等角色建造機率UP！"
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
@@ -14632,22 +14636,22 @@ _G.pg.gametip.guild_mission_info_tip = {
 			info = "事件派遣說明："
 		},
 		{
-			info = "1.單個事件內，單個成員每次可以派遣<color=#92fc63>4</color>名角色。 "
+			info = "1.單個事件內，單個成員每次可以派遣<color=#92fc63>4</color>名角色。"
 		},
 		{
-			info = "2.每隔6個小時會刷新1次派遣次數(現實時間<color=#92fc63>0/6/12/18</color>時\n分別刷新<color=#92fc63 >1</color>次)，每個事件單個成員最多可以派遣<color=#92fc63>4</color>次。 "
+			info = "2.每天會刷新4次派遣次數(現實時間<color=#92fc63>6/12/18/21</color>時分別刷新<color=#92fc63>1</color>次)，每個事件單個成員最多可以派遣<color=#92fc63>4</color>次。"
 		},
 		{
-			info = "3.事件內派遣的艦船如果符合事件的<color=#92fc63>效率需求</color>，可額外提\n供解決事件的<color=#92fc63>效率值</color>，進一步提高解決事件的速度。 "
+			info = "3.事件內派遣的艦船如果符合事件的<color=#92fc63>效率需求</color>，可額外提供解決事件的<color=#92fc63>效率值</color>，進一步提高解決事件的速度。"
 		},
 		{
-			info = "4.同時事件會有一些其他<color=#92fc63>評價需求</color>，派遣的艦船如果符合\n事件的評價需求，可額外為事件提供<color=# 92fc63>評價加成</color>，評價加成達到一定程度，事件會有<color=#92fc63>額外獎勵</color>，個別事件的評價可能影響最終出現的首領敵人。 "
+			info = "4.同時事件會有一些其他<color=#92fc63>評價需求</color>，派遣的艦船如果符合事件的評價需求，可額外為事件提供<color=#92fc63>評價加成</color>，評價加成達到一定程度，事件會有<color=#92fc63>額外獎勵</color>，個別事件的評價可能影響最終出現的首領敵人。"
 		},
 		{
-			info = "5.事件內有若干個節點，節點的成功率受所有成員派遣的\n<color=#92fc63>角色數量</color>影響，節點無論成功或失敗都會獲得獎勵。 "
+			info = "5.事件內有若干個節點，節點的成功率受所有成員派遣的<color=#92fc63>角色數量</color>影響，節點無論成功或失敗都會獲得獎勵。"
 		},
 		{
-			info = "6.節點獎勵將與事件獎勵統合成作戰報告提交，指揮官可\n到作戰報告介面領取。 "
+			info = "6.節點獎勵將與事件獎勵統合成作戰報告提交，指揮官可到作戰報告介面領取。"
 		}
 	}
 }
@@ -17080,4 +17084,257 @@ _G.pg.gametip.equipment_info_change_text_before = {
 
 _G.pg.gametip.equipment_info_change_text_after = {
 	tip = "變更後"
+}
+
+_G.pg.gametip.ssss_main_help = {
+	tip = {
+		{
+			info = [[
+活動規則：
+<color=#92fc63>11.30-12.14</color>期間開啟限時活動「交匯世界的弧光」
+1.通過特別作戰獲取「弧光結晶」，在「怪獸養成」和
+「補給商店」處兌換豐厚獎勵
+2.完成「激戰！古立特啾VS怪獸啾！」第七回可獲得
+限定傢俱<color=#92fc63>掛畫「都市激戰！」</color>
+注意：每日開放1回新遊戲，總計7回
+3.參與「夢芽的環遊之旅」可獲得限定家具、「弧光結晶」在內的豐富獎勵
+詳細獎勵及獲取條件可在「環遊之旅」介面中查看
+4.完成活動任務，收集12個「塞壬情報」後，可在
+「模型台」處獲取<color=#92fc63>「SSSS紀念章」</color>
+詳細獲取條件可在「模型台」介面中查看
+5.點擊「限時建造」可以前往建造介面
+6.點擊「換裝商店」可以前往換裝商店介面
+]]
+		}
+	}
+}
+
+_G.pg.gametip.mini_game_time = {
+	tip = "倒數計時:"
+}
+
+_G.pg.gametip.mini_game_score = {
+	tip = "分數:"
+}
+
+_G.pg.gametip.mini_game_leave = {
+	tip = "是否退出遊戲?"
+}
+
+_G.pg.gametip.mini_game_pause = {
+	tip = "是否繼續遊戲?"
+}
+
+_G.pg.gametip.mini_game_cur_score = {
+	tip = "本次得分:"
+}
+
+_G.pg.gametip.mini_game_high_score = {
+	tip = "最高得分:"
+}
+
+_G.pg.gametip.monopoly_world_tip1 = {
+	tip = "※點擊進行移動"
+}
+
+_G.pg.gametip.monopoly_world_tip2 = {
+	tip = "活動期間，每天獲得$1次行動機會。\n操作控制盤，在探索中獲取豐富獎勵！\n再移動一圈，可獲得:"
+}
+
+_G.pg.gametip.monopoly_world_tip3 = {
+	tip = "活動期間，每天獲得$1次行動機會。\n操作控制盤，在探索中獲取豐富獎勵！"
+}
+
+_G.pg.gametip.help_monopoly_world = {
+	tip = {
+		{
+			info = "活動說明："
+		},
+		{
+			info = "1.活動期間，玩家首日可獲得5次行動機會，此後每日24點可獲得5次，行動機會次數可累積；"
+		},
+		{
+			info = "2.遊戲中，根據玩家停留的格子可獲得不同獎勵，每次經過起點可獲得200物資，前五次經過起點可獲得包含限定家具和 「弧光結晶」在內的額外獎勵；"
+		},
+		{
+			info = "    ：獲得一定數量物資；",
+			icon = {
+				path = "jinbiworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：獲得一定數量石油；",
+			icon = {
+				path = "shiyouworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：觸發隨機事件；",
+			icon = {
+				path = "mingyunworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：觸發隨機獎勵；",
+			icon = {
+				path = "daojuworld",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = "    ：觸發隨機移動事件；",
+			icon = {
+				path = "saicheteshu",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				posX = 0
+			}
+		},
+		{
+			info = [[
+額外獎勵：
+第一次:「戴拿飛翼模型」、「弧光結晶」×150；
+第二次:「戴拿潛舟模型」、「弧光結晶」×150；
+第三次:「戴拿擊車模型」、「弧光結晶」×200；
+第四次:「戴拿戰龍模型」、「弧光結晶」×250；
+第五次:「戴拿暴龍模型」、「弧光結晶」×300；]]
+		}
+	}
+}
+
+_G.pg.gametip.ssssmedal_tip = {
+	tip = "收集<color=#9D46FF>「$1/12」</color>個塞壬情報可獲得<color=#9D46FF>「SSSS紀念章」</color>"
+}
+
+_G.pg.gametip.ssssmedal_name = {
+	tip = "<color=#946EFF>名字：</color>"
+}
+
+_G.pg.gametip.ssssmedal_belonging = {
+	tip = "<color=#946EFF>所屬：</color>"
+}
+
+_G.pg.gametip.ssssmedal_name1 = {
+	tip = "探索者武裝:「漫遊」"
+}
+
+_G.pg.gametip.ssssmedal_name2 = {
+	tip = "追跡者武裝:「鐵衛」"
+}
+
+_G.pg.gametip.ssssmedal_name3 = {
+	tip = "領洋者武裝:「侵襲」"
+}
+
+_G.pg.gametip.ssssmedal_name4 = {
+	tip = "破局者武裝:「毀滅」"
+}
+
+_G.pg.gametip.ssssmedal_name5 = {
+	tip = "執棋者武裝:「宿主」"
+}
+
+_G.pg.gametip.ssssmedal_name6 = {
+	tip = "淨化親"
+}
+
+_G.pg.gametip.ssssmedal_belonging1 = {
+	tip = "塞壬-執行者系列"
+}
+
+_G.pg.gametip.ssssmedal_belonging2 = {
+	tip = "塞壬-大概很高級"
+}
+
+_G.pg.gametip.ssssmedal_desc1 = {
+	tip = "名為「漫遊」的探索者特化武裝，行動迅捷，是海洋競速達人"
+}
+
+_G.pg.gametip.ssssmedal_desc2 = {
+	tip = "名為「鐵衛」的追跡者特化武裝，平衡了火力與機動能力，泛用性較強"
+}
+
+_G.pg.gametip.ssssmedal_desc3 = {
+	tip = "名為「侵襲」的領洋者特化武裝，機動性較差但堅如磐石，火力也不容小覷"
+}
+
+_G.pg.gametip.ssssmedal_desc4 = {
+	tip = "名為「毀滅」的破局者特化武裝，進一步強化了本就強勁的火力，壓迫感十足"
+}
+
+_G.pg.gametip.ssssmedal_desc5 = {
+	tip = "名為「宿主」的執棋者特化武裝，使用的艦載機也是特殊型號，頭上的是防空炮"
+}
+
+_G.pg.gametip.ssssmedal_desc6 = {
+	tip = "可愛與實力兼備的淨化親，這是她第幾次失去記憶了呢？"
+}
+
+_G.pg.gametip.show_fate_demand_count = {
+	tip = "顯示<color=#92fc63>天運擬合</color>所需數量"
+}
+
+_G.pg.gametip.show_design_demand_count = {
+	tip = "顯示<color=#92fc63>科研等級30</color>所需數量"
+}
+
+_G.pg.gametip.blueprint_select_overflow = {
+	tip = "超出所需數量"
+}
+
+_G.pg.gametip.blueprint_select_overflow_tip = {
+	tip = "兌換的<color=#22ff22>$1</color>超出所需數量<color=#ff5c5c>$2張</color>"
+}
+
+_G.pg.gametip.blueprint_exchange_empty_tip = {
+	tip = "當前沒有可以兌換的圖紙"
+}
+
+_G.pg.gametip.blueprint_exchange_select_display = {
+	tip = "已選數量 / 所需數量"
+}
+
+_G.pg.gametip.ssss_game_tip = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.<color=#92fc63>12月6日</color>為止每日0點開放<color=#92fc63>1</color>回新的遊戲，總計<color=#92fc63>7</color>回，可累計。第1回至第7回完成後可以獲得外觀裝備箱（SSSS）*1及弧光結晶*150，第七回還可以獲得限定傢俱<color=#92fc63>「掛畫「都市激戰！」」</color>
+遊戲規則：
+1.指揮官可以點擊螢幕下方的方塊進行消除：消除單格方塊我方角色不會進行攻擊，也不會增加技能槽及ENERGY METER；消除大於等於兩格同色方塊我方角色會進行普通攻擊，同時會增加技能槽及ENERGY METER
+2.我方角色進行攻擊時會獲得積分
+3.技能槽充滿時我方角色會釋放特殊技能並融合未釋放攻擊獲得積分；ENERGY METER充滿時我方角色將會變身，變身狀態下連續消除三格及以上方塊會獲得額外積分
+4.遊戲時間結束或點擊遊戲內退出按鈕均視為遊戲完成。因其他原因導致遊戲中途退出則視為遊戲未完成]]
+		}
+	}
+}
+
+_G.pg.gametip.ssss_medal_tip = {
+	tip = {
+		{
+			info = "活動時間：<color=#92fc63>11.30-12.14</color>\n1.活動期間，參與活動收集「塞壬情報」，收集全部<color=#92fc63>12</color>個「塞壬情報」後可獲得限定傢俱<color=#92fc63>「SSSS紀念章」</color>"
+		},
+		{
+			info = "2.塞壬情報的獲取條件可以從茜的模型台活動介面中查看"
+		},
+		{
+			info = "3.領取時間截止12月20日23點59分"
+		}
+	}
 }

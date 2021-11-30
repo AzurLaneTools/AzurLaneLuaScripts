@@ -2,31 +2,57 @@ slot0 = class("CrusingScene", import("view.base.BaseUI"))
 slot0.optionsPath = {
 	"top/home"
 }
-slot0.PhaseFrame = setmetatable({
-	[0] = 0,
-	[90.0] = 1080,
-	[100.0] = 1260,
-	[95.0] = 1185
-}, {
-	__index = function (slot0, slot1)
-		slot2 = 0
-		slot3 = 100
+slot0.PhaseFrameDic = {
+	map_202110 = {
+		[0] = 0,
+		[90.0] = 1080,
+		[100.0] = 1260,
+		[95.0] = 1185
+	},
+	map_202112 = {
+		[0] = 0,
+		nil,
+		5,
+		[40.0] = 155,
+		[63.0] = 267,
+		[62.0] = 261,
+		[70.0] = 311,
+		[74.0] = 340,
+		[50.0] = 200,
+		[54.0] = 214,
+		[90.0] = 391,
+		[82.0] = 369,
+		[60.0] = 240,
+		[10.0] = 40,
+		[100.0] = 410,
+		[30.0] = 120,
+		[80.0] = 362
+	}
+}
 
-		for slot7, slot8 in pairs(slot0) do
-			if slot7 < slot1 and slot2 < slot7 then
-				slot2 = slot7
+function slot0.getPhaseFrame(slot0, slot1)
+	return setmetatable(Clone(uv0.PhaseFrameDic[slot1]), {
+		__index = function (slot0, slot1)
+			slot2 = 0
+			slot3 = 100
+
+			for slot7, slot8 in pairs(slot0) do
+				if slot7 < slot1 and slot2 < slot7 then
+					slot2 = slot7
+				end
+
+				if slot1 < slot7 and slot7 < slot3 then
+					slot3 = slot7
+				end
 			end
 
-			if slot1 < slot7 and slot7 < slot3 then
-				slot3 = slot7
-			end
+			slot4 = (slot1 - slot2) / (slot3 - slot2)
+
+			return (1 - slot4) * slot0[slot2] + slot4 * slot0[slot3]
 		end
+	})
+end
 
-		slot4 = (slot1 - slot2) / (slot3 - slot2)
-
-		return (1 - slot4) * slot0[slot2] + slot4 * slot0[slot3]
-	end
-})
 slot0.FrameSpeed = 10
 slot0.PlaySpeed = 1.5
 
@@ -34,19 +60,22 @@ function slot0.getUIName(slot0)
 	return "CrusingUI"
 end
 
+function slot0.preload(slot0, slot1)
+	slot2 = getProxy(ActivityProxy)
+	slot2 = slot2:getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
+	slot4 = PoolMgr.GetInstance()
+
+	slot4:GetPrefab("crusingmap/" .. slot2:getConfig("config_client").map_name, "", true, function (slot0)
+		uv0.rtMap = tf(slot0)
+		uv0.PhaseFrame = uv0:getPhaseFrame(uv1)
+
+		uv2()
+	end)
+end
+
 function slot0.init(slot0)
 	slot0.rtBg = slot0._tf:Find("bg")
 	slot0.scrollMap = slot0.rtBg:Find("map_scroll")
-	slot1 = slot0.scrollMap
-	slot0.rtMap = slot1:Find("map")
-	slot0.maps = {
-		slot0.rtMap
-	}
-
-	while #slot0.maps < 3 do
-		table.insert(slot0.maps, cloneTplTo(slot0.rtMap, slot0.scrollMap))
-	end
-
 	slot0.btnTask = slot0.rtBg:Find("task_btn")
 	slot0.textTip = slot0.rtBg:Find("tip")
 	slot0.rtAward = slot0._tf:Find("award_panel")
@@ -134,7 +163,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = i18n("battlepass_main_help")
+			helps = i18n(uv0.activity:getConfig("config_client").tips[2])
 		})
 	end, SFX_PANEl)
 
@@ -152,36 +181,54 @@ function slot0.didEnter(slot0)
 
 	slot3 = slot0.rtWindow
 
-	function slot4()
+	onButton(slot0, slot3:Find("panel/btn_unlock"), function ()
 		uv0:hideWindow()
 		uv0:emit(CrusingMediator.EVENT_GO_CHARGE)
+	end, SFX_CONFIRM)
+
+	slot0.maps = {
+		(function (slot0)
+			setParent(slot0, uv0.scrollMap)
+			SetCompomentEnabled(slot0, typeof(Image), false)
+
+			slot0.name = "map_tpl"
+			slot2 = PoolMgr.GetInstance()
+			slot4 = uv0.activity
+
+			slot2:GetSpineChar(slot4:getConfig("config_client").spine_name, true, function (slot0)
+				setParent(slot0, uv0.rtIcon:Find("model"))
+				SetAction(slot0, uv1.isMoving and "move" or "normal")
+			end)
+
+			return {
+				_tf = slot0,
+				rtLine = slot0:Find("line"),
+				rtIcon = slot0:Find("icon"),
+				rtSimple = slot0:Find("simple")
+			}
+		end)(slot0.rtMap)
+	}
+
+	while #slot0.maps < 3 do
+		table.insert(slot0.maps, slot1(tf(Instantiate(slot0.rtMap))))
 	end
 
-	slot5 = SFX_CONFIRM
+	Canvas.ForceUpdateCanvases()
 
-	onButton(slot0, slot3:Find("panel/btn_unlock"), slot4, slot5)
-
-	for slot4, slot5 in ipairs(slot0.maps) do
-		slot6 = PoolMgr.GetInstance()
-
-		slot6:GetSpineChar("chess_hude", true, function (slot0)
-			setParent(slot0, uv0:Find("icon/model"))
-			SetAction(slot0, uv1.isMoving and "move" or "normal")
-			SetCompomentEnabled(uv0:Find("icon"), typeof(Image), false)
-		end)
+	for slot5, slot6 in ipairs(slot0.maps) do
+		setParent(slot6.rtLine, slot0.scrollMap:Find("bg"), true)
 	end
 
 	GetComponent(slot0.textTip, "RichText"):AddSprite("pt", GetSpriteFromAtlas(Item.GetIcon(DROP_TYPE_RESOURCE, slot0.ptId), ""))
-	setText(slot0.textTip, i18n("battlepass_main_tip"))
+	setText(slot0.textTip, i18n(slot0.activity:getConfig("config_client").tips[1]))
 
-	slot1 = slot0.activity.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
+	slot2 = slot0.activity.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 
-	setText(slot0.textDay, i18n("battlepass_main_time", math.floor(slot1 / 86400), math.floor(slot1 % 86400 / 3600)))
-	Canvas.ForceUpdateCanvases()
+	setText(slot0.textDay, i18n("battlepass_main_time", math.floor(slot2 / 86400), math.floor(slot2 % 86400 / 3600)))
 
-	slot2 = GetComponent(slot0.scrollMap, typeof(ScrollRect))
-	slot3 = slot2.content.rect.width
-	slot6 = slot3 / 3 / (slot3 - slot2.viewport.rect.width)
+	slot3 = GetComponent(slot0.scrollMap, typeof(ScrollRect))
+	slot4 = slot3.content.rect.width
+	slot7 = slot4 / 3 / (slot4 - slot3.viewport.rect.width)
 
 	onScroll(slot0, slot0.scrollMap, function (slot0)
 		if slot0.x < 0.1 then
@@ -212,6 +259,7 @@ function slot0.didEnter(slot0)
 
 	slot0:updateMapStatus()
 	LoadImageSpriteAtlasAsync(Item.GetIcon(DROP_TYPE_RESOURCE, slot0.ptId), "", slot0.sliderPt:Find("Text/icon"), true)
+	LoadImageSpriteAtlasAsync("crusingwindow/" .. slot0.activity:getConfig("config_client").map_name, "", slot0.rtWindow:Find("panel"))
 
 	if PlayerPrefs.GetInt("cursing_first_enter_scene:" .. slot0.activity.id, 0) == 0 then
 		PlayerPrefs.SetInt("cursing_first_enter_scene:" .. slot0.activity.id, 1)
@@ -230,6 +278,14 @@ function slot0.willExit(slot0)
 		if slot5 then
 			LeanTween.cancel(slot4)
 		end
+	end
+
+	slot1 = PoolMgr.GetInstance()
+	slot2 = "crusingmap/" .. slot0.activity:getConfig("config_client").map_name
+
+	for slot6, slot7 in ipairs(slot0.maps) do
+		setParent(slot7.rtLine, slot7._tf, true)
+		slot1:ReturnPrefab(slot2, "", go(slot7._tf))
 	end
 end
 
@@ -313,7 +369,7 @@ function slot0.updateMapStatus(slot0)
 		slot6 = nil
 		slot7 = {}
 
-		eachChild(slot5:Find("line"), function (slot0)
+		eachChild(slot5.rtLine, function (slot0)
 			if uv0.phase < tonumber(slot0.name) then
 				if not uv1 then
 					uv1 = slot1
@@ -357,8 +413,8 @@ function slot0.updateMapStatus(slot0)
 					end)
 				end
 
-				slot4 = uv3
-				slot4 = slot4:Find(slot2 and "simple/active" or "simple/gray")
+				slot4 = uv3.rtSimple
+				slot4 = slot4:Find(slot2 and "active" or "gray")
 
 				eachChild(slot0, function (slot0)
 					uv0(uv1:Find(slot0.name), slot0)
@@ -379,18 +435,18 @@ function slot0.updateMapWay(slot0)
 	PlayerPrefs.SetInt(string.format("crusing_%d_phase_display", slot5), slot0.phase)
 
 	for slot5, slot6 in ipairs(slot0.maps) do
-		slot7 = GetComponent(slot6:Find("icon"), typeof(Animator))
+		slot7 = GetComponent(slot6.rtIcon, typeof(Animator))
 
 		if slot1 < slot0.phase then
 			slot0.isMoving = true
-			slot9 = uv0.PhaseFrame[slot0.phase]
+			slot9 = slot0.PhaseFrame[slot0.phase]
 			slot7.speed = uv0.PlaySpeed
 
 			slot7:Play("empty")
-			slot7:Play("mix", 0, uv0.PhaseFrame[slot1] / uv0.PhaseFrame[#slot0.awardList])
+			slot7:Play("mix", 0, slot0.PhaseFrame[slot1] / slot0.PhaseFrame[#slot0.awardList])
 
-			if slot6:Find("icon/model").childCount > 0 then
-				SetAction(slot6:Find("icon/model"):GetChild(0), "move")
+			if slot6.rtIcon:Find("model").childCount > 0 then
+				SetAction(slot6.rtIcon:Find("model"):GetChild(0), "move")
 			end
 
 			slot10 = nil
@@ -398,15 +454,15 @@ function slot0.updateMapWay(slot0)
 				uv0.speed = 0
 				uv1.LTDic[uv2] = false
 
-				if uv3:Find("icon/model").childCount > 0 then
-					SetAction(uv3:Find("icon/model"):GetChild(0), "normal")
+				if uv3.rtIcon:Find("model").childCount > 0 then
+					SetAction(uv3.rtIcon:Find("model"):GetChild(0), "normal")
 				end
 			end)).uniqueId] = true
 		else
 			slot7.speed = 0
 
 			slot7:Play("empty")
-			slot7:Play("mix", 0, uv0.PhaseFrame[slot0.phase] / uv0.PhaseFrame[#slot0.awardList])
+			slot7:Play("mix", 0, slot0.PhaseFrame[slot0.phase] / slot0.PhaseFrame[#slot0.awardList])
 		end
 	end
 end

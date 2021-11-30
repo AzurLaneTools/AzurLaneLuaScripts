@@ -5221,6 +5221,107 @@ pg.ship_skin_template_4 = {
 			}
 		}
 	},
+	[107224] = {
+		ship_group = 10722,
+		name = "海風的Lucky Time",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "108",
+		id = 107224,
+		group_index = 4,
+		prefab = "duli_3",
+		painting = "duli_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70624,
+		shop_type_id = 9,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "好像只要在娃娃機這裡投入硬幣，然後操縱搖桿，接著放下爪子……啊，成功了！啾啾玩偶到手了！感覺挺簡單的嘛。",
+		voice_actor = 130,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.16,
+					1.095,
+					0
+				}
+			},
+			plane = {
+				{
+					0.999,
+					1.075,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.421,
+							2.463,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
 	[107230] = {
 		ship_group = 10723,
 		name = "普林斯頓",

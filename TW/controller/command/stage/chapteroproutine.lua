@@ -118,7 +118,7 @@ function slot0.doExtraFlagUpdate(slot0)
 	if #slot0.data.add_flag_list > 0 or #slot1.del_flag_list > 0 then
 		slot3:updateExtraFlag(slot2, slot1.add_flag_list, slot1.del_flag_list)
 
-		slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyFleet, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems)
+		slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyFleet, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems, ChapterConst.DirtyAttachment)
 	end
 end
 
@@ -150,21 +150,26 @@ end
 
 function slot0.doMove(slot0)
 	slot1 = slot0.op
-	slot3 = slot0.chapter
-	slot4 = nil
+	slot2 = slot0.extraFlag or 0
+	slot4 = slot0.chapter
+	slot5 = nil
 
 	if #slot0.data.move_path > 0 then
-		slot4 = _.map(_.rest(slot2.move_path, 1), function (slot0)
+		slot5 = _.map(_.rest(slot3.move_path, 1), function (slot0)
 			return {
 				row = slot0.row,
 				column = slot0.column
 			}
 		end)
+		slot4.moveStep = slot4.moveStep + #slot3.move_path
+		slot2 = bit.bor(slot2, ChapterConst.DirtyAutoAction)
 	end
 
-	slot0.fullpath = slot4
+	slot0.fullpath = slot5
 
-	slot3:IncreaseRound()
+	slot4:IncreaseRound()
+
+	slot0.extraFlag = slot2
 end
 
 function slot0.doOpenBox(slot0)
@@ -381,12 +386,15 @@ end
 
 function slot0.doEnemyRound(slot0)
 	slot1 = slot0.chapter
+	slot2 = slot0.extraFlag or 0
 
 	slot1:IncreaseRound()
 
 	if slot1:getPlayType() == ChapterConst.TypeDefence then
 		slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyAttachment)
 	end
+
+	slot0.extraFlag = bit.bor(slot2, ChapterConst.DirtyAutoAction)
 end
 
 function slot0.doTeleportByPortal(slot0)

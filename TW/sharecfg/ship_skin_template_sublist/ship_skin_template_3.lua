@@ -1,113 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_3 = {
-	[102181] = {
-		ship_group = 10218,
-		name = "紅色蘋果糖",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "101",
-		id = 102181,
-		group_index = 1,
-		prefab = "kangkede_2",
-		painting = "kangkede_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70117,
-		shop_type_id = 2,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "蘋果糖、鯛魚燒、炒麵～重櫻的“廟會”還真是不錯呢～嘻嘻，指揮官也要舔一口蘋果糖嗎？喏，給你～",
-		voice_actor = 42,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.16,
-					0.89,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.18,
-					0.84,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.23,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
 	[102182] = {
 		ship_group = 10218,
 		name = "聖誕☆糖分天國",
@@ -5122,6 +5014,135 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[103243] = {
+		ship_group = 10324,
+		name = "Happy Dating！",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "108",
+		id = 103243,
+		group_index = 3,
+		prefab = "bulaimodun_2",
+		painting = "bulaimodun_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70623,
+		shop_type_id = 9,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "今天的戰利品目前就是這些！先在這個咖啡廳休息一下，等休息好了，我們就再次出發吧！",
+		voice_actor = 134,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			10,
+			-90,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.229,
+					1.01,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.166,
+					0.998,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.463,
+							2.539,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleY = {
+				-15,
+				15
+			}
+		}
+	},
 	[103250] = {
 		ship_group = 10325,
 		name = "巴爾的摩(μ兵裝)",
@@ -6303,6 +6324,114 @@ pg.ship_skin_template_3 = {
 						{
 							-0.403,
 							2.209,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[105092] = {
+		ship_group = 10509,
+		name = "旅途的旋律",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "149",
+		id = 105092,
+		group_index = 2,
+		prefab = "keluoladuo_3",
+		painting = "keluoladuo_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 9999,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "♪……………好可愛。……指揮官，剛才那個…請當做沒聽到。",
+		voice_actor = 152,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.302,
+					1.084,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.284,
+					0.88,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.138,
+					1.232,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.502,
+							2.446,
 							0
 						}
 					}

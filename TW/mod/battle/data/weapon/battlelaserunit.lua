@@ -153,7 +153,15 @@ function slot4.createBeam(slot0, slot1)
 	elseif slot4.offset_prioritise then
 		slot1:SetAimPosition(slot0._aimPos, slot12)
 	else
-		slot1:SetAimAngle(math.rad2Deg * math.atan2(slot0._hostPos.z - slot0._aimPos.z, slot0._hostPos.x - slot0._aimPos.x))
+		slot14 = nil
+
+		if slot11 == uv2.FRIENDLY_CODE then
+			slot14 = math.rad2Deg * math.atan2(slot0._aimPos.z - slot0._hostPos.z, slot0._aimPos.x - slot0._hostPos.x)
+		elseif slot11 == uv2.FOE_CODE then
+			slot14 = math.rad2Deg * math.atan2(slot0._hostPos.z - slot0._aimPos.z, slot0._hostPos.x - slot0._aimPos.x)
+		end
+
+		slot1:SetAimAngle(slot14)
 	end
 
 	if slot11 == uv2.FRIENDLY_CODE then
@@ -183,6 +191,8 @@ function slot4.doBeamDamage(slot0, slot1)
 			uv0.Battle.PlayBattleSFX(slot1:GetSFXID())
 		end
 	end
+
+	slot0._dataProxy:RemoveBulletUnit(slot2:GetUniqueID())
 end
 
 function slot4.EnterCoolDown(slot0)

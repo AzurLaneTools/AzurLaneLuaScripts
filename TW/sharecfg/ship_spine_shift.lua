@@ -97,5 +97,19 @@ pg.ship_spine_shift = {
 			-36,
 			24
 		}
+	},
+	qian = {
+		spine = "qian",
+		mainui_shift = {
+			-20,
+			-190
+		}
+	},
+	qian_2 = {
+		spine = "qian_2",
+		mainui_shift = {
+			0,
+			-185
+		}
 	}
 }

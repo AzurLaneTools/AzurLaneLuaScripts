@@ -153,7 +153,7 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 	setActive(slot0.resIcon, not slot1:isItemBox())
 	setActive(slot0.resCount, not slot1:isItemBox())
 	setActive(slot0.name, not slot1:isGem())
-	setText(slot0.name, slot1:getConfig("name"))
+	setText(slot0.name, slot1:getConfig("name_display"))
 	setActive(slot0.important, slot1:isItemBox() or slot1:isGiftBox())
 	setActive(slot0.count, slot9 or slot1:isMonthCard())
 

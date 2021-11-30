@@ -178,7 +178,7 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 	slot15 = slot7
 	slot16, slot17, slot18 = nil
 
-	table.SerialForeachArray(slot6, function (slot0, slot1, slot2)
+	table.SerialIpairsAsync(slot6, function (slot0, slot1, slot2)
 		seriesAsync({
 			function (slot0)
 				pg.ConnectionMgr.GetInstance():Send(uv0 and 14013 or 14015, uv0 and {

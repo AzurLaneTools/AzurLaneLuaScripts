@@ -4100,6 +4100,52 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[210] = {
+		spine_extra = "",
+		describe = "懸浮在全息微縮城市投影之上的原始接收器模型，結束無趣的日常，一起結成夢想的同盟吧，ACCESS FLASH！——「交匯世界的弧光」活動紀念",
+		gain_by = "交匯世界的弧光",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "gulitexunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "SSSS紀念章",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 210,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"ssss-az-pv"
+			}
+		},
+		spine = {
+			{
+				"gulitexunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "飛高高～飛高高～…唔！？太高了太高了！！QAQ",
@@ -4620,6 +4666,92 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"7yuetongBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100008] = {
+		belong = 1,
+		describe = "嘿咻！嘿咻！衝刺再衝刺！讓祭典更加熱鬧起來啾！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "啾啾神轎",
+		tag = 6,
+		icon = "8yueqiandaoicon",
+		deblocking = 1,
+		level = 1,
+		comfortable = 0,
+		effect = "",
+		advice = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100008,
+		can_rotate = 0,
+		size = {
+			6,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"8yueqiandaoB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"8yueqiandaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"8yueqiandaoCharControl",
+				"8yueqiandaoCharControl2"
 			}
 		},
 		interAction_group = {}
@@ -71128,6 +71260,2152 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[84001] = {
+		spine_extra = "",
+		describe = "“警告—警告——巨大怪獸接近中！”",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "特攝都市地面",
+		effect = "",
+		advice = 0,
+		icon = "dibanglticon",
+		spine_action_replace = "",
+		picture = "glt/dibanglt",
+		comfortable = 4,
+		canputon = 0,
+		id = 84001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84002] = {
+		spine_extra = "",
+		describe = "“警告—警告——巨大怪獸接近中！”",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "特攝都市天空",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiglticon",
+		spine_action_replace = "",
+		picture = "glt/qiangbiglt",
+		comfortable = 4,
+		canputon = 0,
+		id = 84002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84101] = {
+		spine_extra = "",
+		describe = "電車通過，注意安全！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diancheglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "電車模型",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/diancheglt",
+		canputon = 0,
+		id = 84101,
+		can_rotate = 0,
+		size = {
+			9,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84102] = {
+		spine_extra = "",
+		describe = "電車一定會準點到達，除非遭遇了襲擊",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dianchezhanglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "電車站模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/dianchezhanglt",
+		canputon = 0,
+		id = 84102,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84103] = {
+		spine_extra = "",
+		describe = "只是模型而已，沒有通電",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dianlitietaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "電力塔模型",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/dianlitietaglt",
+		canputon = 0,
+		id = 84103,
+		can_rotate = 0,
+		size = {
+			1,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84104] = {
+		spine_extra = "",
+		describe = "本日閉業中——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "dianmianglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "商店街模型",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/dianmianglt",
+		canputon = 0,
+		id = 84104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84106] = {
+		spine_extra = "",
+		describe = "一棟堅固的高樓，作為座椅來說剛剛好",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dudongdalouglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "辦公大樓座椅",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/dudongdalouglt",
+		canputon = 0,
+		id = 84106,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0.6,
+					115.6
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84107] = {
+		spine_extra = "",
+		describe = "普通而開闊的公園，適合作為戰鬥的舞台",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gongyuanglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "公園模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/gongyuanglt",
+		canputon = 0,
+		id = 84107,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"attack",
+				{
+					-28.3,
+					24.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84108] = {
+		spine_extra = "",
+		describe = "壞成這樣的大概就不用…嗯？遠程辦公？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "huailouqunglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "樓房區廢墟",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/huailouqunglt",
+		canputon = 0,
+		id = 84108,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84111] = {
+		spine_extra = "",
+		describe = "用於特攝佈景中凸顯氣氛的廢墟模型",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 6,
+		tag = 1,
+		icon = "huaizhuzhaiaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "橙色居住區廢墟",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/huaizhuzhaiaglt",
+		canputon = 0,
+		id = 84111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84117] = {
+		spine_extra = "",
+		describe = "用於特攝佈景中凸顯氣氛的廢墟模型",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 6,
+		tag = 1,
+		icon = "huaizhuzhaibglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "青色居住區廢墟",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/huaizhuzhaibglt",
+		canputon = 0,
+		id = 84117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84123] = {
+		spine_extra = "",
+		describe = "警告——水深危險",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "huglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "湖泊浴缸",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/huglt",
+		canputon = 0,
+		id = 84123,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-72.1,
+					-44.2
+				},
+				{
+					1,
+					1
+				},
+				"glt/huglt_using",
+				0,
+				{
+					{
+						217,
+						221
+					},
+					{
+						835,
+						636
+					},
+					"glt/huglt_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					21.1,
+					-58.1
+				},
+				{
+					-1,
+					1
+				},
+				"glt/huglt_using",
+				0,
+				{
+					{
+						33,
+						241
+					},
+					{
+						835,
+						636
+					},
+					"glt/huglt_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84124] = {
+		spine_extra = "",
+		describe = "戰鬥的痕跡，今天的城市也被好好守護著呢",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "kengaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "撞擊坑C",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengaglt",
+		canputon = 0,
+		id = 84124,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84127] = {
+		spine_extra = "",
+		describe = "戰鬥的痕跡，今天的城市也被好好守護著呢",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "kengbglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "撞擊坑A",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengbglt",
+		canputon = 0,
+		id = 84127,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84129] = {
+		spine_extra = "",
+		describe = "戰鬥的痕跡，今天的城市也被好好守護著呢",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "kengcglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "撞擊坑B",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengcglt",
+		canputon = 0,
+		id = 84129,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84132] = {
+		spine_extra = "",
+		describe = "戰鬥的痕跡，今天的城市也被好好守護著呢",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "kengdglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "撞擊坑D",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengdglt",
+		canputon = 0,
+		id = 84132,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84135] = {
+		spine_extra = "",
+		describe = "戰鬥的痕跡，今天的城市也被好好守護著呢",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kengeglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "撞擊坑F",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengeglt",
+		canputon = 0,
+		id = 84135,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84136] = {
+		spine_extra = "",
+		describe = "戰鬥的痕跡，今天的城市也被好好守護著呢",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kengfglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "撞擊坑E",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kengfglt",
+		canputon = 0,
+		id = 84136,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84137] = {
+		spine_extra = "",
+		describe = "戰鬥的痕跡，今天的城市也被好好守護著呢",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kenggglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "巨大撞擊坑",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/kenggglt",
+		canputon = 0,
+		id = 84137,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84138] = {
+		spine_extra = "",
+		describe = "大都市的基礎組成部分",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 8,
+		tag = 1,
+		icon = "louqunglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "樓房區",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/louqunglt",
+		canputon = 0,
+		id = 84138,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84146] = {
+		spine_extra = "",
+		describe = "一隻腳就可以跨過的微型道路",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "maluaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "微縮道路A",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/maluaglt",
+		canputon = 0,
+		id = 84146,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84149] = {
+		spine_extra = "",
+		describe = "一隻腳就可以跨過的微型道路",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "malubglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "微縮道路B",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/malubglt",
+		canputon = 0,
+		id = 84149,
+		can_rotate = 0,
+		size = {
+			10,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84152] = {
+		spine_extra = "",
+		describe = "一隻腳就可以跨過的微型道路",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "malucglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "微縮道路C",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/malucglt",
+		canputon = 0,
+		id = 84152,
+		can_rotate = 0,
+		size = {
+			12,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84155] = {
+		spine_extra = "",
+		describe = "一隻腳就可以跨過的微型道路",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "maluzhuanjiaoaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "微縮道路D",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/maluzhuanjiaoaglt",
+		canputon = 0,
+		id = 84155,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84158] = {
+		spine_extra = "",
+		describe = "一隻腳就可以跨過的微型道路",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "maluzhuanjiaobglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "微縮道路E",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/maluzhuanjiaobglt",
+		canputon = 0,
+		id = 84158,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84161] = {
+		spine_extra = "",
+		describe = "一隻腳就可以跨過的微型道路",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "maluzhuanjiaocglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "微縮道路F",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "glt/maluzhuanjiaocglt",
+		canputon = 0,
+		id = 84161,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84164] = {
+		spine_extra = "",
+		describe = "巨大的群山模型，可惜是空心的",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shanglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "群山模型",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/shanglt",
+		canputon = 0,
+		id = 84164,
+		can_rotate = 0,
+		size = {
+			9,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84165] = {
+		spine_extra = "",
+		describe = "還原了水上樂園的建築主體，但沒有室外部分",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuishangleyuanglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "水上樂園模型",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/shuishangleyuanglt",
+		canputon = 0,
+		id = 84165,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84166] = {
+		spine_extra = "",
+		describe = "水閘模型，也可以被當做座椅使用",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuizhaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "水閘座椅",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/shuizhaglt",
+		canputon = 0,
+		id = 84166,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0.6,
+					72.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84167] = {
+		spine_extra = "",
+		describe = "天為被地為床，附贈防止掉落的行道樹",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tianglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "農田床墊",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/tianglt",
+		canputon = 0,
+		id = 84167,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					60.7,
+					27.7
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					-24,
+					-24.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84168] = {
+		spine_extra = "",
+		describe = "學校模型，可以坐下休息，也可躺下睡覺",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 84,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xuexiaoglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "多功能學校模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/xuexiaoglt",
+		canputon = 0,
+		id = 84168,
+		can_rotate = 0,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-135.7,
+					81.7
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					36.3,
+					-42.4
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-10.2,
+					152.7
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84169] = {
+		spine_extra = "",
+		describe = "用於特攝佈景的微縮住宅區模型",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "zhuzhaiaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "橙色住宅區",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/zhuzhaiaglt",
+		canputon = 0,
+		id = 84169,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84171] = {
+		spine_extra = "",
+		describe = "用於特攝佈景的微縮住宅區模型",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "zhuzhaibglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "青色住宅區",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "glt/zhuzhaibglt",
+		canputon = 0,
+		id = 84171,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84173] = {
+		spine_extra = "",
+		describe = "今天想要拍攝什麼畫面呢？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "拍攝軌道",
+		themeId = 84,
+		icon = "paisheguidaoglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84173,
+		can_rotate = 1,
+		size = {
+			24,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paisheguidao",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[84174] = {
+		belong = 1,
+		describe = "“3、2、1！拍的非常完美！”",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 84,
+		count = 1,
+		is_3d_obj = 0,
+		name = "綠幕攝影棚",
+		tag = 1,
+		icon = "lvmuglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 4,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84174,
+		can_rotate = 1,
+		size = {
+			9,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lvmuB",
+				"normal"
+			},
+			{
+				"lvmuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						"lvmuCharcontrol",
+						"dance"
+					},
+					{
+						"action2",
+						"lvmuCharcontrol",
+						"dance"
+					},
+					{
+						"action3",
+						"lvmuCharcontrol",
+						"dance"
+					},
+					{
+						"action4",
+						"lvmuCharcontrol",
+						"dance"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"lvmuCharcontrol"
+			}
+		},
+		interAction_group = {}
+	},
+	[84175] = {
+		spine_extra = "",
+		describe = "ACCESS CODE：Gridman Calibur!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shengjianglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古立特聖劍模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/shengjianglt",
+		canputon = 0,
+		id = 84175,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84176] = {
+		spine_extra = "",
+		describe = "ACCESS CODE：Battle Tracto Max!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tankeglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "征戰巨坦模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/tankeglt",
+		canputon = 0,
+		id = 84176,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84177] = {
+		spine_extra = "",
+		describe = "ACCESS CODE：Buster Borr!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zuantouglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "爆裂鑽孔機模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/zuantouglt",
+		canputon = 0,
+		id = 84177,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84178] = {
+		spine_extra = "",
+		describe = "ACCESS CODE：Sky Vitter!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "feijiglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "蒼穹噴氣機模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/feijiglt",
+		canputon = 0,
+		id = 84178,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84179] = {
+		spine_extra = "",
+		describe = "ACCESS MODE： Dynasoldier!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhanlongglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "戴拿戰龍模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/zhanlongglt",
+		canputon = 0,
+		id = 84179,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84180] = {
+		spine_extra = "",
+		describe = "ACCESS MODE： Dynawing!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "feiyiglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "戴拿飛翼模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/feiyiglt",
+		canputon = 0,
+		id = 84180,
+		can_rotate = 0,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84181] = {
+		spine_extra = "",
+		describe = "ACCESS MODE： Dynadiver!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "qianzhouglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "戴拿潛舟模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/qianzhouglt",
+		canputon = 0,
+		id = 84181,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84182] = {
+		spine_extra = "",
+		describe = "合體強龍·戴拿暴龍",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "rexglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "戴拿暴龍模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/rexglt",
+		canputon = 0,
+		id = 84182,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84183] = {
+		spine_extra = "",
+		describe = "ACCESS MODE： Dynastriker!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jicheglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "戴拿擊車模型",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "glt/jicheglt",
+		canputon = 0,
+		id = 84183,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[84184] = {
+		spine_extra = "",
+		describe = "集合了眾多武裝的全能形態，穿上你就是拯救世界的主角了！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "全能古立特啾戲服",
+		themeId = 84,
+		icon = "hetiglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84184,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"quannenggltB",
+				"normal"
+			},
+			{
+				"quannenggltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					2.4,
+					45
+				},
+				{
+					100,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84185] = {
+		spine_extra = "",
+		describe = "想來體驗一下“最強”的感覺嗎？",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "帝王古立特騎士啾戲服",
+		themeId = 84,
+		icon = "diwangglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84185,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diwanggltB",
+				"normal"
+			},
+			{
+				"diwanggltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						nil,
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-2,
+					45
+				},
+				{
+					100,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84186] = {
+		spine_extra = "",
+		describe = "偶爾當一回反派也是非常新鮮的體驗——",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "怪獸啾戲服",
+		themeId = 84,
+		icon = "guaishouglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84186,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guaishougltB",
+				"normal"
+			},
+			{
+				"guaishougltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					4.6,
+					36.3
+				},
+				{
+					100,
+					80
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84301] = {
+		spine_extra = "",
+		describe = "描繪了古立特啾VS怪獸啾畫面的掛畫",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 84,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuangglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "掛畫「都市激戰！」",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "glt/chuangglt",
+		canputon = 0,
+		id = 84301,
+		can_rotate = 0,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -71216,12 +73494,14 @@ pg.furniture_data_template = {
 		205,
 		206,
 		209,
+		210,
 		100002,
 		100003,
 		100004,
 		100005,
 		100006,
 		100007,
+		100008,
 		1001,
 		1002,
 		1101,
@@ -72746,6 +75026,54 @@ pg.furniture_data_template = {
 		79304,
 		79306,
 		79307,
-		79308
+		79308,
+		84001,
+		84002,
+		84101,
+		84102,
+		84103,
+		84104,
+		84106,
+		84107,
+		84108,
+		84111,
+		84117,
+		84123,
+		84124,
+		84127,
+		84129,
+		84132,
+		84135,
+		84136,
+		84137,
+		84138,
+		84146,
+		84149,
+		84152,
+		84155,
+		84158,
+		84161,
+		84164,
+		84165,
+		84166,
+		84167,
+		84168,
+		84169,
+		84171,
+		84173,
+		84174,
+		84175,
+		84176,
+		84177,
+		84178,
+		84179,
+		84180,
+		84181,
+		84182,
+		84183,
+		84184,
+		84185,
+		84186,
+		84301
 	}
 }

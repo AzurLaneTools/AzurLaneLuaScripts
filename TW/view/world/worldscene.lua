@@ -2224,32 +2224,32 @@ function slot0.DisplayAwards(slot0, slot1, slot2, slot3)
 end
 
 function slot0.DisplayPhaseAction(slot0, slot1)
-	function slot2(slot0)
-		if table.remove(uv0, 1).anim then
-			uv1:BuildCutInAnim(slot1.anim, slot0)
-		elseif slot1.story then
-			if nowWorld.isAutoFight then
-				slot0()
-			else
-				pg.NewStoryMgr.GetInstance():Play(slot1.story, slot0, true)
+	slot2 = {}
+
+	while #slot1 > 0 do
+		slot3 = table.remove(slot1, 1)
+
+		table.insert(slot2, function (slot0)
+			if uv0.anim then
+				uv1:BuildCutInAnim(uv0.anim, slot0)
+			elseif uv0.story then
+				if nowWorld.isAutoFight then
+					slot0()
+				else
+					pg.NewStoryMgr.GetInstance():Play(uv0.story, slot0, true)
+				end
+			elseif uv0.drops then
+				if nowWorld.isAutoFight then
+					nowWorld:AddAutoInfo("drops", uv0.drops)
+					slot0()
+				else
+					uv1:DisplayAwards(uv0.drops, {}, slot0)
+				end
 			end
-		elseif slot1.drops then
-			if nowWorld.isAutoFight then
-				nowWorld:AddAutoInfo("drops", slot1.drops)
-				slot0()
-			else
-				uv1:DisplayAwards(slot1.drops, {}, slot0)
-			end
-		end
+		end)
 	end
 
-	slot3 = {}
-
-	for slot7 = 1, #slot1 do
-		table.insert(slot3, slot2)
-	end
-
-	seriesAsync(slot3, function ()
+	seriesAsync(slot2, function ()
 		uv0:Op("OpInteractive")
 	end)
 end

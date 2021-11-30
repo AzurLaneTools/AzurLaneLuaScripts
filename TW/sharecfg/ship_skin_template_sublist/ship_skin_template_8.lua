@@ -1,348 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_8 = {
-	[205091] = {
-		ship_group = 20509,
-		name = "Noble Rouge",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "115",
-		id = 205091,
-		group_index = 1,
-		prefab = "hao_2",
-		painting = "hao_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70393,
-		shop_type_id = 9,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "打扮比想像中的還要更花時間呢…我準備好了，可以出發囉，指揮官。 …指揮官？再發呆下去，天都要黑了哦？",
-		voice_actor = 116,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.172,
-					1.213,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.153,
-					1.214,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.006,
-					0.002,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.136,
-					1.144,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.26,
-							0.53
-						}
-					}
-				}
-			}
-		}
-	},
-	[205100] = {
-		ship_group = 20510,
-		name = "英勇",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 205100,
-		group_index = 0,
-		prefab = "yingyong",
-		painting = "yingyong",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "伊莉莎白女王級戰列艦—英勇，舷號02",
-		voice_actor = 240,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.605,
-					1.205,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.607,
-					1.255,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.014,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.59,
-					1.288,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.415,
-							0.53
-						}
-					}
-				}
-			}
-		}
-	},
-	[205101] = {
-		ship_group = 20510,
-		name = "小護士的時間",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "138",
-		id = 205101,
-		group_index = 1,
-		prefab = "yingyong_2",
-		painting = "yingyong_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70397,
-		shop_type_id = 15,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "嗯哼，這次的“港區醫院特別演習”是一次很有意義的活動，作為領導艦隊之人，自然要大力支持…但是！為什麼我只是個小護士！ ？侍從，這到底是怎麼一回事！",
-		voice_actor = 240,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.512,
-					1.19,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.502,
-					1.248,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.007,
-					-0.004,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.548,
-					1.239,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.366,
-							0.53
-						}
-					}
-				}
-			}
-		}
-	},
 	[205102] = {
 		ship_group = 20510,
 		name = "英勇女王陛下？",
@@ -6632,6 +6289,459 @@ pg.ship_skin_template_8 = {
 						{
 							-0.49,
 							2.55,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301057] = {
+		ship_group = 30105,
+		name = "冷靜偶像·迷惑中",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "120",
+		id = 301057,
+		group_index = 7,
+		prefab = "lingbo_7",
+		painting = "lingbo_7",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70263,
+		shop_type_id = 11,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "偶像，{namecode:6}，出道？唔，因為標槍她們也出道了，所以，我也要一起……指揮官，偶像平時，都做些什麼呢？",
+		voice_actor = 32,
+		spine_offset = "",
+		illustrator = 2,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.152,
+					1.049,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.119,
+					1.069,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.127,
+					1.026,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.63,
+							2.53,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301058] = {
+		ship_group = 30105,
+		name = "鬼神之華裳",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301058,
+		group_index = 8,
+		prefab = "lingbo_h",
+		painting = "lingbo_h",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "還是{namecode:6}…的說。這樣的服裝，還不太習慣…指揮官，覺得合適嗎？",
+		voice_actor = 32,
+		spine_offset = "",
+		illustrator = 2,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.21,
+					0.95,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.36,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.26,
+					0.97,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.63,
+							2.53,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301059] = {
+		ship_group = 30105,
+		name = "{namecode:6}.改",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301059,
+		group_index = 9,
+		prefab = "lingbo_g",
+		painting = "lingbo_g",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "{namecode:6}，改造完畢…的說。感覺變得更強了，不過…指揮官，能摸摸我的頭嗎？稍微有點…想要撒嬌…",
+		voice_actor = 32,
+		spine_offset = "",
+		illustrator = 2,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.1,
+					1.25,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.1,
+					1.25,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.06,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.1,
+					1.25,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							2.54,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301090] = {
+		ship_group = 30109,
+		name = "{namecode:11}",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 301090,
+		group_index = 0,
+		prefab = "xiao",
+		painting = "xiao",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "特III型{namecode:11}級驅逐艦一番艦—{namecode:11}",
+		voice_actor = 24,
+		spine_offset = "",
+		illustrator = 2,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.886,
+					1.158,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.886,
+					1.158,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.103,
+					0.017
+				}
+			},
+			antiaircraft = {
+				{
+					0.886,
+					1.158,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.416,
+							2.325,
 							0
 						}
 					}

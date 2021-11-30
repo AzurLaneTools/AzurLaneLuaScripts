@@ -1131,5 +1131,57 @@ pg.voice_actor_CN = {
 	{
 		code = 283,
 		actor_name = "涼本秋穗"
+	},
+	{
+		code = 284,
+		actor_name = "早見沙織"
+	},
+	{
+		code = 285,
+		actor_name = "河井晴菜"
+	},
+	{
+		code = 286,
+		actor_name = "戶田惠"
+	},
+	{
+		code = 287,
+		actor_name = "野口瑠璃子"
+	},
+	{
+		code = 288,
+		actor_name = "芹澤優"
+	},
+	{
+		code = 289,
+		actor_name = "藤原夏海"
+	},
+	{
+		code = 290,
+		actor_name = "藤井美波"
+	},
+	{
+		code = 291,
+		actor_name = "前田佳織里"
+	},
+	{
+		code = 292,
+		actor_name = "島田愛野"
+	},
+	{
+		code = 293,
+		actor_name = "宮本侑芽"
+	},
+	{
+		code = 294,
+		actor_name = "三森鈴子"
+	},
+	{
+		code = 295,
+		actor_name = "若山詩音"
+	},
+	{
+		code = 296,
+		actor_name = "安濟知佳"
 	}
 }

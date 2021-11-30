@@ -197,7 +197,7 @@ return {
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.MUSIC_FESTIVAL)
 				end, SFX_PANEL)
-				setActive(slot1:Find("Tip"), IdolPTPage.NeedTip() or IdolMedalCollectionMediator.isHaveActivableMedal() or (function ()
+				setActive(slot1:Find("Tip"), IdolPTPage.NeedTip() or Activity.isHaveActivableMedal() or (function ()
 					return getProxy(InstagramProxy):ShouldShowTip()
 				end)() or (function ()
 					if uv0:getActivityById(ActivityConst.MUSIC_FESTIVAL_ID) and not slot0:isEnd() then
@@ -217,7 +217,7 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				setActive(slot1.Find(slot1, "Tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
+				setActive(slot1.Find(slot1, "Tip"), Activity.isHaveActivableMedal())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE)
 				end, SFX_PANEL)
@@ -332,7 +332,7 @@ return {
 				end, SFX_PANEL)
 				setActive(slot1:Find("Tip"), (function ()
 					return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()
-				end)() or IdolMedalCollectionMediator.isHaveActivableMedal() or (function ()
+				end)() or Activity.isHaveActivableMedal() or (function ()
 					slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
 
 					return slot0:getConfig("reward_need") <= slot0.usedtime and slot0.ultimate == 0
@@ -348,7 +348,7 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				setActive(slot1.Find(slot1, "Tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
+				setActive(slot1.Find(slot1, "Tip"), Activity.isHaveActivableMedal())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IDOL_MEDAL_COLLECTION_SCENE2)
 				end, SFX_PANEL)
@@ -373,7 +373,7 @@ return {
 				end, SFX_PANEL)
 				setActive(slot1:Find("Tip"), (function ()
 					return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()
-				end)() or DoaMedalCollectionView.isHaveActivableMedal() or (function ()
+				end)() or Activity.isHaveActivableMedal() or (function ()
 					slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
 
 					return slot0:getConfig("reward_need") <= slot0.usedtime and slot0.ultimate == 0
@@ -389,7 +389,7 @@ return {
 			setActive(slot1, slot3)
 
 			if slot3 then
-				setActive(slot1.Find(slot1, "Tip"), DoaMedalCollectionView.isHaveActivableMedal())
+				setActive(slot1.Find(slot1, "Tip"), Activity.isHaveActivableMedal())
 				onButton(slot0, slot1, function ()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.DOA_MEDAL_COLLECTION_SCENE)
 				end, SFX_PANEL)
@@ -433,7 +433,7 @@ return {
 				end, SFX_PANEL)
 				setActive(slot1:Find("Tip"), (function ()
 					return uv0:getActivityById(ActivityConst.IDOL_MASTER_PT_ID) and not slot0:isEnd() and slot0:readyToAchieve()
-				end)() or IdolMasterMedalCollectionMediator.isHaveActivableMedal() or (function ()
+				end)() or Activity.isHaveActivableMedal() or (function ()
 					slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
 
 					return slot0:getConfig("reward_need") <= slot0.usedtime and slot0.ultimate == 0
@@ -446,7 +446,7 @@ return {
 				setActive(slot1, slot4)
 
 				if slot4 then
-					setActive(slot1.Find(slot1, "Tip"), IdolMasterMedalCollectionView.isHaveActivableMedal())
+					setActive(slot1.Find(slot1, "Tip"), Activity.isHaveActivableMedal())
 					onButton(slot0, slot1, function ()
 						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.IDOLMASTER_MEDAL_COLLECTION_SCENE)
 					end, SFX_PANEL)
@@ -524,6 +524,47 @@ return {
 			end
 		end
 	},
+	{
+		Tag = "MiniGameHub",
+		Image = "event_minigame",
+		ButtonName = "activity_SSSSLink",
+		Tip = "tip",
+		UpdateButton = function (slot0, slot1)
+			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot2:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				slot4 = getProxy(ActivityProxy)
+
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SSSS_ACADEMY)
+				end, SFX_PANEL)
+				setActive(slot1:Find("Tip"), (function ()
+					return Activity.IsActivityReady(uv0:getActivityById(ActivityConst.SSSS_PT))
+				end)() or (function ()
+					return Activity.IsActivityReady(uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
+				end)() or (function ()
+					return Activity.IsActivityReady(uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME))
+				end)() or (function ()
+					return Activity.IsActivityReady(uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY))
+				end)())
+
+				return
+			end
+
+			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot4:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				setActive(slot1.Find(slot1, "Tip"), Activity.IsActivityReady(slot4))
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SSSS_MEDAL_COLLECTION)
+				end, SFX_PANEL)
+			end
+		end
+	},
 	LayoutProperty = {
 		CellSize = Vector2(208, 215),
 		Spacing = Vector2(0, -20),
@@ -541,6 +582,7 @@ return {
 		4,
 		5,
 		6,
-		19
+		19,
+		21
 	}
 }

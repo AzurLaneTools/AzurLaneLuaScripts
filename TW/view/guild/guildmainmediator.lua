@@ -23,6 +23,7 @@ slot0.OPEN_EVENT_REPORT = "GuildOfficeMediator:OPEN_EVENT_REPORT"
 slot0.OPEN_EVENT = "GuildOfficeMediator:OPEN_EVENT"
 slot0.OPEN_MAIN = "GuildOfficeMediator:OPEN_MAIN"
 slot0.SWITCH_TO_OFFICE = "GuildOfficeMediator:SWITCH_TO_OFFICE"
+slot0.OPEN_SHOP = "GuildMainMediator:OPEN_SHOP"
 
 function slot0.register(slot0)
 	if getProxy(ContextProxy):getCurrentContext().mediator == NewGuildMediator then
@@ -33,6 +34,11 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setGuildVO(slot3:getData())
 	slot0.viewComponent:setChatMsgs(slot3:getChatMsgs())
+	slot0:bind(uv0.OPEN_SHOP, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
+			warp = NewShopsScene.TYPE_GUILD
+		})
+	end)
 	slot0:bind(uv0.OPEN_MAIN, function ()
 		uv0:closePage(GuildEventReportMediator)
 	end)

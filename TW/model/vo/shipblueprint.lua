@@ -32,11 +32,13 @@ end
 function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId
-	slot0.version = slot1.version
 	slot0.state = uv0.STATE_LOCK
 	slot0.startTime = 0
 	slot0.shipId = 0
 	slot0.duration = 0
+	slot0.level = 0
+	slot0.fateLevel = -1
+	slot0.exp = 0
 	slot0.strengthenConfig = {}
 	slot5 = "strengthen_effect"
 
@@ -440,7 +442,7 @@ function slot0.getShipProperties(slot0, slot1, slot2)
 		slot5 = pg.intimacy_template[slot1:getIntimacyLevel()].attr_bonus * 0.0001
 
 		for slot9, slot10 in pairs(slot3) do
-			if slot9 == AttributeType.Durability or slot9 == AttributeType.Cannon or slot9 == AttributeType.Torpedo or slot9 == AttributeType.AntiAircraft or slot9 == AttributeType.Air or slot9 == AttributeType.Reload or slot9 == AttributeType.Hit or slot9 == AttributeType.Dodge then
+			if slot9 == AttributeType.Durability or slot9 == AttributeType.Cannon or slot9 == AttributeType.Torpedo or slot9 == AttributeType.AntiAircraft or slot9 == AttributeType.Air or slot9 == AttributeType.Reload or slot9 == AttributeType.Hit or slot9 == AttributeType.AntiSub or slot9 == AttributeType.Dodge then
 				slot3[slot9] = slot3[slot9] * (slot5 + 1)
 			end
 		end
@@ -496,7 +498,7 @@ function slot0.getUseageMaxItem(slot0)
 		slot1 = slot1 + slot0.strengthenConfig[slot5].need_exp
 	end
 
-	return math.ceil((slot1 - slot0.exp) / slot0:getItemExp())
+	return math.max(math.ceil((slot1 - slot0.exp) / slot0:getItemExp()), 0)
 end
 
 function slot0.getFateUseageMaxItem(slot0)
@@ -506,7 +508,7 @@ function slot0.getFateUseageMaxItem(slot0)
 		slot1 = slot1 + slot0.fateStrengthenConfig[slot5].need_exp
 	end
 
-	return math.ceil((slot1 - slot0.exp) / slot0:getItemExp())
+	return math.max(math.ceil((slot1 - slot0.exp) / slot0:getItemExp()), 0)
 end
 
 function slot0.getOpenTaskList(slot0)
@@ -652,7 +654,7 @@ function slot0.getFateUseNum(slot0)
 		slot2 = 0
 
 		for slot6, slot7 in ipairs(slot0.fateStrengthenConfig) do
-			if slot7.lv - 30 <= slot0.fateLevel then
+			if slot7.lv <= 30 + slot0.fateLevel then
 				slot2 = slot2 + slot7.need_exp
 			end
 		end
