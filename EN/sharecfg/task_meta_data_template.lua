@@ -457,7 +457,7 @@ pg.task_meta_data_template = {
 		target_id = "100"
 	},
 	[220] = {
-		target_id_2 = "970501",
+		target_id_2 = "970601",
 		sub_type = 302,
 		desc = "Win 1 Operation Siren battle with Hiyou META in your fleet.",
 		id = 220,
@@ -465,7 +465,7 @@ pg.task_meta_data_template = {
 		target_id = "0"
 	},
 	[221] = {
-		target_id_2 = "970501",
+		target_id_2 = "970601",
 		sub_type = 302,
 		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Hiyou META in your fleet.",
 		id = 221,
@@ -473,7 +473,7 @@ pg.task_meta_data_template = {
 		target_id = "70"
 	},
 	[222] = {
-		target_id_2 = "970501",
+		target_id_2 = "970601",
 		sub_type = 302,
 		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Hiyou META in your fleet.",
 		id = 222,
@@ -481,7 +481,7 @@ pg.task_meta_data_template = {
 		target_id = "90"
 	},
 	[223] = {
-		target_id_2 = "970501",
+		target_id_2 = "970601",
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Hiyou META in your fleet.",
 		id = 223,

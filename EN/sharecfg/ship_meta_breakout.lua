@@ -167,7 +167,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9706013] = {
-		breakout_view = "Improve skill Ashen Might/All aircraft +1/Torpedo Bomber efficiency +15%All Dive Bombers +2/Aircraft efficiency +7%",
+		breakout_view = "Improve skill Ashen Might/All Dive Bombers +2/Aircraft efficiency +7%",
 		gold = 2500,
 		breakout_id = 9706014,
 		repair = 0,
