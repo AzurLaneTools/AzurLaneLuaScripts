@@ -8138,15 +8138,15 @@ _G.pg.ship_skin_words[105092] = {
 	feeling5 = "Hm-hmm~♪ It's in pretty good condition today, just as you said. Um... would you mind if I played you one more song?",
 	main = "The Big Five... Yet another name that we were proud to be called.|I'm not sure what I'll do if there ever comes a time when I can take off my rigging, along the title of the Big Seven... I'm sure that that girl from the Sakura Empire is thinking the same thing.|Where would I like to go? Well... if it's not too much to ask... that place where you can pet cats.",
 	battle = "I can't let you get caught up in the battle... Shoo, hurry away!",
-	upgrade = "Commander, um... your gaze is making me a bit uncomfortable. My sisters might be different, but I'm not really used to having people look at me...",
+	upgrade = "",
 	voice_key = 0,
-	headtouch = "The little birdies are in danger... Run away, little ones!",
+	headtouch = "...Hehehe. ",
 	feeling2 = "",
 	login = "(If the Commander wasn't waiting for me, I'd have liked to stay like this for a bit longer...)",
 	vote = "",
 	hp_warning = "",
 	id = 105092,
-	detail = "...Hehehe.",
+	detail = "Commander, um... your gaze is making me a bit uncomfortable. My sisters might be different, but I'm not really used to having people look at me...",
 	couple_encourage = {}
 }
 
