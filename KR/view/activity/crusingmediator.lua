@@ -40,7 +40,7 @@ function slot0.register(slot0)
 			wrap = ChargeScene.TYPE_GIFT
 		})
 	end)
-	slot0.viewComponent:setActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING))
+	slot0.viewComponent:setActivity(getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING))
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 

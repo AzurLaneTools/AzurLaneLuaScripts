@@ -968,7 +968,7 @@ pg.activity_ins_ship_group_template = {
 	[10227] = {
 		ship_group = 10227,
 		name = "Marblehead",
-		sculpture = "mabuerheide_3"
+		sculpture = "mabuerheide"
 	},
 	[10127] = {
 		ship_group = 10127,
@@ -1500,6 +1500,46 @@ pg.activity_ins_ship_group_template = {
 		name = "Leipzig ",
 		sculpture = "laibixi"
 	},
+	[1080001] = {
+		ship_group = 1080001,
+		name = "Rikka",
+		sculpture = "baoduoliuhua"
+	},
+	[1080002] = {
+		ship_group = 1080002,
+		name = "Akane",
+		sculpture = "qian"
+	},
+	[1080003] = {
+		ship_group = 1080003,
+		name = "Hass",
+		sculpture = "lian"
+	},
+	[1080004] = {
+		ship_group = 1080004,
+		name = "Namiko",
+		sculpture = "naimeizi"
+	},
+	[1080005] = {
+		ship_group = 1080005,
+		name = "Yume",
+		sculpture = "mengya"
+	},
+	[1080006] = {
+		ship_group = 1080006,
+		name = "Chise",
+		sculpture = "qianlai"
+	},
+	[1080007] = {
+		ship_group = 1080007,
+		name = "Mujina",
+		sculpture = "he"
+	},
+	[19902] = {
+		ship_group = 19902,
+		name = "GA@ColaLove",
+		sculpture = "zuozhiya"
+	},
 	all = {
 		30701,
 		30702,
@@ -1800,6 +1840,14 @@ pg.activity_ins_ship_group_template = {
 		20112,
 		10514,
 		40205,
-		40204
+		40204,
+		1080001,
+		1080002,
+		1080003,
+		1080004,
+		1080005,
+		1080006,
+		1080007,
+		19902
 	}
 }

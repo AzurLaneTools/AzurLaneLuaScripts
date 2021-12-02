@@ -256,6 +256,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[126] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "히요·META를 사용해 승리 1회",
+		id = 126,
+		target_num = 1,
+		target_id = "0"
+	},
+	[127] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "히요·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 127,
+		target_num = 1,
+		target_id = "30"
+	},
+	[128] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "히요·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 128,
+		target_num = 1,
+		target_id = "55"
+	},
+	[129] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "히요·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 129,
+		target_num = 1,
+		target_id = "80"
+	},
+	[130] = {
+		target_id_2 = "970601",
+		sub_type = 180,
+		desc = "히요·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 130,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -416,6 +456,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[220] = {
+		target_id_2 = "970601",
+		sub_type = 302,
+		desc = "대형 작전에서 히요·META를 사용해 1회 승리",
+		id = 220,
+		target_num = 1,
+		target_id = "0"
+	},
+	[221] = {
+		target_id_2 = "970601",
+		sub_type = 302,
+		desc = "대형 작전에서 히요·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 221,
+		target_num = 1,
+		target_id = "70"
+	},
+	[222] = {
+		target_id_2 = "970601",
+		sub_type = 302,
+		desc = "대형 작전에서 히요·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 222,
+		target_num = 1,
+		target_id = "90"
+	},
+	[223] = {
+		target_id_2 = "970601",
+		sub_type = 302,
+		desc = "대형 작전에서 히요·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 223,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -465,6 +537,11 @@ pg.task_meta_data_template = {
 		123,
 		124,
 		125,
+		126,
+		127,
+		128,
+		129,
+		130,
 		200,
 		201,
 		202,
@@ -485,6 +562,10 @@ pg.task_meta_data_template = {
 		217,
 		218,
 		219,
+		220,
+		221,
+		222,
+		223,
 		301,
 		302
 	}

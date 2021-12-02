@@ -35,9 +35,14 @@ function slot0.register(slot0)
 
 	slot0.timers = {}
 	slot0.tradeNoPrev = ""
+	slot1 = pg.shop_template
 	slot0.freeGiftIdList = {}
 
-	for slot5, slot6 in pairs(pg.shop_template.all) do
+	print(#slot1)
+
+	for slot5, slot6 in pairs(slot1.all) do
+		print(slot1[slot6].id)
+
 		if slot1[slot6].genre == "gift_package" and slot1[slot6].discount == 100 then
 			table.insert(slot0.freeGiftIdList, slot6)
 		end

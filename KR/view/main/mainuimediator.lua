@@ -883,7 +883,7 @@ function slot0.handleEnterMainUI(slot0)
 				coroutine.yield()
 			end
 
-			if slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot11:isEnd() then
+			if slot1:getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot11:isEnd() then
 				slot12 = PlayerPrefs.GetInt(string.format("crusing_%d_last_time", slot11.id), 3)
 				slot13 = slot11.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 

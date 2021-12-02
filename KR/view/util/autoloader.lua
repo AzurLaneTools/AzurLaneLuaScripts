@@ -137,6 +137,22 @@ function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
 	return slot6
 end
 
+function slot0.GetSpriteQuiet(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot3:GetComponent(typeof(Image))
+	slot6 = tf(slot3)
+
+	slot0:GetSpriteDirect(slot1, slot2 or "", function (slot0)
+		uv0.enabled = true
+		uv0.sprite = slot0
+
+		if uv1 then
+			uv0:SetNativeSize()
+		end
+	end, slot6)
+
+	return slot6
+end
+
 function slot0.GetSpriteDirect(slot0, slot1, slot2, slot3, slot4)
 	slot0:ClearRequest(slot4)
 

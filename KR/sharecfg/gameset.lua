@@ -334,8 +334,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "福煦活动PT",
-		key_value = 226
+		description = "古立特联动PT",
+		key_value = 227
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1473,7 +1473,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 225
+		key_value = 228
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2091,5 +2091,21 @@ pg.gameset = {
 	vote_enlarge = {
 		description = "",
 		key_value = 23025
+	},
+	general_blueprint_list = {
+		key_value = 0,
+		description = {
+			42000,
+			42010,
+			42017,
+			42020,
+			42026,
+			42030,
+			42036
+		}
+	},
+	submarine_chapter_activate_time = {
+		description = "",
+		key_value = 43200
 	}
 }

@@ -130,6 +130,75 @@ pg.ship_meta_breakout = {
 		pre_id = 9705013,
 		weapon_ids = {}
 	},
+	[9706011] = {
+		breakout_view = "스킬 [섬멸의 횃불·{namecode:220}] 습득/모든 뇌격기+1/ 함재기 효율 +3%",
+		gold = 500,
+		breakout_id = 9706012,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9706011,
+		item1 = 21006,
+		pre_id = 0,
+		weapon_ids = {
+			60281,
+			54011
+		}
+	},
+	[9706012] = {
+		breakout_view = "격납고 용량 +1/모든 전투기 +1/ 함재기 효율 +5%",
+		gold = 1500,
+		breakout_id = 9706013,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9706012,
+		item1 = 21006,
+		pre_id = 9706011,
+		weapon_ids = {
+			60282,
+			54011,
+			60282,
+			54011
+		}
+	},
+	[9706013] = {
+		breakout_view = "[섬멸의 횃불·{namecode:220}]레벨업/함재기 탑재량 +2/함재기 효율 +7%",
+		gold = 2500,
+		breakout_id = 9706014,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9706013,
+		item1 = 21006,
+		pre_id = 9706012,
+		weapon_ids = {
+			60283,
+			54012,
+			60283,
+			54012
+		}
+	},
+	[9706014] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9706014,
+		item1 = 21006,
+		pre_id = 9706013,
+		weapon_ids = {}
+	},
 	[9707011] = {
 		breakout_view = "스킬 [격침의 횃불] 습득/모든 뇌격기+1/뇌격기 효율 5% 상승",
 		gold = 1000,
@@ -346,6 +415,10 @@ pg.ship_meta_breakout = {
 		9705012,
 		9705013,
 		9705014,
+		9706011,
+		9706012,
+		9706013,
+		9706014,
 		9707011,
 		9707012,
 		9707013,

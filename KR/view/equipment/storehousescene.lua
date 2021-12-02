@@ -101,6 +101,9 @@ function slot0.init(slot0)
 	setActive(slot0.listEmptyTF, false)
 
 	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+	slot0.destroyConfirmView = DestroyConfirmView.New(slot0.topItems, slot0.event)
+	slot0.assignedItemView = AssignedItemView.New(slot0.topItems, slot0.event)
+	slot0.blueprintAssignedItemView = BlueprintAssignedItemView.New(slot0.topItems, slot0.event)
 	slot0.isEquipingOn = false
 end
 
@@ -393,13 +396,13 @@ function slot0.didEnter(slot0)
 		uv0:emit(EquipmentMediator.OPEN_EQUIPSKIN_INDEX_LAYER, {
 			display = {
 				equipSkinIndex = IndexConst.FlagRange2Bits(IndexConst.EquipSkinIndexAll, IndexConst.EquipSkinIndexAircraft),
-				equipSkinTheme = IndexConst.FlagRange2Bits(IndexConst.EquipSkinThemeAll, IndexConst.EquipSkinThemeEnd)
+				equipSkinTheme = IndexConst.FlagRange2Str(IndexConst.EquipSkinThemeAll, IndexConst.EquipSkinThemeEnd)
 			},
 			equipSkinSort = uv0.equipSkinSort or IndexConst.EquipSkinSortType,
 			equipSkinIndex = uv0.equipSkinIndex or IndexConst.Flags2Bits({
 				IndexConst.EquipSkinIndexAll
 			}),
-			equipSkinTheme = uv0.equipSkinTheme or IndexConst.Flags2Bits({
+			equipSkinTheme = uv0.equipSkinTheme or IndexConst.Flags2Str({
 				IndexConst.EquipSkinThemeAll
 			}),
 			callback = function (slot0)
@@ -522,9 +525,8 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0.selectPanel, "confirm_button"), function ()
 		function slot0()
-			uv0.destroyConfirmView = DestroyConfirmView.New(uv0.topItems, uv0.event)
-
 			uv0.destroyConfirmView:Load()
+			uv0.destroyConfirmView:ActionInvoke("Show")
 			uv0.destroyConfirmView:ActionInvoke("DisplayDestroyBonus", uv0.selectedIds)
 			uv0.destroyConfirmView:ActionInvoke("SetConfirmBtnCB", function ()
 				uv0:unselecteAllEquips()
@@ -588,23 +590,15 @@ function slot0.onBackPressed(slot0)
 
 	if isActive(slot0.sortPanel) then
 		triggerButton(slot0.sortPanel)
-
-		return
+	elseif slot0.destroyConfirmView:isShowing() then
+		slot0.destroyConfirmView:Hide()
+	elseif slot0.assignedItemView:isShowing() then
+		slot0.assignedItemView:Hide()
+	elseif slot0.blueprintAssignedItemView:isShowing() then
+		slot0.blueprintAssignedItemView:Hide()
+	else
+		triggerButton(slot0.backBtn)
 	end
-
-	if slot0.destroyConfirmView and slot0.destroyConfirmView:GetLoaded() then
-		slot0.destroyConfirmView:Destroy()
-
-		return
-	end
-
-	if slot0.assignedItemView and slot0.assignedItemView:GetLoaded() then
-		slot0.assignedItemView:Destroy()
-
-		return
-	end
-
-	triggerButton(slot0.backBtn)
 end
 
 function slot0.hasEliteEquips(slot0, slot1, slot2)
@@ -1044,12 +1038,21 @@ function slot0.updateItem(slot0, slot1, slot2)
 			})
 		end, SFX_PANEL)
 	elseif slot4:getConfig("type") == Item.ASSIGNED_TYPE or slot4:getConfig("type") == Item.EQUIPMENT_ASSIGNED_TYPE then
-		onButton(slot0, slot3.go, function ()
-			uv0.assignedItemView = AssignedItemView.New(uv0.topItems, uv0.event)
-
-			uv0.assignedItemView:Load()
-			uv0.assignedItemView:ActionInvoke("update", uv1)
-		end, SFX_PANEL)
+		if underscore.any(pg.gameset.general_blueprint_list.description, function (slot0)
+			return uv0.id == slot0
+		end) then
+			onButton(slot0, slot3.go, function ()
+				uv0.blueprintAssignedItemView:Load()
+				uv0.blueprintAssignedItemView:ActionInvoke("Show")
+				uv0.blueprintAssignedItemView:ActionInvoke("update", uv1.itemVO)
+			end, SFX_PANEL)
+		else
+			onButton(slot0, slot3.go, function ()
+				uv0.assignedItemView:Load()
+				uv0.assignedItemView:ActionInvoke("Show")
+				uv0.assignedItemView:ActionInvoke("update", uv1.itemVO)
+			end, SFX_PANEL)
+		end
 	else
 		onButton(slot0, slot3.go, function ()
 			uv0:emit(uv1.ON_ITEM, uv2.id)
@@ -1233,13 +1236,9 @@ function slot0.willExit(slot0)
 		cancelTweens(slot0.tweens)
 	end
 
-	if slot0.destroyConfirmView then
-		slot0.destroyConfirmView:Destroy()
-	end
-
-	if slot0.assignedItemView then
-		slot0.assignedItemView:Destroy()
-	end
+	slot0.destroyConfirmView:Destroy()
+	slot0.assignedItemView:Destroy()
+	slot0.blueprintAssignedItemView:Destroy()
 end
 
 return slot0

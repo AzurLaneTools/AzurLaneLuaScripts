@@ -101,9 +101,7 @@ function slot0.SwitchPage(slot0, slot1)
 
 	slot0.scrollrect:SetTotalCount(0)
 
-	slot2 = slot0:GetRank(slot1)
-
-	if getProxy(GuildProxy):ShouldRefreshRank(slot1) then
+	if not slot0:GetRank(slot1) or getProxy(GuildProxy):ShouldRefreshRank(slot1) then
 		slot0:emit(GuildMemberMediator.GET_RANK, slot1)
 	else
 		slot0:InitRank(slot2)

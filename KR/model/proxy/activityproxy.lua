@@ -67,7 +67,6 @@ function slot0.register(slot0)
 		if not uv0.data[slot1.id] then
 			uv0:addActivity(slot1)
 		else
-			print(slot1.id)
 			uv0:updateActivity(slot1)
 		end
 
@@ -96,18 +95,20 @@ function slot0.getActivityListByType(slot0, slot1)
 	return slot2
 end
 
-function slot0.getActivityByType(slot0, slot1)
-	slot2 = nil
-
-	for slot6, slot7 in pairs(slot0.data) do
-		if slot7:getConfig("type") == slot1 then
-			slot2 = slot7
-
-			break
+function slot0.getAliveActivityByType(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.data) do
+		if slot6:getConfig("type") == slot1 and not slot6:isEnd() then
+			return slot6
 		end
 	end
+end
 
-	return slot2
+function slot0.getActivityByType(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.data) do
+		if slot6:getConfig("type") == slot1 then
+			return slot6
+		end
+	end
 end
 
 function slot0.getActivitiesByType(slot0, slot1)

@@ -1264,5 +1264,16 @@ pg.effect_offset = {
 			0.1,
 			0
 		}
+	},
+	gulitejineng_feijiyingzi = {
+		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
 	}
 }

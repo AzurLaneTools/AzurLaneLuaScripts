@@ -6919,7 +6919,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 11,
-		is_show = 14,
+		is_show = 0,
 		config_data = {},
 		time = {
 			timer,
@@ -6976,7 +6976,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 20880,
-		is_show = 15,
+		is_show = 0,
 		config_data = {},
 		time = {
 			timer,
@@ -7174,7 +7174,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 20885,
-		is_show = 16,
+		is_show = 0,
 		config_data = {},
 		time = {
 			timer,
@@ -7408,12 +7408,13 @@ pg.activity_template = {
 	},
 	[20893] = {
 		mark = 20211118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20893,
 		config_data = {
@@ -7423,72 +7424,19 @@ pg.activity_template = {
 			17192,
 			17193,
 			17194
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					11,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20894] = {
 		mark = 20211118,
-		config_client = "",
 		title_res_tag = "fuxu_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 20894,
 		is_show = 18,
+		config_client = "",
 		id = 20894,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					11,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "FuxuPtPage",
 			ui_name = "FuxuPtPage"
@@ -7537,41 +7485,15 @@ pg.activity_template = {
 	},
 	[20896] = {
 		mark = 20211118,
-		config_client = "",
 		title_res_tag = "monopoly_car",
+		time = "stop",
 		type = 51,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 17,
+		config_client = "",
 		id = 20896,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					11,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MonopolyCar.MonopolyCarPage",
 			ui_name = "MonopolyCarPage"
@@ -7579,7 +7501,7 @@ pg.activity_template = {
 	},
 	[20897] = {
 		mark = 20211118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 16,
 		login_pop = 0,
@@ -7587,14 +7509,90 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 20897,
+		title_res_tag = "",
+		id = 20897
+	},
+	[20898] = {
+		mark = 20211118,
+		time = "stop",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 20898,
+		config_data = {
+			1580001,
+			1580002,
+			1580003
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[20899] = {
+		mark = 20211118,
+		time = "stop",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_20899",
+		title_res_tag = "",
+		id = 20899,
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "포슈 건조 확률 UP!",
+			rate_tip = {
+				"<color=#ffde38>SSR</color>：7%",
+				"<color=#d797ff>SR</color>：12%",
+				"<color=#3dc6ff>R</color>：51%",
+				"N：30%",
+				"<color=#d797ff>포슈</color>：1.4%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[20900] = {
+		mark = 20211202,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20900,
+		config_data = {
+			17220,
+			17221,
+			17222,
+			17226,
+			17227,
+			17228,
+			17229,
+			17230,
+			17231,
+			17232,
+			17233,
+			17234,
+			17236,
+			17237,
+			17238,
+			17239,
+			17240,
+			17241,
+			17242
+		},
 		time = {
 			timer,
 			{
 				{
 					2021,
-					11,
-					18
+					12,
+					2
 				},
 				{
 					0,
@@ -7616,27 +7614,31 @@ pg.activity_template = {
 			}
 		}
 	},
-	[20898] = {
-		mark = 20211118,
+	[20901] = {
+		mark = 20211202,
 		title_res_tag = "",
 		page_info = "",
-		type = 12,
+		type = 36,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
-		id = 20898,
+		config_client = "",
+		id = 20901,
 		config_data = {
-			1580001,
-			1580002,
-			1580003
+			1595001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
 		},
 		time = {
 			timer,
 			{
 				{
 					2021,
-					11,
-					18
+					12,
+					2
 				},
 				{
 					0,
@@ -7648,7 +7650,7 @@ pg.activity_template = {
 				{
 					2021,
 					12,
-					2
+					30
 				},
 				{
 					23,
@@ -7656,28 +7658,339 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[20902] = {
+		mark = 20211202,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 227,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 20902,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20903] = {
+		mark = 20211202,
+		title_res_tag = "",
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 26,
+		is_show = 0,
+		config_data = "0",
+		id = 20903,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			ships = {
+				"baoduoliuhua_2",
+				"qian_2",
+				"mengya_2",
+				"qianlai_2",
+				"lian_2",
+				"naimeizi_2",
+				"he_2",
+				"duli_3",
+				"mingshi",
+				"changdao",
+				"sipeibojue_2",
+				"junhe_3",
+				"pufeng_3",
+				"jifeng_3",
+				"feilong_2",
+				"canglong_3",
+				"aidingbao_2",
+				"longxiang_3",
+				"xia_3",
+				"hemin_3"
+			}
+		}
+	},
+	[20904] = {
+		mark = 20211202,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31971,100}]",
+		config_client = "",
+		id = 20904,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20905] = {
+		mark = 20211202,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 20905,
+		config_data = {
+			1567,
+			1568,
+			1569,
+			1570,
+			1571,
+			1572,
+			1573,
+			1574,
+			1575,
+			1576,
+			1577,
+			1578,
+			1579,
+			1580,
+			1581,
+			1582,
+			1583,
+			1584,
+			1585,
+			1586,
+			1587,
+			1588,
+			1589,
+			1590,
+			1591
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_gulite",
+			{
+				1,
+				0.97,
+				0.89,
+				1
+			},
+			pt_id = 227,
+			painting = "qianlai_pt",
+			outline = {
+				0,
+				0,
+				0,
+				0.8
+			}
+		}
+	},
+	[20906] = {
+		mark = 20211202,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20906,
+		config_data = {
+			17235
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20907] = {
+		mark = 20211202,
+		id = 20907,
+		title_res_tag = "SSSS_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 18,
+		config_data = {
+			1590001,
+			1590002,
+			1590003,
+			1590004,
+			1590041,
+			1590051
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SSSSMainPage",
+			ui_name = "SSSSMainPage"
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
 	},
-	[20899] = {
-		mark = 20211118,
+	[20908] = {
+		mark = 20211202,
 		title_res_tag = "",
 		page_info = "",
-		type = 26,
+		type = 1,
 		login_pop = 0,
-		config_id = 0,
+		config_id = 4,
 		is_show = 0,
-		config_data = "activity_drop_20899",
-		id = 20899,
+		config_client = "",
+		id = 20908,
+		config_data = {},
 		time = {
 			timer,
 			{
 				{
 					2021,
-					11,
-					18
+					12,
+					2
 				},
 				{
 					0,
@@ -7689,7 +8002,141 @@ pg.activity_template = {
 				{
 					2021,
 					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20909] = {
+		mark = 20211202,
+		title_res_tag = "",
+		page_info = "",
+		type = 51,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		config_client = "",
+		id = 20909,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
 					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20910] = {
+		mark = 20211202,
+		id = 20910,
+		title_res_tag = "SSSS_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 20910,
+		is_show = 17,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SSSSPTPage",
+			ui_name = "SSSSPTPage"
+		},
+		config_client = {
+			linkActID = 20910
+		}
+	},
+	[20911] = {
+		mark = 20211202,
+		title_res_tag = "",
+		page_info = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 20911,
+		config_data = {
+			70093,
+			70094,
+			70095,
+			70096,
+			70097,
+			70098,
+			70099,
+			70100,
+			70101,
+			70102,
+			70103,
+			70104
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					22
 				},
 				{
 					23,
@@ -7699,15 +8146,126 @@ pg.activity_template = {
 			}
 		},
 		config_client = {
-			id = 3,
-			bg = "loadingbg/bg_build_3_act",
-			buildship_tip = "포슈 건조 확률 UP!",
-			rate_tip = {
-				"<color=#ffde38>SSR</color>：7%",
-				"<color=#d797ff>SR</color>：12%",
-				"<color=#3dc6ff>R</color>：51%",
-				"N：30%",
-				"<color=#d797ff>포슈</color>：1.4%<color=#92FC63>(up!)</color>"
+			unlock_desc = {
+				"三星通关T1",
+				"进行30次建造",
+				"三星通关T2",
+				"累计PT15000点",
+				"三星通关T3",
+				"在任意支援下获得60次胜利",
+				"三星通关T4",
+				"完成环游之旅第5圈",
+				"通关SSSS.SP",
+				"获得装备「煌翼炎龙」+10",
+				"完成激战对决第7场",
+				"获得塞壬情报I至XI"
+			}
+		}
+	},
+	[20912] = {
+		mark = 20211202,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20912,
+		config_data = {
+			257,
+			258,
+			259,
+			260,
+			261,
+			262,
+			263
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20913] = {
+		mark = 20211202,
+		id = 20913,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_data = {
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					2,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage2"
+		},
+		config_client = {
+			map_name = "map_202112",
+			spine_name = "chess_keluoladuo",
+			tips = {
+				"battlepass_main_tip_2112",
+				"battlepass_main_help_2112",
+				"cruise_task_help_2112"
 			}
 		}
 	},
@@ -10086,6 +10644,20 @@ pg.activity_template = {
 		20897,
 		20898,
 		20899,
+		20900,
+		20901,
+		20902,
+		20903,
+		20904,
+		20905,
+		20906,
+		20907,
+		20908,
+		20909,
+		20910,
+		20911,
+		20912,
+		20913,
 		25000,
 		25001,
 		25002,

@@ -132,65 +132,65 @@ function table.containsData(slot0, slot1)
 	return false
 end
 
-function table.SerialForeachArray(slot0, slot1, slot2)
+function table.Foreach(slot0, slot1)
+	for slot5, slot6 in pairs(slot0) do
+		slot1(slot5, slot6)
+	end
+end
+
+function table.SerialIpairsAsync(slot0, slot1, slot2)
 	if type(slot0) ~= "table" then
 		return
 	end
 
-	slot3, slot4 = nil
-	slot3, slot0, slot4 = ipairs(slot0)
-	slot5 = nil
+	slot3, slot4, slot5 = nil
+	slot5, slot0, slot3 = ipairs(slot0)
+	slot6 = nil
 
 	(function ()
-		uv0 = uv1(uv2, uv0)
+		uv0, uv1 = uv2(uv3, uv0)
 
 		if uv0 == nil then
-			if uv3 then
-				uv3()
+			if uv4 then
+				uv4()
 			end
 		else
-			uv4(uv0, uv2[uv0], uv5)
+			uv5(uv0, uv1, uv6)
 		end
 	end)()
 end
 
-function table.ParallelForeachArray(slot0, slot1, slot2)
+function table.ParallelIpairsAsync(slot0, slot1, slot2)
 	if type(slot0) ~= "table" then
 		return
 	end
 
-	slot3, slot4 = nil
-	slot3, slot6, slot4 = ipairs(slot0)
-
-	if 0 >= #slot6 then
-		existCall(slot2)
-
-		return
-	end
+	slot3, slot4, slot5 = nil
+	slot5, slot0, slot3 = ipairs(slot0)
+	slot6 = 0
+	slot7 = 1
 
 	function slot8()
-		if uv0 then
-			return
+		uv0 = uv0 + 1
+
+		if uv0 == uv1 then
+			existCall(uv2)
 		end
-
-		uv1 = uv1 + 1
-
-		if uv1 < uv2 then
-			return
-		end
-
-		uv0 = true
-
-		existCall(uv3)
 	end
 
 	while true do
-		if slot3(slot0, slot4) == nil then
+		slot9, slot4 = slot5(slot0, slot3)
+
+		if slot9 == nil then
 			break
 		end
 
-		slot1(slot4, slot0[slot4], slot8)
+		slot7 = slot7 + 1
+
+		slot1(slot3, slot4, slot8)
 	end
+
+	slot8()
 end
 
 function table.getCount(slot0)

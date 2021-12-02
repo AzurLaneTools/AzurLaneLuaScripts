@@ -117,7 +117,7 @@ function slot0.UpdateView(slot0)
 	setActive(slot0.upper_jichangwutai:Find("tip"), getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID_2):getConfig("config_id")).count > 0)
 	setActive(slot0.modelTip, slot5:getConfig("reward_need") <= slot5.usedtime and slot5.ultimate == 0)
 	setActive(slot0.upper_leijipt:Find("tip"), slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF):readyToAchieve())
-	setActive(slot0.upper_jinianzhang:Find("tip"), IdolMedalCollectionMediator.isHaveActivableMedal())
+	setActive(slot0.upper_jinianzhang:Find("tip"), Activity.isHaveActivableMedal())
 end
 
 function slot0.getStageShip(slot0)

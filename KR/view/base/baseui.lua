@@ -42,7 +42,13 @@ function slot0.getLayerWeight(slot0)
 end
 
 function slot0.getBGM(slot0)
-	return pg.voice_bgm[slot0.__cname] and slot1.bgm or nil
+	slot1 = pg.voice_bgm[slot0.__cname]
+
+	if pg.UIMgr.GetInstance():IsDefaultBGM() then
+		return slot1 and slot1.default_bgm or nil
+	else
+		return slot1 and slot1.bgm or nil
+	end
 end
 
 function slot0.preload(slot0, slot1)
@@ -120,7 +126,7 @@ function slot0.PlayBGM(slot0)
 end
 
 function slot0.SwitchToDefaultBGM(slot0)
-	slot1 = slot0:getBGM() or pg.voice_bgm.MainUI.bgm
+	slot1 = slot0:getBGM() or (not pg.UIMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.MainUI.default_bgm) and pg.voice_bgm.MainUI.bgm
 
 	playBGM(slot1)
 

@@ -71,14 +71,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.dir = slot1.dir or 1
 	slot0.child = slot1.child or {}
 	slot0.parent = slot1.parent or 0
-	slot0.count = slot1.count or 0
 	slot0.date = slot1.get_time or slot1.date or 0
 	slot0.floor = slot1.floor or 0
-	slot2 = pg.furniture_data_template[slot0.configId]
+	slot0.count = Mathf.Clamp(slot1.count or 0, 0, pg.furniture_data_template[slot0.configId].count)
 
 	if BackYardConst.SAME_ID_MODIFY_ID < slot0.configId and slot2 and slot2.count > 1 then
-		for slot6 = 1, slot2.count - 1 do
-			slot7 = slot0.configId + slot6
+		for slot7 = 1, slot2.count - 1 do
+			slot8 = slot0.configId + slot7
 		end
 	end
 end

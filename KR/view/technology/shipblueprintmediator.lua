@@ -11,6 +11,7 @@ slot0.ON_CHECK_TAKES = "ShipBluePrintMediator:ON_CHECK_TAKES"
 slot0.SHOW_SKILL_INFO = "ShipBluePrintMediator:SHOW_SKILL_INFO"
 slot0.SET_TECHNOLOGY_VERSION = "ShipBluePrintMediator:SET_TECHNOLOGY_VERSION"
 slot0.SIMULATION_BATTLE = "ShipBluePrintMediator:SIMULATION_BATTLE"
+slot0.QUICK_EXCHAGE_BLUEPRINT = "ShipBluePrintMediator:QUICK_EXCHAGE_BLUEPRINT"
 
 function slot0.register(slot0)
 	slot1 = getProxy(TechnologyProxy)
@@ -122,6 +123,9 @@ function slot0.register(slot0)
 			stageId = slot1
 		})
 	end)
+	slot0:bind(uv0.QUICK_EXCHAGE_BLUEPRINT, function (slot0, slot1)
+		uv0:sendNotification(GAME.QUICK_EXCHANGE_BLUEPRINT, slot1)
+	end)
 	slot0.viewComponent:setShipBluePrints(slot1:getBluePrints())
 	slot0.viewComponent:setShipVOs(getProxy(BayProxy):getRawData())
 	slot0.viewComponent:setVersion(slot1:getVersion())
@@ -143,7 +147,8 @@ function slot0.listNotificationInterests(slot0)
 		BayProxy.SHIP_UPDATED,
 		GAME.BEGIN_STAGE_DONE,
 		GAME.MOD_BLUEPRINT_ANIM_LOCK,
-		GAME.PURSUING_RESET_DONE
+		GAME.PURSUING_RESET_DONE,
+		GAME.QUICK_EXCHANGE_BLUEPRINT_DONE
 	}
 end
 
@@ -195,6 +200,12 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent.noUpdateMod = true
 	elseif slot2 == GAME.PURSUING_RESET_DONE then
 		-- Nothing
+	elseif slot2 == GAME.QUICK_EXCHANGE_BLUEPRINT_DONE then
+		slot4 = slot0.viewComponent
+
+		slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+			uv0.viewComponent:updateShipBluePrintVO()
+		end)
 	end
 end
 

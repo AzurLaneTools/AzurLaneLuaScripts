@@ -809,5 +809,11 @@ pg.activity_const = {
 	},
 	CATCH_TREASURE_ID = {
 		act_id = 20849
+	},
+	SSSS_MAP_ACT_ID = {
+		act_id = 20907
+	},
+	SSSS_PT = {
+		act_id = 20910
 	}
 }

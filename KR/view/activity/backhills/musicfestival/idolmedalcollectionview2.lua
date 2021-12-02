@@ -28,7 +28,7 @@ end
 function slot0.initData(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.activityData = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA)
-	slot0.allIDList = IdolMedalCollectionMediator.GetPicturePuzzleIds(slot0.activityData.id)
+	slot0.allIDList = Activity.GetPicturePuzzleIds(slot0.activityData.id)
 	slot0.activatableIDList = slot0.activityData.data1_list
 	slot0.activeIDList = slot0.activityData.data2_list
 end

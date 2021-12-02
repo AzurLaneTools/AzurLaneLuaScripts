@@ -758,15 +758,26 @@ end
 
 function slot0.getMetaProgressListForShow(slot0)
 	slot1 = {}
+	slot3, slot4 = nil
 
-	for slot6, slot7 in ipairs(slot0.metaCharacterProxy:getMetaProgressVOList()) do
-		if slot7:isShow() then
-			if slot7:isPtType() and slot7:isInAct() then
-				table.insert(slot1, 1, slot7)
+	for slot8, slot9 in ipairs(slot0.metaCharacterProxy:getMetaProgressVOList()) do
+		if slot9:isShow() then
+			if slot9:isPtType() and slot9:isInAct() then
+				slot3 = slot9
+			elseif slot9:isPassType() and slot9:isInAct() then
+				slot4 = slot9
 			else
-				table.insert(slot1, slot7)
+				table.insert(slot1, slot9)
 			end
 		end
+	end
+
+	if slot4 then
+		table.insert(slot1, 1, slot4)
+	end
+
+	if slot3 then
+		table.insert(slot1, 1, slot3)
 	end
 
 	return slot1
