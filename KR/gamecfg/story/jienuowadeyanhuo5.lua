@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "포슈, 또 사르데냐 엠파이어 함대를 발견했다.",
+			say = "포슈, 또 사르데냐 엠파이어 함대를 발견했어.",
 			bgm = "story-french1",
 			flashin = {
 				delay = 0.5,

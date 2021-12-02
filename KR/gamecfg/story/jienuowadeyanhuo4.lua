@@ -51,7 +51,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "제압당했다. 상황이…… 간단하지 않군.",
+			say = "제압당했네요. 상황이..... 간단하지 않군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그래도 사르데냐 엠파이어를 너무 얕보지는 않는 게 좋겠다.",
+			say = "그래도 사르데냐 엠파이어를 너무 얕보지는 않는 게 좋겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

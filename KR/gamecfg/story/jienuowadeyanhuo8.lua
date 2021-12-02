@@ -92,7 +92,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "대단하군……",
+			say = "대단하네.....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그런데도…… 사르데냐는 우리의 반대편에 서길 선택했다……",
+			say = "그런데도..... 사르데냐는 우리의 반대편에 서길 선택했어.....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그리고 이것이 우리의 대응이고, 지금 그들이 치러야 할 대가다.",
+			say = "그리고 이것이 우리의 대응이고, 지금 그들이 치러야 할 대가야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
