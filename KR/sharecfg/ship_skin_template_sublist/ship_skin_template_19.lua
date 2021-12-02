@@ -2127,7 +2127,7 @@ pg.ship_skin_template_19 = {
 	},
 	[900318] = {
 		ship_group = 900318,
-		name = "罗恩",
+		name = "론",
 		bullet_skin_secondary = "",
 		hand_id = 1,
 		bgm = "",
