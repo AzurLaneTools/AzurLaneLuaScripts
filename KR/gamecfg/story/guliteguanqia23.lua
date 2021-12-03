@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "내가 가서 해결할게, 모여있는 세이렌을 처리하긴 내 함장이 딱이지.",
+			say = "내가 가서 해결할게, 모여있는 세이렌을 처리하긴 내 의장이 딱이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

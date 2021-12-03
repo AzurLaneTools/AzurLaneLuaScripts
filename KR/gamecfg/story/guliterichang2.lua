@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "방송사고?! 그럼 나, 산티아고에게 맡기라구~! 나는 No.1 ♪",
+			say = "방송사고?! 그럼 나, 샌디에이고에게 맡기라구~! 나는 No.1 ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

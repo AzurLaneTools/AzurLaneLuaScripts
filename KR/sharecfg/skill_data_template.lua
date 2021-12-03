@@ -8874,7 +8874,7 @@ pg.skill_data_template = {
 		id = 6940,
 		type = 0,
 		max_level = 0,
-		desc = "장비 후, 전투 BGM 변경. 함대 기함이 항공모함, 경항공모함일 경우, 전투 개시 25초 후, 지원 공격 1회 발동",
+		desc = "장비 후, 전투 BGM 변경. 선봉 함선 혹은 SSSS 콜라보 캐릭터가 장착 시, 장전 38 증가. 함대 기함이 항공모함, 경항공모함일 경우, 전투 개시 25초 후, 지원 공격 1회 발동",
 		system_transform = {},
 		world_death_mark = {
 			1

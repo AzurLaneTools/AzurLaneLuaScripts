@@ -697,7 +697,7 @@ return {
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "그동안은 학교에서만 컨트롤할 수 있었어, 함장도 그렇게 설계됐고, 그래서 학교 밖에서는 힘을 쓸 수 없었어.",
+			say = "그동안은 학교에서만 컨트롤할 수 있었어, 의장도 그렇게 설계됐고, 그래서 학교 밖에서는 힘을 쓸 수 없었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그래도 일리 있어... 확실히 그동안 우리가 사이렌과 정면충돌해 왔던 건 다른 방법이 없었기 때문이잖아.",
+			say = "그래도 일리 있어... 확실히 그동안 우리가 세이렌과 정면충돌해 왔던 건 다른 방법이 없었기 때문이잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

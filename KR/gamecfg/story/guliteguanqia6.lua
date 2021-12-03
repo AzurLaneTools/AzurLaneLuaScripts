@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "그리고 등에 있는 건...? 괴수? 함장…? 네가 함장을 조종해서 괴수와 한판 싸운 거야?",
+			say = "그리고 등에 있는 건...? 괴수? 의장…? 네가 의장을 조종해서 괴수와 한판 싸운 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "괴수가 아니라 함장이야.",
+			say = "괴수가 아니라 의장이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

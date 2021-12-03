@@ -139,7 +139,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "너희 그거 알아? 론 함장의 있는 용은 진짜 쌔!",
+			say = "너희 그거 알아? 론의 의장에 있는 용은 진짜 쌔!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "론, 함장?",
+			say = "론, 의장?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "맞아, 갑자기 괴수 같은 함장이 나타났어, 엄청난 파괴력에 심지어 움직이기까지 한다구.",
+			say = "맞아, 갑자기 괴수 같은 의장이 나타났어, 엄청난 파괴력에 심지어 움직이기까지 한다구.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,

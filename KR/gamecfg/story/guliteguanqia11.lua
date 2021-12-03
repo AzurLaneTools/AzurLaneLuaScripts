@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "릿카에게 들은 바로 내껀 맥스와 사무라이를 모티브로 했대.",
+			say = "릿카에게 들은 바로 내껀 보르와 비트를 모티브로 했대.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "내껀 폴라와 비트를 모티브로 했대. …그들이 누군지는 모르겠지만!",
+			say = "내껀 맥스와 사무라이를 모티브로 했대. …그들이 누군지는 모르겠지만!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

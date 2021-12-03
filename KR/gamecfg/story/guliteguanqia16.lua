@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "잠깐, 사이렌한테 속았다며, 속인 거라면 먼저 얘기부터 해야 하지 않을까?",
+			say = "잠깐, 세이렌한테 속았다며, 속인 거라면 먼저 얘기부터 해야 하지 않을까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

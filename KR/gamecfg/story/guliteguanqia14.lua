@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "골드번? 멋지다! 네 함장의 그 금색 용?",
+			say = "골드번? 멋지다! 네 의장의 그 금색 용?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "너희들 세상엔 함장이 없잖아, 그러면… 진짜 골드번은 괴수라는 거야?",
+			say = "너희들 세상엔 의장이 없잖아, 그러면… 진짜 골드번은 괴수라는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

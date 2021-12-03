@@ -296,7 +296,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "특수 제작 \"함장\"을 부탁해, 퓨리~",
+			say = "특수 제작 \"의장\"을 부탁해, 퓨리~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

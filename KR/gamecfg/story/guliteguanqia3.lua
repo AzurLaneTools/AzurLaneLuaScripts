@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "그때 갑자기 긴급 대피 사이렌이 울렸다.",
+			say = "그때 갑자기 긴급 대피 세이렌이 울렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

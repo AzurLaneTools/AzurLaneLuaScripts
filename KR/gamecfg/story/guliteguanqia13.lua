@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306060,
-			say = "퓨리가 만들어준 함장은 중순양함급 같지만, 함재기 기능은 없는 것 같네.",
+			say = "퓨리가 만들어준 의장은 중순양함급 같지만, 함재기 기능은 없는 것 같네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

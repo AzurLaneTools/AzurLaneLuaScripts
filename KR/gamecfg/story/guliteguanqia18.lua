@@ -85,7 +85,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "네 함장 정말 편리하다, 전투를 하면 할수록 더 컨트롤하기 쉬운 것 같아.",
+			say = "네 의장 정말 편리하다, 전투를 하면 할수록 더 컨트롤하기 쉬운 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

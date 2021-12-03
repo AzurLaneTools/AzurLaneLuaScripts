@@ -757,7 +757,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "푸른 바다 위에 물보라를 일으키며 질주하는 함장은 소녀들의 환호성을 머금은 채 멀어져 갔다——",
+			say = "푸른 바다 위에 물보라를 일으키며 질주하는 의장은 소녀들의 환호성을 머금은 채 멀어져 갔다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
