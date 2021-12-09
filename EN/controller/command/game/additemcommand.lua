@@ -106,7 +106,7 @@ function slot0.execute(slot0, slot1)
 				slot6.data1 = slot6.data1 + slot2.count
 
 				slot5:updateActivity(slot6)
-				nowWorld:GetBossProxy():UpdatedUnlockProgress()
+				nowWorld():GetBossProxy():UpdatedUnlockProgress(slot6.data1, slot6.data1)
 			end
 		elseif slot4 == 16 then
 			for slot10, slot11 in pairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHAKE_BEADS)) do
@@ -137,7 +137,7 @@ function slot0.execute(slot0, slot1)
 			getProxy(CollectionProxy):flushCollection(slot4)
 		end
 	elseif slot2.dropType == DROP_TYPE_WORLD_ITEM then
-		nowWorld:GetInventoryProxy():AddItem(slot2.id, slot2.count)
+		nowWorld():GetInventoryProxy():AddItem(slot2.id, slot2.count)
 	elseif slot2.dropType == DROP_TYPE_ICON_FRAME then
 		slot5 = IconFrame.New({
 			id = slot2.id
@@ -163,7 +163,7 @@ function slot0.execute(slot0, slot1)
 	elseif slot2.dropType == DROP_TYPE_EMOJI then
 		getProxy(EmojiProxy):addNewEmojiID(slot2.id)
 	elseif slot2.dropType == DROP_TYPE_WORLD_COLLECTION then
-		nowWorld:GetCollectionProxy():Unlock(slot2.id)
+		nowWorld():GetCollectionProxy():Unlock(slot2.id)
 	else
 		print("can not handle this type>>" .. slot2.dropType)
 	end

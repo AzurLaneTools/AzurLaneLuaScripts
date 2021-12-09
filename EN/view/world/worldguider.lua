@@ -21,13 +21,13 @@ function slot0.GetTempGridPos(slot0, slot1)
 end
 
 function slot0.CheckPlayChooseCamp(slot0)
-	if nowWorld:GetRealm() == nil or slot1 < 1 then
+	if nowWorld():GetRealm() == nil or slot1 < 1 then
 		slot0:PlayGuide("WorldG001")
 	end
 end
 
 function slot0.CheckIntruduce(slot0)
-	if nowWorld:GetRealm() and slot1 > 0 then
+	if nowWorld():GetRealm() and slot1 > 0 then
 		if slot1 == 1 then
 			slot0:PlayGuide("WorldG002_1")
 		elseif slot1 == 2 then
@@ -37,7 +37,7 @@ function slot0.CheckIntruduce(slot0)
 end
 
 function slot0.CheckUseStaminaItem(slot0)
-	slot2 = nowWorld:GetInventoryProxy()
+	slot2 = nowWorld():GetInventoryProxy()
 	slot3 = 0
 
 	for slot7, slot8 in ipairs({
@@ -58,7 +58,7 @@ function slot0.CheckMapLimit(slot0)
 end
 
 function slot0.SpecialCheck(slot0, slot1)
-	if slot1 == "WorldG008" and nowWorld:GetActiveMap() ~= nil and slot2.findex == 2 then
+	if slot1 == "WorldG008" and nowWorld():GetActiveMap() ~= nil and slot2.findex == 2 then
 		return "WorldG008_2"
 	end
 
@@ -96,20 +96,6 @@ function slot0.PlayGuide(slot0, slot1, slot2, slot3)
 	end)
 
 	return true
-end
-
-function slot0.PlayGuideAndUpdateOnEnd(slot0, slot1)
-	slot2 = pg.GuideMgr.GetInstance()
-
-	if not GUIDE_WROLD or not canRepeat and slot2:isPlayed(slot1) or not slot2:canPlay() then
-		return
-	end
-
-	slot2:play(slot1, nil, function ()
-		pg.m02:sendNotification(GAME.STORY_UPDATE, {
-			storyId = uv0
-		})
-	end)
 end
 
 slot0.WORLD_HIDE_UI = "world hide ui"
@@ -166,7 +152,7 @@ function slot0.WorldGuiderNotifyHandler(slot0, slot1, slot2, slot3)
 	elseif slot1 == uv0.WORLD_GET_SCANNER_POS then
 		slot3:GetScannerPos(slot2 and slot2.cachedIndex or 1)
 	elseif slot1 == uv0.WORLD_OPEN_MAP_OVERVIEW then
-		slot3:Op("OpShowMarkOverall", {
+		slot3:Op("OpShowMarkOverview", {
 			ids = slot2.mapIds
 		})
 	elseif slot1 == uv0.WORLD_SHOW_MARGIN then

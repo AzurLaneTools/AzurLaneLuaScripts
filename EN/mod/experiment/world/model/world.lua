@@ -1,37 +1,39 @@
 slot0 = class("World", import("...BaseEntity"))
 slot0.Fields = {
-	atlas = "table",
+	nowEntrance = "number",
 	stepCount = "number",
 	cdTimeList = "table",
 	type = "number",
-	progress = "number",
-	portShips = "table",
-	autoInfos = "table",
-	globalBuffDic = "table",
-	roundIndex = "number",
-	nowEntrance = "number",
-	fleets = "table",
-	activateCount = "number",
-	staminaMgr = "table",
-	achievements = "table",
-	treasureCount = "number",
-	collectionProxy = "table",
-	defaultFleets = "table",
-	goodDic = "table",
-	taskProxy = "table",
-	achieveEntranceStar = "table",
-	realm = "number",
-	inventoryProxy = "table",
-	worldBossProxy = "table",
 	colorDic = "table",
+	portShips = "table",
+	inventoryProxy = "table",
+	staminaMgr = "table",
+	roundIndex = "number",
+	lowestHP = "table",
+	autoInfos = "table",
+	activateCount = "number",
+	fleets = "table",
+	achievements = "table",
 	expiredTime = "number",
-	baseShipIds = "table",
+	collectionProxy = "table",
+	pressingAwardDic = "table",
+	goodDic = "table",
+	achieveEntranceStar = "table",
 	baseCmdIds = "table",
 	resetAward = "table",
+	resetLimitTip = "boolean",
+	atlas = "table",
+	worldBossProxy = "table",
+	progress = "number",
+	globalBuffDic = "table",
+	taskProxy = "table",
+	treasureCount = "number",
+	defaultFleets = "table",
+	realm = "number",
+	isAutoSwitch = "boolean",
 	isAutoFight = "boolean",
-	pressingAwardDic = "table",
-	submarineSupport = "boolean",
-	resetLimitTip = "boolean"
+	baseShipIds = "table",
+	submarineSupport = "boolean"
 }
 slot0.EventUpdateSubmarineSupport = "World.EventUpdateSubmarineSupport"
 slot0.EventSwitchMap = "World.EventSwitchMap"
@@ -69,7 +71,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.Build(slot0)
-	slot0.atlas = nil
+	slot0.atlas = WorldAtlas.New(WorldConst.DefaultAtlas)
 	slot0.realm = 0
 	slot0.fleets = {}
 	slot0.defaultFleets = {}
@@ -91,6 +93,7 @@ function slot0.Build(slot0)
 	slot0.cdTimeList = {}
 	slot0.globalBuffDic = {}
 	slot0.pressingAwardDic = {}
+	slot0.lowestHP = {}
 	slot0.isAutoFight = false
 
 	slot0:InitAutoInfos()
@@ -150,7 +153,11 @@ function slot0.Dispose(slot0, slot1)
 end
 
 function slot0.InheritReset(slot0, slot1)
-	slot1 = slot1 or {}
+	if (slot1 or {}).progress then
+		slot0:UpdateProgress(slot1.progress)
+
+		slot1.progress = nil
+	end
 
 	for slot5, slot6 in pairs(slot1) do
 		slot0[slot5] = slot6
@@ -164,9 +171,6 @@ function slot0.InheritReset(slot0, slot1)
 end
 
 function slot0.NewAtlas(slot0, slot1)
-	slot0.atlas = WorldAtlas.New()
-
-	slot0.atlas:Setup(slot1)
 end
 
 function slot0.IsReseted(slot0)
@@ -504,7 +508,7 @@ function slot0.EntranceToReplacementMapList(slot0, slot1)
 	end
 
 	for slot6, slot7 in ipairs(slot1.config.task_chapter) do
-		if slot0.taskProxy:getTaskById(slot7[1]) and slot8:getState() == WorldTask.STATE_ONGOING then
+		if slot0.taskProxy:getTaskById(slot7[1]) and slot8:isAlive() then
 			table.insert(slot2, slot0:GetMap(slot7[2]))
 		end
 	end
@@ -531,7 +535,17 @@ function slot0.EntranceToReplacementMapList(slot0, slot1)
 		table.insert(slot2, slot0:GetActiveMap())
 	end
 
-	return slot2
+	slot4 = {}
+
+	return underscore.filter(slot2, function (slot0)
+		if uv0[slot0.id] then
+			return false
+		else
+			uv0[slot0.id] = true
+
+			return true
+		end
+	end)
 end
 
 function slot0.ReplacementMapType(slot0, slot1)
@@ -631,29 +645,27 @@ function slot0.AnyUnachievedAchievement(slot0, slot1)
 end
 
 function slot0.GetFinishAchievements(slot0, slot1)
+	slot1 = slot1 or slot0.atlas:GetAchEntranceList()
 	slot2 = {}
 	slot3 = {}
-	slot4 = slot1 and {
-		slot1
-	} or slot0.atlas:GetAchEntranceList()
 
-	for slot8, slot9 in ipairs(slot4) do
-		slot10, slot11 = slot0:CountAchievements(slot9)
-		slot12 = slot0:GetMapAchieveStarDic(slot9.id)
-		slot13 = {}
+	for slot7, slot8 in ipairs(slot1) do
+		slot9, slot10 = slot0:CountAchievements(slot8)
+		slot11 = slot0:GetMapAchieveStarDic(slot8.id)
+		slot12 = {}
 
-		for slot17, slot18 in ipairs(slot9:GetAchievementAwards()) do
-			if not slot12[slot18.star] and slot18.star <= slot10 + slot11 then
-				table.insert(slot13, slot18.star)
+		for slot16, slot17 in ipairs(slot8:GetAchievementAwards()) do
+			if not slot11[slot17.star] and slot17.star <= slot9 + slot10 then
+				table.insert(slot12, slot17.star)
 			end
 		end
 
-		if #slot13 > 0 then
+		if #slot12 > 0 then
 			table.insert(slot2, {
-				id = slot9.id,
-				star_list = slot13
+				id = slot8.id,
+				star_list = slot12
 			})
-			table.insert(slot3, slot9.id)
+			table.insert(slot3, slot8.id)
 		end
 	end
 
@@ -739,7 +751,7 @@ function slot0.BuildFormationIds(slot0)
 	slot4 = nil
 
 	for slot9, slot10 in pairs(slot0:GetTaskProxy():getTasks()) do
-		if slot10.config.complete_condition == WorldConst.TaskTypeFleetExpansion and slot10:getState() == WorldTask.STATE_ONGOING then
+		if slot10.config.complete_condition == WorldConst.TaskTypeFleetExpansion and slot10:isAlive() then
 			slot4 = slot10.config.complete_parameter[1]
 
 			break
@@ -1145,13 +1157,33 @@ function slot0.InitAutoInfos(slot0)
 	}
 end
 
-function slot0.TriggerAutoFight(slot0, slot1)
+function slot0.TriggerAutoFight(slot0, slot1, slot2)
 	if tobool(slot1) ~= tobool(slot0.isAutoFight) then
 		slot0.isAutoFight = slot1
 
 		pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(slot1)
 		pg.m02:sendNotification(GAME.WORLD_TRIGGER_AUTO_FIGHT)
 	end
+
+	if not slot2 and not slot1 then
+		slot0:TriggerAutoSwitch(false)
+	end
+end
+
+function slot0.TriggerAutoSwitch(slot0, slot1)
+	if tobool(slot1) ~= tobool(slot0.isAutoSwitch) then
+		slot0.isAutoSwitch = slot1
+
+		pg.m02:sendNotification(GAME.WORLD_TRIGGER_AUTO_SWITCH)
+	end
+end
+
+function slot0.GetHistoryLowestHP(slot0, slot1)
+	return slot0.lowestHP[slot1] or 10000
+end
+
+function slot0.SetHistoryLowestHP(slot0, slot1, slot2)
+	slot0.lowestHP[slot1] = slot2
 end
 
 return slot0

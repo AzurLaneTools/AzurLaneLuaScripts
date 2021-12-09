@@ -522,7 +522,7 @@ function slot0.initWorldPanel(slot0)
 			if WorldConst.FetchWorldShip(slot6.id):IsBroken() or not slot7:IsHpFull() then
 				table.insert(slot0, slot7.id)
 
-				slot1 = slot1 + nowWorld:CalcRepairCost(slot7)
+				slot1 = slot1 + nowWorld():CalcRepairCost(slot7)
 			end
 		end
 
@@ -542,7 +542,7 @@ end
 
 function slot0.repairWorldShip(slot0, slot1)
 	slot2 = WorldConst.FetchWorldShip(slot1.id)
-	slot3 = nowWorld:CalcRepairCost(slot2)
+	slot3 = nowWorld():CalcRepairCost(slot2)
 
 	if slot2:IsBroken() then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

@@ -2,47 +2,27 @@ pg = pg or {}
 pg.activity_banner = {
 	{
 		param = "7002",
-		id = 1,
-		pic = "temp1",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2021,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 1,
+		pic = "temp1"
 	},
 	{
-		param = "4174",
 		id = 2,
 		pic = "temp2",
-		type = 3,
+		type = 2,
+		param = {
+			"metacharacter",
+			{
+				autoOpenShipConfigID = 9704010
+			}
+		},
 		time = {
 			{
 				{
 					2021,
-					11,
-					25
+					12,
+					9
 				},
 				{
 					0,
@@ -54,7 +34,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					8
+					23
 				},
 				{
 					23,
@@ -69,17 +49,15 @@ pg.activity_banner = {
 		pic = "temp3",
 		type = 2,
 		param = {
-			"scene get boat",
-			{
-				projectname = "new"
-			}
+			"scene level",
+			{}
 		},
 		time = {
 			{
 				{
 					2021,
-					11,
-					25
+					12,
+					9
 				},
 				{
 					0,
@@ -91,7 +69,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					8
+					23
 				},
 				{
 					23,
@@ -137,76 +115,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "100004",
 		id = 5,
-		pic = "temp8",
-		type = 3,
-		time = {
-			{
-				{
-					2021,
-					11,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 6,
-		pic = "temp11",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{
-				warp = -3
-			}
-		},
-		time = {
-			{
-				{
-					2021,
-					11,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 7,
 		pic = "temp5",
 		type = 2,
 		param = {
@@ -240,7 +149,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 8,
+		id = 6,
 		pic = "temp6",
 		type = 2,
 		param = {
@@ -277,7 +186,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 9,
+		id = 7,
 		pic = "temp7",
 		type = 2,
 		param = {
@@ -314,8 +223,40 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4140",
+		id = 8,
+		pic = "temp8",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					10,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		param = "",
-		id = 10,
+		id = 9,
 		pic = "temp99",
 		type = 9,
 		time = {
@@ -347,7 +288,7 @@ pg.activity_banner = {
 	},
 	{
 		param = "Naval Curry|Sweet Curry or Hot Curry that is the question<color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
-		id = 11,
+		id = 10,
 		pic = "haijungali",
 		type = 10,
 		time = {
@@ -387,7 +328,6 @@ pg.activity_banner = {
 		7,
 		8,
 		9,
-		10,
-		11
+		10
 	}
 }

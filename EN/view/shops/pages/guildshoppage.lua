@@ -53,6 +53,10 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 end
 
 function slot0.OnCardClick(slot0, slot1)
+	if not slot1.goods:CanPurchase() then
+		return
+	end
+
 	if slot1.goods:Selectable() then
 		slot0.purchaseWindow:ExecuteAction("Show", slot1.goods)
 	else

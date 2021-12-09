@@ -8725,190 +8725,190 @@ pg.activity_ins_language = {
 		value = "Well, in that case... I'll get you one the next time I'm at the bakery, Commander!"
 	},
 	ins_257 = {
-		value = ""
+		value = "Is Oxy-cola carbonated? I can't handle that stuff..."
 	},
 	ins_discuss_257_1 = {
-		value = ""
+		value = "Carbonation is the least of your concerns. Only shipgirls can drink Oxy-cola."
 	},
 	ins_reply_257_1_1 = {
-		value = ""
+		value = "Really? All right then..."
 	},
 	ins_discuss_257_2 = {
-		value = ""
+		value = "Man I LOVE Oxy-cola! Nothing beats the feeling after you chug a whole bottle in one go!"
 	},
 	ins_reply_257_2_1 = {
-		value = ""
+		value = "Hard agree~ The fizzy feeling you get in your tummy is god-tier~"
 	},
 	ins_reply_257_2_2 = {
-		value = ""
+		value = "So... Safe to say it IS carbonated then?"
 	},
 	ins_reply_257_2_3 = {
-		value = ""
+		value = "Yeah lol? It's not meant for non-shipgirl consumption anyway, which sucks I know but what can you do"
 	},
 	ins_op_257_1_1 = {
-		value = ""
+		value = "I'll get you a regular drink instead."
 	},
 	op_reply_257_1_1 = {
-		value = ""
+		value = "Thanks, Commander. Just make sure it's not carbonated, all right?"
 	},
 	ins_258 = {
-		value = ""
+		value = "Another masterpiece for my collection heheh"
 	},
 	ins_discuss_258_1 = {
-		value = ""
+		value = "Holy pog! We've got a sculpting prodigy among us~"
 	},
 	ins_reply_258_1_1 = {
-		value = ""
+		value = "FYI: That's high praise coming from Long Island, yes."
 	},
 	ins_reply_258_1_2 = {
-		value = ""
+		value = "Deserved praise tbh. Tho credit where credit is due: she did provide me with quality refs."
 	},
 	ins_discuss_258_2 = {
-		value = ""
+		value = "Looking to strike a deal, nya? You make the figurines, I do the marketing, nya."
 	},
 	ins_reply_258_2_1 = {
-		value = ""
+		value = "Good offer but nah, I don't do commissions."
 	},
 	ins_op_258_1_1 = {
-		value = ""
+		value = "Talk about professional-grade sculpting!"
 	},
 	op_reply_258_1_1 = {
-		value = ""
+		value = "I mean it literally is, but I'll take the dub"
 	},
 	ins_259 = {
-		value = ""
+		value = "Brewing tea always clears my mind so good."
 	},
 	ins_discuss_259_1 = {
-		value = ""
+		value = "You're a mighty cultured lady, Namiko."
 	},
 	ins_reply_259_1_1 = {
-		value = ""
+		value = "Thank you for the green tea. It was wonderful."
 	},
 	ins_reply_259_1_2 = {
-		value = ""
+		value = "Just happy to make use of what I learned from my school's tea ceremony club."
 	},
 	ins_discuss_259_2 = {
-		value = ""
+		value = "It's true what they say about not judging a book by its cover."
 	},
 	ins_reply_259_2_1 = {
-		value = ""
+		value = "What's that supposed to mean?"
 	},
 	ins_reply_259_2_2 = {
-		value = ""
+		value = "Well, based on your mannerisms I thought you'd be more into sports..."
 	},
 	ins_discuss_259_3 = {
-		value = ""
+		value = "Do come to our Royal Navy tea parties sometime if you wish to savour TRUE high-quality tea!"
 	},
 	ins_reply_259_3_1 = {
-		value = ""
+		value = "Hell yeah! I'll be there!"
 	},
 	ins_op_259_1_1 = {
-		value = ""
+		value = "Great tea, would drink again."
 	},
 	op_reply_259_1_1 = {
-		value = ""
+		value = "Glad you liked it! Stop by again if you're ever in the mood for more!"
 	},
 	ins_260 = {
-		value = ""
+		value = "Brainstorming titles for my video. \"Streamer Girl Ends Up in AL Universe\" maybe."
 	},
 	ins_discuss_260_1 = {
-		value = ""
+		value = "Getting used to life here, from the sound of it."
 	},
 	ins_reply_260_1_1 = {
-		value = ""
+		value = "Uh-huh, so why not stream it while I can, right?"
 	},
 	ins_discuss_260_2 = {
-		value = ""
+		value = "A fellow streamer? Subscribed~"
 	},
 	ins_reply_260_2_1 = {
-		value = ""
+		value = "Thanks! Subscribed back so we can be moots."
 	},
 	ins_discuss_260_3 = {
-		value = ""
+		value = "Darn, I didn't catch you live >.<"
 	},
 	ins_reply_260_3_1 = {
-		value = ""
+		value = "Don't sweat it, there's always next time. Remember to subscribe and hit the bell button for updates."
 	},
 	ins_op_260_1_1 = {
-		value = ""
+		value = "Great stream all around, Hass."
 	},
 	op_reply_260_1_1 = {
-		value = ""
+		value = "Thanks! Appreciate your help with getting me set up."
 	},
 	ins_261 = {
-		value = ""
+		value = "made a new friend"
 	},
 	ins_discuss_261_1 = {
-		value = ""
+		value = "It's always so weird seeing pictures of myself... Even when other people take them."
 	},
 	ins_reply_261_1_1 = {
-		value = ""
+		value = "why though? you look totally normal here"
 	},
 	ins_reply_261_1_2 = {
-		value = ""
+		value = "I dunno, it's just weird... Now I'm getting really self-conscious, ahaha..."
 	},
 	ins_discuss_261_2 = {
-		value = ""
+		value = "crane give ya anything good? :D"
 	},
 	ins_reply_261_2_1 = {
-		value = ""
+		value = "We got two plushes. Well, specifically, Yume won them, and she gave me one."
 	},
 	ins_reply_261_2_2 = {
-		value = ""
+		value = "i just got lucky really, happy to share the loot"
 	},
 	ins_op_261_1_1 = {
-		value = ""
+		value = "The first of many new friends, I hope."
 	},
 	op_reply_261_1_1 = {
-		value = ""
+		value = "wouldn't that be nice... thanks for introducing us, commander"
 	},
 	ins_262 = {
-		value = ""
+		value = "Anyone tryna break the school rules will have ME to answer to!"
 	},
 	ins_discuss_262_1 = {
-		value = ""
+		value = "You're doing an exemplary job thus far as the temporary Student Council Rep, Chise."
 	},
 	ins_reply_262_1_1 = {
-		value = ""
+		value = "It's only for a day so I gotta make it count! Haven't seen anyone break the rules so far tho..."
 	},
 	ins_reply_262_1_2 = {
-		value = ""
+		value = "The students here are rather well-behaved, so I wouldn't be surprised if there are no incidents today."
 	},
 	ins_discuss_262_2 = {
-		value = ""
+		value = "You're on the right side, friend! Together, we'll make the academy a bully-free zone!"
 	},
 	ins_reply_262_2_1 = {
-		value = ""
+		value = "Oh yeah totally! I'm all about that anti-bullying stuff."
 	},
 	ins_op_262_1_1 = {
-		value = ""
+		value = "Want to try being an honorary member for another club?"
 	},
 	op_reply_262_1_1 = {
-		value = ""
+		value = "Hell yeah! I wanna get a feel for all of 'em!"
 	},
 	ins_263 = {
-		value = ""
+		value = "These \"riggings\" you have are very intriguing..."
 	},
 	ins_discuss_263_1 = {
-		value = ""
+		value = "Are you curious about Iron Blood riggings?"
 	},
 	ins_reply_263_1_1 = {
-		value = ""
+		value = "They resemble kaijus, how fascinating..."
 	},
 	ins_reply_263_1_2 = {
-		value = ""
+		value = "Interesting, are they not? I know the feeling, being something of a researcher myself."
 	},
 	ins_discuss_263_2 = {
-		value = ""
+		value = "I'm sure you see now why Iron Blood tech is the greatest in the world!"
 	},
 	ins_reply_263_2_1 = {
-		value = ""
+		value = "Perhaps. I will say with certainty that I'm intrigued."
 	},
 	ins_op_263_1_1 = {
-		value = ""
+		value = "Word of advice... just don't get too close."
 	},
 	op_reply_263_1_1 = {
-		value = ""
+		value = "I can only surmise you learned that the hard way, Commander."
 	},
 	all = {
 		ins_op_1_1_1,

@@ -33,6 +33,9 @@ pg.world_item_data_origin = {
 	{
 		origin_text = "Siren Boss Battle Reward"
 	},
+	{
+		origin_text = "Arbiter Battle Rewards (Monthly)"
+	},
 	[100] = {
 		origin_text = "Port Shop"
 	},

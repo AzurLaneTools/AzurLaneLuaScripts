@@ -3787,6 +3787,22 @@ _G.pg.gametip.world_target_count = {
 	tip = "$1 available reward(s) "
 }
 
+_G.pg.gametip.world_target_filter_tip1 = {
+	tip = "All"
+}
+
+_G.pg.gametip.world_target_filter_tip2 = {
+	tip = "Unfinished"
+}
+
+_G.pg.gametip.world_target_get_all = {
+	tip = "Claim all available rewards?"
+}
+
+_G.pg.gametip.world_target_goto = {
+	tip = "Enter Zone "
+}
+
 _G.pg.gametip.world_help_tip = {
 	tip = "未配置tip"
 }
@@ -4173,9 +4189,9 @@ _G.pg.gametip.world_boss_help_meta = {
 			info = [[
 About META Showdown:
 
-1. From <color=#92fc63>9/9/21 to 12/8/21</color>, challenge Souryuu META
+1. From <color=#92fc63>12/9/21 to 3/10/21</color>, challenge Gneisenau META
 to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Souryuu META</color> as well
+to obtain the limited character, <color=#92fc63>Gneisenau META</color> as well
 as other great rewards.
  <color=#ff5c5c>Notice: Sync Points will expire after the event period ends.</color>
 
@@ -4323,8 +4339,20 @@ _G.pg.gametip.world_movelimit_event_text = {
 	tip = "Can't leave now due to unfinished missions in this zone. Confirm？"
 }
 
+_G.pg.gametip.world_mapbuff_tip = {
+	tip = "All enemies within this zone are strengthened."
+}
+
 _G.pg.gametip.world_sametask_tip = {
 	tip = "Unable to accept mission: Only one of the same mission can be active."
+}
+
+_G.pg.gametip.world_expedition_reward_display = {
+	tip = "Rewards"
+}
+
+_G.pg.gametip.world_expedition_reward_display2 = {
+	tip = "$1% HP"
 }
 
 _G.pg.gametip.task_notfound_error = {
@@ -6949,6 +6977,10 @@ _G.pg.gametip.guild_apply_full = {
 	tip = "Guild's list of applications is full."
 }
 
+_G.pg.gametip.guild_member_full = {
+	tip = "This Guild is full. "
+}
+
 _G.pg.gametip.guild_fire_duty_limit = {
 	tip = "May only kick players with less authority than yourself."
 }
@@ -7857,7 +7889,7 @@ _G.pg.gametip.build_ship_quickly_buy_stone = {
 }
 
 _G.pg.gametip.build_ship_quickly_buy_tool = {
-	tip = "Spend <color=#92fc63>$1</color> Gems to buy Quick Finisher x<color=$3>$2</color>?"
+	tip = "Spend <color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color> Gems to buy Quick Finisher x<color=$3>$2</color>?"
 }
 
 _G.pg.gametip.ship_profile_voice_locked = {
@@ -14539,6 +14571,14 @@ _G.pg.gametip.tec_tendency_cur_3 = {
 	tip = "Research Focus / Series 3"
 }
 
+_G.pg.gametip.tec_target_catchup_none = {
+	tip = "Research Focus / Not Selected "
+}
+
+_G.pg.gametip.tec_target_catchup_selected = {
+	tip = "Research Focus"
+}
+
 _G.pg.gametip.tec_tendency_cur_4 = {
 	tip = "Research Focus / Series 4"
 }
@@ -14978,6 +15018,10 @@ _G.pg.gametip.guild_start_event_consume_tip = {
 	tip = "Would you like to spend $1 Guild Funds and commence $2?"
 }
 
+_G.pg.gametip.guild_start_event_consume_tip_extra = {
+	tip = "The Guild has launched <color=#ff5c5c>$3</color> operations this month. Do you want to spend $1 to commence operation $2? "
+}
+
 _G.pg.gametip.guild_word_consume_for_battle = {
 	tip = "Cost: "
 }
@@ -15232,6 +15276,10 @@ _G.pg.gametip.guild_battle_log = {
 
 _G.pg.gametip.guild_tech_change_log = {
 	tip = "[$1] $2 has changed Guild Tech development to $3. "
+}
+
+_G.pg.gametip.guild_log_title = {
+	tip = "Guild Log"
 }
 
 _G.pg.gametip.guild_use_donateitem_success = {
@@ -16606,7 +16654,7 @@ _G.pg.gametip.world_joint_exit_battle_tip = {
 }
 
 _G.pg.gametip.world_boss_get_item = {
-	tip = "You’ve obtained the maximum amount of META Coordinates. Do you want to analyze the META Coordinates and begin an META Showdown? \n(<color=#ff5c5c>If you do not analyze your META Coordinates, you will not be able to collect any more today</color>) "
+	tip = "You’ve obtained the maximum amount of META Coordinates. Do you want to analyze the META Coordinates and begin an META Showdown? "
 }
 
 _G.pg.gametip.world_boss_ask_help = {
@@ -17027,12 +17075,124 @@ _G.pg.gametip.world_setting_submititemtip = {
 	tip = "When enabled: During Auto Search mode, items will automatically be used when encountering events that normally require the use of items.\nWhen disabled: During Auto Search mode, events that normally require the use of items will be ignored."
 }
 
+_G.pg.gametip.world_setting_mapauto = {
+	tip = "Default to Auto Mode\nin secured zones"
+}
+
+_G.pg.gametip.world_setting_mapautotip = {
+	tip = "When enabled, your fleets will default to using Auto Mode in zones you've secured."
+}
+
 _G.pg.gametip.world_boss_maintenance = {
 	tip = "You are unable to begin an META Showdown immediately before server maintenance. "
 }
 
 _G.pg.gametip.world_boss_inbattle = {
 	tip = "You are currently in an META Showdown, and are unable to begin another one. "
+}
+
+_G.pg.gametip.world_automode_title_1 = {
+	tip = "Strategic Search "
+}
+
+_G.pg.gametip.world_automode_title_2 = {
+	tip = ""
+}
+
+_G.pg.gametip.world_automode_cancel = {
+	tip = "Cancel"
+}
+
+_G.pg.gametip.world_automode_confirm = {
+	tip = "Confirm"
+}
+
+_G.pg.gametip.world_automode_start_tip1 = {
+	tip = "No zones meet the set conditions."
+}
+
+_G.pg.gametip.world_automode_start_tip2 = {
+	tip = "Insufficient AP."
+}
+
+_G.pg.gametip.world_automode_start_tip3 = {
+	tip = "This zone has not yet been secured."
+}
+
+_G.pg.gametip.world_automode_start_tip4 = {
+	tip = "Unable to leave this zone."
+}
+
+_G.pg.gametip.world_automode_setting_1 = {
+	tip = "Auto-Search by Corrosion Level:"
+}
+
+_G.pg.gametip.world_automode_setting_1_1 = {
+	tip = "4 and under"
+}
+
+_G.pg.gametip.world_automode_setting_1_2 = {
+	tip = "5"
+}
+
+_G.pg.gametip.world_automode_setting_1_3 = {
+	tip = "6"
+}
+
+_G.pg.gametip.world_automode_setting_1_4 = {
+	tip = "All Zones"
+}
+
+_G.pg.gametip.world_automode_setting_2 = {
+	tip = "Choose the zones you'd like to Strategic Search:"
+}
+
+_G.pg.gametip.world_automode_setting_2_1 = {
+	tip = "Repeat this zone"
+}
+
+_G.pg.gametip.world_automode_setting_2_2 = {
+	tip = "Select random zones"
+}
+
+_G.pg.gametip.world_automode_setting_all_1 = {
+	tip = "When encountering the Mysterious Merchant:"
+}
+
+_G.pg.gametip.world_automode_setting_all_1_1 = {
+	tip = "Stop Strategic Search"
+}
+
+_G.pg.gametip.world_automode_setting_all_1_2 = {
+	tip = "Continue Strategic Search"
+}
+
+_G.pg.gametip.world_automode_setting_all_2 = {
+	tip = "Display reminders to analyze META Coordinates:"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_1 = {
+	tip = "Never"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_2 = {
+	tip = "Every 100 Coordinates"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_3 = {
+	tip = "Every 200 Coordinates"
+}
+
+_G.pg.gametip.world_automode_setting_all_3 = {
+	tip = "Automatically exchange items:"
+}
+
+_G.pg.gametip.world_automode_setting_all_3_1 = {
+	tip = "Yes"
+}
+
+_G.pg.gametip.world_automode_setting_all_3_2 = {
+	tip = "No"
 }
 
 _G.pg.gametip.area_putong = {
@@ -17242,6 +17402,14 @@ _G.pg.gametip.story_autoplay_setting_1 = {
 
 _G.pg.gametip.story_autoplay_setting_2 = {
 	tip = "Enabled"
+}
+
+_G.pg.gametip.meta_shop_exchange_limit = {
+	tip = ""
+}
+
+_G.pg.gametip.meta_shop_unexchange_label = {
+	tip = ""
 }
 
 _G.pg.gametip.daily_level_quick_battle_label2 = {
@@ -18432,6 +18600,50 @@ _G.pg.gametip.world_pressing = {
 	tip = "Zones Cleared"
 }
 
+_G.pg.gametip.Settings_title_FPS = {
+	tip = "Frame Rate Settings"
+}
+
+_G.pg.gametip.Settings_title_Notification = {
+	tip = "Push Notifications"
+}
+
+_G.pg.gametip.Settings_title_Other = {
+	tip = "Game Settings"
+}
+
+_G.pg.gametip.Settings_title_LoginJP = {
+	tip = "Transfer Code"
+}
+
+_G.pg.gametip.Settings_title_Redeem = {
+	tip = "Gift Code"
+}
+
+_G.pg.gametip.Settings_title_AdjustScr = {
+	tip = "UI Adjustment"
+}
+
+_G.pg.gametip.Settings_title_Secpw = {
+	tip = "Password Setup"
+}
+
+_G.pg.gametip.Settings_title_Secpwlimop = {
+	tip = "Password Restrictions"
+}
+
+_G.pg.gametip.Settings_title_agreement = {
+	tip = "Terms of Use"
+}
+
+_G.pg.gametip.Settings_title_sound = {
+	tip = "Audio Settings"
+}
+
+_G.pg.gametip.Settings_title_resUpdate = {
+	tip = "Download Assets"
+}
+
 _G.pg.gametip.equipment_info_change_tip = {
 	tip = "The name of the following equipment has changed."
 }
@@ -18450,6 +18662,18 @@ _G.pg.gametip.equipment_info_change_text_before = {
 
 _G.pg.gametip.equipment_info_change_text_after = {
 	tip = "After"
+}
+
+_G.pg.gametip.world_boss_progress_tip_title = {
+	tip = "Coordinate Analysis \nReminder"
+}
+
+_G.pg.gametip.world_boss_progress_tip_desc = {
+	tip = [[
+When toggled, this function determines how often you will receive pop-up prompts when collecting Coordinates during Operation Siren.
+OFF: Never
+Every 100: Reminders will appear at 100 and 200 Coordinates
+Every 200: Reminders will appear only at 200 Coordinates]]
 }
 
 _G.pg.gametip.ssss_main_help = {
@@ -18686,6 +18910,18 @@ _G.pg.gametip.blueprint_exchange_empty_tip = {
 
 _G.pg.gametip.blueprint_exchange_select_display = {
 	tip = "Number Selected / Number Needed"
+}
+
+_G.pg.gametip.build_rate_title = {
+	tip = "Build Rates"
+}
+
+_G.pg.gametip.build_pools_intro = {
+	tip = "Use Wisedom Cubes and Coins to expand your fleet! "
+}
+
+_G.pg.gametip.build_detail_intro = {
+	tip = "Max Simultaneous Orders:"
 }
 
 _G.pg.gametip.ssss_game_tip = {

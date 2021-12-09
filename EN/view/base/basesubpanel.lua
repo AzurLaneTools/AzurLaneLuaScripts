@@ -44,11 +44,7 @@ function slot0.Destroy(slot0)
 	slot0._state = uv0.STATES.DESTROY
 
 	pg.DelegateInfo.Dispose(slot0)
-
-	if slot0:IsShowing() then
-		slot0:Hide()
-	end
-
+	slot0:Hide()
 	slot0:OnDestroy()
 	slot0.loader:Clear()
 	slot0.buffer:Clear()
@@ -86,6 +82,10 @@ end
 
 function slot0.IsShowing(slot0)
 	return slot0:GetLoaded() and isActive(slot0._go)
+end
+
+function slot0.IsHiding(slot0)
+	return slot0:GetLoaded() and not isActive(slot0._go)
 end
 
 function slot0.SetParent(slot0, slot1, ...)

@@ -76,6 +76,10 @@ function slot0.OnInit(slot0)
 		end
 	end)
 
+	slot3 = slot0._tf
+
+	setText(slot3:Find("window/cancel_button/label"), i18n("word_cancel"))
+
 	slot4 = slot0._tf
 
 	onButton(slot0, slot4:Find("window/cancel_button"), function ()

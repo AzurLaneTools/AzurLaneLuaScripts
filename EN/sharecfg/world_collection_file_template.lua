@@ -53,7 +53,7 @@ D. 6■°52′■0″ N, ■01°50′■0″ E
 The time when the Restricted Military Zone will be lifted will be announced in a subsequent notice. 
 Any unauthorized dispatch of military personnel and/or equipment to the Restricted Military Zone will be considered a declaration of hostilities. 
 In such an event...]],
-		pic = ""
+		pic = "1104"
 	},
 	[1105] = {
 		id = 1105,
@@ -77,7 +77,7 @@ As a reporter who has always been committed to bringing the truth to everyone, I
 		is_classified = 0,
 		group_ID = 6,
 		content = "———————Confidentiality Level: III———————\n...Our team has discovered some interesting phenomena from the Polar seabed (depth of over 1500 meters). For example, marine life were appearing at certain depths and temperatures that clearly should not have been possible. Through the exploration of the central area of these deep-sea biomes, we were able to recover samples that are suspected to be from ancient meteorites. As hypothesized, the recovered samples in question have been completely integrated into their surrounding environments and showed no traces of extraterrestrial origin. Had it not been for instruments capable of detecting special bands of energy, these fragments may have been glossed over as ordinary seabed debris. The meteorites that caused the ■■■■■■ Explosion seemed to have certain properties that allow them to blend into the surrounding environment. \nOur \"counterparts\" have also noticed this phenomenon, and conducted a seabed expedition at about the same time we did. By calculating the falling trajectory of the ■■■■■■ meteorite, they have now collected a sample that has a high probability of being the object in question. We recommend setting up a temporary research facility directly on the Polar Sea as soon as possible, in the name of scientific research, so that we may catch up to them...",
-		pic = ""
+		pic = "1106"
 	},
 	[2101] = {
 		id = 2101,
@@ -127,7 +127,7 @@ Résumé delivery method...]],
 ......
 [No. 11010] 27 years old, male, 3 years of factory work experience. I’ve completed Energy Cube training and am looking for a job in a company that produces Energy Cubes. Please contact me if there are any companies that are willing to...
 ......]],
-		pic = ""
+		pic = "2103"
 	},
 	[2104] = {
 		id = 2104,
@@ -162,7 +162,7 @@ The birth of international standards has paved the way for widespread applicatio
 Most demonstrators have voiced concerns about the safety of Cube technology, and some have expressed suspicion about the Northern Parliament's role in the research and development of Cube technology. 
 We interviewed a representative of a well-known opposition organization that has recently gained traction. According to the source, who has chosen to stay anonymous, the opposition group is primarily made up of professionals in traditional energy sectors, with a small number of scientific researchers. The purpose of the organization, he says, is to protect traditional energy industries, and to raise awareness of the possible dangers of misusing Cube technology. He urges caution against relying on a black box that even top scientists cannot fully explain, and to return to the development of traditional energy sectors including nuclear energy. 
 It is worth noting that of the many researchers who’ve expressed support for the group's views, several are well-known experts who even participated in the development of Cube technology...]],
-		pic = ""
+		pic = "2106"
 	},
 	[3101] = {
 		id = 3101,
@@ -180,7 +180,7 @@ It is worth noting that of the many researchers who’ve expressed support for t
 		is_classified = 0,
 		group_ID = 2,
 		content = "...The utilization of ε-Cubes is also very different from that of commonly-used nuclear energy. In the eyes of the layperson, the ε-Cube is similar to a nuclear reactor — an energy source with a nearly unlimited battery life. However, nuclear reactors require fuel to operate, and involve a series of complex control mechanisms and cumbersome energy conversion channels. On the other hand, the ε-Cube is much smaller than even the smallest nuclear reactor currently available. It does not require fuel, is simple and safe to operate, and can directly convert energy in the ε-Cube into usable power. \nThe most important feature of the ε-Cube is its battery-like size with the battery life of a nuclear reactor. Though the output of a single ε-Cube is limited and is not comparable to a small nuclear reactor, ε-Cubes can be used with other cubes in relatively free configurations, and the output efficiency can be increased by arranging them in...\n",
-		pic = ""
+		pic = "3102"
 	},
 	[3103] = {
 		id = 3103,
@@ -206,7 +206,7 @@ On the other hand, as ε-Cube technology is continuously improved and upgraded, 
 The small-scale temperature control stations are unmanned warming devices driven by a built-in ε-Cube capable of heating the surrounding environment around the clock, year-round. By using hundreds of adjusting, extensible columns, one station can evenly cover one square kilometer of land. 
 Ice floe melting stations are used to maintain and expand sea routes through the Polar region, creating more non-freezing ports across the Polar region and the Far East. 
 It is estimated that tens of millions of temperature regulation stations and tens of thousands of ice floe melting stations will be deployed to fully realize this goal. Major environmental conservation organizations have all recently expressed their concerns and qualms about this development plan.]],
-		pic = ""
+		pic = "3104"
 	},
 	[3105] = {
 		id = 3105,
@@ -260,7 +260,7 @@ Finally, if you’re too busy to modify your own vehicle, do not despair! We can
 In order to solve this perennial problem, the desert tourism drone service system developed by the logistics giant, AMZ, in conjunction with a number of professional travel agencies, has officially been put to use in some desert tourism hotspots. The drone service system uses AMZ’s latest model of Cube-powered drones, capable of carrying loads up to 100kg and conducting all-weather remote hovering or cruising services year-round, featuring strong resistance to wind and sand. 
 Each drone is equipped with food, water, a spare power supply, maintenance equipment, medical supplies, other travel convenience supplies, and also has navigation and lighting functions. For an additional fee, each tourist can also designate up to 3 drones to provide full flight service during the trip...
 ]],
-		pic = ""
+		pic = "3203"
 	},
 	[3204] = {
 		id = 3204,
@@ -283,7 +283,7 @@ Get the Business Buddy ECII today and experience the joy of being able to work a
 		is_classified = 0,
 		group_ID = 5,
 		content = "...After receiving a tip from the administrator, the police quickly arrived at the scene and blocked off the nearby roads. The SWAT team arrived soonafter and dismantled the suspicious abandoned object. Within the dismantled objects, a large amount of explosives were found, along with an already-activated remote-controlled timed detonator. It was judged that this device was an intentionally-made explosive.\nThe active part of the explosive was said to have been made by connecting multiple Cubes of different types and sizes. However, because Cubes cannot be detonated, such an explosive would not have actually yielded any explosive effect.\nThe investigation concluded with the police detaining the individual suspected of creating and planting the explosive device, three hours after the initial tip. The police are currently interrogating the subject for further details...",
-		pic = ""
+		pic = "3205"
 	},
 	[3206] = {
 		id = 3206,
@@ -312,7 +312,7 @@ As Cubes provide a source of practically free, unlimited energy, they have set t
 Due to the limitations of last-generation energy supply solutions, old PCS models were semi-open designs created to be as lightweight as possible. As these models were unable to provide their user with full-body protection, they only saw extremely limited usage.
 After the breakthroughs of Cube technology, this fundamental problem became all but a non-issue. PCS design has undergone a complete reversal with the latest generation, with most models favoring a casing that fully encloses the operator. These suits put emphasis on increased firepower and armor, life-support for missions in hazardous environments, and systems that raise the operator's tactical awareness. The PCS, once merely an auxiliary combat aide, has transformed into a literal war machine.
 This rapid development has sparked debate among engineers over the PCS's fundamental design, however. Some argue the bipedal model designed around the human body is here to stay, while others propose switching to wheeled vehicle-type designs featuring superior stability. Others still ponder the feasibility of leveraging the Cubes' almost inexhaustible energy to create suits with "wings"...]],
-		pic = ""
+		pic = "3301"
 	},
 	[3302] = {
 		id = 3302,
@@ -389,7 +389,7 @@ Anonymous 12:17:54 No. 3218
 In the first stage, the Chamber of Commerce will mobilize R&D resources and talent to achieve breakthroughs in Cube technology and applications in the aviation sector. Currently, Cube-powered engines can only be used in large stationary machines and small to medium-sized ground vehicles. If this development goes smoothly, engines for large drones will be developed first, followed by engines for passenger planes and freight, then finally, engines for combat aircraft. Imagine the joys of flying without a need to refuel.
 The completion of the first stage of the plan will revolutionize the traditional aviation industry, leaving tanker aircraft behind in history. In the second phase, following on the success of Cube-powered aircraft engines, the Chamber of Commerce plans to develop Cube-powered rockets for near-Earth orbital transport and deep space exploration.
 Let us look towards the sea of stars for our next conquest...]],
-		pic = ""
+		pic = "3305"
 	},
 	[3306] = {
 		id = 3306,
@@ -407,7 +407,7 @@ Let us look towards the sea of stars for our next conquest...]],
 		is_classified = 0,
 		group_ID = 1,
 		content = "...The nuclear aircraft carrier, Enterprise, arrived at the SD Naval Base today, temporarily concluding its naval service. Enterprise is staying at the base to embark of a 36-month-long large-scale maintenance and reconstruction work project. Unlike in previous maintenance projects, Enterprise will completely abandon nuclear power and switch to a brand-new power module.\nThe E-Cube powered energy conversion device, made specifically for use on Enterprise, can directly convert power generated by the E-Cube into usable engine power for the warship, greatly reducing the size of the power system and reducing the rate of energy loss. After the replacement work has concluded, a large amount of space will be freed up inside the aircraft carrier. The specific purpose for this space is currently unknown. Perhaps it will be used as a storage space for conventional weapons?\nAfter all modifications are complete, Enterprise will no longer need to perform a similarly-scaled engine maintenance throughout her operational lifetime, a Navy spokesperson said. After all aircraft carriers have been converted to the new engine, traditional overhauls for refuelling will no longer be necessary...",
-		pic = ""
+		pic = "4101"
 	},
 	[4102] = {
 		id = 4102,
@@ -468,7 +468,7 @@ If there's 2 things history's taught us it's that humanity is persistent, and wa
 Although, in exchange for all these favors, they do expect us to produce something of tangible use ASAP. It's a good thing we've already finished work on a prototype Cube engine for land-and-air-based vehicles. There is also the Cube-powered propulsion system for battleships which is past the theoretical stage. With that in mind, I suggest we make our first project to research into the practical application of these innovations.
 
 At long last, we'll finally be able to study how the Energy Cubes function in-depth. As Dr. Anzeel has theorized, I, too, believe Cubes are more than just a convenient source of energy. The hidden potential they hold goes far beyond that...]],
-		pic = ""
+		pic = "4105"
 	},
 	[4106] = {
 		id = 4106,
@@ -581,7 +581,7 @@ We thank you for your understanding and patience.
 June 1st
 D.C. Navy Museum Management Committee
 ...]],
-		pic = ""
+		pic = "5104"
 	},
 	[5105] = {
 		id = 5105,
@@ -614,114 +614,233 @@ As a part of the Project "Dusk" experiment, "Code G" will begin a week-long sea 
 Jam all satellites that pass through the above sea and airspace.
 
 As a countermeasure against "RF" reconnaissance and espionage, fighter planes have been stationed in the above airspace. Surrounding naval bases have been instructed to monitor the situation around the clock. Any targets that enter the area without prior authorization can be shot down on sight——]],
-		pic = ""
+		pic = "5106"
 	},
 	[6101] = {
 		id = 6101,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Cube Analysis Report I",
+		subTitle = "Confidentiality：V",
 		is_classified = 0,
 		group_ID = 1,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+…As of the time of this report, Phase I of testing has already been completed.
+
+During Phase I of the project, our team focused on optimizing the power supply and expanding the functionality of the ε-Cube. So far, military-grade ε-Cubes have seen a 312% increase in power output, 76% increase in stability, and a 20% reduction in volume compared to the previous specification. 
+
+Though these specifications are quite different from the international standard, we nevertheless consider this model to be the most suitable for military usage among the variations currently being researched. We also have made significant breakthroughs in its application to military armaments, the details which have been omitted here but can be found in the addendum to this report. These application studies have been handed to the working group, which will continue subsequent research into that subject. Our team instead has transitioned into Phase II: identifying how ε-Cubes are capable of generating energy.
+
+To our knowledge, many parties are already carrying out similar lines of research, though no breakthroughs have been made on this front. While it is possible that their research has yielded no fruit, we cannot rule out the possibility that information is being withheld to stymie the efforts of other researchers.
+
+Regardless, we plan to do away with any speculation and return to studying the building blocks of the ε-Cube at a sub-atomic level. However, our current facilities do not meet the conditions that would allow us to advance our research in the way outlined above. Therefore, we would like to apply for two things: First, that a new lab be established in the Somers Isle in the Bermuda Triangle capable of satisfying our equipment, environmental, and confidentiality needs, and second, that permission to view the confidential research materials of "Project Dusk" be granted.
+
+– Dr. Aoste]],
 		pic = ""
 	},
 	[6102] = {
 		id = 6102,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Cube Analysis Report II",
+		subTitle = "Confidentiality：V",
 		is_classified = 0,
 		group_ID = 2,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+...Our team went back to the point of origin to try to reproduce the environment in which the ε-Cube was first born, unlike modern manufacturing settings in which Cubes can be produced stably. Under these environments, though the strength and stability of power output fluctuated dramatically, I was able to observe a point that could be considered the "birth" of an ε-Cube many times. As long as there are no requirements on the power output, the number of possible configurations for ε-Cubes do not merely number in the dozens. Though there is likely plenty of room for improvement, I do believe that from a military standpoint, the ε-Cubes currently in use are already closest to the optimal configuration.
+
+It is worth noting that throughout the experiment, the ε-Cubes did not generate power in a continuous manner. Energy production would change from a 0 to a 1 only after certain conditions were met, similar to flipping a light switch.
+
+In a sense, this phenomenon is similar to the relationship between potential and kinetic energy. However, the ε-Cube does not explicitly act upon any matter in the process of generating power, nor does it lose mass. None of the physical principles we currently have adequately explained the functionality of the ε-Cube.
+
+To continue the next phase of research, I would like permission to view all of the research data from the now-frozen "Polar Analysis" project.
+
+– Dr. Aoste]],
 		pic = ""
 	},
 	[6103] = {
 		id = 6103,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Cube Analysis Report III",
+		subTitle = "Confidentiality：V",
 		is_classified = 0,
 		group_ID = 3,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+...Experiments to extract energy from the ε-Cube are still ongoing. As we expected, the energy "contained" within an ε-Cube is literally inexhaustible, whether through civilian or military use, and the service life of an ε-Cube is determined not by the amount of energy it contains, but rather by the properties of the materials that go into the Cube. We came to the conclusion that the most important determinant is the durability of the materials. In essence, this is the exact opposite of nuclear fission.
+
+From our experimental results, should there be some material that can withstand long-term usage, ε-Cubes should be able to provide energy continuously without any external input, akin to a perpetual motion machine. Additionally, the quality of the ε-Cube affects its power output, something that is already widely known.
+
+Further evidence exists to support my hypothesis: that the ε-Cube is a device that extracts energy, rather than produces it. Beyond the mechanics of the Cube itself, I do not particularly care what the true origins or nature of this energy are. While I could make some educated guesses, that would fly in the face of scientific principles and common sense itself. All that matters is that we continue our research. For that purpose, it would be very helpful if ALL the data from the "Polar Analysis" project be made available...
+
+– Dr. Aoste]],
 		pic = ""
 	},
 	[6104] = {
 		id = 6104,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Cube Analysis Report IV",
+		subTitle = "Confidentiality：V",
 		is_classified = 0,
 		group_ID = 4,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
-		pic = ""
+		content = [[
+...The results of the experiment are unbelievable. If we eliminate every impossible hypothesis one by one, we must accept the last one remaining, no matter how unbelievable it may seem. With the belief that it is in fact true, my team has worked ceaselessly to test all hypotheses until finally, we have arrived at the truth. I can say with certainty that the energy source of the ε-Cube must exist in a higher dimensional space, separate from the space-time we exist in.
+
+All our experiments have pointed to the same conclusion over and over. The energy from an ε-Cube comes from a higher dimensional space that has always been theorized to exist, but could never be proven because there was no way to observe it. The ε-Cube acts like a transducer, continuously converting the energy stored in the higher dimension and outputting it in a usable form in our dimension, therefore acting like a perpetual motion machine that defies the laws of physics.
+
+Even though we produced and utilized the ε-Cube, we had no idea how it worked... until now. Though this is a revolutionary breakthrough, I can't help but think about how that higher-dimension space came to exist. If the theory that higher-dimension space can house an infinite number of lower-dimension spaces, and lower-dimension space can be observed, then by applying these theories... ■■■■■■■■■■■■■■■■■■■...
+
+– Dr. Aoste]],
+		pic = "6104"
 	},
 	[6105] = {
 		id = 6105,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Cube Analysis Report V",
+		subTitle = "Confidentiality：V",
 		is_classified = 0,
 		group_ID = 5,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+...After thoroughly analyzing all the data left in the Polar Decompilation project, our team has made remarkable progress in studying the material compositions of ε-Cubes.
+
+At first, it was believed that only a sturdy and stable material could be made into a durable ε-Cube – that is, the ε-Cube would inherit the properties of the material itself.
+
+Naturally, that belief is common sense in our world. For example, a bowl made of wood has the same properties as wood. A bowl made of paper would also have the same properties as paper. As such, anyone could tell you that a bowl of wood is sturdier than a bowl of paper. However, this common sense does not apply to ε-Cubes, and until now, all the research on materials has been nothing more than trial and error based upon a faulty notion of common sense.
+
+The ε-Cube does not inherit the properties of the materials used to make it, but rather changes based upon those materials. Simply put, an ε-Cube is more than the sum of the components used to make it. Whether wood or paper, the properties of the Cube are not completely related to the physical properties of the components. Of course, neither wood nor paper are suitable materials for the construction of an ε-Cube shell, but with this knowledge, we once again open ourselves to countless new possibilities worth trying, such as ■■■■■■■■■■■■■■■■■■■...
+
+– Dr. Aoste]],
 		pic = ""
 	},
 	[6106] = {
 		id = 6106,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Cube Analysis Report VI",
+		subTitle = "Confidentiality：V",
 		is_classified = 0,
 		group_ID = 6,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
-		pic = ""
+		content = [[
+...With this, Phase II of our research has been completed. The derivative cube, tentatively named "Chokhmah," has proven many of the hypotheses outlined in previous reports.
+
+So far, our research has already accomplished what it initially sought out to do: determine the ε-Cube's true energy source. However, because our results were so unexpected, the mysteries behind the ε-Cube have only grown deeper. So plagued am I by doubts about the existence of this higher dimension of energy that I cannot even feel joy at the truth that was just uncovered.
+
+In light of these findings, it is necessary to review the research results obtained from Phase I of the project. I've decided to leave this to another team.
+
+As for Phase III... That is, the study of this higher-dimensional space, my team will analyze this unknown space, deepen our understanding of it, re-examine the very framework of the reality we live in, and perhaps, even prove ■■■■■■...
+
+I would like to apply for a tour of Project Dusk's testing grounds. Our research will surely prove useful for Project Dusk, and I am curious about the implications that Code G's existence has for our future research...
+
+– Dr. Aoste]],
+		pic = "6106"
 	},
 	[7101] = {
 		id = 7101,
-		name = "Mysterious Data",
+		name = "Log: SDORGA001",
 		subTitle = "",
 		is_classified = 0,
 		group_ID = 1,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+...The experiment finally worked! After so many twists and turns, I was starting to doubt if we were even on the right track... but I'm so glad we stuck it through to the very end! I initially posited that ε-Cube was much more than just an energy source that would advance technology in human society, and the research results proved that I was correct.
+
+(Dr. Aoste's research was very helpful. I'll have to bring him a thank-you present...)
+
+Umm... "By improving the materials, we succeeded in creating a variant of the ε-Cube... We didn't have a name for it, but after doing some research and getting feedback from the other team members..." Yeah, let's go with "Wisdom Cube." I like the sound of that!
+
+Let's see... Next is... "In a special environment adjusted from the previous iteration of experiments, by applying a controlled amount of stimulation to the ε-Cube, we were able to induce a resonance reaction with the materials in the same environment and maintain stability without interference by the Cube's complex fluctuations. From this, we witnessed an entirely new intelligent entity born from the ε-Cube."
+
+Hmm... I'm not sure "born" is the right word to use here. The materials around the ε-Cube all disappeared, so in other words... "Rather than being created from nothing, the particles of the matter were rearranged and reassembled due to reaching a certain resonance between the ε-Cube and the various materials." ...From an outside perspective, all of this may appear to be encroaching on the realm of God, but as a researcher, and as a director of this project, it's my job to explain this phenomenon in scientific terms...
+
+– Dr. Anzeel]],
 		pic = ""
 	},
 	[7102] = {
 		id = 7102,
-		name = "Mysterious Data",
+		name = "Log: SDORGA007",
 		subTitle = "",
 		is_classified = 0,
 		group_ID = 2,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+...As for the naming issue, from a management standpoint, all experimental products require some kind of code number for identification purposes, but this is truly a unique case... At the agency's urging, I finally decided on the name "Code G" and announced it at today's meeting.
+
+So from now on, her name is Code G, Singularity G, or just "G" if you prefer something shorter. As for me, I like the idea of giving her a name just like a real human, so I call her "Enterprise." After all, the idea of calling a person by a code is just... Well, I hope I can get the other staff members to see her as human as well.
+
+So from now on, I'll write down some information about Enterprise every day.
+
+Born with the body of a human female, the intelligent body "Enterprise" has an almost perfect grasp of our world's knowledge and language, as if it had come pre-installed in her head (because of this, everyone in the facility sees her as an overly diligent AI). On the other hand, her ability to live life like a normal human being seems rather lacking, and her mental age appears to also be... around that of a human middle schooler? Considering the rarity of Wisdom Cubes, we'll most likely be limited to simply observing her for the time being...
+
+– Dr. Anzeel]],
 		pic = ""
 	},
 	[7103] = {
 		id = 7103,
-		name = "Mysterious Data",
+		name = "Log: SDORGA025",
 		subTitle = "",
 		is_classified = 0,
 		group_ID = 3,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
-		pic = ""
+		content = [[
+...As our observation continued, Enterprise's humanity became more and more evident.
+
+So, first of all, her physiological characteristics are almost identical to that of a human: she eats the same food, breathes and sleeps like a human, and even shares most of the same vital signs. The primary difference is that unlike humans, her appearance and stature appears to be fixed. She doesn't gain weight no matter how much she eats, and her hair quickly returns to its original length no matter how much of it you cut off. I'm not sure if she can contract human illnesses, but at least during the time I spent with her, I never noticed her coming down with any common illnesses or getting colds. However, she does seem to have subjective sensations of feeling better or worse at times, and I've even seen her oversleep when tired.
+
+Despite all this data and evidence to suggest that she absolutely is human, there are many staff members who remain convinced that she's nothing more than an advanced AI... Isn't that way of thinking way too rigid? I have to convince them otherwise. Maybe the "Wisdom" part of the Wisdom Cube is a good place to start...
+
+– Dr. Anzeel]],
+		pic = "7103"
 	},
 	[7104] = {
 		id = 7104,
-		name = "Mysterious Data",
+		name = "Log: SDORGA044",
 		subTitle = "",
 		is_classified = 0,
 		group_ID = 4,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+...We recently perform a combat test. All this time, I'd viewed Enterprise as identical to a typical human girl. However, everything changed the moment she put on the special equipment created from the same Wisdom Cubes that birthed her.
+
+This equipment massively enhanced Enterprise's physical capabilities. Her strength, stamina, agility, every measurable statistic received an astonishing increase. As for the equipment itself... They bear the appearance of mini-sized naval-grade cannons and machine guns, but the staggering firepower they possess left all the on-site research staff speechless.
+Who wouldn't be? After all, this girl, who for all intents and purposes is no different to any ordinary human being, commands power to rival that of fully equipped warships...
+
+I consulted with the agency, and we came to the joint conclusion to name this special equipment "rigging." Just like Enterprise herself, it was created by exposing large quantities of materials to Wisdom Cubes, causing a resonance reaction that rearranged and reassembled the materials. The materials were entirely consumed in this process, leaving behind only the rigging after the resonance reaction completed. One can't help but wonder where the bulk of the materials' mass went...
+
+On another topic, I'd like to propose reassigning some staff to research this subject exclusively. I'll also need to bring up the potential military applications of our discovery to Dr. Aoste's team...
+
+– Dr. Anzeel]],
 		pic = ""
 	},
 	[7105] = {
 		id = 7105,
-		name = "Mysterious Data",
+		name = "Log: SDORGA047",
 		subTitle = "",
 		is_classified = 0,
 		group_ID = 5,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
-		pic = ""
+		content = [[
+Why were there museum artifacts among the materials at the site where Enterprise was born? Did they just happen to be there? Or did someone intentionally leave them there? I can't construct an explanation for either theory.
+
+Who is this "Enterprise" anyway? That, too, is anyone's guess. Not even she can provide a clear explanation as to why that is her name, or why she claims to be an aircraft carrier, or why she knows so much about the actual ship, the Enterprise. She has no recollection of any events prior to her birth, for that matter.
+It is true that she and her rigging share some visual similarities with the warship of the same name, and furthermore, that her rigging follows human warship design conventions of the same period while also using the same components (albeit scaled-down). Of course, it would be ludicrous to conclude that this girl IS Enterprise based on this evidence.
+
+Attempting to answer these questions is likely to only lead one down a philosophical rabbit hole.
+After all, who am I? What makes me Dr. Anzeel? What makes Dr. Aoste into Dr. Aoste?
+
+The famous Ship of Theseus thought experiment asks a similar question. If one were to gradually replace every part of the ship, would it still be the Ship of Theseus?
+If it's not the individual parts that make the ship into what it is, then what does? What gives a ship its "soul," so to speak?
+
+More pertinent to the topic at hand, what is it that gives Enterprise her soul?
+
+– Dr. Anzeel]],
+		pic = "7105"
 	},
 	[7106] = {
 		id = 7106,
-		name = "Mysterious Data",
+		name = "Log: SDORGA069",
 		subTitle = "",
 		is_classified = 0,
 		group_ID = 6,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+...The results of our 7-day long naval exercise are astounding. We already knew that Code G's combat potential rivals that of a modern capital ship based on our theoretical estimates, but her actual capabilities were in fact beyond our wildest expectations.
+
+Code G is able to enlarge her rigging to launch and pilot dozens if not hundreds of aircraft entirely by herself. The offensive potential of her rigging surpasses that of multiple older fleet carriers combined. The aircraft she launched were comparable in size to remote-control planes, but despite this, they had all the firepower of their full-scale counterparts.
+
+Her mobility and size, too, put traditional warships to shame.
+Being only the size of an adult human female, she is able to board a vessel and launch surprise attacks from the deck. Furthermore, despite what her human appearance might lead one to speculate, with her rigging equipped she suffered no damage from both small arms fire and from shockwaves caused by explosions.
+
+Larger weapons similarly proved ineffective against Code G. With a profile smaller than even an unmanned patrol boat, it is practically impossible to land a hit on her using naval cannons. When torpedoes were fired at Code G, she leapt over them, and when an attempt was made to hit her using a guided missile, she made a sharp turn and dodged it.
+Code G's group, consisting of her and a handful of destroyers, were able to hold their own against 2 entire aircraft carrier task forces. This is an unbelievable feat, made all the more so by the fact that: 1) she is only just beginning to accustom herself to her rigging, and 2) she has yet to fully master conventional tactics.
+
+Code G's rigging enlarging warrants further investigation. She had not shown this ability prior to this exercise.
+Her power to somehow reconstruct her rigging is also of particular interest. It could, perhaps, lead to an answer to the question of what happened to all the materials that vanished from the test site...
+
+– Code G Performance Test Report]],
 		pic = ""
 	},
 	[8101] = {
@@ -731,7 +850,7 @@ As a countermeasure against "RF" reconnaissance and espionage, fighter planes ha
 		is_classified = 0,
 		group_ID = 1,
 		content = "...In the joint military exercises that began today, the most notable thing was a new weapon which, despite having the appearance of a young woman, has firepower that greatly exceeds that of warships. This completely novel weapon, named \"Code G,\" is considered one of the lines of experimental \"Kinetics Artifactual Navy-Self-regulative En-lore Node (KAN-SEN).\"\nUnlike a warship that has been retrofitted with a Cube-powered energy unit, the use of the E-Cube in this new weapon is groundbreaking. The E-Cube was directly utilized from the time of construction, resulting in complete integration with the cube. Even if its body appears humanoid in form, do not be fooled by its appearance. While its firepower already greatly exceeds that of the same corresponding class of warships, more notable than its combat capabilities is its potential to learn and grow.\nThis breakthrough application of Cube technology will have a massive impact on the future of naval weapon design, ushering in an unprecedented new era of naval battles...",
-		pic = ""
+		pic = "8101"
 	},
 	[8102] = {
 		id = 8102,
@@ -769,7 +888,7 @@ As a controversy with no end in sight until some kind of final consensus is reac
 		is_classified = 0,
 		group_ID = 4,
 		content = "...the Military Commission announced a new arms race plan at today's press conference: \"Within a decade, we will build a fleet of more than 100 ships of various types, centered on the new weapon, 'KAN-SEN.'\"\nInternationally, this declaration is generally believed to be a tit-for-tat response to the Eagle Union's high-profile unveiling of \"Code G.\" While some believe that the declaration of an arms race necessitates further countermeasures to the Northern Parliament, some experts also believe that the arms race reveals the fact that the Northern Parliament is lagging behind in the technology of constructing KAN-SEN from Wisdom Cubes...",
-		pic = ""
+		pic = "8104"
 	},
 	[8105] = {
 		id = 8105,
@@ -795,57 +914,119 @@ Rigging maintenance and modernization play important roles in the upkeep of a KA
 	},
 	[9101] = {
 		id = 9101,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Log: GGORN0001",
+		subTitle = "Confidentiality Level: III",
 		is_classified = 0,
 		group_ID = 1,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+…Dr. Anzeel was transferred to the lab following the success of her previous experiment. Apparently she'll be working on something involving the study of autonomous AIs.
+
+I've heard she's been experimenting with ε-Cubes. If you believe the stories, Cubes will "resonate" when exposed to material under specific conditions, and create an android with very sophisticated artificial intelligence. Dr. Anzeel insists it's not an android, but organic life, but I have reason to doubt that.
+
+She appeared at a conference and announced that she'd given the android the alias "Code G," but wouldn't elaborate on the name at all. I wonder what the G is supposed to stand for...
+
+I've never inspected the android in person, but from what I've seen, the android is a she, and it looks like a human in every way. As if that wasn't strange enough, Dr. Anzeel's said the android's mental age is younger than its appearance suggests.
+
+What's more, apparently the higher-ups have been talking about weaponizing Code G or something. It's already proved itself extremely capable, so I have a feeling it's only a matter of time before they send it off to fight...
+
+– Note from Observation Team]],
 		pic = ""
 	},
 	[9102] = {
 		id = 9102,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Log: GGORN0032",
+		subTitle = "Confidentiality Level: III",
 		is_classified = 0,
 		group_ID = 2,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+…Its ability to learn is extraordinary. It has learned the basics of dozens of diverse sciences, ranging from social sciences, to humanities, to linguistics, to military theory. All in a short timeframe.
+
+And that's not all. After every combat exercise, it writes its own reports, reviews its tactics, and adjusts its equipment, all on its own. Although it's on the whole not as efficient as a specialized military AI, it's able to make complicated decisions, and even appears to have original thoughts and ideas. These factors are what set it apart from all other currently available military AIs.
+
+Personally, I have some qualms about dedicating precious time to making it study the liberal arts. Dr. Anzeel, however, asserts that doing so lets it more readily take in information and function in society at large. Sure, that's useful for espionage or fleeing a warzone to blend in with civilians, but considering the AI's expected service life, we should be focusing on more important things.
+
+I do hope we'll get to perform a test of the AI's "rigging," as Dr. Anzeel called it, in the near future. It would be interesting to see what it's capable of...
+
+– Note from Operations Team]],
 		pic = ""
 	},
 	[9103] = {
 		id = 9103,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Log: GGORN0053",
+		subTitle = "Confidentiality Level: III",
 		is_classified = 0,
 		group_ID = 3,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
-		pic = ""
+		content = [[
+…The lab rules state that no staff, save for project director Dr. Anzeel, is permitted to physically interact with the android.
+Additionally, all logged conversations between it and Dr. Anzeel, as well as between other researchers and military personnel within the lab, are completely expunged so as to prevent leaks of sensitive information.
+
+The android has a very busy day-to-day schedule, even when one excludes its routine activities including assisting in experiments, preparing for combat exercises, and its general education. As such, Dr. Anzeel decided to incorporate break times into its schedule.
+The only thing the android has been observed doing during these break times is staring out across the sea.
+
+Dr. Anzeel asked the android about the purpose behind this behavior today. It reportedly only muttered, "Because it's part of my nature, I guess," in response.
+
+We have reason to suspect Dr. Anzeel has become too attached to the android. Will continue monitoring...
+
+– Information Report]],
+		pic = "9103"
 	},
 	[9104] = {
 		id = 9104,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Log: GGORN0104",
+		subTitle = "Confidentiality Level: III",
 		is_classified = 0,
 		group_ID = 4,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+…Code G demonstrated an outstanding ability to analyze the battlefield, issue commands, and of course, partake in the fighting itself during a joint exercise today.
+
+More and more combat units of the same type as Code G have begun appearing recently. Their advantages over last-generation war machines are so numerous that the two are almost categorically uncomparable. They are even quicker to produce, too.
+
+The scale of the lab's research grows with each passing day. The 3 facilities are situated on an island in a far-off corner of the sea. This remote location was ideal for ensuring secrecy during the project's first stage, though there is no longer any need to hide the existence of Code G and her sisters from the world.
+At present, the combat units are engaged in logistics transports and combat exercises at an esteemed naval base. This base conducts round-the-clock research into new weapons and serves as a training ground.
+
+One question regarding the combat units arose during their transfer into the navy – should the navy address them by their established codenames, or their "true" names? Dr. Anzeel posits the navy should use their "true" names, but Naval HQ disagrees on the matter, stating potential confusion arising from a combat unit having the same name as a warship in active service as their basis.
+It will likely be long before any kind of verdict on the matter is reached...
+
+– Intel File]],
 		pic = ""
 	},
 	[9105] = {
 		id = 9105,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Log: GGORN0175",
+		subTitle = "Confidentiality Level: III",
 		is_classified = 0,
 		group_ID = 5,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
+		content = [[
+...Enterprise goes through rigorous training and studies each and every day, but no matter how difficult the subject or how tiresome the workout, she has never shown a hint of frustration. She's a bright and cheerful girl, and I'm confident she'll overcome all challenges and become an indispensable part of the fleet!
+It's just as Dr. Anzeel says. She is a miracle born from the Wisdom Cubes that connects the past with the present. She and her sisters deserve the utmost respect for the incredible things they achieved.
+
+It's so clear to me now why Dr. Anzeel wants to rename the ε-Cubes cubes into Wisdom Cubes. It's because these girls are just as wise, just as wonderful, just as human, as any other person on this planet. We shouldn't treat them as mere weapons!
+
+First we should lobby for the right for them to use their own names, then the right for them to live alongside us!
+I've been with you on the project since the very start, albeit as observational staff. Please, if there's anything I can do to help you, just let me know!
+
+P.S.: I'm including a document with this message. I sorted out all the relevant information for the committee to review...
+
+– Message from Staff Member]],
 		pic = ""
 	},
 	[9106] = {
 		id = 9106,
-		name = "Mysterious Data",
-		subTitle = "",
+		name = "Log: GGORN0296",
+		subTitle = "Confidentiality Level: III",
 		is_classified = 0,
 		group_ID = 6,
-		content = "Legacy information discovered out at sea. For its purpose to be understood, it must be analyzed.",
-		pic = ""
+		content = [[
+…Today is the day of Enterprise's award ceremony. While the award itself isn't too remarkable, the ceremony's significance cannot be overstated.
+
+Why? Because it symbolizes that the navy formally acknowledges Enterprise as an individual and commends her on all her efforts up to this point.
+
+This event is going to set a historical precedent. Enterprise, and others like her born from Wisdom Cubes, are officially being recognized as people. Not as instruments of war or mere AIs created by man, but as people.
+
+Now, of course, they haven't been legally granted universal human rights yet, but this is still a huge leap forward after all the setbacks we've faced. Truly, this is a day worth celebrating, Dr. Anzeel...
+
+– Message from Staff Member]],
+		pic = "9106"
 	},
 	[10101] = {
 		id = 10101,
@@ -903,7 +1084,7 @@ Military experts have weighed in too, pointing out that the machines' distinct a
 		is_classified = 0,
 		group_ID = 4,
 		content = "...According to a news report, the Northern Parliament just announced that its fleet will conduct a naval exercise in international waters, and proceeded to declare entry to the surrounding areas prohibited for all unassociated vessels. Responding to this unanticipated exercise, an Eagle Union representative went on to criticize the Northern Parliament's move as \"an irresponsible action that causes needless friction between our nations,\" adding that the Eagle Union will \"answer by taking the necessary precautions\"...",
-		pic = ""
+		pic = "10104"
 	},
 	[10105] = {
 		id = 10105,
@@ -926,7 +1107,7 @@ According to a spokesperson, this exercise is an annual naval review and has no 
 		is_classified = 0,
 		group_ID = 6,
 		content = "...A summit was held between various factions to negotiate a response to mounting geopolitical tensions. The contents of the multi-hour summit were not disclosed. Additionally, there was no questioning period, joint presentations, or press conferences held after the summit. According to people familiar with the matter, the summit was held in silence from beginning to end.\nBecause no substantial content has been made public, we cannot analyze the results of the actual talks. However, the fact that the summit only lasted three hours while attempting to tackle such a crucial topic suggests that there may have been some problems in play. There are only two likely scenarios for why the summit lasted such a short time: First, the opinions of all the parties are quite unified, and the summit ended smoothly; Second, the opinions of the parties are far too different, and the summit would not serve any purpose. Taking into account the silence of the parties' participants following the summit, the second scenario seems more likely...",
-		pic = ""
+		pic = "10106"
 	},
 	all = {
 		1101,

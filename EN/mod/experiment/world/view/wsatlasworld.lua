@@ -177,7 +177,7 @@ function slot0.LoadScene(slot0, slot1)
 
 		slot4:BuildActiveMark()
 
-		slot4 = nowWorld
+		slot4 = nowWorld()
 		slot6 = uv0.tfEntity
 		slot6 = slot6:Find("Plane")
 		uv0.cmPointer = slot6:GetComponent(typeof(PointerInfo))
@@ -269,7 +269,7 @@ end
 
 function slot0.UpdateAreaLock(slot0)
 	for slot4 = 1, 5 do
-		slot5 = nowWorld:CheckAreaUnlock(slot4)
+		slot5 = nowWorld():CheckAreaUnlock(slot4)
 
 		setActive(slot0.tfAreaScene:Find("lock_layer/" .. slot4), not slot5)
 		setActive(slot0.tfMapScene:Find("mask_layer/" .. slot4), slot5)
@@ -307,7 +307,7 @@ function slot0.OnUpdatePressingAward(slot0, slot1, slot2, slot3)
 
 	for slot7, slot8 in pairs(slot3) do
 		if slot8 then
-			if nowWorld:CheckAreaUnlock(slot0.atlas:GetEntrance(slot7):GetAreaId()) then
+			if nowWorld():CheckAreaUnlock(slot0.atlas:GetEntrance(slot7):GetAreaId()) then
 				slot0.entranceTplDic[slot7]:UpdatePressingAward()
 			else
 				slot0.areaLockPressingAward[slot9] = slot0.areaLockPressingAward[slot9] or {}
@@ -672,7 +672,7 @@ function slot0.UpdateTransMark(slot0, slot1, slot2)
 end
 
 function slot0.UpdateActiveMark(slot0)
-	slot1 = nowWorld
+	slot1 = nowWorld()
 	slot1 = slot1:GetActiveMap()
 	slot1 = slot1:CkeckTransport()
 

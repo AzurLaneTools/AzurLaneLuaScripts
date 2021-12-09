@@ -8339,6 +8339,27 @@ _G.pg.item_data_statistics[21006] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[21007] = {
+	display = "An item that increases the potential of Gneisenau META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Gneisenau",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21007",
+	id = 21007,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[21101] = {
 	display = "Rare equipment used to improve the firepower capabilities of META ships during Restoration.",
 	name = "Crystallized Heat-Resistant Steel",
@@ -8502,6 +8523,27 @@ _G.pg.item_data_statistics[21904] = {
 	is_world = 0,
 	icon = "Props/21904",
 	id = 21904,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[21905] = {
+	display = "Data collected from battle that can be used to increase the synchronization rate of Gneisenau META.Item will disappear when event has finished. ",
+	name = "Synchronization Point – Gneisenau META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21905",
+	id = 21905,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -12655,8 +12697,8 @@ _G.pg.item_data_statistics[30501] = {
 }
 
 _G.pg.item_data_statistics[30900] = {
-	display = "使用后可从T4部件中任意选择一种获得1个",
-	name = "定向部件T4",
+	display = "Can be used to obtain a T4 Part of your choosing.",
+	name = "Universal T4 Part",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -12702,8 +12744,8 @@ _G.pg.item_data_statistics[30900] = {
 }
 
 _G.pg.item_data_statistics[30911] = {
-	display = "使用后可从稀有研发素材中任意选择一种获得1个",
-	name = "定向·稀有研发素材箱",
+	display = "Can be used to obtain a T1 R&D material of your choosing.",
+	name = "T1 Custom Gear Lab Material Pack",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -12744,8 +12786,8 @@ _G.pg.item_data_statistics[30911] = {
 }
 
 _G.pg.item_data_statistics[30912] = {
-	display = "使用后可从精锐研发素材中任意选择一种获得1个",
-	name = "定向·精锐研发素材箱",
+	display = "Can be used to obtain a T2 R&D material of your choosing.",
+	name = "T2 Custom Gear Lab Material Pack",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -12796,8 +12838,8 @@ _G.pg.item_data_statistics[30912] = {
 }
 
 _G.pg.item_data_statistics[30913] = {
-	display = "使用后可从T3部件中任意选择一种获得1个",
-	name = "定向·超稀有研发素材箱",
+	display = "Can be used to obtain a T3 R&D material of your choosing.",
+	name = "T3 Custom Gear Lab Material Pack",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -12809,7 +12851,7 @@ _G.pg.item_data_statistics[30913] = {
 	link_id = 0,
 	virtual_type = 0,
 	is_world = 0,
-	icon = "Props/Wsucaixiang1",
+	icon = "Props/30913",
 	id = 30913,
 	display_icon = {
 		{

@@ -105,7 +105,7 @@ function slot0.setCurGroup(slot0, slot1)
 
 	table.insert(slot2, function (slot0)
 		uv0.pageList = {}
-		slot2 = nowWorld:GetProgress()
+		slot2 = nowWorld():GetProgress()
 
 		for slot6, slot7 in ipairs(pg.world_help_data[uv0.curGroupId].stage_help) do
 			if slot7[1] <= slot2 then
@@ -196,7 +196,7 @@ function slot0.didEnter(slot0)
 
 	slot1 = nil
 	slot0.titles = {}
-	slot2 = nowWorld:GetProgress()
+	slot2 = nowWorld():GetProgress()
 
 	for slot6, slot7 in ipairs(pg.world_help_data.all) do
 		if pg.world_help_data[slot7].stage <= slot2 then

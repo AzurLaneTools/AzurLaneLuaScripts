@@ -6,8 +6,6 @@ slot0.OPEN_MODULEINFO_LAYER = "WorldInventoryMediator:OPEN_MODULEINFO_LAYER"
 slot0.OPEN_EQUIPMENT_INDEX = "OPEN_EQUIPMENT_INDEX"
 
 function slot0.register(slot0)
-	slot1 = nowWorld
-
 	slot0:bind(uv0.OnUseItem, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.WORLD_ITEM_USE, {
 			itemID = slot1,
@@ -16,8 +14,19 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.OnMap, function (slot0, slot1)
+		slot3 = nil
+
+		for slot7, slot8 in ipairs(nowWorld():FindTreasureEntrance(slot1).config.teasure_chapter) do
+			if slot1 == slot8[1] then
+				slot3 = slot8[2]
+
+				break
+			end
+		end
+
 		uv0:sendNotification(uv1.OnMap, {
-			itemId = slot1
+			entrance = slot2,
+			mapId = slot3
 		})
 	end)
 	slot0:bind(uv0.OnOpenAllocateLayer, function (slot0, slot1)
@@ -36,6 +45,9 @@ function slot0.register(slot0)
 			data = slot1
 		}))
 	end)
+
+	slot1 = nowWorld()
+
 	slot0.viewComponent:setInventoryProxy(slot1:GetInventoryProxy())
 	slot0.viewComponent:setWorldFleet(slot1:GetFleets())
 

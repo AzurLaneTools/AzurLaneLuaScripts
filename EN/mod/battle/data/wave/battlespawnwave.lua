@@ -3,6 +3,7 @@ slot0 = ys
 slot0.Battle.BattleSpawnWave = class("BattleSpawnWave", slot0.Battle.BattleWaveInfo)
 slot0.Battle.BattleSpawnWave.__name = "BattleSpawnWave"
 slot1 = slot0.Battle.BattleSpawnWave
+slot1.ASYNC_TIME_GAP = 0.03
 
 function slot1.Ctor(slot0)
 	uv0.super.Ctor(slot0)
@@ -70,33 +71,32 @@ function slot1.DoWave(slot0)
 		end
 	end
 
-	slot1 = 0.03
-
-	for slot5, slot6 in ipairs(slot0._airStrike) do
-		if slot6.delay + slot5 * slot1 <= 0 then
-			slot0:doAirStrike(slot6)
+	for slot4, slot5 in ipairs(slot0._airStrike) do
+		if slot5.delay + slot4 * uv0.ASYNC_TIME_GAP <= 0 then
+			slot0:doAirStrike(slot5)
 		else
-			slot0:airStrikeTimer(slot6, slot7)
+			slot0:airStrikeTimer(slot5, slot6)
+		end
+	end
+
+	slot1 = 0
+
+	for slot5, slot6 in ipairs(slot0._sapwnData) do
+		if slot6.bossData then
+			slot1 = slot1 + 1
 		end
 	end
 
 	slot2 = 0
-
-	for slot6, slot7 in ipairs(slot0._sapwnData) do
-		if slot7.bossData then
-			slot2 = slot2 + 1
-		end
-	end
-
 	slot3 = 0
 
 	for slot7, slot8 in ipairs(slot0._sapwnData) do
 		if math.random() <= (slot8.chance or 1) then
-			if slot8.bossData and slot2 > 1 then
-				slot8.bossData.bossCount = slot3 + 1
+			if slot8.bossData and slot1 > 1 then
+				slot8.bossData.bossCount = slot2 + 1
 			end
 
-			if slot8.delay + slot7 * slot1 <= 0 then
+			if slot8.delay + slot3 <= 0 then
 				slot0:doSpawn(slot8)
 			else
 				slot0:spawnTimer(slot8, slot10, slot0._spawnTimerList)
@@ -104,10 +104,12 @@ function slot1.DoWave(slot0)
 		else
 			slot0._spawnCount = slot0._spawnCount - 1
 		end
+
+		slot3 = slot3 + uv0.ASYNC_TIME_GAP
 	end
 
 	if slot0._reinforce then
-		slot0:doReinforce()
+		slot0:doReinforce(slot3)
 	end
 
 	if slot0._spawnCount == 0 and slot0._reinforceDuration == 0 then
@@ -173,21 +175,25 @@ function slot1.airStrikeTimer(slot0, slot1, slot2)
 	end, true)] = true
 end
 
-function slot1.doReinforce(slot0)
+function slot1.doReinforce(slot0, slot1)
 	slot0._reinforceKillCount = 0
 
 	if slot0._reinforeceExpire then
 		return
 	end
 
-	for slot4, slot5 in ipairs(slot0._reinforce) do
-		slot5.reinforce = true
+	slot1 = slot1 or 0
 
-		if slot5.delay <= 0 then
-			slot0:doSpawn(slot5)
+	for slot5, slot6 in ipairs(slot0._reinforce) do
+		slot6.reinforce = true
+
+		if slot6.delay + slot1 <= 0 then
+			slot0:doSpawn(slot6)
 		else
-			slot0:spawnTimer(slot5, slot5.delay, slot0._reinforceSpawnTimerList)
+			slot0:spawnTimer(slot6, slot7, slot0._reinforceSpawnTimerList)
 		end
+
+		slot1 = slot1 + uv0.ASYNC_TIME_GAP
 	end
 end
 

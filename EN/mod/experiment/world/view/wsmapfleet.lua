@@ -128,12 +128,12 @@ function slot0.UpdateSelected(slot0, slot1)
 end
 
 function slot0.UpdateSubmarineSupport(slot0)
-	slot1 = nowWorld:IsSubmarineSupporting()
+	slot2 = nowWorld():IsSubmarineSupporting()
 
-	setActive(slot0.rtSub, slot1)
+	setActive(slot0.rtSub, slot2)
 
-	if slot1 then
-		setGray(slot0.rtSub, not nowWorld:GetSubAidFlag(), false)
+	if slot2 then
+		setGray(slot0.rtSub, not slot1:GetSubAidFlag(), false)
 	end
 end
 

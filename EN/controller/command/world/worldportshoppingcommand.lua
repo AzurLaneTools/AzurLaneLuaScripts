@@ -13,7 +13,7 @@ function slot0.execute(slot0, slot1)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", pg.item_data_statistics[id2ItemId(slot5.id)].name))
 	end
 
-	if nowWorld:GetInventoryProxy():GetItemCount(slot5.id) < slot5.count then
+	if nowWorld():GetInventoryProxy():GetItemCount(slot5.id) < slot5.count then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 		return

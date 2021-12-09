@@ -23,6 +23,9 @@ function slot0.execute(slot0, slot1)
 		end,
 		function (slot0)
 			uv0:GetGuildShop(slot0)
+		end,
+		function (slot0)
+			uv0:GetMetaShops(slot0)
 		end
 	}, function ()
 		if uv0 then
@@ -138,6 +141,33 @@ function slot0.GetActivityShops(slot0, slot1)
 	else
 		slot2(slot3)
 	end
+end
+
+function slot0.GetMetaShops(slot0, slot1)
+	function slot2(slot0)
+		if slot0 then
+			uv0.shopList[NewShopsScene.TYPE_META] = {}
+
+			table.insert(uv0.shopList[NewShopsScene.TYPE_META], slot0)
+		end
+	end
+
+	if not slot0.shopsProxy:GetMetaShop() then
+		slot4 = getProxy(ActivityProxy)
+
+		_.each(slot4:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+			if slot0 and not slot0:isEnd() and slot0:getConfig("config_id") == 1 then
+				slot1 = MetaShop.New(slot0)
+
+				uv0.shopsProxy:AddMetaShop(slot1)
+				uv1(slot1)
+			end
+		end)
+	else
+		slot2(slot3)
+	end
+
+	slot1()
 end
 
 return slot0

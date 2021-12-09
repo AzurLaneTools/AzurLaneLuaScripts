@@ -1,14 +1,15 @@
 slot0 = class("WSAtlasRight", import("...BaseEntity"))
 slot0.Fields = {
 	btnSettings = "userdata",
-	rtNameBg = "userdata",
+	btnSwitch = "userdata",
 	rtDisplayIcon = "userdata",
 	transform = "userdata",
-	isDisplay = "boolean",
+	rtNameBg = "userdata",
 	rtDisplayPanel = "userdata",
+	isDisplay = "boolean",
 	world = "table",
-	rtWorldInfo = "userdata",
 	rtMapInfo = "userdata",
+	rtWorldInfo = "userdata",
 	rtBg = "userdata",
 	wsWorldInfo = "table"
 }
@@ -31,7 +32,8 @@ function slot0.Init(slot0)
 	slot0.rtDisplayIcon = slot1:Find("line/display_icon")
 	slot0.rtDisplayPanel = slot1:Find("line/display_panel")
 	slot0.rtWorldInfo = slot0.rtDisplayPanel:Find("world_info")
-	slot0.btnSettings = slot0.rtDisplayPanel:Find("settings_btn")
+	slot0.btnSettings = slot0.rtDisplayPanel:Find("btns/settings_btn")
+	slot0.btnSwitch = slot0.rtDisplayPanel:Find("btns/switch_btn")
 
 	setText(slot0.rtWorldInfo:Find("power/bg/Word"), i18n("world_total_power"))
 	setText(slot0.rtWorldInfo:Find("explore/mileage/Text"), i18n("world_mileage"))
@@ -41,7 +43,7 @@ function slot0.Init(slot0)
 	slot0.wsWorldInfo.transform = slot0.rtWorldInfo
 
 	slot0.wsWorldInfo:Setup()
-	setActive(slot0.rtWorldInfo, nowWorld:IsSystemOpen(WorldConst.SystemWorldInfo))
+	setActive(slot0.rtWorldInfo, nowWorld():IsSystemOpen(WorldConst.SystemWorldInfo))
 	setText(slot0.rtDisplayIcon:Find("name"), i18n("world_map_title_tips"))
 	onButton(slot0, slot0.rtDisplayIcon, function ()
 		uv0.isDisplay = not uv0.isDisplay

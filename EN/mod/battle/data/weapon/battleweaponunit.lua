@@ -370,6 +370,14 @@ function slot8.FixWeaponRange(slot0, slot1, slot2, slot3, slot4)
 	slot0._bulletRangeOffset = slot4
 end
 
+function slot8.GetWeaponMaxRange(slot0)
+	return slot0._maxRangeSqr
+end
+
+function slot8.GetWeaponMinRange(slot0)
+	return slot0._minRangeSqr
+end
+
 function slot8.GetFixBulletRange(slot0)
 	return slot0._fixBulletRange, slot0._bulletRangeOffset
 end

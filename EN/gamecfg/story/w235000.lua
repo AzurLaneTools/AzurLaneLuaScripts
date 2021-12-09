@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "We’ve achieved all our objectives for this operation. It’s time to head back to Dakar.",
+			say = "All tasks in the zone have been completed. You will now be brought back to Dakar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "You have reached the end of the currently implemented story. The Operation Siren map will still reset at regular periods, but the Operation Siren Data Logger can be bought from the shop to give you immediate access to all zones.",
+			say = "Complete missions that progress the story to continue the Chapter 5 campaign.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

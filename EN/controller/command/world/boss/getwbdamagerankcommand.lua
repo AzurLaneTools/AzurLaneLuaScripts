@@ -33,7 +33,7 @@ function slot0.execute(slot0, slot1)
 		table.sort(slot1, function (slot0, slot1)
 			return slot1.damage < slot0.damage
 		end)
-		nowWorld:GetBossProxy():SetRank(uv1, slot1)
+		nowWorld():GetBossProxy():SetRank(uv1, slot1)
 
 		if uv2 then
 			uv2(#slot1)

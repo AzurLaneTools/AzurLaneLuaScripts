@@ -146,7 +146,7 @@ function slot0.UpdateTechnology(slot0, slot1, slot2)
 	if slot2:hasCondition() then
 		slot4 = getProxy(TaskProxy):getTaskById(slot2:getTaskId()) or getProxy(TaskProxy):getFinishTaskById(slot3)
 
-		setText(slot1:Find("unlock/desc/task_bg/Text"), slot4:getConfig("desc") .. "(" .. slot4:getProgress() .. "/" .. slot4:getConfig("target_num") .. ")")
+		setText(slot1:Find("unlock/desc/task_bg/Text"), shortenString(slot4:getConfig("desc") .. "(" .. slot4:getProgress() .. "/" .. slot4:getConfig("target_num") .. ")", 10))
 	end
 end
 

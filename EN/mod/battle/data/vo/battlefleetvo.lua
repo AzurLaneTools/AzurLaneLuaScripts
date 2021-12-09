@@ -63,6 +63,7 @@ function slot9.UpdateAutoComponent(slot0, slot1)
 	end
 
 	slot0._fleetAntiAir:Update(slot1)
+	slot0._fleetRangeAntiAir:Update(slot1)
 	slot0._fleetStaticSonar:Update(slot1)
 
 	for slot5, slot6 in pairs(slot0._indieSonarList) do
@@ -227,7 +228,6 @@ function slot9.AppendPlayerUnit(slot0, slot1)
 
 	if slot1:IsMainFleetUnit() then
 		slot0:appendMainUnit(slot1)
-		slot1:SetMainUnitIndex(#slot0._mainList)
 	else
 		slot0:appendScoutUnit(slot1)
 	end
@@ -259,6 +259,7 @@ function slot9.RemovePlayerUnit(slot0, slot1)
 			end
 
 			slot0._fleetAntiAir:RemoveCrewUnit(slot1)
+			slot0._fleetRangeAntiAir:RemoveCrewUnit(slot1)
 			slot0._fleetStaticSonar:RemoveCrewUnit(slot1)
 
 			for slot13, slot14 in ipairs(slot7:GetTorpedoList()) do
@@ -421,6 +422,10 @@ function slot9.GetFleetAntiAirWeapon(slot0)
 	return slot0._fleetAntiAir
 end
 
+function slot9.GetFleetRangeAntiAirWeapon(slot0)
+	return slot0._fleetRangeAntiAir
+end
+
 function slot9.GetFleetVelocity(slot0)
 	return uv0.GetFleetVelocity(slot0._scoutList)
 end
@@ -464,6 +469,7 @@ function slot9.Dispose(slot0)
 	slot0._leaderUnit = nil
 
 	slot0._fleetAntiAir:Dispose()
+	slot0._fleetRangeAntiAir:Dispose()
 	slot0._fleetStaticSonar:Dispose()
 
 	slot0._fleetStaticSonar = nil
@@ -538,6 +544,7 @@ function slot9.init(slot0)
 	slot0._submarineSpecialVO:SetTotal(1)
 
 	slot0._fleetAntiAir = uv0.Battle.BattleFleetAntiAirUnit.New()
+	slot0._fleetRangeAntiAir = uv0.Battle.BattleFleetRangeAntiAirUnit.New()
 	slot0._motionVO = uv0.Battle.BattleFleetMotionVO.New()
 	slot0._fleetStaticSonar = uv0.Battle.BattleFleetStaticSonar.New(slot0)
 	slot0._indieSonarList = {}
@@ -594,6 +601,8 @@ function slot9.appendMainUnit(slot0, slot1)
 
 	slot0._mainList[#slot0._mainList + 1] = slot1
 
+	slot1:SetMainUnitIndex(#slot0._mainList)
+
 	if ShipType.CloakShipType(slot1:GetTemplate().type) then
 		slot0:AttachCloak(slot1)
 	end
@@ -615,6 +624,7 @@ function slot9.appendMainUnit(slot0, slot1)
 	end
 
 	slot0._fleetAntiAir:AppendCrewUnit(slot1)
+	slot0._fleetRangeAntiAir:AppendCrewUnit(slot1)
 	slot0._fleetStaticSonar:AppendCrewUnit(slot1)
 
 	slot5 = {}

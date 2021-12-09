@@ -135,7 +135,7 @@ function slot0.updateToggleList(slot0)
 
 	for slot5 = 1, slot0.fleetToggleList.childCount do
 		slot7 = slot0.fleets[slot5]
-		slot8, slot9, slot10 = nowWorld:BuildFormationIds()
+		slot8, slot9, slot10 = nowWorld():BuildFormationIds()
 
 		setActive(slot0.fleetToggleList:GetChild(slot5 - 1), slot5 <= slot10)
 		setToggleEnabled(slot6, tobool(slot7))
@@ -163,7 +163,7 @@ end
 
 function slot0.setPlayerInfo(slot0, slot1)
 	slot0.resPanel:setPlayer(slot1)
-	setActive(slot0.resPanel._tf, nowWorld:IsSystemOpen(WorldConst.SystemResource))
+	setActive(slot0.resPanel._tf, nowWorld():IsSystemOpen(WorldConst.SystemResource))
 end
 
 function slot0.setFleets(slot0, slot1)

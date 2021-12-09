@@ -124,7 +124,11 @@ function slot0.InitFurnitureList(slot0)
 	end
 
 	table.sort(slot0.displays, function (slot0, slot1)
-		return (slot0:canPurchase() and 1 or 0) > (slot1:canPurchase() and 1 or 0)
+		if (slot0:canPurchase() and 1 or 0) == (slot1:canPurchase() and 1 or 0) then
+			return slot0.id < slot1.id
+		else
+			return slot3 < slot2
+		end
 	end)
 	slot0.scrollRect:SetTotalCount(#slot0.displays)
 end

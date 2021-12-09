@@ -5,7 +5,7 @@ function slot0.execute(slot0, slot1)
 
 	slot3:Send(33409, slot1:getBody(), 33410, function (slot0)
 		if slot0.result == 0 then
-			slot2 = nowWorld
+			slot2 = nowWorld()
 
 			slot2:SetFleets(getProxy(WorldProxy):NetBuildMapFleetList(slot0.group_list))
 			slot2:SetPortShips({})
@@ -18,7 +18,7 @@ function slot0.execute(slot0, slot1)
 			slot3.findex = table.indexof(slot2.fleets, slot2:GetFleet(slot0.group_list[1].id))
 
 			slot3:BindFleets(slot2.fleets)
-			slot2.staminaMgr:ConsumeStamina(nowWorld:CalcOrderCost(WorldConst.OpReqRedeploy))
+			slot2.staminaMgr:ConsumeStamina(slot2:CalcOrderCost(WorldConst.OpReqRedeploy))
 			slot2:SetReqCDTime(WorldConst.OpReqRedeploy, pg.TimeMgr.GetInstance():GetServerTime())
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_redeploy_2"))
 			slot2:GetBossProxy():GenFleet()

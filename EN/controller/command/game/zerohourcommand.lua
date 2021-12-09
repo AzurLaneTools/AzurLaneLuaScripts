@@ -148,7 +148,7 @@ function slot0.mainHandler(slot0, slot1)
 		type = MiniGameRequestCommand.REQUEST_HUB_DATA
 	})
 
-	slot23 = nowWorld
+	slot23 = nowWorld()
 
 	if pg.TimeMgr.GetInstance():GetServerWeek() == 1 then
 		slot23.staminaMgr.staminaExchangeTimes = 0
@@ -159,11 +159,13 @@ function slot0.mainHandler(slot0, slot1)
 
 		if slot13:getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLD_WORLDBOSS) and not slot26:isEnd() then
 			slot27 = pg.gameset.joint_boss_ticket.description
-			slot26.data1 = math.floor(slot27[1] * slot26.data1 / slot27[math.min(#slot27, slot26.data2 + 1)])
+			slot29 = slot26.data1
+			slot30 = math.floor(slot27[1] * slot29 / slot27[math.min(#slot27, slot26.data2 + 1)])
+			slot26.data1 = slot30
 			slot26.data2 = 0
 
 			slot13:updateActivity(slot26)
-			nowWorld:GetBossProxy():UpdatedUnlockProgress()
+			slot23:GetBossProxy():UpdatedUnlockProgress(slot29, slot30)
 		end
 	end
 
@@ -220,6 +222,10 @@ function slot0.mainHandler(slot0, slot1)
 
 		if slot29:GetActiveEvent() then
 			slot31:GetBossMission():ResetDailyCnt()
+		end
+
+		if slot12.day == 1 then
+			slot29:ResetActiveEventCnt()
 		end
 
 		slot28:updateGuild(slot29)

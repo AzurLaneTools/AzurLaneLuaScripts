@@ -289,4 +289,78 @@ function slot0.MergePassItemDrop(slot0)
 	return slot2
 end
 
+function slot0.CheckResForShopping(slot0, slot1)
+	slot2 = slot0.count * slot1
+	slot3 = 0
+
+	if slot0.type == DROP_TYPE_RESOURCE then
+		slot3 = getProxy(PlayerProxy):getRawData():getResource(slot0.id)
+	elseif slot0.type == DROP_TYPE_ITEM then
+		slot3 = getProxy(BagProxy):getItemCountById(slot0.id)
+	end
+
+	return slot2 <= slot3
+end
+
+function slot0.ConsumeResForShopping(slot0, slot1)
+	slot2 = slot0.count * slot1
+
+	if slot0.type == DROP_TYPE_RESOURCE then
+		slot3 = getProxy(PlayerProxy):getData()
+
+		slot3:consume({
+			[id2res(slot0.id)] = slot2
+		})
+		playerProxy:updatePlayer(slot3)
+	elseif slot0.type == DROP_TYPE_ITEM then
+		getProxy(BagProxy):removeItemById(slot0.id, slot2)
+	end
+end
+
+function slot0.GetTranAwards(slot0, slot1)
+	slot2 = {}
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot1.award_list) do
+		table.insert(slot2, {
+			type = slot8.type,
+			id = slot8.id,
+			count = slot8.number
+		})
+	end
+
+	slot3 = PlayerConst.addTranDrop(slot2)
+
+	for slot7, slot8 in ipairs(slot2) do
+		if slot8.type == DROP_TYPE_SHIP and not getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot8.id].group_type) and Ship.inUnlockTip(slot8.id) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("collection_award_ship", slot9.name))
+		end
+	end
+
+	if slot0.isAwardMerge then
+		slot4 = {}
+		slot5 = nil
+
+		for slot9, slot10 in ipairs(slot3) do
+			if (function ()
+				for slot3, slot4 in ipairs(uv0) do
+					if uv1.id == slot4.id then
+						uv0[slot3].count = uv0[slot3].count + uv1.count
+
+						return false
+					end
+				end
+
+				return true
+			end)() then
+				table.insert(slot4, slot10)
+			end
+		end
+
+		slot3 = slot4
+	end
+
+	return slot3
+end
+
 return slot0

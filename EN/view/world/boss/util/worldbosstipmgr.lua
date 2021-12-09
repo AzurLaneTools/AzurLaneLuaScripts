@@ -168,7 +168,7 @@ function slot4(slot0, slot1)
 end
 
 function slot0.OnClick(slot0, slot1, slot2, slot3, slot4)
-	if not nowWorld or not slot5:IsActivate() then
+	if not nowWorld() or not slot5:IsActivate() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_unactivated"))
 
 		return

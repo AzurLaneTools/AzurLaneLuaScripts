@@ -100,9 +100,7 @@ function slot0.UnOverlayPanel(slot0, slot1, slot2)
 end
 
 function slot0.onBackPressed(slot0)
-	if pg.m02:retrieveMediator(WorldMediator.__cname).viewComponent:CheckMarkOverallClose() then
-		-- Nothing
-	elseif isActive(slot0.itemResetPanel._go) then
+	if isActive(slot0.itemResetPanel._go) then
 		slot0.itemResetPanel:Close()
 	elseif isActive(slot0.itemUsagePanel._go) then
 		slot0.itemUsagePanel:Close()
@@ -527,7 +525,7 @@ function slot0.updateResetExchange(slot0)
 end
 
 function slot0.activeResetExchange(slot0, slot1)
-	setActive(slot0.exchangeTips, nowWorld:IsSystemOpen(WorldConst.SystemResetExchange) and slot1)
+	setActive(slot0.exchangeTips, nowWorld():IsSystemOpen(WorldConst.SystemResetExchange) and slot1)
 end
 
 function slot0.PlayOpenBox(slot0, slot1, slot2)

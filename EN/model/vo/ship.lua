@@ -1611,13 +1611,7 @@ function slot0.isAwakening2(slot0)
 end
 
 function slot0.notMaxLevelForFilter(slot0)
-	if slot0.level == uv0 and not slot0:isMaxStar() then
-		return false
-	else
-		slot1 = not slot0:isConfigMaxLevel() and not slot0:isReachNextMaxLevel()
-
-		return slot1
-	end
+	return slot0.level ~= slot0:getMaxLevel()
 end
 
 function slot0.getNextMaxLevelConsume(slot0)

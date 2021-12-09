@@ -635,96 +635,6 @@ end
 
 function slot11(slot0, slot1)
 	slot0:commonSetting(slot1)
-
-	rtf(slot0._window).sizeDelta = Vector2(slot0._defaultSize.x, 520)
-
-	setActive(slot0._obtainPanel, true)
-	setActive(slot0._btnContainer, false)
-	updateDrop(slot0._obtainPanel, {
-		type = DROP_TYPE_SHIP,
-		id = slot1.shipId
-	})
-
-	slot0.obtainSkipList = slot0.obtainSkipList or UIItemList.New(slot0._obtainPanel:Find("skipable_list"), slot0._obtainPanel:Find("skipable_list/tpl"))
-
-	slot0.obtainSkipList:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0.list[slot1 + 1]
-			slot6 = slot3[3]
-
-			slot2:Find("mask/title"):GetComponent("ScrollText"):SetText(slot3[1])
-			setActive(slot2:Find("skip_btn"), slot3[2][1] ~= "" and slot5[1] ~= "COLLECTSHIP")
-
-			if slot5[1] ~= "" then
-				onButton(uv1, slot2:Find("skip_btn"), function ()
-					if uv0 and uv0 ~= 0 then
-						if not getProxy(ActivityProxy):getActivityById(uv0) or slot0:isEnd() then
-							uv1.TipsMgr.GetInstance():ShowTips(i18n("collection_way_is_unopen"))
-
-							return
-						end
-					elseif uv2[1] == "SHOP" and uv2[2].warp == NewShopsScene.TYPE_MILITARY_SHOP and not uv1.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "MilitaryExerciseMediator") then
-						uv1.TipsMgr.GetInstance():ShowTips(i18n("military_shop_no_open_tip"))
-
-						return
-					elseif uv2[1] == "LEVEL" and uv2[2] then
-						if getProxy(ChapterProxy):getChapterById(uv2[2].chapterid):isUnlock() then
-							if slot1:getActiveChapter() and slot3.id ~= slot0 then
-								uv3:ShowMsgBox({
-									content = i18n("collect_chapter_is_activation"),
-									onYes = function ()
-										uv0.m02:sendNotification(GAME.CHAPTER_OP, {
-											type = ChapterConst.OpRetreat
-										})
-									end
-								})
-
-								return
-							else
-								slot4 = {
-									mapIdx = slot2:getConfig("map")
-								}
-
-								if slot2.active then
-									slot4.chapterId = slot2.id
-								else
-									slot4.openChapterId = slot0
-								end
-
-								uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot4)
-							end
-						else
-							uv1.TipsMgr.GetInstance():ShowTips(i18n("acquisitionmode_is_not_open"))
-
-							return
-						end
-					elseif uv2[1] == "COLLECTSHIP" then
-						if uv4.mediatorName == CollectionMediator.__cname then
-							uv1.m02:sendNotification(CollectionMediator.EVENT_OBTAIN_SKIP, {
-								toggle = 2,
-								displayGroupId = uv2[2].shipGroupId
-							})
-						else
-							uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.COLLECTSHIP, {
-								toggle = 2,
-								displayGroupId = uv2[2].shipGroupId
-							})
-						end
-					else
-						uv1.m02:sendNotification(GAME.GO_SCENE, SCENE[uv2[1]], uv2[2])
-					end
-
-					uv3:hide()
-				end, SFX_PANEL)
-			end
-		end
-	end)
-	slot0.obtainSkipList:align(#slot1.list)
-	slot0:Loaded(slot1)
-end
-
-function slot12(slot0, slot1)
-	slot0:commonSetting(slot1)
 	setActive(slot0._worldResetPanel, true)
 	setActive(slot0._worldShopBtn, false)
 	setText(slot0._worldResetPanel:Find("content/Text"), slot1.tipWord)
@@ -755,7 +665,7 @@ function slot12(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot13(slot0, slot1)
+function slot12(slot0, slot1)
 	slot0:commonSetting(slot1)
 
 	slot0._window.sizeDelta = Vector2(slot0._defaultSize.x, 520)
@@ -767,18 +677,21 @@ function slot13(slot0, slot1)
 		id = slot1.shipId
 	}, slot1)
 
+	slot3 = nil
+	slot3 = not Ship.isMetaShipByConfigID(slot1.shipId) or getProxy(MetaCharacterProxy):getMetaProgressVOByID(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot1.shipId)) and slot5:isInAct() and true
 	slot0.obtainSkipList = slot0.obtainSkipList or UIItemList.New(slot0._obtainPanel:Find("skipable_list"), slot0._obtainPanel:Find("skipable_list/tpl"))
 
 	slot0.obtainSkipList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.list[slot1 + 1]
+			slot5 = slot3[2]
 			slot6 = slot3[3]
 
 			slot2:Find("mask/title"):GetComponent("ScrollText"):SetText(slot3[1])
-			setActive(slot2:Find("skip_btn"), slot3[2][1] ~= "" and slot5[1] ~= "COLLECTSHIP")
+			setActive(slot2:Find("skip_btn"), uv1 and slot5[1] ~= "" and slot5[1] ~= "COLLECTSHIP")
 
 			if slot5[1] ~= "" then
-				onButton(uv1, slot2:Find("skip_btn"), function ()
+				onButton(uv2, slot2:Find("skip_btn"), function ()
 					if uv0 and uv0 ~= 0 then
 						if not getProxy(ActivityProxy):getActivityById(uv0) or slot0:isEnd() then
 							uv1.TipsMgr.GetInstance():ShowTips(i18n("collection_way_is_unopen"))

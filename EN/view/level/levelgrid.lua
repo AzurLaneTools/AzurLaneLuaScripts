@@ -846,28 +846,7 @@ function slot0.updateFleet(slot0, slot1, slot2)
 
 			if not IsNil(slot4:getModel()) and slot12 and slot0.lastSelectedId ~= slot5.id then
 				if not slot9 and not slot11 and slot0.lastSelectedId ~= -1 then
-					slot0:frozen()
-
-					slot24 = slot22:GetComponent("SkeletonGraphic").material
-					slot26 = Material.New(Shader.Find("Spine/SkeletonGraphic (Additive)"))
-					slot27 = LeanTween.value(slot22, 0, 1, 0.2)
-					slot27 = slot27:setEase(LeanTweenType.easeInOutSine)
-					slot27 = slot27:setLoopPingPong(2)
-					slot27 = slot27:setOnUpdate(System.Action_float(function (slot0)
-						uv0:SetColor("_Color", Color.Lerp(Color.New(0, 0, 0, 0), Color.New(0.5, 0.5, 0.5, 0), slot0))
-
-						uv1.material = uv0
-					end))
-
-					slot27:setOnComplete(System.Action(function ()
-						uv0.material = uv1
-
-						if uv2.exited then
-							return
-						end
-
-						uv2:unfrozen()
-					end))
+					slot4:TweenShining()
 				end
 
 				slot0.lastSelectedId = slot5.id
@@ -2289,11 +2268,13 @@ function slot0.TeleportFleetByPortal(slot0, slot1, slot2, slot3, slot4)
 	end)).id] = true
 end
 
-function slot0.adjustCameraFocus(slot0)
-	slot1 = slot0.contextData.chapterVO
+function slot0.adjustCameraFocus(slot0, slot1)
+	slot2 = slot0.contextData.chapterVO
 
-	if slot0.cellFleets[slot1.fleets[slot1.findex].id] then
-		slot0:cameraFocus(slot3.tf.position)
+	if slot0.cellFleets[slot2.fleets[slot2.findex].id] then
+		slot0:cameraFocus(slot4.tf.position, slot1)
+	else
+		existCall(slot1)
 	end
 end
 
@@ -2304,6 +2285,9 @@ end
 function slot0.cameraFocus(slot0, slot1, slot2)
 	slot5 = slot0._tf
 	slot5 = slot5:Find(ChapterConst.PlaneName)
+
+	LeanTween.cancel(slot0._tf.gameObject, true)
+
 	slot6 = slot0._tf.parent
 	slot6 = slot6:InverseTransformVector(slot1 - slot5.position)
 	slot6.x = slot6.x + slot5.localPosition.x
@@ -2311,9 +2295,6 @@ function slot0.cameraFocus(slot0, slot1, slot2)
 	slot6.x = math.clamp(-slot6.x, slot0.leftBound, slot0.rightBound)
 	slot6.y = math.clamp(-slot6.y, slot0.bottomBound, slot0.topBound)
 	slot6.z = 0
-
-	slot0:frozen()
-
 	slot0.dragTrigger.enabled = false
 	slot7 = LeanTween.moveLocal(slot0._tf.gameObject, slot6, 0.4)
 	slot7 = slot7:setEase(LeanTweenType.easeInOutSine)
@@ -2325,11 +2306,7 @@ function slot0.cameraFocus(slot0, slot1, slot2)
 
 		uv0.dragTrigger.enabled = true
 
-		uv0:unfrozen()
-
-		if uv1 then
-			uv1()
-		end
+		existCall(uv1)
 	end))
 end
 

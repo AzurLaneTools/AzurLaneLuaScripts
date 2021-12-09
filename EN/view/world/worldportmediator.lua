@@ -22,7 +22,7 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.OnAccepetTask, function (slot0, slot1, slot2)
-		slot3 = nowWorld
+		slot3 = nowWorld()
 
 		uv0:sendNotification(GAME.WORLD_TRIGGER_TASK, {
 			taskId = slot1.id,
@@ -45,8 +45,11 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
-	slot0.viewComponent:SetPort(nowWorld:GetActiveMap():GetPort())
-	slot0:CheckTaskNotify(nowWorld:GetTaskProxy())
+
+	slot1 = nowWorld()
+
+	slot0.viewComponent:SetPort(slot1:GetActiveMap():GetPort())
+	slot0:CheckTaskNotify(slot1:GetTaskProxy())
 end
 
 function slot0.listNotificationInterests(slot0)

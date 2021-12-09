@@ -38,13 +38,13 @@ function slot0.Entrance(slot0, slot1)
 		BeginStageCommand.SendRequest(SYSTEM_PERFORM, slot5, {
 			slot2
 		}, function (slot0)
-			uv1:sendNotification(GAME.STORY_UPDATE, {
-				storyId = tostring(pg.NewStoryMgr.GetInstance():StoryId2StoryName(uv0))
+			uv0:sendNotification(GAME.STORY_UPDATE, {
+				storyId = tostring(uv1)
 			})
 
 			uv2.token = slot0.key
 
-			uv1:sendNotification(GAME.BEGIN_STAGE_DONE, uv2)
+			uv0:sendNotification(GAME.BEGIN_STAGE_DONE, uv2)
 		end, function (slot0)
 			uv0:RequestFailStandardProcess(slot0)
 		end)

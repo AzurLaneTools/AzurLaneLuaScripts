@@ -6,15 +6,11 @@ return {
 	scripts = {
 		{
 			paintingNoise = true,
+			nameColor = "#a9f548",
 			side = 2,
 			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "即将消耗一个时空道标，对未知空间进行探索。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
+			say = "即将进入虫洞副本，进行月度Boss挑战。",
 			painting = {
 				alpha = 0.3,
 				time = 1

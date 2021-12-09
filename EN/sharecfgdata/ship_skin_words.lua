@@ -49415,6 +49415,49 @@ _G.pg.ship_skin_words[9702010] = {
 	}
 }
 
+_G.pg.ship_skin_words[9704010] = {
+	feeling1 = "These were the only \"commands\" you could come up with? What a joke.",
+	feeling3 = "You seem to be quite drawn to me. I'm not sure what about me would warrant your fancy, so I don't know if you're stubborn or just a simpleton.",
+	lose = "Withdraw? Haha... Ahahaha! ...It hasn't ended yet, so why are we to withdraw?",
+	propose = "If you're prepared to go to these great lengths for me, then I shall accompany you to the very end. I'm becoming more and more curious – just how far will you be able to go by my side? ...Yes, I cannot allow you to leave until we've traversed the very bowels of hell. Are you ready?",
+	expedition = "The commission rewards? Ahh, what an enviable logistics department you have.",
+	win_mvp = "Indeed, it is wreckage and ruins that put my heart at ease.",
+	home = "Rest is for the dead. I'll do the rest myself if you so desire.",
+	mission = "Cumbersome paperwork will only hinder your ability to fight.",
+	touch2 = "Such a crass hobby... But whatever makes you happy.",
+	voice_key_2 = -1,
+	skill = "Everything is as planned.",
+	drop_descrip = "",
+	mail = "Just a friendly reminder: you still have unopened mail.",
+	touch = "What's wrong? Can't make up your mind?",
+	profile = "I am the Iron Blood battleship, Gneisenau. I've heard that you are an excellent commander, so surely you know how to operate a precise and efficient instrument of war?",
+	mission_complete = "Your duties end here. Mine, on the other hand, persist eternally...",
+	feeling4 = "You're commanding me... to take a break? Do you even know what you're asking me to do? ...Very well. I did say I'll obey your orders.",
+	unlock = "You're... the Commander, right? In other words, the one with the authority to control me. Though I have no interest in you as an individual, I will still obey your orders... At least for the time being.",
+	feeling5 = "You are quite an interesting person, trying to treat me as an ordinary human and integrate me into life at this port. I suppose I ought to try saying \"thank you.\" ...I wonder if this is the first time I've uttered those words.",
+	main = "Only with exacting precision can you eliminate your enemies in a single fatal blow, thus ending the battle quickly.|...Leave me to my own devices, and your job will be much smoother... Though it doesn't seem like you're interested.|It may take some time... until I am used to an ocean devoid of war.",
+	battle = "To fight... is to fulfill this life's purpose.",
+	upgrade = "Now that my armament has been strengthened, the next step is... Ahahaha!",
+	voice_key = 970401,
+	headtouch = "What... is the meaning of this?",
+	feeling2 = "A machine's efficiency comes from its accuracy, lack of hesitation, and tirelessness. As ships, we must be the same.",
+	login = "So you came after all. Not that it matters to me either way.",
+	vote = "",
+	hp_warning = "Pain... is nothing more than a catalyst for madness...",
+	id = 9704010,
+	detail = "The more you suppress your emotions, the more rationally you can fight. Let the battlefield wash over you, and immerse yourself in the scent of steel.",
+	couple_encourage = {
+		{
+			{
+				40501
+			},
+			1,
+			"Bismarck, I never thought I would fight by your side once more...",
+			0
+		}
+	}
+}
+
 _G.pg.ship_skin_words[9705010] = {
 	feeling1 = "There is nothing more I can do for you at this point, Commander...",
 	feeling3 = "Are you... concerned about me, Commander? You have no reason to be. I pray to the gods each day so that they bestow us all with their blessings and protection.",

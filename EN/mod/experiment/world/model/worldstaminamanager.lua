@@ -134,12 +134,12 @@ function slot0.Show(slot0)
 						if uv0.drop.count == 0 then
 							pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 						else
-							slot0 = {}
-							slot1 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d")
+							slot1 = {}
+							slot2 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d")
 
-							if nowWorld:CheckResetProgress() and PlayerPrefs.GetString("world_stamina_reset_tip", "") ~= slot1 and nowWorld:GetResetWaitingTime() < 259200 and uv1:GetMaxStamina() < uv1:GetTotalStamina() + uv0.stamina then
-								PlayerPrefs.SetString("world_stamina_reset_tip", slot1)
-								table.insert(slot0, function (slot0)
+							if nowWorld():CheckResetProgress() and PlayerPrefs.GetString("world_stamina_reset_tip", "") ~= slot2 and slot0:GetResetWaitingTime() < 259200 and uv1:GetMaxStamina() < uv1:GetTotalStamina() + uv0.stamina then
+								PlayerPrefs.SetString("world_stamina_reset_tip", slot2)
+								table.insert(slot1, function (slot0)
 									pg.MsgboxMgr.GetInstance():ShowMsgBox({
 										content = i18n("world_stamina_resetwarning", uv0:GetMaxStamina()),
 										onYes = slot0
@@ -147,7 +147,7 @@ function slot0.Show(slot0)
 								end)
 							end
 
-							seriesAsync(slot0, function ()
+							seriesAsync(slot1, function ()
 								pg.m02:sendNotification(GAME.WORLD_ITEM_USE, {
 									count = 1,
 									itemID = uv0.drop.id,
@@ -164,12 +164,12 @@ function slot0.Show(slot0)
 						elseif uv0.times == 0 then
 							pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 						else
-							slot0 = {}
-							slot1 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d")
+							slot1 = {}
+							slot2 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d")
 
-							if nowWorld:CheckResetProgress() and PlayerPrefs.GetString("world_stamina_reset_tip", "") ~= slot1 and nowWorld:GetResetWaitingTime() < 259200 and uv1:GetMaxStamina() < uv1:GetTotalStamina() + uv0.stamina then
-								PlayerPrefs.SetString("world_stamina_reset_tip", slot1)
-								table.insert(slot0, function (slot0)
+							if nowWorld():CheckResetProgress() and PlayerPrefs.GetString("world_stamina_reset_tip", "") ~= slot2 and slot0:GetResetWaitingTime() < 259200 and uv1:GetMaxStamina() < uv1:GetTotalStamina() + uv0.stamina then
+								PlayerPrefs.SetString("world_stamina_reset_tip", slot2)
+								table.insert(slot1, function (slot0)
 									pg.MsgboxMgr.GetInstance():ShowMsgBox({
 										content = i18n("world_stamina_resetwarning", uv0:GetMaxStamina()),
 										onYes = slot0
@@ -177,7 +177,7 @@ function slot0.Show(slot0)
 								end)
 							end
 
-							seriesAsync(slot0, function ()
+							seriesAsync(slot1, function ()
 								pg.m02:sendNotification(GAME.WORLD_STAMINA_EXCHANGE)
 							end)
 						end
@@ -263,7 +263,7 @@ function slot0.GetExchangeData(slot0)
 end
 
 function slot0.GetExchangeItems(slot0)
-	slot1 = nowWorld:GetInventoryProxy()
+	slot1 = nowWorld():GetInventoryProxy()
 	slot2, slot3, slot4, slot5 = slot0:GetExchangeData()
 	slot6 = {
 		{

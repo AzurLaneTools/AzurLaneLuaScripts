@@ -16,7 +16,7 @@ function slot0.Entrance(slot0, slot1)
 	slot8 = 0
 	slot9 = 0
 
-	for slot17, slot18 in ipairs(nowWorld:GetBossProxy():GetFleet().ships) do
+	for slot17, slot18 in ipairs(nowWorld():GetBossProxy():GetFleet().ships) do
 		slot7[#slot7 + 1] = slot18
 	end
 
@@ -24,7 +24,7 @@ function slot0.Entrance(slot0, slot1)
 	slot8 = 0
 	slot9 = 0
 	slot14 = slot3:getData()
-	slot16 = nowWorld:GetBossProxy()
+	slot16 = slot10:GetBossProxy()
 	slot17 = slot16:GetBossById(slot0.bossId)
 	slot18 = slot17:GetStageID()
 
@@ -116,7 +116,7 @@ function slot0.Exit(slot0, slot1)
 	slot3 = slot0.statistics._battleScore
 	slot4 = 0
 	slot5 = {}
-	slot8 = nowWorld:GetBossProxy():GetFleet()
+	slot8 = nowWorld():GetBossProxy():GetFleet()
 	slot9 = slot8:getEndCost()
 	gold = slot9.gold
 	slot4 = slot9.oil
@@ -143,7 +143,7 @@ function slot0.Exit(slot0, slot1)
 
 		uv0.addShipsExp(slot0.ship_exp_list, uv2.statistics, accumulate)
 
-		slot4 = nowWorld:GetBossProxy()
+		slot4 = nowWorld():GetBossProxy()
 		slot5 = slot4:GetBossById(uv2.bossId)
 
 		slot4:ClearRank(slot5.id)

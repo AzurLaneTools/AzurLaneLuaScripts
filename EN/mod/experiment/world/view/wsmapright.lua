@@ -11,8 +11,8 @@ slot0.Fields = {
 	toggleSkipPrecombat = "userdata",
 	fleet = "table",
 	btnInformation = "userdata",
-	taskProxy = "table",
 	btnDefeat = "userdata",
+	toggleAutoSwitch = "userdata",
 	entrance = "table",
 	btnTransport = "userdata",
 	btnExit = "userdata",
@@ -22,9 +22,10 @@ slot0.Fields = {
 	transform = "userdata",
 	wsCompass = "table",
 	toggleAutoFight = "userdata",
-	wsPool = "table",
+	taskProxy = "table",
 	rtCompassPanel = "userdata",
-	wsTimer = "table"
+	wsTimer = "table",
+	wsPool = "table"
 }
 slot0.Listeners = {
 	onUpdateFleetBuff = "OnUpdateFleetBuff",
@@ -71,6 +72,7 @@ function slot0.Init(slot0)
 	triggerToggle(slot0.toggleSkipPrecombat, PlayerPrefs.GetInt("world_skip_precombat", 0) == 1)
 
 	slot0.toggleAutoFight = slot1:Find("btn_list/auto_fight")
+	slot0.toggleAutoSwitch = slot1:Find("btn_list/auto_switch")
 	slot0.btnInventory = slot1:Find("btn_list/dock/inventory_button")
 	slot0.btnInformation = slot1:Find("btn_list/dock/information_button")
 	slot0.btnTransport = slot1:Find("btn_list/dock/transport_button")
@@ -90,7 +92,7 @@ function slot0.Init(slot0)
 	slot0.wsCompass:Setup()
 
 	slot0.rtTipWord = slot1:Find("tip_word")
-	slot0.taskProxy = nowWorld:GetTaskProxy()
+	slot0.taskProxy = nowWorld():GetTaskProxy()
 
 	slot0.taskProxy:AddListener(WorldTaskProxy.EventUpdateTask, slot0.onUpdateInfoBtnTip)
 end
@@ -220,7 +222,7 @@ function slot0.OnUpdateInfoBtnTip(slot0)
 end
 
 function slot0.OnUpdateHelpBtnTip(slot0, slot1)
-	setActive(slot0.btnHelp:Find("imge/tip"), WorldConst.IsWorldHelpNew(nowWorld:GetProgress(), slot1))
+	setActive(slot0.btnHelp:Find("imge/tip"), WorldConst.IsWorldHelpNew(nowWorld():GetProgress(), slot1))
 end
 
 return slot0

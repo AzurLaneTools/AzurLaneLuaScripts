@@ -26,6 +26,28 @@ return {
 			alpha = 0.303,
 			waitScene = "BuildShipScene",
 			style = {
+				text = "Tap to build",
+				mode = 2,
+				posY = 125,
+				dir = -1,
+				posX = -680
+			},
+			ui = {
+				path = "/OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/tagRoot/build_btn",
+				pathIndex = -1,
+				triggerType = {
+					2
+				},
+				fingerPos = {
+					posY = -27.87,
+					posX = 62.21
+				}
+			}
+		},
+		{
+			alpha = 0.303,
+			waitScene = "BuildShipScene",
+			style = {
 				text = "This time, try building a <color=#ff7d36>heavy ship</color>!",
 				mode = 2,
 				posY = 0,
@@ -33,7 +55,7 @@ return {
 				posX = 0
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/BuildShipUI(Clone)/bg/main/gallery/toggle_bg/toggles/heavy/frame",
+				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/toggle_bg/toggles/3(Clone)/frame",
 				pathIndex = -1,
 				triggerType = {
 					2
@@ -54,7 +76,7 @@ return {
 				posX = 205.91
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/BuildShipUI(Clone)/bg/main/gallery/start_btn",
+				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/start_btn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -75,7 +97,7 @@ return {
 				posX = 0
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/build_msg/window/btns/confirm_btn",
+				path = "/OverlayCamera/Overlay/UIMain/BuildShipMsgBoxUI(Clone)/window/btns/confirm_btn",
 				pathIndex = -1,
 				triggerType = {
 					1

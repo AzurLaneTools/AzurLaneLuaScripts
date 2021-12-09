@@ -275,6 +275,18 @@ function slot6.updateWeaponList(slot0)
 			slot0:updateBulletAttrBuff(slot7)
 		end
 	end
+
+	if slot0._unit:GetFleetRangeAAWeapon() then
+		slot4 = cloneTplTo(slot0._weaponTpl, slot0._weaponContainer)
+
+		Canvas.ForceUpdateCanvases()
+		GetImageSpriteFromAtlasAsync("skillicon/2130", "", slot4:Find("common/icon"))
+		setText(slot4:Find("common/index"), "远程防空")
+		setText(slot4:Find("common/templateID"), "N/A")
+		onToggle(slot0, slot4:Find("common/sector"), function (slot0)
+			uv0._unit:ActiveWeaponSectorView(uv1, slot0)
+		end)
+	end
 end
 
 function slot6.updateWeaponProgress(slot0)

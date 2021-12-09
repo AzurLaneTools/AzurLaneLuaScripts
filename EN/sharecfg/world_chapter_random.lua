@@ -1529,8 +1529,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[152] = {
@@ -1550,8 +1550,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[153] = {
@@ -1571,8 +1571,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[154] = {
@@ -1592,8 +1592,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			100,
-			100
+			200,
+			200
 		}
 	},
 	[155] = {
@@ -1613,8 +1613,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[156] = {
@@ -1634,8 +1634,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[157] = {
@@ -1655,8 +1655,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[158] = {
@@ -1676,8 +1676,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[159] = {
@@ -1697,8 +1697,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[200] = {
@@ -2216,6 +2216,174 @@ pg.world_chapter_random = {
 		template_id = {
 			{
 				2350,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[260] = {
+		entrance_ui = 1,
+		name = "Chapter 5-1 - Bogged Down",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 260,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2600,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[261] = {
+		entrance_ui = 1,
+		name = "Chapter 5-2 - Coordinates",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 261,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2610,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[262] = {
+		entrance_ui = 1,
+		name = "Chapter 5-3 - The Phantom",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 262,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2620,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[263] = {
+		entrance_ui = 1,
+		name = "Chapter 5-4 - Teatime",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 263,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2630,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[264] = {
+		entrance_ui = 1,
+		name = "Chapter 5-5 - All-Out Offensive",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 264,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2640,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[265] = {
+		entrance_ui = 1,
+		name = "Chapter 5-6-0 - Torus",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 265,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2650,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[266] = {
+		entrance_ui = 1,
+		name = "Chapter 5-6-1 - Point of Convergence",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 266,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2660,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[267] = {
+		entrance_ui = 1,
+		name = "Chapter 5-6-2 - Deep Circulation",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 267,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2670,
 				100,
 				0,
 				1000
@@ -5654,8 +5822,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1152] = {
@@ -5675,8 +5843,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1153] = {
@@ -5696,8 +5864,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1154] = {
@@ -5738,8 +5906,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1156] = {
@@ -5759,8 +5927,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1157] = {
@@ -5780,8 +5948,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1158] = {
@@ -5801,8 +5969,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1159] = {
@@ -5822,8 +5990,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[20001] = {
@@ -8898,6 +9066,237 @@ pg.world_chapter_random = {
 			0
 		}
 	},
+	[40000] = {
+		entrance_ui = 2,
+		name = "Forward Base",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 40000,
+		hazard_level = 7,
+		entrance_mapicon = "daxuanwo",
+		template_id = {
+			{
+				400000,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43000] = {
+		entrance_ui = 2,
+		name = "Normal - Arbiter: Temperance XIV",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43000,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430000,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43001] = {
+		entrance_ui = 2,
+		name = "Normal - Arbiter: Strength VIII",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43001,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430010,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43002] = {
+		entrance_ui = 2,
+		name = "Normal - Arbiter: The Hermit IX",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43002,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430020,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43010] = {
+		entrance_ui = 2,
+		name = "Hard - Arbiter: Temperance XIV",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43010,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430100,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43011] = {
+		entrance_ui = 2,
+		name = "Hard - Arbiter: Strength VIII",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43011,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430110,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43012] = {
+		entrance_ui = 2,
+		name = "Hard - Arbiter: The Hermit IX",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43012,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430120,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43020] = {
+		entrance_ui = 2,
+		name = "Hard - Arbiter (Practice)",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43020,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430200,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[44000] = {
+		entrance_ui = 2,
+		name = "Practice - Enforcer XIV",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 44000,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				440000,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			180,
+			180
+		}
+	},
+	[44001] = {
+		entrance_ui = 2,
+		name = "Practice - Enforcer VIII",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 44001,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				440010,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			180,
+			180
+		}
+	},
+	[44002] = {
+		entrance_ui = 2,
+		name = "Practice - Enforcer IX",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 44002,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				440020,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			180,
+			180
+		}
+	},
 	all = {
 		1,
 		2,
@@ -9005,6 +9404,14 @@ pg.world_chapter_random = {
 		233,
 		234,
 		235,
+		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
 		301,
 		400,
 		401,
@@ -9262,6 +9669,17 @@ pg.world_chapter_random = {
 		89014,
 		89015,
 		89016,
-		89017
+		89017,
+		40000,
+		43000,
+		43001,
+		43002,
+		43010,
+		43011,
+		43012,
+		43020,
+		44000,
+		44001,
+		44002
 	}
 }

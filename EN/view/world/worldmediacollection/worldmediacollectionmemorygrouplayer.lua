@@ -100,7 +100,7 @@ function slot0.OnInit(slot0)
 
 	slot0.viewParent:Add2TopContainer(slot0.memoryTogGroup)
 
-	slot0.loader = WorldMediaCollectionLoader.New()
+	slot0.loader = AutoLoader.New()
 
 	slot0:MemoryFilter()
 
@@ -191,7 +191,7 @@ function slot0.onUpdateMemoryGroup(slot0, slot1, slot2)
 	slot4 = slot0.loader
 	slot8 = tf(slot2)
 
-	slot4:GetSprite("memoryicon/" .. slot3.icon, "", slot8:Find("BG"))
+	slot4:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", slot8:Find("BG"))
 
 	slot7 = tf(slot2)
 

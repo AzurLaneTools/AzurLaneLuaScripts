@@ -75,6 +75,69 @@ pg.world_item_data_template = {
 			101
 		}
 	},
+	[103] = {
+		item_transform_item_type = 1,
+		name = "Arbiter Battle Reward Crate (S)",
+		item_transform_item_id = 3002,
+		display = "A crate dropped by a defeated Arbiter. Will be converted into 100 Supply Shop Vouchers when Operation Siren progress resets.",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 100,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 103,
+		icon = "Props/Wsairencailiao3",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
+	[104] = {
+		item_transform_item_type = 1,
+		name = "Arbiter Battle Reward Crate (M)",
+		item_transform_item_id = 3002,
+		display = "A crate dropped by a defeated Arbiter. Will be converted into 200 Supply Shop Vouchers when Operation Siren progress resets.",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 200,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 104,
+		icon = "Props/Wsairencailiao1",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
+	[105] = {
+		item_transform_item_type = 1,
+		name = "Arbiter Battle Reward Crate (L)",
+		item_transform_item_id = 3002,
+		display = "A crate dropped by a defeated Arbiter. Will be converted into 500 Supply Shop Vouchers when Operation Siren progress resets.",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 500,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 105,
+		icon = "Props/Wsairencailiao2",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
 	[110] = {
 		item_transform_item_type = 1,
 		name = "Energy Storage Device",
@@ -3941,6 +4004,9 @@ pg.world_item_data_template = {
 		100,
 		101,
 		102,
+		103,
+		104,
+		105,
 		110,
 		201,
 		202,

@@ -27,6 +27,7 @@ function slot0.execute(slot0, slot1)
 		chapter_id = slot4
 	}, 61002, function (slot0)
 		if slot0.result == 0 then
+			uv0:IncActiveEventCnt()
 			uv0:consumeCapital(uv1)
 			uv2:updateGuild(uv0)
 			uv3:sendNotification(GAME.GUILD_ACTIVE_EVENT_DONE)

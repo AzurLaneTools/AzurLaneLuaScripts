@@ -119,7 +119,7 @@ function slot0.OnUpdateGroup(slot0, slot1, slot2)
 
 	slot0.loader:GetSprite("ui/WorldMediaCollectionRecordUI_atlas", uv0[slot3.type], slot4:Find("BG"))
 
-	slot9 = nowWorld:GetCollectionProxy()
+	slot9 = nowWorld():GetCollectionProxy()
 
 	setText(slot4:Find("FileProgress"), _.reduce(slot3.child, 0, function (slot0, slot1)
 		if WorldCollectionProxy.GetCollectionTemplate(slot1) and WorldMediaCollectionRecordDetailLayer.CheckRecordIsUnlock(slot2) then

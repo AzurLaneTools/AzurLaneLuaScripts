@@ -4418,6 +4418,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[212] = {
+		effect = "",
+		name = "NA Ocean Commemoration",
+		gain_by = "火烬余辉",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A model based on environmental readings from the NA Ocean Singularity. Given to Commanders who fought on the NA Ocean front in Operation Siren.",
+		tag = 6,
+		icon = "bigworldxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 212,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"bigworldxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -85868,6 +85911,7 @@ pg.furniture_data_template = {
 		209,
 		210,
 		211,
+		212,
 		100002,
 		100003,
 		100004,

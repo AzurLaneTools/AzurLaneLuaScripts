@@ -151,7 +151,19 @@ end
 function slot0.TweenBlink(slot0)
 	slot0:StopTween()
 
-	slot0.tweenId = LeanTween.color(findTF(slot0.go, "icon"), Color.New(1, 0.6, 0.6), 1):setFromColor(Color.white):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId
+	slot1 = findTF(slot0.go, "icon")
+	slot2 = slot1:GetComponent("Image")
+	slot3 = LeanTween.color(tf(slot1), Color.New(1, 0.6, 0.6), 1)
+	slot3 = slot3:setFromColor(Color.white)
+	slot3 = slot3:setEase(LeanTweenType.easeInOutSine)
+	slot3 = slot3:setLoopPingPong()
+	slot0.tweenId = slot3:setOnComplete(System.Action(function ()
+		if IsNil(uv0) then
+			return
+		end
+
+		uv0.color = Color.white
+	end)).uniqueId
 end
 
 function slot0.TweenShining(slot0)
@@ -159,7 +171,7 @@ function slot0.TweenShining(slot0)
 
 	slot1 = findTF(slot0.go, "icon")
 	slot1:GetComponent("Image").material = Material.New(Shader.Find("Spine/SkeletonGraphic (Additive)"))
-	slot5 = LeanTween.value(slot1.gameObject, 0, 1, 1)
+	slot5 = LeanTween.value(go(slot1), 0, 1, 1)
 	slot5 = slot5:setEase(LeanTweenType.easeInOutSine)
 	slot5 = slot5:setLoopPingPong()
 	slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
@@ -171,6 +183,7 @@ function slot0.TweenShining(slot0)
 		end
 
 		uv0.material = nil
+		uv0.color = Color.white
 	end)).uniqueId
 end
 
@@ -182,8 +195,6 @@ function slot0.StopTween(slot0)
 	LeanTween.cancel(slot0.tweenId, true)
 
 	slot0.tweenId = nil
-
-	setImageColor(findTF(slot0.go, "icon"), Color.white)
 end
 
 function slot0.Clear(slot0)

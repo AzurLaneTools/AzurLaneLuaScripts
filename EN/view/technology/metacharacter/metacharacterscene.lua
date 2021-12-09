@@ -169,8 +169,8 @@ function slot0.addListener(slot0)
 		elseif slot1 == MetaProgress.STATE_LESS_PT then
 			slot2 = false
 
-			if nowWorld then
-				slot2 = nowWorld:IsSystemOpen(WorldConst.SystemWorldBoss)
+			if nowWorld() then
+				slot2 = slot3:IsSystemOpen(WorldConst.SystemWorldBoss)
 			end
 
 			pg.TipsMgr.GetInstance():ShowTips(i18n(slot2 and "meta_pt_notenough" or "meta_boss_unlock"))
@@ -181,8 +181,8 @@ function slot0.addListener(slot0)
 	onButton(slot0, slot0.ptShowWayBtn, function ()
 		slot0 = false
 
-		if nowWorld then
-			slot0 = nowWorld:IsSystemOpen(WorldConst.SystemWorldBoss)
+		if nowWorld() then
+			slot0 = slot1:IsSystemOpen(WorldConst.SystemWorldBoss)
 		end
 
 		pg.TipsMgr.GetInstance():ShowTips(i18n(slot0 and "meta_pt_notenough" or "meta_boss_unlock"))

@@ -16,13 +16,20 @@ slot0.Listeners = {
 
 function slot0.Build(slot0)
 	pg.DelegateInfo.New(slot0)
-	nowWorld:AddListener(World.EventUpdateGlobalBuff, slot0.onUpdate)
-	nowWorld:GetAtlas():AddListener(WorldAtlas.EventAddPressingMap, slot0.onUpdate)
+
+	slot1 = nowWorld()
+
+	slot1:AddListener(World.EventUpdateGlobalBuff, slot0.onUpdate)
+	slot1:AddListener(World.EventAchieved, slot0.onUpdate)
+	slot1:GetAtlas():AddListener(WorldAtlas.EventAddPressingMap, slot0.onUpdate)
 end
 
 function slot0.Dispose(slot0)
-	nowWorld:RemoveListener(World.EventUpdateGlobalBuff, slot0.onUpdate)
-	nowWorld:GetAtlas():RemoveListener(WorldAtlas.EventAddPressingMap, slot0.onUpdate)
+	slot1 = nowWorld()
+
+	slot1:RemoveListener(World.EventUpdateGlobalBuff, slot0.onUpdate)
+	slot1:RemoveListener(World.EventAchieved, slot0.onUpdate)
+	slot1:GetAtlas():RemoveListener(WorldAtlas.EventAddPressingMap, slot0.onUpdate)
 	slot0:Clear()
 	pg.DelegateInfo.Dispose(slot0)
 end
@@ -55,7 +62,7 @@ function slot0.Init(slot0)
 				viewComponent = WorldCollectionLayer,
 				data = {
 					page = WorldCollectionLayer.PAGE_ACHIEVEMENT,
-					entranceId = nowWorld:GetActiveEntrance().id
+					entranceId = nowWorld():GetActiveEntrance().id
 				}
 			})
 		})
@@ -63,33 +70,36 @@ function slot0.Init(slot0)
 
 	slot0.achievementCount = slot0.btnAchievement:Find("number")
 	slot0.achievementTip = slot0.btnAchievement:Find("tip")
-
-	setActive(slot0.achievementTip, false)
 end
 
 function slot0.Update(slot0)
-	slot1 = nowWorld:GetWorldRank()
+	slot1 = nowWorld()
+	slot2 = slot1:GetWorldRank()
 
-	LoadImageSpriteAtlasAsync("ui/share/world_info_atlas", "level_phase_" .. slot1, slot0.powerIconTF)
+	LoadImageSpriteAtlasAsync("ui/share/world_info_atlas", "level_phase_" .. slot2, slot0.powerIconTF)
 	setActive(slot0.powerIconTF:Find("effect"), not PlayerPrefs.HasKey("world_rank_icon_click_" .. getProxy(PlayerProxy):getRawData().id))
 
-	slot7 = slot1
+	slot8 = slot2
 
-	setText(slot0.powerIconTF:Find("info/Text"), i18n("world_map_level", slot7))
-	setText(slot0.powerCount, nowWorld:GetWorldPower())
+	setText(slot0.powerIconTF:Find("info/Text"), i18n("world_map_level", slot8))
+	setText(slot0.powerCount, slot1:GetWorldPower())
 
-	slot3 = nowWorld:GetWorldMapBuffLevel()
+	slot4 = slot1:GetWorldMapBuffLevel()
 
-	for slot7 = 1, 3 do
-		setText(slot0.buffListTF:GetChild(slot7 - 1):Find("Text"), slot3[slot7] or 0)
+	for slot8 = 1, 3 do
+		setText(slot0.buffListTF:GetChild(slot8 - 1):Find("Text"), slot4[slot8] or 0)
 	end
 
-	setText(slot0.stepCount, nowWorld.stepCount)
-	setText(slot0.pressingCount, nowWorld:GetDisplayPressingCount())
+	setText(slot0.stepCount, slot1.stepCount)
+	setText(slot0.pressingCount, slot1:GetDisplayPressingCount())
 
-	slot4, slot5, slot6 = nowWorld:CountAchievements()
+	slot5, slot6, slot7 = slot1:CountAchievements()
 
-	setText(slot0.achievementCount, slot4 + slot5 .. "/" .. slot6)
+	setText(slot0.achievementCount, slot5 + slot6 .. "/" .. slot7)
+
+	slot8, slot9 = slot1:GetFinishAchievements(slot0.achEntranceList)
+
+	setActive(slot0.achievementTip, #slot8 > 0)
 end
 
 return slot0

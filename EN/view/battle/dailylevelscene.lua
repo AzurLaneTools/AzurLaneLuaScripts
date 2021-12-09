@@ -403,8 +403,12 @@ function slot0.DoSelectedAnimation(slot0, slot1, slot2, slot3)
 		function (slot0)
 			uv0.stageScrollRect.enabled = false
 
-			pg.UIMgr.GetInstance():BlurPanel(uv0.selectedPanel)
-			setParent(uv0.blurPanel, pg.UIMgr.GetInstance().OverlayMain)
+			pg.UIMgr.GetInstance():BlurPanel(uv0.selectedPanel, true, {
+				groupName = LayerWeightConst.GROUP_DAILY
+			})
+			pg.UIMgr.GetInstance():BlurPanel(uv0.blurPanel, true, {
+				groupName = LayerWeightConst.GROUP_DAILY
+			})
 
 			uv1.sizeDelta = Vector2(uv1.sizeDelta.x, 0)
 
@@ -440,7 +444,7 @@ function slot0.DoUnselectAnimtion(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
 			pg.UIMgr.GetInstance():UnblurPanel(uv0.selectedPanel, uv0._tf)
-			setParent(uv0.blurPanel, uv0._tf)
+			pg.UIMgr.GetInstance():UnblurPanel(uv0.blurPanel, uv0._tf)
 			setActive(uv0.selectedPanel, false)
 
 			slot1 = uv1:GetComponent(typeof(LayoutElement))
@@ -634,7 +638,7 @@ end
 function slot0.willExit(slot0)
 	if slot0.selectedStage then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.selectedPanel, slot0._tf)
-		setParent(slot0.blurPanel, slot0._tf)
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0._tf)
 	end
 
 	slot0:clearTween()

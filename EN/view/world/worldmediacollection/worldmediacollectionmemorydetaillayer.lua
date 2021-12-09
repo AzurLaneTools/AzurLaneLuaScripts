@@ -23,7 +23,7 @@ function slot0.OnInit(slot0)
 
 	setActive(slot0:findTF("Item", slot0.memoryItemList), false)
 
-	slot0.loader = WorldMediaCollectionLoader.New()
+	slot0.loader = AutoLoader.New()
 
 	setText(slot0._tf:Find("ItemRect/ProgressDesc"), i18n("world_collection_2"))
 
@@ -59,7 +59,7 @@ function slot0.onUpdateMemoryItem(slot0, slot1, slot2)
 
 		slot4:Find("normal/title"):GetComponent(typeof(Text)).text = HXSet.hxLan(slot3.title)
 
-		slot0.loader:GetSprite("memoryicon/" .. slot3.icon, "", slot4:Find("normal"))
+		slot0.loader:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", slot4:Find("normal"))
 		setText(slot4:Find("normal/id"), string.format("#%u", slot1 + 1))
 	else
 		setActive(slot4:Find("normal"), false)
@@ -92,8 +92,6 @@ function slot0.PlayMemory(slot0, slot1)
 			setActive(uv0.memoryMask, false)
 		end, true)
 	elseif slot1.type == 2 then
-		slot0.contextData.selectedGroupID = slot0.contextData.memoryGroup
-
 		slot0:emit(WorldMediaCollectionMediator.BEGIN_STAGE, {
 			memory = true,
 			system = SYSTEM_PERFORM,

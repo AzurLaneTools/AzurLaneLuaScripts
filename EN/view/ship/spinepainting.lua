@@ -73,7 +73,7 @@ end
 
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0._spinePaintingData = slot1
-	slot0._loader = BundleLoaderPort.New()
+	slot0._loader = AutoLoader.New()
 
 	parallelAsync({
 		function (slot0)
@@ -82,20 +82,20 @@ function slot0.Ctor(slot0, slot1, slot2)
 			slot4 = slot2 .. slot3
 			slot5 = uv0._loader
 
-			slot5:LoadPrefab(slot4, nil, slot4, function (slot0)
+			slot5:LoadPrefab(slot4, nil, function (slot0)
 				uv0(uv1, slot0)
 				uv2()
-			end)
+			end, slot4)
 		end,
 		function (slot0)
 			slot1 = uv0._spinePaintingData.bgEffectName
 			slot2 = "ui/" .. slot1
 			slot3 = uv0._loader
 
-			slot3:LoadPrefab(slot2, slot1, slot2, function (slot0)
+			slot3:LoadPrefab(slot2, slot1, function (slot0)
 				uv0(uv1, slot0)
 				uv2()
-			end)
+			end, slot2)
 		end
 	}, function ()
 		setActive(uv0._spinePaintingData.parent, true)

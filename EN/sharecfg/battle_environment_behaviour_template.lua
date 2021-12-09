@@ -185,21 +185,28 @@ pg.battle_environment_behaviour_template = {
 		name = "龙卷风随机移动",
 		behaviour_list = {
 			{
-				hp_rate = 0.01,
-				damage = 45,
+				hp_rate = 0.005,
+				damage = 15,
 				type = 2,
 				reload_time = 0.2,
-				offset = 10
+				offset = 5
 			},
 			{
-				buff_id = 30000002,
+				buff_id = 79120,
 				reload_time = 0.5,
 				type = 3
 			},
 			{
-				random_speed = 20,
+				random_speed = 12,
 				type = 4,
-				route = {},
+				route = {
+					{
+						-30,
+						0,
+						55,
+						8
+					}
+				},
 				random_duration = {
 					0,
 					30
@@ -1507,6 +1514,128 @@ pg.battle_environment_behaviour_template = {
 				buff_id = 9660,
 				reload_time = 0.1,
 				type = 3
+			}
+		}
+	},
+	[10100] = {
+		id = 10100,
+		name = "大世界仲裁者战斗_开场随机雷电",
+		behaviour_list = {
+			{
+				rounds = 2,
+				reload_time = 3,
+				offset_time = 0,
+				type = 6,
+				content = {
+					count = 1,
+					alert = {
+						alert_fx = "AlertArea",
+						range = 10,
+						delay = 2
+					},
+					child_prefab = {
+						life_time = 0.5,
+						behaviours = 10110,
+						cld_data = {
+							15
+						}
+					}
+				},
+				route = {
+					{
+						count = 1
+					},
+					{
+						count = 2
+					}
+				}
+			}
+		}
+	},
+	[10101] = {
+		id = 10101,
+		name = "大世界仲裁者战斗_武器伴随雷电两发",
+		behaviour_list = {
+			{
+				rounds = 1,
+				reload_time = 2.5,
+				offset_time = 0,
+				type = 6,
+				content = {
+					count = 1,
+					alert = {
+						alert_fx = "AlertArea",
+						range = 10,
+						delay = 2
+					},
+					child_prefab = {
+						life_time = 0.5,
+						behaviours = 10110,
+						cld_data = {
+							15
+						}
+					}
+				},
+				route = {
+					{
+						count = 2
+					}
+				}
+			}
+		}
+	},
+	[10102] = {
+		id = 10102,
+		name = "大世界仲裁者战斗_武器伴随雷电三发",
+		behaviour_list = {
+			{
+				rounds = 1,
+				reload_time = 2.5,
+				offset_time = 0,
+				type = 6,
+				content = {
+					count = 1,
+					alert = {
+						alert_fx = "AlertArea",
+						range = 10,
+						delay = 2
+					},
+					child_prefab = {
+						life_time = 0.5,
+						behaviours = 10110,
+						cld_data = {
+							15
+						}
+					}
+				},
+				route = {
+					{
+						count = 3
+					}
+				}
+			}
+		}
+	},
+	[10110] = {
+		id = 10110,
+		name = "闪电子行为",
+		behaviour_list = {
+			{
+				FX_ID = "shandian",
+				reload_time = 100,
+				type = 1,
+				offset = {
+					0,
+					0,
+					34
+				}
+			},
+			{
+				hp_rate = 0.01,
+				damage = 160,
+				type = 2,
+				reload_time = 2,
+				offset = 30
 			}
 		}
 	}

@@ -3306,6 +3306,35 @@ pg.map_data = {
 			b = 0.23
 		}
 	},
+	[100050] = {
+		map_id = 100050,
+		long_pos = "-35.5, -61.1, 204.0;57.6, -61.1, 204.0",
+		sea_pos = "-27.1, -5.6, 54.0;-43.0, -1.0, 52.8",
+		long_scale = "5.0, 5.0, 1.0;5.0, 5.0, 1.0",
+		sky_pos = "-30.3, -82.1, 260.5;-30.3, -54.8, 200.5;-33.7, -55.2, 200.0",
+		sea_scale = "9.4, 23.9, 28.4;22.5, 1.0, 12.2",
+		range_left = -200,
+		close_scale = "5.0, 5.0, 1.2;5.0, 5.0, 1.2;5.0, 5.0, 1.2",
+		range_right = 244.6,
+		sky_scale = "8.0, 8.0, 1.2;6.0, 5.7, 0.9;-1120.0, 6.1, 0.9",
+		mid_pos = "67.2, -36.3, 154.0;-31.2, -36.3, 154.0",
+		close_speed = 4.29,
+		sea_shot = "gelidai;sea_sairenhexin",
+		mid_scale = "5.0, 5.0, 1.0;4.0, 4.0, 1.0",
+		close_shot = "sairenhexin_jinjing_1;sairenhexin_jinjing_2;sairenhexin_jinjing_3",
+		long_shot = "sairenhexin_yuanjing_1;sairenhexin_yuanjing_2",
+		sky_shot = "skysairenhexin;sairenhexin_beijing;wuqi_sairenhexin",
+		close_pos = "-48.1, -26.4, 134.4;6.4, -25.4, 134.4;91.6, -26.4, 134.4",
+		mid_shot = "sairenhexin_zhongjing_1;sairenhexin_zhongjing_2",
+		mid_speed = 2.34,
+		long_speed = 0.5,
+		diving_filter = {
+			g = 0.03,
+			a = 0.35,
+			r = 0.03,
+			b = 0.23
+		}
+	},
 	all = {
 		7000,
 		7001,
@@ -3420,6 +3449,7 @@ pg.map_data = {
 		100043,
 		100044,
 		100045,
-		100046
+		100046,
+		100050
 	}
 }

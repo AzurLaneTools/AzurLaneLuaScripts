@@ -412,6 +412,7 @@ slot0.SystemResetExchange = 17
 slot0.SystemResetShop = 18
 slot0.SystemAutoFight_1 = 19
 slot0.SystemAutoFight_2 = 20
+slot0.SystemAutoSwitch = 21
 
 function slot0.BuildHelpTips(slot0)
 	slot1 = i18n("world_stage_help")
@@ -569,7 +570,7 @@ function slot0.CompareBuffs(slot0, slot1)
 end
 
 function slot0.FetchWorldShip(slot0)
-	return nowWorld:GetShip(slot0)
+	return nowWorld():GetShip(slot0)
 end
 
 function slot0.FetchShipVO(slot0)
@@ -583,7 +584,7 @@ end
 function slot0.ReqWorldCheck(slot0)
 	slot1 = {}
 
-	if nowWorld.type == World.TypeBase then
+	if nowWorld().type == World.TypeBase then
 		table.insert(slot1, function (slot0)
 			slot1 = pg.ConnectionMgr.GetInstance()
 

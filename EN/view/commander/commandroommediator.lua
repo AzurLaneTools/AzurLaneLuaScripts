@@ -208,7 +208,7 @@ function slot0.markFleet(slot0)
 			end
 		end
 	elseif CommandRoomScene.FLEET_TYPE_WORLD == slot0.contextData.fleetType then
-		slot4, slot5 = nowWorld:BuildFormationIds()
+		slot4, slot5 = nowWorld():BuildFormationIds()
 
 		if slot0.contextData.fleets then
 			slot5 = slot0.contextData.fleets

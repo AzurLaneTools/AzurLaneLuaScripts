@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
-		default_bgm = "ssss-az-pv",
-		bgm = "ssss-1114A"
+		default_bgm = "main",
+		bgm = "main"
 	},
 	HoloLiveLinkLinkSelectScene = {
 		default_bgm = "holo-fff-inst",
@@ -61,16 +61,16 @@ pg.voice_bgm = {
 		bgm = "backyard"
 	},
 	LoginScene = {
-		default_bgm = "ssss-az-pv",
-		bgm = "ssss-1114A"
+		default_bgm = "login",
+		bgm = "login"
 	},
 	NewPlayerScene = {
 		default_bgm = "main",
 		bgm = "main"
 	},
 	MainUI = {
-		default_bgm = "ssss-az-story",
-		bgm = "ssss-StrobeMemory"
+		default_bgm = "main",
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -113,8 +113,8 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "ssss-az-story",
-		bgm = "ssss-az-story"
+		default_bgm = "main",
+		bgm = "main"
 	},
 	SkinShopScene = {
 		default_bgm = "main",

@@ -9,7 +9,7 @@ slot0.Fields = {
 	effects = "table",
 	hp = "number",
 	row = "number",
-	markGuider = "number",
+	finishMark = "number",
 	triggered = "boolean",
 	id = "number",
 	flag = "number",
@@ -42,6 +42,10 @@ slot0.SortOrder = {
 
 function slot0.IsEnemyType(slot0)
 	return slot0 == uv0.TypeEnemy or slot0 == uv0.TypeEnemyAI or slot0 == uv0.TypeBoss
+end
+
+function slot0.IsHPEnemyType(slot0)
+	return slot0 == uv0.TypeEnemyAI or slot0 == uv0.TypeBoss
 end
 
 function slot0.IsFakeType(slot0)
@@ -109,6 +113,7 @@ slot0.EffectEventShowPort = 1010
 slot0.EffectEventSound = 1011
 slot0.EffectEventHelpLayer = 1012
 slot0.EffectEventMsgbox = 1013
+slot0.EffectEventStoryBattle = 1014
 slot0.CompassTypeNone = 0
 slot0.CompassTypeBattle = 1
 slot0.CompassTypeExploration = 2
@@ -525,22 +530,31 @@ function slot0.IsScannerAttachment(slot0)
 end
 
 function slot0.SetHP(slot0, slot1)
-	if slot0.type == uv0.TypeEnemyAI or slot0.type == uv0.TypeBoss then
-		slot2 = {}
-		slot6 = slot0
+	if uv0.IsHPEnemyType(slot0.type) then
+		slot2 = slot0.hp
 
-		for slot6, slot7 in ipairs(pg.world_expedition_data[slot0.GetBattleStageId(slot6)].phase_story) do
-			if slot7[1] < slot0.hp and slot1 <= slot7[1] then
-				table.insert(slot2, {
-					hp = slot7[1],
-					story = slot7[2]
+		if slot0:IsPeriodEnemy() then
+			slot3 = nowWorld()
+			slot2 = math.min(slot2, slot3:GetHistoryLowestHP(slot0.id))
+
+			slot3:SetHistoryLowestHP(slot0.id, slot1)
+		end
+
+		slot3 = {}
+		slot7 = slot0
+
+		for slot7, slot8 in ipairs(pg.world_expedition_data[slot0.GetBattleStageId(slot7)].phase_story) do
+			if slot8[1] < slot2 and slot1 <= slot8[1] then
+				table.insert(slot3, {
+					hp = slot8[1],
+					story = slot8[2]
 				})
 			end
 		end
 
 		slot0.hp = slot1
 
-		return slot2
+		return slot3
 	else
 		return {}
 	end
@@ -549,7 +563,7 @@ end
 function slot0.GetHP(slot0)
 	if slot0.type == uv0.TypeTransportFleet then
 		return slot0.data
-	elseif slot0.type == uv0.TypeEnemyAI or slot0.type == uv0.TypeBoss then
+	elseif uv0.IsHPEnemyType(slot0.type) then
 		return slot0.hp
 	end
 end
@@ -557,7 +571,7 @@ end
 function slot0.GetMaxHP(slot0)
 	if slot0.type == uv0.TypeTransportFleet then
 		return slot0.config.hp
-	elseif slot0.type == uv0.TypeEnemyAI or slot0.type == uv0.TypeBoss then
+	elseif uv0.IsHPEnemyType(slot0.type) then
 		return 10000
 	end
 end
@@ -578,7 +592,7 @@ function slot0.GetVisionRadius(slot0)
 	end
 end
 
-function slot0.GetMapBuffs(slot0)
+function slot0.GetRadiationBuffs(slot0)
 	if slot0.type == uv0.TypeEvent then
 		return slot0.config.map_buff
 	else
@@ -586,12 +600,16 @@ function slot0.GetMapBuffs(slot0)
 	end
 end
 
-function slot0.IsGuideFinish(slot0)
-	return slot0.markGuider == slot0.data
+function slot0.IsAttachmentFinish(slot0)
+	return slot0.finishMark == slot0.data
 end
 
 function slot0.GetEventAutoPri(slot0)
 	return slot0.config.auto_pri
+end
+
+function slot0.IsPeriodEnemy(slot0)
+	return pg.world_expedition_data[slot0.id] and slot1.phase_limit == 1
 end
 
 return slot0

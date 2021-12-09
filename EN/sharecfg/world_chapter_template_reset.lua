@@ -7533,6 +7533,76 @@ pg.world_chapter_template_reset = {
 		reset_item = {},
 		reset_buff = {}
 	},
+	[430000] = {
+		id = 430000,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "End the battle against Arbiter: Temperance XIV on Normal? \nYour progress will be saved and you may resume the battle at any point this month.",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430010] = {
+		id = 430010,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "End the battle against Arbiter: Strength VIII on Normal? \nYour progress will be saved and you may resume the battle at any point this month.",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430020] = {
+		id = 430020,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "End the battle against Arbiter: The Hermit IX on Normal? \nYour progress will be saved and you may resume the battle at any point this month.",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430100] = {
+		id = 430100,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "End the battle against Arbiter: Temperance XIV on Hard? \nEnding the battle will reset your progress. You will not be able to re-earn any rewards you've already claimed.",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430110] = {
+		id = 430110,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "End the battle against Arbiter: Strength VIII on Hard? \nEnding the battle will reset your progress. You will not be able to re-earn any rewards you've already claimed.",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430120] = {
+		id = 430120,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "End the battle against Arbiter: The Hermit IX on Hard? \nEnding the battle will reset your progress. You will not be able to re-earn any rewards you've already claimed.",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430200] = {
+		id = 430200,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "End the practice battle? \nEnding the battle will reset your progress.",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
 	all = {
 		8000,
 		8030,
@@ -7741,6 +7811,13 @@ pg.world_chapter_template_reset = {
 		890140,
 		890150,
 		890160,
-		890170
+		890170,
+		430000,
+		430010,
+		430020,
+		430100,
+		430110,
+		430120,
+		430200
 	}
 }
