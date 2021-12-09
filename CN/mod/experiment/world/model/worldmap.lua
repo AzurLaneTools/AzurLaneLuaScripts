@@ -62,10 +62,10 @@ function slot0.Setup(slot0, slot1)
 end
 
 function slot0.GetName(slot0, slot1)
-	if not slot1 or slot1.id == slot0.id then
-		return slot0.config.name
+	if (slot1 and World.ReplacementMapType(slot1, slot0)) == "sairen_chapter" or slot2 == "teasure_chapter" then
+		return slot1:GetBaseMap():GetName() .. "-" .. slot0.config.name
 	else
-		return slot1:GetName() .. "-" .. slot0.config.name
+		return slot0.config.name
 	end
 end
 
@@ -278,11 +278,11 @@ function slot0.SetValid(slot0, slot1)
 end
 
 function slot0.IsMapOpen(slot0)
-	return slot0:GetOpenProgress() <= nowWorld:GetProgress()
+	return slot0:GetOpenProgress() <= nowWorld():GetProgress()
 end
 
 function slot0.GetOpenProgress(slot0)
-	return nowWorld:GetRealm() > 0 and slot0.config.open_stage[slot1] or 9999
+	return nowWorld():GetRealm() > 0 and slot0.config.open_stage[slot1] or 9999
 end
 
 function slot0.RemoveAllCellDiscovered(slot0)
@@ -359,7 +359,7 @@ function slot0.UpdateFleetIndex(slot0, slot1)
 end
 
 function slot0.UpdateActive(slot0, slot1)
-	slot2 = nowWorld:GetAtlas()
+	slot2 = nowWorld():GetAtlas()
 
 	if slot0.active ~= slot1 then
 		slot0.active = slot1
@@ -583,7 +583,7 @@ function slot0.UpdatePressingMark(slot0, slot1)
 	if tobool(slot0.isPressing) ~= tobool(slot1) then
 		slot0.isPressing = slot1
 
-		nowWorld:GetTaskProxy():doUpdateTaskByMap(slot0.id, slot1)
+		nowWorld():GetTaskProxy():doUpdateTaskByMap(slot0.id, slot1)
 	end
 end
 
@@ -948,7 +948,7 @@ function slot0.ConstructFormationData(slot0)
 		end)
 	end)
 
-	slot4 = nowWorld
+	slot4 = nowWorld()
 
 	_.each(slot4:GetPortShipVOs(), function (slot0)
 		table.insert(uv0, slot0)
@@ -1015,8 +1015,8 @@ function slot0.WriteBack(slot0, slot1, slot2)
 
 		slot0.phaseDisplayList = table.mergeArray(slot0.phaseDisplayList, slot6:SetHP(slot2.statistics._maxBossHP))
 
-		if nowWorld.isAutoFight then
-			nowWorld:TriggerAutoFight(false)
+		if nowWorld().isAutoFight then
+			slot7:TriggerAutoFight(false)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_tip_bigworld_dead"))
 		end
 	end
@@ -1231,12 +1231,16 @@ function slot0.GetEventPoisonRate(slot0)
 	return slot2, slot0.config.is_sairen
 end
 
+function slot0.GetPressingLevel(slot0)
+	return slot0.config.complete_effect
+end
+
 function slot0.CheckMapPressing(slot0)
-	return slot0.config.complete_effect > 0 and not slot0.isPressing and slot0:GetEventPoisonRate() == 0
+	return slot0:GetPressingLevel() > 0 and not slot0.isPressing and slot0:GetEventPoisonRate() == 0
 end
 
 function slot0.CheckMapPressingDisplay(slot0)
-	return slot0.config.complete_effect > 1
+	return slot0:GetPressingLevel() > 1
 end
 
 function slot0.UpdateClearFlag(slot0, slot1)
@@ -1501,7 +1505,7 @@ function slot0.OnUpdateAttachmentExist(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	if #slot3:GetMapBuffs() > 0 then
+	if #slot3:GetRadiationBuffs() > 0 then
 		slot7 = {}
 
 		for slot11, slot12 in ipairs(slot6) do
@@ -1808,7 +1812,7 @@ end
 function slot0.CanAutoFight(slot0)
 	if slot0.config.is_auto > 0 then
 		for slot4 = 1, slot0.config.is_auto do
-			if not nowWorld:IsSystemOpen(WorldConst["SystemAutoFight_" .. slot4]) then
+			if not nowWorld():IsSystemOpen(WorldConst["SystemAutoFight_" .. slot4]) then
 				return false
 			end
 		end
@@ -1828,7 +1832,7 @@ function slot0.CkeckTransport(slot0)
 		return false, i18n("world_movelimit_event_text")
 	end
 
-	if nowWorld:CheckTaskLockMap() then
+	if nowWorld():CheckTaskLockMap() then
 		return false, i18n("world_task_maplock")
 	end
 

@@ -5332,6 +5332,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[212] = {
+		spine_extra = "",
+		describe = "仿照NA海域中心奇异点内环境制作的金属雕塑——授予在「NA海域大型作战」行动中获得杰出成就者的纪念章",
+		gain_by = "火烬余辉",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "bigworldxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "NA海域纪念章",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 212,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"bigworldxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		belong = 1,
 		describe = "本ID禁用",
@@ -7569,39 +7612,82 @@ pg.furniture_data_template = {
 		interAction_group = {}
 	},
 	[100032] = {
-		spine_extra = "",
+		belong = 1,
 		describe = "看我完美的烧烤技术啾！",
 		gain_by = "",
-		type = 7,
+		type = 13,
 		dir = 0,
 		dorm_id = 0,
 		rarity = 4,
 		is_get_time_note = 0,
 		themeId = 0,
-		belong = 1,
-		is_3d_obj = 0,
 		count = 1,
+		is_3d_obj = 0,
+		name = "啾啾烧烤架",
 		tag = 6,
 		icon = "kaoyuicon",
-		deblocking = 1,
+		spine_extra = "",
 		level = 1,
 		advice = 0,
 		effect = "",
-		name = "啾啾烧烤架",
 		comfortable = 0,
+		deblocking = 1,
 		spine_action_replace = "",
 		picture = "",
 		canputon = 0,
 		id = 100032,
 		can_rotate = 0,
 		size = {
-			2,
-			2
+			5,
+			3
 		},
 		offset = {},
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		spine = {
+			{
+				"kaoyu",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"kaoyuCharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"kaoyuCharControl",
+						"sit"
+					},
+					{
+						"sit3",
+						"kaoyuCharControl",
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			[4] = {},
+			[5] = {
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"kaoyuCharControl"
+			}
 		},
 		interAction_group = {}
 	},
@@ -102129,6 +102215,7 @@ pg.furniture_data_template = {
 		208,
 		209,
 		210,
+		212,
 		100001,
 		100002,
 		100003,

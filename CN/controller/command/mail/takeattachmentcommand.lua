@@ -40,7 +40,7 @@ function slot0.execute(slot0, slot1)
 	slot16 = {}
 
 	if slot4:hasAttachmentsType(DROP_TYPE_WORLD_ITEM) then
-		if not nowWorld:IsActivate() then
+		if not nowWorld():IsActivate() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("mail_takeAttachment_error_noWorld"))
 
 			return

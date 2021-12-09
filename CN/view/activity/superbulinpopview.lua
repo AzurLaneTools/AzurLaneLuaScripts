@@ -4,9 +4,6 @@ function slot0.getUIName(slot0)
 	return "SuperBulinPopView"
 end
 
-function slot0.init(slot0)
-end
-
 function slot0.didEnter(slot0)
 	slot0.bulinAnim = slot0._tf:Find("Bulin"):GetComponent("SpineAnimUI")
 

@@ -2,13 +2,13 @@ slot0 = class("WorldBossProxy", import("....BaseEntity"))
 slot0.CacheKey = "WorldbossFleet"
 slot0.INFINITY = 9999999999.0
 slot0.Fields = {
-	ptTime = "number",
-	cacheLock = "number",
 	isFetched = "boolean",
-	boss = "table",
+	cacheLock = "number",
 	ranks = "table",
+	boss = "table",
+	tipProgress = "boolean",
+	ptTime = "number",
 	isSetup = "boolean",
-	unlockTip = "boolean",
 	fleet = "table",
 	otherBosses = "table",
 	timers = "table",
@@ -377,12 +377,28 @@ function slot0.NeedTip(slot0)
 	end)()
 end
 
-function slot0.UpdatedUnlockProgress(slot0)
-	if slot0:CanUnlock() then
-		slot0.unlockTip = true
+function slot0.UpdatedUnlockProgress(slot0, slot1, slot2)
+	if slot2 <= slot1 then
+		slot0.tipProgress = false
+	elseif not pg.GuideMgr.GetInstance():isPlayed("WorldG190") then
+		slot0.tipProgress = true
+	elseif #getProxy(SettingsProxy):GetWorldBossProgressTipTable() == 0 then
+		slot0.tipProgress = false
+	else
+		slot0.tipProgress = _.any(slot5, function (slot0)
+			return uv0 < tonumber(slot0) and tonumber(slot0) <= uv1
+		end)
 	end
 
 	slot0:DispatchEvent(uv0.EventUnlockProgressUpdated)
+end
+
+function slot0.ShouldTipProgress(slot0)
+	return slot0.tipProgress
+end
+
+function slot0.ClearTipProgress(slot0)
+	slot0.tipProgress = false
 end
 
 function slot0.GetUnlockProgress(slot0)
@@ -394,9 +410,7 @@ function slot0.GetUnlockProgress(slot0)
 		slot2 = slot3.data2 + 1
 	end
 
-	slot5 = pg.gameset.joint_boss_ticket.description[slot2] or uv0.INFINITY
-
-	return math.min(slot5, slot1), slot5, slot2, #slot4, slot4[#slot4]
+	return slot1, pg.gameset.joint_boss_ticket.description[slot2] or uv0.INFINITY, slot2, #slot4, slot4[#slot4]
 end
 
 function slot0.CanUnlock(slot0)

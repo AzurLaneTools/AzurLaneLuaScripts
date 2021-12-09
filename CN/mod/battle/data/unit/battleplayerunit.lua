@@ -231,6 +231,8 @@ function slot7.AddWeapon(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		-- Nothing
 	elseif slot8 == uv1.FLEET_ANTI_AIR then
 		slot0:AddFleetAntiAirWeapon(slot7)
+	elseif slot8 == uv1.FLEET_RANGE_ANTI_AIR then
+		slot0:AddFleetRangeAntiAirWeapon(slot7)
 	else
 		slot0:AddAutoWeapon(slot7)
 	end
@@ -288,7 +290,10 @@ function slot7.RemoveWeapon(slot0, slot1)
 	else
 		for slot7, slot8 in ipairs(slot0._autoWeaponList) do
 			if slot8:GetWeaponId() == slot1 then
-				slot0:RemoveAutoWeapon(slot8)
+				slot3 = slot8
+
+				slot3:Clear()
+				slot0:RemoveAutoWeapon(slot3)
 
 				break
 			end
@@ -385,6 +390,20 @@ function slot7.RemoveFleetAntiAirWeapon(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._fleetAAList) do
 		if slot6 == slot1 then
 			table.remove(slot0._fleetAAList, slot5)
+
+			return
+		end
+	end
+end
+
+function slot7.AddFleetRangeAntiAirWeapon(slot0, slot1)
+	slot0._fleetRangeAAList[#slot0._fleetRangeAAList + 1] = slot1
+end
+
+function slot7.RemoveFleetRangeAntiAirWeapon(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0._fleetRangeAAList) do
+		if slot6 == slot1 then
+			table.remove(slot0._fleetRangeAAList, slot5)
 
 			return
 		end

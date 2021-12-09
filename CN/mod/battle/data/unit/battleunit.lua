@@ -456,6 +456,7 @@ function slot9.SetEquipment(slot0, slot1)
 	slot0._chargeList = {}
 	slot0._AAList = {}
 	slot0._fleetAAList = {}
+	slot0._fleetRangeAAList = {}
 	slot0._hiveList = {}
 	slot0._totalWeapon = {}
 
@@ -533,7 +534,6 @@ function slot9.AddAutoWeapon(slot0, slot1)
 end
 
 function slot9.RemoveAutoWeapon(slot0, slot1)
-	slot1:Clear()
 	slot0._weaponQueue:RemoveWeapon(slot1)
 
 	slot2 = 1
@@ -556,6 +556,7 @@ end
 function slot9.RemoveAutoWeaponByWeaponID(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._autoWeaponList) do
 		if slot6:GetWeaponId() == slot1 then
+			slot6:Clear()
 			slot0:RemoveAutoWeapon(slot6)
 
 			break
@@ -567,6 +568,26 @@ function slot9.AddFleetAntiAirWeapon(slot0, slot1)
 end
 
 function slot9.RemoveFleetAntiAirWeapon(slot0, slot1)
+end
+
+function slot9.AttachFleetRangeAAWeapon(slot0, slot1)
+	slot0._fleetRangeAA = slot1
+
+	slot0:DispatchEvent(uv0.Event.New(uv1.CREATE_TEMPORARY_WEAPON, {
+		weapon = slot1
+	}))
+end
+
+function slot9.DetachFleetRangeAAWeapon(slot0)
+	slot0:DispatchEvent(uv0.Event.New(uv1.REMOVE_WEAPON, {
+		weapon = slot0._fleetRangeAA
+	}))
+
+	slot0._fleetRangeAA = nil
+end
+
+function slot9.GetFleetRangeAAWeapon(slot0)
+	return slot0._fleetRangeAA
 end
 
 function slot9.ShiftWeapon(slot0, slot1, slot2)
@@ -622,6 +643,10 @@ end
 
 function slot9.GetFleetAntiAirList(slot0)
 	return slot0._fleetAAList
+end
+
+function slot9.GetFleetRangeAntiAirList(slot0)
+	return slot0._fleetRangeAAList
 end
 
 function slot9.GetTorpedoList(slot0)
@@ -1212,6 +1237,10 @@ function slot9.Dispose(slot0)
 		slot6:Dispose()
 	end
 
+	for slot5, slot6 in ipairs(slot0._fleetRangeAAList) do
+		slot6:Dispose()
+	end
+
 	for slot6, slot7 in pairs(slot0._buffList) do
 		slot7:Dispose()
 	end
@@ -1222,6 +1251,7 @@ function slot9.Dispose(slot0)
 		end
 	end
 
+	slot0._fleetRangeAA = nil
 	slot0._aimBias = nil
 	slot0._buffList = nil
 	slot0._buffStockList = nil

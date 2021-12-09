@@ -23,9 +23,10 @@ function slot0.OnInit(slot0)
 	setActive(slot0.rtText, false)
 	setParent(slot0.rtText, slot1, false)
 
-	slot5 = UIItemList.New(slot2, slot2:Find("button"))
+	slot4 = nowWorld()
+	slot6 = UIItemList.New(slot2, slot2:Find("button"))
 
-	slot5:make(function (slot0, slot1, slot2)
+	slot6:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -33,7 +34,7 @@ function slot0.OnInit(slot0)
 			onButton(uv1, slot2, uv0[slot1].func)
 		end
 	end)
-	slot5:align(#{
+	slot6:align(#{
 		{
 			name = "清理打印",
 			func = function ()
@@ -68,18 +69,18 @@ function slot0.OnInit(slot0)
 			func = function ()
 				uv0:AppendText("-------------------------------------------------------------------------")
 				uv0:AppendText("当前大世界进度：")
-				uv0:AppendText(tostring(nowWorld:GetProgress()))
+				uv0:AppendText(tostring(uv1:GetProgress()))
 				uv0:AppendText("")
 				uv0:AppendText("当前所在入口信息：")
 
-				if nowWorld:GetActiveEntrance() then
+				if uv1:GetActiveEntrance() then
 					uv0:AppendText(slot0:DebugPrint())
 				end
 
 				uv0:AppendText("")
 				uv0:AppendText("当前所在地图信息：")
 
-				if nowWorld:GetActiveMap() then
+				if uv1:GetActiveMap() then
 					uv0:AppendText(slot1:DebugPrint())
 				end
 
@@ -92,7 +93,7 @@ function slot0.OnInit(slot0)
 				uv0:AppendText("-------------------------------------------------------------------------")
 				uv0:AppendText("任务信息：")
 
-				for slot5, slot6 in pairs(nowWorld:GetTaskProxy():getTasks()) do
+				for slot5, slot6 in pairs(uv1:GetTaskProxy():getTasks()) do
 					uv0:AppendText(slot6:DebugPrint())
 				end
 
@@ -105,7 +106,7 @@ function slot0.OnInit(slot0)
 				uv0:AppendText("-------------------------------------------------------------------------")
 				uv0:AppendText("事件信息：")
 
-				if nowWorld:GetActiveMap() then
+				if uv1:GetActiveMap() then
 					_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
 						uv0:AppendText(slot0:DebugPrint())
 					end)
@@ -120,7 +121,7 @@ function slot0.OnInit(slot0)
 				uv0:AppendText("-------------------------------------------------------------------------")
 				uv0:AppendText("感染事件：")
 
-				if nowWorld:GetActiveMap() then
+				if uv1:GetActiveMap() then
 					_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
 						if slot0.config.infection_value > 0 then
 							uv0:AppendText(slot0:DebugPrint())
@@ -137,7 +138,7 @@ function slot0.OnInit(slot0)
 				uv0:AppendText("-------------------------------------------------------------------------")
 				uv0:AppendText("路标事件：")
 
-				if nowWorld:GetActiveMap() then
+				if uv1:GetActiveMap() then
 					_.each(slot0:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
 						if slot0:IsSign() then
 							uv0:AppendText(slot0:DebugPrint())
@@ -153,7 +154,7 @@ function slot0.OnInit(slot0)
 			func = function ()
 				uv0:AppendText("-------------------------------------------------------------------------")
 				uv0:AppendText("打印舰队信息：")
-				_.each(nowWorld:GetFleets(), function (slot0)
+				_.each(uv1:GetFleets(), function (slot0)
 					uv0:AppendText(slot0:DebugPrint())
 				end)
 				uv0:AppendText("-------------------------------------------------------------------------")
@@ -165,7 +166,7 @@ function slot0.OnInit(slot0)
 				uv0:AppendText("-------------------------------------------------------------------------")
 				uv0:AppendText("打印敌人信息：")
 
-				if nowWorld:GetActiveMap() then
+				if uv1:GetActiveMap() then
 					_.each(slot0:FindEnemys(), function (slot0)
 						uv0:AppendText(slot0:DebugPrint())
 					end)
@@ -180,7 +181,7 @@ function slot0.OnInit(slot0)
 				uv0:AppendText("-------------------------------------------------------------------------")
 				uv0:AppendText("打印陷阱信息：")
 
-				if nowWorld:GetActiveMap() then
+				if uv1:GetActiveMap() then
 					_.each(slot0:FindAttachments(WorldMapAttachment.TypeTrap), function (slot0)
 						uv0:AppendText(slot0:DebugPrint())
 					end)
@@ -195,7 +196,7 @@ function slot0.OnInit(slot0)
 				uv0:AppendText("-------------------------------------------------------------------------")
 				uv0:AppendText("当前所在地图场景物件信息：")
 
-				if nowWorld:GetActiveMap() then
+				if uv1:GetActiveMap() then
 					_.each(slot0:FindAttachments(WorldMapAttachment.TypeArtifact), function (slot0)
 						uv0:AppendText(slot0:DebugPrint())
 					end)
@@ -210,7 +211,7 @@ function slot0.OnInit(slot0)
 				uv0:AppendText("-------------------------------------------------------------------------")
 				uv0:AppendText("当前地图压制啦")
 
-				slot0 = nowWorld:GetAtlas()
+				slot0 = uv1:GetAtlas()
 
 				slot0:AddPressingMap(slot0.activeMapId)
 				uv0:AppendText("-------------------------------------------------------------------------")
@@ -238,7 +239,7 @@ end
 
 function slot0.OnClickRichText(slot0, slot1, slot2)
 	if slot1 == "ShipProperty" then
-		slot4 = nowWorld:GetShipVO(tonumber(slot2))
+		slot4 = nowWorld():GetShipVO(tonumber(slot2))
 
 		slot0:AppendText("-------------------------------------------------------------------------")
 		slot0:AppendText("打印舰娘属性：")

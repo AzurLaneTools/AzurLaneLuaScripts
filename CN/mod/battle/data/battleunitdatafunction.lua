@@ -235,7 +235,7 @@ function slot31.CreateWeaponUnit(slot0, slot1, slot2, slot3, slot4)
 		slot6 = uv2.Battle.BattleManualTorpedoUnit.New()
 	elseif slot8 == uv1.EquipmentType.ANTI_AIR then
 		slot6 = uv2.Battle.BattleAntiAirUnit.New()
-	elseif slot8 == uv1.EquipmentType.FLEET_ANTI_AIR then
+	elseif slot8 == uv1.EquipmentType.FLEET_ANTI_AIR or slot8 == uv1.EquipmentType.FLEET_RANGE_ANTI_AIR then
 		slot6 = uv2.Battle.BattleWeaponUnit.New()
 	elseif slot8 == uv1.EquipmentType.SCOUT or slot8 == uv1.EquipmentType.PASSIVE_SCOUT then
 		slot6 = uv2.Battle.BattleHiveUnit.New()

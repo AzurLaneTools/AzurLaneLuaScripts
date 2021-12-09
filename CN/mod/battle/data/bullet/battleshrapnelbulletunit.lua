@@ -2,15 +2,16 @@ ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle.BattleConfig
 slot2 = slot0.Battle.BattleBulletEvent
+slot3 = slot0.Battle.BattleFormulas
 slot0.Battle.BattleShrapnelBulletUnit = class("BattleShrapnelBulletUnit", slot0.Battle.BattleBulletUnit)
 slot0.Battle.BattleShrapnelBulletUnit.__name = "BattleShrapnelBulletUnit"
-slot3 = slot0.Battle.BattleShrapnelBulletUnit
-slot3.STATE_NORMAL = "normal"
-slot3.STATE_SPLIT = "split"
-slot3.STATE_SPIN = "spin"
-slot3.STATE_FINAL_SPLIT = "final_split"
+slot4 = slot0.Battle.BattleShrapnelBulletUnit
+slot4.STATE_NORMAL = "normal"
+slot4.STATE_SPLIT = "split"
+slot4.STATE_SPIN = "spin"
+slot4.STATE_FINAL_SPLIT = "final_split"
 
-function slot3.Ctor(slot0, slot1, slot2)
+function slot4.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._splitCount = 0
@@ -19,21 +20,21 @@ function slot3.Ctor(slot0, slot1, slot2)
 	slot0:ChangeShrapnelState(slot0.STATE_NORMAL)
 end
 
-function slot3.Hit(slot0, slot1, slot2)
+function slot4.Hit(slot0, slot1, slot2)
 	uv0.super.Hit(slot0, slot1, slot2)
 
 	slot0._pierceCount = slot0._pierceCount - 1
 end
 
-function slot3.SplitFinishCount(slot0)
+function slot4.SplitFinishCount(slot0)
 	slot0._splitCount = slot0._splitCount + 1
 end
 
-function slot3.IsAllSplitFinish(slot0)
+function slot4.IsAllSplitFinish(slot0)
 	return slot0._splitCount >= #slot0._tempData.extra_param.shrapnel
 end
 
-function slot3.Update(slot0, slot1)
+function slot4.Update(slot0, slot1)
 	if slot0._currentState == uv0.STATE_NORMAL then
 		uv0.super.Update(slot0, slot1)
 
@@ -45,7 +46,7 @@ function slot3.Update(slot0, slot1)
 	end
 end
 
-function slot3.ChangeShrapnelState(slot0, slot1)
+function slot4.ChangeShrapnelState(slot0, slot1)
 	if slot0._currentState == uv0.STATE_SPLIT or slot0._currentState == slot1 then
 		return
 	end
@@ -59,7 +60,7 @@ function slot3.ChangeShrapnelState(slot0, slot1)
 	end
 end
 
-function slot3.IsOutRange(slot0, slot1)
+function slot4.IsOutRange(slot0, slot1)
 	if slot0._currentState == uv0.STATE_NORMAL then
 		return uv0.super.IsOutRange(slot0, slot1)
 	else
@@ -67,58 +68,66 @@ function slot3.IsOutRange(slot0, slot1)
 	end
 end
 
-function slot3.SetSrcHost(slot0, slot1)
+function slot4.SetSrcHost(slot0, slot1)
 	slot0._srcHost = slot1
 end
 
-function slot3.GetSrcHost(slot0)
+function slot4.GetSrcHost(slot0)
 	return slot0._srcHost
 end
 
-function slot3.GetShrapnelParam(slot0)
+function slot4.GetShrapnelParam(slot0)
 	return slot0._tempData.extra_param
 end
 
-function slot3.GetCurrentState(slot0)
+function slot4.GetCurrentState(slot0)
 	return slot0._currentState
 end
 
-function slot3.SetSpawnPosition(slot0, slot1)
+function slot4.SetSpawnPosition(slot0, slot1)
 	uv0.super.SetSpawnPosition(slot0, slot1)
 
+	slot4 = Vector3.Distance(pg.Tool.FilterY(slot0._spawnPos), pg.Tool.FilterY(slot0._explodePos))
+
 	if slot0:GetTemplate().extra_param.flare then
-		slot3 = Vector3.Distance(pg.Tool.FilterY(slot0._spawnPos), pg.Tool.FilterY(slot0._explodePos))
-		slot5 = uv1.Battle.BattleDataFunction.GetBulletTmpDataFromID(slot0:GetTemplate().extra_param.shrapnel[1].bullet_ID)
-		slot8 = 0.5 * math.abs(slot5.extra_param.gravity or -0.0005) * (slot5.hit_type.time * uv1.Battle.BattleConfig.calcFPS)^2 - slot0._spawnPos.y
-		slot0._convertedVelocity = math.sqrt(-0.5 * slot0._gravity * slot3 * slot3 / slot8)
-		slot9 = slot3 / slot0._convertedVelocity
-		slot0._verticalSpeed = slot8 / slot9 - 0.5 * slot0._gravity * slot9
+		slot6 = uv1.Battle.BattleDataFunction.GetBulletTmpDataFromID(slot2.shrapnel[1].bullet_ID)
+		slot9 = 0.5 * math.abs(slot6.extra_param.gravity or -0.0005) * (slot6.hit_type.time * uv2.calcFPS)^2 - slot0._spawnPos.y
+		slot0._convertedVelocity = math.sqrt(-0.5 * slot0._gravity * slot4 * slot4 / slot9)
+		slot10 = slot4 / slot0._convertedVelocity
+		slot0._verticalSpeed = slot9 / slot10 - 0.5 * slot0._gravity * slot10
+	elseif slot2.rangeAA then
+		slot5 = uv2.AircraftHeight - slot0._spawnPos.y
+		slot6 = 0.5 * slot0._gravity
+		slot0._velocity = math.sqrt(-slot6 * slot4 * slot4 / slot5)
+		slot7 = slot4 / slot0._velocity
+		slot0._verticalSpeed = slot5 / slot7 - slot6 * slot7
+		slot0._velocity = uv3.ConvertBulletDataSpeed(slot0._velocity)
 	elseif slot0._convertedVelocity ~= 0 then
-		slot4 = Vector3.Distance(pg.Tool.FilterY(slot0._spawnPos), slot0._explodePos) / slot0._convertedVelocity
-		slot0._verticalSpeed = slot0:GetTemplate().extra_param.launchVrtSpeed or (slot0._explodePos.y - slot0._spawnPos.y) / slot4 - 0.5 * slot0._gravity * slot4
+		slot5 = slot4 / slot0._convertedVelocity
+		slot0._verticalSpeed = slot2.launchVrtSpeed or (slot0._explodePos.y - slot0._spawnPos.y) / slot5 - 0.5 * slot0._gravity * slot5
 	end
 end
 
-function slot3.GetExplodePostion(slot0)
+function slot4.GetExplodePostion(slot0)
 	return slot0._explodePos
 end
 
-function slot3.SetExplodePosition(slot0, slot1)
+function slot4.SetExplodePosition(slot0, slot1)
 	slot0._explodePos = Clone(slot1)
 	slot0._explodePos.y = uv0.BombDetonateHeight
 end
 
-function slot3.CacheChildEimtter(slot0, slot1)
+function slot4.CacheChildEimtter(slot0, slot1)
 	table.insert(slot0._cacheEmitter, slot1)
 end
 
-function slot3.interruptChildEmitter(slot0)
+function slot4.interruptChildEmitter(slot0)
 	for slot4, slot5 in ipairs(slot0._cacheEmitter) do
 		slot5:Destroy()
 	end
 end
 
-function slot3.Dispose(slot0)
+function slot4.Dispose(slot0)
 	slot0:interruptChildEmitter()
 
 	slot0._cacheEmitter = nil

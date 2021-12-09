@@ -38,14 +38,13 @@ function slot0.LoadScene(slot0, slot1)
 		uv0:BuildActiveMark()
 
 		uv0.cmPointer = uv0.tfEntity:Find("Plane"):GetComponent(typeof(PointerInfo))
-		slot2 = nowWorld
+		slot2 = nowWorld()
 
 		uv0.cmPointer:AddColorMaskClickListener(function (slot0, slot1)
 			if uv0:ColorToEntrance(slot0) then
 				uv1.onClickColor(slot2, slot1.position)
 			end
 		end)
-		setActive(uv0.tfEntity:Find("Plane"), false)
 
 		uv0.tfCamera = uv0.transform:Find("Main Camera")
 

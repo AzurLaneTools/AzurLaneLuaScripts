@@ -8,7 +8,7 @@ slot0.OnOpenSublayer = "OpenSublayer"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.OnSwitchShip, function (slot0, slot1, slot2, slot3)
-		nowWorld:GetFleet(slot1):SwitchShip(slot2, slot3)
+		nowWorld():GetFleet(slot1):SwitchShip(slot2, slot3)
 	end)
 	slot0:bind(uv0.OnAuto, function (slot0, slot1)
 		uv0:onAutoBtn(slot1)

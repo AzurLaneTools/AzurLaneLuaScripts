@@ -327,6 +327,10 @@ function slot6.GetCurrentState(slot0)
 	return slot0._currentState
 end
 
+function slot6.GetVelocity(slot0)
+	return slot0._velocity
+end
+
 function slot6.GetSpeed(slot0)
 	return slot0._speed
 end

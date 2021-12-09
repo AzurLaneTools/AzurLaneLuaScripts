@@ -98,13 +98,16 @@ function slot0.OnReselected(slot0)
 end
 
 function slot0.OnDeselected(slot0)
-	slot0:HideDetailLayer()
-	slot0:HideGroupLayer()
-
 	slot0.contextData.FileGroupIndex = nil
 	slot0.contextData.SelectedFile = nil
 
 	uv0.super.OnDeselected(slot0)
+end
+
+function slot0.Hide(slot0)
+	slot0:HideDetailLayer()
+	slot0:HideGroupLayer()
+	uv0.super.Hide(slot0)
 end
 
 function slot0.Backward(slot0)

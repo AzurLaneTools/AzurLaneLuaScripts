@@ -3,7 +3,7 @@ slot0 = class("WorldBossSupportCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody().type
 
-	if not nowWorld.worldBossProxy:GetSelfBoss() then
+	if not nowWorld().worldBossProxy:GetSelfBoss() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_boss_not_found"))
 
 		return

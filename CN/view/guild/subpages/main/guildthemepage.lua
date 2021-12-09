@@ -30,7 +30,7 @@ function slot0.OnLoaded(slot0)
 	slot0.levelTxt = slot0:findTF("top/exp/lv/Text"):GetComponent(typeof(Text))
 	slot1 = 300
 	slot0.topPanelWidth = slot0.top.rect.height
-	slot0.bottomPanelWidth = slot0.bottomPanel.rect.height * -1
+	slot0.bottomPanelWidth = -165
 	slot0.chatPanelWidth = slot0.chatPanel.rect.width + slot1
 	slot0.chatBtnWidth = slot0.chatBtn.rect.width + slot1
 
@@ -443,11 +443,11 @@ function slot0.EnterOrExitPreView(slot0, slot1)
 	end))
 
 	slot3 = slot1 and {
-		0,
-		slot0.bottomPanelWidth
+		94,
+		94 + slot0.bottomPanelWidth
 	} or {
-		slot0.bottomPanelWidth,
-		0
+		94 + slot0.bottomPanelWidth,
+		94
 	}
 
 	LeanTween.value(go(slot0.bottomPanel), slot3[1], slot3[2], 0.3):setOnUpdate(System.Action_float(function (slot0)

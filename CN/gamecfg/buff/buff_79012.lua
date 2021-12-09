@@ -1,6 +1,6 @@
 return {
 	init_effect = "",
-	name = "司特莲库斯雷电buff",
+	name = "司特莲库斯雷电屏障buff",
 	time = 0,
 	color = "yellow",
 	picture = "",
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageGetRatioByBulletTorpedo",
-				number = -0.15
+				attr = "injureRatioByAir",
+				number = -0.25
 			}
 		},
 		{
@@ -26,8 +26,19 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageGetRatioByCannon",
-				number = -0.15
+				attr = "injureRatioByCannon",
+				number = -0.25
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				quota = 1,
+				target = "TargetSelf",
+				skill_id = 79012
 			}
 		}
 	}

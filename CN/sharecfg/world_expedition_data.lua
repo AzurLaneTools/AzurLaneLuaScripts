@@ -8,6 +8,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 210000,
 		battle_type = 0,
@@ -328,7 +329,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[210011] = {
 		bgm = "hunhe-battle",
@@ -338,6 +341,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 210011,
 		battle_type = 0,
@@ -658,7 +662,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[210012] = {
 		bgm = "hunhe-battle",
@@ -668,6 +674,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 210012,
 		battle_type = 0,
@@ -988,7 +995,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[210013] = {
 		bgm = "hunhe-battle",
@@ -998,6 +1007,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 210013,
 		battle_type = 0,
@@ -1318,7 +1328,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[210014] = {
 		bgm = "hunhe-battle",
@@ -1328,6 +1340,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 210014,
 		battle_type = 0,
@@ -1648,7 +1661,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211011] = {
 		bgm = "hunhe-battle",
@@ -1658,6 +1673,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 211011,
 		battle_type = 0,
@@ -1978,7 +1994,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211012] = {
 		bgm = "hunhe-battle",
@@ -1988,6 +2006,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 211012,
 		battle_type = 0,
@@ -2308,7 +2327,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211013] = {
 		bgm = "hunhe-battle",
@@ -2318,6 +2339,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 211013,
 		battle_type = 0,
@@ -2638,7 +2660,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211014] = {
 		bgm = "hunhe-battle",
@@ -2648,6 +2672,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 211014,
 		battle_type = 0,
@@ -2968,7 +2993,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211015] = {
 		bgm = "hunhe-battle",
@@ -2978,6 +3005,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 211015,
 		battle_type = 0,
@@ -3298,7 +3326,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211032] = {
 		bgm = "hunhe-battle",
@@ -3308,6 +3338,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 211032,
 		battle_type = 0,
@@ -3628,7 +3659,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211211] = {
 		bgm = "hunhe-battle",
@@ -3638,6 +3671,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 211211,
 		battle_type = 0,
@@ -3958,7 +3992,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211212] = {
 		bgm = "hunhe-battle",
@@ -3968,6 +4004,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 211212,
 		battle_type = 0,
@@ -4288,7 +4325,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211213] = {
 		bgm = "hunhe-battle",
@@ -4298,6 +4337,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 211213,
 		battle_type = 0,
@@ -4618,7 +4658,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211214] = {
 		bgm = "hunhe-battle",
@@ -4628,6 +4670,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 211214,
 		battle_type = 0,
@@ -4948,7 +4991,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211215] = {
 		bgm = "hunhe-battle",
@@ -4958,6 +5003,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 211215,
 		battle_type = 0,
@@ -5278,7 +5324,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211216] = {
 		bgm = "hunhe-battle",
@@ -5288,6 +5336,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 211216,
 		battle_type = 0,
@@ -5608,7 +5657,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211217] = {
 		bgm = "hunhe-battle",
@@ -5618,6 +5669,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 211217,
 		battle_type = 0,
@@ -5938,7 +5990,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211411] = {
 		bgm = "hunhe-battle",
@@ -5948,6 +6002,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 211411,
 		battle_type = 0,
@@ -6268,7 +6323,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211412] = {
 		bgm = "hunhe-battle",
@@ -6278,6 +6335,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 211412,
 		battle_type = 0,
@@ -6598,7 +6656,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211413] = {
 		bgm = "hunhe-battle",
@@ -6608,6 +6668,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 211413,
 		battle_type = 0,
@@ -6928,7 +6989,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[211611] = {
 		bgm = "hunhe-battle",
@@ -6938,6 +7001,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 211611,
 		battle_type = 0,
@@ -7258,7 +7322,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213011] = {
 		bgm = "hunhe-battle",
@@ -7268,6 +7334,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 213011,
 		battle_type = 0,
@@ -7588,7 +7655,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213012] = {
 		bgm = "hunhe-battle",
@@ -7598,6 +7667,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 213012,
 		battle_type = 0,
@@ -7918,7 +7988,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213013] = {
 		bgm = "hunhe-battle",
@@ -7928,6 +8000,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 213013,
 		battle_type = 0,
@@ -8248,7 +8321,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213014] = {
 		bgm = "hunhe-battle",
@@ -8258,6 +8333,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 213014,
 		battle_type = 0,
@@ -8578,7 +8654,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213015] = {
 		bgm = "Battle-1",
@@ -8588,6 +8666,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 213015,
 		battle_type = 0,
@@ -8908,7 +8987,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213016] = {
 		bgm = "Battle-1",
@@ -8918,6 +8999,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 213016,
 		battle_type = 0,
@@ -9238,7 +9320,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213017] = {
 		bgm = "Battle-1",
@@ -9248,6 +9332,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 213017,
 		battle_type = 0,
@@ -9568,7 +9653,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213211] = {
 		bgm = "hunhe-battle",
@@ -9578,6 +9665,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 213211,
 		battle_type = 0,
@@ -9898,7 +9986,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213212] = {
 		bgm = "hunhe-battle",
@@ -9908,6 +9998,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 213212,
 		battle_type = 0,
@@ -10228,7 +10319,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213213] = {
 		bgm = "hunhe-battle",
@@ -10238,6 +10331,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 213213,
 		battle_type = 0,
@@ -10558,7 +10652,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213411] = {
 		bgm = "hunhe-battle",
@@ -10568,6 +10664,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 213411,
 		battle_type = 0,
@@ -10888,7 +10985,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213412] = {
 		bgm = "hunhe-battle",
@@ -10898,6 +10997,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 213412,
 		battle_type = 0,
@@ -11218,7 +11318,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213413] = {
 		bgm = "Battle-1",
@@ -11228,6 +11330,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 213413,
 		battle_type = 0,
@@ -11548,7 +11651,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[213414] = {
 		bgm = "Battle-1",
@@ -11558,6 +11663,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 213414,
 		battle_type = 0,
@@ -11878,7 +11984,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[214011] = {
 		bgm = "Battle-1",
@@ -11888,6 +11996,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 214011,
 		battle_type = 0,
@@ -12208,7 +12317,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[214211] = {
 		bgm = "Battle-1",
@@ -12218,6 +12329,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 214211,
 		battle_type = 0,
@@ -12287,7 +12399,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[214212] = {
 		bgm = "Battle-1",
@@ -12297,6 +12411,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 214212,
 		battle_type = 0,
@@ -12366,7 +12481,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[214213] = {
 		bgm = "Battle-1",
@@ -12376,6 +12493,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 3000,
 		id = 214213,
 		battle_type = 0,
@@ -12445,7 +12563,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[215011] = {
 		bgm = "hunhe-battle",
@@ -12455,6 +12575,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 215011,
 		battle_type = 1,
@@ -12831,7 +12952,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[215012] = {
 		bgm = "hunhe-battle",
@@ -12841,6 +12964,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 215012,
 		battle_type = 1,
@@ -13217,7 +13341,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[215013] = {
 		bgm = "hunhe-battle",
@@ -13227,6 +13353,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 215013,
 		battle_type = 1,
@@ -13603,7 +13730,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[215014] = {
 		bgm = "hunhe-battle",
@@ -13613,6 +13742,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 215014,
 		battle_type = 1,
@@ -13989,7 +14119,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[215015] = {
 		bgm = "hunhe-battle",
@@ -13999,6 +14131,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 215015,
 		battle_type = 1,
@@ -14375,7 +14508,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[215016] = {
 		bgm = "hunhe-battle",
@@ -14385,6 +14520,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 215016,
 		battle_type = 1,
@@ -14761,7 +14897,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[215017] = {
 		bgm = "hunhe-battle",
@@ -14771,6 +14909,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 215017,
 		battle_type = 1,
@@ -15147,7 +15286,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[216011] = {
 		bgm = "Battle-1",
@@ -15157,6 +15298,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 216011,
 		battle_type = 0,
@@ -15477,7 +15619,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[220011] = {
 		bgm = "battle-maid",
@@ -15487,6 +15631,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 220011,
 		battle_type = 0,
@@ -15807,7 +15952,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[220012] = {
 		bgm = "battle-maid",
@@ -15817,6 +15964,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 220012,
 		battle_type = 0,
@@ -16137,7 +16285,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[220013] = {
 		bgm = "battle-maid",
@@ -16147,6 +16297,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 220013,
 		battle_type = 0,
@@ -16467,7 +16618,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221011] = {
 		bgm = "battle-maid",
@@ -16477,6 +16630,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 221011,
 		battle_type = 0,
@@ -16797,7 +16951,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221012] = {
 		bgm = "battle-maid",
@@ -16807,6 +16963,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 221012,
 		battle_type = 0,
@@ -17127,7 +17284,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221013] = {
 		bgm = "battle-maid",
@@ -17137,6 +17296,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 221013,
 		battle_type = 0,
@@ -17457,7 +17617,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221014] = {
 		bgm = "battle-maid",
@@ -17467,6 +17629,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 221014,
 		battle_type = 0,
@@ -17787,7 +17950,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221015] = {
 		bgm = "battle-maid",
@@ -17797,6 +17962,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 221015,
 		battle_type = 0,
@@ -18117,7 +18283,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221211] = {
 		bgm = "battle-maid",
@@ -18127,6 +18295,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 221211,
 		battle_type = 0,
@@ -18447,7 +18616,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221212] = {
 		bgm = "battle-maid",
@@ -18457,6 +18628,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 221212,
 		battle_type = 0,
@@ -18777,7 +18949,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221213] = {
 		bgm = "battle-maid",
@@ -18787,6 +18961,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 221213,
 		battle_type = 0,
@@ -19107,7 +19282,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221214] = {
 		bgm = "battle-maid",
@@ -19117,6 +19294,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 221214,
 		battle_type = 0,
@@ -19437,7 +19615,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221215] = {
 		bgm = "battle-maid",
@@ -19447,6 +19627,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 221215,
 		battle_type = 0,
@@ -19767,7 +19948,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221216] = {
 		bgm = "battle-maid",
@@ -19777,6 +19960,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 221216,
 		battle_type = 0,
@@ -20097,7 +20281,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221411] = {
 		bgm = "battle-maid",
@@ -20107,6 +20293,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 221411,
 		battle_type = 0,
@@ -20427,7 +20614,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[221412] = {
 		bgm = "battle-maid",
@@ -20437,6 +20626,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 221412,
 		battle_type = 0,
@@ -20757,7 +20947,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223011] = {
 		bgm = "battle-maid",
@@ -20767,6 +20959,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 223011,
 		battle_type = 0,
@@ -21087,7 +21280,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223012] = {
 		bgm = "battle-maid",
@@ -21097,6 +21292,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 223012,
 		battle_type = 0,
@@ -21417,7 +21613,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223013] = {
 		bgm = "battle-maid",
@@ -21427,6 +21625,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 223013,
 		battle_type = 0,
@@ -21747,7 +21946,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223014] = {
 		bgm = "battle-maid",
@@ -21757,6 +21958,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 223014,
 		battle_type = 0,
@@ -22077,7 +22279,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223015] = {
 		bgm = "battle-maid",
@@ -22087,6 +22291,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 223015,
 		battle_type = 0,
@@ -22407,7 +22612,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223016] = {
 		bgm = "battle-maid",
@@ -22417,6 +22624,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 223016,
 		battle_type = 0,
@@ -22737,7 +22945,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223211] = {
 		bgm = "battle-maid",
@@ -22747,6 +22957,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 223211,
 		battle_type = 0,
@@ -23067,7 +23278,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223212] = {
 		bgm = "battle-maid",
@@ -23077,6 +23290,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 223212,
 		battle_type = 0,
@@ -23397,7 +23611,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223411] = {
 		bgm = "battle-maid",
@@ -23407,6 +23623,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 223411,
 		battle_type = 0,
@@ -23727,7 +23944,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223412] = {
 		bgm = "battle-maid",
@@ -23737,6 +23956,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 223412,
 		battle_type = 0,
@@ -24057,7 +24277,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223413] = {
 		bgm = "Battle-1",
@@ -24067,6 +24289,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 223413,
 		battle_type = 0,
@@ -24387,7 +24610,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[223414] = {
 		bgm = "Battle-1",
@@ -24397,6 +24622,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 223414,
 		battle_type = 0,
@@ -24717,7 +24943,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[224011] = {
 		bgm = "Battle-1",
@@ -24727,6 +24955,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 224011,
 		battle_type = 0,
@@ -25047,7 +25276,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[224211] = {
 		bgm = "Battle-1",
@@ -25057,6 +25288,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 224211,
 		battle_type = 0,
@@ -25377,7 +25609,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[224212] = {
 		bgm = "Battle-1",
@@ -25387,6 +25621,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 224212,
 		battle_type = 0,
@@ -25707,7 +25942,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[224213] = {
 		bgm = "Battle-1",
@@ -25717,6 +25954,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 224213,
 		battle_type = 0,
@@ -26037,7 +26275,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[225011] = {
 		bgm = "battle-maid",
@@ -26047,6 +26287,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 225011,
 		battle_type = 1,
@@ -26423,7 +26664,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[225012] = {
 		bgm = "battle-maid",
@@ -26433,6 +26676,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 225012,
 		battle_type = 1,
@@ -26809,7 +27053,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[225013] = {
 		bgm = "battle-maid",
@@ -26819,6 +27065,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 225013,
 		battle_type = 1,
@@ -27195,7 +27442,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[225014] = {
 		bgm = "battle-maid",
@@ -27205,6 +27454,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 225014,
 		battle_type = 1,
@@ -27581,7 +27831,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[225015] = {
 		bgm = "battle-maid",
@@ -27591,6 +27843,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 225015,
 		battle_type = 1,
@@ -27967,7 +28220,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[225016] = {
 		bgm = "battle-maid",
@@ -27977,6 +28232,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 225016,
 		battle_type = 1,
@@ -28353,7 +28609,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[225017] = {
 		bgm = "battle-maid",
@@ -28363,6 +28621,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 225017,
 		battle_type = 1,
@@ -28739,7 +28998,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[226011] = {
 		bgm = "Battle-1",
@@ -28749,6 +29010,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 226011,
 		battle_type = 0,
@@ -29069,7 +29331,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[230011] = {
 		bgm = "story-4",
@@ -29079,6 +29343,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 230011,
 		battle_type = 0,
@@ -29399,7 +29664,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[230012] = {
 		bgm = "story-4",
@@ -29409,6 +29676,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 230012,
 		battle_type = 0,
@@ -29729,7 +29997,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[230013] = {
 		bgm = "story-4",
@@ -29739,6 +30009,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 230013,
 		battle_type = 0,
@@ -30059,7 +30330,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[230014] = {
 		bgm = "story-4",
@@ -30069,6 +30342,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 230014,
 		battle_type = 0,
@@ -30389,7 +30663,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231011] = {
 		bgm = "story-4",
@@ -30399,6 +30675,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 231011,
 		battle_type = 0,
@@ -30719,7 +30996,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231012] = {
 		bgm = "story-4",
@@ -30729,6 +31008,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 231012,
 		battle_type = 0,
@@ -31049,7 +31329,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231013] = {
 		bgm = "story-4",
@@ -31059,6 +31341,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 231013,
 		battle_type = 0,
@@ -31379,7 +31662,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231014] = {
 		bgm = "story-4",
@@ -31389,6 +31674,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 231014,
 		battle_type = 0,
@@ -31709,7 +31995,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231211] = {
 		bgm = "story-4",
@@ -31719,6 +32007,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 231211,
 		battle_type = 0,
@@ -32039,7 +32328,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231212] = {
 		bgm = "story-4",
@@ -32049,6 +32340,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 231212,
 		battle_type = 0,
@@ -32369,7 +32661,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231213] = {
 		bgm = "story-4",
@@ -32379,6 +32673,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 231213,
 		battle_type = 0,
@@ -32699,7 +32994,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231214] = {
 		bgm = "story-4",
@@ -32709,6 +33006,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 231214,
 		battle_type = 0,
@@ -33029,7 +33327,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231215] = {
 		bgm = "story-4",
@@ -33039,6 +33339,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 231215,
 		battle_type = 0,
@@ -33359,7 +33660,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231216] = {
 		bgm = "story-4",
@@ -33369,6 +33672,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 231216,
 		battle_type = 0,
@@ -33689,7 +33993,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231411] = {
 		bgm = "story-4",
@@ -33699,6 +34005,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 231411,
 		battle_type = 0,
@@ -34019,7 +34326,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231412] = {
 		bgm = "story-4",
@@ -34029,6 +34338,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 231412,
 		battle_type = 0,
@@ -34349,7 +34659,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[231413] = {
 		bgm = "story-4",
@@ -34359,6 +34671,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 231413,
 		battle_type = 0,
@@ -34679,7 +34992,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233011] = {
 		bgm = "story-4",
@@ -34689,6 +35004,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 233011,
 		battle_type = 0,
@@ -35009,7 +35325,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233012] = {
 		bgm = "story-4",
@@ -35019,6 +35337,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 233012,
 		battle_type = 0,
@@ -35339,7 +35658,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233013] = {
 		bgm = "story-4",
@@ -35349,6 +35670,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 233013,
 		battle_type = 0,
@@ -35669,7 +35991,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233014] = {
 		bgm = "story-4",
@@ -35679,6 +36003,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 233014,
 		battle_type = 0,
@@ -35999,7 +36324,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233015] = {
 		bgm = "Battle-1",
@@ -36009,6 +36336,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 233015,
 		battle_type = 0,
@@ -36329,7 +36657,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233016] = {
 		bgm = "Battle-1",
@@ -36339,6 +36669,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 233016,
 		battle_type = 0,
@@ -36659,7 +36990,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233211] = {
 		bgm = "story-4",
@@ -36669,6 +37002,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 233211,
 		battle_type = 0,
@@ -36989,7 +37323,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233212] = {
 		bgm = "story-4",
@@ -36999,6 +37335,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 233212,
 		battle_type = 0,
@@ -37319,7 +37656,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233213] = {
 		bgm = "story-4",
@@ -37329,6 +37668,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 233213,
 		battle_type = 0,
@@ -37649,7 +37989,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233411] = {
 		bgm = "story-4",
@@ -37659,6 +38001,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 233411,
 		battle_type = 0,
@@ -37979,7 +38322,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233412] = {
 		bgm = "story-4",
@@ -37989,6 +38334,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 233412,
 		battle_type = 0,
@@ -38309,7 +38655,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233413] = {
 		bgm = "story-4",
@@ -38319,6 +38667,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 233413,
 		battle_type = 0,
@@ -38639,7 +38988,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[233414] = {
 		bgm = "story-4",
@@ -38649,6 +39000,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 233414,
 		battle_type = 0,
@@ -38969,7 +39321,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[234011] = {
 		bgm = "Battle-1",
@@ -38979,6 +39333,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 234011,
 		battle_type = 0,
@@ -39299,7 +39654,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[234211] = {
 		bgm = "Battle-1",
@@ -39309,6 +39666,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 234211,
 		battle_type = 0,
@@ -39629,7 +39987,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[234212] = {
 		bgm = "Battle-1",
@@ -39639,6 +39999,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 234212,
 		battle_type = 0,
@@ -39959,7 +40320,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[234213] = {
 		bgm = "Battle-1",
@@ -39969,6 +40332,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 234213,
 		battle_type = 0,
@@ -40289,7 +40653,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[235011] = {
 		bgm = "story-4",
@@ -40299,6 +40665,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 235011,
 		battle_type = 1,
@@ -40675,7 +41042,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[235012] = {
 		bgm = "story-4",
@@ -40685,6 +41054,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 235012,
 		battle_type = 1,
@@ -41061,7 +41431,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[235013] = {
 		bgm = "story-4",
@@ -41071,6 +41443,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 235013,
 		battle_type = 1,
@@ -41447,7 +41820,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[235014] = {
 		bgm = "story-4",
@@ -41457,6 +41832,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 235014,
 		battle_type = 1,
@@ -41833,7 +42209,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[235015] = {
 		bgm = "story-4",
@@ -41843,6 +42221,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 235015,
 		battle_type = 1,
@@ -42219,7 +42598,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[235016] = {
 		bgm = "story-4",
@@ -42229,6 +42610,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 235016,
 		battle_type = 1,
@@ -42605,7 +42987,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[235017] = {
 		bgm = "story-4",
@@ -42615,6 +42999,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 235017,
 		battle_type = 1,
@@ -42991,7 +43376,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[236011] = {
 		bgm = "Battle-1",
@@ -43001,6 +43388,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 236011,
 		battle_type = 0,
@@ -43321,7 +43709,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[240011] = {
 		bgm = "xinnong-2",
@@ -43331,6 +43721,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 240011,
 		battle_type = 0,
@@ -43651,7 +44042,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[240012] = {
 		bgm = "xinnong-2",
@@ -43661,6 +44054,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 240012,
 		battle_type = 0,
@@ -43981,7 +44375,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[240013] = {
 		bgm = "xinnong-2",
@@ -43991,6 +44387,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 240013,
 		battle_type = 0,
@@ -44311,7 +44708,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[240014] = {
 		bgm = "xinnong-2",
@@ -44321,6 +44720,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 240014,
 		battle_type = 0,
@@ -44641,7 +45041,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[240015] = {
 		bgm = "xinnong-2",
@@ -44651,6 +45053,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 240015,
 		battle_type = 0,
@@ -44971,7 +45374,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[240512] = {
 		bgm = "xinnong-2",
@@ -44981,6 +45386,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 240512,
 		battle_type = 0,
@@ -45301,7 +45707,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[240513] = {
 		bgm = "xinnong-2",
@@ -45311,6 +45719,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 240513,
 		battle_type = 0,
@@ -45631,7 +46040,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[240514] = {
 		bgm = "xinnong-2",
@@ -45641,6 +46052,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 240514,
 		battle_type = 0,
@@ -45961,7 +46373,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241011] = {
 		bgm = "xinnong-2",
@@ -45971,6 +46385,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 241011,
 		battle_type = 0,
@@ -46291,7 +46706,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241012] = {
 		bgm = "xinnong-2",
@@ -46301,6 +46718,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 241012,
 		battle_type = 0,
@@ -46621,7 +47039,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241013] = {
 		bgm = "xinnong-2",
@@ -46631,6 +47051,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 241013,
 		battle_type = 0,
@@ -46951,7 +47372,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241014] = {
 		bgm = "xinnong-2",
@@ -46961,6 +47384,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 241014,
 		battle_type = 0,
@@ -47281,7 +47705,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241015] = {
 		bgm = "xinnong-2",
@@ -47291,6 +47717,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 241015,
 		battle_type = 0,
@@ -47611,7 +48038,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241211] = {
 		bgm = "xinnong-2",
@@ -47621,6 +48050,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 241211,
 		battle_type = 0,
@@ -47941,7 +48371,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241212] = {
 		bgm = "xinnong-2",
@@ -47951,6 +48383,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 241212,
 		battle_type = 0,
@@ -48271,7 +48704,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241213] = {
 		bgm = "xinnong-2",
@@ -48281,6 +48716,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 241213,
 		battle_type = 0,
@@ -48601,7 +49037,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241214] = {
 		bgm = "xinnong-2",
@@ -48611,6 +49049,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 241214,
 		battle_type = 0,
@@ -48931,7 +49370,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241215] = {
 		bgm = "xinnong-2",
@@ -48941,6 +49382,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 241215,
 		battle_type = 0,
@@ -49261,7 +49703,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241216] = {
 		bgm = "xinnong-2",
@@ -49271,6 +49715,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 241216,
 		battle_type = 0,
@@ -49591,7 +50036,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241217] = {
 		bgm = "xinnong-2",
@@ -49601,6 +50048,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 500,
 		id = 241217,
 		battle_type = 0,
@@ -49921,7 +50369,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241411] = {
 		bgm = "xinnong-2",
@@ -49931,6 +50381,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 241411,
 		battle_type = 0,
@@ -50251,7 +50702,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[241412] = {
 		bgm = "xinnong-2",
@@ -50261,6 +50714,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 241412,
 		battle_type = 0,
@@ -50581,7 +51035,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243011] = {
 		bgm = "xinnong-2",
@@ -50591,6 +51047,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 243011,
 		battle_type = 0,
@@ -50911,7 +51368,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243012] = {
 		bgm = "xinnong-2",
@@ -50921,6 +51380,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 243012,
 		battle_type = 0,
@@ -51241,7 +51701,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243013] = {
 		bgm = "xinnong-2",
@@ -51251,6 +51713,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 243013,
 		battle_type = 0,
@@ -51571,7 +52034,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243014] = {
 		bgm = "xinnong-2",
@@ -51581,6 +52046,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 243014,
 		battle_type = 0,
@@ -51901,7 +52367,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243015] = {
 		bgm = "xinnong-2",
@@ -51911,6 +52379,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 243015,
 		battle_type = 0,
@@ -52231,7 +52700,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243016] = {
 		bgm = "xinnong-2",
@@ -52241,6 +52712,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 243016,
 		battle_type = 0,
@@ -52561,7 +53033,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243017] = {
 		bgm = "xinnong-2",
@@ -52571,6 +53045,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 243017,
 		battle_type = 0,
@@ -52891,7 +53366,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243211] = {
 		bgm = "xinnong-2",
@@ -52901,6 +53378,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 243211,
 		battle_type = 0,
@@ -53221,7 +53699,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243212] = {
 		bgm = "xinnong-2",
@@ -53231,6 +53711,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 243212,
 		battle_type = 0,
@@ -53551,7 +54032,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243411] = {
 		bgm = "xinnong-2",
@@ -53561,6 +54044,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 243411,
 		battle_type = 0,
@@ -53881,7 +54365,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243412] = {
 		bgm = "xinnong-2",
@@ -53891,6 +54377,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 243412,
 		battle_type = 0,
@@ -54211,7 +54698,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243413] = {
 		bgm = "xinnong-2",
@@ -54221,6 +54710,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 243413,
 		battle_type = 0,
@@ -54541,7 +55031,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[243414] = {
 		bgm = "xinnong-2",
@@ -54551,6 +55043,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 243414,
 		battle_type = 0,
@@ -54871,7 +55364,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[244011] = {
 		bgm = "Battle-1",
@@ -54881,6 +55376,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 244011,
 		battle_type = 0,
@@ -55201,7 +55697,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[244211] = {
 		bgm = "Battle-1",
@@ -55211,6 +55709,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 244211,
 		battle_type = 0,
@@ -55531,7 +56030,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[244212] = {
 		bgm = "Battle-1",
@@ -55541,6 +56042,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 244212,
 		battle_type = 0,
@@ -55861,7 +56363,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[244213] = {
 		bgm = "Battle-1",
@@ -55871,6 +56375,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 244213,
 		battle_type = 0,
@@ -56191,7 +56696,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[245011] = {
 		bgm = "xinnong-2",
@@ -56201,6 +56708,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 245011,
 		battle_type = 1,
@@ -56577,7 +57085,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[245012] = {
 		bgm = "xinnong-2",
@@ -56587,6 +57097,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 245012,
 		battle_type = 1,
@@ -56963,7 +57474,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[245013] = {
 		bgm = "xinnong-2",
@@ -56973,6 +57486,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 245013,
 		battle_type = 1,
@@ -57349,7 +57863,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[245014] = {
 		bgm = "xinnong-2",
@@ -57359,6 +57875,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 245014,
 		battle_type = 1,
@@ -57735,7 +58252,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[245015] = {
 		bgm = "xinnong-2",
@@ -57745,6 +58264,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 245015,
 		battle_type = 1,
@@ -58121,7 +58641,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[245016] = {
 		bgm = "xinnong-2",
@@ -58131,6 +58653,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 245016,
 		battle_type = 1,
@@ -58507,7 +59030,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[246011] = {
 		bgm = "Battle-1",
@@ -58517,6 +59042,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 246011,
 		battle_type = 0,
@@ -58837,7 +59363,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[250011] = {
 		bgm = "Battle-1",
@@ -58847,6 +59375,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 250011,
 		battle_type = 0,
@@ -59167,7 +59696,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[250012] = {
 		bgm = "Battle-1",
@@ -59177,6 +59708,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 250012,
 		battle_type = 0,
@@ -59497,7 +60029,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[250511] = {
 		bgm = "Battle-1",
@@ -59507,6 +60041,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 250511,
 		battle_type = 0,
@@ -59827,7 +60362,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[250512] = {
 		bgm = "Battle-1",
@@ -59837,6 +60374,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 250512,
 		battle_type = 0,
@@ -60157,7 +60695,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[251011] = {
 		bgm = "Battle-1",
@@ -60167,6 +60707,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 251011,
 		battle_type = 0,
@@ -60487,7 +61028,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[251211] = {
 		bgm = "Battle-1",
@@ -60497,6 +61040,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 251211,
 		battle_type = 0,
@@ -60817,7 +61361,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[251411] = {
 		bgm = "Battle-1",
@@ -60827,6 +61373,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 251411,
 		battle_type = 0,
@@ -61147,7 +61694,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[252011] = {
 		bgm = "Battle-1",
@@ -61157,6 +61706,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 252011,
 		battle_type = 0,
@@ -61477,7 +62027,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[252211] = {
 		bgm = "Battle-1",
@@ -61487,6 +62039,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 252211,
 		battle_type = 0,
@@ -61807,7 +62360,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[252411] = {
 		bgm = "Battle-1",
@@ -61817,6 +62372,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 252411,
 		battle_type = 0,
@@ -62137,7 +62693,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[253011] = {
 		bgm = "Battle-1",
@@ -62147,6 +62705,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 253011,
 		battle_type = 0,
@@ -62467,7 +63026,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[253211] = {
 		bgm = "Battle-1",
@@ -62477,6 +63038,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 253211,
 		battle_type = 0,
@@ -62797,7 +63359,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[254011] = {
 		bgm = "Battle-1",
@@ -62807,6 +63371,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 254011,
 		battle_type = 0,
@@ -63127,7 +63692,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[256011] = {
 		bgm = "Battle-1",
@@ -63137,6 +63704,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 256011,
 		battle_type = 0,
@@ -63457,7 +64025,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[260011] = {
 		bgm = "Battle-1",
@@ -63467,6 +64037,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 260011,
 		battle_type = 0,
@@ -63787,7 +64358,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[260012] = {
 		bgm = "Battle-1",
@@ -63797,6 +64370,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 260012,
 		battle_type = 0,
@@ -64117,7 +64691,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[260511] = {
 		bgm = "Battle-1",
@@ -64127,6 +64703,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 260511,
 		battle_type = 0,
@@ -64447,7 +65024,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[260512] = {
 		bgm = "Battle-1",
@@ -64457,6 +65036,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 260512,
 		battle_type = 0,
@@ -64777,7 +65357,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[261011] = {
 		bgm = "Battle-1",
@@ -64787,6 +65369,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 261011,
 		battle_type = 0,
@@ -65107,7 +65690,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[261211] = {
 		bgm = "Battle-1",
@@ -65117,6 +65702,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 261211,
 		battle_type = 0,
@@ -65437,7 +66023,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[261411] = {
 		bgm = "Battle-1",
@@ -65447,6 +66035,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 261411,
 		battle_type = 0,
@@ -65767,7 +66356,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[262011] = {
 		bgm = "Battle-1",
@@ -65777,6 +66368,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 262011,
 		battle_type = 0,
@@ -66097,7 +66689,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[262211] = {
 		bgm = "Battle-1",
@@ -66107,6 +66701,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 262211,
 		battle_type = 0,
@@ -66427,7 +67022,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[262411] = {
 		bgm = "Battle-1",
@@ -66437,6 +67034,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 262411,
 		battle_type = 0,
@@ -66757,7 +67355,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[263011] = {
 		bgm = "Battle-1",
@@ -66767,6 +67367,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 263011,
 		battle_type = 0,
@@ -67087,7 +67688,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[263211] = {
 		bgm = "Battle-1",
@@ -67097,6 +67700,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 263211,
 		battle_type = 0,
@@ -67417,7 +68021,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[264011] = {
 		bgm = "Battle-1",
@@ -67427,6 +68033,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 264011,
 		battle_type = 0,
@@ -67747,7 +68354,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[266011] = {
 		bgm = "Battle-1",
@@ -67757,6 +68366,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 266011,
 		battle_type = 0,
@@ -68077,7 +68687,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[270011] = {
 		bgm = "Battle-1",
@@ -68087,6 +68699,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 270011,
 		battle_type = 0,
@@ -68407,7 +69020,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[270012] = {
 		bgm = "Battle-1",
@@ -68417,6 +69032,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 270012,
 		battle_type = 0,
@@ -68737,7 +69353,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[270511] = {
 		bgm = "Battle-1",
@@ -68747,6 +69365,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 270511,
 		battle_type = 0,
@@ -69067,7 +69686,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[270512] = {
 		bgm = "Battle-1",
@@ -69077,6 +69698,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 270512,
 		battle_type = 0,
@@ -69397,7 +70019,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[271011] = {
 		bgm = "Battle-1",
@@ -69407,6 +70031,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 271011,
 		battle_type = 0,
@@ -69727,7 +70352,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[271211] = {
 		bgm = "Battle-1",
@@ -69737,6 +70364,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 271211,
 		battle_type = 0,
@@ -70057,7 +70685,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[271411] = {
 		bgm = "Battle-1",
@@ -70067,6 +70697,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 271411,
 		battle_type = 0,
@@ -70387,7 +71018,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[272011] = {
 		bgm = "Battle-1",
@@ -70397,6 +71030,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 272011,
 		battle_type = 0,
@@ -70717,7 +71351,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[272211] = {
 		bgm = "Battle-1",
@@ -70727,6 +71363,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 272211,
 		battle_type = 0,
@@ -71047,7 +71684,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[272411] = {
 		bgm = "Battle-1",
@@ -71057,6 +71696,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 272411,
 		battle_type = 0,
@@ -71377,7 +72017,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[273011] = {
 		bgm = "Battle-1",
@@ -71387,6 +72029,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 273011,
 		battle_type = 0,
@@ -71707,7 +72350,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[273211] = {
 		bgm = "Battle-1",
@@ -71717,6 +72362,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 273211,
 		battle_type = 0,
@@ -72037,7 +72683,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[274011] = {
 		bgm = "Battle-1",
@@ -72047,6 +72695,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 274011,
 		battle_type = 0,
@@ -72367,7 +73016,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[276011] = {
 		bgm = "Battle-1",
@@ -72377,6 +73028,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 276011,
 		battle_type = 0,
@@ -72697,7 +73349,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[280011] = {
 		bgm = "Battle-1",
@@ -72707,6 +73361,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 280011,
 		battle_type = 0,
@@ -73027,7 +73682,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[280012] = {
 		bgm = "Battle-1",
@@ -73037,6 +73694,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 280012,
 		battle_type = 0,
@@ -73357,7 +74015,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[280511] = {
 		bgm = "Battle-1",
@@ -73367,6 +74027,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 280511,
 		battle_type = 0,
@@ -73687,7 +74348,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[280512] = {
 		bgm = "Battle-1",
@@ -73697,6 +74360,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 280512,
 		battle_type = 0,
@@ -74017,7 +74681,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[281011] = {
 		bgm = "Battle-1",
@@ -74027,6 +74693,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 281011,
 		battle_type = 0,
@@ -74347,7 +75014,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[281211] = {
 		bgm = "Battle-1",
@@ -74357,6 +75026,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 281211,
 		battle_type = 0,
@@ -74677,7 +75347,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[281411] = {
 		bgm = "Battle-1",
@@ -74687,6 +75359,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 281411,
 		battle_type = 0,
@@ -75007,7 +75680,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[282011] = {
 		bgm = "Battle-1",
@@ -75017,6 +75692,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 282011,
 		battle_type = 0,
@@ -75337,7 +76013,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[282211] = {
 		bgm = "Battle-1",
@@ -75347,6 +76025,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 282211,
 		battle_type = 0,
@@ -75667,7 +76346,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[282411] = {
 		bgm = "Battle-1",
@@ -75677,6 +76358,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 282411,
 		battle_type = 0,
@@ -75997,7 +76679,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[283011] = {
 		bgm = "Battle-1",
@@ -76007,6 +76691,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 283011,
 		battle_type = 0,
@@ -76327,7 +77012,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[283211] = {
 		bgm = "Battle-1",
@@ -76337,6 +77024,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 283211,
 		battle_type = 0,
@@ -76657,7 +77345,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[284011] = {
 		bgm = "Battle-1",
@@ -76667,6 +77357,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 284011,
 		battle_type = 0,
@@ -76987,7 +77678,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[286011] = {
 		bgm = "Battle-1",
@@ -76997,6 +77690,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 286011,
 		battle_type = 0,
@@ -77317,7 +78011,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[290011] = {
 		bgm = "Battle-1",
@@ -77327,6 +78023,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 290011,
 		battle_type = 0,
@@ -77473,7 +78170,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[290012] = {
 		bgm = "story-6",
@@ -77483,6 +78182,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 290012,
 		battle_type = 0,
@@ -77629,7 +78329,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[290013] = {
 		bgm = "story-6",
@@ -77639,6 +78341,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 290013,
 		battle_type = 0,
@@ -77785,7 +78488,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[290021] = {
 		bgm = "story-6",
@@ -77795,6 +78500,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 290021,
 		battle_type = 0,
@@ -77941,7 +78647,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[290031] = {
 		bgm = "story-6",
@@ -77951,6 +78659,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 290031,
 		battle_type = 0,
@@ -78097,7 +78806,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[290041] = {
 		bgm = "story-6",
@@ -78107,6 +78818,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -2000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -2000,
 		id = 290041,
 		battle_type = 0,
@@ -78253,7 +78965,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291011] = {
 		bgm = "story-6",
@@ -78263,6 +78977,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291011,
 		battle_type = 0,
@@ -78409,7 +79124,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291021] = {
 		bgm = "story-6",
@@ -78419,6 +79136,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291021,
 		battle_type = 0,
@@ -78565,7 +79283,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291031] = {
 		bgm = "story-6",
@@ -78575,6 +79295,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291031,
 		battle_type = 0,
@@ -78721,7 +79442,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291041] = {
 		bgm = "story-6",
@@ -78731,6 +79454,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291041,
 		battle_type = 0,
@@ -78877,7 +79601,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291091] = {
 		bgm = "story-6",
@@ -78887,6 +79613,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291091,
 		battle_type = 0,
@@ -79033,7 +79760,327 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291092] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = -500,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = -500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 291092,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291093] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = -500,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = -500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 291093,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291100] = {
 		bgm = "story-6",
@@ -79043,6 +80090,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291100,
 		battle_type = 0,
@@ -79112,7 +80160,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291101] = {
 		bgm = "story-6",
@@ -79122,6 +80172,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291101,
 		battle_type = 0,
@@ -79191,7 +80242,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291102] = {
 		bgm = "story-6",
@@ -79201,6 +80254,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291102,
 		battle_type = 0,
@@ -79270,7 +80324,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291103] = {
 		bgm = "story-6",
@@ -79280,6 +80336,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291103,
 		battle_type = 0,
@@ -79349,7 +80406,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291150] = {
 		bgm = "story-6",
@@ -79359,6 +80418,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291150,
 		battle_type = 0,
@@ -79569,7 +80629,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291151] = {
 		bgm = "story-6",
@@ -79579,6 +80641,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291151,
 		battle_type = 0,
@@ -79789,7 +80852,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291152] = {
 		bgm = "story-6",
@@ -79799,6 +80864,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291152,
 		battle_type = 0,
@@ -80009,7 +81075,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291153] = {
 		bgm = "story-6",
@@ -80019,6 +81087,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 291153,
 		battle_type = 0,
@@ -80229,7 +81298,455 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291160] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = -500,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = -500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 291160,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291161] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = -500,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = -500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 291161,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291211] = {
 		bgm = "story-6",
@@ -80239,6 +81756,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291211,
 		battle_type = 0,
@@ -80385,7 +81903,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291221] = {
 		bgm = "story-6",
@@ -80395,6 +81915,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291221,
 		battle_type = 0,
@@ -80541,7 +82062,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291231] = {
 		bgm = "story-6",
@@ -80551,6 +82074,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291231,
 		battle_type = 0,
@@ -80697,7 +82221,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291241] = {
 		bgm = "story-6",
@@ -80707,6 +82233,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291241,
 		battle_type = 0,
@@ -80853,7 +82380,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291291] = {
 		bgm = "story-6",
@@ -80863,6 +82392,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291291,
 		battle_type = 0,
@@ -81009,7 +82539,327 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291292] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = -500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1000,
+		id = 291292,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291293] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = -500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1000,
+		id = 291293,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291300] = {
 		bgm = "story-6",
@@ -81019,6 +82869,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291300,
 		battle_type = 0,
@@ -81088,7 +82939,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291301] = {
 		bgm = "story-6",
@@ -81098,6 +82951,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291301,
 		battle_type = 0,
@@ -81167,7 +83021,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291302] = {
 		bgm = "story-6",
@@ -81177,6 +83033,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291302,
 		battle_type = 0,
@@ -81246,7 +83103,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291303] = {
 		bgm = "story-6",
@@ -81256,6 +83115,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291303,
 		battle_type = 0,
@@ -81325,7 +83185,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291350] = {
 		bgm = "story-6",
@@ -81335,6 +83197,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291350,
 		battle_type = 0,
@@ -81545,7 +83408,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291351] = {
 		bgm = "story-6",
@@ -81555,6 +83420,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291351,
 		battle_type = 0,
@@ -81765,7 +83631,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291352] = {
 		bgm = "story-6",
@@ -81775,6 +83643,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291352,
 		battle_type = 0,
@@ -81985,7 +83854,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291353] = {
 		bgm = "story-6",
@@ -81995,6 +83866,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291353,
 		battle_type = 0,
@@ -82205,7 +84077,455 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291360] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = -500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1000,
+		id = 291360,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291361] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = -500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1000,
+		id = 291361,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291411] = {
 		bgm = "story-6",
@@ -82215,6 +84535,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291411,
 		battle_type = 0,
@@ -82361,7 +84682,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291421] = {
 		bgm = "story-6",
@@ -82371,6 +84694,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291421,
 		battle_type = 0,
@@ -82517,7 +84841,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291431] = {
 		bgm = "story-6",
@@ -82527,6 +84853,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291431,
 		battle_type = 0,
@@ -82673,7 +85000,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291441] = {
 		bgm = "story-6",
@@ -82683,6 +85012,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291441,
 		battle_type = 0,
@@ -82829,7 +85159,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291491] = {
 		bgm = "story-6",
@@ -82839,6 +85171,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291491,
 		battle_type = 0,
@@ -82985,7 +85318,327 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291492] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 500,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = -1000,
+		id = 291492,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291493] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 500,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = -1000,
+		id = 291493,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291500] = {
 		bgm = "story-6",
@@ -82995,6 +85648,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291500,
 		battle_type = 0,
@@ -83064,7 +85718,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291501] = {
 		bgm = "story-6",
@@ -83074,6 +85730,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291501,
 		battle_type = 0,
@@ -83143,7 +85800,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291502] = {
 		bgm = "story-6",
@@ -83153,6 +85812,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291502,
 		battle_type = 0,
@@ -83222,7 +85882,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291503] = {
 		bgm = "story-6",
@@ -83232,6 +85894,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291503,
 		battle_type = 0,
@@ -83301,7 +85964,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291550] = {
 		bgm = "story-6",
@@ -83311,6 +85976,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291550,
 		battle_type = 0,
@@ -83521,7 +86187,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291551] = {
 		bgm = "story-6",
@@ -83531,6 +86199,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291551,
 		battle_type = 0,
@@ -83741,7 +86410,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291552] = {
 		bgm = "story-6",
@@ -83751,6 +86422,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291552,
 		battle_type = 0,
@@ -83961,7 +86633,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291553] = {
 		bgm = "story-6",
@@ -83971,6 +86645,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291553,
 		battle_type = 0,
@@ -84181,7 +86856,455 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291560] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 500,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = -1000,
+		id = 291560,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[291561] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 500,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = -1000,
+		id = 291561,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291600] = {
 		bgm = "story-6",
@@ -84191,6 +87314,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = -500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 291600,
 		battle_type = 0,
@@ -84337,7 +87461,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[291601] = {
 		bgm = "story-6",
@@ -84347,6 +87473,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = -1000,
 		id = 291601,
 		battle_type = 0,
@@ -84493,7 +87620,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292000] = {
 		bgm = "story-6",
@@ -84503,6 +87632,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 292000,
 		battle_type = 0,
@@ -84572,7 +87702,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292001] = {
 		bgm = "story-6",
@@ -84582,6 +87714,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 292001,
 		battle_type = 0,
@@ -84651,7 +87784,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292002] = {
 		bgm = "story-6",
@@ -84661,6 +87796,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 292002,
 		battle_type = 0,
@@ -84730,7 +87866,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292003] = {
 		bgm = "story-6",
@@ -84740,6 +87878,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 292003,
 		battle_type = 0,
@@ -84809,7 +87948,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292010] = {
 		bgm = "story-6",
@@ -84819,6 +87960,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292010,
 		battle_type = 0,
@@ -84888,7 +88030,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292011] = {
 		bgm = "story-6",
@@ -84898,6 +88042,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292011,
 		battle_type = 0,
@@ -84967,7 +88112,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292012] = {
 		bgm = "story-6",
@@ -84977,6 +88124,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292012,
 		battle_type = 0,
@@ -85046,7 +88194,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292013] = {
 		bgm = "story-6",
@@ -85056,6 +88206,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292013,
 		battle_type = 0,
@@ -85125,7 +88276,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292020] = {
 		bgm = "story-6",
@@ -85135,6 +88288,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 292020,
 		battle_type = 0,
@@ -85204,7 +88358,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292021] = {
 		bgm = "story-6",
@@ -85214,6 +88370,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 292021,
 		battle_type = 0,
@@ -85283,7 +88440,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292022] = {
 		bgm = "story-6",
@@ -85293,6 +88452,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 292022,
 		battle_type = 0,
@@ -85362,7 +88522,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292023] = {
 		bgm = "story-6",
@@ -85372,6 +88534,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 292023,
 		battle_type = 0,
@@ -85441,7 +88604,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292050] = {
 		bgm = "story-6",
@@ -85451,6 +88616,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 292050,
 		battle_type = 0,
@@ -85520,7 +88686,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292051] = {
 		bgm = "story-6",
@@ -85530,6 +88698,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 292051,
 		battle_type = 0,
@@ -85599,7 +88768,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292052] = {
 		bgm = "story-6",
@@ -85609,6 +88780,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 292052,
 		battle_type = 0,
@@ -85678,7 +88850,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292053] = {
 		bgm = "story-6",
@@ -85688,6 +88862,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 292053,
 		battle_type = 0,
@@ -85757,7 +88932,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292060] = {
 		bgm = "story-6",
@@ -85767,6 +88944,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292060,
 		battle_type = 0,
@@ -85836,7 +89014,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292061] = {
 		bgm = "story-6",
@@ -85846,6 +89026,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292061,
 		battle_type = 0,
@@ -85915,7 +89096,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292062] = {
 		bgm = "story-6",
@@ -85925,6 +89108,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292062,
 		battle_type = 0,
@@ -85994,7 +89178,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292063] = {
 		bgm = "story-6",
@@ -86004,6 +89190,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292063,
 		battle_type = 0,
@@ -86073,7 +89260,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292070] = {
 		bgm = "story-6",
@@ -86083,6 +89272,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 292070,
 		battle_type = 0,
@@ -86152,7 +89342,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292071] = {
 		bgm = "story-6",
@@ -86162,6 +89354,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 292071,
 		battle_type = 0,
@@ -86231,7 +89424,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292072] = {
 		bgm = "story-6",
@@ -86241,6 +89436,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 292072,
 		battle_type = 0,
@@ -86310,7 +89506,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292073] = {
 		bgm = "story-6",
@@ -86320,6 +89518,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 292073,
 		battle_type = 0,
@@ -86389,7 +89588,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292100] = {
 		bgm = "story-6",
@@ -86399,6 +89600,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292100,
 		battle_type = 0,
@@ -86468,7 +89670,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292101] = {
 		bgm = "story-6",
@@ -86478,6 +89682,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292101,
 		battle_type = 0,
@@ -86547,7 +89752,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292102] = {
 		bgm = "story-6",
@@ -86557,6 +89764,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292102,
 		battle_type = 0,
@@ -86626,7 +89834,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292103] = {
 		bgm = "story-6",
@@ -86636,6 +89846,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292103,
 		battle_type = 0,
@@ -86705,7 +89916,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[292104] = {
 		bgm = "story-6",
@@ -86715,6 +89928,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 292104,
 		battle_type = 0,
@@ -86784,7 +89998,501 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[292200] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 1000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 500,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 292200,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[292201] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 1000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 500,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 292201,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[292210] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 500,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 0,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 292210,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[292211] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 500,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 0,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 292211,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[292220] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 1000,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 2000,
+		id = 292220,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[292221] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 1000,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 2000,
+		id = 292221,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293011] = {
 		bgm = "story-6",
@@ -86794,6 +90502,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293011,
 		battle_type = 0,
@@ -86940,7 +90649,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293021] = {
 		bgm = "story-6",
@@ -86950,6 +90661,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293021,
 		battle_type = 0,
@@ -87096,7 +90808,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293031] = {
 		bgm = "story-6",
@@ -87106,6 +90820,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293031,
 		battle_type = 0,
@@ -87252,7 +90967,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293041] = {
 		bgm = "story-6",
@@ -87262,6 +90979,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293041,
 		battle_type = 0,
@@ -87408,7 +91126,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293091] = {
 		bgm = "story-6",
@@ -87418,6 +91138,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293091,
 		battle_type = 0,
@@ -87564,7 +91285,327 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293092] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 1000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 293092,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293093] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 1000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 293093,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293100] = {
 		bgm = "story-6",
@@ -87574,6 +91615,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293100,
 		battle_type = 0,
@@ -87643,7 +91685,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293101] = {
 		bgm = "story-6",
@@ -87653,6 +91697,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293101,
 		battle_type = 0,
@@ -87722,7 +91767,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293102] = {
 		bgm = "story-6",
@@ -87732,6 +91779,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293102,
 		battle_type = 0,
@@ -87801,7 +91849,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293103] = {
 		bgm = "story-6",
@@ -87811,6 +91861,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293103,
 		battle_type = 0,
@@ -87880,7 +91931,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293104] = {
 		bgm = "story-6",
@@ -87890,6 +91943,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293104,
 		battle_type = 0,
@@ -87959,7 +92013,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293150] = {
 		bgm = "story-6",
@@ -87969,6 +92025,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293150,
 		battle_type = 0,
@@ -88179,7 +92236,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293151] = {
 		bgm = "story-6",
@@ -88189,6 +92248,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293151,
 		battle_type = 0,
@@ -88399,7 +92459,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293152] = {
 		bgm = "story-6",
@@ -88409,6 +92471,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293152,
 		battle_type = 0,
@@ -88619,7 +92682,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293153] = {
 		bgm = "story-6",
@@ -88629,6 +92694,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293153,
 		battle_type = 0,
@@ -88839,7 +92905,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293154] = {
 		bgm = "story-6",
@@ -88849,6 +92917,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 293154,
 		battle_type = 0,
@@ -89059,7 +93128,455 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293160] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 1000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 293160,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293161] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 1000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 1500,
+		id = 293161,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293211] = {
 		bgm = "story-6",
@@ -89069,6 +93586,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293211,
 		battle_type = 0,
@@ -89215,7 +93733,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293221] = {
 		bgm = "story-6",
@@ -89225,6 +93745,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293221,
 		battle_type = 0,
@@ -89371,7 +93892,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293231] = {
 		bgm = "story-6",
@@ -89381,6 +93904,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293231,
 		battle_type = 0,
@@ -89527,7 +94051,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293241] = {
 		bgm = "story-6",
@@ -89537,6 +94063,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293241,
 		battle_type = 0,
@@ -89683,7 +94210,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293291] = {
 		bgm = "story-6",
@@ -89693,6 +94222,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293291,
 		battle_type = 0,
@@ -89839,7 +94369,327 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293292] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 1000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 1500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 0,
+		id = 293292,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293293] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 1000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 1500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 0,
+		id = 293293,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293300] = {
 		bgm = "story-6",
@@ -89849,6 +94699,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293300,
 		battle_type = 0,
@@ -89918,7 +94769,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293301] = {
 		bgm = "story-6",
@@ -89928,6 +94781,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293301,
 		battle_type = 0,
@@ -89997,7 +94851,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293302] = {
 		bgm = "story-6",
@@ -90007,6 +94863,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293302,
 		battle_type = 0,
@@ -90076,7 +94933,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293303] = {
 		bgm = "story-6",
@@ -90086,6 +94945,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293303,
 		battle_type = 0,
@@ -90155,7 +95015,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293304] = {
 		bgm = "story-6",
@@ -90165,6 +95027,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293304,
 		battle_type = 0,
@@ -90234,7 +95097,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293350] = {
 		bgm = "story-6",
@@ -90244,6 +95109,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293350,
 		battle_type = 0,
@@ -90454,7 +95320,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293351] = {
 		bgm = "story-6",
@@ -90464,6 +95332,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293351,
 		battle_type = 0,
@@ -90674,7 +95543,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293352] = {
 		bgm = "story-6",
@@ -90684,6 +95555,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293352,
 		battle_type = 0,
@@ -90894,7 +95766,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293353] = {
 		bgm = "story-6",
@@ -90904,6 +95778,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293353,
 		battle_type = 0,
@@ -91114,7 +95989,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293354] = {
 		bgm = "story-6",
@@ -91124,6 +96001,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 293354,
 		battle_type = 0,
@@ -91334,7 +96212,455 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293360] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 1000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 1500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 0,
+		id = 293360,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293361] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 1000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 1500,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 0,
+		id = 293361,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293411] = {
 		bgm = "story-6",
@@ -91344,6 +96670,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293411,
 		battle_type = 0,
@@ -91490,7 +96817,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293421] = {
 		bgm = "story-6",
@@ -91500,6 +96829,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293421,
 		battle_type = 0,
@@ -91646,7 +96976,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293431] = {
 		bgm = "story-6",
@@ -91656,6 +96988,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293431,
 		battle_type = 0,
@@ -91802,7 +97135,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293441] = {
 		bgm = "story-6",
@@ -91812,6 +97147,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293441,
 		battle_type = 0,
@@ -91958,7 +97294,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293491] = {
 		bgm = "story-6",
@@ -91968,6 +97306,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293491,
 		battle_type = 0,
@@ -92114,7 +97453,327 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293492] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 1000,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 2000,
+		id = 293492,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293493] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 1000,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 2000,
+		id = 293493,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293500] = {
 		bgm = "story-6",
@@ -92124,6 +97783,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293500,
 		battle_type = 0,
@@ -92193,7 +97853,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293501] = {
 		bgm = "story-6",
@@ -92203,6 +97865,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293501,
 		battle_type = 0,
@@ -92272,7 +97935,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293502] = {
 		bgm = "story-6",
@@ -92282,6 +97947,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293502,
 		battle_type = 0,
@@ -92351,7 +98017,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293503] = {
 		bgm = "story-6",
@@ -92361,6 +98029,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293503,
 		battle_type = 0,
@@ -92430,7 +98099,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293504] = {
 		bgm = "story-6",
@@ -92440,6 +98111,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293504,
 		battle_type = 0,
@@ -92509,7 +98181,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293550] = {
 		bgm = "story-6",
@@ -92519,6 +98193,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293550,
 		battle_type = 0,
@@ -92729,7 +98404,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293551] = {
 		bgm = "story-6",
@@ -92739,6 +98416,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293551,
 		battle_type = 0,
@@ -92949,7 +98627,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293552] = {
 		bgm = "story-6",
@@ -92959,6 +98639,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293552,
 		battle_type = 0,
@@ -93169,7 +98850,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293553] = {
 		bgm = "story-6",
@@ -93179,6 +98862,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293553,
 		battle_type = 0,
@@ -93389,7 +99073,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[293554] = {
 		bgm = "story-6",
@@ -93399,6 +99085,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 293554,
 		battle_type = 0,
@@ -93609,7 +99296,455 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293560] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 1000,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 2000,
+		id = 293560,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[293561] = {
+		bgm = "story-6",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 1000,
+		battle_spine_size = 0,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 2000,
+		id = 293561,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294001] = {
 		bgm = "battle-boss-4",
@@ -93619,6 +99754,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 294001,
 		battle_type = 0,
@@ -93915,7 +100051,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294002] = {
 		bgm = "battle-boss-4",
@@ -93925,6 +100063,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 294002,
 		battle_type = 0,
@@ -94221,7 +100360,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294003] = {
 		bgm = "battle-boss-4",
@@ -94231,6 +100372,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 294003,
 		battle_type = 0,
@@ -94527,7 +100669,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294004] = {
 		bgm = "battle-boss-4",
@@ -94537,6 +100681,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 294004,
 		battle_type = 0,
@@ -94833,7 +100978,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294005] = {
 		bgm = "battle-boss-4",
@@ -94843,6 +100990,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 294005,
 		battle_type = 0,
@@ -95139,7 +101287,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294006] = {
 		bgm = "battle-boss-4",
@@ -95149,6 +101299,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1250,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1250,
 		id = 294006,
 		battle_type = 0,
@@ -95445,7 +101596,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294007] = {
 		bgm = "battle-boss-4",
@@ -95455,6 +101608,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1250,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1250,
 		id = 294007,
 		battle_type = 0,
@@ -95751,7 +101905,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294008] = {
 		bgm = "battle-boss-4",
@@ -95761,6 +101917,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1250,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1250,
 		id = 294008,
 		battle_type = 0,
@@ -96057,7 +102214,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294009] = {
 		bgm = "battle-boss-4",
@@ -96067,6 +102226,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1250,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1250,
 		id = 294009,
 		battle_type = 0,
@@ -96363,7 +102523,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294010] = {
 		bgm = "battle-boss-4",
@@ -96373,6 +102535,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1250,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1250,
 		id = 294010,
 		battle_type = 0,
@@ -96669,7 +102832,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294011] = {
 		bgm = "battle-boss-4",
@@ -96679,6 +102844,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 294011,
 		battle_type = 0,
@@ -96748,7 +102914,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294012] = {
 		bgm = "battle-boss-4",
@@ -96758,6 +102926,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 294012,
 		battle_type = 0,
@@ -96827,7 +102996,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294013] = {
 		bgm = "battle-boss-4",
@@ -96837,6 +103008,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 294013,
 		battle_type = 0,
@@ -96906,7 +103078,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294014] = {
 		bgm = "battle-boss-4",
@@ -96916,6 +103090,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 294014,
 		battle_type = 0,
@@ -96985,7 +103160,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294015] = {
 		bgm = "battle-boss-4",
@@ -96995,6 +103172,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 294015,
 		battle_type = 0,
@@ -97064,7 +103242,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294016] = {
 		bgm = "battle-boss-4",
@@ -97074,6 +103254,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1250,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1250,
 		id = 294016,
 		battle_type = 0,
@@ -97143,7 +103324,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294017] = {
 		bgm = "battle-boss-4",
@@ -97153,6 +103336,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1250,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1250,
 		id = 294017,
 		battle_type = 0,
@@ -97222,7 +103406,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294018] = {
 		bgm = "battle-boss-4",
@@ -97232,6 +103418,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1250,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1250,
 		id = 294018,
 		battle_type = 0,
@@ -97301,7 +103488,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294019] = {
 		bgm = "battle-boss-4",
@@ -97311,6 +103500,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1250,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1250,
 		id = 294019,
 		battle_type = 0,
@@ -97380,7 +103570,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294020] = {
 		bgm = "battle-boss-4",
@@ -97390,6 +103582,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1250,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1250,
 		id = 294020,
 		battle_type = 0,
@@ -97459,7 +103652,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294021] = {
 		bgm = "battle-boss-4",
@@ -97469,6 +103664,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294021,
 		battle_type = 0,
@@ -97538,7 +103734,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294022] = {
 		bgm = "battle-boss-4",
@@ -97548,6 +103746,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294022,
 		battle_type = 0,
@@ -97617,7 +103816,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294023] = {
 		bgm = "battle-boss-4",
@@ -97627,6 +103828,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294023,
 		battle_type = 0,
@@ -97696,7 +103898,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294024] = {
 		bgm = "battle-boss-4",
@@ -97706,6 +103910,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294024,
 		battle_type = 0,
@@ -97775,7 +103980,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294025] = {
 		bgm = "battle-boss-4",
@@ -97785,6 +103992,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294025,
 		battle_type = 0,
@@ -97854,7 +104062,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294026] = {
 		bgm = "battle-boss-4",
@@ -97864,6 +104074,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294026,
 		battle_type = 0,
@@ -97933,7 +104144,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294027] = {
 		bgm = "battle-boss-4",
@@ -97943,6 +104156,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294027,
 		battle_type = 0,
@@ -98012,7 +104226,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294028] = {
 		bgm = "battle-boss-4",
@@ -98022,6 +104238,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294028,
 		battle_type = 0,
@@ -98091,7 +104308,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294029] = {
 		bgm = "battle-boss-4",
@@ -98101,6 +104320,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294029,
 		battle_type = 0,
@@ -98170,7 +104390,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294030] = {
 		bgm = "battle-boss-4",
@@ -98180,6 +104402,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294030,
 		battle_type = 0,
@@ -98249,7 +104472,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294040] = {
 		bgm = "battle-boss-4",
@@ -98259,6 +104484,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294040,
 		battle_type = 0,
@@ -98328,7 +104554,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294050] = {
 		bgm = "battle-boss-4",
@@ -98338,6 +104566,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294050,
 		battle_type = 0,
@@ -98634,7 +104863,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294051] = {
 		bgm = "battle-boss-4",
@@ -98644,6 +104875,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294051,
 		battle_type = 0,
@@ -98940,7 +105172,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294052] = {
 		bgm = "battle-boss-4",
@@ -98950,6 +105184,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294052,
 		battle_type = 0,
@@ -99246,7 +105481,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294053] = {
 		bgm = "battle-boss-4",
@@ -99256,6 +105493,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294053,
 		battle_type = 0,
@@ -99552,7 +105790,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294054] = {
 		bgm = "battle-boss-4",
@@ -99562,6 +105802,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294054,
 		battle_type = 0,
@@ -99631,7 +105872,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294055] = {
 		bgm = "battle-boss-4",
@@ -99641,6 +105884,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294055,
 		battle_type = 0,
@@ -99710,7 +105954,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294056] = {
 		bgm = "battle-boss-4",
@@ -99720,6 +105966,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294056,
 		battle_type = 0,
@@ -99789,7 +106036,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294057] = {
 		bgm = "battle-boss-4",
@@ -99799,6 +106048,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294057,
 		battle_type = 0,
@@ -99868,7 +106118,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294058] = {
 		bgm = "battle-boss-4",
@@ -99878,6 +106130,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294058,
 		battle_type = 0,
@@ -99947,7 +106200,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294059] = {
 		bgm = "battle-boss-4",
@@ -99957,6 +106212,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294059,
 		battle_type = 0,
@@ -100026,7 +106282,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294060] = {
 		bgm = "battle-boss-4",
@@ -100036,6 +106294,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294060,
 		battle_type = 0,
@@ -100105,7 +106364,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294061] = {
 		bgm = "battle-boss-4",
@@ -100115,6 +106376,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294061,
 		battle_type = 0,
@@ -100184,7 +106446,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294062] = {
 		bgm = "battle-boss-4",
@@ -100194,6 +106458,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294062,
 		battle_type = 0,
@@ -100420,7 +106685,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294063] = {
 		bgm = "battle-boss-4",
@@ -100430,6 +106697,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294063,
 		battle_type = 0,
@@ -100656,7 +106924,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294064] = {
 		bgm = "battle-boss-4",
@@ -100666,6 +106936,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294064,
 		battle_type = 0,
@@ -100892,7 +107163,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294065] = {
 		bgm = "battle-boss-4",
@@ -100902,6 +107175,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1500,
 		id = 294065,
 		battle_type = 0,
@@ -101128,7 +107402,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294111] = {
 		bgm = "story-6",
@@ -101138,6 +107414,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2500,
 		id = 294111,
 		battle_type = 1,
@@ -101348,7 +107625,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294112] = {
 		bgm = "story-6",
@@ -101358,6 +107637,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2500,
 		id = 294112,
 		battle_type = 1,
@@ -101568,7 +107848,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294113] = {
 		bgm = "story-6",
@@ -101578,6 +107860,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2500,
 		id = 294113,
 		battle_type = 1,
@@ -101788,7 +108071,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294114] = {
 		bgm = "story-6",
@@ -101798,6 +108083,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2500,
 		id = 294114,
 		battle_type = 1,
@@ -102008,7 +108294,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[294115] = {
 		bgm = "story-6",
@@ -102018,6 +108306,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 2500,
 		battle_spine_size = 100,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 294115,
 		battle_type = 1,
@@ -102228,7 +108517,3569 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294200] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294200,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				2,
+				{
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				3,
+				{
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				4,
+				{
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				5,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				6,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294201] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294201,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				2,
+				{
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				3,
+				{
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				4,
+				{
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				5,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				6,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294202] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294202,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				2,
+				{
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				3,
+				{
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				4,
+				{
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				5,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				6,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294203] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294203,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				2,
+				{
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				3,
+				{
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				4,
+				{
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				5,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				6,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294204] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294204,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				2,
+				{
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				3,
+				{
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				4,
+				{
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				5,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				6,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						150001
+					},
+					{
+						12,
+						101
+					},
+					{
+						2,
+						150000
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294210] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294210,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294211] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294211,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294212] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294212,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294213] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294213,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294214] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294214,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294215] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294215,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294216] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294216,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294217] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294217,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294218] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294218,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294219] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 0,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294219,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294220] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294220,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294221] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294221,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294222] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294222,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294223] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294223,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[294224] = {
+		bgm = "battle-boss-4",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 100,
+		exp_player = 8000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 3000,
+		id = 294224,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				8,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				9,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			},
+			{
+				10,
+				{
+					{
+						2,
+						59011
+					},
+					{
+						12,
+						2120
+					},
+					{
+						2,
+						17990
+					},
+					{
+						2,
+						150002
+					},
+					{
+						8,
+						100000
+					},
+					{
+						12,
+						101
+					},
+					{
+						12,
+						100
+					}
+				}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295011] = {
 		bgm = "battle-boss-4",
@@ -102238,6 +112089,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 2000,
 		battle_spine_size = 100,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 295011,
 		battle_type = 1,
@@ -102464,7 +112316,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295012] = {
 		bgm = "battle-boss-4",
@@ -102474,6 +112328,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 2000,
 		battle_spine_size = 100,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 295012,
 		battle_type = 1,
@@ -102700,7 +112555,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295013] = {
 		bgm = "battle-boss-4",
@@ -102710,6 +112567,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 2000,
 		battle_spine_size = 100,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 295013,
 		battle_type = 1,
@@ -102936,7 +112794,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295014] = {
 		bgm = "battle-boss-4",
@@ -102946,6 +112806,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 2000,
 		battle_spine_size = 100,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 295014,
 		battle_type = 1,
@@ -103172,7 +113033,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295015] = {
 		bgm = "battle-boss-4",
@@ -103182,6 +113045,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 2000,
 		battle_spine_size = 100,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2000,
 		id = 295015,
 		battle_type = 1,
@@ -103408,7 +113272,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295021] = {
 		bgm = "Battle-1",
@@ -103418,6 +113284,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 2500,
 		battle_spine_size = 100,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2500,
 		id = 295021,
 		battle_type = 1,
@@ -103574,7 +113441,9 @@ pg.world_expedition_data = {
 				1000,
 				10001
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295022] = {
 		bgm = "Battle-1",
@@ -103584,6 +113453,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 2500,
 		battle_spine_size = 100,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2500,
 		id = 295022,
 		battle_type = 1,
@@ -103740,7 +113610,9 @@ pg.world_expedition_data = {
 				1000,
 				10001
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295023] = {
 		bgm = "Battle-1",
@@ -103750,6 +113622,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 2500,
 		battle_spine_size = 100,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2500,
 		id = 295023,
 		battle_type = 1,
@@ -103906,7 +113779,9 @@ pg.world_expedition_data = {
 				1000,
 				10001
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295024] = {
 		bgm = "Battle-1",
@@ -103916,6 +113791,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 2500,
 		battle_spine_size = 100,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2500,
 		id = 295024,
 		battle_type = 1,
@@ -104072,7 +113948,9 @@ pg.world_expedition_data = {
 				1000,
 				10001
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295025] = {
 		bgm = "Battle-1",
@@ -104082,6 +113960,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 2500,
 		battle_spine_size = 100,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 2500,
 		id = 295025,
 		battle_type = 1,
@@ -104190,7 +114069,9 @@ pg.world_expedition_data = {
 				1,
 				10001
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295026] = {
 		bgm = "Battle-1",
@@ -104200,6 +114081,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 295026,
 		battle_type = 1,
@@ -104356,7 +114238,9 @@ pg.world_expedition_data = {
 				1000,
 				10001
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295027] = {
 		bgm = "Battle-1",
@@ -104366,6 +114250,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 295027,
 		battle_type = 1,
@@ -104522,7 +114407,9 @@ pg.world_expedition_data = {
 				1000,
 				10001
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295028] = {
 		bgm = "Battle-1",
@@ -104532,6 +114419,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 295028,
 		battle_type = 1,
@@ -104688,7 +114576,9 @@ pg.world_expedition_data = {
 				1000,
 				10001
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295029] = {
 		bgm = "Battle-1",
@@ -104698,6 +114588,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 295029,
 		battle_type = 1,
@@ -104854,7 +114745,9 @@ pg.world_expedition_data = {
 				1000,
 				10001
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295030] = {
 		bgm = "Battle-1",
@@ -104864,6 +114757,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 1000,
 		battle_spine_size = 100,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 1000,
 		id = 295030,
 		battle_type = 1,
@@ -104996,7 +114890,9 @@ pg.world_expedition_data = {
 				1,
 				10001
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295100] = {
 		bgm = "battle-executor-type1",
@@ -105006,6 +114902,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295100,
 		battle_type = 1,
@@ -105386,7 +115283,9 @@ pg.world_expedition_data = {
 				0,
 				1330300
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295101] = {
 		bgm = "battle-executor-type1",
@@ -105396,6 +115295,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295101,
 		battle_type = 1,
@@ -105776,7 +115676,9 @@ pg.world_expedition_data = {
 				0,
 				1330400
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295102] = {
 		bgm = "battle-executor-type1",
@@ -105786,6 +115688,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295102,
 		battle_type = 1,
@@ -106174,7 +116077,9 @@ pg.world_expedition_data = {
 				0,
 				1330500
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295103] = {
 		bgm = "battle-executor-type1",
@@ -106184,6 +116089,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295103,
 		battle_type = 1,
@@ -106572,7 +116478,9 @@ pg.world_expedition_data = {
 				0,
 				1330600
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295104] = {
 		bgm = "battle-executor-type1",
@@ -106582,6 +116490,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295104,
 		battle_type = 1,
@@ -106970,7 +116879,9 @@ pg.world_expedition_data = {
 				0,
 				1330700
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295110] = {
 		bgm = "battle-executor-type1",
@@ -106980,6 +116891,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295110,
 		battle_type = 1,
@@ -107360,7 +117272,9 @@ pg.world_expedition_data = {
 				0,
 				1330300
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295111] = {
 		bgm = "battle-executor-type1",
@@ -107370,6 +117284,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295111,
 		battle_type = 1,
@@ -107750,7 +117665,9 @@ pg.world_expedition_data = {
 				0,
 				1330400
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295112] = {
 		bgm = "battle-executor-type1",
@@ -107760,6 +117677,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295112,
 		battle_type = 1,
@@ -108148,7 +118066,9 @@ pg.world_expedition_data = {
 				0,
 				1330500
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295113] = {
 		bgm = "battle-executor-type1",
@@ -108158,6 +118078,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295113,
 		battle_type = 1,
@@ -108546,7 +118467,9 @@ pg.world_expedition_data = {
 				0,
 				1330600
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295114] = {
 		bgm = "battle-executor-type1",
@@ -108556,6 +118479,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295114,
 		battle_type = 1,
@@ -108944,7 +118868,9 @@ pg.world_expedition_data = {
 				0,
 				1330700
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295120] = {
 		bgm = "battle-executor-type1",
@@ -108954,6 +118880,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295120,
 		battle_type = 1,
@@ -109334,7 +119261,9 @@ pg.world_expedition_data = {
 				0,
 				1330300
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295121] = {
 		bgm = "battle-executor-type1",
@@ -109344,6 +119273,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295121,
 		battle_type = 1,
@@ -109724,7 +119654,9 @@ pg.world_expedition_data = {
 				0,
 				1330400
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295122] = {
 		bgm = "battle-executor-type1",
@@ -109734,6 +119666,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295122,
 		battle_type = 1,
@@ -110122,7 +120055,9 @@ pg.world_expedition_data = {
 				0,
 				1330500
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295123] = {
 		bgm = "battle-executor-type1",
@@ -110132,6 +120067,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295123,
 		battle_type = 1,
@@ -110520,7 +120456,9 @@ pg.world_expedition_data = {
 				0,
 				1330600
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295124] = {
 		bgm = "battle-executor-type1",
@@ -110530,6 +120468,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295124,
 		battle_type = 1,
@@ -110918,7 +120857,9 @@ pg.world_expedition_data = {
 				0,
 				1330700
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295130] = {
 		bgm = "battle-executor-type1",
@@ -110928,6 +120869,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295130,
 		battle_type = 1,
@@ -111308,7 +121250,9 @@ pg.world_expedition_data = {
 				0,
 				1330300
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295131] = {
 		bgm = "battle-executor-type1",
@@ -111318,6 +121262,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295131,
 		battle_type = 1,
@@ -111698,7 +121643,9 @@ pg.world_expedition_data = {
 				0,
 				1330400
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295132] = {
 		bgm = "battle-executor-type1",
@@ -111708,6 +121655,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295132,
 		battle_type = 1,
@@ -112096,7 +122044,9 @@ pg.world_expedition_data = {
 				0,
 				1330500
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295133] = {
 		bgm = "battle-executor-type1",
@@ -112106,6 +122056,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295133,
 		battle_type = 1,
@@ -112494,7 +122445,9 @@ pg.world_expedition_data = {
 				0,
 				1330600
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295134] = {
 		bgm = "battle-executor-type1",
@@ -112504,6 +122457,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295134,
 		battle_type = 1,
@@ -112892,7 +122846,9 @@ pg.world_expedition_data = {
 				0,
 				1330700
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295140] = {
 		bgm = "battle-executor-type1",
@@ -112902,6 +122858,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295140,
 		battle_type = 1,
@@ -113282,7 +123239,9 @@ pg.world_expedition_data = {
 				0,
 				1330300
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295141] = {
 		bgm = "battle-executor-type1",
@@ -113292,6 +123251,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295141,
 		battle_type = 1,
@@ -113672,7 +123632,9 @@ pg.world_expedition_data = {
 				0,
 				1330400
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295142] = {
 		bgm = "battle-executor-type1",
@@ -113682,6 +123644,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295142,
 		battle_type = 1,
@@ -114070,7 +124033,9 @@ pg.world_expedition_data = {
 				0,
 				1330500
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295143] = {
 		bgm = "battle-executor-type1",
@@ -114080,6 +124045,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295143,
 		battle_type = 1,
@@ -114468,7 +124434,9 @@ pg.world_expedition_data = {
 				0,
 				1330600
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[295144] = {
 		bgm = "battle-executor-type1",
@@ -114478,6 +124446,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 5000,
 		battle_spine_size = 66,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 5000,
 		id = 295144,
 		battle_type = 1,
@@ -114866,7 +124835,449 @@ pg.world_expedition_data = {
 				0,
 				1330700
 			}
-		}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[295200] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 5000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 5000,
+		battle_spine_size = 66,
+		exp_player = 10000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 5000,
+		id = 295200,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {
+			100,
+			0
+		},
+		weak_upgrade = {
+			3000,
+			3000
+		},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[295201] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 5000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 5000,
+		battle_spine_size = 66,
+		exp_player = 10000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 5000,
+		id = 295201,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {
+			100,
+			0
+		},
+		weak_upgrade = {
+			3000,
+			3000
+		},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[295202] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 5000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 5000,
+		battle_spine_size = 66,
+		exp_player = 10000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 5000,
+		id = 295202,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {
+			100,
+			0
+		},
+		weak_upgrade = {
+			3000,
+			3000
+		},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[295203] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 5000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 5000,
+		battle_spine_size = 66,
+		exp_player = 10000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 5000,
+		id = 295203,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {
+			100,
+			0
+		},
+		weak_upgrade = {
+			3000,
+			3000
+		},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[295204] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 5000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 5000,
+		battle_spine_size = 66,
+		exp_player = 10000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 5000,
+		id = 295204,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {
+			100,
+			0
+		},
+		weak_upgrade = {
+			3000,
+			3000
+		},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[297011] = {
 		bgm = "Battle-1",
@@ -114876,6 +125287,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 297011,
 		battle_type = 0,
@@ -115196,7 +125608,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[311041] = {
 		bgm = "Battle-1",
@@ -115206,6 +125620,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 311041,
 		battle_type = 0,
@@ -115526,7 +125941,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[312020] = {
 		bgm = "level02",
@@ -115536,6 +125953,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 312020,
 		battle_type = 0,
@@ -115605,7 +126023,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[312021] = {
 		bgm = "level02",
@@ -115615,6 +126035,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 0,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 312021,
 		battle_type = 0,
@@ -115683,8 +126104,36 @@ pg.world_expedition_data = {
 		weak_list = {},
 		weak_weight = {},
 		weak_upgrade = {},
-		phase_story = {},
-		phase_drop = {}
+		phase_story = {
+			{
+				8000,
+				"W0001"
+			},
+			{
+				2000,
+				"W0002"
+			},
+			{
+				0,
+				"W0003"
+			}
+		},
+		phase_drop = {
+			{
+				8000,
+				1640700
+			},
+			{
+				2000,
+				1670700
+			},
+			{
+				0,
+				1680700
+			}
+		},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[312070] = {
 		bgm = "bsm-1",
@@ -115694,6 +126143,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 312070,
 		battle_type = 0,
@@ -116014,7 +126464,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[312150] = {
 		bgm = "battle-executor-type1",
@@ -116024,6 +126476,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 100,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 312150,
 		battle_type = 1,
@@ -116365,7 +126818,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[312240] = {
 		bgm = "battle-executor-type1",
@@ -116375,6 +126830,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 100,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 312240,
 		battle_type = 1,
@@ -116716,7 +127172,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[312350] = {
 		bgm = "battle-arbitrator-type1",
@@ -116726,6 +127184,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 10000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 312350,
 		battle_type = 1,
@@ -116795,7 +127254,255 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[312610] = {
+		bgm = "battle-arbitrator-type1",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 0,
+		battle_spine_size = 100,
+		exp_player = 10000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 0,
+		id = 312610,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[312640] = {
+		bgm = "Battle-1",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 0,
+		battle_spine_size = 66,
+		exp_player = 10000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 0,
+		id = 312640,
+		battle_type = 1,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[312670] = {
+		bgm = "Battle-1",
+		expedition_sairenvalueC = 0,
+		morale_limit = 3,
+		failed_morale = 1,
+		expedition_sairenvalueA = 0,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 0,
+		id = 312670,
+		battle_type = 0,
+		battle_character = "",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[314001] = {
 		bgm = "battle-1",
@@ -116805,6 +127512,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 314001,
 		battle_type = 0,
@@ -116874,7 +127582,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[314002] = {
 		bgm = "Battle-1",
@@ -116884,6 +127594,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 314002,
 		battle_type = 0,
@@ -117204,7 +127915,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[314201] = {
 		bgm = "Battle-1",
@@ -117214,6 +127927,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 314201,
 		battle_type = 1,
@@ -117534,17 +128248,20 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[315000] = {
 		bgm = "Battle-1",
-		expedition_sairenvalueC = 2000,
+		expedition_sairenvalueC = 8000,
 		morale_limit = 3,
 		failed_morale = 1,
-		expedition_sairenvalueA = 2000,
+		expedition_sairenvalueA = 8000,
 		battle_spine_size = 0,
 		exp_player = 8000,
-		expedition_sairenvalueB = 2000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 8000,
 		id = 315000,
 		battle_type = 1,
 		battle_character = "world_boss_1",
@@ -117613,255 +128330,21 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[315001] = {
 		bgm = "Battle-1",
-		expedition_sairenvalueC = 2000,
+		expedition_sairenvalueC = 8000,
 		morale_limit = 3,
 		failed_morale = 1,
-		expedition_sairenvalueA = 2000,
+		expedition_sairenvalueA = 8000,
 		battle_spine_size = 0,
 		exp_player = 8000,
-		expedition_sairenvalueB = 2000,
+		phase_limit = 0,
+		expedition_sairenvalueB = 8000,
 		id = 315001,
-		battle_type = 1,
-		battle_character = "world_boss_1",
-		exp_world = {
-			{
-				1,
-				400
-			},
-			{
-				2,
-				400
-			},
-			{
-				3,
-				400
-			},
-			{
-				4,
-				400
-			},
-			{
-				5,
-				400
-			},
-			{
-				6,
-				400
-			},
-			{
-				7,
-				400
-			}
-		},
-		exp_commander_world = {
-			{
-				1,
-				1
-			},
-			{
-				2,
-				1
-			},
-			{
-				3,
-				2
-			},
-			{
-				4,
-				2
-			},
-			{
-				5,
-				3
-			},
-			{
-				6,
-				3
-			},
-			{
-				7,
-				4
-			}
-		},
-		award_display_world = {},
-		weak_list = {},
-		weak_weight = {},
-		weak_upgrade = {},
-		phase_story = {},
-		phase_drop = {}
-	},
-	[315002] = {
-		bgm = "Battle-1",
-		expedition_sairenvalueC = 2000,
-		morale_limit = 3,
-		failed_morale = 1,
-		expedition_sairenvalueA = 2000,
-		battle_spine_size = 0,
-		exp_player = 8000,
-		expedition_sairenvalueB = 2000,
-		id = 315002,
-		battle_type = 1,
-		battle_character = "world_boss_1",
-		exp_world = {
-			{
-				1,
-				400
-			},
-			{
-				2,
-				400
-			},
-			{
-				3,
-				400
-			},
-			{
-				4,
-				400
-			},
-			{
-				5,
-				400
-			},
-			{
-				6,
-				400
-			},
-			{
-				7,
-				400
-			}
-		},
-		exp_commander_world = {
-			{
-				1,
-				1
-			},
-			{
-				2,
-				1
-			},
-			{
-				3,
-				2
-			},
-			{
-				4,
-				2
-			},
-			{
-				5,
-				3
-			},
-			{
-				6,
-				3
-			},
-			{
-				7,
-				4
-			}
-		},
-		award_display_world = {},
-		weak_list = {},
-		weak_weight = {},
-		weak_upgrade = {},
-		phase_story = {},
-		phase_drop = {}
-	},
-	[315010] = {
-		bgm = "Battle-1",
-		expedition_sairenvalueC = 0,
-		morale_limit = 3,
-		failed_morale = 1,
-		expedition_sairenvalueA = 0,
-		battle_spine_size = 0,
-		exp_player = 8000,
-		expedition_sairenvalueB = 0,
-		id = 315010,
-		battle_type = 1,
-		battle_character = "world_boss_1",
-		exp_world = {
-			{
-				1,
-				400
-			},
-			{
-				2,
-				400
-			},
-			{
-				3,
-				400
-			},
-			{
-				4,
-				400
-			},
-			{
-				5,
-				400
-			},
-			{
-				6,
-				400
-			},
-			{
-				7,
-				400
-			}
-		},
-		exp_commander_world = {
-			{
-				1,
-				1
-			},
-			{
-				2,
-				1
-			},
-			{
-				3,
-				2
-			},
-			{
-				4,
-				2
-			},
-			{
-				5,
-				3
-			},
-			{
-				6,
-				3
-			},
-			{
-				7,
-				4
-			}
-		},
-		award_display_world = {},
-		weak_list = {},
-		weak_weight = {},
-		weak_upgrade = {},
-		phase_story = {},
-		phase_drop = {}
-	},
-	[315011] = {
-		bgm = "Battle-1",
-		expedition_sairenvalueC = 0,
-		morale_limit = 3,
-		failed_morale = 1,
-		expedition_sairenvalueA = 0,
-		battle_spine_size = 0,
-		exp_player = 8000,
-		expedition_sairenvalueB = 0,
-		id = 315011,
 		battle_type = 1,
 		battle_character = "world_boss_2",
 		exp_world = {
@@ -117929,18 +128412,21 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
-	[315012] = {
+	[315002] = {
 		bgm = "Battle-1",
-		expedition_sairenvalueC = 0,
+		expedition_sairenvalueC = 8000,
 		morale_limit = 3,
 		failed_morale = 1,
-		expedition_sairenvalueA = 0,
+		expedition_sairenvalueA = 8000,
 		battle_spine_size = 0,
 		exp_player = 8000,
-		expedition_sairenvalueB = 0,
-		id = 315012,
+		phase_limit = 0,
+		expedition_sairenvalueB = 8000,
+		id = 315002,
 		battle_type = 1,
 		battle_character = "world_boss_3",
 		exp_world = {
@@ -118008,36 +128494,39 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
-	[315013] = {
-		bgm = "Battle-1",
-		expedition_sairenvalueC = 0,
-		morale_limit = 3,
-		failed_morale = 1,
-		expedition_sairenvalueA = 0,
+	[315010] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
-		exp_player = 8000,
-		expedition_sairenvalueB = 0,
-		id = 315013,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315010,
 		battle_type = 1,
-		battle_character = "world_boss_5",
+		battle_character = "world_boss_1",
 		exp_world = {
 			{
 				1,
-				400
+				200
 			},
 			{
 				2,
-				400
+				250
 			},
 			{
 				3,
-				400
+				300
 			},
 			{
 				4,
-				400
+				350
 			},
 			{
 				5,
@@ -118045,11 +128534,11 @@ pg.world_expedition_data = {
 			},
 			{
 				6,
-				400
+				450
 			},
 			{
 				7,
-				400
+				500
 			}
 		},
 		exp_commander_world = {
@@ -118082,12 +128571,4072 @@ pg.world_expedition_data = {
 				4
 			}
 		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						2,
+						30915
+					},
+					{
+						2,
+						17991
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				8000,
+				"W700200"
+			},
+			{
+				6000,
+				"W700200"
+			},
+			{
+				4000,
+				"W700200"
+			},
+			{
+				2000,
+				"W700200"
+			},
+			{
+				0,
+				"W700201"
+			}
+		},
+		phase_drop = {
+			{
+				8000,
+				1003604
+			},
+			{
+				6000,
+				1003605
+			},
+			{
+				4000,
+				1003606
+			},
+			{
+				2000,
+				1003607
+			},
+			{
+				0,
+				1003608
+			}
+		},
+		phase_drop_display = {
+			{
+				8000,
+				{
+					{
+						2,
+						150002,
+						5
+					},
+					{
+						2,
+						54018,
+						8
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				6000,
+				{
+					{
+						2,
+						150002,
+						8
+					},
+					{
+						2,
+						54018,
+						10
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				4000,
+				{
+					{
+						2,
+						150002,
+						12
+					},
+					{
+						2,
+						54018,
+						12
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				2000,
+				{
+					{
+						2,
+						30913,
+						4
+					},
+					{
+						2,
+						30114,
+						6
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						6
+					},
+					{
+						2,
+						30114,
+						9
+					},
+					{
+						2,
+						30915,
+						1
+					},
+					{
+						2,
+						17991,
+						1
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315011] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315011,
+		battle_type = 1,
+		battle_character = "world_boss_2",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						2,
+						30915
+					},
+					{
+						2,
+						17991
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				8000,
+				"W700200"
+			},
+			{
+				6000,
+				"W700200"
+			},
+			{
+				4000,
+				"W700200"
+			},
+			{
+				2000,
+				"W700200"
+			},
+			{
+				0,
+				"W700201"
+			}
+		},
+		phase_drop = {
+			{
+				8000,
+				1003604
+			},
+			{
+				6000,
+				1003605
+			},
+			{
+				4000,
+				1003606
+			},
+			{
+				2000,
+				1003607
+			},
+			{
+				0,
+				1003608
+			}
+		},
+		phase_drop_display = {
+			{
+				8000,
+				{
+					{
+						2,
+						150002,
+						5
+					},
+					{
+						2,
+						54018,
+						8
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				6000,
+				{
+					{
+						2,
+						150002,
+						8
+					},
+					{
+						2,
+						54018,
+						10
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				4000,
+				{
+					{
+						2,
+						150002,
+						12
+					},
+					{
+						2,
+						54018,
+						12
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				2000,
+				{
+					{
+						2,
+						30913,
+						4
+					},
+					{
+						2,
+						30114,
+						6
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						6
+					},
+					{
+						2,
+						30114,
+						9
+					},
+					{
+						2,
+						30915,
+						1
+					},
+					{
+						2,
+						17991,
+						1
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315012] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315012,
+		battle_type = 1,
+		battle_character = "world_boss_3",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						2,
+						30915
+					},
+					{
+						2,
+						17991
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				8000,
+				"W700200"
+			},
+			{
+				6000,
+				"W700200"
+			},
+			{
+				4000,
+				"W700200"
+			},
+			{
+				2000,
+				"W700200"
+			},
+			{
+				0,
+				"W700201"
+			}
+		},
+		phase_drop = {
+			{
+				8000,
+				1003604
+			},
+			{
+				6000,
+				1003605
+			},
+			{
+				4000,
+				1003606
+			},
+			{
+				2000,
+				1003607
+			},
+			{
+				0,
+				1003608
+			}
+		},
+		phase_drop_display = {
+			{
+				8000,
+				{
+					{
+						2,
+						150002,
+						5
+					},
+					{
+						2,
+						54018,
+						8
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				6000,
+				{
+					{
+						2,
+						150002,
+						8
+					},
+					{
+						2,
+						54018,
+						10
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				4000,
+				{
+					{
+						2,
+						150002,
+						12
+					},
+					{
+						2,
+						54018,
+						12
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				2000,
+				{
+					{
+						2,
+						30913,
+						4
+					},
+					{
+						2,
+						30114,
+						6
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						6
+					},
+					{
+						2,
+						30114,
+						9
+					},
+					{
+						2,
+						30915,
+						1
+					},
+					{
+						2,
+						17991,
+						1
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315015] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315015,
+		battle_type = 1,
+		battle_character = "world_boss_1",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						2,
+						30915
+					},
+					{
+						2,
+						17991
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				8000,
+				"W700200"
+			},
+			{
+				6000,
+				"W700200"
+			},
+			{
+				4000,
+				"W700200"
+			},
+			{
+				2000,
+				"W700200"
+			},
+			{
+				0,
+				"W700201"
+			}
+		},
+		phase_drop = {
+			{
+				8000,
+				1003604
+			},
+			{
+				6000,
+				1003605
+			},
+			{
+				4000,
+				1003606
+			},
+			{
+				2000,
+				1003607
+			},
+			{
+				0,
+				1003608
+			}
+		},
+		phase_drop_display = {
+			{
+				8000,
+				{
+					{
+						2,
+						150002,
+						5
+					},
+					{
+						2,
+						54018,
+						8
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				6000,
+				{
+					{
+						2,
+						150002,
+						8
+					},
+					{
+						2,
+						54018,
+						10
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				4000,
+				{
+					{
+						2,
+						150002,
+						12
+					},
+					{
+						2,
+						54018,
+						12
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				2000,
+				{
+					{
+						2,
+						30913,
+						4
+					},
+					{
+						2,
+						30114,
+						6
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						6
+					},
+					{
+						2,
+						30114,
+						9
+					},
+					{
+						2,
+						30915,
+						1
+					},
+					{
+						2,
+						17991,
+						1
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315016] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315016,
+		battle_type = 1,
+		battle_character = "world_boss_2",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						2,
+						30915
+					},
+					{
+						2,
+						17991
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				8000,
+				"W700200"
+			},
+			{
+				6000,
+				"W700200"
+			},
+			{
+				4000,
+				"W700200"
+			},
+			{
+				2000,
+				"W700200"
+			},
+			{
+				0,
+				"W700201"
+			}
+		},
+		phase_drop = {
+			{
+				8000,
+				1003604
+			},
+			{
+				6000,
+				1003605
+			},
+			{
+				4000,
+				1003606
+			},
+			{
+				2000,
+				1003607
+			},
+			{
+				0,
+				1003608
+			}
+		},
+		phase_drop_display = {
+			{
+				8000,
+				{
+					{
+						2,
+						150002,
+						5
+					},
+					{
+						2,
+						54018,
+						8
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				6000,
+				{
+					{
+						2,
+						150002,
+						8
+					},
+					{
+						2,
+						54018,
+						10
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				4000,
+				{
+					{
+						2,
+						150002,
+						12
+					},
+					{
+						2,
+						54018,
+						12
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				2000,
+				{
+					{
+						2,
+						30913,
+						4
+					},
+					{
+						2,
+						30114,
+						6
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						6
+					},
+					{
+						2,
+						30114,
+						9
+					},
+					{
+						2,
+						30915,
+						1
+					},
+					{
+						2,
+						17991,
+						1
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315017] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315017,
+		battle_type = 1,
+		battle_character = "world_boss_3",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						2,
+						30915
+					},
+					{
+						2,
+						17991
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				8000,
+				"W700200"
+			},
+			{
+				6000,
+				"W700200"
+			},
+			{
+				4000,
+				"W700200"
+			},
+			{
+				2000,
+				"W700200"
+			},
+			{
+				0,
+				"W700201"
+			}
+		},
+		phase_drop = {
+			{
+				8000,
+				1003604
+			},
+			{
+				6000,
+				1003605
+			},
+			{
+				4000,
+				1003606
+			},
+			{
+				2000,
+				1003607
+			},
+			{
+				0,
+				1003608
+			}
+		},
+		phase_drop_display = {
+			{
+				8000,
+				{
+					{
+						2,
+						150002,
+						5
+					},
+					{
+						2,
+						54018,
+						8
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				6000,
+				{
+					{
+						2,
+						150002,
+						8
+					},
+					{
+						2,
+						54018,
+						10
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				4000,
+				{
+					{
+						2,
+						150002,
+						12
+					},
+					{
+						2,
+						54018,
+						12
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						103,
+						1
+					}
+				}
+			},
+			{
+				2000,
+				{
+					{
+						2,
+						30913,
+						4
+					},
+					{
+						2,
+						30114,
+						6
+					},
+					{
+						2,
+						30914,
+						2
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						6
+					},
+					{
+						2,
+						30114,
+						9
+					},
+					{
+						2,
+						30915,
+						1
+					},
+					{
+						2,
+						17991,
+						1
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315020] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315020,
+		battle_type = 1,
+		battle_character = "world_boss_1",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				7500,
+				"W700200"
+			},
+			{
+				5000,
+				"W700200"
+			},
+			{
+				2500,
+				"W700200"
+			},
+			{
+				0,
+				"W700202"
+			}
+		},
+		phase_drop = {
+			{
+				7500,
+				1003609
+			},
+			{
+				5000,
+				1003610
+			},
+			{
+				2500,
+				1003611
+			},
+			{
+				0,
+				1003612
+			}
+		},
+		phase_drop_display = {
+			{
+				7500,
+				{
+					{
+						2,
+						150002,
+						2
+					},
+					{
+						2,
+						54018,
+						4
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				5000,
+				{
+					{
+						2,
+						150002,
+						3
+					},
+					{
+						2,
+						54018,
+						6
+					},
+					{
+						12,
+						103,
+						1
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				2500,
+				{
+					{
+						2,
+						30913,
+						2
+					},
+					{
+						2,
+						30114,
+						2
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						3
+					},
+					{
+						2,
+						30114,
+						3
+					},
+					{
+						2,
+						30914,
+						1
+					},
+					{
+						12,
+						105,
+						2
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315021] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315021,
+		battle_type = 1,
+		battle_character = "world_boss_2",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				7500,
+				"W700200"
+			},
+			{
+				5000,
+				"W700200"
+			},
+			{
+				2500,
+				"W700200"
+			},
+			{
+				0,
+				"W700202"
+			}
+		},
+		phase_drop = {
+			{
+				7500,
+				1003609
+			},
+			{
+				5000,
+				1003610
+			},
+			{
+				2500,
+				1003611
+			},
+			{
+				0,
+				1003612
+			}
+		},
+		phase_drop_display = {
+			{
+				7500,
+				{
+					{
+						2,
+						150002,
+						2
+					},
+					{
+						2,
+						54018,
+						4
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				5000,
+				{
+					{
+						2,
+						150002,
+						3
+					},
+					{
+						2,
+						54018,
+						6
+					},
+					{
+						12,
+						103,
+						1
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				2500,
+				{
+					{
+						2,
+						30913,
+						2
+					},
+					{
+						2,
+						30114,
+						2
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						3
+					},
+					{
+						2,
+						30114,
+						3
+					},
+					{
+						2,
+						30914,
+						1
+					},
+					{
+						12,
+						105,
+						2
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315022] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315022,
+		battle_type = 1,
+		battle_character = "world_boss_3",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				7500,
+				"W700200"
+			},
+			{
+				5000,
+				"W700200"
+			},
+			{
+				2500,
+				"W700200"
+			},
+			{
+				0,
+				"W700202"
+			}
+		},
+		phase_drop = {
+			{
+				7500,
+				1003609
+			},
+			{
+				5000,
+				1003610
+			},
+			{
+				2500,
+				1003611
+			},
+			{
+				0,
+				1003612
+			}
+		},
+		phase_drop_display = {
+			{
+				7500,
+				{
+					{
+						2,
+						150002,
+						2
+					},
+					{
+						2,
+						54018,
+						4
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				5000,
+				{
+					{
+						2,
+						150002,
+						3
+					},
+					{
+						2,
+						54018,
+						6
+					},
+					{
+						12,
+						103,
+						1
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				2500,
+				{
+					{
+						2,
+						30913,
+						2
+					},
+					{
+						2,
+						30114,
+						2
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						3
+					},
+					{
+						2,
+						30114,
+						3
+					},
+					{
+						2,
+						30914,
+						1
+					},
+					{
+						12,
+						105,
+						2
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315025] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315025,
+		battle_type = 1,
+		battle_character = "world_boss_1",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				7500,
+				"W700200"
+			},
+			{
+				5000,
+				"W700200"
+			},
+			{
+				2500,
+				"W700200"
+			},
+			{
+				0,
+				"W700202"
+			}
+		},
+		phase_drop = {
+			{
+				7500,
+				1003609
+			},
+			{
+				5000,
+				1003610
+			},
+			{
+				2500,
+				1003611
+			},
+			{
+				0,
+				1003612
+			}
+		},
+		phase_drop_display = {
+			{
+				7500,
+				{
+					{
+						2,
+						150002,
+						2
+					},
+					{
+						2,
+						54018,
+						4
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				5000,
+				{
+					{
+						2,
+						150002,
+						3
+					},
+					{
+						2,
+						54018,
+						6
+					},
+					{
+						12,
+						103,
+						1
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				2500,
+				{
+					{
+						2,
+						30913,
+						2
+					},
+					{
+						2,
+						30114,
+						2
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						3
+					},
+					{
+						2,
+						30114,
+						3
+					},
+					{
+						2,
+						30914,
+						1
+					},
+					{
+						12,
+						105,
+						2
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315026] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315026,
+		battle_type = 1,
+		battle_character = "world_boss_2",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				7500,
+				"W700200"
+			},
+			{
+				5000,
+				"W700200"
+			},
+			{
+				2500,
+				"W700200"
+			},
+			{
+				0,
+				"W700202"
+			}
+		},
+		phase_drop = {
+			{
+				7500,
+				1003609
+			},
+			{
+				5000,
+				1003610
+			},
+			{
+				2500,
+				1003611
+			},
+			{
+				0,
+				1003612
+			}
+		},
+		phase_drop_display = {
+			{
+				7500,
+				{
+					{
+						2,
+						150002,
+						2
+					},
+					{
+						2,
+						54018,
+						4
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				5000,
+				{
+					{
+						2,
+						150002,
+						3
+					},
+					{
+						2,
+						54018,
+						6
+					},
+					{
+						12,
+						103,
+						1
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				2500,
+				{
+					{
+						2,
+						30913,
+						2
+					},
+					{
+						2,
+						30114,
+						2
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						3
+					},
+					{
+						2,
+						30114,
+						3
+					},
+					{
+						2,
+						30914,
+						1
+					},
+					{
+						12,
+						105,
+						2
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315027] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 10000,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315027,
+		battle_type = 1,
+		battle_character = "world_boss_3",
+		exp_world = {
+			{
+				1,
+				200
+			},
+			{
+				2,
+				250
+			},
+			{
+				3,
+				300
+			},
+			{
+				4,
+				350
+			},
+			{
+				5,
+				400
+			},
+			{
+				6,
+				450
+			},
+			{
+				7,
+				500
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				4
+			}
+		},
+		award_display_world = {
+			{
+				1,
+				{}
+			},
+			{
+				2,
+				{}
+			},
+			{
+				3,
+				{}
+			},
+			{
+				4,
+				{}
+			},
+			{
+				5,
+				{}
+			},
+			{
+				6,
+				{}
+			},
+			{
+				7,
+				{
+					{
+						2,
+						150002
+					},
+					{
+						2,
+						54018
+					},
+					{
+						2,
+						30913
+					},
+					{
+						2,
+						30114
+					},
+					{
+						2,
+						30914
+					},
+					{
+						12,
+						103
+					},
+					{
+						12,
+						104
+					},
+					{
+						12,
+						105
+					}
+				}
+			},
+			{
+				8,
+				{}
+			},
+			{
+				9,
+				{}
+			},
+			{
+				10,
+				{}
+			}
+		},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {
+			{
+				7500,
+				"W700200"
+			},
+			{
+				5000,
+				"W700200"
+			},
+			{
+				2500,
+				"W700200"
+			},
+			{
+				0,
+				"W700202"
+			}
+		},
+		phase_drop = {
+			{
+				7500,
+				1003609
+			},
+			{
+				5000,
+				1003610
+			},
+			{
+				2500,
+				1003611
+			},
+			{
+				0,
+				1003612
+			}
+		},
+		phase_drop_display = {
+			{
+				7500,
+				{
+					{
+						2,
+						150002,
+						2
+					},
+					{
+						2,
+						54018,
+						4
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				5000,
+				{
+					{
+						2,
+						150002,
+						3
+					},
+					{
+						2,
+						54018,
+						6
+					},
+					{
+						12,
+						103,
+						1
+					},
+					{
+						12,
+						104,
+						1
+					}
+				}
+			},
+			{
+				2500,
+				{
+					{
+						2,
+						30913,
+						2
+					},
+					{
+						2,
+						30114,
+						2
+					},
+					{
+						12,
+						105,
+						1
+					}
+				}
+			},
+			{
+				0,
+				{
+					{
+						2,
+						30913,
+						3
+					},
+					{
+						2,
+						30114,
+						3
+					},
+					{
+						2,
+						30914,
+						1
+					},
+					{
+						12,
+						105,
+						2
+					}
+				}
+			}
+		},
+		special_buff_display = {}
+	},
+	[315030] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315030,
+		battle_type = 1,
+		battle_character = "world_boss_1",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
 		award_display_world = {},
 		weak_list = {},
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[315031] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315031,
+		battle_type = 1,
+		battle_character = "world_boss_2",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[315032] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315032,
+		battle_type = 1,
+		battle_character = "world_boss_3",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[315033] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315033,
+		battle_type = 1,
+		battle_character = "world_boss_1",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[315034] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315034,
+		battle_type = 1,
+		battle_character = "world_boss_2",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
+	},
+	[315035] = {
+		bgm = "battle-executor-type1",
+		expedition_sairenvalueC = 3000,
+		morale_limit = 0,
+		failed_morale = 3,
+		expedition_sairenvalueA = 3000,
+		battle_spine_size = 0,
+		exp_player = 0,
+		phase_limit = 1,
+		expedition_sairenvalueB = 3000,
+		id = 315035,
+		battle_type = 1,
+		battle_character = "world_boss_3",
+		exp_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		exp_commander_world = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			},
+			{
+				6,
+				0
+			},
+			{
+				7,
+				0
+			}
+		},
+		award_display_world = {},
+		weak_list = {},
+		weak_weight = {},
+		weak_upgrade = {},
+		phase_story = {},
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[320000] = {
 		bgm = "Battle-1",
@@ -118097,6 +132646,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 320000,
 		battle_type = 0,
@@ -118417,7 +132967,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[320001] = {
 		bgm = "Battle-1",
@@ -118427,6 +132979,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 320001,
 		battle_type = 0,
@@ -118747,7 +133300,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	[320002] = {
 		bgm = "Battle-1",
@@ -118757,6 +133312,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 0,
 		battle_spine_size = 0,
 		exp_player = 8000,
+		phase_limit = 0,
 		expedition_sairenvalueB = 0,
 		id = 320002,
 		battle_type = 0,
@@ -119077,7 +133633,9 @@ pg.world_expedition_data = {
 		weak_weight = {},
 		weak_upgrade = {},
 		phase_story = {},
-		phase_drop = {}
+		phase_drop = {},
+		phase_drop_display = {},
+		special_buff_display = {}
 	},
 	all = {
 		210000,
@@ -119323,6 +133881,8 @@ pg.world_expedition_data = {
 		291031,
 		291041,
 		291091,
+		291092,
+		291093,
 		291100,
 		291101,
 		291102,
@@ -119331,11 +133891,15 @@ pg.world_expedition_data = {
 		291151,
 		291152,
 		291153,
+		291160,
+		291161,
 		291211,
 		291221,
 		291231,
 		291241,
 		291291,
+		291292,
+		291293,
 		291300,
 		291301,
 		291302,
@@ -119344,11 +133908,15 @@ pg.world_expedition_data = {
 		291351,
 		291352,
 		291353,
+		291360,
+		291361,
 		291411,
 		291421,
 		291431,
 		291441,
 		291491,
+		291492,
+		291493,
 		291500,
 		291501,
 		291502,
@@ -119357,6 +133925,8 @@ pg.world_expedition_data = {
 		291551,
 		291552,
 		291553,
+		291560,
+		291561,
 		291600,
 		291601,
 		292000,
@@ -119388,11 +133958,19 @@ pg.world_expedition_data = {
 		292102,
 		292103,
 		292104,
+		292200,
+		292201,
+		292210,
+		292211,
+		292220,
+		292221,
 		293011,
 		293021,
 		293031,
 		293041,
 		293091,
+		293092,
+		293093,
 		293100,
 		293101,
 		293102,
@@ -119403,11 +133981,15 @@ pg.world_expedition_data = {
 		293152,
 		293153,
 		293154,
+		293160,
+		293161,
 		293211,
 		293221,
 		293231,
 		293241,
 		293291,
+		293292,
+		293293,
 		293300,
 		293301,
 		293302,
@@ -119418,11 +134000,15 @@ pg.world_expedition_data = {
 		293352,
 		293353,
 		293354,
+		293360,
+		293361,
 		293411,
 		293421,
 		293431,
 		293441,
 		293491,
+		293492,
+		293493,
 		293500,
 		293501,
 		293502,
@@ -119433,6 +134019,8 @@ pg.world_expedition_data = {
 		293552,
 		293553,
 		293554,
+		293560,
+		293561,
 		294001,
 		294002,
 		294003,
@@ -119485,6 +134073,26 @@ pg.world_expedition_data = {
 		294113,
 		294114,
 		294115,
+		294200,
+		294201,
+		294202,
+		294203,
+		294204,
+		294210,
+		294211,
+		294212,
+		294213,
+		294214,
+		294215,
+		294216,
+		294217,
+		294218,
+		294219,
+		294220,
+		294221,
+		294222,
+		294223,
+		294224,
 		295011,
 		295012,
 		295013,
@@ -119525,6 +134133,11 @@ pg.world_expedition_data = {
 		295142,
 		295143,
 		295144,
+		295200,
+		295201,
+		295202,
+		295203,
+		295204,
 		297011,
 		311041,
 		312020,
@@ -119533,6 +134146,9 @@ pg.world_expedition_data = {
 		312150,
 		312240,
 		312350,
+		312610,
+		312640,
+		312670,
 		314001,
 		314002,
 		314201,
@@ -119542,7 +134158,21 @@ pg.world_expedition_data = {
 		315010,
 		315011,
 		315012,
-		315013,
+		315015,
+		315016,
+		315017,
+		315020,
+		315021,
+		315022,
+		315025,
+		315026,
+		315027,
+		315030,
+		315031,
+		315032,
+		315033,
+		315034,
+		315035,
 		320000,
 		320001,
 		320002

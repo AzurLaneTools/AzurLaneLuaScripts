@@ -46,7 +46,7 @@ function slot0.GetBaseMapId(slot0)
 end
 
 function slot0.GetBaseMap(slot0)
-	return nowWorld:GetMap(slot0:GetBaseMapId())
+	return nowWorld():GetMap(slot0:GetBaseMapId())
 end
 
 function slot0.GetColormaskUniqueID(slot0)
@@ -62,7 +62,7 @@ function slot0.IsPressing(slot0)
 end
 
 function slot0.HasPort(slot0, slot1)
-	return slot0:GetPortId() > 0 and (not slot1 or pg.world_port_data[slot2].port_camp == nowWorld:GetRealm())
+	return slot0:GetPortId() > 0 and (not slot1 or pg.world_port_data[slot2].port_camp == nowWorld():GetRealm())
 end
 
 function slot0.GetPortId(slot0)
@@ -74,7 +74,7 @@ function slot0.UpdateActive(slot0, slot1)
 		slot0.active = slot1
 
 		if slot1 then
-			nowWorld:GetAtlas():SetActiveEntrance(slot0)
+			nowWorld():GetAtlas():SetActiveEntrance(slot0)
 		end
 	end
 end

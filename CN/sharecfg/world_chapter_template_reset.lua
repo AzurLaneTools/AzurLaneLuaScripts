@@ -7533,6 +7533,76 @@ pg.world_chapter_template_reset = {
 		reset_item = {},
 		reset_buff = {}
 	},
+	[430000] = {
+		id = 430000,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否确定从普通难度：仲裁者·天帕岚斯·XIV中离开？\n（离开后当前作战进度将会保留，本月内再次进入可继续挑战）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430010] = {
+		id = 430010,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否确定从普通难度：仲裁者·司特莲库斯·VIII中离开？\n（离开后当前作战进度将会保留，本月内再次进入可继续挑战）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430020] = {
+		id = 430020,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否确定从普通难度：仲裁者·赫米忒·IX中离开？\n（离开后当前作战进度将会保留，本月内再次进入可继续挑战）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430100] = {
+		id = 430100,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否确定从困难难度：仲裁者·天帕岚斯·XIV中离开？\n（离开后当前作战进度将会重置，已获得的奖励无法重复领取）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430110] = {
+		id = 430110,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否确定从困难难度：仲裁者·司特莲库斯·VIII中离开？\n（离开后当前作战进度将会重置，已获得的奖励无法重复领取）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430120] = {
+		id = 430120,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否确定从困难难度：仲裁者·赫米忒·IX中离开？\n（离开后当前作战进度将会重置，已获得的奖励无法重复领取）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430200] = {
+		id = 430200,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "是否确定从困难模拟战：仲裁机关中离开？\n（离开后当前作战进度将会重置）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
 	all = {
 		8000,
 		8030,
@@ -7741,6 +7811,13 @@ pg.world_chapter_template_reset = {
 		890140,
 		890150,
 		890160,
-		890170
+		890170,
+		430000,
+		430010,
+		430020,
+		430100,
+		430110,
+		430120,
+		430200
 	}
 }

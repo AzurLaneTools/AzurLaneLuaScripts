@@ -3450,6 +3450,22 @@ _G.pg.gametip.world_target_count = {
 	tip = "当前可领取目标奖励$1个"
 }
 
+_G.pg.gametip.world_target_filter_tip1 = {
+	tip = "全部"
+}
+
+_G.pg.gametip.world_target_filter_tip2 = {
+	tip = "未完成"
+}
+
+_G.pg.gametip.world_target_get_all = {
+	tip = "是否一键领取所有海域探索奖励？"
+}
+
+_G.pg.gametip.world_target_goto = {
+	tip = "前往海域"
+}
+
 _G.pg.gametip.world_help_tip = {
 	tip = {
 		{
@@ -3819,7 +3835,7 @@ _G.pg.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2021.9.9-2021.12.9</color>期间限时开放「蛟·META」的挑战，在此期间指挥官可挑战「蛟·META」累计其同步值获取<color=#92fc63>「蛟·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2021.12.9-2021.3.10</color>期间限时开放「格奈森瑙·META」的挑战，在此期间指挥官可挑战「格奈森瑙·META」累计其同步值获取<color=#92fc63>「格奈森瑙·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -3848,7 +3864,7 @@ _G.pg.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标·META挑战的进行，从第31天开始，即2021.10.9~2021.12.9期间，舰队挑战「蛟·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
+随着信标·META挑战的进行，从第31天开始，即2022.1.8~2022.3.10期间，舰队挑战「格奈森瑙·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
 ※此支援只会在指挥官自己发现的信标·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
@@ -3931,8 +3947,20 @@ _G.pg.gametip.world_movelimit_event_text = {
 	tip = "当前海域存在尚未完成的事件，目前无法离开。\n是否继续？"
 }
 
+_G.pg.gametip.world_mapbuff_tip = {
+	tip = "该建筑存在时，海域内所有敌舰属性上升"
+}
+
 _G.pg.gametip.world_sametask_tip = {
 	tip = "领取任务失败，相同的任务最多只能领取一个"
+}
+
+_G.pg.gametip.world_expedition_reward_display = {
+	tip = "奖励一览"
+}
+
+_G.pg.gametip.world_expedition_reward_display2 = {
+	tip = "HP $1%"
 }
 
 _G.pg.gametip.task_notfound_error = {
@@ -6543,6 +6571,10 @@ _G.pg.gametip.guild_name_invaild = {
 
 _G.pg.gametip.guild_apply_full = {
 	tip = "目标大舰队申请人数已满"
+}
+
+_G.pg.gametip.guild_member_full = {
+	tip = "目标大舰队人数已满"
 }
 
 _G.pg.gametip.guild_fire_duty_limit = {
@@ -14413,6 +14445,14 @@ _G.pg.gametip.tec_tendency_cur_3 = {
 	tip = "科研倾向 / 三期"
 }
 
+_G.pg.gametip.tec_target_catchup_none = {
+	tip = "定向追赶 / 未选择"
+}
+
+_G.pg.gametip.tec_target_catchup_selected = {
+	tip = "定向追赶"
+}
+
 _G.pg.gametip.tec_tendency_cur_4 = {
 	tip = "科研倾向 / 四期"
 }
@@ -14843,6 +14883,10 @@ _G.pg.gametip.guild_start_event_consume_tip = {
 	tip = "是否确认花费$1大舰队物资开启“$2”？"
 }
 
+_G.pg.gametip.guild_start_event_consume_tip_extra = {
+	tip = "本月已开启过<color=#ff5c5c>$3</color>次作战，是否确认花费$1大舰队物资开启“$2”？"
+}
+
 _G.pg.gametip.guild_word_consume_for_battle = {
 	tip = "开启需要消耗"
 }
@@ -15097,6 +15141,10 @@ _G.pg.gametip.guild_battle_log = {
 
 _G.pg.gametip.guild_tech_change_log = {
 	tip = "[$1] $2 将科技研发切换为$3"
+}
+
+_G.pg.gametip.guild_log_title = {
+	tip = "舰队日志"
 }
 
 _G.pg.gametip.guild_use_donateitem_success = {
@@ -16566,7 +16614,7 @@ _G.pg.gametip.world_joint_exit_battle_tip = {
 }
 
 _G.pg.gametip.world_boss_get_item = {
-	tip = "当前已经收集到指定数据量的信标数据，是否立即对其进行解析？\n(<color=#ff5c5c>未解析的情况下，后续将不会继续获得信标数据</color>)"
+	tip = "当前已经收集到指定数据量的信标数据，是否立即对其进行解析？"
 }
 
 _G.pg.gametip.world_boss_ask_help = {
@@ -16844,9 +16892,9 @@ _G.pg.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2021.9.9-2021.12.9</color>期间限时开放「蛟·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「蛟·META」角色</color>
+·<color=#92fc63>2021.12.9-2022.3.10</color>期间限时开放「格奈森瑙·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「格奈森瑙·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「蛟·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「格奈森瑙·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -16973,12 +17021,124 @@ _G.pg.gametip.world_setting_submititemtip = {
 	tip = "功能开启后，自律时自动完成需要提交道具的事件"
 }
 
+_G.pg.gametip.world_setting_mapauto = {
+	tip = "安全海域默认开启自律"
+}
+
+_G.pg.gametip.world_setting_mapautotip = {
+	tip = "功能开启后，进入安全海域时将会默认开启自律模式"
+}
+
 _G.pg.gametip.world_boss_maintenance = {
 	tip = "服务器即将维护,无法进行信标·META作战"
 }
 
 _G.pg.gametip.world_boss_inbattle = {
 	tip = "当前处于信标·META作战中，不可前往"
+}
+
+_G.pg.gametip.world_automode_title_1 = {
+	tip = "计划作战模式"
+}
+
+_G.pg.gametip.world_automode_title_2 = {
+	tip = "OPERATION"
+}
+
+_G.pg.gametip.world_automode_cancel = {
+	tip = "取消"
+}
+
+_G.pg.gametip.world_automode_confirm = {
+	tip = "执行"
+}
+
+_G.pg.gametip.world_automode_start_tip1 = {
+	tip = "不存在符合条件的海域"
+}
+
+_G.pg.gametip.world_automode_start_tip2 = {
+	tip = "行动力不足"
+}
+
+_G.pg.gametip.world_automode_start_tip3 = {
+	tip = "当前并未处于安全海域内"
+}
+
+_G.pg.gametip.world_automode_start_tip4 = {
+	tip = "当前海域无法离开"
+}
+
+_G.pg.gametip.world_automode_setting_1 = {
+	tip = "需要压制的侵蚀等级"
+}
+
+_G.pg.gametip.world_automode_setting_1_1 = {
+	tip = "4及以下 "
+}
+
+_G.pg.gametip.world_automode_setting_1_2 = {
+	tip = "5"
+}
+
+_G.pg.gametip.world_automode_setting_1_3 = {
+	tip = "6"
+}
+
+_G.pg.gametip.world_automode_setting_1_4 = {
+	tip = "全部"
+}
+
+_G.pg.gametip.world_automode_setting_2 = {
+	tip = "选择作战执行模式"
+}
+
+_G.pg.gametip.world_automode_setting_2_1 = {
+	tip = "重复当前海域"
+}
+
+_G.pg.gametip.world_automode_setting_2_2 = {
+	tip = "全海域随机选择"
+}
+
+_G.pg.gametip.world_automode_setting_all_1 = {
+	tip = "是否因神秘商人暂停"
+}
+
+_G.pg.gametip.world_automode_setting_all_1_1 = {
+	tip = "是"
+}
+
+_G.pg.gametip.world_automode_setting_all_1_2 = {
+	tip = "否"
+}
+
+_G.pg.gametip.world_automode_setting_all_2 = {
+	tip = "信标数据点数提示"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_1 = {
+	tip = "关"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_2 = {
+	tip = "满100点提示"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_3 = {
+	tip = "满200点提示"
+}
+
+_G.pg.gametip.world_automode_setting_all_3 = {
+	tip = "自律时自动提交道具"
+}
+
+_G.pg.gametip.world_automode_setting_all_3_1 = {
+	tip = "关"
+}
+
+_G.pg.gametip.world_automode_setting_all_3_2 = {
+	tip = "开"
 }
 
 _G.pg.gametip.area_putong = {
@@ -17169,6 +17329,14 @@ _G.pg.gametip.story_autoplay_setting_1 = {
 
 _G.pg.gametip.story_autoplay_setting_2 = {
 	tip = "开启"
+}
+
+_G.pg.gametip.meta_shop_exchange_limit = {
+	tip = "尚未获得舰船"
+}
+
+_G.pg.gametip.meta_shop_unexchange_label = {
+	tip = "尚未获得舰船"
 }
 
 _G.pg.gametip.daily_level_quick_battle_label2 = {
@@ -18314,6 +18482,50 @@ _G.pg.gametip.world_pressing = {
 	tip = "压制统计"
 }
 
+_G.pg.gametip.Settings_title_FPS = {
+	tip = "帧数设置"
+}
+
+_G.pg.gametip.Settings_title_Notification = {
+	tip = "启用通知功能"
+}
+
+_G.pg.gametip.Settings_title_Other = {
+	tip = "其他设置"
+}
+
+_G.pg.gametip.Settings_title_LoginJP = {
+	tip = "引续码"
+}
+
+_G.pg.gametip.Settings_title_Redeem = {
+	tip = "兑换码"
+}
+
+_G.pg.gametip.Settings_title_AdjustScr = {
+	tip = "异形屏适配"
+}
+
+_G.pg.gametip.Settings_title_Secpw = {
+	tip = "二级密码"
+}
+
+_G.pg.gametip.Settings_title_Secpwlimop = {
+	tip = "二级密码限制行为"
+}
+
+_G.pg.gametip.Settings_title_agreement = {
+	tip = "查看协议"
+}
+
+_G.pg.gametip.Settings_title_sound = {
+	tip = "语音设置"
+}
+
+_G.pg.gametip.Settings_title_resUpdate = {
+	tip = "资源下载"
+}
+
 _G.pg.gametip.equipment_info_change_tip = {
 	tip = "以下装备名称已变更"
 }
@@ -18332,6 +18544,18 @@ _G.pg.gametip.equipment_info_change_text_before = {
 
 _G.pg.gametip.equipment_info_change_text_after = {
 	tip = "变更后"
+}
+
+_G.pg.gametip.world_boss_progress_tip_title = {
+	tip = "信标数据收集提示"
+}
+
+_G.pg.gametip.world_boss_progress_tip_desc = {
+	tip = [[
+功能开启后，在大型作战中收集信标数据时：
+关：将不再有提示
+每累计满100点时：达到100与200点时进行提示
+累计满200点时：达到200点时进行提示]]
 }
 
 _G.pg.gametip.ssss_main_help = {
@@ -18558,6 +18782,18 @@ _G.pg.gametip.blueprint_exchange_select_display = {
 	tip = "已选数量 / 所需数量"
 }
 
+_G.pg.gametip.build_rate_title = {
+	tip = "建造概率"
+}
+
+_G.pg.gametip.build_pools_intro = {
+	tip = "使用心智魔方和物资，快速拓展舰队规模"
+}
+
+_G.pg.gametip.build_detail_intro = {
+	tip = "可同时施工的干船坞数量："
+}
+
 _G.pg.gametip.ssss_game_tip = {
 	tip = {
 		{
@@ -18616,7 +18852,7 @@ _G.pg.gametip.battlepass_main_help_2112 = {
 
 ·<color=#92fc63>「特许巡游凭证」说明</color>
 （1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
-（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即1.31 22:59:59停止)，请指挥官注意购买时间。
 
 ·<color=#92fc63>任务说明</color>
 巡游任务分为两种：

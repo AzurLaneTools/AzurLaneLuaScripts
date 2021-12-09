@@ -133,7 +133,7 @@ function slot0.update(slot0, slot1)
 					uv0:updateCountText()
 				end
 			end, SFX_PANEL)
-			triggerToggle(slot2, false)
+			triggerToggle(slot2, slot1 == 1)
 			setScrollText(slot2:Find("name_bg/Text"), HXSet.hxLan(uv0.displayDrops[slot1].cfg.name))
 
 			uv0.selectedItem = uv0.selectedItem or slot2

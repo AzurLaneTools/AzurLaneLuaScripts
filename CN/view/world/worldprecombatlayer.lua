@@ -129,7 +129,7 @@ function slot0.didEnter(slot0)
 			toggle = uv0.autoToggle
 		})
 
-		if slot0 and nowWorld:GetSubAidFlag() then
+		if slot0 and nowWorld():GetSubAidFlag() then
 			setActive(uv0.autoSubToggle, true)
 			onToggle(uv0, uv0.autoSubToggle, function (slot0)
 				uv0:emit(WorldPreCombatMediator.OnSubAuto, {
@@ -182,25 +182,21 @@ end
 
 function slot0.setPlayerInfo(slot0, slot1)
 	slot0.resPanel:setPlayer(slot1)
-	setActive(slot0.resPanel._tf, nowWorld:IsSystemOpen(WorldConst.SystemResource))
+	setActive(slot0.resPanel._tf, nowWorld():IsSystemOpen(WorldConst.SystemResource))
 end
 
 function slot0.getCurrentFleet(slot0)
-	return nowWorld:GetFleet()
+	return nowWorld():GetFleet()
 end
 
 function slot0.GetCurrentAttachment(slot0)
-	slot1 = nowWorld:GetActiveMap()
+	slot1 = nowWorld():GetActiveMap()
 	slot2 = slot1:GetFleet()
 
 	return slot1:GetCell(slot2.row, slot2.column):GetAliveAttachment(), slot1.config.difficulty
 end
 
 function slot0.updateStageView(slot0)
-	slot2 = slot0:GetCurrentAttachment():GetBattleStageId()
-	slot3 = pg.expedition_data_template[slot2]
-	slot5 = pg.world_expedition_data[slot2] and slot4.battle_type and slot4.battle_type ~= 0
-
 	setActive(slot0.normaltab, false)
 	setActive(slot0.informationtab, true)
 	slot0:UpdateInformationtab()
@@ -208,19 +204,17 @@ end
 
 function slot0.UpdateNormaltab(slot0)
 	slot1, slot2 = slot0:GetCurrentAttachment()
-	slot3 = slot1:GetBattleStageId()
-	slot4 = pg.expedition_data_template[slot3]
-	slot6 = {}
+	slot5 = {}
 
-	for slot10, slot11 in ipairs(pg.world_expedition_data[slot3].award_display_world) do
-		if slot2 == slot11[1] then
-			slot6 = slot11[2]
+	for slot9, slot10 in ipairs(pg.world_expedition_data[slot1:GetBattleStageId()].award_display_world) do
+		if slot2 == slot10[1] then
+			slot5 = slot10[2]
 		end
 	end
 
-	slot7 = UIItemList.New(slot0.spoilsContainer, slot0.spoilsItem)
+	slot6 = UIItemList.New(slot0.spoilsContainer, slot0.spoilsItem)
 
-	slot7:make(function (slot0, slot1, slot2)
+	slot6:make(function (slot0, slot1, slot2)
 		slot3 = slot2
 		slot4 = uv0[slot1 + 1]
 
@@ -232,7 +226,7 @@ function slot0.UpdateNormaltab(slot0)
 			uv0:emit(uv1.ON_DROP, uv2)
 		end, SFX_PANEL)
 	end)
-	slot7:align(#slot6)
+	slot6:align(#slot5)
 end
 
 slot3 = "fe2222"
@@ -240,23 +234,15 @@ slot4 = "92fc63"
 
 function slot0.UpdateInformationtab(slot0)
 	slot1, slot2 = slot0:GetCurrentAttachment()
-	slot3 = slot1:GetBattleStageId()
-	slot4 = pg.expedition_data_template[slot3]
-	slot5 = pg.world_expedition_data[slot3]
+	slot5 = {}
 
-	for slot9 = 1, #slot0.digits do
-		slot10 = slot0.digits[slot9]
-	end
-
-	slot6 = {}
-
-	for slot10, slot11 in ipairs(slot5.award_display_world) do
-		if slot2 == slot11[1] then
-			slot6 = slot11[2]
+	for slot9, slot10 in ipairs(pg.world_expedition_data[slot1:GetBattleStageId()].award_display_world) do
+		if slot2 == slot10[1] then
+			slot5 = slot10[2]
 		end
 	end
 
-	slot7 = 0
+	slot6 = 0
 
 	onButton(slot0, slot0.dropright, function ()
 		uv0 = uv0 + 1
@@ -287,14 +273,15 @@ function slot0.UpdateInformationtab(slot0)
 		setActive(uv0.dropright, #uv1 - uv2 > #uv0.dropitems)
 	end)()
 
+	slot8 = nowWorld()
 	slot9 = ys.Battle.BattleFormulas
-	slot10 = nowWorld:GetWorldMapDifficultyBuffLevel()
+	slot10 = slot8:GetWorldMapDifficultyBuffLevel()
 	slot11 = {
-		slot10[1] * (1 + slot5.expedition_sairenvalueA / 10000),
-		slot10[2] * (1 + slot5.expedition_sairenvalueB / 10000),
-		slot10[3] * (1 + slot5.expedition_sairenvalueC / 10000)
+		slot10[1] * (1 + slot4.expedition_sairenvalueA / 10000),
+		slot10[2] * (1 + slot4.expedition_sairenvalueB / 10000),
+		slot10[3] * (1 + slot4.expedition_sairenvalueC / 10000)
 	}
-	slot12 = nowWorld:GetWorldMapBuffLevel()
+	slot12 = slot8:GetWorldMapBuffLevel()
 	slot13, slot14, slot15 = slot9.WorldMapRewardAttrEnhance(slot11, slot12)
 	slot17 = {
 		slot13,
@@ -364,12 +351,11 @@ function slot0.updateFleetView(slot0)
 
 				slot7 = WorldConst.FetchWorldShip(slot1[slot5].id)
 				slot8 = slot7:IsHpSafe()
-				slot10 = findTF(slot6, "blood")
 
 				setActive(findTF(slot6, "blood/fillarea/green"), slot8)
 				setActive(findTF(slot6, "blood/fillarea/red"), not slot8)
 
-				(slot8 and slot11 or slot12):GetComponent("Image").fillAmount = slot7.hpRant * 0.0001
+				(slot8 and slot10 or slot11):GetComponent("Image").fillAmount = slot7.hpRant * 0.0001
 
 				setActive(slot6:Find("broken"), slot7:IsBroken())
 				setActive(slot6:Find("mask"), not slot7:IsAlive())

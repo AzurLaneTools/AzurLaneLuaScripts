@@ -153,7 +153,13 @@ function slot3.DisptachSkillFloat(slot0, slot1, slot2, slot3)
 
 		slot1:DispatchSkillFloat(getSkillName(slot3.displayID or slot0._id), nil, slot4)
 
-		if type(slot3.castCV or "skill") == "string" then
+		slot6 = nil
+
+		if slot3.castCV ~= false then
+			slot6 = slot3.castCV or "skill"
+		end
+
+		if type(slot6) == "string" then
 			slot1:DispatchVoice(slot6)
 		elseif slot7 == "table" then
 			slot8, slot9, slot10 = ShipWordHelper.GetWordAndCV(slot6.skinID, slot6.key)

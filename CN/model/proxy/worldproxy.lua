@@ -10,15 +10,15 @@ function slot0.register(slot0)
 
 		uv0:BuildWorld(World.TypeBase)
 
-		nowWorld.baseShipIds = underscore.rest(slot0.ship_id_list, 1)
-		nowWorld.baseCmdIds = underscore.rest(slot0.cmd_id_list, 1)
+		uv0.world.baseShipIds = underscore.rest(slot0.ship_id_list, 1)
+		uv0.world.baseCmdIds = underscore.rest(slot0.cmd_id_list, 1)
 
-		nowWorld:UpdateProgress(slot0.progress)
+		uv0.world:UpdateProgress(slot0.progress)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
 		uv0:sendNotification(GAME.WORLD_GET_BOSS)
 	end)
 	slot0:on(33105, function (slot0)
-		slot1 = nowWorld:GetActiveMap()
+		slot1 = uv0.world:GetActiveMap()
 
 		uv0:UpdateMapAttachmentCells(slot1.id, uv0:NetBuildMapAttachmentCells(slot0.pos_list))
 
@@ -28,7 +28,7 @@ function slot0.register(slot0)
 		WPool:ReturnArray(slot3)
 	end)
 	slot0:on(33203, function (slot0)
-		slot1 = nowWorld:GetTaskProxy()
+		slot1 = uv0.world:GetTaskProxy()
 
 		for slot5, slot6 in ipairs(slot0.update_list) do
 			if slot1:getTaskById(WorldTask.New(slot6).id) then
@@ -42,7 +42,7 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:on(33204, function (slot0)
-		slot1 = nowWorld:GetTaskProxy()
+		slot1 = uv0.world:GetTaskProxy()
 
 		for slot5, slot6 in ipairs(slot0.delete_list) do
 			slot1:deleteTask(slot6)
@@ -52,25 +52,25 @@ function slot0.register(slot0)
 		uv0:NetUpdateAchievements(slot0.target_list)
 	end)
 	slot0:on(34507, function (slot0)
-		if nowWorld then
+		if uv0.world then
 			slot2 = WorldBoss.New()
 
 			slot2:Setup(slot0.boss_info, Player.New(slot0.user_info))
 			slot2:UpdateBossType(slot0.type)
 			slot2:SetJoinTime(pg.TimeMgr.GetInstance():GetServerTime())
 
-			if nowWorld:GetBossProxy().isSetup then
+			if uv0.world:GetBossProxy().isSetup then
 				slot1:ClearRank(slot2.id)
 				slot1:UpdateCacheBoss(slot2)
 			end
 
-			if not slot1:IsSelfBoss(slot2) and nowWorld:IsSystemOpen(WorldConst.SystemWorldBoss) then
+			if not slot1:IsSelfBoss(slot2) and uv0.world:IsSystemOpen(WorldConst.SystemWorldBoss) then
 				pg.WorldBossTipMgr.GetInstance():Show(slot2)
 			end
 		end
 	end)
 	slot0:on(34508, function (slot0)
-		if nowWorld:GetBossProxy().isSetup then
+		if uv0.world:GetBossProxy().isSetup then
 			uv0:sendNotification(GAME.WORLD_GET_BOSS_RANK, {
 				bossId = slot0.boss_id,
 				callback = function ()
@@ -82,11 +82,8 @@ function slot0.register(slot0)
 end
 
 function slot0.remove(slot0)
-	nowWorld:GetBossProxy():Dispose()
-	nowWorld:Dispose()
-
-	nowWorld = nil
-
+	slot0.world:GetBossProxy():Dispose()
+	removeWorld()
 	WPool:Dispose()
 
 	WPool = nil
@@ -125,9 +122,8 @@ function slot0.BuildTestFunc(slot0)
 end
 
 function slot0.BuildWorld(slot0, slot1)
-	nowWorld = World.New(slot1, nowWorld and nowWorld:Dispose(slot1))
+	slot0.world = World.New(slot1, slot0.world and slot0.world:Dispose(slot1))
 
-	nowWorld:NewAtlas(WorldConst.DefaultAtlas)
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
 end
 
@@ -145,7 +141,7 @@ function slot0.NetFullUpdate(slot0, slot1)
 end
 
 function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
-	slot4 = nowWorld
+	slot4 = slot0.world
 
 	slot4:SetRealm(slot3)
 
@@ -200,6 +196,9 @@ function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
 			floor = slot0.stack
 		})
 	end)
+	underscore.each(slot1.month_boss, function (slot0)
+		uv0.lowestHP[slot0.key] = slot0.value
+	end)
 end
 
 function slot0.NetUpdateWorldDefaultFleets(slot0, slot1)
@@ -214,45 +213,45 @@ function slot0.NetUpdateWorldDefaultFleets(slot0, slot1)
 	table.sort(slot2, function (slot0, slot1)
 		return slot0.id < slot1.id
 	end)
-	nowWorld:SetDefaultFleets(slot2)
+	slot0.world:SetDefaultFleets(slot2)
 end
 
 function slot0.NetUpdateWorldAchievements(slot0, slot1, slot2)
-	nowWorld.achievements = {}
+	slot0.world.achievements = {}
 
 	slot0:NetUpdateAchievements(slot1)
 
-	nowWorld.achieveEntranceStar = {}
+	slot0.world.achieveEntranceStar = {}
 
 	_.each(slot2, function (slot0)
 		for slot4, slot5 in ipairs(slot0.star_list) do
-			nowWorld:SetAchieveSuccess(slot0.id, slot5)
+			uv0.world:SetAchieveSuccess(slot0.id, slot5)
 		end
 	end)
 end
 
 function slot0.NetUpdateWorldCountInfo(slot0, slot1)
-	nowWorld.stepCount = slot1.step_count
-	nowWorld.treasureCount = slot1.treasure_count
-	nowWorld.activateCount = slot1.activate_count
+	slot0.world.stepCount = slot1.step_count
+	slot0.world.treasureCount = slot1.treasure_count
+	slot0.world.activateCount = slot1.activate_count
 
-	nowWorld:GetCollectionProxy():Setup(slot1.collection_list)
-	nowWorld:UpdateProgress(slot1.task_progress)
+	slot0.world:GetCollectionProxy():Setup(slot1.collection_list)
+	slot0.world:UpdateProgress(slot1.task_progress)
 end
 
 function slot0.NetUpdateActiveMap(slot0, slot1, slot2, slot3)
-	slot4 = nowWorld:GetActiveEntrance()
+	slot4 = slot0.world:GetActiveEntrance()
 
-	if nowWorld:GetActiveMap():NeedClear() and slot4.becomeSairen and slot4:GetSairenMapId() == slot5.id then
-		nowWorld:GetAtlas():RemoveSairenEntrance(slot4)
+	if slot0.world:GetActiveMap():NeedClear() and slot4.becomeSairen and slot4:GetSairenMapId() == slot5.id then
+		slot0.world:GetAtlas():RemoveSairenEntrance(slot4)
 	end
 
-	if slot4.id ~= nowWorld:GetEntrance(slot1).id then
+	if slot4.id ~= slot0.world:GetEntrance(slot1).id then
 		slot4:UpdateActive(false)
 		slot6:UpdateActive(true)
 	end
 
-	if slot5.id ~= nowWorld:GetMap(slot2).id then
+	if slot5.id ~= slot0.world:GetMap(slot2).id then
 		slot5:UpdateActive(false)
 		slot5:RemoveFleetsCarries()
 		slot5:UnbindFleets()
@@ -261,11 +260,11 @@ function slot0.NetUpdateActiveMap(slot0, slot1, slot2, slot3)
 		slot5.findex = nil
 
 		slot7:UpdateGridId(slot3)
-		slot7:BindFleets(nowWorld.fleets)
+		slot7:BindFleets(slot0.world.fleets)
 		slot7:UpdateActive(true)
 	end
 
-	nowWorld:OnSwitchMap()
+	slot0.world:OnSwitchMap()
 end
 
 function slot0.NetUpdateMap(slot0, slot1)
@@ -276,10 +275,10 @@ function slot0.NetUpdateMap(slot0, slot1)
 		uv0[slot0] = true
 	end)
 
-	slot5 = nowWorld:GetMap(slot1.id.random_id)
+	slot5 = slot0.world:GetMap(slot1.id.random_id)
 
 	slot5:UpdateClearFlag(slot4[1])
-	slot5:UpdateVisionFlag(slot4[2] or nowWorld:IsMapVisioned(slot2))
+	slot5:UpdateVisionFlag(slot4[2] or slot0.world:IsMapVisioned(slot2))
 	slot0:NetUpdateMapDiscoveredCells(slot5.id, slot4[3], slot1.cell_list)
 	slot0:UpdateMapAttachmentCells(slot5.id, slot0:NetBuildMapAttachmentCells(slot1.pos_list))
 
@@ -296,7 +295,7 @@ function slot0.NetUpdateMap(slot0, slot1)
 end
 
 function slot0.NetUpdateMapDiscoveredCells(slot0, slot1, slot2, slot3)
-	slot4 = nowWorld:GetMap(slot1)
+	slot4 = slot0.world:GetMap(slot1)
 
 	if slot2 then
 		for slot8, slot9 in pairs(slot4.cells) do
@@ -310,7 +309,7 @@ function slot0.NetUpdateMapDiscoveredCells(slot0, slot1, slot2, slot3)
 end
 
 function slot0.NetUpdateMapPort(slot0, slot1, slot2)
-	slot4 = nowWorld:GetMap(slot1):GetPort(slot2.port_id)
+	slot4 = slot0.world:GetMap(slot1):GetPort(slot2.port_id)
 
 	slot4:UpdateTaskIds(_.rest(slot2.task_list, 1))
 	slot4:UpdateGoods(_.map(slot2.goods_list, function (slot0)
@@ -325,7 +324,7 @@ end
 
 function slot0.NetUpdateAchievements(slot0, slot1)
 	_.each(slot1, function (slot0)
-		nowWorld:DispatchEvent(World.EventAchieved, nowWorld:GetAchievement(slot0.id):NetUpdate(slot0.process_list))
+		uv0.world:DispatchEvent(World.EventAchieved, uv0.world:GetAchievement(slot0.id):NetUpdate(slot0.process_list))
 	end)
 end
 
@@ -408,7 +407,7 @@ function slot0.NetBuildMapAttachmentCells(slot0, slot1)
 end
 
 function slot0.UpdateMapAttachmentCells(slot0, slot1, slot2)
-	slot3 = nowWorld:GetMap(slot1)
+	slot3 = slot0.world:GetMap(slot1)
 
 	for slot7, slot8 in pairs(slot2) do
 		for slot14 = #slot3:GetCell(slot8.pos.row, slot8.pos.column).attachments, 1, -1 do
@@ -462,7 +461,7 @@ function slot0.NetBuildFleetAttachUpdate(slot0, slot1)
 end
 
 function slot0.ApplyFleetAttachUpdate(slot0, slot1, slot2)
-	slot3 = nowWorld
+	slot3 = slot0.world
 	slot3 = slot3:GetMap(slot1)
 
 	_.each(slot2, function (slot0)
@@ -481,7 +480,7 @@ function slot0.NetBulidTerrainUpdate(slot0, slot1)
 end
 
 function slot0.ApplyTerrainUpdate(slot0, slot1, slot2)
-	slot3 = nowWorld
+	slot3 = slot0.world
 	slot3 = slot3:GetMap(slot1)
 
 	_.each(slot2, function (slot0)
@@ -510,7 +509,7 @@ function slot0.NetBuildFleetUpdate(slot0, slot1)
 end
 
 function slot0.ApplyFleetUpdate(slot0, slot1, slot2)
-	slot3 = nowWorld
+	slot3 = slot0.world
 	slot3 = slot3:GetMap(slot1)
 
 	_.each(slot2, function (slot0)
@@ -535,25 +534,25 @@ end
 
 function slot0.ApplyShipUpdate(slot0, slot1)
 	_.each(slot1, function (slot0)
-		nowWorld:GetShip(slot0.id):UpdateHpRant(slot0.hpRant)
+		uv0.world:GetShip(slot0.id):UpdateHpRant(slot0.hpRant)
 	end)
 end
 
 function slot0.NetUpdateWorldSairenChapter(slot0, slot1)
-	nowWorld:GetAtlas():SetSairenEntranceList(_.rest(slot1, 1))
+	slot0.world:GetAtlas():SetSairenEntranceList(_.rest(slot1, 1))
 end
 
 function slot0.NetUpdateWorldMapPressing(slot0, slot1)
-	nowWorld:GetAtlas():SetPressingMarkList(_.rest(slot1, 1))
+	slot0.world:GetAtlas():SetPressingMarkList(_.rest(slot1, 1))
 end
 
 function slot0.NetUpdateWorldShopGoods(slot0, slot1)
-	nowWorld:InitWorldShopGoods()
-	nowWorld:UpdateWorldShopGoods(slot1)
+	slot0.world:InitWorldShopGoods()
+	slot0.world:UpdateWorldShopGoods(slot1)
 end
 
 function slot0.NetUpdateWorldPressingAward(slot0, slot1)
-	slot2 = nowWorld
+	slot2 = slot0.world
 	slot2 = slot2:GetAtlas()
 
 	_.each(slot1, function (slot0)
@@ -561,16 +560,16 @@ function slot0.NetUpdateWorldPressingAward(slot0, slot1)
 			id = slot0.award,
 			flag = slot0.flag == 1
 		}
-		nowWorld.pressingAwardDic[slot0.id] = slot2
+		uv0.world.pressingAwardDic[slot0.id] = slot2
 
 		if not slot2.flag then
-			uv0:MarkMapTransport(slot1)
+			uv1:MarkMapTransport(slot1)
 		end
 	end)
 end
 
 function slot0.NetUpdateWorldPortTaskMark(slot0, slot1)
-	nowWorld:GetAtlas():SetPortTaskList(slot1)
+	slot0.world:GetAtlas():SetPortTaskList(slot1)
 end
 
 function slot0.NetBuildSalvageUpdate(slot0, slot1)
@@ -585,7 +584,7 @@ end
 
 function slot0.ApplySalvageUpdate(slot0, slot1)
 	_.each(slot1, function (slot0)
-		nowWorld:GetFleet(slot0.id):UpdateCatSalvage(slot0.step, slot0.list, slot0.mapId)
+		uv0.world:GetFleet(slot0.id):UpdateCatSalvage(slot0.step, slot0.list, slot0.mapId)
 	end)
 end
 

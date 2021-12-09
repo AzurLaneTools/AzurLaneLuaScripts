@@ -10,7 +10,7 @@ function slot0.register(slot0)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
 			shipId = slot3.id,
-			shipVOs = nowWorld:GetFleet(slot3.fleetId):GetShipVOs(true)
+			shipVOs = nowWorld():GetFleet(slot3.fleetId):GetShipVOs(true)
 		})
 	end)
 	slot0:bind(uv0.OnCmdSkill, function (slot0, slot1)
@@ -24,7 +24,7 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0.viewComponent:setPlayerInfo(getProxy(PlayerProxy):getRawData())
-	slot0.viewComponent:setFleets(nowWorld:GetFleets())
+	slot0.viewComponent:setFleets(nowWorld():GetFleets())
 end
 
 function slot0.listNotificationInterests(slot0)

@@ -296,6 +296,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[131] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "使用格奈森瑙.META获得1次胜利",
+		id = 131,
+		target_num = 1,
+		target_id = "0"
+	},
+	[132] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "使用格奈森瑙.META击破等级>30的敌方1次",
+		id = 132,
+		target_num = 1,
+		target_id = "30"
+	},
+	[133] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "使用格奈森瑙.META击破等级>55的敌方1次",
+		id = 133,
+		target_num = 1,
+		target_id = "55"
+	},
+	[134] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "使用格奈森瑙.META击破等级>80的敌方1次",
+		id = 134,
+		target_num = 1,
+		target_id = "80"
+	},
+	[135] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "使用格奈森瑙.META击破等级>100的敌方1次",
+		id = 135,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -488,6 +528,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[224] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "大型作战内使用格奈森瑙.META获得1次胜利",
+		id = 224,
+		target_num = 1,
+		target_id = "0"
+	},
+	[225] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "大型作战内使用格奈森瑙.META击破等级>70的敌方1次",
+		id = 225,
+		target_num = 1,
+		target_id = "70"
+	},
+	[226] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "大型作战内使用格奈森瑙.META击破等级>90的敌方1次",
+		id = 226,
+		target_num = 1,
+		target_id = "90"
+	},
+	[227] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "大型作战内使用格奈森瑙.META击破等级>100的敌方1次",
+		id = 227,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -542,6 +614,11 @@ pg.task_meta_data_template = {
 		128,
 		129,
 		130,
+		131,
+		132,
+		133,
+		134,
+		135,
 		200,
 		201,
 		202,
@@ -566,6 +643,10 @@ pg.task_meta_data_template = {
 		221,
 		222,
 		223,
+		224,
+		225,
+		226,
+		227,
 		301,
 		302
 	}

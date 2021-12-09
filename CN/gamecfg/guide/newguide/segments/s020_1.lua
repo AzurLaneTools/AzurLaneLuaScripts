@@ -32,7 +32,7 @@ return {
 				posX = 205.91
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/BuildShipUI(Clone)/bg/main/gallery/start_btn",
+				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/start_btn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -53,7 +53,7 @@ return {
 				posX = 0
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/build_msg/window/btns/confirm_btn",
+				path = "/OverlayCamera/Overlay/UIMain/BuildShipMsgBoxUI(Clone)/window/btns/confirm_btn",
 				pathIndex = -1,
 				triggerType = {
 					1

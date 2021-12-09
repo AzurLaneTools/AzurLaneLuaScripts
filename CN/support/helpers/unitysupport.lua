@@ -221,6 +221,12 @@ function onToggle(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
+function removeOnToggle(slot0)
+	if GetComponent(slot0, typeof(Toggle)) ~= nil then
+		slot1.onValueChanged:RemoveAllListeners()
+	end
+end
+
 function triggerToggle(slot0, slot1)
 	uv0 = false
 
@@ -369,7 +375,7 @@ function GetInChildren(slot0, slot1)
 end
 
 function onNextTick(slot0)
-	Timer.New(slot0, 0.001, 1):Start()
+	FrameTimer.New(slot0, 1, 1):Start()
 end
 
 function onDelayTick(slot0, slot1)
@@ -699,6 +705,27 @@ function long2int(slot0)
 	slot1, slot2 = int64.tonum2(slot0)
 
 	return slot1
+end
+
+function OnSliderWithButton(slot0, slot1, slot2)
+	slot3 = slot1:GetComponent("Slider")
+	slot4 = slot3.onValueChanged
+
+	slot4:RemoveAllListeners()
+	pg.DelegateInfo.Add(slot0, slot3.onValueChanged)
+
+	slot4 = slot3.onValueChanged
+
+	slot4:AddListener(slot2)
+
+	slot4 = (slot3.maxValue - slot3.minValue) * 0.1
+
+	onButton(slot0, slot1:Find("up"), function ()
+		uv0.value = math.clamp(uv0.value + uv1, uv0.minValue, uv0.maxValue)
+	end, SFX_PANEL)
+	onButton(slot0, slot1:Find("down"), function ()
+		uv0.value = math.clamp(uv0.value - uv1, uv0.minValue, uv0.maxValue)
+	end, SFX_PANEL)
 end
 
 function addSlip(slot0, slot1, slot2, slot3, slot4)

@@ -3,7 +3,7 @@ slot0 = class("WorldStaminaExchangeCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = getProxy(PlayerProxy)
-	slot4 = nowWorld.staminaMgr
+	slot4 = nowWorld().staminaMgr
 	slot5, slot6, slot7, slot8 = slot4:GetExchangeData()
 	slot9 = pg.ConnectionMgr.GetInstance()
 

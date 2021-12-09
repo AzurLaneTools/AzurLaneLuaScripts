@@ -34,6 +34,10 @@ function slot3.SetAoeData(slot0, slot1)
 	slot0._angle = slot0._beamTemp.angle
 
 	slot0._aoe:SetAngle(slot0._angle + slot0._aimAngle)
+
+	if slot0._bulletTemp.extra_param.diveFilter then
+		slot0._aoe:SetDiveFilter(slot2)
+	end
 end
 
 function slot3.SetAimAngle(slot0, slot1)

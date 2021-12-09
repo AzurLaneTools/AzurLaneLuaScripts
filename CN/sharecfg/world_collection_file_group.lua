@@ -106,9 +106,9 @@ pg.world_collection_file_group = {
 		}
 	},
 	[610] = {
-		name = "未公开档案",
+		name = "魔方的奥秘",
 		id_2 = "061",
-		name_abbreviate = "1",
+		name_abbreviate = "8",
 		type = 3,
 		id = 610,
 		child = {
@@ -121,9 +121,9 @@ pg.world_collection_file_group = {
 		}
 	},
 	[710] = {
-		name = "未公开档案",
+		name = "代号：CodeG",
 		id_2 = "071",
-		name_abbreviate = "1",
+		name_abbreviate = "9",
 		type = 3,
 		id = 710,
 		child = {
@@ -151,9 +151,9 @@ pg.world_collection_file_group = {
 		}
 	},
 	[910] = {
-		name = "未公开档案",
+		name = "机密记录I",
 		id_2 = "091",
-		name_abbreviate = "1",
+		name_abbreviate = "11",
 		type = 5,
 		id = 910,
 		child = {

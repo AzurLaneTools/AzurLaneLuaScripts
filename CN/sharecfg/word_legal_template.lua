@@ -107,7 +107,18 @@ function temp()
 		["奈"] = {
 			["森"] = {
 				["瑙"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}

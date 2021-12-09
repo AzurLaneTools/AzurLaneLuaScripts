@@ -4835,6 +4835,11 @@ function temp()
 				this = true
 			}
 		},
+		["岸"] = {
+			["英"] = {
+				this = true
+			}
+		},
 		["主"] = {
 			["席"] = {
 				this = true,

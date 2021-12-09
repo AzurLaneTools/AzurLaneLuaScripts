@@ -74,16 +74,19 @@ function slot0.didEnter(slot0)
 		end
 	end)
 	slot0:AddWorldListener()
-	slot0:updateGoods(nil, , nowWorld:GetWorldShopGoodsDictionary())
 
-	slot1 = nowWorld:IsReseted()
+	slot1 = nowWorld()
 
-	setActive(slot0.rtResetTime, slot1)
-	setActive(slot0.rtResetTip, not slot1)
-	setText(slot0.rtResetTime:Find("number"), math.floor(nowWorld:GetResetWaitingTime() / 86400))
+	slot0:updateGoods(nil, , slot1:GetWorldShopGoodsDictionary())
+
+	slot2 = slot1:IsReseted()
+
+	setActive(slot0.rtResetTime, slot2)
+	setActive(slot0.rtResetTip, not slot2)
+	setText(slot0.rtResetTime:Find("number"), math.floor(slot1:GetResetWaitingTime() / 86400))
 	setText(slot0.rtResetTip:Find("info"), i18n("world_shop_preview_tip"))
 
-	if slot1 then
+	if slot2 then
 		WorldGuider.GetInstance():PlayGuide("WorldG180")
 	end
 end
@@ -119,30 +122,34 @@ function slot0.setPlayer(slot0, slot1)
 end
 
 function slot0.AddWorldListener(slot0)
-	nowWorld:AddListener(World.EventUpdateShopGoods, slot0.onUpdateGoods)
+	nowWorld():AddListener(World.EventUpdateShopGoods, slot0.onUpdateGoods)
 end
 
 function slot0.RemoveWorldListener(slot0)
-	nowWorld:RemoveListener(World.EventUpdateShopGoods, slot0.onUpdateGoods)
+	nowWorld():RemoveListener(World.EventUpdateShopGoods, slot0.onUpdateGoods)
 end
 
 function slot0.updateGoods(slot0, slot1, slot2, slot3)
-	slot4 = {}
+	slot4 = pg.TimeMgr.GetInstance()
+	slot5 = nowWorld().expiredTime
+	slot6 = {}
 
-	for slot8, slot9 in pairs(slot3) do
-		if slot8 ~= 100000 or nowWorld:IsReseted() then
-			table.insert(slot4, {
-				id = slot8,
-				count = slot9
+	for slot10, slot11 in pairs(slot3) do
+		if slot10 == 100000 and not nowWorld():IsReseted() then
+			-- Nothing
+		elseif slot4:inTime(pg.shop_template[slot10].time) and slot4:inTime(pg.shop_template[slot10].time, slot5 - 1) then
+			table.insert(slot6, {
+				id = slot10,
+				count = slot11
 			})
 		end
 	end
 
-	table.sort(slot4, function (slot0, slot1)
+	table.sort(slot6, function (slot0, slot1)
 		return pg.shop_template[slot0.id].order < pg.shop_template[slot1.id].order
 	end)
 
-	slot0.goodsList = slot4
+	slot0.goodsList = slot6
 
 	slot0.goodsItemList:align(#slot0.goodsList)
 end

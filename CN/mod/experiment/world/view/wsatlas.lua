@@ -261,7 +261,7 @@ function slot0.OnUpdatePressingAward(slot0, slot1, slot2, slot3)
 end
 
 function slot0.UpdateCenterEffectDisplay(slot0)
-	slot1 = nowWorld:CheckAreaUnlock(5)
+	slot1 = nowWorld():CheckAreaUnlock(5)
 
 	setActive(slot0.tfEntity:Find("decolation_layer/DSJ_xuanwo"), not slot1)
 	setActive(slot0.tfEntity:Find("decolation_layer/DSJ_xuanwo_jianhua"), slot1)

@@ -75,6 +75,69 @@ pg.world_item_data_template = {
 			101
 		}
 	},
+	[103] = {
+		item_transform_item_type = 1,
+		name = "仲裁机关战利品回收箱（小）",
+		item_transform_item_id = 3002,
+		display = "击破仲裁机关量产型机体后回收的战利品箱。作战结束后将会自动转换为100战备物资兑换券。",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 100,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 103,
+		icon = "Props/Wsairencailiao3",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
+	[104] = {
+		item_transform_item_type = 1,
+		name = "仲裁机关战利品回收箱（中）",
+		item_transform_item_id = 3002,
+		display = "击破仲裁机关量产型机体后回收的战利品箱。作战结束后将会自动转换为200战备物资兑换券。",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 200,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 104,
+		icon = "Props/Wsairencailiao1",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
+	[105] = {
+		item_transform_item_type = 1,
+		name = "仲裁机关战利品回收箱（大）",
+		item_transform_item_id = 3002,
+		display = "击破仲裁机关量产型机体后回收的战利品箱。作战结束后将会自动转换为500战备物资兑换券。",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 500,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 105,
+		icon = "Props/Wsairencailiao2",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
 	[110] = {
 		item_transform_item_type = 1,
 		name = "塞壬能源储存容器",
@@ -3941,6 +4004,9 @@ pg.world_item_data_template = {
 		100,
 		101,
 		102,
+		103,
+		104,
+		105,
 		110,
 		201,
 		202,

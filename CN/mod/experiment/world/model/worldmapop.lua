@@ -38,7 +38,7 @@ slot0.Fields = {
 function slot0.Apply(slot0)
 	slot0.applied = true
 	slot1 = getProxy(WorldProxy)
-	slot3 = nowWorld:GetActiveMap()
+	slot3 = nowWorld():GetActiveMap()
 
 	if slot0.op == WorldConst.OpReqMoveFleet then
 		slot2:IncRound()
@@ -128,7 +128,7 @@ function slot0.Apply(slot0)
 		slot2:FlagMapPressingAward(slot4)
 		slot2:GetAtlas():AddPressingMap(slot4)
 
-		if not slot2:GetMap(slot4).visionFlag and nowWorld:IsMapVisioned(slot4) then
+		if not slot2:GetMap(slot4).visionFlag and nowWorld():IsMapVisioned(slot4) then
 			slot6:UpdateVisionFlag(true)
 		end
 	elseif slot0.op == WorldConst.OpReqJumpOut then
@@ -229,7 +229,7 @@ end
 
 function slot0.ApplyAttachmentUpdate(slot0)
 	slot1 = getProxy(WorldProxy)
-	slot3 = nowWorld:GetActiveMap()
+	slot3 = nowWorld():GetActiveMap()
 
 	if slot0.updateAttachmentCells then
 		slot7 = slot0.updateAttachmentCells
@@ -252,7 +252,7 @@ end
 
 function slot0.ApplyNetUpdate(slot0)
 	slot1 = getProxy(WorldProxy)
-	slot3 = nowWorld:GetActiveMap()
+	slot3 = nowWorld():GetActiveMap()
 
 	if slot0.staminaUpdate then
 		slot2.staminaMgr:ChangeStamina(slot0.staminaUpdate[1], slot0.staminaUpdate[2])

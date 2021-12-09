@@ -9,7 +9,7 @@ function slot1.Ctor(slot0)
 end
 
 function slot1.TriggerBuffOnFire(slot0)
-	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ANTIAIR_FIRE, {})
+	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ANTIAIR_FIRE_NEAR, {})
 end
 
 function slot1.FilterTarget(slot0)

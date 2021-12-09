@@ -1416,6 +1416,34 @@ pg.world_port_data = {
 		},
 		goods_pool = {}
 	},
+	[30] = {
+		port_bg = "port_zuozhangangkou",
+		name = "核心区前哨站",
+		goods_num = 0,
+		port_entrance_icon = "",
+		id = 30,
+		scan_desc = "参与作战的舰队在此集结",
+		port_camp = 1,
+		goods_refresh_time = 259200,
+		open_condition = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			}
+		},
+		task_pool = {},
+		task_refresh_num = {
+			{
+				1,
+				0
+			}
+		},
+		goods_pool = {}
+	},
 	[100] = {
 		port_bg = "port_chuanwu1",
 		name = "海域补给商店",
@@ -1651,6 +1679,7 @@ pg.world_port_data = {
 		7,
 		8,
 		20,
+		30,
 		100,
 		301
 	}

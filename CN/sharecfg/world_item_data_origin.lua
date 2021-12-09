@@ -33,6 +33,9 @@ pg.world_item_data_origin = {
 	{
 		origin_text = "深渊守卫战斗奖励"
 	},
+	{
+		origin_text = "月度BOSS战斗奖励"
+	},
 	[100] = {
 		origin_text = "港口商店兑换"
 	},

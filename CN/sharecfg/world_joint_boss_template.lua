@@ -32,10 +32,19 @@ pg.world_joint_boss_template = {
 		id = 4,
 		meta_id = 970703
 	},
+	{
+		item_id = 100000,
+		name = "格奈森瑙·META",
+		painting = "genaisennao",
+		boss_level_id = 61,
+		id = 5,
+		meta_id = 970401
+	},
 	all = {
 		1,
 		2,
 		3,
-		4
+		4,
+		5
 	}
 }

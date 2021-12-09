@@ -8619,6 +8619,27 @@ _G.pg.item_data_statistics[21006] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[21007] = {
+	display = "格奈森瑙·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：格奈森瑙·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21007",
+	id = 21007,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[21101] = {
 	display = "用于提升舰装火炮性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
 	name = "结晶化热强钢",
@@ -8782,6 +8803,27 @@ _G.pg.item_data_statistics[21904] = {
 	is_world = 0,
 	icon = "Props/21904",
 	id = 21904,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[21905] = {
+	display = "于「信标·META」战斗中收集的数据，可以提升格奈森瑙·META同步率，活动结束后将会消失。",
+	name = "同步值：格奈森瑙·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21905",
+	id = 21905,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -13144,8 +13186,8 @@ _G.pg.item_data_statistics[30900] = {
 }
 
 _G.pg.item_data_statistics[30911] = {
-	display = "使用后可从稀有研发素材中任意选择一种获得1个",
-	name = "定向·稀有研发素材箱",
+	display = "使用后可从T1装备研发素材中任意选择一种获得1个",
+	name = "定向·装备研发物资箱T1",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -13186,8 +13228,8 @@ _G.pg.item_data_statistics[30911] = {
 }
 
 _G.pg.item_data_statistics[30912] = {
-	display = "使用后可从精锐研发素材中任意选择一种获得1个",
-	name = "定向·精锐研发素材箱",
+	display = "使用后可从T2装备研发素材中任意选择一种获得1个",
+	name = "定向·装备研发物资箱T2",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -13238,8 +13280,8 @@ _G.pg.item_data_statistics[30912] = {
 }
 
 _G.pg.item_data_statistics[30913] = {
-	display = "使用后可从T3部件中任意选择一种获得1个",
-	name = "定向·超稀有研发素材箱",
+	display = "使用后可从T3装备研发素材中任意选择一种获得1个",
+	name = "定向·装备研发物资箱T3",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -13251,7 +13293,7 @@ _G.pg.item_data_statistics[30913] = {
 	link_id = 0,
 	virtual_type = 0,
 	is_world = 0,
-	icon = "Props/Wsucaixiang1",
+	icon = "Props/30913",
 	id = 30913,
 	display_icon = {
 		{

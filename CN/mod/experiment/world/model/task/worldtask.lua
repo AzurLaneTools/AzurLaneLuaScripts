@@ -29,11 +29,12 @@ function slot0.Ctor(slot0, slot1)
 	slot0.followingEntrance = slot1.event_map_id or 0
 	slot0.config = uv0[slot0.configId]
 	slot0.new = slot1.new or 0
+	slot2 = nowWorld()
 
 	if slot0.config.complete_condition == WorldConst.TaskTypeSubmitItem then
-		slot0:updateProgress(nowWorld:GetInventoryProxy():GetItemCount(slot0.config.complete_parameter[1]))
+		slot0:updateProgress(slot2:GetInventoryProxy():GetItemCount(slot0.config.complete_parameter[1]))
 	elseif slot0.config.complete_condition == WorldConst.TaskTypePressingMap then
-		slot0:updateProgress(nowWorld:GetTargetMapPressingCount(slot0.config.complete_parameter))
+		slot0:updateProgress(slot2:GetTargetMapPressingCount(slot0.config.complete_parameter))
 	end
 end
 
@@ -140,16 +141,16 @@ function slot0.IsAutoSubmit(slot0)
 end
 
 function slot0.canTrigger(slot0)
-	slot1 = WorldTask.New({
+	slot2 = WorldTask.New({
 		id = slot0
 	})
 
-	if nowWorld:GetTaskProxy():getTaskById(slot0) then
+	if nowWorld():GetTaskProxy():getTaskById(slot0) then
 		return false, i18n("world_sametask_tip")
-	elseif nowWorld:GetLevel() < slot1.config.need_level then
-		return false, i18n1("舰队总等级需达到（缺gametip）" .. slot1.config.need_level)
-	elseif slot2.taskFinishCount < slot1.config.need_task_complete then
-		return false, i18n1("任务完成数需达到（缺gametip）" .. slot1.config.need_task_complete)
+	elseif slot1:GetLevel() < slot2.config.need_level then
+		return false, i18n1("舰队总等级需达到（缺gametip）" .. slot2.config.need_level)
+	elseif slot3.taskFinishCount < slot2.config.need_task_complete then
+		return false, i18n1("任务完成数需达到（缺gametip）" .. slot2.config.need_task_complete)
 	end
 
 	return true

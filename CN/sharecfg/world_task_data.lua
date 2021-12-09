@@ -97,7 +97,7 @@ pg.world_task_data = {
 			22
 		},
 		following_random = {
-			22
+			203
 		},
 		task_event = {},
 		complete_parameter = {
@@ -116,7 +116,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -165,7 +165,7 @@ pg.world_task_data = {
 			24
 		},
 		following_random = {
-			24
+			204
 		},
 		task_event = {},
 		complete_parameter = {
@@ -184,7 +184,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -233,7 +233,7 @@ pg.world_task_data = {
 			33
 		},
 		following_random = {
-			33
+			205
 		},
 		task_event = {},
 		complete_parameter = {
@@ -252,7 +252,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -301,7 +301,7 @@ pg.world_task_data = {
 			31
 		},
 		following_random = {
-			31
+			206
 		},
 		task_event = {},
 		complete_parameter = {
@@ -320,7 +320,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -369,7 +369,7 @@ pg.world_task_data = {
 			32
 		},
 		following_random = {
-			32
+			207
 		},
 		task_event = {},
 		complete_parameter = {
@@ -388,7 +388,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -528,7 +528,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -647,7 +647,7 @@ pg.world_task_data = {
 			132
 		},
 		following_random = {
-			132
+			211
 		},
 		task_event = {},
 		complete_parameter = {
@@ -715,7 +715,7 @@ pg.world_task_data = {
 			134
 		},
 		following_random = {
-			134
+			212
 		},
 		task_event = {},
 		complete_parameter = {
@@ -783,7 +783,7 @@ pg.world_task_data = {
 			135
 		},
 		following_random = {
-			135
+			213
 		},
 		task_event = {},
 		complete_parameter = {
@@ -851,7 +851,7 @@ pg.world_task_data = {
 			111
 		},
 		following_random = {
-			111
+			214
 		},
 		task_event = {},
 		complete_parameter = {
@@ -919,7 +919,7 @@ pg.world_task_data = {
 			113
 		},
 		following_random = {
-			113
+			215
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1116,7 +1116,7 @@ pg.world_task_data = {
 			41
 		},
 		following_random = {
-			41
+			220
 		},
 		task_event = {
 			21901
@@ -1191,7 +1191,7 @@ pg.world_task_data = {
 			81
 		},
 		following_random = {
-			81
+			221
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1264,7 +1264,7 @@ pg.world_task_data = {
 			84
 		},
 		following_random = {
-			84
+			222
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1337,7 +1337,7 @@ pg.world_task_data = {
 			105
 		},
 		following_random = {
-			105
+			223
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1410,7 +1410,7 @@ pg.world_task_data = {
 			91
 		},
 		following_random = {
-			91
+			224
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1483,7 +1483,7 @@ pg.world_task_data = {
 			82
 		},
 		following_random = {
-			82
+			225
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1636,7 +1636,7 @@ pg.world_task_data = {
 			73
 		},
 		following_random = {
-			73
+			230
 		},
 		task_event = {
 			22901
@@ -1711,7 +1711,7 @@ pg.world_task_data = {
 			72
 		},
 		following_random = {
-			72
+			231
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1784,7 +1784,7 @@ pg.world_task_data = {
 			8
 		},
 		following_random = {
-			8
+			232
 		},
 		task_event = {
 			23200
@@ -1859,7 +1859,7 @@ pg.world_task_data = {
 			54
 		},
 		following_random = {
-			54
+			233
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1932,7 +1932,7 @@ pg.world_task_data = {
 			52
 		},
 		following_random = {
-			52
+			234
 		},
 		task_event = {},
 		complete_parameter = {
@@ -2005,7 +2005,7 @@ pg.world_task_data = {
 			61
 		},
 		following_random = {
-			61
+			235
 		},
 		task_event = {},
 		complete_parameter = {
@@ -2114,6 +2114,595 @@ pg.world_task_data = {
 			100,
 			100
 		}
+	},
+	[2600] = {
+		server_type = 1,
+		name = "Chapter5-1 泥沼",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2600,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "总攻时间尚未决定，继续留在前哨站中处理未尽事务。",
+		priority = 10,
+		complete_stage = 110,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "处理前哨站中的未尽事务",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			32
+		},
+		following_random = {
+			260
+		},
+		task_event = {},
+		complete_parameter = {
+			2601
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2601] = {
+		server_type = 1,
+		name = "Chapter5-2 信标",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2601,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "主动出击，与企业一同完成针对核心区域的侦察任务。",
+		priority = 10,
+		complete_stage = 120,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "与企业一同完成侦察任务",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			159
+		},
+		following_random = {
+			261
+		},
+		task_event = {},
+		complete_parameter = {
+			2602
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2602] = {
+		server_type = 1,
+		name = "Chapter5-3 幻影",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2602,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "余烬飞龙的行动有些奇怪，调查出她的真实意图。",
+		priority = 10,
+		complete_stage = 130,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "调查余烬飞龙的真实意图",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			156
+		},
+		following_random = {
+			262
+		},
+		task_event = {},
+		complete_parameter = {
+			2603
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2603] = {
+		server_type = 1,
+		name = "Chapter5-4 茶会",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2603,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "战前的休息是很重要的，享受皇家茶会吧。",
+		priority = 10,
+		complete_stage = 140,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "享受皇家茶会",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			113
+		},
+		following_random = {
+			263
+		},
+		task_event = {},
+		complete_parameter = {
+			2604
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2604] = {
+		server_type = 1,
+		name = "Chapter5-5 总攻开始",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2604,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "针对核心区的总攻击终于开始了，指挥并完成作战。",
+		priority = 10,
+		complete_stage = 150,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "指挥总攻作战",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			157
+		},
+		following_random = {
+			264
+		},
+		task_event = {},
+		complete_parameter = {
+			2605
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2605] = {
+		server_type = 1,
+		name = "Chapter5-6-0 圆环",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2605,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "塞壬第一条防线正在瓦解中，继续向中心推进。",
+		priority = 10,
+		complete_stage = 160,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "继续向中心推进",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			154
+		},
+		following_random = {
+			265
+		},
+		task_event = {},
+		complete_parameter = {
+			2606
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2606] = {
+		server_type = 1,
+		name = "Chapter5-6-1 交汇之地",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2606,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "舰队进入了特殊空间，首先与失散的同伴汇合吧。",
+		priority = 10,
+		complete_stage = 170,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "与失散的同伴汇合",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			154
+		},
+		following_random = {
+			266
+		},
+		task_event = {},
+		complete_parameter = {
+			2607
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2607] = {
+		server_type = 1,
+		name = "Chapter5-6-2 深层循环",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2607,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "在无尽的废墟中，寻找离开的航路。",
+		priority = 10,
+		complete_stage = 180,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "在废墟之海中前行",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			154
+		},
+		following_random = {
+			267
+		},
+		task_event = {},
+		complete_parameter = {
+			4100
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				5,
+				212,
+				1
+			},
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
 	},
 	[3101] = {
 		server_type = 2,
@@ -2869,6 +3458,302 @@ pg.world_task_data = {
 				100
 			}
 		},
+		reset_task = {}
+	},
+	[4100] = {
+		server_type = 1,
+		name = "模拟战：代行者XIV",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4100,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "作为仲裁机关应对的一环，前往模拟战海域，与代行者XIV「Equilibrium」交战",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往模拟战海域，与代行者XIV「Equilibrium」交战",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003601,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			84
+		},
+		following_random = {
+			44000
+		},
+		task_event = {},
+		complete_parameter = {
+			7000301
+		},
+		next_task = {
+			4101
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				12,
+				2006,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[4101] = {
+		server_type = 1,
+		name = "模拟战：代行者VIII",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4101,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "作为仲裁机关应对的一环，前往模拟战海域，与代行者VIII「Determination」交战",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往模拟战海域，与代行者VIII「Determination」交战",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003602,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			114
+		},
+		following_random = {
+			44001
+		},
+		task_event = {},
+		complete_parameter = {
+			7000311
+		},
+		next_task = {
+			4102
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				12,
+				2006,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[4102] = {
+		server_type = 1,
+		name = "模拟战：代行者IX",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4102,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "作为仲裁机关应对的一环，前往模拟战海域，与代行者IX「Exploration」交战",
+		priority = 10,
+		complete_stage = 200,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往模拟战海域，与代行者IX「Exploration」交战",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003603,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			32
+		},
+		following_random = {
+			44001
+		},
+		task_event = {},
+		complete_parameter = {
+			7000321
+		},
+		next_task = {
+			4200
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				12,
+				2015,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[4200] = {
+		server_type = 3,
+		name = "普通作战：仲裁机关",
+		continuity = 0,
+		type = 5,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4200,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往NA海域中心，击破来袭的仲裁者复制机体",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往NA海域中心，击破来袭的仲裁者量产型机体",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			154
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {},
+		following_random = {},
+		task_event = {},
+		complete_parameter = {
+			7000400
+		},
+		next_task = {
+			4201
+		},
+		task_goto = {
+			3
+		},
+		show = {},
+		reset_task = {
+			200,
+			300
+		}
+	},
+	[4201] = {
+		server_type = 3,
+		name = "困难作战：仲裁机关",
+		continuity = 0,
+		type = 5,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4201,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往NA海域中心，击破来袭的仲裁者强化复制机体",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往NA海域中心，击破来袭的仲裁者强化量产型机体",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			154
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {},
+		following_random = {},
+		task_event = {},
+		complete_parameter = {
+			7000401
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {},
 		reset_task = {}
 	},
 	[210000] = {
@@ -6063,6 +6948,14 @@ pg.world_task_data = {
 		2304,
 		2305,
 		2310,
+		2600,
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2607,
 		3101,
 		3102,
 		3103,
@@ -6075,6 +6968,11 @@ pg.world_task_data = {
 		3304,
 		3401,
 		3402,
+		4100,
+		4101,
+		4102,
+		4200,
+		4201,
 		210000,
 		210100,
 		210200,

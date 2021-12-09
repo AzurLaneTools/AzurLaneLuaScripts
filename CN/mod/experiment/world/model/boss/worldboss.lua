@@ -177,7 +177,7 @@ function slot0.isDeath(slot0)
 end
 
 function slot0.UpdateKillTime(slot0)
-	if nowWorld:GetBossProxy():GetRank(slot0.id) and #slot2 > 1 then
+	if nowWorld():GetBossProxy():GetRank(slot0.id) and #slot2 > 1 then
 		slot0.killTime = pg.TimeMgr.GetInstance():GetServerTime() + pg.gameset.world_boss_rank_wait_time.key_value
 	end
 end
