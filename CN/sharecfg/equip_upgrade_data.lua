@@ -3263,7 +3263,7 @@ pg.equip_upgrade_data = {
 	[43060] = {
 		coin_consume = 2500,
 		id = 43060,
-		upgrade_from = 43000,
+		upgrade_from = 43040,
 		target_id = 43060,
 		material_consume = {
 			{

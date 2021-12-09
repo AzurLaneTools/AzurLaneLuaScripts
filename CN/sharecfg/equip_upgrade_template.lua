@@ -3827,7 +3827,7 @@ pg.equip_upgrade_template = {
 			{
 				225,
 				450,
-				43000,
+				43040,
 				false
 			},
 			{
