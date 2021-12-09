@@ -504,7 +504,7 @@ function slot0.OpReadyToMove(slot0)
 	elseif slot2:CanAutoFight() then
 		slot7 = World.ReplacementMapType(slot4:GetActiveEntrance(), slot2)
 
-		if slot5 and slot7 == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area") or slot7 == "base_chapter" and slot4.isAutoSwitch then
+		if slot5 and slot7 == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area") or slot4.isAutoSwitch then
 			triggerButton(master.wsMapRight.toggleAutoFight:Find("off"))
 		end
 	elseif slot4.isAutoSwitch then

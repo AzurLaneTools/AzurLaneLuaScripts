@@ -3807,6 +3807,49 @@ pg.equip_upgrade_template = {
 			}
 		}
 	},
+	[403] = {
+		id = 403,
+		category1 = 4,
+		category2 = 3,
+		canvasSize = {
+			900,
+			900
+		},
+		canvasPadding = {
+			1,
+			8
+		},
+		gridSize = {
+			45,
+			45
+		},
+		equipments = {
+			{
+				225,
+				450,
+				43000,
+				false
+			},
+			{
+				675,
+				450,
+				43060,
+				false
+			}
+		},
+		links = {
+			{
+				{
+					382,
+					450
+				},
+				{
+					518,
+					450
+				}
+			}
+		}
+	},
 	[404] = {
 		id = 404,
 		category1 = 4,
@@ -4367,6 +4410,7 @@ pg.equip_upgrade_template = {
 		308,
 		401,
 		402,
+		403,
 		404,
 		405,
 		413,

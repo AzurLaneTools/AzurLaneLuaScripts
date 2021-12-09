@@ -400,11 +400,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 1,
-			say = "警告：此选项为影响结局走向的关键选项，确定要这样做么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
+			say = "<color=#ff5c5c>警告：此选项为影响结局走向的关键选项，确定要这样做么？</color>",
 			painting = {
 				alpha = 0.3,
 				time = 1

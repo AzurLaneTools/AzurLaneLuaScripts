@@ -123,13 +123,13 @@ pg.world_trap_data = {
 	},
 	[200] = {
 		buff_id = 600,
-		name = "重力陷阱",
+		name = "EMP干扰TYPEII",
 		obstacle = 2,
 		repeat_trap = 2,
 		trap_fx = "zhongcaizhe_zhonglichang_slg",
 		trap_type = 1,
 		id = 200,
-		desc = "重力陷阱测试",
+		desc = "区域中存在周期性的EMP冲击，进入后将会使得舰队进入移动异常状态，每次行动移动范围将会降低。",
 		trap_range = {
 			3,
 			3,
@@ -138,26 +138,26 @@ pg.world_trap_data = {
 	},
 	[201] = {
 		buff_id = 601,
-		name = "感电陷阱",
+		name = "EMP干扰TYPEI",
 		obstacle = 2,
 		repeat_trap = 2,
 		trap_fx = "zhongcaizhe_shandianqiang",
 		trap_type = 2,
 		id = 201,
-		desc = "感电陷阱测试",
+		desc = "区域中存在周期性的EMP冲击，进入后将会使得舰队进入移动异常状态，无法准确前往目标区域。",
 		trap_range = {
 			2
 		}
 	},
 	[202] = {
-		buff_id = 603,
-		name = "传染陷阱",
+		buff_id = 320,
+		name = "异常燃烧海域",
 		obstacle = 2,
 		repeat_trap = 2,
 		trap_fx = "SLG_huo02",
 		trap_type = 0,
 		id = 202,
-		desc = "传染陷阱测试",
+		desc = "区域内的海面正在燃烧，进入后舰队会进入燃烧状态，每次行动将会受到一定伤害。燃烧状态将会持续若干行动轮。",
 		trap_range = {
 			1,
 			1,

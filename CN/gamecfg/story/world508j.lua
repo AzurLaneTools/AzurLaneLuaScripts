@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			say = "总算是清净了，这样一来你能理解{namecode:66}的意思了吧？",
-			bgm = "battle-ashes-theme",
+			bgm = "main-ashes-theme",
 			flashout = {
 				black = true,
 				dur = 1,

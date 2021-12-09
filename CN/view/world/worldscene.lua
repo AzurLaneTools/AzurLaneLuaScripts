@@ -2247,7 +2247,7 @@ function slot0.StartAutoSwitch(slot0)
 	end
 
 	if not slot3:CkeckTransport() then
-		pg.TipsMgr.GetInstance():ShowTips("world_automode_start_tip4")
+		pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip4"))
 
 		return
 	end

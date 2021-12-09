@@ -1,5 +1,5 @@
 return {
-	id = "WORLD508N",
+	id = "WORLD508P",
 	mode = 2,
 	once = true,
 	fadeType = 1,

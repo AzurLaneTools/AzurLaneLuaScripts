@@ -97,7 +97,9 @@ return {
 				{
 					triggerType = 5,
 					waveIndex = 400,
-					preWaves = {},
+					preWaves = {
+						301
+					},
 					triggerParams = {
 						bgm = "battle-ashes-theme"
 					}
@@ -137,7 +139,7 @@ return {
 				},
 				{
 					triggerType = 5,
-					waveIndex = 403,
+					waveIndex = 404,
 					preWaves = {
 						201
 					},
@@ -160,13 +162,14 @@ return {
 				},
 				{
 					triggerType = 3,
+					key = true,
 					waveIndex = 201,
 					conditionType = 0,
 					preWaves = {
 						304
 					},
 					triggerParams = {
-						id = "WORLD508I"
+						id = "WORLD508P"
 					}
 				},
 				{
@@ -572,117 +575,6 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
-					waveIndex = 104,
-					conditionType = 1,
-					preWaves = {
-						201
-					},
-					triggerParam = {},
-					blockFlags = {
-						100
-					},
-					spawn = {
-						{
-							monsterTemplateID = 296120,
-							moveCast = true,
-							delay = 0,
-							corrdinate = {
-								0,
-								0,
-								75
-							},
-							buffList = {
-								78303
-							},
-							phase = {
-								{
-									switchType = 1,
-									setAI = 20006,
-									switchTo = 1,
-									index = 0,
-									switchParam = 1,
-									story = "WORLD508J"
-								},
-								{
-									index = 1,
-									switchType = 1,
-									switchTo = 2,
-									switchParam = 2
-								},
-								{
-									index = 2,
-									switchType = 1,
-									switchTo = 0,
-									switchParam = 900,
-									addBuff = {
-										78190
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					triggerType = 0,
-					waveIndex = 105,
-					conditionType = 1,
-					preWaves = {
-						201
-					},
-					triggerParam = {},
-					blockFlags = {
-						200
-					},
-					spawn = {
-						{
-							monsterTemplateID = 296120,
-							moveCast = true,
-							delay = 0,
-							corrdinate = {
-								0,
-								0,
-								35
-							},
-							phase = {
-								{
-									switchType = 1,
-									setAI = 20006,
-									switchTo = 1,
-									index = 0,
-									switchParam = 1,
-									story = "WORLD508L"
-								},
-								{
-									index = 1,
-									switchType = 1,
-									switchTo = 2,
-									switchParam = 7,
-									addBuff = {
-										78200
-									}
-								},
-								{
-									index = 2,
-									switchType = 1,
-									switchTo = 3,
-									switchParam = 0.5,
-									addBuff = {
-										78304
-									}
-								},
-								{
-									switchParam = 500,
-									switchTo = 0,
-									index = 3,
-									switchType = 1,
-									story = "WORLD508M"
-								}
-							}
-						}
-					}
-				},
-				{
 					triggerType = 4,
 					waveIndex = 500,
 					preWaves = {
@@ -716,10 +608,10 @@ return {
 									air = 0,
 									antiaircraft = 450,
 									torpedo = 600,
-									durability = 12000,
+									durability = 20000,
 									reload = 900,
 									armor = 98,
-									dodge = 164,
+									dodge = 320,
 									speed = 32.5,
 									luck = 70,
 									hit = 140
@@ -745,10 +637,10 @@ return {
 									air = 0,
 									antiaircraft = 400,
 									torpedo = 600,
-									durability = 12000,
+									durability = 20000,
 									reload = 900,
 									armor = 98,
-									dodge = 164,
+									dodge = 320,
 									speed = 35,
 									luck = 70,
 									hit = 140
@@ -773,7 +665,7 @@ return {
 									air = 1200,
 									antiaircraft = 300,
 									torpedo = 1200,
-									durability = 20000,
+									durability = 30000,
 									reload = 1100,
 									armor = 1150,
 									dodge = 0,
@@ -895,10 +787,10 @@ return {
 									air = 0,
 									antiaircraft = 310,
 									torpedo = 600,
-									durability = 12000,
+									durability = 20000,
 									reload = 750,
 									armor = 98,
-									dodge = 164,
+									dodge = 320,
 									speed = 26.4,
 									luck = 70,
 									hit = 140
@@ -950,55 +842,18 @@ return {
 					}
 				},
 				{
-					triggerType = 8,
-					waveIndex = 901,
-					conditionType = 0,
-					preWaves = {
-						104
-					},
-					conditionWaves = {
-						[104.0] = true
-					},
-					triggerParams = {}
-				},
-				{
-					triggerType = 8,
-					waveIndex = 902,
-					conditionType = 0,
+					triggerType = 4,
+					waveIndex = 503,
 					preWaves = {
 						105
 					},
 					conditionWaves = {
 						[105.0] = true
 					},
-					triggerParams = {}
-				},
-				{
-					triggerType = 3,
-					key = true,
-					waveIndex = 204,
-					preWaves = {
-						104
-					},
-					conditionWaves = {
-						[104.0] = true
-					},
 					triggerParams = {
-						id = "WORLD508K"
-					}
-				},
-				{
-					triggerType = 3,
-					key = true,
-					waveIndex = 205,
-					preWaves = {
-						902
-					},
-					conditionWaves = {
-						[105.0] = true
-					},
-					triggerParams = {
-						id = "WORLD508N"
+						kill_list = {
+							900346
+						}
 					}
 				}
 			}
@@ -1025,7 +880,7 @@ return {
 					air = 0,
 					antiaircraft = 310,
 					torpedo = 0,
-					durability = 80000,
+					durability = 50000,
 					reload = 460,
 					armor = 98,
 					dodge = 164,
@@ -1165,7 +1020,7 @@ return {
 					air = 400,
 					antiaircraft = 300,
 					torpedo = 0,
-					durability = 70000,
+					durability = 60000,
 					reload = 1120,
 					armor = 1150,
 					dodge = 0,
@@ -1191,7 +1046,7 @@ return {
 					air = 400,
 					antiaircraft = 300,
 					torpedo = 0,
-					durability = 68377,
+					durability = 60000,
 					reload = 1680,
 					armor = 1890,
 					dodge = 96,

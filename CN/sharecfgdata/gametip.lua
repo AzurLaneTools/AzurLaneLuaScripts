@@ -3948,7 +3948,7 @@ _G.pg.gametip.world_movelimit_event_text = {
 }
 
 _G.pg.gametip.world_mapbuff_tip = {
-	tip = "该建筑存在时，海域内所有敌舰属性上升"
+	tip = "海域内所有敌人战斗力上升中"
 }
 
 _G.pg.gametip.world_sametask_tip = {

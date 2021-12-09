@@ -8,9 +8,10 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			bgm = "battle-boss-4",
 			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "警告：指挥官，前方发现未知巨型设施，推测为塞壬的某种新型要塞火炮。",
 			voice = "event:/tb/16/tb-16",
 			typewriter = {

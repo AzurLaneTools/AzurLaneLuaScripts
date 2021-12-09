@@ -957,7 +957,7 @@ pg.world_SLGbuff_data = {
 	},
 	[600] = {
 		buff_type = 5,
-		name = "重力",
+		name = "异常：移动受限",
 		id = 600,
 		trap_type = 5,
 		lua_id = 0,
@@ -985,7 +985,7 @@ pg.world_SLGbuff_data = {
 	},
 	[601] = {
 		buff_type = 3,
-		name = "混乱",
+		name = "异常：导航干扰",
 		id = 601,
 		trap_type = 4,
 		lua_id = 0,
