@@ -37919,8 +37919,8 @@ _G.pg.world_event_data[26120] = {
 		261203,
 		261204,
 		261205,
-		269240,
 		261206,
+		269240,
 		261207,
 		261208
 	},
@@ -152837,10 +152837,8 @@ _G.pg.world_event_data[7030012] = {
 
 _G.pg.world_event_data[7030020] = {
 	visuality = 0,
-	name = "",
 	compass_index = 0,
 	base = 26515,
-	scan_desc = "",
 	enemyicon = 0,
 	icontype = 2,
 	obstacle = 3,

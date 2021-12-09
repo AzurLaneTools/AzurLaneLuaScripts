@@ -17226,11 +17226,11 @@ _G.pg.gametip.world_automode_setting_all_2_1 = {
 }
 
 _G.pg.gametip.world_automode_setting_all_2_2 = {
-	tip = "200Ptごと"
+	tip = "100Ptごと"
 }
 
 _G.pg.gametip.world_automode_setting_all_2_3 = {
-	tip = "100Ptごと"
+	tip = "200Ptごと"
 }
 
 _G.pg.gametip.world_automode_setting_all_3 = {

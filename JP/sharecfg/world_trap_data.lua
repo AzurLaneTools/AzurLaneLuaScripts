@@ -150,7 +150,7 @@ pg.world_trap_data = {
 		}
 	},
 	[202] = {
-		buff_id = 603,
+		buff_id = 320,
 		name = "異常燃焼",
 		obstacle = 2,
 		repeat_trap = 2,
