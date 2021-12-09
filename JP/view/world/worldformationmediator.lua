@@ -9,7 +9,7 @@ slot0.OnOpenRepairPage = "WorldFormationMediator.OnOpenRepairPage"
 slot0.OnChangeFleetShipsOrder = "WorldFormationMediator.OnChangeFleetShipsOrder"
 
 function slot0.register(slot0)
-	slot1 = nowWorld
+	slot1 = nowWorld()
 
 	slot0:bind(uv0.OnSaveFleet, function (slot0, slot1)
 		uv0:CommitEdit(slot1)
@@ -79,7 +79,7 @@ function slot0.refreshEdit(slot0, slot1)
 end
 
 function slot0.CommitEdit(slot0, slot1)
-	slot2 = nowWorld
+	slot2 = nowWorld()
 
 	_.each(slot0.contextData.fleets, function (slot0)
 		slot1 = uv0:GetFleet(slot0.id)

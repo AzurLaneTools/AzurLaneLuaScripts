@@ -15,7 +15,7 @@ return {
 			},
 			arg_list = {
 				spawnData = {
-					monsterTemplateID = 296010,
+					monsterTemplateID = 294400,
 					corrdinate = {
 						-28,
 						0,

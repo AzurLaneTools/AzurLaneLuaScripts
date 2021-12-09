@@ -23,13 +23,13 @@ function slot0.Show(slot0)
 	uv0.super.Show(slot0)
 
 	if slot0._top then
-		setActive(slot0._top, true)
+		slot0.viewParent:Add2TopContainer(slot0._top)
 	end
 end
 
 function slot0.Hide(slot0)
 	if slot0._top then
-		setActive(slot0._top, false)
+		setParent(slot0._top, slot0._tf)
 	end
 
 	uv0.super.Hide(slot0)
@@ -37,20 +37,12 @@ end
 
 function slot0.OnSelected(slot0)
 	slot0:Show()
-
-	if slot0._top then
-		slot0.viewParent:Add2TopContainer(slot0._top)
-	end
 end
 
 function slot0.OnReselected(slot0)
 end
 
 function slot0.OnDeselected(slot0)
-	if slot0._top then
-		setParent(slot0._top, slot0._tf)
-	end
-
 	slot0:Hide()
 end
 

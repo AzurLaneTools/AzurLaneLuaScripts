@@ -89,6 +89,18 @@ slot0.UIConfig = {
 		-50,
 		-392.33,
 		-50
+	},
+	[970401] = {
+		88.3,
+		-61.1,
+		1,
+		1,
+		-257.4,
+		-50,
+		-257.4,
+		-50,
+		-257.4,
+		-50
 	}
 }
 slot0.META_ART_RESOURCE_PERFIX = "metaship/"
@@ -97,16 +109,31 @@ slot0.META_DISACTIVE_LASTFIX = "_disactive"
 slot0.META_BANNER_PERFIX = "banner_"
 slot0.META_NAME_PERFIX = "name_"
 slot0.META_TOAST_PERFIX = "toast_"
+slot0.HX_TAG = "_hx"
 
 function slot0.GetMetaCharacterPaintPath(slot0, slot1)
-	if slot1 == true then
-		slot2 = slot0 .. uv0.META_ACTIVE_LASTFIX
+	if not HXSet.isHx() then
+		if slot1 == true then
+			slot3 = slot0 .. uv0.META_ACTIVE_LASTFIX
 
-		return uv0.META_ART_RESOURCE_PERFIX .. slot2, slot2
+			return uv0.META_ART_RESOURCE_PERFIX .. slot3, slot3
+		else
+			slot3 = slot0 .. uv0.META_DISACTIVE_LASTFIX
+
+			return uv0.META_ART_RESOURCE_PERFIX .. slot3, slot3
+		end
+	elseif slot1 == true then
+		if not PathMgr.FileExists(PathMgr.getAssetBundle(uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_ACTIVE_LASTFIX .. uv0.HX_TAG))) then
+			slot4 = uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_ACTIVE_LASTFIX)
+		end
+
+		return slot4, slot3
 	else
-		slot2 = slot0 .. uv0.META_DISACTIVE_LASTFIX
+		if not PathMgr.FileExists(PathMgr.getAssetBundle(uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_DISACTIVE_LASTFIX .. uv0.HX_TAG))) then
+			slot4 = uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_DISACTIVE_LASTFIX)
+		end
 
-		return uv0.META_ART_RESOURCE_PERFIX .. slot2, slot2
+		return slot4, slot3
 	end
 end
 

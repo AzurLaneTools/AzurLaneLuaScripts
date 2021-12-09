@@ -158,7 +158,7 @@ function slot0.UpdateEvent(slot0, slot1)
 		slot7 = slot4:IsAvatar()
 
 		if slot0.isInit and slot1 == WorldMap.EventUpdateMapBuff then
-			slot0:UpdateMapBuff(slot5, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
+			slot0:UpdateMapBuff(slot5, slot4:GetRadiationBuffs(), slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
 		end
 
 		if not slot0.isInit then
@@ -189,7 +189,7 @@ function slot0.UpdateEvent(slot0, slot1)
 			end
 
 			slot0:UpdateBuffList(slot5, slot4:GetBuffList())
-			slot0:UpdateMapBuff(slot5, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
+			slot0:UpdateMapBuff(slot5, slot4:GetRadiationBuffs(), slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
 		end
 
 		if slot1 == WorldMapAttachment.EventUpdateLurk and slot3:GetInFOV() and not slot4.lurk then
@@ -220,7 +220,7 @@ function slot0.UpdateEventEnemy(slot0, slot1)
 		slot10 = slot4:IsAvatar()
 
 		if slot0.isInit and slot1 == WorldMap.EventUpdateMapBuff then
-			slot0:UpdateMapBuff(slot6, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
+			slot0:UpdateMapBuff(slot6, slot4:GetRadiationBuffs(), slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
 		end
 
 		if not slot0.isInit then
@@ -251,7 +251,7 @@ function slot0.UpdateEventEnemy(slot0, slot1)
 
 			slot0:UpdateHP(slot6:Find("hp"), slot4:GetHP(), slot4:GetMaxHP())
 			slot0:UpdateBuffList(slot6, slot4:GetBuffList())
-			slot0:UpdateMapBuff(slot6, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
+			slot0:UpdateMapBuff(slot6, slot4:GetRadiationBuffs(), slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
 		end
 
 		setActive(slot6, slot9)
@@ -299,7 +299,7 @@ function slot0.UpdateBox(slot0, slot1)
 			end
 
 			slot0:UpdateBuffList(slot5, {})
-			slot0:UpdateMapBuff(slot5, {})
+			slot0:UpdateMapBuff(slot5, {}, {})
 		end
 	end
 end
@@ -318,7 +318,7 @@ function slot0.UpdateEnemy(slot0, slot1)
 		slot10 = slot4:IsAvatar()
 
 		if slot0.isInit and slot1 == WorldMap.EventUpdateMapBuff then
-			slot0:UpdateMapBuff(slot6, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
+			slot0:UpdateMapBuff(slot6, slot4:GetRadiationBuffs(), slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
 		end
 
 		if not slot0.isInit then
@@ -349,7 +349,7 @@ function slot0.UpdateEnemy(slot0, slot1)
 
 			slot0:UpdateHP(slot6:Find("hp"), slot4:GetHP(), slot4:GetMaxHP())
 			slot0:UpdateBuffList(slot6, slot4:GetBuffList())
-			slot0:UpdateMapBuff(slot6, slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
+			slot0:UpdateMapBuff(slot6, slot4:GetRadiationBuffs(), slot2:GetBuffList(WorldMap.FactionEnemy, slot4))
 		end
 
 		setActive(slot6, slot9)
@@ -405,7 +405,7 @@ function slot0.UpdateTrap(slot0, slot1)
 			end
 
 			slot0:UpdateBuffList(slot5, {})
-			slot0:UpdateMapBuff(slot5, {})
+			slot0:UpdateMapBuff(slot5, {}, {})
 		end
 	end
 end
@@ -428,12 +428,24 @@ function slot0.UpdateBuffList(slot0, slot1, slot2)
 	})
 end
 
-function slot0.UpdateMapBuff(slot0, slot1, slot2)
-	setActive(slot1:Find("map_buff"), #slot2 > 0)
+function slot0.UpdateMapBuff(slot0, slot1, slot2, slot3)
+	slot4 = slot1:Find("map_buff")
+	slot5 = false
 
 	if #slot2 > 0 then
-		GetImageSpriteFromAtlasAsync("world/mapbuff/" .. slot2[1].config.icon, "", slot3:Find("Image"))
+		slot5 = "wifi"
+		slot6, slot7, slot8 = unpack(slot2[1])
+
+		GetImageSpriteFromAtlasAsync("world/mapbuff/" .. pg.world_SLGbuff_data[slot7].icon, "", slot4:Find("Image"))
+	elseif #slot3 > 0 then
+		slot5 = "arrow"
+
+		GetImageSpriteFromAtlasAsync("world/mapbuff/" .. slot3[1].config.icon, "", slot4:Find("Image"))
 	end
+
+	setActive(slot4:Find("wifi"), slot5 == "wifi")
+	setActive(slot4:Find("arrow"), slot5 == "arrow")
+	setActive(slot4, slot5)
 end
 
 function slot0.UpdateHP(slot0, slot1, slot2, slot3)

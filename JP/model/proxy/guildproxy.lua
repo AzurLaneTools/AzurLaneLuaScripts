@@ -662,6 +662,10 @@ function slot0.ShouldShowBattleTip(slot0)
 	end
 
 	if slot0:getData() then
+		if not slot1:ShouldTipActiveEvent() then
+			return false
+		end
+
 		slot5 = slot1:GetActiveEvent()
 		slot2 = slot0:ShouldShowMainTip() or not slot5 and GuildMember.IsAdministrator(slot1:getSelfDuty()) and slot4() or slot5 and not slot0:GetBattleBtnRecord()
 
@@ -751,6 +755,22 @@ function slot0.GetAdditionGuild(slot0)
 	else
 		return slot0.data
 	end
+end
+
+function slot0.SetReportRankList(slot0, slot1, slot2)
+	if not slot0.reportRankList then
+		slot0.reportRankList = {}
+	end
+
+	slot0.reportRankList[slot1] = slot2
+end
+
+function slot0.GetReportRankList(slot0, slot1)
+	if slot0.reportRankList then
+		return slot0.reportRankList[slot1]
+	end
+
+	return nil
 end
 
 return slot0

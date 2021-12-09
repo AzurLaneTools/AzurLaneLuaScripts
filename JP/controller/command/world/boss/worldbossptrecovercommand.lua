@@ -1,7 +1,7 @@
 slot0 = class("WorldBossPtRecoverCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	if nowWorld:GetBossProxy():isMaxPt() then
+	if nowWorld():GetBossProxy():isMaxPt() then
 		return
 	end
 

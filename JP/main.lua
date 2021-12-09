@@ -152,8 +152,8 @@ function OnApplicationExit()
 		pg.goldExchangeMgr:willExit()
 	end
 
-	if nowWorld and nowWorld.staminaMgr:IsShowing() then
-		nowWorld.staminaMgr:Hide()
+	if nowWorld() and slot16.staminaMgr:IsShowing() then
+		slot16.staminaMgr:Hide()
 
 		return
 	end

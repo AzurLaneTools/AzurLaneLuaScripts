@@ -75,6 +75,69 @@ pg.world_item_data_template = {
 			101
 		}
 	},
+	[103] = {
+		item_transform_item_type = 1,
+		name = "アビータ戦・報酬箱（小）",
+		item_transform_item_id = 3002,
+		display = "アビータ個体を撃破したことで手に入れた戦利品。セイレーン作戦リセット後、「備蓄物資交換券×100」へと変換される",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 100,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 103,
+		icon = "Props/Wsairencailiao3",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
+	[104] = {
+		item_transform_item_type = 1,
+		name = "アビータ戦・報酬箱（中）",
+		item_transform_item_id = 3002,
+		display = "アビータ個体を撃破したことで手に入れた戦利品。セイレーン作戦リセット後、「備蓄物資交換券×200」へと変換される",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 200,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 104,
+		icon = "Props/Wsairencailiao1",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
+	[105] = {
+		item_transform_item_type = 1,
+		name = "アビータ戦・報酬箱（大）",
+		item_transform_item_id = 3002,
+		display = "アビータ個体を撃破したことで手に入れた戦利品。セイレーン作戦リセット後、「備蓄物資交換券×500」へと変換される",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 500,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 105,
+		icon = "Props/Wsairencailiao2",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
 	[110] = {
 		item_transform_item_type = 1,
 		name = "エネルギー貯蔵装置",
@@ -3941,6 +4004,9 @@ pg.world_item_data_template = {
 		100,
 		101,
 		102,
+		103,
+		104,
+		105,
 		110,
 		201,
 		202,

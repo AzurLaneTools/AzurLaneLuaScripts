@@ -112,7 +112,7 @@ function slot0.Init(slot0)
 end
 
 function slot0.AddWorldListener(slot0)
-	slot2 = nowWorld
+	slot2 = nowWorld()
 
 	underscore.each(slot2:GetNormalFleets(), function (slot0)
 		slot0:AddListener(WorldMapFleet.EventUpdateCatSalvage, uv0.onUpdateCatSalvage)
@@ -120,7 +120,7 @@ function slot0.AddWorldListener(slot0)
 end
 
 function slot0.RemoveWorldListener(slot0)
-	slot2 = nowWorld
+	slot2 = nowWorld()
 
 	underscore.each(slot2:GetNormalFleets(), function (slot0)
 		slot0:RemoveListener(WorldMapFleet.EventUpdateCatSalvage, uv0.onUpdateCatSalvage)
@@ -191,7 +191,7 @@ end
 function slot0.UpdateAllCatSalvage(slot0)
 	slot2 = slot0.rtSalvageList:GetChild(0)
 
-	for slot6 = slot0.rtSalvageList.childCount + 1, #nowWorld:GetNormalFleets() do
+	for slot6 = slot0.rtSalvageList.childCount + 1, #nowWorld():GetNormalFleets() do
 		cloneTplTo(slot2, slot0.rtSalvageList, slot2.name)
 	end
 
@@ -223,11 +223,13 @@ function slot0.OnUpdateCatSalvage(slot0, slot1, slot2)
 end
 
 function slot0.OnUpdateSubmarineSupport(slot0)
-	setActive(slot0.rtSubBar, nowWorld:IsSubmarineSupporting())
+	slot1 = nowWorld()
 
-	if nowWorld:GetSubmarineFleet() then
-		setText(slot0.rtAmmo, slot1:GetAmmo() .. "/" .. slot1:GetTotalAmmo())
-		setGray(slot0.rtSubBar, slot1:GetAmmo() <= 0, true)
+	setActive(slot0.rtSubBar, slot1:IsSubmarineSupporting())
+
+	if slot1:GetSubmarineFleet() then
+		setText(slot0.rtAmmo, slot2:GetAmmo() .. "/" .. slot2:GetTotalAmmo())
+		setGray(slot0.rtSubBar, slot2:GetAmmo() <= 0, true)
 	end
 end
 

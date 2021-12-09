@@ -103,7 +103,7 @@ function slot0.GetBuffList(slot0)
 		return slot0:GetFloor() > 0
 	end)
 
-	if slot0.fleetId and nowWorld:GetFleet(slot0.fleetId):GetDamageBuff() then
+	if slot0.fleetId and nowWorld():GetFleet(slot0.fleetId):GetDamageBuff() then
 		table.insert(slot1, slot2)
 	end
 
@@ -179,7 +179,7 @@ function slot0.GetShipBuffProperties(slot0)
 	slot1 = {}
 	slot2 = {}
 
-	WorldConst.AppendPropertiesFromBuffList(slot1, slot2, slot0.fleetId and nowWorld:GetFleet(slot0.fleetId):GetBuffList() or {})
+	WorldConst.AppendPropertiesFromBuffList(slot1, slot2, slot0.fleetId and nowWorld():GetFleet(slot0.fleetId):GetBuffList() or {})
 
 	return slot1, slot2
 end

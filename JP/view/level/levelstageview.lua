@@ -36,26 +36,9 @@ function slot0.OnDestroy(slot0)
 		slot0.resPanel1 = nil
 	end
 
-	if not IsNil(slot0.winCondPanel) then
-		slot0.winCondPanel:Destroy()
-
-		slot0.winCondPanel = nil
-	end
-
-	if not IsNil(slot0.combomsg) then
-		Destroy(slot0.combomsg)
-
-		slot0.combomsg = nil
-
-		if slot0.comboAnimId then
-			LeanTween.cancel(slot0.comboAnimId)
-
-			slot0.comboAnimId = nil
-		end
-	end
-
 	slot0:ClearSubViews()
 	slot0:DestroyAutoFightPanel()
+	slot0:DestroyWinConditionPanel()
 	slot0.loader:Clear()
 end
 
@@ -909,14 +892,23 @@ function slot0.UpdateDefenseStatus(slot0)
 end
 
 function slot0.DisplayWinConditionPanel(slot0)
-	if IsNil(slot0.winCondPanel) then
+	if not slot0.winCondPanel then
 		slot0.winCondPanel = WinConditionDisplayPanel.New(slot0._tf.parent, slot0._event, slot0.contextData)
-		slot0.winCondPanel.ParentView = slot0
 
 		slot0.winCondPanel:Load()
 	end
 
 	slot0.winCondPanel:ActionInvoke("Enter", slot0.contextData.chapterVO)
+end
+
+function slot0.DestroyWinConditionPanel(slot0)
+	if not slot0.winCondPanel then
+		return
+	end
+
+	slot0.winCondPanel:Destroy()
+
+	slot0.winCondPanel = nil
 end
 
 function slot0.UpdateComboPanel(slot0)

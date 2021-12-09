@@ -40,7 +40,7 @@ function slot0.UpdateTaskIds(slot0, slot1)
 	if slot0.taskIds ~= slot1 then
 		slot0.taskIds = slot1
 
-		nowWorld:GetAtlas():UpdatePortTaskMark(slot0.id, #slot1 > 0)
+		nowWorld():GetAtlas():UpdatePortTaskMark(slot0.id, #slot1 > 0)
 		slot0:DispatchEvent(uv0.EventUpdateTaskIds)
 	end
 end

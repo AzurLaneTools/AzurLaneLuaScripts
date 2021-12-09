@@ -39,7 +39,7 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.OnGO, function (slot0)
-		slot1 = nowWorld
+		slot1 = nowWorld()
 		slot2 = uv0.contextData.fleets
 
 		if uv0.contextData.mapId then
@@ -240,7 +240,7 @@ function slot0.SetFleetSuccess(slot0)
 		inPort = true
 	}
 
-	if slot0.contextData.mapId and nowWorld:IsReseted() then
+	if slot0.contextData.mapId and nowWorld():IsReseted() then
 		slot1 = {
 			inShop = true
 		}

@@ -12,8 +12,17 @@ slot0.SET_PLAYER_FLAG = "NewShopsMediator:SET_PLAYER_FLAG"
 slot0.ON_GUILD_SHOPPING = "NewShopsMediator:ON_GUILD_SHOPPING"
 slot0.REFRESH_GUILD_SHOP = "NewShopsMediator:REFRESH_GUILD_SHOP"
 slot0.ON_GUILD_PURCHASE = "NewShopsMediator:ON_GUILD_PURCHASE"
+slot0.ON_META_SHOP = "NewShopsMediator:ON_META_SHOP"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.ON_META_SHOP, function (slot0, slot1, slot2, slot3, slot4)
+		uv0:sendNotification(GAME.ON_META_SHOPPING, {
+			activity_id = slot1,
+			cmd = slot2,
+			arg1 = slot3,
+			arg2 = slot4
+		})
+	end)
 	slot0:bind(uv0.ON_GUILD_SHOPPING, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.ON_GUILD_SHOP_PURCHASE, {
 			goodsId = slot1,
@@ -121,7 +130,9 @@ function slot0.listNotificationInterests(slot0)
 		ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS,
 		GAME.USE_ITEM_DONE,
 		GAME.ON_GUILD_SHOP_PURCHASE_DONE,
-		ShopsProxy.GUILD_SHOP_UPDATED
+		ShopsProxy.GUILD_SHOP_UPDATED,
+		GAME.ON_META_SHOPPING_DONE,
+		ShopsProxy.META_SHOP_GOODS_UPDATED
 	}
 end
 
@@ -171,6 +182,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_FRAGMENT, slot3)
 	elseif slot2 == ShopsProxy.ACTIVITY_SHOP_GOODS_UPDATED then
 		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_ACTIVITY, getProxy(ShopsProxy):getActivityShopById(slot3.activityId), slot3.goodsId)
+	elseif slot2 == ShopsProxy.META_SHOP_GOODS_UPDATED then
+		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_META, getProxy(ShopsProxy):GetMetaShop(), slot3.goodsId)
 	elseif slot2 == ShopsProxy.ACTIVITY_SHOP_UPDATED then
 		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_ACTIVITY, slot3.shop)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS then
@@ -191,6 +204,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == ShopsProxy.GUILD_SHOP_UPDATED then
 		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_GUILD, slot3.shop)
+	elseif slot2 == GAME.ON_META_SHOPPING_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	end
 end
 

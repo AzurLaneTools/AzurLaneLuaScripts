@@ -3,7 +3,7 @@ slot0 = class("GetWorldBossCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot3 = (slot1:getBody() or {}).callback
 
-	if not nowWorld.worldBossProxy then
+	if not nowWorld().worldBossProxy then
 		return
 	end
 

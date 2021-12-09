@@ -5,7 +5,7 @@ function slot0.execute(slot0, slot1)
 	slot8 = {}
 
 	_.each(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
-		if slot0 and not slot0:isEnd() then
+		if slot0 and not slot0:isEnd() and slot0:getConfig("config_id") == 0 then
 			uv0[slot0.id] = ActivityShop.New(slot0)
 
 			uv1:addActivityShops(uv0)

@@ -107,26 +107,6 @@ function calcPositionAngle(slot0, slot1)
 	return Vector3.Cross(slot2, slot3).z > 0 and slot4 or -slot4
 end
 
-function dichotomy(slot0, slot1)
-	slot2 = 1
-	slot3 = #slot1
-	slot4 = nil
-
-	while slot2 < slot3 do
-		if slot1[bit.rshift(slot2 + slot3, 1)] < slot0 then
-			slot2 = slot4 + 1
-		else
-			slot3 = slot4
-		end
-	end
-
-	if slot3 < slot2 then
-		return
-	else
-		return slot2
-	end
-end
-
 function DOAParabolaCalc(slot0, slot1, slot2)
 	slot3 = slot0 * math.sqrt(slot1 / 2)
 	slot4 = 0

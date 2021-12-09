@@ -296,6 +296,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[131] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "グナイゼナウ(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 131,
+		target_num = 1,
+		target_id = "0"
+	},
+	[132] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "グナイゼナウ(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 132,
+		target_num = 1,
+		target_id = "30"
+	},
+	[133] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "グナイゼナウ(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 133,
+		target_num = 1,
+		target_id = "55"
+	},
+	[134] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "グナイゼナウ(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 134,
+		target_num = 1,
+		target_id = "80"
+	},
+	[135] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "グナイゼナウ(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 135,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -457,7 +497,7 @@ pg.task_meta_data_template = {
 		target_id = "100"
 	},
 	[220] = {
-		target_id_2 = "970501",
+		target_id_2 = "970601",
 		sub_type = 302,
 		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊で1回勝利する",
 		id = 220,
@@ -465,7 +505,7 @@ pg.task_meta_data_template = {
 		target_id = "0"
 	},
 	[221] = {
-		target_id_2 = "970501",
+		target_id_2 = "970601",
 		sub_type = 302,
 		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv70+の敵を撃破",
 		id = 221,
@@ -473,7 +513,7 @@ pg.task_meta_data_template = {
 		target_id = "70"
 	},
 	[222] = {
-		target_id_2 = "970501",
+		target_id_2 = "970601",
 		sub_type = 302,
 		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv90+の敵を撃破",
 		id = 222,
@@ -481,10 +521,42 @@ pg.task_meta_data_template = {
 		target_id = "90"
 	},
 	[223] = {
-		target_id_2 = "970501",
+		target_id_2 = "970601",
 		sub_type = 302,
 		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv100+の敵を撃破 ",
 		id = 223,
+		target_num = 1,
+		target_id = "100"
+	},
+	[224] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊で1回勝利する",
+		id = 224,
+		target_num = 1,
+		target_id = "0"
+	},
+	[225] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 225,
+		target_num = 1,
+		target_id = "70"
+	},
+	[226] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 226,
+		target_num = 1,
+		target_id = "90"
+	},
+	[227] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv100+の敵を撃破 ",
+		id = 227,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -542,6 +614,11 @@ pg.task_meta_data_template = {
 		128,
 		129,
 		130,
+		131,
+		132,
+		133,
+		134,
+		135,
 		200,
 		201,
 		202,
@@ -566,6 +643,10 @@ pg.task_meta_data_template = {
 		221,
 		222,
 		223,
+		224,
+		225,
+		226,
+		227,
 		301,
 		302
 	}

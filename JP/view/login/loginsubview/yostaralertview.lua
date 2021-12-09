@@ -72,6 +72,7 @@ function slot0.ClearAiriGenCodeTimer(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+	slot0:ClearAiriGenCodeTimer()
 end
 
 return slot0

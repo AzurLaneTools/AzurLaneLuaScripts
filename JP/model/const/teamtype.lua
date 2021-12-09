@@ -32,6 +32,17 @@ slot0.SubShipType = {
 slot0.VanguardMax = 3
 slot0.MainMax = 3
 slot0.SubmarineMax = 3
+
+function slot0.GetTeamShipMax(slot0)
+	if slot0 == uv0.Vanguard then
+		return uv0.VanguardMax
+	elseif slot0 == uv0.Main then
+		return uv0.MainMax
+	elseif slot0 == uv0.Submarine then
+		return uv0.SubmarineMax
+	end
+end
+
 slot0.TeamPos = {
 	FLAG_SHIP = "FlagShip",
 	LEADER = "Leader",

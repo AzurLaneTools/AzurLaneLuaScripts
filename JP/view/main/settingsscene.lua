@@ -546,6 +546,7 @@ function slot0.initOptionsPanel(slot0, slot1)
 	end
 
 	slot0:UpdateBackYardConfig()
+	slot0:InitWorldBossProgressTip(slot1, pg.GuideMgr.GetInstance():isPlayed("WorldG190"))
 	setActive(slot0:findTF("scroll_view/Viewport/content/world_boss_notifications", slot1), false)
 
 	slot10, slot11 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "WorldMediator")
@@ -673,6 +674,61 @@ function slot0.InitWorldBossPanel(slot0, slot1)
 	end
 end
 
+function slot0.InitWorldBossProgressTip(slot0, slot1, slot2)
+	slot3 = slot0:findTF("scroll_view/Viewport/content/world_settings/world_boss", slot1)
+
+	if slot2 then
+		slot4 = pg.gameset.joint_boss_ticket.description
+		slot5 = {}
+
+		table.insert(slot5, "")
+
+		slot6 = slot4[1] + slot4[2]
+
+		table.insert(slot5, slot4[1] .. "&" .. slot6)
+		table.insert(slot5, slot6)
+
+		slot7 = getProxy(SettingsProxy)
+		slot7 = slot7:GetWorldBossProgressTipFlag()
+
+		function slot8(slot0, slot1)
+			onToggle(uv1, slot1, function (slot0)
+				if slot0 then
+					getProxy(SettingsProxy):WorldBossProgressTipFlag(uv0)
+				end
+			end, SFX_PANEL)
+
+			if tostring(uv0[slot0]) == uv2 then
+				triggerToggle(slot1, true)
+			end
+		end
+
+		function slot9()
+			slot4 = "world_boss_progress_tip_title"
+
+			setText(uv0:Find("notify_tpl"):Find("Text"), i18n(slot4))
+
+			for slot4 = 1, #uv1 do
+				uv2(slot4, slot0:Find(tostring(slot4)))
+			end
+
+			onButton(uv3, slot0:Find("Text"), function ()
+				uv0.msgBox:ExecuteAction("Show", i18n("world_boss_progress_tip_desc"))
+			end, SFX_PANEL)
+		end
+
+		if not slot0.isInitWorldBossProgressTip then
+			slot0.isInitWorldBossProgressTip = true
+
+			slot9()
+		end
+
+		return
+	end
+
+	setActive(slot3, false)
+end
+
 function slot0.InitWorldPanel(slot0, slot1)
 	slot3 = slot1:Find("scroll_view/Viewport/content/world_settings/options"):Find("notify_tpl")
 
@@ -686,6 +742,11 @@ function slot0.InitWorldPanel(slot0, slot1)
 			key = "consume_item",
 			title = i18n("world_setting_submititem"),
 			desc = i18n("world_setting_submititemtip")
+		},
+		{
+			key = "auto_save_area",
+			title = i18n("world_setting_mapauto"),
+			desc = i18n("world_setting_mapautotip")
 		}
 	}) do
 		slot10 = cloneTplTo(slot3, slot2)
@@ -1549,10 +1610,11 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot1, true)
 
 	if slot1 == slot0.optionsToggle and slot0.contextData.scroll then
-		if slot0._tf:Find("main/options/scroll_view"):Find("Viewport"):Find("content"):Find(slot0.contextData.scroll) then
-			onDelayTick(function ()
-				scrollTo(uv3, nil, 1 - math.clamp(math.abs(uv0.anchoredPosition.y) / (uv1.rect.height - uv2.rect.height), 0, 1))
-			end, 0.05)
+		if GetComponent(slot0._tf:Find("main/options/scroll_view"), typeof(ScrollRect)).content:Find(slot0.contextData.scroll) then
+			onNextTick(function ()
+				Canvas.ForceUpdateCanvases()
+				scrollTo(uv2, nil, math.clamp(1 - math.abs(uv0.anchoredPosition.y) / (uv1.content.rect.height - uv1.viewport.rect.height), 0, 1))
+			end)
 		end
 	end
 end

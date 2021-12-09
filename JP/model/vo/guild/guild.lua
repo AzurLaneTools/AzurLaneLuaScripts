@@ -80,6 +80,8 @@ function slot0.updateExtraInfo(slot0, slot1)
 	slot0.requestCapitalLogTime = 0
 	slot0.retreatCnt = slot2.retreat_cnt or 0
 	slot0.techCancelCnt = slot2.tech_cancel_cnt or 0
+	slot0.activeEventCnt = slot2.active_event_cnt or 0
+	slot0.tipActiveEventCnt = pg.guildset.operation_monthly_time.key_value
 end
 
 function slot0.SetMaxMemberCntAddition(slot0, slot1)
@@ -828,6 +830,22 @@ function slot0.ExistCommander(slot0, slot1)
 	end
 
 	return false
+end
+
+function slot0.IncActiveEventCnt(slot0)
+	slot0.activeEventCnt = slot0.activeEventCnt + 1
+end
+
+function slot0.ResetActiveEventCnt(slot0)
+	slot0.activeEventCnt = 0
+end
+
+function slot0.ShouldTipActiveEvent(slot0)
+	return slot0.activeEventCnt + 1 <= slot0.tipActiveEventCnt
+end
+
+function slot0.GetActiveEventCnt(slot0)
+	return slot0.activeEventCnt
 end
 
 return slot0

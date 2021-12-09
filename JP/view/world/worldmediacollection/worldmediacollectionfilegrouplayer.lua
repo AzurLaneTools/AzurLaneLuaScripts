@@ -28,7 +28,7 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.UpdateGroupList(slot0)
-	slot1 = nowWorld:GetCollectionProxy()
+	slot1 = nowWorld():GetCollectionProxy()
 
 	table.clear(slot0.fileGroups)
 
@@ -119,7 +119,7 @@ function slot0.OnUpdateFileGroup(slot0, slot1, slot2)
 
 	slot0.loader:GetSprite("CollectionFileTitle/" .. slot3.name_abbreviate, "", slot4:Find(slot11), true)
 
-	slot5 = nowWorld:GetCollectionProxy()
+	slot5 = nowWorld():GetCollectionProxy()
 	slot6 = 0
 	slot7 = #slot3.child
 

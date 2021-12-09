@@ -13,7 +13,7 @@ function slot0.execute(slot0, slot1)
 	}, 33104, function (slot0)
 		if slot0.result == 0 then
 			slot1 = getProxy(WorldProxy)
-			slot2 = nowWorld:GetActiveMap()
+			slot2 = nowWorld():GetActiveMap()
 			uv0.drops = PlayerConst.addTranDrop(slot0.drop_list)
 			uv0.updateAttachmentCells = slot1:NetBuildMapAttachmentCells(slot0.pos_list)
 			uv0.fleetAttachUpdates = slot1:NetBuildFleetAttachUpdate(slot0.pos_list)
@@ -99,7 +99,7 @@ function slot0.BuildFleetMove(slot0, slot1, slot2)
 	slot3 = {}
 
 	if #slot1 > 0 then
-		slot4 = nowWorld:GetActiveMap()
+		slot4 = nowWorld():GetActiveMap()
 		slot5 = slot4:GetFleet()
 		slot2.updateAttachmentCells = {}
 		slot3 = table.mergeArray(slot3, slot0:BuildFleetMoveAction(slot1, slot4, slot5.id, slot5.row, slot5.column, slot2.updateAttachmentCells, true))
@@ -118,7 +118,7 @@ function slot0.BuildFleetMove(slot0, slot1, slot2)
 end
 
 function slot0.BuildFleetPath(slot0, slot1, slot2, slot3, slot4)
-	slot5 = nowWorld
+	slot5 = nowWorld()
 	slot5 = slot5:GetActiveMap()
 	slot6 = slot5:GetFleet(slot3.id)
 
@@ -205,7 +205,7 @@ function slot0.BuildFleetPath(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.BuildFleetAction(slot0, slot1)
-	slot3 = nowWorld:GetActiveMap():FindFleet(slot1.ai_pos.row, slot1.ai_pos.column)
+	slot3 = nowWorld():GetActiveMap():FindFleet(slot1.ai_pos.row, slot1.ai_pos.column)
 	slot4 = getProxy(WorldProxy):NetBuildMapAttachmentCells(slot1.pos_list)
 	slot5 = nil
 
@@ -291,7 +291,7 @@ end
 function slot0.BuildAttachmentAction(slot0, slot1)
 	slot8 = WBank:Fetch(WorldMapOp)
 	slot8.op = WorldConst.OpActionCameraMove
-	slot8.attachment = nowWorld:GetActiveMap():GetCell(slot1.ai_pos.row, slot1.ai_pos.column):FindAliveAttachment(WorldMapAttachment.TypeEnemyAI)
+	slot8.attachment = nowWorld():GetActiveMap():GetCell(slot1.ai_pos.row, slot1.ai_pos.column):FindAliveAttachment(WorldMapAttachment.TypeEnemyAI)
 
 	table.insert({}, slot8)
 
@@ -312,7 +312,7 @@ function slot0.BuildAttachmentAction(slot0, slot1)
 end
 
 function slot0.BuildAttachmentActionPath(slot0, slot1, slot2)
-	slot3 = nowWorld
+	slot3 = nowWorld()
 	slot3 = slot3:GetActiveMap()
 	slot2.path = underscore.map(slot1, function (slot0)
 		return {
@@ -328,7 +328,7 @@ function slot0.BuildAttachmentActionPath(slot0, slot1, slot2)
 end
 
 function slot0.BuildTrapAction(slot0, slot1)
-	slot6 = nowWorld:GetActiveMap():GetCell(slot1.ai_pos.row, slot1.ai_pos.column):FindAliveAttachment(WorldMapAttachment.TypeTrap)
+	slot6 = nowWorld():GetActiveMap():GetCell(slot1.ai_pos.row, slot1.ai_pos.column):FindAliveAttachment(WorldMapAttachment.TypeTrap)
 	slot7 = {}
 	slot8 = WBank:Fetch(WorldMapOp)
 	slot8.op = WorldConst.OpActionCameraMove
@@ -386,7 +386,7 @@ function slot0.BuildBlinkAction(slot0, slot1, slot2)
 
 		table.insert(slot3, slot8)
 	elseif slot4 == WorldMapAttachment.SpEventFufen then
-		slot8, slot9 = nowWorld:GetActiveMap():FindAIPath({
+		slot8, slot9 = nowWorld():GetActiveMap():FindAIPath({
 			row = slot1.row,
 			column = slot1.column
 		}, {
@@ -409,9 +409,10 @@ end
 
 function slot0.BuildProgressAction(slot0, slot1)
 	slot2 = {}
-	slot3 = nowWorld:GetRealm()
+	slot3 = nowWorld()
+	slot4 = slot3:GetRealm()
 
-	if nowWorld:GetProgress() < slot1 then
+	if slot3:GetProgress() < slot1 then
 		_.each(WorldConst.FindStageTemplates(slot1), function (slot0)
 			if slot0 and #slot0.stage_effect[uv0] > 0 then
 				_.each(slot0.stage_effect[uv0], function (slot0)

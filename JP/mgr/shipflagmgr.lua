@@ -75,10 +75,10 @@ slot2 = {
 		return getProxy(PlayerProxy):getRawData().characters
 	end,
 	inWorld = function ()
-		if nowWorld.type == World.TypeBase then
-			return underscore.rest(nowWorld.baseShipIds, 1)
+		if nowWorld().type == World.TypeBase then
+			return underscore.rest(slot0.baseShipIds, 1)
 		else
-			return _.map(nowWorld:GetShips(), function (slot0)
+			return _.map(slot0:GetShips(), function (slot0)
 				return slot0.id
 			end)
 		end

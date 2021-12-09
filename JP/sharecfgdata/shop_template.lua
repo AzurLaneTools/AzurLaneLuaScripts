@@ -44225,316 +44225,6 @@ _G.pg.shop_template[90048] = {
 	}
 }
 
-_G.pg.shop_template[100000] = {
-	is_auto_use = 0,
-	resource_type = 2,
-	genre = "world",
-	type = 12,
-	desc = "大型作战信息记录仪",
-	group_limit = 0,
-	group_buy_count = 0,
-	tag = 0,
-	limit_args2 = "",
-	time_second = 0,
-	order = 0,
-	time = "always",
-	group = 0,
-	num = 1,
-	discount = 0,
-	group_type = 0,
-	id = 100000,
-	resource_num = 5000,
-	discount_time = {},
-	limit_args = {
-		{
-			"time",
-			1
-		}
-	},
-	effect_args = {
-		102
-	}
-}
-
-_G.pg.shop_template[100001] = {
-	is_auto_use = 0,
-	resource_type = 3002,
-	genre = "world",
-	type = 2,
-	desc = "資金",
-	group_limit = 0,
-	group_buy_count = 0,
-	tag = 0,
-	limit_args2 = "",
-	time_second = 0,
-	order = 1,
-	time = "always",
-	group = 0,
-	num = 1,
-	discount = 0,
-	group_type = 0,
-	id = 100001,
-	resource_num = 100,
-	discount_time = {},
-	limit_args = {
-		{
-			"time",
-			30
-		}
-	},
-	effect_args = {
-		61001
-	}
-}
-
-_G.pg.shop_template[100002] = {
-	is_auto_use = 0,
-	resource_type = 3002,
-	genre = "world",
-	type = 1,
-	desc = "大作戦指令書",
-	group_limit = 0,
-	group_buy_count = 0,
-	tag = 0,
-	limit_args2 = "",
-	time_second = 0,
-	order = 2,
-	time = "always",
-	group = 0,
-	num = 1000,
-	discount = 0,
-	group_type = 0,
-	id = 100002,
-	resource_num = 250,
-	discount_time = {},
-	limit_args = {
-		{
-			"time",
-			10
-		}
-	},
-	effect_args = {
-		1
-	}
-}
-
-_G.pg.shop_template[100003] = {
-	is_auto_use = 0,
-	resource_type = 3002,
-	genre = "world",
-	type = 12,
-	desc = "混乱坐标仪LV5",
-	group_limit = 0,
-	group_buy_count = 0,
-	tag = 0,
-	limit_args2 = "",
-	time_second = 0,
-	order = 3,
-	time = "always",
-	group = 0,
-	num = 1,
-	discount = 0,
-	group_type = 0,
-	id = 100003,
-	resource_num = 80,
-	discount_time = {},
-	limit_args = {
-		{
-			"time",
-			3
-		}
-	},
-	effect_args = {
-		2005
-	}
-}
-
-_G.pg.shop_template[100004] = {
-	is_auto_use = 0,
-	resource_type = 3002,
-	genre = "world",
-	type = 12,
-	desc = "混乱坐标仪LV6",
-	group_limit = 0,
-	group_buy_count = 0,
-	tag = 0,
-	limit_args2 = "",
-	time_second = 0,
-	order = 4,
-	time = "always",
-	group = 0,
-	num = 1,
-	discount = 0,
-	group_type = 0,
-	id = 100004,
-	resource_num = 160,
-	discount_time = {},
-	limit_args = {
-		{
-			"time",
-			2
-		}
-	},
-	effect_args = {
-		2006
-	}
-}
-
-_G.pg.shop_template[100005] = {
-	is_auto_use = 0,
-	resource_type = 3002,
-	genre = "world",
-	type = 12,
-	desc = "深渊坐标仪LV5",
-	group_limit = 0,
-	group_buy_count = 0,
-	tag = 0,
-	limit_args2 = "",
-	time_second = 0,
-	order = 5,
-	time = "always",
-	group = 0,
-	num = 1,
-	discount = 0,
-	group_type = 0,
-	id = 100005,
-	resource_num = 400,
-	discount_time = {},
-	limit_args = {
-		{
-			"time",
-			2
-		}
-	},
-	effect_args = {
-		2015
-	}
-}
-
-_G.pg.shop_template[100006] = {
-	is_auto_use = 0,
-	resource_type = 3002,
-	genre = "world",
-	type = 12,
-	desc = "深渊坐标仪LV6",
-	group_limit = 0,
-	group_buy_count = 0,
-	tag = 0,
-	limit_args2 = "",
-	time_second = 0,
-	order = 6,
-	time = "always",
-	group = 0,
-	num = 1,
-	discount = 0,
-	group_type = 0,
-	id = 100006,
-	resource_num = 800,
-	discount_time = {},
-	limit_args = {
-		{
-			"time",
-			1
-		}
-	},
-	effect_args = {
-		2016
-	}
-}
-
-_G.pg.shop_template[100007] = {
-	is_auto_use = 0,
-	resource_type = 3002,
-	genre = "world",
-	type = 12,
-	desc = "强力效能样本-攻击",
-	group_limit = 0,
-	group_buy_count = 0,
-	tag = 0,
-	limit_args2 = "",
-	time_second = 0,
-	order = 7,
-	time = "always",
-	group = 0,
-	num = 1,
-	discount = 0,
-	group_type = 0,
-	id = 100007,
-	resource_num = 50,
-	discount_time = {},
-	limit_args = {
-		{
-			"time",
-			6
-		}
-	},
-	effect_args = {
-		304
-	}
-}
-
-_G.pg.shop_template[100008] = {
-	is_auto_use = 0,
-	resource_type = 3002,
-	genre = "world",
-	type = 12,
-	desc = "强力效能样本-耐久",
-	group_limit = 0,
-	group_buy_count = 0,
-	tag = 0,
-	limit_args2 = "",
-	time_second = 0,
-	order = 8,
-	time = "always",
-	group = 0,
-	num = 1,
-	discount = 0,
-	group_type = 0,
-	id = 100008,
-	resource_num = 50,
-	discount_time = {},
-	limit_args = {
-		{
-			"time",
-			6
-		}
-	},
-	effect_args = {
-		305
-	}
-}
-
-_G.pg.shop_template[100009] = {
-	is_auto_use = 0,
-	resource_type = 3002,
-	genre = "world",
-	type = 12,
-	desc = "强力效能样本-恢复",
-	group_limit = 0,
-	group_buy_count = 0,
-	tag = 0,
-	limit_args2 = "",
-	time_second = 0,
-	order = 9,
-	time = "always",
-	group = 0,
-	num = 1,
-	discount = 0,
-	group_type = 0,
-	id = 100009,
-	resource_num = 50,
-	discount_time = {},
-	limit_args = {
-		{
-			"time",
-			6
-		}
-	},
-	effect_args = {
-		306
-	}
-}
-
 _G.pg.shop_template[90049] = {
 	is_auto_use = 0,
 	resource_type = 164,
@@ -48044,6 +47734,484 @@ _G.pg.shop_template[90117] = {
 				2021,
 				12,
 				8
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[100000] = {
+	is_auto_use = 0,
+	resource_type = 2,
+	genre = "world",
+	type = 12,
+	desc = "大型作战信息记录仪",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100000,
+	resource_num = 5000,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		102
+	}
+}
+
+_G.pg.shop_template[100001] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 2,
+	desc = "資金",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 1,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100001,
+	resource_num = 100,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			30
+		}
+	},
+	effect_args = {
+		61001
+	}
+}
+
+_G.pg.shop_template[100002] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 1,
+	desc = "大作戦指令書",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 2,
+	time = "always",
+	group = 0,
+	num = 1000,
+	discount = 0,
+	group_type = 0,
+	id = 100002,
+	resource_num = 250,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			10
+		}
+	},
+	effect_args = {
+		1
+	}
+}
+
+_G.pg.shop_template[100003] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 12,
+	desc = "混乱坐标仪LV5",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 3,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100003,
+	resource_num = 80,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			3
+		}
+	},
+	effect_args = {
+		2005
+	}
+}
+
+_G.pg.shop_template[100004] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 12,
+	desc = "混乱坐标仪LV6",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 4,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100004,
+	resource_num = 160,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		2006
+	}
+}
+
+_G.pg.shop_template[100005] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 12,
+	desc = "深渊坐标仪LV5",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 5,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100005,
+	resource_num = 400,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		2015
+	}
+}
+
+_G.pg.shop_template[100006] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 12,
+	desc = "深渊坐标仪LV6",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 6,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100006,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		2016
+	}
+}
+
+_G.pg.shop_template[100007] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 12,
+	desc = "强力效能样本-攻击",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 7,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100007,
+	resource_num = 50,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			6
+		}
+	},
+	effect_args = {
+		304
+	}
+}
+
+_G.pg.shop_template[100008] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 12,
+	desc = "强力效能样本-耐久",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 8,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100008,
+	resource_num = 50,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			6
+		}
+	},
+	effect_args = {
+		305
+	}
+}
+
+_G.pg.shop_template[100009] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 12,
+	desc = "强力效能样本-恢复",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 9,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100009,
+	resource_num = 50,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			6
+		}
+	},
+	effect_args = {
+		306
+	}
+}
+
+_G.pg.shop_template[100010] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 2,
+	desc = "舰艇攻击教材T4",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100010,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		16004
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2032,
+				1,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[100011] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 2,
+	desc = "舰艇防御教材T4",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100011,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		16014
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2032,
+				1,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.shop_template[100012] = {
+	is_auto_use = 0,
+	resource_type = 3002,
+	genre = "world",
+	type = 2,
+	desc = "舰艇辅助教材T4",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100012,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		16024
+	},
+	time = {
+		{
+			{
+				2022,
+				1,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2032,
+				1,
+				1
 			},
 			{
 				23,

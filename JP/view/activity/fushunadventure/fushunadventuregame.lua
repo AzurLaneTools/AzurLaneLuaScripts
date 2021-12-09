@@ -9,7 +9,7 @@ slot6 = 4
 function slot0.Ctor(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 
-	pg.fushunLoader = BundleLoaderPort.New()
+	pg.fushunLoader = AutoLoader.New()
 	slot0.state = uv0
 	slot0._go = slot1
 	slot0.gameData = slot2
@@ -262,13 +262,13 @@ function slot0.LoadScene(slot0, slot1)
 			else
 				slot1 = pg.fushunLoader
 
-				slot1:LoadPrefab("ui/FushunAdventureGame", "", "FushunAdventureGame", function (slot0)
+				slot1:LoadPrefab("ui/FushunAdventureGame", "", function (slot0)
 					uv0.gameUI = slot0
 
 					slot0.transform:SetParent(uv0._go.transform, false)
 					uv0:InitGameUI()
 					uv1()
-				end)
+				end, "FushunAdventureGame")
 			end
 		end,
 		function (slot0)
@@ -290,13 +290,13 @@ function slot0.LoadScene(slot0, slot1)
 				function (slot0)
 					slot1 = pg.fushunLoader
 
-					slot1:LoadPrefab("FushunAdventure/fushun", "", "fushun", function (slot0)
+					slot1:LoadPrefab("FushunAdventure/fushun", "", function (slot0)
 						uv0.fushun = FushunChar.New(slot0)
 
 						uv0.fushun:SetPosition(FushunAdventureGameConst.FUSHUN_INIT_POSITION)
 						slot0.transform:SetParent(uv0.gameUI.transform:Find("game"), false)
 						uv1()
-					end)
+					end, "fushun")
 				end
 			}, slot0)
 		end

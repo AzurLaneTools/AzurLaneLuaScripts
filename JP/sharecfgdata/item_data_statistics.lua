@@ -8298,6 +8298,27 @@ _G.pg.item_data_statistics[21006] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[21007] = {
+	display = "グナイゼナウ(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：グナイゼナウ (META)",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21007",
+	id = 21007,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[21101] = {
 	display = "艤装の火力を強化できるレア素材。「メタラボ」の「強化」で使用可能",
 	name = "耐熱強化結晶鋼",
@@ -8461,6 +8482,27 @@ _G.pg.item_data_statistics[21904] = {
 	is_world = 0,
 	icon = "Props/21904",
 	id = 21904,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[21905] = {
+	display = "グナイゼナウ(META)の解析ポイント。META戦開催期間（2022.3.10）終了時にリセットされます",
+	name = "グナイゼナウ(META)解析Pt",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21905",
+	id = 21905,
 	display_icon = {},
 	price = {},
 	index = {}
@@ -12795,8 +12837,8 @@ _G.pg.item_data_statistics[30900] = {
 }
 
 _G.pg.item_data_statistics[30911] = {
-	display = "使用后可从稀有研发素材中任意选择一种获得1个",
-	name = "定向·稀有研发素材箱",
+	display = "任意の兵装開発用素材T1を選んで入手可能",
+	name = "指向型兵装開発資材箱T1",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -12837,8 +12879,8 @@ _G.pg.item_data_statistics[30911] = {
 }
 
 _G.pg.item_data_statistics[30912] = {
-	display = "使用后可从精锐研发素材中任意选择一种获得1个",
-	name = "定向·精锐研发素材箱",
+	display = "任意の兵装開発用素材T2を選んで入手可能",
+	name = "指向型兵装開発資材箱T2",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -12889,8 +12931,8 @@ _G.pg.item_data_statistics[30912] = {
 }
 
 _G.pg.item_data_statistics[30913] = {
-	display = "使用后可从T3部件中任意选择一种获得1个",
-	name = "定向·超稀有研发素材箱",
+	display = "任意の兵装開発用素材T3を選んで入手可能",
+	name = "指向型兵装開発資材箱T3",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -12902,7 +12944,7 @@ _G.pg.item_data_statistics[30913] = {
 	link_id = 0,
 	virtual_type = 0,
 	is_world = 0,
-	icon = "Props/Wsucaixiang1",
+	icon = "Props/30913",
 	id = 30913,
 	display_icon = {
 		{

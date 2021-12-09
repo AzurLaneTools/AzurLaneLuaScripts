@@ -5,7 +5,6 @@ slot0.OnTaskGoto = "WorldInformationMediator.OnTaskGoto"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.OnTaskGoto, function (slot0, slot1)
-		uv0.viewComponent:closeView()
 		uv0:sendNotification(WorldMediator.OnTriggerTaskGo, {
 			taskId = slot1
 		})
@@ -20,16 +19,21 @@ function slot0.register(slot0)
 			taskId = slot1.id
 		})
 	end)
-	slot0.viewComponent:setWorldTaskProxy(nowWorld:GetTaskProxy())
+	slot0.viewComponent:setWorldTaskProxy(nowWorld():GetTaskProxy())
 end
 
 function slot0.listNotificationInterests(slot0)
-	return {}
+	return {
+		WorldCollectionMediator.ON_MAP
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot2 = slot1:getName()
 	slot3 = slot1:getBody()
+
+	if slot1:getName() == WorldCollectionMediator.ON_MAP then
+		slot0.viewComponent:closeView()
+	end
 end
 
 return slot0

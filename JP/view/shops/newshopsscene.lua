@@ -5,6 +5,7 @@ slot0.TYPE_MILITARY_SHOP = 3
 slot0.TYPE_SHAM_SHOP = 4
 slot0.TYPE_FRAGMENT = 5
 slot0.TYPE_GUILD = 6
+slot0.TYPE_META = 7
 
 function slot0.getUIName(slot0)
 	return "NewShopsUI"
@@ -42,7 +43,8 @@ function slot0.init(slot0)
 		[uv0.TYPE_MILITARY_SHOP] = MilitaryShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
 		[uv0.TYPE_GUILD] = GuildShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
 		[uv0.TYPE_SHAM_SHOP] = ShamShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
-		[uv0.TYPE_FRAGMENT] = FragmentShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData)
+		[uv0.TYPE_FRAGMENT] = FragmentShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
+		[uv0.TYPE_META] = MetaShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData)
 	}
 	slot0.contextData.singleWindow = ShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.multiWindow = ShopMultiWindow.New(slot0._tf, slot0.event)
@@ -155,7 +157,8 @@ function slot0.ActiveDefaultShop(slot0)
 		"supplies",
 		"sham",
 		"fragment",
-		"guild"
+		"guild",
+		"meta"
 	}
 
 	if type(slot0.contextData.warp or slot0.contextData.activeShop or uv0.TYPE_ACTIVITY) == "string" then

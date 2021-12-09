@@ -6,7 +6,7 @@ return {
 		{
 			stageIndex = 1,
 			failCondition = 1,
-			timeCount = 180,
+			timeCount = 90,
 			passCondition = 1,
 			backGroundStageID = 1,
 			totalArea = {
@@ -41,7 +41,7 @@ return {
 					waveIndex = 202,
 					preWaves = {},
 					triggerParams = {
-						timeout = 40
+						timeout = 21
 					}
 				},
 				{
@@ -64,12 +64,13 @@ return {
 					spawn = {
 						{
 							score = 0,
-							monsterTemplateID = 296001,
+							reinforceDelay = 20,
+							monsterTemplateID = 294310,
 							delay = 0,
 							moveCast = true,
 							affix = true,
 							corrdinate = {
-								30,
+								2,
 								0,
 								55
 							},
@@ -86,58 +87,155 @@ return {
 									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchParam = 8,
-									setAI = 100020,
+									switchParam = 20,
+									setAI = 20006,
 									addWeapon = {
-										2011430,
-										2011990
+										2011510,
+										2011520,
+										2011530
 									}
 								},
 								{
 									switchType = 1,
 									switchTo = 2,
 									index = 1,
-									switchParam = 6,
-									setAI = 10001,
+									switchParam = 10,
+									setAI = 100022,
 									removeWeapon = {
-										2011990
+										2011510,
+										2011520,
+										2011530
 									},
 									addWeapon = {
-										2011340
+										2011610
 									}
 								},
 								{
 									index = 2,
-									switchParam = 24,
-									switchTo = 3,
 									switchType = 1,
-									removeWeapon = {
-										2011340,
-										2011400
-									},
+									switchTo = 4,
+									switchParam = 5,
 									addWeapon = {
-										2011500
+										2011550
 									}
 								},
 								{
-									index = 3,
-									switchParam = 20,
+									index = 4,
+									switchParam = 3,
+									switchTo = 5,
+									switchType = 1,
+									removeWeapon = {
+										2011550,
+										2011610
+									},
+									addWeapon = {
+										2011630,
+										2011640
+									}
+								},
+								{
+									switchType = 1,
+									switchTo = 6,
+									index = 5,
+									switchParam = 37,
+									setAI = 100021,
+									removeWeapon = {
+										2011630
+									},
+									addWeapon = {
+										2011650,
+										2011660,
+										2011670,
+										2011680
+									}
+								},
+								{
+									index = 6,
+									switchParam = 600,
 									switchTo = 1,
 									switchType = 1,
 									removeWeapon = {
-										2011500,
-										2011400
+										2011630,
+										2011640,
+										2011650,
+										2011660,
+										2011670,
+										2011680
 									},
 									addWeapon = {
-										2011900
+										2011700,
+										2011710
 									}
 								}
+							}
+						}
+					},
+					reinforcement = {
+						{
+							monsterTemplateID = 291010,
+							moveCast = true,
+							delay = 1,
+							score = 0,
+							corrdinate = {
+								35,
+								0,
+								83
+							},
+							buffList = {
+								8001,
+								79101
+							}
+						},
+						{
+							monsterTemplateID = 291010,
+							moveCast = true,
+							delay = 1,
+							score = 0,
+							corrdinate = {
+								35,
+								0,
+								27
+							},
+							buffList = {
+								8001,
+								79101
+							}
+						},
+						{
+							monsterTemplateID = 291010,
+							moveCast = true,
+							delay = 0.5,
+							score = 0,
+							corrdinate = {
+								35,
+								0,
+								55
+							},
+							buffList = {
+								8001,
+								79101
+							}
+						}
+					},
+					airFighter = {
+						{
+							interval = 20,
+							onceNumber = 9,
+							formation = 20003,
+							delay = 0,
+							templateID = 2201000,
+							totalNumber = 36,
+							weaponID = {},
+							attr = {
+								airPower = 40,
+								maxHP = 15,
+								attackRating = 23
 							}
 						}
 					}
 				},
 				{
-					triggerType = 10,
+					triggerType = 0,
 					waveIndex = 102,
 					conditionType = 1,
 					preWaves = {
@@ -146,87 +244,33 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
+							monsterTemplateID = 294410,
+							moveCast = true,
 							delay = 0,
-							prefab = "haidihuoshan_yujing",
-							life_time = 3.5,
-							behaviours = 105,
-							coordinate = {
-								-30,
+							score = 0,
+							corrdinate = {
+								-5,
 								0,
-								65
+								75
 							},
-							cld_data = {
-								15
+							buffList = {
+								8001,
+								8007
 							}
 						},
 						{
-							delay = 4,
-							prefab = "haidihuoshan_yujing",
-							life_time = 3.5,
-							behaviours = 105,
-							coordinate = {
-								-45,
+							monsterTemplateID = 294410,
+							moveCast = true,
+							delay = 0,
+							score = 0,
+							corrdinate = {
+								-5,
 								0,
-								40
+								35
 							},
-							cld_data = {
-								15
-							}
-						},
-						{
-							delay = 8,
-							prefab = "haidihuoshan_yujing",
-							life_time = 3.5,
-							behaviours = 105,
-							coordinate = {
-								-60,
-								0,
-								65
-							},
-							cld_data = {
-								15
-							}
-						},
-						{
-							delay = 12,
-							prefab = "haidihuoshan_yujing",
-							life_time = 3.5,
-							behaviours = 105,
-							coordinate = {
-								-30,
-								0,
-								40
-							},
-							cld_data = {
-								15
-							}
-						},
-						{
-							delay = 16,
-							prefab = "haidihuoshan_yujing",
-							life_time = 3.5,
-							behaviours = 105,
-							coordinate = {
-								-45,
-								0,
-								65
-							},
-							cld_data = {
-								15
-							}
-						},
-						{
-							delay = 20,
-							prefab = "haidihuoshan_yujing",
-							life_time = 3.5,
-							behaviours = 105,
-							coordinate = {
-								-60,
-								0,
-								40
-							},
-							cld_data = {
-								15
+							buffList = {
+								8001,
+								8007
 							}
 						}
 					}

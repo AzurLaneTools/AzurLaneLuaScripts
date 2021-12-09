@@ -32,13 +32,19 @@ slot0.Listeners = {
 }
 
 function slot0.Setup(slot0)
-	nowWorld:AddListener(World.EventUpdateGlobalBuff, slot0.onUpdateGlobalBuff)
+	slot1 = nowWorld()
+
+	slot1:AddListener(World.EventUpdateGlobalBuff, slot0.onUpdateGlobalBuff)
+	slot1:GetAtlas():AddListener(WorldAtlas.EventUpdateActiveMap, slot0.onUpdateFleetBuff)
 	pg.DelegateInfo.New(slot0)
 	slot0:Init()
 end
 
 function slot0.Dispose(slot0)
-	nowWorld:RemoveListener(World.EventUpdateGlobalBuff, slot0.onUpdateGlobalBuff)
+	slot1 = nowWorld()
+
+	slot1:RemoveListener(World.EventUpdateGlobalBuff, slot0.onUpdateGlobalBuff)
+	slot1:GetAtlas():RemoveListener(WorldAtlas.EventUpdateActiveMap, slot0.onUpdateFleetBuff)
 	slot0:RemoveFleetListener(slot0.fleet)
 	slot0:RemoveMapListener()
 	pg.DelegateInfo.Dispose(slot0)
@@ -174,7 +180,7 @@ function slot0.RemoveFleetListener(slot0, slot1)
 end
 
 function slot0.OnUpdateMap(slot0)
-	setText(slot0.rtMapName, slot0.map:GetName(slot0.entrance:GetBaseMap()))
+	setText(slot0.rtMapName, slot0.map:GetName(slot0.entrance))
 end
 
 function slot0.OnUpdateSelectedFleet(slot0)
@@ -190,7 +196,7 @@ function slot0.OnUpdateSelectedFleet(slot0)
 end
 
 function slot0.OnUpdateGlobalBuff(slot0)
-	slot0.globalBuffs = nowWorld:GetWorldMapBuffs()
+	slot0.globalBuffs = nowWorld():GetWorldMapBuffs()
 
 	slot0.globalBuffItemList:align(#slot0.globalBuffs)
 end

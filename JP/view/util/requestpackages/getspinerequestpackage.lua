@@ -24,6 +24,7 @@ end
 
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0.name = slot1
+	slot0.path = "Spine"
 	slot0.onLoaded = slot2
 end
 

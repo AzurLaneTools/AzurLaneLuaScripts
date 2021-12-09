@@ -127,7 +127,7 @@ end
 
 function slot0.willExit(slot0)
 	if slot0:GetCurrentPage() then
-		slot1.buffer:OnDeselected()
+		slot1.buffer:Hide()
 	end
 
 	for slot5, slot6 in pairs(slot0.subViews) do

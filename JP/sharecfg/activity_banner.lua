@@ -2,47 +2,27 @@ pg = pg or {}
 pg.activity_banner = {
 	{
 		param = "7002",
-		id = 1,
-		pic = "temp1",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2021,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 1,
+		pic = "temp1"
 	},
 	{
-		param = "4174",
 		id = 2,
 		pic = "temp2",
-		type = 3,
+		type = 2,
+		param = {
+			"metacharacter",
+			{
+				autoOpenShipConfigID = 9704010
+			}
+		},
 		time = {
 			{
 				{
 					2021,
-					11,
-					25
+					12,
+					9
 				},
 				{
 					0,
@@ -54,7 +34,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					9
+					23
 				},
 				{
 					23,
@@ -69,17 +49,15 @@ pg.activity_banner = {
 		pic = "temp3",
 		type = 2,
 		param = {
-			"scene get boat",
-			{
-				projectname = "new"
-			}
+			"scene level",
+			{}
 		},
 		time = {
 			{
 				{
 					2021,
-					11,
-					25
+					12,
+					9
 				},
 				{
 					0,
@@ -91,7 +69,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					9
+					23
 				},
 				{
 					23,

@@ -906,7 +906,20 @@ function temp()
 				["ゼ"] = {
 					["ナ"] = {
 						["ウ"] = {
-							this = true
+							this = true,
+							["("] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												[")"] = {
+													this = true
+												}
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}

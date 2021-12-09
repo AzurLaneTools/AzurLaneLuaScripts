@@ -121,6 +121,49 @@ pg.world_trap_data = {
 		desc = "燃え盛る海がこの区域に進入した艦隊にダメージを与えてしまう。火災によるダメージが艦隊が行動する度に発生し、しばらく持続する。",
 		trap_range = {}
 	},
+	[200] = {
+		buff_id = 600,
+		name = "電波撹乱TypeⅡ",
+		obstacle = 2,
+		repeat_trap = 2,
+		trap_fx = "zhongcaizhe_zhonglichang_slg",
+		trap_type = 1,
+		id = 200,
+		desc = "この区域がセイレーンの電波撹乱を強く受けており、中に入った艦船のナビゲーションシステムは正常に作動できなくなり、移動距離が大きく制限されてしまう。",
+		trap_range = {
+			3,
+			3,
+			2
+		}
+	},
+	[201] = {
+		buff_id = 601,
+		name = "電波撹乱TypeⅠ",
+		obstacle = 2,
+		repeat_trap = 2,
+		trap_fx = "zhongcaizhe_shandianqiang",
+		trap_type = 2,
+		id = 201,
+		desc = "この区域がセイレーンの電波撹乱を強く受けており、中に入った艦船のナビゲーションシステムは正常に作動できなくなり、正しい方向へと航行できなくなってしまう。",
+		trap_range = {
+			2
+		}
+	},
+	[202] = {
+		buff_id = 603,
+		name = "異常燃焼",
+		obstacle = 2,
+		repeat_trap = 2,
+		trap_fx = "SLG_huo02",
+		trap_type = 0,
+		id = 202,
+		desc = "海を青く照らす、複数の化合物からなる炎がこの区域に進入した艦隊にダメージを与えてしまう。火災によるダメージが艦隊が行動する度に発生し、しばらく持続する。",
+		trap_range = {
+			1,
+			1,
+			1
+		}
+	},
 	[1001] = {
 		buff_id = 311,
 		name = "電波撹乱TypeⅠ",
@@ -408,6 +451,9 @@ pg.world_trap_data = {
 		102,
 		103,
 		110,
+		200,
+		201,
+		202,
 		1001,
 		1002,
 		1003,

@@ -121,7 +121,7 @@ function slot0.register(slot0)
 			selectedIds = uv0.contextData.materialIds,
 			ignoredIds = slot3,
 			onCommander = function (slot0, slot1, slot2, slot3)
-				if nowWorld:CheckCommanderInFleet(slot0.id) then
+				if nowWorld():CheckCommanderInFleet(slot0.id) then
 					return false, i18n("commander_is_in_bigworld")
 				end
 

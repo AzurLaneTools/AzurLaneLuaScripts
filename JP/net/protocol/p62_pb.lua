@@ -17,7 +17,9 @@ slot3 = {
 	SC_62010_DROP_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_62011_TYPE_FIELD = slot0.FieldDescriptor(),
 	SC_62012_RESULT_FIELD = slot0.FieldDescriptor(),
-	SC_62012_LOG_FIELD = slot0.FieldDescriptor(),
+	SC_62012_INCLOG_FIELD = slot0.FieldDescriptor(),
+	SC_62012_DECLOG_FIELD = slot0.FieldDescriptor(),
+	SC_62012_OTHERLOG_FIELD = slot0.FieldDescriptor(),
 	CS_62013_ID_FIELD = slot0.FieldDescriptor(),
 	SC_62014_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_62015_ID_FIELD = slot0.FieldDescriptor(),
@@ -288,23 +290,45 @@ slot3.SC_62012_RESULT_FIELD.has_default_value = false
 slot3.SC_62012_RESULT_FIELD.default_value = 0
 slot3.SC_62012_RESULT_FIELD.type = 13
 slot3.SC_62012_RESULT_FIELD.cpp_type = 3
-slot3.SC_62012_LOG_FIELD.name = "log"
-slot3.SC_62012_LOG_FIELD.full_name = "p62.sc_62012.log"
-slot3.SC_62012_LOG_FIELD.number = 2
-slot3.SC_62012_LOG_FIELD.index = 1
-slot3.SC_62012_LOG_FIELD.label = 3
-slot3.SC_62012_LOG_FIELD.has_default_value = false
-slot3.SC_62012_LOG_FIELD.default_value = {}
-slot3.SC_62012_LOG_FIELD.message_type = slot2.CAPITAL_LOG
-slot3.SC_62012_LOG_FIELD.type = 11
-slot3.SC_62012_LOG_FIELD.cpp_type = 10
+slot3.SC_62012_INCLOG_FIELD.name = "inclog"
+slot3.SC_62012_INCLOG_FIELD.full_name = "p62.sc_62012.inclog"
+slot3.SC_62012_INCLOG_FIELD.number = 2
+slot3.SC_62012_INCLOG_FIELD.index = 1
+slot3.SC_62012_INCLOG_FIELD.label = 3
+slot3.SC_62012_INCLOG_FIELD.has_default_value = false
+slot3.SC_62012_INCLOG_FIELD.default_value = {}
+slot3.SC_62012_INCLOG_FIELD.message_type = slot2.CAPITAL_LOG
+slot3.SC_62012_INCLOG_FIELD.type = 11
+slot3.SC_62012_INCLOG_FIELD.cpp_type = 10
+slot3.SC_62012_DECLOG_FIELD.name = "declog"
+slot3.SC_62012_DECLOG_FIELD.full_name = "p62.sc_62012.declog"
+slot3.SC_62012_DECLOG_FIELD.number = 3
+slot3.SC_62012_DECLOG_FIELD.index = 2
+slot3.SC_62012_DECLOG_FIELD.label = 3
+slot3.SC_62012_DECLOG_FIELD.has_default_value = false
+slot3.SC_62012_DECLOG_FIELD.default_value = {}
+slot3.SC_62012_DECLOG_FIELD.message_type = slot2.CAPITAL_LOG
+slot3.SC_62012_DECLOG_FIELD.type = 11
+slot3.SC_62012_DECLOG_FIELD.cpp_type = 10
+slot3.SC_62012_OTHERLOG_FIELD.name = "otherlog"
+slot3.SC_62012_OTHERLOG_FIELD.full_name = "p62.sc_62012.otherlog"
+slot3.SC_62012_OTHERLOG_FIELD.number = 4
+slot3.SC_62012_OTHERLOG_FIELD.index = 3
+slot3.SC_62012_OTHERLOG_FIELD.label = 3
+slot3.SC_62012_OTHERLOG_FIELD.has_default_value = false
+slot3.SC_62012_OTHERLOG_FIELD.default_value = {}
+slot3.SC_62012_OTHERLOG_FIELD.message_type = slot2.CAPITAL_LOG
+slot3.SC_62012_OTHERLOG_FIELD.type = 11
+slot3.SC_62012_OTHERLOG_FIELD.cpp_type = 10
 SC_62012.name = "sc_62012"
 SC_62012.full_name = "p62.sc_62012"
 SC_62012.nested_types = {}
 SC_62012.enum_types = {}
 SC_62012.fields = {
 	slot3.SC_62012_RESULT_FIELD,
-	slot3.SC_62012_LOG_FIELD
+	slot3.SC_62012_INCLOG_FIELD,
+	slot3.SC_62012_DECLOG_FIELD,
+	slot3.SC_62012_OTHERLOG_FIELD
 }
 SC_62012.is_extendable = false
 SC_62012.extensions = {}

@@ -8725,190 +8725,190 @@ pg.activity_ins_language = {
 		value = "次も指揮官さんの分を買いますね！"
 	},
 	ins_257 = {
-		value = ""
+		value = "「酸素コーラ」…これって炭酸飲料？それとも…"
 	},
 	ins_discuss_257_1 = {
-		value = ""
+		value = "いやいや…炭酸以前の問題だわ。そもそも一般人にとって飲み物じゃないからね…"
 	},
 	ins_reply_257_1_1 = {
-		value = ""
+		value = "え、そうなの？"
 	},
 	ins_discuss_257_2 = {
-		value = ""
+		value = "酸素コーラは最高だぞ！こう、一気に飲む時シュワッとなる感じ…くぅーたまらない！"
 	},
 	ins_reply_257_2_1 = {
-		value = ""
+		value = "そうなの～酸素コーラでじゅわーっとするとすっきりした気分になれるのー"
 	},
 	ins_reply_257_2_2 = {
-		value = ""
+		value = "じゃ…やっぱり炭酸飲料なの？"
 	},
 	ins_reply_257_2_3 = {
-		value = ""
+		value = "酸素コーラか…まあほとんどの艦船にとっては美味しい飲み物ですけどぉ、一般人には飲めないものなんですよね～"
 	},
 	ins_op_257_1_1 = {
-		value = ""
+		value = "普通のコーラにしようか"
 	},
 	op_reply_257_1_1 = {
-		value = ""
+		value = "気を使ってくれてありがとうございます。でも炭酸はちょっと…"
 	},
 	ins_258 = {
-		value = ""
+		value = "コレクションに加えよっと"
 	},
 	ins_discuss_258_1 = {
-		value = ""
+		value = "おお！すごい再現度～"
 	},
 	ins_reply_258_1_1 = {
-		value = ""
+		value = "L.I.さんに認められるとは、さすがです"
 	},
 	ins_reply_258_1_2 = {
-		value = ""
+		value = "ふふ。L.I.さんが材料を案内してくれたおかげだよー"
 	},
 	ins_discuss_258_2 = {
-		value = ""
+		value = "フィギュア化…ビジネスチャンスかもにゃ？"
 	},
 	ins_reply_258_2_1 = {
-		value = ""
+		value = "怪獣のフィギュア作るなら私の分とっといてねー"
 	},
 	ins_op_258_1_1 = {
-		value = ""
+		value = "手先が器用だね！"
 	},
 	op_reply_258_1_1 = {
-		value = ""
+		value = "へへへーそれほどでもー"
 	},
 	ins_259 = {
-		value = ""
+		value = "ふぅー心が研ぎ澄まされる"
 	},
 	ins_discuss_259_1 = {
-		value = ""
+		value = "なみこ、作法がちゃんとしとるなー"
 	},
 	ins_reply_259_1_1 = {
-		value = ""
+		value = "お茶、とても美味しかったです"
 	},
 	ins_reply_259_1_2 = {
-		value = ""
+		value = "これでも茶道部の一員だからね"
 	},
 	ins_discuss_259_2 = {
-		value = ""
+		value = "人は見かけによらず…？"
 	},
 	ins_reply_259_2_1 = {
-		value = ""
+		value = "えーー"
 	},
 	ins_reply_259_2_2 = {
-		value = ""
+		value = "なみこさん、てっきり部活はスポーツ系だと思ってました…"
 	},
 	ins_discuss_259_3 = {
-		value = ""
+		value = "ふん、今度ロイヤルのお茶会に来なさい！由緒正しいロイヤル紅茶というものを教えてあげるわ！"
 	},
 	ins_reply_259_3_1 = {
-		value = ""
+		value = "やった！行く行くー！"
 	},
 	ins_op_259_1_1 = {
-		value = ""
+		value = "ごちそうさまでした"
 	},
 	op_reply_259_1_1 = {
-		value = ""
+		value = "どういたしまして指揮官！またお茶会しようね！"
 	},
 	ins_260 = {
-		value = ""
+		value = "「突発！異世界生放送」ーーこういう風にタイトル付けたほうがインパクトあるかな…"
 	},
 	ins_discuss_260_1 = {
-		value = ""
+		value = "わーこっちでも生放送しちゃう？"
 	},
 	ins_reply_260_1_1 = {
-		value = ""
+		value = "まあね、面白そうじゃん？"
 	},
 	ins_discuss_260_2 = {
-		value = ""
+		value = "はっすも生放送するの~？早速フォローしたよ～"
 	},
 	ins_reply_260_2_1 = {
-		value = ""
+		value = "どうも！こっちもフォロバしたー"
 	},
 	ins_discuss_260_3 = {
-		value = ""
+		value = "なになに？面白いもの見逃しちゃった？"
 	},
 	ins_reply_260_3_1 = {
-		value = ""
+		value = "次回もやる予定なので、よかったらチャンネルフォローしてねー"
 	},
 	ins_op_260_1_1 = {
-		value = ""
+		value = "生放送、面白かった"
 	},
 	op_reply_260_1_1 = {
-		value = ""
+		value = "指揮官、場所や設備の協力ありがとう！"
 	},
 	ins_261 = {
-		value = ""
+		value = "新しくできた友達と記念に"
 	},
 	ins_discuss_261_1 = {
-		value = ""
+		value = "こうやって自分の写真見ると、なんか恥ずかしいな"
 	},
 	ins_reply_261_1_1 = {
-		value = ""
+		value = "どうして？ちゃんと映えてるよ？"
 	},
 	ins_reply_261_1_2 = {
-		value = ""
+		value = "そう言われると余計恥ずかしくなるな。ははは…"
 	},
 	ins_discuss_261_2 = {
-		value = ""
+		value = "おっ、クレーンゲームどうだった？"
 	},
 	ins_reply_261_2_1 = {
-		value = ""
+		value = "夢芽さんが私の分も取ってくれたよ"
 	},
 	ins_reply_261_2_2 = {
-		value = ""
+		value = "まあ、たまたま運が良かっただけかな"
 	},
 	ins_op_261_1_1 = {
-		value = ""
+		value = "新しい仲間、いっぱいできたね"
 	},
 	op_reply_261_1_1 = {
-		value = ""
+		value = "…指揮官さんのおかげです"
 	},
 	ins_262 = {
-		value = ""
+		value = "風紀委員だ！出でよ、校則違反者！"
 	},
 	ins_discuss_262_1 = {
-		value = ""
+		value = "一日限定とはいえ、飛鳥川さんすごく頑張って取り組んでくれてますね"
 	},
 	ins_reply_262_1_1 = {
-		value = ""
+		value = "せっかくですから！でも、なかなか校則違反する人現れないっす…"
 	},
 	ins_reply_262_1_2 = {
-		value = ""
+		value = "そこは…みんないい子にしてるのか、ルールが緩いのか…ですかね"
 	},
 	ins_discuss_262_2 = {
-		value = ""
+		value = "おー！正義の仲間だ！一緒にいじめっ子を懲らしめていこう！"
 	},
 	ins_reply_262_2_1 = {
-		value = ""
+		value = "おー！正義のためにってことっすね！"
 	},
 	ins_op_262_1_1 = {
-		value = ""
+		value = "今度は他の委員も試してみない？"
 	},
 	op_reply_262_1_1 = {
-		value = ""
+		value = "いいっすね！"
 	},
 	ins_263 = {
-		value = ""
+		value = "この「艤装」、面白い…"
 	},
 	ins_discuss_263_1 = {
-		value = ""
+		value = "ムジナさんは我ら鉄血の装備に興味がおありで？"
 	},
 	ins_reply_263_1_1 = {
-		value = ""
+		value = "怪獣にも似てる、確かに気になるかも"
 	},
 	ins_reply_263_1_2 = {
-		value = ""
+		value = "探究者としての好奇心ってところかしら。…その気持ち、よくわかるわ"
 	},
 	ins_discuss_263_2 = {
-		value = ""
+		value = "ふふん、我ら鉄血の世界一の技術を思い知ったわね！"
 	},
 	ins_reply_263_2_1 = {
-		value = ""
+		value = "確かに…興味深いね"
 	},
 	ins_op_263_1_1 = {
-		value = ""
+		value = "近づく時は気を付けてね…"
 	},
 	op_reply_263_1_1 = {
-		value = ""
+		value = "痛い目にあったようだね。指揮官くん"
 	},
 	all = {
 		ins_op_1_1_1,

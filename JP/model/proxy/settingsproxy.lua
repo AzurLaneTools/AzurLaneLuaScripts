@@ -50,7 +50,7 @@ function slot0.SetWorldFlag(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetWorldFlag(slot0, slot1, slot2)
+function slot0.GetWorldFlag(slot0, slot1)
 	if not slot0.worldFlag[slot1] then
 		slot0.worldFlag[slot1] = PlayerPrefs.GetInt("world_flag_" .. slot1) > 0
 	end
@@ -483,6 +483,35 @@ function slot0.SetNextTipTimeLimitSkinShop(slot0)
 		slot0.nextTipLimitSkinShopTime = nil
 		slot0.isTipLimitSkinShop = false
 	end
+end
+
+function slot0.WorldBossProgressTipFlag(slot0, slot1)
+	if slot0.WorldBossProgressTipValue ~= slot1 then
+		slot0.WorldBossProgressTipValue = slot1
+
+		PlayerPrefs.SetString("_WorldBossProgressTipFlag_", slot1)
+		PlayerPrefs.Save()
+	end
+end
+
+function slot0.GetWorldBossProgressTipFlag(slot0)
+	if not slot0.WorldBossProgressTipValue then
+		slot1 = pg.gameset.joint_boss_ticket.description
+		slot4 = PlayerPrefs.GetString("_WorldBossProgressTipFlag_", slot1[1] .. "&" .. slot1[1] + slot1[2])
+		slot0.WorldBossProgressTipValue = slot4
+
+		return slot4
+	else
+		return slot0.WorldBossProgressTipValue
+	end
+end
+
+function slot0.GetWorldBossProgressTipTable(slot0)
+	if not slot0:GetWorldBossProgressTipFlag() or slot1 == "" then
+		return {}
+	end
+
+	return string.split(slot1, "&")
 end
 
 function slot0.GetChatFlag(slot0)

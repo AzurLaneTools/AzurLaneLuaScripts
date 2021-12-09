@@ -33,6 +33,9 @@ pg.world_item_data_origin = {
 	{
 		origin_text = "セイレーン座標・強敵撃破報酬"
 	},
+	{
+		origin_text = "アビータ戦報酬（マンスリー）"
+	},
 	[100] = {
 		origin_text = "港ショップ"
 	},

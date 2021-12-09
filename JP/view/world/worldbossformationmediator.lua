@@ -16,7 +16,7 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:SetShips(slot0.ships)
 
-	slot3 = nowWorld:GetBossProxy()
+	slot3 = nowWorld():GetBossProxy()
 
 	slot0.viewComponent:SetBossProxy(slot3, slot0.contextData.bossId)
 	slot3:LockCacheBoss(slot0.contextData.bossId)

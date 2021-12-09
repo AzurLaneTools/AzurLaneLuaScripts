@@ -3785,6 +3785,22 @@ _G.pg.gametip.world_target_count = {
 	tip = "入手可能な報酬数 $1"
 }
 
+_G.pg.gametip.world_target_filter_tip1 = {
+	tip = "すべて"
+}
+
+_G.pg.gametip.world_target_filter_tip2 = {
+	tip = "未完了"
+}
+
+_G.pg.gametip.world_target_get_all = {
+	tip = "エリア実績報酬を一括で受け取りますか？"
+}
+
+_G.pg.gametip.world_target_goto = {
+	tip = "エリア移動"
+}
+
 _G.pg.gametip.world_help_tip = {
 	tip = {
 		{
@@ -4154,8 +4170,8 @@ _G.pg.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2021.9.9-2021.12.9</color>
-META戦・蒼龍(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2021.12.9-2022.3.10</color>
+META戦・グナイゼナウ(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -4271,8 +4287,20 @@ _G.pg.gametip.world_movelimit_event_text = {
 	tip = "エリアに未完了の任務が存在しているため、エリカ移動を行えません"
 }
 
+_G.pg.gametip.world_mapbuff_tip = {
+	tip = "エリア内の敵戦力上昇中"
+}
+
 _G.pg.gametip.world_sametask_tip = {
 	tip = "任務受領に失敗しました：同じ任務は同時に一つしか受領できません"
+}
+
+_G.pg.gametip.world_expedition_reward_display = {
+	tip = "報酬一覧"
+}
+
+_G.pg.gametip.world_expedition_reward_display2 = {
+	tip = "HP $1%"
 }
 
 _G.pg.gametip.task_notfound_error = {
@@ -6892,6 +6920,10 @@ _G.pg.gametip.guild_name_invaild = {
 
 _G.pg.gametip.guild_apply_full = {
 	tip = "申請者がいっぱいです"
+}
+
+_G.pg.gametip.guild_member_full = {
+	tip = "大艦隊が満杯です"
 }
 
 _G.pg.gametip.guild_fire_duty_limit = {
@@ -14546,6 +14578,14 @@ _G.pg.gametip.tec_tendency_cur_3 = {
 	tip = "研究指向 / Ⅲ"
 }
 
+_G.pg.gametip.tec_target_catchup_none = {
+	tip = "定向追赶 / 未选择"
+}
+
+_G.pg.gametip.tec_target_catchup_selected = {
+	tip = "定向追赶"
+}
+
 _G.pg.gametip.tec_tendency_cur_4 = {
 	tip = "研究指向 / Ⅳ"
 }
@@ -14989,6 +15029,10 @@ _G.pg.gametip.guild_start_event_consume_tip = {
 	tip = "$1の大艦隊資金を消費して【$2】を発令しますか？"
 }
 
+_G.pg.gametip.guild_start_event_consume_tip_extra = {
+	tip = "今月は大艦隊作戦を<color=#ff5c5c>$3</color>回開放しました。資源$1を消費し、大艦隊作戦“$2”を開放しますか？"
+}
+
 _G.pg.gametip.guild_word_consume_for_battle = {
 	tip = "発令消費"
 }
@@ -15243,6 +15287,10 @@ _G.pg.gametip.guild_battle_log = {
 
 _G.pg.gametip.guild_tech_change_log = {
 	tip = "[$1] $2 は大艦隊兵站・開発項目を$3に変更"
+}
+
+_G.pg.gametip.guild_log_title = {
+	tip = "艦隊ログ"
 }
 
 _G.pg.gametip.guild_use_donateitem_success = {
@@ -16674,7 +16722,7 @@ _G.pg.gametip.world_joint_exit_battle_tip = {
 }
 
 _G.pg.gametip.world_boss_get_item = {
-	tip = "META座標情報所持数が上限になっています。解析を行い、META戦を開放しますか？\n(<color=#ff5c5c>解析を行わない限り、本日はもうMETA情報を入手出来ません</color>)"
+	tip = "META座標情報所持数が上限になっています。解析を行い、META戦を開放しますか？"
 }
 
 _G.pg.gametip.world_boss_ask_help = {
@@ -16952,7 +17000,7 @@ _G.pg.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することが出来ます。
 
-※<color=#92fc63>2021.9.9-2021.12.9</color>蒼龍(META)META戦開放期間は「蒼龍・META」の解析Ptを入手できます。
+※<color=#92fc63>2021.12.9-2022.3.10</color>グナイゼナウ(META)META戦開放期間は「グナイゼナウ・META」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -17077,12 +17125,124 @@ _G.pg.gametip.world_setting_submititemtip = {
 	tip = "on：自動攻略モード適用中、アイテムを消費する特殊イベントはアイテムが自動で消費されます\noff：自動攻略モード適用中、アイテムを消費する特殊イベントは無視されます"
 }
 
+_G.pg.gametip.world_setting_mapauto = {
+	tip = "エリア自動攻略設定"
+}
+
+_G.pg.gametip.world_setting_mapautotip = {
+	tip = "確保済のエリアに進入すると、自動でオート攻略モードに移行します"
+}
+
 _G.pg.gametip.world_boss_maintenance = {
 	tip = "メンテナンス開始直前のため、挑戦できません"
 }
 
 _G.pg.gametip.world_boss_inbattle = {
 	tip = "METAとの戦闘中のため、新たにMETA戦を開始できません"
+}
+
+_G.pg.gametip.world_automode_title_1 = {
+	tip = "自動確保モード"
+}
+
+_G.pg.gametip.world_automode_title_2 = {
+	tip = "OPERATION"
+}
+
+_G.pg.gametip.world_automode_cancel = {
+	tip = "戻る"
+}
+
+_G.pg.gametip.world_automode_confirm = {
+	tip = "確定"
+}
+
+_G.pg.gametip.world_automode_start_tip1 = {
+	tip = "条件を満たしているエリアが存在しません"
+}
+
+_G.pg.gametip.world_automode_start_tip2 = {
+	tip = "指揮官行動力が不足しています"
+}
+
+_G.pg.gametip.world_automode_start_tip3 = {
+	tip = "確保済みのエリアではありません"
+}
+
+_G.pg.gametip.world_automode_start_tip4 = {
+	tip = "このエリアからは移動できません"
+}
+
+_G.pg.gametip.world_automode_setting_1 = {
+	tip = "自動確保するエリアの侵攻レベル"
+}
+
+_G.pg.gametip.world_automode_setting_1_1 = {
+	tip = "4以下"
+}
+
+_G.pg.gametip.world_automode_setting_1_2 = {
+	tip = "5"
+}
+
+_G.pg.gametip.world_automode_setting_1_3 = {
+	tip = "6"
+}
+
+_G.pg.gametip.world_automode_setting_1_4 = {
+	tip = "すべて"
+}
+
+_G.pg.gametip.world_automode_setting_2 = {
+	tip = "進入するエリア"
+}
+
+_G.pg.gametip.world_automode_setting_2_1 = {
+	tip = "同じエリアに進入"
+}
+
+_G.pg.gametip.world_automode_setting_2_2 = {
+	tip = "ランダムなエリアに進入"
+}
+
+_G.pg.gametip.world_automode_setting_all_1 = {
+	tip = "謎の商人出現時"
+}
+
+_G.pg.gametip.world_automode_setting_all_1_1 = {
+	tip = "自動確保を中止"
+}
+
+_G.pg.gametip.world_automode_setting_all_1_2 = {
+	tip = "自動確保を継続"
+}
+
+_G.pg.gametip.world_automode_setting_all_2 = {
+	tip = "META座標開放可能時一時中止"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_1 = {
+	tip = "OFF"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_2 = {
+	tip = "200Ptごと"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_3 = {
+	tip = "100Ptごと"
+}
+
+_G.pg.gametip.world_automode_setting_all_3 = {
+	tip = "ギミックアイテム自動使用"
+}
+
+_G.pg.gametip.world_automode_setting_all_3_1 = {
+	tip = "OFF"
+}
+
+_G.pg.gametip.world_automode_setting_all_3_2 = {
+	tip = "ON"
 }
 
 _G.pg.gametip.area_putong = {
@@ -17286,6 +17446,14 @@ _G.pg.gametip.story_autoplay_setting_1 = {
 
 _G.pg.gametip.story_autoplay_setting_2 = {
 	tip = "ON"
+}
+
+_G.pg.gametip.meta_shop_exchange_limit = {
+	tip = "尚未获得舰船"
+}
+
+_G.pg.gametip.meta_shop_unexchange_label = {
+	tip = "尚未获得舰船"
 }
 
 _G.pg.gametip.daily_level_quick_battle_label2 = {
@@ -18476,6 +18644,50 @@ _G.pg.gametip.world_pressing = {
 	tip = "確保海域"
 }
 
+_G.pg.gametip.Settings_title_FPS = {
+	tip = "フレーム"
+}
+
+_G.pg.gametip.Settings_title_Notification = {
+	tip = "プッシュ通知"
+}
+
+_G.pg.gametip.Settings_title_Other = {
+	tip = "ゲーム設定"
+}
+
+_G.pg.gametip.Settings_title_LoginJP = {
+	tip = "引継コード"
+}
+
+_G.pg.gametip.Settings_title_Redeem = {
+	tip = "特典コード"
+}
+
+_G.pg.gametip.Settings_title_AdjustScr = {
+	tip = "画面サイズ調整"
+}
+
+_G.pg.gametip.Settings_title_Secpw = {
+	tip = "パスワード機能"
+}
+
+_G.pg.gametip.Settings_title_Secpwlimop = {
+	tip = "パスワード行動制限設定"
+}
+
+_G.pg.gametip.Settings_title_agreement = {
+	tip = "利用規約"
+}
+
+_G.pg.gametip.Settings_title_sound = {
+	tip = "音声設定"
+}
+
+_G.pg.gametip.Settings_title_resUpdate = {
+	tip = "アセッ卜"
+}
+
 _G.pg.gametip.equipment_info_change_tip = {
 	tip = "下記装備の名前が変更されました"
 }
@@ -18494,6 +18706,18 @@ _G.pg.gametip.equipment_info_change_text_before = {
 
 _G.pg.gametip.equipment_info_change_text_after = {
 	tip = "変更後"
+}
+
+_G.pg.gametip.world_boss_progress_tip_title = {
+	tip = "座標情報お知らせ"
+}
+
+_G.pg.gametip.world_boss_progress_tip_desc = {
+	tip = [[
+セイレーン作戦で、座標情報を一定数入手すると、お知らせ画面を表示。
+OFF：お知らせ画面を表示しない
+100Pt毎：100か200入手した場合に表示
+200Pt毎：200入手した場合に表示]]
 }
 
 _G.pg.gametip.ssss_main_help = {
@@ -18731,6 +18955,18 @@ _G.pg.gametip.blueprint_exchange_empty_tip = {
 
 _G.pg.gametip.blueprint_exchange_select_display = {
 	tip = "選択数/必要数"
+}
+
+_G.pg.gametip.build_rate_title = {
+	tip = "提供割合"
+}
+
+_G.pg.gametip.build_pools_intro = {
+	tip = "キューブと資源を使って、艦隊を大きくしましょう！"
+}
+
+_G.pg.gametip.build_detail_intro = {
+	tip = "同時建造可能数："
 }
 
 _G.pg.gametip.ssss_game_tip = {

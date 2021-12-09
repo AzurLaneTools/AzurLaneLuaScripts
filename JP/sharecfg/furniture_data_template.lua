@@ -4810,6 +4810,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[212] = {
+		spine_extra = "",
+		describe = "セイレーン特異点の環境観測データを用いて作られたジオラマ――NA海域セイレーン作戦に参加した指揮官に贈る",
+		gain_by = "燃ゆる灰の煌き",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "bigworldxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "NA海域セイレーン作戦記念章",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 212,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"bigworldxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -94763,6 +94806,7 @@ pg.furniture_data_template = {
 		208,
 		209,
 		210,
+		212,
 		100002,
 		100003,
 		100004,

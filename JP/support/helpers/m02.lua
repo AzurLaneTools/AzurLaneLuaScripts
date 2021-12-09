@@ -3105,3 +3105,18 @@ function setIntimacyIcon(slot0, slot1, slot2)
 
 	return slot4
 end
+
+slot23 = nil
+
+function nowWorld()
+	uv0 = uv0 or getProxy(WorldProxy)
+
+	return uv0.world
+end
+
+function removeWorld()
+	uv0.world:Dispose()
+
+	uv0.world = nil
+	uv0 = nil
+end

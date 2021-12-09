@@ -19,7 +19,7 @@ function slot0.execute(slot0, slot1)
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			if uv0.cmd == 1 then
-				uv1.data1 = 0
+				uv1.data1 = uv1.data1 - pg.gameset.joint_boss_ticket.description[uv1.data2 + 1]
 
 				if uv1.data3 > 0 then
 					uv1.data3 = uv1.data3 - 1

@@ -7533,6 +7533,76 @@ pg.world_chapter_template_reset = {
 		reset_item = {},
 		reset_buff = {}
 	},
+	[430000] = {
+		id = 430000,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "ノーマル：アビータ・TemperanceXⅣ戦を終了しますか？\n（終了すると攻略進捗が保存され、今月中再度挑戦可能）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430010] = {
+		id = 430010,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "ノーマル：アビータ・StrengthVIII戦を終了しますか？\n（終了すると攻略進捗が保存され、今月中再度挑戦可能）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430020] = {
+		id = 430020,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "ノーマル：アビータ・HermitⅨ戦を終了しますか？\n（終了すると攻略進捗が保存され、今月中再度挑戦可能）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430100] = {
+		id = 430100,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "ハード：アビータ・TemperanceXⅣ戦を終了しますか？\n（終了すると敵の状態が初期化されます。一度手に入れた報酬は再度入手できません）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430110] = {
+		id = 430110,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "ハード：アビータ・StrengthVIII戦を終了しますか？\n（終了すると敵の状態が初期化されます。一度手に入れた報酬は再度入手できません）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430120] = {
+		id = 430120,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "ハード：アビータ・HermitⅨ戦を終了しますか？\n（終了すると敵の状態が初期化されます。一度手に入れた報酬は再度入手できません）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
+	[430200] = {
+		id = 430200,
+		transport = 0,
+		transport_colormask = 0,
+		tip = "ハード模擬戦：アビータを終了しますか？\n（終了すると敵の状態が初期化されます）",
+		reset_map = {},
+		reset_trigger = {},
+		reset_item = {},
+		reset_buff = {}
+	},
 	all = {
 		8000,
 		8030,
@@ -7741,6 +7811,13 @@ pg.world_chapter_template_reset = {
 		890140,
 		890150,
 		890160,
-		890170
+		890170,
+		430000,
+		430010,
+		430020,
+		430100,
+		430110,
+		430120,
+		430200
 	}
 }

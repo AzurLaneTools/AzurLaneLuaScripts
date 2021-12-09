@@ -14,6 +14,7 @@ function slot2.SetWaveData(slot0, slot1)
 
 	slot0._vanguardUnitList = slot0._param.vanguard_unitList
 	slot0._mainUnitList = slot0._param.main_unitList
+	slot0._subUnitList = slot0._param.sub_unitList
 	slot0._killList = slot0._param.kill_list
 end
 
@@ -73,6 +74,25 @@ function slot2.DoWave(slot0)
 
 			slot1.InitUnitWeaponCD(slot9)
 			slot1:InitAidUnitStatistics(slot9)
+		end
+	end
+
+	if slot0._subUnitList ~= nil then
+		for slot5, slot6 in ipairs(slot0._subUnitList) do
+			slot7 = {}
+
+			for slot11, slot12 in ipairs(slot6.equipment) do
+				slot7[#slot7 + 1] = {
+					skin = 0,
+					id = slot12
+				}
+			end
+
+			slot8 = Clone(slot6)
+			slot8.equipment = slot7
+			slot8.baseProperties = slot6.properties
+
+			slot1:InitAidUnitStatistics(slot1:SpawnSub(slot8, uv2.FRIENDLY_CODE))
 		end
 	end
 

@@ -84,6 +84,7 @@ slot2 = {
 	WORLDINFO_BUFF_LIST_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_CHAPTER_LIST_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_SAIREN_CHAPTER_FIELD = slot0.FieldDescriptor(),
+	WORLDINFO_MONTH_BOSS_FIELD = slot0.FieldDescriptor(),
 	COUNTINFO_STEP_COUNT_FIELD = slot0.FieldDescriptor(),
 	COUNTINFO_TREASURE_COUNT_FIELD = slot0.FieldDescriptor(),
 	COUNTINFO_TASK_PROGRESS_FIELD = slot0.FieldDescriptor(),
@@ -1245,6 +1246,16 @@ slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.has_default_value = false
 slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.default_value = {}
 slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.type = 13
 slot2.WORLDINFO_SAIREN_CHAPTER_FIELD.cpp_type = 3
+slot2.WORLDINFO_MONTH_BOSS_FIELD.name = "month_boss"
+slot2.WORLDINFO_MONTH_BOSS_FIELD.full_name = "p33.worldinfo.month_boss"
+slot2.WORLDINFO_MONTH_BOSS_FIELD.number = 21
+slot2.WORLDINFO_MONTH_BOSS_FIELD.index = 19
+slot2.WORLDINFO_MONTH_BOSS_FIELD.label = 3
+slot2.WORLDINFO_MONTH_BOSS_FIELD.has_default_value = false
+slot2.WORLDINFO_MONTH_BOSS_FIELD.default_value = {}
+slot2.WORLDINFO_MONTH_BOSS_FIELD.message_type = slot1.KVDATA
+slot2.WORLDINFO_MONTH_BOSS_FIELD.type = 11
+slot2.WORLDINFO_MONTH_BOSS_FIELD.cpp_type = 10
 WORLDINFO.name = "worldinfo"
 WORLDINFO.full_name = "p33.worldinfo"
 WORLDINFO.nested_types = {}
@@ -1268,7 +1279,8 @@ WORLDINFO.fields = {
 	slot2.WORLDINFO_CD_LIST_FIELD,
 	slot2.WORLDINFO_BUFF_LIST_FIELD,
 	slot2.WORLDINFO_CHAPTER_LIST_FIELD,
-	slot2.WORLDINFO_SAIREN_CHAPTER_FIELD
+	slot2.WORLDINFO_SAIREN_CHAPTER_FIELD,
+	slot2.WORLDINFO_MONTH_BOSS_FIELD
 }
 WORLDINFO.is_extendable = false
 WORLDINFO.extensions = {}
