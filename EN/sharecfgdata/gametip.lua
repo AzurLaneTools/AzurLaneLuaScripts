@@ -4189,7 +4189,7 @@ _G.pg.gametip.world_boss_help_meta = {
 			info = [[
 About META Showdown:
 
-1. From <color=#92fc63>12/9/21 to 3/10/21</color>, challenge Gneisenau META
+1. From <color=#92fc63>12/9/21 to 3/9/21</color>, challenge Gneisenau META
 to earn Sync Points. Sync Points can be used
 to obtain the limited character, <color=#92fc63>Gneisenau META</color> as well
 as other great rewards.

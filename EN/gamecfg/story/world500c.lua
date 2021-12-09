@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "咚咚咚（敲门声）",
+			say = "*knock knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

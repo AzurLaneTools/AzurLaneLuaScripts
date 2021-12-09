@@ -34,7 +34,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		item_id = 100000,
-		name = "格奈森瑙·META",
+		name = "Gneisenau META ",
 		painting = "genaisennao",
 		boss_level_id = 61,
 		id = 5,
