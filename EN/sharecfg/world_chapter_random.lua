@@ -4463,7 +4463,7 @@ pg.world_chapter_random = {
 	},
 	[1011] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "Caribbean Sea A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1011,
@@ -4484,7 +4484,7 @@ pg.world_chapter_random = {
 	},
 	[1012] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "Caribbean Sea B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1012,
@@ -4505,7 +4505,7 @@ pg.world_chapter_random = {
 	},
 	[1013] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "Caribbean Sea C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1013,
@@ -4526,7 +4526,7 @@ pg.world_chapter_random = {
 	},
 	[1014] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Caribbean Sea D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1014,
@@ -4547,7 +4547,7 @@ pg.world_chapter_random = {
 	},
 	[1021] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean SW Sector A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1021,
@@ -4568,7 +4568,7 @@ pg.world_chapter_random = {
 	},
 	[1022] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean SW Sector B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 5,
 		id = 1022,
@@ -4589,7 +4589,7 @@ pg.world_chapter_random = {
 	},
 	[1023] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean SW Sector C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1023,
@@ -4610,7 +4610,7 @@ pg.world_chapter_random = {
 	},
 	[1024] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean SW Sector D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1024,
@@ -4631,7 +4631,7 @@ pg.world_chapter_random = {
 	},
 	[1025] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean SW Sector E - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1025,
@@ -4652,7 +4652,7 @@ pg.world_chapter_random = {
 	},
 	[1031] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Southwest Ocean Ridge A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1031,
@@ -4673,7 +4673,7 @@ pg.world_chapter_random = {
 	},
 	[1032] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Southwest Ocean Ridge B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1032,
@@ -4694,7 +4694,7 @@ pg.world_chapter_random = {
 	},
 	[1033] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Southwest Ocean Ridge C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1033,
@@ -4715,7 +4715,7 @@ pg.world_chapter_random = {
 	},
 	[1034] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Southwest Ocean Ridge D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1034,
@@ -4736,7 +4736,7 @@ pg.world_chapter_random = {
 	},
 	[1041] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "West Continental Shelf A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1041,
@@ -4757,7 +4757,7 @@ pg.world_chapter_random = {
 	},
 	[1042] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "West Continental Shelf B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1042,
@@ -4778,7 +4778,7 @@ pg.world_chapter_random = {
 	},
 	[1043] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "West Continental Shelf C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1043,
@@ -4799,7 +4799,7 @@ pg.world_chapter_random = {
 	},
 	[1044] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "West Continental Shelf D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 5,
 		id = 1044,
@@ -4820,7 +4820,7 @@ pg.world_chapter_random = {
 	},
 	[1051] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Southeast Ocean Ridge A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1051,
@@ -4841,7 +4841,7 @@ pg.world_chapter_random = {
 	},
 	[1052] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Southeast Ocean Ridge B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1052,
@@ -4862,7 +4862,7 @@ pg.world_chapter_random = {
 	},
 	[1053] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Southeast Ocean Ridge C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1053,
@@ -4883,7 +4883,7 @@ pg.world_chapter_random = {
 	},
 	[1054] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Southeast Ocean Ridge D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1054,
@@ -4904,7 +4904,7 @@ pg.world_chapter_random = {
 	},
 	[1061] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean SE Sector A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1061,
@@ -4925,7 +4925,7 @@ pg.world_chapter_random = {
 	},
 	[1062] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean SE Sector B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1062,
@@ -4946,7 +4946,7 @@ pg.world_chapter_random = {
 	},
 	[1063] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean SE Sector C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1063,
@@ -4967,7 +4967,7 @@ pg.world_chapter_random = {
 	},
 	[1064] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean SE Sector D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1064,
@@ -4988,7 +4988,7 @@ pg.world_chapter_random = {
 	},
 	[1065] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean SE Sector E - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1065,
@@ -5009,7 +5009,7 @@ pg.world_chapter_random = {
 	},
 	[1066] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean SE Sector F - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1066,
@@ -5030,7 +5030,7 @@ pg.world_chapter_random = {
 	},
 	[1071] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "Méditerranée A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1071,
@@ -5051,7 +5051,7 @@ pg.world_chapter_random = {
 	},
 	[1072] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "Méditerranée B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1072,
@@ -5072,7 +5072,7 @@ pg.world_chapter_random = {
 	},
 	[1073] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "Méditerranée C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1073,
@@ -5093,7 +5093,7 @@ pg.world_chapter_random = {
 	},
 	[1081] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean W Sector A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1081,
@@ -5114,7 +5114,7 @@ pg.world_chapter_random = {
 	},
 	[1082] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean W Sector B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1082,
@@ -5135,7 +5135,7 @@ pg.world_chapter_random = {
 	},
 	[1083] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean W Sector C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1083,
@@ -5156,7 +5156,7 @@ pg.world_chapter_random = {
 	},
 	[1084] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean W Sector D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1084,
@@ -5177,7 +5177,7 @@ pg.world_chapter_random = {
 	},
 	[1085] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean W Sector E - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1085,
@@ -5198,7 +5198,7 @@ pg.world_chapter_random = {
 	},
 	[1091] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean NW Sector A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1091,
@@ -5219,7 +5219,7 @@ pg.world_chapter_random = {
 	},
 	[1092] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean NW Sector B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1092,
@@ -5240,7 +5240,7 @@ pg.world_chapter_random = {
 	},
 	[1093] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean NW Sector C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1093,
@@ -5261,7 +5261,7 @@ pg.world_chapter_random = {
 	},
 	[1094] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean NW Sector D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1094,
@@ -5282,7 +5282,7 @@ pg.world_chapter_random = {
 	},
 	[1095] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean NW Sector E - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1095,
@@ -5303,7 +5303,7 @@ pg.world_chapter_random = {
 	},
 	[1101] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "Northwest Passage A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1101,
@@ -5324,7 +5324,7 @@ pg.world_chapter_random = {
 	},
 	[1102] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "Northwest Passage B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1102,
@@ -5345,7 +5345,7 @@ pg.world_chapter_random = {
 	},
 	[1103] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Northwest Passage C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1103,
@@ -5366,7 +5366,7 @@ pg.world_chapter_random = {
 	},
 	[1104] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Northwest Passage D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1104,
@@ -5387,7 +5387,7 @@ pg.world_chapter_random = {
 	},
 	[1105] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Northwest Passage E - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1105,
@@ -5408,7 +5408,7 @@ pg.world_chapter_random = {
 	},
 	[1106] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "Northwest Passage F - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1106,
@@ -5429,7 +5429,7 @@ pg.world_chapter_random = {
 	},
 	[1111] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean E Sector A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1111,
@@ -5450,7 +5450,7 @@ pg.world_chapter_random = {
 	},
 	[1112] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean E Sector B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1112,
@@ -5471,7 +5471,7 @@ pg.world_chapter_random = {
 	},
 	[1113] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean E Sector C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1113,
@@ -5492,7 +5492,7 @@ pg.world_chapter_random = {
 	},
 	[1114] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean E Sector D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1114,
@@ -5513,7 +5513,7 @@ pg.world_chapter_random = {
 	},
 	[1121] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "East Continental Shelf A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1121,
@@ -5534,7 +5534,7 @@ pg.world_chapter_random = {
 	},
 	[1122] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "East Continental Shelf B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1122,
@@ -5555,7 +5555,7 @@ pg.world_chapter_random = {
 	},
 	[1123] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "East Continental Shelf C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1123,
@@ -5576,7 +5576,7 @@ pg.world_chapter_random = {
 	},
 	[1124] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "East Continental Shelf D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1124,
@@ -5597,7 +5597,7 @@ pg.world_chapter_random = {
 	},
 	[1125] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "East Continental Shelf E - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1125,
@@ -5618,7 +5618,7 @@ pg.world_chapter_random = {
 	},
 	[1131] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean NE Sector A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1131,
@@ -5639,7 +5639,7 @@ pg.world_chapter_random = {
 	},
 	[1132] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean NE Sector B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1132,
@@ -5660,7 +5660,7 @@ pg.world_chapter_random = {
 	},
 	[1133] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean NE Sector C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1133,
@@ -5681,7 +5681,7 @@ pg.world_chapter_random = {
 	},
 	[1134] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean NE Sector D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1134,
@@ -5702,7 +5702,7 @@ pg.world_chapter_random = {
 	},
 	[1135] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "NA Ocean NE Sector E - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1135,
@@ -5723,7 +5723,7 @@ pg.world_chapter_random = {
 	},
 	[1141] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Northeast Passage A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1141,
@@ -5744,7 +5744,7 @@ pg.world_chapter_random = {
 	},
 	[1142] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Northeast Passage B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1142,
@@ -5765,7 +5765,7 @@ pg.world_chapter_random = {
 	},
 	[1143] = {
 		entrance_ui = 1,
-		name = "Safe Zone",
+		name = "Northeast Passage C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1143,
@@ -5786,7 +5786,7 @@ pg.world_chapter_random = {
 	},
 	[1144] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "Northeast Passage D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1144,
@@ -5807,7 +5807,7 @@ pg.world_chapter_random = {
 	},
 	[1151] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "NA Ocean Depths A - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1151,
@@ -5828,7 +5828,7 @@ pg.world_chapter_random = {
 	},
 	[1152] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "NA Ocean Depths B - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1152,
@@ -5849,7 +5849,7 @@ pg.world_chapter_random = {
 	},
 	[1153] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "NA Ocean Depths C - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1153,
@@ -5870,7 +5870,7 @@ pg.world_chapter_random = {
 	},
 	[1154] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "NA Ocean Central Sector - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1154,
@@ -5891,7 +5891,7 @@ pg.world_chapter_random = {
 	},
 	[1155] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "NA Ocean Depths D - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1155,
@@ -5912,7 +5912,7 @@ pg.world_chapter_random = {
 	},
 	[1156] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "NA Ocean Depths E - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1156,
@@ -5933,7 +5933,7 @@ pg.world_chapter_random = {
 	},
 	[1157] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "NA Ocean Depths F - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1157,
@@ -5954,7 +5954,7 @@ pg.world_chapter_random = {
 	},
 	[1158] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "NA Ocean Depths G - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1158,
@@ -5975,7 +5975,7 @@ pg.world_chapter_random = {
 	},
 	[1159] = {
 		entrance_ui = 2,
-		name = "Safe Zone",
+		name = "NA Ocean Depths H - Safe Zone",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1159,

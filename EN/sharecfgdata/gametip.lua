@@ -4233,9 +4233,7 @@ resetting each day at midnight.
 Each META Showdown can have up to 30 participants.
 
 5. Combat Instructions
-Only ships participating in Operation Siren can
-participate in META Showdowns. You also cannot
-bring Meowfficers or submarines.
+You cannot bring Meowfficers or submarines.
 -At the end of battle, no EXP is gained, and Morale
 will not be affected.
 -You cannot quit during an META Showdown.

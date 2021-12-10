@@ -96,7 +96,7 @@ pg.world_collection_record_group = {
 	},
 	{
 		id = 5,
-		name_abbreviate = "Chapter 4 - Glimmers of Rekindling",
+		name_abbreviate = "Chapter 5 - Glimmers of Rekindling",
 		type = 1,
 		child = {
 			100076,

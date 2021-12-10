@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Confirm",
 					flag = 1
 				}
 			}

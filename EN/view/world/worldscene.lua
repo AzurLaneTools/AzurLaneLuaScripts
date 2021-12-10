@@ -1551,7 +1551,9 @@ function slot0.QueryTransport(slot0, slot1)
 		end)
 	end
 
-	seriesAsync(slot4, slot1)
+	seriesAsync(slot4, function ()
+		return uv0(uv1)
+	end)
 end
 
 function slot0.OnUpdateEventTips(slot0, slot1, slot2)
@@ -2246,14 +2248,14 @@ function slot0.StartAutoSwitch(slot0)
 		return
 	end
 
-	if not slot3:CkeckTransport() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip4"))
-
-		return
-	end
-
-	nowWorld():TriggerAutoSwitch(true)
-	slot0:Op("OpAutoSwitchMap")
+	slot0:QueryTransport(function (slot0)
+		if not slot0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip4"))
+		else
+			nowWorld():TriggerAutoSwitch(true)
+			uv0:Op("OpAutoSwitchMap")
+		end
+	end)
 end
 
 function slot0.GetDepth(slot0)
