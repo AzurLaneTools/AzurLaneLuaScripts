@@ -10,18 +10,18 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "即将进入虫洞副本，进行月度Boss挑战。",
+			say = "エリアに進入し、マンスリーチャレンジを開始します",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "确认",
+					content = "確定",
 					flag = 1
 				},
 				{
-					content = "取消",
+					content = "戻る",
 					flag = 0
 				}
 			}

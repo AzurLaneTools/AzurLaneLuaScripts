@@ -48,7 +48,7 @@ return {
 			baseui = {
 				delay = 1,
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",
-				pathIndex = -1,
+				pathIndex = 0,
 				pos = {
 					x = 348.5,
 					y = 45.52
@@ -86,7 +86,7 @@ return {
 			baseui = {
 				delay = 1,
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",
-				pathIndex = -1,
+				pathIndex = 0,
 				pos = {
 					x = 348.5,
 					y = 45.52
