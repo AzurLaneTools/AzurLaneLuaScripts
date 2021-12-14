@@ -669,7 +669,9 @@ function slot8.updateLoop(slot0, slot1)
 		else
 			slot11:Update(slot1)
 
-			if slot11.GetCurrentState and slot11:GetCurrentState() == uv2.Battle.BattleShrapnelBulletUnit.STATE_SPLIT and not slot11:GetTemplate().extra_param.fragile then
+			if (slot11.GetCurrentState and slot11:GetCurrentState() or nil) == uv2.Battle.BattleShrapnelBulletUnit.STATE_FINAL_SPLIT then
+				-- Nothing
+			elseif slot16 == uv2.Battle.BattleShrapnelBulletUnit.STATE_SPLIT and not slot11:IsFragile() then
 				-- Nothing
 			elseif slot15 == uv1.BulletOutBound.COMMON and slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot11:IsOutRange(slot1) then
 				if slot11:GetExist() then
