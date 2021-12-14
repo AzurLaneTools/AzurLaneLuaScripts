@@ -6291,6 +6291,49 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1370001] = {
+		map = 1370001,
+		name = "峽灣間的反擊|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "map_1330001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 40480,
+		ui_type = 1,
+		bg = "Map_1330001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1380001] = {
 		map = 1380001,
 		name = "永夜幻光·上篇|| ||CHAPTER EX||E.X.",
@@ -8599,6 +8642,7 @@ pg.expedition_data_by_map = {
 		1360012,
 		1360025,
 		1360026,
+		1370001,
 		1380001,
 		1380002,
 		1380011,

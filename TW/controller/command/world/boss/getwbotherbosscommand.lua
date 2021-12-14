@@ -31,7 +31,7 @@ function slot0.execute(slot0, slot1)
 			table.insert(slot1, slot7)
 		end
 
-		getProxy(WorldProxy):GetWorld():GetBossProxy():UpdateOtheroBosses(slot1)
+		nowWorld():GetBossProxy():UpdateOtheroBosses(slot1)
 		uv0:sendNotification(GAME.WORLD_BOSS_GET_OTHER_BOSS_DONE)
 	end)
 end

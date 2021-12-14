@@ -523,7 +523,7 @@ pg.activity_const = {
 		act_id = 40349
 	},
 	ESKI_PT_PAGE = {
-		act_id = 614
+		act_id = 40482
 	},
 	MONOPOLY_CAR_PAGE = {
 		act_id = 620

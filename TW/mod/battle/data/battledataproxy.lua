@@ -881,11 +881,11 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 	end
 
-	slot11 = uv0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, , , , slot1.level)
+	uv1.MonsterAttrFixer(slot0._battleInitData.battleType, uv0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, , , , slot1.level))
 
-	uv1.MonsterAttrFixer(slot0._battleInitData.battleType, slot11)
+	slot12 = nil
 
-	if math.ceil(slot11:GetMaxHP() * slot0._repressEnemyHpRant) <= 0 then
+	if ((not slot1.immuneHPInherit or slot11:GetMaxHP()) and math.ceil(slot11:GetMaxHP() * slot0._repressEnemyHpRant)) <= 0 then
 		slot12 = 1
 	end
 

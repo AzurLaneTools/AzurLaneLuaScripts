@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-1",
 			dir = 1,
-			say = "果然驱逐舰想要挑战战列舰还是太勉强了么…",
+			say = "果然驅逐艦想要挑戰戰列艦還是太勉強了嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z2，我的弹药已经打光了…",
+			say = "Z2，我的彈藥已經打光了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hideOther = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到此为止了，铁血的驱逐舰，你们战斗得很英勇。",
+			say = "到此為止了，鐵血的驅逐艦，妳們戰鬥得很英勇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰-------------！",
+			say = "轟-------------！",
 			flashN = {
 				color = {
 					1,
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？哪来的炮击声！",
+			say = "嗯？哪來的炮擊聲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "铁血驱逐舰Z12和Z17正从侧后方向我们发动攻击。",
+			say = "鐵血驅逐艦Z12和Z17正從側後方向我們發動攻擊。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z2和Z18正在向峡湾的深处缓慢撤退，要追击么？",
+			say = "Z2和Z18正在向峽灣的深處緩慢撤退，要追擊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这条峡湾的尽头，是死路吧。",
+			say = "這條峽灣的盡頭，是死路吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我们先去追击Z12和Z17，不能让她们跑了。",
+			say = "……我們先去追擊Z12和Z17，不能讓她們跑了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于Z2和Z18…这点时间我们还是可以给的。",
+			say = "至於Z2和Z18…這點時間我們還是可以給的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就当做是为勇敢献上的敬意吧。",
+			say = "就當做是為勇敢獻上的敬意吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了…舰队调整航向，准备追击铁血驱逐舰Z12和Z17的作战！",
+			say = "我明白了…艦隊調整航向，準備追擊鐵血驅逐艦Z12和Z17的作戰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

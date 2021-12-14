@@ -11055,12 +11055,13 @@ pg.activity_template = {
 	},
 	[40465] = {
 		mark = 20211130,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40465,
 		config_data = {
@@ -11083,33 +11084,6 @@ pg.activity_template = {
 			17240,
 			17241,
 			17242
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					11,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40466] = {
@@ -11199,41 +11173,15 @@ pg.activity_template = {
 	},
 	[40468] = {
 		mark = 20211130,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 26,
 		is_show = 0,
 		config_data = "0",
+		title_res_tag = "",
 		id = 40468,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					11,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ships = {
 				"baoduoliuhua_2",
@@ -11421,12 +11369,13 @@ pg.activity_template = {
 	},
 	[40472] = {
 		mark = 20211130,
-		id = 40472,
 		title_res_tag = "SSSS_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 15,
+		id = 40472,
 		config_data = {
 			1590001,
 			1590002,
@@ -11434,33 +11383,6 @@ pg.activity_template = {
 			1590004,
 			1590041,
 			1590051
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					11,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "SSSSMainPage",
@@ -11472,81 +11394,29 @@ pg.activity_template = {
 	},
 	[40473] = {
 		mark = 20211130,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40473,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					11,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[40474] = {
 		mark = 20211130,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 51,
 		login_pop = 0,
 		config_id = 5,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40474,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					11,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[40475] = {
 		mark = 20211130,
@@ -11661,12 +11531,13 @@ pg.activity_template = {
 	},
 	[40477] = {
 		mark = 20211130,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 40477,
 		config_data = {
@@ -11677,14 +11548,29 @@ pg.activity_template = {
 			261,
 			262,
 			263
+		}
+	},
+	[40480] = {
+		mark = 20211214,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 40480,
+		config_data = {
+			1370001,
+			1370002,
+			1370003
 		},
 		time = {
 			timer,
 			{
 				{
 					2021,
-					11,
-					30
+					12,
+					14
 				},
 				{
 					0,
@@ -11696,13 +11582,156 @@ pg.activity_template = {
 				{
 					2021,
 					12,
-					14
+					30
 				},
 				{
 					23,
 					59,
 					59
 				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp15"
+		}
+	},
+	[40481] = {
+		mark = 20211214,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40481,
+		config_data = {
+			15730,
+			15731,
+			15732,
+			15733,
+			15734,
+			15735
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40482] = {
+		mark = 20211214,
+		id = 40482,
+		title_res_tag = "eski_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 40482,
+		is_show = 15,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EskiPtPage",
+			ui_name = "EskiPtPage"
+		},
+		config_client = {
+			linkActID = 40482
+		}
+	},
+	[40483] = {
+		mark = 20211214,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_40483",
+		id = 40483,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "愛斯基摩 建造機率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：26%",
+				"普通艦船：55%",
+				"<color=#d797ff>愛斯基摩</color>：1.4%<color=#92FC63>(up!)</color>"
 			}
 		}
 	},
@@ -13150,6 +13179,10 @@ pg.activity_template = {
 		40475,
 		40476,
 		40477,
+		40480,
+		40481,
+		40482,
+		40483,
 		40500,
 		40501,
 		45000,

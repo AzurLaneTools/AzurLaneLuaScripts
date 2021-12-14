@@ -94,13 +94,13 @@ function slot0.OnSelected(slot0)
 		end
 	end
 
-	if (slot0.contextData.memoryGroup or slot0.contextData.selectedGroupID) and pg.memory_group[slot3] then
+	slot0.contextData.memoryGroup = nil
+
+	if slot0.contextData.memoryGroup and pg.memory_group[slot3] then
 		slot0:ShowSubMemories(pg.memory_group[slot3])
 	else
 		slot0:MemoryFilter()
 	end
-
-	slot0.contextData.selectedGroupID = nil
 end
 
 function slot0.OnReselected(slot0)
@@ -108,12 +108,15 @@ function slot0.OnReselected(slot0)
 end
 
 function slot0.OnDeselected(slot0)
-	slot0:HideDetailLayer()
-	slot0:HideGroupLayer()
-
 	slot0.contextData.memoryGroup = nil
 
 	uv0.super.OnDeselected(slot0)
+end
+
+function slot0.Hide(slot0)
+	slot0:HideDetailLayer()
+	slot0:HideGroupLayer()
+	uv0.super.Hide(slot0)
 end
 
 function slot0.OnBackward(slot0)

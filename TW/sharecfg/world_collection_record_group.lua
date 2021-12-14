@@ -94,8 +94,8 @@ pg.world_collection_record_group = {
 			100066
 		}
 	},
-	{
-		id = 5,
+	[6] = {
+		id = 6,
 		name_abbreviate = "情報片段",
 		type = 3,
 		child = {
@@ -107,6 +107,6 @@ pg.world_collection_record_group = {
 		2,
 		3,
 		4,
-		5
+		6
 	}
 }

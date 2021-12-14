@@ -2125,7 +2125,12 @@ function temp()
 			}
 		},
 		["將"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		},
 		["天"] = {
 			["狗"] = {
@@ -2360,6 +2365,13 @@ function temp()
 		},
 		["宕"] = {
 			this = true
+		},
+		["斯"] = {
+			["基"] = {
+				["摩"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

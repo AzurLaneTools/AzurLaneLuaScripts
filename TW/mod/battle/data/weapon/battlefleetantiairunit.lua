@@ -188,7 +188,7 @@ function slot8.Fire(slot0)
 	slot0:EnterCoolDown()
 
 	for slot5, slot6 in pairs(slot0._crewUnitList) do
-		slot5:TriggerBuff(uv2.Battle.BattleConst.BuffEffectType.ON_ANTIAIR_FIRE, {})
+		slot5:TriggerBuff(uv2.Battle.BattleConst.BuffEffectType.ON_ANTIAIR_FIRE_NEAR, {})
 		slot5:PlayFX(slot6[1]:GetTemplateData().fire_fx, true)
 	end
 

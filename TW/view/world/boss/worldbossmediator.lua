@@ -90,7 +90,7 @@ function slot0.register(slot0)
 end
 
 function slot0.updateBossProxy(slot0)
-	if nowWorld:GetBossProxy() and not slot2:IsOpen() then
+	if nowWorld():GetBossProxy() and not slot2:IsOpen() then
 		triggerButton(slot0.viewComponent.backBtn)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 

@@ -14,7 +14,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot5.type == DROP_TYPE_WORLD_ITEM and not nowWorld:IsActivate() then
+	if slot5.type == DROP_TYPE_WORLD_ITEM and not nowWorld():IsActivate() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_shop_bag_unactivated"))
 
 		return
@@ -223,7 +223,7 @@ function slot0.execute(slot0, slot1)
 					slot4:getGoodsById(uv4):reduceBuyCount()
 					uv7:updateGuildShop(slot4)
 				elseif uv0.genre == ShopArgs.WorldShop then
-					nowWorld:UpdateWorldShopGoods({
+					nowWorld():UpdateWorldShopGoods({
 						{
 							goods_id = uv4,
 							count = uv2

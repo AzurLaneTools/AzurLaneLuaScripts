@@ -3439,6 +3439,22 @@ _G.pg.gametip.world_target_count = {
 	tip = "當前可領取目標獎勵$1個"
 }
 
+_G.pg.gametip.world_target_filter_tip1 = {
+	tip = "全部"
+}
+
+_G.pg.gametip.world_target_filter_tip2 = {
+	tip = "未完成"
+}
+
+_G.pg.gametip.world_target_get_all = {
+	tip = "是否一鍵領取所有海域探索獎勵？"
+}
+
+_G.pg.gametip.world_target_goto = {
+	tip = "前往海域"
+}
+
 _G.pg.gametip.world_help_tip = {
 	tip = {
 		{
@@ -3920,8 +3936,20 @@ _G.pg.gametip.world_movelimit_event_text = {
 	tip = "當前海域存在尚未完成的事件，目前無法離開。\n是否繼續？"
 }
 
+_G.pg.gametip.world_mapbuff_tip = {
+	tip = "海域內所有敵人戰鬥力上升中"
+}
+
 _G.pg.gametip.world_sametask_tip = {
 	tip = "領取任務失敗，相同的任務最多只能領取一個"
+}
+
+_G.pg.gametip.world_expedition_reward_display = {
+	tip = "獎勵一覽"
+}
+
+_G.pg.gametip.world_expedition_reward_display2 = {
+	tip = "HP $1%"
 }
 
 _G.pg.gametip.task_notfound_error = {
@@ -6438,6 +6466,10 @@ _G.pg.gametip.guild_name_invaild = {
 
 _G.pg.gametip.guild_apply_full = {
 	tip = "目標大艦隊申請人數已滿"
+}
+
+_G.pg.gametip.guild_member_full = {
+	tip = "目標大艦隊人數已滿"
 }
 
 _G.pg.gametip.guild_fire_duty_limit = {
@@ -13718,6 +13750,14 @@ _G.pg.gametip.tec_tendency_cur_3 = {
 	tip = "科研傾向 / 三期"
 }
 
+_G.pg.gametip.tec_target_catchup_none = {
+	tip = "定向追趕 / 未選擇"
+}
+
+_G.pg.gametip.tec_target_catchup_selected = {
+	tip = "定向追趕"
+}
+
 _G.pg.gametip.tec_target_catchup_none_1 = {
 	tip = "定向追趕:一期/未選"
 }
@@ -14127,6 +14167,10 @@ _G.pg.gametip.guild_start_event_consume_tip = {
 	tip = "是否確認花費$1大艦隊物資開啟“$2”？"
 }
 
+_G.pg.gametip.guild_start_event_consume_tip_extra = {
+	tip = "本月已開啟過<color=#ff5c5c>$3</color>次作戰，是否確認花費$1大艦隊物資開啟“$2”？"
+}
+
 _G.pg.gametip.guild_word_consume_for_battle = {
 	tip = "開啟需要消耗"
 }
@@ -14393,6 +14437,10 @@ _G.pg.gametip.guild_tech_over_log = {
 
 _G.pg.gametip.guild_tech_change_log = {
 	tip = "[$1] $2 將科技研發切換為$3"
+}
+
+_G.pg.gametip.guild_log_title = {
+	tip = "艦隊日誌"
 }
 
 _G.pg.gametip.guild_use_donateitem_success = {
@@ -15559,7 +15607,7 @@ _G.pg.gametip.world_joint_exit_battle_tip = {
 }
 
 _G.pg.gametip.world_boss_get_item = {
-	tip = "當前已經收集到指定數據量的座標數據，是否立即對其進行解析？ \n(<color=#ff5c5c>未解析的情況下，後續將不會繼續獲得座標數據</color>)"
+	tip = "當前已經收集到指定數據量的座標數據，是否立即對其進行解析？"
 }
 
 _G.pg.gametip.world_boss_ask_help = {
@@ -15969,12 +16017,124 @@ _G.pg.gametip.world_setting_submititemtip = {
 	tip = "功能開啟後，自律時自動完成需要提交道具的事件"
 }
 
+_G.pg.gametip.world_setting_mapauto = {
+	tip = "安全海域默認開啟自律"
+}
+
+_G.pg.gametip.world_setting_mapautotip = {
+	tip = "功能開啟後，進入安全海域時將會默認開啟自律模式"
+}
+
 _G.pg.gametip.world_boss_maintenance = {
 	tip = "伺服器即將維護,無法進行信標·META作戰"
 }
 
 _G.pg.gametip.world_boss_inbattle = {
 	tip = "當前處於信標·META作戰中，不可前往"
+}
+
+_G.pg.gametip.world_automode_title_1 = {
+	tip = "計劃作戰模式"
+}
+
+_G.pg.gametip.world_automode_title_2 = {
+	tip = "OPERATION"
+}
+
+_G.pg.gametip.world_automode_cancel = {
+	tip = "取消"
+}
+
+_G.pg.gametip.world_automode_confirm = {
+	tip = "執行"
+}
+
+_G.pg.gametip.world_automode_start_tip1 = {
+	tip = "不存在符合條件的海域"
+}
+
+_G.pg.gametip.world_automode_start_tip2 = {
+	tip = "行動力不足"
+}
+
+_G.pg.gametip.world_automode_start_tip3 = {
+	tip = "當前並未處於安全海域內"
+}
+
+_G.pg.gametip.world_automode_start_tip4 = {
+	tip = "當前海域無法離開"
+}
+
+_G.pg.gametip.world_automode_setting_1 = {
+	tip = "需要壓制的侵蝕等級"
+}
+
+_G.pg.gametip.world_automode_setting_1_1 = {
+	tip = "4級以下 "
+}
+
+_G.pg.gametip.world_automode_setting_1_2 = {
+	tip = "5"
+}
+
+_G.pg.gametip.world_automode_setting_1_3 = {
+	tip = "6"
+}
+
+_G.pg.gametip.world_automode_setting_1_4 = {
+	tip = "全部"
+}
+
+_G.pg.gametip.world_automode_setting_2 = {
+	tip = "選擇作戰執行模式"
+}
+
+_G.pg.gametip.world_automode_setting_2_1 = {
+	tip = "重複當前海域"
+}
+
+_G.pg.gametip.world_automode_setting_2_2 = {
+	tip = "全海域隨機選擇"
+}
+
+_G.pg.gametip.world_automode_setting_all_1 = {
+	tip = "是否因神秘商人暫停"
+}
+
+_G.pg.gametip.world_automode_setting_all_1_1 = {
+	tip = "是"
+}
+
+_G.pg.gametip.world_automode_setting_all_1_2 = {
+	tip = "否"
+}
+
+_G.pg.gametip.world_automode_setting_all_2 = {
+	tip = "信標數據點數提示"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_1 = {
+	tip = "關"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_2 = {
+	tip = "滿100點提示"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_3 = {
+	tip = "滿200點提示"
+}
+
+_G.pg.gametip.world_automode_setting_all_3 = {
+	tip = "自律時自動提交道具"
+}
+
+_G.pg.gametip.world_automode_setting_all_3_1 = {
+	tip = "關"
+}
+
+_G.pg.gametip.world_automode_setting_all_3_2 = {
+	tip = "開"
 }
 
 _G.pg.gametip.area_putong = {
@@ -16129,6 +16289,14 @@ _G.pg.gametip.story_autoplay_setting_1 = {
 
 _G.pg.gametip.story_autoplay_setting_2 = {
 	tip = "開啟"
+}
+
+_G.pg.gametip.meta_shop_exchange_limit = {
+	tip = "尚未獲得艦船"
+}
+
+_G.pg.gametip.meta_shop_unexchange_label = {
+	tip = "尚未獲得艦船"
 }
 
 _G.pg.gametip.daily_level_quick_battle_label2 = {
@@ -17066,6 +17234,50 @@ _G.pg.gametip.world_pressing = {
 	tip = "壓制統計"
 }
 
+_G.pg.gametip.Settings_title_FPS = {
+	tip = "幀數設置"
+}
+
+_G.pg.gametip.Settings_title_Notification = {
+	tip = "啟用通知功能"
+}
+
+_G.pg.gametip.Settings_title_Other = {
+	tip = "其他設置"
+}
+
+_G.pg.gametip.Settings_title_LoginJP = {
+	tip = "引續碼"
+}
+
+_G.pg.gametip.Settings_title_Redeem = {
+	tip = "兌換碼"
+}
+
+_G.pg.gametip.Settings_title_AdjustScr = {
+	tip = "異形螢幕調整"
+}
+
+_G.pg.gametip.Settings_title_Secpw = {
+	tip = "二級密碼"
+}
+
+_G.pg.gametip.Settings_title_Secpwlimop = {
+	tip = "二級密碼限制行為"
+}
+
+_G.pg.gametip.Settings_title_agreement = {
+	tip = "查看協議"
+}
+
+_G.pg.gametip.Settings_title_sound = {
+	tip = "語音設置"
+}
+
+_G.pg.gametip.Settings_title_resUpdate = {
+	tip = "資源下載"
+}
+
 _G.pg.gametip.equipment_info_change_tip = {
 	tip = "以下裝備名稱已變更"
 }
@@ -17084,6 +17296,18 @@ _G.pg.gametip.equipment_info_change_text_before = {
 
 _G.pg.gametip.equipment_info_change_text_after = {
 	tip = "變更後"
+}
+
+_G.pg.gametip.world_boss_progress_tip_title = {
+	tip = "信標數據點數提示"
+}
+
+_G.pg.gametip.world_boss_progress_tip_desc = {
+	tip = [[
+功能開啟後，在大型作戰中收集信標數據時：
+關：將不再有提示
+每累計滿100點時：達到100與200點時進行提示
+累計滿200點時：達到200點時進行提示]]
 }
 
 _G.pg.gametip.ssss_main_help = {
@@ -17308,6 +17532,18 @@ _G.pg.gametip.blueprint_exchange_empty_tip = {
 
 _G.pg.gametip.blueprint_exchange_select_display = {
 	tip = "已選數量 / 所需數量"
+}
+
+_G.pg.gametip.build_rate_title = {
+	tip = "建造機率"
+}
+
+_G.pg.gametip.build_pools_intro = {
+	tip = "使用心智魔方和物資，快速拓展艦隊規模"
+}
+
+_G.pg.gametip.build_detail_intro = {
+	tip = "可同時施工的干船塢數量："
 }
 
 _G.pg.gametip.ssss_game_tip = {

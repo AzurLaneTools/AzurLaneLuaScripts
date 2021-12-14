@@ -8,7 +8,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			side = 2,
-			say = "轰-------------！",
+			say = "轟-------------！",
 			dir = 1,
 			bgm = "battle-boss-1",
 			flashN = {
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "皇家的增援来了么…！",
+			say = "皇家的增援來了嗎…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不对，好像是我们的增援，是Z2！",
+			say = "不對，好像是我們的增援，是Z2！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什、什么？！",
+			say = "什、什麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "绝对不能抛弃同伴独自撤退，虽然我很想说着这么帅气的话登场。",
+			say = "絕對不能拋棄同伴獨自撤退，雖然我很想說著這麼帥氣的話登場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "可是实际上，已经没有任何一条能够让我们撤出峡湾的航道了呢…",
+			say = "可是實際上，已經沒有任何一條能夠讓我們撤出峽灣的航道了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "果然是这种结果么……",
+			say = "果然是這種結果嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "一、二、三……爱斯基摩人陷入大危机…",
+			say = "一、二、三……愛斯基摩陷入大危機…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "得赶快联系厌战才行！",
+			say = "得趕快聯繫厭戰才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "忙完了么？我是Z2，对面的皇家驱逐舰，你是谁？",
+			say = "忙完了嗎？我是Z2，對面的皇家驅逐艦，妳是誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "皇家部族级驱逐舰爱斯基摩人！",
+			say = "皇家部族級驅逐艦愛斯基摩！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "很响亮的回答。你不害怕么？",
+			say = "很響亮的回答。妳不害怕嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "区…区几艘铁血驱逐舰而已，我完全不害怕哦！",
+			say = "區…區幾艘鐵血驅逐艦而已，我完全不害怕哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "（得在厌战赶来之前拖住她们…！）",
+			say = "（得在厭戰趕來之前拖住她們…！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯…多少也算是战果。在你们的增援赶来之前，稍微陪我一下吧。",
+			say = "嗯…多少也算是戰果。在妳們的增援趕來之前，稍微陪我一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

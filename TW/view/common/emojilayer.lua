@@ -178,7 +178,7 @@ function slot0.filter(slot0, slot1)
 
 			if slot0 == UIItemList.EventUpdate then
 				PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
-					if uv0 then
+					if not IsNil(uv0) then
 						slot0.name = uv1.pic
 
 						if slot0:GetComponent("Animator") then
@@ -237,7 +237,7 @@ function slot0.emojiIconFliter(slot0)
 
 				if slot0 == UIItemList.EventUpdate then
 					PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
-						if uv0 then
+						if not IsNil(uv0) then
 							slot0.name = uv1.pic
 
 							setParent(slot0, uv0, false)
@@ -261,7 +261,7 @@ function slot0.emojiIconFliter(slot0)
 
 				if slot0 == UIItemList.EventUpdate then
 					PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
-						if uv0 then
+						if not IsNil(uv0) then
 							slot0.name = uv1.pic
 
 							setParent(slot0, uv0, false)
@@ -286,7 +286,7 @@ function slot0.emojiIconFliter(slot0)
 
 				if slot0 == UIItemList.EventUpdate then
 					PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
-						if uv0 then
+						if not IsNil(uv0) then
 							slot0.name = uv1.pic
 
 							setParent(slot0, uv0, false)

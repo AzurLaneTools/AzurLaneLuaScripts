@@ -68606,6 +68606,506 @@ pg.ship_data_statistics = {
 			"E-Class"
 		}
 	},
+	[201321] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "愛斯基摩",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 201320,
+		english_name = "HMS Eskimo",
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 201321,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			267,
+			16,
+			66,
+			29,
+			0,
+			78,
+			0,
+			69,
+			78,
+			43.2,
+			72,
+			47
+		},
+		attrs_growth = {
+			7615,
+			226,
+			855,
+			638,
+			0,
+			541,
+			0,
+			1057,
+			1436,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1.2,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tribal-Class"
+		}
+	},
+	[201322] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "愛斯基摩",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 201320,
+		english_name = "HMS Eskimo",
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 201322,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			332,
+			20,
+			82,
+			36,
+			0,
+			78,
+			0,
+			69,
+			78,
+			43.2,
+			72,
+			59
+		},
+		attrs_growth = {
+			7615,
+			226,
+			855,
+			638,
+			0,
+			541,
+			0,
+			1057,
+			1436,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.2,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tribal-Class"
+		}
+	},
+	[201323] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "愛斯基摩",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 201320,
+		english_name = "HMS Eskimo",
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 201323,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			463,
+			28,
+			115,
+			50,
+			0,
+			78,
+			0,
+			69,
+			78,
+			43.2,
+			72,
+			82
+		},
+		attrs_growth = {
+			7615,
+			226,
+			855,
+			638,
+			0,
+			541,
+			0,
+			1057,
+			1436,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.3,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tribal-Class"
+		}
+	},
+	[201324] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "愛斯基摩",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 201320,
+		english_name = "HMS Eskimo",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 201324,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			658,
+			40,
+			164,
+			72,
+			0,
+			78,
+			0,
+			69,
+			78,
+			43.2,
+			72,
+			118
+		},
+		attrs_growth = {
+			7615,
+			226,
+			855,
+			638,
+			0,
+			541,
+			0,
+			1057,
+			1436,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tribal-Class"
+		}
+	},
 	[201331] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -69105,6 +69605,129 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"I-Class"
 		}
+	},
+	[201514] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "女将.改",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 201010,
+		english_name = "HMS Amazon",
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.34",
+		rarity = 3,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		is_character = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 201514,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			544,
+			30,
+			169,
+			71,
+			0,
+			70,
+			0,
+			68,
+			79,
+			44.4,
+			72,
+			107
+		},
+		attrs_growth = {
+			6295,
+			166,
+			874,
+			625,
+			0,
+			490,
+			0,
+			1050,
+			1434,
+			0,
+			0,
+			503
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
 	},
 	[202011] = {
 		raid_distance = 0,
@@ -254017,10 +254640,15 @@ pg.ship_data_statistics = {
 		201292,
 		201293,
 		201294,
+		201321,
+		201322,
+		201323,
+		201324,
 		201331,
 		201332,
 		201333,
 		201334,
+		201514,
 		202011,
 		202012,
 		202013,

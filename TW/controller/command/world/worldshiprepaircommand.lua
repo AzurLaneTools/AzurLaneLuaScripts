@@ -4,7 +4,7 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.shipIds
 
-	if nowWorld:GetInventoryProxy():GetItemCount(WorldItem.MoneyId) < slot2.totalCost then
+	if nowWorld():GetInventoryProxy():GetItemCount(WorldItem.MoneyId) < slot2.totalCost then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 		return

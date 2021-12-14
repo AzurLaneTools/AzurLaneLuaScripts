@@ -198,7 +198,7 @@ function slot0.didEnter(slot0)
 
 			uv0:uiExitAnimating()
 			LeanTween.delayedCall(0.3, System.Action(function ()
-				nowWorld:GetBossProxy():UnlockCacheBoss()
+				nowWorld():GetBossProxy():UnlockCacheBoss()
 				uv0:emit(uv1.ON_CLOSE)
 			end))
 		end)

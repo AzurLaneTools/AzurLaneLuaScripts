@@ -594,7 +594,7 @@ D.C.海軍工廠博物館管理委員會
 		is_classified = 0,
 		group_ID = 4,
 		content = "未公開內容",
-		pic = ""
+		pic = "6104"
 	},
 	[6105] = {
 		id = 6105,
@@ -612,7 +612,7 @@ D.C.海軍工廠博物館管理委員會
 		is_classified = 0,
 		group_ID = 6,
 		content = "未公開內容",
-		pic = ""
+		pic = "6106"
 	},
 	[7101] = {
 		id = 7101,
@@ -639,7 +639,7 @@ D.C.海軍工廠博物館管理委員會
 		is_classified = 0,
 		group_ID = 3,
 		content = "未公開內容",
-		pic = ""
+		pic = "7103"
 	},
 	[7104] = {
 		id = 7104,
@@ -657,7 +657,7 @@ D.C.海軍工廠博物館管理委員會
 		is_classified = 0,
 		group_ID = 5,
 		content = "未公開內容",
-		pic = ""
+		pic = "7105"
 	},
 	[7106] = {
 		id = 7106,
@@ -768,7 +768,7 @@ D.C.海軍工廠博物館管理委員會
 		is_classified = 0,
 		group_ID = 3,
 		content = "未公開內容",
-		pic = ""
+		pic = "9103"
 	},
 	[9104] = {
 		id = 9104,
@@ -795,7 +795,7 @@ D.C.海軍工廠博物館管理委員會
 		is_classified = 0,
 		group_ID = 6,
 		content = "未公開內容",
-		pic = ""
+		pic = "9106"
 	},
 	[10101] = {
 		id = 10101,

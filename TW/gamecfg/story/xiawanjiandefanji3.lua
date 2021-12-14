@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唉，没想到皇家会派来这么夸张的舰队。",
+			say = "唉，沒想到皇家會派來這麼誇張的艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "总之先和Z2她们重新恢复联系。",
+			say = "總之先和Z2她們重新恢復聯繫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "………………",
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不会吧…通讯设备居然坏了么！",
+			say = "不會吧…通訊設備居然壞了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔……我记得原本计划是离开这个峡湾前往…",
+			say = "唔……我記得原本計劃是離開這個峽灣前往…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于抓到你了，铁血的驱逐舰！",
+			say = "終於抓到妳了，鐵血的驅逐艦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "追兵这么快就到了么？！",
+			say = "追兵這麼快就到了嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "不会让你逃跑哟~皇家所属部族级驱逐舰，爱斯基摩人，出击！",
+			say = "不會讓妳逃跑喲~皇家所屬部族級驅逐艦，愛斯基摩，出擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

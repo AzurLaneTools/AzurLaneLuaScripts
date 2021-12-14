@@ -15,6 +15,7 @@ function slot0.__call(slot0)
 end
 
 function slot0.Ctor(slot0, slot1, slot2, slot3)
+	slot0.path = "Spine"
 	slot0.name = slot1
 	slot0.model = slot2
 	slot0.callback = slot3

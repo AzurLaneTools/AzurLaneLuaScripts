@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"在樱花纷飞的那天之后\n\n<size=45>一  所寻找的物品是？</size>",
+					"在櫻花紛飛的那天之後\n\n<size=45>一  所尋找的物品是？</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "为了增强舰队实力，需要在港区内建设一个新的补给仓库。",
+			say = "為了增強艦隊實力，需要在港區內建設一個新的補給倉庫。",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "一边走一边思考建造地点的问题时，发现了一个躺在路中央的抽绳袋。",
+			say = "一邊走一邊思考建造地點的問題時，發現了一個躺在路中央的束口袋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,23 +70,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "捡起来摇了一下袋子，里面传来硬币碰撞的叮当声。到底会是谁落下的呢…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305010,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "钱包…掉到哪里去了……",
+			say = "撿起來搖了一下袋子，裡面傳來硬幣碰撞的叮噹聲。到底會是誰落下的呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +86,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官殿下——",
+			say = "錢包…掉到哪裡去了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,22 +102,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸——那个钱包是我刚才不小心掉的……您是在哪里捡到的？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
-			dir = 1,
-			say = "把钱包递给{namecode:78}后，告诉了她是刚刚在路中间捡到的。",
+			say = "啊，指揮官殿下——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +118,38 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了……我还担心它会不会掉到了排水沟里…",
+			say = "欸——那個錢包是我剛才不小心掉的……您是在哪裡撿到的？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_103",
+			dir = 1,
+			say = "把錢包遞給扶桑後，告訴了她是剛剛在路中間撿到的。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305010,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "太好了……我還擔心它會不會掉到了排水溝裡…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到会被温柔的殿下捡到，实在是幸运呢。",
+			say = "沒想到會被溫柔的殿下撿到，實在是幸運呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这也是每天都在神社中祈福的回报吧，呵呵~",
+			say = "這也是每天都在神社中祈福的回報吧，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,23 +206,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "掉了钱包这种事，怎么也不能算作走运吧……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305010,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "说起来，殿下在这里做什么呢？",
+			say = "掉了錢包這種事，怎麼也不能算作走運吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +222,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……原来如此，是在为全新的补给仓库选址啊。",
+			say = "說起來，殿下在這裡做什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,22 +238,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "殿下觉得我和{namecode:79}所在的神社附近的那片土地怎么样？我觉得面积应该足够大哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
-			dir = 1,
-			say = "这么说起来，神社附近确实有块大小合适的空地……",
+			say = "……原來如此，是在為全新的補給倉庫選址啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +254,38 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果需要的话，下次我带殿下去那边看看吧。",
+			say = "殿下覺得我和山城所在的神社附近的那片土地怎麼樣？我覺得面積應該足夠大哦。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_103",
+			dir = 1,
+			say = "這麼說起來，神社附近確實有塊大小合適的空地……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305010,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "如果需要的話，下次我帶殿下去那邊看看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "看着微笑的{namecode:78}，自然而然的点头答应了一同去视察空地的邀请。",
+			say = "看著微笑的扶桑，自然而然的點頭答應了一同去視察空地的邀請。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

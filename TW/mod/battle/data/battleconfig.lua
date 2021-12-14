@@ -31,7 +31,9 @@ slot0.AntiAirConfig = {
 	const_A = 20,
 	const_B = 40,
 	Restore_Interval = 1,
-	Precast_duration = 0.25
+	Precast_duration = 0.25,
+	RangeBulletID = 903,
+	RangeBarrageID = 1
 }
 slot0.AnitAirRepeaterConfig = {
 	const_A = 32,

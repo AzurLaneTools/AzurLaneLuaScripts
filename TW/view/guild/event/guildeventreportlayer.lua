@@ -8,6 +8,10 @@ function slot0.SetReports(slot0, slot1)
 	slot0.reports = slot1
 end
 
+function slot0.OnGetReportRankList(slot0, slot1)
+	slot0.rankPage:ExecuteAction("Show", slot1)
+end
+
 function slot0.init(slot0)
 	slot0.scrollrect = slot0:findTF("frame/scrollrect"):GetComponent("LScrollRect")
 	slot0.getAll = slot0:findTF("frame/get_all")
@@ -21,6 +25,8 @@ function slot0.init(slot0)
 	slot0._parentTf = slot0._tf.parent
 
 	setText(slot0:findTF("frame/desc"), i18n("guild_report_tooltip"))
+
+	slot0.rankPage = GuildBossRankPage.New(slot0._tf, slot0.event)
 end
 
 function slot0.didEnter(slot0)
@@ -143,6 +149,10 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:Update(slot0.displays[slot1 + 1])
 end
 
+function slot0.ShowReportRank(slot0, slot1)
+	slot0:emit(GuildEventReportMediator.GET_REPORT_RANK, slot1)
+end
+
 function slot0.willExit(slot0)
 	pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 
@@ -152,6 +162,12 @@ function slot0.willExit(slot0)
 		end
 
 		slot0.cards = nil
+	end
+
+	if slot0.rankPage then
+		slot0.rankPage:Destroy()
+
+		slot0.rankPage = nil
 	end
 end
 

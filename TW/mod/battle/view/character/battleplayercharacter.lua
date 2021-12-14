@@ -42,9 +42,17 @@ function slot4.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv1.WILL_DIE, slot0.onWillDie)
 	slot0._unitData:RegisterEventListener(slot0, uv1.INIT_COOL_DOWN, slot0.onInitWeaponCD)
 	slot0._unitData:RegisterEventListener(slot0, uv1.WEAPON_SECTOR, slot0.onActiveWeaponSector)
+
+	if slot0._unitData:GetFleetRangeAAWeapon() then
+		slot0:RegisterWeaponListener(slot0._unitData:GetFleetRangeAAWeapon())
+	end
 end
 
 function slot4.RemoveUnitEvent(slot0)
+	if slot0._unitData:GetFleetRangeAAWeapon() then
+		slot0:UnregisterWeaponListener(slot0._unitData:GetFleetRangeAAWeapon())
+	end
+
 	for slot4, slot5 in ipairs(slot0._chargeWeaponList) do
 		slot5:UnregisterEventListener(slot0, uv0.CHARGE_WEAPON_FINISH)
 		slot0:UnregisterWeaponListener(slot5)

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"在樱花纷飞的那天之后\n\n<size=45>二  甜美的购物时光</size>",
+					"在櫻花紛飛的那天之後\n\n<size=45>二  甜美的購物時光</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "向{namecode:78}询问了携带大量硬币的原因——",
+			say = "向扶桑詢問了攜帶大量硬幣的原因——",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实……我打算去商店买些甜食，犒劳那些经常来神社帮忙的孩子们。",
+			say = "其實……我打算去商店買些甜食，犒勞那些經常來神社幫忙的孩子們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果有空的话，殿下要不要一起去看看？",
+			say = "如果有空的話，殿下要不要一起去看看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我记得前面的商店里有卖那种放满了豆沙馅的美味大福饼呢——",
+			say = "我記得前面的商店裡有賣那種放滿了豆沙餡的美味大福餅呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "在走进商店时，发现了一同进来的{namecode:147}。",
+			say = "在走進商店時，發現了一同進來的滿潮。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是指挥官和{namecode:78}？你们是一起来买点心的吗？",
+			say = "是指揮官和扶桑？你們是一起來買點心的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呢，想给在神社的大家买些点心……啊，大福麻糬只剩一个了。",
+			say = "是呢，想給在神社的大家買些點心……啊，大福麻糬只剩一個了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，{namecode:78}小姐也是来买大福的吗？！",
+			say = "欸，扶桑小姐也是來買大福的嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜~咱最喜欢这里的大福了，如果{namecode:78}小姐是给在神社帮忙的同伴买的话，那就让给你吧……",
+			say = "嗚~咱最喜歡這裡的大福了，如果扶桑小姐是給在神社幫忙的同伴買的話，那就讓給妳吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系哦，{namecode:147}想要就买吧。我打算直接买些材料，回去亲手做给她们好了。",
+			say = "沒關係哦，滿潮想要就買吧。我打算直接買些材料，回去親手做給她們好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？可、可以吗？",
+			say = "欸？可、可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然可以哦，放心拿吧。",
+			say = "當然可以哦，放心拿吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢{namecode:78}小姐！耶！大福大福~♪",
+			say = "謝謝扶桑小姐！耶！大福大福~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "{namecode:147}开心地买下了大福，离开了商店。",
+			say = "滿潮開心地買下了大福，離開了商店。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这样一来，做大福的材料就买齐了。",
+			say = "……這樣一來，做大福的材料就買齊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了感谢殿下帮我捡到钱包，到时请务必来尝尝我亲手做的大福哦。",
+			say = "為了感謝殿下幫我撿到錢包，到時請務必來嚐嚐我親手做的大福哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我会亲自喂给您的，您只要“啊”地张开嘴就好了~",
+			say = "我會親自餵給您的，您只要“啊”地張開嘴就好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:78}开心地笑了起来。说实话有点分不清她是开玩笑还是认真的…",
+			say = "扶桑開心地笑了起來。說實話有點分不清她是開玩笑還是認真的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

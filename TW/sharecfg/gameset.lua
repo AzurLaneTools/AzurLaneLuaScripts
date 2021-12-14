@@ -1407,6 +1407,15 @@ pg.gameset = {
 			630
 		}
 	},
+	world_planning_stop_event = {
+		key_value = 0,
+		description = {
+			1901,
+			1902,
+			1904,
+			1905
+		}
+	},
 	commander_exp_a = {
 		description = "",
 		key_value = 7000

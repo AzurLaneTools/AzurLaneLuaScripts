@@ -53,7 +53,7 @@ function slot0.Enter(slot0)
 
 	slot0:UpdateView()
 	slot0:SwitchFileIndex(slot0.contextData.SelectedFile or (function ()
-		slot0 = nowWorld:GetCollectionProxy()
+		slot0 = nowWorld():GetCollectionProxy()
 
 		for slot5, slot6 in ipairs(WorldCollectionProxy.GetCollectionFileGroupTemplate(uv0.contextData.FileGroupIndex).child) do
 			if slot0:IsUnlock(slot6) then
@@ -73,7 +73,7 @@ function slot0.UpdateView(slot0)
 	slot0.archiveList = _.map(WorldCollectionProxy.GetCollectionFileGroupTemplate(slot0.contextData.FileGroupIndex).child, function (slot0)
 		return WorldCollectionProxy.GetCollectionTemplate(slot0)
 	end)
-	slot1 = nowWorld:GetCollectionProxy()
+	slot1 = nowWorld():GetCollectionProxy()
 	slot2 = WorldCollectionProxy.GetCollectionFileGroupTemplate(slot0.contextData.FileGroupIndex)
 	slot3 = 0
 	slot4 = #slot2.child
@@ -107,7 +107,7 @@ function slot0.OnUpdateFile(slot0, slot1, slot2)
 	slot0.fileChild[slot1] = slot2
 	slot5 = tf(slot2)
 	slot6 = WorldCollectionProxy.GetCollectionFileGroupTemplate(slot0.contextData.FileGroupIndex)
-	slot7 = nowWorld:GetCollectionProxy():IsUnlock(slot3.id)
+	slot7 = nowWorld():GetCollectionProxy():IsUnlock(slot3.id)
 	slot8 = slot1 == slot0.contextData.SelectedFile
 
 	setActive(slot5:Find("Selected"), slot8)
@@ -118,7 +118,7 @@ function slot0.OnUpdateFile(slot0, slot1, slot2)
 	setActive(slot5:Find("Locked"), not slot7)
 	slot0.loader:GetSprite("ui/WorldMediaCollectionFileDetailUI_atlas", "cover" .. slot6.type, slot5:Find("Cover"))
 	onButton(slot0, slot5, function ()
-		if not nowWorld:GetCollectionProxy():IsUnlock(uv0.id) then
+		if not nowWorld():GetCollectionProxy():IsUnlock(uv0.id) then
 			return
 		end
 
@@ -133,7 +133,7 @@ function slot0.SwitchFileIndex(slot0, slot1)
 
 	slot2 = slot1 and slot0.archiveList[slot1]
 
-	if slot2 and nowWorld:GetCollectionProxy():IsUnlock(slot2.id) then
+	if slot2 and nowWorld():GetCollectionProxy():IsUnlock(slot2.id) then
 		slot0.contextData.SelectedFile = slot1
 
 		if slot0.fileChild[slot0.contextData.SelectedFile] then

@@ -7563,16 +7563,6 @@ pg.world_chapter_template_reset = {
 		reset_item = {},
 		reset_buff = {}
 	},
-	[430000] = {
-		id = 430000,
-		transport = 154,
-		transport_colormask = 154,
-		tip = "是否確定從奇異點-核心海域離開？\n（離開後回到奇異點-核心海域需要再次消耗道具）",
-		reset_map = {},
-		reset_trigger = {},
-		reset_item = {},
-		reset_buff = {}
-	},
 	all = {
 		8000,
 		8030,
@@ -7784,7 +7774,6 @@ pg.world_chapter_template_reset = {
 		890170,
 		420010,
 		420020,
-		420030,
-		430000
+		420030
 	}
 }

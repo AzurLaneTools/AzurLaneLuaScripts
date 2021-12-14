@@ -4953,7 +4953,7 @@ pg.ship_data_group = {
 		}
 	},
 	[81] = {
-		trans_skin = 0,
+		trans_skin = 201019,
 		redirect_id = 101,
 		hide = 0,
 		type = 1,
@@ -4971,8 +4971,17 @@ pg.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"B",
+			"D"
+		},
+		trans_skill = {
+			12970
+		},
 		description = {
 			{
 				"榮譽勳章兌換（機率刷新）",
@@ -5985,6 +5994,37 @@ pg.ship_data_group = {
 					{
 						warp = "sham"
 					}
+				},
+				0
+			}
+		}
+	},
+	[460] = {
+		trans_skin = 0,
+		redirect_id = 101,
+		hide = 0,
+		type = 1,
+		nationality = 2,
+		handbook_type = 0,
+		index_id = 152,
+		code = 460,
+		group_type = 20132,
+		trans_type = 0,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：峽灣間的反擊",
+				{
+					""
 				},
 				0
 			}
@@ -10367,7 +10407,7 @@ pg.ship_data_group = {
 		}
 	},
 	[183] = {
-		trans_skin = 0,
+		trans_skin = 302059,
 		redirect_id = 101,
 		hide = 0,
 		type = 2,
@@ -10385,8 +10425,17 @@ pg.ship_data_group = {
 			"A",
 			"C"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"S",
+			"B"
+		},
+		trans_skill = {
+			13190
+		},
 		description = {
 			{
 				"推薦探索關卡7-3",
@@ -16631,6 +16680,7 @@ pg.ship_data_group = {
 		307,
 		325,
 		326,
+		460,
 		372,
 		373,
 		104,

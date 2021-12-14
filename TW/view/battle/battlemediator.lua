@@ -103,7 +103,7 @@ function slot0.register(slot0)
 		if uv0 == SYSTEM_SCENARIO then
 			getProxy(ChapterProxy):StopAutoFight()
 		elseif uv0 == SYSTEM_WORLD then
-			nowWorld:TriggerAutoFight(false)
+			nowWorld():TriggerAutoFight(false)
 		end
 	end)
 
@@ -481,7 +481,7 @@ function slot0.GenBattleData(slot0)
 
 		slot0.viewComponent:setFleet(slot11, slot12, slot13)
 	elseif slot2 == SYSTEM_WORLD then
-		slot6 = nowWorld:GetActiveMap()
+		slot6 = nowWorld():GetActiveMap()
 		slot7 = slot6:GetFleet()
 
 		if slot6:GetCell(slot7.row, slot7.column):GetStageEnemy():GetHP() then
@@ -590,7 +590,7 @@ function slot0.GenBattleData(slot0)
 			slot1.WorldLevel = WorldConst.WorldLevelCorrect(slot6.config.expedition_level, slot19.type)
 		end
 	elseif slot2 == SYSTEM_WORLD_BOSS then
-		slot6 = nowWorld:GetBossProxy()
+		slot6 = nowWorld():GetBossProxy()
 		slot7 = slot6:GetFleet()
 
 		if slot6:GetBossById(slot0.contextData.bossId):GetHP() then
@@ -808,7 +808,7 @@ function slot0.GenBattleData(slot0)
 	end
 
 	if slot2 == SYSTEM_WORLD then
-		slot5 = nowWorld
+		slot5 = nowWorld()
 		slot6 = slot5:GetActiveMap()
 		slot7 = slot6:GetFleet()
 		slot9 = slot6:GetCell(slot7.row, slot7.column):GetStageEnemy()

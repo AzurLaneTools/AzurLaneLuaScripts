@@ -16,6 +16,7 @@ end
 
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0.path = slot1
+	slot0.name = ""
 	slot0.callback = slot2
 end
 

@@ -396,7 +396,7 @@ function slot0.switchState(slot0, slot1, slot2, slot3, slot4)
 				uv0:switchUI(uv1, {
 					-uv0.leftPanle.rect.width - 400,
 					0,
-					-uv0.rightPanel.rect.width / 2
+					-uv0.leftPanle.rect.width / 2
 				}, slot0)
 			else
 				uv0:switchUI(uv1, {
@@ -641,8 +641,6 @@ function slot0.setSelectedBluePrint(slot0)
 	if slot2 then
 		if not slot1:canFateSimulation() or not pg.NewStoryMgr.GetInstance():IsPlayed(slot1:getConfig("luck_story")) then
 			slot0.isFate = false
-		elseif slot0.isFate == nil then
-			slot0.isFate = true
 		end
 
 		slot0:updateMod()

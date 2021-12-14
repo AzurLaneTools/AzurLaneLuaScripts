@@ -310,21 +310,15 @@ function slot0.getTeamByName(slot0, slot1)
 end
 
 function slot0.insertShip(slot0, slot1, slot2, slot3)
-	if slot3 == TeamType.Vanguard then
-		slot2 = slot2 or #slot0.vanguardShips + 1
+	slot4 = slot0:getTeamByName(slot3)
 
-		table.insert(slot0.vanguardShips, slot2, slot1.id)
-		table.insert(slot0.ships, slot2, slot1.id)
-	elseif slot3 == TeamType.Main then
-		slot2 = slot2 or #slot0.mainShips + 1
+	if slot0:isFull() or slot0:containShip(slot1) or not slot1:isAvaiable() or TeamType.GetTeamShipMax(slot3) <= #slot4 then
+		pg.TipsMgr.GetInstance():ShowTips("fleet insert error")
+	else
+		slot2 = slot2 or #slot4 + 1
 
-		table.insert(slot0.mainShips, slot2, slot1.id)
-		table.insert(slot0.ships, #slot0.vanguardShips + slot2, slot1.id)
-	elseif slot3 == TeamType.Submarine then
-		slot2 = slot2 or #slot0.subShips + 1
-
-		table.insert(slot0.subShips, slot2, slot1.id)
-		table.insert(slot0.ships, slot2, slot1.id)
+		table.insert(slot4, slot2, slot1.id)
+		table.insert(slot0.ships, (slot3 == TeamType.MainMax and #slot0.vanguardShips or 0) + slot2, slot1.id)
 	end
 end
 
@@ -353,11 +347,7 @@ function slot0.isPvpFleet(slot0)
 end
 
 function slot0.getFleetType(slot0)
-	if not slot0.id then
-		return FleetType.Normal
-	end
-
-	if uv0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < uv0.SUBMARINE_FLEET_ID + uv0.SUBMARINE_FLEET_NUMS then
+	if slot0.id and uv0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < uv0.SUBMARINE_FLEET_ID + uv0.SUBMARINE_FLEET_NUMS then
 		return FleetType.Submarine
 	end
 
@@ -414,9 +404,9 @@ end
 
 function slot0.isFull(slot0)
 	if slot0:getFleetType() == FleetType.Normal then
-		return #slot0.ships >= 6
+		return #slot0.ships >= TeamType.VanguardMax + TeamType.MainMax
 	elseif slot1 == FleetType.Submarine then
-		return #slot0.subShips >= 3
+		return TeamType.SubmarineMax <= #slot0.subShips
 	end
 
 	return false

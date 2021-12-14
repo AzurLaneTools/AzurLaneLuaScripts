@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于醒过来了么，爱斯基摩人！",
+			say = "終於醒過來了嗎，愛斯基摩！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "哎？厌战？战斗结束了么？",
+			say = "哎？厭戰？戰鬥結束了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还没有，不过很快就要结束了哦。",
+			say = "還沒有，不過很快就要結束了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "这样啊…Z2和Z18她们…",
+			say = "這樣啊…Z2和Z18她們…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…别想太多，你先好好休息吧",
+			say = "…別想太多，妳先好好休息吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次我有好好努力哦…",
+			say = "這次我有好好努力哦…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我都看到了。知道你这样英勇战斗，女王陛下也会十分高兴吧。",
+			say = "嗯，我都看到了。知道妳這樣英勇戰鬥，女王陛下也會十分高興吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的嘛？女王陛下的夸奖…嘿嘿嘿嘿…",
+			say = "真的嗎？女王陛下的誇獎…嘿嘿嘿嘿…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们进行的每场战斗，都是为结束这场战争而做出的一小份贡献。",
+			say = "我們進行的每場戰鬥，都是為結束這場戰爭而做出的一小份貢獻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "复杂的事我不懂啦…不过，既然是正确的事，就算有些感伤，我还是会坚持下去的",
+			say = "複雜的事我不懂啦…不過，既然是正確的事，就算有些感傷，我還是會堅持下去的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "啊，感觉又有些困了…",
+			say = "啊，感覺又有些睏了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "安心睡吧。等你再醒来的时候，我们就在回家的路上了哦",
+			say = "安心睡吧。等妳再醒來的時候，我們就在回家的路上了哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "厌战，Z17向你的方向高速冲过去了！",
+			say = "厭戰，Z17正在向妳的方向高速衝過去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "收到。最大舰速前进，让我们结束这场战斗吧！",
+			say = "收到。最大艦速前進，讓我們結束這場戰鬥吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

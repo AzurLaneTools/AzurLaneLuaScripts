@@ -3538,6 +3538,54 @@ _G.pg.equip_data_statistics[442] = {
 	}
 }
 
+_G.pg.equip_data_statistics[446] = {
+	tech = 1,
+	name = "格奈META特殊副炮",
+	speciality = "锁定",
+	type = 1,
+	rarity = 1,
+	ammo = 1,
+	damage = "16 x 4",
+	nationality = 4,
+	descrip = "默认装备",
+	id = 446,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		446
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"DD",
+		"MG",
+		"AP"
+	}
+}
+
 _G.pg.equip_data_statistics[450] = {
 	type = 2,
 	name = "征战巨坦自带主炮-类152MK5+3",

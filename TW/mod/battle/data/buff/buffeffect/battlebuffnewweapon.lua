@@ -35,6 +35,7 @@ function slot3.onRemove(slot0, slot1, slot2)
 			slot1:RemoveFleetAntiAirWeapon(slot0._weapon)
 			slot1:GetFleetVO():GetFleetAntiAirWeapon():FlushCrewUnit(slot1)
 		else
+			slot0._weapon:Clear()
 			slot1:RemoveAutoWeapon(slot0._weapon)
 		end
 	end

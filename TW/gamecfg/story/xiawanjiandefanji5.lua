@@ -9,7 +9,7 @@ return {
 			actor = 201110,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "我回来啦，厌战。",
+			say = "我回來啦，厭戰。",
 			dir = 1,
 			bgm = "level02",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱斯基摩人没事吧？",
+			say = "愛斯基摩沒事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连点擦伤都没有，现在又在精神饱满的追击铁血驱逐舰去了。",
+			say = "連點擦傷都沒有，現在又在精神飽滿的追擊鐵血驅逐艦去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…落单的铁血驱逐舰就交给爱斯基摩人，我们继续执行作战吧。",
+			say = "嗯…落單的鐵血驅逐艦就交給愛斯基摩，我們繼續執行作戰吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以女王之名，为了勇敢和猎人…一艘敌人都不要放跑！",
+			say = "以女王之名，為了勇敢和獵人…一艘敵人都不要放跑！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

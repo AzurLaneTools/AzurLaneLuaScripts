@@ -49,9 +49,9 @@ function slot0.execute(slot0, slot1)
 		arg_list = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			slot1 = uv0:getAwards(uv1, slot0)
+			slot1 = PlayerConst.GetTranAwards(uv0, slot0)
 
-			uv0:performance(uv1, slot0, uv0:updateActivityData(uv1, slot0, uv2, slot1), slot1)
+			uv1:performance(uv0, slot0, uv1:updateActivityData(uv0, slot0, uv2, slot1), slot1)
 		else
 			print("activity op ret code: " .. slot0.result)
 
@@ -73,58 +73,12 @@ function slot0.execute(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("activity_op_error", slot0.result))
 			end
 
-			uv0:sendNotification(ActivityProxy.ACTIVITY_OPERATION_ERRO, {
-				actId = uv1.activity_id,
+			uv1:sendNotification(ActivityProxy.ACTIVITY_OPERATION_ERRO, {
+				actId = uv0.activity_id,
 				code = slot0.result
 			})
 		end
 	end)
-end
-
-function slot0.getAwards(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = {}
-
-	for slot8, slot9 in ipairs(slot2.award_list) do
-		table.insert(slot3, {
-			type = slot9.type,
-			id = slot9.id,
-			count = slot9.number
-		})
-	end
-
-	slot4 = PlayerConst.addTranDrop(slot3)
-
-	for slot8, slot9 in ipairs(slot3) do
-		if slot9.type == DROP_TYPE_SHIP and not getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot9.id].group_type) and Ship.inUnlockTip(slot9.id) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("collection_award_ship", slot10.name))
-		end
-	end
-
-	if slot1.isAwardMerge then
-		slot5 = {}
-		slot6 = nil
-
-		for slot10, slot11 in ipairs(slot4) do
-			if (function ()
-				for slot3, slot4 in ipairs(uv0) do
-					if uv1.id == slot4.id then
-						uv0[slot3].count = uv0[slot3].count + uv1.count
-
-						return false
-					end
-				end
-
-				return true
-			end)() then
-				table.insert(slot5, slot11)
-			end
-		end
-
-		slot4 = slot5
-	end
-
-	return slot4
 end
 
 function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)

@@ -32,10 +32,10 @@ function slot0.OnInit(slot0)
 
 	setText(slot0.rewardCond, i18n("text_rest_HP"))
 	onButton(slot0, slot0._tf, function ()
-		uv0:Destroy()
+		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
-		uv0:Destroy()
+		uv0:Hide()
 	end, SFX_PANEL)
 end
 
@@ -45,59 +45,59 @@ slot1 = {
 	"b"
 }
 
-function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot6 = nil
+function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
+	slot5 = nil
 
-	if #slot4 == 3 then
-		slot1.listTF:GetChild(1).gameObject:SetActive(true)
-		slot1.listTF:GetChild(2).gameObject:SetActive(true)
-		slot1.listTF:GetChild(3).gameObject:SetActive(true)
+	if #slot3 == 3 then
+		slot0.listTF:GetChild(1).gameObject:SetActive(true)
+		slot0.listTF:GetChild(2).gameObject:SetActive(true)
+		slot0.listTF:GetChild(3).gameObject:SetActive(true)
 
-		slot6 = {
+		slot5 = {
 			3,
 			2,
 			1
 		}
-	elseif #slot4 == 2 then
-		slot1.listTF:GetChild(1).gameObject:SetActive(true)
-		slot1.listTF:GetChild(2).gameObject:SetActive(false)
-		slot1.listTF:GetChild(3).gameObject:SetActive(true)
+	elseif #slot3 == 2 then
+		slot0.listTF:GetChild(1).gameObject:SetActive(true)
+		slot0.listTF:GetChild(2).gameObject:SetActive(false)
+		slot0.listTF:GetChild(3).gameObject:SetActive(true)
 
-		slot6 = {
+		slot5 = {
 			3,
 			1
 		}
-	elseif #slot4 == 1 then
-		slot1.listTF:GetChild(1).gameObject:SetActive(false)
-		slot1.listTF:GetChild(2).gameObject:SetActive(true)
-		slot1.listTF:GetChild(3).gameObject:SetActive(false)
+	elseif #slot3 == 1 then
+		slot0.listTF:GetChild(1).gameObject:SetActive(false)
+		slot0.listTF:GetChild(2).gameObject:SetActive(true)
+		slot0.listTF:GetChild(3).gameObject:SetActive(false)
 
-		slot6 = {
+		slot5 = {
 			2
 		}
 	end
 
-	slot7 = false
+	slot6 = false
 
-	for slot11 = 1, #slot4 do
-		slot12 = slot1.listTF:GetChild(slot6[slot11])
-		slot13 = tostring(slot3[slot11] - 1)
+	for slot10 = 1, #slot3 do
+		slot11 = slot0.listTF:GetChild(slot5[slot10])
+		slot12 = tostring(slot2[slot10] - 1)
 
-		if slot3[slot11] - 1 ~= slot3[slot11 + 1] then
-			slot13 = tostring(slot3[slot11 + 1]) .. "-" .. slot13
+		if slot2[slot10] - 1 ~= slot2[slot10 + 1] then
+			slot12 = tostring(slot2[slot10 + 1]) .. "-" .. slot12
 		end
 
-		setText(slot12:Find("text"), slot13)
-		updateDrop(slot12:Find("award"), slot4[slot11], {
+		setText(slot11:Find("text"), slot12)
+		updateDrop(slot11:Find("award"), slot3[slot10], {
 			hideName = true
 		})
-		onButton(slot1, slot12:Find("award"), function ()
+		onButton(slot0, slot11:Find("award"), function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
 
-		slot7 = slot7 or slot3[slot11 + 1] <= slot5
+		slot6 = slot6 or slot2[slot10 + 1] <= slot4
 
-		setActive(slot12:Find("mask"), not (not slot7 and slot3[slot11 + 1] <= slot5))
+		setActive(slot11:Find("mask"), not (not slot6 and slot2[slot10 + 1] <= slot4))
 	end
 end
 
@@ -136,13 +136,7 @@ function slot0.UpdateRewardList(slot0, slot1)
 		end
 	end
 
-	slot0:UpdateList(slot0, slot3, slot4, slot5, slot1.BaseHP)
-end
-
-function slot0.OnDestroy(slot0)
-	if slot0.ParentView then
-		slot0.ParentView.winCondPanel = nil
-	end
+	slot0:UpdateList(slot3, slot4, slot5, slot1.BaseHP)
 end
 
 return slot0

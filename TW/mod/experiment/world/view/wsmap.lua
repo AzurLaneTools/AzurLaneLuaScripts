@@ -659,7 +659,7 @@ function slot0.DisplayMoveRange(slot0)
 	slot0.displayRangeLines = {}
 	slot3 = 0
 
-	for slot7, slot8 in ipairs(nowWorld:GetMoveRange(slot0.map:GetFleet())) do
+	for slot7, slot8 in ipairs(nowWorld():GetMoveRange(slot0.map:GetFleet())) do
 		setImageAlpha(slot0:GetQuad(slot8.row, slot8.column).rtWalkQuad, math.pow(0.75, slot8.stay and slot8.stay - 1 or 0))
 		setLocalScale(slot9.rtWalkQuad, Vector3.zero)
 

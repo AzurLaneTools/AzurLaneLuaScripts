@@ -192,7 +192,7 @@ function slot0.UpdatePort(slot0, slot1, slot2)
 end
 
 function slot0.UpdatePressingAward(slot0)
-	if nowWorld:GetPressingAward(slot0.entrance.id) then
+	if nowWorld():GetPressingAward(slot0.entrance.id) then
 		slot0:DoUpdateMark(pg.world_event_complete[slot1.id].map_icon, slot1.flag, slot0.tfMap)
 	end
 end

@@ -110324,7 +110324,9 @@ _G.pg.equip_data_template[26600] = {
 		}
 	},
 	restore_item = {},
-	upgrade_formula_id = {}
+	upgrade_formula_id = {
+		26600
+	}
 }
 
 _G.pg.equip_data_template[26601] = {
@@ -110917,7 +110919,9 @@ _G.pg.equip_data_template[26620] = {
 		}
 	},
 	restore_item = {},
-	upgrade_formula_id = {}
+	upgrade_formula_id = {
+		26620
+	}
 }
 
 _G.pg.equip_data_template[26621] = {
@@ -137955,7 +137959,9 @@ _G.pg.equip_data_template[34180] = {
 		}
 	},
 	restore_item = {},
-	upgrade_formula_id = {}
+	upgrade_formula_id = {
+		34180
+	}
 }
 
 _G.pg.equip_data_template[34181] = {
@@ -174224,7 +174230,9 @@ _G.pg.equip_data_template[43060] = {
 		}
 	},
 	restore_item = {},
-	upgrade_formula_id = {}
+	upgrade_formula_id = {
+		43060
+	}
 }
 
 _G.pg.equip_data_template[43061] = {

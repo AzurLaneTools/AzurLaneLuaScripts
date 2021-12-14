@@ -9,7 +9,7 @@ return {
 			actor = 205020,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Z9、Z11…铁血的驱逐舰还剩下6艘么。",
+			say = "Z9、Z11…鐵血的驅逐艦還剩下6艘嗎。",
 			dir = 1,
 			bgm = "level02",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚收到消息，铁血的所有岸防设施已经全部失去作战能力。",
+			say = "剛剛收到消息，鐵血的所有岸防設施已經全部失去作戰能力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊卡洛斯发来消息，在舰载机的辅助下，我方战胜了敌方驱逐舰Z13！",
+			say = "伊卡洛斯發來消息，在艦載機的輔助下，我方戰勝了敵方驅逐艦Z13！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z13么…铁血驱逐舰还剩下5艘。",
+			say = "Z13嗎…鐵血驅逐艦還剩下5艘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你好像有什么心事啊。",
+			say = "……妳好像有什麼心事啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看着Z驱战斗的身影，稍微想到了一些勇敢和猎人的事…",
+			say = "看著Z驅戰鬥的身影，稍微想到了一些勇敢和獵人的事…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱斯基摩人还是没有发来联络么？",
+			say = "愛斯基摩還是沒有發來聯絡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，在发来正在和伊卡洛斯共同追击Z19的消息之后就没有再联络了。",
+			say = "嗯，在發來正在和伊卡洛斯共同追擊Z19的消息之後就沒有再聯絡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊卡洛斯不是在刚对付Z13吗？我总有种不好的预感…",
+			say = "伊卡洛斯不是在剛對付Z13嗎？我總有種不好的預感…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主动呼叫爱斯基摩人，问问她那边情况怎么样了。",
+			say = "主動呼叫愛斯基摩，問問她那邊情況怎麼樣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

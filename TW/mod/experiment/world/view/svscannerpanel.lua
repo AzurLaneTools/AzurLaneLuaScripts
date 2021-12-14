@@ -253,7 +253,7 @@ function slot0.OnUpdate(slot0)
 		GetImageSpriteFromAtlasAsync("world/buff/" .. WorldBuff.GetTemplate(slot2.config.buff_id).icon, "", slot0.rtInfo:Find("Image"))
 		setText(slot0.rtInfo:Find("Text"), HXSet.hxLan(slot2.config.desc))
 	elseif slot2.type == WorldMapAttachment.TypePort then
-		slot6 = slot2.config.port_camp > 0 and slot9 ~= nowWorld:GetRealm()
+		slot6 = slot2.config.port_camp > 0 and slot9 ~= nowWorld():GetRealm()
 		slot7 = true
 
 		setActive(slot0.rtInfo:Find("Image"), false)
@@ -284,13 +284,10 @@ function slot0.OnUpdate(slot0)
 	setActive(slot0.rtMark, slot7 and slot6)
 	setActive(slot0.rtTitle:Find("red"), slot6)
 	setActive(slot0.rtTitle:Find("yellow"), not slot6)
+	setActive(slot0.rtRadiation, #slot2:GetRadiationBuffs() > 0)
 
-	slot10 = slot2:GetMapBuffs()[1]
-
-	setActive(slot0.rtRadiation, slot10)
-
-	if slot10 then
-		slot11, slot12, slot13 = unpack(slot10)
+	if #slot10 > 0 then
+		slot11, slot12, slot13 = unpack(slot10[1])
 
 		GetImageSpriteFromAtlasAsync("world/mapbuff/" .. pg.world_SLGbuff_data[slot12].icon, "", slot0.rtRadiation:Find("info/map_buff/Image"))
 		setText(slot0.rtRadiation:Find("info/Text"), i18n("world_mapbuff_tip"))

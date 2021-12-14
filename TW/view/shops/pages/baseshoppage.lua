@@ -84,17 +84,19 @@ end
 
 function slot0.OnClickCommodity(slot0, slot1, slot2)
 	function slot3(slot0, slot1)
-		if not slot0:canPurchase() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
+		slot2, slot3 = slot0:canPurchase()
+
+		if not slot2 then
+			pg.TipsMgr.GetInstance():ShowTips(slot3 or i18n("buy_countLimit"))
 
 			return false
 		end
 
-		slot2, slot3 = getPlayerOwn(slot0:getConfig("resource_category"), slot0:getConfig("resource_type"))
+		slot4, slot5 = getPlayerOwn(slot0:getConfig("resource_category"), slot0:getConfig("resource_type"))
 
-		if slot3 < slot0:getConfig("resource_num") * slot1 then
+		if slot5 < slot0:getConfig("resource_num") * slot1 then
 			if not ItemTipPanel.ShowItemTip(slot0:getConfig("resource_category"), slot0:getConfig("resource_type")) then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot2))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot4))
 			end
 
 			return false
@@ -118,10 +120,12 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 		end
 	end
 
-	if slot1:getConfig("num_limit") == 1 or slot1:getConfig("commodity_type") == 4 then
-		slot0.contextData.singleWindow:ExecuteAction("Open", slot1, slot4)
-	else
-		slot0.contextData.multiWindow:ExecuteAction("Open", slot1, slot4)
+	if slot0:CanOpenPurchaseWindow(slot1) then
+		if slot1:getConfig("num_limit") == 1 or slot1:getConfig("commodity_type") == 4 then
+			slot0.contextData.singleWindow:ExecuteAction("Open", slot1, slot4)
+		else
+			slot0.contextData.multiWindow:ExecuteAction("Open", slot1, slot4)
+		end
 	end
 end
 
@@ -184,6 +188,10 @@ function slot0.OnUpdatePlayer(slot0)
 end
 
 function slot0.OnUpdateItems(slot0)
+end
+
+function slot0.CanOpenPurchaseWindow(slot0, slot1)
+	return slot1:canPurchase()
 end
 
 return slot0

@@ -20854,6 +20854,283 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5661] = {
+		name = "所尋找的物品是？",
+		guild_coin_award = 0,
+		award = 5478,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1000,
+		desc = "提交3個《魚雷天婦羅》",
+		story_icon = "fusang",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		target_id = "50003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5662",
+		auto_commit = 0,
+		story_id = "FUSANG1",
+		target_id_for_client = 50003,
+		id = 5661,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5662] = {
+		name = "甜美的購物時光",
+		guild_coin_award = 0,
+		award = 5479,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 34,
+		desc = "強化任意角色10次",
+		story_icon = "fusang",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "FUSANG2",
+		target_id = "0",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5663",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 5662,
+		target_num = 10,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5663] = {
+		name = "不擅長發郵件？",
+		guild_coin_award = 0,
+		award = 5480,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 18,
+		desc = "扶桑上陣出擊(關卡)勝利20次",
+		story_icon = "fusang",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "FUSANG3",
+		target_id = "30501",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5664",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30501,
+		id = 5663,
+		target_num = 20,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5664] = {
+		name = "約定",
+		guild_coin_award = 0,
+		award = 5481,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 19,
+		desc = "扶桑上陣完成3次每日挑戰",
+		story_icon = "fusang",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "FUSANG4",
+		target_id = "30501",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5665",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30501,
+		id = 5664,
+		target_num = 3,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5665] = {
+		name = "保持笑容吧",
+		guild_coin_award = 0,
+		award = 5482,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1012,
+		desc = "扶桑好感度達到100",
+		story_icon = "fusang",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "FUSANG5",
+		target_id = "30501",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5666",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30501,
+		id = 5665,
+		target_num = 10000,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5666] = {
+		name = "失意之雨",
+		guild_coin_award = 0,
+		award = 5483,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 33,
+		desc = "扶桑突破至滿星",
+		story_icon = "fusang",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "FUSANG6",
+		target_id = "30501",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "5667",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30501,
+		id = 5666,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[5667] = {
+		name = "小小的幸福",
+		guild_coin_award = 0,
+		award = 5484,
+		type = 5,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1013,
+		desc = "扶桑等級達到100",
+		story_icon = "fusang",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "FUSANG7",
+		target_id = "30501",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 30501,
+		id = 5667,
+		target_num = 100,
+		fix_task = 0,
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				2
+			}
+		}
+	},
 	[5671] = {
 		name = "非常事態？！",
 		guild_coin_award = 0,
@@ -67247,6 +67524,246 @@ pg.task_data_template = {
 			"LEVEL"
 		}
 	},
+	[15730] = {
+		name = "『纳尔维克下篇』通关SP1",
+		guild_coin_award = 0,
+		award = 93340,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP1",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1370001",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "15731",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1370001,
+		id = 15730,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[15731] = {
+		name = "『纳尔维克下篇』通关SP2",
+		guild_coin_award = 0,
+		award = 93341,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP2",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1370002",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "15732",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1370002,
+		id = 15731,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[15732] = {
+		name = "『纳尔维克下篇』通关SP3",
+		guild_coin_award = 0,
+		award = 93342,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1020,
+		desc = "通關SP3",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1370003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1370003,
+		id = 15732,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[15733] = {
+		name = "『纳尔维克下篇』SP1的三星",
+		guild_coin_award = 0,
+		award = 93343,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成SP1的3星收集",
+		story_icon = "",
+		is_head = 1,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1370001",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "15734",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1370001,
+		id = 15733,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15734] = {
+		name = "『纳尔维克下篇』SP2的三星",
+		guild_coin_award = 0,
+		award = 93344,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成SP2的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1370002",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "15735",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1370002,
+		id = 15734,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15735] = {
+		name = "『纳尔维克下篇』SP3的三星",
+		guild_coin_award = 0,
+		award = 93345,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		sub_type = 1021,
+		desc = "完成SP3的3星收集",
+		story_icon = "",
+		is_head = 0,
+		award_choice = "",
+		visibility = 1,
+		story_id = "",
+		target_id = "1370003",
+		quick_finish = 0,
+		level = 1,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 1370003,
+		id = 15735,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
 	[15736] = {
 		name = "克雷文皮肤任务复刻1",
 		guild_coin_award = 0,
@@ -98553,6 +99070,13 @@ pg.task_data_template = {
 		5645,
 		5646,
 		5647,
+		5661,
+		5662,
+		5663,
+		5664,
+		5665,
+		5666,
+		5667,
 		5671,
 		5672,
 		5673,
@@ -99773,6 +100297,12 @@ pg.task_data_template = {
 		15720,
 		15721,
 		15722,
+		15730,
+		15731,
+		15732,
+		15733,
+		15734,
+		15735,
 		15736,
 		15737,
 		15738,

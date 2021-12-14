@@ -162133,6 +162133,382 @@ _G.pg.aircraft_template[2031020] = {
 	}
 }
 
+_G.pg.aircraft_template[2032010] = {
+	attack_power = 2,
+	name = "【大世界】第五章剧情_友方支援_航空支援飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "XSB3C1",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 2032010,
+	icon = "XSB3C1",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 32,
+	max_hp = 5000,
+	scale = 0.85,
+	weapon_ID = {
+		2032011,
+		2032012
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[2032100] = {
+	attack_power = 2,
+	name = "【大世界】第五章剧情_5-6剧情战_黑方舟支援飞机1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "alter_plane2",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 2032100,
+	icon = "alter_plane2",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 36,
+	max_hp = 5000,
+	scale = 0.85,
+	weapon_ID = {
+		2032101
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[2032120] = {
+	attack_power = 2,
+	name = "【大世界】第五章剧情_5-6剧情战_企业支援飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "XSB3C1",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 2032120,
+	icon = "XSB3C1",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 36,
+	max_hp = 5000,
+	scale = 0.85,
+	weapon_ID = {
+		2032121
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[2032130] = {
+	attack_power = 2,
+	name = "【大世界】第五章剧情_5-6剧情战_黑飞龙支援飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "alter_plane2",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 2032130,
+	icon = "alter_plane2",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 36,
+	max_hp = 5000,
+	scale = 0.85,
+	weapon_ID = {
+		2032101
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[2032150] = {
+	attack_power = 2,
+	name = "【大世界】第五章剧情_5-6剧情战_黑方舟支援飞机1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "alter_plane2",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 2032150,
+	icon = "alter_plane2",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 36,
+	max_hp = 5000,
+	scale = 0.85,
+	weapon_ID = {
+		2032151
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.aircraft_template[2044100] = {
 	attack_power = 2,
 	name = "【大世界】深渊BOSS航母_p2_环绕浮游炮形态1",
@@ -170212,6 +170588,462 @@ _G.pg.aircraft_template[2200924] = {
 		},
 		{
 			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[2201000] = {
+	attack_power = 2,
+	name = "【大世界】仲裁机关_塞壬战斗机lv1",
+	type = 1,
+	accuracy = 40,
+	model_ID = "zhongcai_plane1",
+	ACC_growth = 0,
+	crash_DMG = 240,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 2201000,
+	icon = "zhongcai_plane1",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 4800,
+	speed = 32,
+	max_hp = 240,
+	scale = 0.75,
+	weapon_ID = {
+		1000850,
+		1000855
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[2201001] = {
+	attack_power = 2,
+	name = "【大世界】仲裁机关_塞壬战斗机lv2",
+	type = 1,
+	accuracy = 40,
+	model_ID = "zhongcai_plane1",
+	ACC_growth = 0,
+	crash_DMG = 270,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 2201001,
+	icon = "zhongcai_plane1",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 6400,
+	speed = 32,
+	max_hp = 320,
+	scale = 0.75,
+	weapon_ID = {
+		1000850,
+		1000855
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[2201002] = {
+	attack_power = 2,
+	name = "【大世界】仲裁机关_塞壬战斗机lv3",
+	type = 1,
+	accuracy = 40,
+	model_ID = "zhongcai_plane1",
+	ACC_growth = 0,
+	crash_DMG = 300,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 2201002,
+	icon = "zhongcai_plane1",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 8000,
+	speed = 32,
+	max_hp = 400,
+	scale = 0.75,
+	weapon_ID = {
+		1000850,
+		1000855
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[2201010] = {
+	attack_power = 2,
+	name = "【大世界】仲裁机关_塞壬鱼雷机lv1",
+	type = 1,
+	accuracy = 40,
+	model_ID = "zhongcai_plane2",
+	ACC_growth = 0,
+	crash_DMG = 288,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 2201010,
+	icon = "zhongcai_plane2",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5040,
+	speed = 28,
+	max_hp = 252,
+	scale = 0.75,
+	weapon_ID = {
+		1000850,
+		1000855
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[2201011] = {
+	attack_power = 2,
+	name = "【大世界】仲裁机关_塞壬鱼雷机lv2",
+	type = 1,
+	accuracy = 40,
+	model_ID = "zhongcai_plane2",
+	ACC_growth = 0,
+	crash_DMG = 324,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 2201011,
+	icon = "zhongcai_plane2",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 6720,
+	speed = 28,
+	max_hp = 336,
+	scale = 0.75,
+	weapon_ID = {
+		1000850,
+		1000855
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.aircraft_template[2201012] = {
+	attack_power = 2,
+	name = "【大世界】仲裁机关_塞壬鱼雷机lv3",
+	type = 1,
+	accuracy = 40,
+	model_ID = "zhongcai_plane2",
+	ACC_growth = 0,
+	crash_DMG = 360,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 2201012,
+	icon = "zhongcai_plane2",
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 8400,
+	speed = 28,
+	max_hp = 420,
+	scale = 0.75,
+	weapon_ID = {
+		1000850,
+		1000855
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
 			0,
 			0
 		},

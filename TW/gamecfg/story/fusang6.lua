@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"在樱花纷飞的那天之后\n\n<size=45>六  失意之雨</size>",
+					"在櫻花紛飛的那天之後\n\n<size=45>六  失意之雨</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "到了傍晚时，外面已是狂风暴雨，纷乱的雨点敲打着指挥室窗上的玻璃。",
+			say = "到了傍晚時，外面已是狂風暴雨，紛亂的雨點敲打著指揮室窗上的玻璃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来明天的约会要泡汤了……",
+			say = "看來明天的約會要泡湯了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——指挥官，打扰了。",
+			say = "——指揮官，打擾了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指挥室响起了敲门声，然后{namecode:57}走了进来。",
+			say = "指揮室響起了敲門聲，然後最上走了進來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我把最近的天气数据图表打印了出来，接下来的两三天内港区都会被暴风雨笼罩。",
+			say = "我把最近的天氣數據圖表列印了出來，接下來的兩三天內港區都會被暴風雨籠罩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，{namecode:57}？",
+			say = "怎麼了，最上？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……我在想……会不会是因为我查了数据，暴风雨才会……",
+			say = "嗯……我在想……會不會是因為我查了數據，暴風雨才會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么会呢。{namecode:57}拿来的天气图帮了很多忙哦，谢谢你。",
+			say = "怎麼會呢。最上拿來的天氣圖幫了很多忙哦，謝謝妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个……下次能帮我驱邪吗？",
+			say = "那個……下次能幫我驅邪嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎……如果你希望的话当然可以。不过我觉得没有必要哦？",
+			say = "哎……如果妳希望的話當然可以。不過我覺得沒有必要哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我果然还是想拜托你一次……那我先告辞了，不能让{namecode:58}等我太久。",
+			say = "我果然還是想拜託妳一次……那我先告辭了，不能讓三隈等我太久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "目送着{namecode:57}离开，{namecode:78}略显疲惫地叹了口气。",
+			say = "目送著最上離開，扶桑略顯疲憊地嘆了口氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这场暴风雨……说不定把樱花都吹落了。",
+			say = "這場暴風雨……說不定把櫻花都吹落了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明我每天都在祈祷，结果还是发生了这种不幸之事……",
+			say = "明明我每天都在祈禱，結果還是發生了這種不幸之事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果……我不是这种不幸体质的话——",
+			say = "如果……我不是這種不幸體質的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,23 +332,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "话音刚落，{namecode:78}突然轻轻地摇了摇头，恢复精神露出了笑容。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "说起来，殿下，我带了亲手做的大福来配茶哦。",
+			say = "話音剛落，扶桑突然輕輕地搖了搖頭，恢復精神露出了笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +348,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不仅给{namecode:157}她们，也给指殿下准备了一份呢。不知殿下…还记得我之前说的吗？",
+			say = "說起來，殿下，我帶了親手做的大福來配茶哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,22 +364,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来，请张开嘴。啊——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "虽然有些害羞，但还是照着{namecode:78}说的张开了嘴。{namecode:78}亲手做的美味大福就这样进入了口中。",
+			say = "不僅給春月她們，也給指揮官殿下準備了一份呢。不知殿下…還記得我之前說的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +380,22 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，就算没能一起赏樱，只要做到这个我就已经觉得很满足了……",
+			say = "來，請張開嘴。啊——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "雖然有些害羞，但還是照著扶桑說的張開了嘴。扶桑親手做的美味大福就這樣進入了口中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +411,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的，这样就已经很幸福了…",
+			say = "呵呵，就算沒能一起賞櫻，只要做到這個我就已經覺得很滿足了……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "真的，這樣就已經很幸福了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "也许是{namecode:78}的话和窗外的雨声混在一起了吧，整个房间里弥漫着一股朦胧湿润的气息。",
+			say = "也許是扶桑的話和窗外的雨聲混在一起了吧，整個房間裡瀰漫著一股朦朧濕潤的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

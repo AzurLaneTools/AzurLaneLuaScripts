@@ -2509,6 +2509,24 @@ pg.fleet_tech_ship_template = {
 			1
 		}
 	},
+	[20132] = {
+		max_star = 5,
+		id = 20132,
+		pt_get = 6,
+		pt_upgrage = 12,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 20112,
+		pt_level = 9,
+		add_get_value = 1,
+		add_level_attr = 2,
+		add_get_shiptype = {
+			1
+		},
+		add_level_shiptype = {
+			1
+		}
+	},
 	[20133] = {
 		max_star = 5,
 		id = 20133,
@@ -7581,6 +7599,7 @@ pg.fleet_tech_ship_template = {
 		20126,
 		20127,
 		20129,
+		20132,
 		20133,
 		20201,
 		20202,

@@ -18,5 +18,6 @@ LayerWeightConst = {
 	GROUP_FORMATION_PAGE = "group_FormationPage",
 	GROUP_BOSSINFORMATION = "group_bossInformation",
 	GROUP_COLLECTION = "group_collection",
-	GROUP_META = "group_meta"
+	GROUP_META = "group_meta",
+	GROUP_DAILY = "group_daily"
 }

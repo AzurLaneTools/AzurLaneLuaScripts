@@ -11,7 +11,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结果还是让她给跑了，呜………",
+			say = "結果還是讓她給跑了，嗚………",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，不要看到敌人就冲过去呀…你没事吧，爱斯基摩人？",
+			say = "真是的，不要看到敵人就衝過去呀…妳沒事吧，愛斯基摩？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			actor = 201320,
 			dir = 1,
-			say = "没事没事~对方好像弹药不足，主要精力都放在逃跑上啦~",
+			say = "沒事沒事~對方好像彈藥不足，主要精力都放在逃跑上啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来怎么办，狐提要来和我一起追击么？",
+			say = "接下來怎麼辦，狐提要來和我一起追擊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的任务可是占领纳尔维克哦？",
+			say = "我們的任務可是佔領納爾維克哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗，好啦，就知道会变成这样。我还要返回厌战那里护航，不过她已经批准了你的追击行动了哦。",
+			say = "噗，好啦，就知道會變成這樣。我還要返回厭戰那裡護航，不過她已經批准了妳的追擊行動了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎！？真的么！",
+			say = "哎！？真的嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“量力而行，遇到危险就发信号”她让我这么转告你。",
+			say = "“量力而行，遇到危險就發訊號”她讓我這麼轉告妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，爱斯基摩人收到~",
+			say = "嘿嘿嘿，愛斯基摩收到~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

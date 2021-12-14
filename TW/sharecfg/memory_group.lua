@@ -1359,6 +1359,28 @@ pg.memory_group = {
 			1264
 		}
 	},
+	[187] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 187,
+		title = "峽灣間的反擊",
+		memories = {
+			1265,
+			1266,
+			1267,
+			1268,
+			1269,
+			1270,
+			1271,
+			1272,
+			1273,
+			1274,
+			1275,
+			1276,
+			1277
+		}
+	},
 	[188] = {
 		icon = "title_event",
 		subtype = 1,
@@ -2510,6 +2532,22 @@ pg.memory_group = {
 			1722
 		}
 	},
+	[564] = {
+		icon = "title_chara_fusang",
+		subtype = 0,
+		type = 3,
+		id = 564,
+		title = "在櫻花紛飛的那天之後",
+		memories = {
+			1736,
+			1737,
+			1738,
+			1739,
+			1740,
+			1741,
+			1742
+		}
+	},
 	[570] = {
 		icon = "title_chara_junhe",
 		subtype = 0,
@@ -2600,6 +2638,7 @@ pg.memory_group = {
 		184,
 		185,
 		186,
+		187,
 		188,
 		189,
 		190,
@@ -2665,6 +2704,7 @@ pg.memory_group = {
 		559,
 		561,
 		562,
+		564,
 		570
 	}
 }

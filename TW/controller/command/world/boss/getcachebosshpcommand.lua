@@ -3,7 +3,7 @@ slot0 = class("GetCacheBossHpCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody().callback
 
-	if not nowWorld:GetBossProxy():GetCacheBossList() or #slot6 == 0 then
+	if not nowWorld():GetBossProxy():GetCacheBossList() or #slot6 == 0 then
 		if slot3 then
 			slot3()
 		end

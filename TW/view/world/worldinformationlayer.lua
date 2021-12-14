@@ -98,12 +98,6 @@ function slot0.willExit(slot0)
 	slot0.wsWorldInfo:Dispose()
 end
 
-function slot0.onBackPressed(slot0)
-	if not pg.m02:retrieveMediator(WorldMediator.__cname).viewComponent:CheckMarkOverallClose() then
-		triggerButton(slot0.btnClose)
-	end
-end
-
 function slot0.setWorldTaskProxy(slot0, slot1)
 	slot0.taskProxy = slot1
 
@@ -158,6 +152,7 @@ function slot0.UpdateTaskTpl(slot0, slot1, slot2)
 
 	onButton(slot0, slot7, function ()
 		uv0:emit(WorldInformationMediator.OnTaskGoto, uv1.id)
+		uv0:closeView()
 	end, SFX_PANEL)
 	setButtonEnabled(slot7, tobool(slot2:GetFollowingAreaId() or slot2:GetFollowingEntrance()))
 	onButton(slot0, slot3:Find("btn_get"), function ()

@@ -27,6 +27,35 @@ function slot0.register(slot0)
 	end)
 end
 
+function slot0.GetPools(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1)) do
+		if slot7 and not slot7:isEnd() then
+			table.insert(slot1, BuildShipActivityPool.New({
+				activityId = slot7.id,
+				id = slot7:getConfig("config_id"),
+				mark = BuildShipPool.BUILD_POOL_MARK_NEW
+			}))
+		end
+	end
+
+	table.insert(slot1, BuildShipPool.New({
+		id = 2,
+		mark = BuildShipPool.BUILD_POOL_MARK_LIGHT
+	}))
+	table.insert(slot1, BuildShipPool.New({
+		id = 3,
+		mark = BuildShipPool.BUILD_POOL_MARK_HEAVY
+	}))
+	table.insert(slot1, BuildShipPool.New({
+		id = 1,
+		mark = BuildShipPool.BUILD_POOL_MARK_SPECIAL
+	}))
+
+	return slot1
+end
+
 function slot0.updateExchangeList(slot0, slot1, slot2, slot3)
 	slot0.exchangeFlagShipFlashTime = slot1
 	slot0.exchangeFlashTime = slot2

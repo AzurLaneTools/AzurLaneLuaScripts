@@ -355,6 +355,7 @@ function slot0.RegistSkipBtn(slot0)
 
 		if uv0.storyScript:GetAutoPlayFlag() then
 			uv0.storyScript:StopAutoPlay()
+			uv0.currPlayer:InterruptAutoPlay()
 			uv0:UpdateAutoBtn()
 		end
 

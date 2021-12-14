@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"在樱花纷飞的那天之后\n\n<size=45>三  不擅长发邮件？</size>",
+					"在櫻花紛飛的那天之後\n\n<size=45>三  不擅長發郵件？</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和{namecode:78}去商店的第二天，像往常一样在指挥室工作时，突然收到了一封邮件。",
+			say = "和扶桑去商店的第二天，像往常一樣在指揮室工作時，突然收到了一封郵件。",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -52,11 +52,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "邮件",
+			actorName = "郵件",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「您有空吗？」",
+			say = "「您有空嗎？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "内容就只有这些，发件人显示的还是“匿名”——这时又收到了第二封邮件。",
+			say = "內容就只有這些，發件人顯示的還是“匿名”——這時又收到了第二封郵件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,58 +83,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "邮件",
+			actorName = "郵件",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「我马上就到」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "这是要来指挥室的意思么……总之先让这位匿名的发信人说清楚自己究竟是谁——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "邮件",
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "「我在喷泉前面」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "邮件",
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "「我到楼里了」",
+			say = "「我馬上就到」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +102,39 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "又收到两封邮件…看样子对方离自己越来越近了。",
+			say = "這是要來指揮室的意思嗎……總之先讓這位匿名的發信人說清楚自己究竟是誰——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "郵件",
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "「我在噴泉前面」",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "郵件",
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "「我到大樓裡了」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,23 +149,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "最后该不会像鬼故事一样来一句“我就在你身后”吧…？这么想的瞬间，再次收到了一封邮件。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "邮件",
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "「我在指挥室门口」",
+			say = "又收到兩封郵件…看樣子對方離自己越來越近了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +164,23 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "读完这封邮件的同时，指挥室的门被敲响了。",
+			say = "最後該不會像鬼故事一樣來一句“我就在你身後”吧…？這麼想的瞬間，再次收到了一封郵件。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "郵件",
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "「我在指揮室門口」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +195,22 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "小心翼翼的来到门前，慢慢的打开门——",
+			say = "讀完這封郵件的同時，指揮室的門被敲響了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "小心翼翼的來到門前，慢慢的打開門——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……对、对不起殿下。本来想用邮件跟您讨论一下补给仓库的事情，但是打字实在是有些难…",
+			say = "……對、對不起殿下。本來想用郵件跟您討論一下補給倉庫的事情，但是打字實在是有些難…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "智能手机真的好难用……发邮件时也不知道为什么就变成“隐私模式”了…",
+			say = "智慧型手機真的好難用……發郵件時也不知道為什麼就變成“隱私模式”了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我一直都不擅长应付电子设备之类的……怎么了殿下？看您好像松了口气的样子……？",
+			say = "我一直都不擅長應付電子設備之類的……怎麼了殿下？看您好像鬆了口氣的樣子……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,23 +283,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:78}不解地望了过来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "总之，我想带您去看之前提到的那片空地，殿下您现在有空吗？",
+			say = "扶桑不解地望了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +299,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果可以的话，请跟我来吧。",
+			say = "總之，我想帶您去看之前提到的那片空地，殿下您現在有空嗎？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "如果可以的話，請跟我來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "跟着{namecode:78}走出办公室之后，先前的紧张感终于消失了……",
+			say = "跟著扶桑走出辦公室之後，先前的緊張感終於消失了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "得好好教一下她怎么发邮件才行，这种事情再来几次的话对心脏可不好……",
+			say = "得好好教一下她怎麼發郵件才行，這種事情再來幾次的話對心臟可不好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

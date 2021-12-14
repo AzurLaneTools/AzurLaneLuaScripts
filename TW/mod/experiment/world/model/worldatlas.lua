@@ -36,6 +36,15 @@ slot0.Scales = {
 	slot0.ScaleFull
 }
 
+function slot0.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0)
+
+	slot0.id = slot1
+	slot0.config = pg.world_expedition_data_by_map[slot0.id]
+
+	slot0:BuildEntranceDic()
+end
+
 function slot0.Build(slot0)
 	slot0.entranceDic = {}
 	slot0.mapDic = {}
@@ -52,13 +61,6 @@ function slot0.Dispose(slot0)
 	WPool:ReturnMap(slot0.entranceDic)
 	WPool:ReturnMap(slot0.mapDic)
 	slot0:Clear()
-end
-
-function slot0.Setup(slot0, slot1)
-	slot0.id = slot1
-	slot0.config = pg.world_expedition_data_by_map[slot0.id]
-
-	slot0:BuildEntranceDic()
 end
 
 function slot0.NewEntrance(slot0, slot1)
@@ -208,7 +210,7 @@ function slot0.GetAchEntranceList(slot0)
 end
 
 function slot0.GetOpenEntranceDic(slot0, slot1)
-	return slot0.replaceDic.open[nowWorld:GetRealm()][slot1] or {}
+	return slot0.replaceDic.open[nowWorld():GetRealm()][slot1] or {}
 end
 
 function slot0.GetStepDic(slot0, slot1)
@@ -257,9 +259,12 @@ function slot0.UpdateProgress(slot0, slot1, slot2)
 end
 
 function slot0.UpdateTask(slot0, slot1)
-	slot2 = slot1:getState() == WorldTask.STATE_ONGOING
-	slot3 = (slot2 and 1 or 0) - (slot0.taskMarkDic[slot1.id] and 1 or 0)
 	slot0.taskMarkDic[slot1.id] = slot2
+
+	if (slot1:isAlive() and 1 or 0) - (slot0.taskMarkDic[slot1.id] and 1 or 0) == 0 then
+		return
+	end
+
 	slot7 = slot1.id
 
 	for slot7 in pairs(slot0:GetTaskDic(slot7)) do
@@ -270,9 +275,7 @@ function slot0.UpdateTask(slot0, slot1)
 		end
 	end
 
-	slot4 = slot1:GetFollowingEntrance()
-
-	if slot3 ~= 0 and slot4 then
+	if slot1:GetFollowingEntrance() then
 		if slot1.config.type == 0 then
 			slot0.entranceDic[slot4]:UpdateDisplayMarks("task_following_main", slot3 > 0)
 		else
@@ -284,7 +287,7 @@ end
 function slot0.UpdateTreasure(slot0, slot1)
 	slot0.treasureMarkDic[slot1] = slot4 > 0
 
-	if (nowWorld:GetInventoryProxy():GetItemCount(slot1) > 0 and 1 or 0) - (slot0.treasureMarkDic[slot1] and 1 or 0) ~= 0 then
+	if (nowWorld():GetInventoryProxy():GetItemCount(slot1) > 0 and 1 or 0) - (slot0.treasureMarkDic[slot1] and 1 or 0) ~= 0 then
 		slot6 = slot2:FindTreasureEntrance(slot1)
 
 		if pg.world_item_data_template[slot1].usage_arg[1] == 1 then
@@ -321,7 +324,7 @@ function slot0.BuildTransportDic(slot0)
 		end
 	end
 
-	if nowWorld:IsReseted() then
+	if nowWorld():IsReseted() then
 		slot0:AddPortTransportDic()
 	end
 end
@@ -410,7 +413,7 @@ end
 
 function slot0.UpdateCostMap(slot0, slot1, slot2)
 	if not slot0.costMapDic[slot1] and slot2 then
-		nowWorld:ClearAllFleetDefeatEnemies()
+		nowWorld():ClearAllFleetDefeatEnemies()
 	end
 
 	slot0.costMapDic[slot1] = slot2

@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgm = "level02",
 			dir = 1,
-			say = "唔…Z9和Z11一直跟着我们后面，Z17来了，那边的是Z12……Z19还是没到。",
+			say = "唔…Z9和Z11一直跟著我們後面，Z17來了，那邊的是Z12……Z19還是沒到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "撤退命令已经发出去半小时了，Z19还是没来么…",
+			say = "撤退命令已經發出去半小時了，Z19還是沒來嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "明明之前和厌战交战的时候还和我们在一起，难道说那时候通讯设备被打坏了么！",
+			say = "明明之前和厭戰交戰的時候還和我們在一起，難道說那時候通訊設備被打壞了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			actor = 401020,
 			dir = 1,
-			say = "……这样的话她可能根本就没收到撤退的命令。",
+			say = "……這樣的話她可能根本就沒收到撤退的命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			actor = 401020,
 			dir = 1,
-			say = "我们的弹药已经快要见底，这下麻烦了呢…",
+			say = "我們的彈藥已經快要見底，這下麻煩了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

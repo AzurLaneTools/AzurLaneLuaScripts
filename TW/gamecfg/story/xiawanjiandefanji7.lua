@@ -11,7 +11,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "铁血的驱逐舰，追上了…哎？！数量变多了！",
+			say = "鐵血的驅逐艦，追上了…哎？！數量變多了！",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰-------------！",
+			say = "轟-------------！",
 			flashN = {
 				color = {
 					1,
@@ -89,7 +89,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊，一声不吭的打过来了！",
+			say = "哇啊啊，一聲不吭的打過來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "爱、爱斯基摩人，准备进行战斗！",
+			say = "愛、愛斯基摩，準備進行戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

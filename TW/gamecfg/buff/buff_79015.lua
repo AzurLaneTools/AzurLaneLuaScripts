@@ -26,7 +26,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageGetRatioByCannon",
+				attr = "injureRatioByCannon",
 				number = -0.15
 			}
 		}

@@ -1529,8 +1529,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[152] = {
@@ -1550,8 +1550,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[153] = {
@@ -1571,8 +1571,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[154] = {
@@ -1592,8 +1592,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			100,
-			100
+			200,
+			200
 		}
 	},
 	[155] = {
@@ -1613,8 +1613,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[156] = {
@@ -1634,8 +1634,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[157] = {
@@ -1655,8 +1655,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[158] = {
@@ -1676,8 +1676,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[159] = {
@@ -1697,8 +1697,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[200] = {
@@ -5654,8 +5654,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1152] = {
@@ -5675,8 +5675,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1153] = {
@@ -5696,8 +5696,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1154] = {
@@ -5738,8 +5738,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1156] = {
@@ -5759,8 +5759,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1157] = {
@@ -5780,8 +5780,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1158] = {
@@ -5801,8 +5801,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1159] = {
@@ -5822,8 +5822,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[20001] = {
@@ -8898,6 +8898,27 @@ pg.world_chapter_random = {
 			0
 		}
 	},
+	[40000] = {
+		entrance_ui = 2,
+		name = "蟲洞",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 40000,
+		hazard_level = 7,
+		entrance_mapicon = "daxuanwo",
+		template_id = {
+			{
+				400000,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
 	all = {
 		1,
 		2,
@@ -9262,6 +9283,7 @@ pg.world_chapter_random = {
 		89014,
 		89015,
 		89016,
-		89017
+		89017,
+		40000
 	}
 }

@@ -9,7 +9,7 @@ return {
 			actor = 401020,
 			side = 2,
 			nameColor = "#ff5c5c",
-			say = "真是棘手…皇家的增援火力稍微有点超乎想象呢。",
+			say = "真是棘手…皇家的增援火力稍微有點超乎想像呢。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔…Z2，我觉得这已经不是稍微有些超乎想象的问题了。",
+			say = "唔…Z2，我覺得這已經不是稍微有些超乎想像的問題了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "战列舰厌战、航空母舰暴怒。光是这两艘舰船就不是我们能够对付的了。",
+			say = "戰列艦厭戰、航空母艦暴怒。光是這兩艘艦船就不是我們能夠對付的了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "再加上她们还有其他驱逐舰护航…",
+			say = "再加上她們還有其他驅逐艦護航…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "果然这种情况就连Z18也笑不出来了么。",
+			say = "果然這種情況就連Z18也笑不出來了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "什么呀！把人家说的像是只会笑的笨蛋一样…",
+			say = "什麼呀！把人家說的像是只會笑的笨蛋一樣…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z11，Z21，Z22两天前就失去了战斗能力。",
+			say = "Z11，Z21，Z22兩天前就失去了戰鬥能力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "刚刚Z13的埋伏又失败了…情况可能真的有点危险了啊。",
+			say = "剛剛Z13的埋伏又失敗了…情況可能真的有點危險了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哎，Z2，你怎么忽然摸我的头？",
+			say = "哎，Z2，妳怎麼忽然摸我的頭？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "只是想这么做。",
+			say = "只是想這麼做。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "要是Z1在的话，这种时候应该能给大家打气吧。我不像Z1那么阳光，就只能做这种事了。",
+			say = "要是Z1在的話，這種時候應該能給大家打氣吧。我不像Z1那麼陽光，就只能做這種事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……谢谢~没事的，这又不是Z2的错，而且我觉得Z2已经做得很好啦~",
+			say = "……謝謝~沒事的，這又不是Z2的錯，而且我覺得Z2已經做得很好啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯嗯~既然从Z2那里获得了温暖的能量，我也能继续笑得出来啦！",
+			say = "嗯嗯~既然從Z2那裡獲得了溫暖的能量，我也能繼續笑得出來啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "我还是小看你了…",
+			say = "我還是小看妳了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嘿嘿，笑容可是解除恐惧的解药哦~Z2也来笑一个吧~",
+			say = "嘿嘿，笑容可是解除恐懼的解藥哦~Z2也來笑一個吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "嗯…我也要打起精神来了。",
+			say = "嗯…我也要打起精神來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "大家按照命令，准备撤退。",
+			say = "大家按照命令，準備撤退。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

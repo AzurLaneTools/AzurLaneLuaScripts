@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgm = "level02",
 			dir = 1,
-			say = "Z19！终于找到你了……你怎么受了这么重的伤！",
+			say = "Z19！終於找到妳了……妳怎麼受了這麼重的傷！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "是Z18啊…刚才在躲避爱斯基摩人追击的时候，被伊卡洛斯打中了几炮。",
+			say = "是Z18啊…剛才在躲避愛斯基摩追擊的時候，被伊卡洛斯打中了幾炮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "小心点，她们现在还在附近…其他人还好么？",
+			say = "小心點，她們現在還在附近…其他人還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "姑且还算好吧…Z2还在寻找撤退的路线。不过到处都是皇家海军，我们的弹药又快打光了…",
+			say = "姑且還算好吧…Z2還在尋找撤退的路線。不過到處都是皇家海軍，我們的彈藥又快打光了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "这样啊…我来拖住皇家的追兵，你快回去和Z2汇合，然后和大家一起撤退吧。",
+			say = "這樣啊…我來拖住皇家的追兵，妳快回去和Z2匯合，然後和大家一起撤退吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你在说什么话呀？！明明好不容易才找到你的…",
+			say = "妳在說什麼話呀？！明明好不容易才找到妳的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "动力系统受损，我已经跑不出皇家的包围网了…",
+			say = "動力系統受損，我已經跑不出皇家的包圍網了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "那就让我和你一起战斗，我是绝对不会抛弃你的！",
+			say = "那就讓我和妳一起戰鬥，我是絕對不會拋棄妳的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 1,
 			bgm = "level02",
 			dir = 1,
-			say = "联系到她了！爱斯基摩人遭遇了铁血驱逐主力，现在正在战斗中，希望我们迅速支援！！",
+			say = "聯繫到她了！愛斯基摩遭遇了鐵血驅逐主力，現在正在戰鬥中，希望我們迅速支援！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "铁血驱逐主力？！难道说瞄准了落单的爱斯基摩人去的么……",
+			say = "鐵血驅逐主力？！難道說瞄準了落單的愛斯基摩去的嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……能够确定方位么？",
+			say = "……能夠確定方位嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在洛姆巴科斯峡湾之中。",
+			say = "在羅姆巴斯科巴頓峽灣之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "调整航线，我们立刻出发！",
+			say = "調整航線，我們立刻出發！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

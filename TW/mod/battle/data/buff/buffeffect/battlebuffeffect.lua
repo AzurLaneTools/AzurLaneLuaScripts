@@ -210,7 +210,11 @@ function slot2.onTorpedoWeaponFire(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
-function slot2.onAntiAirWeaponFire(slot0, slot1, slot2, slot3)
+function slot2.onAntiAirWeaponFireFar(slot0, slot1, slot2, slot3)
+	slot0:onFire(slot1, slot2, slot3)
+end
+
+function slot2.onAntiAirWeaponFireNear(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
@@ -396,10 +400,6 @@ function slot2.onChargeWeaponBulletCreate(slot0, slot1, slot2, slot3)
 end
 
 function slot2.onTorpedoWeaponBulletCreate(slot0, slot1, slot2, slot3)
-	slot0:onBulletCreate(slot1, slot2, slot3)
-end
-
-function slot2.onAntiAirWeaponBulletCreate(slot0, slot1, slot2, slot3)
 	slot0:onBulletCreate(slot1, slot2, slot3)
 end
 

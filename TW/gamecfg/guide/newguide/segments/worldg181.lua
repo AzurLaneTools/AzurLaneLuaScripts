@@ -7,7 +7,7 @@ return {
 				"clickBtn"
 			},
 			style = {
-				text = "點擊打開儲物倉。",
+				text = "點擊打開儲物艙。",
 				mode = 2,
 				posY = -229.8,
 				char = "1",

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"在樱花纷飞的那天之后\n\n<size=45>四  约定</size>",
+					"在櫻花紛飛的那天之後\n\n<size=45>四  約定</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "「现在正带着殿下去空地」……殿下，这样发就好了吗？",
+			say = "「現在正帶著殿下去空地」……殿下，這樣發就好了嗎？",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -56,7 +56,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "在去空地的路上教了她如何发电子邮件。现在的{namecode:78}似乎已经能写出一封正常的邮件了。",
+			say = "在去空地的路上教了她如何發電子郵件。現在的扶桑似乎已經能寫出一封正常的郵件了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就发给{namecode:79}了——她应该已经收到了吧……",
+			say = "那就發給山城了——她應該已經收到了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前落下钱包的时候也是，我总是在给殿下添麻烦……",
+			say = "之前落下錢包的時候也是，我總是在給殿下添麻煩……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有没有什么能回报殿下的呢——",
+			say = "有沒有什麼能回報殿下的呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "{namecode:78}突然停住脚步，抬头望向了远方。",
+			say = "扶桑突然停住腳步，抬頭望向了遠方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,23 +134,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "顺着{namecode:78}的视线看去——映入眼帘的是神社后山盛放的樱花。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305010,
-			side = 2,
-			bgName = "bg_main_day",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "确实到了樱花盛开的季节呢。",
+			say = "順著扶桑的視線看去——映入眼簾的是神社後山盛放的櫻花。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,22 +150,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那一片是散步的好去处，漫步在茂盛的樱花下可是不可多得的享受哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_main_day",
-			dir = 1,
-			say = "边走边聊，不知不觉抵达了目的地。闲置的空地就在神社入口处鸟居的旁边。",
+			say = "確實到了櫻花盛開的季節呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +166,38 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么样？建补给仓库的话，这么一大片的土地应该没问题吧？",
+			say = "那一片是散步的好去處，漫步在茂盛的櫻花下可是不可多得的享受哦。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_main_day",
+			dir = 1,
+			say = "邊走邊聊，不知不覺抵達了目的地。閒置的空地就在神社入口處鳥居的旁邊。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305010,
+			side = 2,
+			bgName = "bg_main_day",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "怎麼樣？建補給倉庫的話，這麼一大片的土地應該沒問題吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,11 +208,11 @@ return {
 			},
 			options = {
 				{
-					content = "看起来不错。",
+					content = "看起來不錯。",
 					flag = 1
 				},
 				{
-					content = "感觉这里风水很不错呢。",
+					content = "感覺這裡風水很不錯呢。",
 					flag = 2
 				}
 			}
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果决定选址在这里的话，祈祷施工安全的祈愿仪式就交给我们吧。",
+			say = "如果決定選址在這裡的話，祈禱施工安全的祈願儀式就交給我們吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有……殿下，如果可以的话……",
+			say = "還有……殿下，如果可以的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等到仪式结束之后，可以和我一起去后山赏樱吗？",
+			say = "等到儀式結束之後，可以和我一起去後山賞櫻嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "突如其来的约会邀请令人有些措手不及……一边感受着心脏的狂跳，一边缓缓点了点头。",
+			say = "突如其來的約會邀請令人有些措手不及……一邊感受著心臟的狂跳，一邊緩緩點了點頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，谢谢您能答应我。到时我会带上谢礼大福哦~！",
+			say = "嗯嗯，謝謝您能答應我。到時我會帶上謝禮大福哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——是指挥官吗？{namecode:78}也在啊。",
+			say = "——是指揮官嗎？扶桑也在啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~！{namecode:179}今天也来神社帮忙吗？",
+			say = "嗯~！龍鳳今天也來神社幫忙嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错！倒是你们在这片荒凉的空地上做什么……？",
+			say = "沒錯！倒是你們在這片荒涼的空地上做什麼……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "——哔哔哔♪",
+			say = "——嗶嗶嗶♪",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -397,7 +397,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "大概是被突然响起的提示音吓了一跳，{namecode:78}突然紧紧的抱了过来……！",
+			say = "大概是被突然響起的提示音嚇了一跳，扶桑突然緊緊的抱了過來……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对、对不起殿下。我被吓了一跳所以……",
+			say = "對、對不起殿下。我被嚇了一跳所以……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我对电子设备这些东西实在有些应付不来……",
+			say = "我對電子設備這些東西實在有些應付不來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:78}、{namecode:78}……差不多该放开指挥官了……",
+			say = "扶、扶桑……差不多該放開指揮官了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？对不起……顺、顺势就抱过去了……",
+			say = "欸？對不起……順、順勢就抱過去了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "{namecode:78}迅速挪开了紧贴着的身体。不知道是不是错觉，她的耳朵似乎有些红。",
+			say = "扶桑迅速挪開了緊貼著的身體。不知道是不是錯覺，她的耳朵似乎有些紅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那殿下，明天举行仪式时再见吧！！",
+			say = "那殿下，明天舉行儀式時再見吧！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "说完，{namecode:78}便和{namecode:179}一起穿过鸟居离开了。",
+			say = "說完，扶桑便和龍鳳一起穿過鳥居離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,
-			say = "想到明天还能见面，心中虽有一丝不舍，还是离开了这个地方。",
+			say = "想到明天還能見面，心中雖有一絲不捨，還是離開了這個地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

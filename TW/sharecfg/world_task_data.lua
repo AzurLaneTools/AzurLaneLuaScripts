@@ -97,7 +97,7 @@ pg.world_task_data = {
 			22
 		},
 		following_random = {
-			22
+			203
 		},
 		task_event = {},
 		complete_parameter = {
@@ -116,7 +116,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -165,7 +165,7 @@ pg.world_task_data = {
 			24
 		},
 		following_random = {
-			24
+			204
 		},
 		task_event = {},
 		complete_parameter = {
@@ -184,7 +184,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -233,7 +233,7 @@ pg.world_task_data = {
 			33
 		},
 		following_random = {
-			33
+			205
 		},
 		task_event = {},
 		complete_parameter = {
@@ -252,7 +252,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -301,7 +301,7 @@ pg.world_task_data = {
 			31
 		},
 		following_random = {
-			31
+			206
 		},
 		task_event = {},
 		complete_parameter = {
@@ -320,7 +320,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -369,7 +369,7 @@ pg.world_task_data = {
 			32
 		},
 		following_random = {
-			32
+			207
 		},
 		task_event = {},
 		complete_parameter = {
@@ -388,7 +388,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -528,7 +528,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -647,7 +647,7 @@ pg.world_task_data = {
 			132
 		},
 		following_random = {
-			132
+			211
 		},
 		task_event = {},
 		complete_parameter = {
@@ -715,7 +715,7 @@ pg.world_task_data = {
 			134
 		},
 		following_random = {
-			134
+			212
 		},
 		task_event = {},
 		complete_parameter = {
@@ -783,7 +783,7 @@ pg.world_task_data = {
 			135
 		},
 		following_random = {
-			135
+			213
 		},
 		task_event = {},
 		complete_parameter = {
@@ -851,7 +851,7 @@ pg.world_task_data = {
 			111
 		},
 		following_random = {
-			111
+			214
 		},
 		task_event = {},
 		complete_parameter = {
@@ -919,7 +919,7 @@ pg.world_task_data = {
 			113
 		},
 		following_random = {
-			113
+			215
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1116,7 +1116,7 @@ pg.world_task_data = {
 			41
 		},
 		following_random = {
-			41
+			220
 		},
 		task_event = {
 			21901
@@ -1191,7 +1191,7 @@ pg.world_task_data = {
 			81
 		},
 		following_random = {
-			81
+			221
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1264,7 +1264,7 @@ pg.world_task_data = {
 			84
 		},
 		following_random = {
-			84
+			222
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1337,7 +1337,7 @@ pg.world_task_data = {
 			105
 		},
 		following_random = {
-			105
+			223
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1410,7 +1410,7 @@ pg.world_task_data = {
 			91
 		},
 		following_random = {
-			91
+			224
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1483,7 +1483,7 @@ pg.world_task_data = {
 			82
 		},
 		following_random = {
-			82
+			225
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1636,7 +1636,7 @@ pg.world_task_data = {
 			73
 		},
 		following_random = {
-			73
+			230
 		},
 		task_event = {
 			22901
@@ -1711,7 +1711,7 @@ pg.world_task_data = {
 			72
 		},
 		following_random = {
-			72
+			231
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1784,7 +1784,7 @@ pg.world_task_data = {
 			8
 		},
 		following_random = {
-			8
+			232
 		},
 		task_event = {
 			23200
@@ -1859,7 +1859,7 @@ pg.world_task_data = {
 			54
 		},
 		following_random = {
-			54
+			233
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1932,7 +1932,7 @@ pg.world_task_data = {
 			52
 		},
 		following_random = {
-			52
+			234
 		},
 		task_event = {},
 		complete_parameter = {
@@ -2005,7 +2005,7 @@ pg.world_task_data = {
 			61
 		},
 		following_random = {
-			61
+			235
 		},
 		task_event = {},
 		complete_parameter = {
@@ -3078,11 +3078,9 @@ pg.world_task_data = {
 		following_random = {},
 		task_event = {},
 		complete_parameter = {
-			7000001
+			7000002
 		},
-		next_task = {
-			4005
-		},
+		next_task = {},
 		task_goto = {
 			3
 		},
@@ -3136,9 +3134,7 @@ pg.world_task_data = {
 		complete_parameter = {
 			7000000
 		},
-		next_task = {
-			4006
-		},
+		next_task = {},
 		task_goto = {
 			3
 		},

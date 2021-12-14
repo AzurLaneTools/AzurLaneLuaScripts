@@ -9247,17 +9247,17 @@ pg.auto_pilot_template = {
 					Z1 = 40,
 					Z2 = 70,
 					X2 = -15,
-					moveCount = 240,
+					moveCount = 200,
 					duration = -1,
-					X1 = -32,
-					stopCount = 90
+					X1 = -20,
+					stopCount = 160
 				}
 			}
 		}
 	},
 	[100012] = {
 		id = 100012,
-		name = "仲裁者天帕岚斯_二阶段随机移动",
+		name = "仲裁者天帕岚斯_二阶段后方随机移动",
 		default = 1,
 		list = {
 			{
@@ -9265,13 +9265,37 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
-					Z2 = 75,
+					Z1 = 30,
+					Z2 = 80,
 					X2 = 0,
-					moveCount = 240,
+					moveCount = 500,
 					duration = -1,
-					X1 = -15,
-					stopCount = 90
+					X1 = -10,
+					stopCount = 1
+				}
+			}
+		}
+	},
+	[100013] = {
+		id = 100013,
+		name = "仲裁者天帕岚斯_二阶段回到中点",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -3,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
 				}
 			}
 		}
@@ -9302,6 +9326,72 @@ pg.auto_pilot_template = {
 					duration = -1,
 					X1 = -20,
 					stopCount = 90
+				}
+			}
+		}
+	},
+	[100021] = {
+		id = 100021,
+		name = "仲裁者赫米忒_标准随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 35,
+					Z2 = 75,
+					X2 = -5,
+					moveCount = 320,
+					duration = -1,
+					X1 = -20,
+					stopCount = 80
+				}
+			}
+		}
+	},
+	[100022] = {
+		id = 100022,
+		name = "仲裁者赫米忒_逐渐向前移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -8,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[100030] = {
+		id = 100030,
+		name = "仲裁者司特莲库斯_偏后方随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 35,
+					Z2 = 75,
+					X2 = 0,
+					moveCount = 160,
+					duration = -1,
+					X1 = -15,
+					stopCount = 120
 				}
 			}
 		}

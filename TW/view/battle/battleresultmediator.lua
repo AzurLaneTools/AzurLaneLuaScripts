@@ -72,7 +72,7 @@ function slot0.register(slot0)
 		slot0.viewComponent:SetSkipFlag(slot5:GetChapterAutoFlag(slot9.id) == 1)
 	elseif slot7 == SYSTEM_WORLD then
 		slot8 = {}
-		slot11 = nowWorld:GetActiveMap():GetFleet()
+		slot11 = nowWorld():GetActiveMap():GetFleet()
 		slot13 = slot11:GetTeamShipVOs(TeamType.Vanguard, true)
 
 		for slot17, slot18 in ipairs(slot11:GetTeamShipVOs(TeamType.Main, true)) do
@@ -89,7 +89,7 @@ function slot0.register(slot0)
 			end
 		end
 
-		slot0.viewComponent:SetSkipFlag(nowWorld.isAutoFight)
+		slot0.viewComponent:SetSkipFlag(slot9.isAutoFight)
 	elseif slot7 == SYSTEM_CHALLENGE then
 		slot0:bind(uv0.ON_CHALLENGE_SHARE, function (slot0)
 			uv0:addSubLayers(Context.New({
@@ -111,7 +111,7 @@ function slot0.register(slot0)
 			}))
 		end)
 	elseif slot7 == SYSTEM_WORLD_BOSS then
-		slot8 = getProxy(BayProxy):getShipsByFleet(nowWorld:GetBossProxy():GetFleet())
+		slot8 = getProxy(BayProxy):getShipsByFleet(nowWorld():GetBossProxy():GetFleet())
 
 		slot0.viewComponent:setTitle(slot0.contextData.name)
 	elseif slot7 == SYSTEM_DODGEM then
@@ -308,7 +308,7 @@ function slot0.register(slot0)
 	if slot7 == SYSTEM_SCENARIO then
 		slot10 = getProxy(ChapterProxy):GetChapterAutoFlag(slot5:getActiveChapter().id) == 1
 	elseif slot7 == SYSTEM_WORLD then
-		slot10 = nowWorld.isAutoFight
+		slot10 = nowWorld().isAutoFight
 	end
 
 	slot11 = PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0
