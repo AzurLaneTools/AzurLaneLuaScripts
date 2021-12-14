@@ -359,6 +359,10 @@ function slot10.GetIsCld(slot0)
 	return slot0._needCld
 end
 
+function slot10.IsFragile(slot0)
+	return slot0._tempData.extra_param.fragile
+end
+
 function slot10.AppendDamageUnit(slot0, slot1)
 	slot0._damageList[#slot0._damageList + 1] = slot1
 end

@@ -10,6 +10,14 @@ slot4.STATE_NORMAL = "normal"
 slot4.STATE_SPLIT = "split"
 slot4.STATE_SPIN = "spin"
 slot4.STATE_FINAL_SPLIT = "final_split"
+slot4.STATE_EXPIRE = "expire"
+slot4.STATE_PRIORITY = {
+	[slot4.STATE_EXPIRE] = 5,
+	[slot4.STATE_FINAL_SPLIT] = 4,
+	[slot4.STATE_SPLIT] = 3,
+	[slot4.STATE_SPIN] = 2,
+	[slot4.STATE_NORMAL] = 1
+}
 
 function slot4.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
@@ -47,7 +55,7 @@ function slot4.Update(slot0, slot1)
 end
 
 function slot4.ChangeShrapnelState(slot0, slot1)
-	if slot0._currentState == uv0.STATE_SPLIT or slot0._currentState == slot1 then
+	if uv0.STATE_PRIORITY[slot0._currentState] and uv0.STATE_PRIORITY[slot1] <= slot2 then
 		return
 	end
 
