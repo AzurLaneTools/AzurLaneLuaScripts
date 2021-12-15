@@ -9442,6 +9442,75 @@ _G.pg.ship_data_breakout[201334] = {
 	ultimate_bonus = {}
 }
 
+_G.pg.ship_data_breakout[201511] = {
+	use_gold = 300,
+	breakout_view = "獲得全彈發射I/主炮效率提高5%",
+	use_char_num = 1,
+	use_char = 20101,
+	breakout_id = 201512,
+	level = 10,
+	id = 201511,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		71011
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[201512] = {
+	use_gold = 800,
+	breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
+	use_char_num = 1,
+	use_char = 20101,
+	breakout_id = 201513,
+	level = 30,
+	id = 201512,
+	icon = "10001",
+	pre_id = 201511,
+	use_item = {},
+	weapon_ids = {
+		106,
+		106
+	},
+	ultimate_bonus = {}
+}
+
+_G.pg.ship_data_breakout[201513] = {
+	use_gold = 1500,
+	breakout_view = "全彈發射彈幕升級/全武器效率提高5%",
+	use_char_num = 2,
+	use_char = 20101,
+	breakout_id = 201514,
+	level = 70,
+	id = 201513,
+	icon = "10001",
+	pre_id = 201512,
+	use_item = {},
+	weapon_ids = {
+		71012
+	},
+	ultimate_bonus = {
+		"AUX"
+	}
+}
+
+_G.pg.ship_data_breakout[201514] = {
+	use_gold = 0,
+	breakout_view = "無",
+	use_char_num = 0,
+	use_char = 20101,
+	breakout_id = 0,
+	level = 0,
+	id = 201514,
+	icon = "10001",
+	pre_id = 201513,
+	use_item = {},
+	weapon_ids = {},
+	ultimate_bonus = {}
+}
+
 _G.pg.ship_data_breakout[202011] = {
 	use_gold = 100,
 	breakout_view = "獲得全彈發射I/全武器效率提高2%",
