@@ -82,28 +82,32 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 	slot0.cards[slot2.id] = slot3
 
 	onButton(slot0, slot3.itemTF, function ()
-		slot0 = uv0.goodsVO
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			showOwned = true,
-			hideLine = true,
-			yesText = "text_exchange",
-			type = MSGBOX_TYPE_SINGLE_ITEM,
-			drop = {
-				id = slot0:getConfig("effect_args")[1],
-				type = slot0:getConfig("type")
-			},
-			onYes = function ()
-				if not uv0:canPurchase() then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
-
-					return
-				end
-
-				uv1:emit(NewShopsMediator.ON_SHOPPING, uv0.id, 1)
-			end
-		})
+		uv0:OnClickCommodity(uv1)
 	end, SFX_PANEL)
+end
+
+function slot0.OnClickCommodity(slot0, slot1, slot2)
+	slot4 = slot0.cards[slot1.id].goodsVO
+
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		showOwned = true,
+		hideLine = true,
+		yesText = "text_exchange",
+		type = MSGBOX_TYPE_SINGLE_ITEM,
+		drop = {
+			id = slot4:getConfig("effect_args")[1],
+			type = slot4:getConfig("type")
+		},
+		onYes = function ()
+			if not uv0:canPurchase() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
+
+				return
+			end
+
+			uv1:emit(NewShopsMediator.ON_SHOPPING, uv0.id, 1)
+		end
+	})
 end
 
 function slot0.AddTimer(slot0)

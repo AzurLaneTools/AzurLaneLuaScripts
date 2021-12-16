@@ -669,7 +669,9 @@ function slot8.updateLoop(slot0, slot1)
 		else
 			slot11:Update(slot1)
 
-			if slot11.GetCurrentState and slot11:GetCurrentState() == uv2.Battle.BattleShrapnelBulletUnit.STATE_SPLIT and not slot11:GetTemplate().extra_param.fragile then
+			if (slot11.GetCurrentState and slot11:GetCurrentState() or nil) == uv2.Battle.BattleShrapnelBulletUnit.STATE_FINAL_SPLIT then
+				-- Nothing
+			elseif slot16 == uv2.Battle.BattleShrapnelBulletUnit.STATE_SPLIT and not slot11:IsFragile() then
 				-- Nothing
 			elseif slot15 == uv1.BulletOutBound.COMMON and slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot11:IsOutRange(slot1) then
 				if slot11:GetExist() then
@@ -881,11 +883,11 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 	end
 
-	slot11 = uv0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, , , , slot1.level)
+	uv1.MonsterAttrFixer(slot0._battleInitData.battleType, uv0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, , , , slot1.level))
 
-	uv1.MonsterAttrFixer(slot0._battleInitData.battleType, slot11)
+	slot12 = nil
 
-	if math.ceil(slot11:GetMaxHP() * slot0._repressEnemyHpRant) <= 0 then
+	if ((not slot1.immuneHPInherit or slot11:GetMaxHP()) and math.ceil(slot11:GetMaxHP() * slot0._repressEnemyHpRant)) <= 0 then
 		slot12 = 1
 	end
 

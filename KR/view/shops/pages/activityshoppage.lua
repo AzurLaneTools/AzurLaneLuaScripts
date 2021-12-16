@@ -33,12 +33,14 @@ end
 
 function slot0.OnLoaded(slot0)
 	slot0.uilist = UIItemList.New(slot0:findTF("scrollView/view"), slot0:findTF("tpl"))
+	slot0.resTF = slot0:findTF("res_battery"):GetComponent(typeof(Image))
 	slot0.resIcon = slot0:findTF("res_battery/icon"):GetComponent(typeof(Image))
 	slot0.resCnt = slot0:findTF("res_battery/Text"):GetComponent(typeof(Text))
 	slot0.resName = slot0:findTF("res_battery/label"):GetComponent(typeof(Text))
 	slot0.time = slot0:findTF("Text"):GetComponent(typeof(Text))
 
 	setText(slot0:findTF("tpl/mask/tag/sellout_tag"), i18n("word_sell_out"))
+	setText(slot0:findTF("tpl/mask/tag/unexchange_tag"), i18n("meta_shop_unexchange_label"))
 end
 
 function slot0.OnInit(slot0)

@@ -21,7 +21,7 @@ function slot0.register(slot0)
 	elseif slot0.contextData.mode == DockyardScene.MODE_WORLD then
 		slot0.shipsById = {}
 
-		for slot5, slot6 in ipairs(nowWorld:GetShipVOs()) do
+		for slot5, slot6 in ipairs(nowWorld():GetShipVOs()) do
 			slot0.shipsById[slot6.id] = slot6
 		end
 	else

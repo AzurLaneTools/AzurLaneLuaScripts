@@ -225,6 +225,19 @@ pg.world_stage_template = {
 			{}
 		}
 	},
+	{
+		fleet_num = 0,
+		id = 19,
+		stage_key = 100,
+		stage_ui = {
+			21,
+			0
+		},
+		stage_effect = {
+			{},
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -243,6 +256,7 @@ pg.world_stage_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19
 	}
 }

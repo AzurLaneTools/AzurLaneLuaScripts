@@ -12,12 +12,14 @@ slot0.ACTIVITY_SHOPS_UPDATED = "ShopsProxy:ACTIVITY_SHOPS_UPDATED"
 slot0.SHAM_SHOP_UPDATED = "ShopsProxy:SHAM_SHOP_UPDATED"
 slot0.FRAGMENT_SHOP_UPDATED = "ShopsProxy:FRAGMENT_SHOP_UPDATED"
 slot0.ACTIVITY_SHOP_GOODS_UPDATED = "ShopsProxy:ACTIVITY_SHOP_GOODS_UPDATED"
+slot0.META_SHOP_GOODS_UPDATED = "ShopsProxy:META_SHOP_GOODS_UPDATED"
 
 function slot0.register(slot0)
 	slot0.shopStreet = nil
 	slot0.meritorousShop = nil
 	slot0.guildShop = nil
 	slot0.refreshChargeList = false
+	slot0.metaShop = nil
 
 	slot0:on(22102, function (slot0)
 		getProxy(ShopsProxy):setShopStreet(ShoppingStreet.New(slot0.street))
@@ -325,6 +327,21 @@ end
 
 function slot0.getFragmentShop(slot0)
 	return slot0.fragmentShop
+end
+
+function slot0.AddMetaShop(slot0, slot1)
+	slot0.metaShop = slot1
+end
+
+function slot0.GetMetaShop(slot0)
+	return slot0.metaShop
+end
+
+function slot0.UpdateMetaShopGoods(slot0, slot1, slot2)
+	slot0:GetMetaShop():getGoodsById(slot1):addBuyCount(slot2)
+	slot0:sendNotification(uv0.META_SHOP_GOODS_UPDATED, {
+		goodsId = slot1
+	})
 end
 
 function slot0.remove(slot0)

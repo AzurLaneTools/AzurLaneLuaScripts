@@ -296,6 +296,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[131] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "그나이제나우·META를 사용해 승리 1회",
+		id = 131,
+		target_num = 1,
+		target_id = "0"
+	},
+	[132] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "그나이제나우·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 132,
+		target_num = 1,
+		target_id = "30"
+	},
+	[133] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "그나이제나우·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 133,
+		target_num = 1,
+		target_id = "55"
+	},
+	[134] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "그나이제나우·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 134,
+		target_num = 1,
+		target_id = "80"
+	},
+	[135] = {
+		target_id_2 = "970401",
+		sub_type = 180,
+		desc = "그나이제나우·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 135,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200] = {
 		target_id_2 = "970701",
 		sub_type = 302,
@@ -488,6 +528,38 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[224] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "대형 작전에서 그나이제나우·META를 사용해 1회 승리",
+		id = 224,
+		target_num = 1,
+		target_id = "0"
+	},
+	[225] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "대형 작전에서 그나이제나우·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 225,
+		target_num = 1,
+		target_id = "70"
+	},
+	[226] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "대형 작전에서 그나이제나우·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 226,
+		target_num = 1,
+		target_id = "90"
+	},
+	[227] = {
+		target_id_2 = "970401",
+		sub_type = 302,
+		desc = "대형 작전에서 그나이제나우·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 227,
+		target_num = 1,
+		target_id = "100"
+	},
 	[301] = {
 		target_id_2 = "",
 		sub_type = 305,
@@ -542,6 +614,11 @@ pg.task_meta_data_template = {
 		128,
 		129,
 		130,
+		131,
+		132,
+		133,
+		134,
+		135,
 		200,
 		201,
 		202,
@@ -566,6 +643,10 @@ pg.task_meta_data_template = {
 		221,
 		222,
 		223,
+		224,
+		225,
+		226,
+		227,
 		301,
 		302
 	}

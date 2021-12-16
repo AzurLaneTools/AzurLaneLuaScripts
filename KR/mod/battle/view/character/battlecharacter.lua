@@ -24,7 +24,7 @@ function slot5.Init(slot0)
 	slot0._cacheFXList = {}
 	slot0._allFX = {}
 	slot0._bulletCache = {}
-	slot0._attachWeaponList = {}
+	slot0._weaponRegisterList = {}
 	slot0._characterPos = Vector3.zero
 	slot0._inViewArea = false
 	slot0._alwaysHideArrow = false
@@ -293,14 +293,13 @@ function slot5.RemoveUnitEvent(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_AIMBIAS_LOCK)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.INIT_AIMBIAS)
 	slot0._unitData:UnregisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE)
-	slot0._unitData:UnregisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON)
 
-	for slot5, slot6 in ipairs(slot0._unitData:GetAutoWeapons()) do
-		slot0:UnregisterWeaponListener(slot6)
-	end
+	slot4 = uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON
 
-	for slot6, slot7 in ipairs(slot0._attachWeaponList) do
-		slot0:UnregisterWeaponListener(slot7)
+	slot0._unitData:UnregisterEventListener(slot0, slot4)
+
+	for slot4, slot5 in pairs(slot0._weaponRegisterList) do
+		slot0:UnregisterWeaponListener(slot4)
 	end
 end
 
@@ -320,11 +319,19 @@ function slot5.Update(slot0)
 end
 
 function slot5.RegisterWeaponListener(slot0, slot1)
+	if slot0._weaponRegisterList[slot1] then
+		return
+	end
+
 	slot1:RegisterEventListener(slot0, uv0.CREATE_BULLET, slot0.onCreateBullet)
 	slot1:RegisterEventListener(slot0, uv0.FIRE, slot0.onCannonFire)
+
+	slot0._weaponRegisterList[slot1] = true
 end
 
 function slot5.UnregisterWeaponListener(slot0, slot1)
+	slot0._weaponRegisterList[slot1] = nil
+
 	slot1:UnregisterEventListener(slot0, uv0.CREATE_BULLET)
 	slot1:UnregisterEventListener(slot0, uv0.FIRE)
 end
@@ -379,10 +386,7 @@ function slot5.onSpawnCacheBullet(slot0)
 end
 
 function slot5.onNewWeapon(slot0, slot1)
-	slot2 = slot1.Data.weapon
-
-	table.insert(slot0._attachWeaponList, slot2)
-	slot0:RegisterWeaponListener(slot2)
+	slot0:RegisterWeaponListener(slot1.Data.weapon)
 end
 
 function slot5.onPopup(slot0, slot1)
@@ -781,7 +785,7 @@ function slot5.Dispose(slot0)
 	end
 
 	slot0._tagFXList = nil
-	slot0._attachWeaponList = {}
+	slot0._weaponRegisterList = nil
 
 	uv2.super.Dispose(slot0)
 end

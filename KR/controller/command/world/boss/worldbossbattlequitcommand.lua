@@ -5,7 +5,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if nowWorld:GetBossProxy():GetBossById(slot3) and not slot5:IsSelfBoss(slot6) then
+	if nowWorld():GetBossProxy():GetBossById(slot3) and not slot5:IsSelfBoss(slot6) then
 		slot5:RemoveCacheBoss(slot3)
 
 		slot12 = slot6.lastTime

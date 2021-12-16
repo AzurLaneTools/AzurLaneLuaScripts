@@ -1,7 +1,7 @@
 slot0 = class("WorldSubmitTaskCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot4 = nowWorld
+	slot4 = nowWorld()
 	slot5 = slot4:GetInventoryProxy()
 
 	if not slot4:GetTaskProxy():getTaskById(slot1:getBody().taskId) then

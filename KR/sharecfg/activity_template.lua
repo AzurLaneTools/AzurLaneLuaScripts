@@ -967,7 +967,7 @@ pg.activity_template = {
 		}
 	},
 	[20135] = {
-		mark = 20200624,
+		mark = 20211216,
 		title_res_tag = "",
 		page_info = "",
 		type = 0,
@@ -982,8 +982,8 @@ pg.activity_template = {
 			{
 				{
 					2021,
-					4,
-					16
+					12,
+					17
 				},
 				{
 					0,
@@ -994,8 +994,8 @@ pg.activity_template = {
 			{
 				{
 					2021,
-					4,
-					25
+					12,
+					26
 				},
 				{
 					23,
@@ -7557,12 +7557,13 @@ pg.activity_template = {
 	},
 	[20900] = {
 		mark = 20211202,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20900,
 		config_data = {
@@ -7585,33 +7586,6 @@ pg.activity_template = {
 			17240,
 			17241,
 			17242
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					12,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20901] = {
@@ -7701,41 +7675,15 @@ pg.activity_template = {
 	},
 	[20903] = {
 		mark = 20211202,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 26,
 		is_show = 0,
 		config_data = "0",
+		title_res_tag = "",
 		id = 20903,
-		time = {
-			timer,
-			{
-				{
-					2021,
-					12,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ships = {
 				"baoduoliuhua_2",
@@ -7924,12 +7872,13 @@ pg.activity_template = {
 	},
 	[20907] = {
 		mark = 20211202,
-		id = 20907,
 		title_res_tag = "SSSS_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 18,
+		id = 20907,
 		config_data = {
 			1590001,
 			1590002,
@@ -7937,33 +7886,6 @@ pg.activity_template = {
 			1590004,
 			1590041,
 			1590051
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					12,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "SSSSMainPage",
@@ -7975,81 +7897,29 @@ pg.activity_template = {
 	},
 	[20908] = {
 		mark = 20211202,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20908,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					12,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[20909] = {
 		mark = 20211202,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 51,
 		login_pop = 0,
 		config_id = 5,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20909,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					12,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[20910] = {
 		mark = 20211202,
@@ -8164,12 +8034,13 @@ pg.activity_template = {
 	},
 	[20912] = {
 		mark = 20211202,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 20912,
 		config_data = {
@@ -8180,33 +8051,6 @@ pg.activity_template = {
 			261,
 			262,
 			263
-		},
-		time = {
-			timer,
-			{
-				{
-					2021,
-					12,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20913] = {

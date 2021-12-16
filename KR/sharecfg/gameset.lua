@@ -668,7 +668,7 @@ pg.gameset = {
 	},
 	world_target_obtain = {
 		description = "",
-		key_value = 5
+		key_value = 3
 	},
 	attr_world_damage_fix = {
 		description = "",
@@ -1269,6 +1269,15 @@ pg.gameset = {
 			610,
 			620,
 			630
+		}
+	},
+	world_planning_stop_event = {
+		key_value = 0,
+		description = {
+			1901,
+			1902,
+			1904,
+			1905
 		}
 	},
 	commander_exp_a = {

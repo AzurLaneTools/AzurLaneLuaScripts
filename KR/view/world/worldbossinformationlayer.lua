@@ -1,9 +1,6 @@
 slot0 = class("WorldBossInformationLayer", import("view.base.BaseUI"))
-slot1 = {
-	[99.0] = true
-}
-slot2 = 25
-slot3 = 7.2
+slot1 = 25
+slot2 = 7.2
 
 function slot0.getUIName(slot0)
 	return "WorldBossInformationUI"
@@ -24,17 +21,24 @@ function slot0.init(slot0)
 	slot0.retreatBtn = slot0.layer:Find("retreat")
 	slot0.hpbar = slot0.layer:Find("hp")
 	slot1 = slot0.layer:Find("drop")
-	slot0.dropitems = slot0.Clone2Full(slot1:Find("items"), 5)
+	slot0.dropitems = CustomIndexLayer.Clone2Full(slot1:Find("items"), 5)
 	slot0.dropright = slot1:Find("right")
 	slot0.dropleft = slot1:Find("left")
+	slot0.awardBtn = slot0.layer:Find("showAward")
 	slot0.weaknesstext = slot0.layer:Find("text")
 	slot0.weaknessbg = slot0.layer:Find("boss_ruodian")
 	slot0.downBG = slot0.layer:Find("BlurBG")
-	slot0.buffs = slot0.Clone2Full(slot0.layer:Find("tezhuangmokuai/buff"), 3)
+	slot0.buffListAnimator = slot0.layer:Find("BuffList"):GetComponent(typeof(Animator))
+	slot0.AdditionBuffTF = slot0.layer:Find("BuffList/tezhuangmokuai")
+	slot0.AdditionBuffContainer = slot0.AdditionBuffTF:Find("buff")
+	slot0.EquipmentBuffTF = slot0.layer:Find("BuffList/wuzhuangjiexi")
+	slot0.EquipmentBuffContainer = slot0.EquipmentBuffTF:Find("buff")
+	slot0.switchBuffBtn = slot0.layer:Find("BuffList/Switcher")
+	slot0.ShowBuffIndex = 0
 	slot0.attributeRoot = slot0.layer:Find("attributes")
 	slot0.attributeRootAnchorY = slot0.attributeRoot.anchoredPosition.y
 	slot5 = "attributes"
-	slot0.attributes = slot0.Clone2Full(slot0.layer:Find(slot5), 3)
+	slot0.attributes = CustomIndexLayer.Clone2Full(slot0.layer:Find(slot5), 3)
 
 	for slot5 = 1, #slot0.attributes do
 		slot0.attributes[slot5]:Find("extra").gameObject:SetActive(false)
@@ -50,10 +54,12 @@ function slot0.init(slot0)
 		slot2:Find("name/bosslogo_01"),
 		slot2:Find("name/bosslogo_02")
 	}
+	slot0.bossTypeIcon = slot0.bossNameBanner:Find("Type/Icon")
+	slot0.bossArmorText = slot0.bossNameBanner:Find("Type/Armor")
 	slot0.saomiaoxian = slot0.layer:Find("saomiao")
 	slot0.bosssprite = slot0.saomiaoxian:Find("qimage")
 	slot0.dangerMark = slot0.layer:Find("danger_mark")
-	slot0.loader = BundleLoaderPort.New()
+	slot0.loader = AutoLoader.New()
 	slot0.dungeonDict = {}
 end
 
@@ -76,6 +82,14 @@ function slot0.didEnter(slot0)
 		uv0:emit(WorldBossInformationMediator.RETREAT_FLEET)
 		uv0:closeView()
 	end, SFX_CANCEL)
+	onButton(slot0, slot0.switchBuffBtn, function ()
+		uv0.ShowBuffIndex = 1 - uv0.ShowBuffIndex
+
+		uv0.buffListAnimator:Play(uv0.ShowBuffIndex == 1 and "switchOn" or "switchOff", -1, 0)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.awardBtn, function ()
+		uv0:GetAwardPanel().buffer:UpdateView(uv0:GetCurrentAttachment())
+	end, SFX_PANEL)
 	slot0:updateStageView()
 	slot0.loader:LoadPrefab("ui/xuetiao01", "", nil, function (slot0)
 		setParent(slot0, uv0.layer)
@@ -107,28 +121,25 @@ function slot0.didEnter(slot0)
 			slot0.attributes[1],
 			slot0.attributes[2],
 			slot0.attributes[3],
-			slot0.top
+			slot0.top,
+			slot0.AdditionBuffTF,
+			slot0.EquipmentBuffTF
 		},
 		groupName = LayerWeightConst.GROUP_BOSSINFORMATION
 	})
 end
 
-function slot0.onBackPressed(slot0)
-	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-	triggerButton(slot0.backBtn)
-end
-
 function slot0.setPlayerInfo(slot0, slot1)
 	slot0.resPanel:setPlayer(slot1)
-	setActive(slot0.resPanel._tf, nowWorld:IsSystemOpen(WorldConst.SystemResource))
+	setActive(slot0.resPanel._tf, nowWorld():IsSystemOpen(WorldConst.SystemResource))
 end
 
 function slot0.getCurrentFleet(slot0)
-	return nowWorld:GetFleet()
+	return nowWorld():GetFleet()
 end
 
 function slot0.GetCurrentAttachment(slot0)
-	slot1 = nowWorld:GetActiveMap()
+	slot1 = nowWorld():GetActiveMap()
 	slot2 = slot1:GetFleet()
 
 	return slot1:GetCell(slot2.row, slot2.column):GetAliveAttachment(), slot1.config.difficulty
@@ -136,7 +147,7 @@ end
 
 function slot0.GetEnemyLevel(slot0, slot1)
 	if slot1.difficulty == ys.Battle.BattleConst.Difficulty.WORLD then
-		return WorldConst.WorldLevelCorrect(nowWorld:GetActiveMap().config.expedition_level, slot1.type)
+		return WorldConst.WorldLevelCorrect(nowWorld():GetActiveMap().config.expedition_level, slot1.type)
 	else
 		return slot1.level
 	end
@@ -144,7 +155,7 @@ end
 
 function slot0.UpdateHpbar(slot0)
 	slot1 = slot0:GetCurrentAttachment()
-	slot2 = slot0:GetBossTotalHP(slot1)
+	slot2 = slot0:GetDungeonBossData(slot1).bossData.hpBarNum
 	slot4 = math.ceil(slot2 * (slot1:GetHP() or 10000) / 10000)
 
 	setSlider(slot0.hpbar, 0, slot2, slot4)
@@ -165,37 +176,46 @@ function slot0.UpdateHpbar(slot0)
 		})
 	end
 
-	slot6 = slot0.hpbar:Find("rewards")
 	slot9 = pg.world_expedition_data[slot1:GetBattleStageId()] and slot8.phase_drop
 
-	setActive(slot6, slot9 and #slot9 > 0)
-	UIItemList.StaticAlign(slot6, slot6:GetChild(0), slot9 and #slot9 or 0, function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0[slot1 + 1][1] / 10000
-			slot2.anchorMin = Vector2(slot4, 0.5)
-			slot2.anchorMax = Vector2(slot4, 0.5)
+	setActive(slot0.hpbar:Find("rewards"), slot9 and #slot9 > 0)
 
-			setAnchoredPosition(slot2, {
-				x = 0
-			})
-			uv3.loader:GetSprite("ui/worldbossinformationui_atlas", slot4 >= uv1 / uv2 and "reward_empty" or "reward", slot2)
+	slot10 = slot3
+
+	if slot1:IsPeriodEnemy() then
+		slot10 = math.min(slot10, nowWorld():GetHistoryLowestHP(slot1.id))
+	end
+
+	UIItemList.StaticAlign(slot6, slot6:GetChild(0), slot9 and #slot9 or 0, function (slot0, slot1, slot2)
+		if slot0 ~= UIItemList.EventUpdate then
+			return
 		end
+
+		slot3 = uv0[slot1 + 1]
+		slot4 = slot3[1] / 10000
+		slot2.anchorMin = Vector2(slot4, 0.5)
+		slot2.anchorMax = Vector2(slot4, 0.5)
+
+		setAnchoredPosition(slot2, {
+			x = 0
+		})
+		uv2.loader:GetSprite("ui/worldbossinformationui_atlas", uv1 <= slot3[1] and "reward_empty" or "reward", slot2)
 	end)
 
-	slot10 = slot0.hpbar:Find("kedu")
+	slot11 = slot0.hpbar:Find("kedu")
 
-	setLocalScale(slot10, {
-		x = slot0.hpbar.rect.width / slot10.rect.width
+	setLocalScale(slot11, {
+		x = slot0.hpbar.rect.width / slot11.rect.width
 	})
 end
 
-function slot0.GetBossTotalHP(slot0, slot1)
-	_.detect(slot0:GetDungeonFile(slot1.config.dungeon_id).stages[1].waves, function (slot0)
+function slot0.GetDungeonBossData(slot0, slot1)
+	_.any(slot0:GetDungeonFile(slot1.config.dungeon_id).stages[1].waves, function (slot0)
 		if not slot0.spawn then
 			return
 		end
 
-		return _.detect(slot0.spawn, function (slot0)
+		return _.any(slot0.spawn, function (slot0)
 			if slot0.bossData then
 				uv0 = slot0
 
@@ -204,7 +224,7 @@ function slot0.GetBossTotalHP(slot0, slot1)
 		end)
 	end)
 
-	return nil and slot5.bossData.hpBarNum
+	return nil
 end
 
 function slot0.GetDungeonFile(slot0, slot1)
@@ -218,11 +238,11 @@ function slot0.GetDungeonFile(slot0, slot1)
 	return slot2
 end
 
-slot4 = 212
-slot5 = 40
-slot6 = "fe2222"
-slot7 = "92fc63"
-slot8 = 70
+slot3 = 212
+slot4 = 40
+slot5 = "fe2222"
+slot6 = "92fc63"
+slot7 = 70
 
 function slot0.updateStageView(slot0)
 	slot1, slot2 = slot0:GetCurrentAttachment()
@@ -266,6 +286,7 @@ function slot0.updateStageView(slot0)
 		setActive(uv0.dropleft, uv2 > 0)
 		setActive(uv0.dropright, #uv1 - uv2 > #uv0.dropitems)
 	end)()
+	setActive(slot0.awardBtn, slot5.phase_drop_display and #slot5.phase_drop_display > 0)
 	setActive(slot0.weaknesstext, pg.world_SLGbuff_data[slot1:GetWeaknessBuffId()] ~= nil)
 	setActive(slot0.weaknessbg, slot10 ~= nil)
 
@@ -276,26 +297,57 @@ function slot0.updateStageView(slot0)
 	setAnchoredPosition(slot0.attributeRoot, {
 		y = slot0.attributeRootAnchorY - (slot10 == nil and uv1 or 0)
 	})
+	(function ()
+		UIItemList.StaticAlign(uv2.AdditionBuffContainer, uv2.AdditionBuffContainer:GetChild(0), #_.filter(table.mergeArray(uv0:GetBuffList(), nowWorld():GetActiveMap():GetBuffList(WorldMap.FactionEnemy, uv0)), function (slot0)
+			return slot0.id ~= uv0
+		end), function (slot0, slot1, slot2)
+			if slot0 ~= UIItemList.EventUpdate then
+				return
+			end
 
-	slot13 = _.filter(table.mergeArray(slot1:GetBuffList(), nowWorld:GetActiveMap():GetBuffList(WorldMap.FactionEnemy, slot1)), function (slot0)
-		return slot0.id ~= uv0
-	end)
+			slot3 = uv0[slot1 + 1]
 
-	for slot17 = 1, #slot0.buffs do
-		slot18 = slot13[slot17]
+			setActive(slot2, slot3)
 
-		setActive(slot0.buffs[slot17], slot18)
-
-		if slot18 then
-			slot0.loader:GetSprite("world/buff/" .. slot18.config.icon, "", slot19:Find("icon"))
-			setText(slot19:Find("desc"), slot18.config.desc)
+			if slot3 then
+				uv1.loader:GetSprite("world/buff/" .. slot3.config.icon, "", slot2:Find("icon"))
+				setText(slot2:Find("desc"), slot3.config.desc)
+			end
+		end)
+	end)()
+	(function ()
+		if not uv0.special_buff_display or #slot0 == 0 then
+			slot0 = nil
 		end
-	end
 
+		setActive(uv1.EquipmentBuffTF, slot0)
+		setActive(uv1.switchBuffBtn, slot0)
+
+		if not slot0 then
+			return
+		end
+
+		UIItemList.StaticAlign(uv1.EquipmentBuffContainer, uv1.EquipmentBuffContainer:GetChild(0), #_.map(slot0, function (slot0)
+			return pg.world_SLGbuff_data[slot0]
+		end), function (slot0, slot1, slot2)
+			if slot0 ~= UIItemList.EventUpdate then
+				return
+			end
+
+			slot3 = uv0[slot1 + 1]
+
+			setActive(slot2, slot3)
+
+			if slot3 then
+				uv1.loader:GetSprite("world/buff/" .. slot3.icon, "", slot2:Find("icon"))
+				setText(slot2:Find("desc"), slot3.desc)
+			end
+		end)
+	end)()
 	slot0:UpdateHpbar()
 
 	slot14 = ys.Battle.BattleFormulas
-	slot15 = nowWorld
+	slot15 = nowWorld()
 	slot16 = slot15:GetWorldMapDifficultyBuffLevel()
 	slot17 = {
 		slot16[1] * (1 + slot5.expedition_sairenvalueA / 10000),
@@ -329,8 +381,6 @@ function slot0.updateStageView(slot0)
 			uv2 = Time.realtimeSinceStartup
 		end)
 		slot30.onReleased:AddListener(function ()
-			slot0 = false
-
 			if not uv0 or Time.realtimeSinceStartup - uv0 < 0.3 then
 				setActive(uv1:Find("extra"), not uv2)
 			else
@@ -359,28 +409,34 @@ function slot0.updateStageView(slot0)
 	slot0.bg:GetComponent(typeof(Image)).enabled = true
 
 	setImageSprite(slot0.bg, GetSpriteFromAtlas("commonbg/" .. slot25, slot25))
+	(function ()
+		uv1.bossnameText.text = uv0.name
+		slot1 = false
 
-	slot0.bossnameText.text = slot4.name
-	slot27 = false
+		if uv1.bossnameText.transform.rect.width < uv1.bossnameText.preferredWidth then
+			uv1.bossnameText.text = string.gsub(slot0, "「.-」", "\n%1")
+			slot1 = true
+		end
 
-	if slot0.bossnameText.transform.rect.width < slot0.bossnameText.preferredWidth then
-		slot0.bossnameText.text = string.gsub(slot26, "「.-」", "\n%1")
-		slot27 = true
-	end
+		setAnchoredPosition(uv1.bossNameBanner, {
+			y = slot1 and -18 or 0
+		})
+		setText(uv1.bosslevel, i18n("world_level_prefix", uv1:GetEnemyLevel(uv0) or 1))
+		setActive(uv1.bosslogos[1], uv2)
+		setActive(uv1.bosslogos[2], not uv2)
+		setActive(uv1.saomiaoxian, not uv2)
 
-	setAnchoredPosition(slot0.bossNameBanner, {
-		y = slot27 and -18 or 0
-	})
-	setText(slot0.bosslevel, i18n("world_level_prefix", slot0:GetEnemyLevel(slot4) or 1))
-	setActive(slot0.bosslogos[1], slot24)
-	setActive(slot0.bosslogos[2], not slot24)
-	setActive(slot0.saomiaoxian, not slot24)
+		slot3 = ys.Battle.BattleDataFunction.GetMonsterTmpDataFromID(uv1:GetDungeonBossData(uv3).monsterTemplateID)
 
-	slot28 = ys.Battle.BattleAttr.IsWorldMapRewardAttrWarning(slot17, slot18)
+		uv1.loader:GetSprite("shiptype", ShipType.Type2BattlePrint(slot3.type), uv1.bossTypeIcon, true)
+		setText(uv1.bossArmorText, ArmorType.Type2Name(slot3.armor_type))
+	end)()
 
-	setActive(slot0.dangerMark, slot28)
+	slot27 = ys.Battle.BattleAttr.IsWorldMapRewardAttrWarning(slot17, slot18)
 
-	if slot28 then
+	setActive(slot0.dangerMark, slot27)
+
+	if slot27 then
 		setAnchoredPosition(slot0.dangerMark, {
 			x = slot24 and uv5 or uv6
 		})
@@ -389,12 +445,12 @@ function slot0.updateStageView(slot0)
 	if not slot24 then
 		if slot4.icon_type == 1 then
 			slot0.loader:GetSprite("enemies/" .. slot4.icon, nil, slot0.bosssprite)
-		elseif slot29 == 2 then
-			slot30 = slot0.bosssprite
-			slot30:GetComponent(typeof(Image)).enabled = false
-			slot30 = slot0.loader
+		elseif slot28 == 2 then
+			slot29 = slot0.bosssprite
+			slot29:GetComponent(typeof(Image)).enabled = false
+			slot29 = slot0.loader
 
-			slot30:GetSpine(slot4.icon, function (slot0)
+			slot29:GetSpine(slot4.icon, function (slot0)
 				slot1 = uv0.battle_spine_size * 0.01
 				slot0.transform.localScale = Vector3(slot1, slot1, 1)
 				slot0.transform.anchoredPosition = Vector3.New(0, -150, 0)
@@ -409,7 +465,18 @@ function slot0.updateStageView(slot0)
 	end
 end
 
+function slot0.onBackPressed(slot0)
+	if slot0.awardPanel and slot0.awardPanel:isShowing() then
+		slot0.awardPanel:Hide()
+
+		return
+	end
+
+	triggerButton(slot0.backBtn)
+end
+
 function slot0.willExit(slot0)
+	slot0:DestroyAwardPanel()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.layer, slot0._tf)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
@@ -427,19 +494,22 @@ function slot0.willExit(slot0)
 	slot0.loader:Clear()
 end
 
-function slot0.Clone2Full(slot0, slot1)
-	slot2 = {}
-	slot3 = slot0:GetChild(0)
+function slot0.GetAwardPanel(slot0)
+	slot0.awardPanel = slot0.awardPanel or WorldBossHPAwardPanel.New(slot0._tf, slot0.event, slot0.contextData)
 
-	for slot8 = 0, slot0.childCount - 1 do
-		table.insert(slot2, slot0:GetChild(slot8))
+	slot0.awardPanel:Load()
+
+	return slot0.awardPanel
+end
+
+function slot0.DestroyAwardPanel(slot0)
+	if not slot0.awardPanel then
+		return
 	end
 
-	for slot8 = slot4, slot1 - 1 do
-		table.insert(slot2, tf(cloneTplTo(slot3, slot0)))
-	end
+	slot0.awardPanel:Destroy()
 
-	return slot2
+	slot0.awardPanel = nil
 end
 
 function slot0.TransformColor(slot0)

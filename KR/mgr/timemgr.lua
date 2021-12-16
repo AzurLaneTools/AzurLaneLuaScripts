@@ -314,7 +314,7 @@ function slot1.CalcMonthDays(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot1.inTime(slot0, slot1)
+function slot1.inTime(slot0, slot1, slot2)
 	if not slot1 then
 		return true
 	end
@@ -330,7 +330,7 @@ function slot1.inTime(slot0, slot1)
 		}
 	end
 
-	function slot2(slot0)
+	function slot3(slot0)
 		return {
 			year = slot0[1][1],
 			month = slot0[1][2],
@@ -341,27 +341,10 @@ function slot1.inTime(slot0, slot1)
 		}
 	end
 
-	slot3 = nil
-
-	if #slot1 > 0 then
-		slot3 = slot2(slot1[1] or {
-			{
-				2000,
-				1,
-				1
-			},
-			{
-				0,
-				0,
-				0
-			}
-		})
-	end
-
 	slot4 = nil
 
-	if #slot1 > 1 then
-		slot4 = slot2(slot1[2] or {
+	if #slot1 > 0 then
+		slot4 = slot3(slot1[1] or {
 			{
 				2000,
 				1,
@@ -377,21 +360,38 @@ function slot1.inTime(slot0, slot1)
 
 	slot5 = nil
 
-	if slot3 and slot4 then
-		slot8 = slot0:Table2ServerTime(slot4)
+	if #slot1 > 1 then
+		slot5 = slot3(slot1[2] or {
+			{
+				2000,
+				1,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		})
+	end
 
-		if slot0:GetServerTime() < slot0:Table2ServerTime(slot3) then
-			return false, slot3
+	slot6 = nil
+
+	if slot4 and slot5 then
+		slot9 = slot0:Table2ServerTime(slot5)
+
+		if (slot2 or slot0:GetServerTime()) < slot0:Table2ServerTime(slot4) then
+			return false, slot4
 		end
 
-		if slot8 < slot6 then
+		if slot9 < slot7 then
 			return false, nil
 		end
 
-		slot5 = slot4
+		slot6 = slot5
 	end
 
-	return true, slot5
+	return true, slot6
 end
 
 function slot1.passTime(slot0, slot1)

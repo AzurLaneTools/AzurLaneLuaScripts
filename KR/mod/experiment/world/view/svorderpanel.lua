@@ -129,7 +129,7 @@ end
 function slot0.SetButton(slot0, slot1, slot2)
 	slot3 = slot1:Find("type_lock")
 
-	setActive(slot3, not nowWorld:IsSystemOpen(slot2.system))
+	setActive(slot3, not nowWorld():IsSystemOpen(slot2.system))
 	setActive(slot1:Find("type_unable"), not isActive(slot3) and (slot2.isLock or slot2.timeStamp and pg.TimeMgr.GetInstance():GetServerTime() < slot2.timeStamp))
 	setActive(slot1:Find("type_enable"), not isActive(slot3) and not isActive(slot4))
 
@@ -171,71 +171,58 @@ function slot0.UpdateOrderBtn(slot0)
 	slot0:ClearBtnTimers()
 
 	slot0.timers = {}
-	slot1 = slot0.map:GetConfig("instruction_available")
-	slot2 = checkExist(slot0.map, {
+	slot1 = nowWorld()
+	slot2 = slot0.map:GetConfig("instruction_available")
+	slot3 = checkExist(slot0.map, {
 		"GetPort"
 	})
-	slot3 = nowWorld:GetRealm()
-	slot4 = nowWorld:IsSystemOpen(WorldConst.SystemOrderRedeploy) and slot3 == checkExist(slot2, {
+	slot4 = slot1:GetRealm()
+	slot5 = slot1:IsSystemOpen(WorldConst.SystemOrderRedeploy) and slot4 == checkExist(slot3, {
 		"GetRealm"
-	}) and checkExist(slot2, {
+	}) and checkExist(slot3, {
 		"IsOpen",
 		{
-			slot3,
-			nowWorld:GetProgress()
+			slot4,
+			slot1:GetProgress()
 		}
-	}) and nowWorld:BuildFormationIds()
-	slot5 = {
+	}) and slot1:BuildFormationIds()
+	slot6 = {
 		system = WorldConst.SystemOrderRedeploy,
-		isLock = not slot4,
+		isLock = not slot5,
 		lockFunc = function ()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_redeploy_1"))
 		end,
-		cost = nowWorld:CalcOrderCost(WorldConst.OpReqRedeploy),
+		cost = slot1:CalcOrderCost(WorldConst.OpReqRedeploy),
 		enableFunc = function (slot0, slot1)
 			uv0:Hide()
 			uv0:emit(WorldScene.SceneOp, "OpRedeploy")
 		end
 	}
 
-	slot0:SetButton(slot0.btnRedeploy, slot5)
-	slot0:SetButton(slot0.btnExpansion, slot5)
-	setActive(slot0.btnRedeploy, slot4 ~= WorldConst.FleetExpansion)
-	setActive(slot0.btnExpansion, slot4 == WorldConst.FleetExpansion)
-
-	slot6 = pg.TimeMgr.GetInstance()
-
-	slot0:SetButton(slot0.btnMaintenance, {
-		system = WorldConst.SystemOrderMaintenance,
-		timeStamp = nowWorld:GetReqCDTime(WorldConst.OpReqMaintenance) + pg.gameset.world_instruction_maintenance.description[2],
-		timeFunc = function (slot0)
-			pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_supply_2", uv0:DescCDTime(uv1 - pg.TimeMgr.GetInstance():GetServerTime())))
-		end,
-		cost = nowWorld:CalcOrderCost(WorldConst.OpReqMaintenance),
-		enableFunc = function ()
-			uv0:ShowMsgbox(WorldConst.OpReqMaintenance)
-		end
-	})
+	slot0:SetButton(slot0.btnRedeploy, slot6)
+	slot0:SetButton(slot0.btnExpansion, slot6)
+	setActive(slot0.btnRedeploy, slot5 ~= WorldConst.FleetExpansion)
+	setActive(slot0.btnExpansion, slot5 == WorldConst.FleetExpansion)
 	slot0:SetButton(slot0.btnSubmarine, {
 		system = WorldConst.SystemOrderSubmarine,
-		isLock = slot1[1] == 0 or not nowWorld:CanCallSubmarineSupport() or nowWorld:IsSubmarineSupporting() and nowWorld:GetSubAidFlag(),
+		isLock = slot2[1] == 0 or not slot1:CanCallSubmarineSupport() or slot1:IsSubmarineSupporting() and slot1:GetSubAidFlag(),
 		lockFunc = function ()
 			if uv0[1] == 0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_submarine_1"))
-			elseif not nowWorld:CanCallSubmarineSupport() then
+			elseif not uv1:CanCallSubmarineSupport() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_submarine_4"))
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_submarine_3"))
 			end
 		end,
-		cost = nowWorld:CalcOrderCost(WorldConst.OpReqSub),
+		cost = slot1:CalcOrderCost(WorldConst.OpReqSub),
 		enableFunc = function ()
 			uv0:ShowMsgbox(WorldConst.OpReqSub)
 		end
 	})
 	slot0:SetButton(slot0.btnFOV, {
 		system = WorldConst.SystemOrderFOV,
-		isLock = slot1[2] == 0 or slot0.map.visionFlag,
+		isLock = slot2[2] == 0 or slot0.map.visionFlag,
 		lockFunc = function ()
 			if uv0[2] == 0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_submarine_1"))
@@ -243,9 +230,27 @@ function slot0.UpdateOrderBtn(slot0)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_detect_2"))
 			end
 		end,
-		cost = nowWorld:CalcOrderCost(WorldConst.OpReqVision),
+		cost = slot1:CalcOrderCost(WorldConst.OpReqVision),
 		enableFunc = function ()
 			uv0:ShowMsgbox(WorldConst.OpReqVision)
+		end
+	})
+
+	slot7 = pg.TimeMgr.GetInstance()
+
+	slot0:SetButton(slot0.btnMaintenance, {
+		system = WorldConst.SystemOrderMaintenance,
+		isLock = slot2[3] == 0,
+		lockFunc = function ()
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_submarine_1"))
+		end,
+		timeStamp = slot1:GetReqCDTime(WorldConst.OpReqMaintenance) + pg.gameset.world_instruction_maintenance.description[2],
+		timeFunc = function (slot0)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_supply_2", uv0:DescCDTime(uv1 - pg.TimeMgr.GetInstance():GetServerTime())))
+		end,
+		cost = slot1:CalcOrderCost(WorldConst.OpReqMaintenance),
+		enableFunc = function ()
+			uv0:ShowMsgbox(WorldConst.OpReqMaintenance)
 		end
 	})
 end
@@ -272,45 +277,47 @@ function slot0.ClearComppass(slot0)
 end
 
 function slot0.ShowMsgbox(slot0, slot1)
-	setText(slot0.rtMsgStamina:Find("Text"), nowWorld.staminaMgr:GetTotalStamina())
+	slot2 = nowWorld()
 
-	slot3 = nowWorld:CalcOrderCost(slot1)
-	slot4 = ""
+	setText(slot0.rtMsgStamina:Find("Text"), slot2.staminaMgr:GetTotalStamina())
+
+	slot4 = slot2:CalcOrderCost(slot1)
 	slot5 = ""
-	slot6 = nil
+	slot6 = ""
+	slot7 = nil
 
 	if slot1 == WorldConst.OpReqMaintenance then
-		slot4 = i18n("world_instruction_morale_1", setColorStr(slot3, COLOR_GREEN), setColorStr(slot2, slot3 <= slot2 and COLOR_GREEN or COLOR_RED))
-		slot5 = i18n("world_instruction_morale_4")
+		slot5 = i18n("world_instruction_morale_1", setColorStr(slot4, COLOR_GREEN), setColorStr(slot3, slot4 <= slot3 and COLOR_GREEN or COLOR_RED))
+		slot6 = i18n("world_instruction_morale_4")
 
-		function slot6()
+		function slot7()
 			uv0:emit(WorldScene.SceneOp, "OpReqMaintenance", uv0.map:GetFleet().id)
 		end
 	elseif slot1 == WorldConst.OpReqSub then
-		slot4 = i18n(nowWorld:IsSubmarineSupporting() and "world_instruction_submarine_7" or "world_instruction_submarine_2", setColorStr(slot3, COLOR_GREEN), setColorStr(slot2, slot3 <= slot2 and COLOR_GREEN or COLOR_RED))
-		slot5 = i18n("world_instruction_submarine_8")
+		slot5 = i18n(slot2:IsSubmarineSupporting() and "world_instruction_submarine_7" or "world_instruction_submarine_2", setColorStr(slot4, COLOR_GREEN), setColorStr(slot3, slot4 <= slot3 and COLOR_GREEN or COLOR_RED))
+		slot6 = i18n("world_instruction_submarine_8")
 
-		function slot6()
+		function slot7()
 			uv0:emit(WorldScene.SceneOp, "OpReqSub")
 		end
 	elseif slot1 == WorldConst.OpReqVision then
-		slot4 = i18n("world_instruction_detect_1", setColorStr(slot3, COLOR_GREEN), setColorStr(slot2, slot3 <= slot2 and COLOR_GREEN or COLOR_RED))
-		slot5 = i18n("world_instruction_submarine_8")
+		slot5 = i18n("world_instruction_detect_1", setColorStr(slot4, COLOR_GREEN), setColorStr(slot3, slot4 <= slot3 and COLOR_GREEN or COLOR_RED))
+		slot6 = i18n("world_instruction_submarine_8")
 
-		function slot6()
+		function slot7()
 			uv0:emit(WorldScene.SceneOp, "OpReqVision")
 		end
 	end
 
-	setText(slot0.rtMsgBase:Find("content"), slot4)
-	setText(slot0.rtMsgBase:Find("other"), slot5)
+	setText(slot0.rtMsgBase:Find("content"), slot5)
+	setText(slot0.rtMsgBase:Find("other"), slot6)
 	onButton(slot0, slot0.rtMsgBtns:Find("btn_confirm"), function ()
 		uv0:Hide()
 
-		if nowWorld.staminaMgr:GetTotalStamina() < uv1 then
-			nowWorld.staminaMgr:Show()
+		if uv1.staminaMgr:GetTotalStamina() < uv2 then
+			uv1.staminaMgr:Show()
 		else
-			uv2()
+			uv3()
 		end
 	end, SFX_CONFIRM)
 	setActive(slot0.rtMsgExtra, slot1 == WorldConst.OpReqSub)
@@ -318,19 +325,19 @@ function slot0.ShowMsgbox(slot0, slot1)
 	if slot1 == WorldConst.OpReqSub then
 		setText(slot0.rtMsgExtra:Find("content/text_1"), i18n("world_instruction_submarine_9"))
 
-		slot7 = slot0.rtMsgExtra:Find("content/toggle_area/toggle")
+		slot8 = slot0.rtMsgExtra:Find("content/toggle_area/toggle")
 
-		triggerToggle(slot7, PlayerPrefs.GetInt("world_sub_auto_call", 0) == 1)
-		onToggle(slot0, slot7, function (slot0)
+		triggerToggle(slot8, PlayerPrefs.GetInt("world_sub_auto_call", 0) == 1)
+		onToggle(slot0, slot8, function (slot0)
 			uv0 = slot0
 
 			uv1:DisplayAutoSetting(true)
 		end, SFX_PANEL)
 
-		slot11 = slot0.rtMsgExtra:Find("content/counter")
+		slot12 = slot0.rtMsgExtra:Find("content/counter")
 
-		setText(slot11:Find("number/Text"), math.clamp(PlayerPrefs.GetInt("world_sub_call_line", 0), 0, pg.gameset.world_instruction_submarine.description[1]))
-		pressPersistTrigger(slot11:Find("minus"), 0.5, function (slot0)
+		setText(slot12:Find("number/Text"), math.clamp(PlayerPrefs.GetInt("world_sub_call_line", 0), 0, pg.gameset.world_instruction_submarine.description[1]))
+		pressPersistTrigger(slot12:Find("minus"), 0.5, function (slot0)
 			if uv0 == 0 then
 				if slot0 then
 					slot0()
@@ -344,7 +351,7 @@ function slot0.ShowMsgbox(slot0, slot1)
 			setText(uv2:Find("number/Text"), uv0)
 			uv3:DisplayAutoSetting(true)
 		end, nil, true, true, 0.1, SFX_PANEL)
-		pressPersistTrigger(slot11:Find("plus"), 0.5, function (slot0)
+		pressPersistTrigger(slot12:Find("plus"), 0.5, function (slot0)
 			if uv0 == uv1 then
 				if slot0 then
 					slot0()

@@ -6,7 +6,7 @@ end
 
 function slot0.init(slot0)
 	slot0.rtBg = slot0._tf:Find("bg")
-	slot1 = nowWorld:GetRealm()
+	slot1 = nowWorld():GetRealm()
 
 	eachChild(slot0.rtBg, function (slot0)
 		setActive(slot0, slot0.name == tostring(uv0))
@@ -496,7 +496,7 @@ end
 function slot0.CheckWorldResetAward(slot0)
 	slot1 = {}
 
-	if nowWorld.resetAward and #slot3 > 0 then
+	if nowWorld().resetAward and #slot3 > 0 then
 		if #pg.gameset.world_resetting_story.description[1] > 0 then
 			table.insert(slot1, function (slot0)
 				pg.NewStoryMgr.GetInstance():Play(uv0, slot0, true)
@@ -510,12 +510,6 @@ function slot0.CheckWorldResetAward(slot0)
 				hideYes = true,
 				hideNo = true,
 				type = MSGBOX_TYPE_WORLD_RESET,
-				goShop = function ()
-					uv0:Op("OpOpenLayer", Context.New({
-						mediator = WorldShopMediator,
-						viewComponent = WorldShopLayer
-					}))
-				end,
 				itemFunc = function (slot0)
 					uv0:emit(uv1.ON_DROP, slot0, function ()
 						pg.MsgboxMgr.GetInstance():ShowMsgBox(uv0)

@@ -121,6 +121,49 @@ pg.world_trap_data = {
 		desc = "구역 내 해수면이 연소 중. 진입 후 함대가 연소 상태가 되며, 매번 행동 시 일정 대미지를 입는다. 연소 상태는 잠시 동안 지속.",
 		trap_range = {}
 	},
+	[200] = {
+		buff_id = 600,
+		name = "EMP 교란 TYPEI",
+		obstacle = 2,
+		repeat_trap = 2,
+		trap_fx = "zhongcaizhe_zhonglichang_slg",
+		trap_type = 1,
+		id = 200,
+		desc = "구역 내 주기적인 EMP 충격 존재. 진입 후 함대의 이동 비정상. 목표 구역으로 정확히 이동 불가.",
+		trap_range = {
+			3,
+			3,
+			2
+		}
+	},
+	[201] = {
+		buff_id = 601,
+		name = "EMP 교란 TYPEII",
+		obstacle = 2,
+		repeat_trap = 2,
+		trap_fx = "zhongcaizhe_shandianqiang",
+		trap_type = 2,
+		id = 201,
+		desc = "구역 내 주기적인 EMP 충격 존재. 진입 후 함대의 이동 비정상. 매번 행동 시 이동 범위가 축소된다.",
+		trap_range = {
+			2
+		}
+	},
+	[202] = {
+		buff_id = 320,
+		name = "이상 연소 해역",
+		obstacle = 2,
+		repeat_trap = 2,
+		trap_fx = "SLG_huo02",
+		trap_type = 0,
+		id = 202,
+		desc = "구역 내 해수면이 연소 중. 진입 후 함대가 연소 상태가 되며, 매번 행동 시 일정 대미지를 입는다. 연소 상태는 잠시 동안 지속.",
+		trap_range = {
+			1,
+			1,
+			1
+		}
+	},
 	[1001] = {
 		buff_id = 311,
 		name = "EMP 교란 TYPEI",
@@ -408,6 +451,9 @@ pg.world_trap_data = {
 		102,
 		103,
 		110,
+		200,
+		201,
+		202,
 		1001,
 		1002,
 		1003,

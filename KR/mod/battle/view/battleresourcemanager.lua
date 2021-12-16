@@ -856,7 +856,7 @@ function slot5.GetWeaponResource(slot0, slot1)
 		return slot2
 	end
 
-	if uv0.GetWeaponPropertyDataFromID(slot0).type == uv1.EquipmentType.MAIN_CANNON or slot3.type == uv1.EquipmentType.SUB_CANNON or slot3.type == uv1.EquipmentType.TORPEDO or slot3.type == uv1.EquipmentType.ANTI_AIR or slot3.type == uv1.EquipmentType.ANTI_SEA or slot3.type == uv1.EquipmentType.POINT_HIT_AND_LOCK or slot3.type == uv1.EquipmentType.BOMBER_PRE_CAST_ALERT or slot3.type == uv1.EquipmentType.DEPTH_CHARGE or slot3.type == uv1.EquipmentType.MANUAL_TORPEDO or slot3.type == uv1.EquipmentType.DISPOSABLE_TORPEDO or slot3.type == uv1.EquipmentType.MANUAL_AAMISSILE or slot3.type == uv1.EquipmentType.BEAM or slot3.type == uv1.EquipmentType.SPACE_LASER or slot3.type == uv1.EquipmentType.MISSILE then
+	if uv0.GetWeaponPropertyDataFromID(slot0).type == uv1.EquipmentType.MAIN_CANNON or slot3.type == uv1.EquipmentType.SUB_CANNON or slot3.type == uv1.EquipmentType.TORPEDO or slot3.type == uv1.EquipmentType.ANTI_AIR or slot3.type == uv1.EquipmentType.ANTI_SEA or slot3.type == uv1.EquipmentType.POINT_HIT_AND_LOCK or slot3.type == uv1.EquipmentType.BOMBER_PRE_CAST_ALERT or slot3.type == uv1.EquipmentType.DEPTH_CHARGE or slot3.type == uv1.EquipmentType.MANUAL_TORPEDO or slot3.type == uv1.EquipmentType.DISPOSABLE_TORPEDO or slot3.type == uv1.EquipmentType.MANUAL_AAMISSILE or slot3.type == uv1.EquipmentType.BEAM or slot3.type == uv1.EquipmentType.SPACE_LASER or slot3.type == uv1.EquipmentType.FLEET_RANGE_ANTI_AIR or slot3.type == uv1.EquipmentType.MISSILE then
 		for slot7, slot8 in ipairs(slot3.bullet_ID) do
 			for slot13, slot14 in ipairs(uv2.GetBulletResource(slot8, slot1)) do
 				slot2[#slot2 + 1] = slot14
@@ -867,6 +867,12 @@ function slot5.GetWeaponResource(slot0, slot1)
 	elseif slot3.type == uv1.EquipmentType.PREVIEW_ARICRAFT then
 		for slot7, slot8 in ipairs(slot3.bullet_ID) do
 			slot2 = uv2.GetAircraftResource(slot8, nil, slot1)
+		end
+	end
+
+	if slot3.type == uv1.EquipmentType.FLEET_RANGE_ANTI_AIR then
+		for slot8, slot9 in ipairs(uv2.GetBulletResource(uv3.AntiAirConfig.RangeBulletID)) do
+			slot2[#slot2 + 1] = slot9
 		end
 	end
 
@@ -1042,25 +1048,28 @@ function slot5.GetStageResource(slot0)
 				end
 			elseif slot13.triggerType == uv0.Battle.BattleConst.WaveTriggerType.AID then
 				slot15 = slot13.triggerParams.main_unitList
+				slot16 = slot13.triggerParams.sub_unitList
 
-				if slot13.triggerParams.vanguard_unitList then
-					for slot20, slot21 in ipairs(uv1.GetAidUnitsRes(slot14)) do
-						table.insert(slot2, slot21)
+				function slot17(slot0)
+					for slot5, slot6 in ipairs(uv0.GetAidUnitsRes(slot0)) do
+						table.insert(uv1, slot6)
 					end
 
-					for slot20, slot21 in ipairs(slot14) do
-						slot3[#slot3 + 1] = slot21.skinId
+					for slot5, slot6 in ipairs(slot0) do
+						uv2[#uv2 + 1] = slot6.skinId
 					end
 				end
 
-				if slot15 then
-					for slot20, slot21 in ipairs(uv1.GetAidUnitsRes(slot15)) do
-						table.insert(slot2, slot21)
-					end
+				if slot13.triggerParams.vanguard_unitList then
+					slot17(slot14)
+				end
 
-					for slot20, slot21 in ipairs(slot15) do
-						slot3[#slot3 + 1] = slot21.skinId
-					end
+				if slot15 then
+					slot17(slot15)
+				end
+
+				if slot16 then
+					slot17(slot16)
 				end
 			elseif slot13.triggerType == uv0.Battle.BattleConst.WaveTriggerType.ENVIRONMENT then
 				for slot17, slot18 in ipairs(slot13.spawn) do

@@ -1416,6 +1416,34 @@ pg.world_port_data = {
 		},
 		goods_pool = {}
 	},
+	[30] = {
+		port_bg = "port_zuozhangangkou",
+		name = "핵심 구역 전초전",
+		goods_num = 0,
+		port_entrance_icon = "",
+		id = 30,
+		scan_desc = "작전에 참여한 함대 이곳에 집결",
+		port_camp = 1,
+		goods_refresh_time = 259200,
+		open_condition = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			}
+		},
+		task_pool = {},
+		task_refresh_num = {
+			{
+				1,
+				0
+			}
+		},
+		goods_pool = {}
+	},
 	[100] = {
 		port_bg = "port_chuanwu1",
 		name = "해역 보급 상점",
@@ -1651,6 +1679,7 @@ pg.world_port_data = {
 		7,
 		8,
 		20,
+		30,
 		100,
 		301
 	}

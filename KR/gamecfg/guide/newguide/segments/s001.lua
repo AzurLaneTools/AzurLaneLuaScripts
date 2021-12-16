@@ -43,7 +43,7 @@ return {
 				posX = -126.5
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/bg/main/gallery/toggle_bg/toggles/light/frame",
+				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/toggle_bg/toggles/2(Clone)/frame",
 				pathIndex = -1,
 				triggerType = {
 					2
@@ -64,7 +64,7 @@ return {
 				posX = 301.54
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/bg/main/gallery/start_btn",
+				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/start_btn",
 				pathIndex = -1,
 				triggerType = {
 					1
@@ -85,7 +85,7 @@ return {
 				posX = 103.3
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/build_msg/window/btns/confirm_btn",
+				path = "/OverlayCamera/Overlay/UIMain/BuildShipMsgBoxUI(Clone)/window/btns/confirm_btn",
 				pathIndex = -1,
 				triggerType = {
 					1

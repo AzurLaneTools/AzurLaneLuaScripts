@@ -121,7 +121,7 @@ function slot0.init(slot0)
 		})
 	end, SFX_PANEL)
 
-	if nowWorld:GetActiveMap() then
+	if nowWorld():GetActiveMap() then
 		slot0:setStaminaMgr(slot1.staminaMgr)
 	else
 		slot0.atlas = slot1:GetAtlas()
@@ -146,7 +146,7 @@ function slot0.setPlayer(slot0, slot1)
 end
 
 function slot0.OnUpdateActivate(slot0)
-	slot0:setStaminaMgr(nowWorld.staminaMgr)
+	slot0:setStaminaMgr(nowWorld().staminaMgr)
 	slot0.atlas:RemoveListener(WorldAtlas.EventUpdateActiveMap, slot0.onUpdateActivate)
 end
 
@@ -197,7 +197,7 @@ function slot0.OnBossProgressUpdate(slot0)
 	end
 
 	setText(slot7, "<color=" .. slot8 .. ">PHASE:" .. slot3 - 1 .. "/" .. slot4 .. "</color>")
-	setActive(slot0.bossProgress, nowWorld:IsSystemOpen(WorldConst.SystemWorldBoss))
+	setActive(slot0.bossProgress, nowWorld():IsSystemOpen(WorldConst.SystemWorldBoss))
 end
 
 function slot0.willExit(slot0)

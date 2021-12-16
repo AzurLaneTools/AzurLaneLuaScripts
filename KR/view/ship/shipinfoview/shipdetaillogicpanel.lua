@@ -139,9 +139,10 @@ slot2 = {
 		hide = {}
 	}
 }
-slot3 = 0.5
-slot4 = Vector3(1, 1, 1)
-slot5 = Vector3(1.3, 1.3, 1.3)
+slot3 = nil
+slot4 = 0.5
+slot5 = Vector3(1, 1, 1)
+slot6 = Vector3(1.3, 1.3, 1.3)
 slot0.EQUIPMENT_ADDITION = 0
 slot0.TECHNOLOGY_ADDITION = 1
 slot0.CORE_ADDITION = 2
@@ -162,6 +163,49 @@ function slot0.Ctor(slot0, slot1)
 	slot0.levelBg = findTF(slot0.attrs, "level_bg")
 	slot0.expTip = findTF(slot0.attrs, "level_bg/exp_tip")
 	slot0.armorNameTxt = slot0.attrs:Find("icons"):GetChild(1):Find("name")
+
+	if PLATFORM_CODE == PLATFORM_JP then
+		uv1 = uv2.jp
+	elseif PLATFORM_CODE == PLATFORM_KR then
+		uv1 = uv2.kr
+	elseif PLATFORM_CODE == PLATFORM_US then
+		uv1 = uv2.us
+	else
+		uv1 = uv2.defaut
+	end
+
+	for slot6 = 1, #uv1.sort_index do
+		slot7 = slot2[slot6]
+		slot8 = findTF(slot0.attrs, "props/" .. slot7)
+		slot9 = findTF(slot0.attrs, "icons/" .. slot7)
+
+		if pg.gametip["attr_" .. slot7].tip and string.len(slot10) > 0 and slot7 ~= "armor" then
+			setText(findTF(slot9, "name"), slot10)
+		end
+
+		slot8:SetSiblingIndex(slot6 - 1)
+		slot9:SetSiblingIndex(slot6 - 1)
+	end
+
+	for slot7 = 1, #uv1.hide do
+		slot8 = slot3[slot7]
+
+		setActive(findTF(slot0.attrs, "props/" .. slot8), false)
+		setActive(findTF(slot0.attrs, "icons/" .. slot8), false)
+	end
+
+	for slot8, slot9 in pairs(uv1.prop_ignore) do
+		slot10 = findTF(slot0.attrs, "props/" .. slot8)
+		slot11 = findTF(slot0.attrs, "icons/" .. slot8)
+		GetOrAddComponent(slot10, typeof(LayoutElement)).ignoreLayout = true
+		GetOrAddComponent(slot11, typeof(LayoutElement)).ignoreLayout = true
+		slot10.anchorMax = Vector2(0, 1)
+		slot10.anchorMin = Vector2(0, 1)
+		slot11.anchorMax = Vector2(0, 1)
+		slot11.anchorMin = Vector2(0, 1)
+		slot10.anchoredPosition = Vector2(slot9[3], slot9[4])
+		slot11.anchoredPosition = Vector2(slot9[1], slot9[2])
+	end
 end
 
 function slot0.attach(slot0, slot1)
@@ -269,38 +313,6 @@ function slot0.updateShipAttrs(slot0)
 				setText(slot14, slot1:getShipAmmo())
 			end
 		end
-	end
-
-	slot7 = nil
-	slot7 = (PLATFORM_CODE ~= PLATFORM_JP or uv2.jp) and (PLATFORM_CODE ~= PLATFORM_KR or uv2.kr) and (PLATFORM_CODE ~= PLATFORM_US or uv2.us) and uv2.defaut
-
-	for slot12 = 1, #slot7.sort_index do
-		slot13 = slot8[slot12]
-		slot14 = findTF(slot0.attrs, "props/" .. slot13)
-		slot15 = findTF(slot0.attrs, "icons/" .. slot13)
-
-		if pg.gametip["attr_" .. slot13].tip and string.len(slot16) > 0 and slot13 ~= "armor" then
-			setText(findTF(slot15, "name"), slot16)
-		end
-
-		slot14:SetSiblingIndex(slot12 - 1)
-		slot15:SetSiblingIndex(slot12 - 1)
-	end
-
-	for slot13 = 1, #slot7.hide do
-		slot14 = slot9[slot13]
-
-		setActive(findTF(slot0.attrs, "props/" .. slot14), false)
-		setActive(findTF(slot0.attrs, "icons/" .. slot14), false)
-	end
-
-	for slot14, slot15 in pairs(slot7.prop_ignore) do
-		slot16 = findTF(slot0.attrs, "props/" .. slot14)
-		slot17 = findTF(slot0.attrs, "icons/" .. slot14)
-		GetOrAddComponent(slot16, typeof(LayoutElement)).ignoreLayout = true
-		GetOrAddComponent(slot17, typeof(LayoutElement)).ignoreLayout = true
-		Vector2(slot16.anchoredPosition.x, slot16.anchoredPosition.y).anchoredPosition = Vector2(slot15[3], slot15[4])
-		Vector2(slot17.anchoredPosition.x, slot17.anchoredPosition.y).anchoredPosition = Vector2(slot15[1], slot15[2])
 	end
 
 	slot0:updateEvalues()

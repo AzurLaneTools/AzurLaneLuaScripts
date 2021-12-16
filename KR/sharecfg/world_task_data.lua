@@ -97,7 +97,7 @@ pg.world_task_data = {
 			22
 		},
 		following_random = {
-			22
+			203
 		},
 		task_event = {},
 		complete_parameter = {
@@ -116,7 +116,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -165,7 +165,7 @@ pg.world_task_data = {
 			24
 		},
 		following_random = {
-			24
+			204
 		},
 		task_event = {},
 		complete_parameter = {
@@ -184,7 +184,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -233,7 +233,7 @@ pg.world_task_data = {
 			33
 		},
 		following_random = {
-			33
+			205
 		},
 		task_event = {},
 		complete_parameter = {
@@ -252,7 +252,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -301,7 +301,7 @@ pg.world_task_data = {
 			31
 		},
 		following_random = {
-			31
+			206
 		},
 		task_event = {},
 		complete_parameter = {
@@ -320,7 +320,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -369,7 +369,7 @@ pg.world_task_data = {
 			32
 		},
 		following_random = {
-			32
+			207
 		},
 		task_event = {},
 		complete_parameter = {
@@ -388,7 +388,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -528,7 +528,7 @@ pg.world_task_data = {
 			{
 				12,
 				101,
-				2
+				5
 			},
 			{
 				12,
@@ -647,7 +647,7 @@ pg.world_task_data = {
 			132
 		},
 		following_random = {
-			132
+			211
 		},
 		task_event = {},
 		complete_parameter = {
@@ -715,7 +715,7 @@ pg.world_task_data = {
 			134
 		},
 		following_random = {
-			134
+			212
 		},
 		task_event = {},
 		complete_parameter = {
@@ -783,7 +783,7 @@ pg.world_task_data = {
 			135
 		},
 		following_random = {
-			135
+			213
 		},
 		task_event = {},
 		complete_parameter = {
@@ -851,7 +851,7 @@ pg.world_task_data = {
 			111
 		},
 		following_random = {
-			111
+			214
 		},
 		task_event = {},
 		complete_parameter = {
@@ -919,7 +919,7 @@ pg.world_task_data = {
 			113
 		},
 		following_random = {
-			113
+			215
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1116,7 +1116,7 @@ pg.world_task_data = {
 			41
 		},
 		following_random = {
-			41
+			220
 		},
 		task_event = {
 			21901
@@ -1191,7 +1191,7 @@ pg.world_task_data = {
 			81
 		},
 		following_random = {
-			81
+			221
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1264,7 +1264,7 @@ pg.world_task_data = {
 			84
 		},
 		following_random = {
-			84
+			222
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1337,7 +1337,7 @@ pg.world_task_data = {
 			105
 		},
 		following_random = {
-			105
+			223
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1410,7 +1410,7 @@ pg.world_task_data = {
 			91
 		},
 		following_random = {
-			91
+			224
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1483,7 +1483,7 @@ pg.world_task_data = {
 			82
 		},
 		following_random = {
-			82
+			225
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1636,7 +1636,7 @@ pg.world_task_data = {
 			73
 		},
 		following_random = {
-			73
+			230
 		},
 		task_event = {
 			22901
@@ -1711,7 +1711,7 @@ pg.world_task_data = {
 			72
 		},
 		following_random = {
-			72
+			231
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1784,7 +1784,7 @@ pg.world_task_data = {
 			8
 		},
 		following_random = {
-			8
+			232
 		},
 		task_event = {
 			23200
@@ -1859,7 +1859,7 @@ pg.world_task_data = {
 			54
 		},
 		following_random = {
-			54
+			233
 		},
 		task_event = {},
 		complete_parameter = {
@@ -1932,7 +1932,7 @@ pg.world_task_data = {
 			52
 		},
 		following_random = {
-			52
+			234
 		},
 		task_event = {},
 		complete_parameter = {
@@ -2005,7 +2005,7 @@ pg.world_task_data = {
 			61
 		},
 		following_random = {
-			61
+			235
 		},
 		task_event = {},
 		complete_parameter = {
@@ -2114,6 +2114,595 @@ pg.world_task_data = {
 			100,
 			100
 		}
+	},
+	[2600] = {
+		server_type = 1,
+		name = "Chapter5-1 늪",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2600,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "총공격 시간이 아직 결정되지 않았다. 전초전에 머물러 남은 임무를 처리하자.",
+		priority = 10,
+		complete_stage = 110,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "전초전 내 끝나지 않은 임무 처리",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			32
+		},
+		following_random = {
+			260
+		},
+		task_event = {},
+		complete_parameter = {
+			2601
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2601] = {
+		server_type = 1,
+		name = "Chapter5-2 비콘",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2601,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "출격하여 엔터프라이즈와 함께 핵심 구역 정찰 임무 완료",
+		priority = 10,
+		complete_stage = 120,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "엔터프라이즈와 함께 정찰 임무 완료",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			159
+		},
+		following_random = {
+			261
+		},
+		task_event = {},
+		complete_parameter = {
+			2602
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2602] = {
+		server_type = 1,
+		name = "Chapter5-3 환영",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2602,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "애쉬 비류의 행동이 뭔가 이상하다. 그녀의 진정한 의도를 파악해 내자.",
+		priority = 10,
+		complete_stage = 130,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "애쉬 비류의 진정한 의도 파악",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			156
+		},
+		following_random = {
+			262
+		},
+		task_event = {},
+		complete_parameter = {
+			2603
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2603] = {
+		server_type = 1,
+		name = "Chapter5-4 다과회",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2603,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "전선에서의 휴식은 매우 중요하다. 로열의 다과회를 즐기자.",
+		priority = 10,
+		complete_stage = 140,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "로열 다과회 참여",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			113
+		},
+		following_random = {
+			263
+		},
+		task_event = {},
+		complete_parameter = {
+			2604
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2604] = {
+		server_type = 1,
+		name = "Chapter5-5 총공격 개시",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2604,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "핵심 구역에 대한 총공격이 드디어 시작되었다. 작전을 지휘하여 완료하자.",
+		priority = 10,
+		complete_stage = 150,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "총공격 작전 지휘",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			157
+		},
+		following_random = {
+			264
+		},
+		task_event = {},
+		complete_parameter = {
+			2605
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2605] = {
+		server_type = 1,
+		name = "Chapter5-6-0 고리",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2605,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "세이렌의 첫 번째 방어선이 와해되고 있다. 계속하여 중심을 향해 나아가자.",
+		priority = 10,
+		complete_stage = 160,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "중심을 향해 전진",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			154
+		},
+		following_random = {
+			265
+		},
+		task_event = {},
+		complete_parameter = {
+			2606
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2606] = {
+		server_type = 1,
+		name = "Chapter5-6-1 만남의 장소",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2606,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "함대가 특수한 공간에 진입했다. 우선 흩어진 동료와 합류하자.",
+		priority = 10,
+		complete_stage = 170,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "흩어진 동료와 합류",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			154
+		},
+		following_random = {
+			266
+		},
+		task_event = {},
+		complete_parameter = {
+			2607
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[2607] = {
+		server_type = 1,
+		name = "Chapter5-6-2 심층 순환",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 2607,
+		complete_condition = 4,
+		exp = 0,
+		rare_task_text = "끝없는 폐허 속에서 벗어날 길을 찾자.",
+		priority = 10,
+		complete_stage = 180,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "폐허의 바다에서 전진",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			154
+		},
+		following_random = {
+			267
+		},
+		task_event = {},
+		complete_parameter = {
+			4100
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				5,
+				212,
+				1
+			},
+			{
+				12,
+				100,
+				1500
+			},
+			{
+				12,
+				101,
+				10
+			},
+			{
+				12,
+				201,
+				1
+			},
+			{
+				12,
+				202,
+				1
+			}
+		},
+		reset_task = {}
 	},
 	[3101] = {
 		server_type = 2,
@@ -2869,6 +3458,302 @@ pg.world_task_data = {
 				100
 			}
 		},
+		reset_task = {}
+	},
+	[4100] = {
+		server_type = 1,
+		name = "모의 전투: 익스큐터XIV",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4100,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "아비터에 대한 대응의 일환으로, 모의 전투 해역으로 이동하여 익스큐터XIV「Equilibrium」와 교전.",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "모의 전투 해역으로 이동하여 익스큐터XIV「Equilibrium」와 교전",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003601,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			84
+		},
+		following_random = {
+			44000
+		},
+		task_event = {},
+		complete_parameter = {
+			7000301
+		},
+		next_task = {
+			4101
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				12,
+				2006,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[4101] = {
+		server_type = 1,
+		name = "모의 전투: 익스큐터VIII",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4101,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "아비터에 대한 대응의 일환으로, 모의 전투 해역으로 이동하여 익스큐터VIII「Determination」와 교전",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "모의 전투 해역으로 이동하여 익스큐터VIII「Determination」와 교전",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003602,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			114
+		},
+		following_random = {
+			44001
+		},
+		task_event = {},
+		complete_parameter = {
+			7000311
+		},
+		next_task = {
+			4102
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				12,
+				2006,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[4102] = {
+		server_type = 1,
+		name = "모의 전투: 익스큐터IX",
+		continuity = 1,
+		type = 0,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4102,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "아비터에 대한 대응의 일환으로, 모의 전투 해역으로 이동하여 익스큐터IX「Exploration」와 교전",
+		priority = 10,
+		complete_stage = 200,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "모의 전투 해역으로 이동하여 익스큐터IX「Exploration」와 교전",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003603,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {},
+		task_target_map = {
+			0
+		},
+		following_region = {},
+		following_map = {
+			32
+		},
+		following_random = {
+			44001
+		},
+		task_event = {},
+		complete_parameter = {
+			7000321
+		},
+		next_task = {
+			4200
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				2,
+				30114,
+				15
+			},
+			{
+				12,
+				2015,
+				1
+			}
+		},
+		reset_task = {}
+	},
+	[4200] = {
+		server_type = 3,
+		name = "일반 작전: 아비터",
+		continuity = 0,
+		type = 5,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4200,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "NA 해역 중심으로 이동하여, 아비터 복제 기체 격파",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "NA 해역 중심으로 이동하여, 아비터 양산형 기체 격파",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			154
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {},
+		following_random = {},
+		task_event = {},
+		complete_parameter = {
+			7000400
+		},
+		next_task = {
+			4201
+		},
+		task_goto = {
+			3
+		},
+		show = {},
+		reset_task = {
+			200,
+			300
+		}
+	},
+	[4201] = {
+		server_type = 3,
+		name = "어려움 작전: 아비터",
+		continuity = 0,
+		type = 5,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 4201,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "NA 해역 중심으로 이동하여, 아비터 강화 복제 기체 격파",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "NA 해역 중심으로 이동하여, 아비터 강화 양산형 기체 격파",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 0,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			154
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {},
+		following_random = {},
+		task_event = {},
+		complete_parameter = {
+			7000401
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {},
 		reset_task = {}
 	},
 	[210000] = {
@@ -6063,6 +6948,14 @@ pg.world_task_data = {
 		2304,
 		2305,
 		2310,
+		2600,
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2607,
 		3101,
 		3102,
 		3103,
@@ -6075,6 +6968,11 @@ pg.world_task_data = {
 		3304,
 		3401,
 		3402,
+		4100,
+		4101,
+		4102,
+		4200,
+		4201,
 		210000,
 		210100,
 		210200,

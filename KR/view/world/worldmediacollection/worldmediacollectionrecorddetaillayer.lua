@@ -1,4 +1,6 @@
 slot0 = class("WorldMediaCollectionRecordDetailLayer", import(".WorldMediaCollectionSubLayer"))
+slot0.TypeStory = 1
+slot0.TypeBattle = 2
 
 function slot0.getUIName(slot0)
 	return "WorldMediaCollectionMemoryDetailUI"
@@ -23,7 +25,7 @@ function slot0.OnInit(slot0)
 
 	setActive(slot0:findTF("Item", slot0.recordItemList), false)
 
-	slot0.loader = WorldMediaCollectionLoader.New()
+	slot0.loader = AutoLoader.New()
 
 	setText(slot0._tf:Find("ItemRect/ProgressDesc"), i18n("world_collection_2"))
 end
@@ -34,7 +36,7 @@ function slot0.OnInitRecordItem(slot0, slot1)
 	end
 
 	onButton(slot0, slot1, function ()
-		slot1 = nowWorld:GetCollectionProxy()
+		slot1 = nowWorld():GetCollectionProxy()
 
 		if uv0.recordItems[uv1] and uv0.CheckRecordIsUnlock(slot0) then
 			uv0:PlayMemory(slot0)
@@ -57,7 +59,7 @@ function slot0.OnUpdateRecordItem(slot0, slot1, slot2)
 
 		slot4:Find("normal/title"):GetComponent(typeof(Text)).text = HXSet.hxLan(slot3.name)
 
-		slot0.loader:GetSprite("memoryicon/" .. slot3.icon, "", slot4:Find("normal"))
+		slot0.loader:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", slot4:Find("normal"))
 		setText(slot4:Find("normal/id"), string.format("#%u", slot3.group_ID))
 	else
 		setActive(slot4:Find("normal"), false)
@@ -79,23 +81,31 @@ function slot0.SetStoryMask(slot0, slot1)
 end
 
 function slot0.PlayMemory(slot0, slot1)
-	slot2 = findTF(slot0.memoryMask, "pic")
-
-	if string.len(slot1.mask) > 0 then
-		setActive(slot2, true)
-
-		slot2:GetComponent(typeof(Image)).sprite = LoadSprite(slot1.mask)
+	if slot1.type == uv0.TypeBattle then
+		slot0:emit(WorldMediaCollectionMediator.BEGIN_STAGE, {
+			memory = true,
+			system = SYSTEM_PERFORM,
+			stageId = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot1.story)
+		})
 	else
-		setActive(slot2, false)
+		slot2 = findTF(slot0.memoryMask, "pic")
+
+		if string.len(slot1.mask) > 0 then
+			setActive(slot2, true)
+
+			slot2:GetComponent(typeof(Image)).sprite = LoadSprite(slot1.mask)
+		else
+			setActive(slot2, false)
+		end
+
+		setActive(slot0.memoryMask, true)
+
+		slot3 = pg.NewStoryMgr.GetInstance()
+
+		slot3:Play(slot1.story, function ()
+			setActive(uv0.memoryMask, false)
+		end, true)
 	end
-
-	setActive(slot0.memoryMask, true)
-
-	slot3 = pg.NewStoryMgr.GetInstance()
-
-	slot3:Play(slot1.story, function ()
-		setActive(uv0.memoryMask, false)
-	end, true)
 end
 
 function slot0.ShowRecordGroup(slot0, slot1)
@@ -119,7 +129,7 @@ function slot0.ShowRecordGroup(slot0, slot1)
 end
 
 function slot0.CheckRecordIsUnlock(slot0)
-	return nowWorld:GetCollectionProxy():IsUnlock(slot0.id) or pg.NewStoryMgr.GetInstance():IsPlayed(slot0.story, true)
+	return nowWorld():GetCollectionProxy():IsUnlock(slot0.id) or pg.NewStoryMgr.GetInstance():IsPlayed(slot0.story, true)
 end
 
 function slot0.CleanList(slot0)

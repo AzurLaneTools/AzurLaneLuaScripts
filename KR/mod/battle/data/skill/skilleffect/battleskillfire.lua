@@ -11,6 +11,7 @@ function slot2.Ctor(slot0, slot1, slot2)
 	slot0._weaponID = slot0._tempData.arg_list.weapon_id
 	slot0._emitter = slot0._tempData.arg_list.emitter
 	slot0._useSkin = slot0._tempData.arg_list.useSkin
+	slot0._atkAttrConvert = slot0._tempData.arg_list.attack_attribute_convert
 end
 
 function slot2.SetWeaponSkin(slot0, slot1)
@@ -36,10 +37,16 @@ function slot2.DoDataEffect(slot0, slot1, slot2)
 		}))
 	end
 
-	slot0._weapon:updateMovementInfo()
-	slot0._weapon:SingleFire(slot2, slot0._emitter, function ()
+	function slot3()
 		uv0._weapon:Clear()
-	end)
+	end
+
+	if slot0._atkAttrConvert then
+		slot0._weapon:SetAtkAttrTrasnform(slot0._atkAttrConvert.attr_type, slot0._atkAttrConvert.A, slot0._atkAttrConvert.B)
+	end
+
+	slot0._weapon:updateMovementInfo()
+	slot0._weapon:SingleFire(slot2, slot0._emitter, slot3)
 end
 
 function slot2.DoDataEffectWithoutTarget(slot0, slot1)

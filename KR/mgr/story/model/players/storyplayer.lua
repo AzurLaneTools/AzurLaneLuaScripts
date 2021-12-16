@@ -193,6 +193,14 @@ function slot0.CanSkip(slot0)
 	return slot0.step and not slot0.step:ExistOption()
 end
 
+function slot0.InterruptAutoPlay(slot0)
+	if slot0.isRegisterEvent then
+		setButtonEnabled(slot0._tf, true)
+	else
+		slot0.autoNext = false
+	end
+end
+
 function slot0.NextOne(slot0)
 	slot0.timeScale = 0.0001
 

@@ -72,8 +72,10 @@ function slot0.OnInit(slot0)
 		end
 
 		seriesAsync(slot0, function ()
-			if not uv0.isCost and nowWorld.staminaMgr:GetTotalStamina() < uv0.config.enter_cost then
-				nowWorld.staminaMgr:Show()
+			slot0 = nowWorld().staminaMgr
+
+			if not uv0.isCost and slot0:GetTotalStamina() < uv0.config.enter_cost then
+				slot0:Show()
 			else
 				uv1:emit(WorldScene.SceneOp, "OpTransport", uv1.entrance, uv0)
 			end
@@ -160,7 +162,7 @@ function slot0.Setup(slot0, slot1, slot2, slot3, slot4)
 
 	setAnchoredPosition(slot0.rtBasePoint, slot8:InverseTransformPoint(slot10:ScreenToWorldPoint(slot4:GetMapScreenPos(Vector2(slot1.config.area_pos[1], slot1.config.area_pos[2])))))
 
-	slot6 = nowWorld
+	slot6 = nowWorld()
 	slot0.mapList = slot6:EntranceToReplacementMapList(slot1)
 	slot7 = slot0.toggleItemList
 
@@ -204,57 +206,57 @@ function slot0.setColorfulImage(slot0, slot1, slot2, slot3)
 end
 
 function slot0.UpdatePanel(slot0)
-	slot1 = nowWorld
-	slot4, slot5 = World.ReplacementMapType(slot0.entrance, slot0.mapList[slot0.destIndex])
-	slot6 = slot4 == "complete_chapter" and "safe" or WorldConst.GetMapIconState(slot3.config.entrance_ui)
+	slot1 = nowWorld()
+	slot3, slot4 = World.ReplacementMapType(slot0.entrance, slot0.mapList[slot0.destIndex])
+	slot5 = slot3 == "complete_chapter" and "safe" or WorldConst.GetMapIconState(slot2.config.entrance_ui)
 
-	slot0:setColorfulImage(slot0.rtBasePoint, slot6)
-	slot0:setColorfulImage(slot0.rtInfoPanel, slot6, false)
-	setImageSprite(slot0.rtInfoPanel:Find("icon"), GetSpriteFromAtlas("world/mapicon/" .. slot3.config.entrance_mapicon, ""))
-	slot0:setColorfulImage(slot0.btnBack, slot6)
-	slot0:setColorfulImage(slot0.btnEnter, slot6)
-	slot0:setColorfulImage(slot0.rtMarking, slot6)
-	slot0:setColorfulImage(slot0.rtMarking:Find("mark_bg"), slot6)
-	slot0:setColorfulImage(slot0.rtMaskMarking, slot6)
-	slot0:setColorfulImage(slot0.rtMaskMarking:Find("mark_bg"), slot6)
-	setText(slot0.rtMarking:Find("Text"), slot5)
-	setText(slot0.rtMaskMarking:Find("Text"), slot5)
-	setActive(slot0.rtInfoPanel:Find("sairen"), slot4 == "sairen_chapter")
+	slot0:setColorfulImage(slot0.rtBasePoint, slot5)
+	slot0:setColorfulImage(slot0.rtInfoPanel, slot5, false)
+	setImageSprite(slot0.rtInfoPanel:Find("icon"), GetSpriteFromAtlas("world/mapicon/" .. slot2.config.entrance_mapicon, ""))
+	slot0:setColorfulImage(slot0.btnBack, slot5)
+	slot0:setColorfulImage(slot0.btnEnter, slot5)
+	slot0:setColorfulImage(slot0.rtMarking, slot5)
+	slot0:setColorfulImage(slot0.rtMarking:Find("mark_bg"), slot5)
+	slot0:setColorfulImage(slot0.rtMaskMarking, slot5)
+	slot0:setColorfulImage(slot0.rtMaskMarking:Find("mark_bg"), slot5)
+	setText(slot0.rtMarking:Find("Text"), slot4)
+	setText(slot0.rtMaskMarking:Find("Text"), slot4)
+	setActive(slot0.rtInfoPanel:Find("sairen"), slot3 == "sairen_chapter")
 	setText(slot0.rtInfoPanel:Find("sairen/Text"), i18n("area_yaosai_2"))
-	setText(slot0.rtInfoPanel:Find("danger_text"), slot3:IsMapOpen() and slot3:GetDanger() or "?")
-	changeToScrollText(slot0.rtInfoPanel:Find("title/name"), slot3:GetName(slot0.entrance:GetBaseMap()))
+	setText(slot0.rtInfoPanel:Find("danger_text"), slot2:IsMapOpen() and slot2:GetDanger() or "?")
+	changeToScrollText(slot0.rtInfoPanel:Find("title/name"), slot2:GetName(slot0.entrance))
 
-	slot9, slot10, slot11 = slot1:CountAchievements(slot0.entrance)
+	slot8, slot9, slot10 = slot1:CountAchievements(slot0.entrance)
 
-	setText(slot0.rtInfoPanel:Find("title/achievement/number"), slot9 + slot10 .. "/" .. slot11)
-	setActive(slot0.rtInfoPanel:Find("pressing_award"), slot1:GetPressingAward(slot3.id) and slot12.flag)
+	setText(slot0.rtInfoPanel:Find("title/achievement/number"), slot8 + slot9 .. "/" .. slot10)
+	setActive(slot0.rtInfoPanel:Find("pressing_award"), slot1:GetPressingAward(slot2.id) and slot11.flag)
 
-	if slot12 and slot12.flag then
-		slot0.awardConfig = pg.world_event_complete[slot12.id].tips_icon
+	if slot11 and slot11.flag then
+		slot0.awardConfig = pg.world_event_complete[slot11.id].tips_icon
 
 		slot0.awardItemList:align(#slot0.awardConfig)
 	end
 
 	slot0:UpdateCost()
 
-	slot15, slot16 = nowWorld:GetAtlas():GetActiveMap():CkeckTransport()
+	slot14, slot15 = nowWorld():GetAtlas():GetActiveMap():CkeckTransport()
 
-	setActive(slot0.btnBack, not false and slot13:GetActiveEntrance() == slot0.entrance and slot14 == slot3)
+	setActive(slot0.btnBack, not false and slot12:GetActiveEntrance() == slot0.entrance and slot13 == slot2)
 
-	slot17 = slot17 or isActive(slot0.btnBack)
+	slot16 = slot16 or isActive(slot0.btnBack)
 
-	setActive(slot0.btnEnter, not slot17 and slot15 and slot7 and slot13.transportDic[slot0.entrance.id])
+	setActive(slot0.btnEnter, not slot16 and slot14 and slot6 and slot12.transportDic[slot0.entrance.id])
 
-	slot17 = slot17 or isActive(slot0.btnEnter)
+	slot16 = slot16 or isActive(slot0.btnEnter)
 
-	setText(slot0.btnLock:Find("Text"), slot7 and i18n("world_map_locked_border") or i18n("world_map_locked_stage"))
-	setActive(slot0.btnLock, not slot17 and slot15)
+	setText(slot0.btnLock:Find("Text"), slot6 and i18n("world_map_locked_border") or i18n("world_map_locked_stage"))
+	setActive(slot0.btnLock, not slot16 and slot14)
 
-	slot17 = slot17 or isActive(slot0.btnLock)
+	slot16 = slot16 or isActive(slot0.btnLock)
 
-	setActive(slot0.btnReturn, not slot17)
+	setActive(slot0.btnReturn, not slot16)
 
-	slot17 = slot17 or isActive(slot0.btnReturn)
+	slot16 = slot16 or isActive(slot0.btnReturn)
 end
 
 function slot0.UpdateCost(slot0)
@@ -263,7 +265,7 @@ function slot0.UpdateCost(slot0)
 
 	setActive(slot2, not slot1.isCost)
 
-	slot3 = nowWorld.staminaMgr:GetTotalStamina()
+	slot3 = nowWorld().staminaMgr:GetTotalStamina()
 
 	setText(slot2:Find("Text"), setColorStr(slot3, slot3 < slot1.config.enter_cost and COLOR_RED or COLOR_GREEN) .. "/" .. slot4)
 end

@@ -53,4 +53,10 @@ function slot0.getText(slot0)
 	return slot0.text
 end
 
+function slot0.IsSameType(slot0, slot1)
+	return _.any(slot1, function (slot0)
+		return uv0.eventType == slot0
+	end)
+end
+
 return slot0

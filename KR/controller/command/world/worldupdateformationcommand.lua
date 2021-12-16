@@ -1,7 +1,7 @@
 slot0 = class("WorldUpdateFormationCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot3 = nowWorld
+	slot3 = nowWorld()
 	slot4 = slot3:GetActiveMap()
 	slot6 = pg.ConnectionMgr.GetInstance()
 
@@ -16,7 +16,7 @@ function slot0.execute(slot0, slot1)
 		end)
 	}, 33406, function (slot0)
 		if slot0.result == 0 then
-			slot1 = nowWorld
+			slot1 = nowWorld()
 
 			_.each(uv0.list, function (slot0)
 				slot1 = uv0:GetFleet(slot0.fleetId)

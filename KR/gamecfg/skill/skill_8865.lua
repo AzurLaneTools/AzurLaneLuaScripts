@@ -17,7 +17,20 @@ return {
 				attack_attribute_convert = {
 					attr_type = "fleetGS",
 					A = 80,
-					B = 400
+					B = 600
+				}
+			}
+		},
+		{
+			target_choise = "TargetNil",
+			type = "BattleSkillFire",
+			arg_list = {
+				emitter = "BattleBulletEmitter",
+				weapon_id = 533015,
+				attack_attribute_convert = {
+					attr_type = "fleetGS",
+					A = 80,
+					B = 600
 				}
 			}
 		}

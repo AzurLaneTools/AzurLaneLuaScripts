@@ -142,9 +142,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	if not pg.m02:retrieveMediator(WorldMediator.__cname).viewComponent:CheckMarkOverallClose() then
-		triggerButton(slot0.btnBack)
-	end
+	triggerButton(slot0.btnBack)
 end
 
 function slot0.willExit(slot0)
@@ -253,8 +251,8 @@ function slot0.NewPortLeft(slot0)
 	slot1 = WSPortLeft.New()
 	slot1.transform = slot0.rtTopLeft
 
-	slot1:Setup(nowWorld)
-	slot1:UpdateMap(nowWorld:GetActiveMap())
+	slot1:Setup()
+	slot1:UpdateMap(nowWorld():GetActiveMap())
 
 	return slot1
 end
@@ -380,26 +378,26 @@ function slot0.SetPort(slot0, slot1)
 		if uv0.port:IsValid() then
 			uv0:UpdateRefreshTime(uv0.port.expiredTime - pg.TimeMgr.GetInstance():GetServerTime())
 		else
-			uv0:emit(WorldPortMediator.OnReqPort, nowWorld:GetActiveMap().id)
+			uv0:emit(WorldPortMediator.OnReqPort, uv1:GetActiveMap().id)
 		end
 	end, 1, -1)
 
 	slot0.refreshTimer:Start()
 	slot0.refreshTimer.func()
 
-	slot2 = nowWorld:GetActiveMap():GetFleet()
+	slot3 = nowWorld():GetActiveMap():GetFleet()
 	slot0.wsPortLeft = slot0:NewPortLeft()
 
-	setActive(slot0.buttons[1], slot0.port:GetRealm() == 0 or slot3 == nowWorld:GetRealm())
-	setActive(slot0.buttons[3], slot3 == 0 or slot3 == nowWorld:GetRealm())
-	setActive(slot0.resPanel._tf, nowWorld:IsSystemOpen(WorldConst.SystemResource))
+	setActive(slot0.buttons[1], slot0.port:GetRealm() == 0 or slot4 == slot2:GetRealm())
+	setActive(slot0.buttons[3], slot4 == 0 or slot4 == slot2:GetRealm())
+	setActive(slot0.resPanel._tf, slot2:IsSystemOpen(WorldConst.SystemResource))
 
-	slot0.inventory = nowWorld:GetInventoryProxy()
+	slot0.inventory = slot2:GetInventoryProxy()
 
 	slot0.inventory:AddListener(WorldInventoryProxy.EventUpdateItem, slot0.onUpdateMoneyCount)
 	slot0:OnUpdateMoneyCount()
 
-	slot0.taskProxy = nowWorld:GetTaskProxy()
+	slot0.taskProxy = slot2:GetTaskProxy()
 
 	slot0.taskProxy:AddListener(WorldTaskProxy.EventUpdateTask, slot0.onUpdateTasks)
 end
@@ -619,7 +617,7 @@ function slot0.UpdateCDTip(slot0)
 end
 
 function slot0.UpdateTaskTip(slot0)
-	setActive(slot0.rtButtons:Find("operation/new"), nowWorld:GetAtlas().taskPortDic[slot0.port.id])
+	setActive(slot0.rtButtons:Find("operation/new"), nowWorld():GetAtlas().taskPortDic[slot0.port.id])
 end
 
 function slot0.showTaskWindow(slot0, slot1)

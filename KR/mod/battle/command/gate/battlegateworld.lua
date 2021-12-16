@@ -3,33 +3,35 @@ ys.Battle.BattleGateWorld = slot0
 slot0.__name = "BattleGateWorld"
 
 function slot0.Entrance(slot0, slot1)
+	slot2 = nowWorld()
+
 	if BeginStageCommand.DockOverload() then
-		nowWorld:TriggerAutoFight(false)
+		slot2:TriggerAutoFight(false)
 
 		return
 	end
 
-	slot2 = getProxy(PlayerProxy)
-	slot3 = getProxy(BayProxy)
-	slot5 = pg.battle_cost_template[SYSTEM_WORLD].oil_cost > 0
-	slot6 = {}
-	slot7 = 0
+	slot3 = getProxy(PlayerProxy)
+	slot4 = getProxy(BayProxy)
+	slot6 = pg.battle_cost_template[SYSTEM_WORLD].oil_cost > 0
+	slot7 = {}
 	slot8 = 0
 	slot9 = 0
 	slot10 = 0
+	slot11 = 0
 
-	for slot18, slot19 in ipairs(nowWorld:GetActiveMap():GetFleet():GetShipVOs(false)) do
-		slot6[#slot6 + 1] = slot19.id
+	for slot18, slot19 in ipairs(slot2:GetActiveMap():GetFleet():GetShipVOs(false)) do
+		slot7[#slot7 + 1] = slot19.id
 	end
 
 	slot15, slot16 = slot13:GetCost()
-	slot7 = slot15.gold
-	slot8 = slot15.oil
-	slot9 = slot15.gold + slot16.gold
-	slot10 = slot15.oil + slot16.oil
-	slot17 = slot2:getData()
+	slot8 = slot15.gold
+	slot9 = slot15.oil
+	slot10 = slot15.gold + slot16.gold
+	slot11 = slot15.oil + slot16.oil
+	slot17 = slot3:getData()
 
-	if slot5 and slot17.oil < slot10 then
+	if slot6 and slot17.oil < slot11 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
@@ -39,7 +41,7 @@ function slot0.Entrance(slot0, slot1)
 	slot20 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot18].dungeon_id).fleet_prefab
 
 	slot1.ShipVertify()
-	BeginStageCommand.SendRequest(SYSTEM_WORLD, slot6, {
+	BeginStageCommand.SendRequest(SYSTEM_WORLD, slot7, {
 		slot18
 	}, function (slot0)
 		if uv0 then
@@ -81,7 +83,7 @@ function slot0.Exit(slot0, slot1)
 	slot3 = slot0.statistics._battleScore
 	slot4 = 0
 	slot5 = {}
-	slot8 = nowWorld:GetActiveMap():GetFleet()
+	slot8 = nowWorld():GetActiveMap():GetFleet()
 	slot5 = slot8:GetShipVOs(true)
 	slot9, slot10 = slot8:GetCost()
 	slot4 = slot10.oil

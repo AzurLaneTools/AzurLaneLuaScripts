@@ -72,7 +72,7 @@ end
 
 function slot0.Setup(slot0, slot1)
 	slot0.awards = slot1:GetAchievementAwards()
-	slot0.hasAward, slot3 = nowWorld:AnyUnachievedAchievement(slot1)
+	slot0.hasAward, slot3 = nowWorld():AnyUnachievedAchievement(slot1)
 	slot0.nextStar = slot3 and slot3.star or nil
 
 	slot0.itemList:align(#slot0.awards)

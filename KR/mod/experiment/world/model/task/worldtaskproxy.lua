@@ -119,7 +119,7 @@ function slot0.getDoingTaskVOs(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0:getTasks()) do
-		if slot6:getState() == WorldTask.STATE_ONGOING or slot7 == WorldTask.STATE_FINISHED then
+		if slot6:isAlive() then
 			table.insert(slot1, slot6)
 		end
 	end

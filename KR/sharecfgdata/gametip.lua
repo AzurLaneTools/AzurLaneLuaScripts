@@ -3539,6 +3539,22 @@ _G.pg.gametip.world_target_count = {
 	tip = "현재 목표 보상 $1개 수령 가능"
 }
 
+_G.pg.gametip.world_target_filter_tip1 = {
+	tip = "모두"
+}
+
+_G.pg.gametip.world_target_filter_tip2 = {
+	tip = "미완료"
+}
+
+_G.pg.gametip.world_target_get_all = {
+	tip = "모든 해역 색적 보상을 수령하시겠습니까?"
+}
+
+_G.pg.gametip.world_target_goto = {
+	tip = "해역 이동"
+}
+
 _G.pg.gametip.world_help_tip = {
 	tip = {
 		{
@@ -4020,8 +4036,20 @@ _G.pg.gametip.world_movelimit_event_text = {
 	tip = "현재 해역에 미완성한 임무가 존재하여 벗어날 수 없습니다."
 }
 
+_G.pg.gametip.world_mapbuff_tip = {
+	tip = "해역 내 모든 적 전투력 상승 중"
+}
+
 _G.pg.gametip.world_sametask_tip = {
 	tip = "임무 수령 실패. 같은 임무는 최대 1건만 수령 가능."
+}
+
+_G.pg.gametip.world_expedition_reward_display = {
+	tip = "보상 보기"
+}
+
+_G.pg.gametip.world_expedition_reward_display2 = {
+	tip = "HP $1%"
 }
 
 _G.pg.gametip.task_notfound_error = {
@@ -6549,6 +6577,10 @@ _G.pg.gametip.guild_name_invaild = {
 
 _G.pg.gametip.guild_apply_full = {
 	tip = "이미 신청이 꽉 찬 함대입니다."
+}
+
+_G.pg.gametip.guild_member_full = {
+	tip = "대함대에 자리가 없습니다."
 }
 
 _G.pg.gametip.guild_fire_duty_limit = {
@@ -14098,6 +14130,14 @@ _G.pg.gametip.tec_tendency_cur_3 = {
 	tip = "연구 방향/3기"
 }
 
+_G.pg.gametip.tec_target_catchup_none = {
+	tip = "강화 지향 / 미선택"
+}
+
+_G.pg.gametip.tec_target_catchup_selected = {
+	tip = "강화 지향"
+}
+
 _G.pg.gametip.tec_tendency_cur_4 = {
 	tip = "연구 방향/4기"
 }
@@ -14542,6 +14582,10 @@ _G.pg.gametip.guild_start_event_consume_tip = {
 	tip = "대함대 물자 $1을 사용해 [$2]을(를) 발령하시겠습니까?"
 }
 
+_G.pg.gametip.guild_start_event_consume_tip_extra = {
+	tip = "이번달에 <color=#ff5c5c>$3</color>회의 작전을 개시하였습니다.대함대 물자 $1을 사용해 [$2]을(를) 발령하시겠습니까?"
+}
+
 _G.pg.gametip.guild_word_consume_for_battle = {
 	tip = "발령 사용"
 }
@@ -14796,6 +14840,10 @@ _G.pg.gametip.guild_battle_log = {
 
 _G.pg.gametip.guild_tech_change_log = {
 	tip = "[$1] $2 과학 연구 $3(으)로 전환"
+}
+
+_G.pg.gametip.guild_log_title = {
+	tip = "함대 일지"
 }
 
 _G.pg.gametip.guild_use_donateitem_success = {
@@ -16198,7 +16246,7 @@ _G.pg.gametip.world_joint_exit_battle_tip = {
 }
 
 _G.pg.gametip.world_boss_get_item = {
-	tip = "비콘 데이터를 지정량만큼 수집하였습니다. 바로 분석하시겠습니까?\n(<color=#ff5c5c>분석하지 않을 시, 계속 이어서 비콘 데이터를 획득하지 않습니다</color>.)"
+	tip = "비콘 데이터를 지정량만큼 수집하였습니다. 바로 분석하시겠습니까?"
 }
 
 _G.pg.gametip.world_boss_ask_help = {
@@ -16605,12 +16653,124 @@ _G.pg.gametip.world_setting_submititemtip = {
 	tip = "기능 설정 후, 자율 색적 시 아이템을 자동 제출하여 해역 사건을 완료합니다."
 }
 
+_G.pg.gametip.world_setting_mapauto = {
+	tip = "안전 해역 자율 모드 기본 설정"
+}
+
+_G.pg.gametip.world_setting_mapautotip = {
+	tip = "기능 설정 후, 안전 해역 진입 시 자율 모드가 기본 설정됩니다."
+}
+
 _G.pg.gametip.world_boss_maintenance = {
 	tip = "곧 서버 점검이 시작되어, 비콘·META 작전을 진행할 수 없습니다."
 }
 
 _G.pg.gametip.world_boss_inbattle = {
 	tip = "현재 비콘·META 작전 중. 이동 불가."
+}
+
+_G.pg.gametip.world_automode_title_1 = {
+	tip = "계획 작전 모드"
+}
+
+_G.pg.gametip.world_automode_title_2 = {
+	tip = "OPERATION"
+}
+
+_G.pg.gametip.world_automode_cancel = {
+	tip = "취소"
+}
+
+_G.pg.gametip.world_automode_confirm = {
+	tip = "확인"
+}
+
+_G.pg.gametip.world_automode_start_tip1 = {
+	tip = "조건에 맞는 해역이 없습니다."
+}
+
+_G.pg.gametip.world_automode_start_tip2 = {
+	tip = "행동력 부족"
+}
+
+_G.pg.gametip.world_automode_start_tip3 = {
+	tip = "현재 안전 해역이 아닙니다."
+}
+
+_G.pg.gametip.world_automode_start_tip4 = {
+	tip = "현재 해역 이탈 불가"
+}
+
+_G.pg.gametip.world_automode_setting_1 = {
+	tip = "확보해야 할 위험 등급:"
+}
+
+_G.pg.gametip.world_automode_setting_1_1 = {
+	tip = "4 이하"
+}
+
+_G.pg.gametip.world_automode_setting_1_2 = {
+	tip = "5"
+}
+
+_G.pg.gametip.world_automode_setting_1_3 = {
+	tip = "6"
+}
+
+_G.pg.gametip.world_automode_setting_1_4 = {
+	tip = "전부"
+}
+
+_G.pg.gametip.world_automode_setting_2 = {
+	tip = "작전 수행 모드 선택:"
+}
+
+_G.pg.gametip.world_automode_setting_2_1 = {
+	tip = "현재 해역 반복"
+}
+
+_G.pg.gametip.world_automode_setting_2_2 = {
+	tip = "모든 해역 랜덤 선택"
+}
+
+_G.pg.gametip.world_automode_setting_all_1 = {
+	tip = "신비한 상인 조우 시 일시정지"
+}
+
+_G.pg.gametip.world_automode_setting_all_1_1 = {
+	tip = "O"
+}
+
+_G.pg.gametip.world_automode_setting_all_1_2 = {
+	tip = "X"
+}
+
+_G.pg.gametip.world_automode_setting_all_2 = {
+	tip = "비콘 데이터 알림"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_1 = {
+	tip = "OFF"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_2 = {
+	tip = "100PT 누적 알림"
+}
+
+_G.pg.gametip.world_automode_setting_all_2_3 = {
+	tip = "200PT 누적 알림"
+}
+
+_G.pg.gametip.world_automode_setting_all_3 = {
+	tip = "자율 모드 시 아이템 자동 사용"
+}
+
+_G.pg.gametip.world_automode_setting_all_3_1 = {
+	tip = "OFF"
+}
+
+_G.pg.gametip.world_automode_setting_all_3_2 = {
+	tip = "ON"
 }
 
 _G.pg.gametip.area_putong = {
@@ -16798,6 +16958,14 @@ _G.pg.gametip.story_autoplay_setting_1 = {
 
 _G.pg.gametip.story_autoplay_setting_2 = {
 	tip = "ON"
+}
+
+_G.pg.gametip.meta_shop_exchange_limit = {
+	tip = "미획득 함선"
+}
+
+_G.pg.gametip.meta_shop_unexchange_label = {
+	tip = "미획득 함선"
 }
 
 _G.pg.gametip.daily_level_quick_battle_label2 = {
@@ -17943,6 +18111,50 @@ _G.pg.gametip.world_pressing = {
 	tip = "제압통계"
 }
 
+_G.pg.gametip.Settings_title_FPS = {
+	tip = "프레임 설정"
+}
+
+_G.pg.gametip.Settings_title_Notification = {
+	tip = "알림 기능 사용"
+}
+
+_G.pg.gametip.Settings_title_Other = {
+	tip = "기타 옵션"
+}
+
+_G.pg.gametip.Settings_title_LoginJP = {
+	tip = "인계 코드"
+}
+
+_G.pg.gametip.Settings_title_Redeem = {
+	tip = "교환 코드"
+}
+
+_G.pg.gametip.Settings_title_AdjustScr = {
+	tip = "스크린 최적화"
+}
+
+_G.pg.gametip.Settings_title_Secpw = {
+	tip = "2차 비밀번호"
+}
+
+_G.pg.gametip.Settings_title_Secpwlimop = {
+	tip = "2차 비밀번호 제한 조작"
+}
+
+_G.pg.gametip.Settings_title_agreement = {
+	tip = "협약 확인"
+}
+
+_G.pg.gametip.Settings_title_sound = {
+	tip = "보이스 설정"
+}
+
+_G.pg.gametip.Settings_title_resUpdate = {
+	tip = "리소스 다운"
+}
+
 _G.pg.gametip.equipment_info_change_tip = {
 	tip = "아래 장비의 명칭이 변경되었습니다."
 }
@@ -17961,6 +18173,18 @@ _G.pg.gametip.equipment_info_change_text_before = {
 
 _G.pg.gametip.equipment_info_change_text_after = {
 	tip = "변경 후"
+}
+
+_G.pg.gametip.world_boss_progress_tip_title = {
+	tip = "비콘 데이터 수집 알림"
+}
+
+_G.pg.gametip.world_boss_progress_tip_desc = {
+	tip = [[
+기능 설정 후, 대형 작전에서 비콘 데이터 수집 시:
+OFF: 알림 받지 않음
+100PT 누적 시마다: 100, 200PT 도달 시 알림
+200PT 누적 시마다: 200PT 도달 시 알림]]
 }
 
 _G.pg.gametip.ssss_main_help = {
@@ -18182,6 +18406,18 @@ _G.pg.gametip.blueprint_exchange_empty_tip = {
 
 _G.pg.gametip.blueprint_exchange_select_display = {
 	tip = "선택 수량 / 필요 수량"
+}
+
+_G.pg.gametip.build_rate_title = {
+	tip = "건조 확률"
+}
+
+_G.pg.gametip.build_pools_intro = {
+	tip = "성정 큐브와 물자를 사용하여 함대 규모를 빠르게 확장시키세요."
+}
+
+_G.pg.gametip.build_detail_intro = {
+	tip = "동시 건조 가능 수:"
 }
 
 _G.pg.gametip.ssss_game_tip = {

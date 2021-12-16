@@ -12,7 +12,7 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = {}
 
-			nowWorld:GetInventoryProxy():RemoveItem(uv0, uv1)
+			nowWorld():GetInventoryProxy():RemoveItem(uv0, uv1)
 
 			if WorldItem.New({
 				id = uv0,

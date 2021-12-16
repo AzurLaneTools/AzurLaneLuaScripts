@@ -5488,7 +5488,18 @@ function temp()
 				["제"] = {
 					["나"] = {
 						["우"] = {
-							this = true
+							this = true,
+							["·"] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -6050,6 +6061,19 @@ function temp()
 				["리"] = {
 					["아"] = {
 						this = true
+					}
+				}
+			},
+			["카"] = {
+				["가"] = {
+					["와"] = {
+						[" "] = {
+							["치"] = {
+								["세"] = {
+									this = true
+								}
+							}
+						}
 					}
 				}
 			}
@@ -7378,6 +7402,15 @@ function temp()
 						}
 					}
 				}
+			},
+			["미"] = {
+				[" "] = {
+					["유"] = {
+						["메"] = {
+							this = true
+						}
+					}
+				}
 			}
 		},
 		["카"] = {
@@ -7944,6 +7977,17 @@ function temp()
 		["카"] = {
 			["오"] = {
 				this = true
+			},
+			["라"] = {
+				["다"] = {
+					[" "] = {
+						["릿"] = {
+							["카"] = {
+								this = true
+							}
+						}
+					}
+				}
 			}
 		},
 		["슈"] = {
@@ -8881,7 +8925,18 @@ function temp()
 			}
 		},
 		["요"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		},
 		["류"] = {
 			this = true,
@@ -8930,6 +8985,11 @@ function temp()
 						}
 					}
 				}
+			}
+		},
+		["지"] = {
+			["나"] = {
+				this = true
 			}
 		}
 	}
@@ -9139,6 +9199,11 @@ function temp()
 		},
 		["기"] = {
 			["사"] = {
+				this = true
+			}
+		},
+		["미"] = {
+			["코"] = {
 				this = true
 			}
 		}
@@ -9948,6 +10013,34 @@ function temp()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["신"] = {
+		["죠"] = {
+			[" "] = {
+				["아"] = {
+					["카"] = {
+						["네"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["핫"] = {
+		["스"] = {
+			this = true
 		}
 	}
 end

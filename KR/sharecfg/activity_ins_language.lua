@@ -8725,190 +8725,190 @@ pg.activity_ins_language = {
 		value = "다음에 또 가져다 드릴게요, 지휘관님!"
 	},
 	ins_257 = {
-		value = ""
+		value = "산소 콜라…… 이건 탄산 음료인가요? 아니면 무슨……"
 	},
 	ins_discuss_257_1 = {
-		value = ""
+		value = "아니… 일단 탄산인지 아닌지는 됐고, 그거… 보통 사람은 마실 수 없을 텐데…"
 	},
 	ins_reply_257_1_1 = {
-		value = ""
+		value = "음, 그런가요…"
 	},
 	ins_discuss_257_2 = {
-		value = ""
+		value = "산소 콜라는 좋은 거야! 한 입에 마셔버려! 거품이 목구멍으로 들어올 때의 기분은! 정말 시원하지~"
 	},
 	ins_reply_257_2_1 = {
-		value = ""
+		value = "맞아 맞아. 산소 콜라는 행복과 즐거움의 원천이라고~"
 	},
 	ins_reply_257_2_2 = {
-		value = ""
+		value = "그럼…… 역시 탄산인 거죠?"
 	},
 	ins_reply_257_2_3 = {
-		value = ""
+		value = "산소 콜라… 대부분의 함선들에게는 평범한 맛있는 음료지만, 일반 사람은… 마실 수 없어요."
 	},
 	ins_op_257_1_1 = {
-		value = ""
+		value = "그냥 평범한 콜라 마실래?"
 	},
 	op_reply_257_1_1 = {
-		value = ""
+		value = "감사합니다, 지휘관님. 하지만 탄산 음료는 좀…"
 	},
 	ins_258 = {
-		value = ""
+		value = "이거 가져가서 소장해도 돼~"
 	},
 	ins_discuss_258_1 = {
-		value = ""
+		value = "오오… 완전 똑같아!"
 	},
 	ins_reply_258_1_1 = {
-		value = ""
+		value = "L.I. 씨의 인정을 받을 줄이야, 역시 아카네 씨에요."
 	},
 	ins_reply_258_1_2 = {
-		value = ""
+		value = "히힛, 도구를 지원해 준 L.I. 씨도 고마워~"
 	},
 	ins_discuss_258_2 = {
-		value = ""
+		value = "피규어화… 상업 기회인가냥?"
 	},
 	ins_reply_258_2_1 = {
-		value = ""
+		value = "괴수 피규어를 만들 거라면, 나한테 몇 개 남겨줘~"
 	},
 	ins_op_258_1_1 = {
-		value = ""
+		value = "수공업 달인!"
 	},
 	op_reply_258_1_1 = {
-		value = ""
+		value = "그럭저럭 괜찮은 듯~ 칭찬 고마워~"
 	},
 	ins_259 = {
-		value = ""
+		value = "후~ 마음을 가라앉힐 수 있을 것 같아~"
 	},
 	ins_discuss_259_1 = {
-		value = ""
+		value = "나미코, 차 우리는 솜씨가 보통이 아니네~"
 	},
 	ins_reply_259_1_1 = {
-		value = ""
+		value = "너무 맛있어요~"
 	},
 	ins_reply_259_1_2 = {
-		value = ""
+		value = "나도 다도 동아리의 일원이잖아~"
 	},
 	ins_discuss_259_2 = {
-		value = ""
+		value = "역시 사람은 겉모습만 보고 판단해서는 안 돼요…"
 	},
 	ins_reply_259_2_1 = {
-		value = ""
+		value = "에이~~~"
 	},
 	ins_reply_259_2_2 = {
-		value = ""
+		value = "나미코는… 스포츠 동아리가 더 잘 어울릴 것 같아요…"
 	},
 	ins_discuss_259_3 = {
-		value = ""
+		value = "로열의 다과회에 참여해! 흐흥, 무엇이 정통 로열 홍차인지 느끼게 해주지!"
 	},
 	ins_reply_259_3_1 = {
-		value = ""
+		value = "와~ 좋아, 갈게 갈게~"
 	},
 	ins_op_259_1_1 = {
-		value = ""
+		value = "환대에 줘서 고마워."
 	},
 	op_reply_259_1_1 = {
-		value = ""
+		value = "괜찮아 지휘관~ 다음에도 같이 다과회 하자!"
 	},
 	ins_260 = {
-		value = ""
+		value = "\"돌발! 이계 생방송——\" 이런 제목이라면 꽤 충격적이려나…"
 	},
 	ins_discuss_260_1 = {
-		value = ""
+		value = "와아, 여기서도 생방송 해?"
 	},
 	ins_reply_260_1_1 = {
-		value = ""
+		value = "꽤… 재밌는 것 같아."
 	},
 	ins_discuss_260_2 = {
-		value = ""
+		value = "핫스도 방송해~? 얼른 서로 구독 눌러 주자~"
 	},
 	ins_reply_260_2_1 = {
-		value = ""
+		value = "OK, 이미 구독했어."
 	},
 	ins_discuss_260_3 = {
-		value = ""
+		value = "에에~ 제가 재밌는 걸 놓친 건가요?"
 	},
 	ins_reply_260_3_1 = {
-		value = ""
+		value = "내 채널 구독해. 나중에 또 있을 거야…"
 	},
 	ins_op_260_1_1 = {
-		value = ""
+		value = "방송 재밌다."
 	},
 	op_reply_260_1_1 = {
-		value = ""
+		value = "지휘관이 제공해 준 장소와 설비 고마워."
 	},
 	ins_261 = {
-		value = ""
+		value = "새로운 친구와 기념으로."
 	},
 	ins_discuss_261_1 = {
-		value = ""
+		value = "이렇게 자기 사진을 보니까, 좀 부끄럽네…"
 	},
 	ins_reply_261_1_1 = {
-		value = ""
+		value = "왜요? 인디펜던스는 사진 잘 받는 걸요?"
 	},
 	ins_reply_261_1_2 = {
-		value = ""
+		value = "아하하, 네가 그렇게 말하니까 더 부끄러워…"
 	},
 	ins_discuss_261_2 = {
-		value = ""
+		value = "하하, 인형뽑기 하러 간 거야?"
 	},
 	ins_reply_261_2_1 = {
-		value = ""
+		value = "응, 내 손에 있는 게 유메가 뽑은 거야."
 	},
 	ins_reply_261_2_2 = {
-		value = ""
+		value = "그냥 운이 좋았을 뿐이에요."
 	},
 	ins_op_261_1_1 = {
-		value = ""
+		value = "친구들을 많이 사귀었네."
 	},
 	op_reply_261_1_1 = {
-		value = ""
+		value = "네… 지휘관님 덕분이에요."
 	},
 	ins_262 = {
-		value = ""
+		value = "선도부 도착! 교칙을 위반하는 나쁜 학생 여러분, 어디 있나요!"
 	},
 	ins_discuss_262_1 = {
-		value = ""
+		value = "단지 일일 체험이었지만, 몰입을 잘 하시던데요."
 	},
 	ins_reply_262_1_1 = {
-		value = ""
+		value = "이런 기회는 얻기 힘들잖아요~ 근데, 교칙을 위반한 사람은 잡지도 못했네요…"
 	},
 	ins_reply_262_1_2 = {
-		value = ""
+		value = "모두들 착하니까요… 아니면 교칙이 너무 느슨한 건가요… 아하하…"
 	},
 	ins_discuss_262_2 = {
-		value = ""
+		value = "오오! 정의의 동료! 함께 나쁜 녀석들을 혼내주자!"
 	},
 	ins_reply_262_2_1 = {
-		value = ""
+		value = "오~~ 정의를 위하여~~"
 	},
 	ins_op_262_1_1 = {
-		value = ""
+		value = "다음엔 다른 직무도 체험해 봐."
 	},
 	op_reply_262_1_1 = {
-		value = ""
+		value = "하하, 좋을 것 같네요~"
 	},
 	ins_263 = {
-		value = ""
+		value = "이 \"함장\", 좀 재미있네…"
 	},
 	ins_discuss_263_1 = {
-		value = ""
+		value = "무지나 씨는 우리 메탈 블러드의 장비에 관심이 많은 것 같네."
 	},
 	ins_reply_263_1_1 = {
-		value = ""
+		value = "괴수랑 좀 비슷해서… 연구해 볼만 한 것 같아."
 	},
 	ins_reply_263_1_2 = {
-		value = ""
+		value = "탐구자로서의 호기심인가… 이해할 수 있어."
 	},
 	ins_discuss_263_2 = {
-		value = ""
+		value = "흐흥, 우리 메탈 블러드의 과학 기술의 성과에 두렵나!? 메탈 블러드의 기술은 세계 제일이지!"
 	},
 	ins_reply_263_2_1 = {
-		value = ""
+		value = "확실히… 흥미가 생기네요."
 	},
 	ins_op_263_1_1 = {
-		value = ""
+		value = "다가갈 때 더욱 주의해야 해…"
 	},
 	op_reply_263_1_1 = {
-		value = ""
+		value = "뼈아픈 교훈이 있었나 보네, 지휘관."
 	},
 	all = {
 		ins_op_1_1_1,

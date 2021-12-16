@@ -33,6 +33,9 @@ pg.world_item_data_origin = {
 	{
 		origin_text = "심연 수비 전투 보상"
 	},
+	{
+		origin_text = "월간 아비터 전투 보상"
+	},
 	[100] = {
 		origin_text = "항구 상점 교환"
 	},

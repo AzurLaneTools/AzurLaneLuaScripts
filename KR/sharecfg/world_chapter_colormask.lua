@@ -1068,7 +1068,9 @@ pg.world_chapter_colormask = {
 		map_transfer = {
 			23,
 			32,
-			85
+			85,
+			155,
+			158
 		},
 		complete_chapter = {
 			1025
@@ -1261,7 +1263,8 @@ pg.world_chapter_colormask = {
 			25,
 			31,
 			34,
-			51
+			51,
+			158
 		},
 		complete_chapter = {
 			1032
@@ -1276,9 +1279,23 @@ pg.world_chapter_colormask = {
 			{
 				2004,
 				207
+			},
+			{
+				2600,
+				260
+			},
+			{
+				4102,
+				44002
 			}
 		},
-		stage_chapter = {},
+		stage_chapter = {
+			{
+				100,
+				109,
+				260
+			}
+		},
 		sairen_chapter = {
 			30011
 		},
@@ -1933,7 +1950,8 @@ pg.world_chapter_colormask = {
 		map_transfer = {
 			32,
 			52,
-			53
+			53,
+			159
 		},
 		complete_chapter = {
 			1051
@@ -2333,7 +2351,9 @@ pg.world_chapter_colormask = {
 		map_transfer = {
 			52,
 			65,
-			113
+			113,
+			156,
+			159
 		},
 		complete_chapter = {
 			1061
@@ -3317,7 +3337,8 @@ pg.world_chapter_colormask = {
 		map_transfer = {
 			81,
 			85,
-			91
+			91,
+			151
 		},
 		complete_chapter = {
 			1082
@@ -3530,6 +3551,10 @@ pg.world_chapter_colormask = {
 			{
 				2202,
 				222
+			},
+			{
+				4100,
+				44000
 			}
 		},
 		stage_chapter = {},
@@ -3613,7 +3638,9 @@ pg.world_chapter_colormask = {
 		map_transfer = {
 			25,
 			82,
-			83
+			83,
+			153,
+			155
 		},
 		complete_chapter = {
 			1085
@@ -4764,7 +4791,8 @@ pg.world_chapter_colormask = {
 		map_transfer = {
 			112,
 			113,
-			135
+			135,
+			152
 		},
 		complete_chapter = {
 			1111
@@ -4959,7 +4987,9 @@ pg.world_chapter_colormask = {
 			62,
 			65,
 			111,
-			114
+			114,
+			156,
+			157
 		},
 		complete_chapter = {
 			1113
@@ -4974,6 +5004,10 @@ pg.world_chapter_colormask = {
 			{
 				2105,
 				215
+			},
+			{
+				2603,
+				263
 			}
 		},
 		stage_chapter = {},
@@ -5069,7 +5103,12 @@ pg.world_chapter_colormask = {
 				20003
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				4101,
+				44001
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {
 			30050
@@ -5822,7 +5861,9 @@ pg.world_chapter_colormask = {
 			91,
 			131,
 			134,
-			135
+			135,
+			151,
+			152
 		},
 		complete_chapter = {
 			1133
@@ -6500,6 +6541,8 @@ pg.world_chapter_colormask = {
 			-48
 		},
 		map_transfer = {
+			82,
+			133,
 			152,
 			153
 		},
@@ -6595,7 +6638,9 @@ pg.world_chapter_colormask = {
 		},
 		map_transfer = {
 			151,
-			157
+			157,
+			133,
+			111
 		},
 		complete_chapter = {
 			1152
@@ -6688,6 +6733,7 @@ pg.world_chapter_colormask = {
 			-40
 		},
 		map_transfer = {
+			85,
 			151,
 			154,
 			155,
@@ -6763,7 +6809,7 @@ pg.world_chapter_colormask = {
 	},
 	[154] = {
 		locked_icon = 0,
-		chapter = 154,
+		chapter = 40000,
 		world = 1,
 		color_id = 49,
 		id = 154,
@@ -6791,7 +6837,20 @@ pg.world_chapter_colormask = {
 		},
 		complete_chapter = {},
 		teasure_chapter = {},
-		task_chapter = {},
+		task_chapter = {
+			{
+				2605,
+				265
+			},
+			{
+				2606,
+				266
+			},
+			{
+				2607,
+				267
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {},
 		normal_target = {},
@@ -6821,6 +6880,8 @@ pg.world_chapter_colormask = {
 			-12
 		},
 		map_transfer = {
+			25,
+			85,
 			153,
 			154,
 			156,
@@ -6917,6 +6978,8 @@ pg.world_chapter_colormask = {
 			-26
 		},
 		map_transfer = {
+			61,
+			113,
 			154,
 			155,
 			157,
@@ -6935,7 +6998,12 @@ pg.world_chapter_colormask = {
 				20006
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				2602,
+				262
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {},
 		normal_target = {
@@ -7013,6 +7081,7 @@ pg.world_chapter_colormask = {
 			-50
 		},
 		map_transfer = {
+			113,
 			152,
 			153,
 			154,
@@ -7031,7 +7100,12 @@ pg.world_chapter_colormask = {
 				20006
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				2604,
+				264
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {},
 		normal_target = {
@@ -7109,6 +7183,8 @@ pg.world_chapter_colormask = {
 			-20
 		},
 		map_transfer = {
+			25,
+			32,
 			155,
 			159
 		},
@@ -7203,6 +7279,8 @@ pg.world_chapter_colormask = {
 			-8
 		},
 		map_transfer = {
+			51,
+			61,
 			156,
 			158
 		},
@@ -7219,7 +7297,12 @@ pg.world_chapter_colormask = {
 				20005
 			}
 		},
-		task_chapter = {},
+		task_chapter = {
+			{
+				2601,
+				261
+			}
+		},
 		stage_chapter = {},
 		sairen_chapter = {},
 		normal_target = {

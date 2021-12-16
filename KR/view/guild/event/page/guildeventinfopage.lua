@@ -43,8 +43,11 @@ function slot0.OnInit(slot0)
 			return
 		end
 
+		slot1 = uv0.gevent:GetName()
+		slot2 = uv0.gevent:GetConsume()
+
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			content = i18n("guild_start_event_consume_tip", uv0.gevent:GetConsume(), uv0.gevent:GetName()),
+			content = uv0.guild:ShouldTipActiveEvent() and i18n("guild_start_event_consume_tip", slot2, slot1) or i18n("guild_start_event_consume_tip_extra", slot2, slot1, uv0.guild:GetActiveEventCnt()),
 			onYes = function ()
 				uv0:emit(GuildEventMediator.ON_ACTIVE_EVENT, uv0.gevent.id)
 			end

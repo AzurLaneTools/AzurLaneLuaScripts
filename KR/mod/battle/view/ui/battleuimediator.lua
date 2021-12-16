@@ -409,7 +409,7 @@ end
 function slot6.onAddUnit(slot0, slot1)
 	slot3 = slot1.Data.unit
 
-	if slot1.Data.type == uv0.UnitType.PLAYER_UNIT or slot2 == uv0.UnitType.ENEMY_UNIT then
+	if slot1.Data.type == uv0.UnitType.PLAYER_UNIT or slot2 == uv0.UnitType.ENEMY_UNIT or slot2 == uv0.UnitType.BOSS_UNIT then
 		slot0:registerUnitEvent(slot3)
 	end
 
@@ -433,7 +433,7 @@ end
 function slot6.onRemoveUnit(slot0, slot1)
 	slot2 = slot1.Data.unit
 
-	if slot1.Data.type == uv0.UnitType.PLAYER_UNIT or slot3 == uv0.UnitType.ENEMY_UNIT then
+	if slot1.Data.type == uv0.UnitType.PLAYER_UNIT or slot3 == uv0.UnitType.ENEMY_UNIT or slot3 == uv0.UnitType.BOSS_UNIT then
 		slot0:unregisterUnitEvent(slot2)
 	end
 

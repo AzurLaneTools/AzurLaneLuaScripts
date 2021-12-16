@@ -8564,6 +8564,27 @@ _G.pg.item_data_statistics[21006] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[21007] = {
+	display = "그나이제나우·META의 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정: 그나이제나우·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21007",
+	id = 21007,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[21101] = {
 	display = "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "결정화 내열강",
@@ -8727,6 +8748,27 @@ _G.pg.item_data_statistics[21904] = {
 	is_world = 0,
 	icon = "Props/21904",
 	id = 21904,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[21905] = {
+	display = "「비콘·META」 전투 중 수집한 데이터. 그나이제나우·META 동기화율을 증가시킬 수 있다. 이벤트 종료 후 사라짐.",
+	name = "동기화 수치: 그나이제나우·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21905",
+	id = 21905,
 	display_icon = {},
 	price = {},
 	index = {}

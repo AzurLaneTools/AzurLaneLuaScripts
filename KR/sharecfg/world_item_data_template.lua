@@ -75,6 +75,69 @@ pg.world_item_data_template = {
 			101
 		}
 	},
+	[103] = {
+		item_transform_item_type = 1,
+		name = "아비터 전리품 회수 상자(소)",
+		item_transform_item_id = 3002,
+		display = "아비터 양산형 기체 격파 후 회수한 전리품 상자. 작전 종료 후 100 작전 준비 물자 교환권으로 자동 전환됩니다.",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 100,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 103,
+		icon = "Props/Wsairencailiao3",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
+	[104] = {
+		item_transform_item_type = 1,
+		name = "아비터 전리품 회수 상자(중)",
+		item_transform_item_id = 3002,
+		display = "아비터 양산형 기체 격파 후 회수한 전리품 상자. 작전 종료 후 200 작전 준비 물자 교환권으로 자동 전환됩니다.",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 200,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 104,
+		icon = "Props/Wsairencailiao1",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
+	[105] = {
+		item_transform_item_type = 1,
+		name = "아비터 전리품 회수 상자(대)",
+		item_transform_item_id = 3002,
+		display = "아비터 양산형 기체 격파 후 회수한 전리품 상자. 작전 종료 후 500 작전 준비 물자 교환권으로 자동 전환됩니다.",
+		log_text = "",
+		sort_priority = 4,
+		usage = "usage_undefined",
+		grid_num = 1,
+		item_transform_item_number = 500,
+		open_box = "",
+		item_transform_num = 1,
+		rarity = 3,
+		id = 105,
+		icon = "Props/Wsairencailiao2",
+		expired_date = "",
+		usage_arg = {},
+		item_origin = {
+			12
+		}
+	},
 	[110] = {
 		item_transform_item_type = 1,
 		name = "세이렌 에너지 저장 용기",
@@ -2507,7 +2570,7 @@ pg.world_item_data_template = {
 		item_transform_num = 1,
 		rarity = 4,
 		id = 100157,
-		icon = "Props/Wsairenluopanjihuo6",
+		icon = "Props/Wluopanjihuo6",
 		expired_date = "",
 		usage_arg = {},
 		item_origin = {
@@ -2531,7 +2594,7 @@ pg.world_item_data_template = {
 		item_transform_num = 1,
 		rarity = 4,
 		id = 100158,
-		icon = "Props/Wsairenluopanjihuo5",
+		icon = "Props/Wluopanjihuo5",
 		expired_date = "",
 		usage_arg = {},
 		item_origin = {
@@ -2555,7 +2618,7 @@ pg.world_item_data_template = {
 		item_transform_num = 1,
 		rarity = 4,
 		id = 100159,
-		icon = "Props/Wsairenluopanjihuo5",
+		icon = "Props/Wluopanjihuo5",
 		expired_date = "",
 		usage_arg = {},
 		item_origin = {
@@ -3941,6 +4004,9 @@ pg.world_item_data_template = {
 		100,
 		101,
 		102,
+		103,
+		104,
+		105,
 		110,
 		201,
 		202,

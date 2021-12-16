@@ -1529,8 +1529,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[152] = {
@@ -1550,8 +1550,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[153] = {
@@ -1571,8 +1571,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[154] = {
@@ -1592,8 +1592,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			100,
-			100
+			200,
+			200
 		}
 	},
 	[155] = {
@@ -1613,8 +1613,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[156] = {
@@ -1634,8 +1634,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[157] = {
@@ -1655,8 +1655,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[158] = {
@@ -1676,8 +1676,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[159] = {
@@ -1697,8 +1697,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[200] = {
@@ -2216,6 +2216,174 @@ pg.world_chapter_random = {
 		template_id = {
 			{
 				2350,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[260] = {
+		entrance_ui = 1,
+		name = "Chapter5-1 늪",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 260,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2600,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[261] = {
+		entrance_ui = 1,
+		name = "Chapter5-2 비콘",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 261,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2610,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[262] = {
+		entrance_ui = 1,
+		name = "Chapter5-3 환영",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 262,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2620,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[263] = {
+		entrance_ui = 1,
+		name = "Chapter5-4 다과회",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 263,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2630,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[264] = {
+		entrance_ui = 1,
+		name = "Chapter5-5 총공격 개시",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 264,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2640,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[265] = {
+		entrance_ui = 1,
+		name = "Chapter5-6-0 고리",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 265,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2650,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[266] = {
+		entrance_ui = 1,
+		name = "Chapter5-6-1 만남의 장소",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 266,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2660,
+				100,
+				0,
+				1000
+			}
+		},
+		open_stage = {
+			0,
+			0
+		}
+	},
+	[267] = {
+		entrance_ui = 1,
+		name = "Chapter5-6-2 심층 순환",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 267,
+		hazard_level = 0,
+		entrance_mapicon = "wendaihaiyang",
+		template_id = {
+			{
+				2670,
 				100,
 				0,
 				1000
@@ -4295,7 +4463,7 @@ pg.world_chapter_random = {
 	},
 	[1011] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "카리브해A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1011,
@@ -4316,7 +4484,7 @@ pg.world_chapter_random = {
 	},
 	[1012] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "카리브해B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1012,
@@ -4337,7 +4505,7 @@ pg.world_chapter_random = {
 	},
 	[1013] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "카리브해C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1013,
@@ -4358,7 +4526,7 @@ pg.world_chapter_random = {
 	},
 	[1014] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "카리브해D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1014,
@@ -4379,7 +4547,7 @@ pg.world_chapter_random = {
 	},
 	[1021] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 사우스웨스트A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1021,
@@ -4400,7 +4568,7 @@ pg.world_chapter_random = {
 	},
 	[1022] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 사우스웨스트B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 5,
 		id = 1022,
@@ -4421,7 +4589,7 @@ pg.world_chapter_random = {
 	},
 	[1023] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 사우스웨스트C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1023,
@@ -4442,7 +4610,7 @@ pg.world_chapter_random = {
 	},
 	[1024] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 사우스웨스트D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1024,
@@ -4463,7 +4631,7 @@ pg.world_chapter_random = {
 	},
 	[1025] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 사우스웨스트E-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1025,
@@ -4484,7 +4652,7 @@ pg.world_chapter_random = {
 	},
 	[1031] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "사우스웨스트 해령A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1031,
@@ -4505,7 +4673,7 @@ pg.world_chapter_random = {
 	},
 	[1032] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "사우스웨스트 해령B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1032,
@@ -4526,7 +4694,7 @@ pg.world_chapter_random = {
 	},
 	[1033] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "사우스웨스트 해령C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1033,
@@ -4547,7 +4715,7 @@ pg.world_chapter_random = {
 	},
 	[1034] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "사우스웨스트 해령D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1034,
@@ -4568,7 +4736,7 @@ pg.world_chapter_random = {
 	},
 	[1041] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "웨스트 대륙붕A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1041,
@@ -4589,7 +4757,7 @@ pg.world_chapter_random = {
 	},
 	[1042] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "웨스트 대륙붕B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1042,
@@ -4610,7 +4778,7 @@ pg.world_chapter_random = {
 	},
 	[1043] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "웨스트 대륙붕C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1043,
@@ -4631,7 +4799,7 @@ pg.world_chapter_random = {
 	},
 	[1044] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "웨스트 대륙붕D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 5,
 		id = 1044,
@@ -4652,7 +4820,7 @@ pg.world_chapter_random = {
 	},
 	[1051] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "사우스이스트 해령A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1051,
@@ -4673,7 +4841,7 @@ pg.world_chapter_random = {
 	},
 	[1052] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "사우스이스트 해령B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1052,
@@ -4694,7 +4862,7 @@ pg.world_chapter_random = {
 	},
 	[1053] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "사우스이스트 해령C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1053,
@@ -4715,7 +4883,7 @@ pg.world_chapter_random = {
 	},
 	[1054] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "사우스이스트 해령D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1054,
@@ -4736,7 +4904,7 @@ pg.world_chapter_random = {
 	},
 	[1061] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 사우스이스트A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1061,
@@ -4757,7 +4925,7 @@ pg.world_chapter_random = {
 	},
 	[1062] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 사우스이스트B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1062,
@@ -4778,7 +4946,7 @@ pg.world_chapter_random = {
 	},
 	[1063] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 사우스이스트C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1063,
@@ -4799,7 +4967,7 @@ pg.world_chapter_random = {
 	},
 	[1064] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 사우스이스트D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1064,
@@ -4820,7 +4988,7 @@ pg.world_chapter_random = {
 	},
 	[1065] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 사우스이스트E-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1065,
@@ -4841,7 +5009,7 @@ pg.world_chapter_random = {
 	},
 	[1066] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 사우스이스트F-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1066,
@@ -4862,7 +5030,7 @@ pg.world_chapter_random = {
 	},
 	[1071] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "지중해A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1071,
@@ -4883,7 +5051,7 @@ pg.world_chapter_random = {
 	},
 	[1072] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "지중해B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1072,
@@ -4904,7 +5072,7 @@ pg.world_chapter_random = {
 	},
 	[1073] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "지중해C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1073,
@@ -4925,7 +5093,7 @@ pg.world_chapter_random = {
 	},
 	[1081] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 웨스트A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1081,
@@ -4946,7 +5114,7 @@ pg.world_chapter_random = {
 	},
 	[1082] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 웨스트B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1082,
@@ -4967,7 +5135,7 @@ pg.world_chapter_random = {
 	},
 	[1083] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 웨스트C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1083,
@@ -4988,7 +5156,7 @@ pg.world_chapter_random = {
 	},
 	[1084] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 웨스트D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1084,
@@ -5009,7 +5177,7 @@ pg.world_chapter_random = {
 	},
 	[1085] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 웨스트E-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1085,
@@ -5030,7 +5198,7 @@ pg.world_chapter_random = {
 	},
 	[1091] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 노스웨스트A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1091,
@@ -5051,7 +5219,7 @@ pg.world_chapter_random = {
 	},
 	[1092] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 노스웨스트B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1092,
@@ -5072,7 +5240,7 @@ pg.world_chapter_random = {
 	},
 	[1093] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 노스웨스트C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1093,
@@ -5093,7 +5261,7 @@ pg.world_chapter_random = {
 	},
 	[1094] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 노스웨스트D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1094,
@@ -5114,7 +5282,7 @@ pg.world_chapter_random = {
 	},
 	[1095] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 노스웨스트E-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1095,
@@ -5135,7 +5303,7 @@ pg.world_chapter_random = {
 	},
 	[1101] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "노스웨스트 항로A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1101,
@@ -5156,7 +5324,7 @@ pg.world_chapter_random = {
 	},
 	[1102] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "노스웨스트 항로B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1102,
@@ -5177,7 +5345,7 @@ pg.world_chapter_random = {
 	},
 	[1103] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "노스웨스트 항로C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1103,
@@ -5198,7 +5366,7 @@ pg.world_chapter_random = {
 	},
 	[1104] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "노스웨스트 항로D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1104,
@@ -5219,7 +5387,7 @@ pg.world_chapter_random = {
 	},
 	[1105] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "노스웨스트 항로E-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1105,
@@ -5240,7 +5408,7 @@ pg.world_chapter_random = {
 	},
 	[1106] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "노스웨스트 항로F-안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1106,
@@ -5261,7 +5429,7 @@ pg.world_chapter_random = {
 	},
 	[1111] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 이스트A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1111,
@@ -5282,7 +5450,7 @@ pg.world_chapter_random = {
 	},
 	[1112] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 이스트B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1112,
@@ -5303,7 +5471,7 @@ pg.world_chapter_random = {
 	},
 	[1113] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 이스트C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1113,
@@ -5324,7 +5492,7 @@ pg.world_chapter_random = {
 	},
 	[1114] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 이스트D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1114,
@@ -5345,7 +5513,7 @@ pg.world_chapter_random = {
 	},
 	[1121] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "이스트 대륙붕A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1121,
@@ -5366,7 +5534,7 @@ pg.world_chapter_random = {
 	},
 	[1122] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "이스트 대륙붕B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1122,
@@ -5387,7 +5555,7 @@ pg.world_chapter_random = {
 	},
 	[1123] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "이스트 대륙붕C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1123,
@@ -5408,7 +5576,7 @@ pg.world_chapter_random = {
 	},
 	[1124] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "이스트 대륙붕D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1124,
@@ -5429,7 +5597,7 @@ pg.world_chapter_random = {
 	},
 	[1125] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "이스트 대륙붕E-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1125,
@@ -5450,7 +5618,7 @@ pg.world_chapter_random = {
 	},
 	[1131] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 노스이스트A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1131,
@@ -5471,7 +5639,7 @@ pg.world_chapter_random = {
 	},
 	[1132] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 노스이스트B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1132,
@@ -5492,7 +5660,7 @@ pg.world_chapter_random = {
 	},
 	[1133] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 노스이스트C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1133,
@@ -5513,7 +5681,7 @@ pg.world_chapter_random = {
 	},
 	[1134] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 노스이스트D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1134,
@@ -5534,7 +5702,7 @@ pg.world_chapter_random = {
 	},
 	[1135] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "NA해역 노스이스트E-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1135,
@@ -5555,7 +5723,7 @@ pg.world_chapter_random = {
 	},
 	[1141] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "노스이스트 항로A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1141,
@@ -5576,7 +5744,7 @@ pg.world_chapter_random = {
 	},
 	[1142] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "노스이스트 항로B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1142,
@@ -5597,7 +5765,7 @@ pg.world_chapter_random = {
 	},
 	[1143] = {
 		entrance_ui = 1,
-		name = "안전 해역",
+		name = "노스이스트 항로C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1143,
@@ -5618,7 +5786,7 @@ pg.world_chapter_random = {
 	},
 	[1144] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "노스이스트 항로D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1144,
@@ -5639,7 +5807,7 @@ pg.world_chapter_random = {
 	},
 	[1151] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "NA해역 깊숙한 곳A-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1151,
@@ -5654,13 +5822,13 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1152] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "NA해역 깊숙한 곳B-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1152,
@@ -5675,13 +5843,13 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1153] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "NA해역 깊숙한 곳C-안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1153,
@@ -5696,13 +5864,13 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1154] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "NA해역 센터-안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1154,
@@ -5723,7 +5891,7 @@ pg.world_chapter_random = {
 	},
 	[1155] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "NA해역 깊숙한 곳D-안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1155,
@@ -5738,13 +5906,13 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1156] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "NA해역 깊숙한 곳E-안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1156,
@@ -5759,13 +5927,13 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1157] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "NA해역 깊숙한 곳F-안전 해역",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1157,
@@ -5780,13 +5948,13 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1158] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "NA해역 깊숙한 곳G-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1158,
@@ -5801,13 +5969,13 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[1159] = {
 		entrance_ui = 2,
-		name = "안전 해역",
+		name = "NA해역 깊숙한 곳H-안전 해역",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1159,
@@ -5822,8 +5990,8 @@ pg.world_chapter_random = {
 			}
 		},
 		open_stage = {
-			200,
-			200
+			110,
+			110
 		}
 	},
 	[20001] = {
@@ -8898,6 +9066,237 @@ pg.world_chapter_random = {
 			0
 		}
 	},
+	[40000] = {
+		entrance_ui = 2,
+		name = "핵심 구역 전초전",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 40000,
+		hazard_level = 7,
+		entrance_mapicon = "daxuanwo",
+		template_id = {
+			{
+				400000,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43000] = {
+		entrance_ui = 2,
+		name = "일반: 아비터·템퍼런스·XIV",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43000,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430000,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43001] = {
+		entrance_ui = 2,
+		name = "일반: 아비터·스트랭스·VIII",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43001,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430010,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43002] = {
+		entrance_ui = 2,
+		name = "일반: 아비터·허밋·IX",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43002,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430020,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43010] = {
+		entrance_ui = 2,
+		name = "어려움: 아비터·템퍼런스·XIV",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43010,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430100,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43011] = {
+		entrance_ui = 2,
+		name = "어려움: 아비터·스트랭스·VIII",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43011,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430110,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43012] = {
+		entrance_ui = 2,
+		name = "어려움: 아비터·허밋·IX",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43012,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430120,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[43020] = {
+		entrance_ui = 2,
+		name = "어려움 모의 전투: 아비터",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 43020,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				430200,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			200,
+			200
+		}
+	},
+	[44000] = {
+		entrance_ui = 2,
+		name = "모의 전투: 익스큐터XIV「Equilibrium」",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 44000,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				440000,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			180,
+			180
+		}
+	},
+	[44001] = {
+		entrance_ui = 2,
+		name = "모의 전투: 익스큐터VIII「Determination」",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 44001,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				440010,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			180,
+			180
+		}
+	},
+	[44002] = {
+		entrance_ui = 2,
+		name = "모의 전투: 익스큐터IX「Exploration」",
+		complete_effect = 0,
+		enter_cost = 0,
+		id = 44002,
+		hazard_level = 7,
+		entrance_mapicon = "meixi",
+		template_id = {
+			{
+				440020,
+				100,
+				0,
+				9999
+			}
+		},
+		open_stage = {
+			180,
+			180
+		}
+	},
 	all = {
 		1,
 		2,
@@ -9005,6 +9404,14 @@ pg.world_chapter_random = {
 		233,
 		234,
 		235,
+		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
 		301,
 		400,
 		401,
@@ -9262,6 +9669,17 @@ pg.world_chapter_random = {
 		89014,
 		89015,
 		89016,
-		89017
+		89017,
+		40000,
+		43000,
+		43001,
+		43002,
+		43010,
+		43011,
+		43012,
+		43020,
+		44000,
+		44001,
+		44002
 	}
 }

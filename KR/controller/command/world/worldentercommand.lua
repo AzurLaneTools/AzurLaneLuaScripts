@@ -23,7 +23,7 @@ function slot0.AfterReq(slot0, slot1)
 	slot3 = getProxy(WorldProxy)
 	slot4 = {}
 
-	if nowWorld:CheckReset(true) then
+	if nowWorld():CheckReset(true) then
 		table.insert(slot4, function (slot0)
 			slot1 = pg.ConnectionMgr.GetInstance()
 
@@ -32,22 +32,22 @@ function slot0.AfterReq(slot0, slot1)
 			}, 33113, function (slot0)
 				if slot0.result == 0 then
 					if slot0.time == 0 then
-						nowWorld:TransDefaultFleets()
-						uv0:BuildWorld(World.TypeReset)
-						uv0:NetUpdateWorldMapPressing({})
-						nowWorld:CheckResetAward(PlayerConst.addTranDrop(slot0.drop_list))
+						uv0:TransDefaultFleets()
+						uv1:BuildWorld(World.TypeReset)
+						uv1:NetUpdateWorldMapPressing({})
+						nowWorld():CheckResetAward(PlayerConst.addTranDrop(slot0.drop_list))
 						pg.TipsMgr.GetInstance():ShowTips(i18n("world_reset_success"))
 					else
-						nowWorld.expiredTime = slot0.time
+						uv0.expiredTime = slot0.time
 					end
 
-					uv1()
+					uv2()
 				else
 					pg.TipsMgr.GetInstance():ShowTips(errorTip("world_reset_error_", slot0.result))
 				end
 			end)
 		end)
-	elseif nowWorld:CheckResetProgress() then
+	elseif slot5:CheckResetProgress() then
 		table.insert(slot4, function (slot0)
 			slot1 = pg.ConnectionMgr.GetInstance()
 
@@ -64,28 +64,28 @@ function slot0.AfterReq(slot0, slot1)
 		end)
 	end
 
-	slot5 = pg.gameset.world_starting_story.description[1]
+	slot6 = pg.gameset.world_starting_story.description[1]
 
 	table.insert(slot4, function (slot0)
 		pg.NewStoryMgr.GetInstance():Play(uv0, slot0)
 	end)
 	seriesAsync(slot4, function ()
-		if not nowWorld:IsActivate() then
-			slot0, slot1 = nowWorld:BuildFormationIds()
-			slot2, slot3 = nil
+		if not nowWorld():IsActivate() then
+			slot1, slot2 = slot0:BuildFormationIds()
+			slot3, slot4 = nil
 
-			if nowWorld:IsRookie() then
-				slot2, slot3 = WorldConst.GetRealmRookieId(nowWorld:GetRealm())
+			if slot0:IsRookie() then
+				slot3, slot4 = WorldConst.GetRealmRookieId(slot0:GetRealm())
 			else
+				slot4 = 2
 				slot3 = 2
-				slot2 = 2
 			end
 
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_FLEET_SELECT, {
-				type = slot0,
-				fleets = slot1,
-				mapId = slot2,
-				entranceId = slot3
+				type = slot1,
+				fleets = slot2,
+				mapId = slot3,
+				entranceId = slot4
 			})
 		elseif checkExist(uv1, {
 			"inWorldBoss"

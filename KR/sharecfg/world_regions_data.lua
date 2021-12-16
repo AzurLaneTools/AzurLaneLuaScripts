@@ -72,7 +72,7 @@ pg.world_regions_data = {
 			45
 		},
 		open_stage = {
-			200
+			110
 		}
 	},
 	all = {

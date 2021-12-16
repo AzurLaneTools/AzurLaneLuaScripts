@@ -416,19 +416,19 @@ end
 function slot0.GetBuffList(slot0)
 	return table.mergeArray(_.filter(_.values(slot0.buffs), function (slot0)
 		return slot0:GetFloor() > 0
-	end), nowWorld:GetActiveMap():GetBuffList(WorldMap.FactionSelf))
+	end), nowWorld():GetActiveMap():GetBuffList(WorldMap.FactionSelf))
 end
 
 function slot0.UpdateBuffs(slot0, slot1)
 	if slot0.buffs ~= slot1 then
-		if not nowWorld.isAutoFight then
-			slot2 = nowWorld:GetActiveMap()
-			slot6 = slot1
+		if not nowWorld().isAutoFight then
+			slot3 = slot2:GetActiveMap()
+			slot7 = slot1
 
-			for slot6, slot7 in pairs(WorldConst.CompareBuffs(slot0.buffs, slot6).add) do
-				if #slot7.config.trap_lua > 0 then
-					slot2:AddPhaseDisplay({
-						story = slot7.config.trap_lua
+			for slot7, slot8 in pairs(WorldConst.CompareBuffs(slot0.buffs, slot7).add) do
+				if #slot8.config.trap_lua > 0 then
+					slot3:AddPhaseDisplay({
+						story = slot8.config.trap_lua
 					})
 				end
 			end
@@ -666,9 +666,10 @@ function slot0.UpdateCatSalvage(slot0, slot1, slot2, slot3)
 	slot0.catSalvageStep = slot1
 	slot0.catSalvageList = slot2
 	slot0.catSalvageFrom = slot3
+	slot4 = nowWorld()
 
-	if slot0:GetRarityState() == 2 and not nowWorld.isAutoFight then
-		nowWorld:GetActiveMap():AddPhaseDisplay({
+	if slot0:GetRarityState() == 2 and not slot4.isAutoFight then
+		slot4:GetActiveMap():AddPhaseDisplay({
 			story = pg.gameset.world_catsearch_raritytip.description[1]
 		})
 	end

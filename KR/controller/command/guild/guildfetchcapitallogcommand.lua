@@ -18,7 +18,15 @@ function slot0.execute(slot0, slot1)
 			slot1 = uv0:getData()
 			slot2 = {}
 
-			for slot6, slot7 in ipairs(slot0.log) do
+			for slot6, slot7 in ipairs(slot0.inclog) do
+				table.insert(slot2, GuildCapitalLog.New(slot7))
+			end
+
+			for slot6, slot7 in ipairs(slot0.declog) do
+				table.insert(slot2, GuildCapitalLog.New(slot7))
+			end
+
+			for slot6, slot7 in ipairs(slot0.otherlog) do
 				table.insert(slot2, GuildCapitalLog.New(slot7))
 			end
 
