@@ -71,15 +71,15 @@ function slot0.InitWorldBossProgressTipSettings(slot0)
 		end
 	end
 
-	slot9 = "world_boss_progress_tip_title"
+	slot10 = "world_boss_progress_tip_title"
 
-	setText(slot0.worldbossProgressTip:Find("notify_tpl"):Find("Text"), i18n(slot9))
+	slot0.worldbossProgressTip:Find("notify_tpl"):Find("mask/Text"):GetComponent("ScrollText"):SetText(i18n(slot10))
 
-	for slot9 = 1, #slot0:GetWorldBossProgressTipConfig() do
-		slot4(slot9, slot5:Find(tostring(slot9)))
+	for slot10 = 1, #slot0:GetWorldBossProgressTipConfig() do
+		slot4(slot10, slot5:Find(tostring(slot10)))
 	end
 
-	onButton(slot0, slot5:Find("Text"), function ()
+	onButton(slot0, slot5:Find("mask/Text"), function ()
 		pg.m02:sendNotification(NewSettingsMediator.SHOW_DESC, {
 			desc = i18n("world_boss_progress_tip_desc")
 		})

@@ -151514,6 +151514,27 @@ _G.pg.item_data_statistics[59254] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59255] = {
+	display = "用于『明日之星✩闪亮登场！ 』活动提升角色好感，活动结束后将会消失",
+	name = "友好度-小圣地亚哥",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/shengdiyagePT",
+	id = 59255,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",

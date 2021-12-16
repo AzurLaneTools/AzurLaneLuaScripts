@@ -13342,7 +13342,7 @@ _G.pg.gametip.index_propose_skin = {
 }
 
 _G.pg.gametip.index_not_obtained = {
-	tip = "未获得"
+	tip = "未获取"
 }
 
 _G.pg.gametip.index_no_limit = {
@@ -17141,6 +17141,18 @@ _G.pg.gametip.world_automode_setting_all_3_2 = {
 	tip = "开"
 }
 
+_G.pg.gametip.world_automode_setting_all_4 = {
+	tip = "是否因塞壬装置暂停"
+}
+
+_G.pg.gametip.world_automode_setting_all_4_1 = {
+	tip = "是"
+}
+
+_G.pg.gametip.world_automode_setting_all_4_2 = {
+	tip = "否"
+}
+
 _G.pg.gametip.area_putong = {
 	tip = "普通海域"
 }
@@ -18898,4 +18910,105 @@ _G.pg.gametip.cruise_task_help_2112 = {
 （4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
 		}
 	}
+}
+
+_G.pg.gametip.littleSanDiego_npc = {
+	tip = {
+		{
+			info = "「明日之星✩闪亮登场！」说明："
+		},
+		{
+			info = "1.活动期间，玩家可获得临时npc角色小圣地亚哥，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
+		},
+		{
+			info = "2.活动期间，击破普通难度主线第三章及之后章节旗舰，可增加临时npc角色小圣地亚哥的友好度。（不包括大型作战）"
+		},
+		{
+			info = "3.上阵小圣地亚哥参与战斗，且未被击沉，可增加双倍友好度。"
+		},
+		{
+			info = "4.在活动结束前累计获得1000点好友度，可领取奖励并将临时角色「小圣地亚哥」转化为永久角色。"
+		},
+		{
+			info = "5.在活动结束后，未完成转化的临时角色「小圣地亚哥」将离开港区，不返还已经消耗的强化、突破等培养材料。"
+		},
+		{
+			info = "6.npc角色无法参与大型作战"
+		},
+		{
+			info = "7.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战"
+		}
+	}
+}
+
+_G.pg.gametip.tag_ship_unlocked = {
+	tip = "图鉴已解锁"
+}
+
+_G.pg.gametip.tag_ship_locked = {
+	tip = "图鉴未解锁"
+}
+
+_G.pg.gametip.settings_sound_title_bgm = {
+	tip = " 背景音乐"
+}
+
+_G.pg.gametip.settings_sound_title_effct = {
+	tip = " 游戏音效"
+}
+
+_G.pg.gametip.settings_sound_title_cv = {
+	tip = " 角色配音"
+}
+
+_G.pg.gametip.setting_resdownload_title_gallery = {
+	tip = "插画资源更新"
+}
+
+_G.pg.gametip.setting_resdownload_title_live2d = {
+	tip = "live2D资源更新"
+}
+
+_G.pg.gametip.setting_resdownload_title_music = {
+	tip = "音乐资源更新"
+}
+
+_G.pg.gametip.setting_resdownload_title_sound = {
+	tip = "语音包资源更新"
+}
+
+_G.pg.gametip.settings_battle_title = {
+	tip = "键位设置"
+}
+
+_G.pg.gametip.settings_battle_tip = {
+	tip = "点 击 编 辑 设 置 键 位"
+}
+
+_G.pg.gametip.settings_battle_Btn_edit = {
+	tip = "编 辑"
+}
+
+_G.pg.gametip.settings_battle_Btn_reset = {
+	tip = "重 置"
+}
+
+_G.pg.gametip.settings_battle_Btn_save = {
+	tip = "保 存"
+}
+
+_G.pg.gametip.settings_battle_Btn_cancel = {
+	tip = "取 消"
+}
+
+_G.pg.gametip.settings_pwd_label_close = {
+	tip = "关闭"
+}
+
+_G.pg.gametip.settings_pwd_label_open = {
+	tip = "开启"
+}
+
+_G.pg.gametip.word_frame = {
+	tip = "帧"
 }

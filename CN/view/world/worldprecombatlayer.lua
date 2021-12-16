@@ -259,10 +259,13 @@ function slot0.UpdateInformationtab(slot0)
 			setActive(uv0.dropitems[slot3]:Find("item_tpl"), uv1[slot3 + uv2] ~= nil)
 
 			if slot5 then
-				updateDrop(slot4, {
+				slot6 = {
 					type = slot5[1],
 					id = slot5[2]
-				})
+				}
+
+				updateDrop(slot4, slot6)
+				setScrollText(slot4:Find("ScrollMask/DropName"), HXSet.hxLan(slot6.cfg.name))
 				onButton(uv0, slot4, function ()
 					uv0:emit(uv1.ON_DROP, uv2)
 				end, SFX_PANEL)

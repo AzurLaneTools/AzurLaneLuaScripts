@@ -5,7 +5,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if pg.TimeMgr.GetInstance():GetServerTime() < slot5.abilityTime then
+	if pg.TimeMgr.GetInstance():GetServerTime() < slot5:GetNextResetAbilityTime() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_time_no_rearch"))
 
 		return

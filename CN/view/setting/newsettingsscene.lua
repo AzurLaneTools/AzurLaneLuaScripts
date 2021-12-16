@@ -14,19 +14,25 @@ end
 
 function slot0.OnClearExchangeCode(slot0)
 	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
-		slot0.pages:OnClearExchangeCode(code)
+		slot0.pages[1]:OnClearExchangeCode(code)
 	end
 end
 
 function slot0.OnShowTranscode(slot0, slot1)
 	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
-		slot0.pages:OnShowTranscode(slot1)
+		slot0.pages[1]:OnShowTranscode(slot1)
 	end
 end
 
 function slot0.OnCheckAllAccountState(slot0)
 	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
-		slot0.pages:OnCheckAllAccountState(code)
+		slot0.pages[1]:OnCheckAllAccountState(code)
+	end
+end
+
+function slot0.OnSecondPwdStateChange(slot0)
+	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
+		slot0.pages[1]:OnSecondPwdStateChange(code)
 	end
 end
 

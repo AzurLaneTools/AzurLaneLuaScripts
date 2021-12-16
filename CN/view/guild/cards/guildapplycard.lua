@@ -46,7 +46,7 @@ function slot0.Update(slot0, slot1)
 	slot0.policyLabel.color = slot4
 	slot0.guildVO = slot1
 	slot0.nameTF.text = slot1:getName()
-	slot0.lvTF.text = slot1.level < 9 and "0" .. slot1.level or slot1.level
+	slot0.lvTF.text = slot1.level <= 9 and "0" .. slot1.level or slot1.level
 	slot0.countTF.text = slot1.memberCount .. "/" .. slot1:getMaxMember()
 	slot0.flagName.text = slot1:getCommader().name
 	slot0.policy.text = slot1:getPolicyName()

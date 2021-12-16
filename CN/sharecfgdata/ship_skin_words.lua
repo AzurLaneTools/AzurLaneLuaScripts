@@ -7123,6 +7123,40 @@ _G.pg.ship_skin_words[103120] = {
 	}
 }
 
+_G.pg.ship_skin_words[103121] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "呼呼，这下酒就更美味了。",
+	home = "欢迎回来~边看着电视边喝，感觉都有点醉了呢…呵呵~",
+	mission = "",
+	touch2 = "指挥官喜欢撒娇的时候…意外地多啊。",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "为指挥官的荣光与胜利干杯~呵呵，今晚还挺想喝点什么的呢。指挥官方便的话，再陪我一会吧？",
+	mail = "",
+	touch = "没有藏什么奇怪的东西，所以放心吧♪",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "为指挥官的荣光与胜利干杯~呵呵，今晚还挺想喝点什么的呢。指挥官方便的话，再陪我一会吧？",
+	feeling5 = "",
+	main = "谢谢你了，标枪。这个要送到威奇塔手上哦，可是个好东西呢，呵呵♪|说起来…为什么{namecode:195}把指挥官叫做“小布丁”呢？指挥官看起来……也不算好吃的样子？呵呵~|列克星敦是个不错的朋友，但她的妹妹就有点难对付了呢……",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 103121,
+	detail = "有个看起来是布偶的东西，眼睛好像闪了下红光……嗯……果然是喝太多了吧？",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[103130] = {
 	feeling1 = "和你聊天有点无趣啊……",
 	feeling3 = "其实港区里也有几个我比较在意的地方。现在就出发去探索吧！……工作？等下再做也不迟啦！",

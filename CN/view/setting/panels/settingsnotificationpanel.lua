@@ -28,8 +28,8 @@ end
 function slot0.UpdateItem(slot0, slot1, slot2)
 	slot3 = slot0.list[slot1]
 
-	setText(slot2:Find("Text"), slot3.title)
-	onButton(slot0, slot2:Find("Text"), function ()
+	slot2:Find("mask/Text"):GetComponent("ScrollText"):SetText(slot3.title)
+	onButton(slot0, slot2:Find("mask/Text"), function ()
 		pg.m02:sendNotification(NewSettingsMediator.SHOW_DESC, uv0)
 	end, SFX_PANEL)
 	removeOnToggle(slot2:Find("on"))
