@@ -8,10 +8,10 @@ function slot0.InitTitle(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.googleBtn = slot0.accountTw:Find("page1/bind_google")
-	slot0.gamecenterBtn = slot0.accountTw:Find("page1/bind_gamecenter")
-	slot0.faceBookBtn = slot0.accountTw:Find("page1/bind_facebook")
-	slot1 = slot0.accountTw
+	slot0.googleBtn = slot0._tf:Find("page1/bind_google")
+	slot0.gamecenterBtn = slot0._tf:Find("page1/bind_gamecenter")
+	slot0.faceBookBtn = slot0._tf:Find("page1/bind_facebook")
+	slot1 = slot0._tf
 	slot0.phoneBtn = slot1:Find("page1/bind_phone")
 	slot2 = pg.SdkMgr.GetInstance()
 	slot7 = {

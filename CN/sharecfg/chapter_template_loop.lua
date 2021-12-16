@@ -25896,13 +25896,6 @@ pg.chapter_template_loop = {
 				-40
 			},
 			{
-				4,
-				5,
-				"suligao_1x1_dengta_close",
-				0,
-				50
-			},
-			{
 				2,
 				3,
 				"suligao_2x2_2",
@@ -25928,12 +25921,20 @@ pg.chapter_template_loop = {
 			4,
 			""
 		},
-		box_list = {},
+		box_list = {
+			{
+				6,
+				3,
+				{
+					5002
+				}
+			}
+		},
 		random_box_list = {
 			5002
 		},
 		box_refresh = {
-			0
+			1
 		},
 		npc_data = {},
 		special_operation_list = {
@@ -26564,12 +26565,27 @@ pg.chapter_template_loop = {
 			4,
 			""
 		},
-		box_list = {},
+		box_list = {
+			{
+				8,
+				8,
+				{
+					5002
+				}
+			},
+			{
+				6,
+				1,
+				{
+					5002
+				}
+			}
+		},
 		random_box_list = {
 			5002
 		},
 		box_refresh = {
-			0
+			1
 		},
 		npc_data = {},
 		special_operation_list = {
@@ -27196,13 +27212,6 @@ pg.chapter_template_loop = {
 			},
 			{
 				8,
-				10,
-				"suligao_1x1_dengta_close",
-				0,
-				50
-			},
-			{
-				8,
 				7,
 				"suligao_1x1_2",
 				0,
@@ -27262,12 +27271,20 @@ pg.chapter_template_loop = {
 			4,
 			""
 		},
-		box_list = {},
+		box_list = {
+			{
+				6,
+				4,
+				{
+					5002
+				}
+			}
+		},
 		random_box_list = {
 			5002
 		},
 		box_refresh = {
-			0
+			1
 		},
 		npc_data = {},
 		special_operation_list = {
@@ -28006,13 +28023,6 @@ pg.chapter_template_loop = {
 				11
 			},
 			{
-				9,
-				1,
-				"suligao_1x1_dengta_close",
-				1,
-				55
-			},
-			{
 				7,
 				11,
 				"suligao_1x1_3",
@@ -28073,12 +28083,27 @@ pg.chapter_template_loop = {
 			4,
 			""
 		},
-		box_list = {},
+		box_list = {
+			{
+				9,
+				8,
+				{
+					5002
+				}
+			},
+			{
+				5,
+				1,
+				{
+					5002
+				}
+			}
+		},
 		random_box_list = {
 			5002
 		},
 		box_refresh = {
-			0
+			2
 		},
 		npc_data = {},
 		special_operation_list = {
