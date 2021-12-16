@@ -58,4 +58,8 @@ function slot0.GetLocaltion(slot0, slot1, slot2)
 	return slot3
 end
 
+function slot0.GetTitle(slot0)
+	return i18n("setting_resdownload_title_live2d")
+end
+
 return slot0

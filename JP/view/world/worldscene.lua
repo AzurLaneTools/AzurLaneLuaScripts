@@ -2252,7 +2252,6 @@ function slot0.StartAutoSwitch(slot0)
 		if not slot0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip4"))
 		else
-			nowWorld():TriggerAutoSwitch(true)
 			uv0:Op("OpAutoSwitchMap")
 		end
 	end)

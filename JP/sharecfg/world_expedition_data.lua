@@ -127259,7 +127259,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[312610] = {
-		bgm = "battle-arbitrator-type1",
+		bgm = "Battle-ashes-theme",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
 		failed_morale = 1,
@@ -127341,7 +127341,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[312640] = {
-		bgm = "Battle-1",
+		bgm = "Battle-ashes-theme",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
 		failed_morale = 1,
@@ -128499,7 +128499,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315010] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -128826,7 +128826,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315011] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -129153,7 +129153,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315012] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -129480,7 +129480,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315015] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -129807,7 +129807,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315016] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -130134,7 +130134,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315017] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -130461,7 +130461,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315020] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -130742,7 +130742,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315021] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -131023,7 +131023,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315022] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -131304,7 +131304,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315025] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -131585,7 +131585,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315026] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -131866,7 +131866,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315027] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -132147,7 +132147,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315030] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -132229,7 +132229,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315031] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -132311,7 +132311,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315032] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -132393,7 +132393,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315033] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -132475,7 +132475,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315034] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,
@@ -132557,7 +132557,7 @@ pg.world_expedition_data = {
 		special_buff_display = {}
 	},
 	[315035] = {
-		bgm = "battle-executor-type1",
+		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
 		failed_morale = 3,

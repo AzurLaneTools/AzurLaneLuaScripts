@@ -4,21 +4,43 @@ function slot0.getUIName(slot0)
 	return "CommanderBoxesUI"
 end
 
+function slot0.OnRecalcQuicklyFinishBoxesCnt(slot0)
+	pg.TipsMgr.GetInstance():ShowTips(i18n("comander_tool_cnt_is_reclac"))
+	triggerButton(slot0.quicklyFinishAllBtn)
+end
+
 function slot0.OnInit(slot0)
 	slot0.boxCards = {}
-	slot0.startBtn = slot0._tf:Find("frame/boxes/start_btn")
-	slot0.finishBtn = slot0._tf:Find("frame/boxes/finish_btn")
-	slot0.closeBtn = slot0._tf:Find("frame/close_btn")
-	slot0.boxesList = UIItemList.New(slot0._tf:Find("frame/boxes/mask/content"), slot0._tf:Find("frame/boxes/mask/content/frame"))
-	slot0.scrollRect = slot0._tf:Find("frame/boxes/mask")
-	slot0.buildPoolPanel = CommanderBuildPoolPanel.New(slot0._tf:Find("buildpool_panel"), slot0)
-	slot0.traningCnt = slot0._tf:Find("frame/boxes/statistics/traning"):GetComponent(typeof(Text))
-	slot0.waitCnt = slot0._tf:Find("frame/boxes/statistics/wait"):GetComponent(typeof(Text))
-	slot0.itemCnt = slot0._tf:Find("frame/item/Text"):GetComponent(typeof(Text))
+	slot1 = slot0._tf
+	slot0.startBtn = slot1:Find("frame/boxes/start_btn")
+	slot1 = slot0._tf
+	slot0.finishBtn = slot1:Find("frame/boxes/finish_btn")
+	slot1 = slot0._tf
+	slot0.quicklyFinishAllBtn = slot1:Find("frame/boxes/quick_all")
+	slot1 = slot0._tf
+	slot0.closeBtn = slot1:Find("frame/close_btn")
+	slot2 = slot0._tf
+	slot3 = slot0._tf
+	slot0.boxesList = UIItemList.New(slot2:Find("frame/boxes/mask/content"), slot3:Find("frame/boxes/mask/content/frame"))
+	slot1 = slot0._tf
+	slot0.scrollRect = slot1:Find("frame/boxes/mask")
+	slot2 = slot0._tf
+	slot0.buildPoolPanel = CommanderBuildPoolPanel.New(slot2:Find("buildpool_panel"), slot0)
+	slot1 = slot0._tf
+	slot1 = slot1:Find("frame/boxes/statistics/traning")
+	slot0.traningCnt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0._tf
+	slot1 = slot1:Find("frame/boxes/statistics/wait")
+	slot0.waitCnt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0._tf
+	slot1 = slot1:Find("frame/item/Text")
+	slot0.itemCnt = slot1:GetComponent(typeof(Text))
+	slot2 = slot0._tf
 
-	setActive(slot0._tf:Find("frame/item"), not LOCK_CATTERY)
+	setActive(slot2:Find("frame/item"), not LOCK_CATTERY)
 
-	slot0.mask = slot0._tf:Find("mask")
+	slot1 = slot0._tf
+	slot0.mask = slot1:Find("mask")
 
 	setActive(slot0.mask, false)
 	onButton(slot0, slot0.closeBtn, function ()
@@ -52,6 +74,35 @@ function slot0.OnInit(slot0)
 		scrollTo(uv0.scrollRect, nil, 1)
 		uv0:emit(CommandRoomMediator.ON_BATCH_GET, uv0.boxes)
 	end, SFX_PANEL)
+
+	if not LOCK_COMMANDER_ACC then
+		onButton(slot0, slot0.quicklyFinishAllBtn, function ()
+			if getProxy(BagProxy):getItemCountById(Item.COMMANDER_QUICKLY_TOOL_ID) <= 0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("notenough_acceleration"))
+
+				return
+			end
+
+			slot2, slot3, slot4 = getProxy(CommanderProxy):CalcQuickItemUsageCnt()
+
+			if slot2 <= 0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("noacceleration_tips"))
+
+				return
+			end
+
+			uv0:emit(CommandRoomMediator.SHOW_MSGBOX, {
+				content = i18n("acceleration_tips_1", slot2, slot3),
+				content1 = i18n("acceleration_tips_2", slot4),
+				onYes = function ()
+					uv0:emit(CommandRoomMediator.ONE_KEY_FINISH_ALL, uv1, uv2, uv3)
+				end
+			})
+		end, SFX_PANEL)
+	else
+		setActive(slot0.quicklyFinishAllBtn, false)
+	end
+
 	setActive(slot0._tf:Find("frame"), true)
 end
 

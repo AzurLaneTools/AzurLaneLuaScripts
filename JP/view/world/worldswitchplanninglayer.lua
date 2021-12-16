@@ -114,6 +114,15 @@ function slot0.init(slot0)
 				no = 0
 			}
 		},
+		wait_2 = {
+			flag = "auto_switch_wait_2",
+			default = 0,
+			type = "Int",
+			info = {
+				yes = 1,
+				no = 0
+			}
+		},
 		boss = {
 			flag = "_WorldBossProgressTipFlag_",
 			type = "String",
@@ -181,6 +190,13 @@ function slot0.init(slot0)
 			info = {
 				yes = "world_automode_setting_all_1_1",
 				no = "world_automode_setting_all_1_2"
+			}
+		},
+		wait_2 = {
+			text = "world_automode_setting_all_4",
+			info = {
+				yes = "world_automode_setting_all_4_1",
+				no = "world_automode_setting_all_4_2"
 			}
 		},
 		boss = {
@@ -265,6 +281,7 @@ function slot0.updateView(slot0, slot1)
 
 	for slot5, slot6 in ipairs({
 		"wait",
+		"wait_2",
 		"boss",
 		"consume"
 	}) do

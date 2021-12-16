@@ -16638,7 +16638,7 @@ _G.pg.gametip.word_files_repair = {
 }
 
 _G.pg.gametip.repair_setting_label = {
-	tip = "ｱｾｯﾄ修復"
+	tip = " ｱｾｯﾄ修復"
 }
 
 _G.pg.gametip.voice_control = {
@@ -17243,6 +17243,18 @@ _G.pg.gametip.world_automode_setting_all_3_1 = {
 
 _G.pg.gametip.world_automode_setting_all_3_2 = {
 	tip = "ON"
+}
+
+_G.pg.gametip.world_automode_setting_all_4 = {
+	tip = "セイレーン装置遭遇時に中止"
+}
+
+_G.pg.gametip.world_automode_setting_all_4_1 = {
+	tip = "ON"
+}
+
+_G.pg.gametip.world_automode_setting_all_4_2 = {
+	tip = "OFF"
 }
 
 _G.pg.gametip.area_putong = {
@@ -19068,4 +19080,105 @@ _G.pg.gametip.cruise_task_help_2112 = {
 　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
 		}
 	}
+}
+
+_G.pg.gametip.littleSanDiego_npc = {
+	tip = {
+		{
+			info = "■概要\n「明日の星　新登場」とは、イベント開始時に仮加入した【リトル・サンディエゴ】の「友好度」を海域に出撃することで貯め、【リトル・サンディエゴ】を正式加入させるイベントになります。"
+		},
+		{
+			info = "■遊び方\n1.イベント期間中、メイン海域（ノーマル）3章以降のステージの中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することができます"
+		},
+		{
+			info = "2.【リトル・サンディエゴ】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることができません。"
+		},
+		{
+			info = "3.【リトル・サンディエゴ】を編成に入れている艦隊で上記ステージの敵中枢艦隊を撃破し、かつ勝利時【リトル・サンディエゴ】が戦闘可能な状態の場合、獲得できる「友好度」が2倍になります。"
+		},
+		{
+			info = "4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【リトル・サンディエゴ】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【リトル・サンディエゴ】は母港からいなくなります。"
+		},
+		{
+			info = "5.友好度報酬は12/22（水）まで毎日1段階ずつ解放されます。"
+		},
+		{
+			info = "6.仮加入状態の【リトル・サンディエゴ】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
+		},
+		{
+			info = "7.仮加入状態の【リトル・サンディエゴ】は大艦隊作戦には参加できません。"
+		}
+	}
+}
+
+_G.pg.gametip.tag_ship_unlocked = {
+	tip = "図鑑開放済"
+}
+
+_G.pg.gametip.tag_ship_locked = {
+	tip = "図鑑未開放"
+}
+
+_G.pg.gametip.settings_sound_title_bgm = {
+	tip = "  ミュージック"
+}
+
+_G.pg.gametip.settings_sound_title_effct = {
+	tip = "  サウンド"
+}
+
+_G.pg.gametip.settings_sound_title_cv = {
+	tip = "  ボイス"
+}
+
+_G.pg.gametip.setting_resdownload_title_gallery = {
+	tip = "       スチル鑑賞アセット"
+}
+
+_G.pg.gametip.setting_resdownload_title_live2d = {
+	tip = "Live2D更新"
+}
+
+_G.pg.gametip.setting_resdownload_title_music = {
+	tip = "   音楽鑑賞アセット"
+}
+
+_G.pg.gametip.setting_resdownload_title_sound = {
+	tip = "ボイス更新"
+}
+
+_G.pg.gametip.settings_battle_title = {
+	tip = "ゲーム設定"
+}
+
+_G.pg.gametip.settings_battle_tip = {
+	tip = "「修正」ボタンタップで画面配置を変更"
+}
+
+_G.pg.gametip.settings_battle_Btn_edit = {
+	tip = "修正"
+}
+
+_G.pg.gametip.settings_battle_Btn_reset = {
+	tip = "リセット"
+}
+
+_G.pg.gametip.settings_battle_Btn_save = {
+	tip = "セーブ"
+}
+
+_G.pg.gametip.settings_battle_Btn_cancel = {
+	tip = "戻 る"
+}
+
+_G.pg.gametip.settings_pwd_label_close = {
+	tip = "OFF"
+}
+
+_G.pg.gametip.settings_pwd_label_open = {
+	tip = "ON"
+}
+
+_G.pg.gametip.word_frame = {
+	tip = "FPS"
 }

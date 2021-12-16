@@ -13,10 +13,8 @@ function slot0.GetTitleEn(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot1 = slot0._tf
-	slot0.fps30Toggle = slot1:Find("options/30fps")
-	slot1 = slot0._tf
-	slot0.fps60Toggle = slot1:Find("options/60fps")
+	slot0.fps30Toggle = slot0._tf:Find("options/30fps")
+	slot0.fps60Toggle = slot0._tf:Find("options/60fps")
 
 	onToggle(slot0, slot0.fps30Toggle, function (slot0)
 		if slot0 then
@@ -32,6 +30,8 @@ function slot0.OnInit(slot0)
 			Application.targetFrameRate = 60
 		end
 	end, SFX_UI_TAG, SFX_UI_TAG)
+	setText(slot0._tf:Find("options/30fps/Text"), "30" .. i18n("word_frame"))
+	setText(slot0._tf:Find("options/60fps/Text"), "60" .. i18n("word_frame"))
 end
 
 function slot0.OnUpdate(slot0)

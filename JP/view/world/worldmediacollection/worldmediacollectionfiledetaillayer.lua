@@ -289,36 +289,22 @@ function slot0.SetDocumentText(slot0, slot1, slot2, slot3)
 	end
 
 	slot18 = 0
-	slot19 = 1
-	slot20 = slot10.fontSize
-	slot21 = slot0.documentRect:GetComponent("LayoutGroup").spacing
 
-	while slot18 < slot9 and slot15 < #slot13 do
-		slot22, slot23, slot24 = slot17(true)
-		slot10.text = slot11 .. slot23 .. slot22 .. slot24
-
-		if slot22 == "\n" then
-			slot19 = slot19 + 1
-		end
-
-		if slot7 < slot10.preferredWidth then
-			slot25 = slot11 .. "\n" .. slot23 .. slot22
-			slot19 = slot19 + 1
-		else
-			slot25 = slot11 .. slot23 .. slot22
-		end
-
-		slot11 = slot25
-		slot18 = slot19 * slot20 + (slot19 - 1) * slot21
+	while slot9 > slot18 and slot15 < #slot13 do
+		slot19, slot20, slot21 = slot17(true)
+		slot10.text = slot11 .. slot20 .. slot19 .. slot21
+		slot11 = slot7 < slot10.preferredWidth and slot11 .. "\n" .. slot20 .. slot19 or slot11 .. slot20 .. slot19
+		slot10.text = slot11
+		slot18 = uv0.getTextPreferredHeight(slot10, slot10.preferredWidth, slot11)
 	end
 
-	for slot25 = slot15, #slot13 do
-		slot26, slot27 = slot17(false)
-		slot11 = slot11 .. slot27 .. slot26
+	for slot22 = slot15, #slot13 do
+		slot23, slot24 = slot17(false)
+		slot11 = slot11 .. slot24 .. slot23
 	end
 
-	slot22, slot23, slot24 = slot17(true)
-	slot10.text = slot11 .. slot24
+	slot19, slot20, slot21 = slot17(true)
+	slot10.text = slot11 .. slot21
 
 	slot12()
 end

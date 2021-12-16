@@ -6799,7 +6799,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 18,
+		is_show = 0,
 		id = 4174,
 		config_data = {
 			1590001,
@@ -6850,7 +6850,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4177,
-		is_show = 17,
+		is_show = 0,
 		config_data = {},
 		time = {
 			timer,
@@ -7055,6 +7055,94 @@ pg.activity_template = {
 		},
 		config_client = {
 			id = 970401
+		}
+	},
+	[4183] = {
+		mark = 20211216,
+		config_client = "",
+		title_res_tag = "shengdiyage",
+		type = 74,
+		login_pop = 0,
+		config_id = 4183,
+		is_show = 18,
+		id = 4183,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SanDiegoPtPage",
+			ui_name = "sandiegoptpage"
+		}
+	},
+	[4184] = {
+		mark = 20211216,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4184,
+		config_data = {
+			17243
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				17243
+			}
 		}
 	},
 	[7001] = {
@@ -10361,6 +10449,8 @@ pg.activity_template = {
 		4179,
 		4180,
 		4181,
+		4183,
+		4184,
 		7001,
 		7002,
 		10006,
