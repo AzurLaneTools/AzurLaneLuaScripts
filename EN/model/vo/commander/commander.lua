@@ -463,6 +463,14 @@ function slot0.updateAbilityTime(slot0, slot1)
 	slot0.abilityTime = slot1
 end
 
+function slot0.GetNextResetAbilityTime(slot0)
+	if pg.gameset.commander_ability_reset_time.key_value == 1 then
+		return pg.TimeMgr:GetInstance():GetNextTimeByTimeStamp(slot0.abilityTime) + 86400
+	else
+		return slot0.abilityTime + pg.gameset.commander_ability_reset_coldtime.key_value
+	end
+end
+
 function slot0.isLevelUp(slot0, slot1)
 	return slot0.level > 1 and slot0.exp - slot1 < 0
 end

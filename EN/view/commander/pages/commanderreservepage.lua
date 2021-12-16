@@ -5,29 +5,58 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.bg1 = slot0._tf:Find("frame/bg1")
+	slot1 = slot0._tf
+	slot0.bg1 = slot1:Find("frame/bg1")
 
 	setActive(slot0.bg1, true)
 
-	slot0.minusBtn = slot0.bg1:Find("count/min")
-	slot0.addBtn = slot0.bg1:Find("count/add")
-	slot0.countTxt = slot0.bg1:Find("count/Text"):GetComponent(typeof(Text))
-	slot0.consumeTxt = slot0.bg1:Find("price/Text"):GetComponent(typeof(Text))
-	slot0.totalTxt = slot0.bg1:Find("price_all/Text"):GetComponent(typeof(Text))
-	slot0.firstTip = slot0.bg1:Find("firstTip")
-	slot0.confirmBtn = slot0.bg1:Find("Button")
-	slot0.bg2 = slot0._tf:Find("frame/bg2")
-	slot0.box1 = slot0.bg2:Find("boxes/1"):GetComponent(typeof(Image))
-	slot0.box2 = slot0.bg2:Find("boxes/2"):GetComponent(typeof(Image))
-	slot0.box3 = slot0.bg2:Find("boxes/3"):GetComponent(typeof(Image))
-	slot0.box4 = slot0.bg2:Find("boxes/4"):GetComponent(typeof(Image))
-	slot0.skipBtn = slot0.bg2:Find("Button")
-	slot0.animtion = slot0.bg2:GetComponent(typeof(Animation))
-	slot0.aniEvt = slot0.bg2:GetComponent(typeof(DftAniEvent))
-	slot0.boxes = slot0.bg2:Find("boxes")
-	slot0.closeBg = slot0._tf:Find("bg")
-	slot0.boxTF = slot0.bg2:Find("box")
-	slot0.boxMove = slot0.bg2:Find("boxMove")
+	slot1 = slot0.bg1
+	slot0.minusBtn = slot1:Find("count/min")
+	slot1 = slot0.bg1
+	slot0.addBtn = slot1:Find("count/add")
+	slot1 = slot0.bg1
+	slot1 = slot1:Find("count/Text")
+	slot0.countTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0.bg1
+	slot1 = slot1:Find("price/Text")
+	slot0.consumeTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0.bg1
+	slot1 = slot1:Find("price_all/Text")
+	slot0.totalTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0.bg1
+	slot0.firstTip = slot1:Find("firstTip")
+	slot1 = slot0.bg1
+	slot0.confirmBtn = slot1:Find("Button")
+	slot1 = slot0.bg1
+	slot0.maxBtn = slot1:Find("max")
+	slot1 = slot0._tf
+	slot0.bg2 = slot1:Find("frame/bg2")
+	slot1 = slot0.bg2
+	slot1 = slot1:Find("boxes/1")
+	slot0.box1 = slot1:GetComponent(typeof(Image))
+	slot1 = slot0.bg2
+	slot1 = slot1:Find("boxes/2")
+	slot0.box2 = slot1:GetComponent(typeof(Image))
+	slot1 = slot0.bg2
+	slot1 = slot1:Find("boxes/3")
+	slot0.box3 = slot1:GetComponent(typeof(Image))
+	slot1 = slot0.bg2
+	slot1 = slot1:Find("boxes/4")
+	slot0.box4 = slot1:GetComponent(typeof(Image))
+	slot1 = slot0.bg2
+	slot0.skipBtn = slot1:Find("Button")
+	slot1 = slot0.bg2
+	slot0.animtion = slot1:GetComponent(typeof(Animation))
+	slot1 = slot0.bg2
+	slot0.aniEvt = slot1:GetComponent(typeof(DftAniEvent))
+	slot1 = slot0.bg2
+	slot0.boxes = slot1:Find("boxes")
+	slot1 = slot0._tf
+	slot0.closeBg = slot1:Find("bg")
+	slot1 = slot0.bg2
+	slot0.boxTF = slot1:Find("box")
+	slot1 = slot0.bg2
+	slot0.boxMove = slot1:Find("boxMove")
 	slot0.tweenList = {}
 
 	setActive(slot0.bg2, false)
@@ -66,6 +95,29 @@ function slot0.OnInit(slot0)
 		uv0.animtion:Stop()
 		uv0:endAnim()
 	end, SFX_PANEL)
+
+	if not LOCK_COMMANDER_ACC then
+		onButton(slot0, slot0.maxBtn, function ()
+			slot1 = getProxy(PlayerProxy):getRawData():getResById(1)
+			slot2 = 0
+			slot3 = 0
+
+			for slot8 = uv0.count, uv0.count + CommanderConst.MAX_GETBOX_CNT - uv0.count - 1 do
+				if slot1 < slot3 + CommanderConst.getBoxComsume(slot8) then
+					break
+				else
+					slot2 = slot2 + 1
+				end
+			end
+
+			uv0.currCnt = slot2
+
+			uv0:updateValue()
+		end, SFX_PANEL)
+	else
+		setActive(slot0.maxBtn, false)
+	end
+
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0.currCnt > 0 then
 			uv0.skip = false

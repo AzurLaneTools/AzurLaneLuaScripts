@@ -142626,6 +142626,27 @@ _G.pg.item_data_statistics[59254] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[59255] = {
+	display = "Event: \"Today's Debut✩Tomorrow's Star!\" Friendship Point Reward ",
+	name = "Friendship Points ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/shengdiyagePT",
+	id = 59255,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",

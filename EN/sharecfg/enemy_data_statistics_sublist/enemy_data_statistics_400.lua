@@ -19855,7 +19855,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[1040002] = {
 		cannon = 490,
-		name = "测试者β型",
+		name = "Tester",
 		hit_growth = 144,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -21162,7 +21162,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999412] = {
 		cannon = 0,
-		name = "测试敌人A",
+		name = "Tester",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -21268,7 +21268,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999501] = {
 		cannon = 6,
-		name = "驱逐无限血测试敌人",
+		name = "Tester",
 		type = 1,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -21381,7 +21381,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999502] = {
 		cannon = 6,
-		name = "轻巡无限血测试敌人",
+		name = "Tester",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -21492,7 +21492,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999503] = {
 		cannon = 6,
-		name = "重巡无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -21606,7 +21606,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999504] = {
 		cannon = 6,
-		name = "战巡无限血测试敌人",
+		name = "Tester",
 		type = 4,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -21720,7 +21720,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999505] = {
 		cannon = 6,
-		name = "战列无限血测试敌人",
+		name = "Tester",
 		type = 5,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -21834,7 +21834,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999506] = {
 		cannon = 6,
-		name = "轻母无限血测试敌人",
+		name = "Tester",
 		type = 6,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -21948,7 +21948,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999507] = {
 		cannon = 6,
-		name = "航母无限血测试敌人",
+		name = "Tester",
 		type = 7,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -22062,7 +22062,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999508] = {
 		cannon = 6,
-		name = "潜艇无限血测试敌人",
+		name = "Tester",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -22130,7 +22130,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999510] = {
 		cannon = 6,
-		name = "航战无限血测试敌人",
+		name = "Tester",
 		type = 10,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -22244,7 +22244,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999513] = {
 		cannon = 6,
-		name = "重炮无限血测试敌人",
+		name = "Tester",
 		type = 13,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -22357,7 +22357,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999518] = {
 		cannon = 6,
-		name = "超巡无限血测试敌人",
+		name = "Tester",
 		type = 18,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -22471,7 +22471,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999550] = {
 		cannon = 6,
-		name = "塞壬中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -22585,7 +22585,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999551] = {
 		cannon = 6,
-		name = "白鹰中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -22698,7 +22698,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999552] = {
 		cannon = 6,
-		name = "皇家中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -22812,7 +22812,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999553] = {
 		cannon = 6,
-		name = "重樱中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -22926,7 +22926,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999554] = {
 		cannon = 6,
-		name = "铁血中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -23040,7 +23040,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999555] = {
 		cannon = 6,
-		name = "东煌中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -23154,7 +23154,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999556] = {
 		cannon = 6,
-		name = "撒丁中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -23268,7 +23268,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999557] = {
 		cannon = 6,
-		name = "北联中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -23382,7 +23382,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999558] = {
 		cannon = 6,
-		name = "鸢尾中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -23496,7 +23496,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999559] = {
 		cannon = 6,
-		name = "维希中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -23610,7 +23610,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999570] = {
 		cannon = 300,
-		name = "中甲无限血测试敌人-前排高爆",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -23724,7 +23724,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999571] = {
 		cannon = 300,
-		name = "中甲无限血测试敌人-前排穿甲",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -23838,7 +23838,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999572] = {
 		cannon = 6,
-		name = "中甲无限血测试敌人-前排航空",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -23952,7 +23952,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999573] = {
 		cannon = 0,
-		name = "中甲无限血测试敌人-前排鱼雷",
+		name = "Tester",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -23993,7 +23993,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999574] = {
 		cannon = 300,
-		name = "中甲无限血测试敌人-后排高爆",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -24107,7 +24107,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999575] = {
 		cannon = 300,
-		name = "中甲无限血测试敌人-后排穿甲",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -24221,7 +24221,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999576] = {
 		cannon = 6,
-		name = "中甲无限血测试敌人-后排航空",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,

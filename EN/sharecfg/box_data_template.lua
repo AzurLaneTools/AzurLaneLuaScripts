@@ -218,7 +218,7 @@ pg.box_data_template = {
 	},
 	[5002] = {
 		id = 5002,
-		name = "照明弹补给",
+		name = "Flare Shell",
 		type = 2,
 		effect_arg = 3,
 		icon = "event_flare",
@@ -338,7 +338,7 @@ pg.box_data_template = {
 	},
 	[10105] = {
 		id = 10105,
-		name = "徽章·克利夫兰μ",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -346,7 +346,7 @@ pg.box_data_template = {
 	},
 	[10106] = {
 		id = 10106,
-		name = "徽章·谢菲尔德μ",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -354,7 +354,7 @@ pg.box_data_template = {
 	},
 	[10107] = {
 		id = 10107,
-		name = "徽章·赤城μ",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -362,7 +362,7 @@ pg.box_data_template = {
 	},
 	[10108] = {
 		id = 10108,
-		name = "徽章·希佩尔μ",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -370,7 +370,7 @@ pg.box_data_template = {
 	},
 	[10109] = {
 		id = 10109,
-		name = "徽章·加斯科涅μ",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -410,7 +410,7 @@ pg.box_data_template = {
 	},
 	[10114] = {
 		id = 10114,
-		name = "徽章·大青花鱼 ",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -418,7 +418,7 @@ pg.box_data_template = {
 	},
 	[10115] = {
 		id = 10115,
-		name = "徽章·塔什干",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -426,7 +426,7 @@ pg.box_data_template = {
 	},
 	[10116] = {
 		id = 10116,
-		name = "邮票·罗恩 ",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -434,7 +434,7 @@ pg.box_data_template = {
 	},
 	[10117] = {
 		id = 10117,
-		name = "杯垫·恶毒 ",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -442,7 +442,7 @@ pg.box_data_template = {
 	},
 	[10118] = {
 		id = 10118,
-		name = "写真·{namecode:97}",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",

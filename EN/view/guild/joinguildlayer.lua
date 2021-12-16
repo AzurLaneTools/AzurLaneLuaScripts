@@ -174,7 +174,7 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 end
 
 function slot0.sortGuilds(slot0, slot1)
-	slot0.sortVOs = Clone(slot0.guildVOs) or {}
+	slot0.sortVOs = slot0.guildVOs or {}
 
 	table.sort(slot0.sortVOs, function (slot0, slot1)
 		if not uv0 then
@@ -193,7 +193,7 @@ function slot0.filter(slot0, slot1)
 	slot0.sortVOs = {}
 
 	if not slot1 and not slot0.contextData.filterData or #slot2 < 2 then
-		slot0.sortVOs = Clone(slot0.guildVOs) or {}
+		slot0.sortVOs = slot0.guildVOs or {}
 
 		setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/joinguildui_atlas", "index_all"), true)
 	else

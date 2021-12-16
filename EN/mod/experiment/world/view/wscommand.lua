@@ -96,47 +96,44 @@ function slot0.OpSwitchMap(slot0, slot1, slot2)
 	slot2 = defaultValue(slot2, function ()
 		uv0:Op("OpInteractive")
 	end)
-
-	slot3:TriggerAutoFight(false, slot3.isAutoSwitch)
-
-	slot4 = slot3:GetActiveMap()
+	slot4 = slot3:GetActiveEntrance()
+	slot5 = slot3:GetActiveMap()
 
 	if not master:GetInMap() then
 		slot0:OpDone()
 		slot1:Apply()
-
-		master.afterSwitchMap = true
-
+		slot3:TriggerAutoFight(slot5:CanAutoFight() and (slot3.isAutoSwitch or World.ReplacementMapType(slot4, slot5) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area")))
 		slot0:Op("OpSetInMap", true, slot2)
-	elseif slot1.destMapId ~= slot4.id or slot1.destGridId ~= slot4.gid then
-		slot5 = {}
+	elseif slot1.destMapId ~= slot5.id or slot1.destGridId ~= slot5.gid then
+		slot6 = {}
 
-		table.insert(slot5, function (slot0)
+		table.insert(slot6, function (slot0)
 			pg.UIMgr.GetInstance():BlurCamera(pg.UIMgr.CameraOverlay, true)
 			master.wsTimer:AddInMapTimer(slot0, 1, 1):Start()
 		end)
-		table.insert(slot5, function (slot0)
+		table.insert(slot6, function (slot0)
 			pg.UIMgr.GetInstance():UnblurCamera(pg.UIMgr.CameraOverlay)
 			master:StopAnim()
 			master:HideMap()
 			master:HideMapUI()
 			slot0()
 		end)
-		table.insert(slot5, function (slot0)
+		table.insert(slot6, function (slot0)
 			uv0:Apply()
-			master:LoadMap(uv1:GetActiveMap(), slot0)
+			uv1:TriggerAutoFight(uv1:GetActiveMap():CanAutoFight() and (uv1.isAutoSwitch or World.ReplacementMapType(uv1:GetActiveEntrance(), slot2) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area")))
+			master:LoadMap(slot2, slot0)
 		end)
-		table.insert(slot5, function (slot0)
+		table.insert(slot6, function (slot0)
 			master:DisplayEnv()
 			master:DisplayMap()
 			master:DisplayMapUI()
 			master:UpdateMapUI()
 			slot0()
 		end)
-		table.insert(slot5, function (slot0)
+		table.insert(slot6, function (slot0)
 			master.wsTimer:AddInMapTimer(slot0, 0.5, 1):Start()
 		end)
-		seriesAsync(slot5, function ()
+		seriesAsync(slot6, function ()
 			uv0:OpDone()
 
 			master.afterSwitchMap = true
@@ -499,17 +496,7 @@ function slot0.OpReadyToMove(slot0)
 		return
 	end
 
-	if master:CheckGuideSLG(slot2, slot3) then
-		-- Nothing
-	elseif slot2:CanAutoFight() then
-		slot7 = World.ReplacementMapType(slot4:GetActiveEntrance(), slot2)
-
-		if slot5 and slot7 == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area") or slot4.isAutoSwitch then
-			triggerButton(master.wsMapRight.toggleAutoFight:Find("off"))
-		end
-	elseif slot4.isAutoSwitch then
-		slot4:TriggerAutoSwitch(false)
-	end
+	master:CheckGuideSLG(slot2, slot3)
 end
 
 function slot0.OpLongMoveFleet(slot0, slot1, slot2, slot3)
@@ -2217,19 +2204,32 @@ function slot0.OpAutoFightSeach(slot0)
 		slot7 = {}
 
 		if slot1.isAutoSwitch and slot2.isPressing then
-			if PlayerPrefs.GetInt("auto_switch_wait", 1) == 1 then
-				slot9 = {}
+			slot8 = slot2:FindAttachments(WorldMapAttachment.TypeEvent)
 
-				for slot13, slot14 in ipairs(pg.gameset.world_planning_stop_event.description) do
-					slot9[slot14] = true
+			if not underscore.any({
+				{
+					"auto_switch_wait",
+					"world_planning_stop_event"
+				},
+				{
+					"auto_switch_wait_2",
+					"world_planning_stop_event2"
+				}
+			}, function (slot0)
+				if PlayerPrefs.GetInt(slot0[1], 0) == 0 then
+					return false
+				else
+					slot1 = {}
+
+					for slot5, slot6 in ipairs(pg.gameset[slot0[2]].description) do
+						slot1[slot6] = true
+					end
+
+					return underscore.any(uv0, function (slot0)
+						return slot0:IsAlive() and uv0[slot0.id]
+					end)
 				end
-
-				slot8 = underscore.any(slot2:FindAttachments(WorldMapAttachment.TypeEvent), function (slot0)
-					return slot0:IsAlive() and uv0[slot0.id]
-				end)
-			end
-
-			if not slot8 then
+			end) then
 				table.insert(slot7, function (slot0)
 					uv0:Op("OpAutoSwitchMap", slot0)
 				end)
@@ -2318,10 +2318,15 @@ function slot0.OpAutoSwitchMap(slot0, slot1)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip2"))
 
 		return existCall(slot1)
-	elseif slot4.active then
-		slot0:Op("OpSetInMap", true)
 	else
-		slot0:Op("OpTransport", slot5, slot4)
+		nowWorld():TriggerAutoSwitch(true)
+
+		if slot4.active then
+			nowWorld():TriggerAutoFight(true)
+			slot0:Op("OpSetInMap", true)
+		else
+			slot0:Op("OpTransport", slot5, slot4)
+		end
 	end
 end
 

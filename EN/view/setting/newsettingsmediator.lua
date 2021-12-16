@@ -1,6 +1,7 @@
 slot0 = class("NewSettingsMediator", import("..base.ContextMediator"))
 slot0.SHOW_DESC = "NewSettingsMediator:SHOW_DESC"
 slot0.ON_LOGOUT = "NewSettingsMediator:ON_LOGOUT"
+slot0.ON_SECON_PWD_STATE_CHANGE = "NewSettingsMediator:ON_SECON_PWD_STATE_CHANGE"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_LOGOUT, function (slot0)
@@ -13,6 +14,7 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		uv0.SHOW_DESC,
+		uv0.ON_SECON_PWD_STATE_CHANGE,
 		GAME.EXCHANGECODE_USE_SUCCESS,
 		GAME.ON_GET_TRANSCODE,
 		GAME.ON_SOCIAL_LINKED,
@@ -31,6 +33,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:OnShowTranscode(slot3.transcode)
 	elseif slot2 == GAME.ON_SOCIAL_LINKED or slot2 == GAME.ON_SOCIAL_UNLINKED then
 		slot0.viewComponent:OnCheckAllAccountState()
+	elseif slot2 == uv0.ON_SECON_PWD_STATE_CHANGE then
+		slot0.viewComponent:OnSecondPwdStateChange()
 	end
 end
 

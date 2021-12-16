@@ -2396,7 +2396,7 @@ pg.world_chapter_random = {
 	},
 	[301] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 301,
@@ -2417,7 +2417,7 @@ pg.world_chapter_random = {
 	},
 	[400] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 400,
@@ -2438,7 +2438,7 @@ pg.world_chapter_random = {
 	},
 	[401] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 401,
@@ -2459,7 +2459,7 @@ pg.world_chapter_random = {
 	},
 	[410] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 410,
@@ -2480,7 +2480,7 @@ pg.world_chapter_random = {
 	},
 	[411] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 411,
@@ -2501,7 +2501,7 @@ pg.world_chapter_random = {
 	},
 	[412] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 412,
@@ -2522,7 +2522,7 @@ pg.world_chapter_random = {
 	},
 	[413] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 413,
@@ -2543,7 +2543,7 @@ pg.world_chapter_random = {
 	},
 	[414] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 414,
@@ -2564,7 +2564,7 @@ pg.world_chapter_random = {
 	},
 	[415] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 415,
@@ -2585,7 +2585,7 @@ pg.world_chapter_random = {
 	},
 	[416] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 416,
@@ -2606,7 +2606,7 @@ pg.world_chapter_random = {
 	},
 	[417] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 417,
@@ -2627,7 +2627,7 @@ pg.world_chapter_random = {
 	},
 	[418] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 418,
@@ -2648,7 +2648,7 @@ pg.world_chapter_random = {
 	},
 	[419] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 419,
@@ -2669,7 +2669,7 @@ pg.world_chapter_random = {
 	},
 	[420] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 420,
@@ -2690,7 +2690,7 @@ pg.world_chapter_random = {
 	},
 	[500] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 500,
@@ -2711,7 +2711,7 @@ pg.world_chapter_random = {
 	},
 	[510] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 510,
@@ -2732,7 +2732,7 @@ pg.world_chapter_random = {
 	},
 	[511] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 511,
@@ -2753,7 +2753,7 @@ pg.world_chapter_random = {
 	},
 	[512] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 512,
@@ -2774,7 +2774,7 @@ pg.world_chapter_random = {
 	},
 	[513] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 513,
@@ -2795,7 +2795,7 @@ pg.world_chapter_random = {
 	},
 	[514] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 514,
@@ -2816,7 +2816,7 @@ pg.world_chapter_random = {
 	},
 	[515] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 515,
@@ -2837,7 +2837,7 @@ pg.world_chapter_random = {
 	},
 	[516] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 516,
@@ -2858,7 +2858,7 @@ pg.world_chapter_random = {
 	},
 	[517] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 517,
@@ -2879,7 +2879,7 @@ pg.world_chapter_random = {
 	},
 	[518] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 518,
@@ -2900,7 +2900,7 @@ pg.world_chapter_random = {
 	},
 	[519] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 519,
@@ -2921,7 +2921,7 @@ pg.world_chapter_random = {
 	},
 	[520] = {
 		entrance_ui = 1,
-		name = "剧情海域(暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 520,
@@ -2942,7 +2942,7 @@ pg.world_chapter_random = {
 	},
 	[541] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 541,
@@ -2963,7 +2963,7 @@ pg.world_chapter_random = {
 	},
 	[544] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 544,
@@ -2984,7 +2984,7 @@ pg.world_chapter_random = {
 	},
 	[547] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 547,
@@ -3005,7 +3005,7 @@ pg.world_chapter_random = {
 	},
 	[550] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 550,
@@ -3026,7 +3026,7 @@ pg.world_chapter_random = {
 	},
 	[553] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 553,
@@ -3047,7 +3047,7 @@ pg.world_chapter_random = {
 	},
 	[601] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 601,
@@ -3068,7 +3068,7 @@ pg.world_chapter_random = {
 	},
 	[602] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 602,
@@ -3089,7 +3089,7 @@ pg.world_chapter_random = {
 	},
 	[610] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 610,
@@ -3110,7 +3110,7 @@ pg.world_chapter_random = {
 	},
 	[620] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 620,
@@ -3131,7 +3131,7 @@ pg.world_chapter_random = {
 	},
 	[630] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 630,
@@ -3152,7 +3152,7 @@ pg.world_chapter_random = {
 	},
 	[631] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 631,
@@ -3173,7 +3173,7 @@ pg.world_chapter_random = {
 	},
 	[632] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 632,
@@ -3194,7 +3194,7 @@ pg.world_chapter_random = {
 	},
 	[640] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 640,
@@ -3215,7 +3215,7 @@ pg.world_chapter_random = {
 	},
 	[650] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 650,
@@ -3236,7 +3236,7 @@ pg.world_chapter_random = {
 	},
 	[660] = {
 		entrance_ui = 1,
-		name = "异常空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 10,
 		id = 660,
@@ -3257,7 +3257,7 @@ pg.world_chapter_random = {
 	},
 	[700] = {
 		entrance_ui = 1,
-		name = "神秘海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 700,
@@ -3278,7 +3278,7 @@ pg.world_chapter_random = {
 	},
 	[701] = {
 		entrance_ui = 1,
-		name = "神秘海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 701,
@@ -3299,7 +3299,7 @@ pg.world_chapter_random = {
 	},
 	[702] = {
 		entrance_ui = 1,
-		name = "神秘海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 702,
@@ -3320,7 +3320,7 @@ pg.world_chapter_random = {
 	},
 	[703] = {
 		entrance_ui = 1,
-		name = "神秘海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 703,
@@ -3341,7 +3341,7 @@ pg.world_chapter_random = {
 	},
 	[710] = {
 		entrance_ui = 1,
-		name = "混乱之海（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 710,
@@ -3362,7 +3362,7 @@ pg.world_chapter_random = {
 	},
 	[711] = {
 		entrance_ui = 1,
-		name = "意识之海（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 711,
@@ -3383,7 +3383,7 @@ pg.world_chapter_random = {
 	},
 	[712] = {
 		entrance_ui = 1,
-		name = "意识之海（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 712,
@@ -3404,7 +3404,7 @@ pg.world_chapter_random = {
 	},
 	[713] = {
 		entrance_ui = 1,
-		name = "混乱之海（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 713,
@@ -3425,7 +3425,7 @@ pg.world_chapter_random = {
 	},
 	[715] = {
 		entrance_ui = 1,
-		name = "神秘海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 715,
@@ -3446,7 +3446,7 @@ pg.world_chapter_random = {
 	},
 	[720] = {
 		entrance_ui = 1,
-		name = "精神空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 720,
@@ -3467,7 +3467,7 @@ pg.world_chapter_random = {
 	},
 	[721] = {
 		entrance_ui = 1,
-		name = "精神空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 721,
@@ -3488,7 +3488,7 @@ pg.world_chapter_random = {
 	},
 	[722] = {
 		entrance_ui = 1,
-		name = "精神空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 722,
@@ -3509,7 +3509,7 @@ pg.world_chapter_random = {
 	},
 	[723] = {
 		entrance_ui = 1,
-		name = "精神空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 723,
@@ -3530,7 +3530,7 @@ pg.world_chapter_random = {
 	},
 	[730] = {
 		entrance_ui = 1,
-		name = "精神空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 730,
@@ -3551,7 +3551,7 @@ pg.world_chapter_random = {
 	},
 	[731] = {
 		entrance_ui = 1,
-		name = "精神空间·深层（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 731,
@@ -3572,7 +3572,7 @@ pg.world_chapter_random = {
 	},
 	[740] = {
 		entrance_ui = 1,
-		name = "图腾空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 740,
@@ -3593,7 +3593,7 @@ pg.world_chapter_random = {
 	},
 	[741] = {
 		entrance_ui = 1,
-		name = "图腾空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 741,
@@ -3614,7 +3614,7 @@ pg.world_chapter_random = {
 	},
 	[742] = {
 		entrance_ui = 1,
-		name = "图腾空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 742,
@@ -3635,7 +3635,7 @@ pg.world_chapter_random = {
 	},
 	[743] = {
 		entrance_ui = 1,
-		name = "图腾空间（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 743,
@@ -3656,7 +3656,7 @@ pg.world_chapter_random = {
 	},
 	[750] = {
 		entrance_ui = 1,
-		name = "图腾空间·深层（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 750,
@@ -3677,7 +3677,7 @@ pg.world_chapter_random = {
 	},
 	[760] = {
 		entrance_ui = 1,
-		name = "春之幻境（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 760,
@@ -3698,7 +3698,7 @@ pg.world_chapter_random = {
 	},
 	[761] = {
 		entrance_ui = 1,
-		name = "夏之幻境（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 761,
@@ -3719,7 +3719,7 @@ pg.world_chapter_random = {
 	},
 	[762] = {
 		entrance_ui = 1,
-		name = "秋之幻境（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 762,
@@ -3740,7 +3740,7 @@ pg.world_chapter_random = {
 	},
 	[763] = {
 		entrance_ui = 1,
-		name = "冬之幻境（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 763,
@@ -3761,7 +3761,7 @@ pg.world_chapter_random = {
 	},
 	[770] = {
 		entrance_ui = 1,
-		name = "季节幻境·深层（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 770,
@@ -7283,7 +7283,7 @@ pg.world_chapter_random = {
 	},
 	[20101] = {
 		entrance_ui = 1,
-		name = "塞壬要塞海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 1,
 		enter_cost = 0,
 		id = 20101,
@@ -7304,7 +7304,7 @@ pg.world_chapter_random = {
 	},
 	[20103] = {
 		entrance_ui = 1,
-		name = "塞壬要塞海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 1,
 		enter_cost = 0,
 		id = 20103,
@@ -7325,7 +7325,7 @@ pg.world_chapter_random = {
 	},
 	[20200] = {
 		entrance_ui = 1,
-		name = "塞壬要塞海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 1,
 		enter_cost = 0,
 		id = 20200,
@@ -7346,7 +7346,7 @@ pg.world_chapter_random = {
 	},
 	[20201] = {
 		entrance_ui = 1,
-		name = "塞壬要塞海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 1,
 		enter_cost = 0,
 		id = 20201,
@@ -7367,7 +7367,7 @@ pg.world_chapter_random = {
 	},
 	[20202] = {
 		entrance_ui = 1,
-		name = "塞壬要塞海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 1,
 		enter_cost = 0,
 		id = 20202,
@@ -7388,7 +7388,7 @@ pg.world_chapter_random = {
 	},
 	[20203] = {
 		entrance_ui = 1,
-		name = "塞壬要塞海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 1,
 		enter_cost = 0,
 		id = 20203,
@@ -7409,7 +7409,7 @@ pg.world_chapter_random = {
 	},
 	[20204] = {
 		entrance_ui = 1,
-		name = "塞壬要塞海域（暂不使用）",
+		name = "Future Content ",
 		complete_effect = 1,
 		enter_cost = 0,
 		id = 20204,
@@ -8942,7 +8942,7 @@ pg.world_chapter_random = {
 	},
 	[89003] = {
 		entrance_ui = 1,
-		name = "测试用地图原819",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 1000,
 		id = 89003,
@@ -8963,7 +8963,7 @@ pg.world_chapter_random = {
 	},
 	[89004] = {
 		entrance_ui = 1,
-		name = "测试用地图原819",
+		name = "Future Content ",
 		complete_effect = 0,
 		enter_cost = 1000,
 		id = 89004,

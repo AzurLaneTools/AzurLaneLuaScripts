@@ -1,5 +1,131 @@
 pg = pg or {}
 pg.ship_skin_template_19 = {
+	[900285] = {
+		ship_group = 90285,
+		name = "Arbiter: Strength VIII",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 900285,
+		group_index = 0,
+		prefab = "shancheng",
+		painting = "strength",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "No description",
+		voice_actor = 71,
+		spine_offset = "",
+		illustrator = 22,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.1,
+					0.43,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.27,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					0.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.559,
+							1.15,
+							-0.51
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.293,
+							0.826,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[900286] = {
 		ship_group = 90286,
 		name = "Arbiter: Temperance XIV",
@@ -1731,7 +1857,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "苏维埃同盟级战列舰—苏维埃贝拉罗斯",
+		desc = "No description",
 		voice_actor = 106,
 		spine_offset = "",
 		illustrator = 1,
@@ -1844,7 +1970,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "buli？人家好像得到了新的装备buli？这样布里也能战斗了buli！",
+		desc = "No description",
 		voice_actor = 72,
 		spine_offset = "",
 		illustrator = 1,
@@ -1950,7 +2076,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "试作型布里MKII，可以用于超稀有角色的突破",
+		desc = "No description",
 		voice_actor = 72,
 		spine_offset = "",
 		illustrator = 1,
@@ -2069,7 +2195,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "无描述",
+		desc = "No description",
 		voice_actor = -1,
 		spine_offset = "",
 		illustrator = -1,
@@ -2195,7 +2321,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "无描述",
+		desc = "No description",
 		voice_actor = -1,
 		spine_offset = "",
 		illustrator = -1,
@@ -2321,7 +2447,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:93}·META",
+		desc = "No description",
 		voice_actor = 30,
 		spine_offset = "",
 		illustrator = -1,
@@ -2434,7 +2560,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "海伦娜·META",
+		desc = "No description",
 		voice_actor = 5,
 		spine_offset = "",
 		illustrator = -1,
@@ -2547,7 +2673,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "约克城·META",
+		desc = "No description",
 		voice_actor = 5,
 		spine_offset = "",
 		illustrator = -1,
@@ -2660,7 +2786,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "新奥尔良级重巡洋舰——{namecode:195}，舷号CA-38",
+		desc = "No description",
 		voice_actor = 275,
 		spine_offset = "",
 		illustrator = -1,
@@ -2766,7 +2892,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "罗恩校服",
+		desc = "No description",
 		voice_actor = 109,
 		spine_offset = "",
 		illustrator = -1,
@@ -8029,126 +8155,6 @@ pg.ship_skin_template_19 = {
 						{
 							-0.4,
 							2.35,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10600060] = {
-		ship_group = 1060006,
-		name = "Nyotengu",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 10600060,
-		group_index = 0,
-		prefab = "nvtiangou_DOA",
-		painting = "nvtiangou_DOA",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Oh? You don't seem to fear me... Who might you be? ...I see, so it is you who rules over this place. Then I shall call you \"Commander.\" I am Nyotengu. You would do best to keep me entertained, hehe.",
-		voice_actor = 253,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.644,
-					1.08,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.666,
-					1.08,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.002,
-					-0.005,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.666,
-					1.08,
-					0
-				}
-			},
-			plane = {
-				{
-					1.572,
-					1.08,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.582,
 							0
 						}
 					}

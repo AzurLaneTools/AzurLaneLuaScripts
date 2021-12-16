@@ -7080,7 +7080,7 @@ pg.task_data_template = {
 		}
 	},
 	[5071] = {
-		name = "The Nervous Black Cat",
+		name = "A Small Luncheon ",
 		guild_coin_award = 0,
 		award = 5065,
 		type = 5,
@@ -7117,7 +7117,7 @@ pg.task_data_template = {
 		}
 	},
 	[5072] = {
-		name = "Advice From a Friend",
+		name = "The Meaning of Glory",
 		guild_coin_award = 0,
 		award = 5066,
 		type = 5,
@@ -7152,7 +7152,7 @@ pg.task_data_template = {
 		}
 	},
 	[5073] = {
-		name = "You Can Do It, Hatsuharu!",
+		name = "The Secretary Ship's Responsibilities ",
 		guild_coin_award = 0,
 		award = 5067,
 		type = 5,
@@ -7187,7 +7187,7 @@ pg.task_data_template = {
 		}
 	},
 	[5074] = {
-		name = "Hatsuharu, The Secretary!",
+		name = "Friend or Foe? ",
 		guild_coin_award = 0,
 		award = 5068,
 		type = 5,
@@ -7222,7 +7222,7 @@ pg.task_data_template = {
 		}
 	},
 	[5075] = {
-		name = "Fruitless Efforts?",
+		name = "Cute Little Piggy ",
 		guild_coin_award = 0,
 		award = 5069,
 		type = 5,
@@ -7267,7 +7267,7 @@ pg.task_data_template = {
 		}
 	},
 	[5076] = {
-		name = "Hatsuharu's Determination",
+		name = "Stubbornness and Sincerity - Part 1 ",
 		guild_coin_award = 0,
 		award = 5070,
 		type = 5,
@@ -7312,7 +7312,7 @@ pg.task_data_template = {
 		}
 	},
 	[5077] = {
-		name = "The Black Cat's Daily Life",
+		name = "Stubbornness and Sincerity - Part 2 ",
 		guild_coin_award = 0,
 		award = 5071,
 		type = 5,
@@ -127884,6 +127884,35 @@ pg.task_data_template = {
 			"SSSS_ACADEMY"
 		}
 	},
+	[17243] = {
+		name = "小圣地亚哥复刻临时角色加入",
+		guild_coin_award = 0,
+		award = 96510,
+		type = 6,
+		target_id_2 = "",
+		count_inherit = 0,
+		award_display = "[{4,102211,1}]",
+		desc = "？",
+		sub_type = 1011,
+		is_head = 1,
+		story_icon = "",
+		award_choice = "",
+		visibility = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		target_id = "0",
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		scene = "",
+		target_id_for_client = 0,
+		id = 17243,
+		target_num = 1,
+		fix_task = 0,
+		added_tip = 0,
+		open_need = {}
+	},
 	[31013] = {
 		name = "投票日常建造",
 		guild_coin_award = 0,
@@ -157208,6 +157237,7 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		17240,
 		17241,
 		17242,
+		17243,
 		31013,
 		31014,
 		31015,

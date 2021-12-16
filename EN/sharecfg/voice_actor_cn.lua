@@ -478,7 +478,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 120,
-		actor_name = "英文版暂无"
+		actor_name = "幽舞越山"
 	},
 	{
 		code = 121,

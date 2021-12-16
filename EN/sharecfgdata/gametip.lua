@@ -17066,7 +17066,7 @@ _G.pg.gametip.world_setting_quickmodetip = {
 }
 
 _G.pg.gametip.world_setting_submititem = {
-	tip = "Auto use items during\nAuto Search"
+	tip = "Auto use items during Auto Search"
 }
 
 _G.pg.gametip.world_setting_submititemtip = {
@@ -17074,7 +17074,7 @@ _G.pg.gametip.world_setting_submititemtip = {
 }
 
 _G.pg.gametip.world_setting_mapauto = {
-	tip = "Default to Auto Mode\nin secured zones"
+	tip = "Default to Auto Mode in secured zones"
 }
 
 _G.pg.gametip.world_setting_mapautotip = {
@@ -17186,11 +17186,23 @@ _G.pg.gametip.world_automode_setting_all_3 = {
 }
 
 _G.pg.gametip.world_automode_setting_all_3_1 = {
-	tip = "Yes"
+	tip = "No"
 }
 
 _G.pg.gametip.world_automode_setting_all_3_2 = {
-	tip = "No"
+	tip = "Yes"
+}
+
+_G.pg.gametip.world_automode_setting_all_4 = {
+	tip = "Pause when encountering a Siren construct?"
+}
+
+_G.pg.gametip.world_automode_setting_all_4_1 = {
+	tip = "YES"
+}
+
+_G.pg.gametip.world_automode_setting_all_4_2 = {
+	tip = "NO"
 }
 
 _G.pg.gametip.area_putong = {
@@ -19014,4 +19026,95 @@ We do not recommend this because it costs Gems, whereas you are able to complete
 Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
 		}
 	}
+}
+
+_G.pg.gametip.littleSanDiego_npc = {
+	tip = {
+		{
+			info = [[
+- Overview -
+During the event, Li'l Sandy will provisionally join your fleet. Sortie to various stages to accumulate Friendship Points (FP). Collect enough FP to have Li'l Sandy permanently join your fleet!
+
+- How to Play -
+· During the event period, clear Main Campaign stages including and beyond Chapter 3 to obtain FP. You will be able to collect rewards for accumulating a certain number of FP.
+· You will not be able to give a Promise Ring to Li'l Sandy until you have formally recruited her to the fleet. You will also not be able to Retire her, Limit Break her, or Strengthen her.
+· If Li'l Sandy is in a fleet that defeats the Boss of a stage that grants FP, the amount of FP granted will be doubled.
+· If Li'l Sandy has not been formally recruited by the end of the event, she will leave the Port.
+· Rewards for reaching certain amounts of Friendship Points will unlock in phases, every day until 12/22.
+· Li'l Sandy cannot participate in Operation Siren or META Showdowns until she has been formally recruited.
+· Li'l Sandy cannot participate in Guild Bosses until she has been formally recruited.]]
+		}
+	}
+}
+
+_G.pg.gametip.tag_ship_unlocked = {
+	tip = "Entry Unlocked"
+}
+
+_G.pg.gametip.tag_ship_locked = {
+	tip = "Entry Locked"
+}
+
+_G.pg.gametip.settings_sound_title_bgm = {
+	tip = " BGM Volume"
+}
+
+_G.pg.gametip.settings_sound_title_effct = {
+	tip = " SFX Volume"
+}
+
+_G.pg.gametip.settings_sound_title_cv = {
+	tip = " Voice Volume"
+}
+
+_G.pg.gametip.setting_resdownload_title_gallery = {
+	tip = "Update Gallery"
+}
+
+_G.pg.gametip.setting_resdownload_title_live2d = {
+	tip = "Update Live2D"
+}
+
+_G.pg.gametip.setting_resdownload_title_music = {
+	tip = "Update BGM"
+}
+
+_G.pg.gametip.setting_resdownload_title_sound = {
+	tip = "Update Voices"
+}
+
+_G.pg.gametip.settings_battle_title = {
+	tip = "Control Adjustment"
+}
+
+_G.pg.gametip.settings_battle_tip = {
+	tip = "Tap the Edit button to adjust the placement of your controls"
+}
+
+_G.pg.gametip.settings_battle_Btn_edit = {
+	tip = "Edit"
+}
+
+_G.pg.gametip.settings_battle_Btn_reset = {
+	tip = "Default"
+}
+
+_G.pg.gametip.settings_battle_Btn_save = {
+	tip = "Save"
+}
+
+_G.pg.gametip.settings_battle_Btn_cancel = {
+	tip = "Cancel"
+}
+
+_G.pg.gametip.settings_pwd_label_close = {
+	tip = "Disabled"
+}
+
+_G.pg.gametip.settings_pwd_label_open = {
+	tip = "Enabled"
+}
+
+_G.pg.gametip.word_frame = {
+	tip = " FPS"
 }

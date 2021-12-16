@@ -962,222 +962,222 @@ pg.world_event_desc = {
 	},
 	[73020] = {
 		id = 73020,
-		hint = "派遣一支舰队进入海域中央",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73121] = {
 		id = 73121,
-		hint = "通过隐形墙迷宫，将能源矩阵归位",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73249] = {
 		id = 73249,
-		hint = "调查海域中央",
+		hint = "Future Content ",
 		hint_pri = 2
 	},
 	[73270] = {
 		id = 73270,
-		hint = "使用中央控制台归位三个能源矩阵 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73290] = {
 		id = 73290,
-		hint = "使用中央控制台归位三个能源矩阵 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73310] = {
 		id = 73310,
-		hint = "使用中央控制台归位三个能源矩阵 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73501] = {
 		id = 73501,
-		hint = "将能源矩阵放到指定的位置",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73510] = {
 		id = 73510,
-		hint = "将能源矩阵放到指定的位置",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73520] = {
 		id = 73520,
-		hint = "将能源矩阵放到指定的位置",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73730] = {
 		id = 73730,
-		hint = "击破海域两侧的塞壬精英",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73731] = {
 		id = 73731,
-		hint = "击破海域两侧的塞壬精英",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73830] = {
 		id = 73830,
-		hint = "击破海域两侧的塞壬精英",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73831] = {
 		id = 73831,
-		hint = "击破海域两侧的塞壬精英",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73900] = {
 		id = 73900,
-		hint = "与仲裁者交战",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74025] = {
 		id = 74025,
-		hint = "在海域中寻找线索",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74031] = {
 		id = 74031,
-		hint = "将目标方阵还原为初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74215] = {
 		id = 74215,
-		hint = "在海域中寻找目标方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74250] = {
 		id = 74250,
-		hint = "将目标方阵还原为初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74450] = {
 		id = 74450,
-		hint = "在海域中寻找目标方阵",
+		hint = "Future Content ",
 		hint_pri = 2
 	},
 	[74425] = {
 		id = 74425,
-		hint = "将目标方阵还原为初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74610] = {
 		id = 74610,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74611] = {
 		id = 74611,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74612] = {
 		id = 74612,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74613] = {
 		id = 74613,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74614] = {
 		id = 74614,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74615] = {
 		id = 74615,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74616] = {
 		id = 74616,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74617] = {
 		id = 74617,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74618] = {
 		id = 74618,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74619] = {
 		id = 74619,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74620] = {
 		id = 74620,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74900] = {
 		id = 74900,
-		hint = "与仲裁者交战",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[75110] = {
 		id = 75110,
-		hint = "进入传送门空间",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[75111] = {
 		id = 75111,
-		hint = "进入传送门空间",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[75112] = {
 		id = 75112,
-		hint = "进入传送门空间",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[76010] = {
 		id = 76010,
-		hint = "寻找能源矩阵，并带到海域中央",
+		hint = "Future Content ",
 		hint_pri = 3
 	},
 	[76011] = {
 		id = 76011,
-		hint = "将能源矩阵放到海域中央指定位置 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[76110] = {
 		id = 76110,
-		hint = "寻找能源矩阵，并带到海域中央",
+		hint = "Future Content ",
 		hint_pri = 3
 	},
 	[76111] = {
 		id = 76111,
-		hint = "将能源矩阵放到海域中央指定位置 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[76210] = {
 		id = 76210,
-		hint = "寻找能源矩阵，并带到海域中央",
+		hint = "Future Content ",
 		hint_pri = 3
 	},
 	[76211] = {
 		id = 76211,
-		hint = "将能源矩阵放到海域中央指定位置 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[76310] = {
 		id = 76310,
-		hint = "寻找能源矩阵，并带到海域中央",
+		hint = "Future Content ",
 		hint_pri = 3
 	},
 	[76311] = {
 		id = 76311,
-		hint = "将能源矩阵放到海域中央指定位置 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[77000] = {
 		id = 77000,
-		hint = "寻找海域中的仲裁者，将其击破",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[80001] = {

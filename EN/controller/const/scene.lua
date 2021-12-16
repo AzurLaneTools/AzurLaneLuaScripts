@@ -174,8 +174,8 @@ function SCENE.SetSceneInfo(slot0, slot1)
 		slot0.mediator = NavalTacticsMediator
 		slot0.viewComponent = NavalTacticsLayer
 	elseif slot1 == SCENE.SETTINGS then
-		slot0.mediator = SettingsMediator
-		slot0.viewComponent = SettingsScene
+		slot0.mediator = NewSettingsMediator
+		slot0.viewComponent = NewSettingsScene
 	elseif slot1 == SCENE.COLLECTSHIP then
 		slot0.mediator = CollectionMediator
 		slot0.viewComponent = CollectionScene

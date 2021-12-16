@@ -74,6 +74,7 @@ BatchGetCommanderCommand = import("controller.command.commander.BatchGetCommande
 BuildCommaderCommand = import("controller.command.commander.BuildCommaderCommand")
 CommanderFormationOPCommand = import("controller.command.commander.CommanderFormationOPCommand")
 CommanderLearnTalentCommand = import("controller.command.commander.CommanderLearnTalentCommand")
+CommanderQuicklyFinishBoxesCommand = import("controller.command.commander.CommanderQuicklyFinishBoxesCommand")
 CommanderUsePrefabCommand = import("controller.command.commander.CommanderUsePrefabCommand")
 EquipCommanderToFleetCommande = import("controller.command.commander.EquipCommanderToFleetCommande")
 FetchCommanderTalentCommand = import("controller.command.commander.FetchCommanderTalentCommand")

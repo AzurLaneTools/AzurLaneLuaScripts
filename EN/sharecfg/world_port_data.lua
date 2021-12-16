@@ -1446,7 +1446,7 @@ pg.world_port_data = {
 	},
 	[100] = {
 		port_bg = "port_chuanwu1",
-		name = "海域补给商店",
+		name = "Future Content ",
 		goods_num = 6,
 		port_entrance_icon = "",
 		id = 100,
@@ -1643,7 +1643,7 @@ pg.world_port_data = {
 	},
 	[301] = {
 		port_bg = "port_chongdong",
-		name = "虫洞商店",
+		name = "Future Content ",
 		goods_num = 0,
 		port_entrance_icon = "",
 		id = 301,

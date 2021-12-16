@@ -5386,7 +5386,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 18,
+		is_show = 0,
 		id = 4174,
 		config_data = {
 			1590001,
@@ -5437,7 +5437,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4177,
-		is_show = 17,
+		is_show = 0,
 		config_data = {},
 		time = {
 			timer,
@@ -5642,6 +5642,94 @@ pg.activity_template = {
 		},
 		config_client = {
 			id = 970401
+		}
+	},
+	[4183] = {
+		mark = 20211216,
+		config_client = "",
+		title_res_tag = "shengdiyage",
+		type = 74,
+		login_pop = 0,
+		config_id = 4183,
+		is_show = 18,
+		id = 4183,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SanDiegoPtPage",
+			ui_name = "sandiegoptpage"
+		}
+	},
+	[4184] = {
+		mark = 20211216,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4184,
+		config_data = {
+			17243
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				17243
+			}
 		}
 	},
 	[7001] = {
@@ -24132,6 +24220,63 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30834] = {
+		mark = 20211216,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30834",
+		id = 30834,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "Rate UP for Bismarck, U-96, King George V, and more!",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%",
+				"<color=#ffde38>Bismarck</color>：2%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38>U-96</color>：2%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38>King George V</color>：2%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>U-556</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>U-73</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Z26</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Z36</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#3dc6ff>Echo</color>：5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -24294,6 +24439,8 @@ pg.activity_template = {
 		4179,
 		4180,
 		4181,
+		4183,
+		4184,
 		7001,
 		7002,
 		1040,
@@ -24939,6 +25086,7 @@ pg.activity_template = {
 		30830,
 		30831,
 		30832,
-		30833
+		30833,
+		30834
 	}
 }

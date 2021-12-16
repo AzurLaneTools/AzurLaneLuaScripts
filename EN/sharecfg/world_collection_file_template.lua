@@ -16,8 +16,7 @@ pg.world_collection_file_template = {
 		is_classified = 0,
 		group_ID = 2,
 		content = [[
-———————Confidentiality Level: II———————
-...After an investigation, it was concluded that the massive explosion that occurred in Northern Parliament territory was most likely caused by a meteorite impact. This is generally consistent with the long-held Aerolith Hypothesis, but the actual situation is quite a bit different from what the hypothesis posited. 
+…After an investigation, it was concluded that the massive explosion that occurred in Northern Parliament territory was most likely caused by a meteorite impact. This is generally consistent with the long-held Aerolith Hypothesis, but the actual situation is quite a bit different from what the hypothesis posited. 
 The most suspicious aspect of the ■■■■■■ Explosion: 
 At least three powerful explosions occurred simultaneously, and three craters were identified. However, no meteorite fragments were found at the scene. 
 Though the Aerolith Hypothesis can explain the incident to some extent, this piece of evidence is what prevented this theory from being broadly accepted. However, the latest research finally proposed a reasonable explanation to what happened to the meteorite fragments. 
@@ -76,7 +75,7 @@ As a reporter who has always been committed to bringing the truth to everyone, I
 		subTitle = "Confidentiality：III",
 		is_classified = 0,
 		group_ID = 6,
-		content = "———————Confidentiality Level: III———————\n...Our team has discovered some interesting phenomena from the Polar seabed (depth of over 1500 meters). For example, marine life were appearing at certain depths and temperatures that clearly should not have been possible. Through the exploration of the central area of these deep-sea biomes, we were able to recover samples that are suspected to be from ancient meteorites. As hypothesized, the recovered samples in question have been completely integrated into their surrounding environments and showed no traces of extraterrestrial origin. Had it not been for instruments capable of detecting special bands of energy, these fragments may have been glossed over as ordinary seabed debris. The meteorites that caused the ■■■■■■ Explosion seemed to have certain properties that allow them to blend into the surrounding environment. \nOur \"counterparts\" have also noticed this phenomenon, and conducted a seabed expedition at about the same time we did. By calculating the falling trajectory of the ■■■■■■ meteorite, they have now collected a sample that has a high probability of being the object in question. We recommend setting up a temporary research facility directly on the Polar Sea as soon as possible, in the name of scientific research, so that we may catch up to them...",
+		content = "…Our team has discovered some interesting phenomena from the Polar seabed (depth of over 1500 meters). For example, marine life were appearing at certain depths and temperatures that clearly should not have been possible. Through the exploration of the central area of these deep-sea biomes, we were able to recover samples that are suspected to be from ancient meteorites. As hypothesized, the recovered samples in question have been completely integrated into their surrounding environments and showed no traces of extraterrestrial origin. Had it not been for instruments capable of detecting special bands of energy, these fragments may have been glossed over as ordinary seabed debris. The meteorites that caused the ■■■■■■ Explosion seemed to have certain properties that allow them to blend into the surrounding environment. \nOur \"counterparts\" have also noticed this phenomenon, and conducted a seabed expedition at about the same time we did. By calculating the falling trajectory of the ■■■■■■ meteorite, they have now collected a sample that has a high probability of being the object in question. We recommend setting up a temporary research facility directly on the Polar Sea as soon as possible, in the name of scientific research, so that we may catch up to them...",
 		pic = "1106"
 	},
 	[2101] = {
@@ -118,8 +117,7 @@ Résumé delivery method...]],
 		is_classified = 0,
 		group_ID = 3,
 		content = [[
-......
-[No. 42] I am a 40-year-old porter who is now unemployed after my factory closed, looking for a new job! 
+......[No. 42] I am a 40-year-old porter who is now unemployed after my factory closed, looking for a new job! 
 ......
 [No. 171] I am a nuclear power plant engineer. Six months ago, the nuclear power plant where I had been working for 10 years was marked obsolete, and the head office began auctioning the plant off and started mass layoffs. Now, it’s my turn to be laid off... I need a new job to support me and my family! 
 ......

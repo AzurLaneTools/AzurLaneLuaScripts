@@ -7097,6 +7097,40 @@ _G.pg.ship_skin_words[103120] = {
 	}
 }
 
+_G.pg.ship_skin_words[103121] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "Hehe, a victory sweetens the taste.",
+	home = "Ah, welcome back. I was just drinking and watching TV while you were out. I might get more than just tipsy tonight... Hehehe~",
+	mission = "",
+	touch2 = "You aren't usually this bold, Commander.",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "To your prestige, and to your continued victories, Commander. Hehe, I do find myself in the mood for rum tonight. Care to keep me company for a while?",
+	mail = "",
+	touch = "Don't worry, I would never spike your drink~",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "To your prestige, and to your continued victories, Commander. Hehe, I do find myself in the mood for rum tonight. Care to keep me company for a while?",
+	feeling5 = "",
+	main = "Thank you, Javelin. Deliver this bottle to Wichita. It's very valuable. Hehe~|On a random note, why does San Francisco call you \"pudding\"? Is it because you're so sweet, perhaps? Hehehe~|Lexington is indeed a very good friend to me, though her sister can be a piece of work... Ahahaha.",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 103121,
+	detail = "I could've sworn that stuffed toy's eyes flashed red just now... Hmm... Maybe I've had too much.",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[103130] = {
 	feeling1 = "It’s kinda boring talking to you...",
 	feeling3 = "There’s actually a few places in port that I am interested in investigating. Let’s go and explore them now! ...Work? We can still make it on time even if we wait a bit longer!",
@@ -8280,7 +8314,7 @@ _G.pg.ship_skin_words[105121] = {
 	mission_complete = "",
 	feeling4 = "",
 	unlock = "Commander? Oh, umm, this is just, err, equipment changing practice... Also, I recall you saying you like bunny girls. You still do, right?",
-	feeling5 = "Commander? Oh, umm, this is just, err, equipment changing practice... Also, I recall you saying you like bunny girls. You still do, right?",
+	feeling5 = "Commander, are you free today? We could go on a date somewhere. Not in this outfit, of course, just my regular one. Thank you for understanding. Hehehe~",
 	main = "Whew. This feels so liberating! ...And not in any indecent sense, or anything.|Did Washington manage a proper smile today? She's got features as sharp as a knife, so it's easy to misinterpret her expression.|I am genuinely interested in bunny girl things, but it's quite awkward to actually tell people about them...",
 	battle = "",
 	upgrade = "",
