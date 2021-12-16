@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "제어장치를 전부 다 찾아도 저 괴수를 쓰러뜨릴 수 없는 건가",
+			say = "제어장치를 전부 찾아도 저 괴수를 쓰러뜨릴 수 없네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

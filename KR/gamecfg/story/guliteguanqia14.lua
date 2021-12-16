@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "어… 주변을 살피면서 바닷가 쪽으로 가보자.",
+			say = "어… 주변을 살피면서 바닷가 쪽으로 가보죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그 거대한 적이 바다에서 나타나고 바다로 돌아간 거면, 주변 해역에 숨어 있을 가능성이 높아.",
+			say = "그 거대한 적이 바다에서 나타나고 바다로 돌아간 거면, 주변 해역에 숨어 있을 가능성이 높겠네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "흠흠... 이 정도 전술 분석은 기초 중의 기초야, 전혀 대단하지 않다구.",
+			say = "흠흠··· 이 정도 전술 분석은 기초 중의 기초입니다. 전혀 대단하지 않습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "오~ 눈썰미 좋은 걸!",
+			say = "오~ 눈썰미가 좋으시네요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "근데 갑자기 그 선배님이라는 호칭은 무슨 상황이야…?",
+			say = "그런데 갑자기 그 선배님이라는 호칭은 무슨 상황이죠···?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "이런 사소한 거에 얽매이지 마, 소류 언니, 선배라고 불려서 사실은 기분 좋으면서, 몰래 웃는 거 내가 다 봤는데?",
+			say = "이런 사소한 거에 얽매이지 말자구요, 소류 언니. 선배라고 불려서 사실은 기분 좋으시면서, 몰래 웃는 거 다 봤는데요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:94}————",
+			say = "류-——조-——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "어, 무섭다, 무서워. 후배님, 원래 속했던 세계에서도 전투에 참가한 적이 있다고 하던데, 어떤 싸움이었어?",
+			say = "어, 무섭다구요. 후배님, 원래 속했던 세계에서도 전투에 참가한 적이 있다고 하던데, 어떤 싸움이었나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "골드번? 멋지다! 네 의장의 그 금색 용?",
+			say = "골드번? 멋지네요! 거기 의장의 금색 용인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "너희들 세상엔 의장이 없잖아, 그러면… 진짜 골드번은 괴수라는 거야?",
+			say = "그쪽 세상에는 의장이 없잖아요, 그러면··· 진짜 골드번은 괴수라는 건가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "너흰 괴수와 싸우고 있다고 하지 않았어? 근데 괴수와 파트너가 될 수도 있는 거야?",
+			say = "여러분은 괴수와 싸우고 있다고 하지 않았나요? 그런데 괴수와 파트너가 될 수도 있다고요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "감정을 느낄 수 있으면 괴수도 큰 차이가 있다는 게 대단해.",
+			say = "감정을 느낄 수 있으면 괴수라고 해도 큰 차이가 있다니... 대단하네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

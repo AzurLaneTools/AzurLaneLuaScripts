@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "괴수가 아니라 의장이야.",
+			say = "괴수가 아니라 의장이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "어디서 찾았다니… 역시 너희들 아무것도 기억하지 못하는 거구나.",
+			say = "어디서 찾았다니··· 역시 다들 아무것도 기억하지 못하는군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "함선, 이 단어가 뭐라고 생각해?",
+			say = "함선, 이 단어가 뭐라고 생각하시나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "역시…. 그럼, 모항과 지휘관은?",
+			say = "역시…. 그럼, 모항과 지휘관은요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "뭔가 기억 나는 것 같지?",
+			say = "뭔가 기억 나는 것 같죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "에든버러, 너는 일반 고등학생이 아니라 로열 네이비 소속 함선이야. 경순양함 에든버러.",
+			say = "에든버러, 당신은 일반 고등학생이 아니라 로열 네이비 소속 함선이에요. 경순양함 에든버러.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "멤피스도 이글 유니온 소속 오마하급 경순양함 멤피스고.",
+			say = "멤피스도 이글 유니온 소속 오마하급 경순양함 멤피스고요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "밥 먹을 때 마음이 초조하고 뭔가 잊어버린 것 같은 기분이 들었어.",
+			say = "밥 먹을 때 마음이 초조하고 뭔가 잊어버린 것 같은 기분이 들었어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그리고 갑자기 마음속에 한 장면이 떠올랐고, 초조하게 고민하는 순간 \"지휘관\"이 생각났어, 그다음엔 갑자기 모든 기억이 돌아왔지.",
+			say = "그리고 갑자기 마음속에 한 장면이 떠올랐고, 초조하게 고민하는 순간 \"지휘관\"이 생각났어요, 그다음엔 갑자기 모든 기억이 돌아왔죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "이 부분에 대해서는 너희 쪽에도 사정을 알고 있는 사람이 있으니, 그녀가 대신 말해줄 거야.",
+			say = "이 부분에 대해서는 그쪽에도 사정을 알고 있는 사람이 있으니, 그녀가 대신 말해줄 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

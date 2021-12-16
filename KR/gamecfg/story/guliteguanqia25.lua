@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306060,
-			say = "아주 잘했어, 퓨리. 괴수를 쓰러뜨렸다!",
+			say = "아주 잘했습니다, 퓨리. 괴수를 쓰러뜨렸어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "아마 세이렌의 거울 해역과 관련이 있는 것 같아. 그 괴수가 거울 해역의 컨트롤타워 역할이었던 것 같아.",
+			say = "아마 세이렌의 거울 해역과 관련이 있는 것 같아요. 그 괴수가 거울 해역의 컨트롤타워 역할이었던 것 같네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "다행이라고 해야 하나… 왜냐면 퓨리와 함께 모항으로 돌아가면 지휘관이 어떤 결정을 내릴지도 모르니까.",
+			say = "다행이라고 해야 하나요··· 왜냐하면 퓨리와 함께 모항으로 돌아가면 지휘관이 어떤 결정을 내릴지 모르니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "아카시구나? 맞아, 확실히 이런 것에는 이미 익숙해진 것 같으니까…",
+			say = "아카시 말이죠? 그렇네요, 확실히 이런 것에는 이미 익숙해진 것 같으니까요···",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306060,
-			say = "상관없어. 도움이 필요한 사람을 도와주는 일이 바로 우리가 원래 해야 할 일이야.",
+			say = "상관없습니다! 도움이 필요한 사람을 도와주는 일이 바로 저희가 원래 해야 하는 일입니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "에든버러, 우리의 현재 위치와 모항의 방향은 알고 있는 거지?",
+			say = "에든버러, 우리의 현재 위치와 모항의 방향은 알고 있는 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

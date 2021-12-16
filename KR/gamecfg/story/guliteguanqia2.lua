@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "나랑 같이 먹자, 마침 내가 많이 준비했거든.",
+			say = "저랑 같이 먹어요. 마침 제가 많이 준비했거든요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "에든버러니까 괜찮아. 이걸 너한테 줄게, 난 진지를 변경해서——————",
+			say = "에든버러니까 괜찮아요. 이걸 에든버러한테 주고, 전 진지를 변경해서ㅡㅡㅡㅡ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "어…………?",
+			say = "어라…………?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "이상하다, 이상해. 이상해… 해야 할 일을 깜빡한 것 같아.",
+			say = "이상하네요, 이상해. 이상해··· 해야 할 일을 깜빡한 것 같아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "분명 중요한 일인데, 점심 시간에 어딜 가기로 했는데, 그리곤… 뭘 하려고 했지?",
+			say = "분명 중요한 일인데, 점심 시간에 어딜 가기로 했는데, 그리곤… 뭘 하려고 했을까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "아니, 아니, 아니야… 대체 무슨 일을 깜빡한 거지.",
+			say = "아니, 아니, 아니에요… 대체 무슨 일을 깜빡한 걸까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301812,
-			say = "오, 인정. 근데 왜 학교 근처만 정상일까에 대한 조사는?",
+			say = "퓨리, 대단해. 근데 왜 학교 근처만 정상일까에 대한 조사는?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			actor = 301812,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "세이렌의 습격은 두고만 볼 수 없지, 지금 바로 다른 사람한테 연락해 볼게, 전투가 시작되겠군.",
+			say = "세이렌의 습격을 두고만 볼 수 없지. 지금 바로 다른 사람한테 연락해 볼게. 전투가 시작되겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

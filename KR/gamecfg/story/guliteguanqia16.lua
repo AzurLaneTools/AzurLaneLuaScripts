@@ -25,7 +25,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "적 함대 발견. 저런 진영은 너무 허접한걸?",
+			say = "적 함대 발견. 저런 진영은 너무 허접한걸요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "만약 본인들이 속은 걸 전혀 모르고 협상을 거부하면 어떡할려구?",
+			say = "만약 본인들이 속은 걸 전혀 모르고 협상을 거부한 면요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그렇게 되면 기습의 강점은 사라지고, 세이렌이 우릴 공격해서 피해를 입으면 어떻게 할 거야?",
+			say = "그렇게 되면 기습의 강점은 사라지고, 세이렌이 저희를 공격해서 피해를 입으면 어떻게 할 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "노력은 하겠지만, 먼저 적의 기세를 꺾어버려야지.",
+			say = "노력은 하겠지만, 먼저 적의 기세를 꺾어버려야죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

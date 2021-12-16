@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "전부 세이렌 기관일 거야. 이젠 그것들로 우릴 현혹시킬 필요가 없다고 판단한 거 아닐까?",
+			say = "전부 세이렌 기관일 거예요. 이젠 그것들로 저희를 현혹시킬 필요가 없다고 판단한 거 아닐까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "왜냐면 아까 이미 무지나랑 그의 괴수와 싸웠거든.",
+			say = "왜냐면 아까 이미 무지나랑 그의 괴수와 싸웠거든요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "세이렌과 접촉했다면, 지금 상황과 우리가 떠날 수 있는 방법을 아는데 큰 도움이 될 거야.",
+			say = "세이렌과 접촉했다면, 지금 상황과 우리가 떠날 수 있는 방법을 아는데 큰 도움이 되겠군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "혼자 두면 위험할 수도 있으니까, 찢어져서 찾아보자.",
+			say = "혼자 두면 위험할 수도 있으니까, 찢어져서 찾아보죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

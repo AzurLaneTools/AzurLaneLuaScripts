@@ -86454,7 +86454,7 @@ _G.pg.equip_data_statistics[42071] = {
 
 _G.pg.equip_data_statistics[42080] = {
 	tech = 0,
-	name = "试作型双联装SKC28式150mm主炮改",
+	name = "시제형 연장 SKC28식 150mm 주포改",
 	speciality = "추적",
 	type = 2,
 	descrip = "",

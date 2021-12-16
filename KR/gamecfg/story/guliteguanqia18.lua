@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "천천히 연구해 봐, 어차피 충분히 많은 양의 세이렌 함대가 준비되어 있으니까.",
+			say = "천천히 연구해 보죠, 어차피 충분히 많은 양의 세이렌 함대가 준비되어 있으니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "안갯속에 숨어있어서 가까이 가야 얼마나 많은 적이 있는지 확인할 수 있었는데, 마침 몸 좀 풀어볼까?",
+			say = "음. 역시... 안갯속에 숨어있어서, 가까이 가야 얼마나 많은 적이 있는지 확인할 수 있겠네요. 마침 몸 좀 풀어볼까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "좀 까다로울 것 같군, 재밌겠어, 어서 전투 준비하자.",
+			say = "좀 까다로울 것 같지만, 재미겠어요. 어서 전투 준비하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "왜, 왜 갑자기 겁나? 퓨리파이어가 이걸 무서워한다고?",
+			say = "왜죠? 갑자기 겁나나요? 퓨리파이어가 이걸 무서워한다고요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "적이 이미 코앞까지 돌진했는데, 철수하자고? 우리 함대의 머릿수가 얼만데 절대 지지 않을 거야, 우선 함재기로 폭격부터 하자.",
+			say = "적은 이미 코앞까지 돌진했는데, 철수를 하자고요? 우리 함대의 수가 더 많으니 우선 함재기로 폭격부터 하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "하긴, 못 먹어도 고지,  소류 언니도 같이 할 거지?",
+			say = "하긴, 못 먹어도 고죠, 소류 언니도 같이 할 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "론",
-			say = "장난치는 거 아니지? 이 위력 뭔데?!",
+			say = "!!! 확실히 확실히 엄청난 화력이네요 !!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "아직 안 끝났어. 내가 한번————",
+			say = "아직 안 끝났어요. 제가 한번ㅡㅡㅡ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그것도 맞는 소리네, 기세로 볼 땐 론이 지휘를 하는 게 맞지만 정식으로 결정된 건 아니니까.",
+			say = "그것도 맞는 소립니다. 기세로 볼 땐 론씨가 지휘를 하는 게 맞지만 정식으로 결정된게  아니니···",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "쳇…  너희 말이 맞아, 먼저 적에 대해 연구하고 싸우는 게 좋을 것 같아, 먼저 철수하자.",
+			say = "쳇··· 그렇네요. 먼저 적에 대해 연구하고 싸우는 게 좋을 것 같아요, 우선 철수하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -951,7 +951,7 @@ pg.world_target_data = {
 	[4305] = {
 		id = 4305,
 		target_name = "2차 탐색",
-		target_desc = "강화형 「장기말」 함대 1개 격파",
+		target_desc = "강화형 「장기말」 매복 1회 격파",
 		condition = {
 			{
 				4305,
@@ -1551,7 +1551,7 @@ pg.world_target_data = {
 	[6505] = {
 		id = 6505,
 		target_name = "2차 탐색",
-		target_desc = "강화형 「장기말」 함대 1개 격파",
+		target_desc = "강화형 「장기말」 매복 1회 격파",
 		condition = {
 			{
 				6505,
@@ -3351,7 +3351,7 @@ pg.world_target_data = {
 	[13105] = {
 		id = 13105,
 		target_name = "2차 탐색",
-		target_desc = "강화형 「장기말」 함대 1개 격파",
+		target_desc = "강화형 「장기말」 매복 1회 격파",
 		condition = {
 			{
 				13105,

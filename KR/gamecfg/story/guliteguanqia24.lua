@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306060,
-			say = "바다뿐만 아니라 주위의 공기도 떨리기 시작하고 있어!",
+			say = "바다뿐만 아니라 주위의 공기도 떨리기 시작하고 있습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "마치 해상 지진 같잖아…. 전자 장비도 작동 불능인 것 같아.",
+			say = "마치 해상 지진 같네요... 전자 장비도 작동 불능인 것 같아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

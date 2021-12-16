@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "조금 전의 전투 데이터를 보면 확실히 위험해. 정면으로 대처하는 건 어려울 것 같아.",
+			say = "조금 전의 전투 데이터를 보면 확실히 위험합니다. 정면으로 대처하는 건 어려울 것 같아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "중요한 거 말하고 있잖아! 그래서 더 좋은 방법은?",
+			say = "중요한 거 말하고 있는데요~ 그래서 더 좋은 방법은요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "엥? 정말? 그럼 전투 시작 전부터 철수하자고 했던 게 그거 때문이야?",
+			say = "에? 정말인가요? 그럼 전투 시작 전부터 철수하자고 했던 게 그거 때문인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "위협 순위라면, 2순위는 무지나였어?",
+			say = "위협 순위라면, 2순위는 무지나였나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "아니, 하지만 이렇게 되면 설명이 돼.",
+			say = "아뇨, 하지만 이렇게 되면 설명이 되겠네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "퓨리와 무지나는 모두 세이렌이 만들어낸 물건을 어느 정도 컨트롤할 수 있기 때문에 최우선 제거 대상이 된 거 아닐까?",
+			say = "퓨리와 무지나는 모두 세이렌이 만들어낸 물건을 어느 정도 컨트롤 할 수 있기 때문에 최우선 제거 대상이 된 게 아닌가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "위험부담이 좀 큰데…",
+			say = "위험부담이 좀 큰데요···",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,7 +860,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "만약 네가 모든 모듈을 획득한 후에 우릴 공격하면 어떡하지?",
+			say = "만약 당신이 모든 모듈을 획득한 후에 저희를  공격하면 어떻게 하죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -878,7 +878,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "아직 모든 제어권이 없는 괴수도 이기지 못하는데, 모든 제어권을 가지게 된 널 이길 수 있을 리가 없잖아.",
+			say = "아직 모든 제어권이 없는 괴수도 이기지 못하는데, 모든 제어권을 가진 당신을 이길 수 있을 리가 없잖아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -942,7 +942,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그럼 전과 마찬가지로 나와 카스미, 핫스와 나미코가 퓨리와 함께 있을게.",
+			say = "그럼 전과 마찬가지로 저와 카스미, 핫스씨와 나미코씨가 퓨리와 함께 있을게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,7 +959,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "만약 퓨리가 이상한 낌새가 보이면 우리가 최단 거리에서 공격해서 위협을 없애고, 아니라면 경호원 자격으로 작전의 성공을 보조하는 거지.",
+			say = "만약 퓨리가 이상한 낌새를 보이면 저희가 최단 거리에서 없애거나, 아니라면 경호원 자격으로 작전의 성공을 보조하는 거죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -976,7 +976,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "역시 엘리자베스 여왕 곁을 보필하는 메이드대 멤버답게 좋은 방법이야.",
+			say = "역시 엘리자베스 여왕님 곁을 보필하는 메이드대 멤버답게 좋은 방법이네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

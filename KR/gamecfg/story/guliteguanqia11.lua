@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "순찰 끝. 여기 있는 사람이 학교에 있던 전원이야. 무슨 상황인지도 당연히 설명했고.",
+			say = "순찰 종료! 여기 있는 사람들이 학교에 있던 전원입니다! 무슨 상황인지도 당연히 설명했습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "이런 일이 일어날 줄은 꿈에도 몰랐어.",
+			say = "이런 일이 일어날 줄은 꿈에도 몰랐네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "언니는 선도부 위원이라는 설정이야, 난 교칙을 어기는 불량학생이구, 완벽한 설정이지?",
+			say = "언니는 선도부 위원이라는 설정이네요. 저는 교칙을 어기는 불량학생이고,  완벽한 설정이네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "난 초자연 연구부 부장인데, 부원이 나밖에 없어서 곧 없어질 위기에 처한 설정이었어.",
+			say = "카스미는 초자연 연구부 부장인데, 부원이 카스미밖에 없어서 곧 없어질 위기에 처한 설정이었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202271,
-			say = "난 보건실 당직 의사야, 입고 있는 간호복이 메이드복이랑 달라서 신선하지?",
+			say = "저는 보건실 당직 의사네요. 입고 있는 간호복이 메이드복이랑 달라서 신선해 보이나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202271,
-			say = "그땐 너무 무서워서 도망갔어. 겁이 많은 보건실 의사의 설정이었던 것 같아.",
+			say = "그때는 너무 무서워서 도망갔어요. 겁이 많은 보건실 의사의 설정이었던 것 같아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그럼 한번 기대해 볼게. 그리고 여긴 모항의 사람이 아닌 손님들이야.",
+			say = "그럼 한번 기대해 볼게요. 그리고 여긴 모항의 사람들이 아닌 손님들이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "우린 우연히 만난 거야.",
+			say = "저흰 우연히 만난 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "정확하게는 수업을 빼먹고 보이지 않는 히류를 찾다가 학교 밖에서 어슬렁거리길래, 같이 가자고 했지.",
+			say = "정확하게는 수업을 빼먹고 보이지 않는 히류를 찾다가 학교 밖에서 어슬렁거리길래, 같이 가자고 했죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "잠시 나갔다 왔을 뿐인데, 퓨리파이어가 정말 굉장한 일을 꾸몄네.",
+			say = "잠시 나갔다가 왔을 뿐인데, 퓨리파이어가 정말 굉장한 일을 꾸몄네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "이상하다… 퓨리, 이 데이터들은 모두 어디서 찾은 거야? 입으로 설명하는 걸론 이 정도로 만들어낼 수 없지 않아?",
+			say = "이상하네요·· 퓨리, 이 데이터들은 모두 어디서 찾은 건가요? 입으로 설명하는 걸론 이 정도로 만들어 낼 수 없지 않아요? ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "역시 뭔가 있어… 솔직히 말해 봐, 그렇지 않으면————",
+			say = "역시 뭔가 있어… 솔직히 말해 보세요, 그렇지 않으면————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "그래서 그렇게 빨리 만들어낼 수 있었던 거군… 그 자료를 제외하고 또 뭘 확인했어?",
+			say = "그래서 그렇게 빨리 만들어낼 수 있었던 거군요… 그 자료를 제외하고 또 뭘 확인했나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -807,7 +807,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "이젠 우리한테 거짓말 안 하고 솔직히 말해줄 거지?",
+			say = "이제는 저희한테 거짓말 안 하고 솔직히 말해주는 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -188,7 +188,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "그래도 지금 상황에선 아무리 봐도 그냥 평범한 선생님의 모습이야.",
+			say = "그래도 지금 상황에선 아무리 봐도 그냥 평범한 선생님의 모습입니다.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "멤피스, 퓨리파이어에게 말해주자. 혹시 기억날지도 모르잖아.",
+			say = "멤피스, 퓨리파이어에게 말해주죠, 혹시 기억날지도 모르잖아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "세이렌의 칩입부터 얘기하는 게 좋겠어.",
+			say = "우선 세이렌의 칩입부터 얘기하는 게 좋겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "맞아! 이게 바로 우리가 너를 가둔 이유야, 기억이 돌아왔어?",
+			say = "맞습니다! 그게 바로 저희가 당신을 가둔 이유입니다! 기억이 돌아오셨습니까?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "돌아왔으면 빨리 떠날 방법을 알려줘!",
+			say = "돌아왔다면 빨리 떠날 방법을 알려주시죠!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -627,7 +627,7 @@ return {
 			hidePaintEquip = true,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "얼마나 더 많은 사람이 말려들었을지 모르니, 학교로 돌아가서 제대로 수색해 보자!",
+			say = "얼마나 더 많은 사람이 말려들었을지 모르니, 학교로 돌아가서 제대로 수색해 보죠!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

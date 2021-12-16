@@ -175,7 +175,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "조급해 하지 말고 천천히 생각해 봐. 어떤 세이렌의 기관인지는 모르겠지만, 머리도 이런 기분에 익숙해질 필요가 있어, 조금 지나면 괜찮아질 거야.",
+			say = "조급해 하지 말고 천천히 생각해 보셔야 합니다! 어떤 세이렌의 기관인지는 모르겠지만, 머리도 이런 기분에 익숙해질 필요가 있습니다! 조금 지나면 괜찮아질 겁니다!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "각 모항 여러분의 기억이 다시 돌아왔다니 정말 다행이다.",
+			say = "각 모항의 여러분의 기억이 다시 돌와왔다니 장말 다행입니다!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -221,7 +221,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "이런 기관이 있을 줄이야… 론의 설명이 아니었다면 계속 아무것도 모른 채 당하기만 했을 거야.",
+			say = "이런 기관이 있을 줄이야··· 론씨의 설명이 아니었다면 계속 아무것고 모른 채 당하기만 했을 겁니다!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -395,7 +395,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "무슨 상황에서든지 영웅은 나서야 하는 법.",
+			say = "무슨 상황에서든지 영웅은 나서야 하는 법이죠.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -495,7 +495,7 @@ return {
 			hidePaintEquip = true,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "이 일에 관해서는 상황이 좀 복잡하니 너희들도 와서 봐봐.",
+			say = "이 일에 관해서는 상황이 좀 복잡하니 여러분들도 봐보셔야 합니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

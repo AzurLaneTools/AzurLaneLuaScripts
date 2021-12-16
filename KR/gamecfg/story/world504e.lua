@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-4",
 			dir = 1,
-			say = "唔……指挥官，你看到这些浮岛要塞有没有联想到什么？",
+			say = "아… 지휘관, 이 플로팅 아일랜드 요새들을 보면 떠오르는 게 없어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "突然出现的铁血浮岛要塞群——",
+			say = "갑자기 나타난 메탈 블러드 플로팅 아일랜드 요새군——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，本王早就知道她们在研究类似的技术，没想到已经取得如此不容小觑的地步了！",
+			say = "쳇, 난 일찍이 저들이 비슷한 기술을 연구하고 있다는 걸 알고 있었어, 근데 이미 이렇게 큰 성과가 있었을 줄이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "塞壬之所以能牢牢地掌控着海洋，很大原因就是依托各种早已设置在海中的防御体系。",
+			say = "세이렌이 바다를 잘 지배하는 이유는 바다에 여러 가지 방어 시스템을 설치해놨기 때때문이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果铁血想效仿的话……",
+			say = "만약 메탈 블러드가 흉내 내기라도 한다면…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那可大事不好！要是铁血效仿塞壬使用浮岛要塞对关键航线进行封锁，我们可就真吃不消了……",
+			say = "그럼 큰일이야! 메탈 블러드가 세이렌의 플로팅 요새를 모방해 주요 항로를 봉쇄한다면 우린 정말 답이 없는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！虽然现在它们只对塞壬发动了袭击，但谁知道今后会发生什么事呢！！",
+			say = "맞아! 지금은 세이렌만 공격하지만 앞으로 어떤 일이 벌어질지 누가 알겠어!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "一个必须引起重视问题……",
+			say = "굉장히 중요하게 생각해야 할 문제네…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：前方发现多个强烈信号反应，推测为复数塞壬测试者。",
+			say = "경고: 전방에서 여러 개의 강력한 신호 반응이 발견되었습니다. 다수의 세이렌 테스터로 추정됩니다.",
 			voice = "event:/tb/16/tb-16",
 			flashout = {
 				black = true,
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？终于连我们也遇到了么？！",
+			say = "어라? 드디어 우리도 만난 거야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……在一次战斗中出现复数测试者的情况十分罕见。",
+			say = "엇… 한 번의 전투에서 다수의 테스터가 나온 경우는 매우 드문데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "根据此前舰队汇报的情况，所有测试者的战斗力和防护能力都很强，但似乎指挥系统有些问题。",
+			say = "그동안 함대가 보고한 바에 따르면 모든 테스터는 전투력과 방어 능력이 뛰어나, 하지만 지휘 시스템엔 문제가 있는 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉并不像是塞壬人型指挥单位应该有的样子，倒更像是……量产机体一类的存在。",
+			say = "세이렌의 인간형 지휘 팀이라고 보기 어려워, 양산형 편대와 비슷해 보여. 인형 지휘 단위라고 하기보다는 양산.기체 부류의 존재.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			actor = 103160,
 			dir = 1,
-			say = "听起来很像是塞壬会做出来的事情……",
+			say = "세이렌의 짓처럼 들리던데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然这些东西出来了，也就意味着我们已经遇到这条防线上最顽固的敌人了吧？",
+			say = "어쨌든 이 물건이 나왔다는 건 우린 이미 이 방어선에 있는 가장 강력한 적을 만났다는 뜻이겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			actor = 103160,
 			dir = 1,
-			say = "嘿嘿~感觉一路上都没怎么动手，就拿这些量产型测试者试一试手感好了！",
+			say = "헤헤~ 마침 몸도 근질근질했는데, 양산형 테스터로 몸 좀 풀어야겠다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

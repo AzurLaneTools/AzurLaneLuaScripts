@@ -658,7 +658,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "안심해, 이미 처리했으니까. 지금은 가둬뒀어.",
+			say = "안심하세요, 이미 처리했어요. 지금은 가둬뒀답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			actor = 900318,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "너희도 기억이 돌아왔으니 같이 가서 보자. 이번엔 또 어떤 음모를 꾸민 건지, 돌아갈 방법도 찾아야 하고.",
+			say = "그쪽도 기억이 돌아왔으니까 같이 가서 봐요. 이번엔 또 어떤 음모를 꾸민 건지, 돌아갈 방법도 찾아야 하니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

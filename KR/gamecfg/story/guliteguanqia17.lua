@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "이미 도망갈 곳은 없다, 패배를 인정해라!",
+			say = "이미 도망갈 곳도 없어요, 패배를 인정하시죠!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "넌 지금 이 상황에 대해 어느 정돈 알고 있잖아. 세이렌이 너에게 어떤 거래를 제안했지?",
+			say = "당신은 지금 이 상황에 대해서 어느 정도 알고 있잖아요. 세이렌이 당신에게 어떤 거래를 제안했었나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "근데 이렇게 되면 이야기가 잘 풀리겠는걸. 지금 이 상황에선 세이렌이야말로 우리의 진정한 적이니까 우린 서로 싸울 필요가 없어.",
+			say = "그럼 이렇게 되었으니 이야기가 잘 풀리겠네요. 지금 이 상황에선 세이렌이야말로 저희의 진정한 적이니, 우린 서로 싸울 필요가 없을 것 같습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "무지나, 만약 네가 우리와 함께 세이렌에 맞서 싸운다고 약속해 준다면 함께 협력하는 건 어때?",
+			say = "무지나, 만약 당신이 우리와 함께 세이렌에 맞서 싸운다고 약속만 해주신다면 함께 협력하는 건 어떤가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "어떻게 이겨야 할지, 또 어떤 대가를 치르게 할지는 잘 알고 있어.",
+			say = "어떻게 이겨야 할지, 또 어떤 대가를 치르게 해야 할지는 잘 알고 있죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

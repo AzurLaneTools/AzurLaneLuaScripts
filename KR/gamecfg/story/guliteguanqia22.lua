@@ -152,7 +152,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "글쎄... 분위기로는 둘 다 비슷한데...",
+			say = "글쎄요... 분위기로는 둘 다 비슷한데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "이런 의미 없는 발언은 통신기를 꺼주고 얘기해 줄래?",
+			say = "이런 의미 없는 발언은 통신기를 꺼주고 얘기해 줄래요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "거의 해결됐어. 그쪽은?",
+			say = "거의 해결됐어요. 그쪽은?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "예상했던 것 이상으로 순조롭게 진행되었네...",
+			say = "예상했던 것 이상으로 순조롭게 진행되었네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "기함 씨, 꽤 하시네요?  좀 멋있어 보인다?",
+			say = "기함 씨, 꽤 하시네요? 좀 멋있어 보입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

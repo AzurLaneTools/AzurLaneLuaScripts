@@ -15,7 +15,7 @@ return {
 			actor = 307032,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "적이 움직이기 시작했어… 분명 여유 있게 우릴 기다리고 있었는데",
+			say = "적이 움직이기 시작했습니다··· 분명 여유 있게 우리를 기다리고 있었는데 말이죠.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "움직이기 시작한 걸 보니 위기감을 느낀 것 같군.",
+			say = "움직이기 시작한 걸 보니 위기감을 느낀 것 같군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306060,
-			say = "그렇겠지… 거대한 퓨리의 존재를 무시할 수 없었을 거야.",
+			say = "그렇겠죠··· 거대한 퓨리의 존재를 무시할 수 없었을 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
