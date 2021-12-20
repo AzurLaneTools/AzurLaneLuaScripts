@@ -118,7 +118,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "투항? 내가 어떻게 안티오코스의 잠재적 동맹에게 투항을 하겠어?",
+			say = "투항? 내가 어떻게 안티엑스의 잠재적 동맹에게 투항을 하겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "동시에 TB 시스템을 돌입했고, 또 갑자기 동시에 애쉬 추적 기술까지——",
+			say = "동시에 TB 시스템을 돌입했고, 또 갑자기 동시에 잔불 추적 기술까지——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "시스템 자체는 확실히 우리가 직접 개발했다. 애쉬의 위치 추적 연구도 마찬가지.",
+			say = "시스템 자체는 확실히 우리가 직접 개발했다. 잔불의 위치 추적 연구도 마찬가지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "(전투를 통해서만 애쉬의 본심을 캐낼 수 있을 것 같군.)",
+			say = "(전투를 통해서만 잔불의 본심을 캐낼 수 있을 것 같군.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "하지만, 위험한 애쉬와 대화를 하려고 했던 거 자체가 잘못된 선택!",
+			say = "하지만, 위험한 잔불과 대화를 하려고 했던 거 자체가 잘못된 선택!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,

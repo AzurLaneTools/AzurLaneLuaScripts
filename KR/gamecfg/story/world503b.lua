@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "다과회…? 전초전 안에서?",
+			say = "다과회…? 전초기지 안에서?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			say = "전초전·로열 연회장",
+			say = "전초기지·로열 연회장",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "구체적인 계획은? 함대를 이끌고 유니온 전초전으로 가서 공격을 진행하는 거야?",
+			say = "구체적인 계획은? 함대를 이끌고 유니온 전초기지로 가서 공격을 진행하는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "\"애쉬는 대체 어떤 존재일까?\"",
+			say = "\"잔불은 대체 어떤 존재일까?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9068,7 +9068,7 @@ pg.world_chapter_random = {
 	},
 	[40000] = {
 		entrance_ui = 2,
-		name = "핵심 구역 전초전",
+		name = "핵심 구역 전초기지",
 		complete_effect = 0,
 		enter_cost = 0,
 		id = 40000,

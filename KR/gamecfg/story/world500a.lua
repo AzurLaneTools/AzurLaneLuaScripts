@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "오늘 전초전 역시 마치 잔잔한 수면과 같이 무척 고요했다.",
+			say = "오늘 전초기지 역시 마치 잔잔한 수면과 같이 무척 고요했다.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
@@ -92,7 +92,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "유니온 전초전 열흘 전",
+			say = "유니온 전초기지 열흘 전",
 			dir = 1,
 			bgm = "xinnong-3",
 			flashout = {

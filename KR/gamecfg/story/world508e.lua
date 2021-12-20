@@ -11,7 +11,7 @@ return {
 			actor = 107090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "애쉬의 전투력은… 정말 대단해요…… 저희의 전체 항공 전투력도 애쉬의 히요와는 비교가 안 될 정도예요.",
+			say = "잔불의 전투력은… 정말 대단해요…… 저희의 전체 항공 전투력도 히류·META와는 비교가 안 될 정도예요.",
 			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "하지만 우린 애쉬 아크로열의 전투력과는 비슷하다구!",
+			say = "하지만 우린 아크로열·META의 전투력과는 비슷하다구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "애쉬 함대원들 간의 전력 차이도 큰 것으로 보여. 항상 전투력이 비정상적으로 강하지는 않아.",
+			say = "잔불 함대원들 간의 전력 차이도 큰 것으로 보여. 항상 전투력이 비정상적으로 강하지는 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "아비터의 예측이 안되는 실력은 정말 아찔했어요… 어쩐지 애쉬도 꺼리더라니.",
+			say = "아비터의 예측이 안되는 실력은 정말 아찔했어요… 어쩐지 잔불도 꺼리더라니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

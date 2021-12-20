@@ -25,7 +25,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "정식 동맹이 아니더라도 함께 사이렌에 맞서 싸웠는데 어떻게 지금 갑자기 너흴 두고 떠나란 말이지?",
+			say = "정식 동맹이 아니더라도 함께 세이렌에 맞서 싸웠는데 어떻게 지금 갑자기 너흴 두고 떠나란 말이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 9707020,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "히요, 너 진심이야…?!",
+			say = "히류, 너 진심이야…?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "---안티오코스, 한번 맛 좀 봐라!",
+			say = "---안티엑스, 한번 맛 좀 봐라!",
 			effects = {
 				{
 					active = true,

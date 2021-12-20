@@ -280,7 +280,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "… 짧은 시간이었지만, 히요. 이런 멋진 꿈을 꾸게 해줘서 고마워.",
+			say = "… 짧은 시간이었지만, 히류. 이런 멋진 꿈을 꾸게 해줘서 고마워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_nacorearea_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "안티오코스, 계속 이 기회를 기다려왔어. 너희를 앞에 두고 복수할 기회를.",
+			say = "안티엑스, 계속 이 기회를 기다려왔어. 너희를 앞에 두고 복수할 기회를.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

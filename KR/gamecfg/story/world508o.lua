@@ -123,7 +123,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "애쉬의 히요, 철수할 계획이 있나?",
+			say = "잔불의 히류, 철수할 계획이 있나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "… 짧은 시간이었지만, 히요. 이런 멋진 꿈을 꾸게 해줘서 고마워.",
+			say = "… 짧은 시간이었지만, 히류. 이런 멋진 꿈을 꾸게 해줘서 고마워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			bgName = "bg_nacorearea_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "안티오코스, 계속 이 기회를 기다려왔어. 너희를 앞에 두고 복수할 기회를.",
+			say = "안티엑스, 계속 이 기회를 기다려왔어. 너희를 앞에 두고 복수할 기회를.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1066,7 +1066,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "이 정도 규모의 폭발이라니…… 애쉬 쪽은 무사하겠지.",
+			say = "이 정도 규모의 폭발이라니…… 잔불 쪽은 무사하겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1122,7 +1122,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "세이렌의 주력 함대는 전멸했고 남은 것은 애쉬와 전투를 벌인 아비터뿐이었다.",
+			say = "세이렌의 주력 함대는 전멸했고 남은 것은 잔불와 전투를 벌인 아비터뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

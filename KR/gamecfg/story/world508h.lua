@@ -25,7 +25,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "애쉬는 그때그때 대응해 간신히 버티고 있어.",
+			say = "잔불은 그때그때 대응해 간신히 버티고 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

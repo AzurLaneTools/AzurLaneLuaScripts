@@ -268,7 +268,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "얼마 전 사이렌이 바다에 설치한 것으로 추정되는 에너지 공금 시설을 발견했어요.",
+			say = "얼마 전 세이렌이 바다에 설치한 것으로 추정되는 에너지 공금 시설을 발견했어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

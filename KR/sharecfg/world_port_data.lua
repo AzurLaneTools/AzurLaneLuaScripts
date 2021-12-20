@@ -1418,7 +1418,7 @@ pg.world_port_data = {
 	},
 	[30] = {
 		port_bg = "port_zuozhangangkou",
-		name = "핵심 구역 전초전",
+		name = "핵심 구역 전초기지",
 		goods_num = 0,
 		port_entrance_icon = "",
 		id = 30,

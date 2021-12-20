@@ -123,7 +123,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "애쉬의 히요, 철수할 계획이 있나?",
+			say = "히류·META, 철수할 계획이 있나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

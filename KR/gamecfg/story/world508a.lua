@@ -11,7 +11,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "잠깐, 전방에서 함대가 대치 중이야… 한쪽은 세이렌으로 보이고 다른 한쪽은 레이더에 전혀 표시되지 않아, 아마 애쉬인 것 같아.",
+			say = "잠깐, 전방에서 함대가 대치 중이야… 한쪽은 세이렌으로 보이고 다른 한쪽은 레이더에 전혀 표시되지 않아, 아마 잔불인 것 같아.",
 			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "네비게이터, 주변 애쉬의 데이터를 분석해 줘——",
+			say = "네비게이터, 주변 잔불의 데이터를 분석해 줘——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "3개는 세이렌 아비터이고 2개는 애쉬 멤버입니다.",
+			say = "3개는 세이렌 아비터이고 2개는 잔불 멤버입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "애쉬가 동시에 나타났다고?! 그들이 단체 활동을 하는 건 정말이지 드문 일인데.",
+			say = "잔불이 동시에 나타났다고?! 그들이 단체 활동을 하는 건 정말이지 드문 일인데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "5개의 목표 중 4개는 이미 알려진 타깃입니다. 각각 아비터 스트랭스, 아비터 템퍼런스, 아비터 허밋, 애쉬 히요입니다.",
+			say = "5개의 목표 중 4개는 이미 알려진 타깃입니다. 각각 아비터 스트랭스, 아비터 템퍼런스, 아비터 허밋, 히류·META입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그런데 어떻게… 애쉬가 어떻게 저희의 레이더에 표시된 거죠……？",
+			say = "그런데 어떻게… 잔불이 어떻게 저희의 레이더에 표시된 거죠……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "도대체 어떻게 된 거야, 히요? 며칠 동안 혼자 신출귀몰하더니, 이런 일을 꾸미고 다닌 거야…?",
+			say = "도대체 어떻게 된 거야, 히류? 며칠 동안 혼자 신출귀몰하더니, 이런 일을 꾸미고 다닌 거야…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "사이렌은 기지가 있는데 우린 없으니 속전속결의 전투를 계획한 거지.",
+			say = "세이렌은 기지가 있는데 우린 없으니 속전속결의 전투를 계획한 거지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "함대가 출현한 것을 보고, 두 명의 애쉬 멤버 사이에 약간의 다툼이 생긴 것 같다.",
+			say = "함대가 출현한 것을 보고, 두 명의 잔불 멤버 사이에 약간의 다툼이 생긴 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 2,
-			say = "처음 뵙겠습니다. 애쉬의 아크로열이죠?",
+			say = "처음 뵙겠습니다. 아크로열·META죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "본론으로 돌아가서, 그동안 지켜본 결과 너흰 안티오코스의 든든한 연맹도 아닌 것 같고.",
+			say = "본론으로 돌아가서, 그동안 지켜본 결과 너흰 안티엑스의 든든한 연맹도 아닌 것 같고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "이참에 애쉬에 대한 정보도 수집하고, 좋을 것 같아.",
+			say = "이참에 잔불에 대한 정보도 수집하고, 좋을 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "물론 가끔씩 함께 안티오코스를 공격하는 것도 좋을 것 같은데. 어떻게 생각해, 아비터?",
+			say = "물론 가끔씩 함께 안티엑스를 공격하는 것도 좋을 것 같은데. 어떻게 생각해, 아비터?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "애쉬를 없애고 실험장의 정상적 운영을 유지한다.",
+			say = "잔불을 없애고 실험장의 정상적 운영을 유지한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -890,7 +890,7 @@ return {
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "맞아~ 애쉬를 없애거나, 애쉬에 의해 섬멸 당하거나. 어느 한 쪽의 기능이 완전히 멈출 때까지 마음껏 싸워보자.",
+			say = "맞아~ 잔불을 없애거나, 잔불에 의해 섬멸 당하거나. 어느 한 쪽의 기능이 완전히 멈출 때까지 마음껏 싸워보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,7 +904,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_nacorearea_1",
-			say = "모두 주의. 지금부터 애쉬와의 연합 작전을 시작하겠다————",
+			say = "모두 주의. 지금부터 잔불과의 연합 작전을 시작하겠다————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

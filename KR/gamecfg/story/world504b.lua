@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "저렇게 거대한 게 요새포라고……?! 정통으로 맞으면 전열함도 버틸 수 없겠지!",
+			say = "저렇게 거대한 게 요새포라고……?! 정통으로 맞으면 전함도 버틸 수 없겠지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

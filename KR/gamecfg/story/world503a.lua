@@ -28,7 +28,7 @@ return {
 			actor = 106010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "어라, 이미 로열 전초전에 도착했다구?",
+			say = "어라, 이미 로열 전초기지에 도착했다구?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "헤헤, 로열의 전초전은 어때~？",
+			say = "헤헤, 로열의 전초기지는 어때~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "완료될 때까지 지휘관은 로열 전초전에서 쉬고 있어, 총공격 시작 전에 잠시 여유를 즐겨 봐~",
+			say = "완료될 때까지 지휘관은 로열 전초기지에서 쉬고 있어, 총공격 시작 전에 잠시 여유를 즐겨 봐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

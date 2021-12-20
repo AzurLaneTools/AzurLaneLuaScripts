@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-arbitrator-type1",
 			dir = 1,
-			say = "XIV는 실험체의 후방 함대를 즉각 제압했다. VIII 포메이션 변경. 애쉬에 숨 돌릴 틈을 주지 마라.",
+			say = "XIV는 실험체의 후방 함대를 즉각 제압했다. VIII 포메이션 변경. 잔불에 숨 돌릴 틈을 주지 마라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

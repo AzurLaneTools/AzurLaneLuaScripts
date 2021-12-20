@@ -10,7 +10,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "유니온 전초전 다음날",
+			say = "유니온 전초기지 다음날",
 			dir = 1,
 			bgm = "blueocean-image",
 			flashin = {
