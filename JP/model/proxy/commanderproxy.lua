@@ -298,16 +298,25 @@ function slot0.CalcQuickItemUsageCnt(slot0)
 	slot5 = 0
 	slot6 = 0
 	slot7 = 0
+	slot8 = {}
 
-	for slot11, slot12 in pairs(slot0.boxes) do
-		if slot12:getState() == CommanderBox.STATE_WAITING then
+	for slot12, slot13 in pairs(slot0.boxes) do
+		slot14 = slot7
+
+		if slot13:getState() == CommanderBox.STATE_WAITING then
 			slot5 = slot5 + 1
 			slot7 = slot7 + 1
-			slot6 = slot6 + slot3(slot12.beginTime, slot12.finishTime)
-		elseif slot13 == CommanderBox.STATE_STARTING then
+
+			table.insert(slot8, slot13)
+
+			slot6 = slot6 + slot3(slot13.beginTime, slot13.finishTime)
+		elseif slot15 == CommanderBox.STATE_STARTING then
 			slot5 = slot5 + 1
 			slot7 = slot7 + 1
-			slot6 = slot6 + slot3(pg.TimeMgr.GetInstance():GetServerTime(), slot12.finishTime)
+
+			table.insert(slot8, slot13)
+
+			slot6 = slot6 + slot3(pg.TimeMgr.GetInstance():GetServerTime(), slot13.finishTime)
 		end
 
 		if slot6 == slot4 then
@@ -316,11 +325,24 @@ function slot0.CalcQuickItemUsageCnt(slot0)
 			slot6 = slot4
 			slot7 = slot7 - 1
 
+			table.remove(slot8, #slot8)
+
 			break
 		end
 	end
 
-	return slot6, slot5, slot7
+	slot9 = {
+		0,
+		0,
+		0
+	}
+
+	for slot13, slot14 in ipairs(slot8) do
+		slot15 = slot14.pool:getRarity()
+		slot9[slot15] = slot9[slot15] + 1
+	end
+
+	return slot6, slot5, slot7, slot9
 end
 
 return slot0

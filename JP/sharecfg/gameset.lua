@@ -667,7 +667,7 @@ pg.gameset = {
 	},
 	world_target_obtain = {
 		description = "",
-		key_value = 3
+		key_value = 2
 	},
 	attr_world_damage_fix = {
 		description = "",
@@ -1447,7 +1447,7 @@ pg.gameset = {
 	},
 	commander_ability_reset_time = {
 		description = "",
-		key_value = 0
+		key_value = 1
 	},
 	commander_learn_ability_total = {
 		description = "",

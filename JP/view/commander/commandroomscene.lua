@@ -584,7 +584,7 @@ function slot0.initCommandersPanel(slot0)
 				uv1:updateCommanderInfo()
 
 				if uv1.card then
-					setActive(uv1.card.mark2, false)
+					uv1.card:clearSelected()
 				end
 
 				uv1.card = uv0
@@ -994,6 +994,10 @@ function slot0.willExit(slot0)
 	slot0.contextData.sortData.asc = not slot0.contextData.sortData.asc
 	slot0.contextData.scrollValue = math.min(slot0.commanderRect.value, 1)
 	CommandRoomScene.sortData = slot0.contextData.sortData
+
+	if slot0.mode == CommandRoomScene.MODE_SELECT then
+		getProxy(SettingsProxy):SetCommanderPlaySortData(slot0.sortData)
+	end
 end
 
 return slot0

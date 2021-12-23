@@ -1157,7 +1157,7 @@ function slot0.InitAutoInfos(slot0)
 	}
 end
 
-function slot0.TriggerAutoFight(slot0, slot1, slot2)
+function slot0.TriggerAutoFight(slot0, slot1)
 	if tobool(slot1) ~= tobool(slot0.isAutoFight) then
 		slot0.isAutoFight = slot1
 

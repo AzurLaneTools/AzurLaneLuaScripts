@@ -67,7 +67,7 @@ function slot0.didEnter(slot0)
 		getProxy(TaskProxy):dealMingshiTouchFlag(4)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.switchBtn, function ()
-		slot0 = ChargeScene.TYPE_MENU
+		slot0 = ChargeScene.TYPE_DIAMOND
 
 		if uv0.contextData ~= nil and uv0.contextData.chargePage ~= nil then
 			slot0 = uv0.contextData.chargePage

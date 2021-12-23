@@ -116,11 +116,6 @@ function slot0.updateForMonthTF(slot0, slot1, slot2)
 end
 
 function slot0.destoryTimer(slot0)
-	if slot0.updateTimer then
-		slot0.updateTimer:Stop()
-
-		slot0.updateTimer = nil
-	end
 end
 
 return slot0

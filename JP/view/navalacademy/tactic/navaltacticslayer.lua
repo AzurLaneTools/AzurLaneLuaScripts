@@ -590,7 +590,7 @@ function slot0.updateShipInfo(slot0, slot1, slot2)
 	slot3 = slot0:findTF("ShipCardTpl", slot1)
 
 	if not slot0.shipCards[slot0.shipVOs[slot2.shipId].id] then
-		slot0.shipCards[slot4.id] = TacticsShipItem.New(slot3, ShipStatus.TAG_HIDE_ALL)
+		slot0.shipCards[slot4.id] = TacticsShipItem.New(slot1, slot3, ShipStatus.TAG_HIDE_ALL)
 	end
 
 	slot0.shipCards[slot4.id]:update(slot4)

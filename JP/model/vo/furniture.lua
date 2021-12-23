@@ -53,7 +53,8 @@ slot0.INDEX_TO_SHOP_TYPE = {
 	{
 		slot0.TYPE_WALL,
 		slot0.TYPE_WALL_MAT
-	}
+	},
+	{}
 }
 
 function slot0.getCloneId(slot0, slot1)

@@ -1951,6 +1951,27 @@ _G.pg.item_data_statistics[1013] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[1014] = {
+	display = "聖なる夜――クリスマスイブ、願わくば全ての人に安寧と幸福でありますように",
+	name = "聖夜の贈物",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	id = 1014,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[10000] = {
 	display = "艦艇修理施設T2設計図",
 	name = "艦艇修理施設T2設計図",
@@ -150390,6 +150411,27 @@ _G.pg.item_data_statistics[59255] = {
 	is_world = 0,
 	icon = "Props/shengdiyagePT",
 	id = 59255,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59256] = {
+	display = "「作戦準備・鉄血」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 59256,
 	display_icon = {},
 	price = {},
 	index = {}

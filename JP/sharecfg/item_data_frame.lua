@@ -297,6 +297,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「まあ、これは一つの『お宝』ってことね」</color>――「駆けよ 碧海の吹き風」イベントで入手可能",
 		scene = {}
 	},
+	[317] = {
+		time_limit_type = 0,
+		name = "交わる虹彩",
+		gain_by = "",
+		id = 317,
+		time_second = 0,
+		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -394,6 +403,7 @@ pg.item_data_frame = {
 		314,
 		315,
 		316,
+		317,
 		401,
 		402,
 		403,

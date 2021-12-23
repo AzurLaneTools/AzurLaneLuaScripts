@@ -94,7 +94,11 @@ end
 function slot0.GetShamShop(slot0, slot1)
 	slot2 = slot0.shopsProxy:getShamShop()
 
+	print("sham..........")
+
 	if not LOCK_SHAM_CHAPTER and slot2 and slot2:isOpen() then
+		print("sham..........open")
+
 		slot0.shopList[NewShopsScene.TYPE_SHAM_SHOP] = {}
 
 		table.insert(slot0.shopList[NewShopsScene.TYPE_SHAM_SHOP], slot2)

@@ -54,6 +54,13 @@ end
 
 function slot0.DoUpgradeAnim(slot0, slot1, slot2)
 	slot0.levelTxt.text = "LV." .. slot1:GetLevel() - 1
+
+	if slot2 == 0 then
+		slot0:IfIsMaxLevel(slot1, slot2, true)
+
+		return
+	end
+
 	slot3 = slot1:GetPrevLevelExp()
 	slot5 = slot3 - math.abs(slot1.exp - slot2)
 	slot0.expTxt.text = "<color=#92FC63FF>" .. slot5 .. "/</color>" .. slot3
@@ -62,9 +69,13 @@ function slot0.DoUpgradeAnim(slot0, slot1, slot2)
 	slot8 = slot1.exp / slot1:GetNextLevelExp()
 
 	slot0:AddExpAnim(slot6, 1, slot5, slot3, slot3, function ()
-		uv0.levelTxt.text = "LV." .. uv1:GetLevel()
+		slot2 = uv1
+		uv0.levelTxt.text = "LV." .. slot2:GetLevel()
+		slot0 = uv0
 
-		uv0:AddExpAnim(0, uv2, 0, uv1.exp, uv3)
+		slot0:AddExpAnim(0, uv2, 0, uv1.exp, uv3, function ()
+			uv0:IfIsMaxLevel(uv1, uv2)
+		end)
 	end)
 	slot0:AdditionAnim(uv0, function ()
 		if uv0.callback then
@@ -77,6 +88,13 @@ end
 
 function slot0.DoAddExpAnim(slot0, slot1, slot2)
 	slot0.levelTxt.text = "LV." .. slot1:GetLevel()
+
+	if slot2 == 0 then
+		slot0:IfIsMaxLevel(slot1, slot2, true)
+
+		return
+	end
+
 	slot3 = slot1:GetNextLevelExp()
 	slot5 = slot1.exp - slot2
 
@@ -87,7 +105,42 @@ function slot0.DoAddExpAnim(slot0, slot1, slot2)
 		end
 
 		uv0.callback = nil
+
+		uv0:IfIsMaxLevel(uv1, uv2)
 	end)
+end
+
+function slot0.IfIsMaxLevel(slot0, slot1, slot2, slot3)
+	if slot1:IsMaxLevel() then
+		slot0.expTxt.text = "MAX"
+		slot0.expSlider.value = 1
+	end
+
+	slot0:HideOrShowAddition(slot2)
+
+	if slot3 then
+		if not IsNil(slot0.additionItem) and isActive(slot0.additionItem) then
+			slot0:AdditionAnim(uv0, function ()
+				if uv0.callback then
+					uv0.callback()
+				end
+
+				uv0.callback = nil
+			end)
+		else
+			Timer.New(function ()
+				if uv0.callback then
+					uv0.callback()
+				end
+
+				uv0.callback = nil
+			end, uv0, 1):Start()
+		end
+	end
+end
+
+function slot0.HideOrShowAddition(slot0, slot1)
+	setActive(slot0.additionExp, slot1 > 0)
 end
 
 function slot0.Clear(slot0)

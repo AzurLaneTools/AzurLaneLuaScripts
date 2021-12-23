@@ -14624,6 +14624,178 @@ pg.activity_event_pt = {
 			7
 		}
 	},
+	[4185] = {
+		convert_resource_type = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 3,
+		buff_group = "",
+		pt_list = "",
+		drop_display = "",
+		pic_list = "",
+		buff_time = "",
+		id_2 = 4185,
+		link_id = 0,
+		id = 4185,
+		pt = 0,
+		target = {
+			100,
+			250,
+			400,
+			600,
+			850,
+			1150,
+			1500
+		},
+		drop_client = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				2,
+				17003,
+				5
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				2,
+				17003,
+				5
+			},
+			{
+				1,
+				1,
+				500
+			},
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				7,
+				102272,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		}
+	},
+	[4186] = {
+		convert_resource_type = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 5,
+		buff_group = "",
+		pt_list = "",
+		drop_display = "",
+		pic_list = "",
+		buff_time = "",
+		id_2 = 4186,
+		link_id = 0,
+		id = 4186,
+		pt = 4186,
+		target = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6
+		},
+		drop_client = {
+			{
+				5,
+				213,
+				1
+			},
+			{
+				2,
+				20001,
+				5
+			},
+			{
+				2,
+				20001,
+				5
+			},
+			{
+				2,
+				20001,
+				5
+			},
+			{
+				2,
+				20001,
+				5
+			},
+			{
+				2,
+				15006,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[4189] = {
+		convert_resource_type = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 1,
+		buff_group = "",
+		pt_list = "",
+		drop_display = "",
+		pic_list = "",
+		buff_time = "",
+		id_2 = 4189,
+		link_id = 0,
+		id = 4189,
+		pt = 230,
+		target = {
+			2800
+		},
+		drop_client = {
+			{
+				14,
+				317,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			0
+		}
+	},
 	[1020] = {
 		convert_resource_type = 0,
 		unlock_story = "",
@@ -21495,6 +21667,9 @@ pg.activity_event_pt = {
 		4177,
 		4180,
 		4183,
+		4185,
+		4186,
+		4189,
 		1020,
 		1021,
 		1022,

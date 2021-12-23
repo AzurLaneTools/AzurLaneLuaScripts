@@ -19119,6 +19119,22 @@ _G.pg.gametip.tag_ship_locked = {
 	tip = "図鑑未開放"
 }
 
+_G.pg.gametip.acceleration_tips_1 = {
+	tip = "<color=#66472a><size=32>ネコハコ加速材を$1個使用し、\nネコハコ$2個の訓練を加速させますか？</size></color>"
+}
+
+_G.pg.gametip.acceleration_tips_2 = {
+	tip = "<color=#827c7c><size=24>(訓練完了予定：ネコハコR$1個、ネコハコSR$2個、ネコハコSSR$3個)</size></color>"
+}
+
+_G.pg.gametip.noacceleration_tips = {
+	tip = "使用できるネコハコ加速材はありません"
+}
+
+_G.pg.gametip.word_shipskin = {
+	tip = "SP"
+}
+
 _G.pg.gametip.settings_sound_title_bgm = {
 	tip = "  ミュージック"
 }

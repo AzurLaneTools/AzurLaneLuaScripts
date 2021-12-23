@@ -70,7 +70,7 @@ pg.voice_bgm = {
 	},
 	MainUI = {
 		default_bgm = "main",
-		bgm = "main"
+		bgm = "Main-christmas"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",

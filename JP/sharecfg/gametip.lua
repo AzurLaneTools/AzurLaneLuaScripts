@@ -16867,83 +16867,103 @@ cs.gametip = {
 		85,
 		true
 	},
-	settings_sound_title_bgm = {
+	acceleration_tips_1 = {
 		630020,
+		210,
+		true
+	},
+	acceleration_tips_2 = {
+		630230,
+		201,
+		true
+	},
+	noacceleration_tips = {
+		630431,
+		128,
+		true
+	},
+	word_shipskin = {
+		630559,
+		70,
+		true
+	},
+	settings_sound_title_bgm = {
+		630629,
 		99,
 		true
 	},
 	settings_sound_title_effct = {
-		630119,
+		630728,
 		95,
 		true
 	},
 	settings_sound_title_cv = {
-		630214,
+		630823,
 		89,
 		true
 	},
 	setting_resdownload_title_gallery = {
-		630303,
+		630912,
 		122,
 		true
 	},
 	setting_resdownload_title_live2d = {
-		630425,
+		631034,
 		99,
 		true
 	},
 	setting_resdownload_title_music = {
-		630524,
+		631133,
 		113,
 		true
 	},
 	setting_resdownload_title_sound = {
-		630637,
+		631246,
 		101,
 		true
 	},
 	settings_battle_title = {
-		630738,
+		631347,
 		91,
 		true
 	},
 	settings_battle_tip = {
-		630829,
+		631438,
 		128,
 		true
 	},
 	settings_battle_Btn_edit = {
-		630957,
+		631566,
 		85,
 		true
 	},
 	settings_battle_Btn_reset = {
-		631042,
+		631651,
 		92,
 		true
 	},
 	settings_battle_Btn_save = {
-		631134,
+		631743,
 		88,
 		true
 	},
 	settings_battle_Btn_cancel = {
-		631222,
+		631831,
 		88,
 		true
 	},
 	settings_pwd_label_close = {
-		631310,
+		631919,
 		82,
 		true
 	},
 	settings_pwd_label_open = {
-		631392,
+		632001,
 		80,
 		true
 	},
 	word_frame = {
-		631472,
+		632081,
 		68,
 		true
 	}
