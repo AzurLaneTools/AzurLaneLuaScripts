@@ -19028,3 +19028,19 @@ _G.pg.gametip.settings_pwd_label_open = {
 _G.pg.gametip.word_frame = {
 	tip = "帧"
 }
+
+_G.pg.gametip.shop_diamond_title = {
+	tip = "购买钻石"
+}
+
+_G.pg.gametip.shop_gift_title = {
+	tip = "优惠礼包"
+}
+
+_G.pg.gametip.shop_item_title = {
+	tip = "功能道具"
+}
+
+_G.pg.gametip.shop_charge_level_limit = {
+	tip = "级解锁"
+}
