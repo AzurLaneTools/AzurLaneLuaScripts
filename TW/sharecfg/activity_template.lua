@@ -11822,12 +11822,13 @@ pg.activity_template = {
 	},
 	[40487] = {
 		mark = 20211223,
-		id = 40487,
+		config_client = "",
 		title_res_tag = "dexiV3_frame",
 		type = 74,
 		login_pop = 0,
 		config_id = 40487,
 		is_show = 20,
+		id = 40487,
 		config_data = {},
 		time = {
 			timer,
@@ -11859,33 +11860,6 @@ pg.activity_template = {
 		page_info = {
 			class_name = "DexiV3framePage",
 			ui_name = "DexiV3framePage"
-		},
-		config_client = {
-			timer,
-			{
-				{
-					2021,
-					12,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					1,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40488] = {
