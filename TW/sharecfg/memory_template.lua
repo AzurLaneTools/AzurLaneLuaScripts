@@ -9075,6 +9075,61 @@ pg.memory_template = {
 		icon = "memory_ouxiangrichang",
 		is_open = 0
 	},
+	[1056] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "聖誕薑餅的做法",
+		condition = "解鎖「限時聖誕」DAY1",
+		story = "RUOYESHENGDAN1",
+		id = 1056,
+		icon = "memory_ruoyeshengdan",
+		is_open = 0
+	},
+	[1057] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "女王的側身像",
+		condition = "解鎖「限時聖誕」DAY2",
+		story = "RUOYESHENGDAN2",
+		id = 1057,
+		icon = "memory_ruoyeshengdan",
+		is_open = 0
+	},
+	[1058] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "暖爐旁的溫暖",
+		condition = "解鎖「限時聖誕」DAY4",
+		story = "RUOYESHENGDAN3",
+		id = 1058,
+		icon = "memory_ruoyeshengdan",
+		is_open = 0
+	},
+	[1059] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "甜食的俘虜",
+		condition = "解鎖「限時聖誕」DAY6",
+		story = "RUOYESHENGDAN4",
+		id = 1059,
+		icon = "memory_ruoyeshengdan",
+		is_open = 0
+	},
+	[1060] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "歡笑與祝福的平安夜",
+		condition = "解鎖「限時聖誕」DAY7",
+		story = "RUOYESHENGDAN5",
+		id = 1060,
+		icon = "memory_ruoyeshengdan",
+		is_open = 0
+	},
 	[1061] = {
 		type = 1,
 		subtitle = "",
@@ -15148,6 +15203,11 @@ pg.memory_template = {
 		990,
 		991,
 		992,
+		1056,
+		1057,
+		1058,
+		1059,
+		1060,
 		1061,
 		1062,
 		1063,

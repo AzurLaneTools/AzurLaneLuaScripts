@@ -18,6 +18,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.maskTF = findTF(slot0._tf, "mask")
 	slot0.hotTF = findTF(slot0._tf, "hot")
 	slot0.newTF = findTF(slot0._tf, "new")
+	slot0.skinMark = findTF(slot0._tf, "skin_mark")
 	slot0.maskUnOpen = findTF(slot0._tf, "mask1")
 end
 
@@ -73,6 +74,16 @@ function slot0.Update(slot0, slot1)
 		slot0:DestoryTimer()
 		slot0.countDownTm:SetText("")
 	end
+
+	slot0:UpdateSkinType()
+end
+
+function slot0.UpdateSkinType(slot0)
+	if IsNil(slot0.skinMark) then
+		return
+	end
+
+	setActive(slot0.skinMark, Goods.ExistFurniture(Goods.FurnitureId2Id(slot0.furniture.id)))
 end
 
 function slot0.UpdateCountdown(slot0, slot1)

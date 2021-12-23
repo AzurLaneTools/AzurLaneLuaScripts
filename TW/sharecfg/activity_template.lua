@@ -11735,6 +11735,413 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40485] = {
+		mark = 20211223,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40485,
+		config_data = {
+			159,
+			160,
+			161,
+			162,
+			163,
+			164
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40486] = {
+		mark = 20211223,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 5002,
+		is_show = 0,
+		config_client = "",
+		id = 40486,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40487] = {
+		mark = 20211223,
+		id = 40487,
+		title_res_tag = "dexiV3_frame",
+		type = 74,
+		login_pop = 0,
+		config_id = 40487,
+		is_show = 20,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DexiV3framePage",
+			ui_name = "DexiV3framePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40488] = {
+		mark = 20211223,
+		time = "stop",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 40488,
+		config_data = {
+			16155,
+			16156,
+			16157,
+			16158,
+			16159,
+			16160,
+			16163,
+			16164,
+			16165,
+			16166
+		}
+	},
+	[40489] = {
+		mark = 20211223,
+		id = 40489,
+		title_res_tag = "Neptune_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 19,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LuoenTecCatchupPage",
+			ui_name = "LuoenTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42005
+		}
+	},
+	[40490] = {
+		mark = 20211223,
+		id = 40490,
+		title_res_tag = "ruoyeshengdan",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 18,
+		config_data = {
+			{
+				15224,
+				15225
+			},
+			{
+				15226,
+				15227
+			},
+			{
+				15228,
+				15229
+			},
+			{
+				15230,
+				15231
+			},
+			{
+				15232,
+				15233
+			},
+			{
+				15234,
+				15235
+			},
+			{
+				15236,
+				15237
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "WakabaChrisSkinPage",
+			ui_name = "WakabaChrisSkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"RUOYESHENGDAN1"
+				},
+				{
+					"RUOYESHENGDAN2"
+				},
+				{},
+				{
+					"RUOYESHENGDAN3"
+				},
+				{},
+				{
+					"RUOYESHENGDAN4"
+				},
+				{
+					"RUOYESHENGDAN5"
+				}
+			}
+		}
+	},
+	[40491] = {
+		mark = 20211223,
+		id = 40491,
+		title_res_tag = "dachaosd_fk",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 17,
+		config_data = {
+			{
+				80205,
+				80206
+			},
+			{
+				80207,
+				80208
+			},
+			{
+				80209,
+				80210
+			},
+			{
+				80211,
+				80212
+			},
+			{
+				80213,
+				80214
+			},
+			{
+				80215,
+				80216
+			},
+			{
+				80217,
+				80218
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShioSkinRePage",
+			ui_name = "ShioSkinRePage"
+		},
+		config_client = {
+			story = {
+				{
+					"DACHAOSHENGDAN1"
+				},
+				{
+					"DACHAOSHENGDAN2"
+				},
+				{
+					"DACHAOSHENGDAN3"
+				},
+				{
+					"DACHAOSHENGDAN4"
+				},
+				{
+					"DACHAOSHENGDAN5"
+				},
+				{
+					"DACHAOSHENGDAN6"
+				},
+				{
+					"DACHAOSHENGDAN7"
+				}
+			}
+		}
+	},
 	[40500] = {
 		mark = 20211111,
 		title_res_tag = "",
@@ -13183,6 +13590,13 @@ pg.activity_template = {
 		40481,
 		40482,
 		40483,
+		40485,
+		40486,
+		40487,
+		40488,
+		40489,
+		40490,
+		40491,
 		40500,
 		40501,
 		45000,

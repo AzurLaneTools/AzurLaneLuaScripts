@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"平安夜的姜饼物语\n\n<size=45>四 甜食的俘虏</size>",
+					"平安夜的薑餅物語\n\n<size=45>四 甜食的俘虜</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "呼呼呼…果然寒冷的冬天，就是要靠糖分补充卡路里熬过去呀~杜威妳也再来一块蛋糕如何？",
+			say = "呼呼呼…果然寒冷的冬天，就是要靠糖份補充卡路里熬過去呀~杜威妳也再來一塊蛋糕如何？",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就不用了，不过康克德小姐，是不是差不多该把圣诞派对用的蛋糕给送过去了……",
+			say = "我就不用了，不過康克德小姐，是不是差不多該把聖誕派對用的蛋糕給送過去了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 102182,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，杜威真是个认真的好孩子呀~放心吧，已经准备好啦，等我吃完这块蛋糕再开始动手也不迟~",
+			say = "哎呀，杜威真是個認真的好孩子呀~放心吧，已經準備好啦，等我吃完這塊蛋糕再開始動手也不遲~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿~两位好呀~",
+			say = "嘿~兩位好呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…西雅图小姐，抱歉，我们这才要准备把派对的蛋糕给送过去",
+			say = "啊…西雅圖小姐，抱歉，我們這才要準備把派對的蛋糕給送過去",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，没关系！反正还有时间，而且我也不是来催这个的啦~",
+			say = "哦哦，沒關係！反正還有時間，而且我也不是來催這個的啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，过来都过来了，一起来吃点甜品吧~要什锦圣代，还是来块小蛋糕吗~?",
+			say = "嘻嘻，過來都過來了，一起來吃點甜品吧~要什錦聖代，還是來塊小蛋糕嗎~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "康克德小姐果然是甜食达人啊~其实呢——",
+			say = "康克德小姐果然是甜食達人啊~其實呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 102182,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，怎么让姜饼变得更美味吗？",
+			say = "原來如此，怎麼讓薑餅變得更美味嗎？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -234,7 +234,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！也想听听看甜食达人的意见呢~嘿嘿",
+			say = "嗯！也想聽妳聽看甜食達人的意見呢~嘿嘿",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 102182,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘻嘻~那还用问吗，当然是甜度加倍，美味程度也能加倍啦！",
+			say = "嘻嘻~那還用問嗎，當然是甜度加倍，美味程度也能加倍啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 102182,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "糖分、美味、甜食~这就是圣诞的真谛呀！让所有人一起沉溺到这糖分的天堂里，这样才是最好的圣诞派对哦？",
+			say = "糖份、美味、甜食~這就是聖誕的真諦呀！讓所有人一起沉溺到這糖份的天堂裡，這樣才是最好的聖誕派對哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "回归甜食的本质…嗯嗯，似乎又找到一点感觉了！",
+			say = "回歸甜食的本質…嗯嗯，似乎又找到一點感覺了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "两位，我来帮忙一起把蛋糕送到派对会场去，妳们再来帮我试试新做的姜饼的味道吧！",
+			say = "兩位，我來幫忙一起把蛋糕送到派對會場去，妳們再來幫我試試新做的薑餅的味道吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 102182,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，关于甜食的事情，我都很乐意帮忙哦~",
+			say = "呵呵，關於甜食的事情，我都很樂意幫忙哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~这次一定要做出最棒的姜饼，准备一个最棒的圣诞派对！",
+			say = "好~這次一定要做出最棒的薑餅，準備一個最棒的聖誕派對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "杜威也会加油帮忙的——",
+			say = "杜威也會加油幫忙的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

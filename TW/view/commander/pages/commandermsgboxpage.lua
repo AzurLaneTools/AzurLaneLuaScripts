@@ -10,6 +10,10 @@ function slot0.OnInit(slot0)
 	slot1 = slot0._tf
 	slot0.text = slot1:Find("frame/bg/content/Text")
 	slot1 = slot0._tf
+	slot0.text1 = slot1:Find("frame/bg/content/Text1")
+	slot1 = slot0._tf
+	slot0.text2 = slot1:Find("frame/bg/content/Text2")
+	slot1 = slot0._tf
 	slot0.confirmBtn = slot1:Find("frame/confirm_btn")
 	slot1 = slot0._tf
 	slot0.closeBtn = slot1:Find("frame/close_btn")
@@ -20,7 +24,13 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnUpdate(slot0, slot1)
-	setText(slot0.text, slot1.content)
+	if slot1.content1 then
+		setText(slot0.text1, slot1.content)
+		setText(slot0.text2, slot1.content1)
+	else
+		setText(slot0.text, setColorStr(slot1.content, "#847D7B"))
+	end
+
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 
@@ -44,6 +54,13 @@ function slot0.OnUpdate(slot0, slot1)
 	end, SFX_PANEL)
 	slot0._tf:SetAsLastSibling()
 	slot0:Show()
+end
+
+function slot0.Hide(slot0)
+	uv0.super.Hide(slot0)
+	setText(slot0.text, "")
+	setText(slot0.text1, "")
+	setText(slot0.text2, "")
 end
 
 function slot0.OnDestroy(slot0)

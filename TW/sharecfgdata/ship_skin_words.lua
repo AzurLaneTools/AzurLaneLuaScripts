@@ -1422,6 +1422,40 @@ _G.pg.ship_skin_words[101252] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[101254] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "為什麼把哈曼一個人留在禮物盒裡啦！",
+	mission = "",
+	touch2 = "居然趁這時候…哈曼是絕對不會饒過你的！",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "這，這算什麼“聖誕驚喜”啦！果然就不該聽信西姆斯的…你，你在那裡愣著幹嘛？快幫我解開手上的緞帶啦！",
+	mail = "",
+	touch = "靠，靠得太近啦笨蛋！…我，我也沒叫你走開啦！",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "這，這算什麼“聖誕驚喜”啦！果然就不該聽信西姆斯的…你，你在那裡愣著幹嘛？快幫我解開手上的緞帶啦！",
+	feeling5 = "",
+	main = "究竟要哈曼在這個禮物盒裡待多久啊，笨蛋指揮官！|哼，沒有了哈曼的幫助，看你還能做些什麼事！|哈曼還要把準備好的禮物送給約克鎮姐姐呢，怎麼能一直這個樣子…",
+	battle = "終於能自由活動了…哈曼的怒火就由你們承擔好了！",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "就算手被綁住了，哈曼也可以自己坐起來的！唔嗯嗯嗯——！…哈啊，不、不行了…快，快幫我一把啦！",
+	vote = "",
+	hp_warning = "",
+	id = 101254,
+	detail = "想，想什麼呢！我才不想把自己當成聖誕禮物的啦！ …要，要不是實在想不出來送什麼好的話，我才不會…",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[101259] = {
 	feeling1 = "",
 	feeling3 = "",
@@ -1836,6 +1870,40 @@ _G.pg.ship_skin_words[101300] = {
 	hp_warning = "",
 	id = 101300,
 	detail = "有、有什麼事是可以和指揮官一起做的嗎……",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[101301] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "平安夜還要努力工作，指揮官和這些孩子們都辛苦了呢…",
+	mission = "",
+	touch2 = "指、指揮官…在夜裡…這樣做不太好吧…嗚嗚……",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "指揮官，晚上…好？我正準備把拉德福特她們的聖誕禮物帶回去…欸？指揮官要幫忙嗎？謝、謝謝…那個，要吃個蘋果嗎？",
+	mail = "",
+	touch = "再、再靠近一點，也沒關係的哦？",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "指揮官，晚上…好？我正準備把拉德福特她們的聖誕禮物帶回去…欸？指揮官要幫忙嗎？謝、謝謝…那個，要吃個蘋果嗎？",
+	feeling5 = "",
+	main = "要扮作聖誕老人的話，是不是再帶個帽子，弄個假鬍子比較好？|就算到了聖誕節，尼古拉斯也還是一如既往的樣子呢…|啊，流星！據說流星消失之前許好願，願望就能實現…欸？想許什麼願望？秘、秘密…！",
+	battle = "別想搶走大家重要的聖誕禮物……！",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "暗、暗號還記得嗎？那就好…指揮官，聖誕快樂",
+	vote = "",
+	hp_warning = "",
+	id = 101301,
+	detail = "悄悄給拉特福德塞一個蘋果，她應該會高興吧…還，還是換成糖果比較好？",
 	couple_encourage = {}
 }
 
@@ -2845,6 +2913,40 @@ _G.pg.ship_skin_words[101441] = {
 	hp_warning = "Deuce！還沒結束呢！",
 	id = 101441,
 	detail = "沒想到頂著太陽打網球會這麼累……指揮官，你在看哪裡？",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[101442] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "委託隊好像回來了哦？把她們接回來，一起過個溫暖的聖誕節吧！",
+	win_mvp = "",
+	home = "不知道誰會拿到這個水晶球禮物呢…不過，收到禮物總是會很開心的吧~",
+	mission = "",
+	touch2 = "呣…把手放進來取暖這樣的藉口是行不通的！",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "唔？我正在把大家的禮物裝到盒子裡呢，一會它們就要被送到每個人的手裡了呢~嘿嘿，指揮官也來幫忙吧！",
+	mail = "新的郵件？會不會寫著哪個孩子的聖誕節願望？",
+	touch = "指揮官覺得冷嗎？快快，再靠過來一些就暖和了~",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "唔？我正在把大家的禮物裝到盒子裡呢，一會它們就要被送到每個人的手裡了呢~嘿嘿，指揮官也來幫忙吧！",
+	feeling5 = "",
+	main = "包裝禮物其實很簡單的哦！像這樣…這樣…然後再這樣…嗯哼，完成啦！|哈啊…我也好想像明尼亞波利斯那樣騎著酷炫的摩托雪橇四處跑啊~“小孩子騎那個太危險了”？欸~我已經不是小孩子了啦！|好像有些閒下來了呢…指揮官，不如我們來玩故事接龍？就以聖誕老人為主題吧！",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "不知道我會拿到什麼禮物呢~好期待呀，指揮官，你期待什麼樣的禮物呢？",
+	vote = "",
+	hp_warning = "",
+	id = 101442,
+	detail = "呼哈~雖然外面很冷，但是這裡卻很溫暖呢！嚴冬的壁爐真是太棒了~",
 	couple_encourage = {}
 }
 
@@ -5865,6 +5967,40 @@ _G.pg.ship_skin_words[103132] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[103133] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "作戰辛苦了。那麼，我就繼續送禮物去了！",
+	mission = "",
+	touch2 = "哇啊！？快停下！要駕馭不住了！",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "聖誕快樂，指揮官！現在的我是派送禮物的聖誕老人，這是我的新搭檔！對了，這是你的禮物，接好了！",
+	mail = "",
+	touch = "嗯？這點寒冷可奈何不了老練的狩獵者。",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "聖誕快樂，指揮官！現在的我是派送禮物的聖誕老人，這是我的新搭檔！對了，這是你的禮物，接好了！",
+	feeling5 = "",
+	main = "給昆西準備什麼聖誕禮物比較好呢…指揮官，你覺得烤魚怎麼樣？|雖然很想帶指揮官一起兜兜風，不過這雪橇是單座的呢…唔，要不你趴後面試試？|這孩子雖然馬力強勁，不過可沒那麼好掌控哦？無論是駕馭還是維護，都挺不容易的，多虧牙買加給了不少實用的建議…",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "嗯，引擎聲很棒，今天看來狀態不錯！",
+	vote = "",
+	hp_warning = "",
+	id = 103133,
+	detail = "禮物袋散開了？噢！謝謝提醒！…唔，感覺好像袋子比之前看癟了一些…？",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[103138] = {
 	feeling1 = "",
 	feeling3 = "",
@@ -7570,6 +7706,40 @@ _G.pg.ship_skin_words[107034] = {
 	hp_warning = "",
 	id = 107034,
 	detail = "最近學習了許多跟海洋保護有關的知識呢！指揮官有什麼想問的盡管問吧，薩拉老師會一一給你解答的！嘻嘻~",
+	couple_encourage = {}
+}
+
+_G.pg.ship_skin_words[107035] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Merry Christmas！薩拉妹妹·聖誕Ver閃亮登場！嘻嘻，有沒有感覺到不一樣的心動呀，指揮官~好啦，指揮官，難得的平安夜，你想好要帶薩拉托加去哪裡逛了嗎~？",
+	mail = "",
+	touch = "穿著冬天的衣服，差異看起來就不那麼明顯了呢，各種意義上的……",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Merry Christmas！薩拉妹妹·聖誕Ver閃亮登場！嘻嘻，有沒有感覺到不一樣的心動呀，指揮官~好啦，指揮官，難得的平安夜，你想好要帶薩拉托加去哪裡逛了嗎~？",
+	feeling5 = "啊，等一下！指揮官，你還有一件禮物忘記拿了！先把頭轉過去一下！啾~嗯，這下薩拉妹妹的禮物就全部送到了~",
+	main = "指揮官，手覺得冷的話，薩拉託加可以把手套借給你哦！|指揮官，你覺得聖誕老人存在嗎？薩拉托加是相信的哦~雖然我們見不到他，但他一直在將快樂帶給每一位孩子！|街上已經完全是一幅節日的模樣了呢~真不愧是聖誕節~",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "指揮官你遲到了！——開玩笑的~接下來薩拉託加就跟著你走了！",
+	vote = "",
+	hp_warning = "",
+	id = 107035,
+	detail = "這是薩拉托加專門給指揮官準備的禮物哦！給~…才不是惡作劇什麼的啦！",
 	couple_encourage = {}
 }
 
@@ -18911,6 +19081,40 @@ _G.pg.ship_skin_words[301143] = {
 	couple_encourage = {}
 }
 
+_G.pg.ship_skin_words[301144] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "只要睡覺前把襪子掛在牆上，早上的時候就能收到聖誕老人的禮物了吧！嘿嘿~",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "“聖誕”就是那個“聖誕老人”會來送禮物的日子對吧！好期待啊~指揮官也是吧？也同樣期待著禮物沒錯吧！",
+	mail = "",
+	touch = "哦？可以出去玩了嗎！？",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "“聖誕”就是那個“聖誕老人”會來送禮物的日子對吧！好期待啊~指揮官也是吧？也同樣期待著禮物沒錯吧！",
+	feeling5 = "指揮官！我都看到了哦！晚上你偷偷把禮物放到牆上的襪子裡了吧！原來指揮官…就是聖誕老人的助手呀！嘿嘿~指揮官最好了~",
+	main = "這身衣服活動起來好方便啊~噠噠噠~…欸，不可以在這裡吵鬧嗎？知道了啦…|指揮官！嘿！…{namecode:49}說只要像這樣抱住指揮官的頭，就會有好事發生…唔，好事呢？|好~剛才是指揮官坐，我幫指揮官拉雪橇，現在換指揮官拉雪橇啦！",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "指揮官，要坐雪橇玩嗎！",
+	vote = "",
+	hp_warning = "",
+	id = 301144,
+	detail = "“給聖誕老人的信”？我要寫我要寫！“想要好多好多的，吃不完的肉…”嗯，寫好了！",
+	couple_encourage = {}
+}
+
 _G.pg.ship_skin_words[301148] = {
 	feeling1 = "",
 	feeling3 = "",
@@ -19660,6 +19864,40 @@ _G.pg.ship_skin_words[301230] = {
 			0
 		}
 	}
+}
+
+_G.pg.ship_skin_words[301231] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "啊，不可以趁機捋我尾巴啦！",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "呀吼~早上好，指揮官！這裡是正在發現聖誕禮物的限時聖誕老人{namecode:141}！欸？袋子？啊哇哇哇，指、指揮官快幫我撿一下！ ——",
+	mail = "",
+	touch = "指揮官，工作要專心哦，我也要專心送聖誕禮物去啦——",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "呀吼~早上好，指揮官！這裡是正在發現聖誕禮物的限時聖誕老人{namecode:141}！欸？袋子？啊哇哇哇，指、指揮官快幫我撿一下！ ——",
+	feeling5 = "",
+	main = "冬天也是不錯的季節呢，畢竟馬上就要春天了嘛，嘿嘿~|聖誕的{namecode:141}耳朵還是一樣靈敏！嘿嘿，指揮官，要不要幫你打聽下誰都想要什麼樣的禮物呀？ |難得的節日，特別讓指揮官摸摸尾巴也不是不行哦？",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "指揮官，早上好……能幫我找找掉了的聖誕禮物嗎？不知道怎麼的少了一個嗚嗚……",
+	vote = "",
+	hp_warning = "",
+	id = 301231,
+	detail = "就算是忙著派送禮物，也不能忽略了尾巴的護理呢~",
+	couple_encourage = {}
 }
 
 _G.pg.ship_skin_words[301240] = {
@@ -20969,6 +21207,40 @@ _G.pg.ship_skin_words[301540] = {
 			0
 		}
 	}
+}
+
+_G.pg.ship_skin_words[301541] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "出擊辛苦了…要、要吃點心嗎？薑餅或者蛋糕之類的…",
+	mission = "",
+	touch2 = "呀…帽子都要被指揮官弄掉了嗚嗚…",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "久、久等了…這件衣服是和{namecode:32}一起挑的，說是“很有聖誕的感覺”…不會很奇怪吧？…嗚…",
+	mail = "",
+	touch = "雖然暫時沒有跟兔兔一起行動，不過晚上還是會和而兔兔一起睡覺的哦",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "久、久等了…這件衣服是和{namecode:32}一起挑的，說是“很有聖誕的感覺”…不會很奇怪吧？…嗚…",
+	feeling5 = "",
+	main = "和{namecode:32}她們約好了一起度過平安夜，指、指揮官也要一起嗎？|{namecode:174}給港區的朋友們都準備了聖誕禮物呢，也、也準備了指揮官的份哦！|平安夜到處都燈火通明，讓人感到非常安心…要是每天都是平安夜就好了呢",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "聖、聖誕快樂，指揮官！呼…順利說出來了",
+	vote = "",
+	hp_warning = "",
+	id = 301541,
+	detail = "給大家的禮物要用什麼樣的包裝呢…嗚…指揮官能幫忙一起想想嗎？",
+	couple_encourage = {}
 }
 
 _G.pg.ship_skin_words[301560] = {

@@ -442,7 +442,7 @@ pg.activity_const = {
 		act_id = 437
 	},
 	SHIO_SKIN_RE_ID = {
-		act_id = 40200
+		act_id = 40491
 	},
 	JP_SKIRMISH_EXP_ID = {
 		act_id = 40201
@@ -451,7 +451,7 @@ pg.activity_const = {
 		act_id = 40202
 	},
 	WAKABA_CHRIS_SKIN_ID = {
-		act_id = 467
+		act_id = 40490
 	},
 	JAPANESE_NEWYEAR = {
 		act_id = 40203
@@ -604,10 +604,10 @@ pg.activity_const = {
 		act_id = 531
 	},
 	OUTPOST_PT = {
-		act_id = 40402
+		act_id = 40487
 	},
 	OUTPOST_TASK = {
-		act_id = 40403
+		act_id = 40488
 	},
 	APRILFOOL_DISCOVERY = {
 		act_id = 549

@@ -171,6 +171,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「無論現世亦或夢境，皆願希望之光長存。」</color>\n「蝶海夢花」活動獲取",
 		scene = {}
 	},
+	[312] = {
+		time_limit_type = 0,
+		name = "鐵血之器",
+		gain_by = "負象限作戰",
+		id = 312,
+		time_second = 0,
+		desc = "<color=#ffffff>「以冷徹之器，重鑄赤紅的鐵血意志。」</color>\n「負象限作戰」活動獲取",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "美味的紀念",
@@ -209,6 +218,7 @@ pg.item_data_frame = {
 		308,
 		309,
 		311,
+		312,
 		501,
 		1001
 	}

@@ -271,25 +271,78 @@ function slot0.InCommanderScene(slot0)
 end
 
 function slot0.AnyPoolIsWaiting(slot0)
-	slot1 = _.any(slot0.pools, function (slot0)
-		return slot0:getItemCount() > 0
-	end)
-	slot2 = 0
-	slot3 = 0
+	slot1 = 0
 
-	for slot7, slot8 in pairs(slot0.boxes) do
-		if slot8:getState() == CommanderBox.STATE_EMPTY then
-			slot2 = slot2 + 1
-		elseif slot9 == CommanderBox.STATE_FINISHED then
-			slot3 = slot3 + 1
+	for slot5, slot6 in pairs(slot0.boxes) do
+		if slot6:getState() == CommanderBox.STATE_WAITING or slot7 == CommanderBox.STATE_STARTING then
+			return false
+		end
+
+		if slot7 == CommanderBox.STATE_FINISHED then
+			slot1 = slot1 + 1
 		end
 	end
 
-	if slot1 and slot2 > 0 then
-		return true
-	else
-		return slot3 > 0
+	return slot1 > 0
+end
+
+function slot0.CalcQuickItemUsageCnt(slot0)
+	slot1 = Item.COMMANDER_QUICKLY_TOOL_ID
+	slot2 = pg.item_data_template[slot1].usage_arg[1]
+
+	function slot3(slot0, slot1)
+		return math.ceil((slot1 - slot0) / uv0)
 	end
+
+	slot4 = getProxy(BagProxy):getItemCountById(slot1)
+	slot5 = 0
+	slot6 = 0
+	slot7 = 0
+	slot8 = {}
+
+	for slot12, slot13 in pairs(slot0.boxes) do
+		slot14 = slot7
+
+		if slot13:getState() == CommanderBox.STATE_WAITING then
+			slot5 = slot5 + 1
+			slot7 = slot7 + 1
+
+			table.insert(slot8, slot13)
+
+			slot6 = slot6 + slot3(slot13.beginTime, slot13.finishTime)
+		elseif slot15 == CommanderBox.STATE_STARTING then
+			slot5 = slot5 + 1
+			slot7 = slot7 + 1
+
+			table.insert(slot8, slot13)
+
+			slot6 = slot6 + slot3(pg.TimeMgr.GetInstance():GetServerTime(), slot13.finishTime)
+		end
+
+		if slot6 == slot4 then
+			break
+		elseif slot4 < slot6 then
+			slot6 = slot4
+			slot7 = slot7 - 1
+
+			table.remove(slot8, #slot8)
+
+			break
+		end
+	end
+
+	slot9 = {
+		0,
+		0,
+		0
+	}
+
+	for slot13, slot14 in ipairs(slot8) do
+		slot15 = slot14.pool:getRarity()
+		slot9[slot15] = slot9[slot15] + 1
+	end
+
+	return slot6, slot5, slot7, slot9
 end
 
 return slot0

@@ -1109,6 +1109,20 @@ pg.memory_group = {
 			992
 		}
 	},
+	[176] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 176,
+		title = "平安夜的薑餅物語",
+		memories = {
+			1056,
+			1057,
+			1058,
+			1059,
+			1060
+		}
+	},
 	[177] = {
 		icon = "title_event",
 		subtype = 1,
@@ -2628,6 +2642,7 @@ pg.memory_group = {
 		171,
 		172,
 		173,
+		176,
 		177,
 		178,
 		179,

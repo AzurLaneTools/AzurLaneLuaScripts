@@ -1,348 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_12 = {
-	[304043] = {
-		ship_group = 30404,
-		name = "隨性的閃耀之星",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "126",
-		id = 304043,
-		group_index = 3,
-		prefab = "wudao_4",
-		painting = "wudao_4",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70293,
-		shop_type_id = 2,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "“指揮官，在這裡遇到我算你倒霉，變成我{namecode:73}的刀下亡魂吧！”——哈哈，開玩笑的！如何？為新年特意準備的這套新衣服感覺不錯吧？",
-		voice_actor = 128,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.969,
-					0.682,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.991,
-					0.724,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.035,
-					0.033,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.988,
-					0.638,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.14,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[304050] = {
-		ship_group = 30405,
-		name = "{namecode:161}",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 304050,
-		group_index = 0,
-		prefab = "tiancheng",
-		painting = "tiancheng",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "{namecode:161}級戰鬥巡洋艦一番艦—{namecode:161}",
-		voice_actor = 104,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.49,
-					0.74,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.51,
-					0.72,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.18,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.24,
-					1.69,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.42,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[304051] = {
-		ship_group = 30405,
-		name = "走水靜蓮",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 304051,
-		group_index = 1,
-		prefab = "tiancheng_2",
-		painting = "tiancheng_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70341,
-		shop_type_id = 6,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "主上來這裡…莫非是為了視察？…啊，請不用擔心{namecode:161}的健康，我會遵照與主上您以及{namecode:91}的約定，好好照顧自己的，呵呵~",
-		voice_actor = 104,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.274,
-					1.135,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.275,
-					1.143,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.008,
-					-0.009,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.24,
-					1.145,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.42,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[304060] = {
 		ship_group = 30406,
 		name = "{namecode:169}",
@@ -360,6 +17,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -375,7 +33,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:70}級高速戰艦二番艦—{namecode:71}",
 		voice_actor = 76,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -473,6 +131,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -488,7 +147,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:78}級戰艦一番艦—{namecode:78}",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -586,6 +245,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70048,
 		shop_type_id = 3,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -601,7 +261,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:79}說總是穿巫女服太古板了，就給我找了一套新衣服，那孩子真是……殿下，您覺得……合身嗎？",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -701,6 +361,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70160,
 		shop_type_id = 9,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -716,7 +377,7 @@ pg.ship_skin_template_12 = {
 		desc = "換上日常的居家服裝，像這樣全心全意等待著掛念的人回來…殿下，自從認識您之後，我也變了很多呢",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -816,6 +477,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -831,7 +493,7 @@ pg.ship_skin_template_12 = {
 		desc = "殿下，謝謝你哦~不只是改造，還有許多許多事。嘻嘻，我和{namecode:79}能遇到殿下真是太好了呢",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -929,6 +591,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -944,7 +607,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:78}級戰艦二番艦—{namecode:79}",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1055,6 +718,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 6,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1070,7 +734,7 @@ pg.ship_skin_template_12 = {
 		desc = "說到夏天就是沙灘排球！誒，殿下不參加嗎……難得我精心挑選了泳裝……",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1183,6 +847,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70026,
 		shop_type_id = 1,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1198,7 +863,7 @@ pg.ship_skin_template_12 = {
 		desc = "聖誕快樂！殿下殿下，怎麼樣？我的聖誕裝好看嗎？嘿嘿～姐姐今天也誇獎我啦！",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1297,6 +962,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 7,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1312,7 +978,7 @@ pg.ship_skin_template_12 = {
 		desc = "姐姐說參加宴會要穿洋裝，就給我準備了一套，殿下殿下，好看嗎？",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1412,6 +1078,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 9,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1427,7 +1094,7 @@ pg.ship_skin_template_12 = {
 		desc = "哇！不愧是度假勝地~空氣都不一樣呢！殿下殿下，我準備把這裡的空氣用瓶子裝起來帶回去！殿下也一起來裝嘛！",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1525,6 +1192,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70251,
 		shop_type_id = 4,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1540,7 +1208,7 @@ pg.ship_skin_template_12 = {
 		desc = "嗚哇，殿、殿下！？對對對對不起，我沒有撞傷你吧？……啊，這是我的校服哦，姐姐親手縫的~嘿嘿……哇哇哇，那我去上課了！回見！",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1640,6 +1308,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1655,7 +1324,7 @@ pg.ship_skin_template_12 = {
 		desc = "殿下殿下，我換好啦！怎麼樣怎麼樣，殿下喜歡這樣子的{namecode:79}嗎？",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1753,6 +1422,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1768,7 +1438,7 @@ pg.ship_skin_template_12 = {
 		desc = "殿下！現在的{namecode:79}，炮擊也好、航空也好，什麼都能做！所以、所以，多依賴依賴我嘛，殿下！殿下——！！",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1866,6 +1536,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 20,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1881,7 +1552,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:76}級戰艦一番艦—{namecode:76}",
 		voice_actor = 67,
 		spine_offset = "",
-		illustrator = 20,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1979,6 +1650,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 20,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1994,7 +1666,7 @@ pg.ship_skin_template_12 = {
 		desc = "艦載機就位，主炮準備！現在的我可是勢不可擋！馬上出擊吧，指揮官～我已經迫不及待想要大鬧一場了！",
 		voice_actor = 67,
 		spine_offset = "",
-		illustrator = 20,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2092,6 +1764,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 20,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2107,7 +1780,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:76}級戰艦二番艦—{namecode:77}",
 		voice_actor = 68,
 		spine_offset = "",
-		illustrator = 20,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2205,6 +1878,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 20,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2220,7 +1894,7 @@ pg.ship_skin_template_12 = {
 		desc = "航空戰艦、{namecode:77}，伴隨著新的力量參上！指揮官，不要等了，現在就來見識一下我的改造後的實力吧！",
 		voice_actor = 68,
 		spine_offset = "",
-		illustrator = 20,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2318,6 +1992,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2333,7 +2008,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:74}級戰艦一番艦—{namecode:74}",
 		voice_actor = 11,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2424,6 +2099,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70166,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2439,7 +2115,7 @@ pg.ship_skin_template_12 = {
 		desc = "呼，今天要招待指揮官，拜託你們把吾打扮得好看些，吾，呼啊……還有點睏……汝等在吵鬧什麼？ ……？！指、指揮官，汝什麼時候在那的！",
 		voice_actor = 11,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2532,6 +2208,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70287,
 		shop_type_id = 2,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2547,7 +2224,7 @@ pg.ship_skin_template_12 = {
 		desc = "來得正好，有汝在，就算是一成不變的賞月也多少會變得有趣些吧——今天就好好在這休息吧",
 		voice_actor = 11,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2640,6 +2317,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70523,
 		shop_type_id = 9,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2655,7 +2333,7 @@ pg.ship_skin_template_12 = {
 		desc = "“睡衣派對”一般是會做什麼？雖然吾經常和{namecode:75}她們一起睡，不過和其他人還是第一次……唔…感覺有點緊張…",
 		voice_actor = 11,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2748,6 +2426,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2763,7 +2442,7 @@ pg.ship_skin_template_12 = {
 		desc = "小、小女子不才，還請多多關照……這麼說就可以了嗎？總覺得有點…不好意思呢，呵呵……",
 		voice_actor = 11,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2854,6 +2533,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2869,7 +2549,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:74}級戰艦二番艦—{namecode:75}",
 		voice_actor = 19,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2960,6 +2640,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70173,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2975,7 +2656,7 @@ pg.ship_skin_template_12 = {
 		desc = "指揮官，快看快看，風、林、火、山！ {namecode:142}給我設計的，這樣我也可以和{namecode:143}一起玩戰國遊戲啦！哼哼，大將{namecode:75}可是超厲害的！指揮官不來一起玩嗎？為什麼呀？",
 		voice_actor = 19,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3068,6 +2749,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3083,7 +2765,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:92}級戰艦一番艦—{namecode:92}",
 		voice_actor = 9,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3174,6 +2856,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3189,7 +2872,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:136}級戰艦四番艦—{namecode:82}",
 		voice_actor = 47,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3287,6 +2970,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70090,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3302,7 +2986,7 @@ pg.ship_skin_template_12 = {
 		desc = "整理衣櫥的時候發現了令人懷念的服裝呢…呵呵，指揮官，要不要準備準備，和我同去開啟一段新的旅程呢？",
 		voice_actor = 47,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3402,6 +3086,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70171,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3417,7 +3102,7 @@ pg.ship_skin_template_12 = {
 		desc = "又到了櫻花盛放的季節了啊，時間過得真快呢……咳咳，指揮官，一道去賞櫻如何？",
 		voice_actor = 47,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3517,6 +3202,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3532,7 +3218,7 @@ pg.ship_skin_template_12 = {
 		desc = "戰艦{namecode:82}，誓與您長相廝守、互信互愛、互相輔助、共行此生。不才之身，還請多多指教——",
 		voice_actor = 47,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3630,6 +3316,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3645,7 +3332,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:80}級戰列艦—{namecode:80}",
 		voice_actor = 204,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3743,6 +3430,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70416,
 		shop_type_id = 6,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3758,7 +3446,7 @@ pg.ship_skin_template_12 = {
 		desc = "(嘶嘶)清涼的飲品，美味的食物，熱情的陽光…還有避暑的泳池？呼呼，是不是挺有股“夏天”的感覺出來了？",
 		voice_actor = 204,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3858,6 +3546,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3873,7 +3562,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:80}級戰列艦—{namecode:175}",
 		voice_actor = 215,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3971,6 +3660,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70284,
 		shop_type_id = 2,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = 0,
@@ -3985,7 +3675,7 @@ pg.ship_skin_template_12 = {
 		desc = "你好，指揮官。節日大家都一身盛裝，我這樣的也沒有什麼問題吧？",
 		voice_actor = 215,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4105,6 +3795,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70571,
 		shop_type_id = 4,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4120,7 +3811,7 @@ pg.ship_skin_template_12 = {
 		desc = "哎呀，在這裡碰上還真是有緣呢。…欸，一起去學校？好、好吧，我走前面，趕緊跟上來！",
 		voice_actor = 215,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4220,6 +3911,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4235,7 +3927,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:85}級航空母艦一番艦—{namecode:85}",
 		voice_actor = 136,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4326,6 +4018,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4341,7 +4034,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:85}級航空母艦二番艦—{namecode:86}",
 		voice_actor = 136,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4432,6 +4125,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 23,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4447,7 +4141,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:89}號航空母艦",
 		voice_actor = 58,
 		spine_offset = "",
-		illustrator = 23,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4551,6 +4245,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 23,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4566,7 +4261,7 @@ pg.ship_skin_template_12 = {
 		desc = "在大家沉浸在慶典餘韻中酣然入夢時，房間內傳來衣物滑過肌膚的聲音…老爺，今夜能有幸與您共賞繁星嗎？",
 		voice_actor = 58,
 		spine_offset = "",
-		illustrator = 23,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4657,6 +4352,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 24,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4672,7 +4368,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:87}級航空母艦一番艦—{namecode:87}",
 		voice_actor = 2,
 		spine_offset = "",
-		illustrator = 24,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4769,6 +4465,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70017,
 		shop_type_id = 8,
 		air_bomb_skin = "",
+		illustrator = 24,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4784,7 +4481,7 @@ pg.ship_skin_template_12 = {
 		desc = "哇啊啊啊！糖、糖果灑出來了——！！ 為、為什麼都在追吾啊！指揮官，幫吾攔下南瓜啊啊啊——",
 		voice_actor = 2,
 		spine_offset = "",
-		illustrator = 24,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4882,6 +4579,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 24,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4897,7 +4595,7 @@ pg.ship_skin_template_12 = {
 		desc = "指揮官大人，這便是吾成長後的姿態！嘻嘻，心動了嗎？吶、吶，肯定心動了吧~",
 		voice_actor = 2,
 		spine_offset = "",
-		illustrator = 24,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4981,6 +4679,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 24,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4996,7 +4695,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:90}級航空母艦—{namecode:90}",
 		voice_actor = 163,
 		spine_offset = "",
-		illustrator = 24,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5080,6 +4779,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70124,
 		shop_type_id = 9,
 		air_bomb_skin = "",
+		illustrator = 24,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5095,7 +4795,7 @@ pg.ship_skin_template_12 = {
 		desc = "呼啊，睡得好飽…繼續把昨晚的RPG遊戲給……欸欸欸欸，主公，您您您您為什麼會在這裡！吾、吾絕沒有懈怠，只、只是，嗚……",
 		voice_actor = 163,
 		spine_offset = "",
-		illustrator = 24,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5181,6 +4881,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5196,7 +4897,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:88}級輕型航空母艦—{namecode:179}",
 		voice_actor = 105,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5280,6 +4981,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70286,
 		shop_type_id = 2,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = 0,
@@ -5294,7 +4996,7 @@ pg.ship_skin_template_12 = {
 		desc = "年末的各種準備忙透了吧，指揮官？如果有什麼我能幫上忙的請儘管吩咐我哦",
 		voice_actor = 105,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5408,6 +5110,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5423,7 +5126,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:88}級輕型航空母艦—{namecode:103}",
 		voice_actor = 244,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5507,6 +5210,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70408,
 		shop_type_id = 6,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5522,7 +5226,7 @@ pg.ship_skin_template_12 = {
 		desc = "來杯椰子汁…還有烤香腸。嗯，這樣應該就行了……嗯？指揮官？也是來買吃的嗎，還是來乘涼的？",
 		voice_actor = 244,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5608,6 +5312,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5623,7 +5328,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:88}級輕型航空母艦—{namecode:104}",
 		voice_actor = 244,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5707,6 +5412,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70409,
 		shop_type_id = 6,
 		air_bomb_skin = "",
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5722,7 +5428,7 @@ pg.ship_skin_template_12 = {
 		desc = "哼哼哼~今天沒有別的安排，唯一的任務就是——盡情享受海邊的假日！指揮官，切換到假期模式了嗎？",
 		voice_actor = 244,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5808,6 +5514,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5823,7 +5530,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:91}號航空母艦",
 		voice_actor = 44,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5920,6 +5627,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70003,
 		shop_type_id = 6,
 		air_bomb_skin = "",
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5935,7 +5643,7 @@ pg.ship_skin_template_12 = {
 		desc = "“當你凝視深淵的時候，深淵也在凝視著你”，嘻嘻，指揮官，凝視{namecode:91}的時候，不要忘記這句話哦~",
 		voice_actor = 44,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6034,6 +5742,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70032,
 		shop_type_id = 2,
 		air_bomb_skin = "",
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6049,7 +5758,7 @@ pg.ship_skin_template_12 = {
 		desc = "指揮官一定會和我永遠在一起的對吧，神明大人？當然，指揮官官身邊的害蟲就由我……呵呵呵……",
 		voice_actor = 44,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6135,6 +5844,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70423,
 		shop_type_id = 7,
 		air_bomb_skin = "",
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6150,7 +5860,7 @@ pg.ship_skin_template_12 = {
 		desc = "指揮官，終於來了啊~竟然讓{namecode:91}等了這麼久，真是罪惡的人…不過，這等待如今也結束了——再沒有人能阻止{namecode:91}和指揮官見面了…♡",
 		voice_actor = 44,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6236,6 +5946,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6251,7 +5962,7 @@ pg.ship_skin_template_12 = {
 		desc = "要再多發些請柬呢，嘻嘻……對於害蟲們，這樣打掃起來比較有效率吧！",
 		voice_actor = 44,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6348,6 +6059,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 0,
 		shop_type_id = 0,
 		air_bomb_skin = "",
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6363,7 +6075,7 @@ pg.ship_skin_template_12 = {
 		desc = "{namecode:92}號航空母艦",
 		voice_actor = 9,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6460,6 +6172,7 @@ pg.ship_skin_template_12 = {
 		shop_id = 70004,
 		shop_type_id = 6,
 		air_bomb_skin = "",
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6475,7 +6188,7 @@ pg.ship_skin_template_12 = {
 		desc = "“人生苦短，何妨一試”，在哪裡好像聽過這句話呢，指揮官，你的心在蠢蠢欲動嗎?",
 		voice_actor = 9,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6550,6 +6263,423 @@ pg.ship_skin_template_12 = {
 						{
 							-0.304,
 							0.977,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307022] = {
+		ship_group = 30702,
+		name = "白狐賀正",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "101",
+		id = 307022,
+		group_index = 2,
+		prefab = "Jiahe_3",
+		painting = "Jiahe_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70033,
+		shop_type_id = 2,
+		air_bomb_skin = "",
+		illustrator = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "呵呵，新年自然要穿的正式一點，如何，指揮官，對這身有什麼感想嗎？",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.91,
+					1.14,
+					0
+				}
+			},
+			plane = {
+				{
+					0.91,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307023] = {
+		ship_group = 30702,
+		name = "白羽風華",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "135",
+		id = 307023,
+		group_index = 3,
+		prefab = "Jiahe_5",
+		painting = "Jiahe_5",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70424,
+		shop_type_id = 7,
+		air_bomb_skin = "",
+		illustrator = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "這個雕像的設計，是源自鳶尾信仰的教義嗎？雖然我並不通曉藝術，但也能從中感受到華麗…以及令人心生敬畏的某些東西…你能感覺到什麼嗎，指揮官？",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.254,
+					1.12,
+					0
+				}
+			},
+			plane = {
+				{
+					1.214,
+					1.114,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307028] = {
+		ship_group = 30702,
+		name = "蒼染的君子蘭",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 307028,
+		group_index = 8,
+		prefab = "jiahe_h",
+		painting = "jiahe_h",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "“執子之手，與子偕老”，如果對象是你的話，倒也不算太糟呢",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.91,
+					1.14,
+					0
+				}
+			},
+			plane = {
+				{
+					0.91,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307030] = {
+		ship_group = 30703,
+		name = "{namecode:93}",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 307030,
+		group_index = 0,
+		prefab = "canglong",
+		painting = "canglong",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 12,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "{namecode:93}號航空母艦",
+		voice_actor = 15,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.832,
+					0.969,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.939,
+					0.719,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							0.269,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.189,
+							0.864,
 							0
 						}
 					}

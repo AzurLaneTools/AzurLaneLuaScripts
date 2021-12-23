@@ -98,21 +98,12 @@ function slot0.flushTimesListener(slot0)
 	slot0:clearTimesListener()
 
 	slot1 = pg.TimeMgr.GetInstance()
-	slot0.zeroClockId = slot1:AddTimer("daily", slot1:GetNextTime(0, 0, 0) - slot1:GetServerTime(), 86400, function ()
-		uv0:sendNotification(GAME.ZERO_HOUR)
-	end)
 	slot0.fourClockId = slot1:AddTimer("daily_four", slot1:GetNextTime(4, 0, 0) - slot1:GetServerTime(), 86400, function ()
 		uv0:sendNotification(GAME.FOUR_HOUR)
 	end)
 end
 
 function slot0.clearTimesListener(slot0)
-	if slot0.zeroClockId then
-		pg.TimeMgr.GetInstance():RemoveTimer(slot0.zeroClockId)
-
-		slot0.zeroClockId = nil
-	end
-
 	if slot0.fourClockId then
 		pg.TimeMgr.GetInstance():RemoveTimer(slot0.fourClockId)
 

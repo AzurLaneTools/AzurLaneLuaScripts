@@ -4295,7 +4295,7 @@ pg.world_chapter_random = {
 	},
 	[1011] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "加勒比海A-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1011,
@@ -4316,7 +4316,7 @@ pg.world_chapter_random = {
 	},
 	[1012] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "加勒比海B-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1012,
@@ -4337,7 +4337,7 @@ pg.world_chapter_random = {
 	},
 	[1013] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "加勒比海C-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1013,
@@ -4358,7 +4358,7 @@ pg.world_chapter_random = {
 	},
 	[1014] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "加勒比海D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1014,
@@ -4379,7 +4379,7 @@ pg.world_chapter_random = {
 	},
 	[1021] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西南A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1021,
@@ -4400,7 +4400,7 @@ pg.world_chapter_random = {
 	},
 	[1022] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西南B-安全海域",
 		complete_effect = 1,
 		enter_cost = 5,
 		id = 1022,
@@ -4421,7 +4421,7 @@ pg.world_chapter_random = {
 	},
 	[1023] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西南C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1023,
@@ -4442,7 +4442,7 @@ pg.world_chapter_random = {
 	},
 	[1024] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西南D-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1024,
@@ -4463,7 +4463,7 @@ pg.world_chapter_random = {
 	},
 	[1025] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西南E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1025,
@@ -4484,7 +4484,7 @@ pg.world_chapter_random = {
 	},
 	[1031] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "西南洋脊A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1031,
@@ -4505,7 +4505,7 @@ pg.world_chapter_random = {
 	},
 	[1032] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "西南洋脊B-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1032,
@@ -4526,7 +4526,7 @@ pg.world_chapter_random = {
 	},
 	[1033] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "西南洋脊C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1033,
@@ -4547,7 +4547,7 @@ pg.world_chapter_random = {
 	},
 	[1034] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "西南洋脊D-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1034,
@@ -4568,7 +4568,7 @@ pg.world_chapter_random = {
 	},
 	[1041] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "西大陸棚A-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1041,
@@ -4589,7 +4589,7 @@ pg.world_chapter_random = {
 	},
 	[1042] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "西大陸棚B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1042,
@@ -4610,7 +4610,7 @@ pg.world_chapter_random = {
 	},
 	[1043] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "西大陸棚C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1043,
@@ -4631,7 +4631,7 @@ pg.world_chapter_random = {
 	},
 	[1044] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "西大陸棚D-安全海域",
 		complete_effect = 1,
 		enter_cost = 5,
 		id = 1044,
@@ -4652,7 +4652,7 @@ pg.world_chapter_random = {
 	},
 	[1051] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "東南洋脊A-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1051,
@@ -4673,7 +4673,7 @@ pg.world_chapter_random = {
 	},
 	[1052] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "東南洋脊B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1052,
@@ -4694,7 +4694,7 @@ pg.world_chapter_random = {
 	},
 	[1053] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "東南洋脊C-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1053,
@@ -4715,7 +4715,7 @@ pg.world_chapter_random = {
 	},
 	[1054] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "東南洋脊D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1054,
@@ -4736,7 +4736,7 @@ pg.world_chapter_random = {
 	},
 	[1061] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東南A-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1061,
@@ -4757,7 +4757,7 @@ pg.world_chapter_random = {
 	},
 	[1062] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東南B-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1062,
@@ -4778,7 +4778,7 @@ pg.world_chapter_random = {
 	},
 	[1063] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東南C-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1063,
@@ -4799,7 +4799,7 @@ pg.world_chapter_random = {
 	},
 	[1064] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東南D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1064,
@@ -4820,7 +4820,7 @@ pg.world_chapter_random = {
 	},
 	[1065] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東南E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1065,
@@ -4841,7 +4841,7 @@ pg.world_chapter_random = {
 	},
 	[1066] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東南F-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1066,
@@ -4862,7 +4862,7 @@ pg.world_chapter_random = {
 	},
 	[1071] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "地中海A-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1071,
@@ -4883,7 +4883,7 @@ pg.world_chapter_random = {
 	},
 	[1072] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "地中海B-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1072,
@@ -4904,7 +4904,7 @@ pg.world_chapter_random = {
 	},
 	[1073] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "地中海C-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1073,
@@ -4925,7 +4925,7 @@ pg.world_chapter_random = {
 	},
 	[1081] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1081,
@@ -4946,7 +4946,7 @@ pg.world_chapter_random = {
 	},
 	[1082] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1082,
@@ -4967,7 +4967,7 @@ pg.world_chapter_random = {
 	},
 	[1083] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1083,
@@ -4988,7 +4988,7 @@ pg.world_chapter_random = {
 	},
 	[1084] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西D-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1084,
@@ -5009,7 +5009,7 @@ pg.world_chapter_random = {
 	},
 	[1085] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西E-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1085,
@@ -5030,7 +5030,7 @@ pg.world_chapter_random = {
 	},
 	[1091] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西北A-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1091,
@@ -5051,7 +5051,7 @@ pg.world_chapter_random = {
 	},
 	[1092] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西北B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1092,
@@ -5072,7 +5072,7 @@ pg.world_chapter_random = {
 	},
 	[1093] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西北C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1093,
@@ -5093,7 +5093,7 @@ pg.world_chapter_random = {
 	},
 	[1094] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西北D-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1094,
@@ -5114,7 +5114,7 @@ pg.world_chapter_random = {
 	},
 	[1095] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域西北E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1095,
@@ -5135,7 +5135,7 @@ pg.world_chapter_random = {
 	},
 	[1101] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "西北航道A-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1101,
@@ -5156,7 +5156,7 @@ pg.world_chapter_random = {
 	},
 	[1102] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "西北航道B-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1102,
@@ -5177,7 +5177,7 @@ pg.world_chapter_random = {
 	},
 	[1103] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "西北航道C-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1103,
@@ -5198,7 +5198,7 @@ pg.world_chapter_random = {
 	},
 	[1104] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "西北航道D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1104,
@@ -5219,7 +5219,7 @@ pg.world_chapter_random = {
 	},
 	[1105] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "西北航道E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1105,
@@ -5240,7 +5240,7 @@ pg.world_chapter_random = {
 	},
 	[1106] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "西北航道F-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1106,
@@ -5261,7 +5261,7 @@ pg.world_chapter_random = {
 	},
 	[1111] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東A-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1111,
@@ -5282,7 +5282,7 @@ pg.world_chapter_random = {
 	},
 	[1112] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1112,
@@ -5303,7 +5303,7 @@ pg.world_chapter_random = {
 	},
 	[1113] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1113,
@@ -5324,7 +5324,7 @@ pg.world_chapter_random = {
 	},
 	[1114] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東D-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1114,
@@ -5345,7 +5345,7 @@ pg.world_chapter_random = {
 	},
 	[1121] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "東大陸棚A-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1121,
@@ -5366,7 +5366,7 @@ pg.world_chapter_random = {
 	},
 	[1122] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "東大陸棚B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1122,
@@ -5387,7 +5387,7 @@ pg.world_chapter_random = {
 	},
 	[1123] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "東大陸棚C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1123,
@@ -5408,7 +5408,7 @@ pg.world_chapter_random = {
 	},
 	[1124] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "東大陸棚D-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1124,
@@ -5429,7 +5429,7 @@ pg.world_chapter_random = {
 	},
 	[1125] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "東大陸棚E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1125,
@@ -5450,7 +5450,7 @@ pg.world_chapter_random = {
 	},
 	[1131] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東北A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1131,
@@ -5471,7 +5471,7 @@ pg.world_chapter_random = {
 	},
 	[1132] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東北B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1132,
@@ -5492,7 +5492,7 @@ pg.world_chapter_random = {
 	},
 	[1133] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東北C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1133,
@@ -5513,7 +5513,7 @@ pg.world_chapter_random = {
 	},
 	[1134] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東北D-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
 		id = 1134,
@@ -5534,7 +5534,7 @@ pg.world_chapter_random = {
 	},
 	[1135] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "NA海域東北E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1135,
@@ -5555,7 +5555,7 @@ pg.world_chapter_random = {
 	},
 	[1141] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "東北航道A-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1141,
@@ -5576,7 +5576,7 @@ pg.world_chapter_random = {
 	},
 	[1142] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "東北航道B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
 		id = 1142,
@@ -5597,7 +5597,7 @@ pg.world_chapter_random = {
 	},
 	[1143] = {
 		entrance_ui = 1,
-		name = "安全海域",
+		name = "東北航道C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
 		id = 1143,
@@ -5618,7 +5618,7 @@ pg.world_chapter_random = {
 	},
 	[1144] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "東北航道D-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1144,
@@ -5639,7 +5639,7 @@ pg.world_chapter_random = {
 	},
 	[1151] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "NA海域深處A-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1151,
@@ -5660,7 +5660,7 @@ pg.world_chapter_random = {
 	},
 	[1152] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "NA海域深處B-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1152,
@@ -5681,7 +5681,7 @@ pg.world_chapter_random = {
 	},
 	[1153] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "NA海域深處C-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1153,
@@ -5702,7 +5702,7 @@ pg.world_chapter_random = {
 	},
 	[1154] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "NA海域中心-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1154,
@@ -5723,7 +5723,7 @@ pg.world_chapter_random = {
 	},
 	[1155] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "NA海域深處D-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1155,
@@ -5744,7 +5744,7 @@ pg.world_chapter_random = {
 	},
 	[1156] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "NA海域深處E-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1156,
@@ -5765,7 +5765,7 @@ pg.world_chapter_random = {
 	},
 	[1157] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "NA海域深處F-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
 		id = 1157,
@@ -5786,7 +5786,7 @@ pg.world_chapter_random = {
 	},
 	[1158] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "NA海域深處G-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1158,
@@ -5807,7 +5807,7 @@ pg.world_chapter_random = {
 	},
 	[1159] = {
 		entrance_ui = 2,
-		name = "安全海域",
+		name = "NA海域深處H-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
 		id = 1159,

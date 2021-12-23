@@ -1,8 +1,204 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "40482",
+		param = "40486",
 		id = 1,
+		pic = "temp12",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 2,
+		pic = "temp11",
+		type = 2,
+		param = {
+			"scene skinshop"
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "40490",
+		id = 3,
+		pic = "temp10",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "40491",
+		id = 4,
+		pic = "temp9",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "40489",
+		id = 5,
+		pic = "temp8",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 6,
+		pic = "temp7",
+		type = 2,
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "40482",
+		id = 7,
 		pic = "temp14",
 		type = 3,
 		time = {
@@ -33,7 +229,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 2,
+		id = 8,
 		pic = "temp13",
 		type = 2,
 		param = {
@@ -71,7 +267,7 @@ pg.activity_banner = {
 	},
 	{
 		param = "",
-		id = 3,
+		id = 9,
 		pic = "temp99",
 		type = 9,
 		time = {
@@ -79,7 +275,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					14
+					23
 				},
 				{
 					0,
@@ -89,9 +285,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					29
+					2022,
+					1,
+					5
 				},
 				{
 					23,
@@ -102,7 +298,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 4,
+		id = 10,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -111,7 +307,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 5,
+		id = 11,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -120,7 +316,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 6,
+		id = 12,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -135,11 +331,11 @@ pg.activity_banner = {
 		param = "40341",
 		time = "stop",
 		type = 3,
-		id = 7,
+		id = 13,
 		pic = ""
 	},
 	{
-		id = 8,
+		id = 14,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -148,7 +344,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 9,
+		id = 15,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -160,7 +356,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 10,
+		id = 16,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -172,7 +368,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 11,
+		id = 17,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -184,7 +380,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 12,
+		id = 18,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -196,7 +392,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 13,
+		id = 19,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -208,7 +404,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 14,
+		id = 20,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -220,7 +416,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 15,
+		id = 21,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -233,11 +429,11 @@ pg.activity_banner = {
 		param = "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
-		id = 16,
+		id = 22,
 		pic = "guihuagao"
 	},
 	{
-		id = 17,
+		id = 23,
 		pic = "temp1",
 		time = "stop",
 		type = 2,
@@ -250,11 +446,11 @@ pg.activity_banner = {
 		param = "",
 		time = "stop",
 		type = 8,
-		id = 18,
+		id = 24,
 		pic = "temp2"
 	},
 	{
-		id = 19,
+		id = 25,
 		pic = "temp3",
 		time = "stop",
 		type = 2,
@@ -262,6 +458,38 @@ pg.activity_banner = {
 			"metacharacter",
 			{
 				autoOpenShipConfigID = 9707011
+			}
+		}
+	},
+	{
+		param = "拐杖糖|據說最原始的拐杖糖是白色的呢。<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
+		id = 26,
+		pic = "christmas",
+		type = 10,
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
 			}
 		}
 	},
@@ -284,6 +512,13 @@ pg.activity_banner = {
 		16,
 		17,
 		18,
-		19
+		19,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26
 	}
 }

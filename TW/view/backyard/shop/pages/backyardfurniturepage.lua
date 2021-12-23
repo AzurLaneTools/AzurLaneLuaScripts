@@ -133,7 +133,15 @@ function slot0.GetData(slot0)
 	end
 
 	function slot5(slot0, slot1)
-		return table.contains(slot1, slot0:getConfig("type"))
+		slot2 = slot0:getConfig("tag")
+
+		if uv0.pageType == 5 then
+			return slot2 == 7
+		else
+			slot4 = table.contains(slot1, slot0:getConfig("type")) and slot2 ~= 7
+
+			return slot4
+		end
 	end
 
 	for slot10, slot11 in ipairs(pg.furniture_shop_template.all) do

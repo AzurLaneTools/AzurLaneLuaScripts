@@ -5,7 +5,8 @@ slot1 = {
 	"word_wallpaper",
 	"word_floorpaper",
 	"word_wall",
-	"word_collection"
+	"word_collection",
+	"word_shipskin"
 }
 
 function slot2(slot0)

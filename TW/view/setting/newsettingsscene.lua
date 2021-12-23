@@ -14,19 +14,25 @@ end
 
 function slot0.OnClearExchangeCode(slot0)
 	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
-		slot0.pages:OnClearExchangeCode(code)
+		slot0.pages[1]:OnClearExchangeCode(code)
 	end
 end
 
 function slot0.OnShowTranscode(slot0, slot1)
 	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
-		slot0.pages:OnShowTranscode(slot1)
+		slot0.pages[1]:OnShowTranscode(slot1)
 	end
 end
 
 function slot0.OnCheckAllAccountState(slot0)
 	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
-		slot0.pages:OnCheckAllAccountState(code)
+		slot0.pages[1]:OnCheckAllAccountState(code)
+	end
+end
+
+function slot0.OnSecondPwdStateChange(slot0)
+	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
+		slot0.pages[1]:OnSecondPwdStateChange(code)
 	end
 end
 
@@ -71,9 +77,10 @@ function slot0.didEnter(slot0)
 		end, SFX_PANEL)
 	elseif PLATFORM_CODE == PLATFORM_KR then
 		setActive(slot0.helpBtn, true)
-		onButton(slot0, helpBtn, function ()
+		onButton(slot0, slot0.helpBtn, function ()
 			pg.SdkMgr.GetInstance():BugReport()
 		end, SFX_CANCEL)
+		slot0.helpBtn:SetAsFirstSibling()
 	end
 
 	for slot4, slot5 in ipairs(slot0.toggles) do

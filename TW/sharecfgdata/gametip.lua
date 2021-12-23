@@ -4960,7 +4960,7 @@ _G.pg.gametip.charge_limit_daily = {
 }
 
 _G.pg.gametip.charge_limit_weekly = {
-	tip = "本周可購買次數：$1"
+	tip = "本週可購買次數：$1"
 }
 
 _G.pg.gametip.charge_error = {
@@ -12913,7 +12913,7 @@ _G.pg.gametip.index_propose_skin = {
 }
 
 _G.pg.gametip.index_not_obtained = {
-	tip = "未獲得"
+	tip = "未獲取"
 }
 
 _G.pg.gametip.index_no_limit = {
@@ -16137,6 +16137,18 @@ _G.pg.gametip.world_automode_setting_all_3_2 = {
 	tip = "開"
 }
 
+_G.pg.gametip.world_automode_setting_all_4 = {
+	tip = "是否因塞壬裝置暫停"
+}
+
+_G.pg.gametip.world_automode_setting_all_4_1 = {
+	tip = "是"
+}
+
+_G.pg.gametip.world_automode_setting_all_4_2 = {
+	tip = "否"
+}
+
 _G.pg.gametip.area_putong = {
 	tip = "普通海域"
 }
@@ -17573,4 +17585,92 @@ _G.pg.gametip.ssss_medal_tip = {
 			info = "3.領取時間截止12月20日23點59分"
 		}
 	}
+}
+
+_G.pg.gametip.tag_ship_unlocked = {
+	tip = "圖鑑已解鎖"
+}
+
+_G.pg.gametip.tag_ship_locked = {
+	tip = "圖鑑未解鎖"
+}
+
+_G.pg.gametip.acceleration_tips_1 = {
+	tip = "<color=#66472a><size=34>是否使用$1個喵箱訓練加速工具\n依次加速$2個喵箱？ </size></color>"
+}
+
+_G.pg.gametip.acceleration_tips_2 = {
+	tip = "<color=#827c7c><size=26>(加速後將完成$1個喵箱R型，$2個喵箱SR型，$3個喵箱SSR型)</size></color>"
+}
+
+_G.pg.gametip.noacceleration_tips = {
+	tip = "當前沒有可以進行加速的喵箱"
+}
+
+_G.pg.gametip.word_shipskin = {
+	tip = "特殊"
+}
+
+_G.pg.gametip.settings_sound_title_bgm = {
+	tip = " 背景音樂"
+}
+
+_G.pg.gametip.settings_sound_title_effct = {
+	tip = " 遊戲音效"
+}
+
+_G.pg.gametip.settings_sound_title_cv = {
+	tip = " 角色配音"
+}
+
+_G.pg.gametip.setting_resdownload_title_gallery = {
+	tip = "插畫資源更新"
+}
+
+_G.pg.gametip.setting_resdownload_title_live2d = {
+	tip = "live2D資源更新"
+}
+
+_G.pg.gametip.setting_resdownload_title_music = {
+	tip = "音樂資源更新"
+}
+
+_G.pg.gametip.setting_resdownload_title_sound = {
+	tip = "語音包資源更新"
+}
+
+_G.pg.gametip.settings_battle_title = {
+	tip = "鍵位設置"
+}
+
+_G.pg.gametip.settings_battle_tip = {
+	tip = "點 擊 編 輯 設 置 鍵 位"
+}
+
+_G.pg.gametip.settings_battle_Btn_edit = {
+	tip = "編 輯"
+}
+
+_G.pg.gametip.settings_battle_Btn_reset = {
+	tip = "重 置"
+}
+
+_G.pg.gametip.settings_battle_Btn_save = {
+	tip = "保 存"
+}
+
+_G.pg.gametip.settings_battle_Btn_cancel = {
+	tip = "取 消"
+}
+
+_G.pg.gametip.settings_pwd_label_close = {
+	tip = "關閉"
+}
+
+_G.pg.gametip.settings_pwd_label_open = {
+	tip = "開啟"
+}
+
+_G.pg.gametip.word_frame = {
+	tip = "幀"
 }

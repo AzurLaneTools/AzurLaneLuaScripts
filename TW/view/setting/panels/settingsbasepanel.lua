@@ -19,6 +19,10 @@ function slot0.Init(slot0, slot1)
 	end
 end
 
+function slot0.IsLoaded(slot0)
+	return slot0.state == uv0
+end
+
 function slot0.Load(slot0, slot1)
 	slot0.state = uv0
 	slot2 = PoolMgr.GetInstance()

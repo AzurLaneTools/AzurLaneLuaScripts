@@ -131,9 +131,16 @@ function slot0.UpdateCommander(slot0, slot1)
 		slot0:LoadChar(slot1)
 
 		slot0.commanderLevelTxt.text = "LV." .. slot1:getLevel()
-		slot0.commanderExpTxt.text = "<color=#92FC63FF>" .. slot1.exp .. "</color>/" .. slot1:getNextLevelExp()
 
-		setFillAmount(slot0.commanderExpImg, slot1.exp / slot1:getNextLevelExp())
+		if slot1:isMaxLevel() then
+			slot0.commanderExpTxt.text = "MAX"
+
+			setFillAmount(slot0.commanderExpImg, 1)
+		else
+			slot0.commanderExpTxt.text = "<color=#92FC63FF>" .. slot1.exp .. "</color>/" .. slot1:getNextLevelExp()
+
+			setFillAmount(slot0.commanderExpImg, slot1.exp / slot1:getNextLevelExp())
+		end
 	end
 
 	setActive(slot0.commanderExp, slot2)

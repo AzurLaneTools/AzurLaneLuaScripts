@@ -4,10 +4,16 @@ function slot0.getUIName(slot0)
 	return "CommanderBoxesUI"
 end
 
+function slot0.OnRecalcQuicklyFinishBoxesCnt(slot0)
+	pg.TipsMgr.GetInstance():ShowTips(i18n("comander_tool_cnt_is_reclac"))
+	triggerButton(slot0.quicklyFinishAllBtn)
+end
+
 function slot0.OnInit(slot0)
 	slot0.boxCards = {}
 	slot0.startBtn = slot0._tf:Find("frame/boxes/start_btn")
 	slot0.finishBtn = slot0._tf:Find("frame/boxes/finish_btn")
+	slot0.quicklyFinishAllBtn = slot0._tf:Find("frame/boxes/quick_all")
 	slot0.closeBtn = slot0._tf:Find("frame/close_btn")
 	slot0.boxesList = UIItemList.New(slot0._tf:Find("frame/boxes/mask/content"), slot0._tf:Find("frame/boxes/mask/content/frame"))
 	slot0.scrollRect = slot0._tf:Find("frame/boxes/mask")
@@ -51,6 +57,29 @@ function slot0.OnInit(slot0)
 
 		scrollTo(uv0.scrollRect, nil, 1)
 		uv0:emit(CommandRoomMediator.ON_BATCH_GET, uv0.boxes)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.quicklyFinishAllBtn, function ()
+		if getProxy(BagProxy):getItemCountById(Item.COMMANDER_QUICKLY_TOOL_ID) <= 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("cat_accelfrate_notenough"))
+
+			return
+		end
+
+		slot2, slot3, slot4, slot5 = getProxy(CommanderProxy):CalcQuickItemUsageCnt()
+
+		if slot2 <= 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("noacceleration_tips"))
+
+			return
+		end
+
+		uv0:emit(CommandRoomMediator.SHOW_MSGBOX, {
+			content = i18n("acceleration_tips_1", slot2, slot3),
+			content1 = i18n("acceleration_tips_2", slot5[1], slot5[2], slot5[3]),
+			onYes = function ()
+				uv0:emit(CommandRoomMediator.ONE_KEY_FINISH_ALL, uv1, uv2, uv3)
+			end
+		})
 	end, SFX_PANEL)
 	setActive(slot0._tf:Find("frame"), true)
 end

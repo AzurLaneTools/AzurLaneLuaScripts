@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"平安夜的姜饼物语\n\n<size=45>一 圣诞姜饼的做法</size>",
+					"平安夜的薑餅物語\n\n<size=45>一 聖誕薑餅的做法</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 199012,
 			nameColor = "#a9f548",
-			say = "材料的配比…正好！烤箱的火候…完美！嘿嘿，这次的姜饼应该没问题了！",
+			say = "材料的配比…正好！烤箱的火候…完美！嘿嘿，這次的薑餅應該沒問題了！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…好吃…倒是不难吃…不过，嗯…总觉得少了点什么啊……",
+			say = "唔…好吃…倒是不難吃…不過，嗯…總覺得少了點什麼啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啦啦啦~我是难波万~",
+			say = "啦啦啦~我是難波萬~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟~西雅图~怎么一脸不开心的样子呀？不如一起去打一场激动人心的雪仗吧~",
+			say = "喲~西雅圖~怎麼一臉不開心的樣子呀？不如一起去打一場激動人心的雪仗吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是圣地亚哥啊，我正在为晚上的圣诞派对做准备呢，不过…",
+			say = "是聖地牙哥啊，我正在為晚上的聖誕派對做準備呢，不過…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗅嗅…这是，圣诞姜饼！好香的味道！",
+			say = "嗅嗅…這是，聖誕薑餅！好香的味道！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是这个姜饼！圣地亚哥来的也算是正好，来帮我尝尝看味道，给点意见吧",
+			say = "就是這個薑餅！聖地牙哥來的也算是正好，來幫我嚐嚐看味道，給點意見吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔欸？那我就不客气啦~",
+			say = "唔欸？那我就不客氣啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(嚼嚼)嗯…(嚼嚼)好吃！再来一个！",
+			say = "(嚼嚼)嗯…(嚼嚼)好吃！再來一個！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			say = "圣地亚哥一口气吃掉了好几个姜饼",
+			say = "聖地牙哥一口氣吃掉了好幾個薑餅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…饱啦饱啦~谢谢款待~",
+			say = "呼…飽啦飽啦~謝謝款待~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感、感觉如何？",
+			say = "感、感覺如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很饱！",
+			say = "很飽！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就好…啊不对啦，不是问这个，是问妳觉得好不好吃啦！",
+			say = "那就好…啊不對啦，不是問這個，是問妳覺得好不好吃啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……果然还是有哪里少了什么…",
+			say = "唔……果然還是有哪裡少了什麼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱？",
+			say = "愛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注入了“爱”的东西是最美味的，听说？",
+			say = "注入了“愛“的東西是最美味的，聽說？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱…吗……",
+			say = "愛…嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然圣地亚哥完全不懂就是了！",
+			say = "雖然聖地牙哥完全不懂就是了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈…不过，确实是个思路！我再去问问其他人好了！也顺便确认下其他阵营的夥伴们来不来参加派对吧",
+			say = "哈哈…不過，確實是個思路！我再去問問其他人好了！也順便確認下其他陣營的夥伴們來不來參加派對吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哦哦~（并没有在听）",
+			say = "哦哦~（並沒有在聽）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -660,6 +660,16 @@ pg.player_resource = {
 		name = "skinTicket25",
 		itemid = 59252
 	},
+	[229] = {
+		id = 229,
+		name = "xiaoshengdiyagehaogan_2",
+		itemid = 59255
+	},
+	[230] = {
+		id = 230,
+		name = "dexiv4framept",
+		itemid = 59256
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -799,6 +809,11 @@ pg.player_resource = {
 		id = 4002,
 		name = "battlepass_2",
 		itemid = 59253
+	},
+	[4186] = {
+		id = 4186,
+		name = "skin_rerun_pt1",
+		itemid = 0
 	},
 	[100004] = {
 		id = 100004,
@@ -1212,6 +1227,12 @@ pg.player_resource = {
 		skinTicket25 = {
 			228
 		},
+		xiaoshengdiyagehaogan_2 = {
+			229
+		},
+		dexiv4framept = {
+			230
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -1295,6 +1316,9 @@ pg.player_resource = {
 		},
 		battlepass_2 = {
 			4002
+		},
+		skin_rerun_pt1 = {
+			4186
 		},
 		skin_rerun_pt = {
 			100004
@@ -1439,6 +1463,8 @@ pg.player_resource = {
 		226,
 		227,
 		228,
+		229,
+		230,
 		950,
 		951,
 		952,
@@ -1467,6 +1493,7 @@ pg.player_resource = {
 		3137,
 		4001,
 		4002,
+		4186,
 		100004,
 		40275,
 		40461

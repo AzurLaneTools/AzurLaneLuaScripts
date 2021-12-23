@@ -716,7 +716,6 @@ end
 function updateShip(slot0, slot1, slot2)
 	slot3 = slot1:rarity2bgPrint()
 	slot4 = slot1:getPainting()
-	slot5 = getProxy(ShipSkinProxy)
 
 	if (slot2 or {}).anonymous then
 		slot3 = "1"
@@ -729,56 +728,60 @@ function updateShip(slot0, slot1, slot2)
 
 	if findTF(slot0, "icon_bg/new") then
 		if slot2.isSkin then
-			setActive(slot6, not slot5.hasOldNonLimitSkin(slot5, slot1.skinId))
+			setActive(slot5, not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot1.skinId))
 		else
-			setActive(slot6, slot1.virgin)
+			setActive(slot5, slot1.virgin)
 		end
 	end
 
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. (slot2.isSkin and "-skin" or slot3)))
 
-	slot8 = findTF(slot0, "icon_bg/frame")
-	slot9 = nil
+	slot7 = findTF(slot0, "icon_bg/frame")
+	slot8 = nil
 
 	if slot1.isNpc then
-		slot9 = "frame_npc"
+		slot8 = "frame_npc"
 	elseif slot1.propose then
 		if slot1.isMetaShip(slot1) then
-			slot9 = "frame_prop_meta"
+			slot8 = "frame_prop_meta"
 		else
-			slot9 = "frame_prop"
+			slot8 = "frame_prop"
 		end
 	elseif slot2.isSkin then
-		slot9 = "frame7"
+		slot8 = "frame7"
 	end
 
-	setFrame(slot8, slot3, slot9)
+	setFrame(slot7, slot3, slot8)
 
 	if slot2.gray then
-		setGray(slot7, true, true)
+		setGray(slot6, true, true)
 	end
 
 	GetImageSpriteFromAtlasAsync(slot2.Q and "QIcon/" or "SquareIcon/" .. slot4, "", findTF(slot0, "icon_bg/icon"))
 
 	if findTF(slot0, "icon_bg/lv") then
-		setActive(slot11, not slot1.isNpc)
+		setActive(slot10, not slot1.isNpc)
 
-		if not slot1.isNpc and findTF(slot11, "Text") and slot1.level then
-			setText(slot12, slot1.level)
+		if not slot1.isNpc and findTF(slot10, "Text") and slot1.level then
+			setText(slot11, slot1.level)
 		end
 	end
 
 	if findTF(slot0, "ship_type") then
-		setActive(slot12, true)
-		setImageSprite(slot12, GetSpriteFromAtlas("shiptype", shipType2print(slot1.getShipType(slot1))))
+		setActive(slot11, true)
+		setImageSprite(slot11, GetSpriteFromAtlas("shiptype", shipType2print(slot1.getShipType(slot1))))
 	end
 
-	if not IsNil(slot7.Find(slot7, "npc")) then
-		if slot6 and go(slot6).activeSelf then
-			setActive(slot13, false)
+	if not IsNil(slot6.Find(slot6, "npc")) then
+		if slot5 and go(slot5).activeSelf then
+			setActive(slot12, false)
 		else
-			setActive(slot13, slot1.isActivityNpc(slot1))
+			setActive(slot12, slot1.isActivityNpc(slot1))
 		end
+	end
+
+	if slot0.Find(slot0, "group_locked") then
+		setActive(slot13, not slot2.isSkin and not getProxy(CollectionProxy):getShipGroup(slot1.groupId))
 	end
 
 	uv0(slot0, slot2.initStar, slot1:getStar())
@@ -943,6 +946,10 @@ function updateDrop(slot0, slot1, slot2)
 		},
 		{
 			"icon_bg/npc",
+			DROP_TYPE_SHIP
+		},
+		{
+			"group_locked",
 			DROP_TYPE_SHIP
 		}
 	}) do
@@ -1369,10 +1376,14 @@ function shoppingBatch(slot0, slot1, slot2, slot3, slot4)
 end
 
 function gotoChargeScene(slot0, slot1)
-	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-		wrap = slot0 or ChargeScene.TYPE_ITEM,
-		noRes = slot1
-	})
+	if getProxy(ContextProxy):getContextByMediator(ChargeMediator) then
+		pg.m02:retrieveMediator(slot3.mediator.__cname):getViewComponent():switchSubViewByTogger(slot0)
+	else
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+			wrap = slot0 or ChargeScene.TYPE_ITEM,
+			noRes = slot1
+		})
+	end
 end
 
 function clearDrop(slot0)

@@ -13524,6 +13524,53 @@ _G.pg.item_data_statistics[40939] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[40940] = {
+	display = "購買禮包可獲得大量材料獎勵",
+	name = "限時補給禮包",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/TWAndroid",
+	id = 40940,
+	display_icon = {
+		{
+			1,
+			14,
+			120
+		},
+		{
+			2,
+			30113,
+			10
+		},
+		{
+			2,
+			16003,
+			1
+		},
+		{
+			2,
+			16013,
+			1
+		},
+		{
+			2,
+			16023,
+			1
+		}
+	},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[41201] = {
 	display = "泛用型布里贈送的情人節禮物",
 	name = "情人節禮物",
@@ -111373,6 +111420,27 @@ _G.pg.item_data_statistics[59193] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59193,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59191] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_t",
+	id = 59191,
 	display_icon = {},
 	price = {},
 	index = {}

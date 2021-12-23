@@ -22,7 +22,7 @@ slot2 = {
 			luck = {
 				134,
 				-260,
-				147,
+				134,
 				-260
 			}
 		},
@@ -238,7 +238,7 @@ function slot0.flush(slot0, slot1)
 		triggerToggle(slot0.evalueToggle, false)
 	end
 
-	setActive(slot0.evalueToggle, true)
+	setActive(slot0.evalueToggle, slot2)
 end
 
 function slot0.updateEvalues(slot0)

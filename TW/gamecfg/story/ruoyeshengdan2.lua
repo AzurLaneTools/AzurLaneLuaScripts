@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"平安夜的姜饼物语\n\n<size=45>二 女王的侧身像</size>",
+					"平安夜的薑餅物語\n\n<size=45>二 女王的側身像</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好！这边搞定右手了，可以拼上去了哦，厌战大人",
+			say = "好！這邊搞定右手了，可以拼上去了哦，厭戰大人",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意力，集中，集中…这边也完成了！终于完成陛下的眉毛了！",
+			say = "注意力，集中，集中…這邊也完成了！終於完成陛下的眉毛了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "…不得不承认，厌战大人雕的脸还是挺惟妙惟肖的呢",
+			say = "…不得不承認，厭戰大人雕的臉還是挺惟妙惟肖的呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 205021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼…这下应该赶得上完成时间了",
+			say = "呼…這下應該趕得上完成時間了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是…姜饼……人！？",
+			say = "這是…薑餅……人！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "哎呀，这不是西雅图吗。圣诞派对的准备，辛苦了呢",
+			say = "哎呀，這不是西雅圖嗎。聖誕派對的準備，辛苦了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈…辛苦倒是不辛苦，准备的过程本身其实还挺有趣的，嘿嘿~",
+			say = "啊哈哈…辛苦倒是不辛苦，準備的過程本身其實還挺有趣的，嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，在制作姜饼的时候倒是遇到了一点瓶颈…",
+			say = "不過，在製作薑餅的時候倒是遇到了一點瓶頸…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "哦？难得会有妳觉得烦恼的时候啊？",
+			say = "哦？難得會有妳覺得煩惱的時候啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈…虽然姜饼的味道是还不错，但是总觉得好像少了点什么…",
+			say = "啊哈哈哈…雖然薑餅的味道是還不錯，但是總覺得好像少了點什麼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 205021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种事情重要的就是心意！这可是我从去年圣诞节学到的经验之谈哦",
+			say = "這種事情重要的就是心意！這可是我從去年聖誕節學到的經驗之談哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 205021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以今年我们为陛下准备了这个！皇家特制圣诞姜饼雕像——《女王陛下的侧身像》！",
+			say = "所以今年我們為陛下準備了這個！皇家特製聖誕薑餅雕像——《女王陛下的側身像》！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦…听起来就好厉害的样子！",
+			say = "哦哦…聽起來就好厲害的樣子！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "实际制作起来可是意外地费事哦？",
+			say = "實際製作起來可是意外地費事哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "从材料的准备，到大型烤箱的准备…还有中间无数次失败的尝试与牺牲——",
+			say = "從材料的準備，到大型烤箱的準備…還有中間無數次失敗的嘗試與犧牲——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这…会不会太夸张了点？",
+			say = "這…會不會太誇張了點？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 301231,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太夸张了啦…我都试吃过不知道多少次所谓“失败品”了！虽然好吃是挺好吃的啦…",
+			say = "太誇張了啦…我都試吃過不知道多少次所謂”失敗品“了！雖然好吃是挺好吃的啦…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "哎呀，说要帮忙试吃的可是{namecode:141}妳自己吧？",
+			say = "哎呀，說要幫忙試吃的可是若葉妳自己吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			actor = 301231,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "准备圣诞礼物的途中，闻到好香的味道就过来看看，没想到居然…呜呜~",
+			say = "準備聖誕禮物的途中，聞到好香的味道就過來看看，沒想到居然…嗚嗚~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:141}酱，妳的牺牲，不会白费的——",
+			say = "若葉醬，妳的犧牲，不會白費的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等到晚上的派对，陛下看到这个一定会很开心的！",
+			say = "等到晚上的派對，陛下看到這個一定會很開心的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "哼哼，就连那位女仆长也会大吃一惊的吧~真是期待呀~",
+			say = "哼哼，就連那位女僕長也會大吃一驚的吧~真是期待呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重要的是心意吗…好像多少有点想法了！接下来…去看看重樱的各位好了，她们现在应该在准备交换用的礼物吧——",
+			say = "重要的是心意嗎…好像多少有點想法了！接下來…去看看重櫻的各位好了，她們現在應該在準備交換用的禮物吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，西雅图等等我，我也跟妳一起去！",
+			say = "啊，西雅圖等等我，我也跟你一起去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔…算了，这边也做的差不多了。晚上我们会和伊丽莎白陛下她们一起参加派对的，妳也要加油哦，西雅图",
+			say = "唔…算了，這邊也做的差不多了。晚上我們會和伊莉莎白陛下她們一起參加派對的，妳也要加油哦，西雅圖",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

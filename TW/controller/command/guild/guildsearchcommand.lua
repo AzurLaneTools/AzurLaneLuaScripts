@@ -16,15 +16,19 @@ function slot0.execute(slot0, slot1)
 	}, 60029, function (slot0)
 		if slot0.result == 0 then
 			slot1 = {}
-			slot2 = Guild.New(slot0.guild)
 
-			slot2:SetMaxMemberCntAddition(slot0.guild.tech_seat)
+			for slot5, slot6 in ipairs(slot0.guild) do
+				slot7 = Guild.New(slot6)
 
-			slot3 = GuildMember.New(slot0.guild.leader)
+				slot7:SetMaxMemberCntAddition(slot6.tech_seat)
 
-			slot3:setDuty(GuildConst.DUTY_COMMANDER)
-			slot2:addMember(slot3)
-			table.insert(slot1, slot2)
+				slot8 = GuildMember.New(slot6.leader)
+
+				slot8:setDuty(GuildConst.DUTY_COMMANDER)
+				slot7:addMember(slot8)
+				table.insert(slot1, slot7)
+			end
+
 			uv0:sendNotification(GAME.GUILD_SEARCH_DONE, slot1)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_search_sucess"))
 		else

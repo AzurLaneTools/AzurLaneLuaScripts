@@ -52,7 +52,7 @@ end
 
 function slot0.GetWorldFlag(slot0, slot1)
 	if not slot0.worldFlag[slot1] then
-		slot0.worldFlag[slot1] = PlayerPrefs.GetInt("world_flag_" .. slot1) > 0
+		slot0.worldFlag[slot1] = PlayerPrefs.GetInt("world_flag_" .. slot1, 0) > 0
 	end
 
 	return slot0.worldFlag[slot1]
@@ -539,6 +539,28 @@ function slot0.SetChatFlag(slot0, slot1)
 		PlayerPrefs.SetInt("chat__setting", slot1)
 		PlayerPrefs.Save()
 	end
+end
+
+function slot0.SetCommanderPlaySortData(slot0, slot1)
+	slot3 = slot1.asc and 1 or 0
+
+	if slot0.commanderPlaySortDataValue1 ~= slot1.sortData or slot0.commanderPlaySortDataValue2 ~= slot3 then
+		PlayerPrefs.SetString("commander_play_sortdata", slot2 .. "#" .. slot3)
+		PlayerPrefs.Save()
+
+		slot0.commanderPlaySortDataValue1 = slot2
+		slot0.commanderPlaySortDataValue2 = slot3
+	end
+end
+
+function slot0.GetCommanderPlaySortData(slot0)
+	if not slot0.commanderPlaySortDataValue1 or not slot0.commanderPlaySortDataValue2 then
+		slot3 = string.split(PlayerPrefs.GetString("commander_play_sortdata", "Rarity#0"), "#")
+		slot0.commanderPlaySortDataValue1 = slot3[1]
+		slot0.commanderPlaySortDataValue2 = tonumber(slot3[2])
+	end
+
+	return slot0.commanderPlaySortDataValue1, slot0.commanderPlaySortDataValue2
 end
 
 return slot0

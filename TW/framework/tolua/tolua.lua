@@ -62,6 +62,7 @@ AnimationClip = UnityEngine.AnimationClip
 AnimationEvent = UnityEngine.AnimationEvent
 AnimationState = UnityEngine.AnimationState
 Input = UnityEngine.Input
+Gyroscope = UnityEngine.Gyroscope
 KeyCode = UnityEngine.KeyCode
 Physics = UnityEngine.Physics
 Light = UnityEngine.Light

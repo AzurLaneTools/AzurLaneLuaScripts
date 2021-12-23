@@ -1925,6 +1925,108 @@ pg.pay_data_display = {
 		sub_display = {},
 		ignorePlatform = {}
 	},
+	[4012] = {
+		descrip = "可獲得120鑽，定向部件x10和其他獎勵",
+		name = "限時補給禮包",
+		descrip_extra = "*補給將發送到郵箱，請注意查收。",
+		type = 0,
+		subject = "限時補給禮包",
+		extra_gem = 0,
+		name_display = "限時補給禮包",
+		limit_arg = 1,
+		money = 70,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "TWAndroid_l",
+		id_str = "com.hkmanjuu.azurlane.tehuilibao1",
+		first_pay_double = 0,
+		extra_service = 3,
+		id = 4012,
+		airijp_id = "com.hkmanjuu.azurlane.tehuilibao1",
+		extra_service_item = {
+			{
+				1,
+				14,
+				120
+			},
+			{
+				2,
+				30113,
+				10
+			},
+			{
+				2,
+				16003,
+				1
+			},
+			{
+				2,
+				16013,
+				1
+			},
+			{
+				2,
+				16023,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					26
+				},
+				{
+					23,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				120
+			},
+			{
+				2,
+				30113,
+				10
+			},
+			{
+				2,
+				16003,
+				1
+			},
+			{
+				2,
+				16013,
+				1
+			},
+			{
+				2,
+				16023,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {}
+	},
 	all = {
 		1,
 		2,
@@ -1950,6 +2052,7 @@ pg.pay_data_display = {
 		4008,
 		4009,
 		4010,
-		4011
+		4011,
+		4012
 	}
 }

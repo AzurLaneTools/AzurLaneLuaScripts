@@ -5731,6 +5731,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[40940] = {
+		other_resource_cost = "[]",
+		display_effect = "OpenBox",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "300235",
+		id = 40940,
+		compose_number = 0,
+		target_id = 0
+	},
 	[41201] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -15026,6 +15037,7 @@ pg.item_data_template = {
 		40937,
 		40938,
 		40939,
+		40940,
 		41201,
 		41202,
 		41203,
