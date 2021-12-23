@@ -77,34 +77,41 @@ function slot0.updatePanel(slot0)
 	slot6 = slot0.panelConfig.extraItems and slot0.panelConfig.extraItems or {}
 	slot7 = slot0.panelConfig.price and slot0.panelConfig.price or 0
 	slot8 = slot0.panelConfig.isChargeType
-	slot9 = slot0.panelConfig.isMonthCard
-	slot10 = slot0.panelConfig.tagType
-	slot11 = slot0.panelConfig.normalTip
-	slot12 = slot0.panelConfig.extraDrop
+	slot9 = slot0.panelConfig.isLocalPrice
+	slot10 = slot0.panelConfig.isMonthCard
+	slot11 = slot0.panelConfig.tagType
+	slot12 = slot0.panelConfig.normalTip
+	slot13 = slot0.panelConfig.extraDrop
 
 	if slot0.detailNormalTip then
-		setActive(slot0.detailNormalTip, slot11)
+		setActive(slot0.detailNormalTip, slot12)
 	end
 
-	if slot11 then
+	if slot12 then
 		if slot0.detailNormalTip:GetComponent("Text") then
-			setText(slot0.detailNormalTip, slot11)
+			setText(slot0.detailNormalTip, slot12)
 		else
-			setButtonText(slot0.detailNormalTip, slot11)
+			setButtonText(slot0.detailNormalTip, slot12)
 		end
 	end
 
-	setActive(slot0.detailTag, slot10 > 0)
+	setActive(slot0.detailTag, slot11 > 0)
 
-	if slot10 > 0 then
-		for slot16, slot17 in ipairs(slot0.detailTags) do
-			setActive(slot17, slot16 == slot10)
+	if slot11 > 0 then
+		for slot17, slot18 in ipairs(slot0.detailTags) do
+			setActive(slot18, slot17 == slot11)
 		end
 	end
 
 	GetImageSpriteFromAtlasAsync(slot1, "", slot0.detailIcon, false)
 	setText(slot0.detailName, slot2)
-	setActive(slot0.detailRmb, slot8)
+
+	if PLATFORM_CODE == PLATFORM_CHT then
+		setActive(slot0.detailRmb, slot8 and not slot9)
+	else
+		setActive(slot0.detailRmb, slot8)
+	end
+
 	setActive(slot0.detailGem, not slot8)
 	setText(slot0.detailPrice, slot7)
 end

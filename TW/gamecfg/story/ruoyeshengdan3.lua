@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "說到甜食的話，可以去問問白鷹的“她“吧…？",
+			say = "說到甜食的話，可以去問問白鷹的“她”吧…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

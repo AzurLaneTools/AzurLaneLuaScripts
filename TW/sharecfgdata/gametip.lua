@@ -17674,3 +17674,19 @@ _G.pg.gametip.settings_pwd_label_open = {
 _G.pg.gametip.word_frame = {
 	tip = "幀"
 }
+
+_G.pg.gametip.shop_diamond_title = {
+	tip = "購買鑽石"
+}
+
+_G.pg.gametip.shop_gift_title = {
+	tip = "優惠禮包"
+}
+
+_G.pg.gametip.shop_item_title = {
+	tip = "功能道具"
+}
+
+_G.pg.gametip.shop_charge_level_limit = {
+	tip = "級解鎖"
+}

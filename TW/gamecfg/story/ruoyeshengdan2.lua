@@ -354,7 +354,7 @@ return {
 			actor = 301231,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太誇張了啦…我都試吃過不知道多少次所謂”失敗品“了！雖然好吃是挺好吃的啦…",
+			say = "太誇張了啦…我都試吃過不知道多少次所謂“失敗品”了！雖然好吃是挺好吃的啦…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，西雅圖等等我，我也跟你一起去！",
+			say = "啊，西雅圖等等我，我也跟妳一起去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

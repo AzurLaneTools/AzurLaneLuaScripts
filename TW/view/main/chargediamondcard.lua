@@ -51,7 +51,11 @@ function slot0.update(slot0, slot1, slot2, slot3)
 
 	setText(slot0.diamondCountText, slot1:getConfig("gem"))
 	setText(slot0.priceText, slot1:getConfig("money"))
-	setActive(slot0.priceIcon, not slot1:IsLocalPrice())
+
+	if PLATFORM_CODE == PLATFORM_CHT then
+		setActive(slot0.priceIcon, not slot1:IsLocalPrice())
+	end
+
 	LoadSpriteAsync("chargeicon/" .. slot1:getConfig("picture"), function (slot0)
 		if slot0 then
 			setImageSprite(uv0.iconImg, slot0, true)
@@ -65,11 +69,15 @@ function slot0.updateForMonthTF(slot0, slot1, slot2)
 	slot7 = slot0.monthTF:Find("ItemIconList")
 	slot8 = slot0.monthTF:Find("Mask")
 	slot9 = slot0.monthTF:Find("Mask/LimitText")
+	slot10 = slot0.monthTF:Find("Price/Icon")
 
 	setText(slot0.monthTF:Find("Tip/Text"), i18n("monthly_card_tip"))
 	setText(slot0.monthTF:Find("ResCountText"), "x" .. slot1:getConfig("gem"))
 	setText(slot0.monthTF:Find("Price/Text"), slot1:getConfig("money"))
-	setActive(slot0.monthTF:Find("Price/Icon"), not slot1:IsLocalPrice())
+
+	if PLATFORM_CODE == PLATFORM_CHT then
+		setActive(slot10, not slot1:IsLocalPrice())
+	end
 
 	if #slot1:getConfig("display") == 0 then
 		slot11 = slot1:getConfig("extra_service_item")

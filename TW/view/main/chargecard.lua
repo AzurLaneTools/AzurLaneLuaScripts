@@ -201,7 +201,7 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 	slot0.resCount.text = "x" .. slot1:getConfig("gem")
 	slot0.price.text = slot1:getConfig("money")
 
-	if slot1:IsLocalPrice() then
+	if PLATFORM_CODE == PLATFORM_CHT and slot1:IsLocalPrice() then
 		setActive(slot0.rmb, false)
 	end
 

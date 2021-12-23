@@ -85,9 +85,23 @@ function slot0.init(slot0)
 	slot0.diamondToggle = slot0:findTF("toggle_list/diamond_toggle", slot0.viewContainer)
 	slot0.giftTip = slot0:findTF("tip", slot0.giftToggle)
 	slot0.resPanel = PlayerResource.New()
-	slot1 = slot0.resPanel
 
-	slot1:setParent(slot0:findTF("res", slot0.top), false)
+	slot0.resPanel:setParent(slot0:findTF("res", slot0.top), false)
+	setText(slot0:findTF("light/title", slot0.diamondToggle), i18n("shop_diamond_title"))
+	setText(slot0:findTF("dark/title", slot0.diamondToggle), i18n("shop_diamond_title"))
+	setText(slot0:findTF("light/title", slot0.giftToggle), i18n("shop_gift_title"))
+	setText(slot0:findTF("dark/title", slot0.giftToggle), i18n("shop_gift_title"))
+	setText(slot0:findTF("light/title", slot0.itemToggle), i18n("shop_item_title"))
+	setText(slot0:findTF("dark/title", slot0.itemToggle), i18n("shop_item_title"))
+
+	if PLATFORM_CODE == PLATFORM_US then
+		setActive(slot0:findTF("light/title/en", slot0.diamondToggle), false)
+		setActive(slot0:findTF("dark/title/en", slot0.diamondToggle), false)
+		setActive(slot0:findTF("light/title/en", slot0.giftToggle), false)
+		setActive(slot0:findTF("dark/title/en", slot0.giftToggle), false)
+		setActive(slot0:findTF("light/title/en", slot0.itemToggle), false)
+		setActive(slot0:findTF("dark/title/en", slot0.itemToggle), false)
+	end
 
 	slot0.linkTitle = {
 		slot0:findTF("title/title_diamond", slot0.top),

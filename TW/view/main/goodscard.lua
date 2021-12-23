@@ -9,8 +9,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0.mask = slot2:Find("mask")
 	slot2 = slot0.tr
 	slot0.selloutTag = slot2:Find("mask/tag/sellout_tag")
+
+	setText(slot0.selloutTag, i18n("common_sale_out"))
+
 	slot2 = slot0.tr
 	slot0.levelTag = slot2:Find("mask/tag/level_tag")
+
+	setText(slot0.levelTag, i18n("shop_charge_level_limit"))
+
 	slot2 = slot0.tr
 	slot0.levelTagText = slot2:Find("mask/tag/level_tag/Text")
 	slot2 = slot0.tr
