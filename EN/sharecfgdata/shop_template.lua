@@ -35358,7 +35358,7 @@ _G.pg.shop_template[70572] = {
 			{
 				2021,
 				7,
-				22
+				8
 			},
 			{
 				0,
@@ -35369,8 +35369,8 @@ _G.pg.shop_template[70572] = {
 		{
 			{
 				2021,
-				8,
-				4
+				7,
+				21
 			},
 			{
 				23,
@@ -35852,6 +35852,7 @@ _G.pg.shop_template[70582] = {
 	limit_args2 = "",
 	time_second = 0,
 	order = 8556,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -35862,32 +35863,6 @@ _G.pg.shop_template[70582] = {
 	limit_args = {},
 	effect_args = {
 		102263
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -35903,6 +35878,7 @@ _G.pg.shop_template[70583] = {
 	limit_args2 = "",
 	time_second = 0,
 	order = 8556,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -35913,32 +35889,6 @@ _G.pg.shop_template[70583] = {
 	limit_args = {},
 	effect_args = {
 		105121
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -36209,6 +36159,7 @@ _G.pg.shop_template[70589] = {
 	limit_args2 = "",
 	time_second = 0,
 	order = 8554,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36219,32 +36170,6 @@ _G.pg.shop_template[70589] = {
 	limit_args = {},
 	effect_args = {
 		301291
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -36260,6 +36185,7 @@ _G.pg.shop_template[70590] = {
 	limit_args2 = "",
 	time_second = 0,
 	order = 8554,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36270,32 +36196,6 @@ _G.pg.shop_template[70590] = {
 	limit_args = {},
 	effect_args = {
 		901113
-	},
-	time = {
-		{
-			{
-				2021,
-				9,
-				16
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				10,
-				13
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -36515,6 +36415,7 @@ _G.pg.shop_template[70595] = {
 	limit_args2 = "",
 	time_second = 0,
 	order = 8554,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36525,32 +36426,6 @@ _G.pg.shop_template[70595] = {
 	limit_args = {},
 	effect_args = {
 		301471
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -36644,8 +36519,8 @@ _G.pg.shop_template[70597] = {
 		{
 			{
 				2021,
-				10,
-				13
+				9,
+				19
 			},
 			{
 				23,
@@ -36719,6 +36594,7 @@ _G.pg.shop_template[70599] = {
 	limit_args2 = "",
 	time_second = 0,
 	order = 8553,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36729,32 +36605,6 @@ _G.pg.shop_template[70599] = {
 	limit_args = {},
 	effect_args = {
 		299033
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -36770,6 +36620,7 @@ _G.pg.shop_template[70600] = {
 	limit_args2 = "",
 	time_second = 0,
 	order = 8553,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36780,32 +36631,6 @@ _G.pg.shop_template[70600] = {
 	limit_args = {},
 	effect_args = {
 		407032
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -37076,6 +36901,7 @@ _G.pg.shop_template[70606] = {
 	limit_args2 = "",
 	time_second = 0,
 	order = 8553,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -37086,32 +36912,6 @@ _G.pg.shop_template[70606] = {
 	limit_args = {},
 	effect_args = {
 		607012
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
