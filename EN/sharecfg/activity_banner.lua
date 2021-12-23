@@ -1,9 +1,174 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4183",
+		param = "4189",
 		id = 1,
 		pic = "temp1",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4187",
+		id = 2,
+		pic = "temp2",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 3,
+		pic = "temp3",
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4185",
+		id = 4,
+		pic = "temp4",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 5,
+		pic = "temp5",
+		type = 2,
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4183",
+		id = 6,
+		pic = "temp6",
 		type = 3,
 		time = {
 			{
@@ -23,188 +188,6 @@ pg.activity_banner = {
 					2021,
 					12,
 					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 2,
-		pic = "temp2",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2021,
-					12,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp5",
-		type = 2,
-		param = {
-			"scene level",
-			{
-				open_remaster = true,
-				isEX = true
-			}
-		},
-		time = {
-			{
-				{
-					2021,
-					12,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 4,
-		pic = "temp3",
-		type = 2,
-		param = {
-			"metacharacter",
-			{
-				autoOpenShipConfigID = 9704010
-			}
-		},
-		time = {
-			{
-				{
-					2021,
-					12,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 5,
-		pic = "temp4",
-		type = 2,
-		param = {
-			"scene level",
-			{}
-		},
-		time = {
-			{
-				{
-					2021,
-					12,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 6,
-		pic = "temp6",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2021,
-					11,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					12,
-					8
 				},
 				{
 					23,
@@ -293,7 +276,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					16
+					23
 				},
 				{
 					0,
@@ -303,9 +286,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					22
+					2022,
+					1,
+					12
 				},
 				{
 					23,
@@ -316,15 +299,15 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "Naval Curry|Sweet Curry or Hot Curry that is the question<color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
+		param = "Candy Cane|It is said that the first candy canes were pure white like the snow. <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
 		id = 10,
-		pic = "haijungali",
+		pic = "christmas",
 		type = 10,
 		time = {
 			{
 				{
 					2021,
-					9,
+					12,
 					23
 				},
 				{

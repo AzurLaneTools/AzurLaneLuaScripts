@@ -6116,6 +6116,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -8792,6 +8802,27 @@ pg.ship_data_group = {
 				"Event: Scherzo of Iron and Blood",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -15087,6 +15118,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15189,6 +15230,16 @@ pg.ship_data_group = {
 				"Event: Scherzo of Iron and Blood",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Munition shop exchange",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -15887,6 +15938,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -16179,6 +16241,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -16243,6 +16316,17 @@ pg.ship_data_group = {
 				"Event: Scherzo of Iron and Blood",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -16406,6 +16490,17 @@ pg.ship_data_group = {
 				"Event: Scherzo of Iron and Blood",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

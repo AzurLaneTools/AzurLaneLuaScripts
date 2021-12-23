@@ -1930,6 +1930,27 @@ _G.pg.item_data_statistics[1013] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[1014] = {
+	display = "May the world be peaceful and blessed this Christmas Eve.",
+	name = "Christmas Gift",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	id = 1014,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[1501] = {
 	display = "This badge is awarded to our Commanders who went above and beyond in helping Yostar Games. Thank you!",
 	name = "Honorary Yostar CMD",
@@ -142642,6 +142663,27 @@ _G.pg.item_data_statistics[59255] = {
 	is_world = 0,
 	icon = "Props/shengdiyagePT",
 	id = 59255,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59256] = {
+	display = "Used to unlock a special portrait frame. Expires after the event ends. ",
+	name = "Training Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 59256,
 	display_icon = {},
 	price = {},
 	index = {}

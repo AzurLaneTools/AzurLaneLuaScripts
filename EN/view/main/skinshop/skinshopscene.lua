@@ -68,9 +68,10 @@ function slot0.init(slot0)
 	slot0.skinNameTxt = slot0:findTF("name_bg/skin_name", slot0.mainPanel):GetComponent(typeof(Text))
 	slot0.rightPanel = slot0:findTF("right")
 	slot0.charParent = slot0:findTF("char", slot0.rightPanel)
+	slot0.furParent = slot0:findTF("fur", slot0.rightPanel)
+	slot0.interactionPreview = BackYardInteractionPreview.New(slot0.furParent, Vector3(0, 0, 0))
 	slot0.paintingTF = slot0:findTF("paint", slot0.mainPanel)
-	slot0.charBg = slot0:findTF("char_info", slot0.rightPanel)
-	slot0.tags = slot0:findTF("char_info/tags", slot0.rightPanel)
+	slot0.tags = slot0:findTF("tags", slot0.rightPanel)
 	slot0.limitTxt = slot0:findTF("name_bg/limit_time/Text", slot0.mainPanel):GetComponent(typeof(Text))
 	slot0.commonPanel = slot0:findTF("common", slot0.rightPanel)
 	slot0.commonBGTF = slot0:findTF("bg", slot0.commonPanel)
@@ -80,11 +81,16 @@ function slot0.init(slot0)
 	slot0.activityBtn = slot0:findTF("activty_btn", slot0.commonPanel)
 	slot0.itemBtn = slot0:findTF("item_btn", slot0.commonPanel)
 	slot0.gotBtn = slot0:findTF("got_btn", slot0.commonPanel)
+	slot0.backyardBtn = slot0:findTF("backyard", slot0.commonPanel)
 	slot0.priceTxt = slot0:findTF("consume/Text", slot0.commonPanel):GetComponent(typeof(Text))
 	slot0.originalPriceTxt = slot0:findTF("consume/originalprice/Text", slot0.commonPanel):GetComponent(typeof(Text))
 	slot0.timelimtPanel = slot0:findTF("timelimt", slot0.rightPanel)
 	slot0.timelimitBtn = slot0:findTF("timelimit_btn", slot0.timelimtPanel)
 	slot0.timelimitPriceTxt = slot0:findTF("consume/Text", slot0.timelimtPanel):GetComponent(typeof(Text))
+	slot0.furnBg = slot0:findTF("right/bg/furn")
+	slot0.bgMask = slot0:findTF("right/bg/mask")
+	slot0.charBg = slot0:findTF("right/bg/char")
+	slot0.switchBtn = slot0:findTF("right/bg/switch")
 	slot0.bgRoot = slot0:findTF("bg")
 	slot0.bg1 = slot0:findTF("bg/bg_1")
 	slot0.bg2 = slot0:findTF("bg/bg_2")
@@ -131,6 +137,12 @@ function slot0.didEnter(slot0)
 		uv0:onPrev()
 	end, SFX_PANEL)
 
+	slot0.inSkinMode = true
+
+	onButton(slot0, slot0.switchBtn, function ()
+		uv0:SwitchCharBg()
+	end, SFX_PANEL)
+
 	slot0.isShowLive2dOnly = false
 
 	onButton(slot0, slot0.live2dFilter, function ()
@@ -155,6 +167,61 @@ function slot0.didEnter(slot0)
 			uv0:UpdateSelected()
 		end
 	end, SFX_PANEL)
+end
+
+function slot0.SwitchCharBg(slot0, slot1)
+	slot2 = slot0.furnBg
+	slot3 = slot0.charBg
+
+	if not slot1 then
+		if LeanTween.isTweening(go(slot2)) or LeanTween.isTweening(go(slot3)) then
+			return
+		end
+	else
+		LeanTween.cancel(go(slot2))
+		LeanTween.cancel(go(slot3))
+	end
+
+	if not (slot0.goodsId and _.detect(slot0.skinGoodsVOs, function (slot0)
+		return slot0.id == uv0.goodsId
+	end)) then
+		return
+	end
+
+	function slot5()
+		setActive(uv0.charParent, uv0.inSkinMode)
+		setActive(uv0.furParent, not uv0.inSkinMode)
+	end
+
+	slot8 = slot2:GetComponent(typeof(CanvasGroup)).alpha
+	slot9 = slot3:GetComponent(typeof(CanvasGroup)).alpha
+	slot12 = LeanTween.moveLocal(go(slot2), slot3.anchoredPosition3D, 0.3)
+
+	slot12:setOnComplete(System.Action(function ()
+		uv0.alpha = uv1
+	end))
+
+	slot12 = LeanTween.moveLocal(go(slot3), slot2.anchoredPosition3D, 0.3)
+
+	slot12:setOnComplete(System.Action(function ()
+		uv0.alpha = uv1
+
+		uv2()
+	end))
+
+	slot0.inSkinMode = not slot0.inSkinMode
+
+	if slot0.inSkinMode then
+		slot2:SetAsFirstSibling()
+		slot3:SetSiblingIndex(2)
+	else
+		slot3:SetAsFirstSibling()
+		slot2:SetSiblingIndex(2)
+		slot0.interactionPreview:Flush(slot4:getSkinId(), Goods.Id2FurnitureId(slot4.id), Goods.GetFurnitureConfig(slot4.id).scale[2] or 1)
+	end
+
+	slot0:updateBuyBtn(slot4)
+	slot0:updatePrice(slot4)
 end
 
 function slot0.UpdateLive2dBtn(slot0, slot1)
@@ -363,6 +430,8 @@ function slot0.updateMainView(slot0, slot1)
 	slot0:removeShopTimer()
 	slot0:addShopTimer(slot1)
 	slot0:updateBuyBtn(slot1.goodsVO)
+
+	slot0.goodsId = slot1.goodsVO.id
 end
 
 function slot0.setBg(slot0, slot1, slot2, slot3)
@@ -433,6 +502,14 @@ function slot0.onBuyDone(slot0, slot1)
 	end
 end
 
+function slot0.OnFurnitureUpdate(slot0, slot1)
+	if slot0.goodsId and slot1 and Goods.ExistFurniture(slot0.goodsId) and Goods.Id2FurnitureId(slot0.goodsId) == slot1 then
+		slot0:updateBuyBtn(_.detect(slot0.skinGoodsVOs, function (slot0)
+			return slot0.id == uv0.goodsId
+		end))
+	end
+end
+
 function slot0.updateBuyBtn(slot0, slot1)
 	slot3 = nil
 
@@ -453,11 +530,17 @@ function slot0.updateBuyBtn(slot0, slot1)
 		slot6 = slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA
 		slot7 = slot1.buyCount == 0
 		slot9 = slot1:isDisCount() and slot1:IsItemDiscountType()
+		slot11 = false
 
-		setActive(slot0.itemBtn, slot9 and slot7)
-		setActive(slot0.buyBtn, not slot6 and slot7 and not slot9)
-		setActive(slot0.gotBtn, not slot6 and not slot7)
-		setActive(slot0.activityBtn, slot6 and not slot9)
+		if not slot0.inSkinMode then
+			slot11 = getProxy(DormProxy):getRawData():hasFurnitrue(Goods.Id2FurnitureId(slot1.id))
+		end
+
+		setActive(slot0.itemBtn, slot9 and slot7 and not slot10)
+		setActive(slot0.buyBtn, not slot6 and slot7 and not slot9 and not slot10)
+		setActive(slot0.gotBtn, not slot6 and not slot7 and not slot10 or slot10 and slot11)
+		setActive(slot0.activityBtn, slot6 and not slot9 and not slot10)
+		setActive(slot0.backyardBtn, slot10 and not slot11)
 		onButton(slot0, slot0.itemBtn, function ()
 			triggerButton(uv0.buyBtn)
 		end, SFX_PANEL)
@@ -508,6 +591,9 @@ function slot0.updateBuyBtn(slot0, slot1)
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
 			end
+		end, SFX_PANEL)
+		onButton(slot0, slot0.backyardBtn, function ()
+			uv0:emit(SkinShopMediator.ON_BACKYARD_SHOP)
 		end, SFX_PANEL)
 	end
 
@@ -615,20 +701,30 @@ function slot0.updatePrice(slot0, slot1)
 
 	if slot5 then
 		slot0.timelimitPriceTxt.text = (slot0.skinTicket < slot4:getConfig("resource_num") and "<color=" .. COLOR_RED .. ">" or "") .. slot0.skinTicket .. (slot0.skinTicket < slot6 and "</color>" or "") .. "/" .. slot6
-	else
-		slot6 = slot4.type == Goods.TYPE_SKIN
+	elseif slot0.inSkinMode then
+		slot7 = slot4.type == Goods.TYPE_SKIN
 
-		setActive(slot0.commonBGTF, slot6)
-		setActive(slot0.commonLabelTF, slot6)
-		setActive(slot0.commonConsumeTF, slot6)
+		setActive(slot0.commonBGTF, slot7)
+		setActive(slot0.commonLabelTF, slot7)
+		setActive(slot0.commonConsumeTF, slot7)
 
-		if slot6 then
-			slot7 = (100 - slot4:getConfig("discount")) / 100
+		if slot7 then
+			slot8 = (100 - slot4:getConfig("discount")) / 100
 			slot0.priceTxt.text = slot4:GetPrice()
 			slot0.originalPriceTxt.text = slot4:getConfig("resource_num")
 
 			setActive(tf(go(slot0.originalPriceTxt)).parent, slot4:isDisCount())
 		end
+	else
+		slot8 = Furniture.New({
+			id = Goods.Id2FurnitureId(slot4.id)
+		})
+		slot9 = slot8:getConfig("gem_price")
+		slot0.originalPriceTxt.text = slot9
+		slot10 = slot8:getPrice(PlayerConst.ResDiamond)
+		slot0.priceTxt.text = slot10
+
+		setActive(tf(go(slot0.originalPriceTxt)).parent, slot9 ~= slot10)
 	end
 end
 
@@ -730,7 +826,15 @@ function slot0.OnCardClick(slot0, slot1)
 	slot0.contextData.key = slot1.goodsVO:getKey()
 	slot0.card = slot1
 
+	if not slot0.inSkinMode then
+		slot0:SwitchCharBg(true)
+	end
+
 	slot0:updateMainView(slot1)
+
+	slot5 = slot1.goodsVO.id
+
+	slot0:UpdateSkinOrFurnitureMode(Goods.ExistFurniture(slot5))
 
 	for slot5, slot6 in ipairs(slot0.displays) do
 		if slot6 == slot0.card.goodsVO then
@@ -739,6 +843,12 @@ function slot0.OnCardClick(slot0, slot1)
 	end
 
 	slot0:SwitchCntPlusPlus()
+end
+
+function slot0.UpdateSkinOrFurnitureMode(slot0, slot1)
+	setActive(slot0.switchBtn, slot1)
+	setActive(slot0.furnBg, slot1)
+	setActive(slot0.bgMask, slot1)
 end
 
 function slot0.initShips(slot0)
@@ -973,10 +1083,16 @@ function slot0.willExit(slot0)
 	slot0:recycleChar()
 	slot0:recyclePainting()
 	slot0:removeShopTimer()
+	LeanTween.cancel(go(slot0.furnBg))
+	LeanTween.cancel(go(slot0.charBg))
 	LeanTween.cancel(go(slot0.bg1))
 	LeanTween.cancel(go(slot0.bg2))
 
 	Input.multiTouchEnabled = true
+
+	slot0.interactionPreview:Dispose()
+
+	slot0.interactionPreview = nil
 
 	if slot0.skinTimer then
 		slot0.skinTimer:Stop()

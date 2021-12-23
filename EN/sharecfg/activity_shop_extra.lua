@@ -1823,7 +1823,7 @@ pg.activity_shop_extra = {
 		id = 80,
 		num = 1,
 		num_limit = 1,
-		order = 8552,
+		order = 8549,
 		scene = {
 			"crusing",
 			{}
@@ -1846,6 +1846,43 @@ pg.activity_shop_extra = {
 					2022,
 					1,
 					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[81] = {
+		commodity_type = 7,
+		activity = 4185,
+		commodity_id = 102272,
+		scene = "",
+		id = 81,
+		num = 1,
+		num_limit = 1,
+		order = 8549,
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
 				},
 				{
 					23,
@@ -1906,6 +1943,7 @@ pg.activity_shop_extra = {
 		77,
 		78,
 		79,
-		80
+		80,
+		81
 	}
 }

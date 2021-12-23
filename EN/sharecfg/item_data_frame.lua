@@ -297,6 +297,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"Well, this is SOME kind of treasure, I suppose.\" Given to commanders who participated in the \"Upon the Shimmering Blue\" event.</color>",
 		scene = {}
 	},
+	[317] = {
+		time_limit_type = 0,
+		name = "Mark of Transcendence",
+		gain_by = "",
+		id = 317,
+		time_second = 0,
+		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -367,6 +376,7 @@ pg.item_data_frame = {
 		314,
 		315,
 		316,
+		317,
 		406,
 		411,
 		412,

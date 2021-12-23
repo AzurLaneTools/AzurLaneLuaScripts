@@ -111,6 +111,7 @@ function slot0.register(slot0)
 		table.insert(slot3, uv0.contextData.commanderId)
 
 		slot6 = getProxy(FleetProxy):getCommanders()
+		slot8, slot9 = getProxy(SettingsProxy):GetCommanderPlaySortData()
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
 			maxCount = 10,
@@ -199,6 +200,12 @@ function slot0.register(slot0)
 
 				return true
 			end,
+			sortData = {
+				asc = slot9 == 1,
+				sortData = slot8,
+				nationData = {},
+				rarityData = {}
+			},
 			onSelected = function (slot0, slot1)
 				uv0.contextData.materialIds = slot0
 

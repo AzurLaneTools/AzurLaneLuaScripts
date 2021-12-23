@@ -1447,7 +1447,7 @@ pg.gameset = {
 	},
 	commander_ability_reset_time = {
 		description = "",
-		key_value = 0
+		key_value = 1
 	},
 	commander_learn_ability_total = {
 		description = "",

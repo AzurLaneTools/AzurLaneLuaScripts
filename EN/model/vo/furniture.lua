@@ -47,6 +47,7 @@ slot0.INDEX_TO_SHOP_TYPE = {
 		slot0.TYPE_RANDOM_CONTROLLER,
 		slot0.TYPE_FOLLOWER
 	},
+	{},
 	{
 		slot0.TYPE_DECORATE
 	},

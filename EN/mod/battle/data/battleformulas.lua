@@ -132,11 +132,13 @@ function slot0.CreateContextCalculateDamage(slot0)
 			-- Nothing
 		end
 
-		if not (uv2.GetCurrent(slot1, "perfectDodge") == 1 and true or not uv4.IsHappen(math.max(slot7[5], math.min(slot4, slot8[1] + slot9.attackRating / (slot9.attackRating + slot18.dodgeRate + slot8[2]) + (slot9.luck - slot18.luck + slot21) * uv0.PERCENT1 + uv2.GetCurrent(slot1, "accuracyRateExtra") + uv2.GetCurrent(slot0, uv3[slot1:GetTemplate().type]) - uv2.GetCurrent(slot1, "dodgeRateExtra"))) * slot6)) then
-			slot30 = nil
+		slot30 = math.max(slot9.attackRating, 0)
+
+		if not (uv2.GetCurrent(slot1, "perfectDodge") == 1 and true or not uv4.IsHappen(math.max(slot7[5], math.min(slot4, slot8[1] + slot30 / (slot30 + slot18.dodgeRate + slot8[2]) + (slot9.luck - slot18.luck + slot21) * uv0.PERCENT1 + uv2.GetCurrent(slot1, "accuracyRateExtra") + uv2.GetCurrent(slot0, uv3[slot1:GetTemplate().type]) - uv2.GetCurrent(slot1, "dodgeRateExtra"))) * slot6)) then
+			slot31 = nil
 			slot25 = math.random(uv5.RANDOM_DAMAGE_MIN, uv5.RANDOM_DAMAGE_MAX) + slot26
 
-			if uv4.IsHappen((uv2.GetCurrent(slot0, "GCT") == 1 and 1 or uv0.DFT_CRIT_RATE + slot9.attackRating / (slot9.attackRating + slot18.dodgeRate + slot7[4]) + (slot28 + slot21) * slot7[3] + uv2.GetCurrent(slot0, "cri")) * slot6) then
+			if uv4.IsHappen((uv2.GetCurrent(slot0, "GCT") == 1 and 1 or uv0.DFT_CRIT_RATE + slot30 / (slot30 + slot18.dodgeRate + slot7[4]) + (slot28 + slot21) * slot7[3] + uv2.GetCurrent(slot0, "cri")) * slot6) then
 				slot24 = true
 				slot22 = math.max(1, uv0.DFT_CRIT_EFFECT + uv2.GetCurrent(slot0, "criDamage") - uv2.GetCurrent(slot1, "criDamageResist"))
 			else
@@ -150,21 +152,21 @@ function slot0.CreateContextCalculateDamage(slot0)
 			}
 		end
 
-		slot30 = uv0.NUM1
-		slot25 = math.max(slot30, math.floor(slot25 * slot19 * (slot30 - slot2) * ((slot10:GetFixAmmo() or slot16[slot20] or slot30) + uv2.GetCurrent(slot0, uv5.AGAINST_ARMOR_ENHANCE[slot20])) * slot22 * (slot30 + uv2.GetCurrent(slot0, "damageRatioBullet")) * uv2.GetTagAttr(slot0, slot1) * (slot30 + uv2.GetCurrent(slot1, "injureRatio")) * (slot30 + uv2.GetCurrent(slot0, uv6[slot15.ammo_type]) - uv2.GetCurrent(slot1, uv7[slot15.ammo_type])) * (slot30 + uv2.GetCurrent(slot1, uv2.GetCurrent(slot0, "comboTag"))) * (slot30 + math.min(slot7[1], math.max(-slot7[1], slot21)) * slot7[2])))
+		slot31 = uv0.NUM1
+		slot25 = math.max(slot31, math.floor(slot25 * slot19 * (slot31 - slot2) * ((slot10:GetFixAmmo() or slot16[slot20] or slot31) + uv2.GetCurrent(slot0, uv5.AGAINST_ARMOR_ENHANCE[slot20])) * slot22 * (slot31 + uv2.GetCurrent(slot0, "damageRatioBullet")) * uv2.GetTagAttr(slot0, slot1) * (slot31 + uv2.GetCurrent(slot1, "injureRatio")) * (slot31 + uv2.GetCurrent(slot0, uv6[slot15.ammo_type]) - uv2.GetCurrent(slot1, uv7[slot15.ammo_type])) * (slot31 + uv2.GetCurrent(slot1, uv2.GetCurrent(slot0, "comboTag"))) * (slot31 + math.min(slot7[1], math.max(-slot7[1], slot21)) * slot7[2])))
 
 		if slot1:GetCurrentOxyState() == uv1.OXY_STATE.DIVE then
 			slot25 = math.floor(slot25 * slot15.antisub_enhancement)
 		end
 
-		slot39 = {
+		slot40 = {
 			isMiss = slot23,
 			isCri = slot24,
 			damageAttr = slot13
 		}
 
 		if slot0:GetDamageEnhance() ~= 1 then
-			slot25 = math.floor(slot25 * slot40)
+			slot25 = math.floor(slot25 * slot41)
 		end
 
 		slot25 = slot25 * slot18.repressReduce
@@ -180,13 +182,13 @@ function slot0.CreateContextCalculateDamage(slot0)
 		end
 
 		slot25 = math.floor(slot25)
-		slot42 = slot15.DMG_font[slot20]
+		slot43 = slot15.DMG_font[slot20]
 
-		if slot41 < 0 then
-			slot42 = uv5.BULLET_DECREASE_DMG_FONT
+		if slot42 < 0 then
+			slot43 = uv5.BULLET_DECREASE_DMG_FONT
 		end
 
-		return slot25, slot39, slot42
+		return slot25, slot40, slot43
 	end
 end
 
@@ -250,7 +252,7 @@ end
 
 function slot0.RollRepeaterHitDice(slot0, slot1)
 	slot2 = slot0:GetHost()
-	slot4 = uv0.GetCurrent(slot2, "attackRating")
+	slot4 = math.max(uv0.GetCurrent(slot2, "attackRating"), 0)
 	slot8 = uv0.GetCurrent(slot1, "airPower") / uv1.const_A + uv1.const_B
 
 	return uv2.IsHappen(math.min(uv0.GetCurrent(slot1, "dodgeLimit"), slot8 / (uv0.GetCurrent(slot2, "antiAirPower") * uv0.GetCurrent(slot1, "dodge") + slot8 + uv1.const_C)) * uv3.NUM10000)

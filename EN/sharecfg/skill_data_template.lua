@@ -2,7 +2,7 @@ pg = pg or {}
 pg.skill_data_template = {
 	{
 		desc_get = "",
-		name = "战列底座用",
+		name = "Future Content ",
 		id = 1,
 		type = 0,
 		max_level = 0,
@@ -16,7 +16,7 @@ pg.skill_data_template = {
 	},
 	{
 		desc_get = "",
-		name = "战列底座用",
+		name = "Future Content ",
 		id = 2,
 		type = 0,
 		max_level = 0,
@@ -128,11 +128,11 @@ pg.skill_data_template = {
 	},
 	[340] = {
 		desc_get = "",
-		name = "航母空袭降低隐蔽恢复速率",
+		name = "Future Content ",
 		id = 340,
 		type = 0,
 		max_level = 0,
-		desc = "空袭后12秒内，隐蔽速率恢复速度降低3点/秒",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			0
@@ -142,11 +142,11 @@ pg.skill_data_template = {
 	},
 	[374] = {
 		desc_get = "",
-		name = "雷驱增益降低鱼雷散布界",
+		name = "Future Content ",
 		id = 374,
 		type = 0,
 		max_level = 0,
-		desc = "雷击型驱逐舰满破额外增益，降低鱼雷散布界范围，大世界战损状态不移除",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			0
@@ -5985,7 +5985,7 @@ pg.skill_data_template = {
 	},
 	[4171] = {
 		desc_get = "",
-		name = "空域辅助-共通效果占用id",
+		name = "Future Content ",
 		id = 4171,
 		type = 3,
 		max_level = 10,
@@ -9662,7 +9662,7 @@ pg.skill_data_template = {
 	},
 	[9120] = {
 		desc_get = "",
-		name = "模拟埃吉尔占坑",
+		name = "Future Content ",
 		id = 9120,
 		type = 1,
 		max_level = 10,
@@ -9676,7 +9676,7 @@ pg.skill_data_template = {
 	},
 	[9709] = {
 		desc_get = "",
-		name = "雷达",
+		name = "Future Content ",
 		id = 9709,
 		type = 0,
 		max_level = 0,
@@ -25854,7 +25854,7 @@ pg.skill_data_template = {
 	},
 	[12020] = {
 		desc_get = "",
-		name = "潜母飞机用",
+		name = "Future Content ",
 		id = 12020,
 		type = 0,
 		max_level = 0,
@@ -36844,7 +36844,7 @@ pg.skill_data_template = {
 		id = 13220,
 		type = 1,
 		max_level = 10,
-		desc = "关卡出击中，其他编队为战列旗舰时，进入战斗后20秒时发动一轮支援炮击",
+		desc = "Future Content ",
 		system_transform = {
 			[51.0] = 13225
 		},
@@ -39761,7 +39761,7 @@ pg.skill_data_template = {
 		id = 13540,
 		type = 2,
 		max_level = 10,
-		desc = "支援效果ID占位",
+		desc = "Future Content ",
 		system_transform = {
 			[51.0] = 13545
 		},
@@ -51267,11 +51267,11 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 	},
 	[14640] = {
 		desc_get = "",
-		name = "新泽西跨队BUFFID占用",
+		name = "Future Content ",
 		id = 14640,
 		type = 3,
 		max_level = 10,
-		desc = "新泽西跨队BUFFID占用-14520-14640",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -60211,11 +60211,11 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 	},
 	[19370] = {
 		desc_get = "",
-		name = "奥丁更换鱼雷弹幕形态效果ID占位",
+		name = "Future Content ",
 		id = 19370,
 		type = 1,
 		max_level = 1,
-		desc = "奥丁更换鱼雷弹幕形态用占位",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -61729,11 +61729,11 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 	},
 	[19520] = {
 		desc_get = "",
-		name = "开拓与探险之途-跨队效果ID占位",
+		name = "Future Content ",
 		id = 19520,
 		type = 3,
 		max_level = 10,
-		desc = "开拓与探险之途-跨队效果ID占位",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -65467,11 +65467,11 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 	},
 	[29291] = {
 		desc_get = "",
-		name = "专属弹幕-22I",
+		name = "Future Content ",
 		id = 29291,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-22I",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -65481,11 +65481,11 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 	},
 	[29292] = {
 		desc_get = "",
-		name = "专属弹幕-22II",
+		name = "Future Content ",
 		id = 29292,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-22II",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -65495,11 +65495,11 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 	},
 	[29301] = {
 		desc_get = "",
-		name = "专属弹幕-33I",
+		name = "Future Content ",
 		id = 29301,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-33I",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -65509,11 +65509,11 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 	},
 	[29302] = {
 		desc_get = "",
-		name = "专属弹幕-33II",
+		name = "Future Content ",
 		id = 29302,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-33II",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -68022,11 +68022,11 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 	},
 	[102010] = {
 		desc_get = "",
-		name = "bili看板娘",
+		name = "Future Content ",
 		id = 102010,
 		type = 3,
 		max_level = 10,
-		desc = "作为先锋领队，与22在同一个队伍中出击时，队伍中22与33的雷击提高$1",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -68083,11 +68083,11 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 	},
 	[102020] = {
 		desc_get = "",
-		name = "bili看板娘",
+		name = "Future Content ",
 		id = 102020,
 		type = 3,
 		max_level = 10,
-		desc = "作为先锋领队，与33在同一个队伍中出击时，队伍中22与33的炮击、装填提高$1，机动提高$2",
+		desc = "Future Content ",
 		system_transform = {},
 		world_death_mark = {
 			1

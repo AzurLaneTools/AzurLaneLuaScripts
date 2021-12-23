@@ -13,6 +13,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.exTipTag = slot0.tr:Find("Tip/Text/EXTag")
 	slot0.firstEXTip = slot0.tr:Find("Tip/Text/NumText")
 	slot0.priceText = slot0.tr:Find("Price/Text")
+	slot0.priceIcon = slot0.tr:Find("Price/Icon")
 	slot0.monthTF = slot2
 	slot0.goods = nil
 	slot0.parentContext = slot3
@@ -53,6 +54,11 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	slot7 = slot1:getConfig("money")
 
 	setText(slot0.priceText, math.floor(slot7 / 100) .. "." .. slot7 - math.floor(slot7 / 100) * 100)
+
+	if PLATFORM_CODE == PLATFORM_CHT then
+		setActive(slot0.priceIcon, not slot1:IsLocalPrice())
+	end
+
 	LoadSpriteAsync("chargeicon/" .. slot1:getConfig("picture"), function (slot0)
 		if slot0 then
 			setImageSprite(uv0.iconImg, slot0, true)
@@ -66,67 +72,67 @@ function slot0.updateForMonthTF(slot0, slot1, slot2)
 	slot7 = slot0.monthTF:Find("ItemIconList")
 	slot8 = slot0.monthTF:Find("Mask")
 	slot9 = slot0.monthTF:Find("Mask/LimitText")
+	slot10 = slot0.monthTF:Find("Price/Icon")
 
 	setText(slot0.monthTF:Find("Tip/Text"), i18n("monthly_card_tip"))
 	setText(slot0.monthTF:Find("ResCountText"), "x" .. slot1:getConfig("gem"))
 
-	slot10 = slot1:getConfig("money")
+	slot11 = slot1:getConfig("money")
 
-	setText(slot0.monthTF:Find("Price/Text"), math.floor(slot10 / 100) .. "." .. slot10 - math.floor(slot10 / 100) * 100)
+	setText(slot0.monthTF:Find("Price/Text"), math.floor(slot11 / 100) .. "." .. slot11 - math.floor(slot11 / 100) * 100)
 
-	if #slot1:getConfig("display") == 0 then
-		slot11 = slot1:getConfig("extra_service_item")
+	if PLATFORM_CODE == PLATFORM_CHT then
+		setActive(slot10, not slot1:IsLocalPrice())
 	end
 
-	if slot11 and #slot11 > 0 then
-		slot12 = {}
+	if #slot1:getConfig("display") == 0 then
+		slot12 = slot1:getConfig("extra_service_item")
+	end
 
-		for slot16, slot17 in ipairs(slot11) do
-			table.insert(slot12, {
-				type = slot17[1],
-				id = slot17[2],
-				count = slot17[3]
+	if slot12 and #slot12 > 0 then
+		slot13 = {}
+
+		for slot17, slot18 in ipairs(slot12) do
+			table.insert(slot13, {
+				type = slot18[1],
+				id = slot18[2],
+				count = slot18[3]
 			})
 		end
 
-		slot13 = UIItemList.New(slot7, slot6)
+		slot14 = UIItemList.New(slot7, slot6)
 
-		slot13:make(function (slot0, slot1, slot2)
+		slot14:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
 				updateDrop(slot2, uv0[slot1 + 1])
 			end
 		end)
-		slot13:align(#slot12)
+		slot14:align(#slot13)
 	end
 
-	if slot2:getCardById(VipCard.MONTH) and not slot12:isExpire() then
-		slot15 = math.floor((slot12:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)
+	if slot2:getCardById(VipCard.MONTH) and not slot13:isExpire() then
+		slot16 = math.floor((slot13:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)
 
-		setActive(slot8, (slot1:getConfig("limit_arg") or 0) < slot15)
-		setText(slot9, i18n("charge_month_card_lefttime_tip", slot15))
+		setActive(slot8, (slot1:getConfig("limit_arg") or 0) < slot16)
+		setText(slot9, i18n("charge_month_card_lefttime_tip", slot16))
 	else
 		setActive(slot8, false)
 	end
 
-	slot13 = MonthCardOutDateTipPanel.GetShowMonthCardTag()
-	slot15 = slot0.monthTF
+	slot14 = MonthCardOutDateTipPanel.GetShowMonthCardTag()
+	slot16 = slot0.monthTF
 
-	setActive(slot15:Find("monthcard_tag"), slot13)
+	setActive(slot16:Find("monthcard_tag"), slot14)
 
-	slot15 = slot0.monthTF
+	slot16 = slot0.monthTF
 
-	setActive(slot15:Find("NewTag"), not slot13)
+	setActive(slot16:Find("NewTag"), not slot14)
 	onButton(slot0.parentContext, slot3, function ()
 		triggerButton(uv0.tr)
 	end, SFX_PANEL)
 end
 
 function slot0.destoryTimer(slot0)
-	if slot0.updateTimer then
-		slot0.updateTimer:Stop()
-
-		slot0.updateTimer = nil
-	end
 end
 
 return slot0

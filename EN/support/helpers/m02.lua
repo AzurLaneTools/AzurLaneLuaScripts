@@ -1413,10 +1413,14 @@ function shoppingBatch(slot0, slot1, slot2, slot3, slot4)
 end
 
 function gotoChargeScene(slot0, slot1)
-	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-		wrap = slot0 or ChargeScene.TYPE_ITEM,
-		noRes = slot1
-	})
+	if getProxy(ContextProxy):getContextByMediator(ChargeMediator) then
+		pg.m02:retrieveMediator(slot3.mediator.__cname):getViewComponent():switchSubViewByTogger(slot0)
+	else
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+			wrap = slot0 or ChargeScene.TYPE_ITEM,
+			noRes = slot1
+		})
+	end
 end
 
 function clearDrop(slot0)

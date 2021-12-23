@@ -4,11 +4,12 @@ function slot1(slot0)
 	if not uv0.tagsList then
 		uv0.tagsList = {
 			2,
-			3,
 			4,
 			5,
 			6,
-			7
+			7,
+			8,
+			3
 		}
 	end
 

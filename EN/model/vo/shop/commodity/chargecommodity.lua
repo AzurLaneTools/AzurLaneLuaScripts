@@ -44,4 +44,24 @@ function slot0.getLimitCount(slot0)
 	return slot0:getConfig("limit_arg")
 end
 
+function slot0.getConfig(slot0, slot1)
+	if slot1 == "money" and PLATFORM_CODE == PLATFORM_CHT then
+		if pg.SdkMgr.GetInstance():GetProduct(slot0:getConfig("id_str")) then
+			return slot2.price
+		else
+			return slot0:RawGetConfig(slot1)
+		end
+	else
+		return slot0:RawGetConfig(slot1)
+	end
+end
+
+function slot0.RawGetConfig(slot0, slot1)
+	return uv0.super.getConfig(slot0, slot1)
+end
+
+function slot0.IsLocalPrice(slot0)
+	return slot0:getConfig("money") ~= slot0:RawGetConfig("money")
+end
+
 return slot0

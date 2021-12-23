@@ -5651,7 +5651,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4183,
-		is_show = 18,
+		is_show = 16,
 		id = 4183,
 		config_data = {},
 		time = {
@@ -5729,6 +5729,248 @@ pg.activity_template = {
 			npc = {
 				"",
 				17243
+			}
+		}
+	},
+	[4185] = {
+		mark = 20211223,
+		config_client = "",
+		title_res_tag = "mabuerheidepifu",
+		type = 74,
+		login_pop = 0,
+		config_id = 4185,
+		is_show = 17,
+		id = 4185,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MabuerheideshengdanRePage",
+			ui_name = "mabuerheideshengdanrepage"
+		}
+	},
+	[4187] = {
+		mark = 20211223,
+		id = 4187,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 12,
+		is_show = 18,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "KitakazeTecCatchupPage",
+			ui_name = "KitakazeTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42013
+		}
+	},
+	[4188] = {
+		mark = 20211223,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 0,
+		config_client = "",
+		id = 4188,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4189] = {
+		mark = 20211223,
+		id = 4189,
+		title_res_tag = "dexiV3_frame",
+		type = 74,
+		login_pop = 0,
+		config_id = 4189,
+		is_show = 19,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DeXiQianShaoPtPage",
+			ui_name = "DeXiQianShaoPtPage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4190] = {
+		mark = 20211223,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4190,
+		config_data = {
+			17244,
+			17245,
+			17246,
+			17247,
+			17248,
+			17249,
+			17250,
+			17251,
+			17252
+		},
+		time = {
+			timer,
+			{
+				{
+					2021,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -7713,6 +7955,208 @@ pg.activity_template = {
 				},
 				{
 					"MENGFEISIWANSHENG5"
+				}
+			}
+		}
+	},
+	[6007] = {
+		mark = 20211223,
+		title_res_tag = "ruoyeshengdan_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		id = 6007,
+		config_data = {
+			{
+				35082,
+				35083
+			},
+			{
+				35084,
+				35085
+			},
+			{
+				35086,
+				35087
+			},
+			{
+				35088,
+				35089
+			},
+			{
+				35090,
+				35091
+			},
+			{
+				35092,
+				35093
+			},
+			{
+				35094,
+				35095
+			}
+		},
+		page_info = {
+			class_name = "WakabaChrisSkinPage",
+			ui_name = "WakabaChrisSkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"RUOYESHENGDAN1"
+				},
+				{
+					"RUOYESHENGDAN2"
+				},
+				{},
+				{
+					"RUOYESHENGDAN3"
+				},
+				{},
+				{
+					"RUOYESHENGDAN4"
+				},
+				{
+					"RUOYESHENGDAN5"
+				}
+			}
+		}
+	},
+	[6008] = {
+		mark = 20211223,
+		title_res_tag = "dachaosd_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		id = 6008,
+		config_data = {
+			{
+				35096,
+				35097
+			},
+			{
+				35098,
+				35099
+			},
+			{
+				35100,
+				35101
+			},
+			{
+				35102,
+				35103
+			},
+			{
+				35104,
+				35105
+			},
+			{
+				35106,
+				35107
+			},
+			{
+				35108,
+				35109
+			}
+		},
+		page_info = {
+			class_name = "ShioSkinRePage",
+			ui_name = "ShioSkinRePage"
+		},
+		config_client = {
+			story = {
+				{
+					"DACHAOSHENGDAN1"
+				},
+				{
+					"DACHAOSHENGDAN2"
+				},
+				{
+					"DACHAOSHENGDAN3"
+				},
+				{
+					"DACHAOSHENGDAN4"
+				},
+				{
+					"DACHAOSHENGDAN5"
+				},
+				{
+					"DACHAOSHENGDAN6"
+				},
+				{
+					"DACHAOSHENGDAN7"
+				}
+			}
+		}
+	},
+	[6009] = {
+		mark = 20211223,
+		title_res_tag = "gelidelishengdan_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		id = 6009,
+		config_data = {
+			{
+				35110
+			},
+			{
+				35111
+			},
+			{
+				35112
+			},
+			{
+				35113
+			},
+			{
+				35114
+			},
+			{
+				35115
+			},
+			{
+				35116
+			},
+			{
+				35117
+			}
+		},
+		page_info = {
+			class_name = "NeoSkinGelideliPage",
+			ui_name = "neoskingelidelipage"
+		},
+		config_client = {
+			story = {
+				{
+					"SHENGDAN01"
+				},
+				{
+					"SHENGDAN02"
+				},
+				{
+					"SHENGDAN03"
+				},
+				{
+					"SHENGDAN04"
+				},
+				{
+					"SHENGDAN05"
+				},
+				{
+					"SHENGDAN06"
+				},
+				{
+					"SHENGDAN07"
+				},
+				{
+					"SHENGDAN08"
 				}
 			}
 		}
@@ -24441,6 +24885,11 @@ pg.activity_template = {
 		4181,
 		4183,
 		4184,
+		4185,
+		4187,
+		4188,
+		4189,
+		4190,
 		7001,
 		7002,
 		1040,
@@ -24493,6 +24942,9 @@ pg.activity_template = {
 		6004,
 		6005,
 		6006,
+		6007,
+		6008,
+		6009,
 		100001,
 		100004,
 		30001,

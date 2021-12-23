@@ -9759,7 +9759,7 @@ _G.pg.gametip.buildship_new_tip = {
 }
 
 _G.pg.gametip.buildship_heavy_tip = {
-	tip = "Tosa, Amagi, and more added to standard build pool! "
+	tip = "Bismarck and King George V added to standard build pool! "
 }
 
 _G.pg.gametip.buildship_light_tip = {
@@ -9767,7 +9767,7 @@ _G.pg.gametip.buildship_light_tip = {
 }
 
 _G.pg.gametip.buildship_special_tip = {
-	tip = "I-13 is added to standard build pool! "
+	tip = "U-96, U-556 and U-73 added to standard build pool! "
 }
 
 _G.pg.gametip.open_skill_pos = {
@@ -19055,6 +19055,22 @@ _G.pg.gametip.tag_ship_locked = {
 	tip = "Entry Locked"
 }
 
+_G.pg.gametip.acceleration_tips_1 = {
+	tip = "<color=#66472a><size=34>Do you want to use $1 Cat Box Quick Finisher(s) to speed up training $2 time(s)?</size></color>"
+}
+
+_G.pg.gametip.acceleration_tips_2 = {
+	tip = "<color=#827c7c><size=26>(Training will be complete for: $1 Rare Cat Box(es), $2 Elite Cat Box(es), and $3 Super Rare Cat Box(es)</size></color>"
+}
+
+_G.pg.gametip.noacceleration_tips = {
+	tip = "Currently no Cat Box needs speed up."
+}
+
+_G.pg.gametip.word_shipskin = {
+	tip = "Motif"
+}
+
 _G.pg.gametip.settings_sound_title_bgm = {
 	tip = " BGM Volume"
 }
@@ -19117,4 +19133,20 @@ _G.pg.gametip.settings_pwd_label_open = {
 
 _G.pg.gametip.word_frame = {
 	tip = " FPS"
+}
+
+_G.pg.gametip.shop_diamond_title = {
+	tip = "Gems"
+}
+
+_G.pg.gametip.shop_gift_title = {
+	tip = "Packs"
+}
+
+_G.pg.gametip.shop_item_title = {
+	tip = "Items"
+}
+
+_G.pg.gametip.shop_charge_level_limit = {
+	tip = " Unlocks at Lv."
 }

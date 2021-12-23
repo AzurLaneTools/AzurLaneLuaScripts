@@ -22,19 +22,19 @@ pg.skill_data_display = {
 	},
 	[42] = {
 		id = 42,
-		name = "游刃有余"
+		name = "Future Content "
 	},
 	[43] = {
 		id = 43,
-		name = "绝地反击"
+		name = "Future Content "
 	},
 	[44] = {
 		id = 44,
-		name = "游刃有余"
+		name = "Future Content "
 	},
 	[46] = {
 		id = 46,
-		name = "绝地反击"
+		name = "Future Content "
 	},
 	[1001] = {
 		id = 1001,
@@ -382,11 +382,11 @@ pg.skill_data_display = {
 	},
 	[4130] = {
 		id = 4130,
-		name = "冲突禁止"
+		name = "Ramming Prohibited"
 	},
 	[4131] = {
 		id = 4131,
-		name = "冲突禁止"
+		name = "Ramming Prohibited"
 	},
 	[4141] = {
 		id = 4141,
@@ -2342,7 +2342,7 @@ pg.skill_data_display = {
 	},
 	[12200] = {
 		id = 12200,
-		name = "尽职守护"
+		name = "Kolibri Assault"
 	},
 	[12210] = {
 		id = 12210,
@@ -6010,11 +6010,11 @@ pg.skill_data_display = {
 	},
 	[29371] = {
 		id = 29371,
-		name = "专属弹幕-{namecode:163}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29372] = {
 		id = 29372,
-		name = "专属弹幕-{namecode:163}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29381] = {
 		id = 29381,
@@ -6366,11 +6366,11 @@ pg.skill_data_display = {
 	},
 	[102010] = {
 		id = 102010,
-		name = "bili看板娘"
+		name = "Future Content "
 	},
 	[102020] = {
 		id = 102020,
-		name = "bili看板娘"
+		name = "Future Content "
 	},
 	[104010] = {
 		id = 104010,

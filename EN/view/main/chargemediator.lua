@@ -4,17 +4,13 @@ slot0.CHARGE = "ChargeMediator:CHARGE"
 slot0.BUY_ITEM = "ChargeMediator:BUY_ITEM"
 slot0.CLICK_MING_SHI = "ChargeMediator:CLICK_MING_SHI"
 slot0.GET_CHARGE_LIST = "ChargeMediator:GET_CHARGE_LIST"
-slot0.OPEN_ACTIVITY = "ChargeMediator:OPEN_ACTIVITY"
 slot0.ON_SKIN_SHOP = "ChargeMediator:ON_SKIN_SHOP"
+slot0.OPEN_CHARGE_ITEM_PANEL = "ChargeMediator:OPEN_CHARGE_ITEM_PANEL"
+slot0.OPEN_CHARGE_ITEM_BOX = "ChargeMediator:OPEN_CHARGE_ITEM_BOX"
+slot0.OPEN_CHARGE_BIRTHDAY = "ChargeMediator:OPEN_CHARGE_BIRTHDAY"
+slot0.OPEN_USER_AGREE = "ChargeMediator:OPEN_USER_AGREE"
 
 function slot0.register(slot0)
-	slot0:bind(uv0.ON_SKIN_SHOP, function ()
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
-	end)
-	slot0:bind(uv0.GET_CHARGE_LIST, function (slot0)
-		uv0:sendNotification(GAME.GET_CHARGE_LIST)
-	end)
-
 	slot1 = getProxy(PlayerProxy)
 	slot3 = slot0.viewComponent
 
@@ -23,7 +19,15 @@ function slot0.register(slot0)
 	slot3 = slot0.viewComponent
 
 	slot3:checkFreeGiftTag()
+	slot0:bind(uv0.GET_CHARGE_LIST, function (slot0)
+		uv0:sendNotification(GAME.GET_CHARGE_LIST)
+	end)
+	slot0:bind(uv0.ON_SKIN_SHOP, function ()
+		uv0.viewComponent:closeView()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+	end)
 	slot0:bind(uv0.SWITCH_TO_SHOP, function (slot0, slot1)
+		uv0.viewComponent:closeView()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1)
 	end)
 	slot0:bind(uv0.CHARGE, function (slot0, slot1)
@@ -40,10 +44,39 @@ function slot0.register(slot0)
 	slot0:bind(uv0.CLICK_MING_SHI, function (slot0)
 		uv0:sendNotification(GAME.CLICK_MING_SHI)
 	end)
-	slot0:bind(uv0.OPEN_ACTIVITY, function (slot0, slot1)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
-			id = slot1
-		})
+	slot0:bind(uv0.OPEN_CHARGE_ITEM_PANEL, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ChargeItemPanelMediator,
+			viewComponent = ChargeItemPanelLayer,
+			data = {
+				panelConfig = slot1
+			}
+		}))
+	end)
+	slot0:bind(uv0.OPEN_CHARGE_ITEM_BOX, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ChargeItemBoxMediator,
+			viewComponent = ChargeItemBoxLayer,
+			data = {
+				panelConfig = slot1
+			}
+		}))
+	end)
+	slot0:bind(uv0.OPEN_CHARGE_BIRTHDAY, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ChargeBirthdayMediator,
+			viewComponent = ChargeBirthdayLayer,
+			data = {}
+		}))
+	end)
+	slot0:bind(uv0.OPEN_USER_AGREE, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ChargeJPUserAgreeMediator,
+			viewComponent = ChargeJPUserAgreeLayer,
+			data = {
+				contentStr = slot1
+			}
+		}))
 	end)
 end
 
@@ -71,10 +104,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateNoRes()
 	elseif slot2 == ShopsProxy.FIRST_CHARGE_IDS_UPDATED then
 		slot0.viewComponent:setFirstChargeIds(slot3)
-		slot0.viewComponent:sortDamondItems()
+		slot0.viewComponent:updateCurSubView()
 	elseif slot2 == ShopsProxy.CHARGED_LIST_UPDATED then
 		slot0.viewComponent:setChargedList(slot3)
-		slot0.viewComponent:sortDamondItems()
+		slot0.viewComponent:updateCurSubView()
 	elseif slot2 == GAME.CHARGE_CONFIRM_FAILED then
 		getProxy(ShopsProxy):chargeFailed(slot3.payId, slot3.bsId)
 	elseif slot2 == GAME.SHOPPING_DONE then
@@ -95,55 +128,10 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:setNormalGroupList(slot5)
 		end
 
-		if slot4 or slot5 then
-			slot0.viewComponent:sortDamondItems()
-		end
-
 		slot6 = pg.shop_template[slot3.id]
 
 		slot0.viewComponent:checkBuyDone(slot3.id)
-
-		slot7 = pg.shop_template
-		slot8, slot9, slot10 = nil
-
-		for slot14, slot15 in ipairs(slot0.viewComponent.itemVOs) do
-			if slot7[slot15.id].genre == "gem_shop" then
-				if slot7[slot15.id].effect_args == "ship_bag_size" then
-					slot8 = slot15.id
-				elseif slot7[slot15.id].effect_args == "equip_bag_max" then
-					slot9 = slot15.id
-				elseif slot7[slot15.id].effect_args == "commander_bag_size" then
-					slot10 = slot15.id
-				end
-			end
-		end
-
-		if slot3.id == slot8 then
-			if slot7[slot3.id].limit_args[3] and slot11 < slot0.viewComponent.player:getMaxShipBagExcludeGuild() then
-				slot0.viewComponent:setItemVOs()
-				slot0.viewComponent:sortItems()
-			end
-		elseif slot3.id == slot9 then
-			if slot7[slot3.id].limit_args[3] and slot11 < slot0.viewComponent.player:getMaxEquipmentBag() then
-				slot0.viewComponent:setItemVOs()
-				slot0.viewComponent:sortItems()
-			end
-		elseif slot3.id == slot10 then
-			if slot7[slot3.id].limit_args[3] and slot11 < slot0.viewComponent.player.commanderBagMax then
-				slot0.viewComponent:setItemVOs()
-				slot0.viewComponent:sortItems()
-			end
-		elseif slot7[slot3.id].group > 0 and _.detect(slot0.viewComponent.itemVOs, function (slot0)
-			return slot0.id == uv0.id
-		end) then
-			slot13 = slot0.viewComponent:getGroupLimit(slot11:getConfig("group")) == slot11:getConfig("group_limit")
-
-			if slot11:IsGroupSale() and (not slot11:IsShowWhenGroupSale(slot12) or slot13) then
-				slot0.viewComponent:setItemVOs()
-				slot0.viewComponent:sortItems()
-			end
-		end
-
+		slot0.viewComponent:updateCurSubView()
 		slot0.viewComponent:checkFreeGiftTag()
 	elseif slot2 == GAME.USE_ITEM_DONE then
 		if table.getCount(slot3) ~= 0 then
@@ -173,9 +161,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 
 		if slot4 or slot5 or slot6 or slot7 then
-			slot0.viewComponent:sortDamondItems()
-			slot0.viewComponent:setItemVOs()
-			slot0.viewComponent:sortItems()
+			slot0.viewComponent:updateCurSubView()
 		end
 
 		slot0.viewComponent:checkFreeGiftTag()
@@ -188,9 +174,8 @@ function slot0.handleNotification(slot0, slot1)
 			slot4 = slot3.type or ChargeScene.TYPE_DIAMOND
 		end
 
-		slot0.viewComponent:triggerPageToggle(slot4)
+		slot0.viewComponent:switchSubViewByTogger(slot4)
 		slot0.viewComponent:updateNoRes(slot3 and slot3.noRes or nil)
-		slot0.viewComponent:closeItemDetail()
 	elseif slot2 == GAME.CHARGE_SUCCESS then
 		slot0.viewComponent:checkBuyDone("damonds")
 	end

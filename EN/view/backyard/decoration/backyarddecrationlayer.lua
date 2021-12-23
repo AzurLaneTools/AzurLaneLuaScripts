@@ -6,9 +6,11 @@ slot4 = 4
 slot5 = 5
 slot6 = 6
 slot7 = 7
-slot8 = {
+slot8 = 8
+slot9 = {
 	"word_theme",
 	"word_furniture",
+	"word_shipskin",
 	"word_decorate",
 	"word_wallpaper",
 	"word_floorpaper",
@@ -16,7 +18,7 @@ slot8 = {
 	"word_collection"
 }
 
-function slot9(slot0)
+function slot10(slot0)
 	return i18n(uv0[slot0])
 end
 
@@ -64,7 +66,8 @@ function slot0.init(slot0)
 		[uv3] = slot0.furniturePage,
 		[uv4] = slot0.furniturePage,
 		[uv5] = slot0.furniturePage,
-		[uv6] = slot0.furniturePage
+		[uv6] = slot0.furniturePage,
+		[uv7] = slot0.furniturePage
 	}
 end
 

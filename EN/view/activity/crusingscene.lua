@@ -1,4 +1,5 @@
 slot0 = class("CrusingScene", import("view.base.BaseUI"))
+slot0.PASS_ID = 1001
 slot0.optionsPath = {
 	"top/home"
 }
@@ -140,7 +141,7 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.btnPay, function ()
-		uv0:emit(CrusingMediator.EVENT_GO_CHARGE)
+		uv0:openBuyPanel()
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.btnAfter, function ()
 		if #uv0.activity:GetCrusingUnreceiveAward() > 0 then
@@ -183,7 +184,7 @@ function slot0.didEnter(slot0)
 
 	onButton(slot0, slot3:Find("panel/btn_unlock"), function ()
 		uv0:hideWindow()
-		uv0:emit(CrusingMediator.EVENT_GO_CHARGE)
+		uv0:openBuyPanel()
 	end, SFX_CONFIRM)
 
 	slot0.maps = {
@@ -540,6 +541,69 @@ function slot0.checkLimitMax(slot0, slot1)
 	end
 
 	return false
+end
+
+function slot0.openBuyPanel(slot0)
+	slot1 = Goods.Create({
+		shop_id = uv0.PASS_ID
+	}, Goods.TYPE_CHARGE)
+	slot2 = slot1:getConfig("tag")
+	slot3 = underscore.map(slot1:getConfig("extra_service_item"), function (slot0)
+		return {
+			type = slot0[1],
+			id = slot0[2],
+			count = slot0[3]
+		}
+	end)
+	slot4 = nil
+	slot5 = slot1:getConfig("sub_display")
+	slot6 = slot5[1]
+	slot7 = pg.battlepass_event_pt[slot6].pt
+	slot4 = {
+		type = DROP_TYPE_RESOURCE,
+		id = pg.battlepass_event_pt[slot6].pt,
+		count = slot5[2]
+	}
+	slot3 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot6].drop_client_pay, function (slot0)
+		return {
+			type = slot0[1],
+			id = slot0[2],
+			count = slot0[3]
+		}
+	end))
+	slot9 = nil
+
+	if slot1:getConfig("gem") + slot1:getConfig("extra_gem") > 0 then
+		table.insert(slot3, {
+			id = 4,
+			type = 1,
+			count = slot8
+		})
+	end
+
+	slot0:emit(CrusingMediator.EVENT_GO_CHARGE, {
+		isChargeType = true,
+		icon = "chargeicon/" .. slot1:getConfig("picture"),
+		name = slot1:getConfig("name_display"),
+		tipExtra = i18n("battlepass_pay_tip"),
+		extraItems = slot3,
+		price = usMoneyFormat(slot1:getConfig("money")),
+		tagType = slot2,
+		isMonthCard = slot1:isMonthCard(),
+		tipBonus = nil,
+		bonusItem = slot9,
+		extraDrop = slot4,
+		descExtra = slot1:getConfig("descrip_extra"),
+		onYes = function ()
+			if ChargeConst.isNeedSetBirth() then
+				uv0:emit(ChargeMediator.OPEN_CHARGE_BIRTHDAY)
+			else
+				pg.m02:sendNotification(GAME.CHARGE_OPERATION, {
+					shopId = uv1.id
+				})
+			end
+		end
+	})
 end
 
 return slot0
