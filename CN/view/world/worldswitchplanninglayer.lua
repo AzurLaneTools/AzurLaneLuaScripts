@@ -5,53 +5,69 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	slot1 = pg.UIMgr.GetInstance()
 
-	slot0.rtBg = slot0._tf:Find("bg")
+	slot1:BlurPanel(slot0._tf)
+
+	slot1 = slot0._tf
+	slot0.rtBg = slot1:Find("bg")
 
 	onButton(slot0, slot0.rtBg, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	slot0.rtWindow = slot0._tf:Find("window")
-	slot0.btnBack = slot0.rtWindow:Find("top/btnBack")
+	slot1 = slot0._tf
+	slot0.rtWindow = slot1:Find("window")
+	slot1 = slot0.rtWindow
+	slot0.btnBack = slot1:Find("top/btnBack")
 
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:closeView()
 	end, SFX_CANCAL)
 
-	slot0.btnCancel = slot0.rtWindow:Find("button_container/custom_button_2")
+	slot1 = slot0.rtWindow
+	slot0.btnCancel = slot1:Find("button_container/custom_button_2")
+	slot2 = slot0.btnCancel
 
-	setText(slot0.btnCancel:Find("pic"), i18n("text_cancel"))
+	setText(slot2:Find("pic"), i18n("text_cancel"))
 	onButton(slot0, slot0.btnCancel, function ()
 		uv0:closeView()
 	end, SFX_CANCAL)
 
-	slot0.btnConfirm = slot0.rtWindow:Find("button_container/custom_button_1")
+	slot1 = slot0.rtWindow
+	slot0.btnConfirm = slot1:Find("button_container/custom_button_1")
+	slot2 = slot0.btnConfirm
 
-	setText(slot0.btnConfirm:Find("pic"), i18n("text_confirm"))
+	setText(slot2:Find("pic"), i18n("text_confirm"))
 	onButton(slot0, slot0.btnConfirm, function ()
 		uv0:emit(WorldSwitchPlanningMediator.OnConfirm)
 		uv0:closeView()
 	end, SFX_CONFIRM)
 
-	slot0.rtContent = slot0.rtWindow:Find("content")
+	slot1 = slot0.rtWindow
+	slot0.rtContent = slot1:Find("content")
+	slot3 = slot0.rtContent
 
-	onToggle(slot0, slot0.rtContent:Find("toggles/toggle_base"), function (slot0)
+	onToggle(slot0, slot3:Find("toggles/toggle_base"), function (slot0)
 		if slot0 then
 			uv0:updateView(false)
 			scrollTo(uv0.rtView:Find("content"), nil, 1)
 		end
 	end, SFX_PANEL)
-	onToggle(slot0, slot0.rtContent:Find("toggles/toggle_safe"), function (slot0)
+
+	slot3 = slot0.rtContent
+
+	onToggle(slot0, slot3:Find("toggles/toggle_safe"), function (slot0)
 		if slot0 then
 			uv0:updateView(true)
 			scrollTo(uv0.rtView:Find("content"), nil, 1)
 		end
 	end, SFX_PANEL)
 
-	slot0.rtView = slot0.rtContent:Find("view")
-	slot1 = slot0.rtView:Find("content/difficult_base/toggles")
+	slot1 = slot0.rtContent
+	slot0.rtView = slot1:Find("view")
+	slot1 = slot0.rtView
+	slot1 = slot1:Find("content/difficult_base/toggles")
 	slot2 = slot1:Find("all")
 	slot3 = {}
 	slot4 = 0
@@ -95,58 +111,71 @@ function slot0.init(slot0)
 	table.insert(slot9, slot6[1] .. "&" .. slot7)
 	table.insert(slot9, tostring(slot7))
 
+	slot13 = slot9[3]
 	slot0.togglesList = {
 		difficult_safe = {
-			flag = "auto_switch_difficult_safe",
-			default = "all",
-			type = "String",
+			getFlag = function ()
+				return PlayerPrefs.GetString("auto_switch_difficult_safe", "all")
+			end,
+			setFlag = function (slot0)
+				PlayerPrefs.SetString("auto_switch_difficult_safe", slot0)
+				PlayerPrefs.Save()
+			end,
 			info = {
 				all = "all",
 				only = "only"
 			}
 		},
 		wait = {
-			flag = "auto_switch_wait",
-			default = 0,
-			type = "Int",
+			getFlag = function ()
+				return PlayerPrefs.GetInt("auto_switch_wait", 0)
+			end,
+			setFlag = function (slot0)
+				PlayerPrefs.SetInt("auto_switch_wait", slot0)
+				PlayerPrefs.Save()
+			end,
 			info = {
 				yes = 1,
 				no = 0
 			}
 		},
 		wait_2 = {
-			flag = "auto_switch_wait_2",
-			default = 0,
-			type = "Int",
+			getFlag = function ()
+				return PlayerPrefs.GetInt("auto_switch_wait_2", 0)
+			end,
+			setFlag = function (slot0)
+				PlayerPrefs.SetInt("auto_switch_wait_2", slot0)
+				PlayerPrefs.Save()
+			end,
 			info = {
 				yes = 1,
 				no = 0
 			}
 		},
 		boss = {
-			flag = "_WorldBossProgressTipFlag_",
-			type = "String",
-			flagFunc = function (slot0)
+			getFlag = function ()
+				return getProxy(SettingsProxy):GetWorldBossProgressTipFlag()
+			end,
+			setFlag = function (slot0)
 				getProxy(SettingsProxy):WorldBossProgressTipFlag(slot0)
 			end,
 			info = {
 				no = slot9[1],
 				["100"] = slot9[2],
-				["200"] = slot9[3]
-			},
-			default = getProxy(SettingsProxy):GetWorldBossProgressTipFlag()
+				["200"] = slot13
+			}
 		},
 		consume = {
-			flag = "world_flag_consume_item",
-			type = "Int",
-			flagFunc = function (slot0)
+			getFlag = function ()
+				return getProxy(SettingsProxy):GetWorldFlag("consume_item")
+			end,
+			setFlag = function (slot0)
 				getProxy(SettingsProxy):SetWorldFlag("consume_item", slot0)
 			end,
 			info = {
-				yes = 1,
-				no = 0
-			},
-			default = getProxy(SettingsProxy):GetWorldFlag("consume_item") and 1 or 0
+				yes = true,
+				no = false
+			}
 		}
 	}
 
@@ -157,12 +186,7 @@ function slot0.init(slot0)
 		for slot19, slot20 in pairs(slot14.info) do
 			onToggle(slot0, slot15:Find(slot19), function (slot0)
 				if slot0 then
-					if uv0.flagFunc then
-						uv0.flagFunc(uv1)
-					else
-						PlayerPrefs["Set" .. uv0.type](uv0.flag, uv1)
-						PlayerPrefs.Save()
-					end
+					uv0.setFlag(uv1)
 				end
 			end, SFX_PANEl)
 		end
@@ -244,7 +268,7 @@ end
 
 function slot0.initToggle(slot0, slot1)
 	slot2 = slot0.togglesList[slot1]
-	slot3 = PlayerPrefs["Get" .. slot2.type](slot2.flag, slot2.default)
+	slot3 = slot2.getFlag()
 
 	for slot7, slot8 in pairs(slot2.info) do
 		if slot8 == slot3 then

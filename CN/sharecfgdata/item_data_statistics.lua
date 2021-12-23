@@ -1930,6 +1930,27 @@ _G.pg.item_data_statistics[1013] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[1014] = {
+	display = "圣诞夜、平安夜，愿所有人都能得到幸福与安宁",
+	name = "圣诞的馈赠",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	id = 1014,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[10000] = {
 	display = "舰艇维修设备T2设计图",
 	name = "舰艇维修设备T2设计图",
@@ -151530,6 +151551,27 @@ _G.pg.item_data_statistics[59255] = {
 	is_world = 0,
 	icon = "Props/shengdiyagePT",
 	id = 59255,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59256] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 59256,
 	display_icon = {},
 	price = {},
 	index = {}

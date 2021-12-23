@@ -5,20 +5,22 @@ slot3 = 3
 slot4 = 4
 slot5 = 5
 slot6 = 6
-slot7 = {
+slot7 = 7
+slot8 = {
 	"word_theme",
 	"word_wallpaper",
 	"word_floorpaper",
 	"word_furniture",
+	"word_shipskin",
 	"word_decorate",
 	"word_wall"
 }
 
-function slot8(slot0)
+function slot9(slot0)
 	return i18n(uv0[slot0])
 end
 
-function slot9(slot0, slot1, slot2)
+function slot10(slot0, slot1, slot2)
 	onButton(slot0, slot1, function ()
 		if not uv0() then
 			return
@@ -96,7 +98,8 @@ function slot0.init(slot0)
 		[uv2] = slot0.furniturePage,
 		[uv3] = slot0.furniturePage,
 		[uv4] = slot0.furniturePage,
-		[uv5] = slot0.furniturePage
+		[uv5] = slot0.furniturePage,
+		[uv6] = slot0.furniturePage
 	}
 	slot0.contextData.furnitureMsgBox = BackYardFurnitureMsgBoxPage.New(slot0._tf, slot0.event)
 	slot0.contextData.themeMsgBox = BackYardThemeMsgBoxPage.New(slot0._tf, slot0.event)
@@ -117,7 +120,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	slot0:InitPageFooter()
 	slot0:UpdateRes()
-	triggerButton(slot0.btns[uv1])
+	triggerButton(slot0.btns[slot0.contextData.page or uv1])
 end
 
 function slot0.UpdateRes(slot0)

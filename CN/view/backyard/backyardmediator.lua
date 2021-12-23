@@ -44,16 +44,16 @@ function slot0.register(slot0)
 
 		uv0:sendNotification(GAME.OPEN_ADD_EXP, slot1)
 	end)
-	slot0:bind(uv0.GO_SHOP, function (slot0)
+	slot0:bind(uv0.GO_SHOP, function (slot0, slot1)
 		BackYardMediator.isInitAddExpPanel = true
-		slot1 = false
+		slot2 = false
 
 		if getProxy(ContextProxy):getContextByMediator(BackYardDecorationMediator) then
 			uv0:sendNotification(GAME.REMOVE_LAYERS, {
-				context = slot3
+				context = slot4
 			})
 
-			slot1 = true
+			slot2 = true
 		end
 
 		uv0:addSubLayers(Context.New({
@@ -64,7 +64,8 @@ function slot0.register(slot0)
 					if uv0 then
 						uv1:sendNotification(GAME.OPEN_BACKYARD_GARNARY)
 					end
-				end
+				end,
+				page = slot1
 			}
 		}))
 	end)
@@ -268,6 +269,14 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BackYardMediator.OPEN_NOFOOD then
 		slot0.viewComponent:openNofoodBox()
 	elseif slot2 == DormProxy.SHIPS_EXP_ADDED then
+		if slot0.contextData.skinToShop then
+			slot0.viewComponent:emit(uv0.GO_SHOP, 5)
+
+			slot0.contextData.skinToShop = nil
+
+			return
+		end
+
 		if not BackYardMediator.isInitAddExpPanel then
 			BackYardMediator.isInitAddExpPanel = true
 			slot5 = table.getCount(slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN))

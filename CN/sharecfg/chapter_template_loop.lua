@@ -25896,6 +25896,13 @@ pg.chapter_template_loop = {
 				-40
 			},
 			{
+				4,
+				5,
+				"suligao_1x1_dengta_close",
+				0,
+				50
+			},
+			{
 				2,
 				3,
 				"suligao_2x2_2",
@@ -27212,6 +27219,13 @@ pg.chapter_template_loop = {
 			},
 			{
 				8,
+				10,
+				"suligao_1x1_dengta_close",
+				0,
+				50
+			},
+			{
+				8,
 				7,
 				"suligao_1x1_2",
 				0,
@@ -28021,6 +28035,13 @@ pg.chapter_template_loop = {
 				"suligao_1x1_3",
 				0,
 				11
+			},
+			{
+				9,
+				1,
+				"suligao_1x1_dengta_close",
+				1,
+				55
 			},
 			{
 				7,

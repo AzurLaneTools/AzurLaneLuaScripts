@@ -18949,6 +18949,22 @@ _G.pg.gametip.tag_ship_locked = {
 	tip = "图鉴未解锁"
 }
 
+_G.pg.gametip.acceleration_tips_1 = {
+	tip = "<color=#66472a><size=34>是否使用$1个喵箱训练加速工具\n依次加速$2个喵箱？</size></color>"
+}
+
+_G.pg.gametip.acceleration_tips_2 = {
+	tip = "<color=#827c7c><size=26>(加速后将完成$1个喵箱R型，$2个喵箱SR型，$3个喵箱SSR型)</size></color>"
+}
+
+_G.pg.gametip.noacceleration_tips = {
+	tip = "当前没有可以进行加速的喵箱"
+}
+
+_G.pg.gametip.word_shipskin = {
+	tip = "特殊"
+}
+
 _G.pg.gametip.settings_sound_title_bgm = {
 	tip = " 背景音乐"
 }

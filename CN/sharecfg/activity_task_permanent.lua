@@ -165,6 +165,78 @@ pg.activity_task_permanent = {
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
+	[6007] = {
+		gametip = "可获得楉限定换装「限时圣诞Wakaba」",
+		banner_route = "permanent_ruoyeshengdan",
+		gametip_extra = "最快7日获得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6007,
+		activity_name = "限时圣诞",
+		over_task_id = "",
+		eliminate_task_id = {
+			35082,
+			35083,
+			35084,
+			35085,
+			35086,
+			35087,
+			35088,
+			35089,
+			35090,
+			35091,
+			35092,
+			35093,
+			35094,
+			35095
+		}
+	},
+	[6008] = {
+		gametip = "可获得荙限定换装「驯鹿与圣诞礼物」",
+		banner_route = "permanent_dachaoshengdan",
+		gametip_extra = "最快7日获得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6008,
+		activity_name = "圣诞礼物大作战",
+		over_task_id = "",
+		eliminate_task_id = {
+			35096,
+			35097,
+			35098,
+			35099,
+			35100,
+			35101,
+			35102,
+			35103,
+			35104,
+			35105,
+			35106,
+			35107,
+			35108,
+			35109
+		}
+	},
+	[6009] = {
+		gametip = "可获得格里德利限定换装「圣诞摄影会！」",
+		banner_route = "permanent_gelidelishengdan",
+		gametip_extra = "最快8日获得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6009,
+		activity_name = "爱与和平的圣诞祭",
+		over_task_id = "",
+		eliminate_task_id = {
+			35110,
+			35111,
+			35112,
+			35113,
+			35114,
+			35115,
+			35116,
+			35117
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -172,6 +244,9 @@ pg.activity_task_permanent = {
 		6003,
 		6004,
 		6005,
-		6006
+		6006,
+		6007,
+		6008,
+		6009
 	}
 }

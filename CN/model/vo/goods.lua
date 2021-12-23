@@ -31,4 +31,24 @@ function slot0.Create(slot0, slot1)
 	return (slot1 ~= uv0.TYPE_CHARGE or ChargeCommodity.New(slot0, slot1)) and (slot1 ~= uv0.TYPE_ACTIVITY and slot1 ~= uv0.TYPE_SHAM_BATTLE and slot1 ~= uv0.TYPE_FRAGMENT and slot1 ~= uv0.TYPE_FRAGMENT_NORMAL and slot1 ~= uv0.TYPE_ESCORT or ActivityCommodity.New(slot0, slot1)) and (slot1 ~= uv0.TYPE_ACTIVITY_EXTRA or ActivityExtraCommodity.New(slot0, slot1)) and CommonCommodity.New(slot0, slot1)
 end
 
+function slot0.ExistFurniture(slot0)
+	return pg.shop_furniture_relation[slot0] ~= nil
+end
+
+function slot0.Id2FurnitureId(slot0)
+	return pg.shop_furniture_relation[slot0].fur_id
+end
+
+function slot0.FurnitureId2Id(slot0)
+	return pg.shop_furniture_relation.get_id_list_by_fur_id[slot0] and slot1[1]
+end
+
+function slot0.GetFurnitureConfig(slot0)
+	return pg.shop_furniture_relation[slot0]
+end
+
+function slot0.Id2ShipSkinId(slot0)
+	return pg.shop_template[slot0].effect_args[1]
+end
+
 return slot0

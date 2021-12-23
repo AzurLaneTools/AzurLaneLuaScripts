@@ -27,7 +27,11 @@ function slot0.isOpen(slot0)
 
 	if slot0:bindConfigTable()[slot0.id] then
 		slot3 = pg.TimeMgr.GetInstance()
-		slot1 = slot3:STimeDescS(slot3:GetServerTime(), "*t").month == slot0.id
+		slot4 = slot3:STimeDescS(slot3:GetServerTime(), "*t")
+
+		print("====base=========", slot4.month, slot0.id)
+
+		slot1 = slot4.month == slot0.id
 	end
 
 	return slot1

@@ -59,6 +59,11 @@ function slot0.register(slot0)
 			uv0:removeTaskById(slot5)
 		end
 	end)
+	slot0:on(20015, function (slot0)
+		slot1 = slot0.time
+
+		uv0:sendNotification(GAME.ZERO_HOUR)
+	end)
 
 	slot0.taskTriggers = {}
 	slot0.weekTaskProgressInfo = WeekTaskProgress.New()

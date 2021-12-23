@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4183",
+		param = "4189",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					16
+					23
 				},
 				{
 					0,
@@ -20,9 +20,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					29
+					2022,
+					1,
+					19
 				},
 				{
 					23,
@@ -33,19 +33,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4187",
 		id = 2,
 		pic = "temp2",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2021,
 					12,
-					16
+					23
 				},
 				{
 					0,
@@ -55,9 +52,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					22
+					2022,
+					1,
+					19
 				},
 				{
 					23,
@@ -72,17 +69,15 @@ pg.activity_banner = {
 		pic = "temp3",
 		type = 2,
 		param = {
-			"metacharacter",
-			{
-				autoOpenShipConfigID = 9704010
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2021,
 					12,
-					9
+					23
 				},
 				{
 					0,
@@ -92,9 +87,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					23
+					2022,
+					1,
+					12
 				},
 				{
 					23,
@@ -105,19 +100,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4185",
 		id = 4,
 		pic = "temp4",
-		type = 2,
-		param = {
-			"scene level",
-			{}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2021,
 					12,
-					9
+					23
 				},
 				{
 					0,
@@ -127,9 +119,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					23
+					2022,
+					1,
+					13
 				},
 				{
 					23,
@@ -150,8 +142,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					11,
-					25
+					12,
+					23
 				},
 				{
 					0,
@@ -161,9 +153,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					8
+					2022,
+					1,
+					12
 				},
 				{
 					23,
@@ -174,21 +166,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4183",
 		id = 6,
 		pic = "temp6",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2021,
-					11,
-					25
+					12,
+					16
 				},
 				{
 					0,
@@ -200,7 +187,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					8
+					29
 				},
 				{
 					23,
@@ -289,7 +276,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					16
+					23
 				},
 				{
 					0,
@@ -299,9 +286,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					22
+					2022,
+					1,
+					12
 				},
 				{
 					23,
@@ -312,15 +299,15 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "海军咖喱|甜咖喱还是辣咖喱，这是一个问题！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "拐杖糖|据说最原始的拐杖糖是白色的呢。<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		id = 10,
-		pic = "haijungali",
+		pic = "christmas",
 		type = 10,
 		time = {
 			{
 				{
 					2021,
-					9,
+					12,
 					23
 				},
 				{
