@@ -468,10 +468,10 @@ function slot0.jpUIEnter(slot0)
 	end
 
 	onButton(slot0, slot0.userAgreeBtn3, function ()
-		uv0:emit(ChargeMediator.OPEN_USER_AGREE, require("ShareCfg.UserAgreement3") or "")
+		uv0:emit(ChargeMediator.OPEN_USER_AGREE, require("ShareCfg.UserAgreement3").content or "")
 	end, SFX_PANEL)
 	onButton(slot0, slot0.userAgreeBtn4, function ()
-		uv0:emit(ChargeMediator.OPEN_USER_AGREE, require("ShareCfg.UserAgreement4") or "")
+		uv0:emit(ChargeMediator.OPEN_USER_AGREE, require("ShareCfg.UserAgreement4").content or "")
 	end, SFX_PANEL)
 end
 
