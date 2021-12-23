@@ -16831,5 +16831,25 @@ cs.gametip = {
 		613385,
 		68,
 		true
+	},
+	shop_diamond_title = {
+		613453,
+		89,
+		true
+	},
+	shop_gift_title = {
+		613542,
+		86,
+		true
+	},
+	shop_item_title = {
+		613628,
+		86,
+		true
+	},
+	shop_charge_level_limit = {
+		613714,
+		91,
+		true
 	}
 }

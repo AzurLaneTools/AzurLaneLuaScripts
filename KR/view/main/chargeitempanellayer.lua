@@ -90,32 +90,33 @@ function slot0.updatePanel(slot0)
 	slot6 = slot0.panelConfig.extraItems and slot0.panelConfig.extraItems or {}
 	slot7 = slot0.panelConfig.price and slot0.panelConfig.price or 0
 	slot8 = slot0.panelConfig.isChargeType
-	slot9 = slot0.panelConfig.isMonthCard
-	slot10 = slot0.panelConfig.tagType
-	slot11 = slot0.panelConfig.normalTip
-	slot12 = slot0.panelConfig.extraDrop
+	slot9 = slot0.panelConfig.isLocalPrice
+	slot10 = slot0.panelConfig.isMonthCard
+	slot11 = slot0.panelConfig.tagType
+	slot12 = slot0.panelConfig.normalTip
+	slot13 = slot0.panelConfig.extraDrop
 
 	if slot0.detailNormalTip then
-		setActive(slot0.detailNormalTip, slot11)
+		setActive(slot0.detailNormalTip, slot12)
 	end
 
 	if slot0.detailContain then
-		setActive(slot0.detailContain, not slot11)
+		setActive(slot0.detailContain, not slot12)
 	end
 
-	if slot11 then
+	if slot12 then
 		if slot0.detailNormalTip:GetComponent("Text") then
-			setText(slot0.detailNormalTip, slot11)
+			setText(slot0.detailNormalTip, slot12)
 		else
-			setButtonText(slot0.detailNormalTip, slot11)
+			setButtonText(slot0.detailNormalTip, slot12)
 		end
 	end
 
-	setActive(slot0.detailTag, slot10 > 0)
+	setActive(slot0.detailTag, slot11 > 0)
 
-	if slot10 > 0 then
-		for slot16, slot17 in ipairs(slot0.detailTags) do
-			setActive(slot17, slot16 == slot10)
+	if slot11 > 0 then
+		for slot17, slot18 in ipairs(slot0.detailTags) do
+			setActive(slot18, slot17 == slot11)
 		end
 	end
 
@@ -123,68 +124,73 @@ function slot0.updatePanel(slot0)
 	setText(slot0.detailName, slot2)
 
 	if slot0.detailExtraDrop then
-		setActive(slot0.detailExtraDrop, slot12)
+		setActive(slot0.detailExtraDrop, slot13)
 
-		if slot12 then
-			setText(slot0:findTF("Text", slot0.detailExtraDrop), i18n("battlepass_pay_acquire") .. "\n" .. slot12.count .. "x")
+		if slot13 then
+			setText(slot0:findTF("Text", slot0.detailExtraDrop), i18n("battlepass_pay_acquire") .. "\n" .. slot13.count .. "x")
 			updateDrop(slot0:findTF("item/IconTpl", slot0.detailExtraDrop), setmetatable({
 				count = 1
 			}, {
-				__index = slot12
+				__index = slot13
 			}))
 		end
 	end
 
-	setActive(slot0.detailRmb, slot8)
+	if PLATFORM_CODE == PLATFORM_CHT then
+		setActive(slot0.detailRmb, slot8 and not slot9)
+	else
+		setActive(slot0.detailRmb, slot8)
+	end
+
 	setActive(slot0.detailGem, not slot8)
 	setText(slot0.detailPrice, slot7)
 
 	if slot0.extraDesc ~= nil then
-		slot13 = slot0.panelConfig.descExtra or ""
+		slot14 = slot0.panelConfig.descExtra or ""
 
-		setActive(slot0.extraDesc, #slot13 > 0)
-		setText(slot0.extraDesc, slot13)
+		setActive(slot0.extraDesc, #slot14 > 0)
+		setText(slot0.extraDesc, slot14)
 	end
 
 	if slot0.detailContain then
-		setActive(slot0.normal, slot9)
+		setActive(slot0.normal, slot10)
 
-		if slot9 then
+		if slot10 then
 			updateDrop(slot0.detailItem, slot4)
 			onButton(slot0, slot0.detailItem, function ()
 			end, SFX_PANEL)
 
-			slot13, slot14 = contentWrap(slot4.cfg.name, 10, 2)
+			slot14, slot15 = contentWrap(slot4.cfg.name, 10, 2)
 
-			if slot13 then
-				slot14 = slot14 .. "..."
+			if slot14 then
+				slot15 = slot15 .. "..."
 			end
 
-			setText(slot0:findTF("name", slot0.detailItem), slot14)
+			setText(slot0:findTF("name", slot0.detailItem), slot15)
 			setText(slot0.detailTip, slot3)
 		end
 
 		setText(slot0.extraTip, slot5)
 
-		for slot16 = #slot6, slot0.detailItemList.childCount - 1 do
-			Destroy(slot0.detailItemList:GetChild(slot16))
+		for slot17 = #slot6, slot0.detailItemList.childCount - 1 do
+			Destroy(slot0.detailItemList:GetChild(slot17))
 		end
 
-		for slot16 = slot0.detailItemList.childCount, #slot6 - 1 do
+		for slot17 = slot0.detailItemList.childCount, #slot6 - 1 do
 			cloneTplTo(slot0.detailItem, slot0.detailItemList)
 		end
 
-		for slot16 = 1, #slot6 do
-			updateDrop(slot0.detailItemList:GetChild(slot16 - 1), slot6[slot16])
+		for slot17 = 1, #slot6 do
+			updateDrop(slot0.detailItemList:GetChild(slot17 - 1), slot6[slot17])
 
-			slot18, slot19 = contentWrap(slot6[slot16].cfg.name, 8, 2)
+			slot19, slot20 = contentWrap(slot6[slot17].cfg.name, 8, 2)
 
-			if slot18 then
-				slot19 = slot19 .. "..."
+			if slot19 then
+				slot20 = slot20 .. "..."
 			end
 
-			setText(slot0:findTF("name", slot17), slot19)
-			onButton(slot0, slot17, function ()
+			setText(slot0:findTF("name", slot18), slot20)
+			onButton(slot0, slot18, function ()
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					hideNo = true,
 					type = MSGBOX_TYPE_SINGLE_ITEM,

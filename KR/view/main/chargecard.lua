@@ -200,6 +200,11 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 
 	slot0.resCount.text = "x" .. slot1:getConfig("gem")
 	slot0.price.text = numberFormat(slot1:getConfig("money"), ",")
+
+	if PLATFORM_CODE == PLATFORM_CHT and slot1:IsLocalPrice() then
+		setActive(slot0.rmb, false)
+	end
+
 	slot0.iconTF.sprite = GetSpriteFromAtlas("chargeicon/1", "")
 
 	LoadSpriteAsync("chargeicon/" .. slot1:getConfig("picture"), function (slot0)
@@ -354,9 +359,9 @@ end
 
 function slot0.updateCountdown(slot0, slot1)
 	slot2 = false
-	slot3 = pg.TimeMgr:GetInstance()
 
 	if slot1 then
+		slot3 = pg.TimeMgr.GetInstance()
 		slot2 = slot3:DiffDay(slot3:GetServerTime(), pg.TimeMgr.GetInstance():Table2ServerTime(slot1)) < 365
 	end
 
@@ -369,7 +374,7 @@ function slot0.updateCountdown(slot0, slot1)
 		end
 	end)()
 
-	slot6 = pg.TimeMgr.GetInstance():Table2ServerTime(slot1)
+	slot5 = pg.TimeMgr.GetInstance():Table2ServerTime(slot1)
 	slot0.updateTimer = Timer.New(function ()
 		if uv1 < uv0:GetServerTime() then
 			uv2()
