@@ -252,9 +252,7 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.FRIEND)
 	end)
 	slot0:bind(uv0.GO_MALL, function ()
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-			wrap = ChargeScene.TYPE_MENU
-		})
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE_MENU)
 	end)
 	slot0:bind(uv0.OPEN_EVENT, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.EVENT)

@@ -17,6 +17,8 @@ function slot0.OnInit(slot0)
 	slot0.closeBtn = findTF(slot0._tf, "options/close")
 	slot0.openBtn = findTF(slot0._tf, "options/open")
 
+	setText(slot0._tf:Find("options/close/Text"), i18n("settings_pwd_label_close"))
+	setText(slot0._tf:Find("options/open/Text"), i18n("settings_pwd_label_open"))
 	slot0:SetData()
 	slot0:RegisterEvent()
 end
@@ -74,6 +76,7 @@ function slot0.UpdateBtnState(slot0)
 	setActive(slot0.closeBtn:Find("off"), slot1)
 	setActive(slot0.openBtn:Find("on"), slot1)
 	setActive(slot0.openBtn:Find("off"), not slot1)
+	pg.m02:sendNotification(NewSettingsMediator.ON_SECON_PWD_STATE_CHANGE)
 end
 
 function slot0.OnUpdate(slot0)

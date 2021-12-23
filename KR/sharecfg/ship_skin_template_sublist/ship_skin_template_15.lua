@@ -1,5 +1,348 @@
 pg = pg or {}
 pg.ship_skin_template_15 = {
+	[601061] = {
+		ship_group = 60106,
+		name = "출항 전 한 방!",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "106",
+		id = 601061,
+		group_index = 1,
+		prefab = "daleike_2",
+		painting = "daleike_2",
+		shop_id = 70539,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 6,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "이게 사쿠라 엠파이어의 수박 깨기구나! 자료대로 라면 수박을 어디에… 좋아! 지휘관, 수박 좀 저기에 놔줘——응? 안토니오토, 걱정마! 항해사의 날카로운 감각을 믿어! 간다!",
+		voice_actor = 269,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.007,
+					1.012,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1,
+					1.009,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.019,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.992,
+					1.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.498,
+							2.44,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[602010] = {
+		ship_group = 60201,
+		name = "두카 델리 아브루치",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 602010,
+		group_index = 0,
+		prefab = "abuluqi",
+		painting = "abuluqi",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "두카 델리 아브루치급 경순양함—두카 델리 아브루치",
+		voice_actor = 270,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.004,
+					1.007,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.016,
+					1.024,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.999,
+					1.018,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.525,
+							2.415,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[602011] = {
+		ship_group = 60201,
+		name = "칠흑 같은 인어공주",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "133",
+		id = 602011,
+		group_index = 1,
+		prefab = "abuluqi_2",
+		painting = "abuluqi_2",
+		shop_id = 70530,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 6,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "안녕, 지휘관 각하도 이곳에 쉬러 온 건가? 귀족으로서, 가끔 즐기고 싶을 때도 있지. 하하.",
+		voice_actor = 270,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.996,
+					0.992,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.989,
+					1.008,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.019,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.991,
+					1.013,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.526,
+							2.461,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[603010] = {
 		ship_group = 60301,
 		name = "트렌토 ",
@@ -16,6 +359,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -31,7 +375,7 @@ pg.ship_skin_template_15 = {
 		desc = "트렌토급 중순양함—트렌토 ",
 		voice_actor = 224,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -128,6 +472,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 6,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -143,7 +488,7 @@ pg.ship_skin_template_15 = {
 		desc = "한 여름의 뜨거움도 바다 때문에 많이 나아졌네요~ 지휘관님, 잠시 고민은 내려놓고 쉬도록 해요~",
 		voice_actor = 224,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -242,6 +587,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -257,7 +603,7 @@ pg.ship_skin_template_15 = {
 		desc = "차라급 중순양함—차라 ",
 		voice_actor = 146,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -354,6 +700,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 6,
+		illustrator = -1,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = 0,
@@ -368,7 +715,7 @@ pg.ship_skin_template_15 = {
 		desc = "후… 이런 날씨는 수영하기 딱 좋네요~ 오? 어머나, 지휘관님도 수영하러 오신건가요? 아니면… 다른 목적이 있는건가요? 후후~ ",
 		voice_actor = 146,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -495,6 +842,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -510,7 +858,7 @@ pg.ship_skin_template_15 = {
 		desc = "차라급 중순양함—폴라",
 		voice_actor = 146,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -607,6 +955,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 6,
+		illustrator = -1,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = 0,
@@ -621,7 +970,7 @@ pg.ship_skin_template_15 = {
 		desc = "언니, 이럴 때 스파이크를 치다니, 치사하게——지휘관!? 네가 왜 여기에 있어?",
 		voice_actor = 146,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -737,6 +1086,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -752,7 +1102,7 @@ pg.ship_skin_template_15 = {
 		desc = "비토리오 베네토급 전함—비토리오 베네토",
 		voice_actor = 192,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -849,6 +1199,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 6,
+		illustrator = -1,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = 0,
@@ -863,7 +1214,7 @@ pg.ship_skin_template_15 = {
 		desc = "음, 아, 햇빛이 정말 눈부시네요…… 지휘관, 어디까지 왔나요? …… 음, 벌써 정오인가요? 그럼 뭐 좀 먹어요. 지휘관은 뭐 드실래요?",
 		voice_actor = 192,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -979,6 +1330,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -994,7 +1346,7 @@ pg.ship_skin_template_15 = {
 		desc = "리토리오급 전함—리토리오 ",
 		voice_actor = 142,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1091,6 +1443,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 6,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1106,7 +1459,7 @@ pg.ship_skin_template_15 = {
 		desc = "나와 같이 모래사장에 가고싶어? 후후, 지휘관. 그러려면 노력해야 할 거야. 그렇지 않으면 내가 모래사장에 있는 다른 함선들의 시선을 빼앗아 버릴거거든~",
 		voice_actor = 142,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1205,6 +1558,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 7,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1220,7 +1574,7 @@ pg.ship_skin_template_15 = {
 		desc = "리토리오의 연회장에 온 것을 환영한다——지휘관, 누가 여자들한테 인기가 더 많은지 경쟁해 볼래? 하하하, 농담이야. 무조건 내가 이길 승부인데 무슨 재미가 있겠어~",
 		voice_actor = 142,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1319,6 +1673,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1334,7 +1689,7 @@ pg.ship_skin_template_15 = {
 		desc = "이 옷차림은 사적인 시간이니, 실례 좀 할게. 어차피 사람들의 시선이 닿는 것도 아니고, 언제까지나 그렇게 화려한 모습일 수는 없잖아.",
 		voice_actor = 142,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1433,6 +1788,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1448,7 +1804,7 @@ pg.ship_skin_template_15 = {
 		desc = "콘테 디 카보우르급 전함—콘테 디 카보우르 ",
 		voice_actor = 201,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1545,6 +1901,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 6,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1560,7 +1917,7 @@ pg.ship_skin_template_15 = {
 		desc = "지휘관, 이거 받아. 좋아, 넌 이제 잠시 나 카보우르의 부하야. 저기 제멋대로 공격하는 사람들을 교육시켜 줄 때가 왔어.",
 		voice_actor = 201,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1659,6 +2016,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1674,7 +2032,7 @@ pg.ship_skin_template_15 = {
 		desc = "콘테 디 카보우르급 전함—줄리오 체사레 ",
 		voice_actor = 201,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1771,6 +2129,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1786,7 +2145,7 @@ pg.ship_skin_template_15 = {
 		desc = "운동과 전투는 똑같아. 중요한 것은 기백! 자, 지휘관. 온 몸에서 땀이 나기 전에 멈춰선 안돼! ",
 		voice_actor = 201,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1883,6 +2242,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 6,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1898,7 +2258,7 @@ pg.ship_skin_template_15 = {
 		desc = "힘들어? 정말이지, 그렇게 못미더운 꼴을 보이면 안되지. 오늘은 맘 놓고 놀 수 있긴 하지만, 너무 미치도록 노는 것도 안 좋아.",
 		voice_actor = 201,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1997,6 +2357,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 21,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2012,7 +2373,7 @@ pg.ship_skin_template_15 = {
 		desc = "항공모함—아퀼라",
 		voice_actor = 126,
 		spine_offset = "",
-		illustrator = 21,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2095,6 +2456,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 6,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2110,7 +2472,7 @@ pg.ship_skin_template_15 = {
 		desc = "안녕하십니까~ 오늘은 바닷바람과 바닷물의 시원함을 즐기는 휴일이랍니다. 자, 과일부터 드시고 더위 좀 식히세요~",
 		voice_actor = 126,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2209,6 +2571,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 7,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2224,7 +2587,7 @@ pg.ship_skin_template_15 = {
 		desc = "앗, 지휘관님? 여기서 마주치다니, 아퀼라는 오늘 정말 운이 좋네요~ 지휘관님, 시간 있으시면 같이 홍차 한 잔 어떠신가요?",
 		voice_actor = 126,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2323,6 +2686,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2338,7 +2702,7 @@ pg.ship_skin_template_15 = {
 		desc = "부린급 잠수함—토리첼리",
 		voice_actor = 272,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2421,6 +2785,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 6,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2436,7 +2801,7 @@ pg.ship_skin_template_15 = {
 		desc = "여기 구석은 정말 괜찮군… 방해하는 사람도 없어서 내가 하고 싶은 걸 마음껏 할 수 있어…… 먼저 뭘 하면 좋을까나, 우후훗…",
 		voice_actor = 272,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2535,6 +2900,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2550,7 +2916,7 @@ pg.ship_skin_template_15 = {
 		desc = "그녜브니급 구축함—그로즈니 ",
 		voice_actor = 221,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2647,6 +3013,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 12,
+		illustrator = 1,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = 0,
@@ -2661,7 +3028,7 @@ pg.ship_skin_template_15 = {
 		desc = "지휘관 동지, 그로즈니의 방을 보러 온 거구나? … 어라? 이 Шутки, 재미 없어? 그러면… 그로즈니의 방이 지휘관 동지를 보러 간거야? ",
 		voice_actor = 221,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2779,6 +3146,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2794,7 +3162,7 @@ pg.ship_skin_template_15 = {
 		desc = "... Кролик처럼 이렇게 슥삭슥삭... 근데 한 번에 쾅하고 치는 건 안돼서 좀 별로인 것 같아... 뭐 좀 먹고 생각해야겠어. 음.",
 		voice_actor = 221,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2893,6 +3261,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2908,7 +3277,7 @@ pg.ship_skin_template_15 = {
 		desc = "레닌그라드급 구축함—민스크 ",
 		voice_actor = 228,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3005,6 +3374,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 12,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3020,7 +3390,7 @@ pg.ship_skin_template_15 = {
 		desc = "동지, <민스크 법령>을 어겼어! 그러니 민스크 감옥에서 복역하라는 판결을 내릴 거야! 시간? 당연히 이 감옥장이 만족할 때까지야!",
 		voice_actor = 228,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3119,6 +3489,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3134,7 +3505,7 @@ pg.ship_skin_template_15 = {
 		desc = "타슈켄트급 구축함—타슈켄트 ",
 		voice_actor = 220,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3231,6 +3602,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 12,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3246,7 +3618,7 @@ pg.ship_skin_template_15 = {
 		desc = "……하아, 이런 장난에 어울리게 될 줄이야… 동지쨩, 타슈켄트가 이 연습에 꼭 참여해야 하는 거야?",
 		voice_actor = 220,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3345,6 +3717,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3360,7 +3733,7 @@ pg.ship_skin_template_15 = {
 		desc = "음... 누가 타슈켄트의 휴식을 방해하는 거야?... 동지쨩? 그랬구나... 그럼 나중에 쉬어야겠네, 무슨 일이야?",
 		voice_actor = 220,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3459,6 +3832,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3474,7 +3848,7 @@ pg.ship_skin_template_15 = {
 		desc = "동지쨩, 이 옷차림 어때? …아 그래, 타슈켄트가 아이돌이 되었다는데 반응이 겨우 이 정도야? 흥, 콘서트 때 반드시 \"와우\"하고 놀라게 해줄테다.",
 		voice_actor = 220,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3571,6 +3945,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3586,7 +3961,7 @@ pg.ship_skin_template_15 = {
 		desc = "그네브니급 구축함—스트레미테르누이호",
 		voice_actor = 263,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3683,6 +4058,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3698,7 +4074,7 @@ pg.ship_skin_template_15 = {
 		desc = "눈이 없는 날은 정말 심심해... 됐어, 게임이나 하면서 기분 좀 풀어야지! 지휘관, 이 게임들 완전 재미있어, 나랑 같이 놀자!",
 		voice_actor = 263,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3797,6 +4173,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3812,7 +4189,7 @@ pg.ship_skin_template_15 = {
 		desc = "그녜브니급 구축함—그리먀시 호",
 		voice_actor = 264,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3909,6 +4286,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3924,7 +4302,7 @@ pg.ship_skin_template_15 = {
 		desc = "여자의 방에 무단으로 침입을 하다니, 지휘관은 정말... 그리먀시가 들어와도 된다고 전에 얘기했다고? ... 돼, 됐어, 이미 와버렸으니까, 여기서 그리먀시랑 같이 있어. 음, 이게 다야.",
 		voice_actor = 264,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4023,6 +4401,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4038,7 +4417,7 @@ pg.ship_skin_template_15 = {
 		desc = "그녜브니급 구축함—그롬키 호",
 		voice_actor = 265,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4135,6 +4514,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4150,7 +4530,7 @@ pg.ship_skin_template_15 = {
 		desc = "일어나, 지휘관 동지! 해가 벌써 중천이라고~~! 푸른 하늘의 흰 구름과 아름다운 햇빛이 우릴 부르고 있어~",
 		voice_actor = 265,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4249,6 +4629,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4264,7 +4645,7 @@ pg.ship_skin_template_15 = {
 		desc = "아브로라급 경순양함 - 아브로라 ",
 		voice_actor = 22,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4374,6 +4755,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 12,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4389,7 +4771,7 @@ pg.ship_skin_template_15 = {
 		desc = "「저는 높은 탑에 사로잡힌 불행한 공주, 아브로라… 사랑하는 이여, 어서 저를 구해주세요…」",
 		voice_actor = 22,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4488,6 +4870,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4503,7 +4886,7 @@ pg.ship_skin_template_15 = {
 		desc = "바가티르급 경순양함—파먀티 메르쿠리야 ",
 		voice_actor = 219,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4600,6 +4983,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 12,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4615,7 +4999,7 @@ pg.ship_skin_template_15 = {
 		desc = "윽… 이 연습이 뭐라고! 이런 연습이 있다는 건 들어본 적도 없어! 이봐! 얼른 풀란 말이야!",
 		voice_actor = 219,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4714,6 +5098,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4729,7 +5114,7 @@ pg.ship_skin_template_15 = {
 		desc = "으음~~ 여기 눌러 앉고 싶다~ 아, 지휘관! 심부름해줘서 고마워! 물건은 저기 두면 돼♪ 아, 체리는 이쪽으로 가져와줘!",
 		voice_actor = 219,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4828,6 +5213,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4843,7 +5229,7 @@ pg.ship_skin_template_15 = {
 		desc = "파먀티 메르쿠리야, 개조 완료~! 지휘관, 나 귀엽다고 보고 있지만 말고, 내 실력도 기대해줘~!",
 		voice_actor = 219,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4940,6 +5326,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4955,7 +5342,7 @@ pg.ship_skin_template_15 = {
 		desc = "차파예프급 경순양함—차파예프 ",
 		voice_actor = 223,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5052,6 +5439,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 12,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5067,7 +5455,7 @@ pg.ship_skin_template_15 = {
 		desc = "지휘관, 이건 뭘 하는 걸까? 설마… 내가 뭔가 잘못 한 걸까…? 분명… 평범한 연습이겠지?",
 		voice_actor = 223,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5166,6 +5554,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5181,7 +5570,7 @@ pg.ship_skin_template_15 = {
 		desc = "휴... 아, 지휘관, 나가서 맞이해주지 못해서 정말 미안해... 긴장 풀어, 그렇게 어색해할 필요 없어. 네가 이상한 짓 하지 않을 거 알고 있으니까, 후훗~",
 		voice_actor = 223,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5280,6 +5669,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5295,7 +5685,7 @@ pg.ship_skin_template_15 = {
 		desc = "키로프급 경순양함—키로프",
 		voice_actor = 28,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5392,6 +5782,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5407,7 +5798,7 @@ pg.ship_skin_template_15 = {
 		desc = "Товарищ Офицер(지휘관 동지), 마침 잘 왔다. 내가 최근 커피를 연구하고 있는데, 참 흥미롭더군. 너에게도 한 잔 주겠다. 사양할 필요 없어!",
 		voice_actor = 28,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5506,6 +5897,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5521,7 +5913,7 @@ pg.ship_skin_template_15 = {
 		desc = "오마하급 경순양함—무르만스크",
 		voice_actor = 88,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5618,6 +6010,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5633,7 +6026,7 @@ pg.ship_skin_template_15 = {
 		desc = "... 엣취! 음, 좋은 아침이에요... 눈이요? 맞아요, 일기예보에서 오늘 눈이 내릴 거라고 했어요——아, 정말 내리고 있군요... 헤헤",
 		voice_actor = 88,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5732,6 +6125,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5747,7 +6141,7 @@ pg.ship_skin_template_15 = {
 		desc = "중순양함—탈린",
 		voice_actor = 113,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5844,6 +6238,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5859,7 +6254,7 @@ pg.ship_skin_template_15 = {
 		desc = "함선 소녀의 방에 처음 들어와 보는 것도 아니지? 무슨 공무가 있는 것도 아닌데, 거기 계속 그렇게 멍하니 서있으면 나도 피곤해. 스스로 앉을 자리 찾아서 편하게 있어.",
 		voice_actor = 113,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5958,6 +6353,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5973,7 +6369,7 @@ pg.ship_skin_template_15 = {
 		desc = "강구트급 전함—강구트 ",
 		voice_actor = 222,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6070,6 +6466,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 12,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6085,7 +6482,7 @@ pg.ship_skin_template_15 = {
 		desc = "동지여, 이번 연습을 준비해 준데 감사하지! 죄악을 막고, 벌을 내리며 그들을 갱생시키는 중대한 책임! 받아들이지!",
 		voice_actor = 222,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6184,6 +6581,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6199,7 +6597,7 @@ pg.ship_skin_template_15 = {
 		desc = "그렇게나 많은 술들을 전부 맛보았지만, 역시 내가 가진 것이 최고군. 자, 동지여, 휴일을 축하하며, 보드카 한 잔 즐기자고!",
 		voice_actor = 222,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6298,6 +6696,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6313,7 +6712,7 @@ pg.ship_skin_template_15 = {
 		desc = "소비에츠키 소유즈급 전함—소비에츠카야 벨로루시아",
 		voice_actor = 106,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6410,6 +6809,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6425,7 +6825,7 @@ pg.ship_skin_template_15 = {
 		desc = "자발적으로 책을 읽으며 시간을 보내도 좋고, 수동적으로 손님이 오기를 기다려도 좋고... 좋은 아침이다, 지휘관 동지. 네가 올 줄 알고 있었지, 하하하~",
 		voice_actor = 106,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6524,6 +6924,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6539,7 +6940,7 @@ pg.ship_skin_template_15 = {
 		desc = "소련급 전함—소비에츠카야 러시아 ",
 		voice_actor = 85,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6636,6 +7037,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 12,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6651,7 +7053,7 @@ pg.ship_skin_template_15 = {
 		desc = "‘설비 구역 이상 없음’——아, 너인가. 민스크와 연락을 하던 중이었다. 무슨 일이라도?",
 		voice_actor = 85,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6750,6 +7152,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6765,7 +7168,7 @@ pg.ship_skin_template_15 = {
 		desc = "르 팡타스크급 구축함 르 트리옹팡 ",
 		voice_actor = 6,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6862,6 +7265,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6877,7 +7281,7 @@ pg.ship_skin_template_15 = {
 		desc = "라드루아급 구축함 포르뱅 ",
 		voice_actor = 124,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6974,6 +7378,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6989,7 +7394,7 @@ pg.ship_skin_template_15 = {
 		desc = "가끔은 이렇게 밖에서 신선한 공기를 마시는 것도 나쁘지 않네요. 저기… 지휘관님, 조금 더 어울려주실 수 있을까요. ",
 		voice_actor = 124,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7086,6 +7491,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 4,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7101,7 +7507,7 @@ pg.ship_skin_template_15 = {
 		desc = "아이리스 리브레의 견습 기사 포르뱅입니다. 지금은 학생으로서 학원 생활에 적응하기 위해 노력하고 있습니다. 음...... 이러면 약간 지나치게 여유로운 거 아닌가요?",
 		voice_actor = 124,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7200,6 +7606,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 7,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7215,7 +7622,7 @@ pg.ship_skin_template_15 = {
 		desc = "지휘관님, 안녕하세요. 견습 기사 포르뱅, 지시에 따라 모두들과 연회 분위기를 만끽하고 있습니다. 음... 조금 많이 마신 것 같나요...? 그, 그런가요...?",
 		voice_actor = 124,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7314,6 +7721,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7329,7 +7737,7 @@ pg.ship_skin_template_15 = {
 		desc = "긴 노력이 드디어 보답 받았습니다! …지휘관, 언제나 지도 감사합니다! 이 은혜는 더 화려한 전과로서 보답하겠습니다! ",
 		voice_actor = 124,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7426,6 +7834,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7441,7 +7850,7 @@ pg.ship_skin_template_15 = {
 		desc = "랑트레피드급 구축함 - 르 테메레르",
 		voice_actor = 158,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7538,6 +7947,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 6,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7553,7 +7963,7 @@ pg.ship_skin_template_15 = {
 		desc = "지휘관, 수영복 갈아입었어! 헤헷, 여름의 해변은 전력으로 즐겨줘야지!",
 		voice_actor = 158,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7652,6 +8062,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7667,7 +8078,7 @@ pg.ship_skin_template_15 = {
 		desc = "어때? 이 잠옷 귀엽지!? 헤헷, 난 이 옷이 너무 좋아~ 로피니아트르 거랑 세트야♪",
 		voice_actor = 158,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7766,6 +8177,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7781,7 +8193,7 @@ pg.ship_skin_template_15 = {
 		desc = "아이리스 리브레 아르디급 구축함—로피니아트르 ",
 		voice_actor = 158,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7878,6 +8290,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 6,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7893,7 +8306,7 @@ pg.ship_skin_template_15 = {
 		desc = "여름의 바다는 심상치 않은 마력을 품고 있어 사람들을 해변으로 끌어들인다고 합니다. 하지만, 저는 덥다는 것 이외에, 마력은 조금도 느껴지지 않네요...... 제가 무슨 실수를 한 건가요?",
 		voice_actor = 158,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7992,6 +8405,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -8007,7 +8421,7 @@ pg.ship_skin_template_15 = {
 		desc = "아이리스 리브레 르 팡타스크급 구축함—르 테리블",
 		voice_actor = 291,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -8104,6 +8518,7 @@ pg.ship_skin_template_15 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 9,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -8119,7 +8534,7 @@ pg.ship_skin_template_15 = {
 		desc = "Zzzzz…… 지휘관님? 창피한 모습을 보여드렸네요… 죄송합니다. 일찍 일어나는 것은 정말 소질이 없어서…Zzzzz",
 		voice_actor = 291,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -8195,344 +8610,6 @@ pg.ship_skin_template_15 = {
 						{
 							-0.54,
 							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[801080] = {
-		ship_group = 80108,
-		name = "마이예 브레제",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 801080,
-		group_index = 0,
-		prefab = "mayebuleize",
-		painting = "mayebuleize",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "아이리스 리브레 보클랭급 구축함—마이예 브레제",
-		voice_actor = 290,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.286,
-					1.16,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.353,
-					1.06,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.21,
-					1.17,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							2.393,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[801081] = {
-		ship_group = 80108,
-		name = "여기사의 라스트 스탠드!",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "109",
-		id = 801081,
-		group_index = 1,
-		prefab = "mayebuleize_3",
-		painting = "mayebuleize_3",
-		shop_id = 70609,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "거거거거, 거기 서! 가가가, 감히 아이리스 리브레 기사의 영역을 침범하다니… 엑!? 제발 날 잡아먹지 말아줘… 지휘관이야!?",
-		voice_actor = 290,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.28,
-					1.16,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.26,
-					1.06,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.243,
-					1.183,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.56,
-							2.445,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[802010] = {
-		ship_group = 80201,
-		name = "에밀 베르탱 ",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 802010,
-		group_index = 0,
-		prefab = "aimierbeierding",
-		painting = "aimierbeierding",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "경순양함 에밀 베르탱 ",
-		voice_actor = 108,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-1.064,
-					1.994,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-1.036,
-					1.966,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.17,
-					0.055,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-1.115,
-					1.938,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
 							0
 						}
 					}

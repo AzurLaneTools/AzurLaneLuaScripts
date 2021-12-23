@@ -199,6 +199,7 @@ function slot0.flush(slot0)
 		end
 
 		slot0:UpdateExpBuff()
+		slot0:updateNpcTfPosY()
 	end
 
 	if slot0.userTF then
@@ -209,6 +210,30 @@ function slot0.flush(slot0)
 	slot0.quit:SetActive(not slot2)
 
 	slot0.btn.targetGraphic = slot2 and slot0.imageFrame or slot0.imageQuit
+end
+
+slot2 = {
+	90,
+	60,
+	30
+}
+
+function slot0.updateNpcTfPosY(slot0)
+	if isActive(slot0.npc) then
+		slot1 = 1
+
+		if isActive(findTF(slot0.tr, "content/energy")) then
+			slot1 = slot1 + 1
+		end
+
+		if isActive(slot0.intimacyTF) then
+			slot1 = slot1 + 1
+		end
+
+		slot3 = slot0.npc.anchoredPosition
+		slot3.y = uv0[slot1]
+		slot0.npc.anchoredPosition = slot3
+	end
 end
 
 function slot0.UpdateUser(slot0, slot1)
@@ -468,6 +493,7 @@ function slot0.updateIntimacy(slot0, slot1)
 	end
 
 	setActive(slot0.intimacyTF, slot1)
+	slot0:updateNpcTfPosY()
 end
 
 return slot0

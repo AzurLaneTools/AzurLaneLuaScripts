@@ -13,6 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.loadDot = findTF(slot0._tf, "new")
 	slot0.loadLoading = findTF(slot0._tf, "loading")
 
+	setText(slot0._tf:Find("title"), slot0:GetTitle())
 	slot0:Init()
 end
 
@@ -129,6 +130,9 @@ function slot0.GetDownloadGroup(slot0)
 end
 
 function slot0.GetLocaltion(slot0, slot1, slot2)
+end
+
+function slot0.GetTitle(slot0)
 end
 
 return slot0

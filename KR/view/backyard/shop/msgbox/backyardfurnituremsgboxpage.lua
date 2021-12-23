@@ -7,6 +7,7 @@ end
 function slot0.OnLoaded(slot0)
 	slot0.nameTxt = slot0:findTF("frame/name/Text"):GetComponent(typeof(Text))
 	slot0.descTxt = slot0:findTF("frame/desc"):GetComponent(typeof(Text))
+	slot0.iconContainer = slot0:findTF("frame/icon")
 	slot0.icon = slot0:findTF("frame/icon/Image"):GetComponent(typeof(Image))
 	slot0.rawIcon = slot0:findTF("frame/icon/rawImage"):GetComponent(typeof(RawImage))
 	slot0.leftArr = slot0:findTF("frame/count/left_arr")
@@ -36,9 +37,14 @@ function slot0.OnLoaded(slot0)
 	slot0.maxCnt = slot0:findTF("frame/max_cnt"):GetComponent(typeof(Text))
 	slot0.maxBtn = slot0:findTF("frame/count/max")
 	slot0.maxBtnTxt = slot0.maxBtn:Find("Text"):GetComponent(typeof(Text))
+	slot0.skinMark = slot0:findTF("frame/skin_mark")
+	slot0.skinDesc = slot0:findTF("frame/skin_desc")
+	slot0.skinDescTxt = slot0.skinDesc:Find("Text"):GetComponent(typeof(Text))
 
 	setText(slot0:findTF("frame/count/price/label"), i18n("backyard_theme_total_print"))
 	setActive(slot0.rawIcon, false)
+
+	slot0.interactionView = BackYardInteractionPreview.New(slot0.iconContainer, Vector3(0, -155, 0))
 end
 
 function slot0.OnInit(slot0)
@@ -113,7 +119,19 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 
 	slot0:UpdateMainInfo()
 	slot0:UpdateRes()
+	slot0:UpdateSkinType()
 	slot0:Show()
+end
+
+function slot0.UpdateSkinType(slot0)
+	slot2 = Goods.ExistFurniture(Goods.FurnitureId2Id(slot0.furniture.id))
+
+	setActive(slot0.skinDesc, slot2)
+	setActive(slot0.skinMark, slot2)
+
+	if slot2 then
+		slot0.skinDescTxt.text = Goods.GetFurnitureConfig(slot1).desc
+	end
 end
 
 function slot0.UpdateRes(slot0)
@@ -125,9 +143,8 @@ function slot0.UpdateMainInfo(slot0)
 	slot1 = slot0.furniture
 	slot0.nameTxt.text = slot1:getConfig("name")
 	slot0.descTxt.text = slot1:getConfig("describe")
-	slot0.icon.sprite = GetSpriteFromAtlas("furnitureicon/" .. slot1:getConfig("icon"), "")
 
-	slot0.icon:SetNativeSize()
+	slot0:UpdateIcon()
 	slot0:UpdatePrice()
 
 	slot2 = slot1:canPurchaseByDormMoeny()
@@ -171,6 +188,19 @@ function slot0.UpdatePrice(slot0)
 	slot0:UpdateEnergy(slot4)
 end
 
+function slot0.UpdateIcon(slot0)
+	if not Goods.ExistFurniture(Goods.FurnitureId2Id(slot0.furniture.id)) then
+		slot0.icon.sprite = GetSpriteFromAtlas("furnitureicon/" .. slot0.furniture:getConfig("icon"), "")
+
+		slot0.icon:SetNativeSize()
+		slot0.interactionView:UnloadSpines()
+	else
+		slot0.interactionView:Flush(Goods.Id2ShipSkinId(slot1), Goods.Id2FurnitureId(slot1), Goods.GetFurnitureConfig(slot1).scale[1] or 1)
+	end
+
+	setActive(slot0.icon.gameObject, not slot2)
+end
+
 function slot0.Show(slot0)
 	uv0.super.Show(slot0)
 	SetParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
@@ -182,6 +212,9 @@ function slot0.Hide(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+	slot0.interactionView:Dispose()
+
+	slot0.interactionView = nil
 end
 
 return slot0

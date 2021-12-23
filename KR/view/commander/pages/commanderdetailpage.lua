@@ -24,8 +24,8 @@ function slot0.OnInit(slot0)
 	slot0.expPanel = slot0:findTF("exp", slot0.commanderInfo)
 	slot0.commanderLevelTxt = slot0:findTF("exp/level", slot0.commanderInfo):GetComponent(typeof(Text))
 	slot0.commanderExpImg = slot0:findTF("exp/Image", slot0.commanderInfo):GetComponent(typeof(Image))
-	slot0.commanderNameTxt = slot0:findTF("name_bg/content/Text", slot0.commanderInfo):GetComponent(typeof(Text))
-	slot0.modifyNameBtn = slot0:findTF("name_bg/content/modify", slot0.commanderInfo)
+	slot0.commanderNameTxt = slot0:findTF("name_bg/mask/Text", slot0.commanderInfo):GetComponent("ScrollText")
+	slot0.modifyNameBtn = slot0:findTF("name_bg/modify", slot0.commanderInfo)
 
 	setActive(slot0.modifyNameBtn, pg.gameset.commander_rename_open.key_value == 1)
 
@@ -159,8 +159,7 @@ function slot0.UpdateInfo(slot0)
 	setActive(slot0.fleetTF, slot1.fleetId and not slot1.inBattle and not slot1.sub)
 	setActive(slot0.leisureTF, not slot1.inFleet and not slot1.inBattle)
 	setActive(slot0.labelInBattleTF, slot1.inBattle)
-
-	slot0.commanderNameTxt.text = slot1:getName()
+	slot0.commanderNameTxt:SetText(slot1:getName())
 end
 
 function slot0.UpdateLevel(slot0, slot1)

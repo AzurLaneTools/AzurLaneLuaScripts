@@ -39,8 +39,9 @@ return {
 				"onSubmarineRaid"
 			},
 			arg_list = {
-				skill_id = 12871,
-				target = "TargetSelf"
+				quota = 1,
+				target = "TargetSelf",
+				skill_id = 12871
 			}
 		},
 		{

@@ -6,7 +6,9 @@ pg.map_event_list = {
 		event_list = {
 			561
 		},
-		event_list_loop = {},
+		event_list_loop = {
+			561
+		},
 		help_pictures = {
 			"helpbg/battle_suligao_1",
 			"helpbg/battle_suligao_2",
@@ -45,7 +47,9 @@ pg.map_event_list = {
 			562,
 			563
 		},
-		event_list_loop = {},
+		event_list_loop = {
+			563
+		},
 		help_pictures = {
 			"helpbg/battle_suligao_1",
 			"helpbg/battle_suligao_2",
@@ -66,7 +70,9 @@ pg.map_event_list = {
 			564,
 			565
 		},
-		event_list_loop = {},
+		event_list_loop = {
+			565
+		},
 		help_pictures = {
 			"helpbg/battle_suligao_11",
 			"helpbg/battle_suligao_1",

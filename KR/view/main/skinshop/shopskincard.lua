@@ -87,7 +87,7 @@ function slot0.update(slot0, slot1)
 		slot12 = slot1.buyCount == 0
 		slot13 = slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit
 
-		if slot0.view.encoreSkinMap[slot1.id] then
+		if slot0.view.encoreSkinMap[slot1.id] and slot12 then
 			setActive(slot0._tagTFs[10], true)
 		elseif slot13 then
 			setActive(slot0._tagTFs[9], true)

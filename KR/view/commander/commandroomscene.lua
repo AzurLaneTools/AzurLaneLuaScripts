@@ -46,6 +46,12 @@ function slot0.setPools(slot0, slot1)
 	slot0:updateRes()
 end
 
+function slot0.OnRecalcQuicklyFinishBoxesCnt(slot0)
+	if slot0.boxesPanel and slot0.boxesPanel:GetLoaded() then
+		slot0.boxesPanel:OnRecalcQuicklyFinishBoxesCnt()
+	end
+end
+
 function slot0.init(slot0)
 	slot0:bind(uv0.ON_QUICKLY_TOOL_WINDOW, function (slot0, slot1)
 		uv0.quicklyToolPage:ExecuteAction("Show", slot1, Item.COMMANDER_QUICKLY_TOOL_ID)
@@ -578,7 +584,7 @@ function slot0.initCommandersPanel(slot0)
 				uv1:updateCommanderInfo()
 
 				if uv1.card then
-					setActive(uv1.card.mark2, false)
+					uv1.card:clearSelected()
 				end
 
 				uv1.card = uv0
@@ -988,6 +994,10 @@ function slot0.willExit(slot0)
 	slot0.contextData.sortData.asc = not slot0.contextData.sortData.asc
 	slot0.contextData.scrollValue = math.min(slot0.commanderRect.value, 1)
 	CommandRoomScene.sortData = slot0.contextData.sortData
+
+	if slot0.mode == CommandRoomScene.MODE_SELECT then
+		getProxy(SettingsProxy):SetCommanderPlaySortData(slot0.sortData)
+	end
 end
 
 return slot0

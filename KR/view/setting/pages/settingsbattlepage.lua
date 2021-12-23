@@ -42,6 +42,12 @@ function slot0.OnLoaded(slot0)
 	slot0.topLayerCg = slot0._parentTf.parent:Find("blur_panel"):GetComponent(typeof(CanvasGroup))
 
 	setActive(slot0._tf, true)
+	setText(slot0._tf:Find("editor/editing_region/mask/middle/Text"), i18n("settings_battle_tip"))
+	setText(slot0._tf:Find("editor/buttons/normal/edit/Image"), i18n("settings_battle_Btn_edit"))
+	setText(slot0._tf:Find("editor/buttons/normal/reset/Image"), i18n("settings_battle_Btn_reset"))
+	setText(slot0._tf:Find("editor/title"), i18n("settings_battle_title"))
+	setText(slot0._tf:Find("editor/buttons/editing/save/Image"), i18n("settings_battle_Btn_save"))
+	setText(slot0._tf:Find("editor/buttons/editing/cancel/Image"), i18n("settings_battle_Btn_cancel"))
 end
 
 function slot0.OnInit(slot0)

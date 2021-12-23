@@ -38,6 +38,9 @@ function slot0.OnInit(slot0)
 		})
 	end, SFX_UI_CLICK)
 	setText(slot0._tf:Find("settings/buttons/soundswitch/Text"), i18n("voice_control"))
+	setText(slot0._tf:Find("settings/bgm/icon/Text"), i18n("settings_sound_title_bgm"))
+	setText(slot0._tf:Find("settings/sfx/icon/Text"), i18n("settings_sound_title_effct"))
+	setText(slot0._tf:Find("settings/cv/icon/Text"), i18n("settings_sound_title_cv"))
 end
 
 function slot0.OnVolumeSwitch(slot0, slot1)

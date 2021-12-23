@@ -16773,6 +16773,18 @@ _G.pg.gametip.world_automode_setting_all_3_2 = {
 	tip = "ON"
 }
 
+_G.pg.gametip.world_automode_setting_all_4 = {
+	tip = "세이렌 장치 발견 시 일시정지"
+}
+
+_G.pg.gametip.world_automode_setting_all_4_1 = {
+	tip = "O"
+}
+
+_G.pg.gametip.world_automode_setting_all_4_2 = {
+	tip = "X"
+}
+
 _G.pg.gametip.area_putong = {
 	tip = "일반 해역"
 }
@@ -18524,4 +18536,121 @@ _G.pg.gametip.cruise_task_help_2112 = {
 (4)「투어 임무 완료 쿠폰」은 <color=#92fc63>이번 이벤트 종료 시 사라지지 않습니다.</color>]]
 		}
 	}
+}
+
+_G.pg.gametip.littleSanDiego_npc = {
+	tip = {
+		{
+			info = "「내일의 스타✩깜짝 등장!」 설명:"
+		},
+		{
+			info = "1. 이벤트 기간 동안, 임시 NPC 캐릭터 꼬마 샌디에이고를 획득할 수 있습니다. 임시 캐릭터는 서약 및 퇴역이 불가하며, 한계돌파 강화 재료로 선택될 수 없습니다."
+		},
+		{
+			info = "2. 이벤트 기간 동안, 일반 난이도 3장 이후의 메인 해역을 클리어하면, 임시 NPC 캐릭터 꼬마 샌디에이고의 호감도를 누적할 수 있습니다. (대형 작전 포함 안함)"
+		},
+		{
+			info = "3. 꼬마 샌디에이고를 편성 및 생존한 상태로 클리어할 경우 2배의 호감도를 얻을 수 있습니다."
+		},
+		{
+			info = "4. 이벤트 종료 전 1000 호감도 누적 획득 시, 보상을 수령할 수 있으며 임시 캐릭터 「꼬마 샌디에이고」가 영구 캐릭터로 전환됩니다."
+		},
+		{
+			info = "5. 이벤트 종료 후, 영구 전환되지 않은 임시 캐릭터 「꼬마 샌디에이고」는 모항을 떠납니다. 이미 소모한 강화, 한계돌파 등 육성 재료는 반환되지 않습니다."
+		},
+		{
+			info = "6. NPC 캐릭터는 대형 작전에 참여할 수 없습니다."
+		},
+		{
+			info = "7. NPC 캐릭터는 대함대 작전의 사건에 파견할 수 없으며, 지원파견, 보스전에 참여할 수 없습니다."
+		}
+	}
+}
+
+_G.pg.gametip.tag_ship_unlocked = {
+	tip = "도감 해제됨"
+}
+
+_G.pg.gametip.tag_ship_locked = {
+	tip = "도감 미해제"
+}
+
+_G.pg.gametip.acceleration_tips_1 = {
+	tip = "<color=#66472a><size=34>냥박스 훈련 가속 아이템을 $1개 사용하여\n$2개의 냥박스를 가속하시겠습니까?</size></color>"
+}
+
+_G.pg.gametip.acceleration_tips_2 = {
+	tip = "<color=#827c7c><size=26>(가속 후 냥박스 R형 $1개, 냥박스 SR형 $2개, 냥박스 SSR형 $3개 완료)</size></color>"
+}
+
+_G.pg.gametip.noacceleration_tips = {
+	tip = "현재 가속할 수 있는 냥박스가 없습니다."
+}
+
+_G.pg.gametip.word_shipskin = {
+	tip = "특수"
+}
+
+_G.pg.gametip.settings_sound_title_bgm = {
+	tip = "배경음악"
+}
+
+_G.pg.gametip.settings_sound_title_effct = {
+	tip = "효과음"
+}
+
+_G.pg.gametip.settings_sound_title_cv = {
+	tip = "보이스"
+}
+
+_G.pg.gametip.setting_resdownload_title_gallery = {
+	tip = "삽화 리소스 업데이트"
+}
+
+_G.pg.gametip.setting_resdownload_title_live2d = {
+	tip = "live2D 리소스 업데이트"
+}
+
+_G.pg.gametip.setting_resdownload_title_music = {
+	tip = "BGM 리소스 업데이트"
+}
+
+_G.pg.gametip.setting_resdownload_title_sound = {
+	tip = "보이스 리소스 업데이트"
+}
+
+_G.pg.gametip.settings_battle_title = {
+	tip = "버튼 위치"
+}
+
+_G.pg.gametip.settings_battle_tip = {
+	tip = "편집을 터치하여 버튼 위치 변경"
+}
+
+_G.pg.gametip.settings_battle_Btn_edit = {
+	tip = "편 집"
+}
+
+_G.pg.gametip.settings_battle_Btn_reset = {
+	tip = "초기화"
+}
+
+_G.pg.gametip.settings_battle_Btn_save = {
+	tip = "저 장"
+}
+
+_G.pg.gametip.settings_battle_Btn_cancel = {
+	tip = "취 소"
+}
+
+_G.pg.gametip.settings_pwd_label_close = {
+	tip = "OFF"
+}
+
+_G.pg.gametip.settings_pwd_label_open = {
+	tip = "ON"
+}
+
+_G.pg.gametip.word_frame = {
+	tip = "FPS"
 }

@@ -39,6 +39,8 @@ function slot0.OnInit(slot0)
 	slot0.transcodeTxt = findTF(slot0.transcodeUI, "password/Text")
 	slot0.getCodeBtn = findTF(slot0.transcodeUI, "publish_transcode")
 	slot0.codeDesc = findTF(slot0.transcodeUI, "title_desc")
+
+	slot0:OnRegisterEvent()
 end
 
 function slot0.OnRegisterEvent(slot0)

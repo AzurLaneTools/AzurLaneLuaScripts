@@ -165,6 +165,78 @@ pg.activity_task_permanent = {
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
+	[6007] = {
+		gametip = "와카바 한정 스킨 「한정 성탄 Wakaba」 획득 가능",
+		banner_route = "permanent_ruoyeshengdan",
+		gametip_extra = "7일만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6007,
+		activity_name = "한정 성탄",
+		over_task_id = "",
+		eliminate_task_id = {
+			35082,
+			35083,
+			35084,
+			35085,
+			35086,
+			35087,
+			35088,
+			35089,
+			35090,
+			35091,
+			35092,
+			35093,
+			35094,
+			35095
+		}
+	},
+	[6008] = {
+		gametip = "오오시오 한정 스킨 「순록과 성탄 선물」 획득 가능",
+		banner_route = "permanent_dachaoshengdan",
+		gametip_extra = "7일만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6008,
+		activity_name = "성탄 선물 대작전",
+		over_task_id = "",
+		eliminate_task_id = {
+			35096,
+			35097,
+			35098,
+			35099,
+			35100,
+			35101,
+			35102,
+			35103,
+			35104,
+			35105,
+			35106,
+			35107,
+			35108,
+			35109
+		}
+	},
+	[6009] = {
+		gametip = "그리들리 한정 스킨 「성야의 촬영회!」 획득 가능",
+		banner_route = "permanent_gelidelishengdan",
+		gametip_extra = "8일만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6009,
+		activity_name = "사랑과 평화의 성야제",
+		over_task_id = "",
+		eliminate_task_id = {
+			35110,
+			35111,
+			35112,
+			35113,
+			35114,
+			35115,
+			35116,
+			35117
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -172,6 +244,9 @@ pg.activity_task_permanent = {
 		6003,
 		6004,
 		6005,
-		6006
+		6006,
+		6007,
+		6008,
+		6009
 	}
 }

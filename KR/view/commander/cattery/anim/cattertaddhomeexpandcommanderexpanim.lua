@@ -44,6 +44,10 @@ function slot0.Action(slot0, slot1, slot2, slot3, slot4, slot5)
 	}, slot5)
 end
 
+function slot0.HideOrShowAddition(slot0, slot1)
+	setActive(slot0.addition, slot1 > 0)
+end
+
 function slot0.GetAwardOffset(slot0)
 	return 473
 end

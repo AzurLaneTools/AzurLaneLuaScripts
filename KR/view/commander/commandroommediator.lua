@@ -16,6 +16,7 @@ slot0.ON_LOCK = "CommandRoomMediator:ON_LOCK"
 slot0.ON_OPEN_HOME = "CommandRoomMediator:ON_OPEN_HOME"
 slot0.ON_USE_QUICKLY_TOOL = "CommandRoomMediator:ON_USE_QUICKLY_TOOL"
 slot0.ON_OPEN_SCENE = "CommandRoomMediator:ON_OPEN_SCENE"
+slot0.ONE_KEY_FINISH_ALL = "CommandRoomMediator:ONE_KEY_FINISH_ALL"
 
 function slot0.remove(slot0)
 	slot0:sendNotification(GAME.OPEN_OR_CLOSE_CATTERY, {
@@ -26,6 +27,13 @@ end
 function slot0.register(slot0)
 	slot2 = getProxy(CommanderProxy)
 
+	slot0:bind(uv0.ONE_KEY_FINISH_ALL, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.COMMANDER_QUICKLY_FINISH_BOXES, {
+			itemCnt = slot1,
+			affectCnt = slot2,
+			finishCnt = slot3
+		})
+	end)
 	slot0:bind(uv0.ON_OPEN_SCENE, function (slot0)
 		uv0:sendNotification(GAME.OPEN_OR_CLOSE_CATTERY, {
 			open = true
@@ -259,7 +267,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.COMMANDER_CATTERY_OP_DONE,
 		GAME.PUT_COMMANDER_IN_CATTERY_DONE,
 		GAME.ZERO_HOUR_OP_DONE,
-		GAME.REFRESH_COMMANDER_BOXES_DONE
+		GAME.REFRESH_COMMANDER_BOXES_DONE,
+		GAME.COMMANDER_QUICKLY_FINISH_BOXES_ERROR
 	}
 end
 
@@ -356,6 +365,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateBoxes()
 	elseif slot2 == GAME.COMMANDER_CATTERY_OP_DONE or slot2 == GAME.ZERO_HOUR_OP_DONE or slot2 == GAME.PUT_COMMANDER_IN_CATTERY_DONE then
 		slot0.viewComponent:UpdateHomeTip()
+	elseif slot2 == GAME.COMMANDER_QUICKLY_FINISH_BOXES_ERROR then
+		slot0.viewComponent:OnRecalcQuicklyFinishBoxesCnt()
 	end
 end
 

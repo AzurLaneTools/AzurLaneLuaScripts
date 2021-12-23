@@ -5,6 +5,7 @@ slot0.EVENT_GET_AWARD = "CrusingMediator.EVENT_GET_AWARD"
 slot0.EVENT_GET_AWARD_PAY = "CrusingMediator.EVENT_GET_AWARD_PAY"
 slot0.EVENT_GET_AWARD_ALL = "CrusingMediator.EVENT_GET_AWARD_ALL"
 slot0.EVENT_GO_CHARGE = "CrusingMediator.EVENT_GO_CHARGE"
+slot0.EVENT_OPEN_BIRTHDAY = "CrusingMediator.EVENT_OPEN_BIRTHDAY"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.EVENT_OPEN_TASK, function (slot0)
@@ -35,10 +36,21 @@ function slot0.register(slot0)
 			activity_id = uv0.viewComponent.activity.id
 		})
 	end)
-	slot0:bind(uv0.EVENT_GO_CHARGE, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-			wrap = ChargeScene.TYPE_GIFT
-		})
+	slot0:bind(uv0.EVENT_GO_CHARGE, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ChargeItemPanelMediator,
+			viewComponent = ChargeItemPanelLayer,
+			data = {
+				panelConfig = slot1
+			}
+		}))
+	end)
+	slot0:bind(uv0.EVENT_OPEN_BIRTHDAY, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ChargeBirthdayMediator,
+			viewComponent = ChargeBirthdayLayer,
+			data = {}
+		}))
 	end)
 	slot0.viewComponent:setActivity(getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING))
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())

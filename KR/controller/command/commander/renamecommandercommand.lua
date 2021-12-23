@@ -20,7 +20,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if not nameValidityCheck(slot4, 0, 12, {
+	if not nameValidityCheck(slot4, 0, 20, {
 		"spece_illegal_tip",
 		"login_newPlayerScene_name_tooShort",
 		"login_newPlayerScene_name_tooLong",

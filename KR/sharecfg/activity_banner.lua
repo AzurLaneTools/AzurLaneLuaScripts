@@ -1,38 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "7002",
-		time = "stop",
-		type = 3,
+		param = "20920",
 		id = 1,
-		pic = "temp1"
-	},
-	{
-		id = 2,
-		pic = "temp2",
-		time = "stop",
-		type = 2,
-		param = {
-			"metacharacter",
-			{
-				autoOpenShipConfigID = 9704010
-			}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp3",
-		type = 2,
-		param = {
-			"scene level",
-			{}
-		},
+		pic = "temp1",
+		type = 3,
 		time = {
 			{
 				{
 					2021,
 					12,
-					16
+					23
 				},
 				{
 					0,
@@ -42,9 +20,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					30
+					2022,
+					1,
+					19
 				},
 				{
 					23,
@@ -55,8 +33,40 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 4,
-		pic = "temp4",
+		param = "20918",
+		id = 2,
+		pic = "temp2",
+		type = 3,
+		time = {
+			{
+				{
+					2021,
+					12,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 3,
+		pic = "temp3",
 		type = 2,
 		param = {
 			"scene skinshop",
@@ -67,7 +77,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					2
+					23
 				},
 				{
 					0,
@@ -77,9 +87,41 @@ pg.activity_banner = {
 			},
 			{
 				{
+					2022,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "20916",
+		id = 4,
+		pic = "temp4",
+		type = 3,
+		time = {
+			{
+				{
 					2021,
 					12,
-					15
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					13
 				},
 				{
 					23,
@@ -101,7 +143,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					2
+					23
 				},
 				{
 					0,
@@ -111,9 +153,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					15
+					2022,
+					1,
+					12
 				},
 				{
 					23,
@@ -124,21 +166,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "20914",
 		id = 6,
 		pic = "temp6",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2021,
 					12,
-					2
+					23
 				},
 				{
 					0,
@@ -148,9 +185,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2021,
-					12,
-					15
+					2022,
+					1,
+					5
 				},
 				{
 					23,
@@ -174,8 +211,8 @@ pg.activity_banner = {
 			{
 				{
 					2021,
-					12,
-					2
+					11,
+					25
 				},
 				{
 					0,
@@ -187,7 +224,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					15
+					8
 				},
 				{
 					23,
@@ -207,7 +244,7 @@ pg.activity_banner = {
 				{
 					2021,
 					10,
-					28
+					21
 				},
 				{
 					0,
@@ -219,7 +256,7 @@ pg.activity_banner = {
 				{
 					2021,
 					11,
-					24
+					17
 				},
 				{
 					23,
@@ -239,7 +276,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					2
+					16
 				},
 				{
 					0,
@@ -251,7 +288,7 @@ pg.activity_banner = {
 				{
 					2021,
 					12,
-					15
+					22
 				},
 				{
 					23,
@@ -262,16 +299,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "해군 카레|단맛? 매운맛? 취향은 사람마다 제각각...<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
+		param = "지팡이 사탕|최초의 지팡이 사탕은 하얀색이래요.<color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
 		id = 10,
-		pic = "haijungali",
+		pic = "christmas",
 		type = 10,
 		time = {
 			{
 				{
 					2021,
-					9,
-					30
+					12,
+					23
 				},
 				{
 					0,
@@ -283,7 +320,7 @@ pg.activity_banner = {
 				{
 					2022,
 					9,
-					23
+					16
 				},
 				{
 					0,

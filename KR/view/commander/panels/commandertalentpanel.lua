@@ -156,7 +156,7 @@ function slot0.update(slot0, slot1)
 
 	slot0:removeTimer()
 
-	slot2 = slot1.abilityTime + CommanderConst.RESET_TALENT_WAIT_TIME
+	slot2 = slot1:GetNextResetAbilityTime()
 	slot3 = pg.TimeMgr.GetInstance():GetServerTime()
 
 	setActive(slot0.resetTimeBtn, slot0.commanderVO:getPt() > 0 or slot3 < slot2)

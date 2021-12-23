@@ -20,6 +20,12 @@ function slot0.OnClearExchangeCode(slot0)
 	end
 end
 
+function slot0.OnSecondPwdStateChange(slot0)
+	if slot0:GetPanel(SettingsSecondPwLimitedOpPanle) then
+		slot1:UpdateBtnsState()
+	end
+end
+
 function slot0.GetPanels(slot0)
 	slot1 = {
 		SettingsSecondPasswordPanle,

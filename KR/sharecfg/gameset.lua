@@ -1280,6 +1280,20 @@ pg.gameset = {
 			1905
 		}
 	},
+	world_planning_stop_event2 = {
+		key_value = 0,
+		description = {
+			1101,
+			1106,
+			1107,
+			1108,
+			1109,
+			1401,
+			1406,
+			1407,
+			1408
+		}
+	},
 	commander_exp_a = {
 		description = "",
 		key_value = 7000
@@ -1295,6 +1309,10 @@ pg.gameset = {
 	commander_ability_reset_coldtime = {
 		description = "",
 		key_value = 86400
+	},
+	commander_ability_reset_time = {
+		description = "",
+		key_value = 1
 	},
 	commander_learn_ability_total = {
 		description = "",

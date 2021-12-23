@@ -1951,6 +1951,27 @@ _G.pg.item_data_statistics[1013] = {
 	index = {}
 }
 
+_G.pg.item_data_statistics[1014] = {
+	display = "크리스마스 이브, 모두가 행복하고 안녕하길.",
+	name = "크리스마스의 선물",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	id = 1014,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
 _G.pg.item_data_statistics[10000] = {
 	display = "함정수리설비 T2 설계도",
 	name = "함정 수리설비 T2 설계도",
@@ -143098,6 +143119,48 @@ _G.pg.item_data_statistics[59254] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59254,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59255] = {
+	display = "이벤트[내일의 스타? 깜짝 등장!] 중 캐릭터의 호감도 증가에 사용됩니다, 이벤트 종료 후 사라집니다. ",
+	name = "호감도-꼬마 샌디에이고",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/shengdiyagePT",
+	id = 59255,
+	display_icon = {},
+	price = {},
+	index = {}
+}
+
+_G.pg.item_data_statistics[59256] = {
+	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "훈련 PT ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	shiptrans_id = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 59256,
 	display_icon = {},
 	price = {},
 	index = {}

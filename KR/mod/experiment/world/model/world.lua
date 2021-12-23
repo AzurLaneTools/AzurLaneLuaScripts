@@ -1165,7 +1165,7 @@ function slot0.TriggerAutoFight(slot0, slot1, slot2)
 		pg.m02:sendNotification(GAME.WORLD_TRIGGER_AUTO_FIGHT)
 	end
 
-	if not slot2 and not slot1 then
+	if not slot1 then
 		slot0:TriggerAutoSwitch(false)
 	end
 end

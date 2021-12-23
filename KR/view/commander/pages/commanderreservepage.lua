@@ -16,6 +16,7 @@ function slot0.OnInit(slot0)
 	slot0.totalTxt = slot0.bg1:Find("price_all/Text"):GetComponent(typeof(Text))
 	slot0.firstTip = slot0.bg1:Find("firstTip")
 	slot0.confirmBtn = slot0.bg1:Find("Button")
+	slot0.maxBtn = slot0.bg1:Find("max")
 	slot0.bg2 = slot0._tf:Find("frame/bg2")
 	slot0.box1 = slot0.bg2:Find("boxes/1"):GetComponent(typeof(Image))
 	slot0.box2 = slot0.bg2:Find("boxes/2"):GetComponent(typeof(Image))
@@ -65,6 +66,23 @@ function slot0.OnInit(slot0)
 
 		uv0.animtion:Stop()
 		uv0:endAnim()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.maxBtn, function ()
+		slot1 = getProxy(PlayerProxy):getRawData():getResById(1)
+		slot2 = 0
+		slot3 = 0
+
+		for slot8 = uv0.count, uv0.count + CommanderConst.MAX_GETBOX_CNT - uv0.count - 1 do
+			if slot1 < slot3 + CommanderConst.getBoxComsume(slot8) then
+				break
+			else
+				slot2 = slot2 + 1
+			end
+		end
+
+		uv0.currCnt = math.max(1, slot2)
+
+		uv0:updateValue()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0.currCnt > 0 then

@@ -30,10 +30,12 @@ end
 function slot0.UpdateItem(slot0, slot1, slot2)
 	slot3 = slot0.list[slot1]
 	slot4 = slot3.key
+	slot5 = findTF(slot2, "mask/Text")
+	slot5 = slot5:GetComponent("ScrollText")
 
-	setText(findTF(slot2, "Text"), slot3.title)
+	slot5:SetText(slot3.title)
 
-	slot5 = pg.SecondaryPWDMgr.GetInstance()
+	slot6 = pg.SecondaryPWDMgr.GetInstance()
 
 	onButton(slot0, slot2, function ()
 		slot1 = nil
@@ -62,6 +64,10 @@ function slot0.UpdateItem(slot0, slot1, slot2)
 end
 
 function slot0.UpdateBtnsState(slot0)
+	if not slot0:IsLoaded() then
+		return
+	end
+
 	function slot1(slot0, slot1)
 		slot3 = table.contains(uv0.rawdata.system_list, slot0.key)
 		slot1:GetComponent(typeof(Button)).interactable = uv0.rawdata.state > 0

@@ -1,5 +1,323 @@
 pg = pg or {}
 pg.ship_skin_template_18 = {
+	[900212] = {
+		ship_group = 900212,
+		name = "나츠이로 마츠리 ",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 900212,
+		group_index = 0,
+		prefab = "vtuber_matsuri",
+		painting = "vtuber_matsuri_wjz",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "嗨多磨~！我是绊爱！你就是传说中的指挥官吗？接下来请多指教啦！",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.152,
+					1.077,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.002,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.169,
+					1.101,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.493,
+							2.318,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[900213] = {
+		ship_group = 900213,
+		name = "나키리 아야메 ",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 900213,
+		group_index = 0,
+		prefab = "vtuber_ayame",
+		painting = "vtuber_ayame_wjz",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "嗨多磨~！我是绊爱！你就是传说中的指挥官吗？接下来请多指教啦！",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.566,
+					1.322,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.002,
+					-0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.538,
+					1.332,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[900214] = {
+		ship_group = 900214,
+		name = "무라사키 시온 ",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 900214,
+		group_index = 0,
+		prefab = "vtuber_shion",
+		painting = "vtuber_shion_wjz",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "嗨多磨~！我是绊爱！你就是传说中的指挥官吗？接下来请多指教啦！",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.485,
+					1.133,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.009,
+					-0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.477,
+					1.156,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.323,
+							2.372,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[900215] = {
 		ship_group = 900215,
 		name = "오오카미 미오 ",
@@ -16,6 +334,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -31,7 +350,7 @@ pg.ship_skin_template_18 = {
 		desc = "嗨多磨~！我是绊爱！你就是传说中的指挥官吗？接下来请多指教啦！",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -121,6 +440,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -136,7 +456,7 @@ pg.ship_skin_template_18 = {
 		desc = "黛朵世界BOSS",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -226,6 +546,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -241,7 +562,7 @@ pg.ship_skin_template_18 = {
 		desc = "키로프",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -331,6 +652,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -346,7 +668,7 @@ pg.ship_skin_template_18 = {
 		desc = "소비에츠키 소유즈",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -436,6 +758,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -451,7 +774,7 @@ pg.ship_skin_template_18 = {
 		desc = "오미터",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -541,6 +864,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -556,7 +880,7 @@ pg.ship_skin_template_18 = {
 		desc = "苏维埃罗西亚黑脸",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -646,6 +970,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -661,7 +986,7 @@ pg.ship_skin_template_18 = {
 		desc = "甘古特黑脸",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -751,6 +1076,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -766,7 +1092,7 @@ pg.ship_skin_template_18 = {
 		desc = "塔什干黑脸",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -856,6 +1182,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -871,7 +1198,7 @@ pg.ship_skin_template_18 = {
 		desc = "恰巴耶夫黑脸",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -961,6 +1288,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -976,7 +1304,7 @@ pg.ship_skin_template_18 = {
 		desc = "威严黑脸",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1066,6 +1394,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1081,7 +1410,7 @@ pg.ship_skin_template_18 = {
 		desc = "水星纪念黑脸",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1171,6 +1500,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1186,7 +1516,7 @@ pg.ship_skin_template_18 = {
 		desc = "苏维埃同盟",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1276,6 +1606,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1291,7 +1622,7 @@ pg.ship_skin_template_18 = {
 		desc = "约克城级航空母舰—企业，舷号CV-6",
 		voice_actor = 31,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1387,6 +1718,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1402,7 +1734,7 @@ pg.ship_skin_template_18 = {
 		desc = "蓝腮鱼",
 		voice_actor = 31,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1498,6 +1830,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1513,7 +1846,7 @@ pg.ship_skin_template_18 = {
 		desc = "构建者黑色剪影",
 		voice_actor = -1,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1603,6 +1936,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1618,7 +1952,7 @@ pg.ship_skin_template_18 = {
 		desc = "构建者",
 		voice_actor = 31,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1714,6 +2048,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1729,7 +2064,7 @@ pg.ship_skin_template_18 = {
 		desc = "净化者黑色剪影",
 		voice_actor = 31,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1825,6 +2160,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1840,7 +2176,7 @@ pg.ship_skin_template_18 = {
 		desc = "观察者",
 		voice_actor = 31,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -1936,6 +2272,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -1951,7 +2288,7 @@ pg.ship_skin_template_18 = {
 		desc = "净化者",
 		voice_actor = 31,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2047,6 +2384,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2062,7 +2400,7 @@ pg.ship_skin_template_18 = {
 		desc = "构建者",
 		voice_actor = 31,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2158,6 +2496,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2173,7 +2512,7 @@ pg.ship_skin_template_18 = {
 		desc = "泛用型布里，可以用于精锐以下所有角色的突破",
 		voice_actor = 72,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2276,6 +2615,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2291,7 +2631,7 @@ pg.ship_skin_template_18 = {
 		desc = "沃克兰",
 		voice_actor = 72,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2394,6 +2734,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2409,7 +2750,7 @@ pg.ship_skin_template_18 = {
 		desc = "可怖",
 		voice_actor = 72,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2512,6 +2853,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2527,7 +2869,7 @@ pg.ship_skin_template_18 = {
 		desc = "阿尔及利亚？",
 		voice_actor = 72,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2630,6 +2972,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2645,7 +2988,7 @@ pg.ship_skin_template_18 = {
 		desc = "让·巴尔黑色剪影",
 		voice_actor = 72,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2748,6 +3091,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = -1,
@@ -2762,7 +3106,7 @@ pg.ship_skin_template_18 = {
 		desc = "벤슨급 구축함·라피 (DD-459)",
 		voice_actor = 35,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -2881,6 +3225,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = -1,
@@ -2895,7 +3240,7 @@ pg.ship_skin_template_18 = {
 		desc = "J급 구축함·재블린 (F61)",
 		voice_actor = 23,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3014,6 +3359,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = -1,
@@ -3028,7 +3374,7 @@ pg.ship_skin_template_18 = {
 		desc = "1936년 A형 「나르비크」 구축함·Z23\n<color=#ffde38>획득 후 건조 개방</color>",
 		voice_actor = 3,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3154,6 +3500,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 2,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = -1,
@@ -3168,7 +3515,7 @@ pg.ship_skin_template_18 = {
 		desc = "특Ⅱ형 구축함 1번함·아야나미",
 		voice_actor = 32,
 		spine_offset = "",
-		illustrator = 2,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3281,6 +3628,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3296,7 +3644,7 @@ pg.ship_skin_template_18 = {
 		desc = "비스마르크급 전함 - 티르피츠",
 		voice_actor = 36,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3406,6 +3754,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 21,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3421,7 +3770,7 @@ pg.ship_skin_template_18 = {
 		desc = "항공모함 그라프 체펠린",
 		voice_actor = 9,
 		spine_offset = "",
-		illustrator = 21,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3517,6 +3866,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 32,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3532,7 +3882,7 @@ pg.ship_skin_template_18 = {
 		desc = "샤른호르스트급 전함 - 그나이제나우",
 		voice_actor = 26,
 		spine_offset = "",
-		illustrator = 32,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3642,6 +3992,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 14,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3657,7 +4008,7 @@ pg.ship_skin_template_18 = {
 		desc = "쇼카쿠형 항공모함·쇼카쿠",
 		voice_actor = 46,
 		spine_offset = "",
-		illustrator = 14,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3740,6 +4091,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 14,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3755,7 +4107,7 @@ pg.ship_skin_template_18 = {
 		desc = "쇼카쿠형 항공모함·즈이카쿠",
 		voice_actor = 46,
 		spine_offset = "",
-		illustrator = 14,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3838,6 +4190,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3853,7 +4206,7 @@ pg.ship_skin_template_18 = {
 		desc = "지휘관 나리! 지금의 야마시로는, 포격도, 항공전도, 뭐~든지 할 수 있다고요! 그러니까, 그러니까, 많이 더 많~이 의지해주세요! 알았죠 나리! 나으리이~!",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -3950,6 +4303,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3965,7 +4319,7 @@ pg.ship_skin_template_18 = {
 		desc = "노스캐롤라이나급 전함 노스캐롤라이나 (BB-55)",
 		voice_actor = 39,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4055,6 +4409,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4070,7 +4425,7 @@ pg.ship_skin_template_18 = {
 		desc = "노스캐롤라이나급 전함 워싱턴 (BB-56)",
 		voice_actor = 3,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4160,6 +4515,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4175,7 +4531,7 @@ pg.ship_skin_template_18 = {
 		desc = "요크타운급 항공모함·엔터프라이즈 (CV-6)",
 		voice_actor = 31,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4271,6 +4627,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 14,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4286,7 +4643,7 @@ pg.ship_skin_template_18 = {
 		desc = "킹 조지 V급 전함 - 듀크 오브 요크 (HMS Duke of York)",
 		voice_actor = 79,
 		spine_offset = "",
-		illustrator = 14,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4383,6 +4740,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4398,7 +4756,7 @@ pg.ship_skin_template_18 = {
 		desc = "일러스트리어스급 항공모함 - 빅토리어스 (HMS Victorious)",
 		voice_actor = 94,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4481,6 +4839,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4496,7 +4855,7 @@ pg.ship_skin_template_18 = {
 		desc = "시키시마급 전함 4번함 - 미카사",
 		voice_actor = 47,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4593,6 +4952,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4608,7 +4968,7 @@ pg.ship_skin_template_18 = {
 		desc = "사우스다코타급 전함 매사추세츠(BB-59)",
 		voice_actor = 131,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4705,6 +5065,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 11,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4720,7 +5081,7 @@ pg.ship_skin_template_18 = {
 		desc = "어드미럴급 순양전함·후드 (HMS Hood)",
 		voice_actor = 36,
 		spine_offset = "",
-		illustrator = 11,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4823,6 +5184,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 18,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4838,7 +5200,7 @@ pg.ship_skin_template_18 = {
 		desc = "아크 로열급 항공모함·아크 로열 (HMS Ark Royal)",
 		voice_actor = 5,
 		spine_offset = "",
-		illustrator = 18,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -4934,6 +5296,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -4949,7 +5312,7 @@ pg.ship_skin_template_18 = {
 		desc = "아카기형 항공모함·아카기",
 		voice_actor = 44,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5045,6 +5408,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5060,7 +5424,7 @@ pg.ship_skin_template_18 = {
 		desc = "카가형 항공모함·카가",
 		voice_actor = 9,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5156,6 +5520,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 11,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5171,7 +5536,7 @@ pg.ship_skin_template_18 = {
 		desc = "리나운급 순양전함·리나운 (HMS Renown)",
 		voice_actor = 9,
 		spine_offset = "",
-		illustrator = 11,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5274,6 +5639,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5289,7 +5655,7 @@ pg.ship_skin_template_18 = {
 		desc = "킹 조지 V급 전함 - 킹 조지 5세(HMS King George V)",
 		voice_actor = 183,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5379,6 +5745,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 19,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5394,7 +5761,7 @@ pg.ship_skin_template_18 = {
 		desc = "퀸 엘리자베스급 전함·워스파이트 (HMS Warspite)",
 		voice_actor = 28,
 		spine_offset = "",
-		illustrator = 19,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5507,6 +5874,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5522,7 +5890,7 @@ pg.ship_skin_template_18 = {
 		desc = "일러스트리어스급 항공모함·일러스트리어스 (HMS Illustrious)",
 		voice_actor = 6,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5618,6 +5986,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5633,7 +6002,7 @@ pg.ship_skin_template_18 = {
 		desc = "일러스트리어스급 항공모함—포미더블, 현호 67",
 		voice_actor = 89,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5716,6 +6085,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5731,7 +6101,7 @@ pg.ship_skin_template_18 = {
 		desc = "소련급 전함—소비에츠카야 러시아",
 		voice_actor = 85,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5828,6 +6198,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5843,7 +6214,7 @@ pg.ship_skin_template_18 = {
 		desc = "강구트급 전함—강구트",
 		voice_actor = 222,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -5940,6 +6311,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 10,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -5955,7 +6327,7 @@ pg.ship_skin_template_18 = {
 		desc = "렉싱턴급 항공모함·새러토가 (CV-3)",
 		voice_actor = 28,
 		spine_offset = "",
-		illustrator = 10,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6058,6 +6430,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6073,7 +6446,7 @@ pg.ship_skin_template_18 = {
 		desc = "에식스급 항공모함 - 에식스 (CV-9)",
 		voice_actor = 149,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6156,6 +6529,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 8,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6171,7 +6545,7 @@ pg.ship_skin_template_18 = {
 		desc = "에식스급 항공모함—인트레피드, 현호 CV-11",
 		voice_actor = 225,
 		spine_offset = "",
-		illustrator = 8,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6254,6 +6628,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6269,7 +6644,7 @@ pg.ship_skin_template_18 = {
 		desc = "에식스급 항공모함 - 벙커힐(CV-17)",
 		voice_actor = 179,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6352,6 +6727,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6367,7 +6743,7 @@ pg.ship_skin_template_18 = {
 		desc = "아이리스 리브레 리슐리외급 전함—리슐리외",
 		voice_actor = 148,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6464,6 +6840,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6479,7 +6856,7 @@ pg.ship_skin_template_18 = {
 		desc = "아이리스 리브레 항공모함—베아른",
 		voice_actor = 235,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6569,6 +6946,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6584,7 +6962,7 @@ pg.ship_skin_template_18 = {
 		desc = "퀸 엘리자베스급 전함-밸리언트, 현호02",
 		voice_actor = 240,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6681,6 +7059,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6696,7 +7075,7 @@ pg.ship_skin_template_18 = {
 		desc = "어태커급 항공모함 - 체이서 (HMS Chaser)",
 		voice_actor = 241,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6800,6 +7179,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6815,7 +7195,7 @@ pg.ship_skin_template_18 = {
 		desc = "항공모함-이글",
 		voice_actor = 239,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -6919,6 +7299,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6934,7 +7315,7 @@ pg.ship_skin_template_18 = {
 		desc = "나가토급 전함 1번함 - 나가토",
 		voice_actor = 11,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7024,6 +7405,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 14,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7039,7 +7421,7 @@ pg.ship_skin_template_18 = {
 		desc = "레인저급 항공모함·레인저 (CV-4)",
 		voice_actor = 74,
 		spine_offset = "",
-		illustrator = 14,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7135,6 +7517,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = -1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7150,7 +7533,7 @@ pg.ship_skin_template_18 = {
 		desc = "카가급 전함 1번함 - 카가",
 		voice_actor = 9,
 		spine_offset = "",
-		illustrator = -1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7240,6 +7623,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 23,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7255,7 +7639,7 @@ pg.ship_skin_template_18 = {
 		desc = "호쇼형 항공모함·호쇼",
 		voice_actor = 58,
 		spine_offset = "",
-		illustrator = 23,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7358,6 +7742,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7373,7 +7758,7 @@ pg.ship_skin_template_18 = {
 		desc = "넬슨급 전함·로드니 (HMS Rodney)",
 		voice_actor = 32,
 		spine_offset = "",
-		illustrator = 1,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7476,6 +7861,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7491,7 +7877,7 @@ pg.ship_skin_template_18 = {
 		desc = "후소형 전함 2번함·야마시로",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7601,6 +7987,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7616,7 +8003,7 @@ pg.ship_skin_template_18 = {
 		desc = "领航员-TB",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7726,6 +8113,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7741,7 +8129,7 @@ pg.ship_skin_template_18 = {
 		desc = "仲裁者·司特莲库斯·VIII",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7851,6 +8239,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7866,7 +8255,7 @@ pg.ship_skin_template_18 = {
 		desc = "仲裁者·天帕岚斯·XIV",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -7976,6 +8365,7 @@ pg.ship_skin_template_18 = {
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
+		illustrator = 22,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -7991,7 +8381,7 @@ pg.ship_skin_template_18 = {
 		desc = "仲裁者·赫米忒·IX",
 		voice_actor = 71,
 		spine_offset = "",
-		illustrator = 22,
+		gyro = 0,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -8078,344 +8468,6 @@ pg.ship_skin_template_18 = {
 						{
 							0.293,
 							0.826,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900295] = {
-		ship_group = 90295,
-		name = "요크 타운",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 900295,
-		group_index = 0,
-		prefab = "yuekecheng",
-		painting = "yuekecheng_hei",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "约克城级航空母舰—约克城，舷号CV-5",
-		voice_actor = 42,
-		spine_offset = "",
-		illustrator = 8,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.5,
-					0.8,
-					0
-				},
-				{
-					-0.5,
-					0.8,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.5,
-					0.5,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.549,
-							0.503,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.385,
-							0.667,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900296] = {
-		ship_group = 90296,
-		name = "엔터프라이즈",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 900296,
-		group_index = 0,
-		prefab = "qiye",
-		painting = "qiye_hei",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "约克城级航空母舰—企业，舷号CV-6",
-		voice_actor = 31,
-		spine_offset = "",
-		illustrator = 8,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.802,
-					0.53,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.863,
-					0.643,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.967,
-							0.38,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.14,
-							0.832,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900297] = {
-		ship_group = 90297,
-		name = "호넷",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 900297,
-		group_index = 0,
-		prefab = "dahuangfeng",
-		painting = "dahuangfeng_hei",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "约克城级航空母舰—大黄蜂，舷号CV-8",
-		voice_actor = 24,
-		spine_offset = "",
-		illustrator = 8,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					-0.757,
-					1.097,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.492,
-					0.598,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.76,
-							0.4,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.53,
-							0.21,
 							0
 						}
 					}
