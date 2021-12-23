@@ -19198,3 +19198,19 @@ _G.pg.gametip.settings_pwd_label_open = {
 _G.pg.gametip.word_frame = {
 	tip = "FPS"
 }
+
+_G.pg.gametip.shop_diamond_title = {
+	tip = "ダイヤ購入"
+}
+
+_G.pg.gametip.shop_gift_title = {
+	tip = "割引パック"
+}
+
+_G.pg.gametip.shop_item_title = {
+	tip = "母港機能"
+}
+
+_G.pg.gametip.shop_charge_level_limit = {
+	tip = "Lv    で解放"
+}

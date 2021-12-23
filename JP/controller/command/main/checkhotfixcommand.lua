@@ -26,10 +26,6 @@ function slot0.execute(slot0, slot1)
 			uv0 = false
 
 			if uv1.CurrentVersion.Major < slot0.Major or slot0.Major == uv1.CurrentVersion.Major and uv1.CurrentVersion.Minor < slot0.Minor or slot0.Major == uv1.CurrentVersion.Major and slot0.Minor == uv1.CurrentVersion.Minor and uv1.CurrentVersion.Build < slot0.Build then
-				if nowWorld().isAutoFight then
-					slot1:TriggerAutoFight(false)
-				end
-
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					modal = true,
 					locked = true,

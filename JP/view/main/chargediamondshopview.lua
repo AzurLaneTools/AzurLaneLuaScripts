@@ -138,6 +138,7 @@ function slot0.confirm(slot0, slot1)
 				tipExtra = slot9,
 				extraItems = slot5,
 				price = slot1:getConfig("money"),
+				isLocalPrice = slot1:IsLocalPrice(),
 				tagType = slot4,
 				isMonthCard = slot1:isMonthCard(),
 				tipBonus = slot10,
@@ -160,6 +161,7 @@ function slot0.confirm(slot0, slot1)
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
 				name = slot1:getConfig("name_display"),
 				price = slot1:getConfig("money"),
+				isLocalPrice = slot1:IsLocalPrice(),
 				tagType = slot4,
 				normalTip = i18n("charge_start_tip", slot1:getConfig("money"), slot3 and slot6 + slot1:getConfig("gem") or slot6 + slot1:getConfig("extra_gem")),
 				onYes = function ()
@@ -187,6 +189,7 @@ function slot0.confirm(slot0, slot1)
 		slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_PANEL, {
 			isMonthCard = false,
 			isChargeType = false,
+			isLocalPrice = false,
 			icon = slot4.icon,
 			name = slot4.name,
 			tipExtra = i18n("charge_title_getitem"),
