@@ -27,6 +27,9 @@ function slot0.OnInit(slot0)
 	onInputChanged(slot0, slot0.codeInput, function ()
 		setGray(uv0.achieveBtn, getInputText(uv0.codeInput) == "")
 	end)
+	setText(findTF(slot0._tf, "voucher/prompt"), i18n("Settings_title_Redeem_input_label"))
+	setText(findTF(slot0._tf, "voucher/Placeholder"), i18n("Settings_title_Redeem_input_placeholder"))
+	setText(findTF(slot0._tf, "voucher/submit/Image"), i18n("Settings_title_Redeem_input_submit"))
 end
 
 function slot0.ClearExchangeCode(slot0)

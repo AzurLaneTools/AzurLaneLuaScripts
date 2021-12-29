@@ -128823,7 +128823,9 @@ pg.world_expedition_data = {
 				}
 			}
 		},
-		special_buff_display = {}
+		special_buff_display = {
+			4000
+		}
 	},
 	[315011] = {
 		bgm = "battle-arbitrator-type1",
@@ -129804,7 +129806,9 @@ pg.world_expedition_data = {
 				}
 			}
 		},
-		special_buff_display = {}
+		special_buff_display = {
+			4000
+		}
 	},
 	[315016] = {
 		bgm = "battle-arbitrator-type1",
@@ -130468,7 +130472,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 10000,
-		phase_limit = 1,
+		phase_limit = 2,
 		expedition_sairenvalueB = 3000,
 		id = 315020,
 		battle_type = 1,
@@ -130739,7 +130743,9 @@ pg.world_expedition_data = {
 				}
 			}
 		},
-		special_buff_display = {}
+		special_buff_display = {
+			4000
+		}
 	},
 	[315021] = {
 		bgm = "battle-arbitrator-type1",
@@ -130749,7 +130755,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 10000,
-		phase_limit = 1,
+		phase_limit = 2,
 		expedition_sairenvalueB = 3000,
 		id = 315021,
 		battle_type = 1,
@@ -131030,7 +131036,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 10000,
-		phase_limit = 1,
+		phase_limit = 2,
 		expedition_sairenvalueB = 3000,
 		id = 315022,
 		battle_type = 1,
@@ -131311,7 +131317,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 10000,
-		phase_limit = 1,
+		phase_limit = 2,
 		expedition_sairenvalueB = 3000,
 		id = 315025,
 		battle_type = 1,
@@ -131582,7 +131588,9 @@ pg.world_expedition_data = {
 				}
 			}
 		},
-		special_buff_display = {}
+		special_buff_display = {
+			4000
+		}
 	},
 	[315026] = {
 		bgm = "battle-arbitrator-type1",
@@ -131592,7 +131600,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 10000,
-		phase_limit = 1,
+		phase_limit = 2,
 		expedition_sairenvalueB = 3000,
 		id = 315026,
 		battle_type = 1,
@@ -131873,7 +131881,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 10000,
-		phase_limit = 1,
+		phase_limit = 2,
 		expedition_sairenvalueB = 3000,
 		id = 315027,
 		battle_type = 1,
@@ -132154,7 +132162,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 0,
-		phase_limit = 1,
+		phase_limit = 0,
 		expedition_sairenvalueB = 3000,
 		id = 315030,
 		battle_type = 1,
@@ -132226,7 +132234,9 @@ pg.world_expedition_data = {
 		phase_story = {},
 		phase_drop = {},
 		phase_drop_display = {},
-		special_buff_display = {}
+		special_buff_display = {
+			4000
+		}
 	},
 	[315031] = {
 		bgm = "battle-arbitrator-type1",
@@ -132236,7 +132246,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 0,
-		phase_limit = 1,
+		phase_limit = 0,
 		expedition_sairenvalueB = 3000,
 		id = 315031,
 		battle_type = 1,
@@ -132318,7 +132328,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 0,
-		phase_limit = 1,
+		phase_limit = 0,
 		expedition_sairenvalueB = 3000,
 		id = 315032,
 		battle_type = 1,
@@ -132400,7 +132410,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 0,
-		phase_limit = 1,
+		phase_limit = 0,
 		expedition_sairenvalueB = 3000,
 		id = 315033,
 		battle_type = 1,
@@ -132472,7 +132482,9 @@ pg.world_expedition_data = {
 		phase_story = {},
 		phase_drop = {},
 		phase_drop_display = {},
-		special_buff_display = {}
+		special_buff_display = {
+			4000
+		}
 	},
 	[315034] = {
 		bgm = "battle-arbitrator-type1",
@@ -132482,7 +132494,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 0,
-		phase_limit = 1,
+		phase_limit = 0,
 		expedition_sairenvalueB = 3000,
 		id = 315034,
 		battle_type = 1,
@@ -132564,7 +132576,7 @@ pg.world_expedition_data = {
 		expedition_sairenvalueA = 3000,
 		battle_spine_size = 0,
 		exp_player = 0,
-		phase_limit = 1,
+		phase_limit = 0,
 		expedition_sairenvalueB = 3000,
 		id = 315035,
 		battle_type = 1,

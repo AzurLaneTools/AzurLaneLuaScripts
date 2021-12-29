@@ -57,12 +57,14 @@ end
 
 function slot0.UpdateAward(slot0, slot1, slot2)
 	slot3 = slot0.awards[slot1]
-
-	updateDrop(slot2, {
+	slot4 = {
 		type = slot3[1],
 		id = slot3[2],
 		count = slot3[3]
-	})
+	}
+
+	updateDrop(slot2, slot4)
+	setActive(slot2:Find("icon_bg/count"), slot4.count > 0)
 
 	slot2:Find("icon_bg/frame"):GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 0)
 

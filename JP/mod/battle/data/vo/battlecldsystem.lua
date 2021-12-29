@@ -5,11 +5,12 @@ slot2 = slot0.Battle.BattleConst
 slot3 = Vector3.zero
 slot4 = slot2.OXY_STATE
 slot5 = slot2.BulletType
-slot6 = class("BattleCldSystem")
-slot0.Battle.BattleCldSystem = slot6
-slot6.__name = "BattleCldSystem"
+slot6 = slot0.Battle.BattleAttr
+slot7 = class("BattleCldSystem")
+slot0.Battle.BattleCldSystem = slot7
+slot7.__name = "BattleCldSystem"
 
-function slot6.Ctor(slot0, slot1)
+function slot7.Ctor(slot0, slot1)
 	slot0._proxy = slot1
 
 	slot0:InitCldTree()
@@ -18,7 +19,7 @@ function slot6.Ctor(slot0, slot1)
 	slot0._foeCode = slot1:GetFoeCode()
 end
 
-function slot6.Dispose(slot0)
+function slot7.Dispose(slot0)
 	slot0._proxy = nil
 	slot0._shipTree = nil
 	slot0._foeShipTree = nil
@@ -35,7 +36,7 @@ function slot6.Dispose(slot0)
 	slot0._wallTree = nil
 end
 
-function slot6.InitCldTree(slot0)
+function slot7.InitCldTree(slot0)
 	slot1, slot2, slot3, slot4 = slot0._proxy:GetTotalBounds()
 	slot5 = Vector3(slot3, 0, slot2)
 	slot6 = Vector3(slot4, 0, slot1)
@@ -63,26 +64,22 @@ function slot6.InitCldTree(slot0)
 	slot0._wallTree = pg.ColliderTree.New("wall", slot5, slot6, 2)
 end
 
-function slot6.UpdateShipCldTree(slot0, slot1)
+function slot7.UpdateShipCldTree(slot0, slot1)
 	slot2 = slot1:GetSpeed()
 	slot3 = slot1:GetCldBox()
 	slot4 = nil
-	slot5 = true
-
-	if slot1:GetCldData().Surface == uv0.OXY_STATE.DIVE then
-		slot5 = false
-	end
+	slot5 = not uv0.IsUnitCldImmune(slot1)
 
 	if slot1:GetIFF() == slot0._foeCode then
-		if slot1:GetCldData().FriendlyCld and slot5 then
-			slot1:GetCldData().distList = {}
-
-			if #slot0._foeShipTree:GetCldList(slot3, slot2) > 1 then
-				slot0:HandleEnemyShipCld(slot6, slot1)
-			end
-		end
-
 		if slot5 then
+			if slot1:GetCldData().FriendlyCld then
+				slot1:GetCldData().distList = {}
+
+				if #slot0._foeShipTree:GetCldList(slot3, slot2) > 1 then
+					slot0:HandleEnemyShipCld(slot6, slot1)
+				end
+			end
+
 			slot6 = slot0._shipTree:GetCldList(slot3, slot2)
 
 			slot0._proxy:HandleShipCrashDecelerate(slot1, slot0.surfaceFilterCount(slot1, slot6))
@@ -101,7 +98,7 @@ function slot6.UpdateShipCldTree(slot0, slot1)
 	slot4:Update(slot3)
 end
 
-function slot6.HandlePlayerShipCld(slot0, slot1, slot2)
+function slot7.HandlePlayerShipCld(slot0, slot1, slot2)
 	if slot2:GetCldData().Active == false then
 		return
 	end
@@ -123,7 +120,7 @@ function slot6.HandlePlayerShipCld(slot0, slot1, slot2)
 	slot0._proxy:HandleShipCrashDamageList(slot2, slot5)
 end
 
-function slot6.HandleEnemyShipCld(slot0, slot1, slot2)
+function slot7.HandleEnemyShipCld(slot0, slot1, slot2)
 	if slot2:GetCldData().Active == false then
 		return
 	end
@@ -148,7 +145,7 @@ function slot6.HandleEnemyShipCld(slot0, slot1, slot2)
 	slot3.distList = slot5
 end
 
-function slot6.surfaceFilterCount(slot0, slot1)
+function slot7.surfaceFilterCount(slot0, slot1)
 	slot2 = slot0:GetCldData()
 	slot3 = 0
 
@@ -161,7 +158,7 @@ function slot6.surfaceFilterCount(slot0, slot1)
 	return slot3
 end
 
-function slot6.UpdateAircraftCld(slot0, slot1)
+function slot7.UpdateAircraftCld(slot0, slot1)
 	slot2 = slot1:GetSpeed()
 	slot3 = slot1:GetCldBox()
 	slot4 = nil
@@ -176,7 +173,7 @@ function slot6.UpdateAircraftCld(slot0, slot1)
 	slot0._aircraftTree:Update(slot1:GetCldBox())
 end
 
-function slot6.HandleBulletCldWithAircraft(slot0, slot1, slot2)
+function slot7.HandleBulletCldWithAircraft(slot0, slot1, slot2)
 	for slot7 = 1, #slot1 do
 		if slot1[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true then
 			slot0._proxy:HandleBulletHit(slot0:GetBullet(slot8.UID), slot2)
@@ -184,7 +181,7 @@ function slot6.HandleBulletCldWithAircraft(slot0, slot1, slot2)
 	end
 end
 
-function slot6.UpdateBulletCld(slot0, slot1)
+function slot7.UpdateBulletCld(slot0, slot1)
 	slot2 = slot1:GetEffectField()
 	slot3 = slot1:GetCldBox()
 	slot5, slot6 = nil
@@ -229,7 +226,7 @@ function slot6.UpdateBulletCld(slot0, slot1)
 	slot5:Update(slot3)
 end
 
-function slot6.HandleBulletCldWithShip(slot0, slot1, slot2)
+function slot7.HandleBulletCldWithShip(slot0, slot1, slot2)
 	slot4 = slot2:GetType()
 
 	for slot8 = 1, #slot1 do
@@ -248,7 +245,7 @@ function slot6.HandleBulletCldWithShip(slot0, slot1, slot2)
 	end
 end
 
-function slot6.UpdateAOECld(slot0, slot1)
+function slot7.UpdateAOECld(slot0, slot1)
 	slot2 = slot1:GetCldBox()
 	slot4 = slot1:GetAngle() * math.deg2Rad
 	slot5 = nil
@@ -277,7 +274,7 @@ function slot6.UpdateAOECld(slot0, slot1)
 	slot0:HandleAreaCldWithVehicle(slot1, slot5)
 end
 
-function slot6.HandleAreaCldWithVehicle(slot0, slot1, slot2)
+function slot7.HandleAreaCldWithVehicle(slot0, slot1, slot2)
 	slot3 = slot1:GetCldData()
 	slot4 = slot1:OpponentAffected()
 
@@ -306,7 +303,7 @@ function slot6.HandleAreaCldWithVehicle(slot0, slot1, slot2)
 	end
 end
 
-function slot6.UpdateWallCld(slot0, slot1)
+function slot7.UpdateWallCld(slot0, slot1)
 	slot2 = slot1:GetCldBox()
 
 	if slot1:GetCldObjType() == slot1.CLD_OBJ_TYPE_BULLET then
@@ -320,7 +317,7 @@ function slot6.UpdateWallCld(slot0, slot1)
 	end
 end
 
-function slot6.HandleWallCldWithBullet(slot0, slot1, slot2)
+function slot7.HandleWallCldWithBullet(slot0, slot1, slot2)
 	for slot7 = 1, #slot2 do
 		if slot2[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true and not slot0._proxy:HandleWallHitByBullet(slot1, slot0:GetBullet(slot8.UID)) then
 			return
@@ -328,7 +325,7 @@ function slot6.HandleWallCldWithBullet(slot0, slot1, slot2)
 	end
 end
 
-function slot6.HandleWllCldWithShip(slot0, slot1, slot2)
+function slot7.HandleWllCldWithShip(slot0, slot1, slot2)
 	slot4 = {}
 
 	for slot8 = 1, #slot2 do
@@ -342,7 +339,7 @@ function slot6.HandleWllCldWithShip(slot0, slot1, slot2)
 	slot0._proxy:HandleWallHitByShip(slot1, slot4)
 end
 
-function slot6.InsertToBulletCldTree(slot0, slot1, slot2)
+function slot7.InsertToBulletCldTree(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot2:GetCldData().IFF == slot0._foeCode then
@@ -354,15 +351,15 @@ function slot6.InsertToBulletCldTree(slot0, slot1, slot2)
 	slot3:Insert(slot2:GetCldBox())
 end
 
-function slot6.InsertToAOECldTree(slot0, slot1, slot2)
+function slot7.InsertToAOECldTree(slot0, slot1, slot2)
 	slot0:GetAOETree(slot1):Insert(slot2:GetCldBox())
 end
 
-function slot6.InsertToWallCldTree(slot0, slot1)
+function slot7.InsertToWallCldTree(slot0, slot1)
 	slot0:GetWallTree():Insert(slot1:GetCldBox())
 end
 
-function slot6.InsertToShipCldTree(slot0, slot1)
+function slot7.InsertToShipCldTree(slot0, slot1)
 	slot3 = nil
 
 	if slot1:GetCldData().IFF == slot0._foeCode then
@@ -374,39 +371,39 @@ function slot6.InsertToShipCldTree(slot0, slot1)
 	slot3:Insert(slot1:GetCldBox())
 end
 
-function slot6.InsertToAircraftCldTree(slot0, slot1)
+function slot7.InsertToAircraftCldTree(slot0, slot1)
 	slot0._aircraftTree:Insert(slot1:GetCldBox())
 end
 
-function slot6.GetBulletTree(slot0, slot1)
+function slot7.GetBulletTree(slot0, slot1)
 	return slot0._bulletTreeList[slot1]
 end
 
-function slot6.GetFoeBulletTree(slot0, slot1)
+function slot7.GetFoeBulletTree(slot0, slot1)
 	return slot0._foeBulleetTreeList[slot1]
 end
 
-function slot6.GetAOETree(slot0, slot1)
+function slot7.GetAOETree(slot0, slot1)
 	return slot0._AOETreeList[slot1]
 end
 
-function slot6.GetWallTree(slot0, slot1)
+function slot7.GetWallTree(slot0, slot1)
 	return slot0._wallTree
 end
 
-function slot6.GetShipTree(slot0)
+function slot7.GetShipTree(slot0)
 	return slot0._shipTree
 end
 
-function slot6.GetFoeShipTree(slot0)
+function slot7.GetFoeShipTree(slot0)
 	return slot0._foeShipTree
 end
 
-function slot6.GetAircraftTree(slot0)
+function slot7.GetAircraftTree(slot0)
 	return slot0._aircraftTree
 end
 
-function slot6.DeleteShipLeaf(slot0, slot1)
+function slot7.DeleteShipLeaf(slot0, slot1)
 	if slot1:GetCldData().IFF == slot0._foeCode then
 		slot0.DeleteCldLeaf(slot0:GetFoeShipTree(), slot1)
 	elseif slot2 == slot0._friendlyCode then
@@ -414,7 +411,7 @@ function slot6.DeleteShipLeaf(slot0, slot1)
 	end
 end
 
-function slot6.DeleteBulletLeaf(slot0, slot1)
+function slot7.DeleteBulletLeaf(slot0, slot1)
 	if slot1:GetCldData().IFF == slot0._foeCode then
 		slot0.DeleteCldLeaf(slot0:GetFoeBulletTree(slot1:GetEffectField()), slot1)
 	elseif slot2 == slot0._friendlyCode then
@@ -422,70 +419,70 @@ function slot6.DeleteBulletLeaf(slot0, slot1)
 	end
 end
 
-function slot6.DeleteCldLeaf(slot0, slot1)
+function slot7.DeleteCldLeaf(slot0, slot1)
 	slot0:Remove(slot1:GetCldBox())
 end
 
-function slot6.GetShip(slot0, slot1)
+function slot7.GetShip(slot0, slot1)
 	return slot0._proxy:GetUnitList()[slot1]
 end
 
-function slot6.GetAircraft(slot0, slot1)
+function slot7.GetAircraft(slot0, slot1)
 	return slot0._proxy:GetAircraftList()[slot1]
 end
 
-function slot6.GetBullet(slot0, slot1)
+function slot7.GetBullet(slot0, slot1)
 	return slot0._proxy:GetBulletList()[slot1]
 end
 
-function slot6.GetAOE(slot0, slot1)
+function slot7.GetAOE(slot0, slot1)
 	return slot0._proxy:GetAOEList()[slot1]
 end
 
-function slot6.InitShipCld(slot0, slot1)
+function slot7.InitShipCld(slot0, slot1)
 	slot0:InsertToShipCldTree(slot1)
 end
 
-function slot6.DeleteShipCld(slot0, slot1)
+function slot7.DeleteShipCld(slot0, slot1)
 	slot1:DeactiveCldBox()
 	slot0:DeleteShipLeaf(slot1)
 end
 
-function slot6.InitAircraftCld(slot0, slot1)
+function slot7.InitAircraftCld(slot0, slot1)
 	slot0:InsertToAircraftCldTree(slot1)
 end
 
-function slot6.DeleteAircraftCld(slot0, slot1)
+function slot7.DeleteAircraftCld(slot0, slot1)
 	slot1:DeactiveCldBox()
 	slot0.DeleteCldLeaf(slot0:GetAircraftTree(), slot1)
 end
 
-function slot6.InitBulletCld(slot0, slot1)
+function slot7.InitBulletCld(slot0, slot1)
 	slot0:InsertToBulletCldTree(slot1:GetEffectField(), slot1)
 end
 
-function slot6.DeleteBulletCld(slot0, slot1)
+function slot7.DeleteBulletCld(slot0, slot1)
 	slot1:DeactiveCldBox()
 	slot0:DeleteBulletLeaf(slot1)
 end
 
-function slot6.ShiftBulletCld(slot0, slot1)
+function slot7.ShiftBulletCld(slot0, slot1)
 end
 
-function slot6.InitAOECld(slot0, slot1)
+function slot7.InitAOECld(slot0, slot1)
 	slot0:InsertToAOECldTree(slot1:GetFieldType(), slot1)
 end
 
-function slot6.DeleteAOECld(slot0, slot1)
+function slot7.DeleteAOECld(slot0, slot1)
 	slot1:DeactiveCldBox()
 	slot0.DeleteCldLeaf(slot0:GetAOETree(slot1:GetFieldType()), slot1)
 end
 
-function slot6.InitWallCld(slot0, slot1)
+function slot7.InitWallCld(slot0, slot1)
 	slot0:InsertToWallCldTree(slot1)
 end
 
-function slot6.DeleteWallCld(slot0, slot1)
+function slot7.DeleteWallCld(slot0, slot1)
 	slot1:DeactiveCldBox()
 
 	if slot0:GetWallTree() then

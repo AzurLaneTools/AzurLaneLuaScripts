@@ -231,14 +231,16 @@ return {
 						{
 							monsterTemplateID = 294401,
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							immuneHPInherit = true,
-							affix = true,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-30,
 								0,
 								50
+							},
+							buffList = {
+								8795
 							},
 							phase = {
 								{

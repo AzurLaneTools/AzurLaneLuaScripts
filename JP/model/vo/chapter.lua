@@ -1551,16 +1551,16 @@ end
 function slot0.getPoisonArea(slot0, slot1)
 	slot2 = {}
 	slot3 = slot0.theme.cellSize + slot0.theme.cellSpace
-	slot4 = math.floor(slot3.x * slot1)
-	slot5 = math.floor(slot3.y * slot1)
 
-	for slot9, slot10 in pairs(slot0.cells) do
-		if slot10:checkHadFlag(ChapterConst.FlagPoison) then
-			slot2[slot9] = {
-				x = math.floor(slot4 * (slot10.column - slot0.indexMin.y)),
-				y = math.floor(slot5 * (slot10.row - slot0.indexMin.x)),
-				w = slot4,
-				h = slot5
+	for slot7, slot8 in pairs(slot0.cells) do
+		if slot8:checkHadFlag(ChapterConst.FlagPoison) then
+			slot9 = math.floor((slot8.column - slot0.indexMin.y) * slot3.x * slot1)
+			slot11 = math.floor((slot8.row - slot0.indexMin.x) * slot3.y * slot1)
+			slot2[slot7] = {
+				x = slot9,
+				y = slot11,
+				w = math.ceil((slot8.column - slot0.indexMin.y + 1) * slot3.x * slot1) - slot9,
+				h = math.ceil((slot8.row - slot0.indexMin.x + 1) * slot3.y * slot1) - slot11
 			}
 		end
 	end
@@ -1872,7 +1872,7 @@ function slot0.existBarrier(slot0, slot1, slot2)
 		return true
 	end
 
-	if slot0:getChampion(slot1, slot2) and slot4.flag ~= ChapterConst.CellFlagDisabled and pg.expedition_data_template[slot4.attachmentId] and slot5.type == 97 then
+	if slot0:getChampion(slot1, slot2) and slot4.flag ~= ChapterConst.CellFlagDisabled and pg.expedition_data_template[slot4.attachmentId] and slot5.type == ChapterConst.ExpeditionTypeUnTouchable then
 		return true
 	end
 

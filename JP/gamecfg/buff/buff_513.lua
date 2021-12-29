@@ -1,10 +1,10 @@
 return {
 	init_effect = "",
-	name = "活动buff-祭典祈愿效果-战斗伤害提高",
+	name = "活动buff-祭典祈愿效果-战斗减伤提高",
 	time = 0,
 	color = "yellow",
 	picture = "",
-	desc = "舰队伤害提高",
+	desc = "舰队减伤提高",
 	stack = 1,
 	id = 513,
 	icon = 513,
@@ -17,7 +17,7 @@ return {
 			},
 			arg_list = {
 				attr = "injureRatio",
-				number = -0.2
+				number = -0.02
 			}
 		}
 	}

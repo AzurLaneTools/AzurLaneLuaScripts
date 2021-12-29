@@ -1,7 +1,4 @@
-slot0 = class("ThirdAnniversarySquareMediator", import("view.base.ContextMediator"))
-slot0.MINI_GAME_OPERATOR = "MINI_GAME_OPERATOR"
-slot0.GO_SCENE = "GO_SCENE"
-slot0.GO_SUBLAYER = "GO_SUBLAYER"
+slot0 = class("ThirdAnniversarySquareMediator", import("..TemplateMV.BackHillMediatorTemplate"))
 slot0.MINIGAME_OPERATION = "MINIGAME_OPERATION"
 slot0.ON_OPEN_TOWERCLIMBING_SIGNED = "ON_OPEN_TOWERCLIMBING_SIGNED"
 slot0.ACTIVITY_OPERATION = "ACTIVITY_OPERATION"
@@ -16,15 +13,7 @@ function slot0.register(slot0)
 end
 
 function slot0.BindEvent(slot0)
-	slot0:bind(uv0.GO_SCENE, function (slot0, slot1, ...)
-		uv0:sendNotification(GAME.GO_SCENE, slot1, ...)
-	end)
-	slot0:bind(uv0.GO_SUBLAYER, function (slot0, slot1, slot2)
-		uv0:addSubLayers(slot1, nil, slot2)
-	end)
-	slot0:bind(uv0.MINI_GAME_OPERATOR, function (slot0, ...)
-		uv0:sendNotification(GAME.SEND_MINI_GAME_OP, ...)
-	end)
+	uv0.super.BindEvent(slot0)
 	slot0:bind(uv0.ON_OPEN_TOWERCLIMBING_SIGNED, function ()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = ActivityConst.TOWERCLIMBING_SIGN

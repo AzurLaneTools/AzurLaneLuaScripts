@@ -30,7 +30,7 @@ function slot0.Set(slot0, slot1, slot2)
 
 	setText(slot0:findTF("window/top/name"), slot3.name)
 	setText(slot0:findTF("window/top/name/lv"), "Lv." .. slot5)
-	setText(slot0:findTF("window/frame/describe/text"), slot3.desc)
+	setScrollText(slot0:findTF("window/frame/describe/text"), slot3.desc)
 	setText(slot0:findTF("window/frame/content/title/lv/current"), "Lv." .. slot5)
 	setActive(slot0:findTF("window/frame/content/title/lv/next"), not slot8)
 

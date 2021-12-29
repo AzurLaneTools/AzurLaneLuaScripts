@@ -43,7 +43,7 @@ function slot0.init(slot0)
 		setParent(slot9, slot0._map)
 	end
 
-	slot0.loader = ThirdAnniversaryAutoloader.New()
+	slot0.loader = AutoLoader.New()
 end
 
 function slot0.didEnter(slot0)
@@ -108,7 +108,7 @@ function slot0.UpdateView(slot0)
 	slot5 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and getProxy(MiniGameProxy):GetHubByHubId(slot3:getConfig("config_id"))
 
 	setActive(slot0.upper_shatanpaiqiu:Find("tip"), slot5 and slot5.count > 0 or slot5:getConfig("reward_need") <= slot5.usedtime and slot5.ultimate == 0)
-	slot0.loader:GetSprite("ui/DOALinkIslandUI_atlas", tostring(slot5.usedtime or 0), slot0.map_shatanpaiqiu:Find("Digit"), true)
+	slot0.loader:GetSpriteQuiet("ui/DOALinkIslandUI_atlas", tostring(slot5.usedtime or 0), slot0.map_shatanpaiqiu:Find("Digit"), true)
 	setActive(slot0.upper_daoyvjianshe:Find("tip"), slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and slot7:readyToAchieve())
 	setActive(slot0.upper_jinianzhang:Find("tip"), Activity.isHaveActivableMedal())
 end

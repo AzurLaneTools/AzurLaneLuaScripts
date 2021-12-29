@@ -156,6 +156,15 @@ pg.settings_other_template = {
 		title = "友達の寮舎で秘書艦を表示",
 		desc = "ONにすると、自分が訪問した友達の寮舎に自分の秘書艦が表示されるようになる"
 	},
+	{
+		default = 1,
+		name = "QUICK_CHANGE_EQUIP",
+		type = 0,
+		alignment = 0,
+		id = 14,
+		title = "兵装高速変更確認表示",
+		desc = "（ON状態）装備高速変更時に確認画面が表示される"
+	},
 	all = {
 		1,
 		2,
@@ -169,6 +178,7 @@ pg.settings_other_template = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14
 	}
 }

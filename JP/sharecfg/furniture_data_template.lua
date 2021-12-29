@@ -4976,6 +4976,126 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[216] = {
+		spine_extra = "",
+		describe = "「お茶会コンセプトでもいいけど、回転率が悪くなる分には単価を上げるわ！というわけでハーマイオニー、素材の調達任せたわよ！」……",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "cafe_enicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ロイヤルカフェ模擬店",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/cafe_en",
+		canputon = 0,
+		id = 216,
+		can_rotate = 0,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[217] = {
+		spine_extra = "",
+		describe = "「母港の客層のことを考える砂糖の種類をもっと増やしたほうが良くて…あとマインツ、その提案はコストが高すぎるわ」……",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "cafe_gericon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "鉄血カフェ模擬店",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/cafe_ger",
+		canputon = 0,
+		id = 217,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[218] = {
+		spine_extra = "",
+		describe = "鉄血による人工特異点生成装置「ミッドガルド」の塔のミニチュアレプリカ（照明機能付き）――イベント「遡望せし虹彩の塔」に参加した指揮官に贈る",
+		gain_by = "遡望せし虹彩の塔",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "dexiurxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "「塔」のレプリカ",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 218,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"dexiurxunzhangB",
+				"normal"
+			},
+			{
+				"dexiurxunzhangT"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -7124,6 +7244,252 @@ pg.furniture_data_template = {
 					"action1"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100032] = {
+		belong = 1,
+		describe = "Zzzz…上手に焼けたピョ……",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "焼き魚饅頭",
+		tag = 6,
+		icon = "kaoyuicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100032,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kaoyu",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"kaoyuCharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"kaoyuCharControl",
+						"sit"
+					},
+					{
+						"sit3",
+						"kaoyuCharControl",
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			[4] = {},
+			[5] = {
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"kaoyuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[200001] = {
+		spine_extra = "",
+		describe = "「これがあなたの望む光景を叶えるもの、あなたが一時的な快楽を得られるシチュエーション」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "魔女に与えられし空想",
+		themeId = 0,
+		icon = "aogusite_2_furicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200001,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"aogusite_2_fur",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sleep",
+				{
+					499061
+				},
+				"furniture",
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[200002] = {
+		spine_extra = "",
+		describe = "「そこで寝ちゃ駄目だよアーダルベルトくん！アイゼンくん、早く起こして！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "閉店後のカウンター",
+		themeId = 0,
+		icon = "p2_2_furicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200002,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"P2_2_furB",
+				"normal"
+			},
+			{
+				"P2_2_furT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sit",
+				{
+					403101
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -94912,6 +95278,1286 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[85001] = {
+		spine_extra = "",
+		describe = "「どれ、今日もお手並み拝見といこう」",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "母港カフェの床",
+		effect = "",
+		advice = 0,
+		icon = "dibancafe2icon",
+		spine_action_replace = "",
+		picture = "cafe2/dibancafe2",
+		comfortable = 4,
+		canputon = 0,
+		id = 85001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85002] = {
+		spine_extra = "",
+		describe = "「どれ、今日もお手並み拝見といこう」",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "母港カフェの壁",
+		effect = "",
+		advice = 0,
+		icon = "qiangbicafe2icon",
+		spine_action_replace = "",
+		picture = "cafe2/qiangbicafe2",
+		comfortable = 4,
+		canputon = 0,
+		id = 85002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85101] = {
+		spine_extra = "",
+		describe = "「アイゼンくん、オムライス作れる？…そっか…」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiangcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "オムライス艤装の像",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/diaoxiangcafe2",
+		canputon = 0,
+		id = 85101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85102] = {
+		spine_extra = "",
+		describe = "ネココンセプトも…取り入れようと思ってな",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ditancafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "肉球カーペット",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/ditancafe2",
+		canputon = 0,
+		id = 85102,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85103] = {
+		spine_extra = "",
+		describe = "一人ぼっちではなく、隣席で",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "gaojiaodengcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェカウンターの椅子",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/gaojiaodengcafe2",
+		canputon = 0,
+		id = 85103,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85106] = {
+		spine_extra = "",
+		describe = "ご注文は何ピョ？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guitaicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェレジ",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "cafe2/guitaicafe2",
+		canputon = 0,
+		id = 85106,
+		can_rotate = 0,
+		size = {
+			12,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85107] = {
+		spine_extra = "",
+		describe = "「チラシと同じ内容です……かも…」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "lipaicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェの看板",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/lipaicafe2",
+		canputon = 0,
+		id = 85107,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85109] = {
+		spine_extra = "",
+		describe = "「誰かのご寄贈ってやつか」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "lvzhicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェの盆栽",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/lvzhicafe2",
+		canputon = 0,
+		id = 85109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85112] = {
+		spine_extra = "",
+		describe = "「よしよし、そのままおとなしくしてろよ…」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "maowocafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェのネコ",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/maowocafe2",
+		canputon = 0,
+		id = 85112,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85113] = {
+		spine_extra = "",
+		describe = "いらっしゃいませピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "nvpujicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "メイド店員饅頭A",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/nvpujicafe2",
+		canputon = 0,
+		id = 85113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85114] = {
+		spine_extra = "",
+		describe = "ご注文をお伺いしますピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "nvpuji2cafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "メイド店員饅頭B",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/nvpuji2cafe2",
+		canputon = 0,
+		id = 85114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85115] = {
+		spine_extra = "",
+		describe = "ゆったりと腰掛けるソファ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 85,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "ruanzuocafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ソファ席A",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/ruanzuocafe2",
+		canputon = 0,
+		id = 85115,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					16.7,
+					23
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85119] = {
+		spine_extra = "",
+		describe = "「マンガ読み放題なんてあるわけないじゃないですか！もう！」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuguicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェの本棚",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/shuguicafe2",
+		canputon = 0,
+		id = 85119,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85120] = {
+		spine_extra = "",
+		describe = "カフェを明るく照らすランプ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "taidengcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェのランプ",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/taidengcafe2",
+		canputon = 0,
+		id = 85120,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85123] = {
+		spine_extra = "",
+		describe = "い、今何かが動いた！？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 85,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wanjuduicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ぬいぐるみの山",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/wanjuduicafe2",
+		canputon = 0,
+		id = 85123,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21,
+					40.2
+				},
+				{
+					-1,
+					1
+				},
+				"cafe2/wanjuduicafe2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85124] = {
+		spine_extra = "",
+		describe = "「ヒッパーたちと一緒にやらないかって？ふん、音楽性が違うからな」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 85,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wutaicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェステージ",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/wutaicafe2",
+		canputon = 0,
+		id = 85124,
+		can_rotate = 0,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-23.4,
+					17.9
+				},
+				{
+					-1,
+					1
+				},
+				"cafe2/wutaicafe2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85125] = {
+		spine_extra = "",
+		describe = "ごゆっくりピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhishijicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "コンシェルジュ店員饅頭",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/zhishijicafe2",
+		canputon = 0,
+		id = 85125,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85126] = {
+		spine_extra = "",
+		describe = "「あら、私好みのコーナーじゃない」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "カフェのネコスペース",
+		themeId = 85,
+		icon = "maopajiacafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 85126,
+		can_rotate = 0,
+		size = {
+			8,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maopajiaB",
+				"normal"
+			},
+			{
+				"maopajiaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[85127] = {
+		spine_extra = "",
+		describe = "ゆったりと腰掛けるソファ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "ruanzuobcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェソファ",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/ruanzuobcafe2",
+		canputon = 0,
+		id = 85127,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85131] = {
+		spine_extra = "",
+		describe = "低めのテービル",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "zuozicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェテービル",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/zuozicafe2",
+		canputon = 1,
+		id = 85131,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {
+			0,
+			61.33
+		},
+		canputonGrid = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85201] = {
+		spine_extra = "",
+		describe = "「こ、これに何を書けばいいんだ…？」",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "danbaofancafe2icon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "オムライス",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/danbaofancafe2",
+		canputon = 0,
+		id = 85201,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85202] = {
+		spine_extra = "",
+		describe = "「言われた通り、ふりかけるよー」",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "fencafe2icon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "テーブルポット",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/fencafe2",
+		canputon = 0,
+		id = 85202,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85203] = {
+		spine_extra = "",
+		describe = "これなしに注文を覚えられれば一人前！",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 2,
+		icon = "canpaicafe2icon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "番号ボード",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/canpaicafe2",
+		canputon = 0,
+		id = 85203,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85301] = {
+		spine_extra = "",
+		describe = "「スクリュードライバーは……あわわ！？ボタン押すの早すぎた！？」",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "bichucafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カウンターの壁棚",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/bichucafe2",
+		canputon = 0,
+		id = 85301,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85302] = {
+		spine_extra = "",
+		describe = "外の景色と一緒にいい雰囲気",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuchuangcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェの窓A",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/chuchuangcafe2",
+		canputon = 0,
+		id = 85302,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85303] = {
+		spine_extra = "",
+		describe = "外の景色と一緒にいい雰囲気",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuchuang2cafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェの窓B",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/chuchuang2cafe2",
+		canputon = 0,
+		id = 85303,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85304] = {
+		spine_extra = "",
+		describe = "「シャングリラ、見たことがあるってどういうこと…？」",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guahuacafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェの飾り絵",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/guahuacafe2",
+		canputon = 0,
+		id = 85304,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85305] = {
+		spine_extra = "",
+		describe = "ようこそ母港のカフェへ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guapaicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェの吊り看板",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/guapaicafe2",
+		canputon = 0,
+		id = 85305,
+		can_rotate = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85306] = {
+		spine_extra = "",
+		describe = "今日の営業目標が書かれてある",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "heibancafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェの黒板",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/heibancafe2",
+		canputon = 0,
+		id = 85306,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85307] = {
+		spine_extra = "",
+		describe = "「ふふふ、営業時間を2分伸ばす…ですの♪」",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "mengcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェの扉",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/mengcafe2",
+		canputon = 0,
+		id = 85307,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85308] = {
+		spine_extra = "",
+		describe = "「卿らの営業時間から察するに…カフェじゃなくてバーね」",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "shizhongcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェの時計",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/shizhongcafe2",
+		canputon = 0,
+		id = 85308,
+		can_rotate = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85309] = {
+		spine_extra = "",
+		describe = "照明をもうちょっと落とすか…",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 5,
+		icon = "bidengcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "カフェの壁ランプ",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/bidengcafe2",
+		canputon = 0,
+		id = 85309,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -95016,6 +96662,9 @@ pg.furniture_data_template = {
 		212,
 		214,
 		215,
+		216,
+		217,
+		218,
 		100002,
 		100003,
 		100004,
@@ -95046,6 +96695,9 @@ pg.furniture_data_template = {
 		100029,
 		100030,
 		100031,
+		100032,
+		200001,
+		200002,
 		200003,
 		1001,
 		1002,
@@ -97047,6 +98699,38 @@ pg.furniture_data_template = {
 		84184,
 		84185,
 		84186,
-		84301
+		84301,
+		85001,
+		85002,
+		85101,
+		85102,
+		85103,
+		85106,
+		85107,
+		85109,
+		85112,
+		85113,
+		85114,
+		85115,
+		85119,
+		85120,
+		85123,
+		85124,
+		85125,
+		85126,
+		85127,
+		85131,
+		85201,
+		85202,
+		85203,
+		85301,
+		85302,
+		85303,
+		85304,
+		85305,
+		85306,
+		85307,
+		85308,
+		85309
 	}
 }

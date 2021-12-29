@@ -2480,6 +2480,30 @@ pg.world_SLGbuff_data = {
 		trap_parameter = {},
 		delete_traptype = {}
 	},
+	[4000] = {
+		buff_type = 2,
+		name = "分離式戦闘モジュール",
+		id = 4000,
+		trap_type = 0,
+		lua_id = 0,
+		delete_round = 0,
+		desc = "アビータ・XIVは戦闘中、特殊の戦闘モジュールを召喚します。特殊モジュールが存在する限り、アビータXIVが与えるダメージが$15アップ、受けるダメージが10%ダウン特殊モジュールを撃破すると、戦闘終了時までアビータXIVが受けるダメージが$10アップ",
+		delete_move = 0,
+		buff_maxfloor = 1,
+		buff_fx = "",
+		icon = "5000",
+		trap_lua = "",
+		buff_attr = {},
+		percent = {},
+		buff_effect = {},
+		buff_map_attr = {
+			0,
+			0,
+			0
+		},
+		trap_parameter = {},
+		delete_traptype = {}
+	},
 	all = {
 		1,
 		2,
@@ -2576,6 +2600,7 @@ pg.world_SLGbuff_data = {
 		2420,
 		2500,
 		2510,
-		2520
+		2520,
+		4000
 	}
 }

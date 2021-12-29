@@ -1812,6 +1812,10 @@ function slot0.updateBuffList(slot0, slot1)
 						uv0._buffTextTimer:Stop()
 					end
 
+					if uv0._buffTimeCountDownTimer then
+						uv0._buffTimeCountDownTimer:Stop()
+					end
+
 					setActive(uv0._buffText, true)
 
 					slot0 = uv1:getConfig("desc")

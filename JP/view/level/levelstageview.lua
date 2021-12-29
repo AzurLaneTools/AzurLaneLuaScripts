@@ -1558,7 +1558,11 @@ slot5 = {
 	[ChapterConst.StatusSunset] = "SunsetBar",
 	[ChapterConst.StatusMaze1] = "MazeBar",
 	[ChapterConst.StatusMaze2] = "MazeBar",
-	[ChapterConst.StatusMaze3] = "MazeBar"
+	[ChapterConst.StatusMaze3] = "MazeBar",
+	[ChapterConst.StatusMissile1] = "MissileBar",
+	[ChapterConst.StatusMissileInit] = "MissileWarningBar",
+	[ChapterConst.StatusMissile1B] = "MissileBar",
+	[ChapterConst.StatusMissileInitB] = "MissileWarningBar"
 }
 
 function slot0.PopBar(slot0)

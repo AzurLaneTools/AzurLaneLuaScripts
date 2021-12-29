@@ -300,10 +300,10 @@ pg.item_data_frame = {
 	[317] = {
 		time_limit_type = 0,
 		name = "交わる虹彩",
-		gain_by = "",
+		gain_by = "遡望せし虹彩の塔",
 		id = 317,
 		time_second = 0,
-		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		desc = "<color=#ffffff>「異界へと続くビフレスト。その先は天上の楽土か、それとも地の底かーー」</color>――「遡望せし虹彩の塔」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

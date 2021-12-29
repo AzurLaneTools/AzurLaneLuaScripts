@@ -541,6 +541,30 @@ return {
 			end
 		end
 	},
+	{
+		Tag = "MiniGameHub",
+		Image = "event_minigame",
+		ButtonName = "activity_newyear_2022",
+		Tip = "tip",
+		UpdateButton = function (slot0, slot1)
+			slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_CURLING) and not slot2:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.NEWYEAR_BACKHILL_2022)
+				end, SFX_PANEL)
+				setActive(slot1:Find("Tip"), (function ()
+					return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF))
+				end)() or (function ()
+					return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_CURLING)
+				end)() or (function ()
+					return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_FIREWORK_2022)
+				end)() or Shrine2022View.IsNeedShowTipWithoutActivityFinalReward())
+			end
+		end
+	},
 	LayoutProperty = {
 		CellSize = Vector2(208, 215),
 		Spacing = Vector2(0, -20),
@@ -557,6 +581,6 @@ return {
 		2,
 		4,
 		6,
-		21
+		22
 	}
 }

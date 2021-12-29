@@ -5,7 +5,6 @@ function slot0.getUIName(slot0)
 	return "FireworkFactoryUI"
 end
 
-slot0.MINIGAME_ID = 4
 slot2 = 50
 slot3 = {
 	{
@@ -156,7 +155,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btn_help, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_firework.tip
+			helps = pg.gametip.help_xinnian2022_firework.tip
 		})
 	end)
 	onButton(slot0, slot0.btn_next, function ()
@@ -420,11 +419,10 @@ function slot0.OnGetAwardDone(slot0, slot1)
 end
 
 function slot0.AfterResult(slot0)
-	slot1 = slot0:GetMGData()
-	slot3 = Clone(slot0.ballSelectStatus)
+	slot2 = Clone(slot0.ballSelectStatus)
 
-	table.insert(slot3, SummerFeastScene.GetCurrentDay())
-	slot0:StoreDataToServer(slot3)
+	table.insert(slot2, SummerFeastScene.GetCurrentDay())
+	slot0:StoreDataToServer(slot2)
 	onNextTick(function ()
 		uv0:emit(uv1.ON_BACK)
 	end)

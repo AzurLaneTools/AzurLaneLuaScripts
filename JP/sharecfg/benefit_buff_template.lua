@@ -120,7 +120,7 @@ pg.benefit_buff_template = {
 		max_time = 86400,
 		benefit_condition = "",
 		desc = "メイン海域及び作戦履歴海域戦闘時、味方が与えるダメージが微増\n残り時間:$1",
-		benefit_effect = "504",
+		benefit_effect = "522",
 		id = 11,
 		icon = "Props/buff_qiaozhong_11",
 		benefit_type = "battle_buff"
@@ -700,6 +700,261 @@ pg.benefit_buff_template = {
 		icon = "Props/xinshou",
 		benefit_type = "chapter_up"
 	},
+	{
+		benefit_effect = "510",
+		name = "皇家午茶Lv.1",
+		hide = 0,
+		max_time = 0,
+		id = 49,
+		icon = "Props/yanchangli1",
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊\nが敵から受けるダメージが1%ダウン",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "512",
+		name = "皇家午茶Lv.2",
+		hide = 0,
+		max_time = 0,
+		id = 50,
+		icon = "Props/yanchangli2",
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊\nが敵から受けるダメージが2%ダウン",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "514",
+		name = "皇家午茶Lv.3",
+		hide = 0,
+		max_time = 0,
+		id = 51,
+		icon = "Props/yanchangli3",
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊\nが敵から受けるダメージが3%ダウン",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "516",
+		name = "皇家午茶Lv.4",
+		hide = 0,
+		max_time = 0,
+		id = 52,
+		icon = "Props/yanchangli2",
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊\nが敵から受けるダメージが4%ダウン",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "518",
+		name = "皇家午茶Lv.5",
+		hide = 0,
+		max_time = 0,
+		id = 53,
+		icon = "Props/yanchangli3",
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊\nが敵から受けるダメージが5%ダウン",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "500",
+		name = "莱茵咖啡馆Lv.1",
+		hide = 0,
+		max_time = 0,
+		id = 54,
+		icon = "Props/wudaoli1",
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊\nが敵に与えるダメージが1%アップ",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "502",
+		name = "莱茵咖啡馆Lv.2",
+		hide = 0,
+		max_time = 0,
+		id = 55,
+		icon = "Props/wudaoli2",
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊\nが敵に与えるダメージが2%アップ",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "504",
+		name = "莱茵咖啡馆Lv.3",
+		hide = 0,
+		max_time = 0,
+		id = 56,
+		icon = "Props/wudaoli3",
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊\nが敵に与えるダメージが3%アップ",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "506",
+		name = "莱茵咖啡馆Lv.4",
+		hide = 0,
+		max_time = 0,
+		id = 57,
+		icon = "Props/wudaoli2",
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊\nが敵に与えるダメージが4%アップ",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "508",
+		name = "莱茵咖啡馆Lv.5",
+		hide = 0,
+		max_time = 0,
+		id = 58,
+		icon = "Props/wudaoli3",
+		benefit_type = "battle_buff",
+		desc = "メイン・ハード・イベント・作戦履歴海域における味方艦隊\nが敵に与えるダメージが5%アップ",
+		benefit_condition = {
+			"activity",
+			4202,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "鹬的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 59,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "幸運祈願：翔鶴――メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵から受けるダメージが3%ダウン\n残り時間:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "鹤的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 60,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "幸運祈願：瑞鶴――メイン・ハード・イベント・作戦履歴海域における味方艦隊が得る経験値3%アップ\n残り時間:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "恶毒的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 61,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "幸運祈願：ル・マラン――寮舎における経験値入手量が3%アップ\n残り時間:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "胜利的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 62,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "幸運祈願：ヴィクトリアス――寮舎における経験値入手量が3%アップ\n残り時間:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "提尔比茨的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 63,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "幸運祈願：ティルピッツ――メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵から受けるダメージが3%ダウン\n残り時間:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "520",
+		name = "光辉的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 64,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "幸運祈願：イラストリアス――メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵から受けるダメージが3%ダウン\n残り時間:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
+	{
+		benefit_effect = "3",
+		name = "埃塞克斯的祈愿",
+		hide = 0,
+		max_time = 86400,
+		id = 65,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		desc = "幸運祈願：エセックス――メイン・ハード・イベント・作戦履歴海域における味方艦隊が得る経験値3%アップ\n残り時間:$1",
+		benefit_condition = {
+			"activity",
+			4203,
+			0
+		}
+	},
 	all = {
 		1,
 		2,
@@ -748,6 +1003,23 @@ pg.benefit_buff_template = {
 		45,
 		46,
 		47,
-		48
+		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65
 	}
 }

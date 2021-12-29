@@ -13000,6 +13000,1062 @@ pg.map_event_template = {
 		},
 		effect = {}
 	},
+	[606] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 606,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			2,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				0,
+				5,
+				0,
+				5
+			}
+		}
+	},
+	[607] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 607,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			4,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				1,
+				5,
+				1,
+				5
+			}
+		}
+	},
+	[608] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 608,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			6,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				2,
+				5,
+				2,
+				5
+			}
+		}
+	},
+	[609] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 609,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			8,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				3,
+				5,
+				3,
+				5
+			}
+		}
+	},
+	[610] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 610,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			10,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				4,
+				5,
+				4,
+				5
+			}
+		}
+	},
+	[611] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 611,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			12,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				5,
+				5,
+				5,
+				5
+			}
+		}
+	},
+	[612] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 612,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			14,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				6,
+				5,
+				6,
+				5
+			}
+		}
+	},
+	[613] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 613,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			16,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				7,
+				5,
+				7,
+				5
+			}
+		}
+	},
+	[614] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 614,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			18,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				8,
+				5,
+				8,
+				5
+			}
+		}
+	},
+	[615] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 615,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			20,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				9,
+				5,
+				9,
+				5
+			}
+		}
+	},
+	[616] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 616,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			22,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				10,
+				5,
+				10,
+				5
+			}
+		}
+	},
+	[617] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 617,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				33
+			}
+		}
+	},
+	[618] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 4,
+		c_type = 0,
+		id = 618,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag_if",
+				30,
+				31
+			},
+			{
+				"flag_if",
+				33,
+				31
+			}
+		}
+	},
+	[619] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 4,
+		c_type = 0,
+		id = 619,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				31,
+				32
+			}
+		}
+	},
+	[620] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 4,
+		c_type = 0,
+		id = 620,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				32,
+				30
+			}
+		}
+	},
+	[621] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 4,
+		c_type = 0,
+		id = 621,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"fire"
+			}
+		}
+	},
+	[622] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 4,
+		id = 622,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			24,
+			"siren_chase_warning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				11,
+				5,
+				11,
+				5
+			}
+		}
+	},
+	[623] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 623,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1601308,
+						{
+							3,
+							4
+						}
+					},
+					{
+						1601309,
+						{
+							1,
+							7
+						}
+					},
+					{
+						1601310,
+						{
+							3,
+							9
+						}
+					}
+				}
+			}
+		}
+	},
+	[624] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 624,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1603311,
+						{
+							3,
+							4
+						}
+					},
+					{
+						1603312,
+						{
+							1,
+							7
+						}
+					},
+					{
+						1603313,
+						{
+							3,
+							9
+						}
+					}
+				}
+			}
+		}
+	},
+	[625] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 625,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			0,
+			0
+		},
+		effect = {}
+	},
+	[626] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 626,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			0,
+			1
+		},
+		effect = {}
+	},
+	[627] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 627,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			1,
+			0
+		},
+		effect = {}
+	},
+	[628] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 628,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			1,
+			2
+		},
+		effect = {}
+	},
+	[629] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 629,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			1,
+			3
+		},
+		effect = {}
+	},
+	[630] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 630,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			2,
+			3
+		},
+		effect = {}
+	},
+	[631] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 631,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			4,
+			4
+		},
+		effect = {}
+	},
+	[632] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 632,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			4,
+			5
+		},
+		effect = {}
+	},
+	[633] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 633,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			5,
+			3
+		},
+		effect = {}
+	},
+	[634] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 634,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			5,
+			4
+		},
+		effect = {}
+	},
+	[635] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 635,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			5,
+			5
+		},
+		effect = {}
+	},
+	[636] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 636,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			2,
+			6
+		},
+		effect = {}
+	},
+	[637] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 637,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			3,
+			6
+		},
+		effect = {}
+	},
+	[638] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 638,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			1,
+			8
+		},
+		effect = {}
+	},
+	[639] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 639,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			2,
+			8
+		},
+		effect = {}
+	},
+	[640] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 640,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			1,
+			9
+		},
+		effect = {}
+	},
+	[641] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 641,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			0,
+			10
+		},
+		effect = {}
+	},
+	[642] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 642,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			0,
+			11
+		},
+		effect = {}
+	},
+	[643] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 643,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			1,
+			10
+		},
+		effect = {}
+	},
+	[644] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 644,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			1,
+			11
+		},
+		effect = {}
+	},
+	[645] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 645,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			4,
+			10
+		},
+		effect = {}
+	},
+	[646] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 646,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			4,
+			11
+		},
+		effect = {}
+	},
+	[647] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 647,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			5,
+			10
+		},
+		effect = {}
+	},
+	[648] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 2,
+		preinstall = 3,
+		c_type = 0,
+		id = 648,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "None",
+		address = {
+			5,
+			11
+		},
+		effect = {}
+	},
+	[649] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 649,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				37
+			}
+		}
+	},
+	[650] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 4,
+		c_type = 0,
+		id = 650,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag_if",
+				34,
+				35
+			},
+			{
+				"flag_if",
+				37,
+				35
+			}
+		}
+	},
+	[651] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 4,
+		c_type = 0,
+		id = 651,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				35,
+				36
+			}
+		}
+	},
+	[652] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 4,
+		c_type = 0,
+		id = 652,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				36,
+				34
+			}
+		}
+	},
+	[653] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 4,
+		c_type = 0,
+		id = 653,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"fire"
+			}
+		}
+	},
 	all = {
 		20,
 		21,
@@ -13560,6 +14616,54 @@ pg.map_event_template = {
 		602,
 		603,
 		604,
-		605
+		605,
+		606,
+		607,
+		608,
+		609,
+		610,
+		611,
+		612,
+		613,
+		614,
+		615,
+		616,
+		617,
+		618,
+		619,
+		620,
+		621,
+		622,
+		623,
+		624,
+		625,
+		626,
+		627,
+		628,
+		629,
+		630,
+		631,
+		632,
+		633,
+		634,
+		635,
+		636,
+		637,
+		638,
+		639,
+		640,
+		641,
+		642,
+		643,
+		644,
+		645,
+		646,
+		647,
+		648,
+		649,
+		650,
+		651,
+		652,
+		653
 	}
 }

@@ -151,11 +151,6 @@ function slot0.InitEvent(slot0)
 		slot0:emit(ShipMainMediator.PROPOSE, slot3:GetShipVO().id, function ()
 		end)
 	end)
-	onButton(slot0, slot0.equipments, function ()
-		if not uv0.isShowQuick then
-			uv0:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.EQUIPMENT)
-		end
-	end, SFX_PANEL)
 	onToggle(slot0, slot0.showRecordBtn, function (slot0)
 		slot1, slot2 = ShipStatus.ShipStatusCheck("onModify", uv0:GetShipVO())
 
@@ -276,22 +271,7 @@ function slot0.InitEvent(slot0)
 
 			setActive(findTF(tf(slot1), "IconTpl/icon_bg/equip_flag"), slot3.shipId and slot3.shipId > 0)
 			onButton(uv0, tf(slot1), function ()
-				if uv0:GetShipVO() and {
-					type = EquipmentInfoMediator.TYPE_REPLACE,
-					equipmentId = uv1.id,
-					shipId = uv0:GetShipVO().id,
-					pos = uv0.selectedEquip.index,
-					oldShipId = uv1.shipId,
-					oldPos = uv1.shipPos
-				} or uv1.shipId and {
-					showTransformTip = true,
-					type = EquipmentInfoMediator.TYPE_DISPLAY,
-					equipmentId = uv1.id,
-					shipId = uv1.shipId,
-					pos = uv1.shipPos
-				} or nil then
-					uv0:emit(BaseUI.ON_EQUIPMENT, slot2)
-				end
+				uv0:changeEquip(uv1)
 			end, SFX_PANEL)
 		end
 	end
@@ -461,6 +441,55 @@ function slot0.InitEvent(slot0)
 			end
 		})
 	end, SFX_PANEL)
+end
+
+function slot0.changeEquip(slot0, slot1)
+	if slot0:GetShipVO() and {
+		type = EquipmentInfoMediator.TYPE_REPLACE,
+		equipmentId = slot1.id,
+		shipId = slot0:GetShipVO().id,
+		pos = slot0.selectedEquip.index,
+		oldShipId = slot1.shipId,
+		oldPos = slot1.shipPos
+	} or slot1.shipId and {
+		showTransformTip = true,
+		type = EquipmentInfoMediator.TYPE_DISPLAY,
+		equipmentId = slot1.id,
+		shipId = slot1.shipId,
+		pos = slot1.shipPos
+	} or nil then
+		slot4.quickFlag = true
+
+		if PlayerPrefs.GetInt("QUICK_CHANGE_EQUIP", 1) == 1 then
+			slot0:emit(BaseUI.ON_EQUIPMENT, slot4)
+		else
+			slot6, slot7 = slot3:canEquipAtPos(slot1, slot2)
+
+			if not slot6 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_equipmentInfoLayer_error_canNotEquip", slot7))
+
+				return
+			end
+
+			if slot1.shipId then
+				slot10, slot11 = ShipStatus.ShipStatusCheck("onModify", getProxy(BayProxy):getShipById(slot1.shipId))
+
+				if not slot10 then
+					pg.TipsMgr.GetInstance():ShowTips(slot11)
+				else
+					slot0:emit(ShipMainMediator.EQUIP_CHANGE_NOTICE, {
+						notice = GAME.EQUIP_FROM_SHIP,
+						data = slot4
+					})
+				end
+			else
+				slot0:emit(ShipMainMediator.EQUIP_CHANGE_NOTICE, {
+					notice = GAME.EQUIP_TO_SHIP,
+					data = slot4
+				})
+			end
+		end
+	end
 end
 
 function slot0.SetShareData(slot0, slot1)

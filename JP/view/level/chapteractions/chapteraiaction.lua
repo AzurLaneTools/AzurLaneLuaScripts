@@ -34,7 +34,7 @@ function slot0.Ctor(slot0, slot1)
 		end
 	end)
 
-	slot0.actionType = slot1.act_type
+	slot0.actType = slot1.act_type
 	slot0.hp_del = slot1.hp_del
 end
 
@@ -106,7 +106,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 			function (slot0)
 				slot1 = false
 
-				if uv0.actionType == 2 and #uv0.cellUpdates > 0 then
+				if uv0.actType == ChapterConst.ActType_SubmarineHunting and #uv0.cellUpdates > 0 then
 					_.each(uv0.cellUpdates, function (slot0)
 						if uv0.row == slot0.row and uv0.column == slot0.column and isa(slot0, ChapterChampionPackage) then
 							uv1:TryPlayChampionSubAnim(uv2, slot0, uv3, uv4)
@@ -206,7 +206,7 @@ function slot0.applyToChampion(slot0, slot1, slot2, slot3)
 			slot4 = bit.bor(slot4, ChapterConst.DirtyFleet)
 		end
 
-		if slot0.actionType == 2 and slot1:getChapterCell(slot6.row, slot6.column) and slot7.attachment == ChapterConst.AttachBarrier then
+		if slot0.actType == ChapterConst.ActType_SubmarineHunting and slot1:getChapterCell(slot6.row, slot6.column) and slot7.attachment == ChapterConst.AttachBarrier then
 			slot7.flag = 1
 
 			slot1:mergeChapterCell(slot7)

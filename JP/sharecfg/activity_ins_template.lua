@@ -6942,6 +6942,126 @@ pg.activity_ins_template = {
 			2333
 		}
 	},
+	{
+		ship_group = 40503,
+		name = "U.V.Hutten",
+		sculpture = "wuerlixi_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 264,
+		id = 264,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 40310,
+		name = "PrinzAdalbert",
+		sculpture = "adaerbote",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 265,
+		id = 265,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 40206,
+		name = "Magdeburg",
+		sculpture = "magedebao",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 266,
+		id = 266,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 40602,
+		name = "Elbe",
+		sculpture = "yibei",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 267,
+		id = 267,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 40812,
+		name = "U.B.1206",
+		sculpture = "U1206",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 268,
+		id = 268,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 39905,
+		name = "Hakuryū",
+		sculpture = "bailong_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 269,
+		id = 269,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20229,
+		name = "Penelope",
+		sculpture = "peineiluopo_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 270,
+		id = 270,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10802,
+		name = "G_Albacore",
+		sculpture = "daqinghuayu_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 271,
+		id = 271,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20133,
+		name = "Icarus_Wing",
+		sculpture = "yikaluosi_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 272,
+		id = 272,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 30314,
+		name = "ToriUmi",
+		sculpture = "niaohai_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 273,
+		id = 273,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -7205,6 +7325,16 @@ pg.activity_ins_template = {
 		260,
 		261,
 		262,
-		263
+		263,
+		264,
+		265,
+		266,
+		267,
+		268,
+		269,
+		270,
+		271,
+		272,
+		273
 	}
 }

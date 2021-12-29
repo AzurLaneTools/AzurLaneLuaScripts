@@ -24,7 +24,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAntiAirWeaponFire"
+				"onAntiAirWeaponFireNear"
 			},
 			arg_list = {
 				rant = 2500,

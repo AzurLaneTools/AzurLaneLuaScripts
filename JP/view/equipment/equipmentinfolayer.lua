@@ -49,6 +49,10 @@ function slot0.init(slot0)
 
 	setActive(slot0.sample, false)
 	setActive(slot0.defaultPanel:Find("transform_tip"), false)
+
+	slot0.txtQuickEnable = findTF(slot0._tf, "txtQuickEnable")
+
+	setText(slot0.txtQuickEnable, i18n("ship_equip_check"))
 end
 
 function slot0.setEquipment(slot0, slot1)
@@ -92,6 +96,8 @@ function slot0.setDestroyCount(slot0, slot1)
 end
 
 function slot0.didEnter(slot0)
+	setActive(slot0.txtQuickEnable, slot0.contextData.quickFlag or false)
+
 	slot1 = defaultValue(slot0.contextData.type, EquipmentInfoMediator.TYPE_DEFAULT)
 	slot0.isShowUnique = table.contains(EquipmentInfoMediator.SHOW_UNIQUE, slot1)
 

@@ -10945,6 +10945,264 @@ pg.expedition_data_by_map = {
 			0.5
 		}
 	},
+	[1600001] = {
+		map = 1600001,
+		name = "遡望せし虹彩の塔·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-midgard",
+		enter_story = "NIZHUANCAIHONGZHITA1",
+		ani_name = "Map_1600001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4191,
+		ui_type = 1,
+		bg = "Map_1600001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1600011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1600002] = {
+		map = 1600002,
+		name = "遡望せし虹彩の塔·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-midgard-hunting",
+		enter_story = "NIZHUANCAIHONGZHITA16",
+		ani_name = "Map_1600002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4191,
+		ui_type = 1,
+		bg = "Map_1600002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1600012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1600011] = {
+		map = 1600011,
+		name = "遡望せし虹彩の塔·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-midgard",
+		enter_story = "NIZHUANCAIHONGZHITA1",
+		ani_name = "Map_1600003",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4191,
+		ui_type = 1,
+		bg = "Map_1600003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1600001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1600012] = {
+		map = 1600012,
+		name = "遡望せし虹彩の塔·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-midgard-hunting",
+		enter_story = "NIZHUANCAIHONGZHITA16",
+		ani_name = "Map_1600004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4191,
+		ui_type = 1,
+		bg = "Map_1600004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1600002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1600025] = {
+		map = 1600025,
+		name = "遡望せし虹彩の塔·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-midgard-hunting",
+		enter_story = "",
+		ani_name = "Map_1600004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4191,
+		ui_type = 1,
+		bg = "Map_1600004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1600012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1600026] = {
+		map = 1600026,
+		name = "遡望せし虹彩の塔·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-midgard-hunting",
+		enter_story = "",
+		ani_name = "Map_1600004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4191,
+		ui_type = 1,
+		bg = "Map_1600004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1600012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染の来訪者』-前編|| ||CHAPTER EX||E.X.",
@@ -12709,6 +12967,12 @@ pg.expedition_data_by_map = {
 		1590001,
 		1590002,
 		1590003,
+		1600001,
+		1600002,
+		1600011,
+		1600012,
+		1600025,
+		1600026,
 		2100000,
 		2100001,
 		2100010,
