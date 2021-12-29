@@ -178,7 +178,7 @@ function slot0.UpdateBuildPoolExchange(slot0, slot1)
 		setActive(slot0.buildPoolExchangeGetBtnMark, slot11)
 
 		slot0.buildPoolExchangeGetTxt.text = slot9 .. "/" .. slot4
-		slot0.buildPoolExchangeName.text = pg.ship_data_statistics[slot5].name
+		slot0.buildPoolExchangeName.text = SwitchSpecialChar(HXSet.hxLan(pg.ship_data_statistics[slot5].name), true)
 
 		onButton(slot0, slot0.buildPoolExchangeTF, function ()
 			if uv0 then

@@ -68,7 +68,13 @@ function slot0.Switch(slot0, slot1)
 end
 
 function slot0.UpdateAwardGot(slot0)
-	setActive(slot0:findTF("switcher/phase2/got", slot0.bg), not slot0.ptData:CanGetNextAward() and slot0.inPhase2)
+	slot2 = not slot0.ptData:CanGetNextAward() and slot0.inPhase2
+
+	setActive(slot0:findTF("switcher/phase2/got", slot0.bg), slot2)
+
+	if slot2 then
+		setActive(slot0.battleBtn, false)
+	end
 end
 
 function slot0.OnUpdateFlush(slot0)

@@ -257831,13 +257831,13 @@ pg.chapter_template_loop = {
 		limitation = {
 			{
 				{
-					"zhan",
+					5,
 					0,
 					0
 				},
 				{
-					1,
-					2,
+					3,
+					0,
 					0
 				}
 			},
@@ -257858,15 +257858,15 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				70
+				75
 			},
 			{
 				"cannon",
 				1,
-				500
+				700
 			},
 			{
-				"torpedo",
+				"dodge",
 				1,
 				400
 			}
@@ -258393,13 +258393,13 @@ pg.chapter_template_loop = {
 		limitation = {
 			{
 				{
-					"zhan",
+					5,
 					0,
 					0
 				},
 				{
-					1,
-					2,
+					3,
+					0,
 					0
 				}
 			},
@@ -258420,17 +258420,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				75
+				80
 			},
 			{
 				"cannon",
 				1,
-				650
+				800
 			},
 			{
 				"dodge",
 				1,
-				350
+				500
 			}
 		},
 		expedition_id_weight_list = {
@@ -259016,13 +259016,13 @@ pg.chapter_template_loop = {
 		limitation = {
 			{
 				{
-					"zhan",
+					5,
 					0,
 					0
 				},
 				{
-					1,
-					2,
+					3,
+					0,
 					0
 				}
 			},
@@ -259043,17 +259043,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				80
+				85
 			},
 			{
 				"cannon",
 				1,
-				800
+				950
 			},
 			{
-				"reload",
+				"torpedo",
 				1,
-				800
+				1100
 			}
 		},
 		expedition_id_weight_list = {
@@ -259770,25 +259770,25 @@ pg.chapter_template_loop = {
 		limitation = {
 			{
 				{
-					6,
-					0,
+					5,
+					5,
 					0
 				},
 				{
-					2,
-					1,
+					3,
+					0,
 					0
 				}
 			},
 			{
 				{
+					4,
 					7,
-					0,
 					0
 				},
 				{
-					3,
-					1,
+					2,
+					0,
 					0
 				}
 			}
@@ -259802,7 +259802,7 @@ pg.chapter_template_loop = {
 			{
 				"cannon",
 				1,
-				950
+				1200
 			},
 			{
 				"dodge",
@@ -260504,25 +260504,25 @@ pg.chapter_template_loop = {
 		limitation = {
 			{
 				{
-					6,
-					0,
+					5,
+					5,
 					0
 				},
 				{
-					2,
-					1,
+					3,
+					0,
 					0
 				}
 			},
 			{
 				{
+					4,
 					7,
-					0,
 					0
 				},
 				{
-					3,
-					1,
+					2,
+					0,
 					0
 				}
 			}
@@ -260534,14 +260534,14 @@ pg.chapter_template_loop = {
 				95
 			},
 			{
-				"cannon",
+				"air",
 				1,
-				1100
+				1300
 			},
 			{
-				"antiaircraft",
+				"antisub",
 				1,
-				1600
+				650
 			}
 		},
 		expedition_id_weight_list = {
@@ -261260,25 +261260,25 @@ pg.chapter_template_loop = {
 		limitation = {
 			{
 				{
-					6,
-					0,
+					5,
+					5,
 					0
 				},
 				{
-					2,
-					1,
+					3,
+					0,
 					0
 				}
 			},
 			{
 				{
+					4,
 					7,
-					0,
 					0
 				},
 				{
-					3,
-					1,
+					2,
+					0,
 					0
 				}
 			}
@@ -261292,12 +261292,12 @@ pg.chapter_template_loop = {
 			{
 				"cannon",
 				1,
-				1600
+				1500
 			},
 			{
-				"dodge",
+				"torpedo",
 				1,
-				950
+				1400
 			}
 		},
 		expedition_id_weight_list = {

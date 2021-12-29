@@ -269,7 +269,7 @@ return {
 						101
 					},
 					triggerParams = {
-						bgm = "hunhe-boss"
+						bgm = "battle-midgard"
 					}
 				},
 				{

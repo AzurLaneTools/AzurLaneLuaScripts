@@ -36,16 +36,6 @@ return {
 					}
 				},
 				{
-					triggerType = 5,
-					waveIndex = 400,
-					preWaves = {
-						100
-					},
-					triggerParams = {
-						bgm = "battle-AF"
-					}
-				},
-				{
 					triggerType = 1,
 					waveIndex = 201,
 					preWaves = {

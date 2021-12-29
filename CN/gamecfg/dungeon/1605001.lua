@@ -42,7 +42,7 @@ return {
 						100
 					},
 					triggerParams = {
-						bgm = "battle-AF"
+						bgm = "theme-midgard-hunting"
 					}
 				},
 				{
